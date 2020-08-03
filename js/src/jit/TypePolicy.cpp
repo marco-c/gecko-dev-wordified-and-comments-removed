@@ -37,6 +37,15 @@ h
 #
 include
 "
+js
+/
+ScalarType
+.
+h
+"
+#
+include
+"
 jit
 /
 shared

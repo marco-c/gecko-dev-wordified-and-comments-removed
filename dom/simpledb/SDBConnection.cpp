@@ -15,7 +15,9 @@ h
 #
 include
 "
-jsfriendapi
+js
+/
+ArrayBuffer
 .
 h
 "
@@ -24,7 +26,9 @@ include
 "
 js
 /
-ArrayBuffer
+experimental
+/
+TypedData
 .
 h
 "

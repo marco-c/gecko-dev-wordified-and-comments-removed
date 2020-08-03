@@ -45,6 +45,15 @@ h
 #
 include
 "
+js
+/
+ScalarType
+.
+h
+"
+#
+include
+"
 jit
 /
 MacroAssembler

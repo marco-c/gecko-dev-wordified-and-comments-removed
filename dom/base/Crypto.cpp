@@ -15,6 +15,17 @@ h
 #
 include
 "
+js
+/
+experimental
+/
+TypedData
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

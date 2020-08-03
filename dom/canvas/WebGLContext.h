@@ -40,6 +40,15 @@ h
 #
 include
 "
+js
+/
+ScalarType
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes

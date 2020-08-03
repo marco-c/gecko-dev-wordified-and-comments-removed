@@ -365,6 +365,15 @@ h
 #
 include
 "
+js
+/
+ScalarType
+.
+h
+"
+#
+include
+"
 util
 /
 CheckedArithmetic

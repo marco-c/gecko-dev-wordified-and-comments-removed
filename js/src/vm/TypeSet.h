@@ -98,6 +98,15 @@ include
 "
 js
 /
+ScalarType
+.
+h
+"
+#
+include
+"
+js
+/
 TracingAPI
 .
 h

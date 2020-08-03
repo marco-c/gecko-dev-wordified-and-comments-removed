@@ -22,6 +22,15 @@ JitAllocPolicy
 .
 h
 "
+#
+include
+"
+js
+/
+ScalarType
+.
+h
+"
 namespace
 js
 {

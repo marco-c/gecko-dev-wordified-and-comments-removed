@@ -113,6 +113,15 @@ WarpSnapshot
 .
 h
 "
+#
+include
+"
+js
+/
+ScalarType
+.
+h
+"
 using
 namespace
 js

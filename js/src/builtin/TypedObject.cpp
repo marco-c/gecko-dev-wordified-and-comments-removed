@@ -64,6 +64,15 @@ include
 "
 js
 /
+ScalarType
+.
+h
+"
+#
+include
+"
+js
+/
 Vector
 .
 h

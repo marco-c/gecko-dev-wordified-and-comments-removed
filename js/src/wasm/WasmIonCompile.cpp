@@ -33,6 +33,15 @@ h
 #
 include
 "
+js
+/
+ScalarType
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmBaselineCompile

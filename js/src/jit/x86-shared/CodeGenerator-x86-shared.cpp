@@ -88,6 +88,15 @@ h
 #
 include
 "
+js
+/
+ScalarType
+.
+h
+"
+#
+include
+"
 vm
 /
 TraceLogging

@@ -40,6 +40,15 @@ SharedICRegisters
 .
 h
 "
+#
+include
+"
+js
+/
+ScalarType
+.
+h
+"
 namespace
 js
 {

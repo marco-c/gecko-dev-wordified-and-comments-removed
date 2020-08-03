@@ -30,6 +30,17 @@ include
 "
 js
 /
+experimental
+/
+TypedData
+.
+h
+"
+#
+include
+"
+js
+/
 SharedArrayBuffer
 .
 h
