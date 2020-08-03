@@ -948,7 +948,9 @@ symbols
 -
 full
 .
-zip
+tar
+.
+zst
 '
         
 elif

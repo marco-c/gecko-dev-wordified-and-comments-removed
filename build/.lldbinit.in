@@ -126,8 +126,6 @@ crashreporter
 symbols
 -
 full
-.
-zip
 "
 uncompressed
 ELF

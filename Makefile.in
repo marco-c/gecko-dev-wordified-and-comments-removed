@@ -1516,7 +1516,9 @@ PKG_PATH
 SYMBOL_FULL_ARCHIVE_BASENAME
 )
 .
-zip
+tar
+.
+zst
 '
 (
 call
@@ -1534,7 +1536,9 @@ PKG_PATH
 SYMBOL_FULL_ARCHIVE_BASENAME
 )
 .
-zip
+tar
+.
+zst
 '
 \
 (
@@ -1676,7 +1680,9 @@ PKG_PATH
 SYMBOL_FULL_ARCHIVE_BASENAME
 )
 .
-zip
+tar
+.
+zst
 '
 endif
 .

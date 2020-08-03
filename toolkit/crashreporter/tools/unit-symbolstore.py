@@ -1159,28 +1159,6 @@ copied
 )
 )
     
-patch
-.
-dict
-(
-"
-buildconfig
-.
-substs
-.
-_dict
-"
-{
-"
-MAKECAB
-"
-:
-"
-makecab
-"
-}
-)
-    
 def
 test_copy_debug_copies_binaries
 (
@@ -1382,15 +1360,6 @@ symbol_dir
 code_file
 code_id
 code_file
-[
-:
--
-1
-]
-+
-"
-_
-"
 )
             
 )

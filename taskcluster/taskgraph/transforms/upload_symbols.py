@@ -301,6 +301,18 @@ dependency
 ]
         
 task
+.
+pop
+(
+'
+dependent
+-
+tasks
+'
+None
+)
+        
+task
 [
 '
 label
