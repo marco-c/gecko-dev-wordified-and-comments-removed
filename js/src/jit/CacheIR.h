@@ -7580,6 +7580,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachStringReplaceString
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachMathRandom
 (
 HandleFunction
