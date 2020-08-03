@@ -4378,11 +4378,11 @@ if
 mTarget
 )
 {
-UnregisterTarget
+ResetIsRunningOnCompositor
 (
 )
 ;
-ResetIsRunningOnCompositor
+UnregisterTarget
 (
 )
 ;
