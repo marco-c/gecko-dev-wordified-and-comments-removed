@@ -881,12 +881,12 @@ GetWarningReporter
 )
 ;
 bool
-DataSentToChildProcess
+OnDataAlreadySent
 (
 )
 {
 return
-mDataSentToChildProcess
+mDataAlreadySent
 ;
 }
 public
@@ -3009,7 +3009,7 @@ mTopWindowOriginComputed
 1
 ;
 uint32_t
-mDataSentToChildProcess
+mDataAlreadySent
 :
 1
 ;

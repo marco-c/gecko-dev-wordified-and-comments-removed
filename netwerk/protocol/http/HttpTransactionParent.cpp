@@ -400,7 +400,7 @@ mChannelId
 (
 0
 )
-mDataSentToChildProcess
+mDataAlreadySent
 (
 false
 )
@@ -932,8 +932,6 @@ mTransactionObserver
 pushedStreamArg
 throttleQueue
 mIsDocumentLoad
-mRedirectStart
-mRedirectEnd
 )
 )
 {
@@ -1743,12 +1741,12 @@ bool
 HttpTransactionParent
 :
 :
-DataSentToChildProcess
+DataAlreadySent
 (
 )
 {
 return
-mDataSentToChildProcess
+mDataAlreadySent
 ;
 }
 nsISupports
@@ -2006,10 +2004,6 @@ nsCString
 >
 &
 aAltSvcUsed
-const
-bool
-&
-aDataToChildProcess
 )
 {
 mEventQ
@@ -2050,7 +2044,6 @@ aDataForSniffer
 )
 }
 aAltSvcUsed
-aDataToChildProcess
 ]
 (
 )
@@ -2075,7 +2068,6 @@ move
 aDataForSniffer
 )
 aAltSvcUsed
-aDataToChildProcess
 )
 ;
 }
@@ -2260,10 +2252,6 @@ nsCString
 >
 &
 aAltSvcUsed
-const
-bool
-&
-aDataToChildProcess
 )
 {
 LOG
@@ -2317,10 +2305,6 @@ mOnStartRequestCalled
 mStatus
 =
 aStatus
-;
-mDataSentToChildProcess
-=
-aDataToChildProcess
 ;
 if
 (
@@ -2596,6 +2580,10 @@ const
 uint32_t
 &
 aCount
+const
+bool
+&
+aDataSentToChildProcess
 )
 {
 LOG
@@ -2688,6 +2676,7 @@ this
 aData
 aOffset
 aCount
+aDataSentToChildProcess
 ]
 (
 )
@@ -2700,6 +2689,7 @@ DoOnDataAvailable
 aData
 aOffset
 aCount
+aDataSentToChildProcess
 )
 ;
 }
@@ -2730,6 +2720,10 @@ const
 uint32_t
 &
 aCount
+const
+bool
+&
+aDataSentToChildProcess
 )
 {
 LOG
@@ -2761,6 +2755,10 @@ mCanceled
 return
 ;
 }
+mDataAlreadySent
+=
+aDataSentToChildProcess
+;
 nsCOMPtr
 <
 nsIInputStream
@@ -2981,10 +2979,6 @@ TransactionObserverResult
 &
 &
 aTransactionObserverResult
-const
-TimeStamp
-&
-aLastActiveTabOptHit
 )
 {
 LOG
@@ -3019,14 +3013,6 @@ uint32_t
 aStatus
 )
 )
-)
-;
-nsHttp
-:
-:
-SetLastActiveTabLoadOptimizationHit
-(
-aLastActiveTabOptHit
 )
 ;
 if
