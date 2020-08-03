@@ -1334,7 +1334,9 @@ join
 join
 (
 [
+                        
 option
+                        
 str
 (
 value
@@ -1347,6 +1349,20 @@ replace
 "
 "
 )
+.
+replace
+(
+"
+'
+"
+'
+\
+\
+\
+"
+'
+)
+                    
 ]
 )
                     
