@@ -3527,11 +3527,7 @@ input
 :
 FilterPrimitiveInput
 pub
-width
-:
-f32
-pub
-height
+radius
 :
 f32
 }
@@ -4145,7 +4141,6 @@ FilterOp
 Identity
 Blur
 (
-f32
 f32
 )
 Brightness
