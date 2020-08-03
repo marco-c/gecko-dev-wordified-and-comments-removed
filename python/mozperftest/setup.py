@@ -22,6 +22,9 @@ deps
 =
 [
 "
+regex
+"
+"
 jsonschema
 "
 "
