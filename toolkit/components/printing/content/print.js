@@ -63,7 +63,7 @@ true
 }
 )
 ;
-const
+var
 PrintEventHandler
 =
 {
