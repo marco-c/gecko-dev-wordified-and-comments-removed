@@ -56,6 +56,11 @@ MPL
 DevToolsModules
 (
 '
+HeadersPanelContextMenu
+.
+js
+'
+'
 PropertiesViewContextMenu
 .
 js
