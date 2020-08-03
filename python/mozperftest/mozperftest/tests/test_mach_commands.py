@@ -62,11 +62,10 @@ mach_commands
 import
 Perftest
 PerftestTests
-ON_TRY
 from
 mozperftest
 import
-mach_commands
+utils
 from
 mozperftest
 .
@@ -82,6 +81,7 @@ utils
 import
 temporary_env
 silence
+ON_TRY
 ITERATION_HOOKS
 =
 Path
@@ -634,11 +634,11 @@ mocked
     
 old
 =
-mach_commands
+utils
 .
 ON_TRY
     
-mach_commands
+utils
 .
 ON_TRY
 =
@@ -678,7 +678,7 @@ EXAMPLE_TESTS_DIR
 ]
 )
     
-mach_commands
+utils
 .
 ON_TRY
 =
