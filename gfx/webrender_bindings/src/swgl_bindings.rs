@@ -77,8 +77,8 @@ sync
 {
 mpsc
 Arc
-Mutex
 Condvar
+Mutex
 }
 ;
 use
