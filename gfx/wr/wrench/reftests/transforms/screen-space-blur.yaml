@@ -48,6 +48,7 @@ filters
 blur
 (
 3
+3
 )
 items
 :
@@ -94,6 +95,7 @@ filters
 :
 blur
 (
+3
 3
 )
 items

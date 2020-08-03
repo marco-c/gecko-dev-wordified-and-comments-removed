@@ -43,7 +43,10 @@ primitives
 type
 :
 blur
-radius
+width
+:
+10
+height
 :
 10
 in
