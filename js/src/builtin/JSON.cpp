@@ -85,6 +85,17 @@ include
 "
 js
 /
+friend
+/
+StackLimits
+.
+h
+"
+#
+include
+"
+js
+/
 PropertySpec
 .
 h

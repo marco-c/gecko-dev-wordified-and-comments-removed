@@ -89,6 +89,17 @@ include
 "
 js
 /
+friend
+/
+StackLimits
+.
+h
+"
+#
+include
+"
+js
+/
 SourceText
 .
 h

@@ -94,6 +94,17 @@ include
 "
 js
 /
+friend
+/
+StackLimits
+.
+h
+"
+#
+include
+"
+js
+/
 RegExp
 .
 h

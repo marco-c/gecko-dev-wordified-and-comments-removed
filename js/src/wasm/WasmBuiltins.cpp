@@ -78,6 +78,17 @@ h
 #
 include
 "
+js
+/
+friend
+/
+StackLimits
+.
+h
+"
+#
+include
+"
 threading
 /
 Mutex

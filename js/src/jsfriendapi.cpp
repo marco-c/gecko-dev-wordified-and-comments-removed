@@ -118,6 +118,17 @@ js
 /
 friend
 /
+StackLimits
+.
+h
+"
+#
+include
+"
+js
+/
+friend
+/
 WindowProxy
 .
 h
@@ -2440,6 +2451,9 @@ compartment
 JS_FRIEND_API
 bool
 js
+:
+:
+detail
 :
 :
 RunningWithTrustedPrincipals
