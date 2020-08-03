@@ -22,6 +22,14 @@ extern
 crate
 serde
 ;
+#
+[
+macro_use
+]
+extern
+crate
+tracy_rs
+;
 mod
 angle
 ;
