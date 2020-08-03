@@ -209,6 +209,12 @@ defined
 (
 ENABLE_WASM_SIMD
 )
+&
+&
+defined
+(
+DEBUG
+)
 void
 ReportSimdAnalysis
 (
