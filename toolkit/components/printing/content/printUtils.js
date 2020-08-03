@@ -466,6 +466,7 @@ async
 updatePrintPreview
 (
 sourceBrowser
+printSettings
 )
 {
 let
@@ -511,6 +512,7 @@ _updatePrintPreview
 (
 sourceBrowser
 printPreviewBrowser
+printSettings
 )
 ;
 return
@@ -521,6 +523,7 @@ _updatePrintPreview
 (
 sourceBrowser
 printPreviewBrowser
+printSettings
 )
 {
 return
@@ -597,11 +600,9 @@ changingBrowsers
 false
 lastUsedPrinterName
 :
-this
+printSettings
 .
-_getLastUsedPrinterName
-(
-)
+printerName
 simplifiedMode
 :
 false
