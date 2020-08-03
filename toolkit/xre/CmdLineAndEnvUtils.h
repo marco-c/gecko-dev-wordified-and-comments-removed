@@ -1726,6 +1726,12 @@ return
 true
 ;
 }
+#
+if
+defined
+(
+MOZILLA_INTERNAL_API
+)
 template
 <
 typename
@@ -2308,6 +2314,8 @@ break
 }
 }
 ;
+#
+endif
 #
 endif
 #
