@@ -8,6 +8,17 @@ h
 #
 include
 "
+js
+/
+friend
+/
+DumpFunctions
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

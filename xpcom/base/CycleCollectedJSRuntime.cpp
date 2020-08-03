@@ -38,6 +38,17 @@ include
 "
 js
 /
+friend
+/
+DumpFunctions
+.
+h
+"
+#
+include
+"
+js
+/
 GCAPI
 .
 h

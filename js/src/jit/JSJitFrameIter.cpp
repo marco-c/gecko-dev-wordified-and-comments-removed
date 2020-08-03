@@ -75,6 +75,17 @@ h
 #
 include
 "
+js
+/
+friend
+/
+DumpFunctions
+.
+h
+"
+#
+include
+"
 vm
 /
 JSScript

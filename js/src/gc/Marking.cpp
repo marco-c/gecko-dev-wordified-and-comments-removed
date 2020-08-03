@@ -153,6 +153,17 @@ include
 "
 js
 /
+friend
+/
+DumpFunctions
+.
+h
+"
+#
+include
+"
+js
+/
 GCTypeMacros
 .
 h

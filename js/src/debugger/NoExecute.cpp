@@ -60,6 +60,17 @@ include
 "
 js
 /
+friend
+/
+DumpFunctions
+.
+h
+"
+#
+include
+"
+js
+/
 Promise
 .
 h
