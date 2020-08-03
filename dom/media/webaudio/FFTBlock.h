@@ -141,6 +141,14 @@ Init
 (
 )
 ;
+if
+(
+!
+sRDFTFuncs
+.
+init
+)
+{
 FFVPXRuntimeLinker
 :
 :
@@ -150,6 +158,7 @@ GetRDFTFuncs
 sRDFTFuncs
 )
 ;
+}
 #
 endif
 }
