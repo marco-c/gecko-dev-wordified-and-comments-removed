@@ -353,6 +353,17 @@ h
 #
 include
 "
+js
+/
+friend
+/
+UsageStatistics
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

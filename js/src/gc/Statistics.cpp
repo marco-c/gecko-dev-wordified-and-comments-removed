@@ -97,6 +97,17 @@ h
 #
 include
 "
+js
+/
+friend
+/
+UsageStatistics
+.
+h
+"
+#
+include
+"
 util
 /
 Text

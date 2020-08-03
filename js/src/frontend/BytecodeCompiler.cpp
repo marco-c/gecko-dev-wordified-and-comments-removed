@@ -134,6 +134,17 @@ include
 "
 js
 /
+friend
+/
+UsageStatistics
+.
+h
+"
+#
+include
+"
+js
+/
 SourceText
 .
 h

@@ -217,6 +217,17 @@ include
 "
 js
 /
+friend
+/
+UsageStatistics
+.
+h
+"
+#
+include
+"
+js
+/
 GCVector
 .
 h
