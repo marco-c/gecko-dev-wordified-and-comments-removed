@@ -20675,6 +20675,9 @@ bool
 aIsActive
 )
 {
+Unused
+<
+<
 mBrowsingContext
 -
 >
@@ -21006,6 +21009,9 @@ if
 mWillChangeProcess
 )
 {
+Unused
+<
+<
 mBrowsingContext
 -
 >

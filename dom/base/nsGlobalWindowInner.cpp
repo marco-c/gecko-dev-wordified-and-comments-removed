@@ -7441,6 +7441,9 @@ perm
 return
 ;
 }
+Unused
+<
+<
 GetWindowContext
 (
 )
@@ -7560,6 +7563,9 @@ perm
 return
 ;
 }
+Unused
+<
+<
 GetWindowContext
 (
 )
@@ -7765,6 +7771,9 @@ GetParent
 )
 )
 {
+Unused
+<
+<
 GetBrowsingContext
 (
 )
@@ -11817,6 +11826,9 @@ GetBrowsingContext
 )
 )
 {
+Unused
+<
+<
 GetBrowsingContext
 (
 )

@@ -16604,6 +16604,9 @@ GetBrowsingContext
 )
 )
 {
+Unused
+<
+<
 docShell
 -
 >
@@ -53219,6 +53222,9 @@ is_loading
 )
 )
 ;
+Unused
+<
+<
 child
 -
 >
@@ -71822,6 +71828,9 @@ GetTopLevelWindowContext
 )
 )
 {
+Unused
+<
+<
 topWc
 -
 >

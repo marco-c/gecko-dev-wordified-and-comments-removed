@@ -5930,6 +5930,9 @@ NotifyUserGestureActivation
 (
 )
 {
+Unused
+<
+<
 SetUserActivationState
 (
 UserActivation
@@ -5950,6 +5953,9 @@ NotifyResetUserGestureActivation
 (
 )
 {
+Unused
+<
+<
 SetUserActivationState
 (
 UserActivation
@@ -6183,6 +6189,9 @@ State
 FullActivated
 )
 {
+Unused
+<
+<
 aContext
 -
 >
@@ -11231,6 +11240,9 @@ aContext
 this
 )
 {
+Unused
+<
+<
 aContext
 -
 >
@@ -12256,6 +12268,9 @@ Children
 )
 )
 {
+Unused
+<
+<
 child
 -
 >
@@ -12404,6 +12419,9 @@ Children
 )
 )
 {
+Unused
+<
+<
 child
 -
 >
