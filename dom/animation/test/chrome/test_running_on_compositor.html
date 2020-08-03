@@ -10358,7 +10358,7 @@ waitForPaints
 (
 )
 ;
-assert_animation_is_not_running_on_compositor
+assert_animation_is_running_on_compositor
 (
 animation1
 '
@@ -10370,7 +10370,6 @@ the
 rendering
 context
 should
-not
 be
 running
 on
@@ -10379,7 +10378,8 @@ on
 '
 the
 compositor
-because
+even
+if
 one
 of
 its
@@ -10421,7 +10421,7 @@ earlier
 '
 )
 ;
-assert_animation_is_not_running_on_compositor
+assert_animation_is_running_on_compositor
 (
 animation3
 '
@@ -10433,7 +10433,6 @@ the
 rendering
 context
 should
-not
 be
 running
 on
@@ -10442,7 +10441,8 @@ on
 '
 the
 compositor
-because
+even
+if
 one
 of
 its
@@ -10472,14 +10472,14 @@ the
 rendering
 context
 should
-not
-runs
+run
 on
 '
 +
 '
 the
 compositor
+even
 if
 it
 is
@@ -10491,10 +10491,10 @@ whose
 frames
 are
 too
-large
 '
 +
 '
+large
 or
 its
 ancestor
@@ -10795,7 +10795,7 @@ waitForPaints
 (
 )
 ;
-assert_animation_is_not_running_on_compositor
+assert_animation_is_running_on_compositor
 (
 animation1
 '
@@ -10807,7 +10807,6 @@ the
 rendering
 context
 should
-not
 be
 running
 on
@@ -10816,7 +10815,8 @@ on
 '
 the
 compositor
-because
+even
+if
 one
 of
 its
@@ -10828,7 +10828,7 @@ large
 '
 )
 ;
-assert_animation_is_not_running_on_compositor
+assert_animation_is_running_on_compositor
 (
 animation2
 '
@@ -10849,7 +10849,8 @@ on
 '
 the
 compositor
-because
+even
+if
 its
 frame
 size
@@ -10859,7 +10860,7 @@ large
 '
 )
 ;
-assert_animation_is_not_running_on_compositor
+assert_animation_is_running_on_compositor
 (
 animation3
 '
@@ -10880,7 +10881,8 @@ on
 '
 the
 compositor
-because
+even
+if
 its
 previous
 sibling
@@ -10909,14 +10911,14 @@ the
 rendering
 context
 should
-not
-runs
+run
 on
 '
 +
 '
 the
 compositor
+even
 if
 its
 previous
