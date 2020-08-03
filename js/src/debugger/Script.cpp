@@ -8389,7 +8389,7 @@ case
 JSOp
 :
 :
-BuiltinObject
+FunctionProto
 :
 case
 JSOp

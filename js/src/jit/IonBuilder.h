@@ -3823,7 +3823,7 @@ AbortReasonOr
 <
 Ok
 >
-jsop_builtinobject
+jsop_functionproto
 (
 )
 ;
