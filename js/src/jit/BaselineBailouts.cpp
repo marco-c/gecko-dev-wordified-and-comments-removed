@@ -9397,6 +9397,12 @@ BailoutKind
 :
 NotProxyGuard
 :
+case
+BailoutKind
+:
+:
+TagNotEqualGuard
+:
 break
 ;
 case
