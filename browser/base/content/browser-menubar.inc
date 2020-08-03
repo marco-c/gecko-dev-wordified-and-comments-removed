@@ -2577,16 +2577,11 @@ id
 "
 menu_showAllHistory
 "
-#
-ifndef
-XP_MACOSX
 key
 =
 "
 showAllHistoryKb
 "
-#
-endif
 command
 =
 "
