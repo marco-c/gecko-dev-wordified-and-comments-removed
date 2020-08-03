@@ -553,10 +553,7 @@ ec
 int32_t
 s
 =
-PromiseFlatString
-(
 n
-)
 .
 ToInteger
 (
@@ -1082,10 +1079,7 @@ ec
 int32_t
 u
 =
-PromiseFlatString
-(
 n
-)
 .
 ToInteger
 (
@@ -1206,10 +1200,7 @@ ec
 int32_t
 u
 =
-PromiseFlatString
-(
 n
-)
 .
 ToInteger
 (
@@ -1306,10 +1297,7 @@ ec
 int32_t
 s
 =
-PromiseFlatString
-(
 n
-)
 .
 ToInteger
 (
