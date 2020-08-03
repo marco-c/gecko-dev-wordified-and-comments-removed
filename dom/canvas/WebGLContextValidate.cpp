@@ -748,7 +748,7 @@ i
 :
 IntegerRange
 (
-EnumValue
+UnderlyingValue
 (
 WebGLExtensionID
 :

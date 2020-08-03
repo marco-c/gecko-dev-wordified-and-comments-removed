@@ -1005,7 +1005,7 @@ RefPtr
 <
 ClientWebGLExtensionBase
 >
-EnumValue
+UnderlyingValue
 (
 WebGLExtensionID
 :
@@ -10494,7 +10494,7 @@ mNotLost
 >
 extensions
 [
-EnumValue
+UnderlyingValue
 (
 id
 )

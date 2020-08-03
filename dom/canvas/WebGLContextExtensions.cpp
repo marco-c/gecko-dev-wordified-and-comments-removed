@@ -570,7 +570,7 @@ mNotLost
 >
 extensions
 [
-EnumValue
+UnderlyingValue
 (
 ext
 )
