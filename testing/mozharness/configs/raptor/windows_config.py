@@ -271,17 +271,17 @@ webroot
 "
         
 "
+create
+-
+virtualenv
+"
+        
+"
 install
 -
 chromium
 -
 distribution
-"
-        
-"
-create
--
-virtualenv
 "
         
 "
