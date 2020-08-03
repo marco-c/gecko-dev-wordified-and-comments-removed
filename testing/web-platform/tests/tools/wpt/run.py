@@ -379,6 +379,52 @@ default
     
 parser
 .
+add_argument
+(
+"
+-
+-
+install
+-
+webdriver
+"
+action
+=
+"
+store_true
+"
+                        
+help
+=
+"
+Install
+WebDriver
+from
+the
+release
+channel
+specified
+by
+-
+-
+channel
+"
+                        
+"
+(
+or
+the
+nightly
+channel
+by
+default
+)
+.
+"
+)
+    
+parser
+.
 _add_container_actions
 (
 wptcommandline
@@ -1718,6 +1764,20 @@ test_types
             
 webdriver_binary
 =
+None
+            
+if
+not
+kwargs
+[
+"
+install_webdriver
+"
+]
+:
+                
+webdriver_binary
+=
 self
 .
 browser
@@ -1765,6 +1825,7 @@ browser
 .
 install_webdriver
 (
+                        
 dest
 =
 self
@@ -1772,6 +1833,24 @@ self
 venv
 .
 bin_path
+                        
+channel
+=
+kwargs
+[
+"
+browser_channel
+"
+]
+                        
+browser_binary
+=
+kwargs
+[
+"
+binary
+"
+]
 )
             
 else
@@ -2431,6 +2510,20 @@ None
             
 webdriver_binary
 =
+None
+            
+if
+not
+kwargs
+[
+"
+install_webdriver
+"
+]
+:
+                
+webdriver_binary
+=
 self
 .
 browser
@@ -2486,6 +2579,10 @@ self
 venv
 .
 bin_path
+                        
+channel
+=
+browser_channel
                         
 browser_binary
 =
@@ -2752,6 +2849,20 @@ None
             
 webdriver_binary
 =
+None
+            
+if
+not
+kwargs
+[
+"
+install_webdriver
+"
+]
+:
+                
+webdriver_binary
+=
 self
 .
 browser
@@ -2807,6 +2918,10 @@ self
 venv
 .
 bin_path
+                        
+channel
+=
+browser_channel
                         
 browser_binary
 =
@@ -3056,6 +3171,20 @@ None
             
 webdriver_binary
 =
+None
+            
+if
+not
+kwargs
+[
+"
+install_webdriver
+"
+]
+:
+                
+webdriver_binary
+=
 self
 .
 browser
@@ -3103,6 +3232,7 @@ browser
 .
 install_webdriver
 (
+                        
 dest
 =
 self
@@ -3110,6 +3240,15 @@ self
 venv
 .
 bin_path
+                        
+channel
+=
+kwargs
+[
+"
+browser_channel
+"
+]
 )
             
 else
@@ -3223,6 +3362,20 @@ None
             
 webdriver_binary
 =
+None
+            
+if
+not
+kwargs
+[
+"
+install_webdriver
+"
+]
+:
+                
+webdriver_binary
+=
 self
 .
 browser
@@ -3270,6 +3423,7 @@ browser
 .
 install_webdriver
 (
+                        
 dest
 =
 self
@@ -3277,6 +3431,15 @@ self
 venv
 .
 bin_path
+                        
+channel
+=
+kwargs
+[
+"
+browser_channel
+"
+]
 )
             
 else
@@ -3366,6 +3529,20 @@ None
             
 webdriver_binary
 =
+None
+            
+if
+not
+kwargs
+[
+"
+install_webdriver
+"
+]
+:
+                
+webdriver_binary
+=
 self
 .
 browser
@@ -3413,6 +3590,7 @@ browser
 .
 install_webdriver
 (
+                        
 dest
 =
 self
@@ -3420,6 +3598,15 @@ self
 venv
 .
 bin_path
+                        
+channel
+=
+kwargs
+[
+"
+browser_channel
+"
+]
 )
             
 else
@@ -3570,6 +3757,20 @@ None
             
 webdriver_binary
 =
+None
+            
+if
+not
+kwargs
+[
+"
+install_webdriver
+"
+]
+:
+                
+webdriver_binary
+=
 self
 .
 browser
@@ -3625,6 +3826,7 @@ browser
 .
 install_webdriver
 (
+                        
 dest
 =
 self
@@ -3632,6 +3834,7 @@ self
 venv
 .
 bin_path
+                        
 channel
 =
 browser_channel
@@ -4927,12 +5130,6 @@ def
 setup_wptrunner
 (
 venv
-prompt
-=
-True
-install_browser
-=
-False
 *
 *
 kwargs
@@ -5043,7 +5240,12 @@ product
 ]
 (
 venv
+kwargs
+[
+"
 prompt
+"
+]
 )
     
 setup_cls
@@ -5056,12 +5258,11 @@ affected_revish
 =
 kwargs
 .
-pop
+get
 (
 "
 affected
 "
-None
 )
     
 if
@@ -5191,7 +5392,12 @@ default_exclude
 True
     
 if
+kwargs
+[
+"
 install_browser
+"
+]
 and
 not
 kwargs
@@ -5368,17 +5574,14 @@ kwargs
 channel
 "
 ]
-        
-del
+    
+if
 kwargs
 [
 "
-channel
+install_browser
 "
 ]
-    
-if
-install_browser
 :
         
 logger
@@ -5414,11 +5617,51 @@ setup
 kwargs
 )
     
+wptrunner_kwargs
+=
+kwargs
+.
+copy
+(
+)
+    
+for
+kwarg
+in
+[
+"
+affected
+"
+                  
+"
+install_browser
+"
+                  
+"
+install_webdriver
+"
+                  
+"
+channel
+"
+                  
+"
+prompt
+"
+]
+:
+        
+del
+wptrunner_kwargs
+[
+kwarg
+]
+    
 wptcommandline
 .
 check_args
 (
-kwargs
+wptrunner_kwargs
 )
     
 wptrunner_path
@@ -5466,7 +5709,7 @@ txt
     
 if
 not
-kwargs
+wptrunner_kwargs
 [
 "
 browser_version
@@ -5474,7 +5717,7 @@ browser_version
 ]
 :
         
-kwargs
+wptrunner_kwargs
 [
 "
 browser_version
@@ -5490,7 +5733,7 @@ version
             
 binary
 =
-kwargs
+wptrunner_kwargs
 .
 get
 (
@@ -5499,7 +5742,7 @@ binary
 "
 )
 or
-kwargs
+wptrunner_kwargs
 .
 get
 (
@@ -5510,7 +5753,7 @@ package_name
             
 webdriver_binary
 =
-kwargs
+wptrunner_kwargs
 .
 get
 (
@@ -5522,7 +5765,7 @@ webdriver_binary
 )
     
 return
-kwargs
+wptrunner_kwargs
 def
 run
 (
@@ -5538,44 +5781,11 @@ setup_logging
 kwargs
 )
     
-prompt
-=
-kwargs
-.
-pop
-(
-"
-prompt
-"
-True
-)
-    
-install_browser
-=
-kwargs
-.
-pop
-(
-"
-install_browser
-"
-False
-)
-    
-kwargs
+wptrunner_kwargs
 =
 setup_wptrunner
 (
 venv
-                             
-prompt
-=
-prompt
-                             
-install_browser
-=
-install_browser
-                             
 *
 *
 kwargs
@@ -5588,7 +5798,7 @@ run_single
 venv
 *
 *
-kwargs
+wptrunner_kwargs
 )
 >
 0
