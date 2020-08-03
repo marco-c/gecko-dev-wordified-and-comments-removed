@@ -310,13 +310,6 @@ android
 .
 graphics
 .
-Bitmap
-;
-import
-android
-.
-graphics
-.
 Matrix
 ;
 import
@@ -1221,12 +1214,9 @@ requestScreenPixels
 final
 GeckoResult
 <
-Bitmap
+ByteBuffer
 >
 result
-final
-Bitmap
-target
 final
 int
 x
