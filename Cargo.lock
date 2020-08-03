@@ -14348,11 +14348,6 @@ lazy_static
 libc
 "
 "
-lmdb
--
-rkv
-"
-"
 log
 "
 "
@@ -33292,11 +33287,6 @@ failure
 libc
 "
 "
-lmdb
--
-rkv
-"
-"
 log
 "
 "
@@ -33315,9 +33305,9 @@ once_cell
 rkv
 0
 .
-10
+15
 .
-4
+0
 "
 "
 serde_json
