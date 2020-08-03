@@ -2653,6 +2653,9 @@ dev
 "
 canary
 "
+"
+nightly
+"
 )
 :
             
@@ -2671,6 +2674,9 @@ Chrome
 Dev
 /
 Canary
+or
+Chromium
+trunk
 "
 )
             

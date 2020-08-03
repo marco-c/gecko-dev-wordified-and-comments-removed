@@ -21,7 +21,7 @@ chrome
 '
 :
 '
-dev
+nightly
 '
     
 '
@@ -85,13 +85,23 @@ beta
 '
     
 '
-nightly
+dev
 '
 :
-latest_channels
-    
 '
 dev
+'
+    
+'
+canary
+'
+:
+'
+canary
+'
+    
+'
+nightly
 '
 :
 latest_channels
@@ -107,14 +117,6 @@ experimental
 '
 :
 latest_channels
-    
-'
-canary
-'
-:
-'
-canary
-'
 }
 channel_args
 =
