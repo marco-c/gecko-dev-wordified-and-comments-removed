@@ -326,7 +326,7 @@ GetScrollbarMediator
 ;
 virtual
 bool
-DoesClipChildren
+DoesClipChildrenInBothAxes
 (
 )
 override
