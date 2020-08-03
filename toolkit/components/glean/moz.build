@@ -151,6 +151,14 @@ yaml
 '
 ]
 )
+DIRS
++
+=
+[
+'
+aboutGlean
+'
+]
 with
 Files
 (
