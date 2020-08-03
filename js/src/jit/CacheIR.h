@@ -7515,6 +7515,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachObjectHasPrototype
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachString
 (
 HandleFunction
