@@ -146,8 +146,6 @@ AudioContextOptions
 {
 float
 sampleRate
-=
-0
 ;
 }
 ;
