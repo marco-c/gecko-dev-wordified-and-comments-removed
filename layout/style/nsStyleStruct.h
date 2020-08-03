@@ -7252,7 +7252,7 @@ mozilla
 StyleOverflow
 :
 :
-MozHiddenUnscrollable
+Clip
 ;
 }
 bool

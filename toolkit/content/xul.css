@@ -364,12 +364,7 @@ window
 {
 overflow
 :
--
-moz
--
-hidden
--
-unscrollable
+clip
 ;
 -
 moz
@@ -1845,12 +1840,7 @@ center
 ;
 overflow
 :
--
-moz
--
-hidden
--
-unscrollable
+clip
 ;
 }
 %

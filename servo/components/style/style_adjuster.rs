@@ -2494,7 +2494,7 @@ overflow_x
 Overflow
 :
 :
-MozHiddenUnscrollable
+Clip
 {
 overflow_x
 =
@@ -2511,7 +2511,7 @@ overflow_y
 Overflow
 :
 :
-MozHiddenUnscrollable
+Clip
 {
 overflow_y
 =
@@ -2782,7 +2782,7 @@ v
 Overflow
 :
 :
-MozHiddenUnscrollable
+Clip
 &
 &
 v

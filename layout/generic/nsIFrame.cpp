@@ -45853,7 +45853,7 @@ mOverflowY
 StyleOverflow
 :
 :
-MozHiddenUnscrollable
+Clip
 )
 =
 =
@@ -45867,7 +45867,7 @@ mOverflowX
 StyleOverflow
 :
 :
-MozHiddenUnscrollable
+Clip
 )
 "
 If
@@ -54251,7 +54251,7 @@ mOverflowX
 StyleOverflow
 :
 :
-MozHiddenUnscrollable
+Clip
 &
 &
 !
