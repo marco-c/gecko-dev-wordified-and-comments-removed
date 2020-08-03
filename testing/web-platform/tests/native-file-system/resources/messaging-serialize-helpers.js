@@ -126,9 +126,11 @@ handle
 queryPermission
 (
 {
-writable
+mode
 :
-false
+'
+read
+'
 }
 )
 ;
@@ -141,9 +143,11 @@ handle
 queryPermission
 (
 {
-writable
+mode
 :
-true
+'
+readwrite
+'
 }
 )
 return
