@@ -42055,6 +42055,13 @@ defined
 (
 XP_LINUX
 )
+&
+&
+!
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 #
 On
 Linux
