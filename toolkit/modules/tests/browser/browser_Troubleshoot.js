@@ -146,14 +146,6 @@ set
 [
 [
 "
-apz
-.
-allow_zooming
-"
-false
-]
-[
-"
 devtools
 .
 inspector
