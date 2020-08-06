@@ -916,6 +916,11 @@ CSSOrderAwareFrameIterator
 h
 '
 '
+PrintedSheetFrame
+.
+h
+'
+'
 ReflowInput
 .
 h
@@ -1226,6 +1231,11 @@ cpp
 '
 '
 nsVideoFrame
+.
+cpp
+'
+'
+PrintedSheetFrame
 .
 cpp
 '

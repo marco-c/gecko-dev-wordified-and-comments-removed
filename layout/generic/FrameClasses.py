@@ -1047,6 +1047,17 @@ LEAF
 Frame
 (
 "
+PrintedSheetFrame
+"
+"
+PrintedSheet
+"
+NOT_LEAF
+)
+    
+Frame
+(
+"
 SVGAFrame
 "
 "
