@@ -63,7 +63,6 @@ ir
 :
 :
 {
-ArgumentExtension
 ArgumentPurpose
 Block
 Constant
@@ -807,10 +806,7 @@ retval_regs
 :
 Vec
 <
-(
 Reg
-ArgumentExtension
-)
 >
 inst_colors
 :
@@ -1413,12 +1409,7 @@ retval_regs
 .
 push
 (
-(
 vreg
-ret
-.
-extension
-)
 )
 ;
 vcode
@@ -1871,10 +1862,7 @@ clone
 for
 (
 i
-(
 reg
-ext
-)
 )
 in
 retval_regs
@@ -1913,7 +1901,6 @@ gen_copy_reg_to_retval
 (
 i
 reg
-ext
 )
 ;
 for
@@ -4382,8 +4369,6 @@ retval_regs
 [
 idx
 ]
-.
-0
 )
 }
 fn
