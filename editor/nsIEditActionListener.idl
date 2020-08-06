@@ -19,6 +19,9 @@ webidl
 Node
 ;
 webidl
+Range
+;
+webidl
 Selection
 ;
 [
@@ -106,6 +109,17 @@ WillDeleteSelection
 in
 Selection
 aSelection
+)
+;
+void
+WillDeleteRanges
+(
+in
+Array
+<
+Range
+>
+aRangesToDelete
 )
 ;
 }
