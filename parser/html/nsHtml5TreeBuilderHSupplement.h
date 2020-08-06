@@ -633,11 +633,6 @@ aName
 )
 ;
 void
-errTableClosedWhileCaptionOpen
-(
-)
-;
-void
 errNoTableRowToClose
 (
 )
