@@ -540,11 +540,6 @@ nsDeviceContextSpecWin
 cpp
 '
 '
-nsPaperWin
-.
-cpp
-'
-'
 nsPrintDialogUtil
 .
 cpp

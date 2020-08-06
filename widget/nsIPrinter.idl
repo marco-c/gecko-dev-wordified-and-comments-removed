@@ -37,12 +37,12 @@ attribute
 AString
 name
 ;
+[
+implicit_jscontext
+]
 readonly
 attribute
-Array
-<
-nsIPaper
->
+Promise
 paperList
 ;
 [
