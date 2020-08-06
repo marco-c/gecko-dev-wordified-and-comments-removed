@@ -103,6 +103,12 @@ generate
 checksums
 -
 beetmover
+-
+release
+-
+update
+-
+verify
 job
 -
 defaults
