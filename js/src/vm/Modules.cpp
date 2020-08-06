@@ -310,6 +310,11 @@ FinishDynamicModuleImport
 JSContext
 *
 cx
+JS
+:
+:
+DynamicImportStatus
+status
 Handle
 <
 Value
@@ -354,6 +359,7 @@ js
 FinishDynamicModuleImport
 (
 cx
+status
 referencingPrivate
 specifier
 promise

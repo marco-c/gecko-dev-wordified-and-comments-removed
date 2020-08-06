@@ -224,6 +224,16 @@ ModuleDynamicImportHook
 func
 )
 ;
+enum
+class
+DynamicImportStatus
+{
+Failed
+=
+0
+Ok
+}
+;
 extern
 JS_PUBLIC_API
 bool
@@ -232,6 +242,8 @@ FinishDynamicModuleImport
 JSContext
 *
 cx
+DynamicImportStatus
+status
 Handle
 <
 Value

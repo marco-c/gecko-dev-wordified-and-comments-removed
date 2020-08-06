@@ -1651,6 +1651,11 @@ FinishDynamicModuleImport
 JSContext
 *
 cx
+JS
+:
+:
+DynamicImportStatus
+status
 HandleValue
 referencingPrivate
 HandleString
