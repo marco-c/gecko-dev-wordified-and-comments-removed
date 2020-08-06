@@ -18961,13 +18961,8 @@ textbox
 {
 gURLBar
 .
-search
+searchModeShortcut
 (
-UrlbarTokenizer
-.
-RESTRICT
-.
-SEARCH
 )
 ;
 }
