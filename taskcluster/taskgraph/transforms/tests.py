@@ -10577,6 +10577,26 @@ task
             
 continue
         
+task
+.
+setdefault
+(
+"
+tags
+"
+{
+}
+)
+[
+"
+tests_grouped
+"
+]
+=
+"
+1
+"
+        
 if
 taskgraph
 .
