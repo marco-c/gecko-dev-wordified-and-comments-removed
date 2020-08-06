@@ -119,10 +119,6 @@ bzip2
 \
 git
 \
-openssh
--
-client
-\
 python3
 -
 requests
