@@ -1836,10 +1836,16 @@ nsIRunnable
 >
 mPendingUpdateRunnables
 ;
+std
+:
+:
+atomic
+<
 CubebUtils
 :
 :
 AudioDeviceID
+>
 mInputDeviceID
 ;
 CubebUtils
