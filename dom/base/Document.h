@@ -5866,6 +5866,14 @@ mIsContentDocument
 aIsContentDocument
 ;
 }
+void
+ProcessMETATag
+(
+HTMLMetaElement
+*
+aMetaElement
+)
+;
 already_AddRefed
 <
 Element
