@@ -2,6 +2,7 @@ from
 __future__
 import
 absolute_import
+print_function
 import
 json
 import
@@ -12,6 +13,8 @@ import
 signal
 import
 threading
+import
+time
 import
 mozunit
 import
@@ -32,16 +35,9 @@ os
 .
 path
 .
-abspath
-(
-os
-.
-path
-.
 dirname
 (
 __file__
-)
 )
 def
 _install_package
@@ -245,6 +241,11 @@ errors
 "
 replace
 "
+)
+        
+print
+(
+line
 )
         
 try
@@ -539,6 +540,20 @@ objdir
 build
 .
 topobjdir
+         
+os
+.
+path
+.
+join
+(
+here
+"
+example
+.
+dump
+"
+)
 ]
         
 processOutputLine
@@ -570,6 +585,13 @@ wait
 )
 is
 True
+    
+time
+.
+sleep
+(
+5
+)
     
 _kill_mozproxy
 (

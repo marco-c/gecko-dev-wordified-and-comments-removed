@@ -11,8 +11,6 @@ signal
 import
 sys
 import
-time
-import
 mozinfo
 import
 mozlog
@@ -28,6 +26,15 @@ utils
 import
 LOG
 TOOLTOOL_PATHS
+EXIT_SUCCESS
+=
+0
+EXIT_EARLY_TERMINATE
+=
+3
+EXIT_EXCEPTION
+=
+4
 def
 main
 (
@@ -72,6 +79,25 @@ not
 in
 production
 )
+"
+)
+    
+parser
+.
+add_argument
+(
+"
+-
+-
+record
+"
+help
+=
+"
+generate
+a
+proxy
+recording
 "
 )
     
@@ -415,6 +441,14 @@ args
 tool
             
 "
+playback_record
+"
+:
+args
+.
+record
+            
+"
 host
 "
 :
@@ -489,16 +523,14 @@ playback
 port
 )
         
-while
-True
-:
-            
-time
+playback
 .
-sleep
+wait
 (
-1
 )
+        
+return
+EXIT_EARLY_TERMINATE
     
 except
 KeyboardInterrupt
@@ -519,6 +551,9 @@ playback
 stop
 (
 )
+        
+return
+EXIT_SUCCESS
     
 except
 Exception
@@ -538,3 +573,6 @@ exc_info
 =
 True
 )
+        
+return
+EXIT_EXCEPTION

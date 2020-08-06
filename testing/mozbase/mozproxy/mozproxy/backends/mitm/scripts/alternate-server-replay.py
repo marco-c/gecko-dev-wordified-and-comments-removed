@@ -989,9 +989,12 @@ ctx
 .
 log
 .
-info
+error
+(
+str
 (
 e
+)
 )
             
 ctx
