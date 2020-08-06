@@ -29,6 +29,8 @@ six
 import
 text_type
 import
+six
+import
 sys
 import
 traceback
@@ -3337,13 +3339,14 @@ for
 depname
 dep
 in
+six
+.
+iteritems
+(
 named_links_dict
 [
 key
 ]
-.
-iteritems
-(
 )
 :
                     
