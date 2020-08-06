@@ -126,6 +126,12 @@ printconfigsetting
 .
 py
 -
+config
+/
+version_win
+.
+py
+-
 python
 /
 mozbuild
