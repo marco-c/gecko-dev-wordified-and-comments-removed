@@ -73,6 +73,9 @@ JSActor
 >
 GetActor
 (
+JSContext
+*
+aCx
 const
 nsACString
 &
