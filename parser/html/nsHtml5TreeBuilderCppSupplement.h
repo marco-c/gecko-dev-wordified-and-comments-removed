@@ -8734,7 +8734,7 @@ mViewSource
 AddErrorToCurrentRun
 (
 "
-errFooSeenWhenFooOpen
+errFooSeenWhenFooOpen2
 "
 aName
 )
