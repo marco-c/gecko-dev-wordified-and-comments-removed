@@ -669,8 +669,11 @@ feature
 }
 }
 aParsedFeatures
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 parsedFeatures
 )

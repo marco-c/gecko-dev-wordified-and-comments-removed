@@ -6925,10 +6925,11 @@ nsISupports
 *
 >
 doomed
-;
-doomed
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 gService
 -

@@ -320,6 +320,7 @@ nsIFile
 >
 >
 &
+&
 aFiles
 bool
 aIsDirectory

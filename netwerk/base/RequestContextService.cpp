@@ -1756,10 +1756,11 @@ nsTArray
 PendingTailRequest
 >
 queue
-;
-queue
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mTailQueue
 )

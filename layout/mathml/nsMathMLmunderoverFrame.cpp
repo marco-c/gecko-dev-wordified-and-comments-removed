@@ -614,10 +614,11 @@ nsTArray
 SetIncrementScriptLevelCommand
 >
 commands
-;
-commands
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mPostReflowIncrementScriptLevelCommands
 )
