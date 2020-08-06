@@ -4344,9 +4344,6 @@ android
 linuxandroid
 *
 )
-MOZ_GFX_OPTIMIZE_MOBILE
-=
-1
 MOZ_OPTIMIZE_FLAGS
 =
 "
