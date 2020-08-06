@@ -995,6 +995,15 @@ CompositionPayload
 aPayloads
 )
 ;
+void
+GetFrameUniformity
+(
+FrameUniformityData
+*
+aOutData
+)
+override
+;
 private
 :
 void
