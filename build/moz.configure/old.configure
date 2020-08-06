@@ -1605,15 +1605,6 @@ controls
 -
 enable
 -
-pref
--
-extensions
-'
-'
--
--
-enable
--
 sandbox
 '
 '
