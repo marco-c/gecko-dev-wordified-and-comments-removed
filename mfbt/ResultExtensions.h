@@ -81,6 +81,7 @@ operator
 nsresult
 (
 )
+const
 {
 return
 mErrorValue
