@@ -137,13 +137,6 @@ aStreamId
 child
 :
 async
-Close
-(
-nsID
-aStreamId
-)
-;
-async
 CloseAll
 (
 )
