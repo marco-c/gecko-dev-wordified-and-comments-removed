@@ -6941,16 +6941,10 @@ GfxInfoBase
 :
 SetFeatureStatus
 (
-std
-:
-:
-move
-(
 aXPCOMInit
 .
 gfxFeatureStatus
 (
-)
 )
 )
 ;
