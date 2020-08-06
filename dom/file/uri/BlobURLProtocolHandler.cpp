@@ -3718,13 +3718,6 @@ NS_ERROR_NOT_INITIALIZED
 ;
 }
 channel
--
->
-Initialize
-(
-)
-;
-channel
 .
 forget
 (
