@@ -1488,6 +1488,13 @@ if
 XRE_IsParentProcess
 (
 )
+|
+|
+!
+BlobURLSchemeIsHTTPOrHTTPS
+(
+mBlobURLSpec
+)
 )
 {
 nsIPrincipal
