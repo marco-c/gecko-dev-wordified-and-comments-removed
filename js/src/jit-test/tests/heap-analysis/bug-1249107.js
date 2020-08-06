@@ -1,8 +1,14 @@
 shortestPaths
 (
-this
 [
 this
 ]
+{
+start
+:
+this
+maxNumPaths
+:
 5
+}
 )
