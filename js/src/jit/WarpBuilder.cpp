@@ -17973,6 +17973,12 @@ CacheKind
 :
 NewObject
 :
+case
+CacheKind
+:
+:
+CheckPrivateField
+:
 MOZ_CRASH
 (
 "
@@ -18175,6 +18181,12 @@ CacheKind
 :
 :
 HasOwn
+:
+case
+CacheKind
+:
+:
+CheckPrivateField
 :
 case
 CacheKind

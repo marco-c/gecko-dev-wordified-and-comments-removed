@@ -11234,6 +11234,12 @@ case
 CacheKind
 :
 :
+CheckPrivateField
+:
+case
+CacheKind
+:
+:
 InstanceOf
 :
 case
