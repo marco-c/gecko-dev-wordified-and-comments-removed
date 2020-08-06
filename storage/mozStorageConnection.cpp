@@ -8236,13 +8236,7 @@ AsyncExecuteStatements
 :
 execute
 (
-std
-:
-:
-move
-(
 stmts
-)
 this
 mDBConn
 aCallback

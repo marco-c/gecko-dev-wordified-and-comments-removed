@@ -1436,7 +1436,6 @@ ProcessEventQueue
 (
 )
 {
-const
 nsTArray
 <
 RefPtr
@@ -1445,11 +1444,10 @@ AccEvent
 >
 >
 events
-=
-std
-:
-:
-move
+;
+events
+.
+SwapElements
 (
 mEvents
 )

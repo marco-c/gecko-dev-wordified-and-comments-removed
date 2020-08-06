@@ -5900,11 +5900,10 @@ nsTArray
 PendingEvent
 >
 pendingEvents
-=
-std
-:
-:
-move
+;
+pendingEvents
+.
+SwapElements
 (
 mPendingEvents
 )

@@ -2750,13 +2750,10 @@ temp
 return
 false
 ;
-*
 aResult
-=
-std
-:
-:
-move
+-
+>
+SwapElements
 (
 temp
 )

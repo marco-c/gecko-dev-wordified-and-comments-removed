@@ -594,7 +594,6 @@ nsCOMPtr
 nsILoadGroup
 >
 &
-&
 aLoadGroupToCancel
 )
 ;

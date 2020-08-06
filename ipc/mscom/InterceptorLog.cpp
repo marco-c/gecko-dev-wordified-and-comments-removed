@@ -2501,11 +2501,8 @@ mMutex
 )
 ;
 linesToWrite
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 mEntries
 )

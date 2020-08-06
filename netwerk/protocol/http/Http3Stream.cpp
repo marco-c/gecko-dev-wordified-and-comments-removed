@@ -1209,11 +1209,8 @@ once
 )
 ;
 mFlatResponseHeaders
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 aResponseHeaders
 )

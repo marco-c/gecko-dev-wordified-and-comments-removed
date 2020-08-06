@@ -657,13 +657,8 @@ SharedChannelArrayBuffer
 AudioDataValue
 >
 (
-std
-:
-:
-move
-(
+&
 output
-)
 )
 ;
 chunk

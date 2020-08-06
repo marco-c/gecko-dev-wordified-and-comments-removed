@@ -2072,11 +2072,8 @@ IsEmpty
 )
 {
 mPendingData
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 mPendingDataAfterStartTLS
 )

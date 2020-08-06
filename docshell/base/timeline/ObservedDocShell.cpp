@@ -802,11 +802,8 @@ i
 }
 }
 mTimelineMarkers
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 keptStartMarkers
 )

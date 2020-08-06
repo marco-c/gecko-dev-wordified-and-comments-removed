@@ -102,7 +102,6 @@ Flush
 (
 )
 {
-const
 nsTArray
 <
 RefPtr
@@ -111,13 +110,12 @@ Runnable
 >
 >
 queue
-=
-std
-:
-:
-move
-(
+;
 mQueue
+.
+SwapElements
+(
+queue
 )
 ;
 for

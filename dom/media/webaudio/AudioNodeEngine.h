@@ -991,7 +991,6 @@ nsTArray
 float
 >
 &
-&
 aData
 )
 {

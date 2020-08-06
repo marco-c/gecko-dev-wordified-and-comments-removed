@@ -1138,11 +1138,8 @@ userFontData
 -
 >
 mMetadata
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 *
 aMetadata

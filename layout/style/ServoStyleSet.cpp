@@ -5685,11 +5685,10 @@ nsTArray
 PostTraversalTask
 >
 tasks
-=
-std
-:
-:
-move
+;
+tasks
+.
+SwapElements
 (
 mPostTraversalTasks
 )

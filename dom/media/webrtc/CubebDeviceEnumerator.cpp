@@ -1133,11 +1133,8 @@ INPUT
 )
 {
 devices
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 mInputDevices
 )
@@ -1161,11 +1158,8 @@ OUTPUT
 )
 ;
 devices
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 mOutputDevices
 )

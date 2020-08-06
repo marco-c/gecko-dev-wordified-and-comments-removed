@@ -4394,7 +4394,6 @@ Clear
 (
 )
 ;
-const
 nsTArray
 <
 RefPtr
@@ -4403,11 +4402,10 @@ Notification
 >
 >
 notifications
-=
-std
-:
-:
-move
+;
+notifications
+.
+SwapElements
 (
 mNotifications
 )
