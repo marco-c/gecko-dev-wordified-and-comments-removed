@@ -569,6 +569,9 @@ sink
 target
 NS_ASYNCCOPY_VIA_READSEGMENTS
 kBufferSize
+nullptr
+nullptr
+false
 )
 ;
 if
