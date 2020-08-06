@@ -11571,6 +11571,16 @@ return
 true
 ;
 }
+if
+(
+!
+jit
+:
+:
+JitOptions
+.
+warpBuilder
+)
 {
 jsbytecode
 *

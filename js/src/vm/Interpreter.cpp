@@ -3599,6 +3599,13 @@ createSingleton
 =
 false
 ;
+if
+(
+IsTypeInferenceEnabled
+(
+)
+)
+{
 jsbytecode
 *
 pc
@@ -3636,6 +3643,7 @@ createSingleton
 =
 true
 ;
+}
 }
 }
 if

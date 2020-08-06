@@ -8082,6 +8082,13 @@ key
 JSProto_Array
 )
 ;
+if
+(
+IsTypeInferenceEnabled
+(
+)
+)
+{
 jsbytecode
 *
 pc
@@ -8115,6 +8122,7 @@ key
 proto
 )
 ;
+}
 }
 if
 (
@@ -8164,6 +8172,13 @@ bool
 singleton
 )
 {
+MOZ_ASSERT
+(
+IsTypeInferenceEnabled
+(
+)
+)
+;
 JSProtoKey
 key
 =
