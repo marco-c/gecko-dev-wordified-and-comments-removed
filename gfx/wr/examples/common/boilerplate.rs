@@ -1282,7 +1282,6 @@ DisplayListBuilder
 new
 (
 pipeline_id
-layout_size
 )
 ;
 let
@@ -1903,7 +1902,6 @@ DisplayListBuilder
 new
 (
 pipeline_id
-layout_size
 )
 ;
 example

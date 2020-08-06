@@ -784,10 +784,6 @@ viewport_size
 :
 LayoutSize
 pub
-content_size
-:
-LayoutSize
-pub
 background_color
 :
 Option
@@ -946,9 +942,6 @@ ColorF
 viewport_size
 :
 LayoutSize
-content_size
-:
-LayoutSize
 )
 {
 let
@@ -1005,7 +998,6 @@ ScenePipeline
 {
 pipeline_id
 viewport_size
-content_size
 background_color
 display_list
 }

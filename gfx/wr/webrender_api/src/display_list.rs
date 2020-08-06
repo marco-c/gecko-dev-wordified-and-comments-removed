@@ -6046,9 +6046,6 @@ u64
 builder_start_time
 :
 u64
-content_size
-:
-LayoutSize
 save_state
 :
 Option
@@ -6075,9 +6072,6 @@ new
 pipeline_id
 :
 PipelineId
-content_size
-:
-LayoutSize
 )
 -
 >
@@ -6089,7 +6083,6 @@ Self
 with_capacity
 (
 pipeline_id
-content_size
 0
 )
 }
@@ -6100,9 +6093,6 @@ with_capacity
 pipeline_id
 :
 PipelineId
-content_size
-:
-LayoutSize
 capacity
 :
 usize
@@ -6161,7 +6151,6 @@ next_clip_chain_id
 builder_start_time
 :
 start_time
-content_size
 save_state
 :
 None
@@ -6172,21 +6161,6 @@ serialized_content_buffer
 :
 None
 }
-}
-pub
-fn
-content_size
-(
-&
-self
-)
--
->
-LayoutSize
-{
-self
-.
-content_size
 }
 pub
 fn
@@ -10313,7 +10287,6 @@ self
 >
 (
 PipelineId
-LayoutSize
 BuiltDisplayList
 )
 {
@@ -10459,9 +10432,6 @@ precise_time_ns
 self
 .
 pipeline_id
-self
-.
-content_size
 BuiltDisplayList
 {
 descriptor

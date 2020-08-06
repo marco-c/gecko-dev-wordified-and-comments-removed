@@ -5809,13 +5809,6 @@ const
 LayoutDeviceRect
 &
 aRect
-const
-wr
-:
-:
-LayoutSize
-&
-aContentSize
 ipc
 :
 :
@@ -5994,7 +5987,6 @@ Size
 )
 )
 mPipelineId
-aContentSize
 aDLDesc
 dlData
 )
@@ -6206,9 +6198,6 @@ SetDisplayList
 aDisplayList
 .
 mRect
-aDisplayList
-.
-mContentSize
 std
 :
 :

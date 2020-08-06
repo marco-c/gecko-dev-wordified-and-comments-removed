@@ -962,14 +962,12 @@ viewport_size
 LayoutSize
 (
 pipeline_id
-content_size
 mut
 display_list
 )
 :
 (
 PipelineId
-LayoutSize
 BuiltDisplayList
 )
 preserve_frame_state
@@ -1002,7 +1000,6 @@ epoch
 pipeline_id
 background
 viewport_size
-content_size
 preserve_frame_state
 }
 )
@@ -2816,9 +2813,6 @@ Option
 ColorF
 >
 viewport_size
-:
-LayoutSize
-content_size
 :
 LayoutSize
 preserve_frame_state

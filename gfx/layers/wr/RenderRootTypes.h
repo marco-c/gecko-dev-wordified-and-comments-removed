@@ -81,12 +81,6 @@ WebRenderParentCommand
 >
 mCommands
 ;
-wr
-:
-:
-LayoutSize
-mContentSize
-;
 Maybe
 <
 mozilla
