@@ -114,6 +114,11 @@ GetStdDev
 (
 )
 ;
+bool
+Sanitize
+(
+)
+;
 AutoTArray
 <
 gfx
