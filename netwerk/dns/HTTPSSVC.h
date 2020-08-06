@@ -51,7 +51,7 @@ SvcParamKey
 :
 uint16_t
 {
-SvcParamKeyNone
+SvcParamKeyMandatory
 =
 0
 SvcParamKeyAlpn
@@ -365,7 +365,7 @@ mSvcFieldValue
 uint16_t
 mSvcFieldPriority
 =
-SvcParamKeyNone
+0
 ;
 nsCString
 mSvcDomainName
