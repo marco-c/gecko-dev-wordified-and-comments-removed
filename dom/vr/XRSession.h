@@ -27,7 +27,7 @@ h
 #
 include
 "
-nsRefreshDriver
+nsRefreshObservers
 .
 h
 "
@@ -38,6 +38,9 @@ gfxVR
 .
 h
 "
+class
+nsRefreshDriver
+;
 namespace
 mozilla
 {

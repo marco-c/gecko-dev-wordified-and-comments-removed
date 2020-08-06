@@ -979,6 +979,13 @@ h
 #
 include
 "
+nsRefreshDriver
+.
+h
+"
+#
+include
+"
 nsSandboxFlags
 .
 h

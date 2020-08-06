@@ -80,6 +80,13 @@ h
 #
 include
 "
+nsRefreshDriver
+.
+h
+"
+#
+include
+"
 AnimationEvent
 .
 h

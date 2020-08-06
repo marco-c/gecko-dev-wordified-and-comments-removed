@@ -71,6 +71,13 @@ nsIScriptError
 .
 h
 "
+#
+include
+"
+nsRefreshDriver
+.
+h
+"
 namespace
 mozilla
 {

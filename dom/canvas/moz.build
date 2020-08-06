@@ -455,6 +455,11 @@ ImageData
 cpp
 '
 '
+nsICanvasRenderingContextInternal
+.
+cpp
+'
+'
 OffscreenCanvas
 .
 cpp

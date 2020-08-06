@@ -80,10 +80,13 @@ h
 #
 include
 "
-nsRefreshDriver
+nsRefreshObservers
 .
 h
 "
+class
+nsRefreshDriver
+;
 namespace
 mozilla
 {

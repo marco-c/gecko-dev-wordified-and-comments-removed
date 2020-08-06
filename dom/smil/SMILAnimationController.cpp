@@ -105,6 +105,13 @@ h
 #
 include
 "
+nsRefreshDriver
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

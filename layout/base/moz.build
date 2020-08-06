@@ -287,6 +287,11 @@ nsRefreshDriver
 h
 '
 '
+nsRefreshObservers
+.
+h
+'
+'
 nsStyleChangeList
 .
 h

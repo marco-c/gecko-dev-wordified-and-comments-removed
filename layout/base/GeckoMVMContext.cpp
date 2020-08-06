@@ -37,6 +37,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+VisualViewport
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

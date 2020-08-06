@@ -166,6 +166,13 @@ h
 #
 include
 "
+nsRefreshDriver
+.
+h
+"
+#
+include
+"
 VRDisplayClient
 .
 h
