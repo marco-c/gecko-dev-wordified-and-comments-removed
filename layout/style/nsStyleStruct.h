@@ -1125,6 +1125,8 @@ nsStyleImageLayers
 &
 aOther
 )
+=
+default
 ;
 bool
 operator
