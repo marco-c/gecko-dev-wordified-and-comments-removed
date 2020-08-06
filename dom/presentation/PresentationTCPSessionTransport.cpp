@@ -100,17 +100,12 @@ h
 define
 BUFFER_SIZE
 65536
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 dom
-;
+{
 class
 CopierCallbacks
 final
@@ -2321,4 +2316,6 @@ data
 false
 )
 ;
+}
+}
 }
