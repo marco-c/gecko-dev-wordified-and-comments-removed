@@ -211,6 +211,9 @@ bool
 >
 cancelled_
 ;
+JSTelemetrySender
+telemetrySender_
+;
 public
 :
 Tier2GeneratorTaskImpl
@@ -226,6 +229,8 @@ bytecode
 Module
 &
 module
+JSTelemetrySender
+telemetrySender
 )
 :
 compileArgs_
@@ -246,6 +251,10 @@ module
 cancelled_
 (
 false
+)
+telemetrySender_
+(
+telemetrySender
 )
 {
 }
@@ -334,6 +343,7 @@ bytes
 module_
 &
 cancelled_
+telemetrySender_
 )
 ;
 }
@@ -393,6 +403,8 @@ JS
 OptimizedEncodingListener
 *
 listener
+JSTelemetrySender
+telemetrySender
 )
 {
 MOZ_ASSERT
@@ -413,6 +425,7 @@ args
 bytecode
 *
 this
+telemetrySender
 )
 ;
 if
