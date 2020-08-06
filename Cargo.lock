@@ -10884,6 +10884,9 @@ hack
 "
 stylo_tests
 "
+"
+swgl
+"
 ]
 [
 [
@@ -10942,6 +10945,9 @@ gtest
 nsstring
 -
 gtest
+"
+"
+swgl
 "
 "
 xpcom
