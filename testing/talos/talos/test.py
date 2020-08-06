@@ -4523,6 +4523,16 @@ disabled
 True
                    
 '
+gfx
+.
+webrender
+.
+software
+'
+:
+True
+                   
+'
 layout
 .
 frame_rate
