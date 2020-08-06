@@ -7824,7 +7824,7 @@ starttagloop
 default
 :
 {
-errBadStartTagInHead
+errBadStartTagInNoscriptInHead
 (
 name
 )

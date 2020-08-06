@@ -522,7 +522,7 @@ aName
 )
 ;
 void
-errBadStartTagInHead
+errBadStartTagInNoscriptInHead
 (
 nsAtom
 *

@@ -9150,7 +9150,7 @@ starttagloop
 ;
 default
 :
-errBadStartTagInHead
+errBadStartTagInNoscriptInHead
 (
 name
 )
@@ -27207,7 +27207,7 @@ open
 }
 private
 void
-errBadStartTagInHead
+errBadStartTagInNoscriptInHead
 (
 Local
 String
@@ -27241,6 +27241,11 @@ u201C
 name
 +
 "
+\
+u201D
+in
+\
+u201Cnoscript
 \
 u201D
 in
