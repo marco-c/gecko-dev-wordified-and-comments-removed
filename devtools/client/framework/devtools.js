@@ -2646,7 +2646,7 @@ if
 typeof
 this
 .
-_isFissionContentToolboxEnabled
+_cachedFissionContentToolboxEnabled
 =
 =
 =
@@ -2683,7 +2683,7 @@ false
 ;
 this
 .
-_isFissionContentToolboxEnabled
+_cachedFissionContentToolboxEnabled
 =
 isFissionEnabled
 &
@@ -2694,7 +2694,17 @@ isContentFissionEnabled
 return
 this
 .
-_isFissionContentToolboxEnabled
+_cachedFissionContentToolboxEnabled
+;
+}
+clearIsFissionContentToolboxEnabledReferenceForTest
+(
+)
+{
+delete
+this
+.
+_cachedFissionContentToolboxEnabled
 ;
 }
 }

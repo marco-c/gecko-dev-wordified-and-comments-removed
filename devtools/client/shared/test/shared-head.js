@@ -1587,6 +1587,12 @@ close
 ;
 }
 }
+gDevTools
+.
+clearIsFissionContentToolboxEnabledReferenceForTest
+(
+)
+;
 }
 )
 ;
