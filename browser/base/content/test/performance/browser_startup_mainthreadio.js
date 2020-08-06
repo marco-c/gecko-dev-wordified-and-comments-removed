@@ -647,6 +647,12 @@ conf
 condition
 :
 LINUX
+&
+&
+!
+AppConstants
+.
+MOZ_CODE_COVERAGE
 read
 :
 22
@@ -862,6 +868,12 @@ conf
 condition
 :
 LINUX
+&
+&
+!
+AppConstants
+.
+MOZ_CODE_COVERAGE
 read
 :
 22
