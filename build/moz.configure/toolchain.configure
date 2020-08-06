@@ -2455,6 +2455,13 @@ defined
 (
 __GNUC__
 )
+&
+&
+!
+defined
+(
+__MINGW32__
+)
 %
 COMPILER
 "
@@ -4770,9 +4777,6 @@ types
 clang
 -
 cl
-'
-'
-gcc
 '
 '
 clang
