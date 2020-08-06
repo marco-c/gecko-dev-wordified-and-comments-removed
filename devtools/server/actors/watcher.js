@@ -103,8 +103,6 @@ server
 /
 actors
 /
-descriptors
-/
 watcher
 /
 WatcherRegistry
@@ -144,8 +142,6 @@ devtools
 server
 /
 actors
-/
-descriptors
 /
 watcher
 /

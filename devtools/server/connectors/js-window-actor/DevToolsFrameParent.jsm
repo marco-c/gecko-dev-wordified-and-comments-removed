@@ -80,8 +80,6 @@ server
 /
 actors
 /
-descriptors
-/
 watcher
 /
 WatcherRegistry

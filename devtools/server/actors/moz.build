@@ -38,6 +38,9 @@ targets
 utils
 '
 '
+watcher
+'
+'
 webconsole
 '
 '
@@ -234,6 +237,11 @@ js
 '
 '
 thread
+.
+js
+'
+'
+watcher
 .
 js
 '

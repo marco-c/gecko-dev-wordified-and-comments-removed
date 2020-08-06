@@ -168,10 +168,6 @@ server
 /
 actors
 /
-descriptors
-/
-watcher
-/
 watcher
 "
 true
