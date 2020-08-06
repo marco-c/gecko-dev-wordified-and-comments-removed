@@ -609,7 +609,9 @@ uint32_t
 aGeneration
 )
 {
-return
+Unused
+<
+<
 SendFinishMemoryReport
 (
 aGeneration
