@@ -361,6 +361,11 @@ nullptr
 aDocument
 )
 {
+mStateFlags
+|
+=
+eSharedNode
+;
 }
 uint64_t
 NativeState
