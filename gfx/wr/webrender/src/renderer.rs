@@ -182,6 +182,7 @@ CompositeState
 CompositeTileSurface
 CompositeTile
 ResolvedExternalSurface
+CompositorSurfaceTransform
 }
 ;
 use
@@ -15283,10 +15284,10 @@ NativeSurfaceId
 :
 :
 DEBUG_OVERLAY
-DeviceIntPoint
+CompositorSurfaceTransform
 :
 :
-zero
+identity
 (
 )
 DeviceIntRect
@@ -37354,11 +37355,7 @@ allocated
 )
 surface
 .
-offset
-.
-to_i32
-(
-)
+transform
 surface
 .
 clip_rect

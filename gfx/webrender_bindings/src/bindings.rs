@@ -331,6 +331,7 @@ ThreadListener
 UploadMethod
 WrShaders
 ONE_TIME_USAGE_HINT
+CompositorSurfaceTransform
 }
 ;
 use
@@ -6134,9 +6135,10 @@ c_void
 id
 :
 NativeSurfaceId
-position
+transform
 :
-DeviceIntPoint
+&
+CompositorSurfaceTransform
 clip_rect
 :
 DeviceIntRect
@@ -6475,9 +6477,9 @@ self
 id
 :
 NativeSurfaceId
-position
+transform
 :
-DeviceIntPoint
+CompositorSurfaceTransform
 clip_rect
 :
 DeviceIntRect
@@ -6491,7 +6493,8 @@ self
 .
 0
 id
-position
+&
+transform
 clip_rect
 )
 ;

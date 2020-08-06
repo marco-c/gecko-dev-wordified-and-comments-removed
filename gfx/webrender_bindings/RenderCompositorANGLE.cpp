@@ -4388,11 +4388,13 @@ wr
 :
 NativeSurfaceId
 aId
+const
 wr
 :
 :
-DeviceIntPoint
-aPosition
+CompositorSurfaceTransform
+&
+aTransform
 wr
 :
 :
@@ -4406,7 +4408,7 @@ mDCLayerTree
 AddSurface
 (
 aId
-aPosition
+aTransform
 aClipRect
 )
 ;

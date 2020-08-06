@@ -850,6 +850,7 @@ composite
 NativeSurfaceId
 NativeTileId
 NativeSurfaceInfo
+CompositorSurfaceTransform
 }
 ;
 pub
