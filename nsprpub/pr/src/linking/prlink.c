@@ -3417,6 +3417,7 @@ systemPrefix2
 )
 ;
 const
+size_t
 name_len
 =
 strlen

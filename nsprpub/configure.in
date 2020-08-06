@@ -231,7 +231,7 @@ MOD_MAJOR_VERSION
 4
 MOD_MINOR_VERSION
 =
-27
+28
 MOD_PATCH_VERSION
 =
 0
@@ -6592,6 +6592,14 @@ WINNT
 CPU_ARCH
 =
 x86
+;
+;
+cygwin
+*
+)
+OS_ARCH
+=
+WINNT
 ;
 ;
 darwin
