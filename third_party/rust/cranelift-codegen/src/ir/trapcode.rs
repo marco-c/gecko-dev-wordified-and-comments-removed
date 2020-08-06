@@ -78,6 +78,7 @@ TrapCode
 {
 StackOverflow
 HeapOutOfBounds
+HeapMisaligned
 TableOutOfBounds
 IndirectCallToNull
 BadSignature
@@ -141,6 +142,12 @@ HeapOutOfBounds
 >
 "
 heap_oob
+"
+HeapMisaligned
+=
+>
+"
+heap_misaligned
 "
 TableOutOfBounds
 =
@@ -277,6 +284,15 @@ heap_oob
 Ok
 (
 HeapOutOfBounds
+)
+"
+heap_misaligned
+"
+=
+>
+Ok
+(
+HeapMisaligned
 )
 "
 table_oob
@@ -428,7 +444,7 @@ CODES
 [
 TrapCode
 ;
-10
+11
 ]
 =
 [
@@ -440,6 +456,10 @@ TrapCode
 :
 :
 HeapOutOfBounds
+TrapCode
+:
+:
+HeapMisaligned
 TrapCode
 :
 :

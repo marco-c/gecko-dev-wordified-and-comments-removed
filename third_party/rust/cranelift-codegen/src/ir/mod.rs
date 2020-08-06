@@ -1,4 +1,7 @@
 mod
+atomic_rmw_op
+;
+mod
 builder
 ;
 pub
@@ -99,6 +102,19 @@ serde
 Deserialize
 Serialize
 }
+;
+pub
+use
+crate
+:
+:
+ir
+:
+:
+atomic_rmw_op
+:
+:
+AtomicRmwOp
 ;
 pub
 use
