@@ -2449,7 +2449,7 @@ true
 else
 value
 :
-NIGHTLY_BUILD
+IS_NIGHTLY_BUILD
 #
 endif
 mirror
