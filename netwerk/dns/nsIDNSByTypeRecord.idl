@@ -392,14 +392,14 @@ b12a
 )
 ]
 interface
-nsISVCParamEsniConfig
+nsISVCParamEchConfig
 :
 nsISupports
 {
 readonly
 attribute
 ACString
-esniConfig
+echconfig
 ;
 }
 ;

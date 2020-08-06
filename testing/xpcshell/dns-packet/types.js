@@ -325,11 +325,11 @@ return
 ANY
 '
 case
-65345
+65
 :
 return
 '
-HTTPSSVC
+HTTPS
 '
 }
 return
@@ -667,11 +667,11 @@ return
 255
 case
 '
-HTTPSSVC
+HTTPS
 '
 :
 return
-65345
+65
 case
 '
 *

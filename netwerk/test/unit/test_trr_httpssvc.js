@@ -1101,10 +1101,10 @@ QueryInterface
 (
 Ci
 .
-nsISVCParamEsniConfig
+nsISVCParamEchConfig
 )
 .
-esniConfig
+echconfig
 "
 123
 .
@@ -1335,10 +1335,10 @@ QueryInterface
 (
 Ci
 .
-nsISVCParamEsniConfig
+nsISVCParamEchConfig
 )
 .
-esniConfig
+echconfig
 "
 abc
 .
@@ -1646,7 +1646,7 @@ ttl
 type
 :
 "
-HTTPSSVC
+HTTPS
 "
 flush
 :
@@ -1769,7 +1769,7 @@ ttl
 type
 :
 "
-HTTPSSVC
+HTTPS
 "
 flush
 :
@@ -1873,7 +1873,7 @@ ttl
 type
 :
 "
-HTTPSSVC
+HTTPS
 "
 flush
 :
@@ -2004,7 +2004,7 @@ ttl
 type
 :
 "
-HTTPSSVC
+HTTPS
 "
 flush
 :
@@ -2079,7 +2079,7 @@ value
 key
 :
 "
-esniconfig
+echconfig
 "
 value
 :
@@ -2230,7 +2230,7 @@ ttl
 type
 :
 "
-HTTPSSVC
+HTTPS
 "
 flush
 :
@@ -2323,7 +2323,7 @@ ttl
 type
 :
 "
-HTTPSSVC
+HTTPS
 "
 flush
 :
@@ -2396,7 +2396,7 @@ multi
 com
 "
 "
-HTTPSSVC
+HTTPS
 "
 [
 {
@@ -2413,7 +2413,7 @@ ttl
 type
 :
 "
-HTTPSSVC
+HTTPS
 "
 flush
 :
@@ -2488,7 +2488,7 @@ value
 key
 :
 "
-esniconfig
+echconfig
 "
 value
 :
@@ -2530,7 +2530,7 @@ ttl
 type
 :
 "
-HTTPSSVC
+HTTPS
 "
 flush
 :

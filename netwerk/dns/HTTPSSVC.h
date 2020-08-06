@@ -66,7 +66,7 @@ SvcParamKeyPort
 SvcParamKeyIpv4Hint
 =
 4
-SvcParamKeyEsniConfig
+SvcParamKeyEchConfig
 =
 5
 SvcParamKeyIpv6Hint
@@ -195,7 +195,7 @@ mValue
 }
 ;
 struct
-SvcParamEsniConfig
+SvcParamEchConfig
 {
 bool
 operator
@@ -203,7 +203,7 @@ operator
 =
 (
 const
-SvcParamEsniConfig
+SvcParamEchConfig
 &
 aOther
 )
@@ -274,7 +274,7 @@ SvcParamAlpn
 SvcParamNoDefaultAlpn
 SvcParamPort
 SvcParamIpv4Hint
-SvcParamEsniConfig
+SvcParamEchConfig
 SvcParamIpv6Hint
 >
 ;

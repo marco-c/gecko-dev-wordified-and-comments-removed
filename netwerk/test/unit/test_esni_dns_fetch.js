@@ -1302,7 +1302,7 @@ QueryInterface
 (
 Ci
 .
-nsISVCParamEsniConfig
+nsISVCParamEchConfig
 )
 ;
 Assert
@@ -1311,7 +1311,7 @@ equal
 (
 esni
 .
-esniConfig
+echconfig
 "
 testytestystringstring
 "

@@ -7744,7 +7744,7 @@ return
 4
 case
 '
-esniconfig
+echconfig
 '
 :
 return
@@ -7864,7 +7864,7 @@ case
 :
 return
 '
-esniconfig
+echconfig
 '
 case
 6
@@ -8615,7 +8615,7 @@ length
 )
 case
 '
-esniconfig
+echconfig
 '
 :
 return
@@ -9240,7 +9240,7 @@ return
 rds
 case
 '
-HTTPSSVC
+HTTPS
 '
 :
 return
