@@ -464,6 +464,9 @@ inputs
 CompiledCode
 output
 ;
+JSTelemetrySender
+telemetrySender
+;
 CompileTask
 (
 const
@@ -475,6 +478,8 @@ ExclusiveCompileTaskState
 state
 size_t
 defaultChunkSize
+JSTelemetrySender
+telemetrySender
 )
 :
 env
@@ -488,6 +493,10 @@ state
 lifo
 (
 defaultChunkSize
+)
+telemetrySender
+(
+telemetrySender
 )
 {
 }
@@ -622,6 +631,9 @@ ModuleEnvironment
 *
 const
 env_
+;
+JSTelemetrySender
+telemetrySender_
 ;
 UniqueLinkData
 linkData_
@@ -900,6 +912,12 @@ Metadata
 maybeAsmJSMetadata
 =
 nullptr
+JSTelemetrySender
+telemetrySender
+=
+JSTelemetrySender
+(
+)
 )
 ;
 MOZ_MUST_USE
