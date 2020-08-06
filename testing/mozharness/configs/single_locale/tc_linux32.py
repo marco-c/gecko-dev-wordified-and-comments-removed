@@ -23,9 +23,11 @@ MOZ_OBJDIR
 "
 :
 "
-obj
--
-firefox
+%
+(
+abs_obj_dir
+)
+s
 "
         
 "
@@ -48,7 +50,7 @@ DIST
 "
 %
 (
-abs_objdir
+abs_obj_dir
 )
 s
 "
@@ -81,28 +83,6 @@ get
 TOOLTOOL_CACHE
 '
 )
-    
-}
-    
-"
-upload_env
-"
-:
-{
-        
-'
-UPLOAD_PATH
-'
-:
-'
-/
-builds
-/
-worker
-/
-artifacts
-/
-'
     
 }
 }

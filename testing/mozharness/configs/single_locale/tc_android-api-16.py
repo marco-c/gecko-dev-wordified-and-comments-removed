@@ -129,28 +129,6 @@ src
     
 }
     
-"
-upload_env
-"
-:
-{
-        
-'
-UPLOAD_PATH
-'
-:
-'
-/
-builds
-/
-worker
-/
-artifacts
-/
-'
-    
-}
-    
 '
 secret_files
 '
