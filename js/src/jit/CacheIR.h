@@ -7814,6 +7814,15 @@ callee
 )
 ;
 AttachDecision
+tryAttachArrayBufferByteLength
+(
+HandleFunction
+callee
+bool
+isPossiblyWrapped
+)
+;
+AttachDecision
 tryAttachIsConstructing
 (
 HandleFunction
