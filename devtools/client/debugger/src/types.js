@@ -1480,9 +1480,6 @@ number
 errorMessage
 :
 string
-fileName
-:
-URL
 lineNumber
 :
 number

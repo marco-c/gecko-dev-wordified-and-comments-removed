@@ -197,6 +197,13 @@ exc
 lineNumber
 }
 }
+selectedSourceId
+=
+{
+selectedSource
+.
+id
+}
 /
 >
 )
