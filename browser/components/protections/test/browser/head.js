@@ -155,9 +155,6 @@ mockGetLoginDataWithSyncedDevices
 mobileDeviceConnected
 =
 false
-potentiallyBreachedLogins
-=
-0
 )
 =
 >
@@ -188,7 +185,6 @@ countLogins
 "
 "
 )
-potentiallyBreachedLogins
 mobileDeviceConnected
 }
 ;
@@ -237,6 +233,11 @@ numBreaches
 passwords
 :
 8
+potentiallyBreachedLogins
+:
+data
+.
+potentiallyBreachedLogins
 numBreachesResolved
 :
 data
