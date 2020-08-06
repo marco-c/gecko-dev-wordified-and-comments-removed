@@ -4498,7 +4498,6 @@ pump
 AsyncRead
 (
 stream
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4838,7 +4837,6 @@ pump
 AsyncRead
 (
 listener
-nullptr
 )
 ;
 if

@@ -17178,7 +17178,6 @@ mSynthesizedResponsePump
 AsyncRead
 (
 aStreamListener
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS_VOID

@@ -469,9 +469,6 @@ asyncRead
 in
 nsIStreamListener
 aListener
-in
-nsISupports
-aListenerContext
 )
 ;
 }

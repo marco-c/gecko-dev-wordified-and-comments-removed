@@ -522,7 +522,6 @@ pump
 asyncRead
 (
 converter
-null
 )
 ;
 do_test_pending
