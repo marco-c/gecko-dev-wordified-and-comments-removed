@@ -186,16 +186,6 @@ parent_intercept
 "
 :
 True
-                
-"
-browser
-.
-tabs
-.
-documentchannel
-"
-:
-True
             
 }
         

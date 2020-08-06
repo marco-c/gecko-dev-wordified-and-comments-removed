@@ -1131,24 +1131,6 @@ parent_intercept
 ]
 =
 True
-        
-browser_config
-[
-'
-preferences
-'
-]
-[
-'
-browser
-.
-tabs
-.
-documentchannel
-'
-]
-=
-True
     
 browser_config
 [
