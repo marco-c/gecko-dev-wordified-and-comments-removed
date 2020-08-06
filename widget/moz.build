@@ -1143,11 +1143,6 @@ nsPaper
 .
 cpp
 '
-'
-nsPaperCUPS
-.
-cpp
-'
 ]
 if
 toolkit
