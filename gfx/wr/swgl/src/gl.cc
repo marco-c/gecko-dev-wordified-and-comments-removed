@@ -1884,7 +1884,7 @@ macro
 GL_SRC_ALPHA
 GL_ONE_MINUS_SRC_ALPHA
 GL_ONE
-GL_ONE_MINUS_SRC_ALPHA
+GL_ONE
 )
 \
 macro
@@ -1926,6 +1926,7 @@ GL_SRC_COLOR
 0
 0
 )
+\
 macro
 (
 GL_ONE
@@ -7503,18 +7504,10 @@ GL_BGRA
 )
 &
 &
-(
 ty
 =
 =
 GL_UNSIGNED_BYTE
-|
-|
-ty
-=
-=
-GL_UNSIGNED_INT_8_8_8_8_REV
-)
 )
 {
 return
@@ -14864,7 +14857,7 @@ BLEND_KEY
 GL_SRC_ALPHA
 GL_ONE_MINUS_SRC_ALPHA
 GL_ONE
-GL_ONE_MINUS_SRC_ALPHA
+GL_ONE
 )
 :
 return
@@ -14883,7 +14876,11 @@ src
 ALPHA_OPAQUE
 )
 -
+(
 dst
+&
+RGB_MASK
+)
 )
 )
 ;
@@ -16377,7 +16374,6 @@ self
 buf
 len
 )
-\
 do
 {
 \

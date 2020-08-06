@@ -2539,6 +2539,7 @@ ZBufferIdGenerator
 :
 new
 (
+layer
 scene
 .
 config

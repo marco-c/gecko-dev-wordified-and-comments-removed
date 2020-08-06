@@ -109,10 +109,10 @@ webrender
 gtkWidget
 7
 -
-8
+7
 24
 -
-32
+24
 )
 fuzzy
 -
@@ -188,7 +188,7 @@ gtkWidget
 28
 -
 28
-30
+32
 -
 32
 )
@@ -268,7 +268,7 @@ gtkWidget
 2
 19
 -
-20
+19
 )
 fuzzy
 -
@@ -343,10 +343,10 @@ webrender
 gtkWidget
 7
 -
-8
+7
 24
 -
-32
+24
 )
 fuzzy
 -
@@ -426,7 +426,7 @@ gtkWidget
 28
 -
 28
-30
+32
 -
 32
 )
