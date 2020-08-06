@@ -1120,8 +1120,6 @@ runSelectionTests
 =
 function
 (
-selectWordNextNode
-selectWordNextOffset
 )
 {
 testMoveCommand
@@ -1438,8 +1436,8 @@ testSelectCommand
 "
 cmd_selectWordNext
 "
-selectWordNextNode
-selectWordNextOffset
+body
+1
 )
 ;
 SpecialPowers
@@ -1600,8 +1598,6 @@ false
 ;
 runSelectionTests
 (
-body
-1
 )
 ;
 await
@@ -1629,11 +1625,6 @@ true
 ;
 runSelectionTests
 (
-node
-(
-2
-)
-0
 )
 ;
 }
