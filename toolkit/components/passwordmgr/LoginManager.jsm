@@ -1999,8 +1999,6 @@ perm
 .
 principal
 .
-URI
-.
 displayPrePath
 )
 ;
