@@ -36,7 +36,7 @@ IsInitialized
 ;
 mShim
 .
-mCupsFreeDests
+cupsFreeDests
 (
 mNumPrinters
 mPrinters
@@ -64,7 +64,7 @@ mNumPrinters
 =
 mShim
 .
-mCupsGetDests
+cupsGetDests
 (
 &
 mPrinters
@@ -92,7 +92,7 @@ aName
 return
 mShim
 .
-mCupsGetDest
+cupsGetDest
 (
 aName
 NULL
