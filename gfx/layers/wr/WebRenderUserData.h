@@ -722,6 +722,11 @@ gfx
 MaybeIntSize
 &
 aScaleToSize
+VideoInfo
+:
+:
+Rotation
+aRotation
 const
 wr
 :

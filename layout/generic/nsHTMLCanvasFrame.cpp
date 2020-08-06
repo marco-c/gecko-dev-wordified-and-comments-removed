@@ -868,6 +868,13 @@ value
 scBounds
 scTransform
 scaleToSize
+VideoInfo
+:
+:
+Rotation
+:
+:
+kDegree_0
 filter
 mixBlendMode
 LayoutDeviceSize
