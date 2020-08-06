@@ -11762,12 +11762,9 @@ return
 JS_ParseJSON
 (
 aCx
-PromiseFlatString
-(
 aJSON
-)
 .
-get
+BeginReading
 (
 )
 aJSON
