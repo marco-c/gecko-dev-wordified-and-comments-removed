@@ -46,7 +46,7 @@ mozilla
 :
 :
 LazyLogModule
-gWaylandDmabufLog
+gDmabufLog
 ;
 #
 define
@@ -54,10 +54,9 @@ LOGDMABUF
 (
 args
 )
-\
 MOZ_LOG
 (
-gWaylandDmabufLog
+gDmabufLog
 mozilla
 :
 :
