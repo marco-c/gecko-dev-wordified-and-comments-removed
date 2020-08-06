@@ -66,6 +66,8 @@ ac_add_options
 -
 enable
 -
+linker
+=
 gold
 unset
 MOZ_STDCXX_COMPAT

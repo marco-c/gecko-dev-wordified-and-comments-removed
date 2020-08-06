@@ -26,6 +26,8 @@ ac_add_options
 -
 enable
 -
+linker
+=
 gold
 ac_add_options
 -
