@@ -1005,6 +1005,24 @@ multiprocessing
 import
 json
         
+from
+mozbuild
+.
+code_analysis
+.
+utils
+import
+ClangTidyConfig
+        
+clang_tidy_cfg
+=
+ClangTidyConfig
+(
+self
+.
+topsrcdir
+)
+        
 clangd_json
 =
 json
@@ -1125,6 +1143,29 @@ storage
 "
 memory
 "
+                
+"
+-
+-
+clang
+-
+tidy
+"
+                
+"
+-
+-
+clang
+-
+tidy
+-
+checks
+"
+                
+"
+%
+s
+"
             
 ]
         
@@ -1136,13 +1177,21 @@ memory
             
 %
 (
+                
 clangd_path
+                
 clangd_cc_path
+                
 multiprocessing
 .
 cpu_count
 (
 )
+                
+clang_tidy_cfg
+.
+checks
+            
 )
         
 )

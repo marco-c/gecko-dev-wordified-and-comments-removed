@@ -16,9 +16,7 @@ mozbuild
 /
 mozbuild
 /
-code
--
-analysis
+code_analysis
 -
 python
 /

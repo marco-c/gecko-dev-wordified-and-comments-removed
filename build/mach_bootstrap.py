@@ -318,9 +318,7 @@ mozbuild
 /
 mozbuild
 /
-code
--
-analysis
+code_analysis
 /
 mach_commands
 .
