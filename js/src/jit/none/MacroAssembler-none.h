@@ -3462,17 +3462,6 @@ MOZ_CRASH
 )
 ;
 }
-void
-increaseStackOffset
-(
-uint32_t
-)
-{
-MOZ_CRASH
-(
-)
-;
-}
 }
 ;
 static

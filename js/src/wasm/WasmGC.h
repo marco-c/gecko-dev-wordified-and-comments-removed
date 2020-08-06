@@ -1061,7 +1061,7 @@ T
 argTypes
 )
 {
-WasmABIArgIter
+ABIArgIter
 <
 const
 T
