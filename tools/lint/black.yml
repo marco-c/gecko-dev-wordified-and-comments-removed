@@ -12,6 +12,16 @@ include
 -
 python
 /
+mozbuild
+/
+mozbuild
+/
+code
+-
+analysis
+-
+python
+/
 mozperftest
 /
 mozperftest
