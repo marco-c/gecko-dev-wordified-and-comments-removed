@@ -278,6 +278,15 @@ gEVExpected
 isDebugBuild
 ;
 const
+CLIENT_AUTH_FILE_NAME
+=
+"
+ClientAuthRememberList
+.
+txt
+"
+;
+const
 SSS_STATE_FILE_NAME
 =
 "
