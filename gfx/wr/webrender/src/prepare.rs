@@ -7384,6 +7384,8 @@ write_brush_segment_description
 prim_local_rect
 instance
 .
+clip_set
+.
 local_clip_rect
 prim_clip_chain
 &

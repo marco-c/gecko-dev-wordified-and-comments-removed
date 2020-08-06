@@ -78,7 +78,10 @@ crate
 clip
 :
 :
+{
 ClipChainId
+ClipSet
+}
 ;
 use
 crate
@@ -4847,7 +4850,6 @@ usize
 [
 derive
 (
-Clone
 Debug
 )
 ]
@@ -5004,7 +5006,6 @@ BackdropDataHandle
 [
 derive
 (
-Clone
 Debug
 )
 ]
@@ -5031,10 +5032,6 @@ pub
 kind
 :
 PrimitiveInstanceKind
-pub
-local_clip_rect
-:
-LayoutRect
 #
 [
 cfg
@@ -5062,9 +5059,9 @@ visibility_info
 :
 PrimitiveVisibilityIndex
 pub
-clip_chain_id
+clip_set
 :
-ClipChainId
+ClipSet
 }
 impl
 PrimitiveInstance
@@ -5089,7 +5086,6 @@ Self
 {
 PrimitiveInstance
 {
-local_clip_rect
 kind
 #
 [
@@ -5132,7 +5128,13 @@ PrimitiveVisibilityIndex
 :
 :
 INVALID
+clip_set
+:
+ClipSet
+{
+local_clip_rect
 clip_chain_id
+}
 }
 }
 pub

@@ -18872,6 +18872,8 @@ culling_rect
 =
 prim_instance
 .
+clip_set
+.
 local_clip_rect
 .
 intersection
@@ -26084,6 +26086,8 @@ prim_rect
 prim_rect
 ;
 prim_instance
+.
+clip_set
 .
 local_clip_rect
 =
