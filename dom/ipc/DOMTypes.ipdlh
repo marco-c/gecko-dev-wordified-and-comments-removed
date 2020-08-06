@@ -590,6 +590,11 @@ nsString
 inheritedDeniedFeatureNames
 ;
 nsString
+[
+]
+attributeEnabledFeatureNames
+;
+nsString
 declaredString
 ;
 nsIPrincipal
