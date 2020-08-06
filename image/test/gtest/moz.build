@@ -206,6 +206,13 @@ blend
 webp
 '
 '
+bug
+-
+1655846
+.
+avif
+'
+'
 corrupt
 -
 with
