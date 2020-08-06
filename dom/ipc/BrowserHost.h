@@ -258,9 +258,12 @@ aCallback
 void
 LoadURL
 (
-nsDocShellLoadState
+nsIURI
 *
-aLoadState
+aURI
+nsIPrincipal
+*
+aTriggeringPrincipal
 )
 override
 ;

@@ -1150,6 +1150,14 @@ aContentParent
 )
 ;
 }
+mFrameLoader
+-
+>
+LoadFrame
+(
+false
+)
+;
 }
 ;
 auto

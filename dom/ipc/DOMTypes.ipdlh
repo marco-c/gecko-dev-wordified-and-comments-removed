@@ -622,6 +622,9 @@ FrameScriptInfo
 ]
 frameScripts
 ;
+nsCString
+urlToLoad
+;
 uint32_t
 maxTouchPoints
 ;
