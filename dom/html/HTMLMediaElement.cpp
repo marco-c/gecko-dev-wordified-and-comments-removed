@@ -26618,6 +26618,16 @@ mAutoplaying
 true
 ;
 }
+if
+(
+StaticPrefs
+:
+:
+media_mediacontrol_stopcontrol_aftermediaends
+(
+)
+)
+{
 mMediaControlKeyListener
 -
 >
@@ -26625,6 +26635,7 @@ StopIfNeeded
 (
 )
 ;
+}
 DispatchAsyncEvent
 (
 u
