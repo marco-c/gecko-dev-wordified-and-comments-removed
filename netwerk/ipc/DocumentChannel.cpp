@@ -795,12 +795,6 @@ SchemeIsJavascript
 (
 aURI
 )
-|
-|
-NS_IsAboutBlank
-(
-aURI
-)
 )
 {
 return
