@@ -747,6 +747,14 @@ SECItem
 subPrime
 )
 ;
+PRBool
+KEA_PrimeCheck
+(
+SECItem
+*
+prime
+)
+;
 SECStatus
 JPAKE_Sign
 (

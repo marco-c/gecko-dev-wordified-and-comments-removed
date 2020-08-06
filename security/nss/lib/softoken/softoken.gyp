@@ -357,6 +357,11 @@ sdb
 c
 '
 '
+sftkdhverify
+.
+c
+'
+'
 sftkdb
 .
 c

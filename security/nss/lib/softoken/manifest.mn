@@ -236,6 +236,10 @@ sftkdb
 .
 c
 \
+sftkdhverify
+.
+c
+\
 sftkhmac
 .
 c
