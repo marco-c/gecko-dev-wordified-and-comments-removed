@@ -7357,16 +7357,6 @@ function
 actor
 )
 {
-actor
-.
-originalRegisteredPool
-=
-actor
-.
-getParent
-(
-)
-;
 this
 .
 threadLifetimePool
