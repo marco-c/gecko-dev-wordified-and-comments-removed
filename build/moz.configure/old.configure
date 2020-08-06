@@ -1612,13 +1612,6 @@ sandbox
 -
 enable
 -
-startupcache
-'
-'
--
--
-enable
--
 system
 -
 cairo
