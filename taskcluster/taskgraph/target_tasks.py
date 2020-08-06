@@ -136,23 +136,6 @@ linux1804
     
 r
 '
-linux
-.
-*
-web
--
-platform
--
-tests
-.
-*
--
-fis
--
-'
-    
-r
-'
 web
 -
 platform
