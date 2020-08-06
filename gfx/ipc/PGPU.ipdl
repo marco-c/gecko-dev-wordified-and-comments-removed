@@ -496,6 +496,11 @@ FileDescriptor
 ?
 DMDFile
 )
+returns
+(
+uint32_t
+aGeneration
+)
 ;
 async
 ShutdownVR
@@ -662,13 +667,6 @@ AddMemoryReport
 (
 MemoryReport
 aReport
-)
-;
-async
-FinishMemoryReport
-(
-uint32_t
-aGeneration
 )
 ;
 async

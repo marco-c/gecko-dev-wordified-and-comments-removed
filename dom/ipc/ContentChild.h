@@ -2845,6 +2845,10 @@ FileDescriptor
 >
 &
 DMDFile
+const
+RequestMemoryReportResolver
+&
+aResolver
 )
 ;
 mozilla

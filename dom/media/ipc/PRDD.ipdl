@@ -138,6 +138,11 @@ FileDescriptor
 ?
 DMDFile
 )
+returns
+(
+uint32_t
+aGeneration
+)
 ;
 async
 PreferenceUpdate
@@ -188,13 +193,6 @@ AddMemoryReport
 (
 MemoryReport
 aReport
-)
-;
-async
-FinishMemoryReport
-(
-uint32_t
-aGeneration
 )
 ;
 async

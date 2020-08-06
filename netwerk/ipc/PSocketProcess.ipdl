@@ -488,13 +488,6 @@ aReport
 )
 ;
 async
-FinishMemoryReport
-(
-uint32_t
-aGeneration
-)
-;
-async
 AccumulateChildHistograms
 (
 HistogramAccumulation
@@ -681,6 +674,11 @@ minimizeMemoryUsage
 FileDescriptor
 ?
 DMDFile
+)
+returns
+(
+uint32_t
+aGeneration
 )
 ;
 async
