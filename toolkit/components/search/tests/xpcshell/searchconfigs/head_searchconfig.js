@@ -725,13 +725,18 @@ engineSelector
 .
 fetchEngineConfiguration
 (
+{
 locale
+region
+:
 region
 |
 |
 "
 default
 "
+channel
+:
 AppConstants
 .
 MOZ_APP_VERSION_DISPLAY
@@ -750,6 +755,7 @@ esr
 AppConstants
 .
 MOZ_UPDATE_CHANNEL
+}
 )
 ;
 for
