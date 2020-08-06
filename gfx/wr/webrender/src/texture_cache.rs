@@ -4950,7 +4950,7 @@ descriptor
 .
 size
 .
-is_empty_or_negative
+is_empty
 (
 )
 )
