@@ -7570,6 +7570,8 @@ const
 JSClass
 *
 clasp
+bool
+isPossiblyWrapped
 )
 ;
 AttachDecision
