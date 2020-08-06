@@ -178,9 +178,6 @@ mozharness
 prettier
 -
 format
-python
--
-test
 raptor
 raptor
 -
