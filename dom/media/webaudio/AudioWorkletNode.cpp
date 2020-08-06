@@ -1229,11 +1229,15 @@ GetGlobalScope
 (
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 global
 )
+{
+return
 ;
+}
 AutoJSAPI
 api
 ;

@@ -337,6 +337,9 @@ WorkletGlobalScope
 >
 mGlobalScope
 ;
+bool
+mFinishedOnExecutionThread
+;
 Maybe
 <
 nsID
