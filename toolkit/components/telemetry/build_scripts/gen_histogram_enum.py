@@ -54,13 +54,9 @@ define
 mozilla_TelemetryHistogramEnums_h
 #
 include
-"
-mozilla
-/
-TemplateLib
-.
-h
-"
+<
+type_traits
+>
 namespace
 mozilla
 {
