@@ -7856,6 +7856,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachArrayConstructor
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachTypedArrayConstructor
 (
 HandleFunction

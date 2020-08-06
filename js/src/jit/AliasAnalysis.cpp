@@ -1117,6 +1117,15 @@ MDefinition
 Opcode
 :
 :
+NewArrayDynamicLength
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 CompareExchangeTypedArrayElement
 :
 case

@@ -10897,6 +10897,12 @@ Object
 if
 (
 !
+JitOptions
+.
+warpBuilder
+&
+&
+!
 templateObject
 -
 >
@@ -10955,7 +10961,6 @@ return
 initialHeap_
 ;
 }
-virtual
 AliasSet
 getAliasSet
 (
@@ -10967,8 +10972,12 @@ return
 AliasSet
 :
 :
-None
+Store
 (
+AliasSet
+:
+:
+ExceptionState
 )
 ;
 }

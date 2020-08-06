@@ -669,8 +669,8 @@ ArrayConstructorOneArg
 JSContext
 *
 cx
-HandleObjectGroup
-group
+HandleArrayObject
+templateObject
 int32_t
 lengthInt
 )

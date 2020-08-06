@@ -18819,8 +18819,8 @@ ArrayConstructorOneArg
 JSContext
 *
 cx
-HandleObjectGroup
-group
+HandleArrayObject
+templateObject
 int32_t
 lengthInt
 )
@@ -18841,7 +18841,7 @@ realm
 )
 !
 =
-group
+templateObject
 -
 >
 realm
@@ -18859,7 +18859,7 @@ compartment
 )
 =
 =
-group
+templateObject
 -
 >
 compartment
@@ -18872,7 +18872,7 @@ ar
 emplace
 (
 cx
-group
+templateObject
 )
 ;
 }
@@ -18901,6 +18901,18 @@ length
 uint32_t
 (
 lengthInt
+)
+;
+RootedObjectGroup
+group
+(
+cx
+templateObject
+-
+>
+group
+(
+)
 )
 ;
 ArrayObject
