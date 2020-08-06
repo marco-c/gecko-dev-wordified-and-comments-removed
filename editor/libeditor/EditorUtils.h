@@ -2949,13 +2949,13 @@ mEditorBase
 ;
 class
 MOZ_STACK_CLASS
-AutoRangeArray
+AutoSelectionRangeArray
 final
 {
 public
 :
 explicit
-AutoRangeArray
+AutoSelectionRangeArray
 (
 dom
 :

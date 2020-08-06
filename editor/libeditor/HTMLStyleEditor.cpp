@@ -1352,7 +1352,7 @@ dontChangeMySelection
 this
 )
 ;
-AutoRangeArray
+AutoSelectionRangeArray
 arrayOfRanges
 (
 SelectionRefPtr
@@ -9449,7 +9449,7 @@ style
 removeStyles
 )
 {
-AutoRangeArray
+AutoSelectionRangeArray
 arrayOfRanges
 (
 SelectionRefPtr
@@ -11413,7 +11413,7 @@ dontChangeMySelection
 this
 )
 ;
-AutoRangeArray
+AutoSelectionRangeArray
 arrayOfRanges
 (
 SelectionRefPtr
