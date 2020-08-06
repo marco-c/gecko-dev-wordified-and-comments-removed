@@ -2688,7 +2688,7 @@ Degree0
 LayoutTransform
 :
 :
-create_translation
+translation
 (
 -
 size
@@ -2728,7 +2728,7 @@ Degree90
 LayoutTransform
 :
 :
-create_translation
+translation
 (
 -
 size
@@ -2768,7 +2768,7 @@ Degree180
 LayoutTransform
 :
 :
-create_translation
+translation
 (
 -
 size
@@ -2808,7 +2808,7 @@ Degree270
 LayoutTransform
 :
 :
-create_translation
+translation
 (
 -
 size
@@ -2845,7 +2845,7 @@ shift_origin_to_center
 LayoutTransform
 :
 :
-create_translation
+translation
 (
 size
 .
@@ -2863,10 +2863,15 @@ height
 .
 )
 ;
+shift_center_to_origin
+.
+then
+(
+&
 LayoutTransform
 :
 :
-create_rotation
+rotation
 (
 0
 .
@@ -2878,14 +2883,9 @@ create_rotation
 0
 angle
 )
-.
-pre_transform
-(
-&
-shift_center_to_origin
 )
 .
-post_transform
+then
 (
 &
 shift_origin_to_center

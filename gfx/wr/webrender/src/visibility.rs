@@ -2205,7 +2205,7 @@ combined_local_clip_rect
 .
 size
 .
-is_empty_or_negative
+is_empty
 (
 )
 {
