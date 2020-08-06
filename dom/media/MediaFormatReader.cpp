@@ -4540,7 +4540,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 "
 MediaFormatReader

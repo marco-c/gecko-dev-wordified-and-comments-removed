@@ -72,7 +72,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 )
 ;
@@ -184,7 +184,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 )
 ;
@@ -330,7 +330,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 )
 ;
@@ -437,7 +437,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 )
 ;
@@ -645,7 +645,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 )
 ;
@@ -806,7 +806,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 )
 ;
@@ -976,7 +976,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 )
 ;
@@ -1299,7 +1299,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 )
 ;
@@ -1435,7 +1435,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 )
 ;
@@ -1563,7 +1563,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 )
 ;
@@ -1703,7 +1703,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 )
 ;

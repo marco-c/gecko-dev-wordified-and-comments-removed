@@ -632,7 +632,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 "
 Benchmark
@@ -886,7 +886,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 "
 BenchmarkPlayback

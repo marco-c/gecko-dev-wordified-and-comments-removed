@@ -990,7 +990,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 )
 )
@@ -1245,7 +1245,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 aEncoder
 -
@@ -1493,7 +1493,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 aEncoder
 -
@@ -1583,7 +1583,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 aEncoder
 -

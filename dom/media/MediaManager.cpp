@@ -9830,7 +9830,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 "
 MediaManager

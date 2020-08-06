@@ -106,7 +106,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 "
 MediaSourceDemuxer
