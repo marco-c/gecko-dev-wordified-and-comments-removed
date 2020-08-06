@@ -107,7 +107,6 @@ dom
 namespace
 cache
 {
-refcounted
 protocol
 PCacheOp
 {

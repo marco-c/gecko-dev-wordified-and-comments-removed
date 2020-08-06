@@ -90,14 +90,6 @@ friend
 class
 PCacheOpChild
 ;
-public
-:
-NS_DECL_OWNINGTHREAD
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-CacheOpChild
-override
-)
 private
 :
 CacheOpChild
@@ -248,6 +240,7 @@ Promise
 >
 mPromise
 ;
+NS_DECL_OWNINGTHREAD
 }
 ;
 }
