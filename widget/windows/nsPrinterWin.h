@@ -56,6 +56,15 @@ PaperList
 const
 final
 ;
+MarginDouble
+GetMarginsForPaper
+(
+uint64_t
+aId
+)
+const
+final
+;
 nsPrinterWin
 (
 )
