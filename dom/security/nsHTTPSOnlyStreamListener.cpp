@@ -201,6 +201,17 @@ nsresult
 aStatus
 )
 {
+nsCOMPtr
+<
+nsIChannel
+>
+channel
+=
+do_QueryInterface
+(
+request
+)
+;
 if
 (
 nsHTTPSOnlyUtils
@@ -208,6 +219,7 @@ nsHTTPSOnlyUtils
 :
 CouldBeHttpsOnlyError
 (
+channel
 aStatus
 )
 )

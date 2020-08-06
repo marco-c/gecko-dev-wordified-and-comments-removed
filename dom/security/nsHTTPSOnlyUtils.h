@@ -55,6 +55,9 @@ static
 bool
 CouldBeHttpsOnlyError
 (
+nsIChannel
+*
+aChannel
 nsresult
 aError
 )
