@@ -412,6 +412,17 @@ cpu_family
 '
 aarch64
 '
+or
+host_machine
+.
+cpu
+(
+)
+=
+=
+'
+arm64
+'
 checkasm_sources
 +
 =
