@@ -21,9 +21,6 @@ Node
 webidl
 Range
 ;
-webidl
-Selection
-;
 [
 scriptable
 uuid
@@ -101,14 +98,6 @@ aOffset
 in
 long
 aLength
-)
-;
-void
-WillDeleteSelection
-(
-in
-Selection
-aSelection
 )
 ;
 void
