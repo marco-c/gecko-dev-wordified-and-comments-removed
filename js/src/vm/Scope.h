@@ -544,13 +544,6 @@ AbstractBindingIter
 NameT
 >
 ;
-friend
-class
-frontend
-:
-:
-ScopeStencil
-;
 bool
 isTopLevelFunction
 (
