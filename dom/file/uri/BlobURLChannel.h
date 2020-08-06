@@ -64,9 +64,6 @@ InitFailed
 void
 Initialize
 (
-BlobImpl
-*
-aBlobImpl
 )
 ;
 private
