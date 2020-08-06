@@ -26585,6 +26585,7 @@ causes
 Firefox
 and
 Chrome
+to
 flatten
 the
 tree
