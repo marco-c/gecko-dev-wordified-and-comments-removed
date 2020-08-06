@@ -142,6 +142,13 @@ LayerTreeIdMapping
 &
 &
 mappings
+nsTArray
+<
+GfxInfoFeatureStatus
+>
+&
+&
+features
 )
 ;
 mozilla
