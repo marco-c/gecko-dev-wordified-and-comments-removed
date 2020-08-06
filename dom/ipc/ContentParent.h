@@ -3024,6 +3024,13 @@ aBlobURL
 nsIPrincipal
 *
 pTriggeringPrincipal
+nsIPrincipal
+*
+pLoadingPrincipal
+const
+OriginAttributes
+&
+aOriginAttributes
 BlobURLDataRequestResolver
 &
 &
