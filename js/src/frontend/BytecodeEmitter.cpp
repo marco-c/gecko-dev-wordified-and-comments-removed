@@ -4402,6 +4402,7 @@ innermostScopeIndex
 const
 {
 return
+*
 innermostEmitterScope
 (
 )

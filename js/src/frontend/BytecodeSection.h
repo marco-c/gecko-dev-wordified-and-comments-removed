@@ -634,7 +634,13 @@ index
 )
 const
 ;
+mozilla
+:
+:
+Maybe
+<
 ScopeIndex
+>
 getScopeIndex
 (
 size_t

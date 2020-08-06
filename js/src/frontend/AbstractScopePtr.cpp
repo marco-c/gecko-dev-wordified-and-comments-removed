@@ -291,6 +291,9 @@ get
 .
 enclosing
 (
+compilationInfo
+(
+)
 )
 ;
 }
