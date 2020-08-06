@@ -3486,9 +3486,8 @@ forget
 }
 else
 {
-TaskQueue
-*
-taskQueue
+nsresult
+rv
 =
 task
 -
@@ -3496,11 +3495,6 @@ task
 PControllerTaskQueue
 (
 )
-;
-nsresult
-rv
-=
-taskQueue
 -
 >
 Dispatch
