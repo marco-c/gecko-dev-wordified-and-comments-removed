@@ -115,6 +115,9 @@ nsISocketTransport
 interface
 nsIURI
 ;
+interface
+nsIWebSocketConnection
+;
 [
 scriptable
 uuid
@@ -161,6 +164,17 @@ onUpgradeFailed
 in
 nsresult
 aErrorCode
+)
+;
+[
+must_use
+]
+void
+onWebSocketConnectionAvailable
+(
+in
+nsIWebSocketConnection
+aConnection
 )
 ;
 }
