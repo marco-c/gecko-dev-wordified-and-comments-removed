@@ -9414,6 +9414,12 @@ BailoutKind
 :
 NotArrayBufferMaybeSharedGuard
 :
+case
+BailoutKind
+:
+:
+ArrayPopShift
+:
 break
 ;
 case

@@ -589,9 +589,9 @@ extern
 void
 ArrayShiftMoveElements
 (
-NativeObject
+ArrayObject
 *
-obj
+arr
 )
 ;
 extern

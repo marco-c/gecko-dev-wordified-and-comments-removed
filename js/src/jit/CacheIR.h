@@ -7425,6 +7425,15 @@ callee
 )
 ;
 AttachDecision
+tryAttachArrayPopShift
+(
+HandleFunction
+callee
+InlinableNative
+native
+)
+;
+AttachDecision
 tryAttachArrayJoin
 (
 HandleFunction
