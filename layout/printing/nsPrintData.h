@@ -164,11 +164,11 @@ nsIPrintProgressParams
 >
 mPrintProgressParams
 ;
-nsPrintObject
-*
-mSelectionRoot
-=
-nullptr
+nsCOMPtr
+<
+nsPIDOMWindowOuter
+>
+mCurrentFocusWin
 ;
 nsTArray
 <
