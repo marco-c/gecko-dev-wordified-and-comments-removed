@@ -83,6 +83,10 @@ class
 SVGAnimatedPreserveAspectRatio
 final
 {
+friend
+class
+AutoChangePreserveAspectRatioNotifier
+;
 public
 :
 void

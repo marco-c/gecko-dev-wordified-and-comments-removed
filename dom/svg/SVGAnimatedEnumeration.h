@@ -102,6 +102,10 @@ SVGAnimatedEnumeration
 {
 public
 :
+friend
+class
+AutoChangeEnumNotifier
+;
 using
 SVGElement
 =
