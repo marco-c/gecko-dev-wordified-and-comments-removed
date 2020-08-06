@@ -27730,12 +27730,6 @@ AutoUseNewTab
 aunt
 (
 newTab
-&
-cwi
-.
-urlToLoad
-(
-)
 )
 ;
 nsCOMPtr
