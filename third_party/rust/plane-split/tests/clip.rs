@@ -744,7 +744,7 @@ f32
 Transform3D
 :
 :
-rotation
+create_rotation
 (
 0
 .
@@ -780,7 +780,7 @@ f32
 Transform3D
 :
 :
-perspective
+create_perspective
 (
 5
 .
@@ -792,7 +792,7 @@ transform
 =
 t_rot
 .
-then
+post_transform
 (
 &
 t_div
@@ -1030,7 +1030,7 @@ f32
 >
 :
 :
-new
+row_major
 (
 1
 .

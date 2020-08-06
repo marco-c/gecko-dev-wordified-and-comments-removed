@@ -406,7 +406,7 @@ Self
 Transform3D
 :
 :
-new
+row_major
 (
 m
 .
@@ -534,7 +534,7 @@ Self
 Transform3D
 :
 :
-new
+row_major
 (
 m
 .
@@ -2161,6 +2161,23 @@ std
 :
 f64
 ;
+const
+TWO_PI
+:
+f64
+=
+2
+.
+0f64
+*
+f64
+:
+:
+consts
+:
+:
+PI
+;
 let
 reference_width
 =
@@ -2215,6 +2232,8 @@ theta
 let
 theta
 =
+TWO_PI
+-
 theta
 .
 radians64
@@ -2252,7 +2271,7 @@ theta
 Transform3D
 :
 :
-rotation
+create_rotation
 (
 ax
 as
@@ -2293,6 +2312,8 @@ Angle
 :
 radians
 (
+TWO_PI
+-
 theta
 .
 radians64
@@ -2303,7 +2324,7 @@ radians64
 Transform3D
 :
 :
-rotation
+create_rotation
 (
 1
 .
@@ -2332,6 +2353,8 @@ Angle
 :
 radians
 (
+TWO_PI
+-
 theta
 .
 radians64
@@ -2342,7 +2365,7 @@ radians64
 Transform3D
 :
 :
-rotation
+create_rotation
 (
 0
 .
@@ -2376,6 +2399,8 @@ Angle
 :
 radians
 (
+TWO_PI
+-
 theta
 .
 radians64
@@ -2386,7 +2411,7 @@ radians64
 Transform3D
 :
 :
-rotation
+create_rotation
 (
 0
 .
@@ -2436,7 +2461,7 @@ sz
 Transform3D
 :
 :
-scale
+create_scale
 (
 sx
 .
@@ -2464,7 +2489,7 @@ sy
 Transform3D
 :
 :
-scale
+create_scale
 (
 sx
 .
@@ -2488,7 +2513,7 @@ s
 Transform3D
 :
 :
-scale
+create_scale
 (
 s
 .
@@ -2509,7 +2534,7 @@ s
 Transform3D
 :
 :
-scale
+create_scale
 (
 1
 .
@@ -2530,7 +2555,7 @@ s
 Transform3D
 :
 :
-scale
+create_scale
 (
 1
 .
@@ -2583,7 +2608,7 @@ f64
 Transform3D
 :
 :
-translation
+create_translation
 (
 tx
 ty
@@ -2637,7 +2662,7 @@ f64
 Transform3D
 :
 :
-translation
+create_translation
 (
 tx
 ty
@@ -2669,7 +2694,7 @@ f64
 Transform3D
 :
 :
-translation
+create_translation
 (
 t
 0
@@ -2702,7 +2727,7 @@ f64
 Transform3D
 :
 :
-translation
+create_translation
 (
 0
 .
@@ -2722,7 +2747,7 @@ z
 Transform3D
 :
 :
-translation
+create_translation
 (
 0
 .
@@ -2749,7 +2774,7 @@ theta_y
 Transform3D
 :
 :
-skew
+create_skew
 (
 euclid
 :
@@ -2789,7 +2814,7 @@ theta
 Transform3D
 :
 :
-skew
+create_skew
 (
 euclid
 :
@@ -2826,7 +2851,7 @@ theta
 Transform3D
 :
 :
-skew
+create_skew
 (
 euclid
 :
@@ -3049,7 +3074,7 @@ f32
 Transform3D
 :
 :
-new
+row_major
 (
 cast
 (
@@ -3260,12 +3285,12 @@ is_3d
 ;
 transform
 =
-matrix
+transform
 .
-then
+pre_transform
 (
 &
-transform
+matrix
 )
 ;
 }
@@ -3317,7 +3342,7 @@ else
 Transform3D
 :
 :
-perspective
+create_perspective
 (
 d
 )

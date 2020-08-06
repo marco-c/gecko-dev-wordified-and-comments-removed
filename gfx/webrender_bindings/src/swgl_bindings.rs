@@ -430,7 +430,7 @@ device_rect
 =
 transform
 .
-outer_transformed_rect
+transform_rect
 (
 &
 bounds
@@ -570,7 +570,7 @@ valid
 =
 transform
 .
-outer_transformed_rect
+transform_rect
 (
 &
 valid
