@@ -360,16 +360,6 @@ set
 [
 [
 "
-browser
-.
-tabs
-.
-documentchannel
-"
-true
-]
-[
-"
 dom
 .
 serviceWorkers

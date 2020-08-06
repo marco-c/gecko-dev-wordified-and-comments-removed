@@ -23,17 +23,6 @@ jsm
 )
 ;
 const
-DOCUMENT_CHANNEL_PREF
-=
-"
-browser
-.
-tabs
-.
-documentchannel
-"
-;
-const
 HISTORY
 =
 [

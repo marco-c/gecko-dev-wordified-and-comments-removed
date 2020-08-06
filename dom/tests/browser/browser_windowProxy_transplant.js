@@ -109,16 +109,6 @@ preserve_browsing_contexts
 "
 true
 ]
-[
-"
-browser
-.
-tabs
-.
-documentchannel
-"
-true
-]
 ]
 }
 )

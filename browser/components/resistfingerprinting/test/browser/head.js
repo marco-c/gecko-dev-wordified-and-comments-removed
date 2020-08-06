@@ -274,16 +274,6 @@ useCrossOriginEmbedderPolicy
 "
 crossOriginIsolated
 ]
-[
-"
-browser
-.
-tabs
-.
-documentchannel
-"
-crossOriginIsolated
-]
 ]
 }
 )
