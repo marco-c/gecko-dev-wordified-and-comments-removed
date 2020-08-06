@@ -10586,9 +10586,7 @@ stage
 -
 welcome
 -
-importable
--
-theme
+default
 \
 "
 \
