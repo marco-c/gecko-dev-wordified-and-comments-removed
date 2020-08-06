@@ -101,7 +101,7 @@ struct
 CompilationInfo
 ;
 class
-ScopeCreationData
+ScopeStencil
 ;
 }
 using
@@ -248,7 +248,7 @@ const
 {
 if
 (
-isScopeCreationData
+isScopeStencil
 (
 )
 )
@@ -286,7 +286,7 @@ isNullptr
 ;
 }
 bool
-isScopeCreationData
+isScopeStencil
 (
 )
 const
@@ -307,9 +307,9 @@ MutableHandle
 frontend
 :
 :
-ScopeCreationData
+ScopeStencil
 >
-scopeCreationData
+scopeData
 (
 )
 const

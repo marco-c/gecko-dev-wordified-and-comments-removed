@@ -699,7 +699,7 @@ false
 }
 }
 bool
-ConvertScopeCreationData
+ConvertScopeStencil
 (
 JSContext
 *
@@ -883,7 +883,7 @@ numBindings
 if
 (
 !
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -1010,7 +1010,7 @@ enclosing
 if
 (
 !
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -1157,7 +1157,7 @@ enclosing
 if
 (
 !
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -1343,7 +1343,7 @@ enclosing
 if
 (
 !
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -3127,7 +3127,7 @@ nullptr
 if
 (
 !
-ConvertScopeCreationData
+ConvertScopeStencil
 (
 cx
 result

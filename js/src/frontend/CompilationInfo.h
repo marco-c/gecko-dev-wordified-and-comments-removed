@@ -749,9 +749,9 @@ JS
 :
 RootedVector
 <
-ScopeCreationData
+ScopeStencil
 >
-scopeCreationData
+scopeData
 ;
 JS
 :
@@ -936,7 +936,7 @@ scopes
 (
 cx
 )
-scopeCreationData
+scopeData
 (
 cx
 )

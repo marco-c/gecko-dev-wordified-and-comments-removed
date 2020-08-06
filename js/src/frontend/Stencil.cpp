@@ -293,7 +293,7 @@ true
 ;
 }
 AbstractScopePtr
-ScopeCreationData
+ScopeStencil
 :
 :
 enclosing
@@ -367,7 +367,7 @@ enclosingScope
 }
 Scope
 *
-ScopeCreationData
+ScopeStencil
 :
 :
 getEnclosingScope
@@ -390,7 +390,7 @@ existingScope
 }
 JSFunction
 *
-ScopeCreationData
+ScopeStencil
 :
 :
 function
@@ -415,7 +415,7 @@ functionIndex_
 }
 Scope
 *
-ScopeCreationData
+ScopeStencil
 :
 :
 createScope
@@ -678,7 +678,7 @@ scope
 ;
 }
 void
-ScopeCreationData
+ScopeStencil
 :
 :
 trace
@@ -901,7 +901,7 @@ type
 }
 }
 uint32_t
-ScopeCreationData
+ScopeStencil
 :
 :
 nextFrameSlot
@@ -1964,7 +1964,7 @@ reserve
 (
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 length
 (
@@ -1984,7 +1984,7 @@ scd
 :
 compilationInfo
 .
-scopeCreationData
+scopeData
 )
 {
 Scope

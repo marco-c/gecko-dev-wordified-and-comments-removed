@@ -660,7 +660,7 @@ BigIntCreationData
 >
 ;
 class
-ScopeCreationData
+ScopeStencil
 {
 friend
 class
@@ -720,7 +720,7 @@ data_
 ;
 public
 :
-ScopeCreationData
+ScopeStencil
 (
 JSContext
 *
@@ -1926,7 +1926,7 @@ js
 frontend
 :
 :
-ScopeCreationData
+ScopeStencil
 *
 >
 {
@@ -1943,7 +1943,7 @@ js
 frontend
 :
 :
-ScopeCreationData
+ScopeStencil
 *
 *
 data

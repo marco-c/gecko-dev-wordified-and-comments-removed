@@ -126,10 +126,10 @@ namespace
 frontend
 {
 class
-ScopeCreationData
+ScriptStencil
 ;
 class
-EnvironmentShapeCreationData
+ScopeStencil
 ;
 }
 ;
@@ -1155,7 +1155,7 @@ class
 frontend
 :
 :
-ScopeCreationData
+ScopeStencil
 ;
 friend
 class
@@ -1911,7 +1911,7 @@ class
 frontend
 :
 :
-ScopeCreationData
+ScopeStencil
 ;
 public
 :
@@ -2598,7 +2598,7 @@ class
 frontend
 :
 :
-ScopeCreationData
+ScopeStencil
 ;
 public
 :
@@ -3225,7 +3225,7 @@ class
 frontend
 :
 :
-ScopeCreationData
+ScopeStencil
 ;
 public
 :
@@ -3571,7 +3571,7 @@ class
 frontend
 :
 :
-ScopeCreationData
+ScopeStencil
 ;
 static
 const
