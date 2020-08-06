@@ -2434,6 +2434,10 @@ bool
 aPreferCompositorSurface
 =
 false
+bool
+aSupportsExternalCompositing
+=
+false
 )
 ;
 void
@@ -2569,6 +2573,10 @@ bool
 aPreferCompositorSurface
 =
 false
+bool
+aSupportsExternalCompositing
+=
+false
 )
 ;
 void
@@ -2624,6 +2632,10 @@ bool
 aPreferCompositorSurface
 =
 false
+bool
+aSupportsExternalCompositing
+=
+false
 )
 ;
 void
@@ -2672,6 +2684,10 @@ ImageRendering
 aFilter
 bool
 aPreferCompositorSurface
+=
+false
+bool
+aSupportsExternalCompositing
 =
 false
 )

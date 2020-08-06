@@ -1438,6 +1438,7 @@ ColorF
 0f
 }
 aPreferCompositorSurface
+true
 )
 ;
 break
@@ -1516,6 +1517,7 @@ GetColorRange
 )
 aFilter
 aPreferCompositorSurface
+true
 )
 ;
 break
@@ -1598,6 +1600,7 @@ GetColorRange
 )
 aFilter
 aPreferCompositorSurface
+true
 )
 ;
 break
