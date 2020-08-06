@@ -993,6 +993,15 @@ FuncOffsets
 offsets
 )
 ;
+TlsData
+*
+GetNearestEffectiveTls
+(
+Frame
+*
+fp
+)
+;
 struct
 UnwindState
 {
