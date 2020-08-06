@@ -307,6 +307,17 @@ i
 ;
 Assert
 .
+ok
+(
+childProc
+.
+childID
+>
+0
+)
+;
+Assert
+.
 notEqual
 (
 childProc
