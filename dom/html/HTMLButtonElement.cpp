@@ -690,6 +690,11 @@ StaticPrefs
 dom_dialog_element_enabled
 (
 )
+|
+|
+IsInChromeDocument
+(
+)
 )
 {
 return
