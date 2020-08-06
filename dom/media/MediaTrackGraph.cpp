@@ -8113,8 +8113,11 @@ LifecycleStateRef
 ;
 }
 runnables
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mUpdateRunnables
 )
@@ -8274,8 +8277,11 @@ block
 -
 >
 mMessages
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mCurrentTaskMessageQueue
 )

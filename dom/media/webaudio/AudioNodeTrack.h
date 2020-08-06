@@ -292,6 +292,7 @@ nsTArray
 float
 >
 &
+&
 aData
 )
 ;

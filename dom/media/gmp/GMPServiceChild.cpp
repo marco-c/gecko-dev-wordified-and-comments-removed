@@ -2250,10 +2250,11 @@ GetServiceChildPromise
 >
 >
 holders
-;
-holders
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mGetServiceChildPromises
 )

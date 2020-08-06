@@ -1820,10 +1820,11 @@ nsTArray
 ReportData
 >
 reports
-;
-reports
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mReportQueue
 )

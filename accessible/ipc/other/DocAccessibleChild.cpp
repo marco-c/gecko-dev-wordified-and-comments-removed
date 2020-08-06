@@ -1132,8 +1132,11 @@ newRelation
 Targets
 (
 )
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 targets
 )

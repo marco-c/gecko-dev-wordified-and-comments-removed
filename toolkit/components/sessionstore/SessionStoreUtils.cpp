@@ -3042,8 +3042,11 @@ aValueType
 val
 .
 mFileList
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 aValue
 )
@@ -7409,8 +7412,11 @@ mChildren
 Construct
 (
 )
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 childrenData
 )

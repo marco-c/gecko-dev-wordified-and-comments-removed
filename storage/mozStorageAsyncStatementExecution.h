@@ -160,6 +160,7 @@ execute
 (
 StatementDataArray
 &
+&
 aStatements
 Connection
 *
@@ -207,6 +208,7 @@ private
 AsyncExecuteStatements
 (
 StatementDataArray
+&
 &
 aStatements
 Connection

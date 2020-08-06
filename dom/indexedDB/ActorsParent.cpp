@@ -120727,10 +120727,6 @@ Length
 }
 )
 ;
-mResponse
-.
-SwapElements
-(
 aResponse
 .
 get_IndexGetAllKeysResponse
@@ -120740,6 +120736,13 @@ get_IndexGetAllKeysResponse
 keys
 (
 )
+=
+std
+:
+:
+move
+(
+mResponse
 )
 ;
 return

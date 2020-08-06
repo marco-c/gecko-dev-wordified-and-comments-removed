@@ -1516,8 +1516,13 @@ SharedChannelArrayBuffer
 T
 >
 (
-&
+std
+:
+:
+move
+(
 stereo
+)
 )
 ;
 c

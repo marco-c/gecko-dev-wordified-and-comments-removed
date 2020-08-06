@@ -102,6 +102,7 @@ Flush
 (
 )
 {
+const
 nsTArray
 <
 RefPtr
@@ -110,12 +111,13 @@ Runnable
 >
 >
 queue
-;
-mQueue
-.
-SwapElements
+=
+std
+:
+:
+move
 (
-queue
+mQueue
 )
 ;
 for
