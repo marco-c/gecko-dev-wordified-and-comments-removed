@@ -357,14 +357,15 @@ worker
 ]
     
 worker
-[
+.
+setdefault
+(
 '
 artifacts
 '
-]
-=
 [
 ]
+)
     
 version
 =

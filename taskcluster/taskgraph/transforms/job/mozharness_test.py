@@ -753,12 +753,25 @@ zip
 )
     
 worker
+.
+setdefault
+(
+'
+artifacts
+'
+[
+]
+)
+    
+worker
 [
 '
 artifacts
 '
 ]
-=
+.
+extend
+(
 [
 {
         
@@ -812,6 +825,7 @@ path
 in
 artifacts
 ]
+)
     
 env
 =
@@ -2286,13 +2300,27 @@ status
 ]
     
 worker
+.
+setdefault
+(
+'
+artifacts
+'
+[
+]
+)
+    
+worker
 [
 '
 artifacts
 '
 ]
-=
+.
+extend
+(
 artifacts
+)
     
 env
 =

@@ -214,6 +214,10 @@ node
 .
 yml
 -
+resourcemonitor
+.
+yml
+-
 rust
 .
 yml
