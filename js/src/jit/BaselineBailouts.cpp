@@ -9408,6 +9408,12 @@ BailoutKind
 :
 NotProxyGuard
 :
+case
+BailoutKind
+:
+:
+NotArrayBufferMaybeSharedGuard
+:
 break
 ;
 case
