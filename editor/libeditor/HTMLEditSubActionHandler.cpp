@@ -22171,13 +22171,6 @@ NameAtom
 ;
 }
 }
-AutoTransactionsConserveSelection
-dontChangeMySelection
-(
-*
-this
-)
-;
 EditorDOMPoint
 atRightBlockChild
 ;
