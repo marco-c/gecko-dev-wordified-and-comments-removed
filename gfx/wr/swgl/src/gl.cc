@@ -1926,7 +1926,6 @@ GL_SRC_COLOR
 0
 0
 )
-\
 macro
 (
 GL_ONE
@@ -16374,6 +16373,7 @@ self
 buf
 len
 )
+\
 do
 {
 \
