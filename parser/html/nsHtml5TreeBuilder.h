@@ -1381,8 +1381,6 @@ nsHtml5String
 publicIdentifier
 nsHtml5String
 systemIdentifier
-bool
-html4SpecificAdditionalErrorChecks
 )
 ;
 bool
