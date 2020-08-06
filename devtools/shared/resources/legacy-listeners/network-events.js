@@ -579,7 +579,9 @@ break
 }
 onUpdated
 (
+[
 resource
+]
 )
 ;
 if
