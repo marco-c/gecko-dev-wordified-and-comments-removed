@@ -5437,7 +5437,7 @@ if
 StaticPrefs
 :
 :
-dom_webcomponents_elementInternals_enabled
+dom_webcomponents_formAssociatedCustomElement_enabled
 (
 )
 &

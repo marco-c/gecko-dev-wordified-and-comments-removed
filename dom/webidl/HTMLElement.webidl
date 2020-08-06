@@ -487,7 +487,7 @@ dom
 .
 webcomponents
 .
-elementInternals
+formAssociatedCustomElement
 .
 enabled
 "

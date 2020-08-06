@@ -19671,7 +19671,11 @@ always
 Is
 support
 for
-elementInternals
+form
+-
+associated
+custom
+element
 enabled
 ?
 -
@@ -19681,7 +19685,7 @@ dom
 .
 webcomponents
 .
-elementInternals
+formAssociatedCustomElement
 .
 enabled
 type

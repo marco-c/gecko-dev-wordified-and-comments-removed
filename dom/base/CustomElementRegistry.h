@@ -546,6 +546,8 @@ LifecycleCallbacks
 &
 aCallbacks
 bool
+aFormAssociated
+bool
 aDisableInternals
 bool
 aDisableShadow
@@ -586,6 +588,11 @@ UniquePtr
 LifecycleCallbacks
 >
 mCallbacks
+;
+bool
+mFormAssociated
+=
+false
 ;
 bool
 mDisableInternals
