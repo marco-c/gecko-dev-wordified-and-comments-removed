@@ -9981,7 +9981,7 @@ bool
 ScopeStencil
 :
 :
-create
+createForFunctionScope
 (
 JSContext
 *
@@ -10161,7 +10161,7 @@ bool
 ScopeStencil
 :
 :
-create
+createForLexicalScope
 (
 JSContext
 *
@@ -10303,7 +10303,7 @@ bool
 ScopeStencil
 :
 :
-create
+createForVarScope
 (
 JSContext
 *
@@ -10456,7 +10456,7 @@ bool
 ScopeStencil
 :
 :
-create
+createForGlobalScope
 (
 JSContext
 *
@@ -10590,7 +10590,7 @@ bool
 ScopeStencil
 :
 :
-create
+createForEvalScope
 (
 JSContext
 *
@@ -10744,7 +10744,7 @@ bool
 ScopeStencil
 :
 :
-create
+createForModuleScope
 (
 JSContext
 *
@@ -11025,7 +11025,7 @@ bool
 ScopeStencil
 :
 :
-create
+createForWithScope
 (
 JSContext
 *

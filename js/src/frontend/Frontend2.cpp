@@ -886,7 +886,7 @@ if
 ScopeStencil
 :
 :
-create
+createForGlobalScope
 (
 cx
 compilationInfo
@@ -1013,7 +1013,7 @@ if
 ScopeStencil
 :
 :
-create
+createForVarScope
 (
 cx
 compilationInfo
@@ -1160,7 +1160,7 @@ if
 ScopeStencil
 :
 :
-create
+createForLexicalScope
 (
 cx
 compilationInfo
@@ -1346,7 +1346,7 @@ if
 ScopeStencil
 :
 :
-create
+createForFunctionScope
 (
 cx
 compilationInfo

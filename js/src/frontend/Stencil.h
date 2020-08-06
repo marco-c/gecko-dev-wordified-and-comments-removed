@@ -842,7 +842,7 @@ compilationInfo
 ;
 static
 bool
-create
+createForFunctionScope
 (
 JSContext
 *
@@ -885,7 +885,7 @@ index
 ;
 static
 bool
-create
+createForLexicalScope
 (
 JSContext
 *
@@ -924,7 +924,7 @@ index
 ;
 static
 bool
-create
+createForVarScope
 (
 JSContext
 *
@@ -965,7 +965,7 @@ index
 ;
 static
 bool
-create
+createForGlobalScope
 (
 JSContext
 *
@@ -994,7 +994,7 @@ index
 ;
 static
 bool
-create
+createForEvalScope
 (
 JSContext
 *
@@ -1031,7 +1031,7 @@ index
 ;
 static
 bool
-create
+createForModuleScope
 (
 JSContext
 *
@@ -1066,7 +1066,7 @@ index
 ;
 static
 bool
-create
+createForWithScope
 (
 JSContext
 *
