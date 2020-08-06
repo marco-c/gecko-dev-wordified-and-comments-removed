@@ -11131,7 +11131,7 @@ heap
 length
 )
 ;
-add
+addEffectful
 (
 obj
 )
@@ -11142,7 +11142,10 @@ obj
 )
 ;
 return
-true
+resumeAfter
+(
+obj
+)
 ;
 }
 bool

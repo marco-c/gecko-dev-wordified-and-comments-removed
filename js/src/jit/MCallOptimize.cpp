@@ -19007,6 +19007,14 @@ ins
 ;
 MOZ_TRY
 (
+resumeAfter
+(
+ins
+)
+)
+;
+MOZ_TRY
+(
 pushTypeBarrier
 (
 ins
