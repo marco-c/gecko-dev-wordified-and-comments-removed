@@ -254,8 +254,6 @@ document
 .
 nodePrincipal
 .
-URI
-.
 asciiSpec
 "
 http

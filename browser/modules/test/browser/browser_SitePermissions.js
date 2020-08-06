@@ -64,8 +64,6 @@ withNewTab
 (
 principal
 .
-URI
-.
 spec
 function
 (
@@ -158,8 +156,6 @@ openNewForegroundTab
 (
 gBrowser
 principal
-.
-URI
 .
 spec
 )

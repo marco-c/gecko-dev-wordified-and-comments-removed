@@ -497,6 +497,11 @@ asciiSpec
 readonly
 attribute
 ACString
+spec
+;
+readonly
+attribute
+ACString
 exposablePrePath
 ;
 readonly

@@ -1526,8 +1526,6 @@ getRegistrationByPrincipal
 principal
 principal
 .
-URI
-.
 spec
 )
 ;

@@ -532,6 +532,15 @@ aSpec
 override
 ;
 NS_IMETHOD
+GetSpec
+(
+nsACString
+&
+aSpec
+)
+override
+;
+NS_IMETHOD
 GetExposablePrePath
 (
 nsACString

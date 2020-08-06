@@ -448,8 +448,6 @@ equal
 (
 principal
 .
-URI
-.
 spec
 requestURL
 )
@@ -637,8 +635,6 @@ Assert
 equal
 (
 principal
-.
-URI
 .
 spec
 requestURL
