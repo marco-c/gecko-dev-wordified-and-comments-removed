@@ -355,16 +355,6 @@ ProcessPriorityManager
 h
 '
 ]
-EXPORTS
-+
-=
-[
-'
-nsQueryActor
-.
-h
-'
-]
 UNIFIED_SOURCES
 +
 =
