@@ -225,11 +225,6 @@ FunctionTypeTraits
 h
 '
 '
-GuardObjects
-.
-h
-'
-'
 HashFunctions
 .
 h
