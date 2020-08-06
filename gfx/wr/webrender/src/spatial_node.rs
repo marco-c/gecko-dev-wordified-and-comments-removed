@@ -1882,7 +1882,7 @@ pre_translate
 scroll_offset
 )
 .
-then_translate
+post_translate
 (
 -
 scroll_offset
@@ -1936,7 +1936,7 @@ relative_transform
 =
 resolved_transform
 .
-then_translate
+post_translate
 (
 snap_offset
 (
@@ -2083,11 +2083,6 @@ reset_cs_id
 let
 transform
 =
-relative_transform
-.
-then
-(
-&
 state
 .
 coordinate_system_relative_scale_offset
@@ -2095,6 +2090,11 @@ coordinate_system_relative_scale_offset
 to_transform
 (
 )
+.
+pre_transform
+(
+&
+relative_transform
 )
 ;
 let
@@ -2139,7 +2139,7 @@ world_transform
 =
 cur_transform
 .
-then
+post_transform
 (
 &
 parent_system
@@ -4254,7 +4254,7 @@ transform
 LayoutTransform
 :
 :
-perspective
+create_perspective
 (
 100
 .

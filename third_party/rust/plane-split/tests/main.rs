@@ -711,7 +711,7 @@ transform
 Transform3D
 :
 :
-rotation
+create_rotation
 (
 0
 .
@@ -813,7 +813,7 @@ transform
 Transform3D
 :
 :
-perspective
+create_perspective
 (
 400
 .
