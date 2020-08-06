@@ -185,12 +185,6 @@ printableWidthInInches
 double
 printableHeightInInches
 ;
-bool
-isIFrameSelected
-;
-bool
-isRangeSelection
-;
 uint8_t
 [
 ]
