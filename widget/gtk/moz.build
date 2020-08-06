@@ -366,7 +366,7 @@ nsPrintSettingsServiceGTK
 cpp
 '
 '
-nsPSPrinters
+PSPrinters
 .
 cpp
 '

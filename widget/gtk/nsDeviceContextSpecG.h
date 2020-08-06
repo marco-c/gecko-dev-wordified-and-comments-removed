@@ -4,6 +4,9 @@ nsDeviceContextSpecGTK_h___
 #
 define
 nsDeviceContextSpecGTK_h___
+struct
+JSContext
+;
 #
 include
 "
