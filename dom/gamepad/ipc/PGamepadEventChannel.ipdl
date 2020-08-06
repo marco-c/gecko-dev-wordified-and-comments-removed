@@ -79,12 +79,7 @@ PBackground
 parent
 :
 async
-GamepadListenerAdded
-(
-)
-;
-async
-GamepadListenerRemoved
+__delete__
 (
 )
 ;
@@ -129,11 +124,6 @@ aPromiseID
 ;
 child
 :
-async
-__delete__
-(
-)
-;
 async
 GamepadUpdate
 (
