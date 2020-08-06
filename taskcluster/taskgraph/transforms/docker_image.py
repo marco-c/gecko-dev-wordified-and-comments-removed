@@ -538,6 +538,8 @@ context_path
                     
 context_file
                     
+image_name
+                    
 args
 )
             
@@ -551,6 +553,8 @@ generate_context_hash
                     
 GECKO
 context_path
+                    
+image_name
                     
 args
 )
