@@ -3522,7 +3522,7 @@ systemIdentifier
 )
 )
 {
-warn
+err
 (
 "
 Obsolete
