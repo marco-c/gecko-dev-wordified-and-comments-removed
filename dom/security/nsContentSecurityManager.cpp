@@ -3896,7 +3896,7 @@ Verbose
 (
 "
 -
-initalSecurityChecksDone
+initialSecurityChecksDone
 :
 %
 s
