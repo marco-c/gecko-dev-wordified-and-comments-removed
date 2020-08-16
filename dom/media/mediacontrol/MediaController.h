@@ -505,6 +505,12 @@ GetSupportedMediaKeys
 )
 const
 ;
+bool
+IsBeingUsedInPIPModeOrFullscreen
+(
+)
+const
+;
 private
 :
 ~
@@ -579,12 +585,6 @@ void
 UpdateDeactivationTimerIfNeeded
 (
 )
-;
-bool
-IsMediaBeingUsedInPIPModeOrFullScreen
-(
-)
-const
 ;
 void
 DispatchAsyncEvent

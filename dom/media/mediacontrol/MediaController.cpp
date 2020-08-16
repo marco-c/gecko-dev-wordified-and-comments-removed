@@ -973,7 +973,7 @@ IsPlaying
 )
 |
 |
-IsMediaBeingUsedInPIPModeOrFullScreen
+IsBeingUsedInPIPModeOrFullscreen
 (
 )
 ;
@@ -1085,7 +1085,7 @@ bool
 MediaController
 :
 :
-IsMediaBeingUsedInPIPModeOrFullScreen
+IsBeingUsedInPIPModeOrFullscreen
 (
 )
 const
@@ -1152,7 +1152,7 @@ NS_OK
 }
 if
 (
-IsMediaBeingUsedInPIPModeOrFullScreen
+IsBeingUsedInPIPModeOrFullscreen
 (
 )
 )
@@ -1367,7 +1367,7 @@ IsAudible
 )
 |
 |
-IsMediaBeingUsedInPIPModeOrFullScreen
+IsBeingUsedInPIPModeOrFullscreen
 (
 )
 )

@@ -336,8 +336,8 @@ enum
 class
 InsertOptions
 {
-eInsertToTail
-eInsertBeforeTail
+eInsertAsMainController
+eInsertAsNormalController
 }
 ;
 void
