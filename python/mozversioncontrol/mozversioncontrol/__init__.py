@@ -4017,6 +4017,11 @@ self
 :
         
 return
+[
+p
+for
+p
+in
 self
 .
 _run
@@ -4039,6 +4044,9 @@ split
 0
 '
 )
+if
+p
+]
     
 def
 working_directory_clean
