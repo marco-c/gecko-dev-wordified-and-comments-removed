@@ -393,7 +393,7 @@ LOGGER_NAME
                                                  
 verbose
 =
-True
+False
                                                  
 run_as_package
 =
