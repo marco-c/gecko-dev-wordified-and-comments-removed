@@ -2124,7 +2124,7 @@ MOZ_MUST_USE
 bool
 emitObjLiteralValue
 (
-ObjLiteralCreationData
+ObjLiteralStencil
 *
 data
 ParseNode

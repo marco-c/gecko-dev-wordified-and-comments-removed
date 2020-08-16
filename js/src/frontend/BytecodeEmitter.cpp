@@ -8255,7 +8255,7 @@ return
 false
 ;
 }
-ObjLiteralCreationData
+ObjLiteralStencil
 &
 data
 =
@@ -21460,7 +21460,7 @@ return
 false
 ;
 }
-ObjLiteralCreationData
+ObjLiteralStencil
 &
 data
 =
@@ -40535,7 +40535,7 @@ return
 false
 ;
 }
-ObjLiteralCreationData
+ObjLiteralStencil
 &
 data
 =
@@ -40930,7 +40930,7 @@ return
 false
 ;
 }
-ObjLiteralCreationData
+ObjLiteralStencil
 &
 data
 =
@@ -41208,7 +41208,7 @@ return
 false
 ;
 }
-ObjLiteralCreationData
+ObjLiteralStencil
 &
 data
 =
@@ -41459,7 +41459,7 @@ BytecodeEmitter
 :
 emitObjLiteralValue
 (
-ObjLiteralCreationData
+ObjLiteralStencil
 *
 data
 ParseNode
