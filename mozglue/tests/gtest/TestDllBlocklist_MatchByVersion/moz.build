@@ -23,6 +23,13 @@ TestDllBlocklist_MatchByVersion
 .
 rc
 '
+RESFILE
+=
+'
+TestDllBlocklist_MatchByVersion
+.
+res
+'
 if
 CONFIG
 [

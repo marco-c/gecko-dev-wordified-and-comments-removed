@@ -206,6 +206,9 @@ bin
 (
 SHARED_LIBRARY
 )
+EMBED_MANIFEST_AT
+=
+2
 midl_exports
 :
 =

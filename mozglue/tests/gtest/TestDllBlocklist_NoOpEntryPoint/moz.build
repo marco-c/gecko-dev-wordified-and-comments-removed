@@ -23,6 +23,13 @@ TestDllBlocklist_NoOpEntryPoint
 .
 rc
 '
+RESFILE
+=
+'
+TestDllBlocklist_NoOpEntryPoint
+.
+res
+'
 if
 CONFIG
 [
