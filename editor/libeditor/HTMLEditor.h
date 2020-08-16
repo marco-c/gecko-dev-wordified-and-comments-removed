@@ -4962,10 +4962,7 @@ aDirectionAndAmount
 ;
 already_AddRefed
 <
-dom
-:
-:
-StaticRange
+nsRange
 >
 GetRangeExtendedToIncludeInvisibleNodes
 (
