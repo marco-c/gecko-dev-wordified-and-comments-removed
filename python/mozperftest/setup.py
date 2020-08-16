@@ -48,8 +48,12 @@ mozdevice
 "
 mozproxy
 "
+        
 "
 mozinfo
+"
+"
+mozfile
 "
 ]
 setup
