@@ -93,7 +93,7 @@ pushd
 PACKAGE_DIR
 tar
 -
-xjvf
+xvf
 UPLOAD_DIR
 /
 mozjs
@@ -102,7 +102,9 @@ mozjs
 .
 tar
 .
-bz2
+*
+z
+*
 :
 {
 PYTHON3
