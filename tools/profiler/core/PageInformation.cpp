@@ -8,6 +8,8 @@ h
 #
 include
 "
+mozilla
+/
 ProfileJSONWriter
 .
 h

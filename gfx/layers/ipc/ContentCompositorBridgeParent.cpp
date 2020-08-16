@@ -2208,6 +2208,12 @@ aEntryWriter
 void
 StreamPayload
 (
+mozilla
+:
+:
+baseprofiler
+:
+:
 SpliceableJSONWriter
 &
 aWriter

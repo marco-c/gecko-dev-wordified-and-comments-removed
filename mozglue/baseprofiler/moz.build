@@ -21,13 +21,6 @@ EXPORTS
 '
 public
 /
-BaseProfileJSONWriter
-.
-h
-'
-'
-public
-/
 BaseProfilerMarkerPayload
 .
 h
@@ -433,6 +426,13 @@ mozilla
 +
 =
 [
+'
+public
+/
+BaseProfileJSONWriter
+.
+h
+'
 '
 public
 /

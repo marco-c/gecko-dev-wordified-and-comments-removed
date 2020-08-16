@@ -7,7 +7,7 @@ ProfileBufferEntry_h
 #
 include
 "
-BaseProfileJSONWriter
+BaseProfilingCategory
 .
 h
 "
@@ -23,7 +23,9 @@ h
 #
 include
 "
-BaseProfilingCategory
+mozilla
+/
+BaseProfileJSONWriter
 .
 h
 "

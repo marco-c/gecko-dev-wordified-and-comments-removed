@@ -15,6 +15,8 @@ h
 #
 include
 "
+mozilla
+/
 BaseProfileJSONWriter
 .
 h

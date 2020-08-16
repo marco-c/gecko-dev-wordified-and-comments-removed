@@ -36,9 +36,6 @@ class
 ProfilerCodeAddressService
 ;
 class
-SpliceableJSONWriter
-;
-class
 ThreadInfo
 ;
 class
@@ -53,6 +50,13 @@ ProfileChunkedBuffer
 class
 TimeStamp
 ;
+namespace
+baseprofiler
+{
+class
+SpliceableJSONWriter
+;
+}
 }
 class
 ProfilerBacktrace
@@ -96,6 +100,12 @@ ProfilerBacktrace
 void
 StreamJSON
 (
+mozilla
+:
+:
+baseprofiler
+:
+:
 SpliceableJSONWriter
 &
 aWriter
