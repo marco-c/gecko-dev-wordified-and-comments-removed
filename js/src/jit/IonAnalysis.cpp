@@ -24109,6 +24109,13 @@ pc
 )
 )
 {
+script
+-
+>
+setUninlineable
+(
+)
+;
 *
 argumentsContentsObserved
 =
