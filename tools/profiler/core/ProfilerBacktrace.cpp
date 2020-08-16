@@ -69,10 +69,7 @@ aProfileBuffer
 :
 mName
 (
-strdup
-(
 aName
-)
 )
 mThreadId
 (
@@ -209,7 +206,7 @@ StreamSamplesAndMarkers
 (
 mName
 .
-get
+c_str
 (
 )
 mThreadId
