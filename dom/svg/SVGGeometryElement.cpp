@@ -1258,9 +1258,15 @@ path
 {
 rv
 .
-Throw
+ThrowInvalidStateError
 (
-NS_ERROR_FAILURE
+"
+No
+path
+available
+for
+measuring
+"
 )
 ;
 return
