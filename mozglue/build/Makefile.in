@@ -140,15 +140,3 @@ dll
 .
 manifest
 endif
-include
-(
-topsrcdir
-)
-/
-mozglue
-/
-build
-/
-replace_malloc
-.
-mk
