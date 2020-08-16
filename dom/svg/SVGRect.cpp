@@ -93,6 +93,9 @@ aSVGElement
 )
 mType
 (
+RectType
+:
+:
 CreatedValue
 )
 {
@@ -167,6 +170,9 @@ mType
 )
 {
 case
+RectType
+:
+:
 AnimValue
 :
 static_cast
@@ -199,6 +205,9 @@ GetAnimValue
 x
 ;
 case
+RectType
+:
+:
 BaseValue
 :
 return
@@ -234,6 +243,9 @@ mType
 )
 {
 case
+RectType
+:
+:
 AnimValue
 :
 static_cast
@@ -266,6 +278,9 @@ GetAnimValue
 y
 ;
 case
+RectType
+:
+:
 BaseValue
 :
 return
@@ -301,6 +316,9 @@ mType
 )
 {
 case
+RectType
+:
+:
 AnimValue
 :
 static_cast
@@ -333,6 +351,9 @@ GetAnimValue
 width
 ;
 case
+RectType
+:
+:
 BaseValue
 :
 return
@@ -368,6 +389,9 @@ mType
 )
 {
 case
+RectType
+:
+:
 AnimValue
 :
 static_cast
@@ -400,6 +424,9 @@ GetAnimValue
 height
 ;
 case
+RectType
+:
+:
 BaseValue
 :
 return
@@ -440,6 +467,9 @@ mType
 )
 {
 case
+RectType
+:
+:
 AnimValue
 :
 aRv
@@ -452,6 +482,9 @@ NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
 return
 ;
 case
+RectType
+:
+:
 BaseValue
 :
 {
@@ -524,6 +557,9 @@ mType
 )
 {
 case
+RectType
+:
+:
 AnimValue
 :
 aRv
@@ -536,6 +572,9 @@ NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
 return
 ;
 case
+RectType
+:
+:
 BaseValue
 :
 {
@@ -608,6 +647,9 @@ mType
 )
 {
 case
+RectType
+:
+:
 AnimValue
 :
 aRv
@@ -620,6 +662,9 @@ NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
 return
 ;
 case
+RectType
+:
+:
 BaseValue
 :
 {
@@ -692,6 +737,9 @@ mType
 )
 {
 case
+RectType
+:
+:
 AnimValue
 :
 aRv
@@ -704,6 +752,9 @@ NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
 return
 ;
 case
+RectType
+:
+:
 BaseValue
 :
 {
