@@ -10544,6 +10544,10 @@ FloatRegister
 rhs
 FloatRegister
 lhsDest
+FloatRegister
+temp1
+FloatRegister
+temp2
 )
 DEFINED_ON
 (
@@ -10558,6 +10562,10 @@ FloatRegister
 rhs
 FloatRegister
 lhsDest
+FloatRegister
+temp1
+FloatRegister
+temp2
 )
 DEFINED_ON
 (
@@ -10573,7 +10581,9 @@ rhs
 FloatRegister
 lhsDest
 FloatRegister
-temp
+temp1
+FloatRegister
+temp2
 )
 DEFINED_ON
 (
@@ -10589,7 +10599,9 @@ rhs
 FloatRegister
 lhsDest
 FloatRegister
-temp
+temp1
+FloatRegister
+temp2
 )
 DEFINED_ON
 (
