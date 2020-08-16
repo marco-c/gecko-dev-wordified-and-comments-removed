@@ -1689,6 +1689,13 @@ topBrowsingContext
 .
 embedderElement
 ;
+if
+(
+browser
+.
+permanentKey
+)
+{
 this
 .
 allowedSharedBrowsers
@@ -1700,6 +1707,7 @@ browser
 permanentKey
 )
 ;
+}
 }
 }
 this
