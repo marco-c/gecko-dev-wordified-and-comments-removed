@@ -3272,7 +3272,7 @@ Scalar
 :
 Float32
 :
-loadFloat32
+vmovss
 (
 srcAddr
 out
@@ -3290,7 +3290,7 @@ Scalar
 :
 Float64
 :
-loadDouble
+vmovsd
 (
 srcAddr
 out

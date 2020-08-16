@@ -32758,6 +32758,16 @@ high
 }
 else
 {
+MOZ_ASSERT
+(
+!
+access
+.
+isZeroExtendSimd128Load
+(
+)
+)
+;
 bool
 isFloat
 =
