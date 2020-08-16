@@ -895,6 +895,13 @@ CacheInclusiveAncestorsOfEndContainer
 (
 )
 ;
+nsIContent
+*
+DetermineCandidateForFirstContent
+(
+)
+const
+;
 nsresult
 InitWithRange
 (
