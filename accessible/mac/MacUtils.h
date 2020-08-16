@@ -23,8 +23,6 @@ a11y
 namespace
 utils
 {
-static
-inline
 NSMutableArray
 *
 ConvertToNSArray
@@ -38,8 +36,6 @@ Accessible
 aArray
 )
 ;
-static
-inline
 NSMutableArray
 *
 ConvertToNSArray

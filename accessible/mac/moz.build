@@ -47,6 +47,11 @@ GeckoTextMarker
 mm
 '
 '
+HyperTextAccessibleWrap
+.
+mm
+'
+'
 MacUtils
 .
 mm

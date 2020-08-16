@@ -46,8 +46,6 @@ a11y
 namespace
 utils
 {
-static
-inline
 NSMutableArray
 *
 ConvertToNSArray
@@ -137,8 +135,6 @@ return
 nativeArray
 ;
 }
-static
-inline
 NSMutableArray
 *
 ConvertToNSArray

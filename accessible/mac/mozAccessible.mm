@@ -80,13 +80,6 @@ h
 #
 include
 "
-TableCellAccessible
-.
-h
-"
-#
-include
-"
 mozilla
 /
 a11y
