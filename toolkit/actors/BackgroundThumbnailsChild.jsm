@@ -211,12 +211,6 @@ PRIORITY_LOWEST
 ;
 docShell
 .
-isActive
-=
-true
-;
-docShell
-.
 allowMedia
 =
 false
