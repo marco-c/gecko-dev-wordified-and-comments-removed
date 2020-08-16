@@ -877,7 +877,7 @@ time
     
 wait_for_quit_timeout
 =
-5
+20
     
 event
 =
