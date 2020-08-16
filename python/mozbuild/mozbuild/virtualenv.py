@@ -569,9 +569,6 @@ self
 Returns
 the
 version
-and
-file
-size
 of
 the
 python
@@ -579,9 +576,9 @@ executable
 that
 was
 in
-        
 use
 when
+        
 this
 virtualenv
 was
@@ -607,15 +604,10 @@ fh
 :
             
 version
-size
 =
 fh
 .
 read
-(
-)
-.
-splitlines
 (
 )
         
@@ -623,10 +615,6 @@ return
 int
 (
 version
-)
-int
-(
-size
 )
     
 def
@@ -722,27 +710,6 @@ n
 "
 %
 ver
-)
-            
-fh
-.
-write
-(
-"
-%
-s
-\
-n
-"
-%
-os
-.
-path
-.
-getsize
-(
-python
-)
 )
     
 def
@@ -972,23 +939,11 @@ return
 False
         
 orig_version
-orig_size
 =
 self
 .
 get_exe_info
 (
-)
-        
-python_size
-=
-os
-.
-path
-.
-getsize
-(
-python
 )
         
 hexversion
@@ -1002,39 +957,19 @@ python
         
 if
 (
-(
 python
-python_size
-)
 !
 =
-(
 self
 .
 python_path
-os
-.
-path
-.
-getsize
-(
-self
-.
-python_path
-)
 )
 and
-                
 (
 hexversion
-python_size
-)
 !
 =
-(
 orig_version
-orig_size
-)
 )
 :
             
