@@ -91,12 +91,12 @@ nullptr
 )
 ;
 static
-bool
-TestHttpsOnlySitePermission
+void
+TestSitePermissionAndPotentiallyAddExemption
 (
-nsIPrincipal
+nsIChannel
 *
-aPrincipal
+aChannel
 )
 ;
 private
