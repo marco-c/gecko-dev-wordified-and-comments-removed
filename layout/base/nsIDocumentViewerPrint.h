@@ -86,6 +86,7 @@ bool
 GetIsPrinting
 (
 )
+const
 =
 0
 ;
@@ -104,6 +105,7 @@ bool
 GetIsPrintPreview
 (
 )
+const
 =
 0
 ;
@@ -191,6 +193,7 @@ bool
 GetIsPrinting
 (
 )
+const
 override
 ;
 \
@@ -207,6 +210,7 @@ bool
 GetIsPrintPreview
 (
 )
+const
 override
 ;
 \
