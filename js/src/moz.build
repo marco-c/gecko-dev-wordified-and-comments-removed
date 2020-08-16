@@ -2186,6 +2186,13 @@ cpp
 '
 vm
 /
+BuiltinObjectKind
+.
+cpp
+'
+'
+vm
+/
 BytecodeLocation
 .
 cpp
