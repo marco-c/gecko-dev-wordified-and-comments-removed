@@ -7439,8 +7439,9 @@ u
 The
 Gamepad
 API
-is
+will
 only
+be
 available
 in
 "
@@ -7513,7 +7514,7 @@ GetExtantDoc
 }
 #
 ifdef
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 if
 (
 !
@@ -7528,6 +7529,11 @@ IsSecureContext
 return
 ;
 }
+#
+endif
+#
+ifdef
+NIGHTLY_BUILD
 if
 (
 !
