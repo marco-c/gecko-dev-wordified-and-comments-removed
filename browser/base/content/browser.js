@@ -18238,6 +18238,9 @@ updateOpenSearchBadge
 }
 initPlaceHolder
 (
+force
+=
+false
 )
 {
 const
@@ -18285,6 +18288,9 @@ prefName
 if
 (
 engineName
+|
+|
+force
 )
 {
 this
