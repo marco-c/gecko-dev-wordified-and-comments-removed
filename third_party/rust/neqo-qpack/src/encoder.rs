@@ -1276,6 +1276,15 @@ stream_id
 {
 self
 .
+stats
+.
+stream_cancelled_recv
++
+=
+1
+;
+self
+.
 stream_cancellation
 (
 stream_id

@@ -489,7 +489,6 @@ now
 )
 }
 }
-pub
 fn
 process_http3
 (

@@ -18,6 +18,7 @@ atty
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -47,6 +48,7 @@ Stdout
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -94,6 +96,7 @@ imp
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -111,6 +114,7 @@ false
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -129,6 +133,7 @@ false
 pub
 (
 in
+crate
 :
 :
 fmt

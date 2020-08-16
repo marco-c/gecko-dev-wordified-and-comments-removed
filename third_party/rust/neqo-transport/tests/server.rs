@@ -4299,8 +4299,8 @@ unwrap
 let
 (
 protected_header
-dcid
-scid
+d_cid
+s_cid
 payload
 )
 =
@@ -4319,7 +4319,7 @@ hp
 client_initial_aead_and_hp
 (
 &
-dcid
+d_cid
 )
 ;
 let
@@ -4432,13 +4432,13 @@ header
 encode_vec
 (
 1
-dcid
+d_cid
 )
 .
 encode_vec
 (
 1
-scid
+s_cid
 )
 .
 encode_vvec
@@ -4848,8 +4848,8 @@ datagram
 let
 (
 header
-dcid
-scid
+d_cid
+s_cid
 payload
 )
 =
@@ -4867,7 +4867,7 @@ hp
 =
 client_initial_aead_and_hp
 (
-dcid
+d_cid
 )
 ;
 let
@@ -5004,13 +5004,13 @@ as_u32
 encode_vec
 (
 1
-dcid
+d_cid
 )
 .
 encode_vec
 (
 1
-scid
+s_cid
 )
 .
 encode_vvec
@@ -5549,7 +5549,7 @@ input
 )
 ;
 let
-dcid
+d_cid
 =
 dec
 .
@@ -5571,7 +5571,7 @@ to_vec
 )
 ;
 let
-scid
+s_cid
 =
 dec
 .
@@ -5661,7 +5661,7 @@ DCID
 "
 )
 &
-scid
+s_cid
 [
 .
 .
@@ -5686,7 +5686,7 @@ SCID
 "
 )
 &
-dcid
+d_cid
 [
 .
 .

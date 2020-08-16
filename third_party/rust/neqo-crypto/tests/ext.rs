@@ -529,7 +529,7 @@ default
 )
 ;
 let
-ch2
+ch
 =
 Rc
 :
@@ -545,7 +545,7 @@ client
 extension_handler
 (
 0xffff
-ch2
+ch
 )
 .
 expect
@@ -580,7 +580,7 @@ default
 )
 ;
 let
-sh2
+sh
 =
 Rc
 :
@@ -596,7 +596,7 @@ server
 extension_handler
 (
 0xffff
-sh2
+sh
 )
 .
 expect
