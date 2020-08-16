@@ -33550,6 +33550,11 @@ env
 gcTypesEnabled
 (
 )
+env
+.
+v128Enabled
+(
+)
 &
 locals
 )

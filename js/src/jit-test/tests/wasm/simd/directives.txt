@@ -39,15 +39,6 @@ compiler
 =
 ion
 ;
-skip
--
-if
-:
-!
-wasmSimdSupported
-(
-)
-;
 include
 :
 wasm

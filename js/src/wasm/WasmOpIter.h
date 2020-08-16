@@ -9245,6 +9245,11 @@ env_
 gcTypesEnabled
 (
 )
+env_
+.
+v128Enabled
+(
+)
 type
 )
 ;
