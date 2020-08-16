@@ -674,6 +674,10 @@ OOM_printAllocationCount
 ;
 #
 endif
+extern
+UniqueChars
+processWideModuleLoadPath
+;
 bool
 CreateAlias
 (
