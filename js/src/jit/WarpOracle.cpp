@@ -3192,6 +3192,12 @@ case
 JSOp
 :
 :
+CheckPrivateField
+:
+case
+JSOp
+:
+:
 Instanceof
 :
 case
