@@ -40,9 +40,9 @@ value
 -
 -
 -
-whitelistHosts
+allowHosts
 |
-Whitelist
+Allow
 a
 host
 in

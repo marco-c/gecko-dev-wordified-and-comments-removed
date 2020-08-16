@@ -2047,7 +2047,7 @@ it
 should
 load
 additional
-whitelisted
+allowed
 hosts
 "
 async
@@ -2063,7 +2063,7 @@ returns
 '
 [
 "
-whitelist
+allow
 .
 com
 "
@@ -2082,9 +2082,9 @@ propertyVal
 (
 Router
 .
-WHITELIST_HOSTS
+ALLOWLIST_HOSTS
 "
-whitelist
+allow
 .
 com
 "
@@ -2103,7 +2103,7 @@ keys
 (
 Router
 .
-WHITELIST_HOSTS
+ALLOWLIST_HOSTS
 )
 3
 )
@@ -2153,7 +2153,7 @@ keys
 (
 Router
 .
-WHITELIST_HOSTS
+ALLOWLIST_HOSTS
 )
 2
 )
@@ -2164,7 +2164,7 @@ propertyVal
 (
 Router
 .
-WHITELIST_HOSTS
+ALLOWLIST_HOSTS
 "
 snippets
 -
@@ -2185,7 +2185,7 @@ propertyVal
 (
 Router
 .
-WHITELIST_HOSTS
+ALLOWLIST_HOSTS
 "
 activity
 -
@@ -11076,8 +11076,8 @@ that
 is
 not
 from
-a
-whitelisted
+an
+allowed
 host
 "
 async

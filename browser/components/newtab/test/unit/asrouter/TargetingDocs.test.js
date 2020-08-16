@@ -414,7 +414,7 @@ md
 >
 {
 const
-whitelist
+allow
 =
 [
 "
@@ -441,7 +441,7 @@ doc
 =
 >
 !
-whitelist
+allow
 .
 includes
 (

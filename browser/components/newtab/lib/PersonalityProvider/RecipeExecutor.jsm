@@ -100,11 +100,11 @@ make_boolean
 this
 .
 makeBoolean
-whitelist_fields
+allow_fields
 :
 this
 .
-whitelistFields
+allowFields
 filter_by_value
 :
 this
@@ -3326,7 +3326,7 @@ return
 item
 ;
 }
-whitelistFields
+allowFields
 (
 item
 config

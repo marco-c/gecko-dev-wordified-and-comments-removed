@@ -1271,7 +1271,7 @@ Type
 :
 AS
 A
-whitelist
+list
 of
 endpoints
 that

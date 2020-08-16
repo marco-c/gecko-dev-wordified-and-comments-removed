@@ -455,7 +455,7 @@ the
 host
 must
 be
-whitelisted
+allowed
 (
 see
 testing
@@ -529,7 +529,7 @@ must
 be
 *
 *
-whitelisted
+allowed
 *
 *
 .
@@ -585,7 +585,7 @@ stream
 .
 asrouter
 .
-whitelistHosts
+allowHosts
 "
 "
 [
