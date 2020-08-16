@@ -1608,9 +1608,12 @@ equal
 gURLBar
 .
 value
+getAutofillSearchString
+(
 "
 ExAmple
 "
+)
 )
 ;
 Assert
@@ -1634,9 +1637,12 @@ equal
 gURLBar
 .
 selectionEnd
+getAutofillSearchString
+(
 "
 ExAmple
 "
+)
 .
 length
 )
