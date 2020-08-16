@@ -1752,11 +1752,11 @@ z
 #
 define
 MAX_ATTRIBS
-16
+17
 #
 define
 NULL_ATTRIB
-15
+16
 struct
 VertexArray
 {
