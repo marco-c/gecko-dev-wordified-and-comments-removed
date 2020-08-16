@@ -513,6 +513,13 @@ h
 '
 public
 /
+ProfileBufferEntryKinds
+.
+h
+'
+'
+public
+/
 ProfileBufferEntrySerialization
 .
 h
