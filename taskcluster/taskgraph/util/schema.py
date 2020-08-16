@@ -1365,14 +1365,6 @@ None
     
 {
 '
-seta
-'
-:
-None
-}
-    
-{
-'
 skip
 -
 unless
