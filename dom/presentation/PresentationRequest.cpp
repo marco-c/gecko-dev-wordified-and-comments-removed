@@ -186,17 +186,12 @@ nsServiceManagerUtils
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 dom
-;
+{
 NS_IMPL_ADDREF_INHERITED
 (
 PresentationRequest
@@ -2682,4 +2677,6 @@ false
 return
 true
 ;
+}
+}
 }

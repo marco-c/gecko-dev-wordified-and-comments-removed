@@ -5682,6 +5682,12 @@ else
 service
 =
 new
+mozilla
+:
+:
+dom
+:
+:
 PresentationService
 (
 )
@@ -5693,6 +5699,12 @@ NS_WARN_IF
 !
 static_cast
 <
+mozilla
+:
+:
+dom
+:
+:
 PresentationService
 *
 >
