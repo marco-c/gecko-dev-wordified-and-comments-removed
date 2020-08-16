@@ -106,11 +106,11 @@ buildconfig
 substs
 [
 '
-PKG_STRIP
+PKG_SKIP_STRIP
 '
 ]
 =
-False
+True
     
 unpack
 (

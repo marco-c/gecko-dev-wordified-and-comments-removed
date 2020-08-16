@@ -1536,8 +1536,8 @@ why
 this
 is
 necessary
-ifdef
-PKG_STRIP
+ifndef
+PKG_SKIP_STRIP
 STRIP_COMPILED_TESTS
 :
 =
