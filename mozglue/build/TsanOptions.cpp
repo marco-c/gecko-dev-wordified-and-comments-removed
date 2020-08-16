@@ -405,16 +405,6 @@ n
 "
 race
 :
-UpdateArenaPointersTyped
-<
-JSObject
->
-\
-n
-"
-"
-race
-:
 setFlagBit
 \
 n

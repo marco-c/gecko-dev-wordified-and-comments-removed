@@ -2747,14 +2747,6 @@ numFixedSlotsMaybeForwarded
 )
 const
 ;
-inline
-void
-*
-getPrivateMaybeForwarded
-(
-)
-const
-;
 uint32_t
 numUsedFixedSlots
 (
