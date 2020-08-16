@@ -60,6 +60,15 @@ use
 crate
 :
 :
+gpu_cache
+:
+:
+GpuCacheHandle
+;
+use
+crate
+:
+:
 gpu_types
 :
 :
@@ -172,6 +181,10 @@ Option
 <
 RenderTaskCacheEntryHandle
 >
+pub
+clip_data_handle
+:
+GpuCacheHandle
 pub
 shadow_rect_alloc_size
 :
