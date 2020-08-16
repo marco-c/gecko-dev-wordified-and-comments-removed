@@ -548,6 +548,11 @@ wr
 :
 DeviceIntRect
 aClipRect
+wr
+:
+:
+ImageRendering
+aImageRendering
 )
 {
 }

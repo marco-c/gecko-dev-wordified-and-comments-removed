@@ -4406,6 +4406,11 @@ wr
 :
 DeviceIntRect
 aClipRect
+wr
+:
+:
+ImageRendering
+aImageRendering
 )
 {
 mDCLayerTree
@@ -4416,6 +4421,7 @@ AddSurface
 aId
 aTransform
 aClipRect
+aImageRendering
 )
 ;
 }

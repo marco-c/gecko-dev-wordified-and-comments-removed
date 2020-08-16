@@ -15311,6 +15311,10 @@ unwrap
 (
 )
 )
+ImageRendering
+:
+:
+Auto
 )
 ;
 }
@@ -37428,6 +37432,9 @@ clip_rect
 to_i32
 (
 )
+surface
+.
+image_rendering
 )
 ;
 }

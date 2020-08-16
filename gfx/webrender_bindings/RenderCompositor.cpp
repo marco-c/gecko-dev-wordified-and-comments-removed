@@ -153,6 +153,11 @@ wr
 :
 DeviceIntRect
 aClipRect
+wr
+:
+:
+ImageRendering
+aImageRendering
 )
 {
 RenderCompositor
@@ -177,6 +182,7 @@ aId
 *
 aTransform
 aClipRect
+aImageRendering
 )
 ;
 }
