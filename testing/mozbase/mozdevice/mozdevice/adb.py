@@ -19906,16 +19906,11 @@ offset
 )
                     
 return
-six
-.
-ensure_str
-(
 tf2
 .
 read
 (
 length
-)
 )
                 
 if
@@ -19933,27 +19928,17 @@ offset
 )
                     
 return
-six
-.
-ensure_str
-(
 tf2
 .
 read
 (
-)
 )
                 
 return
-six
-.
-ensure_str
-(
 tf2
 .
 read
 (
-)
 )
     
 def
