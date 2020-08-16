@@ -855,6 +855,15 @@ mozilla
 /
 node_modules
 /
+^
+browser
+/
+components
+/
+newtab
+/
+node_modules
+/
 #
 Ignore
 talos
