@@ -1650,6 +1650,12 @@ JSOp
 :
 CallIgnoresRv
 :
+case
+JSOp
+:
+:
+CallIter
+:
 if
 (
 !
