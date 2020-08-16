@@ -994,11 +994,6 @@ about
 blank
 "
 {
-sameProcessAsFrameLoader
-:
-browser
-.
-frameLoader
 remoteType
 :
 browser
@@ -1313,11 +1308,6 @@ win2
 gBrowser
 PAGE_1
 {
-sameProcessAsFrameLoader
-:
-browser
-.
-frameLoader
 remoteType
 :
 browser
@@ -1977,11 +1967,6 @@ win2
 gBrowser
 PAGE_2
 {
-sameProcessAsFrameLoader
-:
-browser
-.
-frameLoader
 remoteType
 :
 browser

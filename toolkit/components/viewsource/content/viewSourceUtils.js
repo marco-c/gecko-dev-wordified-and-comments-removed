@@ -317,14 +317,6 @@ if
 browser
 )
 {
-viewSourceBrowser
-.
-sameProcessAsFrameLoader
-=
-browser
-.
-frameLoader
-;
 if
 (
 viewSourceBrowser

@@ -11864,16 +11864,6 @@ id
 ;
 browser
 .
-sameProcessAsFrameLoader
-=
-policy
-.
-extension
-.
-groupFrameLoader
-;
-browser
-.
 setAttribute
 (
 "

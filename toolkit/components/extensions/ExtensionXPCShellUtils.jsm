@@ -1224,16 +1224,6 @@ extension
 "
 )
 ;
-browser
-.
-sameProcessAsFrameLoader
-=
-this
-.
-extension
-.
-groupFrameLoader
-;
 }
 if
 (

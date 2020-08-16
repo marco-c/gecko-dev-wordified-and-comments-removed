@@ -5576,9 +5576,6 @@ async
 createBrowserElement
 (
 xulAttributes
-groupFrameLoader
-=
-null
 )
 {
 if
@@ -5661,12 +5658,6 @@ disableglobalhistory
 true
 "
 )
-;
-browser
-.
-sameProcessAsFrameLoader
-=
-groupFrameLoader
 ;
 for
 (
@@ -6117,11 +6108,6 @@ extension
 .
 browsingContextGroupId
 }
-this
-.
-extension
-.
-groupFrameLoader
 )
 ;
 }
@@ -6499,9 +6485,6 @@ extension
 .
 browsingContextGroupId
 }
-extension
-.
-groupFrameLoader
 )
 ;
 }
