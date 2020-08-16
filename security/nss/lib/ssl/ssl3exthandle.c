@@ -3557,12 +3557,6 @@ loser
 ;
 ticketAgeBaseline
 =
-(
-ssl_Time
-(
-ss
-)
--
 ss
 -
 >
@@ -3570,8 +3564,7 @@ ssl3
 .
 hs
 .
-serverHelloTime
-)
+rttEstimate
 /
 PR_USEC_PER_MSEC
 ;
