@@ -24269,7 +24269,8 @@ true
 ;
 if
 (
-XRE_IsContentProcess
+!
+XRE_IsParentProcess
 (
 )
 )
@@ -24388,6 +24389,9 @@ MOZ_FORCE_DISABLE_E10S
 if
 (
 forceDisable
+&
+&
+gAppData
 &
 &
 !
