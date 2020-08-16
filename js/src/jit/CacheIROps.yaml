@@ -1599,13 +1599,13 @@ RawPointerField
 -
 name
 :
-GuardNotDOMProxy
+GuardIsNotDOMProxy
 shared
 :
 true
 transpile
 :
-false
+true
 cost_estimate
 :
 1

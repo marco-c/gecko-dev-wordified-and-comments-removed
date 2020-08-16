@@ -12421,7 +12421,7 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardNotDOMProxy
+emitGuardIsNotDOMProxy
 (
 ObjOperandId
 objId

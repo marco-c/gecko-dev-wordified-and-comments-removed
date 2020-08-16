@@ -7124,7 +7124,7 @@ handleDOMProxies
 {
 writer
 .
-guardNotDOMProxy
+guardIsNotDOMProxy
 (
 objId
 )
@@ -21376,7 +21376,7 @@ handleDOMProxies
 {
 writer
 .
-guardNotDOMProxy
+guardIsNotDOMProxy
 (
 objId
 )

@@ -9418,6 +9418,12 @@ case
 BailoutKind
 :
 :
+NotDOMProxyGuard
+:
+case
+BailoutKind
+:
+:
 NotArrayBufferMaybeSharedGuard
 :
 case
