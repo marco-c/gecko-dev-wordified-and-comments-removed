@@ -4980,6 +4980,8 @@ search
 mode
 -
 web
+-
+2
 "
 :
 "
@@ -4992,7 +4994,14 @@ search
 mode
 -
 other
+-
+engine
 "
+{
+name
+:
+engineName
+}
 )
 ;
 }
@@ -5099,7 +5108,6 @@ setAttributes
 this
 .
 inputField
-"
 urlbar
 -
 placeholder
@@ -5109,7 +5117,10 @@ search
 mode
 -
 other
-"
+-
+{
+sourceName
+}
 )
 ;
 }
