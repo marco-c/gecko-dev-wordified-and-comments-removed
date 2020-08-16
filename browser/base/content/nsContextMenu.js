@@ -6916,6 +6916,9 @@ this
 contentData
 .
 referrerInfo
+forceAllowDataURI
+:
+true
 triggeringPrincipal
 :
 this
