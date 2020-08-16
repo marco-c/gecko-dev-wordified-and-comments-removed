@@ -6109,6 +6109,13 @@ this
 extension
 .
 remoteType
+initialBrowsingContextGroupId
+:
+this
+.
+extension
+.
+browsingContextGroupId
 }
 this
 .
@@ -6486,6 +6493,11 @@ remoteType
 extension
 .
 remoteType
+initialBrowsingContextGroupId
+:
+extension
+.
+browsingContextGroupId
 }
 extension
 .

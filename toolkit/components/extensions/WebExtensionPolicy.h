@@ -809,6 +809,14 @@ GetBrowsingContextGroupId
 )
 const
 ;
+uint64_t
+GetBrowsingContextGroupId
+(
+ErrorResult
+&
+aRv
+)
+;
 static
 void
 GetActiveExtensions
