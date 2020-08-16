@@ -3656,7 +3656,6 @@ enable
 simulator
 '
 target
-milestone
 )
 def
 default_wasm_simd
@@ -3664,7 +3663,6 @@ default_wasm_simd
 jit_enabled
 simulator
 target
-milestone
 )
 :
 if
@@ -3675,10 +3673,6 @@ simulator
 :
 return
 if
-milestone
-.
-is_nightly
-and
 target
 .
 cpu
