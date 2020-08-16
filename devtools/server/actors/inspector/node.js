@@ -1009,12 +1009,6 @@ _hasEventListeners
 traits
 :
 {
-supportsGetAllSelectors
-:
-true
-supportsWaitForFrameLoad
-:
-true
 }
 }
 ;

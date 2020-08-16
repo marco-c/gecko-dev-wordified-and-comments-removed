@@ -2045,15 +2045,6 @@ length
 0
 )
 {
-if
-(
-nodeFront
-.
-traits
-.
-supportsWaitForFrameLoad
-)
-{
 await
 nodeFront
 .
@@ -2061,7 +2052,6 @@ waitForFrameLoad
 (
 )
 ;
-}
 const
 {
 nodes
