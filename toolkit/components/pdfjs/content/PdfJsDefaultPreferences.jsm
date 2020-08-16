@@ -82,7 +82,7 @@ canvas
 renderInteractiveForms
 "
 :
-false
+true
 "
 sidebarViewOnLoad
 "

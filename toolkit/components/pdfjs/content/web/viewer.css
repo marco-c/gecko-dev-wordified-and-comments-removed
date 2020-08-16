@@ -12146,6 +12146,10 @@ canvas
 printContainer
 img
 {
+direction
+:
+ltr
+;
 display
 :
 block
