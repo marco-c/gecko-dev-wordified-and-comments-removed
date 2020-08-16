@@ -159,12 +159,6 @@ contentDocAcc
 ]
 ]
 ;
-if
-(
-!
-gIsRemoteIframe
-)
-{
 events
 .
 push
@@ -226,7 +220,6 @@ false
 ]
 )
 ;
-}
 const
 onEvents
 =
