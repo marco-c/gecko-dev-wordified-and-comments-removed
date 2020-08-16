@@ -414,7 +414,7 @@ packet
 .
 id
 threadActor
-window
+workerGlobal
 :
 global
 onThreadAttached

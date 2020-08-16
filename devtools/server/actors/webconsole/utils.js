@@ -1779,7 +1779,7 @@ owner
 .
 consoleActor
 .
-evalWindow
+evalGlobal
 =
 null
 ;
@@ -1881,7 +1881,7 @@ owner
 .
 consoleActor
 .
-evalWindow
+evalGlobal
 =
 window
 ;
