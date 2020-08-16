@@ -40935,7 +40935,7 @@ LCheckIsObj
 public
 LInstructionHelper
 <
-0
+1
 BOX_PIECES
 0
 >
@@ -40949,7 +40949,7 @@ CheckIsObj
 static
 const
 size_t
-CheckValue
+ValueIndex
 =
 0
 ;
@@ -40969,7 +40969,7 @@ classOpcode
 {
 setBoxOperand
 (
-CheckValue
+ValueIndex
 value
 )
 ;
