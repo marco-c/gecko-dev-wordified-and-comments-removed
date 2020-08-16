@@ -15589,6 +15589,11 @@ marionette_exception
 =
 None
         
+temp_file_paths
+=
+[
+]
+        
 try
 :
             
@@ -16061,11 +16066,6 @@ message_logger
 gecko_id
 =
 gecko_id
-            
-temp_file_paths
-=
-[
-]
             
 try
 :
