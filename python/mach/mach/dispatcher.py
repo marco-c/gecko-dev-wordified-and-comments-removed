@@ -1655,9 +1655,6 @@ cls
 self
 .
 _context
-handler
-.
-virtualenv_name
 )
                     
 is_filtered

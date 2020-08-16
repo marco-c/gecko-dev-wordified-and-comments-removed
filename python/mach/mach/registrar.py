@@ -472,9 +472,6 @@ return
 cls
 (
 context
-handler
-.
-virtualenv_name
 )
     
 classmethod
