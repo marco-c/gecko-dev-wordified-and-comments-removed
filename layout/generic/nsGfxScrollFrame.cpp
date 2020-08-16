@@ -31201,6 +31201,9 @@ IntID
 :
 AllowOverlayScrollbarsOverlap
 )
+|
+|
+hasVisualOnlyScrollbarsOnBothDirections
 )
 {
 AdjustOverlappingScrollbars
