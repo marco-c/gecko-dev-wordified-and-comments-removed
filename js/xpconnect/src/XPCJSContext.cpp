@@ -4542,6 +4542,11 @@ expose_cleanupSome
 "
 )
 ;
+bool
+privateFieldsEnabled
+=
+false
+;
 #
 ifdef
 NIGHTLY_BUILD
@@ -4560,7 +4565,6 @@ iterator_helpers
 "
 )
 ;
-bool
 privateFieldsEnabled
 =
 Preferences
