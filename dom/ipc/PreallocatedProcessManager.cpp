@@ -1593,6 +1593,19 @@ false
 ;
 if
 (
+process
+-
+>
+IsDead
+(
+)
+)
+{
+}
+else
+{
+if
+(
 CanAllocate
 (
 )
@@ -1671,6 +1684,7 @@ ContentParent
 SEND_SHUTDOWN_MESSAGE
 )
 ;
+}
 }
 }
 [
