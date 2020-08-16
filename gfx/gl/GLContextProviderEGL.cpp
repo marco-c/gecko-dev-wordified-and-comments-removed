@@ -2067,6 +2067,15 @@ if
 (
 !
 mOwnsContext
+|
+|
+!
+mEgl
+-
+>
+IsAlive
+(
+)
 )
 {
 return
