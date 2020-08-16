@@ -89,17 +89,6 @@ virtualenv
 :
 true
 "
-install
-"
-:
-[
-"
-ua
--
-parser
-"
-]
-"
 requirements
 "
 :
