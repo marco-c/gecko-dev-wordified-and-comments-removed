@@ -262,6 +262,7 @@ nsIContent
 aRoot
 )
 ;
+static
 nsIContent
 *
 GetNextSibling
@@ -271,6 +272,7 @@ nsINode
 aNode
 )
 ;
+static
 nsIContent
 *
 GetPrevSibling
