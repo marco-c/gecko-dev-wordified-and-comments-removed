@@ -713,6 +713,13 @@ kNS_PRINTER_LIST_CID
 false
 NULL
 nsPrinterListCUPSConstructor
+mozilla
+:
+:
+Module
+:
+:
+MAIN_PROCESS_ONLY
 }
 {
 &
@@ -1039,6 +1046,13 @@ printerlist
 "
 &
 kNS_PRINTER_LIST_CID
+mozilla
+:
+:
+Module
+:
+:
+MAIN_PROCESS_ONLY
 }
 {
 "
