@@ -2026,6 +2026,10 @@ size
 "
 )
 ;
+#
+define
+PARAM_BUFFER_COUNT
+16
 struct
 nsXPTConstantInfo
 {

@@ -19,10 +19,6 @@ uint32_t
 args
 )
 {
-#
-define
-PARAM_BUFFER_COUNT
-16
 nsXPTCMiniVariant
 paramBuffer
 [

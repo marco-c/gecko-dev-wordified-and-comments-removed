@@ -42,12 +42,6 @@ args
 {
 const
 uint8_t
-PARAM_BUFFER_COUNT
-=
-16
-;
-const
-uint8_t
 NUM_ARG_REGS
 =
 6

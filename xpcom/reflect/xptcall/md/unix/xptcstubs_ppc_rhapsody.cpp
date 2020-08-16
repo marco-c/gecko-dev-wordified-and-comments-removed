@@ -31,10 +31,6 @@ argsFPR
 {
 #
 define
-PARAM_BUFFER_COUNT
-16
-#
-define
 PARAM_FPR_COUNT
 13
 #

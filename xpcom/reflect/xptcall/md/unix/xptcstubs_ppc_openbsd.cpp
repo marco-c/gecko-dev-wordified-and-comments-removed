@@ -7,10 +7,6 @@ h
 "
 #
 define
-PARAM_BUFFER_COUNT
-16
-#
-define
 GPR_COUNT
 8
 #
