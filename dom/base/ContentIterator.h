@@ -916,6 +916,13 @@ DetermineFirstContent
 )
 const
 ;
+nsIContent
+*
+DetermineLastContent
+(
+)
+const
+;
 nsresult
 InitWithRange
 (
