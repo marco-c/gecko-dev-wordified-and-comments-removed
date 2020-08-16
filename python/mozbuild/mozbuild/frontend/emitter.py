@@ -7353,10 +7353,6 @@ RCFILE
 '
             
 '
-RESFILE
-'
-            
-'
 RCINCLUDE
 '
             

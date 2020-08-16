@@ -3026,23 +3026,6 @@ rc
 ]
             
 '
-RESFILE
-'
-:
-[
-                
-'
-RESFILE
-:
-=
-bar
-.
-res
-'
-            
-]
-            
-'
 RCINCLUDE
 '
 :
