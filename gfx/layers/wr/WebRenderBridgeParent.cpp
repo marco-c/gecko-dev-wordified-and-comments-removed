@@ -8273,6 +8273,11 @@ client_size
 height
 )
 ;
+bool
+needsYFlip
+=
+false
+;
 mApi
 -
 >
@@ -8301,6 +8306,8 @@ uint8_t
 )
 buffer_size
 )
+&
+needsYFlip
 )
 ;
 Unused
@@ -8327,6 +8334,7 @@ client_size
 .
 height
 )
+needsYFlip
 )
 ;
 mScreenPixelsTarget
@@ -8351,8 +8359,16 @@ RecvGetSnapshot
 PTextureParent
 *
 aTexture
+bool
+*
+aNeedsYFlip
 )
 {
+*
+aNeedsYFlip
+=
+false
+;
 if
 (
 mDestroyed
@@ -8582,6 +8598,7 @@ uint8_t
 buffer
 buffer_size
 )
+aNeedsYFlip
 )
 ;
 return

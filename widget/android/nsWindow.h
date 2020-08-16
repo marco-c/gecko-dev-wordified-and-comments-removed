@@ -1557,6 +1557,8 @@ const
 ScreenIntSize
 &
 aSize
+bool
+aNeedsYFlip
 )
 override
 ;

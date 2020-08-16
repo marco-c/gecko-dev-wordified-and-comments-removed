@@ -4192,6 +4192,8 @@ const
 ScreenIntSize
 &
 aSize
+bool
+aNeedsYFlip
 )
 =
 0
