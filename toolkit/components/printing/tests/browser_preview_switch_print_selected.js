@@ -49,6 +49,16 @@ set
 "
 print
 .
+tab_modal
+.
+enabled
+"
+false
+]
+[
+"
+print
+.
 use_simplify_page
 "
 true
