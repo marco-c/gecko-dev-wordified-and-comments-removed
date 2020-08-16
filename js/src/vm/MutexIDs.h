@@ -79,14 +79,14 @@ StoreBuffer
 \
 _
 (
-GlobalHelperThreadState
+GCLock
 300
 )
 \
 \
 _
 (
-GCLock
+GlobalHelperThreadState
 400
 )
 \
