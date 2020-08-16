@@ -211,7 +211,7 @@ FunctionCompiler
 class
 CallCompileState
 {
-WasmABIArgGenerator
+ABIArgGenerator
 abi_
 ;
 MWasmCall
@@ -596,7 +596,7 @@ false
 }
 for
 (
-WasmABIArgIter
+ABIArgIter
 i
 (
 args
