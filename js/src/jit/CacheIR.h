@@ -8069,6 +8069,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachAssertFloat32
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
