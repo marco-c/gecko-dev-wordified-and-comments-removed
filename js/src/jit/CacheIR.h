@@ -8034,6 +8034,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachAtomicsStore
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
