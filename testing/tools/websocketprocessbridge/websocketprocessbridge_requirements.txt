@@ -20,6 +20,16 @@ setuptools
 tries
 pypi
 six
+vcversioner
+=
+=
+2
+.
+16
+.
+0
+.
+0
 twisted
 =
 =
