@@ -892,6 +892,16 @@ bip
 override
 ;
 bool
+onObjectGroupEdge
+(
+ObjectGroup
+*
+*
+groupp
+)
+override
+;
+bool
 onChild
 (
 const
