@@ -723,7 +723,7 @@ result
 {
 result
 .
-setNumber
+setDouble
 (
 v
 )
