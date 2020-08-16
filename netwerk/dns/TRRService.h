@@ -653,13 +653,6 @@ Relaxed
 >
 mDisableAfterFails
 ;
-Atomic
-<
-bool
-Relaxed
->
-mPlatformDisabledTRR
-;
 DataMutex
 <
 nsDataHashtable
