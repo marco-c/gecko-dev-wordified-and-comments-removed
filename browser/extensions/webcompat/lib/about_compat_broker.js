@@ -265,13 +265,7 @@ bootup
 (
 )
 {
-browser
-.
-runtime
-.
-onMessage
-.
-addListener
+onMessageFromTab
 (
 msg
 =

@@ -1111,6 +1111,13 @@ js
 '
 lib
 /
+messaging_helper
+.
+js
+'
+'
+lib
+/
 module_shim
 .
 js

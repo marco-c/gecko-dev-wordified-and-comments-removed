@@ -34,7 +34,7 @@ version
 "
 13
 .
-1
+2
 .
 0
 "
@@ -733,6 +733,13 @@ scripts
 lib
 /
 module_shim
+.
+js
+"
+"
+lib
+/
+messaging_helper
 .
 js
 "
