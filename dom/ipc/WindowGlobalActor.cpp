@@ -226,6 +226,17 @@ Id
 (
 )
 ;
+ctx
+.
+mBrowsingContextIsTop
+=
+aBrowsingContext
+-
+>
+IsTop
+(
+)
+;
 auto
 &
 fields
