@@ -240,9 +240,9 @@ aLastStatement
 bool
 executeAndProcessStatement
 (
-StatementData
-&
-aData
+sqlite3_stmt
+*
+aStatement
 bool
 aLastStatement
 )
@@ -250,9 +250,9 @@ aLastStatement
 bool
 executeStatement
 (
-StatementData
-&
-aData
+sqlite3_stmt
+*
+aStatement
 )
 ;
 nsresult

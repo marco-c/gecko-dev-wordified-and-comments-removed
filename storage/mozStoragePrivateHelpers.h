@@ -68,13 +68,6 @@ aIndex
 aCount
 NS_ERROR_INVALID_ARG
 )
-bool
-isErrorCode
-(
-int
-aSQLiteResultCode
-)
-;
 nsresult
 convertResultCode
 (
