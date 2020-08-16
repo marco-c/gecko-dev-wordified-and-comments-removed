@@ -8013,6 +8013,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachAtomicsOr
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
