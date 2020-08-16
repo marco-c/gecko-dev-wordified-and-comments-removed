@@ -40203,6 +40203,15 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_FONT_PRELOAD
+|
+|
+aType
+=
+=
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_FETCH_PRELOAD
 )
 ;
 }

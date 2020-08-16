@@ -2856,7 +2856,7 @@ return
 nsIContentPolicy
 :
 :
-TYPE_OTHER
+TYPE_INTERNAL_FETCH_PRELOAD
 ;
 }
 return
@@ -4149,7 +4149,7 @@ policyType
 nsIContentPolicy
 :
 :
-TYPE_OTHER
+TYPE_INTERNAL_FETCH_PRELOAD
 )
 {
 return
