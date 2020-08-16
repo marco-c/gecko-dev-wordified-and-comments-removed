@@ -941,6 +941,14 @@ windows10
 debug
 :
 5400
+macosx
+.
+*
+64
+/
+debug
+:
+5400
 windows10
 -
 64
