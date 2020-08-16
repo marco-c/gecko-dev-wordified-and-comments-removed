@@ -395,6 +395,11 @@ post
 {
 }
 }
+browserSearchRegion
+:
+"
+US
+"
 BrowserWindowTracker
 :
 {
