@@ -1461,7 +1461,7 @@ FileMgr
 #
 include
 "
-mozHunspellFileMgr
+mozHunspellFileMgrSandbox
 .
 h
 "
