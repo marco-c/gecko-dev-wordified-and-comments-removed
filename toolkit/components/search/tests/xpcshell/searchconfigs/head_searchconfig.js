@@ -1690,7 +1690,7 @@ assertDeepEqual
 (
 engine
 .
-_internalAliases
+aliases
 this
 .
 _config
@@ -1798,7 +1798,7 @@ assertDeepEqual
 (
 engine
 .
-_internalAliases
+aliases
 rule
 .
 aliases

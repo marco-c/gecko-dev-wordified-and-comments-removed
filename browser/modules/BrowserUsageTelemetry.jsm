@@ -2273,9 +2273,12 @@ alias
 &
 engine
 .
-wrappedJSObject
+isAppProvided
+&
+&
+engine
 .
-_internalAliases
+aliases
 .
 includes
 (

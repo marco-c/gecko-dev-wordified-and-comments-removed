@@ -402,9 +402,7 @@ e
 >
 e
 .
-wrappedJSObject
-.
-_internalAliases
+aliases
 .
 includes
 (

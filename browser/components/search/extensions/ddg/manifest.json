@@ -26,7 +26,7 @@ version
 "
 1
 .
-0
+1
 "
 "
 applications
@@ -93,6 +93,18 @@ search_provider
 "
 :
 {
+"
+keyword
+"
+:
+[
+"
+duckduckgo
+"
+"
+ddg
+"
+]
 "
 name
 "

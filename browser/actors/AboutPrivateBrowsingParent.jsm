@@ -250,9 +250,7 @@ search
 .
 defaultPrivateEngine
 .
-wrappedJSObject
-.
-__internalAliases
+aliases
 ;
 if
 (
