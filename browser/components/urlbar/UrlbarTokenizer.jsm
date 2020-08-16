@@ -1234,6 +1234,9 @@ token
 return
 (
 token
+&
+&
+token
 .
 type
 >
