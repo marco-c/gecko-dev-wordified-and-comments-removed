@@ -1497,11 +1497,6 @@ rust
 -
 helper
 '
-'
-http
--
-sfv
-'
 ]
 include
 (
