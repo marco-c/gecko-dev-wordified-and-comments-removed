@@ -594,8 +594,14 @@ osrPcMismatchesBeforeRecompile
 ;
 SET_DEFAULT
 (
-smallFunctionMaxBytecodeLength_
+smallFunctionMaxBytecodeLength
 130
+)
+;
+SET_DEFAULT
+(
+inliningEntryThreshold
+100
 )
 ;
 SET_DEFAULT
@@ -933,7 +939,7 @@ length
 )
 <
 =
-smallFunctionMaxBytecodeLength_
+smallFunctionMaxBytecodeLength
 ;
 }
 void

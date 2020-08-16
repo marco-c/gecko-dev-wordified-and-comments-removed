@@ -333,6 +333,9 @@ shouldInline
 JSFunction
 *
 target
+ICStub
+*
+stub
 BytecodeLocation
 loc
 )
