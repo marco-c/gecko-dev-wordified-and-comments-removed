@@ -769,6 +769,22 @@ level
 =
 log_level
 )
+        
+mach_cmd
+.
+log_manager
+.
+enable_all_structured_loggers
+(
+)
+        
+mach_cmd
+.
+log_manager
+.
+enable_unstructured
+(
+)
     
 try
 :
