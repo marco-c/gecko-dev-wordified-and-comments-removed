@@ -604,6 +604,32 @@ if
 errortests
 :
             
+errorIncludes
+=
+[
+'
+-
+I
+'
+os
+.
+path
+.
+join
+(
+errordir
+'
+extra
+'
+)
+                             
+'
+-
+I
+'
+errordir
+]
+            
 errorsuite
 .
 addTest
@@ -612,13 +638,7 @@ ErrorTestCase
 (
 ipdlargv
 +
-[
-'
--
-I
-'
-errordir
-]
+errorIncludes
                                              
 arg
 )
