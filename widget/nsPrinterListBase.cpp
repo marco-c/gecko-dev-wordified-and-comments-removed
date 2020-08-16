@@ -196,7 +196,7 @@ aResult
 nsPrinterListBase
 :
 :
-GetPrinters
+Printers
 )
 ;
 }

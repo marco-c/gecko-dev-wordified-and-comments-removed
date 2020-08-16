@@ -51,7 +51,7 @@ nsTArray
 <
 PrinterInfo
 >
-GetPrinters
+Printers
 (
 )
 const

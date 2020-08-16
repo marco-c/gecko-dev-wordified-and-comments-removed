@@ -2470,7 +2470,7 @@ PrinterInfo
 nsPrinterListWin
 :
 :
-GetPrinters
+Printers
 (
 )
 const

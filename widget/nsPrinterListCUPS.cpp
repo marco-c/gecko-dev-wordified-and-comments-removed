@@ -61,7 +61,7 @@ PrinterInfo
 nsPrinterListCUPS
 :
 :
-GetPrinters
+Printers
 (
 )
 const
