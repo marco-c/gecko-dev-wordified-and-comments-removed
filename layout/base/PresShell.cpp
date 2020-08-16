@@ -53082,9 +53082,10 @@ UsesMobileViewportSizing
 const
 {
 return
-GetIsViewportOverridden
-(
-)
+mMobileViewportManager
+!
+=
+nullptr
 &
 &
 nsLayoutUtils
