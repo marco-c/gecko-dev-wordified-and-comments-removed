@@ -280,11 +280,6 @@ override
 private
 :
 void
-AddToTopLayerIfNeeded
-(
-)
-;
-void
 RemoveFromTopLayerIfNeeded
 (
 )
