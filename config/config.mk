@@ -2586,6 +2586,7 @@ MAKEFLAGS
 )
 )
 )
+export
 BUILD_VERBOSE_LOG
 =
 1

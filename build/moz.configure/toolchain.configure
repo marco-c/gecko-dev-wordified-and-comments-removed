@@ -13452,9 +13452,9 @@ or
 return
 (
 '
+llvm
+-
 rc
-.
-exe
 '
 )
 check_prog
