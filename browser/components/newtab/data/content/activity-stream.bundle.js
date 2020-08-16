@@ -63145,7 +63145,7 @@ actionCreators
 "
 ]
 .
-ImpressionStats
+UserEvent
 (
 {
 event
@@ -63158,6 +63158,9 @@ source
 "
 POPULAR_TOPICS
 "
+action_position
+:
+0
 value
 :
 {
