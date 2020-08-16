@@ -88,6 +88,11 @@ const
 SIMPLIFIED_WELCOME_CONTENT
 =
 {
+template
+:
+"
+simplified
+"
 title
 :
 {
