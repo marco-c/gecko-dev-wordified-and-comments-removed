@@ -434,6 +434,13 @@ GetInnerWindow
 )
 const
 ;
+Document
+*
+GetDocument
+(
+)
+const
+;
 WindowContext
 *
 GetParentWindowContext
