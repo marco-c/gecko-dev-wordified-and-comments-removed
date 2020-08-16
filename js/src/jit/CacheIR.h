@@ -7952,6 +7952,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachAtomicsCompareExchange
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
