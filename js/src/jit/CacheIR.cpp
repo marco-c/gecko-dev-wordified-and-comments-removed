@@ -7168,7 +7168,7 @@ id
 ;
 writer
 .
-callProxyGetResult
+proxyGetResult
 (
 objId
 id
@@ -7212,7 +7212,7 @@ isSuper
 ;
 writer
 .
-callProxyGetByValueResult
+proxyGetByValueResult
 (
 objId
 getElemKeyValueId
@@ -7661,7 +7661,7 @@ objId
 ;
 writer
 .
-callProxyGetResult
+proxyGetResult
 (
 objId
 id
@@ -8100,7 +8100,7 @@ isSuper
 ;
 writer
 .
-callProxyGetResult
+proxyGetResult
 (
 objId
 id
@@ -12239,7 +12239,7 @@ isSuper
 ;
 writer
 .
-callProxyGetByValueResult
+proxyGetByValueResult
 (
 objId
 getElemKeyValueId

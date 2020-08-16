@@ -6277,7 +6277,7 @@ bool
 IonCacheIRCompiler
 :
 :
-emitCallProxyGetResult
+emitProxyGetResult
 (
 ObjOperandId
 objId

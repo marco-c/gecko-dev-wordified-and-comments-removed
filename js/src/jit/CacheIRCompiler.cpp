@@ -42378,7 +42378,7 @@ bool
 CacheIRCompiler
 :
 :
-emitCallProxyGetByValueResult
+emitProxyGetByValueResult
 (
 ObjOperandId
 objId
