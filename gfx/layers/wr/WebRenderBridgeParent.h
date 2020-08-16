@@ -1004,9 +1004,6 @@ RecvGetSnapshot
 PTextureParent
 *
 aTexture
-bool
-*
-aNeedsYFlip
 )
 override
 ;

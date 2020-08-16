@@ -4737,9 +4737,6 @@ uint8_t
 >
 &
 aReadbackBuffer
-bool
-*
-aNeedsYFlip
 )
 {
 MOZ_ASSERT
@@ -5132,17 +5129,6 @@ latencyMs
 "
 ms
 "
-;
-}
-if
-(
-aNeedsYFlip
-)
-{
-*
-aNeedsYFlip
-=
-false
 ;
 }
 return

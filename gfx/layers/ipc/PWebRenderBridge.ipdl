@@ -514,11 +514,6 @@ GetSnapshot
 PTexture
 texture
 )
-returns
-(
-bool
-aNeedsYFlip
-)
 ;
 async
 SetLayersObserverEpoch

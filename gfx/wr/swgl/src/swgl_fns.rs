@@ -1568,9 +1568,6 @@ GLboolean
 flip
 :
 GLboolean
-filter
-:
-GLenum
 )
 ;
 fn
@@ -9464,9 +9461,6 @@ bool
 flip
 :
 bool
-filter
-:
-GLenum
 )
 {
 unsafe
@@ -9493,7 +9487,6 @@ GLboolean
 flip
 as
 GLboolean
-filter
 )
 ;
 }

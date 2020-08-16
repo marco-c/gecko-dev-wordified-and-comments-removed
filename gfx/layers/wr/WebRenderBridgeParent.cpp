@@ -8351,16 +8351,8 @@ RecvGetSnapshot
 PTextureParent
 *
 aTexture
-bool
-*
-aNeedsYFlip
 )
 {
-*
-aNeedsYFlip
-=
-false
-;
 if
 (
 mDestroyed
@@ -8590,7 +8582,6 @@ uint8_t
 buffer
 buffer_size
 )
-aNeedsYFlip
 )
 ;
 return

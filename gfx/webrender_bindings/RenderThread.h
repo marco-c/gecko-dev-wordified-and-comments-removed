@@ -636,11 +636,6 @@ uint8_t
 >
 &
 aReadbackBuffer
-bool
-*
-aNeedsYFlip
-=
-nullptr
 )
 ;
 void
