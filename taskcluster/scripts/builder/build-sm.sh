@@ -346,7 +346,9 @@ artifacts
 txt
 <
 <
+'
 EOF
+'
 Artifact
 upload
 has
