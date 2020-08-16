@@ -27,6 +27,12 @@ CommandProvider
     
 Command
 )
+from
+mozbuild
+.
+base
+import
+MachCommandBase
 here
 =
 os
@@ -1345,23 +1351,9 @@ CommandProvider
 class
 MochitestCommands
 (
-object
+MachCommandBase
 )
 :
-    
-def
-__init__
-(
-self
-context
-)
-:
-        
-self
-.
-context
-=
-context
     
 Command
 (
@@ -1401,7 +1393,7 @@ kwargs
         
 self
 .
-context
+_mach_context
 .
 activate_mozharness_venv
 (
@@ -1412,7 +1404,7 @@ run_test
 (
 self
 .
-context
+_mach_context
 False
 *
 *
@@ -1461,7 +1453,7 @@ kwargs
         
 self
 .
-context
+_mach_context
 .
 activate_mozharness_venv
 (
@@ -1472,7 +1464,7 @@ run_test
 (
 self
 .
-context
+_mach_context
 True
 *
 *

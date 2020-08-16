@@ -7,6 +7,10 @@ __future__
 import
 unicode_literals
 from
+buildconfig
+import
+topsrcdir
+from
 mach
 .
 main
@@ -29,6 +33,24 @@ from
 mozunit
 import
 main
+def
+_populate_context
+(
+key
+)
+:
+    
+if
+key
+=
+=
+'
+topdir
+'
+:
+        
+return
+topsrcdir
 class
 TestErrorOutput
 (
@@ -49,6 +71,7 @@ TestBase
 .
 _run_mach
 (
+            
 self
 args
 '
@@ -56,6 +79,9 @@ throw
 .
 py
 '
+context_handler
+=
+_populate_context
 )
     
 def

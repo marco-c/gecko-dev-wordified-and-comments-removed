@@ -172,16 +172,27 @@ def
 __init__
 (
 self
-context
+*
+args
+*
+*
+kwargs
 )
 :
         
-MachCommandBase
+super
+(
+RemoteCommands
+self
+)
 .
 __init__
 (
-self
-context
+*
+args
+*
+*
+kwargs
 )
         
 self

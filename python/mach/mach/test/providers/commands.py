@@ -20,6 +20,12 @@ CommandProvider
     
 Command
 )
+from
+mozbuild
+.
+base
+import
+MachCommandBase
 def
 is_foo
 (
@@ -72,7 +78,7 @@ CommandProvider
 class
 MachCommands
 (
-object
+MachCommandBase
 )
 :
     

@@ -315,7 +315,11 @@ def
 __init__
 (
 self
-context
+*
+args
+*
+*
+kwargs
 )
 :
         
@@ -327,7 +331,11 @@ self
 .
 __init__
 (
-context
+*
+args
+*
+*
+kwargs
 )
         
 from
@@ -1370,14 +1378,12 @@ dispatch
 '
 try
 '
-subcommand
-=
-sub
-context
-=
 self
 .
 _mach_context
+subcommand
+=
+sub
 argv
 =
 argv

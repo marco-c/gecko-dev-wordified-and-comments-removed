@@ -4042,7 +4042,7 @@ CommandProvider
 class
 TaskClusterPartialsData
 (
-object
+MachCommandBase
 )
 :
     

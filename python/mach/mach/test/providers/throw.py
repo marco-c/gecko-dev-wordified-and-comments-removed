@@ -27,11 +27,17 @@ test
 providers
 import
 throw2
+from
+mozbuild
+.
+base
+import
+MachCommandBase
 CommandProvider
 class
 TestCommandProvider
 (
-object
+MachCommandBase
 )
 :
     

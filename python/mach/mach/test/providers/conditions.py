@@ -17,6 +17,12 @@ CommandProvider
     
 Command
 )
+from
+mozbuild
+.
+base
+import
+MachCommandBase
 def
 is_foo
 (
@@ -65,7 +71,7 @@ CommandProvider
 class
 ConditionsProvider
 (
-object
+MachCommandBase
 )
 :
     
@@ -159,7 +165,7 @@ CommandProvider
 class
 ConditionsContextProvider
 (
-object
+MachCommandBase
 )
 :
     
@@ -167,15 +173,36 @@ def
 __init__
 (
 self
-context
+*
+args
+*
+*
+kwargs
 )
 :
+        
+super
+(
+ConditionsContextProvider
+self
+)
+.
+__init__
+(
+*
+args
+*
+*
+kwargs
+)
         
 self
 .
 foo
 =
-context
+self
+.
+_mach_context
 .
 foo
         
@@ -183,7 +210,9 @@ self
 .
 bar
 =
-context
+self
+.
+_mach_context
 .
 bar
     

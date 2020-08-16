@@ -340,9 +340,14 @@ part
 s
 '
 %
+getattr
+(
 c
-.
+'
 __name__
+'
+c
+)
 ]
             
 if
@@ -414,31 +419,25 @@ handler
 cls
         
 if
-handler
-.
-pass_context
-and
-not
 context
+is
+None
 :
             
 raise
-Exception
+ValueError
 (
 '
-mach
-command
-class
-requires
+Expected
+a
+non
+-
+None
 context
 .
 '
 )
         
-if
-context
-:
-            
 prerun
 =
 getattr
@@ -449,11 +448,11 @@ pre_dispatch_handler
 '
 None
 )
-            
+        
 if
 prerun
 :
-                
+            
 prerun
 (
 context
@@ -463,36 +462,17 @@ args
 kwargs
 )
         
-if
-handler
-.
-pass_context
-:
-            
 context
 .
 handler
 =
 handler
-            
-instance
-=
-cls
-(
-context
-)
-        
-else
-:
-            
-instance
-=
-cls
-(
-)
         
 return
-instance
+cls
+(
+context
+)
     
 classmethod
     
@@ -548,8 +528,6 @@ _run_command_handler
 self
 handler
 context
-=
-None
 debug_command
 =
 False
@@ -682,8 +660,6 @@ integer_types
 )
         
 if
-context
-and
 not
 debug_command
 :
@@ -736,8 +712,6 @@ dispatch
 self
 name
 context
-=
-None
 argv
 =
 None
@@ -927,8 +901,6 @@ self
 _run_command_handler
 (
 handler
-context
-=
 context
 *
 *

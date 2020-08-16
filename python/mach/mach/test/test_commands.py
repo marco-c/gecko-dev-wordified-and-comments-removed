@@ -9,6 +9,10 @@ from
 mozunit
 import
 main
+from
+buildconfig
+import
+topsrcdir
 import
 mach
 from
@@ -69,9 +73,6 @@ _run_mach
 (
 self
 args
-context_handler
-=
-None
 )
 :
         
@@ -116,6 +117,25 @@ py
 )
         
 ]
+        
+def
+context_handler
+(
+key
+)
+:
+            
+if
+key
+=
+=
+'
+topdir
+'
+:
+                
+return
+topsrcdir
         
 return
 TestBase

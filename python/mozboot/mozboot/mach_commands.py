@@ -22,6 +22,12 @@ CommandProvider
 Command
 )
 from
+mozbuild
+.
+base
+import
+MachCommandBase
+from
 mozboot
 .
 bootstrap
@@ -31,7 +37,7 @@ CommandProvider
 class
 Bootstrap
 (
-object
+MachCommandBase
 )
 :
     
@@ -50,20 +56,6 @@ experience
 "
 "
 "
-    
-def
-__init__
-(
-self
-context
-)
-:
-        
-self
-.
-_context
-=
-context
     
 Command
 (
@@ -269,7 +261,7 @@ mach_context
 =
 self
 .
-_context
+_mach_context
         
 )
         
@@ -282,23 +274,9 @@ CommandProvider
 class
 VersionControlCommands
 (
-object
+MachCommandBase
 )
 :
-    
-def
-__init__
-(
-self
-context
-)
-:
-        
-self
-.
-_context
-=
-context
     
 Command
 (
@@ -498,9 +476,10 @@ mozversioncontrol
 .
 get_repository_object
 (
+            
 self
 .
-_context
+_mach_context
 .
 topdir
 )
@@ -607,12 +586,13 @@ update_git_tools
 vcs
 self
 .
-_context
+_mach_context
 .
 state_dir
+                                           
 self
 .
-_context
+_mach_context
 .
 topdir
 )
@@ -627,7 +607,7 @@ update_vct
 vcs
 self
 .
-_context
+_mach_context
 .
 state_dir
 )
@@ -662,12 +642,13 @@ cinnabar
 )
 self
 .
-_context
+_mach_context
 .
 state_dir
+                    
 self
 .
-_context
+_mach_context
 .
 topdir
 )
@@ -682,7 +663,7 @@ configure_mercurial
 vcs
 self
 .
-_context
+_mach_context
 .
 state_dir
 )
