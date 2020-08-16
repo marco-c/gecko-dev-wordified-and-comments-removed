@@ -6905,7 +6905,7 @@ movingIntoXrayCompartment
 if
 (
 !
-JS_CopyPropertiesFrom
+JS_CopyOwnPropertiesAndPrivateFields
 (
 cx
 dst
@@ -6940,7 +6940,7 @@ oldHead
 if
 (
 !
-JS_CopyPropertiesFrom
+JS_CopyOwnPropertiesAndPrivateFields
 (
 cx
 newHead

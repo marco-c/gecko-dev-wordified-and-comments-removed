@@ -6286,7 +6286,7 @@ desc
 }
 JS_FRIEND_API
 bool
-JS_CopyPropertiesFrom
+JS_CopyOwnPropertiesAndPrivateFields
 (
 JSContext
 *
@@ -6335,6 +6335,8 @@ GetPropertyKeys
 (
 cx
 obj
+JSITER_PRIVATE
+|
 JSITER_OWNONLY
 |
 JSITER_HIDDEN

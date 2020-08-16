@@ -12255,7 +12255,7 @@ return
 if
 (
 !
-JS_CopyPropertiesFrom
+JS_CopyOwnPropertiesAndPrivateFields
 (
 aCx
 propertyHolder
@@ -12408,7 +12408,7 @@ copyTo
 |
 |
 !
-JS_CopyPropertiesFrom
+JS_CopyOwnPropertiesAndPrivateFields
 (
 aCx
 copyTo

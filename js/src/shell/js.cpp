@@ -46099,7 +46099,7 @@ false
 if
 (
 !
-JS_CopyPropertiesFrom
+JS_CopyOwnPropertiesAndPrivateFields
 (
 cx
 propertyHolder
@@ -46197,7 +46197,7 @@ source
 if
 (
 !
-JS_CopyPropertiesFrom
+JS_CopyOwnPropertiesAndPrivateFields
 (
 cx
 copyTo
