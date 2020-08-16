@@ -904,6 +904,13 @@ const
 ;
 nsIContent
 *
+DetermineCandidateForLastContent
+(
+)
+const
+;
+nsIContent
+*
 DetermineFirstContent
 (
 )
