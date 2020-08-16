@@ -12769,6 +12769,10 @@ if
 (
 !
 mPrt
+|
+|
+!
+mIsCreatingPrintPreview
 )
 {
 return
