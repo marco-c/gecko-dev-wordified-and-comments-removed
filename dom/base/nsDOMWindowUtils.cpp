@@ -3053,13 +3053,6 @@ scrollFrame
 >
 GetActualScrollbarSizes
 (
-nsIScrollableFrame
-:
-:
-ScrollbarSizesOptions
-:
-:
-INCLUDE_VISUAL_VIEWPORT_SCROLLBARS
 )
 )
 )
