@@ -286,6 +286,11 @@ JSONSpewer
 cpp
 '
 '
+KnownClass
+.
+cpp
+'
+'
 LICM
 .
 cpp

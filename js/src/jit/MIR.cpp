@@ -125,6 +125,15 @@ include
 "
 jit
 /
+KnownClass
+.
+h
+"
+#
+include
+"
+jit
+/
 MIRGraph
 .
 h
