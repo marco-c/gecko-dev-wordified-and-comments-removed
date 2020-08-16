@@ -1727,13 +1727,12 @@ true
 "
 )
 ;
-PanelMultiView
-.
-getViewNode
-(
 window
 .
 document
+.
+getElementById
+(
 "
 appMenu
 -
