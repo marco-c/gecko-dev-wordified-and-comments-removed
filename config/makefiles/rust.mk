@@ -2948,7 +2948,9 @@ program
 build
 :
 (
-RESFILE
+call
+resfile
+module
 )
 (
 REPORT_BUILD
@@ -2972,10 +2974,7 @@ cargo_target_flag
 -
 -
 (
-if
-(
-RESFILE
-)
+addprefix
 -
 C
 link
@@ -2987,7 +2986,9 @@ CURDIR
 )
 /
 (
-RESFILE
+call
+resfile
+module
 )
 )
 (
