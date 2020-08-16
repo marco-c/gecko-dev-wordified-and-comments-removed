@@ -1187,6 +1187,11 @@ required
 DOMString
 pcid
 ;
+required
+unsigned
+long
+browserId
+;
 RTCConfigurationInternal
 configuration
 ;
