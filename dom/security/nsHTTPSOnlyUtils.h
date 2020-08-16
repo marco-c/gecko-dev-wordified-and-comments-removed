@@ -128,15 +128,6 @@ nsIChannel
 aChannel
 )
 ;
-static
-bool
-IsSafeToAcceptCORSOrMixedContent
-(
-nsILoadInfo
-*
-aLoadInfo
-)
-;
 private
 :
 static
