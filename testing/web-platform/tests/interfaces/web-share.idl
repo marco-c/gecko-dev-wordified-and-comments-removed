@@ -84,7 +84,7 @@ data
 dictionary
 ShareData
 {
-FrozenArray
+sequence
 <
 File
 >
