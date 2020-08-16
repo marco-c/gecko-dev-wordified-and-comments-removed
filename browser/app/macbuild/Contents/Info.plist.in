@@ -1168,7 +1168,9 @@ key
 <
 string
 >
-firefox
+%
+MOZ_APP_NAME
+%
 <
 /
 string
