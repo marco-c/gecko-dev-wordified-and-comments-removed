@@ -371,11 +371,14 @@ this
 _targetFront
 &
 &
+!
 this
 .
 _targetFront
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 return

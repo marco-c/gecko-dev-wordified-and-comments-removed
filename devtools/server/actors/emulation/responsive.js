@@ -320,12 +320,13 @@ targetActor
 exited
 |
 |
-!
 this
 .
 targetActor
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 return

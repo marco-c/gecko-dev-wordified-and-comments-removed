@@ -400,9 +400,12 @@ children
 }
 if
 (
+!
 accessible
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 console

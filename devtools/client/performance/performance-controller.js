@@ -1250,11 +1250,14 @@ getLatestManualRecording
 ;
 if
 (
+!
 this
 .
 front
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 await

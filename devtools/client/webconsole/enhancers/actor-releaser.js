@@ -118,9 +118,12 @@ function
 "
 &
 &
+!
 front
 .
-actorID
+isDestroyed
+(
+)
 &
 &
 (

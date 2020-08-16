@@ -564,10 +564,11 @@ onDestroy
 {
 if
 (
-!
 this
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 console
@@ -676,10 +677,11 @@ onDestroy
 {
 if
 (
-!
 this
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 console

@@ -100,10 +100,11 @@ args
 {
 if
 (
-!
 this
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 throw

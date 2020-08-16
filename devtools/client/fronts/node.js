@@ -2126,11 +2126,14 @@ this
 _remoteFrameTarget
 &
 &
+!
 this
 .
 _remoteFrameTarget
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 return

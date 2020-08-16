@@ -54,10 +54,11 @@ inspector
 ;
 if
 (
-!
 accessible
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 return

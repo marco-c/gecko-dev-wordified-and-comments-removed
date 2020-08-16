@@ -840,10 +840,11 @@ resources
 {
 if
 (
-!
 this
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 return
@@ -945,10 +946,11 @@ this
 exited
 |
 |
-!
 this
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 return

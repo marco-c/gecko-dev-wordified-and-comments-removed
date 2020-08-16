@@ -549,10 +549,11 @@ if
 node
 |
 |
-!
 node
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 return

@@ -993,9 +993,14 @@ node
 =
 >
 node
-?
+&
+&
+!
+node
 .
-actorID
+isDestroyed
+(
+)
 )
 ;
 cleanupDestroyedNodes

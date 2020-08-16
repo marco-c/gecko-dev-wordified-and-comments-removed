@@ -274,11 +274,14 @@ this
 _processTargetFront
 &
 &
+!
 this
 .
 _processTargetFront
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 return
