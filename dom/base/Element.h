@@ -1666,6 +1666,16 @@ EventStateManager
 ;
 friend
 class
+mozilla
+:
+:
+dom
+:
+:
+Document
+;
+friend
+class
 :
 :
 nsGlobalWindowInner
