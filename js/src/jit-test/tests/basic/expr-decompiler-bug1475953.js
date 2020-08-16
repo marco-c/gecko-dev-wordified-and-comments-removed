@@ -14,17 +14,6 @@ value
 }
 )
 ;
-setModuleResolveHook
-(
-function
-(
-module
-specifier
-)
-{
-}
-)
-;
 try
 {
 evaluate

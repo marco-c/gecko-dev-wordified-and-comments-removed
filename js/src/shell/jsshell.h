@@ -162,7 +162,6 @@ enum
 GlobalAppSlot
 {
 GlobalAppSlotModuleRegistry
-GlobalAppSlotModuleResolveHook
 GlobalAppSlotCount
 }
 ;
