@@ -207,7 +207,13 @@ vingtetun
 .
 org
 "
+Ci
+.
+nsIDNSService
+.
+RESOLVE_TYPE_DEFAULT
 0
+null
 listener
 mainThread
 defaultOriginAttributes
@@ -286,7 +292,13 @@ example
 .
 com
 "
+Ci
+.
+nsIDNSService
+.
+RESOLVE_TYPE_DEFAULT
 0
+null
 listener
 mainThread
 defaultOriginAttributes
