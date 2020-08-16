@@ -4496,6 +4496,12 @@ ResumePromise
 mResumePlaybackRequest
 ;
 bool
+IsPlayable
+(
+)
+const
+;
+bool
 ShouldStartMediaControlKeyListener
 (
 )
