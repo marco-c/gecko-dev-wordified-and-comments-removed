@@ -659,6 +659,7 @@ mClosed
 mLocalSdp
 mSdpHistory
 mPcid
+mBrowserId
 mRemoteSdp
 mTimestamp
 mCallDurationMs
