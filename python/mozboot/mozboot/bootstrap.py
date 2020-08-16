@@ -3010,14 +3010,6 @@ self
 .
 instance
 .
-prepare
-(
-)
-        
-self
-.
-instance
-.
 ensure_python_modern
 (
 )
@@ -3077,6 +3069,15 @@ checkout_root
 )
 =
 r
+            
+self
+.
+instance
+.
+validate_environment
+(
+checkout_root
+)
             
 have_clone
 =
@@ -3221,6 +3222,15 @@ checkout_root
 )
 =
 r
+        
+self
+.
+instance
+.
+validate_environment
+(
+checkout_root
+)
         
 if
 not

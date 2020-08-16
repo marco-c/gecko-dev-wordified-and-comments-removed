@@ -1004,9 +1004,10 @@ state_dir
 None
     
 def
-prepare
+validate_environment
 (
 self
+srcdir
 )
 :
         
@@ -1015,20 +1016,35 @@ self
 '
         
 Called
-before
-anything
-else
-is
-done
-with
-this
-bootstrapper
-but
-after
-it
+once
+the
+current
+firefox
+checkout
+has
+been
+detected
+.
         
-is
-initialized
+Platform
+-
+specific
+implementations
+should
+check
+the
+environment
+and
+offer
+advice
+/
+warnings
+        
+to
+the
+user
+if
+necessary
 .
         
 '
