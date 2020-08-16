@@ -10,6 +10,12 @@ import
 sys
 import
 mozfile
+import
+mozpack
+.
+path
+as
+mozpath
 from
 mozlint
 import
@@ -834,11 +840,17 @@ exclude
 .
 extend
 (
+map
+(
+mozpath
+.
+normpath
 self
 .
 options
 .
 exclude
+)
 )
         
 filtered
