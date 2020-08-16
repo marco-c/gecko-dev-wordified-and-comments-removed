@@ -284,12 +284,12 @@ found
 "
 ;
 return
-nullptr
+{
+}
 ;
 }
 return
-MakeSpan
-(
+{
 mFontData
 +
 dirEntry
@@ -300,7 +300,7 @@ dirEntry
 -
 >
 length
-)
+}
 ;
 }
 private

@@ -1169,8 +1169,12 @@ const
 {
 ASSERT_CANARY
 return
-MakeSpan
-(
+Span
+<
+const
+T
+>
+{
 _0
 .
 ptr
@@ -1182,7 +1186,7 @@ slice
 Length
 (
 )
-)
+}
 ;
 }
 template

@@ -3798,11 +3798,11 @@ WORD
 )
 ;
 return
-MakeSpan
-(
+Span
+{
 base
 numSections
-)
+}
 ;
 }
 PIMAGE_RESOURCE_DIRECTORY_ENTRY

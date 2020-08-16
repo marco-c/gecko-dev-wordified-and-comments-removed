@@ -734,8 +734,8 @@ return
 mozilla
 :
 :
-MakeSpan
-(
+Span
+{
 offsetToPointer
 <
 T
@@ -751,7 +751,7 @@ T
 start
 end
 )
-)
+}
 ;
 }
 mozilla

@@ -565,8 +565,8 @@ headerSize
 ;
 }
 return
-MakeSpan
-(
+Span
+{
 static_cast
 <
 const
@@ -581,7 +581,7 @@ Elements
 )
 )
 headerSize
-)
+}
 ;
 }
 Result
@@ -663,8 +663,8 @@ outputSize
 ;
 }
 return
-MakeSpan
-(
+Span
+{
 static_cast
 <
 const
@@ -679,7 +679,7 @@ Elements
 )
 )
 outputSize
-)
+}
 ;
 }
 Result
@@ -729,8 +729,8 @@ outputSize
 ;
 }
 return
-MakeSpan
-(
+Span
+{
 static_cast
 <
 const
@@ -745,7 +745,7 @@ Elements
 )
 )
 outputSize
-)
+}
 ;
 }
 LZ4FrameDecompressionContext

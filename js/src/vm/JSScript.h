@@ -5652,8 +5652,8 @@ return
 mozilla
 :
 :
-MakeSpan
-(
+Span
+{
 offsetToPointer
 <
 JS
@@ -5665,7 +5665,7 @@ GCCellPtr
 offset
 )
 ngcthings
-)
+}
 ;
 }
 void

@@ -70620,11 +70620,7 @@ count
 ;
             
 inline
-Span
-<
-const
-char
->
+auto
 GetString
 (
 {
@@ -70672,15 +70668,19 @@ stringId
 ;
               
 return
-MakeSpan
-(
+Span
+<
+const
+char
+>
+{
 entry
 .
 value
 entry
 .
 length
-)
+}
 ;
             
 }
