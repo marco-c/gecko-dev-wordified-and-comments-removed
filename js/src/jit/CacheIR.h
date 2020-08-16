@@ -7795,13 +7795,6 @@ isPossiblyWrapped
 )
 ;
 AttachDecision
-tryAttachIsTypedArrayConstructor
-(
-HandleFunction
-callee
-)
-;
-AttachDecision
 tryAttachTypedArrayByteOffset
 (
 HandleFunction
@@ -7872,13 +7865,6 @@ callee
 ;
 AttachDecision
 tryAttachNewRegExpStringIterator
-(
-HandleFunction
-callee
-)
-;
-AttachDecision
-tryAttachArrayIteratorPrototypeOptimizable
 (
 HandleFunction
 callee
