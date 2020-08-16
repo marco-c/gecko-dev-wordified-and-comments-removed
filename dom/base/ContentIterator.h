@@ -317,7 +317,7 @@ nsCOMPtr
 <
 nsINode
 >
-mCommonParent
+mClosestCommonInclusiveAncestor
 ;
 bool
 mIsDone
@@ -405,7 +405,7 @@ ImplCycleCollectionTraverse
 aCallback
 aField
 .
-mCommonParent
+mClosestCommonInclusiveAncestor
 aName
 aFlags
 )
@@ -445,7 +445,7 @@ ImplCycleCollectionUnlink
 (
 aField
 .
-mCommonParent
+mClosestCommonInclusiveAncestor
 )
 ;
 }

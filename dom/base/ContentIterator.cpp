@@ -715,7 +715,7 @@ mLast
 aRoot
 ;
 }
-mCommonParent
+mClosestCommonInclusiveAncestor
 =
 aRoot
 ;
@@ -1138,7 +1138,7 @@ Run
 {
 mIterator
 .
-mCommonParent
+mClosestCommonInclusiveAncestor
 =
 nsContentUtils
 :
@@ -1164,7 +1164,7 @@ NS_WARN_IF
 !
 mIterator
 .
-mCommonParent
+mClosestCommonInclusiveAncestor
 )
 )
 {
@@ -2052,7 +2052,7 @@ mLast
 =
 nullptr
 ;
-mCommonParent
+mClosestCommonInclusiveAncestor
 =
 nullptr
 ;
@@ -3526,7 +3526,7 @@ IsPositioned
 )
 )
 ;
-mCommonParent
+mClosestCommonInclusiveAncestor
 =
 mRange
 -
@@ -3579,7 +3579,7 @@ EndOffset
 ;
 MOZ_ASSERT
 (
-mCommonParent
+mClosestCommonInclusiveAncestor
 &
 &
 startContainer
