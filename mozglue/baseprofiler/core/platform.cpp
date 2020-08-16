@@ -349,6 +349,9 @@ USE_FRAME_POINTER_STACK_WALK
 endif
 #
 if
+0
+#
+if
 defined
 (
 GP_PLAT_arm_linux
@@ -469,6 +472,8 @@ MOZ_PROFILING
 #
 define
 USE_FRAME_POINTER_STACK_WALK
+#
+endif
 #
 endif
 #
