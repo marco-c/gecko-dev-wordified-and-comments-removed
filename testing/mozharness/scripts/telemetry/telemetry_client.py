@@ -1311,6 +1311,17 @@ RUST_BACKTRACE
 1
 '
         
+env
+[
+'
+MOZ_IGNORE_NSS_SHUTDOWN_LEAKS
+'
+]
+=
+'
+1
+'
+        
 if
 self
 .
