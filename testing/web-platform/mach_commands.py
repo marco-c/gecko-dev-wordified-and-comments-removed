@@ -1083,6 +1083,24 @@ install_browser
 =
 False
         
+kwargs
+[
+"
+install_webdriver
+"
+]
+=
+None
+        
+kwargs
+[
+"
+affected
+"
+]
+=
+None
+        
 wptrunner_path
 =
 os
