@@ -1924,6 +1924,15 @@ TYPE_INTERNAL_CHROMEUTILS_COMPILED_SCRIPT
 =
 =
 52
+&
+&
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_FRAME_MESSAGEMANAGER_SCRIPT
+=
+=
+53
 "
 nsContentPolicyType
 values
