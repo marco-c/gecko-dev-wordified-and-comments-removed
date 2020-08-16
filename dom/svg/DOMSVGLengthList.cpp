@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -1283,7 +1276,7 @@ MaybeRemoveItemFromAnimValListAt
 index
 )
 ;
-nsCOMPtr
+RefPtr
 <
 DOMSVGLength
 >
