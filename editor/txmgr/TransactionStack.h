@@ -33,7 +33,7 @@ class
 TransactionStack
 :
 private
-nsRefPtrDeque
+nsDeque
 <
 TransactionItem
 >
@@ -100,7 +100,6 @@ TransactionItem
 Peek
 (
 )
-const
 ;
 already_AddRefed
 <
@@ -125,10 +124,7 @@ GetSize
 const
 {
 return
-nsRefPtrDeque
-<
-TransactionItem
->
+nsDeque
 :
 :
 GetSize

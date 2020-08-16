@@ -1726,7 +1726,7 @@ mCurrentStream
 =
 0
 ;
-nsRefPtrDeque
+nsDeque
 <
 DataChannel
 >
