@@ -1103,7 +1103,7 @@ uninit
 [
 inline
 (
-never
+always
 )
 ]
 pub
