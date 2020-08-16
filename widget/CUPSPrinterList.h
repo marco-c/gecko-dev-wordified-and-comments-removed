@@ -81,6 +81,12 @@ int
 i
 )
 ;
+cups_dest_t
+*
+GetDefaultPrinter
+(
+)
+;
 private
 :
 const

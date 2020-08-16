@@ -35,8 +35,16 @@ aShim
 cups_dest_t
 *
 aPrinter
+const
+nsAString
+&
+aDisplayName
 )
 :
+mDisplayName
+(
+aDisplayName
+)
 mShim
 (
 aShim
@@ -152,6 +160,10 @@ aShim
 cups_dest_t
 *
 aPrinter
+const
+nsAString
+&
+aDisplayName
 )
 {
 return
@@ -162,6 +174,7 @@ nsPrinterCUPS
 (
 aShim
 aPrinter
+aDisplayName
 )
 )
 ;
