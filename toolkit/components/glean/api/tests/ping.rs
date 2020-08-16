@@ -17,7 +17,7 @@ sync
 Lazy
 ;
 use
-glean
+fog
 :
 :
 private

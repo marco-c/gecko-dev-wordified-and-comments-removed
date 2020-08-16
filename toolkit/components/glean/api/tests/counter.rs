@@ -8,13 +8,13 @@ common
 *
 ;
 use
-glean
+fog
 :
 :
 ipc
 ;
 use
-glean
+fog
 :
 :
 private
