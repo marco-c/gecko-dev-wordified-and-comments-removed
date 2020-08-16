@@ -2699,7 +2699,7 @@ this
 .
 walker
 .
-_ref
+_getOrCreateNodeActor
 (
 item
 )

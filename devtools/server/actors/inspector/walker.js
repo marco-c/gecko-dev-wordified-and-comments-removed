@@ -885,7 +885,7 @@ document
 ;
 this
 .
-_refMap
+_nodeActorsMap
 =
 new
 Map
@@ -1568,7 +1568,7 @@ if
 (
 this
 .
-_refMap
+_nodeActorsMap
 .
 has
 (
@@ -1888,7 +1888,7 @@ null
 ;
 this
 .
-_refMap
+_nodeActorsMap
 =
 null
 ;
@@ -2165,7 +2165,7 @@ actor
 ;
 this
 .
-_refMap
+_nodeActorsMap
 .
 delete
 (
@@ -2200,7 +2200,7 @@ rawNode
 return
 this
 .
-_refMap
+_nodeActorsMap
 .
 has
 (
@@ -2218,7 +2218,7 @@ rawNode
 return
 this
 .
-_refMap
+_nodeActorsMap
 .
 get
 (
@@ -2226,7 +2226,7 @@ rawNode
 )
 ;
 }
-_ref
+_getOrCreateNodeActor
 :
 function
 (
@@ -2270,7 +2270,7 @@ actor
 ;
 this
 .
-_refMap
+_nodeActorsMap
 .
 set
 (
@@ -2428,7 +2428,7 @@ actor
 of
 this
 .
-_refMap
+_nodeActorsMap
 )
 {
 if
@@ -2806,7 +2806,7 @@ node
 =
 this
 .
-_ref
+_getOrCreateNodeActor
 (
 node
 )
@@ -2873,7 +2873,7 @@ rawNode
 return
 this
 .
-_ref
+_getOrCreateNodeActor
 (
 doc
 )
@@ -2912,7 +2912,7 @@ documentElement
 return
 this
 .
-_ref
+_getOrCreateNodeActor
 (
 elt
 )
@@ -2943,7 +2943,7 @@ parent
 return
 this
 .
-_ref
+_getOrCreateNodeActor
 (
 parent
 )
@@ -3189,7 +3189,7 @@ undefined
 return
 this
 .
-_ref
+_getOrCreateNodeActor
 (
 firstChild
 )
@@ -3443,7 +3443,7 @@ parentActor
 =
 this
 .
-_ref
+_getOrCreateNodeActor
 (
 parent
 )
@@ -3535,7 +3535,7 @@ n
 >
 this
 .
-_ref
+_getOrCreateNodeActor
 (
 n
 )
@@ -4485,7 +4485,7 @@ sibling
 ?
 this
 .
-_ref
+_getOrCreateNodeActor
 (
 sibling
 )
@@ -4545,7 +4545,7 @@ sibling
 ?
 this
 .
-_ref
+_getOrCreateNodeActor
 (
 sibling
 )
@@ -6120,7 +6120,7 @@ curNode
 =
 this
 .
-_ref
+_getOrCreateNodeActor
 (
 cur
 )
@@ -6418,7 +6418,7 @@ curNode
 =
 this
 .
-_ref
+_getOrCreateNodeActor
 (
 cur
 )
@@ -10970,7 +10970,7 @@ parentGridNode
 ?
 this
 .
-_ref
+_getOrCreateNodeActor
 (
 parentGridNode
 )
@@ -11019,7 +11019,7 @@ null
 return
 this
 .
-_ref
+_getOrCreateNodeActor
 (
 offsetParent
 )

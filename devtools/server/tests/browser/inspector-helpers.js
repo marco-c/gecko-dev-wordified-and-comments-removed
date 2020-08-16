@@ -152,9 +152,7 @@ actor
 =
 walker
 .
-_refMap
-.
-get
+getNode
 (
 node
 )
