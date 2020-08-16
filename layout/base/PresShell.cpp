@@ -52827,6 +52827,8 @@ GetManagerType
 )
 )
 {
+return
+;
 }
 if
 (
