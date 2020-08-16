@@ -4998,6 +4998,7 @@ TrialInliner
 canInline
 (
 targetFunction
+script_
 )
 )
 ;

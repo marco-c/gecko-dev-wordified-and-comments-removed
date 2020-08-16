@@ -271,6 +271,8 @@ canInline
 JSFunction
 *
 target
+HandleScript
+caller
 )
 ;
 private
