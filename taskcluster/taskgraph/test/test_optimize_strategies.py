@@ -23,7 +23,7 @@ taskgraph
 .
 optimize
 import
-seta
+registry
 from
 taskgraph
 .
@@ -44,6 +44,8 @@ import
 BugBugPushSchedules
     
 DisperseGroups
+    
+FALLBACK
     
 SkipUnlessDebug
 )
@@ -2058,6 +2060,18 @@ status
     
 )
     
+opt
+=
+BugBugPushSchedules
+(
+0
+.
+5
+fallback
+=
+FALLBACK
+)
+    
 monkeypatch
 .
 setattr
@@ -2072,19 +2086,19 @@ i
 None
 )
     
-monkeypatch
-.
-setattr
+def
+fake_should_remove_task
 (
-seta
-'
-is_low_value_task
-'
-lambda
-l
-p
+task
+params
+_
+)
 :
-l
+        
+return
+task
+.
+label
 =
 =
 default_tasks
@@ -2093,18 +2107,20 @@ default_tasks
 ]
 .
 label
-)
     
-opt
-=
-BugBugPushSchedules
-(
-0
+monkeypatch
 .
-5
-fallback
-=
-True
+setattr
+(
+registry
+[
+FALLBACK
+]
+"
+should_remove_task
+"
+                        
+fake_should_remove_task
 )
     
 assert
