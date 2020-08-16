@@ -43,12 +43,9 @@ ShouldUpgradeWebSocket
 nsIURI
 *
 aURI
-int32_t
-aInnerWindowId
-bool
-aFromPrivateWindow
-uint32_t
-aHttpsOnlyStatus
+nsILoadInfo
+*
+aLoadInfo
 )
 ;
 static
