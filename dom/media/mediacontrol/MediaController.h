@@ -443,12 +443,6 @@ aIsInFullScreen
 )
 override
 ;
-bool
-IsInPictureInPictureMode
-(
-)
-const
-;
 void
 Shutdown
 (
