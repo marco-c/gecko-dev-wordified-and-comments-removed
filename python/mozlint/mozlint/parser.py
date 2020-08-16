@@ -685,18 +685,21 @@ as
 fh
 :
             
-config
+configs
 =
+list
+(
 yaml
 .
-safe_load
+safe_load_all
 (
 fh
+)
 )
         
 if
 not
-config
+configs
 :
             
 raise
@@ -718,6 +721,12 @@ linters
 ]
         
 for
+config
+in
+configs
+:
+            
+for
 name
 linter
 in
@@ -727,7 +736,7 @@ items
 (
 )
 :
-            
+                
 linter
 [
 '
@@ -736,7 +745,7 @@ name
 ]
 =
 name
-            
+                
 linter
 [
 '
@@ -745,14 +754,14 @@ path
 ]
 =
 path
-            
+                
 self
 .
 _validate
 (
 linter
 )
-            
+                
 linter
 .
 setdefault
@@ -774,7 +783,7 @@ GLOBAL_SUPPORT_FILES
 path
 ]
 )
-            
+                
 linter
 .
 setdefault
@@ -788,7 +797,7 @@ include
 '
 ]
 )
-            
+                
 linters
 .
 append
