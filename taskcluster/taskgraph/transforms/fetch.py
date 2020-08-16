@@ -969,6 +969,14 @@ worker
 /
 artifacts
 '
+                    
+'
+expires
+-
+after
+'
+:
+expires
                 
 }
 ]
