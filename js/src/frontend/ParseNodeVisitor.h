@@ -38,6 +38,17 @@ ParseNode
 .
 h
 "
+#
+include
+"
+js
+/
+friend
+/
+StackLimits
+.
+h
+"
 namespace
 js
 {
