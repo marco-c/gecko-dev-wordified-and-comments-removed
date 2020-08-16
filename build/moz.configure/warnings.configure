@@ -845,6 +845,15 @@ js
 '
 )
 )
+check_and_add_gcc_warning
+(
+'
+-
+Wno
+-
+psabi
+'
+)
 add_old_configure_assignment
 (
 '
