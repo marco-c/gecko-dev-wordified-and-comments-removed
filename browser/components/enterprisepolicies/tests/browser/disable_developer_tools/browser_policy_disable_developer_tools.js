@@ -263,11 +263,10 @@ button
 "
 )
 ;
-ok
+is
 (
 hamburgerMenu
-.
-hidden
+null
 "
 The
 Web
@@ -277,8 +276,11 @@ of
 the
 hamburger
 menu
-is
-hidden
+should
+not
+be
+available
+.
 "
 )
 ;

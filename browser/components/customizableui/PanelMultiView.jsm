@@ -2359,12 +2359,13 @@ PanelView
 .
 forNode
 (
+PanelMultiView
+.
+getViewNode
+(
 this
 .
 document
-.
-getElementById
-(
 this
 .
 node
