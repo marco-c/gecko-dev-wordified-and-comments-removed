@@ -58,12 +58,12 @@ attribute
 AString
 systemDefaultPrinterName
 ;
+[
+implicit_jscontext
+]
 readonly
 attribute
-Array
-<
-nsIPrinter
->
+Promise
 printers
 ;
 }
