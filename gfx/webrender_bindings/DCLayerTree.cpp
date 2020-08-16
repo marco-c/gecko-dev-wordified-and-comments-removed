@@ -3250,12 +3250,6 @@ egl
 >
 fCreateImage
 (
-egl
--
->
-Display
-(
-)
 EGL_NO_CONTEXT
 LOCAL_EGL_D3D11_TEXTURE_ANGLE
 buffer
@@ -3459,12 +3453,6 @@ egl
 >
 fDestroyImage
 (
-egl
--
->
-Display
-(
-)
 mEGLImage
 )
 ;

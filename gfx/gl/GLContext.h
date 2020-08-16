@@ -829,15 +829,6 @@ const
 ;
 virtual
 bool
-IsAliveImpl
-(
-)
-const
-=
-0
-;
-virtual
-bool
 IsCurrentImpl
 (
 )

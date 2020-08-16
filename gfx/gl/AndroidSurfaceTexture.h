@@ -15,6 +15,13 @@ Matrix
 .
 h
 "
+typedef
+uint32_t
+AndroidSurfaceTextureHandle
+;
+#
+ifdef
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -22,10 +29,6 @@ SurfaceTexture
 .
 h
 "
-typedef
-uint32_t
-AndroidSurfaceTextureHandle
-;
 namespace
 mozilla
 {
@@ -73,5 +76,7 @@ outMatrix
 ;
 }
 }
+#
+endif
 #
 endif
