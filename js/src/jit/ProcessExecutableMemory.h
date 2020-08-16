@@ -202,6 +202,16 @@ LikelyAvailableExecutableMemory
 (
 )
 ;
+extern
+bool
+AddressIsInExecutableMemory
+(
+const
+void
+*
+p
+)
+;
 }
 }
 #
