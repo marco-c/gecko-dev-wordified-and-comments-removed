@@ -103,11 +103,6 @@ ActorClassWithSpec
 (
 cssPropertiesSpec
 {
-typeName
-:
-"
-cssProperties
-"
 initialize
 (
 conn

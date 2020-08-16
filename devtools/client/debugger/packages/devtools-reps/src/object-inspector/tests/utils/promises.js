@@ -67,7 +67,7 @@ conn2
 .
 child1
 /
-pausedobj36
+obj36
 "
 promiseState
 :
@@ -151,7 +151,7 @@ conn2
 .
 child1
 /
-pausedobj36
+obj36
 "
 promiseState
 :

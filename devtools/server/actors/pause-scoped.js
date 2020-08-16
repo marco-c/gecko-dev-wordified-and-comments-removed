@@ -92,11 +92,6 @@ assign
 (
 proto
 {
-typeName
-:
-"
-pausedobj
-"
 initialize
 :
 function

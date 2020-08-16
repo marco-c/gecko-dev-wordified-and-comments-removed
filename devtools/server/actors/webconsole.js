@@ -1273,11 +1273,6 @@ null
 _webConsoleCommandsCache
 :
 null
-typeName
-:
-"
-console
-"
 grip
 :
 function

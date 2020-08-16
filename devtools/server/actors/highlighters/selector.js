@@ -77,11 +77,6 @@ SelectorHighlighter
 prototype
 =
 {
-typeName
-:
-"
-SelectorHighlighter
-"
 show
 :
 async

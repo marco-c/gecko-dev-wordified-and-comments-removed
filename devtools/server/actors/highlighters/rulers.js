@@ -160,11 +160,6 @@ RulersHighlighter
 prototype
 =
 {
-typeName
-:
-"
-RulersHighlighter
-"
 ID_CLASS_PREFIX
 :
 "

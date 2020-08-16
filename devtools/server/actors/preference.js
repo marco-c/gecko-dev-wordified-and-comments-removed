@@ -112,11 +112,6 @@ ActorClassWithSpec
 (
 preferenceSpec
 {
-typeName
-:
-"
-preference
-"
 getBoolPref
 :
 function
