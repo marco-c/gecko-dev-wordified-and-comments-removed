@@ -6093,6 +6093,9 @@ nsIEditor
 :
 EStripWrappers
 aStripWrappers
+AutoRangeArray
+&
+aRangesToDelete
 )
 ;
 [
