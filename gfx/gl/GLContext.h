@@ -338,6 +338,7 @@ texture_float_linear
 texture_half_float
 texture_half_float_linear
 texture_non_power_of_two
+texture_norm16
 texture_rg
 texture_storage
 texture_swizzle
@@ -1043,6 +1044,7 @@ EXT_texture_compression_s3tc
 EXT_texture_compression_s3tc_srgb
 EXT_texture_filter_anisotropic
 EXT_texture_format_BGRA8888
+EXT_texture_norm16
 EXT_texture_sRGB
 EXT_texture_storage
 EXT_timer_query

@@ -604,6 +604,10 @@ WebGLExtensionTextureHalfFloatLinear
 )
 DECLARE_SIMPLE_WEBGL_EXTENSION
 (
+WebGLExtensionTextureNorm16
+)
+DECLARE_SIMPLE_WEBGL_EXTENSION
+(
 WebGLExtensionColorBufferFloat
 )
 DECLARE_SIMPLE_WEBGL_EXTENSION

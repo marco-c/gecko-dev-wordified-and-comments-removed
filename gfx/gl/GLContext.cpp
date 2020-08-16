@@ -752,6 +752,9 @@ GL_EXT_texture_filter_anisotropic
 GL_EXT_texture_format_BGRA8888
 "
 "
+GL_EXT_texture_norm16
+"
+"
 GL_EXT_texture_sRGB
 "
 "

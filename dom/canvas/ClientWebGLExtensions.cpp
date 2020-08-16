@@ -69,6 +69,11 @@ WebGLExtensionTextureFilterAnisotropic
 )
 DEFINE_WEBGL_EXTENSION_GOOP
 (
+EXT_texture_norm16
+WebGLExtensionTextureNorm16
+)
+DEFINE_WEBGL_EXTENSION_GOOP
+(
 MOZ_debug
 WebGLExtensionMOZDebug
 )
