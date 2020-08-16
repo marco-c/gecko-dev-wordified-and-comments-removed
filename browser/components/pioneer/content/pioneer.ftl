@@ -318,3 +318,11 @@ study
 =
 End
 Study
+pioneer
+-
+ended
+-
+study
+=
+Study
+Ended
