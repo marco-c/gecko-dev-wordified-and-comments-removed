@@ -226,6 +226,14 @@ JSScript
 calleeScript
 )
 ;
+void
+removeCallee
+(
+InlineScriptTree
+*
+callee
+)
+;
 InlineScriptTree
 *
 caller

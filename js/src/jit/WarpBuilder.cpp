@@ -18422,6 +18422,12 @@ CallInfo
 callInfo
 )
 {
+callInfo
+.
+markAsInlined
+(
+)
+;
 if
 (
 !

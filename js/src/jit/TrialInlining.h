@@ -86,6 +86,14 @@ ICScript
 icScript
 )
 ;
+void
+removeInlinedScript
+(
+ICScript
+*
+icScript
+)
+;
 uint32_t
 numInlinedScripts
 (

@@ -471,6 +471,13 @@ uint32_t
 pcOffset
 )
 ;
+void
+removeInlinedChild
+(
+uint32_t
+pcOffset
+)
+;
 FallbackICStubSpace
 *
 fallbackStubSpace
