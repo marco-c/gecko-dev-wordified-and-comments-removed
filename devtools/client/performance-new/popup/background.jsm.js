@@ -715,7 +715,7 @@ MediaDecoderStateMachine
 MediaPDecoder
 "
 "
-MediaPlayback
+MediaController
 "
 "
 MediaTimer
