@@ -1499,7 +1499,9 @@ mSelectionRoot
 aParentPO
 -
 >
-mHasSelection
+HasSelection
+(
+)
 )
 {
 aPrintData
@@ -1708,7 +1710,6 @@ InitAsNestedObject
 (
 docshell
 doc
-sourceDoc
 aParentPO
 .
 get
@@ -12204,7 +12205,9 @@ printData
 mSelectionRoot
 -
 >
-mHasSelection
+HasSelection
+(
+)
 )
 {
 printData
