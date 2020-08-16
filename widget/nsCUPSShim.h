@@ -122,6 +122,11 @@ cupsGetNamedDest
 \
 X
 (
+cupsGetOption
+)
+\
+X
+(
 cupsLocalizeDestMedia
 )
 \
