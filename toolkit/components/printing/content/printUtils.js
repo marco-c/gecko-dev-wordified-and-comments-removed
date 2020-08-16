@@ -332,6 +332,9 @@ dialogOptions
 consumeOutsideClicks
 :
 false
+reuseDialog
+:
+false
 }
 }
 )
@@ -484,11 +487,7 @@ aBrowsingContext
 .
 id
 }
-"
-resizable
-=
-no
-"
+null
 null
 (
 )
