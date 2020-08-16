@@ -140,6 +140,9 @@ nsStringFwd
 .
 h
 "
+struct
+JSContext
+;
 /
 *
 *
