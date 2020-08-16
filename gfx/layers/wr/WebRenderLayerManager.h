@@ -433,17 +433,7 @@ nsAString
 name
 )
 override
-{
-name
-.
-AssignLiteral
-(
-"
-WebRender
-"
-)
 ;
-}
 const
 char
 *
