@@ -181,7 +181,7 @@ macIface
 getParameterizedAttributeValue
 (
 "
-AXStringForTextMarkerRange_
+AXStringForTextMarkerRange
 "
 range
 "
@@ -372,7 +372,7 @@ macIface
 getParameterizedAttributeValue
 (
 "
-AXStringForTextMarkerRange_
+AXStringForTextMarkerRange
 "
 inputEvent
 .
