@@ -89,7 +89,7 @@ class
 EvalScope
 ;
 struct
-FieldInitializers
+MemberInitializers
 ;
 class
 GCMarker

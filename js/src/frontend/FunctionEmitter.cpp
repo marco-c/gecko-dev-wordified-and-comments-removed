@@ -1775,7 +1775,7 @@ if
 bce_
 -
 >
-emitInitializeInstanceFields
+emitInitializeInstanceMembers
 (
 )
 )

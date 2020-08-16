@@ -2977,6 +2977,12 @@ JSOp
 :
 InitHiddenElemSetter
 :
+case
+JSOp
+:
+:
+InitLockedElem
+:
 MOZ_ASSERT
 (
 nuses

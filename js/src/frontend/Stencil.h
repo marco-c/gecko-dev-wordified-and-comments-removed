@@ -1727,9 +1727,9 @@ mozilla
 :
 Maybe
 <
-FieldInitializers
+MemberInitializers
 >
-fieldInitializers
+memberInitializers
 ;
 ScriptThingsVector
 gcThings

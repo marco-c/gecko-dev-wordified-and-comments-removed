@@ -2650,6 +2650,15 @@ nonincrementalReason
 \
 MACRO
 (
+NoPrivateGetter
+NoPrivateGetter
+"
+NoPrivateGetter
+"
+)
+\
+MACRO
+(
 noStack
 noStack
 "

@@ -22914,6 +22914,10 @@ CASE
 (
 InitHiddenElem
 )
+CASE
+(
+InitLockedElem
+)
 {
 MOZ_ASSERT
 (
@@ -29355,6 +29359,12 @@ JSOp
 :
 :
 InitLockedProp
+:
+case
+JSOp
+:
+:
+InitLockedElem
 :
 return
 JSPROP_PERMANENT
