@@ -28585,7 +28585,7 @@ IsEmpty
 {
 nsCOMPtr
 <
-nsIDNSRecord
+nsIDNSAddrRecord
 >
 dnsRecord
 (

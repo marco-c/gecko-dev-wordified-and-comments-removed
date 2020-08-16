@@ -1001,6 +1001,15 @@ OK
 "
 )
 ;
+inRecord
+.
+QueryInterface
+(
+Ci
+.
+nsIDNSAddrRecord
+)
+;
 let
 answer
 =

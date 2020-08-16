@@ -250,6 +250,15 @@ inStatus
 )
 ;
 }
+inRecord
+.
+QueryInterface
+(
+Ci
+.
+nsIDNSAddrRecord
+)
+;
 if
 (
 dnsFlags

@@ -161,6 +161,15 @@ Cr
 NS_OK
 )
 ;
+inRecord
+.
+QueryInterface
+(
+Ci
+.
+nsIDNSAddrRecord
+)
+;
 var
 answer
 =
