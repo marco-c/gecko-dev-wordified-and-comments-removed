@@ -121,6 +121,12 @@ EventChainPreVisitor
 class
 ServoStyleRuleMap
 ;
+enum
+class
+StyleRuleChangeKind
+:
+uint32_t
+;
 namespace
 css
 {
@@ -329,6 +335,7 @@ css
 :
 Rule
 *
+StyleRuleChangeKind
 )
 ;
 void

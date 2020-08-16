@@ -362,6 +362,10 @@ sheet
 RuleChanged
 (
 rule
+StyleRuleChangeKind
+:
+:
+StyleRuleDeclarations
 )
 ;
 }
@@ -777,6 +781,10 @@ sheet
 RuleChanged
 (
 this
+StyleRuleChangeKind
+:
+:
+Generic
 )
 ;
 }

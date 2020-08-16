@@ -3907,6 +3907,10 @@ FinishParse
 RuleChanged
 (
 nullptr
+StyleRuleChangeKind
+:
+:
+Generic
 )
 ;
 }
@@ -4106,6 +4110,8 @@ css
 Rule
 *
 aRule
+StyleRuleChangeKind
+aKind
 )
 {
 SetModifiedRules
@@ -4119,6 +4125,7 @@ RuleChanged
 *
 this
 aRule
+aKind
 )
 )
 ;

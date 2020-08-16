@@ -5506,6 +5506,7 @@ css
 :
 Rule
 *
+StyleRuleChangeKind
 )
 ;
 void

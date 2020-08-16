@@ -35002,7 +35002,7 @@ css
 :
 Rule
 *
-aRule
+StyleRuleChangeKind
 )
 {
 if

@@ -629,6 +629,10 @@ sheet
 RuleChanged
 (
 this
+StyleRuleChangeKind
+:
+:
+Generic
 )
 ;
 }
