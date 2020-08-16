@@ -282,6 +282,14 @@ Join
 Study
 pioneer
 -
+leave
+-
+study
+=
+Leave
+Study
+pioneer
+-
 enrollment
 -
 button
