@@ -213,7 +213,7 @@ MOZILLA_DIR
 /
 config
 /
-version_win
+create_rc
 .
 py
 (
@@ -225,7 +225,7 @@ MOZILLA_DIR
 /
 config
 /
-version_win
+create_rc
 .
 py
 '
