@@ -6261,6 +6261,13 @@ nfixed
 )
 )
 ;
+if
+(
+startOfUndefined
+<
+nfixed
+)
+{
 offset
 =
 NativeObject
@@ -6283,6 +6290,7 @@ startOfUndefined
 nfixed
 )
 ;
+}
 }
 if
 (
