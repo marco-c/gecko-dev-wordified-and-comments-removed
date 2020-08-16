@@ -2689,6 +2689,12 @@ dispatchEvent
 cmdEvent
 )
 ;
+event
+.
+stopPropagation
+(
+)
+;
 closeMenus
 (
 event
