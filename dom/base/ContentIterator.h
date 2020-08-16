@@ -318,6 +318,7 @@ mCommonParent
 bool
 mIsDone
 ;
+const
 bool
 mPre
 ;
