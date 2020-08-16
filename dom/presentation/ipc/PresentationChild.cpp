@@ -42,17 +42,12 @@ nsThreadUtils
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 dom
-;
+{
 PresentationChild
 :
 :
@@ -779,4 +774,6 @@ IPC_OK
 (
 )
 ;
+}
+}
 }
