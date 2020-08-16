@@ -16165,7 +16165,7 @@ objId
 ;
 writer
 .
-callProxyHasPropResult
+proxyHasPropResult
 (
 objId
 keyId
