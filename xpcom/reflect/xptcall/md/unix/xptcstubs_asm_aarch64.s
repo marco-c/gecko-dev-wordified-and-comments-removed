@@ -301,3 +301,17 @@ SharedStub
 .
 -
 SharedStub
+.
+section
+.
+note
+.
+GNU
+-
+stack
+"
+"
+progbits
+;
+.
+previous
