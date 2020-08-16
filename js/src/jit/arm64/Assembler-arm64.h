@@ -1773,15 +1773,6 @@ RelocationKind
 kind
 )
 ;
-size_t
-addPatchableJump
-(
-BufferOffset
-src
-RelocationKind
-kind
-)
-;
 public
 :
 static

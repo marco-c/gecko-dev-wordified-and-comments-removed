@@ -1668,17 +1668,6 @@ RelocationKind
 reloc
 )
 ;
-protected
-:
-size_t
-addPatchableJump
-(
-JmpSrc
-src
-RelocationKind
-reloc
-)
-;
 public
 :
 using
