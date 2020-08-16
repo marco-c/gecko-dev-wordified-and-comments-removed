@@ -1,8 +1,11 @@
 #
+JavaScript
+Tests
+(
 testharness
 .
 js
-Tests
+)
 eval_rst
 .
 .
