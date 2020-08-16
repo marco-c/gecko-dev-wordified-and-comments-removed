@@ -59,6 +59,8 @@ sessionrestore
 support
 |
 welcomeback
+|
+pioneer
 )
 (
 ?
