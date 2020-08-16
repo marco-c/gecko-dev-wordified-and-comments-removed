@@ -77,7 +77,6 @@ filters
 blur
 (
 20
-20
 )
 items
 :
@@ -181,7 +180,6 @@ filters
 :
 blur
 (
-500
 500
 )
 items

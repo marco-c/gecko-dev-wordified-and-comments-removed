@@ -35,7 +35,6 @@ filters
 blur
 (
 100
-100
 )
 items
 :
@@ -77,7 +76,6 @@ filters
 :
 blur
 (
-50
 50
 )
 items

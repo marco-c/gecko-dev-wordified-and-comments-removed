@@ -27,10 +27,7 @@ primitives
 type
 :
 blur
-width
-:
-10
-height
+radius
 :
 10
 in
