@@ -1760,6 +1760,11 @@ _searchModeLabel
 ]
 )
 {
+if
+(
+expectedTextContent
+)
+{
 this
 .
 Assert
@@ -1776,6 +1781,7 @@ textContent
 "
 )
 ;
+}
 this
 .
 Assert
