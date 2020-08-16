@@ -49,7 +49,7 @@ cwd
 here
 )
 except
-ImportError
+Exception
 :
     
 build_obj
