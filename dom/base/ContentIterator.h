@@ -902,6 +902,13 @@ DetermineCandidateForFirstContent
 )
 const
 ;
+nsIContent
+*
+DetermineFirstContent
+(
+)
+const
+;
 nsresult
 InitWithRange
 (
@@ -915,6 +922,7 @@ nsINode
 *
 aNode
 )
+const
 ;
 RefPtr
 <
