@@ -725,9 +725,6 @@ mozilla
 pth
 :
 build
-objdir
-:
-build
 mozilla
 .
 pth
