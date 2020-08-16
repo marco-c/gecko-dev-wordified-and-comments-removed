@@ -143,7 +143,7 @@ aController
 )
 ;
 void
-NotifyControllerBeingUsedInPictureInPictureMode
+RequestUpdateMainController
 (
 MediaController
 *

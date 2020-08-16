@@ -929,7 +929,7 @@ void
 MediaControlService
 :
 :
-NotifyControllerBeingUsedInPictureInPictureMode
+RequestUpdateMainController
 (
 MediaController
 *
