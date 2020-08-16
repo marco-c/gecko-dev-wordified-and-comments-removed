@@ -69,6 +69,15 @@ inRecord
 inStatus
 )
 {
+inRecord
+.
+QueryInterface
+(
+Ci
+.
+nsIDNSAddrRecord
+)
+;
 var
 answer
 =

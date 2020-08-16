@@ -102,6 +102,15 @@ true
 {
 try
 {
+inRecord
+.
+QueryInterface
+(
+Ci
+.
+nsIDNSAddrRecord
+)
+;
 var
 answer
 =
