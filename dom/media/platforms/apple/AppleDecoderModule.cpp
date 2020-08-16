@@ -177,6 +177,9 @@ mImageContainer
 aParams
 .
 mOptions
+aParams
+.
+mKnowsCompositor
 )
 ;
 return

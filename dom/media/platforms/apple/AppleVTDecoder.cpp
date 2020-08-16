@@ -177,6 +177,12 @@ CreateDecoderParams
 :
 OptionSet
 aOptions
+layers
+:
+:
+KnowsCompositor
+*
+aKnowsCompositor
 )
 :
 mExtraData
@@ -284,6 +290,10 @@ mExtraData
 mImageContainer
 (
 aImageContainer
+)
+mKnowsCompositor
+(
+aKnowsCompositor
 )
 #
 ifdef
@@ -2297,6 +2307,7 @@ aFrameRef
 .
 decode_timestamp
 visible
+mKnowsCompositor
 )
 ;
 CVPixelBufferUnlockBaseAddress
