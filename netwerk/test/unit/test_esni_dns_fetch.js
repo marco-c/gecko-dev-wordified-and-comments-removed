@@ -798,7 +798,7 @@ request
 =
 dns
 .
-asyncResolve
+asyncResolveByType
 (
 "
 _esni
@@ -811,7 +811,6 @@ dns
 .
 RESOLVE_TYPE_TXT
 0
-null
 listenerEsni
 mainThread
 defaultOriginAttributes
@@ -953,11 +952,7 @@ example
 .
 com
 "
-dns
-.
-RESOLVE_TYPE_DEFAULT
 0
-null
 listenerAddr
 mainThread
 defaultOriginAttributes
@@ -999,15 +994,6 @@ NS_OK
 status
 OK
 "
-)
-;
-inRecord
-.
-QueryInterface
-(
-Ci
-.
-nsIDNSAddrRecord
 )
 ;
 let
@@ -1088,7 +1074,7 @@ request
 =
 dns
 .
-asyncResolve
+asyncResolveByType
 (
 "
 _esni_push
@@ -1101,7 +1087,6 @@ dns
 .
 RESOLVE_TYPE_TXT
 0
-null
 listenerEsni
 mainThread
 defaultOriginAttributes
@@ -1230,7 +1215,7 @@ request
 =
 dns
 .
-asyncResolve
+asyncResolveByType
 (
 "
 httpssvc_esni
@@ -1243,7 +1228,6 @@ dns
 .
 RESOLVE_TYPE_HTTPSSVC
 0
-null
 listenerEsni
 mainThread
 defaultOriginAttributes

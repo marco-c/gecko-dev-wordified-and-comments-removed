@@ -80,13 +80,6 @@ h
 #
 include
 "
-nsIDNSRecord
-.
-h
-"
-#
-include
-"
 nsIClassInfo
 .
 h
@@ -1113,7 +1106,7 @@ mDNSRequest
 ;
 nsCOMPtr
 <
-nsIDNSAddrRecord
+nsIDNSRecord
 >
 mDNSRecord
 ;

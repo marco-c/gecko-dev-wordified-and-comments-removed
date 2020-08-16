@@ -7201,13 +7201,7 @@ gDNSService
 asyncResolve
 (
 hostName
-Ci
-.
-nsIDNSService
-.
-RESOLVE_TYPE_DEFAULT
 0
-null
 onLookupCompleteListener
 Services
 .

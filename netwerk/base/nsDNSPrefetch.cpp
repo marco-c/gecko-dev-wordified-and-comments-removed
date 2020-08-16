@@ -414,17 +414,12 @@ sDNSService
 AsyncResolveNative
 (
 mHostname
-nsIDNSService
-:
-:
-RESOLVE_TYPE_DEFAULT
 flags
 |
 nsIDNSService
 :
 :
 RESOLVE_SPECULATE
-nullptr
 this
 target
 mOriginAttributes
@@ -477,7 +472,7 @@ mHostname
 sDNSService
 -
 >
-AsyncResolveNative
+AsyncResolveByTypeNative
 (
 esniHost
 nsIDNSService
@@ -490,7 +485,6 @@ nsIDNSService
 :
 :
 RESOLVE_SPECULATE
-nullptr
 this
 target
 mOriginAttributes
