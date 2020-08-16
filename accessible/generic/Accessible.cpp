@@ -2607,13 +2607,8 @@ AsElement
 )
 -
 >
-State
+IsDisabled
 (
-)
-.
-HasState
-(
-NS_EVENT_STATE_DISABLED
 )
 ;
 return
