@@ -67,7 +67,7 @@ expression
 ;
 Resources
 .
-watchTargetResources
+watchResources
 (
 targetActor
 [

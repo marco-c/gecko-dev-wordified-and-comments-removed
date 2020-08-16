@@ -768,7 +768,7 @@ resourceTypes
 return
 Resources
 .
-watchTargetResources
+watchResources
 (
 this
 resourceTypes
@@ -783,7 +783,7 @@ resourceTypes
 return
 Resources
 .
-unwatchTargetResources
+unwatchResources
 (
 this
 resourceTypes
