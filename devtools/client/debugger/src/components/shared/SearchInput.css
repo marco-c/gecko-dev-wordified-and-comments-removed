@@ -492,10 +492,16 @@ var
 -
 theme
 -
-toolbar
+text
 -
 color
+-
+alt
 )
+;
+opacity
+:
+1
 ;
 }
 .
