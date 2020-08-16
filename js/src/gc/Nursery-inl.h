@@ -521,7 +521,7 @@ Value
 )
 )
 ;
-T
+auto
 *
 buffer
 =
@@ -627,7 +627,7 @@ Value
 )
 )
 ;
-T
+auto
 *
 buffer
 =
@@ -723,7 +723,7 @@ newCount
 )
 ;
 }
-T
+auto
 *
 buffer
 =

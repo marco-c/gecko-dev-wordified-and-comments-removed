@@ -1261,6 +1261,7 @@ allocNurseryStrings
 )
 {
 auto
+*
 str
 =
 static_cast
@@ -1729,6 +1730,7 @@ allocNurseryBigInts
 )
 {
 auto
+*
 bi
 =
 static_cast
@@ -2139,7 +2141,7 @@ size_t
 thingSize
 )
 {
-T
+auto
 *
 t
 =
@@ -4586,7 +4588,7 @@ GCRuntime
 gc
 )
 {
-Chunk
+auto
 *
 chunk
 =

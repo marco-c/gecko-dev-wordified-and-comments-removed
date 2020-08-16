@@ -9761,7 +9761,7 @@ thingKind
 )
 )
 {
-JSObject
+auto
 *
 srcObj
 =
@@ -9781,7 +9781,7 @@ src
 )
 )
 ;
-JSObject
+auto
 *
 dstObj
 =

@@ -1755,10 +1755,7 @@ TraceKind
 Script
 :
 {
-js
-:
-:
-BaseScript
+auto
 *
 script
 =
@@ -1987,10 +1984,7 @@ TraceKind
 Symbol
 :
 {
-JS
-:
-:
-Symbol
+auto
 *
 sym
 =
@@ -2068,10 +2062,7 @@ TraceKind
 Scope
 :
 {
-js
-:
-:
-Scope
+auto
 *
 scope
 =

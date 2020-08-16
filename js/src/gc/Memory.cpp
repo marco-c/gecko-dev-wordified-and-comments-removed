@@ -2952,7 +2952,7 @@ break
 }
 else
 {
-void
+auto
 *
 lowerStart
 =
@@ -2970,7 +2970,7 @@ regionStart
 offsetLower
 )
 ;
-void
+auto
 *
 lowerEnd
 =

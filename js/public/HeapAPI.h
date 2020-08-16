@@ -1780,13 +1780,7 @@ TraceKind
 traceKind
 )
 {
-js
-:
-:
-gc
-:
-:
-Cell
+auto
 *
 cell
 =

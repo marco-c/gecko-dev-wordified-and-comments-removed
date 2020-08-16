@@ -3724,6 +3724,7 @@ end
 )
 {
 auto
+*
 cell
 =
 reinterpret_cast
