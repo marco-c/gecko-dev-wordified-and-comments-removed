@@ -119,6 +119,9 @@ debug
 '
 fission
 '
+'
+socketprocess_networking
+'
 ]
 default
 :
