@@ -175,6 +175,13 @@ h
 #
 include
 "
+nsPrinterListCUPS
+.
+h
+"
+#
+include
+"
 nsPrintSettingsServiceX
 .
 h
@@ -303,7 +310,7 @@ nsDeviceContextSpecX
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsPrinterListX
+nsPrinterListCUPS
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
@@ -705,7 +712,7 @@ nsDeviceContextSpecXConstructor
 kNS_PRINTER_LIST_CID
 false
 NULL
-nsPrinterListXConstructor
+nsPrinterListCUPSConstructor
 }
 {
 &

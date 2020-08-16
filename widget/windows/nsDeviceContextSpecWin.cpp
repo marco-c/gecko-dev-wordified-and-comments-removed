@@ -2636,11 +2636,6 @@ FreeGlobalPrinters
 )
 ;
 }
-NS_IMPL_ISUPPORTS
-(
-nsPrinterListWin
-nsIPrinterList
-)
 NS_IMETHODIMP
 nsPrinterListWin
 :
