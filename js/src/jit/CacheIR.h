@@ -7999,6 +7999,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachAtomicsSub
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
