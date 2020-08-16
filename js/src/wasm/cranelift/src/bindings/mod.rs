@@ -2054,7 +2054,7 @@ cranelift_codegen
 binemit
 :
 :
-Stackmap
+StackMap
 )
 {
 unsafe
