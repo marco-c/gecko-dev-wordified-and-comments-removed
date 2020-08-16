@@ -1751,15 +1751,6 @@ return
 false
 ;
 }
-void
-addJumpRelocation
-(
-BufferOffset
-src
-RelocationKind
-reloc
-)
-;
 protected
 :
 void

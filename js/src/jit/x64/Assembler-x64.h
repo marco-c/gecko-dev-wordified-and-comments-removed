@@ -1649,15 +1649,6 @@ jump
 private
 :
 void
-writeRelocation
-(
-JmpSrc
-src
-RelocationKind
-reloc
-)
-;
-void
 addPendingJump
 (
 JmpSrc
