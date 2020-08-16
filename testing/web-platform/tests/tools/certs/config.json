@@ -15,9 +15,6 @@ https
 "
 :
 [
-"
-auto
-"
 ]
 "
 ws
@@ -58,7 +55,7 @@ openssl
 duration
 "
 :
-3650
+800
 "
 force_regenerate
 "
