@@ -300,6 +300,14 @@ defined
 (
 MOZ_TSAN
 )
+&
+&
+\
+!
+defined
+(
+LIBFUZZER
+)
 extern
 "
 C
