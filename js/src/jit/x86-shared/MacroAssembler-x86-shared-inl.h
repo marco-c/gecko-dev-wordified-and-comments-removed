@@ -9674,6 +9674,10 @@ FloatRegister
 rhs
 FloatRegister
 lhsDest
+FloatRegister
+temp1
+FloatRegister
+temp2
 )
 {
 MacroAssemblerX86Shared
@@ -9686,6 +9690,8 @@ Operand
 (
 rhs
 )
+temp1
+temp2
 lhsDest
 )
 ;
@@ -9700,6 +9706,10 @@ FloatRegister
 rhs
 FloatRegister
 lhsDest
+FloatRegister
+temp1
+FloatRegister
+temp2
 )
 {
 MacroAssemblerX86Shared
@@ -9712,6 +9722,8 @@ Operand
 (
 rhs
 )
+temp1
+temp2
 lhsDest
 )
 ;
@@ -9727,7 +9739,9 @@ rhs
 FloatRegister
 lhsDest
 FloatRegister
-temp
+temp1
+FloatRegister
+temp2
 )
 {
 MacroAssemblerX86Shared
@@ -9740,7 +9754,8 @@ Operand
 (
 rhs
 )
-temp
+temp1
+temp2
 lhsDest
 )
 ;
@@ -9756,7 +9771,9 @@ rhs
 FloatRegister
 lhsDest
 FloatRegister
-temp
+temp1
+FloatRegister
+temp2
 )
 {
 MacroAssemblerX86Shared
@@ -9769,7 +9786,8 @@ Operand
 (
 rhs
 )
-temp
+temp1
+temp2
 lhsDest
 )
 ;

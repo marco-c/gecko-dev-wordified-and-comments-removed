@@ -15728,6 +15728,8 @@ minFloat32x4
 (
 rhs
 lhsDest
+temp1
+temp2
 )
 ;
 break
@@ -15748,6 +15750,7 @@ maxFloat32x4
 rhs
 lhsDest
 temp1
+temp2
 )
 ;
 break
@@ -15843,6 +15846,8 @@ minFloat64x2
 (
 rhs
 lhsDest
+temp1
+temp2
 )
 ;
 break
@@ -15863,6 +15868,7 @@ maxFloat64x2
 rhs
 lhsDest
 temp1
+temp2
 )
 ;
 break
