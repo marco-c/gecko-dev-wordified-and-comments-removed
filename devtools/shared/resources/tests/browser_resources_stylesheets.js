@@ -725,6 +725,14 @@ update
 false
 )
 ;
+const
+expectedResource
+=
+findMatchingExpectedResource
+(
+firstResource
+)
+;
 await
 assertResource
 (
@@ -736,10 +744,7 @@ Object
 .
 assign
 (
-EXISTING_RESOURCES
-[
-0
-]
+expectedResource
 {
 styleText
 :
