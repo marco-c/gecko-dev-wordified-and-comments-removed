@@ -112,9 +112,6 @@ self
 rhs
 .
 1
-&
-&
-true
 }
 }
 impl
@@ -372,7 +369,7 @@ assert_eq
 (
 map
 .
-remove
+swap_remove
 (
 "
 b

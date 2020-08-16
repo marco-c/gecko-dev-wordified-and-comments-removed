@@ -5,7 +5,7 @@ std
 hash
 :
 :
-Hash
+BuildHasher
 ;
 use
 std
@@ -14,15 +14,15 @@ std
 hash
 :
 :
-BuildHasher
+Hash
 ;
 use
 super
 :
 :
 {
-IndexMap
 Equivalent
+IndexMap
 }
 ;
 pub
