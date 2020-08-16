@@ -643,9 +643,6 @@ MKSHLIB
 MKCSHLIB
 )
 endif
-EMBED_MANIFEST_AT
-=
-2
 endif
 #
 MKSHLIB
@@ -4389,8 +4386,6 @@ OS_ARCH
 )
 ifdef
 MSMANIFEST_TOOL
-ifdef
-EMBED_MANIFEST_AT
 if
 test
 -
@@ -4468,15 +4463,10 @@ OUTPUTRESOURCE
 :
 \
 ;
-(
-EMBED_MANIFEST_AT
-)
+2
 ;
 \
 fi
-endif
-#
-EMBED_MANIFEST_AT
 endif
 #
 MSVC
