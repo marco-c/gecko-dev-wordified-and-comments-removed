@@ -67,11 +67,6 @@ ProfileChunkedBuffer
 aBuffer
 )
 ;
-~
-ProfileBuffer
-(
-)
-;
 bool
 IsThreadSafe
 (
