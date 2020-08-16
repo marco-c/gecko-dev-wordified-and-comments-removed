@@ -11,11 +11,6 @@ namespace
 dom
 {
 void
-MaybeStopGamepadMonitoring
-(
-)
-;
-void
 StartGamepadMonitoring
 (
 )
