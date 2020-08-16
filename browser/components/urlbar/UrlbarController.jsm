@@ -1589,8 +1589,7 @@ input
 .
 setSearchMode
 (
-{
-}
+null
 )
 ;
 if
