@@ -696,6 +696,12 @@ BigIntCreationData
 >
 bigIntData
 ;
+Vector
+<
+ObjLiteralCreationData
+>
+objLiteralData
+;
 JS
 :
 :
@@ -916,6 +922,10 @@ regExpData
 cx
 )
 bigIntData
+(
+cx
+)
+objLiteralData
 (
 cx
 )
