@@ -44,7 +44,7 @@ macDoc
 getParameterizedAttributeValue
 (
 "
-AXStringForTextMarkerRange
+AXStringForTextMarkerRange_
 "
 range
 )
