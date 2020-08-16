@@ -2003,6 +2003,7 @@ aList
 )
 )
 ;
+}
 if
 (
 charmap
@@ -2023,7 +2024,6 @@ mCh
 {
 return
 ;
-}
 }
 uint32_t
 numFaces
@@ -2657,6 +2657,19 @@ FontList
 aList
 )
 {
+if
+(
+!
+mCharacterMap
+.
+IsNull
+(
+)
+)
+{
+return
+;
+}
 if
 (
 !
