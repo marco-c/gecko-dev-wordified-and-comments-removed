@@ -1969,7 +1969,6 @@ running
 code
 :
 :
-eval
 sudo
 port
 selfupdate
@@ -2047,7 +2046,6 @@ Firefox
 code
 :
 :
-eval
 sudo
 port
 install
@@ -2673,7 +2671,6 @@ internet
 code
 :
 :
-syntaxbox
 hg
 clone
 https
@@ -2830,7 +2827,6 @@ contents
 code
 :
 :
-eval
 #
 Define
 where
@@ -2979,7 +2975,6 @@ mozconfig
 code
 :
 :
-eval
 CC
 =
 clang
@@ -3021,7 +3016,6 @@ mozconfig
 code
 :
 :
-eval
 mk_add_options
 AUTOCONF
 =

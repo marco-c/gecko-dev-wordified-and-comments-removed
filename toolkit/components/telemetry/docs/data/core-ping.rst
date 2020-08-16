@@ -164,7 +164,7 @@ code
 block
 :
 :
-js
+javascript
 {
 "
 v

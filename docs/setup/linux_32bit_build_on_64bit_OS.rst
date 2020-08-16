@@ -104,8 +104,6 @@ installed
 code
 :
 :
-brush
-:
 sudo
 yum
 install
@@ -354,8 +352,6 @@ example
 .
 code
 :
-:
-brush
 :
 #
 Flags
@@ -622,7 +618,6 @@ is
 code
 :
 :
-syntaxbox
 sudo
 apt
 install
@@ -718,7 +713,6 @@ following
 code
 :
 :
-syntaxbox
 ac_add_options
 -
 -

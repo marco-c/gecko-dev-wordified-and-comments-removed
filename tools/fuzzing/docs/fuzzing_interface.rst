@@ -1350,8 +1350,9 @@ us
 <
 Fuzzing
 #
-Contact
-Us
+contact
+-
+us
 >
 .
 Develop
@@ -2707,8 +2708,11 @@ Build
 instructions
 above
 <
-Build
-Requirements
+Local
+build
+requirements
+and
+flags
 >
 for
 instructions

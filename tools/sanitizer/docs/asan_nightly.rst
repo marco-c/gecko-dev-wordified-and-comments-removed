@@ -272,8 +272,6 @@ the
 :
 ref
 :
-Firefox
-and
 Address
 Sanitizer
 doc

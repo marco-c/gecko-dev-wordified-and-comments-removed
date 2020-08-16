@@ -388,7 +388,6 @@ this
 code
 :
 :
-eval
 #
 Build
 only
@@ -451,7 +450,6 @@ variable
 code
 :
 :
-eval
 export
 MOZCONFIG
 =
@@ -503,7 +501,6 @@ build
 code
 :
 :
-eval
 cd
 <
 path
@@ -738,7 +735,6 @@ tests
 code
 :
 :
-eval
 .
 /
 mach
@@ -799,7 +795,6 @@ this
 code
 :
 :
-eval
 #
 Build
 only
@@ -1065,7 +1060,6 @@ example
 code
 :
 :
-eval
 rustup
 target
 add
@@ -1102,7 +1096,6 @@ appropriately
 code
 :
 :
-eval
 cd
 js
 /
@@ -1460,7 +1453,6 @@ example
 code
 :
 :
-eval
 #
 !
 /
@@ -1581,7 +1573,6 @@ tests
 code
 :
 :
-eval
 jit
 -
 test
