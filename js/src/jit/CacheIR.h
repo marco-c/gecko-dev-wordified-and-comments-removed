@@ -7795,6 +7795,13 @@ isPossiblyWrapped
 )
 ;
 AttachDecision
+tryAttachIsTypedArrayConstructor
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachTypedArrayByteOffset
 (
 HandleFunction
