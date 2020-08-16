@@ -1081,7 +1081,7 @@ ResizeReflowOptions
 public
 :
 void
-UpdateViewportOverridden
+MaybeRecreateMobileViewportManager
 (
 bool
 aAfterInitialization

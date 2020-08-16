@@ -5264,7 +5264,7 @@ this
 mDocument
 )
 ;
-UpdateViewportOverridden
+MaybeRecreateMobileViewportManager
 (
 false
 )
@@ -52770,7 +52770,7 @@ void
 PresShell
 :
 :
-UpdateViewportOverridden
+MaybeRecreateMobileViewportManager
 (
 bool
 aAfterInitialization
