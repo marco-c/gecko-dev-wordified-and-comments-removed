@@ -2486,13 +2486,6 @@ assertSearchMode
 (
 window
 {
-source
-:
-UrlbarUtils
-.
-RESULT_SOURCE
-.
-SEARCH
 engineName
 :
 oneOffs
@@ -2753,13 +2746,6 @@ assertSearchMode
 (
 window
 {
-source
-:
-UrlbarUtils
-.
-RESULT_SOURCE
-.
-SEARCH
 engineName
 :
 oneOffs
