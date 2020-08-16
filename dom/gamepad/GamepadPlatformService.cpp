@@ -931,6 +931,10 @@ FlushPendingEvents
 (
 )
 ;
+StartGamepadMonitoring
+(
+)
+;
 }
 void
 GamepadPlatformService
@@ -1059,6 +1063,7 @@ aParent
 )
 )
 ;
+{
 MutexAutoLock
 autoLock
 (
@@ -1070,6 +1075,11 @@ mChannelParents
 RemoveElement
 (
 aParent
+)
+;
+}
+MaybeStopGamepadMonitoring
+(
 )
 ;
 }

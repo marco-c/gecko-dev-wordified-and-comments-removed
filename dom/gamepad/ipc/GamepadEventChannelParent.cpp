@@ -177,10 +177,6 @@ AddChannelParent
 this
 )
 ;
-StartGamepadMonitoring
-(
-)
-;
 return
 true
 ;
@@ -223,10 +219,6 @@ service
 RemoveChannelParent
 (
 this
-)
-;
-MaybeStopGamepadMonitoring
-(
 )
 ;
 }
