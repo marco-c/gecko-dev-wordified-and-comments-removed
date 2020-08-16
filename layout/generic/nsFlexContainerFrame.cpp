@@ -1009,7 +1009,9 @@ const
 {
 return
 !
-mIsRowOriented
+IsRowOriented
+(
+)
 ;
 }
 nscoord
@@ -1217,7 +1219,9 @@ aCrossCoord
 aCrossCoord
 ;
 return
-mIsRowOriented
+IsRowOriented
+(
+)
 ?
 LogicalPoint
 (
@@ -1245,7 +1249,9 @@ aCrossSize
 const
 {
 return
-mIsRowOriented
+IsRowOriented
+(
+)
 ?
 LogicalSize
 (
@@ -1269,7 +1275,9 @@ IsMainAxisHorizontal
 const
 {
 return
-mIsRowOriented
+IsRowOriented
+(
+)
 !
 =
 mWM
