@@ -347,6 +347,17 @@ js
 /
 experimental
 /
+CodeCoverage
+.
+h
+"
+#
+include
+"
+js
+/
+experimental
+/
 TypedData
 .
 h
