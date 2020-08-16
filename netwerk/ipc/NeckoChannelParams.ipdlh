@@ -147,7 +147,7 @@ mozilla
 dom
 :
 :
-SessionHistoryInfo
+LoadingSessionHistoryInfo
 from
 "
 mozilla
@@ -1086,9 +1086,9 @@ srcdocData
 nsIURI
 baseUri
 ;
-SessionHistoryInfo
+LoadingSessionHistoryInfo
 ?
-sessionHistoryInfo
+loadingSessionHistoryInfo
 ;
 uint64_t
 loadIdentifier
