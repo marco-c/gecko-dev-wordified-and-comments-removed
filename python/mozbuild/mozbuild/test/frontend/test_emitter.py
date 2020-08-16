@@ -1193,16 +1193,6 @@ rc
 '
             
 '
-RESFILE
-'
-:
-'
-bar
-.
-res
-'
-            
-'
 RCINCLUDE
 '
 :
