@@ -5353,8 +5353,10 @@ Destroy
 }
 )
 ;
+RefPtr
+<
 nsPIDOMWindowOuter
-*
+>
 parentWindow
 =
 parent
