@@ -1424,13 +1424,13 @@ NULL
 JOF_CLASS_CTOR
 )
 (
-FunctionProto
-function_proto
+BuiltinObject
+builtin_object
 NULL
-1
+2
 0
 1
-JOF_BYTE
+JOF_UINT8
 )
 (
 Call

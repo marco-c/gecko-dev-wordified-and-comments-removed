@@ -1404,7 +1404,10 @@ fun_flags
 FunctionFlags
 lazy_function_enclosing_scope_index
 :
+Option
+<
 ScopeIndex
+>
 )
 -
 >
@@ -1478,11 +1481,6 @@ fun_nargs
 0
 fun_flags
 lazy_function_enclosing_scope_index
-:
-Some
-(
-lazy_function_enclosing_scope_index
-)
 is_standalone_function
 :
 false
