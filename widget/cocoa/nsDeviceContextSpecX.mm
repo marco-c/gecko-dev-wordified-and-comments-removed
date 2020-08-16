@@ -103,13 +103,6 @@ h
 #
 include
 "
-CUPSPrinterList
-.
-h
-"
-#
-include
-"
 nsCocoaUtils
 .
 h
