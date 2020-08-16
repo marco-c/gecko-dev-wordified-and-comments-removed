@@ -231,6 +231,11 @@ RECEIVED_RESET
 ;
 }
 void
+StopSending
+(
+)
+;
+void
 SetResponseHeaders
 (
 nsTArray
