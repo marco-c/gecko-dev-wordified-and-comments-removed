@@ -168,16 +168,6 @@ Init
 (
 )
 ;
-bool
-IsInitialized
-(
-)
-const
-{
-return
-mInited
-;
-}
 mozilla
 :
 :
