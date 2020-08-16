@@ -270,6 +270,11 @@ SVGFilterElement
 h
 '
 '
+SVGFilters
+.
+h
+'
+'
 SVGForeignObjectElement
 .
 h

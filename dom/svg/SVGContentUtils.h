@@ -190,15 +190,6 @@ SVGElement
 aSVGElement
 )
 ;
-static
-void
-ActivateByHyperlink
-(
-nsIContent
-*
-aContent
-)
-;
 struct
 AutoStrokeOptions
 :

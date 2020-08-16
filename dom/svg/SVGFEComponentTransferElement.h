@@ -7,6 +7,10 @@ DOM_SVG_SVGFECOMPONENTTRANSFERELEMENT_H_
 #
 include
 "
+mozilla
+/
+dom
+/
 SVGFilters
 .
 h

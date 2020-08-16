@@ -7,6 +7,10 @@ DOM_SVG_SVGFEDIFFUSELIGHTINGELEMENT_H_
 #
 include
 "
+mozilla
+/
+dom
+/
 SVGFilters
 .
 h
