@@ -12,15 +12,6 @@ nsNativeAppSupportWin
 .
 h
 "
-1
-24
-"
-firefox
-.
-exe
-.
-manifest
-"
 IDI_APPICON
 ICON
 FIREFOX_ICO
