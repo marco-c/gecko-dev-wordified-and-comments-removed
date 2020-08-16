@@ -3666,14 +3666,6 @@ if
 StaticPrefs
 :
 :
-dom_security_featurePolicy_enabled
-(
-)
-&
-&
-StaticPrefs
-:
-:
 permissions_delegation_enabled
 (
 )

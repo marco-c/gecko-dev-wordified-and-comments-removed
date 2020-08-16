@@ -322,7 +322,7 @@ mSandbox
 ;
 }
 bool
-AllowFullscreenForBindings
+AllowFullscreen
 (
 )
 const
@@ -338,7 +338,7 @@ allowfullscreen
 ;
 }
 void
-SetAllowFullscreenForBindings
+SetAllowFullscreen
 (
 bool
 aAllow
@@ -358,18 +358,6 @@ aError
 )
 ;
 }
-bool
-AllowFullscreen
-(
-)
-const
-;
-bool
-HasAllowFullscreenAttribute
-(
-)
-const
-;
 bool
 AllowPaymentRequest
 (
