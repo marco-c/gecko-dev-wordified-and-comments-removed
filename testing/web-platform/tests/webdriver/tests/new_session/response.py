@@ -5,7 +5,7 @@ pytest
 from
 six
 import
-text_type
+string_types
 from
 tests
 .
@@ -62,7 +62,7 @@ value
 sessionId
 "
 ]
-text_type
+string_types
 )
     
 uuid
@@ -94,21 +94,21 @@ type
 "
 browserName
 "
-text_type
+string_types
 )
     
 (
 "
 browserVersion
 "
-text_type
+string_types
 )
     
 (
 "
 platformName
 "
-text_type
+string_types
 )
     
 (
@@ -122,7 +122,7 @@ bool
 "
 pageLoadStrategy
 "
-text_type
+string_types
 )
     
 (
@@ -157,7 +157,7 @@ bool
 "
 unhandledPromptBehavior
 "
-text_type
+string_types
 )
 ]
 )
