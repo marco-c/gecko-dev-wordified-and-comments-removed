@@ -1130,6 +1130,9 @@ experimental
 "
 dev
 "
+"
+nightly
+"
 )
 :
         
@@ -2881,17 +2884,6 @@ is
 not
 None
         
-if
-args
-.
-channel
-!
-=
-"
-nightly
-"
-:
-            
 install_chrome
 (
 args

@@ -565,7 +565,6 @@ edge_proc_name
 )
             
 if
-b
 '
 MicrosoftWebDriver
 .
@@ -580,10 +579,6 @@ break
             
 elif
 edge_proc_name
-.
-encode
-(
-)
 in
 procs
 :
@@ -604,10 +599,6 @@ break
         
 if
 edge_proc_name
-.
-encode
-(
-)
 in
 procs
 :

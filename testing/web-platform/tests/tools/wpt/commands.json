@@ -49,6 +49,9 @@ install
 :
 [
 "
+requests
+"
+"
 zstandard
 "
 ]
@@ -157,6 +160,15 @@ virtualenv
 "
 :
 true
+"
+install
+"
+:
+[
+"
+requests
+"
+]
 "
 requirements
 "
@@ -311,11 +323,6 @@ Install
 browser
 components
 "
-"
-virtualenv
-"
-:
-true
 "
 install
 "

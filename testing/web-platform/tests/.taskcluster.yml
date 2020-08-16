@@ -98,15 +98,6 @@ heads
 /
 triggers
 /
-chrome_nightly
-"
-"
-refs
-/
-heads
-/
-triggers
-/
 firefox_stable
 "
 "

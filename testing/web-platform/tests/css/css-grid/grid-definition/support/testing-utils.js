@@ -94,7 +94,6 @@ columnsStyle
 rowsStyle
 columnsComputedValue
 rowsComputedValue
-label
 )
 {
 test
@@ -142,18 +141,6 @@ rowsComputedValue
 )
 ;
 }
-(
-label
-?
-label
-+
-"
-"
-:
-"
-"
-)
-+
 "
 '
 "
