@@ -368,10 +368,7 @@ tasksStarted
 size_t
 workerCount
 =
-gc
--
->
-parallelWorkerCount
+ParallelWorkerCount
 (
 )
 ;
