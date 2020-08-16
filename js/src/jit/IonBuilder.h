@@ -3668,6 +3668,14 @@ AbortReasonOr
 <
 Ok
 >
+jsop_checkprivatefield
+(
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_instanceof
 (
 )
