@@ -368,6 +368,10 @@ MathSpace
 :
 :
 Unknown
+int32_t
+recursionDepth
+=
+0
 )
 ;
 MOZ_MUST_USE
