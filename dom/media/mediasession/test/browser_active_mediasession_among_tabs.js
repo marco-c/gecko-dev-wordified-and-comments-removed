@@ -131,7 +131,7 @@ ACTION
 key
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (
@@ -194,7 +194,7 @@ ACTION
 key
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (
@@ -260,7 +260,7 @@ ACTION
 key
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (
@@ -348,7 +348,7 @@ ACTION
 key
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (
@@ -411,7 +411,7 @@ ACTION
 key
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (
@@ -487,7 +487,7 @@ ACTION
 key
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (
@@ -581,7 +581,7 @@ ACTION
 key
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (
@@ -638,7 +638,7 @@ ACTION
 key
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (

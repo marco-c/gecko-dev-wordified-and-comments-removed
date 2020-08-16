@@ -467,7 +467,7 @@ would
 happen
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (

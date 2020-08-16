@@ -191,7 +191,7 @@ resume
 media
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (
@@ -341,7 +341,7 @@ waitUntilDisplayedPlaybackChanged
 (
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (

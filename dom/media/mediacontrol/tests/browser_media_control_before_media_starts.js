@@ -584,7 +584,7 @@ start
 media
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (

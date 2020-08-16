@@ -50,7 +50,7 @@ waitUntilDisplayedPlaybackChanged
 (
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (
@@ -503,7 +503,7 @@ isCurrentMetadataEmpty
 const
 current
 =
-ChromeUtils
+MediaControlService
 .
 getCurrentActiveMediaMetadata
 (
@@ -576,7 +576,7 @@ metadata
 const
 current
 =
-ChromeUtils
+MediaControlService
 .
 getCurrentActiveMediaMetadata
 (
@@ -871,10 +871,10 @@ options
 }
 )
 {
-let
+const
 metadata
 =
-ChromeUtils
+MediaControlService
 .
 getCurrentActiveMediaMetadata
 (

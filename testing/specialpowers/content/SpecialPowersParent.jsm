@@ -5984,7 +5984,7 @@ SPGenerateMediaControlKeyTestEvent
 "
 :
 {
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (

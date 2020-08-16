@@ -215,7 +215,7 @@ key
 -
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (
@@ -289,7 +289,7 @@ key
 -
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (
