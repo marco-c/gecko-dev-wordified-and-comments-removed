@@ -3963,6 +3963,10 @@ i
 +
 1
 )
+.
+toLowerCase
+(
+)
 ;
 if
 (
@@ -3970,6 +3974,10 @@ previousExtension
 !
 =
 aDefaultExtension
+.
+toLowerCase
+(
+)
 )
 {
 if
