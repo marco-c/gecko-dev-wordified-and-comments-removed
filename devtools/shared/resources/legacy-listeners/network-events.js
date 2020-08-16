@@ -141,6 +141,11 @@ const
 resource
 =
 {
+resourceId
+:
+actor
+.
+channelId
 resourceType
 :
 ResourceWatcher
