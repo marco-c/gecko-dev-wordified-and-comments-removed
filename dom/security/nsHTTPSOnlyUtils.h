@@ -109,10 +109,9 @@ nsString
 aParams
 uint32_t
 aFlags
-uint64_t
-aInnerWindowID
-bool
-aFromPrivateWindow
+nsILoadInfo
+*
+aLoadInfo
 nsIURI
 *
 aURI
@@ -141,10 +140,9 @@ nsAString
 aMessage
 uint32_t
 aFlags
-uint64_t
-aInnerWindowID
-bool
-aFromPrivateWindow
+nsILoadInfo
+*
+aLoadInfo
 nsIURI
 *
 aURI
