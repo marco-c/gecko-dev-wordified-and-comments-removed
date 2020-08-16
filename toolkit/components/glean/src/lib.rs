@@ -1,7 +1,7 @@
 pub
 extern
 crate
-glean
+fog
 ;
 #
 [
@@ -947,7 +947,7 @@ Some
 buf
 )
 =
-glean
+fog
 :
 :
 ipc
@@ -1099,7 +1099,7 @@ buf_len
 let
 _res
 =
-glean
+fog
 :
 :
 ipc
