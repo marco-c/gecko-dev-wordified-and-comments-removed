@@ -540,6 +540,15 @@ chrome
 .
 ini
 '
+'
+tests
+/
+ioutils
+/
+chrome
+.
+ini
+'
 ]
 MOCHITEST_MANIFESTS
 +
