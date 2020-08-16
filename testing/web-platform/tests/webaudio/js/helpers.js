@@ -736,7 +736,7 @@ length
 gTest
 .
 numberOfChannels
-0
+1
 )
 ;
 nodeToInspect
@@ -744,6 +744,13 @@ nodeToInspect
 connect
 (
 sp
+)
+.
+connect
+(
+context
+.
+destination
 )
 ;
 sp
