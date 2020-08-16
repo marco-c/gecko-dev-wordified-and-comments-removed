@@ -237,7 +237,13 @@ private
 .
 onion
 "
+Ci
+.
+nsIDNSService
+.
+RESOLVE_TYPE_DEFAULT
 0
+null
 listenerDontBlock
 mainThread
 defaultOriginAttributes
@@ -274,7 +280,13 @@ private
 .
 onion
 "
+Ci
+.
+nsIDNSService
+.
+RESOLVE_TYPE_DEFAULT
 0
+null
 listenerBlock
 mainThread
 defaultOriginAttributes

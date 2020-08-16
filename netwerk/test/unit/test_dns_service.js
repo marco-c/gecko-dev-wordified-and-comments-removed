@@ -229,7 +229,13 @@ asyncResolve
 "
 localhost
 "
+Ci
+.
+nsIDNSService
+.
+RESOLVE_TYPE_DEFAULT
 0
+null
 listener
 mainThread
 defaultOriginAttributes
@@ -298,7 +304,13 @@ Ci
 .
 nsIDNSService
 .
+RESOLVE_TYPE_DEFAULT
+Ci
+.
+nsIDNSService
+.
 RESOLVE_CANONICAL_NAME
+null
 listener
 mainThread
 defaultOriginAttributes

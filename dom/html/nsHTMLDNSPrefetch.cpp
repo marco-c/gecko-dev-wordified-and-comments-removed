@@ -801,12 +801,17 @@ NS_ConvertUTF16toUTF8
 (
 hostname
 )
+nsIDNSService
+:
+:
+RESOLVE_TYPE_DEFAULT
 flags
 |
 nsIDNSService
 :
 :
 RESOLVE_SPECULATE
+nullptr
 sDNSListener
 nullptr
 aPartitionedPrincipalOriginAttributes
@@ -870,7 +875,7 @@ Unused
 sDNSService
 -
 >
-AsyncResolveByTypeNative
+AsyncResolveNative
 (
 esniHost
 nsIDNSService
@@ -883,6 +888,7 @@ nsIDNSService
 :
 :
 RESOLVE_SPECULATE
+nullptr
 sDNSListener
 nullptr
 aPartitionedPrincipalOriginAttributes
@@ -1259,12 +1265,17 @@ NS_ConvertUTF16toUTF8
 (
 hostname
 )
+nsIDNSService
+:
+:
+RESOLVE_TYPE_DEFAULT
 flags
 |
 nsIDNSService
 :
 :
 RESOLVE_SPECULATE
+nullptr
 sDNSListener
 aReason
 aPartitionedPrincipalOriginAttributes
@@ -1309,7 +1320,7 @@ hostname
 sDNSService
 -
 >
-CancelAsyncResolveByTypeNative
+CancelAsyncResolveNative
 (
 esniHost
 nsIDNSService
@@ -1322,6 +1333,7 @@ nsIDNSService
 :
 :
 RESOLVE_SPECULATE
+nullptr
 sDNSListener
 aReason
 aPartitionedPrincipalOriginAttributes
@@ -2022,6 +2034,10 @@ sDNSService
 AsyncResolveNative
 (
 hostName
+nsIDNSService
+:
+:
+RESOLVE_TYPE_DEFAULT
 mEntries
 [
 mTail
@@ -2033,6 +2049,7 @@ nsIDNSService
 :
 :
 RESOLVE_SPECULATE
+nullptr
 sDNSListener
 nullptr
 oa
@@ -2084,7 +2101,7 @@ hostName
 sDNSService
 -
 >
-AsyncResolveByTypeNative
+AsyncResolveNative
 (
 esniHost
 nsIDNSService
@@ -2102,6 +2119,7 @@ nsIDNSService
 :
 :
 RESOLVE_SPECULATE
+nullptr
 sDNSListener
 nullptr
 oa

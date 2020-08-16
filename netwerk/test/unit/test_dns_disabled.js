@@ -256,7 +256,13 @@ dns
 asyncResolve
 (
 testDomain
+Ci
+.
+nsIDNSService
+.
+RESOLVE_TYPE_DEFAULT
 0
+null
 mustBlock
 ?
 makeListenerBlock

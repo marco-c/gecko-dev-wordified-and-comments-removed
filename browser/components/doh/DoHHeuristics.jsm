@@ -586,7 +586,13 @@ gDNSService
 asyncResolve
 (
 hostname
+Ci
+.
+nsIDNSService
+.
+RESOLVE_TYPE_DEFAULT
 dnsFlags
+null
 listener
 null
 {

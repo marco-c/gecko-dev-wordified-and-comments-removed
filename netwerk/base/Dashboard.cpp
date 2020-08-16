@@ -4514,7 +4514,12 @@ mDnsService
 AsyncResolveNative
 (
 aHost
+nsIDNSService
+:
+:
+RESOLVE_TYPE_DEFAULT
 0
+nullptr
 helper
 .
 get

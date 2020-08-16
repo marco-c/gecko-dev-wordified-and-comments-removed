@@ -3453,7 +3453,12 @@ dns
 AsyncResolveNative
 (
 host
+nsIDNSService
+:
+:
+RESOLVE_TYPE_DEFAULT
 0
+nullptr
 listener
 nullptr
 OriginAttributes
