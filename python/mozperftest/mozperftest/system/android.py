@@ -93,8 +93,6 @@ build
 architecture
 }
 /
-geckoNightly
-/
 target
 .
 apk

@@ -211,8 +211,6 @@ arm64
 -
 v8a
 /
-geckoNightly
-/
 target
 .
 apk
@@ -240,8 +238,6 @@ build
 armeabi
 -
 v7a
-/
-geckoNightly
 /
 target
 .
