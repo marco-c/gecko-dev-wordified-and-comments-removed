@@ -1494,6 +1494,12 @@ bool
 IsFontFamilyWhitelistActive
 (
 )
+const
+{
+return
+mFontFamilyWhitelistActive
+;
+}
 ;
 static
 void
