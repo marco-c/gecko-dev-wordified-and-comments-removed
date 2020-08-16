@@ -12105,14 +12105,6 @@ nsGkAtoms
 :
 :
 exportparts
-&
-&
-StaticPrefs
-:
-:
-layout_css_shadow_parts_enabled
-(
-)
 )
 {
 aResult
