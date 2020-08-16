@@ -1038,6 +1038,16 @@ res
 ionScript
 )
 ;
+MOZ_ASSERT
+(
+!
+val
+.
+isMagic
+(
+)
+)
+;
 if
 (
 ic

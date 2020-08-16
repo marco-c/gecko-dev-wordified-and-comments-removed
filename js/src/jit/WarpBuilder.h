@@ -877,6 +877,15 @@ getCallee
 (
 )
 ;
+MDefinition
+*
+maybeGuardNotOptimizedArguments
+(
+MDefinition
+*
+def
+)
+;
 MOZ_MUST_USE
 bool
 buildUnaryOp
