@@ -2329,9 +2329,16 @@ defined
 (
 _DARWIN_FEATURE_64_BIT_INODE
 )
+&
+&
+!
+defined
+(
+__aarch64__
+)
 {
 "
-_DARWIN_FEATURE_64_BIT_INODE
+_DARWIN_INODE64_SYMBOLS
 "
 JS
 :
