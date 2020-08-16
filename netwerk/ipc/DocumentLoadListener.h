@@ -1388,9 +1388,9 @@ mozilla
 dom
 :
 :
-LoadingSessionHistoryInfo
+SessionHistoryInfo
 >
-mLoadingSessionHistoryInfo
+mSessionHistoryInfo
 ;
 uint32_t
 mLoadStateLoadFlags

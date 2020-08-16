@@ -389,9 +389,6 @@ EventTarget
 class
 SessionHistoryInfo
 ;
-struct
-LoadingSessionHistoryInfo
-;
 }
 namespace
 net
@@ -1600,9 +1597,9 @@ mozilla
 dom
 :
 :
-LoadingSessionHistoryInfo
+SessionHistoryInfo
 &
-aLoadingInfo
+aInfo
 )
 ;
 private
@@ -3493,7 +3490,7 @@ mozilla
 dom
 :
 :
-LoadingSessionHistoryInfo
+SessionHistoryInfo
 >
 mLoadingEntry
 ;
