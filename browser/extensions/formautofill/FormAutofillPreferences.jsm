@@ -823,6 +823,12 @@ if
 FormAutofill
 .
 isAutofillCreditCardsAvailable
+&
+&
+!
+FormAutofill
+.
+isAutofillCreditCardsHideUI
 )
 {
 let
