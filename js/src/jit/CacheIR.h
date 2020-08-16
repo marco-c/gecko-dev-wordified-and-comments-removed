@@ -8076,6 +8076,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachAssertRecoveredOnBailout
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
