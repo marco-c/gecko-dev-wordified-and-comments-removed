@@ -416,6 +416,16 @@ onlogout
 ;
 exports
 .
+ON_PRELOGOUT_NOTIFICATION
+=
+"
+fxaccounts
+:
+on_pre_logout
+"
+;
+exports
+.
 ON_DEVICE_CONNECTED_NOTIFICATION
 =
 "

@@ -409,6 +409,17 @@ ecosystemtelemetry
 .
 enabled
 "
+EcosystemTelemetryAllowForNonProductionFxA
+:
+"
+toolkit
+.
+telemetry
+.
+ecosystemtelemetry
+.
+allowForNonProductionFxA
+"
 PrioPingEnabled
 :
 "
