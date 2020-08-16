@@ -3138,12 +3138,6 @@ defined
 (
 XP_LINUX
 )
-|
-|
-defined
-(
-MOZ_ASAN
-)
 pref
 (
 "
