@@ -110,6 +110,10 @@ hw
 -
 gfx
 '
+    
+'
+rusttests
+'
 ]
 INCLUSIVE_COMPONENTS
 =
