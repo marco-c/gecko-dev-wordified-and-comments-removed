@@ -5347,6 +5347,16 @@ Type
 elementType
 )
 ;
+AtomicsReadWriteModifyFn
+AtomicsAdd
+(
+Scalar
+:
+:
+Type
+elementType
+)
+;
 enum
 class
 TailCallVMFunctionId
