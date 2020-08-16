@@ -333,3 +333,9 @@ cancel
 button
 =
 Cancel
+printui
+-
+loading
+=
+Preparing
+Preview
