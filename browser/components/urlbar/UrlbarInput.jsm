@@ -2744,7 +2744,7 @@ result
 .
 payload
 .
-overriddenSearchTopSite
+sendTopSiteAttributionRequest
 )
 {
 TopSiteAttribution

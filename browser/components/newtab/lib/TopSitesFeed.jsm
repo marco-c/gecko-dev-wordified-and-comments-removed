@@ -1899,6 +1899,11 @@ link
 .
 .
 link
+sendTopSiteAttributionRequest
+:
+link
+.
+isDefault
 url
 :
 link
@@ -2500,7 +2505,7 @@ url
 ;
 link
 .
-overriddenSearchTopSite
+sendTopSiteAttributionRequest
 =
 true
 ;

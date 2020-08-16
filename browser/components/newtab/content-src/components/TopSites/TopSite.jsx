@@ -2430,7 +2430,7 @@ props
 .
 link
 .
-overriddenSearchTopSite
+sendTopSiteAttributionRequest
 )
 {
 this

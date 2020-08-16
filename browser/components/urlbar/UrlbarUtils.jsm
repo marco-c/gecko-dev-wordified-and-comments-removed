@@ -3220,7 +3220,7 @@ type
 boolean
 "
 }
-overriddenSearchTopSite
+sendTopSiteAttributionRequest
 :
 {
 type
