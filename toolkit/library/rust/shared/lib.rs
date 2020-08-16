@@ -187,6 +187,10 @@ gkrust_utils
 ;
 extern
 crate
+http_sfv
+;
+extern
+crate
 jsrust_shared
 ;
 extern
