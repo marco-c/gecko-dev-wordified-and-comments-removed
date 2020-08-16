@@ -95,9 +95,6 @@ mNumFramesOnLine
 nsRect
 mLineBounds
 ;
-bool
-mIsWrapped
-;
 }
 ;
 virtual
