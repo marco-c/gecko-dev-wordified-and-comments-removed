@@ -9420,6 +9420,12 @@ BailoutKind
 :
 ArrayPopShift
 :
+case
+BailoutKind
+:
+:
+TagNotEqualGuard
+:
 break
 ;
 case
