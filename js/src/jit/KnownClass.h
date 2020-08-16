@@ -28,6 +28,9 @@ PlainObject
 Array
 Function
 RegExp
+ArrayIterator
+StringIterator
+RegExpStringIterator
 None
 }
 ;
