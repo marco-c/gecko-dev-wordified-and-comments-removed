@@ -29,6 +29,17 @@ mozilla
 /
 dom
 /
+BrowsingContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MaybeDiscarded
 .
 h
