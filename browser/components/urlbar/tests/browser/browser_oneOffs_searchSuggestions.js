@@ -40,6 +40,12 @@ port
 20709
 }
 ;
+var
+gEngine
+;
+var
+gEngine2
+;
 add_task
 (
 async
@@ -101,8 +107,7 @@ maxHistoricalSearchSuggestions
 }
 )
 ;
-let
-engine
+gEngine
 =
 await
 SearchTestUtils
@@ -117,8 +122,7 @@ gTestPath
 TEST_ENGINE_BASENAME
 )
 ;
-let
-engine2
+gEngine2
 =
 await
 SearchTestUtils
@@ -152,7 +156,7 @@ search
 .
 moveEngine
 (
-engine2
+gEngine2
 0
 )
 ;
@@ -163,7 +167,7 @@ search
 .
 moveEngine
 (
-engine
+gEngine
 0
 )
 ;
@@ -174,7 +178,7 @@ search
 .
 setDefault
 (
-engine
+gEngine
 )
 ;
 registerCleanupFunction
@@ -645,6 +649,11 @@ value
 "
 foobar
 "
+source
+:
+gEngine
+.
+name
 }
 )
 )
