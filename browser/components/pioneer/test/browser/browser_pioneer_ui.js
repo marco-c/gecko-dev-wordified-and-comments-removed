@@ -1232,6 +1232,12 @@ enrolled
 ;
 enrollmentButton
 .
+getBoundingClientRect
+(
+)
+;
+enrollmentButton
+.
 click
 (
 )
@@ -1586,6 +1592,12 @@ is
 enabled
 .
 "
+)
+;
+joinButton
+.
+getBoundingClientRect
+(
 )
 ;
 joinButton
