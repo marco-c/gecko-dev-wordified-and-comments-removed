@@ -3380,7 +3380,7 @@ info
 unsigned
 long
 long
-ChildID
+childID
 =
 0
 ;
