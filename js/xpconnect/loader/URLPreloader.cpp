@@ -771,6 +771,8 @@ GetObserverService
 (
 )
 ;
+MOZ_TRY
+(
 obs
 -
 >
@@ -779,6 +781,7 @@ AddObserver
 this
 DELAYED_STARTUP_TOPIC
 false
+)
 )
 ;
 MOZ_TRY
