@@ -3226,6 +3226,11 @@ nsLoadFlags
 aLoadFlags
 )
 ;
+void
+SetTitleOnHistoryEntry
+(
+)
+;
 private
 :
 nsID
