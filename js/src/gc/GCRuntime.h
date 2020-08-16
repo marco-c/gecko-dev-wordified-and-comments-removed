@@ -3399,7 +3399,7 @@ trigger
 IncrementalResult
 resetIncrementalGC
 (
-AbortReason
+GCAbortReason
 reason
 )
 ;
