@@ -19031,7 +19031,7 @@ if
 (
 aArgs
 .
-sessionHistoryInfo
+loadingSessionHistoryInfo
 (
 )
 .
@@ -19043,11 +19043,11 @@ isSome
 loadState
 -
 >
-SetSessionHistoryInfo
+SetLoadingSessionHistoryInfo
 (
 aArgs
 .
-sessionHistoryInfo
+loadingSessionHistoryInfo
 (
 )
 .
