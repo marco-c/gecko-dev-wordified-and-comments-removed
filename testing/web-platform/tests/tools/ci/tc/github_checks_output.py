@@ -191,10 +191,8 @@ look
 for
 the
                    
--
--
 github_checks_text_file
-flag
+field
 )
     
 "
