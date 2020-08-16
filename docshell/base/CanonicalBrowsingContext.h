@@ -101,6 +101,9 @@ class
 nsISHistory
 ;
 class
+nsSHistory
+;
+class
 nsBrowserStatusFilter
 ;
 class
@@ -902,9 +905,9 @@ PendingRemotenessChange
 >
 mPendingRemotenessChange
 ;
-nsCOMPtr
+RefPtr
 <
-nsISHistory
+nsSHistory
 >
 mSessionHistory
 ;
