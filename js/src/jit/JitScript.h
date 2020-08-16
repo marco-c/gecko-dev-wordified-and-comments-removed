@@ -227,6 +227,8 @@ uint32_t
 warmUpCount
 Offset
 endOffset
+uint32_t
+depth
 InliningRoot
 *
 inliningRoot
@@ -249,6 +251,10 @@ warmUpCount
 endOffset_
 (
 endOffset
+)
+depth_
+(
+depth
 )
 {
 }
@@ -316,6 +322,16 @@ const
 {
 return
 inliningRoot_
+;
+}
+uint32_t
+depth
+(
+)
+const
+{
+return
+depth_
 ;
 }
 static
@@ -575,6 +591,9 @@ warmUpCount_
 ;
 Offset
 endOffset_
+;
+uint32_t
+depth_
 ;
 Offset
 icEntriesOffset

@@ -384,6 +384,7 @@ typeSetOffset
 offsetOfICScript
 (
 )
+0
 )
 {
 setTypesGeneration
