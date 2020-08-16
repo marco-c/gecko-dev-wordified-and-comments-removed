@@ -886,8 +886,13 @@ ContentSubtreeIterator
 &
 )
 ;
-protected
+private
 :
+void
+CacheInclusiveAncestorsOfEndContainer
+(
+)
+;
 nsresult
 InitWithRange
 (
