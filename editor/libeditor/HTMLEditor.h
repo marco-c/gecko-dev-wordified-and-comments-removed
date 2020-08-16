@@ -5908,7 +5908,7 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 EditActionResult
-HandleDeleteAroundCollapsedSelection
+HandleDeleteAroundCollapsedRanges
 (
 nsIEditor
 :
@@ -5920,6 +5920,9 @@ nsIEditor
 :
 EStripWrappers
 aStripWrappers
+AutoRangeArray
+&
+aRangesToDelete
 )
 ;
 [
