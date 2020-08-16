@@ -5202,7 +5202,7 @@ CleanupFullscreenState
 (
 )
 ;
-bool
+void
 TopLayerPush
 (
 Element
@@ -5230,7 +5230,7 @@ UnsetFullscreenElement
 (
 )
 ;
-bool
+void
 SetFullscreenElement
 (
 Element
