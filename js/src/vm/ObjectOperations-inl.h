@@ -256,11 +256,7 @@ set
 obj
 -
 >
-taggedProto
-(
-)
-.
-toObjectOrNull
+staticPrototype
 (
 )
 )
