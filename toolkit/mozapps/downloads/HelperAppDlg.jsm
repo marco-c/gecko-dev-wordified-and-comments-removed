@@ -3821,6 +3821,14 @@ handleInternally
 !
 this
 .
+shouldShowInternalHandlerOption
+(
+)
+&
+&
+!
+this
+.
 dialogElement
 (
 "
