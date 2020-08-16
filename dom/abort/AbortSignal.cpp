@@ -81,6 +81,14 @@ mAborted
 =
 true
 ;
+RefPtr
+<
+AbortSignalImpl
+>
+pinThis
+=
+this
+;
 for
 (
 AbortFollower
