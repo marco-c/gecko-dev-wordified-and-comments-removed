@@ -10697,10 +10697,8 @@ return
 true
 ;
 }
+static
 bool
-js
-:
-:
 intrinsic_StringSplitString
 (
 JSContext
