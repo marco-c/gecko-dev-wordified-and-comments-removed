@@ -872,13 +872,7 @@ this
 .
 emit
 (
-"
-resource
--
-available
--
-form
-"
+name
 resources
 )
 ;
