@@ -5544,6 +5544,19 @@ path
 exists
 (
 pipenv
++
+'
+.
+exe
+'
+if
+self
+.
+_is_windows
+(
+)
+else
+pipenv
 )
 :
             
@@ -5609,9 +5622,6 @@ vendored
 =
 True
 )
-        
-return
-pipenv
     
 def
 activate_pipenv
