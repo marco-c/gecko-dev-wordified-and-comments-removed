@@ -423,7 +423,6 @@ updateURL
 ;
 }
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 ProvideWindowCommon
 (
@@ -2601,7 +2600,6 @@ PFileDescriptorSetChild
 *
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
