@@ -1286,6 +1286,9 @@ engine
 engine
 .
 name
+isSearchHistory
+:
+true
 suggestion
 :
 [
