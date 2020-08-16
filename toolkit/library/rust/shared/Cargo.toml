@@ -1044,7 +1044,7 @@ optional
 =
 true
 }
-fog_control
+fog
 =
 {
 path
@@ -1712,14 +1712,14 @@ glean
 =
 [
 "
-fog_control
+fog
 "
 ]
 glean_with_gecko
 =
 [
 "
-fog_control
+fog
 /
 with_gecko
 "

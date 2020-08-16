@@ -4,7 +4,7 @@ package
 name
 =
 "
-fog_control
+fog
 "
 version
 =
@@ -166,7 +166,7 @@ once_cell
 .
 0
 "
-fog
+glean
 =
 {
 path
@@ -263,7 +263,7 @@ with_gecko
 =
 [
 "
-fog
+glean
 /
 with_gecko
 "
