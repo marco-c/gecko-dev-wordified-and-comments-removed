@@ -1130,6 +1130,9 @@ ss
 OpenDatabaseWithFileURL
 (
 dbFileUrl
+EmptyCString
+(
+)
 getter_AddRefs
 (
 conn
@@ -1193,6 +1196,9 @@ ss
 OpenDatabaseWithFileURL
 (
 dbFileUrl
+EmptyCString
+(
+)
 getter_AddRefs
 (
 conn
@@ -1296,6 +1302,9 @@ ss
 OpenDatabaseWithFileURL
 (
 dbFileUrl
+EmptyCString
+(
+)
 getter_AddRefs
 (
 conn

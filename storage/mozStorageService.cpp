@@ -2713,6 +2713,10 @@ OpenDatabaseWithFileURL
 nsIFileURL
 *
 aFileURL
+const
+nsACString
+&
+aTelemetryFilename
 mozIStorageConnection
 *
 *
@@ -2761,6 +2765,7 @@ msc
 initialize
 (
 aFileURL
+aTelemetryFilename
 )
 ;
 NS_ENSURE_SUCCESS
