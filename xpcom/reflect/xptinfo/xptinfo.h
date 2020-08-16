@@ -2029,7 +2029,7 @@ size
 #
 define
 PARAM_BUFFER_COUNT
-16
+14
 struct
 nsXPTConstantInfo
 {
