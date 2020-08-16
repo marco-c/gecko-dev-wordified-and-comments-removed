@@ -1723,14 +1723,6 @@ iokit
 -
 property
 "
-IOGVAXDecode
-"
-)
-(
-iokit
--
-property
-"
 IOPCITunnelled
 "
 )
