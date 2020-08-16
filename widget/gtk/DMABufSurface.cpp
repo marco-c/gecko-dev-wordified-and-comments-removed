@@ -284,10 +284,14 @@ VA_FOURCC_YV12
 #
 endif
 static
+Atomic
+<
 int
+>
 gNewSurfaceUID
-=
+(
 1
+)
 ;
 bool
 DMABufSurface
