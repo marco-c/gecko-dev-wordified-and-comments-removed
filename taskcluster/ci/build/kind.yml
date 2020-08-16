@@ -163,6 +163,13 @@ job
 -
 defaults
 :
+attributes
+:
+resource
+-
+monitor
+:
+true
 run
 :
 mozconfig

@@ -313,6 +313,11 @@ attributes
 retrigger
 :
 true
+resource
+-
+monitor
+:
+true
 require
 -
 signed
