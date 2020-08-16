@@ -7823,6 +7823,7 @@ X86Encoding
 RoundDown
 src
 scratch
+scratch
 )
 ;
 truncateFloat32ToInt32
@@ -7989,6 +7990,7 @@ X86Encoding
 :
 RoundDown
 src
+scratch
 scratch
 )
 ;
@@ -8199,6 +8201,7 @@ X86Encoding
 RoundUp
 src
 scratch
+scratch
 )
 ;
 truncateFloat32ToInt32
@@ -8365,6 +8368,7 @@ X86Encoding
 :
 RoundUp
 src
+scratch
 scratch
 )
 ;
@@ -8789,6 +8793,7 @@ X86Encoding
 RoundDown
 temp
 scratch
+scratch
 )
 ;
 truncateFloat32ToInt32
@@ -9055,6 +9060,7 @@ X86Encoding
 :
 RoundDown
 temp
+scratch
 scratch
 )
 ;
