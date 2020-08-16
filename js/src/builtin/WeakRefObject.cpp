@@ -499,15 +499,15 @@ target
 "
 )
 ;
-}
 weakRef
 -
 >
-setPrivate
+setPrivateUnbarriered
 (
 target
 )
 ;
+}
 }
 }
 void
