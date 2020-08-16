@@ -84,6 +84,15 @@ include
 "
 mozilla
 /
+StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 GraphicsMessages
@@ -460,6 +469,8 @@ GfxDriverInfo
 sDriverInfo
 ;
 static
+StaticAutoPtr
+<
 nsTArray
 <
 mozilla
@@ -470,7 +481,7 @@ gfx
 :
 GfxInfoFeatureStatus
 >
-*
+>
 sFeatureStatus
 ;
 static
