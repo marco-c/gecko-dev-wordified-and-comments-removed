@@ -2469,7 +2469,7 @@ cx
 mozilla
 :
 :
-MakeSpan
+Span
 (
 extension
 length
@@ -4108,7 +4108,7 @@ cx
 mozilla
 :
 :
-MakeSpan
+Span
 (
 extension
 length

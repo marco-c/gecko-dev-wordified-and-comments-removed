@@ -157,12 +157,6 @@ using
 mozilla
 :
 :
-MakeSpan
-;
-using
-mozilla
-:
-:
 MakeUnique
 ;
 using
@@ -1007,7 +1001,7 @@ WriteBytes
 (
 AsBytes
 (
-MakeSpan
+Span
 (
 aString
 length
@@ -1112,7 +1106,7 @@ WriteBytes
 (
 AsBytes
 (
-MakeSpan
+Span
 (
 copy
 length
@@ -1263,7 +1257,7 @@ WriteBytes
 (
 AsBytes
 (
-MakeSpan
+Span
 (
 aString
 aLength

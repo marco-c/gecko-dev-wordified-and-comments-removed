@@ -1439,7 +1439,7 @@ NS_ERROR_NOT_INITIALIZED
 auto
 src
 =
-MakeSpan
+Span
 (
 aStr
 .
@@ -1509,7 +1509,7 @@ aDst
 auto
 dst
 =
-MakeSpan
+Span
 (
 reinterpret_cast
 <

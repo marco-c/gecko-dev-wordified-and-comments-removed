@@ -4414,7 +4414,7 @@ Encoding
 :
 ForBOM
 (
-MakeSpan
+Span
 (
 buf
 count

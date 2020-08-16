@@ -2077,7 +2077,7 @@ encryptedDataSpan
 =
 AsBytes
 (
-MakeSpan
+Span
 (
 encryptedDataStream
 -
@@ -2137,7 +2137,7 @@ std
 pair
 (
 encryptedDataSpan
-MakeSpan
+Span
 (
 plainTestData
 )

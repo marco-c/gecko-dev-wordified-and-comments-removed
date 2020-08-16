@@ -792,7 +792,7 @@ src
 =
 AsBytes
 (
-MakeSpan
+Span
 (
 mByteData
 )
@@ -801,7 +801,7 @@ mByteData
 auto
 dst
 =
-MakeSpan
+Span
 (
 mUnicharData
 )

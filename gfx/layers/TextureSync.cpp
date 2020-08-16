@@ -597,10 +597,7 @@ req
 -
 >
 pid
-MakeSpan
-<
-uint64_t
->
+Span
 (
 textureIds
 textureIdsLength
@@ -1110,10 +1107,7 @@ success
 WaitForTextureIdsToUnlock
 (
 aProcessId
-MakeSpan
-<
-uint64_t
->
+Span
 (
 textureIds
 )

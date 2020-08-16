@@ -2741,7 +2741,7 @@ NS_IsMainThread
 auto
 src
 =
-MakeSpan
+Span
 (
 aBuffer
 .

@@ -4217,7 +4217,7 @@ getter_AddRefs
 (
 stringStream
 )
-MakeSpan
+Span
 (
 aData
 )

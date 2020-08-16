@@ -1919,7 +1919,7 @@ fun_length
 mozilla
 :
 :
-MakeSpan
+Span
 (
 smooshScriptData
 .

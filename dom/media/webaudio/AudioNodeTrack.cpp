@@ -3020,7 +3020,7 @@ ProcessBlocksOnPorts
 (
 this
 aFrom
-MakeSpan
+Span
 (
 mInputChunks
 .
@@ -3034,7 +3034,7 @@ InputCount
 (
 )
 )
-MakeSpan
+Span
 (
 mLastChunks
 .

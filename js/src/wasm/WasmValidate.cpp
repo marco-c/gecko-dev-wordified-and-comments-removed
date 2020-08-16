@@ -134,7 +134,7 @@ using
 mozilla
 :
 :
-MakeSpan
+Span
 ;
 using
 mozilla
@@ -11905,7 +11905,7 @@ IsUtf8
 (
 AsChars
 (
-MakeSpan
+Span
 (
 bytes
 numBytes

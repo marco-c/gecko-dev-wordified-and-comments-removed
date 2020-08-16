@@ -1422,7 +1422,7 @@ getter_AddRefs
 (
 byteStream
 )
-MakeSpan
+Span
 (
 clipboardData
 clipboardDataLength
@@ -3888,7 +3888,7 @@ false
 auto
 dataSpan
 =
-MakeSpan
+Span
 (
 data
 dataLength
@@ -4064,7 +4064,7 @@ AsBytes
 (
 dataSpan
 )
-MakeSpan
+Span
 (
 *
 unicodeData

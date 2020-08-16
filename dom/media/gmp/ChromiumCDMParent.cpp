@@ -3662,7 +3662,7 @@ ToDecryptStatus
 (
 aStatus
 )
-MakeSpan
+Span
 <
 const
 uint8_t
@@ -4257,7 +4257,7 @@ v
 CreateVideoFrame
 (
 aFrame
-MakeSpan
+Span
 <
 uint8_t
 >

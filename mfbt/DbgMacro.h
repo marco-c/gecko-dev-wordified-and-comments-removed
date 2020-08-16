@@ -741,7 +741,7 @@ aOut
 mozilla
 :
 :
-MakeSpan
+Span
 (
 aArray
 )

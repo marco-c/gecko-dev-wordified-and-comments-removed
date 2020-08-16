@@ -4078,7 +4078,7 @@ ConstructX509FromSpan
 (
 AsBytes
 (
-MakeSpan
+Span
 (
 certDER
 )
@@ -4109,7 +4109,7 @@ _retval
 return
 ConstructX509FromSpan
 (
-MakeSpan
+Span
 (
 certDER
 .
@@ -4865,7 +4865,7 @@ ConstructX509FromSpan
 (
 AsBytes
 (
-MakeSpan
+Span
 (
 aCertDER
 )

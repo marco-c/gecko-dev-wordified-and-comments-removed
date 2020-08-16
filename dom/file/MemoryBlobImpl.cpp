@@ -237,7 +237,7 @@ getter_AddRefs
 (
 stream
 )
-MakeSpan
+Span
 (
 static_cast
 <

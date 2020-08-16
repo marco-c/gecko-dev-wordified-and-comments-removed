@@ -3717,7 +3717,7 @@ symbolType
 mozilla
 :
 :
-MakeSpan
+Span
 (
 indices
 )
@@ -3941,7 +3941,7 @@ symbolType
 mozilla
 :
 :
-MakeSpan
+Span
 (
 indices
 )
@@ -4187,7 +4187,7 @@ symbolType
 mozilla
 :
 :
-MakeSpan
+Span
 (
 indices
 )
@@ -4344,7 +4344,7 @@ symbolType
 mozilla
 :
 :
-MakeSpan
+Span
 (
 indices
 )

@@ -5840,8 +5840,6 @@ derCertSpanList
 .
 EmplaceBack
 (
-MakeSpan
-(
 der
 -
 >
@@ -5853,7 +5851,6 @@ der
 >
 GetLength
 (
-)
 )
 )
 ;

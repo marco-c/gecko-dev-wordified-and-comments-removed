@@ -837,7 +837,7 @@ NS_OK
 auto
 dataSpan
 =
-MakeSpan
+Span
 <
 const
 uint8_t

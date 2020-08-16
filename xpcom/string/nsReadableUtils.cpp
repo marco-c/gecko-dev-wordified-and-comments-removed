@@ -67,7 +67,7 @@ using
 mozilla
 :
 :
-MakeSpan
+Span
 ;
 template
 <
@@ -216,7 +216,7 @@ Length
 LossyConvertUtf16toLatin1
 (
 aSource
-MakeSpan
+Span
 (
 dest
 len
@@ -340,7 +340,7 @@ written
 ConvertUtf16toUtf8
 (
 aSource
-MakeSpan
+Span
 (
 dest
 destLenVal
@@ -756,7 +756,7 @@ Length
 ConvertLatin1toUtf16
 (
 aSource
-MakeSpan
+Span
 (
 dest
 len
@@ -877,7 +877,7 @@ written
 ConvertUtf8toUtf16
 (
 aSource
-MakeSpan
+Span
 (
 dest
 lengthPlusOne

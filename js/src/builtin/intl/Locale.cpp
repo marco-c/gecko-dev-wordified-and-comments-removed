@@ -6990,7 +6990,7 @@ key
 mozilla
 :
 :
-MakeSpan
+Span
 (
 unicodeKey
 UnicodeKeyLength
@@ -7002,7 +7002,7 @@ type
 mozilla
 :
 :
-MakeSpan
+Span
 (
 unicodeTypeChars
 .

@@ -4147,7 +4147,7 @@ resolvedPath
 {
 AppendUTF16toUTF8
 (
-MakeSpan
+Span
 (
 reinterpret_cast
 <

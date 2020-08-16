@@ -2831,7 +2831,7 @@ VPXDecoder
 :
 IsKeyframe
 (
-MakeSpan
+Span
 <
 const
 uint8_t

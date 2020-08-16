@@ -465,7 +465,7 @@ ProcessBlocksOnPorts
 (
 aTrack
 aFrom
-MakeSpan
+Span
 (
 &
 aInput
@@ -473,7 +473,7 @@ InputCount
 (
 )
 )
-MakeSpan
+Span
 (
 aOutput
 OutputCount

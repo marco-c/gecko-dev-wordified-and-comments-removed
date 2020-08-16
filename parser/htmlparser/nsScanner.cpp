@@ -685,13 +685,13 @@ DecodeToUTF16WithoutReplacement
 (
 AsBytes
 (
-MakeSpan
+Span
 (
 aBuffer
 aLen
 )
 )
-MakeSpan
+Span
 (
 unichars
 needed

@@ -2177,7 +2177,7 @@ NS_EscapeURLSpan
 mozilla
 :
 :
-MakeSpan
+Span
 (
 aPart
 partLen

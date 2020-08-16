@@ -861,12 +861,12 @@ Data
 ;
 ConvertAsciitoUtf16
 (
-MakeSpan
+Span
 (
 aLiteral
 length
 )
-MakeSpan
+Span
 (
 data
 length

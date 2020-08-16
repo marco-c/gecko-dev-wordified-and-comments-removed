@@ -340,12 +340,12 @@ Unit
 DecodeInto
 (
 mDecoder
-MakeSpan
+Span
 (
 aData
 aDataLength
 )
-MakeSpan
+Span
 (
 scriptText
 .
@@ -887,7 +887,7 @@ Encoding
 :
 ForBOM
 (
-MakeSpan
+Span
 (
 aData
 aDataLength

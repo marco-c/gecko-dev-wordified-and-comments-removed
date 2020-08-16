@@ -407,12 +407,6 @@ using
 mozilla
 :
 :
-MakeSpan
-;
-using
-mozilla
-:
-:
 Nothing
 ;
 using
@@ -420,6 +414,12 @@ mozilla
 :
 :
 RangedPtr
+;
+using
+mozilla
+:
+:
+Span
 ;
 extern
 mozilla
@@ -7054,7 +7054,7 @@ JS
 DeflateStringToUTF8Buffer
 (
 linear
-MakeSpan
+Span
 (
 name
 .

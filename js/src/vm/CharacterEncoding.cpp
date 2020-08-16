@@ -150,12 +150,6 @@ using
 mozilla
 :
 :
-MakeSpan
-;
-using
-mozilla
-:
-:
 Span
 ;
 using
@@ -264,7 +258,7 @@ LossyConvertUtf16toLatin1
 tbchars
 AsWritableChars
 (
-MakeSpan
+Span
 (
 latin1
 len
@@ -571,7 +565,7 @@ source
 =
 AsChars
 (
-MakeSpan
+Span
 (
 src
 -
@@ -619,7 +613,7 @@ written
 auto
 source
 =
-MakeSpan
+Span
 (
 src
 -
@@ -881,7 +875,7 @@ UTF8CharsZ
 :
 ConvertToUTF8
 (
-MakeSpan
+Span
 (
 str
 chars
@@ -890,7 +884,7 @@ length
 (
 )
 )
-MakeSpan
+Span
 (
 utf8
 len

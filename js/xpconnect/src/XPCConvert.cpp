@@ -1523,7 +1523,7 @@ LossyConvertUtf8toLatin1
 (
 *
 utf8String
-MakeSpan
+Span
 (
 reinterpret_cast
 <
@@ -1649,7 +1649,7 @@ ConvertUtf8toUtf16
 (
 *
 utf8String
-MakeSpan
+Span
 (
 buffer
 .
@@ -3766,7 +3766,7 @@ linear
 mozilla
 :
 :
-MakeSpan
+Span
 (
 rs
 -

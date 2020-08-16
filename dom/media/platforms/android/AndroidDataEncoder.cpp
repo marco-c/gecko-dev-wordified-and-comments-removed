@@ -1616,7 +1616,7 @@ AnnexB
 :
 ParseNALEntries
 (
-MakeSpan
+Span
 <
 const
 uint8_t
@@ -1710,7 +1710,7 @@ spsPtr
 [
 3
 ]
-MakeSpan
+Span
 <
 const
 uint8_t
@@ -1721,7 +1721,7 @@ sps
 .
 mSize
 )
-MakeSpan
+Span
 <
 const
 uint8_t

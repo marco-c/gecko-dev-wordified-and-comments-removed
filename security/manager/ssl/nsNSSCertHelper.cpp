@@ -495,7 +495,7 @@ result
 auto
 span
 =
-MakeSpan
+Span
 (
 str
 len

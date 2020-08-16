@@ -41837,7 +41837,7 @@ appender
 .
 Append
 (
-MakeSpan
+Span
 (
 u
 .
@@ -41872,7 +41872,7 @@ appender
 .
 Append
 (
-MakeSpan
+Span
 (
 u
 .
@@ -41900,7 +41900,7 @@ appender
 .
 Append
 (
-MakeSpan
+Span
 (
 u
 .
@@ -41944,7 +41944,7 @@ Is2b
 {
 EncodeTextFragment
 (
-MakeSpan
+Span
 (
 u
 .
@@ -41971,7 +41971,7 @@ else
 {
 EncodeTextFragment
 (
-MakeSpan
+Span
 (
 u
 .

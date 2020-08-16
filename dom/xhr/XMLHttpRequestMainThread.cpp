@@ -7130,7 +7130,7 @@ AppendToResponseText
 (
 AsBytes
 (
-MakeSpan
+Span
 (
 fromRawSegment
 count
@@ -7176,7 +7176,7 @@ getter_AddRefs
 (
 copyStream
 )
-MakeSpan
+Span
 (
 fromRawSegment
 count

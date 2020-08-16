@@ -10102,7 +10102,7 @@ false
 auto
 source
 =
-MakeSpan
+Span
 <
 const
 uint8_t
@@ -10125,7 +10125,7 @@ IsEmpty
 auto
 partial
 =
-MakeSpan
+Span
 <
 const
 uint8_t
@@ -10228,7 +10228,7 @@ else
 auto
 buf
 =
-MakeSpan
+Span
 <
 uint8_t
 >
@@ -10484,7 +10484,7 @@ blockOffset
 auto
 data
 =
-MakeSpan
+Span
 <
 const
 uint8_t
@@ -12472,7 +12472,7 @@ return
 auto
 source
 =
-MakeSpan
+Span
 <
 const
 uint8_t
@@ -12870,7 +12870,7 @@ mStreamOffset
 auto
 buffer
 =
-MakeSpan
+Span
 <
 char
 >
@@ -13346,7 +13346,7 @@ Monitor
 auto
 buffer
 =
-MakeSpan
+Span
 <
 char
 >

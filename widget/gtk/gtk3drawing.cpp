@@ -2265,7 +2265,7 @@ GetGtkHeaderBarButtonLayout
 mozilla
 :
 :
-MakeSpan
+Span
 (
 aButtonLayout
 )

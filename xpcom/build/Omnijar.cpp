@@ -767,7 +767,7 @@ zipReader
 LazyOpenArchive
 (
 file
-MakeSpan
+Span
 (
 centralBuf
 centralBufLength
@@ -2324,7 +2324,7 @@ aHandle
 >
 mDataToCache
 =
-MakeSpan
+Span
 (
 data
 aItem

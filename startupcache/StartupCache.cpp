@@ -4157,7 +4157,7 @@ char
 >
 compressed
 =
-MakeSpan
+Span
 (
 mCacheData
 .
@@ -4188,7 +4188,7 @@ char
 >
 uncompressed
 =
-MakeSpan
+Span
 (
 aEntry
 .
@@ -5816,7 +5816,7 @@ writeBufLen
 auto
 writeSpan
 =
-MakeSpan
+Span
 (
 writeBuffer
 .
@@ -5889,7 +5889,7 @@ char
 >
 compressed
 =
-MakeSpan
+Span
 (
 mCacheData
 .
@@ -6069,7 +6069,7 @@ ctx
 .
 ContinueCompressing
 (
-MakeSpan
+Span
 (
 uncompressed
 size

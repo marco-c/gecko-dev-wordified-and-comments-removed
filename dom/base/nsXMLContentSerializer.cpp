@@ -809,7 +809,7 @@ if
 !
 CopyASCIItoUTF16
 (
-MakeSpan
+Span
 (
 frag
 -

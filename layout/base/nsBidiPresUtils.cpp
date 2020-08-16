@@ -6637,7 +6637,7 @@ Is2b
 &
 HasRTLChars
 (
-MakeSpan
+Span
 (
 txt
 -

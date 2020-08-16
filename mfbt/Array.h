@@ -545,7 +545,7 @@ return
 aOut
 <
 <
-MakeSpan
+Span
 (
 aArray
 )

@@ -1963,7 +1963,7 @@ offsets
 mozilla
 :
 :
-MakeSpan
+Span
 (
 caseOffsets_
 .

@@ -1096,7 +1096,7 @@ id
 ;
 CopyASCIItoUTF16
 (
-MakeSpan
+Span
 (
 buffer
 NSID_LENGTH

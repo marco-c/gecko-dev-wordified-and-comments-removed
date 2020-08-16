@@ -5048,7 +5048,7 @@ IsUtf8
 mozilla
 :
 :
-MakeSpan
+Span
 (
 scriptData
 scriptLength
