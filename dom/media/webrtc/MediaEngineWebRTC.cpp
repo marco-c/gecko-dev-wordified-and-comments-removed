@@ -1510,7 +1510,7 @@ aWindowId
 camera
 :
 :
-ScreenEngine
+BrowserEngine
 aDevices
 )
 ;
@@ -1520,7 +1520,7 @@ aWindowId
 camera
 :
 :
-BrowserEngine
+ScreenEngine
 aDevices
 )
 ;
