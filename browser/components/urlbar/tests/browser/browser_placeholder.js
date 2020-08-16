@@ -1177,6 +1177,13 @@ await
 doSearchModeTest
 (
 {
+source
+:
+UrlbarUtils
+.
+RESULT_SOURCE
+.
+SEARCH
 engineName
 :
 extraEngine

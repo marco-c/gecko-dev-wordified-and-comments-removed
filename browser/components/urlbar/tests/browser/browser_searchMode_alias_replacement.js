@@ -381,6 +381,13 @@ assertSearchMode
 (
 window
 {
+source
+:
+UrlbarUtils
+.
+RESULT_SOURCE
+.
+SEARCH
 engineName
 :
 aliasEngine
