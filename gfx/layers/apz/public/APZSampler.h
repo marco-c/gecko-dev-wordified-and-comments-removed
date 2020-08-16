@@ -45,6 +45,17 @@ include
 "
 mozilla
 /
+layers
+/
+SampleTime
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticMutex
 .
 h
@@ -178,7 +189,7 @@ void
 SetSampleTime
 (
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 )
@@ -205,7 +216,7 @@ bool
 AdvanceAnimations
 (
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 )
@@ -450,7 +461,7 @@ mSamplerThreadId
 Mutex
 mSampleTimeLock
 ;
-TimeStamp
+SampleTime
 mSampleTime
 ;
 }

@@ -40,6 +40,17 @@ mozilla
 /
 layers
 /
+SampleTime
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ZoomConstraints
 .
 h
@@ -660,7 +671,7 @@ bool
 AdvanceAnimations
 (
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 )
@@ -673,7 +684,7 @@ RecursiveMutexAutoLock
 &
 aProofOfLock
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 nsTArray
@@ -747,7 +758,7 @@ void
 ReportCheckerboard
 (
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 const
@@ -1125,7 +1136,7 @@ AsyncPanZoomController
 (
 )
 ;
-TimeStamp
+SampleTime
 GetFrameTime
 (
 )
@@ -1834,10 +1845,10 @@ mPinchEventBuffer
 ZoomConstraints
 mZoomConstraints
 ;
-TimeStamp
+SampleTime
 mLastSampleTime
 ;
-TimeStamp
+SampleTime
 mLastCheckerboardReport
 ;
 ParentLayerPoint
@@ -2420,7 +2431,7 @@ WidgetOverscrollEffect
 ParentLayerPoint
 mLastFlingVelocity
 ;
-TimeStamp
+SampleTime
 mLastFlingTime
 ;
 bool

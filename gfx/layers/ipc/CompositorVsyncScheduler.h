@@ -63,6 +63,17 @@ include
 "
 mozilla
 /
+layers
+/
+SampleTime
+.
+h
+"
+#
+include
+"
+mozilla
+/
 VsyncDispatcher
 .
 h
@@ -182,7 +193,7 @@ FlushPendingComposite
 )
 ;
 const
-TimeStamp
+SampleTime
 &
 GetLastComposeTime
 (
@@ -326,7 +337,7 @@ CompositorVsyncSchedulerOwner
 *
 mVsyncSchedulerOwner
 ;
-TimeStamp
+SampleTime
 mLastComposeTime
 ;
 TimeStamp

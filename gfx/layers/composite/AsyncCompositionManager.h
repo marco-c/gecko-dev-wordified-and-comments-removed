@@ -150,6 +150,9 @@ AutoResolveRefLayers
 class
 CompositorBridgeParent
 ;
+class
+SampleTime
+;
 struct
 AsyncTransform
 {
@@ -315,7 +318,9 @@ true
 bool
 TransformShadowTree
 (
-TimeStamp
+const
+SampleTime
+&
 aCurrentFrame
 TimeDuration
 aVsyncRate

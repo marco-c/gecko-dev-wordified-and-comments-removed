@@ -1074,7 +1074,7 @@ aAxis
 )
 ;
 }
-TimeStamp
+SampleTime
 AsyncPanZoomController
 :
 :
@@ -1101,10 +1101,10 @@ GetFrameTime
 (
 )
 :
-TimeStamp
+SampleTime
 :
 :
-Now
+FromNow
 (
 )
 ;
@@ -16902,7 +16902,7 @@ RecursiveMutexAutoLock
 &
 aProofOfLock
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 nsTArray
@@ -17132,7 +17132,7 @@ AsyncPanZoomController
 AdvanceAnimations
 (
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 )
@@ -18530,7 +18530,7 @@ AsyncPanZoomController
 ReportCheckerboard
 (
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 const

@@ -283,6 +283,10 @@ mApzc
 GetFrameTime
 (
 )
+.
+Time
+(
+)
 ;
 CSSToParentLayerScale2D
 zoom
