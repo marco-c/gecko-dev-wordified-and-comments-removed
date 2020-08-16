@@ -225,6 +225,17 @@ httpsonlyerror
 "
 :
 {
+RPMGetFormatURLPref
+:
+[
+"
+app
+.
+support
+.
+baseURL
+"
+]
 RPMSendAsyncMessage
 :
 [
