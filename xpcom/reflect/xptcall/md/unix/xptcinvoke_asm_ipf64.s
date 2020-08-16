@@ -983,6 +983,3 @@ stack
 "
 "
 progbits
-;
-.
-previous

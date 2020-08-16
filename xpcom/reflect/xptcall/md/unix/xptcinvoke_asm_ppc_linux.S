@@ -910,6 +910,3 @@ stack
 "
 "
 progbits
-;
-.
-previous

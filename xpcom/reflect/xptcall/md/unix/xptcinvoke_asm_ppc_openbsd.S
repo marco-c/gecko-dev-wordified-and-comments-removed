@@ -893,6 +893,3 @@ stack
 "
 "
 progbits
-;
-.
-previous

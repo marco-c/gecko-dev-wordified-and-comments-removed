@@ -677,8 +677,5 @@ stack
 "
 "
 progbits
-;
-.
-previous
 #
 endif
