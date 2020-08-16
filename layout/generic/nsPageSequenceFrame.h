@@ -412,12 +412,6 @@ mMargin
 nsSize
 mSize
 ;
-LogicalSize
-mMaxSheetSize
-;
-LogicalSize
-mScrollportSize
-;
 mozilla
 :
 :
@@ -441,6 +435,12 @@ mFromPageNum
 ;
 int32_t
 mToPageNum
+;
+nscoord
+mAvailableISize
+=
+-
+1
 ;
 nsTArray
 <
