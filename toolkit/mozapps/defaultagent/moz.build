@@ -336,13 +336,6 @@ CONFIG
 [
 var
 ]
-RCINCLUDE
-=
-"
-DefaultBrowserAgent
-.
-rc
-"
 DisableStlWrapping
 (
 )

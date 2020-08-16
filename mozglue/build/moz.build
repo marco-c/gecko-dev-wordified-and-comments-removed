@@ -196,13 +196,6 @@ winmm
 dll
 '
 ]
-RCINCLUDE
-=
-'
-mozglue
-.
-rc
-'
 if
 CONFIG
 [
