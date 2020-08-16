@@ -919,11 +919,6 @@ aColorRange
 hasIntermediateBuffer
 )
 ;
-bufSize
-+
-=
-16
-;
 return
 CreateInternal
 (
