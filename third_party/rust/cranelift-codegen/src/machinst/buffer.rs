@@ -10,7 +10,7 @@ Addend
 CodeOffset
 CodeSink
 Reloc
-Stackmap
+StackMap
 }
 ;
 use
@@ -123,7 +123,7 @@ MachSrcLoc
 64
 ]
 >
-stackmaps
+stack_maps
 :
 SmallVec
 <
@@ -270,7 +270,7 @@ MachSrcLoc
 64
 ]
 >
-stackmaps
+stack_maps
 :
 SmallVec
 <
@@ -356,7 +356,7 @@ self
 }
 pub
 enum
-StackmapExtent
+StackMapExtent
 {
 UpcomingBytes
 (
@@ -432,7 +432,7 @@ SmallVec
 new
 (
 )
-stackmaps
+stack_maps
 :
 SmallVec
 :
@@ -3747,11 +3747,11 @@ srclocs
 self
 .
 srclocs
-stackmaps
+stack_maps
 :
 self
 .
-stackmaps
+stack_maps
 }
 }
 pub
@@ -3999,17 +3999,17 @@ loc
 }
 pub
 fn
-add_stackmap
+add_stack_map
 (
 &
 mut
 self
 extent
 :
-StackmapExtent
-stackmap
+StackMapExtent
+stack_map
 :
-Stackmap
+StackMap
 )
 {
 let
@@ -4021,7 +4021,7 @@ end
 match
 extent
 {
-StackmapExtent
+StackMapExtent
 :
 :
 UpcomingBytes
@@ -4047,7 +4047,7 @@ start_offset
 insn_len
 )
 }
-StackmapExtent
+StackMapExtent
 :
 :
 StartedAtOffset
@@ -4084,7 +4084,7 @@ end_offset
 ;
 self
 .
-stackmaps
+stack_maps
 .
 push
 (
@@ -4096,7 +4096,7 @@ start
 offset_end
 :
 end
-stackmap
+stack_map
 }
 )
 ;
@@ -4393,7 +4393,7 @@ end_codegen
 }
 pub
 fn
-stackmaps
+stack_maps
 (
 &
 self
@@ -4408,7 +4408,7 @@ MachStackMap
 &
 self
 .
-stackmaps
+stack_maps
 [
 .
 .
@@ -4554,9 +4554,9 @@ offset_end
 :
 CodeOffset
 pub
-stackmap
+stack_map
 :
-Stackmap
+StackMap
 }
 #
 [

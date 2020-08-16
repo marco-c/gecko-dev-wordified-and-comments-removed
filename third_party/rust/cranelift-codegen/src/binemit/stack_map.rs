@@ -94,7 +94,7 @@ Serialize
 ]
 pub
 struct
-Stackmap
+StackMap
 {
 bitmap
 :
@@ -110,7 +110,7 @@ mapped_words
 u32
 }
 impl
-Stackmap
+StackMap
 {
 pub
 fn
@@ -640,7 +640,7 @@ super
 test
 ]
 fn
-stackmaps
+stack_maps
 (
 )
 {
@@ -662,7 +662,7 @@ new
 assert
 !
 (
-Stackmap
+StackMap
 :
 :
 from_slice
@@ -746,7 +746,7 @@ Num
 2164261024
 )
 ]
-Stackmap
+StackMap
 :
 :
 from_slice
@@ -775,7 +775,7 @@ true
 let
 res
 =
-Stackmap
+StackMap
 :
 :
 from_slice

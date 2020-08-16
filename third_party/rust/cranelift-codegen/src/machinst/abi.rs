@@ -5,7 +5,7 @@ crate
 binemit
 :
 :
-Stackmap
+StackMap
 ;
 use
 crate
@@ -391,7 +391,7 @@ Self
 I
 ;
 fn
-spillslots_to_stackmap
+spillslots_to_stack_map
 (
 &
 self
@@ -418,7 +418,7 @@ State
 )
 -
 >
-Stackmap
+StackMap
 ;
 fn
 gen_prologue

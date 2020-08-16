@@ -863,7 +863,7 @@ This
 will
 allow
 the
-emit_stackmaps
+emit_stack_maps
 (
 )
 function

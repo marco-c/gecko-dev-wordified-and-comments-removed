@@ -5,7 +5,7 @@ crate
 binemit
 :
 :
-Stackmap
+StackMap
 ;
 use
 crate
@@ -4971,7 +4971,7 @@ ty
 )
 }
 fn
-spillslots_to_stackmap
+spillslots_to_stack_map
 (
 &
 self
@@ -4988,7 +4988,7 @@ EmitState
 )
 -
 >
-Stackmap
+StackMap
 {
 assert
 !
@@ -5005,7 +5005,7 @@ trace
 !
 (
 "
-spillslots_to_stackmap
+spillslots_to_stack_map
 :
 slots
 =
@@ -5132,7 +5132,7 @@ slot
 true
 ;
 }
-Stackmap
+StackMap
 :
 :
 from_slice

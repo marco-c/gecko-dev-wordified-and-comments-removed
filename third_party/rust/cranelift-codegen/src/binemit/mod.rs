@@ -8,7 +8,7 @@ mod
 shrink
 ;
 mod
-stackmap
+stack_map
 ;
 pub
 use
@@ -21,10 +21,10 @@ memorysink
 {
 MemoryCodeSink
 NullRelocSink
-NullStackmapSink
+NullStackMapSink
 NullTrapSink
 RelocSink
-StackmapSink
+StackMapSink
 TrapSink
 }
 ;
@@ -53,10 +53,10 @@ use
 self
 :
 :
-stackmap
+stack_map
 :
 :
-Stackmap
+StackMap
 ;
 use
 crate
@@ -605,7 +605,7 @@ self
 )
 ;
 fn
-add_stackmap
+add_stack_map
 (
 &
 mut

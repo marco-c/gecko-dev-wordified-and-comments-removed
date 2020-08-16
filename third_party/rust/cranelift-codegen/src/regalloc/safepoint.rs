@@ -234,7 +234,7 @@ next_inst
 }
 pub
 fn
-emit_stackmaps
+emit_stack_maps
 (
 func
 :

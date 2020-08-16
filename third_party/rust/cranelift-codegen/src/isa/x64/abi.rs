@@ -5,7 +5,7 @@ crate
 binemit
 :
 :
-Stackmap
+StackMap
 ;
 use
 crate
@@ -17,10 +17,6 @@ ir
 {
 self
 types
-types
-:
-:
-*
 ArgumentExtension
 StackSlot
 Type
@@ -2928,7 +2924,7 @@ ty
 )
 }
 fn
-spillslots_to_stackmap
+spillslots_to_stack_map
 (
 &
 self
@@ -2945,7 +2941,7 @@ EmitState
 )
 -
 >
-Stackmap
+StackMap
 {
 assert
 !
@@ -2962,7 +2958,7 @@ trace
 !
 (
 "
-spillslots_to_stackmap
+spillslots_to_stack_map
 :
 slots
 =
@@ -3085,7 +3081,7 @@ slot
 true
 ;
 }
-Stackmap
+StackMap
 :
 :
 from_slice
@@ -3903,6 +3899,9 @@ RegClass
 :
 :
 V128
+types
+:
+:
 F32
 )
 |
@@ -3911,6 +3910,9 @@ RegClass
 :
 :
 V128
+types
+:
+:
 F64
 )
 =
@@ -4099,6 +4101,9 @@ I64
 )
 =
 >
+types
+:
+:
 I64
 _
 =
@@ -4874,9 +4879,6 @@ r14
 to_real_reg
 (
 )
-ir
-:
-:
 types
 :
 :
@@ -4915,9 +4917,6 @@ r10
 to_real_reg
 (
 )
-ir
-:
-:
 types
 :
 :
@@ -5591,9 +5590,6 @@ reg
 to_real_reg
 (
 )
-ir
-:
-:
 types
 :
 :
@@ -5623,9 +5619,6 @@ Stack
 next_stack
 as
 i64
-ir
-:
-:
 types
 :
 :
@@ -7584,6 +7577,9 @@ RegClass
 :
 :
 I64
+types
+:
+:
 I64
 )
 ;
@@ -7734,6 +7730,9 @@ RegClass
 :
 :
 I64
+types
+:
+:
 I64
 )
 ;

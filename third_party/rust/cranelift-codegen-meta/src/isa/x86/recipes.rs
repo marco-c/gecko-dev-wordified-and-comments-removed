@@ -18528,7 +18528,7 @@ r
 "
 sink
 .
-add_stackmap
+add_stack_map
 (
 args
 func

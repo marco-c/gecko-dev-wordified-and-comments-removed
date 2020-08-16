@@ -93,5 +93,5 @@ self
 safepoint
 :
 :
-emit_stackmaps
+emit_stack_maps
 ;

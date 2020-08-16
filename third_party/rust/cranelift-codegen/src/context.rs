@@ -11,7 +11,7 @@ shrink_instructions
 CodeInfo
 MemoryCodeSink
 RelocSink
-StackmapSink
+StackMapSink
 TrapSink
 }
 ;
@@ -495,12 +495,12 @@ traps
 mut
 dyn
 TrapSink
-stackmaps
+stack_maps
 :
 &
 mut
 dyn
-StackmapSink
+StackMapSink
 )
 -
 >
@@ -565,7 +565,7 @@ old_len
 )
 relocs
 traps
-stackmaps
+stack_maps
 )
 }
 ;
@@ -981,12 +981,12 @@ traps
 mut
 dyn
 TrapSink
-stackmaps
+stack_maps
 :
 &
 mut
 dyn
-StackmapSink
+StackMapSink
 )
 -
 >
@@ -1014,7 +1014,7 @@ new
 mem
 relocs
 traps
-stackmaps
+stack_maps
 )
 ;
 if

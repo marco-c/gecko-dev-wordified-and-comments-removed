@@ -8,7 +8,7 @@ binemit
 {
 CodeInfo
 CodeOffset
-Stackmap
+StackMap
 }
 ;
 use
@@ -724,9 +724,9 @@ pre_safepoint
 &
 mut
 self
-_stackmap
+_stack_map
 :
-Stackmap
+StackMap
 )
 {
 }

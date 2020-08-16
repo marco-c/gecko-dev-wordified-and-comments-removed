@@ -128,7 +128,7 @@ let
 (
 mut
 vcode
-stackmap_request_info
+stack_map_request_info
 )
 =
 {
@@ -462,7 +462,7 @@ let
 sri
 =
 if
-stackmap_request_info
+stack_map_request_info
 .
 reftyped_vregs
 .
@@ -473,7 +473,7 @@ len
 0
 &
 &
-stackmap_request_info
+stack_map_request_info
 .
 safepoint_insns
 .
@@ -486,7 +486,7 @@ len
 Some
 (
 &
-stackmap_request_info
+stack_map_request_info
 )
 }
 else
