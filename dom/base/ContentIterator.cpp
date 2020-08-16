@@ -669,6 +669,9 @@ aRoot
 ;
 mLast
 =
+ContentIteratorBase
+:
+:
 GetDeepLastChild
 (
 aRoot
@@ -689,6 +692,9 @@ else
 {
 mFirst
 =
+ContentIteratorBase
+:
+:
 GetDeepFirstChild
 (
 aRoot
@@ -1571,8 +1577,9 @@ nsINode
 const
 result
 =
-mIterator
-.
+ContentIteratorBase
+:
+:
 GetDeepFirstChild
 (
 cChild
@@ -1977,8 +1984,9 @@ nsINode
 const
 result
 =
-mIterator
-.
+ContentIteratorBase
+:
+:
 GetDeepLastChild
 (
 cChild
@@ -2088,6 +2096,9 @@ aRoot
 ;
 }
 return
+ContentIteratorBase
+:
+:
 GetDeepFirstChild
 (
 aRoot
@@ -2199,6 +2210,9 @@ aRoot
 ;
 }
 return
+ContentIteratorBase
+:
+:
 GetDeepLastChild
 (
 aRoot
@@ -2604,6 +2618,9 @@ sibling
 )
 {
 return
+ContentIteratorBase
+:
+:
 GetDeepFirstChild
 (
 sibling
@@ -2700,6 +2717,9 @@ sibling
 )
 {
 return
+ContentIteratorBase
+:
+:
 GetDeepLastChild
 (
 sibling
@@ -3806,6 +3826,9 @@ NS_OK
 }
 firstCandidate
 =
+ContentIteratorBase
+:
+:
 GetDeepFirstChild
 (
 firstCandidate
@@ -3977,6 +4000,9 @@ NS_OK
 }
 lastCandidate
 =
+ContentIteratorBase
+:
+:
 GetDeepLastChild
 (
 lastCandidate
@@ -4234,6 +4260,9 @@ nsINode
 *
 prevNode
 =
+ContentIteratorBase
+:
+:
 GetDeepFirstChild
 (
 mCurNode
@@ -4248,6 +4277,9 @@ prevNode
 ;
 prevNode
 =
+ContentIteratorBase
+:
+:
 GetDeepLastChild
 (
 prevNode

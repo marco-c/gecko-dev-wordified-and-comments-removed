@@ -214,6 +214,7 @@ RawRangeBoundary
 aEnd
 )
 ;
+static
 nsINode
 *
 GetDeepFirstChild
@@ -223,6 +224,7 @@ nsINode
 aRoot
 )
 ;
+static
 nsIContent
 *
 GetDeepFirstChild
@@ -232,6 +234,7 @@ nsIContent
 aRoot
 )
 ;
+static
 nsINode
 *
 GetDeepLastChild
@@ -241,6 +244,7 @@ nsINode
 aRoot
 )
 ;
+static
 nsIContent
 *
 GetDeepLastChild
