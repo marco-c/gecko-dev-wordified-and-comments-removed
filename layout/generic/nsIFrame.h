@@ -12335,6 +12335,9 @@ bool
 mSawBeforeType
 ;
 bool
+mSawInlineCharacter
+;
+bool
 mLastCharWasPunctuation
 ;
 bool
@@ -12358,6 +12361,10 @@ mSawBeforeType
 (
 false
 )
+mSawInlineCharacter
+(
+false
+)
 mLastCharWasPunctuation
 (
 false
@@ -12378,6 +12385,16 @@ SetSawBeforeType
 )
 {
 mSawBeforeType
+=
+true
+;
+}
+void
+SetSawInlineCharacter
+(
+)
+{
+mSawInlineCharacter
 =
 true
 ;
