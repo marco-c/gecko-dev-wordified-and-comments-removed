@@ -304,7 +304,8 @@ performSearch
 }
 -
 (
-NSUInteger
+NSNumber
+*
 )
 moxUIElementCountForSearchPredicate
 :
@@ -316,6 +317,10 @@ searchPredicate
 {
 return
 [
+NSNumber
+numberWithDouble
+:
+[
 [
 self
 moxUIElementsForSearchPredicate
@@ -323,6 +328,7 @@ moxUIElementsForSearchPredicate
 searchPredicate
 ]
 count
+]
 ]
 ;
 }
