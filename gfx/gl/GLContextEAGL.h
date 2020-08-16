@@ -150,14 +150,6 @@ mContext
 }
 virtual
 bool
-IsAliveImpl
-(
-)
-const
-override
-;
-virtual
-bool
 MakeCurrentImpl
 (
 )
