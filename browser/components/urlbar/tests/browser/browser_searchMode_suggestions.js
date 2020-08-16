@@ -347,14 +347,6 @@ checkResults
 {
 isSearchHistory
 :
-false
-suggestion
-:
-undefined
-}
-{
-isSearchHistory
-:
 true
 suggestion
 :

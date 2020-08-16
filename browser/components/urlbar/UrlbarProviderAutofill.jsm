@@ -2104,11 +2104,7 @@ strippedURL
 =
 queryContext
 .
-searchString
-.
-trim
-(
-)
+trimmedSearchString
 ;
 if
 (

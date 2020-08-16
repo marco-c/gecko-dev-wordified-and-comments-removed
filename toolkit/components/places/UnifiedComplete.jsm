@@ -2459,6 +2459,13 @@ tokenize
 searchString
 :
 unescapedSearchString
+trimmedSearchString
+:
+unescapedSearchString
+.
+trim
+(
+)
 }
 )
 ;

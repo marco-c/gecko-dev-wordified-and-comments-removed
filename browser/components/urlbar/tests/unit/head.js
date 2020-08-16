@@ -2601,11 +2601,7 @@ query
 :
 queryContext
 .
-searchString
-.
-trim
-(
-)
+trimmedSearchString
 UrlbarUtils
 .
 HIGHLIGHT

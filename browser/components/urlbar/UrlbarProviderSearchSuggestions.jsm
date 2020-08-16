@@ -363,11 +363,7 @@ if
 !
 queryContext
 .
-searchString
-.
-trim
-(
-)
+trimmedSearchString
 &
 &
 !
@@ -895,6 +891,9 @@ if
 (
 queryContext
 .
+searchMode
+?
+.
 engineName
 )
 {
@@ -907,6 +906,8 @@ search
 getEngineByName
 (
 queryContext
+.
+searchMode
 .
 engineName
 )
@@ -1692,6 +1693,9 @@ SEARCH
 &
 &
 queryContext
+.
+searchMode
+?
 .
 engineName
 &

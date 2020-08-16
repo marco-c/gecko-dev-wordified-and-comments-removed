@@ -433,11 +433,7 @@ searchUrl
 =
 queryContext
 .
-searchString
-.
-trim
-(
-)
+trimmedSearchString
 ;
 if
 (
@@ -789,6 +785,9 @@ if
 (
 queryContext
 .
+searchMode
+?
+.
 engineName
 )
 {
@@ -801,6 +800,8 @@ search
 getEngineByName
 (
 queryContext
+.
+searchMode
 .
 engineName
 )

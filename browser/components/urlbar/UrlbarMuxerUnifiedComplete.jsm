@@ -276,17 +276,6 @@ context
 allHeuristicResults
 )
 {
-if
-(
-!
-result
-.
-heuristic
-)
-{
-continue
-;
-}
 let
 heuristicRank
 =
