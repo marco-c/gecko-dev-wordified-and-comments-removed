@@ -12021,6 +12021,15 @@ type
 =
 =
 NSScrollWheel
+|
+|
+[
+theEvent
+type
+]
+=
+=
+NSEventTypeMagnify
 )
 {
 shouldRollup
