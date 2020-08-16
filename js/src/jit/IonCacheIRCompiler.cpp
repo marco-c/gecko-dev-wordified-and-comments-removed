@@ -11507,7 +11507,7 @@ bool
 IonCacheIRCompiler
 :
 :
-emitCallProxySet
+emitProxySet
 (
 ObjOperandId
 objId
@@ -11651,7 +11651,7 @@ bool
 IonCacheIRCompiler
 :
 :
-emitCallProxySetByValue
+emitProxySetByValue
 (
 ObjOperandId
 objId
