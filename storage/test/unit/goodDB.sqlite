@@ -1,0 +1,17 @@
+SQLite
+format
+3
+.
+4
+/
+GtableFooFoo
+CREATE
+TABLE
+Foo
+(
+id
+VARCHAR
+)
+c
+b
+a
