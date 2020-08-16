@@ -3083,6 +3083,15 @@ aTitle
 )
 ;
 async
+SessionHistoryEntryScrollRestorationIsManual
+(
+uint64_t
+aSessionHistoryEntryID
+bool
+aIsManual
+)
+;
+async
 InitBackground
 (
 Endpoint
