@@ -211,6 +211,7 @@ getCurrentThread
 getThreadContext
 getSkipPausing
 getInlinePreview
+getEditorWrapping
 getHighlightedCalls
 }
 from
@@ -634,6 +635,9 @@ skipPausing
 :
 boolean
 inlinePreviewEnabled
+:
+boolean
+editorWrappingEnabled
 :
 boolean
 highlightedCalls
@@ -3088,6 +3092,7 @@ selectedSource
 conditionalPanelLocation
 isPaused
 inlinePreviewEnabled
+editorWrappingEnabled
 }
 =
 this
@@ -3230,6 +3235,11 @@ selectedSource
 =
 {
 selectedSource
+}
+editorWrappingEnabled
+=
+{
+editorWrappingEnabled
 }
 /
 >
@@ -3530,6 +3540,12 @@ state
 inlinePreviewEnabled
 :
 getInlinePreview
+(
+state
+)
+editorWrappingEnabled
+:
+getEditorWrapping
 (
 state
 )

@@ -175,6 +175,9 @@ void
 editor
 :
 SourceEditor
+editorWrappingEnabled
+:
+boolean
 |
 }
 ;
@@ -206,6 +209,9 @@ hasMappedLocation
 :
 boolean
 isPaused
+:
+boolean
+editorWrappingEnabled
 :
 boolean
 selectedSource
@@ -267,6 +273,7 @@ selectedSource
 editorActions
 hasMappedLocation
 isPaused
+editorWrappingEnabled
 contextMenu
 :
 event
@@ -300,6 +307,7 @@ selectedSource
 hasMappedLocation
 location
 isPaused
+editorWrappingEnabled
 selectionText
 :
 editor
