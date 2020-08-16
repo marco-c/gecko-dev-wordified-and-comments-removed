@@ -614,6 +614,10 @@ extern
 bool
 enablePrivateClassFields
 ;
+extern
+bool
+enablePrivateClassMethods
+;
 #
 ifdef
 JS_GC_ZEAL

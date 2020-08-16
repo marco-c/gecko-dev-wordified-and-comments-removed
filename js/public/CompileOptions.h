@@ -198,6 +198,11 @@ privateClassFields
 =
 false
 ;
+bool
+privateClassMethods
+=
+false
+;
 const
 char
 *
