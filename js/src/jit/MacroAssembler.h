@@ -13995,6 +13995,15 @@ mips_shared
 )
 ;
 void
+atomicIsLockFreeJS
+(
+Register
+value
+Register
+output
+)
+;
+void
 spectreMaskIndex
 (
 Register
