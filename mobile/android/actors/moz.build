@@ -84,16 +84,6 @@ BrowserTabParent
 jsm
 '
 '
-ContentDelegateChild
-.
-jsm
-'
-'
-ContentDelegateParent
-.
-jsm
-'
-'
 GeckoViewContentChild
 .
 jsm

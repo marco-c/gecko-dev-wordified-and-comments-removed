@@ -475,13 +475,5 @@ mozIDOMWindowProxy
 window
 )
 ;
-nsIAndroidEventDispatcher
-getDispatcherByName
-(
-in
-string
-name
-)
-;
 }
 ;

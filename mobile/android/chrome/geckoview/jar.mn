@@ -99,13 +99,6 @@ config
 xhtml
 content
 /
-extension
--
-content
-.
-js
-content
-/
 geckoview
 .
 xhtml
@@ -117,6 +110,11 @@ js
 content
 /
 GeckoViewAutofillChild
+.
+js
+content
+/
+GeckoViewContentChild
 .
 js
 content
