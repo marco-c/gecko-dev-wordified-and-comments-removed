@@ -10825,12 +10825,6 @@ Size
 )
 )
 ;
-gfx
-:
-:
-Matrix4x4
-transform
-;
 imageData
 -
 >
@@ -10841,13 +10835,6 @@ aContainer
 aSc
 rect
 scBounds
-transform
-gfx
-:
-:
-MaybeIntSize
-(
-)
 aContainer
 -
 >

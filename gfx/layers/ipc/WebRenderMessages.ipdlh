@@ -493,12 +493,6 @@ pipelineId
 LayoutDeviceRect
 scBounds
 ;
-Matrix4x4
-scTransform
-;
-MaybeIntSize
-scaleToSize
-;
 Rotation
 rotation
 ;
@@ -507,9 +501,6 @@ filter
 ;
 MixBlendMode
 mixBlendMode
-;
-LayoutDeviceSize
-scaleFromSize
 ;
 }
 ;
