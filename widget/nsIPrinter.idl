@@ -61,5 +61,13 @@ attribute
 Promise
 supportsColor
 ;
+[
+implicit_jscontext
+]
+readonly
+attribute
+Promise
+supportsCollation
+;
 }
 ;

@@ -43,6 +43,13 @@ SupportsColor
 const
 final
 ;
+bool
+SupportsCollation
+(
+)
+const
+final
+;
 nsTArray
 <
 mozilla
