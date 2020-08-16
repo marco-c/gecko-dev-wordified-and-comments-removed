@@ -75,6 +75,7 @@ SpliceableJSONWriter
 ;
 class
 ChunkedJSONWriteFunc
+final
 :
 public
 JSONWriteFunc
@@ -807,6 +808,7 @@ mChunkLengths
 ;
 struct
 OStreamJSONWriteFunc
+final
 :
 public
 JSONWriteFunc
@@ -1112,6 +1114,7 @@ true
 ;
 class
 SpliceableChunkedJSONWriter
+final
 :
 public
 SpliceableJSONWriter
@@ -1136,7 +1139,7 @@ ChunkedJSONWriteFunc
 }
 ChunkedJSONWriteFunc
 *
-WriteFunc
+ChunkedWriteFunc
 (
 )
 const
@@ -1148,16 +1151,12 @@ ChunkedJSONWriteFunc
 *
 >
 (
-JSONWriter
-:
-:
 WriteFunc
 (
 )
 )
 ;
 }
-virtual
 void
 TakeAndSplice
 (
@@ -1171,7 +1170,7 @@ Separator
 (
 )
 ;
-WriteFunc
+ChunkedWriteFunc
 (
 )
 -

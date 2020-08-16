@@ -4883,7 +4883,7 @@ buf
 mWriter
 -
 >
-WriteFunc
+ChunkedWriteFunc
 (
 )
 -
