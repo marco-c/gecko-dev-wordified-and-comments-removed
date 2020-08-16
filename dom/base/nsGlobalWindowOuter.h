@@ -3786,11 +3786,6 @@ nsIURI
 aURI
 )
 ;
-bool
-PopupWhitelisted
-(
-)
-;
 mozilla
 :
 :
@@ -4543,6 +4538,13 @@ TaskCategory
 aCategory
 )
 override
+;
+private
+:
+bool
+IsPopupAllowed
+(
+)
 ;
 protected
 :

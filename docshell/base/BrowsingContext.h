@@ -2938,6 +2938,11 @@ int32_t
 aLengthDelta
 )
 ;
+bool
+IsPopupAllowed
+(
+)
+;
 protected
 :
 virtual

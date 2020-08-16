@@ -93,6 +93,15 @@ aPrincipal
 )
 ;
 static
+uint32_t
+GetPopupPermission
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
+static
 bool
 TryUsePopupOpeningToken
 (
