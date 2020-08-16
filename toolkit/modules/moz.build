@@ -1802,11 +1802,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIBrowserWindowTracker
-.
-idl
-'
-'
 nsIE10SUtils
 .
 idl
