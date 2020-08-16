@@ -1415,14 +1415,11 @@ else
 let
 aliases
 =
-UrlbarSearchUtils
-.
-aliasesForEngine
-(
 oneOffButton
 .
 engine
-)
+.
+aliases
 ;
 if
 (
