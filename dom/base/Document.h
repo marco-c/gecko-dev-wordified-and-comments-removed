@@ -7090,6 +7090,7 @@ bool
 IsEventHandlingEnabled
 (
 )
+const
 {
 return
 !
@@ -7099,6 +7100,21 @@ EventHandlingSuppressed
 &
 &
 mScriptGlobalObject
+;
+}
+bool
+WouldScheduleFrameRequestCallbacks
+(
+)
+const
+{
+return
+mPresShell
+&
+&
+IsEventHandlingEnabled
+(
+)
 ;
 }
 void
@@ -7792,6 +7808,7 @@ bool
 ShouldThrottleFrameRequests
 (
 )
+const
 ;
 bool
 InUnlinkOrDeletion
