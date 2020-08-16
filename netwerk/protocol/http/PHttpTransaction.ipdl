@@ -137,6 +137,8 @@ nsCString
 altSvcUsed
 bool
 dataToChildProcess
+bool
+restarted
 )
 ;
 async

@@ -2680,6 +2680,12 @@ optionalAltSvcUsed
 !
 !
 mDataBridgeParent
+mTransaction
+-
+>
+TakeRestartedState
+(
+)
 )
 ;
 return

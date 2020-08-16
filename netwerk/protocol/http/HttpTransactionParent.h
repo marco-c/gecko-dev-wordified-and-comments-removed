@@ -217,6 +217,10 @@ const
 bool
 &
 aDataToChildProcess
+const
+bool
+&
+aRestarted
 )
 ;
 mozilla
@@ -465,6 +469,10 @@ const
 bool
 &
 aDataToChildProcess
+const
+bool
+&
+aRestarted
 )
 ;
 void
@@ -662,6 +670,9 @@ mDataSentToChildProcess
 ;
 bool
 mIsDocumentLoad
+;
+bool
+mRestarted
 ;
 TimeStamp
 mRedirectStart
