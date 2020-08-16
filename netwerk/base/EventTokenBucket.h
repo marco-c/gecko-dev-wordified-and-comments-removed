@@ -232,7 +232,7 @@ mPaused
 bool
 mStopped
 ;
-nsDeque
+nsRefPtrDeque
 <
 TokenBucketCancelable
 >
