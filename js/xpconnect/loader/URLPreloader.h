@@ -191,6 +191,8 @@ MallocSizeOf
 URLPreloader
 (
 )
+=
+default
 ;
 public
 :
@@ -1022,6 +1024,18 @@ ResolveURI
 nsIURI
 *
 uri
+)
+;
+static
+already_AddRefed
+<
+URLPreloader
+>
+Create
+(
+bool
+*
+aInitialized
 )
 ;
 Result
