@@ -1510,7 +1510,6 @@ Picture3DContext
 :
 :
 Out
-None
 true
 PrimitiveFlags
 :

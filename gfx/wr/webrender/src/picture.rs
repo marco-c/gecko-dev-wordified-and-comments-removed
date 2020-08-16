@@ -4,7 +4,6 @@ api
 :
 {
 MixBlendMode
-PipelineId
 PremultipliedColorF
 FilterPrimitiveKind
 }
@@ -19304,13 +19303,6 @@ Picture3DContext
 OrderedPictureChild
 >
 pub
-frame_output_pipeline_id
-:
-Option
-<
-PipelineId
->
-pub
 extra_gpu_data_handles
 :
 SmallVec
@@ -19911,12 +19903,6 @@ Picture3DContext
 <
 OrderedPictureChild
 >
-frame_output_pipeline_id
-:
-Option
-<
-PipelineId
->
 apply_local_clip_rect
 :
 bool
@@ -19954,7 +19940,6 @@ raster_config
 :
 None
 context_3d
-frame_output_pipeline_id
 extra_gpu_data_handles
 :
 SmallVec
