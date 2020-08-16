@@ -14871,6 +14871,14 @@ completed
 }
 )
 ;
+if
+(
+!
+install
+.
+existingAddon
+)
+{
 this
 .
 recordInstallStatsEvent
@@ -14878,6 +14886,7 @@ recordInstallStatsEvent
 install
 )
 ;
+}
 }
 onDownloadStarted
 (
