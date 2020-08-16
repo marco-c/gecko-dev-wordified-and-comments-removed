@@ -176,6 +176,13 @@ __ppc__
 )
 CPU_TYPE_POWERPC
 #
+elif
+defined
+(
+__aarch64__
+)
+CPU_TYPE_ARM64
+#
 endif
 CPU_TYPE_ANY
 }
