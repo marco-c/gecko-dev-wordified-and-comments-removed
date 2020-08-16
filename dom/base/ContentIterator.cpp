@@ -3609,7 +3609,7 @@ CacheInclusiveAncestorsOfEndContainer
 (
 )
 {
-mEndNodes
+mInclusiveAncestorsOfEndContainer
 .
 Clear
 (
@@ -3652,7 +3652,7 @@ while
 endNode
 )
 {
-mEndNodes
+mInclusiveAncestorsOfEndContainer
 .
 AppendElement
 (
@@ -4431,7 +4431,7 @@ deadlock
 int32_t
 i
 =
-mEndNodes
+mInclusiveAncestorsOfEndContainer
 .
 IndexOf
 (
@@ -4472,7 +4472,7 @@ node
 ;
 i
 =
-mEndNodes
+mInclusiveAncestorsOfEndContainer
 .
 IndexOf
 (

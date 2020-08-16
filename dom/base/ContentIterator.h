@@ -950,7 +950,7 @@ nsIContent
 *
 8
 >
-mEndNodes
+mInclusiveAncestorsOfEndContainer
 ;
 }
 ;
