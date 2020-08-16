@@ -2414,6 +2414,16 @@ mHasHorizontalScrollbar
 1
 ;
 bool
+mOnlyNeedVScrollbarToScrollVVInsideLV
+:
+1
+;
+bool
+mOnlyNeedHScrollbarToScrollVVInsideLV
+:
+1
+;
+bool
 mFrameIsUpdatingScrollbar
 :
 1
