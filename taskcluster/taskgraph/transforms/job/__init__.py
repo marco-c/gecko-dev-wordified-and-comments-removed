@@ -1065,6 +1065,26 @@ split
             
 if
 '
+aarch64
+'
+in
+job
+[
+"
+worker
+-
+type
+"
+]
+:
+                
+yield
+job
+                
+continue
+            
+elif
+'
 win7
 '
 in
