@@ -587,6 +587,10 @@ UnregisterWeakMemoryReporter
 this
 )
 ;
+sInitialized
+=
+false
+;
 }
 }
 Result
