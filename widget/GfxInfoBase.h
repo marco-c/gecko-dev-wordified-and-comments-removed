@@ -82,6 +82,17 @@ h
 #
 include
 "
+mozilla
+/
+gfx
+/
+GraphicsMessages
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -454,7 +465,7 @@ nsTArray
 mozilla
 :
 :
-dom
+gfx
 :
 :
 GfxInfoFeatureStatus
@@ -570,7 +581,7 @@ nsTArray
 mozilla
 :
 :
-dom
+gfx
 :
 :
 GfxInfoFeatureStatus
