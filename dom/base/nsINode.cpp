@@ -16690,6 +16690,15 @@ GetShadowRoot
 if
 (
 originalShadowRoot
+&
+&
+!
+originalShadowRoot
+-
+>
+IsUAWidget
+(
+)
 )
 {
 RefPtr

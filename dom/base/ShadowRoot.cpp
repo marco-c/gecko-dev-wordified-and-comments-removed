@@ -488,6 +488,17 @@ ShadowRoot
 aOther
 )
 {
+MOZ_ASSERT
+(
+!
+aOther
+-
+>
+IsUAWidget
+(
+)
+)
+;
 size_t
 sheetCount
 =
