@@ -29802,7 +29802,10 @@ aOldPresShell
 bool
 shouldBeScheduled
 =
-WouldScheduleFrameRequestCallbacks
+mPresShell
+&
+&
+IsEventHandlingEnabled
 (
 )
 &
@@ -29937,7 +29940,6 @@ Document
 ShouldThrottleFrameRequests
 (
 )
-const
 {
 if
 (

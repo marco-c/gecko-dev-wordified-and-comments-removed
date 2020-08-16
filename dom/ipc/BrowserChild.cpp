@@ -2849,7 +2849,12 @@ nsContentUtils
 :
 SetScrollbarsVisibility
 (
-docShell
+window
+-
+>
+GetDocShell
+(
+)
 !
 !
 (
@@ -2996,10 +3001,6 @@ rv
 ;
 #
 endif
-UpdateVisibility
-(
-)
-;
 return
 NS_OK
 ;
