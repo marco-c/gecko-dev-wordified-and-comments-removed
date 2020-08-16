@@ -2030,12 +2030,12 @@ slot
 ]
 =
 =
-proto
+expected
 .
 -
 name
 :
-GuardFunctionPrototype
+GuardDynamicSlotIsSpecificObject
 shared
 :
 true
@@ -2050,7 +2050,7 @@ args
 obj
 :
 ObjId
-proto
+expected
 :
 ObjId
 slot

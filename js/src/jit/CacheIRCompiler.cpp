@@ -11933,12 +11933,12 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardFunctionPrototype
+emitGuardDynamicSlotIsSpecificObject
 (
 ObjOperandId
 objId
 ObjOperandId
-protoId
+expectedId
 uint32_t
 slotOffset
 )
@@ -11965,14 +11965,14 @@ objId
 )
 ;
 Register
-prototypeObject
+expectedObject
 =
 allocator
 .
 useRegister
 (
 masm
-protoId
+expectedId
 )
 ;
 AutoScratchRegister
@@ -12044,7 +12044,7 @@ scratch2
 )
 ;
 BaseObjectSlotIndex
-prototypeSlot
+expectedSlot
 (
 scratch1
 scratch2
@@ -12058,7 +12058,7 @@ Assembler
 :
 :
 NotEqual
-prototypeSlot
+expectedSlot
 failure
 -
 >
@@ -12071,7 +12071,7 @@ masm
 .
 unboxObject
 (
-prototypeSlot
+expectedSlot
 scratch1
 )
 ;
@@ -12083,7 +12083,7 @@ Assembler
 :
 :
 NotEqual
-prototypeObject
+expectedObject
 scratch1
 failure
 -
