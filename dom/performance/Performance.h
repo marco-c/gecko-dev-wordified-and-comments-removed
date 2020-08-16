@@ -465,6 +465,14 @@ QueueNavigationTimingEntry
 0
 ;
 virtual
+void
+UpdateNavigationTimingEntry
+(
+)
+=
+0
+;
+virtual
 bool
 CrossOriginIsolated
 (

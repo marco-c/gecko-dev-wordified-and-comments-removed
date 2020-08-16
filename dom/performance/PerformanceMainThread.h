@@ -257,6 +257,12 @@ aRetval
 override
 ;
 void
+UpdateNavigationTimingEntry
+(
+)
+override
+;
+void
 QueueNavigationTimingEntry
 (
 )
