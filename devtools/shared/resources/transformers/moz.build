@@ -69,4 +69,11 @@ messages
 .
 js
 '
+'
+root
+-
+node
+.
+js
+'
 )
