@@ -774,11 +774,6 @@ BufferTexture
 h
 '
 '
-BuildConstants
-.
-h
-'
-'
 CanvasDrawEventRecorder
 .
 h
