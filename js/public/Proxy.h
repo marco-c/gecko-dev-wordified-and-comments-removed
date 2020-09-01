@@ -47,6 +47,17 @@ Class
 .
 h
 "
+#
+include
+"
+js
+/
+shadow
+/
+Object
+.
+h
+"
 namespace
 js
 {
@@ -2421,6 +2432,9 @@ JSCLASS_RESERVED_SLOTS_MASK
 )
 <
 =
+JS
+:
+:
 shadow
 :
 :

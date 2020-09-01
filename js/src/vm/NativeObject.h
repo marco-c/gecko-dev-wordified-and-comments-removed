@@ -89,6 +89,17 @@ include
 "
 js
 /
+shadow
+/
+Object
+.
+h
+"
+#
+include
+"
+js
+/
 Value
 .
 h
@@ -1577,6 +1588,9 @@ NativeObject
 =
 sizeof
 (
+JS
+:
+:
 shadow
 :
 :
@@ -1627,6 +1641,9 @@ offsetOfGroup
 =
 offsetof
 (
+JS
+:
+:
 shadow
 :
 :
@@ -1654,6 +1671,9 @@ slots_
 =
 offsetof
 (
+JS
+:
+:
 shadow
 :
 :
@@ -1681,6 +1701,9 @@ elements_
 =
 offsetof
 (
+JS
+:
+:
 shadow
 :
 :
@@ -2724,6 +2747,9 @@ return
 reinterpret_cast
 <
 const
+JS
+:
+:
 shadow
 :
 :
@@ -4106,6 +4132,9 @@ constexpr
 uint32_t
 MAX_FIXED_SLOTS
 =
+JS
+:
+:
 shadow
 :
 :

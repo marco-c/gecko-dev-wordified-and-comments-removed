@@ -16,6 +16,17 @@ h
 #
 include
 "
+js
+/
+shadow
+/
+Object
+.
+h
+"
+#
+include
+"
 vm
 /
 JSObject
@@ -103,6 +114,9 @@ reservedSlots
 =
 offsetof
 (
+JS
+:
+:
 shadow
 :
 :

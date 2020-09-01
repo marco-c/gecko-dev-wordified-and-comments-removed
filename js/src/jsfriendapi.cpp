@@ -167,6 +167,17 @@ include
 "
 js
 /
+shadow
+/
+Object
+.
+h
+"
+#
+include
+"
+js
+/
 Wrapper
 .
 h
@@ -3058,6 +3069,9 @@ set
 reinterpret_cast
 <
 const
+JS
+:
+:
 shadow
 :
 :

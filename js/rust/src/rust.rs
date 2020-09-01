@@ -6187,7 +6187,7 @@ obj
 as
 *
 mut
-js
+JS
 :
 :
 shadow
