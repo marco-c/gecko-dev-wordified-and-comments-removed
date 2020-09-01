@@ -14290,6 +14290,16 @@ size
 )
 ;
 }
+BackgroundCursorChildBase
+:
+:
+~
+BackgroundCursorChildBase
+(
+)
+=
+default
+;
 void
 BackgroundCursorChildBase
 :
