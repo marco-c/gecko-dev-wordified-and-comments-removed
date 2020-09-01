@@ -162,10 +162,11 @@ expectedClrStr
 )
 ;
 }
-test
+async_test
 (
 function
 (
+t
 )
 {
 var
@@ -290,7 +291,9 @@ allow
 commit
 to
 propagate
-setTimeout
+t
+.
+step_timeout
 (
 function
 (
@@ -309,6 +312,12 @@ placeholder
 0
 255
 "
+)
+;
+t
+.
+done
+(
 )
 ;
 }
