@@ -2844,7 +2844,7 @@ aUseMappedRatio
 &
 ratio
 .
-HasMappedRatio
+HasRatio
 (
 )
 )
