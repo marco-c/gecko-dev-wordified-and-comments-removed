@@ -2011,6 +2011,15 @@ this
 )
 ;
 }
+DispatchAsyncEvent
+(
+u
+"
+playbackstatechange
+"
+_ns
+)
+;
 }
 void
 MediaController

@@ -217,6 +217,10 @@ ondeactivated
 ;
 attribute
 EventHandler
+onplaybackstatechange
+;
+attribute
+EventHandler
 onpositionstatechange
 ;
 attribute
