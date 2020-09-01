@@ -4561,6 +4561,11 @@ PerformanceObserverEntryList
 webidl
 '
 '
+PerformancePaintTiming
+.
+webidl
+'
+'
 PerformanceResourceTiming
 .
 webidl
