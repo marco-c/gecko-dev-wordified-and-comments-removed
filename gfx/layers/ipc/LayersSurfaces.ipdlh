@@ -493,6 +493,9 @@ SurfaceDescriptorAndroidHardwareBuffer
 FileDescriptor
 handle
 ;
+uint64_t
+bufferId
+;
 IntSize
 size
 ;
