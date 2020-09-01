@@ -145,7 +145,6 @@ AnimationEffect
 ?
 effect
 ;
-readonly
 attribute
 AnimationTimeline
 ?
