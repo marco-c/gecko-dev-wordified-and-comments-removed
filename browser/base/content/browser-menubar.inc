@@ -192,6 +192,12 @@ updateImportCommandEnabledState
 (
 )
 ;
+PrintUtils
+.
+updatePrintPreviewMenuHiddenState
+(
+)
+;
 "
 >
 <
@@ -690,6 +696,11 @@ print
 -
 setup
 "
+hidden
+=
+"
+true
+"
 /
 >
 #
@@ -723,6 +734,11 @@ file
 print
 -
 preview
+"
+hidden
+=
+"
+true
 "
 /
 >
