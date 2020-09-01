@@ -8399,10 +8399,6 @@ wrench
 document_id
 None
 point
-HitTestFlags
-:
-:
-FIND_ALL
 )
 }
 ;
