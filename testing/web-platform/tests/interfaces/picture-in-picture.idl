@@ -115,7 +115,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 exitPictureInPicture
 (
