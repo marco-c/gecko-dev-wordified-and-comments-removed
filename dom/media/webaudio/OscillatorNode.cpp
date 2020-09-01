@@ -1679,9 +1679,10 @@ mStartCalled
 false
 )
 {
+mFrequency
+=
 CreateAudioParam
 (
-mFrequency
 OscillatorNodeEngine
 :
 :
@@ -1715,9 +1716,10 @@ SampleRate
 2
 )
 ;
+mDetune
+=
 CreateAudioParam
 (
-mDetune
 OscillatorNodeEngine
 :
 :

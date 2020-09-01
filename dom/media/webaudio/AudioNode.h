@@ -897,15 +897,10 @@ AudioParam
 >
 mParams
 ;
-void
+AudioParam
+*
 CreateAudioParam
 (
-RefPtr
-<
-AudioParam
->
-&
-aParam
 uint32_t
 aIndex
 const
