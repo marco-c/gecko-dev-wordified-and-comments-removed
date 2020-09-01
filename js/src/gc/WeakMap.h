@@ -67,6 +67,17 @@ HeapAPI
 .
 h
 "
+#
+include
+"
+js
+/
+shadow
+/
+Zone
+.
+h
+"
 namespace
 js
 {
