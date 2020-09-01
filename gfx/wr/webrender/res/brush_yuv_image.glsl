@@ -131,6 +131,11 @@ vYuvColorMatrix
 ;
 flat
 varying
+vec3
+vYuvOffsetVector
+;
+flat
+varying
 int
 vFormat
 ;
@@ -246,6 +251,15 @@ coefficient
 vYuvColorMatrix
 =
 get_yuv_color_matrix
+(
+prim
+.
+color_space
+)
+;
+vYuvOffsetVector
+=
+get_yuv_offset_vector
 (
 prim
 .
@@ -547,6 +561,7 @@ sample_yuv
 (
 vFormat
 vYuvColorMatrix
+vYuvOffsetVector
 vCoefficient
 vYuvLayers
 vUv_Y
