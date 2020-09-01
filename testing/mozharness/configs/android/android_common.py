@@ -375,24 +375,6 @@ manifest
 "
     
 "
-avds_dir
-"
-:
-"
-/
-builds
-/
-worker
-/
-workspace
-/
-build
-/
-.
-android
-"
-    
-"
 log_tbpl_level
 "
 :
