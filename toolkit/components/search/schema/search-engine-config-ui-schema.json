@@ -19,6 +19,9 @@ defaultPrivate
 orderHint
 "
 "
+sendAttributionRequest
+"
+"
 telemetryId
 "
 "
