@@ -469,7 +469,9 @@ sCupsShim
 cupsCopyDest
 (
 printers
++
 i
+0
 &
 printer
 )
