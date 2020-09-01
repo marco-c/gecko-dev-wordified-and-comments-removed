@@ -1001,6 +1001,15 @@ aProxy
 ;
 }
 static
+void
+DiscardFromContentParent
+(
+ContentParent
+*
+aCP
+)
+;
+static
 already_AddRefed
 <
 BrowsingContext
