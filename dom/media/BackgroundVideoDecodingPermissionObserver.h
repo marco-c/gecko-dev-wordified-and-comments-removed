@@ -37,6 +37,9 @@ dom
 class
 Document
 ;
+class
+BrowsingContext
+;
 }
 class
 MediaDecoder
@@ -105,11 +108,12 @@ DisableEvent
 )
 const
 ;
-already_AddRefed
-<
-nsPIDOMWindowOuter
->
-GetOwnerWindow
+dom
+:
+:
+BrowsingContext
+*
+GetOwnerBC
 (
 )
 const
