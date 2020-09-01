@@ -267,7 +267,7 @@ if
 (
 contentPrincipal
 .
-URI
+isContentPrincipal
 )
 {
 let
@@ -320,9 +320,7 @@ true
 return
 contentPrincipal
 .
-URI
-.
-equals
+equalsURI
 (
 uri
 )
