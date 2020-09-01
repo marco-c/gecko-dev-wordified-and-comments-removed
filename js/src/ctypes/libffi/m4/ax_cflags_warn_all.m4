@@ -75,7 +75,7 @@
 =
 =
 #
-https
+http
 :
 /
 /
@@ -558,7 +558,7 @@ If
 not
 see
 <
-https
+http
 :
 /
 /
@@ -723,7 +723,7 @@ well
 .
 #
 serial
-16
+14
 AC_DEFUN
 (
 [
@@ -994,7 +994,7 @@ FLAGS
 ]
 )
 dnl
-AX_REQUIRE_DEFINED
+AC_REQUIRE
 (
 [
 AX_APPEND_FLAG

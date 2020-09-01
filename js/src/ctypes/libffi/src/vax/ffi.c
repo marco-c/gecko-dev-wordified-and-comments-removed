@@ -390,7 +390,7 @@ z
 )
 z
 =
-FFI_ALIGN
+ALIGN
 (
 z
 sizeof
@@ -885,7 +885,7 @@ z
 )
 z
 =
-FFI_ALIGN
+ALIGN
 (
 z
 sizeof

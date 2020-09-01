@@ -2876,7 +2876,7 @@ more
 .
 #
 else
-cmpwi
+cmpi
 0
 r0
 4
@@ -3841,7 +3841,7 @@ location
 set
 L
 set
-2
+3
 LFE1
 -
 Lstartcode
@@ -3849,7 +3849,7 @@ Lstartcode
 g_long
 L
 set
-2
+3
 ;
 FDE
 address

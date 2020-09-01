@@ -81,13 +81,4 @@ which
 *
 /
 #
-define
-FFI_TARGET_SPECIFIC_VARIADIC
-1
-#
-define
-FFI_EXTRA_CIF_FIELDS
-unsigned
-nfixedargs
-#
 endif

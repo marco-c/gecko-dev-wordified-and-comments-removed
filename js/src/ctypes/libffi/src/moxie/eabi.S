@@ -538,6 +538,8 @@ flags
 *
 /
 sub
+.
+l
 sp
 r2
 /

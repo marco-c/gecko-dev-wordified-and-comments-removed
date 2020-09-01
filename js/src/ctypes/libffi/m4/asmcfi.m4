@@ -27,12 +27,6 @@ asm
 (
 "
 .
-cfi_sections
-\
-n
-\
-t
-.
 cfi_startproc
 \
 n

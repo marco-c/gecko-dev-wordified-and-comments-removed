@@ -12,7 +12,15 @@ toolexeclibdir
 toolexeclibdir
 includedir
 =
-includedir
+{
+libdir
+}
+/
+PACKAGE_NAME
+-
+PACKAGE_VERSION
+/
+include
 Name
 :
 PACKAGE_NAME

@@ -1,19 +1,4 @@
 #
-if
-defined
-__linux__
-&
-&
-!
-defined
-_GNU_SOURCE
-#
-define
-_GNU_SOURCE
-1
-#
-endif
-#
 ifndef
 WIN32
 #
@@ -5100,7 +5085,7 @@ __GNUC__
 &
 defined
 (
-__i386__
+i386
 )
 #
 define
@@ -5707,7 +5692,7 @@ __GNUC__
 &
 defined
 (
-__i386__
+i386
 )
 #
 define
