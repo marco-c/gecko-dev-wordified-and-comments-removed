@@ -23180,13 +23180,6 @@ EditActionHandled
 )
 ;
 }
-Maybe
-<
-nsAtom
-*
->
-newListElementTagNameOfRightListElement
-;
 if
 (
 HTMLEditUtils
@@ -23294,7 +23287,7 @@ mRightBlockElement
 =
 rightListElement
 ;
-newListElementTagNameOfRightListElement
+mNewListElementTagNameOfRightListElement
 =
 Some
 (
@@ -23352,7 +23345,7 @@ MOZ_KnownLive
 mRightBlockElement
 )
 atRightBlockChild
-newListElementTagNameOfRightListElement
+mNewListElementTagNameOfRightListElement
 )
 ;
 NS_WARNING_ASSERTION
@@ -23436,7 +23429,7 @@ MOZ_KnownLive
 *
 mInclusiveDescendantOfLeftBlockElement
 )
-newListElementTagNameOfRightListElement
+mNewListElementTagNameOfRightListElement
 )
 ;
 NS_WARNING_ASSERTION
@@ -23485,7 +23478,7 @@ MOZ_KnownLive
 *
 mRightBlockElement
 )
-newListElementTagNameOfRightListElement
+mNewListElementTagNameOfRightListElement
 )
 ;
 NS_WARNING_ASSERTION

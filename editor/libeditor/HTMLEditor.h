@@ -6359,6 +6359,13 @@ Element
 >
 mRightBlockElement
 ;
+Maybe
+<
+nsAtom
+*
+>
+mNewListElementTagNameOfRightListElement
+;
 }
 ;
 enum
