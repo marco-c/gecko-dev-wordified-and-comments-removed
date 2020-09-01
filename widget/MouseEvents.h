@@ -641,7 +641,7 @@ eControlClick
 }
 ;
 typedef
-bool
+uint8_t
 ExitFromType
 ;
 enum
@@ -651,6 +651,7 @@ ExitFromType
 {
 eChild
 eTopLevel
+ePuppet
 }
 ;
 protected
