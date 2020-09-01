@@ -245,10 +245,6 @@ tparams
 :
 DISABLE_MIGRATION
 )
-.
-is_some
-(
-)
 {
 Some
 (

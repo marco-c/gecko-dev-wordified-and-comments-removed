@@ -1358,7 +1358,7 @@ req
 if
 *
 id
-<
+=
 =
 stream_id
 {
