@@ -78,6 +78,13 @@ if
 mIsRootContent
 )
 {
+mLayoutViewport
+.
+MoveTo
+(
+mScrollOffset
+)
+;
 return
 ;
 }
