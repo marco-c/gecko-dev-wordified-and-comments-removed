@@ -1203,7 +1203,7 @@ return
 mTrack
 -
 >
-SetDisabledTrackMode
+SetEnabled
 (
 mEnabled
 ?
@@ -2070,16 +2070,6 @@ mMuted
 =
 aNewState
 ;
-if
-(
-Ended
-(
-)
-)
-{
-return
-;
-}
 nsString
 eventName
 =
