@@ -1,9 +1,6 @@
 MOZ_AUTOMATION_CHECK
 =
 0
-USE_VALGRIND
-=
-1
 .
 topsrcdir
 /
