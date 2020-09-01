@@ -2765,6 +2765,11 @@ protoObj
 isSingleton
 (
 )
+&
+&
+IsTypeInferenceEnabled
+(
+)
 )
 {
 if
