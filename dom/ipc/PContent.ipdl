@@ -3067,8 +3067,8 @@ aChangeID
 async
 SynchronizeLayoutHistoryState
 (
-uint64_t
-aSessionHistoryEntryID
+MaybeDiscardedBrowsingContext
+aContext
 nsILayoutHistoryState
 aState
 )
@@ -3076,8 +3076,8 @@ aState
 async
 SessionHistoryEntryTitle
 (
-uint64_t
-aSessionHistoryEntryID
+MaybeDiscardedBrowsingContext
+aContext
 nsString
 aTitle
 )
@@ -3085,8 +3085,8 @@ aTitle
 async
 SessionHistoryEntryScrollRestorationIsManual
 (
-uint64_t
-aSessionHistoryEntryID
+MaybeDiscardedBrowsingContext
+aContext
 bool
 aIsManual
 )
@@ -3094,8 +3094,8 @@ aIsManual
 async
 SessionHistoryEntryCacheKey
 (
-uint64_t
-aSessionHistoryEntryID
+MaybeDiscardedBrowsingContext
+aContext
 uint32_t
 aCacheKey
 )
