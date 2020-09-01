@@ -1232,6 +1232,10 @@ include_https
 =
 True
                  
+include_h2
+=
+True
+                 
 include_quic
 =
 False
@@ -1299,6 +1303,12 @@ self
 include_https
 =
 include_https
+        
+self
+.
+include_h2
+=
+include_h2
         
 self
 .
@@ -1941,6 +1951,31 @@ protocol
 =
 "
 https
+"
+:
+                
+enabled
+=
+False
+            
+if
+not
+self
+.
+include_h2
+and
+test
+.
+environment
+[
+"
+protocol
+"
+]
+=
+=
+"
+h2
 "
 :
                 

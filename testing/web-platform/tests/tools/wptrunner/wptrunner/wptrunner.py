@@ -14,6 +14,8 @@ six
 import
 iteritems
 itervalues
+import
+wptserve
 from
 wptserve
 import
@@ -469,6 +471,16 @@ ssl_type
 .
 ssl_enabled
     
+h2_enabled
+=
+wptserve
+.
+utils
+.
+http2_compatible
+(
+)
+    
 test_loader
 =
 testloader
@@ -520,6 +532,10 @@ this_chunk
 include_https
 =
 ssl_enabled
+                                        
+include_h2
+=
+h2_enabled
                                         
 include_quic
 =
