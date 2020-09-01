@@ -4829,7 +4829,7 @@ return
 mTrack
 -
 >
-SetDisabledTrackMode
+SetEnabled
 (
 aEnabled
 ?

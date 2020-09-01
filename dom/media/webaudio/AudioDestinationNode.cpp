@@ -2532,7 +2532,7 @@ ENABLED
 mTrack
 -
 >
-SetDisabledTrackMode
+SetEnabled
 (
 disabledMode
 )
