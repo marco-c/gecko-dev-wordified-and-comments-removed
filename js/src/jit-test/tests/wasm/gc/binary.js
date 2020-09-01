@@ -103,7 +103,8 @@ checkInvalid
 (
 invalidRefBlockType
 /
-ref
+heap
+type
 /
 )
 ;
@@ -135,7 +136,8 @@ checkInvalid
 (
 invalidTooBigRefType
 /
-ref
+heap
+type
 /
 )
 ;
