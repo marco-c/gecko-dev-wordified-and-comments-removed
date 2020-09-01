@@ -5436,14 +5436,6 @@ mEmptyInclusiveAncestorBlockElement
 ;
 }
 ;
-enum
-class
-SelectionWasCollapsed
-{
-Yes
-No
-}
-;
 [
 [
 nodiscard
