@@ -1029,7 +1029,7 @@ CaretOffset
 (
 )
 ;
-start
+end
 =
 start
 !
@@ -1094,7 +1094,7 @@ CaretOffset
 (
 )
 ;
-start
+end
 =
 start
 !
