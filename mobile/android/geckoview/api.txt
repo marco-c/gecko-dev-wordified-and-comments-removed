@@ -6172,6 +6172,7 @@ GeckoSession
 )
 ;
 method
+Deprecated
 UiThread
 default
 public
@@ -6184,6 +6185,19 @@ NonNull
 GeckoSession
 .
 WebResponseInfo
+)
+;
+method
+UiThread
+default
+public
+void
+onExternalResponse
+(
+NonNull
+GeckoSession
+NonNull
+WebResponse
 )
 ;
 method
