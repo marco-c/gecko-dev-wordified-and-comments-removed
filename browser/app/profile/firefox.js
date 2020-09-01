@@ -12163,7 +12163,7 @@ ecosystemtelemetry
 .
 enabled
 "
-true
+false
 )
 ;
 pref
