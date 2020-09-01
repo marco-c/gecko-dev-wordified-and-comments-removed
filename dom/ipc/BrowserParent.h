@@ -394,12 +394,6 @@ aChromeFlags
 )
 ;
 static
-void
-InitializeStatics
-(
-)
-;
-static
 BrowserParent
 *
 GetFocused
