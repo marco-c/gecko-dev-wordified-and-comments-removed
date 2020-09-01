@@ -70,12 +70,6 @@ time
 suite
 :
 raptor
-workdir
-:
-/
-builds
-/
-worker
 run
 -
 on
