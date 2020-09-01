@@ -5,14 +5,6 @@ initXPCShellAddonManager
 this
 )
 ;
-SearchTestUtils
-.
-init
-(
-Assert
-registerCleanupFunction
-)
-;
 const
 NAME
 =

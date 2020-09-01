@@ -339,6 +339,14 @@ jsm
 "
 )
 ;
+SearchTestUtils
+.
+init
+(
+Assert
+registerCleanupFunction
+)
+;
 const
 PREF_SEARCH_URL
 =
