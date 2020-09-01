@@ -1092,7 +1092,7 @@ MainControllerPlaybackStateChanged
 aController
 -
 >
-GetState
+PlaybackState
 (
 )
 )
@@ -1113,7 +1113,7 @@ aController
 aController
 -
 >
-GetState
+PlaybackState
 (
 )
 =
@@ -1382,7 +1382,7 @@ GetMainController
 )
 -
 >
-GetState
+PlaybackState
 (
 )
 :
@@ -2042,7 +2042,7 @@ SetPlaybackState
 mMainController
 -
 >
-GetState
+PlaybackState
 (
 )
 )

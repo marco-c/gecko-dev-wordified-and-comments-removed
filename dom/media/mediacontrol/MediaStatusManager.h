@@ -529,7 +529,7 @@ mPositionStateChangedEvent
 ;
 }
 MediaSessionPlaybackState
-GetState
+PlaybackState
 (
 )
 const

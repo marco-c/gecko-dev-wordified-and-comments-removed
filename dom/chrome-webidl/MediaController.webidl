@@ -181,6 +181,11 @@ attribute
 boolean
 isPlaying
 ;
+readonly
+attribute
+MediaSessionPlaybackState
+playbackState
+;
 [
 Throws
 ]

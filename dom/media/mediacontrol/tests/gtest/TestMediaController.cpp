@@ -94,7 +94,7 @@ ASSERT_TRUE
 controller
 -
 >
-GetState
+PlaybackState
 (
 )
 =
@@ -652,7 +652,7 @@ ASSERT_TRUE
 controller
 -
 >
-GetState
+PlaybackState
 (
 )
 =
@@ -678,7 +678,7 @@ ASSERT_TRUE
 controller
 -
 >
-GetState
+PlaybackState
 (
 )
 =
@@ -704,7 +704,7 @@ ASSERT_TRUE
 controller
 -
 >
-GetState
+PlaybackState
 (
 )
 =
@@ -730,7 +730,7 @@ ASSERT_TRUE
 controller
 -
 >
-GetState
+PlaybackState
 (
 )
 =
@@ -747,7 +747,7 @@ ASSERT_TRUE
 controller
 -
 >
-GetState
+PlaybackState
 (
 )
 =
@@ -789,7 +789,7 @@ ASSERT_TRUE
 controller
 -
 >
-GetState
+PlaybackState
 (
 )
 =
@@ -815,7 +815,7 @@ ASSERT_TRUE
 controller
 -
 >
-GetState
+PlaybackState
 (
 )
 =
@@ -837,7 +837,7 @@ ASSERT_TRUE
 controller
 -
 >
-GetState
+PlaybackState
 (
 )
 =
@@ -863,7 +863,7 @@ ASSERT_TRUE
 controller
 -
 >
-GetState
+PlaybackState
 (
 )
 =
@@ -889,7 +889,7 @@ ASSERT_TRUE
 controller
 -
 >
-GetState
+PlaybackState
 (
 )
 =
@@ -915,7 +915,7 @@ ASSERT_TRUE
 controller
 -
 >
-GetState
+PlaybackState
 (
 )
 =
@@ -932,7 +932,7 @@ ASSERT_TRUE
 controller
 -
 >
-GetState
+PlaybackState
 (
 )
 =
