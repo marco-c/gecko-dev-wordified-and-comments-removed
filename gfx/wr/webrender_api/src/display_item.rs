@@ -333,13 +333,6 @@ spatial_id
 :
 SpatialId
 pub
-hit_info
-:
-Option
-<
-ItemTag
->
-pub
 flags
 :
 PrimitiveFlags
@@ -375,9 +368,6 @@ clip_id
 space_and_clip
 .
 clip_id
-hit_info
-:
-None
 flags
 :
 PrimitiveFlags
@@ -1185,6 +1175,10 @@ pub
 common
 :
 CommonItemProperties
+pub
+tag
+:
+ItemTag
 }
 #
 [

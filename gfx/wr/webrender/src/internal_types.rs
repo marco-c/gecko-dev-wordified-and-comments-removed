@@ -17,7 +17,6 @@ api
 :
 {
 ImageFormat
-ItemTag
 NotificationRequest
 Shadow
 FilterOp
@@ -2995,13 +2994,6 @@ pub
 flags
 :
 PrimitiveFlags
-pub
-hit_info
-:
-Option
-<
-ItemTag
->
 }
 impl
 LayoutPrimitiveInfo
@@ -3033,9 +3025,6 @@ PrimitiveFlags
 default
 (
 )
-hit_info
-:
-None
 }
 }
 }
