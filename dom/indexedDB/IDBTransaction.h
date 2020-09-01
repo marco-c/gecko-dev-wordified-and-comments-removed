@@ -532,7 +532,7 @@ indexedDB
 :
 :
 PBackgroundIDBCursorChild
-&
+*
 aBackgroundActor
 const
 indexedDB
