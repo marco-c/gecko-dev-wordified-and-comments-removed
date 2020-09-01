@@ -8,6 +8,12 @@ from
 mozlog
 import
 get_default_logger
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 logger
 =
 None
@@ -132,7 +138,10 @@ cwd
 "
 ]
 =
+isomorphic_decode
+(
 repo
+)
         
 if
 stdout
