@@ -3439,6 +3439,8 @@ uint32_t
 aCh
 uint32_t
 aNextCh
+eFontPresentation
+aPresentation
 )
 ;
 gfxFont
@@ -3451,6 +3453,8 @@ uint32_t
 aNextCh
 Script
 aRunScript
+eFontPresentation
+aPresentation
 )
 ;
 template
@@ -4937,6 +4941,10 @@ FamilyFace
 aFamily
 uint32_t
 aCh
+uint32_t
+aNextCh
+eFontPresentation
+aPresentation
 )
 ;
 gfxFont
@@ -4954,6 +4962,10 @@ Family
 aFamily
 uint32_t
 aCh
+uint32_t
+aNextCh
+eFontPresentation
+aPresentation
 )
 ;
 gfxFont
@@ -4965,6 +4977,10 @@ gfxFontFamily
 aFamily
 uint32_t
 aCh
+uint32_t
+aNextCh
+eFontPresentation
+aPresentation
 )
 ;
 void

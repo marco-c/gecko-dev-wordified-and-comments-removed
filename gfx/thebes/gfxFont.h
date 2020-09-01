@@ -6532,6 +6532,15 @@ int32_t
 aAppUnitsPerDevPixel
 )
 ;
+bool
+HasColorGlyphFor
+(
+uint32_t
+aCh
+uint32_t
+aNextCh
+)
+;
 protected
 :
 virtual
