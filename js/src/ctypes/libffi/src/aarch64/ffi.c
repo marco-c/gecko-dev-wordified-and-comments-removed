@@ -3104,6 +3104,13 @@ N_X_ARG_REG
 #
 ifdef
 __APPLE__
+if
+(
+!
+state
+.
+allocating_variadic
+)
 memcpy
 (
 d
@@ -3111,8 +3118,9 @@ a
 s
 )
 ;
-#
 else
+#
+endif
 *
 (
 ffi_arg
@@ -3122,8 +3130,6 @@ d
 =
 ext
 ;
-#
-endif
 }
 }
 break
