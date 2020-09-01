@@ -2039,8 +2039,6 @@ ClientInfo
 &
 aInfo
 bool
-aHasGesture
-bool
 aUrgentStart
 base
 :
@@ -2722,7 +2720,12 @@ aLoadState
 TriggeringPrincipal
 (
 )
-aHasGesture
+aLoadState
+-
+>
+HasValidUserGestureActivation
+(
+)
 documentContext
 -
 >
@@ -3091,8 +3094,6 @@ ClientInfo
 &
 &
 aInfo
-bool
-aHasGesture
 Maybe
 <
 bool
@@ -3224,7 +3225,6 @@ move
 (
 aInfo
 )
-aHasGesture
 false
 aPid
 aRv
@@ -3272,8 +3272,6 @@ nsLoadFlags
 aLoadFlags
 nsContentPolicyType
 aContentPolicyType
-bool
-aHasGesture
 bool
 aUrgentStart
 base
@@ -3377,7 +3375,6 @@ move
 (
 aInfo
 )
-aHasGesture
 aUrgentStart
 aPid
 aRv
@@ -3723,7 +3720,6 @@ move
 (
 initialClientInfo
 )
-false
 false
 browsingContext
 -

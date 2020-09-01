@@ -390,11 +390,6 @@ move
 (
 clientInfo
 )
-aArgs
-.
-hasValidTransientUserAction
-(
-)
 Some
 (
 docArgs
@@ -491,11 +486,6 @@ loadFlags
 objectArgs
 .
 contentPolicyType
-(
-)
-aArgs
-.
-hasValidTransientUserAction
 (
 )
 objectArgs
