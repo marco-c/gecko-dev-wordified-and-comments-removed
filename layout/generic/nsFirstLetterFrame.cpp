@@ -1430,9 +1430,7 @@ CreateNextInFlow
 kid
 )
 ;
-const
 nsFrameList
-&
 overflow
 =
 mFrames
@@ -1453,7 +1451,13 @@ NotEmpty
 {
 SetOverflowFrames
 (
+std
+:
+:
+move
+(
 overflow
+)
 )
 ;
 }

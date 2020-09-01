@@ -3829,9 +3829,7 @@ MarkSubtreeDirty
 (
 )
 ;
-const
 nsFrameList
-&
 continuationColumns
 =
 mFrames
@@ -3852,7 +3850,13 @@ NotEmpty
 {
 SetOverflowFrames
 (
+std
+:
+:
+move
+(
 continuationColumns
+)
 )
 ;
 }

@@ -5080,7 +5080,13 @@ else
 {
 SetOverflowFrames
 (
+std
+:
+:
+move
+(
 nifs
+)
 )
 ;
 }

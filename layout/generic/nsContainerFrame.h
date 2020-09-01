@@ -1192,8 +1192,8 @@ list
 void
 SetOverflowFrames
 (
-const
 nsFrameList
+&
 &
 aOverflowFrames
 )
@@ -1227,7 +1227,13 @@ PresShell
 )
 nsFrameList
 (
+std
+:
+:
+move
+(
 aOverflowFrames
+)
 )
 )
 ;
