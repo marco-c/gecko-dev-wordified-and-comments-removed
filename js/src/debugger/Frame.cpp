@@ -4696,9 +4696,10 @@ compilationInfo
 .
 input
 .
-init
+initForEval
 (
 cx
+scope
 )
 )
 {
@@ -4706,15 +4707,6 @@ return
 false
 ;
 }
-compilationInfo
-.
-input
-.
-setEnclosingScope
-(
-scope
-)
-;
 frontend
 :
 :
@@ -4770,7 +4762,7 @@ compilationInfo
 .
 input
 .
-init
+initForGlobal
 (
 cx
 )

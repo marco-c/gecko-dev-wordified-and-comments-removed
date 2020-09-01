@@ -394,7 +394,7 @@ compilationInfo
 .
 input
 .
-init
+initForGlobal
 (
 cx
 )
@@ -876,7 +876,7 @@ compilationInfo
 .
 input
 .
-init
+initForGlobal
 (
 cx
 )
@@ -2563,7 +2563,7 @@ compilationInfo
 .
 input
 .
-init
+initForGlobal
 (
 cx
 )
