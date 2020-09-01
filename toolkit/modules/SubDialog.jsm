@@ -2816,9 +2816,7 @@ currentTarget
 =
 this
 .
-_frame
-.
-contentDocument
+_box
 )
 |
 |
@@ -2844,9 +2842,12 @@ _window
 {
 this
 .
+_frame
+.
+contentWindow
+.
 close
 (
-aEvent
 )
 ;
 return
@@ -3524,9 +3525,7 @@ MOVEFOCUS_FIRST
 ;
 this
 .
-_frame
-.
-contentDocument
+_box
 .
 addEventListener
 (
@@ -3581,9 +3580,7 @@ _untrapFocus
 {
 this
 .
-_frame
-.
-contentDocument
+_box
 .
 removeEventListener
 (
