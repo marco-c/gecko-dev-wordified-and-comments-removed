@@ -2901,6 +2901,12 @@ JS
 OwningCompileOptions
 options
 ;
+JSRuntime
+*
+runtime
+=
+nullptr
+;
 JSObject
 *
 parseGlobal
@@ -3019,12 +3025,7 @@ rt
 )
 {
 return
-parseGlobal
--
->
-runtimeFromAnyThread
-(
-)
+runtime
 =
 =
 rt
