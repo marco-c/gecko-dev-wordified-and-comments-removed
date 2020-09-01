@@ -2890,6 +2890,9 @@ aPreviousResult
 nsIAutoCompleteObserver
 *
 aListener
+nsIPropertyBag2
+*
+aOptions
 )
 {
 MOZ_LOG
@@ -3094,6 +3097,7 @@ mFocusedInput
 aPreviousResult
 datalistResult
 this
+aOptions
 )
 ;
 mLastFormAutoComplete

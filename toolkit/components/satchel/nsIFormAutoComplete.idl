@@ -69,6 +69,9 @@ nsIAutoCompleteResult
 interface
 nsIFormAutoCompleteObserver
 ;
+interface
+nsIPropertyBag2
+;
 webidl
 HTMLInputElement
 ;
@@ -129,6 +132,12 @@ aDatalistResult
 in
 nsIFormAutoCompleteObserver
 aListener
+[
+optional
+]
+in
+nsIPropertyBag2
+options
 )
 ;
 /
