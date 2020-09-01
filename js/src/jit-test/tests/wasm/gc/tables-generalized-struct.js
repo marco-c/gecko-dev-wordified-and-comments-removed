@@ -15,7 +15,7 @@ t
 "
 )
 10
-anyref
+externref
 )
 (
 type
@@ -33,7 +33,7 @@ func
 (
 export
 "
-set_anyref
+set_externref
 "
 )
 (
@@ -42,7 +42,7 @@ i32
 )
 (
 param
-anyref
+externref
 )
 (
 table
@@ -106,7 +106,7 @@ i32
 )
 (
 param
-anyref
+externref
 )
 (
 table
@@ -122,7 +122,7 @@ get
 struct
 .
 narrow
-anyref
+externref
 (
 ref
 opt
@@ -147,7 +147,7 @@ make_struct
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -175,7 +175,7 @@ ins
 .
 exports
 .
-set_anyref
+set_externref
 (
 3
 x
@@ -266,7 +266,7 @@ ins
 .
 exports
 .
-set_anyref
+set_externref
 (
 10
 x
@@ -292,7 +292,7 @@ ins
 .
 exports
 .
-set_anyref
+set_externref
 (
 -
 1
@@ -342,7 +342,7 @@ t
 "
 )
 2
-anyref
+externref
 )
 (
 func

@@ -113,7 +113,7 @@ get
 )
 (
 result
-anyref
+externref
 )
 (
 global
@@ -573,13 +573,13 @@ g
 (
 global
 g
-anyref
+externref
 )
 )
 (
 global
 glob
-anyref
+externref
 (
 global
 .
@@ -597,7 +597,7 @@ get
 )
 (
 result
-anyref
+externref
 )
 (
 global

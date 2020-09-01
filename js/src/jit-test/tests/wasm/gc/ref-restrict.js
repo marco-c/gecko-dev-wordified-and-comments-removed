@@ -90,7 +90,7 @@ f
 )
 (
 param
-anyref
+externref
 )
 (
 unreachable
@@ -180,7 +180,7 @@ f
 )
 (
 result
-anyref
+externref
 )
 (
 ref
@@ -271,7 +271,7 @@ f
 func
 (
 param
-anyref
+externref
 )
 )
 )
@@ -365,7 +365,7 @@ i32
 )
 (
 result
-anyref
+externref
 )
 )
 )
@@ -504,7 +504,7 @@ g
 global
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -532,7 +532,7 @@ g
 "
 (
 global
-anyref
+externref
 )
 )
 )
@@ -679,7 +679,7 @@ box
 )
 (
 mut
-anyref
+externref
 )
 (
 ref
@@ -711,7 +711,7 @@ export
 box
 "
 )
-anyref
+externref
 (
 ref
 .
@@ -907,7 +907,7 @@ func
 f1
 (
 param
-anyref
+externref
 )
 (
 unreachable
@@ -953,7 +953,7 @@ func
 f1
 (
 result
-anyref
+externref
 )
 (
 ref
@@ -1159,7 +1159,7 @@ func
 f1
 (
 param
-anyref
+externref
 )
 (
 unreachable
@@ -1208,7 +1208,7 @@ func
 f1
 (
 result
-anyref
+externref
 )
 (
 ref
@@ -1417,7 +1417,7 @@ fn
 func
 (
 param
-anyref
+externref
 )
 )
 )
@@ -1479,7 +1479,7 @@ fn
 func
 (
 result
-anyref
+externref
 )
 )
 )
@@ -1502,7 +1502,7 @@ i32
 )
 (
 result
-anyref
+externref
 )
 (
 call_indirect
@@ -1724,7 +1724,7 @@ fn
 func
 (
 param
-anyref
+externref
 )
 )
 )
@@ -1789,7 +1789,7 @@ fn
 func
 (
 result
-anyref
+externref
 )
 )
 )
@@ -1815,7 +1815,7 @@ i32
 )
 (
 result
-anyref
+externref
 )
 (
 call_indirect

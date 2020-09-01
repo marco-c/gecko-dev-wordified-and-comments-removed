@@ -159,7 +159,7 @@ g
 (
 global
 glob
-anyref
+externref
 )
 )
 (
@@ -172,7 +172,7 @@ f
 )
 (
 result
-anyref
+externref
 )
 (
 global
@@ -252,7 +252,7 @@ global
 glob
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -267,7 +267,7 @@ f
 (
 param
 v
-anyref
+externref
 )
 (
 global
@@ -405,7 +405,7 @@ t
 table
 t
 10
-anyref
+externref
 )
 )
 (
@@ -419,7 +419,7 @@ f
 (
 param
 v
-anyref
+externref
 )
 (
 table
@@ -518,7 +518,7 @@ t
 table
 t
 10
-anyref
+externref
 )
 )
 (
@@ -531,7 +531,7 @@ f
 )
 (
 result
-anyref
+externref
 )
 (
 table
@@ -633,7 +633,7 @@ func
 returner
 (
 result
-anyref
+externref
 )
 )
 )
@@ -650,7 +650,7 @@ func
 receiver
 (
 param
-anyref
+externref
 )
 )
 )
@@ -664,7 +664,7 @@ test_returner
 )
 (
 result
-anyref
+externref
 )
 (
 call
@@ -682,7 +682,7 @@ test_receiver
 (
 param
 v
-anyref
+externref
 )
 (
 call

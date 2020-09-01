@@ -73,7 +73,7 @@ odd
 ;
 ;
 Use
-anyref
+externref
 on
 the
 API
@@ -101,11 +101,11 @@ func
 imp
 (
 param
-anyref
+externref
 )
 (
 result
-anyref
+externref
 )
 )
 )
@@ -600,7 +600,7 @@ func
 g
 (
 param
-anyref
+externref
 )
 (
 unreachable
@@ -1466,7 +1466,7 @@ func
 f
 (
 param
-anyref
+externref
 )
 (
 call

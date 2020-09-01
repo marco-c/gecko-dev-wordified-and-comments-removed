@@ -65,7 +65,7 @@ func
 test
 (
 local
-anyref
+externref
 )
 )
 )
@@ -78,7 +78,7 @@ func
 test
 (
 param
-anyref
+externref
 )
 )
 )
@@ -91,7 +91,7 @@ func
 test
 (
 result
-anyref
+externref
 )
 (
 ref
@@ -112,7 +112,7 @@ test
 block
 (
 result
-anyref
+externref
 )
 (
 unreachable
@@ -134,7 +134,7 @@ i32
 )
 (
 local
-anyref
+externref
 )
 (
 ref
@@ -164,7 +164,7 @@ b
 func
 (
 param
-anyref
+externref
 )
 )
 )
@@ -183,7 +183,7 @@ b
 func
 (
 result
-anyref
+externref
 )
 )
 )

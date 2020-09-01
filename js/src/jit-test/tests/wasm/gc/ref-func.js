@@ -577,7 +577,7 @@ referenced
 )
 '
 '
-anyref
+externref
 '
 )
 instanceof
@@ -604,7 +604,7 @@ referenced
 )
 '
 '
-anyref
+externref
 '
 )
 instanceof
@@ -629,7 +629,7 @@ referenced
 )
 '
 '
-anyref
+externref
 '
 )
 WebAssembly
