@@ -3165,14 +3165,6 @@ APPEND_DEVICE
 0x98e4
 )
 ;
-#
-endif
-#
-if
-defined
-(
-NIGHTLY_BUILD
-)
 APPEND_RANGE
 (
 0x6840
