@@ -2607,7 +2607,7 @@ Mutated
 %
 p
 )
-FrameMetrics
+ScrollMetadata
 "
 this
 )
@@ -2678,7 +2678,7 @@ Mutated
 %
 p
 )
-FrameMetrics
+ScrollMetadata
 "
 this
 )
