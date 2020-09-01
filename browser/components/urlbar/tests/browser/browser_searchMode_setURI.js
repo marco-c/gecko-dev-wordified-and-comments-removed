@@ -819,6 +819,7 @@ setURI
 uri
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -846,6 +847,7 @@ handleRevert
 (
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode

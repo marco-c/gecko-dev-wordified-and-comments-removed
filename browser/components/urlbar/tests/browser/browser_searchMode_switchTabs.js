@@ -185,6 +185,7 @@ tabs
 ]
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -218,6 +219,7 @@ tabs
 await
 searchPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -246,6 +248,7 @@ tabs
 ]
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -315,6 +318,7 @@ tabs
 await
 searchPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -343,6 +347,7 @@ tabs
 ]
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -375,6 +380,7 @@ tabs
 await
 searchPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -428,6 +434,7 @@ tabs
 await
 searchPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -468,6 +475,7 @@ tabs
 await
 searchPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -500,6 +508,7 @@ tabs
 await
 searchPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -553,6 +562,7 @@ tabs
 await
 searchPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -585,6 +595,7 @@ tabs
 await
 searchPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode

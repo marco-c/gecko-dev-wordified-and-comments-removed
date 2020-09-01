@@ -217,6 +217,7 @@ VK_SPACE
 await
 searchPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -375,6 +376,7 @@ window
 await
 searchPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -621,6 +623,7 @@ window
 await
 searchPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode

@@ -1093,6 +1093,7 @@ getSelectableButtons
 true
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -1157,6 +1158,7 @@ empty
 "
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -1535,6 +1537,7 @@ keyboard_shortcut
 (
 )
 {
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -1557,6 +1560,7 @@ true
 }
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -1605,6 +1609,7 @@ menubar_item
 (
 )
 {
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -1635,6 +1640,7 @@ doCommand
 (
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -1900,6 +1906,7 @@ false
 }
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode

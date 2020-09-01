@@ -2303,7 +2303,7 @@ currentPage
 ;
 this
 .
-_engineName
+_searchModeEngine
 =
 queryContext
 .
@@ -3379,7 +3379,7 @@ if
 (
 this
 .
-_engineName
+_searchModeEngine
 &
 &
 !
@@ -3399,7 +3399,7 @@ getEngineByName
 (
 this
 .
-_engineName
+_searchModeEngine
 )
 ;
 this
@@ -6633,6 +6633,16 @@ _addAdaptiveQueryMatch
 row
 )
 {
+if
+(
+this
+.
+_searchModeEngine
+)
+{
+return
+;
+}
 if
 (
 this

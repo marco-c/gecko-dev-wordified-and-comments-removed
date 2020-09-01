@@ -430,6 +430,7 @@ URL
 "
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
