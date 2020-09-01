@@ -777,6 +777,11 @@ bigIntData
 Vector
 <
 ObjLiteralStencil
+0
+js
+:
+:
+SystemAllocPolicy
 >
 objLiteralData
 ;
@@ -820,10 +825,6 @@ JSContext
 cx
 )
 :
-objLiteralData
-(
-cx
-)
 scriptData
 (
 cx
