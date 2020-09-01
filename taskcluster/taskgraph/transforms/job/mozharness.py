@@ -101,8 +101,6 @@ setup_secrets
 docker_worker_add_artifacts
     
 generic_worker_add_artifacts
-    
-get_expiration
 )
 from
 taskgraph
@@ -741,20 +739,6 @@ type
 '
 directory
 '
-        
-'
-expires
--
-after
-'
-:
-get_expiration
-(
-config
-'
-medium
-'
-)
     
 }
 )
@@ -1634,20 +1618,6 @@ type
 '
 directory
 '
-        
-'
-expires
--
-after
-'
-:
-get_expiration
-(
-config
-'
-medium
-'
-)
     
 }
 )
