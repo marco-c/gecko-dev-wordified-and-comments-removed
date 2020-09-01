@@ -5326,6 +5326,11 @@ getContainer
 element
 )
 ;
+if
+(
+markupContainer
+)
+{
 markupContainer
 .
 editor
@@ -5337,6 +5342,7 @@ this
 highlightingOverflowCausingElements
 )
 ;
+}
 }
 }
 onFlexboxHighlighterChange
