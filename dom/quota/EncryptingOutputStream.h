@@ -175,8 +175,6 @@ nsIOutputStream
 aBaseStream
 size_t
 aBlockSize
-CipherStrategy
-aCipherStrategy
 typename
 CipherStrategy
 :
@@ -202,17 +200,8 @@ EnsureBuffers
 (
 )
 ;
-const
 CipherStrategy
 mCipherStrategy
-;
-const
-typename
-CipherStrategy
-:
-:
-KeyType
-mKey
 ;
 nsTArray
 <

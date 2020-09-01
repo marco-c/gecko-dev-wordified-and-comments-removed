@@ -1313,10 +1313,6 @@ const
 size_t
 aBlockSize
 const
-CipherStrategy
-&
-aCipherStrategy
-const
 typename
 CipherStrategy
 :
@@ -1348,7 +1344,6 @@ move
 aBaseOutputStream
 )
 aBlockSize
-aCipherStrategy
 aKey
 )
 ;
@@ -1763,10 +1758,6 @@ const
 size_t
 aBlockSize
 const
-CipherStrategy
-&
-aCipherStrategy
-const
 typename
 CipherStrategy
 :
@@ -1804,7 +1795,6 @@ move
 aBaseInputStream
 )
 aBlockSize
-aCipherStrategy
 aKey
 )
 ;
@@ -1861,10 +1851,6 @@ aReadChunkSize
 const
 size_t
 aBlockSize
-const
-CipherStrategy
-&
-aCipherStrategy
 const
 typename
 CipherStrategy
@@ -1930,6 +1916,9 @@ aDataSize
 )
 ;
 WriteTestData
+<
+CipherStrategy
+>
 (
 nsCOMPtr
 <
@@ -1948,7 +1937,6 @@ data
 }
 aWriteChunkSize
 aBlockSize
-aCipherStrategy
 aKey
 aFlushMode
 )
@@ -1971,6 +1959,9 @@ Data
 )
 ;
 ReadTestData
+<
+CipherStrategy
+>
 (
 WrapNotNull
 (
@@ -1988,7 +1979,6 @@ data
 }
 aReadChunkSize
 aBlockSize
-aCipherStrategy
 aKey
 aExtraChecks
 )
@@ -2009,10 +1999,6 @@ CipherStrategy
 DummyCipherStrategy
 ;
 const
-CipherStrategy
-cipherStrategy
-;
-const
 TestParams
 &
 testParams
@@ -2026,6 +2012,9 @@ auto
 encryptedDataStream
 =
 DoRoundtripTest
+<
+CipherStrategy
+>
 (
 testParams
 .
@@ -2047,7 +2036,6 @@ testParams
 BlockSize
 (
 )
-cipherStrategy
 CipherStrategy
 :
 :
@@ -2331,10 +2319,6 @@ CipherStrategy
 DummyCipherStrategy
 ;
 const
-CipherStrategy
-cipherStrategy
-;
-const
 TestParams
 &
 testParams
@@ -2344,6 +2328,9 @@ GetParam
 )
 ;
 DoRoundtripTest
+<
+CipherStrategy
+>
 (
 testParams
 .
@@ -2365,7 +2352,6 @@ testParams
 BlockSize
 (
 )
-cipherStrategy
 CipherStrategy
 :
 :
@@ -2450,10 +2436,6 @@ CipherStrategy
 DummyCipherStrategy
 ;
 const
-CipherStrategy
-cipherStrategy
-;
-const
 TestParams
 &
 testParams
@@ -2463,6 +2445,9 @@ GetParam
 )
 ;
 DoRoundtripTest
+<
+CipherStrategy
+>
 (
 testParams
 .
@@ -2484,7 +2469,6 @@ testParams
 BlockSize
 (
 )
-cipherStrategy
 CipherStrategy
 :
 :
@@ -2557,10 +2541,6 @@ CipherStrategy
 DummyCipherStrategy
 ;
 const
-CipherStrategy
-cipherStrategy
-;
-const
 TestParams
 &
 testParams
@@ -2616,6 +2596,9 @@ DataSize
 )
 ;
 WriteTestData
+<
+CipherStrategy
+>
 (
 nsCOMPtr
 <
@@ -2642,7 +2625,6 @@ testParams
 BlockSize
 (
 )
-cipherStrategy
 CipherStrategy
 :
 :
@@ -2678,6 +2660,9 @@ auto
 inStream
 =
 ReadTestData
+<
+CipherStrategy
+>
 (
 WrapNotNull
 (
@@ -2703,7 +2688,6 @@ testParams
 BlockSize
 (
 )
-cipherStrategy
 CipherStrategy
 :
 :
@@ -2769,10 +2753,6 @@ using
 CipherStrategy
 =
 DummyCipherStrategy
-;
-const
-CipherStrategy
-cipherStrategy
 ;
 const
 TestParams
@@ -2841,7 +2821,6 @@ testParams
 BlockSize
 (
 )
-cipherStrategy
 CipherStrategy
 :
 :
@@ -3272,10 +3251,6 @@ CipherStrategy
 DummyCipherStrategy
 ;
 const
-CipherStrategy
-cipherStrategy
-;
-const
 SeekTestParams
 &
 testParams
@@ -3329,6 +3304,9 @@ mDataSize
 )
 ;
 WriteTestData
+<
+CipherStrategy
+>
 (
 nsCOMPtr
 <
@@ -3351,7 +3329,6 @@ mDataSize
 testParams
 .
 mBlockSize
-cipherStrategy
 CipherStrategy
 :
 :
@@ -3406,7 +3383,6 @@ baseInputStream
 testParams
 .
 mBlockSize
-cipherStrategy
 CipherStrategy
 :
 :
