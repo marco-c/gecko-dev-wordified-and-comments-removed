@@ -13130,12 +13130,7 @@ runtime
 cx
 -
 >
-zone
-(
-)
--
->
-runtimeFromAnyThread
+runtime
 (
 )
 ;
@@ -17597,12 +17592,7 @@ rt
 cx
 -
 >
-zone
-(
-)
--
->
-runtimeFromAnyThread
+runtime
 (
 )
 ;
