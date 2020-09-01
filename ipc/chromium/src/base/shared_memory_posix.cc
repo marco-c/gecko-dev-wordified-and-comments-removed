@@ -112,6 +112,13 @@ prenv
 .
 h
 "
+#
+include
+"
+GeckoProfiler
+.
+h
+"
 namespace
 base
 {
@@ -845,6 +852,11 @@ HAVE_POSIX_FALLOCATE
 )
 int
 rv
+;
+{
+AUTO_PROFILER_THREAD_SLEEP
+;
+rv
 =
 HANDLE_RV_EINTR
 (
@@ -866,6 +878,7 @@ size
 )
 )
 ;
+}
 if
 (
 rv
