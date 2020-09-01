@@ -5603,12 +5603,9 @@ PrivateGCThing
 break
 ;
 }
-MOZ_CRASH
+ReportBadValueTypeAndCrash
 (
-"
-unexpected
-type
-"
+v
 )
 ;
 }
