@@ -502,10 +502,6 @@ Destroy
 (
 )
 ;
-mSourcePort
-=
-nullptr
-;
 }
 RefPtr
 <
