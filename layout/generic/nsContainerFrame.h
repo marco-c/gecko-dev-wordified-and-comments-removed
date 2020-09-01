@@ -2026,16 +2026,6 @@ aProperty
 )
 ;
 void
-SetPropTableFrames
-(
-nsFrameList
-*
-aFrameList
-FrameListPropertyDescriptor
-aProperty
-)
-;
-void
 SafelyDestroyFrameListProp
 (
 nsIFrame
