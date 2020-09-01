@@ -299,6 +299,17 @@ All
 Devices
 "
 }
+{
+label
+:
+"
+Manage
+Devices
+.
+.
+.
+"
+}
 ]
 )
 ;
