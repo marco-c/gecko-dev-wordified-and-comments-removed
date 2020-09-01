@@ -5998,6 +5998,15 @@ id
 )
 ;
 }
+else
+{
+this
+.
+contentBrowsingContext
+=
+null
+;
+}
 }
 else
 {
