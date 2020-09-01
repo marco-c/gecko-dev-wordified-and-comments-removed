@@ -74,7 +74,7 @@ nsFont
 mHeadFootFont
 ;
 int32_t
-mTotNumPages
+mRawNumPages
 =
 0
 ;
@@ -237,7 +237,7 @@ return
 mPageData
 -
 >
-mTotNumPages
+mRawNumPages
 ;
 }
 bool

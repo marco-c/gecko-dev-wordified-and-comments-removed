@@ -384,7 +384,7 @@ IsFullyComplete
 mPD
 -
 >
-mTotNumPages
+mRawNumPages
 =
 pageFrame
 -
