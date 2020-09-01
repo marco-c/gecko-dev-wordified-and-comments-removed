@@ -41,17 +41,6 @@ mozilla
 /
 layers
 /
-APZUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 MatrixMessage
 .
 h
