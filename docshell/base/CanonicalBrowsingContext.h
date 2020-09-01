@@ -521,6 +521,11 @@ RemoveDynEntriesFromActiveSessionHistoryEntry
 (
 )
 ;
+void
+RemoveFromSessionHistory
+(
+)
+;
 JSObject
 *
 WrapObject

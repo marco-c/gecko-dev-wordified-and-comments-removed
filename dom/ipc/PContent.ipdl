@@ -3097,6 +3097,13 @@ nsID
 aChangeID
 )
 ;
+async
+DispatchLocationChangeEvent
+(
+MaybeDiscardedBrowsingContext
+aContext
+)
+;
 parent
 :
 async
@@ -4573,6 +4580,13 @@ info
 ;
 async
 RemoveDynEntriesFromActiveSessionHistoryEntry
+(
+MaybeDiscardedBrowsingContext
+aContext
+)
+;
+async
+RemoveFromSessionHistory
 (
 MaybeDiscardedBrowsingContext
 aContext

@@ -2933,6 +2933,11 @@ RemoveDynEntriesFromActiveSessionHistoryEntry
 (
 )
 ;
+void
+RemoveFromSessionHistory
+(
+)
+;
 protected
 :
 virtual
