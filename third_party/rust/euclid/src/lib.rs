@@ -63,16 +63,6 @@ use
 crate
 :
 :
-nonempty
-:
-:
-NonEmpty
-;
-pub
-use
-crate
-:
-:
 point
 :
 :
@@ -269,9 +259,6 @@ homogen
 ;
 mod
 length
-;
-mod
-nonempty
 ;
 pub
 mod
