@@ -107,6 +107,12 @@ BROTLI_TRANSFORM_OMIT_FIRST_8
 BROTLI_TRANSFORM_OMIT_FIRST_9
 =
 20
+BROTLI_TRANSFORM_SHIFT_FIRST
+=
+21
+BROTLI_TRANSFORM_SHIFT_ALL
+=
+22
 BROTLI_NUM_TRANSFORM_TYPES
 }
 ;
@@ -138,6 +144,11 @@ const
 uint8_t
 *
 transforms
+;
+const
+uint8_t
+*
+params
 ;
 int16_t
 cutOffTransforms

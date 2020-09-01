@@ -3568,6 +3568,9 @@ input_size
 ;
 if
 (
+(
+double
+)
 num_literals
 <
 MIN_RATIO

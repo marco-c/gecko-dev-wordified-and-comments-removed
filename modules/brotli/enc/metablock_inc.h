@@ -281,6 +281,13 @@ BROTLI_IS_OOM
 (
 m
 )
+|
+|
+BROTLI_IS_NULL
+(
+*
+histograms
+)
 )
 return
 ;

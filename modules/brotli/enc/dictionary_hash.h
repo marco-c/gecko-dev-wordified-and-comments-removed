@@ -35,7 +35,15 @@ endif
 extern
 const
 uint16_t
-kStaticDictionaryHash
+kStaticDictionaryHashWords
+[
+32768
+]
+;
+extern
+const
+uint8_t
+kStaticDictionaryHashLengths
 [
 32768
 ]

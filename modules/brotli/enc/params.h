@@ -55,7 +55,10 @@ uint32_t
 num_direct_distance_codes
 ;
 uint32_t
-alphabet_size
+alphabet_size_max
+;
+uint32_t
+alphabet_size_limit
 ;
 size_t
 max_distance
@@ -78,6 +81,9 @@ lgwin
 ;
 int
 lgblock
+;
+size_t
+stream_offset
 ;
 size_t
 size_hint

@@ -494,6 +494,9 @@ bytes_read
 return
 TO_BROTLI_BOOL
 (
+(
+double
+)
 size_utf8
 >
 min_fraction
