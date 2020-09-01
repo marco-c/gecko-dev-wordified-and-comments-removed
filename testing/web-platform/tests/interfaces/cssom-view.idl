@@ -123,7 +123,7 @@ screen
 /
 browsing
 context
-void
+undefined
 moveTo
 (
 long
@@ -132,7 +132,7 @@ long
 y
 )
 ;
-void
+undefined
 moveBy
 (
 long
@@ -141,7 +141,7 @@ long
 y
 )
 ;
-void
+undefined
 resizeTo
 (
 long
@@ -150,7 +150,7 @@ long
 height
 )
 ;
-void
+undefined
 resizeBy
 (
 long
@@ -214,7 +214,7 @@ attribute
 double
 pageYOffset
 ;
-void
+undefined
 scroll
 (
 optional
@@ -225,7 +225,7 @@ options
 }
 )
 ;
-void
+undefined
 scroll
 (
 unrestricted
@@ -236,7 +236,7 @@ double
 y
 )
 ;
-void
+undefined
 scrollTo
 (
 optional
@@ -247,7 +247,7 @@ options
 }
 )
 ;
-void
+undefined
 scrollTo
 (
 unrestricted
@@ -258,7 +258,7 @@ double
 y
 )
 ;
-void
+undefined
 scrollBy
 (
 optional
@@ -269,7 +269,7 @@ options
 }
 )
 ;
-void
+undefined
 scrollBy
 (
 unrestricted
@@ -361,7 +361,7 @@ attribute
 boolean
 matches
 ;
-void
+undefined
 addListener
 (
 EventListener
@@ -369,7 +369,7 @@ EventListener
 callback
 )
 ;
-void
+undefined
 removeListener
 (
 EventListener
@@ -606,7 +606,7 @@ getBoundingClientRect
 (
 )
 ;
-void
+undefined
 scrollIntoView
 (
 optional
@@ -621,7 +621,7 @@ arg
 }
 )
 ;
-void
+undefined
 scroll
 (
 optional
@@ -632,7 +632,7 @@ options
 }
 )
 ;
-void
+undefined
 scroll
 (
 unrestricted
@@ -643,7 +643,7 @@ double
 y
 )
 ;
-void
+undefined
 scrollTo
 (
 optional
@@ -654,7 +654,7 @@ options
 }
 )
 ;
-void
+undefined
 scrollTo
 (
 unrestricted
@@ -665,7 +665,7 @@ double
 y
 )
 ;
-void
+undefined
 scrollBy
 (
 optional
@@ -676,7 +676,7 @@ options
 }
 )
 ;
-void
+undefined
 scrollBy
 (
 unrestricted
