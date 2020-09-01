@@ -12,7 +12,6 @@ js
 ;
 async_test
 (
-async
 function
 (
 )
