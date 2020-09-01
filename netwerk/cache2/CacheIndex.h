@@ -4729,11 +4729,6 @@ mallocSizeOf
 const
 ;
 void
-ReportHashStats
-(
-)
-;
-void
 DoTelemetryReport
 (
 )
