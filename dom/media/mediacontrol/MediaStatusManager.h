@@ -672,6 +672,11 @@ GetSupportedActions
 const
 ;
 void
+StoreMediaSessionContextIdOnWindowContext
+(
+)
+;
+void
 SetGuessedPlayState
 (
 MediaSessionPlaybackState

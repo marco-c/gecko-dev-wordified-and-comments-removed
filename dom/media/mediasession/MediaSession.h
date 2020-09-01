@@ -264,6 +264,12 @@ Shutdown
 (
 )
 ;
+bool
+IsActive
+(
+)
+const
+;
 private
 :
 enum
