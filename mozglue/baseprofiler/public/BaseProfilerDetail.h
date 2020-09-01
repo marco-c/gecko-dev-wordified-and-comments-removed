@@ -7,13 +7,6 @@ BaseProfilerDetail_h
 #
 include
 "
-BaseProfiler
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Atomics
@@ -64,6 +57,12 @@ mozilla
 namespace
 baseprofiler
 {
+MFBT_API
+int
+profiler_current_thread_id
+(
+)
+;
 namespace
 detail
 {
