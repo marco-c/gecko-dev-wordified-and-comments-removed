@@ -1549,7 +1549,7 @@ msg
 .
 data
 .
-numPages
+totalPages
 ;
 }
 function
