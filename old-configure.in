@@ -9300,7 +9300,6 @@ lchown
 setpriority
 strerror
 syscall
-lutimes
 )
 dnl
 check
