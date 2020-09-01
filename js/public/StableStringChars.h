@@ -84,6 +84,17 @@ include
 "
 js
 /
+shadow
+/
+String
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h
