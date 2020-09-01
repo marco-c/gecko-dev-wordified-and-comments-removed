@@ -223,14 +223,7 @@ token
 )
 ;
 const
-executor_token
-=
-token
-(
-)
-;
-const
-callback_token
+openee_token
 =
 token
 (
@@ -265,7 +258,7 @@ coep_header
 uuid
 =
 {
-executor_token
+openee_token
 }
 ;
 const
@@ -288,7 +281,7 @@ add_cleanup
 >
 send
 (
-executor_token
+openee_token
 "
 window
 .
@@ -321,7 +314,7 @@ COEP
 .
 send
 (
-executor_token
+openee_token
 tryAccess
 (
 opener
