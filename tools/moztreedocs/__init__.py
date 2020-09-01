@@ -106,9 +106,9 @@ join
 build
 .
 topsrcdir
-'
+"
 docs
-'
+"
 )
 )
 logger
@@ -218,12 +218,12 @@ topsrcdir
 variables
 =
 (
-'
+"
 SPHINX_TREES
-'
-'
+"
+"
 SPHINX_PYTHON_PACKAGE_DIRS
-'
+"
 )
     
 reader
@@ -271,9 +271,9 @@ if
 name
 =
 =
-'
+"
 SPHINX_TREES
-'
+"
 :
             
 absdir
@@ -314,9 +314,9 @@ key
 .
 startswith
 (
-'
+"
 /
-'
+"
 )
 :
                 
@@ -359,7 +359,8 @@ trees
 raise
 Exception
 (
-'
+                    
+"
 %
 s
 has
@@ -370,9 +371,10 @@ as
 a
 destination
 .
-'
+"
 %
 key
+                
 )
             
 trees
@@ -394,9 +396,9 @@ if
 name
 =
 =
-'
+"
 SPHINX_PYTHON_PACKAGE_DIRS
-'
+"
 :
             
 python_package_dirs
@@ -467,11 +469,11 @@ path
 join
 (
 main_path
-'
+"
 conf
 .
 py
-'
+"
 )
         
 self
@@ -485,11 +487,11 @@ path
 join
 (
 main_path
-'
+"
 index
 .
 rst
-'
+"
 )
         
 self
@@ -543,23 +545,23 @@ join
 app
 .
 outdir
-'
+"
 _staging
-'
+"
 )
         
 logger
 .
 info
 (
-'
+"
 Reading
 Sphinx
 metadata
 from
 build
 configuration
-'
+"
 )
         
 self
@@ -580,11 +582,11 @@ logger
 .
 info
 (
-'
+"
 Staging
 static
 documentation
-'
+"
 )
         
 self
@@ -598,12 +600,12 @@ logger
 .
 info
 (
-'
+"
 Generating
 Python
 API
 documentation
-'
+"
 )
         
 self
@@ -643,25 +645,25 @@ join
 self
 .
 staging_dir
-'
+"
 python
-'
+"
 )
         
 base_args
 =
 [
-'
+"
 -
 -
 no
 -
 toc
-'
-'
+"
+"
 -
 o
-'
+"
 out_dir
 ]
         
@@ -718,10 +720,10 @@ finder
 .
 find
 (
-'
+"
 *
 *
-'
+"
 )
 }
             
@@ -921,9 +923,9 @@ fh
 .
 write
 (
-'
+"
 =
-'
+"
 *
 len
 (
@@ -1028,15 +1030,15 @@ path
 join
 (
 MAIN_DOC_PATH
-'
+"
 config
 .
 yml
-'
+"
 )
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -1051,9 +1053,9 @@ safe_load
 fh
 )
 [
-'
+"
 categories
-'
+"
 ]
         
 m
@@ -1063,11 +1065,11 @@ add_link
 self
 .
 conf_py_path
-'
+"
 conf
 .
 py
-'
+"
 )
         
 for
@@ -1186,6 +1188,7 @@ self
 .
 _process_markdown
 (
+                            
 m
 source_path
 os
@@ -1199,6 +1202,7 @@ join
 "
 target
 )
+                        
 )
                     
 else
@@ -1243,9 +1247,9 @@ open
 self
 .
 index_path
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -1336,12 +1340,12 @@ paths
 source_doc
 =
 [
-'
+"
 %
 s
 /
 index
-'
+"
 %
 p
 for
@@ -1351,10 +1355,10 @@ paths
 ]
             
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1424,7 +1428,9 @@ indexes
 =
 set
 (
+                
 [
+                    
 os
 .
 path
@@ -1438,12 +1444,12 @@ path
 join
 (
 p
-'
+"
 index
-'
+"
 )
 )
-                           
+                    
 for
 p
 in
@@ -1452,15 +1458,17 @@ toplevel_trees
 keys
 (
 )
+                
 ]
+            
 )
             
 cats
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1527,6 +1535,7 @@ indexes
 raise
 Exception
 (
+                    
 "
 Uncategorized
 documentation
@@ -1541,6 +1550,7 @@ config
 .
 yml
 "
+                
 )
         
 data
@@ -1566,15 +1576,15 @@ join
 self
 .
 staging_dir
-'
+"
 index
 .
 rst
-'
+"
 )
-'
+"
 w
-'
+"
 )
 as
 fh

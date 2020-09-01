@@ -43,9 +43,9 @@ create_aws_session
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 This
 function
@@ -64,19 +64,19 @@ delete
 both
 .
     
-'
-'
-'
+"
+"
+"
     
 region
 =
-'
+"
 us
 -
 west
 -
 2
-'
+"
     
 level
 =
@@ -86,23 +86,23 @@ environ
 .
 get
 (
-'
+"
 MOZ_SCM_LEVEL
-'
-'
+"
+"
 1
-'
+"
 )
     
 bucket
 =
 {
         
-'
+"
 1
-'
+"
 :
-'
+"
 gecko
 -
 docs
@@ -112,13 +112,13 @@ mozilla
 org
 -
 l1
-'
+"
         
-'
+"
 2
-'
+"
 :
-'
+"
 gecko
 -
 docs
@@ -128,13 +128,13 @@ mozilla
 org
 -
 l2
-'
+"
         
-'
+"
 3
-'
+"
 :
-'
+"
 gecko
 -
 docs
@@ -142,7 +142,7 @@ docs
 mozilla
 .
 org
-'
+"
     
 }
 [
@@ -151,7 +151,7 @@ level
     
 secrets_url
 =
-'
+"
 http
 :
 /
@@ -164,12 +164,12 @@ v1
 /
 secret
 /
-'
+"
     
 secrets_url
 +
 =
-'
+"
 project
 /
 releng
@@ -188,18 +188,17 @@ gecko
 docs
 -
 upload
-'
+"
 .
 format
 (
-        
 level
 )
     
 if
-'
+"
 TASK_ID
-'
+"
 in
 os
 .
@@ -250,9 +249,9 @@ json
 (
 )
 [
-'
+"
 secret
-'
+"
 ]
         
 session
@@ -268,23 +267,24 @@ aws_access_key_id
 =
 secret
 [
-'
+"
 AWS_ACCESS_KEY_ID
-'
+"
 ]
             
 aws_secret_access_key
 =
 secret
 [
-'
+"
 AWS_SECRET_ACCESS_KEY
-'
+"
 ]
             
 region_name
 =
 region
+        
 )
     
 else
@@ -323,10 +323,9 @@ session
 .
 client
 (
-'
+"
 s3
-'
-                        
+"
 config
 =
 botocore
@@ -356,9 +355,9 @@ bucket
 kwargs
 =
 {
-'
+"
 Bucket
-'
+"
 :
 bucket
 }
@@ -388,9 +387,9 @@ obj
 in
 response
 [
-'
+"
 Contents
-'
+"
 ]
 :
             
@@ -400,9 +399,9 @@ append
 (
 obj
 [
-'
+"
 Key
-'
+"
 ]
 )
         
@@ -411,16 +410,16 @@ try
             
 kwargs
 [
-'
+"
 ContinuationToken
-'
+"
 ]
 =
 response
 [
-'
+"
 NextContinuationToken
-'
+"
 ]
         
 except
@@ -448,10 +447,9 @@ create_aws_session
 configuration
 =
 {
-        
-'
+"
 IndexDocument
-'
+"
 :
 {
 "
@@ -464,14 +462,12 @@ index
 html
 "
 }
-        
-'
+"
 RoutingRules
-'
+"
 :
 [
 ]
-    
 }
     
 for
@@ -489,32 +485,28 @@ rule
 =
 {
             
-'
+"
 Condition
-'
+"
 :
 {
-                
 "
 KeyPrefixEquals
 "
 :
 path
-            
 }
             
-'
+"
 Redirect
-'
+"
 :
 {
-                
 "
 ReplaceKeyPrefixWith
 "
 :
 redirect
-            
 }
         
 }
@@ -526,30 +518,30 @@ environ
 .
 get
 (
-'
+"
 MOZ_SCM_LEVEL
-'
+"
 )
 =
 =
-'
+"
 3
-'
+"
 :
             
 rule
 [
-'
+"
 Redirect
-'
+"
 ]
 [
-'
+"
 HostName
-'
+"
 ]
 =
-'
+"
 firefox
 -
 source
@@ -559,13 +551,13 @@ docs
 mozilla
 .
 org
-'
+"
         
 configuration
 [
-'
+"
 RoutingRules
-'
+"
 ]
 .
 append
@@ -581,7 +573,6 @@ put_bucket_website
 Bucket
 =
 bucket
-        
 WebsiteConfiguration
 =
 configuration
@@ -619,6 +610,7 @@ key_prefix
 files_on_server
 =
 [
+            
 path
 for
 path
@@ -631,6 +623,7 @@ startswith
 (
 key_prefix
 )
+        
 ]
     
 else
@@ -639,6 +632,7 @@ else
 files_on_server
 =
 [
+            
 path
 for
 path
@@ -655,6 +649,7 @@ main
 /
 "
 )
+        
 ]
     
 files
@@ -662,9 +657,9 @@ files
 [
 key_prefix
 +
-'
+"
 /
-'
+"
 +
 path
 if
@@ -705,9 +700,9 @@ keys_to_remove
 =
 [
 {
-'
+"
 Key
-'
+"
 :
 key
 }
@@ -731,17 +726,14 @@ delete_objects
 Bucket
 =
 bucket
-            
 Delete
 =
 {
-                
-'
+"
 Objects
-'
+"
 :
 keys_to_remove
-            
 }
         
 )
@@ -856,7 +848,7 @@ stdout
 .
 write
 (
-'
+"
 uploading
 %
 s
@@ -865,7 +857,7 @@ to
 s
 \
 n
-'
+"
 %
 (
 path
@@ -934,15 +926,15 @@ environ
 .
 get
 (
-'
+"
 MOZ_SCM_LEVEL
-'
+"
 )
 =
 =
-'
+"
 1
-'
+"
 :
             
 now
@@ -970,9 +962,9 @@ days
             
 extra_args
 [
-'
+"
 Expires
-'
+"
 ]
 =
 expires
@@ -1033,9 +1025,9 @@ content_type
                 
 extra_args
 [
-'
+"
 ContentType
-'
+"
 ]
 =
 content_type
@@ -1046,9 +1038,9 @@ content_encoding
                 
 extra_args
 [
-'
+"
 ContentEncoding
-'
+"
 ]
 =
 content_encoding
@@ -1059,13 +1051,13 @@ key_prefix
                 
 key
 =
-'
+"
 %
 s
 /
 %
 s
-'
+"
 %
 (
 key_prefix
@@ -1083,6 +1075,7 @@ fs
 .
 append
 (
+                
 e
 .
 submit
@@ -1101,9 +1094,9 @@ read
 path
 bucket
 key
-                               
 extra_args
 )
+            
 )
     
 s3_delete_missing
