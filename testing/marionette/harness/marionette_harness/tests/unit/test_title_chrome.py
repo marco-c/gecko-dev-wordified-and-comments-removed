@@ -103,7 +103,7 @@ switch_to_window
 win
 )
         
-title
+expected_title
 =
 self
 .
@@ -111,8 +111,10 @@ marionette
 .
 execute_script
 (
-            
 "
+"
+"
+            
 return
 window
 .
@@ -127,6 +129,9 @@ title
 '
 )
 ;
+        
+"
+"
 "
 )
         
@@ -134,10 +139,10 @@ self
 .
 assertEqual
 (
-title
 self
 .
 marionette
 .
 title
+expected_title
 )
