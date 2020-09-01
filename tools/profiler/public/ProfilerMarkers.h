@@ -333,7 +333,10 @@ profiler_add_marker
 <
 :
 :
-profilermarkers
+geckoprofiler
+:
+:
+markers
 :
 :
 MarkerType
@@ -362,7 +365,10 @@ while
 false
 )
 namespace
-profilermarkers
+geckoprofiler
+:
+:
+markers
 {
 using
 Text
