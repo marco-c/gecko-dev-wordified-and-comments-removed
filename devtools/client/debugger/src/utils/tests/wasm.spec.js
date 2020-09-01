@@ -150,13 +150,6 @@ SIMPLE_WASM_TEXT
 (
 module
 (
-type
-type0
-(
-func
-)
-)
-(
 func
 func0
 nop
@@ -166,7 +159,7 @@ nop
 const
 SIMPLE_WASM_NOP_TEXT_LINE
 =
-3
+2
 ;
 const
 SIMPLE_WASM_NOP_OFFSET

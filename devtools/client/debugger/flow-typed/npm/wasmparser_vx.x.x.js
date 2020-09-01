@@ -37,6 +37,8 @@ wasmparser
 /
 dist
 /
+cjs
+/
 index
 '
 {
@@ -54,6 +56,8 @@ module
 wasmparser
 /
 dist
+/
+cjs
 /
 WasmDis
 '
@@ -73,6 +77,8 @@ wasmparser
 /
 dist
 /
+cjs
+/
 WasmEmitter
 '
 {
@@ -91,6 +97,8 @@ wasmparser
 /
 dist
 /
+cjs
+/
 WasmParser
 '
 {
@@ -108,6 +116,8 @@ module
 wasmparser
 /
 dist
+/
+cjs
 /
 WasmParserTransform
 '
@@ -254,6 +264,8 @@ wasmparser
 /
 dist
 /
+cjs
+/
 index
 .
 js
@@ -271,6 +283,8 @@ wasmparser
 /
 dist
 /
+cjs
+/
 index
 '
 >
@@ -282,6 +296,8 @@ module
 wasmparser
 /
 dist
+/
+cjs
 /
 WasmDis
 .
@@ -300,6 +316,8 @@ wasmparser
 /
 dist
 /
+cjs
+/
 WasmDis
 '
 >
@@ -312,6 +330,8 @@ wasmparser
 /
 dist
 /
+cjs
+/
 WasmEmitter
 .
 js
@@ -329,6 +349,8 @@ wasmparser
 /
 dist
 /
+cjs
+/
 WasmEmitter
 '
 >
@@ -340,6 +362,8 @@ module
 wasmparser
 /
 dist
+/
+cjs
 /
 WasmParser
 .
@@ -358,6 +382,8 @@ wasmparser
 /
 dist
 /
+cjs
+/
 WasmParser
 '
 >
@@ -369,6 +395,8 @@ module
 wasmparser
 /
 dist
+/
+cjs
 /
 WasmParserTransform
 .
@@ -386,6 +414,8 @@ Exports
 wasmparser
 /
 dist
+/
+cjs
 /
 WasmParserTransform
 '

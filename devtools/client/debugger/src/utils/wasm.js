@@ -8,6 +8,8 @@ wasmparser
 /
 dist
 /
+cjs
+/
 WasmParser
 "
 ;
@@ -21,6 +23,8 @@ from
 wasmparser
 /
 dist
+/
+cjs
 /
 WasmDis
 "
