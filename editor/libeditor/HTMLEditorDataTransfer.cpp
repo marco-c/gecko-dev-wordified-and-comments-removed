@@ -1407,6 +1407,7 @@ public
 nsresult
 Run
 (
+const
 Document
 *
 aDocument
@@ -1450,6 +1451,7 @@ private
 nsresult
 CreateDocumentFragmentAndGetParentOfPastedHTMLInContext
 (
+const
 Document
 *
 aDocument
@@ -16007,6 +16009,7 @@ public
 :
 FragmentParser
 (
+const
 Document
 &
 aDocument
@@ -16066,6 +16069,7 @@ aStr
 nsAtom
 *
 aContextLocalName
+const
 Document
 *
 aTargetDoc
@@ -16080,6 +16084,7 @@ bool
 aTrustedInput
 )
 ;
+const
 Document
 &
 mDocument
@@ -16101,6 +16106,7 @@ FragmentParser
 :
 FragmentParser
 (
+const
 Document
 &
 aDocument
@@ -16695,6 +16701,7 @@ FragmentFromPasteCreator
 :
 CreateDocumentFragmentAndGetParentOfPastedHTMLInContext
 (
+const
 Document
 *
 aDocument
@@ -16725,6 +16732,7 @@ const
 {
 RefPtr
 <
+const
 Document
 >
 document
@@ -17161,6 +17169,7 @@ FragmentFromPasteCreator
 :
 Run
 (
+const
 Document
 *
 aDocument
@@ -17616,6 +17625,7 @@ aFragStr
 nsAtom
 *
 aContextLocalName
+const
 Document
 *
 aTargetDocument
