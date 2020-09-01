@@ -194,10 +194,6 @@ platform
 specific
 data
 .
-.
-.
-_Accessing_minidumps_from_crash_reports
-:
 Accessing
 minidumps
 from
@@ -281,10 +277,6 @@ Understanding_crash_reports
 >
 __
 .
-.
-.
-_Using_the_MS_Visual_Studio_debugger
-:
 Using
 the
 MS
@@ -748,7 +740,7 @@ Choosing
 "
 go
 to
-dissassembly
+disassembly
 "
 from
 the
@@ -1200,14 +1192,6 @@ true
 ?
 )
 .
-.
-.
-_Using_minidump
--
-2
--
-core_on_Linux
-:
 Using
 minidump
 -
@@ -1458,10 +1442,6 @@ it
 under
 QEMU
 .
-.
-.
-_Using_other_tools_to_inspect_minidump_data
-:
 Using
 other
 tools
@@ -2005,10 +1985,6 @@ the
 module
 filenames
 .
-.
-.
-_Getting_a_stack_trace_from_a_crashed_B2G_process
-:
 Getting
 a
 stack
@@ -2083,6 +2059,7 @@ b2g
 /
 mozilla
 /
+\
 *
 .
 default

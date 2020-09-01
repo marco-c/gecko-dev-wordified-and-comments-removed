@@ -44,12 +44,6 @@ index
 .
 html
 .
-.
-.
-_Mozilla
--
-specific_lldb_settings
-:
 Mozilla
 -
 specific
@@ -229,7 +223,7 @@ in
 most
 cases
 when
-runnning
+running
 lldb
 from
 the
@@ -480,10 +474,6 @@ your
 debugging
 session
 .
-.
-.
-_Starting_a_debugging_session
-:
 Starting
 a
 debugging
@@ -516,10 +506,6 @@ session
 -
 -
 -
-.
-.
-_Attaching_to_an_existing_process
-:
 Attaching
 to
 an
@@ -592,10 +578,6 @@ attaching
 to
 Firefox
 .
-.
-.
-_Running_a_new_process
-:
 Running
 a
 new
