@@ -177,11 +177,13 @@ template
 %
 {
         
-b
+u
 "
 id
 "
 :
+isomorphic_decode
+(
 request
 .
 GET
@@ -191,12 +193,15 @@ b
 id
 "
 ]
+)
         
-b
+u
 "
 property
 "
 :
+isomorphic_decode
+(
 request
 .
 GET
@@ -206,6 +211,7 @@ b
 property
 "
 ]
+)
 }
 def
 generate_report_headers_payload
