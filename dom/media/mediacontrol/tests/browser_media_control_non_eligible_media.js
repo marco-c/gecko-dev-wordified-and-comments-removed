@@ -57,6 +57,11 @@ js
 this
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 const
 gNonEligibleElementIds
 =
