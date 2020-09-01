@@ -233,6 +233,17 @@ helpers
 *
 ;
 pub
+mod
+inst_common
+;
+pub
+use
+inst_common
+:
+:
+*
+;
+pub
 trait
 MachInst
 :

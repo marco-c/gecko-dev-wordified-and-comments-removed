@@ -27,7 +27,7 @@ inst_predicates
 :
 :
 {
-has_side_effect_or_load
+has_lowering_side_effect
 is_constant_64bit
 }
 ;
@@ -1541,7 +1541,7 @@ bb
 let
 side_effect
 =
-has_side_effect_or_load
+has_lowering_side_effect
 (
 f
 inst
@@ -4148,13 +4148,14 @@ debug
 -
 >
 has
+lowering
 side
 effect
 :
 {
 }
 "
-has_side_effect_or_load
+has_lowering_side_effect
 (
 self
 .
@@ -4200,7 +4201,7 @@ src_inst
 ;
 if
 !
-has_side_effect_or_load
+has_lowering_side_effect
 (
 self
 .
@@ -5459,6 +5460,15 @@ input
 reg
 )
 ;
+if
+input
+.
+reg
+.
+is_virtual
+(
+)
+{
 self
 .
 vreg_needed
@@ -5474,6 +5484,7 @@ get_index
 =
 true
 ;
+}
 }
 fn
 is_reg_needed
