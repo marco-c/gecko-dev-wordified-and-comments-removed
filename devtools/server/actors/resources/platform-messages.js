@@ -106,6 +106,7 @@ targetActor
 }
 shouldHandleMessage
 (
+targetActor
 message
 )
 {
