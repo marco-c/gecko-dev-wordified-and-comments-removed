@@ -723,6 +723,16 @@ mIsAnimated
 mIsBaseSet
 ;
 }
+bool
+IsAnimated
+(
+)
+const
+{
+return
+mIsAnimated
+;
+}
 already_AddRefed
 <
 dom
