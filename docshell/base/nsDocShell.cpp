@@ -45486,6 +45486,9 @@ NS_ENSURE_TRUE
 mOSHE
 |
 |
+mActiveEntry
+|
+|
 aReplace
 NS_ERROR_FAILURE
 )
