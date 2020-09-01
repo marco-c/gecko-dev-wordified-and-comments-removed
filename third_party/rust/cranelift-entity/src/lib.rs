@@ -314,12 +314,11 @@ entity
 /
 /
 /
-Return
-the
-underlying
-index
-value
-as
+Create
+a
+new
+instance
+from
 a
 u32
 .
