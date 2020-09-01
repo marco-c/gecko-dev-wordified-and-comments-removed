@@ -187,9 +187,11 @@ module
 src
 =
 "
-child
+send
 -
-frame
+header
+-
+page
 -
 script
 .
