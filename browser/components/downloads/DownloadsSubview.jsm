@@ -1363,7 +1363,8 @@ DownloadsSubview
 updateContextMenu
 download
 is
-pdf
+viewable
+internally
 ?
 "
 download
@@ -1376,9 +1377,9 @@ button
 hasAttribute
 (
 "
-is
+viewable
 -
-pdf
+internally
 "
 )
 )
@@ -1390,9 +1391,9 @@ button
 hasAttribute
 (
 "
-is
+viewable
 -
-pdf
+internally
 "
 )
 )
@@ -1402,9 +1403,9 @@ menu
 setAttribute
 (
 "
-is
+viewable
 -
-pdf
+internally
 "
 "
 true
@@ -1503,9 +1504,9 @@ menu
 removeAttribute
 (
 "
-is
+viewable
 -
-pdf
+internally
 "
 )
 ;
