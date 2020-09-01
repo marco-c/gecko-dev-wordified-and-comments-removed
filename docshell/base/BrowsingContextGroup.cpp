@@ -724,6 +724,17 @@ return
 #
 ifdef
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
+if
+(
+!
+aProcess
+-
+>
+IsDead
+(
+)
+)
+{
 auto
 hostEntry
 =
@@ -763,6 +774,7 @@ process
 "
 )
 ;
+}
 #
 endif
 nsTArray
