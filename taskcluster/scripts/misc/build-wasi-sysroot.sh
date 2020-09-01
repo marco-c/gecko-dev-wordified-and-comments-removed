@@ -94,6 +94,15 @@ wasi
 -
 sdk
 /
+build
+/
+install
+/
+PREFIX
+/
+.
+.
+/
 -
 caf
 UPLOAD_DIR
