@@ -6039,9 +6039,6 @@ MOZ_MUST_USE
 bool
 advancePastSyntaxParsedFunction
 (
-AutoKeepAtoms
-&
-keepAtoms
 SyntaxParser
 *
 syntaxParser

@@ -590,11 +590,9 @@ class
 AnyCharsAccess
 >
 inline
+explicit
 TokenStreamPosition
 (
-AutoKeepAtoms
-&
-keepAtoms
 TokenStreamSpecific
 <
 Unit
@@ -659,7 +657,6 @@ maxLookahead
 ]
 ;
 }
-JS_HAZ_ROOTED
 ;
 template
 <
@@ -9586,9 +9583,6 @@ Unit
 :
 TokenStreamPosition
 (
-AutoKeepAtoms
-&
-keepAtoms
 TokenStreamSpecific
 <
 Unit
