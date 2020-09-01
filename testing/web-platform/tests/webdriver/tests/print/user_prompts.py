@@ -3,6 +3,10 @@ base64
 import
 pytest
 from
+six
+import
+ensure_binary
+from
 tests
 .
 support
@@ -88,7 +92,10 @@ base64
 .
 decodestring
 (
+ensure_binary
+(
 value
+)
 )
         
 assert_dialog_handled

@@ -3,6 +3,10 @@ base64
 import
 pytest
 from
+six
+import
+ensure_binary
+from
 tests
 .
 support
@@ -72,6 +76,7 @@ data
 .
 startswith
 (
+b
 "
 %
 PDF
@@ -93,6 +98,7 @@ data
 .
 endswith
 (
+b
 "
 %
 %
@@ -201,7 +207,10 @@ base64
 .
 decodestring
 (
+ensure_binary
+(
 value
+)
 )
     
 assert_pdf
