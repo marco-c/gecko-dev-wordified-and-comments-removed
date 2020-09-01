@@ -2574,13 +2574,13 @@ blocked
 ;
 if
 (
-GetIsPrintPreview
-(
+mPrintJob
 )
-)
+{
 return
 NS_OK
 ;
+}
 NS_ASSERTION
 (
 !
