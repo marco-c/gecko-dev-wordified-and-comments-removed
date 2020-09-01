@@ -271,6 +271,8 @@ prefs
 getCharPref
 (
 TARGET_BROWSER_PREF
+"
+"
 )
 ;
 return
