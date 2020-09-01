@@ -84,6 +84,10 @@ virtualenv_name
 '
         
 '
+ok_if_tests_disabled
+'
+        
+'
 order
 '
         
@@ -135,6 +139,9 @@ None
 virtualenv_name
 =
 None
+ok_if_tests_disabled
+=
+False
 )
 :
         
@@ -202,6 +209,42 @@ self
 order
 =
 order
+        
+if
+ok_if_tests_disabled
+and
+category
+!
+=
+'
+testing
+'
+:
+            
+raise
+ValueError
+(
+'
+ok_if_tests_disabled
+should
+only
+be
+set
+for
+'
+                             
+'
+testing
+mach
+commands
+'
+)
+        
+self
+.
+ok_if_tests_disabled
+=
+ok_if_tests_disabled
         
 self
 .
