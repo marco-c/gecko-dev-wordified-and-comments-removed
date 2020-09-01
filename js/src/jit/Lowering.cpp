@@ -13547,9 +13547,8 @@ str
 ins
 -
 >
-getOperand
+string
 (
-0
 )
 ;
 MDefinition
@@ -13559,9 +13558,8 @@ idx
 ins
 -
 >
-getOperand
+index
 (
-1
 )
 ;
 MOZ_ASSERT

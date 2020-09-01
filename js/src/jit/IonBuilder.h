@@ -4269,14 +4269,6 @@ callInfo
 )
 ;
 InliningResult
-inlineConstantCharCodeAt
-(
-CallInfo
-&
-callInfo
-)
-;
-InliningResult
 inlineStrFromCharCode
 (
 CallInfo
