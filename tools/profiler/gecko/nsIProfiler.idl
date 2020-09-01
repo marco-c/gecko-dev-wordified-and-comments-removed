@@ -341,14 +341,6 @@ ResumeSampling
 (
 )
 ;
-void
-AddMarker
-(
-in
-string
-aMarker
-)
-;
 /
 *
 *
