@@ -3092,6 +3092,15 @@ aIsManual
 )
 ;
 async
+SessionHistoryEntryCacheKey
+(
+uint64_t
+aSessionHistoryEntryID
+uint32_t
+aCacheKey
+)
+;
+async
 InitBackground
 (
 Endpoint
