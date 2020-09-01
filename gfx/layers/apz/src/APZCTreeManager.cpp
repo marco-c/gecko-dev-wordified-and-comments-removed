@@ -219,6 +219,17 @@ mozilla
 /
 layers
 /
+APZUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 AsyncCompositionManager
 .
 h

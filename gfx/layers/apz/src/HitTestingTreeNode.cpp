@@ -57,17 +57,6 @@ mozilla
 /
 layers
 /
-AsyncCompositionManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 AsyncDragMetrics
 .
 h
