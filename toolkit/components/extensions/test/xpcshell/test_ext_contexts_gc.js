@@ -1006,11 +1006,11 @@ innerWindowID
 =
 frame
 .
-contentWindow
+browsingContext
 .
-windowUtils
+currentWindowContext
 .
-currentInnerWindowID
+innerWindowId
 ;
 let
 context
@@ -1266,9 +1266,9 @@ this
 .
 content
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 ;
 let
 context

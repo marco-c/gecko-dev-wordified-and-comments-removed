@@ -463,9 +463,9 @@ _innerWindowId
 =
 win
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 ;
 this
 .

@@ -91,9 +91,9 @@ aWindow
 return
 aWindow
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 ;
 }
 function

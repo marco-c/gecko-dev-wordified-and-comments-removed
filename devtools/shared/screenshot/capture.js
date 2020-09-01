@@ -983,9 +983,9 @@ screenshot
 "
 window
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 )
 ;
 Services
