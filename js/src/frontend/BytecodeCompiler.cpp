@@ -2658,6 +2658,11 @@ cx
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
@@ -2966,6 +2971,11 @@ cx
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;

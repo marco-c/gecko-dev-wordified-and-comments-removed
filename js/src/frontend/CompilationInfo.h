@@ -788,6 +788,11 @@ objLiteralData
 Vector
 <
 ScriptStencil
+0
+js
+:
+:
+SystemAllocPolicy
 >
 scriptData
 ;
@@ -825,10 +830,6 @@ JSContext
 cx
 )
 :
-scriptData
-(
-cx
-)
 scopeData
 (
 cx

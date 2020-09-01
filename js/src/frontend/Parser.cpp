@@ -1505,6 +1505,14 @@ cx_
 )
 )
 {
+js
+:
+:
+ReportOutOfMemory
+(
+cx_
+)
+;
 return
 nullptr
 ;
