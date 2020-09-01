@@ -728,6 +728,10 @@ const
 TypeRecordResultType
 &
 reply
+const
+nsACString
+&
+aHost
 )
 ;
 private
@@ -772,6 +776,15 @@ const
 TypeRecordResultType
 &
 reply
+const
+nsACString
+&
+aHost
+)
+:
+DNSHTTPSSVCRecordBase
+(
+aHost
 )
 {
 mResults
@@ -1896,6 +1909,7 @@ get_IPCTypeRecord
 )
 .
 mData
+mHost
 )
 ;
 break
