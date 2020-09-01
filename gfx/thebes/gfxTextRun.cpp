@@ -18012,6 +18012,15 @@ SkipFontFallbackForChar
 (
 aCh
 )
+|
+|
+GetGeneralCategory
+(
+aCh
+)
+=
+=
+HB_UNICODE_GENERAL_CATEGORY_UNASSIGNED
 )
 {
 return
