@@ -3545,6 +3545,14 @@ false
 }
 if
 (
+StaticPrefs
+:
+:
+privacy_partition_bloburl_per_agent_cluster
+(
+)
+&
+&
 aAgentClusterId
 .
 isSome
