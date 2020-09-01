@@ -1216,7 +1216,7 @@ GetVisualScrollOffset
 x
 aParentMetrics
 .
-GetLayoutScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -1237,7 +1237,7 @@ GetVisualScrollOffset
 y
 aParentMetrics
 .
-GetLayoutScrollOffset
+GetVisualScrollOffset
 (
 )
 .
