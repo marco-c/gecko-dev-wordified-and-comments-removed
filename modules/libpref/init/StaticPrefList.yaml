@@ -60822,7 +60822,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_ANDROID
+false
 mirror
 :
 always
