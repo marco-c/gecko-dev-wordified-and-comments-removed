@@ -252,17 +252,6 @@ source
 >
 buffer
 .
-data
-(
-)
-?
-0
-:
-source
--
->
-buffer
-.
 size
 (
 )
@@ -284,11 +273,6 @@ available
 size
 )
 ;
-if
-(
-length
-)
-{
 memcpy
 (
 buffer
@@ -316,7 +300,6 @@ location
 =
 length
 ;
-}
 return
 length
 ;
