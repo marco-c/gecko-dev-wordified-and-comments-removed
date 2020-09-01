@@ -5089,7 +5089,7 @@ name
 LoadStringCharResult
 shared
 :
-true
+false
 transpile
 :
 true
