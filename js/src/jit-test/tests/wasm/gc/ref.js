@@ -18,7 +18,7 @@ field
 cdr
 (
 ref
-null
+opt
 cons
 )
 )
@@ -41,7 +41,7 @@ field
 to_even
 (
 ref
-null
+opt
 even
 )
 )
@@ -64,7 +64,7 @@ field
 to_odd
 (
 ref
-null
+opt
 odd
 )
 )
@@ -73,7 +73,7 @@ odd
 ;
 ;
 Use
-externref
+anyref
 on
 the
 API
@@ -101,11 +101,11 @@ func
 imp
 (
 param
-externref
+anyref
 )
 (
 result
-externref
+anyref
 )
 )
 )
@@ -148,7 +148,7 @@ func
 param
 (
 ref
-null
+opt
 cons
 )
 )
@@ -171,7 +171,7 @@ param
 p
 (
 ref
-null
+opt
 cons
 )
 )
@@ -179,7 +179,7 @@ cons
 result
 (
 ref
-null
+opt
 cons
 )
 )
@@ -188,7 +188,7 @@ local
 l
 (
 ref
-null
+opt
 cons
 )
 )
@@ -209,6 +209,7 @@ l
 ref
 .
 null
+opt
 cons
 )
 )
@@ -281,7 +282,7 @@ block
 result
 (
 ref
-null
+opt
 cons
 )
 )
@@ -291,7 +292,7 @@ if
 result
 (
 ref
-null
+opt
 cons
 )
 )
@@ -313,6 +314,7 @@ unreachable
 ref
 .
 null
+opt
 cons
 )
 )
@@ -324,7 +326,7 @@ func
 param
 (
 ref
-null
+opt
 even
 )
 )
@@ -332,7 +334,7 @@ even
 result
 (
 ref
-null
+opt
 odd
 )
 )
@@ -340,6 +342,7 @@ odd
 ref
 .
 null
+opt
 odd
 )
 )
@@ -349,7 +352,7 @@ func
 param
 (
 ref
-null
+opt
 odd
 )
 )
@@ -357,7 +360,7 @@ odd
 result
 (
 ref
-null
+opt
 even
 )
 )
@@ -365,6 +368,7 @@ even
 ref
 .
 null
+opt
 even
 )
 )
@@ -374,7 +378,7 @@ func
 param
 (
 ref
-null
+opt
 cons
 )
 )
@@ -407,7 +411,7 @@ func
 param
 (
 ref
-null
+opt
 cons
 )
 )
@@ -427,6 +431,7 @@ get
 ref
 .
 null
+opt
 cons
 )
 )
@@ -441,6 +446,7 @@ eq
 ref
 .
 null
+opt
 cons
 )
 (
@@ -467,6 +473,7 @@ get
 ref
 .
 null
+opt
 cons
 )
 )
@@ -481,6 +488,7 @@ eq
 ref
 .
 null
+opt
 cons
 )
 (
@@ -522,7 +530,7 @@ null
 param
 (
 ref
-null
+opt
 s
 )
 )
@@ -572,7 +580,7 @@ f
 param
 (
 ref
-null
+opt
 s
 )
 )
@@ -592,7 +600,7 @@ func
 g
 (
 param
-externref
+anyref
 )
 (
 unreachable
@@ -618,7 +626,7 @@ func
 param
 (
 ref
-null
+opt
 odd
 )
 )
@@ -670,7 +678,7 @@ f
 param
 (
 ref
-null
+opt
 s
 )
 )
@@ -685,7 +693,7 @@ g
 param
 (
 ref
-null
+opt
 t
 )
 )
@@ -746,7 +754,7 @@ f
 param
 (
 ref
-null
+opt
 s
 )
 )
@@ -761,7 +769,7 @@ g
 param
 (
 ref
-null
+opt
 t
 )
 )
@@ -785,14 +793,12 @@ CompileError
 expression
 has
 type
-ref
-null
+optref
 .
 *
 but
 expected
-ref
-null
+optref
 /
 )
 ;
@@ -842,7 +848,7 @@ f
 param
 (
 ref
-null
+opt
 s
 )
 )
@@ -857,7 +863,7 @@ g
 param
 (
 ref
-null
+opt
 t
 )
 )
@@ -881,14 +887,12 @@ CompileError
 expression
 has
 type
-ref
-null
+optref
 .
 *
 but
 expected
-ref
-null
+optref
 /
 )
 ;
@@ -925,7 +929,7 @@ f
 param
 (
 ref
-null
+opt
 s
 )
 )
@@ -933,7 +937,7 @@ s
 local
 (
 ref
-null
+opt
 t
 )
 )
@@ -991,7 +995,7 @@ f
 param
 (
 ref
-null
+opt
 s
 )
 )
@@ -999,7 +1003,7 @@ s
 local
 (
 ref
-null
+opt
 t
 )
 )
@@ -1025,14 +1029,12 @@ CompileError
 expression
 has
 type
-ref
-null
+optref
 .
 *
 but
 expected
-ref
-null
+optref
 /
 )
 ;
@@ -1078,7 +1080,7 @@ f
 param
 (
 ref
-null
+opt
 s
 )
 )
@@ -1093,7 +1095,7 @@ g
 param
 (
 ref
-null
+opt
 t
 )
 )
@@ -1117,14 +1119,12 @@ CompileError
 expression
 has
 type
-ref
-null
+optref
 .
 *
 but
 expected
-ref
-null
+optref
 /
 )
 ;
@@ -1161,7 +1161,7 @@ f
 param
 (
 ref
-null
+opt
 s
 )
 )
@@ -1169,7 +1169,7 @@ s
 result
 (
 ref
-null
+opt
 t
 )
 )
@@ -1222,7 +1222,7 @@ f
 param
 (
 ref
-null
+opt
 s
 )
 )
@@ -1230,7 +1230,7 @@ s
 result
 (
 ref
-null
+opt
 t
 )
 )
@@ -1250,14 +1250,12 @@ CompileError
 expression
 has
 type
-ref
-null
+optref
 .
 *
 but
 expected
-ref
-null
+optref
 /
 )
 ;
@@ -1303,7 +1301,7 @@ f
 param
 (
 ref
-null
+opt
 s
 )
 )
@@ -1311,7 +1309,7 @@ s
 result
 (
 ref
-null
+opt
 t
 )
 )
@@ -1331,14 +1329,12 @@ CompileError
 expression
 has
 type
-ref
-null
+optref
 .
 *
 but
 expected
-ref
-null
+optref
 /
 )
 ;
@@ -1370,7 +1366,7 @@ f
 param
 (
 ref
-null
+opt
 x
 )
 )
@@ -1421,7 +1417,7 @@ f
 param
 (
 ref
-null
+opt
 0
 )
 )
@@ -1470,7 +1466,7 @@ func
 f
 (
 param
-externref
+anyref
 )
 (
 call
@@ -1490,7 +1486,7 @@ g
 param
 (
 ref
-null
+opt
 s
 )
 )
@@ -1510,8 +1506,7 @@ type
 externref
 but
 expected
-ref
-null
+optref
 /
 )
 ;

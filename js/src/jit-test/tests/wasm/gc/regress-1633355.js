@@ -77,7 +77,7 @@ left
 mut
 (
 ref
-null
+opt
 wabbit
 )
 )
@@ -89,7 +89,7 @@ right
 mut
 (
 ref
-null
+opt
 wabbit
 )
 )
@@ -103,7 +103,7 @@ g
 mut
 (
 ref
-null
+opt
 wabbit
 )
 )
@@ -111,6 +111,7 @@ wabbit
 ref
 .
 null
+opt
 wabbit
 )
 )
@@ -156,7 +157,7 @@ i32
 result
 (
 ref
-null
+opt
 wabbit
 )
 )
@@ -180,12 +181,14 @@ tmp
 ref
 .
 null
+opt
 wabbit
 )
 (
 ref
 .
 null
+opt
 wabbit
 )
 )

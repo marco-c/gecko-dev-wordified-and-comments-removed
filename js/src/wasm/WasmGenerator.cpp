@@ -1906,7 +1906,13 @@ seg
 tableIndex
 ]
 .
-isAsmJS
+kind
+=
+=
+TableKind
+:
+:
+AsmJS
 ;
 if
 (

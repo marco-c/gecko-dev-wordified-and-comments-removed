@@ -34,7 +34,7 @@ mkp
 )
 (
 result
-externref
+anyref
 )
 (
 struct
@@ -141,7 +141,7 @@ mkp
 )
 (
 result
-externref
+anyref
 )
 (
 struct
@@ -227,7 +227,7 @@ field
 mut
 (
 ref
-null
+opt
 q
 )
 )
@@ -243,7 +243,7 @@ struct
 field
 (
 mut
-externref
+anyref
 )
 )
 )
@@ -258,7 +258,7 @@ mkp
 )
 (
 result
-externref
+anyref
 )
 (
 struct
@@ -269,6 +269,7 @@ p
 ref
 .
 null
+opt
 q
 )
 )
@@ -283,7 +284,7 @@ mkr
 )
 (
 result
-externref
+anyref
 )
 (
 struct
@@ -427,7 +428,7 @@ field
 mut
 (
 ref
-null
+opt
 q
 )
 )
@@ -436,7 +437,7 @@ q
 field
 (
 mut
-externref
+anyref
 )
 )
 )
@@ -451,7 +452,7 @@ mkq
 )
 (
 result
-externref
+anyref
 )
 (
 struct
@@ -478,7 +479,7 @@ mkp
 )
 (
 result
-externref
+anyref
 )
 (
 struct
@@ -489,6 +490,7 @@ p
 ref
 .
 null
+opt
 q
 )
 (
@@ -626,7 +628,7 @@ mkp
 )
 (
 result
-externref
+anyref
 )
 (
 struct
@@ -803,7 +805,7 @@ func
 f
 (
 param
-externref
+anyref
 )
 (
 result
@@ -817,10 +819,10 @@ is_null
 struct
 .
 narrow
-externref
+anyref
 (
 ref
-null
+opt
 q
 )
 (
@@ -837,7 +839,7 @@ func
 g
 (
 param
-externref
+anyref
 )
 (
 result
@@ -851,10 +853,10 @@ is_null
 struct
 .
 narrow
-externref
+anyref
 (
 ref
-null
+opt
 p
 )
 (

@@ -63,7 +63,7 @@ htype
 func
 (
 param
-externref
+anyref
 )
 )
 )
@@ -74,7 +74,7 @@ itype
 func
 (
 result
-externref
+anyref
 )
 )
 )
@@ -94,7 +94,7 @@ func
 f
 (
 param
-externref
+anyref
 )
 (
 call
@@ -112,7 +112,7 @@ func
 g
 (
 result
-externref
+anyref
 )
 (
 call

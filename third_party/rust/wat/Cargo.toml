@@ -127,7 +127,7 @@ version
 .
 0
 .
-24
+21
 "
 authors
 =
@@ -176,7 +176,7 @@ tools
 /
 tree
 /
-main
+master
 /
 crates
 /
@@ -234,7 +234,7 @@ tools
 /
 tree
 /
-main
+master
 /
 crates
 /
@@ -248,7 +248,7 @@ wast
 version
 =
 "
-23
+20
 .
 0
 .

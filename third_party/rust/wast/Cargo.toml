@@ -123,7 +123,7 @@ wast
 version
 =
 "
-23
+20
 .
 0
 .
@@ -179,7 +179,7 @@ tools
 /
 tree
 /
-main
+master
 /
 crates
 /
@@ -237,7 +237,7 @@ tools
 /
 tree
 /
-main
+master
 /
 crates
 /

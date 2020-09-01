@@ -22957,7 +22957,7 @@ wasm
 RefType
 :
 :
-Extern
+Any
 :
 switch
 (

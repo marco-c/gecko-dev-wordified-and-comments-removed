@@ -92070,7 +92070,7 @@ wasm
 RefType
 :
 :
-Extern
+Any
 :
 argMir
 =
@@ -92664,7 +92664,7 @@ wasm
 RefType
 :
 :
-Extern
+Any
 :
 case
 wasm

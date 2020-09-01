@@ -10,7 +10,7 @@ module
 (
 table
 10
-externref
+anyref
 )
 )
 )
@@ -42,7 +42,7 @@ t
 "
 )
 10
-externref
+anyref
 )
 )
 )
@@ -98,7 +98,7 @@ t
 (
 table
 10
-externref
+anyref
 )
 )
 )
@@ -157,7 +157,7 @@ t
 "
 )
 10
-externref
+anyref
 )
 )
 )
@@ -237,7 +237,7 @@ t
 "
 )
 10
-externref
+anyref
 )
 )
 )
@@ -369,7 +369,7 @@ t
 "
 )
 10
-externref
+anyref
 )
 (
 func
@@ -634,7 +634,7 @@ t
 "
 )
 10
-externref
+anyref
 )
 (
 func
@@ -754,7 +754,7 @@ funcref
 (
 table
 10
-externref
+anyref
 )
 (
 func
@@ -845,7 +845,7 @@ t
 "
 )
 10
-externref
+anyref
 )
 (
 elem
@@ -923,7 +923,7 @@ i32
 const
 0
 )
-externref
+anyref
 (
 ref
 .
@@ -987,7 +987,7 @@ const
 (
 table
 10
-externref
+anyref
 )
 (
 elem
@@ -1065,7 +1065,7 @@ funcref
 )
 (
 elem
-externref
+anyref
 (
 ref
 .
@@ -1148,7 +1148,7 @@ t
 (
 table
 10
-externref
+anyref
 )
 )
 )
@@ -1208,7 +1208,7 @@ module
 (
 table
 10
-externref
+anyref
 )
 (
 type
@@ -1614,7 +1614,7 @@ module
 (
 table
 10
-externref
+anyref
 )
 (
 func
@@ -1630,7 +1630,7 @@ f64
 )
 (
 result
-externref
+anyref
 )
 (
 table
@@ -1989,7 +1989,7 @@ i32
 )
 (
 param
-externref
+anyref
 )
 (
 table
@@ -2047,7 +2047,7 @@ module
 (
 table
 10
-externref
+anyref
 )
 (
 func
@@ -2109,7 +2109,7 @@ module
 (
 table
 10
-externref
+anyref
 )
 (
 func
@@ -2240,7 +2240,7 @@ f
 )
 (
 param
-externref
+anyref
 )
 (
 table
@@ -2698,7 +2698,7 @@ i32
 )
 (
 param
-externref
+anyref
 )
 (
 result
@@ -2753,7 +2753,7 @@ module
 (
 table
 10
-externref
+anyref
 )
 (
 func
@@ -2863,7 +2863,7 @@ module
 (
 table
 10
-externref
+anyref
 )
 (
 func
@@ -3046,7 +3046,7 @@ visibility
 }
 10
 20
-externref
+anyref
 )
 (
 func

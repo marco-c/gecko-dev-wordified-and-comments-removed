@@ -33,7 +33,7 @@ module
 func
 (
 result
-externref
+anyref
 )
 i32
 .
@@ -68,7 +68,7 @@ module
 func
 (
 result
-externref
+anyref
 )
 i32
 .
@@ -85,7 +85,7 @@ const
 select
 (
 result
-externref
+anyref
 )
 )
 )
@@ -167,7 +167,7 @@ func
 test
 (
 local
-externref
+anyref
 )
 )
 )
@@ -180,7 +180,7 @@ func
 test
 (
 param
-externref
+anyref
 )
 )
 )
@@ -193,7 +193,7 @@ func
 test
 (
 result
-externref
+anyref
 )
 (
 ref
@@ -214,7 +214,7 @@ test
 block
 (
 result
-externref
+anyref
 )
 (
 unreachable
@@ -236,7 +236,7 @@ i32
 )
 (
 local
-externref
+anyref
 )
 (
 ref
@@ -266,7 +266,7 @@ b
 func
 (
 param
-externref
+anyref
 )
 )
 )
@@ -285,7 +285,7 @@ b
 func
 (
 result
-externref
+anyref
 )
 )
 )
@@ -294,7 +294,7 @@ externref
 module
 (
 global
-externref
+anyref
 (
 ref
 .
@@ -309,7 +309,7 @@ module
 global
 (
 mut
-externref
+anyref
 )
 (
 ref
@@ -451,7 +451,7 @@ i32
 )
 (
 local
-externref
+anyref
 )
 ref
 .
@@ -526,7 +526,7 @@ is_null
 (
 param
 ref
-externref
+anyref
 )
 (
 result
@@ -551,7 +551,7 @@ ref_or_null
 (
 param
 ref
-externref
+anyref
 )
 (
 param
@@ -560,7 +560,7 @@ i32
 )
 (
 result
-externref
+anyref
 )
 local
 .
@@ -577,7 +577,7 @@ selector
 select
 (
 result
-externref
+anyref
 )
 )
 (
@@ -592,7 +592,7 @@ nested
 (
 param
 ref
-externref
+anyref
 )
 (
 param
@@ -601,7 +601,7 @@ i32
 )
 (
 result
-externref
+anyref
 )
 ;
 ;
@@ -879,7 +879,7 @@ f
 )
 (
 param
-externref
+anyref
 )
 (
 result
@@ -948,7 +948,7 @@ test
 (
 param
 ref
-externref
+anyref
 )
 (
 param
@@ -957,7 +957,7 @@ i32
 )
 (
 result
-externref
+anyref
 )
 {
 body
@@ -992,7 +992,7 @@ assertJoin
 block
 (
 result
-externref
+anyref
 )
 local
 .
@@ -1010,7 +1010,7 @@ block
 out
 (
 result
-externref
+anyref
 )
 local
 .
@@ -1029,7 +1029,7 @@ assertJoin
 loop
 (
 result
-externref
+anyref
 )
 local
 .
@@ -1046,14 +1046,14 @@ block
 out
 (
 result
-externref
+anyref
 )
 (
 loop
 top
 (
 result
-externref
+anyref
 )
 local
 .
@@ -1138,7 +1138,7 @@ block
 out
 (
 result
-externref
+anyref
 )
 (
 loop
@@ -1183,14 +1183,14 @@ block
 out
 (
 result
-externref
+anyref
 )
 (
 block
 unreachable
 (
 result
-externref
+anyref
 )
 (
 loop
@@ -1254,12 +1254,12 @@ test
 (
 param
 lhs
-externref
+anyref
 )
 (
 param
 rhs
-externref
+anyref
 )
 (
 param
@@ -1268,7 +1268,7 @@ i32
 )
 (
 result
-externref
+anyref
 )
 local
 .
@@ -1285,7 +1285,7 @@ i
 select
 (
 result
-externref
+anyref
 )
 )
 )
@@ -1565,7 +1565,7 @@ func
 ret
 (
 result
-externref
+anyref
 )
 )
 )
@@ -1582,7 +1582,7 @@ func
 param
 (
 param
-externref
+anyref
 )
 )
 )
@@ -1597,12 +1597,12 @@ param
 (
 param
 x
-externref
+anyref
 )
 (
 param
 y
-externref
+anyref
 )
 local
 .
@@ -1627,7 +1627,7 @@ ret
 )
 (
 result
-externref
+anyref
 )
 call
 ret
@@ -1719,11 +1719,11 @@ func
 mirror
 (
 param
-externref
+anyref
 )
 (
 result
-externref
+anyref
 )
 )
 )
@@ -1740,11 +1740,11 @@ func
 augment
 (
 param
-externref
+anyref
 )
 (
 result
-externref
+anyref
 )
 )
 )
@@ -1782,11 +1782,11 @@ f
 (
 param
 param
-externref
+anyref
 )
 (
 result
-externref
+anyref
 )
 i32
 .
@@ -1816,11 +1816,11 @@ g
 (
 param
 param
-externref
+anyref
 )
 (
 result
-externref
+anyref
 )
 i32
 .
@@ -1875,11 +1875,11 @@ table_type
 func
 (
 param
-externref
+anyref
 )
 (
 result
-externref
+anyref
 )
 )
 )
@@ -1899,11 +1899,11 @@ i32
 (
 param
 ref
-externref
+anyref
 )
 (
 result
-externref
+anyref
 )
 local
 .
@@ -2267,7 +2267,7 @@ glob
 externref
 "
 )
-externref
+anyref
 )
 )
 {
@@ -2435,7 +2435,7 @@ constants
 imm_null
 "
 )
-externref
+anyref
 )
 (
 global
@@ -2449,7 +2449,7 @@ constants
 imm_bread
 "
 )
-externref
+anyref
 )
 (
 global
@@ -2465,7 +2465,7 @@ mut_null
 )
 (
 mut
-externref
+anyref
 )
 )
 (
@@ -2482,13 +2482,13 @@ mut_bread
 )
 (
 mut
-externref
+anyref
 )
 )
 (
 global
 g_imm_null
-externref
+anyref
 (
 ref
 .
@@ -2499,7 +2499,7 @@ extern
 (
 global
 g_imm_getglob
-externref
+anyref
 (
 global
 .
@@ -2512,7 +2512,7 @@ global
 g_mut
 (
 mut
-externref
+anyref
 )
 (
 ref
@@ -2531,7 +2531,7 @@ imm_null
 )
 (
 result
-externref
+anyref
 )
 global
 .
@@ -2548,7 +2548,7 @@ imm_getglob
 )
 (
 result
-externref
+anyref
 )
 global
 .
@@ -2565,7 +2565,7 @@ imp_imm_null
 )
 (
 result
-externref
+anyref
 )
 global
 .
@@ -2582,7 +2582,7 @@ imp_imm_bread
 )
 (
 result
-externref
+anyref
 )
 global
 .
@@ -2599,7 +2599,7 @@ imp_mut_null
 )
 (
 result
-externref
+anyref
 )
 global
 .
@@ -2616,7 +2616,7 @@ imp_mut_bread
 )
 (
 result
-externref
+anyref
 )
 global
 .
@@ -2633,7 +2633,7 @@ set_imp_null
 )
 (
 param
-externref
+anyref
 )
 local
 .
@@ -2654,7 +2654,7 @@ set_imp_bread
 )
 (
 param
-externref
+anyref
 )
 local
 .
@@ -2675,7 +2675,7 @@ set_mut
 )
 (
 param
-externref
+anyref
 )
 local
 .
@@ -2696,7 +2696,7 @@ get_mut
 )
 (
 result
-externref
+anyref
 )
 global
 .
@@ -2950,7 +2950,7 @@ module
 func
 (
 param
-externref
+anyref
 )
 (
 return

@@ -317,7 +317,7 @@ dependencies
 wast
 =
 "
-22
+17
 .
 0
 "
@@ -545,7 +545,7 @@ wast
 version
 =
 "
-22
+17
 .
 0
 "

@@ -357,7 +357,10 @@ JSContext
 *
 cx
 RefType
-targetType
+:
+:
+Kind
+targetTypeKind
 HandleValue
 v
 MutableHandleFunction
@@ -1790,8 +1793,8 @@ maximumLength
 wasm
 :
 :
-RefType
-tableType
+TableKind
+tableKind
 HandleObject
 proto
 )
