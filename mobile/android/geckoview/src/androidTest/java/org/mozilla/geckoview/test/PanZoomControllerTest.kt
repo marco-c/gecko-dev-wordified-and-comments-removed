@@ -73,6 +73,12 @@ org
 .
 junit
 .
+Ignore
+import
+org
+.
+junit
+.
 Test
 import
 org
@@ -1845,6 +1851,13 @@ up
 return
 result
 }
+Ignore
+/
+/
+Intermittent
+failures
+Bug
+1660357
 WithDisplay
 (
 width
