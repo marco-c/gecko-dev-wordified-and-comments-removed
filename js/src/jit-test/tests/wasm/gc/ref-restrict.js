@@ -145,7 +145,6 @@ box
 ref
 .
 null
-opt
 box
 )
 )
@@ -585,7 +584,6 @@ box
 ref
 .
 null
-opt
 box
 )
 )
@@ -643,7 +641,6 @@ box
 ref
 .
 null
-opt
 box
 )
 )
@@ -856,7 +853,6 @@ box
 ref
 .
 null
-opt
 box
 )
 )
@@ -1105,7 +1101,6 @@ box
 ref
 .
 null
-opt
 box
 )
 )
@@ -1288,7 +1283,6 @@ fn
 ref
 .
 null
-opt
 box
 )
 (
@@ -1592,7 +1586,6 @@ fn
 ref
 .
 null
-opt
 box
 )
 (
@@ -1940,7 +1933,6 @@ fn
 ref
 .
 null
-opt
 box
 )
 (
