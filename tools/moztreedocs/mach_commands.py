@@ -2115,6 +2115,20 @@ import
 s3_upload
 s3_set_redirects
         
+import
+fcntl
+        
+fcntl
+.
+fcntl
+(
+1
+fcntl
+.
+F_SETFL
+0
+)
+        
 files
 =
 list
