@@ -665,12 +665,8 @@ JSITER_PRIVATE
 )
 &
 &
-JSID_TO_SYMBOL
-(
 id
-)
--
->
+.
 isPrivateName
 (
 )
