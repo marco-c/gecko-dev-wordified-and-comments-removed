@@ -44128,6 +44128,15 @@ true
 elif
 defined
 (
+MOZ_WIDGET_ANDROID
+)
+value
+:
+IS_EARLY_BETA_OR_EARLIER
+#
+elif
+defined
+(
 XP_UNIX
 )
 value
