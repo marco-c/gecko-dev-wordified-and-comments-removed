@@ -670,6 +670,15 @@ line
 )
             
 if
+line
+.
+startswith
+(
+'
+BUILDTASK
+'
+)
+or
 not
 log_name
 :

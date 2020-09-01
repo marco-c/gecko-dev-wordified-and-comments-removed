@@ -27,6 +27,14 @@ buildconfig
 from
 mozbuild
 .
+action
+.
+util
+import
+log_build_task
+from
+mozbuild
+.
 util
 import
 memoize
@@ -2155,8 +2163,9 @@ sys
 .
 exit
 (
-main
+log_build_task
 (
+main
 sys
 .
 argv

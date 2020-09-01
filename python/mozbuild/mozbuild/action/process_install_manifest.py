@@ -49,6 +49,14 @@ mozbuild
 util
 import
 DefinesAction
+from
+mozbuild
+.
+action
+.
+util
+import
+log_build_task
 COMPLETE
 =
 '
@@ -590,8 +598,9 @@ __main__
 '
 :
     
-main
+log_build_task
 (
+main
 sys
 .
 argv

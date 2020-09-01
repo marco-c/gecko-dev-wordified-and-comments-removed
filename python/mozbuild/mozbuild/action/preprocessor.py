@@ -11,6 +11,14 @@ mozbuild
 preprocessor
 import
 Preprocessor
+from
+mozbuild
+.
+action
+.
+util
+import
+log_build_task
 def
 generate
 (
@@ -79,8 +87,9 @@ __main__
 "
 :
     
-main
+log_build_task
 (
+main
 sys
 .
 argv

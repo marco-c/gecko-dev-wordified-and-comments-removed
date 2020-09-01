@@ -67,6 +67,14 @@ mozbuild
 util
 import
 FileAvoidWrite
+from
+mozbuild
+.
+action
+.
+util
+import
+log_build_task
 def
 process
 (
@@ -829,8 +837,9 @@ __main__
 '
 :
     
-main
+log_build_task
 (
+main
 sys
 .
 argv
