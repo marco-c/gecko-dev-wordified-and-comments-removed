@@ -120,8 +120,7 @@ fails
 -
 if
 (
-!
-nativeThemePref
+Android
 )
 =
 =
@@ -151,8 +150,7 @@ OSX
 winWidget
 |
 |
-!
-nativeThemePref
+Android
 )
 fuzzy
 -

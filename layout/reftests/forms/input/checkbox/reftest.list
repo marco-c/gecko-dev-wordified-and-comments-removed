@@ -253,8 +253,7 @@ fails
 -
 if
 (
-!
-nativeThemePref
+Android
 )
 =
 =
@@ -308,8 +307,7 @@ fails
 -
 if
 (
-!
-nativeThemePref
+Android
 )
 =
 =

@@ -427,15 +427,6 @@ slightly
 different
 from
 ColorGray
-fails
--
-if
-(
-Android
-&
-&
-nativeThemePref
-)
 =
 =
 disabled
