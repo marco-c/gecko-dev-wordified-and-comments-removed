@@ -887,12 +887,5 @@ bool
 aReversedButtonsPlacement
 )
 ;
-GtkBorder
-GetCSDDecorationSize
-(
-bool
-aIsPopup
-)
-;
 #
 endif
