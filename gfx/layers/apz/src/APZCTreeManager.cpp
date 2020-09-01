@@ -17439,7 +17439,7 @@ TopLeft
 -
 aMetrics
 .
-GetVisualViewportOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -17625,7 +17625,7 @@ TopLeft
 -
 aMetrics
 .
-GetVisualViewportOffset
+GetVisualScrollOffset
 (
 )
 )
