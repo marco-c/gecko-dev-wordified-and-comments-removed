@@ -97,7 +97,6 @@ f32
 =
 wasmEvalText
 (
-'
 (
 module
 (
@@ -125,7 +124,6 @@ func
 )
 )
 )
-'
 )
 .
 exports
@@ -195,7 +193,6 @@ assertSameBitPattern
 }
 wasmEvalText
 (
-'
 (
 module
 (
@@ -238,7 +235,6 @@ func
 )
 )
 )
-'
 checkBitPatterns
 )
 .
@@ -274,7 +270,6 @@ f64
 =
 wasmEvalText
 (
-'
 (
 module
 (
@@ -302,7 +297,6 @@ func
 )
 )
 )
-'
 )
 .
 exports
@@ -322,7 +316,6 @@ assertSameBitPattern
 ;
 wasmEvalText
 (
-'
 (
 module
 (
@@ -365,7 +358,6 @@ func
 )
 )
 )
-'
 checkBitPatterns
 )
 .
@@ -732,7 +724,11 @@ add
 '
 expected
 :
-f32_qnan
+'
+nan
+:
+arithmetic
+'
 }
 {
 type
@@ -960,7 +956,11 @@ func
 '
 expected
 :
-qnan_code
+'
+nan
+:
+arithmetic
+'
 }
 {
 type
@@ -976,7 +976,11 @@ lhs_code
 ]
 expected
 :
-qnan_code
+'
+nan
+:
+arithmetic
+'
 }
 {
 type
@@ -992,7 +996,11 @@ rhs_code
 ]
 expected
 :
-qnan_code
+'
+nan
+:
+arithmetic
+'
 }
 {
 type
@@ -1009,7 +1017,11 @@ rhs_code
 ]
 expected
 :
-qnan_code
+'
+nan
+:
+arithmetic
+'
 }
 ]
 )
