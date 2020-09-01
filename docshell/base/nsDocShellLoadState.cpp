@@ -556,7 +556,7 @@ loadingSessionHistoryInfo
 (
 )
 .
-value
+ref
 (
 )
 )
