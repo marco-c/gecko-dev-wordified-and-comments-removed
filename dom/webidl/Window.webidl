@@ -1201,7 +1201,14 @@ explicitly
 .
 [
 Throws
-ChromeOnly
+Func
+=
+"
+nsContentUtils
+:
+:
+IsCallerChromeOrFuzzingEnabled
+"
 ]
 WindowProxy
 ?
