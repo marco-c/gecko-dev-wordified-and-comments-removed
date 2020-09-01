@@ -64,6 +64,8 @@ libglib2
 -
 dev
 \
+libtinfo5
+\
 pkg
 -
 config
