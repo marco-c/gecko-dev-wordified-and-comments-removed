@@ -526,6 +526,10 @@ mLevel
 =
 SIZE_MAX
 ;
+mBundleLevel
+=
+SIZE_MAX
+;
 }
 size_t
 GetLevel
