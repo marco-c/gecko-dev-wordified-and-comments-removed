@@ -2063,12 +2063,6 @@ height
 )
 )
 ;
-clip
-.
-Round
-(
-)
-;
 visual
 -
 >
