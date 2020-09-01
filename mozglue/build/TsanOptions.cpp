@@ -531,6 +531,13 @@ n
 "
 race
 :
+SkSpriteBlitter_Memcpy
+\
+n
+"
+"
+race
+:
 ScriptPreloader
 :
 :
