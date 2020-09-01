@@ -48,6 +48,13 @@ TESTING_JS_MODULES
 '
 schemas
 /
+PioneerContentSchema
+.
+json
+'
+'
+schemas
+/
 PioneerStudyAddonsSchema
 .
 json
