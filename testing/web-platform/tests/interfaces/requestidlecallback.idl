@@ -76,7 +76,7 @@ options
 }
 )
 ;
-void
+undefined
 cancelIdleCallback
 (
 unsigned
@@ -118,7 +118,7 @@ didTimeout
 callback
 IdleRequestCallback
 =
-void
+undefined
 (
 IdleDeadline
 deadline
