@@ -482,6 +482,8 @@ MemoryMapping
 >
 &
 aMappings
+pid_t
+aPid
 )
 ;
 uintptr_t
@@ -707,6 +709,10 @@ MemoryMapping
 >
 &
 aMappings
+pid_t
+aPid
+=
+0
 )
 ;
 }
