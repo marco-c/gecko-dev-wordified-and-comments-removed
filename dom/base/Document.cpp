@@ -42244,6 +42244,10 @@ READYSTATE_UNINITIALIZED
 false
 )
 ;
+mSetCompleteAfterDOMContentLoaded
+=
+false
+;
 SetCompatibilityMode
 (
 eCompatibility_FullStandards
