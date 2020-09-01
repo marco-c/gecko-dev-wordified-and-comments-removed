@@ -892,7 +892,7 @@ href
 "
 :
 "
-gopher
+https
 :
 /
 /
@@ -919,7 +919,7 @@ href
 "
 :
 "
-gopher
+https
 :
 /
 /
@@ -928,13 +928,14 @@ example
 net
 :
 1234
+/
 "
 "
 protocol
 "
 :
 "
-gopher
+https
 :
 "
 }
@@ -1078,7 +1079,7 @@ new_value
 "
 :
 "
-gopher
+https
 "
 "
 expected
