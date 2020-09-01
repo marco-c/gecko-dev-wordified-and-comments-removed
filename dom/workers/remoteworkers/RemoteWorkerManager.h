@@ -176,6 +176,16 @@ RemoteWorkerData
 aData
 )
 ;
+static
+bool
+HasExtensionPrincipal
+(
+const
+RemoteWorkerData
+&
+aData
+)
+;
 private
 :
 RemoteWorkerManager
