@@ -4093,16 +4093,6 @@ expected
 =
 compressed_empty
         
-print
-(
-'
-%
-r
-'
-%
-expected
-)
-        
 self
 .
 assertEqual
@@ -5437,19 +5427,6 @@ frame_count
 =
 1
         
-print
-(
-"
-Chunk
-sizes
-:
-%
-r
-"
-%
-chunk_sizes
-)
-        
 self
 .
 assertTrue
@@ -6175,19 +6152,6 @@ finish_used
 =
 True
         
-print
-(
-"
-Chunk
-sizes
-:
-%
-r
-"
-%
-chunk_sizes
-)
-        
 self
 .
 assertTrue
@@ -6198,18 +6162,6 @@ chunk_sizes
 )
 >
 10
-)
-        
-print
-(
-"
-Methods
-:
-%
-r
-"
-%
-methods
 )
         
 self

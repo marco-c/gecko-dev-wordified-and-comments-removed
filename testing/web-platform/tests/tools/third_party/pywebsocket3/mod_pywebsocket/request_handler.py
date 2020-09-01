@@ -889,7 +889,7 @@ self
 .
 headers
 .
-getheader
+get
 (
 '
 Authorization

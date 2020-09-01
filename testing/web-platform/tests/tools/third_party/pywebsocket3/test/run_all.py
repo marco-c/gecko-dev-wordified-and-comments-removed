@@ -113,11 +113,13 @@ absolute_import
 import
 logging
 import
-optparse
+argparse
 import
 os
 import
 re
+import
+six
 import
 sys
 import
@@ -217,22 +219,9 @@ os
 .
 path
 .
-join
-(
-os
-.
-path
-.
-split
+dirname
 (
 __file__
-)
-[
-0
-]
-'
-.
-'
 )
 )
 )
@@ -247,15 +236,15 @@ __main__
     
 parser
 =
-optparse
+argparse
 .
-OptionParser
+ArgumentParser
 (
 )
     
 parser
 .
-add_option
+add_argument
 (
         
 '
@@ -274,9 +263,9 @@ log_level
         
 type
 =
-'
-choice
-'
+six
+.
+text_type
         
 dest
 =
@@ -319,7 +308,7 @@ args
 =
 parser
 .
-parse_args
+parse_known_args
 (
 )
     
