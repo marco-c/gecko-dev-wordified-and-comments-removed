@@ -13096,8 +13096,6 @@ result
 =
 HandleDeleteCollapsedSelectionAtAtomicContent
 (
-aDirectionAndAmount
-aStripWrappers
 MOZ_KnownLive
 (
 *
@@ -13174,7 +13172,6 @@ result
 HandleDeleteCollapsedSelectionAtHRElement
 (
 aDirectionAndAmount
-aStripWrappers
 MOZ_KnownLive
 (
 *
@@ -14821,11 +14818,6 @@ nsIEditor
 :
 EDirection
 aDirectionAndAmount
-nsIEditor
-:
-:
-EStripWrappers
-aStripWrappers
 Element
 &
 aHRElement
@@ -14888,8 +14880,6 @@ result
 =
 HandleDeleteCollapsedSelectionAtAtomicContent
 (
-aDirectionAndAmount
-aStripWrappers
 aHRElement
 aCaretPoint
 aWSRunScannerAtCaret
@@ -15014,8 +15004,6 @@ result
 =
 HandleDeleteCollapsedSelectionAtAtomicContent
 (
-aDirectionAndAmount
-aStripWrappers
 aHRElement
 aCaretPoint
 aWSRunScannerAtCaret
@@ -15251,16 +15239,6 @@ HTMLEditor
 :
 HandleDeleteCollapsedSelectionAtAtomicContent
 (
-nsIEditor
-:
-:
-EDirection
-aDirectionAndAmount
-nsIEditor
-:
-:
-EStripWrappers
-aStripWrappers
 nsIContent
 &
 aAtomicContent
