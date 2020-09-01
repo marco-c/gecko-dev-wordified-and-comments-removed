@@ -44745,6 +44745,15 @@ responseStatus
 }
 if
 (
+!
+StaticPrefs
+:
+:
+fission_sessionHistoryInParent
+(
+)
+&
+&
 rootSH
 &
 &
