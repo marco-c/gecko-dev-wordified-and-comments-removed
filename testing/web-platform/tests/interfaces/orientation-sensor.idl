@@ -87,7 +87,7 @@ double
 ?
 quaternion
 ;
-void
+undefined
 populateMatrix
 (
 RotationMatrixType
