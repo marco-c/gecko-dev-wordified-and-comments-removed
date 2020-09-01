@@ -348,14 +348,6 @@ getCert
 )
 ;
 [
-must_use
-]
-void
-markForPermDeletion
-(
-)
-;
-[
 notxpcom
 noscript
 ]
