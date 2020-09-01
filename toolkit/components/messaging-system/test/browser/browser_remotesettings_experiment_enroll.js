@@ -363,9 +363,11 @@ rsClient
 RemoteSettings
 (
 "
-messaging
+nimbus
 -
 experiments
+-
+desktop
 "
 )
 ;
