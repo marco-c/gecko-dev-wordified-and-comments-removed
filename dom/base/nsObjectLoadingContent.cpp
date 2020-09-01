@@ -10845,10 +10845,6 @@ DocumentChannel
 CanUseDocumentChannel
 (
 mURI
-nsIWebNavigation
-:
-:
-LOAD_FLAGS_NONE
 )
 )
 {

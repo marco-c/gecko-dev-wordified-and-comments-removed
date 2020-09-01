@@ -191,8 +191,6 @@ CanUseDocumentChannel
 nsIURI
 *
 aURI
-uint32_t
-aLoadFlags
 )
 ;
 protected

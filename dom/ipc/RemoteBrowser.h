@@ -215,12 +215,9 @@ virtual
 void
 LoadURL
 (
-nsIURI
+nsDocShellLoadState
 *
-aURI
-nsIPrincipal
-*
-aTriggeringPrincipal
+aLoadState
 )
 =
 0
