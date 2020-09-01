@@ -107,6 +107,11 @@ description
 :
 Upload
 Symbols
+attributes
+:
+cron
+:
+true
 worker
 -
 type
