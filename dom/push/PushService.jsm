@@ -5758,6 +5758,8 @@ forEachOrigin
 (
 principal
 .
+URI
+.
 prePath
 ChromeUtils
 .
