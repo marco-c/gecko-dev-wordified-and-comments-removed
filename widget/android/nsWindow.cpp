@@ -1175,6 +1175,9 @@ jni
 detail
 :
 :
+NativePtrType
+:
+:
 REFPTR
 void
 >
@@ -1238,6 +1241,9 @@ jni
 :
 :
 detail
+:
+:
+NativePtrType
 :
 :
 OWNING
