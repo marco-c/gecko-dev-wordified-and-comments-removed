@@ -1466,7 +1466,7 @@ OrIf
 {
 Errors
 }
-Exec
+ExecWait
 '
 "
 INSTDIR
@@ -1526,7 +1526,7 @@ old
 one
 first
 .
-Exec
+ExecWait
 '
 "
 INSTDIR
