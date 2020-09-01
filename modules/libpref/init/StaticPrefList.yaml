@@ -24122,7 +24122,7 @@ type
 RelaxedAtomicInt32
 value
 :
-400
+200
 mirror
 :
 always
@@ -24141,7 +24141,7 @@ type
 RelaxedAtomicInt32
 value
 :
-200
+50
 mirror
 :
 always
