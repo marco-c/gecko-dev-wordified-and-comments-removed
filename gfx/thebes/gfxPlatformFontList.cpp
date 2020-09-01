@@ -4714,6 +4714,13 @@ IsVisibleToCSS
 (
 f
 )
+|
+|
+f
+.
+IsAltLocaleFamily
+(
+)
 )
 {
 continue
