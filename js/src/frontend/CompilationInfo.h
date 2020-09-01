@@ -846,10 +846,6 @@ JSContext
 cx
 )
 :
-moduleMetadata
-(
-cx
-)
 parserAtoms
 (
 cx
