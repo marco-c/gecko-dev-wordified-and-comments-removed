@@ -338,13 +338,13 @@ AuthenticatorSelectionCriteria
 DOMString
 authenticatorAttachment
 ;
+DOMString
+residentKey
+;
 boolean
 requireResidentKey
 =
 false
-;
-DOMString
-residentKey
 ;
 DOMString
 userVerification
