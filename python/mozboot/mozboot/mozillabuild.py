@@ -552,6 +552,9 @@ exclusion_path
 )
 )
         
+try
+:
+            
 if
 os
 .
@@ -568,9 +571,15 @@ srcdir
 =
 exclusion_path
 :
-            
+                
 return
 False
+        
+except
+ValueError
+:
+            
+pass
     
 return
 True
