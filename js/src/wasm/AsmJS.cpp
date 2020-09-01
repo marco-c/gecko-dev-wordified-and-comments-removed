@@ -38184,7 +38184,7 @@ byteLength
 0x
 %
 "
-PRIu64
+PRIx64
 "
 is
 not
@@ -38203,7 +38203,7 @@ is
 0x
 %
 "
-PRIu64
+PRIx64
 memoryLength
 RoundUpToNextValidAsmJSHeapLength
 (
@@ -38269,7 +38269,7 @@ of
 0x
 %
 "
-PRIu64
+PRIx64
 "
 is
 less
@@ -38277,7 +38277,7 @@ than
 0x
 %
 "
-PRIu64
+PRIx64
 "
 (
 the
