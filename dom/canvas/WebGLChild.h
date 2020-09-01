@@ -134,6 +134,14 @@ FlushPendingCmds
 (
 )
 ;
+void
+ActorDestroy
+(
+ActorDestroyReason
+why
+)
+override
+;
 private
 :
 friend
