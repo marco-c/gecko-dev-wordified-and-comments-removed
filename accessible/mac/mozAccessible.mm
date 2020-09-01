@@ -1779,9 +1779,9 @@ atkRole
 macRole
 macSubrole
 msaaRole
+\
 ia2Role
 androidClass
-\
 nameRule
 )
 \
@@ -2194,9 +2194,9 @@ atkRole
 macRole
 macSubrole
 msaaRole
+\
 ia2Role
 androidClass
-\
 nameRule
 )
 \
