@@ -7860,10 +7860,10 @@ tmp
 ;
 if
 (
-isnan
-(
 f
-)
+!
+=
+f
 )
 strcpy
 (
