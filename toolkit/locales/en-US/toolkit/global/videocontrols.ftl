@@ -53,3 +53,13 @@ MPL
 0
 /
 .
+videocontrols
+-
+scrubber
+=
+.
+aria
+-
+label
+=
+Position
