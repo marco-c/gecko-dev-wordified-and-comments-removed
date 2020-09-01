@@ -228,7 +228,7 @@ mPageNum
 ;
 }
 int32_t
-GetNumPages
+GetRawNumPages
 (
 )
 const

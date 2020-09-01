@@ -255,6 +255,12 @@ mHasEverPrinted
 ;
 }
 int32_t
+GetRawNumPages
+(
+)
+const
+;
+int32_t
 GetPrintPreviewNumPages
 (
 )
