@@ -5,13 +5,6 @@ BaseProfilingCategory_h
 define
 BaseProfilingCategory_h
 #
-include
-"
-BaseProfiler
-.
-h
-"
-#
 ifndef
 MOZ_GECKO_PROFILER
 #
