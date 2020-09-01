@@ -2740,10 +2740,6 @@ funbox_
 functionStencil
 (
 )
-.
-get
-(
-)
 )
 )
 {

@@ -302,13 +302,11 @@ Deferred
 )
 ;
 }
-MutableHandle
-<
 frontend
 :
 :
 ScopeStencil
->
+&
 scopeData
 (
 )

@@ -12840,10 +12840,6 @@ intoScriptStencil
 compilationInfo
 .
 topLevel
-.
-get
-(
-)
 )
 ;
 }
