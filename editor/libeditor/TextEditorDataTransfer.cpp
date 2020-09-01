@@ -996,6 +996,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 nsresult
@@ -1679,6 +1683,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 SelectionBatcher
@@ -2879,6 +2887,10 @@ emplace
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 }

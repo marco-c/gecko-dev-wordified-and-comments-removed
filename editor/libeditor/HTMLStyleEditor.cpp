@@ -433,6 +433,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+No
 )
 ;
 nsAtom
@@ -1274,6 +1278,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 IgnoredErrorResult
@@ -8368,6 +8376,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 IgnoredErrorResult
@@ -9362,6 +9374,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 IgnoredErrorResult
@@ -11336,6 +11352,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 IgnoredErrorResult
