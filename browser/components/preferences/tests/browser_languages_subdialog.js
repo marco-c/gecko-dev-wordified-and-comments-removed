@@ -25,7 +25,7 @@ gBrowser
 .
 contentDocument
 ;
-const
+let
 dialogOverlay
 =
 content
@@ -92,6 +92,16 @@ Preferences
 forceEnableInstantApply
 (
 )
+;
+dialogOverlay
+=
+content
+.
+gSubDialog
+.
+_topDialog
+.
+_overlay
 ;
 is
 (
