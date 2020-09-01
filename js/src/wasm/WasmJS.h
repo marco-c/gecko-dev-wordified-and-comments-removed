@@ -357,10 +357,7 @@ JSContext
 *
 cx
 RefType
-:
-:
-Kind
-targetTypeKind
+targetType
 HandleValue
 v
 MutableHandleFunction

@@ -248,6 +248,17 @@ HandleWasmTableObject
 maybeObject
 )
 {
+MOZ_RELEASE_ASSERT
+(
+desc
+.
+elemType
+.
+isNullable
+(
+)
+)
+;
 switch
 (
 desc
