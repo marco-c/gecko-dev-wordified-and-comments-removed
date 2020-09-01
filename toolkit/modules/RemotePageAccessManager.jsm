@@ -1161,9 +1161,10 @@ spec
 ;
 if
 (
+!
 aPrincipal
 .
-isNullPrincipal
+isContentPrincipal
 )
 {
 if
