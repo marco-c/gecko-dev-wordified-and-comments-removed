@@ -866,6 +866,14 @@ attribute
 boolean
 isIpAddress
 ;
+[
+infallible
+]
+readonly
+attribute
+boolean
+isLocalIpAddress
+;
 }
 ;
 [

@@ -613,6 +613,15 @@ aIsIpAddress
 override
 ;
 NS_IMETHOD
+GetIsLocalIpAddress
+(
+bool
+*
+aIsIpAddress
+)
+override
+;
+NS_IMETHOD
 GetIsOnion
 (
 bool
