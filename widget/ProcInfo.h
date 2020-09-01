@@ -157,6 +157,11 @@ residentSetSize
 =
 0
 ;
+int64_t
+residentUniqueSize
+=
+0
+;
 uint64_t
 cpuUser
 =
@@ -352,6 +357,15 @@ mResidentSetSize
 source
 .
 residentSetSize
+;
+dest
+-
+>
+mResidentUniqueSize
+=
+source
+.
+residentUniqueSize
 ;
 dest
 -
