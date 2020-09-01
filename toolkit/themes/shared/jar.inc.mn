@@ -3230,11 +3230,9 @@ svg
 /
 shared
 /
-extensions
-/
-category
--
 plugins
+/
+plugin
 .
 svg
 )
