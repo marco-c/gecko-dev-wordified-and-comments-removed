@@ -1812,7 +1812,7 @@ Children
 )
 {
 bool
-shouldBreak
+foundChild
 =
 false
 ;
@@ -1851,7 +1851,7 @@ childBC
 =
 child
 ;
-shouldBreak
+foundChild
 =
 true
 ;
@@ -1898,14 +1898,14 @@ GetBrowsingContext
 (
 )
 ;
-shouldBreak
+foundChild
 =
 true
 ;
 }
 if
 (
-shouldBreak
+foundChild
 )
 {
 break
@@ -2792,6 +2792,9 @@ aNewEntry
 )
 ;
 }
+}
+else
+{
 }
 if
 (
