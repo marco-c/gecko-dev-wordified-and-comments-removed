@@ -1466,6 +1466,12 @@ nsIPrintSettings
 .
 kOutputFormatPDF
 ;
+target
+.
+printToFile
+=
+true
+;
 }
 else
 {
@@ -1478,6 +1484,12 @@ Ci
 nsIPrintSettings
 .
 kOutputFormatNative
+;
+target
+.
+printToFile
+=
+false
 ;
 }
 break

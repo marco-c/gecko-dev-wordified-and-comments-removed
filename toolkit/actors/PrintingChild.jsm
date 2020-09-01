@@ -1503,6 +1503,12 @@ printSettings
 .
 kOutputFormatPDF
 ;
+printSettings
+.
+printToFile
+=
+true
+;
 }
 if
 (
