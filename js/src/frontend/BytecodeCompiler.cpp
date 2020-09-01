@@ -2654,7 +2654,6 @@ scriptData
 .
 emplaceBack
 (
-cx
 )
 )
 {
@@ -2967,7 +2966,6 @@ scriptData
 .
 emplaceBack
 (
-cx
 )
 )
 {

@@ -1501,7 +1501,6 @@ scriptData
 .
 emplaceBack
 (
-cx_
 )
 )
 {
@@ -9595,6 +9594,14 @@ value
 )
 )
 {
+js
+:
+:
+ReportOutOfMemory
+(
+cx_
+)
+;
 return
 false
 ;
