@@ -724,6 +724,8 @@ match
 extension
 .
 metaData
+!
+!
 .
 enabled
 equalTo
@@ -741,6 +743,8 @@ match
 extension
 .
 metaData
+!
+!
 .
 disabledFlags
 and
@@ -764,6 +768,8 @@ match
 extension
 .
 metaData
+!
+!
 .
 disabledFlags
 and
@@ -787,6 +793,8 @@ match
 extension
 .
 metaData
+!
+!
 .
 disabledFlags
 and
@@ -1141,6 +1149,8 @@ assertEquals
 extension
 .
 metaData
+!
+!
 .
 description
 "
@@ -1163,6 +1173,8 @@ assertEquals
 extension
 .
 metaData
+!
+!
 .
 name
 "
@@ -1174,6 +1186,8 @@ assertEquals
 extension
 .
 metaData
+!
+!
 .
 version
 "
@@ -1194,6 +1208,8 @@ assertEquals
 extension
 .
 metaData
+!
+!
 .
 enabled
 false
@@ -1203,6 +1219,8 @@ assertEquals
 extension
 .
 metaData
+!
+!
 .
 signedState
 WebExtension
@@ -1216,6 +1234,8 @@ assertEquals
 extension
 .
 metaData
+!
+!
 .
 blocklistState
 WebExtension
@@ -1514,6 +1534,8 @@ assertFalse
 borderify
 .
 metaData
+!
+!
 .
 allowedInPrivateBrowsing
 )
@@ -1541,6 +1563,8 @@ assertTrue
 borderify
 .
 metaData
+!
+!
 .
 allowedInPrivateBrowsing
 )
@@ -1580,6 +1604,8 @@ assertFalse
 borderify
 .
 metaData
+!
+!
 .
 allowedInPrivateBrowsing
 )
@@ -1726,6 +1752,8 @@ metadata
 dummy
 .
 metaData
+!
+!
 assertTrue
 (
 (
@@ -2413,6 +2441,8 @@ extension
 !
 .
 metaData
+!
+!
 .
 signedState
 WebExtension
@@ -2426,6 +2456,8 @@ assertEquals
 extension
 .
 metaData
+!
+!
 .
 blocklistState
 WebExtension
@@ -2439,6 +2471,8 @@ assertEquals
 extension
 .
 metaData
+!
+!
 .
 name
 "
@@ -6367,6 +6401,8 @@ match
 ensure
 .
 metaData
+!
+!
 .
 version
 equalTo
@@ -6374,6 +6410,8 @@ equalTo
 extension
 .
 metaData
+!
+!
 .
 version
 )
@@ -6473,7 +6511,7 @@ SessionTabDelegate
 }
 )
 val
-uninstall
+unregister
 =
 controller
 .
@@ -6537,7 +6575,7 @@ sessionRule
 .
 waitForResult
 (
-uninstall
+unregister
 )
 }
 Test
@@ -6863,6 +6901,8 @@ assertEquals
 extension
 .
 metaData
+!
+!
 .
 version
 "
@@ -6951,6 +6991,8 @@ assertEquals
 update2
 .
 metaData
+!
+!
 .
 version
 "
@@ -7093,6 +7135,8 @@ assertEquals
 extension
 .
 metaData
+!
+!
 .
 version
 "
@@ -7210,6 +7254,8 @@ assertEquals
 currentlyInstalled
 .
 metaData
+!
+!
 .
 version
 "
@@ -7223,6 +7269,8 @@ assertEquals
 updatedExtension
 .
 metaData
+!
+!
 .
 version
 "
@@ -7281,6 +7329,8 @@ assertEquals
 update2
 .
 metaData
+!
+!
 .
 version
 "
@@ -7423,6 +7473,8 @@ assertEquals
 extension
 .
 metaData
+!
+!
 .
 version
 "
@@ -7628,6 +7680,8 @@ assertEquals
 extension
 .
 metaData
+!
+!
 .
 version
 "
@@ -7745,6 +7799,8 @@ assertEquals
 currentlyInstalled
 .
 metaData
+!
+!
 .
 version
 "
@@ -7758,6 +7814,8 @@ assertEquals
 updatedExtension
 .
 metaData
+!
+!
 .
 version
 "
@@ -8142,6 +8200,8 @@ assertEquals
 extension
 .
 metaData
+!
+!
 .
 version
 "
@@ -8732,6 +8792,8 @@ assertThat
 source
 .
 metaData
+!
+!
 .
 optionsPageUrl
 endsWith
