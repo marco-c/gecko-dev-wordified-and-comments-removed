@@ -1231,6 +1231,12 @@ bool
 aApzcCanConsumeEvents
 )
 ;
+bool
+IsInSlop
+(
+)
+const
+;
 Maybe
 <
 ScrollDirection

@@ -413,7 +413,7 @@ aExtraFlags
 Default
 )
 ;
-void
+bool
 MaybeRequestContentResponse
 (
 const
@@ -591,6 +591,13 @@ aBlock
 ;
 void
 MainThreadTimeout
+(
+uint64_t
+aInputBlockId
+)
+;
+void
+MaybeLongTapTimeout
 (
 uint64_t
 aInputBlockId
