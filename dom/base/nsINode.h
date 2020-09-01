@@ -1692,6 +1692,17 @@ AsElement
 )
 const
 ;
+virtual
+bool
+IsStyledElement
+(
+)
+const
+{
+return
+false
+;
+}
 nsIContent
 *
 AsContent
