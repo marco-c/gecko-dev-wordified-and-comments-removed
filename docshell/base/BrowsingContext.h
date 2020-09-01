@@ -2202,13 +2202,6 @@ aRv
 ;
 }
 }
-nsresult
-SetAllowContentRetargeting
-(
-bool
-aAllowContentRetargeting
-)
-;
 BrowsingContext
 *
 FindWithName
