@@ -507,6 +507,13 @@ attribute
 float
 textZoom
 ;
+[
+SetterThrows
+]
+attribute
+boolean
+isAwaitingPrint
+;
 /
 *
 *
