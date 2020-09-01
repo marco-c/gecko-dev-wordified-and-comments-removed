@@ -1189,6 +1189,15 @@ MDefinition
 Opcode
 :
 :
+MegamorphicHasProp
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 CompareExchangeTypedArrayElement
 :
 case
