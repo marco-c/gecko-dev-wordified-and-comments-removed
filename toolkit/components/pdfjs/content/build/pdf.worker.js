@@ -660,14 +660,14 @@ pdfjsVersion
 .
 6
 .
-263
+276
 '
 ;
 const
 pdfjsBuild
 =
 '
-37e9c97ce
+0d5ef5dd
 '
 ;
 }
@@ -1081,7 +1081,7 @@ workerVersion
 .
 6
 .
-263
+276
 '
 ;
 if
