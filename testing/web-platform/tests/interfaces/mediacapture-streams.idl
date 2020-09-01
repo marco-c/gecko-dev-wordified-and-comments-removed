@@ -125,14 +125,14 @@ DOMString
 trackId
 )
 ;
-void
+undefined
 addTrack
 (
 MediaStreamTrack
 track
 )
 ;
-void
+undefined
 removeTrack
 (
 MediaStreamTrack
@@ -215,7 +215,7 @@ clone
 (
 )
 ;
-void
+undefined
 stop
 (
 )
@@ -237,7 +237,7 @@ getSettings
 ;
 Promise
 <
-void
+undefined
 >
 applyConstraints
 (
@@ -711,7 +711,7 @@ Navigator
 [
 SecureContext
 ]
-void
+undefined
 getUserMedia
 (
 MediaStreamConstraints
@@ -775,7 +775,7 @@ false
 callback
 NavigatorUserMediaSuccessCallback
 =
-void
+undefined
 (
 MediaStream
 stream
@@ -784,7 +784,7 @@ stream
 callback
 NavigatorUserMediaErrorCallback
 =
-void
+undefined
 (
 MediaStreamError
 error
