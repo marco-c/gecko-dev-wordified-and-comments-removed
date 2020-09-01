@@ -1482,8 +1482,8 @@ missing_docs
 enum
 PrefersContrast
 {
-High
-Low
+More
+Less
 NoPreference
 Forced
 }
@@ -1509,8 +1509,8 @@ pub
 enum
 ContrastPref
 {
-High
-Low
+More
+Less
 NoPreference
 }
 fn
@@ -1582,7 +1582,7 @@ forced_colors
 PrefersContrast
 :
 :
-High
+More
 =
 >
 contrast_pref
@@ -1591,11 +1591,11 @@ contrast_pref
 ContrastPref
 :
 :
-High
+More
 PrefersContrast
 :
 :
-Low
+Less
 =
 >
 contrast_pref
@@ -1604,7 +1604,7 @@ contrast_pref
 ContrastPref
 :
 :
-Low
+Less
 PrefersContrast
 :
 :

@@ -1275,7 +1275,7 @@ return
 StyleContrastPref
 :
 :
-High
+More
 ;
 }
 return
