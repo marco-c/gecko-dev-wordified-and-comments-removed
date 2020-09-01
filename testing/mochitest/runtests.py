@@ -3618,6 +3618,33 @@ dir
 '
 ]
         
+env
+=
+dict
+(
+os
+.
+environ
+)
+        
+env
+[
+'
+PYTHONPATH
+'
+]
+=
+os
+.
+pathsep
+.
+join
+(
+sys
+.
+path
+)
+        
 self
 .
 _process
@@ -3630,6 +3657,9 @@ cmd
 cwd
 =
 SCRIPT_DIR
+env
+=
+env
 )
         
 self
