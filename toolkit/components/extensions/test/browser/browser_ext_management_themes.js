@@ -442,7 +442,7 @@ test
 .
 assertEq
 (
-4
+5
 themes
 .
 length
