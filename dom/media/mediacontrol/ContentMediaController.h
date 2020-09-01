@@ -303,9 +303,6 @@ ContentMediaControlKeyReceiver
 >
 mReceivers
 ;
-uint64_t
-mTopLevelBrowsingContextId
-;
 }
 ;
 }
