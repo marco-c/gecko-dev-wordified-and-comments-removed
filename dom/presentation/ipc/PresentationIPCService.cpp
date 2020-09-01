@@ -113,17 +113,12 @@ PresentationLog
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 dom
-;
+{
 using
 namespace
 mozilla
@@ -2180,4 +2175,6 @@ Close
 aReason
 )
 ;
+}
+}
 }
