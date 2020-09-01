@@ -1825,9 +1825,6 @@ sslRestartTarget
 restartTarget
 ;
 PRBool
-cacheSID
-;
-PRBool
 canFalseStart
 ;
 PRUint32

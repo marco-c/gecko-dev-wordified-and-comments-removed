@@ -1164,8 +1164,12 @@ PORT_SetError
 SSL_ERROR_RX_MALFORMED_HANDSHAKE
 )
 ;
-return
+rv
+=
 SECFailure
+;
+goto
+loser
 ;
 }
 #
@@ -1956,9 +1960,9 @@ fragment_length
 if
 (
 rv
+!
 =
-=
-SECFailure
+SECSuccess
 )
 {
 PORT_Assert

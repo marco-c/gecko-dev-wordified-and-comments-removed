@@ -7037,9 +7037,9 @@ Connect
 )
 ;
 }
-TEST_F
+TEST_P
 (
-TlsConnectDatagram13
+TlsConnectTls13
 AuthCompleteAfterFinished
 )
 {

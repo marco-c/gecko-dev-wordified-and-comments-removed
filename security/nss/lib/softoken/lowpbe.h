@@ -239,6 +239,13 @@ HASH_HMACOidFromHash
 HASH_HashType
 )
 ;
+extern
+SECStatus
+sftk_fips_pbkdf_PowerUpSelfTests
+(
+void
+)
+;
 SEC_END_PROTOS
 #
 endif
