@@ -12106,11 +12106,7 @@ doc
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
-<
-nsPagePrintTimer
->
-timer
+mPagePrintTimer
 =
 new
 nsPagePrintTimer
@@ -12119,14 +12115,6 @@ this
 mDocViewerPrint
 doc
 printPageDelay
-)
-;
-timer
-.
-forget
-(
-&
-mPagePrintTimer
 )
 ;
 nsCOMPtr
