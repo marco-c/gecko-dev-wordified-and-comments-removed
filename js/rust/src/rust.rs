@@ -6161,7 +6161,7 @@ JSObject
 >
 *
 mut
-js
+JS
 :
 :
 shadow

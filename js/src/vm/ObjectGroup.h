@@ -7,6 +7,17 @@ vm_ObjectGroup_h
 #
 include
 "
+js
+/
+shadow
+/
+ObjectGroup
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h
@@ -1533,7 +1544,7 @@ proto_
 =
 offsetof
 (
-js
+JS
 :
 :
 shadow

@@ -179,6 +179,17 @@ include
 "
 js
 /
+shadow
+/
+ObjectGroup
+.
+h
+"
+#
+include
+"
+js
+/
 SourceText
 .
 h
