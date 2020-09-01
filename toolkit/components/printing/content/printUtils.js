@@ -1644,6 +1644,9 @@ _setPrinterDefaultsForSelectedPrinter
 (
 aPSSVC
 aPrintSettings
+defaultsOnly
+=
+false
 )
 {
 if
@@ -1686,6 +1689,12 @@ aPrintSettings
 )
 ;
 }
+if
+(
+!
+defaultsOnly
+)
+{
 aPSSVC
 .
 initPrintSettingsFromPrefs
@@ -1698,9 +1707,11 @@ kInitSaveAll
 )
 ;
 }
+}
 getPrintSettings
 (
 aPrinterName
+defaultsOnly
 )
 {
 var
@@ -1759,6 +1770,7 @@ _setPrinterDefaultsForSelectedPrinter
 (
 PSSVC
 printSettings
+defaultsOnly
 )
 ;
 }
