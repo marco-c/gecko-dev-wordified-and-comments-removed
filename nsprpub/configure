@@ -40914,6 +40914,14 @@ CPU_ARCH
 x86
 ;
 ;
+cygwin
+*
+)
+OS_ARCH
+=
+WINNT
+;
+;
 darwin
 *
 )
