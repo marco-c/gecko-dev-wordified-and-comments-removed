@@ -1264,6 +1264,9 @@ DecompressEntry
 StartupCacheEntry
 &
 aEntry
+MaybeOwnedCharPtr
+&
+aBuffer
 )
 ;
 Result
