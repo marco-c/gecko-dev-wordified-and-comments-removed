@@ -774,7 +774,7 @@ blank
 "
 loadEventExpected
 :
-false
+true
 }
 )
 ;
