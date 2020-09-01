@@ -868,6 +868,13 @@ sysroot
 tar
 .
 xz
+toolchain
+-
+alias
+:
+wasi
+-
+sysroot
 fetches
 :
 fetch
@@ -953,13 +960,6 @@ sparse
 profile
 :
 null
-toolchain
--
-alias
-:
-wasi
--
-sysroot
 toolchain
 -
 artifact
