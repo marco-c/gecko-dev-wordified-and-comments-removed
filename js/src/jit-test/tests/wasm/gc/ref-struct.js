@@ -175,7 +175,6 @@ wabbit
 ref
 .
 null
-opt
 wabbit
 )
 )
@@ -321,14 +320,12 @@ tmp
 ref
 .
 null
-opt
 wabbit
 )
 (
 ref
 .
 null
-opt
 wabbit
 )
 )
@@ -1302,7 +1299,6 @@ f
 ref
 .
 null
-opt
 node
 )
 )
@@ -1766,7 +1762,6 @@ const
 ref
 .
 null
-opt
 node
 )
 )
@@ -1953,7 +1948,6 @@ const
 ref
 .
 null
-opt
 node2a
 )
 )
@@ -3778,7 +3772,6 @@ f
 ref
 .
 null
-opt
 node
 )
 )
@@ -3878,7 +3871,6 @@ f
 ref
 .
 null
-opt
 node
 )
 )
