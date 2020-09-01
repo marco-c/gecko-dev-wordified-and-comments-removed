@@ -473,17 +473,11 @@ attribute
 ACString
 host
 ;
-[
-noscript
-]
 readonly
 attribute
 ACString
 prepath
 ;
-[
-noscript
-]
 readonly
 attribute
 ACString
