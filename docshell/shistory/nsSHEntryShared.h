@@ -230,6 +230,11 @@ mCacheKey
 =
 0
 ;
+bool
+mIsFrameNavigation
+=
+false
+;
 protected
 :
 static
@@ -361,11 +366,6 @@ mLastTouched
 ;
 nsWeakPtr
 mSHistory
-;
-bool
-mIsFrameNavigation
-=
-false
 ;
 bool
 mSticky
