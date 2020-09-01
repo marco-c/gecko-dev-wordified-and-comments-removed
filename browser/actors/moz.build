@@ -386,6 +386,16 @@ PromptParent
 jsm
 '
 '
+RefreshBlockerChild
+.
+jsm
+'
+'
+RefreshBlockerParent
+.
+jsm
+'
+'
 RFPHelperChild
 .
 jsm
