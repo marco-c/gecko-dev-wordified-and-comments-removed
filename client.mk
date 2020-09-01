@@ -701,7 +701,7 @@ MAKEFLAGS
 +
 )
 env
-RUST_LOG
+SCCACHE_LOG
 =
 sccache
 =
