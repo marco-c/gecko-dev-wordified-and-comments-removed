@@ -29,6 +29,13 @@ aName
 )
 override
 ;
+PrintSettingsInitializer
+DefaultSettings
+(
+)
+const
+final
+;
 bool
 SupportsDuplex
 (
