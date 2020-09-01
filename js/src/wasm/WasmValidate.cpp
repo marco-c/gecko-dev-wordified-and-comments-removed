@@ -8726,7 +8726,7 @@ readComparison
 RefType
 :
 :
-any
+extern_
 (
 )
 &
@@ -11611,7 +11611,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 offset
 =
@@ -12788,7 +12788,7 @@ uint8_t
 TypeCode
 :
 :
-AnyRef
+ExternRef
 )
 )
 {
@@ -13090,7 +13090,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 break
 ;
@@ -17686,7 +17686,7 @@ uint8_t
 TypeCode
 :
 :
-AnyRef
+ExternRef
 )
 :
 elemType
@@ -17694,7 +17694,7 @@ elemType
 RefType
 :
 :
-any
+extern_
 (
 )
 ;
@@ -18087,7 +18087,7 @@ initType
 RefType
 :
 :
-any
+extern_
 (
 )
 ;
