@@ -763,5 +763,13 @@ DoDiagnosticAssertWhenOnStopNotCalledOnDestroy
 (
 )
 ;
+[
+must_use
+]
+void
+setWaitForHTTPSSVCRecord
+(
+)
+;
 }
 ;

@@ -2459,5 +2459,17 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+NS_IMETHODIMP
+ClassifierDummyChannel
+:
+:
+SetWaitForHTTPSSVCRecord
+(
+)
+{
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+}
 }
 }

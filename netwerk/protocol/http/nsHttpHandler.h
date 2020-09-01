@@ -1906,6 +1906,12 @@ OriginAttributes
 aOriginAttributes
 )
 ;
+bool
+UseHTTPSRRAsAltSvcEnabled
+(
+)
+const
+;
 private
 :
 nsHttpHandler

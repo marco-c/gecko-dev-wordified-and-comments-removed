@@ -269,6 +269,17 @@ HttpConnectionBase
 conn
 )
 ;
+bool
+MoveTransToHTTPSSVCConnEntry
+(
+nsHttpTransaction
+*
+aTrans
+nsHttpConnectionInfo
+*
+aNewCI
+)
+;
 [
 [
 nodiscard

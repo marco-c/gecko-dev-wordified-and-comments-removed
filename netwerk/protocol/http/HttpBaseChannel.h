@@ -2012,6 +2012,12 @@ DoDiagnosticAssertWhenOnStopNotCalledOnDestroy
 override
 ;
 NS_IMETHOD
+SetWaitForHTTPSSVCRecord
+(
+)
+override
+;
+NS_IMETHOD
 GetPriority
 (
 int32_t
