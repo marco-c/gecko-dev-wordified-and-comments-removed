@@ -138,6 +138,16 @@ TypeCode
 :
 V128
 ;
+static
+constexpr
+TypeCode
+AbstractReferenceTypeCode
+=
+TypeCode
+:
+:
+ExternRef
+;
 enum
 class
 FuncTypeIdDescKind
