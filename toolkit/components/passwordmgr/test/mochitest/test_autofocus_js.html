@@ -469,6 +469,13 @@ setup
 (
 )
 {
+let
+processedPromise
+=
+promiseFormsProcessedInChildFrame
+(
+)
+;
 iframe
 .
 src
@@ -527,9 +534,7 @@ true
 )
 ;
 await
-promiseFormsProcessed
-(
-)
+processedPromise
 ;
 hostname
 =

@@ -744,6 +744,13 @@ true
 }
 )
 ;
+let
+processedPromise
+=
+promiseFormsProcessedInChildFrame
+(
+)
+;
 loginFrame
 .
 src
@@ -834,9 +841,7 @@ to
 submit
 .
 await
-promiseFormsProcessed
-(
-)
+processedPromise
 ;
 await
 SpecialPowers

@@ -293,6 +293,13 @@ url
 login
 )
 {
+let
+processedPromise
+=
+promiseFormsProcessedInChildFrame
+(
+)
+;
 iframe
 .
 src
@@ -314,9 +321,7 @@ url
 )
 ;
 await
-promiseFormsProcessed
-(
-)
+processedPromise
 ;
 }
 async
