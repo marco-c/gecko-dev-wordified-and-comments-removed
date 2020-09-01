@@ -199,8 +199,6 @@ const
 bytesWritten
 =
 await
-self
-.
 IOUtils
 .
 writeAtomic
@@ -232,8 +230,6 @@ let
 fileContents
 =
 await
-self
-.
 IOUtils
 .
 read
@@ -285,8 +281,6 @@ length
 fileContents
 =
 await
-self
-.
 IOUtils
 .
 read
@@ -401,8 +395,6 @@ keys
 )
 ;
 await
-self
-.
 IOUtils
 .
 writeAtomic
@@ -412,8 +404,6 @@ bytes
 )
 ;
 await
-self
-.
 IOUtils
 .
 move
@@ -512,8 +502,6 @@ original
 )
 ;
 await
-self
-.
 IOUtils
 .
 copy
@@ -593,8 +581,6 @@ d
 )
 ;
 await
-self
-.
 IOUtils
 .
 makeDirectory
