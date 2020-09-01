@@ -1,7 +1,7 @@
 #
 include
 "
-CrossGraphTrack
+CrossGraphPort
 .
 h
 "
@@ -82,9 +82,9 @@ MOZ_LOG_TEST
 gForwardedInputTrackLog
 type
 )
-CrossGraphManager
+CrossGraphPort
 *
-CrossGraphManager
+CrossGraphPort
 :
 :
 Connect
@@ -137,7 +137,7 @@ LogLevel
 Debug
 (
 "
-CrossGraphManager
+CrossGraphPort
 :
 :
 Connect
@@ -216,7 +216,7 @@ DeviceID
 )
 ;
 return
-CrossGraphManager
+CrossGraphPort
 :
 :
 Connect
@@ -226,9 +226,9 @@ newGraph
 )
 ;
 }
-CrossGraphManager
+CrossGraphPort
 *
-CrossGraphManager
+CrossGraphPort
 :
 :
 Connect
@@ -334,7 +334,7 @@ transmitter
 ;
 return
 new
-CrossGraphManager
+CrossGraphPort
 (
 port
 )
@@ -344,7 +344,7 @@ RefPtr
 <
 CrossGraphTransmitter
 >
-CrossGraphManager
+CrossGraphPort
 :
 :
 GetTransmitter
@@ -359,7 +359,7 @@ RefPtr
 <
 CrossGraphReceiver
 >
-CrossGraphManager
+CrossGraphPort
 :
 :
 GetReceiver
@@ -376,7 +376,7 @@ mReceiver
 ;
 }
 void
-CrossGraphManager
+CrossGraphPort
 :
 :
 AddAudioOutput
@@ -405,7 +405,7 @@ aKey
 ;
 }
 void
-CrossGraphManager
+CrossGraphPort
 :
 :
 RemoveAudioOutput
@@ -434,7 +434,7 @@ aKey
 ;
 }
 void
-CrossGraphManager
+CrossGraphPort
 :
 :
 SetAudioOutputVolume
@@ -466,7 +466,7 @@ aVolume
 ;
 }
 void
-CrossGraphManager
+CrossGraphPort
 :
 :
 Destroy
@@ -505,7 +505,7 @@ RefPtr
 <
 GenericPromise
 >
-CrossGraphManager
+CrossGraphPort
 :
 :
 EnsureConnected

@@ -21,7 +21,7 @@ h
 #
 include
 "
-CrossGraphTrack
+CrossGraphPort
 .
 h
 "
@@ -208,7 +208,7 @@ void
 >
 UniquePtr
 <
-CrossGraphManager
+CrossGraphPort
 >
 >
 mCrossGraphs

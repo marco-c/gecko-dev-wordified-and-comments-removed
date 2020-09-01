@@ -50,7 +50,7 @@ if
 (
 UniquePtr
 <
-CrossGraphManager
+CrossGraphPort
 >
 *
 cgm
@@ -111,7 +111,7 @@ if
 (
 UniquePtr
 <
-CrossGraphManager
+CrossGraphPort
 >
 *
 cgm
@@ -174,7 +174,7 @@ if
 (
 UniquePtr
 <
-CrossGraphManager
+CrossGraphPort
 >
 *
 cgm
@@ -443,11 +443,11 @@ __func__
 )
 ;
 }
-CrossGraphManager
+CrossGraphPort
 *
 manager
 =
-CrossGraphManager
+CrossGraphPort
 :
 :
 Connect
@@ -511,7 +511,7 @@ __func__
 }
 UniquePtr
 <
-CrossGraphManager
+CrossGraphPort
 >
 *
 crossGraphPtr

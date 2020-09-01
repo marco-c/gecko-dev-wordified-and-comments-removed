@@ -62,7 +62,7 @@ ForwardedInputTrack
 {
 friend
 class
-CrossGraphManager
+CrossGraphPort
 ;
 public
 :
@@ -186,13 +186,13 @@ mDriftCorrection
 }
 ;
 class
-CrossGraphManager
+CrossGraphPort
 final
 {
 public
 :
 static
-CrossGraphManager
+CrossGraphPort
 *
 Connect
 (
@@ -212,7 +212,7 @@ aPartnerGraph
 )
 ;
 static
-CrossGraphManager
+CrossGraphPort
 *
 Connect
 (
@@ -235,7 +235,7 @@ aWindow
 )
 ;
 ~
-CrossGraphManager
+CrossGraphPort
 (
 )
 =
@@ -283,7 +283,7 @@ EnsureConnected
 private
 :
 explicit
-CrossGraphManager
+CrossGraphPort
 (
 const
 RefPtr
