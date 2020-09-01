@@ -2630,7 +2630,7 @@ new
 directory
 mozilla
 -
-central
+unified
 in
 the
 current
@@ -2685,12 +2685,12 @@ org
 /
 mozilla
 -
-central
+unified
 /
 cd
 mozilla
 -
-central
+unified
 (
 If
 you
