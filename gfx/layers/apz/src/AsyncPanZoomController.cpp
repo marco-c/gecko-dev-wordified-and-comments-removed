@@ -1433,7 +1433,7 @@ mEndZoom
 ;
 mApzc
 .
-SetScrollOffset
+SetVisualScrollOffset
 (
 mEndOffset
 )
@@ -1509,7 +1509,7 @@ yScale
 ;
 mApzc
 .
-SetScrollOffset
+SetVisualScrollOffset
 (
 CSSPoint
 :
@@ -1714,7 +1714,7 @@ y
 {
 mApzc
 .
-ClampAndSetScrollOffset
+ClampAndSetVisualScrollOffset
 (
 CSSPoint
 (
@@ -3709,7 +3709,7 @@ c_str
 )
 )
 ;
-SetScrollOffset
+SetVisualScrollOffset
 (
 scrollOffset
 )
@@ -15138,7 +15138,7 @@ void
 AsyncPanZoomController
 :
 :
-SetScrollOffset
+SetVisualScrollOffset
 (
 const
 CSSPoint
@@ -15168,7 +15168,7 @@ void
 AsyncPanZoomController
 :
 :
-ClampAndSetScrollOffset
+ClampAndSetVisualScrollOffset
 (
 const
 CSSPoint
@@ -15180,7 +15180,7 @@ Metrics
 (
 )
 .
-ClampAndSetScrollOffset
+ClampAndSetVisualScrollOffset
 (
 aOffset
 )
@@ -15206,7 +15206,7 @@ CSSPoint
 aOffset
 )
 {
-SetScrollOffset
+SetVisualScrollOffset
 (
 Metrics
 (
@@ -15232,7 +15232,7 @@ CSSPoint
 aOffset
 )
 {
-ClampAndSetScrollOffset
+ClampAndSetVisualScrollOffset
 (
 Metrics
 (
@@ -15269,7 +15269,7 @@ ZoomBy
 aScale
 )
 ;
-SetScrollOffset
+SetVisualScrollOffset
 (
 (
 Metrics
@@ -17706,7 +17706,7 @@ front
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 ;
@@ -18076,7 +18076,7 @@ GetLayoutScrollOffset
 -
 mExpectedGeckoMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -20156,7 +20156,7 @@ scrollableRectChanged
 compositionBoundsChanged
 )
 {
-ClampAndSetScrollOffset
+ClampAndSetVisualScrollOffset
 (
 Metrics
 (
@@ -20178,7 +20178,7 @@ mSampledState
 {
 sampledState
 .
-ClampScrollOffset
+ClampVisualScrollOffset
 (
 Metrics
 (
@@ -20418,7 +20418,7 @@ Metrics
 (
 )
 .
-ClampAndSetScrollOffset
+ClampAndSetVisualScrollOffset
 (
 aLayerMetrics
 .

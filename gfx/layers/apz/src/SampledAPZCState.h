@@ -95,13 +95,13 @@ mLayoutViewport
 ;
 }
 CSSPoint
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 const
 {
 return
-mScrollOffset
+mVisualScrollOffset
 ;
 }
 CSSToParentLayerScale2D
@@ -141,7 +141,7 @@ aMetrics
 )
 ;
 void
-ClampScrollOffset
+ClampVisualScrollOffset
 (
 const
 FrameMetrics
@@ -164,7 +164,7 @@ CSSRect
 mLayoutViewport
 ;
 CSSPoint
-mScrollOffset
+mVisualScrollOffset
 ;
 CSSToParentLayerScale2D
 mZoom

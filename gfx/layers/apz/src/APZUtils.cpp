@@ -34,7 +34,7 @@ FrameMetrics
 aMetrics
 )
 {
-mScrollOffset
+mVisualScrollOffset
 =
 aMetrics
 .

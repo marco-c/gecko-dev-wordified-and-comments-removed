@@ -1415,7 +1415,7 @@ aEvent
 )
 ;
 void
-SetScrollOffset
+SetVisualScrollOffset
 (
 const
 CSSPoint
@@ -1424,7 +1424,7 @@ aOffset
 )
 ;
 void
-ClampAndSetScrollOffset
+ClampAndSetVisualScrollOffset
 (
 const
 CSSPoint

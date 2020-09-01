@@ -573,13 +573,13 @@ aMetrics
 const
 CSSPoint
 &
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 const
 {
 return
-mScrollOffset
+mVisualScrollOffset
 ;
 }
 const
@@ -609,7 +609,7 @@ mDevPixelsPerCSSPixel
 private
 :
 CSSPoint
-mScrollOffset
+mVisualScrollOffset
 ;
 CSSToParentLayerScale2D
 mZoom

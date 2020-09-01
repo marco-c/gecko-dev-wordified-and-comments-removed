@@ -1333,7 +1333,7 @@ velocity
 ;
 mApzc
 .
-SetScrollOffset
+SetVisualScrollOffset
 (
 offset
 /

@@ -197,7 +197,7 @@ uint32_t
 mScrollGeneration
 ;
 CSSPoint
-mScrollOffset
+mLayoutScrollOffset
 ;
 CSSPoint
 mBaseScrollOffset
@@ -1191,7 +1191,7 @@ aOther
 mBaseScrollOffset
 )
 ;
-ClampAndSetScrollOffset
+ClampAndSetVisualScrollOffset
 (
 origin
 +
@@ -1360,7 +1360,7 @@ SetLayoutScrollOffset
 (
 aInfo
 .
-mScrollOffset
+mLayoutScrollOffset
 )
 ;
 mBaseScrollOffset
@@ -1591,7 +1591,7 @@ aScrollOffset
 ;
 }
 void
-ClampAndSetScrollOffset
+ClampAndSetVisualScrollOffset
 (
 const
 CSSPoint
