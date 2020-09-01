@@ -475,11 +475,11 @@ Lookup
 key
 )
 ;
-MOZ_ASSERT
+if
 (
 entry
 )
-;
+{
 (
 *
 entry
@@ -500,6 +500,7 @@ Remove
 (
 )
 ;
+}
 return
 GenericPromise
 :
