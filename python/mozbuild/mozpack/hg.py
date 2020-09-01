@@ -195,6 +195,13 @@ normpath
 (
 path
 )
+.
+rstrip
+(
+'
+/
+'
+)
         
 self
 .
@@ -254,6 +261,15 @@ self
 path
 )
 :
+        
+path
+=
+mozpath
+.
+normpath
+(
+path
+)
         
 if
 self
