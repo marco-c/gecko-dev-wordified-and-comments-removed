@@ -770,7 +770,7 @@ gfxFontFamily
 aFamilyArray
 )
 ;
-gfxFontEntry
+gfxFont
 *
 SystemFindFontForChar
 (
@@ -780,6 +780,8 @@ uint32_t
 aNextCh
 Script
 aRunScript
+eFontPresentation
+aPresentation
 const
 gfxFontStyle
 *
@@ -2190,7 +2192,7 @@ return
 nullptr
 ;
 }
-gfxFontEntry
+gfxFont
 *
 CommonFontFallback
 (
@@ -2200,6 +2202,8 @@ uint32_t
 aNextCh
 Script
 aRunScript
+eFontPresentation
+aPresentation
 const
 gfxFontStyle
 *
@@ -2209,15 +2213,18 @@ FontFamily
 aMatchedFamily
 )
 ;
-gfxFontEntry
+gfxFont
 *
 GlobalFontFallback
 (
-const
 uint32_t
 aCh
+uint32_t
+aNextCh
 Script
 aRunScript
+eFontPresentation
+aPresentation
 const
 gfxFontStyle
 *
