@@ -58,6 +58,10 @@ TexturedQuadIMC4
 -
 TexturedQuadNV12
 -
+TexturedVertexIdentityIMC4
+-
+TexturedQuadIdentityIMC4
+-
 type
 :
 vs_4_0
