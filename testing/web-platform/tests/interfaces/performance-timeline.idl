@@ -144,6 +144,11 @@ PerformanceObserverEntryList
 entries
 PerformanceObserver
 observer
+optional
+boolean
+hasDroppedEntry
+=
+false
 )
 ;
 [
