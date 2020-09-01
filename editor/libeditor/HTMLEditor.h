@@ -5412,6 +5412,7 @@ const
 EditorDOMPoint
 &
 aCaretPoint
+const
 WSRunScanner
 &
 aWSRunScannerAtCaret
@@ -6534,6 +6535,14 @@ aStripWrappers
 AutoRangeArray
 &
 aRangesToDelete
+const
+WSRunScanner
+&
+aWSRunScannerAtCaret
+const
+WSScanResult
+&
+aScanFromCaretPointResult
 )
 ;
 [
