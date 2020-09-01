@@ -73,7 +73,7 @@ hasStorageAccess
 ;
 Promise
 <
-void
+undefined
 >
 requestStorageAccess
 (
