@@ -108,7 +108,7 @@ rtpTimestamp
 callback
 VideoFrameRequestCallback
 =
-void
+undefined
 (
 DOMHighResTimeStamp
 now
@@ -128,7 +128,7 @@ VideoFrameRequestCallback
 callback
 )
 ;
-void
+undefined
 cancelVideoFrameCallback
 (
 unsigned
