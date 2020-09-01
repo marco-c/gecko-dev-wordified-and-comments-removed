@@ -86,12 +86,12 @@ DOMHighResTimeStamp
 ?
 timestamp
 ;
-void
+undefined
 start
 (
 )
 ;
-void
+undefined
 stop
 (
 )
