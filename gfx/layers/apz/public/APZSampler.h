@@ -354,6 +354,16 @@ LayerMetricsWrapper
 aLayer
 )
 ;
+GeckoViewMetrics
+GetGeckoViewMetrics
+(
+const
+LayerMetricsWrapper
+&
+aLayer
+)
+const
+;
 ScreenMargin
 GetGeckoFixedLayerMargins
 (

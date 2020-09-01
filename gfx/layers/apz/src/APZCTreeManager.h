@@ -101,6 +101,17 @@ mozilla
 /
 layers
 /
+APZUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 IAPZCTreeManager
 .
 h
@@ -1973,7 +1984,7 @@ MOZ_WIDGET_ANDROID
 )
 private
 :
-FrameMetrics
+GeckoViewMetrics
 mLastRootMetrics
 ;
 #

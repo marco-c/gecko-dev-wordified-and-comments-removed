@@ -1031,7 +1031,7 @@ UiCompositorControllerParent
 NotifyUpdateScreenMetrics
 (
 const
-FrameMetrics
+GeckoViewMetrics
 &
 aMetrics
 )
@@ -1052,9 +1052,7 @@ ScreenPixel
 (
 aMetrics
 .
-GetZoom
-(
-)
+mZoom
 .
 ToScaleFactor
 (
@@ -1070,9 +1068,7 @@ scrollOffset
 =
 aMetrics
 .
-GetVisualScrollOffset
-(
-)
+mVisualScrollOffset
 *
 scale
 ;

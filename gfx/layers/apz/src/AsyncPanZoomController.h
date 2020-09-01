@@ -1117,10 +1117,16 @@ Metrics
 (
 )
 ;
+GeckoViewMetrics
+GetGeckoViewMetrics
+(
+)
+const
+;
 bool
 UpdateRootFrameMetricsIfChanged
 (
-FrameMetrics
+GeckoViewMetrics
 &
 aMetrics
 )
