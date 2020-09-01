@@ -24292,6 +24292,16 @@ ondeactivated
 Atom
 (
 "
+onmetadatachange
+"
+"
+onmetadatachange
+"
+)
+    
+Atom
+(
+"
 onplaybackstatechange
 "
 "
