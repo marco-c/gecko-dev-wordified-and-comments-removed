@@ -1159,9 +1159,6 @@ class
 PipelineListener
 ;
 class
-PipelineListenerTrackConsumer
-;
-class
 VideoFrameFeeder
 ;
 protected
@@ -1200,13 +1197,6 @@ RefPtr
 PipelineListener
 >
 mListener
-;
-const
-nsMainThreadPtrHandle
-<
-PipelineListenerTrackConsumer
->
-mTrackConsumer
 ;
 const
 RefPtr
