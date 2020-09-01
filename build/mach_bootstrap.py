@@ -1793,6 +1793,7 @@ handler
 name
 in
 (
+                
 '
 bootstrap
 '
@@ -1809,7 +1810,15 @@ vcs
 -
 setup
 '
-                            
+                
+'
+create
+-
+mach
+-
+environment
+'
+                
 '
 environment
 '
