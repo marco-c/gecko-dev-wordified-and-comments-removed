@@ -373,7 +373,7 @@ options
 }
 )
 ;
-void
+undefined
 close
 (
 )
@@ -394,7 +394,7 @@ options
 }
 )
 ;
-void
+undefined
 deleteObjectStore
 (
 DOMString
@@ -690,7 +690,7 @@ options
 }
 )
 ;
-void
+undefined
 deleteIndex
 (
 DOMString
@@ -1012,7 +1012,7 @@ attribute
 IDBRequest
 request
 ;
-void
+undefined
 advance
 (
 [
@@ -1023,7 +1023,7 @@ long
 count
 )
 ;
-void
+undefined
 continue
 (
 optional
@@ -1031,7 +1031,7 @@ any
 key
 )
 ;
-void
+undefined
 continuePrimaryKey
 (
 any
@@ -1146,12 +1146,12 @@ DOMString
 name
 )
 ;
-void
+undefined
 commit
 (
 )
 ;
-void
+undefined
 abort
 (
 )
