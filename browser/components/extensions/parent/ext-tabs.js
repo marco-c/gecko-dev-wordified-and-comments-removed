@@ -6271,7 +6271,7 @@ ownerGlobal
 ;
 PrintUtils
 .
-printWindow
+startPrintWindow
 (
 activeTab
 .

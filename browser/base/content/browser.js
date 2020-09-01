@@ -12819,7 +12819,7 @@ Print
 :
 PrintUtils
 .
-printWindow
+startPrintWindow
 (
 gBrowser
 .
