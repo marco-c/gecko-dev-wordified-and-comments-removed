@@ -217,6 +217,17 @@ nsPaper
 =
 delete
 ;
+explicit
+nsPaper
+(
+const
+mozilla
+:
+:
+PaperInfo
+&
+)
+;
 nsPaper
 (
 nsPrinterBase

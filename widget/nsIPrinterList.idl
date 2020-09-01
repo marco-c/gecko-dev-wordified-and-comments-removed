@@ -19,9 +19,6 @@ nsIPrintSettings
 .
 idl
 "
-interface
-nsIStringEnumerator
-;
 [
 scriptable
 uuid
@@ -87,6 +84,14 @@ readonly
 attribute
 Promise
 printers
+;
+[
+implicit_jscontext
+]
+readonly
+attribute
+Promise
+fallbackPaperList
 ;
 }
 ;
