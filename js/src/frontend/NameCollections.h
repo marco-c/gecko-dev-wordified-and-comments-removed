@@ -631,8 +631,7 @@ NameMapHasher
 public
 DefaultHasher
 <
-const
-ParserAtom
+JSAtom
 *
 >
 {
@@ -668,8 +667,7 @@ RecyclableNameMap
 =
 InlineMap
 <
-const
-ParserAtom
+JSAtom
 *
 RecyclableAtomMapValueWrapper
 <

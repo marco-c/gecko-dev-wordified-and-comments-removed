@@ -393,8 +393,7 @@ ParseContext
 :
 checkBreakStatement
 (
-const
-ParserName
+PropertyName
 *
 label
 )
@@ -548,8 +547,7 @@ ParseContext
 :
 checkContinueStatement
 (
-const
-ParserName
+PropertyName
 *
 label
 )

@@ -48,9 +48,6 @@ struct
 BytecodeEmitter
 ;
 class
-ParserAtom
-;
-class
 MOZ_STACK_CLASS
 PropOpEmitter
 {
@@ -344,8 +341,7 @@ MOZ_MUST_USE
 bool
 prepareAtomIndex
 (
-const
-ParserAtom
+JSAtom
 *
 prop
 )
@@ -362,8 +358,7 @@ MOZ_MUST_USE
 bool
 emitGet
 (
-const
-ParserAtom
+JSAtom
 *
 prop
 )
@@ -384,8 +379,7 @@ MOZ_MUST_USE
 bool
 emitDelete
 (
-const
-ParserAtom
+JSAtom
 *
 prop
 )
@@ -394,8 +388,7 @@ MOZ_MUST_USE
 bool
 emitAssignment
 (
-const
-ParserAtom
+JSAtom
 *
 prop
 )
@@ -404,8 +397,7 @@ MOZ_MUST_USE
 bool
 emitIncDec
 (
-const
-ParserAtom
+JSAtom
 *
 prop
 )

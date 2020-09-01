@@ -125,9 +125,7 @@ bce
 void
 emitLabel
 (
-const
-ParserAtom
-*
+HandleAtom
 name
 )
 ;

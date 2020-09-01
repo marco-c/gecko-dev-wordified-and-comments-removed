@@ -101,8 +101,7 @@ frontend
 class
 SyntaxParseHandler
 {
-const
-ParserAtom
+JSAtom
 *
 lastAtom
 ;
@@ -356,8 +355,7 @@ DECLARE_AS
 NameNodeType
 newName
 (
-const
-ParserName
+PropertyName
 *
 name
 const
@@ -469,8 +467,7 @@ NodeGeneric
 NameNodeType
 newObjectLiteralPropertyName
 (
-const
-ParserAtom
+JSAtom
 *
 atom
 const
@@ -486,8 +483,7 @@ NodeName
 NameNodeType
 newPrivateName
 (
-const
-ParserAtom
+JSAtom
 *
 atom
 const
@@ -544,8 +540,7 @@ NodeGeneric
 NameNodeType
 newStringLiteral
 (
-const
-ParserAtom
+JSAtom
 *
 atom
 const
@@ -569,8 +564,7 @@ NodeUnparenthesizedString
 NameNodeType
 newTemplateStringLiteral
 (
-const
-ParserAtom
+JSAtom
 *
 atom
 const
@@ -1510,8 +1504,7 @@ NodeGeneric
 ContinueStatementType
 newContinueStatement
 (
-const
-ParserName
+PropertyName
 *
 label
 const
@@ -1527,8 +1520,7 @@ NodeGeneric
 BreakStatementType
 newBreakStatement
 (
-const
-ParserName
+PropertyName
 *
 label
 const
@@ -1585,8 +1577,7 @@ NodeGeneric
 LabeledStatementType
 newLabeledStatement
 (
-const
-ParserName
+PropertyName
 *
 label
 Node
@@ -1647,8 +1638,7 @@ NodeGeneric
 NameNodeType
 newPropertyName
 (
-const
-ParserName
+PropertyName
 *
 name
 const
@@ -2538,8 +2528,7 @@ node
 NodePrivateElement
 ;
 }
-const
-ParserName
+PropertyName
 *
 maybeDottedProperty
 (
@@ -2569,13 +2558,12 @@ return
 lastAtom
 -
 >
-asName
+asPropertyName
 (
 )
 ;
 }
-const
-ParserAtom
+JSAtom
 *
 isStringExprStatement
 (

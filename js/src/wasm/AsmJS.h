@@ -75,9 +75,6 @@ js
 namespace
 frontend
 {
-struct
-CompilationInfo
-;
 class
 ParseContext
 ;
@@ -126,12 +123,6 @@ CompileAsmJS
 JSContext
 *
 cx
-frontend
-:
-:
-CompilationInfo
-&
-compilationInfo
 AsmJSParser
 <
 mozilla
@@ -160,12 +151,6 @@ CompileAsmJS
 JSContext
 *
 cx
-frontend
-:
-:
-CompilationInfo
-&
-compilationInfo
 AsmJSParser
 <
 char16_t

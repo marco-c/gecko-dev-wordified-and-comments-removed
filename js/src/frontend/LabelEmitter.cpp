@@ -42,9 +42,7 @@ LabelEmitter
 :
 emitLabel
 (
-const
-ParserAtom
-*
+HandleAtom
 name
 )
 {
