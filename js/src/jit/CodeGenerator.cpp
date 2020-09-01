@@ -82955,7 +82955,7 @@ bool
 (
 JSContext
 *
-uint32_t
+int32_t
 HandleObject
 bool
 *
@@ -83186,7 +83186,7 @@ bool
 (
 JSContext
 *
-uint32_t
+int32_t
 HandleObject
 bool
 *

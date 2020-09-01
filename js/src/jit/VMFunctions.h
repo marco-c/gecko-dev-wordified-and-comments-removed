@@ -3910,7 +3910,7 @@ OperatorInI
 JSContext
 *
 cx
-uint32_t
+int32_t
 index
 HandleObject
 obj
