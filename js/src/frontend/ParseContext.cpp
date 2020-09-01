@@ -1616,9 +1616,9 @@ sc
 ErrorReporter
 &
 errorReporter
-CompilationInfo
+CompilationState
 &
-compilationInfo
+compilationState
 Directives
 *
 newDirectives
@@ -1703,9 +1703,7 @@ NoAwaitOffset
 )
 scriptId_
 (
-compilationInfo
-.
-state
+compilationState
 .
 usedNames
 .
@@ -1743,9 +1741,7 @@ emplace
 (
 cx
 parent
-compilationInfo
-.
-state
+compilationState
 .
 usedNames
 )
@@ -1757,9 +1753,7 @@ emplace
 (
 cx
 parent
-compilationInfo
-.
-state
+compilationState
 .
 usedNames
 )

@@ -246,6 +246,8 @@ prs
 getCompilationInfo
 (
 )
+.
+state
 newDirectives
 std
 :

@@ -1152,9 +1152,9 @@ sc
 ErrorReporter
 &
 errorReporter
-CompilationInfo
+CompilationState
 &
-compilationInfo
+compilationState
 Directives
 *
 newDirectives
