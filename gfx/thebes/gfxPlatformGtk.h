@@ -164,10 +164,10 @@ GetCommonFallbackFonts
 (
 uint32_t
 aCh
+uint32_t
+aNextCh
 Script
 aRunScript
-eFontPresentation
-aPresentation
 nsTArray
 <
 const
