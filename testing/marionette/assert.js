@@ -77,12 +77,7 @@ jsm
 ;
 const
 {
-InvalidArgumentError
-InvalidSessionIDError
-JavaScriptError
-NoSuchWindowError
-UnexpectedAlertOpenError
-UnsupportedOperationError
+error
 }
 =
 ChromeUtils
@@ -267,8 +262,10 @@ msg
 =
 "
 "
-error
+err
 =
+error
+.
 JavaScriptError
 )
 {
@@ -284,7 +281,7 @@ obj
 {
 throw
 new
-error
+err
 (
 msg
 |
@@ -321,6 +318,8 @@ sessionID
 >
 sessionID
 msg
+error
+.
 InvalidSessionIDError
 )
 (
@@ -366,6 +365,8 @@ that
 (
 isFirefox
 msg
+error
+.
 UnsupportedOperationError
 )
 (
@@ -416,6 +417,8 @@ isThunderbird
 obj
 )
 msg
+error
+.
 UnsupportedOperationError
 )
 (
@@ -453,6 +456,8 @@ that
 (
 isFennec
 msg
+error
+.
 UnsupportedOperationError
 )
 (
@@ -504,6 +509,8 @@ toString
 content
 "
 msg
+error
+.
 UnsupportedOperationError
 )
 (
@@ -573,6 +580,8 @@ ctx
 .
 closed
 msg
+error
+.
 NoSuchWindowError
 )
 (
@@ -616,6 +625,8 @@ d
 undefined
 "
 msg
+error
+.
 UnexpectedAlertOpenError
 )
 (
@@ -1317,8 +1328,10 @@ message
 =
 "
 "
-error
+err
 =
+error
+.
 InvalidArgumentError
 )
 {
@@ -1338,7 +1351,7 @@ obj
 {
 throw
 new
-error
+err
 (
 message
 )

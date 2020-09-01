@@ -54,7 +54,6 @@ jsm
 const
 {
 error
-WebDriverError
 }
 =
 ChromeUtils
@@ -503,6 +502,8 @@ Error
 let
 err
 =
+error
+.
 WebDriverError
 .
 fromJSON

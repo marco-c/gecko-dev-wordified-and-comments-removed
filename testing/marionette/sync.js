@@ -78,8 +78,6 @@ jsm
 const
 {
 error
-stack
-TimeoutError
 }
 =
 ChromeUtils
@@ -583,6 +581,8 @@ timeout
 PROMISE_TIMEOUT
 throws
 =
+error
+.
 TimeoutError
 }
 =
@@ -743,6 +743,8 @@ resolve
 ;
 trace
 =
+error
+.
 stack
 (
 )

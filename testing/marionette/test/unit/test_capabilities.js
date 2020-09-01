@@ -53,7 +53,7 @@ jsm
 ;
 const
 {
-InvalidArgumentError
+error
 }
 =
 ChromeUtils
@@ -370,6 +370,8 @@ equal
 e
 .
 name
+error
+.
 InvalidArgumentError
 .
 name
@@ -3369,7 +3371,9 @@ foo
 "
 }
 )
+/
 InvalidArgumentError
+/
 )
 ;
 for
@@ -3428,7 +3432,9 @@ foo
 "
 }
 )
+/
 InvalidArgumentError
+/
 )
 ;
 Assert
@@ -3447,7 +3453,9 @@ pageLoadStrategy
 null
 }
 )
+/
 InvalidArgumentError
+/
 )
 ;
 let
@@ -3572,7 +3580,9 @@ setWindowRect
 false
 }
 )
+/
 InvalidArgumentError
+/
 )
 ;
 }
@@ -3594,7 +3604,9 @@ setWindowRect
 true
 }
 )
+/
 InvalidArgumentError
+/
 )
 ;
 }
@@ -3728,7 +3740,9 @@ foo
 "
 }
 )
+/
 InvalidArgumentError
+/
 )
 ;
 Assert
@@ -3751,7 +3765,9 @@ accessibilityChecks
 1
 }
 )
+/
 InvalidArgumentError
+/
 )
 ;
 caps
@@ -3836,7 +3852,9 @@ foo
 "
 }
 )
+/
 InvalidArgumentError
+/
 )
 ;
 Assert
@@ -3859,7 +3877,9 @@ useNonSpecCompliantPointerOrigin
 1
 }
 )
+/
 InvalidArgumentError
+/
 )
 ;
 caps
@@ -3944,7 +3964,9 @@ foo
 "
 }
 )
+/
 InvalidArgumentError
+/
 )
 ;
 Assert
@@ -3967,7 +3989,9 @@ webdriverClick
 1
 }
 )
+/
 InvalidArgumentError
+/
 )
 ;
 run_next_test

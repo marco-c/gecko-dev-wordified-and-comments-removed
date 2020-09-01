@@ -135,7 +135,6 @@ js
 const
 {
 error
-UnknownCommandError
 }
 =
 ChromeUtils
@@ -1094,6 +1093,8 @@ undefined
 {
 throw
 new
+error
+.
 UnknownCommandError
 (
 cmd

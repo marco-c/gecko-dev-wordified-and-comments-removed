@@ -53,7 +53,7 @@ jsm
 ;
 const
 {
-ElementNotAccessibleError
+error
 }
 =
 ChromeUtils
@@ -1429,6 +1429,8 @@ className
 }
 throw
 new
+error
+.
 ElementNotAccessibleError
 (
 message

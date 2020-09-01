@@ -48,7 +48,7 @@ jsm
 ;
 const
 {
-WebDriverError
+error
 }
 =
 ChromeUtils
@@ -735,6 +735,8 @@ resetValues
 ;
 throw
 new
+error
+.
 WebDriverError
 (
 "
@@ -982,6 +984,8 @@ resetValues
 ;
 throw
 new
+error
+.
 WebDriverError
 (
 "
@@ -2244,6 +2248,8 @@ default
 :
 throw
 new
+error
+.
 WebDriverError
 (
 "

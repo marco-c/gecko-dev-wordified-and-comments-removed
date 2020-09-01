@@ -77,9 +77,7 @@ js
 ;
 const
 {
-InvalidArgumentError
-MoveTargetOutOfBoundsError
-UnsupportedOperationError
+error
 }
 =
 ChromeUtils
@@ -2282,6 +2280,8 @@ obj
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -2542,6 +2542,8 @@ pointerType
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 pprint
@@ -2685,6 +2687,8 @@ else
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -2966,6 +2970,8 @@ undefined
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -3076,6 +3082,8 @@ subtypes
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -3108,6 +3116,8 @@ subtype
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 Unknown
@@ -3447,6 +3457,8 @@ PointerCancel
 :
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 )
@@ -3816,6 +3828,8 @@ inputSourceState
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 Expected
@@ -4011,6 +4025,8 @@ type
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 Expected
@@ -4087,6 +4103,8 @@ pointerType
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 Expected
@@ -4846,6 +4864,8 @@ PointerCancel
 :
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 )
@@ -5369,6 +5389,8 @@ Touch
 :
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 "
@@ -5551,6 +5573,8 @@ Touch
 :
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 "
@@ -5714,6 +5738,8 @@ win
 {
 throw
 new
+error
+.
 MoveTargetOutOfBoundsError
 (
 (
@@ -6091,6 +6117,8 @@ Touch
 :
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 "

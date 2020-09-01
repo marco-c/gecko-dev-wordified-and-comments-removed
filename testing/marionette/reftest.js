@@ -149,7 +149,7 @@ js
 ;
 const
 {
-InvalidArgumentError
+error
 }
 =
 ChromeUtils
@@ -2252,6 +2252,8 @@ relation
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "

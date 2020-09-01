@@ -101,7 +101,7 @@ js
 ;
 const
 {
-InvalidArgumentError
+error
 }
 =
 ChromeUtils
@@ -473,6 +473,8 @@ default
 :
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -1088,6 +1090,8 @@ includes
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 {
@@ -1154,6 +1158,8 @@ e
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 e
@@ -1276,6 +1282,8 @@ hash
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 {
@@ -1718,6 +1726,8 @@ default
 :
 throw
 new
+error
+.
 InvalidArgumentError
 (
 Invalid
@@ -2464,6 +2474,8 @@ v
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -2534,6 +2546,8 @@ v
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -2558,6 +2572,8 @@ v
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -2648,6 +2664,8 @@ v
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 Unknown

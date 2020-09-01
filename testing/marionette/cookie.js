@@ -53,8 +53,7 @@ js
 ;
 const
 {
-InvalidCookieDomainError
-UnableToSetCookieError
+error
 }
 =
 ChromeUtils
@@ -764,6 +763,8 @@ default
 :
 throw
 new
+error
+.
 InvalidCookieDomainError
 (
 newCookie
@@ -838,6 +839,8 @@ domain
 {
 throw
 new
+error
+.
 InvalidCookieDomainError
 (
 Cookies
@@ -973,6 +976,8 @@ e
 {
 throw
 new
+error
+.
 UnableToSetCookieError
 (
 e

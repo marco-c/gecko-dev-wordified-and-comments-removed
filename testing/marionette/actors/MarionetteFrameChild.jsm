@@ -63,7 +63,6 @@ js
 const
 {
 error
-NoSuchFrameError
 }
 =
 ChromeUtils
@@ -847,6 +846,8 @@ length
 {
 throw
 new
+error
+.
 NoSuchFrameError
 (
 Unable
@@ -926,6 +927,8 @@ context
 {
 throw
 new
+error
+.
 NoSuchFrameError
 (
 Unable

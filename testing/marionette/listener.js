@@ -182,14 +182,7 @@ js
 ;
 const
 {
-ElementNotInteractableError
-InsecureCertificateError
-InvalidArgumentError
-InvalidSelectorError
-NoSuchElementError
-NoSuchFrameError
-TimeoutError
-UnknownError
+error
 }
 =
 ChromeUtils
@@ -1322,6 +1315,8 @@ stop
 sendError
 (
 new
+error
+.
 InsecureCertificateError
 (
 )
@@ -1365,6 +1360,8 @@ stop
 sendError
 (
 new
+error
+.
 UnknownError
 (
 Reached
@@ -1583,6 +1580,8 @@ stop
 sendError
 (
 new
+error
+.
 TimeoutError
 (
 Timeout
@@ -3606,6 +3605,8 @@ visible
 {
 throw
 new
+error
+.
 ElementNotInteractableError
 (
 "
@@ -5258,6 +5259,8 @@ el
 {
 throw
 new
+error
+.
 NoSuchElementError
 (
 )
@@ -5881,6 +5884,8 @@ foundShadowRoot
 {
 throw
 new
+error
+.
 NoSuchElementError
 (
 pprint
@@ -6105,6 +6110,8 @@ let
 err
 =
 new
+error
+.
 NoSuchElementError
 (
 Unable
@@ -6441,6 +6448,8 @@ let
 err
 =
 new
+error
+.
 NoSuchFrameError
 (
 Unable
