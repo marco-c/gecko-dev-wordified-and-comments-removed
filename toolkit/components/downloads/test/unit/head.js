@@ -1351,6 +1351,11 @@ null
 null
 persist
 isPrivate
+Ci
+.
+nsITransfer
+.
+DOWNLOAD_ACCEPTABLE
 )
 ;
 persist

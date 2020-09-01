@@ -122,8 +122,8 @@ aChannel
 )
 ;
 static
-bool
-IsDownloadAllowed
+long
+ClassifyDownload
 (
 nsIChannel
 *
@@ -167,15 +167,6 @@ char
 aFilename
 bool
 aIsSystemRealm
-)
-;
-static
-bool
-IsDownloadAllowed
-(
-nsIChannel
-*
-aChannel
 )
 ;
 static
