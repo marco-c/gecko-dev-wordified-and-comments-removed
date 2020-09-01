@@ -128,3 +128,15 @@ label
 =
 Loading
 :
+videocontrols
+-
+volume
+-
+control
+=
+.
+aria
+-
+label
+=
+Volume
