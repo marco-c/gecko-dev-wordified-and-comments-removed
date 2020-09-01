@@ -2428,6 +2428,20 @@ browser
 .
 Chrome
     
+experimental_channels
+=
+(
+"
+dev
+"
+"
+canary
+"
+"
+nightly
+"
+)
+    
 def
 setup_kwargs
 (
@@ -2499,11 +2513,10 @@ binary
         
 if
 browser_channel
-=
-=
-"
-nightly
-"
+in
+self
+.
+experimental_channels
 :
             
 try
@@ -2515,11 +2528,28 @@ browser
 .
 install_mojojs
 (
+                    
+dest
+=
 self
 .
 venv
 .
 path
+                    
+channel
+=
+browser_channel
+                    
+browser_binary
+=
+kwargs
+[
+"
+binary
+"
+]
+                
 )
                 
 kwargs
@@ -2712,17 +2742,9 @@ binary
 if
 browser_channel
 in
-(
-"
-dev
-"
-"
-canary
-"
-"
-nightly
-"
-)
+self
+.
+experimental_channels
 :
             
 logger
