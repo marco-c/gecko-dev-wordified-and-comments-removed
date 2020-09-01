@@ -1904,7 +1904,7 @@ config
 params
 [
 '
-release_enable_partners
+release_enable_partner_repack
 '
 ]
 and
@@ -1921,6 +1921,35 @@ release
 partner
 -
 repack
+'
+)
+    
+)
+or
+(
+        
+config
+.
+params
+[
+'
+release_enable_partner_attribution
+'
+]
+and
+        
+config
+.
+kind
+.
+startswith
+(
+'
+release
+-
+partner
+-
+attribution
 '
 )
     
@@ -1951,7 +1980,6 @@ eme
 -
 free
 -
-repack
 '
 )
     
