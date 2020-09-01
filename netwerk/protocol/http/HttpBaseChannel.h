@@ -3111,6 +3111,14 @@ mCurrentThread
 ;
 private
 :
+bool
+ShouldTaintReplacementChannelOrigin
+(
+nsIURI
+*
+aNewURI
+)
+;
 void
 ReleaseMainThreadOnlyReferences
 (
@@ -3603,6 +3611,11 @@ mUpgradableToSecure
 ;
 uint32_t
 mHasNonEmptySandboxingFlag
+:
+1
+;
+uint32_t
+mTaintedOriginFlag
 :
 1
 ;
