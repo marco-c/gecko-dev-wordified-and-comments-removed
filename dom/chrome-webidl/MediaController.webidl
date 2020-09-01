@@ -182,6 +182,14 @@ boolean
 isPlaying
 ;
 [
+Throws
+]
+MediaMetadataInit
+getMetadata
+(
+)
+;
+[
 Frozen
 Cached
 Pure

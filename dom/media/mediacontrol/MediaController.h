@@ -291,6 +291,17 @@ aRetVal
 )
 const
 ;
+void
+GetMetadata
+(
+MediaMetadataInit
+&
+aMetadata
+ErrorResult
+&
+aRv
+)
+;
 IMPL_EVENT_HANDLER
 (
 activated
