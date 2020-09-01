@@ -1759,8 +1759,6 @@ this
 _onNewStyleSheet
 (
 resource
-.
-styleSheet
 )
 ;
 }

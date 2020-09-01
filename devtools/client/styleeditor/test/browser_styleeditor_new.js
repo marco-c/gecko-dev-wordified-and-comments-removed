@@ -119,8 +119,6 @@ resolve
 {
 editor
 .
-styleSheet
-.
 on
 (
 "
@@ -166,8 +164,6 @@ TESTCASE_CSS_SOURCE
 )
 {
 editor
-.
-styleSheet
 .
 off
 (
