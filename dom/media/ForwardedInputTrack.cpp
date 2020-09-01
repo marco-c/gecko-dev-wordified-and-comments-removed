@@ -1079,7 +1079,7 @@ void
 ForwardedInputTrack
 :
 :
-SetEnabledImpl
+SetDisabledTrackModeImpl
 (
 DisabledTrackMode
 aMode
@@ -1235,7 +1235,7 @@ aMode
 MediaTrack
 :
 :
-SetEnabledImpl
+SetDisabledTrackModeImpl
 (
 aMode
 )
