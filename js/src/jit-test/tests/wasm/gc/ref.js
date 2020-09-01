@@ -18,7 +18,7 @@ field
 cdr
 (
 ref
-opt
+null
 cons
 )
 )
@@ -41,7 +41,7 @@ field
 to_even
 (
 ref
-opt
+null
 even
 )
 )
@@ -64,7 +64,7 @@ field
 to_odd
 (
 ref
-opt
+null
 odd
 )
 )
@@ -148,7 +148,7 @@ func
 param
 (
 ref
-opt
+null
 cons
 )
 )
@@ -171,7 +171,7 @@ param
 p
 (
 ref
-opt
+null
 cons
 )
 )
@@ -179,7 +179,7 @@ cons
 result
 (
 ref
-opt
+null
 cons
 )
 )
@@ -188,7 +188,7 @@ local
 l
 (
 ref
-opt
+null
 cons
 )
 )
@@ -282,7 +282,7 @@ block
 result
 (
 ref
-opt
+null
 cons
 )
 )
@@ -292,7 +292,7 @@ if
 result
 (
 ref
-opt
+null
 cons
 )
 )
@@ -326,7 +326,7 @@ func
 param
 (
 ref
-opt
+null
 even
 )
 )
@@ -334,7 +334,7 @@ even
 result
 (
 ref
-opt
+null
 odd
 )
 )
@@ -352,7 +352,7 @@ func
 param
 (
 ref
-opt
+null
 odd
 )
 )
@@ -360,7 +360,7 @@ odd
 result
 (
 ref
-opt
+null
 even
 )
 )
@@ -378,7 +378,7 @@ func
 param
 (
 ref
-opt
+null
 cons
 )
 )
@@ -411,7 +411,7 @@ func
 param
 (
 ref
-opt
+null
 cons
 )
 )
@@ -530,7 +530,7 @@ null
 param
 (
 ref
-opt
+null
 s
 )
 )
@@ -580,7 +580,7 @@ f
 param
 (
 ref
-opt
+null
 s
 )
 )
@@ -626,7 +626,7 @@ func
 param
 (
 ref
-opt
+null
 odd
 )
 )
@@ -678,7 +678,7 @@ f
 param
 (
 ref
-opt
+null
 s
 )
 )
@@ -693,7 +693,7 @@ g
 param
 (
 ref
-opt
+null
 t
 )
 )
@@ -754,7 +754,7 @@ f
 param
 (
 ref
-opt
+null
 s
 )
 )
@@ -769,7 +769,7 @@ g
 param
 (
 ref
-opt
+null
 t
 )
 )
@@ -793,12 +793,14 @@ CompileError
 expression
 has
 type
-optref
+ref
+null
 .
 *
 but
 expected
-optref
+ref
+null
 /
 )
 ;
@@ -848,7 +850,7 @@ f
 param
 (
 ref
-opt
+null
 s
 )
 )
@@ -863,7 +865,7 @@ g
 param
 (
 ref
-opt
+null
 t
 )
 )
@@ -887,12 +889,14 @@ CompileError
 expression
 has
 type
-optref
+ref
+null
 .
 *
 but
 expected
-optref
+ref
+null
 /
 )
 ;
@@ -929,7 +933,7 @@ f
 param
 (
 ref
-opt
+null
 s
 )
 )
@@ -937,7 +941,7 @@ s
 local
 (
 ref
-opt
+null
 t
 )
 )
@@ -995,7 +999,7 @@ f
 param
 (
 ref
-opt
+null
 s
 )
 )
@@ -1003,7 +1007,7 @@ s
 local
 (
 ref
-opt
+null
 t
 )
 )
@@ -1029,12 +1033,14 @@ CompileError
 expression
 has
 type
-optref
+ref
+null
 .
 *
 but
 expected
-optref
+ref
+null
 /
 )
 ;
@@ -1080,7 +1086,7 @@ f
 param
 (
 ref
-opt
+null
 s
 )
 )
@@ -1095,7 +1101,7 @@ g
 param
 (
 ref
-opt
+null
 t
 )
 )
@@ -1119,12 +1125,14 @@ CompileError
 expression
 has
 type
-optref
+ref
+null
 .
 *
 but
 expected
-optref
+ref
+null
 /
 )
 ;
@@ -1161,7 +1169,7 @@ f
 param
 (
 ref
-opt
+null
 s
 )
 )
@@ -1169,7 +1177,7 @@ s
 result
 (
 ref
-opt
+null
 t
 )
 )
@@ -1222,7 +1230,7 @@ f
 param
 (
 ref
-opt
+null
 s
 )
 )
@@ -1230,7 +1238,7 @@ s
 result
 (
 ref
-opt
+null
 t
 )
 )
@@ -1250,12 +1258,14 @@ CompileError
 expression
 has
 type
-optref
+ref
+null
 .
 *
 but
 expected
-optref
+ref
+null
 /
 )
 ;
@@ -1301,7 +1311,7 @@ f
 param
 (
 ref
-opt
+null
 s
 )
 )
@@ -1309,7 +1319,7 @@ s
 result
 (
 ref
-opt
+null
 t
 )
 )
@@ -1329,12 +1339,14 @@ CompileError
 expression
 has
 type
-optref
+ref
+null
 .
 *
 but
 expected
-optref
+ref
+null
 /
 )
 ;
@@ -1366,7 +1378,7 @@ f
 param
 (
 ref
-opt
+null
 x
 )
 )
@@ -1417,7 +1429,7 @@ f
 param
 (
 ref
-opt
+null
 0
 )
 )
@@ -1486,7 +1498,7 @@ g
 param
 (
 ref
-opt
+null
 s
 )
 )
@@ -1506,7 +1518,8 @@ type
 externref
 but
 expected
-optref
+ref
+null
 /
 )
 ;

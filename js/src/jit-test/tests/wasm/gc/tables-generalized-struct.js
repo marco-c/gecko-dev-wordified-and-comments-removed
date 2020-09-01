@@ -125,7 +125,7 @@ narrow
 externref
 (
 ref
-opt
+null
 dummy
 )
 (

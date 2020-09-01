@@ -210,7 +210,7 @@ narrow
 externref
 (
 ref
-opt
+null
 S
 )
 (
@@ -343,7 +343,7 @@ narrow
 externref
 (
 ref
-opt
+null
 S
 )
 (
