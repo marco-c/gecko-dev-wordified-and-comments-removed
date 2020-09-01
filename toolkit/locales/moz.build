@@ -244,6 +244,14 @@ locale
 ini
 '
 ]
+if
+CONFIG
+[
+'
+MOZ_DEFAULT_BROWSER_AGENT
+'
+]
+:
 LOCALIZED_GENERATED_FILES
 +
 =
