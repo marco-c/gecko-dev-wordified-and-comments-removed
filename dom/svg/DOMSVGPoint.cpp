@@ -835,6 +835,11 @@ do_QueryInterface
 mOwner
 )
 ;
+MOZ_ASSERT
+(
+svg
+)
+;
 nsContentUtils
 :
 :
