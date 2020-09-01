@@ -623,7 +623,6 @@ write
 (
 SIMPLETEST_REPLACEMENT
 )
-;
                     
 continue
                 
@@ -712,7 +711,6 @@ b
 n
 '
 )
-;
                 
 fout
 .
@@ -720,7 +718,6 @@ write
 (
 inc_data
 )
-;
                 
 fout
 .
@@ -738,7 +735,6 @@ script
 n
 '
 )
-;
                 
 continue
             

@@ -8,11 +8,9 @@ __main__
 from
 pathlib
 import
-*
+Path
 import
 shutil
-import
-subprocess
 import
 sys
 REL_PATH
@@ -115,7 +113,8 @@ angle_dir
 from
 vendor_from_git
 import
-*
+print_now
+record_cherry_picks
 (
 MERGE_BASE_ORIGIN
 )
