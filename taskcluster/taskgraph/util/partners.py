@@ -907,7 +907,7 @@ to
 a
 manifest
 repository
-retieve
+retrieve
 the
 default
 .
@@ -920,7 +920,7 @@ a
     
 list
 of
-parter
+partner
 repos
 .
     
@@ -2127,20 +2127,24 @@ partner_subset
 for
 partner
 in
+[
+p
+for
+p
+in
 kind_config
 .
 keys
 (
 )
-:
-            
 if
-partner
+p
 not
 in
 partner_subset
+]
 :
-                
+            
 del
 (
 kind_config
