@@ -242,7 +242,10 @@ GetNumPages
 const
 {
 return
-mTotalPages
+mPageData
+-
+>
+mTotNumPages
 ;
 }
 bool
@@ -425,9 +428,6 @@ mPageData
 ;
 int32_t
 mPageNum
-;
-int32_t
-mTotalPages
 ;
 int32_t
 mFromPageNum
