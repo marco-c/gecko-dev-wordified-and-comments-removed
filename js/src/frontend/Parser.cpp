@@ -34054,9 +34054,6 @@ options
 )
 .
 privateClassMethods
-|
-|
-isStatic
 )
 {
 errorAt
@@ -34136,6 +34133,12 @@ return
 false
 ;
 }
+if
+(
+!
+isStatic
+)
+{
 classInitializedMembers
 .
 privateMethods
@@ -34314,6 +34317,7 @@ storedMethodAtom
 )
 )
 ;
+}
 }
 Node
 method
