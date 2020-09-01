@@ -2,7 +2,7 @@ An
 explanation
 of
 the
-Mozilla
+Firefox
 Source
 Code
 Directory
@@ -44,7 +44,7 @@ on
 how
 to
 build
-Mozilla
+Firefox
 from
 the
 source
@@ -81,7 +81,7 @@ a
 question
 about
 developing
-Mozilla
+Firefox
 and
 can
 '
@@ -205,7 +205,7 @@ which
 are
 used
 by
-Mozilla
+Firefox
 developers
 for
 testing
