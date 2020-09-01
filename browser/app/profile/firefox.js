@@ -99,6 +99,16 @@ pref
 "
 extensions
 .
+postDownloadThirdPartyPrompt
+"
+true
+)
+;
+pref
+(
+"
+extensions
+.
 getAddons
 .
 cache
