@@ -92,7 +92,7 @@ aFlags
 override
 ;
 void
-SetEnabledImpl
+SetDisabledTrackModeImpl
 (
 DisabledTrackMode
 aMode

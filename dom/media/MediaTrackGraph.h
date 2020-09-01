@@ -629,7 +629,7 @@ aListener
 )
 ;
 void
-SetEnabled
+SetDisabledTrackMode
 (
 DisabledTrackMode
 aMode
@@ -929,7 +929,7 @@ aListener
 ;
 virtual
 void
-SetEnabledImpl
+SetDisabledTrackModeImpl
 (
 DisabledTrackMode
 aMode
@@ -1630,7 +1630,7 @@ End
 )
 ;
 void
-SetEnabledImpl
+SetDisabledTrackModeImpl
 (
 DisabledTrackMode
 aMode
