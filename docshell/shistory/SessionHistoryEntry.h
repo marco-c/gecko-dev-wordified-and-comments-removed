@@ -398,7 +398,7 @@ mLoadId
 0
 ;
 bool
-mIsLoadFromSessionHistory
+mLoadIsFromSessionHistory
 =
 false
 ;

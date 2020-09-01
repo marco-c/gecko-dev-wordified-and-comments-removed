@@ -4639,7 +4639,7 @@ aMsg
 aActor
 aParam
 .
-mIsLoadFromSessionHistory
+mLoadIsFromSessionHistory
 )
 ;
 WriteIPDLParam
@@ -4973,7 +4973,7 @@ aActor
 aResult
 -
 >
-mIsLoadFromSessionHistory
+mLoadIsFromSessionHistory
 )
 |
 |
