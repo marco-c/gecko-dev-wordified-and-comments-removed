@@ -82,7 +82,6 @@ CrossGraphReceiver
 aReceiver
 )
 ;
-virtual
 CrossGraphTransmitter
 *
 AsCrossGraphTransmitter
@@ -134,7 +133,6 @@ TrackRate
 aTransmitterRate
 )
 ;
-virtual
 CrossGraphReceiver
 *
 AsCrossGraphReceiver
