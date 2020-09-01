@@ -3021,8 +3021,8 @@ interval
 =
 100
 )
-&
-step_wait_func
+and
+step_wait_func_done
 (
 cond
 func
