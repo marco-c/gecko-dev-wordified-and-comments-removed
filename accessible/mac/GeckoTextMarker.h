@@ -281,6 +281,13 @@ Text
 )
 const
 ;
+NSValue
+*
+Bounds
+(
+)
+const
+;
 GeckoTextMarker
 mStart
 ;
