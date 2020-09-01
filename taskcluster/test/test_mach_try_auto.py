@@ -565,17 +565,11 @@ xfail
 def
 test_tasks_are_not_scheduled
 (
-tgg
+optimized_task_graph
 filter_tasks
 func
 )
 :
-    
-optimized_task_graph
-=
-tgg
-.
-optimized_task_graph
     
 tasks
 =
