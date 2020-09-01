@@ -156,16 +156,6 @@ python
 /
 mozperftest
 -
-python
-/
-mozrelease
-/
-mozrelease
-/
-partner_repack
-.
-py
--
 tools
 /
 crashreporter

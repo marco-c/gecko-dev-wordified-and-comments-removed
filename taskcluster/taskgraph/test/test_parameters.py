@@ -205,13 +205,7 @@ release_enable_emefree
 False
         
 '
-release_enable_partner_repack
-'
-:
-False
-        
-'
-release_enable_partner_attribution
+release_enable_partners
 '
 :
 False
