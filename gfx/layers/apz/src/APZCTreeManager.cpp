@@ -17483,7 +17483,7 @@ thumbOrigin
 (
 aMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -17669,7 +17669,7 @@ thumbOrigin
 (
 aMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .

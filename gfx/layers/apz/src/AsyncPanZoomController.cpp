@@ -1889,7 +1889,7 @@ position
 -
 aFrameMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -3650,7 +3650,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 ;
@@ -7536,7 +7536,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 *
@@ -7692,7 +7692,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -7876,7 +7876,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -9141,7 +9141,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 ;
@@ -9286,7 +9286,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -9364,7 +9364,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -14408,7 +14408,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 initialVelocity
@@ -15150,7 +15150,7 @@ Metrics
 (
 )
 .
-SetScrollOffset
+SetVisualScrollOffset
 (
 aOffset
 )
@@ -15212,7 +15212,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 +
@@ -15238,7 +15238,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 +
@@ -15276,7 +15276,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 +
@@ -16464,7 +16464,7 @@ baseRect
 (
 aFrameMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 aFrameMetrics
@@ -16579,7 +16579,7 @@ EPSILON
 &
 request
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -16587,7 +16587,7 @@ WithinEpsilonOf
 (
 mLastPaintRequestMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 EPSILON
@@ -17716,7 +17716,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 ;
@@ -18070,7 +18070,7 @@ scrollChange
 (
 mLastContentPaintMetrics
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 -
@@ -18238,7 +18238,7 @@ GetDisplayPort
 +
 mLastContentPaintMetrics
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 ;
@@ -18801,13 +18801,9 @@ return
 CSSPoint
 lastScrollOffset
 =
-mLastContentPaintMetadata
+mLastContentPaintMetrics
 .
-GetMetrics
-(
-)
-.
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 ;
@@ -18821,7 +18817,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -18839,7 +18835,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -19046,7 +19042,7 @@ GetDisplayPort
 +
 aLayerMetrics
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 str
@@ -19083,7 +19079,7 @@ GetCriticalDisplayPort
 +
 aLayerMetrics
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 )
@@ -19970,7 +19966,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -19982,7 +19978,7 @@ ToString
 (
 aLayerMetrics
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 -
@@ -20063,7 +20059,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -20075,7 +20071,7 @@ ToString
 (
 aLayerMetrics
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 )
@@ -20166,7 +20162,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -20227,7 +20223,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -20396,7 +20392,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -20635,7 +20631,7 @@ RoundedToInt
 (
 metrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -20645,7 +20641,7 @@ RoundedToInt
 (
 aMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -20950,7 +20946,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 ;
@@ -21544,7 +21540,7 @@ width
 }
 endZoomToMetrics
 .
-SetScrollOffset
+SetVisualScrollOffset
 (
 aRect
 .
@@ -21570,7 +21566,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 Metrics
@@ -21582,7 +21578,7 @@ GetZoom
 )
 endZoomToMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 endZoomToMetrics
@@ -23158,7 +23154,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -23245,7 +23241,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -23306,7 +23302,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -23488,7 +23484,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 ;
@@ -23575,7 +23571,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -23587,7 +23583,7 @@ Metrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .

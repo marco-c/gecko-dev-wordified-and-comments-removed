@@ -4781,7 +4781,6 @@ GetZoom
 (
 )
 ;
-;
 }
 #
 endif

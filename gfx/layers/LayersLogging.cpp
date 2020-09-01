@@ -1772,7 +1772,7 @@ AppendToString
 aStream
 m
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 "

@@ -56,7 +56,7 @@ CSSRect
 ;
 fm
 .
-SetScrollOffset
+SetVisualScrollOffset
 (
 CSSPoint
 (
@@ -164,7 +164,7 @@ abs
 (
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -184,7 +184,7 @@ abs
 (
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -421,7 +421,7 @@ CSSRect
 ;
 metrics
 .
-SetScrollOffset
+SetVisualScrollOffset
 (
 CSSPoint
 (
@@ -2125,7 +2125,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 ;
@@ -2157,7 +2157,7 @@ GetMetrics
 (
 )
 .
-SetScrollOffset
+SetLayoutScrollOffset
 (
 mainThreadOffset
 )
@@ -2251,7 +2251,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 ;
@@ -2274,7 +2274,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 ;
@@ -2397,7 +2397,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 ;

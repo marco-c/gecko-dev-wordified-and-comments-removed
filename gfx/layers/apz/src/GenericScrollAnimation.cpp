@@ -333,7 +333,7 @@ sampledDest
 -
 aFrameMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )

@@ -1889,7 +1889,7 @@ GetDisplayPort
 +
 fm
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 )
@@ -1973,7 +1973,7 @@ GetCriticalDisplayPort
 +
 fm
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 )

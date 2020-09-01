@@ -618,13 +618,13 @@ translation
 (
 aCompositorMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 -
 aContentMetrics
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 )
@@ -918,7 +918,7 @@ fabsf
 (
 contentMetrics
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 .
@@ -926,7 +926,7 @@ x
 -
 compositorMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -941,7 +941,7 @@ fabsf
 (
 contentMetrics
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 .
@@ -949,7 +949,7 @@ y
 -
 compositorMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -1208,7 +1208,7 @@ GetCriticalDisplayPort
 +
 aContentMetrics
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 ;
@@ -1238,7 +1238,7 @@ CSSRect
 (
 aCompositorMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 aCompositorMetrics

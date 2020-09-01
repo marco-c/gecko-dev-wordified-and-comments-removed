@@ -495,7 +495,7 @@ TopLeft
 :
 aRequest
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 ;
@@ -844,7 +844,7 @@ Stringify
 (
 aRequest
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -873,7 +873,7 @@ ToAppUnits
 (
 aRequest
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -917,7 +917,7 @@ apzScrollOffset
 =
 aRequest
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 ;

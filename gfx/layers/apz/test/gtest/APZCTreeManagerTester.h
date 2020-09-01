@@ -389,7 +389,7 @@ aScrollableRect
 ;
 metrics
 .
-SetScrollOffset
+SetLayoutScrollOffset
 (
 CSSPoint
 (

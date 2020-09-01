@@ -87,7 +87,7 @@ CSSRect
 ;
 fm
 .
-SetScrollOffset
+SetVisualScrollOffset
 (
 CSSPoint
 (
@@ -695,7 +695,7 @@ EXPECT_EQ
 (
 zoomedMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -708,7 +708,7 @@ newZoom
 )
 finalMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -1188,7 +1188,7 @@ EXPECT_EQ
 (
 originalMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -1203,7 +1203,7 @@ zoom
 )
 finalMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
