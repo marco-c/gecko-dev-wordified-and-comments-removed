@@ -7965,6 +7965,17 @@ DebuggerNotificationType
 RequestAnimationFrameCallback
 )
 ;
+LogFrameRequestCallback
+:
+:
+Run
+run
+(
+callback
+.
+mCallback
+)
+;
 MOZ_KnownLive
 (
 callback

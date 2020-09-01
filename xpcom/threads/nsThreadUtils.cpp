@@ -3395,6 +3395,16 @@ LogTaskBase
 PresShell
 >
 ;
+template
+class
+LogTaskBase
+<
+dom
+:
+:
+FrameRequestCallback
+>
+;
 MOZ_THREAD_LOCAL
 (
 nsISerialEventTarget
