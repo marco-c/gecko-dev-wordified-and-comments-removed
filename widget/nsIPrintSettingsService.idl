@@ -85,6 +85,14 @@ attribute
 nsIPrintSettings
 globalPrintSettings
 ;
+[
+noscript
+]
+readonly
+attribute
+nsIPrintSettings
+defaultPrintSettingsForPrinting
+;
 readonly
 attribute
 nsIPrintSettings
