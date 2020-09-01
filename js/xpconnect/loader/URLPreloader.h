@@ -216,7 +216,6 @@ Retain
 static
 Result
 <
-const
 nsCString
 nsresult
 >
@@ -234,7 +233,6 @@ Forget
 static
 Result
 <
-const
 nsCString
 nsresult
 >
@@ -252,7 +250,6 @@ Forget
 static
 Result
 <
-const
 nsCString
 nsresult
 >
@@ -270,7 +267,6 @@ Forget
 static
 Result
 <
-const
 nsCString
 nsresult
 >
@@ -296,7 +292,6 @@ CacheKey
 ;
 Result
 <
-const
 nsCString
 nsresult
 >
@@ -312,7 +307,6 @@ readType
 ;
 Result
 <
-const
 nsCString
 nsresult
 >
@@ -327,7 +321,6 @@ readType
 ;
 Result
 <
-const
 nsCString
 nsresult
 >
@@ -343,7 +336,6 @@ readType
 static
 Result
 <
-const
 nsCString
 nsresult
 >
@@ -931,7 +923,6 @@ time
 }
 Result
 <
-const
 nsCString
 nsresult
 >
@@ -942,7 +933,6 @@ Read
 static
 Result
 <
-const
 nsCString
 nsresult
 >
@@ -989,7 +979,6 @@ mallocSizeOf
 }
 Result
 <
-const
 nsCString
 nsresult
 >

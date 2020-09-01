@@ -145,7 +145,6 @@ GetSampleEncryptionEntry
 Result
 <
 CryptoScheme
-const
 nsCString
 >
 GetEncryptionScheme
