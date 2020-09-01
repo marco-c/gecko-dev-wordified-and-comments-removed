@@ -2818,20 +2818,19 @@ args
 =
 (
 '
-backstop
+push
+-
+interval
 -
 10
--
-pushes
--
-2
--
-hours
+'
+'
+backstop
 '
 )
 )
 (
-Alias
+All
 )
 register_strategy
 (
@@ -2900,33 +2899,6 @@ project
     
 register_strategy
 (
-'
-full
--
-backstop
-'
-args
-=
-(
-'
-backstop
--
-20
--
-pushes
--
-4
--
-hours
-'
-)
-)
-(
-Alias
-)
-    
-register_strategy
-(
         
 '
 optimized
@@ -2939,15 +2911,11 @@ args
 (
             
 '
-backstop
+push
+-
+interval
 -
 10
--
-pushes
--
-2
--
-hours
 '
             
 Any
@@ -3013,8 +2981,6 @@ All
 (
             
 '
-full
--
 backstop
 '
             
@@ -3055,15 +3021,11 @@ All
 (
             
 '
-backstop
+push
+-
+interval
 -
 10
--
-pushes
--
-2
--
-hours
 '
             
 Any
