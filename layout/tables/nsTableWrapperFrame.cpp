@@ -1964,7 +1964,7 @@ eDefault
 ;
 }
 }
-LogicalSize
+auto
 size
 =
 aChildFrame
@@ -2006,6 +2006,8 @@ aWM
 }
 return
 size
+.
+mLogicalSize
 .
 ISize
 (

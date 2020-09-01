@@ -3056,7 +3056,10 @@ aResult
 }
 #
 endif
-LogicalSize
+nsIFrame
+:
+:
+SizeComputationResult
 nsVideoFrame
 :
 :
@@ -3158,6 +3161,7 @@ AspectRatio
 )
 ;
 return
+{
 ComputeSizeWithIntrinsicDimensions
 (
 aRenderingContext
@@ -3170,6 +3174,11 @@ aBorder
 aPadding
 aFlags
 )
+AspectRatioUsage
+:
+:
+None
+}
 ;
 }
 nscoord

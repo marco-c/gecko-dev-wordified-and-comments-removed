@@ -225,8 +225,7 @@ GetIntrinsicRatio
 )
 override
 ;
-virtual
-LogicalSize
+SizeComputationResult
 ComputeSize
 (
 gfxContext

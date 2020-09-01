@@ -214,10 +214,7 @@ GetIntrinsicRatio
 )
 override
 ;
-mozilla
-:
-:
-LogicalSize
+SizeComputationResult
 ComputeSize
 (
 gfxContext
@@ -227,7 +224,7 @@ mozilla
 :
 :
 WritingMode
-aWritingMode
+aWM
 const
 mozilla
 :
