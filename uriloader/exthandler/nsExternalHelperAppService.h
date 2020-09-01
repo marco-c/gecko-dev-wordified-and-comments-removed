@@ -664,6 +664,9 @@ mHandleInternally
 uint32_t
 mReason
 ;
+int32_t
+mDownloadClassification
+;
 bool
 mTempFileIsExecutable
 ;
