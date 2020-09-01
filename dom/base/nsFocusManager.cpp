@@ -1544,6 +1544,7 @@ if
 (
 subdoc
 )
+{
 return
 subdoc
 -
@@ -1552,6 +1553,7 @@ GetWindow
 (
 )
 ;
+}
 }
 return
 nullptr
@@ -2301,12 +2303,14 @@ if
 (
 rootWindow
 )
+{
 RaiseWindow
 (
 rootWindow
 aCallerType
 )
 ;
+}
 LOGFOCUS
 (
 (
@@ -2419,10 +2423,12 @@ if
 !
 window
 )
+{
 window
 =
 mFocusedWindow
 ;
+}
 *
 aLastFocusMethod
 =
@@ -3098,11 +3104,13 @@ if
 (
 aFocusedWindow
 )
+{
 *
 aFocusedWindow
 =
 nullptr
 ;
+}
 NS_ENSURE_TRUE
 (
 aWindow
@@ -3166,6 +3174,7 @@ if
 (
 aFocusedWindow
 )
+{
 NS_IF_ADDREF
 (
 *
@@ -3174,6 +3183,7 @@ aFocusedWindow
 focusedWindow
 )
 ;
+}
 return
 NS_OK
 ;
@@ -3265,9 +3275,11 @@ if
 (
 isEditable
 )
+{
 return
 NS_OK
 ;
+}
 RefPtr
 <
 PresShell
@@ -4352,6 +4364,7 @@ if
 (
 mFocusedWindow
 )
+{
 Blur
 (
 nullptr
@@ -4360,6 +4373,7 @@ true
 true
 )
 ;
+}
 mWindowBeingLowered
 =
 nullptr
@@ -4408,9 +4422,11 @@ if
 !
 window
 )
+{
 return
 NS_OK
 ;
+}
 nsIContent
 *
 content
@@ -5003,9 +5019,11 @@ mFocusedWindow
 =
 window
 )
+{
 return
 NS_OK
 ;
+}
 if
 (
 aNeedsFocus
@@ -5056,6 +5074,7 @@ if
 (
 currentWindow
 )
+{
 Focus
 (
 currentWindow
@@ -5068,6 +5087,7 @@ true
 focusInOtherContentProcess
 )
 ;
+}
 }
 else
 {
@@ -5724,6 +5744,7 @@ GetWindow
 (
 )
 )
+{
 parentWindow
 -
 >
@@ -5732,6 +5753,7 @@ SetFocusedElement
 nullptr
 )
 ;
+}
 }
 }
 SetFocusedWindowInternal
@@ -8295,6 +8317,7 @@ if
 (
 allowFrameSwitch
 )
+{
 newWindow
 -
 >
@@ -8309,6 +8332,7 @@ nullptr
 0
 )
 ;
+}
 if
 (
 aFlags
@@ -9349,9 +9373,11 @@ IsFrozen
 (
 )
 )
+{
 return
 false
 ;
+}
 nsPIDOMWindowInner
 *
 innerWindow
@@ -9376,9 +9402,11 @@ IsFrozen
 (
 )
 )
+{
 return
 false
 ;
+}
 nsCOMPtr
 <
 nsIDocShell
@@ -9409,9 +9437,11 @@ if
 !
 baseWin
 )
+{
 return
 false
 ;
+}
 bool
 visible
 =
@@ -9545,9 +9575,11 @@ if
 !
 aElement
 )
+{
 return
 nullptr
 ;
+}
 nsCOMPtr
 <
 Document
@@ -11393,8 +11425,10 @@ if
 !
 aWindow
 )
+{
 return
 ;
+}
 if
 (
 aElement
@@ -11413,8 +11447,10 @@ aElement
 mFirstBlurEvent
 )
 )
+{
 return
 ;
+}
 nsCOMPtr
 <
 nsIDocShell
@@ -11433,8 +11469,10 @@ if
 !
 docShell
 )
+{
 return
 ;
+}
 RefPtr
 <
 PresShell
@@ -11663,10 +11701,12 @@ true
 focusMethod
 )
 )
+{
 aIsNewDocument
 =
 true
 ;
+}
 SetFocusedWindowInternal
 (
 aWindow
@@ -11707,6 +11747,7 @@ if
 (
 objectFrame
 )
+{
 objectFrameWidget
 =
 objectFrame
@@ -11716,6 +11757,7 @@ GetWidget
 (
 )
 ;
+}
 }
 if
 (
@@ -12338,6 +12380,7 @@ if
 !
 aWindowRaised
 )
+{
 aWindow
 -
 >
@@ -12352,6 +12395,7 @@ nullptr
 0
 )
 ;
+}
 }
 if
 (
@@ -12379,10 +12423,12 @@ if
 (
 clearFirstFocusEvent
 )
+{
 mFirstFocusEvent
 =
 nullptr
 ;
+}
 }
 class
 FocusBlurEvent
@@ -13505,10 +13551,12 @@ if
 !
 childWindow
 )
+{
 childWindow
 =
 aWindow
 ;
+}
 nsCOMPtr
 <
 nsIDocShell
@@ -13527,8 +13575,10 @@ if
 !
 docShell
 )
+{
 return
 ;
+}
 PresShell
 *
 presShell
@@ -13584,6 +13634,7 @@ if
 (
 widget
 )
+{
 widget
 -
 >
@@ -13599,6 +13650,7 @@ Yes
 aCallerType
 )
 ;
+}
 }
 #
 else
@@ -13644,6 +13696,7 @@ if
 (
 widget
 )
+{
 widget
 -
 >
@@ -13659,6 +13712,7 @@ Yes
 aCallerType
 )
 ;
+}
 }
 #
 endif
@@ -13716,8 +13770,10 @@ if
 !
 mFocusedWindow
 )
+{
 return
 ;
+}
 nsCOMPtr
 <
 nsIDocShell
@@ -13870,8 +13926,10 @@ isContentEditableDoc
 |
 isFocusEditable
 )
+{
 return
 ;
+}
 }
 if
 (
@@ -13894,8 +13952,10 @@ if
 !
 aUpdateVisibility
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -14188,9 +14248,11 @@ if
 !
 caret
 )
+{
 return
 NS_OK
 ;
+}
 bool
 caretVisible
 =
@@ -14210,9 +14272,11 @@ aVisible
 !
 caretVisible
 )
+{
 return
 NS_OK
 ;
+}
 RefPtr
 <
 nsFrameSelection
@@ -14262,6 +14326,7 @@ if
 (
 focusFrame
 )
+{
 frameSelection
 =
 focusFrame
@@ -14271,6 +14336,7 @@ GetFrameSelection
 (
 )
 ;
+}
 }
 RefPtr
 <
@@ -15435,6 +15501,7 @@ nsGkAtoms
 area
 )
 )
+{
 startContent
 -
 >
@@ -15444,11 +15511,13 @@ IsFocusable
 tabIndex
 )
 ;
+}
 else
 if
 (
 frame
 )
+{
 frame
 -
 >
@@ -15459,7 +15528,9 @@ tabIndex
 0
 )
 ;
+}
 else
+{
 startContent
 -
 >
@@ -15469,6 +15540,7 @@ IsFocusable
 tabIndex
 )
 ;
+}
 if
 (
 tabIndex
@@ -15487,10 +15559,12 @@ startContent
 =
 rootContent
 )
+{
 ignoreTabIndex
 =
 true
 ;
+}
 }
 if
 (
@@ -15635,6 +15709,7 @@ if
 (
 pm
 )
+{
 popupFrame
 =
 pm
@@ -15645,6 +15720,7 @@ GetTopPopup
 ePopupTypePanel
 )
 ;
+}
 }
 #
 endif
@@ -16147,9 +16223,11 @@ startContent
 =
 rootContent
 )
+{
 return
 NS_OK
 ;
+}
 startContent
 =
 rootContent
@@ -16410,6 +16488,7 @@ GetFocusedElement
 =
 mFocusedElement
 )
+{
 Blur
 (
 GetFocusedBrowsingContext
@@ -16420,7 +16499,9 @@ true
 true
 )
 ;
+}
 else
+{
 window
 -
 >
@@ -16429,6 +16510,7 @@ SetFocusedElement
 nullptr
 )
 ;
+}
 return
 NS_OK
 ;
@@ -16494,8 +16576,10 @@ startContent
 =
 originalStartContent
 )
+{
 break
 ;
+}
 }
 return
 NS_OK
@@ -19256,6 +19340,7 @@ if
 (
 aForward
 )
+{
 frameTraversal
 -
 >
@@ -19263,7 +19348,9 @@ Next
 (
 )
 ;
+}
 else
+{
 frameTraversal
 -
 >
@@ -19271,6 +19358,7 @@ Prev
 (
 )
 ;
+}
 frame
 =
 static_cast
@@ -19741,9 +19829,11 @@ if
 !
 mapContent
 )
+{
 return
 nullptr
 ;
+}
 uint32_t
 count
 =
@@ -20959,8 +21049,10 @@ selectionNode
 =
 endSelectionNode
 )
+{
 break
 ;
+}
 testNode
 =
 selectionNode
@@ -21025,8 +21117,10 @@ if
 (
 selectionNode
 )
+{
 break
 ;
+}
 selectionNode
 =
 testNode
