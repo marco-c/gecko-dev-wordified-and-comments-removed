@@ -24972,11 +24972,8 @@ this
 bool
 {
 return
-GetPropTableFrames
+GetOverflowContainers
 (
-OverflowContainersProperty
-(
-)
 )
 |
 |
