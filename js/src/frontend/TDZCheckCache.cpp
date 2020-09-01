@@ -118,7 +118,8 @@ needsTDZCheck
 BytecodeEmitter
 *
 bce
-JSAtom
+const
+ParserAtom
 *
 name
 )
@@ -284,7 +285,8 @@ noteTDZCheck
 BytecodeEmitter
 *
 bce
-JSAtom
+const
+ParserAtom
 *
 name
 MaybeCheckTDZ

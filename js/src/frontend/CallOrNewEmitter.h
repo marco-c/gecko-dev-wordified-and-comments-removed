@@ -450,11 +450,9 @@ MOZ_MUST_USE
 bool
 emitNameCallee
 (
-Handle
-<
-JSAtom
+const
+ParserAtom
 *
->
 name
 )
 ;

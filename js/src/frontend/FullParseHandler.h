@@ -530,7 +530,8 @@ sourceKind_
 NameNodeType
 newName
 (
-PropertyName
+const
+ParserName
 *
 name
 const
@@ -593,7 +594,8 @@ expr
 NameNodeType
 newObjectLiteralPropertyName
 (
-JSAtom
+const
+ParserAtom
 *
 atom
 const
@@ -620,7 +622,8 @@ pos
 NameNodeType
 newPrivateName
 (
-JSAtom
+const
+ParserAtom
 *
 atom
 const
@@ -720,7 +723,8 @@ pos
 NameNodeType
 newStringLiteral
 (
-JSAtom
+const
+ParserAtom
 *
 atom
 const
@@ -747,7 +751,8 @@ pos
 NameNodeType
 newTemplateStringLiteral
 (
-JSAtom
+const
+ParserAtom
 *
 atom
 const
@@ -3839,7 +3844,8 @@ begin
 ContinueStatementType
 newContinueStatement
 (
-PropertyName
+const
+ParserName
 *
 label
 const
@@ -3862,7 +3868,8 @@ pos
 BreakStatementType
 newBreakStatement
 (
-PropertyName
+const
+ParserName
 *
 label
 const
@@ -3997,7 +4004,8 @@ body
 LabeledStatementType
 newLabeledStatement
 (
-PropertyName
+const
+ParserName
 *
 label
 Node
@@ -4114,7 +4122,8 @@ pos
 NameNodeType
 newPropertyName
 (
-PropertyName
+const
+ParserName
 *
 name
 const
@@ -4623,10 +4632,7 @@ pos
 LexicalScopeNodeType
 newLexicalScope
 (
-LexicalScope
-:
-:
-Data
+ParserLexicalScopeData
 *
 bindings
 Node
@@ -5931,7 +5937,8 @@ return
 false
 ;
 }
-PropertyName
+const
+ParserName
 *
 maybeDottedProperty
 (
@@ -5950,7 +5957,6 @@ PropertyAccessBase
 (
 )
 ?
-&
 pn
 -
 >
@@ -5968,7 +5974,8 @@ name
 nullptr
 ;
 }
-JSAtom
+const
+ParserAtom
 *
 isStringExprStatement
 (
@@ -6009,7 +6016,8 @@ UnaryNode
 ;
 if
 (
-JSAtom
+const
+ParserAtom
 *
 atom
 =
