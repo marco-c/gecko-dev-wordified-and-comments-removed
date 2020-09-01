@@ -94,9 +94,6 @@ bool
 aDistinctiveIdentifierRequired
 bool
 aPersistentStateRequired
-nsISerialEventTarget
-*
-aMainThread
 )
 :
 CDMProxy
@@ -105,7 +102,6 @@ aKeys
 aKeySystem
 aDistinctiveIdentifierRequired
 aPersistentStateRequired
-aMainThread
 )
 mCDM
 (

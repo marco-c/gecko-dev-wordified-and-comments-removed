@@ -565,9 +565,6 @@ CDMProxy
 >
 CreateCDMProxy
 (
-nsISerialEventTarget
-*
-aMainThread
 )
 ;
 already_AddRefed

@@ -2162,9 +2162,6 @@ MediaKeys
 :
 CreateCDMProxy
 (
-nsISerialEventTarget
-*
-aMainThread
 )
 {
 EME_LOG
@@ -2226,7 +2223,6 @@ MediaKeysRequirement
 :
 :
 Required
-aMainThread
 )
 ;
 }
@@ -2264,7 +2260,6 @@ MediaKeysRequirement
 :
 :
 Required
-aMainThread
 )
 ;
 }
@@ -2815,16 +2810,6 @@ mProxy
 =
 CreateCDMProxy
 (
-mDocument
--
->
-EventTargetFor
-(
-TaskCategory
-:
-:
-Other
-)
 )
 ;
 MOZ_ASSERT

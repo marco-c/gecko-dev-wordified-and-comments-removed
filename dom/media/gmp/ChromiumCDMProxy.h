@@ -82,9 +82,6 @@ bool
 aAllowDistinctiveIdentifier
 bool
 aAllowPersistentState
-nsISerialEventTarget
-*
-aMainThread
 )
 ;
 void
