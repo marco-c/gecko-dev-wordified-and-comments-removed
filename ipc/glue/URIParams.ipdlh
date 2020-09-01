@@ -267,6 +267,8 @@ HostObjectURIParams
 ;
 DefaultURIParams
 ;
+NestedAboutURIParams
+;
 }
 ;
 struct
@@ -289,6 +291,18 @@ simpleParams
 ;
 URIParams
 innerURI
+;
+}
+;
+struct
+NestedAboutURIParams
+{
+SimpleNestedURIParams
+nestedParams
+;
+URIParams
+?
+baseURI
 ;
 }
 ;
