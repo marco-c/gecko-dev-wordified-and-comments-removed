@@ -12643,9 +12643,9 @@ install_pip_package
 glean_sdk
 ~
 =
-31
+32
 .
-5
+3
 .
 0
 '
