@@ -4439,9 +4439,16 @@ public
 mozilla
 :
 :
+Result
+<
+mozilla
+:
+:
 BulkWriteHandle
 <
 T
+>
+nsresult
 >
 NS_FASTCALL
 BulkWrite
@@ -4452,9 +4459,6 @@ size_type
 aPrefixToPreserve
 bool
 aAllowShrinking
-nsresult
-&
-aRv
 )
 ;
 mozilla
