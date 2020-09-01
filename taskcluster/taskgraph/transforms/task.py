@@ -8379,7 +8379,9 @@ text_type
 Optional
 (
 '
-revision
+l10n
+-
+repo
 -
 url
 '
