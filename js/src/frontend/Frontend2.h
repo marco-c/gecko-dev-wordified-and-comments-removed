@@ -90,9 +90,6 @@ compileGlobalScript
 CompilationInfo
 &
 compilationInfo
-CompilationState
-&
-compilationState
 JS
 :
 :
@@ -120,9 +117,6 @@ compileGlobalScriptToStencil
 CompilationInfo
 &
 compilationInfo
-CompilationState
-&
-compilationState
 JS
 :
 :
