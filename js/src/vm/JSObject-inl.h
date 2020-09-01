@@ -192,10 +192,6 @@ const
 uint32_t
 slots
 =
-hasDynamicSlots
-(
-)
-?
 getSlotsHeader
 (
 )
@@ -204,8 +200,6 @@ getSlotsHeader
 capacity
 (
 )
-:
-0
 ;
 MOZ_ASSERT
 (
@@ -215,6 +209,17 @@ slots
 calculateDynamicSlots
 (
 )
+)
+;
+MOZ_ASSERT_IF
+(
+hasDynamicSlots
+(
+)
+slots
+!
+=
+0
 )
 ;
 return

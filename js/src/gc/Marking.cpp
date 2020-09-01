@@ -19518,6 +19518,17 @@ allocation
 ObjectSlots
 (
 count
+src
+-
+>
+getSlotsHeader
+(
+)
+-
+>
+dictionarySlotSpan
+(
+)
 )
 ;
 dst

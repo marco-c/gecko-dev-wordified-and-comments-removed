@@ -588,9 +588,8 @@ shape
 nobj
 -
 >
-initSlots
+initEmptyDynamicSlots
 (
-nullptr
 )
 ;
 nobj

@@ -2294,6 +2294,7 @@ allocation
 ObjectSlots
 (
 nDynamicSlots
+0
 )
 ;
 }

@@ -2482,7 +2482,7 @@ if
 obj
 -
 >
-setSlotSpan
+ensureSlotsForDictionaryObject
 (
 cx
 child
@@ -3130,6 +3130,14 @@ obj
 inDictionaryMode
 (
 )
+)
+;
+obj
+-
+>
+setDictionaryModeSlotSpan
+(
+span
 )
 ;
 root
@@ -4816,7 +4824,7 @@ MOZ_UNLIKELY
 obj
 -
 >
-setSlotSpan
+ensureSlotsForDictionaryObject
 (
 cx
 slot
