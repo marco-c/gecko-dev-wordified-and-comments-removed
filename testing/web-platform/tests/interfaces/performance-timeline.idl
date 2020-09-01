@@ -138,7 +138,7 @@ toJSON
 callback
 PerformanceObserverCallback
 =
-void
+undefined
 (
 PerformanceObserverEntryList
 entries
@@ -168,7 +168,7 @@ PerformanceObserverCallback
 callback
 )
 ;
-void
+undefined
 observe
 (
 optional
@@ -179,7 +179,7 @@ options
 }
 )
 ;
-void
+undefined
 disconnect
 (
 )
