@@ -381,14 +381,6 @@ nsPrintSettingsX
 )
 ;
 nsPrintSettingsX
-(
-const
-nsPrintSettingsX
-&
-src
-)
-;
-nsPrintSettingsX
 &
 operator
 =
