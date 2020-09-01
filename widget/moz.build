@@ -688,6 +688,11 @@ nsIWidgetListener
 h
 '
 '
+nsPaper
+.
+h
+'
+'
 nsPrinterListBase
 .
 h
