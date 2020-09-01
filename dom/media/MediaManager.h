@@ -1154,13 +1154,6 @@ bool
 aMute
 )
 ;
-void
-OnMicrophoneMute
-(
-bool
-aMute
-)
-;
 bool
 IsActivelyCapturingOrHasAPermission
 (
@@ -1500,11 +1493,6 @@ mPendingGUMRequest
 ;
 bool
 mCamerasMuted
-=
-false
-;
-bool
-mMicrophonesMuted
 =
 false
 ;
