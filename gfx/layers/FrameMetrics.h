@@ -1095,7 +1095,9 @@ GetVisualScrollOffset
 =
 aContentFrameMetrics
 .
-mBaseScrollOffset
+GetVisualScrollOffset
+(
+)
 ;
 }
 void
