@@ -3094,6 +3094,12 @@ case
 JSOp
 :
 :
+SpreadCall
+:
+case
+JSOp
+:
+:
 ToNumeric
 :
 case
@@ -4026,12 +4032,6 @@ JSOp
 :
 :
 FunWithProto
-:
-case
-JSOp
-:
-:
-SpreadCall
 :
 case
 JSOp
