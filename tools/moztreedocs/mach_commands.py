@@ -633,6 +633,31 @@ file
     
 )
     
+CommandArgument
+(
+        
+"
+-
+-
+verbose
+"
+action
+=
+"
+store_true
+"
+help
+=
+"
+Run
+Sphinx
+in
+verbose
+mode
+"
+    
+)
+    
 def
 build_docs
 (
@@ -678,6 +703,10 @@ jobs
 None
         
 write_url
+=
+None
+        
+verbose
 =
 None
     
@@ -877,6 +906,9 @@ fmt
 jobs
 =
 jobs
+verbose
+=
+verbose
 )
         
 if
@@ -1227,6 +1259,7 @@ run_sphinx
 =
 partial
 (
+                
 self
 .
 _run_sphinx
@@ -1238,6 +1271,10 @@ fmt
 jobs
 =
 jobs
+verbose
+=
+verbose
+            
 )
             
 server
@@ -1457,6 +1494,7 @@ output
 def
 _run_sphinx
 (
+        
 self
 docdir
 savedir
@@ -1471,6 +1509,10 @@ html
 jobs
 =
 None
+verbose
+=
+None
+    
 )
 :
         
@@ -1537,6 +1579,45 @@ j
 "
 jobs
 ]
+)
+        
+if
+verbose
+:
+            
+args
+.
+extend
+(
+[
+"
+-
+v
+"
+"
+-
+v
+"
+"
+-
+T
+"
+]
+)
+        
+print
+(
+"
+Run
+sphinx
+with
+:
+"
+)
+        
+print
+(
+args
 )
         
 return
