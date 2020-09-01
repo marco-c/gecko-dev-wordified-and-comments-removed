@@ -335,19 +335,15 @@ switch_to_frame
         
 self
 .
-assertRaises
-(
-JavascriptException
-self
-.
 marionette
 .
-execute_async_script
-"
-foo
+find_element
 (
-)
-;
+By
+.
+ID
+"
+testBox
 "
 )
         
