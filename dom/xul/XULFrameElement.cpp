@@ -765,6 +765,8 @@ bool
 aNullParent
 )
 {
+if
+(
 RefPtr
 <
 nsFrameLoader
@@ -774,10 +776,6 @@ frameLoader
 GetFrameLoader
 (
 )
-;
-if
-(
-frameLoader
 )
 {
 frameLoader

@@ -54,6 +54,9 @@ nsIWindowProvider
 :
 nsISupports
 {
+[
+noscript
+]
 BrowsingContext
 provideWindow
 (

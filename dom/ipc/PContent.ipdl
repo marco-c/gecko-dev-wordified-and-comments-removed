@@ -4004,6 +4004,10 @@ bool
 aCalledFromJS
 bool
 aWidthSpecified
+bool
+aForPrinting
+bool
+aForPrintPreview
 nsIURI
 aURIToLoad
 nsCString

@@ -67,6 +67,16 @@ mIsRemote
 =
 false
 ;
+bool
+mIsForPrinting
+=
+false
+;
+bool
+mIsForPrintPreview
+=
+false
+;
 RefPtr
 <
 mozilla

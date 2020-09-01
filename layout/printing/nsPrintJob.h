@@ -528,6 +528,9 @@ aIsForPrinting
 bool
 &
 aDoNotify
+Document
+*
+aDoc
 )
 ;
 void
@@ -589,6 +592,9 @@ Document
 *
 FindFocusedDocument
 (
+Document
+*
+aDoc
 )
 const
 ;
