@@ -246,11 +246,6 @@ category
 '
 devenv
 '
-virtualenv_name
-=
-"
-docs
-"
              
 description
 =
@@ -656,16 +651,24 @@ JSDOC_NOT_FOUND
         
 self
 .
-activate_virtualenv
+activate_pipenv
 (
-)
-        
+            
+os
+.
+path
+.
+dirname
+(
 self
 .
 virtualenv_manager
 .
-install_pip_requirements
-(
+virtualenv_root
+)
+            
+pipfile
+=
 os
 .
 path
@@ -674,9 +677,7 @@ join
 (
 here
 '
-requirements
-.
-txt
+Pipfile
 '
 )
 )
