@@ -25,13 +25,6 @@ h
 #
 include
 "
-PlatformDecoderModule
-.
-h
-"
-#
-include
-"
 SamplesWaitingForKey
 .
 h
@@ -150,7 +143,7 @@ EMEMediaDataDecoderProxy
 (
 already_AddRefed
 <
-AbstractThread
+nsISerialEventTarget
 >
 aProxyThread
 CDMProxy
@@ -210,9 +203,9 @@ override
 ;
 private
 :
-RefPtr
+nsCOMPtr
 <
-AbstractThread
+nsISerialEventTarget
 >
 mThread
 ;

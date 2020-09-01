@@ -435,10 +435,7 @@ aAllowPersistentState
 >
 Then
 (
-AbstractThread
-:
-:
-GetCurrent
+GetCurrentSerialEventTarget
 (
 )
 __func__

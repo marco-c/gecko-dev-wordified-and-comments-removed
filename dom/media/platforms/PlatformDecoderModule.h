@@ -10,6 +10,11 @@ define
 PlatformDecoderModule_h_
 #
 include
+<
+queue
+>
+#
+include
 "
 DecoderDoctorLogger
 .
@@ -117,11 +122,6 @@ nsTArray
 .
 h
 "
-#
-include
-<
-queue
->
 namespace
 mozilla
 {
@@ -1128,6 +1128,7 @@ bool
 CanDecodeBatch
 (
 )
+const
 {
 return
 false

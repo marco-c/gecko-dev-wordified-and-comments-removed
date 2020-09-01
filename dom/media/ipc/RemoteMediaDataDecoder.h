@@ -86,6 +86,7 @@ bool
 CanDecodeBatch
 (
 )
+const
 override
 {
 return

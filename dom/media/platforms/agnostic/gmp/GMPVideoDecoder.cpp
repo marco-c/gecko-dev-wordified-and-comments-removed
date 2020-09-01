@@ -143,11 +143,6 @@ return
 gmpThread
 -
 >
-EventTarget
-(
-)
--
->
 IsOnCurrentThread
 (
 )

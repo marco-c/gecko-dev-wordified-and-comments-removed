@@ -1112,10 +1112,7 @@ Shutdown
 >
 Then
 (
-AbstractThread
-:
-:
-GetCurrent
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -1318,10 +1315,7 @@ Alloc
 >
 Then
 (
-AbstractThread
-:
-:
-GetCurrent
+GetCurrentSerialEventTarget
 (
 )
 __func__

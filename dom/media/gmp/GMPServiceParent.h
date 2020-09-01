@@ -490,9 +490,9 @@ aOld
 void
 InitializePlugins
 (
-AbstractThread
+nsISerialEventTarget
 *
-aAbstractGMPThread
+GMPThread
 )
 override
 ;

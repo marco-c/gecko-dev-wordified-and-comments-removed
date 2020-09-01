@@ -92,7 +92,7 @@ mCrashHelper
 )
 mGMPThread
 (
-GetGMPAbstractThread
+GetGMPThread
 (
 )
 )
