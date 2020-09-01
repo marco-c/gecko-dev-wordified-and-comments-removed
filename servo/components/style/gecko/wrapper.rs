@@ -11683,6 +11683,11 @@ MozModalDialog
 NonTSPseudoClass
 :
 :
+MozTopmostModalDialog
+|
+NonTSPseudoClass
+:
+:
 Active
 |
 NonTSPseudoClass
