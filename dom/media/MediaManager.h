@@ -1503,6 +1503,11 @@ mCamerasMuted
 =
 false
 ;
+bool
+mMicrophonesMuted
+=
+false
+;
 const
 RefPtr
 <
