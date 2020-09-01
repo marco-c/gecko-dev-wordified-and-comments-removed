@@ -292,7 +292,7 @@ readonly
 attribute
 Promise
 <
-void
+undefined
 >
 closed
 ;
@@ -311,7 +311,7 @@ onmessage
 ;
 Promise
 <
-void
+undefined
 >
 generateRequest
 (
@@ -333,7 +333,7 @@ sessionId
 ;
 Promise
 <
-void
+undefined
 >
 update
 (
@@ -343,7 +343,7 @@ response
 ;
 Promise
 <
-void
+undefined
 >
 close
 (
@@ -351,7 +351,7 @@ close
 ;
 Promise
 <
-void
+undefined
 >
 remove
 (
@@ -532,7 +532,7 @@ SecureContext
 ]
 Promise
 <
-void
+undefined
 >
 setMediaKeys
 (
