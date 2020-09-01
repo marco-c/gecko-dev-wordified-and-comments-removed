@@ -6319,6 +6319,11 @@ aInclusiveDescendantOfRightBlockElement
 )
 {
 }
+EditActionResult
+Prepare
+(
+)
+;
 [
 [
 nodiscard
