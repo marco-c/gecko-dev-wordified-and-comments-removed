@@ -558,6 +558,13 @@ engine
 "
 webextension
 "
+{
+url
+:
+submission
+.
+uri
+}
 )
 ;
 }

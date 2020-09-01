@@ -2274,6 +2274,9 @@ selectedOneOff
 .
 engine
 event
+{
+url
+}
 )
 ;
 UrlbarUtils
@@ -3363,6 +3366,7 @@ result
 payload
 .
 keyword
+url
 }
 ;
 const
