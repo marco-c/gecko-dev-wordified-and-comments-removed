@@ -4571,6 +4571,13 @@ SessionHistoryInfo
 info
 )
 ;
+async
+RemoveDynEntriesFromActiveSessionHistoryEntry
+(
+MaybeDiscardedBrowsingContext
+aContext
+)
+;
 both
 :
 async

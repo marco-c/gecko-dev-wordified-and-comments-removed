@@ -2928,6 +2928,11 @@ SessionHistoryInfo
 aInfo
 )
 ;
+void
+RemoveDynEntriesFromActiveSessionHistoryEntry
+(
+)
+;
 protected
 :
 virtual
