@@ -286,12 +286,6 @@ nsIPrintSettings
 _retval
 )
 ;
-nsCOMPtr
-<
-nsIPrintSettings
->
-mGlobalPrintSettings
-;
 nsCString
 mPrefName
 ;
