@@ -6978,6 +6978,9 @@ EndFrame
 (
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 !
@@ -6998,6 +7001,8 @@ mWindowRTCopy
 nullptr
 ;
 }
+#
+endif
 if
 (
 !
