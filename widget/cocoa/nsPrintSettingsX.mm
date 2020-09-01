@@ -506,7 +506,7 @@ retain
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsPrintSettingsX
 :
 :
@@ -629,7 +629,7 @@ NS_OK
 NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPrintSettingsX
 :
 :
