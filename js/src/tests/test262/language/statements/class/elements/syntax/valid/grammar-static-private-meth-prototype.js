@@ -1,0 +1,17 @@
+class
+C
+{
+static
+#
+prototype
+(
+)
+{
+}
+}
+reportCompare
+(
+0
+0
+)
+;

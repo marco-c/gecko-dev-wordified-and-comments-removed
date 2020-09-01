@@ -1,0 +1,15 @@
+DONOTEVALUATE
+(
+)
+;
+class
+C
+{
+get
+#
+m
+(
+)
+{
+}
+}
