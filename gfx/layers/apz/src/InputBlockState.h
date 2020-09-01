@@ -1274,6 +1274,12 @@ Type
 )
 override
 ;
+TimeDuration
+GetTimeSinceBlockStart
+(
+)
+const
+;
 private
 :
 nsTArray
@@ -1300,6 +1306,9 @@ mSlopOrigin
 TouchCounter
 &
 mTouchCounter
+;
+TimeStamp
+mStartTime
 ;
 }
 ;
