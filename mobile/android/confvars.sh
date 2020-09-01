@@ -298,17 +298,6 @@ MOZ_NO_SMART_CARDS
 MOZ_RAW
 =
 1
-#
-use
-custom
-widget
-for
-html
-:
-select
-MOZ_USE_NATIVE_POPUP_WINDOWS
-=
-1
 MOZ_APP_ID
 =
 {
