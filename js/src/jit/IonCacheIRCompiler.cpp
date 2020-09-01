@@ -13925,12 +13925,8 @@ bool
 IonCacheIRCompiler
 :
 :
-emitGuardFunApply
+emitGuardFunApplyArray
 (
-Int32OperandId
-argcId
-CallFlags
-flags
 )
 {
 MOZ_CRASH
