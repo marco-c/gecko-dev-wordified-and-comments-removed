@@ -713,7 +713,6 @@ next
 len
 ;
 }
-}
 spew
 -
 >
@@ -721,6 +720,7 @@ endList
 (
 )
 ;
+}
 return
 true
 ;
