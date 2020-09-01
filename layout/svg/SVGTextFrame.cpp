@@ -13938,7 +13938,7 @@ aContent
 }
 already_AddRefed
 <
-nsISVGPoint
+DOMSVGPoint
 >
 SVGTextFrame
 :
@@ -14343,7 +14343,7 @@ advance
 }
 already_AddRefed
 <
-nsISVGPoint
+DOMSVGPoint
 >
 SVGTextFrame
 :

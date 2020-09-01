@@ -127,7 +127,7 @@ struct
 DOMPointInit
 ;
 class
-nsISVGPoint
+DOMSVGPoint
 ;
 class
 SVGRect
@@ -841,7 +841,7 @@ already_AddRefed
 dom
 :
 :
-nsISVGPoint
+DOMSVGPoint
 >
 GetStartPositionOfChar
 (
@@ -860,7 +860,7 @@ already_AddRefed
 dom
 :
 :
-nsISVGPoint
+DOMSVGPoint
 >
 GetEndPositionOfChar
 (

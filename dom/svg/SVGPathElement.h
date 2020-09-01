@@ -73,9 +73,6 @@ mozilla
 namespace
 dom
 {
-class
-nsISVGPoint
-;
 using
 SVGPathElementBase
 =

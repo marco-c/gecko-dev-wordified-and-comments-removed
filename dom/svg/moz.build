@@ -575,11 +575,6 @@ DOMSVGTransformList
 cpp
 '
 '
-nsISVGPoint
-.
-cpp
-'
-'
 SVGAElement
 .
 cpp

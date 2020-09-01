@@ -49,7 +49,7 @@ struct
 DOMPointInit
 ;
 class
-nsISVGPoint
+DOMSVGPoint
 ;
 class
 SVGRect
@@ -137,7 +137,7 @@ rv
 MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
-nsISVGPoint
+DOMSVGPoint
 >
 GetStartPositionOfChar
 (
@@ -151,7 +151,7 @@ rv
 MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
-nsISVGPoint
+DOMSVGPoint
 >
 GetEndPositionOfChar
 (
