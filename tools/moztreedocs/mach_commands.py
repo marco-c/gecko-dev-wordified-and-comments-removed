@@ -2119,6 +2119,7 @@ prefix
 )
             
 if
+(
 version
 and
 prefix
@@ -2127,6 +2128,12 @@ endswith
 (
 version
 )
+)
+or
+prefix
+=
+=
+unique_id
 :
                 
 continue
