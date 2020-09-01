@@ -331,7 +331,7 @@ mColGap
 NS_UNCONSTRAINEDSIZE
 ;
 nscoord
-mColMaxBSize
+mColBSize
 =
 NS_UNCONSTRAINEDSIZE
 ;
