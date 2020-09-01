@@ -585,6 +585,9 @@ SVCB
 >
 &
 aRecords
+bool
+&
+aRecordsAllExcluded
 )
 ;
 bool

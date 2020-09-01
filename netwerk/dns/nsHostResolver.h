@@ -1239,6 +1239,11 @@ mozilla
 TimeStamp
 mStart
 ;
+bool
+mAllRecordsExcluded
+=
+false
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
