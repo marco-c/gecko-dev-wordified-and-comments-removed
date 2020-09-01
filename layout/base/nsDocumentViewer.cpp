@@ -6697,7 +6697,7 @@ if
 printJob
 -
 >
-IsDoingPrintPreview
+CreatedForPrintPreview
 (
 )
 )
@@ -13584,7 +13584,7 @@ mPrintJob
 mPrintJob
 -
 >
-IsDoingPrintPreview
+CreatedForPrintPreview
 (
 )
 :
@@ -13618,7 +13618,7 @@ mPrintJob
 mPrintJob
 -
 >
-IsDoingPrintPreview
+CreatedForPrintPreview
 (
 )
 :
@@ -14274,7 +14274,7 @@ return
 mPrintJob
 -
 >
-GetIsPrintPreview
+CreatedForPrintPreview
 (
 )
 ;

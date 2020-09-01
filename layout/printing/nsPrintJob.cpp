@@ -3329,7 +3329,7 @@ else
 {
 if
 (
-mIsDoingPrintPreview
+mCreatedForPrintPreview
 )
 {
 Telemetry
@@ -3398,7 +3398,7 @@ NS_ERROR_ABORT
 {
 if
 (
-mIsDoingPrintPreview
+mCreatedForPrintPreview
 )
 {
 Telemetry
@@ -6785,7 +6785,7 @@ FirePrintPreviewUpdateEvent
 {
 if
 (
-mIsDoingPrintPreview
+mCreatedForPrintPreview
 &
 &
 !
@@ -11379,7 +11379,7 @@ true
 if
 (
 !
-mIsDoingPrintPreview
+mCreatedForPrintPreview
 &
 &
 mDocViewerPrint
@@ -11421,7 +11421,7 @@ bool
 aIsPrintPreview
 )
 {
-mIsDoingPrintPreview
+mCreatedForPrintPreview
 =
 aIsPrintPreview
 ;
