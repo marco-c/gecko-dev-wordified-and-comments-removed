@@ -150,7 +150,7 @@ function
 setupPlayer
 (
 id
-originatingBrowser
+wgp
 )
 {
 Player
@@ -158,7 +158,7 @@ Player
 init
 (
 id
-originatingBrowser
+wgp
 )
 ;
 }
@@ -251,7 +251,7 @@ null
 init
 (
 id
-originatingBrowser
+wgp
 )
 {
 this
@@ -312,7 +312,9 @@ setAttribute
 "
 remoteType
 "
-originatingBrowser
+wgp
+.
+domProcess
 .
 remoteType
 )
@@ -324,7 +326,7 @@ setAttribute
 "
 initialBrowsingContextGroupId
 "
-originatingBrowser
+wgp
 .
 browsingContext
 .
