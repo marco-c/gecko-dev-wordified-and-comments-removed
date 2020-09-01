@@ -90,6 +90,13 @@ from
 .
 util
 .
+backstop
+import
+is_backstop
+from
+.
+util
+.
 bugbug
 import
 push_schedules
@@ -2462,6 +2469,18 @@ parameters
 (
 graph_config
                                                                       
+parameters
+)
+    
+parameters
+[
+'
+backstop
+'
+]
+=
+is_backstop
+(
 parameters
 )
     
