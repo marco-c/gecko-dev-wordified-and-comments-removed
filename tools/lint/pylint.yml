@@ -36,6 +36,13 @@ base
 -
 mozglue
 /
+-
+toolkit
+/
+components
+/
+telemetry
+/
 exclude
 :
 -
