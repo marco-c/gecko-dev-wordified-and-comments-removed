@@ -38,7 +38,9 @@ toctree
 maxdepth
 :
 1
-Fission
+ipc
+/
+index
 navigation
 /
 index
