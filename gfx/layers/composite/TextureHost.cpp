@@ -4024,6 +4024,19 @@ bool
 aPreferCompositorSurface
 )
 {
+bool
+useExternalSurface
+=
+gfx
+:
+:
+gfxVars
+:
+:
+UseSoftwareWebRender
+(
+)
+;
 if
 (
 GetFormat
@@ -4092,6 +4105,7 @@ ColorF
 0f
 }
 aPreferCompositorSurface
+useExternalSurface
 )
 ;
 }
@@ -4174,6 +4188,7 @@ colorRange
 )
 aFilter
 aPreferCompositorSurface
+useExternalSurface
 )
 ;
 }

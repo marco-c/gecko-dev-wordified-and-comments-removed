@@ -46,6 +46,16 @@ GetPlaneCount
 )
 override
 ;
+gfx
+:
+:
+YUVColorSpace
+GetYUVColorSpace
+(
+)
+const
+override
+;
 bool
 MapPlane
 (
