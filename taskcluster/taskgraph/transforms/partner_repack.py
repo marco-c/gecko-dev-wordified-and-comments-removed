@@ -56,6 +56,8 @@ import
     
 check_if_partners_enabled
     
+get_partner_config_by_kind
+    
 get_partner_url_config
     
 get_repack_ids_by_platform
@@ -66,6 +68,12 @@ transforms
 =
 TransformSequence
 (
+)
+transforms
+.
+add
+(
+check_if_partners_enabled
 )
 transforms
 .
@@ -433,33 +441,26 @@ set
 (
 )
     
-for
-partner_class
-in
+partner_config
+=
+get_partner_config_by_kind
+(
+config
 config
 .
-params
-[
-'
-release_partner_config
-'
-]
+kind
+)
+    
+for
+partner
+in
+partner_config
 .
 values
 (
 )
 :
         
-for
-partner
-in
-partner_class
-.
-values
-(
-)
-:
-            
 for
 sub_partner
 in
@@ -469,7 +470,7 @@ values
 (
 )
 :
-                
+            
 all_locales
 .
 update
@@ -831,9 +832,3 @@ release_type
         
 yield
 task
-transforms
-.
-add
-(
-check_if_partners_enabled
-)
