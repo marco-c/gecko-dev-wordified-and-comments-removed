@@ -90,8 +90,8 @@ aNode
 uint32_t
 aIndex
 const
-char16_t
-*
+nsAString
+&
 aName
 float
 aDefaultValue
@@ -1099,8 +1099,7 @@ InputNode
 mInputNodes
 ;
 const
-char16_t
-*
+nsString
 mName
 ;
 RefPtr

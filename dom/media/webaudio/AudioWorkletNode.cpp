@@ -3465,10 +3465,6 @@ audioParamIndex
 paramEntry
 .
 mName
-.
-get
-(
-)
 paramEntry
 .
 mDefaultValue

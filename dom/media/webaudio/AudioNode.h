@@ -909,8 +909,8 @@ aParam
 uint32_t
 aIndex
 const
-char16_t
-*
+nsAString
+&
 aName
 float
 aDefaultValue
