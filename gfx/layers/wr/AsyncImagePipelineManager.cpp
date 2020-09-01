@@ -1399,7 +1399,7 @@ aMaybeFastTxn
 wrTexture
 -
 >
-MaybeNofityForUse
+MaybeNotifyForUse
 (
 aMaybeFastTxn
 )

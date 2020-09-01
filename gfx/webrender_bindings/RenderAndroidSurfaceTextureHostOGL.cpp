@@ -680,7 +680,7 @@ void
 RenderAndroidSurfaceTextureHostOGL
 :
 :
-NofityForUse
+NotifyForUse
 (
 )
 {

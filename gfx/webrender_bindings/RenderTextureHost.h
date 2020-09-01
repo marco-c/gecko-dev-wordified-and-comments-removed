@@ -202,7 +202,7 @@ PrepareForUse
 }
 virtual
 void
-NofityForUse
+NotifyForUse
 (
 )
 {
