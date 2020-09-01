@@ -3451,6 +3451,11 @@ return
 mBFCacheEntry
 ;
 }
+bool
+RemoveFromBFCacheSync
+(
+)
+;
 Document
 *
 GetInProcessParentDocument

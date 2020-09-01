@@ -1106,6 +1106,12 @@ mIsDiscarded
 ;
 }
 bool
+AncestorsAreCurrent
+(
+)
+const
+;
+bool
 Windowless
 (
 )
@@ -1267,6 +1273,11 @@ InternalLoad
 nsDocShellLoadState
 *
 aLoadState
+)
+;
+bool
+RemoveRootFromBFCacheSync
+(
 )
 ;
 nsresult

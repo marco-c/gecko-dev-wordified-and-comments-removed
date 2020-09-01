@@ -1092,6 +1092,11 @@ return
 mWindowGlobalChild
 ;
 }
+bool
+RemoveFromBFCacheSync
+(
+)
+;
 virtual
 bool
 IsSuspended
