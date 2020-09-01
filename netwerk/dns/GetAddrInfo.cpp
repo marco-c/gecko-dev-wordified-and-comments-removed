@@ -811,7 +811,7 @@ ai
 >
 mAddresses
 .
-isEmpty
+IsEmpty
 (
 )
 )
@@ -1045,12 +1045,8 @@ ai
 >
 AddAddress
 (
-new
-NetAddrElement
-(
 &
 ip
-)
 )
 ;
 }
