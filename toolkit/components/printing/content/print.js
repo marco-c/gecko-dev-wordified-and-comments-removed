@@ -1059,7 +1059,7 @@ if
 name
 =
 =
-defaultPrinter
+defaultPrinterName
 )
 {
 defaultPrinter
