@@ -998,6 +998,12 @@ aEvent
 true
 )
 ;
+mExitFrom
+=
+aEvent
+.
+mExitFrom
+;
 mIgnoreRootScrollFrame
 =
 aEvent

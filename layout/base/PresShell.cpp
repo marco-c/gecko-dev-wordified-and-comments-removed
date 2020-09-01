@@ -35943,6 +35943,15 @@ mMessage
 =
 =
 eContextMenu
+|
+|
+aGUIEvent
+-
+>
+mMessage
+=
+=
+eMouseExitFromWidget
 )
 )
 {
