@@ -190,14 +190,14 @@ attribute
 CSSRuleList
 cssRules
 ;
-void
+undefined
 appendRule
 (
 CSSOMString
 rule
 )
 ;
-void
+undefined
 deleteRule
 (
 CSSOMString
