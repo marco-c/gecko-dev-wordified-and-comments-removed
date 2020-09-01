@@ -5808,6 +5808,8 @@ __init__
 self
 context
 virtualenv_name
+=
+None
 )
 :
         
