@@ -95,6 +95,8 @@ autocomplete
 item
 |
 svg
+|
+ua
 )
 \
 .
