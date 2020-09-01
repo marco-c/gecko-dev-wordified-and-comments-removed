@@ -37568,11 +37568,5 @@ image_rendering
 )
 ;
 }
-compositor
-.
-start_compositing
-(
-)
-;
 }
 }
