@@ -1444,7 +1444,7 @@ FunctionIndex
 (
 compilationInfo_
 .
-funcData
+scriptData
 .
 length
 (
@@ -1466,7 +1466,7 @@ index
 CompilationInfo
 :
 :
-TopLevelFunctionIndex
+TopLevelIndex
 )
 ;
 if
@@ -1474,7 +1474,7 @@ if
 !
 compilationInfo_
 .
-funcData
+scriptData
 .
 emplaceBack
 (
@@ -52994,7 +52994,7 @@ empty
 return
 RewindToken
 {
-funcData
+scriptData
 .
 length
 (
@@ -53043,11 +53043,11 @@ i
 =
 pos
 .
-funcDataLength
+scriptDataLength
 ;
 i
 <
-funcData
+scriptData
 .
 length
 (
@@ -53084,13 +53084,13 @@ asmJSCount
 )
 ;
 }
-funcData
+scriptData
 .
 shrinkTo
 (
 pos
 .
-funcDataLength
+scriptDataLength
 )
 ;
 }
