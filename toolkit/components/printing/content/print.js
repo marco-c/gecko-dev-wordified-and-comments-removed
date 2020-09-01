@@ -740,6 +740,13 @@ remoteType
 sourceBrowsingContext
 .
 currentRemoteType
+userContextId
+:
+sourceBrowsingContext
+.
+originAttributes
+.
+userContextId
 initialBrowsingContextGroupId
 :
 sourceBrowsingContext

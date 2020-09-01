@@ -16462,6 +16462,17 @@ group
 .
 id
 ;
+let
+userContextId
+=
+browser
+.
+browsingContext
+.
+originAttributes
+.
+userContextId
+;
 return
 gBrowser
 .
@@ -16478,6 +16489,7 @@ inBackground
 true
 preferredRemoteType
 initialBrowsingContextGroupId
+userContextId
 triggeringPrincipal
 :
 Services
