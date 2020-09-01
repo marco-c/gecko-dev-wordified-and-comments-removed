@@ -1751,6 +1751,14 @@ usp10
 oleaut32
 '
 ]
+if
+CONFIG
+[
+'
+COMPILE_ENVIRONMENT
+'
+]
+:
 SOURCES
 +
 =
