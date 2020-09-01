@@ -755,6 +755,11 @@ CompilationStencil
 Vector
 <
 RegExpStencil
+0
+js
+:
+:
+SystemAllocPolicy
 >
 regExpData
 ;
@@ -810,10 +815,6 @@ JSContext
 cx
 )
 :
-regExpData
-(
-cx
-)
 bigIntData
 (
 cx
