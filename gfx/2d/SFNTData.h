@@ -22,13 +22,6 @@ Vector
 .
 h
 "
-#
-include
-"
-u16string
-.
-h
-"
 namespace
 mozilla
 {
