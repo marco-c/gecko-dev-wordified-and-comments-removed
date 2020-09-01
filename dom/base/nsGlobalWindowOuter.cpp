@@ -11117,6 +11117,16 @@ GetBrowsingContext
 (
 )
 ;
+if
+(
+bc
+-
+>
+IsOwnedByProcess
+(
+)
+)
+{
 MOZ_ALWAYS_SUCCEEDS
 (
 bc
@@ -11133,6 +11143,7 @@ WindowID
 )
 )
 ;
+}
 if
 (
 doomCurrentInner

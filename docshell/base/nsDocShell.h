@@ -1340,6 +1340,15 @@ mWillChangeProcess
 true
 ;
 }
+bool
+WillChangeProcess
+(
+)
+{
+return
+mWillChangeProcess
+;
+}
 nsresult
 CreateContentViewerForActor
 (

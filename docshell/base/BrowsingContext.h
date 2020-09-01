@@ -926,14 +926,6 @@ GetLog
 )
 ;
 static
-void
-CleanupContexts
-(
-uint64_t
-aProcessId
-)
-;
-static
 already_AddRefed
 <
 BrowsingContext
@@ -1074,6 +1066,12 @@ return
 mIsInProcess
 ;
 }
+bool
+IsOwnedByProcess
+(
+)
+const
+;
 bool
 CanHaveRemoteOuterProxies
 (
