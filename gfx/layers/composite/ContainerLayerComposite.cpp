@@ -156,6 +156,17 @@ mozilla
 /
 layers
 /
+CompositorBridgeParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 CompositorTypes
 .
 h
