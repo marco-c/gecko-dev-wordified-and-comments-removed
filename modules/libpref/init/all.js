@@ -7662,16 +7662,6 @@ pref
 "
 print
 .
-show_print_progress
-"
-true
-)
-;
-pref
-(
-"
-print
-.
 save_print_settings
 "
 true
