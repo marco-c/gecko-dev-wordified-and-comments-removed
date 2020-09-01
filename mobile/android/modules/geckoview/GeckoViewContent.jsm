@@ -688,13 +688,8 @@ this
 .
 actor
 .
-sendAsyncMessage
+restoreState
 (
-"
-GeckoView
-:
-RestoreState
-"
 aData
 )
 ;

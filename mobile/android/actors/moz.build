@@ -99,6 +99,11 @@ GeckoViewContentChild
 jsm
 '
 '
+GeckoViewContentParent
+.
+jsm
+'
+'
 LoadURIDelegateChild
 .
 jsm
