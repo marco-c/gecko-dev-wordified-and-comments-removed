@@ -415,11 +415,9 @@ enclosingScope
 =
 nullptr
 ;
+explicit
 CompilationInput
 (
-JSContext
-*
-cx
 const
 JS
 :
@@ -1405,7 +1403,6 @@ cx
 )
 input
 (
-cx
 options
 )
 stencil
