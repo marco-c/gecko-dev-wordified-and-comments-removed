@@ -60,6 +60,14 @@ web
 api
 /
 )
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 partial
 namespace
 WebAssembly
