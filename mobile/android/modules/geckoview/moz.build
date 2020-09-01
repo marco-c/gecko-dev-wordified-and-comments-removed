@@ -73,6 +73,11 @@ GeckoViewMedia
 jsm
 '
 '
+GeckoViewMediaControl
+.
+jsm
+'
+'
 GeckoViewModule
 .
 jsm
