@@ -159,6 +159,16 @@ python
 /
 which
 "
+    
+"
+toolkit
+/
+components
+/
+glean
+/
+sphinx
+"
 )
 sys
 .
@@ -270,6 +280,10 @@ sphinx_copybutton
     
 "
 sphinx_markdown_tables
+"
+    
+"
+glean
 "
 ]
 js_source_path
