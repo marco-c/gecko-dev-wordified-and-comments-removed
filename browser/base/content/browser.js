@@ -19272,7 +19272,14 @@ csp
 )
 ;
 return
+{
 engine
+url
+:
+submission
+.
+uri
+}
 ;
 }
 async
@@ -19285,7 +19292,10 @@ csp
 )
 {
 let
+{
 engine
+url
+}
 =
 await
 BrowserSearch
@@ -19341,6 +19351,9 @@ engine
 "
 contextmenu
 "
+{
+url
+}
 )
 ;
 }
@@ -19355,7 +19368,10 @@ csp
 )
 {
 let
+{
 engine
+url
+}
 =
 await
 BrowserSearch
@@ -19387,6 +19403,9 @@ engine
 "
 system
 "
+{
+url
+}
 )
 ;
 }
