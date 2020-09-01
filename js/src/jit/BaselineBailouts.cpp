@@ -9462,6 +9462,12 @@ BailoutKind
 :
 FunctionKindGuard
 :
+case
+BailoutKind
+:
+:
+PackedArrayGuard
+:
 break
 ;
 case
