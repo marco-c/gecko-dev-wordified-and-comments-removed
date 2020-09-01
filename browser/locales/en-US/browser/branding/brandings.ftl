@@ -216,3 +216,14 @@ name
 =
 Firefox
 Screenshots
+-
+mozilla
+-
+vpn
+-
+brand
+-
+name
+=
+Mozilla
+VPN
