@@ -18106,6 +18106,10 @@ windows
 "
 )
 ;
+mCamerasMuted
+=
+aMute
+;
 for
 (
 auto
@@ -18188,6 +18192,14 @@ added
 return
 ;
 }
+aListener
+-
+>
+MuteOrUnmuteCameras
+(
+mCamerasMuted
+)
+;
 GetActiveWindows
 (
 )
