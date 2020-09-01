@@ -340,6 +340,13 @@ defined
 (
 __powerpc__
 )
+&
+&
+!
+defined
+(
+XP_MACOSX
+)
 #
 define
 MALLOC_STATIC_PAGESIZE
