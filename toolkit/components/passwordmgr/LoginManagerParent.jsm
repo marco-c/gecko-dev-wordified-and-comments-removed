@@ -1334,6 +1334,8 @@ this
 .
 browsingContext
 .
+top
+.
 currentWindowGlobal
 .
 getActor
