@@ -1942,6 +1942,11 @@ this
 _window
 this
 .
+_toolbox
+.
+targetList
+this
+.
 _walker
 this
 .
