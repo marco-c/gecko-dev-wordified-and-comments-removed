@@ -43,6 +43,14 @@ appendChild
 browser
 )
 ;
+await
+BrowserTestUtils
+.
+browserLoaded
+(
+browser
+)
+;
 info
 (
 "
