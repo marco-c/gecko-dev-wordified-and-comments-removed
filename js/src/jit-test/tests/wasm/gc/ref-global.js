@@ -30,7 +30,7 @@ g1
 mut
 (
 ref
-opt
+null
 point
 )
 )
@@ -49,7 +49,7 @@ g2
 mut
 (
 ref
-opt
+null
 point
 )
 )
@@ -66,7 +66,7 @@ global
 g3
 (
 ref
-opt
+null
 point
 )
 (
@@ -259,7 +259,7 @@ glob
 mut
 (
 ref
-opt
+null
 point
 )
 )
@@ -713,7 +713,7 @@ global
 mut
 (
 ref
-opt
+null
 box
 )
 )
@@ -781,7 +781,7 @@ box
 mut
 (
 ref
-opt
+null
 box
 )
 )
