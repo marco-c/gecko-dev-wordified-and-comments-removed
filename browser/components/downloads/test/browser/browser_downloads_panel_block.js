@@ -35,6 +35,11 @@ Downloads
 Error
 .
 BLOCK_VERDICT_POTENTIALLY_UNWANTED
+Downloads
+.
+Error
+.
+BLOCK_VERDICT_INSECURE
 ]
 ;
 await
