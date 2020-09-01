@@ -3399,6 +3399,11 @@ makeGlobalExtent
 (
 len
 options
+.
+lineno
+options
+.
+column
 )
 ;
 frontend

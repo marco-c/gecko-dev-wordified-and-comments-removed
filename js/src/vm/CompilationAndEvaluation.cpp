@@ -429,6 +429,11 @@ length
 (
 )
 options
+.
+lineno
+options
+.
+column
 )
 ;
 frontend
@@ -2605,6 +2610,11 @@ length
 (
 )
 options
+.
+lineno
+options
+.
+column
 )
 ;
 frontend

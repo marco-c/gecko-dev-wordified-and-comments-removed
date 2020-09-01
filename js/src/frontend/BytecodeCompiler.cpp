@@ -2606,6 +2606,13 @@ len
 compilationInfo
 .
 options
+.
+lineno
+compilationInfo
+.
+options
+.
+column
 )
 ;
 ModuleSharedContext

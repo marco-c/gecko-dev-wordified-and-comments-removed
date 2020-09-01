@@ -4538,6 +4538,11 @@ length
 (
 )
 options
+.
+lineno
+options
+.
+column
 )
 ;
 SourceText

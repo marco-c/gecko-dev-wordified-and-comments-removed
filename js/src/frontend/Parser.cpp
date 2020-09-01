@@ -1796,6 +1796,13 @@ makeGlobalExtent
 options
 (
 )
+.
+lineno
+options
+(
+)
+.
+column
 )
 ;
 Directives
