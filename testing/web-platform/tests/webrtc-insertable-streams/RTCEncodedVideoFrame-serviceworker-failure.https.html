@@ -136,7 +136,7 @@ new
 RTCPeerConnection
 (
 {
-forceEncodedVideoInsertableStreams
+encodedInsertableStreams
 :
 true
 }
@@ -238,7 +238,7 @@ senderStreams
 =
 videoSender
 .
-createEncodedVideoStreams
+createEncodedStreams
 (
 )
 ;
@@ -247,7 +247,7 @@ senderReader
 =
 senderStreams
 .
-readableStream
+readable
 .
 getReader
 (
@@ -258,7 +258,7 @@ senderWriter
 =
 senderStreams
 .
-writableStream
+writable
 .
 getWriter
 (

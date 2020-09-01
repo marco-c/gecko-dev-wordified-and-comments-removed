@@ -136,7 +136,7 @@ new
 RTCPeerConnection
 (
 {
-forceEncodedAudioInsertableStreams
+encodedInsertableStreams
 :
 true
 }
@@ -238,7 +238,7 @@ streams
 =
 sender
 .
-createEncodedAudioStreams
+createEncodedStreams
 (
 )
 ;
@@ -247,7 +247,7 @@ reader
 =
 streams
 .
-readableStream
+readable
 .
 getReader
 (
@@ -258,7 +258,7 @@ writer
 =
 streams
 .
-writableStream
+writable
 .
 getWriter
 (
