@@ -297,6 +297,7 @@ IndexKeyCursorResponse
 ;
 }
 ;
+refcounted
 protocol
 PBackgroundIDBCursor
 {
