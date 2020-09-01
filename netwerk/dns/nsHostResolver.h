@@ -1106,6 +1106,14 @@ public
 nsIDNSTXTRecord
 public
 nsIDNSHTTPSSVCRecord
+public
+mozilla
+:
+:
+net
+:
+:
+DNSHTTPSSVCRecordBase
 {
 public
 :
