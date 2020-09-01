@@ -3172,6 +3172,16 @@ MediaControlAction
 aAction
 )
 {
+if
+(
+IsDiscarded
+(
+)
+)
+{
+return
+;
+}
 ContentMediaControlKeyHandler
 :
 :
