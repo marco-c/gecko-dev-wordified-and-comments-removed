@@ -1131,6 +1131,12 @@ GeckoViewMetrics
 aMetrics
 )
 ;
+SampleTime
+GetFrameTime
+(
+)
+const
+;
 private
 :
 bool
@@ -1148,12 +1154,6 @@ virtual
 AsyncPanZoomController
 (
 )
-;
-SampleTime
-GetFrameTime
-(
-)
-const
 ;
 nsEventStatus
 OnTouchStart
