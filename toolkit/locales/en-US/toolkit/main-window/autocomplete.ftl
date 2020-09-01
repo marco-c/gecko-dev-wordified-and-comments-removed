@@ -242,12 +242,9 @@ autocomplete
 -
 import
 -
-logins
+learn
 -
-info
-=
-.
-tooltiptext
+more
 =
 Learn
 more
