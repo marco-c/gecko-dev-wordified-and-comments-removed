@@ -74,6 +74,16 @@ CTFontRef
 CFTypeRef
 =
 NULL
+const
+SkFontStyle
+*
+=
+nullptr
+const
+CTFontSymbolicTraits
+*
+=
+nullptr
 )
 ;
 SK_API
