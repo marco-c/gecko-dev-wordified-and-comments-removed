@@ -2922,12 +2922,15 @@ transpile
 false
 cost_estimate
 :
-2
+5
 args
 :
 obj
 :
 ObjId
+sep
+:
+StringId
 -
 name
 :
