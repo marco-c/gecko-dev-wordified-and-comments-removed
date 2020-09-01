@@ -961,7 +961,8 @@ mozilla
 :
 Base64Encode
 (
-nsAutoCString
+aProfileName
+strlen
 (
 aProfileName
 )

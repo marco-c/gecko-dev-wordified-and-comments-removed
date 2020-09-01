@@ -15936,11 +15936,8 @@ get
 return
 ;
 }
-char
-*
+nsString
 encodedProfile
-=
-nullptr
 ;
 nsresult
 rv
@@ -15949,6 +15946,7 @@ Base64Encode
 (
 reinterpret_cast
 <
+const
 char
 *
 >
@@ -15964,7 +15962,6 @@ outputProfileData
 Length
 (
 )
-&
 encodedProfile
 )
 ;
@@ -16021,11 +16018,6 @@ DefineProperty
 "
 CMSOutputProfile
 "
-encodedProfile
-)
-;
-free
-(
 encodedProfile
 )
 ;
