@@ -20,7 +20,6 @@ from
 voluptuous
 import
 Required
-Optional
 from
 taskgraph
 .
@@ -185,7 +184,7 @@ test
 :
 test_description_schema
     
-Optional
+Required
 (
 '
 workdir
@@ -1774,6 +1773,15 @@ job
 taskdesc
 )
 :
+    
+run
+=
+job
+[
+'
+run
+'
+]
     
 test
 =
@@ -3378,6 +3386,17 @@ run
 ]
 =
 {
+        
+'
+workdir
+'
+:
+run
+[
+'
+workdir
+'
+]
         
 '
 tooltool

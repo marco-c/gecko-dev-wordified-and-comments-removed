@@ -426,7 +426,7 @@ checkout
 :
 bool
     
-Optional
+Required
 (
 '
 workdir

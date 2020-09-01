@@ -49,7 +49,6 @@ from
 voluptuous
 import
 Required
-Optional
 python_test_schema
 =
 Schema
@@ -89,7 +88,7 @@ subsuite
 :
 text_type
     
-Optional
+Required
 (
 '
 workdir
