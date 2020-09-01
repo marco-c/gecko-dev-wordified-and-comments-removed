@@ -38510,6 +38510,9 @@ null
 aParams
 =
 null
+aOpenOptions
+=
+null
 )
 {
 return
@@ -38570,6 +38573,7 @@ _onLastDialogClose
 }
 }
 resolve
+aOpenOptions
 )
 ;
 }
