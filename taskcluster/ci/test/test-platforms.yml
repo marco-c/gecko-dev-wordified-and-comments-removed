@@ -2903,9 +2903,7 @@ platform
 :
 android
 -
-api
--
-16
+aarch64
 /
 opt
 test
@@ -2946,9 +2944,7 @@ platform
 :
 android
 -
-api
--
-16
+aarch64
 -
 shippable
 /
