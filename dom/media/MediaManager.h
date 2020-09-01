@@ -1147,6 +1147,13 @@ uint64_t
 aWindowID
 )
 ;
+void
+OnCameraMute
+(
+bool
+aMute
+)
+;
 bool
 IsActivelyCapturingOrHasAPermission
 (
