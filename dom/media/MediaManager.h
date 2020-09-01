@@ -1491,6 +1491,11 @@ GetUserMediaRequest
 >
 mPendingGUMRequest
 ;
+bool
+mCamerasMuted
+=
+false
+;
 const
 RefPtr
 <
