@@ -293,6 +293,9 @@ struct
 AutoResolving
 ;
 struct
+HelperThread
+;
+struct
 ParseTask
 ;
 class

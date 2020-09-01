@@ -7132,10 +7132,7 @@ initGraph
 }
 if
 (
-cx
--
->
-isHelperThreadContext
+CurrentHelperThread
 (
 )
 ?
