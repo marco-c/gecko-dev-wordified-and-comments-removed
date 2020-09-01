@@ -340,6 +340,17 @@ nsAString
 const
 final
 ;
+Maybe
+<
+PrinterInfo
+>
+NamedPrinter
+(
+nsString
+)
+const
+final
+;
 private
 :
 ~

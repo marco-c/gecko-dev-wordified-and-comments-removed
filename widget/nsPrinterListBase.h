@@ -213,6 +213,8 @@ nsString
 aName
 )
 const
+=
+0
 ;
 virtual
 nsresult
