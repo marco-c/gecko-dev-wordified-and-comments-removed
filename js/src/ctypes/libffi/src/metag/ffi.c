@@ -186,9 +186,9 @@ argp
 char
 *
 )
-ALIGN_DOWN
+FFI_ALIGN_DOWN
 (
-ALIGN_DOWN
+FFI_ALIGN_DOWN
 (
 argp
 (
@@ -412,7 +412,7 @@ z
 }
 }
 return
-ALIGN
+FFI_ALIGN
 (
 MIN
 (
@@ -513,7 +513,7 @@ bytes
 )
 bytes
 =
-ALIGN
+FFI_ALIGN
 (
 bytes
 (
@@ -528,7 +528,7 @@ alignment
 bytes
 +
 =
-ALIGN
+FFI_ALIGN
 (
 (
 *
@@ -543,7 +543,7 @@ size
 }
 bytes
 =
-ALIGN
+FFI_ALIGN
 (
 bytes
 8
@@ -574,7 +574,7 @@ void
 ;
 bytes
 =
-ALIGN
+FFI_ALIGN
 (
 bytes
 8
@@ -1434,7 +1434,7 @@ argp
 char
 *
 )
-ALIGN
+FFI_ALIGN
 (
 argp
 alignment

@@ -98,6 +98,9 @@ ffi_abi
 endif
 #
 define
+FFI_TARGET_SPECIFIC_STACK_SPACE_ALLOCATION
+#
+define
 FFI_CLOSURES
 1
 #

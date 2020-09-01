@@ -188,7 +188,7 @@ cif
 >
 bytes
 =
-ALIGN
+FFI_ALIGN
 (
 cif
 -
@@ -795,7 +795,7 @@ alloc
 =
 alloca
 (
-ALIGN
+FFI_ALIGN
 (
 rsize
 4

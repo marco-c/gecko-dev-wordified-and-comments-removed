@@ -101,9 +101,6 @@ unsigned
 int
 i
 ;
-int
-tmp
-;
 void
 *
 *
@@ -117,10 +114,6 @@ ffi_type
 *
 *
 p_arg
-;
-tmp
-=
-0
 ;
 argp
 =
@@ -250,7 +243,7 @@ argp
 char
 *
 )
-ALIGN
+FFI_ALIGN
 (
 argp
 alignment
@@ -947,7 +940,7 @@ argp
 char
 *
 )
-ALIGN
+FFI_ALIGN
 (
 argp
 alignment

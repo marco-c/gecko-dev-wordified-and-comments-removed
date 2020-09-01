@@ -12,6 +12,13 @@ float
 .
 h
 "
+#
+include
+<
+math
+.
+h
+>
 static
 double
 floating_1
@@ -217,6 +224,8 @@ values
 ;
 CHECK
 (
+fabs
+(
 rd
 -
 floating_1
@@ -224,6 +233,7 @@ floating_1
 f
 d
 ld
+)
 )
 <
 DBL_EPSILON
@@ -316,6 +326,8 @@ values
 ;
 CHECK
 (
+fabs
+(
 rd
 -
 floating_2
@@ -323,6 +335,7 @@ floating_2
 ld
 d
 f
+)
 )
 <
 DBL_EPSILON

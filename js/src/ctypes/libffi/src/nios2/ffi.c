@@ -255,7 +255,7 @@ argp
 char
 *
 )
-ALIGN
+FFI_ALIGN
 (
 argp
 alignment
@@ -853,7 +853,7 @@ argp
 char
 *
 )
-ALIGN
+FFI_ALIGN
 (
 argp
 alignment
