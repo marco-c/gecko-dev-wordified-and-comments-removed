@@ -1166,7 +1166,7 @@ dl
 AXList
 "
 "
-AXDefinitionList
+AXDescriptionList
 "
 )
 ;
@@ -1194,7 +1194,7 @@ dd
 AXGroup
 "
 "
-AXDefinition
+AXDescription
 "
 )
 ;
