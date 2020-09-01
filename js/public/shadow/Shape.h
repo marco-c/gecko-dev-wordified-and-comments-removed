@@ -48,10 +48,6 @@ JSClass
 *
 clasp_
 ;
-JSObject
-*
-parent
-;
 }
 ;
 class
