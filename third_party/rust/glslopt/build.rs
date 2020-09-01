@@ -80,6 +80,11 @@ target_os
 "
 dragonfly
 "
+target_os
+=
+"
+openbsd
+"
 )
 )
 {
