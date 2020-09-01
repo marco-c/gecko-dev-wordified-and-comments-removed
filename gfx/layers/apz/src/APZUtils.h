@@ -590,17 +590,6 @@ float
 aThreshold
 )
 ;
-gfxFloat
-IntervalOverlap
-(
-gfxFloat
-aTranslation
-gfxFloat
-aMin
-gfxFloat
-aMax
-)
-;
 bool
 IsStuckAtBottom
 (
