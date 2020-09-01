@@ -113,7 +113,7 @@ GCRuntime
 class
 AutoLockHelperThreadState
 ;
-struct
+class
 HelperThread
 ;
 class
@@ -685,7 +685,7 @@ runTask
 override
 ;
 friend
-struct
+class
 HelperThread
 ;
 void
