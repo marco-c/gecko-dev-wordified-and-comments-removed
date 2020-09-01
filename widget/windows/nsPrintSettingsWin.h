@@ -55,13 +55,15 @@ nsPrintSettingsWin
 aPS
 )
 ;
-explicit
-nsPrintSettingsWin
+void
+InitWithInitializer
 (
 const
 PrintSettingsInitializer
 &
+aSettings
 )
+final
 ;
 virtual
 nsresult
