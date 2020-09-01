@@ -78,8 +78,7 @@ Smoosh
 public
 :
 static
-JSScript
-*
+bool
 compileGlobalScript
 (
 CompilationInfo
@@ -97,6 +96,9 @@ Utf8Unit
 >
 &
 srcBuf
+CompilationGCOutput
+&
+gcOutput
 bool
 *
 unimplemented

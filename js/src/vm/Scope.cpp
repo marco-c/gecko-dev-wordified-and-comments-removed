@@ -12160,6 +12160,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 return
@@ -12204,6 +12207,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 UniquePtr
@@ -12249,8 +12255,6 @@ data
 >
 canonicalFunction
 =
-compilationInfo
-.
 gcOutput
 .
 functions
@@ -12287,6 +12291,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 UniquePtr
@@ -12332,8 +12339,6 @@ data
 >
 module
 =
-compilationInfo
-.
 gcOutput
 .
 module
@@ -12365,6 +12370,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 RootedScope
@@ -12378,6 +12386,7 @@ compilationInfo
 .
 existingScope
 (
+gcOutput
 )
 )
 ;
@@ -12420,6 +12429,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 Rooted
@@ -12442,6 +12454,7 @@ GlobalScope
 (
 cx
 compilationInfo
+gcOutput
 )
 )
 ;
@@ -12507,6 +12520,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 Rooted
@@ -12530,6 +12546,7 @@ SpecificScopeT
 (
 cx
 compilationInfo
+gcOutput
 )
 )
 ;
@@ -12590,6 +12607,7 @@ compilationInfo
 .
 existingScope
 (
+gcOutput
 )
 )
 ;
@@ -12631,6 +12649,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 ;
 template
@@ -12651,6 +12672,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 ;
 template
@@ -12671,6 +12695,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 ;
 template
@@ -12691,6 +12718,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 ;
 template
@@ -12711,5 +12741,8 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 ;

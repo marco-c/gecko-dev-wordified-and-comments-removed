@@ -228,6 +228,9 @@ frontend
 struct
 CompilationInfo
 ;
+struct
+CompilationGCOutput
+;
 class
 ScriptStencil
 ;
@@ -1096,6 +1099,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 ;
 uint32_t
@@ -1218,6 +1224,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 ;
 template
@@ -1280,6 +1289,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 ;
 }

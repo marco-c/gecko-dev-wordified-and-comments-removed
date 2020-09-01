@@ -308,6 +308,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 const
 ScriptThingsVector
 &
@@ -363,6 +366,10 @@ cx
 CompilationInfo
 &
 compilationInfo
+;
+CompilationGCOutput
+&
+gcOutput
 ;
 uint32_t
 i
@@ -682,8 +689,6 @@ JS
 :
 GCCellPtr
 (
-compilationInfo
-.
 gcOutput
 .
 scopes
@@ -721,8 +726,6 @@ JS
 :
 GCCellPtr
 (
-compilationInfo
-.
 gcOutput
 .
 functions
@@ -807,6 +810,7 @@ m
 {
 cx
 compilationInfo
+gcOutput
 i
 output
 }
