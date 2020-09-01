@@ -3026,6 +3026,11 @@ mWaitHTTPSSVCRecord
 :
 1
 ;
+uint32_t
+mHTTPSSVCTelemetryReported
+:
+1
+;
 nsCString
 mTopWindowOrigin
 ;

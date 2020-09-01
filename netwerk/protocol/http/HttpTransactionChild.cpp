@@ -2651,6 +2651,19 @@ GetProxyConnectResponseCode
 (
 )
 ;
+Maybe
+<
+uint32_t
+>
+stage
+=
+mTransaction
+-
+>
+HTTPSSVCReceivedStage
+(
+)
+;
 Unused
 <
 <
@@ -2686,6 +2699,7 @@ mTransaction
 TakeRestartedState
 (
 )
+stage
 )
 ;
 return

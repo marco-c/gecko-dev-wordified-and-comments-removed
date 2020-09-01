@@ -139,6 +139,9 @@ bool
 dataToChildProcess
 bool
 restarted
+uint32_t
+?
+HTTPSSVCReceivedStage
 )
 ;
 async
