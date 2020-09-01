@@ -17429,11 +17429,7 @@ asyncScrollY
 (
 aMetrics
 .
-GetLayoutViewport
-(
-)
-.
-TopLeft
+GetLayoutScrollOffset
 (
 )
 -
@@ -17615,11 +17611,7 @@ asyncScrollX
 (
 aMetrics
 .
-GetLayoutViewport
-(
-)
-.
-TopLeft
+GetLayoutScrollOffset
 (
 )
 -
