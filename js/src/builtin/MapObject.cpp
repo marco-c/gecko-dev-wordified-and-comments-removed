@@ -2568,6 +2568,12 @@ newKey
 )
 ;
 }
+newKey
+.
+unsafeClear
+(
+)
+;
 }
 void
 MapObject
