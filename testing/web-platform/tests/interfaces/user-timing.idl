@@ -112,7 +112,7 @@ markOptions
 }
 )
 ;
-void
+undefined
 clearMarks
 (
 optional
@@ -140,7 +140,7 @@ DOMString
 endMark
 )
 ;
-void
+undefined
 clearMeasures
 (
 optional
