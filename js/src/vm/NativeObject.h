@@ -3307,6 +3307,13 @@ slots_
 }
 MOZ_ALWAYS_INLINE
 uint32_t
+calculateDynamicSlots
+(
+)
+const
+;
+MOZ_ALWAYS_INLINE
+uint32_t
 numDynamicSlots
 (
 )
@@ -4788,7 +4795,7 @@ value
 static
 MOZ_ALWAYS_INLINE
 uint32_t
-dynamicSlotsCount
+calculateDynamicSlots
 (
 uint32_t
 nfixed
@@ -4803,7 +4810,7 @@ clasp
 static
 MOZ_ALWAYS_INLINE
 uint32_t
-dynamicSlotsCount
+calculateDynamicSlots
 (
 Shape
 *
