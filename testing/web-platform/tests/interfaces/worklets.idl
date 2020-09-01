@@ -81,7 +81,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 addModule
 (
