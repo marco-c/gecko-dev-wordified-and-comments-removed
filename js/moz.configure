@@ -446,13 +446,6 @@ or
 None
 )
 )
-set_define
-(
-'
-JS_PARSER_ATOMS
-'
-None
-)
 js_option
 (
 '

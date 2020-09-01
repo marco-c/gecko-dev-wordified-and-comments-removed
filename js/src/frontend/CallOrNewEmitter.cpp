@@ -198,11 +198,9 @@ CallOrNewEmitter
 :
 emitNameCallee
 (
-Handle
-<
-JSAtom
+const
+ParserAtom
 *
->
 name
 )
 {
