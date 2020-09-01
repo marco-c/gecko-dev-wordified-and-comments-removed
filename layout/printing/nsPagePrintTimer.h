@@ -101,7 +101,6 @@ aPrintJob
 )
 mDocViewerPrint
 (
-*
 aDocViewerPrint
 )
 mDocument
@@ -179,16 +178,7 @@ void
 Disconnect
 (
 )
-{
-mPrintJob
-=
-nullptr
 ;
-mPrintObj
-=
-nullptr
-;
-}
 private
 :
 ~
@@ -222,11 +212,7 @@ nsPrintJob
 *
 mPrintJob
 ;
-const
-mozilla
-:
-:
-OwningNonNull
+nsCOMPtr
 <
 nsIDocumentViewerPrint
 >
