@@ -23,11 +23,17 @@ Copyright
 C
 )
 2004
+-
 2005
 2007
+-
 2008
+2011
+-
+2015
 Free
 Software
+#
 Foundation
 Inc
 .
@@ -483,7 +489,9 @@ its
 former
 content
 plus
+'
 SEPARATOR
+'
 '
 STRING
 '

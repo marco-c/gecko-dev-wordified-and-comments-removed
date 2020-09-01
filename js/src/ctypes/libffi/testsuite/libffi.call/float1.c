@@ -12,6 +12,13 @@ float
 .
 h
 "
+#
+include
+<
+math
+.
+h
+>
 typedef
 union
 {
@@ -161,6 +168,8 @@ values
 ;
 CHECK
 (
+fabs
+(
 result
 [
 0
@@ -171,6 +180,7 @@ d
 dblit
 (
 f
+)
 )
 <
 DBL_EPSILON

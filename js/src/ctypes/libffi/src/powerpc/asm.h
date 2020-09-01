@@ -321,7 +321,7 @@ ifdef
 PROF
 #
 define
-EALIGN
+EFFI_ALIGN
 (
 name
 alignt
@@ -383,7 +383,7 @@ words
 else
 #
 define
-EALIGN
+EFFI_ALIGN
 (
 name
 alignt

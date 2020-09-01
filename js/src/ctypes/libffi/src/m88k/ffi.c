@@ -423,7 +423,7 @@ stackp
 char
 *
 )
-ALIGN
+FFI_ALIGN
 (
 stackp
 a
@@ -618,7 +618,7 @@ z
 )
 z
 =
-ALIGN
+FFI_ALIGN
 (
 z
 sizeof
@@ -1188,7 +1188,7 @@ stackp
 char
 *
 )
-ALIGN
+FFI_ALIGN
 (
 stackp
 a
@@ -1257,7 +1257,7 @@ z
 )
 z
 =
-ALIGN
+FFI_ALIGN
 (
 z
 sizeof
