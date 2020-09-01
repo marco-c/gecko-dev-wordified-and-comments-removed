@@ -9430,6 +9430,12 @@ case
 BailoutKind
 :
 :
+MegamorphicAccess
+:
+case
+BailoutKind
+:
+:
 ArrayPopShift
 :
 case
