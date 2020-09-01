@@ -140,7 +140,7 @@ allows
 us
 to
 reuse
-testOriginIsolationRestricted
+testGetter
 .
 *
 /
@@ -166,7 +166,7 @@ postMessage
 (
 self
 .
-originIsolationRestricted
+originIsolated
 "
 *
 "

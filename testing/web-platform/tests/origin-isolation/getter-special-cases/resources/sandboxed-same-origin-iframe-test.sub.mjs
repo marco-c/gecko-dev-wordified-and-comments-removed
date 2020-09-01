@@ -1,7 +1,7 @@
 import
 {
 navigateIframe
-testOriginIsolationRestricted
+testGetter
 }
 from
 "
@@ -162,7 +162,7 @@ follow
 the
 embedder
 .
-testOriginIsolationRestricted
+testGetter
 (
 0
 expected

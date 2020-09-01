@@ -15,7 +15,7 @@ mjs
 import
 {
 waitForIframe
-testOriginIsolationRestricted
+testGetter
 }
 from
 "
@@ -238,7 +238,7 @@ always
 be
 true
 .
-testOriginIsolationRestricted
+testGetter
 (
 0
 true

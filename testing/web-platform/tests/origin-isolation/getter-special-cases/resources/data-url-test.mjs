@@ -14,7 +14,7 @@ mjs
 ;
 import
 {
-testOriginIsolationRestricted
+testGetter
 }
 from
 "
@@ -97,7 +97,7 @@ origin
 isolated
 "
 .
-testOriginIsolationRestricted
+testGetter
 (
 0
 true

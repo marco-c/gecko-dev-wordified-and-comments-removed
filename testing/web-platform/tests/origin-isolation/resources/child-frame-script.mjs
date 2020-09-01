@@ -424,7 +424,7 @@ command
 =
 "
 get
-originIsolationRestricted
+originIsolated
 "
 )
 {
@@ -434,7 +434,7 @@ postMessage
 (
 self
 .
-originIsolationRestricted
+originIsolated
 "
 *
 "

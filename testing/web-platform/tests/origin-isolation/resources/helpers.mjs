@@ -1460,10 +1460,10 @@ the
 value
 of
 the
-originIsolationRestricted
-*
+originIsolated
 getter
 in
+*
 the
 given
 testFrame
@@ -1497,7 +1497,7 @@ The
 expected
 value
 for
-originIsolationRestricted
+originIsolated
 .
 *
 param
@@ -1536,7 +1536,7 @@ file
 /
 export
 function
-testOriginIsolationRestricted
+testGetter
 (
 testFrame
 expected
@@ -1607,7 +1607,7 @@ assert_equals
 (
 self
 .
-originIsolationRestricted
+originIsolated
 expected
 )
 ;
@@ -1615,7 +1615,7 @@ expected
 {
 prefix
 }
-originIsolationRestricted
+originIsolated
 must
 equal
 {
@@ -1646,7 +1646,7 @@ const
 result
 =
 await
-getOriginIsolationRestricted
+accessOriginIsolated
 (
 frameWindow
 )
@@ -1661,7 +1661,7 @@ expected
 {
 prefix
 }
-originIsolationRestricted
+originIsolated
 must
 equal
 {
@@ -2067,7 +2067,7 @@ set
 }
 async
 function
-getOriginIsolationRestricted
+accessOriginIsolated
 (
 frameWindow
 )
@@ -2115,7 +2115,7 @@ command
 :
 "
 get
-originIsolationRestricted
+originIsolated
 "
 }
 "

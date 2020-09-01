@@ -14,7 +14,7 @@ mjs
 ;
 import
 {
-testOriginIsolationRestricted
+testGetter
 }
 from
 "
@@ -108,7 +108,7 @@ what
 to
 expect
 .
-testOriginIsolationRestricted
+testGetter
 (
 0
 expected
