@@ -3624,6 +3624,15 @@ ImageRendering
 )
 ;
 fn
+start_compositing
+(
+&
+mut
+self
+)
+{
+}
+fn
 end_frame
 (
 &
