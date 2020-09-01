@@ -415,6 +415,16 @@ n
 "
 race
 :
+JSObject
+:
+:
+fixupAfterMovingGC
+\
+n
+"
+"
+race
+:
 setFlagBit
 \
 n
