@@ -309,7 +309,7 @@ loaded
 callback
 ForEachCallback
 =
-void
+undefined
 (
 FontFace
 font
@@ -368,7 +368,7 @@ FontFace
 font
 )
 ;
-void
+undefined
 clear
 (
 )
