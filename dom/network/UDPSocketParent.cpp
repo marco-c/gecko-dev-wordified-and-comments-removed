@@ -783,9 +783,13 @@ net
 :
 NetAddr
 addr
+;
+PRNetAddrToNetAddr
 (
 &
 prAddr
+&
+addr
 )
 ;
 rv
@@ -1622,9 +1626,13 @@ net
 :
 NetAddr
 addr
+;
+PRNetAddrToNetAddr
 (
 &
 prAddr
+&
+addr
 )
 ;
 rv

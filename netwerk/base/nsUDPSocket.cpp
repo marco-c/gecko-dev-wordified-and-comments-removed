@@ -1933,9 +1933,13 @@ return
 }
 NetAddr
 netAddr
+;
+PRNetAddrToNetAddr
 (
 &
 prClientAddr
+&
+netAddr
 )
 ;
 nsCOMPtr
