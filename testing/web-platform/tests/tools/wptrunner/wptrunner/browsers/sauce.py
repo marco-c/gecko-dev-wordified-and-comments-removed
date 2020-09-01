@@ -60,13 +60,10 @@ os
 .
 path
 .
-split
+dirname
 (
 __file__
 )
-[
-0
-]
 sc_poll_period
 =
 1

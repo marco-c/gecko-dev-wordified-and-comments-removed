@@ -347,16 +347,13 @@ os
 .
 path
 .
-split
+dirname
 (
 isomorphic_decode
 (
 __file__
 )
 )
-[
-0
-]
 isomorphic_decode
 (
 handler

@@ -163,7 +163,7 @@ os
 .
 path
 .
-split
+dirname
 (
 os
 .
@@ -174,9 +174,6 @@ abspath
 __file__
 )
 )
-[
-0
-]
     
 repo_base
 =
@@ -245,13 +242,10 @@ os
 .
 path
 .
-split
+dirname
 (
 path
 )
-[
-0
-]
 def
 get_expected
 (
@@ -697,13 +691,10 @@ os
 .
 path
 .
-split
+basename
 (
 file_name
 )
-[
-1
-]
     
 with
 open
@@ -1031,13 +1022,10 @@ os
 .
 path
 .
-split
+basename
 (
 test_file
 )
-[
-1
-]
 )
 [
 0

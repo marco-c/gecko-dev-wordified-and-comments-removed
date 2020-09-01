@@ -20,13 +20,10 @@ os
 .
 path
 .
-split
+dirname
 (
 __file__
 )
-[
-0
-]
 class
 ConfigDict
 (
@@ -145,13 +142,10 @@ os
 .
 path
 .
-split
+dirname
 (
 config_path
 )
-[
-0
-]
     
 parser
 =

@@ -14,7 +14,7 @@ os
 .
 path
 .
-split
+dirname
 (
 os
 .
@@ -28,9 +28,6 @@ __file__
 )
 )
 )
-[
-0
-]
 def
 main
 (

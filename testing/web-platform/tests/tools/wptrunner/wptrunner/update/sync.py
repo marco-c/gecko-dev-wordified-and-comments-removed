@@ -33,13 +33,10 @@ os
 .
 path
 .
-split
+dirname
 (
 __file__
 )
-[
-0
-]
 )
 def
 copy_wpt_tree
@@ -267,13 +264,10 @@ os
 .
 path
 .
-split
+dirname
 (
 dest_path
 )
-[
-0
-]
         
 if
 not
@@ -374,13 +368,10 @@ os
 .
 path
 .
-split
+basename
 (
 source
 )
-[
-1
-]
 )
         
 shutil
