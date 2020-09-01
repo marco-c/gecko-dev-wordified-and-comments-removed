@@ -1167,16 +1167,6 @@ aParams
 .
 mConfig
 ;
-RefPtr
-<
-TaskQueue
->
-taskQueue
-=
-aParams
-.
-mTaskQueue
-;
 DecoderDoctorDiagnostics
 *
 diagnostics
@@ -1368,7 +1358,6 @@ params
 {
 *
 config
-taskQueue
 diagnostics
 imageContainer
 &

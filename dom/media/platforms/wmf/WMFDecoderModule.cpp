@@ -671,9 +671,6 @@ manager
 release
 (
 )
-aParams
-.
-mTaskQueue
 )
 ;
 return
@@ -745,9 +742,6 @@ manager
 release
 (
 )
-aParams
-.
-mTaskQueue
 )
 ;
 return

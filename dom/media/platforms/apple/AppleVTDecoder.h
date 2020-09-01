@@ -107,9 +107,6 @@ const
 VideoInfo
 &
 aConfig
-TaskQueue
-*
-aTaskQueue
 layers
 :
 :
@@ -380,7 +377,7 @@ MaybeResolveBufferedFrames
 )
 ;
 void
-AssertOnTaskQueueThread
+AssertOnTaskQueue
 (
 )
 {

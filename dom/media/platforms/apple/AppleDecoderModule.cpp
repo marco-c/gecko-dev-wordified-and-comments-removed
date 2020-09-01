@@ -264,9 +264,6 @@ VideoConfig
 )
 aParams
 .
-mTaskQueue
-aParams
-.
 mImageContainer
 aParams
 .
@@ -314,9 +311,6 @@ aParams
 AudioConfig
 (
 )
-aParams
-.
-mTaskQueue
 )
 ;
 return
@@ -694,7 +688,6 @@ new
 AppleVTDecoder
 (
 info
-nullptr
 nullptr
 {
 }

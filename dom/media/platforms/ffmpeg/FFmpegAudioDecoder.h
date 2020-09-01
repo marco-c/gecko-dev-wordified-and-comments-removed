@@ -82,9 +82,6 @@ FFmpegAudioDecoder
 FFmpegLibWrapper
 *
 aLib
-TaskQueue
-*
-aTaskQueue
 const
 AudioInfo
 &

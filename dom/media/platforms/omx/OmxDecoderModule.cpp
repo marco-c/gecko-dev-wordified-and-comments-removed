@@ -120,9 +120,6 @@ aParams
 mConfig
 aParams
 .
-mTaskQueue
-aParams
-.
 mImageContainer
 )
 ;
@@ -161,9 +158,6 @@ OmxDataDecoder
 aParams
 .
 mConfig
-aParams
-.
-mTaskQueue
 nullptr
 )
 ;
