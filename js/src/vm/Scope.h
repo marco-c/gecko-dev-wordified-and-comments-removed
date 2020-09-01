@@ -6992,6 +6992,12 @@ CreateEnvironmentShape
 JSContext
 *
 cx
+frontend
+:
+:
+CompilationInfo
+&
+compilationInfo
 AbstractBindingIter
 <
 const
