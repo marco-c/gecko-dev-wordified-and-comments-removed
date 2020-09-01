@@ -4752,7 +4752,7 @@ RoundedToInt
 (
 mLastMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -4762,7 +4762,7 @@ RoundedToInt
 (
 aMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )

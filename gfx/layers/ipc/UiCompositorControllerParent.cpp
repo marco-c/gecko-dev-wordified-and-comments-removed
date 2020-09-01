@@ -1070,7 +1070,7 @@ scrollOffset
 =
 aMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 *
