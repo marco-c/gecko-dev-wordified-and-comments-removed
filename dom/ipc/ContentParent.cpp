@@ -37491,7 +37491,7 @@ aContext
 const
 uint64_t
 &
-aSessionHistoryEntryID
+aLoadID
 const
 nsID
 &
@@ -37517,7 +37517,7 @@ get_canonical
 >
 SessionHistoryCommit
 (
-aSessionHistoryEntryID
+aLoadID
 aChangeID
 )
 ;
