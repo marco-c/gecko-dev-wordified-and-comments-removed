@@ -96,12 +96,6 @@ default
 suite
 :
 raptor
-workdir
-:
-/
-home
-/
-cltbld
 run
 -
 on
