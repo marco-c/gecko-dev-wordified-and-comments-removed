@@ -308,7 +308,7 @@ windowId
 =
 window
 .
-windowUtils
+docShell
 .
 outerWindowID
 ;

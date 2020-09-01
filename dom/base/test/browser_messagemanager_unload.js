@@ -86,7 +86,7 @@ outerID
 =
 content
 .
-windowUtils
+docShell
 .
 outerWindowID
 ;

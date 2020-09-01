@@ -8783,6 +8783,16 @@ aPropertyName
 *
 *
 *
+DEPRECATED
+.
+Use
+WindowGlobalChild
+.
+outerWindowId
+instead
+.
+*
+*
 Get
 the
 id
@@ -8794,11 +8804,6 @@ of
 this
 window
 .
-This
-will
-never
-throw
-.
 *
 /
 readonly
@@ -8806,7 +8811,7 @@ attribute
 unsigned
 long
 long
-outerWindowID
+deprecatedOuterWindowID
 ;
 /
 *
