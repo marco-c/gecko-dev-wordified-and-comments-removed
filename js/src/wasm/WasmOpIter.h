@@ -12912,6 +12912,7 @@ fromTypeIndex
 (
 *
 typeIndex
+false
 )
 )
 ;
@@ -13020,6 +13021,7 @@ fromTypeIndex
 (
 *
 typeIndex
+true
 )
 ptr
 )
@@ -13199,6 +13201,7 @@ fromTypeIndex
 (
 *
 typeIndex
+true
 )
 ptr
 )
