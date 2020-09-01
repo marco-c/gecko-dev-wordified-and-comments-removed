@@ -59,7 +59,10 @@ mStatus
 ScrollableLayerGuid
 mTargetGuid
 ;
+Maybe
+<
 bool
+>
 mHandledByRootApzc
 ;
 uint64_t
