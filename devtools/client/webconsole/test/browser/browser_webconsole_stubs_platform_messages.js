@@ -198,6 +198,11 @@ packetStr
 getSerializedPacket
 (
 packet
+{
+sortKeys
+:
+true
+}
 )
 ;
 const
@@ -213,6 +218,11 @@ get
 (
 key
 )
+{
+sortKeys
+:
+true
+}
 )
 ;
 is
