@@ -3702,11 +3702,9 @@ mk
 '
             
 '
-pre
--
-compile
-:
-:
+PRE_COMPILE_TARGETS
++
+=
 (
 MDDEPDIR
 )
@@ -3857,9 +3855,9 @@ TOUCH
 '
             
 '
-export
-:
-:
+EXPORT_TARGETS
++
+=
 (
 MDDEPDIR
 )
@@ -4144,11 +4142,9 @@ mk
 '
             
 '
-pre
--
-compile
-:
-:
+PRE_COMPILE_TARGETS
++
+=
 (
 MDDEPDIR
 )
@@ -4300,11 +4296,9 @@ TOUCH
 '
             
 '
-pre
--
-compile
-:
-:
+PRE_COMPILE_TARGETS
++
+=
 (
 MDDEPDIR
 )
@@ -4586,9 +4580,9 @@ mk
 '
             
 '
-misc
-:
-:
+MISC_TARGETS
++
+=
 (
 MDDEPDIR
 )
@@ -4935,9 +4929,9 @@ mk
 '
             
 '
-misc
-:
-:
+MISC_TARGETS
++
+=
 (
 MDDEPDIR
 )
@@ -5134,9 +5128,9 @@ TOUCH
 '
             
 '
-misc
-:
-:
+MISC_TARGETS
++
+=
 (
 MDDEPDIR
 )
@@ -5453,9 +5447,9 @@ mk
 '
             
 '
-misc
-:
-:
+MISC_TARGETS
++
+=
 (
 MDDEPDIR
 )
