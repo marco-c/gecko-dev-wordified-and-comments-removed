@@ -124,7 +124,7 @@ options
 ;
 Promise
 <
-void
+undefined
 >
 set
 (
@@ -136,7 +136,7 @@ value
 ;
 Promise
 <
-void
+undefined
 >
 set
 (
@@ -146,7 +146,7 @@ options
 ;
 Promise
 <
-void
+undefined
 >
 delete
 (
@@ -156,7 +156,7 @@ name
 ;
 Promise
 <
-void
+undefined
 >
 delete
 (
@@ -330,7 +330,7 @@ CookieStoreManager
 {
 Promise
 <
-void
+undefined
 >
 subscribe
 (
@@ -354,7 +354,7 @@ getSubscriptions
 ;
 Promise
 <
-void
+undefined
 >
 unsubscribe
 (
