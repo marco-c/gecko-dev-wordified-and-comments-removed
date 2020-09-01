@@ -144,6 +144,14 @@ RemoteWorkerTypes
 ipdlh
 '
 ]
+TEST_DIRS
++
+=
+[
+'
+gtest
+'
+]
 include
 (
 '
