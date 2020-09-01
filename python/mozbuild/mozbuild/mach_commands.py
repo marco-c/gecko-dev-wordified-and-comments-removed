@@ -11766,6 +11766,14 @@ append_env
 {
             
 '
+GRADLE_INVOKED_WITHIN_MACH_BUILD
+'
+:
+'
+1
+'
+            
+'
 MOZ_CHROME_MULTILOCALE
 '
 :
