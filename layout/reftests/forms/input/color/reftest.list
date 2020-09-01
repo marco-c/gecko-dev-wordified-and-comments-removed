@@ -16,16 +16,6 @@ color
 ref
 .
 html
-defaults
-pref
-(
-dom
-.
-forms
-.
-color
-true
-)
 fuzzy
 -
 if

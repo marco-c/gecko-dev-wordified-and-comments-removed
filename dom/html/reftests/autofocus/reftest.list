@@ -1,13 +1,3 @@
-defaults
-pref
-(
-dom
-.
-forms
-.
-datetime
-true
-)
 needs
 -
 focus
