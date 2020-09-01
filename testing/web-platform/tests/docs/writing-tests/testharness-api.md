@@ -3832,7 +3832,7 @@ complete
 see
 below
 ;
-implicitly
+always
 true
 for
 single
