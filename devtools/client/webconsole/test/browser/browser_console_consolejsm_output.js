@@ -505,9 +505,15 @@ hud
 )
 ;
 await
+waitForAllTargetsToBeAttached
+(
+hud
+)
+;
+await
 BrowserConsoleManager
 .
-toggleBrowserConsole
+closeBrowserConsole
 (
 )
 ;

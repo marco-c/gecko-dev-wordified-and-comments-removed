@@ -526,8 +526,11 @@ Object
 debuggerServiceWorkerStatus
 :
 string
-onThreadAttached
+attachAndInitThread
 :
+TargetList
+=
+>
 Promise
 <
 *

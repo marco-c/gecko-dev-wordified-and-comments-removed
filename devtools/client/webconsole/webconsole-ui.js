@@ -1305,6 +1305,17 @@ resource
 }
 )
 {
+if
+(
+!
+this
+.
+hud
+)
+{
+return
+;
+}
 const
 {
 TYPES

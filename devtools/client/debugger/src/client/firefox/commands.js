@@ -2186,11 +2186,6 @@ targetFront
 Target
 )
 {
-await
-targetFront
-.
-onThreadAttached
-;
 const
 threadActorID
 =
