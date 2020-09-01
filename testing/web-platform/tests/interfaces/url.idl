@@ -176,7 +176,7 @@ init
 "
 )
 ;
-void
+undefined
 append
 (
 USVString
@@ -185,7 +185,7 @@ USVString
 value
 )
 ;
-void
+undefined
 delete
 (
 USVString
@@ -217,7 +217,7 @@ USVString
 name
 )
 ;
-void
+undefined
 set
 (
 USVString
@@ -226,7 +226,7 @@ USVString
 value
 )
 ;
-void
+undefined
 sort
 (
 )
