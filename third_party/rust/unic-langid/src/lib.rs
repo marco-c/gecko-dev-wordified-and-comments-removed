@@ -25,13 +25,7 @@ use
 unic_langid_macros
 :
 :
-{
-lang
 langid
-region
-script
-variant
-}
 ;
 #
 [
