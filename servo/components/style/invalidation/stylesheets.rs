@@ -2653,6 +2653,15 @@ guard
 device
 quirks_mode
 )
+;
+if
+self
+.
+fully_invalid
+{
+break
+;
+}
 }
 }
 }
