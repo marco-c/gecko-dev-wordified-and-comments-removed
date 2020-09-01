@@ -828,11 +828,12 @@ aSVGElement
 )
 ;
 }
-typedef
+using
+SMILPreserveAspectRatio
+=
 SVGAnimatedPreserveAspectRatio
 :
 :
-SMILPreserveAspectRatio
 SMILPreserveAspectRatio
 ;
 nsresult

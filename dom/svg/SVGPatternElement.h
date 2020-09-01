@@ -188,13 +188,6 @@ override
 ;
 public
 :
-typedef
-mozilla
-:
-:
-SVGAnimatedPreserveAspectRatio
-SVGAnimatedPreserveAspectRatio
-;
 NS_IMETHOD_
 (
 bool

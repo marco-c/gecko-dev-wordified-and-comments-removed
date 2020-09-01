@@ -55,12 +55,13 @@ SVGTransform_Binding
 namespace
 mozilla
 {
-typedef
+using
+TransformArray
+=
 FallibleTArray
 <
 SVGTransformSMILData
 >
-TransformArray
 ;
 void
 SVGTransformListSMILType

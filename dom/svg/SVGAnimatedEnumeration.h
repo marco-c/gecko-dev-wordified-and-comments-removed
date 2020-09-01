@@ -79,9 +79,10 @@ class
 SVGAnimationElement
 ;
 }
-typedef
-uint8_t
+using
 SVGEnumValue
+=
+uint8_t
 ;
 struct
 SVGEnumMapping

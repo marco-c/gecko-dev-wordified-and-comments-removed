@@ -1816,11 +1816,12 @@ mUserSpaceToFrameSpaceOffset
 ;
 }
 ;
-typedef
+using
+PaintFramesParams
+=
 SVGIntegrationUtils
 :
 :
-PaintFramesParams
 PaintFramesParams
 ;
 static

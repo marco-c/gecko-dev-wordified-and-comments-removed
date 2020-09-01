@@ -528,10 +528,11 @@ const
 ;
 protected
 :
-typedef
+using
+iterator
+=
 float
 *
-iterator
 ;
 nsresult
 CopyFrom
