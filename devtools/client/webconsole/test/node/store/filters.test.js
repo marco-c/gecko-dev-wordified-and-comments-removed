@@ -903,6 +903,7 @@ get
 "
 GET
 request
+update
 "
 )
 ;
@@ -2470,6 +2471,7 @@ foobar
 "
 GET
 request
+update
 "
 ]
 )
