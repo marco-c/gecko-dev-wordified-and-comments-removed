@@ -146,6 +146,8 @@ browser
 -
 agent
 .
+exe
+.
 manifest
 include
 (
