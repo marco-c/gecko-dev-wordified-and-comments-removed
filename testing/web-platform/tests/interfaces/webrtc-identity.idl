@@ -90,7 +90,7 @@ RTCIdentityProviderGlobalScope
 interface
 RTCIdentityProviderRegistrar
 {
-void
+undefined
 register
 (
 RTCIdentityProvider
@@ -188,7 +188,7 @@ partial
 interface
 RTCPeerConnection
 {
-void
+undefined
 setIdentityProvider
 (
 DOMString
