@@ -766,15 +766,12 @@ table
 string
 ]
         
-else
-:
-            
 result
 =
 self
 .
 current_index
-            
+        
 self
 .
 table
@@ -783,7 +780,7 @@ string
 ]
 =
 result
-            
+        
 self
 .
 current_index
@@ -795,7 +792,7 @@ c_strlen
 (
 string
 )
-            
+        
 return
 result
     
@@ -1025,9 +1022,6 @@ return
 '
 "
                 
-else
-:
-                    
 return
 "
 '

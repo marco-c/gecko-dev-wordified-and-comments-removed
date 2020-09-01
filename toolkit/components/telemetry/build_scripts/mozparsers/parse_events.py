@@ -2407,9 +2407,6 @@ nsITelemetry
 DATASET_ALL_CHANNELS
 '
         
-else
-:
-            
 return
 '
 nsITelemetry
