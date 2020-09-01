@@ -95,7 +95,11 @@ generateBundlesSync
 }
 ;
 [
-ChromeOnly
+Func
+=
+"
+IsChromeOrUAWidget
+"
 Exposed
 =
 Window

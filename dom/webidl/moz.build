@@ -3291,6 +3291,11 @@ DOMImplementation
 webidl
 '
 '
+DOMLocalization
+.
+webidl
+'
+'
 DOMMatrix
 .
 webidl
@@ -4132,6 +4137,11 @@ webidl
 '
 '
 LoadURIOptions
+.
+webidl
+'
+'
+Localization
 .
 webidl
 '

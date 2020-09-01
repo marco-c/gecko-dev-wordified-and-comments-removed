@@ -224,11 +224,6 @@ DominatorTree
 webidl
 '
 '
-DOMLocalization
-.
-webidl
-'
-'
 Flex
 .
 webidl
@@ -280,11 +275,6 @@ webidl
 '
 '
 L10nOverlays
-.
-webidl
-'
-'
-Localization
 .
 webidl
 '
