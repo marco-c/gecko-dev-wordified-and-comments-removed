@@ -66,7 +66,6 @@ splitter
 :
 &
 mut
-dyn
 Splitter
 <
 f32
@@ -159,7 +158,6 @@ splitter
 :
 &
 mut
-dyn
 Splitter
 <
 f32
@@ -184,7 +182,7 @@ f32
 Transform3D
 :
 :
-rotation
+create_rotation
 (
 0
 .
@@ -220,7 +218,7 @@ f32
 Transform3D
 :
 :
-rotation
+create_rotation
 (
 0
 .
@@ -257,7 +255,7 @@ f32
 Transform3D
 :
 :
-rotation
+create_rotation
 (
 0
 .
@@ -492,7 +490,6 @@ splitter
 :
 &
 mut
-dyn
 Splitter
 <
 f32
@@ -585,7 +582,7 @@ f32
 Transform3D
 :
 :
-translation
+create_translation
 (
 0
 .
@@ -732,7 +729,6 @@ splitter
 :
 &
 mut
-dyn
 Splitter
 <
 f32
@@ -801,7 +797,7 @@ f32
 Transform3D
 :
 :
-rotation
+create_rotation
 (
 1
 .
@@ -840,7 +836,7 @@ f32
 Transform3D
 :
 :
-translation
+create_translation
 (
 0
 .
@@ -859,12 +855,12 @@ Polygon
 from_transformed_rect
 (
 rect0
-transform0
+transform1
 .
-then
+pre_transform
 (
 &
-transform1
+transform0
 )
 1
 )

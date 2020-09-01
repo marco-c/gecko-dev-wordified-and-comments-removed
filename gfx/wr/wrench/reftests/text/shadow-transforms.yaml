@@ -28,7 +28,6 @@ transform
 :
 rotate
 (
--
 30
 )
 transform
@@ -204,7 +203,6 @@ rotate
 -
 x
 (
--
 15
 )
 items

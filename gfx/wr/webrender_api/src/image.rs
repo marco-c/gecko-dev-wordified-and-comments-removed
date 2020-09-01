@@ -1902,7 +1902,6 @@ rect2
 )
 =
 >
-{
 Partial
 (
 rect1
@@ -1921,7 +1920,6 @@ Rect
 zero
 )
 )
-}
 }
 }
 pub
@@ -1971,7 +1969,6 @@ dirty_rect
 )
 =
 >
-{
 dirty_rect
 .
 intersection
@@ -1986,7 +1983,6 @@ Rect
 :
 zero
 )
-}
 }
 }
 }
