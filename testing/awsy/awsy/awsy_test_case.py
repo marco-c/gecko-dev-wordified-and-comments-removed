@@ -1557,6 +1557,15 @@ anonymize
 *
 /
 false
+                
+/
+*
+minimize
+memory
+usage
+*
+/
+false
 )
 ;
             
