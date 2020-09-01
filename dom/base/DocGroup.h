@@ -388,9 +388,6 @@ HTMLSlotElement
 aSlot
 )
 ;
-void
-MoveSignalSlotListTo
-(
 nsTArray
 <
 RefPtr
@@ -398,8 +395,8 @@ RefPtr
 HTMLSlotElement
 >
 >
-&
-aDest
+MoveSignalSlotList
+(
 )
 ;
 static
