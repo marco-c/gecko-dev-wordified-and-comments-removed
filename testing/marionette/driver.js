@@ -1961,6 +1961,11 @@ options
 {
 const
 {
+context
+=
+this
+.
+context
 top
 =
 false
@@ -1975,8 +1980,6 @@ null
 ;
 if
 (
-this
-.
 context
 =
 =
