@@ -5051,12 +5051,6 @@ bool
 >
 abortSweepAfterCurrentGroup
 ;
-MainThreadData
-<
-bool
->
-sweepMarkTaskStarted
-;
 MainThreadOrGCTaskData
 <
 IncrementalProgress
