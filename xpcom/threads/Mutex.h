@@ -344,7 +344,7 @@ aMutex
 =
 =
 &
-aMutex
+mLock
 )
 ;
 mLock
