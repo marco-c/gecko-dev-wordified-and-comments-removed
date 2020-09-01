@@ -10335,6 +10335,9 @@ if
 (
 !
 unknownDecoderStarted
+|
+|
+mListenerRequiresContentConversion
 )
 {
 nsCOMPtr

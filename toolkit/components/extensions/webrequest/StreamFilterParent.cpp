@@ -770,6 +770,7 @@ traceable
 SetNewListener
 (
 this
+true
 getter_AddRefs
 (
 mOrigListener
