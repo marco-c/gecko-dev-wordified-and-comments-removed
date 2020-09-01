@@ -640,9 +640,6 @@ mOuterWindowId
 uint64_t
 mBrowsingContextId
 ;
-bool
-mBrowsingContextIsTop
-;
 FieldValues
 mFields
 ;
