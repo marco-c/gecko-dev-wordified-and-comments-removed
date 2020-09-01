@@ -54,7 +54,7 @@ skin
 /
 plugins
 /
-pluginGeneric
+plugin
 .
 svg
 "
@@ -640,7 +640,7 @@ skin
 /
 plugins
 /
-pluginGeneric
+plugin
 .
 svg
 "
@@ -700,7 +700,7 @@ skin
 /
 plugins
 /
-pluginGeneric
+plugin
 .
 svg
 "

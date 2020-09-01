@@ -5040,7 +5040,7 @@ skin
 /
 plugins
 /
-pluginGeneric
+plugin
 .
 svg
 "
