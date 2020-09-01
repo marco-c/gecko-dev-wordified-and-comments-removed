@@ -85,6 +85,11 @@ mDocURL
 nsFont
 mHeadFootFont
 ;
+int32_t
+mTotNumPages
+=
+0
+;
 nsMargin
 mEdgePaperMargin
 ;
