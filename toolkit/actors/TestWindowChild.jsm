@@ -207,6 +207,16 @@ data
 ;
 break
 ;
+case
+"
+noncloneReply
+"
+:
+return
+this
+.
+contentWindow
+;
 }
 return
 undefined
