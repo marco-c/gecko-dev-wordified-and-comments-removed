@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsIMultiPartChannel
+.
+h
+"
+#
+include
+"
 nsIStreamListener
 .
 h
@@ -1418,6 +1425,8 @@ final
 public
 nsIStreamListener
 public
+nsIMultiPartChannelListener
+public
 nsIThreadRetargetableStreamListener
 {
 public
@@ -1425,6 +1434,7 @@ public
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
+NS_DECL_NSIMULTIPARTCHANNELLISTENER
 NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 explicit
 RequestListener
