@@ -3146,7 +3146,9 @@ nsIPrintSettings
 :
 kEnableSelectionRB
 !
-!
+mDisallowSelectionPrint
+&
+&
 printData
 -
 >
@@ -12079,6 +12081,10 @@ kRangeSelection
 ;
 NS_ENSURE_STATE
 (
+!
+mDisallowSelectionPrint
+&
+&
 printData
 -
 >
