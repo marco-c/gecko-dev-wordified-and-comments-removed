@@ -1443,6 +1443,10 @@ blob
 nsIPrincipal
 principal
 ;
+nsID
+?
+agentClusterId
+;
 bool
 revoked
 ;
@@ -2703,6 +2707,9 @@ IPCBlob
 aBlob
 Principal
 aPrincipal
+nsID
+?
+aAgentClusterId
 )
 ;
 async
@@ -4100,6 +4107,9 @@ IPCBlob
 blob
 Principal
 principal
+nsID
+?
+aAgentClusterId
 )
 ;
 async
@@ -4465,6 +4475,9 @@ nsIPrincipal
 aLoadingPrincipal
 OriginAttributes
 aOriginAttributes
+nsID
+?
+aAgentClusterId
 )
 returns
 (
