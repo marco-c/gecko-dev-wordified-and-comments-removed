@@ -240,14 +240,14 @@ partial
 interface
 Element
 {
-void
+undefined
 setPointerCapture
 (
 long
 pointerId
 )
 ;
-void
+undefined
 releasePointerCapture
 (
 long
