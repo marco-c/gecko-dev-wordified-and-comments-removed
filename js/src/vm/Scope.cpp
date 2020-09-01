@@ -10866,9 +10866,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 ParserFunctionScopeData
 *
 data
@@ -11018,8 +11018,6 @@ false
 *
 index
 =
-compilationInfo
-.
 stencil
 .
 scopeData
@@ -11029,8 +11027,6 @@ length
 )
 ;
 return
-compilationInfo
-.
 stencil
 .
 scopeData
@@ -11072,9 +11068,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 ScopeKind
 kind
 ParserLexicalScopeData
@@ -11207,8 +11203,6 @@ false
 *
 index
 =
-compilationInfo
-.
 stencil
 .
 scopeData
@@ -11218,8 +11212,6 @@ length
 )
 ;
 return
-compilationInfo
-.
 stencil
 .
 scopeData
@@ -11250,9 +11242,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 ScopeKind
 kind
 ParserVarScopeData
@@ -11388,8 +11380,6 @@ false
 *
 index
 =
-compilationInfo
-.
 stencil
 .
 scopeData
@@ -11399,8 +11389,6 @@ length
 )
 ;
 return
-compilationInfo
-.
 stencil
 .
 scopeData
@@ -11431,9 +11419,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 ScopeKind
 kind
 ParserGlobalScopeData
@@ -11544,8 +11532,6 @@ false
 *
 index
 =
-compilationInfo
-.
 stencil
 .
 scopeData
@@ -11555,8 +11541,6 @@ length
 )
 ;
 return
-compilationInfo
-.
 stencil
 .
 scopeData
@@ -11587,9 +11571,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 ScopeKind
 kind
 ParserEvalScopeData
@@ -11724,8 +11708,6 @@ false
 *
 index
 =
-compilationInfo
-.
 stencil
 .
 scopeData
@@ -11735,8 +11717,6 @@ length
 )
 ;
 return
-compilationInfo
-.
 stencil
 .
 scopeData
@@ -11767,9 +11747,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 ParserModuleScopeData
 *
 data
@@ -11918,8 +11898,6 @@ false
 *
 index
 =
-compilationInfo
-.
 stencil
 .
 scopeData
@@ -11929,8 +11907,6 @@ length
 )
 ;
 return
-compilationInfo
-.
 stencil
 .
 scopeData
@@ -12071,12 +12047,9 @@ createForWithScope
 JSContext
 *
 cx
-frontend
-:
-:
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 mozilla
 :
 :
@@ -12107,8 +12080,6 @@ envShape
 *
 index
 =
-compilationInfo
-.
 stencil
 .
 scopeData
@@ -12118,8 +12089,6 @@ length
 )
 ;
 return
-compilationInfo
-.
 stencil
 .
 scopeData
