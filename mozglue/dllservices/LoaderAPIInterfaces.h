@@ -188,6 +188,9 @@ void
 const
 LauncherError
 &
+const
+char
+*
 )
 ;
 virtual
