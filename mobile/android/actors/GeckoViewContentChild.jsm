@@ -1525,6 +1525,17 @@ aEvent
 type
 }
 ;
+if
+(
+!
+this
+.
+isContentWindow
+)
+{
+return
+;
+}
 switch
 (
 aEvent
