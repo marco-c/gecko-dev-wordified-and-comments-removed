@@ -120,17 +120,6 @@ typeName
 "
 arraybuffer
 "
-|
-|
-value
-.
-type
-=
-=
-=
-"
-arrayBuffer
-"
 )
 {
 return
