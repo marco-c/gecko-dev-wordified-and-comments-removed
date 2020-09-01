@@ -30,7 +30,7 @@ toString
 '
 [
 object
-Object
+Reflect
 ]
 '
 )
@@ -85,7 +85,7 @@ true
 ;
 for
 (
-var
+const
 name
 in
 Reflect
@@ -152,7 +152,7 @@ setPrototypeOf
 ;
 for
 (
-var
+const
 name
 of
 Reflect
@@ -165,6 +165,16 @@ Reflect
 {
 if
 (
+typeof
+name
+!
+=
+=
+"
+symbol
+"
+&
+&
 name
 !
 =
@@ -193,7 +203,7 @@ name
 }
 for
 (
-var
+const
 name
 of
 Object

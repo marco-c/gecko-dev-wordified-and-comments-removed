@@ -88,7 +88,7 @@ setPrototypeOf
 ;
 for
 (
-var
+const
 name
 of
 Reflect
@@ -101,6 +101,16 @@ Reflect
 {
 if
 (
+typeof
+name
+!
+=
+=
+"
+symbol
+"
+&
+&
 name
 !
 =
@@ -120,7 +130,7 @@ true
 }
 for
 (
-var
+const
 name
 of
 Object
