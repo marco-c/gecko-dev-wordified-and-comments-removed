@@ -2523,6 +2523,12 @@ internaluseonly
 changed
 "
 )
+&
+&
+!
+IsPrintingOrPrintPreview
+(
+)
 )
 {
 mChangeHintForPrefChange
