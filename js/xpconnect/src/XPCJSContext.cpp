@@ -4547,6 +4547,11 @@ privateFieldsEnabled
 =
 false
 ;
+bool
+privateMethodsEnabled
+=
+false
+;
 #
 ifdef
 NIGHTLY_BUILD
@@ -4580,7 +4585,6 @@ private_fields
 "
 )
 ;
-bool
 privateMethodsEnabled
 =
 Preferences
