@@ -99,13 +99,7 @@ ModuleLoadFrame
 delete
 ;
 static
-nt
-:
-:
-LoaderAPI
-:
-:
-InitDllBlocklistOOPFnPtr
+void
 StaticInit
 (
 nt
@@ -114,6 +108,12 @@ nt
 LoaderObserver
 *
 aNewObserver
+nt
+:
+:
+WinLauncherFunctions
+*
+aOutWinLauncherFunctions
 )
 ;
 private
