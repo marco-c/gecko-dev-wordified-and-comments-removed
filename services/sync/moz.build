@@ -189,6 +189,13 @@ js
 '
 modules
 /
+SyncDisconnect
+.
+jsm
+'
+'
+modules
+/
 SyncedTabs
 .
 jsm
