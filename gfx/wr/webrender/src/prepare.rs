@@ -7633,7 +7633,7 @@ world_rect
 *
 device_pixel_scale
 .
-inv
+inverse
 (
 )
 ;

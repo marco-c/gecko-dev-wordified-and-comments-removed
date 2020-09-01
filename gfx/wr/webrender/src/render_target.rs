@@ -1098,7 +1098,7 @@ zero
 if
 alloc_size
 .
-is_empty_or_negative
+is_empty
 (
 )
 &

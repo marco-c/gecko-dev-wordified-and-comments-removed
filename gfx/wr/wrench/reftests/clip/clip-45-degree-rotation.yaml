@@ -52,6 +52,7 @@ transform
 :
 rotate
 (
+-
 45
 )
 translate
@@ -154,7 +155,6 @@ transform
 :
 rotate
 (
--
 45
 )
 translate
