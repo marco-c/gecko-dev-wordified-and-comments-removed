@@ -97,7 +97,7 @@ uint32_t
 &
 count
 const
-nsCString
+nsDependentCSubstring
 &
 data
 )

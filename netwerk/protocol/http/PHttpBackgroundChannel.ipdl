@@ -82,7 +82,7 @@ uint64_t
 offset
 uint32_t
 count
-nsCString
+nsDependentCSubstring
 data
 bool
 dataFromSocketProcess

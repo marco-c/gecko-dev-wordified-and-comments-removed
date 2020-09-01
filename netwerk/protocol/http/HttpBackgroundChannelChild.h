@@ -175,7 +175,7 @@ uint32_t
 &
 aCount
 const
-nsCString
+nsDependentCSubstring
 &
 aData
 const
