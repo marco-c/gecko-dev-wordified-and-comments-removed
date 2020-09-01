@@ -2803,6 +2803,9 @@ validEvents
 =
 [
 "
+click
+"
+"
 command
 "
 "
