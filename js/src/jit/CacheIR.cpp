@@ -25320,16 +25320,6 @@ elements
 "
 )
 ;
-MOZ_ASSERT
-(
-thisarray
--
->
-lengthIsWritable
-(
-)
-)
-;
 Int32OperandId
 argcId
 (
