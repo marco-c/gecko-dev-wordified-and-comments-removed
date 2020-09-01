@@ -1365,6 +1365,7 @@ Ok
 )
 )
 }
+pub
 fn
 reserve
 (

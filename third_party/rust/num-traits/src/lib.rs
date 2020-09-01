@@ -245,7 +245,12 @@ ops
 saturating
 :
 :
+{
 Saturating
+SaturatingAdd
+SaturatingMul
+SaturatingSub
+}
 ;
 pub
 use
@@ -258,6 +263,7 @@ wrapping
 {
 WrappingAdd
 WrappingMul
+WrappingNeg
 WrappingShl
 WrappingShr
 WrappingSub
