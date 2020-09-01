@@ -23374,16 +23374,11 @@ PreliminaryObjectAction
 Unlink
 ;
 }
-ObjOperandId
-holderId
-=
-objId
-;
 writer
 .
 guardShape
 (
-holderId
+objId
 oldShape
 )
 ;
@@ -23463,7 +23458,7 @@ writer
 .
 addAndStoreFixedSlot
 (
-holderId
+objId
 offset
 rhsValId
 changeGroup
@@ -23536,7 +23531,7 @@ writer
 .
 addAndStoreDynamicSlot
 (
-holderId
+objId
 offset
 rhsValId
 changeGroup
@@ -23565,7 +23560,7 @@ writer
 .
 allocateAndStoreDynamicSlot
 (
-holderId
+objId
 offset
 rhsValId
 changeGroup
