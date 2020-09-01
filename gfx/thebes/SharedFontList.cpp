@@ -2918,7 +2918,7 @@ if
 faceMap
 )
 {
-return
+continue
 ;
 }
 if
@@ -2980,6 +2980,13 @@ faceMap
 if
 (
 merged
+|
+|
+firstMapShmPointer
+.
+IsNull
+(
+)
 )
 {
 mCharacterMap
