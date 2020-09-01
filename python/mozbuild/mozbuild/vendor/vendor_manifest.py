@@ -232,9 +232,14 @@ print
 "
 %
 s
+%
+s
 "
 %
+(
 commit
+timestamp
+)
 )
             
 return
