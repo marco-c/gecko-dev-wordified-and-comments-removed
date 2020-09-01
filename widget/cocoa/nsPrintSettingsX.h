@@ -60,6 +60,15 @@ nsPrintSettingsX
 (
 )
 ;
+explicit
+nsPrintSettingsX
+(
+const
+PrintSettingsInitializer
+&
+aSettings
+)
+;
 nsresult
 Init
 (
