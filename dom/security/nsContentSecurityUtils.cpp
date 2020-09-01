@@ -1508,11 +1508,10 @@ INTERNET_MAX_URL_LENGTH
 ;
 HRESULT
 hr
-=
-:
-:
-CoInternetParseUrl
+;
+SAFECALL_URLMON_FUNC
 (
+CoInternetParseUrl
 fileName
 .
 get
