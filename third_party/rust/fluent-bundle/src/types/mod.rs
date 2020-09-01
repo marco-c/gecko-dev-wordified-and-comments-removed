@@ -880,6 +880,8 @@ Box
 <
 dyn
 FluentType
++
+Send
 >
 ;
 fn
@@ -935,6 +937,8 @@ PartialEq
 for
 dyn
 FluentType
++
+Send
 {
 fn
 eq
@@ -1103,6 +1107,8 @@ Box
 <
 dyn
 FluentType
++
+Send
 >
 )
 Error
@@ -1304,6 +1310,8 @@ Box
 <
 dyn
 FluentType
++
+Send
 >
 =
 s

@@ -1324,7 +1324,7 @@ operands
 f
 *
 =
-10_usize
+10_u64
 .
 pow
 (
