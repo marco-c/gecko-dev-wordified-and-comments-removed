@@ -321,6 +321,16 @@ settings
 =
 Fewer
 settings
+printui
+-
+paper
+-
+size
+-
+label
+=
+Paper
+size
 #
 Section
 title
