@@ -100,8 +100,9 @@ d
 ln
 -
 s
-.
-.
+{
+CURDIR
+}
 /
 .
 .
@@ -153,6 +154,11 @@ certs
 tools
 /
 wptrunner
+tools
+/
+third_party
+/
+pywebsocket3
 (
 SPHINXBUILD
 )
