@@ -1156,7 +1156,7 @@ module
 table
 t
 10
-anyref
+externref
 )
 (
 func
@@ -1204,7 +1204,7 @@ module
 table
 t
 10
-anyref
+externref
 )
 (
 func
@@ -1258,7 +1258,7 @@ module
 table
 t
 10
-anyref
+externref
 )
 (
 func
@@ -1318,7 +1318,7 @@ module
 table
 t
 10
-anyref
+externref
 )
 (
 func
@@ -1385,7 +1385,7 @@ module
 table
 t
 10
-anyref
+externref
 )
 (
 func
@@ -1452,7 +1452,7 @@ module
 table
 t
 10
-anyref
+externref
 )
 (
 func
@@ -1519,7 +1519,7 @@ module
 table
 t
 10
-anyref
+externref
 )
 (
 func
@@ -1589,7 +1589,7 @@ func
 (
 param
 v
-anyref
+externref
 )
 (
 table

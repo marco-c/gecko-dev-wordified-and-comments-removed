@@ -64,7 +64,7 @@ S
 x
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -80,11 +80,11 @@ make
 (
 param
 v
-anyref
+externref
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -150,7 +150,7 @@ S
 x
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -165,7 +165,7 @@ make
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -191,11 +191,11 @@ get
 (
 param
 o
-anyref
+externref
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -207,7 +207,7 @@ S
 struct
 .
 narrow
-anyref
+externref
 (
 ref
 opt
@@ -283,7 +283,7 @@ S
 x
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -298,7 +298,7 @@ make
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -324,11 +324,11 @@ get
 (
 param
 o
-anyref
+externref
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -340,7 +340,7 @@ S
 struct
 .
 narrow
-anyref
+externref
 (
 ref
 opt
@@ -514,7 +514,7 @@ S
 x
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -529,7 +529,7 @@ make
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -597,7 +597,7 @@ S
 x
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -612,7 +612,7 @@ make
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -720,7 +720,7 @@ map
 >
 (
 field
-anyref
+externref
 )
 )
 .
@@ -750,7 +750,7 @@ param
 {
 i
 }
-anyref
+externref
 )
 )
 .
@@ -819,7 +819,7 @@ params
 }
 (
 result
-anyref
+externref
 )
 (
 struct
