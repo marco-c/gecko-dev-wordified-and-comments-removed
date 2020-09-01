@@ -1058,7 +1058,7 @@ langpack
 .
 enabled
 "
-false
+true
 )
 ;
 pref
