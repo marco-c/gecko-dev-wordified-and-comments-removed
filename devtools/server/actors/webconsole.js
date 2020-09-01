@@ -944,9 +944,6 @@ this
 traits
 =
 {
-newCacheStructure
-:
-true
 blockedUrls
 :
 true
