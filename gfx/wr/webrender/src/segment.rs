@@ -35,7 +35,6 @@ util
 :
 {
 extract_inner_rect_safe
-RectHelpers
 }
 ;
 use
@@ -886,10 +885,9 @@ has_interesting_clips
 true
 ;
 if
-!
 inner_rect
 .
-is_well_formed_and_nonempty
+is_empty
 (
 )
 {
