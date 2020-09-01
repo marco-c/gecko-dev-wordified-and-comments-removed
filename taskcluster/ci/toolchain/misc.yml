@@ -797,6 +797,8 @@ node
 wasi
 -
 sysroot
+-
+9
 :
 description
 :
@@ -804,7 +806,10 @@ description
 wasi
 sysroot
 build
-process
+using
+clang
+-
+9
 "
 attributes
 :
@@ -863,6 +868,13 @@ sysroot
 tar
 .
 xz
+toolchain
+-
+alias
+:
+wasi
+-
+sysroot
 fetches
 :
 fetch

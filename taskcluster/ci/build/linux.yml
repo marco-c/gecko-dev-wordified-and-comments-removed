@@ -4266,6 +4266,8 @@ linux64
 -
 clang
 -
+9
+-
 linux64
 -
 rust
@@ -4305,6 +4307,8 @@ lucetc
 wasi
 -
 sysroot
+-
+9
 linux64
 -
 fuzzing
@@ -4483,6 +4487,8 @@ linux64
 -
 clang
 -
+9
+-
 linux64
 -
 gcc
@@ -4528,6 +4534,8 @@ lucetc
 wasi
 -
 sysroot
+-
+9
 optimization
 :
 build
@@ -6143,6 +6151,8 @@ linux64
 -
 clang
 -
+9
+-
 linux64
 -
 rust
@@ -6186,6 +6196,8 @@ lucetc
 wasi
 -
 sysroot
+-
+9
 linux64
 -
 add
