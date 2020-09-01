@@ -7177,9 +7177,10 @@ JitOptions
 warpBuilder
 &
 &
+!
 JitOptions
 .
-warpTrialInlining
+disableInlining
 )
 {
 Label

@@ -484,12 +484,6 @@ false
 ;
 SET_DEFAULT
 (
-warpTrialInlining
-false
-)
-;
-SET_DEFAULT
-(
 jitForTrustedPrincipals
 false
 )

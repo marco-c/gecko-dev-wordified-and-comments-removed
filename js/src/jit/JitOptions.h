@@ -200,9 +200,6 @@ bool
 warpBuilder
 ;
 bool
-warpTrialInlining
-;
-bool
 jitForTrustedPrincipals
 ;
 bool
