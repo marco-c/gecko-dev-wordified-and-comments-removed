@@ -1284,7 +1284,7 @@ as
 long
 as
 the
-BrowsingContext
+WindowGlobalChild
 they
 '
 re
