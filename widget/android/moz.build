@@ -193,6 +193,9 @@ ImageDecoder
 MediaDrmProxy
 '
 '
+MediaSession
+'
+'
 PanZoomController
 '
 '
