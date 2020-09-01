@@ -5360,6 +5360,9 @@ false
 cost_estimate
 :
 5
+custom_writer
+:
+true
 args
 :
 receiver
@@ -5371,6 +5374,9 @@ ObjectField
 sameRealm
 :
 BoolImm
+nargsAndFlags
+:
+RawWordField
 -
 name
 :
@@ -5384,6 +5390,9 @@ false
 cost_estimate
 :
 5
+custom_writer
+:
+true
 args
 :
 receiver
@@ -5392,6 +5401,9 @@ ValId
 getter
 :
 ObjectField
+nargsAndFlags
+:
+RawWordField
 -
 name
 :
