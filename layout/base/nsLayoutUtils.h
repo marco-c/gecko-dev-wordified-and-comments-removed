@@ -6286,9 +6286,9 @@ aLayerManager
 ViewID
 aScrollParentId
 const
-nsRect
+nsSize
 &
-aViewport
+aScrollPortSize
 const
 mozilla
 :
