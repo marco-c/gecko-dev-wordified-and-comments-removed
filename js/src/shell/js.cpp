@@ -29648,6 +29648,8 @@ if
 !
 compilationInfo
 .
+input
+.
 init
 (
 cx
@@ -30262,6 +30264,8 @@ if
 (
 !
 compilationInfo
+.
+input
 .
 init
 (

@@ -572,6 +572,8 @@ MOZ_ASSERT
 (
 compilationInfo
 .
+input
+.
 source
 (
 )
@@ -1083,8 +1085,11 @@ if
 !
 compilationInfo
 .
+input
+.
 assignSource
 (
+cx
 srcBuf
 )
 )
@@ -1933,8 +1938,13 @@ if
 !
 compilationInfo
 .
+input
+.
 assignSource
 (
+compilationInfo
+.
+cx
 sourceBuffer_
 )
 )
@@ -2034,6 +2044,8 @@ parser
 ss
 =
 compilationInfo
+.
+input
 .
 source
 (
@@ -2546,6 +2558,8 @@ if
 !
 compilationInfo
 .
+input
+.
 source
 (
 )
@@ -2869,6 +2883,8 @@ if
 (
 !
 compilationInfo
+.
+input
 .
 source
 (
@@ -3313,6 +3329,8 @@ if
 !
 compilationInfo
 .
+input
+.
 source
 (
 )
@@ -3440,6 +3458,8 @@ if
 !
 compilationInfo
 .
+input
+.
 init
 (
 cx
@@ -3451,6 +3471,8 @@ nullptr
 ;
 }
 compilationInfo
+.
+input
 .
 setEnclosingScope
 (
@@ -3958,6 +3980,8 @@ enclosingScope
 ;
 compilationInfo
 .
+input
+.
 initFromLazy
 (
 lazy
@@ -4391,6 +4415,8 @@ if
 !
 compilationInfo
 .
+input
+.
 initForStandaloneFunction
 (
 cx
@@ -4490,6 +4516,8 @@ parameterListEnd
 )
 {
 compilationInfo
+.
+input
 .
 source
 (
@@ -4752,7 +4780,7 @@ bool
 frontend
 :
 :
-CompilationInfo
+CompilationInput
 :
 :
 init
@@ -4798,8 +4826,6 @@ ss
 initFromOptions
 (
 cx
-input
-.
 options
 )
 ;
