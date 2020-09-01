@@ -3236,10 +3236,7 @@ f64
 break
 ;
 case
-TypeCode
-:
-:
-NullableRef
+AbstractReferenceTypeCode
 :
 v
 .
