@@ -28614,7 +28614,9 @@ JS_JITSPEW
 )
 compilationInfo
 .
-dumpStencil
+stencil
+.
+dump
 (
 )
 ;
@@ -28828,7 +28830,9 @@ JS_JITSPEW
 )
 compilationInfo
 .
-dumpStencil
+stencil
+.
+dump
 (
 )
 ;
@@ -29817,7 +29821,9 @@ ifdef
 DEBUG
 compilationInfo
 .
-dumpStencil
+stencil
+.
+dump
 (
 )
 ;
