@@ -766,6 +766,11 @@ regExpData
 Vector
 <
 BigIntStencil
+0
+js
+:
+:
+SystemAllocPolicy
 >
 bigIntData
 ;
@@ -815,10 +820,6 @@ JSContext
 cx
 )
 :
-bigIntData
-(
-cx
-)
 objLiteralData
 (
 cx
