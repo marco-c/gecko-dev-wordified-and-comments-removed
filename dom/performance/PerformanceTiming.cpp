@@ -2138,7 +2138,10 @@ IsNull
 )
 {
 return
-mZeroTime
+ConnectStartHighRes
+(
+aPerformance
+)
 ;
 }
 DOMHighResTimeStamp
