@@ -387,6 +387,3 @@ stack
 "
 "
 progbits
-;
-.
-previous
