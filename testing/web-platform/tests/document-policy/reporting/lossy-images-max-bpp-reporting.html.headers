@@ -2,11 +2,13 @@ Document
 -
 Policy
 :
-unoptimized
--
 lossy
 -
 images
+-
+max
+-
+bpp
 =
 0
 .
