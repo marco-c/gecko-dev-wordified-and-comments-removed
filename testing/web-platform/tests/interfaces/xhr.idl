@@ -214,7 +214,7 @@ readyState
 /
 /
 request
-void
+undefined
 open
 (
 ByteString
@@ -223,7 +223,7 @@ USVString
 url
 )
 ;
-void
+undefined
 open
 (
 ByteString
@@ -246,7 +246,7 @@ password
 null
 )
 ;
-void
+undefined
 setRequestHeader
 (
 ByteString
@@ -272,7 +272,7 @@ attribute
 XMLHttpRequestUpload
 upload
 ;
-void
+undefined
 send
 (
 optional
@@ -287,7 +287,7 @@ body
 null
 )
 ;
-void
+undefined
 abort
 (
 )
@@ -324,7 +324,7 @@ getAllResponseHeaders
 (
 )
 ;
-void
+undefined
 overrideMimeType
 (
 DOMString
@@ -384,7 +384,7 @@ HTMLFormElement
 form
 )
 ;
-void
+undefined
 append
 (
 USVString
@@ -393,7 +393,7 @@ USVString
 value
 )
 ;
-void
+undefined
 append
 (
 USVString
@@ -405,7 +405,7 @@ USVString
 filename
 )
 ;
-void
+undefined
 delete
 (
 USVString
@@ -437,7 +437,7 @@ USVString
 name
 )
 ;
-void
+undefined
 set
 (
 USVString
@@ -446,7 +446,7 @@ USVString
 value
 )
 ;
-void
+undefined
 set
 (
 USVString
