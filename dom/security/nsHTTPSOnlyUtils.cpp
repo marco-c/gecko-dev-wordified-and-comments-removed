@@ -876,6 +876,14 @@ nsILoadInfo
 :
 :
 HTTPS_ONLY_EXEMPT
+|
+|
+httpsOnlyStatus
+&
+nsILoadInfo
+:
+:
+HTTPS_ONLY_UNINITIALIZED
 )
 {
 return
