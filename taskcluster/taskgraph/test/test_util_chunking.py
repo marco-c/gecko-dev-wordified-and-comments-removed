@@ -29,6 +29,13 @@ taskgraph
 util
 import
 chunking
+pytestmark
+=
+pytest
+.
+mark
+.
+slow
 pytest
 .
 fixture
