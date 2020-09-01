@@ -4479,7 +4479,7 @@ toolbarIsCustomized
 |
 PlacesUtils
 .
-getToolbarFolderCount
+getChildCountForFolder
 (
 PlacesUtils
 .
