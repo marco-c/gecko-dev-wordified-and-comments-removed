@@ -1828,6 +1828,8 @@ cx
 compilationInfo
 compilationInfo
 .
+state
+.
 directives
 extent
 )
@@ -2404,6 +2406,8 @@ evalsc
 cx
 compilationInfo
 compilationInfo
+.
+state
 .
 directives
 extent

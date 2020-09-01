@@ -28796,6 +28796,8 @@ finishFunctionDecls
 (
 compilationInfo
 .
+stencil
+.
 moduleMetadata
 )
 ;

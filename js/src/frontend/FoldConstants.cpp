@@ -6683,6 +6683,8 @@ info
 .
 compilationInfo
 .
+stencil
+.
 parserAtoms
 .
 concatAtoms

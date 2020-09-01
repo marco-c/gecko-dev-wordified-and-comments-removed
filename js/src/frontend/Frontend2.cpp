@@ -391,6 +391,8 @@ atom
 =
 compilationInfo
 .
+stencil
+.
 parserAtoms
 .
 internUtf8
@@ -699,6 +701,8 @@ auto
 alloc
 =
 compilationInfo
+.
+state
 .
 allocScope
 .
@@ -1584,6 +1588,8 @@ ts
 cx
 compilationInfo
 .
+input
+.
 options
 nullptr
 )
@@ -1624,6 +1630,8 @@ index
 (
 compilationInfo
 .
+stencil
+.
 regExpData
 .
 length
@@ -1635,6 +1643,8 @@ if
 (
 !
 compilationInfo
+.
+stencil
 .
 regExpData
 .
@@ -1651,6 +1661,8 @@ if
 (
 !
 compilationInfo
+.
+stencil
 .
 regExpData
 [
@@ -2201,6 +2213,8 @@ ReadOnlyCompileOptions
 options
 =
 compilationInfo
+.
+input
 .
 options
 ;
@@ -2801,6 +2815,8 @@ options
 =
 compilationInfo
 .
+input
+.
 options
 ;
 SmooshCompileOptions
@@ -2991,6 +3007,8 @@ if
 !
 compilationInfo
 .
+stencil
+.
 scriptData
 .
 reserve
@@ -3010,6 +3028,8 @@ false
 ;
 }
 compilationInfo
+.
+stencil
 .
 scriptData
 .
@@ -3031,6 +3051,8 @@ top_level_script
 allAtoms
 compilationInfo
 compilationInfo
+.
+stencil
 .
 scriptData
 [
@@ -3068,6 +3090,8 @@ i
 {
 compilationInfo
 .
+stencil
+.
 scriptData
 .
 infallibleEmplaceBack
@@ -3093,6 +3117,8 @@ i
 allAtoms
 compilationInfo
 compilationInfo
+.
+stencil
 .
 scriptData
 [
@@ -3213,6 +3239,8 @@ Disassemble
 cx
 compilationInfo
 .
+gcOutput
+.
 script
 true
 &
@@ -3251,6 +3279,8 @@ Disassemble
 cx
 compilationInfo
 .
+gcOutput
+.
 script
 true
 &
@@ -3270,6 +3300,8 @@ nullptr
 endif
 return
 compilationInfo
+.
+gcOutput
 .
 script
 ;

@@ -1705,6 +1705,8 @@ scriptId_
 (
 compilationInfo
 .
+state
+.
 usedNames
 .
 nextScriptId
@@ -1743,6 +1745,8 @@ cx
 parent
 compilationInfo
 .
+state
+.
 usedNames
 )
 ;
@@ -1754,6 +1758,8 @@ emplace
 cx
 parent
 compilationInfo
+.
+state
 .
 usedNames
 )
@@ -2259,6 +2265,8 @@ sc
 compilationInfo
 (
 )
+.
+input
 .
 enclosingScope
 ;

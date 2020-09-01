@@ -263,6 +263,8 @@ if
 (
 compilationInfo
 .
+input
+.
 options
 .
 selfHostingMode
@@ -271,6 +273,8 @@ selfHostingMode
 MOZ_ASSERT
 (
 compilationInfo
+.
+input
 .
 enclosingScope
 =
@@ -302,6 +306,8 @@ return
 AbstractScopePtr
 (
 compilationInfo
+.
+input
 .
 enclosingScope
 )
@@ -821,6 +827,8 @@ length
 function
 compilationInfo
 .
+gcOutput
+.
 sourceObject
 script
 .
@@ -1102,6 +1110,8 @@ asmJS
 =
 compilationInfo
 .
+stencil
+.
 asmJS
 .
 lookup
@@ -1180,6 +1190,8 @@ source
 ;
 compilationInfo
 .
+gcOutput
+.
 sourceObject
 =
 ScriptSourceObject
@@ -1199,6 +1211,8 @@ if
 (
 !
 compilationInfo
+.
+gcOutput
 .
 sourceObject
 )
@@ -1229,8 +1243,12 @@ initFromOptions
 cx
 compilationInfo
 .
+gcOutput
+.
 sourceObject
 compilationInfo
+.
+input
 .
 options
 )
@@ -1261,6 +1279,8 @@ if
 (
 compilationInfo
 .
+stencil
+.
 scriptData
 [
 CompilationInfo
@@ -1275,6 +1295,8 @@ isModule
 )
 {
 compilationInfo
+.
+gcOutput
 .
 module
 =
@@ -1291,6 +1313,8 @@ if
 !
 compilationInfo
 .
+gcOutput
+.
 module
 )
 {
@@ -1303,6 +1327,8 @@ if
 !
 compilationInfo
 .
+stencil
+.
 moduleMetadata
 .
 initModule
@@ -1310,6 +1336,8 @@ initModule
 cx
 compilationInfo
 compilationInfo
+.
+gcOutput
 .
 module
 )
@@ -1396,6 +1424,8 @@ false
 }
 compilationInfo
 .
+gcOutput
+.
 functions
 [
 functionIndex
@@ -1428,11 +1458,15 @@ if
 !
 compilationInfo
 .
+gcOutput
+.
 scopes
 .
 reserve
 (
 compilationInfo
+.
+stencil
 .
 scopeData
 .
@@ -1453,6 +1487,8 @@ auto
 scd
 :
 compilationInfo
+.
+stencil
 .
 scopeData
 )
@@ -1480,6 +1516,8 @@ false
 ;
 }
 compilationInfo
+.
+gcOutput
 .
 scopes
 .
@@ -1815,6 +1853,8 @@ MOZ_ASSERT
 (
 compilationInfo
 .
+input
+.
 lazy
 =
 =
@@ -1861,6 +1901,8 @@ script
 =
 compilationInfo
 .
+stencil
+.
 scriptData
 [
 CompilationInfo
@@ -1887,6 +1929,8 @@ isFunction
 fun
 =
 compilationInfo
+.
+gcOutput
 .
 functions
 [
@@ -1923,10 +1967,14 @@ if
 (
 compilationInfo
 .
+input
+.
 lazy
 )
 {
 compilationInfo
+.
+gcOutput
 .
 script
 =
@@ -1936,6 +1984,8 @@ JSScript
 CastFromLazy
 (
 compilationInfo
+.
+input
 .
 lazy
 )
@@ -1950,6 +2000,8 @@ cx
 compilationInfo
 compilationInfo
 .
+gcOutput
+.
 script
 script
 fun
@@ -1957,6 +2009,8 @@ fun
 ;
 }
 compilationInfo
+.
+gcOutput
 .
 script
 =
@@ -1976,6 +2030,8 @@ if
 !
 compilationInfo
 .
+gcOutput
+.
 script
 )
 {
@@ -1994,6 +2050,8 @@ isModule
 {
 compilationInfo
 .
+gcOutput
+.
 module
 -
 >
@@ -2001,10 +2059,14 @@ initScriptSlots
 (
 compilationInfo
 .
+gcOutput
+.
 script
 )
 ;
 compilationInfo
+.
+gcOutput
 .
 module
 -
@@ -2023,6 +2085,8 @@ createEnvironment
 (
 cx
 compilationInfo
+.
+gcOutput
 .
 module
 )
@@ -2147,6 +2211,8 @@ Scope
 scope
 =
 compilationInfo
+.
+gcOutput
 .
 scopes
 [
@@ -2363,6 +2429,8 @@ MOZ_ASSERT
 (
 compilationInfo
 .
+input
+.
 lazy
 )
 ;
@@ -2372,6 +2440,8 @@ idx
 0
 ;
 compilationInfo
+.
+gcOutput
 .
 functions
 [
@@ -2383,6 +2453,8 @@ idx
 set
 (
 compilationInfo
+.
+input
 .
 lazy
 -
@@ -2401,6 +2473,8 @@ GCCellPtr
 elem
 :
 compilationInfo
+.
+input
 .
 lazy
 -
@@ -2427,6 +2501,8 @@ continue
 ;
 }
 compilationInfo
+.
+gcOutput
 .
 functions
 [
@@ -2463,6 +2539,8 @@ idx
 =
 compilationInfo
 .
+gcOutput
+.
 functions
 .
 length
@@ -2482,10 +2560,14 @@ instantiateStencils
 if
 (
 !
+gcOutput
+.
 functions
 .
 resize
 (
+stencil
+.
 scriptData
 .
 length
@@ -2500,6 +2582,8 @@ false
 }
 if
 (
+input
+.
 lazy
 )
 {
@@ -2626,6 +2710,8 @@ this
 ;
 if
 (
+input
+.
 lazy
 =
 =
@@ -6505,6 +6591,8 @@ auto
 &
 data
 :
+stencil
+.
 scriptData
 )
 {
@@ -6537,6 +6625,8 @@ auto
 &
 data
 :
+stencil
+.
 regExpData
 )
 {
@@ -6569,6 +6659,8 @@ auto
 &
 data
 :
+stencil
+.
 bigIntData
 )
 {
@@ -6601,6 +6693,8 @@ auto
 &
 data
 :
+stencil
+.
 objLiteralData
 )
 {
@@ -6633,6 +6727,8 @@ auto
 &
 data
 :
+stencil
+.
 scopeData
 )
 {
@@ -6652,6 +6748,8 @@ endList
 ;
 if
 (
+stencil
+.
 scriptData
 [
 CompilationInfo
@@ -6674,6 +6772,8 @@ moduleMetadata
 "
 )
 ;
+stencil
+.
 moduleMetadata
 .
 dumpFields

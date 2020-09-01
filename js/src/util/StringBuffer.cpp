@@ -910,6 +910,8 @@ result
 =
 compilationInfo
 .
+stencil
+.
 parserAtoms
 .
 internLatin1
@@ -958,6 +960,8 @@ auto
 result
 =
 compilationInfo
+.
+stencil
 .
 parserAtoms
 .

@@ -8374,6 +8374,8 @@ objIndex
 (
 compilationInfo
 .
+stencil
+.
 objLiteralData
 .
 length
@@ -8385,6 +8387,8 @@ if
 (
 !
 compilationInfo
+.
+stencil
 .
 objLiteralData
 .
@@ -8403,6 +8407,8 @@ ObjLiteralStencil
 data
 =
 compilationInfo
+.
+stencil
 .
 objLiteralData
 .
@@ -12838,6 +12844,8 @@ intoScriptStencil
 (
 &
 compilationInfo
+.
+stencil
 .
 scriptData
 [
@@ -21614,6 +21622,8 @@ objIndex
 (
 compilationInfo
 .
+stencil
+.
 objLiteralData
 .
 length
@@ -21625,6 +21635,8 @@ if
 (
 !
 compilationInfo
+.
+stencil
 .
 objLiteralData
 .
@@ -21643,6 +21655,8 @@ ObjLiteralStencil
 data
 =
 compilationInfo
+.
+stencil
 .
 objLiteralData
 .
@@ -40666,6 +40680,8 @@ objIndex
 (
 compilationInfo
 .
+stencil
+.
 objLiteralData
 .
 length
@@ -40677,6 +40693,8 @@ if
 (
 !
 compilationInfo
+.
+stencil
 .
 objLiteralData
 .
@@ -40695,6 +40713,8 @@ ObjLiteralStencil
 data
 =
 compilationInfo
+.
+stencil
 .
 objLiteralData
 .
@@ -41061,6 +41081,8 @@ objIndex
 (
 compilationInfo
 .
+stencil
+.
 objLiteralData
 .
 length
@@ -41072,6 +41094,8 @@ if
 (
 !
 compilationInfo
+.
+stencil
 .
 objLiteralData
 .
@@ -41090,6 +41114,8 @@ ObjLiteralStencil
 data
 =
 compilationInfo
+.
+stencil
 .
 objLiteralData
 .
@@ -41342,6 +41368,8 @@ objIndex
 (
 compilationInfo
 .
+stencil
+.
 objLiteralData
 .
 length
@@ -41353,6 +41381,8 @@ if
 (
 !
 compilationInfo
+.
+stencil
 .
 objLiteralData
 .
@@ -41371,6 +41401,8 @@ ObjLiteralStencil
 data
 =
 compilationInfo
+.
+stencil
 .
 objLiteralData
 .
@@ -43667,6 +43699,8 @@ MOZ_RELEASE_ASSERT
 (
 compilationInfo
 .
+state
+.
 scopeContext
 .
 memberInitializers
@@ -43675,6 +43709,8 @@ memberInitializers
 return
 *
 compilationInfo
+.
+state
 .
 scopeContext
 .

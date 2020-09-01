@@ -4671,6 +4671,8 @@ si
 return
 compilationInfo
 .
+stencil
+.
 parserAtoms
 .
 internAscii
@@ -8990,6 +8992,8 @@ numStr
 ;
 return
 compilationInfo
+.
+stencil
 .
 parserAtoms
 .

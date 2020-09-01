@@ -4748,6 +4748,8 @@ cx
 compilationInfo
 compilationInfo
 .
+state
+.
 directives
 extent
 )
@@ -4845,6 +4847,8 @@ cx
 scopeKind
 compilationInfo
 compilationInfo
+.
+state
 .
 directives
 extent

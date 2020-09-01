@@ -4514,6 +4514,8 @@ this
 compilationInfo
 -
 >
+stencil
+.
 parserAtoms
 .
 internChar16
@@ -5163,6 +5165,8 @@ this
 compilationInfo
 -
 >
+stencil
+.
 parserAtoms
 .
 internChar16
@@ -5231,6 +5235,8 @@ this
 compilationInfo
 -
 >
+stencil
+.
 parserAtoms
 .
 internUtf8

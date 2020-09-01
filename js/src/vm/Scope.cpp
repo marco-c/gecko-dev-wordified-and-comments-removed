@@ -11020,6 +11020,8 @@ index
 =
 compilationInfo
 .
+stencil
+.
 scopeData
 .
 length
@@ -11028,6 +11030,8 @@ length
 ;
 return
 compilationInfo
+.
+stencil
 .
 scopeData
 .
@@ -11205,6 +11209,8 @@ index
 =
 compilationInfo
 .
+stencil
+.
 scopeData
 .
 length
@@ -11213,6 +11219,8 @@ length
 ;
 return
 compilationInfo
+.
+stencil
 .
 scopeData
 .
@@ -11382,6 +11390,8 @@ index
 =
 compilationInfo
 .
+stencil
+.
 scopeData
 .
 length
@@ -11390,6 +11400,8 @@ length
 ;
 return
 compilationInfo
+.
+stencil
 .
 scopeData
 .
@@ -11534,6 +11546,8 @@ index
 =
 compilationInfo
 .
+stencil
+.
 scopeData
 .
 length
@@ -11542,6 +11556,8 @@ length
 ;
 return
 compilationInfo
+.
+stencil
 .
 scopeData
 .
@@ -11710,6 +11726,8 @@ index
 =
 compilationInfo
 .
+stencil
+.
 scopeData
 .
 length
@@ -11718,6 +11736,8 @@ length
 ;
 return
 compilationInfo
+.
+stencil
 .
 scopeData
 .
@@ -11900,6 +11920,8 @@ index
 =
 compilationInfo
 .
+stencil
+.
 scopeData
 .
 length
@@ -11908,6 +11930,8 @@ length
 ;
 return
 compilationInfo
+.
+stencil
 .
 scopeData
 .
@@ -12085,6 +12109,8 @@ index
 =
 compilationInfo
 .
+stencil
+.
 scopeData
 .
 length
@@ -12093,6 +12119,8 @@ length
 ;
 return
 compilationInfo
+.
+stencil
 .
 scopeData
 .
@@ -12223,6 +12251,8 @@ canonicalFunction
 =
 compilationInfo
 .
+gcOutput
+.
 functions
 [
 *
@@ -12303,6 +12333,8 @@ data
 module
 =
 compilationInfo
+.
+gcOutput
 .
 module
 ;
