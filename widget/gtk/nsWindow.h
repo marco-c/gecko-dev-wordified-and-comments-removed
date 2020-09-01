@@ -2468,6 +2468,17 @@ GetTextDirection
 (
 )
 ;
+void
+AddCSDDecorationSize
+(
+int
+*
+aWidth
+int
+*
+aHeight
+)
+;
 #
 ifdef
 MOZ_X11

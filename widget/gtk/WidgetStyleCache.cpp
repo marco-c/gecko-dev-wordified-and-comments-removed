@@ -3089,6 +3089,12 @@ CreateComboBoxEntryArrowWidget
 )
 ;
 case
+MOZ_GTK_HEADERBAR_WINDOW
+:
+case
+MOZ_GTK_HEADERBAR_WINDOW_MAXIMIZED
+:
+case
 MOZ_GTK_HEADER_BAR
 :
 case
