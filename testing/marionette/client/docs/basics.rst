@@ -833,15 +833,6 @@ switch_to_frame
 (
 iframe
 )
-assert
-iframe
-=
-=
-client
-.
-get_active_frame
-(
-)
 Finally
 Marionette
 can

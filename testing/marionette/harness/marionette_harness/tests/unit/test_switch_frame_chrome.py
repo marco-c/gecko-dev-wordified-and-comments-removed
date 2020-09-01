@@ -4,6 +4,10 @@ import
 absolute_import
 from
 marionette_driver
+import
+By
+from
+marionette_driver
 .
 errors
 import
@@ -180,14 +184,18 @@ failed
 "
 )
         
-iframe_element
-=
 self
 .
 marionette
 .
-get_active_frame
+find_element
 (
+By
+.
+ID
+"
+testBox
+"
 )
         
 self
@@ -196,26 +204,6 @@ marionette
 .
 switch_to_frame
 (
-)
-        
-self
-.
-assertEqual
-(
-None
-self
-.
-marionette
-.
-get_active_frame
-(
-)
-"
-Switching
-by
-null
-failed
-"
 )
         
 self
@@ -242,13 +230,29 @@ failed
 "
 )
         
+iframe
+=
+self
+.
+marionette
+.
+find_element
+(
+By
+.
+ID
+"
+iframe
+"
+)
+        
 self
 .
 marionette
 .
 switch_to_frame
 (
-iframe_element
+iframe
 )
         
 self
@@ -272,6 +276,20 @@ Switching
 by
 element
 failed
+"
+)
+        
+self
+.
+marionette
+.
+find_element
+(
+By
+.
+ID
+"
+testBox
 "
 )
     
