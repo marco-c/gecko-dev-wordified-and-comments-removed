@@ -547,6 +547,10 @@ CompilationInfo
 &
 compilationInfo
 ;
+CompilationState
+&
+compilationState
+;
 uint32_t
 maxFixedSlots
 =
@@ -694,6 +698,9 @@ sc
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 EmitterMode
 emitterMode
 )
@@ -745,6 +752,9 @@ sc
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 EmitterMode
 emitterMode
 =
@@ -766,6 +776,9 @@ sc
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 EmitterMode
 emitterMode
 =
@@ -795,6 +808,9 @@ sc
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 EmitterMode
 emitterMode
 =
@@ -810,6 +826,7 @@ parser
 )
 sc
 compilationInfo
+compilationState
 emitterMode
 )
 {

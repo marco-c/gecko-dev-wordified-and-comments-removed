@@ -793,6 +793,9 @@ sc
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 EmitterMode
 emitterMode
 )
@@ -832,6 +835,10 @@ compilationInfo
 compilationInfo
 (
 compilationInfo
+)
+compilationState
+(
+compilationState
 )
 emitterMode
 (
@@ -893,6 +900,9 @@ sc
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 EmitterMode
 emitterMode
 )
@@ -902,6 +912,7 @@ BytecodeEmitter
 parent
 sc
 compilationInfo
+compilationState
 emitterMode
 )
 {
@@ -939,6 +950,9 @@ sc
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 EmitterMode
 emitterMode
 )
@@ -948,6 +962,7 @@ BytecodeEmitter
 parent
 sc
 compilationInfo
+compilationState
 emitterMode
 )
 {
@@ -26675,6 +26690,7 @@ this
 parser
 funbox
 compilationInfo
+compilationState
 emitterMode
 )
 ;
@@ -43158,6 +43174,7 @@ this
 parser
 funbox
 compilationInfo
+compilationState
 emitterMode
 )
 ;
@@ -43697,9 +43714,7 @@ memberInitializers
 }
 MOZ_RELEASE_ASSERT
 (
-compilationInfo
-.
-state
+compilationState
 .
 scopeContext
 .
@@ -43708,9 +43723,7 @@ memberInitializers
 ;
 return
 *
-compilationInfo
-.
-state
+compilationState
 .
 scopeContext
 .

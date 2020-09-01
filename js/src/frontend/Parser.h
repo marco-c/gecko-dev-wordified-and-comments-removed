@@ -243,11 +243,7 @@ tokenStream
 prs
 -
 >
-getCompilationInfo
-(
-)
-.
-state
+compilationState_
 newDirectives
 std
 :
@@ -352,6 +348,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 Kind
 kind
 )
@@ -375,6 +374,10 @@ alloc_
 CompilationInfo
 &
 compilationInfo_
+;
+CompilationState
+&
+compilationState_
 ;
 ParseContext
 *
@@ -582,6 +585,9 @@ foldConstants
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 )
 ;
 ~
@@ -1249,6 +1255,9 @@ foldConstants
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 BaseScript
 *
 lazyOuterFunction
@@ -1281,6 +1290,9 @@ foldConstants
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 GeneralParser
 <
 SyntaxParseHandler
@@ -1299,6 +1311,7 @@ cx
 options
 foldConstants
 compilationInfo
+compilationState
 lazyOuterFunction
 static_cast
 <
@@ -2849,6 +2862,9 @@ foldConstants
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 SyntaxParser
 *
 syntaxParser

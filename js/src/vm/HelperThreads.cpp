@@ -3390,7 +3390,6 @@ CompilationInfo
 compilationInfo
 (
 cx
-allocScope
 options
 )
 ;
@@ -3410,6 +3409,17 @@ cx
 return
 ;
 }
+frontend
+:
+:
+CompilationState
+compilationState
+(
+cx
+allocScope
+options
+)
+;
 uint32_t
 len
 =
@@ -3445,9 +3455,7 @@ globalsc
 cx
 scopeKind
 compilationInfo
-compilationInfo
-.
-state
+compilationState
 .
 directives
 extent
@@ -3471,6 +3479,7 @@ frontend
 CompileGlobalScript
 (
 compilationInfo
+compilationState
 globalsc
 data
 gcOutput

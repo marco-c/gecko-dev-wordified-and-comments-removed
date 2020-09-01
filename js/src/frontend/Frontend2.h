@@ -69,8 +69,14 @@ ScriptSourceObject
 namespace
 frontend
 {
-class
-GlobalScriptInfo
+struct
+CompilationInfo
+;
+struct
+CompilationGCOutput
+;
+struct
+CompilationState
 ;
 class
 Smoosh
@@ -84,6 +90,9 @@ compileGlobalScript
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 JS
 :
 :
@@ -111,6 +120,9 @@ compileGlobalScriptToStencil
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 JS
 :
 :
