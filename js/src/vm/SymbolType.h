@@ -86,6 +86,17 @@ include
 "
 js
 /
+shadow
+/
+Symbol
+.
+h
+"
+#
+include
+"
+js
+/
 Symbol
 .
 h
