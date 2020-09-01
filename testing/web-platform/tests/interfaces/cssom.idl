@@ -189,14 +189,14 @@ long
 index
 )
 ;
-void
+undefined
 appendMedium
 (
 CSSOMString
 medium
 )
 ;
-void
+undefined
 deleteMedium
 (
 CSSOMString
@@ -301,7 +301,7 @@ index
 0
 )
 ;
-void
+undefined
 deleteRule
 (
 unsigned
@@ -346,7 +346,7 @@ long
 index
 )
 ;
-void
+undefined
 removeRule
 (
 optional
@@ -634,7 +634,7 @@ index
 0
 )
 ;
-void
+undefined
 deleteRule
 (
 unsigned
@@ -768,7 +768,7 @@ property
 [
 CEReactions
 ]
-void
+undefined
 setProperty
 (
 CSSOMString
