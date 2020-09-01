@@ -798,6 +798,15 @@ SessionHistoryInfo
 aInfo
 )
 ;
+explicit
+SessionHistoryEntry
+(
+const
+SessionHistoryEntry
+&
+aEntry
+)
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISHENTRY
 NS_DECLARE_STATIC_IID_ACCESSOR
