@@ -1044,6 +1044,12 @@ nsHttpConnectionInfo
 >
 mConnInfo
 ;
+RefPtr
+<
+nsHttpConnectionInfo
+>
+mFallbackConnInfo
+;
 nsHttpRequestHead
 *
 mRequestHead
