@@ -6631,6 +6631,16 @@ const
 nsFont
 *
 aDefaultVariableFont
+const
+mozilla
+:
+:
+dom
+:
+:
+Document
+*
+aDocument
 )
 ;
 static

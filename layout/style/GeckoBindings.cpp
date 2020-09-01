@@ -5586,6 +5586,7 @@ ComputeSystemFont
 aDest
 fontID
 defaultVariableFont
+aDocument
 )
 ;
 }
