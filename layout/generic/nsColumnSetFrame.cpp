@@ -4511,6 +4511,12 @@ false
 nscoord
 extraBlockSize
 =
+std
+:
+:
+max
+(
+570
 aReflowInput
 .
 CalcLineHeight
@@ -4518,6 +4524,7 @@ CalcLineHeight
 )
 /
 2
+)
 ;
 bool
 foundFeasibleBSizeCloserToBest
