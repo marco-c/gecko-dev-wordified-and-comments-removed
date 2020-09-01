@@ -1244,6 +1244,13 @@ z
 "
 DEVELOPER_OPTIONS
 "
+-
+a
+-
+z
+"
+MOZ_PROFILE_GENERATE
+"
 ;
 then
 if
