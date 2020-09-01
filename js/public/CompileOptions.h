@@ -203,6 +203,11 @@ privateClassMethods
 =
 false
 ;
+bool
+useOffThreadParseGlobal
+=
+true
+;
 const
 char
 *
