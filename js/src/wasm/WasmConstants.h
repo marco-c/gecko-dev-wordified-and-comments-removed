@@ -108,7 +108,7 @@ V128
 FuncRef
 =
 0x70
-AnyRef
+ExternRef
 =
 0x6f
 OptRef

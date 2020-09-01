@@ -1873,7 +1873,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 if
 (
@@ -2202,7 +2202,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 val
 .
@@ -2459,7 +2459,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 out
 .
@@ -3425,7 +3425,7 @@ type
 (
 )
 .
-isAnyRef
+isExternRef
 (
 )
 &
@@ -15109,7 +15109,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 if
 (
@@ -15468,7 +15468,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 MOZ_ASSERT
 (
@@ -16040,7 +16040,7 @@ globalType
 RefType
 :
 :
-any
+extern_
 (
 )
 ;
@@ -16222,7 +16222,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 globalVal
 =
@@ -16231,7 +16231,7 @@ Val
 RefType
 :
 :
-any
+extern_
 (
 )
 AnyRef
@@ -16614,7 +16614,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 args
 .
@@ -17218,7 +17218,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 {
 AnyRef
@@ -17512,7 +17512,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 outval
 .
@@ -17523,7 +17523,7 @@ Val
 RefType
 :
 :
-any
+extern_
 (
 )
 cell

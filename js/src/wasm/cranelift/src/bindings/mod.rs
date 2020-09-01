@@ -333,7 +333,7 @@ REF_TYPE
 TypeCode
 :
 :
-AnyRef
+ExternRef
 =
 >
 Ok
@@ -792,7 +792,7 @@ OptRef
 TypeCode
 :
 :
-AnyRef
+ExternRef
 |
 TypeCode
 :

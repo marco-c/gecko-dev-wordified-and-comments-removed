@@ -1950,14 +1950,14 @@ public
 enum
 Kind
 {
-Any
+Extern
 =
 uint8_t
 (
 TypeCode
 :
 :
-AnyRef
+ExternRef
 )
 Func
 =
@@ -2011,7 +2011,7 @@ case
 TypeCode
 :
 :
-AnyRef
+ExternRef
 :
 MOZ_ASSERT
 (
@@ -2228,14 +2228,14 @@ ptc_
 }
 static
 RefType
-any
+extern_
 (
 )
 {
 return
 RefType
 (
-Any
+Extern
 )
 ;
 }
@@ -2359,7 +2359,7 @@ case
 TypeCode
 :
 :
-AnyRef
+ExternRef
 :
 case
 TypeCode
@@ -2869,7 +2869,7 @@ tc_
 ;
 }
 bool
-isAnyRef
+isExternRef
 (
 )
 const
@@ -2884,7 +2884,7 @@ tc_
 TypeCode
 :
 :
-AnyRef
+ExternRef
 ;
 }
 bool
@@ -3056,7 +3056,7 @@ case
 TypeCode
 :
 :
-AnyRef
+ExternRef
 :
 case
 TypeCode
@@ -3712,7 +3712,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 return
 "
@@ -5771,7 +5771,7 @@ isReference
 !
 arg
 .
-isAnyRef
+isExternRef
 (
 )
 )
@@ -5837,7 +5837,7 @@ isReference
 !
 arg
 .
-isAnyRef
+isExternRef
 (
 )
 )
@@ -5927,7 +5927,7 @@ isReference
 !
 result
 .
-isAnyRef
+isExternRef
 (
 )
 )
@@ -12203,7 +12203,7 @@ return
 RefType
 :
 :
-any
+extern_
 (
 )
 ;
@@ -13892,7 +13892,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 case
 RefType

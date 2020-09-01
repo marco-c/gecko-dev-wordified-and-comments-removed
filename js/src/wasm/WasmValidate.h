@@ -893,7 +893,7 @@ one
 &
 two
 .
-isAnyRef
+isExternRef
 (
 )
 )
@@ -3420,7 +3420,7 @@ uint8_t
 TypeCode
 :
 :
-AnyRef
+ExternRef
 )
 :
 case
@@ -3635,7 +3635,7 @@ uint8_t
 TypeCode
 :
 :
-AnyRef
+ExternRef
 )
 :
 if
@@ -3934,7 +3934,7 @@ uint8_t
 TypeCode
 :
 :
-AnyRef
+ExternRef
 )
 :
 *

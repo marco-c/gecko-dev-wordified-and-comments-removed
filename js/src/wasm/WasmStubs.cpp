@@ -5763,7 +5763,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 {
 ScratchTagScope
@@ -6815,7 +6815,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 GenerateJitEntryLoadTls
 (
@@ -8704,7 +8704,7 @@ wasm
 RefType
 :
 :
-Any
+Extern
 :
 UnboxAnyrefIntoValueReg
 (
@@ -12028,7 +12028,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 masm
 .
@@ -13231,7 +13231,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 BoxValueIntoAnyref
 (
@@ -13840,7 +13840,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 masm
 .
