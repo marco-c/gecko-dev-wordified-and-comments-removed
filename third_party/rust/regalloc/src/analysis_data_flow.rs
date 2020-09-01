@@ -8266,11 +8266,15 @@ rreg_to_rlrs_map
 vec
 !
 [
-Vec
+SmallVec
 :
 :
 <
+[
 RealRangeIx
+;
+6
+]
 >
 :
 :

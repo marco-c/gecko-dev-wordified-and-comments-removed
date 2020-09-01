@@ -10627,9 +10627,13 @@ rreg_to_rlrs_map
 :
 Vec
 <
-Vec
+SmallVec
 <
+[
 RealRangeIx
+;
+6
+]
 >
 >
 pub

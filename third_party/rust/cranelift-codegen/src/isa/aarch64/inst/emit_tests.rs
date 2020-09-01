@@ -5211,7 +5211,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Unscaled
@@ -5262,7 +5262,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -5314,7 +5314,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegReg
@@ -5364,7 +5364,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Unscaled
@@ -5415,7 +5415,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -5474,7 +5474,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegReg
@@ -5524,7 +5524,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Unscaled
@@ -5582,7 +5582,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -5641,7 +5641,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegScaled
@@ -5695,7 +5695,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Unscaled
@@ -5746,7 +5746,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -5805,7 +5805,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegScaled
@@ -5859,7 +5859,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Unscaled
@@ -5910,7 +5910,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -5969,7 +5969,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegScaled
@@ -6023,7 +6023,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Unscaled
@@ -6074,7 +6074,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -6133,7 +6133,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegScaled
@@ -6187,7 +6187,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Unscaled
@@ -6238,7 +6238,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Unscaled
@@ -6298,7 +6298,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Unscaled
@@ -6356,7 +6356,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -6415,7 +6415,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegReg
@@ -6465,7 +6465,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegScaled
@@ -6519,7 +6519,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegScaledExtended
@@ -6577,7 +6577,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegExtended
@@ -6632,7 +6632,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Label
@@ -6680,7 +6680,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 PreIndexed
@@ -6739,7 +6739,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 PostIndexed
@@ -6797,7 +6797,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 FPOffset
@@ -6851,7 +6851,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 FPOffset
@@ -6906,7 +6906,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 FPOffset
@@ -6963,7 +6963,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 FPOffset
@@ -7027,7 +7027,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegOffset
@@ -7076,7 +7076,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegOffset
@@ -7125,7 +7125,7 @@ writable_xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegOffset
@@ -7186,7 +7186,7 @@ xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Unscaled
@@ -7237,7 +7237,7 @@ xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -7296,7 +7296,7 @@ xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Unscaled
@@ -7347,7 +7347,7 @@ xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -7406,7 +7406,7 @@ xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Unscaled
@@ -7457,7 +7457,7 @@ xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -7516,7 +7516,7 @@ xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Unscaled
@@ -7567,7 +7567,7 @@ xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -7626,7 +7626,7 @@ xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegReg
@@ -7676,7 +7676,7 @@ xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegScaled
@@ -7730,7 +7730,7 @@ xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegScaledExtended
@@ -7788,7 +7788,7 @@ xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegExtended
@@ -7843,7 +7843,7 @@ xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 PreIndexed
@@ -7902,7 +7902,7 @@ xreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 PostIndexed
@@ -7966,7 +7966,7 @@ xreg
 )
 mem
 :
-PairMemArg
+PairAMode
 :
 :
 SignedOffset
@@ -8022,7 +8022,7 @@ xreg
 )
 mem
 :
-PairMemArg
+PairAMode
 :
 :
 SignedOffset
@@ -8085,7 +8085,7 @@ xreg
 )
 mem
 :
-PairMemArg
+PairAMode
 :
 :
 SignedOffset
@@ -8150,7 +8150,7 @@ xreg
 )
 mem
 :
-PairMemArg
+PairAMode
 :
 :
 SignedOffset
@@ -8215,7 +8215,7 @@ xreg
 )
 mem
 :
-PairMemArg
+PairAMode
 :
 :
 PreIndexed
@@ -8281,7 +8281,7 @@ xreg
 )
 mem
 :
-PairMemArg
+PairAMode
 :
 :
 PostIndexed
@@ -8344,7 +8344,7 @@ writable_xreg
 )
 mem
 :
-PairMemArg
+PairAMode
 :
 :
 SignedOffset
@@ -8400,7 +8400,7 @@ writable_xreg
 )
 mem
 :
-PairMemArg
+PairAMode
 :
 :
 SignedOffset
@@ -8463,7 +8463,7 @@ writable_xreg
 )
 mem
 :
-PairMemArg
+PairAMode
 :
 :
 SignedOffset
@@ -8528,7 +8528,7 @@ writable_xreg
 )
 mem
 :
-PairMemArg
+PairAMode
 :
 :
 SignedOffset
@@ -8593,7 +8593,7 @@ writable_xreg
 )
 mem
 :
-PairMemArg
+PairAMode
 :
 :
 PreIndexed
@@ -8659,7 +8659,7 @@ writable_xreg
 )
 mem
 :
-PairMemArg
+PairAMode
 :
 :
 PostIndexed
@@ -20621,7 +20621,7 @@ writable_vreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegScaled
@@ -20675,7 +20675,7 @@ writable_vreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegScaled
@@ -20729,7 +20729,7 @@ writable_vreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegScaled
@@ -20783,7 +20783,7 @@ writable_vreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Label
@@ -20831,7 +20831,7 @@ writable_vreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Label
@@ -20879,7 +20879,7 @@ writable_vreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 Label
@@ -20927,7 +20927,7 @@ vreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegScaled
@@ -20981,7 +20981,7 @@ vreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegScaled
@@ -21035,7 +21035,7 @@ vreg
 )
 mem
 :
-MemArg
+AMode
 :
 :
 RegScaled

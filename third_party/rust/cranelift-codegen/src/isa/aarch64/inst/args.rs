@@ -63,25 +63,13 @@ use
 crate
 :
 :
-isa
-:
-:
-aarch64
-:
-:
-lower
-:
-:
-ty_bits
-;
-use
-crate
-:
-:
 machinst
 :
 :
+{
+ty_bits
 MachLabel
+}
 ;
 use
 regalloc
@@ -433,7 +421,7 @@ Debug
 ]
 pub
 enum
-MemArg
+AMode
 {
 PostIndexed
 (
@@ -512,7 +500,7 @@ Type
 )
 }
 impl
-MemArg
+AMode
 {
 pub
 fn
@@ -524,9 +512,9 @@ Reg
 )
 -
 >
-MemArg
+AMode
 {
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -554,9 +542,9 @@ Reg
 )
 -
 >
-MemArg
+AMode
 {
-MemArg
+AMode
 :
 :
 RegReg
@@ -581,9 +569,9 @@ Type
 )
 -
 >
-MemArg
+AMode
 {
-MemArg
+AMode
 :
 :
 RegScaled
@@ -612,9 +600,9 @@ ExtendOp
 )
 -
 >
-MemArg
+AMode
 {
-MemArg
+AMode
 :
 :
 RegScaledExtended
@@ -635,9 +623,9 @@ MemLabel
 )
 -
 >
-MemArg
+AMode
 {
-MemArg
+AMode
 :
 :
 Label
@@ -656,7 +644,7 @@ Debug
 ]
 pub
 enum
-PairMemArg
+PairAMode
 {
 SignedOffset
 (
@@ -1420,7 +1408,7 @@ ty
 impl
 ShowWithRRU
 for
-MemArg
+AMode
 {
 fn
 show_rru
@@ -1443,7 +1431,7 @@ match
 self
 {
 &
-MemArg
+AMode
 :
 :
 Unscaled
@@ -1508,7 +1496,7 @@ mb_rru
 }
 }
 &
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -1573,7 +1561,7 @@ mb_rru
 }
 }
 &
-MemArg
+AMode
 :
 :
 RegReg
@@ -1610,7 +1598,7 @@ mb_rru
 )
 }
 &
-MemArg
+AMode
 :
 :
 RegScaled
@@ -1661,7 +1649,7 @@ shift
 )
 }
 &
-MemArg
+AMode
 :
 :
 RegScaledExtended
@@ -1755,7 +1743,7 @@ shift
 )
 }
 &
-MemArg
+AMode
 :
 :
 RegExtended
@@ -1836,7 +1824,7 @@ op
 )
 }
 &
-MemArg
+AMode
 :
 :
 Label
@@ -1853,7 +1841,7 @@ show_rru
 mb_rru
 )
 &
-MemArg
+AMode
 :
 :
 PreIndexed
@@ -1893,7 +1881,7 @@ mb_rru
 )
 )
 &
-MemArg
+AMode
 :
 :
 PostIndexed
@@ -1932,7 +1920,7 @@ mb_rru
 )
 )
 &
-MemArg
+AMode
 :
 :
 SPOffset
@@ -1942,7 +1930,7 @@ SPOffset
 )
 |
 &
-MemArg
+AMode
 :
 :
 FPOffset
@@ -1952,7 +1940,7 @@ FPOffset
 )
 |
 &
-MemArg
+AMode
 :
 :
 NominalSPOffset
@@ -1962,7 +1950,7 @@ NominalSPOffset
 )
 |
 &
-MemArg
+AMode
 :
 :
 RegOffset
@@ -2003,7 +1991,7 @@ offset
 impl
 ShowWithRRU
 for
-PairMemArg
+PairAMode
 {
 fn
 show_rru
@@ -2026,7 +2014,7 @@ match
 self
 {
 &
-PairMemArg
+PairAMode
 :
 :
 SignedOffset
@@ -2091,7 +2079,7 @@ mb_rru
 }
 }
 &
-PairMemArg
+PairAMode
 :
 :
 PreIndexed
@@ -2131,7 +2119,7 @@ mb_rru
 )
 )
 &
-PairMemArg
+PairAMode
 :
 :
 PostIndexed
