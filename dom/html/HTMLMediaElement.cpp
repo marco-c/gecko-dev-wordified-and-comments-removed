@@ -8400,6 +8400,13 @@ Shutdown
 (
 )
 ;
+tmp
+-
+>
+mMediaStreamRenderer
+=
+nullptr
+;
 }
 if
 (
