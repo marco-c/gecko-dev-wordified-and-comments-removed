@@ -24977,11 +24977,8 @@ GetOverflowContainers
 )
 |
 |
-GetPropTableFrames
+GetExcessOverflowContainers
 (
-ExcessOverflowContainersProperty
-(
-)
 )
 ;
 }
