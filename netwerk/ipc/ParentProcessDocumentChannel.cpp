@@ -923,6 +923,7 @@ IsHandlingUserInput
 (
 )
 0
+nullptr
 &
 rv
 )
