@@ -280,11 +280,6 @@ python
 mozlint
 /
 -
-python
-/
-safety
-/
--
 remote
 /
 doc

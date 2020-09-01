@@ -404,16 +404,6 @@ py
 '
     
 '
-python
-/
-safety
-/
-mach_commands
-.
-py
-'
-    
-'
 remote
 /
 mach_commands
