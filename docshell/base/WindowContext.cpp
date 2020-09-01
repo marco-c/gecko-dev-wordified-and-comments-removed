@@ -1598,6 +1598,11 @@ mIsDiscarded
 =
 true
 ;
+if
+(
+gWindowContexts
+)
+{
 gWindowContexts
 -
 >
@@ -1608,6 +1613,7 @@ InnerWindowId
 )
 )
 ;
+}
 mBrowsingContext
 -
 >
