@@ -290,10 +290,8 @@ EMIT_MEDIA_RULES_THROTTLING
 function
 StyleSheetEditor
 (
-styleSheet
+resource
 win
-file
-isNew
 walker
 highlighter
 styleSheetFriendlyIndex
@@ -310,6 +308,8 @@ this
 .
 styleSheet
 =
+resource
+.
 styleSheet
 ;
 this
@@ -334,6 +334,10 @@ this
 .
 _isNew
 =
+this
+.
+styleSheet
+.
 isNew
 ;
 this
@@ -409,6 +413,8 @@ null
 ;
 if
 (
+this
+.
 styleSheet
 .
 href
@@ -696,6 +702,10 @@ this
 .
 savedFile
 =
+this
+.
+styleSheet
+.
 file
 ;
 this

@@ -1674,6 +1674,16 @@ query
 }
 }
 }
+waitForPendingSources
+(
+)
+{
+return
+this
+.
+_sourcesLoading
+;
+}
 _ensureAllSourcesPopulated
 (
 )

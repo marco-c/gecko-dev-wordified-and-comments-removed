@@ -824,7 +824,6 @@ const
 {
 resourceType
 styleSheet
-isNew
 }
 =
 resource
@@ -922,6 +921,8 @@ correct
 ;
 is
 (
+styleSheet
+.
 isNew
 expected
 .
