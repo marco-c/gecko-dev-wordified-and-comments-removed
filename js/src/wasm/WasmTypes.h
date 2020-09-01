@@ -1912,10 +1912,7 @@ c
 <
 LowestPrimitiveTypeCode
 ?
-TypeCode
-:
-:
-OptRef
+AbstractReferenceTypeCode
 :
 c
 ;
@@ -1936,10 +1933,7 @@ ptc
 )
 =
 =
-TypeCode
-:
-:
-OptRef
+AbstractReferenceTypeCode
 ;
 }
 enum
@@ -2562,10 +2556,7 @@ Ref
 =
 uint8_t
 (
-TypeCode
-:
-:
-OptRef
+AbstractReferenceTypeCode
 )
 }
 ;
