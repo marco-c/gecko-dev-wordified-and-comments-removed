@@ -3546,12 +3546,6 @@ mOutputTrackSources
 ;
 RefPtr
 <
-FirstFrameListener
->
-mFirstFrameListener
-;
-RefPtr
-<
 VideoStreamTrack
 >
 mSelectedVideoStreamTrack
