@@ -1,3 +1,6 @@
+USE_VALGRIND
+=
+1
 .
 topsrcdir
 /
