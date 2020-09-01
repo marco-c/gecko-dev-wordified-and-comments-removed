@@ -10792,6 +10792,16 @@ nsIntRect
 aRect
 )
 {
+if
+(
+!
+mOwnerContent
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 Document
 *
 doc
