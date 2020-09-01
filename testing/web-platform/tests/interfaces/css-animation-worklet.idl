@@ -98,7 +98,7 @@ AnimationWorkletGlobalScope
 :
 WorkletGlobalScope
 {
-void
+undefined
 registerAnimator
 (
 DOMString
