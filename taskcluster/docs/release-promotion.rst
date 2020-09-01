@@ -390,6 +390,15 @@ promotion
 -
 action
 balrog
+setting
+-
+up
+-
+an
+-
+update
+-
+server
 partials
 signing
 partner
