@@ -1,5 +1,5 @@
 Debugging
-Mozilla
+Firefox
 with
 GDB
 =
