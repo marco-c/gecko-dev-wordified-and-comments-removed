@@ -60,13 +60,10 @@ ScrollableLayerGuid
 mTargetGuid
 ;
 bool
-mTargetIsRoot
+mHandledByRootApzc
 ;
 uint64_t
 mInputBlockId
-;
-bool
-mHitRegionWithApzAwareListeners
 ;
 }
 ;
