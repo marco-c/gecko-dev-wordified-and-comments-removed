@@ -3594,7 +3594,14 @@ code
 )
 {
 return
-false
+fail
+(
+"
+expected
+type
+code
+"
+)
 ;
 }
 switch
