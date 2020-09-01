@@ -242,6 +242,13 @@ DAMAGE
 %
 include
 "
+config
+.
+asm
+"
+%
+include
+"
 ext
 /
 x86

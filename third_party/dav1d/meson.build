@@ -2758,6 +2758,17 @@ x86
 )
 cdata_asm
 .
+set
+(
+'
+private_prefix
+'
+'
+dav1d
+'
+)
+cdata_asm
+.
 set10
 (
 '
