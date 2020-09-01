@@ -2430,7 +2430,7 @@ props
 .
 link
 .
-sendTopSiteAttributionRequest
+sendAttributionRequest
 )
 {
 this
@@ -2448,7 +2448,7 @@ type
 :
 at
 .
-TOP_SITES_ATTRIBUTION
+PARTNER_LINK_ATTRIBUTION
 data
 :
 {

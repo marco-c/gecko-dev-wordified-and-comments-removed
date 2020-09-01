@@ -3251,7 +3251,7 @@ type
 boolean
 "
 }
-sendTopSiteAttributionRequest
+sendAttributionRequest
 :
 {
 type

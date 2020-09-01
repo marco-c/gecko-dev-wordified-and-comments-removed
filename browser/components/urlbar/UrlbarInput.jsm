@@ -2836,7 +2836,7 @@ result
 .
 payload
 .
-sendTopSiteAttributionRequest
+sendAttributionRequest
 )
 {
 PartnerLinkAttribution

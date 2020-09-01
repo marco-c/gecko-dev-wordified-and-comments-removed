@@ -1207,7 +1207,7 @@ shortURL
 (
 siteData
 )
-sendTopSiteAttributionRequest
+sendAttributionRequest
 :
 !
 !
@@ -2713,7 +2713,7 @@ url
 ;
 link
 .
-sendTopSiteAttributionRequest
+sendAttributionRequest
 =
 true
 ;
