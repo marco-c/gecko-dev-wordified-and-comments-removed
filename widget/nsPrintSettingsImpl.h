@@ -231,9 +231,6 @@ nsString
 mURL
 ;
 nsString
-mPageNumberFormat
-;
-nsString
 mHeaderStrs
 [
 NUM_HEAD_FOOT
