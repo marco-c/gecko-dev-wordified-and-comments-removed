@@ -1669,7 +1669,7 @@ nsISHEntry
 aOSHE
 in
 BrowsingContext
-aBC
+aRootBC
 in
 nsISHEntry
 aEntry
@@ -1702,7 +1702,7 @@ nsISHEntry
 aNewEntry
 in
 BrowsingContext
-aBC
+aRootBC
 in
 bool
 aCloneChildren
