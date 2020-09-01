@@ -4455,7 +4455,7 @@ HistoryCommit
 MaybeDiscardedBrowsingContext
 aContext
 uint64_t
-aLoadID
+aSessionHistoryEntryID
 nsID
 aChangeID
 )

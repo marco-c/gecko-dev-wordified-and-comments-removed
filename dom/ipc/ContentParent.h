@@ -6157,7 +6157,7 @@ aContext
 const
 uint64_t
 &
-aLoadID
+aSessionHistoryEntryID
 const
 nsID
 &
