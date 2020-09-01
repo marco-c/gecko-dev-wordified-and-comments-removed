@@ -486,6 +486,9 @@ userContextId
 restrictToEngine
 =
 false
+dedupeRemoteAndLocal
+=
+true
 )
 {
 this
@@ -793,13 +796,15 @@ promises
 .
 then
 (
+results
+=
+>
 this
 .
 _dedupeAndReturnResults
-.
-bind
 (
-this
+results
+dedupeRemoteAndLocal
 )
 handleRejection
 )
@@ -1859,6 +1864,7 @@ null
 _dedupeAndReturnResults
 (
 suggestResults
+dedupeRemoteAndLocal
 )
 {
 if
@@ -2095,6 +2101,9 @@ results
 local
 .
 length
+&
+&
+dedupeRemoteAndLocal
 )
 {
 for
