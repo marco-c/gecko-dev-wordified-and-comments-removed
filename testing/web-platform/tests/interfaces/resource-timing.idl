@@ -177,12 +177,12 @@ partial
 interface
 Performance
 {
-void
+undefined
 clearResourceTimings
 (
 )
 ;
-void
+undefined
 setResourceTimingBufferSize
 (
 unsigned
