@@ -641,7 +641,7 @@ eControlClick
 }
 ;
 typedef
-uint8_t
+bool
 ExitFromType
 ;
 enum
@@ -651,8 +651,6 @@ ExitFromType
 {
 eChild
 eTopLevel
-ePuppet
-ePuppetParentToPuppetChild
 }
 ;
 protected
@@ -668,6 +666,10 @@ eReal
 mContextMenuTrigger
 (
 eNormal
+)
+mExitFrom
+(
+eChild
 )
 mIgnoreRootScrollFrame
 (
@@ -712,6 +714,10 @@ aReason
 mContextMenuTrigger
 (
 eNormal
+)
+mExitFrom
+(
+eChild
 )
 mIgnoreRootScrollFrame
 (
@@ -772,6 +778,10 @@ aReason
 mContextMenuTrigger
 (
 aContextMenuTrigger
+)
+mExitFrom
+(
+eChild
 )
 mIgnoreRootScrollFrame
 (
@@ -960,10 +970,7 @@ mReason
 ContextMenuTrigger
 mContextMenuTrigger
 ;
-Maybe
-<
 ExitFrom
->
 mExitFrom
 ;
 bool
@@ -997,12 +1004,6 @@ AssignPointerHelperData
 aEvent
 true
 )
-;
-mExitFrom
-=
-aEvent
-.
-mExitFrom
 ;
 mIgnoreRootScrollFrame
 =
