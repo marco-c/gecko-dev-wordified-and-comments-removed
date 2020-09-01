@@ -1533,6 +1533,7 @@ tabBrowser
 )
 {
 return
+null
 ;
 }
 if
@@ -1624,6 +1625,11 @@ this
 .
 messageManager
 )
+;
+return
+this
+.
+tab
 ;
 }
 register
