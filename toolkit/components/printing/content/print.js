@@ -3,6 +3,7 @@ const
 gBrowser
 PrintUtils
 Services
+AppConstants
 }
 =
 window
@@ -3613,6 +3614,18 @@ super
 .
 initialize
 (
+)
+;
+this
+.
+setAttribute
+(
+"
+platform
+"
+AppConstants
+.
+platform
 )
 ;
 this
