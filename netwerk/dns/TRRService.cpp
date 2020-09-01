@@ -5233,7 +5233,9 @@ n
 newRRSet
 -
 >
-mHostName
+Hostname
+(
+)
 .
 get
 (
@@ -5265,7 +5267,9 @@ n
 newRRSet
 -
 >
-mHostName
+Hostname
+(
+)
 .
 get
 (
@@ -5278,7 +5282,9 @@ AddToBlocklist
 newRRSet
 -
 >
-mHostName
+Hostname
+(
+)
 aOriginSuffix
 pb
 false

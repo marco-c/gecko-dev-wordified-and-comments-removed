@@ -552,9 +552,10 @@ NetAddr
 >
 :
 :
-iterator
+const_iterator
 mIter
 ;
+const
 NetAddr
 *
 iter
@@ -678,7 +679,9 @@ mHostRecord
 addr_info
 -
 >
-mCanonicalName
+CanonicalHostname
+(
+)
 .
 IsEmpty
 (
@@ -693,7 +696,9 @@ mHostRecord
 addr_info
 -
 >
-mHostName
+Hostname
+(
+)
 ;
 }
 else
@@ -706,7 +711,9 @@ mHostRecord
 addr_info
 -
 >
-mCanonicalName
+CanonicalHostname
+(
+)
 ;
 }
 return
@@ -955,7 +962,7 @@ NetAddr
 >
 :
 :
-iterator
+const_iterator
 (
 )
 ;
@@ -993,7 +1000,9 @@ mHostRecord
 addr_info
 -
 >
-mAddresses
+Addresses
+(
+)
 .
 begin
 (
@@ -1052,7 +1061,9 @@ mHostRecord
 addr_info
 -
 >
-mAddresses
+Addresses
+(
+)
 .
 begin
 (
@@ -1245,6 +1256,7 @@ addr_info
 {
 for
 (
+const
 auto
 &
 address
@@ -1255,7 +1267,9 @@ mHostRecord
 addr_info
 -
 >
-mAddresses
+Addresses
+(
+)
 )
 {
 if
@@ -1618,7 +1632,7 @@ NetAddr
 >
 :
 :
-iterator
+const_iterator
 iterCopy
 =
 mIter
@@ -1676,7 +1690,7 @@ NetAddr
 >
 :
 :
-iterator
+const_iterator
 (
 )
 ;

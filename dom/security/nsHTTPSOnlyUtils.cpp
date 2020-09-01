@@ -1593,13 +1593,9 @@ net
 :
 NetAddr
 addr
-;
-PRNetAddrToNetAddr
 (
 &
 tempAddr
-&
-addr
 )
 ;
 if
