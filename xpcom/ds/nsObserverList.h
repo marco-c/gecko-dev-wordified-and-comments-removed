@@ -125,6 +125,11 @@ mObservers
 )
 )
 {
+MOZ_COUNT_CTOR
+(
+nsObserverList
+)
+;
 }
 MOZ_COUNTED_DTOR
 (
