@@ -6287,6 +6287,17 @@ String
 ;
 method
 UiThread
+default
+public
+void
+onPaintStatusReset
+(
+NonNull
+GeckoSession
+)
+;
+method
+UiThread
 Nullable
 default
 public
