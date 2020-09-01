@@ -16053,7 +16053,7 @@ ALLOW_CLONE
 (
 MCompare
 )
-protected
+private
 :
 MOZ_MUST_USE
 bool
@@ -16073,6 +16073,18 @@ bool
 result
 )
 ;
+MOZ_MUST_USE
+MDefinition
+*
+tryFoldCharCompare
+(
+TempAllocator
+&
+alloc
+)
+;
+public
+:
 bool
 congruentTo
 (
