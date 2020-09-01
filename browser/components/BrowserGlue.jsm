@@ -18450,6 +18450,7 @@ true
 .
 then
 (
+async
 willPrompt
 =
 >
@@ -18469,6 +18470,7 @@ if
 willPrompt
 )
 {
+await
 win
 .
 DefaultBrowserNotificationOnNewTabPage
