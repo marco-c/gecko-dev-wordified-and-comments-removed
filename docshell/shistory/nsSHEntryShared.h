@@ -253,7 +253,7 @@ class
 SessionHistoryInfo
 ;
 uint64_t
-GetID
+GetId
 (
 )
 const
@@ -263,6 +263,13 @@ mId
 ;
 }
 void
+ChangeId
+(
+uint64_t
+aId
+)
+;
+void
 NotifyListenersContentViewerEvicted
 (
 )
@@ -270,8 +277,6 @@ NotifyListenersContentViewerEvicted
 SHEntrySharedParentState
 (
 )
-=
-default
 ;
 SHEntrySharedParentState
 (
@@ -291,6 +296,15 @@ const
 nsACString
 &
 aContentType
+)
+;
+static
+SHEntrySharedParentState
+*
+Lookup
+(
+uint64_t
+aId
 )
 ;
 protected
