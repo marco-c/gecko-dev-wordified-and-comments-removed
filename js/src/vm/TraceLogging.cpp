@@ -7132,7 +7132,10 @@ initGraph
 }
 if
 (
-CurrentHelperThread
+cx
+-
+>
+isHelperThreadContext
 (
 )
 ?
