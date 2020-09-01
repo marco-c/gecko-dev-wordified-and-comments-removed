@@ -138,7 +138,7 @@ tab
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 )
@@ -237,7 +237,7 @@ tab
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 )
@@ -280,7 +280,7 @@ frame1
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 )
@@ -320,7 +320,7 @@ tab
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 )
@@ -401,7 +401,7 @@ tab
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 )
@@ -454,7 +454,7 @@ frame1
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 )
@@ -604,7 +604,7 @@ tab
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 )
@@ -663,7 +663,7 @@ frame1
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 )

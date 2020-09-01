@@ -862,7 +862,7 @@ type
 }
 async
 function
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 options
@@ -874,9 +874,15 @@ options
 const
 metadata
 =
-MediaControlService
+tab
 .
-getCurrentActiveMediaMetadata
+linkedBrowser
+.
+browsingContext
+.
+mediaController
+.
+getMetadata
 (
 )
 ;

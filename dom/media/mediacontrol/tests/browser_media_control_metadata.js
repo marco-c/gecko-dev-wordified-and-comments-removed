@@ -168,7 +168,7 @@ session
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 )
@@ -242,7 +242,7 @@ session
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 )
@@ -347,7 +347,7 @@ metadata
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 )
@@ -435,7 +435,7 @@ metadata
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 )
@@ -547,7 +547,7 @@ artwork
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 )
@@ -652,7 +652,7 @@ artwork
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 )
@@ -809,7 +809,7 @@ mode
 )
 ;
 await
-isUsingDefaultMetadata
+isGivenTabUsingDefaultMetadata
 (
 tab
 {
