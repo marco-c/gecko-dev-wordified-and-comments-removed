@@ -413,6 +413,11 @@ CancelUsageTimer
 (
 )
 ;
+void
+ReportUsageTelemetry
+(
+)
+;
 class
 RedirectSink
 final
@@ -554,6 +559,11 @@ false
 ;
 bool
 mIsUsed
+=
+false
+;
+bool
+mUsageTelementryReported
 =
 false
 ;
