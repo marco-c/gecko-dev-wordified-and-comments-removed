@@ -1630,9 +1630,15 @@ if
 options
 .
 raptor_trigger_tests
+and
+options
+.
+raptor_trigger_tests
 >
 1
 and
+\
+                
 task
 .
 attributes
