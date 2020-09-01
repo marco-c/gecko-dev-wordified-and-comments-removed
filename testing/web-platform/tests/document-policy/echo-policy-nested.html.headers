@@ -2,11 +2,13 @@ Document
 -
 Policy
 :
-unoptimized
--
 lossless
 -
 images
+-
+max
+-
+bpp
 =
 0
 .
