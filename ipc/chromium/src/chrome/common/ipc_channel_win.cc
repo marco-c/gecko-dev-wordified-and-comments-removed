@@ -646,7 +646,7 @@ other_pid_
 ;
 output_queue_
 .
-push
+Push
 (
 std
 :
@@ -673,9 +673,18 @@ OutputQueuePop
 (
 )
 {
+mozilla
+:
+:
+UniquePtr
+<
+Message
+>
+message
+=
 output_queue_
 .
-pop
+Pop
 (
 )
 ;
@@ -793,7 +802,7 @@ while
 !
 output_queue_
 .
-empty
+IsEmpty
 (
 )
 )
@@ -893,7 +902,7 @@ type
 <
 output_queue_
 .
-size
+Count
 (
 )
 <
@@ -2394,7 +2403,7 @@ DCHECK
 !
 output_queue_
 .
-empty
+IsEmpty
 (
 )
 )
@@ -2405,7 +2414,7 @@ m
 =
 output_queue_
 .
-front
+FirstElement
 (
 )
 .
@@ -2495,7 +2504,7 @@ if
 (
 output_queue_
 .
-empty
+IsEmpty
 (
 )
 )
@@ -2518,7 +2527,7 @@ m
 =
 output_queue_
 .
-front
+FirstElement
 (
 )
 .
@@ -2844,7 +2853,7 @@ if
 !
 output_queue_
 .
-empty
+IsEmpty
 (
 )
 &
