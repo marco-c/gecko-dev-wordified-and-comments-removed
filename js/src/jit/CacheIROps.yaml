@@ -5401,6 +5401,9 @@ ValId
 getter
 :
 ObjectField
+sameRealm
+:
+BoolImm
 nargsAndFlags
 :
 RawWordField
