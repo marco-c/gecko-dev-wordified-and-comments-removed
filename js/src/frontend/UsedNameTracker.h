@@ -417,6 +417,9 @@ scriptCounter_
 uint32_t
 scopeCounter_
 ;
+bool
+hasPrivateNames_
+;
 public
 :
 explicit
@@ -438,6 +441,10 @@ scriptCounter_
 scopeCounter_
 (
 0
+)
+hasPrivateNames_
+(
+false
 )
 {
 }
