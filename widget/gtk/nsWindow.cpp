@@ -15822,6 +15822,8 @@ event
 .
 mExitFrom
 =
+Some
+(
 is_top_level_mouse_exit
 (
 mGdkWindow
@@ -15837,6 +15839,7 @@ WidgetMouseEvent
 :
 :
 eChild
+)
 ;
 LOG
 (

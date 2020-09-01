@@ -19060,6 +19060,8 @@ event
 .
 mExitFrom
 =
+Some
+(
 IsTopLevelMouseExit
 (
 mWnd
@@ -19074,6 +19076,7 @@ WidgetMouseEvent
 :
 :
 eChild
+)
 ;
 break
 ;

@@ -667,10 +667,6 @@ mContextMenuTrigger
 (
 eNormal
 )
-mExitFrom
-(
-eChild
-)
 mIgnoreRootScrollFrame
 (
 false
@@ -714,10 +710,6 @@ aReason
 mContextMenuTrigger
 (
 eNormal
-)
-mExitFrom
-(
-eChild
 )
 mIgnoreRootScrollFrame
 (
@@ -778,10 +770,6 @@ aReason
 mContextMenuTrigger
 (
 aContextMenuTrigger
-)
-mExitFrom
-(
-eChild
 )
 mIgnoreRootScrollFrame
 (
@@ -970,7 +958,10 @@ mReason
 ContextMenuTrigger
 mContextMenuTrigger
 ;
+Maybe
+<
 ExitFrom
+>
 mExitFrom
 ;
 bool
