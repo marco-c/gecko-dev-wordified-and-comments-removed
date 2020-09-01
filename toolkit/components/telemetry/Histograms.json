@@ -114214,6 +114214,15 @@ n_values
 :
 4
 "
+releaseChannelCollection
+"
+:
+"
+opt
+-
+out
+"
+"
 description
 "
 :
@@ -114301,6 +114310,7 @@ bug_numbers
 :
 [
 1058133
+1659762
 ]
 }
 "
