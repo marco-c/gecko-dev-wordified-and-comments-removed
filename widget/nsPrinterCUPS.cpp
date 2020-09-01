@@ -373,6 +373,9 @@ aMedia
 )
 const
 {
+#
+ifdef
+XP_MACOSX
 return
 mShim
 .
@@ -387,6 +390,13 @@ CUPS_MEDIA_FLAGS_DEFAULT
 aMedia
 )
 ;
+#
+else
+return
+nullptr
+;
+#
+endif
 }
 bool
 nsPrinterCUPS
