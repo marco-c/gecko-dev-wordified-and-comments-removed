@@ -117,7 +117,7 @@ requireInteraction
 ;
 public
 final
-NonNull
+Nullable
 String
 source
 ;
@@ -214,6 +214,16 @@ this
 .
 source
 =
+"
+"
+.
+equals
+(
+source
+)
+?
+null
+:
 source
 ;
 }

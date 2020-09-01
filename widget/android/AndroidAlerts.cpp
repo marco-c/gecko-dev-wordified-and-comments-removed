@@ -372,14 +372,14 @@ rv
 NS_OK
 )
 ;
-MOZ_ASSERT
-(
-uri
-)
-;
 nsCString
 spec
 ;
+if
+(
+uri
+)
+{
 rv
 =
 uri
@@ -396,6 +396,7 @@ rv
 NS_OK
 )
 ;
+}
 if
 (
 aPersistentData
