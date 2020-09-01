@@ -256,18 +256,6 @@ dom
 quota
 :
 :
-FileUsageType
-;
-using
-mozilla
-:
-:
-dom
-:
-:
-quota
-:
-:
 PERSISTENCE_TYPE_DEFAULT
 ;
 using
@@ -567,7 +555,7 @@ fileSize
 aUsageInfo
 +
 =
-FileUsageType
+DatabaseUsageType
 (
 Some
 (
@@ -1950,7 +1938,7 @@ usageInfo
 usageInfo
 +
 =
-FileUsageType
+DatabaseUsageType
 (
 Some
 (
