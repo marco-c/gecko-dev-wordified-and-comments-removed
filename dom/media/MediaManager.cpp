@@ -18223,6 +18223,10 @@ windows
 "
 )
 ;
+mMicrophonesMuted
+=
+aMute
+;
 for
 (
 auto
@@ -18311,6 +18315,14 @@ aListener
 MuteOrUnmuteCameras
 (
 mCamerasMuted
+)
+;
+aListener
+-
+>
+MuteOrUnmuteMicrophones
+(
+mMicrophonesMuted
 )
 ;
 GetActiveWindows
