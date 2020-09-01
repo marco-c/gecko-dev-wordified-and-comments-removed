@@ -169,6 +169,9 @@ ParseContext
 struct
 CompilationInfo
 ;
+struct
+CompilationStencil
+;
 class
 ParserSharedBase
 ;
@@ -5912,9 +5915,9 @@ BigIntLiteral
 public
 ParseNode
 {
-CompilationInfo
+CompilationStencil
 &
-compilationInfo_
+stencil_
 ;
 BigIntIndex
 index_
@@ -5925,9 +5928,9 @@ BigIntLiteral
 (
 BigIntIndex
 index
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 const
 TokenPos
 &
@@ -5942,9 +5945,9 @@ ParseNodeKind
 BigIntExpr
 pos
 )
-compilationInfo_
+stencil_
 (
-compilationInfo
+stencil
 )
 index_
 (

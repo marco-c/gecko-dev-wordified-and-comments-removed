@@ -2407,9 +2407,7 @@ cx
 )
 {
 return
-compilationInfo_
-.
-stencil
+stencil_
 .
 bigIntData
 [
@@ -2431,9 +2429,7 @@ isZero
 )
 {
 return
-compilationInfo_
-.
-stencil
+stencil_
 .
 bigIntData
 [
