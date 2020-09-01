@@ -996,6 +996,7 @@ CallState
 Continue
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 static
 void
 DispatchEventToWindowTree
@@ -2779,6 +2780,15 @@ beforeprint
 _ns
 )
 ;
+if
+(
+mIsDestroying
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 }
 {
 nsAutoScriptBlocker
