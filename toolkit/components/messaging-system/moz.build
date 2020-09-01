@@ -48,6 +48,15 @@ browser
 .
 ini
 '
+'
+test
+/
+browser
+/
+browser
+.
+ini
+'
 ]
 SPHINX_TREES
 [
