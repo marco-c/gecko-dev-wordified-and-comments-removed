@@ -36,24 +36,8 @@ report
 -
 only
 "
+None
 )
-if
-b
-"
-coop
--
-report
--
-only
-"
-in
-request
-.
-GET
-else
-b
-"
-"
     
 coep
 =
@@ -85,24 +69,8 @@ report
 -
 only
 "
+None
 )
-if
-b
-"
-coep
--
-report
--
-only
-"
-in
-request
-.
-GET
-else
-b
-"
-"
     
 redirect
 =
@@ -148,12 +116,10 @@ coop
 )
     
 if
-coop
-!
-=
-b
-"
-"
+coopReportOnly
+is
+not
+None
 :
         
 response
@@ -208,12 +174,10 @@ coep
 )
     
 if
-coep
-!
-=
-b
-"
-"
+coepReportOnly
+is
+not
+None
 :
         
 response
