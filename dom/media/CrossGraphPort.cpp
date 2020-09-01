@@ -490,8 +490,10 @@ CrossGraphTransmitter
 (
 TrackRate
 aSampleRate
+RefPtr
+<
 CrossGraphReceiver
-*
+>
 aReceiver
 )
 :
@@ -505,7 +507,13 @@ AUDIO
 )
 mReceiver
 (
+std
+:
+:
+move
+(
 aReceiver
+)
 )
 {
 }
