@@ -2982,8 +2982,6 @@ aSuccess
 async
 InternalLoad
 (
-MaybeDiscardedBrowsingContext
-aContext
 nsDocShellLoadState
 aLoadState
 bool
