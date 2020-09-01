@@ -2718,7 +2718,7 @@ type
 git
 repo
 :
-git
+https
 :
 /
 /
