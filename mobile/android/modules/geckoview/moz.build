@@ -143,6 +143,11 @@ LoadURIDelegate
 jsm
 '
 '
+MediaUtils
+.
+jsm
+'
+'
 Messaging
 .
 jsm
