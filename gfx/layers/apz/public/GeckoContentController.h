@@ -151,11 +151,11 @@ virtual
 void
 NotifyLayerTransforms
 (
-const
 nsTArray
 <
 MatrixMessage
 >
+&
 &
 aTransforms
 )

@@ -138,11 +138,11 @@ override
 void
 NotifyLayerTransforms
 (
-const
 nsTArray
 <
 MatrixMessage
 >
+&
 &
 aTransforms
 )

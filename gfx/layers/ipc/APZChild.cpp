@@ -116,11 +116,11 @@ APZChild
 :
 RecvLayerTransforms
 (
-const
 nsTArray
 <
 MatrixMessage
 >
+&
 &
 aTransforms
 )
@@ -130,7 +130,13 @@ mController
 >
 NotifyLayerTransforms
 (
+std
+:
+:
+move
+(
 aTransforms
+)
 )
 ;
 return

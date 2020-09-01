@@ -63,11 +63,11 @@ ipc
 IPCResult
 RecvLayerTransforms
 (
-const
 nsTArray
 <
 MatrixMessage
 >
+&
 &
 aTransforms
 )
