@@ -161,6 +161,12 @@ run
 using
 :
 mach
+workdir
+:
+/
+home
+/
+cltbld
 mach
 :
 jsshell

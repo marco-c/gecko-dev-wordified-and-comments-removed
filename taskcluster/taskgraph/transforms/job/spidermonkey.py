@@ -126,7 +126,7 @@ platform
 :
 text_type
     
-Optional
+Required
 (
 '
 workdir
