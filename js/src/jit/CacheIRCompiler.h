@@ -3764,13 +3764,6 @@ reg
 endif
 public
 :
-static
-const
-uint32_t
-MAX_ARGS_ARRAY_LENGTH
-=
-16
-;
 void
 callVMInternal
 (
