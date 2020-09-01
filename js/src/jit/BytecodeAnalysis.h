@@ -261,6 +261,13 @@ return
 hasTryFinally_
 ;
 }
+void
+checkWarpSupport
+(
+JSOp
+op
+)
+;
 }
 ;
 struct
