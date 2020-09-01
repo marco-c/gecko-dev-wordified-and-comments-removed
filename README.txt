@@ -71,7 +71,7 @@ org
 /
 contributing
 /
-how_to_contribute_firefox
+contribution_quickref
 .
 html
 If
@@ -94,11 +94,16 @@ https
 :
 /
 /
-developer
+firefox
+-
+source
+-
+docs
 .
 mozilla
 .
 org
+/
 you
 can
 try
