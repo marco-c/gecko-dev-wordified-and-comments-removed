@@ -115,7 +115,10 @@ bool
 isCertContentSigningRoot
 (
 in
-CERTCertificatePtr
+Array
+<
+octet
+>
 cert
 )
 ;

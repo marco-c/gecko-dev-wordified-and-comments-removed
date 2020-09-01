@@ -402,7 +402,7 @@ mTestBuiltInRootHash
 ;
 #
 endif
-nsString
+nsCString
 mContentSigningRootHash
 ;
 RefPtr
