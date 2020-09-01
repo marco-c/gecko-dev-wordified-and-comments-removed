@@ -55,14 +55,6 @@ nsPrintSettingsWin
 aPS
 )
 ;
-explicit
-nsPrintSettingsWin
-(
-const
-PrintSettingsInitializer
-&
-)
-;
 virtual
 nsresult
 _Clone

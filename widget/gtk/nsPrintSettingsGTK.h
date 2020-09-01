@@ -75,15 +75,6 @@ nsPrintSettingsGTK
 (
 )
 ;
-explicit
-nsPrintSettingsGTK
-(
-const
-PrintSettingsInitializer
-&
-aSettings
-)
-;
 GtkPageSetup
 *
 GetGtkPageSetup

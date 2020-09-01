@@ -105,11 +105,6 @@ cupsFreeDests
 \
 X
 (
-cupsGetDestMediaDefault
-)
-\
-X
-(
 cupsGetDestMediaCount
 )
 \

@@ -40,14 +40,6 @@ name
 [
 implicit_jscontext
 ]
-Promise
-createDefaultSettings
-(
-)
-;
-[
-implicit_jscontext
-]
 readonly
 attribute
 Promise
