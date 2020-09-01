@@ -339,7 +339,7 @@ opened
 ;
 Promise
 <
-void
+undefined
 >
 open
 (
@@ -347,7 +347,7 @@ open
 ;
 Promise
 <
-void
+undefined
 >
 close
 (
@@ -355,7 +355,7 @@ close
 ;
 Promise
 <
-void
+undefined
 >
 selectConfiguration
 (
@@ -365,7 +365,7 @@ configurationValue
 ;
 Promise
 <
-void
+undefined
 >
 claimInterface
 (
@@ -375,7 +375,7 @@ interfaceNumber
 ;
 Promise
 <
-void
+undefined
 >
 releaseInterface
 (
@@ -385,7 +385,7 @@ interfaceNumber
 ;
 Promise
 <
-void
+undefined
 >
 selectAlternateInterface
 (
@@ -423,7 +423,7 @@ data
 ;
 Promise
 <
-void
+undefined
 >
 clearHalt
 (
@@ -494,7 +494,7 @@ packetLengths
 ;
 Promise
 <
-void
+undefined
 >
 reset
 (
