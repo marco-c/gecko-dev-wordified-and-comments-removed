@@ -4590,13 +4590,6 @@ newBigInt
 (
 )
 ;
-const
-ParserAtom
-*
-bigIntAtom
-(
-)
-;
 enum
 class
 OptionalKind
