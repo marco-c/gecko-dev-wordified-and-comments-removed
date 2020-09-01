@@ -183,15 +183,12 @@ nsISimpleEnumerator
 aEnumerator
 )
 ;
-void
-FillObserverArray
-(
 nsCOMArray
 <
 nsIObserver
 >
-&
-aArray
+ReverseCloneObserverArray
+(
 )
 ;
 void
