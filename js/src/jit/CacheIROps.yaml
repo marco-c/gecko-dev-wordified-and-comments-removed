@@ -5095,7 +5095,7 @@ transpile
 true
 cost_estimate
 :
-2
+5
 args
 :
 str
