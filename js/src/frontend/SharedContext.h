@@ -1260,7 +1260,7 @@ copyScriptFields
 (
 ScriptStencil
 &
-stencil
+script
 )
 ;
 }
@@ -2935,7 +2935,7 @@ copyScriptFields
 (
 ScriptStencil
 &
-stencil
+script
 )
 ;
 void
@@ -2943,7 +2943,7 @@ copyFunctionFields
 (
 ScriptStencil
 &
-stencil
+script
 )
 ;
 void

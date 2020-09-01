@@ -5757,7 +5757,7 @@ frontend
 :
 ScriptStencil
 &
-stencil
+scriptStencil
 )
 ;
 void
@@ -5964,7 +5964,7 @@ frontend
 :
 ScriptStencil
 &
-stencil
+scriptStencil
 )
 ;
 size_t
@@ -8354,7 +8354,7 @@ frontend
 :
 ScriptStencil
 &
-stencil
+scriptStencil
 )
 ;
 template
@@ -8488,7 +8488,7 @@ frontend
 :
 ScriptStencil
 &
-stencil
+scriptStencil
 )
 ;
 private
@@ -8609,7 +8609,7 @@ frontend
 :
 ScriptStencil
 &
-stencil
+scriptStencil
 js
 :
 :
@@ -8642,7 +8642,7 @@ frontend
 :
 ScriptStencil
 &
-stencil
+scriptStencil
 js
 :
 :

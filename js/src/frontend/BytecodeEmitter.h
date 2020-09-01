@@ -1298,7 +1298,7 @@ intoScriptStencil
 (
 ScriptStencil
 *
-stencil
+script
 )
 ;
 MOZ_MUST_USE

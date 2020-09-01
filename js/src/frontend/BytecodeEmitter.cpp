@@ -51805,7 +51805,7 @@ intoScriptStencil
 (
 ScriptStencil
 *
-stencil
+script
 )
 {
 js
@@ -51855,7 +51855,7 @@ hasNonSyntacticScope
 )
 )
 ;
-stencil
+script
 -
 >
 gcThings
@@ -51872,7 +51872,7 @@ stealGCThings
 (
 )
 ;
-stencil
+script
 -
 >
 immutableScriptData
@@ -51912,12 +51912,12 @@ funbox
 copyScriptFields
 (
 *
-stencil
+script
 )
 ;
 MOZ_ASSERT
 (
-stencil
+script
 -
 >
 isFunction
@@ -51934,7 +51934,7 @@ sc
 copyScriptFields
 (
 *
-stencil
+script
 )
 ;
 }

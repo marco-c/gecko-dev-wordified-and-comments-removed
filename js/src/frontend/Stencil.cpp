@@ -785,7 +785,7 @@ CompilationInfo
 compilationInfo
 ScriptStencil
 &
-stencil
+script
 HandleFunction
 function
 )
@@ -795,7 +795,7 @@ ScriptThingsVector
 &
 gcthings
 =
-stencil
+script
 .
 gcThings
 ;
@@ -822,10 +822,10 @@ function
 compilationInfo
 .
 sourceObject
-stencil
+script
 .
 extent
-stencil
+script
 .
 immutableFlags
 )
@@ -887,7 +887,7 @@ CompilationInfo
 compilationInfo
 ScriptStencil
 &
-stencil
+script
 FunctionIndex
 functionIndex
 )
@@ -895,7 +895,7 @@ functionIndex
 GeneratorKind
 generatorKind
 =
-stencil
+script
 .
 immutableFlags
 .
@@ -920,7 +920,7 @@ NotGenerator
 FunctionAsyncKind
 asyncKind
 =
-stencil
+script
 .
 immutableFlags
 .
@@ -971,7 +971,7 @@ gc
 AllocKind
 allocKind
 =
-stencil
+script
 .
 functionFlags
 .
@@ -998,7 +998,7 @@ FUNCTION
 bool
 isAsmJS
 =
-stencil
+script
 .
 functionFlags
 .
@@ -1023,7 +1023,7 @@ cx
 ;
 if
 (
-stencil
+script
 .
 functionAtom
 )
@@ -1036,7 +1036,7 @@ compilationInfo
 .
 liftParserAtomToJSAtom
 (
-stencil
+script
 .
 functionAtom
 )
@@ -1061,10 +1061,10 @@ NewFunctionWithProto
 (
 cx
 maybeNative
-stencil
+script
 .
 nargs
-stencil
+script
 .
 functionFlags
 nullptr
@@ -1350,11 +1350,11 @@ functionScriptStencils
 {
 auto
 &
-stencil
+scriptStencil
 =
 item
 .
-stencil
+script
 ;
 auto
 functionIndex
@@ -1379,7 +1379,7 @@ CreateFunction
 (
 cx
 compilationInfo
-stencil
+scriptStencil
 functionIndex
 )
 )
@@ -1519,11 +1519,11 @@ functionScriptStencils
 {
 auto
 &
-stencil
+scriptStencil
 =
 item
 .
-stencil
+script
 ;
 auto
 &
@@ -1536,7 +1536,7 @@ function
 if
 (
 !
-stencil
+scriptStencil
 .
 functionFlags
 .
@@ -1551,13 +1551,13 @@ continue
 if
 (
 !
-stencil
+scriptStencil
 .
 wasFunctionEmitted
 &
 &
 !
-stencil
+scriptStencil
 .
 isStandaloneFunction
 )
@@ -1575,7 +1575,7 @@ setTypeForScriptedFunction
 (
 cx
 fun
-stencil
+scriptStencil
 .
 isSingletonFunction
 )
@@ -1606,7 +1606,7 @@ nullptr
 ;
 if
 (
-stencil
+scriptStencil
 .
 functionFlags
 .
@@ -1615,7 +1615,7 @@ hasInferredName
 )
 |
 |
-stencil
+scriptStencil
 .
 functionFlags
 .
@@ -1630,7 +1630,7 @@ compilationInfo
 .
 liftParserAtomToJSAtom
 (
-stencil
+scriptStencil
 .
 functionAtom
 )
@@ -1648,7 +1648,7 @@ false
 }
 if
 (
-stencil
+scriptStencil
 .
 functionFlags
 .
@@ -1668,7 +1668,7 @@ funcAtom
 }
 if
 (
-stencil
+scriptStencil
 .
 functionFlags
 .
@@ -1718,11 +1718,11 @@ functionScriptStencils
 {
 auto
 &
-stencil
+scriptStencil
 =
 item
 .
-stencil
+script
 ;
 auto
 &
@@ -1734,7 +1734,7 @@ function
 ;
 if
 (
-stencil
+scriptStencil
 .
 immutableScriptData
 )
@@ -1742,7 +1742,7 @@ immutableScriptData
 if
 (
 !
-stencil
+scriptStencil
 .
 wasFunctionEmitted
 )
@@ -1761,7 +1761,7 @@ fromStencil
 (
 cx
 compilationInfo
-stencil
+scriptStencil
 fun
 )
 )
@@ -1780,7 +1780,7 @@ false
 else
 if
 (
-stencil
+scriptStencil
 .
 functionFlags
 .
@@ -1828,7 +1828,7 @@ CreateLazyScript
 (
 cx
 compilationInfo
-stencil
+scriptStencil
 fun
 )
 )
@@ -1857,7 +1857,7 @@ compilationInfo
 {
 ScriptStencil
 &
-stencil
+script
 =
 compilationInfo
 .
@@ -1877,7 +1877,7 @@ cx
 ;
 if
 (
-stencil
+script
 .
 isFunction
 (
@@ -1899,7 +1899,7 @@ TopLevelIndex
 }
 if
 (
-stencil
+script
 .
 functionFlags
 .
@@ -1914,7 +1914,7 @@ true
 }
 MOZ_ASSERT
 (
-stencil
+script
 .
 immutableScriptData
 )
@@ -1951,7 +1951,7 @@ compilationInfo
 compilationInfo
 .
 script
-stencil
+script
 fun
 )
 ;
@@ -1967,7 +1967,7 @@ fromStencil
 (
 cx
 compilationInfo
-stencil
+script
 fun
 )
 ;
@@ -1985,7 +1985,7 @@ false
 }
 if
 (
-stencil
+script
 .
 isModule
 (
@@ -2060,11 +2060,11 @@ functionScriptStencils
 {
 auto
 &
-stencil
+scriptStencil
 =
 item
 .
-stencil
+script
 ;
 auto
 &
@@ -2077,7 +2077,7 @@ function
 if
 (
 !
-stencil
+scriptStencil
 .
 wasFunctionEmitted
 )
@@ -2087,7 +2087,7 @@ continue
 }
 if
 (
-stencil
+scriptStencil
 .
 functionFlags
 .
@@ -2111,7 +2111,7 @@ hasBytecode
 {
 MOZ_ASSERT
 (
-stencil
+scriptStencil
 .
 lazyFunctionEnclosingScopeIndex_
 .
@@ -2138,7 +2138,7 @@ ScopeIndex
 index
 =
 *
-stencil
+scriptStencil
 .
 lazyFunctionEnclosingScopeIndex_
 ;
@@ -2170,7 +2170,7 @@ script
 >
 initTreatAsRunOnce
 (
-stencil
+scriptStencil
 .
 immutableFlags
 .
@@ -2185,7 +2185,7 @@ TreatAsRunOnce
 ;
 if
 (
-stencil
+scriptStencil
 .
 memberInitializers
 )
@@ -2196,7 +2196,7 @@ script
 setMemberInitializers
 (
 *
-stencil
+scriptStencil
 .
 memberInitializers
 )
@@ -2228,11 +2228,11 @@ functionScriptStencils
 {
 auto
 &
-stencil
+scriptStencil
 =
 item
 .
-stencil
+script
 ;
 auto
 &
@@ -2245,7 +2245,7 @@ function
 if
 (
 !
-stencil
+scriptStencil
 .
 functionFlags
 .
