@@ -4060,6 +4060,11 @@ aProfile
 get
 (
 )
+aProfile
+.
+Length
+(
+)
 )
 ;
 }
@@ -4366,6 +4371,11 @@ Splice
 exitProfile
 .
 get
+(
+)
+exitProfile
+.
+Length
 (
 )
 )
