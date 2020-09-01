@@ -1026,6 +1026,15 @@ Opcode
 :
 GuardNoDenseElements
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+GuardElementNotHole
+:
 object
 =
 ins
