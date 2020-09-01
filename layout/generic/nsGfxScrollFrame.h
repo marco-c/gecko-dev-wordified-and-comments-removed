@@ -1876,7 +1876,7 @@ mLastScrollOrigin
 ScrollOrigin
 :
 :
-NotSpecified
+None
 ;
 mLastSmoothScrollOrigin
 =
