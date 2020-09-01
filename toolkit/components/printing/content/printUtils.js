@@ -1672,6 +1672,7 @@ kInitSaveAll
 }
 getPrintSettings
 (
+aPrinterName
 )
 {
 var
@@ -1712,6 +1713,18 @@ PSSVC
 .
 globalPrintSettings
 ;
+if
+(
+aPrinterName
+)
+{
+printSettings
+.
+printerName
+=
+aPrinterName
+;
+}
 this
 .
 _setPrinterDefaultsForSelectedPrinter
