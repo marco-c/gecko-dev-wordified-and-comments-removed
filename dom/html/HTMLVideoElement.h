@@ -661,6 +661,11 @@ aSecondaryContainer
 )
 override
 ;
+void
+OnSecondaryVideoOutputFirstFrameRendered
+(
+)
+;
 protected
 :
 virtual
@@ -726,6 +731,12 @@ mScreenWakeLock
 bool
 mIsOrientationLocked
 ;
+WatchManager
+<
+HTMLVideoElement
+>
+mVideoWatchManager
+;
 private
 :
 bool
@@ -769,7 +780,7 @@ mVisualCloneTargetPromise
 ;
 RefPtr
 <
-SecondaryVideoOutput
+FirstFrameVideoOutput
 >
 mSecondaryVideoOutput
 ;
