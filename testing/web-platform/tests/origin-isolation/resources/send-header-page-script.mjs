@@ -53,7 +53,7 @@ URLSearchParams
 (
 location
 .
-href
+search
 )
 ;
 if
