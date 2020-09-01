@@ -12462,6 +12462,9 @@ if
 PY3
 :
             
+try
+:
+                
 manager
 .
 install_pip_package
@@ -12475,6 +12478,34 @@ glean_sdk
 5
 .
 0
+'
+)
+            
+except
+subprocess
+.
+CalledProcessError
+:
+                
+print
+(
+'
+Could
+not
+install
+glean_sdk
+so
+telemetry
+will
+not
+be
+'
+                      
+'
+collected
+.
+Continuing
+.
 '
 )
             
