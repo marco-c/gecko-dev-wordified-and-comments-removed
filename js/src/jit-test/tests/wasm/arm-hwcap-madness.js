@@ -1,11 +1,3 @@
-setARMHwCapFlags
-(
-'
-vfp
-armv7
-'
-)
-;
 assertEq
 (
 typeof

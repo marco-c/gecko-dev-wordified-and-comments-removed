@@ -1,0 +1,9 @@
+assertEq
+(
+typeof
+WebAssembly
+"
+undefined
+"
+)
+;

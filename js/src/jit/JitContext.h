@@ -435,6 +435,11 @@ InitializeJit
 (
 )
 ;
+void
+ComputeJitSupportFlags
+(
+)
+;
 JitContext
 *
 GetJitContext

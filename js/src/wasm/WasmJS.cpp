@@ -1579,13 +1579,13 @@ return
 false
 ;
 }
-#
-ifdef
-JS_CODEGEN_ARM
 if
 (
 !
-HasLDSTREXBHD
+jit
+:
+:
+JitSupportsAtomics
 (
 )
 )
@@ -1594,8 +1594,6 @@ return
 false
 ;
 }
-#
-endif
 if
 (
 !

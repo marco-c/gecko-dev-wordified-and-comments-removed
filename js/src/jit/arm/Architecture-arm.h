@@ -3249,6 +3249,11 @@ return
 true
 ;
 }
+void
+InitARMFlags
+(
+)
+;
 bool
 ParseARMHwCapFlags
 (
@@ -3256,11 +3261,6 @@ const
 char
 *
 armHwCap
-)
-;
-void
-InitARMFlags
-(
 )
 ;
 uint32_t
