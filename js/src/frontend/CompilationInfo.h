@@ -635,6 +635,8 @@ get
 )
 ;
 }
+private
+:
 void
 setSource
 (
@@ -656,6 +658,8 @@ ss
 )
 ;
 }
+public
+:
 template
 <
 typename
