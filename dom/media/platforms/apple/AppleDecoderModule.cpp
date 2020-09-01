@@ -662,6 +662,16 @@ info
 1080
 )
 ;
+info
+.
+mMimeType
+=
+"
+video
+/
+vp9
+"
+;
 VPXDecoder
 :
 :
