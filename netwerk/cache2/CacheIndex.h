@@ -194,6 +194,9 @@ mTimeStamp
 uint32_t
 mIsDirty
 ;
+uint32_t
+mKBWritten
+;
 }
 CacheIndexHeader
 ;
@@ -221,6 +224,14 @@ CacheIndexHeader
 :
 :
 mIsDirty
+)
++
+sizeof
+(
+CacheIndexHeader
+:
+:
+mKBWritten
 )
 =
 =
