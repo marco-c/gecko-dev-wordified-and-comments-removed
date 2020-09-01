@@ -12415,6 +12415,16 @@ GetUnderlyingSurface
 (
 )
 ;
+if
+(
+!
+surface
+)
+{
+return
+nullptr
+;
+}
 switch
 (
 surface
