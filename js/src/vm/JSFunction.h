@@ -14,6 +14,17 @@ h
 #
 include
 "
+js
+/
+shadow
+/
+Function
+.
+h
+"
+#
+include
+"
 vm
 /
 FunctionFlags
@@ -3316,7 +3327,7 @@ JSFunction
 =
 sizeof
 (
-js
+JS
 :
 :
 shadow
