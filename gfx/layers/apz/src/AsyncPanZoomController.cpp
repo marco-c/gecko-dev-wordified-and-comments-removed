@@ -20400,7 +20400,7 @@ ToString
 (
 aLayerMetrics
 .
-GetVisualScrollOffset
+GetVisualDestination
 (
 )
 )
@@ -20418,7 +20418,7 @@ ClampAndSetVisualScrollOffset
 (
 aLayerMetrics
 .
-GetVisualScrollOffset
+GetVisualDestination
 (
 )
 )

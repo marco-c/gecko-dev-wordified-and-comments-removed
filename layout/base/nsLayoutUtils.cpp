@@ -48387,6 +48387,13 @@ SetBaseScrollOffset
 apzScrollPosition
 )
 ;
+metrics
+.
+SetVisualDestination
+(
+visualScrollOffset
+)
+;
 if
 (
 aIsRootContent
@@ -48455,7 +48462,7 @@ GetPendingVisualScrollUpdate
 {
 metrics
 .
-SetVisualScrollOffset
+SetVisualDestination
 (
 CSSPoint
 :
