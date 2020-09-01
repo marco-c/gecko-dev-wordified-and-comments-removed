@@ -3802,6 +3802,11 @@ picker
 defaultString
 =
 filename
++
+"
+.
+pdf
+"
 ;
 let
 retval
