@@ -97,7 +97,7 @@ partial
 namespace
 CSS
 {
-void
+undefined
 registerProperty
 (
 PropertyDefinition
