@@ -5,13 +5,6 @@ MOZILLA_AVUTIL_VISIBILITY_H
 define
 MOZILLA_AVUTIL_VISIBILITY_H
 #
-include
-<
-stdlib
-.
-h
->
-#
 pragma
 GCC
 visibility
