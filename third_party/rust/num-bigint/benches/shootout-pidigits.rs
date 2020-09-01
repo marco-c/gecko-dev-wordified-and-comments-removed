@@ -1,3 +1,15 @@
+extern
+crate
+num_bigint
+;
+extern
+crate
+num_integer
+;
+extern
+crate
+num_traits
+;
 use
 std
 :
@@ -393,8 +405,11 @@ in
 1
 .
 .
-=
+(
 n
++
+1
+)
 {
 let
 mut
@@ -453,7 +468,7 @@ i
 =
 0
 {
-writeln
+write
 !
 (
 out
@@ -463,6 +478,8 @@ t
 :
 {
 }
+\
+n
 "
 i
 )
@@ -508,7 +525,7 @@ out
 ?
 ;
 }
-writeln
+write
 !
 (
 out
@@ -518,6 +535,8 @@ t
 :
 {
 }
+\
+n
 "
 n
 )
