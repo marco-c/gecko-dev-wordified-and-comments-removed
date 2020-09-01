@@ -346,10 +346,13 @@ fit
 to
 -
 page
+-
+width
 =
 Fit
 to
 page
+width
 #
 Label
 for
