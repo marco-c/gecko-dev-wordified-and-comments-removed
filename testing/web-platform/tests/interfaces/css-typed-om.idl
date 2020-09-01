@@ -210,7 +210,7 @@ StylePropertyMap
 :
 StylePropertyMapReadOnly
 {
-void
+undefined
 set
 (
 USVString
@@ -226,7 +226,7 @@ USVString
 values
 )
 ;
-void
+undefined
 append
 (
 USVString
@@ -242,14 +242,14 @@ USVString
 values
 )
 ;
-void
+undefined
 delete
 (
 USVString
 property
 )
 ;
-void
+undefined
 clear
 (
 )
