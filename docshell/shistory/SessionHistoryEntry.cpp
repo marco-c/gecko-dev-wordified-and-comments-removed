@@ -690,7 +690,6 @@ MakeUnique
 SHEntrySharedState
 >
 (
-0
 aTriggeringPrincipal
 aPrincipalToInherit
 aPartitionedPrincipalToInherit
