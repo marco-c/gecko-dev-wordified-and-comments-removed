@@ -1033,7 +1033,7 @@ ExperimentAPI
 getExperiment
 (
 {
-group
+featureId
 :
 "
 aboutwelcome

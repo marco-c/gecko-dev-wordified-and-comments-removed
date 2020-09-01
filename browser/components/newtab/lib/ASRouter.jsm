@@ -1766,7 +1766,7 @@ experiments
 for
 (
 const
-group
+featureId
 of
 provider
 .
@@ -1785,7 +1785,7 @@ ExperimentAPI
 getExperiment
 (
 {
-group
+featureId
 }
 )
 ;
@@ -1813,6 +1813,13 @@ experimentData
 experimentData
 .
 branch
+&
+&
+experimentData
+.
+branch
+.
+feature
 )
 {
 experiments
@@ -1822,6 +1829,8 @@ push
 experimentData
 .
 branch
+.
+feature
 .
 value
 )
@@ -1833,7 +1842,7 @@ REACH_EVENT_GROUPS
 .
 includes
 (
-group
+featureId
 )
 )
 {
@@ -1867,6 +1876,15 @@ of
 branches
 )
 {
+let
+branchValue
+=
+branch
+.
+feature
+.
+value
+;
 if
 (
 branch
@@ -1882,9 +1900,7 @@ branch
 slug
 &
 &
-branch
-.
-value
+branchValue
 .
 trigger
 )
@@ -1894,7 +1910,6 @@ experiments
 push
 (
 {
-group
 forReachEvent
 :
 {
@@ -1915,9 +1930,7 @@ slug
 .
 .
 .
-branch
-.
-value
+branchValue
 }
 )
 ;

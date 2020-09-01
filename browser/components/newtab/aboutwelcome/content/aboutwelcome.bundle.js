@@ -1136,9 +1136,11 @@ branch
 &
 branch
 .
-value
+feature
 ?
 branch
+.
+feature
 .
 value
 :
@@ -1154,7 +1156,7 @@ branch
 &
 branch
 .
-value
+feature
 )
 )
 {
