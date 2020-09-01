@@ -862,6 +862,7 @@ aParent
 )
 )
 ;
+{
 MutexAutoLock
 autoLock
 (
@@ -931,6 +932,7 @@ FlushPendingEvents
 (
 )
 ;
+}
 StartGamepadMonitoring
 (
 )
