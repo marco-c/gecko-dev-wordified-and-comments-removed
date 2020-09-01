@@ -619,7 +619,6 @@ command
 derive
 (
 Clone
-PartialEq
 )
 ]
 pub

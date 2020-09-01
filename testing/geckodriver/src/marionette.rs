@@ -2017,12 +2017,12 @@ capabilities_options
 None
 ;
 if
+let
+Status
+=
 msg
 .
 command
-=
-=
-Status
 {
 let
 (

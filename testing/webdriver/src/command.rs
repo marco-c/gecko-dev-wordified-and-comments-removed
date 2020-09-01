@@ -279,8 +279,6 @@ WebDriverExtensionCommand
 Clone
 +
 Send
-+
-PartialEq
 {
 fn
 parameters_json
@@ -302,7 +300,6 @@ derive
 (
 Clone
 Debug
-PartialEq
 )
 ]
 pub
