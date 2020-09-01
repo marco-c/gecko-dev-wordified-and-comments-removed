@@ -9303,6 +9303,12 @@ Length
 -
 1
 ;
+mUsername
+.
+mPos
+=
+pos
+;
 }
 if
 (
