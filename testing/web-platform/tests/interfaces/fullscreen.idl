@@ -88,7 +88,7 @@ Element
 {
 Promise
 <
-void
+undefined
 >
 requestFullscreen
 (
@@ -136,7 +136,7 @@ fullscreen
 historical
 Promise
 <
-void
+undefined
 >
 exitFullscreen
 (
