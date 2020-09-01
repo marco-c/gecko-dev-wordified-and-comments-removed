@@ -44275,6 +44275,17 @@ mOSHE
 }
 if
 (
+!
+StaticPrefs
+:
+:
+fission_sessionHistoryInParent
+(
+)
+)
+{
+if
+(
 updateSHistory
 )
 {
@@ -44344,6 +44355,7 @@ EnsureCorrectEntryAtCurrIndex
 mLSHE
 )
 ;
+}
 }
 if
 (
