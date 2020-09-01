@@ -1277,6 +1277,10 @@ value
 }
 {
 httpVersion
+|
+|
+"
+"
 }
 ;
 result
@@ -1925,6 +1929,10 @@ value
 }
 {
 httpVersion
+|
+|
+"
+"
 }
 ;
 value
