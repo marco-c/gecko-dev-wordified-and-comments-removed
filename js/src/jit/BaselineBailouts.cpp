@@ -9450,6 +9450,12 @@ BailoutKind
 :
 TagNotEqualGuard
 :
+case
+BailoutKind
+:
+:
+FunctionKindGuard
+:
 break
 ;
 case
