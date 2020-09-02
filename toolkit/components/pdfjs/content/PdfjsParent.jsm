@@ -1213,7 +1213,7 @@ fallback
 null
 notificationBox
 .
-PRIORITY_WARNING_LOW
+PRIORITY_INFO_MEDIUM
 buttons
 function
 eventsCallback
