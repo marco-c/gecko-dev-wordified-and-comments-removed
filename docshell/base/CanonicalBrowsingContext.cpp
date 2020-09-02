@@ -1622,16 +1622,6 @@ existingLoadingInfo
 mLoadId
 )
 ;
-SetHistoryID
-(
-entry
--
->
-DocshellID
-(
-)
-)
-;
 }
 else
 {
