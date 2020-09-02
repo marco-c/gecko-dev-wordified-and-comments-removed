@@ -703,6 +703,9 @@ MOZ_ASSERT
 browserChild
 )
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 dom
 :
 :
@@ -717,6 +720,8 @@ GetBrowsingContext
 (
 )
 ;
+#
+endif
 MOZ_DIAGNOSTIC_ASSERT
 (
 bc
