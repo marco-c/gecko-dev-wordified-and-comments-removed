@@ -3949,6 +3949,10 @@ browsertime
 -
 browsertime
 -
+power
+-
+browsertime
+-
 tp6m
 -
 browsertime
@@ -3984,6 +3988,10 @@ arm7
 -
 browsertime
 :
+-
+browsertime
+-
+power
 -
 browsertime
 -
