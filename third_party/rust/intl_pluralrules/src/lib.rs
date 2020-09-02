@@ -746,7 +746,7 @@ assert_eq
 !
 (
 CLDR_VERSION
-37
+36
 )
 ;
 }
