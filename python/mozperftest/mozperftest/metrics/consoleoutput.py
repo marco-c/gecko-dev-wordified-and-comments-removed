@@ -237,6 +237,32 @@ split
 by
 "
 )
+            
+simplify_names
+=
+self
+.
+get_arg
+(
+"
+simplify
+-
+names
+"
+)
+            
+simplify_exclude
+=
+self
+.
+get_arg
+(
+"
+simplify
+-
+exclude
+"
+)
         
 )
         
