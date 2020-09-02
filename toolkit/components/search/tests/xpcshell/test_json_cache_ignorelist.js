@@ -52,9 +52,11 @@ setupRemoteSettings
 (
 )
 ;
-let
-cacheTemplateFile
+cacheTemplate
 =
+await
+readJSONFile
+(
 do_get_file
 (
 "
@@ -65,12 +67,6 @@ search_ignorelist
 json
 "
 )
-;
-cacheTemplate
-=
-readJSONFile
-(
-cacheTemplateFile
 )
 ;
 cacheTemplate
