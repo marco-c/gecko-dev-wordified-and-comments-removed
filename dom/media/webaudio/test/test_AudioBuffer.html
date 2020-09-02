@@ -687,7 +687,7 @@ gc
 (
 )
 ;
-expectException
+expectNoException
 (
 function
 (
@@ -703,12 +703,9 @@ copy
 )
 ;
 }
-DOMException
-.
-INDEX_SIZE_ERR
 )
 ;
-expectException
+expectNoException
 (
 function
 (
@@ -724,9 +721,6 @@ newData
 )
 ;
 }
-DOMException
-.
-INDEX_SIZE_ERR
 )
 ;
 expectException
