@@ -163,6 +163,9 @@ srcBuf
 bool
 ParseModuleToStencil
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -180,6 +183,9 @@ srcBuf
 bool
 ParseModuleToStencil
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
