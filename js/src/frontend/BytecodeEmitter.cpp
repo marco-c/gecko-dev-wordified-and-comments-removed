@@ -39786,6 +39786,7 @@ NumericLiteral
 .
 toAtom
 (
+cx
 compilationInfo
 )
 ;

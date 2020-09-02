@@ -4604,6 +4604,9 @@ js
 :
 Int32ToParserAtom
 (
+JSContext
+*
+cx
 frontend
 :
 :
@@ -4677,8 +4680,6 @@ parserAtoms
 .
 internAscii
 (
-compilationInfo
-.
 cx
 start
 length
@@ -8890,6 +8891,9 @@ js
 :
 NumberToParserAtom
 (
+JSContext
+*
+cx
 frontend
 :
 :
@@ -8916,6 +8920,7 @@ si
 return
 Int32ToParserAtom
 (
+cx
 compilationInfo
 si
 )
@@ -8930,8 +8935,6 @@ numStr
 =
 FracNumberToCString
 (
-compilationInfo
-.
 cx
 &
 cbuf
@@ -8946,8 +8949,6 @@ numStr
 {
 ReportOutOfMemory
 (
-compilationInfo
-.
 cx
 )
 ;
@@ -8999,8 +9000,6 @@ parserAtoms
 .
 internAscii
 (
-compilationInfo
-.
 cx
 numStr
 length

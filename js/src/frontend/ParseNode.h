@@ -5943,6 +5943,9 @@ ParserAtom
 *
 toAtom
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo

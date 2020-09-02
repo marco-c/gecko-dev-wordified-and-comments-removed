@@ -159,6 +159,9 @@ ParserAtom
 *
 NumberToParserAtom
 (
+JSContext
+*
+cx
 frontend
 :
 :
@@ -218,6 +221,9 @@ ParserAtom
 *
 Int32ToParserAtom
 (
+JSContext
+*
+cx
 frontend
 :
 :
