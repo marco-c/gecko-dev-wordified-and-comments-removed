@@ -302,9 +302,6 @@ KeywordInfo
 namespace
 js
 {
-class
-AutoKeepAtoms
-;
 namespace
 frontend
 {

@@ -504,12 +504,7 @@ propId
 =
 AtomToId
 (
-compilationInfo
-.
-liftParserAtomToJSAtom
-(
-atom
-)
+jsatom
 )
 ;
 }

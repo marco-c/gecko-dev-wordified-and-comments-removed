@@ -253,17 +253,6 @@ SharedStencil
 .
 h
 "
-#
-include
-"
-vm
-/
-JSContext
--
-inl
-.
-h
-"
 using
 mozilla
 :

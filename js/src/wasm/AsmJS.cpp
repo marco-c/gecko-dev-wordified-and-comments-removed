@@ -5187,7 +5187,6 @@ VALIDATION_LIFO_DEFAULT_CHUNK_SIZE
 ;
 class
 MOZ_STACK_CLASS
-JS_HAZ_ROOTED
 ModuleValidatorShared
 {
 public
@@ -9756,7 +9755,6 @@ Unit
 >
 class
 MOZ_STACK_CLASS
-JS_HAZ_ROOTED
 ModuleValidator
 :
 public

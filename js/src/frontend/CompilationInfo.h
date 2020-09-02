@@ -676,9 +676,6 @@ struct
 MOZ_RAII
 CompilationState
 {
-AutoKeepAtoms
-keepAtoms
-;
 Directives
 directives
 ;
@@ -719,10 +716,6 @@ enclosingEnv
 nullptr
 )
 :
-keepAtoms
-(
-cx
-)
 directives
 (
 options

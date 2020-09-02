@@ -2671,7 +2671,6 @@ kind
 {
 }
 }
-JS_HAZ_ROOTED
 ;
 }
 }
