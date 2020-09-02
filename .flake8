@@ -38,9 +38,6 @@ bindings
 dom
 /
 encoding
-dom
-/
-websocket
 gfx
 /
 tests

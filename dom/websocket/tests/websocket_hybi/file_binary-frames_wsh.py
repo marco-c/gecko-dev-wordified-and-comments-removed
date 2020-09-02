@@ -92,7 +92,7 @@ i
 for
 i
 in
-xrange
+range
 (
 256
 )

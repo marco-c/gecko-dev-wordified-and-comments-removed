@@ -34,6 +34,11 @@ dom
 base
 /
 -
+dom
+/
+websocket
+/
+-
 mozglue
 /
 -
