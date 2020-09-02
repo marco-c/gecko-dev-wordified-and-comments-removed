@@ -29936,6 +29936,7 @@ Smoosh
 :
 compileGlobalScriptToStencil
 (
+cx
 compilationInfo
 .
 get

@@ -1185,6 +1185,7 @@ Smoosh
 :
 compileGlobalScriptToStencil
 (
+cx
 compilationInfo
 srcBuf
 &

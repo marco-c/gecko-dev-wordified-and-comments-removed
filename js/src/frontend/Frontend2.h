@@ -87,6 +87,9 @@ static
 bool
 compileGlobalScript
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -114,6 +117,9 @@ static
 bool
 compileGlobalScriptToStencil
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo

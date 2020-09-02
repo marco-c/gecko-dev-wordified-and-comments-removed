@@ -2759,6 +2759,9 @@ Smoosh
 :
 compileGlobalScriptToStencil
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -2801,14 +2804,6 @@ srcBuf
 length
 (
 )
-;
-JSContext
-*
-cx
-=
-compilationInfo
-.
-cx
 ;
 const
 auto
@@ -3175,6 +3170,9 @@ Smoosh
 :
 compileGlobalScript
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -3200,6 +3198,7 @@ if
 !
 compileGlobalScriptToStencil
 (
+cx
 compilationInfo
 srcBuf
 unimplemented
@@ -3237,14 +3236,6 @@ defined
 (
 JS_JITSPEW
 )
-JSContext
-*
-cx
-=
-compilationInfo
-.
-cx
-;
 Sprinter
 sprinter
 (
