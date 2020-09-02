@@ -137,6 +137,17 @@ util
 GeckoBundle
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+ImageDecoder
+;
+import
 java
 .
 lang
