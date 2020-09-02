@@ -1102,13 +1102,13 @@ Slice
 created
 by
 a
-cluster
+prim
 that
 has
-ClusterFlags
+PrimitiveFlags
 :
 :
-SCROLLBAR_CONTAINER
+IS_SCROLLBAR_CONTAINER
 const
 IS_SCROLLBAR
 =
