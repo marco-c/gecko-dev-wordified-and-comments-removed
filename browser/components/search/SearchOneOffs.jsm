@@ -4395,6 +4395,12 @@ selectedButton
 .
 engine
 )
+&
+&
+!
+this
+.
+disableOneOffsHorizontalKeyNavigation
 )
 {
 this
@@ -4447,6 +4453,12 @@ selectedButton
 .
 engine
 )
+&
+&
+!
+this
+.
+disableOneOffsHorizontalKeyNavigation
 )
 {
 this

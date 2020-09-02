@@ -397,6 +397,14 @@ false
 "
 update2
 .
+disableOneOffsHorizontalKeyNavigation
+"
+false
+]
+[
+"
+update2
+.
 localOneOffs
 "
 false
