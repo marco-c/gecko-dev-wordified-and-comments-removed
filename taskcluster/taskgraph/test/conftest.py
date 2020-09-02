@@ -80,7 +80,6 @@ bugbug
 .
 _write_perfherder_data
 "
-        
 lambda
 lower_is_better
 :

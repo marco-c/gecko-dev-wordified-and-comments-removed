@@ -650,7 +650,6 @@ base_command
 [
 task
 ]
-                
 env
 =
 env

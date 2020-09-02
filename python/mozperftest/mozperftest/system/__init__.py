@@ -74,21 +74,13 @@ xpcshell
 return
 Layers
 (
-            
 env
-            
 mach_cmd
-            
 (
-                
 MacosDevice
-                
 Profile
-                
 ProxyRunner
-            
 )
-        
 )
     
 if
