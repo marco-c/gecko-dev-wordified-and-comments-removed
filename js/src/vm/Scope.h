@@ -4052,6 +4052,13 @@ data
 module
 ;
 }
+static
+const
+size_t
+EnclosingEnvironmentChainLength
+=
+1
+;
 }
 ;
 class
