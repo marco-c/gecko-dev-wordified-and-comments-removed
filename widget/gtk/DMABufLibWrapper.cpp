@@ -904,7 +904,7 @@ mXRGBFormat
 {
 true
 false
-GBM_FORMAT_ARGB8888
+GBM_FORMAT_XRGB8888
 nullptr
 0
 }
@@ -914,7 +914,7 @@ mARGBFormat
 {
 true
 true
-GBM_FORMAT_XRGB8888
+GBM_FORMAT_ARGB8888
 nullptr
 0
 }
