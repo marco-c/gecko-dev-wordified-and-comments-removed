@@ -371,7 +371,7 @@ aDestination
 uint32_t
 aChannelNumber
 uint32_t
-aBufferOffset
+aStartInChannel
 ErrorResult
 &
 aRv
@@ -390,7 +390,7 @@ aSource
 uint32_t
 aChannelNumber
 uint32_t
-aBufferOffset
+aStartInChannel
 ErrorResult
 &
 aRv
