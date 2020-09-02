@@ -2337,6 +2337,13 @@ to
 "
 dom
 .
+max_script_run_time_without_important_user_input
+"
+to
+1
+"
+dom
+.
 max_chrome_script_run_time
 "
 to
