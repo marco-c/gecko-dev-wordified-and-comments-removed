@@ -83,15 +83,6 @@ getAppInfo
 .
 platformBuildID
 ;
-cacheTemplate
-.
-visibleDefaultEngines
-=
-getDefaultEngineList
-(
-false
-)
-;
 await
 promiseSaveCacheData
 (
