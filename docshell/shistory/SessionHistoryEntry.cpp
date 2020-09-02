@@ -4142,6 +4142,9 @@ mChildren
 if
 (
 child
+&
+&
+child
 -
 >
 IsDynamicallyAdded
