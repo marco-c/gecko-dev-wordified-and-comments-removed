@@ -1013,6 +1013,7 @@ compilationInfo
 .
 liftParserAtomToJSAtom
 (
+cx
 script
 .
 functionAtom
@@ -1641,6 +1642,7 @@ compilationInfo
 .
 liftParserAtomToJSAtom
 (
+cx
 scriptStencil
 .
 functionAtom

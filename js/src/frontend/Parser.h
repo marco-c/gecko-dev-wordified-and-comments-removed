@@ -414,6 +414,7 @@ compilationInfo_
 .
 liftParserAtomToJSAtom
 (
+cx_
 parserAtom
 )
 ;
@@ -433,6 +434,7 @@ compilationInfo_
 .
 lowerJSAtomToParserAtom
 (
+cx_
 atom
 )
 ;

@@ -128,6 +128,9 @@ static
 bool
 InterpretObjLiteralValue
 (
+JSContext
+*
+cx
 const
 ObjLiteralAtomVector
 &
@@ -201,6 +204,7 @@ compilationInfo
 .
 liftParserAtomToJSAtom
 (
+cx
 atoms
 [
 index
@@ -487,6 +491,7 @@ compilationInfo
 .
 liftParserAtomToJSAtom
 (
+cx
 atom
 )
 ;
@@ -525,6 +530,7 @@ if
 !
 InterpretObjLiteralValue
 (
+cx
 atoms
 compilationInfo
 insn
@@ -701,6 +707,7 @@ if
 !
 InterpretObjLiteralValue
 (
+cx
 atoms
 compilationInfo
 insn
