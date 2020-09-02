@@ -6479,11 +6479,6 @@ length
 0
 )
 {
-*
-skip
-=
-2
-;
 return
 false
 ;
@@ -6517,11 +6512,6 @@ if
 nameEnd
 )
 {
-*
-skip
-=
-2
-;
 return
 false
 ;
@@ -6561,11 +6551,6 @@ return
 true
 ;
 }
-*
-skip
-=
-2
-;
 switch
 (
 c
@@ -6705,6 +6690,11 @@ tailPos
 break
 ;
 }
+*
+skip
+=
+2
+;
 return
 true
 ;
