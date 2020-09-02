@@ -357,17 +357,6 @@ NS_ERROR_DOM_DATA_CLONE_ERR
 )
 DOM4_MSG_DEF
 (
-InvalidPointerId
-"
-Invalid
-pointer
-id
-.
-"
-NS_ERROR_DOM_INVALID_POINTER_ERR
-)
-DOM4_MSG_DEF
-(
 NotAllowedError
 "
 The
