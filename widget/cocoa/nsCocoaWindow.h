@@ -1689,16 +1689,6 @@ return
 mInFullScreenMode
 ;
 }
-void
-PauseCompositor
-(
-)
-;
-void
-ResumeCompositor
-(
-)
-;
 protected
 :
 virtual
