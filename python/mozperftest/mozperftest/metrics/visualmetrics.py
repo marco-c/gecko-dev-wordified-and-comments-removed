@@ -167,7 +167,6 @@ visualmetrics
 .
 py
 script
-    
 "
 "
 "

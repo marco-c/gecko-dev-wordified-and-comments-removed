@@ -24,7 +24,6 @@ standardized
 data
 format
 .
-    
 "
 "
 "
