@@ -32526,7 +32526,7 @@ kind
 =
 ParserAtomToResumeKind
 (
-compilationInfo
+cx
 kindNode
 -
 >

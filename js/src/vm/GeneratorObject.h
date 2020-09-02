@@ -76,9 +76,6 @@ frontend
 class
 ParserAtom
 ;
-struct
-CompilationInfo
-;
 }
 extern
 const
@@ -1041,12 +1038,9 @@ pc
 GeneratorResumeKind
 ParserAtomToResumeKind
 (
-frontend
-:
-:
-CompilationInfo
-&
-compilationInfo
+JSContext
+*
+cx
 const
 frontend
 :
