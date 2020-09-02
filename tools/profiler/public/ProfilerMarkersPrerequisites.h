@@ -17,7 +17,10 @@ h
 ifdef
 MOZ_GECKO_PROFILER
 namespace
-profilermarkers
+geckoprofiler
+:
+:
+markers
 {
 using
 NoPayload
