@@ -334,6 +334,69 @@ set
 "
     
 }
+    
+"
+transformer
+"
+:
+{
+        
+"
+type
+"
+:
+str
+        
+"
+default
+"
+:
+None
+        
+"
+help
+"
+:
+"
+The
+path
+to
+the
+file
+containing
+the
+custom
+transformer
+"
+        
+"
+or
+the
+module
+to
+import
+along
+with
+the
+class
+name
+"
+        
+"
+e
+.
+g
+.
+mozperftest
+.
+test
+.
+xpcshell
+:
+XpcShellTransformer
+"
+    
+}
 }
 class
 MetricsStorage
@@ -1014,7 +1077,6 @@ process
 def
 get_standardized_data
 (
-        
 self
 group_name
 =
@@ -1023,10 +1085,7 @@ firefox
 "
 transformer
 =
-"
-SingleJsonRetriever
-"
-    
+None
 )
 :
         
@@ -1180,6 +1239,22 @@ items
 )
 :
             
+tfm
+=
+transformer
+if
+transformer
+is
+not
+None
+else
+data_info
+[
+"
+transformer
+"
+]
+            
 prefix
 =
 data_type
@@ -1230,12 +1305,7 @@ prefix
 customtransformer
 "
 :
-data_info
-[
-"
-transformer
-"
-]
+tfm
                 
 "
 file_groups
@@ -1286,12 +1356,7 @@ logger
                 
 custom_transform
 =
-data_info
-[
-"
-transformer
-"
-]
+tfm
             
 )
             
@@ -1344,9 +1409,7 @@ firefox
         
 transformer
 =
-"
-SingleJsonRetriever
-"
+None
         
 metrics
 =
@@ -2086,9 +2149,7 @@ firefox
     
 transformer
 =
-"
-SingleJsonRetriever
-"
+None
     
 metrics
 =

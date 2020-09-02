@@ -225,6 +225,17 @@ metrics
 "
 )
             
+transformer
+=
+self
+.
+get_arg
+(
+"
+transformer
+"
+)
+            
 split_by
 =
 self

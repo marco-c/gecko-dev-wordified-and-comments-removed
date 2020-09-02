@@ -586,6 +586,17 @@ metrics
 "
 )
             
+transformer
+=
+self
+.
+get_arg
+(
+"
+transformer
+"
+)
+            
 exclude
 =
 exclusions

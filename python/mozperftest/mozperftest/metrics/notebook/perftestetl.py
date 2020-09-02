@@ -9,17 +9,12 @@ collections
 import
 OrderedDict
 from
-mozperftest
-.
-utils
-import
-load_class
-from
 .
 transformer
 import
 Transformer
 SimplePerfherderTransformer
+get_transformer
 from
 .
 constant
@@ -217,7 +212,7 @@ try
                 
 tfm_cls
 =
-load_class
+get_transformer
 (
 custom_transform
 )
