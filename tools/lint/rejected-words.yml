@@ -3308,6 +3308,16 @@ testing
 /
 raptor
 /
+browsertime
+/
+browsertime_scenario
+.
+js
+-
+testing
+/
+raptor
+/
 raptor
 /
 control_server
