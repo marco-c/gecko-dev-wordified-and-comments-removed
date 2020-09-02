@@ -106,6 +106,21 @@ False
 "
 "
     
+if
+params
+.
+get
+(
+'
+backstop
+'
+False
+)
+:
+        
+return
+True
+    
 project
 =
 params
