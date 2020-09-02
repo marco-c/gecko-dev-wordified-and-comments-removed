@@ -202,6 +202,16 @@ aPrintRange
 final
 ;
 NS_IMETHOD
+SetPrinterName
+(
+const
+nsAString
+&
+aName
+)
+override
+;
+NS_IMETHOD
 GetStartPageRange
 (
 int32_t
