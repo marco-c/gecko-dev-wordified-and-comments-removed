@@ -1135,6 +1135,13 @@ perftest_metrics
 }
 -
 -
+perfherder
+-
+simplify
+-
+names
+-
+-
 browsertime
 -
 geckodriver
