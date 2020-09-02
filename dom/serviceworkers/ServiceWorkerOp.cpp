@@ -2899,6 +2899,7 @@ rv
 ;
 }
 return
+!
 DispatchFailed
 (
 rv
@@ -3265,6 +3266,7 @@ DELIVERY_UNCAUGHT_EXCEPTION
 ;
 }
 return
+!
 DispatchFailed
 (
 rv
@@ -3660,6 +3662,7 @@ rv
 ;
 }
 return
+!
 DispatchFailed
 (
 rv
@@ -4234,6 +4237,7 @@ Rejected
 ;
 }
 return
+!
 DispatchFailed
 (
 rv
@@ -4601,7 +4605,7 @@ SuppressException
 )
 ;
 return
-true
+false
 ;
 }
 RootedDictionary
@@ -4716,7 +4720,7 @@ SuppressException
 )
 ;
 return
-true
+false
 ;
 }
 nsCString
@@ -4855,6 +4859,7 @@ rv2
 ;
 }
 return
+!
 DispatchFailed
 (
 rv2
