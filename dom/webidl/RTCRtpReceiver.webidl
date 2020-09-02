@@ -146,6 +146,12 @@ attribute
 MediaStreamTrack
 track
 ;
+readonly
+attribute
+RTCDtlsTransport
+?
+transport
+;
 Promise
 <
 RTCStatsReport

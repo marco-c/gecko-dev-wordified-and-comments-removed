@@ -4694,6 +4694,16 @@ true
 name
 :
 "
+RTCDtlsTransport
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 RTCDTMFSender
 "
 insecureContext

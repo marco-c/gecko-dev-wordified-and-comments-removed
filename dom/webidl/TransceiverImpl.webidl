@@ -215,5 +215,14 @@ RTCDTMFSender
 ?
 dtmf
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+RTCDtlsTransport
+?
+dtlsTransport
+;
 }
 ;

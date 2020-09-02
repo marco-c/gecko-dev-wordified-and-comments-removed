@@ -329,6 +329,12 @@ MediaStreamTrack
 ?
 track
 ;
+readonly
+attribute
+RTCDtlsTransport
+?
+transport
+;
 Promise
 <
 void

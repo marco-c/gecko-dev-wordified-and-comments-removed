@@ -5789,6 +5789,11 @@ RTCDataChannel
 webidl
 '
 '
+RTCDtlsTransport
+.
+webidl
+'
+'
 RTCDTMFSender
 .
 webidl
