@@ -88,6 +88,17 @@ BuildIdCharVector
 buildId
 )
 ;
+extern
+MOZ_MUST_USE
+JS_PUBLIC_API
+bool
+GetScriptTranscodingBuildId
+(
+BuildIdCharVector
+*
+buildId
+)
+;
 }
 #
 endif
