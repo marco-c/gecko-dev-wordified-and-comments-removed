@@ -108,6 +108,9 @@ MediaTransportHandler
 class
 JsepTransceiver
 ;
+class
+TransceiverImpl
+;
 namespace
 dom
 {
@@ -168,6 +171,9 @@ aStsThread
 MediaSessionConduit
 *
 aConduit
+TransceiverImpl
+*
+aTransceiverImpl
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -211,11 +217,7 @@ GetTransport
 (
 )
 const
-{
-return
-nullptr
 ;
-}
 already_AddRefed
 <
 Promise
@@ -544,6 +546,12 @@ RefPtr
 MediaTransportHandler
 >
 mTransportHandler
+;
+RefPtr
+<
+TransceiverImpl
+>
+mTransceiverImpl
 ;
 std
 :

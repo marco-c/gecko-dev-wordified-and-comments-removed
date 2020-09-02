@@ -1906,8 +1906,8 @@ const
 void
 OnSetDescriptionSuccess
 (
-bool
-rollback
+JsepSdpType
+sdpType
 bool
 remote
 )
