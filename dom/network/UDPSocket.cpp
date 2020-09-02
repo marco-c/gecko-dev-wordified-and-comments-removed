@@ -2055,13 +2055,9 @@ net
 :
 NetAddr
 addr
-;
-PRNetAddrToNetAddr
 (
 &
 prAddr
-&
-addr
 )
 ;
 rv
