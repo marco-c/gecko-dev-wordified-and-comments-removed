@@ -13381,9 +13381,8 @@ GetIndexFromString
 ;
 masm
 .
-mov
+storeCallInt32Result
 (
-ReturnReg
 output
 )
 ;

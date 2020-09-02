@@ -9394,6 +9394,12 @@ case
 BailoutKind
 :
 :
+StringToIndexGuard
+:
+case
+BailoutKind
+:
+:
 NonInt32ArrayLength
 :
 case
