@@ -138,11 +138,9 @@ cpu_profiler
 generate_android_cpu_profile
 (
 "
-raptor
+browsertime
 -
 tp6m
--
-1
 "
 )
     

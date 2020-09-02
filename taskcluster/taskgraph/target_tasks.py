@@ -7684,21 +7684,6 @@ platform
             
 if
 '
--
-1
--
-refbrow
--
-'
-in
-try_name
-:
-                
-return
-True
-            
-if
-'
 browsertime
 '
 in
