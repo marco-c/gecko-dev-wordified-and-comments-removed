@@ -2250,8 +2250,10 @@ eFontPresentation
 Any
 )
 {
+RefPtr
+<
 gfxFont
-*
+>
 font
 =
 fe

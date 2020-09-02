@@ -5271,6 +5271,15 @@ aPresentation
 )
 )
 {
+RefPtr
+<
+gfxFont
+>
+autoRefDeref
+(
+font
+)
+;
 font
 =
 candidate
