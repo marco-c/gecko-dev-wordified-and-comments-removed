@@ -13,6 +13,7 @@ class
 JNIObject
 {
 private
+volatile
 long
 mHandle
 ;
