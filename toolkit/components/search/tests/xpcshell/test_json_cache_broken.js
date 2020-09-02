@@ -499,6 +499,8 @@ true
 )
 ;
 await
+SearchTestUtils
+.
 useTestEngines
 (
 )

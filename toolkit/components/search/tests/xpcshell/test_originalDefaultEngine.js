@@ -29,6 +29,8 @@ promiseStartupManager
 )
 ;
 await
+SearchTestUtils
+.
 useTestEngines
 (
 "

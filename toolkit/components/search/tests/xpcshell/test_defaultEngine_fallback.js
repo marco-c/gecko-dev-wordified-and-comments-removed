@@ -11,6 +11,8 @@ useHttpServer
 )
 ;
 await
+SearchTestUtils
+.
 useTestEngines
 (
 )

@@ -19,6 +19,8 @@ promiseStartupManager
 getStub
 =
 await
+SearchTestUtils
+.
 useTestEngines
 (
 "
