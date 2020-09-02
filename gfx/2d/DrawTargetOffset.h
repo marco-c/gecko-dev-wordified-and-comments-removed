@@ -73,6 +73,11 @@ mOffset
 aOffset
 )
 {
+MOZ_RELEASE_ASSERT
+(
+mSurface
+)
+;
 }
 virtual
 SurfaceType
