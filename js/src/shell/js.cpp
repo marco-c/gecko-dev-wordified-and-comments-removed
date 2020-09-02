@@ -27168,6 +27168,12 @@ string
 )
 ;
 }
+options
+.
+setModule
+(
+)
+;
 AutoStableStringChars
 stableChars
 (
