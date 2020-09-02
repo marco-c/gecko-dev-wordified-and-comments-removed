@@ -427,7 +427,7 @@ css
 .
 file
 -
-chooser
+selector
 -
 button
 .
@@ -527,7 +527,7 @@ pseudo
 *
 file
 -
-chooser
+selector
 -
 button
 /

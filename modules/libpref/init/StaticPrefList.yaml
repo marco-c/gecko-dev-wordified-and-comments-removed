@@ -39852,7 +39852,7 @@ the
 :
 file
 -
-chooser
+selector
 -
 button
 pseudo
@@ -39869,7 +39869,7 @@ css
 .
 file
 -
-chooser
+selector
 -
 button
 .
@@ -39879,7 +39879,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NIGHTLY_OR_DEV_EDITION
+true
 mirror
 :
 always

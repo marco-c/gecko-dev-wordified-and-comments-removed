@@ -43535,7 +43535,7 @@ swatch
 :
 file
 -
-chooser
+selector
 -
 button
 "

@@ -331,12 +331,12 @@ CSS_PSEUDO_ELEMENT_ENABLED_IN_UA_SHEETS
 )
 CSS_PSEUDO_ELEMENT
 (
-fileChooserButton
+fileSelectorButton
 "
 :
 file
 -
-chooser
+selector
 -
 button
 "

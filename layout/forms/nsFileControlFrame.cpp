@@ -1182,7 +1182,7 @@ SetPseudoElementType
 PseudoStyleType
 :
 :
-fileChooserButton
+fileSelectorButton
 )
 ;
 nsAutoString

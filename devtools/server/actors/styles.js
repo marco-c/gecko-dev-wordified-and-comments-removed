@@ -2913,7 +2913,7 @@ case
 :
 file
 -
-chooser
+selector
 -
 button
 "
