@@ -3636,13 +3636,10 @@ aFontList
 {
 if
 (
+PrefersColor
+(
 aPresentation
-=
-=
-eFontPresentation
-:
-:
-Emoji
+)
 )
 {
 aFontList
