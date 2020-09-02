@@ -3216,6 +3216,7 @@ compilationInfo
 .
 instantiateStencils
 (
+cx
 gcOutput
 )
 )

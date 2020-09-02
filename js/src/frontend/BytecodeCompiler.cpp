@@ -1341,6 +1341,7 @@ compilationInfo
 .
 instantiateStencils
 (
+cx
 gcOutput
 )
 )
@@ -3825,6 +3826,7 @@ compilationInfo
 .
 instantiateStencils
 (
+cx
 gcOutput
 )
 )
@@ -4681,6 +4683,7 @@ get
 .
 instantiateStencils
 (
+cx
 gcOutput
 )
 )

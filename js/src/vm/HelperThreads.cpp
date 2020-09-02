@@ -3564,13 +3564,6 @@ return
 false
 ;
 }
-compilationInfo_
--
->
-cx
-=
-cx
-;
 frontend
 :
 :

@@ -1370,10 +1370,6 @@ FunctionIndex
 0
 )
 ;
-JSContext
-*
-cx
-;
 CompilationInput
 input
 ;
@@ -1423,10 +1419,6 @@ ReadOnlyCompileOptions
 options
 )
 :
-cx
-(
-cx
-)
 input
 (
 options
@@ -1446,6 +1438,9 @@ MOZ_MUST_USE
 bool
 instantiateStencils
 (
+JSContext
+*
+cx
 CompilationGCOutput
 &
 gcOutput
