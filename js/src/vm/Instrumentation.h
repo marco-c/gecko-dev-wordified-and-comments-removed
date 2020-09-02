@@ -299,6 +299,9 @@ ParserAtom
 *
 getInstrumentationKindName
 (
+JSContext
+*
+cx
 frontend
 :
 :

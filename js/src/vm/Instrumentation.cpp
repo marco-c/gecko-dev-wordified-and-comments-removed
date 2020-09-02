@@ -430,6 +430,9 @@ RealmInstrumentation
 :
 getInstrumentationKindName
 (
+JSContext
+*
+cx
 frontend
 :
 :
@@ -487,8 +490,6 @@ parserAtoms
 .
 internAscii
 (
-compilationInfo
-.
 cx
 instrumentationNames
 [
