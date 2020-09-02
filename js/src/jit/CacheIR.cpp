@@ -16833,7 +16833,7 @@ int32IndexId
 =
 writer
 .
-guardAndGetIndexFromString
+guardStringToIndex
 (
 strId
 )
@@ -47112,7 +47112,7 @@ vId
 return
 writer
 .
-guardAndGetNumberFromString
+guardStringToNumber
 (
 strId
 )
@@ -47617,7 +47617,7 @@ vId
 return
 writer
 .
-guardAndGetNumberFromBoolean
+booleanToNumber
 (
 boolId
 )
@@ -47645,7 +47645,7 @@ vId
 return
 writer
 .
-guardAndGetNumberFromString
+guardStringToNumber
 (
 strId
 )
@@ -50377,7 +50377,7 @@ intId
 =
 writer
 .
-guardAndGetInt32FromString
+guardStringToInt32
 (
 stringId
 )
@@ -50615,7 +50615,7 @@ numId
 =
 writer
 .
-guardAndGetNumberFromString
+guardStringToNumber
 (
 stringId
 )
@@ -54099,7 +54099,7 @@ id
 return
 writer
 .
-guardAndGetInt32FromString
+guardStringToInt32
 (
 strId
 )

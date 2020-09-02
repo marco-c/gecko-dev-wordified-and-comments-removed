@@ -1761,7 +1761,7 @@ ObjId
 -
 name
 :
-GuardAndGetIndexFromString
+GuardStringToIndex
 shared
 :
 true
@@ -1782,7 +1782,7 @@ Int32Id
 -
 name
 :
-GuardAndGetInt32FromString
+GuardStringToInt32
 shared
 :
 true
@@ -1803,7 +1803,7 @@ Int32Id
 -
 name
 :
-GuardAndGetNumberFromString
+GuardStringToNumber
 shared
 :
 true
@@ -1824,7 +1824,7 @@ NumberId
 -
 name
 :
-GuardAndGetNumberFromBoolean
+BooleanToNumber
 shared
 :
 true
