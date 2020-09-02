@@ -47,7 +47,7 @@ version
 "
 0
 .
-11
+12
 "
 features
 =
@@ -75,7 +75,7 @@ memoizer
 "
 0
 .
-4
+5
 "
 unic
 -
@@ -84,7 +84,7 @@ langid
 "
 0
 .
-8
+9
 "
 nsstring
 =
