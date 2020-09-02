@@ -417,6 +417,7 @@ AutoRangeArray
 :
 ExtendAnchorFocusRangeFor
 (
+const
 EditorBase
 &
 aEditorBase

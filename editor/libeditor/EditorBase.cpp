@@ -5410,6 +5410,7 @@ EditorBase
 CollapseSelectionToEnd
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -10965,6 +10966,7 @@ EditorRawDOMPoint
 &
 aPoint
 )
+const
 {
 if
 (
@@ -20657,6 +20659,7 @@ nsIContent
 &
 aAncestorLimit
 )
+const
 {
 MOZ_ASSERT
 (

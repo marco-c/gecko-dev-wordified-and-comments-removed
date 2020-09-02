@@ -5329,6 +5329,7 @@ nsresult
 CollapseSelectionToEnd
 (
 )
+const
 ;
 inline
 bool
@@ -5402,6 +5403,7 @@ EditorRawDOMPoint
 &
 aPoint
 )
+const
 ;
 void
 HideCaret
@@ -6001,6 +6003,7 @@ nsIContent
 &
 aAncestorLimit
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
