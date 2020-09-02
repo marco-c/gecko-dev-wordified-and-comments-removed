@@ -942,6 +942,14 @@ printerName
 ;
 this
 .
+settings
+.
+isInitializedFromPrinter
+=
+true
+;
+this
+.
 defaultSettings
 =
 PrintUtils

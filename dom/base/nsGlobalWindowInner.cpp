@@ -16344,6 +16344,7 @@ aSettings
 aListener
 aDocShellToCloneInto
 true
+nullptr
 aError
 )
 aError
