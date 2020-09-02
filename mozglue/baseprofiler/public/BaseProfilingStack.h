@@ -94,13 +94,6 @@ ReleaseAcquire
 >
 spOrScript
 ;
-Atomic
-<
-int32_t
-ReleaseAcquire
->
-pcOffsetIfJS_
-;
 mozilla
 :
 :
@@ -113,6 +106,13 @@ mozilla
 ReleaseAcquire
 >
 realmID_
+;
+Atomic
+<
+int32_t
+ReleaseAcquire
+>
+pcOffsetIfJS_
 ;
 Atomic
 <
