@@ -12,8 +12,6 @@ setup
 )
 {
 await
-SearchTestUtils
-.
 useTestEngines
 (
 )

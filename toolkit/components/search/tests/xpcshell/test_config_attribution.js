@@ -17,8 +17,6 @@ false
 )
 ;
 await
-SearchTestUtils
-.
 useTestEngines
 (
 "

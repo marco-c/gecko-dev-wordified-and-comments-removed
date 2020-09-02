@@ -450,7 +450,6 @@ if
 config
 )
 {
-return
 sinon
 .
 stub
@@ -467,6 +466,8 @@ config
 )
 ;
 }
+else
+{
 let
 response
 =
@@ -496,7 +497,6 @@ json
 (
 )
 ;
-return
 sinon
 .
 stub
@@ -514,6 +514,7 @@ json
 data
 )
 ;
+}
 }
 async
 useMochitestEngines
