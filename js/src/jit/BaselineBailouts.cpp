@@ -9406,6 +9406,12 @@ case
 BailoutKind
 :
 :
+StringToDoubleGuard
+:
+case
+BailoutKind
+:
+:
 NonInt32ArrayLength
 :
 case
