@@ -8556,6 +8556,12 @@ _onSeparateDefaultPrefChanged
 (
 )
 {
+this
+.
+__sortedEngines
+=
+null
+;
 if
 (
 this
