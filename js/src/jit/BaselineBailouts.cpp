@@ -9400,6 +9400,12 @@ case
 BailoutKind
 :
 :
+StringToInt32Guard
+:
+case
+BailoutKind
+:
+:
 NonInt32ArrayLength
 :
 case
