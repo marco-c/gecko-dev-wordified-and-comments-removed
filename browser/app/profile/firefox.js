@@ -10851,12 +10851,11 @@ trailhead
 .
 firstrun
 .
-branches
+newtab
+.
+triplets
 "
 "
-join
--
-dynamic
 "
 )
 ;
