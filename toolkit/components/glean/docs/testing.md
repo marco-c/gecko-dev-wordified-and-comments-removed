@@ -62,9 +62,15 @@ with
 RUST_LOG
 =
 "
-fog_control
+glean
+=
+info
 fog
+=
+info
 glean_core
+=
+info
 "
 .
 *
@@ -126,7 +132,7 @@ true
 *
 logging
 .
-fog_control
+fog
 :
 :
 *
@@ -135,7 +141,7 @@ to
 *
 logging
 .
-fog
+glean
 :
 :
 *

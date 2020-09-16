@@ -170,7 +170,7 @@ DIRS
 =
 [
 '
-xpcom
+aboutGlean
 '
 ]
 with

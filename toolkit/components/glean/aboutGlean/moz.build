@@ -18,7 +18,7 @@ mozilla
 =
 [
 '
-FOG
+AboutGlean
 .
 h
 '
@@ -28,7 +28,7 @@ UNIFIED_SOURCES
 =
 [
 '
-FOG
+AboutGlean
 .
 cpp
 '
@@ -46,14 +46,14 @@ conf
 XPIDL_MODULE
 =
 '
-fog
+glean
 '
 XPIDL_SOURCES
 +
 =
 [
 '
-nsIFOG
+nsIAboutGlean
 .
 idl
 '
