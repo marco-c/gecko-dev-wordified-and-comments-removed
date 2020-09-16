@@ -2328,7 +2328,7 @@ isSome
 )
 )
 ;
-auto
+T
 v
 =
 std
