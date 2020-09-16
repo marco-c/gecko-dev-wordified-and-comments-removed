@@ -622,7 +622,9 @@ custom
 {
 period
 :
-86400000
+"
+daily
+"
 cap
 :
 5
