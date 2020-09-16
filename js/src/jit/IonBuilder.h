@@ -4418,6 +4418,14 @@ callInfo
 )
 ;
 InliningResult
+inlineObjectIsPrototypeOf
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineObjectToString
 (
 CallInfo

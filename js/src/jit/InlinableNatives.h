@@ -558,6 +558,11 @@ ObjectIs
 \
 _
 (
+ObjectIsPrototypeOf
+)
+\
+_
+(
 ObjectToString
 )
 \
