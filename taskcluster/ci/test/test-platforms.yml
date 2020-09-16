@@ -1197,6 +1197,10 @@ windows
 -
 tests
 -
+windows
+-
+devtools
+-
 web
 -
 platform
@@ -1246,6 +1250,10 @@ windows
 -
 tests
 -
+windows
+-
+devtools
+-
 web
 -
 platform
@@ -1290,6 +1298,10 @@ tests
 windows
 -
 tests
+-
+windows
+-
+devtools
 -
 web
 -
@@ -1432,6 +1444,10 @@ windows
 -
 tests
 -
+windows
+-
+devtools
+-
 web
 -
 platform
@@ -1519,6 +1535,10 @@ windows
 -
 tests
 -
+windows
+-
+devtools
+-
 web
 -
 platform
@@ -1553,6 +1573,10 @@ sets
 windows
 -
 tests
+-
+windows
+-
+devtools
 -
 mochitest
 -
