@@ -925,7 +925,6 @@ created
 "
 )
 ;
-await
 targetList
 .
 unwatchTargets

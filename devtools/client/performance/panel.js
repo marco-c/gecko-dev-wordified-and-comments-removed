@@ -282,7 +282,6 @@ this
 _checkRecordingStatus
 )
 ;
-await
 this
 .
 toolbox

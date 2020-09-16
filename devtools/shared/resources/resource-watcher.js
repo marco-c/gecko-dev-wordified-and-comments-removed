@@ -621,7 +621,6 @@ this
 _watchTargetsPromise
 ;
 }
-async
 _unwatchAllTargets
 (
 )
@@ -643,7 +642,6 @@ _watchTargetsPromise
 =
 null
 ;
-await
 this
 .
 targetList

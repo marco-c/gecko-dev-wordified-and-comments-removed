@@ -1679,7 +1679,6 @@ onAvailable
 )
 ;
 }
-async
 unwatchTargets
 (
 types
