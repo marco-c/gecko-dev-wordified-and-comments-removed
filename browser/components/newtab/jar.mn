@@ -72,6 +72,21 @@ stream
 contentaccessible
 =
 yes
+%
+content
+activity
+-
+stream
+%
+content
+/
+activity
+-
+stream
+/
+contentaccessible
+=
+yes
 res
 /
 activity
@@ -449,7 +464,7 @@ js
 .
 template
 )
-res
+content
 /
 activity
 -
@@ -472,7 +487,7 @@ assets
 /
 *
 )
-res
+content
 /
 activity
 -
@@ -579,7 +594,7 @@ CustomElements
 #
 ifdef
 XP_MACOSX
-res
+content
 /
 activity
 -
@@ -608,7 +623,7 @@ css
 #
 elifdef
 XP_WIN
-res
+content
 /
 activity
 -
@@ -636,7 +651,7 @@ css
 )
 #
 else
-res
+content
 /
 activity
 -

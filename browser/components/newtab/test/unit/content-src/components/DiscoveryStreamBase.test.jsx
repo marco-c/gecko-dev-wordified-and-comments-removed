@@ -263,7 +263,7 @@ it
 "
 should
 allow
-resource
+chrome
 urls
 "
 (
@@ -285,13 +285,15 @@ image
 url
 (
 "
-resource
+chrome
 :
 /
 /
 activity
 -
 stream
+/
+content
 /
 data
 /

@@ -838,7 +838,7 @@ chrome
 /
 browser
 /
-res
+content
 /
 activity
 -
@@ -880,7 +880,7 @@ chrome
 /
 browser
 /
-res
+content
 /
 activity
 -
@@ -922,7 +922,7 @@ chrome
 /
 browser
 /
-res
+content
 /
 activity
 -
@@ -945,7 +945,7 @@ chrome
 /
 browser
 /
-res
+content
 /
 activity
 -
@@ -983,7 +983,7 @@ chrome
 /
 browser
 /
-res
+content
 /
 activity
 -
@@ -1023,7 +1023,7 @@ chrome
 /
 browser
 /
-res
+content
 /
 activity
 -
@@ -1063,7 +1063,7 @@ chrome
 /
 browser
 /
-res
+content
 /
 activity
 -
@@ -1103,7 +1103,7 @@ chrome
 /
 browser
 /
-res
+content
 /
 activity
 -

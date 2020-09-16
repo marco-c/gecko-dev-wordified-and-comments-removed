@@ -194,13 +194,15 @@ id
 icon
 :
 "
-resource
+chrome
 :
 /
 /
 activity
 -
 stream
+/
+content
 /
 data
 /
