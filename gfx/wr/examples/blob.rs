@@ -94,8 +94,6 @@ DisplayListBuilder
 DocumentId
 PipelineId
 PrimitiveFlags
-RenderApi
-Transaction
 }
 ;
 use
@@ -120,6 +118,15 @@ api
 :
 :
 units
+:
+:
+*
+;
+use
+webrender
+:
+:
+render_api
 :
 :
 *

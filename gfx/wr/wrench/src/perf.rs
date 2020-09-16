@@ -113,7 +113,7 @@ use
 webrender
 :
 :
-api
+render_api
 :
 :
 DebugCommand

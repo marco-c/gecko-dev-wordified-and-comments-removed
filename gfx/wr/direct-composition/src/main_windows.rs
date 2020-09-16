@@ -46,6 +46,15 @@ webrender
 api
 ;
 use
+webrender
+:
+:
+render_api
+:
+:
+*
+;
+use
 winit
 :
 :
@@ -652,9 +661,6 @@ Renderer
 >
 api
 :
-api
-:
-:
 RenderApi
 document_id
 :
@@ -1065,9 +1071,6 @@ let
 mut
 transaction
 =
-api
-:
-:
 Transaction
 :
 :

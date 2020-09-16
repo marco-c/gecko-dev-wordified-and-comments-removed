@@ -306,6 +306,10 @@ api
 :
 :
 *
+render_api
+:
+:
+*
 set_profiler_hooks
 AsyncPropertySampler
 AsyncScreenshotHandle
