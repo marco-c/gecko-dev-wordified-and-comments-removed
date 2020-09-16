@@ -95,7 +95,6 @@ onAvailable
 (
 {
 resource
-resourceType
 }
 )
 =
@@ -103,6 +102,8 @@ resourceType
 {
 if
 (
+resource
+.
 resourceType
 =
 =

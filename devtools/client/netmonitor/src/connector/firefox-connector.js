@@ -692,7 +692,6 @@ async
 onResourceAvailable
 (
 {
-resourceType
 targetFront
 resource
 }
@@ -711,6 +710,8 @@ resourceWatcher
 ;
 if
 (
+resource
+.
 resourceType
 =
 =
@@ -733,6 +734,8 @@ return
 }
 if
 (
+resource
+.
 resourceType
 =
 =
@@ -756,6 +759,8 @@ return
 }
 if
 (
+resource
+.
 resourceType
 =
 =
@@ -888,7 +893,6 @@ async
 onResourceUpdated
 (
 {
-resourceType
 targetFront
 resource
 }
@@ -896,6 +900,8 @@ resource
 {
 if
 (
+resource
+.
 resourceType
 =
 =

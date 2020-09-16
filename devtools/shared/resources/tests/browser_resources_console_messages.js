@@ -161,7 +161,6 @@ onAvailable
 =
 (
 {
-resourceType
 targetFront
 resource
 }
@@ -171,6 +170,8 @@ resource
 {
 is
 (
+resource
+.
 resourceType
 ResourceWatcher
 .

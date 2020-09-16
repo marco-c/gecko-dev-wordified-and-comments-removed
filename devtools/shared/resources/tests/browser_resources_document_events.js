@@ -747,7 +747,6 @@ Map
 dispatch
 (
 {
-resourceType
 targetFront
 resource
 }
