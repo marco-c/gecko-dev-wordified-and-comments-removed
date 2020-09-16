@@ -7283,9 +7283,8 @@ resource
 :
 /
 /
-/
-modules
-/
+builtin
+-
 themes
 /
 light
@@ -7317,9 +7316,8 @@ resource
 :
 /
 /
-/
-modules
-/
+builtin
+-
 themes
 /
 dark
@@ -7349,9 +7347,8 @@ resource
 :
 /
 /
-/
-modules
-/
+builtin
+-
 themes
 /
 alpenglow
