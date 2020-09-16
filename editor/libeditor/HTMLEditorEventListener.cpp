@@ -1697,7 +1697,7 @@ rvIgnored
 selection
 -
 >
-Collapse
+CollapseInLimiter
 (
 parentContent
 offset
@@ -1713,7 +1713,7 @@ rvIgnored
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed
