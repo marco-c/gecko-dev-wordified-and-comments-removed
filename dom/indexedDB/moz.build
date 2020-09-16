@@ -272,6 +272,11 @@ ActorsParentCommon
 cpp
 '
 '
+DBSchema
+.
+cpp
+'
+'
 FileInfo
 .
 cpp
@@ -393,11 +398,6 @@ SOURCES
 [
 '
 ActorsParent
-.
-cpp
-'
-'
-DBSchema
 .
 cpp
 '
