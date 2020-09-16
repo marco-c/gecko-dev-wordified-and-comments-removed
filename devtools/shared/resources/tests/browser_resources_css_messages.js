@@ -671,7 +671,6 @@ onAvailable
 =
 (
 {
-targetFront
 resource
 }
 )

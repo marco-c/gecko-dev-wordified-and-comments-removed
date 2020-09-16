@@ -287,7 +287,6 @@ resourceWatcher
 const
 {
 resource
-targetFront
 }
 =
 await
@@ -323,6 +322,8 @@ navigating
 todo
 (
 !
+resource
+.
 targetFront
 .
 getCachedFront

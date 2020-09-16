@@ -5352,7 +5352,6 @@ onResourceAvailable
 function
 (
 {
-targetFront
 resource
 }
 )
@@ -5381,6 +5380,8 @@ isTopLevelTarget
 =
 !
 !
+resource
+.
 targetFront
 .
 isTopLevel
