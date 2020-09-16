@@ -1252,6 +1252,9 @@ sheetCount
 uint32_t
 totalPageCount
 ;
+bool
+hasSelection
+;
 }
 ;
 nested

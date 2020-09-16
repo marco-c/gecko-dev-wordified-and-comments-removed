@@ -1602,6 +1602,7 @@ outerWindowId
 let
 {
 totalPageCount
+hasSelection
 }
 =
 await
@@ -1671,6 +1672,18 @@ startPageRange
 1
 ;
 }
+settings
+.
+SetPrintOptions
+(
+Ci
+.
+nsIPrintSettings
+.
+kEnableSelectionRB
+hasSelection
+)
+;
 document
 .
 dispatchEvent

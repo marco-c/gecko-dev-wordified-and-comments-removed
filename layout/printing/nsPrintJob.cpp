@@ -3692,6 +3692,7 @@ PrintPreviewResultInfo
 (
 0
 0
+false
 )
 )
 ;
@@ -12161,6 +12162,14 @@ GetPrintPreviewNumPages
 GetRawNumPages
 (
 )
+!
+mDisallowSelectionPrint
+&
+&
+printData
+-
+>
+mSelectionRoot
 )
 )
 ;
