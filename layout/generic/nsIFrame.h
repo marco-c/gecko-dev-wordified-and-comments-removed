@@ -8895,6 +8895,11 @@ mJumpedLine
 false
 ;
 bool
+mJumpedHardBreak
+=
+false
+;
+bool
 mMovedOverNonSelectableText
 =
 false
