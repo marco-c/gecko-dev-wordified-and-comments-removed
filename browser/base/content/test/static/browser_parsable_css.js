@@ -176,6 +176,10 @@ sourceName
 \
 b
 (
+minimal
+-
+xul
+|
 html
 |
 mathml
