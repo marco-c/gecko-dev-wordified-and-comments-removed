@@ -21074,15 +21074,8 @@ haveVisual
 ;
 if
 (
-!
-gfx
-:
-:
-gfxVars
-:
-:
-UseEGL
 (
+true
 )
 )
 {
