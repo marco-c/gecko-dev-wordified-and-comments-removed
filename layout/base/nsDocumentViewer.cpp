@@ -2614,6 +2614,9 @@ blocked
 "
 )
 ;
+#
+ifdef
+NS_PRINTING
 if
 (
 mPrintJob
@@ -2623,6 +2626,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 NS_ASSERTION
 (
 !
@@ -6264,10 +6269,8 @@ NS_PRINTING
 if
 (
 mPrintJob
-)
-{
-if
-(
+&
+&
 mPrintJob
 -
 >
@@ -6279,7 +6282,6 @@ CheckBeforeDestroy
 return
 NS_OK
 ;
-}
 }
 #
 endif
