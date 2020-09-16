@@ -11321,8 +11321,11 @@ GetPresShell
 ;
 if
 (
+NS_WARN_IF
+(
 !
 presShell
+)
 )
 {
 aError
@@ -15972,8 +15975,11 @@ GetPresShell
 ;
 if
 (
+NS_WARN_IF
+(
 !
 presShell
+)
 )
 {
 aError
@@ -18822,8 +18828,11 @@ GetPresShell
 ;
 if
 (
+NS_WARN_IF
+(
 !
 presShell
+)
 )
 {
 aError
