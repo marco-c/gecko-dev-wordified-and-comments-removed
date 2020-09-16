@@ -4,7 +4,6 @@ api
 :
 {
 ColorF
-DebugCommand
 DocumentId
 ExternalImageData
 ExternalImageId
@@ -33,6 +32,15 @@ units
 ;
 use
 api
+;
+use
+crate
+:
+:
+render_api
+:
+:
+DebugCommand
 ;
 use
 crate

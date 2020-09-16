@@ -24,7 +24,6 @@ api
 :
 :
 {
-CaptureBits
 ExternalImageData
 ImageDescriptor
 }
@@ -97,6 +96,15 @@ print_tree
 PrintableTree
 PrintTree
 }
+;
+use
+crate
+:
+:
+render_api
+:
+:
+CaptureBits
 ;
 use
 ron
