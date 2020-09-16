@@ -2546,6 +2546,12 @@ case
 InlinableNative
 :
 :
+NumberToString
+:
+case
+InlinableNative
+:
+:
 StringToString
 :
 case

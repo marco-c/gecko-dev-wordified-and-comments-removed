@@ -8191,6 +8191,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachNumberToString
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachReflectGetPrototypeOf
 (
 HandleFunction
