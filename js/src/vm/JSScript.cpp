@@ -14005,7 +14005,7 @@ void
 SourceCompressionTask
 :
 :
-runTaskLocked
+runHelperThreadTask
 (
 AutoLockHelperThreadState
 &
@@ -14057,7 +14057,7 @@ crash
 SourceCompressionTask
 :
 :
-runTaskLocked
+runHelperThreadTask
 "
 )
 ;

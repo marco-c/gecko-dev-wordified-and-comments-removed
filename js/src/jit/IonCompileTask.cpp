@@ -69,7 +69,7 @@ void
 IonCompileTask
 :
 :
-runTaskLocked
+runHelperThreadTask
 (
 AutoLockHelperThreadState
 &
@@ -819,7 +819,7 @@ void
 IonFreeTask
 :
 :
-runTaskLocked
+runHelperThreadTask
 (
 AutoLockHelperThreadState
 &

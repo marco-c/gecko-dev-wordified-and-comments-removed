@@ -4146,7 +4146,7 @@ void
 CompileTask
 :
 :
-runTaskLocked
+runHelperThreadTask
 (
 AutoLockHelperThreadState
 &
