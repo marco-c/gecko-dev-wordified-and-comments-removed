@@ -4352,6 +4352,11 @@ info_
 isAnalysis
 (
 )
+|
+|
+JitOptions
+.
+forceInlineCaches
 )
 {
 return
