@@ -81,8 +81,10 @@ public
 :
 WaylandShmPool
 (
+RefPtr
+<
 nsWaylandDisplay
-*
+>
 aDisplay
 int
 aSize
@@ -341,8 +343,10 @@ return
 mFormat
 ;
 }
+RefPtr
+<
 nsWaylandDisplay
-*
+>
 GetWaylandDisplay
 (
 )
@@ -720,8 +724,10 @@ CommitWaylandBuffer
 (
 )
 ;
+RefPtr
+<
 nsWaylandDisplay
-*
+>
 GetWaylandDisplay
 (
 )
@@ -858,8 +864,10 @@ mLockedScreenRect
 LayoutDeviceIntRect
 mWLBufferRect
 ;
+RefPtr
+<
 nsWaylandDisplay
-*
+>
 mWaylandDisplay
 ;
 WindowBackBuffer
