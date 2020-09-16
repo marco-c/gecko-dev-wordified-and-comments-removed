@@ -3785,6 +3785,17 @@ GetPhysicalBounds
 (
 )
 ;
+structure
+.
+mIsWrapped
+=
+line
+-
+>
+IsLineWrapped
+(
+)
+;
 return
 structure
 ;
