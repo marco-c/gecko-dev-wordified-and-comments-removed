@@ -1501,6 +1501,14 @@ text_type
     
 {
 '
+never
+'
+:
+None
+}
+    
+{
+'
 push
 -
 interval
@@ -1595,6 +1603,16 @@ schedules
 .
 ALL_COMPONENTS
 )
+}
+    
+{
+'
+upload
+-
+symbols
+'
+:
+None
 }
 )
 taskref_or_string
