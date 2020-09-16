@@ -60,7 +60,8 @@ true
 class
 NetworkEventWatcher
 {
-constructor
+async
+watch
 (
 watcherActor
 {

@@ -146,7 +146,8 @@ CSSMessageWatcher
 extends
 nsIConsoleListenerWatcher
 {
-constructor
+async
+watch
 (
 targetActor
 {
@@ -155,6 +156,8 @@ onAvailable
 )
 {
 super
+.
+watch
 (
 targetActor
 {

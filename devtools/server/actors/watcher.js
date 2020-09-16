@@ -762,6 +762,7 @@ watchResources
 resourceTypes
 )
 {
+await
 Resources
 .
 watchResources

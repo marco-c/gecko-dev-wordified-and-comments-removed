@@ -54,7 +54,8 @@ events
 class
 DocumentEventWatcher
 {
-constructor
+async
+watch
 (
 targetActor
 {

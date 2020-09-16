@@ -81,7 +81,8 @@ source
 class
 nsIConsoleListenerWatcher
 {
-constructor
+async
+watch
 (
 targetActor
 {
