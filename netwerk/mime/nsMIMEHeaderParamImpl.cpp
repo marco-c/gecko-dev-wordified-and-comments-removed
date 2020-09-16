@@ -2619,7 +2619,7 @@ char
 *
 sQuote1
 =
-strchr
+PL_strchr
 (
 valueStart
 0x27
@@ -2632,7 +2632,7 @@ sQuote2
 =
 sQuote1
 ?
-strchr
+PL_strchr
 (
 sQuote1
 +
@@ -3387,7 +3387,7 @@ aEatContinuations
 &
 &
 (
-strchr
+PL_strchr
 (
 aHeaderVal
 '
@@ -3397,7 +3397,7 @@ n
 )
 |
 |
-strchr
+PL_strchr
 (
 aHeaderVal
 '
@@ -5481,7 +5481,7 @@ q
 if
 (
 !
-strchr
+PL_strchr
 (
 "
 \
@@ -5495,10 +5495,8 @@ n
 q
 )
 )
-{
 break
 ;
-}
 }
 }
 if
@@ -5634,7 +5632,7 @@ q
 '
 |
 |
-strchr
+PL_strchr
 (
 especials
 *

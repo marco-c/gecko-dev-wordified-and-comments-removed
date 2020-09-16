@@ -13041,7 +13041,7 @@ resultPath
 {
 resultPath
 =
-strchr
+PL_strchr
 (
 resultPath
 +

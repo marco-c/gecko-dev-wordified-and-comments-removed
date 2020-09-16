@@ -15,6 +15,13 @@ h
 #
 include
 "
+plstr
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Logging
@@ -1107,7 +1114,7 @@ line
 (
 eol
 =
-strchr
+PL_strchr
 (
 line
 nsCRT
