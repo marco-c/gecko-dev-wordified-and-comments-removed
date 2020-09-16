@@ -51,6 +51,13 @@ const
 final
 ;
 bool
+SupportsMonochrome
+(
+)
+const
+final
+;
+bool
 SupportsCollation
 (
 )
