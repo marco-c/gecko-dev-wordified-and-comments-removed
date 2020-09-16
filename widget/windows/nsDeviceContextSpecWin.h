@@ -58,6 +58,9 @@ RefPtr
 h
 "
 class
+nsIFile
+;
+class
 nsIWidget
 ;
 class
@@ -271,6 +274,12 @@ nsIPrintSettings
 :
 :
 kOutputFormatNative
+;
+nsCOMPtr
+<
+nsIFile
+>
+mTempFile
 ;
 #
 ifdef
