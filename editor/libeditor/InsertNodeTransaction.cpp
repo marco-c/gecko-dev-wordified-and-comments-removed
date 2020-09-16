@@ -767,7 +767,7 @@ ignoredError
 selection
 -
 >
-CollapseInLimiter
+Collapse
 (
 afterInsertedNode
 ignoredError
@@ -785,7 +785,7 @@ Failed
 Selection
 :
 :
-CollapseInLimiter
+Collapse
 (
 )
 failed

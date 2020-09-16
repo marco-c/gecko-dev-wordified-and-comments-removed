@@ -16091,7 +16091,7 @@ SelectionRefPtr
 )
 -
 >
-CollapseInLimiter
+Collapse
 (
 newCaretPosition
 .

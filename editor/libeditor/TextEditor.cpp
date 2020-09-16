@@ -3185,7 +3185,7 @@ SelectionRefPtr
 )
 -
 >
-CollapseInLimiter
+Collapse
 (
 rootElement
 0
@@ -3201,7 +3201,7 @@ rv
 Selection
 :
 :
-CollapseInLimiter
+Collapse
 (
 )
 failed
@@ -7631,7 +7631,7 @@ SelectionRefPtr
 )
 -
 >
-CollapseInLimiter
+Collapse
 (
 anonymousDivElement
 0
@@ -7647,7 +7647,7 @@ rv
 Selection
 :
 :
-CollapseInLimiter
+Collapse
 (
 )
 failed

@@ -4284,7 +4284,7 @@ rv
 selection
 -
 >
-CollapseInLimiter
+Collapse
 (
 itEntry
 -
@@ -6741,7 +6741,7 @@ rv
 selection
 -
 >
-CollapseInLimiter
+Collapse
 (
 startNode
 startNodeOffset
@@ -6961,7 +6961,7 @@ rv
 selection
 -
 >
-CollapseInLimiter
+Collapse
 (
 startNode
 startNodeOffset

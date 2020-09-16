@@ -22843,7 +22843,7 @@ SelectionRefPtr
 )
 -
 >
-CollapseInLimiter
+Collapse
 (
 &
 aContentToKeep
@@ -22880,7 +22880,7 @@ rvIgnored
 Selection
 :
 :
-CollapseInLimiter
+Collapse
 (
 )
 failed
@@ -23225,7 +23225,7 @@ SelectionRefPtr
 )
 -
 >
-CollapseInLimiter
+Collapse
 (
 afterNewElement
 ignoredError
@@ -23246,7 +23246,7 @@ NS_WARNING
 Selection
 :
 :
-CollapseInLimiter
+Collapse
 (
 )
 failed
@@ -23499,7 +23499,7 @@ SelectionRefPtr
 )
 -
 >
-CollapseInLimiter
+Collapse
 (
 atAnchorContainer
 error
@@ -23517,7 +23517,7 @@ Failed
 Selection
 :
 :
-CollapseInLimiter
+Collapse
 (
 )
 failed
@@ -23576,7 +23576,7 @@ SelectionRefPtr
 )
 -
 >
-CollapseInLimiter
+Collapse
 (
 afterAnchorContainer
 error
@@ -23594,7 +23594,7 @@ Failed
 Selection
 :
 :
-CollapseInLimiter
+Collapse
 (
 )
 failed
@@ -23695,7 +23695,7 @@ SelectionRefPtr
 )
 -
 >
-CollapseInLimiter
+Collapse
 (
 atRightNode
 error
@@ -23713,7 +23713,7 @@ Failed
 Selection
 :
 :
-CollapseInLimiter
+Collapse
 (
 )
 failed
