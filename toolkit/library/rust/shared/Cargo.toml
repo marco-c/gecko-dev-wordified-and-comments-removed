@@ -138,7 +138,7 @@ rust
 rev
 =
 "
-d5a37fd0bd51e06a53274c68213b00136aba83a6
+fe9028570e44f3a725dd78bbb58428909c4618bf
 "
 }
 nserror
@@ -1601,11 +1601,6 @@ accel
 moz_memory
 =
 [
-"
-mp4parse_capi
-/
-mp4parse_fallible
-"
 ]
 moz_places
 =
