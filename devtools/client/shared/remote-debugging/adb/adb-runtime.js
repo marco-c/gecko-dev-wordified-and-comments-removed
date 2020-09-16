@@ -76,6 +76,13 @@ _socketPath
 =
 socketPath
 ;
+this
+.
+_versionName
+=
+"
+"
+;
 }
 async
 init
