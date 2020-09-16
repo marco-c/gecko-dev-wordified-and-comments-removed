@@ -1,6 +1,11 @@
-EXTRA_JS_MODULES
+FINAL_TARGET_FILES
 .
+modules
+[
+'
 themes
+'
+]
 [
 '
 alpenglow
