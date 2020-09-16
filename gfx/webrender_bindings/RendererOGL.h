@@ -216,6 +216,14 @@ WaitForGPU
 (
 )
 ;
+ipc
+:
+:
+FileDescriptor
+GetAndResetReleaseFence
+(
+)
+;
 RenderedFrameId
 GetLastCompletedFrameId
 (
