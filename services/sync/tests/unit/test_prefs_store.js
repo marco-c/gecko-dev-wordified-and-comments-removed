@@ -204,9 +204,8 @@ resource
 :
 /
 /
-/
-modules
-/
+builtin
+-
 themes
 /
 light
