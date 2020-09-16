@@ -4256,31 +4256,7 @@ try_name
             
 if
 '
-raptor
 -
-scn
--
-power
--
-idle
-'
-in
-try_name
-:
-                
-return
-True
-            
-if
-'
-raptor
--
-speedometer
-'
-in
-try_name
-and
-'
 power
 '
 in
@@ -5021,31 +4997,7 @@ try_name
                 
 if
 '
-raptor
 -
-scn
--
-power
--
-idle
-'
-in
-try_name
-:
-                    
-return
-True
-                
-if
-'
-raptor
--
-speedometer
-'
-in
-try_name
-and
-'
 power
 '
 in
@@ -5098,8 +5050,6 @@ return
 False
                 
 if
-power_task
-or
 cpu_n_memory_task
 :
                     
@@ -5134,6 +5084,17 @@ try_name
                         
 return
 True
+                
+if
+power_task
+:
+                    
+return
+'
+browsertime
+'
+in
+try_name
             
 if
 '
