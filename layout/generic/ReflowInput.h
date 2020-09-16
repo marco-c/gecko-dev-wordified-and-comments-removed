@@ -2020,15 +2020,6 @@ IsFloating
 )
 const
 ;
-mozilla
-:
-:
-StyleDisplay
-GetDisplay
-(
-)
-const
-;
 nsIPercentBSizeObserver
 *
 mPercentBSizeObserver
