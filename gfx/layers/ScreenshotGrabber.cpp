@@ -403,7 +403,7 @@ NotifyEmptyFrame
 #
 ifdef
 MOZ_GECKO_PROFILER
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 NoCompositorScreenshot
@@ -652,7 +652,7 @@ if
 windowRenderSource
 )
 {
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 NoCompositorScreenshot
@@ -738,7 +738,7 @@ if
 scaledTarget
 )
 {
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 NoCompositorScreenshot
@@ -771,7 +771,7 @@ if
 buffer
 )
 {
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 NoCompositorScreenshot

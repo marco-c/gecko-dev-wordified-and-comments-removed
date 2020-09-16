@@ -239,6 +239,15 @@ DebuggerUtilsBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ProfilerMarkers
+.
+h
+"
 using
 namespace
 mozilla
@@ -522,7 +531,7 @@ forget
 )
 )
 {
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 HighPrio

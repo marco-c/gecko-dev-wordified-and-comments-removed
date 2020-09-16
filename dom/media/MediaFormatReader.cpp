@@ -15654,7 +15654,7 @@ uint32_t
 aSkipped
 )
 {
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 SkippedVideoDecode

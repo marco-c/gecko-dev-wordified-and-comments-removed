@@ -251,13 +251,9 @@ if
 aUseProfiler
 )
 {
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 message
-.
-get
-(
-)
 DOM
 )
 ;

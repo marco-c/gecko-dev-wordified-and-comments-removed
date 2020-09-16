@@ -375,7 +375,7 @@ forget
 )
 )
 {
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 HighPrio

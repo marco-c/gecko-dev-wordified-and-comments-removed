@@ -275,7 +275,7 @@ do
 \
 AUTO_PROFILER_STATS
 (
-add_marker_v2
+PROFILER_MARKER_UNTYPED
 )
 ;
 \
@@ -320,7 +320,7 @@ do
 \
 AUTO_PROFILER_STATS
 (
-add_marker_v2_with_
+PROFILER_MARKER_with_
 #
 #
 MarkerType

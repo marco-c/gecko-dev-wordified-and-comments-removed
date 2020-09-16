@@ -4252,13 +4252,9 @@ Append
 strEventType
 )
 ;
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 strMarker
-.
-get
-(
-)
 OTHER
 )
 ;
