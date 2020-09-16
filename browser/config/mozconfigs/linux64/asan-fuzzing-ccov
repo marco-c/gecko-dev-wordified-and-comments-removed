@@ -135,6 +135,7 @@ export
 CFLAGS
 =
 "
+CFLAGS
 -
 -
 coverage
@@ -143,6 +144,7 @@ export
 CXXFLAGS
 =
 "
+CXXFLAGS
 -
 -
 coverage
@@ -151,6 +153,7 @@ export
 LDFLAGS
 =
 "
+LDFLAGS
 -
 -
 coverage
