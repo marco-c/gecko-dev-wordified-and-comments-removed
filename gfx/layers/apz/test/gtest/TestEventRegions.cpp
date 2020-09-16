@@ -1954,6 +1954,9 @@ root
 [
 ]
 (
+ScrollMetadata
+&
+sm
 FrameMetrics
 &
 metrics

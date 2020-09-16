@@ -235,6 +235,7 @@ GetScrollMetadata
 aCallback
 (
 metadata
+metadata
 .
 GetMetrics
 (
