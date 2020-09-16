@@ -59,6 +59,10 @@ mSilentFramesInARow
 (
 0
 )
+mEverAudible
+(
+false
+)
 {
 }
 void
@@ -156,7 +160,7 @@ i
 )
 {
 bool
-atLeastOneNonSilent
+atLeastOneAudible
 =
 false
 ;
@@ -212,7 +216,7 @@ dbfs
 AUDIBILITY_THREHSOLD
 )
 {
-atLeastOneNonSilent
+atLeastOneAudible
 =
 true
 ;
@@ -220,12 +224,16 @@ true
 }
 if
 (
-atLeastOneNonSilent
+atLeastOneAudible
 )
 {
 mSilentFramesInARow
 =
 0
+;
+mEverAudible
+=
+true
 ;
 }
 else
@@ -243,6 +251,9 @@ RecentlyAudible
 )
 {
 return
+mEverAudible
+&
+&
 (
 static_cast
 <
@@ -270,6 +281,9 @@ mSilenceDurationSeconds
 ;
 uint64_t
 mSilentFramesInARow
+;
+bool
+mEverAudible
 ;
 }
 ;
