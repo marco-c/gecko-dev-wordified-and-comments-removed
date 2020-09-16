@@ -2831,6 +2831,11 @@ github_checks_outputter
 get_gh_checks_outputter
 (
 kwargs
+[
+"
+github_checks_text_file
+"
+]
 )
     
 for

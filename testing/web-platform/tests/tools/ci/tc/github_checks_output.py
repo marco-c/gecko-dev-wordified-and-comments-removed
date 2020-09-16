@@ -1,3 +1,24 @@
+MYPY
+=
+False
+if
+MYPY
+:
+    
+from
+typing
+import
+Any
+    
+from
+typing
+import
+Optional
+    
+from
+typing
+import
+Text
 class
 GitHubChecksOutputter
 (
@@ -157,7 +178,7 @@ None
 def
 get_gh_checks_outputter
 (
-kwargs
+filepath
 )
 :
     
@@ -177,23 +198,24 @@ enabled
     
 :
 param
-kwargs
+filepath
 :
 The
-arguments
-passed
+filepath
 to
-the
-program
-(
+write
+GitHub
+Check
+output
+information
 to
-look
-for
-the
-                   
-github_checks_text_file
-field
-)
+                     
+or
+None
+if
+not
+enabled
+.
     
 "
 "
@@ -203,12 +225,7 @@ global
 __outputter
     
 if
-kwargs
-[
-'
-github_checks_text_file
-'
-]
+filepath
 and
 __outputter
 is
@@ -219,12 +236,7 @@ __outputter
 =
 GitHubChecksOutputter
 (
-kwargs
-[
-'
-github_checks_text_file
-'
-]
+filepath
 )
     
 return
