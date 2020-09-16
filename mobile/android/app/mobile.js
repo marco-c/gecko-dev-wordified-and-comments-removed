@@ -1,5 +1,7 @@
 #
 filter
+dumbComments
+emptyLines
 substitution
 pref
 (

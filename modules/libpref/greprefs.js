@@ -1,4 +1,8 @@
 #
+filter
+dumbComments
+emptyLines
+#
 include
 init
 /
