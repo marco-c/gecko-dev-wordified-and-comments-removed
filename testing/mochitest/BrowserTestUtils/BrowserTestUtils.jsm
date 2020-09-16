@@ -3952,11 +3952,11 @@ set
 id
 {
 listener
-browsingContext
+browserId
 :
 browser
 .
-browsingContext
+browserId
 }
 )
 ;
@@ -4086,7 +4086,7 @@ unregisterFunction
 _receivedContentEventListener
 (
 listenerId
-browsingContext
+browserId
 )
 {
 let
@@ -4114,10 +4114,10 @@ if
 (
 listenerData
 .
-browsingContext
+browserId
 !
 =
-browsingContext
+browserId
 )
 {
 return
