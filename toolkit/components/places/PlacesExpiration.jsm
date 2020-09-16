@@ -409,6 +409,14 @@ utc
 *
 1000000
 AND
+visit_type
+NOT
+IN
+(
+5
+6
+)
+AND
 (
 LENGTH
 (
