@@ -3500,10 +3500,8 @@ nsILoadInfo
 :
 SEC_FORCE_INHERIT_PRINCIPAL
 )
-)
-{
-MOZ_ASSERT
-(
+&
+&
 originalPrincipalToInherit
 -
 >
@@ -3512,7 +3510,7 @@ Equals
 flattenedPrincipalToInherit
 )
 )
-;
+{
 principalToInherit
 =
 originalPrincipalToInherit
