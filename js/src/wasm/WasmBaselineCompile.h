@@ -78,7 +78,7 @@ args_
 jit
 :
 :
-ABIArgIter
+WasmABIArgIter
 <
 ArgTypeVector
 >
