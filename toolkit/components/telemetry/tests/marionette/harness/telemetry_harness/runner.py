@@ -150,6 +150,19 @@ SERVER_URL
 )
                 
 "
+telemetry
+.
+fog
+.
+test
+.
+localhost_port
+"
+:
+-
+1
+                
+"
 toolkit
 .
 telemetry
