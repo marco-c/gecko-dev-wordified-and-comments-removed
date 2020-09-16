@@ -290,12 +290,8 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 GMPParent
 )
-explicit
 GMPParent
 (
-nsISerialEventTarget
-*
-aThread
 )
 ;
 RefPtr
@@ -753,6 +749,7 @@ endif
 nsString
 mAdapter
 ;
+const
 uint32_t
 mPluginId
 ;
@@ -831,7 +828,7 @@ nsCOMPtr
 <
 nsISerialEventTarget
 >
-mWorkerThread
+mMainThread
 ;
 }
 ;
