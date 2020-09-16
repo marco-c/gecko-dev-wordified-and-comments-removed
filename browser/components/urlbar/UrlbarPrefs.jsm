@@ -405,14 +405,6 @@ false
 "
 update2
 .
-emptySearchBehavior
-"
-2
-]
-[
-"
-update2
-.
 localOneOffs
 "
 false
