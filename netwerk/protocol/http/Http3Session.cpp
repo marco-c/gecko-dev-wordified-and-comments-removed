@@ -521,10 +521,10 @@ buf
 kIPv6CStrBufSize
 ]
 ;
-NetAddrToString
-(
-&
 selfAddr
+.
+ToStringBuffer
+(
 buf
 kIPv6CStrBufSize
 )
@@ -671,10 +671,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NetAddrToString
-(
-&
 peerAddr
+.
+ToStringBuffer
+(
 buf
 kIPv6CStrBufSize
 )

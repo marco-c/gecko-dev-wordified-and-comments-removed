@@ -8653,10 +8653,10 @@ isLocal
 isLocal
 |
 |
-IsLoopBackAddress
-(
-&
 peerAddr
+.
+IsLoopbackAddr
+(
 )
 ;
 if
