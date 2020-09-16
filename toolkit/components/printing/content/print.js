@@ -2722,6 +2722,8 @@ true
 printerInfo
 .
 _resolved
+=
+true
 ;
 return
 printerInfo
