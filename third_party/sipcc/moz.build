@@ -2,6 +2,14 @@ if
 CONFIG
 [
 '
+MOZ_WEBRTC_SIGNALING
+'
+]
+:
+if
+CONFIG
+[
+'
 OS_TARGET
 '
 ]
