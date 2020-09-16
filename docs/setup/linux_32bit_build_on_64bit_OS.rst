@@ -135,8 +135,6 @@ devel
 .
 i686
 \
-autoconf213
-\
 gtk2
 -
 devel

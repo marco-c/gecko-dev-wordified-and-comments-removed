@@ -1822,7 +1822,6 @@ of
 bash
 GNU
 make
-autoconf
 Mercurial
 and
 much
@@ -2769,11 +2768,6 @@ org
 /
 >
 _
-autoconf
--
-2
-.
-13
 CVS
 Python
 YASM
