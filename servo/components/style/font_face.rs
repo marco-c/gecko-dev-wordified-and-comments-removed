@@ -2544,8 +2544,6 @@ write_str
 concat
 !
 (
-"
-"
 name
 "
 :
@@ -2578,8 +2576,6 @@ write_str
 (
 "
 ;
-\
-n
 "
 )
 ?
@@ -2835,8 +2831,6 @@ font
 -
 face
 {
-\
-n
 "
 )
 ?
