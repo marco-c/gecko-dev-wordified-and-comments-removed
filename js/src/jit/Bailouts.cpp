@@ -213,6 +213,17 @@ bailoutInfo
 ;
 MOZ_ASSERT
 (
+!
+cx
+-
+>
+hasIonReturnOverride
+(
+)
+)
+;
+MOZ_ASSERT
+(
 IsInRange
 (
 FAKE_EXITFP_FOR_BAILOUT
@@ -373,7 +384,6 @@ activation
 (
 )
 frame
-false
 bailoutInfo
 nullptr
 )
@@ -667,7 +677,6 @@ activation
 (
 )
 frame
-true
 bailoutInfo
 nullptr
 )
@@ -1117,7 +1126,6 @@ activation
 (
 )
 frameView
-true
 &
 bailoutInfo
 &
