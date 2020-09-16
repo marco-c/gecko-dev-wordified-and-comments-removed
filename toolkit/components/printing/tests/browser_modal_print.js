@@ -378,15 +378,6 @@ picker
 "
 )
 ;
-await
-helper
-.
-win
-.
-PrintEventHandler
-.
-_previewUpdatingPromise
-;
 const
 previewBrowser
 =
