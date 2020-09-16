@@ -3533,6 +3533,12 @@ Element
 aElements
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+bool
+HasVisibleScrollbars
+(
+)
+;
 private
 :
 nsINode
