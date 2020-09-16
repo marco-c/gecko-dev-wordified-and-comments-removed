@@ -1495,6 +1495,12 @@ catch
 e
 )
 {
+window
+.
+close
+(
+)
+;
 return
 ;
 }
