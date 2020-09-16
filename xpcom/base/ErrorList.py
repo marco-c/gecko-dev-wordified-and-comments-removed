@@ -7575,6 +7575,13 @@ ErrorList_h__
 #
 define
 ErrorList_h__
+#
+include
+<
+stdint
+.
+h
+>
 "
 "
 "
