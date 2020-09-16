@@ -236,6 +236,11 @@ mCUPSPatch
 =
 0
 ;
+bool
+mWasInited
+=
+false
+;
 CUPSPrinterInfo
 (
 )
