@@ -21,6 +21,7 @@ api
 ColorF
 ImageDescriptor
 ImageFormat
+MemoryReport
 }
 ;
 use
@@ -56,15 +57,6 @@ gleam
 :
 :
 gl
-;
-use
-crate
-:
-:
-render_api
-:
-:
-MemoryReport
 ;
 use
 crate

@@ -3896,9 +3896,6 @@ draw_state
 }
 }
 }
-crate
-:
-:
 enumerate_interners
 !
 (
