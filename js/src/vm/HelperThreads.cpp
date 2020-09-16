@@ -4058,7 +4058,9 @@ resultScript
 =
 static_cast
 <
+const
 XDRResult
+&
 >
 (
 res
@@ -4316,7 +4318,9 @@ resultScript
 =
 static_cast
 <
+const
 XDRResult
+&
 >
 (
 res
