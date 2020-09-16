@@ -94,6 +94,13 @@ docs
 index
 components
 /
+pictureinpicture
+/
+pictureinpicture
+/
+index
+components
+/
 prompts
 /
 prompts
