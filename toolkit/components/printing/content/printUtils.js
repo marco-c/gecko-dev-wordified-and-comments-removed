@@ -775,6 +775,9 @@ currentURI
 spec
 ;
 }
+let
+promise
+=
 topBrowser
 .
 print
@@ -839,6 +842,9 @@ WITHOUT_PREVIEW
 )
 ;
 }
+return
+promise
+;
 }
 printPreview
 (
