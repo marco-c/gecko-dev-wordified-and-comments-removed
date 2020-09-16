@@ -517,7 +517,7 @@ do
 \
 AUTO_PROFILER_STATS
 (
-base_add_marker_v2_with_Text
+BASE_PROFILER_MARKER_TEXT
 )
 ;
 \
