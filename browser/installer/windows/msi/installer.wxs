@@ -194,6 +194,11 @@ var
 Architecture
 )
 "
+InstallScope
+=
+"
+perMachine
+"
 /
 >
 <
