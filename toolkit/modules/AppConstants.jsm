@@ -641,17 +641,6 @@ else
 false
 #
 endif
-MOZ_ALLOW_LEGACY_EXTENSIONS
-:
-#
-ifdef
-MOZ_ALLOW_LEGACY_EXTENSIONS
-true
-#
-else
-false
-#
-endif
 MENUBAR_CAN_AUTOHIDE
 :
 #
