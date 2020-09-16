@@ -519,6 +519,11 @@ alpn
 ;
 readonly
 attribute
+bool
+hasIPHintAddress
+;
+readonly
+attribute
 Array
 <
 nsISVCParam

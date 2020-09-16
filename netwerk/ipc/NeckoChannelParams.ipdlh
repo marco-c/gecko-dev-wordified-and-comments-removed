@@ -815,6 +815,9 @@ topWindowOrigin
 bool
 isHttp3
 ;
+bool
+hasIPHintAddress
+;
 ProxyInfoCloneArgs
 [
 ]

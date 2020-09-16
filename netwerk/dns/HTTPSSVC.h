@@ -435,6 +435,11 @@ mSvcFieldPriority
 nsCString
 mSvcDomainName
 ;
+bool
+mHasIPHints
+=
+false
+;
 CopyableTArray
 <
 SvcFieldValue
