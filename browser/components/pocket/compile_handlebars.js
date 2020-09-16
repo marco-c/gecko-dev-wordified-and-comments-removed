@@ -44,6 +44,7 @@ saved_shell
 saved_tmplogin
 signup_shell
 signupstoryboard_shell
+item_recs
 ]
 ;
 templates
