@@ -2204,6 +2204,7 @@ split_args
 =
 lambda
 arg
+substrategies
 :
 [
 arg
@@ -2311,6 +2312,9 @@ self
 split_args
 (
 arg
+self
+.
+substrategies
 )
 )
 :
@@ -2717,6 +2721,7 @@ def
 split_bugbug_arg
 (
 arg
+substrategies
 )
 :
     
@@ -2759,13 +2764,13 @@ arg
 to
 the
 first
-strategy
+strategies
 and
 an
 empty
 dict
 to
-second
+last
 (
 bugbug
 based
@@ -2779,11 +2784,23 @@ strategy
 "
     
 return
-(
+[
 arg
+]
+*
+(
+len
+(
+substrategies
+)
+-
+1
+)
++
+[
 {
 }
-)
+]
 import_sibling_modules
 (
 )
