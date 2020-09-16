@@ -1,14 +1,3 @@
-extern
-crate
-quote
-;
-extern
-crate
-syn
-;
-mod
-features
-;
 #
 [
 macro_use
@@ -190,6 +179,9 @@ None
 }
 tokens
 :
+TokenStream
+(
+)
 }
 ]
 ident

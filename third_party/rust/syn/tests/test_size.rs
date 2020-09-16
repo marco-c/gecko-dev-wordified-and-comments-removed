@@ -10,9 +10,6 @@ target_pointer_width
 "
 )
 ]
-mod
-features
-;
 use
 std
 :

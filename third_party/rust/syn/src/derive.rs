@@ -38,6 +38,7 @@ This
 type
 is
 available
+only
 if
 Syn
 is
@@ -159,6 +160,7 @@ This
 type
 is
 available
+only
 if
 Syn
 is
@@ -338,6 +340,7 @@ This
 type
 is
 available
+only
 if
 Syn
 is
@@ -407,6 +410,7 @@ This
 type
 is
 available
+only
 if
 Syn
 is
@@ -480,6 +484,7 @@ This
 type
 is
 available
+only
 if
 Syn
 is

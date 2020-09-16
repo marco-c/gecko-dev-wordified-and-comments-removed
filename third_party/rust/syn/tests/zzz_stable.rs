@@ -6,10 +6,6 @@ cfg
 syn_disable_nightly_tests
 )
 ]
-extern
-crate
-termcolor
-;
 use
 std
 :
@@ -79,7 +75,7 @@ requires
 access
 to
 unstable
-libsyntax
+librustc
 data
 structures
 and

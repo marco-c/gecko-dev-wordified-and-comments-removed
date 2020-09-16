@@ -1,7 +1,3 @@
-extern
-crate
-proc_macro2
-;
 #
 [
 path
@@ -283,7 +279,7 @@ expr
 insta
 :
 :
-assert_debug_snapshot_matches
+assert_debug_snapshot
 !
 (
 debug
@@ -363,7 +359,7 @@ syntax_tree
 insta
 :
 :
-assert_debug_snapshot_matches
+assert_debug_snapshot
 !
 (
 debug
@@ -420,7 +416,7 @@ syntax_tree
 insta
 :
 :
-assert_debug_snapshot_matches
+assert_debug_snapshot
 !
 (
 debug

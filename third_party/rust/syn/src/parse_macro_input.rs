@@ -1,9 +1,6 @@
 #
 [
 macro_export
-(
-local_inner_macros
-)
 ]
 macro_rules
 !
@@ -95,6 +92,9 @@ ident
 =
 >
 {
+crate
+:
+:
 parse_macro_input
 !
 (

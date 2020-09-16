@@ -1,10 +1,3 @@
-extern
-crate
-syn
-;
-mod
-features
-;
 #
 [
 macro_use

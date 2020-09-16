@@ -1,14 +1,3 @@
-extern
-crate
-proc_macro2
-;
-extern
-crate
-syn
-;
-mod
-features
-;
 use
 proc_macro2
 :

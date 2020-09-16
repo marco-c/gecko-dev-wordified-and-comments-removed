@@ -173,10 +173,6 @@ stream
 (
 )
 .
-clone
-(
-)
-.
 into_iter
 (
 )
@@ -188,10 +184,6 @@ s2
 g2
 .
 stream
-(
-)
-.
-clone
 (
 )
 .
@@ -513,10 +505,6 @@ in
 g
 .
 stream
-(
-)
-.
-clone
 (
 )
 {

@@ -1,14 +1,3 @@
-extern
-crate
-quote
-;
-extern
-crate
-syn
-;
-mod
-features
-;
 #
 [
 macro_use
@@ -181,9 +170,12 @@ None
 }
 tokens
 :
+TokenStream
+(
 (
 Debug
 Clone
+)
 )
 }
 ]
@@ -787,6 +779,8 @@ None
 }
 tokens
 :
+TokenStream
+(
 =
 r
 "
@@ -802,6 +796,7 @@ for
 details
 .
 "
+)
 }
 Attribute
 {
@@ -830,6 +825,9 @@ None
 }
 tokens
 :
+TokenStream
+(
+)
 }
 ]
 vis
@@ -1318,6 +1316,8 @@ None
 }
 tokens
 :
+TokenStream
+(
 fn
 main
 (
@@ -1337,6 +1337,7 @@ world
 )
 ;
 }
+)
 }
 ]
 vis
@@ -1461,9 +1462,12 @@ None
 }
 tokens
 :
+TokenStream
+(
 <
 T
 >
+)
 }
 ]
 vis
@@ -1599,6 +1603,9 @@ None
 }
 tokens
 :
+TokenStream
+(
+)
 }
 ]
 vis

@@ -28,7 +28,11 @@ named
 item
 is
 exported
-:
+(
+e
+.
+g
+.
 std
 :
 :
@@ -36,6 +40,7 @@ collections
 :
 :
 HashMap
+)
 .
 /
 /
@@ -48,6 +53,7 @@ This
 type
 is
 available
+only
 if
 Syn
 is
@@ -193,6 +199,7 @@ This
 type
 is
 available
+only
 if
 Syn
 is
@@ -300,6 +307,7 @@ This
 type
 is
 available
+only
 if
 Syn
 is
@@ -601,6 +609,7 @@ This
 type
 is
 available
+only
 if
 Syn
 is
@@ -782,6 +791,7 @@ This
 type
 is
 available
+only
 if
 Syn
 is
@@ -878,6 +888,7 @@ This
 type
 is
 available
+only
 if
 Syn
 is
@@ -948,6 +959,7 @@ This
 type
 is
 available
+only
 if
 Syn
 is
@@ -1042,6 +1054,7 @@ This
 type
 is
 available
+only
 if
 Syn
 is
@@ -1276,6 +1289,7 @@ This
 type
 is
 available
+only
 if
 Syn
 is
@@ -1969,18 +1983,6 @@ Token
 crate
 ]
 )
-|
-|
-input
-.
-peek
-(
-Token
-!
-[
-extern
-]
-)
 {
 let
 ident
@@ -2441,19 +2443,6 @@ Token
 !
 [
 crate
-]
-)
-&
-&
-!
-input
-.
-peek
-(
-Token
-!
-[
-extern
 ]
 )
 {
