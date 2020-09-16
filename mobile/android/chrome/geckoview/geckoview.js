@@ -2363,10 +2363,6 @@ DOMMetaViewportFitChanged
 :
 {
 }
-DOMWindowClose
-:
-{
-}
 "
 MozDOMFullscreen
 :
