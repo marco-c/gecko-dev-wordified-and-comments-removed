@@ -25147,9 +25147,9 @@ GetScrollPosition
 )
 ;
 nsRect
-scrolledRect
+scrollRange
 =
-GetScrolledRect
+GetVisualScrollRange
 (
 )
 ;
@@ -25166,6 +25166,12 @@ UseDesktopZoomingScrollbars
 pt
 =
 GetVisualViewportOffset
+(
+)
+;
+scrollRange
+=
+GetScrollRangeForUserInputEvents
 (
 )
 ;
@@ -25196,7 +25202,7 @@ pt
 .
 y
 -
-scrolledRect
+scrollRange
 .
 y
 )
@@ -25241,7 +25247,7 @@ pt
 .
 x
 -
-scrolledRect
+scrollRange
 .
 x
 )
