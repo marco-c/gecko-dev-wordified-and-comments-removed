@@ -826,6 +826,7 @@ AutoLockHelperThreadState
 locked
 )
 {
+{
 AutoUnlockHelperThreadState
 unlock
 (
@@ -838,6 +839,12 @@ jit
 FreeIonCompileTask
 (
 task_
+)
+;
+}
+js_delete
+(
+this
 )
 ;
 }
