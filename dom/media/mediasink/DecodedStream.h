@@ -515,12 +515,6 @@ mIsAudioDataAudible
 =
 false
 ;
-Maybe
-<
-AudibilityMonitor
->
-mAudibilityMonitor
-;
 MediaEventProducer
 <
 bool

@@ -14,13 +14,6 @@ h
 #
 include
 "
-AudibilityMonitor
-.
-h
-"
-#
-include
-"
 MediaEventSource
 .
 h
@@ -540,9 +533,6 @@ mOutputRate
 ;
 uint32_t
 mOutputChannels
-;
-AudibilityMonitor
-mAudibilityMonitor
 ;
 bool
 mIsAudioDataAudible

@@ -1635,6 +1635,12 @@ EnsureAudioBuffer
 )
 ;
 bool
+IsAudible
+(
+)
+const
+;
+bool
 AdjustForStartTime
 (
 const

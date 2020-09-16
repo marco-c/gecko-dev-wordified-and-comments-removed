@@ -579,15 +579,6 @@ AudioInfo
 info
 )
 ;
-uint32_t
-DecideAudioPlaybackSampleRate
-(
-const
-AudioInfo
-&
-info
-)
-;
 bool
 IsDefaultPlaybackDeviceMono
 (

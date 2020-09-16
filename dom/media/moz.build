@@ -470,11 +470,6 @@ AsyncLogger
 h
 '
 '
-AudibilityMonitor
-.
-h
-'
-'
 AudioBufferUtils
 .
 h
