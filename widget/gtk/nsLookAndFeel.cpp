@@ -5162,6 +5162,13 @@ GDK_RGBA_TO_NS_RGBA
 color
 )
 ;
+style
+=
+GetStyleContext
+(
+MOZ_GTK_TEXT_VIEW_TEXT_SELECTION
+)
+;
 gtk_style_context_get_background_color
 (
 style
