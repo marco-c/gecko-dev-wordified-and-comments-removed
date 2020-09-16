@@ -605,6 +605,8 @@ self
 self
 .
 pacman_update
+(
+)
     
 def
 upgrade_mercurial
