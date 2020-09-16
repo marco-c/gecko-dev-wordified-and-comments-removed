@@ -250,9 +250,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 gService
 =
 this
@@ -809,9 +811,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 return
 GetBaseDomainInternal
 (
@@ -858,9 +862,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 return
 GetBaseDomainInternal
 (
@@ -923,9 +929,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 return
 GetBaseDomainInternal
 (
@@ -1022,9 +1030,11 @@ IsEmpty
 (
 )
 )
+{
 return
 NS_ERROR_INSUFFICIENT_DOMAIN_LEVELS
 ;
+}
 bool
 trailingDot
 =
@@ -1043,6 +1053,7 @@ if
 (
 trailingDot
 )
+{
 aHostname
 .
 Truncate
@@ -1056,6 +1067,7 @@ Length
 1
 )
 ;
+}
 if
 (
 aHostname
@@ -1076,9 +1088,11 @@ Last
 .
 '
 )
+{
 return
 NS_ERROR_INVALID_ARG
 ;
+}
 Maybe
 <
 TldCache
@@ -1544,7 +1558,9 @@ iter
 +
 +
 )
+{
 ;
+}
 if
 (
 iter
@@ -1598,8 +1614,10 @@ iter
 =
 begin
 )
+{
 break
 ;
+}
 if
 (
 *
@@ -1703,6 +1721,7 @@ if
 (
 trailingDot
 )
+{
 aBaseDomain
 .
 Append
@@ -1712,6 +1731,7 @@ Append
 '
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1755,9 +1775,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 }
 ToLowerCase
 (
