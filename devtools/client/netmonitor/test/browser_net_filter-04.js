@@ -265,6 +265,9 @@ FILTERING_URL
 requestCount
 :
 1
+expectedEventTimings
+:
+0
 }
 )
 ;
@@ -396,6 +399,11 @@ waitForNetworkEvents
 (
 monitor
 9
+{
+expectedEventTimings
+:
+1
+}
 )
 ;
 await

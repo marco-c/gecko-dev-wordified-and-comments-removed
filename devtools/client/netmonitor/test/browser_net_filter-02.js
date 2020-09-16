@@ -978,6 +978,11 @@ waitForNetworkEvents
 (
 monitor
 9
+{
+expectedEventTimings
+:
+1
+}
 )
 ;
 await
@@ -1049,6 +1054,11 @@ waitForNetworkEvents
 (
 monitor
 9
+{
+expectedEventTimings
+:
+1
+}
 )
 ;
 await
