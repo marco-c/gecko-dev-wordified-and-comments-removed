@@ -1352,6 +1352,7 @@ number
 name
 month
 year
+type
 }
 )
 {
@@ -1400,15 +1401,13 @@ expiration
 let
 stringId
 =
-"
 credit
 -
 card
 -
 label
 -
-"
-+
+{
 formatSelector
 .
 join
@@ -1417,6 +1416,9 @@ join
 -
 "
 )
+}
+-
+2
 ;
 return
 {
@@ -1451,6 +1453,7 @@ year
 toString
 (
 )
+type
 }
 }
 ;

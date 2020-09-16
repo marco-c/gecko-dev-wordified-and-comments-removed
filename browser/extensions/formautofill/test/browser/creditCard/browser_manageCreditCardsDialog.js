@@ -409,6 +409,8 @@ label
 number
 -
 name
+-
+2
 "
 args
 :
@@ -430,6 +432,11 @@ P
 .
 Bacon
 "
+type
+:
+"
+Visa
+"
 }
 }
 {
@@ -443,6 +450,8 @@ card
 label
 -
 number
+-
+2
 "
 args
 :
@@ -455,6 +464,11 @@ number
 *
 *
 5100
+"
+type
+:
+"
+MasterCard
 "
 }
 }
@@ -471,6 +485,8 @@ label
 number
 -
 expiration
+-
+2
 "
 args
 :
@@ -494,6 +510,11 @@ year
 "
 2000
 "
+type
+:
+"
+MasterCard
+"
 }
 }
 {
@@ -511,6 +532,8 @@ number
 name
 -
 expiration
+-
+2
 "
 args
 :
@@ -555,6 +578,11 @@ getFullYear
 toString
 (
 )
+type
+:
+"
+Visa
+"
 }
 }
 {
@@ -572,6 +600,8 @@ number
 name
 -
 expiration
+-
+2
 "
 args
 :
@@ -610,6 +640,11 @@ getFullYear
 toString
 (
 )
+type
+:
+"
+Visa
+"
 }
 }
 ]
