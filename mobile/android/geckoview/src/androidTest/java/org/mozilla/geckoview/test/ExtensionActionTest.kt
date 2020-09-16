@@ -2543,7 +2543,7 @@ icon
 !
 !
 .
-get
+getBitmap
 (
 100
 )
@@ -2627,7 +2627,7 @@ icon
 !
 !
 .
-get
+getBitmap
 (
 32
 )
@@ -2805,7 +2805,7 @@ icon
 !
 !
 .
-get
+getBitmap
 (
 100
 )
@@ -2847,7 +2847,7 @@ icon
 !
 !
 .
-get
+getBitmap
 (
 38
 )
@@ -2889,7 +2889,7 @@ icon
 !
 !
 .
-get
+getBitmap
 (
 19
 )
@@ -2931,7 +2931,7 @@ icon
 !
 !
 .
-get
+getBitmap
 (
 10
 )
@@ -3049,7 +3049,7 @@ icon
 !
 !
 .
-get
+getBitmap
 (
 38
 )
