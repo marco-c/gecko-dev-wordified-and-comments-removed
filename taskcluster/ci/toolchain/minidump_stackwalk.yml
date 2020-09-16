@@ -136,14 +136,6 @@ configure
 '
 -
 '
-testing
-/
-tools
-/
-fileid
-'
--
-'
 toolkit
 /
 crashreporter

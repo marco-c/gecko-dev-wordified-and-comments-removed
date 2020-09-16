@@ -559,13 +559,6 @@ crashreporter
 /
 path
 :
-testing
-/
-tools
-/
-fileid
-path
-:
 mfbt
 path
 :
