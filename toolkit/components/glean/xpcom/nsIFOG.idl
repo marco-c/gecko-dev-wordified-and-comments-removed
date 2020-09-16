@@ -21,7 +21,7 @@ f878b8be6307
 )
 ]
 interface
-nsIAboutGlean
+nsIFOG
 :
 nsISupports
 {
