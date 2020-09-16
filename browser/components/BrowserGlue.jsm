@@ -1174,6 +1174,13 @@ about
 welcome
 "
 ]
+remoteTypes
+:
+[
+"
+privilegedabout
+"
+]
 enablePreference
 :
 "
