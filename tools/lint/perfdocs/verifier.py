@@ -1266,6 +1266,15 @@ exists
 (
 desc_path
 )
+and
+os
+.
+path
+.
+isfile
+(
+desc_path
+)
 :
                 
 with
