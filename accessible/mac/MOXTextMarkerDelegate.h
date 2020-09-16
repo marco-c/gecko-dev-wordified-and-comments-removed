@@ -294,6 +294,17 @@ textMarkerRange
 (
 id
 )
+moxUIElementForTextMarker
+:
+(
+id
+)
+textMarker
+;
+-
+(
+id
+)
 moxTextMarkerRangeForUIElement
 :
 (

@@ -182,6 +182,14 @@ int32_t
 aEndOffset
 )
 ;
+Accessible
+*
+LeafAtOffset
+(
+int32_t
+aOffset
+)
+;
 protected
 :
 ~
