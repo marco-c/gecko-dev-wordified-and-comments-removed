@@ -189,6 +189,12 @@ nullptr
 )
 ;
 bool
+AreClipboardCommandsUnconditionallyEnabled
+(
+)
+const
+;
+bool
 IsCutCommandEnabled
 (
 )

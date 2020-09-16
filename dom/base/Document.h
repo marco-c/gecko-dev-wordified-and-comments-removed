@@ -7184,6 +7184,12 @@ UpdateFrameRequestCallbackSchedulingState
 )
 ;
 }
+bool
+AreClipboardCommandsUnconditionallyEnabled
+(
+)
+const
+;
 void
 AddSuspendedChannelEventQueue
 (
