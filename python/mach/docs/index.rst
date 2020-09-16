@@ -485,3 +485,4 @@ commands
 driver
 logging
 settings
+telemetry

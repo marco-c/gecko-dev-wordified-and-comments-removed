@@ -78,6 +78,12 @@ register_sentry
 NoopErrorReporter
 from
 .
+telemetry
+import
+report_invocation_metrics
+Telemetry
+from
+.
 util
 import
 setenv
@@ -2362,6 +2368,17 @@ sentry
 )
 :
         
+telemetry
+=
+Telemetry
+.
+from_environment
+(
+self
+.
+settings
+)
+        
 context
 =
 CommandContext
@@ -2386,6 +2403,9 @@ log_manager
 commands
 =
 Registrar
+telemetry
+=
+telemetry
 )
         
 if
@@ -2577,6 +2597,18 @@ args
 '
 mach_handler
 '
+)
+        
+report_invocation_metrics
+(
+context
+.
+telemetry
+.
+metrics
+handler
+.
+name
 )
         
 if

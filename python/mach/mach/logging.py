@@ -1738,6 +1738,22 @@ on
 "
 "
         
+logging
+.
+getLogger
+(
+'
+glean
+'
+)
+.
+setLevel
+(
+logging
+.
+CRITICAL
+)
+        
 for
 logger
 in
