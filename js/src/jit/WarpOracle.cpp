@@ -5019,6 +5019,12 @@ break
 ;
 }
 }
+uint8_t
+*
+stubDataCopy
+=
+nullptr
+;
 size_t
 bytesNeeded
 =
@@ -5029,8 +5035,13 @@ stubDataSize
 (
 )
 ;
-uint8_t
-*
+if
+(
+bytesNeeded
+>
+0
+)
+{
 stubDataCopy
 =
 alloc_
@@ -5089,6 +5100,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 JitCode
 *
