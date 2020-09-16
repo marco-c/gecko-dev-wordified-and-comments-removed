@@ -186,6 +186,11 @@ AboutNewTabChild
 jsm
 '
 '
+AboutNewTabParent
+.
+jsm
+'
+'
 AboutPluginsChild
 .
 jsm
