@@ -282,9 +282,6 @@ mod
 hit_test
 ;
 mod
-intern
-;
-mod
 internal_types
 ;
 mod
@@ -367,6 +364,10 @@ api_resources
 ;
 mod
 image_tiling
+;
+pub
+mod
+intern
 ;
 pub
 mod
