@@ -607,6 +607,8 @@ private
 bool
 mInitialized
 ;
+RefPtr
+<
 mozilla
 :
 :
@@ -614,7 +616,7 @@ widget
 :
 :
 nsWaylandDisplay
-*
+>
 mDisplay
 ;
 GHashTable
