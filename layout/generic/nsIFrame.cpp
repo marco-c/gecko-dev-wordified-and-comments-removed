@@ -28938,7 +28938,7 @@ and
 call
 "
 "
-nsIFrame
+nsContainerFrame
 :
 :
 ComputeSizeWithIntrinsicDimensions
