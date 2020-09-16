@@ -2365,6 +2365,15 @@ apz
 /
 src
 /
+SmoothScrollAnimation
+.
+cpp
+'
+'
+apz
+/
+src
+/
 WheelScrollAnimation
 .
 cpp
