@@ -908,6 +908,15 @@ resources
 {
 if
 (
+resources
+.
+length
+=
+=
+=
+0
+|
+|
 this
 .
 isDestroyed
