@@ -32,6 +32,17 @@ include
 "
 js
 /
+friend
+/
+XrayJitInfo
+.
+h
+"
+#
+include
+"
+js
+/
 Proxy
 .
 h
@@ -2749,7 +2760,7 @@ wrapper
 )
 ;
 extern
-js
+JS
 :
 :
 XrayJitInfo

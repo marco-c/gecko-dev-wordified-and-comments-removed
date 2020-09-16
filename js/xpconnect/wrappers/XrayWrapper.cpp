@@ -117,6 +117,17 @@ include
 "
 js
 /
+friend
+/
+XrayJitInfo
+.
+h
+"
+#
+include
+"
+js
+/
 PropertySpec
 .
 h
@@ -11777,7 +11788,7 @@ PermissiveXrayDOM
 singleton
 ;
 }
-js
+JS
 :
 :
 XrayJitInfo

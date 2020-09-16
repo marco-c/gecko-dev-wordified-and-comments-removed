@@ -122,6 +122,17 @@ include
 "
 js
 /
+friend
+/
+XrayJitInfo
+.
+h
+"
+#
+include
+"
+js
+/
 ScalarType
 .
 h
@@ -6290,6 +6301,9 @@ AttachDecision
 NoAction
 ;
 }
+JS
+:
+:
 XrayJitInfo
 *
 info

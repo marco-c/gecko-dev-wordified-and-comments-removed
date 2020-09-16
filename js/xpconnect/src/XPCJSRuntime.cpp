@@ -384,6 +384,17 @@ h
 #
 include
 "
+js
+/
+friend
+/
+XrayJitInfo
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -16845,7 +16856,7 @@ cx
 )
 ;
 }
-js
+JS
 :
 :
 SetXrayJitInfo
