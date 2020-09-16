@@ -160,13 +160,6 @@ PLUGIN_CRASHED
 const
 unsigned
 long
-PLUGIN_SUPPRESSED
-=
-6
-;
-const
-unsigned
-long
 PLUGIN_CLICK_TO_PLAY
 =
 8
