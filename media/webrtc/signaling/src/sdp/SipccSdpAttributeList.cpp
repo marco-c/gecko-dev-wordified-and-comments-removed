@@ -33,14 +33,6 @@ C
 #
 include
 "
-signaling
-/
-src
-/
-sdp
-/
-sipcc
-/
 sdp_private
 .
 h

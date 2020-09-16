@@ -36,7 +36,7 @@ h
 #
 include
 "
-sdp
+sipcc_sdp
 .
 h
 "
@@ -57,7 +57,7 @@ h
 #
 include
 "
-CSFLog
+sdp_log
 .
 h
 "
@@ -1105,7 +1105,7 @@ SDP_DEBUG_WARNINGS
 ]
 )
 {
-CSFLogDebug
+SDPLogDebug
 (
 logTag
 "
@@ -1163,7 +1163,7 @@ result
 SDP_SUCCESS
 )
 {
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -8727,7 +8727,7 @@ TRUE
 }
 else
 {
-CSFLogDebug
+SDPLogDebug
 (
 logTag
 "
@@ -18101,7 +18101,7 @@ cap_p
 NULL
 )
 {
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -18169,7 +18169,7 @@ SDP_MAX_TRANSPORT_TYPES
 )
 )
 {
-CSFLogDebug
+SDPLogDebug
 (
 logTag
 logTag
@@ -19534,7 +19534,7 @@ type
 SDP_MAX_ATTR_TYPES
 )
 {
-CSFLogDebug
+SDPLogDebug
 (
 logTag
 "
@@ -22799,7 +22799,7 @@ SDP_DEBUG_ERRORS
 ]
 )
 {
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -26696,7 +26696,7 @@ SDP_DEBUG_ERRORS
 ]
 )
 {
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -28499,7 +28499,7 @@ break
 ;
 default
 :
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -29246,7 +29246,7 @@ break
 ;
 default
 :
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -29415,7 +29415,7 @@ break
 ;
 default
 :
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -29586,7 +29586,7 @@ SDP_INVALID_PARAMETER
 ;
 default
 :
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -29694,7 +29694,7 @@ break
 ;
 default
 :
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -29859,7 +29859,7 @@ SDP_INVALID_PARAMETER
 ;
 default
 :
-CSFLogError
+SDPLogError
 (
 logTag
 "

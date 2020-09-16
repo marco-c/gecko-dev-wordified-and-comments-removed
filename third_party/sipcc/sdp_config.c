@@ -8,7 +8,7 @@ h
 #
 include
 "
-sdp
+sipcc_sdp
 .
 h
 "
@@ -22,7 +22,7 @@ h
 #
 include
 "
-CSFLog
+sdp_log
 .
 h
 "
@@ -65,7 +65,7 @@ if
 conf_p
 )
 {
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -328,7 +328,7 @@ error_handler_context
 =
 NULL
 ;
-CSFLogInfo
+SDPLogInfo
 (
 logTag
 "

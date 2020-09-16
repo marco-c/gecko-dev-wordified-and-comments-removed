@@ -13,6 +13,13 @@ Logging
 .
 h
 "
+#
+include
+"
+sdp_log
+.
+h
+"
 namespace
 mozilla
 {

@@ -29,7 +29,7 @@ h
 #
 include
 "
-sdp
+sipcc_sdp
 .
 h
 "
@@ -43,7 +43,7 @@ h
 #
 include
 "
-CSFLog
+sdp_log
 .
 h
 "
@@ -2469,7 +2469,7 @@ SDP_DEBUG_ERRORS
 ]
 )
 {
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -2539,7 +2539,7 @@ SDP_DEBUG_ERRORS
 ]
 )
 {
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -2599,7 +2599,7 @@ SDP_DEBUG_ERRORS
 ]
 )
 {
-CSFLogError
+SDPLogError
 (
 logTag
 "
