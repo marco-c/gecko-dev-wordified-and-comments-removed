@@ -101,6 +101,9 @@ TRRTYPE_CNAME
 TRRTYPE_AAAA
 =
 28
+TRRTYPE_OPT
+=
+41
 TRRTYPE_TXT
 =
 16
@@ -773,6 +776,11 @@ bool
 mAllowRFC1918
 =
 false
+;
+uint16_t
+mExtendedError
+=
+UINT16_MAX
 ;
 uint32_t
 mTTL
