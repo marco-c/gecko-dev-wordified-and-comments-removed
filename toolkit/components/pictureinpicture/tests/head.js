@@ -1034,7 +1034,7 @@ gre
 /
 modules
 /
-PictureInPictureTogglePolicy
+PictureInPictureControls
 .
 jsm
 "
