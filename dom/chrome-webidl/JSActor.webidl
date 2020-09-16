@@ -31,6 +31,11 @@ any
 obj
 )
 ;
+readonly
+attribute
+UTF8String
+name
+;
 }
 ;
 [
