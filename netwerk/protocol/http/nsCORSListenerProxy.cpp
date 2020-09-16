@@ -3344,7 +3344,7 @@ aOldChannel
 ;
 if
 (
-aOldChannel
+oldHttpChannel
 )
 {
 nsAutoCString

@@ -6227,6 +6227,9 @@ aNewChannel
 ;
 if
 (
+oldHttpChannel
+&
+&
 newHttpChannel
 )
 {
