@@ -422,6 +422,17 @@ buildconfig
 import
 substs
     
+if
+'
+d3dcompiler
+'
+in
+path
+:
+        
+return
+False
+    
 return
 bool
 (
