@@ -26,6 +26,13 @@ jsm
 "
 )
 ;
+var
+{
+parseMatchPatterns
+}
+=
+ExtensionUtils
+;
 function
 registerEvent
 (
@@ -144,8 +151,7 @@ filter2
 .
 urls
 =
-new
-MatchPatternSet
+parseMatchPatterns
 (
 filter
 .
