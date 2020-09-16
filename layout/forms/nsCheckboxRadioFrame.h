@@ -179,14 +179,7 @@ mozilla
 :
 LogicalSize
 &
-aBorder
-const
-mozilla
-:
-:
-LogicalSize
-&
-aPadding
+aBorderPadding
 mozilla
 :
 :

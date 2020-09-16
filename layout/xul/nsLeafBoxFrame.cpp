@@ -432,11 +432,7 @@ aMargin
 const
 LogicalSize
 &
-aBorder
-const
-LogicalSize
-&
-aPadding
+aBorderPadding
 ComputeSizeFlags
 aFlags
 )
@@ -452,8 +448,7 @@ aWM
 aCBSize
 aAvailableISize
 aMargin
-aBorder
-aPadding
+aBorderPadding
 aFlags
 )
 ;
