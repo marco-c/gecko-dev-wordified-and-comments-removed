@@ -157,7 +157,7 @@ defineLazyGetter
 (
 this
 "
-log
+logger
 "
 Log
 .
@@ -1011,7 +1011,7 @@ Cr
 NS_ERROR_NOT_IMPLEMENTED
 )
 {
-log
+logger
 .
 debug
 (

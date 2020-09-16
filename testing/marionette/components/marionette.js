@@ -161,7 +161,7 @@ defineLazyGetter
 (
 this
 "
-log
+logger
 "
 Log
 .
@@ -1080,7 +1080,7 @@ this
 enabled
 )
 {
-log
+logger
 .
 trace
 (
@@ -1188,7 +1188,7 @@ running
 ;
 default
 :
-log
+logger
 .
 warn
 (
@@ -1223,7 +1223,7 @@ this
 enabled
 )
 {
-log
+logger
 .
 trace
 (
@@ -1306,7 +1306,7 @@ false
 )
 )
 {
-log
+logger
 .
 trace
 (
@@ -1574,7 +1574,7 @@ parsererror
 "
 )
 ;
-log
+logger
 .
 fatal
 (
@@ -1688,7 +1688,7 @@ this
 gfxWindow
 )
 {
-log
+logger
 .
 trace
 (
@@ -1842,7 +1842,7 @@ if
 dialog
 )
 {
-log
+logger
 .
 trace
 (
@@ -1916,7 +1916,7 @@ this
 finalUIStartup
 )
 {
-log
+logger
 .
 debug
 (
@@ -1951,7 +1951,7 @@ finalUIStartup
 return
 ;
 }
-log
+logger
 .
 trace
 (
@@ -2035,7 +2035,7 @@ done
 await
 startupRecorder
 ;
-log
+logger
 .
 trace
 (
@@ -2074,7 +2074,7 @@ k
 )
 )
 {
-log
+logger
 .
 debug
 (
@@ -2138,7 +2138,7 @@ catch
 e
 )
 {
-log
+logger
 .
 fatal
 (
@@ -2202,7 +2202,7 @@ NOTIFY_LISTENING
 true
 )
 ;
-log
+logger
 .
 debug
 (
@@ -2231,7 +2231,7 @@ this
 alteredPrefs
 )
 {
-log
+logger
 .
 debug
 (
@@ -2284,7 +2284,7 @@ this
 NOTIFY_LISTENING
 )
 ;
-log
+logger
 .
 debug
 (
@@ -2356,7 +2356,7 @@ length
 0
 )
 {
-log
+logger
 .
 warn
 (

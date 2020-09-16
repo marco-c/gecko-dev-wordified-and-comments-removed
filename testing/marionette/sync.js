@@ -162,7 +162,7 @@ defineLazyGetter
 (
 this
 "
-log
+logger
 "
 Log
 .
@@ -691,7 +691,7 @@ err
 }
 else
 {
-log
+logger
 .
 warn
 (
@@ -902,7 +902,7 @@ subject
 topic
 )
 {
-log
+logger
 .
 trace
 (
@@ -1352,7 +1352,7 @@ listener
 event
 )
 {
-log
+logger
 .
 trace
 (
@@ -1554,7 +1554,7 @@ onMessage
 msg
 )
 {
-log
+logger
 .
 trace
 (
@@ -1688,7 +1688,7 @@ topic
 data
 )
 {
-log
+logger
 .
 trace
 (
