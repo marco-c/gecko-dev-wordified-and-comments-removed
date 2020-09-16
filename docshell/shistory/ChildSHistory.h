@@ -115,6 +115,14 @@ aBrowsingContext
 )
 ;
 void
+SetBrowsingContext
+(
+BrowsingContext
+*
+aBrowsingContext
+)
+;
+void
 SetIsInProcess
 (
 bool
