@@ -1490,6 +1490,13 @@ target_arch
 "
 mips64
 "
+or
+target_arch
+=
+=
+"
+e2k
+"
 '
 {
 '
