@@ -1073,7 +1073,7 @@ mPrintSettings
 {
 nsIntMargin
 unwriteableTwips
-;
+=
 mPageData
 -
 >
@@ -1082,12 +1082,11 @@ mPrintSettings
 >
 GetUnwriteableMarginInTwips
 (
-unwriteableTwips
 )
 ;
 nsIntMargin
 edgeTwips
-;
+=
 mPageData
 -
 >
@@ -1096,7 +1095,6 @@ mPrintSettings
 >
 GetEdgeInTwips
 (
-edgeTwips
 )
 ;
 int32_t
