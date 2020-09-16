@@ -95,6 +95,17 @@ include
 "
 js
 /
+friend
+/
+JSMEnvironment
+.
+h
+"
+#
+include
+"
+js
+/
 Object
 .
 h
@@ -2549,7 +2560,7 @@ aTargetObject
 .
 set
 (
-js
+JS
 :
 :
 GetJSMEnvironmentOfScriptedCaller
@@ -3141,7 +3152,7 @@ thisObj
 ;
 thisObj
 =
-js
+JS
 :
 :
 NewJSMEnvironment
@@ -4214,7 +4225,7 @@ else
 {
 executeOk
 =
-js
+JS
 :
 :
 ExecuteInJSMEnvironment

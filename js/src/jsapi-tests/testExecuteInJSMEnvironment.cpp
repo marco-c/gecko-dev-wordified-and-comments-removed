@@ -30,6 +30,17 @@ include
 "
 js
 /
+friend
+/
+JSMEnvironment
+.
+h
+"
+#
+include
+"
+js
+/
 PropertySpec
 .
 h
@@ -303,7 +314,7 @@ RootedObject
 varEnv
 (
 cx
-js
+JS
 :
 :
 NewJSMEnvironment
@@ -402,7 +413,7 @@ vi
 ;
 CHECK
 (
-js
+JS
 :
 :
 ExecuteInJSMEnvironment
@@ -657,7 +668,7 @@ RootedObject
 env
 (
 cx
-js
+JS
 :
 :
 GetJSMEnvironmentOfScriptedCaller
@@ -854,7 +865,7 @@ RootedObject
 nsvo
 (
 cx
-js
+JS
 :
 :
 NewJSMEnvironment
@@ -870,7 +881,7 @@ nsvo
 ;
 CHECK
 (
-js
+JS
 :
 :
 ExecuteInJSMEnvironment

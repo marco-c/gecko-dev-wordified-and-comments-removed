@@ -96,6 +96,17 @@ include
 "
 js
 /
+friend
+/
+JSMEnvironment
+.
+h
+"
+#
+include
+"
+js
+/
 SourceText
 .
 h
@@ -883,7 +894,7 @@ false
 else
 if
 (
-js
+JS
 :
 :
 IsJSMEnvironment
@@ -895,6 +906,9 @@ targetObj
 if
 (
 !
+JS
+:
+:
 ExecuteInJSMEnvironment
 (
 cx
@@ -1048,7 +1062,7 @@ else
 {
 MOZ_ASSERT
 (
-js
+JS
 :
 :
 IsJSMEnvironment
@@ -1060,7 +1074,7 @@ loadScope
 if
 (
 !
-js
+JS
 :
 :
 ExecuteInJSMEnvironment

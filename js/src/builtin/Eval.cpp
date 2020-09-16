@@ -68,6 +68,17 @@ js
 /
 friend
 /
+JSMEnvironment
+.
+h
+"
+#
+include
+"
+js
+/
+friend
+/
 WindowProxy
 .
 h
@@ -2803,7 +2814,7 @@ true
 JS_FRIEND_API
 JSObject
 *
-js
+JS
 :
 :
 NewJSMEnvironment
@@ -2881,7 +2892,7 @@ varEnv
 }
 JS_FRIEND_API
 bool
-js
+JS
 :
 :
 ExecuteInJSMEnvironment
@@ -2913,7 +2924,7 @@ emptyChain
 }
 JS_FRIEND_API
 bool
-js
+JS
 :
 :
 ExecuteInJSMEnvironment
@@ -3059,7 +3070,7 @@ env
 JS_FRIEND_API
 JSObject
 *
-js
+JS
 :
 :
 GetJSMEnvironmentOfScriptedCaller
@@ -3143,7 +3154,7 @@ env
 }
 JS_FRIEND_API
 bool
-js
+JS
 :
 :
 IsJSMEnvironment
