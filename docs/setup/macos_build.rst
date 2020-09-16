@@ -383,6 +383,8 @@ Python
 6
 or
 later
+or
+Mercurial
 installed
 see
 2
