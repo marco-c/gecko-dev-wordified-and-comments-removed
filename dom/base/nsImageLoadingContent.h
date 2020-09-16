@@ -572,6 +572,15 @@ NaturalHeight
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+mozilla
+:
+:
+CSSIntSize
+GetWidthHeightForImage
+(
+)
+;
 already_AddRefed
 <
 mozilla
