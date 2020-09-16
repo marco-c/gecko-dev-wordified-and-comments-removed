@@ -6186,6 +6186,12 @@ headerPtr
 }
 protected
 :
+ScriptWarmUpData
+warmUpData_
+=
+{
+}
+;
 const
 GCPtrObject
 functionOrGlobal_
@@ -6236,12 +6242,6 @@ js
 RuntimeScriptData
 >
 sharedData_
-=
-{
-}
-;
-ScriptWarmUpData
-warmUpData_
 =
 {
 }
