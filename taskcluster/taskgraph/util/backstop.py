@@ -167,6 +167,18 @@ pushdate
     
 if
 project
+=
+=
+"
+try
+"
+:
+        
+return
+False
+    
+elif
+project
 !
 =
 "
@@ -175,7 +187,7 @@ autoland
 :
         
 return
-False
+True
     
 if
 pushid
