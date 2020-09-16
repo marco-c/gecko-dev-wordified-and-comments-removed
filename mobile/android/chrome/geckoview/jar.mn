@@ -131,11 +131,6 @@ GeckoViewMediaControlChild
 js
 content
 /
-GeckoViewProgressChild
-.
-js
-content
-/
 GeckoViewPromptChild
 .
 js
