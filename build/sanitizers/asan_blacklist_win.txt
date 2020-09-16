@@ -175,12 +175,6 @@ cc
 src
 :
 *
-resolver_64
-.
-cc
-src
-:
-*
 filesystem_interception
 .
 cc
