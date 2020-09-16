@@ -485,6 +485,16 @@ String
 \
 _
 (
+StringToString
+)
+\
+_
+(
+StringValueOf
+)
+\
+_
+(
 StringCharCodeAt
 )
 \
