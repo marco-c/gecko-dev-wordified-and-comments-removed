@@ -118,7 +118,7 @@ add_task
 (
 async
 function
-test_sharedMap_var_caches
+test_sharedMap_static_prefs
 (
 )
 {

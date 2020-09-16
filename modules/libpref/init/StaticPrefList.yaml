@@ -13680,7 +13680,7 @@ value
 changes
 please
 update
-test_sharedMap_var_caches
+test_sharedMap_static_prefs
 .
 js
 accordingly
@@ -19567,7 +19567,7 @@ value
 changes
 please
 update
-test_sharedMap_var_caches
+test_sharedMap_static_prefs
 .
 js
 accordingly
