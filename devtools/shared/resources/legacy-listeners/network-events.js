@@ -346,12 +346,6 @@ updates
 updateType
 ]
 ;
-resourceUpdates
-.
-updateType
-=
-updateType
-;
 switch
 (
 updateType
@@ -651,6 +645,7 @@ resource
 .
 resourceId
 resourceUpdates
+updateType
 }
 ]
 )

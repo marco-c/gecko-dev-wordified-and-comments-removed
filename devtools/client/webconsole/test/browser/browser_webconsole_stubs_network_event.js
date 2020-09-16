@@ -934,11 +934,6 @@ updates
 resource
 .
 updates
-updateType
-:
-resource
-.
-updateType
 totalTime
 :
 resource

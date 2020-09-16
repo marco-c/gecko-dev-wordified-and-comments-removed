@@ -203,11 +203,8 @@ dataProvider
 .
 onNetworkResourceUpdated
 (
-{
-.
-.
-.
 message
+{
 updateType
 }
 )
@@ -275,11 +272,8 @@ dataProvider
 .
 onNetworkResourceUpdated
 (
-{
-.
-.
-.
 message
+{
 updateType
 }
 )
