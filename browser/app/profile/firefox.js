@@ -10647,6 +10647,9 @@ DE
 CA
 GB
 IE
+CH
+AT
+BE
 "
 )
 ;
@@ -10700,6 +10703,9 @@ CA
 GB
 DE
 IE
+CH
+AT
+BE
 "
 )
 ;
