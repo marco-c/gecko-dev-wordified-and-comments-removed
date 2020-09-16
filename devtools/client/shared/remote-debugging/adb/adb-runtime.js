@@ -383,6 +383,17 @@ mozilla
 fenix
 "
 :
+case
+"
+org
+.
+mozilla
+.
+fenix
+.
+nightly
+"
+:
 return
 "
 Firefox
