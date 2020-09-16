@@ -34347,16 +34347,6 @@ this
 compilationInfo_
 )
 ;
-if
-(
-!
-storedMethodAtom
-)
-{
-return
-false
-;
-}
 const
 ParserName
 *
