@@ -1,3 +1,10 @@
+inherit
+-
+from
+-
+parent
+-
+environment
 packages
 .
 txt
