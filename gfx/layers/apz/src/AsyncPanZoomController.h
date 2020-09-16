@@ -2201,7 +2201,7 @@ PAN_MOMENTUM
 PINCHING
 ANIMATING_ZOOM
 OVERSCROLL_ANIMATION
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 WHEEL_SCROLL
 KEYBOARD_SCROLL
 AUTOSCROLL
@@ -2415,7 +2415,7 @@ OverscrollAnimation
 ;
 friend
 class
-SmoothScrollAnimation
+SmoothMsdScrollAnimation
 ;
 friend
 class
@@ -2494,7 +2494,7 @@ aVelocity
 )
 ;
 void
-SmoothScrollTo
+SmoothMsdScrollTo
 (
 const
 CSSPoint
