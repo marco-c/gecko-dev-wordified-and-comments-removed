@@ -97,6 +97,12 @@ aBugFix
 )
 ;
 static
+bool
+ProcessIsRosettaTranslated
+(
+)
+;
+static
 void
 GetSystemVersion
 (
