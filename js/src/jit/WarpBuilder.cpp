@@ -18271,6 +18271,12 @@ CacheKind
 :
 NewObject
 :
+case
+CacheKind
+:
+:
+OptimizeSpreadCall
+:
 MOZ_CRASH
 (
 "
@@ -18485,6 +18491,12 @@ CacheKind
 :
 :
 InstanceOf
+:
+case
+CacheKind
+:
+:
+OptimizeSpreadCall
 :
 resultType
 =
