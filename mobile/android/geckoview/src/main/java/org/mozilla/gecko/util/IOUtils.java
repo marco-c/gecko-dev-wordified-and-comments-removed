@@ -213,8 +213,7 @@ lastRead
 if
 (
 bPointer
-=
-=
+>
 buffer
 .
 length
