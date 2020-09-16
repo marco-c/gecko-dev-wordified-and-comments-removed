@@ -223,6 +223,10 @@ hs
 once
 (
 "
+css
+-
+transform
+-
 highlighter
 -
 shown
@@ -405,6 +409,10 @@ hs
 once
 (
 "
+css
+-
+transform
+-
 highlighter
 -
 shown
