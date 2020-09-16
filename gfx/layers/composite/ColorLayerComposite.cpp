@@ -100,6 +100,13 @@ mozalloc
 .
 h
 "
+#
+include
+"
+UnitTransforms
+.
+h
+"
 namespace
 mozilla
 {
