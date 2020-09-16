@@ -3464,6 +3464,15 @@ TryToRecycle
 )
 ;
 void
+StopRecycling
+(
+bool
+aForeground
+=
+true
+)
+;
+void
 RemoveFromList
 (
 )
