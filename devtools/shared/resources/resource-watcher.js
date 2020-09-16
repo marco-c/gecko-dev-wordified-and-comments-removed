@@ -1036,7 +1036,6 @@ emit
 (
 resourceType
 {
-resourceType
 targetFront
 resource
 }
@@ -1166,7 +1165,6 @@ emit
 (
 resourceType
 {
-resourceType
 targetFront
 resource
 :
@@ -1333,7 +1331,6 @@ emit
 (
 resourceType
 {
-resourceType
 targetFront
 resource
 }
