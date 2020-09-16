@@ -15659,9 +15659,11 @@ State
 (
 )
 .
-HasState
+HasAtLeastOneOfStates
 (
 NS_EVENT_STATE_BROKEN
+|
+NS_EVENT_STATE_SUPPRESSED
 )
 )
 {

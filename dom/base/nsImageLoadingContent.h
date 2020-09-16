@@ -1156,6 +1156,11 @@ mBroken
 :
 1
 ;
+bool
+mSuppressed
+:
+1
+;
 protected
 :
 bool
