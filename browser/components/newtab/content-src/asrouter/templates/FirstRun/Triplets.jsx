@@ -436,6 +436,7 @@ const
 cards
 headerId
 showCardPanel
+showContent
 sendUserActionTelemetry
 }
 =
@@ -477,7 +478,7 @@ hidden
 =
 {
 !
-showCardPanel
+showContent
 }
 >
 {
@@ -505,7 +506,7 @@ className
 {
 trailheadCardGrid
 {
-showCardPanel
+showContent
 ?
 "
 show
