@@ -2531,11 +2531,14 @@ IsAuto
 if
 (
 aFlags
-&
-ComputeSizeFlags
+.
+contains
+(
+ComputeSizeFlag
 :
 :
 IClampMarginBoxMinSize
+)
 )
 {
 autoSize
