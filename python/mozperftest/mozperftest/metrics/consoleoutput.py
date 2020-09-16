@@ -162,7 +162,6 @@ in
 the
 console
 .
-    
 "
 "
 "

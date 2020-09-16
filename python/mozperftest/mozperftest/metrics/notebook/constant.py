@@ -29,7 +29,6 @@ store
 all
 constants
 .
-    
 "
 "
 "

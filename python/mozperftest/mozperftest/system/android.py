@@ -389,7 +389,6 @@ android
 device
 via
 ADB
-    
 "
 "
 "
