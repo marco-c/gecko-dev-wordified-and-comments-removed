@@ -17755,6 +17755,14 @@ wasm
 :
 BytecodeOffset
 callOffset
+mozilla
+:
+:
+Maybe
+<
+int32_t
+>
+tlsOffset
 )
 ;
 void
