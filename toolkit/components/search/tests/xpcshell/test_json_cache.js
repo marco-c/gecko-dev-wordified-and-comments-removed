@@ -89,6 +89,8 @@ setup
 )
 {
 await
+SearchTestUtils
+.
 useTestEngines
 (
 "

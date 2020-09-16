@@ -573,6 +573,8 @@ setup
 )
 {
 await
+SearchTestUtils
+.
 useTestEngines
 (
 "
