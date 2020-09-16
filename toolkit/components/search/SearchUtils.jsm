@@ -964,7 +964,7 @@ SETTINGS_VERSION
 )
 {
 return
-5
+6
 ;
 }
 sanitizeName

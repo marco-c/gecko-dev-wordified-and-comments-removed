@@ -348,13 +348,6 @@ update
 "
 browser
 .
-search
-.
-useDBForOrder
-"
-"
-browser
-.
 sessionstore
 .
 "
