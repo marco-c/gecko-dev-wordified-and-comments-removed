@@ -2965,6 +2965,13 @@ READYSTATE_COMPLETE
 false
 )
 ;
+doc
+-
+>
+StopDocumentLoad
+(
+)
+;
 nsCOMPtr
 <
 nsPIDOMWindowOuter
