@@ -636,7 +636,7 @@ getUserMedia
 constraints
 )
 ;
-assert_equals
+assert_true
 (
 stream
 .
@@ -652,9 +652,16 @@ getSettings
 )
 .
 groupId
+=
+=
+=
 device
 .
 groupId
+"
+device
+groupId
+"
 )
 ;
 assert_greater_than
