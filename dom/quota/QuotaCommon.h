@@ -659,11 +659,14 @@ QM_TRY_META
 .
 )
 \
+{
+\
 MOZ_ARG_7
 (
 #
 #
 __VA_ARGS__
+\
 QM_TRY_CUSTOM_RET_VAL_WITH_CLEANUP
 (
 __VA_ARGS__
@@ -692,6 +695,8 @@ QM_MISSING_ARGS
 __VA_ARGS__
 )
 )
+\
+}
 #
 define
 QM_TRY_GLUE
