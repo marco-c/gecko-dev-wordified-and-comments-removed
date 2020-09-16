@@ -5837,6 +5837,10 @@ join
 ;
 }
 }
+ManagedBookmarks
+:
+{
+}
 NetworkPrediction
 :
 {
