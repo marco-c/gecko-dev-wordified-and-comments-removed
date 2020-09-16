@@ -130,7 +130,7 @@ MarginDouble
 >
 &
 aUnwriteableMargin
-uint64_t
+short
 aPaperId
 =
 0
@@ -173,7 +173,7 @@ Nothing
 )
 }
 ;
-uint64_t
+short
 mPaperId
 {
 0

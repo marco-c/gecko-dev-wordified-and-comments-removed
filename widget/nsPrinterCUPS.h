@@ -119,7 +119,7 @@ final
 MarginDouble
 GetMarginsForPaper
 (
-uint64_t
+short
 )
 const
 final

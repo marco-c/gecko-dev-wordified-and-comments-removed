@@ -48,5 +48,10 @@ attribute
 Promise
 unwriteableMargin
 ;
+readonly
+attribute
+short
+paperId
+;
 }
 ;

@@ -179,12 +179,6 @@ driverName
 nsString
 deviceName
 ;
-double
-printableWidthInInches
-;
-double
-printableHeightInInches
-;
 uint8_t
 [
 ]

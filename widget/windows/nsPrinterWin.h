@@ -80,8 +80,8 @@ final
 MarginDouble
 GetMarginsForPaper
 (
-uint64_t
-aId
+short
+aPaperId
 )
 const
 final

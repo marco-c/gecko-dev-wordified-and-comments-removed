@@ -1213,7 +1213,7 @@ nsPrinterWin
 :
 GetMarginsForPaper
 (
-uint64_t
+short
 aPaperId
 )
 const
