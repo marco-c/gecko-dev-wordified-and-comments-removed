@@ -17,6 +17,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 jit
 /
 JitOptions

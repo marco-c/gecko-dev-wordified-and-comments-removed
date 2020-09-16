@@ -43,6 +43,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 gc
 /
 ArenaList
