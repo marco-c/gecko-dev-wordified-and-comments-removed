@@ -973,6 +973,15 @@ uint64_t
 aOuterWindowId
 )
 ;
+void
+HistoryCommitIndexAndLength
+(
+const
+nsID
+&
+aChangeID
+)
+;
 uint64_t
 mProcessId
 ;
