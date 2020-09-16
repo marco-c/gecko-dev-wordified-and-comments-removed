@@ -4684,11 +4684,9 @@ p
 schemaNamespace
 =
 =
-"
-pioneer
--
-debug
-"
+CACHED_TEST_ADDON
+.
+addon_id
 &
 &
 p

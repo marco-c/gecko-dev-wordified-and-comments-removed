@@ -4199,11 +4199,7 @@ schemaVersion
 1
 schemaNamespace
 :
-"
-pioneer
--
-debug
-"
+studyAddonId
 }
 ;
 const
@@ -4319,11 +4315,7 @@ options
 .
 schemaNamespace
 =
-"
-pioneer
--
-debug
-"
+studyAddonId
 ;
 }
 await
