@@ -272,7 +272,11 @@ txLoadedDocumentsHash
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 init
 (
