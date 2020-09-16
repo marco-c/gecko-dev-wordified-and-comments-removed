@@ -167,14 +167,12 @@ if
 (
 engine
 .
-_shortName
+_name
 =
 =
 "
-test
--
+Test
 search
--
 engine
 "
 )

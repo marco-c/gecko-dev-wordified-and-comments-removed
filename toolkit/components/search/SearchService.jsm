@@ -3932,11 +3932,6 @@ new
 SearchEngine
 (
 {
-shortName
-:
-json
-.
-_shortName
 isAppProvided
 :
 !
@@ -8794,7 +8789,7 @@ getDefaultEngineInfo
 {
 let
 [
-shortName
+telemetryId
 defaultSearchEngineData
 ]
 =
@@ -8814,7 +8809,7 @@ result
 {
 defaultSearchEngine
 :
-shortName
+telemetryId
 defaultSearchEngineData
 }
 ;
@@ -8827,7 +8822,7 @@ _separatePrivateDefault
 {
 let
 [
-privateShortName
+privateTelemetryId
 defaultPrivateSearchEngineData
 ]
 =
@@ -8845,7 +8840,7 @@ result
 .
 defaultPrivateSearchEngine
 =
-privateShortName
+privateTelemetryId
 ;
 result
 .
