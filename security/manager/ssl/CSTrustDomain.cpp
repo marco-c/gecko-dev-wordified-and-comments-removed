@@ -49,17 +49,12 @@ Preferences
 h
 "
 #
-ifdef
-MOZ_NEW_CERT_STORAGE
-#
 include
 "
 nsDirectoryServiceUtils
 .
 h
 "
-#
-endif
 #
 include
 "
