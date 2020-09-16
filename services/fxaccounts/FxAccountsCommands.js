@@ -479,7 +479,7 @@ notified
 {
 log
 .
-warn
+error
 (
 "
 Sending
