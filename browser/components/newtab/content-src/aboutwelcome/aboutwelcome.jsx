@@ -652,9 +652,7 @@ let
 settings
 =
 branch
-&
-&
-branch
+?
 .
 feature
 ?
@@ -670,14 +668,10 @@ value
 if
 (
 !
-(
 branch
-&
-&
-branch
+?
 .
 feature
-)
 )
 {
 /
