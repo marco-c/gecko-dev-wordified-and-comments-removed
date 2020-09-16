@@ -464,11 +464,7 @@ PresentDrawTarget
 (
 aInvalidRegion
 .
-GetBounds
-(
-)
-.
-ToUnknownRect
+ToUnknownRegion
 (
 )
 )
