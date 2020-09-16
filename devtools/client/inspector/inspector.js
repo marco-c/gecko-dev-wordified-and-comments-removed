@@ -1683,6 +1683,7 @@ _getDefaultNodeForSelection
 async
 function
 (
+rootNodeFront
 )
 {
 if
@@ -1715,18 +1716,6 @@ this
 _pendingSelectionUnique
 =
 pendingSelectionUnique
-;
-const
-rootNode
-=
-await
-this
-.
-walker
-.
-getRootNode
-(
-)
 ;
 if
 (
@@ -1787,7 +1776,7 @@ walker
 .
 querySelector
 (
-rootNode
+rootNodeFront
 "
 body
 "
@@ -5291,6 +5280,11 @@ ROOT_NODE
 )
 {
 const
+rootNodeFront
+=
+resource
+;
+const
 isTopLevelTarget
 =
 !
@@ -5303,7 +5297,7 @@ isTopLevel
 ;
 if
 (
-resource
+rootNodeFront
 .
 isTopLevelDocument
 &
@@ -5315,6 +5309,7 @@ this
 .
 onRootNodeAvailable
 (
+rootNodeFront
 )
 ;
 }
@@ -5331,7 +5326,7 @@ root
 -
 available
 "
-resource
+rootNodeFront
 )
 ;
 }
@@ -5343,6 +5338,7 @@ onRootNodeAvailable
 async
 function
 (
+rootNodeFront
 )
 {
 this
@@ -5390,6 +5386,7 @@ this
 .
 _getDefaultNodeForSelection
 (
+rootNodeFront
 )
 ;
 if
