@@ -74,7 +74,6 @@ OkType
 <
 void
 >
-final
 {
 }
 ;
