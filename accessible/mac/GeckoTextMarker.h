@@ -131,11 +131,6 @@ RightWordRange
 (
 )
 ;
-AccessibleOrProxy
-Leaf
-(
-)
-;
 bool
 IsValid
 (
@@ -256,14 +251,6 @@ AccessibleOrProxy
 aDoc
 AXTextMarkerRangeRef
 aTextMarkerRange
-)
-;
-GeckoTextMarkerRange
-(
-const
-AccessibleOrProxy
-&
-aAccessible
 )
 ;
 id
