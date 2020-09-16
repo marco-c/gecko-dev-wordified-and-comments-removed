@@ -15,6 +15,15 @@ stdio
 h
 >
 #
+include
+"
+jit
+/
+MacroAssembler
+.
+h
+"
+#
 endif
 namespace
 {

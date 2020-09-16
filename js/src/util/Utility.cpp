@@ -242,7 +242,11 @@ emplace
 (
 )
 ;
-WaitForAllHelperThreads
+HelperThreadState
+(
+)
+.
+waitForAllThreadsLocked
 (
 lock
 .
@@ -326,7 +330,11 @@ emplace
 (
 )
 ;
-WaitForAllHelperThreads
+HelperThreadState
+(
+)
+.
+waitForAllThreadsLocked
 (
 lock
 .

@@ -232,15 +232,6 @@ include
 "
 js
 /
-SourceText
-.
-h
-"
-#
-include
-"
-js
-/
 StableStringChars
 .
 h

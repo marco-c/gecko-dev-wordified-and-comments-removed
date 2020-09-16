@@ -139,6 +139,15 @@ include
 "
 vm
 /
+EnvironmentObject
+.
+h
+"
+#
+include
+"
+vm
+/
 JSAtom
 .
 h

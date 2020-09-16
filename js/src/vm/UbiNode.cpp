@@ -2843,12 +2843,6 @@ return
 false
 ;
 }
-js
-:
-:
-gc
-:
-:
 TraceIncomingCCWs
 (
 &

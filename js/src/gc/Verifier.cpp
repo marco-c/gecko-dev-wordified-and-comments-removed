@@ -2440,7 +2440,11 @@ isWeakMarking
 )
 )
 ;
-WaitForAllHelperThreads
+HelperThreadState
+(
+)
+.
+waitForAllThreads
 (
 )
 ;

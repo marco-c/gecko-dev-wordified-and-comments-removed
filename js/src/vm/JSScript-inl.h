@@ -50,6 +50,15 @@ include
 "
 vm
 /
+EnvironmentObject
+.
+h
+"
+#
+include
+"
+vm
+/
 RegExpObject
 .
 h
