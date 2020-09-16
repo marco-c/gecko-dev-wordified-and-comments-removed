@@ -1359,14 +1359,6 @@ resp
 {
 this
 .
-driver
-.
-responseCompleted
-(
-)
-;
-this
-.
 sendMessage
 (
 resp
