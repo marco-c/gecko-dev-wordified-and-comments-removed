@@ -21901,11 +21901,6 @@ mRowGroupEnd
 )
 )
 {
-if
-(
-aFindFirstDamagedRow
-)
-{
 int32_t
 numRows
 =
@@ -21950,7 +21945,6 @@ ABORT1
 false
 )
 ;
-}
 }
 }
 else

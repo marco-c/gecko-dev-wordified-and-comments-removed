@@ -4498,11 +4498,6 @@ ownLayerClipState
 aBuilder
 )
 ;
-if
-(
-forceLayer
-)
-{
 aLists
 .
 Content
@@ -4541,7 +4536,6 @@ true
 true
 )
 ;
-}
 }
 }
 void
