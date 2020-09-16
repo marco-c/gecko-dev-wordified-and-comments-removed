@@ -9911,6 +9911,17 @@ this
 rootDoc
 &
 &
+this
+.
+rootDoc
+!
+=
+=
+window
+.
+document
+&
+&
 !
 Cu
 .
