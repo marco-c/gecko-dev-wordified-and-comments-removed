@@ -6989,6 +6989,15 @@ nsACString
 aContentProcessType
 )
 ;
+bool
+IsPriviligedMozillaRemoteType
+(
+const
+nsACString
+&
+aContentProcessType
+)
+;
 inline
 nsISupports
 *
