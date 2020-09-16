@@ -395,7 +395,10 @@ aInputBlockId
 )
 ;
 static
-void
+nsTArray
+<
+TouchBehaviorFlags
+>
 SendSetAllowedTouchBehaviorNotification
 (
 nsIWidget

@@ -4379,6 +4379,12 @@ AsTouchEvent
 )
 )
 {
+nsTArray
+<
+TouchBehaviorFlags
+>
+allowedTouchBehaviors
+;
 if
 (
 touchEvent
@@ -4400,6 +4406,8 @@ layout_css_touch_action_enabled
 )
 )
 {
+allowedTouchBehaviors
+=
 APZCCallbackHelper
 :
 :
@@ -4461,6 +4469,13 @@ aApzResult
 .
 mStatus
 status
+std
+:
+:
+move
+(
+allowedTouchBehaviors
+)
 )
 ;
 }

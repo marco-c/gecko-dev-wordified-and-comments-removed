@@ -8453,6 +8453,12 @@ aInputBlockId
 aApzResponse
 )
 ;
+nsTArray
+<
+TouchBehaviorFlags
+>
+allowedTouchBehaviors
+;
 if
 (
 localEvent
@@ -8488,6 +8494,8 @@ layout_css_touch_action_enabled
 )
 )
 {
+allowedTouchBehaviors
+=
 APZCCallbackHelper
 :
 :
@@ -8582,6 +8590,13 @@ aGuid
 aInputBlockId
 aApzResponse
 status
+std
+:
+:
+move
+(
+allowedTouchBehaviors
+)
 )
 ;
 return
