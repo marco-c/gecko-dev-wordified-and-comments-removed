@@ -122,6 +122,11 @@ lock
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 bool
 TryLock
 (
@@ -170,6 +175,11 @@ Lock
 (
 )
 ;
+[
+[
+nodiscard
+]
+]
 bool
 TryLock
 (

@@ -75,6 +75,11 @@ Lock
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 bool
 TryLock
 (
