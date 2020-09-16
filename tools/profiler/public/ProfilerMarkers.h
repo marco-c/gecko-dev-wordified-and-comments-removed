@@ -561,7 +561,7 @@ AutoProfilerTextMarker
 {
 mOptions
 .
-Timing
+TimingRef
 (
 )
 .
