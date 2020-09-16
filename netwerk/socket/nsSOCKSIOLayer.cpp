@@ -2674,10 +2674,10 @@ buf
 kIPv6CStrBufSize
 ]
 ;
-NetAddrToString
-(
-&
 mInternalProxyAddr
+.
+ToStringBuffer
+(
 buf
 sizeof
 (

@@ -10763,10 +10763,10 @@ SetLength
 kIPv6CStrBufSize
 )
 ;
-NetAddrToString
-(
-&
 mSelfAddr
+.
+ToStringBuffer
+(
 addr
 .
 BeginWriting
@@ -11190,10 +11190,10 @@ SetLength
 kIPv6CStrBufSize
 )
 ;
-NetAddrToString
-(
-&
 mPeerAddr
+.
+ToStringBuffer
+(
 addr
 .
 BeginWriting
