@@ -343,7 +343,7 @@ ConvertToBase
 thingp
 -
 >
-unsafeUnbarrieredForTracing
+unbarrieredAddress
 (
 )
 )
@@ -389,7 +389,7 @@ ConvertToBase
 thingp
 -
 >
-unsafeGet
+unbarrieredAddress
 (
 )
 )
@@ -471,7 +471,7 @@ headerPtr
 thingp
 -
 >
-unsafeSetHeaderPtr
+unbarrieredSetHeaderPtr
 (
 thing
 )
@@ -662,7 +662,7 @@ headerPtr
 thingp
 -
 >
-unsafeSetHeaderPtr
+unbarrieredSetHeaderPtr
 (
 thing
 )
@@ -746,7 +746,7 @@ trc
 thingp
 -
 >
-unsafeGet
+unbarrieredAddress
 (
 )
 name
@@ -845,7 +845,7 @@ trc
 thingp
 -
 >
-unsafeGet
+unbarrieredAddress
 (
 )
 name
@@ -968,7 +968,7 @@ ConvertToBase
 thingp
 -
 >
-unsafeUnbarrieredForTracing
+unbarrieredAddress
 (
 )
 )
@@ -1018,7 +1018,7 @@ vec
 0
 ]
 .
-unsafeUnbarrieredForTracing
+unbarrieredAddress
 (
 )
 )
@@ -1136,7 +1136,7 @@ ConvertToBase
 dst
 -
 >
-unsafeUnbarrieredForTracing
+unbarrieredAddress
 (
 )
 )
@@ -1208,7 +1208,7 @@ ConvertToBase
 thingp
 -
 >
-unsafeUnbarrieredForTracing
+unbarrieredAddress
 (
 )
 )

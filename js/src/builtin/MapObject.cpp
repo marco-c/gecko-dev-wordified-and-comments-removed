@@ -2570,7 +2570,7 @@ newKey
 }
 newKey
 .
-unsafeClear
+unbarrieredClear
 (
 )
 ;

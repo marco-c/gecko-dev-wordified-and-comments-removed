@@ -193,7 +193,7 @@ ConvertToBase
 thingp
 -
 >
-unsafeUnbarrieredForTracing
+unbarrieredAddress
 (
 )
 )
@@ -250,7 +250,7 @@ ConvertToBase
 thingp
 -
 >
-unsafeUnbarrieredForTracing
+unbarrieredAddress
 (
 )
 )
@@ -282,7 +282,7 @@ ConvertToBase
 thingp
 -
 >
-unsafeUnbarrieredForTracing
+unbarrieredAddress
 (
 )
 )

@@ -3205,7 +3205,7 @@ realm_
 >
 global_
 .
-unsafeGet
+unbarrieredAddress
 (
 )
 )

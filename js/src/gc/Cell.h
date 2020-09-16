@@ -3769,7 +3769,7 @@ headerPtr
 )
 )
 ;
-unsafeSetHeaderPtr
+unbarrieredSetHeaderPtr
 (
 newValue
 )
@@ -3816,7 +3816,7 @@ header_
 ;
 }
 void
-unsafeSetHeaderPtr
+unbarrieredSetHeaderPtr
 (
 PtrT
 *

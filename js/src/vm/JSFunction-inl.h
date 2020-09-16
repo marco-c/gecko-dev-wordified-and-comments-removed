@@ -661,7 +661,7 @@ fun
 >
 atom_
 .
-unsafeSet
+init
 (
 nullptr
 )
@@ -716,7 +716,7 @@ extendedSlots
 {
 extendedSlot
 .
-unsafeSet
+init
 (
 JS
 :

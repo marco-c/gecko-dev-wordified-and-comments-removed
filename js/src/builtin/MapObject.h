@@ -258,13 +258,13 @@ HashableValue
 ;
 }
 void
-unsafeClear
+unbarrieredClear
 (
 )
 {
 value
 .
-unsafeSet
+unbarrieredSet
 (
 UndefinedValue
 (
