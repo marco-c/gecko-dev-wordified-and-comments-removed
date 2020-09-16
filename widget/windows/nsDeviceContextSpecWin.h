@@ -260,6 +260,8 @@ mDeviceName
 ;
 LPDEVMODEW
 mDevMode
+=
+nullptr
 ;
 nsCOMPtr
 <
@@ -281,14 +283,11 @@ nsIFile
 >
 mTempFile
 ;
-#
-ifdef
-MOZ_ENABLE_SKIA_PDF
 bool
 mPrintViaSkPDF
+=
+false
 ;
-#
-endif
 }
 ;
 class
