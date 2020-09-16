@@ -2797,7 +2797,9 @@ append
 chaos_mode_flags
 "
 :
-3
+"
+0xfb
+"
 }
 )
     
