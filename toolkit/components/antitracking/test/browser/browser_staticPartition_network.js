@@ -48,7 +48,7 @@ parts
 .
 length
 -
-1
+2
 ]
 ;
 }
@@ -675,8 +675,8 @@ p
 checkAltSvcCache
 (
 [
-partitionKey2
 partitionKey1
+partitionKey2
 ]
 )
 ;
