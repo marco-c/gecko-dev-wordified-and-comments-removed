@@ -84,6 +84,17 @@ test_xpcshell
 js
 "
 )
+EXAMPLE_XPCSHELL_TEST2
+=
+Path
+(
+EXAMPLE_TESTS_DIR
+"
+test_xpcshell_flavor2
+.
+js
+"
+)
 BT_DATA
 =
 Path
