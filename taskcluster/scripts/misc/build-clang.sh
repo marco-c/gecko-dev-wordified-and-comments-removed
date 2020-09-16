@@ -136,6 +136,7 @@ bin
 win64
 *
 )
+export
 UPLOAD_DIR
 =
 ORIGPWD
