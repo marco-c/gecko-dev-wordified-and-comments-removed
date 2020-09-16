@@ -229,9 +229,9 @@ SearchTestUtils
 promiseSearchNotification
 (
 "
-reinit
+engines
 -
-complete
+reloaded
 "
 )
 ;
