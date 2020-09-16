@@ -586,7 +586,7 @@ NewTabUtils
 const
 FXA_ATTACHED_CLIENTS_UPDATE_INTERVAL
 =
-2
+4
 *
 60
 *

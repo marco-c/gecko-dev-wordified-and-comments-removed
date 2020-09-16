@@ -1191,9 +1191,9 @@ CacheListAttachedOAuthClients
 >
 {
 const
-twoHours
+fourHours
 =
-2
+4
 *
 60
 *
@@ -1338,7 +1338,7 @@ make
 additional
 request
 every
-2
+4
 hours
 "
 async
@@ -1351,7 +1351,7 @@ clock
 .
 tick
 (
-twoHours
+fourHours
 )
 ;
 await
@@ -1374,7 +1374,7 @@ clock
 .
 tick
 (
-twoHours
+fourHours
 )
 ;
 await
@@ -1405,7 +1405,7 @@ make
 additional
 request
 before
-2
+4
 hours
 "
 async
@@ -1418,7 +1418,7 @@ clock
 .
 tick
 (
-twoHours
+fourHours
 )
 ;
 await
