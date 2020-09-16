@@ -229,11 +229,6 @@ central
 '
 mozilla
 -
-esr68
-'
-'
-mozilla
--
 esr78
 '
 ]
@@ -401,11 +396,6 @@ projects
 mozilla
 -
 central
-'
-'
-mozilla
--
-esr68
 '
 '
 mozilla
@@ -579,11 +569,6 @@ central
 '
 mozilla
 -
-esr68
-'
-'
-mozilla
--
 esr78
 '
 ]
@@ -751,11 +736,6 @@ projects
 mozilla
 -
 central
-'
-'
-mozilla
--
-esr68
 '
 '
 mozilla
