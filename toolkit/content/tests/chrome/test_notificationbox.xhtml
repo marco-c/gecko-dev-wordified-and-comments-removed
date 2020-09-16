@@ -628,8 +628,6 @@ tests
 [
 {
 test
-:
-function
 (
 nb
 ntf
@@ -641,7 +639,6 @@ append
 a
 new
 notification
-var
 ntf
 =
 nb
@@ -692,8 +689,6 @@ ntf
 ;
 }
 result
-:
-function
 (
 nb
 ntf
@@ -793,8 +788,6 @@ ntf
 }
 {
 test
-:
-function
 (
 nb
 ntf
@@ -821,8 +814,6 @@ ntf
 ;
 }
 result
-:
-function
 (
 nb
 ntf
@@ -842,8 +833,6 @@ null
 }
 {
 test
-:
-function
 (
 nb
 ntf
@@ -861,7 +850,6 @@ with
 an
 event
 callback
-var
 ntf
 =
 nb
@@ -915,8 +903,6 @@ ntf
 ;
 }
 result
-:
-function
 (
 nb
 ntf
@@ -941,8 +927,6 @@ ntf
 }
 {
 test
-:
-function
 (
 nb
 ntf
@@ -960,8 +944,6 @@ ntf
 ;
 }
 result
-:
-function
 (
 nb
 ntf
@@ -1001,14 +983,11 @@ ntf
 }
 {
 test
-:
-function
 (
 nb
 ntf
 )
 {
-var
 ntf
 =
 nb
@@ -1062,8 +1041,6 @@ ntf
 ;
 }
 result
-:
-function
 (
 nb
 ntf
@@ -1088,8 +1065,6 @@ ntf
 }
 {
 test
-:
-function
 (
 rb
 ntf
@@ -1137,8 +1112,6 @@ ntf
 ;
 }
 result
-:
-function
 (
 nb
 ntf
@@ -1182,8 +1155,6 @@ ntf
 }
 {
 test
-:
-function
 (
 nb
 ntf
@@ -1225,8 +1196,6 @@ ntf
 ;
 }
 result
-:
-function
 (
 nb
 ntf
@@ -1285,8 +1254,6 @@ repeat
 :
 true
 test
-:
-function
 (
 nb
 arr
@@ -1402,10 +1369,11 @@ ntf
 ]
 ;
 }
+return
+ntf
+;
 }
 result
-:
-function
 (
 nb
 arr
@@ -1574,12 +1542,13 @@ repeat
 false
 ;
 }
+return
+ntf
+;
 }
 }
 {
 test
-:
-function
 (
 nb
 ntf
@@ -1590,7 +1559,6 @@ ntf
 append
 another
 notification
-var
 ntf
 =
 nb
@@ -1642,8 +1610,6 @@ ntf
 ;
 }
 result
-:
-function
 (
 nb
 ntf
@@ -1705,8 +1671,6 @@ ntf
 }
 {
 test
-:
-function
 (
 nb
 ntf
@@ -1729,8 +1693,6 @@ ntf
 ;
 }
 result
-:
-function
 (
 nb
 ntf
@@ -1750,14 +1712,11 @@ null
 }
 {
 test
-:
-function
 (
 nb
 ntf
 )
 {
-var
 ntf
 =
 nb
@@ -1786,8 +1745,6 @@ ntf
 ;
 }
 result
-:
-function
 (
 nb
 ntf
@@ -1851,8 +1808,6 @@ removeAllNotifications
 }
 {
 test
-:
-function
 (
 nb
 unused
@@ -2051,8 +2006,6 @@ ntf
 ;
 }
 result
-:
-function
 (
 nb
 ntf
@@ -2118,8 +2071,6 @@ repeat
 :
 true
 test
-:
-function
 (
 nb
 testidx
@@ -2251,10 +2202,11 @@ return
 ]
 ;
 }
+return
+testidx
+;
 }
 result
-:
-function
 (
 nb
 arr
@@ -2354,8 +2306,6 @@ arr
 }
 {
 test
-:
-function
 (
 nb
 ntf
@@ -2489,8 +2439,6 @@ appendPriorityTests
 [
 {
 test
-:
-function
 (
 nb
 priority
@@ -2550,8 +2498,6 @@ priority
 ;
 }
 result
-:
-function
 (
 nb
 obj
@@ -2593,8 +2539,6 @@ obj
 }
 {
 test
-:
-function
 (
 nb
 priority
@@ -2611,8 +2555,6 @@ priority
 ;
 }
 result
-:
-function
 (
 nb
 priority
@@ -2923,12 +2865,14 @@ nb
 .
 _animating
 )
+{
 setTimeout
 (
 checkPopupTest
 ntf
 )
 ;
+}
 else
 {
 var

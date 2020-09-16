@@ -1174,23 +1174,16 @@ popupShownListener
 (
 )
 {
-list
-.
-removeEventListener
-(
-"
-popupshown
-"
-popupShownListener
-false
-)
-;
 pressLetter
 (
 )
 ;
 }
-false
+{
+once
+:
+true
+}
 )
 ;
 list
@@ -1655,9 +1648,6 @@ testname
 +
 "
 selectedItem
-"
-+
-"
 -
 -
 -
@@ -1758,7 +1748,6 @@ addEventListener
 popuphidden
 "
 checkEnterWithModifiers
-false
 )
 ;
 list
@@ -1769,7 +1758,6 @@ addEventListener
 command
 "
 checkModifiers
-false
 )
 ;
 list
@@ -1827,7 +1815,6 @@ removeEventListener
 popuphidden
 "
 checkEnterWithModifiers
-false
 )
 ;
 list
@@ -1838,7 +1825,6 @@ addEventListener
 popuphidden
 "
 verifyPopupOnClose
-false
 )
 ;
 list
@@ -1911,7 +1897,6 @@ removeEventListener
 popuphidden
 "
 verifyPopupOnClose
-false
 )
 ;
 list
@@ -1979,7 +1964,6 @@ commandEventsCount
 +
 ;
 }
-false
 )
 ;
 is

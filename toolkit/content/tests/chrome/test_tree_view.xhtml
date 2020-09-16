@@ -196,6 +196,23 @@ script
 CDATA
 [
 /
+*
+import
+-
+globals
+-
+from
+.
+.
+/
+widgets
+/
+tree_shared
+.
+js
+*
+/
+/
 /
 This
 is
@@ -263,8 +280,6 @@ rowCount
 :
 8
 getCellText
-:
-function
 (
 row
 column
@@ -287,8 +302,6 @@ index
 ;
 }
 getCellValue
-:
-function
 (
 row
 column
@@ -301,8 +314,6 @@ value
 ;
 }
 setCellText
-:
-function
 (
 row
 column
@@ -327,8 +338,6 @@ val
 ;
 }
 setCellValue
-:
-function
 (
 row
 column
@@ -343,8 +352,6 @@ val
 ;
 }
 setTree
-:
-function
 (
 tree
 )
@@ -357,8 +364,6 @@ tree
 ;
 }
 isContainer
-:
-function
 (
 row
 )
@@ -368,8 +373,6 @@ false
 ;
 }
 isContainerOpen
-:
-function
 (
 row
 )
@@ -379,8 +382,6 @@ false
 ;
 }
 isContainerEmpty
-:
-function
 (
 row
 )
@@ -390,8 +391,6 @@ false
 ;
 }
 isSeparator
-:
-function
 (
 row
 )
@@ -401,8 +400,6 @@ false
 ;
 }
 isSorted
-:
-function
 (
 row
 )
@@ -412,8 +409,6 @@ false
 ;
 }
 isEditable
-:
-function
 (
 row
 column
@@ -435,8 +430,6 @@ index
 ;
 }
 getParentIndex
-:
-function
 (
 row
 column
@@ -448,8 +441,6 @@ return
 ;
 }
 getLevel
-:
-function
 (
 row
 )
@@ -459,8 +450,6 @@ return
 ;
 }
 hasNextSibling
-:
-function
 (
 row
 column
@@ -478,8 +467,6 @@ rowCount
 ;
 }
 getImageSrc
-:
-function
 (
 row
 column
@@ -491,16 +478,12 @@ return
 ;
 }
 cycleHeader
-:
-function
 (
 column
 )
 {
 }
 getRowProperties
-:
-function
 (
 row
 )
@@ -511,8 +494,6 @@ return
 ;
 }
 getCellProperties
-:
-function
 (
 row
 column
@@ -524,8 +505,6 @@ return
 ;
 }
 getColumnProperties
-:
-function
 (
 column
 )

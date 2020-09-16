@@ -288,7 +288,6 @@ addEventListener
 mousedown
 "
 mouseFn
-false
 )
 ;
 synthesizeMouse
@@ -308,7 +307,6 @@ removeEventListener
 mousedown
 "
 mouseFn
-false
 )
 ;
 return
@@ -387,6 +385,7 @@ nextTest
 gOverflowed
 =
 false
+;
 gUnderflowed
 =
 false
@@ -1274,6 +1273,7 @@ scroll
 position
 "
 )
+return
 hidePopup
 (
 )
@@ -1751,6 +1751,9 @@ space
 var
 clickX
 =
+4
+;
+var
 clickY
 =
 4
@@ -2472,18 +2475,6 @@ testPopupMovement
 )
 {
 var
-button
-=
-document
-.
-getElementById
-(
-"
-label
-"
-)
-;
-var
 isPanelTest
 =
 (
@@ -2520,8 +2511,6 @@ popup
 var
 screenX
 screenY
-buttonScreenX
-buttonScreenY
 ;
 var
 rect
