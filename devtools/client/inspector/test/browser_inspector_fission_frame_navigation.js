@@ -285,9 +285,7 @@ toolbox
 resourceWatcher
 ;
 const
-{
 resource
-}
 =
 await
 navigateIframeTo
