@@ -27,13 +27,6 @@ algorithm
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Unused
@@ -519,7 +512,7 @@ if
 (
 p
 =
-PL_strchr
+strchr
 (
 buf
 '
@@ -531,11 +524,13 @@ buf
 =
 nullptr
 )
+{
 *
 p
 =
 0
 ;
+}
 parsedval
 =
 strtoul
