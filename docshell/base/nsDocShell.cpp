@@ -28472,16 +28472,6 @@ if
 mContentViewer
 )
 {
-MOZ_ASSERT
-(
-nsContentUtils
-:
-:
-IsSafeToRunScript
-(
-)
-)
-;
 if
 (
 aCheckPermitUnload
