@@ -212,9 +212,15 @@ gSubDialog
 open
 (
 aURL
+{
+features
+:
 aFeatures
-aParams
+closingCallback
+:
 aClosingCallback
+}
+aParams
 )
 ;
 return

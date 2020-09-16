@@ -2054,6 +2054,9 @@ addEngine
 .
 xhtml
 "
+{
+features
+:
 "
 resizable
 =
@@ -2062,6 +2065,7 @@ modal
 =
 yes
 "
+}
 )
 ;
 break

@@ -1587,7 +1587,7 @@ gSubDialog
 open
 (
 EDIT_ADDRESS_URL
-null
+undefined
 {
 record
 :
@@ -1837,11 +1837,15 @@ gSubDialog
 open
 (
 EDIT_CREDIT_CARD_URL
+{
+features
+:
 "
 resizable
 =
 no
 "
+}
 {
 record
 :

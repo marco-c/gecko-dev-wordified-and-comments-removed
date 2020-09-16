@@ -1802,6 +1802,9 @@ selectBookmark
 .
 xhtml
 "
+{
+features
+:
 "
 resizable
 =
@@ -1810,7 +1813,8 @@ modal
 =
 yes
 "
-rv
+closingCallback
+:
 this
 .
 _setHomePageToBookmarkClosed
@@ -1820,6 +1824,8 @@ bind
 this
 rv
 )
+}
+rv
 )
 ;
 Services
