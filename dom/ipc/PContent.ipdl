@@ -2223,6 +2223,14 @@ chrome
 )
 ;
 async
+ClearStyleSheetCache
+(
+nsIPrincipal
+?
+aForPrincipal
+)
+;
+async
 SetOffline
 (
 bool

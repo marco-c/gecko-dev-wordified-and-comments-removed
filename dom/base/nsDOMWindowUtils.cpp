@@ -5339,7 +5339,7 @@ ClearSharedStyleSheetCache
 SharedStyleSheetCache
 :
 :
-ClearForTest
+Clear
 (
 )
 ;

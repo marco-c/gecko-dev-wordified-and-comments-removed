@@ -277,8 +277,13 @@ Loader
 ;
 static
 void
-ClearForTest
+Clear
 (
+nsIPrincipal
+*
+aForPrincipal
+=
+nullptr
 )
 ;
 private

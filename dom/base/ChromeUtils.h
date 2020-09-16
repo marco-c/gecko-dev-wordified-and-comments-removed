@@ -752,6 +752,17 @@ aGlobal
 )
 ;
 static
+void
+ClearStyleSheetCache
+(
+GlobalObject
+&
+nsIPrincipal
+*
+aForPrincipal
+)
+;
+static
 already_AddRefed
 <
 Promise
