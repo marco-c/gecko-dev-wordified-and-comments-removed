@@ -16,13 +16,13 @@ const
 MC_PATH
 =
 "
-resource
+chrome
 :
 /
 /
 devtools
 /
-client
+content
 /
 debugger
 /
