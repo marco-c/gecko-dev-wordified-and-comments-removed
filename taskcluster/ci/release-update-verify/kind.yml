@@ -97,10 +97,6 @@ update
 verify
 -
 config
--
-upload
--
-symbols
 transforms
 :
 -
