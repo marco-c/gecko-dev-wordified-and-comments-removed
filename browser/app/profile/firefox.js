@@ -12438,7 +12438,7 @@ report
 .
 show_mobile_app
 "
-false
+true
 )
 ;
 pref
