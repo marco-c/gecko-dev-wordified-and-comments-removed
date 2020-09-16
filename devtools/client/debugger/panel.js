@@ -363,7 +363,7 @@ onAvailable
 :
 actions
 .
-addExceptionFromResources
+addExceptionFromResource
 }
 )
 ;

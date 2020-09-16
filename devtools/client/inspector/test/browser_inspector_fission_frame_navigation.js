@@ -287,6 +287,7 @@ resourceWatcher
 const
 {
 resource
+targetFront
 }
 =
 await
@@ -299,6 +300,7 @@ EXAMPLE_COM_URI
 is
 (
 resource
+?
 .
 resourceType
 resourceWatcher
@@ -322,8 +324,6 @@ navigating
 todo
 (
 !
-resource
-.
 targetFront
 .
 getCachedFront
