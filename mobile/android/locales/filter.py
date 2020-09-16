@@ -143,16 +143,6 @@ css
 "
 chrome
 /
-search
-/
-search
-.
-properties
-"
-            
-"
-chrome
-/
 pluginproblem
 /
 pluginproblem

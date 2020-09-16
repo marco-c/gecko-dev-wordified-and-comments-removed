@@ -1349,7 +1349,7 @@ nsISupports
 const
 unsigned
 long
-ERROR_UNKNOWN_FAILURE
+ERROR_DOWNLOAD_FAILURE
 =
 0x1
 ;
@@ -1359,6 +1359,13 @@ long
 ERROR_DUPLICATE_ENGINE
 =
 0x2
+;
+const
+unsigned
+long
+ERROR_ENGINE_CORRUPTED
+=
+0x3
 ;
 /
 *
