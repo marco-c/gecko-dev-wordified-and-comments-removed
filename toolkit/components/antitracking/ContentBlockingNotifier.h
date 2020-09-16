@@ -120,6 +120,10 @@ nsIChannel
 aChannel
 uint32_t
 aRejectedReason
+bool
+aBlocked
+=
+true
 )
 ;
 static
