@@ -226,7 +226,6 @@ Lookup
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
