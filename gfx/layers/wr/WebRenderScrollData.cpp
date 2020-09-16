@@ -1290,10 +1290,6 @@ mScrollMetadatas
 index
 ]
 .
-GetMetrics
-(
-)
-.
 UpdatePendingScrollInfo
 (
 it

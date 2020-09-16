@@ -497,10 +497,10 @@ ScrollableLayerGuid
 ViewID
 key
 ;
-layers
+mozilla
 :
 :
-ScrollUpdateInfo
+ScrollPositionUpdate
 data
 ;
 if
