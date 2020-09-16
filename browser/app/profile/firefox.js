@@ -9869,9 +9869,11 @@ https
 /
 topsites
 .
+services
+.
 mozilla
 .
-io
+com
 /
 cid
 /
