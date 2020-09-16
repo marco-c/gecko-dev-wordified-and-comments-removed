@@ -2352,6 +2352,22 @@ defines
 property
     
 def
+non_global_defines
+(
+self
+)
+:
+        
+return
+self
+.
+config_environment
+.
+non_global_defines
+    
+property
+    
+def
 substs
 (
 self

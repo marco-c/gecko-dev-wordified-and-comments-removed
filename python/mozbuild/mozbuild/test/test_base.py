@@ -2043,6 +2043,23 @@ fh
 write
 (
 "
+non_global_defines
+=
+[
+'
+BAR
+'
+]
+\
+n
+"
+)
+                
+fh
+.
+write
+(
+"
 substs
 =
 {
@@ -2079,6 +2096,9 @@ defines
 "
                          
 "
+'
+non_global_defines
+'
 '
 substs
 '

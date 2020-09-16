@@ -60,6 +60,14 @@ MOZ_BAR
 '
 2
 '
+        
+'
+MOZ_NON_GLOBAL
+'
+:
+'
+3
+'
     
 }
     
@@ -94,6 +102,18 @@ cpp
 '
     
 }
+    
+'
+non_global_defines
+'
+:
+[
+        
+'
+MOZ_NON_GLOBAL
+'
+    
+]
 }
 class
 TestPartial
