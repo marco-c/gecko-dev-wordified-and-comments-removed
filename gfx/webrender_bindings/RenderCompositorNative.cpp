@@ -2185,6 +2185,9 @@ CompositorWidget
 &
 &
 aWidget
+nsACString
+&
+aError
 )
 {
 RefPtr
@@ -2821,6 +2824,9 @@ CompositorWidget
 &
 &
 aWidget
+nsACString
+&
+aError
 )
 {
 void

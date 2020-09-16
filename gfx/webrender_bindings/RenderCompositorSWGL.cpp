@@ -41,6 +41,9 @@ CompositorWidget
 &
 &
 aWidget
+nsACString
+&
+aError
 )
 {
 void

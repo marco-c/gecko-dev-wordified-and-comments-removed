@@ -46,6 +46,9 @@ CompositorWidget
 &
 &
 aWidget
+nsACString
+&
+aError
 )
 ;
 RenderCompositorSWGL
