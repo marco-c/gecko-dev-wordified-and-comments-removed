@@ -7672,6 +7672,9 @@ private
 JSOp
 op_
 ;
+bool
+isFirstStub_
+;
 uint32_t
 argc_
 ;
@@ -7717,6 +7720,15 @@ result
 void
 emitNativeCalleeGuard
 (
+HandleFunction
+callee
+)
+;
+void
+emitCalleeGuard
+(
+ObjOperandId
+calleeId
 HandleFunction
 callee
 )
@@ -8459,6 +8471,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 uint32_t
 argc
 HandleValue
