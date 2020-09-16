@@ -522,6 +522,9 @@ bin_path
 out
 "
 "
+mesa
+"
+"
 src
 "
 "
@@ -532,10 +535,6 @@ targets
 "
 "
 osmesa
-"
-"
-.
-libs
 "
 )
         
@@ -559,6 +558,9 @@ bin_path
 out
 "
 "
+mesa
+"
+"
 src
 "
 "
@@ -568,10 +570,6 @@ mapi
 shared
 -
 glapi
-"
-"
-.
-libs
 "
 )
         

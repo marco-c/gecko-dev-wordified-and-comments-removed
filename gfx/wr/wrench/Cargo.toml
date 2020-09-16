@@ -171,6 +171,13 @@ osmesa
 src
 =
 {
+version
+=
+"
+0
+.
+2
+"
 git
 =
 "
