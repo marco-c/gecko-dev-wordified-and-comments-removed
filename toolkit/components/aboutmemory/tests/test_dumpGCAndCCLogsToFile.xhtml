@@ -325,16 +325,6 @@ loadHandler
 (
 )
 {
-w
-.
-removeEventListener
-(
-"
-load
-"
-loadHandler
-)
-;
 let
 remoteBrowser
 =
@@ -441,6 +431,11 @@ true
 )
 ;
 }
+{
+once
+:
+true
+}
 )
 ;
 }
@@ -525,8 +520,6 @@ childProcesses
 true
 {
 onDump
-:
-function
 (
 gcLog
 ccLog
@@ -562,8 +555,6 @@ ccLog
 ;
 }
 onFinish
-:
-function
 (
 )
 {
