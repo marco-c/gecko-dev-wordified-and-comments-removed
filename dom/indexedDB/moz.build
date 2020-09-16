@@ -267,6 +267,11 @@ ActorsChild
 cpp
 '
 '
+ActorsParentCommon
+.
+cpp
+'
+'
 FileInfo
 .
 cpp
@@ -372,6 +377,11 @@ ReportInternalError
 cpp
 '
 '
+SchemaUpgrades
+.
+cpp
+'
+'
 ScriptErrorHelper
 .
 cpp
@@ -383,6 +393,11 @@ SOURCES
 [
 '
 ActorsParent
+.
+cpp
+'
+'
+DBSchema
 .
 cpp
 '
