@@ -134,7 +134,7 @@ toggleClientRect
 .
 left
 +
-2
+15
 ;
 let
 toggleTop
@@ -143,7 +143,7 @@ toggleClientRect
 .
 top
 +
-2
+15
 ;
 info
 (
