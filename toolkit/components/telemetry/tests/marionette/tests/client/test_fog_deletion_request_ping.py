@@ -219,7 +219,7 @@ tagging_script
 \
         
 let
-AboutGlean
+FOG
 =
 Components
 .
@@ -245,11 +245,11 @@ Components
 .
 interfaces
 .
-nsIAboutGlean
+nsIFOG
 )
 ;
         
-AboutGlean
+FOG
 .
 setTagPings
 (
