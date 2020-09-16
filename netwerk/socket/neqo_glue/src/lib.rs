@@ -3450,7 +3450,7 @@ conn
 .
 conn
 .
-set_resumption_token
+enable_resumption
 (
 Instant
 :
