@@ -75,7 +75,7 @@ xml
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -105,7 +105,7 @@ engine2
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -170,7 +170,7 @@ engine1
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -251,7 +251,7 @@ searchTerms
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;

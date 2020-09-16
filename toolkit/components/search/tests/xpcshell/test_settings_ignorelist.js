@@ -28,9 +28,7 @@ jsm
 )
 ;
 var
-cacheTemplate
-appPluginsPath
-profPlugins
+settingsTemplate
 ;
 add_task
 (
@@ -52,7 +50,7 @@ setupRemoteSettings
 (
 )
 ;
-cacheTemplate
+settingsTemplate
 =
 await
 readJSONFile
@@ -69,7 +67,7 @@ json
 )
 )
 ;
-cacheTemplate
+settingsTemplate
 .
 buildID
 =
@@ -80,9 +78,9 @@ getAppInfo
 platformBuildID
 ;
 await
-promiseSaveCacheData
+promiseSaveSettingsData
 (
-cacheTemplate
+settingsTemplate
 )
 ;
 }
@@ -92,7 +90,7 @@ add_task
 (
 async
 function
-test_cache_rest
+test_settings_rest
 (
 )
 {
@@ -189,7 +187,7 @@ list
 "
 )
 ;
-removeCacheFile
+removeSettingsFile
 (
 )
 ;

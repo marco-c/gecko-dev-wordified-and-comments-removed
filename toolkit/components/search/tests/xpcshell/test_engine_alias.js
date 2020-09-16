@@ -30,9 +30,9 @@ promiseStartupManager
 )
 ;
 let
-cacheFileWritten
+settingsFileWritten
 =
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -46,7 +46,7 @@ init
 )
 ;
 await
-cacheFileWritten
+settingsFileWritten
 ;
 }
 )
@@ -60,9 +60,9 @@ upgrade_with_configuration_change_test
 )
 {
 let
-cacheFileWritten
+settingsFileWritten
 =
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -94,7 +94,7 @@ awaitStartup
 )
 ;
 await
-cacheFileWritten
+settingsFileWritten
 ;
 let
 engine

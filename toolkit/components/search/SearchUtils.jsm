@@ -959,7 +959,7 @@ mozilla
 ;
 }
 get
-CACHE_VERSION
+SETTINGS_VERSION
 (
 )
 {

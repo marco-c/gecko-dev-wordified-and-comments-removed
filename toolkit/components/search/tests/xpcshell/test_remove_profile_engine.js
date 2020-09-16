@@ -194,7 +194,7 @@ path
 }
 }
 await
-promiseSaveCacheData
+promiseSaveSettingsData
 (
 data
 )

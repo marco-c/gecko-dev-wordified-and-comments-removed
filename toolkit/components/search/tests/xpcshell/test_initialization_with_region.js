@@ -456,7 +456,7 @@ let
 otherPromises
 =
 [
-promiseAfterCache
+promiseAfterSettings
 (
 )
 SearchTestUtils

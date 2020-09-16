@@ -85,7 +85,7 @@ search
 init
 (
 )
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ]

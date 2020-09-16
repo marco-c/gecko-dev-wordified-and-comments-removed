@@ -75,7 +75,7 @@ xml
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -139,7 +139,7 @@ flush
 let
 promiseCommit
 =
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;

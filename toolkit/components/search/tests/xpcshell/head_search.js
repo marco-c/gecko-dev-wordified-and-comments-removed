@@ -105,7 +105,7 @@ RemoteSettingsClient
 .
 jsm
 "
-SearchCache
+SearchSettings
 :
 "
 resource
@@ -116,7 +116,7 @@ gre
 /
 modules
 /
-SearchCache
+SearchSettings
 .
 jsm
 "
@@ -348,7 +348,7 @@ registerCleanupFunction
 )
 ;
 const
-CACHE_FILENAME
+SETTINGS_FILENAME
 =
 "
 search
@@ -480,15 +480,15 @@ overrideProductsCheck
 true
 )
 ;
-SearchCache
+SearchSettings
 .
-CACHE_INVALIDATION_DELAY
+SETTNGS_INVALIDATION_DELAY
 =
 250
 ;
 async
 function
-promiseCacheData
+promiseSettingsData
 (
 )
 {
@@ -508,7 +508,7 @@ Constants
 Path
 .
 profileDir
-CACHE_FILENAME
+SETTINGS_FILENAME
 )
 ;
 let
@@ -549,7 +549,7 @@ bytes
 ;
 }
 function
-promiseSaveCacheData
+promiseSaveSettingsData
 (
 data
 )
@@ -574,7 +574,7 @@ Constants
 Path
 .
 profileDir
-CACHE_FILENAME
+SETTINGS_FILENAME
 )
 new
 TextEncoder
@@ -607,10 +607,10 @@ promiseEngineMetadata
 )
 {
 let
-cache
+settings
 =
 await
-promiseCacheData
+promiseSettingsData
 (
 )
 ;
@@ -625,7 +625,7 @@ for
 let
 engine
 of
-cache
+settings
 .
 engines
 )
@@ -655,7 +655,7 @@ promiseGlobalMetadata
 return
 (
 await
-promiseCacheData
+promiseSettingsData
 (
 )
 )
@@ -674,7 +674,7 @@ let
 data
 =
 await
-promiseCacheData
+promiseSettingsData
 (
 )
 ;
@@ -685,7 +685,7 @@ metaData
 globalData
 ;
 await
-promiseSaveCacheData
+promiseSaveSettingsData
 (
 data
 )
@@ -732,7 +732,7 @@ TOPIC_ENGINE_MODIFIED
 ;
 }
 function
-removeCacheFile
+removeSettingsFile
 (
 )
 {
@@ -751,7 +751,7 @@ file
 .
 append
 (
-CACHE_FILENAME
+SETTINGS_FILENAME
 )
 ;
 if
@@ -818,7 +818,7 @@ engine
 "
 ;
 function
-promiseAfterCache
+promiseAfterSettings
 (
 )
 {
@@ -830,7 +830,7 @@ promiseSearchNotification
 "
 write
 -
-cache
+settings
 -
 to
 -

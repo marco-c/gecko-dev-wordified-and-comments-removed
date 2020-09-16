@@ -93,11 +93,6 @@ OpenSearchEngine
 jsm
 '
 '
-SearchCache
-.
-jsm
-'
-'
 SearchEngine
 .
 jsm
@@ -109,6 +104,11 @@ jsm
 '
 '
 SearchService
+.
+jsm
+'
+'
+SearchSettings
 .
 jsm
 '

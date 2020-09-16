@@ -167,7 +167,7 @@ init
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -241,7 +241,7 @@ unload
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
