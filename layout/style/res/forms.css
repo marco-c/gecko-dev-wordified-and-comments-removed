@@ -4995,11 +4995,13 @@ color
 GrayText
 ;
 }
+input
 :
 -
 moz
 -
 autofill
+input
 :
 -
 moz
@@ -5042,6 +5044,7 @@ saturate
 )
 ;
 }
+input
 :
 -
 moz
