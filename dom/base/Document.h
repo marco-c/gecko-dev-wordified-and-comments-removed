@@ -4156,6 +4156,13 @@ HasThirdPartyChannel
 (
 )
 ;
+bool
+ShouldIncludeInTelemetry
+(
+bool
+aAllowExtensionURIs
+)
+;
 protected
 :
 friend
