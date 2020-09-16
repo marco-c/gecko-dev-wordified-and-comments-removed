@@ -1651,10 +1651,10 @@ tempAddr
 ;
 if
 (
-addr
-.
-IsLoopbackAddr
+IsLoopBackAddress
 (
+&
+addr
 )
 )
 {
@@ -1681,10 +1681,10 @@ return
 upgradeLocal
 &
 &
-addr
-.
 IsIPAddrLocal
 (
+&
+addr
 )
 )
 ;

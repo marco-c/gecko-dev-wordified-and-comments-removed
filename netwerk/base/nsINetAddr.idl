@@ -220,10 +220,7 @@ mozilla
 net
 :
 :
-NetAddr
-:
-:
-ToStringBuffer
+NetAddrToString
 .
 *
 *
