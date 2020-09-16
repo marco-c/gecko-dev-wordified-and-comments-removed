@@ -482,6 +482,13 @@ uint32_t
 pcOffset
 )
 ;
+bool
+hasInlinedChild
+(
+uint32_t
+pcOffset
+)
+;
 FallbackICStubSpace
 *
 fallbackStubSpace
