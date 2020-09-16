@@ -2038,12 +2038,6 @@ abspath
 obj
 '
 )
-        
-config
-.
-external_source_dir
-=
-None
     
 def
 test_path

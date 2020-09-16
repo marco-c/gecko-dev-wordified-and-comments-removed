@@ -312,12 +312,6 @@ substs
         
 self
 .
-external_source_dir
-=
-None
-        
-self
-.
 lib_prefix
 =
 '
