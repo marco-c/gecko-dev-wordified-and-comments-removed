@@ -3195,6 +3195,13 @@ ContentParent
 >
 sContentParents
 ;
+static
+StaticRefPtr
+<
+ContentParent
+>
+sRecycledE10SProcess
+;
 void
 AddShutdownBlockers
 (

@@ -105,15 +105,6 @@ aRemoteType
 )
 ;
 static
-bool
-Provide
-(
-ContentParent
-*
-aParent
-)
-;
-static
 void
 Erase
 (
