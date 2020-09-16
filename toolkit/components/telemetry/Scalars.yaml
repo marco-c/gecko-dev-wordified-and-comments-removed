@@ -16732,7 +16732,7 @@ record_in_processes
 :
 -
 '
-content
+main
 '
 dialog_via_preview_cancelled
 :
@@ -16848,7 +16848,7 @@ record_in_processes
 :
 -
 '
-content
+main
 '
 error
 :
@@ -17117,7 +17117,7 @@ record_in_processes
 :
 -
 '
-content
+main
 '
 preview_cancelled
 :
@@ -17232,7 +17232,7 @@ record_in_processes
 :
 -
 '
-content
+main
 '
 settings_changed
 :
