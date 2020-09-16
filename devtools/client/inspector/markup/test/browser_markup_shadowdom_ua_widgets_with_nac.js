@@ -172,7 +172,6 @@ const
 inspector
 markup
 toolbox
-testActor
 }
 =
 await
@@ -218,7 +217,6 @@ await
 hoverElement
 (
 inspector
-testActor
 TEST_ID
 50
 50
@@ -228,7 +226,6 @@ await
 pickElement
 (
 inspector
-testActor
 TEST_ID
 50
 50

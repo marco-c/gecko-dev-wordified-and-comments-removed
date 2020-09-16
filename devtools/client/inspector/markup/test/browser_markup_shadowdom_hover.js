@@ -225,7 +225,6 @@ const
 {
 inspector
 toolbox
-testActor
 }
 =
 await
@@ -274,7 +273,6 @@ await
 hoverElement
 (
 inspector
-testActor
 "
 test
 -
@@ -301,7 +299,6 @@ await
 hoverElement
 (
 inspector
-testActor
 "
 test
 -
@@ -328,7 +325,6 @@ await
 pickElement
 (
 inspector
-testActor
 "
 test
 -

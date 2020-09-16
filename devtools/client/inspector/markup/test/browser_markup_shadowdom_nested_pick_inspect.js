@@ -228,7 +228,6 @@ const
 inspector
 toolbox
 tab
-testActor
 }
 =
 await
@@ -273,7 +272,6 @@ await
 pickElement
 (
 inspector
-testActor
 "
 test
 -
