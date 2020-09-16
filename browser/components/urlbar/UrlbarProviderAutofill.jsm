@@ -3196,14 +3196,8 @@ engine
 .
 iconURI
 ?
-engine
-.
-iconURI
 .
 spec
-:
-"
-"
 }
 )
 )

@@ -533,6 +533,12 @@ coherent
 "
 )
 ;
+gURLBar
+.
+handleRevert
+(
+)
+;
 }
 }
 )

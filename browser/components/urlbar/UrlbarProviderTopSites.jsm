@@ -506,7 +506,7 @@ link
 favicon
 |
 |
-null
+undefined
 sendAttributionRequest
 :
 link

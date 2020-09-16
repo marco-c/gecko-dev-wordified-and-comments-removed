@@ -385,6 +385,12 @@ promisePopupClose
 window
 )
 ;
+gURLBar
+.
+handleRevert
+(
+)
+;
 gBrowser
 .
 removeTab

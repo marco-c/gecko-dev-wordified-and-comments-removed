@@ -438,6 +438,13 @@ makeVisitResult
 (
 context
 {
+source
+:
+UrlbarUtils
+.
+RESULT_SOURCE
+.
+OTHER_LOCAL
 uri
 :
 {

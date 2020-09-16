@@ -635,6 +635,12 @@ promisePopupClose
 window
 )
 ;
+gURLBar
+.
+handleRevert
+(
+)
+;
 }
 }
 )
