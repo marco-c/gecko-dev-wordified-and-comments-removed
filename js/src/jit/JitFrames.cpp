@@ -26,6 +26,15 @@ algorithm
 #
 include
 "
+builtin
+/
+ModuleObject
+.
+h
+"
+#
+include
+"
 gc
 /
 Marking
