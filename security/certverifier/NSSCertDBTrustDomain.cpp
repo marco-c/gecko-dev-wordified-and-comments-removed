@@ -198,13 +198,6 @@ h
 #
 include
 "
-nsNSSCertValidity
-.
-h
-"
-#
-include
-"
 nsNSSCertificate
 .
 h
