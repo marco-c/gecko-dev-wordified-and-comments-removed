@@ -188,6 +188,12 @@ window
 docShell
 .
 hasLoadedNonBlankURI
+&
+&
+!
+browsingContext
+.
+opener
 )
 {
 return
