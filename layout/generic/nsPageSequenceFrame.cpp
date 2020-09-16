@@ -1114,6 +1114,13 @@ threeInches
 )
 )
 ;
+edgeTwips
+.
+EnsureAtLeast
+(
+unwriteableTwips
+)
+;
 mPageData
 -
 >
@@ -1125,8 +1132,6 @@ nsPresContext
 CSSTwipsToAppUnits
 (
 edgeTwips
-+
-unwriteableTwips
 )
 ;
 mPageData
