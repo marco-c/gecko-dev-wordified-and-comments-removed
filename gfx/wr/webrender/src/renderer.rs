@@ -4673,9 +4673,6 @@ GpuProfile
 {
 fn
 new
-<
-T
->
 (
 frame_id
 :
@@ -4685,9 +4682,6 @@ timers
 &
 [
 GpuTimer
-<
-T
->
 ]
 )
 -
@@ -9317,9 +9311,6 @@ pub
 gpu_profiler
 :
 GpuProfiler
-<
-GpuProfileTag
->
 vaos
 :
 RendererVAOs
