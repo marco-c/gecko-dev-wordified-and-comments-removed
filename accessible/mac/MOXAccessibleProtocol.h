@@ -1114,4 +1114,17 @@ _Nonnull
 )
 index
 ;
+-
+(
+id
+_Nullable
+)
+moxTextMarkerRangeForUIElement
+:
+(
+id
+_Nonnull
+)
+element
+;
 end
