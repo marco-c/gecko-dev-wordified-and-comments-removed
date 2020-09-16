@@ -9455,6 +9455,12 @@ GetNavigationTiming
 if
 (
 timing
+&
+&
+!
+IsPrintingOrPrintPreview
+(
+)
 )
 {
 timing
@@ -10742,6 +10748,12 @@ GetNavigationTiming
 if
 (
 timing
+&
+&
+!
+IsPrintingOrPrintPreview
+(
+)
 )
 {
 timing
