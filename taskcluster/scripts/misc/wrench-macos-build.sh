@@ -437,8 +437,6 @@ src
 /
 out
 /
-mesa
-/
 src
 /
 gallium
@@ -446,6 +444,9 @@ gallium
 targets
 /
 osmesa
+/
+.
+libs
 \
 wrench
 -
@@ -464,8 +465,6 @@ src
 /
 out
 /
-mesa
-/
 src
 /
 mapi
@@ -473,6 +472,9 @@ mapi
 shared
 -
 glapi
+/
+.
+libs
 mv
 wrench
 -
