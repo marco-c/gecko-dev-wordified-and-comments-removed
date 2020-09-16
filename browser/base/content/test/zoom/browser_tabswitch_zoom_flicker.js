@@ -64,9 +64,9 @@ content
 /
 test
 /
-general
+zoom
 /
-dummy_page
+zoom_test
 .
 html
 "

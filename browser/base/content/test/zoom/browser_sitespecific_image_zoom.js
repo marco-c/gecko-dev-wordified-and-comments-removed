@@ -174,7 +174,7 @@ content
 /
 test
 /
-general
+zoom
 /
 zoom_test
 .
@@ -309,7 +309,7 @@ content
 /
 test
 /
-general
+zoom
 /
 zoom_test
 .
