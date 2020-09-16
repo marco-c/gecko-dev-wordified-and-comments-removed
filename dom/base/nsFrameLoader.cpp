@@ -5871,10 +5871,13 @@ rv
 ;
 if
 (
-ourOriginAttributes
 !
-=
+ourOriginAttributes
+.
+EqualsIgnoringFPD
+(
 otherOriginAttributes
+)
 )
 {
 return
