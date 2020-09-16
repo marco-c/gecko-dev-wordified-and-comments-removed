@@ -8725,9 +8725,13 @@ resource
 :
 /
 /
+gre
+/
+modules
+/
+themes
+/
 default
--
-theme
 /
 "
 )

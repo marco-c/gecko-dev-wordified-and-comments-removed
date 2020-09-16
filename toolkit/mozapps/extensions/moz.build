@@ -79,6 +79,11 @@ DIRS
 =
 [
 '
+default
+-
+theme
+'
+'
 internal
 '
 ]
