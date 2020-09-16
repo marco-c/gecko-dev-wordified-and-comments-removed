@@ -170,6 +170,11 @@ openWebsiteInsecure
 this
 .
 browser
+aMessage
+.
+data
+.
+inFrame
 )
 ;
 break
@@ -262,6 +267,7 @@ goBack
 openWebsiteInsecure
 (
 aBrowser
+aIsIFrame
 )
 {
 const
@@ -350,6 +356,10 @@ sites
 let
 newURI
 =
+aIsIFrame
+?
+innerURI
+:
 innerURI
 .
 mutate

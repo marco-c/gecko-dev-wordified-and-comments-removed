@@ -245,6 +245,16 @@ RPMSendAsyncMessage
 "
 openInsecure
 "
+{
+inFrame
+:
+window
+.
+top
+!
+=
+window
+}
 )
 ;
 }
