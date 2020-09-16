@@ -52,6 +52,15 @@ include
 "
 js
 /
+String
+.
+h
+"
+#
+include
+"
+js
+/
 Wrapper
 .
 h
@@ -968,7 +977,7 @@ JSExternalStringCallbacks
 callbacks
 ;
 return
-js
+JS
 :
 :
 IsExternalString

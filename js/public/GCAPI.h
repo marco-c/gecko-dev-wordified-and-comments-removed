@@ -2004,16 +2004,6 @@ allocatedExternal
 ;
 extern
 JS_PUBLIC_API
-bool
-JS_IsExternalString
-(
-JSString
-*
-str
-)
-;
-extern
-JS_PUBLIC_API
 const
 JSExternalStringCallbacks
 *

@@ -143,6 +143,15 @@ h
 #
 include
 "
+js
+/
+String
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -3174,7 +3183,10 @@ ifdef
 DEBUG
 if
 (
-JS_StringHasLatin1Chars
+JS
+:
+:
+StringHasLatin1Chars
 (
 str
 )

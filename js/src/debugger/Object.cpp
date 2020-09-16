@@ -239,6 +239,15 @@ h
 #
 include
 "
+js
+/
+String
+.
+h
+"
+#
+include
+"
 proxy
 /
 ScriptedProxyHandler
@@ -6899,7 +6908,10 @@ startLine
 if
 (
 !
-JS_StringHasLatin1Chars
+JS
+:
+:
+StringHasLatin1Chars
 (
 url
 )

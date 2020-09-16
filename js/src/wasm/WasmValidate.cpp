@@ -64,6 +64,15 @@ h
 #
 include
 "
+js
+/
+String
+.
+h
+"
+#
+include
+"
 vm
 /
 JSContext
@@ -20034,6 +20043,9 @@ funcName
 .
 length
 >
+JS
+:
+:
 MaxStringLength
 )
 {

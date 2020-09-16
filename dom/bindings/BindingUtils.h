@@ -59,6 +59,15 @@ include
 "
 js
 /
+String
+.
+h
+"
+#
+include
+"
+js
+/
 Wrapper
 .
 h
@@ -6460,7 +6469,7 @@ nogc
 ;
 if
 (
-js
+JS
 :
 :
 StringHasLatin1Chars
@@ -15325,7 +15334,7 @@ str
 {
 mIsLatin1
 =
-js
+JS
 :
 :
 LinearStringHasLatin1Chars
@@ -15340,7 +15349,7 @@ mIsLatin1
 {
 mLatin1Chars
 =
-js
+JS
 :
 :
 GetLatin1LinearStringChars
@@ -15354,7 +15363,7 @@ else
 {
 mTwoByteChars
 =
-js
+JS
 :
 :
 GetTwoByteLinearStringChars
@@ -15369,7 +15378,7 @@ ifdef
 DEBUG
 mLength
 =
-js
+JS
 :
 :
 GetLinearStringLength

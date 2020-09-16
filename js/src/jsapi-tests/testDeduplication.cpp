@@ -33,6 +33,15 @@ h
 #
 include
 "
+js
+/
+String
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
@@ -104,7 +113,7 @@ Latin1Char
 *
 chars1
 =
-js
+JS
 :
 :
 StringToLinearString
@@ -127,7 +136,7 @@ Latin1Char
 *
 chars2
 =
-js
+JS
 :
 :
 StringToLinearString

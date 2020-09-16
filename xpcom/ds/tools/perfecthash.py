@@ -2388,7 +2388,7 @@ s
 size_t
 length
 =
-js
+JS
 :
 :
 GetLinearStringLength
@@ -2406,7 +2406,7 @@ nogc
               
 if
 (
-js
+JS
 :
 :
 LinearStringHasLatin1Chars
@@ -2429,7 +2429,7 @@ perfecthash
 Lookup
 (
                   
-js
+JS
 :
 :
 GetLatin1LinearStringChars
@@ -2471,7 +2471,7 @@ perfecthash
 Lookup
 (
                   
-js
+JS
 :
 :
 GetTwoByteLinearStringChars

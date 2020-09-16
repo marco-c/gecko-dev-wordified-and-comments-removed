@@ -40,6 +40,15 @@ include
 "
 js
 /
+String
+.
+h
+"
+#
+include
+"
+js
+/
 Warnings
 .
 h
@@ -208,7 +217,10 @@ toString
 ;
 if
 (
-JS_StringHasLatin1Chars
+JS
+:
+:
+StringHasLatin1Chars
 (
 str
 )

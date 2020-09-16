@@ -50,6 +50,15 @@ h
 #
 include
 "
+js
+/
+String
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -853,7 +862,7 @@ JSLinearString
 *
 str
 =
-js
+JS
 :
 :
 AtomToLinearString
@@ -868,7 +877,7 @@ if
 (
 MOZ_UNLIKELY
 (
-js
+JS
 :
 :
 GetLinearStringLength
@@ -888,7 +897,7 @@ UINT32_MAX
 char16_t
 firstChar
 =
-js
+JS
 :
 :
 GetLinearStringCharAt

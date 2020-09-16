@@ -24,6 +24,15 @@ h
 #
 include
 "
+js
+/
+String
+.
+h
+"
+#
+include
+"
 nsJSUtils
 .
 h
@@ -286,7 +295,7 @@ id
 ;
 if
 (
-js
+JS
 :
 :
 LinearStringHasLatin1Chars

@@ -443,6 +443,15 @@ include
 "
 js
 /
+String
+.
+h
+"
+#
+include
+"
+js
+/
 StructuredClone
 .
 h
@@ -34029,6 +34038,9 @@ RootedLinearString
 linearStr
 (
 cx
+JS
+:
+:
 StringToLinearString
 (
 cx
@@ -34053,6 +34065,9 @@ nullptr
 size_t
 len
 =
+JS
+:
+:
 GetLinearStringLength
 (
 linearStr

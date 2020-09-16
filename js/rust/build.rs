@@ -1700,6 +1700,9 @@ JS_DefinePropertyById
 JS_DefineUCProperty
 "
 "
+JS_DeprecatedStringHasLatin1Chars
+"
+"
 JS
 :
 :
@@ -2153,9 +2156,6 @@ JS_StrictPropertyStub
 "
 "
 JS_StringEqualsAscii
-"
-"
-JS_StringHasLatin1Chars
 "
 "
 JS_WrapObject

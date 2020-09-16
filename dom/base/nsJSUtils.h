@@ -82,6 +82,15 @@ h
 #
 include
 "
+js
+/
+String
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -873,7 +882,7 @@ s
 ;
 static_assert
 (
-js
+JS
 :
 :
 MaxStringLength
@@ -1007,7 +1016,7 @@ false
 ;
 }
 return
-js
+JS
 :
 :
 CopyStringChars
@@ -1089,7 +1098,7 @@ s
 ;
 if
 (
-js
+JS
 :
 :
 StringHasLatin1Chars
@@ -1274,7 +1283,7 @@ s
 size_t
 len
 =
-js
+JS
 :
 :
 GetLinearStringLength
@@ -1284,7 +1293,7 @@ s
 ;
 static_assert
 (
-js
+JS
 :
 :
 MaxStringLength
@@ -1314,7 +1323,7 @@ SetLength
 len
 )
 ;
-js
+JS
 :
 :
 CopyLinearStringChars
@@ -1344,7 +1353,7 @@ s
 size_t
 len
 =
-js
+JS
 :
 :
 GetLinearStringLength
@@ -1354,7 +1363,7 @@ s
 ;
 static_assert
 (
-js
+JS
 :
 :
 MaxStringLength
@@ -1384,10 +1393,10 @@ SetLength
 len
 )
 ;
-js
+JS
 :
 :
-CopyLinearStringChars
+LossyCopyLinearStringChars
 (
 dest
 .
