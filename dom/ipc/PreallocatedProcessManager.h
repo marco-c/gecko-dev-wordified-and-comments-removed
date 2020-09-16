@@ -66,6 +66,12 @@ GetPPMImpl
 )
 ;
 static
+bool
+Enabled
+(
+)
+;
+static
 void
 AddBlocker
 (
