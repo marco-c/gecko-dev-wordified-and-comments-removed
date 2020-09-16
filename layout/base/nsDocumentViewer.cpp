@@ -7106,6 +7106,9 @@ GetNavigationTiming
 if
 (
 mDocument
+&
+&
+mDocument
 -
 >
 IsStaticDocument
