@@ -184,8 +184,12 @@ true
 >
 StorageAccessPermissionGrantPromise
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 RefPtr
 <
 StorageAccessPermissionGrantPromise
