@@ -343,7 +343,7 @@ lines
 80
 functions
 :
-89
+85
 branches
 :
 70
