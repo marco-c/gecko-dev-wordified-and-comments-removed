@@ -122,6 +122,7 @@ dom
 namespace
 indexedDB
 {
+MOZ_COLD
 void
 ReportInternalError
 (
