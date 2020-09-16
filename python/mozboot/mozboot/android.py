@@ -847,13 +847,6 @@ chdir
 (
 old_path
 )
-        
-os
-.
-rmdir
-(
-download_path
-)
 def
 get_ndk_version
 (
