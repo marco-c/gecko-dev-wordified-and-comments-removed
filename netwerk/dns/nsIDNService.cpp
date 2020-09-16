@@ -379,7 +379,6 @@ if
 (
 prefs
 )
-{
 prefs
 -
 >
@@ -392,7 +391,6 @@ mIDNWhitelistPrefBranch
 )
 )
 ;
-}
 Preferences
 :
 :
@@ -521,12 +519,10 @@ val
 )
 )
 )
-{
 mShowPunycode
 =
 val
 ;
-}
 }
 if
 (
@@ -563,12 +559,10 @@ val
 )
 )
 )
-{
 mIDNUseWhitelist
 =
 val
 ;
-}
 }
 if
 (
@@ -2032,11 +2026,9 @@ NS_FAILED
 rv
 )
 )
-{
 return
 rv
 ;
-}
 if
 (
 mShowPunycode
@@ -2206,7 +2198,6 @@ start
 ;
 }
 else
-{
 out
 [
 i
@@ -2214,7 +2205,6 @@ i
 =
 curChar
 ;
-}
 i
 +
 +
@@ -2226,11 +2216,9 @@ i
 =
 outBufLen
 )
-{
 return
 NS_ERROR_MALFORMED_URI
 ;
-}
 }
 out
 [
@@ -2350,11 +2338,9 @@ encodedLength
 =
 kEncodedBufSize
 )
-{
 return
 NS_ERROR_MALFORMED_URI
 ;
-}
 encodedBuf
 [
 encodedLength
@@ -2916,11 +2902,9 @@ pos
 =
 kNotFound
 )
-{
 return
 false
 ;
-}
 tld
 .
 Cut
@@ -2953,11 +2937,9 @@ safe
 )
 )
 )
-{
 return
 safe
 ;
-}
 }
 return
 false

@@ -746,8 +746,6 @@ mResponse
 [
 kMaxSize
 ]
-{
-}
 ;
 unsigned
 int
