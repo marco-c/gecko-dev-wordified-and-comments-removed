@@ -43,3 +43,17 @@ server
 "
 )
 ;
+user_pref
+(
+"
+telemetry
+.
+fog
+.
+test
+.
+localhost_port
+"
+1337
+)
+;
