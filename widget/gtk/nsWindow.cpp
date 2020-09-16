@@ -21074,7 +21074,16 @@ haveVisual
 ;
 if
 (
-true
+!
+gfx
+:
+:
+gfxVars
+:
+:
+UseEGL
+(
+)
 )
 {
 auto
