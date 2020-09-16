@@ -329,8 +329,7 @@ shared
 global
 this
 :
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
