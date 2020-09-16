@@ -8274,6 +8274,10 @@ WINDOW_CLOSE
 true
 )
 ;
+onSurfaceDestroyed
+(
+)
+;
 mWindow
 .
 close
