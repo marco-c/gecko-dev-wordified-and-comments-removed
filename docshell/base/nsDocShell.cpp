@@ -22650,6 +22650,15 @@ nsACString
 aHeader
 )
 {
+if
+(
+mIsBeingDestroyed
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 MOZ_ASSERT
 (
 aPrincipal
