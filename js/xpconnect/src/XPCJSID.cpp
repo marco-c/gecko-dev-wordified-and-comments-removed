@@ -30,6 +30,15 @@ include
 "
 js
 /
+Object
+.
+h
+"
+#
+include
+"
+js
+/
 Symbol
 .
 h
@@ -701,10 +710,10 @@ if
 obj
 &
 &
-js
+JS
 :
 :
-GetObjectClass
+GetClass
 (
 obj
 )
@@ -735,10 +744,10 @@ obj
 {
 MOZ_ASSERT
 (
-js
+JS
 :
 :
-GetObjectClass
+GetClass
 (
 obj
 )
@@ -756,7 +765,7 @@ nsXPTInterfaceInfo
 *
 >
 (
-js
+JS
 :
 :
 GetReservedSlot
@@ -841,10 +850,10 @@ id
 ;
 if
 (
-js
+JS
 :
 :
-GetObjectClass
+GetClass
 (
 obj
 )
@@ -860,7 +869,7 @@ rawid
 ]
 =
 {
-js
+JS
 :
 :
 GetReservedSlot
@@ -872,7 +881,7 @@ kID_Slot0
 toPrivateUint32
 (
 )
-js
+JS
 :
 :
 GetReservedSlot
@@ -884,7 +893,7 @@ kID_Slot1
 toPrivateUint32
 (
 )
-js
+JS
 :
 :
 GetReservedSlot
@@ -896,7 +905,7 @@ kID_Slot2
 toPrivateUint32
 (
 )
-js
+JS
 :
 :
 GetReservedSlot
@@ -935,10 +944,10 @@ nsID
 else
 if
 (
-js
+JS
 :
 :
-GetObjectClass
+GetClass
 (
 obj
 )
@@ -974,10 +983,10 @@ IID
 else
 if
 (
-js
+JS
 :
 :
-GetObjectClass
+GetClass
 (
 obj
 )
@@ -996,7 +1005,7 @@ contractId
 JS_EncodeStringToLatin1
 (
 aCx
-js
+JS
 :
 :
 GetReservedSlot
@@ -1207,7 +1216,7 @@ nsID
 "
 )
 ;
-js
+JS
 :
 :
 SetReservedSlot
@@ -1223,7 +1232,7 @@ rawid
 )
 )
 ;
-js
+JS
 :
 :
 SetReservedSlot
@@ -1239,7 +1248,7 @@ rawid
 )
 )
 ;
-js
+JS
 :
 :
 SetReservedSlot
@@ -1255,7 +1264,7 @@ rawid
 )
 )
 ;
-js
+JS
 :
 :
 SetReservedSlot
@@ -1319,7 +1328,7 @@ return
 false
 ;
 }
-js
+JS
 :
 :
 SetReservedSlot
@@ -1458,7 +1467,7 @@ return
 false
 ;
 }
-js
+JS
 :
 :
 SetReservedSlot
@@ -2673,7 +2682,7 @@ contractID
 JS_EncodeStringToLatin1
 (
 aCx
-js
+JS
 :
 :
 GetReservedSlot
@@ -2987,7 +2996,7 @@ rval
 .
 set
 (
-js
+JS
 :
 :
 GetReservedSlot

@@ -10,6 +10,15 @@ h
 #
 include
 "
+js
+/
+Object
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MaybeOneOf
@@ -2645,6 +2654,9 @@ cls
 if
 (
 !
+JS
+:
+:
 GetBuiltinClass
 (
 cx

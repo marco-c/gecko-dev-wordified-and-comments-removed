@@ -159,6 +159,15 @@ include
 "
 js
 /
+Object
+.
+h
+"
+#
+include
+"
+js
+/
 StructuredClone
 .
 h
@@ -832,7 +841,10 @@ aClosure
 ;
 if
 (
-JS_GetClass
+JS
+:
+:
+GetClass
 (
 aObj
 )

@@ -447,9 +447,11 @@ return
 nullptr
 ;
 }
-JS_SetPrivate
-(
 stream
+-
+>
+setPrivate
+(
 nsISupportsObject_alreadyAddreffed
 )
 ;

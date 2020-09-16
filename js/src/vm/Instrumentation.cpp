@@ -35,6 +35,15 @@ h
 #
 include
 "
+js
+/
+Object
+.
+h
+"
+#
+include
+"
 proxy
 /
 DeadObjectProxy
@@ -145,7 +154,10 @@ obj
 Value
 v
 =
-JS_GetReservedSlot
+JS
+:
+:
+GetReservedSlot
 (
 obj
 RealmInstrumentationSlot

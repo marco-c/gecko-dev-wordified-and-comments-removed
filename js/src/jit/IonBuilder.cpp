@@ -145,6 +145,15 @@ include
 "
 js
 /
+Object
+.
+h
+"
+#
+include
+"
+js
+/
 ScalarType
 .
 h
@@ -58198,6 +58207,9 @@ true
 ;
 pushConstant
 (
+JS
+:
+:
 GetReservedSlot
 (
 singleton

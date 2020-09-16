@@ -67,6 +67,15 @@ nsWrapperCache
 .
 h
 "
+#
+include
+"
+js
+/
+Object
+.
+h
+"
 namespace
 mozilla
 {
@@ -4809,7 +4818,10 @@ GetAsObject
 )
 )
 ;
-JS_GetClass
+JS
+:
+:
+GetClass
 (
 obj
 )

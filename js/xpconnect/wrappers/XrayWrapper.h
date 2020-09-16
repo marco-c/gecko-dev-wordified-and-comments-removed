@@ -43,6 +43,15 @@ include
 "
 js
 /
+Object
+.
+h
+"
+#
+include
+"
+js
+/
 Proxy
 .
 h
@@ -1337,7 +1346,7 @@ holder
 int32_t
 key
 =
-js
+JS
 :
 :
 GetReservedSlot
@@ -1370,7 +1379,7 @@ holder
 )
 {
 return
-js
+JS
 :
 :
 GetReservedSlot
@@ -1396,7 +1405,7 @@ holder
 int32_t
 key
 =
-js
+JS
 :
 :
 GetReservedSlot

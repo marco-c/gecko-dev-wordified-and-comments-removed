@@ -318,6 +318,15 @@ h
 #
 include
 "
+js
+/
+Object
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ChaosMode
@@ -10827,7 +10836,10 @@ aName
 =
 NS_xstrdup
 (
-JS_GetClass
+JS
+:
+:
+GetClass
 (
 aObject
 .

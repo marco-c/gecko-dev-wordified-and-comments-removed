@@ -18,6 +18,15 @@ include
 "
 js
 /
+Object
+.
+h
+"
+#
+include
+"
+js
+/
 RootingAPI
 .
 h
@@ -75,6 +84,9 @@ cls
 if
 (
 !
+JS
+:
+:
 GetBuiltinClass
 (
 cx

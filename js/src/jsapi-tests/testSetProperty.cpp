@@ -1,6 +1,15 @@
 #
 include
 "
+js
+/
+Object
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
@@ -17,7 +26,10 @@ testSetProperty_InheritedGlobalSetter
 MOZ_RELEASE_ASSERT
 (
 !
-JS_GetClass
+JS
+:
+:
+GetClass
 (
 global
 )

@@ -22,6 +22,15 @@ Shape
 .
 h
 "
+#
+include
+"
+js
+/
+Value
+.
+h
+"
 class
 JS_PUBLIC_API
 JSObject

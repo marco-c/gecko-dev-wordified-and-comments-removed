@@ -164,6 +164,15 @@ include
 "
 js
 /
+Object
+.
+h
+"
+#
+include
+"
+js
+/
 RootingAPI
 .
 h
@@ -1985,7 +1994,10 @@ streamObj
 )
 )
 ;
-JS_SetPrivate
+JS
+:
+:
+SetPrivate
 (
 streamObj
 nullptr

@@ -30,13 +30,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 builtin
 /
 Array
@@ -597,9 +590,11 @@ return
 nullptr
 ;
 }
-JS_SetPrivate
-(
 stream
+-
+>
+setPrivate
+(
 nsISupportsObject_alreadyAddreffed
 )
 ;

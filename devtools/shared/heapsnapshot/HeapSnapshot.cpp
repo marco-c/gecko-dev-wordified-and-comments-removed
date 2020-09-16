@@ -281,6 +281,15 @@ h
 #
 include
 "
+js
+/
+Object
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -3749,7 +3758,10 @@ compartments
 .
 put
 (
-GetObjectCompartment
+JS
+:
+:
+GetCompartment
 (
 globals
 [

@@ -30,6 +30,15 @@ include
 "
 js
 /
+Object
+.
+h
+"
+#
+include
+"
+js
+/
 Proxy
 .
 h
@@ -1492,6 +1501,9 @@ target
 )
 ;
 return
+JS
+:
+:
 GetBuiltinClass
 (
 cx

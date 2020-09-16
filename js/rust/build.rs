@@ -1804,7 +1804,10 @@ GetPropertyKeys
 JS_GetPrototype
 "
 "
-JS_GetReservedSlot
+JS
+:
+:
+GetReservedSlot
 "
 "
 JS
@@ -1982,12 +1985,6 @@ JS_NewUint8Array
 "
 "
 JS_NewUint8ClampedArray
-"
-"
-js
-:
-:
-ObjectClassName
 "
 "
 JS

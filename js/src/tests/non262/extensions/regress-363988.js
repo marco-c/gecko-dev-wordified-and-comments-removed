@@ -11,7 +11,10 @@ Do
 not
 crash
 at
-JS_GetPrivate
+JS
+:
+:
+GetPrivate
 with
 large
 script

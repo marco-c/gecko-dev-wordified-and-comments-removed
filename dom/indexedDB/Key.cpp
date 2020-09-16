@@ -97,6 +97,15 @@ include
 "
 js
 /
+Object
+.
+h
+"
+#
+include
+"
+js
+/
 Value
 .
 h
@@ -1650,7 +1659,7 @@ builtinClass
 if
 (
 !
-js
+JS
 :
 :
 GetBuiltinClass

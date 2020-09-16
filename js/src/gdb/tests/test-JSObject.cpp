@@ -14,6 +14,15 @@ jsapi
 .
 h
 "
+#
+include
+"
+js
+/
+Object
+.
+h
+"
 FRAGMENT
 (
 JSObject
@@ -274,7 +283,10 @@ funcRef
 ;
 use
 (
-JS_GetClass
+JS
+:
+:
+GetClass
 (
 (
 JSObject

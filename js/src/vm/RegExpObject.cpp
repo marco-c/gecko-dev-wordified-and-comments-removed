@@ -105,6 +105,15 @@ include
 "
 js
 /
+Object
+.
+h
+"
+#
+include
+"
+js
+/
 RegExp
 .
 h

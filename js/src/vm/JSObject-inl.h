@@ -16,6 +16,15 @@ h
 #
 include
 "
+js
+/
+Object
+.
+h
+"
+#
+include
+"
 vm
 /
 ArrayObject
@@ -3544,6 +3553,9 @@ toObject
 )
 ;
 return
+JS
+:
+:
 GetBuiltinClass
 (
 cx

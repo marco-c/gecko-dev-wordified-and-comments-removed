@@ -152,6 +152,15 @@ include
 "
 js
 /
+Object
+.
+h
+"
+#
+include
+"
+js
+/
 SavedFrameAPI
 .
 h
@@ -3925,6 +3934,9 @@ cls
 if
 (
 !
+JS
+:
+:
 GetBuiltinClass
 (
 cx

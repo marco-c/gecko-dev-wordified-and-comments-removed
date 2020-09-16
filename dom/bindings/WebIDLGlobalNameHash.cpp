@@ -37,6 +37,15 @@ include
 "
 js
 /
+Object
+.
+h
+"
+#
+include
+"
+js
+/
 Wrapper
 .
 h
@@ -234,10 +243,10 @@ slot
 <
 JSCLASS_RESERVED_SLOTS
 (
-js
+JS
 :
 :
-GetObjectClass
+GetClass
 (
 interfaceObject
 )
@@ -253,7 +262,7 @@ JSObject
 constructor
 =
 &
-js
+JS
 :
 :
 GetReservedSlot

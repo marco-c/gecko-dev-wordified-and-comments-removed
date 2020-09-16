@@ -96,6 +96,15 @@ include
 "
 js
 /
+Object
+.
+h
+"
+#
+include
+"
+js
+/
 PropertySpec
 .
 h
@@ -1848,6 +1857,9 @@ cls
 if
 (
 !
+JS
+:
+:
 GetBuiltinClass
 (
 cx
@@ -3997,6 +4009,9 @@ cls
 if
 (
 !
+JS
+:
+:
 GetBuiltinClass
 (
 cx
