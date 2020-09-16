@@ -134,7 +134,16 @@ class
 MustFlushICache
 {
 No
-Yes
+LocalThreadOnly
+AllThreads
+}
+;
+enum
+class
+FlushICacheSpec
+{
+LocalThreadOnly
+AllThreads
 }
 ;
 extern

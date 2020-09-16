@@ -4704,6 +4704,10 @@ ExecutableAllocator
 :
 makeExecutableAndFlushICache
 (
+FlushICacheSpec
+:
+:
+LocalThreadOnly
 code
 roundedCodeLength
 )

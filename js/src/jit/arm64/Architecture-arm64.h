@@ -3317,6 +3317,11 @@ GetARM64Flags
 (
 )
 ;
+bool
+CanFlushICacheFromBackgroundThreads
+(
+)
+;
 }
 }
 #
