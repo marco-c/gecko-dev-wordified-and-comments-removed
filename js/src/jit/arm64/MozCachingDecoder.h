@@ -402,6 +402,7 @@ DECLARE
 (
 A
 )
+\
 virtual
 void
 Visit
