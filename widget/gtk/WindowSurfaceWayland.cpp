@@ -216,10 +216,8 @@ SurfaceFormat
 :
 B8G8R8A8
 ;
-RefPtr
-<
 nsWaylandDisplay
->
+*
 WindowBackBuffer
 :
 :
@@ -445,10 +443,8 @@ WaylandShmPool
 :
 WaylandShmPool
 (
-RefPtr
-<
 nsWaylandDisplay
->
+*
 aWaylandDisplay
 int
 aSize

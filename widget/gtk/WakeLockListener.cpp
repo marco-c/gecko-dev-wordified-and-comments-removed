@@ -1041,10 +1041,8 @@ CheckWaylandIdleInhibitSupport
 (
 )
 {
-RefPtr
-<
 nsWaylandDisplay
->
+*
 waylandDisplay
 =
 WaylandDisplayGet
@@ -1074,10 +1072,8 @@ InhibitWaylandIdle
 (
 )
 {
-RefPtr
-<
 nsWaylandDisplay
->
+*
 waylandDisplay
 =
 WaylandDisplayGet
