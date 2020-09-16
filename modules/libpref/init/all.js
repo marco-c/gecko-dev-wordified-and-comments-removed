@@ -8470,7 +8470,7 @@ true
 ;
 #
 ifdef
-_ARM64_
+MOZ_AARCH64
 #
 ifdef
 ENABLE_WASM_CRANELIFT
