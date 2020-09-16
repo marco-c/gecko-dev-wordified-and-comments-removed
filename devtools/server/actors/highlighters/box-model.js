@@ -335,6 +335,16 @@ onPageHide
 )
 ;
 }
+static
+get
+XULSupported
+(
+)
+{
+return
+true
+;
+}
 _buildMarkup
 (
 )
