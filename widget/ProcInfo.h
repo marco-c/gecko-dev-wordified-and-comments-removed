@@ -147,11 +147,6 @@ origin
 nsString
 filename
 ;
-uint64_t
-virtualMemorySize
-=
-0
-;
 int64_t
 residentSetSize
 =
@@ -339,15 +334,6 @@ source
 .
 filename
 )
-;
-dest
--
->
-mVirtualMemorySize
-=
-source
-.
-virtualMemorySize
 ;
 dest
 -

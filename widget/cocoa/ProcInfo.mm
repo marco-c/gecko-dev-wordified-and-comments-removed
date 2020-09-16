@@ -368,14 +368,6 @@ pbi_name
 ;
 info
 .
-virtualMemorySize
-=
-pti
-.
-pti_virtual_size
-;
-info
-.
 residentSetSize
 =
 pti

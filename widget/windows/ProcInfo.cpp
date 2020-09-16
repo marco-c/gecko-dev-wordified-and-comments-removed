@@ -450,14 +450,6 @@ WorkingSetSize
 ;
 info
 .
-virtualMemorySize
-=
-memoryCounters
-.
-PagefileUsage
-;
-info
-.
 residentUniqueSize
 =
 nsMemoryReporterManager
