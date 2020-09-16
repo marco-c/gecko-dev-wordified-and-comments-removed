@@ -33,6 +33,9 @@ DIRS
 '
 featurepolicy
 '
+'
+sanitizer
+'
 ]
 EXPORTS
 .

@@ -4814,6 +4814,13 @@ true
 name
 :
 "
+Sanitizer
+"
+}
+{
+name
+:
+"
 Screen
 "
 insecureContext
