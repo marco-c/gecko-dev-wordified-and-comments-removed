@@ -135,7 +135,6 @@ bool
 aIsAnimValItem
 )
 ;
-explicit
 DOMSVGTransform
 (
 )
@@ -149,7 +148,6 @@ gfxMatrix
 aMatrix
 )
 ;
-explicit
 DOMSVGTransform
 (
 const

@@ -7,13 +7,6 @@ DOM_SVG_SVGFECONVOLVEMATRIXELEMENT_H_
 #
 include
 "
-DOMSVGAnimatedNumberList
-.
-h
-"
-#
-include
-"
 SVGAnimatedBoolean
 .
 h

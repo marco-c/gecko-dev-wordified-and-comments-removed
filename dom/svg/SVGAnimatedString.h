@@ -7,13 +7,6 @@ DOM_SVG_SVGANIMATEDSTRING_H_
 #
 include
 "
-DOMSVGAnimatedString
-.
-h
-"
-#
-include
-"
 nsError
 .
 h

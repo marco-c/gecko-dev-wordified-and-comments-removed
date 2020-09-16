@@ -18,13 +18,6 @@ h
 #
 include
 "
-DOMSVGAnimatedEnumeration
-.
-h
-"
-#
-include
-"
 SVGAnimatedEnumeration
 .
 h
@@ -47,6 +40,9 @@ dom
 {
 struct
 DOMPointInit
+;
+class
+DOMSVGAnimatedEnumeration
 ;
 class
 DOMSVGPoint
