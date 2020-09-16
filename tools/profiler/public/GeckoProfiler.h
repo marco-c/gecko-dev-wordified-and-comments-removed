@@ -289,13 +289,6 @@ return
 nullptr
 ;
 }
-namespace
-mozilla
-{
-class
-ProfileChunkedBuffer
-;
-}
 static
 inline
 bool
