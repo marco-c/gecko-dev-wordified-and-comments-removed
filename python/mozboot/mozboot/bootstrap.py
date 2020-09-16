@@ -2612,6 +2612,15 @@ validate_environment
 checkout_root
 )
         
+self
+.
+instance
+.
+ensure_mach_environment
+(
+checkout_root
+)
+        
 have_clone
 =
 bool
@@ -2648,15 +2657,6 @@ state_dir_available
                                                         
 have_clone
                                                         
-checkout_root
-)
-            
-self
-.
-instance
-.
-ensure_mach_environment
-(
 checkout_root
 )
             
@@ -2986,15 +2986,6 @@ state_dir_available
                                                     
 have_clone
                                                     
-checkout_root
-)
-        
-self
-.
-instance
-.
-ensure_mach_environment
-(
 checkout_root
 )
         
