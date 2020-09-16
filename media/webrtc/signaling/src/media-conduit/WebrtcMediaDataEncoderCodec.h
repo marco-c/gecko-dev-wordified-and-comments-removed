@@ -335,12 +335,6 @@ mError
 =
 NS_OK
 ;
-MediaDataEncoder
-:
-:
-EncodedData
-mEncodedFrames
-;
 webrtc
 :
 :
