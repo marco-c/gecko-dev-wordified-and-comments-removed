@@ -50823,7 +50823,10 @@ NS_UNCONSTRAINEDSIZE
 ReflowInput
 :
 :
-DUMMY_PARENT_REFLOW_INPUT
+InitFlag
+:
+:
+DummyParentReflowInput
 )
 ;
 AddStateBits
@@ -51308,7 +51311,10 @@ parentSize
 ReflowInput
 :
 :
-DUMMY_PARENT_REFLOW_INPUT
+InitFlag
+:
+:
+DummyParentReflowInput
 )
 ;
 if
@@ -51523,7 +51529,10 @@ Nothing
 ReflowInput
 :
 :
-DUMMY_PARENT_REFLOW_INPUT
+InitFlag
+:
+:
+DummyParentReflowInput
 )
 ;
 reflowInput

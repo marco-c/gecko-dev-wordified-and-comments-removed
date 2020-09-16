@@ -25870,7 +25870,10 @@ NS_UNCONSTRAINEDSIZE
 ReflowInput
 :
 :
-DUMMY_PARENT_REFLOW_INPUT
+InitFlag
+:
+:
+DummyParentReflowInput
 )
 ;
 rs
@@ -26017,7 +26020,8 @@ Some
 (
 aCBSize
 )
-0
+{
+}
 csFlags
 )
 ;
@@ -26268,7 +26272,8 @@ Some
 (
 aCBSize
 )
-0
+{
+}
 csFlags
 )
 ;
@@ -40653,7 +40658,8 @@ Some
 (
 percentBasis
 )
-0
+{
+}
 csFlags
 )
 ;

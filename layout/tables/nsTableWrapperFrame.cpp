@@ -1331,7 +1331,10 @@ Nothing
 ReflowInput
 :
 :
-CALLER_WILL_INIT
+InitFlag
+:
+:
+CallerWillInit
 )
 ;
 InitChildReflowInput
@@ -4123,7 +4126,10 @@ Nothing
 ReflowInput
 :
 :
-CALLER_WILL_INIT
+InitFlag
+:
+:
+CallerWillInit
 )
 ;
 InitChildReflowInput
