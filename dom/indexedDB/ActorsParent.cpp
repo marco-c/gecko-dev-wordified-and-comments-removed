@@ -1269,13 +1269,6 @@ h
 #
 include
 "
-mozzconf
-.
-h
-"
-#
-include
-"
 nsBaseHashtable
 .
 h
