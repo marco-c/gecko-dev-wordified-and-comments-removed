@@ -177,12 +177,6 @@ ProcessExecutableRegion
 \
 _
 (
-OffThreadPromiseState
-500
-)
-\
-_
-(
 BufferStreamState
 500
 )
