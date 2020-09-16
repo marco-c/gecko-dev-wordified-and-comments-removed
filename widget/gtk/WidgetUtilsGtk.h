@@ -30,6 +30,11 @@ IsTouchDeviceSupportPresent
 ;
 }
 ;
+bool
+IsMainWindowTransparent
+(
+)
+;
 }
 }
 #
