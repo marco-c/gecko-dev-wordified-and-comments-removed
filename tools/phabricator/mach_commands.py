@@ -205,9 +205,16 @@ not
 installed
 .
 Try
-running
-mach
-bootstrap
+installing
+it
+with
+your
+system
+"
+                
+"
+package
+manager
 .
 "
             
