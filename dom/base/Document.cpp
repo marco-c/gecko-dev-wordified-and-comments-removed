@@ -7296,10 +7296,6 @@ mCreatingStaticClone
 (
 false
 )
-mHasPrintCallbacks
-(
-false
-)
 mInUnlinkOrDeletion
 (
 false
