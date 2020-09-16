@@ -37,10 +37,11 @@ UINT_MAX
 )
 -
 1
-typedef
+using
+punycode_uint
+=
 unsigned
 int
-punycode_uint
 ;
 #
 else
