@@ -128,6 +128,15 @@ errorCode
 )
 override
 ;
+NS_IMETHOD
+GetPeerId
+(
+nsACString
+&
+aResult
+)
+override
+;
 private
 :
 ~
@@ -139,6 +148,9 @@ default
 ;
 nsWeakPtr
 mHttp3Session
+;
+nsCString
+mPeerId
 ;
 }
 ;
