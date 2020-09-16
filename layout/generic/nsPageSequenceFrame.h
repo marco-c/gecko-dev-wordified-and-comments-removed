@@ -124,6 +124,14 @@ final
 public
 nsContainerFrame
 {
+using
+LogicalSize
+=
+mozilla
+:
+:
+LogicalSize
+;
 public
 :
 friend
