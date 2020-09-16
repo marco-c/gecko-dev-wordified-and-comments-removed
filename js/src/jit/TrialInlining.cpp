@@ -1460,17 +1460,6 @@ asJSScript
 (
 )
 ;
-JitScript
-*
-targetJitScript
-=
-targetScript
--
->
-jitScript
-(
-)
-;
 uint32_t
 allocSize
 =
@@ -1564,7 +1553,6 @@ raw
 )
 ICScript
 (
-targetJitScript
 InitialWarmUpCount
 allocSize
 depth
