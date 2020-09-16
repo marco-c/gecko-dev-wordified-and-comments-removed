@@ -1299,7 +1299,6 @@ _onResourceAvailable
 _onResourceAvailable
 (
 {
-targetFront
 resource
 }
 )
@@ -1401,7 +1400,6 @@ resource
 _onResourceUpdated
 (
 {
-targetFront
 resource
 }
 )

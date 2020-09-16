@@ -692,7 +692,6 @@ async
 onResourceAvailable
 (
 {
-targetFront
 resource
 }
 )
@@ -725,7 +724,6 @@ this
 .
 onDocEvent
 (
-targetFront
 resource
 )
 ;
@@ -1457,13 +1455,14 @@ reloaded
 }
 onDocEvent
 (
-targetFront
-event
+resource
 )
 {
 if
 (
 !
+resource
+.
 targetFront
 .
 isTopLevel
@@ -1474,7 +1473,7 @@ return
 }
 if
 (
-event
+resource
 .
 name
 =
@@ -1503,13 +1502,13 @@ actions
 .
 addTimingMarker
 (
-event
+resource
 )
 ;
 }
 if
 (
-event
+resource
 .
 name
 =
@@ -1536,7 +1535,7 @@ emitForTests
 TEST_EVENTS
 .
 TIMELINE_EVENT
-event
+resource
 )
 ;
 }

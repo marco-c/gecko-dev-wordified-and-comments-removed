@@ -4880,7 +4880,6 @@ onAvailable
 =
 (
 {
-targetFront
 resource
 }
 )
@@ -4890,7 +4889,6 @@ resource
 resolve
 (
 {
-targetFront
 resource
 }
 )
