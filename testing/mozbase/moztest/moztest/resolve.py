@@ -721,6 +721,11 @@ e10s
 '
 :
 False
+'
+enable_fission
+'
+:
+False
 }
         
 '
@@ -1050,6 +1055,11 @@ e10s
 '
 :
 False
+'
+enable_fission
+'
+:
+False
 }
         
 '
@@ -1166,6 +1176,12 @@ test_paths
 None
 '
 e10s
+'
+:
+False
+                   
+'
+enable_fission
 '
 :
 False
