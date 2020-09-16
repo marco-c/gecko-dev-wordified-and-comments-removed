@@ -3378,6 +3378,12 @@ JSOp
 :
 ToPropertyKey
 :
+case
+JSOp
+:
+:
+OptimizeSpreadCall
+:
 MOZ_TRY
 (
 maybeInlineIC
@@ -4044,12 +4050,6 @@ JSOp
 :
 :
 SpreadSuperCall
-:
-case
-JSOp
-:
-:
-OptimizeSpreadCall
 :
 case
 JSOp
