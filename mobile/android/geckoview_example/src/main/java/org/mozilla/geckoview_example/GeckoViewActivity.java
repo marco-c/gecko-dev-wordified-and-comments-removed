@@ -109,6 +109,15 @@ mozilla
 .
 geckoview
 .
+Image
+;
+import
+org
+.
+mozilla
+.
+geckoview
+.
 SlowScriptResponse
 ;
 import
@@ -720,9 +729,7 @@ extension
 private
 LruCache
 <
-WebExtension
-.
-Icon
+Image
 Bitmap
 >
 mBitmapCache
@@ -1509,7 +1516,7 @@ resolved
 .
 icon
 .
-get
+getBitmap
 (
 100
 )
