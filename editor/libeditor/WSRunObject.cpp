@@ -3030,7 +3030,7 @@ editingHost
 ;
 const
 bool
-insertionPointEqualsOrIsBeforeStartOfText
+isInsertionPointEqualsOrIsBeforeStartOfText
 =
 aRangeToBeReplaced
 .
@@ -3070,7 +3070,7 @@ editingHost
 ;
 const
 bool
-insertionPointAfterEndOfText
+isInsertionPointEqualsOrAfterEndOfText
 =
 textFragmentDataAtEnd
 .
@@ -3763,7 +3763,7 @@ StartsFromHardLineBreak
 )
 &
 &
-insertionPointEqualsOrIsBeforeStartOfText
+isInsertionPointEqualsOrIsBeforeStartOfText
 )
 {
 theString
@@ -3821,7 +3821,7 @@ lastCharIndex
 }
 if
 (
-pointPositionWithVisibleWhiteSpacesAtStart
+pointPositionWithVisibleWhiteSpacesAtEnd
 =
 =
 PointPosition
@@ -3830,7 +3830,7 @@ PointPosition
 StartOfFragment
 |
 |
-pointPositionWithVisibleWhiteSpacesAtStart
+pointPositionWithVisibleWhiteSpacesAtEnd
 =
 =
 PointPosition
@@ -3842,7 +3842,7 @@ MiddleOfFragment
 EditorDOMPointInText
 atNextChar
 =
-textFragmentDataAtStart
+textFragmentDataAtEnd
 .
 GetInclusiveNextEditableCharPoint
 (
@@ -3893,7 +3893,7 @@ EndsByBlockBoundary
 )
 &
 &
-insertionPointAfterEndOfText
+isInsertionPointEqualsOrAfterEndOfText
 )
 {
 theString
