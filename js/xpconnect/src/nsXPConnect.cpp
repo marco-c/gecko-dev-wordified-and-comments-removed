@@ -53,6 +53,15 @@ include
 "
 js
 /
+AllocationLogging
+.
+h
+"
+#
+include
+"
+js
+/
 Object
 .
 h
@@ -619,7 +628,7 @@ InitStatics
 #
 ifdef
 NS_BUILD_REFCNT_LOGGING
-js
+JS
 :
 :
 SetLogCtorDtorFunctions
