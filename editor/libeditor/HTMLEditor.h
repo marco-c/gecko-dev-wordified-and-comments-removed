@@ -374,13 +374,6 @@ HTMLEditor
 (
 )
 ;
-nsHTMLDocument
-*
-GetHTMLDocument
-(
-)
-const
-;
 MOZ_CAN_RUN_SCRIPT
 virtual
 void
