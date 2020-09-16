@@ -1,7 +1,3 @@
-extern
-crate
-nsstring
-;
 use
 nsstring
 :

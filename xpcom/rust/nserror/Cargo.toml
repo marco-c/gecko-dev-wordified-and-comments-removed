@@ -50,6 +50,11 @@ and
 NS_ERROR_
 values
 "
+edition
+=
+"
+2018
+"
 [
 dependencies
 ]

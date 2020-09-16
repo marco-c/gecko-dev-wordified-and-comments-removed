@@ -1576,6 +1576,9 @@ EDIT
 *
 /
 use
+crate
+:
+:
 RefPtr
 ;
 "
@@ -1654,6 +1657,7 @@ Option
 <
 RefPtr
 <
+crate
 :
 :
 interfaces
@@ -1687,6 +1691,7 @@ s
 >
 *
 mut
+crate
 :
 :
 interfaces

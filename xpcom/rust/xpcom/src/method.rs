@@ -1,7 +1,3 @@
-extern
-crate
-nserror
-;
 use
 nserror
 :
@@ -636,6 +632,8 @@ unsafe
 fn
 ensure
 (
+value
+:
 T
 )
 -

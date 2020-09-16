@@ -44,6 +44,11 @@ xpcom
 string
 types
 "
+edition
+=
+"
+2018
+"
 [
 features
 ]
