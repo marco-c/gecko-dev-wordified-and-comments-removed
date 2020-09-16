@@ -929,7 +929,7 @@ js
 DOMCallbacks
 "
 "
-js
+JS
 :
 :
 DOMProxyShadowsResult

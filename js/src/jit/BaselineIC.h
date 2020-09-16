@@ -88,6 +88,15 @@ h
 #
 include
 "
+proxy
+/
+DOMProxy
+.
+h
+"
+#
+include
+"
 vm
 /
 ArrayObject

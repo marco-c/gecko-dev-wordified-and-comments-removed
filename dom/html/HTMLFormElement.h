@@ -115,7 +115,11 @@ h
 #
 include
 "
-jsfriendapi
+js
+/
+friend
+/
+DOMProxy
 .
 h
 "
@@ -1206,7 +1210,7 @@ aForm
 ;
 #
 endif
-js
+JS
 :
 :
 ExpandoAndGeneration

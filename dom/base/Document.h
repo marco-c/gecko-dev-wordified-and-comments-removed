@@ -392,6 +392,17 @@ bitset
 #
 include
 "
+js
+/
+friend
+/
+DOMProxy
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ServoStyleConsts
@@ -13715,7 +13726,7 @@ mPreloadService
 ;
 public
 :
-js
+JS
 :
 :
 ExpandoAndGeneration
