@@ -822,6 +822,9 @@ bool
 mCancel
 ;
 bool
+mEndCalled
+;
+bool
 mCompleted
 ;
 bool
