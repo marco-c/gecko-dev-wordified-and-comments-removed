@@ -141,7 +141,7 @@ len
 return
 Write
 (
-nsDependentCString
+nsDependentCSubstring
 (
 str
 len

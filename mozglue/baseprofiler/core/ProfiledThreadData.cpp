@@ -472,10 +472,6 @@ StringProperty
 name
 "
 name
-.
-c_str
-(
-)
 )
 ;
 }
@@ -497,10 +493,6 @@ StringProperty
 processName
 "
 aProcessName
-.
-c_str
-(
-)
 )
 ;
 }
@@ -524,10 +516,6 @@ eTLD
 1
 "
 aETLDplus1
-.
-c_str
-(
-)
 )
 ;
 }

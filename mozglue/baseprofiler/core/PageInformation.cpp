@@ -147,10 +147,6 @@ url
 Url
 (
 )
-.
-c_str
-(
-)
 )
 ;
 aWriter

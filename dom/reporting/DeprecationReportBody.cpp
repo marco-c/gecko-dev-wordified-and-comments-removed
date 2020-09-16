@@ -278,10 +278,6 @@ NS_ConvertUTF16toUTF8
 (
 mId
 )
-.
-get
-(
-)
 )
 ;
 aWriter
@@ -294,10 +290,6 @@ message
 NS_ConvertUTF16toUTF8
 (
 mMessage
-)
-.
-get
-(
 )
 )
 ;
@@ -332,10 +324,6 @@ sourceFile
 NS_ConvertUTF16toUTF8
 (
 mSourceFile
-)
-.
-get
-(
 )
 )
 ;

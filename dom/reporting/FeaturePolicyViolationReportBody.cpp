@@ -237,10 +237,6 @@ NS_ConvertUTF16toUTF8
 (
 mFeatureId
 )
-.
-get
-(
-)
 )
 ;
 if
@@ -274,10 +270,6 @@ sourceFile
 NS_ConvertUTF16toUTF8
 (
 mSourceFile
-)
-.
-get
-(
 )
 )
 ;
@@ -364,10 +356,6 @@ disposition
 NS_ConvertUTF16toUTF8
 (
 mDisposition
-)
-.
-get
-(
 )
 )
 ;
