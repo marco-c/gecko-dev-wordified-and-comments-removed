@@ -510,6 +510,7 @@ bool
 HonorPrintBackgroundSettings
 (
 )
+const
 override
 ;
 virtual

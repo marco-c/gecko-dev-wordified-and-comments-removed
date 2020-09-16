@@ -336,6 +336,7 @@ bool
 HonorPrintBackgroundSettings
 (
 )
+const
 override
 {
 return
