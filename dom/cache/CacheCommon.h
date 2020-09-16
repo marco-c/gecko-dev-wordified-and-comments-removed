@@ -221,12 +221,12 @@ void
 HandleError
 (
 const
-nsLiteralCString
-&
+char
+*
 aExpr
 const
-nsLiteralCString
-&
+char
+*
 aSourceFile
 int32_t
 aSourceLine
