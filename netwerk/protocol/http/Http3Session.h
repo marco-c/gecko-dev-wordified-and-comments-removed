@@ -751,6 +751,9 @@ mBeforeConnectedError
 uint64_t
 mCurrentForegroundTabOuterContentWindowId
 ;
+bool
+mTimerActive
+;
 nsTArray
 <
 uint8_t
