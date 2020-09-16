@@ -1075,8 +1075,6 @@ title
 ;
 }
 return
-this
-.
 apiRequest
 (
 {
@@ -1277,8 +1275,6 @@ options
 )
 {
 return
-this
-.
 apiRequest
 (
 {
@@ -1352,8 +1348,6 @@ options
 )
 {
 return
-this
-.
 apiRequest
 (
 {
@@ -1419,8 +1413,6 @@ options
 )
 {
 return
-this
-.
 apiRequest
 (
 {
@@ -1590,8 +1582,6 @@ options
 )
 {
 return
-this
-.
 apiRequest
 (
 {
@@ -2122,8 +2112,6 @@ getAccessToken
 )
 ;
 return
-this
-.
 apiRequest
 (
 {
@@ -2181,8 +2169,6 @@ getAccessToken
 )
 ;
 return
-this
-.
 apiRequest
 (
 {
@@ -2366,7 +2352,6 @@ getSignupPanelTabTestVariant
 retrieve
 getArticleInfo
 getMobileDownload
-apiRequest
 }
 ;
 }
