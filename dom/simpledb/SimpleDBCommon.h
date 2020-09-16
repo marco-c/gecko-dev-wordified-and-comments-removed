@@ -223,6 +223,7 @@ kPrefSimpleDBEnabled
 namespace
 simpledb
 {
+MOZ_NEVER_INLINE
 void
 HandleError
 (

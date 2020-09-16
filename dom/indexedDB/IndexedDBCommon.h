@@ -217,6 +217,7 @@ dom
 :
 indexedDB
 {
+MOZ_NEVER_INLINE
 void
 HandleError
 (

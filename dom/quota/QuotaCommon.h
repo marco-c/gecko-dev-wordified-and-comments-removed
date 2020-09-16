@@ -2266,6 +2266,7 @@ aSourceLine
 ;
 #
 endif
+MOZ_NEVER_INLINE
 void
 HandleError
 (

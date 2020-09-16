@@ -354,6 +354,7 @@ GetLocalStorageLogger
 namespace
 localstorage
 {
+MOZ_NEVER_INLINE
 void
 HandleError
 (
