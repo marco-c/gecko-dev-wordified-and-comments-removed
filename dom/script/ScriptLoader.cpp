@@ -11109,6 +11109,7 @@ NS_OK
 }
 if
 (
+(
 aRequest
 -
 >
@@ -11121,6 +11122,16 @@ aRequest
 -
 >
 IsBlockingScript
+(
+)
+)
+&
+&
+!
+aRequest
+-
+>
+isInList
 (
 )
 )
