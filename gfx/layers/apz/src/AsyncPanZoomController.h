@@ -2201,6 +2201,7 @@ PAN_MOMENTUM
 PINCHING
 ANIMATING_ZOOM
 OVERSCROLL_ANIMATION
+SMOOTH_SCROLL
 SMOOTHMSD_SCROLL
 WHEEL_SCROLL
 KEYBOARD_SCROLL
@@ -2491,6 +2492,19 @@ const
 ParentLayerPoint
 &
 aVelocity
+)
+;
+void
+SmoothScrollTo
+(
+const
+CSSPoint
+&
+aDestination
+const
+ScrollOrigin
+&
+aOrigin
 )
 ;
 void
