@@ -17584,7 +17584,7 @@ ci
 gHttpHandler
 -
 >
-BlacklistSpdy
+ExcludeHttp2
 (
 ci
 )
