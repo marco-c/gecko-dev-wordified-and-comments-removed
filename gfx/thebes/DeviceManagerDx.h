@@ -377,6 +377,12 @@ CreateCanvasDevice
 (
 )
 ;
+static
+HANDLE
+CreateDCompSurfaceHandle
+(
+)
+;
 void
 GetCompositorDevices
 (

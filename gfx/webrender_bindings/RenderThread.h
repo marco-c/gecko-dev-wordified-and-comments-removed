@@ -895,6 +895,13 @@ SimulateDeviceReset
 )
 ;
 void
+NotifyWebRenderError
+(
+WebRenderError
+aError
+)
+;
+void
 HandleWebRenderError
 (
 WebRenderError
