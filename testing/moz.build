@@ -65,6 +65,17 @@ GeckoView
 General
 "
 )
+SPHINX_TREES
+[
+'
+/
+testing
+'
+]
+=
+'
+docs
+'
 DIRS
 +
 =
