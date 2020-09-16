@@ -167,13 +167,6 @@ PLUGIN_SUPPRESSED
 const
 unsigned
 long
-PLUGIN_USER_DISABLED
-=
-7
-;
-const
-unsigned
-long
 PLUGIN_CLICK_TO_PLAY
 =
 8

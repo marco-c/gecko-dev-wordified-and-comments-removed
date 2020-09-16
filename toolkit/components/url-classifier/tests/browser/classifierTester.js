@@ -1302,7 +1302,7 @@ Ci
 .
 nsIObjectLoadingContent
 .
-PLUGIN_USER_DISABLED
+PLUGIN_DISABLED
 ;
 }
 throw

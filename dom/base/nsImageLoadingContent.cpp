@@ -560,10 +560,6 @@ mBroken
 (
 true
 )
-mUserDisabled
-(
-false
-)
 mSuppressed
 (
 false
@@ -5615,17 +5611,6 @@ NS_EVENT_STATE_BROKEN
 }
 if
 (
-mUserDisabled
-)
-{
-states
-|
-=
-NS_EVENT_STATE_USERDISABLED
-;
-}
-if
-(
 mSuppressed
 )
 {
@@ -5682,8 +5667,6 @@ mLoading
 =
 mBroken
 =
-mUserDisabled
-=
 mSuppressed
 =
 false
@@ -5716,7 +5699,7 @@ nsIContentPolicy
 REJECT_TYPE
 )
 {
-mUserDisabled
+mBroken
 =
 true
 ;

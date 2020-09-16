@@ -11513,11 +11513,6 @@ MozBroken
 NonTSPseudoClass
 :
 :
-MozUserDisabled
-|
-NonTSPseudoClass
-:
-:
 MozSuppressed
 |
 NonTSPseudoClass

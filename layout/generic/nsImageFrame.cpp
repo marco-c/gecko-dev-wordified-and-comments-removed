@@ -3360,14 +3360,6 @@ return
 r
 ;
 }
-#
-define
-BAD_STATES
-(
-NS_EVENT_STATE_BROKEN
-|
-NS_EVENT_STATE_USERDISABLED
-)
 static
 bool
 ImageOk
@@ -3380,9 +3372,9 @@ return
 !
 aState
 .
-HasAtLeastOneOfStates
+HasState
 (
-BAD_STATES
+NS_EVENT_STATE_BROKEN
 )
 ;
 }

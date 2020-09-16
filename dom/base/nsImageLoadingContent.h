@@ -1157,11 +1157,6 @@ mBroken
 1
 ;
 bool
-mUserDisabled
-:
-1
-;
-bool
 mSuppressed
 :
 1

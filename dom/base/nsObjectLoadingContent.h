@@ -237,12 +237,6 @@ nsIObjectLoadingContent
 :
 :
 PLUGIN_SUPPRESSED
-eFallbackUserDisabled
-=
-nsIObjectLoadingContent
-:
-:
-PLUGIN_USER_DISABLED
 eFallbackClickToPlay
 =
 nsIObjectLoadingContent
