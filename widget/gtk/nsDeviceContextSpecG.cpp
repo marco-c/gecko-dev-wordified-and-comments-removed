@@ -1097,10 +1097,6 @@ mToPrinter
 {
 if
 (
-GtkPrinter
-*
-printer
-=
 mPrintSettings
 -
 >
