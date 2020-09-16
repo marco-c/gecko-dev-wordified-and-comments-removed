@@ -579,10 +579,8 @@ isDisabled
 !
 instr
 )
-{
 return
 ;
-}
 char
 buffer
 [
@@ -653,10 +651,8 @@ isDisabled
 !
 instr
 )
-{
 return
 ;
-}
 char
 buffer
 [
@@ -879,10 +875,8 @@ isDisabled
 !
 instr
 )
-{
 return
 ;
-}
 char
 buffer
 [
@@ -992,13 +986,11 @@ isDisabled
 (
 )
 )
-{
 return
 LabelDoc
 (
 )
 ;
-}
 return
 spew_
 .

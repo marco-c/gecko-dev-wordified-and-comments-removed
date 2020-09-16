@@ -725,11 +725,9 @@ ImmUncondBranch
 =
 0
 )
-{
 return
 this
 ;
-}
 const
 Instruction
 *
@@ -753,11 +751,9 @@ Mask
 =
 0xffff0000
 )
-{
 return
 this
 ;
-}
 return
 ImmPCOffsetTarget
 (

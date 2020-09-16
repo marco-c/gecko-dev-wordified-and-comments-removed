@@ -100,13 +100,11 @@ offset
 =
 kEndOfLabelUseList
 )
-{
 return
 BufferOffset
 (
 )
 ;
-}
 return
 BufferOffset
 (
@@ -238,11 +236,9 @@ oom
 (
 )
 )
-{
 return
 kEndOfLabelUseList
 ;
-}
 if
 (
 label
