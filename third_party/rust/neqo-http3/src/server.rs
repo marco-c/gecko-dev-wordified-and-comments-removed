@@ -5954,6 +5954,7 @@ ZeroRttState
 let
 (
 _
+mut
 client
 )
 =
@@ -5999,7 +6000,7 @@ default_client
 ;
 client
 .
-set_resumption_token
+enable_resumption
 (
 now
 (

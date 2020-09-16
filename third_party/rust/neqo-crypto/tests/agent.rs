@@ -2486,7 +2486,7 @@ server
 ;
 client
 .
-set_resumption_token
+enable_resumption
 (
 &
 token
@@ -2628,7 +2628,7 @@ server
 ;
 client
 .
-set_resumption_token
+enable_resumption
 (
 &
 token
@@ -2826,7 +2826,7 @@ server
 ;
 client
 .
-set_resumption_token
+enable_resumption
 (
 &
 token
@@ -3099,7 +3099,7 @@ server
 ;
 client
 .
-set_resumption_token
+enable_resumption
 (
 &
 token

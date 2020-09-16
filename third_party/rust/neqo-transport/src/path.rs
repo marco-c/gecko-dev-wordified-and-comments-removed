@@ -416,10 +416,8 @@ self
 )
 -
 >
-&
 SocketAddr
 {
-&
 self
 .
 local
@@ -433,10 +431,8 @@ self
 )
 -
 >
-&
 SocketAddr
 {
-&
 self
 .
 remote

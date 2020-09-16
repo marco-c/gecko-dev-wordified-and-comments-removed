@@ -92,6 +92,10 @@ dropped_rx
 :
 usize
 pub
+saved_datagrams
+:
+usize
+pub
 packets_tx
 :
 usize
@@ -246,6 +250,9 @@ drop
 dup
 {
 }
+saved
+{
+}
 "
 self
 .
@@ -256,6 +263,9 @@ dropped_rx
 self
 .
 dups_rx
+self
+.
+saved_datagrams
 )
 ?
 ;

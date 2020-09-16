@@ -15,7 +15,7 @@ version
 .
 4
 .
-10
+11
 "
 authors
 =
@@ -50,15 +50,6 @@ Apache
 [
 dependencies
 ]
-num
--
-traits
-=
-"
-0
-.
-2
-"
 log
 =
 {
