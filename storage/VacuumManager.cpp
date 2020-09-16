@@ -659,11 +659,10 @@ rv
 false
 )
 ;
-mDBFilename
-=
-NS_ConvertUTF16toUTF8
+CopyUTF16toUTF8
 (
 databaseFilename
+mDBFilename
 )
 ;
 MOZ_ASSERT

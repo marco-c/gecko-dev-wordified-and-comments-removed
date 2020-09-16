@@ -14263,11 +14263,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
-aOutName
-=
-NS_ConvertUTF16toUTF8
+CopyUTF16toUTF8
 (
 histogramName
+aOutName
 )
 ;
 JS

@@ -2704,11 +2704,10 @@ if
 unicode
 )
 {
-ucsHostBuf
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 hostBuf
+ucsHostBuf
 )
 ;
 hostPtr

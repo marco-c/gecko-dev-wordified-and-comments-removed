@@ -19303,11 +19303,10 @@ rv
 )
 )
 {
-profileName
-=
-NS_ConvertUTF16toUTF8
+CopyUTF16toUTF8
 (
 leafName
+profileName
 )
 ;
 }

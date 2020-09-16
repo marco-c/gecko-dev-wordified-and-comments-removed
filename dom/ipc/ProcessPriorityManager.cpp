@@ -2666,11 +2666,10 @@ return
 mNameWithComma
 ;
 }
-mNameWithComma
-=
-NS_ConvertUTF16toUTF8
+CopyUTF16toUTF8
 (
 name
+mNameWithComma
 )
 ;
 mNameWithComma

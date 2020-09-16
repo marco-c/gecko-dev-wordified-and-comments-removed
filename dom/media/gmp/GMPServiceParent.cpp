@@ -949,11 +949,10 @@ Append
 arch
 )
 ;
-aOutPlatform
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 platform
+aOutPlatform
 )
 ;
 return

@@ -660,11 +660,10 @@ if
 isUTF8
 )
 {
-convertedScript
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 script
+convertedScript
 )
 ;
 }

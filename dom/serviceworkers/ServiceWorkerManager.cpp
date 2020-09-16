@@ -10311,9 +10311,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-aScope
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 r
 -
@@ -10321,6 +10319,7 @@ r
 Scope
 (
 )
+aScope
 )
 ;
 return

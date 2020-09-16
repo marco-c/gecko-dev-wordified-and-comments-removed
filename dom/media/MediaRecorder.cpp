@@ -2210,9 +2210,7 @@ HaveCodecs
 )
 )
 {
-result
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 constrainedType
 -
@@ -2220,6 +2218,7 @@ constrainedType
 OriginalString
 (
 )
+result
 )
 ;
 }

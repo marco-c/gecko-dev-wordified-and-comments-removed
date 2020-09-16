@@ -301,11 +301,10 @@ GetSpec
 spec
 )
 ;
-aAbsoluteUrl
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 spec
+aAbsoluteUrl
 )
 ;
 return

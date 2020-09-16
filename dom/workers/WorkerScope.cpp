@@ -1818,14 +1818,13 @@ if
 urlCount
 )
 {
-urls
-=
-NS_ConvertUTF16toUTF8
+CopyUTF16toUTF8
 (
 aScriptURLs
 [
 0
 ]
+urls
 )
 ;
 for

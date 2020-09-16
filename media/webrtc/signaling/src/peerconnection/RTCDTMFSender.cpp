@@ -445,15 +445,10 @@ NS_ERROR_DOM_INVALID_CHARACTER_ERR
 return
 ;
 }
-mToneBuffer
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 utf8Tones
-.
-c_str
-(
-)
+mToneBuffer
 )
 ;
 mDuration

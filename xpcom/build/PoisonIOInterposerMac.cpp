@@ -464,11 +464,10 @@ filename
 1
 )
 {
-mFilename
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 filename
+mFilename
 )
 ;
 }

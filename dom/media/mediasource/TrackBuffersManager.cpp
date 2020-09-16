@@ -13582,11 +13582,7 @@ TrackBuffersManagerDebugInfo
 aInfo
 )
 {
-aInfo
-.
-mType
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 mType
 .
@@ -13597,6 +13593,9 @@ Type
 AsString
 (
 )
+aInfo
+.
+mType
 )
 ;
 if

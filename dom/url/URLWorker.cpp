@@ -210,11 +210,10 @@ return
 false
 ;
 }
-mURL
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 url
+mURL
 )
 ;
 return

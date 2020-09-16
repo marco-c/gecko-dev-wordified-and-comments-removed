@@ -199,11 +199,10 @@ IsEmpty
 )
 )
 {
-aBCP47LangTag
-=
-NS_ConvertUTF16toUTF8
+CopyUTF16toUTF8
 (
 lang
+aBCP47LangTag
 )
 ;
 return
@@ -247,11 +246,10 @@ IsEmpty
 )
 )
 {
-aBCP47LangTag
-=
-NS_ConvertUTF16toUTF8
+CopyUTF16toUTF8
 (
 lang
+aBCP47LangTag
 )
 ;
 return

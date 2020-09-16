@@ -26803,11 +26803,10 @@ GetAsciiOrigin
 asciiOrigin
 )
 ;
-aOrigin
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 asciiOrigin
+aOrigin
 )
 ;
 }

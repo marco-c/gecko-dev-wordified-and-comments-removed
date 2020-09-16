@@ -2086,13 +2086,12 @@ file
 ChromeFilePropertyBag
 bag
 ;
+CopyUTF8toUTF16
+(
+mBodyMimeType
 bag
 .
 mType
-=
-NS_ConvertUTF8toUTF16
-(
-mBodyMimeType
 )
 ;
 ErrorResult

@@ -7549,11 +7549,10 @@ GetSpec
 src
 )
 ;
-iconUrl
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 src
+iconUrl
 )
 ;
 }
@@ -7611,11 +7610,10 @@ GetSpec
 src
 )
 ;
-soundUrl
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 src
+soundUrl
 )
 ;
 }

@@ -264,11 +264,10 @@ aRetVal
 return
 ;
 }
-aRetVal
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 mRemoteAddress
+aRetVal
 )
 ;
 }
