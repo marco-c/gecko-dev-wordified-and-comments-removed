@@ -75,6 +75,11 @@ cramtest
 tools
 /
 tryselect
+always
+-
+target
+:
+true
 when
 :
 files
