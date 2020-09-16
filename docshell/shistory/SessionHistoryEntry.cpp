@@ -4429,8 +4429,9 @@ do_QueryInterface
 aChild
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+aChild
 child
 )
 ;
