@@ -5066,7 +5066,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eShrinkWrap
+ShrinkWrap
 )
 |
 |
@@ -12979,7 +12979,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eIClampMarginBoxMinSize
+IClampMarginBoxMinSize
 )
 )
 {
@@ -13032,7 +13032,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eIClampMarginBoxMinSize
+IClampMarginBoxMinSize
 )
 ;
 }
@@ -13336,7 +13336,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eBClampMarginBoxMinSize
+BClampMarginBoxMinSize
 )
 )
 {
@@ -13389,7 +13389,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eBClampMarginBoxMinSize
+BClampMarginBoxMinSize
 )
 ;
 }
@@ -13668,7 +13668,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eIClampMarginBoxMinSize
+IClampMarginBoxMinSize
 )
 &
 &
@@ -13748,7 +13748,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eBClampMarginBoxMinSize
+BClampMarginBoxMinSize
 )
 &
 &
@@ -14065,7 +14065,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eIClampMarginBoxMinSize
+IClampMarginBoxMinSize
 )
 &
 &
@@ -14165,7 +14165,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eBClampMarginBoxMinSize
+BClampMarginBoxMinSize
 )
 &
 &

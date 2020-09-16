@@ -2535,7 +2535,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eIClampMarginBoxMinSize
+IClampMarginBoxMinSize
 )
 {
 autoSize
