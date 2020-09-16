@@ -562,7 +562,7 @@ if
 (
 targets
 .
-has
+includes
 (
 "
 frame
@@ -704,7 +704,7 @@ if
 (
 initialWatchedResources
 .
-size
+length
 >
 0
 )
@@ -713,12 +713,7 @@ targetActor
 .
 watchTargetResources
 (
-[
-.
-.
-.
 initialWatchedResources
-]
 )
 ;
 }
