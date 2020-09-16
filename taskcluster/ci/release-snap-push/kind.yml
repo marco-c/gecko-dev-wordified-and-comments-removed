@@ -205,12 +205,13 @@ beta
 release
 :
 candidate
-esr68
+esr78
 :
 esr
 /
 stable
-esr78
+#
+esrXX
 :
 esr
 /
