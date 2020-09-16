@@ -252,7 +252,11 @@ MutexAutoLock
 aProofOfLock
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 DispatchToIOThread
 (
