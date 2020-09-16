@@ -88,8 +88,14 @@ assertEq
 (
 env
 .
-callee
+calleeScript
 expectedCallee
+?
+expectedCallee
+.
+script
+:
+null
 )
 ;
 }

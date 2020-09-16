@@ -127,7 +127,7 @@ assertEq
 (
 blockenv
 .
-callee
+calleeScript
 null
 )
 ;
@@ -189,12 +189,12 @@ assertEq
 (
 funenv
 .
-callee
+calleeScript
 f
 .
 older
 .
-callee
+script
 )
 ;
 assertEq
@@ -257,7 +257,7 @@ assertEq
 (
 globalenv
 .
-callee
+calleeScript
 null
 )
 ;

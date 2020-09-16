@@ -98,7 +98,7 @@ assertThrowsInstanceOf
 >
 env
 .
-callee
+calleeScript
 Error
 )
 ;

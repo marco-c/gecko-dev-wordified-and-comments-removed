@@ -846,7 +846,7 @@ bindings
 #
 #
 #
-callee
+calleeScript
 If
 this
 environment
@@ -893,10 +893,10 @@ a
 [
 Debugger
 .
-Object
+Script
 ]
 [
-object
+script
 ]
 instance
 referring
@@ -909,6 +909,9 @@ f
 /
 i
 >
+'
+s
+script
 .
 Otherwise
 this
