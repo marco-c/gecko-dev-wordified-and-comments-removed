@@ -176,11 +176,6 @@ aOrigin
 )
 ;
 void
-EnsureInitialViewportSet
-(
-)
-;
-void
 SetInitialViewport
 (
 )
