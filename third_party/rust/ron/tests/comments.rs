@@ -10,7 +10,7 @@ from_str
 Error
 as
 RonErr
-ParseError
+ErrorCode
 Position
 }
 ;
@@ -293,14 +293,15 @@ invalid
 Err
 (
 RonErr
+{
+code
 :
-:
-Parser
-(
-ParseError
+ErrorCode
 :
 :
 UnclosedBlockComment
+position
+:
 Position
 {
 col
@@ -310,7 +311,7 @@ line
 :
 9
 }
-)
+}
 )
 )
 ;
