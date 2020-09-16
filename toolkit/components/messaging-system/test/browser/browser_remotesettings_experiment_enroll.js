@@ -365,9 +365,9 @@ RemoteSettings
 "
 nimbus
 -
-experiments
--
 desktop
+-
+experiments
 "
 )
 ;
