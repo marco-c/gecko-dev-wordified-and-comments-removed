@@ -338,7 +338,7 @@ rvIgnored
 selection
 -
 >
-Collapse
+CollapseInLimiter
 (
 textNode
 mOffset
@@ -360,7 +360,7 @@ rvIgnored
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed

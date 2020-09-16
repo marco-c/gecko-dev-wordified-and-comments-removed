@@ -10206,7 +10206,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-Collapse
+CollapseInLimiter
 (
 *
 container
@@ -10362,7 +10362,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-Collapse
+CollapseInLimiter
 (
 *
 container
@@ -14961,7 +14961,7 @@ AnchorOffset
 0
 )
 {
-Collapse
+CollapseInLimiter
 (
 GetAnchorNode
 (
@@ -15408,7 +15408,7 @@ FocusOffset
 (
 )
 ;
-Collapse
+CollapseInLimiter
 (
 focusNode
 focusOffset

@@ -515,7 +515,7 @@ aPresContext
 )
 ;
 nsresult
-Collapse
+CollapseInLimiter
 (
 nsINode
 *
@@ -535,7 +535,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 return
-Collapse
+CollapseInLimiter
 (
 RawRangeBoundary
 (
@@ -546,7 +546,7 @@ aOffset
 ;
 }
 nsresult
-Collapse
+CollapseInLimiter
 (
 const
 RawRangeBoundary
@@ -557,7 +557,7 @@ aPoint
 ErrorResult
 result
 ;
-Collapse
+CollapseInLimiter
 (
 aPoint
 result
@@ -572,7 +572,7 @@ StealNSResult
 ;
 }
 void
-Collapse
+CollapseInLimiter
 (
 const
 RawRangeBoundary
@@ -1513,7 +1513,7 @@ aRv
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
-Collapse
+CollapseInLimiter
 (
 nsINode
 &

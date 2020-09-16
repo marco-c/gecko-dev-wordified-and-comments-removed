@@ -507,7 +507,7 @@ rv
 selection
 -
 >
-Collapse
+CollapseInLimiter
 (
 startRef
 .
@@ -526,7 +526,7 @@ rv
 Selection
 :
 :
-Collapsed
+CollapseInLimiter
 (
 )
 failed
