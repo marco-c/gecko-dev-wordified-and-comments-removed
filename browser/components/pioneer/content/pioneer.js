@@ -4121,7 +4121,7 @@ true
 encryptionKeyId
 :
 "
-debug
+discarded
 "
 publicKey
 :
@@ -4165,11 +4165,7 @@ schemaVersion
 1
 schemaNamespace
 :
-"
-pioneer
--
-debug
-"
+studyAddonId
 }
 ;
 const
@@ -4204,6 +4200,13 @@ let
 options
 =
 {
+studyName
+:
+"
+pioneer
+-
+meta
+"
 addPioneerId
 :
 true
@@ -4213,7 +4216,7 @@ true
 encryptionKeyId
 :
 "
-debug
+discarded
 "
 publicKey
 :
@@ -4285,11 +4288,7 @@ options
 .
 schemaNamespace
 =
-"
-pioneer
--
-debug
-"
+studyAddonId
 ;
 }
 await
