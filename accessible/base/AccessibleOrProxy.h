@@ -294,7 +294,6 @@ ChildAt
 uint32_t
 aIdx
 )
-const
 {
 if
 (
