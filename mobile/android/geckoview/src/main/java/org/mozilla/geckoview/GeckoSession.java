@@ -1938,7 +1938,7 @@ DOMMetaViewportFit
 "
 GeckoView
 :
-DOMTitleChanged
+PageTitleChanged
 "
 "
 GeckoView
@@ -2201,7 +2201,7 @@ if
 "
 GeckoView
 :
-DOMTitleChanged
+PageTitleChanged
 "
 .
 equals
