@@ -9083,6 +9083,16 @@ return
 }
 if
 (
+IsFrame
+(
+)
+)
+{
+return
+;
+}
+if
+(
 GetDOMWindow
 (
 )
