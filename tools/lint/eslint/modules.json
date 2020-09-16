@@ -817,14 +817,6 @@ UnsubmittedCrashHandler
 "
 ]
 "
-ContentObservers
-.
-js
-"
-:
-[
-]
-"
 ContentPrefUtils
 .
 jsm

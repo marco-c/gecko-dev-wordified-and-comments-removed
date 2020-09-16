@@ -301,6 +301,16 @@ ContextMenuParent
 jsm
 '
 '
+DecoderDoctorChild
+.
+jsm
+'
+'
+DecoderDoctorParent
+.
+jsm
+'
+'
 DOMFullscreenChild
 .
 jsm

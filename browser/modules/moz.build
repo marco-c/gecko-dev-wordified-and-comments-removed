@@ -900,11 +900,6 @@ ContentCrashHandlers
 jsm
 '
 '
-ContentObservers
-.
-js
-'
-'
 Discovery
 .
 jsm
