@@ -603,6 +603,10 @@ wr
 PipelineId
 &
 aPipelineId
+nsCString
+&
+&
+aError
 )
 ;
 wr
@@ -704,6 +708,9 @@ aTextureFactoryIdentifier
 MaybeIdNamespace
 *
 aMaybeIdNamespace
+nsCString
+*
+aError
 )
 override
 ;
@@ -1763,7 +1770,6 @@ private
 class
 ScheduleSharedSurfaceRelease
 ;
-explicit
 WebRenderBridgeParent
 (
 const
@@ -1773,6 +1779,10 @@ wr
 PipelineId
 &
 aPipelineId
+nsCString
+&
+&
+aError
 )
 ;
 virtual
@@ -2651,6 +2661,9 @@ mIdNamespace
 ;
 CompositionOpportunityId
 mCompositionOpportunityId
+;
+nsCString
+mInitError
 ;
 VsyncId
 mSkippedCompositeId

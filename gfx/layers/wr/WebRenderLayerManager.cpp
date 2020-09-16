@@ -291,6 +291,9 @@ aLayersId
 TextureFactoryIdentifier
 *
 aTextureFactoryIdentifier
+nsCString
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -346,6 +349,15 @@ WebRenderBridgeChild
 .
 "
 ;
+aError
+.
+AssignLiteral
+(
+"
+FEATURE_FAILURE_WEBRENDER_INITIALIZE_IPDL
+"
+)
+;
 return
 false
 ;
@@ -368,6 +380,8 @@ SendEnsureConnected
 textureFactoryIdentifier
 &
 idNamespace
+&
+aError
 )
 ;
 if

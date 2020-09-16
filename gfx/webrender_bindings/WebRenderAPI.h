@@ -1045,6 +1045,9 @@ WrWindowId
 aWindowId
 LayoutDeviceIntSize
 aSize
+nsACString
+&
+aError
 )
 ;
 already_AddRefed

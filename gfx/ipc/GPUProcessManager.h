@@ -597,6 +597,10 @@ wr
 :
 WebRenderError
 aError
+const
+nsCString
+&
+aMsg
 )
 ;
 void

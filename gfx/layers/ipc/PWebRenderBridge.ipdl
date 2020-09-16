@@ -382,6 +382,8 @@ TextureFactoryIdentifier
 textureFactoryIdentifier
 MaybeIdNamespace
 maybeIdNamespace
+nsCString
+error
 )
 ;
 async

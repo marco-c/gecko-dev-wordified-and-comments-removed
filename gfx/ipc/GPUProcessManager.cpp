@@ -2265,6 +2265,10 @@ wr
 :
 WebRenderError
 aError
+const
+nsCString
+&
+aMsg
 )
 {
 if
@@ -2329,10 +2333,7 @@ WebRender
 initialization
 failed
 "
-"
-FEATURE_FAILURE_WEBRENDER_INITIALIZE
-"
-_ns
+aMsg
 )
 ;
 }
@@ -2585,6 +2586,9 @@ aError
 DisableWebRender
 (
 aError
+nsCString
+(
+)
 )
 ;
 }
