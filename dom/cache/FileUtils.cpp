@@ -3947,6 +3947,7 @@ db
 :
 FindOverallPaddingSize
 (
+*
 aConn
 &
 currentPaddingSize
@@ -4081,6 +4082,7 @@ db
 :
 FindOverallPaddingSize
 (
+*
 aConn
 &
 paddingSizeFromDB
@@ -4135,6 +4137,7 @@ db
 :
 FindOverallPaddingSize
 (
+*
 aConn
 &
 paddingSizeFromDB
@@ -4447,6 +4450,7 @@ db
 :
 FindOverallPaddingSize
 (
+*
 aConn
 &
 paddingSize

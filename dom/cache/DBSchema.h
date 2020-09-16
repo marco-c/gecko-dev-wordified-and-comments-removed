@@ -84,7 +84,7 @@ nsresult
 CreateOrMigrateSchema
 (
 mozIStorageConnection
-*
+&
 aConn
 )
 ;
@@ -92,7 +92,7 @@ nsresult
 InitializeConnection
 (
 mozIStorageConnection
-*
+&
 aConn
 )
 ;
@@ -100,7 +100,7 @@ nsresult
 CreateCacheId
 (
 mozIStorageConnection
-*
+&
 aConn
 CacheId
 *
@@ -111,7 +111,7 @@ nsresult
 DeleteCacheId
 (
 mozIStorageConnection
-*
+&
 aConn
 CacheId
 aCacheId
@@ -130,7 +130,7 @@ nsresult
 FindOrphanedCacheIds
 (
 mozIStorageConnection
-*
+&
 aConn
 nsTArray
 <
@@ -144,7 +144,7 @@ nsresult
 FindOverallPaddingSize
 (
 mozIStorageConnection
-*
+&
 aConn
 int64_t
 *
@@ -155,7 +155,7 @@ nsresult
 GetKnownBodyIds
 (
 mozIStorageConnection
-*
+&
 aConn
 nsTArray
 <
@@ -169,7 +169,7 @@ nsresult
 CacheMatch
 (
 mozIStorageConnection
-*
+&
 aConn
 CacheId
 aCacheId
@@ -193,7 +193,7 @@ nsresult
 CacheMatchAll
 (
 mozIStorageConnection
-*
+&
 aConn
 CacheId
 aCacheId
@@ -220,7 +220,7 @@ nsresult
 CachePut
 (
 mozIStorageConnection
-*
+&
 aConn
 CacheId
 aCacheId
@@ -255,7 +255,7 @@ nsresult
 CacheDelete
 (
 mozIStorageConnection
-*
+&
 aConn
 CacheId
 aCacheId
@@ -285,7 +285,7 @@ nsresult
 CacheKeys
 (
 mozIStorageConnection
-*
+&
 aConn
 CacheId
 aCacheId
@@ -312,7 +312,7 @@ nsresult
 StorageMatch
 (
 mozIStorageConnection
-*
+&
 aConn
 Namespace
 aNamespace
@@ -336,7 +336,7 @@ nsresult
 StorageGetCacheId
 (
 mozIStorageConnection
-*
+&
 aConn
 Namespace
 aNamespace
@@ -356,7 +356,7 @@ nsresult
 StoragePutCache
 (
 mozIStorageConnection
-*
+&
 aConn
 Namespace
 aNamespace
@@ -372,7 +372,7 @@ nsresult
 StorageForgetCache
 (
 mozIStorageConnection
-*
+&
 aConn
 Namespace
 aNamespace
@@ -386,7 +386,7 @@ nsresult
 StorageGetKeys
 (
 mozIStorageConnection
-*
+&
 aConn
 Namespace
 aNamespace
@@ -402,7 +402,7 @@ nsresult
 IncrementalVacuum
 (
 mozIStorageConnection
-*
+&
 aConn
 )
 ;
