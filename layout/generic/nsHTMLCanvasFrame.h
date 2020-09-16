@@ -194,6 +194,16 @@ aLists
 )
 override
 ;
+void
+DestroyFrom
+(
+nsIFrame
+*
+PostDestroyData
+&
+)
+override
+;
 already_AddRefed
 <
 Layer
