@@ -625,7 +625,7 @@ destroyed
 }
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

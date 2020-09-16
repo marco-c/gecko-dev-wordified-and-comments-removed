@@ -596,7 +596,7 @@ anymore
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

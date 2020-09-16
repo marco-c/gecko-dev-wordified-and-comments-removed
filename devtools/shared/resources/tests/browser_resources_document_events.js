@@ -370,7 +370,7 @@ reloading
 await
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -568,7 +568,7 @@ documentEvents
 await
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

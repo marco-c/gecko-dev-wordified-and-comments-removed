@@ -309,7 +309,7 @@ browserConsole
 .
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

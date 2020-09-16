@@ -1222,7 +1222,7 @@ onResourceUpdated
 await
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

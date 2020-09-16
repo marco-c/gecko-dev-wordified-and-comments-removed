@@ -14941,7 +14941,7 @@ this
 .
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

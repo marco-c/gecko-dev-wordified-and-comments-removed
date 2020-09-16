@@ -558,7 +558,7 @@ targets
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

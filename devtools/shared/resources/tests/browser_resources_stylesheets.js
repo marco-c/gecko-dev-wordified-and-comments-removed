@@ -1545,7 +1545,7 @@ expectedMediaRules
 await
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

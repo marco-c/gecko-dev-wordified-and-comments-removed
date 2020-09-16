@@ -522,7 +522,7 @@ onFrameAvailable
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -903,7 +903,7 @@ onFrameAvailable
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

@@ -425,7 +425,7 @@ reset
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -713,7 +713,7 @@ reset
 await
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

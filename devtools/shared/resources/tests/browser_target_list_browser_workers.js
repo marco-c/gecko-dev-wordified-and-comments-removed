@@ -1087,7 +1087,7 @@ getAllTargets
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

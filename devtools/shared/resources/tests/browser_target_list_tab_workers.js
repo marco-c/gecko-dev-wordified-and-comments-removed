@@ -1582,7 +1582,7 @@ onDestroy
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

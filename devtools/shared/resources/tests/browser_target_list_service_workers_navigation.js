@@ -378,7 +378,7 @@ targets
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -698,7 +698,7 @@ targets
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -1032,7 +1032,7 @@ targets
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

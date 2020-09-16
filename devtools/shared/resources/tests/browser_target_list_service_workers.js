@@ -391,7 +391,7 @@ length
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
