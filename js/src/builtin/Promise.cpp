@@ -69,6 +69,17 @@ include
 "
 js
 /
+experimental
+/
+JitInfo
+.
+h
+"
+#
+include
+"
+js
+/
 ForOfIterator
 .
 h

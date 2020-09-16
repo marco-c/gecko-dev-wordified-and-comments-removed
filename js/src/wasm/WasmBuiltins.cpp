@@ -80,6 +80,17 @@ include
 "
 js
 /
+experimental
+/
+JitInfo
+.
+h
+"
+#
+include
+"
+js
+/
 friend
 /
 StackLimits

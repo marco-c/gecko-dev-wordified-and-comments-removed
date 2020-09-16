@@ -106057,6 +106057,21 @@ in
 descriptors
 )
         
+bindingHeaders
+[
+"
+js
+/
+experimental
+/
+JitInfo
+.
+h
+"
+]
+=
+True
+        
 def
 descriptorDeprecated
 (
@@ -128076,7 +128091,11 @@ define
 #
 include
 "
-jsfriendapi
+js
+/
+experimental
+/
+JitInfo
 .
 h
 "

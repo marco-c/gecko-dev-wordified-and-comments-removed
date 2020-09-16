@@ -106,6 +106,17 @@ include
 "
 js
 /
+experimental
+/
+JitInfo
+.
+h
+"
+#
+include
+"
+js
+/
 ScalarType
 .
 h

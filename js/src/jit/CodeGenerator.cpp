@@ -349,6 +349,17 @@ include
 "
 js
 /
+experimental
+/
+JitInfo
+.
+h
+"
+#
+include
+"
+js
+/
 RegExpFlags
 .
 h

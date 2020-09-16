@@ -67,6 +67,9 @@ JSScript
 .
 h
 "
+class
+JSJitInfo
+;
 namespace
 js
 {
