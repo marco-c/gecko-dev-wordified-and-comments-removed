@@ -128,6 +128,15 @@ false
 )
 )
 ;
+const
+onNetworkEvents
+=
+waitForNetworkEvents
+(
+monitor
+2
+)
+;
 await
 SpecialPowers
 .
@@ -166,6 +175,9 @@ openConnection
 ;
 }
 )
+;
+await
+onNetworkEvents
 ;
 const
 requests

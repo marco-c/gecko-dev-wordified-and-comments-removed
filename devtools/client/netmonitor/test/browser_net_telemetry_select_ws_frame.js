@@ -135,6 +135,15 @@ assertNumberOfEvents
 0
 )
 ;
+const
+onNetworkEvents
+=
+waitForNetworkEvents
+(
+monitor
+1
+)
+;
 await
 SpecialPowers
 .
@@ -163,6 +172,9 @@ openConnection
 ;
 }
 )
+;
+await
+onNetworkEvents
 ;
 const
 requests
