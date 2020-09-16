@@ -21,6 +21,9 @@ getPolicies
 AVAILABLE_PIP_OVERRIDES
 =
 {
+instagram
+:
+{
 "
 https
 :
@@ -38,6 +41,10 @@ com
 TOGGLE_POLICIES
 .
 ONE_QUARTER
+}
+laracasts
+:
+{
 "
 https
 :
@@ -55,6 +62,10 @@ com
 TOGGLE_POLICIES
 .
 ONE_QUARTER
+}
+netflix
+:
+{
 "
 https
 :
@@ -72,6 +83,10 @@ browse
 TOGGLE_POLICIES
 .
 HIDDEN
+}
+twitch
+:
+{
 "
 https
 :
@@ -125,6 +140,10 @@ com
 TOGGLE_POLICIES
 .
 ONE_QUARTER
+}
+udemy
+:
+{
 "
 https
 :
@@ -142,6 +161,7 @@ com
 TOGGLE_POLICIES
 .
 ONE_QUARTER
+}
 }
 ;
 }
