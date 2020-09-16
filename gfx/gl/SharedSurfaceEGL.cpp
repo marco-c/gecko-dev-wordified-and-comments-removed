@@ -1215,6 +1215,16 @@ UpdateTexImage
 (
 )
 ;
+if
+(
+surfaceTexture
+-
+>
+IsSingleBuffer
+(
+)
+)
+{
 surfaceTexture
 -
 >
@@ -1222,6 +1232,7 @@ ReleaseTexImage
 (
 )
 ;
+}
 }
 void
 SharedSurface_SurfaceTexture
