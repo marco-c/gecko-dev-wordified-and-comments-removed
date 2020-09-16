@@ -69,6 +69,15 @@ include
 "
 vm
 /
+HelperThreadState
+.
+h
+"
+#
+include
+"
+vm
+/
 PlainObject
 .
 h

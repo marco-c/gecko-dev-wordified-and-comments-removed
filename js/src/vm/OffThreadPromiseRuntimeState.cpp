@@ -790,11 +790,9 @@ usingInternalDispatchQueue
 ;
 MOZ_ASSERT
 (
-HelperThreadState
-(
-)
+gHelperThreadLock
 .
-isLockedByCurrentThread
+ownedByCurrentThread
 (
 )
 )
