@@ -351,6 +351,8 @@ await
 waitForAllTargetsToBeAttached
 (
 hud
+.
+targetList
 )
 ;
 waitForFocus

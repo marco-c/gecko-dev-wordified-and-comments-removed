@@ -929,9 +929,7 @@ waitForTick
 )
 ;
 await
-BrowserConsoleManager
-.
-toggleBrowserConsole
+safeCloseBrowserConsole
 (
 )
 ;

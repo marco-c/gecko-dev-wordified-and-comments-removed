@@ -140,13 +140,6 @@ clearOutput
 hud
 )
 ;
-await
-BrowserConsoleManager
-.
-toggleBrowserConsole
-(
-)
-;
 }
 )
 ;
