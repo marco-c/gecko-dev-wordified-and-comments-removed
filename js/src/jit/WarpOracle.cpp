@@ -3378,12 +3378,6 @@ JSOp
 :
 ToPropertyKey
 :
-case
-JSOp
-:
-:
-OptimizeSpreadCall
-:
 MOZ_TRY
 (
 maybeInlineIC
@@ -4055,6 +4049,12 @@ case
 JSOp
 :
 :
+OptimizeSpreadCall
+:
+case
+JSOp
+:
+:
 Debugger
 :
 case
@@ -4352,11 +4352,6 @@ info_
 isAnalysis
 (
 )
-|
-|
-JitOptions
-.
-forceInlineCaches
 )
 {
 return
