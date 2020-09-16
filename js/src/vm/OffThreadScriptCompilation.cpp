@@ -339,6 +339,10 @@ callback
 void
 *
 callbackData
+OffThreadToken
+*
+*
+tokenOut
 )
 {
 MOZ_ASSERT
@@ -363,6 +367,7 @@ options
 srcBuf
 callback
 callbackData
+tokenOut
 )
 ;
 }
@@ -394,6 +399,10 @@ callback
 void
 *
 callbackData
+OffThreadToken
+*
+*
+tokenOut
 )
 {
 MOZ_ASSERT
@@ -418,6 +427,7 @@ options
 srcBuf
 callback
 callbackData
+tokenOut
 )
 ;
 }
@@ -607,6 +617,10 @@ callback
 void
 *
 callbackData
+OffThreadToken
+*
+*
+tokenOut
 )
 {
 MOZ_ASSERT
@@ -631,6 +645,7 @@ options
 srcBuf
 callback
 callbackData
+tokenOut
 )
 ;
 }
@@ -662,6 +677,10 @@ callback
 void
 *
 callbackData
+OffThreadToken
+*
+*
+tokenOut
 )
 {
 MOZ_ASSERT
@@ -686,6 +705,7 @@ options
 srcBuf
 callback
 callbackData
+tokenOut
 )
 ;
 }
@@ -855,6 +875,10 @@ callback
 void
 *
 callbackData
+OffThreadToken
+*
+*
+tokenOut
 )
 {
 JS
@@ -901,6 +925,7 @@ options
 range
 callback
 callbackData
+tokenOut
 )
 ;
 }
@@ -933,6 +958,10 @@ callback
 void
 *
 callbackData
+OffThreadToken
+*
+*
+tokenOut
 )
 {
 MOZ_ASSERT
@@ -957,6 +986,7 @@ options
 range
 callback
 callbackData
+tokenOut
 )
 ;
 }
