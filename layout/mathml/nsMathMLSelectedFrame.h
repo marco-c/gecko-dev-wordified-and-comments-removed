@@ -112,14 +112,10 @@ mozilla
 :
 LogicalSize
 &
-aBorder
-const
+aBorderPadding
 mozilla
 :
 :
-LogicalSize
-&
-aPadding
 ComputeSizeFlags
 aFlags
 )

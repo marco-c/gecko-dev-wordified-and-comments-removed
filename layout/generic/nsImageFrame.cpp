@@ -4631,11 +4631,7 @@ aMargin
 const
 LogicalSize
 &
-aBorder
-const
-LogicalSize
-&
-aPadding
+aBorderPadding
 ComputeSizeFlags
 aFlags
 )
@@ -4654,8 +4650,7 @@ mIntrinsicSize
 mIntrinsicRatio
 aCBSize
 aMargin
-aBorder
-aPadding
+aBorderPadding
 aFlags
 )
 AspectRatioUsage
