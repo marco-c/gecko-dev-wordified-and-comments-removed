@@ -239,7 +239,7 @@ open
 =
 getAllMessagesUiById
 (
-state
+newState
 )
 .
 includes
@@ -257,7 +257,7 @@ message
 =
 getMessage
 (
-state
+newState
 actor
 )
 ;
