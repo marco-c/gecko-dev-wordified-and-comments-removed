@@ -525,6 +525,20 @@ writeSymbolField
 )
     
 '
+BaseScriptField
+'
+:
+(
+'
+BaseScript
+*
+'
+'
+writeBaseScriptField
+'
+)
+    
+'
 RawWordField
 '
 :
@@ -1483,6 +1497,26 @@ stubOffset
 )
     
 '
+BaseScriptField
+'
+:
+(
+'
+uint32_t
+'
+'
+Offset
+'
+'
+reader
+.
+stubOffset
+(
+)
+'
+)
+    
+'
 RawWordField
 '
 :
@@ -2276,6 +2310,14 @@ spewField
     
 '
 SymbolField
+'
+:
+'
+spewField
+'
+    
+'
+BaseScriptField
 '
 :
 '
@@ -3088,6 +3130,12 @@ PropertyNameField
     
 '
 SymbolField
+'
+:
+1
+    
+'
+BaseScriptField
 '
 :
 1
