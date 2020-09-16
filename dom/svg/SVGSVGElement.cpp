@@ -652,7 +652,7 @@ aCurrentScale
 ;
 if
 (
-IsRoot
+IsRootSVGSVGElement
 (
 )
 )
@@ -1187,7 +1187,7 @@ if
 presShell
 &
 &
-IsRoot
+IsRootSVGSVGElement
 (
 )
 )

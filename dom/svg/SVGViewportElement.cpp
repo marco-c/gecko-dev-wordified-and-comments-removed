@@ -540,7 +540,7 @@ HasViewBoxOrSyntheticViewBox
 |
 |
 (
-IsRoot
+IsRootSVGSVGElement
 (
 )
 &
@@ -1276,7 +1276,7 @@ y
 else
 if
 (
-IsRoot
+IsRootSVGSVGElement
 (
 )
 )
@@ -1519,7 +1519,7 @@ viewBox
 )
 ;
 return
-IsRoot
+IsRootSVGSVGElement
 (
 )
 &
