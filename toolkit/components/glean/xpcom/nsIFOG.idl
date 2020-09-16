@@ -26,6 +26,11 @@ nsIFOG
 nsISupports
 {
 void
+initializeFOG
+(
+)
+;
+void
 setLogPings
 (
 in
