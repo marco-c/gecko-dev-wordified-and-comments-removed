@@ -1634,16 +1634,6 @@ functionStencil
 )
 const
 ;
-#
-ifdef
-DEBUG
-bool
-atomsAreKept
-(
-)
-;
-#
-endif
 ParserLexicalScopeData
 *
 namedLambdaBindings

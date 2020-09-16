@@ -3691,14 +3691,6 @@ atomsAccess
 )
 ;
 void
-traceKeptAtoms
-(
-JSTracer
-*
-trc
-)
-;
-void
 traceRuntimeCommon
 (
 JSTracer
