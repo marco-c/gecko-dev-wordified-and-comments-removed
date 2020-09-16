@@ -2913,23 +2913,16 @@ args
 =
 (
 '
-push
--
-interval
--
-10
-'
-'
 skip
 -
 unless
 -
-backstop
+expanded
 '
 )
 )
 (
-All
+Alias
 )
 register_strategy
 (
@@ -3159,11 +3152,11 @@ All
 (
             
 '
-push
+skip
 -
-interval
+unless
 -
-10
+expanded
 '
             
 Any

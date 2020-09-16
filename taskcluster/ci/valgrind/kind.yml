@@ -311,10 +311,10 @@ wasi
 sysroot
 optimization
 :
-push
+skip
 -
-interval
+unless
 -
-10
+expanded
 :
 null

@@ -115,11 +115,11 @@ xvfb
 false
 optimization
 :
-push
+skip
 -
-interval
+unless
 -
-10
+expanded
 :
 null
 win32

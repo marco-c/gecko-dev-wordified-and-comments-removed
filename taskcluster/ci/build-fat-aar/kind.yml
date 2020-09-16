@@ -788,10 +788,10 @@ taskcluster_nightly
 py
 optimization
 :
-push
+skip
 -
-interval
+unless
 -
-20
+backstop
 :
 null
