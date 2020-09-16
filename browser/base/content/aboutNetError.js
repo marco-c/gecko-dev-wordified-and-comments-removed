@@ -5220,6 +5220,13 @@ async
 function
 setTechnicalDetailsOnCertError
 (
+failedCertInfo
+=
+document
+.
+getFailedCertSecurityInfo
+(
+)
 )
 {
 let
@@ -5450,15 +5457,6 @@ hostname
 :
 hostString
 }
-;
-let
-failedCertInfo
-=
-document
-.
-getFailedCertSecurityInfo
-(
-)
 ;
 if
 (
@@ -5841,6 +5839,7 @@ false
 ;
 }
 }
+else
 if
 (
 failedCertInfo
@@ -6208,6 +6207,7 @@ hostString
 ;
 }
 }
+else
 if
 (
 failedCertInfo
