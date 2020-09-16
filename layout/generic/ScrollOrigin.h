@@ -18,6 +18,7 @@ NotSpecified
 Apz
 Restore
 Relative
+Clamp
 Other
 Pixels
 Lines
