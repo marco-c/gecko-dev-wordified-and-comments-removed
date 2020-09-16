@@ -117,15 +117,6 @@ type
 workerListChanged
 "
 }
-newSource
-:
-{
-type
-:
-"
-newSource
-"
-}
 tabDetached
 :
 {

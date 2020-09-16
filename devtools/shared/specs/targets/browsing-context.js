@@ -611,15 +611,6 @@ type
 workerListChanged
 "
 }
-newSource
-:
-{
-type
-:
-"
-newSource
-"
-}
 "
 resource
 -
