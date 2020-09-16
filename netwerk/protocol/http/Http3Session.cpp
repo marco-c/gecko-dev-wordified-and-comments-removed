@@ -3336,6 +3336,17 @@ thread
 "
 )
 ;
+if
+(
+aTimeout
+=
+=
+UINT64_MAX
+)
+{
+return
+;
+}
 LOG
 (
 (
