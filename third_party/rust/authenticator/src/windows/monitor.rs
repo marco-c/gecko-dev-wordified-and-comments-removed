@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 platform
 :
 :
@@ -77,6 +80,7 @@ Fn
 (
 String
 &
+dyn
 Fn
 (
 )
@@ -116,6 +120,7 @@ Fn
 (
 String
 &
+dyn
 Fn
 (
 )
@@ -174,6 +179,7 @@ self
 alive
 :
 &
+dyn
 Fn
 (
 )
