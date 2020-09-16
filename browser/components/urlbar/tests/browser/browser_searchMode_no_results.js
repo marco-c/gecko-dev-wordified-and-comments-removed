@@ -540,6 +540,11 @@ UrlbarUtils
 RESULT_SOURCE
 .
 BOOKMARKS
+entry
+:
+"
+oneoff
+"
 }
 )
 ;
@@ -913,6 +918,11 @@ UrlbarUtils
 RESULT_SOURCE
 .
 BOOKMARKS
+entry
+:
+"
+oneoff
+"
 }
 )
 ;
@@ -1186,6 +1196,11 @@ engineName
 engine
 .
 name
+entry
+:
+"
+typed
+"
 }
 )
 ;

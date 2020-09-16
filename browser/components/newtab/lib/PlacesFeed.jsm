@@ -1522,6 +1522,9 @@ searchWithAlias
 data
 .
 label
+"
+topsites_newtab
+"
 )
 ;
 }
@@ -1642,6 +1645,9 @@ urlBar
 searchWithAlias
 (
 searchAlias
+"
+handoff
+"
 data
 .
 text
@@ -1680,6 +1686,9 @@ urlBar
 searchWithAlias
 (
 searchAlias
+"
+handoff
+"
 )
 ;
 this

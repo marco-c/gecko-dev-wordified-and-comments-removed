@@ -3721,6 +3721,9 @@ searchbar
 urlbar
 "
 "
+urlbar_searchmode
+"
+"
 webextension
 "
 ]

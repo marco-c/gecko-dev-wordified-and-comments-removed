@@ -838,6 +838,11 @@ UrlbarUtils
 RESULT_SOURCE
 .
 BOOKMARKS
+entry
+:
+"
+oneoff
+"
 }
 )
 ;

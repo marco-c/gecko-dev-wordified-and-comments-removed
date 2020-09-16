@@ -762,6 +762,9 @@ ALIAS
 "
 test
 "
+"
+test
+"
 )
 )
 ;
@@ -795,6 +798,11 @@ engineName
 aliasEngine
 .
 name
+entry
+:
+"
+other
+"
 }
 )
 ;
@@ -888,6 +896,9 @@ gURLBar
 searchWithAlias
 (
 ALIAS
+"
+test
+"
 "
 test
 "
@@ -1066,6 +1077,9 @@ searchWithAlias
 (
 "
 invalidalias
+"
+"
+test
 "
 "
 test
