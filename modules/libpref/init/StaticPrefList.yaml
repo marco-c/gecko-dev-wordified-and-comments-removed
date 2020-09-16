@@ -41489,7 +41489,7 @@ _X86_
 )
 value
 :
-IS_NIGHTLY_BUILD
+IS_EARLY_BETA_OR_EARLIER
 #
 elif
 defined
