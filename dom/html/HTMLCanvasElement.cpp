@@ -2432,6 +2432,15 @@ CallPrintCallback
 (
 )
 {
+if
+(
+!
+mPrintState
+)
+{
+return
+;
+}
 RefPtr
 <
 PrintCallback
