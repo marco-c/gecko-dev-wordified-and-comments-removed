@@ -50,6 +50,15 @@ include
 "
 mozilla
 /
+ToString
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -681,7 +690,7 @@ c_str
 (
 )
 mTransformIsPerspective
-Stringify
+ToString
 (
 mVisibleRegion
 )
