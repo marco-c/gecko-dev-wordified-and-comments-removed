@@ -355,6 +355,9 @@ partial
 interface
 ServiceWorkerRegistration
 {
+[
+SameObject
+]
 readonly
 attribute
 CookieStoreManager
