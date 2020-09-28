@@ -15881,7 +15881,7 @@ ShouldPrerenderTransformedContent
 aBuilder
 this
 &
-dirtyRect
+visibleRect
 )
 ;
 switch
@@ -15909,9 +15909,9 @@ PrerenderDecision
 :
 Partial
 :
-visibleRect
-=
 dirtyRect
+=
+visibleRect
 ;
 break
 ;
