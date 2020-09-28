@@ -432,6 +432,17 @@ mozilla
 /
 gfx
 /
+gfxVars
+.
+h
+"
+#
+include
+"
+mozilla
+/
+gfx
+/
 BasePoint
 .
 h
@@ -15031,6 +15042,9 @@ aBaseSize
 {
 MOZ_ASSERT
 (
+gfx
+:
+:
 gfxVars
 :
 :
@@ -15039,6 +15053,9 @@ UseWebRender
 )
 )
 ;
+gfx
+:
+:
 IntSize
 multiplier
 (
@@ -15266,6 +15283,9 @@ apz_y_skate_highmem_adjust
 }
 if
 (
+gfx
+:
+:
 gfxVars
 :
 :
@@ -15274,6 +15294,9 @@ UseWebRender
 )
 )
 {
+gfx
+:
+:
 IntSize
 alignmentMultipler
 =

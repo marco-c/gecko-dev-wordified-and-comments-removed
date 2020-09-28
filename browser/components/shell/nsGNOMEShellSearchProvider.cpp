@@ -68,6 +68,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 nsIIOService
 .
 h

@@ -93,6 +93,13 @@ Telemetry
 h
 "
 #
+include
+"
+nsPrintfCString
+.
+h
+"
+#
 undef
 _WIN32_WINNT
 #
