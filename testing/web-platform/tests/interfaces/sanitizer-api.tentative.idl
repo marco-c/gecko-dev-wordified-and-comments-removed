@@ -66,5 +66,12 @@ input
 dictionary
 SanitizerConfig
 {
+sequence
+<
+DOMString
+>
+?
+dropElements
+;
 }
 ;
