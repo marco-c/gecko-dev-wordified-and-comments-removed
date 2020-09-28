@@ -19611,7 +19611,7 @@ add_flags
 ComputedValueFlags
 :
 :
-INHERITS_CONTENT
+CONTENT_DEPENDS_ON_INHERITED_STYLE
 )
 ;
 %
@@ -19634,7 +19634,7 @@ add_flags
 ComputedValueFlags
 :
 :
-INHERITS_DISPLAY
+DISPLAY_DEPENDS_ON_INHERITED_STYLE
 )
 ;
 %
