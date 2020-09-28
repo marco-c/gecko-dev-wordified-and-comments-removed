@@ -139,10 +139,6 @@ media
 /
 webrtc
 /
-signaling
-/
-src
-/
 peerconnection
 /
 TransceiverImpl

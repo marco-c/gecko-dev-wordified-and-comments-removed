@@ -638,13 +638,11 @@ path
 .
 .
 /
+dom
+/
 media
 /
 webrtc
-/
-signaling
-/
-src
 /
 sdp
 /

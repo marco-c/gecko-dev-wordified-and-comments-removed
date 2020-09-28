@@ -1994,10 +1994,6 @@ MOZ_WEBRTC
 #
 include
 "
-signaling
-/
-src
-/
 peerconnection
 /
 WebrtcGlobalParent

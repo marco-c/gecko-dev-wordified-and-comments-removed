@@ -72,10 +72,6 @@ h
 #
 include
 "
-signaling
-/
-src
-/
 sdp
 /
 SdpMediaSection
@@ -85,10 +81,6 @@ h
 #
 include
 "
-signaling
-/
-src
-/
 sdp
 /
 SipccSdpParser
@@ -98,10 +90,6 @@ h
 #
 include
 "
-signaling
-/
-src
-/
 jsep
 /
 JsepCodecDescription
@@ -111,10 +99,6 @@ h
 #
 include
 "
-signaling
-/
-src
-/
 jsep
 /
 JsepTrack
@@ -124,10 +108,6 @@ h
 #
 include
 "
-signaling
-/
-src
-/
 jsep
 /
 JsepSession
@@ -137,10 +117,6 @@ h
 #
 include
 "
-signaling
-/
-src
-/
 jsep
 /
 JsepSessionImpl
@@ -150,10 +126,6 @@ h
 #
 include
 "
-signaling
-/
-src
-/
 jsep
 /
 JsepTrack

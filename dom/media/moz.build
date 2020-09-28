@@ -1753,13 +1753,11 @@ LOCAL_INCLUDES
 [
 '
 /
+dom
+/
 media
 /
 webrtc
-/
-signaling
-/
-src
 /
 common
 '
