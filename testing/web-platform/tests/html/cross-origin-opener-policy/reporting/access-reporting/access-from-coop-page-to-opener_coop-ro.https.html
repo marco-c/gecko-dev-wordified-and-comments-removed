@@ -20,6 +20,9 @@ tries
 to
 access
 its
+same
+-
+origin
 opener
 .
 <
@@ -182,13 +185,13 @@ pipe
 "
 ;
 const
-cross_origin
+same_origin
 =
 get_host_info
 (
 )
 .
-HTTPS_REMOTE_ORIGIN
+HTTPS_ORIGIN
 ;
 const
 coep_header
@@ -242,7 +245,7 @@ report_token
 const
 openee_url
 =
-cross_origin
+same_origin
 +
 executor_path
 +

@@ -17,7 +17,7 @@ COEP
 and
 then
 its
-same
+cross
 -
 origin
 opener
@@ -186,13 +186,13 @@ pipe
 "
 ;
 const
-same_origin
+cross_origin
 =
 get_host_info
 (
 )
 .
-HTTPS_ORIGIN
+HTTPS_REMOTE_ORIGIN
 ;
 const
 coep_header
@@ -260,7 +260,7 @@ report_token
 const
 openee_url
 =
-same_origin
+cross_origin
 +
 executor_path
 +
