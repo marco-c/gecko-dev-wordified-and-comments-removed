@@ -87,7 +87,7 @@ sequence
 .
 /
 mach
-xcpshell
+xpcshell
 -
 test
 -
@@ -99,7 +99,7 @@ test
 /
 unit
 /
-test_Assert
+test_DomainCache
 .
 js
 The

@@ -11,7 +11,7 @@ CDP
 -
 based
 remote
-debugger
+agent
 in
 Firefox
 there
