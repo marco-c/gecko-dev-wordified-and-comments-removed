@@ -1633,6 +1633,7 @@ def
 install_browser_packages
 (
 self
+mozconfig_builder
 )
 :
         
@@ -1656,6 +1657,7 @@ def
 install_browser_artifact_mode_packages
 (
 self
+mozconfig_builder
 )
 :
         
@@ -1682,29 +1684,7 @@ def
 install_mobile_android_packages
 (
 self
-)
-:
-        
-getattr
-(
-self
-'
-ensure_
-%
-s_mobile_android_packages
-'
-%
-self
-.
-package_manager
-)
-(
-)
-    
-def
-install_mobile_android_artifact_mode_packages
-(
-self
+mozconfig_builder
 )
 :
         
@@ -1723,6 +1703,33 @@ self
 package_manager
 )
 (
+mozconfig_builder
+)
+    
+def
+install_mobile_android_artifact_mode_packages
+(
+self
+mozconfig_builder
+)
+:
+        
+getattr
+(
+self
+'
+ensure_
+%
+s_mobile_android_packages
+'
+%
+                
+self
+.
+package_manager
+)
+(
+mozconfig_builder
 artifact_mode
 =
 True
@@ -2707,6 +2714,7 @@ def
 ensure_homebrew_mobile_android_packages
 (
 self
+mozconfig_builder
 artifact_mode
 =
 False
@@ -2832,6 +2840,7 @@ self
 .
 ensure_java
 (
+mozconfig_builder
 )
         
 from
@@ -3193,6 +3202,7 @@ def
 ensure_macports_mobile_android_packages
 (
 self
+mozconfig_builder
 artifact_mode
 =
 False
@@ -3265,6 +3275,7 @@ self
 .
 ensure_java
 (
+mozconfig_builder
 )
         
 from
