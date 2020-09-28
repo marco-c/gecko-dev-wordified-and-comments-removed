@@ -214,7 +214,7 @@ i
 ;
 }
 }
-uint32_t
+float
 EstimatedFreq
 (
 )
@@ -262,7 +262,13 @@ return
 mRate
 /
 (
+static_cast
+<
+float
+>
+(
 mSumPeriodInSamples
+)
 /
 (
 mZeroCrossCount

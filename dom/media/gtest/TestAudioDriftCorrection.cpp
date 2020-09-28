@@ -1557,7 +1557,7 @@ expectedBuffering
 512
 )
 ;
-EXPECT_EQ
+EXPECT_NEAR
 (
 inToneVerifier
 .
@@ -1567,6 +1567,9 @@ EstimatedFreq
 tone
 .
 mFrequency
+1
+.
+0f
 )
 ;
 EXPECT_EQ
@@ -1589,7 +1592,7 @@ CountDiscontinuities
 0U
 )
 ;
-EXPECT_EQ
+EXPECT_NEAR
 (
 outToneVerifier
 .
@@ -1599,6 +1602,9 @@ EstimatedFreq
 tone
 .
 mFrequency
+1
+.
+0f
 )
 ;
 EXPECT_GE
