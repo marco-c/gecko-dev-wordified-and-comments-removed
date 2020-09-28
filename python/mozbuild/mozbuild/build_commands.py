@@ -35,6 +35,7 @@ mozbuild
 util
 import
 ensure_subprocess_env
+MOZBUILD_METRICS_PATH
 from
 mozbuild
 .
@@ -116,6 +117,11 @@ strip
 (
 )
 CommandProvider
+(
+metrics_path
+=
+MOZBUILD_METRICS_PATH
+)
 class
 Build
 (
@@ -857,6 +863,10 @@ driver
 build
 (
             
+self
+.
+metrics
+            
 what
 =
 what
@@ -990,6 +1000,10 @@ driver
 .
 configure
 (
+            
+self
+.
+metrics
             
 options
 =

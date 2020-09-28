@@ -412,12 +412,6 @@ kwargs
 )
 :
         
-cls
-=
-handler
-.
-cls
-        
 if
 context
 is
@@ -469,7 +463,9 @@ handler
 handler
         
 return
-cls
+handler
+.
+create_instance
 (
 context
 handler

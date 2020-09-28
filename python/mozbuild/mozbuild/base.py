@@ -5621,6 +5621,9 @@ context
 virtualenv_name
 =
 None
+metrics
+=
+None
 )
 :
         
@@ -5873,6 +5876,12 @@ self
 _mach_context
 =
 context
+        
+self
+.
+metrics
+=
+metrics
         
 try
 :

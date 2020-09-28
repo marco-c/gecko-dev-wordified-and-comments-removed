@@ -246,7 +246,7 @@ mozilla
 .
 org
 /
-Firefix
+Firefox
 /
 Data_Collection
 )

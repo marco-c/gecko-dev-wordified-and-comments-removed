@@ -1624,11 +1624,12 @@ instance
 =
 handler
 .
-cls
+create_instance
 (
 self
 .
 _context
+                                                       
 handler
 .
 virtualenv_name

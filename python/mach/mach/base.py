@@ -8,7 +8,7 @@ mach
 .
 telemetry
 import
-Telemetry
+NoopTelemetry
 class
 CommandContext
 (
@@ -57,10 +57,9 @@ None
                  
 telemetry
 =
-Telemetry
-.
-as_noop
+NoopTelemetry
 (
+False
 )
 *
 *

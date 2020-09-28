@@ -70,6 +70,12 @@ conditions
     
 MozbuildObject
 )
+from
+mozbuild
+.
+util
+import
+MOZBUILD_METRICS_PATH
 here
 =
 os
@@ -1262,6 +1268,11 @@ check_all
 (
 )
 CommandProvider
+(
+metrics_path
+=
+MOZBUILD_METRICS_PATH
+)
 class
 Clobber
 (
