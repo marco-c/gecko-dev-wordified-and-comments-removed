@@ -1532,11 +1532,9 @@ srcDir
 topsrcdir
 }
 /
-media
+third_party
 /
-webrtc
-/
-trunk
+libwebrtc
 /
 webrtc
 /
@@ -1550,11 +1548,9 @@ srcDir
 topsrcdir
 }
 /
-media
+third_party
 /
-webrtc
-/
-trunk
+libwebrtc
 /
 webrtc
 /
