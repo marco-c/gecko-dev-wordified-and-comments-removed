@@ -764,9 +764,9 @@ headers
 get
 (
 "
-content
+Content
 -
-length
+Length
 "
 )
 !
@@ -794,9 +794,9 @@ headers
 get
 (
 "
-content
+cONTent
 -
-disposition
+diSPOsiTion
 "
 )
 equalTo
