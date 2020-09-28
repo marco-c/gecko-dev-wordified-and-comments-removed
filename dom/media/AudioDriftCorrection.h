@@ -188,10 +188,13 @@ mSourceRate
 }
 mCorrection
 =
-(
+static_cast
+<
 float
-)
+>
+(
 mTargetClock
+)
 /
 resampledSourceClock
 ;
