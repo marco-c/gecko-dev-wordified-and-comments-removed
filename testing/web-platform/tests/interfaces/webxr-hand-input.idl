@@ -331,7 +331,6 @@ XRPose
 readonly
 attribute
 float
-?
 radius
 ;
 }
