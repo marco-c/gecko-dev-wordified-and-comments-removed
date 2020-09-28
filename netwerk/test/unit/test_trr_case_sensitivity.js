@@ -512,6 +512,9 @@ example
 .
 com
 "
+{
+expectedAnswer
+:
 "
 1
 .
@@ -521,6 +524,7 @@ com
 .
 4
 "
+}
 )
 ;
 await
@@ -688,6 +692,9 @@ test
 .
 com
 "
+{
+expectedAnswer
+:
 "
 8
 .
@@ -697,6 +704,7 @@ com
 .
 8
 "
+}
 )
 ;
 await
@@ -756,6 +764,9 @@ CAPITAL
 .
 COM
 "
+{
+expectedAnswer
+:
 "
 2
 .
@@ -765,6 +776,7 @@ COM
 .
 2
 "
+}
 )
 ;
 await
@@ -777,6 +789,9 @@ CAPITAL
 COM
 .
 "
+{
+expectedAnswer
+:
 "
 2
 .
@@ -786,6 +801,7 @@ COM
 .
 2
 "
+}
 )
 ;
 await
