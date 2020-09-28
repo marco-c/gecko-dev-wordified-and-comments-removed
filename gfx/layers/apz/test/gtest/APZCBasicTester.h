@@ -70,6 +70,13 @@ SetUp
 (
 )
 {
+APZCTesterBase
+:
+:
+SetUp
+(
+)
+;
 APZThreadUtils
 :
 :
