@@ -566,7 +566,7 @@ load
 html
 asserts
 (
-6
+4
 )
 load
 1408170
@@ -581,16 +581,6 @@ WSRunScanner
 :
 :
 GetEditableBlockParentOrTopmotEditableInlineContent
-(
-)
-2
-:
-assertion
-in
-WhiteSpaceVisibilityKeeper
-:
-:
-DeleteInvisibleASCIIWhiteSpacesInternal
 (
 )
 asserts
