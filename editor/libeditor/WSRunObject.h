@@ -1508,7 +1508,7 @@ aEditingHost
 ;
 static
 EditorDOMRange
-GetRangeExtendToContainInvisibleWhiteSpacesAtRangeBoundaries
+GetRangeContainingInvisibleWhiteSpacesAtRangeBoundaries
 (
 const
 HTMLEditor
