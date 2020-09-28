@@ -847,7 +847,7 @@ InitDWriteSupport
 (
 )
 ;
-bool
+void
 InitGPUProcessSupport
 (
 )
