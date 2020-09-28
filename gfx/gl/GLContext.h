@@ -8552,6 +8552,15 @@ GLuint
 names
 )
 {
+#
+ifdef
+XP_MACOSX
+fFlush
+(
+)
+;
+#
+endif
 raw_fDeleteTextures
 (
 n
