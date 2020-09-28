@@ -3182,10 +3182,6 @@ WindowGlobalChild
 aWindowActor
 =
 nullptr
-bool
-aIsTransientAboutBlank
-=
-false
 )
 ;
 nsPresContext
