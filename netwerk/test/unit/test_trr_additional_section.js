@@ -400,9 +400,6 @@ something
 .
 foo
 "
-{
-expectedAnswer
-:
 "
 1
 .
@@ -412,7 +409,6 @@ expectedAnswer
 .
 4
 "
-}
 )
 ;
 await
@@ -424,9 +420,6 @@ else
 .
 foo
 "
-{
-expectedAnswer
-:
 "
 2
 .
@@ -436,7 +429,6 @@ expectedAnswer
 .
 5
 "
-}
 )
 ;
 await
@@ -579,9 +571,6 @@ a
 .
 foo
 "
-{
-expectedAnswer
-:
 "
 1
 .
@@ -591,7 +580,6 @@ expectedAnswer
 .
 4
 "
-}
 )
 ;
 let
@@ -605,9 +593,6 @@ b
 .
 foo
 "
-{
-expectedAnswer
-:
 "
 3
 .
@@ -617,7 +602,6 @@ expectedAnswer
 .
 6
 "
-}
 )
 ;
 await
@@ -723,9 +707,6 @@ xyz
 .
 foo
 "
-{
-expectedAnswer
-:
 "
 1
 .
@@ -735,7 +716,6 @@ expectedAnswer
 .
 4
 "
-}
 )
 ;
 await
@@ -747,9 +727,6 @@ abc
 .
 foo
 "
-{
-expectedAnswer
-:
 "
 :
 :
@@ -761,7 +738,6 @@ expectedAnswer
 :
 4
 "
-}
 )
 ;
 await
@@ -859,9 +835,6 @@ ipv6
 .
 foo
 "
-{
-expectedAnswer
-:
 "
 2001
 :
@@ -874,7 +847,6 @@ c
 :
 d
 "
-}
 )
 ;
 await
@@ -886,9 +858,6 @@ def
 .
 foo
 "
-{
-expectedAnswer
-:
 "
 :
 :
@@ -900,7 +869,6 @@ c
 :
 d
 "
-}
 )
 ;
 await
@@ -996,9 +964,6 @@ ipv6b
 .
 foo
 "
-{
-expectedAnswer
-:
 "
 2001
 :
@@ -1011,7 +976,6 @@ c
 :
 d
 "
-}
 )
 ;
 await
@@ -1023,9 +987,6 @@ qqqq
 .
 foo
 "
-{
-expectedAnswer
-:
 "
 9
 .
@@ -1035,7 +996,6 @@ expectedAnswer
 .
 6
 "
-}
 )
 ;
 await
@@ -1234,9 +1194,6 @@ multiple
 .
 foo
 "
-{
-expectedAnswer
-:
 "
 9
 .
@@ -1246,7 +1203,6 @@ expectedAnswer
 .
 9
 "
-}
 )
 ;
 let
@@ -1336,11 +1292,8 @@ yuiop
 .
 foo
 "
-{
-expectedSuccess
-:
+undefined
 false
-}
 )
 ;
 inRecord
