@@ -839,7 +839,7 @@ return
 ;
 }
 const
-uint32_t
+long
 nrFrames
 =
 static_cast
@@ -895,6 +895,7 @@ cubeb_stream
 this
 )
 ;
+const
 long
 outframes
 =

@@ -1866,14 +1866,6 @@ inputFrequency
 ;
 EXPECT_GE
 (
-preSilenceSamples
-inputRate
-/
-100
-)
-;
-EXPECT_GE
-(
 nrDiscontinuities
 0U
 )
