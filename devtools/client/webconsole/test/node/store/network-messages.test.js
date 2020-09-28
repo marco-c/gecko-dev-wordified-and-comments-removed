@@ -212,9 +212,11 @@ dispatch
 (
 actions
 .
-networkMessageUpdate
+networkMessageUpdates
 (
+[
 updatePacket
+]
 null
 )
 )
