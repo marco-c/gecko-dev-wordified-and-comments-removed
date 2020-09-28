@@ -4520,6 +4520,8 @@ NotifyOnHistoryReload
 (
 MaybeDiscardedBrowsingContext
 aContext
+bool
+aForceReload
 )
 returns
 (

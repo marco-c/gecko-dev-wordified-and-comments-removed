@@ -6083,6 +6083,10 @@ BrowsingContext
 >
 &
 aContext
+const
+bool
+&
+aForceReload
 NotifyOnHistoryReloadResolver
 &
 &
