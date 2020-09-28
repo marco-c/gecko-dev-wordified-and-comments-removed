@@ -3746,9 +3746,9 @@ OriginNoSuffix
 ;
 }
 return
-EmptyCString
-(
-)
+"
+"
+_ns
 ;
 }
 const
@@ -3779,9 +3779,9 @@ OriginSuffix
 ;
 }
 return
-EmptyCString
-(
-)
+"
+"
+_ns
 ;
 }
 const

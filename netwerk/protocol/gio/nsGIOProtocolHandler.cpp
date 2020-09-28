@@ -3900,9 +3900,9 @@ nsLiteralCString
 (
 UNKNOWN_CONTENT_TYPE
 )
-EmptyCString
-(
-)
+"
+"
+_ns
 aLoadInfo
 )
 ;

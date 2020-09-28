@@ -250,9 +250,10 @@ parsedFeatures
 ;
 CheckParser
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 true
 0
 parsedFeatures

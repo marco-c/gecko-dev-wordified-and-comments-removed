@@ -3021,9 +3021,10 @@ computedDOMStyle
 NS_NewComputedDOMStyle
 (
 aElement
-EmptyString
-(
-)
+u
+"
+"
+_ns
 document
 )
 ;

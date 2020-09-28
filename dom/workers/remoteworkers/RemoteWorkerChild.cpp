@@ -2074,10 +2074,6 @@ rv
 }
 nsString
 workerPrivateId
-=
-EmptyString
-(
-)
 ;
 if
 (

@@ -681,9 +681,9 @@ aHandleReport
 >
 Callback
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 path
 kind
 nsIMemoryReporter

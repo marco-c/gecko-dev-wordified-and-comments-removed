@@ -597,9 +597,10 @@ MakeUnique
 txLiteralExpr
 >
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 }

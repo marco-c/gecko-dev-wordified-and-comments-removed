@@ -174,9 +174,10 @@ nsAString
 &
 aPseudoElt
 =
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 MOZ_CAN_RUN_SCRIPT

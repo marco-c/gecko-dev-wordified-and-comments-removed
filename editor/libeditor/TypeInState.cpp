@@ -771,9 +771,10 @@ PropItem
 (
 aProp
 aAttr
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 RemovePropFromSetList

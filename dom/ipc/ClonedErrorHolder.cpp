@@ -1707,9 +1707,9 @@ mFilename
 .
 Assign
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }

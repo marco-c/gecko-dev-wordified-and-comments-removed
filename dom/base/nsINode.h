@@ -4382,9 +4382,10 @@ defaultNamespace
 ;
 LookupNamespaceURI
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 defaultNamespace
 )
 ;

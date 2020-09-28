@@ -83,9 +83,10 @@ cx
 aScriptURL
 true
 WorkerTypeDedicated
-EmptyString
-(
-)
+u
+"
+"
+_ns
 VoidCString
 (
 )

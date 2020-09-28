@@ -157,9 +157,10 @@ aValue
 *
 aValue
 :
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 mRemoveAttribute
 (

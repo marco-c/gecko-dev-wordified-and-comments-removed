@@ -11846,9 +11846,10 @@ nsAString
 &
 aValue
 =
-EmptyString
-(
-)
+u
+"
+"
+_ns
 nsAString
 *
 aAdjustedValue

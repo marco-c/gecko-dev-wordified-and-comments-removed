@@ -3235,9 +3235,9 @@ nsCString
 &
 aGUID
 =
-EmptyCString
-(
-)
+"
+"
+_ns
 mozIVisitInfoCallback
 *
 aCallback

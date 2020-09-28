@@ -644,9 +644,9 @@ nsACString
 &
 aPreferredAlternativeDataType
 =
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 already_AddRefed

@@ -5628,9 +5628,9 @@ res
 ResolveHost
 (
 hostname
-EmptyCString
-(
-)
+"
+"
+_ns
 RESOLVE_TYPE_DEFAULT
 aOriginAttributes
 flags

@@ -1206,9 +1206,9 @@ aResult
 .
 Assign
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 return

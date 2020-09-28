@@ -1491,9 +1491,10 @@ GetOwnerGlobal
 (
 )
 aData
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 if
@@ -1672,9 +1673,10 @@ Cancelable
 eNo
 jsData
 mOrigin
-EmptyString
-(
-)
+u
+"
+"
+_ns
 nullptr
 Sequence
 <

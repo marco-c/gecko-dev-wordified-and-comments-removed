@@ -393,9 +393,9 @@ NS_CheckContentLoadPolicy
 (
 uri
 aLoadInfo
-EmptyCString
-(
-)
+"
+"
+_ns
 &
 decision
 )
@@ -1669,9 +1669,9 @@ GetTainting
 nsAutoCString
 preferredAltDataType
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 nsCOMPtr

@@ -7021,9 +7021,9 @@ get
 (
 )
 secCheckLoadInfo
-EmptyCString
-(
-)
+"
+"
+_ns
 &
 shouldLoad
 nsContentUtils

@@ -3402,9 +3402,10 @@ else
 {
 PushNameSpaceDecl
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 uriStr
 aOriginalElement
 )
@@ -3694,9 +3695,10 @@ NS_ENSURE_TRUE
 (
 SerializeAttr
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 xmlnsStr
 aTagNamespaceURI
 aStr

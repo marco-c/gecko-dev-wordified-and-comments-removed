@@ -1395,9 +1395,10 @@ nsGkAtoms
 :
 :
 nonce
-EmptyString
-(
-)
+u
+"
+"
+_ns
 true
 )
 ;

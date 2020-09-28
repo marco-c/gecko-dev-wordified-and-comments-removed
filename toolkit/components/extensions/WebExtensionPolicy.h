@@ -1102,10 +1102,6 @@ mBackgroundScripts
 ;
 nsString
 mBackgroundWorkerScript
-=
-EmptyString
-(
-)
 ;
 nsTArray
 <

@@ -2328,9 +2328,9 @@ nsCertOverride
 OverrideBits
 )
 aOverrideBits
-EmptyCString
-(
-)
+"
+"
+_ns
 lock
 )
 ;

@@ -1199,9 +1199,10 @@ url
 >
 SetHash
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 url

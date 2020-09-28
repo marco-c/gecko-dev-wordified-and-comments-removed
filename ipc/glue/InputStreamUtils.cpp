@@ -1567,9 +1567,9 @@ getter_AddRefs
 (
 stream
 )
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 serializable

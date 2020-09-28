@@ -691,9 +691,9 @@ aec_debug
 )
 {
 return
-EmptyCString
-(
-)
+"
+"
+_ns
 ;
 }
 #
@@ -813,9 +813,9 @@ aec_debug
 )
 {
 return
-EmptyCString
-(
-)
+"
+"
+_ns
 ;
 }
 GetWebRtcLogPrefs

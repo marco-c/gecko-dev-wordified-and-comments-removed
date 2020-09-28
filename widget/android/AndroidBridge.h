@@ -349,9 +349,10 @@ nsAString
 &
 aAction
 =
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 bool
@@ -377,9 +378,10 @@ nsAString
 &
 aAction
 =
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 bool

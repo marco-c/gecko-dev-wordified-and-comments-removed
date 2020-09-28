@@ -691,9 +691,10 @@ nsIContentPolicy
 :
 :
 TYPE_SCRIPT
-EmptyString
-(
-)
+u
+"
+"
+_ns
 true
 nullptr
 nullptr
@@ -1927,9 +1928,9 @@ text
 html
 "
 _ns
-EmptyCString
-(
-)
+"
+"
+_ns
 aLoadInfo
 )
 ;

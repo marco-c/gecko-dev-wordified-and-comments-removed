@@ -268,9 +268,9 @@ mozilla
 :
 HashString
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }

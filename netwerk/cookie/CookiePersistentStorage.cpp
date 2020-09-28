@@ -8176,9 +8176,9 @@ SetGrowthIncrement
 512
 *
 1024
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 mDBConn

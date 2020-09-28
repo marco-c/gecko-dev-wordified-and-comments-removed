@@ -110,9 +110,9 @@ rv
 NS_NewCStringInputStream
 (
 aStream
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 if

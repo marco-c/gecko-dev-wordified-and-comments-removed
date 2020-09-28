@@ -84,9 +84,10 @@ true
 )
 mRequestId
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 {
 }
@@ -1720,9 +1721,10 @@ mRequestId
 .
 Equals
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 )
 {

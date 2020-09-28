@@ -1090,9 +1090,10 @@ NS_ConvertUTF8toUTF16
 errorMsg
 )
 filename
-EmptyString
-(
-)
+u
+"
+"
+_ns
 lineno
 column
 nsIScriptError

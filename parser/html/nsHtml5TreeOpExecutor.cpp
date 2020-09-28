@@ -3506,9 +3506,10 @@ nsString
 (
 )
 nullptr
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aLineNumber
 )
 ;
@@ -3620,9 +3621,10 @@ nsString
 (
 )
 nullptr
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aLineNumber
 )
 ;

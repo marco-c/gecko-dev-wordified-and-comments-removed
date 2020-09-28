@@ -112,8 +112,9 @@ private
 PushUnsubscribeCallback
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 ServiceWorkerUnregisterJob
@@ -154,9 +155,9 @@ Type
 Unregister
 aPrincipal
 aScope
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 mResult
 (
@@ -195,8 +196,9 @@ ServiceWorkerUnregisterJob
 ServiceWorkerUnregisterJob
 (
 )
-{
-}
+=
+default
+;
 void
 ServiceWorkerUnregisterJob
 :

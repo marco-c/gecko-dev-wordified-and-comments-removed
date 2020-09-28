@@ -20863,9 +20863,10 @@ targFile
 ;
 NS_NewLocalFile
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 true
 getter_AddRefs
 (

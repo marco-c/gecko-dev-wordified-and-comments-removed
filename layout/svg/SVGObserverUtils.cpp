@@ -437,9 +437,9 @@ aKey
 return
 HashString
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }

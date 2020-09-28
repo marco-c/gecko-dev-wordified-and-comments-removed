@@ -11011,9 +11011,9 @@ rv
 =
 NS_NewNativeLocalFile
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 true
 getter_AddRefs
 (
@@ -15063,9 +15063,9 @@ aHandleReport
 >
 Callback
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 suspectPath
 KIND_OTHER
 UNITS_COUNT

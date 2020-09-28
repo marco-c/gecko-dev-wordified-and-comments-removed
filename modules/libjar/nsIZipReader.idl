@@ -761,9 +761,9 @@ javascript
 )
 *
 or
-EmptyCString
-(
-)
+"
+"
+_ns
 (
 c
 +
@@ -955,9 +955,9 @@ null
 javascript
 )
 or
-EmptyCString
-(
-)
+"
+"
+_ns
 (
 c
 +

@@ -1409,9 +1409,9 @@ ShouldLoad
 policyType
 cspEventListener
 aNewURI
-EmptyCString
-(
-)
+"
+"
+_ns
 aOriginalURI
 true
 cspNonce
@@ -1467,9 +1467,9 @@ ShouldLoad
 policyType
 cspEventListener
 aNewURI
-EmptyCString
-(
-)
+"
+"
+_ns
 aOriginalURI
 true
 cspNonce

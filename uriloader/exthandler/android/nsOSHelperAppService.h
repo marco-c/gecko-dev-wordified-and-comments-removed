@@ -148,9 +148,10 @@ nsAString
 &
 aAction
 =
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 }

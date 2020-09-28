@@ -24957,9 +24957,10 @@ nsGkAtoms
 :
 :
 flip
-EmptyString
-(
-)
+u
+"
+"
+_ns
 false
 )
 ;

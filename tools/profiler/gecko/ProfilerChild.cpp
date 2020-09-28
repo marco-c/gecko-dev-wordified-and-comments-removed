@@ -1108,15 +1108,6 @@ len
 )
 ;
 }
-else
-{
-profileCString
-=
-EmptyCString
-(
-)
-;
-}
 return
 profileCString
 ;

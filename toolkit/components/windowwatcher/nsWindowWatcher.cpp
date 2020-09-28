@@ -4350,9 +4350,10 @@ newBC
 >
 SetName
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 )
 ;

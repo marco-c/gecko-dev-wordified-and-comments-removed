@@ -627,9 +627,9 @@ mutator
 .
 SetQuery
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 .
 Finalize

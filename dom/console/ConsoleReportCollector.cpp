@@ -385,9 +385,10 @@ report
 mCategory
 aInnerWindowID
 uri
-EmptyString
-(
-)
+u
+"
+"
+_ns
 report
 .
 mLineNumber

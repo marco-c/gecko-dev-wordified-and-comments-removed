@@ -2537,9 +2537,9 @@ aHandleReport
 >
 Callback
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 path
 nsIMemoryReporter
 :

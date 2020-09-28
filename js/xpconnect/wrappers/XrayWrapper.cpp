@@ -1434,9 +1434,10 @@ ref
 )
 )
 filenameStr
-EmptyString
-(
-)
+u
+"
+"
+_ns
 line
 column
 nsIScriptError

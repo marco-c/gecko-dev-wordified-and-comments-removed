@@ -798,9 +798,10 @@ _ns
 ;
 }
 return
-EmptyString
-(
-)
+u
+"
+"
+_ns
 ;
 }
 void
@@ -909,9 +910,10 @@ GetKind
 sRole
 )
 :
-EmptyString
-(
-)
+u
+"
+"
+_ns
 sTitle
 ?
 NS_ConvertUTF8toUTF16

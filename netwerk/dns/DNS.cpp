@@ -2281,9 +2281,6 @@ host
 )
 mCanonicalName
 (
-EmptyCString
-(
-)
 )
 mFromTRR
 (

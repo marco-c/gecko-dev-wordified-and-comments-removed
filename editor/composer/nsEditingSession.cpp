@@ -1679,9 +1679,10 @@ doc
 nullptr
 nullptr
 mEditorFlags
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 NS_ENSURE_SUCCESS

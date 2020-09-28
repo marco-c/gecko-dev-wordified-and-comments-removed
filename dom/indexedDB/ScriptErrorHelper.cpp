@@ -453,9 +453,10 @@ InitWithWindowID
 (
 aMessage
 aFilename
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aLineNumber
 aColumnNumber
 aSeverityFlag
@@ -476,9 +477,10 @@ Init
 (
 aMessage
 aFilename
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aLineNumber
 aColumnNumber
 aSeverityFlag

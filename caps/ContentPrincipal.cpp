@@ -2013,9 +2013,9 @@ mutator
 .
 SetUserPass
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 .
 SetPort

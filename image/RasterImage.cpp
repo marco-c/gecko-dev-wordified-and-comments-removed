@@ -7673,9 +7673,10 @@ InitWithWindowID
 (
 msg
 src
-EmptyString
-(
-)
+u
+"
+"
+_ns
 0
 0
 nsIScriptError

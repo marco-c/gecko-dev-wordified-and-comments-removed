@@ -861,9 +861,10 @@ EncodeImage
 (
 aImage
 aMimeType
-EmptyString
-(
-)
+u
+"
+"
+_ns
 getter_AddRefs
 (
 inputStream

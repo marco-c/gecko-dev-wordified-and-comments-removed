@@ -2620,9 +2620,10 @@ scale
 return
 ParentShowInfo
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 false
 false
 mDPI
@@ -19944,9 +19945,9 @@ nsAuthInformationHolder
 (
 promptFlags
 aRealm
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 uint32_t

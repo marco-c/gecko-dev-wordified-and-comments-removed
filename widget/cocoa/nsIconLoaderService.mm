@@ -413,9 +413,10 @@ nsIRequest
 LOAD_NORMAL
 nullptr
 mContentType
-EmptyString
-(
-)
+u
+"
+"
+_ns
 false
 false
 getter_AddRefs
@@ -454,9 +455,10 @@ nsIRequest
 LOAD_NORMAL
 nullptr
 mContentType
-EmptyString
-(
-)
+u
+"
+"
+_ns
 false
 false
 getter_AddRefs

@@ -2109,9 +2109,9 @@ getter_AddRefs
 (
 mStream
 )
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 mSnappyStream

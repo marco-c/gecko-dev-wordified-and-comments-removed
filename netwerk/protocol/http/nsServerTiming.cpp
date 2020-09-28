@@ -407,9 +407,9 @@ timingHeader
 >
 SetDescription
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }

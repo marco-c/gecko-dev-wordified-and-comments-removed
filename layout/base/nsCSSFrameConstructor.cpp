@@ -7299,9 +7299,10 @@ return
 CreateGenConTextNode
 (
 aState
-EmptyString
-(
-)
+u
+"
+"
+_ns
 std
 :
 :
@@ -7377,9 +7378,10 @@ return
 CreateGenConTextNode
 (
 aState
-EmptyString
-(
-)
+u
+"
+"
+_ns
 std
 :
 :

@@ -956,9 +956,9 @@ uri
 .
 SetPassword
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 .
 Finalize

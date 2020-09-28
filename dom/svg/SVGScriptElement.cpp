@@ -670,9 +670,10 @@ ScriptSourceInvalidUri
 "
 params
 nullptr
-EmptyString
-(
-)
+u
+"
+"
+_ns
 GetScriptLineNumber
 (
 )
@@ -735,9 +736,10 @@ ScriptSourceEmpty
 "
 params
 nullptr
-EmptyString
-(
-)
+u
+"
+"
+_ns
 GetScriptLineNumber
 (
 )

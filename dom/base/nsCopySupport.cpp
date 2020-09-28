@@ -2648,9 +2648,9 @@ mimeService
 GetFromTypeAndExtension
 (
 mimeType
-EmptyCString
-(
-)
+"
+"
+_ns
 getter_AddRefs
 (
 mimeInfo

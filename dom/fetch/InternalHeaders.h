@@ -704,9 +704,9 @@ return
 IsInvalidMutableHeader
 (
 aName
-EmptyCString
-(
-)
+"
+"
+_ns
 aRv
 )
 ;

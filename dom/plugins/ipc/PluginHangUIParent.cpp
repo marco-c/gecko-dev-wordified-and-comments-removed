@@ -1574,9 +1574,10 @@ kInvalidProcessId
 ModalHangUI
 "
 _ns
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 responseCode

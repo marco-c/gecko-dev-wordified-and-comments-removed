@@ -345,9 +345,9 @@ aRec
 >
 originSuffix
 :
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 {
 MOZ_DIAGNOSTIC_ASSERT

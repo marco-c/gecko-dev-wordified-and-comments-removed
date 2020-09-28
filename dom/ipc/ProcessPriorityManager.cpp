@@ -659,9 +659,9 @@ nsACString
 &
 aData
 =
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 void
@@ -1058,9 +1058,9 @@ nsACString
 &
 aData
 =
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 void

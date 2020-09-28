@@ -1811,9 +1811,9 @@ Request_no_cors
 IsSimpleHeader
 (
 aName
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }

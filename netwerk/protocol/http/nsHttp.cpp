@@ -5151,9 +5151,8 @@ h1Value
 ;
 }
 return
-EmptyCString
-(
-)
+{
+}
 ;
 }
 }

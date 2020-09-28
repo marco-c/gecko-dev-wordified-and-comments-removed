@@ -1251,9 +1251,9 @@ const
 return
 HashingKey
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 mEnhanceID
 mURI
 aResult

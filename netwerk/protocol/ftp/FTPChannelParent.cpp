@@ -783,9 +783,9 @@ ftpChan
 SetUploadStream
 (
 upload
-EmptyCString
-(
-)
+"
+"
+_ns
 0
 )
 ;

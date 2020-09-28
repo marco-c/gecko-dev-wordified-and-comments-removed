@@ -3338,9 +3338,10 @@ eDOM_PROPERTIES
 aMessageName
 params
 nullptr
-EmptyString
-(
-)
+u
+"
+"
+_ns
 0
 )
 ;

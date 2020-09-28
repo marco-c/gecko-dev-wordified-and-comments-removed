@@ -4341,9 +4341,10 @@ EncodeImage
 (
 container
 mimeType
-EmptyString
-(
-)
+u
+"
+"
+_ns
 getter_AddRefs
 (
 inputStream

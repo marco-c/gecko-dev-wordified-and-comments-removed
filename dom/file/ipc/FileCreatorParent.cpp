@@ -619,9 +619,10 @@ impl
 >
 SetMozFullPath
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 }

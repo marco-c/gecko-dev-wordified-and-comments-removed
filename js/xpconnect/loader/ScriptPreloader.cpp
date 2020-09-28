@@ -1224,9 +1224,10 @@ NS_LITERAL_STRING_FROM_CSTRING
 __FILE__
 )
 __LINE__
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 }

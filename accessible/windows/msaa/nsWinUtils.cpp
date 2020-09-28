@@ -244,9 +244,10 @@ GetComputedStyle
 (
 *
 domElement
-EmptyString
-(
-)
+u
+"
+"
+_ns
 dummy
 )
 ;

@@ -2548,9 +2548,10 @@ mLastData
 DispatchCompositionEventRunnable
 (
 eCompositionCommitAsIs
-EmptyString
-(
-)
+u
+"
+"
+_ns
 true
 )
 ;

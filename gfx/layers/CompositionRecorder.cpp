@@ -471,9 +471,10 @@ ImageType
 :
 :
 PNG
-EmptyString
-(
-)
+u
+"
+"
+_ns
 gfxUtils
 :
 :

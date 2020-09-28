@@ -68,9 +68,9 @@ nsACString
 &
 message
 =
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 void
@@ -107,9 +107,9 @@ nsACString
 &
 aMessage
 =
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 already_AddRefed

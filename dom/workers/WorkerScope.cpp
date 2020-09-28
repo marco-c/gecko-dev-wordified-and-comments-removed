@@ -4094,9 +4094,10 @@ nsIScriptError
 :
 warningFlag
 mSourceSpec
-EmptyString
-(
-)
+u
+"
+"
+_ns
 mLine
 mColumn
 )

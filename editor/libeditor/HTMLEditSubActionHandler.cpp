@@ -47468,9 +47468,10 @@ newEmptyTextNode
 =
 CreateTextNode
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 if

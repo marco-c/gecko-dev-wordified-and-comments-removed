@@ -1361,9 +1361,9 @@ return
 NS_NewCStringInputStream
 (
 aResult
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }

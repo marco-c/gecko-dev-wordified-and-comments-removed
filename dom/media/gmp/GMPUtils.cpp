@@ -1019,9 +1019,9 @@ p
 ;
 }
 return
-EmptyCString
-(
-)
+"
+"
+_ns
 ;
 }
 bool

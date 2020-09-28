@@ -1768,9 +1768,9 @@ aHandleReport
 >
 Callback
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 path
 KIND_HEAP
 UNITS_BYTES
@@ -1809,9 +1809,9 @@ aHandleReport
 >
 Callback
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 path
 KIND_OTHER
 UNITS_BYTES

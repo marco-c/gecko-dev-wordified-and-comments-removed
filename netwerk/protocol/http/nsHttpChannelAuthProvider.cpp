@@ -2351,9 +2351,9 @@ mAuthChannel
 >
 SetProxyCredentials
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 if

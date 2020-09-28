@@ -241,9 +241,9 @@ new
 InternalResponse
 (
 0
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 ErrorResult

@@ -6528,9 +6528,9 @@ aHandleReport
 >
 Callback
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 domNodePath
 KIND_HEAP
 UNITS_BYTES

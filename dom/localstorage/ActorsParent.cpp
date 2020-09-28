@@ -1663,9 +1663,9 @@ aConnection
 SetGrowthIncrement
 (
 kSQLiteGrowthIncrement
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 if
@@ -35446,10 +35446,10 @@ Null
 aNull
 )
 {
-*
 mBindingClause
-=
-EmptyCString
+-
+>
+Truncate
 (
 )
 ;

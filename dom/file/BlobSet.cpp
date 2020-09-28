@@ -119,9 +119,10 @@ MemoryBlobImpl
 (
 data
 aLength
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 return
@@ -252,9 +253,10 @@ StringBlobImpl
 Create
 (
 utf8Str
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 return

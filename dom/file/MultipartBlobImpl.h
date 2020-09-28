@@ -149,9 +149,10 @@ aName
 BaseBlobImpl
 (
 aName
-EmptyString
-(
-)
+u
+"
+"
+_ns
 MULTIPARTBLOBIMPL_UNKNOWN_LENGTH
 MULTIPARTBLOBIMPL_UNKNOWN_LAST_MODIFIED
 )
@@ -163,9 +164,10 @@ MultipartBlobImpl
 :
 BaseBlobImpl
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 MULTIPARTBLOBIMPL_UNKNOWN_LENGTH
 )
 {

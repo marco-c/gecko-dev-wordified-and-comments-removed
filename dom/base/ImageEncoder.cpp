@@ -804,9 +804,10 @@ ImageEncoder
 ExtractDataInternal
 (
 mType
-EmptyString
-(
-)
+u
+"
+"
+_ns
 mImageBuffer
 .
 get

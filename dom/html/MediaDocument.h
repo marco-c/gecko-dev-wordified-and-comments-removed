@@ -279,9 +279,10 @@ nsAString
 &
 aStatus
 =
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 nsCOMPtr

@@ -4176,9 +4176,9 @@ aZip
 >
 FindEntries
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 getter_AddRefs
 (
 entries

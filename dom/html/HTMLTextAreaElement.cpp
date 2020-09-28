@@ -830,9 +830,10 @@ nsGkAtoms
 :
 :
 select
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 }

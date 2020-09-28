@@ -2153,9 +2153,9 @@ aHandleReport
 >
 Callback
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 nsCString
 (
 path

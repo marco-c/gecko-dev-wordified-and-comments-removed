@@ -4829,8 +4829,8 @@ mCDM
 nullptr
 ;
 mNodeId
-=
-EmptyCString
+.
+Truncate
 (
 )
 ;

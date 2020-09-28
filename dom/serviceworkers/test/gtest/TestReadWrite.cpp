@@ -579,9 +579,9 @@ ASSERT_TRUE
 (
 CreateFile
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 )
 <

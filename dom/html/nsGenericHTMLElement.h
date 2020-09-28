@@ -2827,9 +2827,10 @@ aValue
 SetHTMLAttr
 (
 aName
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aError
 )
 ;

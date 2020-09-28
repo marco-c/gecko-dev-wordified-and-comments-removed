@@ -3215,10 +3215,10 @@ standard_params
 spec
 (
 )
-=
-"
-"
-_ns
+.
+Truncate
+(
+)
 ;
 standard_params
 .

@@ -2258,9 +2258,10 @@ width
 "
 _ns
 widthstr
-EmptyString
-(
-)
+u
+"
+"
+_ns
 IgnoreErrors
 (
 )
@@ -2332,9 +2333,10 @@ height
 "
 _ns
 heightstr
-EmptyString
-(
-)
+u
+"
+"
+_ns
 IgnoreErrors
 (
 )

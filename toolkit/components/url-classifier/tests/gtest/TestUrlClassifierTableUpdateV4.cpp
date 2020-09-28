@@ -1142,9 +1142,9 @@ nsCString
 (
 GTEST_TABLE
 )
-EmptyCString
-(
-)
+"
+"
+_ns
 file
 )
 ;

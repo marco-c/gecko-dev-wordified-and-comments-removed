@@ -3289,9 +3289,10 @@ NS_ConvertUTF8toUTF16
 newMessage
 )
 sourceName
-EmptyString
-(
-)
+u
+"
+"
+_ns
 lineNumber
 0
 0

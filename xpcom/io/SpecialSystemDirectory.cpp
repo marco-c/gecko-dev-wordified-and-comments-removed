@@ -3400,9 +3400,10 @@ kTemporaryFolderType
 {
 NS_NewLocalFile
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 true
 aLocalFile
 )
@@ -3474,9 +3475,10 @@ noErr
 {
 NS_NewLocalFile
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 true
 aLocalFile
 )

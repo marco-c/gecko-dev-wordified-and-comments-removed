@@ -3018,10 +3018,10 @@ directory
 .
 if
 (
-aFoldername
 !
-=
-EmptyCString
+aFoldername
+.
+IsEmpty
 (
 )
 )

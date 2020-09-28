@@ -3674,9 +3674,10 @@ ConvertToUTF16
 channel
 string
 stringLen
-EmptyString
-(
-)
+u
+"
+"
+_ns
 mDocument
 mOffThreadCompileStringBuf
 mOffThreadCompileStringLength

@@ -650,9 +650,9 @@ PR_Now
 (
 )
 progress
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }
@@ -997,9 +997,9 @@ PR_Now
 (
 )
 0
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }

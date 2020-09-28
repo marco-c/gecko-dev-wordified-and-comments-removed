@@ -2825,9 +2825,9 @@ paths
 .
 Contains
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 )
 {
@@ -2835,9 +2835,9 @@ paths
 .
 AppendElement
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }

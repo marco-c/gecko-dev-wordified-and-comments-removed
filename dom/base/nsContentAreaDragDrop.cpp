@@ -849,9 +849,9 @@ mimeService
 GetFromTypeAndExtension
 (
 aMimeType
-EmptyCString
-(
-)
+"
+"
+_ns
 getter_AddRefs
 (
 mimeInfo
@@ -1949,9 +1949,9 @@ mimeService
 GetFromTypeAndExtension
 (
 mimeType
-EmptyCString
-(
-)
+"
+"
+_ns
 getter_AddRefs
 (
 mimeInfo

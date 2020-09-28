@@ -9655,9 +9655,10 @@ return
 ReplaceRangeData
 (
 invisibleTrailingWhiteSpaceRangeAtEnd
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 }
@@ -9973,9 +9974,10 @@ return
 ReplaceRangeData
 (
 invisibleLeadingWhiteSpaceRangeAtStart
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 }

@@ -3025,10 +3025,10 @@ Data
 -
 >
 mFamilyName
-=
-"
-"
-_ns
+.
+Truncate
+(
+)
 ;
 }
 mFontEntries

@@ -765,9 +765,10 @@ InitWithWindowID
 (
 result
 spec
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aLineNumber
 aColumnNumber
 nsIScriptError

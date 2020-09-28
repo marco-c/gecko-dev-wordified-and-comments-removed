@@ -368,9 +368,9 @@ name
 AddStaticElement
 (
 name
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }
@@ -1196,9 +1196,9 @@ name
 AddElement
 (
 name
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }
