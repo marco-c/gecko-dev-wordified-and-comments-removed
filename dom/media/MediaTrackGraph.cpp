@@ -11901,11 +11901,7 @@ const
 TrackTime
 minChunkSize
 =
-mSampleRate
-*
-50
-/
-1000
+2400
 ;
 if
 (

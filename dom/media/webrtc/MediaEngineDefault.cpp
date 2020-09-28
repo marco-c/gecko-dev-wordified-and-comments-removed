@@ -1790,9 +1790,6 @@ mSineGenerator
 MakeUnique
 <
 SineWaveGenerator
-<
-int16_t
->
 >
 (
 mTrack
@@ -1841,9 +1838,6 @@ const
 UniquePtr
 <
 SineWaveGenerator
-<
-int16_t
->
 >
 mSineGenerator
 ;

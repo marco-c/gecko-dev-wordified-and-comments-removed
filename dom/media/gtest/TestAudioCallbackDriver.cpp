@@ -74,10 +74,6 @@ MockCubeb
 h
 "
 using
-namespace
-mozilla
-;
-using
 IterationResult
 =
 GraphInterface
@@ -100,6 +96,10 @@ testing
 :
 :
 Return
+;
+using
+namespace
+mozilla
 ;
 class
 MockGraphInterface

@@ -41716,8 +41716,6 @@ endif
 ClockDrift
 desired
 buffering
-in
-milliseconds
 -
 name
 :
@@ -41734,7 +41732,7 @@ mirror
 always
 value
 :
-50
+5
 #
 If
 a

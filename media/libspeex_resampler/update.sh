@@ -239,12 +239,3 @@ no
 return
 .
 patch
-patch
--
-p3
-<
-integer
--
-halving
-.
-patch

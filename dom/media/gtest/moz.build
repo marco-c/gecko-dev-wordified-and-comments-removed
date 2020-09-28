@@ -59,6 +59,11 @@ UNIFIED_SOURCES
 =
 [
 '
+AudioGenerator
+.
+cpp
+'
+'
 MockMediaResource
 .
 cpp
@@ -575,14 +580,6 @@ media
 platforms
 /
 agnostic
-'
-'
-/
-dom
-/
-media
-/
-webrtc
 '
 '
 /
