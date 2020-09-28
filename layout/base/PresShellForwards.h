@@ -299,15 +299,6 @@ ScrollFlags
 )
 enum
 class
-ScrollableDirection
-{
-Horizontal
-Vertical
-Either
-}
-;
-enum
-class
 RenderDocumentFlags
 {
 None
