@@ -2217,7 +2217,7 @@ aDecls
 .
 PropertyIsSet
 (
-eCSSProperty__moz_script_level
+eCSSProperty_math_depth
 )
 )
 {
@@ -2302,7 +2302,7 @@ aDecls
 .
 SetIntValue
 (
-eCSSProperty__moz_script_level
+eCSSProperty_math_depth
 intValue
 )
 ;
@@ -2313,7 +2313,7 @@ aDecls
 .
 SetNumberValue
 (
-eCSSProperty__moz_script_level
+eCSSProperty_math_depth
 intValue
 )
 ;

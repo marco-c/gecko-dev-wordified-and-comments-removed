@@ -7457,7 +7457,7 @@ MozMinFontSizeRatio
 LonghandId
 :
 :
-MozScriptLevel
+MathDepth
 |
 %
 endif
