@@ -871,6 +871,13 @@ UrlbarTokenizer
 RESTRICT
 .
 OPENPAGE
+{
+searchModeEntry
+:
+"
+tabmenu
+"
+}
 )
 ;
 }
