@@ -67,6 +67,12 @@ bool
 value
 )
 ;
+MFBT_API
+void
+PollPreXULSkeletonUIEvents
+(
+)
+;
 }
 #
 endif
