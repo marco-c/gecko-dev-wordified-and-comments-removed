@@ -22,6 +22,7 @@ request
 .
 GET
 [
+b
 '
 id
 '
@@ -203,6 +204,7 @@ b
 "
 etag
 "
+b
 "
 abcdef
 "
@@ -238,6 +240,7 @@ content
 -
 type
 "
+b
 "
 image
 /
@@ -257,6 +260,7 @@ cache
 -
 control
 "
+b
 "
 public
 max
