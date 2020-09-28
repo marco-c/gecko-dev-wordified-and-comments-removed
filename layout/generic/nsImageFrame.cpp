@@ -848,6 +848,16 @@ MaxISize
 wm
 )
 )
+|
+|
+aReflowInput
+.
+mFrame
+-
+>
+IsFlexItem
+(
+)
 ;
 }
 nsIFrame
