@@ -1632,7 +1632,7 @@ RequestOrUSVString
 &
 aRequest
 const
-CacheQueryOptions
+MultiCacheQueryOptions
 &
 aOptions
 ErrorResult

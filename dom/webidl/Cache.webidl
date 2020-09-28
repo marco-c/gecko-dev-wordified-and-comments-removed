@@ -314,9 +314,6 @@ ignoreVary
 =
 false
 ;
-DOMString
-cacheName
-;
 }
 ;
 dictionary

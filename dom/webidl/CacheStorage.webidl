@@ -193,7 +193,7 @@ match
 RequestInfo
 request
 optional
-CacheQueryOptions
+MultiCacheQueryOptions
 options
 =
 {
@@ -252,6 +252,16 @@ DOMString
 keys
 (
 )
+;
+}
+;
+dictionary
+MultiCacheQueryOptions
+:
+CacheQueryOptions
+{
+DOMString
+cacheName
 ;
 }
 ;
