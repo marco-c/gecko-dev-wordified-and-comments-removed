@@ -295,13 +295,10 @@ estimate
 (
 )
 ;
-assert_true
+assert_equals
 (
 typeof
 estimate
-=
-=
-=
 '
 object
 '

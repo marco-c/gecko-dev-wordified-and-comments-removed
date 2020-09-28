@@ -97,7 +97,7 @@ remove
 }
 )
 ;
-assert_true
+assert_not_equals
 (
 frame
 .
@@ -108,9 +108,6 @@ navigator
 serviceWorker
 .
 controller
-!
-=
-=
 null
 )
 ;

@@ -272,14 +272,11 @@ err
 =
 >
 {
-assert_true
+assert_equals
 (
 err
 .
 name
-=
-=
-=
 "
 AbortError
 "

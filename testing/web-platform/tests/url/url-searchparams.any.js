@@ -65,14 +65,11 @@ searchParams
 url
 .
 searchParams
-assert_true
+assert_equals
 (
 url
 .
 searchParams
-=
-=
-=
 searchParams
 '
 Object

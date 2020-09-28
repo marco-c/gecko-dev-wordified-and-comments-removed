@@ -248,14 +248,11 @@ interval
 '
 )
 ;
-assert_true
+assert_not_equals
 (
 interval
 .
 pathLength
-!
-=
-=
 undefined
 "
 pathLength

@@ -243,14 +243,12 @@ i
 msg
 )
 {
-assert_true
+assert_equals
 (
 expected_alerts
 [
 i
 ]
-=
-=
 msg
 )
 ;

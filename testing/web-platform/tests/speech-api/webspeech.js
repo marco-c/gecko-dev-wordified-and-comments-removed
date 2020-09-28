@@ -344,13 +344,11 @@ cTest
 max
 )
 {
-assert_true
+assert_equals
 (
 cTest
 .
 sum
-=
-=
 cTest
 .
 min
