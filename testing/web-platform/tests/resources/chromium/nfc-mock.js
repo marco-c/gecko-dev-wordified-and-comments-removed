@@ -590,7 +590,7 @@ if
 (
 provided
 .
-ignoreRead
+overwrite
 !
 =
 =
@@ -600,12 +600,12 @@ assert_equals
 (
 provided
 .
-ignoreRead
+overwrite
 !
 !
 received
 .
-ignoreRead
+overwrite
 )
 ;
 else
@@ -615,7 +615,7 @@ assert_equals
 !
 received
 .
-ignore_read
+overwrite
 true
 )
 ;
@@ -1697,7 +1697,7 @@ this
 .
 pending_write_options_
 .
-ignoreRead
+overwrite
 )
 return
 ;
