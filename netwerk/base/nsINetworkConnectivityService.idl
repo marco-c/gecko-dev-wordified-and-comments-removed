@@ -191,14 +191,6 @@ attribute
 nsINetworkConnectivityService_ConnectivityState
 DNSv6
 ;
-[
-infallible
-]
-readonly
-attribute
-nsINetworkConnectivityService_ConnectivityState
-NAT64
-;
 /
 *
 If
