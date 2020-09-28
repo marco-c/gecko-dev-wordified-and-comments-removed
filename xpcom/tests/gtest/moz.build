@@ -23,11 +23,6 @@ TestAtoms
 cpp
 '
 '
-TestAutoRef
-.
-cpp
-'
-'
 TestAutoRefCnt
 .
 cpp
