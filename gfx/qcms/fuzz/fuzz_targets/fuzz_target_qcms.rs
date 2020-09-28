@@ -527,6 +527,9 @@ if
 !
 qcms_profile_is_bogus
 (
+&
+mut
+*
 profile
 )
 {
