@@ -952,7 +952,7 @@ CanSet
 (
 FieldIndex
 <
-IDX_DocTreeHadAudibleMedia
+IDX_DocTreeHadMedia
 >
 const
 bool

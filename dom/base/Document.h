@@ -11136,7 +11136,7 @@ ReportShadowDOMUsage
 )
 ;
 void
-SetDocTreeHadAudibleMedia
+SetDocTreeHadMedia
 (
 )
 ;

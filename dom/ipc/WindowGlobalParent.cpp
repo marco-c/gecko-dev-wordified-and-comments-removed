@@ -5328,7 +5328,7 @@ mixedContentLevel
 ;
 if
 (
-GetDocTreeHadAudibleMedia
+GetDocTreeHadMedia
 (
 )
 )
@@ -5341,7 +5341,7 @@ Telemetry
 ScalarID
 :
 :
-MEDIA_PAGE_HAD_MEDIA_COUNT
+MEDIA_ELEMENT_IN_PAGE_COUNT
 1
 )
 ;

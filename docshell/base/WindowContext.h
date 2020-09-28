@@ -330,14 +330,13 @@ this
 document
 tree
 contained
-an
+at
+least
+a
 HTMLMediaElement
-that
+.
 \
 *
-played
-audibly
-.
 This
 should
 only
@@ -353,7 +352,7 @@ context
 \
 FIELD
 (
-DocTreeHadAudibleMedia
+DocTreeHadMedia
 bool
 )
 \
@@ -1008,7 +1007,7 @@ CanSet
 (
 FieldIndex
 <
-IDX_DocTreeHadAudibleMedia
+IDX_DocTreeHadMedia
 >
 const
 bool
