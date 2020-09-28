@@ -7372,6 +7372,12 @@ CreateStaticClone
 nsIDocShell
 *
 aCloneContainer
+nsIContentViewer
+*
+aContentViewer
+bool
+*
+aOutHasInProcessPrintCallbacks
 )
 ;
 Document
@@ -11277,14 +11283,6 @@ nsFrameLoader
 mStaticCloneOf
 ;
 }
-;
-nsTArray
-<
-PendingFrameStaticClone
->
-TakePendingFrameStaticClones
-(
-)
 ;
 void
 AddPendingFrameStaticClone

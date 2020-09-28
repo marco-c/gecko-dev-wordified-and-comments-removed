@@ -598,14 +598,9 @@ FinishStaticClone
 nsFrameLoader
 *
 aStaticCloneOf
-nsIDocShell
+bool
 *
-*
-aCloneDocShell
-Document
-*
-*
-aCloneDocument
+aOutHasInProcessPrintCallbacks
 )
 ;
 nsDocShell
