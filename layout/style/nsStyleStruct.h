@@ -407,7 +407,7 @@ uint8_t
 mMathVariant
 ;
 uint8_t
-mMathStyle
+mMathDisplay
 ;
 uint8_t
 mMinFontSizeRatio
