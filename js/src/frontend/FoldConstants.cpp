@@ -6654,6 +6654,17 @@ while
 next
 )
 ;
+if
+(
+accum
+.
+length
+(
+)
+>
+1
+)
+{
 const
 ParserAtom
 *
@@ -6740,6 +6751,7 @@ setAtom
 combination
 )
 ;
+}
 if
 (
 !
