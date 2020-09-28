@@ -10182,6 +10182,12 @@ case
 BailoutKind
 :
 :
+FunctionLength
+:
+case
+BailoutKind
+:
+:
 ProtoGuard
 :
 case
