@@ -8313,6 +8313,7 @@ clipboard
 nsresult
 ParseCFHTML
 (
+const
 nsCString
 &
 aCfhtml
