@@ -4016,6 +4016,13 @@ OpcodeFF
 "
 NoStubAddressCheck
 )
+TestCase
+(
+"
+IndirectCall
+"
+NoStubAddressCheck
+)
 #
 elif
 defined
