@@ -1598,6 +1598,13 @@ mSamplingRate
 )
 ;
 }
+audiodata
+-
+>
+mDurationBase
+=
+kOpusSamplingRate
+;
 mSourceSegment
 .
 RemoveLeading

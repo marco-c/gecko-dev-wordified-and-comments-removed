@@ -388,6 +388,13 @@ aDuration
 videoData
 -
 >
+mDurationBase
+=
+PR_USEC_PER_SEC
+;
+videoData
+-
+>
 SwapInFrameData
 (
 frameData
