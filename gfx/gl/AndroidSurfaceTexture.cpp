@@ -737,7 +737,7 @@ NativeGLBlitHelper
 :
 :
 LocalRef
-Create
+NativeCreate
 (
 jint
 sourceTextureHandle
