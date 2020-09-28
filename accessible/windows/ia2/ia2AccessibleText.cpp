@@ -2282,6 +2282,15 @@ nsIAccessibleText
 :
 BOUNDARY_LINE_START
 ;
+case
+IA2_TEXT_BOUNDARY_PARAGRAPH
+:
+return
+nsIAccessibleText
+:
+:
+BOUNDARY_PARAGRAPH
+;
 default
 :
 return
