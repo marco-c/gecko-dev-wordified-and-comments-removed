@@ -2289,8 +2289,14 @@ id
 )
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+id
+.
+isPrivateName
+(
+)
 obj
 -
 >
