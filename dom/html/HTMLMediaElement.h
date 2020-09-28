@@ -4321,16 +4321,6 @@ TimeDurationAccumulator
 mCurrentLoadPlayTime
 ;
 bool
-mHasPlayEverBeenBlocked
-=
-false
-;
-void
-ReportPlayedTimeAfterBlockedTelemetry
-(
-)
-;
-bool
 mInitialized
 =
 false
