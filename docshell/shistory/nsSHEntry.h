@@ -145,6 +145,9 @@ mReferrerInfo
 nsString
 mTitle
 ;
+nsString
+mName
+;
 nsCOMPtr
 <
 nsIInputStream
