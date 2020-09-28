@@ -7860,7 +7860,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent_AtStartup
+fission_sessionHistoryInParent
 (
 )
 &
