@@ -79,7 +79,7 @@ mozilla
 /
 layers
 /
-WebRenderCompositionRecorder
+CompositionRecorder
 .
 h
 "

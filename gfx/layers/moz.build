@@ -1694,13 +1694,6 @@ h
 '
 wr
 /
-WebRenderCompositionRecorder
-.
-h
-'
-'
-wr
-/
 WebRenderDrawEventRecorder
 .
 h
@@ -3493,13 +3486,6 @@ cpp
 wr
 /
 WebRenderCommandBuilder
-.
-cpp
-'
-'
-wr
-/
-WebRenderCompositionRecorder
 .
 cpp
 '

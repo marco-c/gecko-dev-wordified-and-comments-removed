@@ -95,17 +95,6 @@ include
 "
 mozilla
 /
-layers
-/
-WebRenderCompositionRecorder
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HashTable
 .
 h
