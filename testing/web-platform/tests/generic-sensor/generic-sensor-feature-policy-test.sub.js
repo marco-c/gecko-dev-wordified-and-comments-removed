@@ -576,6 +576,17 @@ cross_origin_src
 +
 sensorName
 expect_feature_available_default
+feature_policies
+[
+sensorName
+]
+.
+join
+(
+"
+;
+"
+)
 )
 ;
 }
