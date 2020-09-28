@@ -5070,6 +5070,7 @@ nsITransferable
 *
 aTransferable
 )
+const
 {
 MOZ_ASSERT
 (

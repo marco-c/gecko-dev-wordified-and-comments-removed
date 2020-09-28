@@ -1247,10 +1247,12 @@ aQuotedText
 bool
 IsSafeToInsertData
 (
+const
 Document
 *
 aSourceDoc
 )
+const
 ;
 already_AddRefed
 <

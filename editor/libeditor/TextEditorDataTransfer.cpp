@@ -1293,6 +1293,7 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
+const
 uint32_t
 numItems
 =
@@ -3697,10 +3698,12 @@ TextEditor
 :
 IsSafeToInsertData
 (
+const
 Document
 *
 aSourceDoc
 )
+const
 {
 bool
 isSafe
