@@ -440,7 +440,7 @@ false
 if
 (
 typeof
-exports
+module
 =
 =
 =
@@ -449,9 +449,9 @@ object
 "
 )
 {
-exports
+module
 .
-isProbablyReaderable
+exports
 =
 isProbablyReaderable
 ;
