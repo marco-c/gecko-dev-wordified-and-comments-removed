@@ -630,14 +630,6 @@ attribute
 boolean
 loadingEnabled
 ;
-[
-ChromeOnly
-]
-readonly
-attribute
-short
-imageBlockingStatus
-;
 /
 *
 *
@@ -731,7 +723,6 @@ aRequest
 ;
 [
 ChromeOnly
-Throws
 ]
 readonly
 attribute
