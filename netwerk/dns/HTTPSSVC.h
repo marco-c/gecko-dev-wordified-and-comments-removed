@@ -427,6 +427,9 @@ mSvcFieldPriority
 nsCString
 mSvcDomainName
 ;
+nsCString
+mEchConfig
+;
 bool
 mHasIPHints
 =

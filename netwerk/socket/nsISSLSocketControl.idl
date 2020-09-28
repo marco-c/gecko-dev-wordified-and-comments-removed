@@ -315,7 +315,7 @@ failedVerification
 ;
 attribute
 ACString
-esniTxt
+echConfig
 ;
 readonly
 attribute
