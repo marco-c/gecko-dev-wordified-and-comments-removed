@@ -122,6 +122,10 @@ GrabScreenshot
 Window
 &
 aWindow
+const
+IntSize
+&
+aWindowSize
 )
 ;
 void
@@ -271,6 +275,10 @@ profiler_screenshots
 Window
 &
 aWindow
+const
+IntSize
+&
+aWindowSize
 )
 {
 if
@@ -314,6 +322,7 @@ mImpl
 GrabScreenshot
 (
 aWindow
+aWindowSize
 )
 ;
 }
@@ -632,6 +641,10 @@ GrabScreenshot
 Window
 &
 aWindow
+const
+IntSize
+&
+aWindowSize
 )
 {
 RefPtr
@@ -644,6 +657,7 @@ aWindow
 .
 GetWindowContents
 (
+aWindowSize
 )
 ;
 if
@@ -673,12 +687,7 @@ return
 Size
 windowSize
 (
-windowRenderSource
--
->
-Size
-(
-)
+aWindowSize
 )
 ;
 float
