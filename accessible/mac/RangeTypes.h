@@ -16,6 +16,9 @@ EWhichRange
 {
 eLeftWord
 eRightWord
+eLine
+eLeftLine
+eRightLine
 }
 ;
 }
