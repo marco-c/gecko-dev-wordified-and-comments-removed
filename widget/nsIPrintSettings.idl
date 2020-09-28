@@ -164,13 +164,6 @@ kInitSaveDuplex
 const
 unsigned
 long
-kInitSavePaperData
-=
-0x00002000
-;
-const
-unsigned
-long
 kInitSaveUnwriteableMargins
 =
 0x00004000
@@ -581,10 +574,6 @@ showMarginGuides
 attribute
 AString
 paperName
-;
-attribute
-short
-paperData
 ;
 attribute
 double

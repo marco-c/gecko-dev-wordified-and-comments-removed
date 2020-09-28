@@ -245,9 +245,6 @@ NUM_HEAD_FOOT
 nsString
 mPaperName
 ;
-int16_t
-mPaperData
-;
 double
 mPaperWidth
 ;
