@@ -1990,6 +1990,13 @@ JSContext
 cx
 )
 ;
+static
+constexpr
+size_t
+MaxWellKnownLength
+=
+32
+;
 template
 <
 typename
