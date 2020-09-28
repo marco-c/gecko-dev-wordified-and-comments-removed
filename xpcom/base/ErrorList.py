@@ -5241,7 +5241,7 @@ FAILURE
 errors
 [
 "
-NS_ERROR_SRI_DISABLED
+NS_ERROR_SRI_NOT_ELIGIBLE
 "
 ]
 =
@@ -5253,7 +5253,7 @@ FAILURE
 errors
 [
 "
-NS_ERROR_SRI_NOT_ELIGIBLE
+NS_ERROR_SRI_UNEXPECTED_HASH_TYPE
 "
 ]
 =
@@ -5265,25 +5265,13 @@ FAILURE
 errors
 [
 "
-NS_ERROR_SRI_UNEXPECTED_HASH_TYPE
-"
-]
-=
-FAILURE
-(
-203
-)
-    
-errors
-[
-"
 NS_ERROR_SRI_IMPORT
 "
 ]
 =
 FAILURE
 (
-204
+203
 )
     
 errors
