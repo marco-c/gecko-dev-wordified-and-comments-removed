@@ -214,7 +214,9 @@ QueryMarginsForPaper
 (
 Promise
 &
-short
+const
+nsString
+&
 aPaperId
 )
 ;
@@ -387,7 +389,7 @@ virtual
 MarginDouble
 GetMarginsForPaper
 (
-short
+nsString
 aPaperId
 )
 const

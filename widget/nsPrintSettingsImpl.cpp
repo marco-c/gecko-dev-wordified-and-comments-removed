@@ -327,7 +327,7 @@ aSettings
 .
 mPaperInfo
 .
-mName
+mId
 )
 ;
 SetPaperWidth

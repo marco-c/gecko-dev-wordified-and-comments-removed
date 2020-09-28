@@ -28,6 +28,11 @@ nsISupports
 readonly
 attribute
 AString
+id
+;
+readonly
+attribute
+AString
 name
 ;
 readonly
@@ -47,11 +52,6 @@ readonly
 attribute
 Promise
 unwriteableMargin
-;
-readonly
-attribute
-short
-paperId
 ;
 }
 ;
