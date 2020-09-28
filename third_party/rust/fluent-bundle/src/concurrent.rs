@@ -76,7 +76,7 @@ Self
 :
 Sized
 {
-IntlLangMemoizer
+Self
 :
 :
 new

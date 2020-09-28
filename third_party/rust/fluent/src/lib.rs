@@ -52,7 +52,7 @@ new
 (
 args
 .
-insert
+add
 (
 key
 value

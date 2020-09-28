@@ -1050,10 +1050,13 @@ value
 )
 in
 opts
+.
+iter
+(
+)
 {
 match
 (
-*
 key
 value
 )

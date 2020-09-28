@@ -47,7 +47,7 @@ use
 crate
 :
 :
-bundle
+args
 :
 :
 FluentArgs
@@ -425,10 +425,13 @@ value
 )
 in
 opts
+.
+iter
+(
+)
 {
 match
 (
-*
 key
 value
 )
@@ -961,7 +964,7 @@ default
 )
 }
 ;
-FluentNumber
+Self
 :
 :
 new
@@ -1040,7 +1043,7 @@ num
 >
 Self
 {
-FluentNumber
+Self
 {
 value
 :
@@ -1079,7 +1082,7 @@ num
 >
 Self
 {
-FluentNumber
+Self
 {
 value
 :
@@ -1276,7 +1279,7 @@ let
 mut
 operands
 :
-PluralOperands
+Self
 =
 input
 .

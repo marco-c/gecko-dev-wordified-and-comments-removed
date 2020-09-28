@@ -2,7 +2,7 @@ use
 crate
 :
 :
-resolve
+resolver
 :
 :
 ResolverError
@@ -68,7 +68,7 @@ ResolverError
 >
 Self
 {
-FluentError
+Self
 :
 :
 ResolverError
@@ -96,7 +96,7 @@ ParserError
 >
 Self
 {
-FluentError
+Self
 :
 :
 ParserError
