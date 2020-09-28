@@ -811,7 +811,7 @@ BOOKMARKS
 ;
 Assert
 .
-equal
+greater
 (
 UrlbarTestUtils
 .
@@ -821,11 +821,14 @@ win
 )
 0
 "
-No
-results
+At
+least
+the
+heuristic
+result
 should
 be
-present
+shown
 "
 )
 ;
@@ -833,6 +836,7 @@ Assert
 .
 ok
 (
+!
 win
 .
 gURLBar
@@ -848,10 +852,10 @@ noresults
 "
 Panel
 has
-no
 results
 therefore
 should
+not
 have
 noresults
 attribute
