@@ -3485,9 +3485,6 @@ MediaMetadata
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -3536,9 +3533,6 @@ name
 MediaSession
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
