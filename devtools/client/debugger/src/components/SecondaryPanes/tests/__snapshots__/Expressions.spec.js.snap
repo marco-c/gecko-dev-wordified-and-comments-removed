@@ -24,6 +24,9 @@ keys
 ]
 =
 <
+Fragment
+>
+<
 ul
 className
 =
@@ -398,6 +401,10 @@ li
 /
 ul
 >
+<
+/
+Fragment
+>
 ;
 exports
 [
@@ -407,6 +414,9 @@ render
 1
 ]
 =
+<
+Fragment
+>
 <
 ul
 className
@@ -785,5 +795,9 @@ li
 <
 /
 ul
+>
+<
+/
+Fragment
 >
 ;

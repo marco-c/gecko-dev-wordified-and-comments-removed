@@ -5697,9 +5697,11 @@ expressionInput
 :
 "
 .
+watch
+-
 expressions
 -
-list
+pane
 input
 .
 input
