@@ -76,7 +76,7 @@ attribute
 ServiceWorkerState
 state
 ;
-void
+undefined
 postMessage
 (
 any
@@ -88,7 +88,7 @@ object
 transfer
 )
 ;
-void
+undefined
 postMessage
 (
 any
@@ -192,7 +192,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 update
 (
@@ -340,7 +340,7 @@ getRegistrations
 (
 )
 ;
-void
+undefined
 startMessages
 (
 )
@@ -409,7 +409,7 @@ NavigationPreloadManager
 {
 Promise
 <
-void
+undefined
 >
 enable
 (
@@ -417,7 +417,7 @@ enable
 ;
 Promise
 <
-void
+undefined
 >
 disable
 (
@@ -425,7 +425,7 @@ disable
 ;
 Promise
 <
-void
+undefined
 >
 setHeaderValue
 (
@@ -501,7 +501,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 skipWaiting
 (
@@ -557,7 +557,7 @@ attribute
 ClientType
 type
 ;
-void
+undefined
 postMessage
 (
 any
@@ -569,7 +569,7 @@ object
 transfer
 )
 ;
-void
+undefined
 postMessage
 (
 any
@@ -732,7 +732,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 claim
 (
@@ -796,7 +796,7 @@ eventInitDict
 }
 )
 ;
-void
+undefined
 waitUntil
 (
 Promise
@@ -879,11 +879,11 @@ readonly
 attribute
 Promise
 <
-void
+undefined
 >
 handled
 ;
-void
+undefined
 respondWith
 (
 Promise
@@ -930,7 +930,7 @@ replacesClientId
 ;
 Promise
 <
-void
+undefined
 >
 handled
 ;
@@ -1118,7 +1118,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 add
 (
@@ -1131,7 +1131,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 addAll
 (
@@ -1147,7 +1147,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 put
 (
