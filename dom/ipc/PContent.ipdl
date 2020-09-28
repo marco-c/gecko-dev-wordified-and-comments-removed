@@ -3150,6 +3150,15 @@ aCacheKey
 )
 ;
 async
+SessionHistoryEntryStoreWindowNameInContiguousEntries
+(
+MaybeDiscardedBrowsingContext
+aContext
+nsString
+aName
+)
+;
+async
 InitBackground
 (
 Endpoint

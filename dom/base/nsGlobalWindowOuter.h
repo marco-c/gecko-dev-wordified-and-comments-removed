@@ -4585,6 +4585,14 @@ IsOnlyTopLevelDocumentInSHistory
 (
 )
 ;
+void
+MaybeResetWindowName
+(
+Document
+*
+aNewDocument
+)
+;
 public
 :
 bool

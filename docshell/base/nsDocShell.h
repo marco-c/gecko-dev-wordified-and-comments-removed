@@ -1343,6 +1343,16 @@ MaybeClearStorageAccessFlag
 )
 ;
 void
+MaybeRestoreWindowName
+(
+)
+;
+void
+StoreWindowNameToSHEntries
+(
+)
+;
+void
 SetWillChangeProcess
 (
 )
