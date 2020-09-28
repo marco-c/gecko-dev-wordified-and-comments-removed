@@ -41,15 +41,6 @@ include
 "
 vm
 /
-EnvironmentObject
-.
-h
-"
-#
-include
-"
-vm
-/
 JSFunction
 .
 h
@@ -66,6 +57,9 @@ h
 namespace
 js
 {
+class
+CallObject
+;
 namespace
 jit
 {
