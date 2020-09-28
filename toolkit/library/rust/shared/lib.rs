@@ -367,6 +367,10 @@ rlbox_lucet_sandbox
 ;
 extern
 crate
+qcms
+;
+extern
+crate
 unic_langid
 ;
 extern
