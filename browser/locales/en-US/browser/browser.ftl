@@ -1559,11 +1559,8 @@ use
 the
 list
 of
-one
--
-click
 search
-engines
+shortcuts
 in
 #
 the
