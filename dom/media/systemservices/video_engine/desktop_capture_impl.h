@@ -859,12 +859,6 @@ _deviceUniqueId
 CaptureDeviceType
 _deviceType
 ;
-rtc
-:
-:
-CriticalSection
-_apiCs
-;
 VideoCaptureCapability
 _requestedCapability
 ;
@@ -891,7 +885,7 @@ rtc
 :
 :
 CriticalSection
-_callBackCs
+_apiCs
 ;
 std
 :
