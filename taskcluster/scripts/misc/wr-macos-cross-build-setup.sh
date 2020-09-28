@@ -406,8 +406,6 @@ wrench
 deps
 /
 meson
-/
-bin
 :
 {
 PATH

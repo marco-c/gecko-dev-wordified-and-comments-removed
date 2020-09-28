@@ -474,6 +474,16 @@ wr
 Cargo
 .
 lock
+path
+:
+gfx
+/
+wr
+/
+ci
+-
+scripts
+/
 #
 for
 the

@@ -324,8 +324,6 @@ wrench
 deps
 /
 meson
-/
-bin
 &
 &
 cd
@@ -490,8 +488,6 @@ wrench
 deps
 /
 meson
-/
-bin
 &
 &
 cd
