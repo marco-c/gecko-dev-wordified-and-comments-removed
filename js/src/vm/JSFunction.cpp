@@ -7510,12 +7510,6 @@ hasGuessedAtom
 )
 )
 ;
-JSAtom
-*
-name
-=
-nullptr
-;
 if
 (
 targetObj
@@ -7578,6 +7572,8 @@ hasBoundFunctionNamePrefix
 )
 )
 {
+JSAtom
+*
 name
 =
 AppendBoundFunctionPrefix
@@ -7612,6 +7608,8 @@ name
 }
 else
 {
+JSAtom
+*
 name
 =
 targetFn
@@ -7637,11 +7635,7 @@ name
 ;
 }
 }
-if
-(
-!
-name
-)
+else
 {
 RootedValue
 targetName
@@ -7727,6 +7721,8 @@ isBoundFunction
 )
 )
 {
+JSAtom
+*
 name
 =
 AppendBoundFunctionPrefix
@@ -7760,6 +7756,8 @@ name
 }
 else
 {
+JSAtom
+*
 name
 =
 AtomizeString
