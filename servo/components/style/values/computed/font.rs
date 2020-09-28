@@ -4157,7 +4157,7 @@ other
 }
 pub
 type
-MozScriptLevel
+MathDepth
 =
 i8
 ;
@@ -4178,12 +4178,12 @@ for
 specified
 :
 :
-MozScriptLevel
+MathDepth
 {
 type
 ComputedValue
 =
-MozScriptLevel
+MathDepth
 ;
 fn
 to_computed_value
@@ -4235,7 +4235,7 @@ self
 specified
 :
 :
-MozScriptLevel
+MathDepth
 :
 :
 Auto
@@ -4253,7 +4253,7 @@ get_parent_font
 (
 )
 .
-clone__moz_script_level
+clone_math_depth
 (
 )
 as
@@ -4295,7 +4295,7 @@ parent
 specified
 :
 :
-MozScriptLevel
+MathDepth
 :
 :
 Relative
@@ -4316,7 +4316,7 @@ get_parent_font
 (
 )
 .
-clone__moz_script_level
+clone_math_depth
 (
 )
 ;
@@ -4329,7 +4329,7 @@ rel
 specified
 :
 :
-MozScriptLevel
+MathDepth
 :
 :
 MozAbsolute
@@ -4372,7 +4372,7 @@ Self
 specified
 :
 :
-MozScriptLevel
+MathDepth
 :
 :
 MozAbsolute
