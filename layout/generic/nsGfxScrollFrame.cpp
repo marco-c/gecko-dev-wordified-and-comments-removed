@@ -2498,7 +2498,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 visualViewportSize
 )
@@ -2613,7 +2613,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 visualViewportSize
 )
@@ -2727,7 +2727,7 @@ overflowRect
 c_str
 (
 )
-Stringify
+ToString
 (
 scrollPortSize
 )
@@ -3189,7 +3189,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 visualViewportSize
 )
@@ -3285,7 +3285,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 visualViewportSize
 )

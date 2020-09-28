@@ -669,6 +669,11 @@ return
 aStream
 <
 <
+'
+(
+'
+<
+<
 aSize
 .
 width
@@ -682,6 +687,11 @@ x
 aSize
 .
 height
+<
+<
+'
+)
+'
 ;
 }
 }
