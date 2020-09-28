@@ -295,7 +295,7 @@ XRSpace
 baseSpace
 )
 ;
-void
+boolean
 fillJointRadii
 (
 sequence
@@ -307,7 +307,7 @@ Float32Array
 radii
 )
 ;
-void
+boolean
 fillPoses
 (
 sequence
