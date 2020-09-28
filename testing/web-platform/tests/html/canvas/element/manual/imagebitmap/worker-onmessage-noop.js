@@ -1,0 +1,11 @@
+self
+.
+onmessage
+=
+function
+(
+e
+)
+{
+}
+;
