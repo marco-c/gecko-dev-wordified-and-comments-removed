@@ -54,17 +54,9 @@ include
 <
 chrono
 >
-using
-namespace
-std
-:
-:
-chrono_literals
-;
-using
 namespace
 mozilla
-;
+{
 const
 uint32_t
 NUM_OF_CHANNELS
@@ -3555,6 +3547,7 @@ AddDevice
 device
 )
 ;
+}
 }
 }
 #
