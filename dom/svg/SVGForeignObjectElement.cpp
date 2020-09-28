@@ -366,11 +366,7 @@ y
 ;
 if
 (
-GetPrimaryFrame
-(
-)
-)
-{
+!
 SVGGeometryProperty
 :
 :
@@ -392,9 +388,7 @@ x
 &
 y
 )
-;
-}
-else
+)
 {
 const_cast
 <
