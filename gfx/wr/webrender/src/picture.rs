@@ -5283,7 +5283,11 @@ Draw
 >
 {
 (
-true
+frame_context
+.
+config
+.
+gpu_supports_render_target_partial_update
 true
 )
 }

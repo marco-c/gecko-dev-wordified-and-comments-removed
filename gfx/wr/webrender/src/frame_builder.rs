@@ -534,6 +534,10 @@ advanced_blend_is_coherent
 :
 bool
 pub
+gpu_supports_render_target_partial_update
+:
+bool
+pub
 batch_lookback_count
 :
 usize
