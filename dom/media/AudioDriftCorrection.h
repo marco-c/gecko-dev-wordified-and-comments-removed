@@ -408,7 +408,7 @@ std
 :
 max
 (
-1
+5
 Preferences
 :
 :
@@ -421,7 +421,7 @@ clockdrift
 .
 buffering
 "
-5
+50
 )
 )
 *
