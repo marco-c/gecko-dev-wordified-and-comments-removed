@@ -58,10 +58,6 @@ devtools
 /
 shared
 /
-compatibility
-/
-dataset
-/
 browsers
 .
 json
@@ -89,9 +85,13 @@ require
 "
 devtools
 /
-shared
+server
+/
+actors
 /
 compatibility
+/
+lib
 /
 MDNCompatibility
 "

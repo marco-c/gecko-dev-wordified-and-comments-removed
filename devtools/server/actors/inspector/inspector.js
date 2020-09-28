@@ -211,6 +211,8 @@ server
 actors
 /
 compatibility
+/
+compatibility
 "
 true
 )
