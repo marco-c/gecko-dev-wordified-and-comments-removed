@@ -1088,7 +1088,7 @@ if
 font
 -
 >
-mMathDepth
+mScriptLevel
 =
 =
 0

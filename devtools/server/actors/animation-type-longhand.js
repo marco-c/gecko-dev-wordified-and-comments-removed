@@ -1333,9 +1333,12 @@ inline
 start
 "
 "
-math
 -
-depth
+moz
+-
+script
+-
+level
 "
 "
 -

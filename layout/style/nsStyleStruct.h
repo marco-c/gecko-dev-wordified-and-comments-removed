@@ -401,7 +401,7 @@ StyleGenericFontFamily
 mGenericID
 ;
 int8_t
-mMathDepth
+mScriptLevel
 ;
 uint8_t
 mMathVariant
