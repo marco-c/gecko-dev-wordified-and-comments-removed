@@ -225,8 +225,10 @@ const
 CertID
 &
 Time
-Time
 Duration
+const
+Input
+*
 const
 Input
 *
