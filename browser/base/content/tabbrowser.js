@@ -27896,11 +27896,9 @@ Services
 .
 scriptSecurityManager
 .
-createContentPrincipal
+principalWithOA
 (
 triggeringPrincipal
-.
-URI
 {
 userContextId
 }
