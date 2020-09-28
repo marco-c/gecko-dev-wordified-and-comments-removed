@@ -6294,6 +6294,15 @@ Faces
 this
 )
 ;
+if
+(
+!
+faces
+)
+{
+continue
+;
+}
 for
 (
 uint32_t
