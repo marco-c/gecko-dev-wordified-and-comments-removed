@@ -5197,6 +5197,13 @@ true
 {
 let
 engine
+;
+if
+(
+engineName
+)
+{
+engine
 =
 Services
 .
@@ -5207,6 +5214,7 @@ getEngineByName
 engineName
 )
 ;
+}
 if
 (
 !
