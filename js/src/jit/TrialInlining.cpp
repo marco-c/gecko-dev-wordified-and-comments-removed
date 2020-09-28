@@ -2153,6 +2153,12 @@ JSOp
 :
 FunCall
 :
+case
+JSOp
+:
+:
+New
+:
 if
 (
 !
