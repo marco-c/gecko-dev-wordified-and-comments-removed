@@ -2027,13 +2027,14 @@ printerName
 ;
 try
 {
-this
-.
 settings
 .
 showPrintProgress
 =
-true
+!
+Cu
+.
+isInAutomation
 ;
 let
 bc
