@@ -702,14 +702,6 @@ macosx
 ]
 pagesetup
 /
-/
-^
-print
-[
-.
-]
-printer
-/
 ]
 ;
 const
