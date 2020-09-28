@@ -9132,6 +9132,11 @@ tryAttachNumber
 )
 ;
 AttachDecision
+tryAttachBitwise
+(
+)
+;
+AttachDecision
 tryAttachBigInt
 (
 )
