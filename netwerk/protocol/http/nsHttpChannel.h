@@ -2638,11 +2638,6 @@ SetCachedContentType
 (
 )
 ;
-void
-UpdateAntiTrackingInfo
-(
-)
-;
 private
 :
 nsCOMPtr
