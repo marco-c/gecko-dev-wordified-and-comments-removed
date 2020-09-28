@@ -150,6 +150,12 @@ CSSEquivTable
 nsCSSEditableProperty
 cssProperty
 ;
+bool
+gettable
+;
+bool
+caseSensitiveValue
+;
 nsProcessValueFunc
 processValueFunctor
 ;
@@ -167,12 +173,6 @@ const
 char
 *
 appendValue
-;
-bool
-gettable
-;
-bool
-caseSensitiveValue
 ;
 }
 ;
