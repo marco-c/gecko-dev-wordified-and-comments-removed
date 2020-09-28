@@ -753,6 +753,15 @@ include
 "
 mozilla
 /
+ToString
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -6810,7 +6819,7 @@ c_str
 (
 )
 viewID
-Stringify
+ToString
 (
 newDisplayPort
 )
@@ -6859,7 +6868,7 @@ c_str
 (
 )
 viewID
-Stringify
+ToString
 (
 newDisplayPort
 )
@@ -7193,7 +7202,7 @@ PRIu64
 \
 n
 "
-Stringify
+ToString
 (
 aBase
 )

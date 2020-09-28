@@ -652,13 +652,6 @@ h
 "
 #
 include
-"
-LayersLogging
-.
-h
-"
-#
-include
 <
 algorithm
 >
@@ -2711,7 +2704,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 scrolledRect
 )
@@ -2719,7 +2712,7 @@ scrolledRect
 c_str
 (
 )
-Stringify
+ToString
 (
 overflowRect
 )
@@ -19005,7 +18998,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 rootDisplayPort
 )
@@ -19144,7 +19137,7 @@ rootPresShell
 GetResolution
 (
 )
-Stringify
+ToString
 (
 rootCompBounds
 )
@@ -19194,7 +19187,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 rootDisplayPort
 )
@@ -19234,7 +19227,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 rootDisplayPort
 )
@@ -19281,7 +19274,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 rootDisplayPort
 )
@@ -19475,7 +19468,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 rootDisplayPort
 )
@@ -19483,7 +19476,7 @@ rootDisplayPort
 c_str
 (
 )
-Stringify
+ToString
 (
 aDisplayportBase
 )
@@ -19741,7 +19734,7 @@ s
 n
 "
 viewID
-Stringify
+ToString
 (
 *
 aVisibleRect
@@ -19750,7 +19743,7 @@ aVisibleRect
 c_str
 (
 )
-Stringify
+ToString
 (
 mScrollPort
 )
@@ -19798,7 +19791,7 @@ s
 n
 "
 viewID
-Stringify
+ToString
 (
 displayportBase
 )
