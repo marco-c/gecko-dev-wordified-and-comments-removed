@@ -379,6 +379,7 @@ _openTabModalPrint
 (
 aBrowsingContext
 aExistingPreviewBrowser
+aPrintInitiationTime
 )
 {
 let
@@ -473,6 +474,12 @@ aBrowsingContext
 .
 id
 }
+&
+printInitiationTime
+=
+{
+aPrintInitiationTime
+}
 {
 features
 :
@@ -497,6 +504,15 @@ aBrowsingContext
 aOpenWindowInfo
 )
 {
+const
+printInitiationTime
+=
+Date
+.
+now
+(
+)
+;
 let
 browser
 =
@@ -658,6 +674,7 @@ _openTabModalPrint
 (
 aBrowsingContext
 browser
+printInitiationTime
 )
 .
 catch
@@ -909,6 +926,12 @@ gBrowser
 selectedBrowser
 .
 browsingContext
+undefined
+Date
+.
+now
+(
+)
 )
 ;
 }
