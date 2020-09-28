@@ -1915,7 +1915,7 @@ MigrationUtils
 =
 Object
 .
-seal
+freeze
 (
 {
 resourceTypes
