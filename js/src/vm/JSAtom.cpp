@@ -1135,10 +1135,10 @@ isHelperThreadContext
 )
 )
 {
-JSString
+gc
 :
 :
-readBarrier
+ReadBarrier
 (
 atom
 )

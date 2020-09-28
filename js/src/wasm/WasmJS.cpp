@@ -17474,10 +17474,10 @@ ref
 ;
 ASSERT_ANYREF_IS_JSOBJECT
 ;
-JSObject
+gc
 :
 :
-preWriteBarrier
+PreWriteBarrier
 (
 prevPtr
 .

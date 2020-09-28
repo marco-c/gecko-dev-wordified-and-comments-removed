@@ -629,10 +629,10 @@ groupNoBarrier
 (
 )
 ;
-ObjectGroup
+gc
 :
 :
-readBarrier
+ReadBarrier
 (
 res
 )
@@ -662,10 +662,10 @@ singletonNoBarrier
 (
 )
 ;
-JSObject
+gc
 :
 :
-readBarrier
+ReadBarrier
 (
 res
 )

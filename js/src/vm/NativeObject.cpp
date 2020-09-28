@@ -6006,10 +6006,10 @@ newCapacity
 MAX_DENSE_ELEMENTS_COUNT
 )
 ;
-JSObject
+gc
 :
 :
-preWriteBarrier
+PreWriteBarrier
 (
 obj
 -
@@ -6020,6 +6020,10 @@ getElementsHeader
 -
 >
 ownerObject
+(
+)
+.
+get
 (
 )
 )

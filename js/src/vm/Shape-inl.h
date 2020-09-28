@@ -1149,10 +1149,10 @@ isObject
 )
 )
 {
-JSObject
+gc
 :
 :
-preWriteBarrier
+PreWriteBarrier
 (
 dictNext
 .

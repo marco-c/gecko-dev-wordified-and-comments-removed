@@ -21234,10 +21234,10 @@ setNewScript
 this
 )
 ;
-Shape
+gc
 :
 :
-readBarrier
+ReadBarrier
 (
 prefixShape
 )
