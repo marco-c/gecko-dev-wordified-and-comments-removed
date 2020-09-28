@@ -85,14 +85,6 @@ webrtc
 '
 '
 /
-media
-/
-webrtc
-/
-trunk
-'
-'
-/
 third_party
 /
 sipcc
