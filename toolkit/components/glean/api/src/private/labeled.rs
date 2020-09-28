@@ -41,6 +41,15 @@ mod
 private
 {
 use
+std
+:
+:
+sync
+:
+:
+Arc
+;
+use
 super
 :
 :
@@ -315,6 +324,11 @@ CounterMetric
 :
 Parent
 (
+Arc
+:
+:
+new
+(
 crate
 :
 :
@@ -327,6 +341,7 @@ counter
 CounterMetricImpl
 (
 metric
+)
 )
 )
 }
