@@ -300,9 +300,6 @@ bool
 skipContentPolicyCheckForWebRequest
 ;
 bool
-originalFrameSrcLoad
-;
-bool
 forceInheritPrincipalDropped
 ;
 uint64_t

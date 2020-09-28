@@ -649,8 +649,6 @@ aBypassCORSChecks
 bool
 aSkipContentPolicyCheckForWebRequest
 bool
-aOriginalFrameSrcLoad
-bool
 aForceInheritPrincipalDropped
 uint64_t
 aInnerWindowID
