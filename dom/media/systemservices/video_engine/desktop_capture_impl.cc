@@ -2932,6 +2932,16 @@ VideoCaptureCapability
 capability
 )
 {
+rtc
+:
+:
+CritScope
+lock
+(
+&
+_apiCs
+)
+;
 _requestedCapability
 =
 capability
