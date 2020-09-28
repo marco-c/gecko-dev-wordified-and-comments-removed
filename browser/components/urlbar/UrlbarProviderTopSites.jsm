@@ -889,7 +889,7 @@ UrlbarUtils
 .
 KEYWORD_OFFER
 .
-HIDE
+SHOW
 engine
 :
 engine

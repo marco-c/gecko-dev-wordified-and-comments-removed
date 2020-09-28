@@ -1512,6 +1512,13 @@ input
 .
 maybePromoteKeywordToSearchMode
 (
+{
+entry
+:
+"
+typed
+"
+}
 )
 ;
 case
