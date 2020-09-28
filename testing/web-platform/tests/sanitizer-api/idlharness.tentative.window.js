@@ -30,6 +30,8 @@ Sanitizer
 new
 Sanitizer
 (
+{
+}
 )
 '
 ]
