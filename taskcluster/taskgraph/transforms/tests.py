@@ -205,15 +205,6 @@ taskgraph
 .
 util
 .
-schema
-import
-resolve_keyed_by
-OptimizationSchema
-from
-taskgraph
-.
-util
-.
 templates
 import
 merge
@@ -243,10 +234,20 @@ schema
 import
 (
     
+resolve_keyed_by
+    
 optionally_keyed_by
     
 Schema
 )
+from
+taskgraph
+.
+optimize
+.
+schema
+import
+OptimizationSchema
 from
 taskgraph
 .
