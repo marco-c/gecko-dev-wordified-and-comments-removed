@@ -106,11 +106,8 @@ rateMyCacheIR
 JSContext
 *
 cx
-Handle
-<
-ScriptVector
->
-scripts
+HandleScript
+script
 )
 ;
 }
