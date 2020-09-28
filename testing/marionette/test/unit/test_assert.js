@@ -1049,9 +1049,10 @@ assert
 open
 (
 {
-closed
+currentWindowGlobal
 :
-false
+{
+}
 }
 )
 ;
@@ -1064,9 +1065,9 @@ of
 null
 undefined
 {
-closed
+currentWindowGlobal
 :
-true
+null
 }
 ]
 )
