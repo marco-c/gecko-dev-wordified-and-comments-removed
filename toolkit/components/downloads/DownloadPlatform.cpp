@@ -827,6 +827,12 @@ endif
 #
 ifdef
 MOZ_WIDGET_GTK
+if
+(
+!
+aIsPrivate
+)
+{
 GFile
 *
 gio_file
@@ -910,6 +916,7 @@ g_object_unref
 gio_file
 )
 ;
+}
 #
 endif
 }
