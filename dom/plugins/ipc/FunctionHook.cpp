@@ -399,6 +399,7 @@ sBrowserHwnd
 =
 nullptr
 ;
+INTERCEPTOR_DISABLE_CFGUARD
 BOOL
 WINAPI
 GetWindowInfoHook
@@ -636,6 +637,7 @@ CheckQuirks
 QUIRK_FLASH_HOOK_PRINTDLGW
 >
 ;
+INTERCEPTOR_DISABLE_CFGUARD
 BOOL
 WINAPI
 PrintDlgWHook
@@ -1421,6 +1423,7 @@ GetFileAttributesW
 >
 GetFileAttributesWFH
 ;
+INTERCEPTOR_DISABLE_CFGUARD
 DWORD
 WINAPI
 GetFileAttributesWHook
