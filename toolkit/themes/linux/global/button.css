@@ -105,10 +105,7 @@ hover
 not
 (
 :
--
-moz
--
-any
+is
 (
 :
 active
@@ -153,10 +150,7 @@ buttonhovertext
 }
 button
 :
--
-moz
--
-any
+is
 (
 :
 hover
