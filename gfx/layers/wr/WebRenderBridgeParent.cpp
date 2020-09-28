@@ -8438,6 +8438,9 @@ false
 if
 (
 mDestroyed
+|
+|
+mPaused
 )
 {
 return
@@ -8446,12 +8449,6 @@ IPC_OK
 )
 ;
 }
-MOZ_ASSERT
-(
-!
-mPaused
-)
-;
 MOZ_ASSERT
 (
 IsRootWebRenderBridgeParent
