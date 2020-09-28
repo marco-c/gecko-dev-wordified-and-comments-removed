@@ -316,15 +316,6 @@ StorageAccessPermissionGrantedReason
 aReason
 )
 ;
-static
-void
-UpdateAntiTrackingInfoForChannel
-(
-nsIChannel
-*
-aChannel
-)
-;
 }
 ;
 }
