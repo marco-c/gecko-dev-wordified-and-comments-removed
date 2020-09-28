@@ -462,6 +462,13 @@ aLoadEnd
 )
 ;
 async
+SubmitTimeToFirstInteractionPreloadTelemetry
+(
+uint32_t
+aMillis
+)
+;
+async
 Destroy
 (
 )
