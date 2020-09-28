@@ -3030,9 +3030,7 @@ equivalent
 Notes
 *
 -
-mo
--
-zilla
+mozilla
 :
 :
 Array
@@ -3773,8 +3771,6 @@ T1
 T2
 }
 >
-*
--
 *
 -
 mozilla
