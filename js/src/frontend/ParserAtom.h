@@ -135,6 +135,7 @@ mozilla
 GenericErrorResult
 <
 OOM
+&
 >
 RaiseParserAtomsOOMError
 (
@@ -1043,6 +1044,7 @@ UniquePtr
 ParserAtomEntry
 >
 OOM
+&
 >
 allocate
 (
@@ -1089,6 +1091,7 @@ UniquePtr
 ParserAtomEntry
 >
 OOM
+&
 >
 allocateInline
 (
@@ -1475,6 +1478,7 @@ Result
 JSAtom
 *
 OOM
+&
 >
 toJSAtom
 (
@@ -2382,6 +2386,7 @@ const
 ParserAtom
 *
 OOM
+&
 >
 addEntry
 (
@@ -2407,6 +2412,7 @@ const
 ParserAtom
 *
 OOM
+&
 >
 internLatin1Seq
 (
@@ -2440,6 +2446,7 @@ const
 ParserAtom
 *
 OOM
+&
 >
 internChar16Seq
 (
@@ -2469,6 +2476,7 @@ const
 ParserAtom
 *
 OOM
+&
 >
 internAscii
 (
@@ -2492,6 +2500,7 @@ const
 ParserAtom
 *
 OOM
+&
 >
 internLatin1
 (
@@ -2499,9 +2508,6 @@ JSContext
 *
 cx
 const
-JS
-:
-:
 Latin1Char
 *
 latin1Ptr
@@ -2518,6 +2524,7 @@ const
 ParserAtom
 *
 OOM
+&
 >
 internUtf8
 (
@@ -2544,6 +2551,7 @@ const
 ParserAtom
 *
 OOM
+&
 >
 internChar16
 (
@@ -2567,6 +2575,7 @@ const
 ParserAtom
 *
 OOM
+&
 >
 internJSAtom
 (
@@ -2590,6 +2599,7 @@ const
 ParserAtom
 *
 OOM
+&
 >
 concatAtoms
 (

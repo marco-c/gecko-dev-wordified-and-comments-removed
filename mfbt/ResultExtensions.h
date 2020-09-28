@@ -462,10 +462,7 @@ R
 nsresult
 >
 (
-Err
-(
-NS_ERROR_FAILURE
-)
+NS_OK
 )
 )
 ;

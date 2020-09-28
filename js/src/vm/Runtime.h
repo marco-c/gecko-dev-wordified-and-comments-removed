@@ -515,6 +515,7 @@ mozilla
 GenericErrorResult
 <
 OOM
+&
 >
 ReportOutOfMemoryResult
 (
