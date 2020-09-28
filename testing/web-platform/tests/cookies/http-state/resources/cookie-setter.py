@@ -222,6 +222,7 @@ a
 file
 into
 a
+byte
 string
 .
 "
@@ -238,9 +239,8 @@ join
 directory
 filename
 )
-u
 "
-r
+rb
 "
 )
 .
@@ -452,18 +452,15 @@ __expectation_file
 return
 html_frame
 .
-format
+replace
 (
-*
-*
+b
+"
 {
-u
-'
 data
-'
-:
-expected_data
 }
+"
+expected_data
 )
 def
 find_all_test_files
@@ -589,16 +586,13 @@ line_template
 .
 format
 (
-*
-*
-{
-u
-'
 filename
-'
-:
+=
 name
-}
+)
+.
+encode
+(
 )
 )
   
@@ -660,7 +654,7 @@ ALL_TESTS
 return
 html_frame
 %
-u
+b
 '
 \
 n
@@ -754,8 +748,6 @@ test_file
 html_frame
 %
 (
-isomorphic_decode
-(
 request
 .
 GET
@@ -765,7 +757,6 @@ b
 debug
 '
 ]
-)
 )
     
 response
