@@ -188,9 +188,15 @@ this
 "
 logger
 "
+(
+)
+=
+>
 Log
 .
 get
+(
+)
 )
 ;
 this

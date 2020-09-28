@@ -86,9 +86,15 @@ this
 "
 logger
 "
+(
+)
+=
+>
 Log
 .
 get
+(
+)
 )
 ;
 const

@@ -113,9 +113,15 @@ this
 "
 logger
 "
+(
+)
+=
+>
 Log
 .
 get
+(
+)
 )
 ;
 class
