@@ -829,6 +829,23 @@ enable_unstructured
 try
 :
         
+mach_cmd
+.
+activate_virtualenv
+(
+)
+        
+kwargs
+[
+"
+virtualenv
+"
+]
+=
+mach_cmd
+.
+virtualenv_manager
+        
 hooks
 .
 run
@@ -838,6 +855,14 @@ before_iterations
 "
 kwargs
 )
+        
+del
+kwargs
+[
+"
+virtualenv
+"
+]
         
 tests
 tmp_dir

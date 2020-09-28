@@ -439,13 +439,7 @@ self
 )
 :
         
-self
-.
-mach_cmd
-.
-activate_virtualenv
-(
-)
+pass
     
 def
 run

@@ -201,6 +201,16 @@ firstPaint
 "
 )
 ]
+        
+"
+perfherder
+-
+timestamp
+"
+:
+1
+.
+0
     
 }
     
@@ -310,6 +320,19 @@ name
 "
 browsertime
 "
+    
+assert
+output
+[
+"
+pushTimestamp
+"
+]
+=
+=
+1
+.
+0
     
 assert
 len
