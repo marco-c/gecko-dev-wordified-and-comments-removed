@@ -163,6 +163,7 @@ u32
 [
 derive
 (
+Copy
 Clone
 Debug
 Hash
