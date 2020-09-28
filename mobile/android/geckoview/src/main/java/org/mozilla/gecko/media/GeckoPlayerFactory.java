@@ -8,9 +8,7 @@ gecko
 media
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .

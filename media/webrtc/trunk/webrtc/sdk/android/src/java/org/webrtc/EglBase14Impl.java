@@ -67,9 +67,7 @@ os
 Build
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .
@@ -81,13 +79,6 @@ android
 view
 .
 Surface
-;
-import
-org
-.
-webrtc
-.
-EglBase
 ;
 SuppressWarnings
 (

@@ -48,9 +48,7 @@ geckoview
 BuildConfig
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .

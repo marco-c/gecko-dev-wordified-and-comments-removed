@@ -35,11 +35,9 @@ runners
 .
 AndroidJUnit4
 import
-android
+androidx
 .
-support
-.
-v4
+core
 .
 view
 .

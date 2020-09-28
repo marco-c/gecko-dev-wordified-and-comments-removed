@@ -4,9 +4,7 @@ org
 webrtc
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .

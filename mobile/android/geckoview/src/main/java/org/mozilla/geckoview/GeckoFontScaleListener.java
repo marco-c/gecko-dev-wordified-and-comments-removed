@@ -17,15 +17,6 @@ util
 ThreadUtils
 ;
 import
-org
-.
-mozilla
-.
-geckoview
-.
-GeckoRuntimeSettings
-;
-import
 android
 .
 annotation
@@ -68,9 +59,7 @@ provider
 Settings
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .

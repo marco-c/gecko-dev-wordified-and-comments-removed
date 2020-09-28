@@ -47,9 +47,7 @@ os
 MessageQueue
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .

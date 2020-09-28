@@ -6,9 +6,7 @@ mozilla
 geckoview_example
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .

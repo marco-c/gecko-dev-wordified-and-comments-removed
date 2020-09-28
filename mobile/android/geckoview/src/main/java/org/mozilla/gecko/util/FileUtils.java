@@ -73,9 +73,7 @@ provider
 MediaStore
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .

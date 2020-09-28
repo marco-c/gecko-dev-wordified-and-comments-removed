@@ -80,9 +80,7 @@ provider
 Settings
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .
