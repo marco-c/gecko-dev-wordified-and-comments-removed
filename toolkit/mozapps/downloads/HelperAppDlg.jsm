@@ -5697,6 +5697,7 @@ mLauncher
 MIMEInfo
 .
 MIMEType
+primaryExtension
 )
 )
 ;
