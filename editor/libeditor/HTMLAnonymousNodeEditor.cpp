@@ -2568,7 +2568,7 @@ nsresult
 HTMLEditor
 :
 :
-SetAnonymousElementPositionWithTransaction
+SetAnonymousElementPositionWithoutTransaction
 (
 nsStyledElement
 &
@@ -2587,7 +2587,7 @@ rv
 mCSSEditUtils
 -
 >
-SetCSSPropertyPixelsWithTransaction
+SetCSSPropertyPixelsWithoutTransaction
 (
 aStyledElement
 *
@@ -2612,7 +2612,7 @@ NS_WARNING
 CSSEditUtils
 :
 :
-SetCSSPropertyPixelsWithTransaction
+SetCSSPropertyPixelsWithoutTransaction
 (
 nsGkAtoms
 :
@@ -2641,7 +2641,7 @@ rv
 CSSEditUtils
 :
 :
-SetCSSPropertyPixelsWithTransaction
+SetCSSPropertyPixelsWithoutTransaction
 (
 nsGkAtoms
 :
@@ -2661,7 +2661,7 @@ rv
 mCSSEditUtils
 -
 >
-SetCSSPropertyPixelsWithTransaction
+SetCSSPropertyPixelsWithoutTransaction
 (
 aStyledElement
 *
@@ -2686,7 +2686,7 @@ NS_WARNING
 CSSEditUtils
 :
 :
-SetCSSPropertyPixelsWithTransaction
+SetCSSPropertyPixelsWithoutTransaction
 (
 nsGkAtoms
 :
@@ -2715,7 +2715,7 @@ rv
 CSSEditUtils
 :
 :
-SetCSSPropertyPixelsWithTransaction
+SetCSSPropertyPixelsWithoutTransaction
 (
 nsGkAtoms
 :
