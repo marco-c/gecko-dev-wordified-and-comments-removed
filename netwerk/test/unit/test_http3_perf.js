@@ -65,6 +65,16 @@ xpcshell_cycles
 verbose
 :
 true
+try_platform
+:
+[
+"
+linux
+"
+"
+mac
+"
+]
 }
 }
 tags

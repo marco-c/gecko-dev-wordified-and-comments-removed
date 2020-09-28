@@ -130,6 +130,8 @@ shippable
 /
 opt
 try
+-
+browsertime
 :
 description
 :
@@ -147,6 +149,8 @@ symbol
 perftest
 (
 win
+-
+bt
 )
 run
 :
