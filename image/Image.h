@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-Tuple
+ThreadSafeWeakPtr
 .
 h
 "
@@ -37,6 +37,15 @@ include
 mozilla
 /
 TimeStamp
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Tuple
 .
 h
 "
@@ -1714,7 +1723,7 @@ SVGImageContext
 >
 mSVGContext
 ;
-WeakPtr
+ThreadSafeWeakPtr
 <
 layers
 :
