@@ -2978,6 +2978,12 @@ _window
 )
 )
 {
+aEvent
+.
+preventDefault
+(
+)
+;
 this
 .
 _frame
