@@ -37,6 +37,11 @@ attribute
 AString
 name
 ;
+readonly
+attribute
+AString
+systemName
+;
 [
 implicit_jscontext
 ]
