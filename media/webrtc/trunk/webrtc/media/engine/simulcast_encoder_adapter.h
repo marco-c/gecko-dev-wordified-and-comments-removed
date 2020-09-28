@@ -341,6 +341,15 @@ send_stream
 ;
 }
 ;
+enum
+class
+StreamResolution
+{
+OTHER
+HIGHEST
+LOWEST
+}
+;
 static
 void
 PopulateStreamCodec
@@ -356,8 +365,8 @@ int
 stream_index
 uint32_t
 start_bitrate_kbps
-bool
-highest_resolution_stream
+StreamResolution
+stream_resolution
 webrtc
 :
 :
