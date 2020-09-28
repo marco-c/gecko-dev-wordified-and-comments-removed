@@ -1157,17 +1157,7 @@ aDirection
 EWordMovementType
 aWordMovementType
 )
-{
-return
-FindOffset
-(
-aOffset
-aDirection
-eSelectWord
-aWordMovementType
-)
 ;
-}
 enum
 EWhichLineBoundary
 {
