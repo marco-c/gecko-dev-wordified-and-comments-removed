@@ -236,25 +236,7 @@ e
 '
 f
 "
-'
-extra
-'
-:
-'
-foobar
-'
 }
-                                
-non_global_defines
-=
-[
-'
-extra
-'
-'
-ignore
-'
-]
                                 
 substs
 =
