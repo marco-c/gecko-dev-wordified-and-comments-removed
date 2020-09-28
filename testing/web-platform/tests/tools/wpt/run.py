@@ -2626,6 +2626,25 @@ browser
 .
 find_webdriver
 (
+                    
+channel
+=
+kwargs
+[
+"
+browser_channel
+"
+]
+                    
+browser_binary
+=
+kwargs
+[
+"
+binary
+"
+]
+                
 )
             
 if
@@ -2648,16 +2667,6 @@ chromedriver
 if
 install
 :
-                    
-logger
-.
-info
-(
-"
-Downloading
-chromedriver
-"
-)
                     
 webdriver_binary
 =
@@ -2734,7 +2743,8 @@ to
 locate
 or
 install
-chromedriver
+matching
+ChromeDriver
 binary
 "
 )
