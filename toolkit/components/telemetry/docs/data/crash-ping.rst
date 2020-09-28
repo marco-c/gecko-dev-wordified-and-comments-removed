@@ -1,9 +1,5 @@
-"
-crash
-"
+Crash
 ping
-=
-=
 =
 =
 =

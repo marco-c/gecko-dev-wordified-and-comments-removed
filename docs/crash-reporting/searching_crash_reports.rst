@@ -307,11 +307,7 @@ following
 screenshot
 .
 |
-Results
-of
-a
-default
-search
+Search
 in
 crash
 -
@@ -2506,11 +2502,7 @@ faceting
 .
 .
 |
-Results
-of
-a
-default
-search
+Search
 in
 crash
 -

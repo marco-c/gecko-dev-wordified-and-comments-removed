@@ -52,6 +52,11 @@ addon
 manager
 /
 index
+crash
+-
+reporting
+/
+index
 components
 /
 crashes
