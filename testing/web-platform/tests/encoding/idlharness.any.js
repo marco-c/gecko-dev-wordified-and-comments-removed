@@ -6,6 +6,9 @@ encoding
 '
 ]
 [
+'
+streams
+'
 ]
 idl_array
 =
