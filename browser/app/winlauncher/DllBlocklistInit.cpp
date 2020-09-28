@@ -143,6 +143,9 @@ aRemote
 ptrdiff_t
 diff
 =
+mozilla
+:
+:
 nt
 :
 :
@@ -158,6 +161,9 @@ uint8_t
 aRemote
 )
 -
+mozilla
+:
+:
 nt
 :
 :
