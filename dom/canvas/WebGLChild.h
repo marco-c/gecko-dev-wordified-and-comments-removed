@@ -83,6 +83,10 @@ ClientWebGLContext
 >
 mContext
 ;
+const
+size_t
+mDefaultCmdsShmemSize
+;
 webgl
 :
 :
