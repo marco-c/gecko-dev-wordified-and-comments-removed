@@ -568,7 +568,7 @@ NS_STANDALONENATIVEMENU_CID
 ;
 NS_DEFINE_NAMED_CID
 (
-NS_MACSYSTEMSTATUSBAR_CID
+NS_SYSTEMSTATUSBAR_CID
 )
 ;
 NS_DEFINE_NAMED_CID
@@ -800,7 +800,7 @@ nsStandaloneNativeMenuConstructor
 }
 {
 &
-kNS_MACSYSTEMSTATUSBAR_CID
+kNS_SYSTEMSTATUSBAR_CID
 false
 NULL
 nsSystemStatusBarCocoaConstructor
@@ -1227,12 +1227,12 @@ org
 /
 widget
 /
-macsystemstatusbar
+systemstatusbar
 ;
 1
 "
 &
-kNS_MACSYSTEMSTATUSBAR_CID
+kNS_SYSTEMSTATUSBAR_CID
 }
 {
 "
