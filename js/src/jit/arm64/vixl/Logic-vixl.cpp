@@ -19054,8 +19054,7 @@ if
 (
 value
 >
-=
-kXMaxInt
+kXMaxExactInt
 )
 {
 return
@@ -19184,8 +19183,7 @@ if
 (
 value
 >
-=
-kXMaxUInt
+kXMaxExactUInt
 )
 {
 return
