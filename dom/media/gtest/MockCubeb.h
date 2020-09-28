@@ -1104,6 +1104,15 @@ outframes
 NUM_OF_CHANNELS
 )
 ;
+if
+(
+mAudioVerifier
+.
+PreSilenceEnded
+(
+)
+)
+{
 mFramesProcessedEvent
 .
 Notify
@@ -1111,6 +1120,7 @@ Notify
 outframes
 )
 ;
+}
 if
 (
 outframes
