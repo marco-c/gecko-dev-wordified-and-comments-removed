@@ -58,7 +58,7 @@ mPaperInfo
 bool
 mPrintInColor
 =
-false
+true
 ;
 int
 mResolution
