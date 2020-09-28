@@ -105,6 +105,12 @@ using
 AudioChunk
 :
 :
+IsAudible
+;
+using
+AudioChunk
+:
+:
 IsNull
 ;
 using
