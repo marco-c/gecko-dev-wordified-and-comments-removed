@@ -6300,6 +6300,9 @@ mHTMLInputInputmode
 aContext
 .
 mActionHint
+aContext
+.
+mAutocapitalize
 flags
 )
 ;

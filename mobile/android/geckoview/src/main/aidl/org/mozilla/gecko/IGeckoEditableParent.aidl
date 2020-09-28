@@ -169,6 +169,8 @@ String
 modeHint
 String
 actionHint
+String
+autocapitalize
 int
 flags
 )
