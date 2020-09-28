@@ -212,6 +212,7 @@ async
 capture
 (
 context
+zoom
 options
 )
 {
@@ -220,7 +221,7 @@ win
 =
 this
 .
-nativeTab
+browser
 .
 ownerGlobal
 ;
@@ -236,20 +237,6 @@ scale
 win
 .
 devicePixelRatio
-;
-let
-zoom
-=
-win
-.
-ZoomManager
-.
-getZoomForBrowser
-(
-this
-.
-browser
-)
 ;
 let
 rect
