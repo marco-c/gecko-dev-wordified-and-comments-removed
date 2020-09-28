@@ -1269,6 +1269,7 @@ icon
 defaultEngine
 .
 iconURI
+?
 .
 spec
 }
