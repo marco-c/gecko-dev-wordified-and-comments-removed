@@ -20,6 +20,15 @@ Algorithm
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ResultExtensions
+.
+h
+"
 namespace
 mozilla
 {
