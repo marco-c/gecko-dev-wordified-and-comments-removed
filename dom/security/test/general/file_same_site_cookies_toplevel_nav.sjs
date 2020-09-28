@@ -157,7 +157,7 @@ script
 >
 window
 .
-addEventListner
+addEventListener
 (
 "
 load
