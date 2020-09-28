@@ -4136,6 +4136,17 @@ continue
 }
 }
 }
+if
+(
+IsDefaultIgnorable
+(
+c
+)
+)
+{
+continue
+;
+}
 }
 bool
 wordBreakPrev
