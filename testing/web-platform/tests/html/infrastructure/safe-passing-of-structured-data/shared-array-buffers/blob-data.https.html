@@ -457,6 +457,7 @@ function
 propertyTests
 (
 name
+crossOriginIsolated
 )
 {
 return
@@ -498,11 +499,14 @@ test
 =
 >
 {
-assert_true
+assert_equals
 (
 self
 .
 crossOriginIsolated
+{
+crossOriginIsolated
+}
 )
 ;
 }
@@ -613,6 +617,7 @@ propertyTests
 blob
 worker
 "
+true
 )
 }
 done
@@ -733,6 +738,7 @@ propertyTests
 blob
 frame
 "
+true
 )
 }
 <
@@ -874,6 +880,7 @@ propertyTests
 data
 worker
 "
+false
 )
 }
 done
@@ -977,6 +984,7 @@ propertyTests
 data
 frame
 "
+true
 )
 }
 <
