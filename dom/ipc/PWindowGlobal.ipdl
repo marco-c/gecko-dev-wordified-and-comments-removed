@@ -410,13 +410,6 @@ aIsInitialDocument
 )
 ;
 async
-SetHasBeforeUnload
-(
-bool
-aHasBeforeUnload
-)
-;
-async
 Share
 (
 IPCWebShareData
