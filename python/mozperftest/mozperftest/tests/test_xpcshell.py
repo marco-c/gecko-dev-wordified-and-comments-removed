@@ -340,6 +340,14 @@ env
 =
 running_env
 (
+tests
+=
+[
+str
+(
+EXAMPLE_XPCSHELL_TEST
+)
+]
 )
     
 sys
@@ -359,21 +367,6 @@ layers
 [
 TEST
 ]
-    
-env
-.
-set_arg
-(
-"
-tests
-"
-[
-str
-(
-EXAMPLE_XPCSHELL_TEST
-)
-]
-)
     
 try
 :
@@ -514,6 +507,14 @@ env
 =
 running_env
 (
+tests
+=
+[
+str
+(
+EXAMPLE_XPCSHELL_TEST
+)
+]
 )
     
 sys
@@ -533,21 +534,6 @@ layers
 [
 TEST
 ]
-    
-env
-.
-set_arg
-(
-"
-tests
-"
-[
-str
-(
-EXAMPLE_XPCSHELL_TEST
-)
-]
-)
     
 try
 :
@@ -693,12 +679,22 @@ env
 =
 running_env
 (
+        
 perfherder
 =
 True
 xpcshell_cycles
 =
 10
+tests
+=
+[
+str
+(
+EXAMPLE_XPCSHELL_TEST
+)
+]
+    
 )
     
 sys
@@ -718,21 +714,6 @@ layers
 [
 TEST
 ]
-    
-env
-.
-set_arg
-(
-"
-tests
-"
-[
-str
-(
-EXAMPLE_XPCSHELL_TEST
-)
-]
-)
     
 metrics
 =

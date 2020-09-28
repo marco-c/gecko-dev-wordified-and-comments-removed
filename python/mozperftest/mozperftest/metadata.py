@@ -22,6 +22,7 @@ self
 mach_cmd
 env
 flavor
+script
 )
 :
         
@@ -72,6 +73,12 @@ self
 _env
 =
 env
+        
+self
+.
+script
+=
+script
     
 def
 run_hook

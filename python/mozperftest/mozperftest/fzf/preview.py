@@ -380,7 +380,10 @@ in
 f
 ]
     
+tags
 script_name
+__
+location
 =
 tasklist
 [
@@ -392,10 +395,19 @@ split
 "
 "
 )
-[
--
-1
-]
+    
+script_path
+=
+Path
+(
+SRC_ROOT
+location
+script_name
+)
+.
+resolve
+(
+)
     
 for
 ob
@@ -412,10 +424,11 @@ ob
 path
 "
 ]
-.
-endswith
+=
+=
+str
 (
-script_name
+script_path
 )
 :
             
