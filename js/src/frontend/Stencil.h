@@ -1869,6 +1869,11 @@ isSingletonFunction
 :
 1
 ;
+bool
+allowRelazify
+:
+1
+;
 ScriptStencil
 (
 )
@@ -1882,6 +1887,10 @@ wasFunctionEmitted
 false
 )
 isSingletonFunction
+(
+false
+)
+allowRelazify
 (
 false
 )
