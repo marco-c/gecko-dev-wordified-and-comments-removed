@@ -265,9 +265,12 @@ MOZ_DIAGNOSTIC_ASSERT
 bytesNeeded
 >
 =
+LONG
+(
 sizeof
 (
 DEVMODEW
+)
 )
 "
 DocumentPropertiesW
@@ -283,9 +286,12 @@ if
 (
 bytesNeeded
 <
+LONG
+(
 sizeof
 (
 DEVMODEW
+)
 )
 )
 {
