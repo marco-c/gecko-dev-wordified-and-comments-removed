@@ -21014,7 +21014,7 @@ ast
 ;
 self
 .
-visit_property_name
+visit_class_element_name
 (
 &
 ast
@@ -21115,7 +21115,7 @@ ast
 ;
 self
 .
-visit_property_name
+visit_class_element_name
 (
 &
 ast
@@ -21206,7 +21206,7 @@ ast
 ;
 self
 .
-visit_property_name
+visit_class_element_name
 (
 &
 ast

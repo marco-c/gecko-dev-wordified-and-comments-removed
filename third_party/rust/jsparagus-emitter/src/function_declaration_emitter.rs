@@ -88,7 +88,7 @@ emitter
 .
 compilation_info
 .
-functions
+scripts
 .
 get_mut
 (

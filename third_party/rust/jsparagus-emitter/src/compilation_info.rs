@@ -142,7 +142,7 @@ function_declaration_properties
 :
 FunctionDeclarationPropertyMap
 pub
-functions
+scripts
 :
 ScriptStencilList
 pub
@@ -205,7 +205,7 @@ ScriptStencilIndex
 function_declaration_properties
 :
 FunctionDeclarationPropertyMap
-functions
+scripts
 :
 ScriptStencilList
 )
@@ -229,7 +229,7 @@ scope_data_map
 function_declarations
 function_stencil_indices
 function_declaration_properties
-functions
+scripts
 script_data_list
 :
 ImmutableScriptDataList

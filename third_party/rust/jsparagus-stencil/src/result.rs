@@ -78,11 +78,7 @@ Vec
 RegExpItem
 >
 pub
-top_level_script
-:
-ScriptStencil
-pub
-functions
+scripts
 :
 Vec
 <
@@ -141,10 +137,7 @@ Vec
 <
 RegExpItem
 >
-top_level_script
-:
-ScriptStencil
-functions
+scripts
 :
 Vec
 <
@@ -167,8 +160,7 @@ atoms
 slices
 scopes
 regexps
-top_level_script
-functions
+scripts
 script_data_list
 }
 }

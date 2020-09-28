@@ -3990,7 +3990,7 @@ alloc
 pub
 name
 :
-PropertyName
+ClassElementName
 <
 '
 alloc
@@ -4043,7 +4043,7 @@ alloc
 pub
 property_name
 :
-PropertyName
+ClassElementName
 <
 '
 alloc
@@ -4080,7 +4080,7 @@ alloc
 pub
 property_name
 :
-PropertyName
+ClassElementName
 <
 '
 alloc

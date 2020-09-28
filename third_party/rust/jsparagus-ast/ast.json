@@ -3320,7 +3320,7 @@ name
 "
 :
 "
-PropertyName
+ClassElementName
 "
 "
 is_async
@@ -3368,7 +3368,7 @@ property_name
 "
 :
 "
-PropertyName
+ClassElementName
 "
 "
 body
@@ -3395,7 +3395,7 @@ property_name
 "
 :
 "
-PropertyName
+ClassElementName
 "
 "
 param

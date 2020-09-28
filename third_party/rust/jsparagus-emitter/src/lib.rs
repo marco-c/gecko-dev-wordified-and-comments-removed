@@ -182,7 +182,7 @@ scope_data_map
 function_declarations
 function_stencil_indices
 function_declaration_properties
-functions
+scripts
 error
 }
 =
@@ -243,7 +243,7 @@ scope_data_map
 function_declarations
 function_stencil_indices
 function_declaration_properties
-functions
+scripts
 )
 ;
 ast_emitter
@@ -588,7 +588,10 @@ usize
 =
 result
 .
-top_level_script
+scripts
+[
+0
+]
 .
 immutable_script_data
 .

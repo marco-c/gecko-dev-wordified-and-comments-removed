@@ -7448,7 +7448,7 @@ Yield
 Await
 ]
 :
-PropertyName
+ClassElementName
 [
 ?
 Yield
@@ -7516,7 +7516,7 @@ Await
 >
 0
 get
-PropertyName
+ClassElementName
 [
 ?
 Yield
@@ -7545,7 +7545,7 @@ getter
 6
 )
 set
-PropertyName
+ClassElementName
 [
 ?
 Yield
@@ -7600,7 +7600,7 @@ Await
 ]
 :
 *
-PropertyName
+ClassElementName
 [
 ?
 Yield
@@ -7850,7 +7850,7 @@ LineTerminator
 here
 ]
 *
-PropertyName
+ClassElementName
 [
 ?
 Yield

@@ -285,6 +285,15 @@ modules
 }
 }
 ;
+compilation_info
+.
+scripts
+.
+set_top_level
+(
+script
+)
+;
 Ok
 (
 EmitResult
@@ -320,10 +329,9 @@ regexps
 into
 (
 )
-script
 compilation_info
 .
-functions
+scripts
 .
 into
 (
@@ -929,7 +937,7 @@ self
 .
 compilation_info
 .
-functions
+scripts
 .
 get
 (
