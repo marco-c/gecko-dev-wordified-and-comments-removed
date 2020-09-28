@@ -1062,6 +1062,15 @@ Opcode
 :
 GuardFunctionKind
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+ArgumentsObjectLength
+:
 object
 =
 ins
