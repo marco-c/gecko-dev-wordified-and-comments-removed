@@ -901,6 +901,15 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_SESSIONHISTORYENTRY_IID
 )
+void
+ReplaceWith
+(
+const
+SessionHistoryEntry
+&
+aSource
+)
+;
 const
 SessionHistoryInfo
 &
