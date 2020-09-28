@@ -622,10 +622,14 @@ NS_OK
 static
 constexpr
 StorageType
-defaultValue
-=
+GetDefaultValue
+(
+)
+{
+return
 NS_ERROR_FAILURE
 ;
+}
 static
 constexpr
 void
