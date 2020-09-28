@@ -907,6 +907,15 @@ doc
 Hidden
 (
 )
+&
+&
+!
+doc
+-
+>
+HasPictureInPictureChildElement
+(
+)
 ;
 if
 (
