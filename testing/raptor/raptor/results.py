@@ -2325,9 +2325,18 @@ firstPaint
 "
 fcp
 "
+[
 "
-timeToContentfulPaint
+paintTiming
 "
+"
+first
+-
+contentful
+-
+paint
+"
+]
 )
             
 (
@@ -2349,29 +2358,6 @@ loadEventEnd
 )
         
 )
-        
-chrome_raptor_conversion
-=
-{
-            
-"
-timeToContentfulPaint
-"
-:
-[
-"
-paintTiming
-"
-"
-first
--
-contentful
--
-paint
-"
-]
-        
-}
         
 def
 _get_raptor_val
@@ -2973,10 +2959,14 @@ fcp
 continue
                     
 if
-raptor
-in
-chrome_raptor_conversion
+bt
+=
+=
+"
+fcp
+"
 and
+not
 _get_raptor_val
 (
                         
@@ -2995,20 +2985,12 @@ timings
 "
 ]
                         
-chrome_raptor_conversion
-[
 raptor
-]
                     
 )
 :
                         
-raptor
-=
-chrome_raptor_conversion
-[
-raptor
-]
+continue
                     
 for
 cycle
