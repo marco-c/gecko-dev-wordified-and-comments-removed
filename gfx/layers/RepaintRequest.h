@@ -217,6 +217,10 @@ FrameMetrics
 &
 aOther
 const
+ScreenMargin
+&
+aDisplayportMargins
+const
 ScrollOffsetUpdateType
 aScrollUpdateType
 bool
@@ -289,11 +293,7 @@ GetScrollGeneration
 )
 mDisplayPortMargins
 (
-aOther
-.
-GetDisplayPortMargins
-(
-)
+aDisplayportMargins
 )
 mPresShellId
 (

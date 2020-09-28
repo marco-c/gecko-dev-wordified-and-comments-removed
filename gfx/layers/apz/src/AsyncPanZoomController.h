@@ -1646,6 +1646,10 @@ const
 ParentLayerPoint
 &
 aVelocity
+const
+ScreenMargin
+&
+aDisplayportMargins
 RepaintUpdateType
 aUpdateType
 )
