@@ -1790,13 +1790,6 @@ return
 mMaxHttpResponseHeaderSize
 ;
 }
-const
-nsCString
-&
-Http3QlogDir
-(
-)
-;
 float
 FocusedWindowTransactionRatio
 (
@@ -2550,9 +2543,6 @@ uint32_t
 Relaxed
 >
 mHttp3MaxBlockedStreams
-;
-nsCString
-mHttp3QlogDir
 ;
 uint32_t
 mMaxHttpResponseHeaderSize
