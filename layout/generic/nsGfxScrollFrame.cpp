@@ -14194,7 +14194,7 @@ d
 \
 n
 "
-Stringify
+ToString
 (
 CSSPoint
 :

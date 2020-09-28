@@ -13063,7 +13063,7 @@ WR
 \
 n
 "
-Stringify
+ToString
 (
 aHitTestPoint
 )
@@ -14421,7 +14421,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 hitTestPointForParent
 )
@@ -14431,7 +14431,7 @@ c_str
 )
 hitTestPoint
 ?
-Stringify
+ToString
 (
 hitTestPoint
 .
@@ -14530,7 +14530,7 @@ p
 \
 n
 "
-Stringify
+ToString
 (
 hitTestPoints
 .

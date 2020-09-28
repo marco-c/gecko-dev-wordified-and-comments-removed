@@ -135,6 +135,15 @@ include
 "
 mozilla
 /
+ToString
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ViewportUtils
 .
 h
@@ -824,7 +833,7 @@ p
 \
 n
 "
-Stringify
+ToString
 (
 aRequest
 .
@@ -2499,7 +2508,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 aPoint
 )

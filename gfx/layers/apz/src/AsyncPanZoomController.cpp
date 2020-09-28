@@ -3192,7 +3192,7 @@ drag
 n
 "
 this
-Stringify
+ToString
 (
 scrollOffset
 )
@@ -7146,7 +7146,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 destination
 )
@@ -8425,7 +8425,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 delta
 )
@@ -8819,7 +8819,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 startPosition
 )
@@ -13164,7 +13164,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 aHandoffState
 .
@@ -13697,7 +13697,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 residualVelocity
 )
@@ -23377,7 +23377,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 aDestination
 )
@@ -23541,7 +23541,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 *
 snapPoint

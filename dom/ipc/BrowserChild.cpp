@@ -348,6 +348,15 @@ include
 "
 mozilla
 /
+ToString
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -6303,7 +6312,7 @@ p
 \
 n
 "
-Stringify
+ToString
 (
 aPoint
 )
