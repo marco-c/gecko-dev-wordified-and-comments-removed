@@ -1552,6 +1552,16 @@ html
 -
 dom
 /
+serviceworkers
+/
+test
+/
+test_openWindow
+.
+html
+-
+dom
+/
 smil
 /
 SMILTimeValueSpec
