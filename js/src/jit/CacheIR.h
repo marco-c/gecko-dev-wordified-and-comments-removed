@@ -6222,6 +6222,8 @@ HandleObject
 obj
 ObjOperandId
 objId
+uint32_t
+index
 Int32OperandId
 indexId
 )
