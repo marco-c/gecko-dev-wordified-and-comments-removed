@@ -1260,12 +1260,9 @@ inline
 start
 "
 "
--
-moz
--
 math
 -
-display
+style
 "
 "
 max
