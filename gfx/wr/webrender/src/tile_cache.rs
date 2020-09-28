@@ -1155,7 +1155,7 @@ scroll_root
 fn
 add_clips
 (
-scroll_root
+_scroll_root
 :
 SpatialNodeIndex
 clip_chain_id
@@ -1177,7 +1177,7 @@ interners
 :
 &
 Interners
-spatial_tree
+_spatial_tree
 :
 &
 SpatialTree
@@ -1237,17 +1237,6 @@ clip_node_data
 .
 clip_node_kind
 {
-if
-spatial_tree
-.
-is_ancestor
-(
-clip_chain_node
-.
-spatial_node_index
-scroll_root
-)
-{
 prim_clips
 .
 push
@@ -1266,7 +1255,6 @@ spatial_node_index
 )
 )
 ;
-}
 }
 current_clip_chain_id
 =
