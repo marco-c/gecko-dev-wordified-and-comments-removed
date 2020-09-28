@@ -835,7 +835,7 @@ valueOr
 (
 0
 )
-Stringify
+ToString
 (
 mStickyScrollRangeInner
 )
@@ -843,7 +843,7 @@ mStickyScrollRangeInner
 c_str
 (
 )
-Stringify
+ToString
 (
 mStickyScrollRangeOuter
 )
