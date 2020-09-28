@@ -305,6 +305,11 @@ WindowContext
 ?
 topWindowContext
 ;
+readonly
+attribute
+boolean
+ancestorsAreCurrent
+;
 [
 SetterThrows
 ]

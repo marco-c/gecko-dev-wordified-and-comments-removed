@@ -559,6 +559,12 @@ aCheckMsg
 in
 boolean
 aCheckState
+[
+optional
+]
+in
+jsval
+aExtraArgs
 )
 ;
 boolean
