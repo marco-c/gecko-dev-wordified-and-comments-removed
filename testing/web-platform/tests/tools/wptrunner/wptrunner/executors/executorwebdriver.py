@@ -2456,6 +2456,10 @@ None
 supports_eager_pageload
 =
 True
+cleanup_after_test
+=
+True
+                 
 *
 *
 kwargs
@@ -2597,6 +2601,12 @@ self
 supports_eager_pageload
 =
 supports_eager_pageload
+        
+self
+.
+cleanup_after_test
+=
+cleanup_after_test
     
 def
 is_alive
@@ -2973,6 +2983,20 @@ done
 :
                 
 break
+        
+if
+self
+.
+cleanup_after_test
+:
+            
+protocol
+.
+testharness
+.
+close_old_windows
+(
+)
         
 return
 rv
