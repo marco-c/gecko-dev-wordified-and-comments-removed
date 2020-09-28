@@ -35,6 +35,8 @@ skip_if_desktop
     
 SkipTest
     
+skip_unless_browser_pref
+    
 skip_unless_protocol
 )
 from

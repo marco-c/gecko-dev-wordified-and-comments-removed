@@ -45,6 +45,8 @@ MarionetteTestCase
     
 run_if_manage_instance
     
+skip_unless_browser_pref
+    
 WindowManagerMixin
 )
 here
@@ -1164,6 +1166,36 @@ NAME
 "
 third
 "
+)
+    
+skip_unless_browser_pref
+(
+        
+"
+Bug
+1665210
+-
+Early
+return
+from
+navigation
+with
+Fission
+enabled
+"
+        
+"
+fission
+.
+autostart
+"
+        
+lambda
+value
+:
+value
+is
+False
 )
     
 def
