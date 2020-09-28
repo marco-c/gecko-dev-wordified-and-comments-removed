@@ -37,6 +37,10 @@ get_mach_virtualenv_binary
     
 MINIMUM_RUST_VERSION
 )
+from
+mozfile
+import
+which
 if
 sys
 .
@@ -2309,117 +2313,6 @@ state_dir
 )
     
 def
-which
-(
-self
-name
-*
-extra_search_dirs
-)
-:
-        
-"
-"
-"
-Python
-implementation
-of
-which
-.
-        
-It
-returns
-the
-path
-of
-an
-executable
-or
-None
-if
-it
-couldn
-'
-t
-be
-found
-.
-        
-"
-"
-"
-        
-search_dirs
-=
-os
-.
-environ
-[
-'
-PATH
-'
-]
-.
-split
-(
-os
-.
-pathsep
-)
-        
-search_dirs
-.
-extend
-(
-extra_search_dirs
-)
-        
-for
-path
-in
-search_dirs
-:
-            
-test
-=
-os
-.
-path
-.
-join
-(
-path
-name
-)
-            
-if
-os
-.
-path
-.
-isfile
-(
-test
-)
-and
-os
-.
-access
-(
-test
-os
-.
-X_OK
-)
-:
-                
-return
-test
-        
-return
-None
-    
-def
 run_as_root
 (
 self
@@ -2439,8 +2332,6 @@ geteuid
 :
             
 if
-self
-.
 which
 (
 '
@@ -2522,8 +2413,6 @@ packages
 :
         
 if
-self
-.
 which
 (
 '
@@ -2597,8 +2486,6 @@ packages
 :
         
 if
-self
-.
 which
 (
 '
@@ -2672,8 +2559,6 @@ packages
 :
         
 if
-self
-.
 which
 (
 '
@@ -3634,8 +3519,6 @@ self
         
 hg
 =
-self
-.
 which
 (
 '
@@ -3977,8 +3860,6 @@ python
                 
 python
 =
-self
-.
 which
 (
 test
@@ -4304,8 +4185,6 @@ self
         
 nasm
 =
-self
-.
 which
 (
 '
@@ -4357,14 +4236,16 @@ cargo_bin
         
 rustc
 =
-self
-.
 which
 (
 '
 rustc
 '
+extra_search_dirs
+=
+[
 cargo_bin
+]
 )
         
 if
@@ -4720,14 +4601,16 @@ version
             
 rustup
 =
-self
-.
 which
 (
 '
 rustup
 '
+extra_search_dirs
+=
+[
 cargo_bin
+]
 )
             
 if
@@ -4770,14 +4653,16 @@ version
         
 rustup
 =
-self
-.
 which
 (
 '
 rustup
 '
+extra_search_dirs
+=
+[
 cargo_bin
+]
 )
         
 if
@@ -5662,10 +5547,6 @@ ensure_java
 (
 self
 mozconfig_builder
-extra_search_dirs
-=
-(
-)
 )
 :
         
@@ -5855,28 +5736,20 @@ else
             
 jarsigner
 =
-self
-.
 which
 (
 '
 jarsigner
 '
-*
-extra_search_dirs
 )
             
 java
 =
-self
-.
 which
 (
 '
 java
 '
-*
-extra_search_dirs
 )
             
 if

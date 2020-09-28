@@ -12,6 +12,10 @@ mozboot
 base
 import
 BaseBootstrapper
+from
+mozfile
+import
+which
 class
 FreeBSDBootstrapper
 (
@@ -175,8 +179,6 @@ yasm
         
 if
 not
-self
-.
 which
 (
 '
@@ -198,8 +200,6 @@ binutils
         
 if
 not
-self
-.
 which
 (
 '
