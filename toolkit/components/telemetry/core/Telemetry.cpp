@@ -5834,12 +5834,12 @@ lock
 =
 telemetry
 ;
-}
 NS_ADDREF
 (
 telemetry
 )
 ;
+}
 nsCOMPtr
 <
 nsITelemetry
