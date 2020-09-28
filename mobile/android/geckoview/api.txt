@@ -13616,6 +13616,12 @@ int
 signedState
 ;
 field
+public
+final
+boolean
+temporary
+;
+field
 NonNull
 public
 final
