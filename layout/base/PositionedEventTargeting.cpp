@@ -743,7 +743,7 @@ nsIFrame
 aFrame
 nsAtom
 *
-stopAt
+aStopAt
 =
 nullptr
 nsAutoString
@@ -810,7 +810,7 @@ GetFlattenedTreeParent
 {
 if
 (
-stopAt
+aStopAt
 &
 &
 content
@@ -818,7 +818,7 @@ content
 >
 IsHTMLElement
 (
-stopAt
+aStopAt
 )
 )
 {
