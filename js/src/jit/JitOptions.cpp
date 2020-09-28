@@ -467,12 +467,6 @@ true
 ;
 SET_DEFAULT
 (
-typeInference
-true
-)
-;
-SET_DEFAULT
-(
 warpBuilder
 false
 )
@@ -1046,11 +1040,6 @@ bool
 enable
 )
 {
-typeInference
-=
-!
-enable
-;
 warpBuilder
 =
 enable
