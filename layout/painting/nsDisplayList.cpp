@@ -17946,11 +17946,6 @@ drawBackgroundColor
 =
 false
 ;
-bool
-drawBackgroundImage
-=
-false
-;
 nscolor
 color
 =
@@ -17977,6 +17972,9 @@ aFrame
 bg
 )
 {
+bool
+drawBackgroundImage
+;
 color
 =
 nsCSSRendering
@@ -18363,10 +18361,6 @@ if
 (
 !
 bg
-|
-|
-!
-drawBackgroundImage
 )
 {
 aList
