@@ -2303,6 +2303,15 @@ aReason
 )
 ;
 }
+else
+{
+aException
+.
+SuppressException
+(
+)
+;
+}
 }
 void
 ChromiumCDMProxy
