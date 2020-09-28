@@ -577,6 +577,9 @@ main
 html_show_copyright
 =
 False
+autosectionlabel_maxdepth
+=
+1
 def
 setup
 (
