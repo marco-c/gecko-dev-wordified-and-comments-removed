@@ -2447,6 +2447,16 @@ debug_assert_coalesced
 id
 )
 ;
+self
+.
+updates
+.
+remove
+(
+&
+id
+)
+;
 if
 let
 Some
