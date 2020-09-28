@@ -157,6 +157,19 @@ key_index
 store_index
                  
 "
+|
+"
+.
+join
+(
+histogram
+.
+record_in_processes_enum
+(
+)
+)
+                 
+"
 true
 "
 if
@@ -180,19 +193,6 @@ histogram
 .
 dataset
 (
-)
-                 
-"
-|
-"
-.
-join
-(
-histogram
-.
-record_in_processes_enum
-(
-)
 )
                  
 "

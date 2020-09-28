@@ -486,6 +486,9 @@ key_index
 uint16_t
 store_index
 ;
+RecordedProcessType
+record_in_processes
+;
 bool
 keyed
 ;
@@ -494,9 +497,6 @@ histogramType
 ;
 uint8_t
 dataset
-;
-RecordedProcessType
-record_in_processes
 ;
 SupportedProduct
 products
