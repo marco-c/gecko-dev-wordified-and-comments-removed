@@ -231,8 +231,7 @@ GET
 }
 updates
 :
-[
-]
+UPDATES
 }
 }
 expectedResourcesOnUpdated
@@ -352,8 +351,7 @@ GET
 }
 updates
 :
-[
-]
+UPDATES
 }
 }
 expectedResourcesOnUpdated

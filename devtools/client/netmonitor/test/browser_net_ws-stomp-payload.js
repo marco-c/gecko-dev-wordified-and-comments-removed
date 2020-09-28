@@ -96,6 +96,15 @@ false
 )
 )
 ;
+const
+onNetworkEvents
+=
+waitForNetworkEvents
+(
+monitor
+1
+)
+;
 await
 SpecialPowers
 .
@@ -166,6 +175,9 @@ n
 ;
 }
 )
+;
+await
+onNetworkEvents
 ;
 const
 requests
