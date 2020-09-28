@@ -633,8 +633,6 @@ nsRange
 nsresult
 >
 result
-=
-Err
 (
 NS_ERROR_UNEXPECTED
 )
