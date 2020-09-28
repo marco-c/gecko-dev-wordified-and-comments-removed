@@ -4564,6 +4564,9 @@ true
 cost_estimate
 :
 3
+custom_writer
+:
+true
 args
 :
 callee
@@ -4658,6 +4661,9 @@ true
 cost_estimate
 :
 4
+custom_writer
+:
+true
 args
 :
 callee
