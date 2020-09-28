@@ -375,9 +375,11 @@ mochitest
 ini
 '
 '
+webrtc
+/
 tests
 /
-mochitest
+mochitests
 /
 identity
 /
@@ -422,9 +424,11 @@ MOCHITEST_MANIFESTS
 =
 [
 '
+webrtc
+/
 tests
 /
-mochitest
+mochitests
 /
 mochitest
 .

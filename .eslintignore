@@ -943,9 +943,11 @@ dom
 /
 media
 /
+webrtc
+/
 tests
 /
-mochitest
+mochitests
 /
 identity
 /
