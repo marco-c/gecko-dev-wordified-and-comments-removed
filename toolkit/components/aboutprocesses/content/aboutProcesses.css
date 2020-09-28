@@ -236,6 +236,12 @@ width
 15
 %
 ;
+text
+-
+align
+:
+right
+;
 }
 td
 :
@@ -250,6 +256,12 @@ width
 :
 15
 %
+;
+text
+-
+align
+:
+right
 ;
 }
 #
