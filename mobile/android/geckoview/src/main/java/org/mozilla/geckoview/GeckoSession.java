@@ -8036,6 +8036,10 @@ disposeNative
 (
 )
 ;
+mCompositorReady
+=
+false
+;
 mWindow
 =
 null
