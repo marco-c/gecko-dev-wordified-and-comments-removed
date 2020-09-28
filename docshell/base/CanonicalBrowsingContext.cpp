@@ -6808,6 +6808,15 @@ GetSessionHistory
 (
 )
 ;
+if
+(
+!
+shistory
+)
+{
+return
+;
+}
 int32_t
 index
 =
