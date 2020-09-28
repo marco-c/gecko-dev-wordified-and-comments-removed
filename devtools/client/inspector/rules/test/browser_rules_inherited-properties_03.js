@@ -110,16 +110,6 @@ inspector
 )
 ;
 await
-getRuleViewSelectorHighlighterIcon
-(
-view
-"
-element
-"
-1
-)
-;
-await
 elementStyleInherit
 (
 inspector
