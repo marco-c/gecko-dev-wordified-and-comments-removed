@@ -308,6 +308,10 @@ mozilla
 :
 FlushType
 aFlushType
+const
+char
+*
+aObserverDescription
 )
 ;
 bool
@@ -1318,6 +1322,11 @@ ObserverData
 nsARefreshObserver
 *
 mObserver
+;
+const
+char
+*
+mDescription
 ;
 mozilla
 :

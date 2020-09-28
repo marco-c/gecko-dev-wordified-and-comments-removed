@@ -1364,6 +1364,11 @@ FlushType
 :
 :
 Style
+"
+Scrollbar
+fade
+animation
+"
 )
 ;
 }

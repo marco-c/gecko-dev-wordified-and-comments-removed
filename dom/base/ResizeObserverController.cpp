@@ -219,6 +219,9 @@ FlushType
 :
 :
 Display
+"
+ResizeObserver
+"
 )
 ;
 mRegistered

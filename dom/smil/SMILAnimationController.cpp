@@ -1035,6 +1035,10 @@ FlushType
 :
 :
 Style
+"
+SMIL
+animations
+"
 )
 ;
 mRegisteredWithRefreshDriver

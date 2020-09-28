@@ -496,6 +496,12 @@ FlushType
 :
 :
 Event
+"
+Coalesced
+mouse
+move
+flusher
+"
 )
 ;
 }

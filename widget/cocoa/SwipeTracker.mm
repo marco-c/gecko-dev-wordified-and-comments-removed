@@ -804,6 +804,10 @@ FlushType
 :
 :
 Style
+"
+Swipe
+animation
+"
 )
 ;
 mRegisteredWithRefreshDriver

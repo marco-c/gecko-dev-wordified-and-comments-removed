@@ -986,6 +986,12 @@ FlushType
 :
 :
 Display
+"
+Canvas
+frame
+capture
+listeners
+"
 )
 ;
 mRegistered
