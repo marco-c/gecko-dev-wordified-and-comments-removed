@@ -347,7 +347,7 @@ randomName
 4
 ]
 ;
-PL_strncpy
+strncpy
 (
 buf
 "
