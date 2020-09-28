@@ -1488,7 +1488,7 @@ build
 .
 See
 the
-mtransport
+transport
 target
 for
 an
@@ -1508,9 +1508,13 @@ central
 /
 source
 /
+dom
+/
 media
 /
-mtransport
+webrtc
+/
+transport
 /
 fuzztest
 /
@@ -1563,7 +1567,7 @@ set
 See
 again
 the
-mtransport
+transport
 target
 for
 an
@@ -2418,9 +2422,13 @@ central
 /
 source
 /
+dom
+/
 media
 /
-mtransport
+webrtc
+/
+transport
 /
 fuzztest
 /

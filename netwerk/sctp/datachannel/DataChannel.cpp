@@ -241,7 +241,7 @@ MOZ_PEERCONNECTION
 #
 include
 "
-mtransport
+transport
 /
 runnable_utils
 .
@@ -1082,7 +1082,13 @@ SCTP
 /
 DTLS
 without
-mtransport
+dom
+/
+media
+/
+webrtc
+/
+transport
 "
 )
 ;
