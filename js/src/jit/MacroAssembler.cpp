@@ -13244,6 +13244,15 @@ Push
 srcSingle
 )
 ;
+*
+tlsOffset
++
+=
+sizeof
+(
+double
+)
+;
 convertFloat32ToDouble
 (
 srcSingle
