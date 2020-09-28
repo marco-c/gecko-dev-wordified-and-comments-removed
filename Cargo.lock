@@ -18385,6 +18385,9 @@ dependencies
 =
 [
 "
+log
+"
+"
 neqo
 -
 common
@@ -18414,6 +18417,9 @@ nserror
 "
 "
 nsstring
+"
+"
+qlog
 "
 "
 thin

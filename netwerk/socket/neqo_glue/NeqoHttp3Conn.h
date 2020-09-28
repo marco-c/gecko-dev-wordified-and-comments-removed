@@ -51,6 +51,10 @@ uint32_t
 aMaxTableSize
 uint16_t
 aMaxBlockedStreams
+const
+nsACString
+&
+aQlogDir
 NeqoHttp3Conn
 *
 *
@@ -70,6 +74,8 @@ aLocalAddr
 aRemoteAddr
 aMaxTableSize
 aMaxBlockedStreams
+&
+aQlogDir
 (
 const
 mozilla
