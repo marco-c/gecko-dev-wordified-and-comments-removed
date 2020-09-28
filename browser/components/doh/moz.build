@@ -22,6 +22,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+DoHConfig
+.
+jsm
+'
+'
 DoHController
 .
 jsm
