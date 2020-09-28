@@ -2976,10 +2976,7 @@ button
 .
 command
 :
--
-moz
--
-any
+is
 (
 [
 role
@@ -3063,10 +3060,7 @@ command
 not
 (
 :
--
-moz
--
-any
+is
 (
 [
 disabled
@@ -3079,10 +3073,7 @@ active
 )
 )
 :
--
-moz
--
-any
+is
 (
 :
 hover
@@ -3167,10 +3158,7 @@ disabled
 ]
 )
 :
--
-moz
--
-any
+is
 (
 [
 open
