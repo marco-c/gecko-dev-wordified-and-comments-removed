@@ -8986,6 +8986,11 @@ bincode
 chrono
 "
 "
+crossbeam
+-
+channel
+"
+"
 glean
 -
 core
@@ -9001,6 +9006,9 @@ serde
 "
 "
 tempfile
+"
+"
+thiserror
 "
 "
 uuid
