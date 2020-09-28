@@ -438,13 +438,13 @@ linkTrackingSource
 )
 )
 ;
-}
 this
 .
 _hideMenu
 (
 )
 ;
+}
 break
 ;
 }
