@@ -120,6 +120,15 @@ nullptr
 )
 ;
 static
+bool
+TestIfPrincipalIsExempt
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
+static
 void
 TestSitePermissionAndPotentiallyAddExemption
 (
