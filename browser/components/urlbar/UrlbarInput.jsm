@@ -6778,6 +6778,15 @@ SearchUtils
 TOPIC_ENGINE_MODIFIED
 :
 {
+subject
+.
+QueryInterface
+(
+Ci
+.
+nsISearchEngine
+)
+;
 switch
 (
 data
