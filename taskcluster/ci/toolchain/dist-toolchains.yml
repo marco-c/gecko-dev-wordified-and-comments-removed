@@ -243,10 +243,6 @@ rust
 -
 cross
 -
-1
-.
-41
--
 linux64
 -
 sccache
