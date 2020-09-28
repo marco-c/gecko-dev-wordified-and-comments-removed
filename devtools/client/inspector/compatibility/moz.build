@@ -55,11 +55,6 @@ types
 .
 js
 '
-'
-UserSettings
-.
-js
-'
 )
 with
 Files

@@ -17,9 +17,13 @@ client
 /
 inspector
 /
-compatibility
+shared
 /
-UserSettings
+compatibility
+-
+user
+-
+settings
 "
 )
 ;
