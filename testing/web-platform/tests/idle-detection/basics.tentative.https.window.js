@@ -19,7 +19,9 @@ set_permission
 name
 :
 '
-notifications
+idle
+-
+detection
 '
 }
 '
