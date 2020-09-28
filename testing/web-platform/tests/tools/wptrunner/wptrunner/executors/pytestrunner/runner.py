@@ -344,8 +344,8 @@ main
 [
 "
 -
-W
-error
+-
+strict
 "
                          
 "

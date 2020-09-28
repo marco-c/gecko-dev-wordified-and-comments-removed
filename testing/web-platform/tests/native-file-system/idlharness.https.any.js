@@ -16,6 +16,12 @@ system
 ]
 [
 '
+storage
+'
+'
+permissions
+'
+'
 streams
 '
 '

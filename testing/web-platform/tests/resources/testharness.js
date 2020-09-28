@@ -10171,7 +10171,7 @@ assert
 (
 false
 "
-wait_for
+step_wait_func
 "
 description
 "

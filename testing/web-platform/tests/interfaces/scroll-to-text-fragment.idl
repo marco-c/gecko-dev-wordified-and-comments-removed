@@ -15,9 +15,7 @@ extracted
 by
 Reffy
 into
-reffy
--
-reports
+webref
 /
 /
 (
@@ -29,11 +27,9 @@ github
 .
 com
 /
-tidoust
+w3c
 /
-reffy
--
-reports
+webref
 )
 /
 /
@@ -73,7 +69,7 @@ FragmentDirective
 ;
 partial
 interface
-Location
+Document
 {
 [
 SameObject

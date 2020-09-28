@@ -3129,6 +3129,7 @@ g
 js
 promise_test
 (
+async
 t
 =
 >

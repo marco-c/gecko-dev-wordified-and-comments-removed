@@ -274,8 +274,9 @@ e
 is
 not
 [
-LenientThis
+LegacyLenientThis
 ]
+)
 "
 )
 ;
@@ -454,8 +455,9 @@ e
 is
 not
 [
-LenientThis
+LegacyLenientThis
 ]
+)
 "
 )
 ;
@@ -634,8 +636,9 @@ e
 is
 not
 [
-LenientThis
+LegacyLenientThis
 ]
+)
 "
 )
 ;

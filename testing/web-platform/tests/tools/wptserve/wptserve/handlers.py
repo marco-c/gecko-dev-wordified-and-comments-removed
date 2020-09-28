@@ -3090,6 +3090,9 @@ with
 open
 (
 path
+'
+rb
+'
 )
 as
 f

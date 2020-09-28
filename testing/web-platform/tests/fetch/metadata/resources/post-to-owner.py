@@ -56,6 +56,21 @@ revalidate
     
 ]
     
+key
+=
+request
+.
+GET
+.
+first
+(
+b
+"
+key
+"
+None
+)
+    
 body
 =
 u
@@ -67,6 +82,30 @@ u
 !
 DOCTYPE
 html
+>
+        
+<
+script
+src
+=
+"
+/
+portals
+/
+resources
+/
+stash
+-
+utils
+.
+sub
+.
+js
+"
+>
+<
+/
+script
 >
         
 <
@@ -123,23 +162,24 @@ data
 )
 ;
             
+const
+key
+=
+%
+s
+;
+            
 if
 (
-window
-.
-portalHost
+key
 )
                 
-window
+StashUtils
 .
-portalHost
-.
-postMessage
+putValue
 (
+key
 data
-"
-*
-"
 )
 ;
         
@@ -152,6 +192,7 @@ script
 "
 "
 %
+(
 json
 .
 dumps
@@ -267,6 +308,13 @@ b
 )
         
 }
+)
+json
+.
+dumps
+(
+key
+)
 )
     
 return

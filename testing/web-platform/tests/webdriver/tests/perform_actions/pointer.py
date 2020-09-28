@@ -1233,19 +1233,23 @@ drag_duration
 def
 test_drag_and_drop_with_draggable_element
 (
-session
-                                              
+session_new_window
+                       
 test_actions_page
-                                              
+                       
 mouse_chain
-                                              
+                       
 drag_duration
 )
 :
     
+new_session
+=
+session_new_window
+    
 drag_target
 =
-session
+new_session
 .
 find
 .
@@ -1262,7 +1266,7 @@ False
     
 drop_target
 =
-session
+new_session
 .
 find
 .
@@ -1345,8 +1349,17 @@ e
 =
 get_events
 (
-session
+new_session
 )
+    
+assert
+len
+(
+e
+)
+>
+=
+5
     
 assert
 e

@@ -825,7 +825,6 @@ t
 async_test
 (
 testName
-testProps
 )
 ;
 t
@@ -917,7 +916,6 @@ context
 }
 )
 testName
-testProps
 )
 ;
 }

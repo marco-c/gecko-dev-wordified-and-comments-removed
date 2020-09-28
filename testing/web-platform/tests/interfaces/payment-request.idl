@@ -15,9 +15,7 @@ extracted
 by
 Reffy
 into
-reffy
--
-reports
+webref
 /
 /
 (
@@ -29,11 +27,9 @@ github
 .
 com
 /
-tidoust
+w3c
 /
-reffy
--
-reports
+webref
 )
 /
 /
@@ -108,7 +104,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 abort
 (
@@ -633,7 +629,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 complete
 (
@@ -651,7 +647,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 retry
 (
@@ -733,7 +729,7 @@ attribute
 USVString
 validationURL
 ;
-void
+undefined
 complete
 (
 Promise
@@ -842,7 +838,7 @@ eventInitDict
 }
 )
 ;
-void
+undefined
 updateWith
 (
 Promise
