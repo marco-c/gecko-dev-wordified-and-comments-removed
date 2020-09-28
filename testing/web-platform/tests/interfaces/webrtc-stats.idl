@@ -944,10 +944,6 @@ short
 dataChannelIdentifier
 ;
 required
-DOMString
-transportId
-;
-required
 RTCDataChannelState
 state
 ;
@@ -1044,6 +1040,9 @@ RTCSctpTransportStats
 :
 RTCStats
 {
+DOMString
+transportId
+;
 double
 smoothedRoundTripTime
 ;
