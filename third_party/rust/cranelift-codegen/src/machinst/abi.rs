@@ -44,7 +44,7 @@ Writable
 ;
 pub
 trait
-ABIBody
+ABICallee
 {
 type
 I
@@ -545,7 +545,7 @@ I
 }
 pub
 trait
-ABICall
+ABICaller
 {
 type
 I

@@ -220,7 +220,7 @@ abi
 Box
 <
 dyn
-ABIBody
+ABICallee
 <
 I
 =
@@ -291,7 +291,7 @@ abi
 Box
 <
 dyn
-ABIBody
+ABICallee
 <
 I
 =
@@ -389,7 +389,7 @@ self
 &
 mut
 dyn
-ABIBody
+ABICallee
 <
 I
 =
@@ -1025,7 +1025,7 @@ abi
 Box
 <
 dyn
-ABIBody
+ABICallee
 <
 I
 =
