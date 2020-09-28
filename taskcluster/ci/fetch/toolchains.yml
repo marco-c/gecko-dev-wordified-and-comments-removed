@@ -3041,7 +3041,6 @@ clang
 0
 .
 0
-rc2
 source
 code
 fetch
@@ -3066,7 +3065,7 @@ llvm
 project
 revision
 :
-414f32a9e862b11f51063b75729278f8d81b12e9
+8aca41f39c207b6f9efe2e448986d109892072ad
 civet
 -
 source
