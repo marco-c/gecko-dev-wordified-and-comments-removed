@@ -1652,6 +1652,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 aData
 .
@@ -2392,6 +2393,7 @@ nsIVariant
 *
 aData
 )
+const
 {
 return
 GetDataAtInternal
@@ -2428,6 +2430,7 @@ nsIVariant
 *
 aData
 )
+const
 {
 *
 aData
