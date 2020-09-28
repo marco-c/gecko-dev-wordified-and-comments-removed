@@ -2842,28 +2842,75 @@ arg
 to
 the
 first
+(
+non
+bugbug
+)
 strategies
 and
-an
+a
+shared
 empty
 dict
 to
-last
-(
-bugbug
-based
-)
+the
     
+bugbug
 strategy
+and
+all
+substrategies
+after
+it
 .
     
 "
 "
 "
     
+from
+taskgraph
+.
+optimize
+.
+bugbug
+import
+BugBugPushSchedules
+    
+index
+=
+[
+i
+for
+i
+strategy
+in
+enumerate
+(
+substrategies
+)
+             
+if
+isinstance
+(
+strategy
+BugBugPushSchedules
+)
+]
+[
+0
+]
+    
 return
 [
 arg
+]
+*
+index
++
+[
+{
+}
 ]
 *
 (
@@ -2872,13 +2919,8 @@ len
 substrategies
 )
 -
-1
+index
 )
-+
-[
-{
-}
-]
 import_sibling_modules
 (
 )
@@ -3384,24 +3426,23 @@ unless
 schedules
 '
             
-Any
-(
 '
 bugbug
 -
 low
 '
+            
 '
 platform
 -
 debug
 '
+            
 '
 platform
 -
 disperse
 '
-)
             
 split_args
 =
@@ -3443,19 +3484,17 @@ unless
 schedules
 '
             
-Any
-(
 '
 bugbug
 -
 low
 '
+            
 '
 platform
 -
 disperse
 '
-)
             
 split_args
 =
@@ -3499,19 +3538,17 @@ unless
 schedules
 '
             
-Any
-(
 '
 bugbug
 -
 medium
 '
+            
 '
 platform
 -
 disperse
 '
-)
             
 split_args
 =
@@ -3555,8 +3592,6 @@ unless
 schedules
 '
             
-Any
-(
 '
 bugbug
 -
@@ -3564,12 +3599,12 @@ reduced
 -
 manifests
 '
+            
 '
 platform
 -
 disperse
 '
-)
             
 split_args
 =
@@ -3616,13 +3651,12 @@ unless
 schedules
 '
             
-Any
-(
 '
 bugbug
 -
 medium
 '
+            
 '
 platform
 -
@@ -3632,7 +3666,6 @@ no
 -
 unseen
 '
-)
             
 split_args
 =
@@ -3684,13 +3717,12 @@ unless
 schedules
 '
             
-Any
-(
 '
 bugbug
 -
 medium
 '
+            
 '
 platform
 -
@@ -3700,7 +3732,6 @@ only
 -
 one
 '
-)
             
 split_args
 =
@@ -3750,19 +3781,17 @@ unless
 schedules
 '
             
-Any
-(
 '
 bugbug
 -
 high
 '
+            
 '
 platform
 -
 disperse
 '
-)
             
 split_args
 =
