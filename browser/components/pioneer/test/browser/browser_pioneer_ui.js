@@ -99,7 +99,7 @@ locale
 requestedLocales
 ;
 const
-PREF_ION_ID
+PREF_PIONEER_ID
 =
 "
 toolkit
@@ -110,7 +110,7 @@ pioneerId
 "
 ;
 const
-PREF_ION_NEW_STUDIES_AVAILABLE
+PREF_PIONEER_NEW_STUDIES_AVAILABLE
 =
 "
 toolkit
@@ -127,7 +127,7 @@ available
 "
 ;
 const
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 =
 "
 toolkit
@@ -223,7 +223,7 @@ details
 line
 3
 "
-joinIonConsent
+joinPioneerConsent
 :
 "
 test
@@ -235,7 +235,7 @@ consent
 line
 2
 "
-leaveIonConsent
+leavePioneerConsent
 :
 "
 test
@@ -268,7 +268,7 @@ CACHED_ADDONS
 addon_id
 :
 "
-ion
+pioneer
 -
 v2
 -
@@ -401,7 +401,7 @@ Study
 purpose
 :
 Testing
-Ion
+Pioneer
 .
 "
 privacyPolicy
@@ -428,7 +428,7 @@ authors
 name
 :
 "
-Ion
+Pioneer
 Developers
 "
 url
@@ -500,7 +500,7 @@ test345
 addon_id
 :
 "
-ion
+pioneer
 -
 v2
 -
@@ -636,7 +636,7 @@ Study
 purpose
 :
 Testing
-Ion
+Pioneer
 .
 "
 privacyPolicy
@@ -663,7 +663,7 @@ authors
 name
 :
 "
-Ion
+Pioneer
 Developers
 "
 url
@@ -863,7 +863,7 @@ Study
 purpose
 :
 Testing
-Ion
+Pioneer
 .
 "
 privacyPolicy
@@ -1078,7 +1078,7 @@ Study
 purpose
 :
 Testing
-Ion
+Pioneer
 .
 "
 privacyPolicy
@@ -1169,7 +1169,7 @@ CACHED_ADDONS_BAD_DEFAULT
 addon_id
 :
 "
-ion
+pioneer
 -
 v2
 -
@@ -1307,7 +1307,7 @@ Study
 purpose
 :
 Testing
-Ion
+Pioneer
 .
 "
 privacyPolicy
@@ -1334,7 +1334,7 @@ authors
 name
 :
 "
-Ion
+Pioneer
 Developers
 "
 url
@@ -1534,7 +1534,7 @@ Study
 purpose
 :
 Testing
-Ion
+Pioneer
 .
 "
 privacyPolicy
@@ -1749,7 +1749,7 @@ Study
 purpose
 :
 Testing
-Ion
+Pioneer
 .
 "
 privacyPolicy
@@ -1840,12 +1840,12 @@ TEST_ADDONS
 id
 :
 "
-ion
+pioneer
 -
 v2
 -
 example
-ion
+pioneer
 .
 mozilla
 .
@@ -1856,7 +1856,7 @@ org
 id
 :
 "
-ion
+pioneer
 -
 v2
 -
@@ -1964,13 +1964,13 @@ of
 [
 [
 "
-IonContentSchema
+PioneerContentSchema
 "
 CACHED_CONTENT
 ]
 [
 "
-IonStudyAddonsSchema
+PioneerStudyAddonsSchema
 "
 CACHED_ADDONS
 ]
@@ -2149,12 +2149,12 @@ clear
 :
 [
 [
-PREF_ION_ID
+PREF_PIONEER_ID
 "
 "
 ]
 [
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 "
 [
 ]
@@ -2175,7 +2175,7 @@ url
 "
 about
 :
-ion
+pioneer
 "
 gBrowser
 }
@@ -2195,7 +2195,7 @@ prefs
 .
 getStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 null
 )
 ;
@@ -2209,7 +2209,7 @@ null
 "
 before
 enrollment
-Ion
+Pioneer
 pref
 is
 null
@@ -2251,7 +2251,7 @@ getElementById
 "
 join
 -
-ion
+pioneer
 -
 consent
 -
@@ -2317,7 +2317,7 @@ getElementById
 "
 join
 -
-ion
+pioneer
 -
 accept
 -
@@ -2351,7 +2351,7 @@ click
 )
 ;
 const
-ionEnrolled
+pioneerEnrolled
 =
 Services
 .
@@ -2359,17 +2359,17 @@ prefs
 .
 getStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 null
 )
 ;
 ok
 (
-ionEnrolled
+pioneerEnrolled
 "
 after
 enrollment
-Ion
+Pioneer
 pref
 is
 set
@@ -2395,7 +2395,7 @@ id
 =
 =
 "
-ion
+pioneer
 -
 unenrollment
 -
@@ -2403,7 +2403,7 @@ button
 "
 "
 After
-Ion
+Pioneer
 enrollment
 join
 button
@@ -2445,7 +2445,7 @@ id
 =
 =
 "
-ion
+pioneer
 -
 no
 -
@@ -2532,12 +2532,12 @@ clear
 :
 [
 [
-PREF_ION_ID
+PREF_PIONEER_ID
 "
 "
 ]
 [
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 "
 [
 ]
@@ -2558,7 +2558,7 @@ url
 "
 about
 :
-ion
+pioneer
 "
 gBrowser
 }
@@ -2578,7 +2578,7 @@ prefs
 .
 getStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 null
 )
 ;
@@ -2592,7 +2592,7 @@ null
 "
 before
 enrollment
-Ion
+Pioneer
 pref
 is
 null
@@ -2608,7 +2608,7 @@ document
 getElementById
 (
 "
-ion
+pioneer
 -
 button
 "
@@ -2622,7 +2622,7 @@ hidden
 "
 before
 enrollment
-Ion
+Pioneer
 toolbar
 button
 is
@@ -2665,7 +2665,7 @@ getElementById
 "
 join
 -
-ion
+pioneer
 -
 consent
 -
@@ -2702,7 +2702,7 @@ getElementById
 "
 join
 -
-ion
+pioneer
 -
 cancel
 -
@@ -2745,7 +2745,7 @@ prefs
 .
 getStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 null
 )
 ;
@@ -2757,7 +2757,7 @@ canceledEnrollment
 after
 cancelling
 enrollment
-Ion
+Pioneer
 is
 not
 enrolled
@@ -2806,7 +2806,7 @@ getElementById
 "
 join
 -
-ion
+pioneer
 -
 accept
 -
@@ -2840,7 +2840,7 @@ click
 )
 ;
 const
-ionEnrolled
+pioneerEnrolled
 =
 Services
 .
@@ -2848,17 +2848,17 @@ prefs
 .
 getStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 null
 )
 ;
 ok
 (
-ionEnrolled
+pioneerEnrolled
 "
 after
 enrollment
-Ion
+Pioneer
 pref
 is
 set
@@ -2884,7 +2884,7 @@ id
 =
 =
 "
-ion
+pioneer
 -
 unenrollment
 -
@@ -2892,7 +2892,7 @@ button
 "
 "
 After
-Ion
+Pioneer
 enrollment
 join
 button
@@ -2911,7 +2911,7 @@ document
 getElementById
 (
 "
-ion
+pioneer
 -
 button
 "
@@ -2926,7 +2926,7 @@ hidden
 "
 after
 enrollment
-Ion
+Pioneer
 toolbar
 button
 is
@@ -3005,7 +3005,7 @@ prefs
 .
 getStringPref
 (
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 "
 {
 }
@@ -3308,7 +3308,7 @@ id
 =
 =
 "
-ion
+pioneer
 -
 leave
 -
@@ -3618,7 +3618,7 @@ getElementById
 "
 leave
 -
-ion
+pioneer
 -
 cancel
 -
@@ -3635,7 +3635,7 @@ click
 )
 ;
 const
-ionStillEnrolled
+pioneerStillEnrolled
 =
 Services
 .
@@ -3643,18 +3643,18 @@ prefs
 .
 getStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 null
 )
 ;
 ok
 (
-ionStillEnrolled
+pioneerStillEnrolled
 "
 after
 canceling
 unenrollment
-Ion
+Pioneer
 pref
 is
 still
@@ -3681,7 +3681,7 @@ getElementById
 "
 leave
 -
-ion
+pioneer
 -
 accept
 -
@@ -3698,7 +3698,7 @@ click
 )
 ;
 const
-ionUnenrolled
+pioneerUnenrolled
 =
 await
 new
@@ -3717,7 +3717,7 @@ prefs
 .
 addObserver
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 function
 observer
 (
@@ -3737,7 +3737,7 @@ prefs
 .
 getStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 null
 )
 ;
@@ -3747,7 +3747,7 @@ prefs
 .
 removeObserver
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 observer
 )
 ;
@@ -3768,7 +3768,7 @@ prefs
 .
 removeObserver
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 observer
 )
 ;
@@ -3787,12 +3787,12 @@ ex
 ok
 (
 !
-ionUnenrolled
+pioneerUnenrolled
 "
 after
 accepting
 unenrollment
-Ion
+Pioneer
 pref
 is
 null
@@ -3808,7 +3808,7 @@ document
 getElementById
 (
 "
-ion
+pioneer
 -
 button
 "
@@ -3822,7 +3822,7 @@ hidden
 "
 after
 unenrollment
-Ion
+Pioneer
 toolbar
 button
 is
@@ -4097,12 +4097,12 @@ clear
 :
 [
 [
-PREF_ION_ID
+PREF_PIONEER_ID
 "
 "
 ]
 [
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 "
 [
 ]
@@ -4130,7 +4130,7 @@ url
 "
 about
 :
-ion
+pioneer
 "
 gBrowser
 }
@@ -4150,7 +4150,7 @@ prefs
 .
 getStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 null
 )
 ;
@@ -4164,7 +4164,7 @@ null
 "
 before
 enrollment
-Ion
+Pioneer
 pref
 is
 null
@@ -4206,7 +4206,7 @@ getElementById
 "
 join
 -
-ion
+pioneer
 -
 accept
 -
@@ -4240,7 +4240,7 @@ click
 )
 ;
 const
-ionId
+pioneerId
 =
 Services
 .
@@ -4248,17 +4248,17 @@ prefs
 .
 getStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 null
 )
 ;
 ok
 (
-ionId
+pioneerId
 "
 after
 enrollment
-Ion
+Pioneer
 pref
 is
 set
@@ -4546,7 +4546,7 @@ p
 pioneerId
 =
 =
-ionId
+pioneerId
 &
 &
 p
@@ -4564,7 +4564,7 @@ meta
 We
 expect
 the
-Ion
+Pioneer
 program
 consent
 to
@@ -4609,7 +4609,7 @@ p
 pioneerId
 =
 =
-ionId
+pioneerId
 &
 &
 p
@@ -4643,7 +4643,7 @@ add_task
 (
 async
 function
-testIonBadge
+testPioneerBadge
 (
 )
 {
@@ -4657,7 +4657,7 @@ set
 :
 [
 [
-PREF_ION_NEW_STUDIES_AVAILABLE
+PREF_PIONEER_NEW_STUDIES_AVAILABLE
 true
 ]
 ]
@@ -4665,11 +4665,11 @@ clear
 :
 [
 [
-PREF_ION_NEW_STUDIES_AVAILABLE
+PREF_PIONEER_NEW_STUDIES_AVAILABLE
 false
 ]
 [
-PREF_ION_ID
+PREF_PIONEER_ID
 "
 "
 ]
@@ -4678,7 +4678,7 @@ PREF_ION_ID
 )
 ;
 let
-ionTab
+pioneerTab
 =
 await
 BrowserTestUtils
@@ -4691,7 +4691,7 @@ url
 "
 about
 :
-ion
+pioneer
 "
 gBrowser
 }
@@ -4745,7 +4745,7 @@ prefs
 .
 setBoolPref
 (
-PREF_ION_NEW_STUDIES_AVAILABLE
+PREF_PIONEER_NEW_STUDIES_AVAILABLE
 true
 )
 ;
@@ -4757,7 +4757,7 @@ document
 getElementById
 (
 "
-ion
+pioneer
 -
 button
 "
@@ -4797,7 +4797,7 @@ When
 pref
 is
 true
-Ion
+Pioneer
 toolbar
 button
 is
@@ -4818,7 +4818,7 @@ click
 )
 ;
 await
-ionTab
+pioneerTab
 ;
 ok
 (
@@ -4839,7 +4839,7 @@ callout
 When
 about
 :
-ion
+pioneer
 toolbar
 button
 is
@@ -4859,7 +4859,7 @@ prefs
 .
 setBoolPref
 (
-PREF_ION_NEW_STUDIES_AVAILABLE
+PREF_PIONEER_NEW_STUDIES_AVAILABLE
 true
 )
 ;
@@ -4907,7 +4907,7 @@ When
 pref
 is
 true
-Ion
+Pioneer
 toolbar
 button
 is
@@ -4934,7 +4934,7 @@ BrowserTestUtils
 .
 removeTab
 (
-ionTab
+pioneerTab
 )
 ;
 await
@@ -4991,7 +4991,7 @@ clear
 :
 [
 [
-PREF_ION_ID
+PREF_PIONEER_ID
 "
 "
 ]
@@ -5010,7 +5010,7 @@ url
 "
 about
 :
-ion
+pioneer
 "
 gBrowser
 }
@@ -5116,12 +5116,12 @@ clear
 :
 [
 [
-PREF_ION_ID
+PREF_PIONEER_ID
 "
 "
 ]
 [
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 "
 [
 ]
@@ -5150,7 +5150,7 @@ url
 "
 about
 :
-ion
+pioneer
 "
 gBrowser
 }
@@ -5254,7 +5254,7 @@ url
 "
 about
 :
-ion
+pioneer
 "
 gBrowser
 }

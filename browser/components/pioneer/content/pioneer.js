@@ -97,7 +97,7 @@ jsm
 )
 ;
 const
-PREF_ION_ID
+PREF_PIONEER_ID
 =
 "
 toolkit
@@ -108,7 +108,7 @@ pioneerId
 "
 ;
 const
-PREF_ION_NEW_STUDIES_AVAILABLE
+PREF_PIONEER_NEW_STUDIES_AVAILABLE
 =
 "
 toolkit
@@ -125,7 +125,7 @@ available
 "
 ;
 const
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 =
 "
 toolkit
@@ -222,7 +222,7 @@ showEnrollmentStatus
 )
 {
 const
-ionId
+pioneerId
 =
 Services
 .
@@ -230,7 +230,7 @@ prefs
 .
 getStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 null
 )
 ;
@@ -255,10 +255,10 @@ l10n
 setAttributes
 (
 enrollmentButton
-ion
+pioneer
 -
 {
-ionId
+pioneerId
 ?
 "
 un
@@ -282,7 +282,7 @@ toggle
 primary
 "
 !
-ionId
+pioneerId
 )
 ;
 }
@@ -589,7 +589,7 @@ prefs
 .
 getStringPref
 (
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 "
 {
 }
@@ -664,7 +664,7 @@ setAttributes
 (
 joinBtn
 "
-ion
+pioneer
 -
 join
 -
@@ -708,7 +708,7 @@ prefs
 .
 setStringPref
 (
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 JSON
 .
 stringify
@@ -808,7 +808,7 @@ setAttributes
 (
 joinBtn
 "
-ion
+pioneer
 -
 leave
 -
@@ -846,7 +846,7 @@ cachedAddons
 )
 {
 const
-ionId
+pioneerId
 =
 Services
 .
@@ -854,7 +854,7 @@ prefs
 .
 getStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 null
 )
 ;
@@ -875,7 +875,7 @@ isDefault
 ;
 if
 (
-ionId
+pioneerId
 )
 {
 for
@@ -925,7 +925,7 @@ addon_id
 =
 =
 "
-ion
+pioneer
 -
 v2
 -
@@ -1040,7 +1040,7 @@ error
 (
 about
 :
-ion
+pioneer
 -
 Study
 addon
@@ -1375,7 +1375,7 @@ setAttributes
 (
 joinBtn
 "
-ion
+pioneer
 -
 join
 -
@@ -1999,7 +1999,7 @@ setAttributes
 (
 availableStudies
 "
-ion
+pioneer
 -
 current
 -
@@ -2123,7 +2123,7 @@ button
 )
 ;
 const
-ionId
+pioneerId
 =
 Services
 .
@@ -2131,7 +2131,7 @@ prefs
 .
 getStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 null
 )
 ;
@@ -2144,7 +2144,7 @@ prefs
 .
 getStringPref
 (
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 "
 {
 }
@@ -2192,7 +2192,7 @@ setAttributes
 (
 joinBtn
 "
-ion
+pioneer
 -
 ended
 -
@@ -2205,7 +2205,7 @@ return
 }
 if
 (
-ionId
+pioneerId
 )
 {
 study
@@ -2235,7 +2235,7 @@ setAttributes
 (
 joinBtn
 "
-ion
+pioneer
 -
 leave
 -
@@ -2254,7 +2254,7 @@ setAttributes
 (
 joinBtn
 "
-ion
+pioneer
 -
 join
 -
@@ -2274,7 +2274,7 @@ setAttributes
 (
 joinBtn
 "
-ion
+pioneer
 -
 study
 -
@@ -2382,7 +2382,7 @@ async
 >
 {
 const
-ionId
+pioneerId
 =
 Services
 .
@@ -2390,13 +2390,13 @@ prefs
 .
 getStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 null
 )
 ;
 if
 (
-ionId
+pioneerId
 )
 {
 let
@@ -2409,7 +2409,7 @@ getElementById
 "
 leave
 -
-ion
+pioneer
 -
 consent
 -
@@ -2442,7 +2442,7 @@ getElementById
 "
 join
 -
-ion
+pioneer
 -
 consent
 -
@@ -2473,7 +2473,7 @@ getElementById
 "
 join
 -
-ion
+pioneer
 -
 cancel
 -
@@ -2499,7 +2499,7 @@ getElementById
 "
 join
 -
-ion
+pioneer
 -
 consent
 -
@@ -2519,7 +2519,7 @@ getElementById
 "
 leave
 -
-ion
+pioneer
 -
 cancel
 -
@@ -2545,7 +2545,7 @@ getElementById
 "
 leave
 -
-ion
+pioneer
 -
 consent
 -
@@ -2657,7 +2657,7 @@ getElementById
 "
 join
 -
-ion
+pioneer
 -
 accept
 -
@@ -2678,7 +2678,7 @@ event
 >
 {
 const
-ionId
+pioneerId
 =
 Services
 .
@@ -2686,14 +2686,14 @@ prefs
 .
 getStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 null
 )
 ;
 if
 (
 !
-ionId
+pioneerId
 )
 {
 let
@@ -2709,7 +2709,7 @@ prefs
 .
 setStringPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 uuid
 )
 ;
@@ -2757,7 +2757,7 @@ addon_id
 =
 =
 "
-ion
+pioneer
 -
 v2
 -
@@ -2863,7 +2863,7 @@ setAttributes
 (
 availableStudies
 "
-ion
+pioneer
 -
 no
 -
@@ -2935,7 +2935,7 @@ getElementById
 "
 leave
 -
-ion
+pioneer
 -
 accept
 -
@@ -2964,7 +2964,7 @@ prefs
 .
 getStringPref
 (
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 "
 {
 }
@@ -3002,7 +3002,7 @@ prefs
 .
 clearUserPref
 (
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 )
 ;
 for
@@ -3048,7 +3048,7 @@ prefs
 .
 setStringPref
 (
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 JSON
 .
 stringify
@@ -3191,7 +3191,7 @@ prefs
 .
 clearUserPref
 (
-PREF_ION_ID
+PREF_PIONEER_ID
 )
 ;
 for
@@ -3236,7 +3236,7 @@ getElementById
 "
 leave
 -
-ion
+pioneer
 -
 consent
 -
@@ -3508,7 +3508,7 @@ prefs
 .
 setBoolPref
 (
-PREF_ION_NEW_STUDIES_AVAILABLE
+PREF_PIONEER_NEW_STUDIES_AVAILABLE
 false
 )
 ;
@@ -3541,7 +3541,7 @@ document
 getElementById
 (
 "
-ion
+pioneer
 -
 button
 "
@@ -3588,10 +3588,10 @@ of
 title
 "
 "
-joinIonConsent
+joinPioneerConsent
 "
 "
-leaveIonConsent
+leavePioneerConsent
 "
 ]
 )
@@ -4006,7 +4006,7 @@ prefs
 .
 getStringPref
 (
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 "
 {
 }
@@ -4040,7 +4040,7 @@ prefs
 .
 setStringPref
 (
-PREF_ION_COMPLETED_STUDIES
+PREF_PIONEER_COMPLETED_STUDIES
 JSON
 .
 stringify
