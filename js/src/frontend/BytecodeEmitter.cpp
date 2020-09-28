@@ -8409,7 +8409,6 @@ objLiteralData
 .
 emplaceBack
 (
-cx
 )
 )
 {
@@ -8507,6 +8506,7 @@ data
 .
 addAtom
 (
+cx
 propName
 &
 propNameIndex
@@ -8539,6 +8539,7 @@ writer
 .
 propWithUndefinedValue
 (
+cx
 )
 )
 {
@@ -21665,7 +21666,6 @@ objLiteralData
 .
 emplaceBack
 (
-cx
 )
 )
 {
@@ -40727,7 +40727,6 @@ objLiteralData
 .
 emplaceBack
 (
-cx
 )
 )
 {
@@ -40859,6 +40858,7 @@ data
 .
 addAtom
 (
+cx
 key
 -
 >
@@ -40974,6 +40974,7 @@ writer
 .
 propWithUndefinedValue
 (
+cx
 )
 )
 {
@@ -41136,7 +41137,6 @@ objLiteralData
 .
 emplaceBack
 (
-cx
 )
 )
 {
@@ -41306,6 +41306,7 @@ data
 .
 addAtom
 (
+cx
 atom
 &
 propNameIndex
@@ -41338,6 +41339,7 @@ writer
 .
 propWithUndefinedValue
 (
+cx
 )
 )
 {
@@ -41431,7 +41433,6 @@ objLiteralData
 .
 emplaceBack
 (
-cx
 )
 )
 {
@@ -41798,6 +41799,7 @@ writer
 .
 propWithConstNumericValue
 (
+cx
 v
 )
 )
@@ -41834,6 +41836,7 @@ writer
 .
 propWithTrueValue
 (
+cx
 )
 )
 {
@@ -41869,6 +41872,7 @@ writer
 .
 propWithFalseValue
 (
+cx
 )
 )
 {
@@ -41904,6 +41908,7 @@ writer
 .
 propWithNullValue
 (
+cx
 )
 )
 {
@@ -41939,6 +41944,7 @@ writer
 .
 propWithUndefinedValue
 (
+cx
 )
 )
 {
@@ -41987,6 +41993,7 @@ data
 >
 addAtom
 (
+cx
 value
 -
 >
@@ -42021,6 +42028,7 @@ writer
 .
 propWithAtomValue
 (
+cx
 valueAtomIndex
 )
 )
