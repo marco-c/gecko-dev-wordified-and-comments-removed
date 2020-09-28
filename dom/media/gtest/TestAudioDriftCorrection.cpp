@@ -55,19 +55,19 @@ RunUntilCorrectionUpdate
 ClockDrift
 &
 aC
-int
+uint32_t
 aSource
-int
+uint32_t
 aTarget
-int
+uint32_t
 aBuffering
-int
+uint32_t
 aSaturation
-int
+uint32_t
 aSourceOffset
 =
 0
-int
+uint32_t
 aTargetOffset
 =
 0
@@ -81,7 +81,7 @@ correction
 ;
 for
 (
-int
+uint32_t
 s
 =
 aSourceOffset
@@ -186,7 +186,7 @@ Basic
 )
 {
 const
-int
+uint32_t
 buffered
 =
 5
@@ -311,7 +311,7 @@ BasicResampler
 )
 {
 const
-int
+uint32_t
 buffered
 =
 5
@@ -867,7 +867,7 @@ Clamp
 )
 {
 const
-int
+uint32_t
 buffered
 =
 5
@@ -950,7 +950,7 @@ SmallDiff
 )
 {
 const
-int
+uint32_t
 buffered
 =
 5
@@ -1084,7 +1084,7 @@ GetCorrection
 ;
 for
 (
-int
+uint32_t
 i
 =
 0
@@ -1239,7 +1239,7 @@ iter
 ;
 for
 (
-int
+uint32_t
 i
 =
 0
@@ -1332,7 +1332,7 @@ CreateAudioChunk
 (
 uint32_t
 aFrames
-int
+uint32_t
 aChannels
 AudioSampleFormat
 aSampleFormat
@@ -1422,7 +1422,7 @@ sampleRateReceiver
 ;
 for
 (
-int
+uint32_t
 j
 =
 0
@@ -1472,7 +1472,7 @@ sampleRateTransmitter
 }
 for
 (
-int
+uint32_t
 n
 =
 0
@@ -1714,9 +1714,9 @@ testAudioCorrection
 void
 testMonoToStereoInput
 (
-int
+uint32_t
 aSourceRate
-int
+uint32_t
 aTargetRate
 )
 {
@@ -1800,7 +1800,7 @@ sampleRateReceiver
 ;
 for
 (
-int
+uint32_t
 j
 =
 0
@@ -1846,7 +1846,7 @@ sampleRateTransmitter
 }
 for
 (
-int
+uint32_t
 n
 =
 0
@@ -2080,7 +2080,7 @@ sampleRateReceiver
 ;
 for
 (
-int
+uint32_t
 i
 =
 0
@@ -2205,7 +2205,7 @@ sampleRateReceiver
 ;
 for
 (
-int
+uint32_t
 i
 =
 0
