@@ -40,13 +40,14 @@ Firefox
 The
 whole
 process
-is
+can
+be
 a
 bit
 long
 and
 it
-will
+might
 take
 time
 to
