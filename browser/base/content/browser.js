@@ -38980,6 +38980,16 @@ return
 browser
 ;
 }
+getManager
+(
+)
+{
+return
+this
+.
+_dialogManager
+;
+}
 }
 TabDialogBox
 .
