@@ -40,6 +40,13 @@ h
 #
 include
 "
+nsIHttpChannelInternal
+.
+h
+"
+#
+include
+"
 nsINetworkLinkService
 .
 h

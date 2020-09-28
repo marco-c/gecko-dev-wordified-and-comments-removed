@@ -260,16 +260,6 @@ aStatus
 )
 ;
 IPCResult
-RecvFlushedForDiversion
-(
-)
-;
-IPCResult
-RecvDivertMessages
-(
-)
-;
-IPCResult
 RecvNotifyClassificationFlags
 (
 const

@@ -44,10 +44,6 @@ PDNSRequest
 ;
 include
 protocol
-PChannelDiverter
-;
-include
-protocol
 PFileDescriptorSet
 ;
 include
@@ -255,9 +251,6 @@ PSimpleChannel
 ;
 manages
 PFileChannel
-;
-manages
-PChannelDiverter
 ;
 manages
 PTransportProvider
@@ -471,13 +464,6 @@ PFileChannel
 (
 uint32_t
 channelId
-)
-;
-async
-PChannelDiverter
-(
-ChannelDiverterArgs
-channel
 )
 ;
 async
