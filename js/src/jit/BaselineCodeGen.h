@@ -70,6 +70,7 @@ ScriptGCThingType
 {
 Atom
 RegExp
+Object
 Function
 Scope
 BigInt
@@ -1440,12 +1441,6 @@ nslots
 NumSlotsLimit
 ;
 }
-JSObject
-*
-maybeNoCloneSingletonObject
-(
-)
-;
 }
 ;
 using
@@ -1871,16 +1866,6 @@ const
 {
 return
 true
-;
-}
-JSObject
-*
-maybeNoCloneSingletonObject
-(
-)
-{
-return
-nullptr
 ;
 }
 }
