@@ -6855,9 +6855,9 @@ def
 reset
 (
 self
-screenshot
-=
-None
+*
+*
+kwargs
 )
 :
         

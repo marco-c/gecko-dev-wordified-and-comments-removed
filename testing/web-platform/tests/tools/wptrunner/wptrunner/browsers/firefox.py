@@ -1103,11 +1103,13 @@ browser_version
 ]
 =
 run_info_data
-[
+.
+get
+(
 "
 browser_version
 "
-]
+)
     
 return
 executor_kwargs
@@ -1362,12 +1364,9 @@ update
 (
 run_info_browser_version
 (
+*
+*
 kwargs
-[
-"
-binary
-"
-]
 )
 )
     
@@ -1376,7 +1375,9 @@ rv
 def
 run_info_browser_version
 (
-binary
+*
+*
+kwargs
 )
 :
     
@@ -1389,7 +1390,12 @@ mozversion
 .
 get_version
 (
+kwargs
+[
+"
 binary
+"
+]
 )
     
 except
@@ -1408,7 +1414,8 @@ if
 version_info
 :
         
-return
+rv
+=
 {
 "
 browser_build_id
@@ -1423,7 +1430,7 @@ application_buildid
 "
 None
 )
-                
+              
 "
 browser_changeset
 "
@@ -1438,6 +1445,34 @@ application_changeset
 None
 )
 }
+        
+if
+"
+browser_version
+"
+not
+in
+kwargs
+:
+            
+rv
+[
+"
+browser_version
+"
+]
+=
+version_info
+.
+get
+(
+"
+application_version
+"
+)
+        
+return
+rv
     
 return
 {
