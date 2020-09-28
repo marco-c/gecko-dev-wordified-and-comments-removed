@@ -96,6 +96,17 @@ start_tests
 (
 )
 {
+TelemetryTestUtils
+.
+getProcessScalars
+(
+"
+parent
+"
+false
+true
+)
+;
 await
 testMediaInPageScalar
 (
