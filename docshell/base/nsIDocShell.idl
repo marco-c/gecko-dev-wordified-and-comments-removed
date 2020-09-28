@@ -3070,7 +3070,7 @@ history
 /
 readonly
 attribute
-nsIDPtr
+nsIDRef
 historyID
 ;
 /
@@ -3093,7 +3093,7 @@ C
 noscript
 notxpcom
 ]
-nsID
+nsIDRef
 HistoryID
 (
 )

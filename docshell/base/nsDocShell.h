@@ -3449,9 +3449,6 @@ aCommit
 ;
 private
 :
-nsID
-mHistoryID
-;
 nsString
 mTitle
 ;
@@ -3829,6 +3826,11 @@ ifdef
 DEBUG
 bool
 mInEnsureScriptEnv
+;
+uint64_t
+mDocShellID
+=
+0
 ;
 #
 endif
