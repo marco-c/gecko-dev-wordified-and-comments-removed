@@ -7138,7 +7138,7 @@ reasons
 TickReasons
 :
 :
-eHasVisualVieportScrollEvents
+eHasVisualViewportScrollEvents
 ;
 }
 return
@@ -7306,7 +7306,7 @@ aReasons
 TickReasons
 :
 :
-eHasVisualVieportScrollEvents
+eHasVisualViewportScrollEvents
 )
 {
 aStr
@@ -7314,7 +7314,7 @@ aStr
 AppendLiteral
 (
 "
-HasVisualVieportScrollEvents
+HasVisualViewportScrollEvents
 "
 )
 ;

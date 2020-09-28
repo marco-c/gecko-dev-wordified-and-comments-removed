@@ -1232,7 +1232,7 @@ eHasScrollEvents
 <
 <
 4
-eHasVisualVieportScrollEvents
+eHasVisualViewportScrollEvents
 =
 1
 <
