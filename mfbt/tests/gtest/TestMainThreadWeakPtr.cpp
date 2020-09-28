@@ -51,6 +51,7 @@ mNum
 struct
 HasWeakPtrToC
 {
+explicit
 HasWeakPtrToC
 (
 C
