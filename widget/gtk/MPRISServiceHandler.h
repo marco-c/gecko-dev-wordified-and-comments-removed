@@ -76,7 +76,7 @@ h
 "
 #
 define
-DBUS_MRPIS_SERVICE_NAME
+DBUS_MPRIS_SERVICE_NAME
 "
 org
 .
