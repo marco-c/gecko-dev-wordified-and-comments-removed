@@ -48,6 +48,12 @@ defined
 (
 __NR_stat64
 )
+|
+|
+defined
+(
+__NR_fstatat64
+)
 typedef
 struct
 stat64
@@ -70,6 +76,12 @@ elif
 defined
 (
 __NR_stat
+)
+|
+|
+defined
+(
+__NR_newfstatat
 )
 typedef
 struct
