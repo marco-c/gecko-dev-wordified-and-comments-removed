@@ -11,7 +11,7 @@ mozilla
 namespace
 media
 {
-RefPtr
+nsCOMPtr
 <
 nsIAsyncShutdownClient
 >
@@ -37,7 +37,7 @@ MOZ_RELEASE_ASSERT
 svc
 )
 ;
-RefPtr
+nsCOMPtr
 <
 nsIAsyncShutdownClient
 >
