@@ -62,7 +62,6 @@ data
 serialize
 (
 eventName
-extension
 )
 ;
 if
