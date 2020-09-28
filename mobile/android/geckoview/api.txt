@@ -3098,6 +3098,15 @@ LOADED_SOCIALTRACKING_CONTENT
 =
 131072
 ;
+field
+public
+static
+final
+int
+REPLACED_UNSAFE_CONTENT
+=
+16
+;
 }
 Deprecated
 AnyThread

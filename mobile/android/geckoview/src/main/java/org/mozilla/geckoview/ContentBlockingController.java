@@ -1249,6 +1249,14 @@ LOADED_SOCIALTRACKING_CONTENT
 =
 0x00020000
 ;
+public
+static
+final
+int
+REPLACED_UNSAFE_CONTENT
+=
+0x00000010
+;
 protected
 Event
 (
