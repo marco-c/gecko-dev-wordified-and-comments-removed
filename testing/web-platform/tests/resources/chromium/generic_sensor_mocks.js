@@ -2018,6 +2018,17 @@ initialize
 '
 )
 ;
+if
+(
+window
+.
+parent
+=
+=
+=
+window
+)
+{
 for
 (
 const
@@ -2060,7 +2071,7 @@ false
 )
 ;
 }
-;
+}
 testInternal
 .
 sensorProvider
