@@ -598,6 +598,17 @@ browsertime
 package
 .
 json
+path
+:
+tools
+/
+browsertime
+/
+package
+-
+lock
+.
+json
 #
 for
 the
