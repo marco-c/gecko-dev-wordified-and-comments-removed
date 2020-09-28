@@ -2302,6 +2302,17 @@ aException
 aReason
 )
 ;
+return
+;
+}
+else
+{
+aException
+.
+SuppressException
+(
+)
+;
 }
 }
 void
