@@ -409,8 +409,8 @@ ClearThumbnail
 (
 )
 ;
-nsresult
-UpdateThumbnailOnMainThread
+bool
+UpdateThumbnail
 (
 const
 nsAString
