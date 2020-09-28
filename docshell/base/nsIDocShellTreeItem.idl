@@ -812,6 +812,7 @@ binaryname
 (
 InProcessChildCount
 )
+infallible
 ]
 readonly
 attribute

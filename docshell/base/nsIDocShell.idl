@@ -1022,6 +1022,9 @@ changes
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 nsIContentViewer
