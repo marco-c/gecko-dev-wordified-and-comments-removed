@@ -82,7 +82,7 @@ widget
 static
 const
 double
-kTenthMMToPoint
+kPointsPerTenthMM
 =
 72
 .
@@ -1387,7 +1387,7 @@ i
 .
 x
 *
-kTenthMMToPoint
+kPointsPerTenthMM
 ;
 double
 height
@@ -1399,7 +1399,7 @@ i
 .
 y
 *
-kTenthMMToPoint
+kPointsPerTenthMM
 ;
 if
 (
