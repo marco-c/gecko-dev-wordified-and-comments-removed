@@ -347,14 +347,14 @@ randomName
 4
 ]
 ;
-PL_strncpy
+strncpy
 (
 buf
 "
 CN
 =
 "
-3
+4
 )
 ;
 for
