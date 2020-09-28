@@ -3142,19 +3142,6 @@ undef
 )
 ;
 }
-if
-(
-info
-(
-)
-.
-nlocals
-(
-)
->
-0
-)
-{
 for
 (
 uint32_t
@@ -3193,7 +3180,6 @@ i
 undef
 )
 ;
-}
 }
 MOZ_ASSERT
 (
