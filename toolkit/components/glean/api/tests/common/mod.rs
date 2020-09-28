@@ -236,15 +236,5 @@ object
 "
 )
 ;
-let
-_
-=
-fog
-:
-:
-flush_init
-(
-)
-;
 dir
 }

@@ -60,15 +60,6 @@ ipc
 :
 need_ipc
 ;
-use
-std
-:
-:
-sync
-:
-:
-Arc
-;
 pub
 trait
 Sealed
@@ -324,11 +315,6 @@ CounterMetric
 :
 Parent
 (
-Arc
-:
-:
-new
-(
 crate
 :
 :
@@ -341,7 +327,6 @@ counter
 CounterMetricImpl
 (
 metric
-)
 )
 )
 }
