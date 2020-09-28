@@ -19194,6 +19194,9 @@ mReferrerInfo
 }
 }
 }
+return
+NS_OK
+;
 }
 bool
 canReload
