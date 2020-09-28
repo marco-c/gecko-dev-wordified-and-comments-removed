@@ -7187,7 +7187,7 @@ time_unit
 millisecond
 gecko_datapoint
 :
-TIME_TO_LOAD_EVENT_END_NO_PRELOAD_MS
+TIME_TO_LOAD_EVENT_START_NO_PRELOAD_MS
 description
 :
 >
