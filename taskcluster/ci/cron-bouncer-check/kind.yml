@@ -285,12 +285,13 @@ release
 LATEST_FIREFOX_VERSION
 mozilla
 -
-esr68
+esr78
 :
 FIREFOX_ESR
+#
 mozilla
 -
-esr78
+esrXX
 :
 FIREFOX_ESR_NEXT
 default
