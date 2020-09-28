@@ -5042,6 +5042,33 @@ WASM_CXXFLAGS
 '
 )
 )
+            
+(
+'
+NEWPM
+'
+context
+.
+config
+.
+substs
+.
+get
+(
+'
+MOZ_NEW_PASS_MANAGER_FLAGS
+'
+)
+             
+(
+'
+WASM_CFLAGS
+'
+'
+WASM_CXXFLAGS
+'
+)
+)
         
 )
         
