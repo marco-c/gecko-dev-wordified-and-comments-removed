@@ -38,6 +38,11 @@ TestInitializedOnce
 cpp
 '
 '
+TestMainThreadWeakPtr
+.
+cpp
+'
+'
 TestResultExtensions
 .
 cpp
