@@ -981,10 +981,6 @@ equal
 (
 browser
 .
-frameLoader
-.
-remoteTab
-.
 hasBeforeUnload
 expected
 )
