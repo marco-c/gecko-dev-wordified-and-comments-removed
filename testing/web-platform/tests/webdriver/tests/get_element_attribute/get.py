@@ -76,10 +76,40 @@ attr
 )
 )
 def
-test_no_browsing_context
+test_no_top_browsing_context
 (
 session
 closed_window
+)
+:
+    
+response
+=
+get_element_attribute
+(
+session
+"
+foo
+"
+"
+id
+"
+)
+    
+assert_error
+(
+response
+"
+no
+such
+window
+"
+)
+def
+test_no_browsing_context
+(
+session
+closed_frame
 )
 :
     
@@ -288,9 +318,6 @@ click
 )
     
 assert
-True
-=
-=
 session
 .
 execute_script
@@ -309,6 +336,8 @@ input
 checked
 "
 )
+is
+True
     
 result
 =
@@ -448,6 +477,7 @@ ismap
 input
 "
 [
+        
 "
 autofocus
 "
@@ -469,6 +499,7 @@ readonly
 "
 required
 "
+    
 ]
 )
     

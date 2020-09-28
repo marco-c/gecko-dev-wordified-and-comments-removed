@@ -163,10 +163,39 @@ argument
 "
 )
 def
-test_no_browsing_context
+test_no_top_browsing_context
 (
 session
 closed_window
+)
+:
+    
+response
+=
+execute_script
+(
+session
+"
+return
+1
+;
+"
+)
+    
+assert_error
+(
+response
+"
+no
+such
+window
+"
+)
+def
+test_no_browsing_context
+(
+session
+closed_frame
 )
 :
     
@@ -449,14 +478,12 @@ window
 onunload
 "
 )
-;
     
 assert_success
 (
 response
 True
 )
-;
     
 response
 =
