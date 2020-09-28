@@ -72,6 +72,11 @@ cookieStore
 .
 get
 (
+'
+cookie
+-
+name
+'
 )
 ;
 assert_equals
