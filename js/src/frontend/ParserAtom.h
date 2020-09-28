@@ -2259,7 +2259,7 @@ Utf8Unit
 *
 utf8Ptr
 uint32_t
-length
+nbyte
 )
 ;
 JS
