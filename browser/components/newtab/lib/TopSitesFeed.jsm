@@ -3111,6 +3111,14 @@ Map
 (
 )
 ;
+if
+(
+!
+this
+.
+_useRemoteSetting
+)
+{
 for
 (
 let
@@ -3173,6 +3181,7 @@ hostname
 url
 )
 ;
+}
 }
 }
 for
