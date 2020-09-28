@@ -134,6 +134,14 @@ aChannelIndex
 )
 const
 ;
+uint32_t
+InFramesLeftToBuffer
+(
+int
+aChannelIndex
+)
+const
+;
 bool
 Resample
 (
@@ -1068,6 +1076,12 @@ aInSegment
 ;
 int
 InputDuration
+(
+)
+const
+;
+int
+InputRemainingDuration
 (
 )
 const
