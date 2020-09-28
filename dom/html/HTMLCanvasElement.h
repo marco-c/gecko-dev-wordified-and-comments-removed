@@ -113,6 +113,9 @@ LayersTypes
 h
 "
 class
+nsDisplayListBuilder
+;
+class
 nsICanvasRenderingContextInternal
 ;
 class

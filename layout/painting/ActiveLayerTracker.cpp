@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsIScrollableFrame
+.
+h
+"
+#
+include
+"
 nsRefreshDriver
 .
 h

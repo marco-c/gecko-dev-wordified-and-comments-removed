@@ -252,6 +252,13 @@ h
 #
 include
 "
+nsIScrollableFrame
+.
+h
+"
+#
+include
+"
 nsPresContextInlines
 .
 h
