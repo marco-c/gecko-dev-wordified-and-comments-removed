@@ -279,10 +279,6 @@ aSharedStateFrom
 nsIURI
 *
 aURI
-const
-nsID
-&
-aDocShellID
 )
 :
 mURI
