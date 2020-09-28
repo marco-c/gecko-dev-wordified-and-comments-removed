@@ -465,17 +465,12 @@ ion
 true
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 SET_DEFAULT
 (
 typeInference
 true
 )
 ;
-#
-endif
 SET_DEFAULT
 (
 warpBuilder
@@ -1051,9 +1046,6 @@ bool
 enable
 )
 {
-#
-ifdef
-NIGHTLY_BUILD
 typeInference
 =
 !
@@ -1075,8 +1067,6 @@ enable
 :
 1000
 ;
-#
-endif
 }
 void
 DefaultJitOptions
