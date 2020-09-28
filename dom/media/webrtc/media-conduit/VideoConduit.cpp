@@ -1,6 +1,10 @@
 #
 include
 "
+common
+/
+browser_logging
+/
 CSFLog
 .
 h
@@ -50,6 +54,8 @@ h
 #
 include
 "
+common
+/
 YuvStamper
 .
 h

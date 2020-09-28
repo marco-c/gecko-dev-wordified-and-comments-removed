@@ -8,6 +8,8 @@ h
 #
 include
 "
+transport
+/
 logging
 .
 h
@@ -37,6 +39,8 @@ h
 #
 include
 "
+mediapipeline
+/
 MediaPipeline
 .
 h
@@ -99,6 +103,10 @@ h
 #
 include
 "
+media
+-
+conduit
+/
 RtpRtcpConfig
 .
 h
@@ -196,6 +204,10 @@ h
 #
 include
 "
+media
+-
+conduit
+/
 AudioConduit
 .
 h

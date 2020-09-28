@@ -25,16 +25,6 @@ webrtc
 '
 '
 /
-dom
-/
-media
-/
-webrtc
-/
-transport
-'
-'
-/
 media
 /
 webrtc

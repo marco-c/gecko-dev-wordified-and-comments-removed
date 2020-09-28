@@ -106,6 +106,8 @@ h
 #
 include
 "
+peerconnection
+/
 RemoteTrackSource
 .
 h
@@ -285,6 +287,8 @@ h
 #
 include
 "
+transport
+/
 runnable_utils
 .
 h
@@ -308,6 +312,10 @@ h
 #
 include
 "
+media
+-
+conduit
+/
 WebrtcImageBuffer
 .
 h

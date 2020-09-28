@@ -1,6 +1,8 @@
 #
 include
 "
+peerconnection
+/
 TransceiverImpl
 .
 h
@@ -27,6 +29,10 @@ vector
 #
 include
 "
+media
+-
+conduit
+/
 AudioConduit
 .
 h
@@ -34,6 +40,10 @@ h
 #
 include
 "
+media
+-
+conduit
+/
 VideoConduit
 .
 h
@@ -48,6 +58,8 @@ h
 #
 include
 "
+mediapipeline
+/
 MediaPipeline
 .
 h
@@ -55,6 +67,8 @@ h
 #
 include
 "
+mediapipeline
+/
 MediaPipelineFilter
 .
 h
@@ -87,6 +101,8 @@ h
 #
 include
 "
+transport
+/
 logging
 .
 h
@@ -122,14 +138,11 @@ h
 #
 include
 "
+media
+-
+conduit
+/
 RtpRtcpConfig
-.
-h
-"
-#
-include
-"
-MediaConduitInterface
 .
 h
 "
@@ -201,6 +214,10 @@ h
 #
 include
 "
+media
+-
+conduit
+/
 WebrtcGmpVideoCodec
 .
 h

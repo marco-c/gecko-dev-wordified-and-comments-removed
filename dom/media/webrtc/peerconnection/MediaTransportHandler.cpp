@@ -15,6 +15,8 @@ h
 #
 include
 "
+transport
+/
 nricemediastream
 .
 h
@@ -22,6 +24,8 @@ h
 #
 include
 "
+transport
+/
 nriceresolver
 .
 h
@@ -29,6 +33,8 @@ h
 #
 include
 "
+transport
+/
 transportflow
 .
 h
@@ -36,6 +42,8 @@ h
 #
 include
 "
+transport
+/
 transportlayerice
 .
 h
@@ -43,6 +51,8 @@ h
 #
 include
 "
+transport
+/
 transportlayerdtls
 .
 h
@@ -50,6 +60,8 @@ h
 #
 include
 "
+transport
+/
 transportlayersrtp
 .
 h
@@ -96,6 +108,10 @@ h
 #
 include
 "
+common
+/
+browser_logging
+/
 CSFLog
 .
 h
@@ -103,6 +119,8 @@ h
 #
 include
 "
+transport
+/
 rlogconnector
 .
 h
@@ -119,6 +137,8 @@ h
 #
 include
 "
+transport
+/
 runnable_utils
 .
 h

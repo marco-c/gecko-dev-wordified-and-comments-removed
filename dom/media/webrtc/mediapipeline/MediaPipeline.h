@@ -12,6 +12,8 @@ map
 #
 include
 "
+transport
+/
 sigslot
 .
 h
@@ -19,6 +21,8 @@ h
 #
 include
 "
+transport
+/
 transportlayer
 .
 h
@@ -55,6 +59,8 @@ h
 #
 include
 "
+transport
+/
 SrtpFlow
 .
 h
@@ -62,6 +68,8 @@ h
 #
 include
 "
+transport
+/
 mediapacket
 .
 h

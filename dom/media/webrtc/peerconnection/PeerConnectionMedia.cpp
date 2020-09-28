@@ -1,6 +1,10 @@
 #
 include
 "
+common
+/
+browser_logging
+/
 CSFLog
 .
 h
@@ -8,6 +12,8 @@ h
 #
 include
 "
+transport
+/
 nr_socket_proxy_config
 .
 h
@@ -15,6 +21,8 @@ h
 #
 include
 "
+mediapipeline
+/
 MediaPipelineFilter
 .
 h
@@ -22,6 +30,8 @@ h
 #
 include
 "
+mediapipeline
+/
 MediaPipeline
 .
 h
@@ -50,6 +60,8 @@ h
 #
 include
 "
+transport
+/
 runnable_utils
 .
 h
@@ -182,6 +194,10 @@ h
 #
 include
 "
+media
+-
+conduit
+/
 WebrtcGmpVideoCodec
 .
 h
