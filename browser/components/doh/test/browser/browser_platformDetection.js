@@ -79,7 +79,7 @@ Ci
 .
 nsINetworkLinkService
 .
-NS_NETWORK_LINK_TYPE_WIFI
+LINK_TYPE_WIFI
 networkID
 :
 "
