@@ -2195,13 +2195,6 @@ allowFullscreen
 CEReactions
 ]
 attribute
-boolean
-allowPaymentRequest
-;
-[
-CEReactions
-]
-attribute
 DOMString
 width
 ;
