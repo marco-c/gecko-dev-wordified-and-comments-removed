@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 FrameLayerBuilder
 .
 h

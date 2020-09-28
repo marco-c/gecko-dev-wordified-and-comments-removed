@@ -75,6 +75,14 @@ EnumSet
 ComputeSizeFlag
 >
 ;
+enum
+class
+IntrinsicISizeType
+{
+MinISize
+PrefISize
+}
+;
 }
 #
 endif

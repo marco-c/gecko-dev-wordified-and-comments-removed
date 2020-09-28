@@ -27,6 +27,13 @@ h
 #
 include
 "
+gfxUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 PresShell

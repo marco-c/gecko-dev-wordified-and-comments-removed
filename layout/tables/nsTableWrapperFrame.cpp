@@ -1639,9 +1639,6 @@ break
 default
 :
 {
-nsLayoutUtils
-:
-:
 IntrinsicISizeType
 iwt
 ;

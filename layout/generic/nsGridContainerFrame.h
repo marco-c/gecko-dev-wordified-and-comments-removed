@@ -1364,13 +1364,6 @@ mozilla
 WritingMode
 WritingMode
 ;
-typedef
-nsLayoutUtils
-:
-:
-IntrinsicISizeType
-IntrinsicISizeType
-;
 struct
 Grid
 ;
@@ -1529,6 +1522,9 @@ IntrinsicISize
 gfxContext
 *
 aRenderingContext
+mozilla
+:
+:
 IntrinsicISizeType
 aConstraint
 )

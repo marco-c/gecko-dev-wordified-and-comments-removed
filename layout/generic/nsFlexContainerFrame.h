@@ -1236,7 +1236,7 @@ IntrinsicISize
 gfxContext
 *
 aRenderingContext
-nsLayoutUtils
+mozilla
 :
 :
 IntrinsicISizeType
