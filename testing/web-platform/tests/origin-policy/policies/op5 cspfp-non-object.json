@@ -38,15 +38,7 @@ features
 "
 camera
 '
-self
+none
 '
-https
-:
-/
-/
-example
-.
-com
-/
 "
 }

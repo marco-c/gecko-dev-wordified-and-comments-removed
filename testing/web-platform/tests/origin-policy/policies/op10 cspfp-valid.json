@@ -54,16 +54,8 @@ policy
 "
 camera
 '
-self
+none
 '
-https
-:
-/
-/
-example
-.
-com
-/
 ;
 geolocation
 '
