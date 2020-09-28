@@ -106,6 +106,15 @@ include
 "
 mozilla
 /
+ToString
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TouchEvents
 .
 h
@@ -1734,7 +1743,7 @@ s
 n
 "
 aInputBlockId
-Stringify
+ToString
 (
 aGuid
 )
@@ -2533,7 +2542,7 @@ s
 n
 "
 aPreventDefault
-Stringify
+ToString
 (
 mPendingTouchPreventedGuid
 )

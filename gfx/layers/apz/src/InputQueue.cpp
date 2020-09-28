@@ -40,6 +40,15 @@ h
 #
 include
 "
+mozilla
+/
+ToString
+.
+h
+"
+#
+include
+"
 OverscrollHandoffState
 .
 h
@@ -4040,7 +4049,7 @@ n
 aInputBlockId
 aTargetApzc
 ?
-Stringify
+ToString
 (
 aTargetApzc
 -
@@ -4220,7 +4229,7 @@ n
 aInputBlockId
 aTargetApzc
 ?
-Stringify
+ToString
 (
 aTargetApzc
 -

@@ -64,6 +64,15 @@ h
 #
 include
 "
+mozilla
+/
+ToString
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h
@@ -2019,7 +2028,7 @@ get
 )
 mApzc
 ?
-Stringify
+ToString
 (
 mApzc
 -
