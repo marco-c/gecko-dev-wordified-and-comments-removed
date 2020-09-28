@@ -2406,6 +2406,11 @@ mHadNonInitialReflow
 1
 ;
 bool
+mFirstReflow
+:
+1
+;
+bool
 mHorizontalOverflow
 :
 1

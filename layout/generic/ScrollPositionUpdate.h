@@ -69,6 +69,8 @@ NewScrollframe
 (
 uint32_t
 aGeneration
+nsPoint
+aInitialPosition
 )
 ;
 static
