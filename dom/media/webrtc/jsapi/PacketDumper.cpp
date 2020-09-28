@@ -1,7 +1,7 @@
 #
 include
 "
-peerconnection
+jsapi
 /
 PacketDumper
 .
@@ -10,7 +10,7 @@ h
 #
 include
 "
-peerconnection
+jsapi
 /
 PeerConnectionImpl
 .

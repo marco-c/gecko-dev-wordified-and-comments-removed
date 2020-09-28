@@ -1232,9 +1232,9 @@ media
 /
 webrtc
 /
-libwebrtcglue
+jsapi
 /
-VideoConduit
+PeerConnectionMedia
 .
 cpp
 -
@@ -1244,9 +1244,9 @@ media
 /
 webrtc
 /
-peerconnection
+libwebrtcglue
 /
-PeerConnectionMedia
+VideoConduit
 .
 cpp
 -

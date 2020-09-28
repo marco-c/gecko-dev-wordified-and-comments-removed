@@ -7,7 +7,7 @@ _MTRANSPORTHANDLER_IPC_H__
 #
 include
 "
-peerconnection
+jsapi
 /
 MediaTransportHandler
 .

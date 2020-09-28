@@ -340,7 +340,7 @@ media
 /
 webrtc
 /
-libwebrtcglue
+jsapi
 '
 '
 /
@@ -350,7 +350,7 @@ media
 /
 webrtc
 /
-peerconnection
+libwebrtcglue
 '
 '
 /

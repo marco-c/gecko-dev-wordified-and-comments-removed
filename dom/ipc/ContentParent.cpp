@@ -1994,7 +1994,7 @@ MOZ_WEBRTC
 #
 include
 "
-peerconnection
+jsapi
 /
 WebrtcGlobalParent
 .
