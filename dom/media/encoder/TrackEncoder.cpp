@@ -101,13 +101,6 @@ DEFAULT_CHANNELS
 static
 const
 int
-DEFAULT_SAMPLING_RATE
-=
-16000
-;
-static
-const
-int
 DEFAULT_FRAME_WIDTH
 =
 640
@@ -1225,7 +1218,7 @@ mInitialized
 Init
 (
 DEFAULT_CHANNELS
-DEFAULT_SAMPLING_RATE
+mTrackRate
 )
 ;
 }
