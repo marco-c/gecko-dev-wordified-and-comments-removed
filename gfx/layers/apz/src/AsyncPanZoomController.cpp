@@ -15806,7 +15806,7 @@ time
 f
 metrics
 "
-Stringify
+ToString
 (
 displayPort
 )
@@ -18336,7 +18336,7 @@ s
 )
 "
 this
-Stringify
+ToString
 (
 painted
 )
@@ -18344,7 +18344,7 @@ painted
 c_str
 (
 )
-Stringify
+ToString
 (
 visible
 )
