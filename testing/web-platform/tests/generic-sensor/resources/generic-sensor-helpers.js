@@ -241,17 +241,6 @@ loadChromiumResources
 ;
 }
 }
-assert_implements
-(
-GenericSensorTest
-'
-GenericSensorTest
-is
-unavailable
-.
-'
-)
-;
 let
 sensorTest
 =
