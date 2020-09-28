@@ -229,6 +229,8 @@ crashed
 send
 -
 report
+-
+2
 =
 Send
 an
@@ -242,7 +244,6 @@ fix
 issues
 like
 this
-.
 crashed
 -
 comment
@@ -263,6 +264,8 @@ crashed
 include
 -
 URL
+-
+2
 =
 Include
 the
@@ -283,7 +286,6 @@ short
 name
 }
 crashed
-.
 crashed
 -
 email
@@ -354,6 +356,8 @@ auto
 submit
 -
 checkbox
+-
+2
 =
 Update
 preferences
@@ -371,4 +375,3 @@ short
 name
 }
 crashes
-.
