@@ -11,3 +11,13 @@ js
 '
 )
 ;
+postMessage
+(
+'
+after
+importScripts
+(
+)
+'
+)
+;
