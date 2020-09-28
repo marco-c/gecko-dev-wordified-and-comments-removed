@@ -5638,7 +5638,7 @@ refresh
 class
 TestTLSNavigation
 (
-MarionetteTestCase
+BaseNavigationTestCase
 )
 :
     
@@ -5739,6 +5739,14 @@ self
 marionette
 .
 delete_session
+(
+)
+            
+self
+.
+marionette
+.
+start_session
 (
 )
         
