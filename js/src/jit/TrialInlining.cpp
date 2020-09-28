@@ -2159,6 +2159,12 @@ JSOp
 :
 New
 :
+case
+JSOp
+:
+:
+SuperCall
+:
 if
 (
 !

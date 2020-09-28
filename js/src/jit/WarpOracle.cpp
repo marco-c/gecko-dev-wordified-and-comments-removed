@@ -3085,6 +3085,12 @@ case
 JSOp
 :
 :
+SuperCall
+:
+case
+JSOp
+:
+:
 SpreadCall
 :
 case
@@ -3831,12 +3837,6 @@ JSOp
 :
 :
 IsNoIter
-:
-case
-JSOp
-:
-:
-SuperCall
 :
 case
 JSOp
