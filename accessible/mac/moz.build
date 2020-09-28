@@ -26,6 +26,11 @@ HyperTextAccessibleWrap
 .
 h
 '
+'
+RangeTypes
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +

@@ -122,13 +122,10 @@ Previous
 )
 ;
 GeckoTextMarkerRange
-LeftWordRange
+Range
 (
-)
-;
-GeckoTextMarkerRange
-RightWordRange
-(
+EWhichRange
+aRangeType
 )
 ;
 AccessibleOrProxy
