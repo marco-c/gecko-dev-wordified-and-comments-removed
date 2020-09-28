@@ -1314,5 +1314,12 @@ ROLE_TIME_EDITOR
 =
 183
 ;
+const
+unsigned
+long
+ROLE_LISTITEM_MARKER
+=
+184
+;
 }
 ;
