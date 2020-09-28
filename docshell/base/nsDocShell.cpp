@@ -57201,9 +57201,13 @@ loadingEntry
 ;
 mActiveEntryIsLoadingFromSessionHistory
 =
-!
-!
 mLoadingEntry
+&
+&
+mLoadingEntry
+-
+>
+mLoadIsFromSessionHistory
 ;
 if
 (
