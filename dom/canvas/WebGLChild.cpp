@@ -320,6 +320,19 @@ flushedCmdBytes
 =
 byteSize
 ;
+if
+(
+gl
+:
+:
+GLContext
+:
+:
+ShouldSpew
+(
+)
+)
+{
 printf_stderr
 (
 "
@@ -351,6 +364,7 @@ mFlushedCmdInfo
 flushes
 )
 ;
+}
 }
 mozilla
 :
