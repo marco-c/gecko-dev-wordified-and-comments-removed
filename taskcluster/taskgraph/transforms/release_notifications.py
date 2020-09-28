@@ -332,7 +332,6 @@ email
 .
 {
 }
-}
 '
 .
 format
