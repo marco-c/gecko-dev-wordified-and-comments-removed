@@ -14750,6 +14750,8 @@ isSaturating
 MDefinition
 *
 input
+=
+nullptr
 ;
 if
 (
@@ -14827,6 +14829,10 @@ isAsmJS
 if
 (
 input
+&
+&
+(
+input
 -
 >
 type
@@ -14852,6 +14858,7 @@ MIRType
 :
 :
 Float32
+)
 )
 {
 f
