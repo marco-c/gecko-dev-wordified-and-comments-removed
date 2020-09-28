@@ -1516,6 +1516,12 @@ defined
 JS_JITSPEW
 )
 void
+dump
+(
+)
+const
+;
+void
 dumpCharsNoQuote
 (
 js
