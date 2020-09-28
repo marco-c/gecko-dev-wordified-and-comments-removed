@@ -568,7 +568,7 @@ aContext
 AudioNode
 (
 aContext
-1
+2
 ChannelCountMode
 :
 :
