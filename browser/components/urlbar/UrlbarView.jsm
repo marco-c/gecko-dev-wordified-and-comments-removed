@@ -1664,14 +1664,6 @@ if
 !
 this
 .
-input
-.
-isPrivate
-&
-&
-!
-this
-.
 isOpen
 &
 &
