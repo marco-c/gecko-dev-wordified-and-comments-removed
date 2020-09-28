@@ -589,11 +589,13 @@ foo
 example
 .
 com
+.
 bar
 .
 example
 .
 com
+.
 "
 )
 ;
@@ -622,6 +624,7 @@ perf
 test
 .
 net
+.
 "
 )
 ;

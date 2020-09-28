@@ -112,6 +112,7 @@ foo
 example
 .
 com
+.
 "
 )
 ;
@@ -131,6 +132,7 @@ bar
 example
 .
 com
+.
 "
 )
 ;
@@ -425,6 +427,7 @@ perf
 test
 .
 net
+.
 "
 )
 ;
@@ -470,6 +473,7 @@ perf
 test
 .
 net
+.
 "
 )
 )
@@ -667,6 +671,7 @@ perf
 test
 .
 net
+.
 "
 )
 ;
@@ -710,6 +715,7 @@ foo
 example
 .
 com
+.
 "
 )
 )
@@ -741,6 +747,7 @@ bar
 example
 .
 com
+.
 "
 )
 )
@@ -1030,6 +1037,7 @@ foo
 example
 .
 com
+.
 "
 )
 ;
@@ -1049,6 +1057,7 @@ bar
 example
 .
 com
+.
 "
 )
 ;
