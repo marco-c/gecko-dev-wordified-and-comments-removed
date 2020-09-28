@@ -489,14 +489,6 @@ ALIAS
 await
 UrlbarTestUtils
 .
-promiseSearchComplete
-(
-window
-)
-;
-await
-UrlbarTestUtils
-.
 assertSearchMode
 (
 window
@@ -590,7 +582,6 @@ UrlbarTestUtils
 promiseSearchComplete
 (
 window
-2
 )
 ;
 EventUtils
@@ -685,14 +676,6 @@ ALIAS
 query
 "
 }
-)
-;
-await
-UrlbarTestUtils
-.
-promiseSearchComplete
-(
-window
 )
 ;
 await

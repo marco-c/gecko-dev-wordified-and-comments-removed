@@ -1119,7 +1119,6 @@ UrlbarTestUtils
 promiseSearchComplete
 (
 win
-2
 )
 ;
 EventUtils
