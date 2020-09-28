@@ -429,6 +429,14 @@ false
 "
 update2
 .
+restyleBrowsingHistoryAsSearch
+"
+true
+]
+[
+"
+update2
+.
 tabToComplete
 "
 false
