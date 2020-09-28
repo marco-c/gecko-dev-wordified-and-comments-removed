@@ -2,6 +2,11 @@ skip_on
 (
 android
 )
+fuzzy
+(
+1
+1
+)
 =
 =
 rounded

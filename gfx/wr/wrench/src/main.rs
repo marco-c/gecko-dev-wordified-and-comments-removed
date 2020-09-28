@@ -4811,16 +4811,10 @@ OUTPUT
 .
 map
 (
-|
-s
-|
 PathBuf
 :
 :
 from
-(
-s
-)
 )
 ;
 let

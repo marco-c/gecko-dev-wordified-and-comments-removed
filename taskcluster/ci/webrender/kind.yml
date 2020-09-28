@@ -729,6 +729,12 @@ linux64
 -
 clang
 -
+11
+-
+macosx
+-
+cross
+-
 linux64
 -
 llvm

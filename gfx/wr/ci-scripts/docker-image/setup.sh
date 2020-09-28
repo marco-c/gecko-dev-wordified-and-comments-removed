@@ -141,6 +141,10 @@ libx11
 -
 dev
 \
+llvm
+-
+dev
+\
 ninja
 -
 build

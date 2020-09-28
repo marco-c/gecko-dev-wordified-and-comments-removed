@@ -484,7 +484,7 @@ GALLIUM_DRIVER
 ]
 =
 "
-softpipe
+llvmpipe
 "
     
 if
@@ -840,4 +840,9 @@ subprocess
 check_call
 (
 cmd
+stderr
+=
+subprocess
+.
+STDOUT
 )

@@ -854,6 +854,11 @@ clip
 2
 .
 png
+fuzzy
+(
+1
+23
+)
 platform
 (
 linux
@@ -1345,8 +1350,8 @@ mac
 =
 fuzzy
 (
-4
-28250
+5
+35250
 )
 svg
 -
