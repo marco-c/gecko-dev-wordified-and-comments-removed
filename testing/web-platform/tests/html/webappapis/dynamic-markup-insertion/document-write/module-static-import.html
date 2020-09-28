@@ -120,6 +120,10 @@ step_func
 =
 >
 {
+testEndWasCalled
+=
+true
+;
 assert_equals
 (
 iframe
@@ -137,10 +141,6 @@ contents
 n
 "
 )
-;
-testEndWasCalled
-=
-true
 ;
 }
 )
@@ -162,6 +162,12 @@ step_func_done
 assert_true
 (
 testEndWasCalled
+"
+onload
+must
+be
+called
+"
 )
 ;
 assert_equals

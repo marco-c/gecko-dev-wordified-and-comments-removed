@@ -154,6 +154,10 @@ step_func
 =
 >
 {
+onLoadWasCalled
+=
+true
+;
 assert_equals
 (
 iframe
@@ -178,10 +182,6 @@ onload
 =
 null
 ;
-onLoadWasCalled
-=
-true
-;
 }
 )
 ;
@@ -204,6 +204,12 @@ step_func_done
 assert_true
 (
 onLoadWasCalled
+"
+onload
+must
+be
+called
+"
 )
 ;
 assert_equals
@@ -216,7 +222,9 @@ body
 .
 textContent
 "
-Initial
+document
+.
+write
 body
 contents
 \
