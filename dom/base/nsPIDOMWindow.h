@@ -437,6 +437,12 @@ HasActiveDocument
 (
 )
 ;
+bool
+IsFullyActive
+(
+)
+const
+;
 inline
 bool
 IsTopInnerWindow
