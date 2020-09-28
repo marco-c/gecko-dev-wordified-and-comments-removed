@@ -4,7 +4,9 @@ strict
 "
 ;
 const
-MDNCompatibility
+{
+COMPATIBILITY_ISSUE_TYPE
+}
 =
 require
 (
@@ -13,9 +15,7 @@ devtools
 /
 shared
 /
-compatibility
-/
-MDNCompatibility
+constants
 "
 )
 ;
@@ -47,9 +47,7 @@ ISSUE_CURSOR
 {
 type
 :
-MDNCompatibility
-.
-ISSUE_TYPE
+COMPATIBILITY_ISSUE_TYPE
 .
 CSS_PROPERTY
 property
@@ -92,9 +90,7 @@ ISSUE_HYPHENS
 {
 type
 :
-MDNCompatibility
-.
-ISSUE_TYPE
+COMPATIBILITY_ISSUE_TYPE
 .
 CSS_PROPERTY_ALIASES
 aliases
