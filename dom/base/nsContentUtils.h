@@ -5332,9 +5332,15 @@ static
 bool
 IsInPointerLockContext
 (
-nsPIDOMWindowOuter
+mozilla
+:
+:
+dom
+:
+:
+BrowsingContext
 *
-aWin
+aContext
 )
 ;
 static
