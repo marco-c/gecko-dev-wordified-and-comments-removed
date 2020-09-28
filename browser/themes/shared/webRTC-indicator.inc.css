@@ -1055,10 +1055,7 @@ root
 not
 (
 :
--
-moz
--
-any
+is
 (
 [
 sharingscreen
@@ -1081,10 +1078,7 @@ root
 not
 (
 :
--
-moz
--
-any
+is
 (
 [
 sharingscreen
@@ -1156,10 +1150,7 @@ root
 not
 (
 :
--
-moz
--
-any
+is
 (
 [
 sharingvideo
@@ -1182,10 +1173,7 @@ root
 not
 (
 :
--
-moz
--
-any
+is
 (
 [
 sharingvideo

@@ -4,10 +4,7 @@ if
 %
 endif
 :
--
-moz
--
-any
+is
 (
 [
 when
@@ -707,10 +704,7 @@ securityView
 -
 body
 :
--
-moz
--
-any
+is
 (
 [
 mixedcontent

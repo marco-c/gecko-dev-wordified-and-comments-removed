@@ -5014,10 +5014,7 @@ isMultiline
 not
 (
 :
--
-moz
--
-any
+is
 (
 [
 hidden
