@@ -616,7 +616,7 @@ endif
 rustflags_sancov
 =
 ifdef
-FUZZING_INTERFACES
+LIBFUZZER
 ifndef
 MOZ_TSAN
 #

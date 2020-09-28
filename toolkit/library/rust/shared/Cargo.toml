@@ -1741,7 +1741,7 @@ new_cert_storage
 cert_storage
 "
 ]
-fuzzing_interfaces
+libfuzzer
 =
 [
 ]

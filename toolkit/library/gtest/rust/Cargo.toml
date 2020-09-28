@@ -275,7 +275,7 @@ shared
 new_cert_storage
 "
 ]
-fuzzing_interfaces
+libfuzzer
 =
 [
 "
@@ -283,7 +283,7 @@ gkrust
 -
 shared
 /
-fuzzing_interfaces
+libfuzzer
 "
 "
 gecko
