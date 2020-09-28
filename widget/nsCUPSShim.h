@@ -100,6 +100,11 @@ cupsDoRequest
 \
 X
 (
+cupsFindDestDefault
+)
+\
+X
+(
 cupsFreeDestInfo
 )
 \
@@ -121,6 +126,11 @@ cupsGetDestMediaCount
 X
 (
 cupsGetDestMediaByIndex
+)
+\
+X
+(
+cupsGetDestMediaByName
 )
 \
 X
