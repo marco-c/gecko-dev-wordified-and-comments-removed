@@ -103,13 +103,13 @@ tearDown
 )
     
 def
-testShouldReturnTheSizeOfAnInput
+test_payload
 (
 self
 )
 :
         
-shrinko
+rect
 =
 self
 .
@@ -124,10 +124,6 @@ ID
 textInput
 '
 )
-        
-size
-=
-shrinko
 .
 rect
         
@@ -135,7 +131,35 @@ self
 .
 assertTrue
 (
-size
+rect
+[
+'
+x
+'
+]
+>
+0
+)
+        
+self
+.
+assertTrue
+(
+rect
+[
+'
+y
+'
+]
+>
+0
+)
+        
+self
+.
+assertTrue
+(
+rect
 [
 '
 width
@@ -149,7 +173,7 @@ self
 .
 assertTrue
 (
-size
+rect
 [
 '
 height
