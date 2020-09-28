@@ -986,6 +986,13 @@ DocshellID
 )
 const
 ;
+void
+SetIsDynamicallyAdded
+(
+bool
+aDynamic
+)
+;
 static
 SessionHistoryEntry
 *
