@@ -312,4 +312,15 @@ id
 )
 element
 ;
+-
+(
+void
+)
+moxSetSelectedTextMarkerRange
+:
+(
+id
+)
+textMarkerRange
+;
 end

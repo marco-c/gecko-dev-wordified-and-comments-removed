@@ -320,6 +320,13 @@ Bounds
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+void
+Select
+(
+)
+const
+;
 GeckoTextMarker
 mStart
 ;
