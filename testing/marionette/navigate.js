@@ -640,6 +640,11 @@ PageLoadStrategy
 None
 )
 {
+await
+callback
+(
+)
+;
 return
 Promise
 .
