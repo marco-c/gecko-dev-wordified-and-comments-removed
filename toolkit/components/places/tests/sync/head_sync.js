@@ -341,7 +341,7 @@ Log
 .
 Level
 .
-Error
+All
 ;
 let
 sqliteLog
