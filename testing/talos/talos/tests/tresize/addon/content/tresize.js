@@ -9,12 +9,12 @@ locationSearch
 const
 INCREMENT
 =
-2
+3
 ;
 const
 MAX
 =
-300
+200
 ;
 function
 measurePaintTime
