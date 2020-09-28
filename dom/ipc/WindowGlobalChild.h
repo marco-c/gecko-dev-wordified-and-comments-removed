@@ -356,6 +356,11 @@ Document
 aNewDocument
 )
 ;
+bool
+SameOriginWithTop
+(
+)
+;
 nsISupports
 *
 GetParentObject
