@@ -204,7 +204,7 @@ tagName
 ;
 if
 (
-setAllowPaymentRequest
+setAllowPayment
 )
 {
 elm
@@ -212,9 +212,10 @@ elm
 setAttribute
 (
 "
-allowpaymentrequest
+allow
 "
 "
+payment
 "
 )
 ;
