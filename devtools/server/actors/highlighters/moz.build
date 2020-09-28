@@ -24,15 +24,6 @@ js
 box
 -
 model
--
-renderer
-.
-js
-'
-'
-box
--
-model
 .
 js
 '
