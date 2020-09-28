@@ -132,6 +132,11 @@ MediaEngineWebRTC
 .
 h
 '
+'
+MediaEngineWebRTCAudio
+.
+h
+'
 ]
 EXPORTS
 .
