@@ -192,7 +192,6 @@ FontList
 void
 SetFamilyNames
 (
-const
 nsTArray
 <
 Family

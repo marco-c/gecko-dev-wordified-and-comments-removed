@@ -9273,17 +9273,6 @@ FindFonts
 (
 )
 ;
-ApplyWhitelist
-(
-mFamilyInitData
-)
-;
-mFamilyInitData
-.
-Sort
-(
-)
-;
 mozilla
 :
 :

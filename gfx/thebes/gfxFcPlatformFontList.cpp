@@ -8236,17 +8236,6 @@ true
 ;
 #
 endif
-ApplyWhitelist
-(
-families
-)
-;
-families
-.
-Sort
-(
-)
-;
 mozilla
 :
 :
