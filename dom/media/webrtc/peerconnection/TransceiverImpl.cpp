@@ -29,9 +29,7 @@ vector
 #
 include
 "
-media
--
-conduit
+libwebrtcglue
 /
 AudioConduit
 .
@@ -40,9 +38,7 @@ h
 #
 include
 "
-media
--
-conduit
+libwebrtcglue
 /
 VideoConduit
 .
@@ -138,9 +134,7 @@ h
 #
 include
 "
-media
--
-conduit
+libwebrtcglue
 /
 RtpRtcpConfig
 .
@@ -214,9 +208,7 @@ h
 #
 include
 "
-media
--
-conduit
+libwebrtcglue
 /
 WebrtcGmpVideoCodec
 .

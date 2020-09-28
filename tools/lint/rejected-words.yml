@@ -1232,9 +1232,7 @@ media
 /
 webrtc
 /
-media
--
-conduit
+libwebrtcglue
 /
 VideoConduit
 .

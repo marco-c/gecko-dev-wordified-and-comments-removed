@@ -153,9 +153,7 @@ h
 #
 include
 "
-media
--
-conduit
+libwebrtcglue
 /
 AudioConduit
 .
@@ -164,9 +162,7 @@ h
 #
 include
 "
-media
--
-conduit
+libwebrtcglue
 /
 VideoConduit
 .

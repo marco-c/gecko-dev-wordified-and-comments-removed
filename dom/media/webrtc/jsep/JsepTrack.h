@@ -107,9 +107,7 @@ h
 #
 include
 "
-media
--
-conduit
+libwebrtcglue
 /
 RtpRtcpConfig
 .

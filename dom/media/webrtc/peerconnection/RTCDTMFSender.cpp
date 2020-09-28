@@ -8,9 +8,7 @@ h
 #
 include
 "
-media
--
-conduit
+libwebrtcglue
 /
 MediaConduitInterface
 .

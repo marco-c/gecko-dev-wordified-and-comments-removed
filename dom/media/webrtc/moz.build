@@ -106,9 +106,7 @@ with
 Files
 (
 '
-media
--
-conduit
+libwebrtcglue
 /
 *
 *
@@ -413,9 +411,7 @@ common
 jsep
 '
 '
-media
--
-conduit
+libwebrtcglue
 '
 '
 mediapipeline
