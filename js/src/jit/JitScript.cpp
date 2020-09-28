@@ -1684,10 +1684,10 @@ inlinedChildren_
 {
 inlinedChildren_
 =
-js
-:
-:
-MakeUnique
+cx
+-
+>
+make_unique
 <
 Vector
 <
