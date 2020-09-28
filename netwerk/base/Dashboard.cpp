@@ -79,6 +79,13 @@ h
 #
 include
 "
+nsIDNSListener
+.
+h
+"
+#
+include
+"
 nsIDNSService
 .
 h
