@@ -2682,16 +2682,6 @@ recordSearchMode
 searchMode
 )
 {
-if
-(
-searchMode
-.
-isPreview
-)
-{
-return
-;
-}
 let
 scalarKey
 ;

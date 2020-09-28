@@ -18643,12 +18643,6 @@ if
 gURLBar
 .
 value
-&
-&
-!
-gURLBar
-.
-searchMode
 )
 {
 this

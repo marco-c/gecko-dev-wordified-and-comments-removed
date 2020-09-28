@@ -2138,12 +2138,6 @@ expectedSearchMode
 engineName
 &
 &
-!
-expectedSearchMode
-.
-isPreview
-&
-&
 this
 .
 isPopupOpen
