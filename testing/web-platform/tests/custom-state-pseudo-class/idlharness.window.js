@@ -20,6 +20,11 @@ class
 '
 html
 '
+'
+wai
+-
+aria
+'
 ]
 idl_array
 =
