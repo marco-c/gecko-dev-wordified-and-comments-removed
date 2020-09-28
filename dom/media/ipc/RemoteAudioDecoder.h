@@ -64,8 +64,8 @@ aOptions
 MediaResult
 ProcessOutput
 (
-const
 DecodedOutputIPDL
+&
 &
 aDecodedData
 )
