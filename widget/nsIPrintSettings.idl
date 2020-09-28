@@ -503,16 +503,10 @@ attribute
 double
 scaling
 ;
-[
-infallible
-]
 attribute
 boolean
 printBGColors
 ;
-[
-infallible
-]
 attribute
 boolean
 printBGImages
