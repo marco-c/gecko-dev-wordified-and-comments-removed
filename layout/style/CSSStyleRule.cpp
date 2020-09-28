@@ -407,6 +407,10 @@ GetParsingEnvironmentForRule
 Rule
 (
 )
+CSSRule_Binding
+:
+:
+STYLE_RULE
 )
 ;
 }

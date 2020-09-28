@@ -1733,6 +1733,7 @@ Clone
 Copy
 Debug
 Eq
+FromPrimitive
 PartialEq
 )
 ]

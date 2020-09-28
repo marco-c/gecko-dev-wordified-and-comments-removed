@@ -161,6 +161,9 @@ mCompatMode
 aParsingEnvironment
 .
 mLoader
+aParsingEnvironment
+.
+mRuleType
 )
 .
 Consume
@@ -359,8 +362,7 @@ aDocument
 )
 {
 return
-ParsingEnvironment
-(
+{
 GetURLExtraData
 (
 aDocument
@@ -377,6 +379,6 @@ aDocument
 CSSLoader
 (
 )
-)
+}
 ;
 }

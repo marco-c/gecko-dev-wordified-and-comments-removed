@@ -239,6 +239,10 @@ return
 GetParsingEnvironmentForRule
 (
 mRule
+CSSRule_Binding
+:
+:
+KEYFRAME_RULE
 )
 ;
 }
