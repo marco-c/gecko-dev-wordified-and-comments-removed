@@ -102,6 +102,9 @@ import
 logging
         
 import
+os
+        
+import
 shutil
         
 import
@@ -299,16 +302,9 @@ freebsd
 )
 :
             
-command
-.
-append
-(
-"
--
--
-user
-"
-)
+platform_prefers_user_install
+=
+True
         
 elif
 sys
@@ -323,7 +319,9 @@ darwin
 )
 :
             
-pass
+platform_prefers_user_install
+=
+False
         
 elif
 sys
@@ -349,7 +347,9 @@ msys
 )
 :
             
-pass
+platform_prefers_user_install
+=
+False
         
 else
 :
@@ -382,6 +382,11 @@ per
 -
 user
 installation
+is
+"
+                
+"
+preferred
 .
 "
                 
@@ -391,6 +396,26 @@ sys
 platform
             
 )
+            
+platform_prefers_user_install
+=
+True
+        
+if
+platform_prefers_user_install
+and
+not
+os
+.
+environ
+.
+get
+(
+'
+VIRTUAL_ENV
+'
+)
+:
             
 command
 .
