@@ -7363,7 +7363,6 @@ return
 mIsStaticDocument
 ;
 }
-virtual
 already_AddRefed
 <
 Document

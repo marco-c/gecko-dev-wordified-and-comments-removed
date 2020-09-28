@@ -58042,11 +58042,10 @@ get
 ;
 SetContainer
 (
-static_cast
-<
 nsDocShell
-*
->
+:
+:
+Cast
 (
 aCloneContainer
 )
