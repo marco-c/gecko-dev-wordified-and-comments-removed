@@ -112,6 +112,11 @@ TimeStamp_windows
 .
 h
 '
+'
+WindowsDpiAwareness
+.
+h
+'
 ]
 SOURCES
 +
