@@ -35,6 +35,7 @@ TypeError
 )
 =
 >
+new
 WebAssembly
 .
 Table
@@ -45,7 +46,8 @@ argument
 ;
 }
 "
-Supplying
+Initializing
+with
 both
 initial
 and
@@ -103,11 +105,8 @@ length
 ;
 }
 "
-Basic
-(
-zero
+Zero
 minimum
-)
 "
 )
 ;
@@ -161,13 +160,10 @@ length
 ;
 }
 "
-Basic
-(
-non
+Non
 -
 zero
 minimum
-)
 "
 )
 ;
