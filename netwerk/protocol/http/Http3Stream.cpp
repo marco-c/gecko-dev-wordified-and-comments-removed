@@ -2047,7 +2047,6 @@ Refused0RTT
 )
 ;
 }
-}
 mSendState
 =
 PREPARING_HEADERS
@@ -2092,6 +2091,7 @@ mFin
 =
 false
 ;
+}
 return
 rv
 ;
