@@ -52,13 +52,6 @@ h
 #
 include
 "
-nsLayoutUtils
-.
-h
-"
-#
-include
-"
 nsSize
 .
 h
