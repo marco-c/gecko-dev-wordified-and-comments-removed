@@ -50,7 +50,7 @@ true
 const
 DISPATCH_WAIT_TIME_MS
 =
-200
+500
 ;
 const
 end
