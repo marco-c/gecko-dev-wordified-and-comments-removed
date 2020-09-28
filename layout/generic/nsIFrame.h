@@ -1195,6 +1195,7 @@ IntrinsicSize
 &
 rhs
 )
+const
 {
 return
 width
@@ -1223,6 +1224,7 @@ IntrinsicSize
 &
 rhs
 )
+const
 {
 return
 !
