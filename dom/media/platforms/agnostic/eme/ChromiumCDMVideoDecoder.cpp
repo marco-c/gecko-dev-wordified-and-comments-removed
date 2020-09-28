@@ -523,7 +523,7 @@ cdm
 EncryptionScheme
 :
 :
-kCenc
+kCbcs
 ;
 break
 ;
