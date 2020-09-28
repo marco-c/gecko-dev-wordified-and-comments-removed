@@ -48,14 +48,14 @@ TESTING_JS_MODULES
 '
 schemas
 /
-PioneerContentSchema
+IonContentSchema
 .
 json
 '
 '
 schemas
 /
-PioneerStudyAddonsSchema
+IonStudyAddonsSchema
 .
 json
 '
