@@ -93,7 +93,7 @@ change
 often
 .
 -
-pioneer
+ion
 -
 brand
 -
@@ -101,12 +101,12 @@ short
 -
 name
 =
-Pioneer
-pioneer
+Ion
+ion
 =
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -114,7 +114,7 @@ short
 -
 name
 }
-pioneer
+ion
 -
 document
 -
@@ -129,13 +129,13 @@ for
 a
 better
 internet
-pioneer
+ion
 -
 summary
 =
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -205,7 +205,7 @@ As
 a
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -234,7 +234,7 @@ and
 other
 organizations
 .
-pioneer
+ion
 -
 study
 -
@@ -243,7 +243,7 @@ prompt
 Join
 to
 enroll
-pioneer
+ion
 -
 join
 -
@@ -251,7 +251,7 @@ study
 =
 Join
 Study
-pioneer
+ion
 -
 leave
 -
@@ -259,7 +259,7 @@ study
 =
 Leave
 Study
-pioneer
+ion
 -
 enrollment
 -
@@ -268,7 +268,7 @@ button
 Join
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -276,7 +276,7 @@ short
 -
 name
 }
-pioneer
+ion
 -
 unenrollment
 -
@@ -285,7 +285,7 @@ button
 Leave
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -293,7 +293,7 @@ short
 -
 name
 }
-pioneer
+ion
 -
 current
 -
@@ -301,7 +301,7 @@ studies
 =
 Current
 Studies
-pioneer
+ion
 -
 no
 -
@@ -317,7 +317,7 @@ check
 back
 later
 .
-pioneer
+ion
 -
 end
 -
@@ -325,7 +325,7 @@ study
 =
 End
 Study
-pioneer
+ion
 -
 ended
 -
@@ -333,7 +333,7 @@ study
 =
 Study
 Ended
-pioneer
+ion
 -
 accept
 -
@@ -342,7 +342,7 @@ participate
 Accept
 and
 Participate
-pioneer
+ion
 -
 accept
 -
@@ -351,12 +351,12 @@ leave
 Accept
 and
 Leave
-pioneer
+ion
 -
 cancel
 =
 Cancel
-pioneer
+ion
 -
 consent
 -
@@ -364,7 +364,7 @@ notice
 =
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -374,7 +374,7 @@ name
 }
 Privacy
 Notice
-pioneer
+ion
 -
 consent
 -
@@ -384,7 +384,7 @@ notice
 =
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -396,14 +396,14 @@ Study
 Privacy
 Consent
 Notice
-pioneer
+ion
 -
 leave
 =
 Leaving
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -411,7 +411,7 @@ short
 -
 name
 }
-pioneer
+ion
 -
 consent
 -
@@ -421,7 +421,7 @@ title
 =
 Leaving
 Study
-pioneer
+ion
 -
 consent
 -
@@ -433,7 +433,7 @@ Accept
 and
 Join
 Study
-pioneer
+ion
 -
 consent
 -
@@ -445,7 +445,7 @@ Accept
 and
 Leave
 Study
-pioneer
+ion
 -
 program
 -
@@ -459,7 +459,7 @@ enroll
 in
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -488,7 +488,7 @@ integrity
 of
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -509,7 +509,7 @@ protect
 your
 identity
 .
-pioneer
+ion
 -
 program
 -
@@ -544,7 +544,7 @@ integrity
 of
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -565,7 +565,7 @@ protect
 your
 identity
 .
-pioneer
+ion
 -
 works
 -
@@ -575,7 +575,7 @@ How
 it
 works
 :
-pioneer
+ion
 -
 works
 -
@@ -590,7 +590,7 @@ title
 Get
 started
 .
-pioneer
+ion
 -
 works
 -
@@ -605,7 +605,7 @@ content
 Select
 the
 {
-pioneer
+ion
 -
 enrollment
 -
@@ -633,7 +633,7 @@ Note
 that
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -655,7 +655,7 @@ are
 or
 older
 .
-pioneer
+ion
 -
 works
 -
@@ -669,7 +669,7 @@ Enroll
 in
 studies
 .
-pioneer
+ion
 -
 works
 -
@@ -698,7 +698,7 @@ and
 our
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -733,7 +733,7 @@ before
 you
 enroll
 .
-pioneer
+ion
 -
 works
 -
@@ -747,7 +747,7 @@ Stay
 in
 control
 .
-pioneer
+ion
 -
 works
 -
@@ -760,7 +760,7 @@ content
 The
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -811,7 +811,7 @@ or
 the
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -821,7 +821,7 @@ name
 }
 program
 .
-pioneer
+ion
 -
 your
 -
@@ -840,7 +840,7 @@ how
 we
 protect
 it
-pioneer
+ion
 -
 your
 -
@@ -850,7 +850,7 @@ summary
 =
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -910,7 +910,7 @@ back
 to
 users
 .
-pioneer
+ion
 -
 your
 -
@@ -956,7 +956,7 @@ for
 detailed
 information
 .
-pioneer
+ion
 -
 your
 -
@@ -976,7 +976,7 @@ protecting
 your
 privacy
 .
-pioneer
+ion
 -
 your
 -
@@ -992,7 +992,7 @@ leave
 the
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -1014,7 +1014,7 @@ when
 you
 do
 .
-pioneer
+ion
 -
 your
 -
@@ -1053,7 +1053,7 @@ a
 with
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -1062,7 +1062,7 @@ short
 name
 }
 .
-pioneer
+ion
 -
 us
 -
@@ -1071,7 +1071,7 @@ only
 Sorry
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -1089,7 +1089,7 @@ in
 the
 US
 .
-pioneer
+ion
 -
 enroll
 -
@@ -1101,7 +1101,7 @@ Effective
 September
 1
 2020
-pioneer
+ion
 -
 enroll
 -
@@ -1109,7 +1109,7 @@ summary
 =
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -1138,7 +1138,7 @@ internet
 .
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -1161,7 +1161,7 @@ are
 or
 older
 .
-pioneer
+ion
 -
 enroll
 -
@@ -1172,7 +1172,7 @@ you
 join
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -1208,7 +1208,7 @@ participating
 in
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -1251,7 +1251,7 @@ you
 join
 it
 .
-pioneer
+ion
 -
 enroll
 -
@@ -1270,7 +1270,7 @@ data
 the
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -1340,7 +1340,7 @@ and
 share
 information
 .
-pioneer
+ion
 -
 enroll
 -
@@ -1379,7 +1379,7 @@ here
 a
 >
 .
-pioneer
+ion
 -
 enroll
 -
@@ -1394,7 +1394,7 @@ Information
 We
 Collect
 :
-pioneer
+ion
 -
 enroll
 -
@@ -1423,7 +1423,7 @@ data
 from
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -1447,7 +1447,7 @@ and
 zip
 code
 .
-pioneer
+ion
 -
 enroll
 -
@@ -1495,7 +1495,7 @@ our
 server
 logs
 .
-pioneer
+ion
 -
 enroll
 -
@@ -1538,7 +1538,7 @@ browsing
 session
 duration
 .
-pioneer
+ion
 -
 enroll
 -
@@ -1584,7 +1584,7 @@ provide
 it
 )
 .
-pioneer
+ion
 -
 enroll
 -
@@ -1600,7 +1600,7 @@ Use
 Your
 Information
 :
-pioneer
+ion
 -
 enroll
 -
@@ -1630,7 +1630,7 @@ strong
 >
 including
 :
-pioneer
+ion
 -
 enroll
 -
@@ -1654,7 +1654,7 @@ in
 particular
 research
 studies
-pioneer
+ion
 -
 enroll
 -
@@ -1675,7 +1675,7 @@ many
 users
 of
 Firefox
-pioneer
+ion
 -
 enroll
 -
@@ -1692,7 +1692,7 @@ existing
 products
 and
 services
-pioneer
+ion
 -
 enroll
 -
@@ -1706,7 +1706,7 @@ and
 develop
 new
 products
-pioneer
+ion
 -
 enroll
 -
@@ -1725,7 +1725,7 @@ Disclose
 Information
 To
 :
-pioneer
+ion
 -
 enroll
 -
@@ -1782,7 +1782,7 @@ approved
 by
 us
 .
-pioneer
+ion
 -
 enroll
 -
@@ -1819,7 +1819,7 @@ of
 the
 {
 -
-pioneer
+ion
 -
 brand
 -
@@ -1895,7 +1895,7 @@ approved
 by
 us
 .
-pioneer
+ion
 -
 enroll
 -
@@ -1981,7 +1981,7 @@ of
 individual
 users
 .
-pioneer
+ion
 -
 enroll
 -
@@ -1992,7 +1992,7 @@ management
 Data
 Management
 :
-pioneer
+ion
 -
 enroll
 -
@@ -2013,7 +2013,7 @@ managing
 your
 {
 -
-pioneer
+ion
 -
 brand
 -
