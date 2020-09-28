@@ -1736,9 +1736,6 @@ test
 .
 com
 "
-{
-expectedAnswer
-:
 "
 1
 .
@@ -1748,7 +1745,6 @@ expectedAnswer
 .
 4
 "
-}
 )
 ;
 await
@@ -1967,9 +1963,6 @@ x
 .
 com
 "
-{
-expectedAnswer
-:
 "
 4
 .
@@ -1979,7 +1972,6 @@ expectedAnswer
 .
 1
 "
-}
 )
 ;
 await
@@ -2142,11 +2134,8 @@ host
 .
 com
 "
-{
-expectedSuccess
-:
+undefined
 false
-}
 )
 ;
 Assert
@@ -2287,11 +2276,8 @@ loop
 .
 com
 "
-{
-expectedSuccess
-:
+undefined
 false
-}
 )
 ;
 Assert
@@ -2380,11 +2366,8 @@ empty
 .
 com
 "
-{
-expectedSuccess
-:
+undefined
 false
-}
 )
 ;
 Assert

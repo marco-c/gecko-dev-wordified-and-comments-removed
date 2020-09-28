@@ -8335,13 +8335,6 @@ mAddresses
 )
 )
 ;
-builder
-.
-SetCanonicalHostname
-(
-mCname
-)
-;
 nsCOMPtr
 <
 nsITimedChannel
