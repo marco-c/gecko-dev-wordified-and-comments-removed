@@ -3657,12 +3657,6 @@ mDrawEventTargetFrame
 }
 #
 endif
-bool
-GetZoomableByAPZ
-(
-)
-const
-;
 private
 :
 ~
