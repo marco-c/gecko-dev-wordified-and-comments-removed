@@ -641,7 +641,7 @@ clang
 format
 .
 diff
-civet
+external
 :
 description
 :
@@ -679,7 +679,9 @@ cpp
 (
 clang
 -
-civet
+tidy
+-
+external
 )
 run
 :
@@ -761,11 +763,13 @@ fetches
 toolchain
 :
 -
-linux64
+linux
 -
-civet
+clang
 -
 tidy
+-
+external
 worker
 :
 artifacts
