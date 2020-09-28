@@ -62,6 +62,8 @@ int
 aTargetFrames
 int
 aBufferedFrames
+int
+aRemainingFrames
 )
 {
 if
@@ -100,6 +102,15 @@ else
 if
 (
 aBufferedFrames
+<
+2
+*
+mSourceRate
+/
+100
+|
+|
+aRemainingFrames
 <
 2
 *
@@ -509,7 +520,12 @@ GetDuration
 aOutputFrames
 mResampler
 .
-InputDuration
+InputReadableFrames
+(
+)
+mResampler
+.
+InputWritableFrames
 (
 )
 )
@@ -583,7 +599,7 @@ const
 return
 mResampler
 .
-InputDuration
+InputReadableFrames
 (
 )
 ;

@@ -117,6 +117,7 @@ UpdateClock
 aSource
 aTarget
 aBuffering
+aBuffering
 )
 ;
 if
@@ -279,6 +280,9 @@ UpdateClock
 5
 *
 480
+5
+*
+480
 )
 ;
 EXPECT_FLOAT_EQ
@@ -403,6 +407,7 @@ UpdateClock
 0
 0
 buffered
+buffered
 )
 ;
 EXPECT_FLOAT_EQ
@@ -469,6 +474,9 @@ UpdateClock
 480
 480
 0
+10
+*
+480
 )
 ;
 EXPECT_FLOAT_EQ
@@ -507,7 +515,10 @@ UpdateClock
 (
 480
 480
-2
+3
+*
+480
+7
 *
 480
 )
@@ -551,6 +562,9 @@ UpdateClock
 5
 *
 480
+5
+*
+480
 )
 ;
 EXPECT_FLOAT_EQ
@@ -590,6 +604,9 @@ UpdateClock
 480
 480
 7
+*
+480
+3
 *
 480
 )
@@ -658,6 +675,9 @@ UpdateClock
 240
 480
 0
+10
+*
+240
 )
 ;
 EXPECT_FLOAT_EQ
@@ -696,7 +716,10 @@ UpdateClock
 (
 240
 480
-2
+3
+*
+240
+7
 *
 240
 )
@@ -740,6 +763,9 @@ UpdateClock
 5
 *
 240
+5
+*
+240
 )
 ;
 EXPECT_FLOAT_EQ
@@ -779,6 +805,9 @@ UpdateClock
 240
 480
 7
+*
+240
+3
 *
 240
 )
@@ -860,6 +889,7 @@ UpdateClock
 (
 0
 0
+buffered
 buffered
 )
 ;
@@ -967,6 +997,7 @@ UpdateClock
 0
 0
 buffered
+buffered
 )
 ;
 EXPECT_FLOAT_EQ
@@ -1019,6 +1050,9 @@ UpdateClock
 5
 *
 480
+5
+*
+480
 )
 ;
 EXPECT_FLOAT_EQ
@@ -1040,6 +1074,9 @@ UpdateClock
 480
 480
 0
+10
+*
+480
 )
 ;
 EXPECT_FLOAT_EQ
@@ -1079,6 +1116,9 @@ UpdateClock
 480
 480
 0
+10
+*
+480
 )
 ;
 EXPECT_FLOAT_EQ
