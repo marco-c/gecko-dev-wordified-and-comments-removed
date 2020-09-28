@@ -467,7 +467,6 @@ derive
 (
 Debug
 MallocSizeOf
-PartialEq
 )
 ]
 pub

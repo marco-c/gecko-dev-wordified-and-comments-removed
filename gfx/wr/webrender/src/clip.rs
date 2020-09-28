@@ -236,7 +236,6 @@ Copy
 Clone
 Debug
 MallocSizeOf
-PartialEq
 )
 ]
 #
@@ -308,7 +307,6 @@ derive
 (
 Copy
 Clone
-PartialEq
 )
 ]
 pub
