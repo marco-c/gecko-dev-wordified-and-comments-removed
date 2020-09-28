@@ -735,11 +735,7 @@ constexpr
 uint32_t
 CodeAlignment
 =
-sizeof
-(
-void
-*
-)
+16
 ;
 static
 constexpr
