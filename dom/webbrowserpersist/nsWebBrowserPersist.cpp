@@ -10153,6 +10153,17 @@ thread
 "
 )
 ;
+if
+(
+mCancel
+&
+&
+mEndCalled
+)
+{
+return
+;
+}
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
