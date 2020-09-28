@@ -86581,6 +86581,7 @@ bug_numbers
 :
 [
 1637402
+1664723
 ]
 "
 alert_emails
@@ -86594,6 +86595,15 @@ mozilla
 com
 "
 ]
+"
+releaseChannelCollection
+"
+:
+"
+opt
+-
+out
+"
 "
 description
 "
