@@ -1309,16 +1309,26 @@ s
             
 %
 (
+                
 clangd_path
+                
 clangd_cc_path
+                
+int
+(
 multiprocessing
 .
 cpu_count
 (
 )
+/
+2
+)
+                
 clang_tidy_cfg
 .
 checks
+            
 )
         
 )
