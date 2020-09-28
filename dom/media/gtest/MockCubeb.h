@@ -904,6 +904,7 @@ cubeb_stream
 this
 )
 ;
+const
 long
 outframes
 =
