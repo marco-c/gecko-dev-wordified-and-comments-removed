@@ -1218,7 +1218,13 @@ index
 )
 flags_
 (
+FunctionFlags
+:
+:
+clearMutableflags
+(
 flags
+)
 )
 isTopLevel_
 (
