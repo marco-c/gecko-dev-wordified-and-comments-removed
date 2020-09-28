@@ -16842,7 +16842,7 @@ emptyChunksToFree
 ;
 {
 AutoLockGC
-lock
+gcLock
 (
 gc
 )
@@ -16852,7 +16852,7 @@ gc
 >
 availableChunks
 (
-lock
+gcLock
 )
 .
 sort
@@ -16865,7 +16865,7 @@ gc
 decommitFreeArenas
 (
 cancel_
-lock
+gcLock
 )
 ;
 emptyChunksToFree
@@ -16875,7 +16875,7 @@ gc
 >
 expireEmptyChunkPool
 (
-lock
+gcLock
 )
 ;
 }
@@ -16885,11 +16885,6 @@ emptyChunksToFree
 )
 ;
 }
-setFinishing
-(
-lock
-)
-;
 gc
 -
 >
@@ -17559,11 +17554,6 @@ sweepFromBackgroundThread
 lock
 )
 ;
-setFinishing
-(
-lock
-)
-;
 }
 void
 GCRuntime
@@ -17872,11 +17862,6 @@ gc
 -
 >
 freeFromBackgroundThread
-(
-lock
-)
-;
-setFinishing
 (
 lock
 )
