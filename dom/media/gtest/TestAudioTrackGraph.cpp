@@ -42,12 +42,17 @@ CrossGraphPort
 h
 "
 #
+ifdef
+MOZ_WEBRTC
+#
 include
 "
 MediaEngineWebRTCAudio
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -500,6 +505,9 @@ m
 args
 )
 )
+#
+ifdef
+MOZ_WEBRTC
 class
 StartInputProcessing
 :
@@ -596,6 +604,8 @@ Stop
 }
 }
 ;
+#
+endif
 class
 GoFaster
 :
@@ -1403,6 +1413,9 @@ StreamDestroyEvent
 )
 ;
 }
+#
+ifdef
+MOZ_WEBRTC
 TEST
 (
 TestAudioTrackGraph
@@ -2844,3 +2857,5 @@ oldBuffering
 )
 ;
 }
+#
+endif
