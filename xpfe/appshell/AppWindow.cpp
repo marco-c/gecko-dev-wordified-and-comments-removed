@@ -1218,6 +1218,13 @@ nsIWebProgress
 NOTIFY_STATE_NETWORK
 )
 ;
+mWindow
+-
+>
+MaybeDispatchInitialFocusEvent
+(
+)
+;
 return
 rv
 ;

@@ -1955,6 +1955,13 @@ SynchronouslyRepaintOnResize
 )
 override
 ;
+virtual
+void
+MaybeDispatchInitialFocusEvent
+(
+)
+override
+;
 protected
 :
 virtual
@@ -3111,6 +3118,9 @@ mAlwaysOnTop
 ;
 bool
 mIsEarlyBlankWindow
+;
+bool
+mWasPreXulSkeletonUI
 ;
 bool
 mResizable

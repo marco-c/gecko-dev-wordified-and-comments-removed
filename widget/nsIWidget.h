@@ -3670,6 +3670,13 @@ aEnable
 }
 virtual
 void
+MaybeDispatchInitialFocusEvent
+(
+)
+{
+}
+virtual
+void
 SetInputContext
 (
 const
