@@ -6109,13 +6109,6 @@ function
 setupBuiltinExtension
 (
 extensionData
-location
-=
-"
-ext
--
-test
-"
 )
 {
 let
@@ -6176,7 +6169,11 @@ resProto
 .
 setSubstitution
 (
-location
+"
+ext
+-
+test
+"
 base
 )
 ;
