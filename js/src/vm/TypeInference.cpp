@@ -18893,7 +18893,7 @@ void
 PreliminaryObjectArrayWithTemplate
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 PreliminaryObjectArrayWithTemplate
 *
@@ -21787,7 +21787,7 @@ void
 TypeNewScript
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 TypeNewScript
 *

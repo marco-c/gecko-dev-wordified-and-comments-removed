@@ -1874,7 +1874,7 @@ allocBytes_
 }
 static
 void
-writeBarrierPre
+preWriteBarrier
 (
 Zone
 *

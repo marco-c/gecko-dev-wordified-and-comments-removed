@@ -8650,7 +8650,7 @@ isSelfHostedBuiltin
 BaseScript
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 script
 )

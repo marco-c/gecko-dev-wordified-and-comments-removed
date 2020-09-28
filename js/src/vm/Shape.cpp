@@ -6514,7 +6514,7 @@ rawSetter
 =
 setter
 ;
-GetterSetterWriteBarrierPost
+GetterSetterPostWriteBarrier
 (
 &
 accShape

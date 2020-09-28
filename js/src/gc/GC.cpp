@@ -9166,7 +9166,7 @@ isIncrementalGCInProgress
 GCPtrValue
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 *
 vp
@@ -43974,7 +43974,7 @@ GCCC_Barrier
 JSObject
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 obj
 )
@@ -44026,7 +44026,7 @@ GCCC_Barrier
 TenuredCell
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 &
 thing

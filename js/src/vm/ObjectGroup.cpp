@@ -673,7 +673,7 @@ Addendum_PreliminaryObjects
 PreliminaryObjectArrayWithTemplate
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 maybePreliminaryObjects
 (
@@ -689,7 +689,7 @@ Addendum_NewScript
 TypeNewScript
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 newScript
 (

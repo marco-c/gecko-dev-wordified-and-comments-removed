@@ -219,7 +219,7 @@ v
 T
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 v
 )
@@ -244,7 +244,7 @@ next
 T
 :
 :
-writeBarrierPost
+postWriteBarrier
 (
 vp
 prev
@@ -829,7 +829,7 @@ v
 }
 static
 void
-writeBarrierPre
+preWriteBarrier
 (
 const
 T
@@ -2786,7 +2786,7 @@ slot
 const
 ;
 void
-assertPreconditionForWriteBarrierPost
+assertPreconditionForPostWriteBarrier
 (
 NativeObject
 *
@@ -2869,7 +2869,7 @@ target
 #
 ifdef
 DEBUG
-assertPreconditionForWriteBarrierPost
+assertPreconditionForPostWriteBarrier
 (
 owner
 kind
@@ -3254,7 +3254,7 @@ if
 T1
 :
 :
-needWriteBarrierPre
+needPreWriteBarrier
 (
 zone
 )

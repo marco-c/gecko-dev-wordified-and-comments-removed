@@ -5338,7 +5338,7 @@ private
 :
 inline
 void
-elementsRangeWriteBarrierPost
+elementsRangePostWriteBarrier
 (
 uint32_t
 start
@@ -6208,7 +6208,7 @@ const
 ;
 inline
 void
-privateWriteBarrierPre
+privatePreWriteBarrier
 (
 void
 *
@@ -6217,7 +6217,7 @@ oldval
 )
 ;
 void
-privateWriteBarrierPost
+privatePostWriteBarrier
 (
 void
 *
@@ -6402,7 +6402,7 @@ numFixedSlots
 )
 )
 ;
-privateWriteBarrierPre
+privatePreWriteBarrier
 (
 pprivate
 )
@@ -6459,7 +6459,7 @@ numFixedSlots
 )
 )
 ;
-privateWriteBarrierPre
+privatePreWriteBarrier
 (
 pprivate
 )
@@ -6476,7 +6476,7 @@ void
 cell
 )
 ;
-privateWriteBarrierPost
+privatePostWriteBarrier
 (
 pprivate
 )
@@ -6816,7 +6816,7 @@ void
 NativeObject
 :
 :
-privateWriteBarrierPre
+privatePreWriteBarrier
 (
 void
 *

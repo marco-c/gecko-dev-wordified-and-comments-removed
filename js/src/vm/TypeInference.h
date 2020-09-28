@@ -740,7 +740,7 @@ trc
 ;
 static
 void
-writeBarrierPre
+preWriteBarrier
 (
 PreliminaryObjectArrayWithTemplate
 *

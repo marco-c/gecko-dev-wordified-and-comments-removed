@@ -2400,7 +2400,7 @@ object
 }
 static
 void
-writeBarrierPost
+postWriteBarrier
 (
 Debugger
 *

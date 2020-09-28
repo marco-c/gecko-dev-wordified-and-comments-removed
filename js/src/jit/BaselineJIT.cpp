@@ -2609,7 +2609,7 @@ void
 BaselineScript
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 Zone
 *

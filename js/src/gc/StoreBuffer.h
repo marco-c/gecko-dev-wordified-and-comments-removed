@@ -2961,7 +2961,7 @@ T
 >
 MOZ_ALWAYS_INLINE
 void
-WriteBarrierPostImpl
+PostWriteBarrierImpl
 (
 void
 *

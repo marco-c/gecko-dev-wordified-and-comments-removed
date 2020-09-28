@@ -3666,7 +3666,7 @@ code
 JitCode
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 jitCode
 (

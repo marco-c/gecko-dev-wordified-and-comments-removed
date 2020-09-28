@@ -1867,7 +1867,7 @@ nullptr
 }
 static
 void
-writeBarrierPre
+preWriteBarrier
 (
 TypeNewScript
 *

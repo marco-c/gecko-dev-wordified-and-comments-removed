@@ -7436,7 +7436,7 @@ location
 JSObject
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 *
 reinterpret_cast
@@ -8266,7 +8266,7 @@ isNull
 JSObject
 :
 :
-writeBarrierPost
+postWriteBarrier
 (
 (
 JSObject

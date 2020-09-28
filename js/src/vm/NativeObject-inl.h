@@ -841,7 +841,7 @@ void
 NativeObject
 :
 :
-elementsRangeWriteBarrierPost
+elementsRangePostWriteBarrier
 (
 uint32_t
 start
@@ -1133,7 +1133,7 @@ Value
 )
 )
 ;
-elementsRangeWriteBarrierPost
+elementsRangePostWriteBarrier
 (
 dstStart
 count
@@ -1373,7 +1373,7 @@ Value
 )
 )
 ;
-elementsRangeWriteBarrierPost
+elementsRangePostWriteBarrier
 (
 0
 count
@@ -1798,7 +1798,7 @@ HeapSlot
 )
 )
 ;
-elementsRangeWriteBarrierPost
+elementsRangePostWriteBarrier
 (
 dstStart
 count
@@ -1929,7 +1929,7 @@ valLo
 valHi
 )
 ;
-elementsRangeWriteBarrierPost
+elementsRangePostWriteBarrier
 (
 0
 length

@@ -4528,7 +4528,7 @@ void
 IonScript
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 Zone
 *

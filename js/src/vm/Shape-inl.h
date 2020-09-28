@@ -716,7 +716,7 @@ base
 static
 inline
 void
-GetterSetterWriteBarrierPost
+GetterSetterPostWriteBarrier
 (
 AccessorShape
 *
@@ -843,7 +843,7 @@ oomUnsafe
 crash
 (
 "
-GetterSetterWriteBarrierPost
+GetterSetterPostWriteBarrier
 "
 )
 ;
@@ -955,7 +955,7 @@ AllocKind
 ACCESSOR_SHAPE
 )
 ;
-GetterSetterWriteBarrierPost
+GetterSetterPostWriteBarrier
 (
 this
 )
@@ -1152,7 +1152,7 @@ isObject
 JSObject
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 dictNext
 .

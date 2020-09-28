@@ -6009,7 +6009,7 @@ MAX_DENSE_ELEMENTS_COUNT
 JSObject
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 obj
 -
