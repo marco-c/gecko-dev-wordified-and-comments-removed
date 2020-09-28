@@ -114,6 +114,15 @@ include
 "
 vm
 /
+HelperThreadState
+.
+h
+"
+#
+include
+"
+vm
+/
 JSContext
 .
 h
