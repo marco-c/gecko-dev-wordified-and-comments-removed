@@ -126,6 +126,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 prtime
 .
 h
