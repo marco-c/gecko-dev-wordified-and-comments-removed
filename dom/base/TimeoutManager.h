@@ -393,11 +393,6 @@ bool
 value
 )
 ;
-size_t
-GetNumPendingInputs
-(
-)
-;
 private
 :
 void
