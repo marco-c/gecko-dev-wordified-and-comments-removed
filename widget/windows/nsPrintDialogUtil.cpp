@@ -256,6 +256,11 @@ nsHGLOBAL
 )
 ;
 }
+needed
+*
+=
+2
+;
 nsAutoDevMode
 newDevMode
 (

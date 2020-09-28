@@ -2201,6 +2201,11 @@ return
 NS_ERROR_FAILURE
 ;
 }
+needed
+*
+=
+2
+;
 pDevMode
 =
 (
