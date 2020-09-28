@@ -636,6 +636,9 @@ gc
 void
 run
 (
+AutoLockHelperThreadState
+&
+lock
 )
 override
 ;
@@ -666,6 +669,9 @@ gc
 void
 run
 (
+AutoLockHelperThreadState
+&
+lock
 )
 override
 ;
@@ -713,6 +719,9 @@ enabled_
 void
 run
 (
+AutoLockHelperThreadState
+&
+lock
 )
 override
 ;
@@ -743,6 +752,9 @@ gc
 void
 run
 (
+AutoLockHelperThreadState
+&
+lock
 )
 override
 ;
@@ -799,6 +811,9 @@ budget
 void
 run
 (
+AutoLockHelperThreadState
+&
+lock
 )
 override
 ;

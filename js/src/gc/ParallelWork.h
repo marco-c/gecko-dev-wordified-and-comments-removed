@@ -180,8 +180,17 @@ next
 void
 run
 (
+AutoLockHelperThreadState
+&
+lock
 )
 {
+AutoUnlockHelperThreadState
+unlock
+(
+lock
+)
+;
 AutoDisableProxyCheck
 noProxyCheck
 ;

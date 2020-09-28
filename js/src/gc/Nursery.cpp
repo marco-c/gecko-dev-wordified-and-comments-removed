@@ -989,15 +989,14 @@ NurseryDecommitTask
 :
 run
 (
+AutoLockHelperThreadState
+&
+lock
 )
 {
 Chunk
 *
 chunk
-;
-{
-AutoLockHelperThreadState
-lock
 ;
 while
 (
@@ -1052,7 +1051,6 @@ setFinishing
 lock
 )
 ;
-}
 }
 void
 js
