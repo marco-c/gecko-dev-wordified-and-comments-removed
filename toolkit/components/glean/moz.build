@@ -115,6 +115,12 @@ flags
 '
 METRICS
 '
+CONFIG
+[
+'
+MOZ_APP_VERSION
+'
+]
 ]
 inputs
 =
@@ -154,6 +160,12 @@ flags
 '
 PINGS
 '
+CONFIG
+[
+'
+MOZ_APP_VERSION
+'
+]
 ]
 inputs
 =
