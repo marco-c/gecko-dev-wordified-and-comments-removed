@@ -280,10 +280,7 @@ mWidget
 ;
 private
 :
-Atomic
-<
 LayoutDeviceIntSize
->
 mClientSize
 ;
 WindowSurfaceProvider
