@@ -1759,10 +1759,12 @@ No
 DirectComposition
 usage
 "
-"
-FEATURE_FAILURE_NO_DIRECTCOMPOSITION
-"
-_ns
+mFeatureWrDComp
+-
+>
+GetFailureId
+(
+)
 )
 ;
 }
