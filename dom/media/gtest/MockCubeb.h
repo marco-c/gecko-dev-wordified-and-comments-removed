@@ -799,7 +799,7 @@ MediaEventSource
 Tuple
 <
 uint64_t
-uint32_t
+float
 uint32_t
 >
 >
@@ -1130,7 +1130,7 @@ MediaEventProducer
 Tuple
 <
 uint64_t
-uint32_t
+float
 uint32_t
 >
 >
