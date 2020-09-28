@@ -285,6 +285,8 @@ nsIPrintSettings
 *
 _retval
 )
+=
+0
 ;
 nsCString
 mPrefName
