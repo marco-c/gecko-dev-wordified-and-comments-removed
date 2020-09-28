@@ -172,7 +172,6 @@ geckodriver
 geckodriver
 -
 test
-hazards
 jsapi
 -
 tests
