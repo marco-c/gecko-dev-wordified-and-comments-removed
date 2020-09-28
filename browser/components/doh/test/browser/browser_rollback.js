@@ -314,9 +314,6 @@ waitForStateTelemetry
 "
 rollback
 "
-"
-shutdown
-"
 ]
 )
 ;
@@ -422,9 +419,6 @@ waitForStateTelemetry
 "
 rollback
 "
-"
-shutdown
-"
 ]
 )
 ;
@@ -529,9 +523,6 @@ waitForStateTelemetry
 [
 "
 rollback
-"
-"
-shutdown
 "
 ]
 )
