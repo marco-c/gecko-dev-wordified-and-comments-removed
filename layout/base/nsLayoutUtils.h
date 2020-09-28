@@ -6854,6 +6854,16 @@ nsSize
 aSize
 )
 ;
+static
+nsIFrame
+*
+GetNearestOverflowClipFrame
+(
+nsIFrame
+*
+aFrame
+)
+;
 private
 :
 static
