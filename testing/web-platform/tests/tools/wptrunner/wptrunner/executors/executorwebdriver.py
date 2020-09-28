@@ -2974,6 +2974,14 @@ done
                 
 break
         
+protocol
+.
+testharness
+.
+close_old_windows
+(
+)
+        
 return
 rv
     
