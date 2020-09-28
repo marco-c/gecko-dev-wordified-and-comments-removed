@@ -31819,18 +31819,6 @@ move
 aStatement
 )
 )
-#
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
-|
-|
-defined
-(
-DEBUG
-)
 mScoper
 (
 mStatement
@@ -31858,8 +31846,6 @@ mDEBUGConnection
 (
 aConnection
 )
-#
-endif
 #
 endif
 {
