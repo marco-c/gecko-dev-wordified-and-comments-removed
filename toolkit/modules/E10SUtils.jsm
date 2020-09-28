@@ -3134,6 +3134,12 @@ return
 false
 ;
 }
+if
+(
+!
+sessionHistoryInParent
+)
+{
 let
 requestedIndex
 =
@@ -3235,6 +3241,7 @@ remoteType
 =
 wantRemoteType
 ;
+}
 }
 return
 remoteType
