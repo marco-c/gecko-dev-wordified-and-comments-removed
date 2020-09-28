@@ -472,6 +472,19 @@ KEYWORD_OFFER
 .
 SHOW
 :
+if
+(
+!
+UrlbarPrefs
+.
+get
+(
+"
+update2
+"
+)
+)
+{
 return
 [
 this
@@ -486,6 +499,7 @@ payloadHighlights
 keyword
 ]
 ;
+}
 case
 UrlbarUtils
 .

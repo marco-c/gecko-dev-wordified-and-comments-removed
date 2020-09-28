@@ -1337,6 +1337,9 @@ entry
 "
 topsites_newtab
 "
+isPreview
+:
+false
 }
 "
 The
