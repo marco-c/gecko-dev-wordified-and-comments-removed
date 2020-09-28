@@ -335,7 +335,7 @@ long
 flags
 ;
 attribute
-string
+AString
 contentsMIMEType
 ;
 readonly

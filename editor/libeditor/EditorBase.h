@@ -6700,7 +6700,7 @@ eTriFalse
 eTriTrue
 }
 ;
-nsCString
+nsString
 mContentMIMEType
 ;
 RefPtr
