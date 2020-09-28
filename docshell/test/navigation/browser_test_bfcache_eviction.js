@@ -266,7 +266,7 @@ resolve
 )
 ;
 let
-legacySHistory
+shistory
 =
 browser
 .
@@ -299,7 +299,7 @@ evicted
 "
 )
 ;
-legacySHistory
+shistory
 .
 removeSHistoryListener
 (
@@ -335,7 +335,7 @@ nsISupportsWeakReference
 )
 }
 ;
-legacySHistory
+shistory
 .
 addSHistoryListener
 (
