@@ -4602,6 +4602,7 @@ auto
 ref
 .
 html
+fails
 =
 =
 flexbox
@@ -4628,6 +4629,9 @@ auto
 ref
 .
 html
+#
+bug
+1665532
 =
 =
 flexbox
@@ -4654,6 +4658,7 @@ auto
 ref
 .
 html
+fails
 =
 =
 flexbox
@@ -4680,6 +4685,9 @@ auto
 ref
 .
 html
+#
+bug
+1665532
 =
 =
 flexbox
