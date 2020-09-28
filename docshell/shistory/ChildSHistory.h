@@ -186,6 +186,11 @@ int32_t
 aOffset
 bool
 aRequireUserInteraction
+CallerType
+aCallerType
+ErrorResult
+&
+aRv
 )
 ;
 void

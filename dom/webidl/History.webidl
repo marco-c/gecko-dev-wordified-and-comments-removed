@@ -207,6 +207,7 @@ state
 ;
 [
 Throws
+NeedsCallerType
 ]
 void
 go
@@ -220,6 +221,7 @@ delta
 ;
 [
 Throws
+NeedsCallerType
 ]
 void
 back
@@ -228,6 +230,7 @@ back
 ;
 [
 Throws
+NeedsCallerType
 ]
 void
 forward
@@ -236,6 +239,7 @@ forward
 ;
 [
 Throws
+NeedsCallerType
 ]
 void
 pushState
@@ -254,6 +258,7 @@ null
 ;
 [
 Throws
+NeedsCallerType
 ]
 void
 replaceState
