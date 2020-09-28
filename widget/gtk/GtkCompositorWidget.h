@@ -16,6 +16,15 @@ include
 "
 mozilla
 /
+DataMutex
+.
+h
+"
+#
+include
+"
+mozilla
+/
 widget
 /
 CompositorWidget
@@ -280,7 +289,10 @@ mWidget
 ;
 private
 :
+DataMutex
+<
 LayoutDeviceIntSize
+>
 mClientSize
 ;
 WindowSurfaceProvider
