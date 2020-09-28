@@ -4432,7 +4432,7 @@ opt
 3600
 default
 :
-1800
+2700
 mozharness
 :
 extra
@@ -4590,7 +4590,7 @@ opt
 3600
 default
 :
-1800
+2700
 mozharness
 :
 extra
@@ -4887,7 +4887,7 @@ opt
 3600
 default
 :
-1800
+2700
 limit
 -
 platforms
