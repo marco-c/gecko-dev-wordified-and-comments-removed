@@ -645,7 +645,7 @@ history
 *
 /
 void
-PurgeHistory
+purgeHistory
 (
 in
 long

@@ -708,6 +708,12 @@ long
 long
 browserId
 ;
+readonly
+attribute
+ChildSHistory
+?
+childSessionHistory
+;
 }
 ;
 BrowsingContext

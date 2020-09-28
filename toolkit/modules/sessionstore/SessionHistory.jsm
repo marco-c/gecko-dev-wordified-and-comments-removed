@@ -1372,7 +1372,7 @@ count
 {
 history
 .
-PurgeHistory
+purgeHistory
 (
 history
 .

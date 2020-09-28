@@ -155,7 +155,7 @@ sessionHistory
 .
 legacySHistory
 .
-PurgeHistory
+purgeHistory
 (
 purge
 )

@@ -840,6 +840,11 @@ nsISHEntry
 aNewEntry
 )
 ;
+void
+UpdateRootBrowsingContextState
+(
+)
+;
 protected
 :
 bool
