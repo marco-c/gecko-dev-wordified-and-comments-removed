@@ -3000,6 +3000,10 @@ StopAudioCapturingTrack
 )
 ;
 }
+ReleaseAudioWakeLockIfExists
+(
+)
+;
 return
 ;
 }
