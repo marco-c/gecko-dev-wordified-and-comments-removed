@@ -16170,7 +16170,7 @@ switching
 .
 enabled
 "
-false
+true
 )
 ;
 pref
