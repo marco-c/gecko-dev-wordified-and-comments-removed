@@ -13960,7 +13960,7 @@ lir
 BailoutKind
 :
 :
-BoundsCheck
+InvalidCodePoint
 )
 ;
 define

@@ -10194,6 +10194,12 @@ case
 BailoutKind
 :
 :
+InvalidCodePoint
+:
+case
+BailoutKind
+:
+:
 ProtoGuard
 :
 case
