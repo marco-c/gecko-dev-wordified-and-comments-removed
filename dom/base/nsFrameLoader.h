@@ -603,6 +603,14 @@ bool
 aOutHasInProcessPrintCallbacks
 )
 ;
+nsresult
+DoRemoteStaticClone
+(
+nsFrameLoader
+*
+aStaticCloneOf
+)
+;
 nsDocShell
 *
 GetDocShell

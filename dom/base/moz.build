@@ -662,6 +662,11 @@ Attr
 h
 '
 '
+AutoPrintEventDispatcher
+.
+h
+'
+'
 BarProps
 .
 h

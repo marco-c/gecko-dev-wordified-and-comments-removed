@@ -1965,6 +1965,15 @@ uint32_t
 chromeFlags
 )
 ;
+async
+CloneDocumentTreeInto
+(
+MaybeDiscardedBrowsingContext
+aSourceBc
+MaybeDiscardedBrowsingContext
+aTargetBc
+)
+;
 child
 :
 async
