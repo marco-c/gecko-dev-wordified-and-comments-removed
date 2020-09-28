@@ -469,6 +469,13 @@ aMillis
 )
 ;
 async
+SubmitLoadInputEventResponsePreloadTelemetry
+(
+uint32_t
+aMillis
+)
+;
+async
 Destroy
 (
 )
