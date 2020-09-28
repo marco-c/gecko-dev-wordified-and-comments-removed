@@ -140,6 +140,16 @@ aStatus
 )
 ;
 async
+FlushedForDiversion
+(
+)
+;
+async
+DivertMessages
+(
+)
+;
+async
 NotifyClassificationFlags
 (
 uint32_t

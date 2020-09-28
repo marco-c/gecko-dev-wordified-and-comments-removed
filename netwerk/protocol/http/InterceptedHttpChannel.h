@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsIChannelWithDivertableParentListener
+.
+h
+"
+#
+include
+"
 nsIThreadRetargetableRequest
 .
 h
@@ -79,6 +86,8 @@ nsIAsyncVerifyRedirectCallback
 public
 nsIStreamListener
 public
+nsIChannelWithDivertableParentListener
+public
 nsIThreadRetargetableRequest
 public
 nsIThreadRetargetableStreamListener
@@ -89,6 +98,7 @@ NS_DECL_NSICACHEINFOCHANNEL
 NS_DECL_NSIASYNCVERIFYREDIRECTCALLBACK
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
+NS_DECL_NSICHANNELWITHDIVERTABLEPARENTLISTENER
 NS_DECL_NSITHREADRETARGETABLEREQUEST
 NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 private
@@ -148,6 +158,12 @@ nsInputStreamPump
 >
 mPump
 ;
+RefPtr
+<
+ADivertableParentChannel
+>
+mParentChannel
+;
 TimeStamp
 mFinishResponseStart
 ;
@@ -190,6 +206,9 @@ Atomic
 bool
 >
 mCallingStatusAndProgress
+;
+bool
+mDiverting
 ;
 InterceptedHttpChannel
 (

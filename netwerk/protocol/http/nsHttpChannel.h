@@ -63,6 +63,13 @@ h
 #
 include
 "
+nsIChannelWithDivertableParentListener
+.
+h
+"
+#
+include
+"
 nsIProtocolProxyCallback
 .
 h
@@ -106,6 +113,13 @@ h
 include
 "
 TimingStruct
+.
+h
+"
+#
+include
+"
+ADivertableParentChannel
 .
 h
 "
@@ -291,6 +305,8 @@ nsSupportsWeakReference
 public
 nsICorsPreflightCallback
 public
+nsIChannelWithDivertableParentListener
+public
 nsIRaceCacheWithNetwork
 public
 nsIRequestTailUnblockCallback
@@ -314,6 +330,7 @@ NS_DECL_NSIAPPLICATIONCACHECHANNEL
 NS_DECL_NSIASYNCVERIFYREDIRECTCALLBACK
 NS_DECL_NSITHREADRETARGETABLEREQUEST
 NS_DECL_NSIDNSLISTENER
+NS_DECL_NSICHANNELWITHDIVERTABLEPARENTLISTENER
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_HTTPCHANNEL_IID
@@ -3122,6 +3139,12 @@ RefPtr
 HttpChannelSecurityWarningReporter
 >
 mWarningReporter
+;
+RefPtr
+<
+ADivertableParentChannel
+>
+mParentChannel
 ;
 Atomic
 <
