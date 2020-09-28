@@ -321,11 +321,6 @@ dictionary
 NDEFWriteOptions
 {
 boolean
-ignoreRead
-=
-true
-;
-boolean
 overwrite
 =
 true
