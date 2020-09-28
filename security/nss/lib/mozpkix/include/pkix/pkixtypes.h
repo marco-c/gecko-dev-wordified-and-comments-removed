@@ -476,6 +476,8 @@ CertID
 certID
 Time
 time
+Time
+validityBeginning
 Duration
 validityDuration
 const
@@ -486,10 +488,6 @@ const
 Input
 *
 aiaExtension
-const
-Input
-*
-sctExtension
 )
 =
 0
