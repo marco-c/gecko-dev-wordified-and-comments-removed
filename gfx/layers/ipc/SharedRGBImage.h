@@ -184,9 +184,12 @@ TextureClient
 >
 mTextureClient
 ;
-nsCountedRef
+RefPtr
 <
-nsMainThreadSourceSurfaceRef
+gfx
+:
+:
+SourceSurface
 >
 mSourceSurface
 ;
