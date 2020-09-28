@@ -87,7 +87,11 @@ options
 ;
 readonly
 attribute
-Node
+(
+Element
+or
+Document
+)
 ?
 root
 ;
