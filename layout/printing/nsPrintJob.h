@@ -503,11 +503,6 @@ nsPrintObject
 aPO
 )
 ;
-void
-SuppressPrintPreviewUserEvents
-(
-)
-;
 nsresult
 ReflowDocList
 (
