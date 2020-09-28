@@ -8249,9 +8249,6 @@ aTransferable
 )
 override
 ;
-class
-HTMLTransferablePreparer
-;
 nsresult
 PrepareHTMLTransferable
 (
