@@ -117,7 +117,7 @@ bool
 showPrintProgress
 ;
 nsString
-paperName
+paperId
 ;
 double
 paperWidth

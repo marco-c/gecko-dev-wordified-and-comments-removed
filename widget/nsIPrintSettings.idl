@@ -573,7 +573,7 @@ showMarginGuides
 ;
 attribute
 AString
-paperName
+paperId
 ;
 attribute
 double
