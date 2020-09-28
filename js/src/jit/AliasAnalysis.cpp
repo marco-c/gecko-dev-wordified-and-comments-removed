@@ -1089,15 +1089,6 @@ Opcode
 :
 FunctionName
 :
-case
-MDefinition
-:
-:
-Opcode
-:
-:
-GuardArgumentsObjectNotOverriddenIterator
-:
 object
 =
 ins

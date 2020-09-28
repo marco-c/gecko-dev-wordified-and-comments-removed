@@ -861,17 +861,6 @@ ArgumentsObject
 obj
 )
 ;
-static
-bool
-getArgumentsIterator
-(
-JSContext
-*
-cx
-MutableHandleValue
-val
-)
-;
 bool
 hasOverriddenElement
 (
