@@ -174,13 +174,15 @@ op
 uint32_t
 argLength
 =
-CacheIROpArgLengths
+CacheIROpInfos
 [
 size_t
 (
 op
 )
 ]
+.
+argLength
 ;
 const
 char
