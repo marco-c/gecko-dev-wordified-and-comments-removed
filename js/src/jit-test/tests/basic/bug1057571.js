@@ -78,11 +78,6 @@ global
 =
 newGlobal
 (
-{
-cloneSingletons
-:
-true
-}
 )
 ;
 ctx
@@ -103,7 +98,7 @@ create
 (
 ctx
 {
-saveBytecode
+saveIncrementalBytecode
 :
 {
 value
@@ -133,7 +128,7 @@ value
 :
 true
 }
-saveBytecode
+saveIncrementalBytecode
 :
 {
 value

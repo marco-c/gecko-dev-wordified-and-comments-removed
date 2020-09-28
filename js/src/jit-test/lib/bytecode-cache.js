@@ -83,10 +83,6 @@ global
 newGlobal
 (
 {
-cloneSingletons
-:
-!
-incremental
 newCompartment
 :
 ctx
@@ -110,7 +106,7 @@ ctx
 .
 isRunOnce
 =
-true
+incremental
 ;
 var
 ctx_save
