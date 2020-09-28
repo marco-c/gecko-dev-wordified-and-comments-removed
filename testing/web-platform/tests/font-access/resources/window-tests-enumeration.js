@@ -26,7 +26,7 @@ promise_rejects_dom
 (
 t
 '
-NotAllowedError
+SecurityError
 '
 (
 async
@@ -59,6 +59,7 @@ if
 there
 is
 no
+sticky
 user
 activation
 '
