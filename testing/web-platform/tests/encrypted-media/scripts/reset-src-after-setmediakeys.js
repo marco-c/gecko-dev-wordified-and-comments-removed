@@ -175,7 +175,6 @@ done
 }
 }
 ;
-return
 navigator
 .
 requestMediaKeySystemAccess
