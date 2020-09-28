@@ -181,11 +181,9 @@ glue
 "
 "
 /
-media
+third_party
 /
-webrtc
-/
-trunk
+libwebrtc
 /
 webrtc
 /
