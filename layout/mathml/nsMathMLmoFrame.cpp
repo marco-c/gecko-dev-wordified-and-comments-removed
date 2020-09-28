@@ -1437,7 +1437,7 @@ StyleFont
 )
 -
 >
-mMathDepth
+mScriptLevel
 >
 0
 &

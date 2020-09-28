@@ -12214,7 +12214,7 @@ ToShmem
 ]
 pub
 enum
-MathDepth
+MozScriptLevel
 {
 Relative
 (
@@ -12236,7 +12236,7 @@ Auto
 impl
 Parse
 for
-MathDepth
+MozScriptLevel
 {
 fn
 parse
@@ -12267,7 +12267,7 @@ t
 >
 Result
 <
-MathDepth
+MozScriptLevel
 ParseError
 <
 '
@@ -12299,7 +12299,7 @@ expect_integer
 return
 Ok
 (
-MathDepth
+MozScriptLevel
 :
 :
 Relative
@@ -12321,7 +12321,7 @@ auto
 ;
 Ok
 (
-MathDepth
+MozScriptLevel
 :
 :
 Auto
