@@ -142,6 +142,18 @@ worker
 /
 workspace
 }
+:
+MOZ_OBJDIR
+{
+MOZ_OBJDIR
+:
+=
+WORKSPACE
+/
+obj
+-
+build
+}
 set
 -
 v
@@ -358,6 +370,8 @@ effective
 .
 export
 TOOLTOOL_CACHE
+export
+MOZ_OBJDIR
 config_path_cmds
 =
 "
