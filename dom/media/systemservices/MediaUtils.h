@@ -436,7 +436,7 @@ default
 ;
 }
 ;
-RefPtr
+nsCOMPtr
 <
 nsIAsyncShutdownClient
 >
