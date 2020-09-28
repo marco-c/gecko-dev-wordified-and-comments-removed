@@ -1472,6 +1472,16 @@ auto
 Atom
 (
 "
+autocapitalize
+"
+"
+autocapitalize
+"
+)
+    
+Atom
+(
+"
 autocheck
 "
 "
