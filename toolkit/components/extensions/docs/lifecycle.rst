@@ -413,7 +413,7 @@ code
 block
 :
 :
-json
+js
 "
 myapi
 "

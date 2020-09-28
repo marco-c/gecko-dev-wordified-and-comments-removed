@@ -125,7 +125,7 @@ code
 block
 :
 :
-json
+js
 [
 "
 namespace
@@ -255,7 +255,7 @@ code
 block
 :
 :
-json
+js
 "
 myapi
 "

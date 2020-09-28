@@ -1332,7 +1332,6 @@ Firefox
 code
 :
 :
-eval
 ac_add_options
 -
 -
@@ -1365,7 +1364,6 @@ Thunderbird
 code
 :
 :
-eval
 ac_add_options
 -
 -
@@ -1386,7 +1384,6 @@ SeaMonkey
 code
 :
 :
-eval
 ac_add_options
 -
 -
@@ -1407,7 +1404,6 @@ Thunderbird
 code
 :
 :
-eval
 ac_add_options
 -
 -
@@ -2783,7 +2779,6 @@ example
 code
 :
 :
-eval
 ac_add_options
 -
 -
@@ -2855,7 +2850,6 @@ line
 code
 :
 :
-eval
 MOZ_CURRENT_PROJECT
 =
 browser
@@ -2946,7 +2940,6 @@ common
 code
 :
 :
-eval
 #
 add
 common
@@ -2986,7 +2979,6 @@ firefox
 code
 :
 :
-eval
 #
 include
 the
@@ -3026,7 +3018,6 @@ thunderbird
 code
 :
 :
-eval
 #
 include
 the
@@ -3072,7 +3063,6 @@ commands
 code
 :
 :
-eval
 export
 MOZCONFIG
 =
@@ -3103,7 +3093,6 @@ commands
 code
 :
 :
-eval
 export
 MOZCONFIG
 =

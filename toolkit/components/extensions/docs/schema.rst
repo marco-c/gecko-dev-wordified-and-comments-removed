@@ -577,7 +577,7 @@ code
 block
 :
 :
-json
+js
 [
 "
 namespace
