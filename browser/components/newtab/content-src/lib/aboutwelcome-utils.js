@@ -460,6 +460,9 @@ type
 "
 topsites
 "
+showTitles
+:
+true
 }
 primary_button
 :

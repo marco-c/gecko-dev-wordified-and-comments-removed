@@ -3029,7 +3029,15 @@ toUpperCase
 (
 )
 )
-label
+this
+.
+props
+.
+content
+.
+tiles
+.
+showTitles
 &
 &
 react__WEBPACK_IMPORTED_MODULE_0___default
@@ -3048,6 +3056,9 @@ className
 host
 "
 }
+title
+|
+|
 label
 )
 )
@@ -5295,6 +5306,9 @@ type
 "
 topsites
 "
+showTitles
+:
+true
 }
 primary_button
 :
