@@ -1732,11 +1732,12 @@ return
 nullptr
 ;
 }
-const
 uint32_t
-InitialWarmUpCount
+initialWarmUpCount
 =
-0
+JitOptions
+.
+trialInliningInitialWarmUpCount
 ;
 uint32_t
 depth
@@ -1762,7 +1763,7 @@ raw
 )
 ICScript
 (
-InitialWarmUpCount
+initialWarmUpCount
 allocSize
 depth
 root_
