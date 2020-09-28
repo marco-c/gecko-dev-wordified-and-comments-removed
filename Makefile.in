@@ -268,13 +268,6 @@ xpcom
 config
 .
 h
-xpcom
-/
-xpcom
--
-private
-.
-h
 \
 .
 mozconfig

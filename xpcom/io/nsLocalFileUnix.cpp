@@ -207,15 +207,6 @@ endif
 #
 include
 "
-xpcom
--
-private
-.
-h
-"
-#
-include
-"
 nsDirectoryServiceDefs
 .
 h

@@ -14,15 +14,6 @@ h
 #
 include
 "
-xpcom
--
-private
-.
-h
-"
-#
-include
-"
 nsIComponentManager
 .
 h

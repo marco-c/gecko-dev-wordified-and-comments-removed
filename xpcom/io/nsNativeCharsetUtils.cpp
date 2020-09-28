@@ -1,13 +1,4 @@
 #
-include
-"
-xpcom
--
-private
-.
-h
-"
-#
 ifndef
 XP_WIN
 #
