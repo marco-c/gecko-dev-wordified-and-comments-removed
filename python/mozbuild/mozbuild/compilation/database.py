@@ -184,16 +184,16 @@ obj
 relsrcdir
 in
 (
-                
-'
+            
+"
 build
 /
 unix
 /
 elfhack
-'
-                
-'
+"
+            
+"
 build
 /
 unix
@@ -201,17 +201,17 @@ unix
 elfhack
 /
 inject
-'
-                
-'
+"
+            
+"
 build
 /
 clang
 -
 plugin
-'
-                
-'
+"
+            
+"
 build
 /
 clang
@@ -219,7 +219,8 @@ clang
 plugin
 /
 tests
-'
+"
+        
 )
 :
             
@@ -287,6 +288,7 @@ self
 .
 _build_db_line
 (
+                    
 obj
 .
 objdir
@@ -297,10 +299,10 @@ obj
 .
 config
 f
-                                    
 obj
 .
 canonical_suffix
+                
 )
         
 elif
@@ -315,12 +317,12 @@ for
 var
 in
 (
-'
+"
 MOZBUILD_CMFLAGS
-'
-'
+"
+"
 MOZBUILD_CMMFLAGS
-'
+"
 )
 :
                 
@@ -403,11 +405,11 @@ obj
 objdir
 ]
 [
-'
+"
 COMPUTED_
 %
 s
-'
+"
 %
 var
 ]
@@ -477,9 +479,9 @@ variables
 =
 {
                 
-'
+"
 DIST
-'
+"
 :
 mozpath
 .
@@ -488,38 +490,38 @@ join
 env
 .
 topobjdir
-'
+"
 dist
-'
+"
 )
                 
-'
+"
 DEPTH
-'
+"
 :
 env
 .
 topobjdir
                 
-'
+"
 MOZILLA_DIR
-'
+"
 :
 env
 .
 topsrcdir
                 
-'
+"
 topsrcdir
-'
+"
 :
 env
 .
 topsrcdir
                 
-'
+"
 topobjdir
-'
+"
 :
 env
 .
@@ -552,8 +554,8 @@ cmd
                 
 accum
 =
-'
-'
+"
+"
                 
 for
 word
@@ -597,16 +599,16 @@ append
 (
 accum
 +
-'
-'
+"
+"
 +
 word
 )
                         
 accum
 =
-'
-'
+"
+"
                     
 elif
 accum
@@ -618,8 +620,8 @@ has_quote
 accum
 +
 =
-'
-'
+"
+"
 +
 word
                     
@@ -689,20 +691,21 @@ db
 .
 append
 (
+                
 {
-                
-'
+                    
+"
 directory
-'
+"
 :
 directory
-                
-'
+                    
+"
 command
-'
+"
 :
-'
-'
+"
+"
 .
 join
 (
@@ -715,10 +718,10 @@ a
 in
 c
 )
-                
-'
+                    
+"
 file
-'
+"
 :
 mozpath
 .
@@ -727,8 +730,9 @@ join
 directory
 filename
 )
-            
+                
 }
+            
 )
         
 import
@@ -783,11 +787,11 @@ self
 environment
 .
 topobjdir
-'
+"
 compile_commands
 .
 json
-'
+"
 )
     
 def
@@ -823,6 +827,7 @@ self
 .
 _build_db_line
 (
+                    
 obj
 .
 objdir
@@ -833,10 +838,10 @@ obj
 .
 config
 f
-                                    
 obj
 .
 canonical_suffix
+                
 )
             
 return
@@ -853,6 +858,7 @@ self
 .
 _build_db_line
 (
+                
 obj
 .
 objdir
@@ -866,10 +872,10 @@ f
 [
 0
 ]
-                                
 obj
 .
 canonical_suffix
+            
 )
             
 for
@@ -885,26 +891,32 @@ self
 .
 _build_db_line
 (
+                    
 obj
 .
 objdir
+                    
 obj
 .
 relsrcdir
+                    
 obj
 .
 config
-                                    
+                    
 entry
+                    
 obj
 .
 canonical_suffix
+                    
 unified
 =
 f
 [
 0
 ]
+                
 )
     
 def
@@ -920,13 +932,19 @@ pass
 def
 _handle_ipdl_sources
 (
+        
 self
+        
 ipdl_dir
+        
 sorted_ipdl_sources
+        
 sorted_nonstatic_ipdl_sources
-                             
+        
 sorted_static_ipdl_sources
+        
 unified_ipdl_cppsrcs_mapping
+    
 )
 :
         
@@ -949,24 +967,28 @@ f
 [
 0
 ]
-                                
-'
+"
 .
 cpp
-'
+"
 )
     
 def
 _handle_webidl_build
 (
+        
 self
+        
 bindings_dir
+        
 unified_source_mapping
-                             
+        
 webidls
+        
 expected_build_output_files
-                             
+        
 global_define_files
+    
 )
 :
         
@@ -989,52 +1011,51 @@ f
 [
 0
 ]
-                                
-'
+"
 .
 cpp
-'
+"
 )
     
 COMPILERS
 =
 {
         
-'
+"
 .
 c
-'
+"
 :
-'
+"
 CC
-'
+"
         
-'
+"
 .
 cpp
-'
+"
 :
-'
+"
 CXX
-'
+"
         
-'
+"
 .
 m
-'
+"
 :
-'
+"
 CC
-'
+"
         
-'
+"
 .
 mm
-'
+"
 :
-'
+"
 CXX
-'
+"
     
 }
     
@@ -1042,57 +1063,58 @@ CFLAGS
 =
 {
         
-'
+"
 .
 c
-'
+"
 :
-'
+"
 CFLAGS
-'
+"
         
-'
+"
 .
 cpp
-'
+"
 :
-'
+"
 CXXFLAGS
-'
+"
         
-'
+"
 .
 m
-'
+"
 :
-'
+"
 CFLAGS
-'
+"
         
-'
+"
 .
 mm
-'
+"
 :
-'
+"
 CXXFLAGS
-'
+"
     
 }
     
 def
 _build_db_line
 (
+        
 self
 objdir
 reldir
 cenv
 filename
-                       
 canonical_suffix
 unified
 =
 None
+    
 )
 :
         
@@ -1115,12 +1137,13 @@ _db
 .
 setdefault
 (
+            
 (
 objdir
 filename
 unified
 )
-                                 
+            
 cenv
 .
 substs
@@ -1136,24 +1159,25 @@ canonical_suffix
 split
 (
 )
+            
 +
-                                 
 [
-'
+"
 -
 o
-'
-'
+"
+"
 /
 dev
 /
 null
-'
-'
+"
+"
 -
 c
-'
+"
 ]
+        
 )
         
 reldir
@@ -1222,13 +1246,13 @@ db
 .
 append
 (
-'
+"
 (
 COMPUTED_
 %
 s
 )
-'
+"
 %
 self
 .
@@ -1242,54 +1266,54 @@ if
 canonical_suffix
 =
 =
-'
+"
 .
 m
-'
+"
 :
             
 append_var
 (
-'
+"
 OS_COMPILE_CMFLAGS
-'
+"
 )
             
 db
 .
 append
 (
-'
+"
 (
 MOZBUILD_CMFLAGS
 )
-'
+"
 )
         
 elif
 canonical_suffix
 =
 =
-'
+"
 .
 mm
-'
+"
 :
             
 append_var
 (
-'
+"
 OS_COMPILE_CMMFLAGS
-'
+"
 )
             
 db
 .
 append
 (
-'
+"
 (
 MOZBUILD_CMMFLAGS
 )
-'
+"
 )
