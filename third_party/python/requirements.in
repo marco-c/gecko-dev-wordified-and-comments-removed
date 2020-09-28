@@ -217,7 +217,7 @@ locales
 =
 8
 .
-0
+1
 .
 0
 cookies
@@ -263,7 +263,17 @@ migrate
 =
 0
 .
-9
+10
+fluent
+.
+syntax
+=
+=
+0
+.
+18
+.
+1
 glean_parser
 =
 =

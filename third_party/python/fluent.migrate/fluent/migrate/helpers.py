@@ -86,6 +86,14 @@ ast
 as
 FTL
 from
+fluent
+.
+syntax
+.
+visitor
+import
+Transformer
+from
 .
 transforms
 import
@@ -268,8 +276,6 @@ name
 class
 IntoTranforms
 (
-FTL
-.
 Transformer
 )
 :

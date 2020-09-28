@@ -33,6 +33,14 @@ serializer
 import
 serialize_comment
 from
+fluent
+.
+syntax
+.
+visitor
+import
+Visitor
+from
 .
 base
 import
@@ -53,8 +61,6 @@ Parser
 class
 WordCounter
 (
-ftl
-.
 Visitor
 )
 :

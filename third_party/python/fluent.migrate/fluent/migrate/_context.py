@@ -64,6 +64,11 @@ import
 get_plural
 from
 .
+evaluator
+import
+Evaluator
+from
+.
 merge
 import
 merge_resource
@@ -246,6 +251,15 @@ transforms
 =
 {
 }
+        
+self
+.
+evaluator
+=
+Evaluator
+(
+self
+)
     
 def
 read_ftl_resource
@@ -1969,6 +1983,24 @@ known_translations
 )
         
 }
+    
+def
+evaluate
+(
+self
+node
+)
+:
+        
+return
+self
+.
+evaluator
+.
+visit
+(
+node
+)
 logging
 .
 basicConfig

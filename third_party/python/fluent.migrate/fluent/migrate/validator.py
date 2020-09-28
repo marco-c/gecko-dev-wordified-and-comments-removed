@@ -49,6 +49,14 @@ ast
 as
 FTL
 from
+fluent
+.
+syntax
+.
+visitor
+import
+Visitor
+from
 compare_locales
 import
 mozpath
@@ -2048,8 +2056,6 @@ True
 class
 TransformsInspector
 (
-FTL
-.
 Visitor
 )
 :
