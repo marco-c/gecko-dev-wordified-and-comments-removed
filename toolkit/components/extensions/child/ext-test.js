@@ -305,10 +305,6 @@ return
 String
 (
 value
-.
-toSource
-(
-)
 )
 ;
 }
