@@ -419,14 +419,6 @@ Capture
 {
 assert
 (
-IsGUIThread
-(
-false
-)
-)
-;
-assert
-(
 callback_
 )
 ;
