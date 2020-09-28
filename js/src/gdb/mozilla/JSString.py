@@ -229,6 +229,9 @@ get_header_length_and_flags
 self
 .
 value
+self
+.
+cache
 )
         
 corrupt
