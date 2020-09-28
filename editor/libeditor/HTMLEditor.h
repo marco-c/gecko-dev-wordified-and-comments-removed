@@ -5390,11 +5390,6 @@ nsIEditor
 :
 EDirection
 aDirectionAndAmount
-nsIEditor
-:
-:
-EStripWrappers
-aStripWrappers
 AutoRangeArray
 &
 aRangesToDelete

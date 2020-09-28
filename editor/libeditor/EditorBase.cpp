@@ -18007,7 +18007,6 @@ AsHTMLEditor
 ComputeTargetRanges
 (
 aDirectionAndAmount
-aStripWrappers
 rangesToDelete
 )
 ;
