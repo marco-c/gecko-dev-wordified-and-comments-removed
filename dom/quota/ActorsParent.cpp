@@ -2946,11 +2946,8 @@ nsIFile
 nsresult
 >
 {
-QM_TRY_VAR
+QM_TRY_RETURN
 (
-const
-auto
-file
 MOZ_TO_RESULT_INVOKE_TYPED
 (
 nsCOMPtr
@@ -2961,9 +2958,6 @@ entries
 GetNextFile
 )
 )
-;
-return
-file
 ;
 }
 [
