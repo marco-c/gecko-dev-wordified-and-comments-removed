@@ -32,6 +32,9 @@ namespace
 jit
 {
 class
+ICEntry
+;
+class
 CacheIRHealth
 {
 enum
