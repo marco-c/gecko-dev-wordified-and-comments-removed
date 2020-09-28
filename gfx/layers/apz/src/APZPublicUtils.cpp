@@ -378,6 +378,7 @@ general_smoothScroll
 )
 &
 &
+\
 StaticPrefs
 :
 :
