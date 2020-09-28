@@ -244,7 +244,6 @@ mozilla
 GenericErrorResult
 <
 OOM
-&
 >
 RaiseParserAtomsOOMError
 (
@@ -286,7 +285,6 @@ UniquePtr
 ParserAtomEntry
 >
 OOM
-&
 >
 ParserAtomEntry
 :
@@ -399,7 +397,6 @@ UniquePtr
 ParserAtomEntry
 >
 OOM
-&
 >
 ParserAtomEntry
 :
@@ -891,7 +888,6 @@ Result
 JSAtom
 *
 OOM
-&
 >
 ParserAtomEntry
 :
@@ -1526,7 +1522,6 @@ const
 ParserAtom
 *
 OOM
-&
 >
 ParserAtomsTable
 :
@@ -1611,7 +1606,6 @@ const
 ParserAtom
 *
 OOM
-&
 >
 ParserAtomsTable
 :
@@ -1793,7 +1787,6 @@ const
 ParserAtom
 *
 OOM
-&
 >
 ParserAtomsTable
 :
@@ -2003,7 +1996,6 @@ const
 ParserAtom
 *
 OOM
-&
 >
 ParserAtomsTable
 :
@@ -2054,7 +2046,6 @@ const
 ParserAtom
 *
 OOM
-&
 >
 ParserAtomsTable
 :
@@ -2148,7 +2139,6 @@ const
 ParserAtom
 *
 OOM
-&
 >
 ParserAtomsTable
 :
@@ -2419,7 +2409,6 @@ const
 ParserAtom
 *
 OOM
-&
 >
 ParserAtomsTable
 :
@@ -2575,7 +2564,6 @@ const
 ParserAtom
 *
 OOM
-&
 >
 ParserAtomsTable
 :
@@ -2932,7 +2920,6 @@ const
 ParserAtom
 *
 OOM
-&
 >
 ParserAtomsTable
 :
