@@ -2823,7 +2823,7 @@ mUnscaledInnerSize
 }
 Maybe
 <
-LayoutDeviceIntRect
+nsRect
 >
 GetVisibleRect
 (
