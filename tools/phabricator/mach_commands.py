@@ -3,6 +3,8 @@ __future__
 import
 absolute_import
 unicode_literals
+import
+mozfile
 from
 mach
 .
@@ -105,9 +107,6 @@ import
 os
         
 import
-shutil
-        
-import
 subprocess
         
 import
@@ -115,7 +114,7 @@ sys
         
 existing
 =
-shutil
+mozfile
 .
 which
 (
@@ -173,9 +172,9 @@ exit
 1
 )
         
-if
-not
-shutil
+pip3
+=
+mozfile
 .
 which
 (
@@ -183,6 +182,10 @@ which
 pip3
 "
 )
+        
+if
+not
+pip3
 :
             
 self
@@ -233,9 +236,7 @@ exit
 command
 =
 [
-"
 pip3
-"
 "
 install
 "
