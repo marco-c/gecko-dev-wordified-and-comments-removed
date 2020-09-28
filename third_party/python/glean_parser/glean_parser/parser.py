@@ -708,8 +708,10 @@ format_error
 (
                 
 filepath
+                
 "
 "
+                
 f
 "
 schema
@@ -1339,6 +1341,7 @@ format_error
 (
                     
 filepath
+                    
 f
 "
 On
@@ -1351,6 +1354,7 @@ category_key
 metric_key
 }
 "
+                    
 str
 (
 e

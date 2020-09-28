@@ -109,22 +109,38 @@ strings
 dicts
 to
 use
-mapOf
+new
+Dictionary
+<
+string
+string
+>
+{
+.
+.
+.
+}
 (
-not
-currently
-supported
+string
+string
 )
       
 -
 sets
 to
 use
-setOf
+new
+HashSet
+<
+string
+>
 (
-not
-currently
-supported
+)
+{
+}
+(
+only
+strings
 )
       
 -
@@ -238,8 +254,13 @@ dict
                 
 yield
 "
-mapOf
-(
+new
+Dictionary
+<
+string
+string
+>
+{
 "
                 
 first
@@ -267,6 +288,11 @@ yield
 "
                     
 yield
+"
+{
+"
+                    
+yield
 from
 self
 .
@@ -277,7 +303,6 @@ key
                     
 yield
 "
-to
 "
                     
 yield
@@ -289,13 +314,18 @@ iterencode
 subvalue
 )
                     
+yield
+"
+}
+"
+                    
 first
 =
 False
                 
 yield
 "
-)
+}
 "
             
 elif
@@ -340,8 +370,14 @@ set
                 
 yield
 "
-setOf
+new
+HashSet
+<
+string
+>
 (
+)
+{
 "
                 
 first
@@ -384,7 +420,7 @@ False
                 
 yield
 "
-)
+}
 "
             
 else

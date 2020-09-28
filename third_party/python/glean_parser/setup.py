@@ -347,11 +347,13 @@ telemetry
 entry_points
 =
 {
+        
 "
 console_scripts
 "
 :
 [
+            
 "
 glean_parser
 =
@@ -361,7 +363,9 @@ __main__
 :
 main
 "
+        
 ]
+    
 }
     
 install_requires
