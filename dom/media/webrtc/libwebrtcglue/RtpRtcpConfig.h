@@ -7,8 +7,6 @@ __RTPRTCP_CONFIG_H__
 #
 include
 "
-trunk
-/
 webrtc
 /
 common_types
