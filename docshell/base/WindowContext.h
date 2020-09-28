@@ -1168,9 +1168,11 @@ IDX_UserActivationState
 >
 )
 ;
+const
 uint64_t
 mInnerWindowId
 ;
+const
 uint64_t
 mOuterWindowId
 ;
