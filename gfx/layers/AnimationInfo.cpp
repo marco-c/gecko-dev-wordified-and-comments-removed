@@ -4285,10 +4285,10 @@ scrollFrame
 return
 PartialPrerenderData
 {
-LayoutDeviceIntRect
+LayoutDeviceRect
 :
 :
-FromAppUnitsToInside
+FromAppUnits
 (
 partialPrerenderedRect
 devPixelsToAppUnits

@@ -485,6 +485,18 @@ using
 mozilla
 :
 :
+LayoutDeviceRect
+from
+"
+Units
+.
+h
+"
+;
+using
+mozilla
+:
+:
 layers
 :
 :
@@ -1142,7 +1154,7 @@ comparable
 struct
 PartialPrerenderData
 {
-LayoutDeviceIntRect
+LayoutDeviceRect
 rect
 ;
 SideBits

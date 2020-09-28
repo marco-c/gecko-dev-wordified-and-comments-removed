@@ -227,7 +227,7 @@ bool
 ShouldBeJank
 (
 const
-LayoutDeviceIntRect
+LayoutDeviceRect
 &
 aPrerenderedRect
 SideBits
