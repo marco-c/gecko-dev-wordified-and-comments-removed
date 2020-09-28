@@ -1273,7 +1273,6 @@ isRecommended
 blocklistState
 userDisabled
 embedderDisabled
-temporarilyInstalled
 isActive
 isBuiltin
 id
@@ -1469,9 +1468,6 @@ description
 enabled
 :
 isActive
-temporary
-:
-temporarilyInstalled
 disabledFlags
 version
 creatorName
