@@ -319,6 +319,17 @@ mLabel
 ;
 }
 virtual
+bool
+HasAlpha
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 nsresult
 TakePhoto
 (
