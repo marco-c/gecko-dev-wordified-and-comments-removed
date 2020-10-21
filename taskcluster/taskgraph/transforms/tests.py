@@ -2085,18 +2085,6 @@ trunk
 ]
                     
 '
-win
-.
-*
-'
-:
-[
-'
-trunk
-'
-]
-                    
-'
 default
 '
 :
