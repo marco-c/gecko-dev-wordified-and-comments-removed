@@ -599,6 +599,13 @@ GetDocument
 )
 const
 ;
+Document
+*
+GetExtantDoc
+(
+)
+const
+;
 WindowContext
 *
 GetParentWindowContext
