@@ -1956,6 +1956,16 @@ get
 )
 )
 ;
+if
+(
+!
+entry
+)
+{
+return
+nullptr
+;
+}
 }
 else
 {
