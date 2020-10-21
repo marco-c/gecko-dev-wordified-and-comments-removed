@@ -43,10 +43,5 @@ docs
 .
 zip
 "
-"
-unpack
-"
-:
-true
 }
 ]

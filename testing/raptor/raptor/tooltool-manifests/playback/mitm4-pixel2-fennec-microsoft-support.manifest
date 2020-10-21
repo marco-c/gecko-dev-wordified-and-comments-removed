@@ -32,11 +32,6 @@ support
 zip
 "
 "
-unpack
-"
-:
-true
-"
 digest
 "
 :
