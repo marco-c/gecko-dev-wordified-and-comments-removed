@@ -413,12 +413,9 @@ aOther
 mStrings
 ;
 }
-void
+nsAutoString
 SerializeToString
 (
-nsAString
-&
-aString
 )
 const
 ;
