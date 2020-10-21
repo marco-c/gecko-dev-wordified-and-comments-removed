@@ -1425,9 +1425,6 @@ ChasePrimitive
 :
 :
 Nothing
-global_enable_picture_caching
-:
-false
 testing
 :
 false

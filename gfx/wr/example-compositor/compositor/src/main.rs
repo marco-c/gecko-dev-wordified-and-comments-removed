@@ -1703,9 +1703,6 @@ new
 )
 )
 debug_flags
-enable_picture_caching
-:
-true
 compositor_config
 .
 .

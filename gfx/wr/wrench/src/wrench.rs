@@ -1246,9 +1246,6 @@ bool
 no_subpixel_aa
 :
 bool
-no_picture_caching
-:
-bool
 verbose
 :
 bool
@@ -1430,10 +1427,6 @@ clone
 )
 )
 chase_primitive
-enable_picture_caching
-:
-!
-no_picture_caching
 testing
 :
 true

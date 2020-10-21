@@ -521,11 +521,6 @@ gfx_webrender_enable_low_priority_pool
 (
 )
 ;
-bool
-supportPictureCaching
-=
-isMainWindow
-;
 wr
 :
 :
@@ -584,15 +579,6 @@ gfxVars
 UseGLSwizzle
 (
 )
-StaticPrefs
-:
-:
-gfx_webrender_picture_caching
-(
-)
-&
-&
-supportPictureCaching
 gfx
 :
 :
