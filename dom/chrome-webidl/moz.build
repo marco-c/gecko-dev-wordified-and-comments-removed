@@ -349,6 +349,11 @@ TelemetryStopwatch
 webidl
 '
 '
+UserInteraction
+.
+webidl
+'
+'
 WebExtensionContentScript
 .
 webidl

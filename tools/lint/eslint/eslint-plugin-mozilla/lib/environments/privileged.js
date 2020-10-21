@@ -1934,6 +1934,9 @@ false
 URLSearchParams
 :
 false
+UserInteraction
+:
+false
 UserProximityEvent
 :
 false
