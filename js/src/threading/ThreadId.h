@@ -102,13 +102,6 @@ aOther
 )
 ;
 }
-MOZ_IMPLICIT
-operator
-bool
-(
-)
-const
-;
 inline
 PlatformData
 *
