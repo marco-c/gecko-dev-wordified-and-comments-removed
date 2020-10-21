@@ -3207,6 +3207,12 @@ case
 RefType
 :
 :
+Eq
+:
+case
+RefType
+:
+:
 TypeIndex
 :
 MOZ_CRASH
