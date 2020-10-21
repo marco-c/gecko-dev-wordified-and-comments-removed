@@ -2085,6 +2085,18 @@ trunk
 ]
                     
 '
+win
+.
+*
+'
+:
+[
+'
+trunk
+'
+]
+                    
+'
 default
 '
 :
