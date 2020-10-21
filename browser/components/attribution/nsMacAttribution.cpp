@@ -263,6 +263,11 @@ CFRelease
 referrer
 )
 ;
+if
+(
+referrerURL
+)
+{
 :
 :
 CFRelease
@@ -270,6 +275,7 @@ CFRelease
 referrerURL
 )
 ;
+}
 return
 NS_OK
 ;
