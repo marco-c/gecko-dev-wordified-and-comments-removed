@@ -12,6 +12,15 @@ include
 "
 jit
 /
+AutoDetectInvalidation
+.
+h
+"
+#
+include
+"
+jit
+/
 CacheIRCompiler
 .
 h
