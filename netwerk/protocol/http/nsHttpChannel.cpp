@@ -3401,6 +3401,7 @@ new
 nsHTTPSOnlyStreamListener
 (
 mListener
+mLoadInfo
 )
 ;
 mListener

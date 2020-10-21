@@ -3368,7 +3368,7 @@ requestingLocation
 topWC
 -
 >
-AddMixedContentSecurityState
+AddSecurityState
 (
 newState
 )

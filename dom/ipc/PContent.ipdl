@@ -3558,7 +3558,7 @@ principal
 )
 ;
 async
-AddMixedContentSecurityState
+AddSecurityState
 (
 MaybeDiscardedWindowContext
 aContext
