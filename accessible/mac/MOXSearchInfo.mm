@@ -453,11 +453,11 @@ NSArray
 performSearch
 {
 AccessibleOrProxy
-geckoStartAcc
+geckoRootAcc
 =
 [
 self
-startGeckoAccessible
+rootGeckoAccessible
 ]
 ;
 NSMutableArray
@@ -499,7 +499,7 @@ mImmediateDescendantsOnly
 ?
 RotorRule
 (
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorRule
@@ -659,7 +659,7 @@ roles
 :
 :
 HEADING
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorRoleRule
@@ -706,7 +706,7 @@ roles
 :
 :
 ARTICLE
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorRoleRule
@@ -753,7 +753,7 @@ roles
 :
 :
 TABLE
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorRoleRule
@@ -800,7 +800,7 @@ roles
 :
 :
 LANDMARK
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorRoleRule
@@ -847,7 +847,7 @@ roles
 :
 :
 LIST
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorRoleRule
@@ -890,7 +890,7 @@ mImmediateDescendantsOnly
 ?
 RotorLinkRule
 (
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorLinkRule
@@ -929,7 +929,7 @@ mImmediateDescendantsOnly
 ?
 RotorVisitedLinkRule
 (
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorVisitedLinkRule
@@ -968,7 +968,7 @@ mImmediateDescendantsOnly
 ?
 RotorUnvisitedLinkRule
 (
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorUnvisitedLinkRule
@@ -1011,7 +1011,7 @@ roles
 :
 :
 PUSHBUTTON
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorRoleRule
@@ -1054,7 +1054,7 @@ mImmediateDescendantsOnly
 ?
 RotorControlRule
 (
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorControlRule
@@ -1097,7 +1097,7 @@ roles
 :
 :
 RADIO_GROUP
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorRoleRule
@@ -1144,7 +1144,7 @@ roles
 :
 :
 DOCUMENT
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorRoleRule
@@ -1191,7 +1191,7 @@ roles
 :
 :
 GRAPHIC
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorRoleRule
@@ -1238,7 +1238,7 @@ roles
 :
 :
 CHECKBUTTON
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorRoleRule
@@ -1281,7 +1281,7 @@ mImmediateDescendantsOnly
 ?
 RotorStaticTextRule
 (
-geckoStartAcc
+geckoRootAcc
 )
 :
 RotorStaticTextRule
