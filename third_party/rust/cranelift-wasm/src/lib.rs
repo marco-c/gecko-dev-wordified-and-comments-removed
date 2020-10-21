@@ -371,10 +371,6 @@ cranelift_frontend
 FunctionBuilder
 ;
 pub
-use
-wasmparser
-;
-pub
 const
 VERSION
 :

@@ -19,7 +19,6 @@ Type
 derive
 (
 Debug
-Clone
 )
 ]
 pub

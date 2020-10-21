@@ -125,7 +125,7 @@ version
 "
 0
 .
-63
+59
 .
 0
 "
@@ -228,15 +228,6 @@ optional
 =
 true
 }
-itertools
-=
-"
-0
-.
-9
-.
-0
-"
 log
 =
 {

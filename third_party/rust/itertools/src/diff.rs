@@ -1,16 +1,10 @@
 use
-crate
-:
-:
 free
 :
 :
 put_back
 ;
 use
-crate
-:
-:
 structs
 :
 :
