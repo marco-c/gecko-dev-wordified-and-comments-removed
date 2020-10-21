@@ -10479,7 +10479,7 @@ rv
 pageSeqFrame
 -
 >
-PrePrintNextPage
+PrePrintNextSheet
 (
 mPagePrintTimer
 &
@@ -10894,7 +10894,7 @@ rv
 pageSeqFrame
 -
 >
-PrintNextPage
+PrintNextSheet
 (
 )
 ;

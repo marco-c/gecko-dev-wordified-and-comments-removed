@@ -226,7 +226,7 @@ aDocURL
 )
 ;
 nsresult
-PrePrintNextPage
+PrePrintNextSheet
 (
 nsITimerCallback
 *
@@ -237,7 +237,7 @@ aDone
 )
 ;
 nsresult
-PrintNextPage
+PrintNextSheet
 (
 )
 ;
@@ -399,7 +399,7 @@ aChildPhysicalMargin
 ;
 nsIFrame
 *
-GetCurrentPageFrame
+GetCurrentSheetFrame
 (
 )
 ;
