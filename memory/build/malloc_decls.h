@@ -203,9 +203,11 @@ MALLOC_FUNCS
 MALLOC_FUNCS_JEMALLOC
 MALLOC_DECL
 (
-jemalloc_stats
+jemalloc_stats_internal
 void
 jemalloc_stats_t
+*
+jemalloc_bin_stats_t
 *
 )
 MALLOC_DECL

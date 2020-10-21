@@ -1819,10 +1819,11 @@ stats
 ;
 :
 :
-jemalloc_stats
+jemalloc_stats_internal
 (
 &
 stats
+nullptr
 )
 ;
 FdPrintf
