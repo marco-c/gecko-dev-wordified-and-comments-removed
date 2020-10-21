@@ -973,8 +973,9 @@ appServerKey
 )
 )
 ;
-MOZ_ALWAYS_TRUE
+if
 (
+!
 r
 -
 >
@@ -982,7 +983,11 @@ Dispatch
 (
 )
 )
+{
+return
+NS_ERROR_UNEXPECTED
 ;
+}
 return
 NS_OK
 ;
