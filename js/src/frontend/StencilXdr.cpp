@@ -1262,7 +1262,7 @@ HasSharedData
 {
 MOZ_TRY
 (
-RuntimeScriptData
+SharedImmutableScriptData
 :
 :
 XDR

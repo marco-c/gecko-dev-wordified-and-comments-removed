@@ -1727,7 +1727,7 @@ symbolRegistry
 js
 :
 :
-RuntimeScriptDataTable
+SharedImmutableScriptDataTable
 &
 scriptDataTable
 (
