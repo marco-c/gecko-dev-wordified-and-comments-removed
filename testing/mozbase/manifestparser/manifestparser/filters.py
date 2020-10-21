@@ -3016,6 +3016,14 @@ self
 paths
 =
 paths
+        
+self
+.
+missing
+=
+set
+(
+)
     
 def
 __call__
@@ -3025,6 +3033,12 @@ tests
 values
 )
 :
+        
+seen
+=
+set
+(
+)
         
 for
 test
@@ -3255,10 +3269,30 @@ disabled
 '
 ]
                 
+seen
+.
+add
+(
+tp
+)
+                
 yield
 test
                 
 break
+        
+self
+.
+missing
+=
+set
+(
+self
+.
+paths
+)
+-
+seen
 DEFAULT_FILTERS
 =
 (
