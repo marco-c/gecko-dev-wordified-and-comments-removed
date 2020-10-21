@@ -14,6 +14,13 @@ h
 #
 include
 "
+TimeUnits
+.
+h
+"
+#
+include
+"
 vpx
 /
 vpx_codec
@@ -188,7 +195,10 @@ mEncodedTimestamp
 CheckedInt64
 mExtractedDuration
 ;
-CheckedInt64
+media
+:
+:
+TimeUnit
 mExtractedDurationUs
 ;
 RefPtr
