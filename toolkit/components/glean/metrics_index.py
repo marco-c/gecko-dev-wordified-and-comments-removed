@@ -10,7 +10,7 @@ utf
 -
 *
 -
-metrics_yamls
+METRICS
 =
 [
     
@@ -26,7 +26,7 @@ metrics
 yaml
 '
 ]
-pings_yamls
+PINGS
 =
 [
     
