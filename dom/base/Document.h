@@ -2884,7 +2884,7 @@ aURI
 ;
 Result
 <
-nsCOMPtr
+OwningNonNull
 <
 nsIURI
 >

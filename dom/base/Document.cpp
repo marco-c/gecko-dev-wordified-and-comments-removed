@@ -28729,7 +28729,7 @@ RefreshLinkHrefs
 }
 Result
 <
-nsCOMPtr
+OwningNonNull
 <
 nsIURI
 >
@@ -28746,7 +28746,7 @@ nsAString
 aURI
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIURI
 >
@@ -28769,7 +28769,19 @@ GetDocBaseURI
 )
 ;
 return
+OwningNonNull
+<
+nsIURI
+>
+(
+std
+:
+:
+move
+(
 resolvedURI
+)
+)
 ;
 }
 URLExtraData

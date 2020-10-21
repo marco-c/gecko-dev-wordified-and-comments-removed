@@ -382,7 +382,7 @@ return
 }
 Result
 <
-nsCOMPtr
+OwningNonNull
 <
 nsIURI
 >
