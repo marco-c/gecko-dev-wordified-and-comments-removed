@@ -305,7 +305,7 @@ allBrowserPageActions
 {
 bpa
 .
-placeAllActions
+placeAllActionsInUrlbar
 (
 )
 ;
