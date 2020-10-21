@@ -961,10 +961,20 @@ name
 .
 endswith
 (
+(
 '
 .
 pdb
 '
+'
+.
+exe
+'
+'
+.
+dll
+'
+)
 )
 :
                         
