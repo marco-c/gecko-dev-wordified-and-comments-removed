@@ -48,7 +48,7 @@ h
 #
 include
 "
-nsClassHashtable
+nsRefPtrHashtable
 .
 h
 "
@@ -1425,8 +1425,10 @@ nsISocketTransport
 *
 mSocketTransport
 ;
+RefPtr
+<
 nsAHttpSegmentReader
-*
+>
 mSegmentReader
 ;
 nsAHttpSegmentWriter
@@ -1459,7 +1461,7 @@ Http2Stream
 >
 mStreamIDHash
 ;
-nsClassHashtable
+nsRefPtrHashtable
 <
 nsPtrHashKey
 <
