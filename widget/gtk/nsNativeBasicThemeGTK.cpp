@@ -445,7 +445,11 @@ aStyle
 const
 EventStates
 &
-aState
+aElementState
+const
+EventStates
+&
+aDocumentState
 )
 {
 sRGBColor
@@ -454,7 +458,8 @@ thumbColor
 ComputeScrollbarthumbColor
 (
 aStyle
-aState
+aElementState
+aDocumentState
 )
 ;
 Rect
@@ -519,7 +524,11 @@ aStyle
 const
 EventStates
 &
-aState
+aElementState
+const
+EventStates
+&
+aDocumentState
 )
 {
 sRGBColor
@@ -528,7 +537,8 @@ thumbColor
 ComputeScrollbarthumbColor
 (
 aStyle
-aState
+aElementState
+aDocumentState
 )
 ;
 Rect
@@ -590,6 +600,10 @@ const
 ComputedStyle
 &
 aStyle
+const
+EventStates
+&
+aDocumentState
 bool
 aIsRoot
 )
@@ -600,8 +614,8 @@ trackColor
 ComputeScrollbarColor
 (
 aStyle
+aDocumentState
 aIsRoot
-true
 )
 ;
 aDrawTarget
@@ -637,6 +651,10 @@ const
 ComputedStyle
 &
 aStyle
+const
+EventStates
+&
+aDocumentState
 uint32_t
 aDpiRatio
 bool
@@ -649,8 +667,8 @@ trackColor
 ComputeScrollbarColor
 (
 aStyle
+aDocumentState
 aIsRoot
-true
 )
 ;
 aDrawTarget
