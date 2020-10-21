@@ -332,14 +332,11 @@ mNonstandardEventsEnabled
 bool
 mShuttingDown
 ;
-nsTArray
-<
 RefPtr
 <
 GamepadEventChannelChild
 >
->
-mChannelChildren
+mChannelChild
 ;
 private
 :
