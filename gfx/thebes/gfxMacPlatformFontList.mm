@@ -4619,7 +4619,13 @@ InitData
 (
 key
 name
-0
+fontlist
+:
+:
+Family
+:
+:
+kNoIndex
 GetVisibilityForFamily
 (
 name

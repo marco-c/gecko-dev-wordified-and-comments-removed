@@ -267,6 +267,15 @@ Face
 aFace
 )
 ;
+nsCString
+LocalizedFamilyName
+(
+const
+Family
+*
+aFamily
+)
+;
 bool
 Initialized
 (
