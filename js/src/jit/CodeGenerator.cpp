@@ -41609,6 +41609,9 @@ ok
 )
 ;
 }
+#
+ifndef
+JS_SIMULATOR
 if
 (
 JitOptions
@@ -41767,6 +41770,8 @@ restoreVolatile
 )
 ;
 }
+#
+endif
 masm
 .
 bind
