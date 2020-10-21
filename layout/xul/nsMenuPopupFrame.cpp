@@ -6769,10 +6769,8 @@ mAnchorRect
 anchorRect
 ;
 }
-else
 #
 endif
-{
 screenPoint
 =
 AdjustPositionForAnchorAlign
@@ -6782,7 +6780,6 @@ hFlip
 vFlip
 )
 ;
-}
 }
 else
 {
