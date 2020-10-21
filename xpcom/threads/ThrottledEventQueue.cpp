@@ -588,7 +588,6 @@ mEventQueue
 .
 GetEvent
 (
-nullptr
 lock
 )
 ;
@@ -762,7 +761,6 @@ mEventQueue
 .
 GetEvent
 (
-nullptr
 lock
 )
 ;

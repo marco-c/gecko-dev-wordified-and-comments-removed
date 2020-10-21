@@ -3740,12 +3740,7 @@ NS_ERROR_NOT_SAME_THREAD
 *
 aResult
 =
-mEvents
--
->
-HasPendingHighPriorityEvents
-(
-)
+false
 ;
 return
 NS_OK
@@ -4500,9 +4495,6 @@ if
 mIsInLocalExecutionMode
 )
 {
-EventQueuePriority
-priority
-;
 if
 (
 nsCOMPtr
@@ -4517,8 +4509,6 @@ mEvents
 GetEvent
 (
 reallyWait
-&
-priority
 )
 )
 {
@@ -4755,8 +4745,6 @@ mEvents
 GetEvent
 (
 reallyWait
-&
-priority
 &
 mLastEventDelay
 )

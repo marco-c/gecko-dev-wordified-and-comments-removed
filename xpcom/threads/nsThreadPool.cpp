@@ -952,7 +952,6 @@ mEvents
 .
 GetEvent
 (
-nullptr
 lock
 &
 delay
