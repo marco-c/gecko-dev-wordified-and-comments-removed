@@ -10372,6 +10372,11 @@ mSkippedComposite
 =
 false
 ;
+if
+(
+mCompositorScheduler
+)
+{
 mCompositorScheduler
 -
 >
@@ -10379,6 +10384,7 @@ ScheduleComposition
 (
 )
 ;
+}
 }
 }
 void
