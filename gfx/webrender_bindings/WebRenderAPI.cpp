@@ -269,6 +269,9 @@ aUseDComp
 bool
 *
 aUseTripleBuffering
+bool
+*
+aSupportsExternalBufferTextures
 RefPtr
 <
 widget
@@ -317,6 +320,10 @@ aUseDComp
 mUseTripleBuffering
 (
 aUseTripleBuffering
+)
+mSupportsExternalBufferTextures
+(
+aSupportsExternalBufferTextures
 )
 mBridge
 (
@@ -459,6 +466,16 @@ compositor
 -
 >
 UseTripleBuffering
+(
+)
+;
+*
+mSupportsExternalBufferTextures
+=
+compositor
+-
+>
+SupportsExternalBufferTextures
 (
 )
 ;
@@ -907,6 +924,10 @@ mUseDComp
 bool
 *
 mUseTripleBuffering
+;
+bool
+*
+mSupportsExternalBufferTextures
 ;
 layers
 :
@@ -1832,6 +1853,11 @@ useTripleBuffering
 =
 false
 ;
+bool
+supportsExternalBufferTextures
+=
+false
+;
 layers
 :
 :
@@ -1871,6 +1897,8 @@ useANGLE
 useDComp
 &
 useTripleBuffering
+&
+supportsExternalBufferTextures
 std
 :
 :
@@ -1938,6 +1966,7 @@ maxTextureSize
 useANGLE
 useDComp
 useTripleBuffering
+supportsExternalBufferTextures
 syncHandle
 )
 )
@@ -1989,6 +2018,7 @@ mMaxTextureSize
 mUseANGLE
 mUseDComp
 mUseTripleBuffering
+mSupportsExternalBufferTextures
 mSyncHandle
 )
 ;
@@ -2056,6 +2086,8 @@ bool
 aUseDComp
 bool
 aUseTripleBuffering
+bool
+aSupportsExternalBufferTextures
 layers
 :
 :
@@ -2086,6 +2118,10 @@ aUseDComp
 mUseTripleBuffering
 (
 aUseTripleBuffering
+)
+mSupportsExternalBufferTextures
+(
+aSupportsExternalBufferTextures
 )
 mCaptureSequence
 (

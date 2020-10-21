@@ -284,6 +284,17 @@ false
 ;
 }
 virtual
+bool
+SupportsExternalBufferTextures
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 LayoutDeviceIntSize
 GetBufferSize
 (

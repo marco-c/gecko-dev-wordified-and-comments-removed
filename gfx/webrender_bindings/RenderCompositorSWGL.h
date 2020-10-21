@@ -135,6 +135,17 @@ GetBufferSize
 )
 override
 ;
+bool
+SupportsExternalBufferTextures
+(
+)
+const
+override
+{
+return
+true
+;
+}
 CompositorCapabilities
 GetCompositorCapabilities
 (
