@@ -199,6 +199,10 @@ kvstore
 ;
 extern
 crate
+l10nregistry_ffi
+;
+extern
+crate
 mapped_hyph
 ;
 extern

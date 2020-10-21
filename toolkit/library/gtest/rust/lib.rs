@@ -40,6 +40,10 @@ gkrust_shared
 ;
 extern
 crate
+l10nregistry_ffi_gtest
+;
+extern
+crate
 moz_task_gtest
 ;
 extern
