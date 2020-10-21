@@ -1098,6 +1098,15 @@ mpeg
 )
 &
 &
+!
+StaticPrefs
+:
+:
+media_ffvpx_mp3_enabled
+(
+)
+&
+&
 CanCreateWMFDecoder
 <
 CLSID_CMP3DecMediaObject
