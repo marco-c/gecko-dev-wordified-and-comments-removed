@@ -116,9 +116,6 @@ clipPath
 mask
 '
 '
-cursor
-'
-'
 a
 '
 '
@@ -1259,15 +1256,6 @@ SVGMaskElement
 objects
 .
 mask
-'
-]
-SVGCursorElement
-:
-[
-'
-objects
-.
-cursor
 '
 ]
 SVGAElement
