@@ -21,14 +21,6 @@ TRY_AUTO_PARAMETERS
 from
 taskgraph
 .
-transforms
-.
-tests
-import
-CHUNK_SUITES_BLACKLIST
-from
-taskgraph
-.
 util
 .
 bugbug
@@ -237,26 +229,13 @@ attributes
 get
         
 if
-attr
-(
-"
-unittest_suite
-"
-)
-in
-CHUNK_SUITES_BLACKLIST
-:
-            
-assert
-not
-attr
-(
 "
 test_manifests
 "
-)
-        
-else
+in
+task
+.
+attributes
 :
             
 unimportant
