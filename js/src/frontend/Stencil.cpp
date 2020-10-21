@@ -262,6 +262,7 @@ CompilationInfo
 &
 compilationInfo
 )
+const
 {
 if
 (
@@ -305,6 +306,7 @@ CompilationGCOutput
 &
 gcOutput
 )
+const
 {
 Scope
 *
@@ -1471,7 +1473,8 @@ false
 }
 for
 (
-auto
+const
+ScopeStencil
 &
 scd
 :

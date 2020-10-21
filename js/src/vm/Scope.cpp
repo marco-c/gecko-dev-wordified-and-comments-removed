@@ -12058,6 +12058,7 @@ scopeData
 MutableHandleShape
 shape
 )
+const
 {
 const
 JSClass
@@ -12259,6 +12260,7 @@ CompilationGCOutput
 &
 gcOutput
 )
+const
 {
 return
 LiftParserScopeData
@@ -12306,6 +12308,7 @@ CompilationGCOutput
 &
 gcOutput
 )
+const
 {
 UniquePtr
 <
@@ -12390,6 +12393,7 @@ CompilationGCOutput
 &
 gcOutput
 )
+const
 {
 UniquePtr
 <
@@ -12469,6 +12473,7 @@ CompilationGCOutput
 &
 gcOutput
 )
+const
 {
 RootedScope
 enclosingScope
@@ -12528,6 +12533,7 @@ CompilationGCOutput
 &
 gcOutput
 )
+const
 {
 Rooted
 <
@@ -12619,6 +12625,7 @@ CompilationGCOutput
 &
 gcOutput
 )
+const
 {
 Rooted
 <
@@ -12748,6 +12755,7 @@ CompilationGCOutput
 &
 gcOutput
 )
+const
 ;
 template
 Scope
@@ -12771,6 +12779,7 @@ CompilationGCOutput
 &
 gcOutput
 )
+const
 ;
 template
 Scope
@@ -12794,6 +12803,7 @@ CompilationGCOutput
 &
 gcOutput
 )
+const
 ;
 template
 Scope
@@ -12817,6 +12827,7 @@ CompilationGCOutput
 &
 gcOutput
 )
+const
 ;
 template
 Scope
@@ -12840,4 +12851,5 @@ CompilationGCOutput
 &
 gcOutput
 )
+const
 ;
