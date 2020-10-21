@@ -1376,11 +1376,6 @@ rootNode
 =
 container
 .
-shadowRoot
-|
-|
-container
-.
 frame
 .
 document
