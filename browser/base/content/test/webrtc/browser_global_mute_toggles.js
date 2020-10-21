@@ -237,7 +237,6 @@ shareDevices
 browser
 true
 true
-false
 )
 ;
 let
@@ -575,7 +574,6 @@ shareDevices
 browser
 true
 true
-false
 )
 ;
 let
@@ -876,7 +874,6 @@ shareDevices
 browser1
 true
 true
-false
 )
 ;
 let
@@ -1147,7 +1144,6 @@ shareDevices
 browser2
 true
 true
-false
 )
 ;
 await

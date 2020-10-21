@@ -141,7 +141,7 @@ tab1
 linkedBrowser
 true
 true
-true
+SHARE_SCREEN
 )
 ;
 info
@@ -183,7 +183,7 @@ tab2
 linkedBrowser
 true
 false
-true
+SHARE_SCREEN
 )
 ;
 info
@@ -223,7 +223,7 @@ tab3
 linkedBrowser
 false
 false
-true
+SHARE_SCREEN
 )
 ;
 info
