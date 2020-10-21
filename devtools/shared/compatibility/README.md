@@ -201,7 +201,7 @@ package
 (
 [
 mdn
-/
+-
 browser
 -
 compat
@@ -222,7 +222,7 @@ com
 package
 /
 mdn
-/
+-
 browser
 -
 compat
@@ -269,7 +269,7 @@ require
 (
 "
 mdn
-/
+-
 browser
 -
 compat
@@ -277,6 +277,7 @@ compat
 data
 "
 )
+;
 const
 fs
 =
