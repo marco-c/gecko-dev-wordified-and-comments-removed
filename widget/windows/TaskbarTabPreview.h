@@ -55,6 +55,13 @@ nsIDocShell
 aShell
 )
 ;
+virtual
+nsresult
+Init
+(
+)
+override
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSITASKBARTABPREVIEW
 NS_FORWARD_NSITASKBARPREVIEW
