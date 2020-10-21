@@ -273,9 +273,10 @@ promise
 =
 BrowserTestUtils
 .
-browserLoaded
+browserStopped
 (
 gBrowser
+url
 )
 ;
 BrowserTestUtils
