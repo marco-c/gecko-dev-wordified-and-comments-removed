@@ -32207,6 +32207,10 @@ true
 )
 ;
 }
+UpdateNonClientMargins
+(
+)
+;
 ChangedDPI
 (
 )
