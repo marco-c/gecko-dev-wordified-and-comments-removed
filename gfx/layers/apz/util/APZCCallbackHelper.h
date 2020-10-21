@@ -508,16 +508,6 @@ aScrollId
 )
 ;
 static
-ScreenMargin
-AdjustDisplayPortForScrollDelta
-(
-ScreenMargin
-aMargins
-ScreenPoint
-aScrollDelta
-)
-;
-static
 bool
 IsScrollInProgress
 (
