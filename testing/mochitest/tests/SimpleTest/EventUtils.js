@@ -9971,14 +9971,6 @@ srcY
 stepY
 *
 2
-id
-=
-_getDOMWindowUtils
-(
-window
-)
-.
-DEFAULT_MOUSE_POINTER_ID
 srcWindow
 =
 window
@@ -10367,7 +10359,6 @@ type
 "
 mousedown
 "
-id
 }
 srcWindow
 )
@@ -10545,7 +10536,6 @@ type
 "
 mousemove
 "
-id
 }
 srcWindow
 )
@@ -10604,7 +10594,6 @@ type
 "
 mousemove
 "
-id
 }
 srcWindow
 )
@@ -10729,7 +10718,6 @@ type
 "
 mouseup
 "
-id
 }
 srcWindow
 )
