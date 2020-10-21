@@ -80,11 +80,6 @@ nsIPrintSettingsService
 :
 nsISupports
 {
-readonly
-attribute
-nsIPrintSettings
-globalPrintSettings
-;
 [
 noscript
 ]
