@@ -330,6 +330,14 @@ target_tasks_method
 '
 autoland_tasks
 '
+        
+'
+test_manifest_loader
+'
+:
+'
+bugbug
+'
     
 }
     
