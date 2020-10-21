@@ -8671,9 +8671,6 @@ getter
 permitUnload
 :
 true
-timedOut
-:
-false
 }
 )
 ;
@@ -13704,7 +13701,6 @@ true
 let
 {
 permitUnload
-timedOut
 }
 =
 browser
@@ -13713,10 +13709,11 @@ permitUnload
 (
 )
 ;
-delete
 aTab
 .
 _pendingPermitUnload
+=
+false
 ;
 TelemetryStopwatch
 .
@@ -13735,14 +13732,8 @@ aTab
 closing
 |
 |
-(
-!
-timedOut
-&
-&
 !
 permitUnload
-)
 )
 {
 return

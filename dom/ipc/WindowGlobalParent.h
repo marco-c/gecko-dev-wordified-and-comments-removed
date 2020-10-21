@@ -533,6 +533,8 @@ PermitUnload
 (
 PermitUnloadAction
 aAction
+uint32_t
+aTimeout
 mozilla
 :
 :
