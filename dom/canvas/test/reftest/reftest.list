@@ -29,6 +29,15 @@ media
 useAudioChannelAPI
 true
 )
+skip
+-
+if
+(
+Android
+&
+&
+webrender
+)
 #
 Check
 that
