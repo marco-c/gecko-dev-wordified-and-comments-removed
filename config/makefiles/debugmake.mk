@@ -580,8 +580,6 @@ showbuild
 call
 print_vars
 \
-MOZ_BUILD_ROOT
-\
 MOZ_WIDGET_TOOLKIT
 \
 CC

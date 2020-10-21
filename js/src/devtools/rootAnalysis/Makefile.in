@@ -184,7 +184,7 @@ TARGET_JSOBJDIR
 ?
 =
 (
-MOZ_BUILD_ROOT
+TOPOBJDIR
 )
 #
 Path
@@ -214,10 +214,10 @@ JS
 ?
 =
 (
-MOZ_BUILD_ROOT
+DIST
 )
 /
-shell
+bin
 /
 js
 #
