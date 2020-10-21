@@ -56,6 +56,9 @@ class
 MRootList
 ;
 class
+WarpSnapshot
+;
+class
 IonCompileTask
 final
 :
