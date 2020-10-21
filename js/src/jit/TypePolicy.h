@@ -16,15 +16,6 @@ h
 #
 include
 "
-jit
-/
-JitAllocPolicy
-.
-h
-"
-#
-include
-"
 js
 /
 ScalarType
@@ -42,6 +33,9 @@ MInstruction
 ;
 class
 MDefinition
+;
+class
+TempAllocator
 ;
 extern
 MDefinition
