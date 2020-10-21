@@ -57,6 +57,12 @@ Open
 )
 override
 ;
+void
+Close
+(
+)
+override
+;
 bool
 IsOpened
 (
@@ -88,13 +94,6 @@ MediaControlAction
 aAction
 )
 override
-;
-void
-ControllerAmountChanged
-(
-uint64_t
-aControllerAmount
-)
 ;
 void
 SetMediaMetadata
@@ -201,7 +200,7 @@ OnPreferenceChange
 (
 )
 ;
-void
+bool
 StartMonitoringControlKeys
 (
 )
@@ -216,9 +215,6 @@ RefPtr
 MediaControlKeySource
 >
 mEventSource
-;
-MediaEventListener
-mControllerAmountChangedListener
 ;
 MediaMetadataBase
 mMetadata
