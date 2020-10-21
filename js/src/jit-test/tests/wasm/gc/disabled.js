@@ -46,10 +46,12 @@ types
 not
 enabled
 |
-Cranelift
-error
-in
-clifFunc
+Invalid
+type
+|
+invalid
+function
+type
 /
 ;
 let
