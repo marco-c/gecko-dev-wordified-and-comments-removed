@@ -1306,10 +1306,10 @@ DeviceIntSize
 {
 width
 :
-512
+1024
 height
 :
-16
+32
 _unit
 :
 marker
@@ -1328,10 +1328,10 @@ DeviceIntSize
 {
 width
 :
-16
+32
 height
 :
-512
+1024
 _unit
 :
 marker
