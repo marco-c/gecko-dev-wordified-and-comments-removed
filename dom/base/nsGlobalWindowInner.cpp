@@ -34012,6 +34012,10 @@ mMayHaveBeforeInputEventListenerForTelemetry
 (
 false
 )
+mMutationObserverHasObservedNodeForTelemetry
+(
+false
+)
 mOuterWindow
 (
 aOuterWindow

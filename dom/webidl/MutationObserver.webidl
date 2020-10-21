@@ -294,6 +294,7 @@ mutationCallback
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 void
 observe
