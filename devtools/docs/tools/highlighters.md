@@ -2753,9 +2753,7 @@ https
 :
 /
 /
-dxr
-.
-mozilla
+searchfox
 .
 org
 /
@@ -3295,9 +3293,7 @@ https
 :
 /
 /
-dxr
-.
-mozilla
+searchfox
 .
 org
 /
@@ -3305,7 +3301,9 @@ mozilla
 -
 central
 /
-source
+rev
+/
+1a973762afcbc5066f73f1508b0c846872fe3952
 /
 devtools
 /
@@ -3317,9 +3315,9 @@ highlighters
 .
 js
 #
-697
+519
 -
-727
+530
 )
 .
 Here
