@@ -27,6 +27,13 @@ h
 #
 include
 "
+ClientWebGLContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Maybe
@@ -39,6 +46,13 @@ include
 mozilla
 /
 UniquePtr
+.
+h
+"
+#
+include
+"
+GLContext
 .
 h
 "

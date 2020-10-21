@@ -67,6 +67,13 @@ h
 #
 include
 "
+ImageData
+.
+h
+"
+#
+include
+"
 gfxTypes
 .
 h

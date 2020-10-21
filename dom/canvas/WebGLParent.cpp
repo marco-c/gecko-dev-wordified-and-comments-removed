@@ -48,6 +48,13 @@ h
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 HostWebGLContext
 .
 h

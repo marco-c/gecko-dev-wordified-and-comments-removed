@@ -1296,6 +1296,9 @@ calc
 void
 DoVertexAttribPointer
 (
+gl
+:
+:
 GLContext
 &
 gl
