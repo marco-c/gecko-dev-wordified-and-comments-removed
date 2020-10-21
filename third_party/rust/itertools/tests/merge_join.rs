@@ -1,3 +1,7 @@
+extern
+crate
+itertools
+;
 use
 itertools
 :
