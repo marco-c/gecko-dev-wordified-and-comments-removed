@@ -3883,6 +3883,7 @@ resolve
 }
 _calculateMaxHeight
 (
+aEvent
 )
 {
 let
@@ -3964,9 +3965,7 @@ maxHeight
 ;
 if
 (
-this
-.
-_panel
+aEvent
 .
 alignmentPosition
 .
@@ -4229,6 +4228,7 @@ this
 .
 _calculateMaxHeight
 (
+aEvent
 )
 ;
 this

@@ -2639,12 +2639,6 @@ mMessage
 =
 =
 eXULPopupHidden
-|
-|
-mMessage
-=
-=
-eXULPopupPositioned
 ;
 break
 ;

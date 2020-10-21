@@ -501,6 +501,7 @@ arrow
 }
 adjustArrowPosition
 (
+event
 )
 {
 if
@@ -557,14 +558,14 @@ arrowbox
 var
 position
 =
-this
+event
 .
 alignmentPosition
 ;
 var
 offset
 =
-this
+event
 .
 alignmentOffset
 ;
@@ -1720,6 +1721,7 @@ this
 .
 adjustArrowPosition
 (
+event
 )
 ;
 }
