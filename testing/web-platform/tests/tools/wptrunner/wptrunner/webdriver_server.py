@@ -884,6 +884,17 @@ base_path
 else
 "
 "
+                
+cmd_arg
+(
+"
+enable
+-
+chrome
+-
+logs
+"
+)
 ]
 +
 self
