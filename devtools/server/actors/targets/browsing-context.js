@@ -778,7 +778,7 @@ resources
 {
 this
 .
-watchTargetResources
+_watchTargetResources
 (
 entries
 )
@@ -803,14 +803,14 @@ resources
 {
 this
 .
-unwatchTargetResources
+_unwatchTargetResources
 (
 entries
 )
 ;
 }
 }
-watchTargetResources
+_watchTargetResources
 (
 resourceTypes
 )
@@ -825,7 +825,7 @@ resourceTypes
 )
 ;
 }
-unwatchTargetResources
+_unwatchTargetResources
 (
 resourceTypes
 )

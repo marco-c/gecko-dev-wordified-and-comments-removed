@@ -84,7 +84,6 @@ function
 createTargets
 (
 watcher
-watchedResources
 )
 {
 const
@@ -156,11 +155,11 @@ browserId
 watcher
 .
 browserId
-watchedResources
+watchedData
 :
 watcher
 .
-watchedResources
+watchedData
 }
 )
 ;
