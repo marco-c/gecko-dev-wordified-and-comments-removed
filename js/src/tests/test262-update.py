@@ -1930,6 +1930,7 @@ refTestOptions
 .
 extend
 (
+(
 "
 shell
 -
@@ -1944,10 +1945,12 @@ format
 (
 opt
 )
+                                       
 for
 opt
 in
 shellOptions
+)
 )
     
 if
