@@ -1996,6 +1996,25 @@ argval
 )
 )
                 
+if
+instr
+.
+starts_line
+is
+None
+:
+                    
+self
+.
+_raise_from
+(
+e
+func
+)
+                
+else
+:
+                    
 self
 .
 _raise_from
@@ -2006,9 +2025,7 @@ instr
 .
 starts_line
 -
-func
-.
-__code__
+code
 .
 co_firstlineno
 )
