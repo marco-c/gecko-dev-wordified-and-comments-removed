@@ -8086,6 +8086,16 @@ nodeFront
 options
 )
 {
+if
+(
+this
+.
+_destroyed
+)
+{
+return
+;
+}
 this
 .
 highlighters
