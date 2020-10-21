@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIClassInfo
-.
-h
-"
-#
-include
-"
 nsINestedURI
 .
 h
@@ -99,8 +92,6 @@ public
 nsINestedURI
 public
 nsISerializable
-public
-nsIClassInfo
 {
 public
 :
@@ -109,7 +100,6 @@ NS_DECL_NSIURI
 NS_DECL_NSIMOZICONURI
 NS_DECL_NSINESTEDURI
 NS_DECL_NSISERIALIZABLE
-NS_DECL_NSICLASSINFO
 protected
 :
 nsMozIconURI
