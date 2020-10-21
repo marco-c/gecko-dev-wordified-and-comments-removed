@@ -4796,6 +4796,9 @@ displayInfo_
 enabledFeatures
 :
 enabled_features
+deviceConfig
+:
+{
 defaultFramebufferScale
 :
 this
@@ -4804,6 +4807,7 @@ defaultFramebufferScale_
 supportsViewportScaling
 :
 true
+}
 }
 }
 )
