@@ -163,6 +163,14 @@ tidy
 yml
 -
 clang
+-
+tidy
+-
+external
+.
+yml
+-
+clang
 .
 yml
 -

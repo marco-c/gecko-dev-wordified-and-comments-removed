@@ -116,6 +116,16 @@ toolchains
 .
 yml
 -
+toolchain
+-
+clang
+-
+tidy
+-
+external
+.
+yml
+-
 chromium
 -
 fetch
