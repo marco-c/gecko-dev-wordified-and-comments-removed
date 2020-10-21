@@ -2326,7 +2326,7 @@ nsAccUtils
 :
 MustPrune
 (
-child
+text
 )
 )
 {
