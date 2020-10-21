@@ -49,15 +49,6 @@ h
 #
 include
 "
-gc
-/
-Barrier
-.
-h
-"
-#
-include
-"
 js
 /
 friend

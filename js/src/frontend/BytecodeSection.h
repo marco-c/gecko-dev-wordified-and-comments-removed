@@ -145,15 +145,6 @@ include
 "
 gc
 /
-Barrier
-.
-h
-"
-#
-include
-"
-gc
-/
 Rooting
 .
 h
