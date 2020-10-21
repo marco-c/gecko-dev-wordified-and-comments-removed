@@ -281,6 +281,17 @@ textMarker
 (
 id
 )
+moxParagraphTextMarkerRangeForTextMarker
+:
+(
+id
+)
+textMarker
+;
+-
+(
+id
+)
 moxNextTextMarkerForTextMarker
 :
 (

@@ -246,7 +246,7 @@ a11y
 EWhichRange
 :
 :
-eRightLine
+eParagraph
 >
 {
 }

@@ -19,6 +19,7 @@ eRightWord
 eLine
 eLeftLine
 eRightLine
+eParagraph
 }
 ;
 }
