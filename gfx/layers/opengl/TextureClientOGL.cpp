@@ -1619,7 +1619,6 @@ mAndroidHardwareBuffer
 >
 Unlock
 (
-nullptr
 )
 ;
 mAddress
