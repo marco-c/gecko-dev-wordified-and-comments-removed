@@ -554,7 +554,13 @@ BUG_COMPONENT
 Core
 "
 "
-Internationalization
+DOM
+:
+UI
+Events
+&
+Focus
+Handling
 "
 )
 with
