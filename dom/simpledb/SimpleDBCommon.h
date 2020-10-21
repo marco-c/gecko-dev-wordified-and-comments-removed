@@ -113,7 +113,7 @@ __VA_ARGS__
 )
 #
 define
-SDB_TRY_VAR
+SDB_TRY_UNWRAP
 (
 .
 .
@@ -142,13 +142,13 @@ ifdef
 DEBUG
 #
 define
-SDB_DEBUG_TRY_VAR
+SDB_DEBUG_TRY_UNWRAP
 (
 .
 .
 .
 )
-SDB_TRY_VAR
+SDB_TRY_UNWRAP
 (
 __VA_ARGS__
 )
@@ -156,7 +156,7 @@ __VA_ARGS__
 else
 #
 define
-SDB_DEBUG_TRY_VAR
+SDB_DEBUG_TRY_UNWRAP
 (
 .
 .

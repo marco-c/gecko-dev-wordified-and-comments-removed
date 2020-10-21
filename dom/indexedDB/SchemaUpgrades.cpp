@@ -596,10 +596,11 @@ scoper
 stmt
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 bool
+&
 hasResults
 MOZ_TO_RESULT_INVOKE
 (
@@ -7436,7 +7437,7 @@ VALUE_TYPE_BLOB
 }
 #
 endif
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 indexValues
@@ -7567,7 +7568,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 (
 auto
@@ -11423,10 +11424,11 @@ scoper
 stmt
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 bool
+&
 hasResult
 MOZ_TO_RESULT_INVOKE
 (
@@ -11966,7 +11968,7 @@ if
 nextIndexIdAlreadyRead
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 (
 std
@@ -12414,7 +12416,7 @@ oldBlobLength
 )
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 (
 auto
@@ -14061,7 +14063,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 cloneInfo
@@ -14609,7 +14611,7 @@ available
 )
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 schemaVersion
 MOZ_TO_RESULT_INVOKE

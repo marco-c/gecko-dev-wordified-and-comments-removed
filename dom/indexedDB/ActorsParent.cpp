@@ -3346,7 +3346,7 @@ EmptyCString
 (
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 result
@@ -3651,7 +3651,7 @@ nsACString
 aStatementString
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 stmt
@@ -3667,7 +3667,7 @@ aStatementString
 )
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 const
 DebugOnly
@@ -4302,7 +4302,7 @@ mozIStorageConnection
 >
 >
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 connection
@@ -4448,7 +4448,7 @@ PR_MillisecondsToInterval
 )
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 connection
 StorageOpenTraits
@@ -4745,7 +4745,7 @@ MOZ_STORAGE_SERVICE_CONTRACTID
 )
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 connection
@@ -4888,7 +4888,7 @@ true
 )
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 connection
 OpenDatabaseAndHandleBusy
@@ -5295,7 +5295,7 @@ Execute
 }
 else
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 vacuumNeeded
 MaybeUpgradeSchema
@@ -5965,7 +5965,7 @@ rv
 )
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 nsCOMPtr
 <
@@ -24171,7 +24171,7 @@ IsEmpty
 )
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 markerFile
@@ -24341,7 +24341,7 @@ Ok
 }
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 fileUsage
@@ -24562,7 +24562,7 @@ RemoveDatabaseFilesAndDirectory
 DOM
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 markerFile
@@ -26790,7 +26790,7 @@ StatementHasIndexKeyBindings
 :
 0
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 cloneInfo
@@ -29236,7 +29236,7 @@ kTagQuery
 aQuery
 }
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 stmt
 MOZ_TO_RESULT_INVOKE_TYPED
@@ -29383,7 +29383,7 @@ nsACString
 aQuery
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 cachedStatement
@@ -30516,7 +30516,7 @@ aNeedsCheckpoint
 freelistCount
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 rollbackStmt
 GetCachedStatement
@@ -30530,7 +30530,7 @@ _ns
 QM_VOID
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 beginStmt
 GetCachedStatement
@@ -31194,7 +31194,7 @@ if
 aCachedStatement
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 aCachedStatement
 GetCachedStatement
@@ -31219,7 +31219,7 @@ Borrow
 (
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 const
 DebugOnly
@@ -31690,7 +31690,7 @@ MOZ_ASSERT
 aResult
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 file
@@ -33997,7 +33997,7 @@ if
 mUpdateStatement
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 mUpdateStatement
 connection
@@ -34164,7 +34164,7 @@ if
 mSelectStatement
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 mSelectStatement
 connection
@@ -34270,7 +34270,7 @@ if
 mInsertStatement
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 mInsertStatement
 connection
@@ -35006,7 +35006,7 @@ dbInfo
 mDEBUGConnectionThread
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 MovingNotNull
 <
@@ -42850,7 +42850,7 @@ HasStorageConnection
 )
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 mConnection
 gConnectionPool
@@ -44936,7 +44936,7 @@ return
 nullptr
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 objectStoreMetadatas
@@ -54782,7 +54782,7 @@ this
 mDatabase
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 serializedInfo
 -
@@ -55255,7 +55255,7 @@ IsUnset
 )
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 position
@@ -55623,7 +55623,7 @@ DIRECTORY_TYPE
 )
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 path
@@ -55649,9 +55649,11 @@ path
 )
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
+const
 auto
+&
 journalDirectory
 MOZ_TO_RESULT_INVOKE_TYPED
 (
@@ -55694,7 +55696,7 @@ Unused
 existsAsDirectory
 ;
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 path
@@ -56205,7 +56207,7 @@ AppendInt
 aId
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 file
@@ -56602,7 +56604,7 @@ if
 hasJournals
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 const
 NotNull
@@ -56658,9 +56660,11 @@ _ns
 )
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
+const
 auto
+&
 stmt
 MOZ_TO_RESULT_INVOKE_TYPED
 (
@@ -60593,7 +60597,7 @@ fail
 "
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 directory
@@ -64548,7 +64552,7 @@ MOZ_ASSERT
 databaseFile
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 const
 NotNull
@@ -65009,7 +65013,7 @@ return
 rv
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 foreignKeyError
 MOZ_TO_RESULT_INVOKE
@@ -67640,7 +67644,7 @@ if
 stmt
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 stmt
 aConnection
@@ -68117,7 +68121,7 @@ if
 stmt
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 stmt
 aConnection
@@ -68452,10 +68456,11 @@ rv
 Key
 objectStoreKey
 ;
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 auto
+&
 selectStmt
 (
 [
@@ -68485,7 +68490,7 @@ if
 singleRowOnly
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 selectStmt
@@ -68568,7 +68573,7 @@ aKeyRange
 kColumnNameKey
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 selectStmt
@@ -68771,7 +68776,7 @@ if
 deleteStmt
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 deleteStmt
 aConnection
@@ -68944,7 +68949,7 @@ UpdateIndexValues
 DOM
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 (
 auto
@@ -69264,10 +69269,11 @@ return
 rv
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 bool
+&
 hasResult
 MOZ_TO_RESULT_INVOKE
 (
@@ -73328,7 +73334,7 @@ MOZ_ASSERT
 quotaManager
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 dbFile
@@ -74746,7 +74752,7 @@ return
 rv
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 NotNull
 <
@@ -75147,10 +75153,11 @@ return
 rv
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 bool
+&
 hasResult
 MOZ_TO_RESULT_INVOKE
 (
@@ -76770,7 +76777,7 @@ if
 writeStmt
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 writeStmt
 MOZ_TO_RESULT_INVOKE_TYPED
@@ -78702,7 +78709,7 @@ mMetadata
 >
 mCommonMetadata
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 spec
 .
@@ -78772,7 +78779,7 @@ metadata
 >
 mCommonMetadata
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 indexes
@@ -79965,7 +79972,7 @@ rv
 return
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 const
 NotNull
@@ -80029,10 +80036,11 @@ rv
 return
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 bool
+&
 hasResult
 MOZ_TO_RESULT_INVOKE
 (
@@ -80141,10 +80149,11 @@ rv
 return
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 bool
+&
 hasResult
 MOZ_TO_RESULT_INVOKE
 (
@@ -80378,7 +80387,7 @@ MOZ_ASSERT
 quotaManager
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 directory
@@ -83179,7 +83188,7 @@ if
 stmt
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 stmt
 connection
@@ -83530,7 +83539,7 @@ ReadOnly
 )
 ;
 {
-IDB_DEBUG_TRY_VAR
+IDB_DEBUG_TRY_UNWRAP
 (
 const
 auto
@@ -83604,7 +83613,7 @@ enabled
 ;
 }
 {
-IDB_DEBUG_TRY_VAR
+IDB_DEBUG_TRY_UNWRAP
 (
 const
 auto
@@ -85315,7 +85324,7 @@ DOM
 ifdef
 DEBUG
 {
-IDB_DEBUG_TRY_VAR
+IDB_DEBUG_TRY_UNWRAP
 (
 const
 auto
@@ -85762,7 +85771,7 @@ DOM
 ifdef
 DEBUG
 {
-IDB_DEBUG_TRY_VAR
+IDB_DEBUG_TRY_UNWRAP
 (
 const
 auto
@@ -86557,7 +86566,7 @@ DOM
 ifdef
 DEBUG
 {
-IDB_DEBUG_TRY_VAR
+IDB_DEBUG_TRY_UNWRAP
 (
 const
 auto
@@ -87422,7 +87431,7 @@ DOM
 ifdef
 DEBUG
 {
-IDB_DEBUG_TRY_VAR
+IDB_DEBUG_TRY_UNWRAP
 (
 const
 auto
@@ -88226,7 +88235,7 @@ VALUE_TYPE_INTEGER
 }
 #
 endif
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 cloneInfo
@@ -88567,7 +88576,7 @@ return
 rv
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 indexValues
@@ -88673,7 +88682,7 @@ fallible
 )
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 (
 auto
@@ -89320,7 +89329,7 @@ AssertIsOnConnectionThread
 ifdef
 DEBUG
 {
-IDB_DEBUG_TRY_VAR
+IDB_DEBUG_TRY_UNWRAP
 (
 const
 auto
@@ -89526,10 +89535,11 @@ return
 rv
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 auto
+&
 selectStmt
 aConnection
 -
@@ -90098,7 +90108,7 @@ if
 deleteIndexRowStmt
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 deleteIndexRowStmt
 aConnection
@@ -90483,7 +90493,7 @@ DOM
 ifdef
 DEBUG
 {
-IDB_DEBUG_TRY_VAR
+IDB_DEBUG_TRY_UNWRAP
 (
 const
 auto
@@ -91853,10 +91863,11 @@ return
 rv
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 bool
+&
 hasResult
 MOZ_TO_RESULT_INVOKE
 (
@@ -92143,7 +92154,7 @@ MarkImmutable
 )
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 mStoredFileInfos
 TransformIntoNewArray
@@ -94485,7 +94496,7 @@ HasPreprocessInfo
 )
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 result
 .
@@ -94733,7 +94744,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 cloneInfo
@@ -95006,7 +95017,7 @@ ObjectStoreGetPreprocessParams
 (
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 params
 .
@@ -95097,7 +95108,7 @@ IsEmpty
 )
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 aResponse
 .
@@ -95242,7 +95253,7 @@ Size
 (
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 serializedInfo
 ConvertResponse
@@ -96732,10 +96743,11 @@ rv
 ;
 }
 }
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 bool
+&
 hasResult
 MOZ_TO_RESULT_INVOKE
 (
@@ -97612,7 +97624,7 @@ Ok
 nsresult
 >
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 auto
 cloneInfo
@@ -97782,7 +97794,7 @@ ReleaseData
 (
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 result
 .
@@ -97833,7 +97845,7 @@ IsEmpty
 )
 )
 {
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 aResponse
 .
@@ -97975,7 +97987,7 @@ Size
 (
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 serializedInfo
 convertResponse
@@ -98839,10 +98851,11 @@ rv
 ;
 }
 }
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 bool
+&
 hasResult
 MOZ_TO_RESULT_INVOKE
 (
@@ -99567,10 +99580,11 @@ hasResult
 break
 ;
 }
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 auto
+&
 responseSize
 PopulateResponseFromStatement
 (
@@ -100588,10 +100602,11 @@ const
 aStmt
 )
 {
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 bool
+&
 hasResult
 MOZ_TO_RESULT_INVOKE
 (
@@ -102983,10 +102998,11 @@ index
 +
 )
 {
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 bool
+&
 hasResult
 MOZ_TO_RESULT_INVOKE
 (

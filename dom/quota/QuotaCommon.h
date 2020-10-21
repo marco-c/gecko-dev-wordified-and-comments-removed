@@ -1106,7 +1106,7 @@ __VA_ARGS__
 )
 #
 define
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 .
 .
@@ -1135,13 +1135,13 @@ ifdef
 DEBUG
 #
 define
-QM_DEBUG_TRY_VAR
+QM_DEBUG_TRY_UNWRAP
 (
 .
 .
 .
 )
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 __VA_ARGS__
 )
@@ -1149,7 +1149,7 @@ __VA_ARGS__
 else
 #
 define
-QM_DEBUG_TRY_VAR
+QM_DEBUG_TRY_UNWRAP
 (
 .
 .
