@@ -1715,8 +1715,6 @@ canonicalizeBaseName
 JSContext
 *
 cx
-DuplicateVariants
-duplicateVariants
 )
 {
 language_
@@ -1868,17 +1866,6 @@ return
 false
 ;
 }
-if
-(
-duplicateVariants
-=
-=
-DuplicateVariants
-:
-:
-Reject
-)
-{
 const
 UniqueChars
 *
@@ -1968,7 +1955,6 @@ get
 return
 false
 ;
-}
 }
 }
 if
@@ -4390,10 +4376,6 @@ tag
 canonicalizeBaseName
 (
 cx
-DuplicateVariants
-:
-:
-Accept
 )
 )
 {
