@@ -5770,9 +5770,6 @@ DOMEvent
 }
 ;
 profiler_add_marker
-<
-DOMEventMarker
->
 (
 "
 DOMEvent
@@ -5796,6 +5793,9 @@ MarkerInnerWindowId
 innerWindowId
 )
 }
+DOMEventMarker
+{
+}
 typeStr
 aEvent
 -
@@ -5815,9 +5815,6 @@ cd
 )
 ;
 profiler_add_marker
-<
-DOMEventMarker
->
 (
 "
 DOMEvent
@@ -5843,6 +5840,9 @@ move
 (
 innerWindowId
 )
+}
+DOMEventMarker
+{
 }
 typeStr
 aEvent
