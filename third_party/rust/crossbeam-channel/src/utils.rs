@@ -125,7 +125,7 @@ new
 (
 Wrapping
 (
-1_406_868_647
+1406868647
 )
 )
 ;
@@ -440,6 +440,9 @@ SpinlockGuard
 '
 a
 T
+:
+'
+a
 >
 {
 parent
@@ -454,6 +457,8 @@ T
 }
 impl
 <
+'
+a
 T
 >
 Drop
@@ -461,7 +466,7 @@ for
 SpinlockGuard
 <
 '
-_
+a
 T
 >
 {
@@ -492,6 +497,8 @@ Release
 }
 impl
 <
+'
+a
 T
 >
 Deref
@@ -499,7 +506,7 @@ for
 SpinlockGuard
 <
 '
-_
+a
 T
 >
 {
@@ -537,6 +544,8 @@ get
 }
 impl
 <
+'
+a
 T
 >
 DerefMut
@@ -544,7 +553,7 @@ for
 SpinlockGuard
 <
 '
-_
+a
 T
 >
 {
