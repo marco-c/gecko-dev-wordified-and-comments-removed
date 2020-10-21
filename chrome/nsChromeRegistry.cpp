@@ -1046,8 +1046,6 @@ aChromeURL
 )
 ;
 }
-else
-{
 const
 char
 *
@@ -1177,9 +1175,11 @@ pos
 .
 '
 )
+{
 return
 NS_ERROR_DOM_BAD_URI
 ;
+}
 break
 ;
 case
@@ -1234,9 +1234,11 @@ pos
 '
 )
 )
+{
 return
 NS_ERROR_DOM_BAD_URI
 ;
+}
 break
 ;
 case
@@ -1260,7 +1262,6 @@ continue
 +
 pos
 ;
-}
 }
 return
 NS_OK
