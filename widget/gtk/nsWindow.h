@@ -1487,6 +1487,11 @@ GtkAllocation
 aAllocation
 )
 ;
+void
+DispatchResized
+(
+)
+;
 #
 ifdef
 MOZ_X11
@@ -2210,11 +2215,6 @@ void
 DispatchDeactivateEvent
 (
 void
-)
-;
-void
-DispatchResized
-(
 )
 ;
 void
