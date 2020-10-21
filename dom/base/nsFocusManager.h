@@ -650,6 +650,16 @@ Document
 aDocument
 )
 ;
+void
+ParentActivated
+(
+mozIDOMWindowProxy
+*
+aWindow
+bool
+aActive
+)
+;
 nsresult
 FocusPlugin
 (
