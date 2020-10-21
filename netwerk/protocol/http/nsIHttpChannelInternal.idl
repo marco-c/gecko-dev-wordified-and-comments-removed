@@ -273,15 +273,6 @@ string
 aFallbackKey
 )
 ;
-[
-noscript
-must_use
-]
-readonly
-attribute
-bool
-isAuthChannel
-;
 const
 unsigned
 long

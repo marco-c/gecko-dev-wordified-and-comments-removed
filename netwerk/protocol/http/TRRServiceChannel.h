@@ -269,15 +269,6 @@ aFallbackKey
 override
 ;
 NS_IMETHOD
-GetIsAuthChannel
-(
-bool
-*
-aIsAuthChannel
-)
-override
-;
-NS_IMETHOD
 SetNotificationCallbacks
 (
 nsIInterfaceRequestor
