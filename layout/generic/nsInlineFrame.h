@@ -234,8 +234,7 @@ aPostDestroyData
 )
 override
 ;
-virtual
-nsresult
+void
 StealFrame
 (
 nsIFrame

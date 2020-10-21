@@ -810,7 +810,7 @@ DefaultChildFrameMerge
 )
 ;
 virtual
-nsresult
+void
 StealFrame
 (
 nsIFrame

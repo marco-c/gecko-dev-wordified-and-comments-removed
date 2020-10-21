@@ -1027,7 +1027,7 @@ DrainSelfOverflowList
 )
 override
 ;
-nsresult
+void
 StealFrame
 (
 nsIFrame
