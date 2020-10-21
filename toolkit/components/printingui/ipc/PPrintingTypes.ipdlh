@@ -80,6 +80,9 @@ printBGImages
 bool
 honorPageRuleMargins
 ;
+bool
+showMarginGuides
+;
 short
 printRange
 ;

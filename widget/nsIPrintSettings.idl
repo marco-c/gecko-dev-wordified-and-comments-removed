@@ -517,6 +517,13 @@ attribute
 boolean
 honorPageRuleMargins
 ;
+[
+infallible
+]
+attribute
+boolean
+showMarginGuides
+;
 attribute
 short
 printRange
@@ -573,10 +580,6 @@ shrinkToFit
 attribute
 boolean
 showPrintProgress
-;
-attribute
-boolean
-showMarginGuides
 ;
 attribute
 AString
