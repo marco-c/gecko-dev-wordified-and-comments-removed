@@ -73,6 +73,9 @@ SSLRecordWriteCallback
 SSLResumptionTokenCallback
 "
 "
+SSLResumptionTokenInfo
+"
+"
 SSLSecretCallback
 "
 "
@@ -104,6 +107,9 @@ SSL_ConfigServerCert
 SSL_ConfigServerSessionIDCache
 "
 "
+SSL_DestroyResumptionTokenInfo
+"
+"
 SSL_GetChannelInfo
 "
 "
@@ -120,6 +126,9 @@ SSL_GetNumImplementedCiphers
 "
 "
 SSL_GetPreliminaryChannelInfo
+"
+"
+SSL_GetResumptionTokenInfo
 "
 "
 SSL_ForceHandshake

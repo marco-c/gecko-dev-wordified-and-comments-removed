@@ -311,6 +311,11 @@ QuicVersion
 :
 :
 Draft29
+|
+QuicVersion
+:
+:
+Draft30
 =
 >
 &

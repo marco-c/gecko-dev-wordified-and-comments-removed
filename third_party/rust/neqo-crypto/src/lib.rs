@@ -147,6 +147,7 @@ Client
 HandshakeState
 Record
 RecordList
+ResumptionToken
 SecretAgent
 SecretAgentInfo
 SecretAgentPreInfo
