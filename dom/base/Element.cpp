@@ -2079,6 +2079,15 @@ this
 fm
 -
 >
+NotifyOfReFocus
+(
+*
+this
+)
+;
+fm
+-
+>
 NeedsFlushBeforeEventHandling
 (
 this

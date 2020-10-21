@@ -733,6 +733,14 @@ uint32_t
 aFlags
 )
 ;
+void
+NotifyOfReFocus
+(
+nsIContent
+&
+aContent
+)
+;
 static
 bool
 sMouseFocusesFormControl
