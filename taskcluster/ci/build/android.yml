@@ -788,9 +788,11 @@ linux64
 sccache
 optimization
 :
-build
+skip
 -
-fuzzing
+unless
+-
+expanded
 :
 null
 android
@@ -3463,8 +3465,10 @@ linux64
 sccache
 optimization
 :
-build
+skip
 -
-fuzzing
+unless
+-
+expanded
 :
 null

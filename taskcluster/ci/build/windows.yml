@@ -1188,9 +1188,11 @@ win64
 winchecksec
 optimization
 :
-build
+skip
 -
-fuzzing
+unless
+-
+expanded
 :
 null
 win64
@@ -5897,9 +5899,11 @@ win64
 winchecksec
 optimization
 :
-build
+skip
 -
-fuzzing
+unless
+-
+expanded
 :
 null
 win32

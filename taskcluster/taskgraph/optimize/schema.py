@@ -53,16 +53,6 @@ ALL_COMPONENTS
     
 {
 '
-build
--
-fuzzing
-'
-:
-None
-}
-    
-{
-'
 index
 -
 search

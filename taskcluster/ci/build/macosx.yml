@@ -584,9 +584,11 @@ wasi
 sysroot
 optimization
 :
-build
+skip
 -
-fuzzing
+unless
+-
+expanded
 :
 null
 macosx64
@@ -722,9 +724,11 @@ wasi
 sysroot
 optimization
 :
-build
+skip
 -
-fuzzing
+unless
+-
+expanded
 :
 null
 macosx64
