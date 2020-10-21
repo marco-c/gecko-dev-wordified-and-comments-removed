@@ -62,6 +62,15 @@ include
 "
 jit
 /
+JitFrames
+.
+h
+"
+#
+include
+"
+jit
+/
 JSJitFrameIter
 .
 h

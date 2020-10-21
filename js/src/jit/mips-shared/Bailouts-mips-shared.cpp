@@ -12,6 +12,15 @@ include
 "
 jit
 /
+JitFrames
+.
+h
+"
+#
+include
+"
+jit
+/
 SafepointIndex
 .
 h
