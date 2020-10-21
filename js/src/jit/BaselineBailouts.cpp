@@ -10286,6 +10286,12 @@ BailoutKind
 :
 PackedArrayGuard
 :
+case
+BailoutKind
+:
+:
+HasGetterSetterGuard
+:
 break
 ;
 case
