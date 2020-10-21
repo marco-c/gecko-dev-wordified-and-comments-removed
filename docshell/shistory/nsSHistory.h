@@ -445,6 +445,11 @@ mEntries
 ;
 }
 void
+NotifyOnHistoryReplaceEntry
+(
+)
+;
+void
 RemoveEntries
 (
 nsTArray
@@ -657,6 +662,11 @@ mIndex
 mRequestedIndex
 ;
 }
+void
+UpdateRootBrowsingContextState
+(
+)
+;
 protected
 :
 virtual
@@ -855,11 +865,6 @@ aOldEntry
 nsISHEntry
 *
 aNewEntry
-)
-;
-void
-UpdateRootBrowsingContextState
-(
 )
 ;
 protected
