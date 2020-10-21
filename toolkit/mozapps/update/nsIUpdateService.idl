@@ -2052,7 +2052,7 @@ listener
 *
 *
 /
-AString
+bool
 downloadUpdate
 (
 in
