@@ -141,7 +141,7 @@ mozilla
 /
 webrender
 /
-RenderD3D11TextureHostOGL
+RenderD3D11TextureHost
 .
 h
 "
@@ -4904,7 +4904,7 @@ new
 wr
 :
 :
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 (
 mHandle
 mFormat
@@ -6838,7 +6838,7 @@ new
 wr
 :
 :
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 (
 mHandles
 mSize

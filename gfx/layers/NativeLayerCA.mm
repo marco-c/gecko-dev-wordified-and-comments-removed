@@ -130,7 +130,7 @@ mozilla
 /
 webrender
 /
-RenderMacIOSurfaceTextureHostOGL
+RenderMacIOSurfaceTextureHost
 .
 h
 "
@@ -2547,14 +2547,14 @@ aExternalImage
 wr
 :
 :
-RenderMacIOSurfaceTextureHostOGL
+RenderMacIOSurfaceTextureHost
 *
 texture
 =
 aExternalImage
 -
 >
-AsRenderMacIOSurfaceTextureHostOGL
+AsRenderMacIOSurfaceTextureHost
 (
 )
 ;

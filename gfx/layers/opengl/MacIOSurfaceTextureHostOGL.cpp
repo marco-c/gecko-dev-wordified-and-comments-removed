@@ -34,7 +34,7 @@ mozilla
 /
 webrender
 /
-RenderMacIOSurfaceTextureHostOGL
+RenderMacIOSurfaceTextureHost
 .
 h
 "
@@ -772,7 +772,7 @@ new
 wr
 :
 :
-RenderMacIOSurfaceTextureHostOGL
+RenderMacIOSurfaceTextureHost
 (
 GetMacIOSurface
 (
