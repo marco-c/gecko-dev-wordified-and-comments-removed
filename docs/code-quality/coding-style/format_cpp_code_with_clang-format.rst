@@ -851,9 +851,7 @@ file
 code
 :
 :
-comment
--
-text
+ini
 [
 extensions
 ]
@@ -2226,7 +2224,7 @@ written
 code
 :
 :
-syntaxbox
+shell
 git
 clone
 https

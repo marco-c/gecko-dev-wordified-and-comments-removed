@@ -520,9 +520,6 @@ accuracy
 code
 :
 :
-language
--
-html
 ac_add_options
 -
 -

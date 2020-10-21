@@ -3401,8 +3401,7 @@ module
 code
 :
 :
-brush
-:
+python
 from
 __future__
 import

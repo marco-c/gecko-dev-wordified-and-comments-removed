@@ -271,7 +271,6 @@ symbols
 code
 :
 :
-txt
 ac_add_options
 -
 -
@@ -340,7 +339,6 @@ build
 code
 :
 :
-txt
 #
 ac_add_options
 -
@@ -1065,7 +1063,6 @@ console
 code
 :
 :
-lldb
 b
 <
 file
