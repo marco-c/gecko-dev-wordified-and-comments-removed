@@ -7270,7 +7270,7 @@ BigIntId
 -
 name
 :
-CompareObjectUndefinedNullResult
+CompareNullUndefinedResult
 shared
 :
 true
@@ -7285,9 +7285,12 @@ args
 op
 :
 JSOpImm
-obj
+isUndefined
 :
-ObjId
+BoolImm
+input
+:
+ValId
 -
 name
 :
