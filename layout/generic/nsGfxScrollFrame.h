@@ -2152,6 +2152,15 @@ AnonymousContentKey
 aKey
 )
 ;
+void
+AppendScrollUpdate
+(
+const
+ScrollPositionUpdate
+&
+aUpdate
+)
+;
 nsCOMPtr
 <
 Element
