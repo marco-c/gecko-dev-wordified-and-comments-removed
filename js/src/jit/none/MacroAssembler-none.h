@@ -3265,7 +3265,7 @@ MOZ_CRASH
 void
 handleFailureWithHandlerTail
 (
-Label
+void
 *
 )
 {

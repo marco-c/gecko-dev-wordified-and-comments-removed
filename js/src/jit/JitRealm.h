@@ -59,15 +59,6 @@ include
 "
 jit
 /
-ABIFunctions
-.
-h
-"
-#
-include
-"
-jit
-/
 BaselineICList
 .
 h
@@ -980,6 +971,9 @@ generateExceptionTailStub
 MacroAssembler
 &
 masm
+void
+*
+handler
 Label
 *
 profilerExitTail
@@ -1097,7 +1091,8 @@ const
 VMFunctionData
 &
 f
-DynFn
+void
+*
 nativeFun
 uint32_t
 *
