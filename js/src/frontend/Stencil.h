@@ -1711,6 +1711,7 @@ ModuleObject
 >
 module
 )
+const
 ;
 #
 if
