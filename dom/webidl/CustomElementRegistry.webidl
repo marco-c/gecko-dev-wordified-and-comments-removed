@@ -129,7 +129,7 @@ Throws
 ]
 Promise
 <
-void
+CustomElementConstructor
 >
 whenDefined
 (
