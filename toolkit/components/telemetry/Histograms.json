@@ -113124,6 +113124,15 @@ expires_in_version
 never
 "
 "
+releaseChannelCollection
+"
+:
+"
+opt
+-
+out
+"
+"
 kind
 "
 :
@@ -113137,7 +113146,7 @@ description
 "
 If
 a
-master
+primary
 -
 password
 is
