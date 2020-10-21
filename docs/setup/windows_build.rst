@@ -1304,7 +1304,7 @@ works
 only
 with
 the
-Mercuial
+Mercurial
 repo
 of
 the
