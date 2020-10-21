@@ -1185,7 +1185,7 @@ nsPIDOMWindowOuter
 aWindow
 )
 {
-nsFocusManager
+nsIFocusManager
 *
 fm
 =

@@ -4000,9 +4000,9 @@ IPC_OK
 )
 ;
 }
-RefPtr
+nsCOMPtr
 <
-nsFocusManager
+nsIFocusManager
 >
 fm
 =
@@ -10282,7 +10282,7 @@ eSecondTap
 )
 )
 {
-nsFocusManager
+nsIFocusManager
 *
 fm
 =

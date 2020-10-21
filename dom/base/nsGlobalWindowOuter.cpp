@@ -23241,7 +23241,7 @@ Blur
 (
 )
 ;
-nsFocusManager
+nsIFocusManager
 *
 fm
 =
@@ -33275,7 +33275,7 @@ focusedElement
 )
 )
 {
-nsFocusManager
+nsIFocusManager
 *
 fm
 =

@@ -383,7 +383,7 @@ aError
 return
 ;
 }
-nsFocusManager
+nsIFocusManager
 *
 fm
 =

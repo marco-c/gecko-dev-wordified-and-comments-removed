@@ -20746,7 +20746,7 @@ rv
 )
 const
 {
-nsFocusManager
+nsIFocusManager
 *
 fm
 =
@@ -53966,7 +53966,7 @@ bool
 aFireEvents
 )
 {
-nsFocusManager
+nsIFocusManager
 *
 fm
 =

@@ -645,9 +645,9 @@ bool
 aForDocumentNavigation
 )
 {
-RefPtr
+nsCOMPtr
 <
-nsFocusManager
+nsIFocusManager
 >
 fm
 =

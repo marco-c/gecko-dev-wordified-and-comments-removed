@@ -13042,7 +13042,6 @@ fm
 &
 window
 )
-{
 fm
 -
 >
@@ -13051,7 +13050,6 @@ WindowRaised
 window
 )
 ;
-}
 if
 (
 mChromeLoaded
@@ -13133,7 +13131,6 @@ IsTestMode
 (
 )
 )
-{
 fm
 -
 >
@@ -13142,7 +13139,6 @@ WindowLowered
 window
 )
 ;
-}
 }
 #
 ifdef

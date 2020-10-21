@@ -4110,7 +4110,7 @@ CheckCaretDrawingState
 (
 )
 {
-nsFocusManager
+nsIFocusManager
 *
 fm
 =

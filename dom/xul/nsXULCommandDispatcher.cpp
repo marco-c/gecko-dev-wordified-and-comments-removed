@@ -615,7 +615,7 @@ Element
 aElement
 )
 {
-nsFocusManager
+nsIFocusManager
 *
 fm
 =
@@ -709,7 +709,7 @@ window
 NS_ERROR_FAILURE
 )
 ;
-nsFocusManager
+nsIFocusManager
 *
 fm
 =
@@ -802,7 +802,7 @@ Element
 >
 result
 ;
-nsFocusManager
+nsIFocusManager
 *
 fm
 =
@@ -871,7 +871,7 @@ Element
 >
 result
 ;
-nsFocusManager
+nsIFocusManager
 *
 fm
 =
