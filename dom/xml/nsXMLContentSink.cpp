@@ -1715,6 +1715,13 @@ DropParserAndPerfHint
 (
 )
 ;
+originalDocument
+-
+>
+ReportUseCounters
+(
+)
+;
 return
 NS_OK
 ;

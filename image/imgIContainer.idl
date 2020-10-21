@@ -1132,7 +1132,7 @@ propagateUseCounters
 (
 in
 Document
-aDocument
+aReferencingDocument
 )
 ;
 %

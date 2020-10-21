@@ -1324,7 +1324,7 @@ PropagateUseCounters
 (
 Document
 *
-aParentDocument
+aReferencingDocument
 )
 {
 mInnerImage
@@ -1332,7 +1332,7 @@ mInnerImage
 >
 PropagateUseCounters
 (
-aParentDocument
+aReferencingDocument
 )
 ;
 }

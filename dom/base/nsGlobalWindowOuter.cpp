@@ -11413,6 +11413,13 @@ GetDocumentURI
 nullptr
 )
 ;
+mDoc
+-
+>
+InitUseCounters
+(
+)
+;
 return
 NS_OK
 ;
