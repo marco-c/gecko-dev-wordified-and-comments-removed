@@ -248,9 +248,6 @@ ic
 IonScript
 *
 ionScript
-IonICStub
-*
-stub
 const
 PropertyTypeCheckInfo
 *
@@ -284,10 +281,6 @@ ic
 ionScript_
 (
 ionScript
-)
-stub_
-(
-stub
 )
 typeCheckInfo_
 (
@@ -3292,6 +3285,9 @@ IonCacheIRCompiler
 :
 compile
 (
+IonICStub
+*
+stub
 )
 {
 masm
@@ -3585,7 +3581,7 @@ offset
 )
 ImmPtr
 (
-stub_
+stub
 -
 >
 nextCodeRawPtr
@@ -13675,7 +13671,6 @@ cx
 writer
 this
 ionScript
-newStub
 typeCheckInfo
 stubDataOffset
 )
@@ -13701,6 +13696,7 @@ compiler
 .
 compile
 (
+newStub
 )
 ;
 if

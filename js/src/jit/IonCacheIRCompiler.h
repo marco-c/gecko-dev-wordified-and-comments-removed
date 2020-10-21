@@ -78,9 +78,6 @@ ic
 IonScript
 *
 ionScript
-IonICStub
-*
-stub
 const
 PropertyTypeCheckInfo
 *
@@ -99,6 +96,9 @@ JitCode
 *
 compile
 (
+IonICStub
+*
+stub
 )
 ;
 #
@@ -127,10 +127,6 @@ ic_
 IonScript
 *
 ionScript_
-;
-IonICStub
-*
-stub_
 ;
 const
 PropertyTypeCheckInfo
