@@ -24,6 +24,12 @@ require
 rcodes
 '
 )
+exports
+.
+rcodes
+=
+rcodes
+;
 const
 opcodes
 =
