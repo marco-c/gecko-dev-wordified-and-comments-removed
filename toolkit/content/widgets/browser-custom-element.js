@@ -7118,6 +7118,11 @@ spinEventLoopUntilOrShutdown
 )
 =
 >
+window
+.
+closed
+|
+|
 success
 !
 =
