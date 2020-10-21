@@ -4496,7 +4496,7 @@ zip
 %
 chrome_version
         
-last_url_file
+extracted
 =
 os
 .
@@ -4511,6 +4511,17 @@ mojojs
 "
 gen
 "
+)
+        
+last_url_file
+=
+os
+.
+path
+.
+join
+(
+extracted
 "
 DOWNLOADED_FROM
 "
@@ -4575,23 +4586,11 @@ date
 )
                 
 return
+extracted
             
 rmtree
 (
-os
-.
-path
-.
-join
-(
-dest
-"
-mojojs
-"
-"
-gen
-"
-)
+extracted
 )
         
 self
@@ -4641,6 +4640,9 @@ write
 (
 url
 )
+        
+return
+extracted
     
 def
 _chromedriver_platform_string

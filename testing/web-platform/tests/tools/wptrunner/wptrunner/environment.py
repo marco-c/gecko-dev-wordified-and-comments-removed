@@ -264,9 +264,9 @@ env_extras
 enable_quic
 =
 False
-serve_mojojs
+mojojs_path
 =
-False
+None
 )
 :
         
@@ -388,9 +388,9 @@ enable_quic
         
 self
 .
-serve_mojojs
+mojojs_path
 =
-serve_mojojs
+mojojs_path
     
 def
 __enter__
@@ -1489,7 +1489,7 @@ mountpoint_routes
 if
 self
 .
-serve_mojojs
+mojojs_path
 :
             
 route_builder
@@ -1501,13 +1501,9 @@ add_mount_point
 gen
 /
 "
-"
-_venv2
-/
-mojojs
-/
-gen
-"
+self
+.
+mojojs_path
 )
         
 return

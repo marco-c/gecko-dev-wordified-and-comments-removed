@@ -1505,6 +1505,24 @@ run_info
 kwargs
 )
         
+mojojs_path
+=
+kwargs
+[
+"
+mojojs_path
+"
+]
+if
+kwargs
+[
+"
+enable_mojojs
+"
+]
+else
+None
+        
 recording
 .
 set
@@ -1557,12 +1575,7 @@ enable_quic
 "
 ]
                                  
-kwargs
-[
-"
-enable_mojojs
-"
-]
+mojojs_path
 )
 as
 test_environment
