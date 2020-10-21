@@ -5530,10 +5530,8 @@ container
 )
 {
 return
-false
 ;
 }
-return
 this
 .
 _markContainerAsSelected
