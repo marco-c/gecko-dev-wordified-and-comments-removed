@@ -9417,7 +9417,7 @@ true
 ;
 devices
 .
-sort
+sort_unstable
 (
 )
 ;
