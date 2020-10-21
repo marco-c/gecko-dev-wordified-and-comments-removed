@@ -1004,17 +1004,6 @@ onHideBoxModelHighlighter
 (
 )
 {
-if
-(
-!
-this
-.
-inspector
-)
-{
-return
-;
-}
 this
 .
 inspector

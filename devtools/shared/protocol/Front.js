@@ -535,13 +535,6 @@ ctx
 )
 ;
 }
-if
-(
-this
-.
-_frontCreationListeners
-)
-{
 this
 .
 _frontCreationListeners
@@ -554,7 +547,6 @@ typeName
 front
 )
 ;
-}
 }
 async
 unmanage
