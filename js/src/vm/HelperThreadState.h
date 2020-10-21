@@ -156,6 +156,9 @@ frontend
 struct
 CompilationInfo
 ;
+struct
+CompilationInfoVector
+;
 }
 namespace
 wasm
@@ -1990,6 +1993,15 @@ frontend
 CompilationInfo
 >
 compilationInfo_
+;
+UniquePtr
+<
+frontend
+:
+:
+CompilationInfoVector
+>
+compilationInfos_
 ;
 Vector
 <

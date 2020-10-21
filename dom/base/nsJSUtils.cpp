@@ -1433,10 +1433,11 @@ tr
 JS
 :
 :
-DecodeScript
+DecodeScriptMaybeStencil
 (
 mCx
 aBytecodeBuf
+aCompileOptions
 &
 mScript
 aBytecodeIndex
