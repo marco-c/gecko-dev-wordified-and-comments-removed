@@ -291,12 +291,6 @@ kRangeSpecifiedPageRange
 ;
 const
 long
-kRangeSelection
-=
-2
-;
-const
-long
 kJustLeft
 =
 0
@@ -523,6 +517,13 @@ infallible
 attribute
 boolean
 showMarginGuides
+;
+[
+infallible
+]
+attribute
+boolean
+printSelectionOnly
 ;
 attribute
 short

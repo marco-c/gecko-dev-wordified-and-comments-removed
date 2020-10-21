@@ -224,6 +224,9 @@ mShowMarginGuides
 bool
 mHonorPageRuleMargins
 ;
+bool
+mPrintSelectionOnly
+;
 int32_t
 mPrintPageDelay
 ;
