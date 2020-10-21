@@ -212,14 +212,6 @@ crashContent
 (
 )
 {
-assumeTrue
-(
-sessionRule
-.
-env
-.
-isMultiprocess
-)
 /
 /
 We
