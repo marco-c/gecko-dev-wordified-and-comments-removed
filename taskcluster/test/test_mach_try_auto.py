@@ -260,6 +260,33 @@ important_manifests
             
 ]
             
+if
+attr
+(
+"
+unittest_suite
+"
+)
+=
+=
+"
+mochitest
+-
+a11y
+"
+:
+                
+assert
+len
+(
+unimportant
+)
+>
+0
+            
+else
+:
+                
 assert
 unimportant
 =
