@@ -739,7 +739,7 @@ jitScript
 script
 -
 >
-jitScript
+maybeJitScript
 (
 )
 ;
