@@ -218,9 +218,6 @@ mOutputQueue
 bool
 mStartReadingCalled
 ;
-bool
-mOutputStreamBlocked
-;
 }
 ;
 }
