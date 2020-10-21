@@ -3060,6 +3060,9 @@ sender
 channel
 :
 :
+crossbeam
+:
+:
 Sender
 <
 Arc
@@ -3186,6 +3189,9 @@ job_sender
 channel
 :
 :
+crossbeam
+:
+:
 Sender
 <
 Arc
@@ -3196,6 +3202,9 @@ SwCompositeGraphNode
 job_receiver
 :
 channel
+:
+:
+crossbeam
 :
 :
 Receiver
@@ -3211,6 +3220,9 @@ AtomicUsize
 jobs_completed
 :
 channel
+:
+:
+crossbeam
 :
 :
 Receiver
@@ -3249,7 +3261,10 @@ job_receiver
 channel
 :
 :
-unbounded_channel
+crossbeam
+:
+:
+unbounded
 (
 )
 ;
@@ -3262,7 +3277,10 @@ jobs_completed
 channel
 :
 :
-fast_channel
+crossbeam
+:
+:
+bounded
 (
 1
 )
@@ -3677,6 +3695,9 @@ return
 loop
 {
 channel
+:
+:
+crossbeam
 :
 :
 select
