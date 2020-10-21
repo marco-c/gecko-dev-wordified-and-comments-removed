@@ -420,10 +420,6 @@ subject
 mm
 )
 {
-onClose
-(
-)
-;
 connection
 .
 send
@@ -440,6 +436,10 @@ type
 tabDetached
 "
 }
+)
+;
+onClose
+(
 )
 ;
 }
