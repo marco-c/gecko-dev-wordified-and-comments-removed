@@ -43,6 +43,12 @@ gfx
 /
 wgpu_bindings
 '
+'
+/
+gfx
+/
+wgpu
+'
 ]
 )
 EXPORTS

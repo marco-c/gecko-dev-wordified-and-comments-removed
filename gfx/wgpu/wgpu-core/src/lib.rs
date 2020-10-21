@@ -172,6 +172,9 @@ swap_chain
 mod
 track
 ;
+mod
+validation
+;
 pub
 use
 hal
@@ -877,8 +880,10 @@ Debug
 struct
 PrivateFeatures
 {
-pub
-supports_texture_d24_s8
+shader_validation
+:
+bool
+texture_d24_s8
 :
 bool
 }
