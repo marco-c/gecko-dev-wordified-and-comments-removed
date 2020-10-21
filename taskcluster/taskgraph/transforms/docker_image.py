@@ -694,15 +694,20 @@ label
 '
 :
 '
-build
+{
+}
 -
-docker
--
-image
--
+{
+}
 '
-+
+.
+format
+(
+config
+.
+kind
 image_name
+)
             
 '
 description
@@ -1195,14 +1200,18 @@ image
 ]
 =
 '
-build
--
-docker
--
-image
+{
+}
 -
 image_builder
 '
+.
+format
+(
+config
+.
+kind
+)
         
 if
 packages
@@ -1272,11 +1281,8 @@ parent
 ]
 =
 '
-build
--
-docker
--
-image
+{
+}
 -
 {
 }
@@ -1284,6 +1290,9 @@ image
 .
 format
 (
+config
+.
+kind
 parent
 )
             

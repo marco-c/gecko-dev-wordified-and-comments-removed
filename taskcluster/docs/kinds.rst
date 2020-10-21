@@ -1661,8 +1661,6 @@ have
 predictable
 labels
 :
-build
--
 docker
 -
 image

@@ -321,8 +321,6 @@ image_taskid
 label_to_taskid
 [
 "
-build
--
 docker
 -
 image

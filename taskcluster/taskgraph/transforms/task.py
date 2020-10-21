@@ -2470,8 +2470,6 @@ tree
 docker_image_task
 =
 '
-build
--
 docker
 -
 image
