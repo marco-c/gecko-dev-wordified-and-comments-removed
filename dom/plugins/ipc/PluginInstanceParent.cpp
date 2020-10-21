@@ -11018,7 +11018,7 @@ if
 owner
 )
 {
-nsIFocusManager
+nsFocusManager
 *
 fm
 =

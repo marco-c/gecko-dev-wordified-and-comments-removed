@@ -19357,7 +19357,7 @@ mNeedsFocus
 =
 false
 ;
-nsIFocusManager
+nsFocusManager
 *
 fm
 =
@@ -19394,7 +19394,7 @@ PageHidden
 (
 )
 {
-nsIFocusManager
+nsFocusManager
 *
 fm
 =

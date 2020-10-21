@@ -834,7 +834,7 @@ return
 }
 else
 {
-nsIFocusManager
+nsFocusManager
 *
 fm
 =

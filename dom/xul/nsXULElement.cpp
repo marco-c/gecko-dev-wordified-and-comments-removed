@@ -2637,7 +2637,7 @@ toolbarbutton
 )
 )
 {
-nsIFocusManager
+nsFocusManager
 *
 fm
 =
