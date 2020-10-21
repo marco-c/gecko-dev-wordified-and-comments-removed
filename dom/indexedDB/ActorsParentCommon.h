@@ -169,12 +169,6 @@ KeyType
 ;
 constexpr
 uint32_t
-kFileCopyBufferSize
-=
-32768
-;
-constexpr
-uint32_t
 kEncryptedStreamBlockSize
 =
 4096
