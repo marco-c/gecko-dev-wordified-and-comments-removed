@@ -750,6 +750,16 @@ needsIncrementalBarrier
 n
 "
 "
+race
+:
+Sampler
+:
+:
+sSigHandlerCoordinator
+\
+n
+"
+"
 mutex
 :
 GLContextGLX
