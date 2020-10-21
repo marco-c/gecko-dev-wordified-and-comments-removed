@@ -5826,6 +5826,12 @@ MakeSticky
 (
 )
 ;
+if
+(
+!
+mIsWebsocket
+)
+{
 mDrivingTransaction
 -
 >
@@ -5858,12 +5864,6 @@ SetProxyConnectFailed
 )
 ;
 }
-if
-(
-!
-mIsWebsocket
-)
-{
 Unused
 <
 <
