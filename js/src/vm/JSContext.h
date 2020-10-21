@@ -2552,15 +2552,6 @@ js
 :
 ContextData
 <
-unsigned
->
-enableAccessValidation
-;
-js
-:
-:
-ContextData
-<
 int
 >
 inUnsafeRegion
