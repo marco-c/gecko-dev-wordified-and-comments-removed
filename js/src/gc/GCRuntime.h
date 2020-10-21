@@ -1957,6 +1957,11 @@ waitBackgroundFreeEnd
 )
 ;
 void
+waitForBackgroundTasks
+(
+)
+;
+void
 lockGC
 (
 )

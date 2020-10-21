@@ -460,6 +460,14 @@ FINISH_GC
 )
 ;
 void
+WaitForBackgroundTasks
+(
+JSContext
+*
+cx
+)
+;
+void
 MergeRealms
 (
 JS
