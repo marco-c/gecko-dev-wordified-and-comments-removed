@@ -144,6 +144,15 @@ include
 "
 jit
 /
+TemplateObject
+.
+h
+"
+#
+include
+"
+jit
+/
 VMFunctions
 .
 h
