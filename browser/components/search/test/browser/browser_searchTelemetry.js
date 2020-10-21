@@ -52,10 +52,13 @@ jsm
 const
 TEST_PROVIDER_INFO
 =
+[
 {
-example
+telemetryId
 :
-{
+"
+example
+"
 searchPageRegexp
 :
 /
@@ -148,7 +151,7 @@ ad2
 /
 ]
 }
-}
+]
 ;
 const
 SEARCH_AD_CLICK_SCALARS
