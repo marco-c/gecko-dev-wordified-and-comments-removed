@@ -10,6 +10,15 @@ PGamepadTestChannelParent
 h
 "
 #
+include
+"
+mozilla
+/
+WeakPtr
+.
+h
+"
+#
 ifndef
 mozilla_dom_GamepadTestChannelParent_h_
 #
@@ -27,6 +36,8 @@ final
 :
 public
 PGamepadTestChannelParent
+public
+SupportsWeakPtr
 {
 public
 :

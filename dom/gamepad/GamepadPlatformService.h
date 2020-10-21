@@ -38,6 +38,15 @@ StaticPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+WeakPtr
+.
+h
+"
 namespace
 mozilla
 {
@@ -79,7 +88,7 @@ MonitoringState
 void
 AddObserver
 (
-RefPtr
+WeakPtr
 <
 GamepadTestChannelParent
 >
@@ -158,7 +167,7 @@ false
 ;
 nsTArray
 <
-RefPtr
+WeakPtr
 <
 GamepadTestChannelParent
 >

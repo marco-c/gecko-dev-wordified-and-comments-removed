@@ -130,7 +130,7 @@ MonitoringState
 :
 AddObserver
 (
-RefPtr
+WeakPtr
 <
 GamepadTestChannelParent
 >
@@ -270,6 +270,11 @@ observer
 mObservers
 )
 {
+MOZ_RELEASE_ASSERT
+(
+observer
+)
+;
 observer
 -
 >
