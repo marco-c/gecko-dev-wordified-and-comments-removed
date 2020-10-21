@@ -209,9 +209,6 @@ bool
 force
 )
 ;
-struct
-EnterJitData
-;
 void
 Invalidate
 (
