@@ -694,6 +694,15 @@ tenuredBigInts
 js
 :
 :
+ZoneOrIonCompileData
+<
+uint64_t
+>
+nurseryAllocatedStrings
+;
+js
+:
+:
 ZoneData
 <
 bool

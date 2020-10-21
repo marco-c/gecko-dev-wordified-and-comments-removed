@@ -244,6 +244,10 @@ rt
 class
 CompileZone
 {
+friend
+class
+MacroAssembler
+;
 JS
 :
 :
