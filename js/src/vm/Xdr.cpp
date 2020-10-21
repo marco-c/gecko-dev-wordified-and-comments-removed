@@ -1846,7 +1846,7 @@ nullptr
 ;
 MOZ_TRY
 (
-XDRParserAtom
+XDRParserAtomData
 (
 xdr
 &
