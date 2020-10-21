@@ -100,7 +100,7 @@ restoreState
 (
 {
 history
-loadOptions
+switchId
 formdata
 scrolldata
 }
@@ -115,7 +115,7 @@ RestoreHistoryAndNavigate
 "
 {
 history
-loadOptions
+switchId
 }
 )
 ;
