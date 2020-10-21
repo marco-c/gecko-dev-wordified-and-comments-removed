@@ -1715,12 +1715,6 @@ queue
 MakeRefPtr
 <
 ThreadEventQueue
-<
-mozilla
-:
-:
-EventQueue
->
 >
 (
 MakeUnique

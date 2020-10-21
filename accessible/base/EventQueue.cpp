@@ -61,17 +61,12 @@ h
 "
 #
 endif
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 a11y
-;
+{
 const
 unsigned
 int
@@ -1831,5 +1826,7 @@ mDocument
 )
 return
 ;
+}
+}
 }
 }

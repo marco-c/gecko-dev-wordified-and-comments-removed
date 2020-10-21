@@ -190,10 +190,6 @@ CycleCollectedJSContext
 class
 EventQueue
 ;
-template
-<
-typename
->
 class
 ThreadEventQueue
 ;

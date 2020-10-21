@@ -150,11 +150,6 @@ mozilla
 =
 [
 '
-AbstractEventQueue
-.
-h
-'
-'
 AbstractThread
 .
 h

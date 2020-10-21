@@ -16746,9 +16746,6 @@ queue
 static_cast
 <
 ThreadEventQueue
-<
-EventQueue
->
 *
 >
 (
@@ -17200,9 +17197,6 @@ queue
 static_cast
 <
 ThreadEventQueue
-<
-EventQueue
->
 *
 >
 (
