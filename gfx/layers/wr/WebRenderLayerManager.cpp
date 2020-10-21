@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 WebRenderCanvasRenderer
 .
 h

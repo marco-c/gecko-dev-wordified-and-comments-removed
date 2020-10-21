@@ -79,6 +79,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+LayersSurfaces
+.
+h
+"
+#
+include
+"
 WebGLFormats
 .
 h

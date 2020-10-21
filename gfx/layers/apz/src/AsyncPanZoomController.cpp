@@ -608,6 +608,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsMathUtils
 .
 h

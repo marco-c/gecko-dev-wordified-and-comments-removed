@@ -115,6 +115,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsStyleStructInlines
 .
 h

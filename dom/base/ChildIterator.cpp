@@ -66,6 +66,13 @@ nsCSSAnonBoxes
 .
 h
 "
+#
+include
+"
+nsLayoutUtils
+.
+h
+"
 namespace
 mozilla
 {

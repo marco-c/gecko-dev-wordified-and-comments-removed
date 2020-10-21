@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 ImageContainer
 .
 h

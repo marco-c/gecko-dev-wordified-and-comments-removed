@@ -86,6 +86,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsPlaceholderFrame
 .
 h

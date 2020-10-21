@@ -24315,9 +24315,6 @@ nsIFrame
 *
 mRelativeTo
 ;
-nsLayoutUtils
-:
-:
 RectCallback
 *
 mCallback
@@ -24334,9 +24331,6 @@ const
 nsIFrame
 *
 aRelativeTo
-nsLayoutUtils
-:
-:
 RectCallback
 *
 aCallback
@@ -24566,9 +24560,6 @@ const
 nsIFrame
 *
 aRelativeTo
-nsLayoutUtils
-:
-:
 RectCallback
 *
 aCallback

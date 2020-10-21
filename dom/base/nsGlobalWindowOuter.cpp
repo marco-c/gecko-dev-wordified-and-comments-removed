@@ -646,6 +646,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsReadableUtils
 .
 h

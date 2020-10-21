@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 PathHelpers
 .
 h

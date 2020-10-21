@@ -59,6 +59,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsTextFragment
 .
 h
