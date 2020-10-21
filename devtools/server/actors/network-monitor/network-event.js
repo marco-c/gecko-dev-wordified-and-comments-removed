@@ -1786,7 +1786,7 @@ total
 )
 ;
 }
-addServerTimings
+addSeverTimings
 (
 serverTimings
 )
