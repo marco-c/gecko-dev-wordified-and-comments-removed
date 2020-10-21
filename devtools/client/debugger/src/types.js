@@ -1265,7 +1265,7 @@ type
 ThreadType
 =
 "
-mainThread
+frame
 "
 |
 "
@@ -1293,6 +1293,10 @@ URL
 type
 :
 ThreadType
++
+isTopLevel
+:
+boolean
 +
 name
 :

@@ -1558,6 +1558,9 @@ type
 "
 worker
 "
+isTopLevel
+:
+false
 }
 ]
 }
@@ -1732,6 +1735,9 @@ name
 "
 FakeThread
 "
+isTopLevel
+:
+false
 }
 ]
 }
@@ -1905,6 +1911,9 @@ type
 "
 worker
 "
+isTopLevel
+:
+false
 }
 {
 actor
@@ -1937,6 +1946,9 @@ type
 "
 worker
 "
+isTopLevel
+:
+false
 }
 ]
 }

@@ -345,13 +345,7 @@ Thread
 return
 thread
 .
-type
-=
-=
-=
-"
-mainThread
-"
+isTopLevel
 ;
 }
 export

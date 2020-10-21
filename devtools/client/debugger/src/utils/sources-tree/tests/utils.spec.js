@@ -1698,6 +1698,9 @@ type
 "
 worker
 "
+isTopLevel
+:
+false
 }
 {
 actor
@@ -1727,6 +1730,9 @@ type
 "
 worker
 "
+isTopLevel
+:
+false
 }
 ]
 ;
