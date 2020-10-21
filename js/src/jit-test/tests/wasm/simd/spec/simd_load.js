@@ -4396,7 +4396,7 @@ export
 "
 as
 -
-v8x16
+i8x16
 .
 swizzle
 -
@@ -4408,7 +4408,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 swizzle
 (
@@ -4467,7 +4467,7 @@ import
 "
 as
 -
-v8x16
+i8x16
 .
 swizzle
 -

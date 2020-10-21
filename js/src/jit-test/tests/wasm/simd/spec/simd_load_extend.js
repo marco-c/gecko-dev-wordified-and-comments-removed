@@ -172,7 +172,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_s
 "
@@ -187,7 +187,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_s
 (
@@ -203,7 +203,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_u
 "
@@ -218,7 +218,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_u
 (
@@ -234,7 +234,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_s
 "
@@ -249,7 +249,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_s
 (
@@ -265,7 +265,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_u
 "
@@ -280,7 +280,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_u
 (
@@ -296,7 +296,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_s
 "
@@ -311,7 +311,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_s
 (
@@ -327,7 +327,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_u
 "
@@ -342,7 +342,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_u
 (
@@ -358,7 +358,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_s_const0
 "
@@ -368,7 +368,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_s
 (
@@ -384,7 +384,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_u_const8
 "
@@ -394,7 +394,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_u
 (
@@ -410,7 +410,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_s_const10
 "
@@ -420,7 +420,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_s
 (
@@ -436,7 +436,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_u_const20
 "
@@ -446,7 +446,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_u
 (
@@ -462,7 +462,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_s_const65520
 "
@@ -472,7 +472,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_s
 (
@@ -488,7 +488,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_u_const65526
 "
@@ -498,7 +498,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_u
 (
@@ -514,7 +514,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_s_offset0
 "
@@ -529,7 +529,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_s
 offset
@@ -548,7 +548,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_s_align1
 "
@@ -563,7 +563,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_s
 align
@@ -582,7 +582,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_s_offset0_align1
 "
@@ -597,7 +597,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_s
 offset
@@ -619,7 +619,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_s_offset10_align4
 "
@@ -634,7 +634,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_s
 offset
@@ -656,7 +656,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_s_offset20_align8
 "
@@ -671,7 +671,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_s
 offset
@@ -693,7 +693,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_u_offset0
 "
@@ -708,7 +708,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_u
 offset
@@ -727,7 +727,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_u_align1
 "
@@ -742,7 +742,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_u
 align
@@ -761,7 +761,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_u_offset0_align1
 "
@@ -776,7 +776,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_u
 offset
@@ -798,7 +798,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_u_offset10_align4
 "
@@ -813,7 +813,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_u
 offset
@@ -835,7 +835,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_u_offset20_align8
 "
@@ -850,7 +850,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_u
 offset
@@ -872,7 +872,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_s_offset0
 "
@@ -887,7 +887,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_s
 offset
@@ -906,7 +906,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_s_align1
 "
@@ -921,7 +921,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_s
 align
@@ -940,7 +940,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_s_offset0_align1
 "
@@ -955,7 +955,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_s
 offset
@@ -977,7 +977,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_s_offset10_align4
 "
@@ -992,7 +992,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_s
 offset
@@ -1014,7 +1014,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_s_offset20_align8
 "
@@ -1029,7 +1029,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_s
 offset
@@ -1051,7 +1051,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_u_offset0
 "
@@ -1066,7 +1066,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_u
 offset
@@ -1085,7 +1085,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_u_align1
 "
@@ -1100,7 +1100,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_u
 align
@@ -1119,7 +1119,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_u_offset0_align1
 "
@@ -1134,7 +1134,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_u
 offset
@@ -1156,7 +1156,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_u_offset10_align4
 "
@@ -1171,7 +1171,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_u
 offset
@@ -1193,7 +1193,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_u_offset20_align8
 "
@@ -1208,7 +1208,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_u
 offset
@@ -1230,7 +1230,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_s_offset0
 "
@@ -1245,7 +1245,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_s
 offset
@@ -1264,7 +1264,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_s_align1
 "
@@ -1279,7 +1279,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_s
 align
@@ -1298,7 +1298,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_s_offset0_align1
 "
@@ -1313,7 +1313,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_s
 offset
@@ -1335,7 +1335,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_s_offset10_align4
 "
@@ -1350,7 +1350,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_s
 offset
@@ -1372,7 +1372,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_s_offset20_align8
 "
@@ -1387,7 +1387,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_s
 offset
@@ -1409,7 +1409,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_u_offset0
 "
@@ -1424,7 +1424,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_u
 offset
@@ -1443,7 +1443,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_u_align1
 "
@@ -1458,7 +1458,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_u
 align
@@ -1477,7 +1477,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_u_offset0_align1
 "
@@ -1492,7 +1492,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_u
 offset
@@ -1514,7 +1514,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_u_offset10_align4
 "
@@ -1529,7 +1529,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_u
 offset
@@ -1551,7 +1551,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_u_offset20_align8
 "
@@ -1566,7 +1566,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_u
 offset
@@ -1610,7 +1610,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_s
 "
@@ -1771,7 +1771,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_u
 "
@@ -1932,7 +1932,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_s
 "
@@ -2089,7 +2089,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_u
 "
@@ -2246,7 +2246,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_s
 "
@@ -2401,7 +2401,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_u
 "
@@ -2556,7 +2556,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_s
 "
@@ -2717,7 +2717,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_u
 "
@@ -2878,7 +2878,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_s
 "
@@ -3035,7 +3035,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_u
 "
@@ -3192,7 +3192,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_s
 "
@@ -3347,7 +3347,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_u
 "
@@ -3502,7 +3502,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_s
 "
@@ -3663,7 +3663,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_u
 "
@@ -3824,7 +3824,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_s
 "
@@ -3981,7 +3981,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_u
 "
@@ -4138,7 +4138,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_s
 "
@@ -4293,7 +4293,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_u
 "
@@ -4448,7 +4448,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_s_const0
 "
@@ -4602,7 +4602,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_u_const8
 "
@@ -4756,7 +4756,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_s_const10
 "
@@ -4906,7 +4906,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_u_const20
 "
@@ -5056,7 +5056,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_s_const65520
 "
@@ -5204,7 +5204,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_u_const65526
 "
@@ -5352,7 +5352,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_s_offset0
 "
@@ -5513,7 +5513,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_s_align1
 "
@@ -5674,7 +5674,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_s_offset0_align1
 "
@@ -5835,7 +5835,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_s_offset10_align4
 "
@@ -5996,7 +5996,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_s_offset20_align8
 "
@@ -6157,7 +6157,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_u_offset0
 "
@@ -6318,7 +6318,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_u_align1
 "
@@ -6479,7 +6479,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_u_offset0_align1
 "
@@ -6640,7 +6640,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_u_offset10_align4
 "
@@ -6801,7 +6801,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_u_offset20_align8
 "
@@ -6962,7 +6962,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_s_offset0
 "
@@ -7119,7 +7119,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_s_align1
 "
@@ -7276,7 +7276,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_s_offset0_align1
 "
@@ -7433,7 +7433,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_s_offset10_align4
 "
@@ -7590,7 +7590,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_s_offset20_align8
 "
@@ -7747,7 +7747,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_u_offset0
 "
@@ -7904,7 +7904,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_u_align1
 "
@@ -8061,7 +8061,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_u_offset0_align1
 "
@@ -8218,7 +8218,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_u_offset10_align4
 "
@@ -8375,7 +8375,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_u_offset20_align8
 "
@@ -8532,7 +8532,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_s_offset0
 "
@@ -8687,7 +8687,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_s_align1
 "
@@ -8842,7 +8842,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_s_offset0_align1
 "
@@ -8997,7 +8997,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_s_offset10_align4
 "
@@ -9152,7 +9152,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_s_offset20_align8
 "
@@ -9307,7 +9307,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_u_offset0
 "
@@ -9462,7 +9462,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_u_align1
 "
@@ -9617,7 +9617,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_u_offset0_align1
 "
@@ -9772,7 +9772,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_u_offset10_align4
 "
@@ -9927,7 +9927,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_u_offset20_align8
 "
@@ -10082,7 +10082,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_s
 "
@@ -10194,7 +10194,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_u
 "
@@ -10306,7 +10306,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_s
 "
@@ -10417,7 +10417,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_u
 "
@@ -10528,7 +10528,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_s
 "
@@ -10639,7 +10639,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_u
 "
@@ -10754,7 +10754,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_s
 (
@@ -10843,7 +10843,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_u
 (
@@ -10932,7 +10932,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_s
 (
@@ -11021,7 +11021,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_u
 (
@@ -11110,7 +11110,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_s
 (
@@ -11203,7 +11203,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_u
 (
@@ -11291,7 +11291,7 @@ memory
 )
 (
 func
-i16x8
+v128
 .
 load8x8_s
 -
@@ -11303,7 +11303,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_s
 )
@@ -11381,7 +11381,7 @@ memory
 )
 (
 func
-i16x8
+v128
 .
 load8x8_u
 -
@@ -11393,7 +11393,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_u
 )
@@ -11471,7 +11471,7 @@ memory
 )
 (
 func
-i32x4
+v128
 .
 load16x4_s
 -
@@ -11483,7 +11483,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_s
 )
@@ -11561,7 +11561,7 @@ memory
 )
 (
 func
-i32x4
+v128
 .
 load16x4_u
 -
@@ -11573,7 +11573,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_u
 )
@@ -11651,7 +11651,7 @@ memory
 )
 (
 func
-i64x2
+v128
 .
 load32x2_s
 -
@@ -11663,7 +11663,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_s
 )
@@ -11741,7 +11741,7 @@ memory
 )
 (
 func
-i64x2
+v128
 .
 load32x2_u
 -
@@ -11753,7 +11753,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_u
 )
@@ -12309,7 +12309,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_s
 -
@@ -12335,7 +12335,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_s
 (
@@ -12353,7 +12353,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_u
 -
@@ -12379,7 +12379,7 @@ result
 v128
 )
 (
-i16x8
+v128
 .
 load8x8_u
 (
@@ -12397,7 +12397,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_s
 -
@@ -12423,7 +12423,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_s
 (
@@ -12441,7 +12441,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_u
 -
@@ -12467,7 +12467,7 @@ result
 v128
 )
 (
-i32x4
+v128
 .
 load16x4_u
 (
@@ -12485,7 +12485,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_s
 -
@@ -12511,7 +12511,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_s
 (
@@ -12529,7 +12529,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_u
 -
@@ -12555,7 +12555,7 @@ result
 v128
 )
 (
-i64x2
+v128
 .
 load32x2_u
 (
@@ -12573,7 +12573,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_s
 -
@@ -12598,7 +12598,7 @@ v128
 br
 0
 (
-i16x8
+v128
 .
 load8x8_s
 (
@@ -12616,7 +12616,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_u
 -
@@ -12641,7 +12641,7 @@ v128
 br
 0
 (
-i16x8
+v128
 .
 load8x8_u
 (
@@ -12659,7 +12659,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_s
 -
@@ -12684,7 +12684,7 @@ v128
 br
 0
 (
-i32x4
+v128
 .
 load16x4_s
 (
@@ -12702,7 +12702,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_u
 -
@@ -12727,7 +12727,7 @@ v128
 br
 0
 (
-i32x4
+v128
 .
 load16x4_u
 (
@@ -12745,7 +12745,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_s
 -
@@ -12770,7 +12770,7 @@ v128
 br
 0
 (
-i64x2
+v128
 .
 load32x2_s
 (
@@ -12788,7 +12788,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_u
 -
@@ -12813,7 +12813,7 @@ v128
 br
 0
 (
-i64x2
+v128
 .
 load32x2_u
 (
@@ -12831,7 +12831,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_s
 -
@@ -12850,7 +12850,7 @@ i8x16
 extract_lane_s
 0
 (
-i16x8
+v128
 .
 load8x8_s
 (
@@ -12867,7 +12867,7 @@ func
 (
 export
 "
-i16x8
+v128
 .
 load8x8_u
 -
@@ -12886,7 +12886,7 @@ i8x16
 extract_lane_s
 0
 (
-i16x8
+v128
 .
 load8x8_u
 (
@@ -12903,7 +12903,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_s
 -
@@ -12922,7 +12922,7 @@ i8x16
 extract_lane_s
 0
 (
-i32x4
+v128
 .
 load16x4_s
 (
@@ -12939,7 +12939,7 @@ func
 (
 export
 "
-i32x4
+v128
 .
 load16x4_u
 -
@@ -12958,7 +12958,7 @@ i8x16
 extract_lane_s
 0
 (
-i32x4
+v128
 .
 load16x4_u
 (
@@ -12975,7 +12975,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_s
 -
@@ -12994,7 +12994,7 @@ i8x16
 extract_lane_s
 0
 (
-i64x2
+v128
 .
 load32x2_s
 (
@@ -13011,7 +13011,7 @@ func
 (
 export
 "
-i64x2
+v128
 .
 load32x2_u
 -
@@ -13030,7 +13030,7 @@ i8x16
 extract_lane_s
 0
 (
-i64x2
+v128
 .
 load32x2_u
 (
@@ -13069,7 +13069,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_s
 -
@@ -13227,7 +13227,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_u
 -
@@ -13385,7 +13385,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_s
 -
@@ -13539,7 +13539,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_u
 -
@@ -13693,7 +13693,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_s
 -
@@ -13845,7 +13845,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_u
 -
@@ -13997,7 +13997,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_s
 -
@@ -14157,7 +14157,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_u
 -
@@ -14317,7 +14317,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_s
 -
@@ -14473,7 +14473,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_u
 -
@@ -14629,7 +14629,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_s
 -
@@ -14783,7 +14783,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_u
 -
@@ -14937,7 +14937,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_s
 -
@@ -15082,7 +15082,7 @@ import
 "
 "
 "
-i16x8
+v128
 .
 load8x8_u
 -
@@ -15227,7 +15227,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_s
 -
@@ -15372,7 +15372,7 @@ import
 "
 "
 "
-i32x4
+v128
 .
 load16x4_u
 -
@@ -15517,7 +15517,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_s
 -
@@ -15663,7 +15663,7 @@ import
 "
 "
 "
-i64x2
+v128
 .
 load32x2_u
 -

@@ -20045,7 +20045,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 swizzle
 (
@@ -20637,7 +20637,7 @@ export
 "
 as
 -
-i8x16_add_saturate_s
+i8x16_add_sat_s
 -
 operands
 "
@@ -20654,7 +20654,7 @@ v128
 (
 i8x16
 .
-add_saturate_s
+add_sat_s
 (
 i8x16
 .
@@ -20686,7 +20686,7 @@ export
 "
 as
 -
-i16x8_add_saturate_s
+i16x8_add_sat_s
 -
 operands
 "
@@ -20703,7 +20703,7 @@ v128
 (
 i16x8
 .
-add_saturate_s
+add_sat_s
 (
 i16x8
 .
@@ -20735,7 +20735,7 @@ export
 "
 as
 -
-i8x16_sub_saturate_u
+i8x16_sub_sat_u
 -
 operands
 "
@@ -20752,7 +20752,7 @@ v128
 (
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 (
 i8x16
 .
@@ -20784,7 +20784,7 @@ export
 "
 as
 -
-i16x8_sub_saturate_u
+i16x8_sub_sat_u
 -
 operands
 "
@@ -20801,7 +20801,7 @@ v128
 (
 i16x8
 .
-sub_saturate_u
+sub_sat_u
 (
 i16x8
 .
@@ -24731,7 +24731,7 @@ import
 "
 as
 -
-i8x16_add_saturate_s
+i8x16_add_sat_s
 -
 operands
 "
@@ -24909,7 +24909,7 @@ import
 "
 as
 -
-i16x8_add_saturate_s
+i16x8_add_sat_s
 -
 operands
 "
@@ -25079,7 +25079,7 @@ import
 "
 as
 -
-i8x16_sub_saturate_u
+i8x16_sub_sat_u
 -
 operands
 "
@@ -25257,7 +25257,7 @@ import
 "
 as
 -
-i16x8_sub_saturate_u
+i16x8_sub_sat_u
 -
 operands
 "

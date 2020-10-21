@@ -22,7 +22,7 @@ export
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 )
 (
@@ -37,7 +37,7 @@ v128
 (
 i8x16
 .
-add_saturate_s
+add_sat_s
 (
 local
 .
@@ -59,7 +59,7 @@ export
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 )
 (
@@ -74,7 +74,7 @@ v128
 (
 i8x16
 .
-add_saturate_u
+add_sat_u
 (
 local
 .
@@ -96,7 +96,7 @@ export
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 )
 (
@@ -111,7 +111,7 @@ v128
 (
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 (
 local
 .
@@ -133,7 +133,7 @@ export
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 )
 (
@@ -148,7 +148,7 @@ v128
 (
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 (
 local
 .
@@ -192,7 +192,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -400,7 +400,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -608,7 +608,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -816,7 +816,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -1056,7 +1056,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -1280,7 +1280,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -1536,7 +1536,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -1744,7 +1744,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -1952,7 +1952,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -2208,7 +2208,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -2464,7 +2464,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -2720,7 +2720,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -2928,7 +2928,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -3136,7 +3136,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -3360,7 +3360,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -3616,7 +3616,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -3872,7 +3872,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -4128,7 +4128,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -4336,7 +4336,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -4592,7 +4592,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -4848,7 +4848,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -5072,7 +5072,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -5280,7 +5280,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -5520,7 +5520,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -5728,7 +5728,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -5968,7 +5968,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -6192,7 +6192,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -6400,7 +6400,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -6608,7 +6608,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -6864,7 +6864,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -7120,7 +7120,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -7376,7 +7376,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -7584,7 +7584,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -7792,7 +7792,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -8032,7 +8032,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -8256,7 +8256,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -8480,7 +8480,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -8688,7 +8688,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -8912,7 +8912,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -9120,7 +9120,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -9320,7 +9320,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -9520,7 +9520,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -9716,7 +9716,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -9916,7 +9916,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -10124,7 +10124,7 @@ import
 "
 i8x16
 .
-add_saturate_s
+add_sat_s
 "
 (
 func
@@ -10332,7 +10332,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -10540,7 +10540,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -10748,7 +10748,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -10956,7 +10956,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -11180,7 +11180,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -11404,7 +11404,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -11644,7 +11644,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -11852,7 +11852,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -12060,7 +12060,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -12300,7 +12300,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -12540,7 +12540,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -12780,7 +12780,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -12988,7 +12988,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -13196,7 +13196,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -13404,7 +13404,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -13644,7 +13644,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -13884,7 +13884,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -14124,7 +14124,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -14332,7 +14332,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -14572,7 +14572,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -14812,7 +14812,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -15020,7 +15020,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -15228,7 +15228,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -15452,7 +15452,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -15660,7 +15660,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -15884,7 +15884,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -16092,7 +16092,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -16300,7 +16300,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -16508,7 +16508,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -16748,7 +16748,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -16988,7 +16988,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -17228,7 +17228,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -17436,7 +17436,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -17644,7 +17644,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -17868,7 +17868,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -18076,7 +18076,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -18284,7 +18284,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -18492,7 +18492,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -18700,7 +18700,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -18908,7 +18908,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -19108,7 +19108,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -19308,7 +19308,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -19504,7 +19504,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -19704,7 +19704,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -19912,7 +19912,7 @@ import
 "
 i8x16
 .
-add_saturate_u
+add_sat_u
 "
 (
 func
@@ -20120,7 +20120,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -20328,7 +20328,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -20552,7 +20552,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -20760,7 +20760,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -20984,7 +20984,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -21208,7 +21208,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -21448,7 +21448,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -21672,7 +21672,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -21880,7 +21880,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -22120,7 +22120,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -22360,7 +22360,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -22616,7 +22616,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -22824,7 +22824,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -23032,7 +23032,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -23256,7 +23256,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -23512,7 +23512,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -23768,7 +23768,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -24024,7 +24024,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -24232,7 +24232,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -24472,7 +24472,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -24728,7 +24728,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -24952,7 +24952,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -25176,7 +25176,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -25400,7 +25400,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -25624,7 +25624,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -25848,7 +25848,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -26056,7 +26056,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -26280,7 +26280,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -26488,7 +26488,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -26728,7 +26728,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -26968,7 +26968,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -27208,7 +27208,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -27416,7 +27416,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -27624,7 +27624,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -27864,7 +27864,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -28072,7 +28072,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -28280,7 +28280,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -28504,7 +28504,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -28712,7 +28712,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -28920,7 +28920,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -29120,7 +29120,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -29320,7 +29320,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -29516,7 +29516,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -29716,7 +29716,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -29924,7 +29924,7 @@ import
 "
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 "
 (
 func
@@ -30147,7 +30147,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -30355,7 +30355,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -30563,7 +30563,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -30771,7 +30771,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -30995,7 +30995,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -31219,7 +31219,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -31459,7 +31459,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -31667,7 +31667,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -31875,7 +31875,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -32115,7 +32115,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -32355,7 +32355,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -32595,7 +32595,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -32803,7 +32803,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -33011,7 +33011,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -33219,7 +33219,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -33459,7 +33459,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -33699,7 +33699,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -33939,7 +33939,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -34147,7 +34147,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -34387,7 +34387,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -34627,7 +34627,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -34835,7 +34835,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -35043,7 +35043,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -35267,7 +35267,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -35475,7 +35475,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -35699,7 +35699,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -35907,7 +35907,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -36115,7 +36115,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -36323,7 +36323,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -36563,7 +36563,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -36803,7 +36803,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -37043,7 +37043,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -37251,7 +37251,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -37459,7 +37459,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -37683,7 +37683,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -37891,7 +37891,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -38099,7 +38099,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -38307,7 +38307,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -38515,7 +38515,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -38723,7 +38723,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -38923,7 +38923,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -39123,7 +39123,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -39319,7 +39319,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -39519,7 +39519,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -39727,7 +39727,7 @@ import
 "
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 "
 (
 func
@@ -40330,7 +40330,7 @@ v128
 (
 i32x4
 .
-add_saturate_s
+add_sat_s
 (
 v128
 .
@@ -40405,7 +40405,7 @@ v128
 (
 i32x4
 .
-add_saturate_u
+add_sat_u
 (
 v128
 .
@@ -40480,7 +40480,7 @@ v128
 (
 i32x4
 .
-sub_saturate_s
+sub_sat_s
 (
 v128
 .
@@ -40555,7 +40555,7 @@ v128
 (
 i32x4
 .
-sub_saturate_u
+sub_sat_u
 (
 v128
 .
@@ -40630,7 +40630,7 @@ v128
 (
 f32x4
 .
-add_saturate_s
+add_sat_s
 (
 v128
 .
@@ -40705,7 +40705,7 @@ v128
 (
 f32x4
 .
-add_saturate_u
+add_sat_u
 (
 v128
 .
@@ -40780,7 +40780,7 @@ v128
 (
 f32x4
 .
-sub_saturate_s
+sub_sat_s
 (
 v128
 .
@@ -40855,7 +40855,7 @@ v128
 (
 f32x4
 .
-sub_saturate_u
+sub_sat_u
 (
 v128
 .
@@ -40931,7 +40931,7 @@ v128
 (
 i8x16
 .
-add_saturate_s
+add_sat_s
 (
 i32
 .
@@ -41024,7 +41024,7 @@ v128
 (
 i8x16
 .
-add_saturate_u
+add_sat_u
 (
 i32
 .
@@ -41117,7 +41117,7 @@ v128
 (
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 (
 i32
 .
@@ -41210,7 +41210,7 @@ v128
 (
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 (
 i32
 .
@@ -41298,7 +41298,7 @@ module
 func
 i8x16
 .
-add_saturate_s
+add_sat_s
 -
 1st
 -
@@ -41312,7 +41312,7 @@ v128
 (
 i8x16
 .
-add_saturate_s
+add_sat_s
 (
 v128
 .
@@ -41408,7 +41408,7 @@ module
 func
 i8x16
 .
-add_saturate_s
+add_sat_s
 -
 arg
 -
@@ -41420,7 +41420,7 @@ v128
 (
 i8x16
 .
-add_saturate_s
+add_sat_s
 )
 )
 )
@@ -41494,7 +41494,7 @@ module
 func
 i8x16
 .
-add_saturate_u
+add_sat_u
 -
 1st
 -
@@ -41508,7 +41508,7 @@ v128
 (
 i8x16
 .
-add_saturate_u
+add_sat_u
 (
 v128
 .
@@ -41604,7 +41604,7 @@ module
 func
 i8x16
 .
-add_saturate_u
+add_sat_u
 -
 arg
 -
@@ -41616,7 +41616,7 @@ v128
 (
 i8x16
 .
-add_saturate_u
+add_sat_u
 )
 )
 )
@@ -41690,7 +41690,7 @@ module
 func
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 -
 1st
 -
@@ -41704,7 +41704,7 @@ v128
 (
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 (
 v128
 .
@@ -41800,7 +41800,7 @@ module
 func
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 -
 arg
 -
@@ -41812,7 +41812,7 @@ v128
 (
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 )
 )
 )
@@ -41886,7 +41886,7 @@ module
 func
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 -
 1st
 -
@@ -41900,7 +41900,7 @@ v128
 (
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 (
 v128
 .
@@ -41996,7 +41996,7 @@ module
 func
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 -
 arg
 -
@@ -42008,7 +42008,7 @@ v128
 (
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 )
 )
 )
@@ -42105,11 +42105,11 @@ v128
 (
 i8x16
 .
-add_saturate_s
+add_sat_s
 (
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 (
 local
 .
@@ -42156,11 +42156,11 @@ v128
 (
 i8x16
 .
-add_saturate_s
+add_sat_s
 (
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 (
 local
 .
@@ -42207,11 +42207,11 @@ v128
 (
 i8x16
 .
-add_saturate_u
+add_sat_u
 (
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 (
 local
 .
@@ -42258,11 +42258,11 @@ v128
 (
 i8x16
 .
-add_saturate_u
+add_sat_u
 (
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 (
 local
 .
@@ -42308,7 +42308,7 @@ v128
 (
 i8x16
 .
-add_saturate_s
+add_sat_s
 (
 i8x16
 .
@@ -42352,7 +42352,7 @@ v128
 (
 i8x16
 .
-add_saturate_u
+add_sat_u
 (
 i8x16
 .
@@ -42396,7 +42396,7 @@ v128
 (
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 (
 i8x16
 .
@@ -42440,7 +42440,7 @@ v128
 (
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 (
 i8x16
 .
