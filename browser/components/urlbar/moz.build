@@ -153,6 +153,11 @@ UrlbarProvidersManager
 jsm
 '
 '
+UrlbarProviderTabToSearch
+.
+jsm
+'
+'
 UrlbarProviderTokenAliasEngines
 .
 jsm
