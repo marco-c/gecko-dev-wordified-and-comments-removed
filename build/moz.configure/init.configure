@@ -2245,6 +2245,17 @@ packages
 directory
 '
 )
+os
+.
+environ
+.
+pop
+(
+'
+PYTHONEXECUTABLE
+'
+None
+)
 str_version
 =
 '
