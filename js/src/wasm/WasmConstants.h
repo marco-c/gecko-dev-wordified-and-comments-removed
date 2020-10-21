@@ -2092,6 +2092,13 @@ MaxModuleBytes
 static
 const
 unsigned
+MaxArgsForJitInlineCall
+=
+8
+;
+static
+const
+unsigned
 MaxResultsForJitEntry
 =
 1

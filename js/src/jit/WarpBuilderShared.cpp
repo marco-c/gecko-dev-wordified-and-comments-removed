@@ -104,6 +104,14 @@ ins
 isEffectful
 (
 )
+|
+|
+ins
+-
+>
+isInt64ToBigInt
+(
+)
 )
 ;
 MResumePoint
