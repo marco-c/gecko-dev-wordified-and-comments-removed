@@ -245,6 +245,7 @@ AspectRatio
 GetIntrinsicRatio
 (
 )
+const
 override
 ;
 mozilla

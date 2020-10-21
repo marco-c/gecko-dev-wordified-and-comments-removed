@@ -2968,6 +2968,7 @@ nsSubDocumentFrame
 GetIntrinsicRatio
 (
 )
+const
 {
 const
 auto

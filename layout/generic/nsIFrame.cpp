@@ -28653,6 +28653,7 @@ nsIFrame
 GetIntrinsicRatio
 (
 )
+const
 {
 return
 AspectRatio

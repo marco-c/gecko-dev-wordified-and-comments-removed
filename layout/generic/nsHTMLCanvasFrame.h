@@ -272,7 +272,6 @@ GetIntrinsicSize
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -280,6 +279,7 @@ AspectRatio
 GetIntrinsicRatio
 (
 )
+const
 override
 ;
 SizeComputationResult

@@ -3450,6 +3450,7 @@ nsVideoFrame
 GetIntrinsicRatio
 (
 )
+const
 {
 if
 (

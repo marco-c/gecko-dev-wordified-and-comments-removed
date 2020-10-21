@@ -7123,6 +7123,7 @@ AspectRatio
 GetIntrinsicRatio
 (
 )
+const
 ;
 enum
 class
