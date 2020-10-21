@@ -2972,6 +2972,17 @@ mRole
 =
 aRole
 ;
+#
+ifdef
+MOZ_WIDGET_COCOA
+ProxyRoleChangedEvent
+(
+this
+aRole
+)
+;
+#
+endif
 return
 IPC_OK
 (
