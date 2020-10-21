@@ -24,6 +24,15 @@ include
 "
 jit
 /
+CompactBuffer
+.
+h
+"
+#
+include
+"
+jit
+/
 JitRealm
 .
 h

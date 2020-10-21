@@ -41,6 +41,9 @@ js
 namespace
 jit
 {
+class
+CompactBufferReader
+;
 static
 constexpr
 Register
