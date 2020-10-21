@@ -551,6 +551,7 @@ Set
 (
 [
 "
+Baidu
 "
 "
 Bing
@@ -569,8 +570,6 @@ Qwant
 "
 "
 Yandex
-"
-"
 "
 ]
 )
