@@ -213,7 +213,7 @@ policy
 SandboxBrokerPolicyFactory
 :
 :
-GetUtilityPolicy
+GetRDDPolicy
 (
 OtherPid
 (

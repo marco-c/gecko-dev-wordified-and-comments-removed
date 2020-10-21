@@ -55,7 +55,7 @@ SandboxBroker
 :
 Policy
 >
-GetUtilityPolicy
+GetRDDPolicy
 (
 int
 aPid
