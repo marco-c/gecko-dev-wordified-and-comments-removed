@@ -4032,8 +4032,9 @@ hr
 )
 )
 {
-NS_WARNING
+MOZ_ASSERT
 (
+false
 "
 Failed
 to
