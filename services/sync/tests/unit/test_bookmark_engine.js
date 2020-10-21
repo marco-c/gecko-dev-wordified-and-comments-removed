@@ -168,7 +168,7 @@ message
 )
 {
 let
-repairEvents
+checkEvents
 =
 recordedEvents
 .
@@ -187,7 +187,7 @@ object
 ;
 deepEqual
 (
-repairEvents
+checkEvents
 expected
 message
 )

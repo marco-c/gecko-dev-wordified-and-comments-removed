@@ -423,9 +423,6 @@ prototype
 syncPriority
 :
 10
-_skipPercentageChance
-:
-100
 overrideTelemetryName
 :
 "
