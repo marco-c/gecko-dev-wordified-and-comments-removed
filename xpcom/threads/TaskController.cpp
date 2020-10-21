@@ -385,6 +385,13 @@ InitializeInternal
 (
 )
 {
+InputTaskManager
+:
+:
+Init
+(
+)
+;
 mMTProcessingRunnable
 =
 NS_NewRunnableFunction
