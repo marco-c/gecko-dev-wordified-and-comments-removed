@@ -1331,6 +1331,8 @@ private
 nsresult
 Paint
 (
+bool
+aDoTick
 )
 ;
 void
@@ -1466,6 +1468,8 @@ PaintTask
 PuppetWidget
 *
 widget
+bool
+aDoTick
 )
 :
 Runnable
@@ -1480,6 +1484,10 @@ PaintTask
 mWidget
 (
 widget
+)
+mDoTick
+(
+aDoTick
 )
 {
 }
@@ -1499,6 +1507,9 @@ PuppetWidget
 *
 mWidget
 ;
+bool
+mDoTick
+;
 }
 ;
 BrowserChild
@@ -1510,9 +1521,6 @@ RefPtr
 PuppetWidget
 >
 mChild
-;
-LayoutDeviceIntRegion
-mDirtyRegion
 ;
 nsRevocableEventPtr
 <
