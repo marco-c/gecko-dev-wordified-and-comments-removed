@@ -519,11 +519,6 @@ alpn
 ;
 readonly
 attribute
-ACString
-echConfig
-;
-readonly
-attribute
 bool
 hasIPHintAddress
 ;
