@@ -152,7 +152,7 @@ aEndOffset
 ;
 virtual
 void
-Pivot
+PivotTo
 (
 int32_t
 aGranularity

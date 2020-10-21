@@ -758,7 +758,7 @@ aInclusive
 {
 FORWARD_ACTION_TO_ACCESSIBLE
 (
-Pivot
+PivotTo
 aGranularity
 aForward
 aInclusive
