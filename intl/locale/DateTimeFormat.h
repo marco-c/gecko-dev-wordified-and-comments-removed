@@ -64,9 +64,7 @@ kDateFormatNone
 kDateFormatLong
 kDateFormatShort
 kDateFormatYearMonth
-kDateFormatWeekday
 kDateFormatYearMonthLong
-kDateFormatMonthLong
 }
 ;
 enum
