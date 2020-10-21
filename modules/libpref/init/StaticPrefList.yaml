@@ -62017,6 +62017,12 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+defined
+(
+XP_WIN
+)
 value
 :
 IS_NIGHTLY_OR_DEV_EDITION
