@@ -774,6 +774,13 @@ EchoSubtraction
 n
 "
 "
+race
+:
+WebRtcAec_Create
+\
+n
+"
+"
 mutex
 :
 GLContextGLX
