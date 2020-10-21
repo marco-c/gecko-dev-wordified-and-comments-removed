@@ -529,10 +529,6 @@ virtualenv
 self
 .
 python_interp
-'
--
-S
-'
 self
 .
 virtualenv_script
