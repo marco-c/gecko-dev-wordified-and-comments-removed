@@ -90,6 +90,15 @@ include
 "
 mozilla
 /
+DisplayPortUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 InputTaskManager
 .
 h
@@ -9194,7 +9203,7 @@ apz_peek_messages_enabled
 )
 )
 {
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 UpdateDisplayPortMarginsFromPendingMessages

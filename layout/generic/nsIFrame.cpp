@@ -63,6 +63,15 @@ include
 "
 mozilla
 /
+DisplayPortUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ElementInlines
@@ -16294,7 +16303,7 @@ Fixed
 &
 &
 (
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 IsFixedPosFrameInDisplayPort
@@ -34181,7 +34190,7 @@ IsStackingContext
 )
 |
 |
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 FrameHasDisplayPort

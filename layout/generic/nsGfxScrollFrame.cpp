@@ -252,6 +252,15 @@ include
 "
 mozilla
 /
+DisplayPortUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventDispatcher
 .
 h
@@ -10627,7 +10636,7 @@ GetContent
 )
 )
 {
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetDisplayPortMargins
@@ -10650,7 +10659,7 @@ ScreenMargin
 0
 )
 ;
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetZeroMarginDisplayPortOnAsyncScrollableAncestors
@@ -12411,7 +12420,7 @@ mIsScrollParent
 return
 ;
 }
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 RemoveDisplayPort
@@ -12427,7 +12436,7 @@ GetContent
 )
 )
 ;
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 ExpireDisplayPortOnAsyncScrollableAncestor
@@ -13258,7 +13267,7 @@ else
 {
 mHadDisplayPortAtLastFrameUpdate
 =
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 GetDisplayPort
@@ -13920,7 +13929,7 @@ GetContent
 (
 )
 ;
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 GetHighResolutionDisplayPort
@@ -14131,7 +14140,7 @@ displayPort
 bool
 usingDisplayPort
 =
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 GetHighResolutionDisplayPort
@@ -18222,7 +18231,7 @@ if
 mWillBuildScrollableLayer
 )
 {
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetDisplayPortMargins
@@ -18243,7 +18252,7 @@ ScreenMargin
 (
 )
 0
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 RepaintMode
@@ -18958,7 +18967,7 @@ GetContent
 )
 &
 &
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 GetDisplayPort
@@ -19537,7 +19546,7 @@ GetContent
 bool
 usingDisplayPort
 =
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 HasDisplayPort
@@ -19813,7 +19822,7 @@ TopLeft
 )
 ;
 }
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetDisplayPortBase
@@ -19847,7 +19856,7 @@ displayPort
 ;
 usingDisplayPort
 =
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 GetDisplayPort
@@ -20400,7 +20409,7 @@ displayPort
 bool
 usingDisplayport
 =
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 GetDisplayPort
@@ -21608,7 +21617,7 @@ delta
 if
 (
 !
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 HasDisplayPort
@@ -21699,7 +21708,7 @@ viewID
 )
 ;
 }
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 CalculateAndSetDisplayPortMargins
@@ -21710,7 +21719,7 @@ mOuter
 GetScrollTargetFrame
 (
 )
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 RepaintMode
@@ -21733,7 +21742,7 @@ GetScrollTargetFrame
 )
 )
 ;
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetZeroMarginDisplayPortOnAsyncScrollableAncestors
@@ -27757,7 +27766,7 @@ IsAlwaysActive
 )
 |
 |
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 HasDisplayPort
@@ -27850,7 +27859,7 @@ IsAlwaysActive
 )
 |
 |
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 HasDisplayPort
@@ -36251,7 +36260,7 @@ aDestination
 if
 (
 !
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 HasDisplayPort
@@ -36342,7 +36351,7 @@ viewID
 )
 ;
 }
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 CalculateAndSetDisplayPortMargins
@@ -36353,7 +36362,7 @@ mOuter
 GetScrollTargetFrame
 (
 )
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 RepaintMode
@@ -36376,7 +36385,7 @@ GetScrollTargetFrame
 )
 )
 ;
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetZeroMarginDisplayPortOnAsyncScrollableAncestors

@@ -82,6 +82,15 @@ include
 "
 mozilla
 /
+DisplayPortUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h
@@ -833,7 +842,7 @@ GetSize
 )
 )
 ;
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetDisplayPortBase

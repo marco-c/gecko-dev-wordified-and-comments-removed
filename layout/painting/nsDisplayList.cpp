@@ -41,6 +41,15 @@ include
 "
 mozilla
 /
+DisplayPortUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BrowserChild
@@ -2653,7 +2662,7 @@ apz_allow_zooming
 )
 &
 &
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 IsFixedPosFrameInDisplayPort
@@ -2754,7 +2763,7 @@ displayport
 ;
 if
 (
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 GetHighResolutionDisplayPort
@@ -7794,7 +7803,7 @@ GetParent
 )
 &
 &
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 ViewportHasDisplayPort
@@ -7814,7 +7823,7 @@ AGR_YES
 }
 if
 (
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 IsFixedPosFrameInDisplayPort
@@ -11819,7 +11828,7 @@ content
 {
 usingDisplayport
 =
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 HasDisplayPort
@@ -33374,7 +33383,7 @@ IsPaintingToWindow
 )
 &
 &
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 ViewportHasDisplayPort
@@ -33538,7 +33547,7 @@ rootScrollFrame
 Unused
 <
 <
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 GetDisplayPort
@@ -37940,7 +37949,7 @@ mReferenceFrame
 ;
 if
 (
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 IsFixedPosFrameInDisplayPort
