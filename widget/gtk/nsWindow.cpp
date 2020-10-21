@@ -24355,6 +24355,12 @@ if
 (
 !
 gUseWaylandVsync
+|
+|
+mWindowType
+!
+=
+eWindowType_toplevel
 )
 {
 return
