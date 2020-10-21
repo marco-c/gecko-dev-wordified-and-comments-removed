@@ -19374,7 +19374,7 @@ if
 tracer
 -
 >
-isCallbackTracer
+isGenericTracer
 (
 )
 )
