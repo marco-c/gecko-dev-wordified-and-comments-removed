@@ -9627,6 +9627,12 @@ init
 (
 )
 ;
+DoHController
+.
+init
+(
+)
+;
 this
 .
 _firstWindowTelemetry
@@ -12224,12 +12230,6 @@ _showNewInstallModal
 )
 ;
 }
-DoHController
-.
-init
-(
-)
-;
 FirefoxMonitor
 .
 init
