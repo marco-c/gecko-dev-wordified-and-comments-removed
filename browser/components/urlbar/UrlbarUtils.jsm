@@ -3482,6 +3482,15 @@ type
 boolean
 "
 }
+isSponsored
+:
+{
+type
+:
+"
+boolean
+"
+}
 sendAttributionRequest
 :
 {

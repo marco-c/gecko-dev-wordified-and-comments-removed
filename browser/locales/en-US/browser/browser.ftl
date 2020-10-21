@@ -4244,6 +4244,15 @@ result
 -
 action
 -
+sponsored
+=
+Sponsored
+urlbar
+-
+result
+-
+action
+-
 switch
 -
 tab
