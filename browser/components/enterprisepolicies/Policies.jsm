@@ -9175,9 +9175,12 @@ manager
 param
 )
 {
-WebsiteFilter
+this
 .
-init
+filter
+=
+new
+WebsiteFilter
 (
 param
 .
