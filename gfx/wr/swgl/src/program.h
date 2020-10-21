@@ -91,6 +91,17 @@ get_fragment_shader
 =
 0
 ;
+virtual
+const
+char
+*
+get_name
+(
+)
+const
+=
+0
+;
 }
 ;
 typedef
