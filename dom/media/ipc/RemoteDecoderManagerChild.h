@@ -89,6 +89,12 @@ GetManagerThread
 (
 )
 ;
+static
+void
+LaunchRDDProcessIfNeeded
+(
+)
+;
 already_AddRefed
 <
 gfx
@@ -380,6 +386,10 @@ PRemoteDecoderManagerChild
 &
 aEndpoint
 )
+;
+static
+StaticMutex
+sLaunchMonitor
 ;
 RefPtr
 <
