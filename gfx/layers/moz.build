@@ -3531,6 +3531,11 @@ WebRenderUserData
 .
 cpp
 '
+'
+ZoomConstraints
+.
+cpp
+'
 ]
 SOURCES
 +
