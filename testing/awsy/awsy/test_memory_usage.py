@@ -1226,7 +1226,7 @@ returns
 an
 array
 of
-checkoint
+checkpoint
 arrays
 .
         
@@ -1244,7 +1244,7 @@ requested
 .
         
 Upon
-succesful
+successful
 completion
 the
 results
