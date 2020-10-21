@@ -43470,7 +43470,7 @@ _ARM64_
 )
 value
 :
-true
+IS_NIGHTLY_BUILD
 #
 elif
 defined
@@ -43479,7 +43479,7 @@ XP_MACOSX
 )
 value
 :
-true
+IS_NIGHTLY_BUILD
 #
 elif
 defined
@@ -43495,7 +43495,7 @@ ANDROID
 )
 value
 :
-true
+IS_NIGHTLY_BUILD
 #
 else
 value
@@ -43539,7 +43539,7 @@ _ARM64_
 )
 value
 :
-true
+IS_NIGHTLY_BUILD
 #
 else
 value
@@ -43570,7 +43570,7 @@ type
 RelaxedAtomicBool
 value
 :
-true
+IS_NIGHTLY_BUILD
 mirror
 :
 always
@@ -43604,7 +43604,7 @@ ANDROID
 )
 value
 :
-true
+IS_NIGHTLY_BUILD
 #
 elif
 defined
@@ -43620,7 +43620,7 @@ _ARM64_
 )
 value
 :
-true
+IS_NIGHTLY_BUILD
 #
 elif
 defined
@@ -43629,7 +43629,7 @@ XP_MACOSX
 )
 value
 :
-true
+IS_NIGHTLY_BUILD
 #
 else
 value
@@ -43732,7 +43732,7 @@ ANDROID
 )
 value
 :
-true
+IS_NIGHTLY_BUILD
 #
 elif
 defined
@@ -43748,7 +43748,7 @@ _ARM64_
 )
 value
 :
-true
+IS_NIGHTLY_BUILD
 #
 elif
 defined
@@ -43757,7 +43757,7 @@ XP_MACOSX
 )
 value
 :
-true
+IS_NIGHTLY_BUILD
 #
 else
 value
