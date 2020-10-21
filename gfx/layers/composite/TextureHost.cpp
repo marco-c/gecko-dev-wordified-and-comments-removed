@@ -2659,6 +2659,17 @@ GetNextExternalImageId
 }
 else
 {
+if
+(
+aExternalImageId
+=
+=
+mExternalImageId
+)
+{
+return
+;
+}
 MOZ_ASSERT
 (
 mExternalImageId

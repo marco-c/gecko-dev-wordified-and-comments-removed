@@ -1420,6 +1420,16 @@ UnbindTextureSource
 (
 )
 ;
+virtual
+bool
+IsValid
+(
+)
+{
+return
+true
+;
+}
 void
 Updated
 (

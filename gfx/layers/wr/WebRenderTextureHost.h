@@ -137,6 +137,13 @@ NotifyNotUsed
 )
 override
 ;
+virtual
+bool
+IsValid
+(
+)
+override
+;
 gfx
 :
 :
