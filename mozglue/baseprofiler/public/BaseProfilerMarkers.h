@@ -14,13 +14,6 @@ BaseProfilerMarkersDetail
 h
 "
 #
-include
-"
-BaseProfiler
-.
-h
-"
-#
 ifndef
 MOZ_GECKO_PROFILER
 #
