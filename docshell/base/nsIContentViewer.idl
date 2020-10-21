@@ -1742,6 +1742,7 @@ overrideDPPX
 /
 *
 *
+*
 Disable
 entire
 author
@@ -1753,6 +1754,16 @@ HTML
 presentation
 hints
 )
+*
+for
+this
+viewer
+but
+not
+any
+child
+viewers
+.
 *
 /
 attribute
