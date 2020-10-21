@@ -5009,9 +5009,6 @@ generateExceptionTailStub
 MacroAssembler
 &
 masm
-void
-*
-handler
 Label
 *
 profilerExitTail
@@ -5039,7 +5036,6 @@ masm
 .
 handleFailureWithHandlerTail
 (
-handler
 profilerExitTail
 )
 ;
