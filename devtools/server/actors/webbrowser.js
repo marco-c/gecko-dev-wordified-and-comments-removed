@@ -149,7 +149,7 @@ lazyRequireGetter
 (
 this
 "
-WorkerTargetActorList
+WorkerDescriptorActorList
 "
 "
 devtools
@@ -162,7 +162,7 @@ worker
 /
 worker
 -
-target
+descriptor
 -
 actor
 -
@@ -364,7 +364,7 @@ connection
 workerList
 :
 new
-WorkerTargetActorList
+WorkerDescriptorActorList
 (
 connection
 {
