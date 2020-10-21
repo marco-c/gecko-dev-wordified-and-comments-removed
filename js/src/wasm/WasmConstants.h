@@ -934,13 +934,6 @@ StructNarrow
 Limit
 }
 ;
-static
-constexpr
-bool
-SimdExperimentalEnabled
-=
-true
-;
 enum
 class
 SimdOp
