@@ -185,15 +185,6 @@ h
 #
 include
 "
-builtin
-/
-TypedObject
-.
-h
-"
-#
-include
-"
 gc
 /
 Nursery

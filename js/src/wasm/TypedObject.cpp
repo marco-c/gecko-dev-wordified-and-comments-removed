@@ -1,7 +1,7 @@
 #
 include
 "
-builtin
+wasm
 /
 TypedObject
 -
