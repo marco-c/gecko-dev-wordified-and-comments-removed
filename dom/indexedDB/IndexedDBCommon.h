@@ -57,7 +57,7 @@ __VA_ARGS__
 )
 #
 define
-IDB_TRY_VAR_GLUE
+IDB_TRY_ASSIGN_GLUE
 (
 accessFunction
 .
@@ -65,7 +65,7 @@ accessFunction
 .
 )
 \
-QM_TRY_VAR_META
+QM_TRY_ASSIGN_META
 (
 mozilla
 :
@@ -92,7 +92,7 @@ IDB_TRY_UNWRAP
 .
 .
 )
-IDB_TRY_VAR_GLUE
+IDB_TRY_ASSIGN_GLUE
 (
 unwrap
 __VA_ARGS__
@@ -105,7 +105,7 @@ IDB_TRY_INSPECT
 .
 .
 )
-IDB_TRY_VAR_GLUE
+IDB_TRY_ASSIGN_GLUE
 (
 inspect
 __VA_ARGS__
