@@ -139,15 +139,6 @@ SharedStencil
 .
 h
 "
-#
-include
-"
-wasm
-/
-TypedObject
-.
-h
-"
 namespace
 js
 {
@@ -3183,7 +3174,7 @@ obj
 MDefinition
 *
 index
-ScalarTypeDescr
+Scalar
 :
 :
 Type
@@ -3231,7 +3222,7 @@ Ok
 >
 jsop_setelem_typed
 (
-ScalarTypeDescr
+Scalar
 :
 :
 Type
