@@ -13055,7 +13055,7 @@ onlyPointerAlignment
 const
 ModuleEnvironment
 &
-env_
+moduleEnv_
 ;
 BaseOpIter
 iter_
@@ -13151,7 +13151,7 @@ BaseCompiler
 const
 ModuleEnvironment
 &
-env
+moduleEnv
 const
 FuncCompileInput
 &
@@ -13220,7 +13220,7 @@ const
 {
 return
 *
-env_
+moduleEnv_
 .
 funcTypes
 [
@@ -13258,7 +13258,7 @@ usesSharedMemory
 const
 {
 return
-env_
+moduleEnv_
 .
 usesSharedMemory
 (
@@ -17856,7 +17856,7 @@ assemblerOffset
 auto
 debugFrame
 =
-env_
+moduleEnv_
 .
 debugEnabled
 (
@@ -23554,7 +23554,7 @@ void
 GenerateFunctionPrologue
 (
 masm
-env_
+moduleEnv_
 .
 funcTypes
 [
@@ -23565,7 +23565,7 @@ index
 -
 >
 id
-env_
+moduleEnv_
 .
 mode
 (
@@ -23619,7 +23619,7 @@ false
 }
 if
 (
-env_
+moduleEnv_
 .
 debugEnabled
 (
@@ -23998,7 +23998,7 @@ gpr
 }
 if
 (
-env_
+moduleEnv_
 .
 debugEnabled
 (
@@ -24337,7 +24337,7 @@ WasmTlsReg
 ;
 if
 (
-env_
+moduleEnv_
 .
 debugEnabled
 (
@@ -24495,7 +24495,7 @@ resultType
 {
 MOZ_ASSERT
 (
-env_
+moduleEnv_
 .
 debugEnabled
 (
@@ -24858,7 +24858,7 @@ resultType
 {
 MOZ_ASSERT
 (
-env_
+moduleEnv_
 .
 debugEnabled
 (
@@ -25253,7 +25253,7 @@ resultType
 ;
 if
 (
-env_
+moduleEnv_
 .
 debugEnabled
 (
@@ -26947,7 +26947,7 @@ FuncTypeWithId
 &
 funcType
 =
-env_
+moduleEnv_
 .
 types
 [
@@ -26980,7 +26980,7 @@ TableDesc
 &
 table
 =
-env_
+moduleEnv_
 .
 tables
 [
@@ -30550,7 +30550,7 @@ offsetGuardLimit
 =
 GetOffsetGuardLimit
 (
-env_
+moduleEnv_
 .
 hugeMemoryEnabled
 (
@@ -30664,7 +30664,7 @@ offsetGuardLimit
 =
 GetOffsetGuardLimit
 (
-env_
+moduleEnv_
 .
 hugeMemoryEnabled
 (
@@ -30845,7 +30845,7 @@ ok
 }
 if
 (
-env_
+moduleEnv_
 .
 hugeMemoryEnabled
 (
@@ -30887,7 +30887,7 @@ endif
 if
 (
 !
-env_
+moduleEnv_
 .
 hugeMemoryEnabled
 (
@@ -31277,7 +31277,7 @@ true
 else
 return
 !
-env_
+moduleEnv_
 .
 hugeMemoryEnabled
 (
@@ -49913,7 +49913,7 @@ FuncType
 funcType
 =
 *
-env_
+moduleEnv_
 .
 funcTypes
 [
@@ -49923,7 +49923,7 @@ funcIndex
 bool
 import
 =
-env_
+moduleEnv_
 .
 funcIsImport
 (
@@ -50051,7 +50051,7 @@ raOffset
 =
 callImport
 (
-env_
+moduleEnv_
 .
 funcImportGlobalDataOffsets
 [
@@ -50188,7 +50188,7 @@ FuncTypeWithId
 &
 funcType
 =
-env_
+moduleEnv_
 .
 types
 [
@@ -52076,7 +52076,7 @@ GlobalDesc
 &
 global
 =
-env_
+moduleEnv_
 .
 globals
 [
@@ -52572,7 +52572,7 @@ GlobalDesc
 &
 global
 =
-env_
+moduleEnv_
 .
 globals
 [
@@ -52955,7 +52955,7 @@ offsetGuardLimit
 =
 GetOffsetGuardLimit
 (
-env_
+moduleEnv_
 .
 hugeMemoryEnabled
 (
@@ -52983,7 +52983,7 @@ offset
 uint64_t
 limit
 =
-env_
+moduleEnv_
 .
 minMemoryLength
 +
@@ -60155,7 +60155,7 @@ StructType
 &
 structType
 =
-env_
+moduleEnv_
 .
 types
 [
@@ -60699,7 +60699,7 @@ StructType
 &
 structType
 =
-env_
+moduleEnv_
 .
 types
 [
@@ -61050,7 +61050,7 @@ StructType
 &
 structType
 =
-env_
+moduleEnv_
 .
 types
 [
@@ -61558,7 +61558,7 @@ isExternRef
 )
 |
 |
-env_
+moduleEnv_
 .
 isStructType
 (
@@ -61575,7 +61575,7 @@ isExternRef
 )
 |
 |
-env_
+moduleEnv_
 .
 isStructType
 (
@@ -61638,7 +61638,7 @@ StructType
 &
 outputStruct
 =
-env_
+moduleEnv_
 .
 types
 [
@@ -68250,7 +68250,7 @@ op
 ;
 if
 (
-env_
+moduleEnv_
 .
 debugEnabled
 (
@@ -68757,7 +68757,7 @@ SelectTyped
 if
 (
 !
-env_
+moduleEnv_
 .
 refTypesEnabled
 (
@@ -72845,7 +72845,7 @@ RefAsNonNull
 if
 (
 !
-env_
+moduleEnv_
 .
 functionReferencesEnabled
 (
@@ -72881,7 +72881,7 @@ BrOnNull
 if
 (
 !
-env_
+moduleEnv_
 .
 functionReferencesEnabled
 (
@@ -72922,7 +72922,7 @@ RefEq
 if
 (
 !
-env_
+moduleEnv_
 .
 gcTypesEnabled
 (
@@ -73034,7 +73034,7 @@ GcPrefix
 if
 (
 !
-env_
+moduleEnv_
 .
 gcTypesEnabled
 (
@@ -73158,7 +73158,7 @@ laneIndex
 if
 (
 !
-env_
+moduleEnv_
 .
 v128Enabled
 (
@@ -77414,7 +77414,7 @@ ThreadPrefix
 {
 if
 (
-env_
+moduleEnv_
 .
 sharedMemoryEnabled
 (
@@ -79239,7 +79239,7 @@ BaseCompiler
 const
 ModuleEnvironment
 &
-env
+moduleEnv
 const
 FuncCompileInput
 &
@@ -79271,13 +79271,13 @@ StackMaps
 stackMaps
 )
 :
-env_
+moduleEnv_
 (
-env
+moduleEnv
 )
 iter_
 (
-env
+moduleEnv
 decoder
 )
 func_
@@ -79472,7 +79472,7 @@ setupLocals
 (
 locals_
 args
-env_
+moduleEnv_
 .
 debugEnabled
 (
@@ -79649,7 +79649,7 @@ BaselineCompileFunctions
 const
 ModuleEnvironment
 &
-env
+moduleEnv
 LifoAlloc
 &
 lifo
@@ -79667,7 +79667,7 @@ error
 {
 MOZ_ASSERT
 (
-env
+moduleEnv
 .
 tier
 (
@@ -79682,7 +79682,7 @@ Baseline
 ;
 MOZ_ASSERT
 (
-env
+moduleEnv
 .
 kind
 =
@@ -79813,7 +79813,7 @@ locals
 .
 appendAll
 (
-env
+moduleEnv
 .
 funcTypes
 [
@@ -79839,10 +79839,10 @@ if
 DecodeLocalEntries
 (
 d
-env
+moduleEnv
 .
 types
-env
+moduleEnv
 .
 features
 &
@@ -79857,7 +79857,7 @@ false
 BaseCompiler
 f
 (
-env
+moduleEnv
 func
 locals
 trapExitLayout

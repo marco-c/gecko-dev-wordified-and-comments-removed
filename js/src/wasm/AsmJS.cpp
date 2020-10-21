@@ -6571,7 +6571,7 @@ CompilerEnvironment
 compilerEnv_
 ;
 ModuleEnvironment
-env_
+moduleEnv_
 ;
 MutableAsmJSMetadata
 asmJSMetadata_
@@ -6676,7 +6676,7 @@ DebugEnabled
 :
 False
 )
-env_
+moduleEnv_
 (
 &
 compilerEnv_
@@ -6695,7 +6695,7 @@ computeParameters
 (
 )
 ;
-env_
+moduleEnv_
 .
 minMemoryLength
 =
@@ -7198,7 +7198,7 @@ env
 )
 {
 return
-env_
+moduleEnv_
 ;
 }
 uint64_t
@@ -7208,7 +7208,7 @@ minMemoryLength
 const
 {
 return
-env_
+moduleEnv_
 .
 minMemoryLength
 ;
@@ -7426,7 +7426,7 @@ lit
 uint32_t
 index
 =
-env_
+moduleEnv_
 .
 globals
 .
@@ -7437,7 +7437,7 @@ length
 if
 (
 !
-env_
+moduleEnv_
 .
 globals
 .
@@ -7686,7 +7686,7 @@ false
 uint32_t
 index
 =
-env_
+moduleEnv_
 .
 globals
 .
@@ -7706,7 +7706,7 @@ canonicalToValType
 if
 (
 !
-env_
+moduleEnv_
 .
 globals
 .
@@ -8844,7 +8844,7 @@ funcDefIndex
 if
 (
 !
-env_
+moduleEnv_
 .
 exports
 .
@@ -9035,7 +9035,7 @@ elems
 )
 ;
 return
-env_
+moduleEnv_
 .
 elemSegments
 .
@@ -9103,12 +9103,12 @@ if
 (
 len
 >
-env_
+moduleEnv_
 .
 minMemoryLength
 )
 {
-env_
+moduleEnv_
 .
 minMemoryLength
 =
@@ -9714,7 +9714,7 @@ empty
 )
 )
 {
-env_
+moduleEnv_
 .
 memoryUsage
 =
@@ -9726,7 +9726,7 @@ Unshared
 }
 else
 {
-env_
+moduleEnv_
 .
 memoryUsage
 =
@@ -9853,7 +9853,7 @@ sigIndex
 {
 if
 (
-env_
+moduleEnv_
 .
 types
 .
@@ -9879,7 +9879,7 @@ signatures
 *
 sigIndex
 =
-env_
+moduleEnv_
 .
 types
 .
@@ -9888,7 +9888,7 @@ length
 )
 ;
 return
-env_
+moduleEnv_
 .
 types
 .
@@ -9946,7 +9946,7 @@ sigIndex
 ;
 MOZ_ASSERT
 (
-env_
+moduleEnv_
 .
 types
 [
@@ -9989,7 +9989,7 @@ HashableSig
 (
 *
 sigIndex
-env_
+moduleEnv_
 .
 types
 )
@@ -10465,7 +10465,7 @@ big
 }
 MOZ_ASSERT
 (
-env_
+moduleEnv_
 .
 tables
 .
@@ -10484,7 +10484,7 @@ length
 *
 tableIndex
 =
-env_
+moduleEnv_
 .
 tables
 .
@@ -10521,7 +10521,7 @@ MOZ_ASSERT
 sigIndex
 >
 =
-env_
+moduleEnv_
 .
 asmJSSigToTableIndex
 .
@@ -10533,7 +10533,7 @@ length
 if
 (
 !
-env_
+moduleEnv_
 .
 asmJSSigToTableIndex
 .
@@ -10549,14 +10549,14 @@ return
 false
 ;
 }
-env_
+moduleEnv_
 .
 asmJSSigToTableIndex
 [
 sigIndex
 ]
 =
-env_
+moduleEnv_
 .
 tables
 .
@@ -10567,7 +10567,7 @@ length
 if
 (
 !
-env_
+moduleEnv_
 .
 tables
 .
@@ -10835,7 +10835,7 @@ NamedSig
 (
 name
 sigIndex
-env_
+moduleEnv_
 .
 types
 )
@@ -10882,7 +10882,7 @@ finish
 {
 MOZ_ASSERT
 (
-env_
+moduleEnv_
 .
 funcTypes
 .
@@ -10894,7 +10894,7 @@ empty
 if
 (
 !
-env_
+moduleEnv_
 .
 funcTypes
 .
@@ -10962,7 +10962,7 @@ value
 MOZ_ASSERT
 (
 !
-env_
+moduleEnv_
 .
 funcTypes
 [
@@ -10970,7 +10970,7 @@ funcIndex
 ]
 )
 ;
-env_
+moduleEnv_
 .
 funcTypes
 [
@@ -10978,7 +10978,7 @@ funcIndex
 ]
 =
 &
-env_
+moduleEnv_
 .
 types
 [
@@ -11030,7 +11030,7 @@ funcDefIndex
 MOZ_ASSERT
 (
 !
-env_
+moduleEnv_
 .
 funcTypes
 [
@@ -11038,7 +11038,7 @@ funcIndex
 ]
 )
 ;
-env_
+moduleEnv_
 .
 funcTypes
 [
@@ -11046,7 +11046,7 @@ funcIndex
 ]
 =
 &
-env_
+moduleEnv_
 .
 types
 [
@@ -11065,7 +11065,7 @@ funcType
 if
 (
 !
-env_
+moduleEnv_
 .
 funcImportGlobalDataOffsets
 .
@@ -11346,7 +11346,7 @@ length
 )
 ;
 }
-env_
+moduleEnv_
 .
 codeSection
 .
@@ -11354,7 +11354,7 @@ emplace
 (
 )
 ;
-env_
+moduleEnv_
 .
 codeSection
 -
@@ -11363,7 +11363,7 @@ start
 =
 0
 ;
-env_
+moduleEnv_
 .
 codeSection
 -
@@ -11401,7 +11401,7 @@ mg
 *
 args
 &
-env_
+moduleEnv_
 nullptr
 nullptr
 )

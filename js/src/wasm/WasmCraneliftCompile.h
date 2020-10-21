@@ -44,7 +44,7 @@ CraneliftCompileFunctions
 const
 ModuleEnvironment
 &
-env
+moduleEnv
 LifoAlloc
 &
 lifo
@@ -89,7 +89,7 @@ CraneliftCompileFunctions
 const
 ModuleEnvironment
 &
-env
+moduleEnv
 LifoAlloc
 &
 lifo

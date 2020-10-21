@@ -2490,7 +2490,7 @@ args
 )
 ;
 ModuleEnvironment
-env
+moduleEnv
 (
 &
 compilerEnv
@@ -2506,7 +2506,7 @@ DecodeModuleEnvironment
 (
 d
 &
-env
+moduleEnv
 )
 )
 {
@@ -2519,7 +2519,7 @@ mg
 (
 args
 &
-env
+moduleEnv
 nullptr
 error
 )
@@ -2545,7 +2545,7 @@ if
 !
 DecodeCodeSection
 (
-env
+moduleEnv
 d
 mg
 )
@@ -2562,7 +2562,7 @@ DecodeModuleTail
 (
 d
 &
-env
+moduleEnv
 )
 )
 {
@@ -2656,7 +2656,7 @@ False
 )
 ;
 ModuleEnvironment
-env
+moduleEnv
 (
 &
 compilerEnv
@@ -2672,7 +2672,7 @@ DecodeModuleEnvironment
 (
 d
 &
-env
+moduleEnv
 )
 )
 {
@@ -2684,7 +2684,7 @@ mg
 (
 args
 &
-env
+moduleEnv
 cancelled
 &
 error
@@ -2710,7 +2710,7 @@ if
 !
 DecodeCodeSection
 (
-env
+moduleEnv
 d
 mg
 )
@@ -2726,7 +2726,7 @@ DecodeModuleTail
 (
 d
 &
-env
+moduleEnv
 )
 )
 {
@@ -3262,7 +3262,7 @@ args
 )
 ;
 ModuleEnvironment
-env
+moduleEnv
 (
 &
 compilerEnv
@@ -3288,7 +3288,7 @@ DecodeModuleEnvironment
 (
 d
 &
-env
+moduleEnv
 )
 )
 {
@@ -3299,7 +3299,7 @@ nullptr
 if
 (
 !
-env
+moduleEnv
 .
 codeSection
 )
@@ -3323,7 +3323,7 @@ nullptr
 }
 MOZ_RELEASE_ASSERT
 (
-env
+moduleEnv
 .
 codeSection
 -
@@ -3353,7 +3353,7 @@ mg
 (
 args
 &
-env
+moduleEnv
 &
 cancelled
 error
@@ -3379,7 +3379,7 @@ nullptr
 StreamingDecoder
 d
 (
-env
+moduleEnv
 codeBytes
 codeBytesEnd
 cancelled
@@ -3392,7 +3392,7 @@ if
 !
 DecodeCodeSection
 (
-env
+moduleEnv
 d
 mg
 )
@@ -3474,7 +3474,7 @@ Decoder
 d
 (
 tailBytes
-env
+moduleEnv
 .
 codeSection
 -
@@ -3493,7 +3493,7 @@ DecodeModuleTail
 (
 d
 &
-env
+moduleEnv
 )
 )
 {

@@ -1468,7 +1468,7 @@ CraneliftStaticEnvironment
 staticEnv_
 ;
 CraneliftModuleEnvironment
-env_
+moduleEnv_
 ;
 CraneliftCompiler
 *
@@ -1482,12 +1482,12 @@ CraneliftContext
 const
 ModuleEnvironment
 &
-env
+moduleEnv
 )
 :
-env_
+moduleEnv_
 (
-env
+moduleEnv
 )
 compiler_
 (
@@ -1498,7 +1498,7 @@ staticEnv_
 .
 ref_types_enabled
 =
-env
+moduleEnv
 .
 refTypesEnabled
 (
@@ -1509,7 +1509,7 @@ ifdef
 WASM_SUPPORTS_HUGE_MEMORY
 if
 (
-env
+moduleEnv
 .
 hugeMemoryEnabled
 (
@@ -1553,7 +1553,7 @@ cranelift_compiler_create
 &
 staticEnv_
 &
-env_
+moduleEnv_
 )
 ;
 return
@@ -2200,7 +2200,7 @@ CraneliftCompileFunctions
 const
 ModuleEnvironment
 &
-env
+moduleEnv
 LifoAlloc
 &
 lifo
@@ -2225,7 +2225,7 @@ CraneliftPlatformSupport
 ;
 MOZ_ASSERT
 (
-env
+moduleEnv
 .
 tier
 (
@@ -2240,7 +2240,7 @@ Optimized
 ;
 MOZ_ASSERT
 (
-env
+moduleEnv
 .
 optimizedBackend
 (
@@ -2256,7 +2256,7 @@ Cranelift
 MOZ_ASSERT
 (
 !
-env
+moduleEnv
 .
 isAsmJS
 (
@@ -2334,7 +2334,7 @@ MakeUnique
 CraneliftContext
 >
 (
-env
+moduleEnv
 )
 ;
 if
@@ -2491,7 +2491,7 @@ if
 !
 ValidateFunctionBody
 (
-env
+moduleEnv
 func
 .
 index
@@ -2589,7 +2589,7 @@ FuncTypeWithId
 funcType
 =
 *
-env
+moduleEnv
 .
 funcTypes
 [

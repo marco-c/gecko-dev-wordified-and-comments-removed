@@ -290,7 +290,7 @@ ControlFlowPatchsVector
 const
 ModuleEnvironment
 &
-env_
+moduleEnv_
 ;
 IonOpIter
 iter_
@@ -356,7 +356,7 @@ FunctionCompiler
 const
 ModuleEnvironment
 &
-env
+moduleEnv
 Decoder
 &
 decoder
@@ -373,13 +373,13 @@ MIRGenerator
 mirGen
 )
 :
-env_
+moduleEnv_
 (
-env
+moduleEnv
 )
 iter_
 (
-env
+moduleEnv
 decoder
 )
 func_
@@ -451,13 +451,13 @@ nullptr
 const
 ModuleEnvironment
 &
-env
+moduleEnv
 (
 )
 const
 {
 return
-env_
+moduleEnv_
 ;
 }
 IonOpIter
@@ -503,7 +503,7 @@ const
 {
 return
 *
-env_
+moduleEnv_
 .
 funcTypes
 [
@@ -534,7 +534,7 @@ bytecodeIfNotAsmJS
 const
 {
 return
-env_
+moduleEnv_
 .
 isAsmJS
 (
@@ -1871,7 +1871,7 @@ type
 &
 &
 !
-env
+moduleEnv
 (
 )
 .
@@ -2188,7 +2188,7 @@ bool
 trapOnError
 =
 !
-env
+moduleEnv
 (
 )
 .
@@ -2448,7 +2448,7 @@ bool
 trapOnError
 =
 !
-env
+moduleEnv
 (
 )
 .
@@ -4585,7 +4585,7 @@ JS_CODEGEN_X86
 AliasSet
 aliases
 =
-env_
+moduleEnv_
 .
 maxMemoryLength
 .
@@ -4659,7 +4659,7 @@ maybeLoadBoundsCheckLimit
 {
 if
 (
-env_
+moduleEnv_
 .
 hugeMemoryEnabled
 (
@@ -4673,7 +4673,7 @@ nullptr
 AliasSet
 aliases
 =
-env_
+moduleEnv_
 .
 maxMemoryLength
 .
@@ -4755,7 +4755,7 @@ nullptr
 AliasSet
 aliases
 =
-env_
+moduleEnv_
 .
 maxMemoryLength
 .
@@ -4832,7 +4832,7 @@ mustAdd
 ;
 if
 (
-env_
+moduleEnv_
 .
 isAsmJS
 (
@@ -4967,7 +4967,7 @@ offsetGuardLimit
 =
 GetOffsetGuardLimit
 (
-env_
+moduleEnv_
 .
 hugeMemoryEnabled
 (
@@ -5399,7 +5399,7 @@ nullptr
 ;
 if
 (
-env_
+moduleEnv_
 .
 isAsmJS
 (
@@ -5541,7 +5541,7 @@ nullptr
 ;
 if
 (
-env_
+moduleEnv_
 .
 isAsmJS
 (
@@ -8002,7 +8002,7 @@ FuncTypeWithId
 &
 funcType
 =
-env_
+moduleEnv_
 .
 types
 [
@@ -8018,7 +8018,7 @@ callee
 ;
 if
 (
-env_
+moduleEnv_
 .
 isAsmJS
 (
@@ -8055,11 +8055,11 @@ TableDesc
 &
 table
 =
-env_
+moduleEnv_
 .
 tables
 [
-env_
+moduleEnv_
 .
 asmJSSigToTableIndex
 [
@@ -8174,7 +8174,7 @@ TableDesc
 &
 table
 =
-env_
+moduleEnv_
 .
 tables
 [
@@ -13267,7 +13267,7 @@ readOldCallDirect
 (
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -13332,7 +13332,7 @@ funcType
 *
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -13368,7 +13368,7 @@ if
 (
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -13383,7 +13383,7 @@ globalDataOffset
 =
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -13572,7 +13572,7 @@ funcType
 =
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -13855,7 +13855,7 @@ global
 =
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -14249,7 +14249,7 @@ global
 =
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -14423,7 +14423,7 @@ global
 =
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -14817,7 +14817,7 @@ if
 (
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -14946,7 +14946,7 @@ MOZ_ASSERT
 !
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -18616,7 +18616,7 @@ callee
 (
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -20113,7 +20113,7 @@ callee
 =
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -24024,7 +24024,7 @@ if
 !
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -28052,7 +28052,7 @@ if
 !
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -28356,7 +28356,7 @@ if
 !
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -31157,7 +31157,7 @@ if
 (
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -32915,7 +32915,7 @@ if
 !
 f
 .
-env
+moduleEnv
 (
 )
 .
@@ -33661,7 +33661,7 @@ IonCompileFunctions
 const
 ModuleEnvironment
 &
-env
+moduleEnv
 LifoAlloc
 &
 lifo
@@ -33679,7 +33679,7 @@ error
 {
 MOZ_ASSERT
 (
-env
+moduleEnv
 .
 tier
 (
@@ -33694,7 +33694,7 @@ Optimized
 ;
 MOZ_ASSERT
 (
-env
+moduleEnv
 .
 optimizedBackend
 (
@@ -33888,7 +33888,7 @@ FuncTypeWithId
 funcType
 =
 *
-env
+moduleEnv
 .
 funcTypes
 [
@@ -33925,10 +33925,10 @@ if
 DecodeLocalEntries
 (
 d
-env
+moduleEnv
 .
 types
-env
+moduleEnv
 .
 features
 &
@@ -33987,7 +33987,7 @@ mir
 .
 initMinWasmHeapLength
 (
-env
+moduleEnv
 .
 minMemoryLength
 )
@@ -33996,7 +33996,7 @@ minMemoryLength
 FunctionCompiler
 f
 (
-env
+moduleEnv
 d
 func
 locals
