@@ -74,6 +74,13 @@ nsIInputStream
 C
 +
 +
+#
+include
+"
+nsTArray
+.
+h
+"
 namespace
 mozilla
 {
