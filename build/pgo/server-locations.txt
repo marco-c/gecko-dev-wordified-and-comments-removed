@@ -1525,6 +1525,17 @@ https
 443
 privileged
 ipV4Address
+https
+:
+/
+/
+secureonly
+.
+example
+.
+com
+:
+443
 #
 Prevent
 safebrowsing
