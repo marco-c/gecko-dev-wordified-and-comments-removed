@@ -295,6 +295,11 @@ MOZ_ASSERT
 length_
 <
 =
+static_cast
+<
+size_t
+>
+(
 std
 :
 :
@@ -306,6 +311,7 @@ int
 :
 max
 (
+)
 )
 )
 ;
