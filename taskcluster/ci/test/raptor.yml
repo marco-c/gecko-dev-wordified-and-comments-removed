@@ -2163,9 +2163,7 @@ default
 :
 [
 "
-mozilla
--
-central
+autoland
 "
 ]
 tier
