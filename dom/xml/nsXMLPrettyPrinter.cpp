@@ -531,13 +531,6 @@ here
 shadowRoot
 -
 >
-SetIsStaticUAWidget
-(
-)
-;
-shadowRoot
--
->
 AppendChild
 (
 *
