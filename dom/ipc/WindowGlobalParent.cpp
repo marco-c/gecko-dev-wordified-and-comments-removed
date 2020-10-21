@@ -5356,7 +5356,7 @@ MIXED_DISPLAY_AND_ACTIVE_CONTENT
 bool
 hasMixedDisplay
 =
-mMixedContentSecurityState
+mSecurityState
 &
 (
 nsIWebProgressListener
@@ -5373,7 +5373,7 @@ STATE_BLOCKED_MIXED_DISPLAY_CONTENT
 bool
 hasMixedActive
 =
-mMixedContentSecurityState
+mSecurityState
 &
 (
 nsIWebProgressListener
@@ -5979,7 +5979,7 @@ void
 WindowGlobalParent
 :
 :
-AddMixedContentSecurityState
+AddSecurityState
 (
 uint32_t
 aStateFlags
@@ -6020,6 +6020,16 @@ nsIWebProgressListener
 :
 :
 STATE_BLOCKED_MIXED_ACTIVE_CONTENT
+|
+nsIWebProgressListener
+:
+:
+STATE_HTTPS_ONLY_MODE_UPGRADED
+|
+nsIWebProgressListener
+:
+:
+STATE_HTTPS_ONLY_MODE_UPGRADE_FAILED
 )
 )
 =
@@ -6036,7 +6046,7 @@ specified
 if
 (
 (
-mMixedContentSecurityState
+mSecurityState
 &
 aStateFlags
 )
@@ -6048,7 +6058,7 @@ aStateFlags
 return
 ;
 }
-mMixedContentSecurityState
+mSecurityState
 |
 =
 aStateFlags
@@ -6073,7 +6083,7 @@ GetBrowsingContext
 )
 -
 >
-UpdateSecurityStateForLocationOrMixedContentChange
+UpdateSecurityState
 (
 )
 ;

@@ -709,7 +709,7 @@ aInit
 )
 ;
 void
-AddMixedContentSecurityState
+AddSecurityState
 (
 uint32_t
 aStateFlags
