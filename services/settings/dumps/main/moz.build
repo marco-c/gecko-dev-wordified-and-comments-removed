@@ -94,6 +94,13 @@ dictionaries
 json
 '
 '
+password
+-
+recipes
+.
+json
+'
+'
 search
 -
 config
