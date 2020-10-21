@@ -5506,8 +5506,7 @@ PROFILER_MARKER_TEXT
 RefreshObserver
 "
 GRAPHICS
-.
-WithOptions
+MarkerOptions
 (
 MarkerStack
 :
@@ -9092,8 +9091,7 @@ AUTO_PROFILER_MARKER_TEXT
 RefreshDriverTick
 "
 GRAPHICS
-.
-WithOptions
+MarkerOptions
 (
 MarkerStack
 :
@@ -10298,9 +10296,6 @@ AUTO_PROFILER_MARKER_TEXT
 ViewManagerFlush
 "
 GRAPHICS
-.
-WithOptions
-(
 MarkerStack
 :
 :
@@ -10312,7 +10307,6 @@ std
 move
 (
 mViewManagerFlushCause
-)
 )
 )
 transactionId

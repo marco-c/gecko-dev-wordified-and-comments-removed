@@ -452,16 +452,12 @@ PROFILER_MARKER_TEXT
 SurfacePool
 "
 GRAPHICS
-.
-WithOptions
-(
 MarkerTiming
 :
 :
 IntervalUntilNowFrom
 (
 before
-)
 )
 nsPrintfCString
 (
