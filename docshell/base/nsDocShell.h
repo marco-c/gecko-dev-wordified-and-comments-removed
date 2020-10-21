@@ -2362,6 +2362,8 @@ uint32_t
 aLoadType
 )
 ;
+private
+:
 bool
 OnNewURI
 (
@@ -2380,8 +2382,6 @@ aPrincipalToInherit
 nsIPrincipal
 *
 aPartitionedPrincipalToInehrit
-uint32_t
-aLoadType
 nsIContentSecurityPolicy
 *
 aCsp
@@ -2393,6 +2393,8 @@ bool
 aCloneSHChildren
 )
 ;
+public
+:
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 EndPageLoad

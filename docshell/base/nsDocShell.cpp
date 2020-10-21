@@ -34318,7 +34318,6 @@ failedChannel
 triggeringPrincipal
 nullptr
 nullptr
-mLoadType
 nullptr
 false
 false
@@ -34443,7 +34442,6 @@ aOpenedChannel
 nullptr
 nullptr
 nullptr
-mLoadType
 nullptr
 false
 true
@@ -38217,7 +38215,6 @@ nullptr
 newURITriggeringPrincipal
 newURIPrincipalToInherit
 newURIPartitionedPrincipalToInherit
-mLoadType
 newCsp
 true
 true
@@ -45703,8 +45700,6 @@ aPrincipalToInherit
 nsIPrincipal
 *
 aPartitionedPrincipalToInherit
-uint32_t
-aLoadType
 nsIContentSecurityPolicy
 *
 aCsp
@@ -45859,7 +45854,7 @@ chanName
 get
 (
 )
-aLoadType
+mLoadType
 )
 )
 ;
@@ -45993,7 +45988,7 @@ updateGHistory
 =
 ShouldUpdateGlobalHistory
 (
-aLoadType
+mLoadType
 )
 ;
 bool
@@ -46004,7 +45999,7 @@ mBrowsingContext
 >
 ShouldUpdateSessionHistory
 (
-aLoadType
+mLoadType
 )
 ;
 RefPtr
@@ -46190,7 +46185,7 @@ aChannel
 &
 IsForceReloadType
 (
-aLoadType
+mLoadType
 )
 )
 {
@@ -46308,7 +46303,7 @@ SessionHistoryInParent
 {
 if
 (
-aLoadType
+mLoadType
 =
 =
 LOAD_REFRESH
@@ -46435,7 +46430,7 @@ previousFlags
 ;
 if
 (
-aLoadType
+mLoadType
 &
 LOAD_CMD_RELOAD
 )
