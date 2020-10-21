@@ -140,6 +140,8 @@ static
 void
 LaunchRDDProcessIfNeeded
 (
+RemoteDecodeIn
+aLocation
 )
 ;
 already_AddRefed
