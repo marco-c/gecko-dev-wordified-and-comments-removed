@@ -551,6 +551,7 @@ __VA_ARGS__
 )
 \
 NS_INTERFACE_MAP_END_INHERITING
+\
 (
 aSuper
 )
