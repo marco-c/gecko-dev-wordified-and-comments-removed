@@ -18,15 +18,6 @@ include
 "
 jit
 /
-CompileInfo
-.
-h
-"
-#
-include
-"
-jit
-/
 ExecutableAllocator
 .
 h
@@ -59,6 +50,9 @@ js
 namespace
 jit
 {
+class
+InlineScriptTree
+;
 class
 JitcodeGlobalTable
 ;
