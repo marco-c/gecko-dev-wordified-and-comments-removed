@@ -470,6 +470,12 @@ bool
 aNotify
 )
 ;
+bool
+ShouldLoadImage
+(
+)
+const
+;
 virtual
 LengthAttributesInfo
 GetLengthInfo
