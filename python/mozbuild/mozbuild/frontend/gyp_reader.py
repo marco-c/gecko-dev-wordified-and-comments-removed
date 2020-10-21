@@ -675,6 +675,8 @@ no_unified
 for
 target
 in
+sorted
+(
 gyp
 .
 common
@@ -693,6 +695,7 @@ replace
 os
 .
 sep
+)
 )
 )
 :
