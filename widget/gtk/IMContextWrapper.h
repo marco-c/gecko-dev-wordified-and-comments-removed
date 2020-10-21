@@ -309,6 +309,7 @@ eIBus
 eIIIMF
 eScim
 eUim
+eWayland
 eUnknown
 }
 ;
@@ -380,6 +381,17 @@ eUim
 return
 "
 eUim
+"
+;
+case
+IMContextID
+:
+:
+eWayland
+:
+return
+"
+eWayland
 "
 ;
 default
