@@ -2268,6 +2268,11 @@ MOZ_ASSERT
 XRE_IsContentProcess
 (
 )
+|
+|
+XRE_IsRDDProcess
+(
+)
 )
 ;
 for

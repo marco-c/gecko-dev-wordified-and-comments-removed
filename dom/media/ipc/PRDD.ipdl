@@ -166,6 +166,8 @@ Endpoint
 PVideoBridgeChild
 >
 endpoint
+ContentDeviceData
+contentDeviceData
 )
 ;
 async
