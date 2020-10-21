@@ -69,7 +69,7 @@ mozilla
 namespace
 dom
 {
-async
+refcounted
 protocol
 PGamepadTestChannel
 {
