@@ -164,15 +164,6 @@ Runtime
 .
 h
 "
-#
-include
-"
-vm
-/
-SharedStencil
-.
-h
-"
 struct
 JS_PUBLIC_API
 JSContext
@@ -1727,7 +1718,7 @@ symbolRegistry
 js
 :
 :
-SharedImmutableScriptDataTable
+RuntimeScriptDataTable
 &
 scriptDataTable
 (

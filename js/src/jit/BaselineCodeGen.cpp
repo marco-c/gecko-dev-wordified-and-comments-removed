@@ -2503,7 +2503,7 @@ loadPtr
 Address
 (
 scratch
-SharedImmutableScriptData
+RuntimeScriptData
 :
 :
 offsetOfISD
@@ -4461,7 +4461,7 @@ loadPtr
 Address
 (
 scratch
-SharedImmutableScriptData
+RuntimeScriptData
 :
 :
 offsetOfISD
@@ -6568,7 +6568,7 @@ loadPtr
 Address
 (
 scratch1
-SharedImmutableScriptData
+RuntimeScriptData
 :
 :
 offsetOfISD
@@ -24245,7 +24245,7 @@ loadPtr
 Address
 (
 script
-SharedImmutableScriptData
+RuntimeScriptData
 :
 :
 offsetOfISD

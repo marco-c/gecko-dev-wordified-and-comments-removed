@@ -433,15 +433,6 @@ include
 "
 vm
 /
-SharedStencil
-.
-h
-"
-#
-include
-"
-vm
-/
 Stack
 .
 h
@@ -3724,7 +3715,7 @@ ScriptDataLockData
 js
 :
 :
-SharedImmutableScriptDataTable
+RuntimeScriptDataTable
 >
 scriptDataTable_
 ;
@@ -3733,7 +3724,7 @@ public
 js
 :
 :
-SharedImmutableScriptDataTable
+RuntimeScriptDataTable
 &
 scriptDataTable
 (

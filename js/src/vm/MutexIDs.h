@@ -189,7 +189,7 @@ SharedArrayGrow
 \
 _
 (
-SharedImmutableScriptData
+RuntimeScriptData
 500
 )
 \

@@ -681,7 +681,7 @@ scriptDataLock
 mutexid
 :
 :
-SharedImmutableScriptData
+RuntimeScriptData
 )
 #
 ifdef
@@ -1869,7 +1869,7 @@ mallocSizeOf
 ;
 for
 (
-SharedImmutableScriptDataTable
+RuntimeScriptDataTable
 :
 :
 Range
