@@ -1231,11 +1231,17 @@ VALUE
 help
 =
 "
-defines
-an
-extra
-user
+Set
+a
+browser
 preference
+.
+May
+be
+used
+multiple
+times
+.
 "
 )
     
