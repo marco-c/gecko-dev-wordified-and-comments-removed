@@ -249,7 +249,7 @@ w1
 .
 js
 "
-workerDescriptorFront
+workerTargetFront
 :
 {
 foo
@@ -292,7 +292,7 @@ w2
 .
 js
 "
-workerDescriptorFront
+workerTargetFront
 :
 undefined
 stateText
@@ -357,7 +357,7 @@ w1
 .
 js
 "
-workerDescriptorFront
+workerTargetFront
 :
 rawData
 [
@@ -369,7 +369,7 @@ workers
 0
 ]
 .
-workerDescriptorFront
+workerTargetFront
 registrationFront
 :
 rawData
@@ -412,7 +412,7 @@ w2
 .
 js
 "
-workerDescriptorFront
+workerTargetFront
 :
 undefined
 registrationFront

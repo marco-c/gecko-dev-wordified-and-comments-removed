@@ -1014,7 +1014,7 @@ typeName
 =
 =
 "
-workerDescriptor
+workerTarget
 "
 ;
 }

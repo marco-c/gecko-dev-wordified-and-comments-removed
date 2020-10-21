@@ -1565,7 +1565,7 @@ msg
 async
 openWorkerToolbox
 (
-workerDescriptorFront
+workerTarget
 toolId
 )
 {
@@ -1574,7 +1574,7 @@ gDevTools
 .
 showToolbox
 (
-workerDescriptorFront
+workerTarget
 toolId
 Toolbox
 .

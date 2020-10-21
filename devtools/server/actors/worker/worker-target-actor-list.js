@@ -43,7 +43,7 @@ lazyRequireGetter
 (
 this
 "
-WorkerDescriptorActor
+WorkerTargetActor
 "
 "
 devtools
@@ -52,7 +52,7 @@ server
 /
 actors
 /
-descriptors
+targets
 /
 worker
 "
@@ -361,7 +361,7 @@ origin
 }
 ;
 function
-WorkerDescriptorActorList
+WorkerTargetActorList
 (
 conn
 options
@@ -433,7 +433,7 @@ this
 )
 ;
 }
-WorkerDescriptorActorList
+WorkerTargetActorList
 .
 prototype
 =
@@ -578,7 +578,7 @@ set
 (
 dbg
 new
-WorkerDescriptorActor
+WorkerTargetActor
 (
 this
 .
@@ -913,7 +913,7 @@ _workerPauser
 ;
 exports
 .
-WorkerDescriptorActorList
+WorkerTargetActorList
 =
-WorkerDescriptorActorList
+WorkerTargetActorList
 ;

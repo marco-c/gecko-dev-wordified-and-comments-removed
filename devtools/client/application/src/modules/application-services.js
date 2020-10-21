@@ -122,7 +122,7 @@ REASON
 async
 openWorkerInDebugger
 (
-workerDescriptorFront
+workerTargetFront
 )
 {
 const
@@ -142,14 +142,14 @@ debuggerPanel
 .
 selectWorker
 (
-workerDescriptorFront
+workerTargetFront
 )
 ;
 }
 async
 viewWorkerSource
 (
-workerDescriptorFront
+workerTargetFront
 )
 {
 this
@@ -158,7 +158,7 @@ _toolbox
 .
 viewSourceInDebugger
 (
-workerDescriptorFront
+workerTargetFront
 .
 url
 1
