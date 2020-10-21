@@ -142,6 +142,11 @@ ContentBlockingNotifier
 h
 '
 '
+ContentBlockingTelemetryService
+.
+h
+'
+'
 ContentBlockingUserInteraction
 .
 h
@@ -198,6 +203,11 @@ cpp
 '
 '
 ContentBlockingNotifier
+.
+cpp
+'
+'
+ContentBlockingTelemetryService
 .
 cpp
 '
