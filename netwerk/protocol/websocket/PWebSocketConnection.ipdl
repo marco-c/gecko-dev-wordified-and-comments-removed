@@ -53,6 +53,11 @@ nsresult
 aReason
 )
 ;
+async
+OnDataSent
+(
+)
+;
 child
 :
 async
