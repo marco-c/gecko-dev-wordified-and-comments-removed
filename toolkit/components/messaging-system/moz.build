@@ -105,15 +105,6 @@ TESTING_JS_MODULES
 '
 schemas
 /
-NimbusExperiment
-.
-schema
-.
-json
-'
-'
-schemas
-/
 SpecialMessageActionSchemas
 /
 SpecialMessageActionSchemas
