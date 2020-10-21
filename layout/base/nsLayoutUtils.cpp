@@ -29911,7 +29911,7 @@ ratio
 aFrame
 -
 >
-GetIntrinsicRatio
+GetAspectRatio
 (
 )
 )

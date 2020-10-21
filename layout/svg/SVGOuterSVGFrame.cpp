@@ -1784,7 +1784,7 @@ ComputeSizeWithIntrinsicDimensions
 aRenderingContext
 aWritingMode
 intrinsicSize
-GetIntrinsicRatio
+GetAspectRatio
 (
 )
 cbSize
@@ -4346,7 +4346,7 @@ GetIntrinsicSize
 )
 Some
 (
-GetIntrinsicRatio
+GetAspectRatio
 (
 )
 )

@@ -4255,7 +4255,7 @@ if
 f
 -
 >
-GetIntrinsicRatio
+GetAspectRatio
 (
 )
 &

@@ -4661,7 +4661,9 @@ ComputeSizeWithIntrinsicDimensions
 aRenderingContext
 aWM
 mIntrinsicSize
-mIntrinsicRatio
+GetAspectRatio
+(
+)
 aCBSize
 aMargin
 aBorderPadding

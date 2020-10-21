@@ -3132,13 +3132,6 @@ size
 height
 )
 ;
-auto
-intrinsicRatio
-=
-GetIntrinsicRatio
-(
-)
-;
 return
 {
 ComputeSizeWithIntrinsicDimensions
@@ -3146,7 +3139,9 @@ ComputeSizeWithIntrinsicDimensions
 aRenderingContext
 aWM
 intrinsicSize
-intrinsicRatio
+GetAspectRatio
+(
+)
 aCBSize
 aMargin
 aBorderPadding

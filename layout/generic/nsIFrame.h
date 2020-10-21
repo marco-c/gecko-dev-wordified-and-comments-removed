@@ -7115,6 +7115,15 @@ GetIntrinsicSize
 (
 )
 ;
+mozilla
+:
+:
+AspectRatio
+GetAspectRatio
+(
+)
+const
+;
 virtual
 mozilla
 :

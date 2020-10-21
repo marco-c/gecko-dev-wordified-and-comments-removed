@@ -7757,7 +7757,7 @@ mIntrinsicRatio
 mFrame
 -
 >
-GetIntrinsicRatio
+GetAspectRatio
 (
 )
 )
