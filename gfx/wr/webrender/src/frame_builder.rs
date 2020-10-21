@@ -351,7 +351,6 @@ util
 :
 :
 {
-MaxRect
 VecHelper
 Recycler
 Preallocator
@@ -1900,12 +1899,6 @@ take_context
 scene
 .
 root_pic_index
-WorldRect
-:
-:
-max_rect
-(
-)
 root_spatial_node_index
 root_spatial_node_index
 ROOT_SURFACE_INDEX

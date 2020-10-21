@@ -852,11 +852,6 @@ pic
 take_context
 (
 pic_index
-prim_instance
-.
-vis
-.
-clipped_world_rect
 pic_context
 .
 surface_spatial_node_index
