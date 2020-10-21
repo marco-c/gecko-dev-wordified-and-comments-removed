@@ -1035,9 +1035,6 @@ baldrdash_system_v
 baldrdash_windows
 "
 "
-baldrdash_2020
-"
-"
 probestack
 "
 ]
