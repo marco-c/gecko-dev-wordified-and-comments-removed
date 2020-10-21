@@ -11461,6 +11461,9 @@ ICacheFlush
 struct
 SimFlushes
 {
+vixl
+:
+:
 Simulator
 *
 thread
@@ -11502,6 +11505,9 @@ ICacheFlushes
 &
 getICacheFlushes
 (
+vixl
+:
+:
 Simulator
 *
 sim
@@ -11512,6 +11518,9 @@ MOZ_MUST_USE
 bool
 registerSimulator
 (
+vixl
+:
+:
 Simulator
 *
 sim
@@ -11521,6 +11530,9 @@ static
 void
 unregisterSimulator
 (
+vixl
+:
+:
 Simulator
 *
 sim
