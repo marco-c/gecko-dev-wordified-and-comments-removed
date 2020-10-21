@@ -151,6 +151,7 @@ setupPlayer
 (
 id
 wgp
+videoRef
 )
 {
 Player
@@ -159,6 +160,7 @@ init
 (
 id
 wgp
+videoRef
 )
 ;
 }
@@ -252,6 +254,7 @@ init
 (
 id
 wgp
+videoRef
 )
 {
 this
@@ -370,6 +373,9 @@ PictureInPicture
 :
 SetupPlayer
 "
+{
+videoRef
+}
 )
 ;
 for
