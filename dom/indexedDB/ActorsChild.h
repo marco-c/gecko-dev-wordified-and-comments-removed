@@ -858,12 +858,7 @@ SendDeleteMeInternal
 (
 )
 ;
-[
-[
-nodiscard
-]
-]
-bool
+void
 EnsureDOMObject
 (
 )
