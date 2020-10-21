@@ -1853,6 +1853,16 @@ pcOffset
 }
 )
 ;
+inliningRoot
+(
+)
+-
+>
+removeInlinedScript
+(
+icScript
+)
+;
 }
 bool
 ICScript
