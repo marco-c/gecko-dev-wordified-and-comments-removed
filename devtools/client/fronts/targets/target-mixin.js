@@ -152,7 +152,7 @@ _onResourceAvailable
 ;
 this
 .
-_setupRemoteListeners
+_addListeners
 (
 )
 ;
@@ -1858,7 +1858,7 @@ this
 threadFront
 ;
 }
-_setupRemoteListeners
+_addListeners
 (
 )
 {
@@ -1889,7 +1889,7 @@ destroy
 )
 ;
 }
-_teardownRemoteListeners
+_removeListeners
 (
 )
 {
@@ -2114,7 +2114,7 @@ e
 }
 this
 .
-_teardownRemoteListeners
+_removeListeners
 (
 )
 ;
