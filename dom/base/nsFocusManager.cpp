@@ -10258,6 +10258,11 @@ ancestorWindowToFocusHandled
 true
 ;
 }
+SetFocusedWindowInternal
+(
+nullptr
+)
+;
 contentChild
 -
 >
