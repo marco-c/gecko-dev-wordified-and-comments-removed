@@ -385,6 +385,13 @@ docShellIsActive
 =
 true
 ;
+aBrowser
+.
+preserveLayers
+(
+true
+)
+;
 WindowEventDispatcher
 .
 registerListener
