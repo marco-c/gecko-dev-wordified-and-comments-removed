@@ -836,6 +836,8 @@ isMozAfterPaintPending
 {
 contentWindow
 .
+windowRoot
+.
 addEventListener
 (
 "
