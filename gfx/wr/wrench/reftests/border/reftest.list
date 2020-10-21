@@ -586,6 +586,17 @@ small
 radius
 .
 png
+fuzzy
+-
+if
+(
+platform
+(
+swgl
+)
+1
+20
+)
 =
 =
 overlapping

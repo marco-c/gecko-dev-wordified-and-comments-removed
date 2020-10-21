@@ -194,6 +194,8 @@ software
 properties
 -
 common
+\
+clang
 #
 Other
 stuff
