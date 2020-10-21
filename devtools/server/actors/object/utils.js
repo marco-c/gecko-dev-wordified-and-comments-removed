@@ -1332,11 +1332,6 @@ makeGlobalObjectReference
 targetActor
 .
 window
-|
-|
-targetActor
-.
-workerGlobal
 )
 ;
 return

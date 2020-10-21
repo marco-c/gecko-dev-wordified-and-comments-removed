@@ -1030,7 +1030,7 @@ true
 }
 connectToParentWindowActor
 (
-jsWindowChildActor
+devtoolsFrameActor
 forwardingPrefix
 )
 {
@@ -1046,7 +1046,7 @@ transport
 new
 JsWindowActorTransport
 (
-jsWindowChildActor
+devtoolsFrameActor
 forwardingPrefix
 )
 ;

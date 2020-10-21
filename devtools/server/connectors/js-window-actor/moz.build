@@ -11,16 +11,6 @@ DevToolsFrameParent
 jsm
 '
 '
-DevToolsWorkerChild
-.
-jsm
-'
-'
-DevToolsWorkerParent
-.
-jsm
-'
-'
 WindowGlobalLogger
 .
 jsm
