@@ -106,6 +106,12 @@ aIcePolicy
 override
 ;
 void
+Destroy
+(
+)
+override
+;
+void
 SetProxyConfig
 (
 NrSocketProxyConfig
@@ -368,12 +374,6 @@ private
 friend
 class
 MediaTransportChild
-;
-void
-Destroy
-(
-)
-override
 ;
 dom
 :
