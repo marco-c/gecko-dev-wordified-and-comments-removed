@@ -131,6 +131,14 @@ False
 chimera
 =
 False
+        
+browsertime_video
+=
+False
+        
+browsertime_visualmetrics
+=
+False
     
 )
     
@@ -259,6 +267,14 @@ False
 chimera
 =
 False
+        
+browsertime_video
+=
+False
+        
+browsertime_visualmetrics
+=
+False
     
 )
     
@@ -350,6 +366,14 @@ enable_webrender
 False
         
 chimera
+=
+False
+        
+browsertime_video
+=
+False
+        
+browsertime_visualmetrics
 =
 False
     
@@ -445,6 +469,14 @@ False
 chimera
 =
 False
+        
+browsertime_video
+=
+False
+        
+browsertime_visualmetrics
+=
+False
     
 )
     
@@ -534,6 +566,14 @@ False
 chimera
 =
 False
+        
+browsertime_video
+=
+False
+        
+browsertime_visualmetrics
+=
+False
     
 )
     
@@ -615,6 +655,14 @@ enable_webrender
 False
         
 chimera
+=
+False
+        
+browsertime_video
+=
+False
+        
+browsertime_visualmetrics
 =
 False
     
