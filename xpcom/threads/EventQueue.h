@@ -124,16 +124,6 @@ aLastEventDelay
 nullptr
 )
 ;
-void
-DidRunEvent
-(
-const
-MutexAutoLock
-&
-aProofOfLock
-)
-{
-}
 bool
 IsEmpty
 (

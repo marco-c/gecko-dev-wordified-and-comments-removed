@@ -120,12 +120,6 @@ nullptr
 )
 final
 ;
-void
-DidRunEvent
-(
-)
-final
-;
 bool
 HasPendingEvent
 (
