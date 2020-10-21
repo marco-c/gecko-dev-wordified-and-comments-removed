@@ -5939,10 +5939,12 @@ in
 .
 .
 num_output_table_entries
+as
+i32
 *
 out_chan
 as
-u16
+i32
 {
 if
 type_0
