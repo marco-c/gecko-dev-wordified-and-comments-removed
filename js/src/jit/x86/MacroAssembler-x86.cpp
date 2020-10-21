@@ -4278,8 +4278,8 @@ movl
 (
 value
 .
-low
-LowWord
+high
+HighWord
 (
 dstAddr
 )
@@ -4297,8 +4297,8 @@ movl
 (
 value
 .
-high
-HighWord
+low
+LowWord
 (
 dstAddr
 )
