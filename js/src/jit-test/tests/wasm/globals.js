@@ -2772,6 +2772,7 @@ assertEq
 s
 "
 valueOf
+type
 value
 "
 )
