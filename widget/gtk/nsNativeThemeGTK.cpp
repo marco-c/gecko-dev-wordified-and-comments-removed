@@ -1249,6 +1249,17 @@ aWidgetFlags
 {
 if
 (
+aWidgetFlags
+)
+{
+*
+aWidgetFlags
+=
+0
+;
+}
+if
+(
 aState
 )
 {
