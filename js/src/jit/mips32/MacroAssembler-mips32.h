@@ -18,15 +18,6 @@ include
 "
 jit
 /
-JitFrames
-.
-h
-"
-#
-include
-"
-jit
-/
 mips
 -
 shared
