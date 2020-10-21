@@ -376,6 +376,15 @@ h
 #
 include
 "
+proxy
+/
+DOMProxy
+.
+h
+"
+#
+include
+"
 util
 /
 CheckedArithmetic
