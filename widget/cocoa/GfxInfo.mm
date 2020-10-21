@@ -643,6 +643,12 @@ IOObjectRelease
 io_iter
 )
 ;
+#
+if
+defined
+(
+__x86_64__
+)
 MOZ_DIAGNOSTIC_ASSERT
 (
 mNumGPUsDetected
@@ -657,6 +663,8 @@ GPUs
 "
 )
 ;
+#
+endif
 }
 nsresult
 GfxInfo
