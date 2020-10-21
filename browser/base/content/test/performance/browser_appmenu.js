@@ -99,7 +99,7 @@ js
 ]
 maxCount
 :
-26
+22
 }
 {
 stack
