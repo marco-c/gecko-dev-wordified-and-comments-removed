@@ -12890,9 +12890,8 @@ eLogicalAxisInline
 MOZ_ASSERT
 (
 !
-IS_TRUE_OVERFLOW_CONTAINER
+IsTrueOverflowContainer
 (
-this
 )
 )
 ;
@@ -13235,9 +13234,8 @@ eLogicalAxisBlock
 MOZ_ASSERT
 (
 !
-IS_TRUE_OVERFLOW_CONTAINER
+IsTrueOverflowContainer
 (
-this
 )
 )
 ;

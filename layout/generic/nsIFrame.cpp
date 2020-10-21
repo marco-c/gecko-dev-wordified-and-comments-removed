@@ -29676,9 +29676,8 @@ isGridItem
 &
 &
 !
-IS_TRUE_OVERFLOW_CONTAINER
+IsTrueOverflowContainer
 (
-this
 )
 )
 {
@@ -30372,9 +30371,8 @@ IsAuto
 &
 &
 !
-IS_TRUE_OVERFLOW_CONTAINER
+IsTrueOverflowContainer
 (
-this
 )
 &
 &

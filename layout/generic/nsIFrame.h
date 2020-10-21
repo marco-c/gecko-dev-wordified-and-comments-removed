@@ -10847,6 +10847,13 @@ const
 ;
 inline
 bool
+IsTrueOverflowContainer
+(
+)
+const
+;
+inline
+bool
 IsColumnSpan
 (
 )

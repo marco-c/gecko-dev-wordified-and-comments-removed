@@ -1102,9 +1102,8 @@ aConsumedBSize
 ;
 if
 (
-IS_TRUE_OVERFLOW_CONTAINER
+IsTrueOverflowContainer
 (
-this
 )
 &
 &
@@ -1203,9 +1202,8 @@ mWritingMode
 ;
 if
 (
-IS_TRUE_OVERFLOW_CONTAINER
+IsTrueOverflowContainer
 (
-this
 )
 )
 {
@@ -1323,9 +1321,11 @@ nif
 &
 &
 !
-IS_TRUE_OVERFLOW_CONTAINER
-(
 nif
+-
+>
+IsTrueOverflowContainer
+(
 )
 )
 {
@@ -1372,9 +1372,8 @@ if
 (
 MOZ_UNLIKELY
 (
-IS_TRUE_OVERFLOW_CONTAINER
+IsTrueOverflowContainer
 (
-this
 )
 )
 )
