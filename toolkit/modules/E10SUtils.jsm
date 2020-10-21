@@ -3298,6 +3298,7 @@ null
 ;
 if
 (
+!
 Services
 .
 appinfo
