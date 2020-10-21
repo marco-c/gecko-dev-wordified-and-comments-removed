@@ -3295,6 +3295,11 @@ GetSessionHistory
 (
 )
 ;
+NS_ENSURE_TRUE_VOID
+(
+shistory
+)
+;
 nsCOMPtr
 <
 nsISHEntry
