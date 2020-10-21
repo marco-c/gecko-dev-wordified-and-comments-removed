@@ -1234,6 +1234,10 @@ searchTopSites
 ]
 .
 innerText
+.
+trim
+(
+)
 ;
 }
 after
