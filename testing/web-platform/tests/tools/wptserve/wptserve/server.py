@@ -119,6 +119,7 @@ from
 utils
 import
 HTTPException
+isomorphic_decode
 from
 .
 constants
@@ -3423,6 +3424,20 @@ val
 in
 headers
 :
+            
+key
+=
+isomorphic_decode
+(
+key
+)
+            
+val
+=
+isomorphic_decode
+(
+val
+)
             
 self
 .
