@@ -4434,7 +4434,7 @@ version
 "
 0
 .
-66
+67
 .
 0
 "
@@ -4457,9 +4457,9 @@ wasmtime
 ?
 rev
 =
-379aed8092cd1241ec7839e77d05557b1dceb234
+b8f0dc429f2b886e7423122223393b2c7ee3cd4f
 #
-379aed8092cd1241ec7839e77d05557b1dceb234
+b8f0dc429f2b886e7423122223393b2c7ee3cd4f
 "
 dependencies
 =
@@ -4470,7 +4470,7 @@ cranelift
 entity
 0
 .
-66
+67
 .
 0
 "
@@ -4492,7 +4492,7 @@ version
 "
 0
 .
-66
+67
 .
 0
 "
@@ -4515,9 +4515,9 @@ wasmtime
 ?
 rev
 =
-379aed8092cd1241ec7839e77d05557b1dceb234
+b8f0dc429f2b886e7423122223393b2c7ee3cd4f
 #
-379aed8092cd1241ec7839e77d05557b1dceb234
+b8f0dc429f2b886e7423122223393b2c7ee3cd4f
 "
 dependencies
 =
@@ -4550,7 +4550,7 @@ cranelift
 entity
 0
 .
-66
+67
 .
 0
 "
@@ -4569,7 +4569,7 @@ target
 lexicon
 0
 .
-10
+11
 .
 0
 "
@@ -4596,7 +4596,7 @@ version
 "
 0
 .
-66
+67
 .
 0
 "
@@ -4619,9 +4619,9 @@ wasmtime
 ?
 rev
 =
-379aed8092cd1241ec7839e77d05557b1dceb234
+b8f0dc429f2b886e7423122223393b2c7ee3cd4f
 #
-379aed8092cd1241ec7839e77d05557b1dceb234
+b8f0dc429f2b886e7423122223393b2c7ee3cd4f
 "
 dependencies
 =
@@ -4639,7 +4639,7 @@ cranelift
 entity
 0
 .
-66
+67
 .
 0
 "
@@ -4663,7 +4663,7 @@ version
 "
 0
 .
-66
+67
 .
 0
 "
@@ -4686,9 +4686,9 @@ wasmtime
 ?
 rev
 =
-379aed8092cd1241ec7839e77d05557b1dceb234
+b8f0dc429f2b886e7423122223393b2c7ee3cd4f
 #
-379aed8092cd1241ec7839e77d05557b1dceb234
+b8f0dc429f2b886e7423122223393b2c7ee3cd4f
 "
 [
 [
@@ -4751,7 +4751,7 @@ version
 "
 0
 .
-66
+67
 .
 0
 "
@@ -4774,9 +4774,9 @@ wasmtime
 ?
 rev
 =
-379aed8092cd1241ec7839e77d05557b1dceb234
+b8f0dc429f2b886e7423122223393b2c7ee3cd4f
 #
-379aed8092cd1241ec7839e77d05557b1dceb234
+b8f0dc429f2b886e7423122223393b2c7ee3cd4f
 "
 [
 [
@@ -4795,7 +4795,7 @@ version
 "
 0
 .
-66
+67
 .
 0
 "
@@ -4818,9 +4818,9 @@ wasmtime
 ?
 rev
 =
-379aed8092cd1241ec7839e77d05557b1dceb234
+b8f0dc429f2b886e7423122223393b2c7ee3cd4f
 #
-379aed8092cd1241ec7839e77d05557b1dceb234
+b8f0dc429f2b886e7423122223393b2c7ee3cd4f
 "
 dependencies
 =
@@ -4842,7 +4842,7 @@ target
 lexicon
 0
 .
-10
+11
 .
 0
 "
@@ -4864,7 +4864,7 @@ version
 "
 0
 .
-66
+67
 .
 0
 "
@@ -4887,9 +4887,9 @@ wasmtime
 ?
 rev
 =
-379aed8092cd1241ec7839e77d05557b1dceb234
+b8f0dc429f2b886e7423122223393b2c7ee3cd4f
 #
-379aed8092cd1241ec7839e77d05557b1dceb234
+b8f0dc429f2b886e7423122223393b2c7ee3cd4f
 "
 dependencies
 =
@@ -4905,7 +4905,7 @@ cranelift
 entity
 0
 .
-66
+67
 .
 0
 "
@@ -27902,7 +27902,7 @@ version
 "
 0
 .
-10
+11
 .
 0
 "
@@ -27932,7 +27932,7 @@ index
 checksum
 =
 "
-ab0e7238dcc7b40a7be719a25365910f6807bd864f4cce6b2e6b873658e2b19d
+fe2635952a442a01fd4cb53d98858b5e4bb461b02c0d111f22f31772e3e7a8b2
 "
 [
 [
