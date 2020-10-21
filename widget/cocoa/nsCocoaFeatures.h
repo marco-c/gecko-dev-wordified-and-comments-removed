@@ -84,6 +84,12 @@ OnCatalinaOrLater
 ;
 static
 bool
+OnBigSurOrLater
+(
+)
+;
+static
+bool
 IsAtLeastVersion
 (
 int32_t
