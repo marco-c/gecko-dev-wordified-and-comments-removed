@@ -819,13 +819,11 @@ self
 db
 (
 )
-mem
-:
-:
-transmute
-(
 x_coll_needed
-)
+as
+*
+mut
+c_void
 Some
 (
 collation_needed_callback

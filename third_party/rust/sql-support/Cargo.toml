@@ -106,7 +106,7 @@ version
 "
 0
 .
-23
+24
 .
 1
 "
@@ -121,5 +121,8 @@ limits
 "
 "
 bundled
+"
+"
+unlock_notify
 "
 ]

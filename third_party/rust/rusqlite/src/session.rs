@@ -149,8 +149,7 @@ PhantomData
 &
 '
 conn
-(
-)
+Connection
 >
 s
 :
@@ -1846,8 +1845,7 @@ PhantomData
 &
 '
 changeset
-(
-)
+Changeset
 >
 it
 :
@@ -3505,6 +3503,13 @@ Ok
 }
 #
 [
+allow
+(
+missing_docs
+)
+]
+#
+[
 repr
 (
 i32
@@ -3643,6 +3648,13 @@ UNKNOWN
 }
 }
 }
+#
+[
+allow
+(
+missing_docs
+)
+]
 #
 [
 repr

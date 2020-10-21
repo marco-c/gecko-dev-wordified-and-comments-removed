@@ -2023,7 +2023,6 @@ clone
 )
 ;
 let
-mut
 padding
 :
 String

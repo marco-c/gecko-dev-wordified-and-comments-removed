@@ -294,13 +294,11 @@ Some
 (
 busy_handler_callback
 )
-mem
-:
-:
-transmute
-(
 f
-)
+as
+*
+mut
+c_void
 )
 }
 None
