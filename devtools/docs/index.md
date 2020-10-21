@@ -501,7 +501,7 @@ md
 )
 *
 [
-Avanced
+Advanced
 tips
 ]
 (
