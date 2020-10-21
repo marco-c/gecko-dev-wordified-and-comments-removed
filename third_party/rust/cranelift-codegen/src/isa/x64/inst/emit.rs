@@ -2223,7 +2223,7 @@ inst
 Inst
 :
 :
-Alu_RMI_R
+AluRmiR
 {
 is_64
 op
@@ -2350,7 +2350,7 @@ simm32
 >
 {
 let
-useImm8
+use_imm8
 =
 low8_will_sign_extend_to_32
 (
@@ -2362,7 +2362,7 @@ let
 opcode
 =
 if
-useImm8
+use_imm8
 {
 0x6B
 }
@@ -2397,7 +2397,7 @@ emit_simm
 (
 sink
 if
-useImm8
+use_imm8
 {
 1
 }
@@ -4229,7 +4229,7 @@ u32
 Inst
 :
 :
-Mov_R_R
+MovRR
 {
 is_64
 src
@@ -4285,7 +4285,7 @@ rex
 Inst
 :
 :
-MovZX_RM_R
+MovzxRmR
 {
 ext_mode
 src
@@ -4551,7 +4551,7 @@ rex_flags
 Inst
 :
 :
-Mov64_M_R
+Mov64MR
 {
 src
 dst
@@ -4657,7 +4657,7 @@ set_w
 Inst
 :
 :
-MovSX_RM_R
+MovsxRmR
 {
 ext_mode
 src
@@ -4923,7 +4923,7 @@ rex_flags
 Inst
 :
 :
-Mov_R_M
+MovRM
 {
 size
 src
@@ -5126,7 +5126,7 @@ unreachable
 Inst
 :
 :
-Shift_R
+ShiftR
 {
 size
 kind
@@ -5789,7 +5789,7 @@ unreachable
 Inst
 :
 :
-Cmp_RMI_R
+CmpRmiR
 {
 size
 src
@@ -6640,7 +6640,7 @@ dst
 >
 {
 let
-encDst
+enc_dst
 =
 int_reg_enc
 (
@@ -6652,7 +6652,7 @@ to_reg
 )
 ;
 if
-encDst
+enc_dst
 >
 =
 8
@@ -6672,7 +6672,7 @@ put1
 0x58
 +
 (
-encDst
+enc_dst
 &
 7
 )
@@ -8239,7 +8239,7 @@ rex
 Inst
 :
 :
-XMM_RM_R
+XmmRmR
 {
 op
 src
@@ -10288,7 +10288,7 @@ XmmUninitializedValue
 Inst
 :
 :
-Xmm_Mov_R_M
+XmmMovRM
 {
 op
 src
@@ -10840,7 +10840,7 @@ rex
 Inst
 :
 :
-XMM_Cmp_RM_R
+XmmCmpRmR
 {
 op
 src

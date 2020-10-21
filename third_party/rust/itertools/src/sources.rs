@@ -20,6 +20,13 @@ mem
 ;
 #
 [
+derive
+(
+Clone
+)
+]
+#
+[
 deprecated
 (
 note
@@ -254,8 +261,6 @@ A
 {
 Unfold
 {
-f
-:
 f
 state
 :
@@ -641,8 +646,6 @@ Iterate
 state
 :
 initial_value
-f
-:
 f
 }
 }

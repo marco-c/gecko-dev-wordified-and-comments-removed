@@ -276,8 +276,6 @@ error
 mut
 error
 iter
-:
-iter
 }
 )
 ;
