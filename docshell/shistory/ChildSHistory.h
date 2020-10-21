@@ -198,8 +198,6 @@ GotoIndex
 (
 int32_t
 aIndex
-int32_t
-aOffset
 ErrorResult
 &
 aRv

@@ -869,7 +869,6 @@ index
 value
 (
 )
-aOffset
 aRv
 )
 ;
@@ -971,8 +970,6 @@ GotoIndex
 (
 int32_t
 aIndex
-int32_t
-aOffset
 ErrorResult
 &
 aRv
@@ -1001,7 +998,7 @@ mBrowsingContext
 >
 HistoryGo
 (
-aOffset
+aIndex
 [
 shistory
 ]

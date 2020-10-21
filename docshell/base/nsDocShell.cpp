@@ -15631,14 +15631,6 @@ rootSH
 GotoIndex
 (
 aIndex
-aIndex
--
-rootSH
--
->
-Index
-(
-)
 rv
 )
 ;

@@ -3173,7 +3173,7 @@ void
 HistoryGo
 (
 int32_t
-aOffset
+aIndex
 std
 :
 :
