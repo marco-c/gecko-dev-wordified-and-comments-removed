@@ -147,6 +147,9 @@ Label
 class
 MacroAssembler
 ;
+struct
+Register
+;
 class
 OperandId
 {

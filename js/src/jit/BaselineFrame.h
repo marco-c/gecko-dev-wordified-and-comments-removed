@@ -58,6 +58,9 @@ class
 ICScript
 ;
 class
+JSJitFrameIter
+;
+class
 BaselineFrame
 {
 public
