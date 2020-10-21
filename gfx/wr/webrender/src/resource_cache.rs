@@ -9937,6 +9937,13 @@ texture_cache
 picture_tile_sizes
 (
 )
+self
+.
+texture_cache
+.
+default_picture_tile_size
+(
+)
 DeviceIntSize
 :
 :
