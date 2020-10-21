@@ -372,6 +372,17 @@ handle
 pass
     
 def
+window_handles
+(
+self
+)
+:
+        
+return
+[
+]
+    
+def
 load
 (
 self
