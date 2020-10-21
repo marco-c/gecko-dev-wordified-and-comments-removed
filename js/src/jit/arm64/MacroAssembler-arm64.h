@@ -75,6 +75,15 @@ BigIntType
 h
 "
 #
+include
+"
+wasm
+/
+WasmTypes
+.
+h
+"
+#
 ifdef
 _M_ARM64
 #

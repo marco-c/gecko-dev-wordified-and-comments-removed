@@ -26,6 +26,15 @@ shared
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmTypes
+.
+h
+"
 namespace
 js
 {

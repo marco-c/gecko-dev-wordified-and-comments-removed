@@ -285,6 +285,15 @@ h
 #
 include
 "
+wasm
+/
+WasmTypes
+.
+h
+"
+#
+include
+"
 gc
 /
 Nursery

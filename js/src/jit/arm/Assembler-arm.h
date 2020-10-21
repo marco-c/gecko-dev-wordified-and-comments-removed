@@ -119,6 +119,15 @@ IonAssemblerBufferWithConstantPools
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmTypes
+.
+h
+"
 union
 PoolHintPun
 ;

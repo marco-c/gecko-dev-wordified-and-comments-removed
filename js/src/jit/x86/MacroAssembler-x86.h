@@ -57,6 +57,15 @@ Realm
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmTypes
+.
+h
+"
 namespace
 js
 {

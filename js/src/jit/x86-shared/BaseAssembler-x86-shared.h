@@ -64,6 +64,15 @@ shared
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmTypes
+.
+h
+"
 extern
 volatile
 uintptr_t
