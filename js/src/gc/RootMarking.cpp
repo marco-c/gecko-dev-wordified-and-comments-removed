@@ -1651,7 +1651,7 @@ if
 atomsZone
 -
 >
-isCollecting
+isGCMarking
 (
 )
 )
@@ -2048,7 +2048,7 @@ jit
 JitRuntime
 :
 :
-Trace
+TraceAtomZoneRoots
 (
 trc
 access
