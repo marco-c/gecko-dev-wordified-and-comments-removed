@@ -974,7 +974,8 @@ resolve
 )
 createDefaultSettings
 :
-name
+(
+)
 =
 >
 {
