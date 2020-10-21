@@ -858,7 +858,7 @@ stream
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1058,7 +1058,7 @@ step
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1161,7 +1161,7 @@ step
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1242,7 +1242,7 @@ step
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1309,7 +1309,7 @@ stream
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 ]
 )
@@ -1379,7 +1379,7 @@ step
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1482,7 +1482,7 @@ step
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1563,7 +1563,7 @@ step
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1635,7 +1635,7 @@ stream
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 ]
 )
@@ -1703,7 +1703,7 @@ step
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1775,7 +1775,7 @@ step
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main

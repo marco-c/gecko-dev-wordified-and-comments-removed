@@ -225,7 +225,7 @@ default
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 nav

@@ -343,9 +343,9 @@ string_id
 "
 onboarding
 -
-start
+not
 -
-browsing
+now
 -
 button
 -

@@ -823,7 +823,7 @@ className
 outer
 -
 wrapper
-multistageContainer
+onboardingContainer
 }
 >
 {
