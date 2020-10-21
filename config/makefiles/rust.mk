@@ -469,6 +469,17 @@ linking
 #
 gkrust_gtest
 .
+And
+not
+when
+doing
+cross
+-
+language
+LTO
+.
+ifndef
+MOZ_LTO_RUST_CROSS
 ifeq
 (
 (
@@ -563,6 +574,7 @@ Cembed
 bitcode
 =
 yes
+endif
 endif
 endif
 endif
@@ -1685,7 +1697,7 @@ RUSTFLAGS
 (
 if
 (
-MOZ_LTO_RUST
+MOZ_LTO_RUST_CROSS
 )
 -
 Clinker
@@ -2630,7 +2642,7 @@ with
 Clto
 but
 without
-MOZ_LTO_RUST
+MOZ_LTO_RUST_CROSS
 .
 #
 Sanitizers
@@ -2671,7 +2683,7 @@ MOZ_UBSAN
 )
 )
 ifndef
-MOZ_LTO_RUST
+MOZ_LTO_RUST_CROSS
 ifneq
 (
 (
