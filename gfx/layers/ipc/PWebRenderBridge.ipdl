@@ -545,6 +545,11 @@ ScheduleComposite
 )
 ;
 async
+ForceComposite
+(
+)
+;
+async
 Capture
 (
 )

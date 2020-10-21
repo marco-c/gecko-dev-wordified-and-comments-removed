@@ -1066,6 +1066,13 @@ ScheduleComposite
 }
 virtual
 void
+ForceComposite
+(
+)
+{
+}
+virtual
+void
 SetNeedsComposite
 (
 bool

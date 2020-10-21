@@ -15330,6 +15330,15 @@ aWidget
 GTK_WINDOW_POPUP
 )
 {
+GetLayerManager
+(
+)
+-
+>
+ForceComposite
+(
+)
+;
 return
 FALSE
 ;
