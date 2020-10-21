@@ -694,17 +694,6 @@ kwargs
 preload_browser
 "
 ]
-            
-"
-specialpowers_path
-"
-:
-kwargs
-[
-"
-specialpowers_path
-"
-]
 }
 def
 executor_kwargs
@@ -3715,9 +3704,6 @@ def
 create
 (
 self
-*
-*
-kwargs
 )
 :
         
@@ -3739,20 +3725,6 @@ at
 that
         
 profile
-        
-:
-param
-kwargs
-:
-Additional
-arguments
-to
-pass
-into
-the
-profile
-constructor
-        
 "
 "
 "
@@ -3772,10 +3744,6 @@ FirefoxProfile
 preferences
 =
 preferences
-                                 
-*
-*
-kwargs
 )
         
 self
@@ -4853,10 +4821,6 @@ None
 preload_browser
 =
 False
-                 
-specialpowers_path
-=
-None
 *
 *
 kwargs
@@ -4899,12 +4863,6 @@ None
         
 self
 .
-_settings
-=
-None
-        
-self
-.
 stackfix_dir
 =
 stackfix_dir
@@ -4932,12 +4890,6 @@ self
 leak_check
 =
 leak_check
-        
-self
-.
-specialpowers_path
-=
-specialpowers_path
         
 profile_creator
 =
@@ -5022,10 +4974,7 @@ test
 )
 :
         
-self
-.
-_settings
-=
+return
 {
 "
 check_leaks
@@ -5039,7 +4988,7 @@ not
 test
 .
 leaks
-                          
+                
 "
 lsan_disabled
 "
@@ -5047,7 +4996,7 @@ lsan_disabled
 test
 .
 lsan_disabled
-                          
+                
 "
 lsan_allowed
 "
@@ -5055,7 +5004,7 @@ lsan_allowed
 test
 .
 lsan_allowed
-                          
+                
 "
 lsan_max_stack_depth
 "
@@ -5063,7 +5012,7 @@ lsan_max_stack_depth
 test
 .
 lsan_max_stack_depth
-                          
+                
 "
 mozleak_allowed
 "
@@ -5075,7 +5024,7 @@ and
 test
 .
 mozleak_allowed
-                          
+                
 "
 mozleak_thresholds
 "
@@ -5087,31 +5036,7 @@ and
 test
 .
 mozleak_threshold
-                          
-"
-special_powers
-"
-:
-self
-.
-specialpowers_path
-and
-test
-.
-url_base
-=
-=
-"
-/
-_mozilla
-/
-"
 }
-        
-return
-self
-.
-_settings
     
 def
 start
@@ -5257,34 +5182,6 @@ is
 not
 None
         
-extensions
-=
-[
-]
-        
-if
-self
-.
-_settings
-.
-get
-(
-"
-special_powers
-"
-False
-)
-:
-            
-extensions
-.
-append
-(
-self
-.
-specialpowers_path
-)
-        
 return
 ExecutorBrowser
 {
@@ -5297,12 +5194,6 @@ self
 instance
 .
 marionette_port
-                                 
-"
-extensions
-"
-:
-extensions
 }
     
 def

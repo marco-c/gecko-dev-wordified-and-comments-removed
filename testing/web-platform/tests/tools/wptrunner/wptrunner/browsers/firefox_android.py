@@ -420,17 +420,6 @@ tests_root
 config
 .
 doc_root
-            
-"
-specialpowers_path
-"
-:
-kwargs
-[
-"
-specialpowers_path
-"
-]
 }
 def
 env_extras
@@ -873,9 +862,6 @@ False
 tests_root
 =
 None
-specialpowers_path
-=
-None
 *
 *
 kwargs
@@ -1027,12 +1013,6 @@ tests_root
         
 self
 .
-specialpowers_path
-=
-specialpowers_path
-        
-self
-.
 profile_creator
 =
 ProfileCreator
@@ -1075,13 +1055,6 @@ self
 runner
 =
 None
-        
-self
-.
-_settings
-=
-{
-}
     
 def
 settings
@@ -1091,10 +1064,7 @@ test
 )
 :
         
-self
-.
-_settings
-=
+return
 {
 "
 check_leaks
@@ -1108,7 +1078,7 @@ not
 test
 .
 leaks
-                          
+                
 "
 lsan_allowed
 "
@@ -1116,7 +1086,7 @@ lsan_allowed
 test
 .
 lsan_allowed
-                          
+                
 "
 lsan_max_stack_depth
 "
@@ -1124,7 +1094,7 @@ lsan_max_stack_depth
 test
 .
 lsan_max_stack_depth
-                          
+                
 "
 mozleak_allowed
 "
@@ -1136,7 +1106,7 @@ and
 test
 .
 mozleak_allowed
-                          
+                
 "
 mozleak_thresholds
 "
@@ -1148,31 +1118,7 @@ and
 test
 .
 mozleak_threshold
-                          
-"
-special_powers
-"
-:
-self
-.
-specialpowers_path
-and
-test
-.
-url_base
-=
-=
-"
-/
-_mozilla
-/
-"
 }
-        
-return
-self
-.
-_settings
     
 def
 start
@@ -1200,27 +1146,6 @@ get_free_port
 (
 )
         
-addons
-=
-[
-self
-.
-specialpowers_path
-]
-if
-self
-.
-_settings
-.
-get
-(
-"
-special_powers
-"
-)
-else
-None
-        
 self
 .
 profile
@@ -1231,9 +1156,6 @@ profile_creator
 .
 create
 (
-addons
-=
-addons
 )
         
 self
@@ -1963,13 +1885,6 @@ marionette_port
 self
 .
 marionette_port
-                                 
-"
-extensions
-"
-:
-[
-]
 }
     
 def
