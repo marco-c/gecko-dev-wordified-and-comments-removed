@@ -16955,6 +16955,11 @@ MOZ_ASSERT
 sf
 )
 ;
+bool
+topLayerIsOpaque
+=
+false
+;
 nsDisplayWrapList
 *
 topLayerWrapList
@@ -16962,6 +16967,8 @@ topLayerWrapList
 MaybeCreateTopLayerItems
 (
 aBuilder
+&
+topLayerIsOpaque
 )
 ;
 if
@@ -17003,6 +17010,11 @@ false
 )
 ;
 }
+if
+(
+!
+topLayerIsOpaque
+)
 {
 nsDisplayListBuilder
 :
@@ -17923,6 +17935,11 @@ hitInfo
 }
 }
 }
+if
+(
+!
+topLayerIsOpaque
+)
 {
 DisplayListClipState
 :
@@ -18335,7 +18352,7 @@ if
 topLayerWrapList
 )
 {
-aLists
+set
 .
 PositionedDescendants
 (
@@ -18740,6 +18757,9 @@ MaybeCreateTopLayerItems
 nsDisplayListBuilder
 *
 aBuilder
+bool
+*
+aIsOpaque
 )
 {
 if
@@ -18775,6 +18795,7 @@ BuildDisplayListForTopLayer
 aBuilder
 &
 topLayerList
+aIsOpaque
 )
 ;
 if
