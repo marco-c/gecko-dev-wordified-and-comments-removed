@@ -52,9 +52,6 @@ h
 namespace
 JS
 {
-class
-WTF8Chars
-;
 using
 ValueVector
 =
@@ -238,12 +235,6 @@ JS
 :
 :
 UniqueTwoByteChars
-;
-using
-JS
-:
-:
-WTF8Chars
 ;
 using
 JS
