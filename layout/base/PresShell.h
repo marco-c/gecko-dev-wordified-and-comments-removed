@@ -5329,6 +5329,7 @@ nsIContent
 aOverrideClickTarget
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DispatchEventToDOM
 (
@@ -5343,6 +5344,7 @@ nsPresShellEventCB
 aEventCB
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchTouchEventToDOM
 (

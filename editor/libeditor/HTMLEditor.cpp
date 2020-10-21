@@ -18549,8 +18549,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
+nsCOMPtr
+<
 nsIContent
-*
+>
 anchorContent
 =
 anchorNode

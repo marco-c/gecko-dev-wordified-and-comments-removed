@@ -142,6 +142,7 @@ aEvent
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SpellCheckIfNeeded
 (
@@ -376,6 +377,7 @@ GetFocusedRootContent
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 NotifyIMEOfMouseButtonEvent
 (
