@@ -3417,9 +3417,17 @@ GetSandboxFlags
 ;
 if
 (
+aPrintKind
+=
+=
+PRINT_NONE
+&
+&
+(
 activeDocsSandboxFlags
 &
 SANDBOXED_AUXILIARY_NAVIGATION
+)
 )
 {
 return
