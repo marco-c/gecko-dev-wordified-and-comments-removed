@@ -451,6 +451,7 @@ const
 {
 header
 info
+infoButton
 }
 =
 elements
@@ -474,6 +475,15 @@ true
 false
 "
 )
+;
+infoButton
+.
+checked
+=
+!
+state
+.
+isInfoCollapsed
 ;
 if
 (
