@@ -14913,6 +14913,13 @@ IsRootContentDocumentCrossProcess
 (
 )
 ;
+metrics
+.
+SetIsRootContent
+(
+isRcdRsf
+)
+;
 if
 (
 isRcdRsf
