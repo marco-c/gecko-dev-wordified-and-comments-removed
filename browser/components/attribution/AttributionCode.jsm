@@ -695,11 +695,14 @@ paramKey
 let
 value
 =
+encodeURIComponent
+(
 params
 .
 get
 (
 paramKey
+)
 )
 ;
 if
