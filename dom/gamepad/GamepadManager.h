@@ -334,8 +334,10 @@ mShuttingDown
 ;
 nsTArray
 <
+RefPtr
+<
 GamepadEventChannelChild
-*
+>
 >
 mChannelChildren
 ;
