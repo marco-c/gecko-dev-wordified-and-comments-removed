@@ -59,6 +59,7 @@ Plugins
 :
 #
 AppAssocReg
+#
 http
 :
 /
@@ -74,6 +75,7 @@ Application_Association_Registration_plug
 in
 #
 ApplicationID
+#
 http
 :
 /
@@ -89,6 +91,7 @@ ApplicationID_plug
 in
 #
 CityHash
+#
 http
 :
 /
@@ -114,6 +117,7 @@ Contrib
 CityHash
 #
 nsJSON
+#
 http
 :
 /
@@ -129,6 +133,7 @@ NsJSON_plug
 in
 #
 ShellLink
+#
 http
 :
 /
@@ -144,6 +149,7 @@ ShellLink_plug
 in
 #
 UAC
+#
 http
 :
 /
@@ -159,6 +165,7 @@ UAC_plug
 in
 #
 ServicesHelper
+#
 Mozilla
 specific
 plugin

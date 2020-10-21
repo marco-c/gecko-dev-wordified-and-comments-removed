@@ -186,6 +186,10 @@ ExecInExplorer
 .
 dll
 \
+HttpPostFile
+.
+dll
+\
 InetBgDL
 .
 dll
