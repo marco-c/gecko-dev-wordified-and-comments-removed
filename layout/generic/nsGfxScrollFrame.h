@@ -409,6 +409,9 @@ MaybeCreateTopLayerItems
 nsDisplayListBuilder
 *
 aBuilder
+bool
+*
+aIsOpaque
 )
 ;
 void
