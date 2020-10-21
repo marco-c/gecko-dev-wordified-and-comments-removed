@@ -193,8 +193,11 @@ return
 true
 ;
 }
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+JitOptions
+.
+limitScriptSize
 script
 -
 >
