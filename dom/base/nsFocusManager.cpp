@@ -3330,7 +3330,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsFocusManager
 :
 :
@@ -3341,12 +3341,15 @@ mozIDOMWindowProxy
 aWindow
 )
 {
-NS_ENSURE_TRUE
+if
 (
+!
 aWindow
-NS_ERROR_INVALID_ARG
 )
+{
+return
 ;
+}
 nsCOMPtr
 <
 nsPIDOMWindowOuter
@@ -3549,7 +3552,6 @@ System
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -3611,7 +3613,6 @@ mActiveBrowsingContextInContentSetFromOtherProcess
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -3662,12 +3663,15 @@ GetDocShell
 (
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 docShellAsItem
-NS_OK
 )
+{
+return
 ;
+}
 if
 (
 XRE_IsParentProcess
@@ -3771,7 +3775,6 @@ isEnabled
 )
 {
 return
-NS_ERROR_FAILURE
 ;
 }
 baseWindow
@@ -3901,7 +3904,6 @@ currentWindow
 )
 {
 return
-NS_OK
 ;
 }
 nsCOMPtr
@@ -3930,9 +3932,6 @@ nullptr
 true
 focusInOtherContentProcess
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

@@ -608,6 +608,14 @@ CallerType
 aCallerType
 )
 ;
+void
+WindowRaised
+(
+mozIDOMWindowProxy
+*
+aWindow
+)
+;
 static
 uint32_t
 FocusOptionsToFocusManagerFlags
