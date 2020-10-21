@@ -120,6 +120,16 @@ Map
 [
 [
 "
+accessibility
+.
+tabToSearch
+.
+announceResults
+"
+true
+]
+[
+"
 autoFill
 "
 true
