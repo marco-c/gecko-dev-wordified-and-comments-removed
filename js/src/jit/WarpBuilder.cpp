@@ -8110,7 +8110,7 @@ push
 ins
 )
 ;
-MOZ_ASSERT
+if
 (
 ins
 -
@@ -8119,13 +8119,17 @@ isEffectful
 (
 )
 )
-;
+{
 return
 resumeAfter
 (
 ins
 loc
 )
+;
+}
+return
+true
 ;
 }
 bool
