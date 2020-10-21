@@ -9080,7 +9080,7 @@ I32x4DotI16x8S
 "
 i32x4
 .
-dot_i8x16_s
+dot_i16x8_s
 "
 I64x2Neg
 :
