@@ -1028,6 +1028,13 @@ if
 (
 !
 mContext
+|
+|
+mRange
+.
+IsEmpty
+(
+)
 )
 {
 return
