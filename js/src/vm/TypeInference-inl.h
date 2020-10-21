@@ -77,6 +77,15 @@ include
 "
 jit
 /
+IonScript
+.
+h
+"
+#
+include
+"
+jit
+/
 JitScript
 .
 h

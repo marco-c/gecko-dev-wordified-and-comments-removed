@@ -33,6 +33,15 @@ h
 #
 include
 "
+jit
+/
+IonOptimizationLevels
+.
+h
+"
+#
+include
+"
 js
 /
 ScalarType
