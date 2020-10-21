@@ -21,13 +21,6 @@ EXPORTS
 '
 public
 /
-BaseProfilerMarkerPayload
-.
-h
-'
-'
-public
-/
 BaseProfilerSharedLibraries
 .
 h
@@ -97,13 +90,6 @@ cpp
 core
 /
 ProfilerBacktrace
-.
-cpp
-'
-'
-core
-/
-ProfilerMarkerPayload
 .
 cpp
 '
