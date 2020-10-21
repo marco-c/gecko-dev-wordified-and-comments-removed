@@ -6711,6 +6711,16 @@ extensions
 .
 "
 "
+general
+.
+autoScroll
+"
+"
+general
+.
+smoothScroll
+"
+"
 geo
 .
 "
@@ -6736,6 +6746,10 @@ places
 "
 "
 print
+.
+"
+"
+signon
 .
 "
 "
