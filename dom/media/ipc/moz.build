@@ -194,6 +194,11 @@ RemoteImageHolder
 cpp
 '
 '
+RemoteMediaData
+.
+cpp
+'
+'
 RemoteMediaDataDecoder
 .
 cpp
