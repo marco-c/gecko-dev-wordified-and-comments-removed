@@ -8529,11 +8529,10 @@ HTML
 )
 )
 {
-pointToInsert
-=
-aPointToInsert
-;
-break
+return
+EditorDOMPoint
+(
+)
 ;
 }
 }
