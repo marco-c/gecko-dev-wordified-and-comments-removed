@@ -18,6 +18,8 @@ logging
 import
 os
 import
+six
+import
 sys
 import
 warnings
@@ -1795,10 +1797,11 @@ for
 fname
 fobj
 in
-ALL_FLAVORS
+six
 .
 iteritems
 (
+ALL_FLAVORS
 )
 :
                 
@@ -1846,10 +1849,11 @@ for
 f
 v
 in
-ALL_FLAVORS
+six
 .
 iteritems
 (
+ALL_FLAVORS
 )
 if
 buildapp
