@@ -13,7 +13,7 @@ SmsProvider
 >
 {
 class
-MockSmsReceiver
+MockWebOTPService
 {
 constructor
 (
@@ -28,7 +28,7 @@ blink
 .
 mojom
 .
-SmsReceiverReceiver
+WebOTPServiceReceiver
 (
 this
 )
@@ -44,7 +44,7 @@ blink
 .
 mojom
 .
-SmsReceiver
+WebOTPService
 .
 interfaceName
 )
@@ -178,10 +178,10 @@ this
 }
 }
 const
-mockSmsReceiver
+mockWebOTPService
 =
 new
-MockSmsReceiver
+MockWebOTPService
 (
 )
 ;
@@ -206,7 +206,7 @@ callName
 callback
 )
 {
-mockSmsReceiver
+mockWebOTPService
 .
 pushReturnValuesForTesting
 (
