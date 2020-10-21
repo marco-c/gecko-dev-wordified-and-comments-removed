@@ -9238,7 +9238,17 @@ orig_command_line
             
 cmdline
 [
-2
+cmdline
+.
+index
+(
+'
+-
+c
+'
+)
++
+1
 ]
 =
 fork_string
