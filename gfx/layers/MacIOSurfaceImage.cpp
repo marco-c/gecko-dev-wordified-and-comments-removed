@@ -190,17 +190,6 @@ mSurface
 ;
 if
 (
-XRE_IsRDDProcess
-(
-)
-)
-{
-return
-false
-;
-}
-if
-(
 aData
 .
 mYSkip
