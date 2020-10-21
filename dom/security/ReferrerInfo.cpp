@@ -4190,6 +4190,9 @@ aSendReferrer
 nsIURI
 *
 aOriginalReferrer
+JSContext
+*
+aCx
 )
 {
 MOZ_ASSERT

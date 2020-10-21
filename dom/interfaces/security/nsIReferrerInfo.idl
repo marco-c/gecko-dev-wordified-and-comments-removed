@@ -767,6 +767,9 @@ null
 .
 *
 /
+[
+implicit_jscontext
+]
 void
 init
 (
