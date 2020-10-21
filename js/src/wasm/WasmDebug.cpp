@@ -2832,6 +2832,9 @@ return
 true
 ;
 }
+JS
+:
+:
 UTF8Chars
 utf8Chars
 (
@@ -2903,6 +2906,9 @@ sourceMapURL
 )
 )
 {
+JS
+:
+:
 UTF8Chars
 utf8Chars
 (

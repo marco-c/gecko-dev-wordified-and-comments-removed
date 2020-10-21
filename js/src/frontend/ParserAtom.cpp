@@ -2296,6 +2296,9 @@ return
 tiny
 ;
 }
+JS
+:
+:
 UTF8Chars
 utf8
 (
@@ -3327,6 +3330,9 @@ MOZ_ASSERT
 (
 FindSmallestEncoding
 (
+JS
+:
+:
 UTF8Chars
 (
 str
@@ -3571,6 +3577,9 @@ MOZ_ASSERT
 (
 FindSmallestEncoding
 (
+JS
+:
+:
 UTF8Chars
 (
 str

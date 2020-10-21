@@ -53,9 +53,6 @@ namespace
 JS
 {
 class
-UTF8Chars
-;
-class
 WTF8Chars
 ;
 class
@@ -244,12 +241,6 @@ JS
 :
 :
 UniqueTwoByteChars
-;
-using
-JS
-:
-:
-UTF8Chars
 ;
 using
 JS
