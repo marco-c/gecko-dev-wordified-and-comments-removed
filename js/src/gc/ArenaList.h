@@ -793,7 +793,7 @@ Arena
 >
 gcNewObjectGroupArenasToUpdate
 ;
-ZoneData
+ZoneOrGCTaskData
 <
 Arena
 *
@@ -1048,8 +1048,9 @@ queueForegroundThingsForSweep
 (
 )
 ;
-void
-releaseForegroundSweptEmptyArenas
+Arena
+*
+takeSweptEmptyArenas
 (
 )
 ;
