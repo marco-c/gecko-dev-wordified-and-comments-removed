@@ -23663,7 +23663,7 @@ expires_in_version
 "
 :
 "
-84
+90
 "
 "
 alert_emails
@@ -23677,7 +23677,7 @@ mozilla
 com
 "
 "
-junior
+ddamjanovic
 mozilla
 .
 com
@@ -23692,6 +23692,7 @@ bug_numbers
 1494133
 1524552
 1616069
+1668513
 ]
 "
 kind
@@ -23773,7 +23774,7 @@ expires_in_version
 "
 :
 "
-84
+90
 "
 "
 alert_emails
@@ -23787,7 +23788,7 @@ mozilla
 com
 "
 "
-junior
+ddamjanovic
 mozilla
 .
 com
@@ -23801,6 +23802,7 @@ bug_numbers
 1487559
 1524552
 1616069
+1668513
 ]
 "
 kind
@@ -23880,7 +23882,7 @@ expires_in_version
 "
 :
 "
-84
+90
 "
 "
 alert_emails
@@ -23894,7 +23896,7 @@ mozilla
 com
 "
 "
-junior
+damjanovic
 mozilla
 .
 com
@@ -23908,6 +23910,7 @@ bug_numbers
 1498434
 1524552
 1616069
+1668513
 ]
 "
 kind
