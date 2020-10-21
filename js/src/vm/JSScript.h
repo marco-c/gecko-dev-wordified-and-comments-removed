@@ -5995,7 +5995,7 @@ RefPtr
 js
 :
 :
-RuntimeScriptData
+SharedImmutableScriptData
 >
 sharedData_
 =
@@ -7586,7 +7586,7 @@ getMemberInitializers
 )
 ;
 }
-RuntimeScriptData
+SharedImmutableScriptData
 *
 sharedData
 (
@@ -7600,7 +7600,7 @@ sharedData_
 void
 initSharedData
 (
-RuntimeScriptData
+SharedImmutableScriptData
 *
 data
 )

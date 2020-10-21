@@ -18193,7 +18193,7 @@ loadPtr
 Address
 (
 output
-RuntimeScriptData
+SharedImmutableScriptData
 :
 :
 offsetOfISD
