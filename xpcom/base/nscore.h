@@ -621,17 +621,6 @@ NS_OK
 ;
 static
 constexpr
-StorageType
-GetDefaultValue
-(
-)
-{
-return
-NS_ERROR_FAILURE
-;
-}
-static
-constexpr
 void
 AssertValid
 (
