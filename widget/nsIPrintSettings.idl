@@ -510,6 +510,13 @@ attribute
 boolean
 printBGImages
 ;
+[
+infallible
+]
+attribute
+boolean
+honorPageRuleMargins
+;
 attribute
 short
 printRange
