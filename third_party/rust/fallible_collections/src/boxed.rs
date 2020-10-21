@@ -422,7 +422,7 @@ ok_or
 TryReserveError
 :
 :
-AllocErr
+AllocError
 {
 layout
 }

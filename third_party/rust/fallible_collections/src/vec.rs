@@ -3086,7 +3086,7 @@ Err
 TryReserveError
 :
 :
-AllocErr
+AllocError
 {
 layout
 }
