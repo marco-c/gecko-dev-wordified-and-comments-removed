@@ -16631,6 +16631,11 @@ loadInfo
 GetHttpsOnlyStatus
 (
 )
+&
+nsILoadInfo
+:
+:
+HTTPS_ONLY_EXEMPT
 ;
 nsresult
 rv

@@ -26216,7 +26216,7 @@ Canonical
 )
 -
 >
-UpdateSecurityState
+UpdateSecurityStateForLocationOrMixedContentChange
 (
 )
 ;

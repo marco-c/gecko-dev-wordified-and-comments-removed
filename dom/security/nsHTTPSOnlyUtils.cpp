@@ -325,9 +325,6 @@ return
 nsAutoCString
 method
 ;
-mozilla
-:
-:
 Unused
 <
 <
@@ -2121,9 +2118,6 @@ return
 NS_OK
 ;
 }
-mozilla
-:
-:
 OriginAttributes
 attrs
 =

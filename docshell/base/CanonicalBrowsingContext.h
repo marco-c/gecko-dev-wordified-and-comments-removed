@@ -777,7 +777,7 @@ mWebProgress
 ;
 }
 void
-UpdateSecurityState
+UpdateSecurityStateForLocationOrMixedContentChange
 (
 )
 ;
