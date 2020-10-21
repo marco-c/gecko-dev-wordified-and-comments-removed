@@ -865,6 +865,7 @@ MesaAll
 MesaLLVMPipe
 MesaSoftPipe
 MesaSWRast
+MesaNouveau
 MesaUnknown
 NonMesaAll
 Max
