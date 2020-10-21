@@ -459,6 +459,9 @@ mSupportsComponentAlpha
 bool
 mUsingAdvancedLayers
 ;
+bool
+mUsingSoftwareWebRender
+;
 SyncHandle
 mSyncHandle
 ;
@@ -555,6 +558,10 @@ mSupportsComponentAlpha
 aSupportsComponentAlpha
 )
 mUsingAdvancedLayers
+(
+false
+)
+mUsingSoftwareWebRender
 (
 false
 )
@@ -663,6 +670,14 @@ mUsingAdvancedLayers
 aOther
 .
 mUsingAdvancedLayers
+&
+&
+mUsingSoftwareWebRender
+=
+=
+aOther
+.
+mUsingSoftwareWebRender
 &
 &
 mSyncHandle
