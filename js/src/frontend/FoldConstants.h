@@ -41,9 +41,9 @@ FoldConstants
 JSContext
 *
 cx
-ParserAtomsTable
+CompilationInfo
 &
-parserAtoms
+compilationInfo
 ParseNode
 *
 *
@@ -61,9 +61,9 @@ FoldConstants
 JSContext
 *
 cx
-ParserAtomsTable
+CompilationInfo
 &
-parserAtoms
+compilationInfo
 typename
 SyntaxParseHandler
 :

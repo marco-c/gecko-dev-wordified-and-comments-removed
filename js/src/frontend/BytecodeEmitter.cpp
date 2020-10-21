@@ -12855,10 +12855,6 @@ NameFunctions
 (
 cx
 compilationInfo
-.
-stencil
-.
-parserAtoms
 body
 )
 )
@@ -13289,10 +13285,6 @@ NameFunctions
 (
 cx
 compilationInfo
-.
-stencil
-.
-parserAtoms
 funNode
 )
 )
@@ -39796,10 +39788,6 @@ toAtom
 (
 cx
 compilationInfo
-.
-stencil
-.
-parserAtoms
 )
 ;
 if
@@ -43030,10 +43018,6 @@ storedMethodName
 finishParserAtom
 (
 compilationInfo
-.
-stencil
-.
-parserAtoms
 )
 ;
 if
@@ -48139,10 +48123,6 @@ getInstrumentationKindName
 (
 cx
 compilationInfo
-.
-stencil
-.
-parserAtoms
 kind
 )
 ;

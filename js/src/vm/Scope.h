@@ -126,7 +126,7 @@ namespace
 frontend
 {
 struct
-CompilationAtomCache
+CompilationInfo
 ;
 class
 ScriptStencil
@@ -7002,9 +7002,9 @@ cx
 frontend
 :
 :
-CompilationAtomCache
+CompilationInfo
 &
-atomCache
+compilationInfo
 AbstractBindingIter
 <
 const

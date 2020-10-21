@@ -58,8 +58,8 @@ frontend
 class
 ParserAtom
 ;
-class
-ParserAtomsTable
+struct
+CompilationInfo
 ;
 }
 class
@@ -1798,9 +1798,9 @@ finishParserAtom
 frontend
 :
 :
-ParserAtomsTable
+CompilationInfo
 &
-parserAtoms
+compilationInfo
 )
 ;
 char16_t
