@@ -1934,9 +1934,11 @@ if
 value
 )
 {
-PlacesUIUtils
+Services
 .
-createFixedURI
+uriFixup
+.
+getFixupURIInfo
 (
 value
 )

@@ -393,11 +393,13 @@ Services
 .
 uriFixup
 .
-createFixupURI
+getFixupURIInfo
 (
 aURI
 fixupFlags
 )
+.
+preferredURI
 ;
 if
 (

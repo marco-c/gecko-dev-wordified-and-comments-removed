@@ -3292,9 +3292,11 @@ try
 {
 newURI
 =
-PlacesUIUtils
+Services
 .
-createFixedURI
+uriFixup
+.
+getFixupURIInfo
 (
 this
 .
@@ -3302,6 +3304,8 @@ _locationField
 .
 value
 )
+.
+preferredURI
 ;
 }
 catch

@@ -2576,10 +2576,6 @@ nsACString
 aKeyword
 bool
 aIsPrivateContext
-nsIInputStream
-*
-*
-aPostData
 )
 ;
 void
