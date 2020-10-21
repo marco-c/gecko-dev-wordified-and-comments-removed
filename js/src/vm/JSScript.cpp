@@ -20232,9 +20232,6 @@ frontend
 CompilationInfo
 &
 compilationInfo
-js
-:
-:
 frontend
 :
 :
@@ -20243,6 +20240,7 @@ CompilationGCOutput
 gcOutput
 HandleScript
 script
+const
 frontend
 :
 :
@@ -20645,15 +20643,13 @@ frontend
 CompilationInfo
 &
 compilationInfo
-js
-:
-:
 frontend
 :
 :
 CompilationGCOutput
 &
 gcOutput
+const
 frontend
 :
 :

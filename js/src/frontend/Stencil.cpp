@@ -779,6 +779,7 @@ compilationInfo
 CompilationGCOutput
 &
 gcOutput
+const
 ScriptStencil
 &
 script
@@ -882,6 +883,7 @@ cx
 CompilationInfo
 &
 compilationInfo
+const
 ScriptStencil
 &
 script
@@ -1925,6 +1927,7 @@ CompilationGCOutput
 gcOutput
 )
 {
+const
 ScriptStencil
 &
 scriptStencil
