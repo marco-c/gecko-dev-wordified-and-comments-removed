@@ -115,6 +115,13 @@ util
 .
 Iterator
 ;
+import
+java
+.
+util
+.
+Map
+;
 RobocopTarget
 public
 final
