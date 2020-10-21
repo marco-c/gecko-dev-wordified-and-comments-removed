@@ -4737,7 +4737,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsFocusManager
 :
 :
@@ -4750,10 +4750,9 @@ bool
 aNeedsFocus
 )
 {
-NS_ENSURE_TRUE
+MOZ_ASSERT
 (
 aWindow
-NS_ERROR_INVALID_ARG
 )
 ;
 nsCOMPtr
@@ -4996,7 +4995,6 @@ window
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -5075,9 +5073,6 @@ System
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsFocusManager
