@@ -545,6 +545,11 @@ imgDrawingParams
 aImgParams
 )
 ;
+float
+GetStrokeWidthForMarkers
+(
+)
+;
 }
 ;
 class
