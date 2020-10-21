@@ -58,13 +58,6 @@ h
 #
 include
 "
-nsIClassInfo
-.
-h
-"
-#
-include
-"
 nsISizeOf
 .
 h
@@ -155,8 +148,6 @@ nsIStandardURL
 public
 nsISerializable
 public
-nsIClassInfo
-public
 nsISizeOf
 public
 nsISensitiveInfoHiddenURI
@@ -200,7 +191,6 @@ NS_DECL_NSIURL
 NS_DECL_NSIFILEURL
 NS_DECL_NSISTANDARDURL
 NS_DECL_NSISERIALIZABLE
-NS_DECL_NSICLASSINFO
 NS_DECL_NSISENSITIVEINFOHIDDENURI
 virtual
 size_t
