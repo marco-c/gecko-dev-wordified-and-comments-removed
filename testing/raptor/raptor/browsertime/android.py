@@ -455,6 +455,19 @@ self
 )
 :
         
+args_list
+=
+[
+"
+-
+-
+viewPort
+"
+"
+1366x695
+"
+]
+        
 if
 self
 .
@@ -474,7 +487,9 @@ m
 :
             
 args_list
-=
+.
+extend
+(
 [
                 
 '
@@ -493,6 +508,7 @@ android
 '
             
 ]
+)
         
 else
 :
@@ -565,7 +581,9 @@ GleanDebugActivity
 "
             
 args_list
-=
+.
+extend
+(
 [
                 
 "
@@ -624,6 +642,7 @@ activity
 activity
             
 ]
+)
         
 if
 self

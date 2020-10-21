@@ -768,10 +768,13 @@ browsertime_geckodriver
 )
         
 if
+(
+            
 self
 .
 browsertime_chromedriver
 and
+            
 self
 .
 config
@@ -781,7 +784,7 @@ app
 "
 ]
 in
-[
+(
 "
 chrome
 "
@@ -790,7 +793,12 @@ chrome
 -
 m
 "
-]
+"
+chromium
+"
+)
+        
+)
 :
             
 if
@@ -1355,15 +1363,6 @@ skipHar
 "
 -
 -
-viewPort
-"
-"
-1366x695
-"
-            
-"
--
--
 pageLoadStrategy
 "
 "
@@ -1510,9 +1509,37 @@ false
 )
             
 if
+(
+                
 self
 .
 browsertime_no_ffwindowrecorder
+or
+                
+self
+.
+config
+[
+"
+app
+"
+]
+in
+(
+"
+chromium
+"
+"
+chrome
+-
+m
+"
+"
+chrome
+"
+)
+            
+)
 :
                 
 browsertime_options
