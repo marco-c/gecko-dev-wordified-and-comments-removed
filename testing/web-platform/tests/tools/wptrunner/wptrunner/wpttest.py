@@ -1009,7 +1009,6 @@ def
 __init__
 (
 self
-url_base
 tests_root
 url
 inherit_metadata
@@ -1031,12 +1030,6 @@ quic
 False
 )
 :
-        
-self
-.
-url_base
-=
-url_base
         
 self
 .
@@ -1089,17 +1082,10 @@ environment
 =
 {
 "
-url_base
-"
-:
-url_base
-                            
-"
 protocol
 "
 :
 protocol
-                            
 "
 prefs
 "
@@ -1107,7 +1093,6 @@ prefs
 self
 .
 prefs
-                            
 "
 quic
 "
@@ -1192,7 +1177,6 @@ def
 from_manifest
 (
 cls
-url_base
 manifest_file
 manifest_item
 inherit_metadata
@@ -1222,10 +1206,6 @@ default_timeout
 return
 cls
 (
-manifest_file
-.
-url_base
-                   
 manifest_file
 .
 tests_root
@@ -2326,7 +2306,6 @@ def
 __init__
 (
 self
-url_base
 tests_root
 url
 inherit_metadata
@@ -2364,7 +2343,6 @@ Test
 __init__
 (
 self
-url_base
 tests_root
 url
 inherit_metadata
@@ -2510,10 +2488,6 @@ script
 return
 cls
 (
-manifest_file
-.
-url_base
-                   
 manifest_file
 .
 tests_root
@@ -2744,7 +2718,6 @@ def
 __init__
 (
 self
-url_base
 tests_root
 url
 inherit_metadata
@@ -2783,7 +2756,6 @@ Test
 __init__
 (
 self
-url_base
 tests_root
 url
 inherit_metadata
@@ -2961,10 +2933,6 @@ node
 =
 cls
 (
-manifest_file
-.
-url_base
-                   
 manifest_file
 .
 tests_root
@@ -3568,7 +3536,6 @@ def
 __init__
 (
 self
-url_base
 tests_root
 url
 inherit_metadata
