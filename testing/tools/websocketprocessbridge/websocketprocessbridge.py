@@ -20,6 +20,8 @@ psutil
 import
 argparse
 import
+six
+import
 sys
 import
 os
@@ -283,6 +285,15 @@ processSide
 ProcessSide
 (
 self
+)
+            
+data
+=
+six
+.
+ensure_str
+(
+data
 )
             
 reactor

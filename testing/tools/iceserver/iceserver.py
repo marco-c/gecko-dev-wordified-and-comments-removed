@@ -21,9 +21,15 @@ os
 import
 platform
 import
+six
+import
 string
 import
 time
+from
+functools
+import
+reduce
 from
 string
 import
@@ -2030,7 +2036,9 @@ utils
 .
 saslprep
 (
-unicode
+six
+.
+text_type
 (
 password
 )
@@ -4862,7 +4870,8 @@ platform
 system
 (
 )
-is
+=
+=
 "
 Windows
 "
