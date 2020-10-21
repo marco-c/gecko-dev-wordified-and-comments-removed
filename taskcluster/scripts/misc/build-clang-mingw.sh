@@ -94,10 +94,6 @@ lib64
 WRAPPER_FLAGS
 =
 "
--
-fsjlj
--
-exceptions
 "
 elif
 [
