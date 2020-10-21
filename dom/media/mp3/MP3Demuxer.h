@@ -494,6 +494,16 @@ AudioInfo
 >
 mInfo
 ;
+uint32_t
+mEncoderDelay
+=
+0
+;
+uint32_t
+mEncoderPadding
+=
+0
+;
 }
 ;
 }
