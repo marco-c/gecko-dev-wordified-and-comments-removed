@@ -223,12 +223,6 @@ GetMainControllerPlaybackState
 )
 const
 ;
-nsString
-GetFallbackTitle
-(
-)
-const
-;
 private
 :
 MediaControlService
@@ -473,9 +467,6 @@ UniquePtr
 ControllerManager
 >
 mControllerManager
-;
-nsString
-mFallbackTitle
 ;
 }
 ;
