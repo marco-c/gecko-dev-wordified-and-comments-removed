@@ -106,16 +106,6 @@ true
 PREF_FOCUS_SOURCE
 false
 ]
-[
-"
-privacy
-.
-webrtc
-.
-globalMuteToggles
-"
-true
-]
 ]
 ;
 await

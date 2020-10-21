@@ -361,6 +361,11 @@ nsIStandaloneNativeMenu
 idl
 '
 '
+nsISystemStatusBar
+.
+idl
+'
+'
 nsITaskbarProgress
 .
 idl
@@ -574,11 +579,6 @@ idl
 '
 '
 nsISound
-.
-idl
-'
-'
-nsISystemStatusBar
 .
 idl
 '
@@ -834,11 +834,6 @@ CompositorWidget
 h
 '
 '
-IconLoader
-.
-h
-'
-'
 IMEData
 .
 h
@@ -910,11 +905,6 @@ cpp
 '
 '
 GfxInfoCollector
-.
-cpp
-'
-'
-IconLoader
 .
 cpp
 '
