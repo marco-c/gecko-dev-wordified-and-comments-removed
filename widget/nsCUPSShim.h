@@ -100,6 +100,11 @@ cupsDoRequest
 \
 X
 (
+cupsEnumDests
+)
+\
+X
+(
 cupsFindDestDefault
 )
 \
