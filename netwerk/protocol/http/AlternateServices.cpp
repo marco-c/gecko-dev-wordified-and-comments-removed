@@ -3902,6 +3902,14 @@ GetOriginAttributes
 )
 )
 ;
+loadInfo
+-
+>
+SetAllowDeprecatedSystemRequests
+(
+true
+)
+;
 RefPtr
 <
 nsHttpChannel
