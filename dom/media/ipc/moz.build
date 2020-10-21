@@ -104,6 +104,11 @@ RemoteMediaDataDecoder
 .
 h
 '
+'
+ShmemRecycleAllocator
+.
+h
+'
 ]
 EXPORTS
 .
