@@ -20,6 +20,13 @@ optimize
 :
 true
 "
+compiler
+"
+:
+"
+gcc
+"
+"
 env
 "
 :

@@ -25,6 +25,13 @@ optimize
 :
 false
 "
+compiler
+"
+:
+"
+gcc
+"
+"
 skip
 -
 tests

@@ -20,13 +20,6 @@ debug
 :
 true
 "
-compiler
-"
-:
-"
-clang
-"
-"
 env
 "
 :
