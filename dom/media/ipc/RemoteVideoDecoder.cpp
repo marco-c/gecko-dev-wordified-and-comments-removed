@@ -1180,11 +1180,11 @@ RemoteVideoDecoderParent
 :
 ProcessDecodedData
 (
-const
 MediaDataDecoder
 :
 :
 DecodedData
+&
 &
 aData
 DecodedOutputIPDL
