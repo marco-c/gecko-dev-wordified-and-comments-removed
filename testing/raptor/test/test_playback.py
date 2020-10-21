@@ -54,6 +54,8 @@ mozproxy
 backends
 .
 mitm
+.
+desktop
 import
 MitmproxyDesktop
 config
@@ -206,6 +208,12 @@ raptor
 "
         
 "
+tooltool
+-
+manifests
+"
+        
+"
 playback
 "
         
@@ -222,19 +230,6 @@ manifest
 "
     
 )
-    
-config
-[
-"
-playback_recordings
-"
-]
-=
-"
-amazon
-.
-mp
-"
     
 config
 [
@@ -293,36 +288,6 @@ get_playback
 (
 config
 )
-    
-playback
-.
-config
-[
-"
-playback_files
-"
-]
-=
-[
-        
-os
-.
-path
-.
-join
-(
-playback
-.
-mozproxy_dir
-config
-[
-"
-playback_recordings
-"
-]
-)
-    
-]
     
 assert
 isinstance

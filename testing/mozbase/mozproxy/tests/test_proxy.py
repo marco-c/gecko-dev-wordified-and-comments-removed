@@ -927,6 +927,8 @@ backends
 .
 mitm
 .
+desktop
+.
 MitmproxyDesktop
 .
 "
