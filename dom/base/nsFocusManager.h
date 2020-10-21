@@ -634,6 +634,14 @@ bool
 aNeedsFocus
 )
 ;
+void
+WindowHidden
+(
+mozIDOMWindowProxy
+*
+aWindow
+)
+;
 static
 uint32_t
 FocusOptionsToFocusManagerFlags

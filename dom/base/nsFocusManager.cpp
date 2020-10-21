@@ -5086,7 +5086,7 @@ System
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsFocusManager
 :
 :
@@ -5097,12 +5097,15 @@ mozIDOMWindowProxy
 aWindow
 )
 {
-NS_ENSURE_TRUE
+if
 (
+!
 aWindow
-NS_ERROR_INVALID_ARG
 )
+{
+return
 ;
+}
 nsCOMPtr
 <
 nsPIDOMWindowOuter
@@ -5344,9 +5347,10 @@ window
 mFocusedWindow
 )
 )
+{
 return
-NS_OK
 ;
+}
 RefPtr
 <
 Element
@@ -5381,7 +5385,6 @@ focusedDocShell
 )
 {
 return
-NS_OK
 ;
 }
 RefPtr
@@ -5656,7 +5659,6 @@ activeWindow
 }
 }
 return
-NS_OK
 ;
 }
 if
@@ -5744,9 +5746,6 @@ window
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsFocusManager
