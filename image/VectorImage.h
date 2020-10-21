@@ -414,7 +414,7 @@ SendInvalidationNotifications
 )
 ;
 void
-ReportUseCounters
+ReportDocumentUseCounters
 (
 )
 ;

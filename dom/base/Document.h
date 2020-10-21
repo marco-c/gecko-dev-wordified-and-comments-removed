@@ -10318,7 +10318,12 @@ InitUseCounters
 )
 ;
 void
-ReportUseCounters
+ReportDocumentUseCounters
+(
+)
+;
+void
+SendPageUseCounters
 (
 )
 ;
@@ -12828,7 +12833,7 @@ mParserAborted
 1
 ;
 bool
-mReportedUseCounters
+mReportedDocumentUseCounters
 :
 1
 ;

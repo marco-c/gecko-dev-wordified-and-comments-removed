@@ -1718,7 +1718,7 @@ DropParserAndPerfHint
 originalDocument
 -
 >
-ReportUseCounters
+ReportDocumentUseCounters
 (
 )
 ;

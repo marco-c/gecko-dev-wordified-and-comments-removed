@@ -1618,7 +1618,7 @@ VectorImage
 (
 )
 {
-ReportUseCounters
+ReportDocumentUseCounters
 (
 )
 ;
@@ -5952,7 +5952,7 @@ GetDocument
 )
 -
 >
-ReportUseCounters
+ReportDocumentUseCounters
 (
 )
 ;
@@ -6065,7 +6065,7 @@ mError
 =
 true
 ;
-ReportUseCounters
+ReportDocumentUseCounters
 (
 )
 ;
@@ -6525,7 +6525,7 @@ void
 VectorImage
 :
 :
-ReportUseCounters
+ReportDocumentUseCounters
 (
 )
 {
@@ -6555,7 +6555,7 @@ GetDocument
 doc
 -
 >
-ReportUseCounters
+ReportDocumentUseCounters
 (
 )
 ;
