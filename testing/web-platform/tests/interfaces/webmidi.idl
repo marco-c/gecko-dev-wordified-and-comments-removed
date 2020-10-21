@@ -257,7 +257,7 @@ MIDIOutput
 :
 MIDIPort
 {
-void
+undefined
 send
 (
 sequence
@@ -272,7 +272,7 @@ timestamp
 0
 )
 ;
-void
+undefined
 clear
 (
 )
