@@ -6242,13 +6242,6 @@ ThemeChanged
 (
 )
 {
-if
-(
-XRE_IsParentProcess
-(
-)
-)
-{
 PROFILER_MARKER_TEXT
 (
 "
@@ -6266,7 +6259,6 @@ Capture
 _ns
 )
 ;
-}
 if
 (
 !
