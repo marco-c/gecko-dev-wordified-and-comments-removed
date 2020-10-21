@@ -2593,6 +2593,11 @@ SessionHistoryInParent
 )
 {
 return
+FissionAutostart
+(
+)
+|
+|
 StaticPrefs
 :
 :
