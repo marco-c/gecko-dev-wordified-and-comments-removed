@@ -287,7 +287,7 @@ when
 =
 building_linux
 )
-js_option
+option
 (
 '
 -

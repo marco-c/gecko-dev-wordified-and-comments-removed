@@ -376,7 +376,7 @@ CBINDGEN
 '
 cbindgen
 )
-js_option
+option
 (
 env
 =
@@ -420,7 +420,7 @@ allow_missing
 =
 True
 )
-js_option
+option
 (
 '
 -
@@ -461,7 +461,7 @@ above
 )
 '
 )
-js_option
+option
 (
 '
 -
@@ -1894,7 +1894,7 @@ or
 [
 ]
 )
-js_option
+option
 (
 env
 =

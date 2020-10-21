@@ -2831,7 +2831,7 @@ x86
 )
 return
 result
-js_option
+option
 (
 env
 =
@@ -2879,7 +2879,7 @@ paths
 =
 toolchain_search_path
 )
-js_option
+option
 (
 env
 =

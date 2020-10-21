@@ -19,7 +19,7 @@ paths
 =
 toolchain_search_path
 )
-js_option
+option
 (
 '
 -
@@ -147,7 +147,7 @@ profile
 generate
 '
 )
-js_option
+option
 (
 '
 -
@@ -187,7 +187,7 @@ the
 build
 '
 )
-js_option
+option
 (
 '
 -
@@ -963,7 +963,7 @@ MOZ_PGO_RUST
 '
 moz_pgo_rust
 )
-js_option
+option
 (
 '
 -
@@ -1002,7 +1002,7 @@ Enable
 LTO
 '
 )
-js_option
+option
 (
 env
 =

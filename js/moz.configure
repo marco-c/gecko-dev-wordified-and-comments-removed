@@ -18,7 +18,7 @@ js
 :
 return
 True
-js_option
+option
 (
 '
 -
@@ -117,7 +117,7 @@ MOZ_APP_NAME
 '
 moz_app_name
 )
-js_option
+option
 (
 '
 -
@@ -282,7 +282,7 @@ JS_STANDALONE
 '
 js_standalone
 )
-js_option
+option
 (
 '
 -
@@ -411,7 +411,7 @@ or
 None
 )
 )
-js_option
+option
 (
 '
 -
@@ -440,7 +440,7 @@ shared
 library
 '
 )
-js_option
+option
 (
 '
 -
@@ -631,7 +631,7 @@ MOZ_STATIC_JS
 '
 static_js
 )
-js_option
+option
 (
 env
 =
@@ -702,7 +702,7 @@ return
 True
 return
 False
-js_option
+option
 (
 '
 -
@@ -787,7 +787,7 @@ jit
 instead
 '
 )
-js_option
+option
 (
 '
 -
@@ -1280,7 +1280,7 @@ jit_codegen
 .
 x64
 )
-js_option
+option
 (
 '
 -
@@ -1399,7 +1399,7 @@ enable
 instruments
 '
 )
-js_option
+option
 (
 '
 -
@@ -1474,7 +1474,7 @@ return
 milestone
 .
 is_nightly
-js_option
+option
 (
 '
 -
@@ -1678,7 +1678,7 @@ enable
 profiling
 '
 )
-js_option
+option
 (
 '
 -
@@ -1735,7 +1735,7 @@ MOZ_VTUNE
 '
 vtune
 )
-js_option
+option
 (
 '
 -
@@ -1793,7 +1793,7 @@ JS_GC_PROBES
 '
 gc_probes
 )
-js_option
+option
 (
 '
 -
@@ -1849,7 +1849,7 @@ _
 True
 )
 )
-js_option
+option
 (
 '
 -
@@ -1917,7 +1917,7 @@ return
 milestone
 .
 is_nightly
-js_option
+option
 (
 '
 -
@@ -1991,7 +1991,7 @@ x
 True
 )
 )
-js_option
+option
 (
 '
 -
@@ -2038,7 +2038,7 @@ _
 True
 )
 )
-js_option
+option
 (
 '
 -
@@ -2089,7 +2089,7 @@ JS_ION_PERF
 '
 ion_perf
 )
-js_option
+option
 (
 '
 -
@@ -2394,7 +2394,7 @@ JS_DISASM_ARM64
 '
 jit_disasm_arm64
 )
-js_option
+option
 (
 '
 -
@@ -2482,7 +2482,7 @@ _
 True
 )
 )
-js_option
+option
 (
 '
 -
@@ -2554,7 +2554,7 @@ js_standalone
 return
 not
 js_standalone
-js_option
+option
 (
 '
 -
@@ -2666,7 +2666,7 @@ when
 =
 ctypes_and_compile_environment
 )
-js_option
+option
 (
 '
 -
@@ -2725,7 +2725,7 @@ ENABLE_PIPELINE_OPERATOR
 '
 enable_pipeline_operator
 )
-js_option
+option
 (
 '
 -
@@ -2850,7 +2850,7 @@ x86_64
 :
 return
 True
-js_option
+option
 (
 '
 -
@@ -2921,7 +2921,7 @@ x
 True
 )
 )
-js_option
+option
 (
 '
 -
@@ -2985,7 +2985,7 @@ x
 True
 )
 )
-js_option
+option
 (
 '
 -
@@ -3091,7 +3091,7 @@ is_nightly
 :
 return
 is_nightly
-js_option
+option
 (
 '
 -
@@ -3165,7 +3165,7 @@ x
 True
 )
 )
-js_option
+option
 (
 '
 -
@@ -3251,7 +3251,7 @@ reftypes
 :
 return
 True
-js_option
+option
 (
 '
 -
@@ -3402,7 +3402,7 @@ typed_objects
 :
 return
 True
-js_option
+option
 (
 '
 -
@@ -3555,7 +3555,7 @@ is_nightly
 :
 return
 True
-js_option
+option
 (
 '
 -
@@ -3637,7 +3637,7 @@ x
 True
 )
 )
-js_option
+option
 (
 '
 -
@@ -3703,7 +3703,7 @@ ENABLE_WASM_MULTI_VALUE
 '
 enable_wasm_multi_value
 )
-js_option
+option
 (
 '
 -
@@ -3813,7 +3813,7 @@ x86
 :
 return
 True
-js_option
+option
 (
 '
 -
@@ -3988,7 +3988,7 @@ wasm_simd
 :
 return
 True
-js_option
+option
 (
 '
 -
@@ -4096,7 +4096,7 @@ ENABLE_WASM_SIMD_EXPERIMENTAL
 '
 wasm_simd_experimental
 )
-js_option
+option
 (
 '
 -
@@ -4148,7 +4148,7 @@ x
 x
 )
 )
-js_option
+option
 (
 '
 -
@@ -4221,7 +4221,7 @@ x
 x
 )
 )
-js_option
+option
 (
 '
 -
@@ -4373,7 +4373,7 @@ not
 is_windows
 and
 compile_environment
-js_option
+option
 (
 '
 -
@@ -4494,7 +4494,7 @@ when
 =
 editline
 )
-js_option
+option
 (
 '
 -
@@ -4599,7 +4599,7 @@ value
 ]
 )
 )
-js_option
+option
 (
 '
 -
@@ -4667,7 +4667,7 @@ when
 =
 system_icu
 )
-js_option
+option
 (
 '
 -
@@ -5084,7 +5084,7 @@ is_nightly
 :
 return
 is_nightly
-js_option
+option
 (
 '
 -

@@ -47,7 +47,7 @@ force_system_ffi
 target
 "
 )
-js_option
+option
 (
 '
 -

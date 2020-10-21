@@ -85,7 +85,7 @@ MOZ_RUST_DEFAULT_FLAGS
 '
 rust_flags
 )
-js_option
+option
 (
 '
 -

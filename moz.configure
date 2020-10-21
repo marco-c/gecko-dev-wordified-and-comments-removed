@@ -367,7 +367,7 @@ COMPILE_ENVIRONMENT
 '
 compile_environment
 )
-js_option
+option
 (
 '
 -
@@ -513,7 +513,7 @@ linux_gtest_defines
 .
 has_clone
 )
-js_option
+option
 (
 '
 -
@@ -611,7 +611,7 @@ x
 )
 )
 )
-js_option
+option
 (
 '
 -
@@ -703,7 +703,7 @@ MOZ_DEBUG_DEFINES
 '
 debug_defines
 )
-js_option
+option
 (
 '
 -
@@ -790,7 +790,7 @@ MOZ_DEBUG_RUST
 '
 debug_rust
 )
-js_option
+option
 (
 env
 =
@@ -1064,7 +1064,7 @@ compile
 environment
 '
 )
-js_option
+option
 (
 '
 -
@@ -4119,7 +4119,7 @@ LLVM_OBJDUMP
 '
 llvm_objdump
 )
-js_option
+option
 (
 '
 -
@@ -4209,7 +4209,7 @@ when
 =
 dtrace
 )
-js_option
+option
 (
 '
 -
@@ -4255,7 +4255,7 @@ not
 x
 )
 )
-js_option
+option
 (
 '
 -
@@ -4322,7 +4322,7 @@ ENABLE_STRIP
 '
 enable_strip
 )
-js_option
+option
 (
 '
 -
@@ -4428,7 +4428,7 @@ return
 strip
 or
 install_strip
-js_option
+option
 (
 env
 =
@@ -4531,7 +4531,7 @@ kernel
 '
 WINNT
 '
-js_option
+option
 (
 '
 -

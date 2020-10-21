@@ -31,7 +31,7 @@ x
 True
 )
 )
-js_option
+option
 (
 '
 -
@@ -113,7 +113,7 @@ DEVELOPER_OPTIONS
 '
 developer_options
 )
-js_option
+option
 (
 '
 -
@@ -666,7 +666,7 @@ host_is_osx
 target_is_osx
 )
 :
-js_option
+option
 (
 '
 -
@@ -1349,7 +1349,7 @@ and
 ccache
 '
 )
-js_option
+option
 (
 '
 -
@@ -1420,7 +1420,7 @@ input
 =
 ccache
 )
-js_option
+option
 (
 env
 =
@@ -1526,7 +1526,7 @@ return
 ccache
 and
 ccache_is_sccache
-js_option
+option
 (
 env
 =
@@ -1984,7 +1984,7 @@ MOZ_HAZARD
 '
 hazard_analysis
 )
-js_option
+option
 (
 '
 -
@@ -3715,7 +3715,7 @@ WINNT
 :
 return
 True
-js_option
+option
 (
 '
 -
@@ -3794,7 +3794,7 @@ value
 0
 ]
 ]
-js_option
+option
 (
 env
 =
@@ -7863,7 +7863,7 @@ v
 v
 )
 )
-js_option
+option
 (
 '
 -
@@ -8598,7 +8598,7 @@ ppc
 )
 )
 )
-js_option
+option
 (
 '
 -
@@ -8645,7 +8645,7 @@ MOZ_ASAN
 '
 asan
 )
-js_option
+option
 (
 '
 -
@@ -8692,7 +8692,7 @@ MOZ_MSAN
 '
 msan
 )
-js_option
+option
 (
 '
 -
@@ -8739,7 +8739,7 @@ MOZ_TSAN
 '
 tsan
 )
-js_option
+option
 (
 '
 -
@@ -8846,7 +8846,7 @@ MOZ_UBSAN_CHECKS
 '
 ubsan
 )
-js_option
+option
 (
 '
 -
@@ -8903,7 +8903,7 @@ MOZ_SIGNED_OVERFLOW_SANITIZE
 '
 ub_signed_overflow_san
 )
-js_option
+option
 (
 '
 -
@@ -9795,7 +9795,7 @@ aarch64
 )
 )
 )
-js_option
+option
 (
 '
 -
@@ -10195,7 +10195,7 @@ YASM
 '
 have_yasm
 )
-js_option
+option
 (
 '
 -
@@ -10519,7 +10519,7 @@ flags
 flags
 )
 )
-js_option
+option
 (
 env
 =
@@ -10777,7 +10777,7 @@ opt
 )
 return
 flags
-js_option
+option
 (
 '
 -
@@ -11082,7 +11082,7 @@ else
 '
 bfd
 '
-js_option
+option
 (
 '
 -
@@ -11847,7 +11847,7 @@ GCC_USE_GNU_LD
 '
 gcc_use_gnu_ld
 )
-js_option
+option
 (
 env
 =
@@ -12309,7 +12309,7 @@ ASOUTOPTION
 '
 as_outoption
 )
-js_option
+option
 (
 '
 -
@@ -12559,7 +12559,7 @@ LLVM_CONFIG
 '
 llvm_config
 )
-js_option
+option
 (
 '
 -
@@ -12665,7 +12665,7 @@ MOZ_CLANG_PLUGIN_ALPHA
 '
 check_clang_plugin_alpha
 )
-js_option
+option
 (
 '
 -
@@ -12717,7 +12717,7 @@ _
 True
 )
 )
-js_option
+option
 (
 '
 -
@@ -12927,7 +12927,7 @@ MOZ_LIBSTDCXX_HOST_VERSION
 host_cxx_compiler
 )
 )
-js_option
+option
 (
 '
 -
@@ -13874,7 +13874,7 @@ ar_config
 .
 flags
 )
-js_option
+option
 (
 '
 -

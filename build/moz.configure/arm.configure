@@ -77,7 +77,7 @@ float_abi
 =
 float_abi
 )
-js_option
+option
 (
 '
 -
@@ -179,7 +179,7 @@ value
 return
 [
 ]
-js_option
+option
 (
 '
 -
@@ -330,7 +330,7 @@ marm
 return
 [
 ]
-js_option
+option
 (
 '
 -
@@ -442,7 +442,7 @@ interwork
 return
 [
 ]
-js_option
+option
 (
 '
 -
@@ -530,7 +530,7 @@ value
 return
 [
 ]
-js_option
+option
 (
 '
 -
@@ -627,7 +627,7 @@ value
 return
 [
 ]
-js_option
+option
 (
 '
 -
