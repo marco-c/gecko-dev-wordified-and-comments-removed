@@ -35251,6 +35251,9 @@ block_uncommon
 true
 )
 ;
+#
+ifndef
+MOZ_WIDGET_ANDROID
 pref
 (
 "
@@ -35975,6 +35978,12 @@ enabled
 false
 )
 ;
+#
+endif
+/
+/
+ifndef
+MOZ_WIDGET_ANDROID
 pref
 (
 "
