@@ -2505,6 +2505,13 @@ equals
 (
 event
 )
+&
+&
+mMediaSession
+.
+isActive
+(
+)
 )
 {
 final
