@@ -3933,7 +3933,7 @@ args
 keys
 :
 {
-canGetKeys
+canGetKeyForScope
 (
 )
 {

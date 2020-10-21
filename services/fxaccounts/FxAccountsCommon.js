@@ -649,6 +649,16 @@ oldsync
 ;
 exports
 .
+LEGACY_SCOPE_WEBEXT_SYNC
+=
+"
+sync
+:
+addon_storage
+"
+;
+exports
+.
 FX_MONITOR_OAUTH_CLIENT_ID
 =
 "
@@ -1636,7 +1646,7 @@ METHOD_NOT_ALLOWED
 ;
 exports
 .
-DERIVED_KEYS_NAMES
+LEGACY_DERIVED_KEYS_NAMES
 =
 [
 "
@@ -1707,7 +1717,7 @@ Set
 .
 exports
 .
-DERIVED_KEYS_NAMES
+LEGACY_DERIVED_KEYS_NAMES
 "
 keyFetchToken
 "
