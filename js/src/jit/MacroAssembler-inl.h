@@ -43,6 +43,15 @@ h
 #
 include
 "
+jit
+/
+CompileWrappers
+.
+h
+"
+#
+include
+"
 vm
 /
 ProxyObject
