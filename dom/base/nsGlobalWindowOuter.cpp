@@ -23781,6 +23781,7 @@ IsStaticDocument
 )
 &
 &
+(
 aIsPreview
 =
 =
@@ -23788,6 +23789,15 @@ IsPreview
 :
 :
 Yes
+|
+|
+StaticPrefs
+:
+:
+print_tab_modal_enabled
+(
+)
+)
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
