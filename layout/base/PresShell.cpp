@@ -11298,6 +11298,17 @@ if
 (
 !
 frame
+|
+|
+frame
+-
+>
+PresContext
+(
+)
+!
+=
+mPresContext
 )
 {
 frame
