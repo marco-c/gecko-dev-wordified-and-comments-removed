@@ -3,6 +3,15 @@ use
 strict
 "
 ;
+define
+(
+function
+(
+require
+exports
+module
+)
+{
 const
 {
 span
@@ -216,4 +225,7 @@ Null
 )
 supportsObject
 }
+;
+}
+)
 ;

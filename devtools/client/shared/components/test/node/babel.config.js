@@ -46,6 +46,15 @@ coalescing
 -
 operator
 "
+"
+transform
+-
+amd
+-
+to
+-
+commonjs
+"
 ]
 }
 ;

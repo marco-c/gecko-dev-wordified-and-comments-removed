@@ -3,6 +3,15 @@ use
 strict
 "
 ;
+define
+(
+function
+(
+require
+exports
+module
+)
+{
 const
 {
 button
@@ -459,4 +468,7 @@ Accessor
 )
 supportsObject
 }
+;
+}
+)
 ;

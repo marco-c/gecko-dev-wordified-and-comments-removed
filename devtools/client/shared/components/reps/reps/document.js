@@ -3,6 +3,15 @@ use
 strict
 "
 ;
+define
+(
+function
+(
+require
+exports
+module
+)
+{
 const
 PropTypes
 =
@@ -352,4 +361,7 @@ Document
 )
 supportsObject
 }
+;
+}
+)
 ;

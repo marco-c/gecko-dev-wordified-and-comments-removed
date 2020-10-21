@@ -3,6 +3,15 @@ use
 strict
 "
 ;
+define
+(
+function
+(
+require
+exports
+module
+)
+{
 const
 {
 a
@@ -1291,4 +1300,7 @@ StringRep
 supportsObject
 isLongString
 }
+;
+}
+)
 ;

@@ -3,6 +3,15 @@ use
 strict
 "
 ;
+define
+(
+function
+(
+require
+exports
+module
+)
+{
 const
 PropTypes
 =
@@ -206,4 +215,7 @@ InfinityRep
 )
 supportsObject
 }
+;
+}
+)
 ;

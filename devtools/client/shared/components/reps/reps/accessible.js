@@ -3,6 +3,15 @@ use
 strict
 "
 ;
+define
+(
+function
+(
+require
+exports
+module
+)
+{
 const
 PropTypes
 =
@@ -655,6 +664,7 @@ false
 ;
 }
 return
+(
 object
 .
 preview
@@ -674,6 +684,7 @@ typeName
 "
 accessible
 "
+)
 ;
 }
 module
@@ -689,4 +700,7 @@ Accessible
 )
 supportsObject
 }
+;
+}
+)
 ;

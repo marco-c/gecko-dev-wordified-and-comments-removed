@@ -3,6 +3,15 @@ use
 strict
 "
 ;
+define
+(
+function
+(
+require
+exports
+module
+)
+{
 const
 PropTypes
 =
@@ -298,4 +307,7 @@ wrapRender
 GripLengthBubble
 )
 }
+;
+}
+)
 ;
