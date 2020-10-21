@@ -69,7 +69,7 @@ mozilla
 namespace
 dom
 {
-refcounted
+async
 protocol
 PGamepadTestChannel
 {
@@ -88,12 +88,17 @@ aGamepadEvent
 )
 ;
 async
-__delete__
+ShutdownChannel
 (
 )
 ;
 child
 :
+async
+__delete__
+(
+)
+;
 async
 ReplyGamepadIndex
 (
