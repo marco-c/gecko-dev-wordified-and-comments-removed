@@ -804,12 +804,6 @@ mTimestampSyn
 ;
 RefPtr
 <
-nsHttpConnectionInfo
->
-mConnInfo
-;
-RefPtr
-<
 nsHttpConnection
 >
 mTunneledConn
