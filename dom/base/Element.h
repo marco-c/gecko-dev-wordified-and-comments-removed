@@ -3856,7 +3856,7 @@ pointerCaptureInfo
 pointerCaptureInfo
 -
 >
-mPendingContent
+mPendingElement
 =
 =
 this
