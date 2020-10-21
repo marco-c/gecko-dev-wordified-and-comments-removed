@@ -2424,6 +2424,15 @@ lastData
 mLastData
 )
 ;
+if
+(
+IMEStateManager
+:
+:
+CanSendNotificationToTheMainProcess
+(
+)
+)
 {
 AutoRestore
 <
