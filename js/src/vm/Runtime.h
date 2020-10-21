@@ -433,6 +433,15 @@ include
 "
 vm
 /
+SharedStencil
+.
+h
+"
+#
+include
+"
+vm
+/
 Stack
 .
 h
