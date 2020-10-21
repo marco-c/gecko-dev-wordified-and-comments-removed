@@ -3397,6 +3397,12 @@ this
 {
 this
 .
+getBoundingClientRect
+(
+)
+;
+this
+.
 setAttribute
 (
 "
