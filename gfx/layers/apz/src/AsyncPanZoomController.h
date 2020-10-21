@@ -160,6 +160,13 @@ h
 #
 include
 "
+FlingAccelerator
+.
+h
+"
+#
+include
+"
 InputQueue
 .
 h
@@ -2459,11 +2466,8 @@ friend
 class
 WidgetOverscrollEffect
 ;
-ParentLayerPoint
-mLastFlingVelocity
-;
-SampleTime
-mLastFlingTime
+FlingAccelerator
+mFlingAccelerator
 ;
 bool
 mPinchPaintTimerSet
