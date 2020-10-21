@@ -1311,6 +1311,8 @@ endif
 )
 if
 (
+USE_PULSE
+AND
 USE_PULSE_RUST
 )
 include
@@ -1350,7 +1352,7 @@ ON
 BINARY_DIR
 "
 {
-CMAKE_SOURCE_DIR
+PROJECT_SOURCE_DIR
 }
 /
 src
@@ -1385,7 +1387,7 @@ PRIVATE
 debug
 "
 {
-CMAKE_SOURCE_DIR
+PROJECT_SOURCE_DIR
 }
 /
 src
@@ -1407,7 +1409,7 @@ a
 optimized
 "
 {
-CMAKE_SOURCE_DIR
+PROJECT_SOURCE_DIR
 }
 /
 src
@@ -1433,6 +1435,8 @@ endif
 )
 if
 (
+USE_AUDIOUNIT
+AND
 USE_AUDIOUNIT_RUST
 )
 include
@@ -1472,7 +1476,7 @@ ON
 BINARY_DIR
 "
 {
-CMAKE_SOURCE_DIR
+PROJECT_SOURCE_DIR
 }
 /
 src
@@ -1507,7 +1511,7 @@ PRIVATE
 debug
 "
 {
-CMAKE_SOURCE_DIR
+PROJECT_SOURCE_DIR
 }
 /
 src
@@ -1529,7 +1533,7 @@ a
 optimized
 "
 {
-CMAKE_SOURCE_DIR
+PROJECT_SOURCE_DIR
 }
 /
 src

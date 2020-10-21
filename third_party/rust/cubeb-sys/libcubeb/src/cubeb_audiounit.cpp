@@ -17363,6 +17363,7 @@ audiounit_stream_get_position
 audiounit_stream_get_latency
 NULL
 audiounit_stream_set_volume
+NULL
 audiounit_stream_get_current_device
 audiounit_stream_device_destroy
 audiounit_stream_register_device_changed_callback
