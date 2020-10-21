@@ -3854,10 +3854,10 @@ nursery
 JSTracer
 (
 rt
-JSTracer
+JS
 :
 :
-TracerKindTag
+TracerKind
 :
 :
 Tenuring

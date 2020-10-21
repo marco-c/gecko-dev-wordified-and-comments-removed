@@ -4168,6 +4168,13 @@ weakMapAction
 CallbackTracer
 (
 rt
+JS
+:
+:
+TracerKind
+:
+:
+Callback
 weakMapAction
 )
 failures
