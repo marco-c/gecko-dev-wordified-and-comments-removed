@@ -249,7 +249,7 @@ nullptr
 0
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 bytesNeeded
 >
@@ -339,7 +339,7 @@ nullptr
 DM_OUT_BUFFER
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 ret
 =
@@ -512,7 +512,7 @@ devmode
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 printerDc
 "
@@ -1569,7 +1569,7 @@ devmode
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 printerDc
 "
