@@ -298,6 +298,8 @@ kIOSurfaceAllocSize
 aHeight
 *
 bytesPerRow
++
+16
 )
 ;
 AddDictionaryInt
@@ -546,6 +548,8 @@ aSize
 height
 *
 bytesPerRow
++
+16
 )
 ;
 aDict
