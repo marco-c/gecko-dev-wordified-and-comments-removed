@@ -267,8 +267,6 @@ address
 bar
 )
 for
-Searchfox
-or
 DXR
 to
 search
