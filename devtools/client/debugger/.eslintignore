@@ -59,6 +59,14 @@ packages
 /
 devtools
 -
+config
+/
+*
+*
+packages
+/
+devtools
+-
 modules
 /
 *
