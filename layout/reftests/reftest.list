@@ -739,6 +739,15 @@ reftest
 .
 list
 #
+conditional
+/
+include
+conditional
+/
+reftest
+.
+list
+#
 content
 /
 include
