@@ -129,6 +129,15 @@ h
 #
 include
 "
+js
+/
+Utility
+.
+h
+"
+#
+include
+"
 vm
 /
 ArgumentsObject
@@ -303,6 +312,11 @@ js
 :
 :
 ExecuteRegExpAtomRaw
+)
+\
+_
+(
+js_free
 )
 \
 _
