@@ -338,11 +338,8 @@ substs
 dict
 (
 old_configure
-[
-'
+.
 substs
-'
-]
 )
 assignments
 =
