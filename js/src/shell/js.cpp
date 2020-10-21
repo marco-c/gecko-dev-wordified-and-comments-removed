@@ -20533,6 +20533,17 @@ script
 cx
 )
 ;
+AutoSpewChannel
+channel
+(
+cx
+SpewChannel
+:
+:
+RateMyCacheIR
+script
+)
+;
 if
 (
 !
