@@ -2196,6 +2196,17 @@ PYTHONEXECUTABLE
 ]
 =
 python
+os
+.
+environ
+.
+pop
+(
+'
+__PYVENV_LAUNCHER__
+'
+None
+)
 sys
 .
 exit
