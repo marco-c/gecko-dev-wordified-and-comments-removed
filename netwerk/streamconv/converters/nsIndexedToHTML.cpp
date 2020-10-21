@@ -5748,7 +5748,7 @@ td
 FormatTime
 (
 kDateFormatNone
-kTimeFormatSeconds
+kTimeFormatLong
 t
 formatted
 )

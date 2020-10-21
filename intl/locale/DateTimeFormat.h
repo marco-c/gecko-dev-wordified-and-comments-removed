@@ -75,8 +75,8 @@ long
 kTimeFormatNone
 =
 0
-kTimeFormatSeconds
-kTimeFormatNoSeconds
+kTimeFormatLong
+kTimeFormatShort
 }
 ;
 class

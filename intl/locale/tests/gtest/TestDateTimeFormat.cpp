@@ -212,7 +212,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatLong
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -285,7 +285,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatLong
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -366,7 +366,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatLong
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -453,7 +453,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatLong
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -527,7 +527,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatLong
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -603,7 +603,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatLong
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -693,7 +693,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatLong
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -940,7 +940,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatYearMonth
-kTimeFormatNoSeconds
+kTimeFormatShort
 &
 prExplodedTime
 formattedTime
@@ -989,7 +989,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatYearMonth
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -1252,7 +1252,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatLong
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -1325,7 +1325,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatLong
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -1406,7 +1406,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatLong
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -1493,7 +1493,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatLong
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -1567,7 +1567,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatLong
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -1643,7 +1643,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatLong
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -1733,7 +1733,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatLong
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime
@@ -1980,7 +1980,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatYearMonth
-kTimeFormatNoSeconds
+kTimeFormatShort
 &
 prExplodedTime
 formattedTime
@@ -2028,7 +2028,7 @@ DateTimeFormat
 FormatPRExplodedTime
 (
 kDateFormatYearMonth
-kTimeFormatSeconds
+kTimeFormatLong
 &
 prExplodedTime
 formattedTime

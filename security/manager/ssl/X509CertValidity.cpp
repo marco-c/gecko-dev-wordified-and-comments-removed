@@ -472,7 +472,7 @@ FormatTime
 (
 mNotBefore
 PR_LocalTimeParameters
-kTimeFormatSeconds
+kTimeFormatLong
 aNotBeforeLocalTime
 )
 ;
@@ -514,7 +514,7 @@ FormatTime
 (
 mNotBefore
 PR_GMTParameters
-kTimeFormatSeconds
+kTimeFormatLong
 aNotBeforeGMT
 )
 ;
@@ -570,7 +570,7 @@ FormatTime
 (
 mNotAfter
 PR_LocalTimeParameters
-kTimeFormatSeconds
+kTimeFormatLong
 aNotAfterLocaltime
 )
 ;
@@ -612,7 +612,7 @@ FormatTime
 (
 mNotAfter
 PR_GMTParameters
-kTimeFormatSeconds
+kTimeFormatLong
 aNotAfterGMT
 )
 ;
