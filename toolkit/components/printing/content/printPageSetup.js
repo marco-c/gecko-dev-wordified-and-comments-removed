@@ -2599,10 +2599,6 @@ kInitSaveOrientation
 |
 gPrintSettingsInterface
 .
-kInitSaveOddEvenPages
-|
-gPrintSettingsInterface
-.
 kInitSaveShrinkToFit
 |
 gPrintSettingsInterface
