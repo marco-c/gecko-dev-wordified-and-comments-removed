@@ -40,6 +40,13 @@ nsDependentSubstring
 h
 "
 #
+include
+"
+nsReadableUtils
+.
+h
+"
+#
 ifndef
 MOZ_STRING_WITH_OBSOLETE_API
 #
@@ -52,13 +59,6 @@ endif
 include
 "
 nsTString
-.
-h
-"
-#
-include
-"
-nsReadableUtils
 .
 h
 "
