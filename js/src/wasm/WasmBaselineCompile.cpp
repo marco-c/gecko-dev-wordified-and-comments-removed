@@ -23275,6 +23275,13 @@ Kind
 kind
 )
 {
+fr
+.
+loadTlsPtr
+(
+WasmTlsReg
+)
+;
 masm
 .
 nopPatchableToCall
@@ -25331,6 +25338,13 @@ resultType
 )
 ;
 }
+fr
+.
+loadTlsPtr
+(
+WasmTlsReg
+)
+;
 GenerateFunctionEpilogue
 (
 masm
