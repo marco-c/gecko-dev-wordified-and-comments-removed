@@ -264,13 +264,6 @@ aRedirectEnd
 )
 ;
 async
-UpdateClassOfService
-(
-uint32_t
-classOfService
-)
-;
-async
 CancelPump
 (
 nsresult
