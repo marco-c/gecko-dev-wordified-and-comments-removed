@@ -406,10 +406,6 @@ redux
 middleware
 /
 thunk
--
-with
--
-options
 .
 js
 "

@@ -123,7 +123,7 @@ prefs
 ;
 const
 {
-thunkWithOptions
+thunk
 }
 =
 require
@@ -140,10 +140,6 @@ redux
 middleware
 /
 thunk
--
-with
--
-options
 "
 )
 ;
@@ -499,11 +495,8 @@ requestBlocking
 (
 connector
 )
-thunkWithOptions
-.
-bind
+thunk
 (
-null
 {
 connector
 }

@@ -227,6 +227,8 @@ middleware
 applyMiddleware
 (
 thunk
+(
+)
 eventTelemetryMiddleware
 (
 telemetry

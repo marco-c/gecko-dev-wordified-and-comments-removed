@@ -6,6 +6,15 @@ strict
 function
 thunk
 (
+options
+=
+{
+}
+)
+{
+return
+function
+(
 {
 dispatch
 getState
@@ -35,6 +44,10 @@ action
 {
 dispatch
 getState
+.
+.
+.
+options
 }
 )
 :
@@ -42,6 +55,8 @@ next
 (
 action
 )
+;
+}
 ;
 }
 ;

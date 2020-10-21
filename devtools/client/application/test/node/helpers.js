@@ -57,6 +57,8 @@ middleware
 =
 [
 thunk
+(
+)
 ]
 ;
 const

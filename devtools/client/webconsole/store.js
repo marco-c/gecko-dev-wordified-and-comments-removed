@@ -227,7 +227,7 @@ marker
 ;
 const
 {
-thunkWithOptions
+thunk
 }
 =
 require
@@ -244,10 +244,6 @@ redux
 middleware
 /
 thunk
--
-with
--
-options
 "
 )
 ;
@@ -708,11 +704,8 @@ performanceMarker
 sessionId
 )
 ignore
-thunkWithOptions
-.
-bind
+thunk
 (
-null
 {
 prefsService
 .

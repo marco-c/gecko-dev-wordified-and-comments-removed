@@ -39,15 +39,6 @@ js
 '
 '
 thunk
--
-with
--
-options
-.
-js
-'
-'
-thunk
 .
 js
 '

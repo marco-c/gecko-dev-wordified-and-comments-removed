@@ -446,6 +446,8 @@ middleware
 applyMiddleware
 (
 thunk
+(
+)
 debugTargetListenerMiddleware
 errorLoggingMiddleware
 eventRecordingMiddleware
