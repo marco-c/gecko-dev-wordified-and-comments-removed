@@ -8267,6 +8267,12 @@ attribute
 NodeList
 labels
 ;
+readonly
+attribute
+ShadowRoot
+?
+shadowRoot
+;
 }
 ;
 ElementInternals
