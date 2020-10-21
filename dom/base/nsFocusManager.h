@@ -624,6 +624,16 @@ mozIDOMWindowProxy
 aWindow
 )
 ;
+void
+WindowShown
+(
+mozIDOMWindowProxy
+*
+aWindow
+bool
+aNeedsFocus
+)
+;
 static
 uint32_t
 FocusOptionsToFocusManagerFlags
