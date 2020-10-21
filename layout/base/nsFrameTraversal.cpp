@@ -810,7 +810,7 @@ IsCanvasFrame
 aFrame
 -
 >
-IsRootFrame
+IsXULRootFrame
 (
 )
 ;
