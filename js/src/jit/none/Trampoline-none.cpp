@@ -160,8 +160,6 @@ generateExceptionTailStub
 (
 MacroAssembler
 &
-void
-*
 Label
 *
 )
