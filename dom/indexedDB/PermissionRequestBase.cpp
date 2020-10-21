@@ -262,10 +262,11 @@ NS_ERROR_FAILURE
 )
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 uint32_t
+&
 intPermission
 MOZ_TO_RESULT_INVOKE
 (
@@ -427,10 +428,11 @@ move
 mPrincipal
 )
 ;
-IDB_TRY_VAR
+IDB_TRY_INSPECT
 (
 const
 PermissionValue
+&
 currentValue
 GetCurrentPermission
 (

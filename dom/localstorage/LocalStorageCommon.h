@@ -103,6 +103,7 @@ endif
 define
 LS_TRY_VAR_GLUE
 (
+accessFunction
 .
 .
 .
@@ -122,6 +123,7 @@ MOZ_UNIQUE_VAR
 tryResult
 )
 \
+accessFunction
 #
 #
 __VA_ARGS__
@@ -136,6 +138,20 @@ LS_TRY_VAR
 )
 LS_TRY_VAR_GLUE
 (
+unwrap
+__VA_ARGS__
+)
+#
+define
+LS_TRY_INSPECT
+(
+.
+.
+.
+)
+LS_TRY_VAR_GLUE
+(
+inspect
 __VA_ARGS__
 )
 #

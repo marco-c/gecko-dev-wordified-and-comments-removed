@@ -86,6 +86,7 @@ endif
 define
 IDB_TRY_VAR_GLUE
 (
+accessFunction
 .
 .
 .
@@ -105,6 +106,7 @@ MOZ_UNIQUE_VAR
 tryResult
 )
 \
+accessFunction
 #
 #
 __VA_ARGS__
@@ -119,6 +121,20 @@ IDB_TRY_VAR
 )
 IDB_TRY_VAR_GLUE
 (
+unwrap
+__VA_ARGS__
+)
+#
+define
+IDB_TRY_INSPECT
+(
+.
+.
+.
+)
+IDB_TRY_VAR_GLUE
+(
+inspect
 __VA_ARGS__
 )
 #

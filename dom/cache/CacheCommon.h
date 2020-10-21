@@ -86,6 +86,7 @@ endif
 define
 CACHE_TRY_VAR_GLUE
 (
+accessFunction
 .
 .
 .
@@ -104,6 +105,8 @@ MOZ_UNIQUE_VAR
 (
 tryResult
 )
+\
+accessFunction
 #
 #
 __VA_ARGS__
@@ -118,6 +121,20 @@ CACHE_TRY_VAR
 )
 CACHE_TRY_VAR_GLUE
 (
+unwrap
+__VA_ARGS__
+)
+#
+define
+CACHE_TRY_INSPECT
+(
+.
+.
+.
+)
+CACHE_TRY_VAR_GLUE
+(
+inspect
 __VA_ARGS__
 )
 #
