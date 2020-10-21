@@ -1460,10 +1460,10 @@ F32x4Min
 F32x4Max
 =
 0xe9
-F32x4PMinExperimental
+F32x4PMin
 =
 0xea
-F32x4PMaxExperimental
+F32x4PMax
 =
 0xeb
 F64x2Abs
@@ -1493,10 +1493,10 @@ F64x2Min
 F64x2Max
 =
 0xf5
-F64x2PMinExperimental
+F64x2PMin
 =
 0xf6
-F64x2PMaxExperimental
+F64x2PMax
 =
 0xf7
 I32x4TruncSSatF32x4

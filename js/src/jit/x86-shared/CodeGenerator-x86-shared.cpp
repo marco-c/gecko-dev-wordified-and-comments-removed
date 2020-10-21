@@ -17001,7 +17001,7 @@ wasm
 SimdOp
 :
 :
-F32x4PMaxExperimental
+F32x4PMax
 :
 masm
 .
@@ -17020,7 +17020,7 @@ wasm
 SimdOp
 :
 :
-F32x4PMinExperimental
+F32x4PMin
 :
 masm
 .
@@ -17039,7 +17039,7 @@ wasm
 SimdOp
 :
 :
-F64x2PMaxExperimental
+F64x2PMax
 :
 masm
 .
@@ -17058,7 +17058,7 @@ wasm
 SimdOp
 :
 :
-F64x2PMinExperimental
+F64x2PMin
 :
 masm
 .
