@@ -1642,9 +1642,11 @@ static
 bool
 AreOriginsEqualOnDisk
 (
+const
 nsACString
 &
 aOrigin1
+const
 nsACString
 &
 aOrigin2
