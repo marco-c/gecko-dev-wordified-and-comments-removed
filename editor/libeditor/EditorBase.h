@@ -2892,6 +2892,16 @@ aTargetRange
 )
 ;
 void
+MakeBeforeInputEventNonCancelable
+(
+)
+{
+mMakeBeforeInputEventNonCancelable
+=
+true
+;
+}
+void
 Abort
 (
 )
@@ -3639,6 +3649,9 @@ mHasTriedToDispatchBeforeInputEvent
 ;
 bool
 mBeforeInputEventCanceled
+;
+bool
+mMakeBeforeInputEventNonCancelable
 ;
 #
 ifdef

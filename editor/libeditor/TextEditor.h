@@ -430,6 +430,14 @@ mMaxTextLength
 aLength
 ;
 }
+enum
+class
+AllowBeforeInputEventCancelable
+{
+No
+Yes
+}
+;
 MOZ_CAN_RUN_SCRIPT
 nsresult
 SetTextAsAction
@@ -438,6 +446,8 @@ const
 nsAString
 &
 aString
+AllowBeforeInputEventCancelable
+aAllowBeforeInputEventCancelable
 nsIPrincipal
 *
 aPrincipal
@@ -456,6 +466,8 @@ aString
 nsRange
 *
 aReplaceRange
+AllowBeforeInputEventCancelable
+aAllowBeforeInputEventCancelable
 nsIPrincipal
 *
 aPrincipal

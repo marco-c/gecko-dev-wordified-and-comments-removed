@@ -3032,6 +3032,13 @@ ReplaceTextAsAction
 (
 newWord
 range
+TextEditor
+:
+:
+AllowBeforeInputEventCancelable
+:
+:
+Yes
 )
 ;
 NS_WARNING_ASSERTION
