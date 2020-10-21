@@ -13511,6 +13511,17 @@ OsEnvironment
 reportAllowedAppSources
 (
 )
+(
+)
+=
+>
+Services
+.
+search
+.
+checkWebExtensionEngines
+(
+)
 ]
 ;
 for
