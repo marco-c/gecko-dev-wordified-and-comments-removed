@@ -24,6 +24,13 @@ algorithm
 #
 include
 "
+jsmath
+.
+h
+"
+#
+include
+"
 jit
 /
 AtomicOperations

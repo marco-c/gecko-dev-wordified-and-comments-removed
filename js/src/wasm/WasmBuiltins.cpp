@@ -33,6 +33,13 @@ h
 #
 include
 "
+jsmath
+.
+h
+"
+#
+include
+"
 gc
 /
 Allocator
