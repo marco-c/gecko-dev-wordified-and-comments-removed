@@ -9326,6 +9326,11 @@ snapshotData
 .
 modifiedPreferences
 ;
+delete
+snapshotData
+.
+printingPreferences
+;
 channel
 .
 send
