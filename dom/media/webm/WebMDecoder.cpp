@@ -554,8 +554,11 @@ platform
 >
 Supports
 (
+SupportDecoderParams
+(
 *
 track
+)
 nullptr
 )
 )

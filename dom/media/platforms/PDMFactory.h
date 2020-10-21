@@ -87,9 +87,9 @@ bool
 Supports
 (
 const
-TrackInfo
+SupportDecoderParams
 &
-aTrackInfo
+aParams
 DecoderDoctorDiagnostics
 *
 aDiagnostics
@@ -232,12 +232,12 @@ already_AddRefed
 <
 PlatformDecoderModule
 >
-GetDecoder
+GetDecoderModule
 (
 const
-TrackInfo
+SupportDecoderParams
 &
-aTrackInfo
+aParams
 DecoderDoctorDiagnostics
 *
 aDiagnostics

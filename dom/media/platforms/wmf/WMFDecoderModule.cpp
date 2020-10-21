@@ -1176,8 +1176,11 @@ false
 return
 Supports
 (
+SupportDecoderParams
+(
 *
 trackInfo
+)
 aDiagnostics
 )
 ;
@@ -1189,9 +1192,9 @@ WMFDecoderModule
 Supports
 (
 const
-TrackInfo
+SupportDecoderParams
 &
-aTrackInfo
+aParams
 DecoderDoctorDiagnostics
 *
 aDiagnostics
@@ -1200,9 +1203,19 @@ const
 {
 const
 auto
+&
+trackInfo
+=
+aParams
+.
+mConfig
+;
+const
+auto
+*
 videoInfo
 =
-aTrackInfo
+trackInfo
 .
 GetAsVideoInfo
 (
@@ -1231,7 +1244,7 @@ false
 if
 (
 (
-aTrackInfo
+trackInfo
 .
 mMimeType
 .
@@ -1247,7 +1260,7 @@ latm
 )
 |
 |
-aTrackInfo
+trackInfo
 .
 mMimeType
 .
@@ -1274,7 +1287,7 @@ const
 auto
 audioInfo
 =
-aTrackInfo
+trackInfo
 .
 GetAsAudioInfo
 (
@@ -1356,7 +1369,7 @@ MP4Decoder
 :
 IsH264
 (
-aTrackInfo
+trackInfo
 .
 mMimeType
 )
@@ -1376,7 +1389,7 @@ true
 }
 if
 (
-aTrackInfo
+trackInfo
 .
 mMimeType
 .
@@ -1431,7 +1444,7 @@ VPXDecoder
 :
 IsVP8
 (
-aTrackInfo
+trackInfo
 .
 mMimeType
 )
@@ -1449,7 +1462,7 @@ VPXDecoder
 :
 IsVP9
 (
-aTrackInfo
+trackInfo
 .
 mMimeType
 )

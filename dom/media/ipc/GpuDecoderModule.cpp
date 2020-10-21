@@ -125,9 +125,9 @@ GpuDecoderModule
 Supports
 (
 const
-TrackInfo
+SupportDecoderParams
 &
-aTrackInfo
+aParams
 DecoderDoctorDiagnostics
 *
 aDiagnostics
@@ -140,7 +140,7 @@ mWrapped
 >
 Supports
 (
-aTrackInfo
+aParams
 aDiagnostics
 )
 ;
