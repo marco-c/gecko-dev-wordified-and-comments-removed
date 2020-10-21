@@ -282,6 +282,15 @@ cp
 /
 src
 /
+cubeb_oss
+.
+c
+src
+cp
+1
+/
+src
+/
 cubeb_osx_run_loop
 .
 h
