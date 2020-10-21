@@ -94,7 +94,7 @@ components
 /
 reps
 /
-reps
+index
 "
 )
 .

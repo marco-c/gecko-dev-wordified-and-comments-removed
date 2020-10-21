@@ -365,7 +365,7 @@ components
 /
 reps
 /
-reps
+index
 "
 )
 .

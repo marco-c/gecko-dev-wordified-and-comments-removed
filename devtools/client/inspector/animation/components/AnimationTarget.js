@@ -128,7 +128,7 @@ components
 /
 reps
 /
-reps
+index
 "
 )
 ;

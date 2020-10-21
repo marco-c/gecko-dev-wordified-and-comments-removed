@@ -65,7 +65,7 @@ components
 /
 reps
 /
-reps
+index
 "
 )
 ;

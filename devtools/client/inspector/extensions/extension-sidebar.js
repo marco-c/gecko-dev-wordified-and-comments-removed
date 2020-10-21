@@ -96,15 +96,11 @@ devtools
 /
 client
 /
-debugger
+shared
 /
-packages
+components
 /
-devtools
--
 reps
-/
-src
 /
 object
 -

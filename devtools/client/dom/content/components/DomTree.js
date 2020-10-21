@@ -110,7 +110,7 @@ components
 /
 reps
 /
-reps
+index
 "
 )
 ;

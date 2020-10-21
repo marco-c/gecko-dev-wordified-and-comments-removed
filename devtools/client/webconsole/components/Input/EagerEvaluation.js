@@ -131,7 +131,7 @@ components
 /
 reps
 /
-reps
+index
 "
 )
 .
@@ -166,7 +166,7 @@ components
 /
 reps
 /
-reps
+index
 "
 )
 .

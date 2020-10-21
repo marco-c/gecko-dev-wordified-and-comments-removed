@@ -70,7 +70,7 @@ components
 /
 reps
 /
-reps
+index
 "
 true
 )
