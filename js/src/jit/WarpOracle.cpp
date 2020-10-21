@@ -319,7 +319,7 @@ AbortReasonOr
 <
 bool
 >
-maybeInlineCallIC
+maybeInlineCall
 (
 WarpOpSnapshotList
 &
@@ -5099,7 +5099,7 @@ inlinedCall
 MOZ_TRY_VAR
 (
 inlinedCall
-maybeInlineCallIC
+maybeInlineCall
 (
 snapshots
 loc
@@ -5168,7 +5168,7 @@ bool
 WarpScriptOracle
 :
 :
-maybeInlineCallIC
+maybeInlineCall
 (
 WarpOpSnapshotList
 &
@@ -5188,18 +5188,18 @@ stubDataCopy
 {
 Maybe
 <
-InlinableCallData
+InlinableOpData
 >
-callData
+inlineData
 =
-FindInlinableCallData
+FindInlinableOpData
 (
 stub
 )
 ;
 if
 (
-callData
+inlineData
 .
 isNothing
 (
@@ -5207,7 +5207,7 @@ isNothing
 |
 |
 !
-callData
+inlineData
 -
 >
 icScript
@@ -5221,7 +5221,7 @@ RootedFunction
 targetFunction
 (
 cx_
-callData
+inlineData
 -
 >
 target
@@ -5243,7 +5243,7 @@ ICScript
 *
 icScript
 =
-callData
+inlineData
 -
 >
 icScript
