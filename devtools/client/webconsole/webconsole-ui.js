@@ -2754,7 +2754,6 @@ id
 node
 ;
 }
-async
 getFrameActor
 (
 )

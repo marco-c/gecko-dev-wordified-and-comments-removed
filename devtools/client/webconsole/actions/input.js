@@ -474,7 +474,6 @@ expression
 {
 frameActor
 :
-await
 webConsoleUI
 .
 getFrameActor
