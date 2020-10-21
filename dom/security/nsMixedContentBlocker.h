@@ -83,17 +83,6 @@ OriginAttributes
 class
 nsILoadInfo
 ;
-namespace
-mozilla
-{
-namespace
-net
-{
-class
-nsProtocolProxyService
-;
-}
-}
 class
 nsMixedContentBlocker
 :
