@@ -1395,9 +1395,9 @@ pip
 tools
 =
 =
-4
-.
 5
+.
+3
 .
 1
 \
@@ -1407,7 +1407,7 @@ hash
 =
 sha256
 :
-693f30e451875796b1b25203247f0b4cf48a4c4a5ab7341f4f33ffd498cdcc98
+5672c2b6ca0f1fd803f3b45568c2cf7fadf135b4971e7d665232b2075544c0ef
 \
 -
 -
@@ -1415,7 +1415,7 @@ hash
 =
 sha256
 :
-be9c796aa88b2eec5cabf1323ba1cb60a08212b84bfb75b8b4037a8ef8cb8cb6
+73787e23269bf8a9230f376c351297b9037ed0d32ab0f9bef4a187d976acc054
 \
 #
 via
@@ -2333,5 +2333,7 @@ allow
 unsafe
 flag
 .
+#
+pip
 #
 setuptools

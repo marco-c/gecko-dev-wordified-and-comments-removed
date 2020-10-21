@@ -275,7 +275,7 @@ dry_run
         
 emit_header
         
-emit_index
+emit_index_url
         
 emit_trusted_host
         
@@ -332,9 +332,9 @@ emit_header
         
 self
 .
-emit_index
+emit_index_url
 =
-emit_index
+emit_index_url
         
 self
 .
@@ -534,7 +534,7 @@ self
 if
 self
 .
-emit_index
+emit_index_url
 :
             
 for
@@ -661,11 +661,14 @@ nb
 in
 dedup
 (
+sorted
+(
 self
 .
 format_control
 .
 no_binary
+)
 )
 :
             
@@ -690,11 +693,14 @@ ob
 in
 dedup
 (
+sorted
+(
 self
 .
 format_control
 .
 only_binary
+)
 )
 :
             

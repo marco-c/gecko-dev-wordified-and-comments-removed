@@ -1,3 +1,13 @@
+from
+pip
+.
+_internal
+.
+utils
+.
+misc
+import
+redact_auth_from_url
 class
 PipToolsError
 (
@@ -271,6 +281,26 @@ source_ireqs
 else
 :
             
+redacted_urls
+=
+tuple
+(
+                
+redact_auth_from_url
+(
+url
+)
+for
+url
+in
+self
+.
+finder
+.
+index_urls
+            
+)
+            
 lines
 .
 append
@@ -305,11 +335,7 @@ Were
 if
 len
 (
-self
-.
-finder
-.
-index_urls
+redacted_urls
 )
 >
 1
@@ -324,11 +350,7 @@ or
 .
 join
 (
-self
-.
-finder
-.
-index_urls
+redacted_urls
 )
                 
 )

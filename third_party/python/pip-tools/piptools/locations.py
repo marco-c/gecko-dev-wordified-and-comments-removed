@@ -5,8 +5,13 @@ shutil
 import
 rmtree
 from
+pip
 .
-_compat
+_internal
+.
+utils
+.
+appdirs
 import
 user_cache_dir
 from
