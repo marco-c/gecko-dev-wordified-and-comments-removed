@@ -8,7 +8,9 @@ h
 #
 include
 "
-LayersLogging
+mozilla
+/
+PresShell
 .
 h
 "
@@ -17,7 +19,7 @@ include
 "
 mozilla
 /
-PresShell
+ToString
 .
 h
 "
@@ -2322,7 +2324,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 compSize
 )
@@ -2615,7 +2617,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 mDisplaySize
 )
@@ -2695,7 +2697,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 mMobileViewportSize
 )
@@ -2999,7 +3001,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 viewport
 )
@@ -3222,7 +3224,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 viewport
 )
@@ -3351,7 +3353,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 scrollableRect
 -

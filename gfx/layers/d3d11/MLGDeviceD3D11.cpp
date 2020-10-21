@@ -10604,13 +10604,10 @@ aTarget
 "
 <
 <
-Stringify
-(
 aRect
 .
 Size
 (
-)
 )
 ;
 return
