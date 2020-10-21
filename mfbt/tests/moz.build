@@ -27,6 +27,9 @@ TestArray
 TestArrayUtils
 '
 '
+TestAtomicBitfields
+'
+'
 TestAtomics
 '
 '

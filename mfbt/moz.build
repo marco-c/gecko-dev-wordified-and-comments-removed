@@ -85,6 +85,11 @@ Assertions
 h
 '
 '
+AtomicBitfields
+.
+h
+'
+'
 Atomics
 .
 h
