@@ -2131,9 +2131,15 @@ ExceptionState
 <
 <
 13
+DOMProxyExpando
+=
+1
+<
+<
+14
 Last
 =
-ExceptionState
+DOMProxyExpando
 Any
 =
 Last
@@ -2145,7 +2151,7 @@ Last
 )
 NumCategories
 =
-14
+15
 Store_
 =
 1
@@ -54858,7 +54864,7 @@ Load
 AliasSet
 :
 :
-Any
+DOMProxyExpando
 )
 ;
 }
@@ -55062,7 +55068,7 @@ Load
 AliasSet
 :
 :
-Any
+DOMProxyExpando
 )
 ;
 }
@@ -55154,7 +55160,7 @@ Load
 AliasSet
 :
 :
-Any
+DOMProxyExpando
 )
 ;
 }
