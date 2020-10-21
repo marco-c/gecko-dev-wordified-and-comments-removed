@@ -2535,6 +2535,14 @@ r
 username
 )
         
+if
+not
+match
+:
+            
+return
+None
+        
 return
 match
 .
