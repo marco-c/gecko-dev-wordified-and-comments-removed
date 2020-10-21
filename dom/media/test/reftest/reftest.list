@@ -397,6 +397,12 @@ skip
 -
 if
 (
+MinGW
+)
+skip
+-
+if
+(
 (
 /
 ^
