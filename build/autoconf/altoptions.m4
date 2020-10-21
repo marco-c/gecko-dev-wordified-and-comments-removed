@@ -717,12 +717,6 @@ AC_INIT_BINSH
 )
 dnl
 .
-.
-/
-old
--
-configure
-.
-vars
+OLD_CONFIGURE_VARS
 ]
 )
