@@ -137,12 +137,13 @@ uint32_t
 aIntPermission
 )
 ;
+Result
+<
+PermissionValue
 nsresult
+>
 PromptIfNeeded
 (
-PermissionValue
-*
-aCurrentValue
 )
 ;
 protected
