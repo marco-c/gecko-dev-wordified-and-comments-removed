@@ -204,7 +204,7 @@ SharedMap
 ContentProcessMessageManager
 :
 :
-SharedData
+GetSharedData
 (
 )
 {

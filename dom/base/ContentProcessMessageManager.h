@@ -272,7 +272,7 @@ ipc
 :
 SharedMap
 >
-SharedData
+GetSharedData
 (
 )
 ;

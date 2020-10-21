@@ -3279,6 +3279,7 @@ initialProcessData
 readonly
 attribute
 MozSharedMap
+?
 sharedData
 ;
 }
