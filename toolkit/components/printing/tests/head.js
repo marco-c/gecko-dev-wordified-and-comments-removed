@@ -288,12 +288,6 @@ startPrint
 (
 )
 {
-this
-.
-sourceBrowser
-.
-ownerGlobal
-.
 document
 .
 getElementById
