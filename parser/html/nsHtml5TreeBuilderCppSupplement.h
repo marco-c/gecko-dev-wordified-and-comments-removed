@@ -799,6 +799,12 @@ operation
 if
 (
 mSpeculativeLoadStage
+&
+&
+mode
+!
+=
+IN_TEMPLATE
 )
 {
 switch
