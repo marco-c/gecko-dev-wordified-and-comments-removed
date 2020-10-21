@@ -1364,9 +1364,6 @@ onEscape
 onCloseShortcutPress
 =
 (
-key
-:
-mixed
 e
 :
 KeyboardEvent
@@ -1605,9 +1602,6 @@ line
 onToggleBreakpoint
 =
 (
-key
-:
-mixed
 e
 :
 KeyboardEvent
@@ -1670,9 +1664,6 @@ line
 onToggleConditionalPanel
 =
 (
-key
-:
-mixed
 e
 :
 KeyboardEvent
@@ -2015,9 +2006,6 @@ focus
 onEscape
 =
 (
-key
-:
-mixed
 e
 :
 KeyboardEvent

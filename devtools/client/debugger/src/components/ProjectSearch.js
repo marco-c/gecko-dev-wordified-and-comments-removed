@@ -683,9 +683,6 @@ searchTerm
 toggleProjectTextSearch
 =
 (
-key
-:
-string
 e
 :
 KeyboardEvent
