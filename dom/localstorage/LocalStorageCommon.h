@@ -130,7 +130,7 @@ __VA_ARGS__
 )
 #
 define
-LS_TRY_VAR
+LS_TRY_UNWRAP
 (
 .
 .
@@ -159,13 +159,13 @@ ifdef
 DEBUG
 #
 define
-LS_DEBUG_TRY_VAR
+LS_DEBUG_TRY_UNWRAP
 (
 .
 .
 .
 )
-LS_TRY_VAR
+LS_TRY_UNWRAP
 (
 __VA_ARGS__
 )
@@ -173,7 +173,7 @@ __VA_ARGS__
 else
 #
 define
-LS_DEBUG_TRY_VAR
+LS_DEBUG_TRY_UNWRAP
 (
 .
 .

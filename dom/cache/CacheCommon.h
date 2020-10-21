@@ -113,7 +113,7 @@ __VA_ARGS__
 )
 #
 define
-CACHE_TRY_VAR
+CACHE_TRY_UNWRAP
 (
 .
 .
@@ -142,13 +142,13 @@ ifdef
 DEBUG
 #
 define
-CACHE_DEBUG_TRY_VAR
+CACHE_DEBUG_TRY_UNWRAP
 (
 .
 .
 .
 )
-CACHE_TRY_VAR
+CACHE_TRY_UNWRAP
 (
 __VA_ARGS__
 )
@@ -156,7 +156,7 @@ __VA_ARGS__
 else
 #
 define
-CACHE_DEBUG_TRY_VAR
+CACHE_DEBUG_TRY_UNWRAP
 (
 .
 .
