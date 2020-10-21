@@ -3869,7 +3869,7 @@ ShouldCheckThresholds
 DontCheckThresholds
 )
 {
-maybeAllocTriggerZoneGC
+maybeTriggerGCAfterAlloc
 (
 zone
 )

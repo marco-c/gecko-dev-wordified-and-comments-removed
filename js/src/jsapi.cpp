@@ -6700,7 +6700,7 @@ use
 zone
 -
 >
-maybeMallocTriggerZoneGC
+maybeTriggerGCOnMalloc
 (
 )
 ;

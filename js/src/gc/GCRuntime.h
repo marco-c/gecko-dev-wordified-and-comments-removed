@@ -1329,7 +1329,7 @@ reason
 )
 ;
 void
-maybeAllocTriggerZoneGC
+maybeTriggerGCAfterAlloc
 (
 Zone
 *
@@ -1337,7 +1337,7 @@ zone
 )
 ;
 void
-maybeMallocTriggerZoneGC
+maybeTriggerGCAfterMalloc
 (
 Zone
 *
@@ -1345,7 +1345,7 @@ zone
 )
 ;
 bool
-maybeMallocTriggerZoneGC
+maybeTriggerGCAfterMalloc
 (
 Zone
 *

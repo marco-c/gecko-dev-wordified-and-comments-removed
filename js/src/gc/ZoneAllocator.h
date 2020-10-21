@@ -352,7 +352,7 @@ use
 ;
 #
 endif
-maybeMallocTriggerZoneGC
+maybeTriggerGCOnMalloc
 (
 )
 ;
@@ -583,7 +583,7 @@ use
 ;
 #
 endif
-maybeMallocTriggerZoneGC
+maybeTriggerGCOnMalloc
 (
 )
 ;
@@ -717,7 +717,7 @@ true
 ;
 }
 void
-maybeMallocTriggerZoneGC
+maybeTriggerGCOnMalloc
 (
 )
 {
