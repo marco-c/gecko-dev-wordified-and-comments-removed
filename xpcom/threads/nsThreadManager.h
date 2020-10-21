@@ -218,6 +218,15 @@ mCurThreadIndex
 ;
 RefPtr
 <
+mozilla
+:
+:
+IdleTaskManager
+>
+mIdleTaskManager
+;
+RefPtr
+<
 nsThread
 >
 mMainThread
