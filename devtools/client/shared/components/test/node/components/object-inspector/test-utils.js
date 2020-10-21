@@ -55,6 +55,8 @@ redux
 const
 {
 combineReducers
+createStore
+applyMiddleware
 }
 =
 require
@@ -127,16 +129,6 @@ middleware
 waitUntilService
 "
 )
-;
-import
-{
-createStore
-applyMiddleware
-}
-from
-"
-redux
-"
 ;
 const
 objectInspector
