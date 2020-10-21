@@ -1,3 +1,9 @@
+import
+io
+from
+six
+import
+ensure_text
 MYPY
 =
 False
@@ -8,16 +14,8 @@ MYPY
 from
 typing
 import
-Any
-    
-from
-typing
-import
+AnyStr
 Optional
-    
-from
-typing
-import
 Text
 class
 GitHubChecksOutputter
@@ -85,7 +83,6 @@ markdown
 format
 .
     
-See
 https
 :
 /
@@ -142,15 +139,26 @@ line
 )
 :
         
+text
+=
+ensure_text
+(
+line
+)
+        
 with
+io
+.
 open
 (
 self
 .
 path
-'
+mode
+=
+"
 a
-'
+"
 )
 as
 f
@@ -160,17 +168,18 @@ f
 .
 write
 (
-line
+text
 )
             
 f
 .
 write
 (
-'
+u
+"
 \
 n
-'
+"
 )
 __outputter
 =
