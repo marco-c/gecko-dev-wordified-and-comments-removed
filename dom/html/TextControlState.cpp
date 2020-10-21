@@ -541,7 +541,6 @@ TextControlElement
 :
 ValueChangeKind
 ;
-MOZ_CAN_RUN_SCRIPT
 inline
 nsresult
 SetEditorFlagsIfNecessary
@@ -815,7 +814,6 @@ final
 {
 public
 :
-MOZ_CAN_RUN_SCRIPT
 explicit
 AutoRestoreEditorState
 (
@@ -884,10 +882,7 @@ mSavedFlags
 flags
 )
 {
-MOZ_KnownLive
-(
 mTextEditor
-)
 -
 >
 SetFlags
@@ -906,7 +901,6 @@ SetMaxTextLength
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 ~
 AutoRestoreEditorState
 (
@@ -922,11 +916,8 @@ mSavedMaxLength
 ;
 SetEditorFlagsIfNecessary
 (
-MOZ_KnownLive
-(
 *
 mTextEditor
-)
 mSavedFlags
 )
 ;

@@ -318,7 +318,6 @@ nsIContent
 aRoot
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 void
 UpdateIMEState
@@ -335,7 +334,6 @@ EditorBase
 aEditorBase
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 static
 bool
 OnMouseButtonEventInEditor
@@ -400,7 +398,6 @@ EditorBase
 aEditorBase
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 static
 void
 DispatchCompositionEvent
@@ -638,7 +635,6 @@ EnsureTextCompositionArray
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 void
 CreateIMEContentObserver

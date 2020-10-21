@@ -426,7 +426,6 @@ nsPresContext
 aPresContext
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleQueryContentEvent
 (
@@ -435,7 +434,6 @@ WidgetQueryContentEvent
 aEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 OnQuerySelectedText
 (
@@ -444,7 +442,6 @@ WidgetQueryContentEvent
 aEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 OnQueryTextContent
 (
@@ -453,7 +450,6 @@ WidgetQueryContentEvent
 aEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 OnQueryCaretRect
 (
@@ -462,7 +458,6 @@ WidgetQueryContentEvent
 aEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 OnQueryTextRect
 (
@@ -471,7 +466,6 @@ WidgetQueryContentEvent
 aEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 OnQueryTextRectArray
 (
@@ -480,7 +474,6 @@ WidgetQueryContentEvent
 aEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 OnQueryEditorRect
 (
@@ -489,7 +482,6 @@ WidgetQueryContentEvent
 aEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 OnQueryContentState
 (
@@ -498,7 +490,6 @@ WidgetQueryContentEvent
 aEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 OnQuerySelectionAsTransferable
 (
@@ -507,7 +498,6 @@ WidgetQueryContentEvent
 aEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 OnQueryCharacterAtPoint
 (
@@ -516,7 +506,6 @@ WidgetQueryContentEvent
 aEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 OnQueryDOMWidgetHittest
 (
@@ -560,7 +549,6 @@ nsIContent
 >
 mRootContent
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 Init
 (
@@ -569,7 +557,6 @@ WidgetQueryContentEvent
 aEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 Init
 (
@@ -587,7 +574,6 @@ aRequireFlush
 true
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 InitCommon
 (
@@ -604,7 +590,6 @@ aRequireFlush
 true
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 InitRootContent
 (

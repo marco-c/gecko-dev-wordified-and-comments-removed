@@ -329,9 +329,6 @@ boolean
 aSuppressTransaction
 )
 ;
-[
-setter_can_run_script
-]
 attribute
 unsigned
 long

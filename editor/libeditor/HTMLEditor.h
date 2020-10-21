@@ -419,7 +419,6 @@ BeginningOfDocument
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 SetFlags
 (

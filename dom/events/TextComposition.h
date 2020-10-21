@@ -926,7 +926,6 @@ aWidget
 )
 const
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 DispatchCompositionEvent
 (
@@ -943,7 +942,6 @@ bool
 aIsSynthesized
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 DispatchEvent
 (
@@ -1015,7 +1013,6 @@ WidgetSelectionEvent
 aSelectionEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 bool
 MaybeDispatchCompositionUpdate
 (
@@ -1025,7 +1022,6 @@ WidgetCompositionEvent
 aCompositionEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 BaseEventFlags
 CloneAndDispatchAs
 (
@@ -1065,7 +1061,6 @@ WidgetCompositionEvent
 aCompositionEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 OnCompositionEventDispatched
 (
@@ -1084,7 +1079,6 @@ WidgetCompositionEvent
 aCompositionEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 uint32_t
 GetSelectionStartOffset
 (
@@ -1125,7 +1119,6 @@ aIsSynthesizedEvent
 false
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
