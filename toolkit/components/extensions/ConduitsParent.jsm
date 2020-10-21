@@ -1472,7 +1472,7 @@ sender
 )
 ;
 }
-willDestroy
+didDestroy
 (
 )
 {
@@ -1481,17 +1481,6 @@ Hub
 actorClosed
 (
 this
-)
-;
-}
-didDestroy
-(
-)
-{
-this
-.
-willDestroy
-(
 )
 ;
 }
