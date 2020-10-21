@@ -3108,7 +3108,7 @@ event
 =
 panInput
 .
-ToWidgetWheelEvent
+ToWidgetEvent
 (
 this
 )
@@ -3138,7 +3138,7 @@ event
 =
 pinchInput
 .
-ToWidgetWheelEvent
+ToWidgetEvent
 (
 this
 )
