@@ -173,4 +173,3 @@ maxdepth
 SearchEngineConfiguration
 SearchConfigurationSchema
 DefaultSearchEngines
-Telemetry
