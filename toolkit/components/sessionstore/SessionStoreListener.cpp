@@ -3869,6 +3869,12 @@ funcs
 UpdateSessionStore
 (
 mOwnerContent
+mDocShell
+-
+>
+GetBrowsingContext
+(
+)
 aFlushId
 aIsFinal
 mEpoch

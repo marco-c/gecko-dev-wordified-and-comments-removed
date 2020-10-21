@@ -47,6 +47,7 @@ function
 UpdateSessionStore
 (
 aBrowser
+aBrowsingContext
 aFlushId
 aIsFinal
 aEpoch
@@ -60,6 +61,7 @@ SessionStoreFuncInternal
 updateSessionStore
 (
 aBrowser
+aBrowsingContext
 aFlushId
 aIsFinal
 aEpoch
@@ -1525,6 +1527,7 @@ function
 SSF_updateSessionStore
 (
 aBrowser
+aBrowsingContext
 aFlushId
 aIsFinal
 aEpoch
@@ -1753,6 +1756,7 @@ SessionStore
 updateSessionStoreFromTablistener
 (
 aBrowser
+aBrowsingContext
 {
 data
 :
