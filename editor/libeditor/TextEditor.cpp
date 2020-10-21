@@ -3147,8 +3147,10 @@ preventSelectionChangeEvent
 this
 )
 ;
+RefPtr
+<
 Element
-*
+>
 rootElement
 =
 GetRoot
@@ -3180,8 +3182,11 @@ IsEmpty
 {
 rv
 =
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >
@@ -7615,8 +7620,10 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
+RefPtr
+<
 Element
-*
+>
 anonymousDivElement
 =
 GetRoot
@@ -7646,8 +7653,11 @@ IsEmpty
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >

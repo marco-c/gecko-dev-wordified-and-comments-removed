@@ -18771,10 +18771,13 @@ nsresult
 >
 rvIgnored
 =
+MOZ_KnownLive
+(
 aHTMLEditor
 .
 SelectionRefPtr
 (
+)
 )
 -
 >

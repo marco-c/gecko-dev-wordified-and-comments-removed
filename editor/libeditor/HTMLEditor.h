@@ -6144,8 +6144,11 @@ Failed
 )
 )
 ;
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >
