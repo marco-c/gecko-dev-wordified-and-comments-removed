@@ -76,4 +76,13 @@ node
 .
 js
 '
+'
+storage
+-
+indexed
+-
+db
+.
+js
+'
 )
