@@ -16,6 +16,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 static
 constexpr
 CSSIntCoord
