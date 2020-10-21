@@ -11,6 +11,17 @@ mozilla
 /
 dom
 /
+DOMTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Event
 .
 h

@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsIScriptGlobalObject
+.
+h
+"
+#
+include
+"
 nsIScriptObjectPrincipal
 .
 h
@@ -529,9 +536,6 @@ nsIRequest
 ;
 class
 nsIRunnable
-;
-class
-nsIScriptGlobalObject
 ;
 class
 nsISecurityConsoleMessage

@@ -40,6 +40,17 @@ include
 "
 mozilla
 /
+dom
+/
+Exceptions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h

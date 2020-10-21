@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h
