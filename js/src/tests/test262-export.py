@@ -1197,7 +1197,7 @@ test262
 /
 blob
 /
-master
+main
 /
 INTERPRETING
 .
@@ -1255,7 +1255,7 @@ test262
 /
 blob
 /
-master
+main
 /
 INTERPRETING
 .

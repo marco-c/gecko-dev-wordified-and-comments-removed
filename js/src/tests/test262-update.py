@@ -443,7 +443,7 @@ test262
 /
 blob
 /
-master
+main
 /
 INTERPRETING
 .
@@ -3192,7 +3192,7 @@ C
 %
 s
 diff
-master
+main
 -
 -
 diff
@@ -3233,7 +3233,7 @@ C
 %
 s
 diff
-master
+main
 -
 -
 diff
@@ -3274,7 +3274,7 @@ C
 %
 s
 diff
-master
+main
 -
 -
 diff
@@ -3315,7 +3315,7 @@ C
 %
 s
 diff
-master
+main
 -
 -
 diff
@@ -4823,7 +4823,7 @@ branch
 default
 =
 "
-master
+main
 "
                         
 help
