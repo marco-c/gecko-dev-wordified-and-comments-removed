@@ -40,7 +40,7 @@ usize
 ;
 pub
 const
-_MAX_WASM_DATA_SEGMENTS
+MAX_WASM_DATA_SEGMENTS
 :
 usize
 =
@@ -53,6 +53,17 @@ MAX_WASM_MEMORY_PAGES
 usize
 =
 65536
+;
+pub
+const
+MAX_WASM_MEMORY64_PAGES
+:
+u64
+=
+1
+<
+<
+48
 ;
 pub
 const
@@ -138,7 +149,7 @@ MAX_WASM_MEMORIES
 :
 usize
 =
-1
+100
 ;
 pub
 const
