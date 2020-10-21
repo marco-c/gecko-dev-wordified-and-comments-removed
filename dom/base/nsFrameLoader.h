@@ -1693,6 +1693,11 @@ mDepthTooGreat
 1
 ;
 bool
+mIsTopLevelContent
+:
+1
+;
+bool
 mDestroyCalled
 :
 1
