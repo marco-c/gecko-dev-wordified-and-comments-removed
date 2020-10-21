@@ -202,15 +202,6 @@ needsParseGlobal
 options
 .
 useOffThreadParseGlobal
-|
-|
-what
-=
-=
-OffThread
-:
-:
-Decode
 ;
 if
 (
