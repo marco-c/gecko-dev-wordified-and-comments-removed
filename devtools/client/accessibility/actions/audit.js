@@ -32,7 +32,11 @@ filterToggle
 filter
 =
 >
+(
+{
 dispatch
+}
+)
 =
 >
 dispatch
@@ -52,7 +56,11 @@ auditing
 filter
 =
 >
+(
+{
 dispatch
+}
+)
 =
 >
 {
@@ -101,7 +109,11 @@ filter
 )
 =
 >
+(
+{
 dispatch
+}
+)
 =
 >
 auditFunc

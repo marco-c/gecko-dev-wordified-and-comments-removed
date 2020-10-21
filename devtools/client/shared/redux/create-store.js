@@ -255,7 +255,6 @@ thunkOptions
 )
 :
 thunk
-thunk
 promise
 waitUntilService
 )

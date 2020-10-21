@@ -34,7 +34,11 @@ simTypes
 )
 =
 >
+(
+{
 dispatch
+}
+)
 =
 >
 simulateFunc

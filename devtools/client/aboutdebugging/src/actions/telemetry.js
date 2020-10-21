@@ -32,8 +32,10 @@ details
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >

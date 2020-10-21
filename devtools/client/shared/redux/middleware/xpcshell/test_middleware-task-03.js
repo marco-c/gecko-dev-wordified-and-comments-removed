@@ -174,8 +174,10 @@ return
 function
 *
 (
+{
 dispatch
 getState
+}
 )
 {
 const

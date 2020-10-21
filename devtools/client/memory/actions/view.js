@@ -89,8 +89,10 @@ view
 return
 function
 (
+{
 dispatch
 getState
+}
 )
 {
 dispatch
@@ -142,8 +144,10 @@ function
 return
 function
 (
+{
 dispatch
 getState
+}
 )
 {
 const
@@ -195,8 +199,10 @@ return
 async
 function
 (
+{
 dispatch
 getState
+}
 )
 {
 dispatch
@@ -235,8 +241,10 @@ return
 async
 function
 (
+{
 dispatch
 getState
+}
 )
 {
 dispatch

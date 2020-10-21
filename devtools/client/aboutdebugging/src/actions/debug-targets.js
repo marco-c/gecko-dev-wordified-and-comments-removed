@@ -339,8 +339,10 @@ id
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -558,8 +560,10 @@ message
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -634,8 +638,10 @@ registrationFront
 return
 async
 (
-_
+{
+dispatch
 getState
+}
 )
 =
 >
@@ -675,8 +681,10 @@ id
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -822,8 +830,10 @@ requestTabs
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -960,8 +970,10 @@ requestExtensions
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -1150,8 +1162,10 @@ requestProcesses
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -1238,8 +1252,10 @@ requestWorkers
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -1389,8 +1405,6 @@ registrationFront
 return
 async
 (
-_
-getState
 )
 =
 >
@@ -1430,8 +1444,6 @@ registrationFront
 return
 async
 (
-_
-getState
 )
 =
 >
