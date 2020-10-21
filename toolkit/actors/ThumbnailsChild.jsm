@@ -136,6 +136,17 @@ idleDispatchToMainThread
 =
 >
 {
+if
+(
+!
+this
+.
+manager
+)
+{
+return
+;
+}
 let
 result
 =
