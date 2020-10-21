@@ -2531,6 +2531,11 @@ mApzAnimationRequested
 :
 1
 ;
+bool
+mReclampVVOffsetInReflowFinished
+:
+1
+;
 mozilla
 :
 :
