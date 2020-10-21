@@ -14414,7 +14414,7 @@ success
 manager
 -
 >
-SetPendingScrollUpdateForNextTransaction
+AddPendingScrollUpdateForNextTransaction
 (
 id
 mScrollUpdates

@@ -1245,6 +1245,7 @@ ApplyUpdates
 (
 ScrollUpdatesMap
 &
+&
 aUpdates
 uint32_t
 aPaintSequenceNumber
@@ -1301,10 +1302,16 @@ index
 .
 UpdatePendingScrollInfo
 (
+std
+:
+:
+move
+(
 it
 .
 Data
 (
+)
 )
 )
 ;

@@ -2268,7 +2268,7 @@ public
 :
 virtual
 bool
-SetPendingScrollUpdateForNextTransaction
+AddPendingScrollUpdateForNextTransaction
 (
 ScrollableLayerGuid
 :
@@ -2283,7 +2283,10 @@ aUpdateInfo
 ;
 Maybe
 <
+nsTArray
+<
 ScrollPositionUpdate
+>
 >
 GetPendingScrollInfoUpdate
 (

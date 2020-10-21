@@ -1163,7 +1163,13 @@ aOriginatingLayersId
 .
 ApplyUpdates
 (
+std
+:
+:
+move
+(
 updates
+)
 aPaintSequenceNumber
 )
 ;
