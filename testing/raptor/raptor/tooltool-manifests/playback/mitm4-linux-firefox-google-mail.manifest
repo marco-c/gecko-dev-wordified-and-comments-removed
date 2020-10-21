@@ -43,5 +43,10 @@ mail
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

@@ -43,5 +43,10 @@ news
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

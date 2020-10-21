@@ -43,5 +43,10 @@ sheets
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

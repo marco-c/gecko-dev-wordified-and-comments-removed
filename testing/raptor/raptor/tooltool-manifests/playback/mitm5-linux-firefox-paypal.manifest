@@ -41,5 +41,10 @@ paypal
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

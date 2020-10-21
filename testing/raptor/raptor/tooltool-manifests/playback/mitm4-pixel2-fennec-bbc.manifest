@@ -30,6 +30,11 @@ bbc
 zip
 "
 "
+unpack
+"
+:
+true
+"
 digest
 "
 :

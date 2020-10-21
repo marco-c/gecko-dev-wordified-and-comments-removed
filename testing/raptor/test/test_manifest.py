@@ -154,6 +154,16 @@ mitmproxy
 '
     
 '
+playback_binary_manifest
+'
+:
+'
+binary
+.
+manifest
+'
+    
+'
 playback_pageset_manifest
 '
 :
@@ -613,6 +623,16 @@ mitmproxy
 '
     
 '
+playback_binary_manifest
+'
+:
+'
+binary
+.
+manifest
+'
+    
+'
 playback_pageset_manifest
 '
 :
@@ -911,6 +931,16 @@ playback
 :
 '
 mitmproxy
+'
+    
+'
+playback_binary_manifest
+'
+:
+'
+binary
+.
+manifest
 '
     
 '

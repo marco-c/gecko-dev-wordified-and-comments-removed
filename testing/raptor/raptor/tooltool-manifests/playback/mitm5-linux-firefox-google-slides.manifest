@@ -43,5 +43,10 @@ slides
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

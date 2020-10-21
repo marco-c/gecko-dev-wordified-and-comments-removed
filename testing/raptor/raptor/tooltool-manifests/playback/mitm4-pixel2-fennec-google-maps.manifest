@@ -32,6 +32,11 @@ maps
 zip
 "
 "
+unpack
+"
+:
+true
+"
 digest
 "
 :

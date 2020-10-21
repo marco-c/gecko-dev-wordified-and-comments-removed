@@ -41,5 +41,10 @@ yandex
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

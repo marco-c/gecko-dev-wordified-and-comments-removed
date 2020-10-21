@@ -41,5 +41,10 @@ amazon
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

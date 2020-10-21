@@ -41,5 +41,10 @@ fandom
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

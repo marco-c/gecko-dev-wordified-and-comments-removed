@@ -32,6 +32,11 @@ search
 zip
 "
 "
+unpack
+"
+:
+true
+"
 digest
 "
 :

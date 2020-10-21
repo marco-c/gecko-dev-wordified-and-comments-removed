@@ -41,5 +41,10 @@ twitch
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

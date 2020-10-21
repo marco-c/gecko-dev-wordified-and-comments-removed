@@ -41,5 +41,10 @@ netflix
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

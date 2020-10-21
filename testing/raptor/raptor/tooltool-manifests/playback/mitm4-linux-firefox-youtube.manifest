@@ -41,5 +41,10 @@ youtube
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

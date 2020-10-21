@@ -32,6 +32,11 @@ de
 zip
 "
 "
+unpack
+"
+:
+true
+"
 digest
 "
 :

@@ -843,23 +843,18 @@ os
 .
 path
 .
-join
-(
-os
-.
-path
-.
-dirname
+splitext
 (
 path
 )
+[
+0
+]
 +
 "
-metadata
 .
 json
 "
-)
                 
 if
 os

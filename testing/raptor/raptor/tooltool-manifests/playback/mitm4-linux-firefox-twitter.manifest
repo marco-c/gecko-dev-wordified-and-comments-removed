@@ -41,5 +41,10 @@ twitter
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

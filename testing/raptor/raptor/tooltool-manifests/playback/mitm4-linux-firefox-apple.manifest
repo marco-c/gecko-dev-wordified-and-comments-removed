@@ -41,5 +41,10 @@ apple
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

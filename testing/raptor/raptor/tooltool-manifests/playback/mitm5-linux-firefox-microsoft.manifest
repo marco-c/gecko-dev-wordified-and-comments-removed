@@ -41,5 +41,10 @@ microsoft
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

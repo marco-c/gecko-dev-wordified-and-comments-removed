@@ -30,6 +30,11 @@ stackoverflow
 zip
 "
 "
+unpack
+"
+:
+true
+"
 digest
 "
 :

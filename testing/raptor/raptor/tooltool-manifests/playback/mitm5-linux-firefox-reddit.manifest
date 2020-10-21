@@ -41,5 +41,10 @@ reddit
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

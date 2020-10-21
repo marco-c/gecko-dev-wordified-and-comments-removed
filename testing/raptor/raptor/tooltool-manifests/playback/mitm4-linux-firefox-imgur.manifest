@@ -41,5 +41,10 @@ imgur
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

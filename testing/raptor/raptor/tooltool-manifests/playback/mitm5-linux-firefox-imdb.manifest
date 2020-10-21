@@ -41,5 +41,10 @@ imdb
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

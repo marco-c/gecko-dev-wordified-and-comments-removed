@@ -30,6 +30,11 @@ amazon
 zip
 "
 "
+unpack
+"
+:
+true
+"
 digest
 "
 :

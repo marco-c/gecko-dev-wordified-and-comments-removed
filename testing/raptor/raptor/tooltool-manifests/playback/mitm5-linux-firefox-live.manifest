@@ -41,5 +41,10 @@ live
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

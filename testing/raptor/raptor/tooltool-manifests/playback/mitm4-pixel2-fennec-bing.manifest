@@ -30,6 +30,11 @@ bing
 zip
 "
 "
+unpack
+"
+:
+true
+"
 digest
 "
 :

@@ -43,5 +43,10 @@ search
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]

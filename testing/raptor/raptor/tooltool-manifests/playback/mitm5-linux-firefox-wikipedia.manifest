@@ -41,5 +41,10 @@ wikipedia
 .
 zip
 "
+"
+unpack
+"
+:
+true
 }
 ]
