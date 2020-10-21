@@ -2914,12 +2914,6 @@ endif
 HOST_RUST_LIBRARY_FILE
 ifdef
 RUST_PROGRAMS
-GARBAGE_DIRS
-+
-=
-(
-RUST_TARGET
-)
 force
 -
 cargo
@@ -3023,12 +3017,6 @@ endif
 RUST_PROGRAMS
 ifdef
 HOST_RUST_PROGRAMS
-GARBAGE_DIRS
-+
-=
-(
-RUST_HOST_TARGET
-)
 force
 -
 cargo

@@ -872,12 +872,6 @@ GENERATED_DIRS_DEPS
 (
 tmpauto
 )
-GARBAGE_DIRS
-+
-=
-(
-GENERATED_DIRS
-)
 endif
 #
 #

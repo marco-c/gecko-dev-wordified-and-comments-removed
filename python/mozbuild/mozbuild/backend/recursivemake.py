@@ -2592,15 +2592,6 @@ GeneratedSources
 )
 :
                 
-variables
-.
-append
-(
-'
-GARBAGE
-'
-)
-                
 base
 =
 backend_file
@@ -2783,15 +2774,6 @@ HostGeneratedSources
 )
 :
                 
-variables
-.
-append
-(
-'
-GARBAGE
-'
-)
-                
 base
 =
 backend_file
@@ -2964,15 +2946,6 @@ obj
 WasmGeneratedSources
 )
 :
-                
-variables
-.
-append
-(
-'
-GARBAGE
-'
-)
                 
 base
 =

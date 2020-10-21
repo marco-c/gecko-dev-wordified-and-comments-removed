@@ -49,7 +49,6 @@ PHONY
 all
 test
 build
-clean
 docs
 all
 :
@@ -84,14 +83,6 @@ BIN
 pip
 install
 tox
-clean
-:
-rm
--
-rf
-(
-BUILD_DIRS
-)
 test
 :
 build
