@@ -749,7 +749,7 @@ res
 }
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -792,7 +792,7 @@ TrimBuffer
 }
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -859,7 +859,7 @@ const
 ;
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1119,7 +1119,7 @@ BeginReading
 }
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1147,7 +1147,7 @@ aTypeOffset
 ;
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1170,7 +1170,7 @@ T
 >
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1195,7 +1195,7 @@ T
 >
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1215,7 +1215,7 @@ aType
 ;
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1246,7 +1246,7 @@ aType
 ;
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1439,7 +1439,7 @@ acquireEmpty
 ;
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
