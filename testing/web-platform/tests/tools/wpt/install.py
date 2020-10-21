@@ -55,6 +55,14 @@ servo
 '
 nightly
 '
+    
+'
+webkitgtk_minibrowser
+'
+:
+'
+nightly
+'
 }
 channel_by_name
 =

@@ -175,6 +175,26 @@ webdriver
 "
 ]
     
+if
+product
+=
+=
+"
+webkitgtk_minibrowser
+"
+:
+        
+return
+[
+"
+-
+-
+install
+-
+browser
+"
+]
+    
 return
 [
 ]
