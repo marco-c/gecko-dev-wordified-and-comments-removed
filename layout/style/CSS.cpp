@@ -112,6 +112,9 @@ Servo_CSSSupports
 (
 &
 aCondition
+false
+false
+false
 )
 ;
 }
@@ -124,7 +127,6 @@ Escape
 const
 GlobalObject
 &
-aGlobal
 const
 nsAString
 &
