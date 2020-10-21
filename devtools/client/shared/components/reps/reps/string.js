@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 a
@@ -61,7 +66,17 @@ urlRegex
 require
 (
 "
-.
+devtools
+/
+client
+/
+shared
+/
+components
+/
+reps
+/
+reps
 /
 rep
 -

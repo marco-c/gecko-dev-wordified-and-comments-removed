@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 PropTypes
 =
@@ -55,7 +60,17 @@ wrapRender
 require
 (
 "
-.
+devtools
+/
+client
+/
+shared
+/
+components
+/
+reps
+/
+reps
 /
 rep
 -

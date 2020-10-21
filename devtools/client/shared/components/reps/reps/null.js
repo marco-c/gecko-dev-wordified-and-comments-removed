@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 span
@@ -52,7 +57,17 @@ wrapRender
 require
 (
 "
-.
+devtools
+/
+client
+/
+shared
+/
+components
+/
+reps
+/
+reps
 /
 rep
 -
