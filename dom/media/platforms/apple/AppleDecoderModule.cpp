@@ -338,7 +338,6 @@ aDiagnostics
 const
 {
 return
-(
 aMimeType
 .
 EqualsLiteral
@@ -348,16 +347,6 @@ audio
 /
 mpeg
 "
-)
-&
-&
-!
-StaticPrefs
-:
-:
-media_ffmpeg_mp3_enabled
-(
-)
 )
 |
 |
