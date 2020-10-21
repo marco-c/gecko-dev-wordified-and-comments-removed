@@ -2428,15 +2428,6 @@ Type
 :
 RawInt64
 :
-case
-StubField
-:
-:
-Type
-:
-:
-DOMExpandoGeneration
-:
 break
 ;
 case

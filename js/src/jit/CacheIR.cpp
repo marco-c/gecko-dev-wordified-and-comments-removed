@@ -1238,7 +1238,7 @@ uint64_t
 CacheIRCloner
 :
 :
-getDOMExpandoGenerationField
+getRawInt64Field
 (
 uint32_t
 stubOffset

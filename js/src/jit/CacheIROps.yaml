@@ -2648,7 +2648,7 @@ expandoAndGeneration
 RawPointerField
 generation
 :
-DOMExpandoGenerationField
+RawInt64Field
 result
 :
 ValId

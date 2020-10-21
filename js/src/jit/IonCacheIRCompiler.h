@@ -190,14 +190,6 @@ uint32_t
 offset
 )
 ;
-uint64_t
-*
-expandoGenerationStubFieldPtr
-(
-uint32_t
-offset
-)
-;
 void
 prepareVMCall
 (
