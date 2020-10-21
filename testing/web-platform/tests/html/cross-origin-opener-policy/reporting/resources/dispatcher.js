@@ -80,7 +80,7 @@ uuid
 const
 timeout
 =
-3000
+2500
 ;
 const
 retry_delay
