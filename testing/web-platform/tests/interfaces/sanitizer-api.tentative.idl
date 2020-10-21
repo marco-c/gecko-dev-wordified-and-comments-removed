@@ -73,5 +73,12 @@ DOMString
 ?
 dropElements
 ;
+sequence
+<
+DOMString
+>
+?
+dropAttributes
+;
 }
 ;
