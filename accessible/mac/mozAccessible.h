@@ -168,6 +168,10 @@ mRole
 uint64_t
 mCachedState
 ;
+nsStaticAtom
+*
+mARIARole
+;
 }
 -
 (
