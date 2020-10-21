@@ -12153,6 +12153,13 @@ mPullingEnabled
 =
 false
 ;
+mUpdateTrack
+-
+>
+mInForcedShutdown
+=
+false
+;
 }
 nsresult
 SourceMediaTrack
@@ -13644,6 +13651,12 @@ mUpdateTrack
 -
 >
 mEnded
+|
+|
+mUpdateTrack
+-
+>
+mInForcedShutdown
 |
 |
 !
