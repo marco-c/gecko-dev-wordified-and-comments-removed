@@ -3390,6 +3390,8 @@ abiType
 }
 enum
 ABIFunctionType
+:
+uint32_t
 {
 Args_General0
 =
