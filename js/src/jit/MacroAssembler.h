@@ -19407,6 +19407,14 @@ argType
 )
 ;
 }
+inline
+DynFn
+JitMarkFunction
+(
+MIRType
+type
+)
+;
 template
 <
 class
