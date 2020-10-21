@@ -982,7 +982,7 @@ _polling_interval
 =
 0
 .
-1
+001
         
 self
 .
