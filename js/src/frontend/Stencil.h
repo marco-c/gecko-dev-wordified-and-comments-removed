@@ -1360,9 +1360,9 @@ createSpecificScope
 JSContext
 *
 cx
-CompilationInfo
+CompilationInput
 &
-compilationInfo
+input
 CompilationGCOutput
 &
 gcOutput
