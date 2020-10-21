@@ -25,6 +25,7 @@ inline
 import
 inline
 from
+.
 printcmd
 import
 do_print

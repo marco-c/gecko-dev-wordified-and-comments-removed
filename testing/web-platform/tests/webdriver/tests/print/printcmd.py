@@ -172,7 +172,10 @@ base64
 .
 decodestring
 (
+ensure_binary
+(
 value
+)
 )
     
 assert_pdf
