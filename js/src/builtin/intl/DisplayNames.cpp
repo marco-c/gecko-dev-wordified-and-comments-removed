@@ -181,17 +181,6 @@ include
 "
 js
 /
-experimental
-/
-Intl
-.
-h
-"
-#
-include
-"
-js
-/
 GCVector
 .
 h
@@ -1212,7 +1201,7 @@ ldn
 }
 }
 bool
-JS
+js
 :
 :
 AddDisplayNamesConstructor
@@ -1277,7 +1266,7 @@ ctorValue
 ;
 }
 bool
-JS
+js
 :
 :
 AddMozDisplayNamesConstructor

@@ -741,17 +741,6 @@ js
 /
 experimental
 /
-Intl
-.
-h
-"
-#
-include
-"
-js
-/
-experimental
-/
 JitInfo
 .
 h
@@ -7167,7 +7156,7 @@ false
 if
 (
 !
-JS
+js
 :
 :
 AddMozDateTimeFormatConstructor
@@ -7184,7 +7173,7 @@ false
 if
 (
 !
-JS
+js
 :
 :
 AddMozDisplayNamesConstructor
