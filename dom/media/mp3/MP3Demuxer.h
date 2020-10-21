@@ -504,6 +504,11 @@ mEncoderPadding
 =
 0
 ;
+bool
+mEOS
+=
+false
+;
 }
 ;
 }
