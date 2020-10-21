@@ -5,6 +5,10 @@ absolute_import
 print_function
 unicode_literals
 from
+requests
+import
+HTTPError
+from
 taskgraph
 .
 util
@@ -261,6 +265,9 @@ exception
 return
 True
     
+try
+:
+        
 last_pushdate
 =
 get_artifact
@@ -279,6 +286,28 @@ yml
 pushdate
 "
 ]
+    
+except
+HTTPError
+as
+e
+:
+        
+if
+e
+.
+response
+.
+status_code
+=
+=
+404
+:
+            
+return
+False
+        
+raise
     
 if
 (
