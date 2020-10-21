@@ -2822,6 +2822,10 @@ if
 sizeChanged
 )
 {
+shouldPosition
+=
+true
+;
 SetXULBounds
 (
 aState
