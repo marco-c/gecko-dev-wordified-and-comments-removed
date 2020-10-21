@@ -3548,12 +3548,6 @@ case
 EditAction
 :
 :
-eRewrap
-:
-case
-EditAction
-:
-:
 eResizingElement
 :
 case
