@@ -46,6 +46,12 @@ namespace
 dom
 {
 class
+DebuggerNotification
+;
+class
+DebuggerNotificationObserver
+;
+class
 DebuggerNotificationManager
 final
 :
