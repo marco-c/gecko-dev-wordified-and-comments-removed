@@ -248,11 +248,6 @@ aInfo
 )
 ;
 void
-FlushPendingEvents
-(
-)
-;
-void
 Cleanup
 (
 )
@@ -271,12 +266,6 @@ mChannelParents
 ;
 Mutex
 mMutex
-;
-nsTArray
-<
-GamepadChangeEvent
->
-mPendingEvents
 ;
 std
 :
