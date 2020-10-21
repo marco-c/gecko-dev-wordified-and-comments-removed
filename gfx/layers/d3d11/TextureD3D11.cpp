@@ -1356,9 +1356,6 @@ ID3D11Texture2D
 aTexture
 )
 {
-#
-ifdef
-DEBUG
 LockD3DTexture
 (
 aTexture
@@ -1368,15 +1365,10 @@ get
 )
 )
 ;
-#
-endif
 aDT
 =
 nullptr
 ;
-#
-ifdef
-DEBUG
 UnlockD3DTexture
 (
 aTexture
@@ -1386,8 +1378,6 @@ get
 )
 )
 ;
-#
-endif
 aTexture
 =
 nullptr
