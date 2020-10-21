@@ -105,13 +105,6 @@ PropTypes
 string
 .
 isRequired
-processId
-:
-PropTypes
-.
-number
-.
-isRequired
 }
 ;
 const
