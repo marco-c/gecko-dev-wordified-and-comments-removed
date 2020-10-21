@@ -2016,6 +2016,16 @@ __file__
             
 options
             
+"
+-
+-
+duration
+"
+            
+"
+10
+"
+            
 tests
         
 ]
@@ -2038,6 +2048,9 @@ running
 tests
 "
 verbose
+=
+verbose
+display
 =
 verbose
         

@@ -16,6 +16,8 @@ from
 pathlib
 import
 Path
+import
+sys
 from
 mozperftest
 .
@@ -372,6 +374,24 @@ run_process
 return_value
 =
 0
+    
+mach_cmd
+.
+virtualenv_manager
+=
+MagicMock
+(
+)
+    
+mach_cmd
+.
+virtualenv_manager
+.
+python_path
+=
+sys
+.
+executable
     
 mach_args
 =

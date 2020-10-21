@@ -576,3 +576,15 @@ True
         
 return
 EXIT_EXCEPTION
+if
+__name__
+=
+=
+"
+__main__
+"
+:
+    
+main
+(
+)
