@@ -57,6 +57,13 @@ nsIClassifiedChannel
 .
 h
 "
+#
+include
+"
+nsIXULRuntime
+.
+h
+"
 extern
 mozilla
 :
@@ -383,10 +390,10 @@ IsDocumentLoad
 )
 &
 &
-StaticPrefs
+mozilla
 :
 :
-fission_sessionHistoryInParent_AtStartup
+SessionHistoryInParent
 (
 )
 &

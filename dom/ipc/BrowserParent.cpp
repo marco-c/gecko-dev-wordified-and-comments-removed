@@ -957,6 +957,13 @@ nsISecureBrowserUI
 h
 "
 #
+include
+"
+nsIXULRuntime
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -18112,10 +18119,10 @@ const
 if
 (
 !
-StaticPrefs
+mozilla
 :
 :
-fission_sessionHistoryInParent_AtStartup
+SessionHistoryInParent
 (
 )
 )

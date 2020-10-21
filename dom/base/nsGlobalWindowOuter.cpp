@@ -1274,6 +1274,13 @@ h
 #
 include
 "
+nsIXULRuntime
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h
@@ -28159,10 +28166,10 @@ false
 ;
 if
 (
-StaticPrefs
+mozilla
 :
 :
-fission_sessionHistoryInParent_AtStartup
+SessionHistoryInParent
 (
 )
 )

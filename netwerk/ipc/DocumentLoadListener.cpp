@@ -307,6 +307,13 @@ h
 #
 include
 "
+nsIXULRuntime
+.
+h
+"
+#
+include
+"
 nsMimeTypes
 .
 h
@@ -3028,10 +3035,10 @@ if
 documentContext
 &
 &
-StaticPrefs
+mozilla
 :
 :
-fission_sessionHistoryInParent_AtStartup
+SessionHistoryInParent
 (
 )
 )

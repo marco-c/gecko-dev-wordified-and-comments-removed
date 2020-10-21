@@ -140,14 +140,11 @@ if
 !
 SpecialPowers
 .
-getBoolPref
-(
-"
-fission
+Services
+.
+appinfo
 .
 sessionHistoryInParent
-"
-)
 )
 {
 await
