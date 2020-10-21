@@ -1135,11 +1135,11 @@ UniquePtr
 <
 SurfaceDescriptor
 >
-LookupSurfaceDescriptorForClientDrawTarget
+LookupSurfaceDescriptorForClientTexture
 (
 const
-uintptr_t
-aDrawTarget
+int64_t
+aTextureId
 )
 final
 ;

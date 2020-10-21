@@ -716,8 +716,8 @@ comparable
 struct
 SurfaceDescriptorRecorded
 {
-uintptr_t
-drawTarget
+int64_t
+textureId
 ;
 }
 ;

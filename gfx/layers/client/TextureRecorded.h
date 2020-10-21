@@ -22,6 +22,17 @@ CanvasChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+LayersTypes
+.
+h
+"
 namespace
 mozilla
 {
@@ -145,6 +156,9 @@ RecordedTextureData
 (
 )
 override
+;
+int64_t
+mTextureId
 ;
 RefPtr
 <
