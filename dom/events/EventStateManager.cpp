@@ -10275,7 +10275,12 @@ webNav
 >
 GoBack
 (
-true
+StaticPrefs
+:
+:
+browser_navigation_requireUserInteraction
+(
+)
 )
 ;
 else
@@ -10284,7 +10289,12 @@ webNav
 >
 GoForward
 (
-true
+StaticPrefs
+:
+:
+browser_navigation_requireUserInteraction
+(
+)
 )
 ;
 }
