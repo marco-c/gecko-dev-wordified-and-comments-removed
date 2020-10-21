@@ -278,6 +278,9 @@ mDuplex
 int32_t
 mNumCopies
 ;
+int32_t
+mNumPagesPerSheet
+;
 nsString
 mPrinter
 ;
