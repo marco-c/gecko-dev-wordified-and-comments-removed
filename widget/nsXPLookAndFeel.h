@@ -495,6 +495,13 @@ RecordTelemetry
 (
 )
 ;
+virtual
+void
+RecordLookAndFeelSpecificTelemetry
+(
+)
+{
+}
 static
 void
 OnPrefChanged
