@@ -555,6 +555,11 @@ mozilla
 UniqueFileHandle
 frozen_file_
 ;
+bool
+is_memfd_
+=
+false
+;
 #
 endif
 bool
