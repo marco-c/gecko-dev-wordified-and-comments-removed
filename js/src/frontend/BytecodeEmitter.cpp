@@ -48139,6 +48139,10 @@ getInstrumentationKindName
 (
 cx
 compilationInfo
+.
+stencil
+.
+parserAtoms
 kind
 )
 ;

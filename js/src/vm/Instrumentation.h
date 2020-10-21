@@ -28,11 +28,11 @@ js
 namespace
 frontend
 {
-struct
-CompilationInfo
-;
 class
 ParserAtom
+;
+class
+ParserAtomsTable
 ;
 }
 #
@@ -305,9 +305,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 InstrumentationKind
 kind
 )
