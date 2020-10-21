@@ -1086,9 +1086,9 @@ for
 PBackground
 :
 :
-LaunchRDDProcess
+EnsureRDDProcessAndCreateBridge
 sync
-LaunchRDDProcess
+EnsureRDDProcessAndCreateBridge
 (
 )
 returns
