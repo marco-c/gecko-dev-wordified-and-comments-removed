@@ -1162,6 +1162,16 @@ inspector
 ;
 this
 .
+highlighter
+=
+this
+.
+inspectorFront
+.
+highlighter
+;
+this
+.
 walker
 =
 this
@@ -8179,7 +8189,7 @@ async
 inspectNodeActor
 (
 nodeActor
-reason
+inspectFromAnnotation
 )
 {
 const
@@ -8287,6 +8297,8 @@ setNodeFront
 nodeFront
 {
 reason
+:
+inspectFromAnnotation
 }
 )
 ;

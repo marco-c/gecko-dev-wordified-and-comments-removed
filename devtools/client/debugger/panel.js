@@ -725,11 +725,17 @@ _unhighlight
 return
 ;
 }
+const
+forceUnHighlightInTest
+=
+true
+;
 return
 this
 .
 _unhighlight
 (
+forceUnHighlightInTest
 )
 ;
 }

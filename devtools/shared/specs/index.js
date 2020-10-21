@@ -650,6 +650,9 @@ types
 :
 [
 "
+highlighter
+"
+"
 customhighlighter
 "
 ]
