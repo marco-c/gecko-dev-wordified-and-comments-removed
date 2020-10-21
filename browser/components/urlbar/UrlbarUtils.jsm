@@ -604,6 +604,9 @@ tabmenu
 tabtosearch
 "
 "
+tabtosearch_onboard
+"
+"
 topsites_newtab
 "
 "
