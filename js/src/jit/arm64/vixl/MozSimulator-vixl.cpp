@@ -2594,11 +2594,10 @@ typedef
 int64_t
 (
 *
-Prototype_General_GeneralInt32Int32General
+Prototype_General_GeneralInt32General
 )
 (
 int64_t
-int32_t
 int32_t
 int64_t
 )
@@ -4347,7 +4346,7 @@ js
 jit
 :
 :
-Args_General_GeneralInt32Int32General
+Args_General_GeneralInt32General
 :
 {
 int64_t
@@ -4355,7 +4354,7 @@ ret
 =
 reinterpret_cast
 <
-Prototype_General_GeneralInt32Int32General
+Prototype_General_GeneralInt32General
 >
 (
 nativeFn
@@ -4364,7 +4363,6 @@ nativeFn
 x0
 x1
 x2
-x3
 )
 ;
 setGPR64Result

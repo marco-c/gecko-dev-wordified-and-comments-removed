@@ -1146,10 +1146,9 @@ SymbolicAddress
 StructNarrow
 _RoN
 _Infallible
-4
+3
 {
 _PTR
-_I32
 _I32
 _RoN
 _END
@@ -6151,7 +6150,6 @@ MakeABIFunctionType
 ArgType_General
 {
 ArgType_General
-ArgType_Int32
 ArgType_Int32
 ArgType_General
 }
