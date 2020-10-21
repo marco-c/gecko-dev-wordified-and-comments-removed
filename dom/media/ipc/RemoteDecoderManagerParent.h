@@ -35,7 +35,7 @@ namespace
 mozilla
 {
 class
-RemoteDecoderManagerThreadHolder
+PDMFactory
 ;
 class
 RemoteDecoderManagerParent
@@ -171,6 +171,12 @@ ShutdownVideoBridge
 ;
 bool
 OnManagerThread
+(
+)
+;
+PDMFactory
+&
+EnsurePDMFactory
 (
 )
 ;
@@ -336,6 +342,12 @@ nsCOMPtr
 nsISerialEventTarget
 >
 mThread
+;
+RefPtr
+<
+PDMFactory
+>
+mPDMFactory
 ;
 }
 ;
