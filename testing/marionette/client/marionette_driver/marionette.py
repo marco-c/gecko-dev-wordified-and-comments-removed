@@ -7253,6 +7253,16 @@ IOError
                 
 pass
             
+timeout_restart
+=
+self
+.
+shutdown_timeout
++
+self
+.
+startup_timeout
+            
 try
 :
                 
@@ -7262,9 +7272,7 @@ raise_for_port
 (
 timeout
 =
-self
-.
-shutdown_timeout
+timeout_restart
                                     
 check_process_status
 =
@@ -7340,9 +7348,7 @@ message
 .
 format
 (
-self
-.
-shutdown_timeout
+timeout_restart
 )
 )
 tb
