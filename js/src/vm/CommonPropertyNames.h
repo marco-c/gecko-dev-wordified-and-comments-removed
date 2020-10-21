@@ -5,15 +5,6 @@ vm_CommonPropertyNames_h
 define
 vm_CommonPropertyNames_h
 #
-include
-"
-js
-/
-ProtoKey
-.
-h
-"
-#
 define
 FOR_EACH_TINY_PROPERTYNAME
 (
