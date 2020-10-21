@@ -359,6 +359,9 @@ nsIThreadObserver
 >
 mObserver
 ;
+bool
+mIsMainThread
+;
 }
 ;
 extern

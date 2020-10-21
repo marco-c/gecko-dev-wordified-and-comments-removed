@@ -258,6 +258,10 @@ mLock
 EventsAvail
 "
 )
+mIsMainThread
+(
+aIsMainThread
+)
 {
 if
 (
@@ -421,10 +425,7 @@ obs
 {
 if
 (
-InnerQueueT
-:
-:
-SupportsPrioritization
+mIsMainThread
 )
 {
 auto
