@@ -2807,15 +2807,9 @@ startPageRange
 }
 settings
 .
-SetPrintOptions
-(
-Ci
-.
-nsIPrintSettings
-.
-kEnableSelectionRB
+isPrintSelectionRBEnabled
+=
 hasSelection
-)
 ;
 document
 .

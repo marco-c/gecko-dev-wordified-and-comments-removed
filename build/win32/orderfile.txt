@@ -111545,14 +111545,6 @@ AAE_NPAVPSHEntryParent
 ABHAB_NPAW4nsresult
 Z
 ?
-SetPrintOptionsBits
-nsPrintSettings
-UAG
-?
-AW4nsresult
-H
-Z
-?
 SetRealmPrincipals
 JS
 YAXPAVRealm
