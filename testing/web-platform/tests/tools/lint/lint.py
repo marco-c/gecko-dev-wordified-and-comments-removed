@@ -6863,6 +6863,48 @@ runs
 "
 )
     
+parser
+.
+add_argument
+(
+"
+-
+j
+"
+"
+-
+-
+jobs
+"
+type
+=
+int
+default
+=
+0
+                        
+help
+=
+"
+Level
+to
+parallelism
+to
+use
+(
+defaults
+to
+0
+which
+detects
+the
+number
+of
+CPUs
+)
+"
+)
+    
 return
 parser
 def
@@ -7059,6 +7101,18 @@ github_checks_text_file
 ]
 )
     
+jobs
+=
+kwargs
+.
+get
+(
+"
+jobs
+"
+0
+)
+    
 return
 lint
 (
@@ -7067,6 +7121,7 @@ paths
 output_format
 ignore_glob
 github_checks_outputter
+jobs
 )
 MIN_FILES_FOR_PARALLEL
 =
@@ -7083,6 +7138,9 @@ None
 github_checks_outputter
 =
 None
+jobs
+=
+0
 )
 :
     
@@ -7096,6 +7154,21 @@ int
 last
 =
 None
+    
+if
+jobs
+=
+=
+0
+:
+        
+jobs
+=
+multiprocessing
+.
+cpu_count
+(
+)
     
 with
 io
@@ -7447,6 +7520,10 @@ skip
 ]
     
 if
+jobs
+>
+1
+and
 len
 (
 to_check_content
@@ -7462,6 +7539,7 @@ multiprocessing
 .
 Pool
 (
+jobs
 )
         
 all_paths_result
