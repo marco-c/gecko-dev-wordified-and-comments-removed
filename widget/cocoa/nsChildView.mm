@@ -9466,7 +9466,7 @@ wheelEvent
 =
 pinchEvent
 .
-ToWidgetEvent
+ToWidgetWheelEvent
 (
 this
 )
@@ -9607,7 +9607,7 @@ event
 =
 panInput
 .
-ToWidgetEvent
+ToWidgetWheelEvent
 (
 this
 )
@@ -9726,7 +9726,7 @@ AsScrollWheelInput
 (
 )
 .
-ToWidgetEvent
+ToWidgetWheelEvent
 (
 this
 )
@@ -9915,7 +9915,7 @@ event
 =
 panInput
 .
-ToWidgetEvent
+ToWidgetWheelEvent
 (
 this
 )
@@ -10052,7 +10052,7 @@ AsScrollWheelInput
 (
 )
 .
-ToWidgetEvent
+ToWidgetWheelEvent
 (
 this
 )

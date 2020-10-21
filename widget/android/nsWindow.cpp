@@ -1916,7 +1916,7 @@ wheelEvent
 =
 input
 .
-ToWidgetEvent
+ToWidgetWheelEvent
 (
 window
 )
@@ -2598,7 +2598,7 @@ mouseEvent
 =
 input
 .
-ToWidgetEvent
+ToWidgetMouseEvent
 (
 window
 )
