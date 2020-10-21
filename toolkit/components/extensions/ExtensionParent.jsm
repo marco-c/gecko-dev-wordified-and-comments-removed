@@ -3582,9 +3582,16 @@ targetFront
 localTab
 )
 ;
+const
+descriptorFront
+=
 this
 .
 _currentDevToolsTarget
+.
+descriptorFront
+;
+descriptorFront
 .
 isDevToolsExtensionContext
 =

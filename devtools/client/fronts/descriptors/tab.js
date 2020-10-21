@@ -150,6 +150,12 @@ null
 ;
 this
 .
+isDevToolsExtensionContext
+=
+false
+;
+this
+.
 _onTargetDestroyed
 =
 this
@@ -901,8 +907,6 @@ return
 if
 (
 this
-.
-_targetFront
 .
 isDevToolsExtensionContext
 )
