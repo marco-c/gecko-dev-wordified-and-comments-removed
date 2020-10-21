@@ -2108,6 +2108,10 @@ e
 }
 if
 (
+!
+aAllowPinnedTabHostChange
+&
+&
 w
 .
 gBrowser
@@ -2120,8 +2124,14 @@ targetBrowser
 pinned
 &
 &
+url
 !
-aAllowPinnedTabHostChange
+=
+"
+about
+:
+crashcontent
+"
 )
 {
 try
