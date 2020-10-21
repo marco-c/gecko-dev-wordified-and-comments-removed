@@ -3723,7 +3723,7 @@ i
 if
 (
 !
-wasmSimdSupported
+wasmSimdEnabled
 (
 )
 )

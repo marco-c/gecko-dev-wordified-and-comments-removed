@@ -269,7 +269,7 @@ value
 ;
 if
 (
-wasmStreamingIsSupported
+wasmStreamingEnabled
 (
 )
 )

@@ -23,7 +23,7 @@ NUMWORKERS
 if
 (
 !
-wasmThreadsSupported
+wasmThreadsEnabled
 (
 )
 |

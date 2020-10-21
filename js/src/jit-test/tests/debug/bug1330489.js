@@ -12,7 +12,7 @@ js
 if
 (
 !
-wasmDebuggingIsSupported
+wasmDebuggingEnabled
 (
 )
 )

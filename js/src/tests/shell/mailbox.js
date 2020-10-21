@@ -342,7 +342,7 @@ WebAssembly
 |
 |
 !
-wasmThreadsSupported
+wasmThreadsEnabled
 (
 )
 )

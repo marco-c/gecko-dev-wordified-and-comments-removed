@@ -71,7 +71,7 @@ huge
 -
 memory
 !
-wasmHugeMemoryIsSupported
+wasmHugeMemorySupported
 (
 )
 ;

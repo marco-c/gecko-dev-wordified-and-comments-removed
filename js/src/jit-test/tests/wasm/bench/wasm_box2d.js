@@ -9681,7 +9681,7 @@ cacheEntryOrModule
 )
 )
 :
-wasmStreamingIsSupported
+wasmStreamingEnabled
 (
 )
 ?
@@ -22413,7 +22413,7 @@ assertEq
 cacheEntry
 .
 cached
-wasmCachingIsSupported
+wasmCachingEnabled
 (
 )
 )
@@ -22426,7 +22426,7 @@ cacheEntry
 ;
 if
 (
-wasmCachingIsSupported
+wasmCachingEnabled
 (
 )
 )

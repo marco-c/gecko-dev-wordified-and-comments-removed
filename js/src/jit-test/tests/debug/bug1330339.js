@@ -1,7 +1,7 @@
 if
 (
 !
-wasmDebuggingIsSupported
+wasmDebuggingEnabled
 (
 )
 )

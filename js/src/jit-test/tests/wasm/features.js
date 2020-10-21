@@ -116,7 +116,7 @@ releasedFeaturesMaybeDisabledAnyway
 '
 simd
 '
-wasmSimdSupported
+wasmSimdEnabled
 (
 )
 (
@@ -227,7 +227,7 @@ const
 '
 threads
 '
-wasmThreadsSupported
+wasmThreadsEnabled
 (
 )
 (

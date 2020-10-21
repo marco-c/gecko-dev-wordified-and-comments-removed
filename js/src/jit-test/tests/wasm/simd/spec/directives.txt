@@ -44,6 +44,6 @@ skip
 if
 :
 !
-wasmSimdSupported
+wasmSimdEnabled
 (
 )

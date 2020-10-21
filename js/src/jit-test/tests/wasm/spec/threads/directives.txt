@@ -71,7 +71,7 @@ huge
 -
 memory
 !
-wasmHugeMemoryIsSupported
+wasmHugeMemorySupported
 (
 )
 ;
@@ -98,6 +98,6 @@ skip
 if
 :
 !
-wasmThreadsSupported
+wasmThreadsEnabled
 (
 )
