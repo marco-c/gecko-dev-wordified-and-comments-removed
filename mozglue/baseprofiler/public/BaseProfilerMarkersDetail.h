@@ -195,6 +195,17 @@ DeserializerTag
 aTag
 )
 ;
+MFBT_API
+static
+Span
+<
+const
+MarkerTypeFunctions
+>
+MarkerTypeFunctionsArray
+(
+)
+;
 }
 ;
 template
