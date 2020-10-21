@@ -60,8 +60,8 @@ glean_dir
 from
 metrics_index
 import
-METRICS
-PINGS
+metrics_yamls
+pings_yamls
     
 input_files
 =
@@ -83,7 +83,7 @@ x
 for
 x
 in
-METRICS
+metrics_yamls
 ]
     
 input_files
@@ -107,7 +107,7 @@ x
 for
 x
 in
-PINGS
+pings_yamls
 ]
     
 from
