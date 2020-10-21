@@ -1589,22 +1589,6 @@ IMPORT_LIB_SUFFIX
 '
         
 '
-RUST_LIB_PREFIX
-'
-:
-'
-lib
-'
-        
-'
-RUST_LIB_SUFFIX
-'
-:
-'
-a
-'
-        
-'
 OBJ_SUFFIX
 '
 :
@@ -1665,22 +1649,6 @@ IMPORT_LIB_SUFFIX
 '
         
 '
-RUST_LIB_PREFIX
-'
-:
-'
-lib
-'
-        
-'
-RUST_LIB_SUFFIX
-'
-:
-'
-a
-'
-        
-'
 OBJ_SUFFIX
 '
 :
@@ -1737,21 +1705,6 @@ a
 '
         
 '
-RUST_LIB_PREFIX
-'
-:
-'
-'
-        
-'
-RUST_LIB_SUFFIX
-'
-:
-'
-lib
-'
-        
-'
 OBJ_SUFFIX
 '
 :
@@ -1800,21 +1753,6 @@ lib
         
 '
 IMPORT_LIB_SUFFIX
-'
-:
-'
-lib
-'
-        
-'
-RUST_LIB_PREFIX
-'
-:
-'
-'
-        
-'
-RUST_LIB_SUFFIX
 '
 :
 '
@@ -1881,22 +1819,6 @@ IMPORT_LIB_SUFFIX
 '
 :
 '
-'
-        
-'
-RUST_LIB_PREFIX
-'
-:
-'
-lib
-'
-        
-'
-RUST_LIB_SUFFIX
-'
-:
-'
-a
 '
         
 '
@@ -2571,14 +2493,6 @@ LIB_SUFFIX
             
 '
 IMPORT_LIB_SUFFIX
-'
-            
-'
-RUST_LIB_PREFIX
-'
-            
-'
-RUST_LIB_SUFFIX
 '
             
 '
