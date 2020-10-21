@@ -3010,6 +3010,10 @@ const
 char
 *
 aMarkerName
+const
+char
+*
+aMarkerText
 )
 ;
 void
