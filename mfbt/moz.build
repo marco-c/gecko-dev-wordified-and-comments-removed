@@ -105,6 +105,11 @@ BinarySearch
 h
 '
 '
+BitSet
+.
+h
+'
+'
 BloomFilter
 .
 h
