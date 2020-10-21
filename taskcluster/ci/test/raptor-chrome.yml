@@ -1156,7 +1156,7 @@ youtube
 -
 playback
 -
-h264
+hfr
 -
 chrome
 :
@@ -1166,7 +1166,7 @@ description
 Raptor
 YouTube
 Playback
-H264
+HFR
 on
 Chrome
 "
@@ -1180,7 +1180,7 @@ youtube
 -
 playback
 -
-h264
+hfr
 -
 chrome
 treeherder
@@ -1193,7 +1193,7 @@ ChR
 (
 ytp
 -
-h264
+hfr
 )
 max
 -
@@ -1234,9 +1234,7 @@ youtube
 -
 playback
 -
-h264
--
-std
+hfr
 -
 -
 -
