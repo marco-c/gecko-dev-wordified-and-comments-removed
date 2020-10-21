@@ -715,10 +715,13 @@ tile_caches
 {
 frame_state
 .
-num_visible_primitives
-+
-=
-1
+profile_counters
+.
+visible_primitives
+.
+inc
+(
+)
 ;
 }
 else

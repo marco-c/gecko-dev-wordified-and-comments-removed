@@ -3533,12 +3533,6 @@ UpdateWebRenderBatchingParameters
 (
 )
 ;
-static
-void
-UpdateWebRenderProfilerUI
-(
-)
-;
 Maybe
 <
 CollectedFramesParams

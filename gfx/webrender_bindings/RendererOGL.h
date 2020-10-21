@@ -392,15 +392,6 @@ MemoryReport
 aReport
 )
 ;
-void
-SetProfilerUI
-(
-const
-nsCString
-&
-aUI
-)
-;
 wr
 :
 :
