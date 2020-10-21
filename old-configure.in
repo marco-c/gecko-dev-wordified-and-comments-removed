@@ -15494,6 +15494,13 @@ apple
 -
 darwin
 *
+|
+aarch64
+-
+apple
+-
+darwin
+*
 )
 MOZ_CRASHREPORTER
 =
