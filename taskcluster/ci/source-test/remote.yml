@@ -372,9 +372,6 @@ on
 projects
 :
 [
-"
-trunk
-"
 ]
 treeherder
 :
