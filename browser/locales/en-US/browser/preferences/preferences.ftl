@@ -291,6 +291,16 @@ by
 your
 organization
 .
+category
+-
+list
+=
+.
+aria
+-
+label
+=
+Categories
 pane
 -
 general
