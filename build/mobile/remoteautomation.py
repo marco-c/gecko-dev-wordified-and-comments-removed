@@ -1761,6 +1761,16 @@ newLogContent
 return
 False
         
+self
+.
+stdoutlen
++
+=
+len
+(
+newLogContent
+)
+        
 newLogContent
 =
 six
@@ -1773,16 +1783,6 @@ errors
 '
 replace
 '
-)
-        
-self
-.
-stdoutlen
-+
-=
-len
-(
-newLogContent
 )
         
 if

@@ -183,7 +183,6 @@ marionette
 test
 jstestbrowser
 jstests
-mochitest
 mozharness
 prettier
 -
