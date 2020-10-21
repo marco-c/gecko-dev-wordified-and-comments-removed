@@ -8289,12 +8289,8 @@ fail
 invalid
 types
 for
-old
--
-style
-'
+untyped
 select
-'
 "
 )
 ;
