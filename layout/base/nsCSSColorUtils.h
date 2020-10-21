@@ -46,6 +46,10 @@ b
 )
 )
 )
+#
+define
+NS_MAX_LUMINOSITY
+255000
 void
 NS_GetSpecial3DColors
 (
