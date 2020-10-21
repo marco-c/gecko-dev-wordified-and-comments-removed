@@ -5980,6 +5980,17 @@ allocator
 masm
 )
 ;
+if
+(
+type
+!
+=
+ReferenceType
+:
+:
+TYPE_STRING
+)
+{
 LiveGeneralRegisterSet
 saveRegs
 ;
@@ -6012,6 +6023,7 @@ saveRegs
 return
 false
 ;
+}
 }
 LoadTypedThingData
 (

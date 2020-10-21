@@ -133,7 +133,7 @@ include
 "
 builtin
 /
-TypedArrayConstants
+TypedObjectConstants
 .
 h
 "

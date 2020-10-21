@@ -12819,10 +12819,7 @@ obj
 )
 =
 =
-TypeDescr
-:
-:
-SlotCount
+JS_DESCR_SLOTS
 )
 ;
 for
@@ -12834,10 +12831,7 @@ i
 ;
 i
 <
-TypeDescr
-:
-:
-SlotCount
+JS_DESCR_SLOTS
 ;
 i
 +

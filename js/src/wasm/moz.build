@@ -71,11 +71,6 @@ AsmJS
 cpp
 '
 '
-TypedObject
-.
-cpp
-'
-'
 WasmBaselineCompile
 .
 cpp

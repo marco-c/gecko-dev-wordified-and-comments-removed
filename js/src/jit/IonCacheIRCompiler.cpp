@@ -9239,6 +9239,17 @@ allocator
 masm
 )
 ;
+if
+(
+type
+!
+=
+ReferenceType
+:
+:
+TYPE_STRING
+)
+{
 FailurePath
 *
 failure
@@ -9276,6 +9287,7 @@ label
 )
 )
 ;
+}
 LoadTypedThingData
 (
 masm
