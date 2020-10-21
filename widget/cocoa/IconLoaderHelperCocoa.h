@@ -103,6 +103,7 @@ aScaleFactor
 0f
 )
 ;
+NS_DECL_ISUPPORTS
 nsresult
 OnComplete
 (
