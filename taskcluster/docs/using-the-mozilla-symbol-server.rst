@@ -1026,6 +1026,10 @@ IGNORED
 files
 =
 179
+.
+.
+_Downloading_symbols_on_Linux_Mac_OS_X
+:
 Downloading
 symbols
 on

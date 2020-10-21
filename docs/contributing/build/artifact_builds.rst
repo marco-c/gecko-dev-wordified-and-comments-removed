@@ -153,16 +153,6 @@ mozconfig
 Configuring
 Build
 Options
-#
-using
--
-a
--
-mozconfig
--
-configuration
--
-file
 >
 file
 :

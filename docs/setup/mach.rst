@@ -637,6 +637,10 @@ mach
 static
 -
 analysis
+.
+.
+_mach_and_mozconfigs
+:
 mach
 and
 mozconfigs
@@ -858,6 +862,10 @@ objdir
 firefox
 mach
 build
+.
+.
+_Adding_mach_to_your_shell
+:
 Adding
 mach
 to
