@@ -444,7 +444,7 @@ true
 SET_DEFAULT
 (
 disableOptimizationLevels
-false
+true
 )
 ;
 SET_DEFAULT
@@ -468,7 +468,7 @@ true
 SET_DEFAULT
 (
 warpBuilder
-false
+true
 )
 ;
 SET_DEFAULT
@@ -534,7 +534,7 @@ trialInliningInitialWarmUpCount
 SET_DEFAULT
 (
 normalIonWarmUpThreshold
-1000
+1500
 )
 ;
 SET_DEFAULT
