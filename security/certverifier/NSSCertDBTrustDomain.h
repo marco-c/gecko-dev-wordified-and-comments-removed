@@ -378,6 +378,8 @@ DistrustedCAPolicy
 distrustedCAPolicy
 CRLiteMode
 crliteMode
+uint64_t
+crliteCTMergeDelaySeconds
 const
 OriginAttributes
 &
@@ -1069,6 +1071,9 @@ mDistrustedCAPolicy
 ;
 CRLiteMode
 mCRLiteMode
+;
+uint64_t
+mCRLiteCTMergeDelaySeconds
 ;
 bool
 mSawDistrustedCAByPolicyError

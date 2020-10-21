@@ -459,6 +459,8 @@ DistrustedCAPolicy
 distrustedCAPolicy
 CRLiteMode
 crliteMode
+uint64_t
+crliteCTMergeDelaySeconds
 const
 Vector
 <
@@ -518,6 +520,10 @@ distrustedCAPolicy
 mCRLiteMode
 (
 crliteMode
+)
+mCRLiteCTMergeDelaySeconds
+(
+crliteCTMergeDelaySeconds
 )
 {
 LoadKnownCTLogs
@@ -2854,6 +2860,7 @@ NetscapeStepUpPolicy
 NeverMatch
 mDistrustedCAPolicy
 mCRLiteMode
+mCRLiteCTMergeDelaySeconds
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
@@ -3114,6 +3121,7 @@ i
 mNetscapeStepUpPolicy
 mDistrustedCAPolicy
 mCRLiteMode
+mCRLiteCTMergeDelaySeconds
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
@@ -3492,6 +3500,7 @@ j
 mNetscapeStepUpPolicy
 mDistrustedCAPolicy
 mCRLiteMode
+mCRLiteCTMergeDelaySeconds
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
@@ -3769,6 +3778,7 @@ Allowed
 mNetscapeStepUpPolicy
 mDistrustedCAPolicy
 mCRLiteMode
+mCRLiteCTMergeDelaySeconds
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
@@ -3837,6 +3847,7 @@ NetscapeStepUpPolicy
 NeverMatch
 mDistrustedCAPolicy
 mCRLiteMode
+mCRLiteCTMergeDelaySeconds
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
@@ -3943,6 +3954,7 @@ NetscapeStepUpPolicy
 NeverMatch
 mDistrustedCAPolicy
 mCRLiteMode
+mCRLiteCTMergeDelaySeconds
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs

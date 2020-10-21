@@ -102,6 +102,8 @@ DistrustedCAPolicy
 distrustedCAPolicy
 CRLiteMode
 crliteMode
+uint64_t
+crliteCTMergeDelaySeconds
 const
 Vector
 <
@@ -131,6 +133,7 @@ netscapeStepUpPolicy
 ctMode
 distrustedCAPolicy
 crliteMode
+crliteCTMergeDelaySeconds
 thirdPartyCerts
 )
 {
