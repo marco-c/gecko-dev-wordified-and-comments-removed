@@ -27858,6 +27858,11 @@ SetIsReusedAfter
 }
 if
 (
+!
+connTCP
+|
+|
+(
 mEnt
 -
 >
@@ -27898,6 +27903,7 @@ mConnInfo
 >
 UsingConnect
 (
+)
 )
 )
 {
