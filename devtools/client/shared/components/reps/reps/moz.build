@@ -157,6 +157,13 @@ promise
 js
 '
 '
+prop
+-
+rep
+.
+js
+'
+'
 regexp
 .
 js
