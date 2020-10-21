@@ -10168,7 +10168,7 @@ code
 (
 )
 .
-setJitEntry
+setJitEntryIfNull
 (
 funcIndex
 interpStub
