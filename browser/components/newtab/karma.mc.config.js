@@ -346,7 +346,7 @@ functions
 80
 branches
 :
-65
+60
 }
 "
 lib
