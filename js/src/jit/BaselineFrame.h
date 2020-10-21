@@ -41,6 +41,15 @@ include
 "
 vm
 /
+JSContext
+.
+h
+"
+#
+include
+"
+vm
+/
 Stack
 .
 h
@@ -53,6 +62,9 @@ jit
 {
 class
 ICEntry
+;
+class
+ICScript
 ;
 class
 BaselineFrame
