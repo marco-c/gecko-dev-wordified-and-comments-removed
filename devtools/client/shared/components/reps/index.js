@@ -42,6 +42,8 @@ require
 object
 -
 inspector
+/
+index
 "
 )
 ;

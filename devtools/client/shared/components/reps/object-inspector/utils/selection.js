@@ -5,8 +5,6 @@ doc
 =
 document
 )
-:
-boolean
 {
 const
 selection
