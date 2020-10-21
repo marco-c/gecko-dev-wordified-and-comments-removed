@@ -403,6 +403,9 @@ AString
 aColor
 )
 ;
+[
+setter_can_run_script
+]
 attribute
 boolean
 isCSSEnabled

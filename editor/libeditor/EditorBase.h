@@ -1360,6 +1360,7 @@ return
 mFlags
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 nsresult
 AddFlags
 (
@@ -1404,6 +1405,7 @@ kNewFlags
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveFlags
 (
@@ -1449,6 +1451,7 @@ kNewFlags
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 nsresult
 AddAndRemoveFlags
 (
