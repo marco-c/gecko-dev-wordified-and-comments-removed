@@ -304,9 +304,12 @@ already_AddRefed
 mozilla
 :
 :
-PresShell
+dom
+:
+:
+Document
 >
-GetPresShell
+GetDocument
 (
 )
 ;
@@ -496,7 +499,7 @@ nsWeakPtr
 mDocShell
 ;
 nsWeakPtr
-mPresShell
+mDocument
 ;
 nsWeakPtr
 mSelectionController
