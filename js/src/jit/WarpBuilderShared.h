@@ -103,6 +103,10 @@ WrappedFunction
 target
 =
 nullptr
+bool
+isDOMCall
+=
+false
 )
 ;
 MInstruction
