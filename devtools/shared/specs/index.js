@@ -650,9 +650,6 @@ types
 :
 [
 "
-highlighter
-"
-"
 customhighlighter
 "
 ]
