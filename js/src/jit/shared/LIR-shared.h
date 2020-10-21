@@ -40697,7 +40697,7 @@ public
 LInstructionHelper
 <
 0
-1
+2
 0
 >
 {
@@ -40728,6 +40728,8 @@ LInstructionHelper
 <
 0
 INT64_PIECES
++
+1
 0
 >
 {
@@ -40737,13 +40739,16 @@ LIR_HEADER
 (
 WasmReturnI64
 )
-explicit
 LWasmReturnI64
 (
 const
 LInt64Allocation
 &
 input
+const
+LAllocation
+&
+tls
 )
 :
 LInstructionHelper
@@ -40757,6 +40762,12 @@ setInt64Operand
 input
 )
 ;
+setOperand
+(
+INT64_PIECES
+tls
+)
+;
 }
 }
 ;
@@ -40767,7 +40778,7 @@ public
 LInstructionHelper
 <
 0
-0
+1
 0
 >
 {
