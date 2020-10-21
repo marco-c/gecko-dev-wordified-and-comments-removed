@@ -13715,6 +13715,11 @@ mNextControlNumber
 PreloadService
 mPreloadService
 ;
+void
+AccumulateJSTelemetry
+(
+)
+;
 public
 :
 JS
@@ -13767,6 +13772,11 @@ mSavedResolutionBeforeMVM
 aResolution
 ;
 }
+void
+LoadEventFired
+(
+)
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

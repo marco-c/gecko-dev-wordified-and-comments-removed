@@ -1484,6 +1484,12 @@ enterRealmDepthIgnoringJit_
 ;
 public
 :
+JS
+:
+:
+JSTimers
+timers
+;
 struct
 DebuggerVectorEntry
 {
