@@ -878,8 +878,7 @@ id
 ;
 }
 static
-void
-*
+DynFn
 GetVMFunctionTarget
 (
 VMFunctionId
@@ -887,6 +886,8 @@ id
 )
 {
 return
+DynFn
+{
 vmFunctionTargets
 [
 size_t
@@ -894,11 +895,11 @@ size_t
 id
 )
 ]
+}
 ;
 }
 static
-void
-*
+DynFn
 GetVMFunctionTarget
 (
 TailCallVMFunctionId
@@ -906,6 +907,8 @@ id
 )
 {
 return
+DynFn
+{
 tailCallVMFunctionTargets
 [
 size_t
@@ -913,6 +916,7 @@ size_t
 id
 )
 ]
+}
 ;
 }
 template
