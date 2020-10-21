@@ -109,6 +109,13 @@ RESUME_INDEX_SLOT
 RESERVED_SLOTS
 }
 ;
+static
+constexpr
+uint32_t
+FixedSlotLimit
+=
+256
+;
 public
 :
 static
