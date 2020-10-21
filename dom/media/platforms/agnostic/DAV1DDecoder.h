@@ -212,6 +212,16 @@ ImageContainer
 >
 mImageContainer
 ;
+const
+RefPtr
+<
+layers
+:
+:
+KnowsCompositor
+>
+mImageAllocator
+;
 MediaRawDataHashtable
 mDecodingBuffers
 ;

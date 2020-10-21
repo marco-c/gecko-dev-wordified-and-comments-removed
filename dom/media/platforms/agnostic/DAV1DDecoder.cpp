@@ -114,6 +114,12 @@ aParams
 .
 mImageContainer
 )
+mImageAllocator
+(
+aParams
+.
+mKnowsCompositor
+)
 {
 }
 RefPtr
@@ -1787,6 +1793,7 @@ p
 .
 h
 )
+mImageAllocator
 )
 ;
 }
