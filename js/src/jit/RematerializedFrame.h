@@ -30,6 +30,15 @@ h
 #
 include
 "
+jit
+/
+ScriptFromCalleeToken
+.
+h
+"
+#
+include
+"
 js
 /
 UniquePtr

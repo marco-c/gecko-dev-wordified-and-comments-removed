@@ -41,6 +41,15 @@ h
 #
 include
 "
+jit
+/
+ScriptFromCalleeToken
+.
+h
+"
+#
+include
+"
 vm
 /
 JSContext

@@ -104,6 +104,15 @@ include
 "
 jit
 /
+ScriptFromCalleeToken
+.
+h
+"
+#
+include
+"
+jit
+/
 VMFunctions
 .
 h

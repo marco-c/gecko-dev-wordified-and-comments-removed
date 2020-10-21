@@ -40,6 +40,15 @@ JitFrames
 .
 h
 "
+#
+include
+"
+jit
+/
+ScriptFromCalleeToken
+.
+h
+"
 namespace
 js
 {
