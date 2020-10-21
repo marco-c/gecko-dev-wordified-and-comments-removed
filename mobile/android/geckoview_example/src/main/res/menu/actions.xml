@@ -75,6 +75,13 @@ tracking_protection_ex
 "
 android
 :
+checkable
+=
+"
+true
+"
+android
+:
 id
 =
 "
