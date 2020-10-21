@@ -346,7 +346,7 @@ realIntlObj
 if
 (
 !
-js
+JS
 :
 :
 AddMozDateTimeFormatConstructor
