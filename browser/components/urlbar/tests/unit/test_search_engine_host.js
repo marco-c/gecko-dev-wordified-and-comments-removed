@@ -521,10 +521,15 @@ engine
 name
 uri
 :
+UrlbarUtils
+.
+stripPublicSuffixFromHost
+(
 engine
 .
 getResultDomain
 (
+)
 )
 keywordOffer
 :
