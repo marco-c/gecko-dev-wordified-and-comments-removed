@@ -1564,18 +1564,6 @@ template
 "
 )
 ;
-var
-resultDomain
-=
-element
-.
-getAttribute
-(
-"
-resultdomain
-"
-)
-;
 let
 rels
 =
@@ -1661,7 +1649,6 @@ EngineURL
 type
 method
 template
-resultDomain
 )
 ;
 }
