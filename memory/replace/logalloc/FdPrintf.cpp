@@ -254,7 +254,13 @@ l
 =
 log10
 (
+static_cast
+<
+double
+>
+(
 n
+)
 )
 ;
 double
