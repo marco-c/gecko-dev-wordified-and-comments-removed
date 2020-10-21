@@ -862,6 +862,12 @@ RefIsNull
 RefFunc
 =
 0xd2
+RefAsNonNull
+=
+0xd3
+BrOnNull
+=
+0xd4
 RefEq
 =
 0xd5
