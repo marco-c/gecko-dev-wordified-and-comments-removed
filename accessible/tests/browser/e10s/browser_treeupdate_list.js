@@ -120,7 +120,7 @@ children
 {
 role
 :
-ROLE_STATICTEXT
+ROLE_LISTITEM_MARKER
 children
 :
 [
