@@ -23018,7 +23018,7 @@ cx
 &
 &
 !
-InitTypedObjectNamespace
+InitTypedObjectSlots
 (
 cx
 wasm
