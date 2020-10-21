@@ -40,6 +40,10 @@ gkrust_shared
 ;
 extern
 crate
+moz_task_gtest
+;
+extern
+crate
 mp4parse_gtest
 ;
 extern
