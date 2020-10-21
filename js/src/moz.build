@@ -3473,7 +3473,7 @@ msg
 '
 builtin
 /
-TypedObjectConstants
+TypedArrayConstants
 .
 h
 '
@@ -3653,13 +3653,6 @@ js
 builtin
 /
 TypedArray
-.
-js
-'
-'
-builtin
-/
-TypedObject
 .
 js
 '

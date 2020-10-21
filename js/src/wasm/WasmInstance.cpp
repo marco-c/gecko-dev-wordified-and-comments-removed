@@ -7488,7 +7488,7 @@ kind
 )
 !
 =
-type
+TypeKind
 :
 :
 Struct
