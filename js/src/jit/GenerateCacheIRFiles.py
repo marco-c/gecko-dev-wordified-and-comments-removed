@@ -539,15 +539,15 @@ writeBaseScriptField
 )
     
 '
-RawWordField
+RawInt32Field
 '
 :
 (
 '
-uintptr_t
+uint32_t
 '
 '
-writeRawWordField
+writeRawInt32Field
 '
 )
     
@@ -1517,7 +1517,7 @@ stubOffset
 )
     
 '
-RawWordField
+RawInt32Field
 '
 :
 (
@@ -2325,7 +2325,7 @@ spewField
 '
     
 '
-RawWordField
+RawInt32Field
 '
 :
 '
@@ -3141,7 +3141,7 @@ BaseScriptField
 1
     
 '
-RawWordField
+RawInt32Field
 '
 :
 1

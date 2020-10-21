@@ -1679,7 +1679,7 @@ expected
 ObjectField
 nargsAndFlags
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -1706,7 +1706,7 @@ expected
 BaseScriptField
 nargsAndFlags
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -2127,7 +2127,7 @@ expected
 ObjId
 slot
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -2714,7 +2714,7 @@ obj
 ObjId
 offset
 :
-RawWordField
+RawInt32Field
 rhs
 :
 ValId
@@ -2738,7 +2738,7 @@ obj
 ObjId
 offset
 :
-RawWordField
+RawInt32Field
 rhs
 :
 ValId
@@ -2762,7 +2762,7 @@ obj
 ObjId
 offset
 :
-RawWordField
+RawInt32Field
 rhs
 :
 ValId
@@ -2795,7 +2795,7 @@ obj
 ObjId
 offset
 :
-RawWordField
+RawInt32Field
 rhs
 :
 ValId
@@ -2828,7 +2828,7 @@ obj
 ObjId
 offset
 :
-RawWordField
+RawInt32Field
 rhs
 :
 ValId
@@ -2843,7 +2843,7 @@ newShape
 ShapeField
 numNewSlots
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -2864,7 +2864,7 @@ obj
 ObjId
 offset
 :
-RawWordField
+RawInt32Field
 layout
 :
 TypedThingLayoutImm
@@ -2894,7 +2894,7 @@ obj
 ObjId
 offset
 :
-RawWordField
+RawInt32Field
 layout
 :
 TypedThingLayoutImm
@@ -3095,7 +3095,7 @@ obj
 ObjId
 offset
 :
-RawWordField
+RawInt32Field
 rhs
 :
 ValId
@@ -4415,7 +4415,7 @@ sameRealm
 BoolImm
 nargsAndFlags
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -4448,7 +4448,7 @@ sameRealm
 BoolImm
 nargsAndFlags
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -4484,7 +4484,7 @@ sameRealm
 BoolImm
 nargsAndFlags
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -4863,7 +4863,7 @@ obj
 ObjId
 offset
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -4884,7 +4884,7 @@ obj
 ObjId
 offset
 :
-RawWordField
+RawInt32Field
 type
 :
 ValueTypeImm
@@ -4908,7 +4908,7 @@ obj
 ObjId
 offset
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -4935,7 +4935,7 @@ typeDescr
 ByteImm
 offset
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -5481,7 +5481,7 @@ obj
 ObjId
 offset
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -5502,7 +5502,7 @@ obj
 ObjId
 offset
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -5640,7 +5640,7 @@ sameRealm
 BoolImm
 nargsAndFlags
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -5673,7 +5673,7 @@ sameRealm
 BoolImm
 nargsAndFlags
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -5703,7 +5703,7 @@ sameRealm
 BoolImm
 nargsAndFlags
 :
-RawWordField
+RawInt32Field
 -
 name
 :
@@ -5907,7 +5907,7 @@ args
 :
 val
 :
-RawWordField
+RawInt32Field
 result
 :
 Int32Id

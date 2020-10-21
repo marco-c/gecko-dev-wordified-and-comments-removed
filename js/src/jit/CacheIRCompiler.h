@@ -3355,7 +3355,7 @@ StubField
 Type
 :
 :
-RawWord
+RawInt32
 )
 ;
 }
@@ -3387,7 +3387,7 @@ StubField
 Type
 :
 :
-RawWord
+RawInt32
 )
 ;
 }

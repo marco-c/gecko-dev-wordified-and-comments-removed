@@ -6738,7 +6738,7 @@ StubField
 Type
 :
 :
-RawWord
+RawInt32
 :
 case
 StubField
@@ -7126,7 +7126,7 @@ StubField
 Type
 :
 :
-RawWord
+RawInt32
 :
 case
 StubField
@@ -12007,7 +12007,7 @@ StubField
 Type
 :
 :
-RawWord
+RawInt32
 )
 ;
 masm
@@ -31220,7 +31220,7 @@ StubField
 Type
 :
 :
-RawWord
+RawInt32
 )
 ;
 AutoAvailableFloatRegister
@@ -31673,7 +31673,7 @@ StubField
 Type
 :
 :
-RawWord
+RawInt32
 )
 ;
 Maybe
@@ -32182,7 +32182,7 @@ StubField
 Type
 :
 :
-RawWord
+RawInt32
 )
 ;
 emitLoadStubField
@@ -40186,7 +40186,7 @@ StubField
 Type
 :
 :
-RawWord
+RawInt32
 :
 masm
 .
@@ -40367,7 +40367,7 @@ StubField
 Type
 :
 :
-RawWord
+RawInt32
 :
 masm
 .
@@ -40432,7 +40432,7 @@ StubField
 Type
 :
 :
-RawWord
+RawInt32
 )
 ;
 if
@@ -41763,7 +41763,7 @@ StubField
 Type
 :
 :
-RawWord
+RawInt32
 )
 ;
 emitLoadStubField
