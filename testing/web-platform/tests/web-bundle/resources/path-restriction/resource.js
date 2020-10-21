@@ -3,7 +3,7 @@ const
 result
 =
 '
-resource1
+resource
 from
 path
 -
