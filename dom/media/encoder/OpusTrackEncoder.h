@@ -210,11 +210,8 @@ AudioDataValue
 >
 mResampledLeftover
 ;
-media
-:
-:
-TimeUnit
-mOutputTimeStamp
+uint64_t
+mNumOutputFrames
 ;
 }
 ;
