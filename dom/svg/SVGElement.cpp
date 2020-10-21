@@ -6557,6 +6557,17 @@ aAttr
 {
 if
 (
+IsSVGElement
+(
+nsGkAtoms
+:
+:
+svg
+)
+)
+{
+if
+(
 aAttr
 =
 =
@@ -6587,6 +6598,7 @@ nsGkAtoms
 :
 onSVGScroll
 ;
+}
 if
 (
 aAttr
