@@ -480,8 +480,6 @@ Init
 (
 int
 aChannels
-int
-aSamplingRate
 )
 {
 NS_ENSURE_TRUE
@@ -514,7 +512,7 @@ aChannels
 ;
 NS_ENSURE_TRUE
 (
-aSamplingRate
+mTrackRate
 >
 =
 8000
@@ -523,7 +521,7 @@ NS_ERROR_INVALID_ARG
 ;
 NS_ENSURE_TRUE
 (
-aSamplingRate
+mTrackRate
 <
 =
 192000
@@ -554,7 +552,7 @@ supportedSamplingRates
 .
 Contains
 (
-aSamplingRate
+mTrackRate
 )
 )
 {
@@ -566,7 +564,7 @@ mResampler
 speex_resampler_init
 (
 mChannels
-aSamplingRate
+mTrackRate
 kOpusSamplingRate
 SPEEX_RESAMPLER_QUALITY_DEFAULT
 &
@@ -586,18 +584,6 @@ NS_ERROR_FAILURE
 ;
 }
 }
-mSamplingRate
-=
-aSamplingRate
-;
-NS_ENSURE_TRUE
-(
-mSamplingRate
->
-0
-NS_ERROR_FAILURE
-)
-;
 int
 error
 =
@@ -722,7 +708,7 @@ mResampler
 ?
 kOpusSamplingRate
 :
-mSamplingRate
+mTrackRate
 ;
 }
 int
@@ -818,7 +804,7 @@ meta
 >
 mSamplingFrequency
 =
-mSamplingRate
+mTrackRate
 ;
 SerializeOpusIdHeader
 (
@@ -832,7 +818,7 @@ GetOutputSampleRate
 (
 )
 )
-mSamplingRate
+mTrackRate
 &
 meta
 -
@@ -1023,7 +1009,7 @@ GetPacketDuration
 framesLeft
 )
 *
-mSamplingRate
+mTrackRate
 /
 kOpusSamplingRate
 +
@@ -1310,7 +1296,7 @@ frameCopied
 *
 kOpusSamplingRate
 /
-mSamplingRate
+mTrackRate
 +
 1
 ;
@@ -1584,7 +1570,7 @@ frameCopied
 (
 kOpusSamplingRate
 /
-mSamplingRate
+mTrackRate
 )
 ;
 }

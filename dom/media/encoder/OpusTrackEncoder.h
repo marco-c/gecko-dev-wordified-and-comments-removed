@@ -160,8 +160,6 @@ Init
 (
 int
 aChannels
-int
-aSamplingRate
 )
 override
 ;

@@ -278,6 +278,7 @@ mInitCounter
 bool
 mSuspended
 ;
+const
 TrackRate
 mTrackRate
 ;
@@ -318,10 +319,6 @@ TrackEncoder
 aTrackRate
 )
 mChannels
-(
-0
-)
-mSamplingRate
 (
 0
 )
@@ -554,17 +551,12 @@ Init
 (
 int
 aChannels
-int
-aSamplingRate
 )
 =
 0
 ;
 int
 mChannels
-;
-int
-mSamplingRate
 ;
 AudioSegment
 mOutgoingBuffer
