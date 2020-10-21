@@ -98,9 +98,6 @@ undef
 JS_TRACE_LOGGING
 #
 undef
-JS_HAS_TYPED_OBJECTS
-#
-undef
 JS_HAS_INTL_API
 #
 undef

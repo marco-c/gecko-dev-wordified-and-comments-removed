@@ -156,16 +156,6 @@ Symbol
 "
 SyntaxError
 "
-{
-name
-:
-"
-TypedObject
-"
-nightly
-:
-true
-}
 "
 TypeError
 "
