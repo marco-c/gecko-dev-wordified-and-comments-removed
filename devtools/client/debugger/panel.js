@@ -958,13 +958,13 @@ column
 async
 selectWorker
 (
-workerTargetFront
+workerDescriptorFront
 )
 {
 const
 threadActorID
 =
-workerTargetFront
+workerDescriptorFront
 .
 threadFront
 ?
@@ -1076,7 +1076,7 @@ this
 .
 getSourceByURL
 (
-workerTargetFront
+workerDescriptorFront
 .
 _url
 )

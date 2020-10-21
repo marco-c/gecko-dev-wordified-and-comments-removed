@@ -38,9 +38,4 @@ webextension
 .
 js
 '
-'
-worker
-.
-js
-'
 )

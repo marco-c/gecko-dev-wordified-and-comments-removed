@@ -38,7 +38,7 @@ workers
 "
 array
 :
-workerTarget
+workerDescriptor
 "
 }
 )

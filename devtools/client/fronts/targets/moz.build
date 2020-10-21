@@ -21,9 +21,4 @@ mixin
 .
 js
 '
-'
-worker
-.
-js
-'
 )

@@ -43,7 +43,7 @@ lazyRequireGetter
 (
 this
 "
-WorkerTargetActor
+WorkerDescriptorActor
 "
 "
 devtools
@@ -52,7 +52,7 @@ server
 /
 actors
 /
-targets
+descriptors
 /
 worker
 "
@@ -578,7 +578,7 @@ set
 (
 dbg
 new
-WorkerTargetActor
+WorkerDescriptorActor
 (
 this
 .
