@@ -195,6 +195,12 @@ JS
 UTF8Chars
 ;
 using
+JS
+:
+:
+UTF8CharsZ
+;
+using
 namespace
 js
 ;

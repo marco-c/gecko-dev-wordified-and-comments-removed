@@ -55,9 +55,6 @@ JS
 class
 WTF8Chars
 ;
-class
-UTF8CharsZ
-;
 using
 ValueVector
 =
@@ -241,12 +238,6 @@ JS
 :
 :
 UniqueTwoByteChars
-;
-using
-JS
-:
-:
-UTF8CharsZ
 ;
 using
 JS
