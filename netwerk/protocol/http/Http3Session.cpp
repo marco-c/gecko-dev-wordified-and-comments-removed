@@ -441,6 +441,10 @@ mSocketTransport
 =
 aSocketTransport
 ;
+mSegmentReaderWriter
+=
+readerWriter
+;
 nsCOMPtr
 <
 nsISupports
@@ -1047,10 +1051,6 @@ failed
 ;
 }
 }
-mSegmentReaderWriter
-=
-readerWriter
-;
 return
 NS_OK
 ;
