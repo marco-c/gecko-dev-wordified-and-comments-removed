@@ -851,7 +851,6 @@ composite
 CompositorConfig
 Compositor
 CompositorCapabilities
-CompositorSurfaceTransform
 }
 ;
 pub
@@ -866,7 +865,7 @@ composite
 NativeSurfaceId
 NativeTileId
 NativeSurfaceInfo
-PartialPresentCompositor
+CompositorSurfaceTransform
 }
 ;
 pub
