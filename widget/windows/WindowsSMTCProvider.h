@@ -424,11 +424,6 @@ CancelPendingStoreAsyncOperation
 )
 const
 ;
-void
-ClearMetadata
-(
-)
-;
 bool
 mInitialized
 =
