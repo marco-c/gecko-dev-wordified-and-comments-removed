@@ -42373,9 +42373,11 @@ mTrimmed
 .
 mStart
 )
+{
 return
-false
+mHaveWordBreak
 ;
+}
 mIterator
 .
 AdvanceOriginal
