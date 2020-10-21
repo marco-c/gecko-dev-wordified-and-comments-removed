@@ -22,7 +22,6 @@ nameAndType
 :
 "
 cssanimation
--
 CSS
 Animation
 "
@@ -49,7 +48,6 @@ nameAndType
 :
 "
 cssanimation
--
 CSS
 Animation
 "
@@ -85,7 +83,6 @@ test
 delay
 -
 animation
--
 Script
 Animation
 "
@@ -123,7 +120,6 @@ negative
 delay
 -
 animation
--
 Script
 Animation
 "
