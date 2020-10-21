@@ -35,7 +35,7 @@ webref
 /
 Source
 :
-Feature
+Permissions
 Policy
 (
 https
@@ -50,7 +50,7 @@ io
 /
 webappsec
 -
-feature
+permissions
 -
 policy
 /
@@ -61,7 +61,7 @@ Exposed
 Window
 ]
 interface
-FeaturePolicy
+PermissionsPolicy
 {
 boolean
 allowsFeature
@@ -110,8 +110,8 @@ SameObject
 ]
 readonly
 attribute
-FeaturePolicy
-featurePolicy
+PermissionsPolicy
+permissionsPolicy
 ;
 }
 ;
@@ -124,8 +124,8 @@ SameObject
 ]
 readonly
 attribute
-FeaturePolicy
-featurePolicy
+PermissionsPolicy
+permissionsPolicy
 ;
 }
 ;
@@ -135,7 +135,7 @@ Exposed
 Window
 ]
 interface
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 :
 ReportBody
 {
