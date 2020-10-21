@@ -5305,7 +5305,7 @@ false
 ;
 }
 bool
-js
+JS
 :
 :
 AddMozDateTimeFormatConstructor
@@ -5328,7 +5328,7 @@ cx
 ;
 }
 bool
-js
+JS
 :
 :
 AddMozDisplayNamesConstructor
@@ -5351,7 +5351,7 @@ cx
 ;
 }
 bool
-js
+JS
 :
 :
 AddDisplayNamesConstructor
