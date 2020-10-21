@@ -87,6 +87,12 @@ aLocation
 )
 ;
 static
+void
+Init
+(
+)
+;
+static
 bool
 Supports
 (
@@ -431,12 +437,6 @@ PRemoteDecoderManagerChild
 &
 &
 aEndpoint
-)
-;
-static
-void
-InitializeThread
-(
 )
 ;
 RefPtr
