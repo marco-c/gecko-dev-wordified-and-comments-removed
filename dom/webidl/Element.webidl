@@ -923,6 +923,9 @@ element
 *
 *
 /
+[
+UseCounter
+]
 void
 setCapture
 (
@@ -964,6 +967,9 @@ effect
 .
 *
 /
+[
+UseCounter
+]
 void
 releaseCapture
 (
