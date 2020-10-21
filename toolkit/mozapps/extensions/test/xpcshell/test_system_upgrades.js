@@ -1560,7 +1560,9 @@ AddonTestUtils
 .
 promiseStartupManager
 (
+"
 2
+"
 )
 ;
 await

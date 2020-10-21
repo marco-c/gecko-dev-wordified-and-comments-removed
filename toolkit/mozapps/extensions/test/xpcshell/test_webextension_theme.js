@@ -1530,7 +1530,9 @@ AddonTestUtils
 .
 promiseRestartManager
 (
+"
 2
+"
 )
 ;
 addon
