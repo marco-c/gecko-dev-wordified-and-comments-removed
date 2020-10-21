@@ -6745,8 +6745,6 @@ int32_t
 aScreenId
 bool
 aPrivateMode
-bool
-aRemote
 )
 {
 MOZ_ASSERT
@@ -6914,6 +6912,7 @@ chrome
 dialog
 =
 0
+remote
 resizable
 scrollbars
 "
@@ -6929,19 +6928,6 @@ chromeFlags
 =
 "
 private
-"
-;
-}
-if
-(
-aRemote
-)
-{
-chromeFlags
-+
-=
-"
-remote
 "
 ;
 }
