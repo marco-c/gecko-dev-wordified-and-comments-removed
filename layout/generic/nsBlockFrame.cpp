@@ -36932,7 +36932,7 @@ Length
 anyLineDirty
 )
 {
-NS_WARNING
+NS_ERROR
 (
 "
 nsBlockFrame
