@@ -1464,9 +1464,15 @@ cctools
 -
 port
 -
+clang
+-
+9
+-
 linux64
 -
 clang
+-
+9
 -
 macosx
 -
@@ -1479,6 +1485,8 @@ sccache
 wasi
 -
 sysroot
+-
+9
 macosx64
 -
 gcp
