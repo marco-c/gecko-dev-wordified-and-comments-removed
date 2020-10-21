@@ -745,7 +745,7 @@ return
 roles
 :
 :
-LISTITEM_MARKER
+STATICTEXT
 ;
 }
 uint64_t

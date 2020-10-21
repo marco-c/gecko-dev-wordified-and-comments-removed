@@ -363,13 +363,6 @@ nsIAccessibleRole
 ROLE_LISTITEM
 ;
 const
-ROLE_LISTITEM_MARKER
-=
-nsIAccessibleRole
-.
-ROLE_LISTITEM_MARKER
-;
-const
 ROLE_MARK
 =
 nsIAccessibleRole
