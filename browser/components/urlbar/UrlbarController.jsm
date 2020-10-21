@@ -1276,11 +1276,17 @@ valid
 ;
 if
 (
+(
 this
 .
 view
 .
 isOpen
+|
+|
+!
+executeAction
+)
 &
 &
 !
