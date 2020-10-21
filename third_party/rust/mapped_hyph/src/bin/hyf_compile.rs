@@ -2,6 +2,10 @@ extern
 crate
 mapped_hyph
 ;
+extern
+crate
+env_logger
+;
 use
 std
 :
@@ -35,6 +39,13 @@ Result
 )
 >
 {
+env_logger
+:
+:
+init
+(
+)
+;
 let
 args
 :

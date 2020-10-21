@@ -10,6 +10,14 @@ extern
 crate
 memmap
 ;
+#
+[
+macro_use
+]
+extern
+crate
+log
+;
 use
 std
 :
