@@ -1917,11 +1917,11 @@ Run
 )
 override
 {
-MOZ_ASSERT
+if
 (
 mFunc
 )
-;
+{
 (
 *
 mFunc
@@ -1929,6 +1929,7 @@ mFunc
 (
 )
 ;
+}
 return
 NS_OK
 ;
