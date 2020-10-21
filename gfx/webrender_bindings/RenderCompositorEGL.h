@@ -224,9 +224,6 @@ mEGLSurfaceSize
 ;
 #
 endif
-EGLint
-mBufferAge
-;
 ipc
 :
 :

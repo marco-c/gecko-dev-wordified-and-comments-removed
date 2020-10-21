@@ -191,9 +191,6 @@ mGL
 bool
 mIsEGL
 ;
-EGLint
-mBufferAge
-;
 }
 ;
 }
