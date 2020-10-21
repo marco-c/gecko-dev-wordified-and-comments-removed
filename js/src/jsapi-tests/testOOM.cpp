@@ -489,6 +489,13 @@ init
 )
 override
 {
+JSAPITest
+:
+:
+uninit
+(
+)
+;
 js
 :
 :
