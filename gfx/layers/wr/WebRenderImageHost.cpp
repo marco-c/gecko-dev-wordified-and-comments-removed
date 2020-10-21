@@ -13,13 +13,6 @@ utility
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ScopeExit

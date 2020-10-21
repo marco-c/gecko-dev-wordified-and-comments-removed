@@ -17,13 +17,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 LayerManagerMLGPU
 .
 h

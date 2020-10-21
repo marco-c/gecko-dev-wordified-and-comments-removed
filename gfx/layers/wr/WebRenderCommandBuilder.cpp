@@ -269,13 +269,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 LayerTreeInvalidation
 .
 h

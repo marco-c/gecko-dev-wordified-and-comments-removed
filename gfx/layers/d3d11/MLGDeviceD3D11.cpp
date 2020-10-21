@@ -152,13 +152,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 TextureD3D11
 .
 h

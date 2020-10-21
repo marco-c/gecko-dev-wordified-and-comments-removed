@@ -52,13 +52,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 LayerUserData
 .
 h

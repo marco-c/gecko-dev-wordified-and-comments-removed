@@ -193,11 +193,6 @@ LayerScope
 h
 '
 '
-LayersLogging
-.
-h
-'
-'
 LayerSorter
 .
 h
@@ -3162,11 +3157,6 @@ cpp
 '
 '
 LayersHelpers
-.
-cpp
-'
-'
-LayersLogging
 .
 cpp
 '

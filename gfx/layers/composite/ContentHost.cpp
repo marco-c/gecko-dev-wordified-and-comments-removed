@@ -12,13 +12,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 gfx2DGlue
 .
 h

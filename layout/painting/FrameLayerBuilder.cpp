@@ -84,13 +84,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 MaskLayerImageCache
 .
 h

@@ -175,13 +175,6 @@ TreeTraversal
 h
 "
 #
-include
-"
-LayersLogging
-.
-h
-"
-#
 define
 LTI_DEBUG
 0

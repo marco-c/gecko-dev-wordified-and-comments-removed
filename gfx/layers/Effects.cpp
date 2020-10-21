@@ -8,13 +8,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 nsAString
 .
 h

@@ -56,13 +56,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 ShaderDefinitionsMLGPU
 .
 h
