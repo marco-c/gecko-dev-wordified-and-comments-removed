@@ -486,3 +486,4 @@ driver
 logging
 settings
 telemetry
+faq
