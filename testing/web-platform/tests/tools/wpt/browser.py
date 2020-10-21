@@ -5361,6 +5361,7 @@ webdriver_supports_browser
 self
 webdriver_binary
 browser_binary
+browser_channel
 )
 :
         
@@ -5424,6 +5425,8 @@ True
         
 chromedriver_major
 =
+int
+(
 chromedriver_version
 .
 split
@@ -5435,9 +5438,12 @@ split
 [
 0
 ]
+)
         
 browser_major
 =
+int
+(
 browser_version
 .
 split
@@ -5449,6 +5455,7 @@ split
 [
 0
 ]
+)
         
 if
 chromedriver_major
@@ -5456,6 +5463,55 @@ chromedriver_major
 =
 browser_major
 :
+            
+if
+browser_channel
+=
+=
+"
+dev
+"
+and
+chromedriver_major
+=
+=
+(
+browser_major
++
+1
+)
+:
+                
+self
+.
+logger
+.
+debug
+(
+                    
+"
+Accepting
+ChromeDriver
+%
+s
+for
+Chrome
+/
+Chromium
+Dev
+%
+s
+"
+%
+                    
+(
+chromedriver_version
+browser_version
+)
+)
+                
+return
+True
             
 self
 .
