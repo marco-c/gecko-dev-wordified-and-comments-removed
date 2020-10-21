@@ -208,13 +208,11 @@ kwargs
 product
 "
 ]
-in
-[
+=
+=
 "
 firefox
 "
-None
-]
 :
             
 try
