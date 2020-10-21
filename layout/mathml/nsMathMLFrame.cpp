@@ -938,7 +938,7 @@ unit
 aPresContext
 -
 >
-SetUsesExChUnits
+SetUsesFontMetricsFromStyle
 (
 true
 )
