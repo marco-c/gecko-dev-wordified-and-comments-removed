@@ -398,6 +398,14 @@ promiseDocumentFlushed
 await
 videoReady
 ;
+await
+SimpleTest
+.
+promiseFocus
+(
+win
+)
+;
 return
 win
 ;
