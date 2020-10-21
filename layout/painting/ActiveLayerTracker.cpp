@@ -167,6 +167,13 @@ nsDOMCSSDeclaration
 .
 h
 "
+#
+include
+"
+nsLayoutUtils
+.
+h
+"
 namespace
 mozilla
 {

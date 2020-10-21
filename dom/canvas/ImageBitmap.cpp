@@ -1904,9 +1904,6 @@ ErrorResult
 aRv
 )
 {
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 res
 =
@@ -3111,9 +3108,6 @@ IsWriteOnly
 (
 )
 ;
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 res
 =
