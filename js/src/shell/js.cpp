@@ -32616,7 +32616,7 @@ options
 .
 setIsRunOnce
 (
-true
+false
 )
 .
 setSourceIsLazy
