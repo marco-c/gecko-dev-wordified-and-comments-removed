@@ -638,6 +638,17 @@ false
 ;
 }
 virtual
+size_t
+GetBufferAge
+(
+)
+const
+{
+return
+0
+;
+}
+virtual
 bool
 SurfaceOriginIsTopLeft
 (
