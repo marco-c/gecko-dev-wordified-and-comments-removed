@@ -384,8 +384,6 @@ mutex
 e
 )
 ;
-return
-;
 }
 }
 ;

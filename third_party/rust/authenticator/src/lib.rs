@@ -403,6 +403,9 @@ pub
 mod
 statecallback
 ;
+mod
+virtualdevices
+;
 bitflags
 !
 {
