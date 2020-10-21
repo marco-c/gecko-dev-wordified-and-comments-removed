@@ -722,9 +722,7 @@ http
 :
 /
 /
-dxr
-.
-mozilla
+searchfox
 .
 org
 /

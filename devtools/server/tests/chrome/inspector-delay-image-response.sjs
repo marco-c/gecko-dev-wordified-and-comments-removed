@@ -8,9 +8,7 @@ https
 :
 /
 /
-dxr
-.
-mozilla
+searchfox
 .
 org
 /
@@ -18,10 +16,7 @@ mozilla
 -
 central
 /
-rev
-/
-*
-4e883591bb5dff021c108d3e30198a99547eed1e
+source
 /
 layout
 /
@@ -29,7 +24,6 @@ reftests
 /
 backgrounds
 /
-*
 delay
 -
 image
