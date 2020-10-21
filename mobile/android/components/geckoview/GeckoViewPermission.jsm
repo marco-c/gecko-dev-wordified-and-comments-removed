@@ -659,6 +659,8 @@ uri
 =
 win
 .
+top
+.
 document
 .
 documentURIObject
