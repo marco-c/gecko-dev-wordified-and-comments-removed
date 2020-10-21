@@ -10394,6 +10394,16 @@ setSearchMode
 }
 )
 ;
+this
+.
+view
+.
+oneOffSearchButtons
+.
+selectedButton
+=
+null
+;
 if
 (
 this
