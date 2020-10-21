@@ -15,13 +15,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 mozilla
 /
 StaticPrefs_layout
@@ -2127,7 +2120,7 @@ mEventRegions
 c_str
 (
 )
-Stringify
+ToString
 (
 mTransform
 )
