@@ -16950,6 +16950,16 @@ GetRootFrame
 }
 )
 ;
+float
+zoom
+=
+topLevel
+-
+>
+GetFullZoom
+(
+)
+;
 nsSize
 size
 (
@@ -16959,6 +16969,8 @@ CSSPixel
 ToAppUnits
 (
 width
+/
+zoom
 )
 CSSPixel
 :
@@ -16966,6 +16978,8 @@ CSSPixel
 ToAppUnits
 (
 height
+/
+zoom
 )
 )
 ;
@@ -16982,6 +16996,8 @@ aCursor
 mHotspot
 .
 x
+/
+zoom
 )
 CSSPixel
 :
@@ -16993,6 +17009,8 @@ aCursor
 mHotspot
 .
 y
+/
+zoom
 )
 )
 ;
