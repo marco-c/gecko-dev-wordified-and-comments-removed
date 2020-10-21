@@ -189,17 +189,6 @@ h
 "
 #
 endif
-using
-namespace
-mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
-;
 namespace
 mozilla
 {
@@ -499,8 +488,6 @@ mPort
 ;
 }
 ;
-}
-}
 NS_IMPL_ISUPPORTS
 (
 TCPPresentationChannelDescription
@@ -5999,4 +5986,6 @@ ReplyError
 NS_ERROR_DOM_OPERATION_ERR
 )
 ;
+}
+}
 }
