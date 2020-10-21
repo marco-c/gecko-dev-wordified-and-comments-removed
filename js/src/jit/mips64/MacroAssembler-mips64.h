@@ -3526,9 +3526,6 @@ addr
 void
 handleFailureWithHandlerTail
 (
-void
-*
-handler
 Label
 *
 profilerExitTail
