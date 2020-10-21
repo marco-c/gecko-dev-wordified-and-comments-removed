@@ -104,6 +104,11 @@ GeckoViewContentParent
 jsm
 '
 '
+GeckoViewPromptChild
+.
+jsm
+'
+'
 GeckoViewSettingsChild
 .
 jsm
