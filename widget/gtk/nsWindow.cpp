@@ -8321,6 +8321,11 @@ p2a
 #
 endif
 }
+bool
+hasAnchorRect
+=
+true
+;
 if
 (
 anchorRect
@@ -8362,6 +8367,10 @@ y
 1
 1
 )
+;
+hasAnchorRect
+=
+false
 ;
 }
 LOG
@@ -8941,6 +8950,9 @@ ifdef
 MOZ_WAYLAND
 if
 (
+hasAnchorRect
+&
+&
 popupFrame
 &
 &
