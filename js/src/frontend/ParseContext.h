@@ -1689,7 +1689,7 @@ isAsync
 ;
 }
 bool
-needsDotGeneratorName
+isGeneratorOrAsync
 (
 )
 const
@@ -1701,6 +1701,18 @@ isGenerator
 |
 |
 isAsync
+(
+)
+;
+}
+bool
+needsDotGeneratorName
+(
+)
+const
+{
+return
+isGeneratorOrAsync
 (
 )
 ;
