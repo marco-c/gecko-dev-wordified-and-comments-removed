@@ -1779,6 +1779,13 @@ log
 true
 )
 ;
+await
+SearchTelemetry
+.
+init
+(
+)
+;
 }
 )
 ;

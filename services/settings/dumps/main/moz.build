@@ -119,6 +119,13 @@ allowlist
 json
 '
 '
+search
+-
+telemetry
+.
+json
+'
+'
 sites
 -
 classification
