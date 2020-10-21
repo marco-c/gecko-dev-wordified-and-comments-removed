@@ -4358,6 +4358,12 @@ index
 :
 1
 ;
+border
+:
+1px
+solid
+transparent
+;
 }
 .
 multistageContainer
@@ -4758,6 +4764,12 @@ border
 radius
 :
 5px
+;
+border
+:
+1px
+solid
+transparent
 ;
 opacity
 :
