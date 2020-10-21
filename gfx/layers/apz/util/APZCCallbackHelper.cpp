@@ -22,13 +22,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -1232,7 +1225,7 @@ PRIu64
 \
 n
 "
-Stringify
+ToString
 (
 aDisplayPortMargins
 )
