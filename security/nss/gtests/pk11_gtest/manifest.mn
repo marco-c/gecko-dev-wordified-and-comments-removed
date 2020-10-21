@@ -130,6 +130,10 @@ pk11_find_certs_unittest
 .
 cc
 \
+pk11_hpke_unittest
+.
+cc
+\
 pk11_hkdf_unittest
 .
 cc

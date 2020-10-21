@@ -233,6 +233,11 @@ pk11err
 c
 '
 '
+pk11hpke
+.
+c
+'
+'
 pk11kea
 .
 c

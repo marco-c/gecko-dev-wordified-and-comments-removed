@@ -80,6 +80,10 @@ pk11func
 .
 h
 \
+pk11hpke
+.
+h
+\
 pk11pub
 .
 h
@@ -144,6 +148,10 @@ pk11cxt
 c
 \
 pk11err
+.
+c
+\
+pk11hpke
 .
 c
 \

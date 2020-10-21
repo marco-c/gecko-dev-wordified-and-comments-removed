@@ -189,6 +189,11 @@ pk11_hkdf_unittest
 cc
 '
 '
+pk11_hpke_unittest
+.
+cc
+'
+'
 pk11_import_unittest
 .
 cc

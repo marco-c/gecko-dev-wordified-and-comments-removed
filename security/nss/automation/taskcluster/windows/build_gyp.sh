@@ -316,6 +316,10 @@ v
 enable
 -
 libpkix
+-
+Denable_draft_hpke
+=
+1
 "
 "
 #

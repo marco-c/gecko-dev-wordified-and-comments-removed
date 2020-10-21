@@ -1940,6 +1940,9 @@ PRBool
 receivedCcs
 ;
 PRBool
+allowCcs
+;
+PRBool
 clientCertRequested
 ;
 PRBool
