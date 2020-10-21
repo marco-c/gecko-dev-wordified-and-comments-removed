@@ -15,6 +15,13 @@ h
 #
 include
 "
+GLContextEGL
+.
+h
+"
+#
+include
+"
 GLLibraryEGL
 .
 h
@@ -22,7 +29,7 @@ h
 #
 include
 "
-GLContextEGL
+ScopedGLHelpers
 .
 h
 "
@@ -43,13 +50,6 @@ mozilla
 gfx
 /
 Logging
-.
-h
-"
-#
-include
-"
-ScopedGLHelpers
 .
 h
 "
@@ -1512,7 +1512,7 @@ gfx
 :
 :
 IntSize
-aSize
+aSizeY
 gfx
 :
 :
@@ -1547,9 +1547,9 @@ mTextureHandles
 {
 0
 }
-mSize
+mSizeY
 (
-aSize
+aSizeY
 )
 mSizeCbCr
 (
@@ -1574,7 +1574,7 @@ mSizeCbCr
 width
 =
 =
-mSize
+mSizeY
 .
 width
 |
@@ -1585,7 +1585,7 @@ width
 =
 =
 (
-mSize
+mSizeY
 .
 width
 +
@@ -1603,7 +1603,7 @@ mSizeCbCr
 height
 =
 =
-mSize
+mSizeY
 .
 height
 |
@@ -1614,7 +1614,7 @@ height
 =
 =
 (
-mSize
+mSizeY
 .
 height
 +
@@ -2524,7 +2524,7 @@ aChannelIndex
 )
 {
 return
-mSize
+mSizeY
 ;
 }
 else

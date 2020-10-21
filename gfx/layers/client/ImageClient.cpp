@@ -550,6 +550,12 @@ aKnowsCompositor
 data
 -
 >
+GetPictureRect
+(
+)
+data
+-
+>
 mYSize
 data
 -

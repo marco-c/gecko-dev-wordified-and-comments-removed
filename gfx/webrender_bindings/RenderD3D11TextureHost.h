@@ -7,14 +7,14 @@ MOZILLA_GFX_RENDERD3D11TEXTUREHOST_H
 #
 include
 "
-RenderTextureHost
+GLTypes
 .
 h
 "
 #
 include
 "
-GLTypes
+RenderTextureHost
 .
 h
 "
@@ -306,7 +306,7 @@ gfx
 :
 :
 IntSize
-aSize
+aSizeY
 gfx
 :
 :
@@ -455,7 +455,7 @@ gfx
 :
 :
 IntSize
-mSize
+mSizeY
 ;
 gfx
 :

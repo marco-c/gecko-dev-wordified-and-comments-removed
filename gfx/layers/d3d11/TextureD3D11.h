@@ -2059,6 +2059,12 @@ gfx
 :
 :
 IntSize
+mSizeY
+;
+gfx
+:
+:
+IntSize
 mSizeCbCr
 ;
 WindowsHandle

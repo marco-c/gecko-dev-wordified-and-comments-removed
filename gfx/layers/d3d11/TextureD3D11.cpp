@@ -3029,11 +3029,11 @@ sD3D11TextureUsage
 new
 TextureMemoryMeasurer
 (
-aSize
+aSizeY
 .
 width
 *
-aSize
+aSizeY
 .
 height
 )
@@ -5889,6 +5889,14 @@ size
 (
 )
 )
+mSizeY
+(
+aDescriptor
+.
+sizeY
+(
+)
+)
 mSizeCbCr
 (
 aDescriptor
@@ -6842,7 +6850,7 @@ wr
 RenderDXGIYCbCrTextureHost
 (
 mHandles
-mSize
+mSizeY
 mSizeCbCr
 )
 ;
@@ -7018,7 +7026,7 @@ mSizeCbCr
 width
 =
 =
-mSize
+mSizeY
 .
 width
 |
@@ -7029,7 +7037,7 @@ width
 =
 =
 (
-mSize
+mSizeY
 .
 width
 +
@@ -7047,7 +7055,7 @@ mSizeCbCr
 height
 =
 =
-mSize
+mSizeY
 .
 height
 |
@@ -7058,7 +7066,7 @@ height
 =
 =
 (
-mSize
+mSizeY
 .
 height
 +
@@ -7125,7 +7133,7 @@ wr
 ImageDescriptor
 descriptor0
 (
-mSize
+mSizeY
 gfx
 :
 :

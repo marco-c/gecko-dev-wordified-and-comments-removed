@@ -626,6 +626,9 @@ comparable
 struct
 YCbCrDescriptor
 {
+IntRect
+display
+;
 IntSize
 ySize
 ;

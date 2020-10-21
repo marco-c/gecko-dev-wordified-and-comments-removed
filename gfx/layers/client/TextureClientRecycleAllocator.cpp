@@ -574,6 +574,11 @@ CreateForYCbCr
 aKnowsCompositor
 mData
 .
+GetPictureRect
+(
+)
+mData
+.
 mYSize
 mData
 .
