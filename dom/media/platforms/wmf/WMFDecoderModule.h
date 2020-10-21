@@ -26,6 +26,15 @@ PlatformDecoderModule
 {
 public
 :
+static
+already_AddRefed
+<
+PlatformDecoderModule
+>
+Create
+(
+)
+;
 nsresult
 Startup
 (
