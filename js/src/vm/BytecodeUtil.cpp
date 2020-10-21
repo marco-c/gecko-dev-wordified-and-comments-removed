@@ -9276,6 +9276,17 @@ get
 )
 ;
 }
+return
+write
+(
+"
+(
+intermediate
+value
+)
+"
+)
+;
 }
 JSAtom
 *
