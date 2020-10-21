@@ -693,6 +693,8 @@ bool
 aIsMove
 bool
 aSizedToPopup
+bool
+aNotify
 )
 ;
 void

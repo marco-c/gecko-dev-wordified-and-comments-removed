@@ -2284,6 +2284,7 @@ SetPopupPosition
 nullptr
 true
 false
+true
 )
 ;
 }
@@ -2542,6 +2543,7 @@ SetPopupPosition
 nullptr
 true
 false
+true
 )
 ;
 }
@@ -13110,6 +13112,10 @@ DispatchIfNeeded
 nsIContent
 *
 aPopup
+bool
+aIsContextMenu
+bool
+aSelectFirstItem
 )
 {
 if
@@ -13155,6 +13161,8 @@ new
 nsXULPopupPositionedEvent
 (
 aPopup
+aIsContextMenu
+aSelectFirstItem
 )
 ;
 aPopup
@@ -13330,8 +13338,8 @@ ShowPopupCallback
 (
 mPopup
 popupFrame
-false
-false
+mIsContextMenu
+mSelectFirstItem
 )
 ;
 }
