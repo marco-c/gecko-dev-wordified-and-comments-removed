@@ -33560,10 +33560,17 @@ GetContent
 )
 &
 displayport
+DisplayPortOptions
+(
+)
+.
+With
+(
 DisplayportRelativeTo
 :
 :
 ScrollFrame
+)
 )
 ;
 nsRegion

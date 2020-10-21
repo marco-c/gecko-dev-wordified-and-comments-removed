@@ -17807,10 +17807,17 @@ GetContent
 )
 &
 mLastDisplayPortRect
+DisplayPortOptions
+(
+)
+.
+With
+(
 DisplayportRelativeTo
 :
 :
 ScrollFrame
+)
 )
 ;
 if
