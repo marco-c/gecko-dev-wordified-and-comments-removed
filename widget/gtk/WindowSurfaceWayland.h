@@ -715,11 +715,6 @@ FrameCallbackHandler
 )
 ;
 void
-DelayedCommitHandler
-(
-)
-;
-void
 CommitWaylandBuffer
 (
 )
@@ -894,11 +889,6 @@ mFrameCallback
 wl_surface
 *
 mLastCommittedSurface
-;
-WindowSurfaceWayland
-*
-*
-mDelayedCommitHandle
 ;
 RefPtr
 <
