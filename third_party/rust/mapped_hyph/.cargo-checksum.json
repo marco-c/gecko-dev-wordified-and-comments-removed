@@ -5,6 +5,16 @@ files
 :
 {
 "
+.
+travis
+.
+yml
+"
+:
+"
+4d1af7257c9619f7ae66fc271ba2c1be5f063640ae8ceaa235c8c8aaf32f44ea
+"
+"
 COPYRIGHT
 "
 :
@@ -18,7 +28,7 @@ toml
 "
 :
 "
-ed3016de5a5dbfb0904cd3a442fa98cb66f8b4d8c1b801bcdcba777b57abe69d
+16e0ee523f5c3b1bc1f85771d2102b8bb1cffa3bde3631293cfd441387e9f881
 "
 "
 LICENSE
@@ -45,7 +55,7 @@ md
 "
 :
 "
-14cbfed88443a2e7ffb5beb788cae17e19d7329e9ef6c7ebdbd45c67751f4a06
+2c91137faee83f0805a9b9123e105670bf60c2fe45ce6536fb92df7ef85017a5
 "
 "
 benches
@@ -65,7 +75,7 @@ toml
 "
 :
 "
-07d22767e85ed64cf190038205e189a8fffea8910bbe923d04f425b36b9e9e93
+452e79bea00e2a0c16a03ac04e454a0c5955becf2d0306ccce7d1c13d3bcc51a
 "
 "
 doc
@@ -98,7 +108,7 @@ rs
 "
 :
 "
-8dfcad9c6e6f27bda9eb6ac6493114fdec0187fef144d86e097ffe488d00a49c
+04f8d4d9e47cbc1793d3b23a6cf840b37f3989d3817846ea0e45be3a08cafb29
 "
 "
 src
@@ -109,7 +119,7 @@ rs
 "
 :
 "
-7d4bb46ab2e00bb1cad1de8365781102a44817f23518ca617db17c07d44f5f7e
+b6200c19ea24c1b3defbf3b6b4ded350b4d45e170a7b8798d9063c47cfd45cc3
 "
 "
 src
@@ -120,7 +130,7 @@ rs
 "
 :
 "
-bdcff084276418788f4c8a1c525d7a6fd0bce900ca1561ff0353029e1171d9f1
+652ad1b1f450af6afa4b04e3e3e73da1ada294d1c82eda117db87c9e0b9b73ac
 "
 "
 src
@@ -131,7 +141,7 @@ rs
 "
 :
 "
-0126ba46f1c30a2dea2f72dec9e9639635aaba85f4b0da7b1a6e2f52624243ed
+d9fc9daad71cda70570ed61538001d46ac204a62a72d4d4faa43be70c62d6faa
 "
 "
 src
