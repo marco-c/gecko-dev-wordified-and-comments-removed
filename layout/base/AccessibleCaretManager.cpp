@@ -6789,16 +6789,6 @@ mSelectionVisible
 true
 ;
 }
-rect
--
-=
-mPresShell
--
->
-GetVisualViewportOffsetRelativeToLayoutViewport
-(
-)
-;
 domRect
 -
 >
