@@ -693,8 +693,6 @@ bool
 aIsMove
 bool
 aSizedToPopup
-bool
-aNotify
 )
 ;
 void
@@ -1229,6 +1227,16 @@ nsRect
 aRect
 )
 ;
+void
+WillDispatchPopupPositioned
+(
+)
+{
+mPendingPositionedEvent
+=
+false
+;
+}
 virtual
 bool
 ReflowFinished
@@ -1726,6 +1734,11 @@ mHFlip
 ;
 bool
 mVFlip
+;
+bool
+mPendingPositionedEvent
+=
+false
 ;
 nscoord
 mPositionedOffset
