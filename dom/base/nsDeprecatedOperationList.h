@@ -174,3 +174,11 @@ DEPRECATED_OPERATION
 (
 MathML_DeprecatedStixgeneralOperatorStretching
 )
+DEPRECATED_OPERATION
+(
+MathML_DeprecatedScriptminsizeAttribute
+)
+DEPRECATED_OPERATION
+(
+MathML_DeprecatedScriptsizemultiplierAttribute
+)
