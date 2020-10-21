@@ -17025,7 +17025,7 @@ case
 eFocus
 :
 {
-nsIFocusManager
+nsFocusManager
 *
 fm
 =
