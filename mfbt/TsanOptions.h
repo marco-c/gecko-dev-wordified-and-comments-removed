@@ -86,6 +86,14 @@ n
 "
 called_from_lib
 :
+libdconfsettings
+\
+n
+"
+\
+"
+called_from_lib
+:
 libgdk
 -
 3
