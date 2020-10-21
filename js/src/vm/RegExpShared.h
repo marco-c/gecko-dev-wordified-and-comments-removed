@@ -63,6 +63,15 @@ include
 "
 jit
 /
+JitCode
+.
+h
+"
+#
+include
+"
+jit
+/
 JitOptions
 .
 h

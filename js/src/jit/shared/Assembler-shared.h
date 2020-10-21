@@ -43,6 +43,15 @@ include
 "
 jit
 /
+JitCode
+.
+h
+"
+#
+include
+"
+jit
+/
 JitContext
 .
 h

@@ -150,15 +150,6 @@ h
 #
 include
 "
-jit
-/
-JitCode
-.
-h
-"
-#
-include
-"
 js
 /
 CompileOptions
@@ -351,6 +342,9 @@ AutoKeepJitScripts
 ;
 class
 BaselineScript
+;
+class
+IonScript
 ;
 struct
 IonScriptCounts
