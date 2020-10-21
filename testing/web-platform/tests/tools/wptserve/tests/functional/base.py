@@ -845,13 +845,13 @@ tearDown
 '
 '
     
-dummy_js_files
+dummy_files
 =
 {
 }
     
 def
-gen_js_file
+gen_file
 (
 self
 filename
@@ -868,7 +868,7 @@ b
         
 self
 .
-remove_js_file
+remove_file
 (
 filename
 )
@@ -898,7 +898,7 @@ content
 )
     
 def
-remove_js_file
+remove_file
 (
 self
 filename
@@ -946,7 +946,7 @@ content
 in
 self
 .
-dummy_js_files
+dummy_files
 .
 items
 (
@@ -975,7 +975,7 @@ content
                 
 self
 .
-gen_js_file
+gen_file
 (
 filepath
 )
@@ -985,7 +985,7 @@ else
                 
 self
 .
-gen_js_file
+gen_file
 (
 filepath
 False
@@ -997,8 +997,12 @@ run_wrapper_test
 (
 self
 req_file
-header_data
+content_type
 wrapper_handler
+                         
+headers
+=
+None
 )
 :
         
@@ -1054,7 +1058,7 @@ self
 .
 assertEqual
 (
-header_data
+content_type
 resp
 .
 info
@@ -1066,6 +1070,31 @@ Content
 -
 Type
 '
+]
+)
+        
+for
+key
+val
+in
+headers
+or
+[
+]
+:
+            
+self
+.
+assertEqual
+(
+val
+resp
+.
+info
+(
+)
+[
+key
 ]
 )
         
@@ -1128,7 +1157,7 @@ _
 in
 self
 .
-dummy_js_files
+dummy_files
 .
 items
 (
@@ -1149,7 +1178,7 @@ filename
             
 self
 .
-remove_js_file
+remove_file
 (
 filepath
 )

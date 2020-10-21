@@ -4195,7 +4195,7 @@ TestWrapperHandlerUsingServer
 )
 :
     
-dummy_js_files
+dummy_files
 =
 {
 '
@@ -4209,7 +4209,7 @@ js
 b
 '
 '
-                      
+                   
 '
 foo
 .
@@ -4289,7 +4289,7 @@ TestWrapperHandlerUsingServer
 )
 :
     
-dummy_js_files
+dummy_files
 =
 {
 '
@@ -4340,7 +4340,7 @@ TestWrapperHandlerUsingServer
 )
 :
     
-dummy_js_files
+dummy_files
 =
 {
 '
@@ -4353,6 +4353,40 @@ js
 :
 b
 '
+'
+                   
+'
+foo
+.
+any
+.
+js
+.
+headers
+'
+:
+b
+'
+X
+-
+Foo
+:
+1
+'
+                   
+'
+__dir__
+.
+headers
+'
+:
+b
+'
+X
+-
+Bar
+:
+2
 '
 }
     
@@ -4380,9 +4414,35 @@ text
 /
 html
 '
+                              
 serve
 .
 AnyHtmlHandler
+                              
+headers
+=
+[
+(
+'
+X
+-
+Foo
+'
+'
+1
+'
+)
+(
+'
+X
+-
+Bar
+'
+'
+2
+'
+)
+]
 )
 class
 TestSharedWorkersHandler
@@ -4391,7 +4451,7 @@ TestWrapperHandlerUsingServer
 )
 :
     
-dummy_js_files
+dummy_files
 =
 {
 '
@@ -4453,7 +4513,7 @@ TestWrapperHandlerUsingServer
 )
 :
     
-dummy_js_files
+dummy_files
 =
 {
 '
@@ -4515,7 +4575,7 @@ TestWrapperHandlerUsingServer
 )
 :
     
-dummy_js_files
+dummy_files
 =
 {
 '
