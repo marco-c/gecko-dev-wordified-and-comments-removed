@@ -16628,7 +16628,7 @@ mDatabaseWasNotAvailable
 mHasCreatedDatabase
 )
 {
-LS_TRY_UNWRAP
+LS_TRY_VAR
 (
 auto
 directoryEntry
@@ -30016,7 +30016,7 @@ rv
 }
 else
 {
-LS_TRY_UNWRAP
+LS_TRY_VAR
 (
 directoryEntry
 quotaManager
@@ -36482,7 +36482,7 @@ MOZ_ASSERT
 quotaManager
 )
 ;
-LS_TRY_UNWRAP
+LS_TRY_VAR
 (
 auto
 directory

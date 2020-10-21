@@ -494,7 +494,7 @@ CacheId
 >
 orphanedCacheIdList
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 orphanedCacheIdList
 db
@@ -535,7 +535,7 @@ i
 DeletionInfo
 deletionInfo
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 deletionInfo
 db
@@ -623,7 +623,7 @@ nsID
 >
 knownBodyIdList
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 knownBodyIdList
 db
@@ -2103,7 +2103,7 @@ mozIStorageConnection
 TRANSACTION_IMMEDIATE
 )
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 mDeletionInfo
 db
@@ -2348,7 +2348,7 @@ SavedResponse
 >
 maybeResponse
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 maybeResponse
 db
@@ -2730,7 +2730,7 @@ aConn
 )
 override
 {
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 mSavedResponses
 db
@@ -4767,7 +4767,7 @@ DeletionInfo
 >
 maybeDeletionInfo
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 maybeDeletionInfo
 db
@@ -5086,7 +5086,7 @@ aConn
 )
 override
 {
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 mSavedRequests
 db
@@ -5822,7 +5822,7 @@ CacheId
 >
 maybeCacheId
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 maybeCacheId
 db
@@ -5992,7 +5992,7 @@ CacheId
 >
 maybeCacheId
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 maybeCacheId
 db
@@ -6040,7 +6040,7 @@ return
 NS_OK
 ;
 }
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 mCacheId
 db
@@ -6283,7 +6283,7 @@ CacheId
 >
 maybeCacheId
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 maybeCacheId
 db
@@ -6586,7 +6586,7 @@ aConn
 )
 override
 {
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 mKeys
 db

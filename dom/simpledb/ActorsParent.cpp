@@ -6713,7 +6713,7 @@ MOZ_ASSERT
 quotaManager
 )
 ;
-SDB_TRY_UNWRAP
+SDB_TRY_VAR
 (
 auto
 directory
