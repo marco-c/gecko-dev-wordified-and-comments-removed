@@ -4685,6 +4685,15 @@ bool
 aPermitUnload
 )
 {
+RefPtr
+<
+nsDocumentViewer
+>
+kungFuDeathGrip
+(
+this
+)
+;
 if
 (
 StaticPrefs
