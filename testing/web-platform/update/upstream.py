@@ -12,6 +12,12 @@ from
 six
 .
 moves
+import
+input
+from
+six
+.
+moves
 .
 urllib
 import
@@ -176,6 +182,7 @@ True
 "
 True
 )
+                   
 (
 "
 rename
@@ -835,7 +842,11 @@ commit
 s
 "
 %
-last_sync_sha1
+state
+.
+last_sync_commit
+.
+sha1
 )
             
 return
@@ -862,6 +873,7 @@ in
 s
 "
 %
+                         
 state
 .
 last_sync_commit
@@ -1405,7 +1417,7 @@ summary
             
 remove
 =
-raw_input
+input
 (
 "
 Provide
@@ -1418,6 +1430,9 @@ of
 any
 commits
 numbers
+"
+                           
+"
 to
 remove
 from
@@ -1464,6 +1479,7 @@ item
 )
                 
 except
+ValueError
 :
                     
 continue
@@ -1558,7 +1574,7 @@ summary
             
 confirm
 =
-raw_input
+input
 (
 "
 Keep
@@ -1895,6 +1911,7 @@ stripped_patch
 )
             
 except
+Exception
 :
                 
 with
@@ -1995,7 +2012,7 @@ commits_loaded
 =
 i
         
-raw_input
+input
 (
 "
 Check
@@ -2196,6 +2213,7 @@ logger
 .
 info
 (
+                
 "
 Rebase
 failed

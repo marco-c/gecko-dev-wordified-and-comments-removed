@@ -1,6 +1,4 @@
 import
-os
-import
 sys
 def
 create_parser_wpt
@@ -19,6 +17,7 @@ wptcommandline
 .
 create_parser
 (
+        
 [
 "
 firefox

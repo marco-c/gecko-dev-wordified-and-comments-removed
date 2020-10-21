@@ -299,11 +299,6 @@ websocketprocessbridge
 websocketprocessbridge
 .
 py
-testing
-/
-web
--
-platform
 toolkit
 /
 components
@@ -516,6 +511,13 @@ test
 test_malformed
 .
 py
+testing
+/
+web
+-
+platform
+/
+tests
 tools
 /
 lint

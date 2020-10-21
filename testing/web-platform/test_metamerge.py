@@ -940,6 +940,15 @@ bytes_io
 BytesIO
 (
 str_data
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
 )
         
 return

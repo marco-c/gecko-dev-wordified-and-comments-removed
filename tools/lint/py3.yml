@@ -94,6 +94,8 @@ testing
 web
 -
 platform
+/
+tests
 -
 toolkit
 -

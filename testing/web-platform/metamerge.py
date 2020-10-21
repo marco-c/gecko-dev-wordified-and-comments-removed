@@ -7,8 +7,11 @@ os
 from
 collections
 import
-defaultdict
 namedtuple
+from
+six
+import
+iteritems
 from
 wptrunner
 .
@@ -955,12 +958,11 @@ for
 subtest
 ancestor_subtest_manifest
 in
+iteritems
+(
 ancestor_manifest
 .
 child_map
-.
-iteritems
-(
 )
 :
         
@@ -984,12 +986,11 @@ for
 subtest
 subtest_manifest
 in
+iteritems
+(
 new_manifest
 .
 child_map
-.
-iteritems
-(
 )
 :
         
@@ -1291,12 +1292,11 @@ for
 test
 test_manifest
 in
+iteritems
+(
 new_manifest
 .
 child_map
-.
-iteritems
-(
 )
 :
         
@@ -1366,12 +1366,11 @@ for
 test
 test_manifest
 in
+iteritems
+(
 ancestor_manifest
 .
 child_map
-.
-iteritems
-(
 )
 :
         
