@@ -98,7 +98,7 @@ data
 }
 ;
 }
-willDestroy
+didDestroy
 (
 )
 {

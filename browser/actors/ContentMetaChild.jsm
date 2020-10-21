@@ -257,7 +257,7 @@ Map
 )
 ;
 }
-willDestroy
+didDestroy
 (
 )
 {

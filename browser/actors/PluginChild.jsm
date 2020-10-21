@@ -240,7 +240,7 @@ this
 )
 ;
 }
-willDestroy
+didDestroy
 (
 )
 {

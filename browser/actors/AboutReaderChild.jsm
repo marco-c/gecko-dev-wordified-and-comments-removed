@@ -113,7 +113,7 @@ _isLeavingReaderableReaderMode
 false
 ;
 }
-willDestroy
+didDestroy
 (
 )
 {

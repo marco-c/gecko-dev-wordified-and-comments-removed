@@ -454,7 +454,7 @@ listener
 )
 ;
 }
-willDestroy
+didDestroy
 (
 )
 {

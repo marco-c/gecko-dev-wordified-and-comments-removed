@@ -76,7 +76,7 @@ this
 )
 ;
 }
-willDestroy
+didDestroy
 (
 )
 {
