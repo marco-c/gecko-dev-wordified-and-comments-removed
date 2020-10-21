@@ -1375,6 +1375,9 @@ bool
 mTimeoutAccumulated
 ;
 bool
+mExecutedChromeScript
+;
+bool
 mHasScriptActivity
 ;
 nsresult
