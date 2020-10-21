@@ -165,7 +165,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 start
@@ -179,7 +178,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 start
@@ -194,7 +192,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 start
@@ -209,7 +206,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 running
@@ -222,7 +218,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 running
@@ -236,7 +231,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 running
@@ -250,7 +244,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 finish
@@ -263,7 +256,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 finish
@@ -277,7 +269,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 finish
