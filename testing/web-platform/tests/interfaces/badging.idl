@@ -68,7 +68,7 @@ Navigator
 {
 Promise
 <
-void
+undefined
 >
 setClientBadge
 (
@@ -84,7 +84,7 @@ contents
 ;
 Promise
 <
-void
+undefined
 >
 clearClientBadge
 (
@@ -112,7 +112,7 @@ NavigatorBadge
 {
 Promise
 <
-void
+undefined
 >
 setAppBadge
 (
@@ -128,7 +128,7 @@ contents
 ;
 Promise
 <
-void
+undefined
 >
 clearAppBadge
 (
