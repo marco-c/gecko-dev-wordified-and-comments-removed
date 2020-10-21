@@ -253,7 +253,7 @@ davidwalsh
 .
 name
 "
-type
+targetType
 :
 "
 worker

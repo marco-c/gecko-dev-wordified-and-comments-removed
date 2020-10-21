@@ -284,11 +284,6 @@ timings
 js
 '
 '
-threads
-.
-js
-'
-'
 ui
 .
 js

@@ -1553,7 +1553,7 @@ davidwalsh
 .
 name
 "
-type
+targetType
 :
 "
 worker
@@ -1725,7 +1725,7 @@ davidwalsh
 .
 name
 "
-type
+targetType
 :
 "
 worker
@@ -1906,7 +1906,7 @@ davidwalsh
 .
 name
 "
-type
+targetType
 :
 "
 worker
@@ -1941,7 +1941,7 @@ WorkerA
 .
 js
 "
-type
+targetType
 :
 "
 worker

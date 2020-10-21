@@ -502,6 +502,9 @@ boolean
 isWorkerTarget
 :
 boolean
+targetType
+:
+string
 isTopLevel
 :
 boolean
