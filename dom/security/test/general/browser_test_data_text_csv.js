@@ -225,8 +225,13 @@ location
 .
 value
 "
-.
+text
+/
 csv
+;
+foo
+bar
+foobar
 "
 "
 file
