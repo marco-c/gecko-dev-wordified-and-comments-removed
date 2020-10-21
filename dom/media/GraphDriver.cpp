@@ -3629,6 +3629,7 @@ CubebUtils
 :
 GetDefaultStreamPrefs
 (
+CUBEB_DEVICE_TYPE_OUTPUT
 )
 ;
 if
@@ -3779,6 +3780,7 @@ CubebUtils
 :
 GetDefaultStreamPrefs
 (
+CUBEB_DEVICE_TYPE_INPUT
 )
 ;
 if
