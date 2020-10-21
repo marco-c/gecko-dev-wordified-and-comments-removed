@@ -25,6 +25,14 @@ nsIMacAttributionService
 :
 nsISupports
 {
+AString
+getReferrerUrl
+(
+in
+AUTF8String
+aFilePath
+)
+;
 void
 setReferrerUrl
 (
