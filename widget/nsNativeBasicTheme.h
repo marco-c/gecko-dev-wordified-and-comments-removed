@@ -1069,6 +1069,14 @@ mozilla
 CSSIntCoord
 ;
 using
+ComputedStyle
+=
+mozilla
+:
+:
+ComputedStyle
+;
+using
 EventStates
 =
 mozilla
