@@ -349,13 +349,6 @@ Init
 ;
 #
 endif
-RemoteDecoderModule
-:
-:
-Init
-(
-)
-;
 }
 }
 ;
