@@ -3940,7 +3940,7 @@ rv
 ;
 }
 }
-CACHE_TRY_VAR
+CACHE_TRY_UNWRAP
 (
 currentPaddingSize
 db
@@ -4055,7 +4055,7 @@ return
 rv
 ;
 }
-CACHE_TRY_VAR
+CACHE_TRY_UNWRAP
 (
 currentPaddingSize
 db
@@ -4091,7 +4091,7 @@ lastPaddingSize
 =
 currentPaddingSize
 ;
-CACHE_TRY_VAR
+CACHE_TRY_UNWRAP
 (
 currentPaddingSize
 db
@@ -4384,7 +4384,7 @@ return
 rv
 ;
 }
-CACHE_TRY_VAR
+CACHE_TRY_UNWRAP
 (
 *
 aPaddingSizeOut

@@ -113,7 +113,7 @@ __VA_ARGS__
 )
 #
 define
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 .
 .
@@ -142,13 +142,13 @@ ifdef
 DEBUG
 #
 define
-IDB_DEBUG_TRY_VAR
+IDB_DEBUG_TRY_UNWRAP
 (
 .
 .
 .
 )
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
 (
 __VA_ARGS__
 )
@@ -156,7 +156,7 @@ __VA_ARGS__
 else
 #
 define
-IDB_DEBUG_TRY_VAR
+IDB_DEBUG_TRY_UNWRAP
 (
 .
 .
