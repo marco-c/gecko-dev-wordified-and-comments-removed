@@ -540,6 +540,11 @@ ModuleEnvironment
 &
 moduleEnv
 ;
+const
+CompilerEnvironment
+&
+compilerEnv
+;
 CompileTaskState
 &
 state
@@ -562,6 +567,10 @@ const
 ModuleEnvironment
 &
 moduleEnv
+const
+CompilerEnvironment
+&
+compilerEnv
 CompileTaskState
 &
 state
@@ -574,6 +583,10 @@ telemetrySender
 moduleEnv
 (
 moduleEnv
+)
+compilerEnv
+(
+compilerEnv
 )
 state
 (
@@ -723,6 +736,11 @@ ModuleEnvironment
 *
 const
 moduleEnv_
+;
+CompilerEnvironment
+*
+const
+compilerEnv_
 ;
 JSTelemetrySender
 telemetrySender_
@@ -929,7 +947,7 @@ tier
 const
 {
 return
-moduleEnv_
+compilerEnv_
 -
 >
 tier
@@ -944,7 +962,7 @@ mode
 const
 {
 return
-moduleEnv_
+compilerEnv_
 -
 >
 mode
@@ -959,7 +977,7 @@ debugEnabled
 const
 {
 return
-moduleEnv_
+compilerEnv_
 -
 >
 debugEnabled
@@ -978,6 +996,9 @@ args
 ModuleEnvironment
 *
 moduleEnv
+CompilerEnvironment
+*
+compilerEnv
 const
 Atomic
 <

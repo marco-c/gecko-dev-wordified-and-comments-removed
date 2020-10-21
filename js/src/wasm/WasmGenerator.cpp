@@ -352,6 +352,9 @@ args
 ModuleEnvironment
 *
 moduleEnv
+CompilerEnvironment
+*
+compilerEnv
 const
 Atomic
 <
@@ -380,6 +383,10 @@ cancelled
 moduleEnv_
 (
 moduleEnv
+)
+compilerEnv_
+(
+compilerEnv
 )
 linkData_
 (
@@ -2199,6 +2206,8 @@ infallibleEmplaceBack
 (
 *
 moduleEnv_
+*
+compilerEnv_
 taskState_
 COMPILATION_LIFO_DEFAULT_CHUNK_SIZE
 telemetrySender
@@ -3863,7 +3872,7 @@ switch
 task
 -
 >
-moduleEnv
+compilerEnv
 .
 tier
 (
@@ -3881,7 +3890,7 @@ switch
 task
 -
 >
-moduleEnv
+compilerEnv
 .
 optimizedBackend
 (
@@ -3903,6 +3912,10 @@ task
 -
 >
 moduleEnv
+task
+-
+>
+compilerEnv
 task
 -
 >
@@ -3953,6 +3966,10 @@ moduleEnv
 task
 -
 >
+compilerEnv
+task
+-
+>
 lifo
 task
 -
@@ -4000,6 +4017,10 @@ task
 -
 >
 moduleEnv
+task
+-
+>
+compilerEnv
 task
 -
 >
@@ -4609,7 +4630,7 @@ Optimized
 :
 switch
 (
-moduleEnv_
+compilerEnv_
 -
 >
 optimizedBackend
@@ -5516,7 +5537,7 @@ MOZ_ASSERT
 (
 IsValidStackMapKey
 (
-moduleEnv_
+compilerEnv_
 -
 >
 debugEnabled
@@ -5735,7 +5756,7 @@ v128Enabled
 ;
 if
 (
-moduleEnv_
+compilerEnv_
 -
 >
 debugEnabled
@@ -6491,7 +6512,7 @@ nullptr
 ;
 if
 (
-moduleEnv_
+compilerEnv_
 -
 >
 debugEnabled
@@ -6770,7 +6791,7 @@ Optimized
 MOZ_ASSERT
 (
 !
-moduleEnv_
+compilerEnv_
 -
 >
 debugEnabled

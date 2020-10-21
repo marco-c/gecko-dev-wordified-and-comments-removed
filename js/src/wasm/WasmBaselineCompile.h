@@ -33,6 +33,10 @@ const
 ModuleEnvironment
 &
 moduleEnv
+const
+CompilerEnvironment
+&
+compilerEnv
 LifoAlloc
 &
 lifo

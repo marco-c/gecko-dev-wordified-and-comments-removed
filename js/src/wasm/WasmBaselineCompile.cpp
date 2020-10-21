@@ -13057,6 +13057,11 @@ ModuleEnvironment
 &
 moduleEnv_
 ;
+const
+CompilerEnvironment
+&
+compilerEnv_
+;
 BaseOpIter
 iter_
 ;
@@ -13152,6 +13157,10 @@ const
 ModuleEnvironment
 &
 moduleEnv
+const
+CompilerEnvironment
+&
+compilerEnv
 const
 FuncCompileInput
 &
@@ -17856,7 +17865,7 @@ assemblerOffset
 auto
 debugFrame
 =
-moduleEnv_
+compilerEnv_
 .
 debugEnabled
 (
@@ -23565,7 +23574,7 @@ index
 -
 >
 id
-moduleEnv_
+compilerEnv_
 .
 mode
 (
@@ -23619,7 +23628,7 @@ false
 }
 if
 (
-moduleEnv_
+compilerEnv_
 .
 debugEnabled
 (
@@ -23998,7 +24007,7 @@ gpr
 }
 if
 (
-moduleEnv_
+compilerEnv_
 .
 debugEnabled
 (
@@ -24337,7 +24346,7 @@ WasmTlsReg
 ;
 if
 (
-moduleEnv_
+compilerEnv_
 .
 debugEnabled
 (
@@ -24495,7 +24504,7 @@ resultType
 {
 MOZ_ASSERT
 (
-moduleEnv_
+compilerEnv_
 .
 debugEnabled
 (
@@ -24858,7 +24867,7 @@ resultType
 {
 MOZ_ASSERT
 (
-moduleEnv_
+compilerEnv_
 .
 debugEnabled
 (
@@ -25253,7 +25262,7 @@ resultType
 ;
 if
 (
-moduleEnv_
+compilerEnv_
 .
 debugEnabled
 (
@@ -68250,7 +68259,7 @@ op
 ;
 if
 (
-moduleEnv_
+compilerEnv_
 .
 debugEnabled
 (
@@ -79241,6 +79250,10 @@ ModuleEnvironment
 &
 moduleEnv
 const
+CompilerEnvironment
+&
+compilerEnv
+const
 FuncCompileInput
 &
 func
@@ -79274,6 +79287,10 @@ stackMaps
 moduleEnv_
 (
 moduleEnv
+)
+compilerEnv_
+(
+compilerEnv
 )
 iter_
 (
@@ -79472,7 +79489,7 @@ setupLocals
 (
 locals_
 args
-moduleEnv_
+compilerEnv_
 .
 debugEnabled
 (
@@ -79650,6 +79667,10 @@ const
 ModuleEnvironment
 &
 moduleEnv
+const
+CompilerEnvironment
+&
+compilerEnv
 LifoAlloc
 &
 lifo
@@ -79667,7 +79688,7 @@ error
 {
 MOZ_ASSERT
 (
-moduleEnv
+compilerEnv
 .
 tier
 (
@@ -79858,6 +79879,7 @@ BaseCompiler
 f
 (
 moduleEnv
+compilerEnv
 func
 locals
 trapExitLayout
