@@ -605,6 +605,9 @@ EffectSet
 GetEffectSetForEffect
 (
 const
+dom
+:
+:
 KeyframeEffect
 *
 aEffect
