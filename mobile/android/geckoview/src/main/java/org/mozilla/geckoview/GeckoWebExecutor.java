@@ -249,6 +249,7 @@ FETCH_FLAGS_ALLOW_SOME_ERRORS
 2
 ;
 WrapForJNI
+public
 static
 final
 int

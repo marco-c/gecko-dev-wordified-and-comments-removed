@@ -11211,6 +11211,15 @@ public
 static
 final
 int
+FETCH_FLAGS_PRIVATE
+=
+8
+;
+field
+public
+static
+final
+int
 FETCH_FLAGS_STREAM_FAILURE_TEST
 =
 1024
