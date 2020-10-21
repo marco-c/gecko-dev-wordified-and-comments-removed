@@ -16231,6 +16231,17 @@ AC_SUBST_LIST
 CAIRO_FT_CFLAGS
 )
 fi
+AC_CHECK_PROGS
+(
+WGET
+wget
+"
+"
+)
+AC_SUBST
+(
+WGET
+)
 dnl
 =
 =
