@@ -665,6 +665,16 @@ _
 \
 _
 (
+AtomicsCompareExchangeFn
+)
+\
+_
+(
+AtomicsReadWriteModifyFn
+)
+\
+_
+(
 float
 (
 *
