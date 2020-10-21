@@ -271,6 +271,12 @@ StableStateCallback
 (
 )
 ;
+nsresult
+EnsureCacheLoadedOrCloned
+(
+)
+const
+;
 RefPtr
 <
 SessionStorageCache
