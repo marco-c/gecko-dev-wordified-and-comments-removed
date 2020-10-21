@@ -1923,6 +1923,14 @@ result
 )
 ;
 void
+MaybeRenewHostRecordLocked
+(
+nsHostRecord
+*
+aRec
+)
+;
+void
 DeQueue
 (
 mozilla
