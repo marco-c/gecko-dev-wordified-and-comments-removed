@@ -200,13 +200,6 @@ mozilla
 :
 dom
 ;
-using
-namespace
-mozilla
-:
-:
-services
-;
 namespace
 mozilla
 {
