@@ -263,6 +263,7 @@ NotOptimizedArgumentsGuard
 NullOrUndefinedGuard
 TagNotEqualGuard
 FunctionFlagsGuard
+FunctionIsNonBuiltinCtorGuard
 FunctionKindGuard
 FunctionScriptGuard
 PackedArrayGuard
@@ -859,6 +860,17 @@ FunctionFlagsGuard
 return
 "
 FunctionFlagsGuard
+"
+;
+case
+BailoutKind
+:
+:
+FunctionIsNonBuiltinCtorGuard
+:
+return
+"
+FunctionIsNonBuiltinCtorGuard
 "
 ;
 case

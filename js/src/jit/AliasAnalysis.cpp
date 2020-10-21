@@ -1060,6 +1060,15 @@ MDefinition
 Opcode
 :
 :
+GuardFunctionIsNonBuiltinCtor
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 GuardFunctionKind
 :
 case

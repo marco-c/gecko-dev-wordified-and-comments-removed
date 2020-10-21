@@ -10293,6 +10293,12 @@ case
 BailoutKind
 :
 :
+FunctionIsNonBuiltinCtorGuard
+:
+case
+BailoutKind
+:
+:
 FunctionKindGuard
 :
 case
