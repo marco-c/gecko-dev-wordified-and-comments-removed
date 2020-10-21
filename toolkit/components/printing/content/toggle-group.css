@@ -297,7 +297,10 @@ group
 -
 input
 :
-focus
+-
+moz
+-
+focusring
 +
 .
 toggle
@@ -356,7 +359,10 @@ input
 :
 checked
 :
-focus
+-
+moz
+-
+focusring
 +
 .
 toggle
