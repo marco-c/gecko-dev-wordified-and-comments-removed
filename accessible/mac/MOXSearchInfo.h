@@ -24,9 +24,9 @@ MOXSearchInfo
 :
 NSObject
 {
-MOXWebAreaAccessible
+MOXAccessibleBase
 *
-mWebArea
+mRoot
 ;
 MOXAccessibleBase
 *
@@ -60,7 +60,7 @@ params
 andRoot
 :
 (
-MOXWebAreaAccessible
+MOXAccessibleBase
 *
 )
 root
