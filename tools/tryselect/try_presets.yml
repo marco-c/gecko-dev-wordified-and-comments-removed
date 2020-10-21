@@ -140,6 +140,8 @@ tier
 1
 platforms
 .
+query
+:
 -
 "
 ^
@@ -200,6 +202,8 @@ tier
 1
 platforms
 .
+query
+:
 -
 "
 ^
