@@ -474,7 +474,7 @@ propertyName
 name
 :
 workerName
-workerTargetFront
+workerDescriptorFront
 :
 {
 actorID

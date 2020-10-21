@@ -257,7 +257,7 @@ workerFront
 >
 {
 const
-workerTargetFront
+workerDescriptorFront
 =
 allWorkers
 .
@@ -304,7 +304,7 @@ url
 workerFront
 .
 url
-workerTargetFront
+workerDescriptorFront
 }
 ;
 }
@@ -451,7 +451,7 @@ name
 front
 .
 url
-workerTargetFront
+workerDescriptorFront
 :
 front
 }
@@ -964,7 +964,7 @@ null
 return
 worker
 .
-workerTargetFront
+workerDescriptorFront
 |
 |
 worker

@@ -46,7 +46,7 @@ nullable
 :
 array
 :
-workerTarget
+workerDescriptor
 "
 }
 )

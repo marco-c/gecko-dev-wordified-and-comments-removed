@@ -157,7 +157,7 @@ workers
 "
 array
 :
-workerTarget
+workerDescriptor
 "
 }
 )

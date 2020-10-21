@@ -683,7 +683,7 @@ async
 function
 waitForWorkerClose
 (
-workerTargetFront
+workerDescriptorFront
 )
 {
 info
@@ -699,7 +699,7 @@ close
 )
 ;
 await
-workerTargetFront
+workerDescriptorFront
 .
 once
 (
@@ -976,7 +976,7 @@ target
 )
 ;
 const
-workerTargetFront
+workerDescriptorFront
 =
 findWorker
 (
@@ -992,7 +992,7 @@ gDevTools
 .
 showToolbox
 (
-workerTargetFront
+workerDescriptorFront
 "
 jsdebugger
 "
@@ -1036,7 +1036,7 @@ context
 client
 tab
 target
-workerTargetFront
+workerDescriptorFront
 toolbox
 gDebugger
 }

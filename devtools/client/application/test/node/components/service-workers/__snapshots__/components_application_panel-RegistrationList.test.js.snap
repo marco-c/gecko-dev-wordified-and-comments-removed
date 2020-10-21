@@ -196,7 +196,7 @@ worker
 js
 "
 "
-workerTargetFront
+workerDescriptorFront
 "
 :
 "
@@ -461,7 +461,7 @@ worker
 js
 "
 "
-workerTargetFront
+workerDescriptorFront
 "
 :
 "
@@ -582,7 +582,7 @@ worker
 js
 "
 "
-workerTargetFront
+workerDescriptorFront
 "
 :
 "
@@ -703,7 +703,7 @@ worker
 js
 "
 "
-workerTargetFront
+workerDescriptorFront
 "
 :
 "

@@ -148,7 +148,7 @@ serviceWorkers
 name
 :
 WORKER_NAME
-workerTargetFront
+workerDescriptorFront
 :
 {
 actorID
