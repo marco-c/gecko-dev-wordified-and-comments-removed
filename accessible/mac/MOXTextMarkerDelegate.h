@@ -292,6 +292,17 @@ textMarker
 (
 id
 )
+moxStyleTextMarkerRangeForTextMarker
+:
+(
+id
+)
+textMarker
+;
+-
+(
+id
+)
 moxNextTextMarkerForTextMarker
 :
 (
