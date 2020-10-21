@@ -15573,7 +15573,7 @@ w
 )
 ;
 HalfRGBA8
-xy
+xyzwl
 =
 zipLow
 (
@@ -15582,7 +15582,7 @@ yw
 )
 ;
 HalfRGBA8
-zw
+xyzwh
 =
 zipHigh
 (
@@ -15595,8 +15595,8 @@ lo
 =
 zip2Low
 (
-xy
-zw
+xyzwl
+xyzwh
 )
 ;
 HalfRGBA8
@@ -15604,8 +15604,8 @@ hi
 =
 zip2High
 (
-xy
-zw
+xyzwl
+xyzwh
 )
 ;
 return
@@ -16773,6 +16773,7 @@ span
 )
 ;
 }
+UNUSED
 static
 inline
 PackedRG8
