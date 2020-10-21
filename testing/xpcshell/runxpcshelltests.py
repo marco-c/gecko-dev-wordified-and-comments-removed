@@ -8215,13 +8215,6 @@ mozInfo
 bin_suffix
 "
 ]
-.
-encode
-(
-'
-ascii
-'
-)
 )
             
 if
