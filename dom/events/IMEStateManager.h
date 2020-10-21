@@ -149,6 +149,15 @@ return
 nullptr
 ;
 }
+if
+(
+sFocusedIMEBrowserParent
+)
+{
+return
+sFocusedIMEBrowserParent
+;
+}
 return
 BrowserParent
 :
