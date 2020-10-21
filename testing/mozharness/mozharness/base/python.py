@@ -2535,6 +2535,11 @@ sys
 .
 executable
             
+'
+-
+S
+'
+            
 venv_py_path
         
 ]

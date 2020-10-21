@@ -1119,6 +1119,10 @@ virtualenv
 self
 .
 python
+'
+-
+S
+'
 self
 .
 virtualenv_script
