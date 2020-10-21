@@ -2545,7 +2545,6 @@ IsClusterStart
 (
 )
 false
-0
 )
 ;
 }

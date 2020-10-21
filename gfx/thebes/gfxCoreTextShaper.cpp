@@ -2523,7 +2523,6 @@ IsClusterStart
 (
 )
 false
-0
 )
 ;
 }
