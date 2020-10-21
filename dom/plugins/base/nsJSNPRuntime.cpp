@@ -3449,6 +3449,9 @@ return
 false
 ;
 }
+AutoAllowLegacyScriptExecution
+exemption
+;
 dom
 :
 :

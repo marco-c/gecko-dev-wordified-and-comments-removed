@@ -4077,6 +4077,9 @@ script
 )
 ;
 {
+AutoAllowLegacyScriptExecution
+exemption
+;
 dom
 :
 :

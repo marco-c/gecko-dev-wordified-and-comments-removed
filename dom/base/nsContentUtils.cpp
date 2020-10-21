@@ -46209,6 +46209,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+AutoAllowLegacyScriptExecution
+exemption
+;
 AutoEntryScript
 aes
 (

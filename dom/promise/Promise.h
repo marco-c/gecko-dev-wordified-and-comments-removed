@@ -793,6 +793,9 @@ SetSettledPromiseIsHandled
 (
 )
 {
+AutoAllowLegacyScriptExecution
+exemption
+;
 AutoEntryScript
 aes
 (
@@ -1354,6 +1357,9 @@ PromiseObj
 (
 )
 )
+;
+AutoAllowLegacyScriptExecution
+exemption
 ;
 AutoEntryScript
 aes
