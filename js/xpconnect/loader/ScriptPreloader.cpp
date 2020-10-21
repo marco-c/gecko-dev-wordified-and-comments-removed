@@ -1712,6 +1712,17 @@ mScripts
 #
 ifdef
 XP_WIN
+if
+(
+sProcessType
+!
+=
+ProcessType
+:
+:
+PrivilegedAbout
+)
+{
 mozilla
 :
 :
@@ -1737,6 +1748,7 @@ ResidentUnique
 1024
 )
 ;
+}
 #
 endif
 }
