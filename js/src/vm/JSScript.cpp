@@ -670,12 +670,6 @@ using
 mozilla
 :
 :
-CheckedInt
-;
-using
-mozilla
-:
-:
 Maybe
 ;
 using
