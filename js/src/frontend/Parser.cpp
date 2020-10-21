@@ -34408,6 +34408,10 @@ this
 -
 >
 compilationInfo_
+.
+stencil
+.
+parserAtoms
 )
 ;
 if

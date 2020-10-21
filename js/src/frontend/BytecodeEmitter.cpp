@@ -12855,6 +12855,10 @@ NameFunctions
 (
 cx
 compilationInfo
+.
+stencil
+.
+parserAtoms
 body
 )
 )
@@ -13285,6 +13289,10 @@ NameFunctions
 (
 cx
 compilationInfo
+.
+stencil
+.
+parserAtoms
 funNode
 )
 )
@@ -43022,6 +43030,10 @@ storedMethodName
 finishParserAtom
 (
 compilationInfo
+.
+stencil
+.
+parserAtoms
 )
 ;
 if

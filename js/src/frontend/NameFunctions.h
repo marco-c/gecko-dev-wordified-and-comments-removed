@@ -31,8 +31,8 @@ frontend
 class
 ParseNode
 ;
-struct
-CompilationInfo
+class
+ParserAtomsTable
 ;
 MOZ_MUST_USE
 bool
@@ -41,9 +41,9 @@ NameFunctions
 JSContext
 *
 cx
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 ParseNode
 *
 pn
