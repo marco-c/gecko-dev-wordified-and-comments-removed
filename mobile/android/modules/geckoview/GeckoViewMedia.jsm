@@ -470,7 +470,6 @@ screen
 window
 browser
 mediaDevices
-true
 )
 ;
 var
