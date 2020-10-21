@@ -43,7 +43,7 @@ document
 getElementById
 (
 "
-fxaDeleteLocalDataContent
+shouldDeleteLocalData
 "
 )
 .
@@ -56,7 +56,7 @@ document
 getElementById
 (
 "
-fxaSignoutBody
+fxaSignoutDetail
 "
 )
 .
