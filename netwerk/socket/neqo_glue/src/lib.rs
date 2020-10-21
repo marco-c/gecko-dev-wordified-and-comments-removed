@@ -1918,13 +1918,7 @@ Err
 Http3Error
 :
 :
-TransportError
-(
-TransportError
-:
-:
 StreamLimitError
-)
 )
 =
 >
@@ -3140,13 +3134,7 @@ Err
 Http3Error
 :
 :
-TransportError
-(
-TransportError
-:
-:
 InvalidStreamId
-)
 )
 |
 Err
