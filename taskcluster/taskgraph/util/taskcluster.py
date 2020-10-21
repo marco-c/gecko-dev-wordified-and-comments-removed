@@ -39,10 +39,6 @@ util
 import
 memoize
 from
-redo
-import
-retry
-from
 requests
 .
 packages
@@ -594,31 +590,6 @@ raise_for_status
 return
 response
 def
-_retry_request
-(
-*
-args
-*
-*
-kwargs
-)
-:
-    
-return
-retry
-(
-_do_request
-sleeptime
-=
-10
-args
-=
-args
-kwargs
-=
-kwargs
-)
-def
 _handle_artifact
 (
 path
@@ -754,7 +725,7 @@ use_proxy
         
 response
 =
-_retry_request
+_do_request
 (
             
 os
@@ -879,7 +850,7 @@ returned
     
 response
 =
-_retry_request
+_do_request
 (
 get_artifact_url
 (
@@ -907,7 +878,7 @@ False
     
 response
 =
-_retry_request
+_do_request
 (
 get_artifact_url
 (
@@ -1124,7 +1095,7 @@ try
         
 response
 =
-_retry_request
+_do_request
 (
 get_index_url
 (
@@ -1209,7 +1180,7 @@ artifact_path
     
 response
 =
-_retry_request
+_do_request
 (
 get_index_url
 (
@@ -1288,7 +1259,7 @@ True
         
 response
 =
-_retry_request
+_do_request
 (
 get_index_url
 (
@@ -1428,7 +1399,7 @@ expires
     
 response
 =
-_retry_request
+_do_request
 (
 index_url
 method
@@ -1583,7 +1554,7 @@ False
     
 response
 =
-_retry_request
+_do_request
 (
 get_task_url
 (
@@ -1660,7 +1631,7 @@ task_id
 else
 :
         
-_retry_request
+_do_request
 (
 get_task_url
 (
@@ -1747,7 +1718,7 @@ else
         
 resp
 =
-_retry_request
+_do_request
 (
 get_task_url
 (
@@ -1850,7 +1821,7 @@ task_id
 else
 :
         
-_retry_request
+_do_request
 (
 get_task_url
 (
@@ -2021,7 +1992,7 @@ current
     
 resp
 =
-_retry_request
+_do_request
 (
 auth_url
 )
@@ -2189,7 +2160,7 @@ worker_type
 use_proxy
 )
         
-_retry_request
+_do_request
 (
 purge_cache_url
 json
@@ -2269,7 +2240,7 @@ email
 '
 )
     
-_retry_request
+_do_request
 (
 url
 json
@@ -2368,7 +2339,7 @@ task_group_id
         
 resp
 =
-_retry_request
+_do_request
 (
 url
 method
