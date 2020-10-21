@@ -106,7 +106,12 @@ release_actions
 session
 )
     
-assert_success
+assert_error
 (
 response
+"
+no
+such
+window
+"
 )
