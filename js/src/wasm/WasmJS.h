@@ -172,6 +172,14 @@ cx
 )
 ;
 bool
+FunctionReferencesAvailable
+(
+JSContext
+*
+cx
+)
+;
+bool
 GcTypesAvailable
 (
 JSContext

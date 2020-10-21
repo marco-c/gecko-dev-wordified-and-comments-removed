@@ -529,6 +529,15 @@ enableWasmReftypes
 ;
 #
 ifdef
+ENABLE_WASM_FUNCTION_REFERENCES
+extern
+bool
+enableWasmFunctionReferences
+;
+#
+endif
+#
+ifdef
 ENABLE_WASM_GC
 extern
 bool
