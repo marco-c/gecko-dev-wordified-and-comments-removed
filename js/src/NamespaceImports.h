@@ -53,9 +53,6 @@ namespace
 JS
 {
 class
-Latin1Chars
-;
-class
 Latin1CharsZ
 ;
 class
@@ -238,12 +235,6 @@ JS
 :
 :
 Latin1Char
-;
-using
-JS
-:
-:
-Latin1Chars
 ;
 using
 JS

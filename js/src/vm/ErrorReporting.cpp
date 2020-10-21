@@ -2766,6 +2766,9 @@ argumentsType
 ArgumentsAreLatin1
 )
 ;
+JS
+:
+:
 Latin1Chars
 latin1
 (
