@@ -228,8 +228,10 @@ delta
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >
