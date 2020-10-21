@@ -3120,7 +3120,7 @@ JustStartedNetworkLoad
 )
 ;
 bool
-IsPrintingOrPP
+NavigationBlockedByPrinting
 (
 bool
 aDisplayErrorDialog
@@ -3968,11 +3968,6 @@ mIsBeingDestroyed
 ;
 bool
 mIsExecutingOnLoadHandler
-:
-1
-;
-bool
-mIsPrintingOrPP
 :
 1
 ;
