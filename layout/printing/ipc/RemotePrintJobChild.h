@@ -112,6 +112,13 @@ final
 void
 ProcessPage
 (
+nsTArray
+<
+uint64_t
+>
+&
+&
+aDeps
 )
 ;
 mozilla
