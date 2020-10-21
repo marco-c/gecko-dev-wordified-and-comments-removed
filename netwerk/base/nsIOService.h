@@ -460,12 +460,6 @@ IsLinkUp
 )
 ;
 static
-bool
-IsDataURIUniqueOpaqueOrigin
-(
-)
-;
-static
 already_AddRefed
 <
 nsIURI
