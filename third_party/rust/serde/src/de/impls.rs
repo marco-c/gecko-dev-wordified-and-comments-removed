@@ -526,6 +526,7 @@ self
 }
 }
 }
+;
 }
 macro_rules
 !
@@ -583,6 +584,7 @@ Value
 )
 }
 }
+;
 }
 macro_rules
 !
@@ -8657,7 +8659,7 @@ expecting_message
 )
 }
 fn
-visit_u32
+visit_u64
 <
 E
 >
@@ -8665,7 +8667,7 @@ E
 self
 value
 :
-u32
+u64
 )
 -
 >
@@ -8714,8 +8716,6 @@ Unexpected
 Unsigned
 (
 value
-as
-u64
 )
 &
 self
@@ -15034,7 +15034,7 @@ Excluded
 )
 }
 fn
-visit_u32
+visit_u64
 <
 E
 >
@@ -15042,7 +15042,7 @@ E
 self
 value
 :
-u32
+u64
 )
 -
 >
@@ -15108,8 +15108,6 @@ Unexpected
 Unsigned
 (
 value
-as
-u64
 )
 &
 self
@@ -15924,7 +15922,7 @@ Err
 )
 }
 fn
-visit_u32
+visit_u64
 <
 E
 >
@@ -15932,7 +15930,7 @@ E
 self
 value
 :
-u32
+u64
 )
 -
 >
@@ -15988,8 +15986,6 @@ Unexpected
 Unsigned
 (
 value
-as
-u64
 )
 &
 self

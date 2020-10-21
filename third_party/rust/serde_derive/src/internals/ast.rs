@@ -552,10 +552,6 @@ clone
 (
 )
 attrs
-:
-attrs
-data
-:
 data
 generics
 :
@@ -832,13 +828,7 @@ clone
 (
 )
 attrs
-:
-attrs
 style
-:
-style
-fields
-:
 fields
 original
 :
