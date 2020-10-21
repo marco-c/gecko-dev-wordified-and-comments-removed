@@ -135,11 +135,6 @@ ContainerWriter
 >
 mWriter
 ;
-uint64_t
-mAudioCodecDelay
-=
-0
-;
 bool
 mMetadataSet
 =

@@ -1172,8 +1172,14 @@ fifteen
 ;
 EXPECT_EQ
 (
-fifteen
 totalDuration
+fifteen
++
+encoder
+.
+GetLookahead
+(
+)
 )
 ;
 }
