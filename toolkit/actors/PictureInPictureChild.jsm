@@ -3677,6 +3677,16 @@ video
 {
 if
 (
+video
+.
+srcObject
+)
+{
+return
+;
+}
+if
+(
 this
 .
 inPictureInPicture
