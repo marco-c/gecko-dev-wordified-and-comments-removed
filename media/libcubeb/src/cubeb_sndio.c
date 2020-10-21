@@ -3610,10 +3610,6 @@ stream_set_volume
 =
 sndio_stream_set_volume
 .
-stream_set_name
-=
-NULL
-.
 stream_get_current_device
 =
 NULL

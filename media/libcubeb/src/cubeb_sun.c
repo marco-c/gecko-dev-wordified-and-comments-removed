@@ -3986,10 +3986,6 @@ stream_set_volume
 =
 sun_stream_set_volume
 .
-stream_set_name
-=
-NULL
-.
 stream_get_current_device
 =
 sun_get_current_device

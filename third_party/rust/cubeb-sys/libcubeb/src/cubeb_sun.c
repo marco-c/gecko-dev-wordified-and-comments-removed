@@ -1662,11 +1662,6 @@ cubeb_stream
 s
 )
 {
-sun_stream_stop
-(
-s
-)
-;
 pthread_mutex_destroy
 (
 &
@@ -1674,6 +1669,11 @@ s
 -
 >
 mutex
+)
+;
+sun_stream_stop
+(
+s
 )
 ;
 if
@@ -2374,10 +2374,6 @@ s
 play
 .
 fd
-(
-uint8_t
-*
-)
 s
 -
 >
@@ -2445,7 +2441,7 @@ frames
 write_ofs
 +
 =
-n
+frames
 ;
 }
 if
@@ -2479,10 +2475,6 @@ s
 record
 .
 fd
-(
-uint8_t
-*
-)
 s
 -
 >
@@ -2524,7 +2516,7 @@ frames
 read_ofs
 +
 =
-n
+frames
 ;
 }
 }
@@ -3701,7 +3693,7 @@ params
 .
 rate
 =
-s
+stream
 -
 >
 play
@@ -3985,10 +3977,6 @@ NULL
 stream_set_volume
 =
 sun_stream_set_volume
-.
-stream_set_name
-=
-NULL
 .
 stream_get_current_device
 =
