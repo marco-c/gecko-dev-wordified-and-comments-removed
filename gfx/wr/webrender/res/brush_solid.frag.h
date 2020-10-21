@@ -15,7 +15,7 @@ color
 pack_span
 (
 buf
-flat_varying_vec4_0
+v_color
 )
 ;
 commit_solid_span
@@ -46,7 +46,7 @@ color
 pack_span
 (
 buf
-flat_varying_vec4_0
+v_color
 .
 x
 )
