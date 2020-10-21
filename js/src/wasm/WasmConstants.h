@@ -1385,7 +1385,7 @@ I32x4MaxS
 I32x4MaxU
 =
 0xb9
-I32x4DotSI16x8Experimental
+I32x4DotSI16x8
 =
 0xba
 I64x2Neg
