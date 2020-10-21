@@ -1077,6 +1077,11 @@ ShaderFeatureFlags
 :
 :
 DUAL_SOURCE_BLENDING
+|
+ShaderFeatureFlags
+:
+:
+DEBUG
 ;
 let
 mut
