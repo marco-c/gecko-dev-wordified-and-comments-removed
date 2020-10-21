@@ -717,6 +717,17 @@ if
 isURL
 )
 {
+info
+.
+classList
+.
+add
+(
+"
+url
+"
+)
+;
 let
 link
 =
