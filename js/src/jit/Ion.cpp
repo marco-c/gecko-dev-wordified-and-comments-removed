@@ -565,6 +565,17 @@ include
 "
 jit
 /
+SafepointIndex
+-
+inl
+.
+h
+"
+#
+include
+"
+jit
+/
 shared
 /
 Lowering

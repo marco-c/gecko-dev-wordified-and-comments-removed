@@ -66,6 +66,15 @@ include
 "
 jit
 /
+SafepointIndex
+.
+h
+"
+#
+include
+"
+jit
+/
 Snapshots
 .
 h

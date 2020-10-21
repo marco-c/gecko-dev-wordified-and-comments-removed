@@ -376,6 +376,11 @@ RematerializedFrame
 cpp
 '
 '
+SafepointIndex
+.
+cpp
+'
+'
 Safepoints
 .
 cpp

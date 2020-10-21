@@ -111,6 +111,15 @@ h
 #
 include
 "
+jit
+/
+SafepointIndex
+.
+h
+"
+#
+include
+"
 js
 /
 Conversions

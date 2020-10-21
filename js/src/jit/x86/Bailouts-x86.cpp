@@ -19,6 +19,15 @@ h
 #
 include
 "
+jit
+/
+SafepointIndex
+.
+h
+"
+#
+include
+"
 vm
 /
 JSContext

@@ -86,6 +86,15 @@ include
 "
 jit
 /
+SafepointIndex
+.
+h
+"
+#
+include
+"
+jit
+/
 Safepoints
 .
 h
