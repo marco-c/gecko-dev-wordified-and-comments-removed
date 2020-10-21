@@ -362,6 +362,11 @@ ScreenHelperWin
 cpp
 '
 '
+SystemStatusBar
+.
+cpp
+'
+'
 TaskbarPreview
 .
 cpp
