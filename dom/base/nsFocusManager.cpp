@@ -5919,7 +5919,7 @@ i
 }
 }
 }
-NS_IMETHODIMP
+nsresult
 nsFocusManager
 :
 :
