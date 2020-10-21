@@ -73,7 +73,7 @@ odd
 ;
 ;
 Use
-externref
+eqref
 on
 the
 API
@@ -101,11 +101,11 @@ func
 imp
 (
 param
-externref
+eqref
 )
 (
 result
-externref
+eqref
 )
 )
 )
@@ -592,7 +592,7 @@ func
 g
 (
 param
-externref
+eqref
 )
 (
 unreachable
@@ -1530,7 +1530,7 @@ func
 f
 (
 param
-externref
+eqref
 )
 (
 call
@@ -1567,7 +1567,7 @@ CompileError
 expression
 has
 type
-externref
+eqref
 but
 expected
 \

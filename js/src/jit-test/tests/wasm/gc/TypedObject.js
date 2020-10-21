@@ -34,7 +34,7 @@ mkp
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -127,7 +127,7 @@ mkp
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -229,7 +229,7 @@ struct
 field
 (
 mut
-externref
+eqref
 )
 )
 )
@@ -244,7 +244,7 @@ mkp
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -269,7 +269,7 @@ mkr
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -280,7 +280,7 @@ r
 ref
 .
 null
-extern
+eq
 )
 )
 )
@@ -392,7 +392,7 @@ q
 field
 (
 mut
-externref
+eqref
 )
 )
 )
@@ -407,7 +407,7 @@ mkq
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -434,7 +434,7 @@ mkp
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -451,7 +451,7 @@ q
 ref
 .
 null
-extern
+eq
 )
 )
 )
@@ -589,7 +589,7 @@ mkp
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -755,7 +755,7 @@ func
 f
 (
 param
-externref
+eqref
 )
 (
 result
@@ -769,7 +769,7 @@ is_null
 struct
 .
 narrow
-externref
+eqref
 (
 ref
 null
@@ -789,7 +789,7 @@ func
 g
 (
 param
-externref
+eqref
 )
 (
 result
@@ -803,7 +803,7 @@ is_null
 struct
 .
 narrow
-externref
+eqref
 (
 ref
 null

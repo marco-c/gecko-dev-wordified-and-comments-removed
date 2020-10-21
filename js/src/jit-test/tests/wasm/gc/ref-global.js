@@ -110,7 +110,7 @@ get
 )
 (
 result
-externref
+eqref
 )
 (
 global
