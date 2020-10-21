@@ -524,7 +524,7 @@ true
 )
 ;
 }
-bool
+void
 onChild
 (
 const
@@ -560,7 +560,7 @@ mKeyDelegate
 ;
 }
 ;
-bool
+void
 NoteWeakMapChildrenTracer
 :
 :
@@ -588,7 +588,6 @@ JSString
 )
 {
 return
-true
 ;
 }
 if
@@ -612,7 +611,6 @@ WantAllTraces
 )
 {
 return
-true
 ;
 }
 if
@@ -657,9 +655,6 @@ aThing
 )
 ;
 }
-return
-true
-;
 }
 struct
 NoteWeakMapsTracer
@@ -1840,7 +1835,7 @@ true
 )
 ;
 }
-bool
+void
 onChild
 (
 const
@@ -1859,7 +1854,7 @@ mCb
 ;
 }
 ;
-bool
+void
 TraversalTracer
 :
 :
@@ -1900,7 +1895,6 @@ Symbol
 )
 {
 return
-true
 ;
 }
 if
@@ -1924,7 +1918,6 @@ WantAllTraces
 )
 {
 return
-true
 ;
 }
 if
@@ -2047,9 +2040,6 @@ aThing
 )
 ;
 }
-return
-true
-;
 }
 static
 void
@@ -3439,7 +3429,7 @@ TraceKeysAndValues
 }
 private
 :
-bool
+void
 onChild
 (
 const
@@ -3494,9 +3484,6 @@ asCell
 kindName
 size
 )
-;
-return
-true
 ;
 }
 }

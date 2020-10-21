@@ -11380,7 +11380,7 @@ child_
 bool
 found_
 ;
-bool
+void
 onChild
 (
 const
@@ -11414,9 +11414,6 @@ found_
 true
 ;
 }
-return
-true
-;
 }
 public
 :

@@ -1110,7 +1110,7 @@ context_
 ;
 }
 virtual
-bool
+void
 onChild
 (
 const
@@ -1136,7 +1136,6 @@ JSObject
 objp
 )
 {
-return
 onChild
 (
 JS
@@ -1149,6 +1148,9 @@ objp
 )
 )
 ;
+return
+true
+;
 }
 virtual
 bool
@@ -1160,7 +1162,6 @@ JSString
 strp
 )
 {
-return
 onChild
 (
 JS
@@ -1172,6 +1173,9 @@ GCCellPtr
 strp
 )
 )
+;
+return
+true
 ;
 }
 virtual
@@ -1187,7 +1191,6 @@ Symbol
 symp
 )
 {
-return
 onChild
 (
 JS
@@ -1199,6 +1202,9 @@ GCCellPtr
 symp
 )
 )
+;
+return
+true
 ;
 }
 virtual
@@ -1214,7 +1220,6 @@ BigInt
 bip
 )
 {
-return
 onChild
 (
 JS
@@ -1226,6 +1231,9 @@ GCCellPtr
 bip
 )
 )
+;
+return
+true
 ;
 }
 virtual
@@ -1241,7 +1249,6 @@ BaseScript
 scriptp
 )
 {
-return
 onChild
 (
 JS
@@ -1253,6 +1260,9 @@ GCCellPtr
 scriptp
 )
 )
+;
+return
+true
 ;
 }
 virtual
@@ -1268,7 +1278,6 @@ Shape
 shapep
 )
 {
-return
 onChild
 (
 JS
@@ -1288,6 +1297,9 @@ Shape
 )
 )
 ;
+return
+true
+;
 }
 virtual
 bool
@@ -1302,7 +1314,6 @@ ObjectGroup
 groupp
 )
 {
-return
 onChild
 (
 JS
@@ -1322,6 +1333,9 @@ ObjectGroup
 )
 )
 ;
+return
+true
+;
 }
 virtual
 bool
@@ -1336,7 +1350,6 @@ BaseShape
 basep
 )
 {
-return
 onChild
 (
 JS
@@ -1355,6 +1368,9 @@ TraceKind
 BaseShape
 )
 )
+;
+return
+true
 ;
 }
 virtual
@@ -1373,7 +1389,6 @@ JitCode
 codep
 )
 {
-return
 onChild
 (
 JS
@@ -1393,6 +1408,9 @@ JitCode
 )
 )
 ;
+return
+true
+;
 }
 virtual
 bool
@@ -1407,7 +1425,6 @@ Scope
 scopep
 )
 {
-return
 onChild
 (
 JS
@@ -1427,6 +1444,9 @@ Scope
 )
 )
 ;
+return
+true
+;
 }
 virtual
 bool
@@ -1441,7 +1461,6 @@ RegExpShared
 sharedp
 )
 {
-return
 onChild
 (
 JS
@@ -1460,6 +1479,9 @@ TraceKind
 RegExpShared
 )
 )
+;
+return
+true
 ;
 }
 TracingContext

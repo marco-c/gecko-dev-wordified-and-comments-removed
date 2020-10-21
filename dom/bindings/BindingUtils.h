@@ -3305,7 +3305,7 @@ false
 )
 {
 }
-bool
+void
 onChild
 (
 const
@@ -3317,9 +3317,6 @@ GCCellPtr
 )
 override
 {
-return
-true
-;
 }
 }
 ;
