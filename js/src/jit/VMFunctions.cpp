@@ -7730,7 +7730,7 @@ stackDepth
 )
 ;
 RootedValueVector
-exprStack
+stackStorage
 (
 cx
 )
@@ -7738,7 +7738,7 @@ cx
 if
 (
 !
-exprStack
+stackStorage
 .
 reserve
 (
@@ -7777,7 +7777,7 @@ i
 +
 )
 {
-exprStack
+stackStorage
 .
 infallibleAppend
 (
@@ -7796,7 +7796,7 @@ i
 }
 MOZ_ASSERT
 (
-exprStack
+stackStorage
 .
 length
 (
@@ -7818,7 +7818,7 @@ cx
 obj
 frame
 pc
-exprStack
+stackStorage
 .
 begin
 (
