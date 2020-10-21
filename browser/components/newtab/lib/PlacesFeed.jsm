@@ -1155,6 +1155,9 @@ action
 _target
 .
 browser
+fromChrome
+:
+false
 }
 ;
 const

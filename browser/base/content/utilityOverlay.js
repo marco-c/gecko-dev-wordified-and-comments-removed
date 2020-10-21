@@ -1116,6 +1116,11 @@ params
 .
 fromChrome
 =
+params
+.
+fromChrome
+?
+?
 true
 ;
 openLinkIn
