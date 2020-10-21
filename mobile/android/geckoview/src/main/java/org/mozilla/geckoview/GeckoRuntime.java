@@ -2512,7 +2512,6 @@ delegate
 ;
 }
 WrapForJNI
-private
 boolean
 usesDarkTheme
 (
