@@ -125,7 +125,7 @@ size_t
 quantum
 ;
 size_t
-small_max
+quantum_max
 ;
 size_t
 large_max
