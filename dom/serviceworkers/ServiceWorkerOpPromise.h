@@ -92,6 +92,16 @@ nsresult
 true
 >
 ;
+using
+ServiceWorkerFetchEventOpPromise
+=
+MozPromise
+<
+ServiceWorkerFetchEventOpResult
+nsresult
+true
+>
+;
 }
 }
 #

@@ -54,15 +54,6 @@ FetchEventOpParent
 =
 default
 ;
-void
-Initialize
-(
-const
-ServiceWorkerFetchEventOpArgs
-&
-aArgs
-)
-;
 private
 :
 ~
