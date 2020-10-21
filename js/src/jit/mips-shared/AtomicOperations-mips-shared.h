@@ -36,7 +36,7 @@ include
 "
 vm
 /
-ArrayBufferObject
+Uint8Clamped
 .
 h
 "
