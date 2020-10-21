@@ -385,6 +385,9 @@ formhistory
 dynamic
 :
 15
+tabtosearch
+:
+16
 }
 ICON
 :
@@ -577,6 +580,9 @@ shortcut
 "
 "
 tabmenu
+"
+"
+tabtosearch
 "
 "
 topsites_newtab

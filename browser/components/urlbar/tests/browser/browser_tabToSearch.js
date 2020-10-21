@@ -508,7 +508,7 @@ TEST_ENGINE_NAME
 entry
 :
 "
-keywordoffer
+tabtosearch
 "
 isPreview
 :
