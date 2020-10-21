@@ -2504,6 +2504,13 @@ CACHED_ADDONS
 )
 ;
 await
+TelemetryStorage
+.
+runCleanPingArchiveTask
+(
+)
+;
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -4116,6 +4123,13 @@ await
 TelemetryStorage
 .
 testClearPendingPings
+(
+)
+;
+await
+TelemetryStorage
+.
+runCleanPingArchiveTask
 (
 )
 ;
