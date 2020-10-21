@@ -947,7 +947,7 @@ MediaFeatureChange
 aChange
 )
 ;
-void
+bool
 FlushPendingMediaFeatureValuesChanged
 (
 )
