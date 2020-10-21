@@ -1037,7 +1037,7 @@ iter
 mHostRecord
 -
 >
-Blacklisted
+Blocklisted
 (
 iter
 (
@@ -1059,7 +1059,7 @@ startedFresh
 mHostRecord
 -
 >
-ResetBlacklist
+ResetBlocklist
 (
 )
 ;
@@ -1305,7 +1305,7 @@ if
 mHostRecord
 -
 >
-Blacklisted
+Blocklisted
 (
 &
 address

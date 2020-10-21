@@ -819,7 +819,7 @@ NetAddr
 addr
 ;
 bool
-Blacklisted
+Blocklisted
 (
 const
 mozilla
@@ -834,7 +834,7 @@ query
 )
 ;
 void
-ResetBlacklist
+ResetBlocklist
 (
 )
 ;
@@ -1063,13 +1063,15 @@ TRR
 mTrrAAAA
 ;
 uint32_t
-mBlacklistedCount
+mUnusableCount
+=
+0
 ;
 nsTArray
 <
 nsCString
 >
-mBlacklistedItems
+mUnusableItems
 ;
 }
 ;

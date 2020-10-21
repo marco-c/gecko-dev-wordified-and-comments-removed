@@ -1401,10 +1401,6 @@ AddrHostRecord
 mTrrLock
 "
 )
-mBlacklistedCount
-(
-0
-)
 {
 }
 AddrHostRecord
@@ -1430,7 +1426,7 @@ Telemetry
 :
 :
 DNS_BLACKLIST_COUNT
-mBlacklistedCount
+mUnusableCount
 )
 ;
 }
@@ -1438,7 +1434,7 @@ bool
 AddrHostRecord
 :
 :
-Blacklisted
+Blocklisted
 (
 const
 NetAddr
@@ -1451,7 +1447,8 @@ LOG
 (
 "
 Checking
-blacklist
+unusable
+list
 for
 host
 [
@@ -1480,7 +1477,7 @@ this
 if
 (
 !
-mBlacklistedItems
+mUnusableItems
 .
 Length
 (
@@ -1532,7 +1529,7 @@ i
 ;
 i
 <
-mBlacklistedItems
+mUnusableItems
 .
 Length
 (
@@ -1545,7 +1542,7 @@ i
 {
 if
 (
-mBlacklistedItems
+mUnusableItems
 .
 ElementAt
 (
@@ -1568,7 +1565,7 @@ Address
 s
 ]
 is
-blacklisted
+blocklisted
 for
 host
 [
@@ -1616,7 +1613,7 @@ LOG
 Adding
 address
 to
-blacklist
+blocklist
 for
 host
 [
@@ -1652,7 +1649,7 @@ mTRRSuccess
 ;
 +
 +
-mBlacklistedCount
+mUnusableCount
 ;
 char
 buf
@@ -1687,7 +1684,7 @@ address
 s
 ]
 to
-blacklist
+blocklist
 for
 host
 "
@@ -1709,7 +1706,7 @@ get
 )
 )
 ;
-mBlacklistedItems
+mUnusableItems
 .
 AppendElement
 (
@@ -1725,7 +1722,7 @@ void
 AddrHostRecord
 :
 :
-ResetBlacklist
+ResetBlocklist
 (
 )
 {
@@ -1734,7 +1731,7 @@ LOG
 (
 "
 Resetting
-blacklist
+blocklist
 for
 host
 [
@@ -1760,7 +1757,7 @@ this
 )
 )
 ;
-mBlacklistedItems
+mUnusableItems
 .
 Clear
 (
@@ -1836,7 +1833,7 @@ get
 n
 +
 =
-mBlacklistedItems
+mUnusableItems
 .
 ShallowSizeOfExcludingThis
 (
@@ -1852,7 +1849,7 @@ i
 ;
 i
 <
-mBlacklistedItems
+mUnusableItems
 .
 Length
 (
@@ -1866,7 +1863,7 @@ i
 n
 +
 =
-mBlacklistedItems
+mUnusableItems
 [
 i
 ]
@@ -5841,7 +5838,7 @@ family
 addrUnspecRec
 -
 >
-Blacklisted
+Blocklisted
 (
 &
 addr
