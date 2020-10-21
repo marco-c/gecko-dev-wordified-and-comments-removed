@@ -3830,9 +3830,6 @@ mLoadType
 uint32_t
 mFailedLoadType
 ;
-DisplayMode
-mDisplayMode
-;
 uint32_t
 mJSRunToCompletionDepth
 ;
