@@ -1825,7 +1825,6 @@ clone
 notifier
 opts
 None
-device_size
 )
 .
 unwrap
