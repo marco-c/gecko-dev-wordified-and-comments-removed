@@ -6036,10 +6036,9 @@ values
 )
 )
 {
-await
 highlighter
 .
-hide
+finalize
 (
 )
 ;
