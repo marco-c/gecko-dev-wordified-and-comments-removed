@@ -4785,7 +4785,7 @@ if
 runtime
 -
 >
-hasHelperThreadZones
+hasParseTasks
 (
 )
 )
@@ -4835,7 +4835,7 @@ if
 runtime
 -
 >
-hasHelperThreadZones
+hasParseTasks
 (
 )
 )

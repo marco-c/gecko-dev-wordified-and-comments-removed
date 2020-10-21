@@ -692,6 +692,10 @@ false
 )
 #
 endif
+numParseTasks
+(
+0
+)
 numActiveHelperThreadZones
 (
 0

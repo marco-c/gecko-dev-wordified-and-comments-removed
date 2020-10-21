@@ -3204,6 +3204,13 @@ JSRuntime
 rt
 )
 {
+rt
+-
+>
+addParseTaskRef
+(
+)
+;
 if
 (
 parseGlobal
@@ -9620,6 +9627,13 @@ zoneFromAnyThread
 )
 ;
 }
+rt
+-
+>
+decParseTaskRef
+(
+)
+;
 }
 ParseTask
 *
