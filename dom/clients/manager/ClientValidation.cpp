@@ -10,6 +10,17 @@ include
 "
 mozilla
 /
+ipc
+/
+PBackgroundSharedTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_security
 .
 h
