@@ -485,13 +485,6 @@ UseEGL
 bool
 false
 )
-\
-_
-(
-AllowGLXOnEGL
-bool
-false
-)
 class
 gfxVars
 final
