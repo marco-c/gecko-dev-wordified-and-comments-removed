@@ -40,6 +40,13 @@ h
 #
 include
 "
+CacheCommon
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
