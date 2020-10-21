@@ -11435,7 +11435,13 @@ JS
 CallbackTracer
 (
 cx
-TraceWeakMapKeysValues
+JS
+:
+:
+WeakMapTraceAction
+:
+:
+TraceKeysAndValues
 )
 child_
 (

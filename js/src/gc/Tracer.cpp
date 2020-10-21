@@ -2137,8 +2137,8 @@ CallbackTracer
 JSContext
 *
 cx
-WeakMapTraceKind
-weakTraceKind
+WeakMapTraceAction
+weakMapAction
 )
 :
 CallbackTracer
@@ -2149,7 +2149,7 @@ cx
 runtime
 (
 )
-weakTraceKind
+weakMapAction
 )
 {
 }

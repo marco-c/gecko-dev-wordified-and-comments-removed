@@ -283,7 +283,13 @@ weakMapAction
 )
 !
 =
-DoNotTraceWeakMaps
+JS
+:
+:
+WeakMapTraceAction
+:
+:
+Skip
 )
 ;
 for

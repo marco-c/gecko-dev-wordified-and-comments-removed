@@ -3195,7 +3195,13 @@ JS
 CallbackTracer
 (
 cx
-DoNotTraceWeakMaps
+JS
+:
+:
+WeakMapTraceAction
+:
+:
+Skip
 )
 WeakMapTracer
 (

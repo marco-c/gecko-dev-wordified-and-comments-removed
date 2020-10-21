@@ -3861,7 +3861,13 @@ TracerKindTag
 :
 :
 Tenuring
-TraceWeakMapKeysValues
+JS
+:
+:
+WeakMapTraceAction
+:
+:
+TraceKeysAndValues
 )
 nursery_
 (
