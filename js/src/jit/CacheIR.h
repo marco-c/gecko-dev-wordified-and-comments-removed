@@ -956,6 +956,7 @@ Type
 uint8_t
 {
 RawWord
+RawPointer
 Shape
 ObjectGroup
 JSObject
@@ -2572,7 +2573,7 @@ StubField
 Type
 :
 :
-RawWord
+RawPointer
 )
 ;
 }
