@@ -10,8 +10,7 @@ name
 :
 "
 Web
-Compatibility
-Interventions
+Compat
 "
 "
 description
@@ -33,9 +32,9 @@ version
 "
 :
 "
-16
+15
 .
-0
+1
 .
 0
 "
@@ -783,13 +782,6 @@ js
 lib
 /
 about_compat_broker
-.
-js
-"
-"
-lib
-/
-console_warning_helper
 .
 js
 "
