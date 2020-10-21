@@ -69,6 +69,7 @@ const
 [
 prefType
 prefName
+fallbackValue
 ]
 =
 prefsBlueprint
@@ -84,6 +85,7 @@ accessorName
 prefType
 prefsRoot
 prefName
+fallbackValue
 )
 ;
 }
@@ -134,6 +136,7 @@ cache
 prefType
 prefsRoot
 prefName
+fallbackValue
 )
 {
 const
@@ -188,6 +191,7 @@ join
 .
 "
 )
+fallbackValue
 )
 ;
 cache
@@ -259,6 +263,7 @@ accessorName
 prefType
 prefsRoot
 prefName
+fallbackValue
 serializer
 =
 {
@@ -330,6 +335,7 @@ Char
 "
 prefsRoot
 prefName
+fallbackValue
 {
 in
 :
@@ -367,6 +373,7 @@ Char
 "
 prefsRoot
 prefName
+fallbackValue
 {
 in
 :
@@ -411,6 +418,7 @@ cache
 prefType
 prefsRoot
 prefName
+fallbackValue
 )
 )
 set
