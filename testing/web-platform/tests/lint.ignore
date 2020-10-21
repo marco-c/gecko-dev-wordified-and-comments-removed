@@ -3462,6 +3462,8 @@ applyConstraints
 -
 reject
 .
+https
+.
 html
 GENERATE_TESTS
 :
@@ -3473,6 +3475,8 @@ MediaStreamTrack
 -
 getCapabilities
 .
+https
+.
 html
 GENERATE_TESTS
 :
@@ -3483,8 +3487,8 @@ image
 MediaStreamTrack
 -
 getConstraints
--
-fast
+.
+https
 .
 html
 GENERATE_TESTS
@@ -3496,6 +3500,8 @@ image
 MediaStreamTrack
 -
 getSettings
+.
+https
 .
 html
 GENERATE_TESTS
