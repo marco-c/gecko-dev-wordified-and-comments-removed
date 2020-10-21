@@ -45,6 +45,15 @@ include
 "
 frontend
 /
+NameAnalysisTypes
+.
+h
+"
+#
+include
+"
+frontend
+/
 NameCollections
 .
 h
@@ -604,6 +613,13 @@ DeclarationKind
 kind
 uint32_t
 pos
+ClosedOver
+closedOver
+=
+ClosedOver
+:
+:
+No
 )
 {
 return
@@ -621,6 +637,7 @@ DeclaredNameInfo
 (
 kind
 pos
+closedOver
 )
 )
 )
