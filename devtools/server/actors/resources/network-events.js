@@ -298,11 +298,6 @@ updateResource
 .
 updateType
 ]
-updateType
-:
-updateResource
-.
-updateType
 }
 ;
 switch
@@ -598,6 +593,11 @@ updateResource
 .
 resourceId
 resourceUpdates
+updateType
+:
+updateResource
+.
+updateType
 }
 ]
 )
