@@ -108,9 +108,6 @@ getMigrateData
 in
 jsval
 aProfile
-in
-boolean
-aDoingStartup
 )
 ;
 jsval
