@@ -847,6 +847,12 @@ mTransactionsSenderBlockedByFlowControlCount
 =
 0
 ;
+RefPtr
+<
+nsHttpTransaction
+>
+mFirstHttpTransaction
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
