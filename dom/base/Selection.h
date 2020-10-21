@@ -485,7 +485,7 @@ aDispatchSelectstartEvent
 nodiscard
 ]
 ]
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 AddRangesForSelectableNodes
 (
@@ -514,6 +514,7 @@ nsPresContext
 aPresContext
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 CollapseInLimiter
 (
@@ -545,6 +546,7 @@ aOffset
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 nsresult
 CollapseInLimiter
 (
@@ -571,6 +573,7 @@ StealNSResult
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 CollapseInLimiter
 (
@@ -1050,6 +1053,7 @@ Collapsed
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 CollapseJS
 (
@@ -1066,6 +1070,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 CollapseToStartJS
 (
@@ -1077,6 +1082,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 CollapseToEndJS
 (
@@ -1119,6 +1125,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DeleteFromDocument
 (
@@ -1257,7 +1264,7 @@ nsPoint
 aPoint
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 Modify
 (
@@ -1511,7 +1518,7 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 CollapseInLimiter
 (
@@ -1551,7 +1558,7 @@ eYes
 eNo
 }
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 CollapseInternal
 (
@@ -1568,6 +1575,7 @@ aRv
 ;
 public
 :
+MOZ_CAN_RUN_SCRIPT
 void
 CollapseToStart
 (
@@ -1579,6 +1587,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 CollapseToEnd
 (
