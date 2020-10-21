@@ -6577,6 +6577,9 @@ public
 void
 handleFailureWithHandlerTail
 (
+void
+*
+handler
 Label
 *
 profilerExitTail
