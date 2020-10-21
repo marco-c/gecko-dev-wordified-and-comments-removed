@@ -2343,7 +2343,7 @@ logoutAndTeardown
 ;
 }
 function
-promiseFormsProcessed
+promiseFormsProcessedInSameProcess
 (
 expectedCount
 =
@@ -2447,7 +2447,7 @@ form
 }
 async
 function
-promiseFormsProcessedInChildFrame
+promiseFormsProcessed
 (
 expectedCount
 =
@@ -2584,7 +2584,7 @@ true
 let
 processedPromise
 =
-promiseFormsProcessedInChildFrame
+promiseFormsProcessed
 (
 )
 ;
