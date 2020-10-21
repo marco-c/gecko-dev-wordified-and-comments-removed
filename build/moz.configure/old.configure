@@ -1322,17 +1322,6 @@ with
 -
 android
 -
-distribution
--
-directory
-'
-'
--
--
-with
--
-android
--
 max
 -
 sdk
