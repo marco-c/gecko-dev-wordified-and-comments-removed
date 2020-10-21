@@ -215,15 +215,6 @@ return
 1
 ;
 }
-isTabContentWindow
-(
-win
-)
-{
-return
-false
-;
-}
 }
 ;
 window
