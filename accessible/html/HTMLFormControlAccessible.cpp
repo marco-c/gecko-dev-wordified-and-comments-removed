@@ -483,6 +483,8 @@ mContent
 )
 )
 ;
+if
+(
 dom
 :
 :
@@ -496,11 +498,8 @@ formControlNode
 GetFormElement
 (
 )
-;
-if
-(
-formElm
 )
+{
 inputElms
 =
 NS_GetContentList
@@ -510,7 +509,9 @@ namespaceId
 tagName
 )
 ;
+}
 else
+{
 inputElms
 =
 NS_GetContentList
@@ -525,6 +526,7 @@ namespaceId
 tagName
 )
 ;
+}
 NS_ENSURE_TRUE
 (
 inputElms
