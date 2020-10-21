@@ -6272,6 +6272,16 @@ derive
 eq
 =
 false
+/
+/
+/
+cbindgen
+:
+derive
+-
+ostream
+=
+false
 #
 [
 repr

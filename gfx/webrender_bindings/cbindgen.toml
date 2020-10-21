@@ -271,6 +271,9 @@ true
 derive_eq
 =
 true
+derive_ostream
+=
+true
 [
 enum
 ]
@@ -278,6 +281,9 @@ add_sentinel
 =
 true
 derive_helper_methods
+=
+true
+derive_ostream
 =
 true
 [
