@@ -1919,6 +1919,12 @@ EchConfigEnabled
 )
 const
 ;
+bool
+FallbackToOriginIfConfigsAreECHAndAllFailed
+(
+)
+const
+;
 private
 :
 nsHttpHandler
