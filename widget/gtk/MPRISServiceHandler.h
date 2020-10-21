@@ -651,6 +651,11 @@ aParameters
 )
 const
 ;
+void
+ClearMetadata
+(
+)
+;
 }
 ;
 }
