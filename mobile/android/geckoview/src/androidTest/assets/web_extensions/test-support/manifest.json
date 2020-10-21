@@ -161,6 +161,15 @@ api
 js
 "
 "
+events
+"
+:
+[
+"
+startup
+"
+]
+"
 paths
 "
 :
