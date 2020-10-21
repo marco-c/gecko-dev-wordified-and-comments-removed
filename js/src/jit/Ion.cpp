@@ -689,6 +689,12 @@ using
 mozilla
 :
 :
+CheckedInt
+;
+using
+mozilla
+:
+:
 DebugOnly
 ;
 using
