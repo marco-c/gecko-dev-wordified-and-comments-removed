@@ -571,6 +571,18 @@ __init__
 virtualenv_path
 )
         
+os
+.
+environ
+.
+pop
+(
+'
+__PYVENV_LAUNCHER__
+'
+None
+)
+        
 assert
 os
 .
@@ -1340,18 +1352,6 @@ level
 "
 "
 "
-        
-os
-.
-environ
-.
-pop
-(
-'
-__PYVENV_LAUNCHER__
-'
-None
-)
         
 if
 self
@@ -3261,18 +3261,6 @@ else
 thismodule
 =
 __file__
-        
-os
-.
-environ
-.
-pop
-(
-'
-__PYVENV_LAUNCHER__
-'
-None
-)
         
 args
 =
