@@ -68,6 +68,8 @@ ArrayBuffer
 :
 {
 error
+.
+message
 }
 )
 ;

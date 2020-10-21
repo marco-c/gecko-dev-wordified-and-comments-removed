@@ -15,10 +15,10 @@ localeMatcher
 second
 "
 "
-timeZoneName
-"
-"
 fractionalSecondDigits
+"
+"
+timeZoneName
 "
 "
 formatMatcher

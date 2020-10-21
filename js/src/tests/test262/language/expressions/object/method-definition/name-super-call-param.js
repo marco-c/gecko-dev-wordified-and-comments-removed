@@ -9,6 +9,8 @@ method
 param
 =
 super
+(
+)
 )
 {
 }
