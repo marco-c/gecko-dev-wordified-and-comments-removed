@@ -73,6 +73,14 @@ enabled
 bad
 type
 )
+|
+(
+SIMD
+support
+is
+not
+enabled
+)
 /
 )
 ;
