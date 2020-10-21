@@ -2371,8 +2371,6 @@ usize
 spatial_node
 .
 is_ancestor_or_self_zooming
-(
-)
 }
 )
 ;
