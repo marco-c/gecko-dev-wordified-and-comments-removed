@@ -8828,11 +8828,15 @@ and
 target
 .
 kernel
-=
-=
+in
+(
 '
 WINNT
 '
+'
+Darwin
+'
+)
 :
 enable
 =
