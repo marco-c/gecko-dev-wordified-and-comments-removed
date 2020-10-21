@@ -464,7 +464,6 @@ modes
 ref
 .
 html
-fails
 =
 =
 1183431
@@ -487,9 +486,6 @@ modes
 ref
 .
 html
-#
-bug
-1191801
 =
 =
 1183431
