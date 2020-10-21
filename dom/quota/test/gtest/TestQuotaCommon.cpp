@@ -115,7 +115,7 @@ DEBUG
 TEST
 (
 QuotaCommon_Try
-Success_CustomErr_DiagnosticAssertUnreachable
+Success_CustomErr_AssertUnreachable
 )
 {
 bool
@@ -168,7 +168,7 @@ NS_OK
 TEST
 (
 QuotaCommon_Try
-Success_NoErr_DiagnosticAssertUnreachable
+Success_NoErr_AssertUnreachable
 )
 {
 bool
@@ -240,7 +240,7 @@ MOZ_DIAGNOSTIC_ASSERT_ENABLED
 TEST
 (
 QuotaCommon_Try
-Success_CustomErr_AssertUnreachable
+Success_CustomErr_DiagnosticAssertUnreachable
 )
 {
 bool
@@ -293,7 +293,7 @@ NS_OK
 TEST
 (
 QuotaCommon_Try
-Success_NoErr_AssertUnreachable
+Success_NoErr_DiagnosticAssertUnreachable
 )
 {
 bool
