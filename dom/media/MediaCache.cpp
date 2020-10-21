@@ -13993,6 +13993,15 @@ CacheClientSuspend
 mMediaCache
 -
 >
+QueueSuspendedStatusUpdate
+(
+lock
+mResourceID
+)
+;
+mMediaCache
+-
+>
 OpenStream
 (
 lock
