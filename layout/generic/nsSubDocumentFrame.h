@@ -420,6 +420,7 @@ nsIDocShell
 GetDocShell
 (
 )
+const
 ;
 nsresult
 BeginSwapDocShells

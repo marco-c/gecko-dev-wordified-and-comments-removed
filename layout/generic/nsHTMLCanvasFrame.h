@@ -240,6 +240,7 @@ nsIntSize
 GetCanvasSize
 (
 )
+const
 ;
 virtual
 nscoord

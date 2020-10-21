@@ -4386,6 +4386,7 @@ nsSubDocumentFrame
 GetDocShell
 (
 )
+const
 {
 if
 (
