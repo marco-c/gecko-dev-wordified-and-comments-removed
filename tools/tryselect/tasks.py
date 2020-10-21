@@ -40,6 +40,7 @@ moztest
 resolve
 import
 TestResolver
+TestManifestLoader
 get_suite_definition
 import
 taskgraph
@@ -674,6 +675,9 @@ from_environment
 cwd
 =
 here
+loader_cls
+=
+TestManifestLoader
 )
     
 run_suites
@@ -852,6 +856,9 @@ from_environment
 cwd
 =
 here
+loader_cls
+=
+TestManifestLoader
 )
     
 _
