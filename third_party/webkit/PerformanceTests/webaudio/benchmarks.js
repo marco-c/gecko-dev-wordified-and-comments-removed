@@ -1701,7 +1701,7 @@ duration_adjusted
 =
 DURATION
 /
-8
+16
 ;
 var
 oac
@@ -1719,7 +1719,7 @@ samplerate
 var
 duration
 =
-DURATION
+duration_adjusted
 *
 samplerate
 ;
