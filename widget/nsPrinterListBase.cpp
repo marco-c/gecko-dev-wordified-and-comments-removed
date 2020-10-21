@@ -262,6 +262,11 @@ Promise
 aResult
 )
 {
+EnsureCommonPaperInfo
+(
+aCx
+)
+;
 return
 mozilla
 :
@@ -304,6 +309,11 @@ Promise
 aResult
 )
 {
+EnsureCommonPaperInfo
+(
+aCx
+)
+;
 return
 PrintBackgroundTaskPromise
 (
@@ -346,6 +356,11 @@ Promise
 aResult
 )
 {
+EnsureCommonPaperInfo
+(
+aCx
+)
+;
 return
 PrintBackgroundTaskPromise
 (
@@ -388,6 +403,11 @@ Promise
 aResult
 )
 {
+EnsureCommonPaperInfo
+(
+aCx
+)
+;
 return
 PrintBackgroundTaskPromise
 (

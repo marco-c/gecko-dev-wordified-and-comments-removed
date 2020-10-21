@@ -3033,6 +3033,7 @@ nsPrinterWin
 :
 Create
 (
+mCommonPaperInfo
 std
 :
 :

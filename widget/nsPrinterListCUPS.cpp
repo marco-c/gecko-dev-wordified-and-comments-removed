@@ -498,6 +498,7 @@ MakeRefPtr
 nsPrinterCUPS
 >
 (
+mCommonPaperInfo
 sCupsShim
 std
 :
