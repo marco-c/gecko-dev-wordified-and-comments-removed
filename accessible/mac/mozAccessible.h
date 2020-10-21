@@ -539,6 +539,12 @@ moxRequired
 ;
 -
 (
+id
+)
+moxEditableAncestor
+;
+-
+(
 NSArray
 *
 )
