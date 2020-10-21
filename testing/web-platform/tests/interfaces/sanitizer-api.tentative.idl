@@ -46,11 +46,6 @@ DOMString
 input
 )
 ;
-readonly
-attribute
-SanitizerConfig
-creationOptions
-;
 }
 ;
 dictionary
