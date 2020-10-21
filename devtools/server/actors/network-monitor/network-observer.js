@@ -3141,6 +3141,14 @@ URI
 .
 spec
 ;
+event
+.
+serial
+=
+wsChannel
+.
+serial
+;
 }
 }
 event

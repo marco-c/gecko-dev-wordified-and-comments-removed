@@ -250,7 +250,7 @@ const
 {
 id
 cause
-channelId
+resourceId
 isEventStream
 }
 =
@@ -355,7 +355,7 @@ columnsKey
 }
 currentChannelId
 :
-channelId
+resourceId
 currentChannelType
 currentRequestId
 :
