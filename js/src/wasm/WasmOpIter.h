@@ -8289,8 +8289,12 @@ fail
 invalid
 types
 for
-untyped
+old
+-
+style
+'
 select
+'
 "
 )
 ;
