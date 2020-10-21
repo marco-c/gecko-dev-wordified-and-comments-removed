@@ -2048,7 +2048,7 @@ browser
 ;
 browser
 .
-collapsed
+hidden
 =
 true
 ;
@@ -2687,7 +2687,7 @@ true
 ;
 browser
 .
-collapsed
+hidden
 =
 false
 ;
