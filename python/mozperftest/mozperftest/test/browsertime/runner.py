@@ -971,14 +971,16 @@ new
 )
         
 return
+not
 old_pkg
 [
 "
-_resolved
+_from
 "
 ]
-!
-=
+.
+endswith
+(
 new_pkg
 [
 "
@@ -990,6 +992,7 @@ devDependencies
 browsertime
 "
 ]
+)
     
 def
 setup
