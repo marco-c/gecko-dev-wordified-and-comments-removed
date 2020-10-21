@@ -159,11 +159,6 @@ aBuilder
 nsDisplayList
 *
 aList
-bool
-*
-aIsOpaque
-=
-nullptr
 )
 ;
 virtual
