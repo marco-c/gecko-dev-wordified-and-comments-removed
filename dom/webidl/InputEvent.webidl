@@ -153,17 +153,6 @@ inputType
 ;
 [
 NeedsCallerType
-Pref
-=
-"
-dom
-.
-inputevent
-.
-data
-.
-enabled
-"
 ]
 readonly
 attribute
