@@ -359,7 +359,7 @@ clear
 }
 clearElement
 (
-webEl
+elem
 )
 {
 return
@@ -373,14 +373,14 @@ MarionetteFrameParent
 clearElement
 "
 {
-webEl
+elem
 }
 )
 ;
 }
 clickElement
 (
-webEl
+elem
 capabilities
 )
 {
@@ -395,7 +395,7 @@ MarionetteFrameParent
 clickElement
 "
 {
-webEl
+elem
 capabilities
 }
 )
@@ -490,7 +490,7 @@ getCurrentUrl
 async
 getElementAttribute
 (
-webEl
+elem
 name
 )
 {
@@ -505,8 +505,8 @@ MarionetteFrameParent
 getElementAttribute
 "
 {
+elem
 name
-webEl
 }
 )
 ;
@@ -514,7 +514,7 @@ webEl
 async
 getElementProperty
 (
-webEl
+elem
 name
 )
 {
@@ -529,8 +529,8 @@ MarionetteFrameParent
 getElementProperty
 "
 {
+elem
 name
-webEl
 }
 )
 ;
@@ -538,7 +538,7 @@ webEl
 async
 getElementRect
 (
-webEl
+elem
 )
 {
 return
@@ -552,7 +552,7 @@ MarionetteFrameParent
 getElementRect
 "
 {
-webEl
+elem
 }
 )
 ;
@@ -560,7 +560,7 @@ webEl
 async
 getElementTagName
 (
-webEl
+elem
 )
 {
 return
@@ -574,7 +574,7 @@ MarionetteFrameParent
 getElementTagName
 "
 {
-webEl
+elem
 }
 )
 ;
@@ -582,7 +582,7 @@ webEl
 async
 getElementText
 (
-webEl
+elem
 )
 {
 return
@@ -596,7 +596,7 @@ MarionetteFrameParent
 getElementText
 "
 {
-webEl
+elem
 }
 )
 ;
@@ -604,7 +604,7 @@ webEl
 async
 getElementValueOfCssProperty
 (
-webEl
+elem
 name
 )
 {
@@ -619,8 +619,8 @@ MarionetteFrameParent
 getElementValueOfCssProperty
 "
 {
+elem
 name
-webEl
 }
 )
 ;
@@ -646,7 +646,7 @@ getPageSource
 async
 isElementDisplayed
 (
-webEl
+elem
 capabilities
 )
 {
@@ -661,8 +661,8 @@ MarionetteFrameParent
 isElementDisplayed
 "
 {
-webEl
 capabilities
+elem
 }
 )
 ;
@@ -670,7 +670,7 @@ capabilities
 async
 isElementEnabled
 (
-webEl
+elem
 capabilities
 )
 {
@@ -685,8 +685,8 @@ MarionetteFrameParent
 isElementEnabled
 "
 {
-webEl
 capabilities
+elem
 }
 )
 ;
@@ -694,7 +694,7 @@ capabilities
 async
 isElementSelected
 (
-webEl
+elem
 capabilities
 )
 {
@@ -709,8 +709,8 @@ MarionetteFrameParent
 isElementSelected
 "
 {
-webEl
 capabilities
+elem
 }
 )
 ;
@@ -718,7 +718,7 @@ capabilities
 async
 sendKeysToElement
 (
-webEl
+elem
 text
 capabilities
 )
@@ -734,9 +734,9 @@ MarionetteFrameParent
 sendKeysToElement
 "
 {
-webEl
-text
 capabilities
+elem
+text
 }
 )
 ;
