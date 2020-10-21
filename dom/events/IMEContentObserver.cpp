@@ -139,6 +139,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -1437,6 +1444,9 @@ AddMutationObserver
 this
 )
 ;
+dom
+:
+:
 Document
 *
 doc
@@ -2271,6 +2281,9 @@ IMEContentObserver
 :
 OnSelectionChange
 (
+dom
+:
+:
 Selection
 &
 aSelection
@@ -9090,6 +9103,9 @@ DocumentObserver
 :
 Observe
 (
+dom
+:
+:
 Document
 *
 aDocument
@@ -9102,6 +9118,9 @@ aDocument
 ;
 RefPtr
 <
+dom
+:
+:
 Document
 >
 newDocument
@@ -9169,6 +9188,9 @@ mIMEContentObserver
 ;
 RefPtr
 <
+dom
+:
+:
 Document
 >
 document
@@ -9239,6 +9261,9 @@ DocumentObserver
 :
 BeginUpdate
 (
+dom
+:
+:
 Document
 *
 aDocument
@@ -9287,6 +9312,9 @@ DocumentObserver
 :
 EndUpdate
 (
+dom
+:
+:
 Document
 *
 aDocument

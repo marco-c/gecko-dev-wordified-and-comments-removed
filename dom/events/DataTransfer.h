@@ -144,6 +144,9 @@ class
 DataTransferItem
 ;
 class
+DataTransferItemList
+;
+class
 DOMStringList
 ;
 class

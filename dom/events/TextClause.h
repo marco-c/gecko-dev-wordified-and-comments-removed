@@ -52,6 +52,13 @@ h
 #
 include
 "
+nsPIDOMWindow
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h

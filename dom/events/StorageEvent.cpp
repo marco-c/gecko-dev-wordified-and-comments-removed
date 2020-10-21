@@ -20,6 +20,17 @@ Storage
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+StorageEventBinding
+.
+h
+"
 namespace
 mozilla
 {

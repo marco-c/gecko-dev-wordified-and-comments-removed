@@ -66,6 +66,15 @@ include
 "
 mozilla
 /
+EventStateManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h
