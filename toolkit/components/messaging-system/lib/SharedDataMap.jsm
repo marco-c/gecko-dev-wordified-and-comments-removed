@@ -611,6 +611,11 @@ key
 }
 _notifyUpdate
 (
+process
+=
+"
+parent
+"
 )
 {
 for
@@ -636,6 +641,12 @@ this
 .
 emit
 (
+{
+process
+}
+-
+store
+-
 update
 :
 {
@@ -727,6 +738,9 @@ this
 .
 _notifyUpdate
 (
+"
+child
+"
 )
 ;
 }
