@@ -333,6 +333,15 @@ include
 "
 vm
 /
+Uint8Clamped
+.
+h
+"
+#
+include
+"
+vm
+/
 WrapperObject
 .
 h

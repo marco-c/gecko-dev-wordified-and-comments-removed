@@ -157,6 +157,15 @@ include
 "
 vm
 /
+Uint8Clamped
+.
+h
+"
+#
+include
+"
+vm
+/
 BytecodeUtil
 -
 inl
