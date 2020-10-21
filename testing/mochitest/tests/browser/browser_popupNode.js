@@ -8,6 +8,8 @@ document
 popupNode
 =
 document
+.
+documentElement
 ;
 isnot
 (
