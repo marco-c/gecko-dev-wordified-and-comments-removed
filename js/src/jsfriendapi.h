@@ -1403,16 +1403,6 @@ realm
 ;
 }
 JS_FRIEND_API
-JSObject
-*
-GetPrototypeNoProxy
-(
-JSObject
-*
-obj
-)
-;
-JS_FRIEND_API
 void
 AssertSameCompartment
 (
