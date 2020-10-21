@@ -57585,6 +57585,19 @@ loadingEntry
 mLoadIsFromSessionHistory
 )
 {
+if
+(
+!
+LOAD_TYPE_HAS_FLAGS
+(
+mLoadType
+nsIWebNavigation
+:
+:
+LOAD_FLAGS_REPLACE_HISTORY
+)
+)
+{
 changeID
 =
 rootSH
@@ -57594,6 +57607,7 @@ AddPendingHistoryChange
 (
 )
 ;
+}
 }
 else
 {
