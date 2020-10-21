@@ -391,6 +391,15 @@ aResult
 )
 override
 ;
+NS_IMETHOD
+GetRetryEchConfig
+(
+nsACString
+&
+aEchConfig
+)
+override
+;
 PRStatus
 CloseSocketAndDestroy
 (
