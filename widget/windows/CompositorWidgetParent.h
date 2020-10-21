@@ -383,10 +383,6 @@ Relaxed
 >
 mTransparencyMode
 ;
-uint8_t
-*
-mLockedBackBufferData
-;
 std
 :
 :
