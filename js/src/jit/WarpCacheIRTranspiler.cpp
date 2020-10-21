@@ -73,6 +73,15 @@ include
 "
 jit
 /
+CompileInfo
+.
+h
+"
+#
+include
+"
+jit
+/
 MIR
 .
 h

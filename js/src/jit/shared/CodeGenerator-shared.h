@@ -23,6 +23,15 @@ include
 "
 jit
 /
+InlineScriptTree
+.
+h
+"
+#
+include
+"
+jit
+/
 JitcodeMap
 .
 h

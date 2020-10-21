@@ -71,6 +71,15 @@ include
 "
 jit
 /
+InlineScriptTree
+.
+h
+"
+#
+include
+"
+jit
+/
 JitRealm
 .
 h
