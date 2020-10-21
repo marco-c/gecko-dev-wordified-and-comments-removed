@@ -1,3 +1,15 @@
+setJitCompilerOption
+(
+"
+ion
+.
+warmup
+.
+trigger
+"
+30
+)
+;
 var
 g
 =
