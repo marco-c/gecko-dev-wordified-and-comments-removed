@@ -2318,9 +2318,10 @@ aTitle
 mInfo
 -
 >
-mTitle
-=
+SetTitle
+(
 aTitle
+)
 ;
 return
 NS_OK

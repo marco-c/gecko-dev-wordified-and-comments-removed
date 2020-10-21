@@ -330,6 +330,10 @@ mTitle
 =
 aTitle
 ;
+MaybeUpdateTitleFromURI
+(
+)
+;
 }
 const
 nsAString
