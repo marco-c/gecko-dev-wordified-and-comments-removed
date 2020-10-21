@@ -4801,6 +4801,9 @@ defaultFramebufferScale
 this
 .
 defaultFramebufferScale_
+supportsViewportScaling
+:
+true
 }
 }
 )
