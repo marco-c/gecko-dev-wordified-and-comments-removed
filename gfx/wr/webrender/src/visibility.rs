@@ -2832,6 +2832,8 @@ vis
 PrimitiveVisibility
 {
 clipped_world_rect
+:
+clipped_world_rect
 clip_chain
 clip_task_index
 :
