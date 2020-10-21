@@ -642,6 +642,14 @@ mozIDOMWindowProxy
 aWindow
 )
 ;
+void
+FireDelayedEvents
+(
+Document
+*
+aDocument
+)
+;
 static
 uint32_t
 FocusOptionsToFocusManagerFlags
