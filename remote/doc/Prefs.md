@@ -76,7 +76,9 @@ a
 -
 remote
 -
-debugger
+debugging
+-
+port
 flag
 ]
 for
@@ -101,7 +103,7 @@ startup
 -
 remote
 -
-debugger
+debugging
 flag
 ]
 :

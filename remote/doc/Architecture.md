@@ -102,12 +102,6 @@ arguments
 -
 remote
 -
-debugger
-and
--
--
-remote
--
 debugging
 -
 port
@@ -143,7 +137,7 @@ will
 be
 printed
 to
-stdout
+stderr
 .
 To
 do

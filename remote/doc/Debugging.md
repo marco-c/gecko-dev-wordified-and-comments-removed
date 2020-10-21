@@ -103,7 +103,9 @@ Trace
 -
 remote
 -
-debugger
+debugging
+-
+port
 By
 default
 long
@@ -215,7 +217,9 @@ true
 -
 remote
 -
-debugger
+debuggiing
+-
+port
 Logging
 observer
 notifications
