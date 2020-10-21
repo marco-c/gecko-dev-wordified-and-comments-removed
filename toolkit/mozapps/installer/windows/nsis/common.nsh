@@ -19731,8 +19731,6 @@ really
 happens
 .
 RmDir
-/
-REBOOTOK
 "
 PROGRAMFILES32
 \
