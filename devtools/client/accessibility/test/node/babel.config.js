@@ -18,6 +18,17 @@ plugin
 -
 proposal
 -
+class
+-
+properties
+"
+"
+babel
+/
+plugin
+-
+proposal
+-
 async
 -
 generator
