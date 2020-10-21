@@ -290,6 +290,17 @@ nullptr
 ;
 static
 void
+PrepareForCycleCollectionSlice
+(
+mozilla
+:
+:
+TimeStamp
+aDeadline
+)
+;
+static
+void
 RunCycleCollectorSlice
 (
 mozilla
