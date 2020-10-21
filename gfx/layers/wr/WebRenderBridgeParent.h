@@ -2662,9 +2662,6 @@ mCompositionOpportunityId
 nsCString
 mInitError
 ;
-VsyncId
-mSkippedCompositeId
-;
 TimeStamp
 mMostRecentComposite
 ;
