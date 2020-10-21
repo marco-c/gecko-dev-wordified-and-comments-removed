@@ -131,7 +131,7 @@ version
 .
 5
 .
-9
+3
 "
 authors
 =
@@ -313,8 +313,6 @@ version
 0
 .
 5
-.
-3
 "
 package
 =
@@ -370,8 +368,6 @@ version
 =
 "
 0
-.
-1
 .
 1
 "

@@ -1435,9 +1435,6 @@ StoreOp
 clear_value
 :
 T
-read_only
-:
-bool
 }
 impl
 <
@@ -1488,9 +1485,6 @@ T
 default
 (
 )
-read_only
-:
-false
 }
 }
 }

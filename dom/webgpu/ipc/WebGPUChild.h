@@ -54,6 +54,9 @@ struct
 WGPUTextureViewDescriptor
 ;
 }
+struct
+TextureInfo
+;
 typedef
 MozPromise
 <
