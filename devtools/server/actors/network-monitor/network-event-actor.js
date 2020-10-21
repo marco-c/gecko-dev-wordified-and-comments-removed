@@ -1539,7 +1539,7 @@ total
 )
 ;
 }
-addSeverTimings
+addServerTimings
 (
 serverTimings
 )

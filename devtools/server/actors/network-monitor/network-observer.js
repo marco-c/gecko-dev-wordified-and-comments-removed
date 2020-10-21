@@ -1452,7 +1452,7 @@ httpActivity
 .
 owner
 .
-addSeverTimings
+addServerTimings
 (
 serverTimings
 )
