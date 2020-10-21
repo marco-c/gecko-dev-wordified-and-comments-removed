@@ -783,15 +783,6 @@ get_engine
 (
 )
 {
-await
-Service
-.
-engineManager
-.
-switchAlternatives
-(
-)
-;
 return
 Service
 .
