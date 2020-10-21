@@ -306,7 +306,9 @@ py_executable
 "
 shift
 if
-which
+command
+-
+v
 "
 py_executable
 "
