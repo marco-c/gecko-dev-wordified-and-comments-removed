@@ -14045,6 +14045,9 @@ PROFILER_MARKER_TEXT
 (
 name
 GRAPHICS
+.
+WithOptions
+(
 MarkerTiming
 :
 :
@@ -14054,6 +14057,7 @@ payload
 .
 mTimeStamp
 presented
+)
 )
 text
 )

@@ -1877,11 +1877,15 @@ AUTO_PROFILER_MARKER_TEXT
 SubScript
 "
 JS
+.
+WithOptions
+(
 MarkerStack
 :
 :
 Capture
 (
+)
 )
 asciiUrl
 )

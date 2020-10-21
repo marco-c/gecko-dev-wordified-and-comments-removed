@@ -34791,8 +34791,6 @@ Background
 Iframe
 "
 DOM
-{
-}
 marker
 )
 ;

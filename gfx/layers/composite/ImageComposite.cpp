@@ -250,8 +250,6 @@ frame
 offsets
 "
 GRAPHICS
-{
-}
 str
 )
 ;
@@ -807,8 +805,6 @@ ImageComposite
 SetImages
 "
 GRAPHICS
-{
-}
 str
 )
 ;
@@ -1128,8 +1124,6 @@ PROFILER_MARKER_TEXT
 UpdateCompositedFrame
 "
 GRAPHICS
-{
-}
 descr
 )
 ;
@@ -1270,8 +1264,6 @@ frames
 dropped
 "
 GRAPHICS
-{
-}
 text
 )
 ;
@@ -1779,8 +1771,6 @@ PROFILER_MARKER_TEXT
 VideoFrameTimeStampJitter
 "
 GRAPHICS
-{
-}
 text
 )
 ;

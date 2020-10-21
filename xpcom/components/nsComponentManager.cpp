@@ -6436,11 +6436,15 @@ AUTO_PROFILER_MARKER_TEXT
 GetService
 "
 OTHER
+.
+WithOptions
+(
 MarkerStack
 :
 :
 Capture
 (
+)
 )
 nsDependentCString
 (
