@@ -426,7 +426,7 @@ NOTIFY_STATE_WINDOW
 const
 NUM_TESTS
 =
-6
+7
 ;
 await
 SpecialPowers
