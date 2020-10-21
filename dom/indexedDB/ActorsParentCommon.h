@@ -334,6 +334,11 @@ IndexDataValue
 32
 >
 ;
+template
+<
+typename
+T
+>
 Result
 <
 IndexDataValuesAutoArray
@@ -341,7 +346,7 @@ nsresult
 >
 ReadCompressedIndexDataValues
 (
-mozIStorageValueArray
+T
 &
 aValues
 uint32_t
