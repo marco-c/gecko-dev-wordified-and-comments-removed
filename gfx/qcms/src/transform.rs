@@ -10356,7 +10356,7 @@ profile
 .
 mBA
 .
-is_null
+is_none
 (
 )
 {
@@ -11600,7 +11600,7 @@ in_0
 .
 mAB
 .
-is_null
+is_none
 (
 )
 |
@@ -11613,7 +11613,7 @@ out
 .
 mAB
 .
-is_null
+is_none
 (
 )
 )
