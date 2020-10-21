@@ -2776,6 +2776,17 @@ GetContent
 )
 &
 displayport
+DisplayPortOptions
+(
+)
+.
+With
+(
+ContentGeometryType
+:
+:
+Fixed
+)
 )
 )
 {
