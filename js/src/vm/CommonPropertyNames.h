@@ -709,15 +709,6 @@ continue
 \
 MACRO
 (
-ConvertAndCopyTo
-ConvertAndCopyTo
-"
-ConvertAndCopyTo
-"
-)
-\
-MACRO
-(
 CopyDataProperties
 CopyDataProperties
 "

@@ -6462,11 +6462,6 @@ fieldProps
 cx
 )
 ;
-bool
-allowConstruct
-=
-true
-;
 uint32_t
 k
 =
@@ -6509,10 +6504,6 @@ I64
 sf
 .
 isMutable
-=
-false
-;
-allowConstruct
 =
 false
 ;
@@ -6602,10 +6593,6 @@ V128
 sf
 .
 isMutable
-=
-false
-;
-allowConstruct
 =
 false
 ;
@@ -6757,10 +6744,6 @@ isMutable
 =
 false
 ;
-allowConstruct
-=
-false
-;
 }
 if
 (
@@ -6810,7 +6793,6 @@ createFromArrays
 (
 cx
 prototype
-allowConstruct
 ids
 fieldTypeObjs
 fieldProps
