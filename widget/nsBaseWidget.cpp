@@ -4704,7 +4704,7 @@ wheelEvent
 =
 mWheelInput
 .
-ToWidgetWheelEvent
+ToWidgetEvent
 (
 mWidget
 )
@@ -5049,7 +5049,7 @@ event
 =
 aInput
 .
-ToWidgetWheelEvent
+ToWidgetEvent
 (
 this
 )
@@ -5069,7 +5069,7 @@ event
 =
 aInput
 .
-ToWidgetWheelEvent
+ToWidgetEvent
 (
 this
 )
