@@ -615,10 +615,12 @@ playback_version
 '
             
 '
-playback_pageset_manifest
+playback_files
 '
 :
+[
 tp6_pageset_manifest
+]
             
 '
 platform

@@ -307,9 +307,10 @@ mitmproxy
 "
         
 "
-playback_pageset_manifest
+playback_files
 "
 :
+[
 os
 .
 path
@@ -322,6 +323,7 @@ files
 "
 pageset_name
 )
+]
         
 "
 playback_version
@@ -606,10 +608,12 @@ mitmproxy
 "
         
 "
-playback_pageset_manifest
+playback_files
 "
 :
+[
 pageset_name
+]
         
 "
 playback_version
@@ -859,10 +863,12 @@ mitmproxy
 "
         
 "
-playback_pageset_manifest
+playback_files
 "
 :
+[
 pageset_name
+]
         
 "
 playback_version
@@ -1123,10 +1129,12 @@ mitmproxy
 "
         
 "
-playback_pageset_manifest
+playback_files
 "
 :
+[
 pageset_name
+]
         
 "
 playback_version

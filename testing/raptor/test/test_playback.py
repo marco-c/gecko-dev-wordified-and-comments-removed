@@ -169,10 +169,11 @@ playback_version
 config
 [
 "
-playback_pageset_manifest
+playback_files
 "
 ]
 =
+[
 os
 .
 path
@@ -230,6 +231,7 @@ manifest
 "
     
 )
+]
     
 config
 [
