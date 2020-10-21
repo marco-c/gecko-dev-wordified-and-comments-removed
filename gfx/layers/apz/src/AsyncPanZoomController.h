@@ -799,6 +799,14 @@ ScreenSize
 aBaseSize
 )
 ;
+enum
+class
+ZoomInProgress
+{
+No
+Yes
+}
+;
 static
 const
 ScreenMargin
@@ -812,6 +820,8 @@ const
 ParentLayerPoint
 &
 aVelocity
+ZoomInProgress
+aZoomInProgress
 )
 ;
 nsEventStatus

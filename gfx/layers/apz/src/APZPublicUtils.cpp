@@ -85,6 +85,13 @@ CalculatePendingDisplayPort
 (
 aFrameMetrics
 aVelocity
+AsyncPanZoomController
+:
+:
+ZoomInProgress
+:
+:
+No
 )
 ;
 }
