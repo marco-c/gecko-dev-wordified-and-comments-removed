@@ -20,6 +20,11 @@ true
 }
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 let
 gShouldObserveSubframes
 =
