@@ -3467,8 +3467,6 @@ aContinueHandlingSubframeHistory
 void
 MoveLoadingToActiveEntry
 (
-bool
-aCommit
 )
 ;
 private
