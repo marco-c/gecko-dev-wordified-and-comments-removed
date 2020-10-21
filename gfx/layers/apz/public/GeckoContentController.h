@@ -97,17 +97,6 @@ mozilla
 /
 layers
 /
-RepaintRequest
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 ScrollableLayerGuid
 .
 h
@@ -128,6 +117,9 @@ Runnable
 namespace
 layers
 {
+struct
+RepaintRequest
+;
 class
 GeckoContentController
 {

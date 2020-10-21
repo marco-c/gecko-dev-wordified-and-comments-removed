@@ -79,6 +79,17 @@ mozilla
 /
 layers
 /
+RepaintRequest
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ShadowLayers
 .
 h
