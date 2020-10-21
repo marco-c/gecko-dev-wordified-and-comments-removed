@@ -27,15 +27,6 @@ include
 "
 jit
 /
-MIRGenerator
-.
-h
-"
-#
-include
-"
-jit
-/
 MIRGraph
 .
 h
@@ -911,9 +902,6 @@ MOZ_MUST_USE
 bool
 savePriorCallStack
 (
-MIRGenerator
-*
-mir
 MBasicBlock
 *
 current
@@ -964,9 +952,6 @@ MOZ_MUST_USE
 bool
 pushPriorCallStack
 (
-MIRGenerator
-*
-mir
 MBasicBlock
 *
 current
@@ -984,7 +969,6 @@ empty
 return
 pushCallStack
 (
-mir
 current
 )
 ;
@@ -1034,9 +1018,6 @@ MOZ_MUST_USE
 bool
 pushCallStack
 (
-MIRGenerator
-*
-mir
 MBasicBlock
 *
 current

@@ -18902,10 +18902,6 @@ callInfo
 .
 pushCallStack
 (
-&
-mirGen
-(
-)
 current
 )
 )
