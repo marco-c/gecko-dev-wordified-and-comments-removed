@@ -616,6 +616,14 @@ mozIDOMWindowProxy
 aWindow
 )
 ;
+void
+WindowLowered
+(
+mozIDOMWindowProxy
+*
+aWindow
+)
+;
 static
 uint32_t
 FocusOptionsToFocusManagerFlags
