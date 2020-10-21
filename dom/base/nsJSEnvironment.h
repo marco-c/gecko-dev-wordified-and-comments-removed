@@ -458,8 +458,8 @@ LikelyShortLivingObjectCreated
 )
 ;
 static
-uint32_t
-CleanupsSinceLastGC
+bool
+HasHadCleanupSinceLastGC
 (
 )
 ;

@@ -1738,12 +1738,9 @@ cleanupJS
 nsJSContext
 :
 :
-CleanupsSinceLastGC
+HasHadCleanupSinceLastGC
 (
 )
-=
-=
-0
 &
 &
 !
