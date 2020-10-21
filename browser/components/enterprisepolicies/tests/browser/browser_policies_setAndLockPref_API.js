@@ -103,7 +103,7 @@ test
 .
 intPref
 "
-0
+2
 )
 ;
 checkLockedPref
@@ -115,7 +115,7 @@ test
 .
 intPref
 "
-0
+2
 )
 ;
 setAndLockPref
@@ -232,7 +232,7 @@ test
 .
 intPref
 "
-0
+2
 )
 ;
 Services
