@@ -155,6 +155,15 @@ h
 #
 include
 "
+vm
+/
+TypeInference
+.
+h
+"
+#
+include
+"
 jit
 /
 shared
