@@ -537,9 +537,10 @@ protected
 :
 virtual
 int
-GetPacketDuration
+NumInputFramesPerPacket
 (
 )
+const
 {
 return
 0
