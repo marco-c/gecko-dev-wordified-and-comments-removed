@@ -1682,6 +1682,9 @@ spoofAttributionData
 if
 (
 gIsWindows
+|
+|
+gIsMac
 )
 {
 AttributionCode
@@ -1708,6 +1711,9 @@ cleanupAttributionData
 if
 (
 gIsWindows
+|
+|
+gIsMac
 )
 {
 AttributionCode
@@ -2297,7 +2303,12 @@ object
 }
 if
 (
+(
 gIsWindows
+|
+|
+gIsMac
+)
 &
 &
 AppConstants
