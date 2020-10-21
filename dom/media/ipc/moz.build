@@ -30,11 +30,6 @@ mozilla
 =
 [
 '
-GpuDecoderModule
-.
-h
-'
-'
 IRemoteDecoderChild
 .
 h
@@ -128,11 +123,6 @@ SOURCES
 +
 =
 [
-'
-GpuDecoderModule
-.
-cpp
-'
 '
 RDDChild
 .
