@@ -145,7 +145,7 @@ infallible
 readonly
 attribute
 boolean
-isForPrintPreview
+isForWindowDotPrint
 ;
 [
 notxpcom

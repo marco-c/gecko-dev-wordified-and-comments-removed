@@ -3262,12 +3262,12 @@ PRINT_NONE
 openWindowInfo
 -
 >
-mIsForPrintPreview
+mIsForWindowDotPrint
 =
 aPrintKind
 =
 =
-PRINT_PREVIEW
+PRINT_WINDOW_DOT_PRINT
 ;
 openWindowInfo
 -

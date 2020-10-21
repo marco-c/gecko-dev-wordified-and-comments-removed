@@ -11479,7 +11479,7 @@ Yes
 nsGlobalWindowOuter
 :
 :
-BlockUntilDone
+IsForWindowDotPrint
 :
 :
 No
@@ -11774,7 +11774,7 @@ No
 nsGlobalWindowOuter
 :
 :
-BlockUntilDone
+IsForWindowDotPrint
 :
 :
 No

@@ -26381,7 +26381,7 @@ aForPrinting
 const
 bool
 &
-aForPrintPreview
+aForWindowDotPrint
 nsIURI
 *
 aURIToLoad
@@ -26517,9 +26517,9 @@ aForPrinting
 openInfo
 -
 >
-mIsForPrintPreview
+mIsForWindowDotPrint
 =
-aForPrintPreview
+aForWindowDotPrint
 ;
 openInfo
 -
@@ -26537,7 +26537,7 @@ aOriginAttributes
 ;
 MOZ_ASSERT_IF
 (
-aForPrintPreview
+aForWindowDotPrint
 aForPrinting
 )
 ;

@@ -8978,6 +8978,9 @@ PrintUtils
 .
 startPrintWindow
 (
+"
+context_print_frame
+"
 this
 .
 actor
@@ -8994,6 +8997,9 @@ PrintUtils
 .
 startPrintWindow
 (
+"
+context_print_selection
+"
 this
 .
 actor

@@ -73,7 +73,7 @@ mIsForPrinting
 false
 ;
 bool
-mIsForPrintPreview
+mIsForWindowDotPrint
 =
 false
 ;

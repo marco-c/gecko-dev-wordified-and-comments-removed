@@ -5936,7 +5936,7 @@ GetIsForPrinting
 aOpenWindowInfo
 -
 >
-GetIsForPrintPreview
+GetIsForWindowDotPrint
 (
 )
 aURI
