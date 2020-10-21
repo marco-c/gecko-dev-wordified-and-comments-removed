@@ -42,7 +42,7 @@ wasm
 -
 compiler
 =
-ion
+optimizing
 ;
 test
 -
