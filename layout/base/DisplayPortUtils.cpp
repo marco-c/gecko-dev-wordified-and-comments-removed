@@ -2331,8 +2331,6 @@ aContent
 nsRect
 *
 aResult
-DisplayportRelativeTo
-aRelativeTo
 )
 {
 MOZ_ASSERT
@@ -2359,15 +2357,6 @@ Drop
 if
 (
 usingDisplayPort
-&
-&
-aRelativeTo
-=
-=
-DisplayportRelativeTo
-:
-:
-ScrollFrame
 )
 {
 TranslateFromScrollPortToScrollFrame

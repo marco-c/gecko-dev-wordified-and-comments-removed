@@ -227,13 +227,6 @@ aContent
 nsRect
 *
 aResult
-DisplayportRelativeTo
-aRelativeTo
-=
-DisplayportRelativeTo
-:
-:
-ScrollPort
 )
 ;
 enum
