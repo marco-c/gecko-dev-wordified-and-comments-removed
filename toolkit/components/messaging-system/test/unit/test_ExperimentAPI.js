@@ -869,9 +869,6 @@ createSandbox
 const
 RECIPE
 =
-{
-arguments
-:
 ExperimentFakes
 .
 recipe
@@ -880,7 +877,6 @@ recipe
 foo
 "
 )
-}
 ;
 sandbox
 .
@@ -1031,9 +1027,6 @@ createSandbox
 const
 RECIPE
 =
-{
-arguments
-:
 ExperimentFakes
 .
 recipe
@@ -1042,7 +1035,6 @@ recipe
 foo
 "
 )
-}
 ;
 sandbox
 .
@@ -1082,8 +1074,6 @@ deepEqual
 (
 branches
 RECIPE
-.
-arguments
 .
 branches
 "
