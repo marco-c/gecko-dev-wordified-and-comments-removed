@@ -1593,12 +1593,17 @@ event
 type
 %
 d
+isPrevented
+=
+%
+d
 \
 n
 "
 aEvent
 .
 mMessage
+isTouchPrevented
 )
 ;
 switch
@@ -1631,8 +1636,6 @@ GetLastRollup
 )
 )
 ;
-sentContentResponse
-=
 SendPendingTouchPreventedResponse
 (
 false
