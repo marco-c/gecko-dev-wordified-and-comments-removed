@@ -105,8 +105,6 @@ nsIURI
 public
 nsISerializable
 public
-nsIClassInfo
-public
 nsISizeOf
 {
 protected
@@ -128,7 +126,6 @@ public
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIURI
 NS_DECL_NSISERIALIZABLE
-NS_DECL_NSICLASSINFO
 static
 already_AddRefed
 <

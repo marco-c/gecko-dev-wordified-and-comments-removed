@@ -145,15 +145,6 @@ aStream
 )
 override
 ;
-NS_IMETHOD
-GetClassIDNoAlloc
-(
-nsCID
-*
-aClassIDNoAlloc
-)
-override
-;
 protected
 :
 nsCOMPtr

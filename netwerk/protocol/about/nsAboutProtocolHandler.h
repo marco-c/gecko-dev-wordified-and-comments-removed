@@ -251,15 +251,6 @@ aStream
 )
 override
 ;
-NS_IMETHOD
-GetClassIDNoAlloc
-(
-nsCID
-*
-aClassIDNoAlloc
-)
-override
-;
 nsIURI
 *
 GetBaseURI
