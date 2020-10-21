@@ -261,9 +261,6 @@ bool
 mEncodingComplete
 ;
 bool
-mEosSetInEncoder
-;
-bool
 mInitialized
 ;
 bool
