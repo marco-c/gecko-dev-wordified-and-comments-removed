@@ -1064,7 +1064,7 @@ nsPageSequenceFrame
 *
 int32_t
 >
-GetSeqFrameAndCountPagesInternal
+GetSeqFrameAndCountSheetsInternal
 (
 const
 UniquePtr
@@ -1101,7 +1101,7 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 false
 "
-GetSeqFrameAndCountPages
+GetSeqFrameAndCountSheets
 needs
 a
 non
@@ -1877,7 +1877,7 @@ int32_t
 nsPrintJob
 :
 :
-GetSeqFrameAndCountPages
+GetSeqFrameAndCountSheets
 (
 )
 {
@@ -1895,7 +1895,7 @@ printDataForPrintPreview
 mPrtPreview
 ;
 return
-GetSeqFrameAndCountPagesInternal
+GetSeqFrameAndCountSheetsInternal
 (
 printDataForPrintPreview
 -
@@ -3624,10 +3624,10 @@ return
 auto
 [
 seqFrame
-numPages
+numSheets
 ]
 =
-GetSeqFrameAndCountPagesInternal
+GetSeqFrameAndCountSheetsInternal
 (
 printData
 -
@@ -3638,7 +3638,7 @@ mPrintObject
 Unused
 <
 <
-numPages
+numSheets
 ;
 return
 seqFrame
@@ -3657,7 +3657,7 @@ int32_t
 nsPrintJob
 :
 :
-GetPrintPreviewNumPages
+GetPrintPreviewNumSheets
 (
 )
 {
@@ -3689,10 +3689,10 @@ return
 auto
 [
 seqFrame
-numPages
+numSheets
 ]
 =
-GetSeqFrameAndCountPagesInternal
+GetSeqFrameAndCountSheetsInternal
 (
 printData
 -
@@ -3706,7 +3706,7 @@ Unused
 seqFrame
 ;
 return
-numPages
+numSheets
 ;
 }
 already_AddRefed
@@ -4280,7 +4280,7 @@ rv
 )
 )
 {
-DonePrintingPages
+DonePrintingSheets
 (
 nullptr
 rv
@@ -10374,7 +10374,7 @@ bool
 nsPrintJob
 :
 :
-PrePrintPage
+PrePrintSheet
 (
 )
 {
@@ -10528,7 +10528,7 @@ bool
 nsPrintJob
 :
 :
-PrintPage
+PrintSheet
 (
 nsPrintObject
 *
@@ -10674,7 +10674,7 @@ In
 DV
 :
 :
-PrintPage
+PrintSheet
 PO
 :
 %
@@ -11263,7 +11263,7 @@ bool
 nsPrintJob
 :
 :
-DonePrintingPages
+DonePrintingSheets
 (
 nsPrintObject
 *
@@ -11286,7 +11286,7 @@ In
 DV
 :
 :
-DonePrintingPages
+DonePrintingSheets
 PO
 :
 %
@@ -11411,7 +11411,7 @@ In
 DV
 :
 :
-DonePrintingPages
+DonePrintingSheets
 PO
 :
 %
@@ -11960,7 +11960,7 @@ mPrintPreviewCallback
 (
 PrintPreviewResultInfo
 (
-GetPrintPreviewNumPages
+GetPrintPreviewNumSheets
 (
 )
 GetRawNumPages

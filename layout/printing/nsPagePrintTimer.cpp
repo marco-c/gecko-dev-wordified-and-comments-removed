@@ -258,7 +258,7 @@ mPrintJob
 mPrintJob
 -
 >
-PrintPage
+PrintSheet
 (
 mPrintObj
 inRange
@@ -282,7 +282,7 @@ mPrintJob
 mPrintJob
 -
 >
-DonePrintingPages
+DonePrintingSheets
 (
 mPrintObj
 NS_OK
@@ -473,7 +473,7 @@ donePrePrint
 mPrintJob
 -
 >
-PrePrintPage
+PrePrintSheet
 (
 )
 ;
@@ -588,7 +588,7 @@ mDone
 mPrintJob
 -
 >
-DonePrintingPages
+DonePrintingSheets
 (
 mPrintObj
 NS_OK

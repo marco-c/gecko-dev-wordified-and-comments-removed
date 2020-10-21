@@ -247,6 +247,11 @@ per
 sheet
 )
 .
+Fix
+in
+bug
+1669762
+.
 *
 /
 const
@@ -538,6 +543,11 @@ per
 sheet
 )
 .
+Fix
+in
+bug
+1669762
+.
 *
 /
 readonly
@@ -598,6 +608,11 @@ the
 print
 preview
 viewport
+.
+Fix
+in
+bug
+1669762
 .
 *
 /
