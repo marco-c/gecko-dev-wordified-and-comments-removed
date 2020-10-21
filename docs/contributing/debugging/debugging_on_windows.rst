@@ -3337,9 +3337,7 @@ https
 :
 /
 /
-dxr
-.
-mozilla
+searchfox
 .
 org
 /
@@ -3351,8 +3349,6 @@ source
 /
 js
 /
-src
-/
 xpconnect
 /
 src
@@ -3360,8 +3356,6 @@ src
 nsXPConnect
 .
 cpp
-#
-1395
 >
 __
 to
