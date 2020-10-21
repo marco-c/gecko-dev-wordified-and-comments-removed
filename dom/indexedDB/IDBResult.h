@@ -531,7 +531,6 @@ aSpecialValueMappers
 {
 #
 if
-(
 defined
 (
 __clang__
@@ -549,15 +548,6 @@ __GNUC__
 >
 =
 8
-)
-)
-&
-&
-\
-!
-defined
-(
-XGILL_PLUGIN
 )
 return
 mVariant
@@ -584,9 +574,6 @@ aException
 }
 [
 aSpecialValueMappers
-.
-.
-.
 ]
 (
 const
