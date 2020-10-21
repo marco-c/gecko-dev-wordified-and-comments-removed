@@ -1239,6 +1239,16 @@ input
 focusedViaMousedown
 |
 |
+this
+.
+input
+.
+searchMode
+?
+.
+isPreview
+|
+|
 (
 this
 .
