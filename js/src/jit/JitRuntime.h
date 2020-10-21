@@ -75,6 +75,15 @@ include
 "
 jit
 /
+ABIFunctions
+.
+h
+"
+#
+include
+"
+jit
+/
 BaselineICList
 .
 h
@@ -1073,8 +1082,7 @@ const
 VMFunctionData
 &
 f
-void
-*
+DynFn
 nativeFun
 uint32_t
 *
