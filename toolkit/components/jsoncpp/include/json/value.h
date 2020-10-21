@@ -965,6 +965,17 @@ value
 ;
 Value
 (
+std
+:
+:
+nullptr_t
+ptr
+)
+=
+delete
+;
+Value
+(
 const
 Value
 &

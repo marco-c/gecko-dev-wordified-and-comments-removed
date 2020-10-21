@@ -6734,9 +6734,16 @@ readStringSingleQuote
 (
 )
 ;
-break
+}
+else
+{
+ok
+=
+false
 ;
 }
+break
+;
 case
 '
 /
