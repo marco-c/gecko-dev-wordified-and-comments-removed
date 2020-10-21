@@ -1916,6 +1916,15 @@ Res
 >
 {
 let
+already_data_ready
+=
+self
+.
+data_ready
+(
+)
+;
+let
 new_end
 =
 offset
@@ -2271,6 +2280,11 @@ name
 }
 }
 if
+!
+already_data_ready
+&
+&
+(
 self
 .
 data_ready
@@ -2282,6 +2296,7 @@ self
 .
 needs_to_inform_app_about_fin
 (
+)
 )
 {
 self

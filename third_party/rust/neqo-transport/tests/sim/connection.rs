@@ -23,6 +23,10 @@ neqo_common
 :
 :
 {
+event
+:
+:
+Provider
 qdebug
 qtrace
 Datagram

@@ -16,6 +16,15 @@ Role
 }
 ;
 use
+neqo_common
+:
+:
+event
+:
+:
+Provider
+;
+use
 neqo_crypto
 :
 :
@@ -62,6 +71,7 @@ neqo_transport
 :
 :
 {
+CongestionControlAlgorithm
 FixedConnectionIdManager
 Output
 QuicVersion
@@ -515,10 +525,6 @@ Http3Client
 new
 (
 origin_conv
-&
-[
-alpn_conv
-]
 Rc
 :
 :
@@ -540,6 +546,11 @@ new
 )
 local
 remote
+&
+CongestionControlAlgorithm
+:
+:
+NewReno
 quic_version
 &
 http3_settings

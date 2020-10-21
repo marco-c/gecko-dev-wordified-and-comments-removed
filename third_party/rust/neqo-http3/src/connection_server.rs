@@ -65,6 +65,10 @@ neqo_common
 :
 :
 {
+event
+:
+:
+Provider
 qdebug
 qinfo
 qtrace

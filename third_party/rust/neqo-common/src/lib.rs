@@ -33,6 +33,10 @@ codec
 mod
 datagram
 ;
+pub
+mod
+event
+;
 mod
 incrdecoder
 ;
