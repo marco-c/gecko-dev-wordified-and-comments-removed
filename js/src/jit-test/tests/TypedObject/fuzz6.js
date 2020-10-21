@@ -1,8 +1,0 @@
-new
-TypedObject
-.
-StructType
-(
-RegExp
-)
-;

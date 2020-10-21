@@ -1,9 +1,0 @@
-new
-TypedObject
-.
-StructType
-(
-[
-]
-)
-;
