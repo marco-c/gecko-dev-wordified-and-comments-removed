@@ -217,6 +217,11 @@ GfxInfo
 cpp
 '
 '
+IconLoaderHelperWin
+.
+cpp
+'
+'
 IEnumFE
 .
 cpp
@@ -668,6 +673,12 @@ forms
 layout
 /
 generic
+'
+'
+/
+layout
+/
+style
 '
 '
 /
