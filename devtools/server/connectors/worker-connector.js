@@ -44,7 +44,7 @@ connectToWorker
 (
 connection
 dbg
-id
+forwardingPrefix
 options
 )
 {
@@ -353,7 +353,7 @@ type
 "
 connect
 "
-id
+forwardingPrefix
 options
 }
 )
@@ -415,11 +415,11 @@ connected
 |
 message
 .
-id
+forwardingPrefix
 !
 =
 =
-id
+forwardingPrefix
 )
 {
 return
@@ -439,7 +439,7 @@ new
 MainThreadWorkerDebuggerTransport
 (
 dbg
-id
+forwardingPrefix
 )
 ;
 transport
@@ -484,7 +484,7 @@ type
 "
 disconnect
 "
-id
+forwardingPrefix
 }
 )
 )
@@ -501,7 +501,7 @@ connection
 .
 cancelForwarding
 (
-id
+forwardingPrefix
 )
 ;
 }
@@ -525,7 +525,7 @@ connection
 .
 setForwarding
 (
-id
+forwardingPrefix
 transport
 )
 ;
