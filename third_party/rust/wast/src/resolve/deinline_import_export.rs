@@ -630,8 +630,11 @@ Expression
 {
 instrs
 :
-vec
-!
+Box
+:
+:
+new
+(
 [
 if
 is_32
@@ -655,6 +658,7 @@ I64Const
 )
 }
 ]
+)
 }
 }
 data
@@ -1012,8 +1016,11 @@ Expression
 {
 instrs
 :
-vec
-!
+Box
+:
+:
+new
+(
 [
 Instruction
 :
@@ -1023,6 +1030,7 @@ I32Const
 0
 )
 ]
+)
 }
 }
 payload
