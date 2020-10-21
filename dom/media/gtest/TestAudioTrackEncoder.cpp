@@ -952,6 +952,12 @@ segment
 )
 )
 ;
+encoder
+.
+NotifyEndOfStream
+(
+)
+;
 nsTArray
 <
 RefPtr
@@ -1008,6 +1014,12 @@ five
 EXPECT_EQ
 (
 five
++
+encoder
+.
+GetLookahead
+(
+)
 totalDuration
 )
 ;
