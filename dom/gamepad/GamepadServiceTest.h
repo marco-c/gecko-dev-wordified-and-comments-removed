@@ -333,9 +333,10 @@ mEventNumber
 bool
 mShuttingDown
 ;
+RefPtr
+<
 GamepadTestChannelChild
-*
-MOZ_NON_OWNING_REF
+>
 mChild
 ;
 explicit
