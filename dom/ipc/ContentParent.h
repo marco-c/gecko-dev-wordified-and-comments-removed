@@ -3470,11 +3470,6 @@ ShouldKeepProcessAlive
 )
 ;
 void
-MarkAsTroubled
-(
-)
-;
-void
 MarkAsDead
 (
 )
