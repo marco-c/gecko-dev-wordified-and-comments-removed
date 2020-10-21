@@ -7038,6 +7038,14 @@ this
 aAttrEnum
 )
 ;
+if
+(
+propId
+!
+=
+eCSSProperty_UNKNOWN
+)
+{
 SMILOverrideStyle
 (
 )
@@ -7058,6 +7066,7 @@ aAttrEnum
 ;
 return
 ;
+}
 }
 nsIFrame
 *

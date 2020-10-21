@@ -347,6 +347,14 @@ aAttribute
 const
 override
 ;
+static
+nsCSSPropertyID
+GetCSSPropertyIdForAttrEnum
+(
+uint8_t
+aAttrEnum
+)
+;
 already_AddRefed
 <
 DOMSVGAnimatedString
