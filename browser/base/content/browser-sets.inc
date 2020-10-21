@@ -4036,7 +4036,7 @@ shortcut
 oncommand
 =
 "
-toggleBookmarksToolbar
+toggleBookmarksToolbarViaKeyboardShortcut
 (
 )
 "
