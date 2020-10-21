@@ -26102,15 +26102,12 @@ GetInputEventTargetElement
 ;
 if
 (
-NS_WARN_IF
-(
 !
 targetElement
 )
-)
 {
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 OwningNonNull
