@@ -23,7 +23,7 @@ mach
 .
 test
 .
-common
+conftest
 import
 TestBase
 from
@@ -139,18 +139,17 @@ providers
 )
     
 def
-_run_mach
+_run_help
 (
 self
 )
 :
         
 return
-TestBase
+self
 .
 _run_mach
 (
-self
 [
 '
 help
@@ -247,7 +246,7 @@ MachError
             
 self
 .
-_run_mach
+_run_help
 (
 )
     
@@ -301,7 +300,7 @@ stderr
 =
 self
 .
-_run_mach
+_run_help
 (
 )
         
