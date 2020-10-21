@@ -114,6 +114,15 @@ Shape
 .
 h
 "
+#
+include
+"
+wasm
+/
+TypedObject
+.
+h
+"
 enum
 class
 JSOp

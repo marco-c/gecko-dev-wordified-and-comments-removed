@@ -1,9 +1,9 @@
 #
 ifndef
-builtin_TypedObject_h
+wasm_TypedObject_h
 #
 define
-builtin_TypedObject_h
+wasm_TypedObject_h
 #
 include
 "
