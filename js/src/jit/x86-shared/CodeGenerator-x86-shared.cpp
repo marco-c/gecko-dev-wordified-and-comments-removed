@@ -20649,7 +20649,7 @@ wasm
 SimdOp
 :
 :
-F32x4CeilExperimental
+F32x4Ceil
 :
 masm
 .
@@ -20668,7 +20668,7 @@ wasm
 SimdOp
 :
 :
-F32x4FloorExperimental
+F32x4Floor
 :
 masm
 .
@@ -20687,7 +20687,7 @@ wasm
 SimdOp
 :
 :
-F32x4TruncExperimental
+F32x4Trunc
 :
 masm
 .
@@ -20706,7 +20706,7 @@ wasm
 SimdOp
 :
 :
-F32x4NearestExperimental
+F32x4Nearest
 :
 masm
 .
@@ -20725,7 +20725,7 @@ wasm
 SimdOp
 :
 :
-F64x2CeilExperimental
+F64x2Ceil
 :
 masm
 .
@@ -20744,7 +20744,7 @@ wasm
 SimdOp
 :
 :
-F64x2FloorExperimental
+F64x2Floor
 :
 masm
 .
@@ -20763,7 +20763,7 @@ wasm
 SimdOp
 :
 :
-F64x2TruncExperimental
+F64x2Trunc
 :
 masm
 .
@@ -20782,7 +20782,7 @@ wasm
 SimdOp
 :
 :
-F64x2NearestExperimental
+F64x2Nearest
 :
 masm
 .
