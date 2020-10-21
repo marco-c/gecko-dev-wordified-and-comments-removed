@@ -12351,8 +12351,8 @@ JS
 DecodeScriptAndStartIncrementalEncoding
 (
 cx
-loadBuffer
 options
+loadBuffer
 &
 script
 )
@@ -12444,8 +12444,8 @@ JS
 DecodeScriptMaybeStencil
 (
 cx
-loadBuffer
 options
+loadBuffer
 &
 script
 )

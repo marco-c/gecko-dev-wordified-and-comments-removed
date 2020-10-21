@@ -1436,8 +1436,8 @@ JS
 DecodeScriptMaybeStencil
 (
 mCx
-aBytecodeBuf
 aCompileOptions
+aBytecodeBuf
 &
 mScript
 aBytecodeIndex
