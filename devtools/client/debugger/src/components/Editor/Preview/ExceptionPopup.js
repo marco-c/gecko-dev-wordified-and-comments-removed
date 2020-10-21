@@ -40,8 +40,16 @@ Reps
 from
 "
 devtools
--
+/
+client
+/
+shared
+/
+components
+/
 reps
+/
+index
 "
 ;
 const

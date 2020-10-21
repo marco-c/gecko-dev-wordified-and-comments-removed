@@ -77,6 +77,7 @@ FunctionType
 =
 {
 name
+?
 :
 string
 displayName

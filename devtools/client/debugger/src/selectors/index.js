@@ -349,8 +349,16 @@ objectInspector
 from
 "
 devtools
--
+/
+client
+/
+shared
+/
+components
+/
 reps
+/
+index
 "
 ;
 const

@@ -13,8 +13,16 @@ Reps
 from
 "
 devtools
--
+/
+client
+/
+shared
+/
+components
+/
 reps
+/
+index
 "
 ;
 import
