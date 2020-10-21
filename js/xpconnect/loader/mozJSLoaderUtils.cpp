@@ -65,6 +65,15 @@ MutableHandleScript
 scriptp
 )
 {
+JS
+:
+:
+CompileOptions
+options
+(
+cx
+)
+;
 const
 char
 *
@@ -166,6 +175,7 @@ JS
 DecodeScript
 (
 cx
+options
 buffer
 scriptp
 )

@@ -5335,6 +5335,15 @@ get
 JS
 :
 :
+CompileOptions
+options
+(
+cx
+)
+;
+JS
+:
+:
 RootedScript
 script
 (
@@ -5349,6 +5358,7 @@ JS
 DecodeScript
 (
 cx
+options
 Range
 (
 )
