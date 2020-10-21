@@ -682,6 +682,11 @@ UpdateBatchingParameters
 (
 )
 ;
+void
+UpdateProfilerUI
+(
+)
+;
 mozilla
 :
 :

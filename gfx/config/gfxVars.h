@@ -323,6 +323,15 @@ true
 \
 _
 (
+WebRenderProfilerUI
+nsCString
+nsCString
+(
+)
+)
+\
+_
+(
 WebglAllowCoreProfile
 bool
 true
