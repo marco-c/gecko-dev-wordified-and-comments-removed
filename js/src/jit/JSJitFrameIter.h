@@ -74,12 +74,6 @@ ArgumentsObject
 namespace
 jit
 {
-using
-CalleeToken
-=
-void
-*
-;
 enum
 class
 FrameType

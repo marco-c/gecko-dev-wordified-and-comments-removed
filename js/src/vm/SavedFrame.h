@@ -40,6 +40,15 @@ Wrapper
 .
 h
 "
+#
+include
+"
+vm
+/
+NativeObject
+.
+h
+"
 namespace
 js
 {
