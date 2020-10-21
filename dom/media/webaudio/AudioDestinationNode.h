@@ -134,6 +134,11 @@ aRv
 )
 override
 ;
+void
+Init
+(
+)
+;
 AudioNodeTrack
 *
 Track
