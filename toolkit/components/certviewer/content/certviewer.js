@@ -209,6 +209,9 @@ createEntryItem
 (
 labelId
 info
+isHex
+=
+false
 )
 =
 >
@@ -251,6 +254,7 @@ return
 {
 labelId
 info
+isHex
 }
 ;
 }
@@ -837,6 +841,7 @@ cert
 subjectPublicKeyInfo
 .
 xy
+true
 )
 createEntryItem
 (
@@ -859,6 +864,7 @@ cert
 subjectPublicKeyInfo
 .
 n
+true
 )
 ]
 .
@@ -910,6 +916,7 @@ number
 cert
 .
 serialNumber
+true
 )
 createEntryItem
 (
@@ -1015,6 +1022,7 @@ cert
 fingerprint
 .
 sha256
+true
 )
 createEntryItem
 (
@@ -1028,6 +1036,7 @@ cert
 fingerprint
 .
 sha1
+true
 )
 ]
 .
@@ -1404,6 +1413,7 @@ ext
 sKID
 .
 id
+true
 )
 ]
 .
@@ -1483,6 +1493,7 @@ ext
 aKID
 .
 id
+true
 )
 ]
 .
@@ -2057,6 +2068,26 @@ key
 }
 else
 {
+let
+isHex
+=
+false
+;
+if
+(
+key
+=
+=
+"
+logId
+"
+)
+{
+isHex
+=
+true
+;
+}
 items
 .
 push
@@ -2071,6 +2102,7 @@ entry
 [
 key
 ]
+isHex
 )
 )
 ;
