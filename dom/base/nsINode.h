@@ -4090,9 +4090,16 @@ aEndOffset
 )
 const
 ;
-nsIContent
+MOZ_CAN_RUN_SCRIPT
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
-GetTextEditorRootContent
+GetAnonymousRootElementOfTextEditor
 (
 mozilla
 :
@@ -4105,6 +4112,7 @@ aTextEditor
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsIContent
 *
 GetSelectionRootContent
