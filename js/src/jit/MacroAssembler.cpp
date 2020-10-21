@@ -10680,7 +10680,7 @@ reserveStack
 (
 sizeof
 (
-int32_t
+uintptr_t
 )
 )
 ;
@@ -10798,7 +10798,7 @@ Imm32
 (
 sizeof
 (
-int32_t
+uintptr_t
 )
 )
 )
@@ -10829,7 +10829,7 @@ freeStack
 (
 sizeof
 (
-int32_t
+uintptr_t
 )
 )
 ;
