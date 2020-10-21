@@ -12103,13 +12103,7 @@ HandleDebugTrap
 HandleThrow
 HandleTrap
 ReportV128JSCall
-CallImport_Void
-CallImport_I32
-CallImport_I64
-CallImport_V128
-CallImport_F64
-CallImport_FuncRef
-CallImport_AnyRef
+CallImport_General
 CoerceInPlace_ToInt32
 CoerceInPlace_ToNumber
 CoerceInPlace_JitEntry
