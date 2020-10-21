@@ -1132,6 +1132,9 @@ mDNSTxtRequest
 nsCString
 mDNSRecordTxt
 ;
+nsCString
+mEchConfig
+;
 bool
 mEsniQueried
 ;

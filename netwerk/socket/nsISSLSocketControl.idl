@@ -317,6 +317,10 @@ attribute
 ACString
 esniTxt
 ;
+attribute
+ACString
+echConfig
+;
 readonly
 attribute
 ACString
