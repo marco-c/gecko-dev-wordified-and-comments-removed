@@ -136,11 +136,6 @@ GeckoViewPromptChild
 js
 content
 /
-GeckoViewScrollChild
-.
-js
-content
-/
 GeckoViewSelectionActionChild
 .
 js
