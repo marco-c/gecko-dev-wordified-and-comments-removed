@@ -561,6 +561,8 @@ SurfaceDescriptorDXGIYCbCr
 ;
 SurfaceDescriptorDMABuf
 ;
+SurfaceDescriptorMacIOSurface
+;
 null_t
 ;
 }
