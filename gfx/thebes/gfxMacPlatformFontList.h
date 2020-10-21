@@ -312,11 +312,6 @@ void
 aUserData
 )
 ;
-bool
-CheckForColorGlyphs
-(
-)
-;
 CGFontRef
 mFontRef
 ;
