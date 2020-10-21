@@ -27,14 +27,6 @@ idl_array
 add_objects
 (
 {
-IsInputPendingOptions
-:
-[
-'
-new
-IsInputPendingOptions
-'
-]
 Scheduling
 :
 [
