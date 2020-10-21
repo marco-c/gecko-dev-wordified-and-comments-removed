@@ -1695,6 +1695,8 @@ toolkit
 /
 library
 /
+build
+/
 target
 :
 widget
