@@ -775,7 +775,7 @@ Latest
 .
 exe
 >
-_
+__
 from
 Mozilla
 .
@@ -2204,7 +2204,7 @@ Latest
 .
 exe
 >
-_
+__
 package
 containing
 additional
@@ -2724,6 +2724,15 @@ installation
 locations
 .
 MozillaBuild
+package
+~
+~
+~
+~
+~
+~
+~
+~
 ~
 ~
 ~
@@ -3830,7 +3839,6 @@ Debugging
 On
 Windows
 >
-_
 :
 Tips
 on

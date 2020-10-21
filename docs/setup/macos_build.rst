@@ -216,6 +216,9 @@ Groups
 .
 )
 See
+:
+ref
+:
 1
 .
 1
@@ -227,11 +230,12 @@ command
 line
 tools
 <
-#
 xcode
 >
-_
 and
+:
+ref
+:
 1
 .
 2
@@ -241,10 +245,8 @@ local
 macOS
 SDK
 <
-#
 macossdk
 >
-_
 for
 more
 information
@@ -387,6 +389,9 @@ or
 Mercurial
 installed
 see
+:
+ref
+:
 2
 .
 1a
@@ -402,7 +407,6 @@ via
 -
 homebrew
 >
-_
 for
 more
 information
@@ -515,7 +519,7 @@ macports
 org
 /
 >
-_
+__
 installed
 -
 software
@@ -1039,7 +1043,7 @@ download
 release
 /
 >
-_
+__
 .
 Install
 the
@@ -1146,7 +1150,7 @@ app
 /
 xcode
 >
-_
+__
 .
 Open
 /
@@ -1175,7 +1179,6 @@ line
 tools
 by
 running
-\
 xcode
 -
 select
@@ -1324,7 +1327,7 @@ download
 more
 /
 >
-_
+__
 page
 .
 Once
@@ -1606,7 +1609,7 @@ brew
 sh
 /
 >
-_
+__
 is
 "
 the
@@ -3270,7 +3273,7 @@ macports
 org
 /
 >
-_
+__
 *
 or
 Homebrew
@@ -3336,7 +3339,7 @@ en
 /
 Mac_OS_X_Universal_Binaries
 >
-_
+__
 .
 -
 *
@@ -3453,7 +3456,7 @@ get_started
 .
 html
 >
-_
+__
 for
 information
 on
@@ -3597,7 +3600,6 @@ installation
 #
 Software_Requirements
 >
-_
 by
 selecting
 the
