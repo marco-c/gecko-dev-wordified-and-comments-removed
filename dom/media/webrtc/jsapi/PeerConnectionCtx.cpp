@@ -601,7 +601,7 @@ PeerConnectionImpl
 PeerConnectionCtx
 :
 :
-GetPeerConnections
+mGetPeerConnections
 (
 )
 {
@@ -1829,8 +1829,11 @@ mGMPService
 nullptr
 ;
 mTransportHandler
-=
-nullptr
+-
+>
+Destroy
+(
+)
 ;
 return
 NS_OK

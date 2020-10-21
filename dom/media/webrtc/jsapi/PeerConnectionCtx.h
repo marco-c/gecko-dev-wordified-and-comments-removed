@@ -224,7 +224,7 @@ PeerConnectionImpl
 *
 >
 &
-GetPeerConnections
+mGetPeerConnections
 (
 )
 ;
