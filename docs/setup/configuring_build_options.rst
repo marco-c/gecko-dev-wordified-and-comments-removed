@@ -2503,9 +2503,7 @@ Firefox
 Debugging
 Build
 (
-Mac
-OS
-X
+macOS
 64bits
 )
 <

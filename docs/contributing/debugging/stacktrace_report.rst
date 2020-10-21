@@ -910,8 +910,7 @@ Reports
 submitted
 \
 *
-OS
-X
+macOS
 :
 ~
 /
@@ -1090,8 +1089,8 @@ Windows
 Task
 Manager
 .
-OS
-X
+macOS
+~
 ~
 ~
 ~

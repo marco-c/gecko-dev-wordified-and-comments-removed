@@ -1500,8 +1500,7 @@ for
 a
 Linux
 /
-OS
-X
+macOS
 crash
 report
 or
