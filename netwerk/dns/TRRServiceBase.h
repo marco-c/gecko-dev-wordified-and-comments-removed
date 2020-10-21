@@ -88,6 +88,13 @@ OnTRRURIChange
 (
 )
 ;
+virtual
+void
+ReadEtcHostsFile
+(
+)
+{
+}
 nsCString
 mPrivateURI
 ;
