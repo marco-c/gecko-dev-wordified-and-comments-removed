@@ -3266,9 +3266,10 @@ return
 1
 ;
 }
-class
 Pivot
 p
+=
+Pivot
 (
 this
 )
@@ -3467,9 +3468,10 @@ return
 1
 ;
 }
-class
 Pivot
 p
+=
+Pivot
 (
 this
 )
