@@ -12,6 +12,11 @@ memory
 #
 include
 <
+atomic
+>
+#
+include
+<
 stddef
 .
 h
@@ -264,7 +269,13 @@ int
 farend_started
 ;
 static
+std
+:
+:
+atomic
+<
 int
+>
 instance_count
 ;
 AecCore
