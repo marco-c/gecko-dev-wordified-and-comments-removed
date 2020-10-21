@@ -3707,6 +3707,7 @@ ReadCachedScript
 cache
 cachePath
 cx
+options
 &
 script
 )

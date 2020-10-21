@@ -2273,6 +2273,7 @@ ReadCachedScript
 cache
 cachePath
 cx
+compileOptions
 &
 script
 )
