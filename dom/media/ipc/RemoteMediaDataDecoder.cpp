@@ -158,13 +158,6 @@ mChild
 GetDescriptionName
 (
 )
-+
-"
-(
-remote
-)
-"
-_ns
 ;
 mIsHardwareAccelerated
 =
