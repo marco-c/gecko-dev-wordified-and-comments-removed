@@ -3231,6 +3231,17 @@ level
         
 return
 module
+if
+sys
+.
+version_info
+[
+0
+]
+<
+3
+:
+    
 builtins
 .
 __import__

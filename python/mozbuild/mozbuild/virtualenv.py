@@ -2939,11 +2939,19 @@ if
 do_close
 :
                 
+if
+self
+.
+populate_local_paths
+and
+PY2
+:
+                    
 sitecustomize
 .
 write
 (
-                    
+                        
 '
 #
 Importing
@@ -2956,7 +2964,7 @@ of
 \
 n
 '
-                    
+                        
 '
 #
 installing
@@ -2966,7 +2974,7 @@ hook
 \
 n
 '
-                    
+                        
 '
 import
 mach_bootstrap
