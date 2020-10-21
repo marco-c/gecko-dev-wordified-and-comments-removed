@@ -328,6 +328,13 @@ void
 )
 invalidateState
 ;
+-
+(
+mozAccessible
+*
+)
+topWebArea
+;
 #
 pragma
 mark
