@@ -5087,7 +5087,7 @@ LookAndFeel
 ColorID
 :
 :
-ScrollbarThumbInactive
+ThemedScrollbarThumbInactive
 sScrollbarThumbColor
 .
 ToABGR
@@ -5120,7 +5120,7 @@ LookAndFeel
 ColorID
 :
 :
-ScrollbarThumbActive
+ThemedScrollbarThumbActive
 sScrollbarThumbColorActive
 .
 ToABGR
@@ -5153,7 +5153,7 @@ LookAndFeel
 ColorID
 :
 :
-ScrollbarThumbHover
+ThemedScrollbarThumbHover
 sScrollbarThumbColorHover
 .
 ToABGR
@@ -5177,7 +5177,7 @@ LookAndFeel
 ColorID
 :
 :
-ScrollbarThumb
+ThemedScrollbarThumb
 sScrollbarThumbColor
 .
 ToABGR
@@ -5286,7 +5286,7 @@ LookAndFeel
 ColorID
 :
 :
-ScrollbarInactive
+ThemedScrollbarInactive
 sScrollbarColor
 .
 ToABGR
@@ -5310,7 +5310,7 @@ LookAndFeel
 ColorID
 :
 :
-Scrollbar
+ThemedScrollbar
 sScrollbarColor
 .
 ToABGR
