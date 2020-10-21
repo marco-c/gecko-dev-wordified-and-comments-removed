@@ -829,6 +829,9 @@ uint64_t
 >
 mFirstStreamIdReuseIdleConnection
 ;
+TimeStamp
+mTimerShouldTrigger
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
