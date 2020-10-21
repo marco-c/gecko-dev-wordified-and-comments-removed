@@ -197,6 +197,7 @@ content
 -
 title
 }
+-
 {
 -
 brand
@@ -219,6 +220,7 @@ content
 -
 title
 }
+-
 {
 -
 brand
@@ -273,6 +275,7 @@ private
 "
 Mozilla
 Firefox
+-
 (
 Private
 Browsing
@@ -405,6 +408,7 @@ full
 -
 name
 }
+-
 (
 Private
 Browsing
@@ -437,6 +441,7 @@ content
 -
 title
 }
+-
 (
 Private
 Browsing
