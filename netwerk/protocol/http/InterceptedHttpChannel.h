@@ -423,6 +423,15 @@ aFallbackKey
 override
 ;
 NS_IMETHOD
+GetIsAuthChannel
+(
+bool
+*
+aIsAuthChannel
+)
+override
+;
+NS_IMETHOD
 SetPriority
 (
 int32_t
