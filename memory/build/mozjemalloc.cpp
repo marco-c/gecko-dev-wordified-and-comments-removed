@@ -15717,9 +15717,6 @@ arena_params_t
 aParams
 )
 {
-fallible_t
-fallible
-;
 arena_t
 *
 ret
