@@ -1063,6 +1063,7 @@ index_
 =
 0
 ;
+const
 CompilationStencil
 &
 stencil_
@@ -1073,6 +1074,7 @@ gcOutput_
 ;
 Iterator
 (
+const
 CompilationStencil
 &
 stencil
@@ -1106,6 +1108,7 @@ public
 explicit
 Iterator
 (
+const
 CompilationStencil
 &
 stencil
@@ -1282,6 +1285,7 @@ static
 Iterator
 end
 (
+const
 CompilationStencil
 &
 stencil
@@ -1307,6 +1311,7 @@ length
 }
 }
 ;
+const
 CompilationStencil
 &
 stencil_
@@ -1318,6 +1323,7 @@ gcOutput_
 explicit
 ScriptStencilIterable
 (
+const
 CompilationStencil
 &
 stencil
