@@ -120,7 +120,7 @@ equal
 (
 gUpdateManager
 .
-activeUpdate
+downloadingUpdate
 .
 state
 STATE_DOWNLOADING
