@@ -126,6 +126,15 @@ include
 "
 jit
 /
+JitRuntime
+.
+h
+"
+#
+include
+"
+jit
+/
 SharedICHelpers
 .
 h

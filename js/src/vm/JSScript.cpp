@@ -269,6 +269,15 @@ h
 #
 include
 "
+jit
+/
+JitRuntime
+.
+h
+"
+#
+include
+"
 js
 /
 CompileOptions

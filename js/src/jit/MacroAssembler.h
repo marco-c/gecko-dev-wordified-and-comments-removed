@@ -225,6 +225,15 @@ include
 "
 jit
 /
+JitRuntime
+.
+h
+"
+#
+include
+"
+jit
+/
 VMFunctions
 .
 h

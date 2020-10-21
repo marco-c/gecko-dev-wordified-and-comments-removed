@@ -26,6 +26,15 @@ JitRealm
 h
 "
 #
+include
+"
+jit
+/
+JitRuntime
+.
+h
+"
+#
 ifdef
 JS_ION_PERF
 #
