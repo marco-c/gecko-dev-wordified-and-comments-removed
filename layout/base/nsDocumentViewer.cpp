@@ -869,7 +869,6 @@ gPageCacheLog
 #
 ifdef
 NS_PRINTING
-static
 mozilla
 :
 :
