@@ -75,12 +75,16 @@ async
 function
 (
 uuid
+maybe_timeout
 )
 {
 const
 timeout
 =
-2500
+maybe_timeout
+|
+|
+Infinity
 ;
 const
 retry_delay
