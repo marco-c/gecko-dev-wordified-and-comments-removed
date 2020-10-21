@@ -159,6 +159,13 @@ headless
 .
 py
 reftest
+python
+script
+/
+headless
+.
+py
+test_invalidation
 if
 [
 [

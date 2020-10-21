@@ -141,6 +141,13 @@ headless
 .
 py
 rawtest
+python
+script
+/
+headless
+.
+py
+test_invalidation
 CXX
 =
 clang

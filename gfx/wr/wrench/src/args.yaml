@@ -941,6 +941,14 @@ samples
 to
 capture
 -
+test_invalidation
+:
+about
+:
+run
+invalidation
+tests
+-
 compare_perf
 :
 about
