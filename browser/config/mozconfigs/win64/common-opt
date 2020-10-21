@@ -15,16 +15,6 @@ mozconfigs
 "
 topsrcdir
 /
-build
-/
-mozconfig
-.
-stylo
-"
-.
-"
-topsrcdir
-/
 browser
 /
 config

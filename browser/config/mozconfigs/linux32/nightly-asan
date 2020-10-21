@@ -26,14 +26,6 @@ O2
 -
 g
 "
-.
-topsrcdir
-/
-build
-/
-mozconfig
-.
-stylo
 #
 ASan
 specific

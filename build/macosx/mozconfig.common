@@ -119,11 +119,3 @@ merged
 profdata
 fi
 fi
-.
-topsrcdir
-/
-build
-/
-mozconfig
-.
-stylo

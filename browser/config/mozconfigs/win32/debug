@@ -38,16 +38,6 @@ common
 -
 win32
 "
-.
-"
-topsrcdir
-/
-build
-/
-mozconfig
-.
-stylo
-"
 ac_add_options
 -
 -

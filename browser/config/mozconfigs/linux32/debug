@@ -9,14 +9,6 @@ topsrcdir
 /
 build
 /
-mozconfig
-.
-stylo
-.
-topsrcdir
-/
-build
-/
 unix
 /
 mozconfig
