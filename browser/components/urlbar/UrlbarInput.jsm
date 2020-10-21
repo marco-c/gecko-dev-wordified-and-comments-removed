@@ -6052,6 +6052,16 @@ return
 }
 this
 .
+view
+.
+oneOffSearchButtons
+.
+selectedButton
+=
+null
+;
+this
+.
 _searchModesByBrowser
 .
 set
