@@ -1719,6 +1719,16 @@ iokit
 -
 property
 "
+class
+-
+code
+"
+)
+(
+iokit
+-
+property
+"
 vendor
 -
 id
