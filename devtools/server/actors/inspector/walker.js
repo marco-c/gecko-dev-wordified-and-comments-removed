@@ -1517,7 +1517,7 @@ traits
 supportsNodePicker
 :
 true
-supportsOverflowDebugging
+supportsOverflowDebugging2
 :
 true
 }
@@ -11135,13 +11135,6 @@ overflowCausingChild
 parentElement
 ;
 }
-this
-.
-attachElement
-(
-overflowCausingChild
-)
-;
 return
 overflowCausingChild
 ;
@@ -11149,10 +11142,10 @@ overflowCausingChild
 )
 ;
 return
-new
-NodeListActor
-(
 this
+.
+attachElements
+(
 overflowCausingElements
 )
 ;

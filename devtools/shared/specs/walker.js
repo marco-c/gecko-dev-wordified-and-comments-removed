@@ -1643,7 +1643,7 @@ list
 RetVal
 (
 "
-domnodelist
+disconnectedNodeArray
 "
 )
 }
