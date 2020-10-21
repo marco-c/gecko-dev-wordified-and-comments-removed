@@ -664,16 +664,6 @@ mMayHavePointerEnterLeaveEventListener
 true
 ;
 }
-void
-SetHasTextEventListenerInDefaultGroup
-(
-)
-{
-mMayHaveTextEventListenerInDefaultGroup
-=
-true
-;
-}
 mozilla
 :
 :
@@ -1748,9 +1738,6 @@ mMayHaveMouseEnterLeaveEventListener
 ;
 bool
 mMayHavePointerEnterLeaveEventListener
-;
-bool
-mMayHaveTextEventListenerInDefaultGroup
 ;
 nsCOMPtr
 <

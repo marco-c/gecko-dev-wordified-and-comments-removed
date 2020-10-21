@@ -725,14 +725,6 @@ mMessage
 =
 =
 eCompositionChange
-&
-&
-StaticPrefs
-:
-:
-dom_compositionevent_text_dispatch_only_system_group_in_content
-(
-)
 )
 {
 aDispatchEvent
