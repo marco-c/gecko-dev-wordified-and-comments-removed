@@ -572,6 +572,14 @@ value
 /
 /
 *
+Values
+must
+be
+contiguous
+*
+/
+/
+*
 Whether
 Direct2D
 is
@@ -712,6 +720,9 @@ FEATURE_WEBGL_ANGLE
 ;
 /
 *
+(
+Unused
+)
 Whether
 WebGL
 antialiasing
@@ -722,7 +733,7 @@ supported
 /
 const
 long
-FEATURE_WEBGL_MSAA
+UNUSED_FEATURE_WEBGL_MSAA
 =
 8
 ;
