@@ -262,7 +262,6 @@ CompilationInfo
 &
 compilationInfo
 )
-const
 {
 if
 (
@@ -306,7 +305,6 @@ CompilationGCOutput
 &
 gcOutput
 )
-const
 {
 Scope
 *
@@ -779,7 +777,6 @@ compilationInfo
 CompilationGCOutput
 &
 gcOutput
-const
 ScriptStencil
 &
 script
@@ -883,7 +880,6 @@ cx
 CompilationInfo
 &
 compilationInfo
-const
 ScriptStencil
 &
 script
@@ -1475,8 +1471,7 @@ false
 }
 for
 (
-const
-ScopeStencil
+auto
 &
 scd
 :
@@ -1927,7 +1922,6 @@ CompilationGCOutput
 gcOutput
 )
 {
-const
 ScriptStencil
 &
 scriptStencil
