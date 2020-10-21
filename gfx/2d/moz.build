@@ -385,6 +385,11 @@ SOURCES
 =
 [
 '
+ConicGradientEffectD2D1
+.
+cpp
+'
+'
 DrawTargetD2D1
 .
 cpp
