@@ -186,18 +186,6 @@ dom
 quota
 :
 :
-IntCString
-;
-using
-mozilla
-:
-:
-dom
-:
-:
-quota
-:
-:
 PERSISTENCE_TYPE_DEFAULT
 ;
 using
@@ -1042,7 +1030,7 @@ directoryLockId
 "
 _ns
 +
-IntCString
+IntToCString
 (
 aQuotaInfo
 .
