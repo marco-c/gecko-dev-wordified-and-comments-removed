@@ -2743,7 +2743,7 @@ oldIntrinsicSize
 }
 static
 AspectRatio
-ComputeAspectRatio
+ComputeIntrinsicRatio
 (
 imgIContainer
 *
@@ -2902,7 +2902,7 @@ mIntrinsicRatio
 ;
 mIntrinsicRatio
 =
-ComputeAspectRatio
+ComputeIntrinsicRatio
 (
 mImage
 ShouldUseMappedAspectRatio
@@ -8966,7 +8966,7 @@ DEBUG
 auto
 currentRatioRecomputed
 =
-ComputeAspectRatio
+ComputeIntrinsicRatio
 (
 &
 aImage
@@ -9019,7 +9019,7 @@ endif
 auto
 oldRatio
 =
-ComputeAspectRatio
+ComputeIntrinsicRatio
 (
 aPrevImage
 hasRequest
