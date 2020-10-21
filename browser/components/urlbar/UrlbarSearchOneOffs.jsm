@@ -397,6 +397,14 @@ display
 "
 none
 "
+&
+&
+!
+this
+.
+container
+.
+hidden
 ;
 }
 get
@@ -1025,9 +1033,9 @@ changedPref
 {
 this
 .
-_engines
-=
-null
+invalidateCache
+(
+)
 ;
 }
 this
