@@ -1153,6 +1153,11 @@ aFrameContentBox
 ;
 private
 :
+void
+MaybeRecordContentUrlOnImageTelemetry
+(
+)
+;
 inline
 void
 SpecToURI
