@@ -4050,6 +4050,11 @@ mPendingTextTrackChanged
 =
 false
 ;
+bool
+mHadNonEmptyVideo
+=
+false
+;
 public
 :
 void
