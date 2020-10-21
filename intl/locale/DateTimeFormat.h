@@ -63,8 +63,6 @@ kDateFormatNone
 0
 kDateFormatLong
 kDateFormatShort
-kDateFormatYearMonth
-kDateFormatYearMonthLong
 }
 ;
 enum
