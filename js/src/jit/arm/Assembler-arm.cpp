@@ -89,6 +89,15 @@ include
 "
 jit
 /
+AutoWritableJitCode
+.
+h
+"
+#
+include
+"
+jit
+/
 ExecutableAllocator
 .
 h

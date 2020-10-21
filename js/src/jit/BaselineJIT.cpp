@@ -71,6 +71,15 @@ include
 "
 jit
 /
+AutoWritableJitCode
+.
+h
+"
+#
+include
+"
+jit
+/
 BaselineCodeGen
 .
 h

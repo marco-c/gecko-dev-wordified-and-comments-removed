@@ -32,6 +32,15 @@ include
 "
 jit
 /
+AutoWritableJitCode
+.
+h
+"
+#
+include
+"
+jit
+/
 MacroAssembler
 .
 h

@@ -29,6 +29,15 @@ Maybe
 .
 h
 "
+#
+include
+"
+jit
+/
+AutoWritableJitCode
+.
+h
+"
 using
 mozilla
 :

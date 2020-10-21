@@ -26,6 +26,15 @@ include
 "
 jit
 /
+AutoWritableJitCode
+.
+h
+"
+#
+include
+"
+jit
+/
 JitRealm
 .
 h
