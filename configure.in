@@ -176,16 +176,6 @@ PYTHON3
 python3
 }
 "
-export
-OLD_CONFIGURE
-=
-"
-SRCDIR
-"
-/
-old
--
-configure
 exec
 "
 PYTHON3
