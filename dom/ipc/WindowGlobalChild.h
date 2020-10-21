@@ -453,11 +453,17 @@ JSActorMessageMeta
 &
 aMeta
 const
+Maybe
+<
 ClonedMessageData
+>
 &
 aData
 const
+Maybe
+<
 ClonedMessageData
+>
 &
 aStack
 )
