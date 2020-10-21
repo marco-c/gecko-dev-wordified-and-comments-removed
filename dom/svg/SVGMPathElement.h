@@ -69,7 +69,7 @@ namespace
 dom
 {
 class
-SVGPathElement
+SVGGeometryElement
 ;
 using
 SVGMPathElementBase
@@ -251,7 +251,7 @@ aNotify
 )
 override
 ;
-SVGPathElement
+SVGGeometryElement
 *
 GetReferencedPath
 (

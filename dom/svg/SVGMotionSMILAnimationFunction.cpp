@@ -1160,9 +1160,9 @@ mPathSourceType
 =
 ePathSourceType_Mpath
 ;
-SVGPathElement
+SVGGeometryElement
 *
-pathElem
+shapeElem
 =
 aMpathElem
 -
@@ -1173,10 +1173,10 @@ GetReferencedPath
 ;
 if
 (
-pathElem
+shapeElem
 &
 &
-pathElem
+shapeElem
 -
 >
 HasValidDimensions
@@ -1187,7 +1187,7 @@ HasValidDimensions
 bool
 ok
 =
-pathElem
+shapeElem
 -
 >
 GetDistancesFromOriginToEndsOfVisibleSegments
@@ -1210,7 +1210,7 @@ Length
 {
 mPath
 =
-pathElem
+shapeElem
 -
 >
 GetOrBuildPathForMeasuring
