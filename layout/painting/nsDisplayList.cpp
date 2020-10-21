@@ -2733,7 +2733,7 @@ nsRect
 presShell
 -
 >
-GetVisualViewportOffset
+GetVisualViewportOffsetRelativeToLayoutViewport
 (
 )
 presShell
