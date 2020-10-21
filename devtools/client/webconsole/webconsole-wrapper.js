@@ -496,13 +496,6 @@ data
 )
 }
 webConsoleFront
-resourceWatcher
-:
-this
-.
-hud
-.
-resourceWatcher
 }
 )
 ;
