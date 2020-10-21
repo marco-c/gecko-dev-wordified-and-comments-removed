@@ -155,6 +155,15 @@ Document
 aDocument
 )
 ;
+static
+void
+AssertReferrerHeaderMatchesReferrerInfo
+(
+nsIChannel
+*
+aChannel
+)
+;
 #
 endif
 static
