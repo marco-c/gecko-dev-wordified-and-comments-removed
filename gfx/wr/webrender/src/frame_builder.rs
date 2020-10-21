@@ -1849,6 +1849,7 @@ DirtyRegion
 :
 new
 (
+ROOT_SPATIAL_NODE_INDEX
 )
 ;
 default_dirty_region
@@ -1858,6 +1859,13 @@ add_dirty_region
 frame_context
 .
 global_screen_world_rect
+.
+cast_unit
+(
+)
+frame_context
+.
+spatial_tree
 )
 ;
 frame_state
