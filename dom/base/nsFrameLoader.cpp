@@ -14613,15 +14613,8 @@ nsIWebProgressListener
 :
 :
 STATE_IS_DOCUMENT
-)
-{
-MOZ_ASSERT
-(
-mPromise
-)
-;
-if
-(
+&
+&
 mPromise
 )
 {
@@ -14636,7 +14629,6 @@ mPromise
 =
 nullptr
 ;
-}
 }
 return
 NS_OK
