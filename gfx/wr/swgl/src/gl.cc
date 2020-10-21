@@ -16773,6 +16773,7 @@ span
 )
 ;
 }
+UNUSED
 static
 inline
 PackedRG8
