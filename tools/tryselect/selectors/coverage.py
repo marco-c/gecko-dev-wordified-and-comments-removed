@@ -92,6 +92,30 @@ __file__
 )
 build
 =
+None
+vcs
+=
+None
+CHUNK_MAPPING_FILE
+=
+None
+CHUNK_MAPPING_TAG_FILE
+=
+None
+def
+setup_globals
+(
+)
+:
+    
+global
+build
+vcs
+CHUNK_MAPPING_TAG_FILE
+CHUNK_MAPPING_FILE
+    
+build
+=
 MozbuildObject
 .
 from_environment
@@ -100,6 +124,7 @@ cwd
 =
 here
 )
+    
 vcs
 =
 get_repository_object
@@ -108,6 +133,7 @@ build
 .
 topsrcdir
 )
+    
 root_hash
 =
 hashlib
@@ -134,6 +160,7 @@ topsrcdir
 hexdigest
 (
 )
+    
 cache_dir
 =
 os
@@ -153,6 +180,7 @@ root_hash
 chunk_mapping
 '
 )
+    
 if
 not
 os
@@ -164,13 +192,14 @@ isdir
 cache_dir
 )
 :
-    
+        
 os
 .
 makedirs
 (
 cache_dir
 )
+    
 CHUNK_MAPPING_FILE
 =
 os
@@ -186,6 +215,7 @@ chunk_mapping
 sqlite
 '
 )
+    
 CHUNK_MAPPING_TAG_FILE
 =
 os
@@ -2501,6 +2531,10 @@ closed_tree
 False
 )
 :
+    
+setup_globals
+(
+)
     
 download_coverage_mapping
 (
