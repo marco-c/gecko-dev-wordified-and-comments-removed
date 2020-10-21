@@ -172,6 +172,13 @@ uint
 numSamples
 )
 ;
+void
+addSilent
+(
+uint
+nSamples
+)
+;
 }
 ;
 }
