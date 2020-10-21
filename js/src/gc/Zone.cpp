@@ -100,6 +100,15 @@ h
 #
 include
 "
+jit
+/
+JitZone
+.
+h
+"
+#
+include
+"
 vm
 /
 Runtime

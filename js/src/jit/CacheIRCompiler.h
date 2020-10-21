@@ -64,6 +64,12 @@ BaselineCacheIRCompiler
 class
 IonCacheIRCompiler
 ;
+enum
+class
+ICStubEngine
+:
+uint8_t
+;
 class
 BaselineFrameSlot
 {

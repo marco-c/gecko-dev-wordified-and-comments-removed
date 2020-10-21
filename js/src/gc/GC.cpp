@@ -310,6 +310,15 @@ h
 #
 include
 "
+jit
+/
+JitZone
+.
+h
+"
+#
+include
+"
 js
 /
 Object
