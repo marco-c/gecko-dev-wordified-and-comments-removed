@@ -2783,7 +2783,7 @@ WrapForJNI
 private
 static
 void
-markAsDead
+shutdownProcess
 (
 final
 Selector
