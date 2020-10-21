@@ -100,7 +100,7 @@ JSOp
 op
 )
 ;
-bool
+void
 rateMyCacheIR
 (
 JSContext

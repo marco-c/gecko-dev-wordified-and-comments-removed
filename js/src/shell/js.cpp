@@ -20602,9 +20602,6 @@ asJSScript
 (
 )
 ;
-if
-(
-!
 cih
 .
 rateMyCacheIR
@@ -20612,12 +20609,7 @@ rateMyCacheIR
 cx
 script
 )
-)
-{
-return
-false
 ;
-}
 }
 }
 else
@@ -20703,9 +20695,6 @@ return
 false
 ;
 }
-if
-(
-!
 cih
 .
 rateMyCacheIR
@@ -20713,12 +20702,7 @@ rateMyCacheIR
 cx
 script
 )
-)
-{
-return
-false
 ;
-}
 }
 args
 .

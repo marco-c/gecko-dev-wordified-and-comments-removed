@@ -716,7 +716,7 @@ return
 entryHappiness
 ;
 }
-bool
+void
 CacheIRHealth
 :
 :
@@ -747,7 +747,6 @@ spew
 )
 {
 return
-true
 ;
 }
 jit
@@ -976,9 +975,6 @@ uint8_t
 scriptHappiness
 )
 )
-;
-return
-true
 ;
 }
 #
