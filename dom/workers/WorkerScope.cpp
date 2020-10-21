@@ -1873,15 +1873,11 @@ AUTO_PROFILER_MARKER_TEXT
 ImportScripts
 "
 JS
-.
-WithOptions
-(
 MarkerStack
 :
 :
 Capture
 (
-)
 )
 urls
 )

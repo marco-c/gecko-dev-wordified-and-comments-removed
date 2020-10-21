@@ -1179,16 +1179,12 @@ Compositor
 frame
 "
 GRAPHICS
-.
-WithOptions
-(
 MarkerTiming
 :
 :
 IntervalUntilNowFrom
 (
 mBeginFrameTimeStamp
-)
 )
 nsPrintfCString
 (
