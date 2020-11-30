@@ -152,6 +152,7 @@ WindowContext
 WindowContext
 (
 )
+const
 {
 return
 mWindowContext
@@ -162,6 +163,7 @@ nsGlobalWindowInner
 GetWindowGlobal
 (
 )
+const
 {
 return
 mWindowGlobal
@@ -355,6 +357,19 @@ Document
 *
 aNewDocument
 )
+;
+bool
+IsSameOriginWith
+(
+const
+dom
+:
+:
+WindowContext
+*
+aOther
+)
+const
 ;
 bool
 SameOriginWithTop
