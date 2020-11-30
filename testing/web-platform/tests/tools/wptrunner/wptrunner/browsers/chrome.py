@@ -324,12 +324,6 @@ popups
 }
             
 "
-useAutomationExtension
-"
-:
-False
-            
-"
 excludeSwitches
 "
 :
