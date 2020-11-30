@@ -540,16 +540,6 @@ n
 "
 race
 :
-SystemGroupImpl
-:
-:
-sSingleton
-\
-n
-"
-"
-race
-:
 nsThread
 :
 :
