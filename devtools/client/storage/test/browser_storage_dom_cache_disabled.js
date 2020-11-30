@@ -248,11 +248,6 @@ checkState
 state
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

@@ -284,11 +284,6 @@ is
 added
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

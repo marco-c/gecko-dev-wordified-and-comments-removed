@@ -84,11 +84,6 @@ i
 )
 ;
 }
-await
-finishTests
-(
-)
-;
 }
 )
 ;

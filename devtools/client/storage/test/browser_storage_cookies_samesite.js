@@ -212,11 +212,6 @@ Strict
 "
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

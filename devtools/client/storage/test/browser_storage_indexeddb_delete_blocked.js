@@ -377,11 +377,6 @@ delete
 "
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

@@ -1577,11 +1577,6 @@ testTables
 storageItemsForDefault
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

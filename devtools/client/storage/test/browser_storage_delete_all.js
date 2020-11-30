@@ -784,11 +784,6 @@ checkState
 afterState
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

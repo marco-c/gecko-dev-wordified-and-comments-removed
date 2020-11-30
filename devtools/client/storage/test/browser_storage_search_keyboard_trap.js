@@ -79,11 +79,6 @@ searchbox
 "
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;
