@@ -1807,6 +1807,15 @@ wait_handle
 =
 INVALID_HANDLE_VALUE
 ;
+const
+DWORD
+process_id
+=
+tracker
+-
+>
+process_id
+;
 processes
 .
 erase
@@ -1846,9 +1855,6 @@ p
 process_id
 =
 =
-tracker
--
->
 process_id
 ;
 }
