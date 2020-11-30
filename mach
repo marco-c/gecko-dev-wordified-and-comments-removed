@@ -156,7 +156,6 @@ test
 check
 -
 spidermonkey
-cramtest
 crashtest
 devtools
 -
