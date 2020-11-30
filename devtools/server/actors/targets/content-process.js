@@ -914,6 +914,15 @@ isDestroyed
 return
 ;
 }
+this
+.
+emit
+(
+"
+tabDetached
+"
+)
+;
 Actor
 .
 prototype
