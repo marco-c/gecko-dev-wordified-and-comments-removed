@@ -111,6 +111,14 @@ REGEXP_SPACES
 s
 +
 /
+REGEXP_SPACES_START
+:
+/
+^
+\
+s
++
+/
 REGEXP_LIKE_PROTOCOL
 :
 /
