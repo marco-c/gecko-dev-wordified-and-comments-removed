@@ -586,6 +586,10 @@ contents
 =
 contents
 .
+decode
+(
+)
+.
 split
 (
 '
@@ -702,6 +706,10 @@ handle
 read
 (
 )
+.
+decode
+(
+)
         
 preamble
 =
@@ -756,8 +764,16 @@ destination
 write
 (
 preamble
+.
+encode
+(
+)
 +
 contents
+.
+encode
+(
+)
 )
         
 print

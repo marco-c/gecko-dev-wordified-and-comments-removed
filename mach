@@ -157,11 +157,6 @@ check
 -
 spidermonkey
 crashtest
-devtools
--
-css
--
-db
 firefox
 -
 ui
