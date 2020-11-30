@@ -2175,9 +2175,6 @@ mozilla
 LogicalRect
 &
 aFloatAvailableSpace
-nsIFrame
-*
-aFloatFrame
 )
 ;
 nscoord
