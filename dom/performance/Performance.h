@@ -55,6 +55,9 @@ class
 PerformanceNavigation
 ;
 class
+PerformancePaintTiming
+;
+class
 PerformanceObserver
 ;
 class
@@ -347,6 +350,17 @@ PerformanceNavigation
 *
 Navigation
 (
+)
+=
+0
+;
+virtual
+void
+SetFCPTimingEntry
+(
+PerformancePaintTiming
+*
+aEntry
 )
 =
 0

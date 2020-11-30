@@ -4210,6 +4210,16 @@ true
 name
 :
 "
+PerformancePaintTiming
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 PerformanceResourceTiming
 "
 insecureContext
