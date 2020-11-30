@@ -84,6 +84,11 @@ h
 #
 include
 <
+atomic
+>
+#
+include
+<
 thread
 >
 #
@@ -272,7 +277,10 @@ mCurrentPriorityModifier
 =
 0
 ;
-Atomic
+std
+:
+:
+atomic
 <
 uint32_t
 >
@@ -603,7 +611,13 @@ false
 #
 endif
 static
+std
+:
+:
+atomic
+<
 uint64_t
+>
 sCurrentTaskSeqNo
 ;
 int64_t
