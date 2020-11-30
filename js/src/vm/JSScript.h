@@ -11460,6 +11460,8 @@ PCToLineNumber
 (
 unsigned
 startLine
+unsigned
+startCol
 SrcNote
 *
 notes
