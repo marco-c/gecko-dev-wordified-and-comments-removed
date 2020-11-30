@@ -460,6 +460,8 @@ bool
 >
 mCanceled
 ;
+protected
+:
 mutable
 :
 :
@@ -469,8 +471,6 @@ mozilla
 Mutex
 mMutex
 ;
-protected
-:
 nsCOMPtr
 <
 nsIInterfaceRequestor
