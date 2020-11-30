@@ -37763,7 +37763,7 @@ this
 .
 props
 .
-source
+eventSource
 }
 )
 )
@@ -38560,7 +38560,7 @@ id
 extraOptions
 :
 extraMenuOptions
-eventSource
+source
 :
 eventSource
 showPrefName

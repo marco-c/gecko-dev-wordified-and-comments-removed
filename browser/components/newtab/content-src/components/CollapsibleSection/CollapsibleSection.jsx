@@ -805,7 +805,7 @@ this
 .
 props
 .
-source
+eventSource
 }
 )
 )
@@ -1649,7 +1649,7 @@ extraOptions
 {
 extraMenuOptions
 }
-eventSource
+source
 =
 {
 eventSource
