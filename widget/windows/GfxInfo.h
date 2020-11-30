@@ -338,6 +338,9 @@ int32_t
 )
 GetMaxRefreshRate
 (
+bool
+*
+aMixed
 )
 override
 ;
