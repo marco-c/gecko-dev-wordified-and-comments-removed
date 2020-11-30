@@ -626,16 +626,6 @@ Appearance
 :
 None
 :
-string
-=
-u
-"
-none
-"
-_ns
-;
-break
-;
 case
 Appearance
 :
@@ -646,7 +636,7 @@ string
 =
 u
 "
-hidden
+none
 "
 _ns
 ;
