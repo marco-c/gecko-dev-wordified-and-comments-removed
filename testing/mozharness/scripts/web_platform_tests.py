@@ -1509,6 +1509,23 @@ sdk
 linux
 '
 )
+            
+if
+self
+.
+config
+[
+"
+enable_webrender
+"
+]
+:
+                
+self
+.
+use_gles3
+=
+True
         
 abs_dirs
 .
