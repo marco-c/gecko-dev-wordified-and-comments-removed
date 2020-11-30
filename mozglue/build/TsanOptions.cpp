@@ -1078,6 +1078,13 @@ SupportsTextureDirectMapping
 \
 n
 "
+"
+thread
+:
+StartupCache
+\
+n
+"
 ;
 }
 #
