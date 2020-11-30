@@ -1074,6 +1074,7 @@ title
 description
 onCloseButton
 :
+async
 (
 )
 =
@@ -1098,8 +1099,16 @@ if
 inspectorFront
 )
 {
-inspectorFront
+const
+highlighter
+=
+toolbox
 .
+getHighlighter
+(
+)
+;
+await
 highlighter
 .
 unhighlight
