@@ -1,7 +1,7 @@
 r
-"
-"
-"
+'
+'
+'
 Make
 it
 easy
@@ -181,9 +181,9 @@ through
 to
 browsertime
 .
-"
-"
-"
+'
+'
+'
 from
 __future__
 import
@@ -359,9 +359,9 @@ package_path
 )
 :
     
-"
-"
-"
+'
+'
+'
 The
 path
 to
@@ -379,9 +379,9 @@ BROWSERTIME
 environment
 variable
 .
-"
-"
-"
+'
+'
+'
     
 override
 =
@@ -391,9 +391,9 @@ environ
 .
 get
 (
-"
+'
 BROWSERTIME
-"
+'
 None
 )
     
@@ -410,12 +410,12 @@ mozpath
 join
 (
 BROWSERTIME_ROOT
-"
+'
 node_modules
-"
-"
+'
+'
 browsertime
-"
+'
 )
 def
 browsertime_path
@@ -423,9 +423,9 @@ browsertime_path
 )
 :
     
-"
-"
-"
+'
+'
+'
 The
 path
 to
@@ -435,26 +435,29 @@ browsertime
 js
 script
 .
-"
-"
-"
+'
+'
+'
     
 return
 mozpath
 .
 join
 (
+        
 package_path
 (
 )
-"
+        
+'
 bin
-"
-"
+'
+        
+'
 browsertime
 .
 js
-"
+'
 )
 def
 visualmetrics_path
@@ -462,9 +465,9 @@ visualmetrics_path
 )
 :
     
-"
-"
-"
+'
+'
+'
 The
 path
 to
@@ -474,26 +477,29 @@ visualmetrics
 py
 script
 .
-"
-"
-"
+'
+'
+'
     
 return
 mozpath
 .
 join
 (
+        
 package_path
 (
 )
-"
+        
+'
 browsertime
-"
-"
+'
+        
+'
 visualmetrics
 .
 py
-"
+'
 )
 def
 host_platform
@@ -519,9 +525,9 @@ platform
 .
 startswith
 (
-"
+'
 win
-"
+'
 )
 :
         
@@ -530,9 +536,9 @@ is_64bits
 :
             
 return
-"
+'
 win64
-"
+'
     
 elif
 sys
@@ -541,9 +547,9 @@ platform
 .
 startswith
 (
-"
+'
 linux
-"
+'
 )
 :
         
@@ -552,9 +558,9 @@ is_64bits
 :
             
 return
-"
+'
 linux64
-"
+'
     
 elif
 sys
@@ -563,21 +569,21 @@ platform
 .
 startswith
 (
-"
+'
 darwin
-"
+'
 )
 :
         
 return
-"
+'
 darwin
-"
+'
     
 raise
 ValueError
 (
-"
+'
 sys
 .
 platform
@@ -588,7 +594,7 @@ supported
 :
 {
 }
-"
+'
 .
 format
 (
@@ -601,33 +607,33 @@ host_fetches
 =
 {
     
-"
+'
 darwin
-"
+'
 :
 {
         
-"
+'
 ffmpeg
-"
+'
 :
 {
             
-"
+'
 type
-"
+'
 :
-"
+'
 static
 -
 url
-"
+'
             
-"
+'
 url
-"
+'
 :
-"
+'
 https
 :
 /
@@ -665,13 +671,13 @@ macos64
 static
 .
 zip
-"
+'
             
-"
+'
 path
-"
+'
 :
-"
+'
 ffmpeg
 -
 4
@@ -683,39 +689,39 @@ ffmpeg
 macos64
 -
 static
-"
+'
         
 }
     
 }
     
-"
+'
 linux64
-"
+'
 :
 {
         
-"
+'
 ffmpeg
-"
+'
 :
 {
             
-"
+'
 type
-"
+'
 :
-"
+'
 static
 -
 url
-"
+'
             
-"
+'
 url
-"
+'
 :
-"
+'
 https
 :
 /
@@ -755,13 +761,13 @@ static
 tar
 .
 xz
-"
+'
             
-"
+'
 path
-"
+'
 :
-"
+'
 ffmpeg
 -
 4
@@ -773,39 +779,39 @@ ffmpeg
 i686
 -
 static
-"
+'
         
 }
     
 }
     
-"
+'
 win64
-"
+'
 :
 {
         
-"
+'
 ffmpeg
-"
+'
 :
 {
             
-"
+'
 type
-"
+'
 :
-"
+'
 static
 -
 url
-"
+'
             
-"
+'
 url
-"
+'
 :
-"
+'
 https
 :
 /
@@ -843,13 +849,13 @@ win64
 static
 .
 zip
-"
+'
             
-"
+'
 path
-"
+'
 :
-"
+'
 ffmpeg
 -
 4
@@ -861,31 +867,31 @@ ffmpeg
 win64
 -
 static
-"
+'
         
 }
         
-"
+'
 ImageMagick
-"
+'
 :
 {
             
-"
+'
 type
-"
+'
 :
-"
+'
 static
 -
 url
-"
+'
             
-"
+'
 url
-"
+'
 :
-"
+'
 https
 :
 /
@@ -921,13 +927,13 @@ Q16
 x64
 .
 zip
-"
+'
             
-"
+'
 path
-"
+'
 :
-"
+'
 ImageMagick
 -
 7
@@ -935,7 +941,7 @@ ImageMagick
 0
 .
 8
-"
+'
         
 }
     
@@ -959,9 +965,9 @@ self
 :
         
 r
-"
-"
-"
+'
+'
+'
 Downloaded
 artifacts
 will
@@ -969,9 +975,9 @@ be
 kept
 here
 .
-"
-"
-"
+'
+'
+'
         
 return
 mozpath
@@ -983,12 +989,12 @@ self
 _mach_context
 .
 state_dir
-"
+'
 cache
-"
-"
+'
+'
 browsertime
-"
+'
 )
     
 property
@@ -1001,9 +1007,9 @@ self
 :
         
 r
-"
-"
-"
+'
+'
+'
 Unpacked
 artifacts
 will
@@ -1011,9 +1017,9 @@ be
 kept
 here
 .
-"
-"
-"
+'
+'
+'
         
 return
 mozpath
@@ -1025,9 +1031,9 @@ self
 _mach_context
 .
 state_dir
-"
+'
 browsertime
-"
+'
 )
     
 def
@@ -1038,9 +1044,9 @@ self
 :
         
 r
-"
-"
-"
+'
+'
+'
 Install
 browsertime
 and
@@ -1049,9 +1055,9 @@ visualmetrics
 py
 prerequisites
 .
-"
-"
-"
+'
+'
+'
         
 from
 mozbuild
@@ -1079,9 +1085,9 @@ host_platform
 .
 startswith
 (
-"
+'
 linux
-"
+'
 )
 :
             
@@ -1105,15 +1111,15 @@ which
 im_programs
 =
 (
-"
+'
 compare
-"
-"
+'
+'
 convert
-"
-"
+'
+'
 mogrify
-"
+'
 )
             
 for
@@ -1136,8 +1142,7 @@ prog
                     
 print
 (
-                        
-"
+'
 Error
 :
 On
@@ -1149,9 +1154,9 @@ on
 the
 PATH
 .
-"
-                        
-"
+'
+                          
+'
 Install
 ImageMagick
 manually
@@ -1164,9 +1169,9 @@ update
 PATH
 )
 .
-"
-                        
-"
+'
+                          
+'
 On
 Ubuntu
 and
@@ -1179,9 +1184,9 @@ get
 install
 imagemagick
 .
-"
-                        
-"
+'
+                          
+'
 On
 Fedora
 try
@@ -1190,9 +1195,9 @@ dnf
 install
 imagemagick
 .
-"
-                        
-"
+'
+                          
+'
 On
 CentOS
 try
@@ -1201,8 +1206,7 @@ yum
 install
 imagemagick
 .
-"
-                    
+'
 )
                     
 return
@@ -1212,10 +1216,10 @@ artifact_cache
 =
 ArtifactCache
 (
-            
 self
 .
 artifact_cache_path
+                                       
 log
 =
 self
@@ -1224,7 +1228,6 @@ log
 skip_cache
 =
 False
-        
 )
         
 fetches
@@ -1258,9 +1261,9 @@ fetch
 (
 fetch
 [
-"
+'
 url
-"
+'
 ]
 )
             
@@ -1269,9 +1272,9 @@ fetch
 .
 get
 (
-"
+'
 unpack
-"
+'
 True
 )
 :
@@ -1312,41 +1315,40 @@ logging
 .
 INFO
                         
-"
+'
 browsertime
-"
+'
                         
 {
-"
+'
 path
-"
+'
 :
 archive
 }
                         
-"
+'
 Unpacking
 temporary
 location
 {
 path
 }
-"
-                    
+'
 )
                     
 if
-"
+'
 win64
-"
+'
 in
 host_platform
 (
 )
 and
-"
+'
 imagemagick
-"
+'
 in
 tool
 .
@@ -1361,9 +1363,9 @@ fetch
 .
 get
 (
-"
+'
 path
-"
+'
 )
 )
                         
@@ -1384,9 +1386,9 @@ fetch
 .
 get
 (
-"
+'
 path
-"
+'
 )
 )
 )
@@ -1428,9 +1430,9 @@ fetch
 .
 get
 (
-"
+'
 path
-"
+'
 )
 )
                     
@@ -1585,7 +1587,6 @@ error
 %
 s
 "
-                            
 %
 (
 path
@@ -1616,15 +1617,15 @@ should_clobber
 False
 new_upstream_url
 =
-"
-"
+'
+'
 )
 :
         
 r
-"
-"
-"
+'
+'
+'
 Install
 browsertime
 and
@@ -1639,9 +1640,9 @@ Node
 js
 package
 .
-"
-"
-"
+'
+'
+'
         
 sys
 .
@@ -1656,15 +1657,15 @@ join
 self
 .
 topsrcdir
-"
+'
 tools
-"
-"
+'
+'
 lint
-"
-"
+'
+'
 eslint
-"
+'
 )
 )
         
@@ -1695,11 +1696,11 @@ path
 join
 (
 BROWSERTIME_ROOT
-"
+'
 package
 .
 json
-"
+'
 )
             
 self
@@ -1711,27 +1712,24 @@ logging
 .
 INFO
                 
-"
+'
 browsertime
-"
+'
                 
 {
-                    
-"
+'
 new_upstream_url
-"
+'
 :
 new_upstream_url
-                    
-"
+'
 package_json_path
-"
+'
 :
 package_json_path
-                
 }
                 
-"
+'
 Updating
 browsertime
 node
@@ -1741,15 +1739,14 @@ in
 {
 package_json_path
 }
-"
+'
                 
-"
+'
 to
 {
 new_upstream_url
 }
-"
-            
+'
 )
             
 if
@@ -1758,7 +1755,7 @@ re
 .
 search
 (
-"
+'
 /
 tarball
 /
@@ -1772,7 +1769,7 @@ f0
 {
 40
 }
-"
+'
 new_upstream_url
 )
 :
@@ -1780,7 +1777,6 @@ new_upstream_url
 raise
 ValueError
 (
-                    
 "
 New
 upstream
@@ -1808,10 +1804,9 @@ f0
 s
 '
 "
-                    
+                                 
 %
 new_upstream_url
-                
 )
             
 with
@@ -1829,7 +1824,6 @@ json
 .
 loads
 (
-                    
 f
 .
 read
@@ -1840,19 +1834,18 @@ object_pairs_hook
 collections
 .
 OrderedDict
-                
 )
             
 existing_body
 [
-"
+'
 devDependencies
-"
+'
 ]
 [
-"
+'
 browsertime
-"
+'
 ]
 =
 new_upstream_url
@@ -1870,9 +1863,9 @@ with
 open
 (
 package_json_path
-"
+'
 w
-"
+'
 )
 as
 f
@@ -1936,29 +1929,29 @@ logging
 .
 INFO
             
-"
+'
 browsertime
-"
+'
             
 {
-"
+'
 package_json
-"
+'
 :
 mozpath
 .
 join
 (
 BROWSERTIME_ROOT
-"
+'
 package
 .
 json
-"
+'
 )
 }
             
-"
+'
 Installing
 browsertime
 node
@@ -1967,8 +1960,7 @@ from
 {
 package_json
 }
-"
-        
+'
 )
         
 status
@@ -1980,17 +1972,17 @@ package_setup
             
 BROWSERTIME_ROOT
             
-"
+'
 browsertime
-"
+'
             
 should_update
 =
 new_upstream_url
 !
 =
-"
-"
+'
+'
             
 should_clobber
 =
@@ -2001,7 +1993,6 @@ no_optional
 new_upstream_url
 or
 AUTOMATION
-        
 )
         
 if
@@ -2036,9 +2027,9 @@ args
 :
         
 r
-"
-"
-"
+'
+'
+'
 Invoke
 node
 (
@@ -2049,9 +2040,9 @@ the
 given
 arguments
 .
-"
-"
-"
+'
+'
+'
         
 return
 self
@@ -2093,7 +2084,6 @@ self
 .
 topsrcdir
 )
-        
 )
     
 def
@@ -2123,11 +2113,11 @@ environ
 .
 get
 (
-"
+'
 PATH
-"
-"
-"
+'
+'
+'
 )
 .
 split
@@ -2148,19 +2138,21 @@ mozpath
 .
 join
 (
+            
 self
 .
 state_path
+            
 fetches
 [
-"
+'
 ffmpeg
-"
+'
 ]
 [
-"
+'
 path
-"
+'
 ]
 )
         
@@ -2169,9 +2161,9 @@ path_to_imagemagick
 None
         
 if
-"
+'
 ImageMagick
-"
+'
 in
 fetches
 :
@@ -2186,18 +2178,18 @@ join
 self
 .
 state_path
+                
 fetches
 [
-"
+'
 ImageMagick
-"
+'
 ]
 [
-"
+'
 path
-"
+'
 ]
-            
 )
         
 if
@@ -2208,13 +2200,10 @@ path
 .
 insert
 (
-                
 0
-                
 self
 .
 state_path
-                
 if
 host_platform
 (
@@ -2222,33 +2211,28 @@ host_platform
 .
 startswith
 (
-"
+'
 win
-"
+'
 )
-                
 else
 mozpath
 .
 join
 (
 path_to_imagemagick
-"
+'
 bin
-"
+'
 )
-            
 )
         
 path
 .
 insert
 (
-            
 0
-            
 path_to_ffmpeg
-            
 if
 host_platform
 (
@@ -2256,22 +2240,20 @@ host_platform
 .
 startswith
 (
-"
+'
 linux
-"
+'
 )
-            
 else
 mozpath
 .
 join
 (
 path_to_ffmpeg
-"
+'
 bin
-"
+'
 )
-        
 )
         
 node_dir
@@ -2296,9 +2278,9 @@ node_dir
 path
         
 if
-"
+'
 win64
-"
+'
 in
 host_platform
 (
@@ -2376,9 +2358,9 @@ append_env
 =
 {
             
-"
+'
 PATH
-"
+'
 :
 os
 .
@@ -2389,9 +2371,9 @@ join
 path
 )
             
-"
+'
 PYTHON
-"
+'
 :
 self
 .
@@ -2409,45 +2391,43 @@ append_env
 .
 update
 (
-                
 {
-                    
-"
-LD_LIBRARY_PATH
-"
-:
-mozpath
-.
-join
-(
-path_to_imagemagick
-"
-lib
-"
-)
-                    
-"
-DYLD_LIBRARY_PATH
-"
-:
-mozpath
-.
-join
-(
-path_to_imagemagick
-"
-lib
-"
-)
-                    
-"
-MAGICK_HOME
-"
-:
-path_to_imagemagick
                 
-}
+'
+LD_LIBRARY_PATH
+'
+:
+mozpath
+.
+join
+(
+path_to_imagemagick
+'
+lib
+'
+)
+                
+'
+DYLD_LIBRARY_PATH
+'
+:
+mozpath
+.
+join
+(
+path_to_imagemagick
+'
+lib
+'
+)
+                
+'
+MAGICK_HOME
+'
+:
+path_to_imagemagick
             
+}
 )
         
 return
@@ -2507,7 +2487,6 @@ path
 .
 abspath
 (
-            
 os
 .
 path
@@ -2523,11 +2502,11 @@ bin_path
 .
 .
 "
+                                        
 "
 lib
 "
 )
-        
 )
         
 site_packages
@@ -2567,9 +2546,9 @@ kwargs
 :
         
 r
-"
-"
-"
+'
+'
+'
 Activates
 virtualenv
 .
@@ -2598,9 +2577,9 @@ install
 failed
 .
         
-"
-"
-"
+'
+'
+'
         
 MachCommandBase
 .
@@ -2670,9 +2649,9 @@ self
 :
         
 r
-"
-"
-"
+'
+'
+'
 Run
 visualmetrics
 .
@@ -2681,9 +2660,9 @@ py
 -
 check
 .
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -2694,11 +2673,11 @@ activate_virtualenv
 args
 =
 [
-"
+'
 -
 -
 check
-"
+'
 ]
         
 status
@@ -2735,9 +2714,9 @@ host_platform
 .
 startswith
 (
-"
+'
 linux
-"
+'
 )
 )
             
@@ -2759,7 +2738,6 @@ self
 .
 topsrcdir
 )
-        
 )
         
 sys
@@ -2800,15 +2778,15 @@ CRITICAL
         
 print
 (
-"
+'
 browsertime
 version
 :
-"
+'
 end
 =
-"
-"
+'
+'
 )
         
 sys
@@ -2839,11 +2817,11 @@ browsertime_path
 ]
 +
 [
-"
+'
 -
 -
 version
-"
+'
 ]
 )
     
@@ -2865,14 +2843,14 @@ args
 )
 :
             
-"
+'
 Extracts
 the
 browser
 name
 if
 any
-"
+'
             
 res
 =
@@ -2900,8 +2878,8 @@ w
 +
 )
 "
-"
-"
+'
+'
 .
 join
 (
@@ -2939,7 +2917,7 @@ flags
 )
 :
             
-"
+'
 Return
 True
 if
@@ -2958,7 +2936,7 @@ an
 argument
 )
 .
-"
+'
             
 for
 flag
@@ -2979,9 +2957,9 @@ startswith
 (
 flag
 +
-"
+'
 =
-"
+'
 )
 for
 arg
@@ -3006,15 +2984,15 @@ specifies_browser
 matches
 (
 args
-"
+'
 -
 b
-"
-"
+'
+'
 -
 -
 browser
-"
+'
 )
         
 if
@@ -3027,13 +3005,13 @@ extra_args
 extend
 (
 (
-"
+'
 -
 b
-"
-"
+'
+'
 firefox
-"
+'
 )
 )
         
@@ -3042,21 +3020,21 @@ specifies_har
 matches
 (
 args
-"
+'
 -
 -
 har
-"
-"
+'
+'
 -
 -
 skipHar
-"
-"
+'
+'
 -
 -
 gzipHar
-"
+'
 )
         
 if
@@ -3068,11 +3046,11 @@ extra_args
 .
 append
 (
-"
+'
 -
 -
 skipHar
-"
+'
 )
         
 if
@@ -3092,49 +3070,44 @@ specifies_binaryPath
 =
 matches
 (
-                
 args
-                
-"
+'
 -
 -
 firefox
 .
 binaryPath
-"
-                
-"
+'
+                                           
+'
 -
 -
 firefox
 .
 release
-"
-                
-"
+'
+'
 -
 -
 firefox
 .
 nightly
-"
-                
-"
+'
+                                           
+'
 -
 -
 firefox
 .
 beta
-"
-                
-"
+'
+'
 -
 -
 firefox
 .
 developer
-"
-            
+'
 )
             
 if
@@ -3150,9 +3123,9 @@ args
 )
 =
 =
-"
+'
 chrome
-"
+'
             
 if
 not
@@ -3167,13 +3140,13 @@ extra_args
 extend
 (
 (
-"
+'
 -
 -
 firefox
 .
 binaryPath
-"
+'
 self
 .
 get_binary_path
@@ -3192,53 +3165,50 @@ self
 .
 log
 (
-                        
 logging
 .
 ERROR
-                        
-"
+                             
+'
 browsertime
-"
-                        
+'
+                             
 {
-"
+'
 error
-"
+'
 :
 str
 (
 e
 )
 }
-                        
-"
+                             
+'
 ERROR
 :
 {
 error
 }
-"
-                    
+'
 )
                     
 self
 .
 log
 (
-                        
 logging
 .
 INFO
-                        
-"
+                             
+'
 browsertime
-"
-                        
+'
+                             
 {
 }
-                        
-"
+                             
+'
 Please
 run
 |
@@ -3247,9 +3217,9 @@ run
 mach
 build
 |
-"
-                        
-"
+'
+                             
+'
 or
 specify
 a
@@ -3262,8 +3232,7 @@ firefox
 .
 binaryPath
 .
-"
-                    
+'
 )
                     
 return
@@ -3282,19 +3251,19 @@ logging
 .
 DEBUG
                 
-"
+'
 browsertime
-"
+'
                 
 {
-"
+'
 extra_args
-"
+'
 :
 extra_args
 }
                 
-"
+'
 Running
 browsertime
 with
@@ -3305,8 +3274,7 @@ arguments
 {
 extra_args
 }
-"
-            
+'
 )
         
 return
@@ -3332,15 +3300,15 @@ join
 self
 .
 topsrcdir
-"
+'
 tools
-"
-"
+'
+'
 lint
-"
-"
+'
+'
 eslint
-"
+'
 )
 )
         
@@ -3452,20 +3420,18 @@ True
     
 Command
 (
-        
-"
+'
 browsertime
-"
-        
+'
 category
 =
-"
+'
 testing
-"
-        
+'
+             
 description
 =
-"
+'
 Run
 [
 browsertime
@@ -3483,34 +3449,31 @@ sitespeedio
 /
 browsertime
 )
-"
-        
-"
+'
+                         
+'
 performance
 tests
 .
-"
-    
+'
 )
     
 CommandArgument
 (
-        
-"
+'
 -
 -
 verbose
-"
-        
+'
 action
 =
-"
+'
 store_true
-"
-        
+'
+                     
 help
 =
-"
+'
 Verbose
 output
 for
@@ -3521,13 +3484,12 @@ build
 is
 running
 .
-"
-    
+'
 )
     
 CommandArgument
 (
-"
+'
 -
 -
 update
@@ -3535,71 +3497,68 @@ update
 upstream
 -
 url
-"
+'
 default
 =
-"
-"
+'
+'
 )
     
 CommandArgument
 (
-"
+'
 -
 -
 setup
-"
+'
 default
 =
 False
 action
 =
-"
+'
 store_true
-"
+'
 )
     
 CommandArgument
 (
-"
+'
 -
 -
 clobber
-"
+'
 default
 =
 False
 action
 =
-"
+'
 store_true
-"
+'
 )
     
 CommandArgument
 (
-        
-"
+'
 -
 -
 skip
 -
 cache
-"
-        
+'
 default
 =
 False
-        
 action
 =
-"
+'
 store_true
-"
-        
+'
+                     
 help
 =
-"
+'
 Skip
 all
 local
@@ -3612,66 +3571,61 @@ fetching
 remote
 artifacts
 .
-"
-    
+'
 )
     
 CommandArgument
 (
-"
+'
 -
 -
 check
-"
+'
 default
 =
 False
 action
 =
-"
+'
 store_true
-"
+'
 )
     
 CommandArgument
 (
-        
-"
+'
 -
 -
 browsertime
 -
 help
-"
-        
+'
 default
 =
 False
-        
 action
 =
-"
+'
 store_true
-"
-        
+'
+                     
 help
 =
-"
+'
 Show
 the
 browsertime
 help
 message
 .
-"
-    
+'
 )
     
 CommandArgument
 (
-"
+'
 args
-"
+'
 nargs
 =
 argparse
@@ -3682,40 +3636,32 @@ REMAINDER
 def
 browsertime
 (
-        
 self
-        
 args
-        
 verbose
 =
 False
-        
+                    
 update_upstream_url
 =
-"
-"
-        
+'
+'
 setup
 =
 False
-        
 clobber
 =
 False
-        
+                    
 skip_cache
 =
 False
-        
 check
 =
 False
-        
 browsertime_help
 =
 False
-    
 )
 :
         
@@ -3788,11 +3734,11 @@ args
 .
 append
 (
-"
+'
 -
 -
 help
-"
+'
 )
         
 self
@@ -3838,36 +3784,37 @@ args
     
 Command
 (
-"
+'
 visualmetrics
-"
+'
 category
 =
-"
+'
 testing
-"
+'
+             
 description
 =
-"
+'
 Run
 visualmetrics
 .
 py
-"
+'
 )
     
 CommandArgument
 (
-"
+'
 video
-"
+'
 )
     
 CommandArgument
 (
-"
+'
 args
-"
+'
 nargs
 =
 argparse
@@ -3924,92 +3871,90 @@ base
 args
 =
 [
-            
-"
+'
 -
 -
 dir
-"
-            
+'
+                
 mozpath
 .
 join
 (
 d
-"
+'
 images
-"
+'
 index
 )
-            
-"
+                
+'
 -
 -
 video
-"
-            
+'
+                
 video
-            
-"
+                
+'
 -
 -
 orange
-"
-            
-"
+'
+                
+'
 -
 -
 perceptual
-"
-            
-"
+'
+                
+'
 -
 -
 contentful
-"
-            
-"
+'
+                
+'
 -
 -
 force
-"
-            
-"
+'
+                
+'
 -
 -
 renderignore
-"
-            
-"
+'
+                
+'
 5
-"
-            
-"
+'
+                
+'
 -
 -
 json
-"
-            
-"
+'
+                
+'
 -
 -
 viewport
-"
-            
-"
+'
+                
+'
 -
 q
-"
-            
-"
+'
+                
+'
 75
-"
-            
-"
+'
+                
+'
 -
 vvvv
-"
-        
+'
 ]
         
 return
@@ -4052,5 +3997,4 @@ self
 .
 topsrcdir
 )
-        
 )

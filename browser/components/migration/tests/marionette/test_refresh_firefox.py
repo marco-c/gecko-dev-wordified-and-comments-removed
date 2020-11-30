@@ -233,7 +233,6 @@ self
 .
 runCode
 (
-            
 "
 "
 "
@@ -311,7 +310,6 @@ myLogin
 "
 "
 "
-            
 script_args
 =
 (
@@ -322,7 +320,6 @@ self
 .
 _password
 )
-        
 )
     
 def
@@ -338,7 +335,6 @@ self
 .
 runAsyncCode
 (
-            
 "
 "
 "
@@ -428,7 +424,6 @@ resolve
 "
 "
 "
-            
 script_args
 =
 (
@@ -439,7 +434,6 @@ self
 .
 _bookmarkText
 )
-        
 )
         
 if
@@ -464,7 +458,6 @@ self
 .
 runAsyncCode
 (
-            
 "
 "
 "
@@ -573,7 +566,6 @@ resolve
 "
 "
 "
-        
 )
         
 if
@@ -598,7 +590,6 @@ self
 .
 runAsyncCode
 (
-            
 "
 "
 "
@@ -704,7 +695,6 @@ ex
 "
 "
 "
-            
 script_args
 =
 (
@@ -715,7 +705,6 @@ self
 .
 _historyTitle
 )
-        
 )
         
 if
@@ -740,7 +729,6 @@ self
 .
 runAsyncCode
 (
-            
 "
 "
 "
@@ -863,7 +851,6 @@ false
 "
 "
 "
-            
 script_args
 =
 (
@@ -874,7 +861,6 @@ self
 .
 _formHistoryValue
 )
-        
 )
         
 if
@@ -910,7 +896,6 @@ self
 .
 runAsyncCode
 (
-            
 "
 "
 "
@@ -1090,7 +1075,6 @@ resolve
 "
 "
 "
-        
 )
     
 def
@@ -1104,7 +1088,6 @@ self
 .
 runCode
 (
-            
 "
 "
 "
@@ -1184,29 +1167,22 @@ SCHEME_UNSET
 "
 "
 "
-            
 script_args
 =
 (
-                
 self
 .
 _cookieHost
-                
 self
 .
 _cookiePath
-                
 self
 .
 _cookieName
-                
 self
 .
 _cookieValue
-            
 )
-        
 )
     
 def
@@ -1220,7 +1196,6 @@ self
 .
 runAsyncCode
 (
-            
 "
 "
 "
@@ -1547,7 +1522,6 @@ tab
 "
 "
 "
-            
 script_args
 =
 (
@@ -1555,7 +1529,6 @@ self
 .
 _expectedURLs
 )
-        
 )
     
 def
@@ -1569,7 +1542,6 @@ self
 .
 runAsyncCode
 (
-            
 "
 "
 "
@@ -1666,7 +1638,6 @@ resolve
 "
 "
 "
-        
 )
     
 def
@@ -1682,7 +1653,6 @@ marionette
 .
 execute_script
 (
-            
 "
 "
 "
@@ -1712,7 +1682,6 @@ com
 "
 "
 "
-        
 )
     
 def
@@ -1730,7 +1699,6 @@ marionette
 .
 execute_script
 (
-            
 "
 "
 "
@@ -1804,7 +1772,6 @@ null
 "
 "
 "
-        
 )
         
 self
@@ -1827,9 +1794,9 @@ loginInfo
 0
 ]
 [
-"
+'
 username
-"
+'
 ]
 self
 .
@@ -1845,9 +1812,9 @@ loginInfo
 0
 ]
 [
-"
+'
 password
-"
+'
 ]
 self
 .
@@ -1862,7 +1829,6 @@ marionette
 .
 execute_script
 (
-            
 "
 "
 "
@@ -1882,7 +1848,6 @@ length
 "
 "
 "
-        
 )
         
 self
@@ -1913,7 +1878,6 @@ self
 .
 runAsyncCode
 (
-            
 "
 "
 "
@@ -1970,7 +1934,6 @@ ex
 "
 "
 "
-            
 script_args
 =
 (
@@ -1978,7 +1941,6 @@ self
 .
 _bookmarkURL
 )
-        
 )
         
 self
@@ -2006,7 +1968,6 @@ marionette
 .
 execute_script
 (
-            
 "
 "
 "
@@ -2039,7 +2000,6 @@ collapsed
 "
 "
 "
-        
 )
         
 if
@@ -2079,7 +2039,6 @@ self
 .
 runAsyncCode
 (
-            
 "
 "
 "
@@ -2177,7 +2136,6 @@ e
 "
 "
 "
-            
 script_args
 =
 (
@@ -2185,7 +2143,6 @@ self
 .
 _historyURL
 )
-        
 )
         
 if
@@ -2213,9 +2170,9 @@ assertEqual
 (
 historyResult
 [
-"
+'
 title
-"
+'
 ]
 self
 .
@@ -2235,7 +2192,6 @@ self
 .
 runAsyncCode
 (
-            
 "
 "
 "
@@ -2330,7 +2286,6 @@ results
 "
 "
 "
-            
 script_args
 =
 (
@@ -2338,7 +2293,6 @@ self
 .
 _formHistoryFieldName
 )
-        
 )
         
 if
@@ -2371,11 +2325,9 @@ self
 .
 assertEqual
 (
-            
 formFieldResultCount
-            
 1
-            
+                         
 "
 Should
 have
@@ -2390,8 +2342,8 @@ got
 d
 "
 %
+                         
 formFieldResultCount
-        
 )
         
 if
@@ -2405,14 +2357,15 @@ self
 .
 assertEqual
 (
+                
 formFieldResults
 [
 0
 ]
 [
-"
+'
 value
-"
+'
 ]
 self
 .
@@ -2425,7 +2378,6 @@ self
 .
 runAsyncCode
 (
-            
 "
 "
 "
@@ -2487,16 +2439,15 @@ callbacks
 "
 "
 "
-        
 )
         
 self
 .
 assertEqual
 (
-            
 formHistoryCount
 1
+                         
 "
 There
 should
@@ -2509,7 +2460,6 @@ the
 form
 history
 "
-        
 )
     
 def
@@ -2534,7 +2484,6 @@ self
 .
 runAsyncCode
 (
-            
 "
 "
 "
@@ -2592,7 +2541,6 @@ resolve
 "
 "
 "
-        
 )
         
 if
@@ -2625,11 +2573,9 @@ self
 .
 assertEqual
 (
-            
 formAutofillAddressCount
-            
 1
-            
+                         
 "
 Should
 have
@@ -2643,7 +2589,6 @@ d
 "
 %
 formAutofillAddressCount
-        
 )
         
 if
@@ -2663,14 +2608,13 @@ formAutofillResults
 0
 ]
 [
-"
+'
 guid
-"
+'
 ]
 self
 .
 _formAutofillAddressGuid
-            
 )
     
 def
@@ -2686,7 +2630,6 @@ self
 .
 runCode
 (
-            
 "
 "
 "
@@ -2835,7 +2778,6 @@ ex
 "
 "
 "
-            
 script_args
 =
 (
@@ -2843,7 +2785,6 @@ self
 .
 _cookieHost
 )
-        
 )
         
 if
@@ -2870,9 +2811,9 @@ assertEqual
 (
 cookieInfo
 [
-"
+'
 path
-"
+'
 ]
 self
 .
@@ -2885,9 +2826,9 @@ assertEqual
 (
 cookieInfo
 [
-"
+'
 value
-"
+'
 ]
 self
 .
@@ -2900,9 +2841,9 @@ assertEqual
 (
 cookieInfo
 [
-"
+'
 name
-"
+'
 ]
 self
 .
@@ -2922,7 +2863,6 @@ self
 .
 runCode
 (
-            
 "
 "
 "
@@ -2957,7 +2897,6 @@ spec
 "
 "
 "
-        
 )
         
 self
@@ -3005,7 +2944,6 @@ self
 .
 runAsyncCode
 (
-            
 "
 "
 "
@@ -3273,7 +3211,6 @@ true
 "
 "
 "
-        
 )
         
 self
@@ -3299,7 +3236,6 @@ self
 .
 runAsyncCode
 (
-            
 "
 "
 "
@@ -3432,7 +3368,6 @@ toString
 "
 "
 "
-        
 )
         
 if
@@ -3535,7 +3470,6 @@ marionette
 .
 execute_script
 (
-            
 "
 "
 "
@@ -3561,7 +3495,6 @@ null
 "
 "
 "
-        
 )
         
 expected_value
@@ -3754,7 +3687,6 @@ self
 .
 runCode
 (
-            
 "
 "
 "
@@ -3885,7 +3817,6 @@ FormHistory
 "
 "
 "
-        
 )
         
 self
@@ -3896,7 +3827,6 @@ self
 .
 runCode
 (
-            
 "
 "
 "
@@ -3950,7 +3880,6 @@ true
 "
 "
 "
-        
 )
     
 def
@@ -3973,22 +3902,24 @@ marionette
 .
 execute_script
 (
-            
 script
+                                              
 new_sandbox
 =
 False
+                                              
 sandbox
 =
 self
 .
 _sandbox
+                                              
 *
 args
+                                              
 *
 *
 kwargs
-        
 )
     
 def
@@ -4011,22 +3942,24 @@ marionette
 .
 execute_async_script
 (
-            
 script
+                                                    
 new_sandbox
 =
 False
+                                                    
 sandbox
 =
 self
 .
 _sandbox
+                                                    
 *
 args
+                                                    
 *
 *
 kwargs
-        
 )
     
 def
@@ -4126,7 +4059,6 @@ self
 .
 runCode
 (
-                    
 "
 "
 "
@@ -4172,7 +4104,6 @@ flush
 "
 "
 "
-                    
 script_args
 =
 (
@@ -4180,13 +4111,10 @@ cleanup
 .
 profile_name_to_remove
 )
-                
 )
                 
 different_path
 =
-(
-                    
 cleanup
 .
 reset_profile_local_path
@@ -4195,8 +4123,6 @@ reset_profile_local_path
 cleanup
 .
 reset_profile_path
-                
-)
                 
 if
 cleanup
@@ -4267,7 +4193,6 @@ self
 .
 runCode
 (
-            
 "
 "
 "
@@ -4486,11 +4411,9 @@ arguments
 "
 "
 "
-            
 script_args
 =
 (
-                
 self
 .
 marionette
@@ -4500,11 +4423,8 @@ instance
 profile
 .
 profile
-                
 profileName
-            
 )
-        
 )
         
 profileLeafName
@@ -4515,13 +4435,13 @@ path
 .
 basename
 (
-            
 os
 .
 path
 .
 normpath
 (
+            
 self
 .
 marionette
@@ -4532,7 +4452,6 @@ profile
 .
 profile
 )
-        
 )
         
 self
@@ -4568,7 +4487,6 @@ self
 .
 runCode
 (
-            
 "
 "
 "
@@ -4623,7 +4541,6 @@ path
 "
 "
 "
-        
 )
         
 cleanup
@@ -4634,7 +4551,6 @@ self
 .
 runCode
 (
-            
 "
 "
 "
@@ -4764,20 +4680,17 @@ path
 "
 "
 "
-            
 script_args
 =
 (
 profileLeafName
 )
-        
 )
         
 self
 .
 assertTrue
 (
-            
 os
 .
 path
@@ -4788,7 +4701,7 @@ cleanup
 .
 reset_profile_path
 )
-            
+                        
 "
 Reset
 profile
@@ -4797,14 +4710,12 @@ should
 be
 present
 "
-        
 )
         
 self
 .
 assertTrue
 (
-            
 os
 .
 path
@@ -4815,7 +4726,7 @@ cleanup
 .
 desktop_backup_path
 )
-            
+                        
 "
 Backup
 profile
@@ -4824,7 +4735,6 @@ should
 be
 present
 "
-        
 )
         
 self

@@ -5,9 +5,9 @@ division
 absolute_import
 print_function
 unicode_literals
-"
-"
-"
+'
+'
+'
 This
 file
 contains
@@ -34,9 +34,9 @@ single
 mach
 invocation
 .
-"
-"
-"
+'
+'
+'
 import
 json
 import
@@ -101,17 +101,16 @@ schema
 =
 Schema
 (
-    
 {
-        
+    
 Required
 (
-"
+'
 client_id
-"
+'
 description
 =
-"
+'
 A
 UUID
 to
@@ -119,91 +118,85 @@ uniquely
 identify
 a
 client
-"
+'
 )
 :
 Any
 (
-            
 *
 string_types
-        
 )
-        
+    
 Required
 (
-"
+'
 time
-"
+'
 description
 =
-"
+'
 Time
 at
 which
 this
 event
 happened
-"
+'
 )
 :
 Datetime
 (
 )
-        
+    
 Required
 (
-"
+'
 command
-"
+'
 description
 =
-"
+'
 The
 mach
 command
 that
 was
 invoked
-"
+'
 )
 :
 Any
 (
-            
 *
 string_types
-        
 )
-        
+    
 Required
 (
-            
-"
+'
 argv
-"
-            
+'
 description
 =
 (
-                
-"
+        
+'
 Full
 mach
 commandline
 .
-"
-                
+'
 +
-"
+        
+'
 If
 the
 commandline
 contains
-"
-                
+'
 +
-"
+        
+'
 absolute
 paths
 they
@@ -211,10 +204,8 @@ will
 be
 sanitized
 .
-"
-            
+'
 )
-        
 )
 :
 [
@@ -224,37 +215,35 @@ Any
 string_types
 )
 ]
-        
+    
 Required
 (
-"
+'
 success
-"
+'
 description
 =
-"
+'
 true
 if
 the
 command
 succeeded
-"
+'
 )
 :
 bool
-        
+    
 Optional
 (
-            
-"
+'
 exception
-"
-            
+'
 description
 =
 (
-                
-"
+        
+'
 If
 a
 Python
@@ -264,10 +253,10 @@ encountered
 during
 the
 execution
-"
-                
+'
 +
-"
+        
+'
 of
 the
 command
@@ -279,19 +268,17 @@ result
 of
 calling
 repr
-"
-                
+'
 +
-"
+        
+'
 on
 the
 exception
 object
 .
-"
-            
+'
 )
-        
 )
 :
 Any
@@ -299,19 +286,17 @@ Any
 *
 string_types
 )
-        
+    
 Optional
 (
-            
-"
+'
 file_types_changed
-"
-            
+'
 description
 =
 (
-                
-"
+        
+'
 This
 array
 contains
@@ -327,11 +312,11 @@ count
 properties
 giving
 the
-"
-                
-+
-"
 count
+'
++
+        
+'
 of
 files
 changed
@@ -343,10 +328,8 @@ grouped
 by
 file
 type
-"
-            
+'
 )
-        
 )
 :
 [
@@ -355,15 +338,15 @@ type
                 
 Required
 (
-"
+'
 ext
-"
+'
 description
 =
-"
+'
 File
 extension
-"
+'
 )
 :
 Any
@@ -374,13 +357,12 @@ string_types
                 
 Required
 (
-                    
-"
+'
 count
-"
+'
 description
 =
-"
+'
 Count
 of
 changed
@@ -388,8 +370,7 @@ files
 with
 this
 extension
-"
-                
+'
 )
 :
 int
@@ -397,48 +378,48 @@ int
 }
         
 ]
-        
+    
 Required
 (
-"
+'
 duration_ms
-"
+'
 description
 =
-"
+'
 Command
 duration
 in
 milliseconds
-"
+'
 )
 :
 int
-        
+    
 Required
 (
-"
+'
 build_opts
-"
+'
 description
 =
-"
+'
 Selected
 build
 options
-"
+'
 )
 :
 {
-            
+        
 Optional
 (
-"
+'
 compiler
-"
+'
 description
 =
-"
+'
 The
 compiler
 type
@@ -447,27 +428,26 @@ use
 (
 CC_TYPE
 )
-"
+'
 )
 :
+            
 Any
 (
-                
 *
 CompilerType
 .
 POSSIBLE_VALUES
-            
 )
-            
+        
 Optional
 (
-"
+'
 artifact
-"
+'
 description
 =
-"
+'
 true
 if
 -
@@ -477,20 +457,19 @@ enable
 artifact
 -
 builds
-"
+'
 )
 :
 bool
-            
+        
 Optional
 (
-                
-"
+'
 debug
-"
+'
 description
 =
-"
+'
 true
 if
 build
@@ -503,21 +482,19 @@ enable
 -
 debug
 )
-"
-            
+'
 )
 :
 bool
-            
+        
 Optional
 (
-                
-"
+'
 opt
-"
+'
 description
 =
-"
+'
 true
 if
 build
@@ -530,21 +507,19 @@ enable
 -
 optimize
 )
-"
-            
+'
 )
 :
 bool
-            
+        
 Optional
 (
-                
-"
+'
 ccache
-"
+'
 description
 =
-"
+'
 true
 if
 ccache
@@ -558,20 +533,19 @@ with
 -
 ccache
 )
-"
-            
+'
 )
 :
 bool
-            
+        
 Optional
 (
-"
+'
 sccache
-"
+'
 description
 =
-"
+'
 true
 if
 ccache
@@ -579,78 +553,75 @@ in
 use
 is
 sccache
-"
+'
 )
 :
 bool
-            
+        
 Optional
 (
-"
+'
 icecream
-"
+'
 description
 =
-"
+'
 true
 if
 icecream
 in
 use
-"
+'
 )
 :
 bool
-        
+    
 }
-        
+    
 Optional
 (
-"
+'
 build_attrs
-"
+'
 description
 =
-"
+'
 Attributes
 characterizing
 a
 build
-"
+'
 )
 :
 {
-            
+        
 Optional
 (
-                
-"
+'
 cpu_percent
-"
+'
 description
 =
-"
+'
 cpu
 utilization
 observed
 during
 a
 build
-"
-            
+'
 )
 :
 int
-            
+        
 Optional
 (
-                
-"
+'
 clobber
-"
+'
 description
 =
-"
+'
 true
 if
 the
@@ -661,147 +632,137 @@ clobber
 /
 full
 build
-"
-            
+'
 )
 :
 bool
-        
+    
 }
-        
+    
 Required
 (
-"
+'
 system
-"
+'
 )
 :
 {
-            
+        
 Required
 (
-"
+'
 os
-"
+'
 description
 =
-"
+'
 Operating
 system
-"
+'
 )
 :
 Any
 (
-                
-"
+'
 windows
-"
-"
+'
+'
 macos
-"
-"
+'
+'
 linux
-"
-"
+'
+'
 other
-"
-            
+'
 )
-            
+        
 Optional
 (
-"
+'
 cpu_brand
-"
+'
 description
 =
-"
+'
 CPU
 brand
 string
 from
 CPUID
-"
+'
 )
 :
 Any
 (
-                
 *
 string_types
-            
 )
-            
+        
 Optional
 (
-                
-"
+'
 logical_cores
-"
+'
 description
 =
-"
+'
 Number
 of
 logical
 CPU
 cores
 present
-"
-            
+'
 )
 :
 int
-            
+        
 Optional
 (
-                
-"
+'
 physical_cores
-"
+'
 description
 =
-"
+'
 Number
 of
 physical
 CPU
 cores
 present
-"
-            
+'
 )
 :
 int
-            
+        
 Optional
 (
-"
+'
 memory_gb
-"
+'
 description
 =
-"
+'
 System
 memory
 in
 GB
-"
+'
 )
 :
 int
-            
+        
 Optional
 (
-                
-"
+'
 drive_is_ssd
-"
-                
+'
+                 
 description
 =
-"
+'
 true
 if
 the
@@ -814,22 +775,20 @@ solid
 -
 state
 disk
-"
-            
+'
 )
 :
 bool
-            
+        
 Optional
 (
-                
-"
+'
 virtual_machine
-"
-                
+'
+                 
 description
 =
-"
+'
 true
 if
 the
@@ -842,14 +801,12 @@ in
 a
 virtual
 machine
-"
-            
+'
 )
 :
 bool
-        
-}
     
+}
 }
 )
 def
@@ -859,9 +816,9 @@ state_dir
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Get
 a
@@ -898,9 +855,9 @@ a
 file
 .
     
-"
-"
-"
+'
+'
+'
     
 path
 =
@@ -911,11 +868,11 @@ path
 join
 (
 state_dir
-"
+'
 telemetry_client_id
 .
 json
-"
+'
 )
     
 if
@@ -933,9 +890,9 @@ with
 open
 (
 path
-"
+'
 r
-"
+'
 )
 as
 f
@@ -949,9 +906,9 @@ load
 f
 )
 [
-"
+'
 client_id
-"
+'
 ]
     
 import
@@ -974,18 +931,18 @@ PY3
         
 file_mode
 =
-"
+'
 w
-"
+'
     
 else
 :
         
 file_mode
 =
-"
+'
 wb
-"
+'
     
 with
 open
@@ -1002,9 +959,9 @@ json
 dump
 (
 {
-"
+'
 client_id
-"
+'
 :
 client_id
 }
@@ -1019,9 +976,9 @@ cpu_brand_linux
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Read
 the
@@ -1038,22 +995,22 @@ on
 Linux
 .
     
-"
-"
-"
+'
+'
+'
     
 with
 open
 (
-"
+'
 /
 proc
 /
 cpuinfo
-"
-"
+'
+'
 r
-"
+'
 )
 as
 f
@@ -1070,10 +1027,10 @@ line
 .
 startswith
 (
-"
+'
 model
 name
-"
+'
 )
 :
                 
@@ -1084,9 +1041,9 @@ line
 .
 split
 (
-"
+'
 :
-"
+'
 1
 )
                 
@@ -1105,9 +1062,9 @@ cpu_brand_windows
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Read
 the
@@ -1121,9 +1078,9 @@ on
 Windows
 .
     
-"
-"
-"
+'
+'
+'
     
 try
 :
@@ -1149,13 +1106,12 @@ _winreg
 .
 OpenKey
 (
-            
 _winreg
 .
 HKEY_LOCAL_MACHINE
-            
+                            
 r
-"
+'
 HARDWARE
 \
 DESCRIPTION
@@ -1165,8 +1121,7 @@ System
 CentralProcessor
 \
 0
-"
-        
+'
 )
         
 (
@@ -1179,9 +1134,9 @@ _winreg
 QueryValueEx
 (
 h
-"
+'
 ProcessorNameString
-"
+'
 )
         
 if
@@ -1210,9 +1165,9 @@ cpu_brand_mac
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Get
 the
@@ -1225,9 +1180,9 @@ on
 macos
 .
     
-"
-"
-"
+'
+'
+'
     
 import
 ctypes
@@ -1272,15 +1227,14 @@ libc
 .
 sysctlbyname
 (
-        
 b
-"
+'
 machdep
 .
 cpu
 .
 brand_string
-"
+'
 None
 ctypes
 .
@@ -1288,9 +1242,9 @@ byref
 (
 bufsize
 )
+                               
 None
 0
-    
 )
     
 if
@@ -1327,15 +1281,14 @@ libc
 .
 sysctlbyname
 (
-        
 b
-"
+'
 machdep
 .
 cpu
 .
 brand_string
-"
+'
 buf
 ctypes
 .
@@ -1345,7 +1298,6 @@ bufsize
 )
 None
 0
-    
 )
     
 if
@@ -1372,9 +1324,9 @@ get_cpu_brand
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Get
 the
@@ -1387,28 +1339,28 @@ by
 CPUID
 .
     
-"
-"
-"
+'
+'
+'
     
 return
 {
         
-"
+'
 Linux
-"
+'
 :
 cpu_brand_linux
         
-"
+'
 Windows
-"
+'
 :
 cpu_brand_windows
         
-"
+'
 Darwin
-"
+'
 :
 cpu_brand_mac
     
@@ -1436,29 +1388,29 @@ get_os_name
 return
 {
         
-"
+'
 Linux
-"
+'
 :
-"
+'
 linux
-"
+'
         
-"
+'
 Windows
-"
+'
 :
-"
+'
 windows
-"
+'
         
-"
+'
 Darwin
-"
+'
 :
-"
+'
 macos
-"
+'
     
 }
 .
@@ -1469,9 +1421,9 @@ platform
 system
 (
 )
-"
+'
 other
-"
+'
 )
 def
 get_psutil_stats
@@ -1479,9 +1431,9 @@ get_psutil_stats
 )
 :
     
-"
-"
-"
+'
+'
+'
 Return
 whether
 psutil
@@ -1519,9 +1471,9 @@ of
 memory
 .
     
-"
-"
-"
+'
+'
+'
     
 try
 :
@@ -1556,7 +1508,6 @@ virtual_memory
 )
 .
 total
-        
 )
     
 except
@@ -1574,9 +1525,9 @@ get_system_info
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Gather
 info
@@ -1590,9 +1541,9 @@ the
 schema
 .
     
-"
-"
-"
+'
+'
+'
     
 has_psutil
 logical_cores
@@ -1607,9 +1558,9 @@ info
 =
 {
         
-"
+'
 os
-"
+'
 :
 get_os_name
 (
@@ -1623,9 +1574,9 @@ has_psutil
         
 info
 [
-"
+'
 memory_gb
-"
+'
 ]
 =
 int
@@ -1651,9 +1602,9 @@ memory_total
         
 info
 [
-"
+'
 logical_cores
-"
+'
 ]
 =
 logical_cores
@@ -1667,9 +1618,9 @@ None
             
 info
 [
-"
+'
 physical_cores
-"
+'
 ]
 =
 physical_cores
@@ -1689,9 +1640,9 @@ None
         
 info
 [
-"
+'
 cpu_brand
-"
+'
 ]
 =
 cpu_brand
@@ -1705,9 +1656,9 @@ substs
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Translate
 selected
@@ -1722,9 +1673,9 @@ the
 schema
 .
     
-"
-"
-"
+'
+'
+'
     
 try
 :
@@ -1745,7 +1696,6 @@ s
 None
 )
 )
-            
 for
 (
 k
@@ -1756,52 +1706,52 @@ in
 (
                 
 (
-"
+'
 artifact
-"
-"
+'
+'
 MOZ_ARTIFACT_BUILDS
-"
+'
 bool
 )
                 
 (
-"
+'
 debug
-"
-"
+'
+'
 MOZ_DEBUG
-"
+'
 bool
 )
                 
 (
-"
+'
 opt
-"
-"
+'
+'
 MOZ_OPTIMIZE
-"
+'
 bool
 )
                 
 (
-"
+'
 ccache
-"
-"
+'
+'
 CCACHE
-"
+'
 bool
 )
                 
 (
-"
+'
 sccache
-"
-"
+'
+'
 MOZ_USING_SCCACHE
-"
+'
 bool
 )
             
@@ -1815,9 +1765,9 @@ substs
 .
 get
 (
-"
+'
 CC_TYPE
-"
+'
 None
 )
         
@@ -1827,9 +1777,9 @@ compiler
             
 opts
 [
-"
+'
 compiler
-"
+'
 ]
 =
 str
@@ -1842,18 +1792,18 @@ substs
 .
 get
 (
-"
+'
 CXX_IS_ICECREAM
-"
+'
 None
 )
 :
             
 opts
 [
-"
+'
 icecream
-"
+'
 ]
 =
 True
@@ -1875,9 +1825,9 @@ attrs
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Extracts
 clobber
@@ -1890,9 +1840,9 @@ command
 attributes
 .
     
-"
-"
-"
+'
+'
+'
     
 res
 =
@@ -1905,9 +1855,9 @@ attrs
 .
 get
 (
-"
+'
 clobber
-"
+'
 )
     
 if
@@ -1916,9 +1866,9 @@ clobber
         
 res
 [
-"
+'
 clobber
-"
+'
 ]
 =
 clobber
@@ -1929,9 +1879,9 @@ attrs
 .
 get
 (
-"
+'
 usage
-"
+'
 )
     
 if
@@ -1944,9 +1894,9 @@ usage
 .
 get
 (
-"
+'
 cpu_percent
-"
+'
 )
         
 if
@@ -1955,9 +1905,9 @@ cpu_percent
             
 res
 [
-"
+'
 cpu_percent
-"
+'
 ]
 =
 int
@@ -1979,9 +1929,9 @@ instance
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Given
 the
@@ -2014,9 +1964,9 @@ after
 that
 .
     
-"
-"
-"
+'
+'
+'
     
 paths
 =
@@ -2026,19 +1976,19 @@ instance
 .
 topsrcdir
 :
-"
+'
 topsrcdir
 /
-"
+'
         
 instance
 .
 topobjdir
 :
-"
+'
 topobjdir
 /
-"
+'
         
 mozpath
 .
@@ -2050,16 +2000,16 @@ path
 .
 expanduser
 (
-"
+'
 ~
-"
+'
 )
 )
 :
-"
+'
 HOME
 /
-"
+'
         
 mozpath
 .
@@ -2072,8 +2022,8 @@ getcwd
 )
 )
 :
-"
-"
+'
+'
     
 }
     
@@ -2155,12 +2105,12 @@ base
 )
         
 return
-"
+'
 <
 path
 omitted
 >
-"
+'
     
 return
 [
@@ -2176,20 +2126,20 @@ args
 def
 gather_telemetry
 (
-    
 command
 success
 start_time
 end_time
 mach_context
+                     
 instance
 command_attrs
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Gather
 telemetry
@@ -2251,9 +2201,9 @@ s
 machines
 .
     
-"
-"
-"
+'
+'
+'
     
 try
 :
@@ -2277,9 +2227,9 @@ data
 =
 {
         
-"
+'
 client_id
-"
+'
 :
 get_client_id
 (
@@ -2288,9 +2238,9 @@ mach_context
 state_dir
 )
         
-"
+'
 time
-"
+'
 :
 datetime
 .
@@ -2301,7 +2251,7 @@ start_time
 .
 strftime
 (
-"
+'
 %
 Y
 -
@@ -2321,18 +2271,18 @@ S
 .
 %
 fZ
-"
+'
 )
         
-"
+'
 command
-"
+'
 :
 command
         
-"
+'
 argv
-"
+'
 :
 filter_args
 (
@@ -2343,15 +2293,15 @@ argv
 instance
 )
         
-"
+'
 success
-"
+'
 :
 success
         
-"
+'
 duration_ms
-"
+'
 :
 int
 (
@@ -2364,27 +2314,27 @@ start_time
 1000
 )
         
-"
+'
 build_opts
-"
+'
 :
 get_build_opts
 (
 substs
 )
         
-"
+'
 build_attrs
-"
+'
 :
 get_build_attrs
 (
 command_attrs
 )
         
-"
+'
 system
-"
+'
 :
 get_system_info
 (
@@ -2412,13 +2362,13 @@ exc
 msg
 =
 [
-"
+'
 Build
 telemetry
 is
 invalid
 :
-"
+'
 ]
         
 for
@@ -2441,20 +2391,20 @@ error
         
 print
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
 msg
 )
 +
-"
+'
 \
 n
-"
+'
 +
 pprint
 .
@@ -2473,9 +2423,9 @@ statedir
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Verifies
 the
@@ -2540,9 +2490,9 @@ telemetry
 /
 submitted
     
-"
-"
-"
+'
+'
+'
     
 telemetry_dir
 =
@@ -2553,9 +2503,9 @@ path
 join
 (
 statedir
-"
+'
 telemetry
-"
+'
 )
     
 outgoing
@@ -2567,9 +2517,9 @@ path
 join
 (
 telemetry_dir
-"
+'
 outgoing
-"
+'
 )
     
 submitted
@@ -2581,9 +2531,9 @@ path
 join
 (
 telemetry_dir
-"
+'
 submitted
-"
+'
 )
     
 telemetry_log
@@ -2595,11 +2545,11 @@ path
 join
 (
 telemetry_dir
-"
+'
 telemetry
 .
 log
-"
+'
 )
     
 if
@@ -2617,13 +2567,13 @@ telemetry_dir
 raise
 Exception
 (
-"
+'
 {
 }
 does
 not
 exist
-"
+'
 .
 format
 (
@@ -2646,13 +2596,13 @@ outgoing
 raise
 Exception
 (
-"
+'
 {
 }
 does
 not
 exist
-"
+'
 .
 format
 (

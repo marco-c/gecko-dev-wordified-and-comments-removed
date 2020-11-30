@@ -19,9 +19,9 @@ architecture_independent
 set
 (
 [
-"
+'
 generic
-"
+'
 ]
 )
 all_unsupported_architectures_names
@@ -29,15 +29,15 @@ all_unsupported_architectures_names
 set
 (
 [
-"
+'
 mips32
-"
-"
+'
+'
 mips64
-"
-"
+'
+'
 mips_shared
-"
+'
 ]
 )
 all_architecture_names
@@ -45,18 +45,18 @@ all_architecture_names
 set
 (
 [
-"
+'
 x86
-"
-"
+'
+'
 x64
-"
-"
+'
+'
 arm
-"
-"
+'
+'
 arm64
-"
+'
 ]
 )
 all_shared_architecture_names
@@ -64,15 +64,15 @@ all_shared_architecture_names
 set
 (
 [
-"
+'
 x86_shared
-"
-"
+'
+'
 arm
-"
-"
+'
+'
 arm64
-"
+'
 ]
 )
 reBeforeArg
@@ -171,6 +171,7 @@ reBeforeArg
 +
 reArgType
 +
+                        
 reArgName
 +
 reArgDefault
@@ -193,11 +194,11 @@ signature
 .
 replace
 (
-"
+'
 static
-"
-"
-"
+'
+'
+'
 )
     
 signature
@@ -206,11 +207,11 @@ signature
 .
 replace
 (
-"
+'
 ;
-"
-"
-"
+'
+'
+'
 )
     
 signature
@@ -220,13 +221,13 @@ re
 sub
 (
 r
-"
+'
 \
 s
 +
-"
-"
-"
+'
+'
+'
 signature
 )
 .
@@ -241,16 +242,16 @@ re
 sub
 (
 r
-"
+'
 \
 (
 \
 s
 +
-"
-"
+'
+'
 (
-"
+'
 signature
 )
 .
@@ -264,13 +265,13 @@ reMatchArg
 .
 sub
 (
-"
+'
 \
 g
 <
 type
 >
-"
+'
 signature
 )
     
@@ -280,21 +281,21 @@ signature
 .
 replace
 (
-"
+'
 MacroAssembler
 :
 :
-"
-"
-"
+'
+'
+'
 )
     
 archs
 =
 [
-"
+'
 generic
-"
+'
 ]
     
 if
@@ -306,17 +307,17 @@ archs
 [
 fileAnnot
 [
-"
+'
 arch
-"
+'
 ]
 ]
     
 if
-"
+'
 DEFINED_ON
 (
-"
+'
 in
 signature
 :
@@ -329,7 +330,7 @@ sub
 (
             
 r
-"
+'
 .
 *
 DEFINED_ON
@@ -352,22 +353,21 @@ archs
 )
 .
 *
-"
-"
+'
+'
 \
 g
 <
 archs
 >
-"
+'
 signature
-        
 )
 .
 split
 (
-"
-"
+'
+'
 )
         
 archs
@@ -391,7 +391,7 @@ re
 sub
 (
 r
-"
+'
 \
 s
 +
@@ -406,16 +406,16 @@ DEFINED_ON
 *
 \
 )
-"
-"
-"
+'
+'
+'
 signature
 )
     
 elif
-"
+'
 PER_ARCH
-"
+'
 in
 signature
 :
@@ -431,21 +431,21 @@ re
 sub
 (
 r
-"
+'
 \
 s
 +
 PER_ARCH
-"
-"
-"
+'
+'
+'
 signature
 )
     
 elif
-"
+'
 PER_SHARED_ARCH
-"
+'
 in
 signature
 :
@@ -461,21 +461,21 @@ re
 sub
 (
 r
-"
+'
 \
 s
 +
 PER_SHARED_ARCH
-"
-"
-"
+'
+'
+'
 signature
 )
     
 elif
-"
+'
 OOL_IN_HEADER
-"
+'
 in
 signature
 :
@@ -485,9 +485,9 @@ archs
 =
 =
 [
-"
+'
 generic
-"
+'
 ]
         
 signature
@@ -497,14 +497,14 @@ re
 sub
 (
 r
-"
+'
 \
 s
 +
 OOL_IN_HEADER
-"
-"
-"
+'
+'
+'
 signature
 )
     
@@ -525,15 +525,15 @@ inline
 =
 fileAnnot
 [
-"
+'
 inline
-"
+'
 ]
     
 if
-"
+'
 inline
-"
+'
 in
 signature
 :
@@ -545,14 +545,14 @@ re
 sub
 (
 r
-"
+'
 inline
 \
 s
 +
-"
-"
-"
+'
+'
+'
 signature
 )
         
@@ -562,8 +562,8 @@ True
     
 inlinePrefx
 =
-"
-"
+'
+'
     
 if
 inline
@@ -571,31 +571,34 @@ inline
         
 inlinePrefx
 =
-"
+'
 inline
-"
+'
     
 signatures
 =
 [
+        
 {
-"
+'
 arch
-"
+'
 :
 a
-"
+'
 sig
-"
+'
 :
 inlinePrefx
 +
 signature
 }
+        
 for
 a
 in
 archs
+    
 ]
     
 return
@@ -604,38 +607,35 @@ file_suffixes
 =
 set
 (
-    
 [
-        
+    
 a
 .
 replace
 (
-"
+'
 _
-"
-"
+'
+'
 -
-"
+'
 )
-        
 for
 a
 in
+    
 all_architecture_names
 .
 union
 (
 all_shared_architecture_names
 )
+                          
 .
 union
 (
-            
 all_unsupported_architectures_names
-        
 )
-    
 ]
 )
 def
@@ -655,9 +655,9 @@ filename
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -673,10 +673,10 @@ filename
 .
 endswith
 (
-"
+'
 .
 cpp
-"
+'
 )
 :
         
@@ -688,10 +688,10 @@ filename
 -
 len
 (
-"
+'
 .
 cpp
-"
+'
 )
 ]
     
@@ -700,12 +700,12 @@ filename
 .
 endswith
 (
-"
+'
 -
 inl
 .
 h
-"
+'
 )
 :
         
@@ -721,12 +721,12 @@ filename
 -
 len
 (
-"
+'
 -
 inl
 .
 h
-"
+'
 )
 ]
     
@@ -735,10 +735,10 @@ filename
 .
 endswith
 (
-"
+'
 .
 h
-"
+'
 )
 :
         
@@ -754,10 +754,10 @@ filename
 -
 len
 (
-"
+'
 .
 h
-"
+'
 )
 ]
     
@@ -767,19 +767,19 @@ else
 raise
 Exception
 (
-"
+'
 unknown
 file
 name
-"
+'
 origFilename
 )
     
 arch
 =
-"
+'
 generic
-"
+'
     
 for
 suffix
@@ -791,10 +791,10 @@ if
 filename
 =
 =
-"
+'
 MacroAssembler
 -
-"
+'
 +
 suffix
 :
@@ -807,26 +807,29 @@ break
     
 return
 {
-"
+        
+'
 inline
-"
+'
 :
 inline
-"
+        
+'
 arch
-"
+'
 :
 arch
 .
 replace
 (
-"
+'
 -
-"
-"
+'
+'
 _
-"
+'
 )
+    
 }
 def
 get_macroassembler_definitions
@@ -859,8 +862,8 @@ False
     
 lines
 =
-"
-"
+'
+'
     
 signatures
 =
@@ -883,14 +886,14 @@ f
 :
             
 if
-"
+'
 /
 /
 {
 {
 {
 check_macroassembler_style
-"
+'
 in
 line
 :
@@ -900,13 +903,13 @@ style_section
 :
                     
 raise
-"
+'
 check_macroassembler_style
 section
 already
 opened
 .
-"
+'
                 
 style_section
 =
@@ -917,14 +920,14 @@ braces_depth
 0
             
 elif
-"
+'
 /
 /
 }
 }
 }
 check_macroassembler_style
-"
+'
 in
 line
 :
@@ -945,9 +948,9 @@ line
 .
 startswith
 (
-"
+'
 #
-"
+'
 )
 :
                 
@@ -960,14 +963,14 @@ re
 sub
 (
 r
-"
+'
 /
 /
 .
 *
-"
-"
-"
+'
+'
+'
 line
 )
             
@@ -977,9 +980,9 @@ line
 .
 find
 (
-"
+'
 {
-"
+'
 )
             
 was_braces_depth
@@ -994,18 +997,18 @@ line
 .
 count
 (
-"
+'
 {
-"
+'
 )
 -
 line
 .
 count
 (
-"
+'
 }
-"
+'
 )
             
 if
@@ -1015,7 +1018,7 @@ braces_depth
 :
                 
 raise
-"
+'
 check_macroassembler_style
 annotations
 are
@@ -1023,7 +1026,7 @@ not
 well
 scoped
 .
-"
+'
             
 if
 open_curly_brace
@@ -1049,11 +1052,11 @@ open_curly_brace
 ]
                 
 if
-"
+'
 MacroAssembler
 :
 :
-"
+'
 in
 lines
 :
@@ -1062,6 +1065,7 @@ signatures
 .
 extend
 (
+                        
 get_normalized_signatures
 (
 lines
@@ -1071,8 +1075,8 @@ fileAnnot
                 
 lines
 =
-"
-"
+'
+'
                 
 continue
             
@@ -1099,9 +1103,9 @@ line
 .
 rfind
 (
-"
+'
 }
-"
+'
 )
 +
 1
@@ -1114,9 +1118,9 @@ line
 .
 rfind
 (
-"
+'
 ;
-"
+'
 )
             
 if
@@ -1129,8 +1133,8 @@ last_semi_colon
                 
 lines
 =
-"
-"
+'
+'
                 
 line
 =
@@ -1163,8 +1167,8 @@ False
     
 lines
 =
-"
-"
+'
+'
     
 signatures
 =
@@ -1187,14 +1191,14 @@ f
 :
             
 if
-"
+'
 /
 /
 {
 {
 {
 check_macroassembler_decl_style
-"
+'
 in
 line
 :
@@ -1204,14 +1208,14 @@ style_section
 True
             
 elif
-"
+'
 /
 /
 }
 }
 }
 check_macroassembler_decl_style
-"
+'
 in
 line
 :
@@ -1232,9 +1236,9 @@ line
 .
 startswith
 (
-"
+'
 #
-"
+'
 )
 :
                 
@@ -1247,14 +1251,14 @@ re
 sub
 (
 r
-"
+'
 /
 /
 .
 *
-"
-"
-"
+'
+'
+'
 line
 )
             
@@ -1271,25 +1275,25 @@ strip
 =
 0
 or
-"
+'
 public
 :
-"
+'
 in
 line
 or
-"
+'
 private
 :
-"
+'
 in
 line
 :
                 
 lines
 =
-"
-"
+'
+'
                 
 continue
             
@@ -1300,9 +1304,9 @@ lines
 line
             
 if
-"
+'
 ;
-"
+'
 not
 in
 lines
@@ -1311,9 +1315,9 @@ lines
 continue
             
 if
-"
+'
 )
-"
+'
 not
 in
 lines
@@ -1321,8 +1325,8 @@ lines
                 
 lines
 =
-"
-"
+'
+'
                 
 continue
             
@@ -1338,8 +1342,8 @@ lines
             
 lines
 =
-"
-"
+'
+'
     
 return
 signatures
@@ -1360,9 +1364,9 @@ sigs
 if
 s
 [
-"
+'
 sig
-"
+'
 ]
 not
 in
@@ -1373,9 +1377,9 @@ d
 [
 s
 [
-"
+'
 sig
-"
+'
 ]
 ]
 =
@@ -1386,9 +1390,9 @@ d
 [
 s
 [
-"
+'
 sig
-"
+'
 ]
 ]
 .
@@ -1396,9 +1400,9 @@ append
 (
 s
 [
-"
+'
 arch
-"
+'
 ]
 )
     
@@ -1468,11 +1472,11 @@ append
 (
 s
 +
-"
+'
 ;
 \
 n
-"
+'
 )
             
 if
@@ -1480,9 +1484,9 @@ s
 .
 startswith
 (
-"
+'
 inline
-"
+'
 )
 :
                 
@@ -1490,7 +1494,7 @@ output
 .
 append
 (
-"
+'
 is
 defined
 in
@@ -1501,7 +1505,7 @@ inl
 h
 \
 n
-"
+'
 )
             
 else
@@ -1511,7 +1515,7 @@ output
 .
 append
 (
-"
+'
 is
 defined
 in
@@ -1520,7 +1524,7 @@ MacroAssembler
 cpp
 \
 n
-"
+'
 )
         
 else
@@ -1547,12 +1551,12 @@ append
 (
 s
 +
-"
+'
 PER_ARCH
 ;
 \
 n
-"
+'
 )
             
 elif
@@ -1576,12 +1580,12 @@ append
 (
 s
 +
-"
+'
 PER_SHARED_ARCH
 ;
 \
 n
-"
+'
 )
             
 else
@@ -1591,15 +1595,16 @@ output
 .
 append
 (
+                    
 s
 +
-"
+'
 DEFINED_ON
 (
-"
+'
 +
-"
-"
+'
+'
 .
 join
 (
@@ -1609,12 +1614,12 @@ archs
 )
 )
 +
-"
+'
 )
 ;
 \
 n
-"
+'
 )
             
 for
@@ -1632,17 +1637,17 @@ a
 .
 replace
 (
-"
+'
 _
-"
-"
+'
+'
 -
-"
+'
 )
                 
 masm
 =
-"
+'
 %
 s
 /
@@ -1650,7 +1655,7 @@ MacroAssembler
 -
 %
 s
-"
+'
 %
 (
 a
@@ -1662,9 +1667,9 @@ s
 .
 startswith
 (
-"
+'
 inline
-"
+'
 )
 :
                     
@@ -1672,7 +1677,7 @@ output
 .
 append
 (
-"
+'
 is
 defined
 in
@@ -1684,7 +1689,7 @@ inl
 h
 \
 n
-"
+'
 %
 masm
 )
@@ -1696,7 +1701,7 @@ output
 .
 append
 (
-"
+'
 is
 defined
 in
@@ -1706,7 +1711,7 @@ s
 cpp
 \
 n
-"
+'
 %
 masm
 )
@@ -1739,15 +1744,15 @@ path
 .
 join
 (
-"
+'
 js
-"
-"
+'
+'
 src
-"
-"
+'
+'
 jit
-"
+'
 )
     
 for
@@ -1770,9 +1775,9 @@ filenames
 :
             
 if
-"
+'
 MacroAssembler
-"
+'
 not
 in
 filename
@@ -1794,13 +1799,13 @@ filename
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 /
-"
+'
 )
             
 if
@@ -1808,11 +1813,11 @@ filepath
 .
 endswith
 (
-"
+'
 MacroAssembler
 .
 h
-"
+'
 )
 :
                 
@@ -1826,13 +1831,13 @@ get_macroassembler_declaration
 (
 filepath
 )
-                
 )
             
 defs
 =
 append_signatures
 (
+                
 defs
 get_macroassembler_definitions
 (
@@ -1868,37 +1873,35 @@ difflib
 .
 unified_diff
 (
-        
 generate_file_content
 (
 decls
 )
-        
+                                     
 generate_file_content
 (
 defs
 )
-        
+                                     
 fromfile
 =
-"
+'
 check_macroassembler_style
 .
 py
 declared
 syntax
-"
-        
+'
+                                     
 tofile
 =
-"
+'
 check_macroassembler_style
 .
 py
 found
 definitions
-"
-    
+'
 )
     
 ok
@@ -1920,8 +1923,8 @@ print
 diffline
 end
 =
-"
-"
+'
+'
 )
     
 return
@@ -1944,7 +1947,7 @@ ok
         
 print
 (
-"
+'
 TEST
 -
 PASS
@@ -1954,7 +1957,7 @@ check_macroassembler_style
 py
 |
 ok
-"
+'
 )
     
 else
@@ -1962,8 +1965,7 @@ else
         
 print
 (
-            
-"
+'
 TEST
 -
 UNEXPECTED
@@ -1985,8 +1987,7 @@ output
 diff
 is
 above
-"
-        
+'
 )
     
 sys
@@ -2003,9 +2004,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

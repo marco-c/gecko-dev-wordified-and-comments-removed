@@ -293,7 +293,6 @@ config_options
 [
         
 [
-            
 [
 "
 -
@@ -301,9 +300,8 @@ config_options
 product
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -311,7 +309,7 @@ dest
 "
 product
 "
-                
+            
 "
 help
 "
@@ -333,13 +331,11 @@ Eg
 :
 firefox
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -349,9 +345,8 @@ stage
 product
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -359,7 +354,7 @@ dest
 "
 stage_product
 "
-                
+            
 "
 help
 "
@@ -377,7 +372,7 @@ and
 ship
 it
 "
-                
+                    
 "
 If
 not
@@ -393,13 +388,11 @@ as
 product
 .
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -409,9 +402,8 @@ app
 name
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -419,7 +411,7 @@ dest
 "
 app_name
 "
-                
+            
 "
 help
 "
@@ -434,13 +426,11 @@ Eg
 :
 browser
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -450,9 +440,8 @@ branch
 prefix
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -460,7 +449,7 @@ dest
 "
 branch_prefix
 "
-                
+            
 "
 help
 "
@@ -477,13 +466,11 @@ Eg
 mozilla
 comm
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -491,9 +478,8 @@ comm
 channel
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -501,7 +487,7 @@ dest
 "
 channel
 "
-                
+            
 "
 help
 "
@@ -514,13 +500,11 @@ update
 verify
 against
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -530,9 +514,8 @@ aus
 server
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -540,7 +523,7 @@ dest
 "
 aus_server
 "
-                
+            
 "
 default
 "
@@ -556,7 +539,7 @@ mozilla
 .
 org
 "
-                
+            
 "
 help
 "
@@ -570,13 +553,11 @@ update
 verify
 against
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -586,9 +567,8 @@ to
 version
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -596,7 +576,7 @@ dest
 "
 to_version
 "
-                
+            
 "
 help
 "
@@ -617,13 +597,11 @@ Eg
 .
 0b5
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -635,9 +613,8 @@ app
 version
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -645,7 +622,7 @@ dest
 "
 to_app_version
 "
-                
+            
 "
 help
 "
@@ -669,13 +646,11 @@ Eg
 .
 0
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -687,9 +662,8 @@ display
 version
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -697,7 +671,7 @@ dest
 "
 to_display_version
 "
-                
+            
 "
 help
 "
@@ -723,13 +697,11 @@ Eg
 Beta
 9
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -741,9 +713,8 @@ build
 number
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -751,7 +722,7 @@ dest
 "
 to_build_number
 "
-                
+            
 "
 help
 "
@@ -767,13 +738,11 @@ being
 updated
 to
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -783,9 +752,8 @@ to
 buildid
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -793,7 +761,7 @@ dest
 "
 to_buildid
 "
-                
+            
 "
 help
 "
@@ -808,13 +776,11 @@ being
 updated
 to
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -824,9 +790,8 @@ to
 revision
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -834,7 +799,7 @@ dest
 "
 to_revision
 "
-                
+            
 "
 help
 "
@@ -852,13 +817,11 @@ was
 built
 against
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -868,9 +831,8 @@ partial
 version
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -878,14 +840,14 @@ dest
 "
 partial_versions
 "
-                
+            
 "
 default
 "
 :
 [
 ]
-                
+            
 "
 action
 "
@@ -893,7 +855,7 @@ action
 "
 append
 "
-                
+            
 "
 help
 "
@@ -913,7 +875,7 @@ partial
 update
 .
 "
-                
+                    
 "
 Eg
 :
@@ -928,13 +890,11 @@ multiple
 times
 .
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -944,9 +904,8 @@ last
 watershed
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -954,7 +913,7 @@ dest
 "
 last_watershed
 "
-                
+            
 "
 help
 "
@@ -977,13 +936,11 @@ Eg
 .
 0b10
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -993,9 +950,8 @@ include
 version
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -1003,14 +959,14 @@ dest
 "
 include_versions
 "
-                
+            
 "
 default
 "
 :
 [
 ]
-                
+            
 "
 action
 "
@@ -1018,7 +974,7 @@ action
 "
 append
 "
-                
+            
 "
 help
 "
@@ -1035,7 +991,7 @@ these
 regexes
 .
 "
-                
+                    
 "
 May
 be
@@ -1043,13 +999,11 @@ passed
 multiple
 times
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -1063,9 +1017,8 @@ id
 override
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -1073,14 +1026,14 @@ dest
 "
 mar_channel_id_options
 "
-                
+            
 "
 default
 "
 :
 [
 ]
-                
+            
 "
 action
 "
@@ -1088,7 +1041,7 @@ action
 "
 append
 "
-                
+            
 "
 help
 "
@@ -1108,7 +1061,7 @@ versions
 with
 .
 "
-                
+                    
 "
 Eg
 :
@@ -1145,7 +1098,7 @@ mozilla
 -
 release
 "
-                
+                    
 "
 will
 set
@@ -1163,7 +1116,7 @@ beta
 '
 and
 "
-                
+                    
 "
 '
 firefox
@@ -1184,7 +1137,7 @@ z
 versions
 .
 "
-                
+                    
 "
 May
 be
@@ -1192,13 +1145,11 @@ passed
 multiple
 times
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -1208,9 +1159,8 @@ override
 certs
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -1218,13 +1168,13 @@ dest
 "
 override_certs
 "
-                
+            
 "
 default
 "
 :
 None
-                
+            
 "
 help
 "
@@ -1243,7 +1193,7 @@ update
 verify
 .
 "
-                
+                    
 "
 If
 passed
@@ -1256,7 +1206,7 @@ dep
 nightly
 release
 "
-                
+                    
 "
 If
 not
@@ -1268,13 +1218,11 @@ will
 be
 configured
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -1282,9 +1230,8 @@ configured
 platform
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -1292,7 +1239,7 @@ dest
 "
 platform
 "
-                
+            
 "
 help
 "
@@ -1312,13 +1259,11 @@ FTP
 -
 style
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -1328,9 +1273,8 @@ updater
 platform
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -1338,7 +1282,7 @@ dest
 "
 updater_platform
 "
-                
+            
 "
 help
 "
@@ -1357,7 +1301,7 @@ FTP
 style
 .
 "
-                
+                    
 "
 If
 not
@@ -1372,13 +1316,11 @@ same
 as
 platform
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -1388,9 +1330,8 @@ archive
 prefix
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -1398,7 +1339,7 @@ dest
 "
 archive_prefix
 "
-                
+            
 "
 help
 "
@@ -1416,7 +1357,7 @@ release
 from
 .
 "
-                
+                    
 "
 Eg
 :
@@ -1432,13 +1373,11 @@ org
 /
 pub
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -1450,9 +1389,8 @@ archive
 prefix
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -1460,7 +1398,7 @@ dest
 "
 previous_archive_prefix
 "
-                
+            
 "
 help
 "
@@ -1477,7 +1415,7 @@ previous
 releases
 from
 "
-                
+                    
 "
 If
 not
@@ -1496,13 +1434,11 @@ archive
 -
 prefix
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -1512,9 +1448,8 @@ repo
 path
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -1522,13 +1457,11 @@ dest
 "
 repo_path
 "
-                
+            
 "
 help
 "
 :
-(
-                    
 "
 The
 repository
@@ -1543,11 +1476,11 @@ root
 that
 the
 current
+release
+was
 "
                     
 "
-release
-was
 built
 from
 Eg
@@ -1558,15 +1491,11 @@ mozilla
 -
 beta
 "
-                
-)
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -1576,9 +1505,8 @@ output
 file
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -1586,7 +1514,7 @@ dest
 "
 output_file
 "
-                
+            
 "
 help
 "
@@ -1601,13 +1529,11 @@ verify
 config
 to
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -1619,9 +1545,8 @@ details
 server
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -1629,7 +1554,7 @@ dest
 "
 product_details_server
 "
-                
+            
 "
 default
 "
@@ -1647,7 +1572,7 @@ mozilla
 .
 org
 "
-                
+            
 "
 help
 "
@@ -1664,7 +1589,7 @@ info
 from
 .
 "
-                
+                    
 "
 Using
 anything
@@ -1677,7 +1602,7 @@ is
 likely
 to
 "
-                
+                    
 "
 cause
 issues
@@ -1686,13 +1611,11 @@ update
 verify
 .
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -1702,9 +1625,8 @@ hg
 server
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -1712,7 +1634,7 @@ dest
 "
 hg_server
 "
-                
+            
 "
 default
 "
@@ -1728,7 +1650,7 @@ mozilla
 .
 org
 "
-                
+            
 "
 help
 "
@@ -1746,13 +1668,11 @@ version
 info
 from
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -1764,9 +1684,8 @@ check
 locale
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -1774,7 +1693,7 @@ dest
 "
 full_check_locales
 "
-                
+            
 "
 default
 "
@@ -1792,7 +1711,7 @@ US
 ru
 "
 ]
-                
+            
 "
 action
 "
@@ -1800,7 +1719,7 @@ action
 "
 append
 "
-                
+            
 "
 help
 "
@@ -1818,9 +1737,8 @@ verify
 checks
 for
 "
-            
-}
         
+}
 ]
     
 ]
@@ -2361,9 +2279,10 @@ for
 release_name
 release_info
 in
+\
+            
 reversed
 (
-            
 sorted
 (
 releases
@@ -2371,6 +2290,7 @@ releases
 items
 (
 )
+                            
 key
 =
 lambda
@@ -2383,13 +2303,12 @@ x
 1
 ]
 [
-"
+'
 version
-"
+'
 ]
 )
 )
-        
 )
 :
             
@@ -2400,9 +2319,9 @@ release_name
 .
 split
 (
-"
+'
 -
-"
+'
 1
 )
             
@@ -2469,7 +2388,6 @@ self
 .
 log
 (
-                    
 "
 Skipping
 release
@@ -2481,7 +2399,7 @@ t
 match
 any
 "
-                    
+                         
 "
 include_version
 pattern
@@ -2491,11 +2409,10 @@ s
 "
 %
 release_name
-                    
+                         
 level
 =
 INFO
-                
 )
                 
 continue
@@ -2518,7 +2435,6 @@ self
 .
 log
 (
-                    
 "
 Skipping
 release
@@ -2533,14 +2449,12 @@ name
 %
 s
 "
-                    
 %
 release_name
-                    
+                         
 level
 =
 INFO
-                
 )
                 
 continue
@@ -2568,7 +2482,6 @@ self
 .
 log
 (
-                    
 "
 Skipping
 release
@@ -2583,14 +2496,12 @@ watershed
 %
 s
 "
-                    
 %
 release_name
-                    
+                         
 level
 =
 INFO
-                
 )
                 
 continue
@@ -2613,7 +2524,6 @@ self
 .
 log
 (
-                    
 "
 Skipping
 release
@@ -2628,14 +2538,12 @@ version
 %
 s
 "
-                    
 %
 release_name
-                    
+                         
 level
 =
 INFO
-                
 )
                 
 continue
@@ -2663,7 +2571,6 @@ self
 .
 log
 (
-                    
 "
 Skipping
 release
@@ -2680,11 +2587,10 @@ s
 "
 %
 release_name
-                    
+                         
 level
 =
 INFO
-                
 )
                 
 continue
@@ -2781,7 +2687,6 @@ self
 .
 log
 (
-                
 "
 Retrieving
 buildid
@@ -2797,7 +2702,6 @@ info_file_url
 level
 =
 DEBUG
-            
 )
             
 ret
@@ -3006,8 +2910,6 @@ app_name
             
 app_version
 =
-(
-                
 self
 .
 _retry_download
@@ -3017,17 +2919,16 @@ app_version_url
 WARNING
 "
 )
-                
 .
 read
 (
 )
+\
                 
 .
 strip
 (
 )
-                
 .
 decode
 (
@@ -3036,8 +2937,6 @@ utf
 -
 8
 "
-)
-            
 )
             
 self
@@ -3110,11 +3009,9 @@ self
 .
 config
 [
-                
 "
 mar_channel_id_overrides
 "
-            
 ]
 .
 items
@@ -3205,6 +3102,8 @@ DEBUG
 )
         
 elif
+(
+            
 GeckoVersion
 .
 parse
@@ -3218,13 +3117,13 @@ to_version
 "
 ]
 )
+            
 <
 =
 GeckoVersion
 .
 parse
 (
-            
 self
 .
 config
@@ -3233,6 +3132,7 @@ config
 last_watershed
 "
 ]
+)
         
 )
 :
@@ -3276,18 +3176,18 @@ self
 .
 config
 [
-"
+'
 to_version
-"
+'
 ]
                     
 self
 .
 config
 [
-"
+'
 last_watershed
-"
+'
 ]
                 
 )
@@ -3354,15 +3254,9 @@ mozrelease
 .
 paths
 import
-(
-            
 getCandidatesDir
-            
 getReleasesDir
-            
 getReleaseInstallerPath
-        
-)
         
 from
 mozrelease
@@ -3384,7 +3278,6 @@ config
 stage_product
 "
 ]
-            
 self
 .
 config
@@ -3418,7 +3311,6 @@ config
 product
 "
 ]
-            
 self
 .
 config
@@ -3440,7 +3332,6 @@ config
 to_version
 "
 ]
-            
 self
 .
 config
@@ -3529,7 +3420,6 @@ product
 title
 (
 )
-            
 channel
 =
 self
@@ -3551,7 +3441,6 @@ config
 aus_server
 "
 ]
-            
 to
 =
 to_path
@@ -3668,8 +3557,6 @@ app_name
         
 to_shipped_locales
 =
-(
-            
 self
 .
 _retry_download
@@ -3679,17 +3566,16 @@ to_shipped_locales_url
 WARNING
 "
 )
+\
             
 .
 read
 (
 )
-            
 .
 strip
 (
 )
-            
 .
 decode
 (
@@ -3700,13 +3586,10 @@ utf
 "
 )
         
-)
-        
 to_locales
 =
 set
 (
-            
 getPlatformLocales
 (
 to_shipped_locales
@@ -3719,7 +3602,6 @@ platform
 "
 ]
 )
-        
 )
         
 completes_only_index
@@ -3799,9 +3681,9 @@ from_
 .
 get
 (
-"
+'
 marChannelIds
-"
+'
 )
             
 if
@@ -3824,11 +3706,11 @@ win64
 "
 )
 or
+\
+                    
 LooseVersion
 (
-                
 fromVersion
-            
 )
 <
 LooseVersion
@@ -3882,6 +3764,7 @@ release_dir
 =
 getReleasesDir
 (
+                
 self
 .
 config
@@ -3891,6 +3774,7 @@ stage_product
 "
 ]
 fromVersion
+            
 )
             
 path_
@@ -3906,7 +3790,6 @@ config
 product
 "
 ]
-                
 self
 .
 config
@@ -3921,7 +3804,6 @@ title
 )
                 
 fromVersion
-                
 self
 .
 config
@@ -3930,7 +3812,6 @@ config
 platform
 "
 ]
-                
 locale
 =
 "
@@ -3983,7 +3864,6 @@ config
 product
 "
 ]
-                    
 self
 .
 config
@@ -3998,7 +3878,6 @@ title
 )
                     
 fromVersion
-                    
 self
 .
 config
@@ -4023,12 +3902,12 @@ locale
 quick_check_locales
 =
 [
-                
 l
 for
 l
 in
 locales
+                                   
 if
 l
 not
@@ -4041,13 +3920,11 @@ config
 full_check_locales
 "
 ]
-            
 ]
             
 this_full_check_locales
 =
 [
-                
 l
 for
 l
@@ -4060,11 +3937,11 @@ config
 full_check_locales
 "
 ]
+                                       
 if
 l
 in
 locales
-            
 ]
             
 if
@@ -4084,7 +3961,6 @@ self
 .
 info
 (
-                    
 "
 Generating
 configs
@@ -4098,7 +3974,6 @@ s
 "
 %
 fromVersion
-                
 )
                 
 self
@@ -4111,11 +3986,9 @@ addRelease
 release
 =
 appVersion
-                    
 build_id
 =
 build_id
-                    
 locales
 =
 locales
@@ -4130,7 +4003,6 @@ complete
 partial
 "
 ]
-                    
 from_path
 =
 from_path
@@ -4160,7 +4032,6 @@ archive_prefix
 mar_channel_IDs
 =
 mar_channel_IDs
-                    
 platform
 =
 update_platform
@@ -4210,11 +4081,9 @@ addRelease
 release
 =
 appVersion
-                        
 build_id
 =
 build_id
-                        
 locales
 =
 this_full_check_locales
@@ -4248,7 +4117,6 @@ archive_prefix
 mar_channel_IDs
 =
 mar_channel_IDs
-                        
 platform
 =
 update_platform
@@ -4314,7 +4182,6 @@ addRelease
 release
 =
 appVersion
-                        
 build_id
 =
 build_id
@@ -4322,7 +4189,6 @@ build_id
 locales
 =
 _locales
-                        
 platform
 =
 update_platform
