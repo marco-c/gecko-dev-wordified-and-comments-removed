@@ -2087,6 +2087,7 @@ getTestState
 (
 )
 ;
+await
 page
 .
 evaluate
