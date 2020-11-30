@@ -322,7 +322,7 @@ aRecorder
 {
 dt
 =
-CreateWrapAndRecordDrawTarget
+CreateRecordingDrawTarget
 (
 aRecorder
 dt
@@ -647,7 +647,7 @@ DrawTarget
 PrintTarget
 :
 :
-CreateWrapAndRecordDrawTarget
+CreateRecordingDrawTarget
 (
 DrawEventRecorder
 *

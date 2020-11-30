@@ -196,7 +196,7 @@ aRecorder
 {
 dt
 =
-CreateWrapAndRecordDrawTarget
+CreateRecordingDrawTarget
 (
 aRecorder
 dt
