@@ -2776,10 +2776,8 @@ return
 true
 ;
 }
+static
 bool
-js
-:
-:
 num_parseInt
 (
 JSContext
