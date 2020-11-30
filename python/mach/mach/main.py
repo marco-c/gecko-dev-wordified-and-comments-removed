@@ -2767,8 +2767,6 @@ e
 print
 (
 e
-.
-message
 )
             
 return
