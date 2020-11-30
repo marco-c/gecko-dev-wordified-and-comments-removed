@@ -380,7 +380,7 @@ NS_FRAME_IS_DIRTY
 return
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 aContainer
 -
@@ -419,6 +419,9 @@ that
 is
 not
 NS_FRAME_IS_NONDISPLAY
+or
+not
+SVG
 "
 )
 ;
@@ -1570,7 +1573,7 @@ kid
 }
 else
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 kid
 -
@@ -1578,6 +1581,19 @@ kid
 HasAnyStateBits
 (
 NS_FRAME_IS_NONDISPLAY
+)
+|
+|
+!
+kid
+-
+>
+IsFrameOfType
+(
+nsIFrame
+:
+:
+eSVG
 )
 "
 expected
@@ -1587,6 +1603,9 @@ be
 a
 NS_FRAME_IS_NONDISPLAY
 frame
+or
+not
+SVG
 "
 )
 ;
