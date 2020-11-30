@@ -883,6 +883,15 @@ const
 0
 ;
 virtual
+bool
+HasScrollUpdates
+(
+)
+const
+=
+0
+;
+virtual
 void
 ResetScrollInfoIfNeeded
 (
