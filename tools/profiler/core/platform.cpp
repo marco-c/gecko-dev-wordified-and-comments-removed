@@ -787,13 +787,8 @@ prof
 "
 )
 ;
-const
 int
 scProfilerMainThreadId
-=
-profiler_current_thread_id
-(
-)
 ;
 #
 if
@@ -17221,6 +17216,12 @@ LOG
 "
 profiler_init
 "
+)
+;
+scProfilerMainThreadId
+=
+profiler_current_thread_id
+(
 )
 ;
 VTUNE_INIT

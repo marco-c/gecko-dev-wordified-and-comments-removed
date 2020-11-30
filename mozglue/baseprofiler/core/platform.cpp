@@ -663,13 +663,8 @@ args
 )
 ;
 }
-const
 int
 scProfilerMainThreadId
-=
-profiler_current_thread_id
-(
-)
 ;
 constexpr
 static
@@ -11359,6 +11354,12 @@ LOG
 "
 profiler_init
 "
+)
+;
+scProfilerMainThreadId
+=
+profiler_current_thread_id
+(
 )
 ;
 VTUNE_INIT

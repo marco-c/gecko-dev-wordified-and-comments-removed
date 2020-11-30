@@ -2211,7 +2211,6 @@ profiler_current_thread_id
 )
 ;
 extern
-const
 int
 scProfilerMainThreadId
 ;

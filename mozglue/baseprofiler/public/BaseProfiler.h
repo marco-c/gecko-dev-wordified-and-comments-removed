@@ -1597,7 +1597,6 @@ profiler_current_thread_id
 ;
 extern
 MFBT_DATA
-const
 int
 scProfilerMainThreadId
 ;
