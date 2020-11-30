@@ -1577,6 +1577,11 @@ testTables
 storageItemsForDefault
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

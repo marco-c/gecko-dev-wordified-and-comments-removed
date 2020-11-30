@@ -212,6 +212,11 @@ Strict
 "
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

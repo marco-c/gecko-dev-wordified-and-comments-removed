@@ -330,6 +330,11 @@ testDescriptions
 (
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

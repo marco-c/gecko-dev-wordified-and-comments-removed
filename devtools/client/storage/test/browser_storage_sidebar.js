@@ -479,6 +479,11 @@ repeat
 )
 ;
 }
+await
+finishTests
+(
+)
+;
 }
 )
 ;

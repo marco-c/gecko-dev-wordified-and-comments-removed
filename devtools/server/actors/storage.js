@@ -566,12 +566,6 @@ Map
 (
 )
 ;
-exports
-.
-storageTypePool
-=
-storageTypePool
-;
 function
 sleep
 (

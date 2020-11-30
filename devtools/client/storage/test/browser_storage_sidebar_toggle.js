@@ -244,6 +244,11 @@ repeat
 )
 ;
 }
+await
+finishTests
+(
+)
+;
 }
 )
 ;

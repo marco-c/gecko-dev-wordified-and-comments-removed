@@ -84,6 +84,11 @@ i
 )
 ;
 }
+await
+finishTests
+(
+)
+;
 }
 )
 ;

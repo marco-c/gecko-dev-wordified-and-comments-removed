@@ -134,6 +134,11 @@ runTests
 (
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

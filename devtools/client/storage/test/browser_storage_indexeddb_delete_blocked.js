@@ -377,6 +377,11 @@ delete
 "
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

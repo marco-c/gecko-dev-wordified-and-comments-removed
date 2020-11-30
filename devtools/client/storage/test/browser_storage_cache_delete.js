@@ -308,6 +308,11 @@ tree
 "
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

@@ -173,12 +173,6 @@ storageType
 ;
 storage
 .
-resourceKey
-=
-storageKey
-;
-storage
-.
 resourceId
 =
 storageType
@@ -230,9 +224,6 @@ storageType
 resourceType
 :
 storageType
-resourceKey
-:
-storageKey
 changed
 :
 response

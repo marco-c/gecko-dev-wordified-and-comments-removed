@@ -705,6 +705,11 @@ plop
 ]
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

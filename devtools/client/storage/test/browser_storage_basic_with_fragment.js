@@ -1099,6 +1099,11 @@ testTables
 (
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

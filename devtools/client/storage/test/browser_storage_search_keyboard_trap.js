@@ -79,6 +79,11 @@ searchbox
 "
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

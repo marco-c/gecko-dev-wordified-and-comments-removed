@@ -123,6 +123,11 @@ cell
 "
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

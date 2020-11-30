@@ -85,13 +85,4 @@ db
 .
 js
 '
-'
-storage
--
-local
--
-storage
-.
-js
-'
 )

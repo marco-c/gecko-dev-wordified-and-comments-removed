@@ -226,6 +226,11 @@ ITEM_NAME
 '
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

@@ -387,6 +387,11 @@ testTables
 (
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

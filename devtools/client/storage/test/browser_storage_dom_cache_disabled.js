@@ -248,6 +248,11 @@ checkState
 state
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

@@ -129,6 +129,11 @@ persistent
 ]
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

@@ -1049,6 +1049,11 @@ testTables
 testCasesUserContextId
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

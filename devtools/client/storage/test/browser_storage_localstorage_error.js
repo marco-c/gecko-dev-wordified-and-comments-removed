@@ -89,6 +89,11 @@ tree
 )
 ;
 }
+await
+finishTests
+(
+)
+;
 }
 )
 ;

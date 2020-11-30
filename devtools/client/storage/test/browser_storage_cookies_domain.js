@@ -139,6 +139,11 @@ browser
 ]
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

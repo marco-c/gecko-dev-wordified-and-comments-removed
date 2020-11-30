@@ -77,6 +77,11 @@ closeToolbox
 target
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

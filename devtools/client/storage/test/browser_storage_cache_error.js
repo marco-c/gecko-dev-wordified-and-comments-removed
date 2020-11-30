@@ -160,6 +160,11 @@ closeWindow
 win
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

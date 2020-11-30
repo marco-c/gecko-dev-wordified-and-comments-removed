@@ -311,6 +311,11 @@ default
 ]
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

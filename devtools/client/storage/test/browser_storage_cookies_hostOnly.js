@@ -136,6 +136,11 @@ false
 "
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;
