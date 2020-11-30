@@ -15129,7 +15129,14 @@ break
 ;
 default
 :
-break
+MOZ_ASSERT_UNREACHABLE
+(
+"
+Unexpected
+JS_TELEMETRY
+id
+"
+)
 ;
 }
 }
