@@ -37,8 +37,10 @@ class
 ServiceWorkerProxy
 final
 {
+RefPtr
+<
 ServiceWorkerParent
-*
+>
 mActor
 ;
 nsCOMPtr

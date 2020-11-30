@@ -288,10 +288,6 @@ ServiceWorkerDescriptor
 aDescriptor
 )
 :
-mActor
-(
-nullptr
-)
 mEventTarget
 (
 GetCurrentSerialEventTarget

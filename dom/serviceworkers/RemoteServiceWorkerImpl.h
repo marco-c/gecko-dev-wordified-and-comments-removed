@@ -30,8 +30,10 @@ ServiceWorker
 :
 Inner
 {
+RefPtr
+<
 ServiceWorkerChild
-*
+>
 mActor
 ;
 ServiceWorker
