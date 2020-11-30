@@ -386,7 +386,7 @@ printInfo
 settings
 -
 >
-CreatePrintInfo
+CreateOrCopyPrintInfo
 (
 )
 ;

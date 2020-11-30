@@ -246,7 +246,7 @@ printInfo
 settingsX
 -
 >
-CreatePrintInfo
+CreateOrCopyPrintInfo
 (
 true
 )
@@ -530,6 +530,7 @@ settingsX
 SetFromPrintInfo
 (
 result
+true
 )
 ;
 if
@@ -643,7 +644,7 @@ printInfo
 settingsX
 -
 >
-CreatePrintInfo
+CreateOrCopyPrintInfo
 (
 true
 )
@@ -713,6 +714,7 @@ settingsX
 SetFromPrintInfo
 (
 printInfo
+false
 )
 ;
 nsCOMPtr
