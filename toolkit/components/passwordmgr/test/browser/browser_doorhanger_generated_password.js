@@ -1249,11 +1249,6 @@ submit
 (
 )
 ;
-let
-win
-=
-content
-;
 await
 ContentTaskUtils
 .
@@ -1266,7 +1261,7 @@ waitForCondition
 {
 return
 (
-win
+content
 .
 location
 .
@@ -1278,7 +1273,7 @@ pathname
 "
 &
 &
-win
+content
 .
 document
 .

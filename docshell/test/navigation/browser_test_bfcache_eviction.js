@@ -193,6 +193,11 @@ removeSHistoryListener
 historyListener
 )
 ;
+delete
+content
+.
+_testListener
+;
 resolve
 (
 )
