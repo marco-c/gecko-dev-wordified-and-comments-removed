@@ -97,13 +97,6 @@ CompiledModules
 '
 main
 .
-development
-.
-js
-'
-'
-main
-.
 js
 '
 '
