@@ -1580,6 +1580,7 @@ node
 waiting
 =
 [
+        
 node
 for
 node
@@ -1604,6 +1605,7 @@ node
 =
 =
 0
+    
 ]
     
 nodes
@@ -1965,12 +1967,10 @@ last
 ]
 |
 =
-(
 1
 <
 <
 7
-)
     
 buf
 .
@@ -2096,7 +2096,6 @@ byte
 >
 0x80
 .
-    
 "
 "
 "
@@ -2114,12 +2113,10 @@ buf
 ]
 |
 =
-(
 1
 <
 <
 7
-)
     
 return
 buf
@@ -2171,6 +2168,7 @@ dafsa
         
 if
 (
+            
 len
 (
 node
@@ -2180,6 +2178,7 @@ children
 =
 =
 1
+            
 and
 not
 next
@@ -2197,8 +2196,8 @@ values
 )
 .
 is_end_node
+            
 and
-                
 (
 offsets
 [
@@ -2226,6 +2225,7 @@ len
 output
 )
 )
+        
 )
 :
             
@@ -2340,7 +2340,7 @@ bytes
     
 text
 =
-'
+"
 /
 *
 This
@@ -2356,12 +2356,12 @@ EDIT
 n
 \
 n
-'
+"
     
 text
 +
 =
-'
+"
 The
 byte
 array
@@ -2374,31 +2374,31 @@ and
 values
 .
 See
-'
+"
     
 text
 +
 =
-'
+"
 make_dafsa
 .
 py
 for
 documentation
 .
-'
+"
     
 text
 +
 =
-'
+"
 *
 /
 \
 n
 \
 n
-'
+"
     
 if
 preamble
@@ -2412,17 +2412,17 @@ preamble
 text
 +
 =
-'
+"
 \
 n
 \
 n
-'
+"
     
 text
 +
 =
-'
+"
 const
 unsigned
 char
@@ -2435,7 +2435,7 @@ s
 {
 \
 n
-'
+"
 %
 len
 (
@@ -2459,22 +2459,22 @@ data
 text
 +
 =
-'
-'
+"
+"
         
 text
 +
 =
-'
-'
+"
+"
 .
 join
 (
-'
+"
 0x
 %
 02x
-'
+"
 %
 byte
 for
@@ -2493,20 +2493,20 @@ i
 text
 +
 =
-'
+"
 \
 n
-'
+"
     
 text
 +
 =
-'
+"
 }
 ;
 \
 n
-'
+"
     
 return
 text
@@ -2595,10 +2595,10 @@ struct
 .
 pack
 (
-'
+"
 %
 dB
-'
+"
 %
 len
 (
@@ -2650,18 +2650,18 @@ lines
 .
 index
 (
-'
+"
 %
 %
-'
+"
 )
     
 preamble
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -2685,10 +2685,10 @@ lines
 .
 index
 (
-'
+"
 %
 %
-'
+"
 begin
 )
     
@@ -2718,8 +2718,8 @@ line
 ]
 !
 =
-'
-'
+"
+"
 :
             
 raise
@@ -2751,14 +2751,15 @@ line
 ]
 not
 in
-'
+"
 0124
-'
+"
 :
             
 raise
 InputError
 (
+                
 '
 Expected
 value
@@ -2779,12 +2780,12 @@ s
 "
 '
 %
-                             
 line
 [
 -
 1
 ]
+            
 )
     
 return
@@ -2821,9 +2822,9 @@ with
 open
 (
 infile
-'
+"
 r
-'
+"
 )
 as
 infile
@@ -2854,9 +2855,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 if
@@ -2873,14 +2874,14 @@ argv
         
 print
 (
-'
+"
 usage
 :
 %
 s
 infile
 outfile
-'
+"
 %
 sys
 .
@@ -2906,9 +2907,9 @@ argv
 [
 2
 ]
-'
+"
 w
-'
+"
 )
 as
 outfile

@@ -126,12 +126,12 @@ line
 .
 startswith
 (
-'
+"
 CLASS
 -
 DEF
 :
-'
+"
 )
 :
             
@@ -188,13 +188,13 @@ stdout
 .
 write
 (
-'
+"
 digraph
 g
 {
 \
 n
-'
+"
 )
 for
 olist
@@ -226,9 +226,9 @@ stdout
 .
 write
 (
-'
+"
 }
 \
 n
-'
+"
 )

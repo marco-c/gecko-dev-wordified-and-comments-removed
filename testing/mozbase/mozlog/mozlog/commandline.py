@@ -34,21 +34,22 @@ log_formatters
 =
 {
     
-'
+"
 raw
-'
+"
 :
 (
+        
 formatters
 .
 JSONFormatter
+        
 "
 Raw
 structured
 log
 messages
 "
-                                      
 "
 (
 provided
@@ -56,22 +57,24 @@ by
 mozlog
 )
 "
+    
 )
     
-'
+"
 unittest
-'
+"
 :
 (
+        
 formatters
 .
 UnittestFormatter
+        
 "
 Unittest
 style
 output
 "
-                                               
 "
 (
 provided
@@ -79,11 +82,12 @@ by
 mozlog
 )
 "
+    
 )
     
-'
+"
 xunit
-'
+"
 :
 (
 formatters
@@ -94,7 +98,6 @@ xUnit
 compatible
 XML
 "
-                                         
 "
 (
 povided
@@ -104,9 +107,9 @@ mozlog
 "
 )
     
-'
+"
 html
-'
+"
 :
 (
 formatters
@@ -116,7 +119,6 @@ HTMLFormatter
 HTML
 report
 "
-                                       
 "
 (
 provided
@@ -126,9 +128,9 @@ mozlog
 "
 )
     
-'
+"
 mach
-'
+"
 :
 (
 formatters
@@ -140,7 +142,6 @@ Human
 readable
 output
 "
-                                       
 "
 (
 provided
@@ -150,9 +151,9 @@ mozlog
 "
 )
     
-'
+"
 tbpl
-'
+"
 :
 (
 formatters
@@ -164,7 +165,6 @@ style
 log
 format
 "
-                                       
 "
 (
 provided
@@ -174,14 +174,16 @@ mozlog
 "
 )
     
-'
+"
 grouped
-'
+"
 :
 (
+        
 formatters
 .
 GroupingFormatter
+        
 "
 Grouped
 summary
@@ -189,7 +191,6 @@ of
 test
 results
 "
-                                              
 "
 (
 provided
@@ -197,11 +198,12 @@ by
 mozlog
 )
 "
+    
 )
     
-'
+"
 errorsummary
-'
+"
 :
 (
 formatters
@@ -215,12 +217,12 @@ SUPPRESS
 TEXT_FORMATTERS
 =
 (
-'
+"
 raw
-'
-'
+"
+"
 mach
-'
+"
 )
 "
 "
@@ -389,13 +391,11 @@ overrides
 formatter_option_defaults
 =
 {
-        
 "
 raw
 "
 :
 {
-            
 "
 level
 "
@@ -403,9 +403,7 @@ level
 "
 debug
 "
-        
 }
-    
 }
     
 rv
@@ -416,7 +414,6 @@ verbose
 "
 :
 False
-          
 "
 level
 "
@@ -460,13 +457,14 @@ fmt_options
 =
 {
     
-'
+"
 verbose
-'
+"
 :
 (
+        
 verbose_wrapper
-                
+        
 "
 Enables
 verbose
@@ -477,24 +475,27 @@ given
 formatter
 .
 "
-                
+        
 {
 "
 mach
 "
 }
+        
 "
 store_true
 "
+    
 )
     
-'
+"
 compact
-'
+"
 :
 (
+        
 compact_wrapper
-                
+        
 "
 Enables
 compact
@@ -505,24 +506,27 @@ given
 formatter
 .
 "
-                
+        
 {
 "
 tbpl
 "
 }
+        
 "
 store_true
 "
+    
 )
     
-'
+"
 level
-'
+"
 :
 (
+        
 level_filter_wrapper
-              
+        
 "
 A
 least
@@ -536,7 +540,7 @@ the
 given
 formatter
 "
-              
+        
 "
 (
 debug
@@ -546,7 +550,7 @@ etc
 .
 )
 "
-              
+        
 {
 "
 mach
@@ -558,18 +562,21 @@ raw
 tbpl
 "
 }
+        
 "
 store
 "
+    
 )
     
-'
+"
 buffer
-'
+"
 :
 (
+        
 buffer_handler_wrapper
-               
+        
 "
 If
 specified
@@ -584,7 +591,7 @@ size
 limit
 .
 "
-               
+        
 [
 "
 mach
@@ -593,18 +600,21 @@ mach
 tbpl
 "
 ]
+        
 "
 store
 "
+    
 )
     
-'
+"
 screenshot
-'
+"
 :
 (
+        
 screenshot_wrapper
-                   
+        
 "
 Enable
 logging
@@ -616,26 +626,29 @@ screenshot
 data
 .
 "
-                   
+        
 {
 "
 mach
 "
 }
+        
 "
 store_true
 "
+    
 )
     
-'
+"
 no
 -
 screenshot
-'
+"
 :
 (
+        
 screenshot_wrapper
-                      
+        
 "
 Disable
 logging
@@ -647,15 +660,17 @@ screenshot
 data
 .
 "
-                      
+        
 {
 "
 mach
 "
 }
+        
 "
 store_false
 "
+    
 )
 }
 def
@@ -898,6 +913,7 @@ Logging
 group_description
 =
 (
+        
 "
 Each
 option
@@ -907,7 +923,7 @@ possible
 logging
 format
 "
-                         
+        
 "
 and
 takes
@@ -919,7 +935,7 @@ that
 format
 to
 "
-                         
+        
 "
 or
 '
@@ -934,7 +950,7 @@ Some
 options
 are
 "
-                         
+        
 "
 provided
 by
@@ -946,7 +962,7 @@ see
 %
 s
 "
-                         
+        
 "
 for
 extended
@@ -955,6 +971,7 @@ documentation
 "
 %
 DOCS_URL
+    
 )
     
 if
@@ -991,9 +1008,7 @@ optparse
 OptionGroup
 (
 parser
-                                     
 group_name
-                                     
 group_description
 )
         
@@ -1006,9 +1021,9 @@ group
         
 opt_log_type
 =
-'
+"
 str
-'
+"
         
 group_add
 =
@@ -1026,7 +1041,6 @@ parser
 add_argument_group
 (
 group_name
-                                          
 group_description
 )
         
@@ -1063,6 +1077,7 @@ include_formatters
             
 group_add
 (
+                
 "
 -
 -
@@ -1079,10 +1094,10 @@ append
 type
 =
 opt_log_type
-                      
 help
 =
 help_str
+            
 )
     
 for
@@ -1174,6 +1189,7 @@ _
             
 group_add
 (
+                
 "
 -
 -
@@ -1190,16 +1206,19 @@ s
 fmt
 optname
 )
+                
 action
 =
 action
-                      
+                
 help
 =
 help_str
+                
 default
 =
 None
+                
 dest
 =
 "
@@ -1214,6 +1233,7 @@ s
 fmt
 dest
 )
+            
 )
 def
 setup_handlers
@@ -1336,7 +1356,6 @@ allow_unused_options
         
 msg
 =
-(
 "
 Options
 specified
@@ -1355,11 +1374,11 @@ no
 effect
 "
 %
-               
 list
 (
+            
 unused_options
-)
+        
 )
         
 raise
@@ -1538,6 +1557,7 @@ handler
 def
 setup_logging
 (
+    
 logger
 args
 defaults
@@ -1546,7 +1566,6 @@ None
 formatter_defaults
 =
 None
-                  
 allow_unused_options
 =
 False
@@ -1872,9 +1891,9 @@ name
 .
 split
 (
-'
+"
 _
-'
+"
 )
         
 if
@@ -1895,9 +1914,9 @@ parts
 ]
 =
 =
-'
+"
 log
-'
+"
 and
 values
 is
@@ -2020,9 +2039,10 @@ formatter
 =
 default_formatter_options
 (
+                        
 formatter
-                                                                             
 formatter_defaults
+                    
 )
                 
 formatter_options
@@ -2131,8 +2151,10 @@ name
 =
 default_formatter_options
 (
+                
 name
 formatter_defaults
+            
 )
     
 if
@@ -2140,9 +2162,9 @@ args
 .
 get
 (
-'
+"
 valgrind
-'
+"
 None
 )
 is
@@ -2161,9 +2183,9 @@ formatter_options
 name
 ]
 [
-'
+"
 valgrind
-'
+"
 ]
 =
 True

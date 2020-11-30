@@ -80,9 +80,9 @@ pytest
 .
 importorskip
 (
-'
+"
 runtests
-'
+"
 )
     
 md
@@ -91,17 +91,17 @@ runtests
 .
 MochitestDesktop
 (
-'
+"
 plain
-'
+"
 {
-'
+"
 log_tbpl
-'
+"
 :
-'
+"
 -
-'
+"
 }
 )
     
@@ -110,9 +110,9 @@ monkeypatch
 setattr
 (
 md
-'
+"
 fillCertificateDB
-'
+"
 lambda
 *
 args
@@ -210,12 +210,12 @@ join
 build
 .
 topsrcdir
-'
+"
 testing
-'
-'
+"
+"
 profiles
-'
+"
 )
 def
 test_common_prefs_are_all_set
@@ -245,15 +245,15 @@ path
 join
 (
 profile_data_dir
-'
+"
 profiles
 .
 json
-'
+"
 )
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -268,9 +268,9 @@ load
 fh
 )
 [
-'
+"
 mochitest
-'
+"
 ]
     
 expected_prefs
@@ -384,11 +384,11 @@ interpolation
 =
 {
         
-'
+"
 server
-'
+"
 :
-'
+"
 127
 .
 0
@@ -398,7 +398,7 @@ server
 1
 :
 8888
-'
+"
     
 }
     
@@ -451,9 +451,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

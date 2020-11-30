@@ -15,6 +15,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -29,6 +30,7 @@ TestEmptyEnum
 "
 "
 "
+        
 )
         
 harness

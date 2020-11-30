@@ -75,9 +75,11 @@ __init__
 all_actions
 =
 [
-'
+                
+"
 verbosity
-'
+"
+            
 ]
             
 require_config_file
@@ -145,7 +147,6 @@ tar
 .
 bz2
 "
-            
 file_name
 =
 tarball_name
@@ -251,6 +252,7 @@ self
 .
 error
 (
+                
 "
 There
 '
@@ -271,6 +273,7 @@ proceed
 anyway
 .
 "
+            
 )
         
 self
@@ -283,9 +286,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 verbose_example

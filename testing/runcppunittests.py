@@ -60,9 +60,9 @@ __file__
 )
 env
 [
-'
+"
 CPP_UNIT_TESTS_DIR_JS_SRC
-'
+"
 ]
 =
 os
@@ -106,6 +106,7 @@ TEST_PROC_NO_OUTPUT_TIMEOUT
 def
 run_one_test
 (
+        
 self
 prog
 env
@@ -115,10 +116,10 @@ None
 interactive
 =
 False
-                     
 timeout_factor
 =
 1
+    
 )
 :
         
@@ -259,25 +260,27 @@ mozprocess
 .
 ProcessHandler
 (
+                    
 [
 prog
 ]
-                                                 
+                    
 cwd
 =
 tempdir
-                                                 
+                    
 env
 =
 env
-                                                 
+                    
 storeOutput
 =
 False
-                                                 
+                    
 universal_newlines
 =
 True
+                
 )
             
 else
@@ -289,32 +292,34 @@ mozprocess
 .
 ProcessHandler
 (
+                    
 [
 prog
 ]
-                                                 
+                    
 cwd
 =
 tempdir
-                                                 
+                    
 env
 =
 env
-                                                 
+                    
 storeOutput
 =
 True
-                                                 
+                    
 processOutputLine
 =
 lambda
 _
 :
 None
-                                                 
+                    
 universal_newlines
 =
 True
+                
 )
             
 test_timeout
@@ -329,15 +334,17 @@ proc
 .
 run
 (
+                
 timeout
 =
 test_timeout
-                     
+                
 outputTimeout
 =
 CPPUnitTests
 .
 TEST_PROC_NO_OUTPUT_TIMEOUT
+            
 )
             
 proc
@@ -447,21 +454,22 @@ log
 .
 test_end
 (
+                    
 basename
 status
 =
-'
+"
 TIMEOUT
-'
+"
 expected
 =
-'
+"
 PASS
-'
-                                  
+"
 message
 =
 message
+                
 )
                 
 return
@@ -474,7 +482,6 @@ check_for_crashes
 (
 tempdir
 symbols_path
-                                          
 test_name
 =
 basename
@@ -490,14 +497,14 @@ test_end
 basename
 status
 =
-'
+"
 CRASH
-'
+"
 expected
 =
-'
+"
 PASS
-'
+"
 )
                 
 return
@@ -525,18 +532,21 @@ log
 .
 test_end
 (
+                    
 basename
+                    
 status
 =
-'
+"
 FAIL
-'
+"
+                    
 expected
 =
-'
+"
 PASS
-'
-                                  
+"
+                    
 message
 =
 (
@@ -550,13 +560,13 @@ code
 d
 "
 %
-                                           
 proc
 .
 proc
 .
 returncode
 )
+                
 )
             
 else
@@ -571,14 +581,14 @@ test_end
 basename
 status
 =
-'
+"
 PASS
-'
+"
 expected
 =
-'
+"
 PASS
-'
+"
 )
             
 return
@@ -670,39 +680,39 @@ enable_webrender
             
 env
 [
-'
+"
 MOZ_WEBRENDER
-'
+"
 ]
 =
-'
+"
 1
-'
+"
             
 env
 [
-'
+"
 MOZ_ACCELERATED
-'
+"
 ]
 =
-'
+"
 1
-'
+"
         
 else
 :
             
 env
 [
-'
+"
 MOZ_WEBRENDER
-'
+"
 ]
 =
-'
+"
 0
-'
+"
         
 return
 env
@@ -869,9 +879,9 @@ dirname
 (
 libpath
 )
-'
+"
 MacOS
-'
+"
 )
             
 if
@@ -980,7 +990,6 @@ join
 self
 .
 xre_path
-                
 "
 llvm
 -
@@ -995,6 +1004,7 @@ info
 bin_suffix
 "
 ]
+            
 )
             
 if
@@ -1059,21 +1069,21 @@ llvmsym
 )
             
 assert
-'
+"
 ASAN_OPTIONS
-'
+"
 not
 in
 env
             
 env
 [
-'
+"
 ASAN_OPTIONS
-'
+"
 ]
 =
-'
+"
 detect_leaks
 =
 0
@@ -1081,7 +1091,7 @@ detect_leaks
 detect_odr_violation
 =
 0
-'
+"
         
 return
 env
@@ -1089,22 +1099,29 @@ env
 def
 run_tests
 (
+        
 self
+        
 programs
+        
 xre_path
+        
 symbols_path
 =
 None
-                  
+        
 utility_path
 =
 None
+        
 enable_webrender
 =
 False
+        
 interactive
 =
 False
+    
 )
 :
         
@@ -1251,6 +1268,7 @@ get_stack_fixer_function
                 
 utility_path
 symbols_path
+            
 )
         
 self
@@ -1262,9 +1280,9 @@ suite_start
 programs
 name
 =
-'
+"
 cppunittest
-'
+"
 )
         
 env
@@ -1310,12 +1328,13 @@ self
 .
 run_one_test
 (
+                
 test_path
 env
 symbols_path
-                                              
 interactive
 timeout_factor
+            
 )
             
 if
@@ -1424,6 +1443,7 @@ self
 .
 add_option
 (
+            
 "
 -
 -
@@ -1431,27 +1451,29 @@ xre
 -
 path
 "
-                        
+            
 action
 =
 "
 store
 "
+            
 type
 =
 "
 string
 "
+            
 dest
 =
 "
 xre_path
 "
-                        
+            
 default
 =
 None
-                        
+            
 help
 =
 "
@@ -1466,12 +1488,14 @@ probably
 xulrunner
 )
 "
+        
 )
         
 self
 .
 add_option
 (
+            
 "
 -
 -
@@ -1479,27 +1503,29 @@ symbols
 -
 path
 "
-                        
+            
 action
 =
 "
 store
 "
+            
 type
 =
 "
 string
 "
+            
 dest
 =
 "
 symbols_path
 "
-                        
+            
 default
 =
 None
-                        
+            
 help
 =
 "
@@ -1512,7 +1538,7 @@ breakpad
 symbols
 or
 "
-                        
+            
 "
 the
 URL
@@ -1523,12 +1549,14 @@ file
 containing
 symbols
 "
+        
 )
         
 self
 .
 add_option
 (
+            
 "
 -
 -
@@ -1536,27 +1564,29 @@ manifest
 -
 path
 "
-                        
+            
 action
 =
 "
 store
 "
+            
 type
 =
 "
 string
 "
+            
 dest
 =
 "
 manifest_path
 "
-                        
+            
 default
 =
 None
-                        
+            
 help
 =
 "
@@ -1573,12 +1603,14 @@ to
 test
 binaries
 "
+        
 )
         
 self
 .
 add_option
 (
+            
 "
 -
 -
@@ -1586,27 +1618,29 @@ utility
 -
 path
 "
-                        
+            
 action
 =
 "
 store
 "
+            
 type
 =
 "
 string
 "
+            
 dest
 =
 "
 utility_path
 "
-                        
+            
 default
 =
 None
-                        
+            
 help
 =
 "
@@ -1617,12 +1651,14 @@ containing
 utility
 programs
 "
+        
 )
         
 self
 .
 add_option
 (
+            
 "
 -
 -
@@ -1630,22 +1666,23 @@ enable
 -
 webrender
 "
-                        
+            
 action
 =
 "
 store_true
 "
+            
 dest
 =
 "
 enable_webrender
 "
-                        
+            
 default
 =
 False
-                        
+            
 help
 =
 "
@@ -1656,6 +1693,7 @@ compositor
 in
 Gecko
 "
+        
 )
 def
 extract_unittests_from_args
@@ -1760,11 +1798,11 @@ path
 join
 (
 p
-'
+"
 cppunittest
 .
 ini
-'
+"
 )
 )
                 
@@ -1806,6 +1844,7 @@ tests
 .
 extend
 (
+                        
 (
 f
 1
@@ -1814,7 +1853,6 @@ for
 f
 in
 files
-                                 
 if
 os
 .
@@ -1829,6 +1867,7 @@ os
 .
 X_OK
 )
+                    
 )
             
 else
@@ -1870,17 +1909,17 @@ environ
     
 suffix
 =
-'
+"
 .
 exe
-'
+"
 if
 mozinfo
 .
 isWin
 else
-'
-'
+"
+"
     
 if
 binary_path
@@ -1890,9 +1929,11 @@ tests
 .
 extend
 (
-[
             
+[
+                
 (
+                    
 os
 .
 path
@@ -1902,33 +1943,36 @@ join
 binary_path
 test
 [
-'
+"
 relpath
-'
+"
 ]
 +
 suffix
 )
-             
+                    
 int
 (
 test
 .
 get
 (
-'
+"
 requesttimeoutfactor
-'
+"
 1
 )
 )
+                
 )
-            
+                
 for
 test
 in
 active_tests
+            
 ]
+        
 )
     
 else
@@ -1938,38 +1982,39 @@ tests
 .
 extend
 (
-[
             
+[
+                
 (
 test
 [
-'
+"
 path
-'
+"
 ]
 +
 suffix
-             
 int
 (
 test
 .
 get
 (
-'
+"
 requesttimeoutfactor
-'
+"
 1
 )
 )
 )
-            
+                
 for
 test
 in
 active_tests
-        
+            
 ]
+        
 )
     
 final_tests
@@ -2083,9 +2128,9 @@ path
 .
 expanduser
 (
-'
+"
 ~
-'
+"
 )
 :
         
@@ -2192,20 +2237,25 @@ tester
 .
 run_tests
 (
+        
 progs
+        
 options
 .
 xre_path
+        
 options
 .
 symbols_path
-                              
+        
 options
 .
 utility_path
+        
 options
 .
 enable_webrender
+    
 )
     
 return
@@ -2247,6 +2297,7 @@ args
         
 print
 (
+            
 "
 "
 "
@@ -2277,11 +2328,13 @@ argv
 [
 0
 ]
+            
 file
 =
 sys
 .
 stderr
+        
 )
         
 sys
@@ -2344,6 +2397,7 @@ args
         
 print
 (
+            
 "
 Error
 :
@@ -2358,11 +2412,13 @@ test
 -
 manifest
 "
+            
 file
 =
 sys
 .
 stderr
+        
 )
         
 sys
@@ -2380,11 +2436,11 @@ commandline
 .
 setup_logging
 (
+        
 "
 cppunittests
 "
 options
-                                           
 {
 "
 tbpl
@@ -2394,6 +2450,7 @@ sys
 .
 stdout
 }
+    
 )
     
 try
@@ -2441,9 +2498,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

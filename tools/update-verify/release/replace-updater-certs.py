@@ -291,7 +291,9 @@ len
 (
 new_updater
 )
+        
 )
+    
 )
 if
 updater_data
@@ -314,10 +316,10 @@ with
 open
 (
 outfile
-'
+"
 wb
 +
-'
+"
 )
 as
 f

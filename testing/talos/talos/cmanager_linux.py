@@ -16,9 +16,9 @@ xrestop
 (
 binary
 =
-'
+"
 xrestop
-'
+"
 )
 :
     
@@ -153,7 +153,7 @@ re
 compile
 (
 r
-'
+"
 (
 [
 0
@@ -180,23 +180,23 @@ PID
 \
 )
 :
-'
+"
 )
     
 args
 =
 [
-'
+"
 -
 m
-'
-'
+"
+"
 1
-'
-'
+"
+"
 -
 b
-'
+"
 ]
     
 command
@@ -214,7 +214,6 @@ subprocess
 Popen
 (
 command
-                               
 stdout
 =
 subprocess
@@ -395,9 +394,9 @@ line
 .
 split
 (
-'
+"
 :
-'
+"
 1
 )
             
@@ -449,10 +448,10 @@ memory
 allocated
 to
 a
-       
+    
 process
 .
-       
+    
 This
 code
 was
@@ -486,7 +485,7 @@ pids
         
 mapfile
 =
-'
+"
 /
 proc
 /
@@ -494,7 +493,7 @@ proc
 s
 /
 maps
-'
+"
 %
 pid
         
@@ -648,7 +647,7 @@ pids
         
 file
 =
-'
+"
 /
 proc
 /
@@ -656,7 +655,7 @@ proc
 s
 /
 status
-'
+"
 %
 pid
         
@@ -769,10 +768,10 @@ xres_output
 pid
 ]
 [
-'
+"
 total
 bytes
-'
+"
 ]
             
 data
@@ -781,9 +780,9 @@ data
 .
 lstrip
 (
-'
+"
 ~
-'
+"
 )
             
 try
@@ -864,10 +863,10 @@ with
 any
 number
 of
-       
+    
 counters
 .
-       
+    
 A
 counter
 can
@@ -882,7 +881,7 @@ of
 one
 pid
 and
-       
+    
 returns
 a
 piece
@@ -892,7 +891,7 @@ about
 that
 process
 .
-       
+    
 Some
 examples
 are
@@ -909,24 +908,26 @@ GetPrivateBytes
 counterDict
 =
 {
+        
 "
 Private
 Bytes
 "
 :
 GetPrivateBytes
-                   
+        
 "
 RSS
 "
 :
 GetResidentSize
-                   
+        
 "
 XRes
 "
 :
 GetXRes
+    
 }
     
 def
@@ -944,7 +945,7 @@ counters
 "
 Args
 :
-             
+        
 counters
 :
 A
@@ -958,7 +959,7 @@ Any
 counters
 whose
 name
-             
+        
 does
 not
 match
@@ -1096,7 +1097,6 @@ pid
 child
 .
 pid
-                                         
 for
 child
 in

@@ -26,10 +26,10 @@ argparse
 .
 ArgumentParser
 (
+        
 "
 structlog
 "
-                                     
 description
 =
 "
@@ -40,11 +40,13 @@ with
 structured
 logs
 "
+    
 )
     
 commands
 =
 {
+        
 "
 unstable
 "
@@ -57,7 +59,7 @@ unstable
 .
 main
 )
-                
+        
 "
 format
 "
@@ -70,7 +72,7 @@ formatlog
 .
 main
 )
-                
+        
 "
 logmerge
 "
@@ -83,6 +85,7 @@ logmerge
 .
 main
 )
+    
 }
     
 sub_parser
@@ -93,9 +96,9 @@ add_subparsers
 (
 title
 =
-'
+"
 Subcommands
-'
+"
 )
     
 for
@@ -126,19 +129,19 @@ sub_parser
 .
 add_parser
 (
+            
 command
-                                               
 description
 =
 parent
 .
 description
-                                               
 parents
 =
 [
 parent
 ]
+        
 )
         
 command_parser

@@ -149,6 +149,7 @@ properly
         
 return
 (
+            
 '
 var
 xulRuntime
@@ -174,8 +175,8 @@ true
 }
 ;
 '
-                
-'
+            
+"
 var
 release_or_beta
 =
@@ -185,9 +186,9 @@ getBuildConfiguration
 .
 release_or_beta
 ;
-'
-                
-'
+"
+            
+"
 var
 isDebugBuild
 =
@@ -200,27 +201,27 @@ Android
 {
 }
 ;
-'
-                
-'
+"
+            
+"
 var
 browserIsRemote
 =
 {
 }
-'
+"
 .
 format
 (
-                    
+                
 self
 .
 os
-                    
+                
 self
 .
 abi
-                    
+                
 str
 (
 self
@@ -231,7 +232,7 @@ isdebug
 lower
 (
 )
-                    
+                
 str
 (
 self
@@ -247,7 +248,7 @@ Android
 lower
 (
 )
-                    
+                
 str
 (
 self
@@ -258,7 +259,9 @@ browserIsRemote
 lower
 (
 )
+            
 )
+        
 )
     
 classmethod
@@ -323,14 +326,14 @@ posixpath
 join
 (
 dir
-'
+"
 config
-'
-'
+"
+"
 autoconf
 .
 mk
-'
+"
 )
             
 if
@@ -358,6 +361,7 @@ None
             
 print
 (
+                
 "
 Can
 '
@@ -373,7 +377,7 @@ a
 directory
 containing
 "
-                  
+                
 "
 the
 JS
@@ -390,6 +394,7 @@ format
 (
 jsdir
 )
+            
 )
             
 sys
@@ -406,7 +411,7 @@ re
 compile
 (
 r
-'
+"
 (
 TARGET_XPCOM_ABI
 |
@@ -425,15 +430,15 @@ s
 .
 *
 )
-'
+"
 )
         
 kw
 =
 {
-'
+"
 isdebug
-'
+"
 :
 False
 }
@@ -448,11 +453,11 @@ open
 path
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 :
             
@@ -490,16 +495,16 @@ if
 key
 =
 =
-'
+"
 TARGET_XPCOM_ABI
-'
+"
 :
                     
 kw
 [
-'
+"
 abi
-'
+"
 ]
 =
 val
@@ -508,16 +513,16 @@ if
 key
 =
 =
-'
+"
 OS_TARGET
-'
+"
 :
                     
 kw
 [
-'
+"
 os
-'
+"
 ]
 =
 val
@@ -526,26 +531,24 @@ if
 key
 =
 =
-'
+"
 MOZ_DEBUG
-'
+"
 :
                     
 kw
 [
-'
+"
 isdebug
-'
+"
 ]
 =
-(
 val
 =
 =
-'
+"
 1
-'
-)
+"
         
 return
 cls
@@ -636,12 +639,12 @@ join
 options
 .
 remote_test_root
-'
+"
 bin
-'
-'
+"
+"
 js
-'
+"
 )
     
 def
@@ -730,9 +733,9 @@ env
 =
 {
             
-'
+"
 LD_LIBRARY_PATH
-'
+"
 :
 posixpath
 .
@@ -743,60 +746,65 @@ self
 options
 .
 remote_test_root
-'
+"
 bin
-'
+"
 )
         
 }
         
 cmd
 =
-[
+(
             
+[
 self
 .
 js_bin
-        
 ]
+            
 +
 self
 .
 js_args
+            
 +
 options
+            
 +
 [
-            
-'
+                
+"
 -
 -
 no
 -
 baseline
-'
-            
-'
+"
+                
+"
 -
 -
 no
 -
 blinterp
-'
-            
-'
+"
+                
+"
 -
 e
-'
+"
+                
 self
 .
 js_prologue
-            
-'
+                
+"
 -
 e
-'
-'
+"
+                
+"
 print
 (
 !
@@ -806,14 +814,16 @@ print
 }
 )
 )
-'
+"
 .
 format
 (
 cond
 )
-        
+            
 ]
+        
+)
         
 cmd
 =
@@ -835,11 +845,11 @@ device
 .
 shell_output
 (
+                
 cmd
 env
 =
 env
-                                           
 cwd
 =
 self
@@ -847,16 +857,16 @@ self
 options
 .
 remote_test_root
-                                           
 timeout
 =
 None
+            
 )
             
 err
 =
-'
-'
+"
+"
         
 except
 ADBProcessError
@@ -866,8 +876,8 @@ e
             
 out
 =
-'
-'
+"
+"
             
 err
 =
@@ -884,9 +894,9 @@ if
 out
 =
 =
-'
+"
 true
-'
+"
 :
             
 ans
@@ -897,9 +907,9 @@ elif
 out
 =
 =
-'
+"
 false
-'
+"
 :
             
 ans
@@ -912,6 +922,7 @@ else
 raise
 Exception
 (
+                
 "
 Failed
 to
@@ -924,7 +935,7 @@ r
 }
 ;
 "
-                            
+                
 "
 output
 was
@@ -942,11 +953,11 @@ r
 .
 format
 (
-                                
 cond
 out
 err
 )
+            
 )
         
 self
@@ -1010,51 +1021,56 @@ None
             
 cmd
 =
-[
+(
                 
+[
 self
 .
 js_bin
-            
 ]
+                
 +
 self
 .
 js_args
+                
 +
 options
+                
 +
 [
-                
-'
+                    
+"
 -
 -
 no
 -
 baseline
-'
-                
-'
+"
+                    
+"
 -
 -
 no
 -
 blinterp
-'
-                
-'
+"
+                    
+"
 -
 e
-'
+"
+                    
 self
 .
 js_prologue
-                
-'
+                    
+"
 -
 e
-'
-'
+"
+                    
+"
 print
 (
 !
@@ -1064,19 +1080,22 @@ print
 }
 )
 )
-'
+"
 .
 format
 (
 cond
 )
-            
+                
 ]
+            
+)
             
 p
 =
 Popen
 (
+                
 cmd
 stdin
 =
@@ -1090,6 +1109,7 @@ PIPE
 universal_newlines
 =
 True
+            
 )
             
 out
@@ -1105,18 +1125,18 @@ if
 out
 in
 (
-'
+"
 true
 \
 n
-'
-'
+"
+"
 true
 \
 r
 \
 n
-'
+"
 )
 :
                 
@@ -1128,18 +1148,18 @@ elif
 out
 in
 (
-'
+"
 false
 \
 n
-'
-'
+"
+"
 false
 \
 r
 \
 n
-'
+"
 )
 :
                 
@@ -1153,6 +1173,7 @@ else
 raise
 Exception
 (
+                    
 "
 Failed
 to
@@ -1165,7 +1186,7 @@ r
 }
 ;
 "
-                                
+                    
 "
 output
 was
@@ -1183,11 +1204,11 @@ r
 .
 format
 (
-                                    
 cond
 out
 err
 )
+                
 )
             
 self
@@ -1274,9 +1295,9 @@ pos
 ]
 =
 =
-'
+"
 fails
-'
+"
 :
             
 testcase
@@ -1297,9 +1318,9 @@ pos
 ]
 =
 =
-'
+"
 skip
-'
+"
 :
             
 testcase
@@ -1324,9 +1345,9 @@ pos
 ]
 =
 =
-'
+"
 random
-'
+"
 :
             
 testcase
@@ -1348,12 +1369,12 @@ pos
 .
 startswith
 (
-'
+"
 shell
 -
 option
 (
-'
+"
 )
 :
             
@@ -1366,12 +1387,12 @@ pos
 [
 len
 (
-'
+"
 shell
 -
 option
 (
-'
+"
 )
 :
 -
@@ -1400,11 +1421,11 @@ pos
 .
 startswith
 (
-'
+"
 fails
 -
 if
-'
+"
 )
 :
             
@@ -1417,12 +1438,12 @@ pos
 [
 len
 (
-'
+"
 fails
 -
 if
 (
-'
+"
 )
 :
 -
@@ -1460,11 +1481,11 @@ pos
 .
 startswith
 (
-'
+"
 asserts
 -
 if
-'
+"
 )
 :
             
@@ -1481,11 +1502,11 @@ pos
 .
 startswith
 (
-'
+"
 skip
 -
 if
-'
+"
 )
 :
             
@@ -1498,12 +1519,12 @@ pos
 [
 len
 (
-'
+"
 skip
 -
 if
 (
-'
+"
 )
 :
 -
@@ -1545,11 +1566,11 @@ pos
 .
 startswith
 (
-'
+"
 ignore
 -
 flag
-'
+"
 )
 :
             
@@ -1562,12 +1583,12 @@ pos
 [
 len
 (
-'
+"
 ignore
 -
 flag
 (
-'
+"
 )
 :
 -
@@ -1596,11 +1617,11 @@ pos
 .
 startswith
 (
-'
+"
 random
 -
 if
-'
+"
 )
 :
             
@@ -1613,12 +1634,12 @@ pos
 [
 len
 (
-'
+"
 random
 -
 if
 (
-'
+"
 )
 :
 -
@@ -1655,9 +1676,9 @@ pos
 ]
 =
 =
-'
+"
 slow
-'
+"
 :
             
 testcase
@@ -1679,11 +1700,11 @@ pos
 .
 startswith
 (
-'
+"
 slow
 -
 if
-'
+"
 )
 :
             
@@ -1696,12 +1717,12 @@ pos
 [
 len
 (
-'
+"
 slow
 -
 if
 (
-'
+"
 )
 :
 -
@@ -1738,9 +1759,9 @@ pos
 ]
 =
 =
-'
+"
 silentfail
-'
+"
 :
             
 if
@@ -1787,10 +1808,10 @@ pos
 .
 startswith
 (
-'
+"
 error
 :
-'
+"
 )
 :
             
@@ -1807,9 +1828,9 @@ pos
 .
 partition
 (
-'
+"
 :
-'
+"
 )
             
 testcase
@@ -1830,9 +1851,9 @@ pos
 ]
 =
 =
-'
+"
 module
-'
+"
 :
             
 testcase
@@ -1853,9 +1874,9 @@ pos
 ]
 =
 =
-'
+"
 async
-'
+"
 :
             
 testcase
@@ -1889,7 +1910,6 @@ element
 .
 format
 (
-                
 parts
 [
 pos
@@ -1932,8 +1952,11 @@ terms
 .
 join
 (
+            
 [
+                
 term
+                
 for
 term
 in
@@ -1944,26 +1967,27 @@ terms
 split
 (
 )
-                          
+                
 if
 not
 (
+                    
 term
 =
 =
 "
 module
 "
+                    
 or
-                                  
 term
 =
 =
 "
 async
 "
+                    
 or
-                                  
 term
 .
 startswith
@@ -1973,8 +1997,8 @@ error
 :
 "
 )
+                    
 or
-                                  
 term
 .
 startswith
@@ -1986,8 +2010,8 @@ flag
 (
 "
 )
+                    
 or
-                                  
 term
 .
 startswith
@@ -1999,8 +2023,11 @@ option
 (
 "
 )
+                
 )
+            
 ]
+        
 )
         
 if
@@ -2128,8 +2155,8 @@ comment
 )
     
 return
-'
-'
+"
+"
 .
 join
 (
@@ -2330,11 +2357,11 @@ path
 join
 (
 location
-'
+"
 jstests
 .
 list
-'
+"
 )
     
 manifest
@@ -2471,6 +2498,7 @@ numTestFiles
 manifest
 =
 [
+            
 "
 url
 -
@@ -2490,16 +2518,16 @@ test
 .
 format
 (
-            
-'
+"
 .
 .
 /
-'
+"
 *
 depth
 relative
 )
+        
 ]
 +
 manifest
@@ -2511,22 +2539,22 @@ io
 open
 (
 filename
-'
+"
 w
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 newline
 =
-'
+"
 \
 n
-'
+"
 )
     
 try
@@ -2536,20 +2564,20 @@ fp
 .
 write
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
 manifest
 )
 +
-'
+"
 \
 n
-'
+"
 )
     
 finally
@@ -2571,8 +2599,8 @@ test_gen
 _emit_manifest_at
 (
 location
-'
-'
+"
+"
 test_gen
 0
 )
@@ -2620,10 +2648,10 @@ fn
 .
 endswith
 (
-'
+"
 .
 js
-'
+"
 )
 :
                 
@@ -2633,9 +2661,9 @@ fn
 TEST_HEADER_PATTERN
 =
 r
-'
-'
-'
+"
+"
+"
 #
 Ignore
 any
@@ -2775,19 +2803,20 @@ comment
 )
 )
 ?
-'
-'
-'
+"
+"
+"
 TEST_HEADER_PATTERN_INLINE
 =
 re
 .
 compile
 (
+    
 r
-'
-'
-'
+"
+"
+"
 #
 Start
 a
@@ -2796,16 +2825,18 @@ line
 comment
 /
 /
-'
-'
-'
+"
+"
+"
+    
 +
 TEST_HEADER_PATTERN
+    
 +
 r
-'
-'
-'
+"
+"
+"
 #
 Match
 the
@@ -2813,9 +2844,10 @@ end
 of
 line
 .
-'
-'
-'
+"
+"
+"
+    
 re
 .
 VERBOSE
@@ -2826,10 +2858,11 @@ re
 .
 compile
 (
+    
 r
-'
-'
-'
+"
+"
+"
 #
 Start
 a
@@ -2839,16 +2872,18 @@ comment
 /
 \
 *
-'
-'
-'
+"
+"
+"
+    
 +
 TEST_HEADER_PATTERN
+    
 +
 r
-'
-'
-'
+"
+"
+"
 #
 Match
 the
@@ -2859,9 +2894,10 @@ comment
 \
 *
 /
-'
-'
-'
+"
+"
+"
+    
 re
 .
 VERBOSE
@@ -2986,11 +3022,11 @@ open
 fullpath
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
     
 else
@@ -3047,10 +3083,10 @@ buf
 .
 partition
 (
-'
+"
 \
 n
-'
+"
 )
     
 matches
@@ -3091,30 +3127,32 @@ matches
 .
 group
 (
-'
+"
 tag
-'
+"
 )
     
 _append_terms_and_comment
 (
+        
 testcase
 matches
 .
 group
 (
-'
+"
 options
-'
+"
 )
 matches
 .
 group
 (
-'
+"
 comment
-'
+"
 )
+    
 )
     
 _parse_one
@@ -3124,9 +3162,9 @@ matches
 .
 group
 (
-'
+"
 options
-'
+"
 )
 xul_tester
 )
@@ -3224,16 +3262,16 @@ io
 open
 (
 filename
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 fp
@@ -3245,8 +3283,9 @@ re
 .
 compile
 (
+            
 r
-'
+"
 ^
 \
 s
@@ -3286,7 +3325,8 @@ path
 S
 +
 )
-'
+"
+        
 )
         
 include_re
@@ -3296,7 +3336,7 @@ re
 compile
 (
 r
-'
+"
 ^
 \
 s
@@ -3315,7 +3355,7 @@ path
 S
 +
 )
-'
+"
 )
         
 for
@@ -3332,9 +3372,9 @@ line
 .
 partition
 (
-'
+"
 #
-'
+"
 )
             
 line
@@ -3382,7 +3422,8 @@ matches
                     
 print
 (
-'
+                        
+"
 warning
 :
 unrecognized
@@ -3392,18 +3433,19 @@ jstests
 .
 list
 :
-'
-                          
-'
+"
+                        
+"
 {
 0
 }
-'
+"
 .
 format
 (
 line
 )
+                    
 )
                     
 continue
@@ -3414,9 +3456,9 @@ matches
 .
 group
 (
-'
+"
 path
-'
+"
 )
                 
 include_filename
@@ -3461,8 +3503,10 @@ include_entries
 =
 _parse_external_manifest
 (
+                    
 include_filename
 include_relpath
+                
 )
                 
 entries
@@ -3493,9 +3537,9 @@ matches
 .
 group
 (
-'
+"
 path
-'
+"
 )
 )
 )
@@ -3505,29 +3549,27 @@ matches
 .
 group
 (
-'
+"
 type
-'
+"
 )
 =
 =
-'
+"
 include
-'
+"
 :
                 
 assert
-(
 path
 .
 endswith
 (
-'
+"
 jstests
 .
 list
-'
-)
+"
 )
                 
 path
@@ -3538,11 +3580,11 @@ path
 -
 len
 (
-'
+"
 jstests
 .
 list
-'
+"
 )
 ]
             
@@ -3550,35 +3592,40 @@ entries
 .
 append
 (
+                
 {
-'
+                    
+"
 path
-'
+"
 :
 path
-'
+                    
+"
 terms
-'
+"
 :
 matches
 .
 group
 (
-'
+"
 terms
-'
+"
 )
-                            
-'
+                    
+"
 comment
-'
+"
 :
 comment
 .
 strip
 (
 )
+                
 }
+            
 )
     
 entries
@@ -3672,29 +3719,34 @@ EXCLUDED
 =
 set
 (
+        
 (
-'
+            
+"
 browser
 .
 js
-'
-'
+"
+            
+"
 shell
 .
 js
-'
-'
+"
+            
+"
 template
 .
 js
-'
-                    
-'
+"
+            
+"
 user
 .
 js
-'
-'
+"
+            
+"
 js
 -
 test
@@ -3704,8 +3756,9 @@ driver
 begin
 .
 js
-'
-'
+"
+            
+"
 js
 -
 test
@@ -3715,8 +3768,10 @@ driver
 end
 .
 js
-'
+"
+        
 )
+    
 )
     
 if
@@ -3900,11 +3955,11 @@ path
 join
 (
 location
-'
+"
 jstests
 .
 list
-'
+"
 )
     
 externalManifestEntries
@@ -3912,8 +3967,8 @@ externalManifestEntries
 _parse_external_manifest
 (
 manifestFile
-'
-'
+"
+"
 )
     
 for
@@ -3973,11 +4028,12 @@ filename
         
 _apply_external_manifests
 (
+            
 filename
 testcase
 externalManifestEntries
-                                  
 xul_tester
+        
 )
         
 _parse_test_header

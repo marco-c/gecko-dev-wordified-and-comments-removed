@@ -393,6 +393,7 @@ start_bit
 raise
 ValueError
 (
+            
 "
 Invalid
 num_bits
@@ -404,13 +405,13 @@ start_bit
 {
 }
 "
-                         
 .
 format
 (
 num_bits
 start_bit
 )
+        
 )
     
 last_bit
@@ -882,14 +883,14 @@ buf
 raise
 Exception
 (
-'
+"
 truncated
 at
 attribute
 :
 incomplete
 header
-'
+"
 )
         
 self
@@ -924,14 +925,14 @@ buf
 raise
 Exception
 (
-'
+"
 truncated
 at
 attribute
 :
 incomplete
 contents
-'
+"
 )
         
 self
@@ -1118,11 +1119,12 @@ transaction_id
 =
 unpack
 (
-                
+            
 buf
 self
 .
 __header_fmt
+        
 )
         
 min_buf_size
@@ -1220,13 +1222,13 @@ cookie
 raise
 Exception
 (
-'
+"
 Invalid
 cookie
 :
 {
 }
-'
+"
 .
 format
 (
@@ -1397,25 +1399,25 @@ message
 =
 pack
 (
+            
 (
 message_type
-                        
 len
 (
 attrs
 )
-                        
 self
 .
 cookie
-                        
 self
 .
 transaction_id
 )
+            
 self
 .
 __header_fmt
+        
 )
         
 message
@@ -1737,7 +1739,6 @@ version
 {
 }
 "
-                             
 .
 format
 (
@@ -1847,7 +1848,6 @@ unpack
 addr_attr
 .
 data
-                                               
 self
 .
 __xor_v4addr_fmt
@@ -1880,13 +1880,14 @@ xaddr
 =
 unpack
 (
+                
 addr_attr
 .
 data
-                                                   
 self
 .
 __xor_v6addr_fmt
+            
 )
             
 addr_ctor
@@ -1920,10 +1921,11 @@ family
 return
 addr_ctor
 (
-'
+            
+"
 UDP
-'
-                         
+"
+            
 str
 (
 ipaddr
@@ -1939,13 +1941,14 @@ family
 )
 )
 )
-                         
+            
 self
 .
 get_xport
 (
 xport
 )
+        
 )
     
 def
@@ -2412,6 +2415,7 @@ permissions
             
 print
 (
+                
 "
 Dropping
 packet
@@ -2428,10 +2432,10 @@ allocation
 {
 }
 "
-                  
 .
 format
 (
+                    
 host
 port
 self
@@ -2441,7 +2445,9 @@ transport
 getHost
 (
 )
+                
 )
+            
 )
             
 return
@@ -2479,16 +2485,17 @@ data_indication
 .
 add_xor_address
 (
+            
 IPv4Address
 (
-'
+"
 UDP
-'
+"
 host
 port
 )
-                                        
 XOR_PEER_ADDRESS
+        
 )
         
 data_indication
@@ -2504,15 +2511,16 @@ other_transport_handler
 .
 write
 (
+            
 data_indication
 .
 build
 (
 )
-                                           
 self
 .
 allocator_address
+        
 )
     
 def
@@ -2733,6 +2741,7 @@ else
                 
 print
 (
+                    
 "
 Dropping
 unknown
@@ -2742,7 +2751,6 @@ method
 {
 }
 "
-                      
 .
 format
 (
@@ -2750,6 +2758,7 @@ stun_message
 .
 method
 )
+                
 )
             
 return
@@ -2775,7 +2784,6 @@ method
 {
 }
 "
-                  
 .
 format
 (
@@ -2880,11 +2888,11 @@ self
 .
 make_error_response
 (
-                    
+                
 stun_message
-                    
+                
 400
-                    
+                
 (
 "
 Unsupported
@@ -2895,7 +2903,6 @@ method
 {
 }
 "
-                     
 .
 format
 (
@@ -2904,6 +2911,7 @@ stun_message
 method
 )
 )
+            
 )
 .
 build
@@ -2919,18 +2927,19 @@ self
         
 return
 (
+            
 self
 .
 client_address
 .
 host
-                
+            
 self
 .
 client_address
 .
 port
-                
+            
 self
 .
 transport_handler
@@ -2942,7 +2951,7 @@ getHost
 )
 .
 type
-                
+            
 self
 .
 transport_handler
@@ -2954,7 +2963,7 @@ getHost
 )
 .
 host
-                
+            
 self
 .
 transport_handler
@@ -2966,6 +2975,7 @@ getHost
 )
 .
 port
+        
 )
     
 def
@@ -3009,12 +3019,13 @@ self
 .
 make_error_response
 (
-                        
+                    
 request
-                        
+                    
 437
-                        
+                    
 (
+                        
 "
 Duplicate
 allocation
@@ -3024,42 +3035,46 @@ tuple
 {
 }
 "
-                         
 .
 format
 (
+                            
 self
 .
 get_allocation_tuple
 (
 )
+                        
 )
+                    
 )
+                
 )
             
 allocation
 =
 Allocation
 (
+                
 self
 .
 transport_handler
-                                    
 self
 .
 client_address
-                                    
 request
 .
 get_username
 (
 )
+            
 )
             
 allocate_response
 .
 add_xor_address
 (
+                
 allocation
 .
 transport
@@ -3067,8 +3082,8 @@ transport
 getHost
 (
 )
-                                              
 XOR_RELAYED_ADDRESS
+            
 )
             
 lifetime
@@ -3091,11 +3106,9 @@ self
 .
 make_error_response
 (
-                        
+                    
 request
-                        
 400
-                        
 "
 Missing
 lifetime
@@ -3104,6 +3117,7 @@ in
 allocation
 request
 "
+                
 )
             
 lifetime
@@ -3138,9 +3152,7 @@ allocate_response
 add_message_integrity
 (
 turn_user
-                                                    
 turn_realm
-                                                    
 turn_pass
 )
             
@@ -3207,12 +3219,13 @@ self
 .
 make_error_response
 (
-                        
+                    
 request
-                        
+                    
 437
-                        
+                    
 (
+                        
 "
 Refresh
 request
@@ -3225,17 +3238,20 @@ tuple
 {
 }
 "
-                         
 .
 format
 (
+                            
 self
 .
 get_allocation_tuple
 (
 )
+                        
 )
+                    
 )
+                
 )
             
 if
@@ -3256,12 +3272,13 @@ self
 .
 make_error_response
 (
-                        
+                    
 request
-                        
+                    
 441
-                        
+                    
 (
+                        
 "
 Refresh
 request
@@ -3275,10 +3292,10 @@ got
 {
 }
 "
-                         
 .
 format
 (
+                            
 allocation
 .
 username
@@ -3287,8 +3304,11 @@ request
 get_username
 (
 )
+                        
 )
+                    
 )
+                
 )
             
 lifetime
@@ -3311,11 +3331,9 @@ self
 .
 make_error_response
 (
-                        
+                    
 request
-                        
 400
-                        
 "
 Missing
 lifetime
@@ -3324,6 +3342,7 @@ in
 allocation
 request
 "
+                
 )
             
 lifetime
@@ -3358,9 +3377,7 @@ refresh_response
 add_message_integrity
 (
 turn_user
-                                                   
 turn_realm
-                                                   
 turn_pass
 )
         
@@ -3416,12 +3433,13 @@ self
 .
 make_error_response
 (
-                        
+                    
 request
-                        
+                    
 437
-                        
+                    
 (
+                        
 "
 No
 such
@@ -3433,17 +3451,20 @@ tuple
 {
 }
 "
-                         
 .
 format
 (
+                            
 self
 .
 get_allocation_tuple
 (
 )
+                        
 )
+                    
 )
+                
 )
             
 if
@@ -3464,12 +3485,13 @@ self
 .
 make_error_response
 (
-                        
+                    
 request
-                        
+                    
 441
-                        
+                    
 (
+                        
 "
 Permission
 request
@@ -3483,10 +3505,10 @@ got
 {
 }
 "
-                         
 .
 format
 (
+                            
 allocation
 .
 username
@@ -3495,8 +3517,11 @@ request
 get_username
 (
 )
+                        
 )
+                    
 )
+                
 )
             
 peer_address
@@ -3518,11 +3543,9 @@ self
 .
 make_error_response
 (
-                        
+                    
 request
-                        
 400
-                        
 "
 Missing
 XOR
@@ -3534,6 +3557,7 @@ on
 permission
 request
 "
+                
 )
             
 permission_response
@@ -3541,9 +3565,7 @@ permission_response
 add_message_integrity
 (
 turn_user
-                                                      
 turn_realm
-                                                      
 turn_pass
 )
             
@@ -3589,6 +3611,7 @@ KeyError
             
 print
 (
+                
 "
 Dropping
 send
@@ -3601,16 +3624,18 @@ tuple
 {
 }
 "
-                  
 .
 format
 (
+                    
 self
 .
 get_allocation_tuple
 (
 )
+                
 )
+            
 )
             
 return
@@ -3710,6 +3735,7 @@ permissions
             
 print
 (
+                
 "
 Dropping
 send
@@ -3724,10 +3750,10 @@ tuple
 {
 }
 "
-                  
 .
 format
 (
+                    
 peer_address
 .
 host
@@ -3736,7 +3762,9 @@ self
 get_allocation_tuple
 (
 )
+                
 )
+            
 )
             
 return
@@ -3747,10 +3775,10 @@ transport
 .
 write
 (
+            
 data_attr
 .
 data
-                                   
 (
 peer_address
 .
@@ -3759,6 +3787,7 @@ peer_address
 .
 port
 )
+        
 )
     
 def
@@ -3999,11 +4028,9 @@ self
 .
 make_error_response
 (
-                    
+                
 request
-                    
 400
-                    
 "
 Missing
 either
@@ -4012,6 +4039,7 @@ NONCE
 or
 REALM
 "
+            
 )
         
 if
@@ -4031,9 +4059,8 @@ self
 .
 make_challenge_response
 (
-                    
+                
 request
-                    
 "
 Wrong
 user
@@ -4051,6 +4078,7 @@ username
 data
 turn_user
 )
+            
 )
         
 expected_message_digest
@@ -4059,11 +4087,11 @@ request
 .
 calculate_message_digest
 (
+            
 turn_user
-                                                                  
 turn_realm
-                                                                  
 turn_pass
+        
 )
         
 if
@@ -4081,7 +4109,6 @@ self
 make_challenge_response
 (
 request
-                                                
 "
 Incorrect
 message
@@ -4143,12 +4170,11 @@ stun_handler
 data_received
 (
 data
-                                   
 IPv4Address
 (
-'
+"
 UDP
-'
+"
 address
 [
 0
@@ -4368,7 +4394,6 @@ connection
 {
 }
 "
-                      
 .
 format
 (
@@ -4801,9 +4826,9 @@ cert
 sign
 (
 k
-'
+"
 sha1
-'
+"
 )
     
 open
@@ -4816,7 +4841,6 @@ wt
 .
 write
 (
-        
 crypto
 .
 dump_certificate
@@ -4838,7 +4862,6 @@ wt
 .
 write
 (
-        
 crypto
 .
 dump_privatekey
@@ -4876,15 +4899,15 @@ system
 Windows
 "
 :
-      
+        
 interface_4
 =
 v4_address
-      
+        
 interface_6
 =
 v6_address
-      
+        
 hostname
 =
 socket
@@ -4895,7 +4918,7 @@ gethostname
     
 else
 :
-      
+        
 interface_4
 =
 "
@@ -4907,7 +4930,7 @@ interface_4
 .
 1
 "
-      
+        
 interface_6
 =
 "
@@ -4915,7 +4938,7 @@ interface_6
 :
 1
 "
-      
+        
 hostname
 =
 "
@@ -5008,17 +5031,20 @@ ssl
 .
 DefaultOpenSSLContextFactory
 (
+            
 KEY_FILE
 CERT_FILE
 SSL
 .
 TLSv1_2_METHOD
+        
 )
         
 reactor
 .
 listenSSL
 (
+            
 5349
 TcpStunHandlerFactory
 (
@@ -5027,6 +5053,7 @@ tls_context_factory
 interface
 =
 interface_4
+        
 )
         
 try
@@ -5036,14 +5063,19 @@ reactor
 .
 listenSSL
 (
+                
 5349
+                
 TcpStunHandlerFactory
 (
 )
+                
 tls_context_factory
+                
 interface
 =
 interface_6
+            
 )
         
 except
@@ -5056,11 +5088,10 @@ f
 open
 (
 CERT_FILE
-'
+"
 r
-'
+"
 )
-;
         
 lines
 =
@@ -5069,7 +5100,6 @@ f
 readlines
 (
 )
-;
         
 lines
 .
@@ -5077,14 +5107,12 @@ pop
 (
 0
 )
-;
         
 lines
 .
 pop
 (
 )
-;
         
 lines
 =
@@ -5095,7 +5123,6 @@ string
 strip
 lines
 )
-;
         
 certbase64
 =
@@ -5104,10 +5131,9 @@ string
 join
 (
 lines
-'
-'
+"
+"
 )
-;
         
 turns_url
 =
@@ -5144,13 +5170,13 @@ except
         
 turns_url
 =
-'
-'
+"
+"
         
 cert_prop
 =
-'
-'
+"
+"
         
 pass
     
@@ -5172,6 +5198,7 @@ template
 =
 Template
 (
+        
 '
 [
 \
@@ -5240,34 +5267,39 @@ cert_prop
 }
 ]
 '
+    
 )
     
 print
 (
+        
 template
 .
 substitute
 (
+            
 user
 =
 turn_user
-                              
+            
 pwd
 =
 turn_pass
-                              
+            
 hostname
 =
 hostname
-                              
+            
 turns_url
 =
 turns_url
-                              
+            
 cert_prop
 =
 cert_prop
+        
 )
+    
 )
     
 reactor

@@ -160,12 +160,14 @@ new_diff
 line_starts
 =
 [
+        
 (
 "
 diff
 "
 True
 )
+        
 (
 "
 +
@@ -174,6 +176,7 @@ True
 "
 True
 )
+        
 (
 "
 -
@@ -182,7 +185,7 @@ True
 "
 True
 )
-                   
+        
 (
 "
 rename
@@ -190,6 +193,7 @@ from
 "
 False
 )
+        
 (
 "
 rename
@@ -197,6 +201,7 @@ to
 "
 False
 )
+    
 ]
     
 for
@@ -335,22 +340,24 @@ n
 .
 join
 (
+            
 [
+                
 patch
 .
 message
 .
 summary
-                          
+                
 patch
 .
 message
 .
 body
-                          
+                
 "
 "
-                          
+                
 "
 Upstreamed
 from
@@ -377,14 +384,16 @@ ci
 skip
 ]
 "
+                
 %
-                          
 patch
 .
 message
 .
 bug
+            
 ]
+        
 )
     
 return
@@ -395,6 +404,7 @@ n
 .
 join
 (
+        
 [
 patch
 .
@@ -420,6 +430,7 @@ message
 .
 body
 ]
+    
 )
 class
 SyncToUpstream
@@ -513,6 +524,7 @@ logger
 .
 error
 (
+                
 "
 Upstream
 sync
@@ -524,6 +536,7 @@ to
 be
 installed
 "
+            
 )
             
 return
@@ -579,6 +592,7 @@ state
 .
 push
 (
+            
 [
 "
 local_tree
@@ -592,11 +606,11 @@ tests_path
 "
 metadata_path
 "
-                         
 "
 sync
 "
 ]
+        
 )
 :
             
@@ -781,10 +795,10 @@ last_sync_commit
 =
 Commit
 (
+            
 state
 .
 local_tree
-                                        
 state
 .
 local_tree
@@ -798,6 +812,7 @@ local
 "
 ]
 )
+        
 )
         
 state
@@ -831,6 +846,7 @@ logger
 .
 error
 (
+                
 "
 Could
 not
@@ -847,6 +863,7 @@ state
 last_sync_commit
 .
 sha1
+            
 )
             
 return
@@ -858,6 +875,7 @@ logger
 .
 info
 (
+            
 "
 Last
 sync
@@ -872,13 +890,14 @@ in
 %
 s
 "
+            
 %
-                         
 state
 .
 last_sync_commit
 .
 sha1
+        
 )
 class
 CheckoutBranch
@@ -974,6 +993,7 @@ s
 state
 .
 old_upstream_rev
+        
 )
         
 state
@@ -982,6 +1002,7 @@ sync_tree
 .
 update
 (
+            
 state
 .
 sync
@@ -990,7 +1011,6 @@ sync
 remote_url
 "
 ]
-                               
 state
 .
 sync
@@ -999,10 +1019,10 @@ sync
 branch
 "
 ]
-                               
 state
 .
 branch
+        
 )
         
 state
@@ -1074,6 +1094,7 @@ sync_tree
 .
 get_remote_sha1
 (
+            
 state
 .
 sync
@@ -1082,7 +1103,6 @@ sync
 remote_url
 "
 ]
-                                                            
 state
 .
 sync
@@ -1091,6 +1111,7 @@ sync
 branch
 "
 ]
+        
 )
         
 self
@@ -1171,13 +1192,14 @@ local_tree
 .
 log
 (
+            
 state
 .
 last_sync_commit
-                                                    
 state
 .
 tests_path
+        
 )
         
 update_regexp
@@ -1186,6 +1208,7 @@ re
 .
 compile
 (
+            
 "
 Bug
 \
@@ -1211,6 +1234,7 @@ f
 40
 }
 "
+        
 )
         
 state
@@ -1287,6 +1311,7 @@ logger
 .
 error
 (
+                    
 "
 Commit
 %
@@ -1305,8 +1330,8 @@ bug
 number
 .
 "
+                    
 %
-                                  
 (
 i
 +
@@ -1315,6 +1340,7 @@ commit
 .
 sha1
 )
+                
 )
                 
 return
@@ -1419,6 +1445,7 @@ remove
 =
 input
 (
+                
 "
 Provide
 a
@@ -1431,7 +1458,7 @@ any
 commits
 numbers
 "
-                           
+                
 "
 to
 remove
@@ -1444,6 +1471,7 @@ upstream
 \
 n
 "
+            
 )
 .
 strip
@@ -1510,6 +1538,7 @@ item
 keep_commits
 =
 [
+                
 (
 i
 cmt
@@ -1527,6 +1556,7 @@ i
 not
 in
 remove_idx
+            
 ]
             
 print
@@ -1696,7 +1726,6 @@ relpath
 state
 .
 tests_path
-                                     
 state
 .
 local_tree
@@ -1944,6 +1973,7 @@ diff
                     
 print
 (
+                        
 "
 "
 "
@@ -1975,10 +2005,13 @@ continue
 .
 format
 (
+                            
 f
 .
 name
+                        
 )
+                    
 )
                     
 state
@@ -2114,13 +2147,13 @@ continue_rebase
 False
         
 if
-(
 os
 .
 path
 .
 exists
 (
+            
 os
 .
 path
@@ -2132,21 +2165,19 @@ state
 sync_tree
 .
 root
-                                        
 "
 .
 git
 "
-                                        
 "
 rebase
 -
 merge
 "
 )
+        
 )
 or
-            
 os
 .
 path
@@ -2164,18 +2195,15 @@ state
 sync_tree
 .
 root
-                                        
 "
 .
 git
 "
-                                        
 "
 rebase
 -
 apply
 "
-)
 )
 )
 :
@@ -2229,6 +2257,7 @@ with
 -
 continue
 "
+                
 %
 sys
 .
@@ -2236,6 +2265,7 @@ argv
 [
 0
 ]
+            
 )
             
 raise
@@ -2589,6 +2619,7 @@ commit
 data
 =
 {
+            
 "
 local
 "
@@ -2605,7 +2636,7 @@ local_tree
 .
 rev
 )
-                
+            
 "
 upstream
 "
@@ -2615,6 +2646,7 @@ state
 sync_tree
 .
 rev
+        
 }
         
 with
@@ -2801,6 +2833,7 @@ sha1
 branches
 =
 [
+            
 ref
 [
 len
@@ -2814,11 +2847,11 @@ heads
 )
 :
 ]
+            
 for
 sha1
 ref
 in
-                    
 state
 .
 sync_tree
@@ -2831,7 +2864,7 @@ gh_repo
 .
 url
 )
-                    
+            
 if
 ref
 .
@@ -2843,6 +2876,7 @@ refs
 heads
 "
 )
+        
 ]
         
 state
@@ -2905,11 +2939,9 @@ state
 gh_repo
 .
 url
-                             
 state
 .
 local_branch
-                             
 state
 .
 remote_branch
@@ -2980,20 +3012,21 @@ gh_repo
 .
 create_pr
 (
+            
 commit
 .
 message
 .
 full_summary
-                                           
+            
 state
 .
 remote_branch
-                                           
+            
 "
 master
 "
-                                           
+            
 commit
 .
 message
@@ -3008,6 +3041,7 @@ body
 else
 "
 "
+        
 )
 class
 PRAddComment
@@ -3182,25 +3216,27 @@ upstream
 steps
 =
 [
+        
 GetLastSyncData
-             
+        
 CheckoutBranch
-             
+        
 GetBaseCommit
-             
+        
 LoadCommits
-             
+        
 SelectCommits
-             
+        
 MovePatches
-             
+        
 RebaseCommits
-             
+        
 CheckRebase
-             
+        
 MergeUpstream
-             
+        
 UpdateLastSyncData
+    
 ]
 class
 PRMergeRunner

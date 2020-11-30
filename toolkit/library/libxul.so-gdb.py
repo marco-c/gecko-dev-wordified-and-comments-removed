@@ -19,14 +19,9 @@ os
 .
 path
 import
-(
-    
 abspath
-    
 dirname
-    
 exists
-)
 libxul_dir
 =
 dirname
@@ -121,7 +116,7 @@ re
 search
 (
 r
-'
+"
 [
 \
 w
@@ -132,7 +127,7 @@ w
 .
 *
 )
-'
+"
 gdb
 .
 execute

@@ -77,13 +77,13 @@ logging
 .
 getLogger
 (
-'
+"
 upload
 -
 generated
 -
 sources
-'
+"
 )
 log
 .
@@ -100,9 +100,9 @@ timed
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Yield
 a
@@ -122,9 +122,9 @@ was
 called
 .
     
-'
-'
-'
+"
+"
+"
     
 start
 =
@@ -158,9 +158,9 @@ data
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Apply
 gzip
@@ -176,9 +176,9 @@ a
 BytesIO
 .
     
-'
-'
-'
+"
+"
+"
     
 b
 =
@@ -198,9 +198,9 @@ fileobj
 b
 mode
 =
-'
+"
 w
-'
+"
 )
 as
 f
@@ -238,9 +238,9 @@ session_args
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Get
 (
@@ -288,9 +288,9 @@ set
 event
 .
     
-'
-'
-'
+"
+"
+"
     
 try
 :
@@ -317,9 +317,9 @@ session
 .
 client
 (
-'
+"
 s3
-'
+"
 )
         
 while
@@ -366,23 +366,23 @@ extra_args
 =
 {
                 
-'
+"
 ContentEncoding
-'
+"
 :
-'
+"
 gzip
-'
+"
                 
-'
+"
 ContentType
-'
+"
 :
-'
+"
 text
 /
 plain
-'
+"
             
 }
             
@@ -390,6 +390,7 @@ log
 .
 info
 (
+                
 '
 Uploading
 "
@@ -405,7 +406,6 @@ bytes
 .
 format
 (
-                
 pathname
 len
 (
@@ -416,6 +416,7 @@ getvalue
 )
 )
 )
+            
 )
             
 with
@@ -432,7 +433,6 @@ upload_fileobj
 (
 compressed
 bucket
-                                  
 pathname
 ExtraArgs
 =
@@ -443,6 +443,7 @@ log
 .
 info
 (
+                    
 '
 Finished
 uploading
@@ -462,12 +463,12 @@ s
 .
 format
 (
-                    
 pathname
 elapsed
 (
 )
 )
+                
 )
             
 queue
@@ -484,12 +485,12 @@ log
 .
 exception
 (
-'
+"
 Thread
 encountered
 exception
 :
-'
+"
 )
         
 event
@@ -509,9 +510,9 @@ bucket
 session_args
 =
 {
-'
+"
 region_name
-'
+"
 :
 region
 }
@@ -536,7 +537,6 @@ backoff_factor
 0
 .
 1
-                  
 status_forcelist
 =
 [
@@ -564,12 +564,12 @@ session
 .
 mount
 (
-'
+"
 https
 :
 /
 /
-'
+"
 http_adapter
 )
     
@@ -577,19 +577,19 @@ session
 .
 mount
 (
-'
+"
 http
 :
 /
 /
-'
+"
 http_adapter
 )
     
 if
-'
+"
 TASK_ID
-'
+"
 in
 os
 .
@@ -604,17 +604,17 @@ environ
 .
 get
 (
-'
+"
 MOZ_SCM_LEVEL
-'
-'
+"
+"
 1
-'
+"
 )
         
 secrets_url
 =
-'
+"
 http
 :
 /
@@ -647,12 +647,13 @@ generated
 sources
 -
 upload
-'
+"
 .
 format
 (
             
 level
+        
 )
         
 log
@@ -679,6 +680,7 @@ format
 (
 secrets_url
 )
+        
 )
         
 res
@@ -713,28 +715,28 @@ aws_access_key_id
 =
 secret
 [
-'
+"
 secret
-'
+"
 ]
 [
-'
+"
 AWS_ACCESS_KEY_ID
-'
+"
 ]
             
 aws_secret_access_key
 =
 secret
 [
-'
+"
 secret
-'
+"
 ]
 [
-'
+"
 AWS_SECRET_ACCESS_KEY
-'
+"
 ]
         
 )
@@ -746,7 +748,7 @@ log
 .
 info
 (
-'
+"
 Trying
 to
 use
@@ -755,7 +757,7 @@ AWS
 credentials
 .
 .
-'
+"
 )
     
 log
@@ -801,7 +803,8 @@ log
 .
 info
 (
-'
+            
+"
 Fetch
 HTTP
 status
@@ -820,11 +823,11 @@ in
 3f
 }
 s
-'
+"
 .
 format
 (
-            
+                
 res
 .
 status_code
@@ -837,7 +840,9 @@ content
 elapsed
 (
 )
+            
 )
+        
 )
     
 res
@@ -862,13 +867,13 @@ log
 .
 info
 (
-'
+"
 Creating
 {
 }
 worker
 threads
-'
+"
 .
 format
 (
@@ -931,11 +936,11 @@ content
 )
 mode
 =
-'
+"
 r
 |
 gz
-'
+"
 )
 as
 tar
@@ -1019,7 +1024,7 @@ log
 .
 error
 (
-'
+"
 Worker
 thread
 encountered
@@ -1028,7 +1033,7 @@ exiting
 .
 .
 .
-'
+"
 )
             
 break
@@ -1045,7 +1050,7 @@ basicConfig
 (
 format
 =
-'
+"
 %
 (
 levelname
@@ -1063,7 +1068,7 @@ s
 message
 )
 s
-'
+"
 )
     
 parser
@@ -1075,7 +1080,7 @@ ArgumentParser
         
 description
 =
-'
+"
 Upload
 generated
 source
@@ -1087,20 +1092,20 @@ BUCKET
 in
 S3
 .
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+"
 artifact
-'
-                        
+"
 help
 =
-'
+"
 generated
 -
 sources
@@ -1108,7 +1113,7 @@ artifact
 from
 build
 task
-'
+"
 )
     
 args
@@ -1147,7 +1152,7 @@ virtualenv_manager
 .
 install_pip_package
 (
-'
+"
 boto3
 =
 =
@@ -1156,7 +1161,7 @@ boto3
 4
 .
 4
-'
+"
 )
     
 with
@@ -1186,7 +1191,7 @@ log
 .
 info
 (
-'
+"
 Finished
 in
 {
@@ -1195,7 +1200,7 @@ in
 03f
 }
 s
-'
+"
 .
 format
 (
@@ -1211,9 +1216,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 sys

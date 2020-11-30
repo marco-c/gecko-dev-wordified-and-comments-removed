@@ -47,7 +47,7 @@ GeckoAppShell
 >
 "
         
-"
+'
 REPORTING
 UNCAUGHT
 EXCEPTION
@@ -55,13 +55,11 @@ FROM
 THREAD
 9
 (
-\
 "
 GeckoBackgroundThread
-\
 "
 )
-"
+'
         
 "
 01
@@ -297,6 +295,8 @@ passable_log
 0
 ]
 =
+(
+        
 "
 01
 -
@@ -316,9 +316,8 @@ GeckoAppShell
 )
 :
 "
-\
         
-"
+'
 >
 >
 >
@@ -332,13 +331,13 @@ FROM
 THREAD
 9
 (
-\
 "
 GeckoBackgroundThread
-\
 "
 )
-"
+'
+    
+)
     
 assert
 0
@@ -379,13 +378,11 @@ assert
 check_for_java_exception
 (
 test_log
-                                         
 test_name
 =
 u
 "
 "
-                                         
 quiet
 =
 False
@@ -394,9 +391,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

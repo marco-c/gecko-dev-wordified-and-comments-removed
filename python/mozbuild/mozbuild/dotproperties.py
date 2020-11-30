@@ -38,9 +38,9 @@ DotProperties
 :
     
 r
-'
-'
-'
+"
+"
+"
 A
 thin
 representation
@@ -53,9 +53,9 @@ value
 properties
 file
 .
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -93,9 +93,9 @@ file
 )
 :
         
-'
-'
-'
+"
+"
+"
 Updates
 properties
 from
@@ -116,9 +116,9 @@ and
 comment
 lines
 .
-'
-'
-'
+"
+"
+"
         
 if
 isinstance
@@ -135,14 +135,14 @@ codecs
 open
 (
 file
-'
+"
 r
-'
-'
+"
+"
 utf
 -
 8
-'
+"
 )
         
 else
@@ -178,9 +178,9 @@ line
 .
 startswith
 (
-'
+"
 #
-'
+"
 )
 :
                 
@@ -195,7 +195,7 @@ re
 .
 split
 (
-'
+"
 \
 s
 *
@@ -203,7 +203,7 @@ s
 \
 s
 *
-'
+"
 line
 1
 )
@@ -247,9 +247,9 @@ prefix
 )
 :
         
-'
-'
-'
+"
+"
+"
 Turns
 {
 '
@@ -293,9 +293,9 @@ or
 missing
 list
 .
-'
-'
-'
+"
+"
+"
         
 if
 not
@@ -303,9 +303,9 @@ prefix
 .
 endswith
 (
-'
+"
 .
-'
+"
 )
 :
             
@@ -313,9 +313,9 @@ prefix
 =
 prefix
 +
-'
+"
 .
-'
+"
         
 indexes
 =
@@ -360,9 +360,9 @@ prefix
 ]
             
 if
-'
+"
 .
-'
+"
 in
 key
 :
@@ -413,9 +413,9 @@ required_keys
 )
 :
         
-'
-'
-'
+"
+"
+"
 Turns
 {
 '
@@ -486,9 +486,9 @@ or
 missing
 dict
 .
-'
-'
-'
+"
+"
+"
         
 if
 not
@@ -496,9 +496,9 @@ prefix
 .
 endswith
 (
-'
+"
 .
-'
+"
 )
 :
             
@@ -506,14 +506,15 @@ prefix
 =
 prefix
 +
-'
+"
 .
-'
+"
         
 D
 =
 dict
 (
+            
 (
 k
 [
@@ -525,10 +526,10 @@ prefix
 ]
 v
 )
+            
 for
 k
 v
-                 
 in
 six
 .
@@ -538,7 +539,7 @@ self
 .
 _properties
 )
-                 
+            
 if
 k
 .
@@ -547,9 +548,9 @@ startswith
 prefix
 )
 and
-'
+"
 .
-'
+"
 not
 in
 k
@@ -560,6 +561,7 @@ prefix
 )
 :
 ]
+        
 )
         
 for
@@ -578,14 +580,14 @@ D
 raise
 ValueError
 (
-'
+"
 Required
 key
 %
 s
 not
 present
-'
+"
 %
 required_key
 )

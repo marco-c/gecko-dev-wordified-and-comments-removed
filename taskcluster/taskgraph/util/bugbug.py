@@ -183,19 +183,19 @@ headers
 update
 (
 {
-'
+"
 X
 -
 API
 -
 KEY
-'
+"
 :
-'
+"
 gecko
 -
 taskgraph
-'
+"
 }
 )
     
@@ -349,7 +349,7 @@ url
 =
 BUGBUG_BASE_URL
 +
-'
+"
 /
 push
 /
@@ -362,16 +362,18 @@ rev
 }
 /
 schedules
-'
+"
 .
 format
 (
+        
 branch
 =
 branch
 rev
 =
 rev
+    
 )
     
 start
@@ -471,25 +473,27 @@ monotonic
     
 _write_perfherder_data
 (
+        
 lower_is_better
 =
 {
-        
-'
+            
+"
 bugbug_push_schedules_time
-'
+"
 :
 end
 -
 start
-        
-'
+            
+"
 bugbug_push_schedules_retries
-'
+"
 :
 i
-    
+        
 }
+    
 )
     
 data
@@ -512,6 +516,7 @@ status_code
 raise
 BugbugTimeoutException
 (
+            
 "
 Timed
 out
@@ -529,6 +534,7 @@ format
 (
 url
 )
+        
 )
     
 if
@@ -585,6 +591,7 @@ config_groups
 ]
 =
 {
+            
 translate_group
 (
 k
@@ -605,6 +612,7 @@ config_groups
 items
 (
 )
+        
 }
     
 return

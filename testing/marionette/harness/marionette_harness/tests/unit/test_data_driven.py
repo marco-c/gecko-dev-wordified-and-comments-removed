@@ -70,12 +70,12 @@ parameters
             
 parameterized
 (
-'
+"
 1
-'
-'
+"
+"
 thing
-'
+"
 named
 =
 43
@@ -83,12 +83,12 @@ named
             
 parameterized
 (
-'
+"
 2
-'
-'
+"
+"
 thing2
-'
+"
 )
             
 def
@@ -121,9 +121,9 @@ assertFalse
 hasattr
 (
 Test
-'
+"
 test
-'
+"
 )
 )
         
@@ -134,9 +134,9 @@ assertTrue
 hasattr
 (
 Test
-'
+"
 test_1
-'
+"
 )
 )
         
@@ -147,9 +147,9 @@ assertTrue
 hasattr
 (
 Test
-'
+"
 test_2
-'
+"
 )
 )
         
@@ -180,15 +180,15 @@ test
 parameters
 [
 (
-'
+"
 thing
-'
+"
 43
 )
 (
-'
+"
 thing2
-'
+"
 None
 )
 ]
@@ -205,36 +205,35 @@ DATA
 =
 [
 (
-'
+"
 1
-'
+"
 (
-'
+"
 thing
-'
+"
 )
 {
-'
+"
 named
-'
+"
 :
 43
 }
 )
-                
 (
-'
+"
 2
-'
+"
 (
-'
+"
 thing2
-'
+"
 )
 {
-'
+"
 named
-'
+"
 :
 None
 }
@@ -297,9 +296,9 @@ assertFalse
 hasattr
 (
 Test
-'
+"
 test
-'
+"
 )
 )
         
@@ -310,9 +309,9 @@ assertTrue
 hasattr
 (
 Test
-'
+"
 test_1
-'
+"
 )
 )
         
@@ -323,9 +322,9 @@ assertTrue
 hasattr
 (
 Test
-'
+"
 test_2
-'
+"
 )
 )
         
@@ -356,15 +355,15 @@ test
 parameters
 [
 (
-'
+"
 thing
-'
+"
 43
 )
 (
-'
+"
 thing2
-'
+"
 None
 )
 ]
@@ -395,12 +394,12 @@ Parameterizable
                 
 parameterized
 (
-'
+"
 1
-'
-'
+"
+"
 thing
-'
+"
 named
 =
 43
@@ -408,12 +407,12 @@ named
                 
 parameterized
 (
-'
+"
 1
-'
-'
+"
+"
 thing2
-'
+"
 )
                 
 def

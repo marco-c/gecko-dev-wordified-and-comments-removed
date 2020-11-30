@@ -57,17 +57,21 @@ BaseScript
 config_options
 =
 [
-[
         
 [
-'
+            
+[
+                
+"
 -
 -
 beverage
-'
+"
+            
 ]
-        
+            
 {
+                
 "
 action
 "
@@ -75,7 +79,7 @@ action
 "
 store
 "
-         
+                
 "
 dest
 "
@@ -83,7 +87,7 @@ dest
 "
 beverage
 "
-         
+                
 "
 type
 "
@@ -91,7 +95,7 @@ type
 "
 string
 "
-         
+                
 "
 help
 "
@@ -103,23 +107,27 @@ beverage
 of
 choice
 "
-         
+            
 }
-    
+        
 ]
-[
         
 [
-'
+            
+[
+                
+"
 -
 -
 ship
 -
 style
-'
+"
+            
 ]
-        
+            
 {
+                
 "
 action
 "
@@ -127,7 +135,7 @@ action
 "
 store
 "
-         
+                
 "
 dest
 "
@@ -135,7 +143,7 @@ dest
 "
 ship_style
 "
-         
+                
 "
 type
 "
@@ -143,7 +151,7 @@ type
 "
 choice
 "
-         
+                
 "
 choices
 "
@@ -159,7 +167,7 @@ choices
 3
 "
 ]
-         
+                
 "
 help
 "
@@ -171,14 +179,16 @@ type
 of
 ship
 "
-         
+            
 }
-    
+        
 ]
-[
         
 [
-'
+            
+[
+                
+"
 -
 -
 long
@@ -186,10 +196,12 @@ long
 sleep
 -
 time
-'
+"
+            
 ]
-        
+            
 {
+                
 "
 action
 "
@@ -197,7 +209,7 @@ action
 "
 store
 "
-         
+                
 "
 dest
 "
@@ -205,7 +217,7 @@ dest
 "
 long_sleep_time
 "
-         
+                
 "
 type
 "
@@ -213,7 +225,7 @@ type
 "
 int
 "
-         
+                
 "
 help
 "
@@ -225,10 +237,11 @@ long
 to
 sleep
 "
-         
+            
 }
-    
+        
 ]
+    
 ]
     
 def
@@ -260,19 +273,19 @@ all_actions
 =
 [
                 
-'
+"
 clobber
-'
+"
                 
-'
+"
 nap
-'
+"
                 
-'
+"
 ship
 -
 it
-'
+"
             
 ]
             
@@ -280,19 +293,19 @@ default_actions
 =
 [
                 
-'
+"
 clobber
-'
+"
                 
-'
+"
 nap
-'
+"
                 
-'
+"
 ship
 -
 it
-'
+"
             
 ]
             
@@ -304,9 +317,9 @@ config
 =
 {
                 
-'
+"
 beverage
-'
+"
 :
 "
 kool
@@ -314,15 +327,15 @@ kool
 aid
 "
                 
-'
+"
 long_sleep_time
-'
+"
 :
 3600
                 
-'
+"
 ship_style
-'
+"
 :
 "
 1
@@ -449,6 +462,7 @@ self
 .
 info
 (
+            
 "
 "
 "
@@ -501,6 +515,7 @@ ______t
 "
 "
 "
+        
 )
     
 def
@@ -514,6 +529,7 @@ self
 .
 info
 (
+            
 "
 "
 "
@@ -575,6 +591,7 @@ _
 "
 "
 "
+        
 )
     
 def
@@ -588,6 +605,7 @@ self
 .
 info
 (
+            
 "
 "
 "
@@ -661,6 +679,7 @@ _
 "
 "
 "
+        
 )
     
 def
@@ -722,9 +741,9 @@ self
 .
 config
 [
-'
+"
 long_sleep_time
-'
+"
 ]
         
 if
@@ -737,6 +756,7 @@ self
 .
 info
 (
+                
 "
 Ok
 grab
@@ -753,15 +773,17 @@ a
 while
 .
 "
+                
 %
 self
 .
 config
 [
-'
+"
 beverage
-'
+"
 ]
+            
 )
         
 else
@@ -771,6 +793,7 @@ self
 .
 info
 (
+                
 "
 This
 will
@@ -789,10 +812,11 @@ self
 .
 config
 [
-'
+"
 beverage
-'
+"
 ]
+            
 )
         
 self
@@ -803,9 +827,9 @@ self
 .
 config
 [
-'
+"
 long_sleep_time
-'
+"
 ]
 )
     
@@ -828,9 +852,9 @@ self
 .
 config
 [
-'
+"
 ship_style
-'
+"
 ]
         
 if
@@ -852,9 +876,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 actions_config_example

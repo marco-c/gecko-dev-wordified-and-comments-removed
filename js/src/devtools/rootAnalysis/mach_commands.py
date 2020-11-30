@@ -82,9 +82,9 @@ None
 )
 :
     
-'
-'
-'
+"
+"
+"
 Decorator
 for
 inheriting
@@ -121,9 +121,9 @@ having
 run
 first
 .
-'
-'
-'
+"
+"
+"
     
 def
 inherited
@@ -175,6 +175,7 @@ None
 raise
 MachError
 (
+                
 "
 {
 }
@@ -188,7 +189,7 @@ loaded
 .
 format
 (
-                
+                    
 command
 if
 subcommand
@@ -201,7 +202,9 @@ command
 "
 +
 subcommand
+                
 )
+            
 )
         
 func
@@ -246,22 +249,21 @@ environ
 .
 get
 (
-'
+"
 MOZBUILD_STATE_PATH
-'
-                              
+"
 os
 .
 path
 .
 expanduser
 (
-'
+"
 ~
 /
 .
 mozbuild
-'
+"
 )
 )
     
@@ -284,11 +286,11 @@ join
 self
 .
 state_dir
-'
+"
 hazard
 -
 tools
-'
+"
 )
     
 def
@@ -342,9 +344,9 @@ join
 self
 .
 tools_dir
-'
+"
 sixgill
-'
+"
 )
     
 property
@@ -366,9 +368,9 @@ join
 self
 .
 tools_dir
-'
+"
 gcc
-'
+"
 )
     
 property
@@ -459,23 +461,26 @@ rootAnalysis
     
 Command
 (
-'
+        
+"
 hazards
-'
+"
+        
 category
 =
-'
+"
 build
-'
+"
+        
 order
 =
-'
+"
 declaration
-'
-             
+"
+        
 description
 =
-'
+"
 Commands
 for
 running
@@ -486,7 +491,8 @@ for
 GC
 rooting
 hazards
-'
+"
+    
 )
     
 def
@@ -531,33 +537,36 @@ subcommands
     
 inherit_command_args
 (
-'
+"
 artifact
-'
-'
+"
+"
 toolchain
-'
+"
 )
     
 SubCommand
 (
-'
+        
+"
 hazards
-'
-'
+"
+        
+"
 bootstrap
-'
-                
+"
+        
 description
 =
-'
+"
 Install
 prerequisites
 for
 the
 hazard
 analysis
-'
+"
+    
 )
     
 def
@@ -594,26 +603,26 @@ try
             
 kwargs
 [
-'
+"
 from_build
-'
+"
 ]
 =
 (
-'
+"
 linux64
 -
 gcc
 -
 sixgill
-'
-'
+"
+"
 linux64
 -
 gcc
 -
 8
-'
+"
 )
             
 self
@@ -625,18 +634,17 @@ commands
 dispatch
 (
                 
-'
+"
 artifact
-'
+"
 self
 .
 _mach_context
 subcommand
 =
-'
+"
 toolchain
-'
-                
+"
 *
 *
 kwargs
@@ -655,25 +663,25 @@ orig_dir
     
 inherit_command_args
 (
-'
+"
 build
-'
+"
 )
     
 SubCommand
 (
-'
+        
+"
 hazards
-'
-'
+"
+"
 build
 -
 shell
-'
-                
+"
 description
 =
-'
+"
 Build
 a
 shell
@@ -681,35 +689,40 @@ for
 the
 hazard
 analysis
-'
+"
+    
 )
     
 CommandArgument
 (
-'
+        
+"
 -
 -
 mozconfig
-'
+"
+        
 default
 =
 None
+        
 metavar
 =
-'
+"
 FILENAME
-'
-                     
+"
+        
 help
 =
-'
+"
 Build
 with
 the
 given
 mozconfig
 .
-'
+"
+    
 )
     
 def
@@ -722,9 +735,9 @@ kwargs
 )
 :
         
-'
-'
-'
+"
+"
+"
 Build
 a
 JS
@@ -738,13 +751,13 @@ rooting
 hazard
 analysis
 .
-'
-'
-'
+"
+"
+"
         
 default_mozconfig
 =
-'
+"
 js
 /
 src
@@ -756,20 +769,21 @@ rootAnalysis
 mozconfig
 .
 haz_shell
-'
+"
         
 mozconfig_path
 =
+(
+            
 kwargs
 .
 pop
 (
-'
+"
 mozconfig
-'
+"
 None
 )
-\
             
 or
 os
@@ -778,14 +792,15 @@ environ
 .
 get
 (
-'
+"
 MOZCONFIG
-'
+"
 )
-\
             
 or
 default_mozconfig
+        
+)
         
 mozconfig_path
 =
@@ -823,19 +838,19 @@ configure_args
 =
 mozconfig
 [
-'
+"
 configure_args
-'
+"
 ]
         
 if
-'
+"
 -
 -
 enable
 -
 ctypes
-'
+"
 not
 in
 configure_args
@@ -844,23 +859,23 @@ configure_args
 raise
 FailedCommandError
 (
-'
+"
 ctypes
 required
 in
 hazard
 JS
 shell
-'
+"
 )
         
 os
 .
 environ
 [
-'
+"
 MOZCONFIG
-'
+"
 ]
 =
 mozconfig_path
@@ -869,16 +884,16 @@ self
 .
 write_json_file
 (
+            
 "
 shell
 .
 json
 "
 {
-            
-'
+"
 js
-'
+"
 :
 os
 .
@@ -888,9 +903,9 @@ join
 (
 mozconfig
 [
-'
+"
 topobjdir
-'
+"
 ]
 "
 dist
@@ -900,8 +915,8 @@ bin
 js
 "
 )
-        
 }
+        
 )
         
 return
@@ -914,9 +929,9 @@ commands
 dispatch
 (
             
-'
+"
 build
-'
+"
 self
 .
 _mach_context
@@ -937,9 +952,9 @@ None
 )
 :
         
-'
-'
-'
+"
+"
+"
 Verify
 that
 the
@@ -952,10 +967,9 @@ for
 the
 expected
 application
-        
-'
-'
-'
+"
+"
+"
         
 try
 :
@@ -966,16 +980,16 @@ self
 .
 read_json_file
 (
-'
+"
 app
 .
 json
-'
+"
 )
 [
-'
+"
 application
-'
+"
 ]
             
 if
@@ -989,7 +1003,7 @@ raise
 FailedCommandError
 (
                     
-'
+"
 work
 dir
 {
@@ -1001,7 +1015,7 @@ wrong
 app
 {
 }
-'
+"
 .
 format
 (
@@ -1048,11 +1062,11 @@ path
 join
 (
 objdir
-'
+"
 mozinfo
 .
 json
-'
+"
 )
 )
             
@@ -1061,9 +1075,9 @@ mozinfo
 .
 get
 (
-'
+"
 buildapp
-'
+"
 )
 !
 =
@@ -1074,7 +1088,7 @@ raise
 FailedCommandError
 (
                     
-'
+"
 objdir
 {
 }
@@ -1087,7 +1101,7 @@ app
 }
 clobber
 required
-'
+"
 .
 format
 (
@@ -1097,9 +1111,9 @@ mozinfo
 .
 get
 (
-'
+"
 buildapp
-'
+"
 )
                     
 )
@@ -1217,9 +1231,9 @@ json
 "
 )
 [
-'
+"
 js
-'
+"
 ]
         
 except
@@ -1230,7 +1244,7 @@ raise
 FailedCommandError
 (
                 
-'
+"
 must
 build
 the
@@ -1243,22 +1257,24 @@ build
 -
 shell
 first
-'
+"
             
 )
     
 SubCommand
 (
-'
+        
+"
 hazards
-'
-'
+"
+        
+"
 gather
-'
-                
+"
+        
 description
 =
-'
+"
 Gather
 analysis
 data
@@ -1267,31 +1283,33 @@ compiling
 the
 given
 application
-'
+"
+    
 )
     
 CommandArgument
 (
-'
+        
+"
 -
 -
 application
-'
+"
 default
 =
-'
+"
 browser
-'
-                     
+"
 help
 =
-'
+"
 Build
 the
 given
 application
 .
-'
+"
+    
 )
     
 def
@@ -1304,9 +1322,9 @@ None
 )
 :
         
-'
-'
-'
+"
+"
+"
 Gather
 analysis
 information
@@ -1314,9 +1332,9 @@ by
 compiling
 the
 tree
-'
-'
-'
+"
+"
+"
         
 shell_path
 =
@@ -1356,15 +1374,15 @@ self
 .
 write_json_file
 (
-'
+"
 app
 .
 json
-'
+"
 {
-'
+"
 application
-'
+"
 :
 application
 }
@@ -1402,9 +1420,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
                 
 js
@@ -1475,9 +1494,10 @@ gcc_dir
 bin
 "
             
-'
-'
-'
+"
+"
+"
+            
 )
 .
 format
@@ -1514,6 +1534,7 @@ gcc_dir
 self
 .
 gcc_dir
+            
 )
             
 fh
@@ -1525,7 +1546,7 @@ data
         
 buildscript
 =
-'
+"
 {
 srcdir
 }
@@ -1540,7 +1561,7 @@ application
 {
 app
 }
-'
+"
 .
 format
 (
@@ -1550,7 +1571,6 @@ srcdir
 self
 .
 topsrcdir
-            
 app
 =
 application
@@ -1577,29 +1597,31 @@ py
 "
 )
             
-'
+"
 dbs
-'
-'
+"
+            
+"
 -
 -
 upto
-'
-'
-dbs
-'
+"
             
-'
+"
+dbs
+"
+            
+"
 -
 v
-'
+"
             
-'
+"
 -
 -
 buildcommand
 =
-'
+"
 +
 buildscript
         
@@ -1625,19 +1647,19 @@ True
     
 inherit_command_args
 (
-'
+"
 build
-'
+"
 )
     
 SubCommand
 (
-'
+"
 hazards
-'
-'
+"
+"
 compile
-'
+"
 description
 =
 argparse
@@ -1647,54 +1669,59 @@ SUPPRESS
     
 CommandArgument
 (
-'
+        
+"
 -
 -
 mozconfig
-'
+"
+        
 default
 =
 None
+        
 metavar
 =
-'
+"
 FILENAME
-'
-                     
+"
+        
 help
 =
-'
+"
 Build
 with
 the
 given
 mozconfig
 .
-'
+"
+    
 )
     
 CommandArgument
 (
-'
+        
+"
 -
 -
 application
-'
+"
 default
 =
-'
+"
 browser
-'
-                     
+"
 help
 =
-'
+"
 Build
 the
 given
 application
 .
-'
+"
+    
 )
     
 def
@@ -1707,9 +1734,9 @@ kwargs
 )
 :
         
-'
-'
-'
+"
+"
+"
 Build
 a
 source
@@ -1720,7 +1747,7 @@ analysis
 information
 while
 running
-           
+        
 under
 the
 influence
@@ -1730,9 +1757,9 @@ analysis
 collection
 server
 .
-'
-'
-'
+"
+"
+"
         
 env
 =
@@ -1741,9 +1768,9 @@ os
 environ
         
 if
-'
+"
 XGILL_CONFIG
-'
+"
 not
 in
 env
@@ -1753,7 +1780,7 @@ raise
 Exception
 (
                 
-'
+"
 no
 sixgill
 manager
@@ -1762,10 +1789,10 @@ detected
 mach
 hazards
 compile
-'
-+
+"
                 
-'
++
+"
 should
 only
 be
@@ -1774,7 +1801,7 @@ from
 mach
 hazards
 gather
-'
+"
             
 )
         
@@ -1784,9 +1811,9 @@ kwargs
 .
 pop
 (
-'
+"
 application
-'
+"
 )
         
 self
@@ -1798,7 +1825,7 @@ app
         
 default_mozconfig
 =
-'
+"
 js
 /
 src
@@ -1811,36 +1838,36 @@ mozconfig
 .
 %
 s
-'
+"
 %
 app
         
 mozconfig_path
 =
+(
+            
 kwargs
 .
 pop
 (
-'
+"
 mozconfig
-'
+"
 None
 )
-\
-            
 or
 env
 .
 get
 (
-'
+"
 MOZCONFIG
-'
+"
 )
-\
-            
 or
 default_mozconfig
+        
+)
         
 mozconfig_path
 =
@@ -1878,13 +1905,13 @@ configure_args
 =
 mozconfig
 [
-'
+"
 configure_args
-'
+"
 ]
         
 if
-'
+"
 -
 -
 enable
@@ -1893,7 +1920,7 @@ application
 =
 %
 s
-'
+"
 %
 app
 not
@@ -1904,14 +1931,14 @@ configure_args
 raise
 Exception
 (
-'
+"
 mozconfig
 %
 s
 builds
 wrong
 project
-'
+"
 %
 mozconfig_path
 )
@@ -1920,7 +1947,7 @@ if
 not
 any
 (
-'
+"
 -
 -
 with
@@ -1928,7 +1955,7 @@ with
 compiler
 -
 wrapper
-'
+"
 in
 a
 for
@@ -1941,19 +1968,19 @@ configure_args
 raise
 Exception
 (
-'
+"
 mozconfig
 must
 wrap
 compiles
-'
+"
 )
         
 env
 [
-'
+"
 MOZCONFIG
-'
+"
 ]
 =
 os
@@ -1970,9 +1997,9 @@ mozconfig_path
         
 env
 [
-'
+"
 MOZBUILD_STATE_PATH
-'
+"
 ]
 =
 self
@@ -1990,16 +2017,16 @@ join
 self
 .
 gcc_dir
-'
+"
 bin
-'
+"
 )
         
 env
 [
-'
+"
 CC
-'
+"
 ]
 =
 os
@@ -2009,16 +2036,16 @@ path
 join
 (
 gccbin
-'
+"
 gcc
-'
+"
 )
         
 env
 [
-'
+"
 CXX
-'
+"
 ]
 =
 os
@@ -2028,21 +2055,21 @@ path
 join
 (
 gccbin
-'
+"
 g
 +
 +
-'
+"
 )
         
 env
 [
-'
+"
 PATH
-'
+"
 ]
 =
-'
+"
 {
 sixgill_dir
 }
@@ -2058,7 +2085,7 @@ gccbin
 {
 PATH
 }
-'
+"
 .
 format
 (
@@ -2068,35 +2095,33 @@ sixgill_dir
 self
 .
 sixgill_dir
-            
 gccbin
 =
 gccbin
-            
 PATH
 =
 env
 [
-'
+"
 PATH
-'
+"
 ]
         
 )
         
 env
 [
-'
+"
 LD_LIBRARY_PATH
-'
+"
 ]
 =
-'
+"
 {
 }
 /
 lib64
-'
+"
 .
 format
 (
@@ -2115,9 +2140,9 @@ commands
 dispatch
 (
             
-'
+"
 build
-'
+"
 self
 .
 _mach_context
@@ -2129,23 +2154,24 @@ kwargs
     
 SubCommand
 (
-'
+        
+"
 hazards
-'
-'
+"
+"
 analyze
-'
-                
+"
 description
 =
-'
+"
 Analyzed
 gathered
 data
 for
 rooting
 hazards
-'
+"
+    
 )
     
 def
@@ -2155,18 +2181,18 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Analyzed
 gathered
 data
 for
 rooting
 hazards
-'
-'
-'
+"
+"
+"
         
 args
 =
@@ -2188,14 +2214,14 @@ py
 "
 )
             
-'
+"
 gcTypes
-'
+"
             
-'
+"
 -
 v
-'
+"
         
 ]
         

@@ -93,6 +93,7 @@ box
 =
 inline
 (
+    
 "
 <
 body
@@ -124,7 +125,7 @@ height
 50px
 ;
 "
-             
+    
 "
 background
 :
@@ -237,6 +238,7 @@ svg
 =
 inline
 (
+    
 "
 "
 "
@@ -294,6 +296,7 @@ svg
 "
 "
 "
+    
 mime
 =
 "
@@ -380,6 +383,7 @@ marionette
 .
 execute_script
 (
+                
 "
 "
 "
@@ -392,6 +396,7 @@ devicePixelRatio
 "
 "
 "
+            
 )
         
 return
@@ -464,6 +469,7 @@ marionette
 .
 execute_script
 (
+            
 "
 return
 [
@@ -476,6 +482,7 @@ innerHeight
 ]
 ;
 "
+        
 )
     
 def
@@ -523,11 +530,11 @@ bytes
 screenshot
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
         
 image
@@ -611,11 +618,11 @@ bytes
 screenshot_default
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
         
 screenshot_image
@@ -656,11 +663,11 @@ bytes
 screenshot_image
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
         
 binary1
@@ -893,11 +900,11 @@ bytes
 screenshot
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
         
 self
@@ -955,6 +962,7 @@ rect
         
 return
 (
+            
 int
 (
 rect
@@ -966,7 +974,7 @@ self
 .
 device_pixel_ratio
 )
-                
+            
 int
 (
 rect
@@ -978,6 +986,7 @@ self
 .
 device_pixel_ratio
 )
+        
 )
 class
 TestScreenCaptureChrome
@@ -1050,12 +1059,14 @@ self
 return
 tuple
 (
+            
 self
 .
 marionette
 .
 execute_script
 (
+                
 "
 "
 "
@@ -1092,7 +1103,9 @@ height
 "
 "
 "
+            
 )
+        
 )
     
 def
@@ -1246,6 +1259,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 scale
@@ -1257,13 +1271,14 @@ get_element_dimensions
 el
 )
 )
-                         
+            
 self
 .
 get_image_dimensions
 (
 screenshot_element
 )
+        
 )
         
 screenshot_dialog
@@ -1625,12 +1640,14 @@ self
 return
 tuple
 (
+            
 self
 .
 marionette
 .
 execute_script
 (
+                
 "
 "
 "
@@ -1656,7 +1673,9 @@ scrollHeight
 "
 "
 "
+            
 )
+        
 )
     
 def
@@ -1933,6 +1952,7 @@ top
 foo
 "
 )
+        
 )
         
 screenshot
@@ -2008,6 +2028,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 scale
@@ -2019,13 +2040,14 @@ get_element_dimensions
 el
 )
 )
-                         
+            
 self
 .
 get_image_dimensions
 (
 screenshot
 )
+        
 )
     
 skip
@@ -2092,6 +2114,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 scale
@@ -2103,13 +2126,14 @@ get_element_dimensions
 el
 )
 )
-                         
+            
 self
 .
 get_image_dimensions
 (
 screenshot
 )
+        
 )
         
 self
@@ -2159,6 +2183,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 scale
@@ -2167,13 +2192,13 @@ self
 .
 scroll_dimensions
 )
-                         
 self
 .
 get_image_dimensions
 (
 screenshot
 )
+        
 )
     
 def
@@ -2213,6 +2238,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 scale
@@ -2221,13 +2247,13 @@ self
 .
 scroll_dimensions
 )
-                         
 self
 .
 get_image_dimensions
 (
 screenshot
 )
+        
 )
     
 def
@@ -2294,6 +2320,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 scale
@@ -2302,13 +2329,13 @@ self
 .
 viewport_dimensions
 )
-                         
 self
 .
 get_image_dimensions
 (
 screenshot
 )
+        
 )
     
 def
@@ -2375,6 +2402,7 @@ script_args
 [
 el
 ]
+        
 )
         
 after
@@ -2505,11 +2533,11 @@ tempfile
 .
 TemporaryFile
 (
-'
+"
 w
 +
 b
-'
+"
 )
 as
 fh

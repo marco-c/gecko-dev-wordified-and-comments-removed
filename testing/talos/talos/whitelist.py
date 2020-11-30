@@ -15,11 +15,11 @@ import
 utils
 KEY_XRE
 =
-'
+"
 {
 xre
 }
-'
+"
 DEFAULT_DURATION
 =
 100
@@ -31,24 +31,31 @@ Whitelist
     
 PRE_PROFILE
 =
-'
-'
+"
+"
     
 def
 __init__
 (
+        
 self
+        
 test_name
+        
 paths
+        
 path_substitutions
-                 
+        
 name_substitutions
+        
 event_sources
 =
 None
+        
 init_with
 =
 None
+    
 )
 :
         
@@ -73,13 +80,13 @@ self
 .
 dependent_libs
 =
+(
+            
 self
 .
 load_dependent_libs
 (
 )
-\
-            
 if
 init_with
 and
@@ -89,6 +96,8 @@ paths
 else
 {
 }
+        
+)
         
 self
 .
@@ -144,9 +153,9 @@ with
 open
 (
 filename
-'
+"
 r
-'
+"
 )
 as
 fHandle
@@ -235,13 +244,13 @@ filename
 .
 replace
 (
-'
+"
 (
 x86
 )
-'
-'
-'
+"
+"
+"
 )
         
 for
@@ -282,17 +291,17 @@ self
 PRE_PROFILE
 =
 =
-'
-'
+"
+"
 and
 subst
 =
 =
-'
+"
 {
 profile
 }
-'
+"
 :
                     
 fname
@@ -333,10 +342,10 @@ fname
 .
 endswith
 (
-'
+"
 ~
 1
-'
+"
 )
 :
                         
@@ -346,10 +355,10 @@ fname
 .
 split
 (
-'
+"
 \
 \
-'
+"
 )
                         
 dirs
@@ -382,13 +391,11 @@ diter
 2
                         
 while
-(
 diter
 <
 len
 (
 dirs
-)
 )
 :
                             
@@ -396,10 +403,10 @@ self
 .
 listmap
 [
-'
+"
 \
 \
-'
+"
 .
 join
 (
@@ -527,14 +534,14 @@ filename
 .
 strip
 (
-'
+"
 /
 \
 \
 \
 \
 t
-'
+"
 )
     
 def
@@ -585,9 +592,11 @@ listmap
 :
                 
 if
-'
+(
+                    
+"
 ignore
-'
+"
 in
 self
 .
@@ -595,9 +604,8 @@ listmap
 [
 filename
 ]
+                    
 and
-\
-                        
 self
 .
 listmap
@@ -605,10 +613,12 @@ listmap
 filename
 ]
 [
-'
+"
 ignore
-'
+"
 ]
+                
+)
 :
                     
 continue
@@ -624,13 +634,14 @@ dependent_libs
 continue
             
 elif
+(
+                
 event_source_index
 is
 not
 None
+                
 and
-\
-                    
 row_key
 [
 event_source_index
@@ -639,6 +650,8 @@ in
 self
 .
 expected_event_sources
+            
+)
 :
                 
 continue
@@ -733,17 +746,18 @@ file_name_index
 )
                 
 if
+(
+                    
 filename
 in
 self
 .
 listmap
+                    
 and
-\
-                   
-'
+"
 ignoreduration
-'
+"
 in
 self
 .
@@ -751,17 +765,20 @@ listmap
 [
 filename
 ]
+                
+)
 :
                     
 if
+(
+                        
 row_value
 [
 file_duration_index
 ]
+                        
 <
 =
-\
-                            
 self
 .
 listmap
@@ -769,10 +786,12 @@ listmap
 filename
 ]
 [
-'
+"
 ignoreduration
-'
+"
 ]
+                    
+)
 :
                         
 continue
@@ -799,6 +818,7 @@ filename
 .
 append
 (
+                    
 "
 Duration
 %
@@ -807,7 +827,6 @@ s
 %
 s
 "
-                                        
 %
 (
 row_value
@@ -815,8 +834,9 @@ row_value
 file_duration_index
 ]
 )
-                                        
+                    
 DEFAULT_DURATION
+                
 )
         
 return
@@ -862,9 +882,11 @@ listmap
 :
                 
 if
-'
+(
+                    
+"
 ignore
-'
+"
 in
 self
 .
@@ -872,9 +894,8 @@ listmap
 [
 filename
 ]
+                    
 and
-\
-                        
 self
 .
 listmap
@@ -882,10 +903,12 @@ listmap
 filename
 ]
 [
-'
+"
 ignore
-'
+"
 ]
+                
+)
 :
                     
 del
@@ -947,6 +970,7 @@ error_strs
 .
 append
 (
+                    
 "
 File
 '
@@ -960,7 +984,7 @@ we
 were
 not
 "
-                                  
+                    
 "
 expecting
 it
@@ -973,6 +997,7 @@ r
 filename
 datum
 )
+                
 )
         
 return
@@ -1012,7 +1037,6 @@ s
 self
 .
 test_name
-                                                      
 error_msg
 )
 )
@@ -1042,7 +1066,6 @@ paths
 [
 KEY_XRE
 ]
-                                               
 os
 .
 path
@@ -1057,9 +1080,9 @@ with
 open
 (
 filename
-'
+"
 r
-'
+"
 )
 as
 f
@@ -1077,9 +1100,8 @@ self
 .
 dependent_libs
 =
-\
-                
 {
+                
 "
 %
 s
@@ -1103,18 +1125,19 @@ strip
 )
 )
 :
-                    
 {
-'
+"
 ignore
-'
+"
 :
 True
 }
+                
 for
 lib
 in
 libs
+            
 }
             
 return

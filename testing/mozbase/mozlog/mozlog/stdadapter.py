@@ -146,14 +146,15 @@ wrapped
 .
 addHandler
 (
+            
 UnstructuredHandler
 (
+                
 self
 .
 wrapped
 .
 name
-                                                    
 logging
 .
 getLevelName
@@ -164,7 +165,9 @@ wrapped
 .
 level
 )
+            
 )
+        
 )
     
 def

@@ -98,9 +98,9 @@ __file__
 )
 )
     
-'
+"
 external_tools
-'
+"
 )
 class
 OpenH264Build
@@ -115,39 +115,39 @@ all_actions
 =
 [
         
-'
+"
 clobber
-'
+"
         
-'
+"
 get
 -
 tooltool
-'
+"
         
-'
+"
 checkout
 -
 sources
-'
+"
         
-'
+"
 build
-'
+"
         
-'
+"
 test
-'
+"
         
-'
+"
 package
-'
+"
         
-'
+"
 dump
 -
 symbols
-'
+"
     
 ]
     
@@ -155,31 +155,31 @@ default_actions
 =
 [
         
-'
+"
 get
 -
 tooltool
-'
+"
         
-'
+"
 checkout
 -
 sources
-'
+"
         
-'
+"
 build
-'
+"
         
-'
+"
 package
-'
+"
         
-'
+"
 dump
 -
 symbols
-'
+"
     
 ]
     
@@ -188,6 +188,7 @@ config_options
 [
         
 [
+            
 [
 "
 -
@@ -195,8 +196,9 @@ config_options
 repo
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -204,7 +206,7 @@ dest
 "
 repo
 "
-            
+                
 "
 help
 "
@@ -215,7 +217,7 @@ repository
 to
 use
 "
-            
+                
 "
 default
 "
@@ -235,11 +237,13 @@ openh264
 .
 git
 "
-        
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -247,8 +251,8 @@ git
 rev
 "
 ]
-{
             
+{
 "
 dest
 "
@@ -256,7 +260,6 @@ dest
 "
 revision
 "
-            
 "
 help
 "
@@ -266,7 +269,6 @@ revision
 to
 checkout
 "
-            
 "
 default
 "
@@ -274,11 +276,12 @@ default
 "
 master
 "
-        
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -286,8 +289,9 @@ master
 debug
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -295,7 +299,7 @@ dest
 "
 debug_build
 "
-            
+                
 "
 action
 "
@@ -303,7 +307,7 @@ action
 "
 store_true
 "
-            
+                
 "
 help
 "
@@ -314,11 +318,13 @@ a
 debug
 build
 "
-        
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -326,8 +332,9 @@ build
 arch
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -335,7 +342,7 @@ dest
 "
 arch
 "
-            
+                
 "
 help
 "
@@ -353,11 +360,13 @@ or
 aarch64
 )
 "
-        
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -365,8 +374,9 @@ aarch64
 os
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -374,7 +384,7 @@ dest
 "
 operating_system
 "
-            
+                
 "
 help
 "
@@ -388,11 +398,13 @@ to
 build
 for
 "
-        
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -402,8 +414,9 @@ use
 yasm
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -411,7 +424,7 @@ dest
 "
 use_yasm
 "
-            
+                
 "
 help
 "
@@ -423,7 +436,7 @@ instead
 of
 nasm
 "
-            
+                
 "
 action
 "
@@ -431,17 +444,19 @@ action
 "
 store_true
 "
-            
+                
 "
 default
 "
 :
 False
-        
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -451,8 +466,9 @@ avoid
 avx2
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -460,7 +476,7 @@ dest
 "
 avoid_avx2
 "
-            
+                
 "
 help
 "
@@ -480,7 +496,7 @@ support
 older
 nasm
 "
-            
+                
 "
 action
 "
@@ -488,17 +504,19 @@ action
 "
 store_true
 "
-            
+                
 "
 default
 "
 :
 False
-        
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -506,8 +524,9 @@ False
 branch
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -515,7 +534,7 @@ dest
 "
 branch
 "
-            
+                
 "
 help
 "
@@ -524,11 +543,13 @@ help
 dummy
 option
 "
-        
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -538,8 +559,9 @@ build
 pool
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -547,7 +569,7 @@ dest
 "
 build_pool
 "
-            
+                
 "
 help
 "
@@ -556,8 +578,9 @@ help
 dummy
 option
 "
-        
+            
 }
+        
 ]
     
 ]
@@ -565,22 +588,26 @@ option
 def
 __init__
 (
+        
 self
+        
 require_config_file
 =
 False
+        
 config
 =
 {
 }
-                 
+        
 all_actions
 =
 all_actions
-                 
+        
 default_actions
 =
 default_actions
+    
 )
 :
         
@@ -588,15 +615,15 @@ default_config
 =
 {
             
-'
+"
 debug_build
-'
+"
 :
 False
             
-'
+"
 upload_ssh_key
-'
+"
 :
 "
 ~
@@ -607,19 +634,19 @@ ssh
 ffxbld_rsa
 "
             
-'
+"
 upload_ssh_user
-'
+"
 :
-'
+"
 ffxbld
-'
+"
             
-'
+"
 upload_ssh_host
-'
+"
 :
-'
+"
 upload
 .
 ffxbld
@@ -631,22 +658,22 @@ prod
 mozaws
 .
 net
-'
+"
             
-'
+"
 upload_path_base
-'
+"
 :
-'
+"
 /
 tmp
 /
 openh264
-'
+"
             
-'
+"
 use_yasm
-'
+"
 :
 False
         
@@ -722,9 +749,9 @@ query_abs_dirs
         
 dirs
 [
-'
+"
 abs_upload_dir
-'
+"
 ]
 =
 os
@@ -735,13 +762,13 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 upload
-'
+"
 )
         
 self
@@ -774,9 +801,9 @@ c
 .
 get
 (
-'
+"
 tooltool_manifest_file
-'
+"
 )
 :
             
@@ -811,9 +838,9 @@ mkdir_p
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
 )
         
@@ -825,38 +852,43 @@ path
 .
 join
 (
+            
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
-'
+            
+"
 testing
-'
-                                
-'
+"
+            
+"
 mozharness
-'
-'
+"
+            
+"
 configs
-'
-'
+"
+            
+"
 openh264
-'
-                                
-'
+"
+            
+"
 tooltool
 -
 manifests
-'
-                                
+"
+            
 c
 [
-'
+"
 tooltool_manifest_file
-'
+"
 ]
+        
 )
         
 self
@@ -900,9 +932,9 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
 )
                 
@@ -912,9 +944,9 @@ c
 .
 get
 (
-'
+"
 tooltool_cache
-'
+"
 )
             
 )
@@ -927,13 +959,13 @@ self
 .
 error
 (
-'
+"
 missing
 a
 required
 key
 .
-'
+"
 )
     
 def
@@ -948,31 +980,31 @@ self
 .
 config
 [
-'
+"
 arch
-'
+"
 ]
 =
 =
-'
+"
 x64
-'
+"
 :
             
 bits
 =
-'
+"
 64
-'
+"
         
 else
 :
             
 bits
 =
-'
+"
 32
-'
+"
         
 version
 =
@@ -980,9 +1012,9 @@ self
 .
 config
 [
-'
+"
 revision
-'
+"
 ]
         
 if
@@ -991,12 +1023,12 @@ sys
 platform
 in
 (
-'
+"
 linux2
-'
-'
+"
+"
 linux
-'
+"
 )
 :
             
@@ -1007,19 +1039,19 @@ config
 .
 get
 (
-'
+"
 operating_system
-'
+"
 )
 =
 =
-'
+"
 android
-'
+"
 :
                 
 return
-'
+"
 openh264
 -
 android
@@ -1033,7 +1065,7 @@ version
 }
 .
 zip
-'
+"
 .
 format
 (
@@ -1047,10 +1079,11 @@ self
 .
 config
 [
-'
+"
 arch
-'
+"
 ]
+                
 )
             
 elif
@@ -1060,19 +1093,19 @@ config
 .
 get
 (
-'
+"
 operating_system
-'
+"
 )
 =
 =
-'
+"
 darwin
-'
+"
 :
                 
 return
-'
+"
 openh264
 -
 macosx
@@ -1085,7 +1118,7 @@ version
 }
 .
 zip
-'
+"
 .
 format
 (
@@ -1096,13 +1129,14 @@ version
 bits
 =
 bits
+                
 )
             
 else
 :
                 
 return
-'
+"
 openh264
 -
 linux
@@ -1115,16 +1149,18 @@ version
 }
 .
 zip
-'
+"
 .
 format
 (
+                    
 version
 =
 version
 bits
 =
 bits
+                
 )
         
 elif
@@ -1133,9 +1169,9 @@ sys
 platform
 =
 =
-'
+"
 win32
-'
+"
 :
             
 if
@@ -1143,19 +1179,19 @@ self
 .
 config
 [
-'
+"
 arch
-'
+"
 ]
 =
 =
-'
+"
 aarch64
-'
+"
 :
                 
 return
-'
+"
 openh264
 -
 win64
@@ -1167,11 +1203,10 @@ version
 }
 .
 zip
-'
+"
 .
 format
 (
-                    
 version
 =
 version
@@ -1181,7 +1216,7 @@ else
 :
                 
 return
-'
+"
 openh264
 -
 win
@@ -1194,7 +1229,7 @@ version
 }
 .
 zip
-'
+"
 .
 format
 (
@@ -1205,6 +1240,7 @@ version
 bits
 =
 bits
+                
 )
         
 self
@@ -1237,9 +1273,9 @@ self
 .
 config
 [
-'
+"
 debug_build
-'
+"
 ]
 :
             
@@ -1247,11 +1283,11 @@ retval
 .
 append
 (
-'
+"
 BUILDTYPE
 =
 Debug
-'
+"
 )
         
 if
@@ -1259,9 +1295,9 @@ self
 .
 config
 [
-'
+"
 avoid_avx2
-'
+"
 ]
 :
             
@@ -1269,11 +1305,11 @@ retval
 .
 append
 (
-'
+"
 HAVE_AVX2
 =
 false
-'
+"
 )
         
 if
@@ -1281,18 +1317,18 @@ self
 .
 config
 [
-'
+"
 arch
-'
+"
 ]
 in
 (
-'
+"
 x64
-'
-'
+"
+"
 aarch64
-'
+"
 )
 :
             
@@ -1300,11 +1336,11 @@ retval
 .
 append
 (
-'
+"
 ENABLE64BIT
 =
 Yes
-'
+"
 )
         
 else
@@ -1314,11 +1350,11 @@ retval
 .
 append
 (
-'
+"
 ENABLE64BIT
 =
 No
-'
+"
 )
         
 if
@@ -1346,9 +1382,9 @@ self
 .
 config
 [
-'
+"
 operating_system
-'
+"
 ]
 )
             
@@ -1373,15 +1409,15 @@ self
 .
 config
 [
-'
+"
 arch
-'
+"
 ]
 =
 =
-'
+"
 x86
-'
+"
 :
                     
 retval
@@ -1400,15 +1436,15 @@ self
 .
 config
 [
-'
+"
 arch
-'
+"
 ]
 =
 =
-'
+"
 aarch64
-'
+"
 :
                     
 retval
@@ -1440,31 +1476,31 @@ retval
 .
 append
 (
-'
+"
 TARGET
 =
 invalid
-'
+"
 )
                 
 retval
 .
 append
 (
-'
+"
 NDKLEVEL
 =
 %
 s
-'
+"
 %
 self
 .
 config
 [
-'
+"
 min_sdk
-'
+"
 ]
 )
                 
@@ -1472,7 +1508,7 @@ retval
 .
 append
 (
-'
+"
 NDKROOT
 =
 %
@@ -1481,15 +1517,15 @@ s
 android
 -
 ndk
-'
+"
 %
 os
 .
 environ
 [
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 ]
 )
                 
@@ -1497,11 +1533,11 @@ retval
 .
 append
 (
-'
+"
 NDK_TOOLCHAIN_VERSION
 =
 clang
-'
+"
 )
             
 if
@@ -1524,11 +1560,11 @@ retval
 .
 append
 (
-'
+"
 OS
 =
 darwin
-'
+"
 )
         
 if
@@ -1536,9 +1572,9 @@ self
 .
 config
 [
-'
+"
 use_yasm
-'
+"
 ]
 :
             
@@ -1546,11 +1582,11 @@ retval
 .
 append
 (
-'
+"
 ASM
 =
 yasm
-'
+"
 )
         
 if
@@ -1565,37 +1601,37 @@ retval
 .
 append
 (
-'
+"
 OS
 =
 msvc
-'
+"
 )
             
 retval
 .
 append
 (
-'
+"
 CC
 =
 clang
 -
 cl
-'
+"
 )
             
 retval
 .
 append
 (
-'
+"
 CXX
 =
 clang
 -
 cl
-'
+"
 )
             
 if
@@ -1603,15 +1639,15 @@ self
 .
 config
 [
-'
+"
 arch
-'
+"
 ]
 =
 =
-'
+"
 x86
-'
+"
 :
                 
 retval
@@ -1642,15 +1678,15 @@ self
 .
 config
 [
-'
+"
 arch
-'
+"
 ]
 =
 =
-'
+"
 aarch64
-'
+"
 :
                 
 retval
@@ -1727,24 +1763,24 @@ retval
 .
 append
 (
-'
+"
 CC
 =
 clang
-'
+"
 )
             
 retval
 .
 append
 (
-'
+"
 CXX
 =
 clang
 +
 +
-'
+"
 )
         
 return
@@ -1762,9 +1798,9 @@ self
 .
 config
 [
-'
+"
 upload_ssh_key
-'
+"
 ]
     
 def
@@ -1779,9 +1815,9 @@ self
 .
 config
 [
-'
+"
 upload_ssh_host
-'
+"
 ]
     
 def
@@ -1796,9 +1832,9 @@ self
 .
 config
 [
-'
+"
 upload_ssh_user
-'
+"
 ]
     
 def
@@ -1822,17 +1858,17 @@ self
 .
 config
 [
-'
+"
 upload_path_base
-'
+"
 ]
 self
 .
 config
 [
-'
+"
 revision
-'
+"
 ]
 )
     
@@ -1850,9 +1886,9 @@ False
 cmd
 =
 [
-'
+"
 make
-'
+"
 target
 ]
 +
@@ -1880,13 +1916,13 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 openh264
-'
+"
 )
         
 env
@@ -1900,9 +1936,9 @@ config
 .
 get
 (
-'
+"
 partial_env
-'
+"
 )
 :
             
@@ -1916,9 +1952,9 @@ self
 .
 config
 [
-'
+"
 partial_env
-'
+"
 ]
 )
         
@@ -1976,9 +2012,9 @@ self
 .
 config
 [
-'
+"
 repo
-'
+"
 ]
         
 rev
@@ -1987,9 +2023,9 @@ self
 .
 config
 [
-'
+"
 revision
-'
+"
 ]
         
 dirs
@@ -2010,13 +2046,13 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 openh264
-'
+"
 )
         
 if
@@ -2033,23 +2069,23 @@ repo
 .
 replace
 (
-'
+"
 .
 git
-'
-'
+"
+"
 /
 archive
 /
-'
+"
 )
 +
 rev
 +
-'
+"
 .
 zip
-'
+"
             
 self
 .
@@ -2064,15 +2100,15 @@ unzip
 (
 rev
 +
-'
+"
 .
 zip
-'
+"
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
 )
             
@@ -2080,6 +2116,7 @@ self
 .
 move
 (
+                
 os
 .
 path
@@ -2088,18 +2125,18 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 openh264
 -
-'
+"
 +
 rev
 )
-                      
+                
 os
 .
 path
@@ -2108,20 +2145,22 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 openh264
-'
+"
 )
+            
 )
             
 self
 .
 copytree
 (
+                
 os
 .
 path
@@ -2130,27 +2169,26 @@ join
 (
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
-'
+"
 dom
-'
-                                       
-'
+"
+"
 media
-'
-'
+"
+"
 gmp
-'
-'
+"
+"
 gmp
 -
 api
-'
+"
 )
-                          
+                
 os
 .
 path
@@ -2158,12 +2196,13 @@ path
 join
 (
 repo_dir
-'
+"
 gmp
 -
 api
-'
+"
 )
+            
 )
             
 if
@@ -2171,15 +2210,15 @@ self
 .
 config
 [
-'
+"
 arch
-'
+"
 ]
 =
 =
-'
+"
 aarch64
-'
+"
 :
                 
 openh264_dir
@@ -2192,21 +2231,23 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 openh264
-'
+"
 )
                 
 self
 .
 download_file
 (
+                    
 (
-'
+                        
+"
 https
 :
 /
@@ -2219,17 +2260,17 @@ com
 /
 libav
 /
-'
-                                    
-'
+"
+                        
+"
 gas
 -
 preprocessor
 /
 c2bc63c96678d9739509e58
-'
-                                    
-'
+"
+                        
+"
 7aa30c94bdc0e636d
 /
 gas
@@ -2237,12 +2278,14 @@ gas
 preprocessor
 .
 pl
-'
+"
+                    
 )
-                                   
+                    
 parent_dir
 =
 openh264_dir
+                
 )
                 
 self
@@ -2256,15 +2299,14 @@ path
 join
 (
 openh264_dir
-'
+"
 gas
 -
 preprocessor
 .
 pl
-'
+"
 )
-                           
 744
 )
                 
@@ -2272,7 +2314,8 @@ os
 .
 system
 (
-'
+                    
+"
 ln
 -
 s
@@ -2280,38 +2323,40 @@ s
 s
 %
 s
-'
+"
+                    
 %
 (
-                          
+                        
 os
 .
 path
 .
 join
 (
+                            
 os
 .
 environ
 [
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 ]
-'
+"
 clang
-'
-                                       
-'
+"
+"
 bin
-'
-'
+"
+"
 clang
 .
 exe
-'
+"
+                        
 )
-                          
+                        
 os
 .
 path
@@ -2319,11 +2364,13 @@ path
 join
 (
 openh264_dir
-'
+"
 cpp
-'
+"
 )
+                    
 )
+                
 )
             
 return
@@ -2334,26 +2381,26 @@ repos
 [
             
 {
-'
+"
 vcs
-'
+"
 :
-'
+"
 gittool
-'
-'
+"
+"
 repo
-'
+"
 :
 repo
-'
+"
 dest
-'
+"
 :
 repo_dir
-'
+"
 revision
-'
+"
 :
 rev
 }
@@ -2418,11 +2465,11 @@ path
 join
 (
 repo_dir
-'
+"
 gmp
 -
 api
-'
+"
 )
 )
 :
@@ -2433,11 +2480,11 @@ self
 .
 run_make
 (
-'
+"
 gmp
 -
 bootstrap
-'
+"
 )
             
 if
@@ -2494,9 +2541,9 @@ path
 join
 (
 repo_dir
-'
+"
 gtest
-'
+"
 )
 )
 :
@@ -2507,11 +2554,11 @@ self
 .
 run_make
 (
-'
+"
 gtest
 -
 bootstrap
-'
+"
 )
             
 if
@@ -2569,9 +2616,9 @@ self
 .
 run_make
 (
-'
+"
 plugin
-'
+"
 )
         
 if
@@ -2619,13 +2666,13 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 openh264
-'
+"
 )
         
 package_name
@@ -2646,9 +2693,9 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
 package_name
 )
@@ -2705,7 +2752,7 @@ re
 .
 search
 (
-                    
+                
 "
 (
 ?
@@ -2744,8 +2791,8 @@ info
 d
 )
 "
-                    
 f
+            
 )
 :
                 
@@ -2803,9 +2850,9 @@ to_package
 cmd
 =
 [
-'
+"
 zip
-'
+"
 package_file
 ]
 +
@@ -2847,8 +2894,8 @@ self
 .
 copy_to_upload_dir
 (
+            
 package_file
-                                
 dest
 =
 os
@@ -2858,12 +2905,12 @@ path
 join
 (
 srcdir
-'
+"
 artifacts
-'
-                                                  
+"
 package_name
 )
+        
 )
         
 path
@@ -2874,27 +2921,28 @@ path
 .
 join
 (
+            
 self
 .
 query_abs_dirs
 (
 )
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-                            
-'
+"
 .
 .
-'
-'
+"
+"
 public
-'
-'
+"
+"
 build
-'
+"
+        
 )
         
 self
@@ -2935,13 +2983,13 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 openh264
-'
+"
 )
         
 package_name
@@ -2950,13 +2998,13 @@ self
 .
 run_make
 (
-'
+"
 echo
 -
 plugin
 -
 name
-'
+"
 capture_output
 =
 True
@@ -3045,9 +3093,9 @@ path
 join
 (
 srcdir
-'
+"
 artifacts
-'
+"
 symbol_package_name
 )
         
@@ -3061,13 +3109,13 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 openh264
-'
+"
 )
         
 env
@@ -3081,9 +3129,9 @@ config
 .
 get
 (
-'
+"
 partial_env
-'
+"
 )
 :
             
@@ -3097,9 +3145,9 @@ self
 .
 config
 [
-'
+"
 partial_env
-'
+"
 ]
 )
         
@@ -3125,15 +3173,15 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
 c
 [
-'
+"
 dump_syms_binary
-'
+"
 ]
 )
         
@@ -3151,17 +3199,19 @@ self
 .
 query_exe
 (
-'
+"
 python2
 .
 7
-'
+"
 )
         
 cmd
 =
 [
+            
 python
+            
 os
 .
 path
@@ -3169,23 +3219,25 @@ path
 join
 (
 external_tools_path
-'
+"
 packagesymbols
 .
 py
-'
+"
 )
-               
-'
+            
+"
 -
 -
 symbol
 -
 zip
-'
+"
+            
 symbol_zip_path
-               
+            
 dump_syms
+            
 os
 .
 path
@@ -3195,6 +3247,7 @@ join
 srcdir
 package_name
 )
+        
 ]
         
 self
@@ -3220,9 +3273,9 @@ self
 .
 run_make
 (
-'
+"
 test
-'
+"
 )
         
 if
@@ -3245,24 +3298,31 @@ failures
 def
 copy_to_upload_dir
 (
+        
 self
+        
 target
+        
 dest
 =
 None
+        
 log_level
 =
 DEBUG
-                           
+        
 error_level
 =
 ERROR
+        
 compress
 =
 False
+        
 upload_dir
 =
 None
+    
 )
 :
         
@@ -3348,9 +3408,9 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_upload_dir
-'
+"
 ]
         
 if
@@ -3375,9 +3435,9 @@ dest
 .
 endswith
 (
-'
+"
 /
-'
+"
 )
 :
             
@@ -3569,9 +3629,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 myScript

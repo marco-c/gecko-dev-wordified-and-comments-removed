@@ -47,34 +47,33 @@ argparse
 .
 ArgumentParser
 (
-        
 description
 =
-'
+"
 Produce
 archive
 of
 generated
 sources
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 outputfile
-'
+"
 help
 =
-'
+"
 File
 to
 write
 output
 to
-'
+"
 )
     
 args
@@ -156,6 +155,7 @@ objdir_abspath
             
 print
 (
+                
 "
 Warning
 :
@@ -171,12 +171,13 @@ archive
 "
 %
 entry_abspath
-                  
+                
 file
 =
 sys
 .
 stderr
+            
 )
             
 return
@@ -204,9 +205,9 @@ open
 args
 .
 outputfile
-'
+"
 wb
-'
+"
 )
 as
 fh
@@ -224,9 +225,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 sys

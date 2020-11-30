@@ -111,6 +111,7 @@ pointerType
 mouse
 "
 }
+        
 )
         
 if
@@ -193,6 +194,7 @@ marionette
 .
 execute_script
 (
+            
 "
 "
 "
@@ -230,9 +232,11 @@ click_y
 "
 "
 "
+            
 sandbox
 =
 None
+        
 )
     
 def
@@ -368,16 +372,18 @@ self
 .
 assertEqual
 (
+            
 "
 Clicked
 "
+            
 self
 .
 marionette
 .
 execute_script
 (
-            
+                
 "
 return
 document
@@ -391,7 +397,9 @@ mozLink
 .
 innerHTML
 "
+            
 )
+        
 )
     
 def
@@ -407,8 +415,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -437,7 +447,9 @@ div
 "
 "
 "
+            
 )
+        
 )
         
 el
@@ -495,8 +507,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -536,7 +550,9 @@ button
 "
 "
 "
+            
 )
+        
 )
         
 el
@@ -586,6 +602,7 @@ marionette
 .
 execute_script
 (
+            
 "
 return
 window
@@ -595,6 +612,7 @@ eventCount
 sandbox
 =
 None
+        
 )
         
 self
@@ -1050,8 +1068,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -1105,7 +1125,9 @@ clientY
 "
 "
 "
+            
 )
+        
 )
         
 elem
@@ -1166,7 +1188,6 @@ _
 self
 .
 click_position
-            
 message
 =
 "
@@ -1235,8 +1256,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -1290,7 +1313,9 @@ clientY
 "
 "
 "
+            
 )
+        
 )
         
 elem
@@ -1351,7 +1376,6 @@ _
 self
 .
 click_position
-            
 message
 =
 "
@@ -1420,8 +1444,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -1475,7 +1501,9 @@ clientY
 "
 "
 "
+            
 )
+        
 )
         
 elem

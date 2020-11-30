@@ -10,84 +10,79 @@ object
 COLOR
 =
 {
-        
-'
+"
 red
-'
+"
 :
-'
+"
 31
-'
-        
-'
+"
+"
 green
-'
+"
 :
-'
+"
 32
-'
-        
-'
+"
+"
 blue
-'
+"
 :
-'
+"
 34
-'
-        
-'
+"
+"
 gray
-'
+"
 :
-'
+"
 37
-'
-    
+"
 }
     
 NORMAL_INTENSITY
 =
-'
+"
 1
-'
+"
     
 BRIGHT_INTENSITY
 =
-'
+"
 2
-'
+"
     
 ESCAPE
 =
-'
+"
 \
 x1b
 [
-'
+"
     
 RESET
 =
-'
+"
 0
-'
+"
     
 SEPARATOR
 =
-'
+"
 ;
-'
+"
     
 COLOR_CODE
 =
-'
+"
 m
-'
+"
     
 CLEAR_RIGHT_CODE
 =
-'
+"
 K
-'
+"
     
 classmethod
     
@@ -126,9 +121,9 @@ color
 .
 startswith
 (
-'
+"
 bright
-'
+"
 )
 :
             
@@ -144,9 +139,9 @@ color
 [
 len
 (
-'
+"
 bright
-'
+"
 )
 :
 ]
@@ -177,7 +172,6 @@ cls
 SEPARATOR
 +
 mod
-                         
 +
 cls
 .

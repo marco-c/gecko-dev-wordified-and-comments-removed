@@ -35,6 +35,7 @@ marionette
 .
 execute_script
 (
+            
 "
 "
 "
@@ -79,6 +80,7 @@ property
 sandbox
 =
 None
+        
 )
     
 def
@@ -176,6 +178,7 @@ identity_box
 "
 backgroundColor
 "
+            
 )
             
 actual_bg_colour

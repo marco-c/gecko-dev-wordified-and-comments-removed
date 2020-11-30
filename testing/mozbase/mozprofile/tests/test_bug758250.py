@@ -89,12 +89,12 @@ path
 join
 (
 here
-'
+"
 addons
-'
-'
+"
+"
 empty
-'
+"
 )
     
 assert
@@ -131,11 +131,11 @@ path
 join
 (
 addon
-'
+"
 install
 .
 rdf
-'
+"
 )
 )
     
@@ -168,11 +168,11 @@ path
 join
 (
 tmpdir
-'
+"
 install
 .
 rdf
-'
+"
 )
 )
     
@@ -236,20 +236,20 @@ path
 join
 (
 tmpdir
-'
+"
 install
 .
 rdf
-'
+"
 )
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

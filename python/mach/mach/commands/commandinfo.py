@@ -696,26 +696,25 @@ commands_info
     
 Command
 (
-'
+"
 mach
 -
 commands
-'
+"
 category
 =
-'
+"
 misc
-'
-             
+"
 description
 =
-'
+"
 List
 all
 mach
 commands
 .
-'
+"
 )
     
 def
@@ -742,22 +741,24 @@ commands
     
 Command
 (
-'
+        
+"
 mach
 -
 debug
 -
 commands
-'
+"
+        
 category
 =
-'
+"
 misc
-'
-             
+"
+        
 description
 =
-'
+"
 Show
 info
 about
@@ -765,31 +766,36 @@ available
 mach
 commands
 .
-'
+"
+    
 )
     
 CommandArgument
 (
-'
+        
+"
 match
-'
+"
+        
 metavar
 =
-'
+"
 MATCH
-'
+"
+        
 default
 =
 None
+        
 nargs
 =
-'
+"
 ?
-'
-                     
+"
+        
 help
 =
-'
+"
 Only
 display
 commands
@@ -797,7 +803,8 @@ containing
 given
 substring
 .
-'
+"
+    
 )
     
 def
@@ -851,9 +858,9 @@ cls
 getattr
 (
 handler
-'
+"
 method
-'
+"
 )
 )
             
@@ -864,9 +871,9 @@ command
             
 print
 (
-'
+"
 =
-'
+"
 *
 len
 (
@@ -876,18 +883,18 @@ command
             
 print
 (
-'
-'
+"
+"
 )
             
 print
 (
-'
+"
 File
 :
 %
 s
-'
+"
 %
 inspect
 .
@@ -899,12 +906,12 @@ method
             
 print
 (
-'
+"
 Class
 :
 %
 s
-'
+"
 %
 cls
 .
@@ -913,12 +920,12 @@ __name__
             
 print
 (
-'
+"
 Method
 :
 %
 s
-'
+"
 %
 handler
 .
@@ -927,26 +934,28 @@ method
             
 print
 (
-'
-'
+"
+"
 )
     
 Command
 (
-'
+        
+"
 mach
 -
 completion
-'
+"
+        
 category
 =
-'
+"
 misc
-'
-             
+"
+        
 description
 =
-'
+"
 Prints
 a
 list
@@ -958,14 +967,16 @@ the
 specified
 command
 .
-'
+"
+    
 )
     
 CommandArgument
 (
-'
+        
+"
 args
-'
+"
 default
 =
 None
@@ -974,7 +985,6 @@ nargs
 argparse
 .
 REMAINDER
-                     
 help
 =
 "
@@ -983,6 +993,7 @@ to
 complete
 .
 "
+    
 )
     
 def
@@ -1017,9 +1028,9 @@ return
         
 is_help
 =
-'
+"
 help
-'
+"
 in
 args
         
@@ -1153,9 +1164,9 @@ targets
 .
 append
 (
-'
+"
 help
-'
+"
 )
         
 targets
@@ -1318,15 +1329,17 @@ value
     
 SubCommand
 (
-'
+        
+"
 mach
 -
 completion
-'
-'
+"
+        
+"
 bash
-'
-                
+"
+        
 description
 =
 "
@@ -1338,28 +1351,33 @@ for
 bash
 shell
 "
+    
 )
     
 CommandArgument
 (
+        
 "
 -
 f
 "
+        
 "
 -
 -
 file
 "
+        
 dest
 =
 "
 outfile
 "
+        
 default
 =
 None
-                     
+        
 help
 =
 "
@@ -1371,6 +1389,7 @@ completion
 script
 .
 "
+    
 )
     
 def
@@ -1460,6 +1479,7 @@ case_options
 .
 append
 (
+                    
 "
 \
 n
@@ -1467,8 +1487,9 @@ n
 .
 join
 (
+                        
 [
-                    
+                            
 "
 (
 {
@@ -1482,7 +1503,7 @@ cmd
 .
 name
 )
-                    
+                            
 '
 opts
 =
@@ -1507,17 +1528,19 @@ join
 options
 )
 )
-                    
+                            
 "
 ;
 ;
 "
-                    
+                            
 "
 "
-                
+                        
 ]
+                    
 )
+                
 )
             
 for
@@ -1573,6 +1596,7 @@ case_options
 .
 append
 (
+                        
 "
 \
 n
@@ -1580,8 +1604,9 @@ n
 .
 join
 (
+                            
 [
-                        
+                                
 '
 (
 "
@@ -1595,14 +1620,16 @@ join
 .
 format
 (
+                                    
 sub
 .
 name
 sub
 .
 subcommand
+                                
 )
-                        
+                                
 '
 opts
 =
@@ -1619,6 +1646,7 @@ opts
 .
 format
 (
+                                    
 "
 "
 .
@@ -1626,18 +1654,21 @@ join
 (
 options
 )
+                                
 )
-                        
+                                
 "
 ;
 ;
 "
-                        
+                                
 "
 "
-                    
+                            
 ]
+                        
 )
+                    
 )
             
 subcommands
@@ -1670,6 +1701,7 @@ commands_subcommands
 .
 append
 (
+                    
 '
 [
 {
@@ -1684,7 +1716,7 @@ append
 .
 format
 (
-                    
+                        
 cmd
 .
 name
@@ -1705,6 +1737,7 @@ cmd
 subcommands
 ]
 )
+                    
 )
                 
 )
@@ -1713,6 +1746,7 @@ case_subcommands
 .
 append
 (
+                    
 "
 \
 n
@@ -1720,8 +1754,9 @@ n
 .
 join
 (
+                        
 [
-                    
+                            
 "
 (
 {
@@ -1735,7 +1770,7 @@ cmd
 .
 name
 )
-                    
+                            
 '
 subs
 =
@@ -1752,6 +1787,7 @@ subs
 .
 format
 (
+                                
 "
 "
 .
@@ -1759,18 +1795,21 @@ join
 (
 subcommands
 )
+                            
 )
-                    
+                            
 "
 ;
 ;
 "
-                    
+                            
 "
 "
-                
+                        
 ]
+                    
 )
+                
 )
         
 globalopts
@@ -1872,9 +1911,9 @@ outfile
 open
 (
 outfile
-'
+"
 w
-'
+"
 )
 if
 outfile
@@ -1899,15 +1938,17 @@ outfile
     
 SubCommand
 (
-'
+        
+"
 mach
 -
 completion
-'
-'
+"
+        
+"
 zsh
-'
-                
+"
+        
 description
 =
 "
@@ -1919,28 +1960,33 @@ for
 zsh
 shell
 "
+    
 )
     
 CommandArgument
 (
+        
 "
 -
 f
 "
+        
 "
 -
 -
 file
 "
+        
 dest
 =
 "
 outfile
 "
+        
 default
 =
 None
-                     
+        
 help
 =
 "
@@ -1952,6 +1998,7 @@ completion
 script
 .
 "
+    
 )
     
 def
@@ -1998,7 +2045,6 @@ commands_descriptions
 .
 append
 (
-                
 self
 .
 _zsh_describe
@@ -2010,7 +2056,6 @@ cmd
 .
 description
 )
-            
 )
             
 options
@@ -2058,6 +2103,7 @@ case_options
 .
 append
 (
+                    
 "
 \
 n
@@ -2065,8 +2111,9 @@ n
 .
 join
 (
+                        
 [
-                    
+                            
 "
 (
 {
@@ -2080,7 +2127,7 @@ cmd
 .
 name
 )
-                    
+                            
 "
 opts
 +
@@ -2101,17 +2148,19 @@ join
 options
 )
 )
-                    
+                            
 "
 ;
 ;
 "
-                    
+                            
 "
 "
-                
+                        
 ]
+                    
 )
+                
 )
             
 for
@@ -2167,6 +2216,7 @@ case_options
 .
 append
 (
+                        
 "
 \
 n
@@ -2174,8 +2224,9 @@ n
 .
 join
 (
+                            
 [
-                        
+                                
 "
 (
 {
@@ -2194,7 +2245,7 @@ sub
 .
 subcommand
 )
-                        
+                                
 "
 opts
 +
@@ -2215,17 +2266,19 @@ join
 options
 )
 )
-                        
+                                
 "
 ;
 ;
 "
-                        
+                                
 "
 "
-                    
+                            
 ]
+                        
 )
+                    
 )
             
 subcommands
@@ -2260,6 +2313,7 @@ commands_subcommands
 .
 append
 (
+                    
 '
 [
 {
@@ -2274,7 +2328,7 @@ append
 .
 format
 (
-                    
+                        
 cmd
 .
 name
@@ -2295,6 +2349,7 @@ cmd
 subcommands
 ]
 )
+                    
 )
                 
 )
@@ -2303,6 +2358,7 @@ case_subcommands
 .
 append
 (
+                    
 "
 \
 n
@@ -2310,8 +2366,9 @@ n
 .
 join
 (
+                        
 [
-                    
+                            
 "
 (
 {
@@ -2325,7 +2382,7 @@ cmd
 .
 name
 )
-                    
+                            
 "
 subs
 +
@@ -2346,17 +2403,19 @@ join
 subcommands
 )
 )
-                    
+                            
 "
 ;
 ;
 "
-                    
+                            
 "
 "
-                
+                        
 ]
+                    
 )
+                
 )
         
 globalopts
@@ -2480,9 +2539,9 @@ outfile
 open
 (
 outfile
-'
+"
 w
-'
+"
 )
 if
 outfile
@@ -2507,15 +2566,17 @@ outfile
     
 SubCommand
 (
-'
+        
+"
 mach
 -
 completion
-'
-'
+"
+        
+"
 fish
-'
-                
+"
+        
 description
 =
 "
@@ -2527,28 +2588,33 @@ for
 fish
 shell
 "
+    
 )
     
 CommandArgument
 (
+        
 "
 -
 f
 "
+        
 "
 -
 -
 file
 "
+        
 dest
 =
 "
 outfile
 "
+        
 default
 =
 None
-                     
+        
 help
 =
 "
@@ -2560,6 +2626,7 @@ completion
 script
 .
 "
+    
 )
     
 def
@@ -2589,10 +2656,10 @@ opt
 .
 startswith
 (
-'
+"
 -
 -
-'
+"
 )
 :
                     
@@ -2620,9 +2687,9 @@ opt
 .
 startswith
 (
-'
+"
 -
-'
+"
 )
 :
                     
@@ -2890,6 +2957,7 @@ d
 .
 format
 (
+                        
 cmd
 .
 name
@@ -2907,6 +2975,7 @@ replace
 '
 "
 )
+                    
 )
                 
 )
@@ -2980,6 +3049,7 @@ d
 .
 format
 (
+                            
 sub
 .
 name
@@ -2999,6 +3069,7 @@ replace
 '
 "
 )
+                        
 )
                     
 )
@@ -3080,6 +3151,7 @@ a
 .
 format
 (
+                        
 cmd
 .
 name
@@ -3088,6 +3160,7 @@ description
 sub
 .
 subcommand
+                    
 )
                 
 )
@@ -3187,9 +3260,9 @@ outfile
 open
 (
 outfile
-'
+"
 w
-'
+"
 )
 if
 outfile

@@ -19,58 +19,57 @@ LinuxBootstrapper
 class
 OpenSUSEBootstrapper
 (
-        
 LinuxBootstrapper
 BaseBootstrapper
 )
 :
     
-'
-'
-'
+"
+"
+"
 openSUSE
 experimental
 bootstrapper
 .
-'
-'
-'
+"
+"
+"
     
 SYSTEM_PACKAGES
 =
 [
         
-'
+"
 autoconf213
-'
+"
         
-'
+"
 nodejs
-'
+"
         
-'
+"
 npm
-'
+"
         
-'
+"
 which
-'
+"
         
-'
+"
 rpmconf
-'
+"
         
-'
+"
 libcurl
 -
 devel
-'
+"
         
-'
+"
 libpulse
 -
 devel
-'
+"
     
 ]
     
@@ -78,27 +77,27 @@ BROWSER_PACKAGES
 =
 [
         
-'
+"
 alsa
 -
 devel
-'
+"
         
-'
+"
 gcc
 -
 c
 +
 +
-'
+"
         
-'
+"
 gtk3
 -
 devel
-'
+"
         
-'
+"
 dbus
 -
 1
@@ -106,71 +105,71 @@ dbus
 glib
 -
 devel
-'
+"
         
-'
+"
 gconf2
 -
 devel
-'
+"
         
-'
+"
 glibc
 -
 devel
 -
 static
-'
+"
         
-'
+"
 libstdc
 +
 +
 -
 devel
-'
+"
         
-'
+"
 libXt
 -
 devel
-'
+"
         
-'
+"
 libproxy
 -
 devel
-'
+"
         
-'
+"
 libuuid
 -
 devel
-'
+"
         
-'
+"
 yasm
-'
+"
         
-'
+"
 gtk2
 -
 devel
-'
+"
         
-'
+"
 clang
 -
 devel
-'
+"
         
-'
+"
 patterns
 -
 gnome
 -
 devel_gnome
-'
+"
     
 ]
     
@@ -178,15 +177,15 @@ BROWSER_GROUP_PACKAGES
 =
 [
         
-'
+"
 devel_C_C
 +
 +
-'
+"
         
-'
+"
 devel_gnome
-'
+"
     
 ]
     
@@ -194,17 +193,17 @@ MOBILE_ANDROID_COMMON_PACKAGES
 =
 [
         
-'
+"
 java
 -
 1_8_0
 -
 openjdk
-'
+"
         
-'
+"
 wget
-'
+"
     
 ]
     
@@ -222,7 +221,7 @@ kwargs
         
 print
 (
-'
+"
 Using
 an
 experimental
@@ -230,7 +229,7 @@ bootstrapper
 for
 openSUSE
 .
-'
+"
 )
         
 BaseBootstrapper
@@ -347,20 +346,20 @@ self
 run_as_root
 (
 [
-'
+"
 pip
-'
-'
+"
+"
 install
-'
-'
+"
+"
 -
 -
 upgrade
-'
-'
+"
+"
 pip
-'
+"
 ]
 )
         
@@ -369,20 +368,20 @@ self
 run_as_root
 (
 [
-'
+"
 pip
-'
-'
+"
+"
 install
-'
-'
+"
+"
 -
 -
 upgrade
-'
-'
+"
+"
 Mercurial
-'
+"
 ]
 )
     
@@ -410,6 +409,7 @@ checkout_root
 static_analysis
 .
 LINUX_CLANG_TIDY
+        
 )
     
 def
@@ -483,7 +483,8 @@ e
             
 print
 (
-'
+                
+"
 Failed
 to
 install
@@ -493,9 +494,9 @@ packages
 The
 Android
 developer
-'
-                  
-'
+"
+                
+"
 toolchain
 requires
 32
@@ -503,7 +504,8 @@ bit
 binaries
 be
 enabled
-'
+"
+            
 )
             
 raise
@@ -518,18 +520,19 @@ android
 .
 ensure_android
 (
-'
+            
+"
 linux
-'
+"
 artifact_mode
 =
 artifact_mode
-                               
 no_interactive
 =
 self
 .
 no_interactive
+        
 )
     
 def
@@ -552,9 +555,9 @@ android
 .
 generate_mozconfig
 (
-'
+"
 linux
-'
+"
 artifact_mode
 =
 artifact_mode
@@ -601,20 +604,20 @@ self
 run_as_root
 (
 [
-'
+"
 pip3
-'
-'
+"
+"
 install
-'
-'
+"
+"
 -
 -
 upgrade
-'
-'
+"
+"
 pip
-'
+"
 ]
 )
         
@@ -623,20 +626,20 @@ self
 run_as_root
 (
 [
-'
+"
 pip3
-'
-'
+"
+"
 install
-'
-'
+"
+"
 -
 -
 upgrade
-'
-'
+"
+"
 Mercurial
-'
+"
 ]
 )
     
@@ -653,9 +656,9 @@ self
 .
 zypper_install
 (
-'
+"
 nasm
-'
+"
 )
     
 def
@@ -670,12 +673,12 @@ packages
 command
 =
 [
-'
+"
 zypper
-'
-'
+"
+"
 install
-'
+"
 ]
         
 if
@@ -688,10 +691,10 @@ command
 .
 append
 (
-'
+"
 -
 n
-'
+"
 )
         
 command
@@ -720,12 +723,12 @@ packages
 command
 =
 [
-'
+"
 zypper
-'
-'
+"
+"
 update
-'
+"
 ]
         
 if
@@ -738,10 +741,10 @@ command
 .
 append
 (
-'
+"
 -
 n
-'
+"
 )
         
 command
@@ -770,19 +773,19 @@ packages
 command
 =
 [
-'
+"
 zypper
-'
-'
+"
+"
 install
-'
-'
+"
+"
 -
 t
-'
-'
+"
+"
 pattern
-'
+"
 ]
         
 if
@@ -795,10 +798,10 @@ command
 .
 append
 (
-'
+"
 -
 y
-'
+"
 )
         
 command

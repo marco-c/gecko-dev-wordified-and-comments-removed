@@ -25,35 +25,35 @@ commands
     
 SO_PORTRAIT_PRIMARY
 =
-'
+"
 portrait
 -
 primary
-'
+"
     
 SO_PORTRAIT_SECONDARY
 =
-'
+"
 portrait
 -
 secondary
-'
+"
     
 SO_LANDSCAPE_PRIMARY
 =
-'
+"
 landscape
 -
 primary
-'
+"
     
 SO_LANDSCAPE_SECONDARY
 =
-'
+"
 landscape
 -
 secondary
-'
+"
     
 def
 __init__
@@ -116,11 +116,11 @@ emulator
 .
 _run_telnet
 (
-'
+"
 sensor
 get
 orientation
-'
+"
 )
         
 return
@@ -131,9 +131,9 @@ response
 .
 split
 (
-'
+"
 =
-'
+"
 )
 [
 1
@@ -174,13 +174,13 @@ emulator
 .
 _run_telnet
 (
-'
+"
 sensor
 set
 orientation
 %
 s
-'
+"
 %
 data
 )
@@ -265,14 +265,14 @@ if
 data
 =
 =
-'
+"
 0
 :
 -
 90
 :
 0
-'
+"
 :
             
 orientation
@@ -285,13 +285,13 @@ elif
 data
 =
 =
-'
+"
 0
 :
 90
 :
 0
-'
+"
 :
             
 orientation
@@ -304,13 +304,13 @@ elif
 data
 =
 =
-'
+"
 0
 :
 0
 :
 90
-'
+"
 :
             
 orientation
@@ -323,14 +323,14 @@ elif
 data
 =
 =
-'
+"
 0
 :
 0
 :
 -
 90
-'
+"
 :
             
 orientation
@@ -345,7 +345,7 @@ else
 raise
 ValueError
 (
-'
+"
 Unknown
 orientation
 sensor
@@ -354,7 +354,7 @@ value
 %
 s
 .
-'
+"
 %
 data
 )
@@ -448,14 +448,14 @@ SO_PORTRAIT_PRIMARY
             
 data
 =
-'
+"
 0
 :
 -
 90
 :
 0
-'
+"
         
 elif
 orientation
@@ -468,13 +468,13 @@ SO_PORTRAIT_SECONDARY
             
 data
 =
-'
+"
 0
 :
 90
 :
 0
-'
+"
         
 elif
 orientation
@@ -487,13 +487,13 @@ SO_LANDSCAPE_PRIMARY
             
 data
 =
-'
+"
 0
 :
 0
 :
 90
-'
+"
         
 elif
 orientation
@@ -506,14 +506,14 @@ SO_LANDSCAPE_SECONDARY
             
 data
 =
-'
+"
 0
 :
 0
 :
 -
 90
-'
+"
         
 else
 :
@@ -521,13 +521,13 @@ else
 raise
 ValueError
 (
-'
+"
 Invalid
 orientation
 :
 %
 s
-'
+"
 %
 orientation
 )
@@ -549,6 +549,7 @@ set_orientation
 SCREEN_ORIENTATIONS
 =
 {
+    
 "
 portrait
 "
@@ -556,7 +557,7 @@ portrait
 EmulatorScreen
 .
 SO_PORTRAIT_PRIMARY
-                       
+    
 "
 landscape
 "
@@ -564,7 +565,7 @@ landscape
 EmulatorScreen
 .
 SO_LANDSCAPE_PRIMARY
-                       
+    
 "
 portrait
 -
@@ -574,7 +575,7 @@ primary
 EmulatorScreen
 .
 SO_PORTRAIT_PRIMARY
-                       
+    
 "
 landscape
 -
@@ -584,7 +585,7 @@ primary
 EmulatorScreen
 .
 SO_LANDSCAPE_PRIMARY
-                       
+    
 "
 portrait
 -
@@ -594,7 +595,7 @@ secondary
 EmulatorScreen
 .
 SO_PORTRAIT_SECONDARY
-                       
+    
 "
 landscape
 -

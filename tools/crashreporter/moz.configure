@@ -55,7 +55,7 @@ MPL
 .
 include
 (
-'
+"
 .
 .
 /
@@ -71,5 +71,5 @@ configure
 rust
 .
 configure
-'
+"
 )

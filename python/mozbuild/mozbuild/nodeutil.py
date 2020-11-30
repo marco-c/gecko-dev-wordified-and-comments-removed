@@ -14,10 +14,7 @@ distutils
 .
 version
 import
-(
-    
 StrictVersion
-)
 from
 mozboot
 .
@@ -92,9 +89,9 @@ directory
 "
     
 if
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 in
 os
 .
@@ -107,9 +104,9 @@ os
 .
 environ
 [
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 ]
     
 else
@@ -143,9 +140,9 @@ path
 join
 (
 mozbuild_state_dir
-'
+"
 node
-'
+"
 )
     
 else
@@ -160,12 +157,12 @@ path
 join
 (
 mozbuild_state_dir
-'
+"
 node
-'
-'
+"
+"
 bin
-'
+"
 )
     
 paths
@@ -180,9 +177,9 @@ environ
 .
 get
 (
-'
+"
 PATH
-'
+"
 )
 .
 split
@@ -368,10 +365,13 @@ binary
             
 out
 =
+(
+                
 subprocess
 .
 check_output
 (
+                    
 [
 binary
 exe
@@ -381,21 +381,25 @@ exe
 version
 "
 ]
-                                          
 universal_newlines
 =
 PY3
+                
 )
+                
 .
 lstrip
 (
-'
+"
 v
-'
+"
 )
+                
 .
 rstrip
 (
+)
+            
 )
     
 if
@@ -405,6 +409,8 @@ out
         
 out
 =
+(
+            
 subprocess
 .
 check_output
@@ -417,21 +423,24 @@ exe
 version
 "
 ]
-                                      
 universal_newlines
 =
 PY3
 )
+            
 .
 lstrip
 (
-'
+"
 v
-'
+"
 )
+            
 .
 rstrip
 (
+)
+        
 )
     
 return
@@ -442,6 +451,7 @@ out
 def
 find_node_executable
 (
+    
 nodejs_exe
 =
 os
@@ -450,9 +460,9 @@ environ
 .
 get
 (
-'
+"
 NODEJS
-'
+"
 )
 min_version
 =
@@ -559,12 +569,12 @@ return
 find_executable
 (
 [
-'
+"
 nodejs
-'
-'
+"
+"
 node
-'
+"
 ]
 min_version
 )

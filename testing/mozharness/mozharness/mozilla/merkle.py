@@ -40,10 +40,10 @@ return
 hash_fn
 (
 b
-'
+"
 \
 x00
-'
+"
 +
 leaf
 )
@@ -64,10 +64,10 @@ return
 hash_fn
 (
 b
-'
+"
 \
 x01
-'
+"
 +
 left
 +
@@ -234,14 +234,14 @@ NodeHash
 LOG_ID
 =
 b
-'
+"
 \
 x02
 \
 x00
 \
 x00
-'
+"
     
 def
 __init__
@@ -302,7 +302,7 @@ read
 raise
 Exception
 (
-'
+"
 Inclusion
 proof
 too
@@ -311,18 +311,20 @@ for
 log
 ID
 header
-'
+"
 )
         
+(
 log_id_len
+)
 =
 struct
 .
 unpack
 (
-'
+"
 B
-'
+"
 serialized
 [
 start
@@ -365,7 +367,7 @@ read
 raise
 Exception
 (
-'
+"
 Inclusion
 proof
 too
@@ -373,7 +375,7 @@ short
 for
 middle
 section
-'
+"
 )
         
 tree_size
@@ -384,10 +386,11 @@ struct
 .
 unpack
 (
-'
+            
+"
 !
 QQH
-'
+"
 serialized
 [
 start
@@ -396,6 +399,7 @@ start
 +
 read
 ]
+        
 )
         
 start
@@ -446,7 +450,7 @@ read
 raise
 Exception
 (
-'
+"
 Inclusion
 proof
 too
@@ -454,19 +458,21 @@ short
 for
 middle
 section
-'
+"
 )
             
+(
 elem_len
+)
 =
 struct
 .
 unpack
 (
-'
+"
 !
 B
-'
+"
 serialized
 [
 start
@@ -500,7 +506,7 @@ read
 raise
 Exception
 (
-'
+"
 Inclusion
 proof
 too
@@ -508,7 +514,7 @@ short
 for
 middle
 section
-'
+"
 )
             
 if
@@ -522,14 +528,14 @@ read
 raise
 Exception
 (
-'
+"
 Inclusion
 proof
 element
 exceeds
 declared
 length
-'
+"
 )
             
 path_elements
@@ -569,8 +575,8 @@ self
 inclusion_path
 =
 b
-'
-'
+"
+"
         
 for
 step
@@ -586,9 +592,9 @@ struct
 .
 pack
 (
-'
+"
 B
-'
+"
 len
 (
 step
@@ -608,10 +614,11 @@ struct
 .
 pack
 (
-'
+            
+"
 !
 QQH
-'
+"
 self
 .
 tree_size
@@ -622,6 +629,7 @@ len
 (
 inclusion_path
 )
+        
 )
         
 return
@@ -708,7 +716,6 @@ leaf_index
 k
         
 assert
-(
 len
 (
 lr
@@ -720,7 +727,6 @@ len
 self
 .
 path_elements
-)
 )
         
 for
@@ -1108,6 +1114,7 @@ k
 )
 +
 [
+                
 self
 .
 _node
@@ -1117,6 +1124,7 @@ start
 k
 end
 )
+            
 ]
         
 elif
@@ -1141,6 +1149,7 @@ end
 )
 +
 [
+                
 self
 .
 _node
@@ -1150,6 +1159,7 @@ start
 +
 k
 )
+            
 ]
     
 def

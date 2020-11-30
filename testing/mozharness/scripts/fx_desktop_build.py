@@ -70,11 +70,14 @@ building
 .
 buildbase
 import
+(
+    
 BUILD_BASE_CONFIG_OPTIONS
-\
     
 BuildingConfig
+    
 BuildScript
+)
 class
 FxDesktopBuild
 (
@@ -94,75 +97,75 @@ buildscript_kwargs
 =
 {
             
-'
+"
 config_options
-'
+"
 :
 BUILD_BASE_CONFIG_OPTIONS
             
-'
+"
 all_actions
-'
+"
 :
 [
                 
-'
+"
 get
 -
 secrets
-'
+"
                 
-'
+"
 clobber
-'
+"
                 
-'
+"
 build
-'
+"
                 
-'
+"
 static
 -
 analysis
 -
 autotest
-'
+"
                 
-'
+"
 valgrind
 -
 test
-'
+"
                 
-'
+"
 multi
 -
 l10n
-'
+"
                 
-'
+"
 package
 -
 source
-'
+"
             
 ]
             
-'
+"
 require_config_file
-'
+"
 :
 True
             
-'
+"
 config
-'
+"
 :
 {
                 
-'
+"
 is_automation
-'
+"
 :
 True
                 
@@ -214,11 +217,11 @@ mozilla
 org
 "
                 
-'
+"
 build_resources_path
-'
+"
 :
-'
+"
 %
 (
 upload_path
@@ -228,44 +231,44 @@ s
 build_resources
 .
 json
-'
+"
                 
-'
+"
 nightly_promotion_branches
-'
+"
 :
 [
-'
+"
 mozilla
 -
 central
-'
-'
+"
+"
 mozilla
 -
 aurora
-'
+"
 ]
                 
-'
+"
 clone_with_purge
-'
+"
 :
 False
                 
-'
+"
 clone_by_revision
-'
+"
 :
 False
                 
-'
+"
 virtualenv_modules
-'
+"
 :
 [
                     
-'
+"
 requests
 =
 =
@@ -274,23 +277,23 @@ requests
 8
 .
 1
-'
+"
                 
 ]
                 
-'
+"
 virtualenv_path
-'
+"
 :
-'
+"
 venv
-'
+"
             
 }
             
-'
+"
 ConfigClass
-'
+"
 :
 BuildingConfig
         
@@ -343,9 +346,9 @@ dirs
 =
 {
             
-'
+"
 abs_obj_dir
-'
+"
 :
 os
 .
@@ -355,11 +358,10 @@ join
 (
 abs_dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-                                        
 self
 .
 _query_objdir
@@ -367,9 +369,9 @@ _query_objdir
 )
 )
             
-'
+"
 upload_path
-'
+"
 :
 self
 .
@@ -446,9 +448,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 fx_desktop_build

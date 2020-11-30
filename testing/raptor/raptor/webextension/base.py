@@ -729,6 +729,7 @@ _runtime_error
 raise
 RuntimeError
 (
+                
 "
 Failed
 to
@@ -749,14 +750,14 @@ n
 .
 format
 (
-                
+                    
 test
 [
 "
 name
 "
 ]
-                
+                    
 self
 .
 control_server
@@ -767,7 +768,7 @@ _runtime_error
 error
 "
 ]
-                
+                    
 self
 .
 control_server
@@ -778,8 +779,9 @@ _runtime_error
 stack
 "
 ]
-            
+                
 )
+            
 )
     
 def
@@ -837,39 +839,39 @@ mozproxy_replay
 {
                     
 u
-'
+"
 summarize
 -
 values
-'
+"
 :
 False
                     
 u
-'
+"
 suite
 -
 suffix
 -
 type
-'
+"
 :
 False
                     
 u
-'
+"
 type
-'
+"
 :
 u
-'
+"
 mozproxy
-'
+"
                     
 u
-'
+"
 test
-'
+"
 :
 test
 [
@@ -879,29 +881,29 @@ name
 ]
                     
 u
-'
+"
 unit
-'
+"
 :
 u
-'
+"
 a
 .
 u
 .
-'
+"
                     
 u
-'
+"
 values
-'
+"
 :
 confidence_values
                     
 u
-'
+"
 shouldAlert
-'
+"
 :
 False
                 
@@ -1028,15 +1030,12 @@ control_server
 =
 RaptorControlServer
 (
-            
 self
 .
 results_handler
-            
 self
 .
 debug_mode
-        
 )
         
 self

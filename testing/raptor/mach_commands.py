@@ -73,7 +73,7 @@ __file__
 )
 BENCHMARK_REPOSITORY
 =
-'
+"
 https
 :
 /
@@ -87,12 +87,12 @@ mozilla
 perf
 -
 automation
-'
+"
 BENCHMARK_REVISION
 =
-'
+"
 e19a0865c946ae2f9a64dd25614b1c275a3996b2
-'
+"
 ANDROID_BROWSERS
 =
 [
@@ -233,31 +233,31 @@ kwargs
 .
 get
 (
-'
+"
 host
-'
+"
 )
 =
 =
-'
+"
 HOST_IP
-'
+"
 :
             
 kwargs
 [
-'
+"
 host
-'
+"
 ]
 =
 os
 .
 environ
 [
-'
+"
 HOST_IP
-'
+"
 ]
         
 self
@@ -266,9 +266,9 @@ host
 =
 kwargs
 [
-'
+"
 host
-'
+"
 ]
         
 self
@@ -277,9 +277,9 @@ is_release_build
 =
 kwargs
 [
-'
+"
 is_release_build
-'
+"
 ]
         
 self
@@ -288,9 +288,9 @@ memory_test
 =
 kwargs
 [
-'
+"
 memory_test
-'
+"
 ]
         
 self
@@ -299,9 +299,9 @@ power_test
 =
 kwargs
 [
-'
+"
 power_test
-'
+"
 ]
         
 self
@@ -310,9 +310,9 @@ cpu_test
 =
 kwargs
 [
-'
+"
 cpu_test
-'
+"
 ]
         
 self
@@ -321,9 +321,9 @@ live_sites
 =
 kwargs
 [
-'
+"
 live_sites
-'
+"
 ]
         
 self
@@ -332,9 +332,9 @@ disable_perf_tuning
 =
 kwargs
 [
-'
+"
 disable_perf_tuning
-'
+"
 ]
         
 self
@@ -343,9 +343,9 @@ conditioned_profile_scenario
 =
 kwargs
 [
-'
+"
 conditioned_profile_scenario
-'
+"
 ]
         
 self
@@ -354,9 +354,9 @@ device_name
 =
 kwargs
 [
-'
+"
 device_name
-'
+"
 ]
         
 if
@@ -426,12 +426,12 @@ join
 self
 .
 topsrcdir
-'
+"
 testing
-'
-'
+"
+"
 raptor
-'
+"
 )
         
 self
@@ -447,12 +447,12 @@ join
 self
 .
 topsrcdir
-'
+"
 testing
-'
-'
+"
+"
 mozharness
-'
+"
 )
         
 self
@@ -469,16 +469,17 @@ join
 self
 .
 _topobjdir
-'
+"
 testing
-'
-'
+"
+"
 raptor
 -
 in_tree_conf
 .
 json
-'
+"
+        
 )
         
 self
@@ -495,20 +496,21 @@ join
 self
 .
 topsrcdir
-'
+"
 third_party
-'
-'
+"
+"
 python
-'
-'
+"
+"
 virtualenv
-'
-'
+"
+"
 virtualenv
 .
 py
-'
+"
+        
 )
         
 self
@@ -521,18 +523,17 @@ path
 .
 join
 (
-            
 self
 .
 _topobjdir
-'
+"
 testing
-'
-'
+"
+"
 raptor
 -
 venv
-'
+"
 )
     
 def
@@ -602,11 +603,11 @@ join
 get_state_dir
 (
 )
-'
+"
 performance
 -
 tests
-'
+"
 )
         
 print
@@ -651,14 +652,14 @@ subprocess
 check_output
 (
 [
-'
+"
 git
-'
-'
+"
+"
 -
 -
 version
-'
+"
 ]
 )
         
@@ -670,6 +671,7 @@ ex
             
 print
 (
+                
 "
 Git
 is
@@ -681,7 +683,7 @@ install
 git
 and
 "
-                  
+                
 "
 ensure
 it
@@ -692,6 +694,7 @@ the
 terminal
 path
 "
+            
 )
             
 raise
@@ -713,16 +716,18 @@ subprocess
 .
 check_call
 (
+                
 [
-'
+"
 git
-'
-'
+"
+"
 clone
-'
+"
 BENCHMARK_REPOSITORY
 external_repo_path
 ]
+            
 )
         
 else
@@ -733,15 +738,15 @@ subprocess
 check_call
 (
 [
-'
+"
 git
-'
-'
+"
+"
 checkout
-'
-'
+"
+"
 master
-'
+"
 ]
 cwd
 =
@@ -753,12 +758,12 @@ subprocess
 check_call
 (
 [
-'
+"
 git
-'
-'
+"
+"
 pull
-'
+"
 ]
 cwd
 =
@@ -769,18 +774,20 @@ subprocess
 .
 check_call
 (
+            
 [
-'
+"
 git
-'
-'
+"
+"
 checkout
-'
+"
 BENCHMARK_REVISION
 ]
 cwd
 =
 external_repo_path
+        
 )
         
 benchmark_paths
@@ -794,9 +801,9 @@ path
 join
 (
 external_repo_path
-'
+"
 benchmarks
-'
+"
 )
             
 os
@@ -808,15 +815,15 @@ join
 self
 .
 topsrcdir
-'
+"
 third_party
-'
-'
+"
+"
 webkit
-'
-'
+"
+"
 PerformanceTests
-'
+"
 )
         
 )
@@ -832,15 +839,15 @@ join
 self
 .
 topobjdir
-'
+"
 testing
-'
-'
+"
+"
 raptor
-'
-'
+"
+"
 benchmarks
-'
+"
 )
         
 if
@@ -918,9 +925,9 @@ name
 .
 startswith
 (
-'
+"
 .
-'
+"
 )
 :
                     
@@ -930,9 +937,9 @@ if
 hasattr
 (
 os
-'
+"
 symlink
-'
+"
 )
 :
                     
@@ -985,31 +992,31 @@ default_actions
 =
 [
             
-'
+"
 populate
 -
 webroot
-'
+"
             
-'
+"
 create
 -
 virtualenv
-'
+"
             
-'
+"
 install
 -
 chromium
 -
 distribution
-'
+"
             
-'
+"
 run
 -
 tests
-'
+"
         
 ]
         
@@ -1019,65 +1026,65 @@ config
 =
 {
             
-'
+"
 run_local
-'
+"
 :
 True
             
-'
+"
 binary_path
-'
+"
 :
 self
 .
 binary_path
             
-'
+"
 repo_path
-'
+"
 :
 self
 .
 topsrcdir
             
-'
+"
 raptor_path
-'
+"
 :
 self
 .
 raptor_dir
             
-'
+"
 obj_path
-'
+"
 :
 self
 .
 topobjdir
             
-'
+"
 log_name
-'
+"
 :
-'
+"
 raptor
-'
+"
             
-'
+"
 virtualenv_path
-'
+"
 :
 self
 .
 virtualenv_path
             
-'
+"
 pypi_url
-'
+"
 :
-'
+"
 http
 :
 /
@@ -1087,33 +1094,33 @@ pypi
 org
 /
 simple
-'
+"
             
-'
+"
 base_work_dir
-'
+"
 :
 self
 .
 mozharness_dir
             
-'
+"
 exes
-'
+"
 :
 {
                 
-'
+"
 python
-'
+"
 :
 self
 .
 python
                 
-'
+"
 virtualenv
-'
+"
 :
 [
 self
@@ -1126,9 +1133,9 @@ virtualenv_script
             
 }
             
-'
+"
 title
-'
+"
 :
 socket
 .
@@ -1136,87 +1143,87 @@ gethostname
 (
 )
             
-'
+"
 default_actions
-'
+"
 :
 default_actions
             
-'
+"
 raptor_cmd_line_args
-'
+"
 :
 self
 .
 raptor_args
             
-'
+"
 host
-'
+"
 :
 self
 .
 host
             
-'
+"
 power_test
-'
+"
 :
 self
 .
 power_test
             
-'
+"
 memory_test
-'
+"
 :
 self
 .
 memory_test
             
-'
+"
 cpu_test
-'
+"
 :
 self
 .
 cpu_test
             
-'
+"
 live_sites
-'
+"
 :
 self
 .
 live_sites
             
-'
+"
 disable_perf_tuning
-'
+"
 :
 self
 .
 disable_perf_tuning
             
-'
+"
 conditioned_profile_scenario
-'
+"
 :
 self
 .
 conditioned_profile_scenario
             
-'
+"
 is_release_build
-'
+"
 :
 self
 .
 is_release_build
             
-'
+"
 device_name
-'
+"
 :
 self
 .
@@ -1240,12 +1247,12 @@ join
 self
 .
 topsrcdir
-'
+"
 tools
-'
-'
+"
+"
 browsertime
-'
+"
 )
 )
         
@@ -1263,39 +1270,41 @@ config
 .
 update
 (
-{
                 
-'
+{
+                    
+"
 browsertime_node
-'
+"
 :
 browsertime
 .
 node_path
 (
 )
-                
-'
+                    
+"
 browsertime_browsertimejs
-'
+"
 :
 browsertime
 .
 browsertime_path
 (
 )
-                
-'
+                    
+"
 browsertime_vismet_script
-'
+"
 :
 browsertime
 .
 visualmetrics_path
 (
 )
-            
+                
 }
+            
 )
             
 def
@@ -1305,14 +1314,13 @@ _browsertime_exists
 :
                 
 return
-(
-                    
 os
 .
 path
 .
 exists
 (
+                    
 self
 .
 config
@@ -1321,9 +1329,9 @@ config
 browsertime_browsertimejs
 "
 ]
+                
 )
 and
-                    
 os
 .
 path
@@ -1338,8 +1346,6 @@ config
 browsertime_vismet_script
 "
 ]
-)
-                
 )
             
 if
@@ -1368,8 +1374,9 @@ subprocess
 .
 check_call
 (
-[
                     
+[
+                        
 os
 .
 path
@@ -1383,24 +1390,25 @@ topsrcdir
 mach
 "
 )
-                    
+                        
 "
 browsertime
 "
-                    
+                        
 "
 -
 -
 setup
 "
-                    
+                        
 "
 -
 -
 clobber
 "
-                
+                    
 ]
+                
 )
                 
 if
@@ -1475,16 +1483,16 @@ args
 =
 {
             
-'
+"
 config
-'
+"
 :
 {
 }
             
-'
+"
 initial_config_file
-'
+"
 :
 self
 .
@@ -1509,9 +1517,9 @@ open
 self
 .
 config_file_path
-'
+"
 w
-'
+"
 )
             
 config_file
@@ -1612,27 +1620,29 @@ raptor_mh
 =
 Raptor
 (
+            
 config
 =
 self
 .
 args
 [
-'
+"
 config
-'
+"
 ]
-                           
+            
 initial_config_file
 =
 self
 .
 args
 [
-'
+"
 initial_config_file
-'
+"
 ]
+        
 )
         
 return
@@ -1681,28 +1691,31 @@ MachCommandBase
     
 Command
 (
-'
+        
+"
 raptor
-'
+"
+        
 category
 =
-'
+"
 testing
-'
-             
+"
+        
 description
 =
-'
+"
 Run
 Raptor
 performance
 tests
 .
-'
-             
+"
+        
 parser
 =
 create_parser
+    
 )
     
 def
@@ -1729,6 +1742,8 @@ self
         
 is_android
 =
+(
+            
 Conditions
 .
 is_android
@@ -1736,16 +1751,16 @@ is_android
 build_obj
 )
 or
-\
-            
 kwargs
 [
-'
+"
 app
-'
+"
 ]
 in
 ANDROID_BROWSERS
+        
+)
         
 if
 is_android
@@ -1759,8 +1774,11 @@ devices
 android_device
 import
 (
+                
 verify_android_device
+                
 InstallIntent
+            
 )
             
 from
@@ -1770,81 +1788,92 @@ ADBDeviceFactory
             
 install
 =
+(
+                
 InstallIntent
 .
 NO
+                
 if
 kwargs
 .
 pop
 (
-'
+"
 noinstall
-'
+"
 False
 )
+                
 else
 InstallIntent
 .
 YES
+            
+)
             
 verbose
 =
 False
             
 if
+(
+                
 kwargs
 .
 get
 (
-'
+"
 log_mach_verbose
-'
+"
 )
+                
 or
 kwargs
 .
 get
 (
-'
+"
 log_tbpl_level
-'
+"
 )
 =
 =
-'
+"
 debug
-'
+"
+                
 or
-\
-               
 kwargs
 .
 get
 (
-'
+"
 log_mach_level
-'
+"
 )
 =
 =
-'
+"
 debug
-'
+"
+                
 or
 kwargs
 .
 get
 (
-'
+"
 log_raw_level
-'
+"
 )
 =
 =
-'
+"
 debug
-'
+"
+            
+)
 :
                 
 verbose
@@ -1855,27 +1884,30 @@ if
 not
 verify_android_device
 (
+                
 build_obj
+                
 install
 =
 install
-                                         
+                
 app
 =
 kwargs
 [
-'
+"
 binary
-'
+"
 ]
-                                         
+                
 verbose
 =
 verbose
-                                         
+                
 xre
 =
 True
+            
 )
 :
                 
@@ -1884,13 +1916,13 @@ return
         
 debug_command
 =
-'
+"
 -
 -
 debug
 -
 command
-'
+"
         
 if
 debug_command
@@ -1928,9 +1960,9 @@ try
 if
 kwargs
 [
-'
+"
 power_test
-'
+"
 ]
 and
 is_android
@@ -1978,28 +2010,26 @@ log
 logging
 .
 ERROR
-'
+"
 raptor
-'
-                     
+"
 {
-'
+"
 error
-'
+"
 :
 str
 (
 e
 )
 }
-                     
-'
+"
 ERROR
 :
 {
 error
 }
-'
+"
 )
             
 self
@@ -2009,14 +2039,13 @@ log
 logging
 .
 INFO
-'
+"
 raptor
-'
-                     
+"
 {
-'
+"
 help
-'
+"
 :
 e
 .
@@ -2024,12 +2053,11 @@ help
 (
 )
 }
-                     
-'
+"
 {
 help
 }
-'
+"
 )
             
 return
@@ -2058,9 +2086,9 @@ finally
 if
 kwargs
 [
-'
+"
 power_test
-'
+"
 ]
 and
 device
@@ -2073,30 +2101,33 @@ device
     
 Command
 (
-'
+        
+"
 raptor
 -
 test
-'
+"
+        
 category
 =
-'
+"
 testing
-'
-             
+"
+        
 description
 =
-'
+"
 Run
 Raptor
 performance
 tests
 .
-'
-             
+"
+        
 parser
 =
 create_parser
+    
 )
     
 def

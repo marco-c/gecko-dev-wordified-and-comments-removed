@@ -23,7 +23,9 @@ exit_func
 )
 BASE_DOC_URL
 =
-'
+(
+    
+"
 https
 :
 /
@@ -42,11 +44,10 @@ toolkit
 /
 components
 /
-'
+"
+    
 +
-\
-               
-'
+"
 telemetry
 /
 telemetry
@@ -56,7 +57,8 @@ collection
 user_interactions
 .
 html
-'
+"
+)
 class
 UserInteractionType
 :
@@ -264,7 +266,9 @@ MAX_NAME_LENGTH
                 
 ParserError
 (
+                    
 (
+                        
 "
 Name
 '
@@ -283,7 +287,7 @@ characters
 \
 n
 "
-                             
+                        
 "
 See
 :
@@ -298,8 +302,8 @@ definition
 -
 file
 "
+                    
 )
-                            
 .
 format
 (
@@ -307,6 +311,7 @@ n
 MAX_NAME_LENGTH
 BASE_DOC_URL
 )
+                
 )
 .
 handle_later
@@ -325,7 +330,7 @@ allowed_char_regexp
 chars_regxp
 =
 r
-'
+"
 ^
 [
 a
@@ -335,15 +340,15 @@ zA
 Z0
 -
 9
-'
+"
 +
 allowed_char_regexp
 +
 r
-'
+"
 ]
 +
-'
+"
             
 if
 not
@@ -358,7 +363,9 @@ name
                 
 ParserError
 (
+                    
 (
+                        
 error_msg_prefix
 +
 "
@@ -379,7 +386,7 @@ Got
 \
 n
 "
-                             
+                        
 "
 See
 :
@@ -394,14 +401,15 @@ definition
 -
 file
 "
+                    
 )
-                            
 .
 format
 (
 name
 BASE_DOC_URL
 )
+                
 )
 .
 handle_later
@@ -414,7 +422,7 @@ re
 search
 (
 r
-'
+"
 (
 ^
 [
@@ -435,14 +443,16 @@ d
 _
 ]
 )
-'
+"
 name
 )
 :
                 
 ParserError
 (
+                    
 (
+                        
 error_msg_prefix
 +
 "
@@ -455,7 +465,7 @@ leading
 /
 trailing
 "
-                             
+                        
 "
 digit
 a
@@ -473,7 +483,7 @@ Got
 \
 n
 "
-                             
+                        
 "
 See
 :
@@ -488,14 +498,15 @@ definition
 -
 file
 "
+                    
 )
-                            
 .
 format
 (
 name
 BASE_DOC_URL
 )
+                
 )
 .
 handle_later
@@ -505,26 +516,26 @@ handle_later
 check_name
 (
 category_name
-'
+"
 Category
-'
+"
 r
-'
+"
 \
 .
-'
+"
 )
         
 check_name
 (
 user_interaction_name
-'
+"
 UserInteraction
-'
+"
 r
-'
+"
 _
-'
+"
 )
     
 def
@@ -630,15 +641,15 @@ REQUIRED_FIELDS
 =
 {
             
-'
+"
 bug_numbers
-'
+"
 :
 list
             
-'
+"
 description
-'
+"
 :
 six
 .
@@ -650,9 +661,9 @@ LIST_FIELDS_CONTENT
 =
 {
             
-'
+"
 bug_numbers
-'
+"
 :
 int
         
@@ -696,29 +707,31 @@ missing_fields
             
 ParserError
 (
+                
 self
 .
 _name
+                
 +
-'
+"
 -
 missing
 required
 fields
 :
-'
+"
+                
 +
-                        
-'
-'
+"
+"
 .
 join
 (
 missing_fields
 )
+                
 +
-                        
-'
+"
 .
 \
 nSee
@@ -729,12 +742,13 @@ nSee
 required
 -
 fields
-'
+"
 .
 format
 (
 BASE_DOC_URL
 )
+            
 )
 .
 handle_later
@@ -771,27 +785,30 @@ unknown_fields
             
 ParserError
 (
+                
 self
 .
 _name
+                
 +
-'
+"
 -
 unknown
 fields
 :
-'
+"
+                
 +
-'
-'
+"
+"
 .
 join
 (
 unknown_fields
 )
+                
 +
-                        
-'
+"
 .
 \
 nSee
@@ -802,12 +819,13 @@ nSee
 required
 -
 fields
-'
+"
 .
 format
 (
 BASE_DOC_URL
 )
+            
 )
 .
 handle_later
@@ -817,14 +835,15 @@ handle_later
 wrong_type_names
 =
 [
-'
+            
+"
 {
 }
 must
 be
 {
 }
-'
+"
 .
 format
 (
@@ -836,7 +855,7 @@ f
 .
 __name__
 )
-                            
+            
 for
 f
 in
@@ -845,7 +864,7 @@ definition
 keys
 (
 )
-                            
+            
 if
 not
 isinstance
@@ -859,6 +878,7 @@ ALL_FIELDS
 f
 ]
 )
+        
 ]
         
 if
@@ -872,24 +892,27 @@ wrong_type_names
             
 ParserError
 (
+                
 self
 .
 _name
+                
 +
-'
+"
 -
-'
+"
+                
 +
-'
-'
+"
+"
 .
 join
 (
 wrong_type_names
 )
+                
 +
-                        
-'
+"
 .
 \
 nSee
@@ -900,12 +923,13 @@ nSee
 required
 -
 fields
-'
+"
 .
 format
 (
 BASE_DOC_URL
 )
+            
 )
 .
 handle_later
@@ -952,7 +976,9 @@ field
                 
 ParserError
 (
+                    
 (
+                        
 "
 Field
 '
@@ -970,8 +996,8 @@ not
 be
 empty
 "
+                        
 +
-                             
 "
 .
 \
@@ -985,8 +1011,8 @@ required
 fields
 )
 "
+                    
 )
-                            
 .
 format
 (
@@ -996,6 +1022,7 @@ self
 _name
 BASE_DOC_URL
 )
+                
 )
 .
 handle_later
@@ -1004,9 +1031,8 @@ handle_later
             
 broken_types
 =
-\
-                
 [
+                
 not
 isinstance
 (
@@ -1023,6 +1049,7 @@ definition
 [
 field
 ]
+            
 ]
             
 if
@@ -1034,7 +1061,9 @@ broken_types
                 
 ParserError
 (
+                    
 (
+                        
 "
 Field
 '
@@ -1056,7 +1085,7 @@ type
 {
 }
 "
-                             
+                        
 "
 .
 \
@@ -1074,24 +1103,29 @@ definition
 file
 )
 "
+                    
 )
-                            
 .
 format
 (
+                        
 field
+                        
 self
 .
 _name
+                        
 LIST_FIELDS_CONTENT
 [
 field
 ]
 .
 __name__
-                                    
+                        
 BASE_DOC_URL
+                    
 )
+                
 )
 .
 handle_later
@@ -1183,9 +1217,9 @@ self
 .
 _category_name
 +
-'
+"
 .
-'
+"
 +
 self
 .
@@ -1219,9 +1253,9 @@ self
 .
 _definition
 [
-'
+"
 bug_numbers
-'
+"
 ]
     
 property
@@ -1249,9 +1283,9 @@ self
 .
 _definition
 [
-'
+"
 description
-'
+"
 ]
 def
 load_user_interactions
@@ -1319,16 +1353,16 @@ io
 open
 (
 filename
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 f
@@ -1351,16 +1385,16 @@ e
         
 ParserError
 (
-'
+"
 Error
 opening
-'
+"
 +
 filename
 +
-'
+"
 :
-'
+"
 +
 e
 .
@@ -1379,7 +1413,8 @@ e
         
 ParserError
 (
-'
+            
+"
 Error
 parsing
 UserInteractions
@@ -1389,16 +1424,16 @@ in
 :
 {
 }
-'
-                    
-'
+"
+            
+"
 .
 \
 nSee
 :
 {
 }
-'
+"
 .
 format
 (
@@ -1408,6 +1443,7 @@ e
 message
 BASE_DOC_URL
 )
+        
 )
 .
 handle_now
@@ -1450,6 +1486,7 @@ category
             
 ParserError
 (
+                
 '
 Category
 "
@@ -1465,21 +1502,22 @@ UserInteraction
 in
 it
 '
-                        
-'
+                
+"
 .
 \
 nSee
 :
 {
 }
-'
+"
 .
 format
 (
 category_name
 BASE_DOC_URL
 )
+            
 )
 .
 handle_later
@@ -1509,11 +1547,13 @@ append
                 
 UserInteractionType
 (
+                    
 category_name
 user_interaction_name
-                                    
 user_interaction_info
+                
 )
+            
 )
     
 return

@@ -34,22 +34,22 @@ register_callback_action
     
 name
 =
-'
+"
 openh264
-'
+"
     
 title
 =
-'
+"
 OpenH264
 Binaries
-'
+"
     
 symbol
 =
-'
+"
 h264
-'
+"
     
 description
 =
@@ -88,17 +88,18 @@ fetch_graph_and_labels
         
 parameters
 graph_config
+    
 )
     
 to_run
 =
 [
+        
 label
-              
+        
 for
 label
 entry
-              
 in
 six
 .
@@ -108,14 +109,16 @@ full_task_graph
 .
 tasks
 )
+        
 if
-'
+"
 openh264
-'
+"
 in
 entry
 .
 kind
+    
 ]
     
 create_tasks

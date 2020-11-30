@@ -34,9 +34,9 @@ output
 open
 (
 output_file
-'
+"
 w
-'
+"
 )
 with
 open
@@ -198,9 +198,11 @@ default
 "
 ]
 [
+        
 "
 searchDefault
 "
+    
 ]
 if
 (
@@ -292,9 +294,12 @@ keys
 )
         
 if
+(
+            
 region
 in
 localeSearchInfo
+            
 and
 "
 visibleDefaultEngines
@@ -304,6 +309,8 @@ localeSearchInfo
 [
 region
 ]
+        
+)
 :
             
 visibleDefaultEngines
@@ -375,6 +382,7 @@ deepcopy
 (
                 
 visibleDefaultEngines
+            
 )
             
 for
@@ -383,6 +391,7 @@ engine
 in
 enumerate
 (
+                
 localeSearchInfo
 [
 region
@@ -392,6 +401,7 @@ region
 visibleDefaultEngines
 "
 ]
+            
 )
 :
                 
@@ -414,11 +424,11 @@ visibleDefaultEngines
 "
 ]
 [
+                        
 i
+                    
 ]
 =
-\
-                        
 regionOverrides
 [
 region
@@ -442,9 +452,9 @@ False
 .
 encode
 (
-'
+"
 utf8
-'
+"
 )
 )
 output

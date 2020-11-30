@@ -8,38 +8,38 @@ import
 setup
 PACKAGE_VERSION
 =
-'
+"
 1
 .
 1
 .
 0
-'
+"
 deps
 =
 [
     
-'
+"
 mozinfo
-'
+"
     
-'
+"
 mozlog
 >
 =
 6
 .
 0
-'
+"
 ]
 setup
 (
     
 name
 =
-'
+"
 moznetwork
-'
+"
     
 version
 =
@@ -88,7 +88,7 @@ classifiers
 =
 [
         
-'
+"
 Programming
 Language
 :
@@ -99,7 +99,7 @@ Python
 2
 .
 7
-'
+"
         
 "
 Programming
@@ -141,34 +141,34 @@ Stable
     
 keywords
 =
-'
+"
 mozilla
-'
+"
     
 author
 =
-'
+"
 Mozilla
 Automation
 and
 Tools
 team
-'
+"
     
 author_email
 =
-'
+"
 tools
 lists
 .
 mozilla
 .
 org
-'
+"
     
 url
 =
-'
+"
 https
 :
 /
@@ -186,20 +186,20 @@ tools
 Projects
 /
 Mozbase
-'
+"
     
 license
 =
-'
+"
 MPL
-'
+"
     
 packages
 =
 [
-'
+"
 moznetwork
-'
+"
 ]
     
 include_package_data
@@ -217,22 +217,18 @@ deps
 entry_points
 =
 {
-        
-'
+"
 console_scripts
-'
+"
 :
 [
-            
-'
+"
 moznetwork
 =
 moznetwork
 :
 cli
-'
-        
+"
 ]
-    
 }
 )

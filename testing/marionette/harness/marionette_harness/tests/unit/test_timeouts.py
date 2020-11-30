@@ -394,6 +394,7 @@ self
 .
 assertEqual
 (
+            
 HTMLElement
 type
 (
@@ -411,6 +412,7 @@ newDiv
 "
 )
 )
+        
 )
     
 def
@@ -470,6 +472,7 @@ self
 .
 assertRaises
 (
+            
 NoSuchElementException
 self
 .
@@ -482,6 +485,7 @@ ID
 "
 newDiv
 "
+        
 )
     
 run_if_manage_instance
@@ -507,6 +511,7 @@ self
 timeouts
 =
 [
+            
 getattr
 (
 self
@@ -516,21 +521,26 @@ marionette
 timeout
 f
 )
+            
 for
 f
 in
 (
-            
-'
+                
+"
 implicit
-'
-'
+"
+                
+"
 page_load
-'
-'
+"
+                
+"
 script
-'
+"
+            
 )
+        
 ]
         
 def
@@ -722,12 +732,14 @@ self
 .
 assertTrue
 (
+            
 self
 .
 marionette
 .
 execute_async_script
 (
+                
 "
 "
 "
@@ -764,5 +776,7 @@ true
 "
 "
 "
+            
 )
+        
 )

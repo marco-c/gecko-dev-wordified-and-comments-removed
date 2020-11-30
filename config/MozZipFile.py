@@ -83,7 +83,6 @@ compression
 zipfile
 .
 ZIP_STORED
-                 
 lock
 =
 False
@@ -111,10 +110,10 @@ lock_file
 (
 file
 +
-'
+"
 .
 lck
-'
+"
 )
         
 else
@@ -130,9 +129,9 @@ if
 mode
 =
 =
-'
+"
 a
-'
+"
 and
 lock
 :
@@ -165,9 +164,9 @@ file
                 
 mode
 =
-'
+"
 w
-'
+"
         
 zipfile
 .
@@ -285,10 +284,10 @@ zipfile
 .
 ZipInfo
 (
+                
 filename
 =
 zinfo_or_arcname
-                                    
 date_time
 =
 time
@@ -301,6 +300,7 @@ time
 (
 )
 )
+            
 )
             
 zinfo
@@ -316,7 +316,7 @@ zinfo
 external_attr
 =
 (
-0x81a4
+0x81A4
 &
 0xFFFF
 )
@@ -394,7 +394,7 @@ i
             
 if
 (
-(
+                
 zinfo
 .
 compress_type
@@ -403,7 +403,7 @@ compress_type
 zipfile
 .
 ZIP_STORED
-                 
+                
 and
 zi
 .
@@ -414,8 +414,8 @@ len
 (
 bytes
 )
+            
 )
-                    
 or
 (
 i
@@ -429,7 +429,6 @@ len
 self
 .
 filelist
-)
 )
 :
                 
@@ -651,11 +650,11 @@ fp
 mode
 !
 =
-'
+"
 r
 +
 b
-'
+"
 :
             
 self
@@ -675,11 +674,11 @@ open
 self
 .
 filename
-'
+"
 r
 +
 b
-'
+"
 )
         
 all
@@ -698,10 +697,9 @@ self
 filelist
 )
 +
-\
-            
 map
 (
+            
 lambda
 zi
 :
@@ -712,6 +710,7 @@ False
 self
 .
 _remove
+        
 )
         
 all
@@ -741,6 +740,7 @@ _remove
 lengths
 =
 [
+            
 all
 [
 i
@@ -762,7 +762,7 @@ i
 ]
 .
 header_offset
-                   
+            
 for
 i
 in
@@ -775,6 +775,7 @@ all
 -
 1
 )
+        
 ]
         
 lengths
@@ -832,9 +833,9 @@ if
 hasattr
 (
 zi
-'
+"
 file_offset
-'
+"
 )
 :
                 

@@ -15,7 +15,6 @@ parser
 reset
 (
 )
-;
     
 threw
 =
@@ -70,12 +69,16 @@ harness
     
 should_throw
 (
+        
 parser
+        
 harness
+        
 "
 no
 arguments
 "
+        
 "
 "
 "
@@ -101,15 +104,20 @@ A
 "
 "
 "
+    
 )
     
 should_throw
 (
+        
 parser
+        
 harness
+        
 "
 PutForwards
 "
+        
 "
 "
 "
@@ -148,16 +156,21 @@ B
 "
 "
 "
+    
 )
     
 should_throw
 (
+        
 parser
+        
 harness
+        
 "
 writable
 attribute
 "
+        
 "
 "
 "
@@ -180,16 +193,21 @@ A
 "
 "
 "
+    
 )
     
 should_throw
 (
+        
 parser
+        
 harness
+        
 "
 static
 attribute
 "
+        
 "
 "
 "
@@ -214,16 +232,21 @@ A
 "
 "
 "
+    
 )
     
 should_throw
 (
+        
 parser
+        
 harness
+        
 "
 callback
 interface
 "
+        
 "
 "
 "
@@ -248,4 +271,5 @@ A
 "
 "
 "
+    
 )

@@ -15,9 +15,9 @@ with
 open
 (
 propFile
-'
+"
 r
-'
+"
 )
 as
 f
@@ -43,9 +43,9 @@ line
 .
 startswith
 (
-'
+"
 #
-'
+"
 )
 :
                 
@@ -157,6 +157,7 @@ n
 entries
 =
 [
+        
 '
 {
 "
@@ -171,7 +172,6 @@ s
 d
 }
 '
-               
 %
 (
 key
@@ -187,6 +187,7 @@ key
 ]
 )
 )
+        
 for
 key
 in
@@ -194,24 +195,25 @@ sorted
 (
 keys
 )
+    
 ]
     
 header
 .
 write
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
 entries
 )
 +
-'
+"
 \
 n
-'
+"
 )

@@ -173,20 +173,20 @@ jobs
 if
 job
 [
-'
+"
 run
-'
+"
 ]
 [
-'
+"
 using
-'
+"
 ]
 !
 =
-'
+"
 mozharness
-'
+"
 :
             
 yield
@@ -200,9 +200,9 @@ job
 .
 get
 (
-'
+"
 worker
-'
+"
 {
 }
 )
@@ -211,28 +211,28 @@ platform
 =
 job
 [
-'
+"
 treeherder
-'
+"
 ]
 [
-'
+"
 platform
-'
+"
 ]
         
 primary_config
 =
 job
 [
-'
+"
 run
-'
+"
 ]
 [
-'
+"
 config
-'
+"
 ]
 [
 0
@@ -244,18 +244,18 @@ worker
 .
 get
 (
-'
+"
 env
-'
+"
 {
 }
 )
 .
 get
 (
-'
+"
 PERFHERDER_EXTRA_OPTIONS
-'
+"
 )
         
 shippable
@@ -264,18 +264,18 @@ job
 .
 get
 (
-'
+"
 attributes
-'
+"
 {
 }
 )
 .
 get
 (
-'
+"
 shippable
-'
+"
 False
 )
         
@@ -284,10 +284,10 @@ primary_config
 .
 startswith
 (
-'
+"
 builds
 /
-'
+"
 )
         
 key
@@ -309,7 +309,7 @@ raise
 Exception
 (
                 
-'
+"
 Non
 -
 unique
@@ -327,23 +327,23 @@ and
 %
 s
 :
-'
+"
                 
-'
+"
 set
 PERFHERDER_EXTRA_OPTIONS
 in
 worker
 environment
 variables
-'
+"
                 
-'
+"
 or
 use
 different
 mozconfigs
-'
+"
                 
 %
 (
@@ -352,15 +352,16 @@ config
 kind
 job
 [
-'
+"
 name
-'
+"
 ]
 SEEN_CONFIGS
 [
 key
 ]
 )
+            
 )
         
 SEEN_CONFIGS
@@ -368,13 +369,13 @@ SEEN_CONFIGS
 key
 ]
 =
-'
+"
 {
 }
 -
 {
 }
-'
+"
 .
 format
 (
@@ -383,9 +384,9 @@ config
 kind
 job
 [
-'
+"
 name
-'
+"
 ]
 )
         

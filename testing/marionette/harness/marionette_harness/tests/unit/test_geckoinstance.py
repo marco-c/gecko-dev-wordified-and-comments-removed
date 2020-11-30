@@ -71,7 +71,6 @@ a
 "
 )
 )
-                             
 apps
 [
 app
@@ -82,11 +81,13 @@ self
 .
 assertRaises
 (
+            
 NotImplementedError
+            
 GeckoInstance
 .
 create
-                          
+            
 app
 =
 "
@@ -94,6 +95,7 @@ n
 /
 a
 "
+            
 bin
 =
 self
@@ -101,6 +103,7 @@ self
 marionette
 .
 bin
+        
 )
         
 self
@@ -111,7 +114,6 @@ NotImplementedError
 GeckoInstance
 .
 create
-                          
 bin
 =
 "
@@ -129,7 +131,6 @@ NotImplementedError
 GeckoInstance
 .
 create
-                          
 bin
 =
 None

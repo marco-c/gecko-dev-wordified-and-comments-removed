@@ -35,6 +35,7 @@ hg
 "
 :
 [
+            
 "
 /
 usr
@@ -45,11 +46,13 @@ bin
 /
 hg
 "
+            
 "
 -
 -
 config
 "
+            
 "
 web
 .
@@ -70,6 +73,7 @@ bundle
 .
 crt
 "
+        
 ]
         
 "
@@ -256,8 +260,9 @@ bump_configs
 "
 :
 [
-{
         
+{
+            
 "
 path
 "
@@ -273,7 +278,7 @@ changesets
 .
 json
 "
-        
+            
 "
 format
 "
@@ -281,7 +286,7 @@ format
 "
 json
 "
-        
+            
 "
 name
 "
@@ -291,7 +296,7 @@ Fennec
 l10n
 changesets
 "
-        
+            
 "
 revision_url
 "
@@ -322,14 +327,15 @@ COMBINED_MAJOR_VERSION
 )
 s
 "
-        
+            
 "
 platform_configs
 "
 :
 [
+                
 {
-            
+                    
 "
 platforms
 "
@@ -341,7 +347,7 @@ android
 multilocale
 "
 ]
-            
+                    
 "
 path
 "
@@ -357,10 +363,12 @@ maemo
 -
 locales
 "
+                
+}
+            
+]
         
 }
-]
     
-}
 ]
 }

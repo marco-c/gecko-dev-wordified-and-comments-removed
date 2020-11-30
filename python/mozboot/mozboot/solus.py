@@ -36,43 +36,41 @@ raw_input
 class
 SolusBootstrapper
 (
-        
 LinuxBootstrapper
-        
 BaseBootstrapper
 )
 :
     
-'
-'
-'
+"
+"
+"
 Solus
 experimental
 bootstrapper
 .
-'
-'
-'
+"
+"
+"
     
 SYSTEM_PACKAGES
 =
 [
         
-'
+"
 autoconf213
-'
+"
         
-'
+"
 nodejs
-'
+"
         
-'
+"
 unzip
-'
+"
         
-'
+"
 zip
-'
+"
     
 ]
     
@@ -80,11 +78,11 @@ SYSTEM_COMPONENTS
 =
 [
         
-'
+"
 system
 .
 devel
-'
+"
     
 ]
     
@@ -92,81 +90,81 @@ BROWSER_PACKAGES
 =
 [
         
-'
+"
 alsa
 -
 lib
-'
+"
         
-'
+"
 dbus
-'
+"
         
-'
+"
 libgtk
 -
 2
-'
+"
         
-'
+"
 libgtk
 -
 3
-'
+"
         
-'
+"
 libevent
-'
+"
         
-'
+"
 libvpx
-'
+"
         
-'
+"
 libxt
-'
+"
         
-'
+"
 nasm
-'
+"
         
-'
+"
 libstartup
 -
 notification
-'
+"
         
-'
+"
 gst
 -
 plugins
 -
 base
-'
+"
         
-'
+"
 gst
 -
 plugins
 -
 good
-'
+"
         
-'
+"
 pulseaudio
-'
+"
         
-'
+"
 xorg
 -
 server
 -
 xvfb
-'
+"
         
-'
+"
 yasm
-'
+"
     
 ]
     
@@ -174,33 +172,33 @@ MOBILE_ANDROID_COMMON_PACKAGES
 =
 [
         
-'
+"
 openjdk
 -
 8
-'
+"
         
-'
+"
 wget
-'
+"
         
-'
+"
 ncurses
 -
 32bit
-'
+"
         
-'
+"
 readline
 -
 32bit
-'
+"
         
-'
+"
 zlib
 -
 32bit
-'
+"
     
 ]
     
@@ -218,7 +216,7 @@ kwargs
         
 print
 (
-'
+"
 Using
 an
 experimental
@@ -226,7 +224,7 @@ bootstrapper
 for
 Solus
 .
-'
+"
 )
         
 BaseBootstrapper
@@ -393,14 +391,14 @@ e
             
 print
 (
-'
+"
 Failed
 to
 install
 all
 packages
 !
-'
+"
 )
             
 raise
@@ -422,18 +420,19 @@ android
 .
 ensure_android
 (
-'
+            
+"
 linux
-'
+"
 artifact_mode
 =
 artifact_mode
-                               
 no_interactive
 =
 self
 .
 no_interactive
+        
 )
     
 def
@@ -456,9 +455,9 @@ android
 .
 generate_mozconfig
 (
-'
+"
 linux
-'
+"
 artifact_mode
 =
 artifact_mode
@@ -502,9 +501,9 @@ self
 .
 package_install
 (
-'
+"
 mercurial
-'
+"
 )
     
 def
@@ -519,12 +518,12 @@ packages
 command
 =
 [
-'
+"
 eopkg
-'
-'
+"
+"
 install
-'
+"
 ]
         
 if
@@ -537,13 +536,13 @@ command
 .
 append
 (
-'
+"
 -
 -
 yes
 -
 all
-'
+"
 )
         
 command
@@ -572,16 +571,16 @@ components
 command
 =
 [
-'
+"
 eopkg
-'
-'
+"
+"
 install
-'
-'
+"
+"
 -
 c
-'
+"
 ]
         
 if
@@ -594,13 +593,13 @@ command
 .
 append
 (
-'
+"
 -
 -
 yes
 -
 all
-'
+"
 )
         
 command

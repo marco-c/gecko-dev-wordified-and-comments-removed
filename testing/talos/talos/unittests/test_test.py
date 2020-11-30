@@ -61,22 +61,19 @@ description
 keys
 =
 [
-        
-'
+"
 nonnull_attrib
-'
-        
-'
+"
+"
 null_attrib
-'
-    
+"
 ]
     
 nonnull_attrib
 =
-'
+"
 value
-'
+"
     
 null_attrib
 =
@@ -146,9 +143,9 @@ BasicTestB
 )
         
 assert
-'
+"
 BasicTestB
-'
+"
 in
 _TESTS
         
@@ -210,9 +207,9 @@ name
 )
 =
 =
-'
+"
 BasicTestA
-'
+"
     
 def
 test_class_doc
@@ -239,10 +236,10 @@ description
 )
 =
 =
-'
+"
 basic
 description
-'
+"
     
 def
 test_init
@@ -257,14 +254,14 @@ BasicTestA
 (
 new_attrib_a
 =
-'
+"
 value_a
-'
+"
 new_attrib_b
 =
-'
+"
 value_b
-'
+"
 )
         
 assert
@@ -273,9 +270,9 @@ basic_test
 new_attrib_a
 =
 =
-'
+"
 value_a
-'
+"
         
 assert
 basic_test
@@ -283,9 +280,9 @@ basic_test
 new_attrib_b
 =
 =
-'
+"
 value_b
-'
+"
     
 def
 test_update
@@ -306,14 +303,14 @@ update
 (
 new_attrib_a
 =
-'
+"
 value_a
-'
+"
 new_attrib_b
 =
-'
+"
 value_b
-'
+"
 )
         
 assert
@@ -322,9 +319,9 @@ basic_test
 new_attrib_a
 =
 =
-'
+"
 value_a
-'
+"
         
 assert
 basic_test
@@ -332,9 +329,9 @@ basic_test
 new_attrib_b
 =
 =
-'
+"
 value_b
-'
+"
         
 basic_test
 .
@@ -342,9 +339,9 @@ update
 (
 new_attrib_c
 =
-'
+"
 value_c
-'
+"
 )
         
 assert
@@ -353,9 +350,9 @@ basic_test
 new_attrib_c
 =
 =
-'
+"
 value_c
-'
+"
     
 def
 test_items
@@ -390,7 +387,7 @@ pytest
 .
 fail
 (
-'
+"
 Test
 .
 items
@@ -400,7 +397,7 @@ did
 not
 return
 iterator
-'
+"
 )
         
 tuple_result
@@ -425,12 +422,12 @@ tuple_result
         
 assert
 (
-'
+"
 nonnull_attrib
-'
-'
+"
+"
 value
-'
+"
 )
 in
 basic_test
@@ -441,9 +438,9 @@ items
         
 assert
 (
-'
+"
 null_attrib
-'
+"
 None
 )
 not
@@ -470,12 +467,12 @@ items
 =
 [
 (
-'
+"
 name
-'
-'
+"
+"
 Test
-'
+"
 )
 ]
         
@@ -485,19 +482,19 @@ Test
 (
 unregistered_attr
 =
-'
+"
 value
-'
+"
 )
         
 assert
 (
-'
+"
 unregistered_attr
-'
-'
+"
+"
 value
-'
+"
 )
 not
 in
@@ -520,15 +517,15 @@ update
 keys
 =
 [
-'
+"
 cycles
-'
-'
+"
+"
 desktop
-'
-'
+"
+"
 lower_is_better
-'
+"
 ]
 )
         
@@ -545,23 +542,26 @@ items
 =
 {
             
-'
+"
 name
-'
+"
 :
-'
+"
 Test
-'
-'
+"
+            
+"
 desktop
-'
+"
 :
 True
-'
+            
+"
 lower_is_better
-'
+"
 :
 True
+        
 }
         
 test_instance
@@ -576,19 +576,19 @@ update
 (
 new_attrib
 =
-'
+"
 some
-'
+"
 )
         
 assert
 (
-'
+"
 new_attrib
-'
-'
+"
+"
 some
-'
+"
 )
 not
 in
@@ -611,15 +611,15 @@ update
 keys
 =
 [
-'
+"
 new_attrib
-'
+"
 ]
 new_attrib
 =
-'
+"
 value
-'
+"
 )
         
 assert
@@ -634,20 +634,20 @@ items
 =
 =
 {
-'
+"
 name
-'
+"
 :
-'
+"
 Test
-'
-'
+"
+"
 new_attrib
-'
+"
 :
-'
+"
 value
-'
+"
 }
         
 test_instance
@@ -720,117 +720,117 @@ ts_base_registered_keys
 =
 {
         
-'
+"
 url
-'
+"
         
-'
+"
 url_timestamp
-'
+"
         
-'
+"
 timeout
-'
+"
         
-'
+"
 cycles
-'
+"
         
-'
+"
 profile_path
-'
+"
         
-'
+"
 gecko_profile
-'
+"
         
-'
+"
 gecko_profile_interval
-'
+"
         
-'
+"
 gecko_profile_entries
-'
+"
         
-'
+"
 gecko_profile_startup
-'
+"
         
-'
+"
 preferences
-'
+"
         
-'
+"
 xperf_counters
-'
+"
         
-'
+"
 xperf_providers
-'
+"
         
-'
+"
 xperf_user_providers
-'
+"
         
-'
+"
 xperf_stackwalk
-'
+"
         
-'
+"
 tpmozafterpaint
-'
+"
         
-'
+"
 fnbpaint
-'
+"
         
-'
+"
 tphero
-'
+"
         
-'
+"
 profile
-'
+"
         
-'
+"
 firstpaint
-'
+"
         
-'
+"
 userready
-'
+"
         
-'
+"
 testeventmap
-'
+"
         
-'
+"
 base_vs_ref
-'
+"
         
-'
+"
 extensions
-'
+"
         
-'
+"
 filters
-'
+"
         
-'
+"
 setup
-'
+"
         
-'
+"
 cleanup
-'
+"
         
-'
+"
 webextensions
-'
+"
         
-'
+"
 reinstall
-'
+"
     
 }
     
@@ -879,14 +879,14 @@ update
 (
 attribute_one
 =
-'
+"
 value
-'
+"
 attribute_two
 =
-'
+"
 value
-'
+"
 )
         
 assert
@@ -926,17 +926,17 @@ items
 =
 {
             
-'
+"
 name
-'
+"
 :
-'
+"
 TsBase
-'
+"
             
-'
+"
 filters
-'
+"
 :
 self
 .
@@ -972,17 +972,17 @@ items
 =
 {
             
-'
+"
 name
-'
+"
 :
-'
+"
 TsBase
-'
+"
             
-'
+"
 filters
-'
+"
 :
 self
 .
@@ -990,9 +990,9 @@ test_instance
 .
 filters
             
-'
+"
 timeout
-'
+"
 :
 500
         
@@ -1038,50 +1038,50 @@ keys
 =
 {
             
-'
+"
 name
-'
+"
             
-'
+"
 cycles
-'
+"
             
-'
+"
 timeout
-'
+"
             
-'
+"
 gecko_profile_startup
-'
+"
             
-'
+"
 gecko_profile_entries
-'
+"
             
-'
+"
 url
-'
+"
             
-'
+"
 xperf_counters
-'
+"
             
-'
+"
 filters
-'
+"
             
-'
+"
 tpmozafterpaint
-'
+"
         
 }
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

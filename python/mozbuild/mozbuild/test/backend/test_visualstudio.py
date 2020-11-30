@@ -49,13 +49,13 @@ unittest
 .
 skip
 (
-'
+"
 Failing
 inconsistently
 in
 automation
 .
-'
+"
 )
     
 def
@@ -86,11 +86,11 @@ self
 .
 _consume
 (
-'
+"
 visual
 -
 studio
-'
+"
 VisualStudioBackend
 )
         
@@ -105,9 +105,9 @@ join
 env
 .
 topobjdir
-'
+"
 msvc
-'
+"
 )
         
 self
@@ -141,11 +141,11 @@ path
 join
 (
 msvc
-'
+"
 mozilla
 .
 sln
-'
+"
 )
 )
 )
@@ -167,11 +167,11 @@ path
 join
 (
 msvc
-'
+"
 mozilla
 .
 props
-'
+"
 )
 )
 )
@@ -193,11 +193,11 @@ path
 join
 (
 msvc
-'
+"
 mach
 .
 bat
-'
+"
 )
 )
 )
@@ -219,11 +219,11 @@ path
 join
 (
 msvc
-'
+"
 binary_my_app
 .
 vcxproj
-'
+"
 )
 )
 )
@@ -245,11 +245,11 @@ path
 join
 (
 msvc
-'
+"
 target_full
 .
 vcxproj
-'
+"
 )
 )
 )
@@ -271,11 +271,11 @@ path
 join
 (
 msvc
-'
+"
 library_dir1
 .
 vcxproj
-'
+"
 )
 )
 )
@@ -297,13 +297,13 @@ path
 join
 (
 msvc
-'
+"
 library_dir1
 .
 vcxproj
 .
 user
-'
+"
 )
 )
 )
@@ -319,11 +319,11 @@ path
 join
 (
 msvc
-'
+"
 library_dir1
 .
 vcxproj
-'
+"
 )
 )
         
@@ -336,9 +336,9 @@ d
 documentElement
 .
 tagName
-'
+"
 Project
-'
+"
 )
         
 els
@@ -347,9 +347,9 @@ d
 .
 getElementsByTagName
 (
-'
+"
 ClCompile
-'
+"
 )
         
 self
@@ -369,9 +369,9 @@ d
 .
 getElementsByTagName
 (
-'
+"
 NMakeForcedIncludes
-'
+"
 )
         
 self
@@ -389,6 +389,7 @@ self
 .
 assertEqual
 (
+            
 els
 [
 0
@@ -397,8 +398,7 @@ els
 firstChild
 .
 nodeValue
-                         
-'
+"
 (
 TopObjDir
 )
@@ -415,7 +415,8 @@ mozilla
 config
 .
 h
-'
+"
+        
 )
         
 els
@@ -424,9 +425,9 @@ d
 .
 getElementsByTagName
 (
-'
+"
 NMakeIncludeSearchPath
-'
+"
 )
         
 self
@@ -453,9 +454,9 @@ nodeValue
 .
 split
 (
-'
+"
 ;
-'
+"
 )
         
 self
@@ -468,7 +469,7 @@ path
 .
 normpath
 (
-'
+"
 (
 TopSrcDir
 )
@@ -476,7 +477,7 @@ TopSrcDir
 includeA
 /
 foo
-'
+"
 )
 includes
 )
@@ -491,13 +492,13 @@ path
 .
 normpath
 (
-'
+"
 (
 TopSrcDir
 )
 /
 dir1
-'
+"
 )
 includes
 )
@@ -512,13 +513,13 @@ path
 .
 normpath
 (
-'
+"
 (
 TopObjDir
 )
 /
 dir1
-'
+"
 )
 includes
 )
@@ -533,7 +534,7 @@ path
 .
 normpath
 (
-'
+"
 (
 TopObjDir
 )
@@ -543,7 +544,7 @@ dist
 \
 \
 include
-'
+"
 )
 includes
 )
@@ -554,9 +555,9 @@ d
 .
 getElementsByTagName
 (
-'
+"
 NMakePreprocessorDefinitions
-'
+"
 )
         
 self
@@ -583,18 +584,18 @@ nodeValue
 .
 split
 (
-'
+"
 ;
-'
+"
 )
         
 self
 .
 assertIn
 (
-'
+"
 DEFINEFOO
-'
+"
 defines
 )
         
@@ -602,20 +603,20 @@ self
 .
 assertIn
 (
-'
+"
 DEFINEBAR
 =
 bar
-'
+"
 defines
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

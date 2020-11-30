@@ -39,9 +39,9 @@ moz_app_version
 .
 split
 (
-'
+"
 .
-'
+"
 1
 )
 [
@@ -61,17 +61,16 @@ False
 custom_is_expired
 "
 :
-            
 lambda
 expires
 :
-                
 expires
 =
 =
 "
 expired
 "
+        
 or
 expires
 !
@@ -79,10 +78,10 @@ expires
 "
 never
 "
+        
 and
 int
 (
-                    
 expires
 )
 <
@@ -96,11 +95,9 @@ app_version_major
 custom_validate_expires
 "
 :
-            
 lambda
 expires
 :
-                
 expires
 in
 (
@@ -111,6 +108,7 @@ expired
 never
 "
 )
+        
 or
 re
 .
@@ -239,9 +237,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

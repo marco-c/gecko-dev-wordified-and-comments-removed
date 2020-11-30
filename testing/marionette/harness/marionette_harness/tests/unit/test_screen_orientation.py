@@ -110,6 +110,7 @@ orientation
 =
 =
 orientation
+        
 )
     
 skip_if_desktop
@@ -351,10 +352,10 @@ self
 .
 assertRaisesRegexp
 (
+            
 errors
 .
 MarionetteException
-                                     
 unknown_orientation
 .
 format
@@ -363,6 +364,7 @@ format
 cheese
 "
 )
+        
 )
 :
             
@@ -399,10 +401,10 @@ self
 .
 assertRaisesRegexp
 (
+            
 errors
 .
 MarionetteException
-                                     
 unknown_orientation
 .
 format
@@ -411,6 +413,7 @@ format
 null
 "
 )
+        
 )
 :
             

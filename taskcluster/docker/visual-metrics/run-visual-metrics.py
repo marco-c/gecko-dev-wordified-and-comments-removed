@@ -543,6 +543,7 @@ response
 from
 command
 "
+            
 cmd
 =
 cmd
@@ -1647,11 +1648,9 @@ jobs
 json
 file
 "
-            
 path
 =
 jobs_json_path
-            
 exc_info
 =
 True
@@ -1793,14 +1792,15 @@ extra_options
 )
 >
 0
-and
                         
+and
 job
 [
 "
 extra_options
 "
 ]
+                        
 or
 jobs_json
 [
@@ -1964,6 +1964,7 @@ items
                     
 append_result
 (
+                        
 log
 suites
 job
@@ -1974,6 +1975,7 @@ value
 job
 .
 extra_options
+                    
 )
     
 suites
@@ -2052,9 +2054,11 @@ value
 in
 calculate_similarity
 (
+            
 jobs_json
 fetch_dir
 OUTPUT_DIR
+        
 )
 .
 items
@@ -2082,20 +2086,21 @@ subtests
 .
 append
 (
+                
 {
-                
+                    
 "
 name
 "
 :
 name
-                
+                    
 "
 value
 "
 :
 value
-                
+                    
 "
 replicates
 "
@@ -2103,13 +2108,13 @@ replicates
 [
 value
 ]
-                
+                    
 "
 lowerIsBetter
 "
 :
 False
-                
+                    
 "
 unit
 "
@@ -2120,8 +2125,9 @@ a
 u
 .
 "
-            
+                
 }
+            
 )
     
 except

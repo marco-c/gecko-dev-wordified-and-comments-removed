@@ -160,7 +160,6 @@ timeout
 .
 until
 (
-            
 lambda
 _
 :
@@ -196,12 +195,14 @@ self
 .
 assertTrue
 (
+            
 self
 .
 marionette
 .
 get_pref
 (
+                
 "
 prompts
 .
@@ -209,7 +210,7 @@ tab_modal
 .
 enabled
 "
-                        
+                
 "
 Tab
 modal
@@ -221,7 +222,9 @@ by
 default
 .
 "
+            
 )
+        
 )
         
 self
@@ -1432,6 +1435,7 @@ auth
 -
 allow
 "
+        
 )
         
 super

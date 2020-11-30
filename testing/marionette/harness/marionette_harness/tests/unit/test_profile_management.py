@@ -779,6 +779,7 @@ self
 .
 assertRaisesRegexp
 (
+            
 errors
 .
 MarionetteException
@@ -788,6 +789,7 @@ is
 not
 running
 "
+        
 )
 :
             
@@ -1210,6 +1212,7 @@ self
 .
 assertIn
 (
+            
 os
 .
 path
@@ -1225,6 +1228,7 @@ profile
 self
 .
 profile_path
+        
 )
         
 self
@@ -1642,6 +1646,7 @@ self
 .
 assertIn
 (
+            
 os
 .
 path
@@ -1657,6 +1662,7 @@ profile
 self
 .
 profile_path
+        
 )
         
 self

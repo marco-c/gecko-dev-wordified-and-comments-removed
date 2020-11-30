@@ -172,9 +172,9 @@ import
 distro
 APPLICATION_CHOICE
 =
-'
-'
-'
+"
+"
+"
 Note
 on
 Artifact
@@ -270,41 +270,42 @@ s
 Your
 choice
 :
-'
-'
-'
+"
+"
+"
 APPLICATIONS
 =
 OrderedDict
 (
+    
 [
-    
+        
 (
-'
+"
 Firefox
 for
 Desktop
 Artifact
 Mode
-'
-'
+"
+"
 browser_artifact_mode
-'
+"
 )
-    
+        
 (
-'
+"
 Firefox
 for
 Desktop
-'
-'
+"
+"
 browser
-'
+"
 )
-    
+        
 (
-'
+"
 GeckoView
 /
 Firefox
@@ -312,31 +313,32 @@ for
 Android
 Artifact
 Mode
-'
-'
+"
+"
 mobile_android_artifact_mode
-'
+"
 )
-    
+        
 (
-'
+"
 GeckoView
 /
 Firefox
 for
 Android
-'
-'
+"
+"
 mobile_android
-'
+"
 )
+    
 ]
 )
 STATE_DIR_INFO
 =
-'
-'
-'
+"
+"
+"
 The
 Firefox
 build
@@ -410,14 +412,14 @@ create
 this
 directory
 ?
-'
-'
-'
+"
+"
+"
 FINISHED
 =
-'
-'
-'
+"
+"
+"
 Your
 system
 should
@@ -428,14 +430,14 @@ build
 %
 s
 !
-'
-'
-'
+"
+"
+"
 MOZCONFIG_SUGGESTION_TEMPLATE
 =
-'
-'
-'
+"
+"
+"
 Paste
 the
 lines
@@ -463,18 +465,18 @@ s
 <
 <
 <
-'
-'
-'
+"
+"
+"
 .
 strip
 (
 )
 CONFIGURE_MERCURIAL
 =
-'
-'
-'
+"
+"
+"
 Mozilla
 recommends
 a
@@ -505,14 +507,14 @@ is
 optimally
 configured
 ?
-'
-'
-'
+"
+"
+"
 CONFIGURE_GIT
 =
-'
-'
-'
+"
+"
+"
 Mozilla
 recommends
 using
@@ -548,42 +550,42 @@ is
 optimally
 configured
 ?
-'
-'
-'
+"
+"
+"
 DEBIAN_DISTROS
 =
 (
     
-'
+"
 debian
-'
+"
     
-'
+"
 ubuntu
-'
+"
     
-'
+"
 linuxmint
-'
+"
     
-'
+"
 elementary
-'
+"
     
-'
+"
 neon
-'
+"
     
-'
+"
 pop
-'
+"
 )
 ADD_GIT_CINNABAR_PATH
 =
-'
-'
-'
+"
+"
+"
 To
 add
 git
@@ -636,14 +638,14 @@ restart
 your
 shell
 .
-'
-'
-'
+"
+"
+"
 TELEMETRY_OPT_IN_PROMPT
 =
-'
-'
-'
+"
+"
+"
 Build
 system
 telemetry
@@ -759,14 +761,14 @@ build
 system
 telemetry
 ?
-'
-'
-'
+"
+"
+"
 OLD_REVISION_WARNING
 =
-'
-'
-'
+"
+"
+"
 WARNING
 !
 You
@@ -830,24 +832,24 @@ your
 own
 peril
 .
-'
-'
-'
+"
+"
+"
 MINIMUM_RECOMMENDED_GIT_VERSION
 =
 LooseVersion
 (
-'
+"
 2
 .
 24
-'
+"
 )
 OLD_GIT_WARNING
 =
-'
-'
-'
+"
+"
+"
 You
 are
 running
@@ -880,9 +882,9 @@ to
 improve
 performance
 .
-'
-'
-'
+"
+"
+"
 .
 strip
 (
@@ -994,7 +996,8 @@ e
             
 print
 (
-'
+                
+"
 Your
 mach
 configuration
@@ -1012,18 +1015,20 @@ n
 {
 error
 }
-'
+"
 .
 format
 (
-                
+                    
 path
 =
 path
 error
 =
 e
+                
 )
+            
 )
             
 return
@@ -1035,9 +1040,9 @@ config
 .
 has_section
 (
-'
+"
 build
-'
+"
 )
 :
         
@@ -1045,33 +1050,33 @@ config
 .
 add_section
 (
-'
+"
 build
-'
+"
 )
     
 config
 .
 set
 (
-'
+"
 build
-'
-'
+"
+"
 telemetry
-'
-'
+"
+"
 true
-'
+"
 )
     
 with
 open
 (
 path
-'
+"
 w
-'
+"
 )
 as
 f
@@ -1110,23 +1115,29 @@ bootstrap
 def
 __init__
 (
+        
 self
+        
 choice
 =
 None
+        
 no_interactive
 =
 False
+        
 hg_configure
 =
 False
-                 
+        
 no_system_changes
 =
 False
+        
 mach_context
 =
 None
+    
 )
 :
         
@@ -1167,17 +1178,19 @@ None
 args
 =
 {
-'
+            
+"
 no_interactive
-'
+"
 :
 no_interactive
-                
-'
+            
+"
 no_system_changes
-'
+"
 :
 no_system_changes
+        
 }
         
 if
@@ -1187,9 +1200,9 @@ platform
 .
 startswith
 (
-'
+"
 linux
-'
+"
 )
 :
             
@@ -1201,21 +1214,23 @@ distro
 .
 linux_distribution
 (
+                
 full_distribution_name
 =
 False
+            
 )
             
 if
 dist_id
 in
 (
-'
+"
 centos
-'
-'
+"
+"
 fedora
-'
+"
 )
 :
                 
@@ -1225,9 +1240,9 @@ CentOSFedoraBootstrapper
                 
 args
 [
-'
+"
 distro
-'
+"
 ]
 =
 dist_id
@@ -1244,18 +1259,18 @@ DebianBootstrapper
                 
 args
 [
-'
+"
 distro
-'
+"
 ]
 =
 dist_id
                 
 args
 [
-'
+"
 codename
-'
+"
 ]
 =
 codename
@@ -1264,12 +1279,12 @@ elif
 dist_id
 in
 (
-'
+"
 gentoo
-'
-'
+"
+"
 funtoo
-'
+"
 )
 :
                 
@@ -1281,9 +1296,9 @@ elif
 dist_id
 in
 (
-'
+"
 solus
-'
+"
 )
 :
                 
@@ -1295,9 +1310,9 @@ elif
 dist_id
 in
 (
-'
+"
 arch
-'
+"
 )
 or
 os
@@ -1306,14 +1321,14 @@ path
 .
 exists
 (
-'
+"
 /
 etc
 /
 arch
 -
 release
-'
+"
 )
 :
                 
@@ -1325,9 +1340,9 @@ elif
 dist_id
 in
 (
-'
+"
 void
-'
+"
 )
 :
                 
@@ -1342,14 +1357,14 @@ path
 .
 exists
 (
-'
+"
 /
 etc
 /
 SUSE
 -
 brand
-'
+"
 )
 :
                 
@@ -1363,39 +1378,41 @@ else
 raise
 NotImplementedError
 (
-'
+                    
+"
 Bootstrap
 support
 for
 this
 Linux
-'
-                                          
-'
+"
+                    
+"
 distro
 not
 yet
 available
 :
-'
+"
 +
 dist_id
+                
 )
             
 args
 [
-'
+"
 version
-'
+"
 ]
 =
 version
             
 args
 [
-'
+"
 dist_id
-'
+"
 ]
 =
 dist_id
@@ -1407,9 +1424,9 @@ platform
 .
 startswith
 (
-'
+"
 darwin
-'
+"
 )
 :
             
@@ -1430,9 +1447,9 @@ OSXBootstrapper
             
 args
 [
-'
+"
 version
-'
+"
 ]
 =
 osx_version
@@ -1444,9 +1461,9 @@ platform
 .
 startswith
 (
-'
+"
 openbsd
-'
+"
 )
 :
             
@@ -1456,9 +1473,9 @@ OpenBSDBootstrapper
             
 args
 [
-'
+"
 version
-'
+"
 ]
 =
 platform
@@ -1477,22 +1494,20 @@ platform
 .
 startswith
 (
-'
+"
 dragonfly
-'
+"
 )
 or
-\
-                
 sys
 .
 platform
 .
 startswith
 (
-'
+"
 freebsd
-'
+"
 )
 :
             
@@ -1502,9 +1517,9 @@ FreeBSDBootstrapper
             
 args
 [
-'
+"
 version
-'
+"
 ]
 =
 platform
@@ -1515,9 +1530,9 @@ release
             
 args
 [
-'
+"
 flavor
-'
+"
 ]
 =
 platform
@@ -1533,9 +1548,9 @@ platform
 .
 startswith
 (
-'
+"
 win32
-'
+"
 )
 or
 sys
@@ -1544,16 +1559,16 @@ platform
 .
 startswith
 (
-'
+"
 msys
-'
+"
 )
 :
             
 if
-'
+"
 MOZILLABUILD
-'
+"
 in
 os
 .
@@ -1580,21 +1595,22 @@ None
 raise
 NotImplementedError
 (
-'
+                
+"
 Bootstrap
 support
 is
 not
 yet
 available
-'
-                                      
-'
+"
+"
 for
 your
 OS
 .
-'
+"
+            
 )
         
 self
@@ -1665,6 +1681,7 @@ statedir
 =
 state_dir
 )
+                
 )
             
 if
@@ -1673,7 +1690,7 @@ should_create_state_dir
                 
 print
 (
-'
+"
 Creating
 global
 state
@@ -1681,7 +1698,7 @@ directory
 :
 %
 s
-'
+"
 %
 state_dir
 )
@@ -1702,23 +1719,25 @@ else
 raise
 UserError
 (
-'
+                    
+"
 Need
 permission
 to
 create
 global
 state
-'
-                                
-'
+"
+                    
+"
 directory
 at
 %
 s
-'
+"
 %
 state_dir
+                
 )
         
 return
@@ -1729,7 +1748,6 @@ maybe_install_private_packages_or_exit
 (
 self
 state_dir
-                                               
 checkout_root
 )
 :
@@ -1852,16 +1870,19 @@ state_dir
 :
         
 if
+(
+            
 self
 .
 mach_context
 is
 not
 None
+            
 and
-'
+"
 telemetry
-'
+"
 in
 self
 .
@@ -1870,6 +1891,8 @@ mach_context
 settings
 .
 build
+        
+)
 :
             
 return
@@ -1920,9 +1943,9 @@ path
 join
 (
 state_dir
-'
+"
 machrc
-'
+"
 )
             
 if
@@ -1934,7 +1957,8 @@ cfg_file
                 
 print
 (
-'
+                    
+"
 \
 nThanks
 for
@@ -1948,10 +1972,10 @@ change
 this
 setting
 at
-'
+"
+                    
 +
-                      
-'
+"
 any
 time
 by
@@ -1963,12 +1987,13 @@ file
 }
 \
 n
-'
+"
 .
 format
 (
 cfg_file
 )
+                
 )
         
 return
@@ -1991,11 +2016,11 @@ no_interactive
 or
 which
 (
-'
+"
 moz
 -
 phab
-'
+"
 )
 :
             
@@ -2009,7 +2034,7 @@ instance
 .
 prompt_yesno
 (
-'
+"
 Will
 you
 be
@@ -2018,7 +2043,7 @@ commits
 to
 Mozilla
 ?
-'
+"
 )
 :
             
@@ -2033,9 +2058,9 @@ path
 join
 (
 checkout_root
-'
+"
 mach
-'
+"
 )
         
 subprocess
@@ -2047,13 +2072,13 @@ sys
 .
 executable
 mach_binary
-'
+"
 install
 -
 moz
 -
 phab
-'
+"
 )
 )
     
@@ -2077,7 +2102,8 @@ version_info
             
 print
 (
-'
+                
+"
 This
 script
 must
@@ -2089,8 +2115,8 @@ Python
 .
 \
 n
-'
-                  
+"
+                
 '
 Try
 "
@@ -2101,6 +2127,7 @@ py
 "
 .
 '
+            
 )
             
 sys
@@ -2121,13 +2148,14 @@ None
 labels
 =
 [
-'
+                
+"
 %
 s
 .
 %
 s
-'
+"
 %
 (
 i
@@ -2146,23 +2174,25 @@ keys
 )
 1
 )
+            
 ]
             
 prompt
 =
 APPLICATION_CHOICE
 %
-'
+"
 \
 n
-'
+"
 .
 join
 (
-'
+                
+"
 {
 }
-'
+"
 .
 format
 (
@@ -2172,6 +2202,7 @@ for
 label
 in
 labels
+            
 )
             
 prompt_choice
@@ -2182,6 +2213,7 @@ instance
 .
 prompt_int
 (
+                
 prompt
 =
 prompt
@@ -2194,6 +2226,7 @@ len
 (
 APPLICATIONS
 )
+            
 )
             
 name
@@ -2255,6 +2288,7 @@ application
 =
 next
 (
+                
 (
 k
 v
@@ -2275,6 +2309,7 @@ v
 self
 .
 choice
+            
 )
         
 else
@@ -2283,7 +2318,8 @@ else
 raise
 Exception
 (
-'
+                
+"
 Please
 pick
 a
@@ -2295,12 +2331,12 @@ choice
 %
 s
 )
-'
+"
+                
 %
-                            
-'
+"
 /
-'
+"
 .
 join
 (
@@ -2310,6 +2346,7 @@ keys
 (
 )
 )
+            
 )
         
 mozconfig_builder
@@ -2332,9 +2369,9 @@ instance
 .
 artifact_mode
 =
-'
+"
 artifact_mode
-'
+"
 in
 application
         
@@ -2382,15 +2419,15 @@ load_hgrc
 =
 True
 )
-            
 hg
 =
 which
 (
-'
+"
 hg
-'
+"
 )
+        
 )
         
 self
@@ -2437,7 +2474,6 @@ self
 maybe_install_private_packages_or_exit
 (
 state_dir
-                                                        
 checkout_root
 )
             
@@ -2469,11 +2505,11 @@ getattr
 self
 .
 instance
-'
+"
 install_
 %
 s_packages
-'
+"
 %
 application
 )
@@ -2515,9 +2551,9 @@ and
 checkout_type
 =
 =
-'
+"
 hg
-'
+"
 :
             
 configure_hg
@@ -2563,9 +2599,9 @@ configure_mercurial
 (
 which
 (
-'
+"
 hg
-'
+"
 )
 state_dir
 )
@@ -2573,17 +2609,17 @@ state_dir
 elif
 which
 (
-'
+"
 git
-'
+"
 )
 and
 checkout_type
 =
 =
-'
+"
 git
-'
+"
 :
             
 should_configure_git
@@ -2627,23 +2663,24 @@ should_configure_git
                 
 configure_git
 (
+                    
 which
 (
-'
+"
 git
-'
+"
 )
 which
 (
-'
+"
 git
 -
 cinnabar
-'
+"
 )
-                              
 state_dir
 checkout_root
+                
 )
         
 self
@@ -2678,12 +2715,14 @@ name
 if
 not
 (
+            
 which
 (
-'
+"
 rustc
-'
+"
 )
+            
 and
 self
 .
@@ -2691,19 +2730,20 @@ instance
 .
 _parse_version
 (
-'
+"
 rustc
-'
+"
 )
-                
 >
 =
 MODERN_RUST_VERSION
+        
 )
 :
             
 print
 (
+                
 "
 To
 build
@@ -2721,8 +2761,10 @@ terminal
 window
 )
 "
+                
 %
 name
+            
 )
         
 self
@@ -2746,16 +2788,18 @@ additional_mozconfig
 =
 getattr
 (
+            
 self
 .
 instance
-'
+"
 generate_
 %
 s_mozconfig
-'
+"
 %
 application
+        
 )
 (
 )
@@ -2812,18 +2856,18 @@ self
 mach_context
 .
 topdir
-'
+"
 mozconfig
-'
+"
 )
                 
 with
 open
 (
 mozconfig_path
-'
+"
 w
-'
+"
 )
 as
 mozconfig_file
@@ -2838,6 +2882,7 @@ raw_mozconfig
                 
 print
 (
+                    
 '
 Your
 requested
@@ -2852,9 +2897,10 @@ s
 "
 .
 '
-                      
+                    
 %
 mozconfig_path
+                
 )
             
 else
@@ -2867,7 +2913,9 @@ MOZCONFIG_SUGGESTION_TEMPLATE
 (
                     
 mozconfig_path
+                    
 raw_mozconfig
+                
 )
                 
 print
@@ -2900,14 +2948,12 @@ distutils
 spawn
             
 assert
-(
 distutils
 .
 sysconfig
 is
 not
 None
-                    
 and
 distutils
 .
@@ -2915,7 +2961,6 @@ spawn
 is
 not
 None
-)
         
 except
 ImportError
@@ -2925,7 +2970,7 @@ e
             
 print
 (
-'
+"
 ERROR
 :
 Could
@@ -2934,12 +2979,11 @@ import
 package
 %
 s
-'
+"
 %
 e
 .
 name
-                  
 file
 =
 sys
@@ -2965,7 +3009,7 @@ AssertionError
             
 print
 (
-'
+"
 ERROR
 :
 distutils
@@ -2975,8 +3019,7 @@ behaving
 as
 expected
 .
-'
-                  
+"
 file
 =
 sys
@@ -3000,9 +3043,9 @@ pip3
 =
 which
 (
-'
+"
 pip3
-'
+"
 )
         
 if
@@ -3012,7 +3055,7 @@ pip3
             
 print
 (
-'
+"
 ERROR
 :
 Could
@@ -3020,7 +3063,7 @@ not
 find
 pip3
 .
-'
+"
 file
 =
 sys
@@ -3047,7 +3090,8 @@ valid
             
 print
 (
-'
+                
+"
 ERROR
 :
 Your
@@ -3059,9 +3103,9 @@ be
 able
 to
 run
-'
-                  
-'
+"
+                
+"
 mach
 bootstrap
 .
@@ -3070,9 +3114,9 @@ bootstrap
 cannot
 maintain
 your
-'
-                  
-'
+"
+                
+"
 Python
 environment
 for
@@ -3084,9 +3128,9 @@ errors
 shown
 here
 and
-'
-                  
-'
+"
+                
+"
 then
 re
 -
@@ -3094,12 +3138,14 @@ run
 mach
 bootstrap
 .
-'
+"
+                
 file
 =
 sys
 .
 stderr
+            
 )
             
 sys
@@ -3147,19 +3193,20 @@ path
 join
 (
 root_state_dir
-'
+"
 version
 -
 control
 -
 tools
-'
+"
 )
     
 update_mercurial_repo
 (
+        
 hg
-'
+"
 https
 :
 /
@@ -3177,11 +3224,11 @@ version
 control
 -
 tools
-'
-                          
+"
 vct_dir
-'
-'
+"
+"
+    
 )
     
 return
@@ -3221,12 +3268,13 @@ args
         
 hg
         
-'
+"
 -
 -
 config
-'
-'
+"
+        
+"
 extensions
 .
 configwizard
@@ -3237,13 +3285,13 @@ s
 hgext
 /
 configwizard
-'
+"
 %
 vct_dir
         
-'
+"
 configwizard
-'
+"
     
 ]
     
@@ -3286,45 +3334,45 @@ disable_exts
 =
 [
         
-'
+"
 bzexport
-'
+"
         
-'
+"
 bzpost
-'
+"
         
-'
+"
 firefoxtree
-'
+"
         
-'
+"
 hgwatchman
-'
+"
         
-'
+"
 mozext
-'
+"
         
-'
+"
 mqext
-'
+"
         
-'
+"
 qimportbz
-'
+"
         
-'
+"
 push
 -
 to
 -
 try
-'
+"
         
-'
+"
 reviewboard
-'
+"
     
 ]
     
@@ -3346,19 +3394,19 @@ args
 extend
 (
 [
-'
+"
 -
 -
 config
-'
-'
+"
+"
 extensions
 .
 %
 s
 =
 !
-'
+"
 %
 ext
 ]
@@ -3391,9 +3439,9 @@ pull_args
 extend
 (
 [
-'
+"
 pull
-'
+"
 url
 ]
 )
@@ -3410,14 +3458,14 @@ pull_args
 extend
 (
 [
-'
+"
 clone
-'
-'
+"
+"
 -
 -
 noupdate
-'
+"
 url
 dest
 ]
@@ -3425,9 +3473,9 @@ dest
         
 cwd
 =
-'
+"
 /
-'
+"
     
 update_args
 =
@@ -3445,29 +3493,29 @@ update_args
 extend
 (
 [
-'
+"
 update
-'
-'
+"
+"
 -
 r
-'
+"
 revision
 ]
 )
     
 print
 (
-'
+"
 =
-'
+"
 *
 80
 )
     
 print
 (
-'
+"
 Ensuring
 %
 s
@@ -3478,7 +3526,7 @@ date
 at
 %
 s
-'
+"
 %
 (
 url
@@ -3514,9 +3562,9 @@ finally
         
 print
 (
-'
+"
 =
-'
+"
 *
 80
 )
@@ -3561,13 +3609,15 @@ HG_ROOT_REVISIONS
 =
 set
 (
-[
         
-'
+[
+            
+"
 8ba995b74e18334ab3707f27e9eb8f4e37ba3d29
-'
-    
+"
+        
 ]
+    
 )
     
 path
@@ -3591,10 +3641,10 @@ path
 join
 (
 path
-'
+"
 .
 hg
-'
+"
 )
         
 git_dir
@@ -3606,10 +3656,10 @@ path
 join
 (
 path
-'
+"
 .
 git
-'
+"
 )
         
 if
@@ -3637,37 +3687,40 @@ check_output
                     
 [
 hg
-'
+"
 log
-'
-'
+"
+"
 -
 r
-'
-'
+"
+"
 0
-'
-'
+"
+"
 -
 -
 template
-'
-'
+"
+"
 {
 node
 }
-'
+"
 ]
                     
 cwd
 =
 path
+                    
 env
 =
 env
+                    
 universal_newlines
 =
 True
+                
 )
                 
 if
@@ -3683,9 +3736,9 @@ path
                     
 return
 (
-'
+"
 hg
-'
+"
 path
 )
             
@@ -3717,11 +3770,11 @@ path
 join
 (
 path
-'
+"
 moz
 .
 configure
-'
+"
 )
             
 if
@@ -3742,9 +3795,9 @@ path
                 
 return
 (
-'
+"
 git
-'
+"
 path
 )
         
@@ -3764,8 +3817,8 @@ if
 child
 =
 =
-'
-'
+"
+"
 :
             
 break
@@ -3773,7 +3826,8 @@ break
 raise
 UserError
 (
-'
+        
+"
 Could
 not
 identify
@@ -3784,9 +3838,9 @@ of
 your
 checkout
 !
-'
-                    
-'
+"
+        
+"
 Are
 you
 running
@@ -3799,7 +3853,8 @@ or
 git
 clone
 ?
-'
+"
+    
 )
 def
 update_git_tools
@@ -3832,17 +3887,17 @@ path
 join
 (
 root_state_dir
-'
+"
 git
 -
 cinnabar
-'
+"
 )
     
 update_git_repo
 (
 git
-'
+"
 https
 :
 /
@@ -3858,8 +3913,7 @@ git
 cinnabar
 .
 git
-'
-                    
+"
 cinnabar_dir
 )
     
@@ -3867,12 +3921,12 @@ download_args
 =
 [
 git
-'
+"
 cinnabar
-'
-'
+"
+"
 download
-'
+"
 ]
     
 try
@@ -3953,9 +4007,9 @@ pull_args
 extend
 (
 [
-'
+"
 pull
-'
+"
 ]
 )
         
@@ -3971,16 +4025,16 @@ pull_args
 extend
 (
 [
-'
+"
 clone
-'
-'
+"
+"
 -
 -
 no
 -
 checkout
-'
+"
 url
 dest
 ]
@@ -3988,31 +4042,31 @@ dest
         
 cwd
 =
-'
+"
 /
-'
+"
     
 update_args
 =
 [
 git
-'
+"
 checkout
-'
+"
 ]
     
 print
 (
-'
+"
 =
-'
+"
 *
 80
 )
     
 print
 (
-'
+"
 Ensuring
 %
 s
@@ -4023,7 +4077,7 @@ date
 at
 %
 s
-'
+"
 %
 (
 url
@@ -4059,9 +4113,9 @@ finally
         
 print
 (
-'
+"
 =
-'
+"
 *
 80
 )
@@ -4094,8 +4148,9 @@ re
 .
 search
 (
+        
 r
-'
+"
 (
 \
 d
@@ -4111,25 +4166,25 @@ d
 d
 +
 )
-'
-                      
+"
+        
 subprocess
 .
 check_output
 (
 [
 git
-'
+"
 -
 -
 version
-'
+"
 ]
-                                              
 universal_newlines
 =
 True
 )
+    
 )
     
 if
@@ -4140,13 +4195,13 @@ match
 raise
 Exception
 (
-'
+"
 Could
 not
 find
 git
 version
-'
+"
 )
     
 git_version
@@ -4169,19 +4224,22 @@ MINIMUM_RECOMMENDED_GIT_VERSION
         
 print
 (
+            
 OLD_GIT_WARNING
 .
 format
 (
-            
+                
 old_version
 =
 git_version
-            
+                
 minimum_recommended_version
 =
 MINIMUM_RECOMMENDED_GIT_VERSION
+            
 )
+        
 )
     
 if
@@ -4190,11 +4248,11 @@ git_version
 =
 LooseVersion
 (
-'
+"
 2
 .
 17
-'
+"
 )
 :
         
@@ -4205,21 +4263,22 @@ check_call
             
 [
 git
-'
+"
 config
-'
-'
+"
+"
 core
 .
 untrackedCache
-'
-'
+"
+"
 true
-'
+"
 ]
 cwd
 =
 top_src_dir
+        
 )
     
 cinnabar_dir

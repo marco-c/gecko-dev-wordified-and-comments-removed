@@ -242,7 +242,6 @@ headers
 "
 :
 headers_
-                  
 "
 auth
 "
@@ -830,6 +829,7 @@ gh
 .
 post
 (
+            
 repo
 .
 path
@@ -838,32 +838,30 @@ path
 pulls
 "
 )
-                            
+            
 {
 "
 title
 "
 :
 title
-                             
 "
 head
 "
 :
 head
-                             
 "
 base
 "
 :
 base
-                             
 "
 body
 "
 :
 body
 }
+        
 )
         
 return
@@ -975,7 +973,6 @@ its
 base
 branch
 .
-        
 "
 "
 "
@@ -988,6 +985,7 @@ gh
 .
 put
 (
+            
 self
 .
 path
@@ -996,7 +994,7 @@ path
 merge
 "
 )
-                         
+            
 {
 "
 merge_method
@@ -1006,7 +1004,7 @@ merge_method
 merge
 "
 }
-                         
+            
 headers
 =
 {
@@ -1028,6 +1026,7 @@ preview
 json
 "
 }
+        
 )
 class
 Issue
@@ -1201,7 +1200,6 @@ path
 comments
 "
 )
-                          
 {
 "
 body

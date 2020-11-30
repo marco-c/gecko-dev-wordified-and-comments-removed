@@ -46,9 +46,9 @@ path
 fileobj
 mode
 =
-'
+"
 r
-'
+"
 )
 :
     
@@ -61,7 +61,7 @@ fileobj
 raise
 AssertionError
 (
-'
+"
 Only
 1
 of
@@ -72,7 +72,7 @@ may
 be
 defined
 .
-'
+"
 )
     
 if
@@ -86,7 +86,7 @@ fileobj
 raise
 AssertionError
 (
-'
+"
 Must
 specified
 1
@@ -95,7 +95,7 @@ path
 or
 fileobj
 .
-'
+"
 )
     
 if
@@ -486,10 +486,10 @@ CURRENT_VERSION
     
 FIELD_SEPARATOR
 =
-'
+"
 \
 x1f
-'
+"
     
 LINK
 =
@@ -623,9 +623,9 @@ _auto_fileobj
 (
 path
 fileobj
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -674,37 +674,36 @@ version
 not
 in
 (
-'
+"
 1
-'
-'
+"
+"
 2
-'
-'
+"
+"
 3
-'
-'
+"
+"
 4
-'
-'
+"
+"
 5
-'
+"
 )
 :
             
 raise
 UnreadableInstallManifest
 (
-'
+"
 Unknown
 manifest
 version
 :
 %
 s
-'
+"
 %
-                                            
 version
 )
         
@@ -720,10 +719,10 @@ line
 .
 rstrip
 (
-'
+"
 \
 n
-'
+"
 )
             
 fields
@@ -937,18 +936,22 @@ self
 .
 add_preprocess
 (
+                    
 source
+                    
 dest
+                    
 deps
+                    
 marker
-                                    
+                    
 self
 .
 _decode_field_entry
 (
 defines
 )
-                                    
+                    
 silence_missing_directive_warnings
 =
 bool
@@ -958,6 +961,7 @@ int
 warnings
 )
 )
+                
 )
                 
 continue
@@ -997,6 +1001,7 @@ content
 )
 )
 dest
+                
 )
                 
 continue
@@ -1011,16 +1016,15 @@ record_type
 raise
 UnreadableInstallManifest
 (
-'
+"
 Unknown
 record
 type
 :
 %
 d
-'
+"
 %
-                                                
 record_type
 )
     
@@ -1115,7 +1119,7 @@ InstallManifest
 raise
 ValueError
 (
-'
+"
 Can
 only
 |
@@ -1125,7 +1129,7 @@ instance
 of
 InstallManifest
 .
-'
+"
 )
         
 self
@@ -1346,9 +1350,9 @@ _auto_fileobj
 (
 path
 fileobj
-'
+"
 wt
-'
+"
 )
 as
 fh
@@ -1358,12 +1362,12 @@ fh
 .
 write
 (
-'
+"
 %
 d
 \
 n
-'
+"
 %
 self
 .
@@ -1399,12 +1403,15 @@ entry
 ]
 in
 (
+                    
 self
 .
 PATTERN_LINK
+                    
 self
 .
 PATTERN_COPY
+                
 )
 :
                     
@@ -1476,10 +1483,10 @@ path
 parts
 =
 [
-'
+"
 %
 d
-'
+"
 %
 type
 mozpath
@@ -1496,12 +1503,14 @@ fh
 .
 write
 (
-'
+                            
+"
 %
 s
 \
 n
-'
+"
+                            
 %
 self
 .
@@ -1509,7 +1518,7 @@ FIELD_SEPARATOR
 .
 join
 (
-                            
+                                
 six
 .
 ensure_text
@@ -1520,7 +1529,9 @@ for
 p
 in
 parts
+                            
 )
+                        
 )
                 
 else
@@ -1529,10 +1540,10 @@ else
 parts
 =
 [
-'
+"
 %
 d
-'
+"
 %
 entry
 [
@@ -1556,12 +1567,14 @@ fh
 .
 write
 (
-'
+                        
+"
 %
 s
 \
 n
-'
+"
+                        
 %
 self
 .
@@ -1569,7 +1582,6 @@ FIELD_SEPARATOR
 .
 join
 (
-                        
 six
 .
 ensure_text
@@ -1581,6 +1593,7 @@ p
 in
 parts
 )
+                    
 )
     
 def
@@ -1917,6 +1930,7 @@ self
 .
 _add_entry
 (
+            
 mozpath
 .
 join
@@ -1924,7 +1938,6 @@ join
 dest
 pattern
 )
-                        
 (
 self
 .
@@ -1933,6 +1946,7 @@ base
 pattern
 dest
 )
+        
 )
     
 def
@@ -1974,6 +1988,7 @@ self
 .
 _add_entry
 (
+            
 mozpath
 .
 join
@@ -1981,7 +1996,6 @@ join
 dest
 pattern
 )
-                        
 (
 self
 .
@@ -1990,28 +2004,36 @@ base
 pattern
 dest
 )
+        
 )
     
 def
 add_preprocess
 (
+        
 self
+        
 source
+        
 dest
+        
 deps
+        
 marker
 =
-'
+"
 #
-'
+"
+        
 defines
 =
 {
 }
-                       
+        
 silence_missing_directive_warnings
 =
 False
+    
 )
 :
         
@@ -2054,37 +2076,40 @@ self
 .
 _add_entry
 (
-dest
-(
             
+dest
+            
+(
+                
 self
 .
 PREPROCESS
-            
+                
 source
-            
+                
 deps
-            
+                
 marker
-            
+                
 self
 .
 _encode_field_entry
 (
 defines
 )
-            
-'
+                
+"
 1
-'
+"
 if
 silence_missing_directive_warnings
 else
-'
+"
 0
-'
-        
+"
+            
 )
+        
 )
     
 def
@@ -2115,21 +2140,24 @@ self
 .
 _add_entry
 (
-dest
-(
             
+dest
+            
+(
+                
 self
 .
 CONTENT
-            
+                
 self
 .
 _encode_field_entry
 (
 content
 )
-        
+            
 )
+        
 )
     
 def
@@ -2152,7 +2180,7 @@ _dests
 raise
 ValueError
 (
-'
+"
 Item
 already
 in
@@ -2160,7 +2188,7 @@ manifest
 :
 %
 s
-'
+"
 %
 dest
 )
@@ -2181,8 +2209,8 @@ self
 other
 base
 =
-'
-'
+"
+"
 )
 :
         
@@ -2353,12 +2381,11 @@ defines_override
 =
 {
 }
-                          
 link_policy
 =
-'
+"
 symlink
-'
+"
 )
 :
         
@@ -2792,39 +2819,41 @@ registry
 .
 add
 (
+                    
 dest
+                    
 PreprocessedFile
 (
-                   
+                        
 entry
 [
 1
 ]
-                   
+                        
 depfile_path
 =
 entry
 [
 2
 ]
-                   
+                        
 marker
 =
 entry
 [
 3
 ]
-                   
+                        
 defines
 =
 defines
-                   
+                        
 extra_depends
 =
 self
 .
 _source_files
-                   
+                        
 silence_missing_directive_warnings
 =
 bool
@@ -2837,8 +2866,9 @@ entry
 ]
 )
 )
-                
+                    
 )
+                
 )
                 
 continue
@@ -2866,11 +2896,11 @@ entry
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
                 
 registry
@@ -2889,7 +2919,8 @@ continue
 raise
 Exception
 (
-'
+                
+"
 Unknown
 install
 type
@@ -2899,8 +2930,8 @@ manifest
 :
 %
 d
-'
+"
 %
-                            
 install_type
+            
 )

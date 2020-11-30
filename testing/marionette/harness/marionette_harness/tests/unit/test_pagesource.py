@@ -31,9 +31,9 @@ None
     
 mime
 =
-'
+"
 html
-'
+"
 if
 mime
 is
@@ -43,11 +43,11 @@ mime
     
 charset
 =
-'
+"
 utf
 -
 8
-'
+"
 if
 (
 charset
@@ -143,6 +143,7 @@ marionette
 .
 execute_script
 (
+            
 "
 return
 document
@@ -151,6 +152,7 @@ documentElement
 .
 outerHTML
 "
+        
 )
         
 self
@@ -195,6 +197,7 @@ test_html
 =
 inline
 (
+            
 '
 <
 head
@@ -253,6 +256,7 @@ selector
 body
 >
 '
+        
 )
         
 self
@@ -280,6 +284,7 @@ marionette
 .
 execute_script
 (
+            
 "
 return
 document
@@ -288,6 +293,7 @@ documentElement
 .
 outerHTML
 "
+        
 )
         
 self
@@ -363,6 +369,7 @@ marionette
 .
 execute_script
 (
+            
 "
 return
 document
@@ -371,6 +378,7 @@ documentElement
 .
 outerHTML
 "
+        
 )
         
 import
@@ -380,6 +388,7 @@ self
 .
 assertEqual
 (
+            
 re
 .
 sub
@@ -416,6 +425,7 @@ foo
 xml
 >
 "
+        
 )
         
 self

@@ -65,109 +65,109 @@ build_platform
 =
 job
 [
-'
+"
 attributes
-'
+"
 ]
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
         
 instr
 =
-'
+"
 instrumented
 -
 build
 -
 {
 }
-'
+"
 .
 format
 (
 job
 [
-'
+"
 name
-'
+"
 ]
 )
         
 if
-'
+"
 android
-'
+"
 in
 build_platform
 :
             
 artifact
 =
-'
+"
 geckoview
 -
 androidTest
 .
 apk
-'
+"
         
 elif
-'
+"
 macosx64
-'
+"
 in
 build_platform
 :
             
 artifact
 =
-'
+"
 target
 .
 dmg
-'
+"
         
 elif
-'
+"
 win
-'
+"
 in
 build_platform
 :
             
 artifact
 =
-'
+"
 target
 .
 zip
-'
+"
         
 else
 :
             
 artifact
 =
-'
+"
 target
 .
 tar
 .
 bz2
-'
+"
         
 job
 .
 setdefault
 (
-'
+"
 fetches
-'
+"
 {
 }
 )
@@ -179,7 +179,7 @@ instr
             
 artifact
             
-'
+"
 target
 .
 crashreporter
@@ -187,7 +187,7 @@ crashreporter
 symbols
 .
 zip
-'
+"
         
 ]
         

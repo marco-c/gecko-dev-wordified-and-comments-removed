@@ -75,15 +75,15 @@ it
 files
 =
 (
-'
+"
 foo
-'
-'
+"
+"
 bar
-'
-'
+"
+"
 fleem
-'
+"
 )
         
 if
@@ -117,9 +117,9 @@ join
 directory
 i
 )
-'
+"
 w
-'
+"
 )
 .
 write
@@ -136,9 +136,9 @@ path
 join
 (
 directory
-'
+"
 subdir
-'
+"
 )
         
 os
@@ -157,20 +157,20 @@ path
 join
 (
 subdir
-'
+"
 subfile
-'
+"
 )
-'
+"
 w
-'
+"
 )
 .
 write
 (
-'
+"
 baz
-'
+"
 )
         
 return
@@ -216,27 +216,27 @@ try
 files
 =
 [
-'
+"
 .
 .
 /
 bar
-'
-'
+"
+"
 .
 .
 /
 fleem
-'
-'
+"
+"
 .
 .
 /
 foo
-'
-'
+"
+"
 subfile
-'
+"
 ]
             
 subdir
@@ -248,9 +248,9 @@ path
 join
 (
 stub
-'
+"
 subdir
-'
+"
 )
             
 os
@@ -269,9 +269,9 @@ stub
 ]
 relative_to
 =
-'
+"
 .
-'
+"
 )
             
 self
@@ -281,9 +281,9 @@ assertEqual
 [
 i
 [
-'
+"
 name
-'
+"
 ]
 for
 i
@@ -292,7 +292,6 @@ parser
 .
 tests
 ]
-                             
 files
 )
         
@@ -323,15 +322,15 @@ unittest
 .
 skipIf
 (
+        
 not
 hasattr
 (
 os
-'
+"
 symlink
-'
+"
 )
-                     
 "
 symlinks
 unavailable
@@ -339,6 +338,7 @@ on
 this
 platform
 "
+    
 )
     
 def
@@ -398,9 +398,9 @@ path
 join
 (
 workspace
-'
+"
 directory
-'
+"
 )
             
 os
@@ -419,9 +419,9 @@ path
 join
 (
 workspace
-'
+"
 link
-'
+"
 )
             
 os
@@ -442,27 +442,27 @@ tmpdir
 files
 =
 [
-'
+"
 .
 .
 /
 bar
-'
-'
+"
+"
 .
 .
 /
 fleem
-'
-'
+"
+"
 .
 .
 /
 foo
-'
-'
+"
+"
 subfile
-'
+"
 ]
             
 subdir
@@ -474,9 +474,9 @@ path
 join
 (
 linkdir
-'
+"
 subdir
-'
+"
 )
             
 os
@@ -511,9 +511,9 @@ directory
 ]
 relative_to
 =
-'
+"
 .
-'
+"
 )
                 
 self
@@ -523,9 +523,9 @@ assertEqual
 [
 i
 [
-'
+"
 name
-'
+"
 ]
 for
 i
@@ -534,7 +534,6 @@ parser
 .
 tests
 ]
-                                 
 files
 )
         
@@ -583,9 +582,9 @@ path
 join
 (
 workspace
-'
+"
 directory
-'
+"
 )
             
 os
@@ -604,9 +603,9 @@ path
 join
 (
 workspace
-'
+"
 link
-'
+"
 )
             
 os
@@ -627,27 +626,27 @@ tmpdir
 files
 =
 [
-'
+"
 .
 .
 /
 bar
-'
-'
+"
+"
 .
 .
 /
 fleem
-'
-'
+"
+"
 .
 .
 /
 foo
-'
-'
+"
+"
 subfile
-'
+"
 ]
             
 subdir
@@ -659,9 +658,9 @@ path
 join
 (
 linkdir
-'
+"
 subdir
-'
+"
 )
             
 subsubdir
@@ -673,9 +672,9 @@ path
 join
 (
 subdir
-'
+"
 sub
-'
+"
 )
             
 os
@@ -694,9 +693,9 @@ path
 join
 (
 linkdir
-'
+"
 linky
-'
+"
 )
             
 linksubsubdir
@@ -708,9 +707,9 @@ path
 join
 (
 subsubdir
-'
+"
 linky
-'
+"
 )
             
 os
@@ -762,9 +761,9 @@ directory
 ]
 relative_to
 =
-'
+"
 .
-'
+"
 )
                     
 self
@@ -774,9 +773,9 @@ assertEqual
 [
 i
 [
-'
+"
 name
-'
+"
 ]
 for
 i
@@ -785,7 +784,6 @@ parser
 .
 tests
 ]
-                                     
 files
 )
         
@@ -810,15 +808,15 @@ unittest
 .
 skipIf
 (
+        
 not
 hasattr
 (
 os
-'
+"
 symlink
-'
+"
 )
-                     
 "
 symlinks
 unavailable
@@ -826,6 +824,7 @@ on
 this
 platform
 "
+    
 )
     
 def
@@ -864,9 +863,9 @@ path
 join
 (
 workspace
-'
+"
 dir1
-'
+"
 )
 )
         
@@ -881,9 +880,9 @@ path
 join
 (
 workspace
-'
+"
 dir2
-'
+"
 )
 )
         
@@ -897,15 +896,14 @@ path
 .
 join
 (
-'
+"
 .
 .
-'
-'
+"
+"
 dir1
-'
+"
 )
-                   
 os
 .
 path
@@ -913,12 +911,12 @@ path
 join
 (
 workspace
-'
+"
 dir2
-'
-'
+"
+"
 ldir1
-'
+"
 )
 )
         
@@ -932,15 +930,14 @@ path
 .
 join
 (
-'
+"
 .
 .
-'
-'
+"
+"
 dir2
-'
+"
 )
-                   
 os
 .
 path
@@ -948,12 +945,12 @@ path
 join
 (
 workspace
-'
+"
 dir1
-'
-'
+"
+"
 ldir2
-'
+"
 )
 )
         
@@ -966,18 +963,18 @@ path
 join
 (
 workspace
-'
+"
 dir1
-'
-'
+"
+"
 f1
 .
 txt
-'
+"
 )
-'
+"
 a
-'
+"
 )
 .
 close
@@ -993,21 +990,21 @@ path
 join
 (
 workspace
-'
+"
 dir1
-'
-'
+"
+"
 ldir2
-'
-'
+"
+"
 f2
 .
 txt
-'
+"
 )
-'
+"
 a
-'
+"
 )
 .
 close
@@ -1061,25 +1058,25 @@ sorted
 data
 )
 [
-'
+"
 f1
 .
 txt
-'
-'
+"
+"
 f2
 .
 txt
-'
+"
 ]
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

@@ -146,6 +146,7 @@ self
 .
 assertFalse
 (
+            
 self
 .
 marionette
@@ -167,6 +168,7 @@ true
 box
 ]
 )
+        
 )
         
 self

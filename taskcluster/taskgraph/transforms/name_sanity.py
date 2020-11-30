@@ -90,11 +90,11 @@ dep_job
 =
 job
 [
-'
+"
 primary
 -
 dependency
-'
+"
 ]
         
 attr
@@ -108,16 +108,16 @@ get
 if
 attr
 (
-'
+"
 locale
-'
+"
 job
 .
 get
 (
-'
+"
 locale
-'
+"
 )
 )
 :
@@ -145,9 +145,9 @@ build_type
 elif
 attr
 (
-'
+"
 l10n_chunk
-'
+"
 )
 :
             
@@ -187,14 +187,13 @@ free
 "
 )
 or
-\
-                
 config
 .
 kind
 .
 startswith
 (
+            
 "
 release
 -
@@ -202,6 +201,7 @@ partner
 -
 repack
 "
+        
 )
 :
             
@@ -226,17 +226,17 @@ repack_suffix
 None
 )
 or
-\
-                     
 job
 .
 get
 (
+                
 "
 extra
 "
 {
 }
+            
 )
 .
 get
@@ -278,12 +278,12 @@ suffix
 .
 replace
 (
-'
+"
 /
-'
-'
+"
+"
 -
-'
+"
 )
 )
         
@@ -308,9 +308,9 @@ build_type
         
 job
 [
-'
+"
 label
-'
+"
 ]
 =
 template
@@ -328,36 +328,36 @@ build_platform
 =
 attr
 (
-'
+"
 build_platform
-'
+"
 )
             
 build_type
 =
 attr
 (
-'
+"
 build_type
-'
+"
 )
             
 locale
 =
 attr
 (
-'
+"
 locale
-'
+"
 job
 .
 get
 (
-'
+"
 locale
-'
-'
-'
+"
+"
+"
 )
 )
             
@@ -365,11 +365,11 @@ l10n_chunk
 =
 attr
 (
-'
+"
 l10n_chunk
-'
-'
-'
+"
+"
+"
 )
         
 )

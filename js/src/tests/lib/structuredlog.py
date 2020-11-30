@@ -24,9 +24,9 @@ self
 source
 threadname
 =
-'
+"
 main
-'
+"
 )
 :
         
@@ -36,21 +36,21 @@ template
 =
 {
             
-'
+"
 source
-'
+"
 :
 source
             
-'
+"
 thread
-'
+"
 :
 threadname
             
-'
+"
 pid
-'
+"
 :
 os
 .
@@ -132,9 +132,9 @@ kwargs
 )
         
 if
-'
+"
 time
-'
+"
 not
 in
 record
@@ -142,9 +142,9 @@ record
             
 record
 [
-'
+"
 time
-'
+"
 ]
 =
 time
@@ -217,9 +217,9 @@ _log
 (
 action
 =
-'
+"
 suite_start
-'
+"
 tests
 =
 [
@@ -239,9 +239,9 @@ _log
 (
 action
 =
-'
+"
 suite_end
-'
+"
 )
     
 def
@@ -258,9 +258,9 @@ _log
 (
 action
 =
-'
+"
 test_start
-'
+"
 test
 =
 testname
@@ -281,9 +281,9 @@ _log
 (
 action
 =
-'
+"
 test_end
-'
+"
 test
 =
 testname
@@ -311,11 +311,12 @@ self
 .
 _record
 (
+            
 action
 =
-'
+"
 test_start
-'
+"
 test
 =
 testname
@@ -325,28 +326,29 @@ details
 .
 get
 (
-'
+"
 extra
-'
+"
 {
 }
 )
+        
 )
         
 end_time
 =
 record
 [
-'
+"
 time
-'
+"
 ]
         
 record
 [
-'
+"
 time
-'
+"
 ]
 -
 =
@@ -361,29 +363,29 @@ record
         
 record
 [
-'
+"
 action
-'
+"
 ]
 =
-'
+"
 test_end
-'
+"
         
 record
 [
-'
+"
 time
-'
+"
 ]
 =
 end_time
         
 record
 [
-'
+"
 status
-'
+"
 ]
 =
 status

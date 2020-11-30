@@ -38,9 +38,9 @@ __file__
 )
 )
     
-'
+"
 external_tools
-'
+"
 )
 config
 =
@@ -50,9 +50,9 @@ config
 virtualenv_path
 "
 :
-'
+"
 venv
-'
+"
     
 "
 exes
@@ -60,17 +60,17 @@ exes
 :
 {
         
-'
+"
 python
-'
+"
 :
 sys
 .
 executable
         
-'
+"
 hg
-'
+"
 :
 os
 .
@@ -82,16 +82,16 @@ os
 .
 environ
 [
-'
+"
 PROGRAMFILES
-'
+"
 ]
-'
+"
 Mercurial
-'
-'
+"
+"
 hg
-'
+"
 )
     
 }
@@ -110,17 +110,17 @@ default_actions
 :
 [
         
-'
+"
 clobber
-'
+"
         
-'
+"
 download
 -
 and
 -
 extract
-'
+"
         
 "
 populate
@@ -128,21 +128,21 @@ populate
 webroot
 "
         
-'
+"
 create
 -
 virtualenv
-'
+"
         
-'
+"
 install
-'
+"
         
-'
+"
 run
 -
 tests
-'
+"
     
 ]
 }

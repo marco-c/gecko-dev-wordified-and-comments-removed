@@ -172,15 +172,17 @@ EXPECTED_LOG_ACTIONS
 =
 set
 (
-[
     
+[
+        
 "
 test_status
 "
-    
+        
 "
 log
 "
+    
 ]
 )
 here
@@ -215,9 +217,9 @@ dirname
 (
 here
 )
-'
+"
 mozbase
-'
+"
 )
 )
 if
@@ -309,7 +311,7 @@ re
 compile
 (
 u
-'
+"
 [
 \
 x00
@@ -335,7 +337,7 @@ x9f
 \
 \
 ]
-'
+"
 )
 def
 _cleanup_encoding_repl
@@ -354,22 +356,22 @@ group
 )
     
 return
-'
+"
 \
 \
 \
 \
-'
+"
 if
 c
 =
 =
-'
+"
 \
 \
-'
+"
 else
-'
+"
 \
 \
 x
@@ -378,7 +380,7 @@ x
 :
 02X
 }
-'
+"
 .
 format
 (
@@ -410,7 +412,7 @@ Either
 way
 it
 may
-       
+    
 contain
 control
 characters
@@ -418,7 +420,7 @@ unpaired
 surrogates
 reserved
 code
-       
+    
 points
 etc
 .
@@ -433,7 +435,7 @@ is
 assumed
 to
 be
-       
+    
 UTF
 -
 8
@@ -451,7 +453,7 @@ UTF
 .
 Return
 a
-       
+    
 sanitized
 unicode
 object
@@ -516,14 +518,14 @@ s
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
-'
+"
+"
 replace
-'
+"
 )
     
 return
@@ -540,11 +542,11 @@ ensure_bytes
 value
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 :
     
@@ -574,11 +576,11 @@ ensure_unicode
 value
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 :
     
@@ -608,11 +610,11 @@ ensure_subprocess_env
 env
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 :
     
@@ -773,6 +775,7 @@ Thread
 def
 __init__
 (
+        
 self
 test_object
 retry
@@ -784,10 +787,10 @@ False
 usingTSan
 =
 False
-                 
 *
 *
 kwargs
+    
 )
 :
         
@@ -836,9 +839,9 @@ kwargs
 .
 get
 (
-'
+"
 appPath
-'
+"
 )
         
 self
@@ -849,9 +852,9 @@ kwargs
 .
 get
 (
-'
+"
 xrePath
-'
+"
 )
         
 self
@@ -862,9 +865,9 @@ kwargs
 .
 get
 (
-'
+"
 utility_path
-'
+"
 )
         
 self
@@ -875,9 +878,9 @@ kwargs
 .
 get
 (
-'
+"
 testingModulesDir
-'
+"
 )
         
 self
@@ -888,9 +891,9 @@ kwargs
 .
 get
 (
-'
+"
 debuggerInfo
-'
+"
 )
         
 self
@@ -901,9 +904,9 @@ kwargs
 .
 get
 (
-'
+"
 jsDebuggerInfo
-'
+"
 )
         
 self
@@ -914,9 +917,9 @@ kwargs
 .
 get
 (
-'
+"
 pluginsPath
-'
+"
 )
         
 self
@@ -927,9 +930,9 @@ kwargs
 .
 get
 (
-'
+"
 httpdJSPath
-'
+"
 )
         
 self
@@ -940,9 +943,9 @@ kwargs
 .
 get
 (
-'
+"
 headJSPath
-'
+"
 )
         
 self
@@ -953,9 +956,9 @@ kwargs
 .
 get
 (
-'
+"
 testharnessdir
-'
+"
 )
         
 self
@@ -966,9 +969,9 @@ kwargs
 .
 get
 (
-'
+"
 profileName
-'
+"
 )
         
 self
@@ -979,9 +982,9 @@ kwargs
 .
 get
 (
-'
+"
 singleFile
-'
+"
 )
         
 self
@@ -996,9 +999,9 @@ kwargs
 .
 get
 (
-'
+"
 env
-'
+"
 )
 )
         
@@ -1010,9 +1013,9 @@ kwargs
 .
 get
 (
-'
+"
 symbolsPath
-'
+"
 )
         
 self
@@ -1023,9 +1026,9 @@ kwargs
 .
 get
 (
-'
+"
 logfiles
-'
+"
 )
         
 self
@@ -1036,9 +1039,9 @@ kwargs
 .
 get
 (
-'
+"
 xpcshell
-'
+"
 )
         
 self
@@ -1049,9 +1052,9 @@ kwargs
 .
 get
 (
-'
+"
 xpcsRunArgs
-'
+"
 )
         
 self
@@ -1062,9 +1065,9 @@ kwargs
 .
 get
 (
-'
+"
 failureManifest
-'
+"
 )
         
 self
@@ -1075,9 +1078,9 @@ kwargs
 .
 get
 (
-'
+"
 jscovdir
-'
+"
 )
         
 self
@@ -1088,9 +1091,9 @@ kwargs
 .
 get
 (
-'
+"
 stack_fixer_function
-'
+"
 )
         
 self
@@ -1101,9 +1104,9 @@ kwargs
 .
 get
 (
-'
+"
 tempDir
-'
+"
 )
         
 self
@@ -1114,9 +1117,9 @@ kwargs
 .
 get
 (
-'
+"
 cleanup_dir_list
-'
+"
 )
         
 self
@@ -1127,9 +1130,9 @@ kwargs
 .
 get
 (
-'
+"
 pStdout
-'
+"
 )
         
 self
@@ -1140,9 +1143,9 @@ kwargs
 .
 get
 (
-'
+"
 pStderr
-'
+"
 )
         
 self
@@ -1153,9 +1156,9 @@ kwargs
 .
 get
 (
-'
+"
 keep_going
-'
+"
 )
         
 self
@@ -1166,9 +1169,9 @@ kwargs
 .
 get
 (
-'
+"
 log
-'
+"
 )
         
 self
@@ -1179,9 +1182,9 @@ kwargs
 .
 get
 (
-'
+"
 app_dir_key
-'
+"
 )
         
 self
@@ -1192,9 +1195,9 @@ kwargs
 .
 get
 (
-'
+"
 interactive
-'
+"
 )
         
 self
@@ -1205,9 +1208,9 @@ kwargs
 .
 get
 (
-'
+"
 rootPrefsFile
-'
+"
 )
         
 self
@@ -1218,9 +1221,9 @@ kwargs
 .
 get
 (
-'
+"
 extraPrefs
-'
+"
 )
         
 self
@@ -1231,9 +1234,9 @@ kwargs
 .
 get
 (
-'
+"
 verboseIfFails
-'
+"
 )
         
 self
@@ -1244,9 +1247,9 @@ kwargs
 .
 get
 (
-'
+"
 headless
-'
+"
 )
         
 self
@@ -1314,9 +1317,9 @@ kwargs
 .
 get
 (
-'
+"
 harness_timeout
-'
+"
 )
         
 self
@@ -1333,9 +1336,9 @@ kwargs
 .
 get
 (
-'
+"
 event
-'
+"
 )
         
 self
@@ -1409,6 +1412,7 @@ log
 .
 info
 (
+                
 "
 %
 s
@@ -1421,15 +1425,15 @@ retry
 .
 "
 %
-                          
 self
 .
 test_object
 [
-'
+"
 id
-'
+"
 ]
+            
 )
         
 self
@@ -1457,7 +1461,7 @@ proc
 "
 "
 "
-          
+        
 Simple
 wrapper
 to
@@ -1465,7 +1469,7 @@ kill
 a
 process
 .
-          
+        
 On
 a
 remote
@@ -1502,7 +1506,7 @@ dirname
 "
 "
 "
-          
+        
 Simple
 wrapper
 to
@@ -1514,7 +1518,7 @@ a
 given
 directory
 .
-          
+        
 On
 a
 remote
@@ -1554,7 +1558,7 @@ proc
 "
 "
 "
-          
+        
 Simple
 wrapper
 to
@@ -1565,7 +1569,7 @@ process
 has
 terminated
 .
-          
+        
 On
 a
 remote
@@ -1603,7 +1607,7 @@ stdout
 "
 "
 "
-          
+        
 For
 a
 given
@@ -1617,7 +1621,7 @@ a
 log
 file
 .
-          
+        
 On
 a
 remote
@@ -1675,7 +1679,7 @@ proc
 "
 "
 "
-          
+        
 Simple
 wrapper
 to
@@ -1688,7 +1692,7 @@ a
 given
 process
 .
-          
+        
 On
 a
 remote
@@ -1744,7 +1748,7 @@ proc
 "
 "
 "
-          
+        
 Simple
 wrapper
 to
@@ -1753,7 +1757,7 @@ with
 a
 process
 .
-          
+        
 On
 a
 remote
@@ -1848,7 +1852,7 @@ None
 "
 "
 "
-          
+        
 Simple
 wrapper
 to
@@ -1856,7 +1860,7 @@ launch
 a
 process
 .
-          
+        
 On
 a
 remote
@@ -1955,7 +1959,6 @@ stdout
 stderr
 =
 stderr
-                          
 env
 =
 env
@@ -1971,11 +1974,8 @@ def
 checkForCrashes
 (
 self
-                        
 dump_directory
-                        
 symbols_path
-                        
 test_name
 =
 None
@@ -1985,7 +1985,7 @@ None
 "
 "
 "
-          
+        
 Simple
 wrapper
 to
@@ -1993,7 +1993,7 @@ check
 for
 crashes
 .
-          
+        
 On
 a
 remote
@@ -2020,17 +2020,16 @@ mozcrash
 .
 log_crashes
 (
+            
 self
 .
 log
-                                    
 dump_directory
-                                    
 symbols_path
-                                    
 test
 =
 test_name
+        
 )
     
 def
@@ -2091,7 +2090,6 @@ testdir
         
 changedEnv
 =
-(
 set
 (
 "
@@ -2115,10 +2113,10 @@ self
 env
 )
 )
-                      
 -
 set
 (
+            
 "
 %
 s
@@ -2139,7 +2137,7 @@ os
 .
 environ
 )
-)
+        
 )
         
 self
@@ -2170,6 +2168,7 @@ changedEnv
 shell_command_tokens
 =
 [
+            
 pipes
 .
 quote
@@ -2185,6 +2184,7 @@ changedEnv
 )
 +
 completeCmd
+        
 ]
         
 self
@@ -2193,6 +2193,7 @@ log
 .
 info
 (
+            
 "
 %
 s
@@ -2210,8 +2211,8 @@ s
 s
 )
 "
+            
 %
-                      
 (
 name
 pipes
@@ -2220,14 +2221,15 @@ quote
 (
 testdir
 )
-'
-'
+"
+"
 .
 join
 (
 shell_command_tokens
 )
 )
+        
 )
     
 def
@@ -2257,6 +2259,7 @@ mozcrash
 .
 kill_and_get_minidump
 (
+                
 proc
 .
 pid
@@ -2268,6 +2271,7 @@ utility_path
 self
 .
 utility_path
+            
 )
         
 else
@@ -2419,9 +2423,9 @@ self
 .
 test_object
 [
-'
+"
 id
-'
+"
 ]
             
 if
@@ -2475,31 +2479,31 @@ self
 .
 test_object
 [
-'
+"
 expected
-'
+"
 ]
 =
 =
-'
+"
 pass
-'
+"
 :
             
 expected
 =
-'
+"
 PASS
-'
+"
         
 else
 :
             
 expected
 =
-'
+"
 FAIL
-'
+"
         
 if
 self
@@ -2513,24 +2517,26 @@ log
 .
 test_end
 (
+                
 self
 .
 test_object
 [
-'
+"
 id
-'
+"
 ]
-'
+                
+"
 TIMEOUT
-'
-                              
+"
+                
 expected
 =
-'
+"
 TIMEOUT
-'
-                              
+"
+                
 message
 =
 "
@@ -2538,6 +2544,7 @@ Test
 timed
 out
 "
+            
 )
         
 else
@@ -2555,22 +2562,24 @@ log
 .
 test_end
 (
+                
 self
 .
 test_object
 [
-'
+"
 id
-'
+"
 ]
-'
+                
+"
 TIMEOUT
-'
-                              
+"
+                
 expected
 =
 expected
-                              
+                
 message
 =
 "
@@ -2578,6 +2587,7 @@ Test
 timed
 out
 "
+            
 )
             
 self
@@ -2643,9 +2653,9 @@ self
 .
 test_object
 [
-'
+"
 path
-'
+"
 ]
 )
     
@@ -2657,9 +2667,9 @@ self
 :
         
 if
-'
+"
 prefs
-'
+"
 in
 self
 .
@@ -2672,12 +2682,12 @@ mkdtemp
 (
 prefix
 =
-'
+"
 xpc
 -
 other
 -
-'
+"
 dir
 =
 self
@@ -2687,22 +2697,22 @@ _rootTempDir
             
 filename
 =
-'
+"
 user
 .
 js
-'
+"
             
 interpolation
 =
 {
-'
+"
 server
-'
+"
 :
-'
+"
 dummyserver
-'
+"
 }
             
 profile
@@ -2735,9 +2745,9 @@ self
 .
 test_object
 [
-'
+"
 prefs
-'
+"
 ]
 .
 strip
@@ -2754,9 +2764,9 @@ self
 .
 test_object
 [
-'
+"
 id
-'
+"
 ]
             
 if
@@ -2794,16 +2804,18 @@ n
 format
 (
                         
-'
+"
 \
 n
-'
+"
 .
 join
 (
 prefs
 )
+                    
 )
+                    
 %
 name
                 
@@ -2826,6 +2838,7 @@ profile
 .
 set_preferences
 (
+                
 parse_preferences
 (
 self
@@ -2835,6 +2848,7 @@ extraPrefs
 filename
 =
 filename
+            
 )
             
 return
@@ -2866,7 +2880,7 @@ name
 "
 "
 "
-          
+        
 Build
 the
 command
@@ -2877,7 +2891,7 @@ the
 test
 file
 .
-          
+        
 On
 a
 remote
@@ -2900,10 +2914,10 @@ structure
         
 return
 [
-'
+"
 -
 e
-'
+"
 '
 const
 _TEST_FILE
@@ -2917,18 +2931,17 @@ s
 ;
 '
 %
-                
 name
 .
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 /
-'
+"
 )
 ]
     
@@ -2945,12 +2958,12 @@ mkdtemp
 (
 prefix
 =
-'
+"
 xpc
 -
 other
 -
-'
+"
 dir
 =
 self
@@ -3025,12 +3038,12 @@ mkdtemp
 (
 prefix
 =
-'
+"
 xpc
 -
 plugins
 -
-'
+"
 dir
 =
 self
@@ -3139,7 +3152,7 @@ self
 "
 "
 "
-          
+        
 Create
 a
 temporary
@@ -3153,7 +3166,7 @@ appropriate
 environment
 variables
 .
-          
+        
 When
 running
 check
@@ -3170,7 +3183,7 @@ well
 -
 defined
 and
-          
+        
 retained
 for
 inspection
@@ -3179,7 +3192,7 @@ the
 tests
 complete
 .
-          
+        
 On
 a
 remote
@@ -3261,12 +3274,12 @@ mkdtemp
 (
 prefix
 =
-'
+"
 xpc
 -
 profile
 -
-'
+"
 dir
 =
 self
@@ -3333,11 +3346,11 @@ join
 self
 .
 profileDir
-'
+"
 mozinfo
 .
 json
-'
+"
 )
         
 mozInfoJSPath
@@ -3346,16 +3359,16 @@ mozInfoJSPath
 .
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 \
 \
 \
 \
-'
+"
 )
         
 mozinfo
@@ -3378,7 +3391,7 @@ self
 "
 "
 "
-          
+        
 Build
 the
 command
@@ -3388,7 +3401,7 @@ for
 the
 head
 files
-          
+        
 along
 with
 the
@@ -3401,7 +3414,7 @@ some
 tests
 require
 .
-          
+        
 On
 a
 remote
@@ -3415,7 +3428,7 @@ quoting
 issues
 over
 a
-          
+        
 secondary
 command
 line
@@ -3452,19 +3465,18 @@ f
 .
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 /
-'
+"
 )
 +
 '
 "
 '
-                         
 for
 f
 in
@@ -3491,11 +3503,12 @@ port
 return
 [
             
-'
+"
 -
 e
-'
-'
+"
+            
+"
 const
 _HEAD_FILES
 =
@@ -3504,22 +3517,23 @@ _HEAD_FILES
 s
 ]
 ;
-'
+"
 %
 cmdH
             
-'
+"
 -
 e
-'
-'
+"
+            
+"
 const
 _JSDEBUGGER_PORT
 =
 %
 d
 ;
-'
+"
 %
 dbgport
         
@@ -3550,7 +3564,6 @@ of
 head
 files
 .
-        
 "
 "
 "
@@ -3574,8 +3587,8 @@ strip
 .
 split
 (
-'
-'
+"
+"
 )
 :
                 
@@ -3614,9 +3627,9 @@ join
 (
 test
 [
-'
+"
 here
-'
+"
 ]
 f
 )
@@ -3637,7 +3650,7 @@ path
 raise
 Exception
 (
-'
+"
 %
 s
 file
@@ -3647,7 +3660,7 @@ exist
 :
 %
 s
-'
+"
 %
 (
 kind
@@ -3670,7 +3683,7 @@ path
 raise
 Exception
 (
-'
+"
 %
 s
 file
@@ -3681,7 +3694,7 @@ file
 :
 %
 s
-'
+"
 %
 (
 kind
@@ -3698,11 +3711,11 @@ test
 .
 get
 (
-'
+"
 head
-'
-'
-'
+"
+"
+"
 )
         
 return
@@ -3711,9 +3724,9 @@ list
 sanitize_list
 (
 headlist
-'
+"
 head
-'
+"
 )
 )
     
@@ -3727,7 +3740,7 @@ self
 "
 "
 "
-          
+        
 Load
 the
 root
@@ -3746,7 +3759,7 @@ path
 before
 other
 head
-          
+        
 and
 test
 files
@@ -3762,7 +3775,7 @@ to
 add
 additional
 command
-          
+        
 line
 arguments
 so
@@ -3798,31 +3811,34 @@ self
 .
 xpcshell
             
-'
+"
 -
 g
-'
+"
+            
 self
 .
 xrePath
             
-'
+"
 -
 a
-'
+"
+            
 self
 .
 appPath
             
-'
+"
 -
 m
-'
+"
             
-'
+"
 -
 e
-'
+"
+            
 '
 const
 _HEAD_JS_PATH
@@ -3838,10 +3854,11 @@ self
 .
 headJSPath
             
-'
+"
 -
 e
-'
+"
+            
 '
 const
 _MOZINFO_JS_PATH
@@ -3857,10 +3874,11 @@ self
 .
 mozInfoJSPath
             
-'
+"
 -
 e
-'
+"
+            
 '
 const
 _PREFS_FILE
@@ -3878,16 +3896,16 @@ prefsFile
 .
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 \
 \
 \
 \
-'
+"
 )
         
 ]
@@ -3906,16 +3924,16 @@ testingModulesDir
 .
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 \
 \
 \
 \
-'
+"
 )
             
 xpcsCmd
@@ -3923,12 +3941,10 @@ xpcsCmd
 extend
 (
 [
-                
-'
+"
 -
 e
-'
-                
+"
 '
 const
 _TESTING_MODULES_DIR
@@ -3941,7 +3957,6 @@ s
 '
 %
 sanitized
-            
 ]
 )
         
@@ -3950,10 +3965,10 @@ xpcsCmd
 extend
 (
 [
-'
+"
 -
 f
-'
+"
 os
 .
 path
@@ -3963,11 +3978,11 @@ join
 self
 .
 testharnessdir
-'
+"
 head
 .
 js
-'
+"
 )
 ]
 )
@@ -4016,9 +4031,9 @@ join
 self
 .
 appPath
-'
+"
 plugins
-'
+"
 )
         
 self
@@ -4042,10 +4057,10 @@ xpcsCmd
 extend
 (
 [
-'
+"
 -
 p
-'
+"
 self
 .
 pluginsDir
@@ -4385,12 +4400,12 @@ line
 .
 rstrip
 (
-'
+"
 \
 r
 \
 n
-'
+"
 )
             
 self
@@ -4402,9 +4417,7 @@ process_output
 self
 .
 proc_ident
-                                    
 line
-                                    
 command
 =
 self
@@ -4416,18 +4429,18 @@ else
 :
             
 if
-'
+"
 message
-'
+"
 in
 line
 :
                 
 line
 [
-'
+"
 message
-'
+"
 ]
 =
 self
@@ -4436,32 +4449,33 @@ fix_text_output
 (
 line
 [
-'
+"
 message
-'
+"
 ]
 )
             
 if
-'
+"
 xpcshell_process
-'
+"
 in
 line
 :
                 
 line
 [
-'
+"
 thread
-'
+"
 ]
 =
-'
-'
+"
+"
 .
 join
 (
+                    
 [
 current_thread
 (
@@ -4470,11 +4484,12 @@ current_thread
 name
 line
 [
-'
+"
 xpcshell_process
-'
+"
 ]
 ]
+                
 )
             
 else
@@ -4482,9 +4497,9 @@ else
                 
 line
 [
-'
+"
 thread
-'
+"
 ]
 =
 current_thread
@@ -4732,23 +4747,25 @@ return
         
 if
 (
-'
+            
+"
 action
-'
+"
 not
 in
 line_object
-or
             
+or
 line_object
 [
-'
+"
 action
-'
+"
 ]
 not
 in
 EXPECTED_LOG_ACTIONS
+        
 )
 :
             
@@ -4765,9 +4782,9 @@ action
 =
 line_object
 [
-'
+"
 action
-'
+"
 ]
         
 self
@@ -4775,36 +4792,39 @@ self
 has_failure_output
 =
 (
+            
 self
 .
 has_failure_output
+            
 or
-                                   
-'
+"
 expected
-'
+"
 in
 line_object
+            
 or
-                                   
 action
 =
 =
-'
+"
 log
-'
+"
+            
 and
 line_object
 [
-'
+"
 level
-'
+"
 ]
 =
 =
-'
+"
 ERROR
-'
+"
+        
 )
         
 self
@@ -4818,25 +4838,25 @@ if
 action
 =
 =
-'
+"
 log
-'
+"
 and
 line_object
 [
-'
+"
 message
-'
+"
 ]
 =
 =
-'
+"
 CHILD
 -
 TEST
 -
 STARTED
-'
+"
 :
             
 self
@@ -4849,25 +4869,25 @@ elif
 action
 =
 =
-'
+"
 log
-'
+"
 and
 line_object
 [
-'
+"
 message
-'
+"
 ]
 =
 =
-'
+"
 CHILD
 -
 TEST
 -
 COMPLETED
-'
+"
 :
             
 self
@@ -4905,9 +4925,9 @@ self
 .
 test_object
 [
-'
+"
 id
-'
+"
 ]
         
 path
@@ -4916,15 +4936,15 @@ self
 .
 test_object
 [
-'
+"
 path
-'
+"
 ]
         
 if
-'
+"
 disabled
-'
+"
 in
 self
 .
@@ -4937,9 +4957,9 @@ self
 .
 test_object
 [
-'
+"
 disabled
-'
+"
 ]
             
 if
@@ -4949,12 +4969,12 @@ message
                 
 message
 =
-'
+"
 disabled
 from
 xpcshell
 manifest
-'
+"
             
 self
 .
@@ -4972,9 +4992,9 @@ log
 test_end
 (
 name
-'
+"
 SKIP
-'
+"
 message
 =
 message
@@ -5000,15 +5020,15 @@ self
 .
 test_object
 [
-'
+"
 expected
-'
+"
 ]
 =
 =
-'
+"
 pass
-'
+"
         
 if
 self
@@ -5166,10 +5186,10 @@ command
 extend
 (
 [
-'
+"
 -
 e
-'
+"
 '
 const
 _TEST_NAME
@@ -5199,10 +5219,10 @@ extend
 (
                 
 [
-'
+"
 -
 e
-'
+"
 '
 const
 _JSCOV_DIR
@@ -5220,21 +5240,22 @@ jscovdir
 .
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 /
-'
+"
 )
 ]
+            
 )
         
 if
-'
+"
 debug
-'
+"
 in
 self
 .
@@ -5247,10 +5268,10 @@ command
 .
 append
 (
-'
+"
 -
 d
-'
+"
 )
         
 self
@@ -5271,24 +5292,24 @@ test_object
 .
 get
 (
-'
+"
 dmd
-'
+"
 )
 =
 =
-'
+"
 true
-'
+"
 :
             
 self
 .
 env
 [
-'
+"
 PYTHON
-'
+"
 ]
 =
 sys
@@ -5299,9 +5320,9 @@ self
 .
 env
 [
-'
+"
 BREAKPAD_SYMBOLS_PATH
-'
+"
 ]
 =
 self
@@ -5315,24 +5336,24 @@ test_object
 .
 get
 (
-'
+"
 subprocess
-'
+"
 )
 =
 =
-'
+"
 true
-'
+"
 :
             
 self
 .
 env
 [
-'
+"
 PYTHON
-'
+"
 ]
 =
 sys
@@ -5340,18 +5361,20 @@ sys
 executable
         
 if
+(
+            
 self
 .
 test_object
 .
 get
 (
-'
+"
 headless
-'
-'
+"
+"
 true
-'
+"
 if
 self
 .
@@ -5359,11 +5382,14 @@ headless
 else
 None
 )
+            
 =
 =
-'
+"
 true
-'
+"
+        
+)
 :
             
 self
@@ -5375,9 +5401,9 @@ MOZ_HEADLESS
 "
 ]
 =
-'
+"
 1
-'
+"
             
 self
 .
@@ -5388,9 +5414,9 @@ DISPLAY
 "
 ]
 =
-'
+"
 77
-'
+"
         
 testTimeoutInterval
 =
@@ -5399,9 +5425,9 @@ self
 harness_timeout
         
 if
-'
+"
 requesttimeoutfactor
-'
+"
 in
 self
 .
@@ -5417,9 +5443,9 @@ self
 .
 test_object
 [
-'
+"
 requesttimeoutfactor
-'
+"
 ]
 )
         
@@ -5508,33 +5534,37 @@ self
 .
 launchProcess
 (
+                
 self
 .
 command
-                                      
+                
 stdout
 =
 self
 .
 pStdout
+                
 stderr
 =
 self
 .
 pStderr
-                                      
+                
 env
 =
 self
 .
 env
+                
 cwd
 =
 test_dir
-                                      
+                
 timeout
 =
 testTimeoutInterval
+            
 )
             
 if
@@ -5655,24 +5685,22 @@ TSAN_EXIT_CODE_WITH_RACES
             
 return_code_ok
 =
-(
 return_code
 =
 =
 0
 or
-                              
 (
+                
 self
 .
 usingTSan
 and
-                               
 return_code
 =
 =
 TSAN_EXIT_CODE_WITH_RACES
-)
+            
 )
             
 passed
@@ -5688,38 +5716,38 @@ return_code_ok
             
 status
 =
-'
+"
 PASS
-'
+"
 if
 passed
 else
-'
+"
 FAIL
-'
+"
             
 expected
 =
-'
+"
 PASS
-'
+"
 if
 expect_pass
 else
-'
+"
 FAIL
-'
+"
             
 message
 =
-'
+"
 xpcshell
 return
 code
 :
 %
 d
-'
+"
 %
 return_code
             
@@ -5750,12 +5778,15 @@ log
 .
 test_end
 (
+                        
 name
+                        
 status
+                        
 expected
 =
 status
-                                      
+                        
 message
 =
 "
@@ -5767,6 +5798,7 @@ out
 will
 retry
 "
+                    
 )
                     
 self
@@ -5836,9 +5868,9 @@ open
 self
 .
 failureManifest
-'
+"
 a
-'
+"
 )
 as
 f
@@ -5848,22 +5880,22 @@ f
 .
 write
 (
-'
+"
 [
 %
 s
 ]
 \
 n
-'
+"
 %
 self
 .
 test_object
 [
-'
+"
 path
-'
+"
 ]
 )
                         
@@ -5884,7 +5916,7 @@ f
 .
 write
 (
-'
+"
 %
 s
 =
@@ -5892,7 +5924,7 @@ s
 s
 \
 n
-'
+"
 %
 (
 k
@@ -6294,6 +6326,7 @@ log
 .
 error
 (
+                
 "
 Failed
 to
@@ -6308,7 +6341,7 @@ use
 -
 manifest
 "
-                           
+                
 "
 to
 set
@@ -6318,6 +6351,7 @@ explicitly
 "
 %
 ini_path
+            
 )
             
 sys
@@ -6342,64 +6376,66 @@ test_object
 .
 get
 (
-'
+"
 file_relpath
-'
+"
 test_object
 [
-'
+"
 relpath
-'
+"
 ]
 )
         
 if
-'
+"
 dupe
 -
 manifest
-'
+"
 in
 test_object
 and
-'
+"
 ancestor_manifest
-'
+"
 in
 test_object
 :
             
 test_object
 [
-'
+"
 id
-'
+"
 ]
 =
-'
+"
 %
 s
 :
 %
 s
-'
+"
 %
 (
+                
 os
 .
 path
 .
 basename
-                                           
 (
 test_object
 [
-'
+"
 ancestor_manifest
-'
+"
 ]
 )
+                
 path
+            
 )
         
 else
@@ -6407,9 +6443,9 @@ else
             
 test_object
 [
-'
+"
 id
-'
+"
 ]
 =
 path
@@ -6420,9 +6456,9 @@ root
             
 test_object
 [
-'
+"
 manifest
-'
+"
 ]
 =
 os
@@ -6433,9 +6469,9 @@ relpath
 (
 test_object
 [
-'
+"
 manifest
-'
+"
 ]
 root
 )
@@ -6446,21 +6482,21 @@ os
 sep
 !
 =
-'
+"
 /
-'
+"
 :
             
 for
 key
 in
 (
-'
+"
 id
-'
-'
+"
+"
 manifest
-'
+"
 )
 :
                 
@@ -6479,9 +6515,9 @@ replace
 os
 .
 sep
-'
+"
 /
-'
+"
 )
         
 return
@@ -6774,6 +6810,7 @@ alltests
 =
 list
 (
+                
 map
 (
 normalize
@@ -6791,6 +6828,7 @@ mozinfo
 info
 )
 )
+            
 )
         
 except
@@ -6842,6 +6880,7 @@ log
 .
 warning
 (
+                
 "
 The
 following
@@ -6864,7 +6903,7 @@ n
 .
 format
 (
-                
+                    
 "
 \
 n
@@ -6879,7 +6918,9 @@ path_filter
 missing
 )
 )
+                
 )
+            
 )
         
 if
@@ -6898,8 +6939,8 @@ if
 (
                 
 test_paths
-and
                 
+and
 path_filter
 .
 missing
@@ -6909,8 +6950,8 @@ set
 (
 test_paths
 )
-and
                 
+and
 os
 .
 environ
@@ -6951,6 +6992,7 @@ log
 .
 error
 (
+                    
 "
 no
 tests
@@ -6959,7 +7001,7 @@ run
 using
 specified
 "
-                               
+                    
 "
 combination
 of
@@ -6971,13 +7013,13 @@ filters
 .
 format
 (
-                                    
 mp
 .
 fmt_filters
 (
 )
 )
+                
 )
                 
 sys
@@ -7019,9 +7061,9 @@ alltests
 0
 ]
 [
-'
+"
 path
-'
+"
 ]
 )
         
@@ -7080,9 +7122,9 @@ open
 self
 .
 dump_tests
-'
+"
 w
-'
+"
 )
 as
 dumpFile
@@ -7097,9 +7139,9 @@ json
 dumps
 (
 {
-'
+"
 active_tests
-'
+"
 :
 self
 .
@@ -7145,7 +7187,7 @@ self
 "
 "
 "
-          
+        
 Set
 the
 absolute
@@ -7159,7 +7201,7 @@ xrepath
 These
 3
 variables
-          
+        
 depend
 on
 input
@@ -7176,7 +7218,7 @@ for
 absolute
 paths
 .
-          
+        
 This
 function
 is
@@ -7299,6 +7341,7 @@ path
 .
 join
 (
+                    
 os
 .
 path
@@ -7316,10 +7359,10 @@ self
 xpcshell
 )
 )
-                                             
-'
+"
 Resources
-'
+"
+                
 )
                 
 if
@@ -7336,11 +7379,11 @@ path
 join
 (
 appBundlePath
-'
+"
 application
 .
 ini
-'
+"
 )
 )
 :
@@ -7382,14 +7425,14 @@ join
 self
 .
 xrePath
-'
+"
 components
-'
-'
+"
+"
 httpd
 .
 js
-'
+"
 )
         
 self
@@ -7402,13 +7445,13 @@ httpdJSPath
 .
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 /
-'
+"
 )
         
 if
@@ -7456,9 +7499,9 @@ path
 join
 (
 SCRIPT_DIR
-'
+"
 profile_data
-'
+"
 )
         
 if
@@ -7476,12 +7519,12 @@ join
 build
 .
 topsrcdir
-'
+"
 testing
-'
-'
+"
+"
 profiles
-'
+"
 )
             
 if
@@ -7526,13 +7569,13 @@ path
 join
 (
 SCRIPT_DIR
-'
+"
 .
 .
-'
-'
+"
+"
 profiles
-'
+"
 )
 )
             
@@ -7561,15 +7604,15 @@ path
 join
 (
 profile_data_dir
-'
+"
 profiles
 .
 json
-'
+"
 )
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -7584,9 +7627,9 @@ load
 fh
 )
 [
-'
+"
 xpcshell
-'
+"
 ]
         
 interpolation
@@ -7672,11 +7715,11 @@ join
 profile
 .
 profile
-'
+"
 user
 .
 js
-'
+"
 )
         
 return
@@ -7692,7 +7735,7 @@ self
 "
 "
 "
-          
+        
 Add
 environment
 variables
@@ -7704,7 +7747,7 @@ across
 all
 platforms
 including
-          
+        
 remote
 systems
 .
@@ -7769,12 +7812,12 @@ env
 .
 setdefault
 (
-'
+"
 MOZ_DISABLE_NONLOCAL_CONNECTIONS
-'
-'
+"
+"
 1
-'
+"
 )
         
 if
@@ -7979,7 +8022,7 @@ self
 "
 "
 "
-          
+        
 Create
 and
 returns
@@ -7995,7 +8038,7 @@ all
 the
 appropriate
 env
-          
+        
 variables
 and
 values
@@ -8010,7 +8053,7 @@ this
 to
 set
 different
-          
+        
 values
 and
 are
@@ -8051,9 +8094,9 @@ sys
 platform
 =
 =
-'
+"
 win32
-'
+"
 :
             
 self
@@ -8088,12 +8131,12 @@ sys
 platform
 in
 (
-'
+"
 os2emx
-'
-'
+"
+"
 os2knix
-'
+"
 )
 :
             
@@ -8142,9 +8185,9 @@ sys
 platform
 =
 =
-'
+"
 osx
-'
+"
 or
 sys
 .
@@ -8171,6 +8214,7 @@ path
 .
 join
 (
+                
 os
 .
 path
@@ -8181,9 +8225,10 @@ self
 .
 xrePath
 )
-'
+"
 MacOS
-'
+"
+            
 )
         
 else
@@ -8242,6 +8287,7 @@ LD_LIBRARY_PATH
 .
 join
 (
+                    
 [
 self
 .
@@ -8255,6 +8301,7 @@ LD_LIBRARY_PATH
 "
 ]
 ]
+                
 )
         
 usingASan
@@ -8313,7 +8360,6 @@ join
 self
 .
 xrePath
-                
 "
 llvm
 -
@@ -8328,6 +8374,7 @@ mozInfo
 bin_suffix
 "
 ]
+            
 )
             
 if
@@ -8383,7 +8430,6 @@ TSAN_OPTIONS
 "
 ]
 =
-(
 "
 external_symbolizer_path
 =
@@ -8395,10 +8441,10 @@ external_symbolizer_path
 .
 format
 (
+                        
 llvmsym
-                                                
 oldTSanOptions
-)
+                    
 )
                 
 self
@@ -8431,6 +8477,7 @@ log
 .
 error
 (
+                    
 "
 TEST
 -
@@ -8443,7 +8490,7 @@ runxpcshelltests
 py
 |
 "
-                               
+                    
 "
 Failed
 to
@@ -8455,6 +8502,7 @@ s
 "
 %
 llvmsym
+                
 )
         
 return
@@ -8472,7 +8520,7 @@ self
 "
 "
 "
-          
+        
 Determine
 the
 value
@@ -8485,7 +8533,7 @@ for
 the
 test
 .
-          
+        
 Return
 value
 is
@@ -8519,7 +8567,6 @@ else
 :
             
 if
-(
 self
 .
 debuggerInfo
@@ -8529,7 +8576,6 @@ self
 debuggerInfo
 .
 interactive
-)
 :
                 
 pStdout
@@ -8549,9 +8595,9 @@ sys
 platform
 =
 =
-'
+"
 os2emx
-'
+"
 :
                     
 pStdout
@@ -8584,7 +8630,7 @@ dirname
 "
 "
 "
-          
+        
 Simple
 wrapper
 to
@@ -8598,7 +8644,7 @@ given
 directory
 name
 .
-          
+        
 On
 a
 remote
@@ -8640,7 +8686,7 @@ self
 "
 "
 "
-          
+        
 Run
 node
 for
@@ -8666,9 +8712,9 @@ os
 .
 getenv
 (
-'
+"
 MOZ_ASSUME_NODE_RUNNING
-'
+"
 None
 )
 :
@@ -8679,7 +8725,7 @@ log
 .
 info
 (
-'
+"
 Assuming
 required
 node
@@ -8687,7 +8733,7 @@ servers
 are
 already
 running
-'
+"
 )
             
 if
@@ -8696,9 +8742,9 @@ os
 .
 getenv
 (
-'
+"
 MOZHTTP2_PORT
-'
+"
 None
 )
 :
@@ -8709,16 +8755,17 @@ log
 .
 warning
 (
-'
+                    
+"
 MOZHTTP2_PORT
 environment
 variable
 not
 set
 .
-'
-                                 
-'
+"
+                    
+"
 Tests
 requiring
 http
@@ -8727,7 +8774,8 @@ http
 will
 fail
 .
-'
+"
+                
 )
             
 return
@@ -8738,9 +8786,9 @@ os
 .
 getenv
 (
-'
+"
 MOZ_NODE_PATH
-'
+"
 None
 )
         
@@ -8759,9 +8807,9 @@ substs
 .
 get
 (
-'
+"
 NODEJS
-'
+"
 )
         
 if
@@ -8775,16 +8823,17 @@ log
 .
 warning
 (
-'
+                
+"
 MOZ_NODE_PATH
 environment
 variable
 not
 set
 .
-'
-                             
-'
+"
+                
+"
 Tests
 requiring
 http
@@ -8793,7 +8842,8 @@ http
 will
 fail
 .
-'
+"
+            
 )
             
 return
@@ -8822,7 +8872,7 @@ nodeBin
             
 error
 =
-'
+"
 node
 not
 found
@@ -8830,7 +8880,7 @@ at
 MOZ_NODE_PATH
 %
 s
-'
+"
 %
 (
 nodeBin
@@ -8857,13 +8907,13 @@ log
 .
 info
 (
-'
+"
 Found
 node
 at
 %
 s
-'
+"
 %
 (
 nodeBin
@@ -8892,7 +8942,7 @@ serverJs
                 
 error
 =
-'
+"
 %
 s
 not
@@ -8900,7 +8950,7 @@ found
 at
 %
 s
-'
+"
 %
 (
 name
@@ -8928,14 +8978,14 @@ log
 .
 info
 (
-'
+"
 Found
 %
 s
 at
 %
 s
-'
+"
 %
 (
 name
@@ -8961,25 +9011,30 @@ process
 =
 Popen
 (
+                    
 [
 nodeBin
 serverJs
 ]
+                    
 stdin
 =
 PIPE
+                    
 stdout
 =
 PIPE
-                                
+                    
 stderr
 =
 PIPE
+                    
 env
 =
 self
 .
 env
+                    
 cwd
 =
 os
@@ -8987,10 +9042,11 @@ os
 getcwd
 (
 )
-                                
+                    
 universal_newlines
 =
 True
+                
 )
                 
 self
@@ -9013,10 +9069,10 @@ readline
 )
                 
 if
-'
+"
 server
 listening
-'
+"
 in
 msg
 :
@@ -9027,8 +9083,9 @@ re
 .
 search
 (
+                        
 r
-'
+"
 HTTP2
 server
 listening
@@ -9050,10 +9107,10 @@ ports
 ]
 +
 )
-'
-                                          
+"
 msg
 0
+                    
 )
                     
 if
@@ -9104,7 +9161,7 @@ log
 .
 error
 (
-'
+"
 Could
 not
 run
@@ -9114,7 +9171,7 @@ server
 :
 %
 s
-'
+"
 %
 (
 name
@@ -9150,11 +9207,11 @@ __file__
         
 startServer
 (
-'
+"
 moz
 -
 http2
-'
+"
 os
 .
 path
@@ -9162,18 +9219,18 @@ path
 join
 (
 myDir
-'
+"
 moz
 -
 http2
-'
-'
+"
+"
 moz
 -
 http2
 .
 js
-'
+"
 )
 )
     
@@ -9187,7 +9244,7 @@ self
 "
 "
 "
-          
+        
 Shut
 down
 our
@@ -9221,7 +9278,7 @@ log
 .
 info
 (
-'
+"
 Node
 %
 s
@@ -9231,7 +9288,7 @@ down
 .
 .
 .
-'
+"
 %
 name
 )
@@ -9253,7 +9310,7 @@ log
 .
 info
 (
-'
+"
 Node
 server
 %
@@ -9262,7 +9319,7 @@ already
 dead
 %
 s
-'
+"
 %
 (
 name
@@ -9315,11 +9372,11 @@ log
 .
 info
 (
-'
+"
 Process
 %
 s
-'
+"
 %
 label
 )
@@ -9370,7 +9427,7 @@ self
 "
 "
 "
-          
+        
 Start
 a
 Http3
@@ -9393,9 +9450,9 @@ sys
 platform
 =
 =
-'
+"
 win32
-'
+"
 :
             
 binSuffix
@@ -9424,16 +9481,17 @@ path
 .
 join
 (
+                
 SCRIPT_DIR
 "
 http3server
 "
-                                           
 "
 http3server
 "
 +
 binSuffix
+            
 )
             
 if
@@ -9448,6 +9506,7 @@ path
 .
 join
 (
+                    
 build
 .
 topobjdir
@@ -9457,12 +9516,12 @@ dist
 "
 bin
 "
-                                               
 "
 http3server
 "
 +
 binSuffix
+                
 )
         
 if
@@ -9483,6 +9542,7 @@ log
 .
 warning
 (
+                
 "
 Http3
 server
@@ -9490,10 +9550,11 @@ not
 found
 at
 "
+                
 +
 http3ServerPath
+                
 +
-                             
 "
 .
 Tests
@@ -9505,6 +9566,7 @@ will
 fail
 .
 "
+            
 )
             
 return
@@ -9515,11 +9577,11 @@ log
 .
 info
 (
-'
+"
 Found
 %
 s
-'
+"
 %
 (
 http3ServerPath
@@ -9558,6 +9620,7 @@ path
 .
 join
 (
+                    
 build
 .
 topsrcdir
@@ -9567,10 +9630,10 @@ netwerk
 "
 test
 "
-                                      
 "
 http3serverDB
 "
+                
 )
             
 self
@@ -9579,11 +9642,11 @@ log
 .
 info
 (
-'
+"
 Using
 %
 s
-'
+"
 %
 (
 dbPath
@@ -9605,25 +9668,30 @@ process
 =
 Popen
 (
+                
 [
 http3ServerPath
 dbPath
 ]
+                
 stdin
 =
 PIPE
+                
 stdout
 =
 PIPE
-                            
+                
 stderr
 =
 PIPE
+                
 env
 =
 self
 .
 env
+                
 cwd
 =
 os
@@ -9631,19 +9699,20 @@ os
 getcwd
 (
 )
-                            
+                
 universal_newlines
 =
 True
+            
 )
             
 self
 .
 http3ServerProc
 [
-'
+"
 http3Server
-'
+"
 ]
 =
 process
@@ -9659,10 +9728,10 @@ readline
 )
             
 if
-'
+"
 server
 listening
-'
+"
 in
 msg
 :
@@ -9673,8 +9742,9 @@ re
 .
 search
 (
+                    
 r
-'
+"
 HTTP3
 server
 listening
@@ -9688,10 +9758,10 @@ port
 ]
 +
 )
-'
-                                      
+"
 msg
 0
+                
 )
                 
 if
@@ -9726,7 +9796,7 @@ log
 .
 error
 (
-'
+"
 Could
 not
 run
@@ -9736,7 +9806,7 @@ server
 :
 %
 s
-'
+"
 %
 (
 str
@@ -9756,7 +9826,7 @@ self
 "
 "
 "
-          
+        
 Shutdown
 our
 http3Server
@@ -9789,7 +9859,7 @@ log
 .
 info
 (
-'
+"
 %
 s
 server
@@ -9798,7 +9868,7 @@ down
 .
 .
 .
-'
+"
 %
 name
 )
@@ -9820,7 +9890,7 @@ log
 .
 info
 (
-'
+"
 Http3
 server
 %
@@ -9829,7 +9899,7 @@ already
 dead
 %
 s
-'
+"
 %
 (
 name
@@ -9890,10 +9960,10 @@ log
 .
 info
 (
-'
+"
 Killing
 proc
-'
+"
 )
                         
 proc
@@ -9936,11 +10006,11 @@ log
 .
 info
 (
-'
+"
 Process
 %
 s
-'
+"
 %
 label
 )
@@ -9991,7 +10061,7 @@ self
 "
 "
 "
-          
+        
 Add
 arguments
 to
@@ -10020,10 +10090,11 @@ xpcsRunArgs
 =
 [
                 
-'
+"
 -
 e
-'
+"
+                
 '
 print
 (
@@ -10045,10 +10116,10 @@ _execute_test
 ;
 '
                 
-'
+"
 -
 i
-'
+"
             
 ]
         
@@ -10060,11 +10131,11 @@ self
 xpcsRunArgs
 =
 [
-'
+"
 -
 e
-'
-'
+"
+"
 _execute_test
 (
 )
@@ -10074,7 +10145,7 @@ quit
 0
 )
 ;
-'
+"
 ]
     
 def
@@ -10156,6 +10227,7 @@ log
 .
 error
 (
+                    
 "
 Error
 :
@@ -10175,7 +10247,7 @@ s
 Perhaps
 you
 "
-                               
+                    
 "
 need
 to
@@ -10191,6 +10263,7 @@ json
 "
 %
 mozInfoFile
+                
 )
                 
 return
@@ -10242,11 +10315,11 @@ k
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
             
 fixedInfo
@@ -10266,20 +10339,20 @@ self
 .
 mozInfo
 [
-'
+"
 fission
-'
+"
 ]
 =
 prefs
 .
 get
 (
-'
+"
 fission
 .
 autostart
-'
+"
 False
 )
         
@@ -10287,9 +10360,9 @@ self
 .
 mozInfo
 [
-'
+"
 serviceworker_e10s
-'
+"
 ]
 =
 prefs
@@ -10297,32 +10370,33 @@ prefs
 get
 (
             
-'
+"
 dom
 .
 serviceWorkers
 .
 parent_intercept
-'
+"
 True
+        
 )
         
 self
 .
 mozInfo
 [
-'
+"
 verify
-'
+"
 ]
 =
 options
 .
 get
 (
-'
+"
 verify
-'
+"
 False
 )
         
@@ -10330,9 +10404,9 @@ self
 .
 mozInfo
 [
-'
+"
 webrender
-'
+"
 ]
 =
 self
@@ -10343,9 +10417,9 @@ self
 .
 mozInfo
 [
-'
+"
 socketprocess_networking
-'
+"
 ]
 =
 prefs
@@ -10353,7 +10427,7 @@ prefs
 get
 (
             
-'
+"
 network
 .
 http
@@ -10361,8 +10435,9 @@ http
 network_access_on_socket_process
 .
 enabled
-'
+"
 False
+        
 )
         
 mozinfo
@@ -10532,7 +10607,7 @@ None
 "
 "
 "
-          
+        
 Run
 xpcshell
 tests
@@ -10570,9 +10645,9 @@ options
 .
 get
 (
-'
+"
 testingModulesDir
-'
+"
 )
 :
             
@@ -10590,9 +10665,9 @@ os
 path
 .
 pardir
-'
+"
 modules
-'
+"
 )
             
 if
@@ -10615,9 +10690,9 @@ options
 .
 get
 (
-'
+"
 rerun_failures
-'
+"
 )
 :
             
@@ -10632,9 +10707,9 @@ options
 .
 get
 (
-'
+"
 failure_manifest
-'
+"
 )
 )
 :
@@ -10647,18 +10722,18 @@ path
 .
 join
 (
+                    
 os
 .
 path
 .
 dirname
-                                              
 (
 options
 [
-'
+"
 failure_manifest
-'
+"
 ]
 )
 "
@@ -10666,6 +10741,7 @@ rerun
 .
 ini
 "
+                
 )
                 
 shutil
@@ -10674,9 +10750,9 @@ copyfile
 (
 options
 [
-'
+"
 failure_manifest
-'
+"
 ]
 rerun_manifest
 )
@@ -10687,9 +10763,9 @@ remove
 (
 options
 [
-'
+"
 failure_manifest
-'
+"
 ]
 )
             
@@ -10727,9 +10803,9 @@ options
 .
 get
 (
-'
+"
 testingModulesDir
-'
+"
 )
 :
             
@@ -10743,9 +10819,9 @@ normpath
 (
 options
 [
-'
+"
 testingModulesDir
-'
+"
 ]
 )
             
@@ -10806,9 +10882,9 @@ options
 .
 get
 (
-'
+"
 debugger
-'
+"
 )
 :
             
@@ -10820,32 +10896,34 @@ mozdebug
 .
 get_debugger_info
 (
+                
 options
 .
 get
 (
-'
+"
 debugger
-'
+"
 )
-                                                           
+                
 options
 .
 get
 (
-'
+"
 debuggerArgs
-'
+"
 )
-                                                           
+                
 options
 .
 get
 (
-'
+"
 debuggerInteractive
-'
+"
 )
+            
 )
         
 self
@@ -10859,9 +10937,9 @@ options
 .
 get
 (
-'
+"
 jsDebugger
-'
+"
 )
 :
             
@@ -10869,13 +10947,13 @@ JSDebuggerInfo
 =
 namedtuple
 (
-'
+"
 JSDebuggerInfo
-'
+"
 [
-'
+"
 port
-'
+"
 ]
 )
             
@@ -10889,9 +10967,9 @@ port
 =
 options
 [
-'
+"
 jsDebuggerPort
-'
+"
 ]
 )
         
@@ -10903,9 +10981,9 @@ options
 .
 get
 (
-'
+"
 xpcshell
-'
+"
 )
         
 self
@@ -10916,9 +10994,9 @@ options
 .
 get
 (
-'
+"
 http3server
-'
+"
 )
         
 self
@@ -10929,9 +11007,9 @@ options
 .
 get
 (
-'
+"
 xrePath
-'
+"
 )
         
 self
@@ -10942,9 +11020,9 @@ options
 .
 get
 (
-'
+"
 utility_path
-'
+"
 )
         
 self
@@ -10955,9 +11033,9 @@ options
 .
 get
 (
-'
+"
 appPath
-'
+"
 )
         
 self
@@ -10968,9 +11046,9 @@ options
 .
 get
 (
-'
+"
 symbolsPath
-'
+"
 )
         
 self
@@ -10987,9 +11065,9 @@ options
 .
 get
 (
-'
+"
 tempDir
-'
+"
 )
 or
 tempfile
@@ -11007,9 +11085,9 @@ options
 .
 get
 (
-'
+"
 manifest
-'
+"
 )
         
 self
@@ -11020,9 +11098,9 @@ options
 .
 get
 (
-'
+"
 dump_tests
-'
+"
 )
         
 self
@@ -11033,9 +11111,9 @@ options
 .
 get
 (
-'
+"
 interactive
-'
+"
 )
         
 self
@@ -11046,9 +11124,9 @@ options
 .
 get
 (
-'
+"
 verbose
-'
+"
 )
         
 self
@@ -11059,9 +11137,9 @@ options
 .
 get
 (
-'
+"
 verboseIfFails
-'
+"
 )
         
 self
@@ -11072,9 +11150,9 @@ options
 .
 get
 (
-'
+"
 keepGoing
-'
+"
 )
         
 self
@@ -11085,9 +11163,9 @@ options
 .
 get
 (
-'
+"
 logfiles
-'
+"
 )
         
 self
@@ -11098,9 +11176,9 @@ options
 .
 get
 (
-'
+"
 totalChunks
-'
+"
 1
 )
         
@@ -11112,9 +11190,9 @@ options
 .
 get
 (
-'
+"
 thisChunk
-'
+"
 )
         
 self
@@ -11125,9 +11203,9 @@ options
 .
 get
 (
-'
+"
 profileName
-'
+"
 )
 or
 "
@@ -11142,9 +11220,9 @@ options
 .
 get
 (
-'
+"
 mozInfo
-'
+"
 )
         
 self
@@ -11161,9 +11239,9 @@ options
 .
 get
 (
-'
+"
 pluginsPath
-'
+"
 )
         
 self
@@ -11174,9 +11252,9 @@ options
 .
 get
 (
-'
+"
 sequential
-'
+"
 )
         
 self
@@ -11187,9 +11265,9 @@ options
 .
 get
 (
-'
+"
 failure_manifest
-'
+"
 )
         
 self
@@ -11200,9 +11278,9 @@ options
 .
 get
 (
-'
+"
 threadCount
-'
+"
 )
 or
 NUM_THREADS
@@ -11215,9 +11293,9 @@ options
 .
 get
 (
-'
+"
 jscovdir
-'
+"
 )
         
 self
@@ -11228,9 +11306,9 @@ options
 .
 get
 (
-'
+"
 enable_webrender
-'
+"
 )
         
 self
@@ -11241,9 +11319,9 @@ options
 .
 get
 (
-'
+"
 headless
-'
+"
 )
         
 self
@@ -11286,9 +11364,9 @@ options
 .
 get
 (
-'
+"
 extraPrefs
-'
+"
 )
 or
 [
@@ -11328,9 +11406,9 @@ options
 .
 get
 (
-'
+"
 self_test
-'
+"
 )
 :
             
@@ -11347,6 +11425,8 @@ return
 False
         
 if
+(
+            
 "
 tsan
 "
@@ -11354,6 +11434,7 @@ in
 self
 .
 mozInfo
+            
 and
 self
 .
@@ -11363,15 +11444,18 @@ mozInfo
 tsan
 "
 ]
+            
 and
 not
 options
 .
 get
 (
-'
+"
 threadCount
-'
+"
+)
+        
 )
 :
             
@@ -11414,13 +11498,14 @@ stack_fixer_function
 =
 get_stack_fixer_function
 (
+                
 self
 .
 utility_path
-                                                                 
 self
 .
 symbolsPath
+            
 )
         
 self
@@ -11484,31 +11569,32 @@ self
 .
 buildTestList
 (
+            
 options
 .
 get
 (
-'
+"
 test_tags
-'
+"
 )
 options
 .
 get
 (
-'
+"
 testPaths
-'
+"
 )
-                           
 options
 .
 get
 (
-'
+"
 verify
-'
+"
 )
+        
 )
         
 if
@@ -11528,9 +11614,9 @@ options
 .
 get
 (
-'
+"
 shuffle
-'
+"
 )
 :
             
@@ -11554,275 +11640,275 @@ kwargs
 =
 {
             
-'
+"
 appPath
-'
+"
 :
 self
 .
 appPath
             
-'
+"
 xrePath
-'
+"
 :
 self
 .
 xrePath
             
-'
+"
 utility_path
-'
+"
 :
 self
 .
 utility_path
             
-'
+"
 testingModulesDir
-'
+"
 :
 self
 .
 testingModulesDir
             
-'
+"
 debuggerInfo
-'
+"
 :
 self
 .
 debuggerInfo
             
-'
+"
 jsDebuggerInfo
-'
+"
 :
 self
 .
 jsDebuggerInfo
             
-'
+"
 pluginsPath
-'
+"
 :
 self
 .
 pluginsPath
             
-'
+"
 httpdJSPath
-'
+"
 :
 self
 .
 httpdJSPath
             
-'
+"
 headJSPath
-'
+"
 :
 self
 .
 headJSPath
             
-'
+"
 tempDir
-'
+"
 :
 self
 .
 tempDir
             
-'
+"
 testharnessdir
-'
+"
 :
 self
 .
 testharnessdir
             
-'
+"
 profileName
-'
+"
 :
 self
 .
 profileName
             
-'
+"
 singleFile
-'
+"
 :
 self
 .
 singleFile
             
-'
+"
 env
-'
+"
 :
 self
 .
 env
             
-'
+"
 symbolsPath
-'
+"
 :
 self
 .
 symbolsPath
             
-'
+"
 logfiles
-'
+"
 :
 self
 .
 logfiles
             
-'
+"
 xpcshell
-'
+"
 :
 self
 .
 xpcshell
             
-'
+"
 xpcsRunArgs
-'
+"
 :
 self
 .
 xpcsRunArgs
             
-'
+"
 failureManifest
-'
+"
 :
 self
 .
 failure_manifest
             
-'
+"
 jscovdir
-'
+"
 :
 self
 .
 jscovdir
             
-'
+"
 harness_timeout
-'
+"
 :
 self
 .
 harness_timeout
             
-'
+"
 stack_fixer_function
-'
+"
 :
 self
 .
 stack_fixer_function
             
-'
+"
 event
-'
+"
 :
 self
 .
 event
             
-'
+"
 cleanup_dir_list
-'
+"
 :
 self
 .
 cleanup_dir_list
             
-'
+"
 pStdout
-'
+"
 :
 pStdout
             
-'
+"
 pStderr
-'
+"
 :
 pStderr
             
-'
+"
 keep_going
-'
+"
 :
 self
 .
 keepGoing
             
-'
+"
 log
-'
+"
 :
 self
 .
 log
             
-'
+"
 interactive
-'
+"
 :
 self
 .
 interactive
             
-'
+"
 app_dir_key
-'
+"
 :
 appDirKey
             
-'
+"
 rootPrefsFile
-'
+"
 :
 self
 .
 prefsFile
             
-'
+"
 extraPrefs
-'
+"
 :
 options
 .
 get
 (
-'
+"
 extraPrefs
-'
+"
 )
 or
 [
 ]
             
-'
+"
 verboseIfFails
-'
+"
 :
 self
 .
 verboseIfFails
             
-'
+"
 headless
-'
+"
 :
 self
 .
@@ -11898,6 +11984,7 @@ log
 .
 info
 (
+                    
 "
 It
 appears
@@ -11913,8 +12000,8 @@ this
 test
 .
 "
+                    
 +
-                              
 "
 Please
 use
@@ -11927,7 +12014,7 @@ command
 instead
 of
 "
-                              
+                    
 "
 the
 '
@@ -11939,6 +12026,7 @@ start
 xpcshell
 .
 "
+                
 )
         
 if
@@ -11965,6 +12053,7 @@ log
 .
 error
 (
+                    
 "
 Error
 :
@@ -11981,6 +12070,7 @@ single
 test
 !
 "
+                
 )
                 
 return
@@ -12026,9 +12116,9 @@ options
 .
 get
 (
-'
+"
 verify
-'
+"
 )
 :
             
@@ -12044,9 +12134,9 @@ path
 =
 test_object
 [
-'
+"
 path
-'
+"
 ]
                 
 if
@@ -12104,20 +12194,23 @@ true
 usingTSan
 =
 usingTSan
+                    
 mobileArgs
 =
 mobileArgs
+                    
 *
 *
 kwargs
+                
 )
                 
 if
-'
+"
 run
 -
 sequentially
-'
+"
 in
 test_object
 or
@@ -12149,14 +12242,15 @@ self
 .
 runTestList
 (
+                
 tests_queue
 sequential_tests
 testClass
-                                      
 mobileArgs
 *
 *
 kwargs
+            
 )
         
 else
@@ -12193,17 +12287,18 @@ test
 =
 testClass
 (
+                        
 test_object
 retry
 =
 False
-                                     
 mobileArgs
 =
 mobileArgs
 *
 *
 kwargs
+                    
 )
                     
 sequential_tests
@@ -12219,14 +12314,15 @@ self
 .
 runTestList
 (
+                    
 tests_queue
 sequential_tests
-                                          
 testClass
 mobileArgs
 *
 *
 kwargs
+                
 )
                 
 return
@@ -12276,17 +12372,18 @@ test
 =
 testClass
 (
+                        
 test_object
 retry
 =
 False
-                                     
 mobileArgs
 =
 mobileArgs
 *
 *
 kwargs
+                    
 )
                     
 sequential_tests
@@ -12302,14 +12399,15 @@ self
 .
 runTestList
 (
+                    
 tests_queue
 sequential_tests
-                                          
 testClass
 mobileArgs
 *
 *
 kwargs
+                
 )
                 
 return
@@ -12334,11 +12432,11 @@ sequentially
 "
 %
 VERIFY_REPEAT
-                 
 step1
 )
                 
 (
+                    
 "
 2
 .
@@ -12354,10 +12452,12 @@ chaos
 mode
 .
 "
+                    
 %
 VERIFY_REPEAT
-                 
+                    
 step2
+                
 )
             
 ]
@@ -12378,9 +12478,9 @@ seconds
 =
 options
 [
-'
+"
 verifyMaxTime
-'
+"
 ]
 )
             
@@ -12453,6 +12553,7 @@ log
 .
 info
 (
+                            
 "
 :
 :
@@ -12468,6 +12569,7 @@ Giving
 up
 !
 "
+                        
 )
                         
 self
@@ -12476,6 +12578,7 @@ log
 .
 info
 (
+                            
 "
 :
 :
@@ -12488,7 +12591,7 @@ passed
 but
 not
 "
-                                      
+                            
 "
 all
 checks
@@ -12496,6 +12599,7 @@ were
 run
 .
 "
+                        
 )
                         
 break
@@ -12506,11 +12610,11 @@ log
 .
 info
 (
-'
+"
 :
 :
 :
-'
+"
 )
                     
 self
@@ -12545,11 +12649,11 @@ log
 .
 info
 (
-'
+"
 :
 :
 :
-'
+"
 )
                     
 status
@@ -12598,11 +12702,11 @@ log
 .
 info
 (
-'
+"
 :
 :
 :
-'
+"
 )
                 
 self
@@ -12611,7 +12715,8 @@ log
 .
 info
 (
-'
+                    
+"
 :
 :
 :
@@ -12622,14 +12727,15 @@ for
 :
 %
 s
-'
+"
 %
 test_object
 [
-'
+"
 path
-'
+"
 ]
+                
 )
                 
 self
@@ -12638,11 +12744,11 @@ log
 .
 info
 (
-'
+"
 :
 :
 :
-'
+"
 )
                 
 for
@@ -12664,7 +12770,7 @@ log
 .
 info
 (
-'
+"
 :
 :
 :
@@ -12673,7 +12779,7 @@ s
 :
 %
 s
-'
+"
 %
 (
 descr
@@ -12690,11 +12796,11 @@ log
 .
 info
 (
-'
+"
 :
 :
 :
-'
+"
 )
                 
 self
@@ -12703,7 +12809,7 @@ log
 .
 info
 (
-'
+"
 :
 :
 :
@@ -12711,7 +12817,7 @@ Test
 verification
 %
 s
-'
+"
 %
 finalResult
 )
@@ -12722,11 +12828,11 @@ log
 .
 info
 (
-'
+"
 :
 :
 :
-'
+"
 )
         
 self
@@ -12747,15 +12853,16 @@ status
 def
 runTestList
 (
+        
 self
 tests_queue
 sequential_tests
 testClass
-                    
 mobileArgs
 *
 *
 kwargs
+    
 )
 :
         
@@ -12849,15 +12956,15 @@ group
 =
 test
 [
-'
+"
 manifest
-'
+"
 ]
             
 if
-'
+"
 ancestor_manifest
-'
+"
 in
 test
 :
@@ -12868,16 +12975,16 @@ normsep
 (
 test
 [
-'
+"
 ancestor_manifest
-'
+"
 ]
 )
                 
 if
-'
+"
 /
-'
+"
 in
 ancestor_manifest
 :
@@ -12907,9 +13014,9 @@ append
 (
 test
 [
-'
+"
 id
-'
+"
 ]
 )
         
@@ -12922,9 +13029,9 @@ suite_start
 tests_by_manifest
 name
 =
-'
+"
 xpcshell
-'
+"
 )
         
 while
@@ -12944,6 +13051,8 @@ running_tests
 break
             
 while
+(
+                
 keep_going
 and
 tests_queue
@@ -12957,6 +13066,8 @@ running_tests
 self
 .
 threadCount
+)
+            
 )
 :
                 
@@ -13027,7 +13138,9 @@ test
 .
 join
 (
+                        
 1
+                    
 )
                     
 if
@@ -13126,6 +13239,7 @@ log
 .
 error
 (
+                        
 "
 TEST
 -
@@ -13142,7 +13256,7 @@ C
 )
 so
 "
-                                   
+                        
 "
 stopped
 run
@@ -13159,7 +13273,7 @@ keep
 running
 tests
 "
-                                   
+                        
 "
 after
 killing
@@ -13168,6 +13282,7 @@ with
 SIGINT
 )
 "
+                    
 )
                     
 break
@@ -13266,25 +13381,27 @@ test
 =
 testClass
 (
+                
 test_object
-                             
+                
 retry
 =
 False
-                             
+                
 verbose
 =
 self
 .
 verbose
-                             
+                
 mobileArgs
 =
 mobileArgs
-                             
+                
 *
 *
 kwargs
+            
 )
             
 test
@@ -13599,6 +13716,7 @@ log
 .
 error
 (
+                
 "
 TEST
 -
@@ -13618,7 +13736,7 @@ stopped
 run
 .
 "
-                           
+                
 "
 (
 Use
@@ -13633,7 +13751,7 @@ running
 tests
 after
 "
-                           
+                
 "
 killing
 one
@@ -13641,6 +13759,7 @@ with
 SIGINT
 )
 "
+            
 )
             
 return
@@ -13799,9 +13918,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

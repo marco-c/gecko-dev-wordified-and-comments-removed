@@ -58,9 +58,9 @@ c
 =
 get_prerelease_suffix
 (
-'
+"
 1a1
-'
+"
 )
         
 self
@@ -70,11 +70,11 @@ assertEqual
 self
 .
 c
-'
+"
 1
 Alpha
 1
-'
+"
 )
     
 def
@@ -103,11 +103,11 @@ c
 =
 get_prerelease_suffix
 (
-'
+"
 1
 .
 2a10
-'
+"
 )
         
 self
@@ -117,13 +117,13 @@ assertEqual
 self
 .
 c
-'
+"
 1
 .
 2
 Alpha
 10
-'
+"
 )
     
 def
@@ -154,13 +154,13 @@ c
 =
 get_prerelease_suffix
 (
-'
+"
 1
 .
 2
 .
 3b3
-'
+"
 )
         
 self
@@ -170,7 +170,7 @@ assertEqual
 self
 .
 c
-'
+"
 1
 .
 2
@@ -178,7 +178,7 @@ c
 3
 Beta
 3
-'
+"
 )
     
 def
@@ -211,7 +211,7 @@ c
 =
 get_prerelease_suffix
 (
-'
+"
 1
 .
 2
@@ -219,7 +219,7 @@ get_prerelease_suffix
 3
 .
 4b30
-'
+"
 )
         
 self
@@ -229,7 +229,7 @@ assertEqual
 self
 .
 c
-'
+"
 1
 .
 2
@@ -239,7 +239,7 @@ c
 4
 Beta
 30
-'
+"
 )
     
 def
@@ -272,7 +272,7 @@ c
 =
 get_prerelease_suffix
 (
-'
+"
 1
 .
 2
@@ -280,7 +280,7 @@ get_prerelease_suffix
 3
 .
 4
-'
+"
 )
         
 self
@@ -290,8 +290,8 @@ assertEqual
 self
 .
 c
-'
-'
+"
+"
 )
     
 def
@@ -320,11 +320,11 @@ c
 =
 get_prerelease_suffix
 (
-'
+"
 1
 .
 2a1pre
-'
+"
 )
         
 self
@@ -334,8 +334,8 @@ assertEqual
 self
 .
 c
-'
-'
+"
+"
 )
     
 def
@@ -364,11 +364,11 @@ c
 =
 get_prerelease_suffix
 (
-'
+"
 3
 .
 4b10pre
-'
+"
 )
         
 self
@@ -378,8 +378,8 @@ assertEqual
 self
 .
 c
-'
-'
+"
+"
 )
     
 def
@@ -408,11 +408,11 @@ c
 =
 get_prerelease_suffix
 (
-'
+"
 1
 .
 2pre0
-'
+"
 )
         
 self
@@ -422,8 +422,8 @@ assertEqual
 self
 .
 c
-'
-'
+"
+"
 )
     
 def
@@ -452,11 +452,11 @@ c
 =
 get_prerelease_suffix
 (
-'
+"
 1
 .
 2pre1b
-'
+"
 )
         
 self
@@ -466,8 +466,8 @@ assertEqual
 self
 .
 c
-'
-'
+"
+"
 )
     
 def
@@ -496,11 +496,11 @@ c
 =
 get_prerelease_suffix
 (
-'
+"
 1
 .
 2aa
-'
+"
 )
         
 self
@@ -510,8 +510,8 @@ assertEqual
 self
 .
 c
-'
-'
+"
+"
 )
     
 def
@@ -540,11 +540,11 @@ c
 =
 get_prerelease_suffix
 (
-'
+"
 1
 .
 2bb
-'
+"
 )
         
 self
@@ -554,8 +554,8 @@ assertEqual
 self
 .
 c
-'
-'
+"
+"
 )
     
 def
@@ -584,11 +584,11 @@ c
 =
 get_prerelease_suffix
 (
-'
+"
 1
 .
 2ab
-'
+"
 )
         
 self
@@ -598,8 +598,8 @@ assertEqual
 self
 .
 c
-'
-'
+"
+"
 )
     
 def
@@ -629,12 +629,12 @@ c
 =
 get_prerelease_suffix
 (
-'
+"
 1
 .
 2
 +
-'
+"
 )
         
 self
@@ -644,16 +644,16 @@ assertEqual
 self
 .
 c
-'
-'
+"
+"
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

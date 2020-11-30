@@ -15,16 +15,16 @@ path
 .
 replace
 (
-'
+"
 /
 locales
 /
 en
 -
 US
-'
-'
-'
+"
+"
+"
 )
     
 if
@@ -69,9 +69,9 @@ name
 ]
 ]
 [
-'
+"
 file
-'
+"
 ]
 def
 get_entity_name
@@ -98,8 +98,8 @@ n
 :
     
 return
-'
-'
+"
+"
 *
 4
 *
@@ -114,9 +114,9 @@ entity_id
     
 result
 =
-'
+"
 {
-'
+"
 +
 '
 COPY
@@ -140,11 +140,11 @@ dtd
 entity_id
 )
 +
-'
+"
 }
 \
 n
-'
+"
     
 return
 result
@@ -156,7 +156,7 @@ make_header
     
 res
 =
-'
+"
 #
 coding
 =
@@ -165,12 +165,12 @@ utf8
 n
 \
 n
-'
+"
     
 res
 +
 =
-'
+"
 #
 Any
 copyright
@@ -183,12 +183,12 @@ Domain
 .
 \
 n
-'
+"
     
 res
 +
 =
-'
+"
 #
 http
 :
@@ -210,24 +210,24 @@ zero
 n
 \
 n
-'
+"
     
 res
 +
 =
-'
+"
 from
 __future__
 import
 absolute_import
 \
 n
-'
+"
     
 res
 +
 =
-'
+"
 import
 fluent
 .
@@ -238,12 +238,12 @@ as
 FTL
 \
 n
-'
+"
     
 res
 +
 =
-'
+"
 from
 fluent
 .
@@ -254,12 +254,12 @@ import
 transforms_from
 \
 n
-'
+"
     
 res
 +
 =
-'
+"
 from
 fluent
 .
@@ -268,22 +268,22 @@ migrate
 helpers
 import
 MESSAGE_REFERENCE
-'
+"
     
 res
 +
 =
-'
+"
 TERM_REFERENCE
 VARIABLE_REFERENCE
 \
 n
-'
+"
     
 res
 +
 =
-'
+"
 from
 fluent
 .
@@ -294,7 +294,7 @@ CONCAT
 REPLACE
 \
 n
-'
+"
     
 return
 res
@@ -315,7 +315,7 @@ make_header
     
 desc
 =
-'
+"
 Bug
 {
 0
@@ -331,22 +331,21 @@ index
 }
 }
 .
-'
+"
 .
 format
 (
-        
 data
 [
-'
+"
 bug_id
-'
+"
 ]
 data
 [
-'
+"
 description
-'
+"
 ]
 )
     
@@ -390,9 +389,9 @@ dtd_path
 in
 data
 [
-'
+"
 dtd
-'
+"
 ]
 :
         
@@ -428,15 +427,16 @@ to_chrome_path
 (
 dtd_path
 )
+        
 )
     
 res
 +
 =
-'
+"
 \
 n
-'
+"
     
 res
 +
@@ -446,14 +446,14 @@ ind
 1
 )
 +
-'
+"
 ctx
 .
 add_transforms
 (
 \
 n
-'
+"
     
 res
 +
@@ -479,9 +479,9 @@ to_chrome_path
 (
 data
 [
-'
+"
 ftl
-'
+"
 ]
 )
 )
@@ -510,9 +510,9 @@ to_chrome_path
 (
 data
 [
-'
+"
 ftl
-'
+"
 ]
 )
 )
@@ -525,12 +525,12 @@ ind
 2
 )
 +
-'
+"
 transforms_from
 (
 \
 n
-'
+"
     
 res
 +
@@ -560,9 +560,9 @@ if
 not
 msg
 [
-'
+"
 attrs
-'
+"
 ]
 :
             
@@ -572,9 +572,9 @@ get_entity_name
 (
 msg
 [
-'
+"
 value
-'
+"
 ]
 )
             
@@ -586,9 +586,9 @@ get_dtd_path
 (
 msg
 [
-'
+"
 value
-'
+"
 ]
 dtds
 )
@@ -597,7 +597,7 @@ dtds
 res
 +
 =
-'
+"
 {
 0
 }
@@ -605,7 +605,7 @@ res
 {
 1
 }
-'
+"
 .
 format
 (
@@ -623,14 +623,14 @@ else
 res
 +
 =
-'
+"
 {
 0
 }
 =
 \
 n
-'
+"
 .
 format
 (
@@ -642,9 +642,9 @@ name
 in
 msg
 [
-'
+"
 attrs
-'
+"
 ]
 :
                 
@@ -652,9 +652,9 @@ attr
 =
 msg
 [
-'
+"
 attrs
-'
+"
 ]
 [
 name
@@ -681,7 +681,7 @@ dtds
 res
 +
 =
-'
+"
 {
 0
 }
@@ -693,10 +693,11 @@ res
 {
 2
 }
-'
+"
 .
 format
 (
+                    
 ind
 (
 1
@@ -707,6 +708,7 @@ add_copy
 entity_path
 attr_name
 )
+                
 )
     
 res
@@ -728,11 +730,11 @@ ind
 2
 )
 +
-'
+"
 )
 \
 n
-'
+"
     
 res
 +
@@ -742,9 +744,9 @@ ind
 1
 )
 +
-'
+"
 )
-'
+"
     
 return
 res

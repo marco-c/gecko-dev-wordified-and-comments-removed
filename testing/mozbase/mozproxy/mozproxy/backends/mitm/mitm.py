@@ -769,7 +769,6 @@ pageset
         
 tooltool_download
 (
-            
 manifest_path
 self
 .
@@ -782,7 +781,6 @@ run_local
 self
 .
 mozproxy_dir
-        
 )
         
 with
@@ -878,6 +876,7 @@ LOG
 .
 error
 (
+                
 "
 playback_files
 value
@@ -891,6 +890,7 @@ wont
 '
 start
 "
+            
 )
             
 raise
@@ -1632,19 +1632,21 @@ self
 recording_paths
 =
 [
+                
 normalize_path
 (
 recording
 .
 recording_path
 )
-                                    
+                
 for
 recording
 in
 self
 .
 recordings
+            
 ]
             
 if
@@ -2511,6 +2513,7 @@ LOG
 .
 warning
 (
+                
 "
 Proxy
 service
@@ -2522,7 +2525,7 @@ recording
 file
 .
 "
-                        
+                
 "
 Confidence
 metrics
@@ -2531,12 +2534,15 @@ nt
 be
 generated
 "
+            
 )
             
 return
         
 file_name
 =
+(
+            
 "
 mitm_netlocs_
 %
@@ -2544,6 +2550,7 @@ s
 .
 json
 "
+            
 %
 os
 .
@@ -2551,14 +2558,12 @@ path
 .
 splitext
 (
-            
 os
 .
 path
 .
 basename
 (
-                
 self
 .
 recordings
@@ -2567,13 +2572,13 @@ recordings
 ]
 .
 recording_path
-            
 )
-        
 )
 [
 0
 ]
+        
+)
         
 path
 =
@@ -2592,7 +2597,6 @@ join
 self
 .
 upload_dir
-                                             
 file_name
 )
 )

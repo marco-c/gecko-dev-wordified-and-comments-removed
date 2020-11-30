@@ -141,7 +141,6 @@ DesktopSingleLocale
 (
 LocalesMixin
 AutomationMixin
-                          
 VCSMixin
 BaseScript
 )
@@ -160,17 +159,21 @@ repacks
 config_options
 =
 [
-[
         
 [
-'
+            
+[
+                
+"
 -
 -
 locale
-'
+"
+            
 ]
-        
+            
 {
+                
 "
 action
 "
@@ -178,7 +181,7 @@ action
 "
 extend
 "
-         
+                
 "
 dest
 "
@@ -186,7 +189,7 @@ dest
 "
 locales
 "
-         
+                
 "
 type
 "
@@ -194,7 +197,7 @@ type
 "
 string
 "
-         
+                
 "
 help
 "
@@ -214,7 +217,7 @@ update
 Optionally
 pass
 "
-                 
+                
 "
 revision
 separated
@@ -227,22 +230,27 @@ GB
 default
 .
 "
+            
 }
-    
+        
 ]
-[
         
 [
-'
+            
+[
+                
+"
 -
 -
 tag
 -
 override
-'
+"
+            
 ]
-        
+            
 {
+                
 "
 action
 "
@@ -250,7 +258,7 @@ action
 "
 store
 "
-         
+                
 "
 dest
 "
@@ -258,7 +266,7 @@ dest
 "
 tag_override
 "
-         
+                
 "
 type
 "
@@ -266,7 +274,7 @@ type
 "
 string
 "
-         
+                
 "
 help
 "
@@ -280,13 +288,16 @@ for
 all
 repos
 "
+            
 }
-    
+        
 ]
-[
         
 [
-'
+            
+[
+                
+"
 -
 -
 en
@@ -296,10 +307,12 @@ us
 installer
 -
 url
-'
+"
+            
 ]
-        
+            
 {
+                
 "
 action
 "
@@ -307,7 +320,7 @@ action
 "
 store
 "
-         
+                
 "
 dest
 "
@@ -315,7 +328,7 @@ dest
 "
 en_us_installer_url
 "
-         
+                
 "
 type
 "
@@ -323,7 +336,7 @@ type
 "
 string
 "
-         
+                
 "
 help
 "
@@ -339,9 +352,11 @@ en
 us
 binary
 "
+            
 }
-    
+        
 ]
+    
 ]
     
 def
@@ -358,9 +373,9 @@ buildscript_kwargs
 =
 {
             
-'
+"
 all_actions
-'
+"
 :
 [
                 
@@ -390,9 +405,9 @@ summary
             
 ]
             
-'
+"
 config
-'
+"
 :
 {
                 
@@ -562,6 +577,7 @@ self
 .
 query_env
 (
+            
 partial_env
 =
 config
@@ -572,24 +588,24 @@ get
 bootstrap_env
 "
 )
-                                       
 replace_dict
 =
 abs_dirs
+        
 )
         
 bootstrap_env
 [
-'
+"
 L10NBASEDIR
-'
+"
 ]
 =
 abs_dirs
 [
-'
+"
 abs_l10n_dir
-'
+"
 ]
         
 if
@@ -605,9 +621,9 @@ config
 .
 get
 (
-'
+"
 update_channel
-'
+"
 )
 :
                 
@@ -615,9 +631,9 @@ update_channel
 =
 config
 [
-'
+"
 update_channel
-'
+"
 ]
             
 else
@@ -635,9 +651,9 @@ s
 (
 config
 [
-'
+"
 branch
-'
+"
 ]
 )
             
@@ -676,6 +692,7 @@ self
 .
 info
 (
+                
 "
 Update
 channel
@@ -695,6 +712,7 @@ MOZ_UPDATE_CHANNEL
 "
 ]
 )
+            
 )
         
 self
@@ -766,9 +784,9 @@ upload_env
 )
         
 if
-'
+"
 upload_env_extra
-'
+"
 in
 config
 :
@@ -778,9 +796,9 @@ extra
 in
 config
 [
-'
+"
 upload_env_extra
-'
+"
 ]
 :
                 
@@ -791,9 +809,9 @@ extra
 =
 config
 [
-'
+"
 upload_env_extra
-'
+"
 ]
 [
 extra
@@ -869,7 +887,7 @@ variable
 <
 variable
 >
-           
+        
 it
 accepts
 extra
@@ -919,9 +937,9 @@ cwd
 =
 dirs
 [
-'
+"
 abs_locales_dir
-'
+"
 ]
         
 raw_output
@@ -930,11 +948,11 @@ self
 .
 _get_output_from_make
 (
+            
 target
 cwd
 =
 cwd
-                                                
 env
 =
 self
@@ -942,6 +960,7 @@ self
 query_bootstrap_env
 (
 )
+        
 )
         
 output
@@ -992,7 +1011,7 @@ self
 .
 info
 (
-'
+"
 echo
 -
 variable
@@ -1002,7 +1021,7 @@ s
 :
 %
 s
-'
+"
 %
 (
 variable
@@ -1039,7 +1058,7 @@ add_failure
 )
 for
 each
-           
+        
 error
 .
 It
@@ -1051,7 +1070,7 @@ returns
 when
 successful
 .
-           
+        
 returns
 a
 two
@@ -1113,7 +1132,7 @@ else
                 
 message
 =
-'
+"
 failure
 :
 %
@@ -1122,7 +1141,7 @@ s
 %
 s
 )
-'
+"
 %
 (
 name
@@ -1227,7 +1246,6 @@ my
 make_wget_en_US
 (
 )
-        
 "
 "
 "
@@ -1250,13 +1268,13 @@ join
 (
 dirs
 [
-'
+"
 abs_obj_dir
-'
+"
 ]
-'
+"
 config
-'
+"
 )
         
 env
@@ -1275,9 +1293,9 @@ _make
 target
 =
 [
-'
+"
 export
-'
+"
 ]
 cwd
 =
@@ -1306,7 +1324,7 @@ abs_src_dir
 /
 .
 mozconfig
-           
+        
 and
 logs
 the
@@ -1349,14 +1367,14 @@ join
 (
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
-'
+"
 .
 mozconfig
-'
+"
 )
         
 self
@@ -1413,30 +1431,32 @@ self
 .
 run_command
 (
+            
 mach
 +
 target
-                                
+            
 halt_on_failure
 =
 True
-                                
+            
 env
 =
 env
-                                
+            
 cwd
 =
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
-                                
+            
 output_parser
 =
 None
+        
 )
     
 def
@@ -1497,9 +1517,9 @@ return
 sys
 .
 executable
-'
+"
 mach
-'
+"
 ]
     
 def
@@ -1528,9 +1548,9 @@ config
 .
 get
 (
-'
+"
 enable_mozmake
-'
+"
 )
 :
             
@@ -1546,15 +1566,15 @@ join
 [
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
-'
+"
 mozmake
 .
 exe
-'
+"
 ]
 )
             
@@ -1564,13 +1584,13 @@ make
 .
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 /
-'
+"
 )
             
 make
@@ -1585,9 +1605,9 @@ else
 make
 =
 [
-'
+"
 make
-'
+"
 ]
         
 return
@@ -1596,20 +1616,27 @@ make
 def
 _make
 (
+        
 self
+        
 target
+        
 cwd
+        
 env
+        
 error_list
 =
 MakefileErrorList
-              
+        
 halt_on_failure
 =
 True
+        
 output_parser
 =
 None
+    
 )
 :
         
@@ -1650,32 +1677,35 @@ self
 .
 run_command
 (
+            
 make
-                                
+            
 cwd
 =
 cwd
-                                
+            
 env
 =
 env
-                                
+            
 error_list
 =
 error_list
-                                
+            
 halt_on_failure
 =
 halt_on_failure
-                                
+            
 output_parser
 =
 output_parser
+        
 )
     
 def
 _get_output_from_make
 (
+        
 self
 target
 cwd
@@ -1686,6 +1716,7 @@ True
 ignore_errors
 =
 False
+    
 )
 :
         
@@ -1718,29 +1749,31 @@ self
 .
 get_output_from_command
 (
+            
 make
 +
 target
-                                            
+            
 cwd
 =
 cwd
-                                            
+            
 env
 =
 env
-                                            
+            
 silent
 =
 True
-                                            
+            
 halt_on_failure
 =
 halt_on_failure
-                                            
+            
 ignore_errors
 =
 ignore_errors
+        
 )
     
 def
@@ -1793,15 +1826,15 @@ join
 (
 dirs
 [
-'
+"
 abs_obj_dir
-'
+"
 ]
 config
 [
-'
+"
 locales_dir
-'
+"
 ]
 )
         
@@ -1867,9 +1900,9 @@ cwd
 =
 dirs
 [
-'
+"
 abs_locales_dir
-'
+"
 ]
         
 return
@@ -1935,15 +1968,15 @@ query_abs_dirs
 target
 =
 [
-'
+"
 upload
-'
-'
+"
+"
 AB_CD
 =
 %
 s
-'
+"
 %
 (
 locale
@@ -1954,9 +1987,9 @@ cwd
 =
 dirs
 [
-'
+"
 abs_locales_dir
-'
+"
 ]
         
 parser
@@ -1968,7 +2001,6 @@ config
 self
 .
 config
-                                        
 log_obj
 =
 self
@@ -1982,6 +2014,7 @@ self
 .
 _make
 (
+            
 target
 =
 target
@@ -1991,13 +2024,13 @@ cwd
 env
 =
 env
-                            
 halt_on_failure
 =
 False
 output_parser
 =
 parser
+        
 )
         
 if
@@ -2011,14 +2044,14 @@ self
 .
 info
 (
-'
+"
 Upload
 successful
 (
 %
 s
 )
-'
+"
 %
 locale
 )
@@ -2034,13 +2067,13 @@ self
 .
 error
 (
-'
+"
 failed
 to
 upload
 %
 s
-'
+"
 %
 locale
 )
@@ -2123,6 +2156,7 @@ locale
 matches
 =
 (
+                
 glob
 .
 glob
@@ -2137,8 +2171,8 @@ upload_target
 glob_name
 )
 )
+                
 +
-                       
 glob
 .
 glob
@@ -2150,14 +2184,14 @@ path
 join
 (
 upload_target
-'
+"
 update
-'
+"
 glob_name
 )
 )
+                
 +
-                       
 glob
 .
 glob
@@ -2169,17 +2203,17 @@ path
 join
 (
 upload_target
-'
+"
 *
-'
-'
+"
+"
 xpi
-'
+"
 glob_name
 )
 )
+                
 +
-                       
 glob
 .
 glob
@@ -2191,17 +2225,17 @@ path
 join
 (
 upload_target
-'
+"
 install
-'
-'
+"
+"
 sea
-'
+"
 glob_name
 )
 )
+                
 +
-                       
 glob
 .
 glob
@@ -2213,15 +2247,15 @@ path
 join
 (
 upload_target
-'
+"
 setup
 .
 exe
-'
+"
 )
 )
+                
 +
-                       
 glob
 .
 glob
@@ -2233,46 +2267,52 @@ path
 join
 (
 upload_target
-'
+"
 setup
 -
 stub
 .
 exe
-'
+"
 )
 )
+            
 )
             
 targets_exts
 =
 [
+                
 "
 tar
 .
 bz2
 "
+                
 "
 dmg
 "
+                
 "
 langpack
 .
 xpi
 "
-                            
+                
 "
 checksums
 "
+                
 "
 zip
 "
-                            
+                
 "
 installer
 .
 exe
 "
+                
 "
 installer
 -
@@ -2280,6 +2320,7 @@ stub
 .
 exe
 "
+            
 ]
             
 targets
@@ -2325,18 +2366,18 @@ for
 f
 in
 (
-'
+"
 setup
 .
 exe
-'
-'
+"
+"
 setup
 -
 stub
 .
 exe
-'
+"
 )
 ]
 )
@@ -2408,6 +2449,7 @@ else
 raise
 RuntimeError
 (
+                        
 "
 Unexpected
 matching
@@ -2418,9 +2460,9 @@ encountered
 %
 s
 "
-                                       
 %
 f
+                    
 )
                 
 self
@@ -2435,7 +2477,6 @@ join
 (
 f
 )
-                          
 os
 .
 path
@@ -2487,29 +2528,32 @@ query_l10n_env
 target
 =
 [
-'
+            
+"
 echo
 -
 variable
 -
 UPLOAD_FILES
-'
-'
+"
+            
+"
 echo
 -
 variable
 -
 CHECKSUM_FILES
-'
-                  
-'
+"
+            
+"
 AB_CD
 =
 %
 s
-'
+"
 %
 locale
+        
 ]
         
 dirs
@@ -2524,9 +2568,9 @@ cwd
 =
 dirs
 [
-'
+"
 abs_locales_dir
-'
+"
 ]
         
 output
@@ -2535,6 +2579,7 @@ self
 .
 _get_output_from_make
 (
+            
 target
 =
 target
@@ -2544,10 +2589,10 @@ cwd
 env
 =
 env
-                                            
 ignore_errors
 =
 True
+        
 )
         
 self
@@ -2584,7 +2629,7 @@ self
 .
 error
 (
-'
+"
 failed
 to
 get
@@ -2595,7 +2640,7 @@ for
 locale
 %
 s
-'
+"
 %
 locale
 )
@@ -2671,16 +2716,16 @@ query_l10n_env
         
 env
 [
-'
+"
 PYTHONIOENCODING
-'
+"
 ]
 =
-'
+"
 utf
 -
 8
-'
+"
         
 self
 .
@@ -2706,15 +2751,16 @@ join
 (
 dirs
 [
-'
+"
 abs_locales_dir
-'
+"
 ]
 )
         
 target
 =
 [
+            
 "
 installers
 -
@@ -2723,6 +2769,7 @@ s
 "
 %
 locale
+        
 ]
         
 return
@@ -2736,7 +2783,6 @@ target
 cwd
 =
 cwd
-                          
 env
 =
 env
@@ -2764,7 +2810,7 @@ make
 installers
 and
 generating
-           
+        
 complete
 updates
 .
@@ -2915,9 +2961,9 @@ self
 :
         
 if
-'
+"
 tooltool_authentication_file
-'
+"
 in
 self
 .
@@ -2930,9 +2976,9 @@ self
 .
 config
 [
-'
+"
 tooltool_authentication_file
-'
+"
 ]
         
 elif
@@ -2946,7 +2992,7 @@ _is_windows
 fn
 =
 r
-'
+"
 c
 :
 \
@@ -2955,21 +3001,21 @@ builds
 relengapi
 .
 tok
-'
+"
         
 else
 :
             
 fn
 =
-'
+"
 /
 builds
 /
 relengapi
 .
 tok
-'
+"
         
 if
 os
@@ -3022,9 +3068,9 @@ environ
 .
 get
 (
-'
+"
 MOZ_TOOLCHAINS
-'
+"
 )
         
 manifest_src
@@ -3035,9 +3081,9 @@ environ
 .
 get
 (
-'
+"
 TOOLTOOL_MANIFEST
-'
+"
 )
         
 if
@@ -3051,9 +3097,9 @@ config
 .
 get
 (
-'
+"
 tooltool_manifest_src
-'
+"
 )
         
 if
@@ -3077,10 +3123,11 @@ cmd
 [
             
 python
-'
+            
+"
 -
 u
-'
+"
             
 os
 .
@@ -3090,44 +3137,45 @@ join
 (
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
-'
+"
 mach
-'
+"
 )
             
-'
+"
 artifact
-'
+"
             
-'
+"
 toolchain
-'
+"
             
-'
+"
 -
 v
-'
+"
             
-'
+"
 -
 -
 retry
-'
-'
-4
-'
+"
             
-'
+"
+4
+"
+            
+"
 -
 -
 artifact
 -
 manifest
-'
+"
             
 os
 .
@@ -3137,15 +3185,15 @@ join
 (
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
-'
+"
 toolchains
 .
 json
-'
+"
 )
         
 ]
@@ -3158,16 +3206,17 @@ cmd
 .
 extend
 (
-[
                 
-'
+[
+                    
+"
 -
 -
 tooltool
 -
 manifest
-'
-                
+"
+                    
 os
 .
 path
@@ -3176,14 +3225,15 @@ join
 (
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
 manifest_src
 )
-            
+                
 ]
+            
 )
             
 auth_file
@@ -3212,13 +3262,13 @@ cmd
 extend
 (
 [
-'
+"
 -
 -
 authentication
 -
 file
-'
+"
 auth_file
 ]
 )
@@ -3227,16 +3277,16 @@ cache
 =
 config
 [
-'
+"
 bootstrap_env
-'
+"
 ]
 .
 get
 (
-'
+"
 TOOLTOOL_CACHE
-'
+"
 )
         
 if
@@ -3248,13 +3298,13 @@ cmd
 extend
 (
 [
-'
+"
 -
 -
 cache
 -
 dir
-'
+"
 cache
 ]
 )
@@ -3293,14 +3343,13 @@ cwd
 =
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
 halt_on_failure
 =
 True
-                         
 env
 =
 env
@@ -3309,9 +3358,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 single_locale

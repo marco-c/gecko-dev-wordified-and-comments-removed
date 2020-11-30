@@ -154,6 +154,7 @@ self
 .
 __init__
 (
+            
 {
 }
 environ
@@ -162,13 +163,13 @@ environ
 argv
 =
 argv
-                                          
 stdout
 =
 stdout
 stderr
 =
 stderr
+        
 )
     
 def
@@ -223,9 +224,9 @@ line
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Raises
 the
@@ -311,9 +312,9 @@ is
 ignored
 .
         
-'
-'
-'
+"
+"
+"
         
 def
 thrower
@@ -563,13 +564,15 @@ or
 obj
 in
 (
+            
 self
 .
 _always
-                                                               
+            
 self
 .
 _never
+        
 )
 :
             
@@ -606,8 +609,8 @@ e
 =
 ConfigureError
 (
-                    
-'
+                
+"
 Keyword
 arguments
 are
@@ -616,7 +619,8 @@ allowed
 in
 depends
 functions
-'
+"
+            
 )
             
 self
@@ -672,12 +676,12 @@ instr
 opname
 in
 (
-'
+"
 LOAD_FAST
-'
-'
+"
+"
 LOAD_CLOSURE
-'
+"
 )
 :
                 
@@ -768,7 +772,7 @@ e
 =
 ConfigureError
 (
-'
+"
 The
 dependency
 on
@@ -776,7 +780,7 @@ on
 s
 is
 unused
-'
+"
 %
 dep
 )
@@ -877,12 +881,12 @@ instr
 opname
 in
 (
-'
+"
 LOAD_GLOBAL
-'
-'
+"
+"
 STORE_GLOBAL
-'
+"
 )
 :
                     
@@ -892,17 +896,17 @@ instr
 argval
 =
 =
-'
+"
 os
-'
+"
 and
 glob
 .
 get
 (
-'
+"
 os
-'
+"
 )
 is
 self
@@ -939,14 +943,12 @@ obj
 :
         
 if
-(
 isinstance
 (
 obj
 DependsFunction
 )
 and
-                
 self
 .
 _help_option
@@ -954,7 +956,6 @@ in
 obj
 .
 dependencies
-)
 :
             
 return
@@ -1048,6 +1049,7 @@ arg
 .
 name
 )
+                    
 )
                     
 self
@@ -1182,9 +1184,9 @@ kwargs
 :
         
 if
-'
+"
 default
-'
+"
 not
 in
 kwargs
@@ -1250,9 +1252,9 @@ default
 =
 kwargs
 [
-'
+"
 default
-'
+"
 ]
         
 if
@@ -1275,21 +1277,21 @@ True
 :
 {
                 
-'
+"
 enable
-'
+"
 :
-'
+"
 disable
-'
+"
                 
-'
+"
 with
-'
+"
 :
-'
+"
 without
-'
+"
             
 }
             
@@ -1297,21 +1299,21 @@ False
 :
 {
                 
-'
+"
 disable
-'
+"
 :
-'
+"
 enable
-'
+"
                 
-'
+"
 without
-'
+"
 :
-'
+"
 with
-'
+"
             
 }
         
@@ -1336,13 +1338,13 @@ name
 .
 startswith
 (
-'
+"
 -
 -
 {
 }
 -
-'
+"
 .
 format
 (
@@ -1386,7 +1388,8 @@ e
 =
 ConfigureError
 (
-'
+                    
+"
 {
 }
 should
@@ -1394,9 +1397,9 @@ be
 used
 instead
 of
-'
-                                   
-'
+"
+                    
+"
 {
 }
 with
@@ -1404,45 +1407,49 @@ default
 =
 {
 }
-'
+"
 .
 format
 (
-                                       
+                        
 name
 .
 replace
 (
-'
+                            
+"
 -
 -
 {
 }
 -
-'
+"
 .
 format
 (
 prefix
 )
-                                                    
-'
+"
 -
 -
 {
 }
 -
-'
+"
 .
 format
 (
 replacement
 )
+                        
 )
-                                       
+                        
 name
+                        
 default
+                    
 )
+                
 )
                 
 self
@@ -1476,9 +1483,9 @@ default
 =
 kwargs
 [
-'
+"
 default
-'
+"
 ]
         
 if
@@ -1525,9 +1532,9 @@ help
 =
 kwargs
 [
-'
+"
 help
-'
+"
 ]
         
 match
@@ -1554,37 +1561,37 @@ option
 prefix
 in
 (
-'
+"
 enable
-'
-'
+"
+"
 disable
-'
+"
 )
 :
             
 rule
 =
-'
+"
 {
 Enable
 |
 Disable
 }
-'
+"
         
 else
 :
             
 rule
 =
-'
+"
 {
 With
 |
 Without
 }
-'
+"
         
 frame
 =
@@ -1637,12 +1644,12 @@ non
 constant
 default
 '
-            
 .
 format
 (
 rule
 )
+        
 )
         
 self
@@ -1882,9 +1889,9 @@ _import
 .
 split
 (
-'
+"
 .
-'
+"
 )
 [
 0
@@ -1913,35 +1920,34 @@ func
 __code__
             
 if
+(
+                
 instr
 .
 opname
 =
 =
-'
+"
 LOAD_GLOBAL
-'
+"
+                
 and
-\
-                    
 instr
 .
 argval
 not
 in
 glob
+                
 and
-\
-                    
 instr
 .
 argval
 not
 in
 imports
+                
 and
-\
-                    
 instr
 .
 argval
@@ -1949,13 +1955,12 @@ not
 in
 glob
 [
-'
+"
 __builtins__
-'
+"
 ]
+                
 and
-\
-                    
 instr
 .
 argval
@@ -1970,6 +1975,8 @@ code
 .
 co_argcount
 ]
+            
+)
 :
                 
 e

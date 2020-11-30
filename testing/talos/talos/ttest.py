@@ -158,18 +158,18 @@ mozcrash
 .
 check_for_crashes
 (
+            
 minidump_dir
-                                           
 browser_config
 [
-'
+"
 symbols_path
-'
+"
 ]
-                                           
 test_name
 =
 test_name
+        
 )
         
 mozfile
@@ -186,7 +186,7 @@ found
 raise
 TalosCrash
 (
-'
+"
 Found
 crashes
 after
@@ -194,7 +194,7 @@ test
 run
 terminating
 test
-'
+"
 )
     
 def
@@ -302,15 +302,15 @@ system
 )
 =
 =
-'
+"
 Linux
-'
+"
 :
             
 return
-'
+"
 linux
-'
+"
         
 elif
 platform
@@ -320,21 +320,21 @@ system
 )
 in
 (
-'
+"
 Windows
-'
-'
+"
+"
 Microsoft
-'
+"
 )
 :
             
 if
-'
+"
 6
 .
 1
-'
+"
 in
 platform
 .
@@ -344,16 +344,16 @@ version
 :
                 
 return
-'
+"
 w7
-'
+"
             
 elif
-'
+"
 6
 .
 2
-'
+"
 in
 platform
 .
@@ -363,16 +363,16 @@ version
 :
                 
 return
-'
+"
 w8
-'
+"
             
 elif
-'
+"
 6
 .
 3
-'
+"
 in
 platform
 .
@@ -382,16 +382,16 @@ version
 :
                 
 return
-'
+"
 w8
-'
+"
             
 elif
-'
+"
 10
 .
 0
-'
+"
 in
 platform
 .
@@ -401,9 +401,9 @@ version
 :
                 
 return
-'
+"
 w8
-'
+"
             
 else
 :
@@ -411,11 +411,11 @@ else
 raise
 TalosError
 (
-'
+"
 unsupported
 windows
 version
-'
+"
 )
         
 elif
@@ -426,15 +426,15 @@ system
 )
 =
 =
-'
+"
 Darwin
-'
+"
 :
             
 return
-'
+"
 mac
-'
+"
     
 def
 _runTest
@@ -457,9 +457,9 @@ join
 setup
 .
 profile_dir
-'
+"
 minidumps
-'
+"
 )
         
 counters
@@ -468,10 +468,10 @@ test_config
 .
 get
 (
-'
+"
 %
 s_counters
-'
+"
 %
 self
 .
@@ -486,9 +486,9 @@ resolution
 =
 test_config
 [
-'
+"
 resolution
-'
+"
 ]
         
 here
@@ -512,9 +512,9 @@ __file__
 if
 test_config
 [
-'
+"
 mainthread
-'
+"
 ]
 :
             
@@ -527,20 +527,20 @@ path
 join
 (
 here
-'
+"
 mainthread_io
 .
 log
-'
+"
 )
             
 setup
 .
 env
 [
-'
+"
 MOZ_MAIN_THREAD_IO_LOG
-'
+"
 ]
 =
 mainthread_io
@@ -549,23 +549,23 @@ setup
 .
 env
 [
-'
+"
 STYLO_FORCE_ENABLED
-'
+"
 ]
 =
-'
+"
 1
-'
+"
         
 if
 browser_config
 .
 get
 (
-'
+"
 stylothreads
-'
+"
 0
 )
 >
@@ -576,27 +576,27 @@ setup
 .
 env
 [
-'
+"
 STYLO_THREADS
-'
+"
 ]
 =
 str
 (
 browser_config
 [
-'
+"
 stylothreads
-'
+"
 ]
 )
         
 if
 browser_config
 [
-'
+"
 enable_webrender
-'
+"
 ]
 :
             
@@ -604,27 +604,27 @@ setup
 .
 env
 [
-'
+"
 MOZ_WEBRENDER
-'
+"
 ]
 =
-'
+"
 1
-'
+"
             
 setup
 .
 env
 [
-'
+"
 MOZ_ACCELERATED
-'
+"
 ]
 =
-'
+"
 1
-'
+"
         
 else
 :
@@ -633,23 +633,23 @@ setup
 .
 env
 [
-'
+"
 MOZ_WEBRENDER
-'
+"
 ]
 =
-'
+"
 0
-'
+"
         
 if
 test_config
 .
 get
 (
-'
+"
 url
-'
+"
 None
 )
 is
@@ -659,9 +659,9 @@ None
             
 test_config
 [
-'
+"
 url
-'
+"
 ]
 =
 utils
@@ -671,9 +671,9 @@ interpolate
                 
 test_config
 [
-'
+"
 url
-'
+"
 ]
                 
 profile
@@ -686,9 +686,9 @@ firefox
 =
 browser_config
 [
-'
+"
 browser_path
-'
+"
 ]
             
 )
@@ -700,14 +700,14 @@ setup
 .
 env
 [
-'
+"
 MOZ_USE_PAGELOADER
-'
+"
 ]
 =
-'
+"
 1
-'
+"
         
 global_counters
 =
@@ -719,9 +719,9 @@ browser_config
 .
 get
 (
-'
+"
 xperf_path
-'
+"
 )
 :
             
@@ -732,9 +732,9 @@ test_config
 .
 get
 (
-'
+"
 xperf_counters
-'
+"
 [
 ]
 )
@@ -753,13 +753,11 @@ test_config
 .
 get
 (
-'
+"
 responsiveness
-'
+"
 )
 and
-\
-           
 platform
 .
 system
@@ -767,55 +765,55 @@ system
 )
 !
 =
-'
+"
 Darwin
-'
+"
 :
             
 setup
 .
 env
 [
-'
+"
 MOZ_INSTRUMENT_EVENT_LOOP
-'
+"
 ]
 =
-'
+"
 1
-'
+"
             
 setup
 .
 env
 [
-'
+"
 MOZ_INSTRUMENT_EVENT_LOOP_THRESHOLD
-'
+"
 ]
 =
-'
+"
 20
-'
+"
             
 setup
 .
 env
 [
-'
+"
 MOZ_INSTRUMENT_EVENT_LOOP_INTERVAL
-'
+"
 ]
 =
-'
+"
 10
-'
+"
             
 global_counters
 [
-'
+"
 responsiveness
-'
+"
 ]
 =
 [
@@ -825,27 +823,27 @@ setup
 .
 env
 [
-'
+"
 JSGC_DISABLE_POISONING
-'
+"
 ]
 =
-'
+"
 1
-'
+"
         
 setup
 .
 env
 [
-'
+"
 MOZ_DISABLE_NONLOCAL_CONNECTIONS
-'
+"
 ]
 =
-'
+"
 1
-'
+"
         
 test_results
 =
@@ -855,16 +853,14 @@ TestResults
 (
             
 test_config
-            
 global_counters
-            
 browser_config
 .
 get
 (
-'
+"
 framework
-'
+"
 )
         
 )
@@ -876,9 +872,9 @@ range
 (
 test_config
 [
-'
+"
 cycles
-'
+"
 ]
 )
 :
@@ -896,7 +892,8 @@ LOG
 .
 info
 (
-'
+                
+"
 Running
 cycle
 %
@@ -911,8 +908,8 @@ test
 .
 .
 .
-'
-                     
+"
+                
 %
 (
 i
@@ -920,17 +917,18 @@ i
 1
 test_config
 [
-'
+"
 cycles
-'
+"
 ]
 test_config
 [
-'
+"
 name
-'
+"
 ]
 )
+            
 )
             
 mozfile
@@ -939,9 +937,9 @@ remove
 (
 browser_config
 [
-'
+"
 error_filename
-'
+"
 ]
 )
             
@@ -950,9 +948,9 @@ test_config
 .
 get
 (
-'
+"
 perfherder_framework
-'
+"
 None
 )
 is
@@ -966,9 +964,9 @@ framework
 =
 test_config
 [
-'
+"
 perfherder_framework
-'
+"
 ]
             
 if
@@ -976,11 +974,11 @@ test_config
 .
 get
 (
-'
+"
 reinstall
-'
-'
-'
+"
+"
+"
 )
 :
                 
@@ -989,9 +987,9 @@ keep
 in
 test_config
 [
-'
+"
 reinstall
-'
+"
 ]
 :
                     
@@ -1005,11 +1003,10 @@ join
 (
 test_config
 [
-'
+"
 profile_path
-'
+"
 ]
-                                          
 keep
 )
                     
@@ -1031,7 +1028,7 @@ LOG
 .
 debug
 (
-'
+"
 Reinstalling
 %
 s
@@ -1040,8 +1037,7 @@ top
 of
 %
 s
-'
-                              
+"
 %
 (
 origin
@@ -1063,9 +1059,9 @@ test_config
 .
 get
 (
-'
+"
 timeout
-'
+"
 7200
 )
             
@@ -1095,11 +1091,13 @@ json
 .
 dumps
 (
+                    
 setup
 .
 gecko_profile
 .
 profiling_info
+                
 )
             
 command_args
@@ -1111,16 +1109,16 @@ GenerateBrowserCommandLine
                 
 browser_config
 [
-'
+"
 browser_path
-'
+"
 ]
                 
 browser_config
 [
-'
+"
 extra_args
-'
+"
 ]
                 
 setup
@@ -1129,26 +1127,27 @@ profile_dir
                 
 test_config
 [
-'
+"
 url
-'
+"
 ]
                 
 profiling_info
 =
 (
+                    
 setup
 .
 gecko_profile
 .
 profiling_info
-                                
 if
 setup
 .
 gecko_profile
 else
 None
+                
 )
             
 )
@@ -1160,9 +1159,9 @@ mainthread_error_count
 if
 test_config
 [
-'
+"
 setup
-'
+"
 ]
 :
                 
@@ -1170,11 +1169,11 @@ talosconfig
 .
 generateTalosConfig
 (
+                    
 command_args
-                                                
 browser_config
-                                                
 test_config
+                
 )
                 
 subprocess
@@ -1183,16 +1182,16 @@ call
 (
                     
 [
-'
+"
 python
-'
+"
 ]
 +
 test_config
 [
-'
+"
 setup
-'
+"
 ]
 .
 split
@@ -1216,13 +1215,11 @@ CounterManagement
                     
 browser_config
 [
-'
+"
 process
-'
+"
 ]
-                    
 counters
-                    
 resolution
                 
 )
@@ -1252,41 +1249,42 @@ env
 on_started
 =
 (
+                        
 counter_management
 .
 start
-                                
 if
 counter_management
 else
 None
+                    
 )
                     
 debug
 =
 browser_config
 [
-'
+"
 debug
-'
+"
 ]
                     
 debugger
 =
 browser_config
 [
-'
+"
 debugger
-'
+"
 ]
                     
 debugger_args
 =
 browser_config
 [
-'
+"
 debugger_args
-'
+"
 ]
                 
 )
@@ -1299,15 +1297,16 @@ self
 .
 check_for_crashes
 (
+                    
 browser_config
 minidump_dir
-                                       
 test_config
 [
-'
+"
 name
-'
+"
 ]
+                
 )
                 
 raise
@@ -1331,9 +1330,9 @@ try
 if
 test_config
 [
-'
+"
 mainthread
-'
+"
 ]
 :
                     
@@ -1346,11 +1345,11 @@ path
 join
 (
 here
-'
+"
 mainthread_io
 .
 log
-'
+"
 )
                     
 if
@@ -1366,8 +1365,6 @@ rawlog
                         
 processedlog
 =
-\
-                            
 os
 .
 path
@@ -1375,17 +1372,15 @@ path
 join
 (
 here
-'
+"
 mainthread_io
 .
 json
-'
+"
 )
                         
 xre_path
 =
-\
-                            
 os
 .
 path
@@ -1394,9 +1389,9 @@ dirname
 (
 browser_config
 [
-'
+"
 browser_path
-'
+"
 ]
 )
                         
@@ -1409,22 +1404,21 @@ path
 join
 (
 here
-'
+"
 mainthreadio
 .
 py
-'
+"
 )
                         
 command
 =
 [
-'
+"
 python
-'
+"
 mtio_py
 rawlog
-                                   
 processedlog
 xre_path
 ]
@@ -1435,8 +1429,8 @@ subprocess
 .
 Popen
 (
+                            
 command
-                                                
 env
 =
 os
@@ -1446,12 +1440,12 @@ environ
 copy
 (
 )
-                                                
 stdout
 =
 subprocess
 .
 PIPE
+                        
 )
                         
 output
@@ -1470,10 +1464,10 @@ output
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 :
                             
@@ -1485,8 +1479,8 @@ strip
 )
 =
 =
-'
-'
+"
+"
 :
                                 
 continue
@@ -1511,9 +1505,9 @@ rawlog
 if
 test_config
 [
-'
+"
 cleanup
-'
+"
 ]
 :
                     
@@ -1521,24 +1515,22 @@ talosconfig
 .
 generateTalosConfig
 (
+                        
 command_args
-                                                    
 browser_config
-                                                    
 test_config
-                                                    
 pid
 =
 pcontext
 .
 pid
+                    
 )
                     
 subprocess
 .
 call
 (
-                        
 [
 sys
 .
@@ -1547,36 +1539,34 @@ executable
 +
 test_config
 [
-'
+"
 cleanup
-'
+"
 ]
 .
 split
 (
 )
-                    
 )
                 
 for
 fname
 in
 (
-'
+"
 sessionstore
 .
 js
-'
-'
+"
+"
 .
 parentlock
-'
-                              
-'
+"
+"
 sessionstore
 .
 bak
-'
+"
 )
 :
                     
@@ -1598,6 +1588,8 @@ fname
 )
                 
 if
+(
+                    
 os
 .
 path
@@ -1606,24 +1598,25 @@ exists
 (
 browser_config
 [
-'
+"
 error_filename
-'
+"
 ]
 )
+                    
 or
-\
-                   
 mainthread_error_count
 >
 0
+                
+)
 :
                     
 raise
 TalosRegression
 (
                         
-'
+"
 Talos
 has
 found
@@ -1633,9 +1626,9 @@ if
 you
 have
 questions
-'
+"
                         
-'
+"
 ask
 for
 help
@@ -1644,7 +1637,7 @@ irc
 on
 #
 perf
-'
+"
                     
 )
                 
@@ -1661,10 +1654,10 @@ test_results
 add
 (
                         
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1676,17 +1669,17 @@ output
 counter_results
 =
 (
+                            
 counter_management
 .
 results
 (
 )
-                                         
 if
 counter_management
-                                         
 else
 None
+                        
 )
                     
 )
@@ -1713,15 +1706,16 @@ self
 .
 check_for_crashes
 (
+                    
 browser_config
 minidump_dir
-                                       
 test_config
 [
-'
+"
 name
-'
+"
 ]
+                
 )
         
 test_results
@@ -1773,14 +1767,14 @@ LOG
 .
 debug
 (
-'
+"
 COUNTER
 %
 r
 :
 %
 s
-'
+"
 %
 (
 key
@@ -1793,9 +1787,9 @@ browser_config
 .
 get
 (
-'
+"
 code_coverage
-'
+"
 False
 )
 :

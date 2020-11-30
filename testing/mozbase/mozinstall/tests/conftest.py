@@ -48,9 +48,9 @@ fspath
 .
 dirpath
 (
-'
+"
 installer_stubs
-'
+"
 )
         
 return
@@ -58,12 +58,12 @@ stub_dir
 .
 join
 (
-'
+"
 firefox
 .
 {
 }
-'
+"
 .
 format
 (

@@ -2,11 +2,11 @@ config
 =
 {
     
-'
+"
 stage_platform
-'
+"
 :
-'
+"
 android
 -
 api
@@ -16,13 +16,13 @@ api
 gradle
 -
 dependencies
-'
+"
     
-'
+"
 src_mozconfig
-'
+"
 :
-'
+"
 mobile
 /
 android
@@ -42,40 +42,33 @@ gradle
 dependencies
 /
 nightly
-'
+"
     
-'
-multi_locale_config_platform
-'
-:
-'
-android
-'
-    
-'
+"
 postflight_build_mach_commands
-'
+"
 :
 [
         
 [
-'
+            
+"
 android
-'
-         
-'
+"
+            
+"
 gradle
 -
 dependencies
-'
+"
         
 ]
     
 ]
     
-'
+"
 max_build_output_timeout
-'
+"
 :
 0
 }

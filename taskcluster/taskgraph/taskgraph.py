@@ -320,9 +320,9 @@ tasks
 key
 ]
 [
-'
+"
 dependencies
-'
+"
 ]
 =
 named_links_dict
@@ -412,9 +412,9 @@ value
 )
             
 if
-'
+"
 task_id
-'
+"
 in
 value
 :
@@ -428,9 +428,9 @@ task_id
 =
 value
 [
-'
+"
 task_id
-'
+"
 ]
             
 for
@@ -443,9 +443,9 @@ iteritems
 (
 value
 [
-'
+"
 dependencies
-'
+"
 ]
 )
 :

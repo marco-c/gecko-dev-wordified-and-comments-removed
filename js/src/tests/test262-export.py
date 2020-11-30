@@ -28,28 +28,33 @@ SUPPORT_FILES
 =
 set
 (
+    
 [
+        
 "
 browser
 .
 js
 "
+        
 "
 shell
 .
 js
 "
+        
 "
 template
 .
 js
 "
+        
 "
 user
 .
 js
 "
-                     
+        
 "
 js
 -
@@ -61,6 +66,7 @@ begin
 .
 js
 "
+        
 "
 js
 -
@@ -72,6 +78,7 @@ end
 .
 js
 "
+    
 ]
 )
 FRONTMATTER_WRAPPER_PATTERN
@@ -82,7 +89,7 @@ compile
 (
     
 r
-'
+"
 /
 \
 *
@@ -124,7 +131,7 @@ s
 \
 *
 /
-'
+"
 flags
 =
 re
@@ -319,7 +326,7 @@ sub
 (
         
 r
-'
+"
 .
 *
 reportCompare
@@ -372,7 +379,7 @@ s
 \
 s
 *
-'
+"
         
 replaceFn
         
@@ -386,12 +393,12 @@ re
 sub
 (
 r
-'
+"
 \
 breportCompare
 \
 b
-'
+"
 "
 assert
 .
@@ -449,7 +456,7 @@ re
 search
 (
 r
-'
+"
 skip
 -
 if
@@ -461,7 +468,7 @@ if
 )
 \
 )
-'
+"
 reftest
 )
     
@@ -500,7 +507,7 @@ search
 (
                 
 r
-'
+"
 !
 this
 .
@@ -526,8 +533,9 @@ hasOwnProperty
 ]
 \
 )
-'
+"
 match
+            
 )
             
 if
@@ -578,7 +586,7 @@ re
 search
 (
 r
-'
+"
 error
 :
 \
@@ -589,7 +597,7 @@ s
 w
 *
 )
-'
+"
 reftest
 )
     
@@ -613,12 +621,12 @@ re
 search
 (
 r
-'
+"
 \
 bmodule
 \
 b
-'
+"
 reftest
 )
     
@@ -637,14 +645,14 @@ re
 search
 (
 r
-'
+"
 -
 -
 (
 .
 *
 )
-'
+"
 reftest
 )
     
@@ -663,31 +671,26 @@ group
     
 return
 {
-        
 "
 features
 "
 :
 features
-        
 "
 error
 "
 :
 error
-        
 "
 module
 "
 :
 module
-        
 "
 info
 "
 :
 comments
-    
 }
 def
 parseHeader
@@ -883,15 +886,15 @@ re
 .
 sub
 (
-'
+"
 ^
 %
 s
-'
+"
 %
 indent
-'
-'
+"
+"
 frontmatter_lines
 )
     
@@ -1164,6 +1167,7 @@ runtime
             
 print
 (
+                
 "
 Warning
 :
@@ -1179,8 +1183,8 @@ set
 \
 n
 "
+                
 +
-                  
 "
 Ref
 https
@@ -1205,6 +1209,7 @@ md
 #
 negative
 "
+            
 )
         
 if
@@ -1223,6 +1228,7 @@ negative
             
 print
 (
+                
 "
 Warning
 :
@@ -1237,8 +1243,8 @@ set
 \
 n
 "
+                
 +
-                  
 "
 Ref
 https
@@ -1263,6 +1269,7 @@ md
 #
 negative
 "
+            
 )
     
 return
@@ -1320,8 +1327,6 @@ features
 [
 ]
 )
-\
-            
 .
 extend
 (
@@ -1493,6 +1498,7 @@ error
             
 print
 (
+                
 "
 Warning
 :
@@ -1506,8 +1512,8 @@ match
 the
 existing
 "
+                
 +
-                  
 "
 frontmatter
 error
@@ -1519,10 +1525,10 @@ s
 %
 s
 "
+                
 %
 (
 error
-                                                   
 frontmatter
 [
 "
@@ -1535,6 +1541,7 @@ type
 "
 ]
 )
+            
 )
     
 if
@@ -1596,7 +1603,7 @@ re
 match
 (
 r
-'
+"
 \
 /
 \
@@ -1613,7 +1620,7 @@ All
 rights
 reserved
 .
-'
+"
 source
 )
 :
@@ -1632,6 +1639,7 @@ lines
 .
 append
 (
+            
 "
 /
 /
@@ -1651,12 +1659,14 @@ reserved
 "
 %
 year
+        
 )
         
 lines
 .
 append
 (
+            
 "
 /
 /
@@ -1675,6 +1685,7 @@ LICENSE
 file
 .
 "
+        
 )
         
 lines
@@ -1793,38 +1804,45 @@ lines
 .
 append
 (
+                
 "
 "
+                
 +
 yaml
 .
 dump
 (
+                    
 value
+                    
 encoding
 =
 "
 utf8
 "
-                                          
+                
 )
+                
 .
 strip
 (
 )
+                
 .
 replace
 (
-'
+"
 \
 n
 .
 .
 .
-'
-'
-'
+"
+"
+"
 )
+            
 )
         
 else
@@ -1834,10 +1852,12 @@ lines
 .
 append
 (
+                
 yaml
 .
 dump
 (
+                    
 {
 key
 :
@@ -1848,15 +1868,16 @@ encoding
 "
 utf8
 "
-                                   
 default_flow_style
 =
 False
+                
 )
 .
 strip
 (
 )
+            
 )
     
 lines
@@ -1949,9 +1970,7 @@ includes
 ]
     
 while
-(
 relPath
-)
 :
         
 shellFile
@@ -2393,8 +2412,10 @@ path
 .
 join
 (
+                    
 fullRelPath
 fileName
+                
 )
                 
 (
@@ -2619,6 +2640,7 @@ argparse
 .
 ArgumentParser
 (
+        
 description
 =
 "
@@ -2631,17 +2653,20 @@ file
 compliance
 .
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
 out
 "
+        
 default
 =
 "
@@ -2649,7 +2674,7 @@ test262
 /
 export
 "
-                        
+        
 help
 =
 "
@@ -2664,7 +2689,7 @@ be
 removed
 !
 "
-                        
+        
 "
 (
 default
@@ -2676,23 +2701,26 @@ default
 s
 )
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
 exportshellincludes
 "
+        
 action
 =
 "
 store_true
 "
-                        
+        
 help
 =
 "
@@ -2709,7 +2737,7 @@ exported
 tests
 .
 "
-                        
+        
 "
 Only
 use
@@ -2726,7 +2754,7 @@ test262
 test262
 tests
 "
-                        
+        
 "
 should
 have
@@ -2738,12 +2766,14 @@ possible
 )
 .
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 src
 "
@@ -2763,6 +2793,7 @@ files
 to
 export
 "
+    
 )
     
 parser

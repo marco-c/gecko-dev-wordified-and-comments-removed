@@ -31,17 +31,17 @@ default_optimizations
 None
     
 {
-'
+"
 always
-'
+"
 :
 None
 }
     
 {
-'
+"
 build
-'
+"
 :
 list
 (
@@ -52,11 +52,11 @@ ALL_COMPONENTS
 }
     
 {
-'
+"
 index
 -
 search
-'
+"
 :
 [
 text_type
@@ -64,45 +64,45 @@ text_type
 }
     
 {
-'
+"
 never
-'
+"
 :
 None
 }
     
 {
-'
+"
 skip
 -
 unless
 -
 expanded
-'
+"
 :
 None
 }
     
 {
-'
+"
 skip
 -
 unless
 -
 backstop
-'
+"
 :
 None
 }
     
 {
-'
+"
 skip
 -
 unless
 -
 changed
-'
+"
 :
 [
 text_type
@@ -110,13 +110,13 @@ text_type
 }
     
 {
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
 :
 list
 (
@@ -127,9 +127,9 @@ ALL_COMPONENTS
 }
     
 {
-'
+"
 test
-'
+"
 :
 list
 (
@@ -140,11 +140,11 @@ ALL_COMPONENTS
 }
     
 {
-'
+"
 test
 -
 inclusive
-'
+"
 :
 list
 (
@@ -155,11 +155,11 @@ ALL_COMPONENTS
 }
     
 {
-'
+"
 test
 -
 verify
-'
+"
 :
 list
 (
@@ -170,11 +170,11 @@ ALL_COMPONENTS
 }
     
 {
-'
+"
 upload
 -
 symbols
-'
+"
 :
 None
 }
@@ -304,12 +304,12 @@ else
 raise
 Exception
 (
-'
+"
 Can
 only
 call
 set_optimization_schema
 once
 .
-'
+"
 )

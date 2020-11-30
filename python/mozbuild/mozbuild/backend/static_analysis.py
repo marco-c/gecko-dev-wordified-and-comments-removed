@@ -50,6 +50,7 @@ non_unified_build
 with
 open
 (
+            
 mozpath
 .
 join
@@ -70,6 +71,7 @@ unified
 compat
 "
 )
+        
 )
 as
 fh
@@ -104,6 +106,7 @@ strip
 (
 )
 )
+                
 for
 line
 in
@@ -135,6 +138,7 @@ None
 or
 any
 (
+            
 filename
 .
 startswith
@@ -147,6 +151,7 @@ in
 self
 .
 non_unified_build
+        
 )
 :
             

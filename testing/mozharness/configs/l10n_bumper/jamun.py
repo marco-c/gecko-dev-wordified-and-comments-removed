@@ -33,6 +33,7 @@ hg
 "
 :
 [
+            
 "
 /
 usr
@@ -43,11 +44,13 @@ bin
 /
 hg
 "
+            
 "
 -
 -
 config
 "
+            
 "
 web
 .
@@ -68,6 +71,7 @@ bundle
 .
 crt
 "
+        
 ]
         
 "
@@ -246,8 +250,9 @@ bump_configs
 "
 :
 [
-{
         
+{
+            
 "
 path
 "
@@ -263,7 +268,7 @@ changesets
 .
 json
 "
-        
+            
 "
 format
 "
@@ -271,7 +276,7 @@ format
 "
 json
 "
-        
+            
 "
 name
 "
@@ -281,7 +286,7 @@ Fennec
 l10n
 changesets
 "
-        
+            
 "
 revision_url
 "
@@ -312,14 +317,15 @@ MAJOR_VERSION
 )
 s
 "
-        
+            
 "
 platform_configs
 "
 :
 [
+                
 {
-            
+                    
 "
 platforms
 "
@@ -336,7 +342,7 @@ api
 android
 "
 ]
-            
+                    
 "
 path
 "
@@ -352,10 +358,11 @@ all
 -
 locales
 "
-        
+                
 }
+                
 {
-            
+                    
 "
 platforms
 "
@@ -367,7 +374,7 @@ android
 multilocale
 "
 ]
-            
+                    
 "
 path
 "
@@ -383,13 +390,15 @@ maemo
 -
 locales
 "
-        
+                
 }
+            
 ]
-    
-}
-{
         
+}
+        
+{
+            
 "
 path
 "
@@ -405,7 +414,7 @@ changesets
 .
 json
 "
-        
+            
 "
 format
 "
@@ -413,7 +422,7 @@ format
 "
 json
 "
-        
+            
 "
 name
 "
@@ -423,7 +432,7 @@ Firefox
 l10n
 changesets
 "
-        
+            
 "
 revision_url
 "
@@ -454,13 +463,13 @@ MAJOR_VERSION
 )
 s
 "
-        
+            
 "
 ignore_config
 "
 :
 {
-            
+                
 "
 ja
 "
@@ -470,7 +479,7 @@ ja
 macosx64
 "
 ]
-            
+                
 "
 ja
 -
@@ -493,16 +502,17 @@ win32
 win64
 "
 ]
-        
+            
 }
-        
+            
 "
 platform_configs
 "
 :
 [
+                
 {
-            
+                    
 "
 platforms
 "
@@ -517,7 +527,6 @@ linux
 "
 macosx64
 "
-                          
 "
 win32
 "
@@ -525,7 +534,7 @@ win32
 win64
 "
 ]
-            
+                    
 "
 path
 "
@@ -539,7 +548,7 @@ shipped
 -
 locales
 "
-            
+                    
 "
 format
 "
@@ -549,13 +558,15 @@ shipped
 -
 locales
 "
-        
+                
 }
+            
 ]
-    
-}
-{
         
+}
+        
+{
+            
 "
 path
 "
@@ -571,7 +582,7 @@ changesets
 .
 json
 "
-        
+            
 "
 format
 "
@@ -579,7 +590,7 @@ format
 "
 json
 "
-        
+            
 "
 name
 "
@@ -589,13 +600,13 @@ Firefox
 l10n
 changesets
 "
-        
+            
 "
 ignore_config
 "
 :
 {
-            
+                
 "
 ja
 "
@@ -605,7 +616,7 @@ ja
 macosx64
 "
 ]
-            
+                
 "
 ja
 -
@@ -628,16 +639,17 @@ win32
 win64
 "
 ]
-        
+            
 }
-        
+            
 "
 platform_configs
 "
 :
 [
+                
 {
-            
+                    
 "
 platforms
 "
@@ -652,7 +664,6 @@ linux
 "
 macosx64
 "
-                          
 "
 win32
 "
@@ -660,7 +671,7 @@ win32
 win64
 "
 ]
-            
+                    
 "
 path
 "
@@ -674,10 +685,12 @@ all
 -
 locales
 "
+                
+}
+            
+]
         
 }
-]
     
-}
 ]
 }

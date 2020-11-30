@@ -57,6 +57,7 @@ MachCommandBase
     
 Command
 (
+        
 "
 ide
 "
@@ -77,6 +78,7 @@ an
 IDE
 .
 "
+    
 )
     
 CommandArgument
@@ -225,11 +227,14 @@ log
 logging
 .
 ERROR
+                
 "
 ide
 "
+                
 {
 }
+                
 "
 Download
 :
@@ -382,6 +387,7 @@ builder
 .
 _run_make
 (
+                    
 directory
 =
 self
@@ -393,6 +399,7 @@ target
 line_handler
 =
 None
+                
 )
                 
 if
@@ -485,6 +492,7 @@ self
 .
 _run_command_in_objdir
 (
+            
 args
 =
 args
@@ -494,6 +502,7 @@ True
 ensure_exit_code
 =
 False
+        
 )
         
 if
@@ -848,9 +857,11 @@ cmd
 "
 :
 [
+                        
 "
 open
 "
+                        
 "
 /
 Applications
@@ -863,11 +874,13 @@ Insiders
 .
 app
 "
+                        
 "
 -
 -
 args
 "
+                    
 ]
                 
 }
@@ -907,20 +920,25 @@ home
 (
 )
 )
+                
 "
 AppData
 "
+                
 "
 Local
 "
+                
 "
 Programs
 "
+                
 "
 Microsoft
 VS
 Code
 "
+                
 "
 Code
 .
@@ -944,15 +962,19 @@ home
 (
 )
 )
+                
 "
 AppData
 "
+                
 "
 Local
 "
+                
 "
 Programs
 "
+                
 "
 Microsoft
 VS
@@ -1187,6 +1209,7 @@ join
 (
             
 clang_tidy_bin
+            
 "
 clangd
 "
@@ -1228,11 +1251,14 @@ log
 logging
 .
 ERROR
+                
 "
 ide
 "
+                
 {
 }
+                
 "
 Unable
 to

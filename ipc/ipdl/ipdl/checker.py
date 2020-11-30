@@ -94,7 +94,7 @@ errors
 .
 append
 (
-'
+"
 %
 s
 :
@@ -106,9 +106,8 @@ IPC
 message
 %
 s
-'
+"
 %
-                           
 (
 str
 (
@@ -133,7 +132,8 @@ errors
 .
 append
 (
-'
+            
+"
 %
 s
 :
@@ -148,9 +148,8 @@ async
 can
 be
 delisted
-'
+"
 %
-                           
 (
 str
 (
@@ -158,6 +157,7 @@ loc
 )
 msg
 )
+        
 )
     
 def
@@ -294,9 +294,11 @@ syncMsgList
 -
 set
 (
+            
 SyncMessageChecker
 .
 seenSyncMessages
+        
 )
 def
 checkSyncMessage
@@ -391,27 +393,28 @@ item
 .
 split
 (
-'
+"
 :
 :
-'
+"
 )
 [
 0
 ]
         
 if
+(
+            
 protocol
 in
 SyncMessageChecker
 .
 seenProtocols
+            
 and
-\
-           
-'
+"
 platform
-'
+"
 not
 in
 config
@@ -420,11 +423,14 @@ options
 (
 item
 )
+        
+)
 :
             
 print
 (
-'
+                
+"
 Error
 :
 Sync
@@ -442,9 +448,9 @@ fixed
 .
 \
 n
-'
-                  
-'
+"
+                
+"
 Please
 remove
 it
@@ -455,12 +461,14 @@ messages
 .
 ini
 .
-'
+"
 %
 item
+                
 file
 =
 errout
+            
 )
             
 error_free

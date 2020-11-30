@@ -213,8 +213,8 @@ attlist
 :
         
 return
-'
-'
+"
+"
     
 attlist
 =
@@ -239,19 +239,21 @@ a
 )
     
 return
-'
+"
 [
 %
 s
 ]
-'
+"
 %
-'
-'
+"
+"
 .
 join
 (
+        
 [
+            
 "
 %
 s
@@ -266,26 +268,28 @@ is
 not
 None
 and
-'
+"
 (
 %
 s
 )
-'
+"
 %
 value
 or
-'
-'
+"
+"
 )
-                               
+            
 for
 name
 value
 aloc
 in
 attlist
+        
 ]
+    
 )
 _paramsHardcode
 =
@@ -294,35 +298,35 @@ _paramsHardcode
 2
 :
 (
-'
+"
 array
-'
-'
+"
+"
 shared
-'
-'
+"
+"
 iid_is
-'
-'
+"
+"
 size_is
-'
-'
+"
+"
 retval
-'
+"
 )
     
 3
 :
 (
-'
+"
 array
-'
-'
+"
+"
 size_is
-'
-'
+"
+"
 const
-'
+"
 )
 }
 def
@@ -343,8 +347,8 @@ attlist
 :
         
 return
-'
-'
+"
+"
     
 attlist
 =
@@ -436,19 +440,21 @@ attlist
 )
     
 return
-'
+"
 [
 %
 s
 ]
-'
+"
 %
-'
-'
+"
+"
 .
 join
 (
+        
 [
+            
 "
 %
 s
@@ -463,26 +469,28 @@ is
 not
 None
 and
-'
+"
 (
 %
 s
 )
-'
+"
 %
 value
 or
-'
-'
+"
+"
 )
-                                
+            
 for
 name
 value
 aloc
 in
 sorted
+        
 ]
+    
 )
 def
 unaliasType
@@ -497,9 +505,9 @@ t
 kind
 =
 =
-'
+"
 typedef
-'
+"
 :
         
 t
@@ -536,9 +544,9 @@ t
 kind
 =
 =
-'
+"
 builtin
-'
+"
 :
         
 return
@@ -552,9 +560,9 @@ t
 kind
 =
 =
-'
+"
 native
-'
+"
 :
         
 assert
@@ -566,12 +574,12 @@ not
 None
         
 return
-'
+"
 [
 %
 s
 ]
-'
+"
 %
 t
 .
@@ -626,9 +634,9 @@ object
     
 kind
 =
-'
+"
 builtin
-'
+"
     
 location
 =
@@ -716,9 +724,9 @@ nativename
 .
 endswith
 (
-'
+"
 *
-'
+"
 )
     
 def
@@ -752,14 +760,15 @@ and
 calltype
 =
 =
-'
+"
 element
-'
+"
 :
             
 raise
 IDLError
 (
+                
 "
 Use
 string
@@ -773,6 +782,7 @@ elements
 self
 .
 location
+            
 )
         
 if
@@ -781,9 +791,10 @@ const
             
 print
 (
+                
 IDLError
 (
-                
+                    
 "
 [
 const
@@ -798,34 +809,38 @@ builtin
 types
 .
 "
-                
+                    
 self
 .
 location
+                    
 warning
 =
 True
+                
 )
+                
 file
 =
 sys
 .
 stderr
+            
 )
             
 const
 =
-'
+"
 const
-'
+"
         
 elif
 calltype
 =
 =
-'
+"
 in
-'
+"
 and
 self
 .
@@ -836,9 +851,9 @@ isPointer
             
 const
 =
-'
+"
 const
-'
+"
         
 elif
 shared
@@ -856,6 +871,7 @@ isPointer
 raise
 IDLError
 (
+                    
 "
 [
 shared
@@ -872,21 +888,22 @@ types
 self
 .
 location
+                
 )
             
 const
 =
-'
+"
 const
-'
+"
         
 else
 :
             
 const
 =
-'
-'
+"
+"
         
 return
 "
@@ -903,19 +920,18 @@ const
 self
 .
 nativename
-                            
-'
+"
 *
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
+"
+"
 )
     
 def
@@ -937,9 +953,9 @@ const
 const
 or
 (
-'
+"
 out
-'
+"
 not
 in
 calltype
@@ -996,19 +1012,19 @@ s
 "
 %
 (
-'
+"
 *
 mut
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
+"
+"
 rustname
 )
 builtinNames
@@ -1017,247 +1033,247 @@ builtinNames
     
 Builtin
 (
-'
+"
 boolean
-'
-'
+"
+"
 bool
-'
-'
+"
+"
 bool
-'
+"
 )
     
 Builtin
 (
-'
+"
 void
-'
-'
+"
+"
 void
-'
-'
+"
+"
 libc
 :
 :
 c_void
-'
+"
 )
     
 Builtin
 (
-'
+"
 octet
-'
-'
+"
+"
 uint8_t
-'
-'
+"
+"
 u8
-'
+"
 False
 True
 )
     
 Builtin
 (
-'
+"
 short
-'
-'
+"
+"
 int16_t
-'
-'
+"
+"
 i16
-'
+"
 True
 True
 )
     
 Builtin
 (
-'
+"
 long
-'
-'
+"
+"
 int32_t
-'
-'
+"
+"
 i32
-'
+"
 True
 True
 )
     
 Builtin
 (
-'
+"
 long
 long
-'
-'
+"
+"
 int64_t
-'
-'
+"
+"
 i64
-'
+"
 True
 False
 )
     
 Builtin
 (
-'
+"
 unsigned
 short
-'
-'
+"
+"
 uint16_t
-'
-'
+"
+"
 u16
-'
+"
 False
 True
 )
     
 Builtin
 (
-'
+"
 unsigned
 long
-'
-'
+"
+"
 uint32_t
-'
-'
+"
+"
 u32
-'
+"
 False
 True
 )
     
 Builtin
 (
-'
+"
 unsigned
 long
 long
-'
-'
+"
+"
 uint64_t
-'
-'
+"
+"
 u64
-'
+"
 False
 False
 )
     
 Builtin
 (
-'
+"
 float
-'
-'
+"
+"
 float
-'
-'
+"
+"
 libc
 :
 :
 c_float
-'
+"
 True
 False
 )
     
 Builtin
 (
-'
+"
 double
-'
-'
+"
+"
 double
-'
-'
+"
+"
 libc
 :
 :
 c_double
-'
+"
 True
 False
 )
     
 Builtin
 (
-'
+"
 char
-'
-'
+"
+"
 char
-'
-'
+"
+"
 libc
 :
 :
 c_char
-'
+"
 True
 False
 )
     
 Builtin
 (
-'
+"
 string
-'
-'
+"
+"
 char
 *
-'
-'
+"
+"
 *
 const
 libc
 :
 :
 c_char
-'
+"
 False
 False
 )
     
 Builtin
 (
-'
+"
 wchar
-'
-'
+"
+"
 char16_t
-'
-'
+"
+"
 i16
-'
+"
 False
 False
 )
     
 Builtin
 (
-'
+"
 wstring
-'
-'
+"
+"
 char16_t
 *
-'
-'
+"
+"
 *
 const
 i16
-'
+"
 False
 False
 )
@@ -1328,9 +1344,9 @@ _file
 getattr
 (
 lexer
-'
+"
 filename
-'
+"
 "
 <
 unknown
@@ -1347,7 +1363,6 @@ other
 :
         
 return
-(
 self
 .
 _lexpos
@@ -1357,7 +1372,6 @@ other
 .
 _lexpos
 and
-                
 self
 .
 _file
@@ -1366,7 +1380,6 @@ _file
 other
 .
 _file
-)
     
 def
 resolve
@@ -1391,10 +1404,10 @@ _lexdata
 .
 rfind
 (
-'
+"
 \
 n
-'
+"
 0
 self
 .
@@ -1411,10 +1424,10 @@ _lexdata
 .
 find
 (
-'
+"
 \
 n
-'
+"
 self
 .
 _lexpos
@@ -1564,24 +1577,29 @@ s
 "
 %
 (
+            
 self
 .
 _file
+            
 self
 .
 _lineno
+            
 self
 .
 _colno
-                                          
+            
 self
 .
 _line
+            
 self
 .
 pointerline
 (
 )
+        
 )
 class
 NameMap
@@ -1723,6 +1741,7 @@ builtinMap
 raise
 IDLError
 (
+                
 "
 name
 '
@@ -1738,15 +1757,16 @@ be
 redeclared
 "
 %
-                           
 (
 object
 .
 name
 )
+                
 object
 .
 location
+            
 )
         
 if
@@ -1851,6 +1871,7 @@ else
 raise
 IDLError
 (
+                    
 "
 name
 '
@@ -1866,8 +1887,8 @@ location
 %
 s
 "
+                    
 %
-                               
 (
 object
 .
@@ -1883,9 +1904,11 @@ name
 .
 location
 )
+                    
 object
 .
 location
+                
 )
         
 else
@@ -2053,24 +2076,27 @@ s
 "
 %
 (
+            
 self
 .
 warning
 and
-'
+"
 warning
-'
+"
 or
-'
+"
 error
-'
-                               
+"
+            
 self
 .
 message
+            
 self
 .
 location
+        
 )
 class
 Include
@@ -2081,9 +2107,9 @@ object
     
 kind
 =
-'
+"
 include
-'
+"
     
 def
 __init__
@@ -2208,25 +2234,26 @@ parser
 .
 parse
 (
+                
 open
 (
 file
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 .
 read
 (
 )
-                                           
 filename
 =
 file
+            
 )
             
 self
@@ -2366,9 +2393,9 @@ id
 name
 =
 =
-'
+"
 Array
-'
+"
 :
             
 if
@@ -2619,9 +2646,9 @@ p
 kind
 =
 =
-'
+"
 include
-'
+"
 :
                 
 yield
@@ -2665,9 +2692,9 @@ p
 kind
 =
 =
-'
+"
 interface
-'
+"
 and
 p
 .
@@ -2690,9 +2717,9 @@ object
     
 kind
 =
-'
+"
 cdata
-'
+"
     
 _re
 =
@@ -2701,11 +2728,11 @@ re
 compile
 (
 r
-'
+"
 \
 n
 +
-'
+"
 )
     
 def
@@ -2727,10 +2754,10 @@ _re
 .
 sub
 (
-'
+"
 \
 n
-'
+"
 data
 )
         
@@ -2804,9 +2831,9 @@ object
     
 kind
 =
-'
+"
 typedef
-'
+"
     
 def
 __init__
@@ -2950,18 +2977,18 @@ s
 self
 .
 name
-'
+"
 *
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
+"
+"
 )
     
 def
@@ -2978,9 +3005,9 @@ self
 name
 =
 =
-'
+"
 nsresult
-'
+"
 :
             
 return
@@ -2996,19 +3023,19 @@ nsresult
 "
 %
 (
-'
+"
 *
 mut
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
+"
+"
 )
         
 return
@@ -3020,19 +3047,19 @@ s
 "
 %
 (
-'
+"
 *
 mut
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
+"
+"
 self
 .
 name
@@ -3073,9 +3100,9 @@ object
     
 kind
 =
-'
+"
 forward
-'
+"
     
 def
 __init__
@@ -3119,9 +3146,9 @@ other
 kind
 =
 =
-'
+"
 forward
-'
+"
 and
 other
 .
@@ -3205,9 +3232,9 @@ productions
 [
 i
 ]
-'
+"
 doccomments
-'
+"
 )
 :
                     
@@ -3250,19 +3277,19 @@ if
 calltype
 =
 =
-'
+"
 element
-'
+"
 :
             
 return
-'
+"
 RefPtr
 <
 %
 s
 >
-'
+"
 %
 self
 .
@@ -3281,18 +3308,18 @@ s
 self
 .
 name
-'
+"
 *
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
+"
+"
 )
     
 def
@@ -3333,19 +3360,19 @@ if
 calltype
 =
 =
-'
+"
 element
-'
+"
 :
             
 return
-'
+"
 RefPtr
 <
 %
 s
 >
-'
+"
 %
 self
 .
@@ -3362,20 +3389,19 @@ s
 "
 %
 (
-'
+"
 *
 mut
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
-                                
+"
+"
 self
 .
 name
@@ -3411,9 +3437,9 @@ object
     
 kind
 =
-'
+"
 native
-'
+"
     
 modifier
 =
@@ -3427,99 +3453,99 @@ specialtypes
 =
 {
         
-'
+"
 nsid
-'
+"
 :
 None
         
-'
+"
 utf8string
-'
+"
 :
 (
-'
+"
 const
 nsACString
 &
-'
-'
+"
+"
 nsACString
 &
-'
-'
+"
+"
 nsCString
-'
+"
 )
         
-'
+"
 cstring
-'
+"
 :
 (
-'
+"
 const
 nsACString
 &
-'
-'
+"
+"
 nsACString
 &
-'
-'
+"
+"
 nsCString
-'
+"
 )
         
-'
+"
 astring
-'
+"
 :
 (
-'
+"
 const
 nsAString
 &
-'
-'
+"
+"
 nsAString
 &
-'
-'
+"
+"
 nsString
-'
+"
 )
         
-'
+"
 jsval
-'
+"
 :
 (
-'
+"
 JS
 :
 :
 HandleValue
-'
-'
+"
+"
 JS
 :
 :
 MutableHandleValue
-'
-'
+"
+"
 JS
 :
 :
 Value
-'
+"
 )
         
-'
+"
 promise
-'
+"
 :
-'
+"
 :
 :
 mozilla
@@ -3529,7 +3555,7 @@ dom
 :
 :
 Promise
-'
+"
     
 }
     
@@ -3592,12 +3618,12 @@ if
 name
 in
 (
-'
+"
 ptr
-'
-'
+"
+"
 ref
-'
+"
 )
 :
                 
@@ -3717,6 +3743,7 @@ other
         
 return
 (
+            
 self
 .
 name
@@ -3725,8 +3752,8 @@ name
 other
 .
 name
+            
 and
-                
 self
 .
 nativename
@@ -3735,8 +3762,8 @@ nativename
 other
 .
 nativename
+            
 and
-                
 self
 .
 modifier
@@ -3745,8 +3772,8 @@ modifier
 other
 .
 modifier
+            
 and
-                
 self
 .
 specialtype
@@ -3755,6 +3782,7 @@ specialtype
 other
 .
 specialtype
+        
 )
     
 def
@@ -3786,9 +3814,9 @@ self
 modifier
 =
 =
-'
+"
 ptr
-'
+"
     
 def
 isRef
@@ -3804,9 +3832,9 @@ self
 modifier
 =
 =
-'
+"
 ref
-'
+"
     
 def
 nativeType
@@ -3830,14 +3858,15 @@ if
 calltype
 !
 =
-'
+"
 out
-'
+"
 :
                 
 raise
 IDLError
 (
+                    
 "
 [
 shared
@@ -3852,6 +3881,7 @@ parameters
 self
 .
 location
+                
 )
             
 const
@@ -3872,9 +3902,9 @@ if
 calltype
 =
 =
-'
+"
 in
-'
+"
 :
                 
 return
@@ -3885,13 +3915,13 @@ nativename
 0
 ]
 +
-'
-'
+"
+"
             
 elif
-'
+"
 out
-'
+"
 in
 calltype
 :
@@ -3904,8 +3934,8 @@ nativename
 1
 ]
 +
-'
-'
+"
+"
             
 else
 :
@@ -3918,8 +3948,8 @@ nativename
 2
 ]
 +
-'
-'
+"
+"
         
 if
 self
@@ -3927,16 +3957,16 @@ self
 specialtype
 =
 =
-'
+"
 nsid
-'
+"
 and
 calltype
 =
 =
-'
+"
 in
-'
+"
 :
             
 const
@@ -3947,9 +3977,9 @@ if
 calltype
 =
 =
-'
+"
 element
-'
+"
 :
             
 if
@@ -3958,9 +3988,9 @@ self
 specialtype
 =
 =
-'
+"
 nsid
-'
+"
 :
                 
 if
@@ -3975,6 +4005,7 @@ calltype
 raise
 IDLError
 (
+                        
 "
 Array
 <
@@ -3985,7 +4016,7 @@ yet
 supported
 .
 "
-                                   
+                        
 "
 File
 an
@@ -3997,9 +4028,11 @@ need
 it
 .
 "
+                        
 self
 .
 location
+                    
 )
                 
 return
@@ -4019,6 +4052,7 @@ calltype
 raise
 IDLError
 (
+                    
 "
 [
 ref
@@ -4035,6 +4069,7 @@ T
 self
 .
 location
+                
 )
             
 if
@@ -4043,13 +4078,13 @@ self
 specialtype
 =
 =
-'
+"
 promise
-'
+"
 :
                 
 return
-'
+"
 RefPtr
 <
 mozilla
@@ -4060,7 +4095,7 @@ dom
 :
 Promise
 >
-'
+"
         
 if
 self
@@ -4073,27 +4108,27 @@ calltype
             
 m
 =
-'
+"
 &
-'
+"
         
 else
 :
             
 m
 =
-'
+"
 *
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
+"
+"
             
 if
 self
@@ -4107,9 +4142,9 @@ calltype
 m
 +
 =
-'
+"
 *
-'
+"
         
 return
 "
@@ -4124,12 +4159,12 @@ s
 (
 const
 and
-'
+"
 const
-'
+"
 or
-'
-'
+"
+"
 self
 .
 nativename
@@ -4157,19 +4192,19 @@ modifier
 not
 in
 [
-'
+"
 ptr
-'
-'
+"
+"
 ref
-'
+"
 ]
 :
             
 raise
 RustNoncompat
 (
-'
+"
 Rust
 only
 supports
@@ -4182,31 +4217,31 @@ ptr
 ]
 native
 types
-'
+"
 )
         
 prefix
 =
-'
+"
 *
 mut
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
+"
 *
 const
-'
+"
         
 if
-'
+"
 out
-'
+"
 in
 calltype
 and
@@ -4215,18 +4250,18 @@ self
 modifier
 =
 =
-'
+"
 ptr
-'
+"
 :
             
 prefix
 +
 =
-'
+"
 *
 mut
-'
+"
         
 if
 self
@@ -4234,15 +4269,15 @@ self
 specialtype
 =
 =
-'
+"
 nsid
-'
+"
 :
             
 if
-'
+"
 element
-'
+"
 in
 calltype
 :
@@ -4259,6 +4294,7 @@ calltype
 raise
 IDLError
 (
+                        
 "
 Array
 <
@@ -4269,7 +4305,7 @@ yet
 supported
 .
 "
-                                   
+                        
 "
 File
 an
@@ -4281,9 +4317,11 @@ need
 it
 .
 "
+                        
 self
 .
 location
+                    
 )
                 
 return
@@ -4304,44 +4342,44 @@ self
 specialtype
 in
 [
-'
+"
 cstring
-'
-'
+"
+"
 utf8string
-'
+"
 ]
 :
             
 if
-'
+"
 element
-'
+"
 in
 calltype
 :
                 
 return
-'
+"
 :
 :
 nsstring
 :
 :
 nsCString
-'
+"
             
 return
 prefix
 +
-'
+"
 :
 :
 nsstring
 :
 :
 nsACString
-'
+"
         
 if
 self
@@ -4349,40 +4387,40 @@ self
 specialtype
 =
 =
-'
+"
 astring
-'
+"
 :
             
 if
-'
+"
 element
-'
+"
 in
 calltype
 :
                 
 return
-'
+"
 :
 :
 nsstring
 :
 :
 nsString
-'
+"
             
 return
 prefix
 +
-'
+"
 :
 :
 nsstring
 :
 :
 nsAString
-'
+"
         
 if
 self
@@ -4390,20 +4428,20 @@ self
 nativename
 =
 =
-'
+"
 void
-'
+"
 :
             
 return
 prefix
 +
-'
+"
 libc
 :
 :
 c_void
-'
+"
         
 if
 self
@@ -4479,9 +4517,9 @@ object
     
 kind
 =
-'
+"
 webidl
-'
+"
     
 def
 __init__
@@ -4518,9 +4556,9 @@ other
 kind
 =
 =
-'
+"
 webidl
-'
+"
 and
 self
 .
@@ -4540,14 +4578,16 @@ parent
 :
         
 assert
+(
+            
 parent
 .
 webidlconfig
 is
 not
 None
-\
-            
+        
+)
 "
 WebIDL
 declarations
@@ -4582,9 +4622,9 @@ config
 .
 get
 (
-'
+"
 nativeType
-'
+"
 )
         
 if
@@ -4622,9 +4662,9 @@ config
 .
 get
 (
-'
+"
 headerFile
-'
+"
 )
         
 if
@@ -4645,19 +4685,19 @@ native
 .
 replace
 (
-'
+"
 :
 :
-'
-'
+"
+"
 /
-'
+"
 )
 +
-'
+"
 .
 h
-'
+"
         
 parent
 .
@@ -4681,13 +4721,13 @@ if
 calltype
 =
 =
-'
+"
 element
-'
+"
 :
             
 return
-'
+"
 RefPtr
 <
 %
@@ -4695,17 +4735,17 @@ s
 %
 s
 >
-'
+"
 %
 (
-'
+"
 const
-'
+"
 if
 const
 else
-'
-'
+"
+"
 self
 .
 native
@@ -4723,30 +4763,33 @@ s
 "
 %
 (
-'
+            
+"
 const
-'
+"
 if
 const
 else
-'
-'
+"
+"
+            
 self
 .
 native
-                             
-'
+            
+"
 *
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
+"
+"
+        
 )
     
 def
@@ -4773,19 +4816,19 @@ c_void
 "
 %
 (
-'
+"
 *
 mut
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
+"
+"
 )
     
 def
@@ -4816,9 +4859,9 @@ object
     
 kind
 =
-'
+"
 interface
-'
+"
     
 def
 __init__
@@ -4975,9 +5018,9 @@ if
 hasattr
 (
 member
-'
+"
 doccomments
-'
+"
 )
 :
                     
@@ -5041,9 +5084,9 @@ member
 kind
 =
 =
-'
+"
 method
-'
+"
 :
                     
 if
@@ -5069,14 +5112,16 @@ marked
 function
 '
 "
-%
                             
+%
 self
 .
 name
+                            
 self
 .
 location
+                        
 )
                     
 else
@@ -5125,14 +5170,15 @@ realbase
 kind
 !
 =
-'
+"
 interface
-'
+"
 :
                 
 raise
 IDLError
 (
+                    
 "
 interface
 '
@@ -5150,8 +5196,8 @@ type
 s
 '
 "
+                    
 %
-                               
 (
 self
 .
@@ -5160,9 +5206,11 @@ self
 .
 base
 )
+                    
 self
 .
 location
+                
 )
             
 if
@@ -5183,6 +5231,7 @@ scriptable
 raise
 IDLError
 (
+                    
 "
 interface
 '
@@ -5195,7 +5244,7 @@ but
 derives
 from
 "
-                               
+                    
 "
 non
 -
@@ -5206,7 +5255,6 @@ s
 '
 "
 %
-                               
 (
 self
 .
@@ -5215,41 +5263,48 @@ self
 .
 base
 )
+                    
 self
 .
 location
+                    
 warning
 =
 True
+                
 )
             
 if
 (
+                
 self
 .
 attributes
 .
 scriptable
+                
 and
 realbase
 .
 attributes
 .
 builtinclass
-and
                 
+and
 not
 self
 .
 attributes
 .
 builtinclass
+            
 )
 :
                 
 raise
 IDLError
 (
+                    
 "
 interface
 '
@@ -5263,7 +5318,7 @@ but
 derives
 from
 "
-                               
+                    
 "
 builtinclass
 '
@@ -5272,7 +5327,6 @@ s
 '
 "
 %
-                               
 (
 self
 .
@@ -5281,9 +5335,11 @@ self
 .
 base
 )
+                    
 self
 .
 location
+                
 )
         
 elif
@@ -5292,14 +5348,15 @@ self
 name
 !
 =
-'
+"
 nsISupports
-'
+"
 :
             
 raise
 IDLError
 (
+                
 "
 Interface
 '
@@ -5312,13 +5369,14 @@ from
 nsISupports
 "
 %
-                           
 self
 .
 name
+                
 self
 .
 location
+            
 )
         
 for
@@ -5356,6 +5414,7 @@ builtinclass
 raise
 IDLError
 (
+                
 "
 interface
 '
@@ -5374,6 +5433,7 @@ name
 self
 .
 location
+            
 )
     
 def
@@ -5391,19 +5451,19 @@ if
 calltype
 =
 =
-'
+"
 element
-'
+"
 :
             
 return
-'
+"
 RefPtr
 <
 %
 s
 >
-'
+"
 %
 self
 .
@@ -5421,30 +5481,33 @@ s
 "
 %
 (
-'
+            
+"
 const
-'
+"
 if
 const
 else
-'
-'
+"
+"
+            
 self
 .
 name
-                             
-'
+            
+"
 *
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
+"
+"
+        
 )
     
 def
@@ -5462,19 +5525,19 @@ if
 calltype
 =
 =
-'
+"
 element
-'
+"
 :
             
 return
-'
+"
 RefPtr
 <
 %
 s
 >
-'
+"
 %
 self
 .
@@ -5491,20 +5554,19 @@ s
 "
 %
 (
-'
+"
 *
 mut
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
-                                
+"
+"
 self
 .
 name
@@ -5712,9 +5774,9 @@ c
 kind
 !
 =
-'
+"
 const
-'
+"
 :
             
 raise
@@ -5814,9 +5876,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Returns
 the
 number
@@ -5829,9 +5891,9 @@ for
 this
 interface
 .
-'
-'
-'
+"
+"
+"
         
 total
 =
@@ -6007,54 +6069,54 @@ actions
 =
 {
         
-'
+"
 uuid
-'
+"
 :
 (
 True
 setuuid
 )
         
-'
+"
 scriptable
-'
+"
 :
 (
 False
 setscriptable
 )
         
-'
+"
 builtinclass
-'
+"
 :
 (
 False
 setbuiltinclass
 )
         
-'
+"
 function
-'
+"
 :
 (
 False
 setfunction
 )
         
-'
+"
 noscript
-'
+"
 :
 (
 False
 setnoscript
 )
         
-'
+"
 object
-'
+"
 :
 (
 False
@@ -6064,9 +6126,9 @@ self
 True
 )
         
-'
+"
 main_process_scriptable_only
-'
+"
 :
 (
 False
@@ -6157,7 +6219,6 @@ s
 "
 %
 name
-                                   
 aloc
 )
                 
@@ -6192,7 +6253,6 @@ s
 "
 %
 name
-                                   
 aloc
 )
                 
@@ -6347,9 +6407,9 @@ object
     
 kind
 =
-'
+"
 const
-'
+"
     
 def
 __init__
@@ -6462,6 +6522,7 @@ maybeConst
 raise
 IDLError
 (
+                
 "
 const
 may
@@ -6477,13 +6538,14 @@ not
 s
 "
 %
-                           
 self
 .
 type
+                
 self
 .
 location
+            
 )
         
 self
@@ -6563,9 +6625,9 @@ object
     
 kind
 =
-'
+"
 const
-'
+"
     
 def
 __init__
@@ -6615,9 +6677,9 @@ object
     
 kind
 =
-'
+"
 cenum
-'
+"
     
 def
 __init__
@@ -6743,12 +6805,12 @@ self
 .
 name
 =
-'
+"
 %
 s_
 %
 s
-'
+"
 %
 (
 self
@@ -6849,9 +6911,9 @@ calltype
 :
         
 if
-'
+"
 out
-'
+"
 in
 calltype
 :
@@ -6917,19 +6979,19 @@ d
 "
 %
 (
-'
+"
 *
 mut
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
+"
+"
 self
 .
 width
@@ -6944,18 +7006,18 @@ self
         
 body
 =
-'
-'
+"
+"
 .
 join
 (
-'
+"
 %
 s
 =
 %
 s
-'
+"
 %
 v
 for
@@ -7018,32 +7080,35 @@ kind
 not
 in
 [
-'
+        
+"
 builtin
-'
-                                               
-'
+"
+        
+"
 interface
-'
-                                               
-'
+"
+        
+"
 forward
-'
-                                               
-'
+"
+        
+"
 webidl
-'
-                                               
-'
+"
+        
+"
 cenum
-'
+"
+    
 ]
 :
         
 raise
 IDLError
 (
-'
+            
+"
 [
 infallible
 ]
@@ -7055,9 +7120,9 @@ domobjects
 and
 builtin
 types
-'
-                       
-'
+"
+            
+"
 (
 numbers
 booleans
@@ -7067,11 +7132,12 @@ raw
 char
 types
 )
-'
-                       
+"
+            
 methodOrAttribute
 .
 location
+        
 )
     
 if
@@ -7088,7 +7154,8 @@ builtinclass
 raise
 IDLError
 (
-'
+            
+"
 [
 infallible
 ]
@@ -7099,18 +7166,19 @@ are
 only
 allowed
 on
-'
-                       
-'
+"
+            
+"
 [
 builtinclass
 ]
 interfaces
-'
-                       
+"
+            
 methodOrAttribute
 .
 location
+        
 )
     
 if
@@ -7122,7 +7190,8 @@ notxpcom
 raise
 IDLError
 (
-'
+            
+"
 [
 infallible
 ]
@@ -7135,17 +7204,17 @@ a
 [
 notxpcom
 ]
-'
-                       
-'
+"
+"
 method
 or
 attribute
-'
-                       
+"
+            
 methodOrAttribute
 .
 location
+        
 )
 def
 ensureBuiltinClassIfNeeded
@@ -7183,9 +7252,9 @@ iface
 name
 =
 =
-'
+"
 nsISupports
-'
+"
 :
         
 return
@@ -7201,6 +7270,7 @@ IDLError
 (
             
 (
+                
 "
 scriptable
 interface
@@ -7217,7 +7287,7 @@ builtinclass
 because
 it
 "
-             
+                
 "
 contains
 a
@@ -7231,9 +7301,10 @@ s
 s
 '
 "
-)
-%
             
+)
+            
+%
 (
 iface
 .
@@ -7249,6 +7320,7 @@ name
 methodOrAttribute
 .
 location
+        
 )
 class
 Attribute
@@ -7259,9 +7331,9 @@ object
     
 kind
 =
-'
+"
 attribute
-'
+"
     
 noscript
 =
@@ -7368,9 +7440,9 @@ if
 name
 =
 =
-'
+"
 binaryname
-'
+"
 :
                 
 if
@@ -7389,7 +7461,6 @@ requires
 a
 value
 "
-                                   
 aloc
 )
                 
@@ -7423,9 +7494,9 @@ if
 name
 =
 =
-'
+"
 noscript
-'
+"
 :
                 
 self
@@ -7438,9 +7509,9 @@ elif
 name
 =
 =
-'
+"
 notxpcom
-'
+"
 :
                 
 self
@@ -7453,9 +7524,9 @@ elif
 name
 =
 =
-'
+"
 symbol
-'
+"
 :
                 
 self
@@ -7468,9 +7539,9 @@ elif
 name
 =
 =
-'
+"
 implicit_jscontext
-'
+"
 :
                 
 self
@@ -7483,9 +7554,9 @@ elif
 name
 =
 =
-'
+"
 nostdcall
-'
+"
 :
                 
 self
@@ -7498,9 +7569,9 @@ elif
 name
 =
 =
-'
+"
 must_use
-'
+"
 :
                 
 self
@@ -7513,9 +7584,9 @@ elif
 name
 =
 =
-'
+"
 infallible
-'
+"
 :
                 
 self
@@ -7528,43 +7599,48 @@ elif
 name
 =
 =
-'
+"
 can_run_script
-'
+"
 :
                 
 if
 (
-self
-.
-explicit_setter_can_run_script
-or
                     
 self
 .
+explicit_setter_can_run_script
+                    
+or
+self
+.
 explicit_getter_can_run_script
+                
 )
 :
                     
 raise
 IDLError
 (
+                        
 "
 Redundant
 getter_can_run_script
 or
 "
-                                   
+                        
 "
 setter_can_run_script
 annotation
 on
 "
-                                   
+                        
 "
 attribute
 "
+                        
 aloc
+                    
 )
                 
 self
@@ -7583,9 +7659,9 @@ elif
 name
 =
 =
-'
+"
 setter_can_run_script
-'
+"
 :
                 
 if
@@ -7597,17 +7673,19 @@ explicit_setter_can_run_script
 raise
 IDLError
 (
+                        
 "
 Redundant
 setter_can_run_script
 annotation
 "
-                                   
 "
 on
 attribute
 "
+                        
 aloc
+                    
 )
                 
 self
@@ -7620,9 +7698,9 @@ elif
 name
 =
 =
-'
+"
 getter_can_run_script
-'
+"
 :
                 
 if
@@ -7634,17 +7712,19 @@ explicit_getter_can_run_script
 raise
 IDLError
 (
+                        
 "
 Redundant
 getter_can_run_script
 annotation
 "
-                                   
 "
 on
 attribute
 "
+                        
 aloc
+                    
 )
                 
 self
@@ -7736,12 +7816,12 @@ self
 .
 readonly
 and
-'
+"
 readonly
-'
+"
 or
-'
-'
+"
+"
         
 return
 "
@@ -7822,23 +7902,26 @@ n
 "
 %
 (
+            
 self
 .
 readonly
 and
-'
+"
 readonly
-'
+"
 or
-'
-'
-                                          
+"
+"
+            
 self
 .
 type
+            
 self
 .
 name
+        
 )
     
 def
@@ -7865,9 +7948,9 @@ object
     
 kind
 =
-'
+"
 method
-'
+"
     
 noscript
 =
@@ -7977,9 +8060,9 @@ if
 name
 =
 =
-'
+"
 binaryname
-'
+"
 :
                 
 if
@@ -7998,7 +8081,6 @@ requires
 a
 value
 "
-                                   
 aloc
 )
                 
@@ -8032,9 +8114,9 @@ if
 name
 =
 =
-'
+"
 noscript
-'
+"
 :
                 
 self
@@ -8047,9 +8129,9 @@ elif
 name
 =
 =
-'
+"
 notxpcom
-'
+"
 :
                 
 self
@@ -8062,9 +8144,9 @@ elif
 name
 =
 =
-'
+"
 symbol
-'
+"
 :
                 
 self
@@ -8077,9 +8159,9 @@ elif
 name
 =
 =
-'
+"
 implicit_jscontext
-'
+"
 :
                 
 self
@@ -8092,9 +8174,9 @@ elif
 name
 =
 =
-'
+"
 optional_argc
-'
+"
 :
                 
 self
@@ -8107,9 +8189,9 @@ elif
 name
 =
 =
-'
+"
 nostdcall
-'
+"
 :
                 
 self
@@ -8122,9 +8204,9 @@ elif
 name
 =
 =
-'
+"
 must_use
-'
+"
 :
                 
 self
@@ -8137,9 +8219,9 @@ elif
 name
 =
 =
-'
+"
 can_run_script
-'
+"
 :
                 
 self
@@ -8152,9 +8234,9 @@ elif
 name
 =
 =
-'
+"
 infallible
-'
+"
 :
                 
 self
@@ -8292,6 +8374,7 @@ params
 raise
 IDLError
 (
+                    
 "
 '
 retval
@@ -8308,13 +8391,14 @@ last
 parameter
 "
 %
-                               
 p
 .
 name
+                    
 self
 .
 location
+                
 )
             
 if
@@ -8351,18 +8435,23 @@ found_size_param
 True
                         
 if
+(
+                            
 getBuiltinOrNativeTypeName
 (
 size_param
 .
 realtype
 )
+                            
 !
 =
-'
+"
 unsigned
 long
-'
+"
+                        
+)
 :
                             
 raise
@@ -8380,9 +8469,11 @@ unsigned
 long
 '
 "
+                                
 self
 .
 location
+                            
 )
                 
 if
@@ -8393,6 +8484,7 @@ found_size_param
 raise
 IDLError
 (
+                        
 "
 could
 not
@@ -8405,13 +8497,14 @@ s
 '
 "
 %
-                                   
 p
 .
 size_is
+                        
 self
 .
 location
+                    
 )
     
 def
@@ -8471,12 +8564,15 @@ n
 "
 %
 (
+            
 self
 .
 type
+            
 self
 .
 name
+            
 "
 "
 .
@@ -8494,6 +8590,7 @@ self
 params
 ]
 )
+        
 )
     
 def
@@ -8514,16 +8611,16 @@ raises
             
 raises
 =
-'
+"
 raises
 (
 %
 s
 )
-'
+"
 %
-'
-'
+"
+"
 .
 join
 (
@@ -8537,8 +8634,8 @@ else
             
 raises
 =
-'
-'
+"
+"
         
 return
 "
@@ -8558,21 +8655,22 @@ s
 "
 %
 (
+            
 attlistToIDL
 (
 self
 .
 attlist
 )
-                                    
+            
 self
 .
 type
-                                    
+            
 self
 .
 name
-                                    
+            
 "
 "
 .
@@ -8584,7 +8682,6 @@ p
 toIDL
 (
 )
-                                               
 for
 p
 in
@@ -8593,8 +8690,9 @@ self
 params
 ]
 )
-                                    
+            
 raises
+        
 )
     
 def
@@ -8778,9 +8876,9 @@ if
 name
 =
 =
-'
+"
 size_is
-'
+"
 :
                 
 if
@@ -8814,9 +8912,9 @@ elif
 name
 =
 =
-'
+"
 iid_is
-'
+"
 :
                 
 if
@@ -8850,9 +8948,9 @@ elif
 name
 =
 =
-'
+"
 default
-'
+"
 :
                 
 if
@@ -8908,7 +9006,6 @@ s
 "
 %
 name
-                                   
 aloc
 )
                 
@@ -8916,9 +9013,9 @@ if
 name
 =
 =
-'
+"
 const
-'
+"
 :
                     
 self
@@ -8931,9 +9028,9 @@ elif
 name
 =
 =
-'
+"
 array
-'
+"
 :
                     
 self
@@ -8946,9 +9043,9 @@ elif
 name
 =
 =
-'
+"
 retval
-'
+"
 :
                     
 self
@@ -8961,9 +9058,9 @@ elif
 name
 =
 =
-'
+"
 shared
-'
+"
 :
                     
 self
@@ -8976,9 +9073,9 @@ elif
 name
 =
 =
-'
+"
 optional
-'
+"
 :
                     
 self
@@ -9071,9 +9168,9 @@ shared
             
 kwargs
 [
-'
+"
 shared
-'
+"
 ]
 =
 True
@@ -9086,9 +9183,9 @@ const
             
 kwargs
 [
-'
+"
 const
-'
+"
 ]
 =
 True
@@ -9165,9 +9262,9 @@ shared
             
 kwargs
 [
-'
+"
 shared
-'
+"
 ]
 =
 True
@@ -9180,9 +9277,9 @@ const
             
 kwargs
 [
-'
+"
 const
-'
+"
 ]
 =
 True
@@ -9259,24 +9356,26 @@ s
 "
 %
 (
+            
 paramAttlistToIDL
 (
 self
 .
 attlist
 )
-                               
+            
 self
 .
 paramtype
-                               
+            
 self
 .
 type
-                               
+            
 self
 .
 name
+        
 )
 class
 LegacyArray
@@ -9321,9 +9420,9 @@ False
 :
         
 if
-'
+"
 element
-'
+"
 in
 calltype
 :
@@ -9344,12 +9443,15 @@ location
 )
         
 if
+(
+            
 calltype
 =
 =
-'
+"
 in
-'
+"
+            
 and
 isinstance
 (
@@ -9358,6 +9460,7 @@ self
 type
 Builtin
 )
+            
 and
 self
 .
@@ -9365,6 +9468,8 @@ type
 .
 isPointer
 (
+)
+        
 )
 :
             
@@ -9384,38 +9489,40 @@ s
 "
 %
 (
-'
+            
+"
 const
-'
+"
 if
 const
 else
-'
-'
-                            
+"
+"
+            
 self
 .
 type
 .
 nativeType
 (
-'
+"
 legacyelement
-'
+"
 )
-                            
-'
+            
+"
 *
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
+"
+"
+        
 )
     
 def
@@ -9440,42 +9547,44 @@ s
 "
 %
 (
-'
+            
+"
 *
 mut
-'
+"
 if
-'
+"
 out
-'
+"
 in
 calltype
 else
-'
-'
-                           
-'
+"
+"
+            
+"
 *
 const
-'
+"
 if
 const
 else
-'
+"
 *
 mut
-'
-                           
+"
+            
 self
 .
 type
 .
 rustType
 (
-'
+"
 legacyelement
-'
+"
 )
+        
 )
 class
 Array
@@ -9486,9 +9595,9 @@ object
     
 kind
 =
-'
+"
 array
-'
+"
     
 def
 __init__
@@ -9567,9 +9676,9 @@ if
 calltype
 =
 =
-'
+"
 legacyelement
-'
+"
 :
             
 raise
@@ -9593,13 +9702,13 @@ location
         
 base
 =
-'
+"
 nsTArray
 <
 %
 s
 >
-'
+"
 %
 self
 .
@@ -9607,44 +9716,44 @@ type
 .
 nativeType
 (
-'
+"
 element
-'
+"
 )
         
 if
-'
+"
 out
-'
+"
 in
 calltype
 :
             
 return
-'
+"
 %
 s
 &
-'
+"
 %
 base
         
 elif
-'
+"
 in
-'
+"
 =
 =
 calltype
 :
             
 return
-'
+"
 const
 %
 s
 &
-'
+"
 %
 base
         
@@ -9666,9 +9775,9 @@ if
 calltype
 =
 =
-'
+"
 legacyelement
-'
+"
 :
             
 raise
@@ -9692,7 +9801,7 @@ location
         
 base
 =
-'
+"
 thin_vec
 :
 :
@@ -9701,7 +9810,7 @@ ThinVec
 %
 s
 >
-'
+"
 %
 self
 .
@@ -9709,45 +9818,45 @@ type
 .
 rustType
 (
-'
+"
 element
-'
+"
 )
         
 if
-'
+"
 out
-'
+"
 in
 calltype
 :
             
 return
-'
+"
 *
 mut
 %
 s
-'
+"
 %
 base
         
 elif
-'
+"
 in
-'
+"
 =
 =
 calltype
 :
             
 return
-'
+"
 *
 const
 %
 s
-'
+"
 %
 base
         
@@ -9760,23 +9869,23 @@ TypeId
 =
 namedtuple
 (
-'
+"
 TypeId
-'
-'
+"
+"
 name
 params
-'
+"
 )
 TypeId
 .
 __str__
 =
+(
+    
 lambda
 self
 :
-\
-    
 "
 %
 s
@@ -9790,8 +9899,8 @@ s
 self
 .
 name
-'
-'
+"
+"
 .
 join
 (
@@ -9807,7 +9916,6 @@ self
 params
 )
 )
-\
     
 if
 self
@@ -9816,12 +9924,12 @@ params
 is
 not
 None
-\
     
 else
 self
 .
 name
+)
 TypeId
 .
 __new__
@@ -9842,101 +9950,101 @@ keywords
 =
 {
         
-'
+"
 cenum
-'
+"
 :
-'
+"
 CENUM
-'
+"
         
-'
+"
 const
-'
+"
 :
-'
+"
 CONST
-'
+"
         
-'
+"
 interface
-'
+"
 :
-'
+"
 INTERFACE
-'
+"
         
-'
+"
 in
-'
+"
 :
-'
+"
 IN
-'
+"
         
-'
+"
 inout
-'
+"
 :
-'
+"
 INOUT
-'
+"
         
-'
+"
 out
-'
+"
 :
-'
+"
 OUT
-'
+"
         
-'
+"
 attribute
-'
+"
 :
-'
+"
 ATTRIBUTE
-'
+"
         
-'
+"
 raises
-'
+"
 :
-'
+"
 RAISES
-'
+"
         
-'
+"
 readonly
-'
+"
 :
-'
+"
 READONLY
-'
+"
         
-'
+"
 native
-'
+"
 :
-'
+"
 NATIVE
-'
+"
         
-'
+"
 typedef
-'
+"
 :
-'
+"
 TYPEDEF
-'
+"
         
-'
+"
 webidl
-'
+"
 :
-'
+"
 WEBIDL
-'
+"
     
 }
     
@@ -9944,41 +10052,41 @@ tokens
 =
 [
         
-'
+"
 IDENTIFIER
-'
+"
         
-'
+"
 CDATA
-'
+"
         
-'
+"
 INCLUDE
-'
+"
         
-'
+"
 IID
-'
+"
         
-'
+"
 NUMBER
-'
+"
         
-'
+"
 HEXNUM
-'
+"
         
-'
+"
 LSHIFT
-'
+"
         
-'
+"
 RSHIFT
-'
+"
         
-'
+"
 NATIVEID
-'
+"
     
 ]
     
@@ -9996,22 +10104,20 @@ values
 states
 =
 (
-        
 (
-'
+"
 nativeid
-'
-'
+"
+"
 exclusive
-'
+"
 )
-    
 )
     
 hexchar
 =
 r
-'
+"
 [
 a
 -
@@ -10021,46 +10127,46 @@ F0
 -
 9
 ]
-'
+"
     
 t_NUMBER
 =
 r
-'
+"
 -
 ?
 \
 d
 +
-'
+"
     
 t_HEXNUM
 =
 r
-'
+"
 0x
 %
 s
 +
-'
+"
 %
 hexchar
     
 t_LSHIFT
 =
 r
-'
+"
 <
 <
-'
+"
     
 t_RSHIFT
 =
 r
-'
+"
 >
 >
-'
+"
     
 literals
 =
@@ -10085,10 +10191,10 @@ literals
     
 t_ignore
 =
-'
+"
 \
 t
-'
+"
     
 def
 t_multilinecomment
@@ -10099,7 +10205,7 @@ t
 :
         
 r
-'
+"
 /
 \
 *
@@ -10113,7 +10219,7 @@ s
 \
 *
 /
-'
+"
         
 t
 .
@@ -10128,10 +10234,10 @@ value
 .
 count
 (
-'
+"
 \
 n
-'
+"
 )
         
 if
@@ -10169,7 +10275,7 @@ t
 :
         
 r
-'
+"
 (
 ?
 m
@@ -10179,7 +10285,7 @@ m
 .
 *
 ?
-'
+"
     
 def
 t_IID
@@ -10197,7 +10303,7 @@ t_IID
 __doc__
 =
 r
-'
+"
 %
 (
 c
@@ -10242,12 +10348,12 @@ s
 {
 12
 }
-'
+"
 %
 {
-'
+"
 c
-'
+"
 :
 hexchar
 }
@@ -10261,7 +10367,7 @@ t
 :
         
 r
-'
+"
 (
 unsigned
 \
@@ -10323,7 +10429,7 @@ z_0
 9
 ]
 *
-'
+"
         
 t
 .
@@ -10338,9 +10444,9 @@ get
 t
 .
 value
-'
+"
 IDENTIFIER
-'
+"
 )
         
 return
@@ -10355,7 +10461,7 @@ t
 :
         
 r
-'
+"
 (
 ?
 s
@@ -10403,15 +10509,15 @@ C
 +
 )
 ?
-'
+"
         
 t
 .
 type
 =
-'
+"
 CDATA
-'
+"
         
 t
 .
@@ -10425,9 +10531,9 @@ lexmatch
 .
 group
 (
-'
+"
 cdata
-'
+"
 )
         
 t
@@ -10443,10 +10549,10 @@ value
 .
 count
 (
-'
+"
 \
 n
-'
+"
 )
         
 return
@@ -10514,7 +10620,7 @@ t
 :
         
 r
-'
+"
 \
 #
 (
@@ -10538,11 +10644,12 @@ Z
 n
 ]
 +
-'
+"
         
 raise
 IDLError
 (
+            
 "
 Unrecognized
 directive
@@ -10558,13 +10665,14 @@ lexmatch
 .
 group
 (
-'
+"
 directive
-'
+"
 )
-                       
+            
 Location
 (
+                
 lexer
 =
 self
@@ -10577,7 +10685,6 @@ self
 lexer
 .
 lineno
-                                
 lexpos
 =
 self
@@ -10585,7 +10692,9 @@ self
 lexer
 .
 lexpos
+            
 )
+        
 )
     
 def
@@ -10597,11 +10706,11 @@ t
 :
         
 r
-'
+"
 \
 n
 +
-'
+"
         
 t
 .
@@ -10626,7 +10735,7 @@ t
 :
         
 r
-'
+"
 [
 ^
 (
@@ -10666,7 +10775,7 @@ n
 \
 )
 )
-'
+"
         
 t
 .
@@ -10674,9 +10783,9 @@ lexer
 .
 begin
 (
-'
+"
 INITIAL
-'
+"
 )
         
 return
@@ -10684,8 +10793,8 @@ t
     
 t_nativeid_ignore
 =
-'
-'
+"
+"
     
 def
 t_ANY_error
@@ -10698,19 +10807,20 @@ t
 raise
 IDLError
 (
+            
 "
 unrecognized
 input
 "
-                       
+            
 Location
 (
+                
 lexer
 =
 self
 .
 lexer
-                                
 lineno
 =
 self
@@ -10718,7 +10828,6 @@ self
 lexer
 .
 lineno
-                                
 lexpos
 =
 self
@@ -10726,7 +10835,9 @@ self
 lexer
 .
 lexpos
+            
 )
+        
 )
     
 precedence
@@ -10734,54 +10845,54 @@ precedence
 (
         
 (
-'
+"
 left
-'
-'
+"
+"
 |
-'
+"
 )
         
 (
-'
+"
 left
-'
-'
+"
+"
 LSHIFT
-'
-'
+"
+"
 RSHIFT
-'
+"
 )
         
 (
-'
+"
 left
-'
-'
+"
+"
 +
-'
-'
+"
+"
 -
-'
+"
 )
         
 (
-'
+"
 left
-'
-'
+"
+"
 *
-'
+"
 )
         
 (
-'
+"
 left
-'
-'
+"
+"
 UMINUS
-'
+"
 )
     
 )
@@ -10969,15 +11080,15 @@ productions
 :
 interface
 productions
-                       
+        
 |
 typedef
 productions
-                       
+        
 |
 native
 productions
-                       
+        
 |
 webidl
 productions
@@ -11042,20 +11153,21 @@ p
 =
 Typedef
 (
+            
 type
 =
 p
 [
 2
 ]
-                       
+            
 name
 =
 p
 [
 3
 ]
-                       
+            
 location
 =
 self
@@ -11065,7 +11177,7 @@ getLocation
 p
 1
 )
-                       
+            
 doccomments
 =
 p
@@ -11076,6 +11188,7 @@ slice
 ]
 .
 doccomments
+        
 )
     
 def
@@ -11116,20 +11229,21 @@ p
 =
 Native
 (
+            
 name
 =
 p
 [
 3
 ]
-                      
+            
 nativename
 =
 p
 [
 6
 ]
-                      
+            
 attlist
 =
 p
@@ -11137,11 +11251,11 @@ p
 1
 ]
 [
-'
+"
 attlist
-'
+"
 ]
-                      
+            
 location
 =
 self
@@ -11151,6 +11265,7 @@ getLocation
 p
 2
 )
+        
 )
     
 def
@@ -11176,9 +11291,9 @@ lexer
 .
 begin
 (
-'
+"
 nativeid
-'
+"
 )
     
 def
@@ -11241,7 +11356,7 @@ p
 anyident
 :
 IDENTIFIER
-                    
+        
 |
 CONST
 "
@@ -11254,18 +11369,17 @@ p
 ]
 =
 {
-'
+"
 value
-'
+"
 :
 p
 [
 1
 ]
-                
-'
+"
 location
-'
+"
 :
 self
 .
@@ -11296,7 +11410,7 @@ attlist
 '
 ]
 '
-                      
+        
 |
 "
 "
@@ -11318,9 +11432,9 @@ p
 ]
 =
 {
-'
+"
 attlist
-'
+"
 :
 [
 ]
@@ -11335,18 +11449,17 @@ p
 ]
 =
 {
-'
+"
 attlist
-'
+"
 :
 p
 [
 2
 ]
-                    
-'
+"
 doccomments
-'
+"
 :
 p
 .
@@ -11466,9 +11579,9 @@ p
 1
 ]
 [
-'
+"
 value
-'
+"
 ]
 p
 [
@@ -11479,9 +11592,9 @@ p
 1
 ]
 [
-'
+"
 location
-'
+"
 ]
 )
     
@@ -11505,7 +11618,7 @@ IDENTIFIER
 '
 )
 '
-                        
+        
 |
 '
 (
@@ -11514,7 +11627,7 @@ IID
 '
 )
 '
-                        
+        
 |
 "
 "
@@ -11581,9 +11694,9 @@ attlist
 =
 atts
 [
-'
+"
 attlist
-'
+"
 ]
         
 doccomments
@@ -11592,9 +11705,9 @@ doccomments
 ]
         
 if
-'
+"
 doccomments
-'
+"
 in
 atts
 :
@@ -11605,9 +11718,9 @@ extend
 (
 atts
 [
-'
+"
 doccomments
-'
+"
 ]
 )
         
@@ -11630,6 +11743,7 @@ loc
 (
 )
 :
+            
 return
 self
 .
@@ -11658,6 +11772,7 @@ attlist
 raise
 IDLError
 (
+                    
 "
 Forward
 -
@@ -11668,7 +11783,6 @@ not
 have
 attributes
 "
-                               
 list
 [
 0
@@ -11676,6 +11790,7 @@ list
 [
 3
 ]
+                
 )
             
 if
@@ -11699,7 +11814,6 @@ have
 a
 base
 "
-                               
 loc
 (
 )
@@ -11735,31 +11849,33 @@ p
 =
 Interface
 (
+                
 name
 =
 name
-                             
+                
 attlist
 =
 attlist
-                             
+                
 base
 =
 base
-                             
+                
 members
 =
 body
-                             
+                
 location
 =
 loc
 (
 )
-                             
+                
 doccomments
 =
 doccomments
+            
 )
     
 def
@@ -11782,7 +11898,7 @@ members
 '
 }
 '
-                     
+        
 |
 "
 "
@@ -11824,7 +11940,7 @@ ifacebase
 :
 '
 IDENTIFIER
-                     
+        
 |
 "
 "
@@ -11993,25 +12109,28 @@ p
 =
 ConstMember
 (
+            
 type
 =
 p
 [
 2
 ]
+            
 name
 =
 p
 [
 3
 ]
-                           
+            
 value
 =
 p
 [
 5
 ]
+            
 location
 =
 self
@@ -12021,7 +12140,7 @@ getLocation
 p
 1
 )
-                           
+            
 doccomments
 =
 p
@@ -12032,6 +12151,7 @@ slice
 ]
 .
 doccomments
+        
 )
     
 def
@@ -12259,14 +12379,14 @@ number
 +
 '
 number
-                  
+        
 |
 number
 '
 -
 '
 number
-                  
+        
 |
 number
 '
@@ -12298,9 +12418,9 @@ p
 ]
 =
 =
-'
+"
 +
-'
+"
 :
             
 p
@@ -12328,9 +12448,9 @@ p
 ]
 =
 =
-'
+"
 -
-'
+"
 :
             
 p
@@ -12388,7 +12508,7 @@ number
 number
 LSHIFT
 number
-                  
+        
 |
 number
 RSHIFT
@@ -12418,10 +12538,10 @@ p
 ]
 =
 =
-'
+"
 <
 <
-'
+"
 :
             
 p
@@ -12559,13 +12679,14 @@ p
 =
 CEnum
 (
+            
 name
 =
 p
 [
 2
 ]
-                     
+            
 width
 =
 int
@@ -12575,14 +12696,14 @@ p
 4
 ]
 )
-                     
+            
 variants
 =
 p
 [
 6
 ]
-                     
+            
 location
 =
 self
@@ -12592,7 +12713,7 @@ getLocation
 p
 1
 )
-                     
+            
 doccomments
 =
 p
@@ -12603,6 +12724,7 @@ slice
 ]
 .
 doccomments
+        
 )
     
 def
@@ -12809,9 +12931,9 @@ IDENTIFIER
 "
         
 if
-'
+"
 doccomments
-'
+"
 in
 p
 [
@@ -12826,9 +12948,9 @@ p
 1
 ]
 [
-'
+"
 doccomments
-'
+"
 ]
         
 elif
@@ -12869,20 +12991,21 @@ p
 =
 Attribute
 (
+            
 type
 =
 p
 [
 4
 ]
-                         
+            
 name
 =
 p
 [
 5
 ]
-                         
+            
 attlist
 =
 p
@@ -12890,11 +13013,11 @@ p
 1
 ]
 [
-'
+"
 attlist
-'
+"
 ]
-                         
+            
 readonly
 =
 p
@@ -12904,7 +13027,7 @@ p
 is
 not
 None
-                         
+            
 location
 =
 self
@@ -12914,10 +13037,11 @@ getLocation
 p
 3
 )
-                         
+            
 doccomments
 =
 doccomments
+        
 )
     
 def
@@ -12952,9 +13076,9 @@ raises
 "
         
 if
-'
+"
 doccomments
-'
+"
 in
 p
 [
@@ -12969,9 +13093,9 @@ p
 1
 ]
 [
-'
+"
 doccomments
-'
+"
 ]
         
 else
@@ -12995,20 +13119,21 @@ p
 =
 Method
 (
+            
 type
 =
 p
 [
 2
 ]
-                      
+            
 name
 =
 p
 [
 3
 ]
-                      
+            
 attlist
 =
 p
@@ -13016,18 +13141,18 @@ p
 1
 ]
 [
-'
+"
 attlist
-'
+"
 ]
-                      
+            
 paramlist
 =
 p
 [
 5
 ]
-                      
+            
 location
 =
 self
@@ -13037,17 +13162,18 @@ getLocation
 p
 3
 )
-                      
+            
 doccomments
 =
 doccomments
-                      
+            
 raises
 =
 p
 [
 7
 ]
+        
 )
     
 def
@@ -13065,7 +13191,7 @@ paramlist
 :
 param
 moreparams
-                     
+        
 |
 "
 "
@@ -13220,27 +13346,28 @@ p
 =
 Param
 (
+            
 paramtype
 =
 p
 [
 2
 ]
-                     
+            
 type
 =
 p
 [
 3
 ]
-                     
+            
 name
 =
 p
 [
 4
 ]
-                     
+            
 attlist
 =
 p
@@ -13248,11 +13375,11 @@ p
 1
 ]
 [
-'
+"
 attlist
-'
+"
 ]
-                     
+            
 location
 =
 self
@@ -13262,6 +13389,7 @@ getLocation
 p
 3
 )
+        
 )
     
 def
@@ -13278,10 +13406,10 @@ p
 paramtype
 :
 IN
-                     
+        
 |
 INOUT
-                     
+        
 |
 OUT
 "
@@ -13312,7 +13440,7 @@ p
 optreadonly
 :
 READONLY
-                       
+        
 |
 "
 "
@@ -13372,7 +13500,7 @@ idlist
 '
 )
 '
-                  
+        
 |
 "
 "
@@ -13723,7 +13851,9 @@ braces
 or
 both
 "
+                
 None
+            
 )
         
 else
@@ -13845,9 +13975,9 @@ t
 type
 !
 =
-'
+"
 CDATA
-'
+"
 :
             
 t
@@ -13975,9 +14105,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 p
@@ -14018,11 +14148,11 @@ open
 f
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 .
 read

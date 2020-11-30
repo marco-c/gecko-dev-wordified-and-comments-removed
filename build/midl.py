@@ -21,9 +21,9 @@ path
 .
 startswith
 (
-'
+"
 /
-'
+"
 )
 :
         
@@ -52,9 +52,9 @@ path
 .
 startswith
 (
-'
+"
 -
-'
+"
 )
 :
         
@@ -93,9 +93,9 @@ buildconfig
 .
 substs
 [
-'
+"
 MIDL
-'
+"
 ]
     
 wine
@@ -106,9 +106,9 @@ substs
 .
 get
 (
-'
+"
 WINE
-'
+"
 )
     
 base
@@ -124,9 +124,9 @@ out
 name
 )
 or
-'
+"
 .
-'
+"
     
 if
 midl
@@ -137,10 +137,10 @@ lower
 .
 endswith
 (
-'
+"
 .
 exe
-'
+"
 )
 and
 wine
@@ -170,9 +170,9 @@ buildconfig
 .
 substs
 [
-'
+"
 MIDL_FLAGS
-'
+"
 ]
 )
     
@@ -197,10 +197,10 @@ command
 .
 append
 (
-'
+"
 -
 Oicf
-'
+"
 )
     
 command
@@ -216,12 +216,12 @@ base
     
 print
 (
-'
+"
 Executing
 :
-'
-'
-'
+"
+"
+"
 .
 join
 (
@@ -285,6 +285,7 @@ True
 lines
 =
 [
+            
 f
 .
 readline
@@ -308,6 +309,7 @@ enumerate
 (
 inputs
 )
+        
 ]
         
 unique_lines
@@ -359,6 +361,8 @@ inputs
 )
         
 elif
+(
+            
 len
 (
 unique_lines
@@ -366,6 +370,7 @@ unique_lines
 =
 =
 2
+            
 and
 len
 (
@@ -376,10 +381,10 @@ l
 in
 unique_lines
 if
-'
+"
 #
 define
-'
+"
 in
 l
 ]
@@ -387,6 +392,8 @@ l
 =
 =
 1
+        
+)
 :
             
 a
@@ -398,10 +405,10 @@ pop
 )
             
 if
-'
+"
 #
 define
-'
+"
 in
 a
 :
@@ -430,10 +437,10 @@ pop
 read_a_line
 =
 [
-'
+"
 #
 define
-'
+"
 in
 l
 for
@@ -457,7 +464,8 @@ lines
             
 print
 (
-'
+                
+"
 Error
 while
 merging
@@ -469,18 +477,19 @@ read
 :
 {
 }
-'
+"
 .
 format
 (
 lines
 )
-                  
+                
 file
 =
 sys
 .
 stderr
+            
 )
             
 return

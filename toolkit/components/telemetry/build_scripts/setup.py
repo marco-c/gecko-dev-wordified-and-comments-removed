@@ -5,13 +5,13 @@ setup
 find_packages
 VERSION
 =
-'
+"
 1
 .
 0
 .
 0
-'
+"
 with
 open
 (
@@ -40,15 +40,15 @@ setup
     
 author
 =
-'
+"
 Mozilla
 Telemetry
 Team
-'
+"
     
 author_email
 =
-'
+"
 telemetry
 -
 client
@@ -57,12 +57,13 @@ dev
 mozilla
 .
 com
-'
+"
     
 url
 =
 (
-'
+        
+"
 https
 :
 /
@@ -77,9 +78,9 @@ mozilla
 .
 org
 /
-'
-         
-'
+"
+        
+"
 toolkit
 /
 components
@@ -93,18 +94,19 @@ collection
 index
 .
 html
-'
+"
+    
 )
     
 name
 =
-'
+"
 mozparsers
-'
+"
     
 description
 =
-'
+"
 Shared
 parsers
 for
@@ -113,7 +115,7 @@ Telemetry
 probe
 regitries
 .
-'
+"
     
 long_description
 =
@@ -129,12 +131,12 @@ markdown
     
 license
 =
-'
+"
 MPL
 2
 .
 0
-'
+"
     
 packages
 =
@@ -150,7 +152,7 @@ classifiers
 =
 [
         
-'
+"
 Topic
 :
 :
@@ -160,9 +162,9 @@ Development
 :
 Build
 Tools
-'
+"
         
-'
+"
 License
 :
 :
@@ -182,9 +184,9 @@ MPL
 .
 0
 )
-'
+"
         
-'
+"
 Programming
 Language
 :
@@ -195,21 +197,21 @@ Python
 2
 .
 7
-'
+"
     
 ]
     
 keywords
 =
 [
-'
+"
 mozilla
-'
-'
+"
+"
 telemetry
-'
-'
+"
+"
 parsers
-'
+"
 ]
 )

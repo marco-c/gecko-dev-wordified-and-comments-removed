@@ -71,18 +71,18 @@ orig_job
     
 job
 [
-'
+"
 dependencies
-'
+"
 ]
 =
 deps
     
 job
 [
-'
+"
 name
-'
+"
 ]
 =
 "
@@ -97,31 +97,31 @@ format
 (
 orig_job
 [
-'
+"
 name
-'
+"
 ]
 count
 )
     
 if
-'
+"
 treeherder
-'
+"
 in
 job
 :
         
 job
 [
-'
+"
 treeherder
-'
+"
 ]
 [
-'
+"
 symbol
-'
+"
 ]
 =
 add_suffix
@@ -129,14 +129,14 @@ add_suffix
             
 job
 [
-'
+"
 treeherder
-'
+"
 ]
 [
-'
+"
 symbol
-'
+"
 ]
 "
 -
@@ -148,6 +148,7 @@ format
 (
 count
 )
+        
 )
     
 return
@@ -191,9 +192,9 @@ sorted
 (
 job
 [
-'
+"
 dependencies
-'
+"
 ]
 .
 keys

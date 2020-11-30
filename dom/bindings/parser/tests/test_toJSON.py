@@ -38,6 +38,7 @@ toJSON
 "
 "
 "
+        
 )
         
 results
@@ -121,6 +122,7 @@ arg
 "
 "
 "
+        
 )
         
 results
@@ -198,6 +200,7 @@ arg
 "
 "
 "
+        
 )
         
 results
@@ -273,6 +276,7 @@ toJSON
 "
 "
 "
+        
 )
         
 results
@@ -356,6 +360,7 @@ toJSON
 "
 "
 "
+        
 )
         
 results
@@ -377,6 +382,7 @@ harness
 .
 ok
 (
+        
 not
 threw
 "
@@ -395,6 +401,7 @@ return
 type
 .
 "
+    
 )
     
 parser
@@ -440,6 +447,7 @@ toJSON
 "
 "
 "
+        
 )
         
 results
@@ -461,7 +469,9 @@ harness
 .
 ok
 (
+        
 threw
+        
 "
 Should
 not
@@ -481,122 +491,154 @@ return
 type
 .
 "
+    
 )
     
 JsonTypes
 =
 [
+        
 "
 byte
 "
+        
 "
 octet
 "
+        
 "
 short
 "
+        
 "
 unsigned
 short
 "
+        
 "
 long
 "
+        
 "
 unsigned
 long
 "
+        
 "
 long
 long
 "
-                  
+        
 "
 unsigned
 long
 long
 "
+        
 "
 float
 "
+        
 "
 unrestricted
 float
 "
+        
 "
 double
 "
+        
 "
 unrestricted
 double
 "
+        
 "
 boolean
 "
-                  
+        
 "
 DOMString
 "
+        
 "
 ByteString
 "
+        
 "
 UTF8String
 "
+        
 "
 USVString
 "
+        
 "
 Enum
 "
+        
 "
 InterfaceWithToJSON
 "
+        
 "
 object
 "
+    
 ]
     
 nonJsonTypes
 =
 [
+        
 "
 InterfaceWithoutToJSON
 "
+        
 "
 any
 "
+        
 "
 Int8Array
 "
+        
 "
 Int16Array
 "
+        
 "
 Int32Array
 "
+        
 "
 Uint8Array
 "
-                     
+        
 "
 Uint16Array
 "
+        
 "
 Uint32Array
 "
+        
 "
 Uint8ClampedArray
 "
+        
 "
 Float32Array
 "
+        
 "
 Float64Array
 "
+        
 "
 ArrayBuffer
 "
+    
 ]
     
 def
@@ -627,9 +669,10 @@ p
 .
 parse
 (
-testIDL
-+
                 
+testIDL
+                
++
 "
 "
 "
@@ -669,15 +712,14 @@ InterfaceWithoutToJSON
 "
 "
 "
+            
 )
-;
             
 p
 .
 finish
 (
 )
-;
         
 except
 Exception
@@ -728,6 +770,7 @@ JsonTypes
         
 doTest
 (
+            
 "
 interface
 Test
@@ -743,8 +786,9 @@ toJSON
 "
 %
 type
+            
 False
-               
+            
 "
 %
 s
@@ -756,10 +800,12 @@ type
 "
 %
 type
+        
 )
         
 doTest
 (
+            
 "
 interface
 Test
@@ -778,8 +824,9 @@ toJSON
 "
 %
 type
+            
 False
-               
+            
 "
 sequence
 <
@@ -794,10 +841,12 @@ type
 "
 %
 type
+        
 )
         
 doTest
 (
+            
 "
 dictionary
 Foo
@@ -809,7 +858,6 @@ foo
 }
 ;
 "
-               
 "
 interface
 Test
@@ -824,8 +872,9 @@ toJSON
 "
 %
 type
+            
 False
-               
+            
 "
 dictionary
 containing
@@ -844,10 +893,12 @@ type
 "
 %
 type
+        
 )
         
 doTest
 (
+            
 "
 dictionary
 Foo
@@ -866,7 +917,7 @@ Foo
 }
 ;
 "
-               
+            
 "
 interface
 Test
@@ -881,8 +932,9 @@ toJSON
 "
 %
 type
+            
 False
-               
+            
 "
 dictionary
 whose
@@ -897,10 +949,12 @@ a
 JSON
 type
 "
+        
 )
         
 doTest
 (
+            
 "
 dictionary
 Foo
@@ -922,7 +976,7 @@ bar
 }
 ;
 "
-               
+            
 "
 interface
 Test
@@ -937,8 +991,9 @@ toJSON
 "
 %
 type
+            
 True
-               
+            
 "
 dictionary
 whose
@@ -955,10 +1010,12 @@ a
 JSON
 type
 "
+        
 )
         
 doTest
 (
+            
 "
 interface
 Test
@@ -978,8 +1035,9 @@ toJSON
 "
 %
 type
+            
 False
-               
+            
 "
 record
 <
@@ -995,10 +1053,12 @@ type
 "
 %
 type
+        
 )
         
 doTest
 (
+            
 "
 interface
 Test
@@ -1018,8 +1078,9 @@ toJSON
 "
 %
 type
+            
 False
-               
+            
 "
 record
 <
@@ -1035,10 +1096,12 @@ type
 "
 %
 type
+        
 )
         
 doTest
 (
+            
 "
 interface
 Test
@@ -1058,8 +1121,9 @@ toJSON
 "
 %
 type
+            
 False
-               
+            
 "
 record
 <
@@ -1075,10 +1139,12 @@ type
 "
 %
 type
+        
 )
         
 doTest
 (
+            
 "
 interface
 Test
@@ -1098,8 +1164,9 @@ toJSON
 "
 %
 type
+            
 False
-               
+            
 "
 record
 <
@@ -1115,6 +1182,7 @@ type
 "
 %
 type
+        
 )
         
 otherUnionType
@@ -1136,6 +1204,7 @@ long
         
 doTest
 (
+            
 "
 interface
 Foo
@@ -1148,7 +1217,7 @@ toJSON
 }
 ;
 "
-               
+            
 "
 interface
 Test
@@ -1172,8 +1241,9 @@ toJSON
 otherUnionType
 type
 )
+            
 False
-               
+            
 "
 union
 containing
@@ -1193,15 +1263,18 @@ a
 JSON
 type
 "
+            
 %
 (
 otherUnionType
 type
 )
+        
 )
         
 doTest
 (
+            
 "
 interface
 test
@@ -1218,8 +1291,9 @@ toJSON
 "
 %
 type
+            
 False
-               
+            
 "
 Nullable
 type
@@ -1235,10 +1309,12 @@ type
 "
 %
 type
+        
 )
         
 doTest
 (
+            
 "
 interface
 Foo
@@ -1254,7 +1330,7 @@ toJSON
 }
 ;
 "
-               
+            
 "
 interface
 Test
@@ -1269,8 +1345,9 @@ toJSON
 "
 %
 type
+            
 False
-               
+            
 "
 interface
 with
@@ -1281,10 +1358,12 @@ a
 JSON
 type
 "
+        
 )
     
 doTest
 (
+        
 "
 interface
 Foo
@@ -1294,7 +1373,6 @@ InterfaceWithToJSON
 }
 ;
 "
-           
 "
 interface
 Test
@@ -1307,8 +1385,9 @@ toJSON
 }
 ;
 "
+        
 False
-           
+        
 "
 inherited
 interface
@@ -1320,6 +1399,7 @@ a
 JSON
 type
 "
+    
 )
     
 for
@@ -1330,6 +1410,7 @@ nonJsonTypes
         
 doTest
 (
+            
 "
 interface
 Test
@@ -1345,8 +1426,9 @@ toJSON
 "
 %
 type
+            
 True
-               
+            
 "
 %
 s
@@ -1359,10 +1441,12 @@ type
 "
 %
 type
+        
 )
         
 doTest
 (
+            
 "
 interface
 Test
@@ -1381,8 +1465,9 @@ toJSON
 "
 %
 type
+            
 True
-               
+            
 "
 sequence
 <
@@ -1398,10 +1483,12 @@ type
 "
 %
 type
+        
 )
         
 doTest
 (
+            
 "
 dictionary
 Foo
@@ -1413,7 +1500,6 @@ foo
 }
 ;
 "
-               
 "
 interface
 Test
@@ -1428,8 +1514,9 @@ toJSON
 "
 %
 type
+            
 True
-               
+            
 "
 Dictionary
 containing
@@ -1449,12 +1536,15 @@ a
 JSON
 type
 "
+            
 %
 type
+        
 )
         
 doTest
 (
+            
 "
 dictionary
 Foo
@@ -1473,7 +1563,7 @@ Foo
 }
 ;
 "
-               
+            
 "
 interface
 Test
@@ -1488,8 +1578,9 @@ toJSON
 "
 %
 type
+            
 True
-               
+            
 "
 dictionary
 whose
@@ -1507,10 +1598,12 @@ a
 JSON
 type
 "
+        
 )
         
 doTest
 (
+            
 "
 interface
 Test
@@ -1530,8 +1623,9 @@ toJSON
 "
 %
 type
+            
 True
-               
+            
 "
 record
 <
@@ -1548,10 +1642,12 @@ type
 "
 %
 type
+        
 )
         
 doTest
 (
+            
 "
 interface
 Test
@@ -1571,8 +1667,9 @@ toJSON
 "
 %
 type
+            
 True
-               
+            
 "
 record
 <
@@ -1589,10 +1686,12 @@ type
 "
 %
 type
+        
 )
         
 doTest
 (
+            
 "
 interface
 Test
@@ -1612,8 +1711,9 @@ toJSON
 "
 %
 type
+            
 True
-               
+            
 "
 record
 <
@@ -1630,6 +1730,7 @@ type
 "
 %
 type
+        
 )
         
 if
@@ -1643,6 +1744,7 @@ any
             
 doTest
 (
+                
 "
 interface
 Foo
@@ -1655,7 +1757,7 @@ toJSON
 }
 ;
 "
-                   
+                
 "
 interface
 Test
@@ -1675,8 +1777,9 @@ toJSON
 "
 %
 type
+                
 True
-                   
+                
 "
 union
 containing
@@ -1696,12 +1799,15 @@ a
 JSON
 type
 "
+                
 %
 type
+            
 )
             
 doTest
 (
+                
 "
 interface
 test
@@ -1718,8 +1824,9 @@ toJSON
 "
 %
 type
+                
 True
-                   
+                
 "
 Nullable
 type
@@ -1736,10 +1843,12 @@ type
 "
 %
 type
+            
 )
     
 doTest
 (
+        
 "
 dictionary
 Foo
@@ -1753,7 +1862,6 @@ bar
 }
 ;
 "
-           
 "
 interface
 Test
@@ -1766,8 +1874,9 @@ toJSON
 }
 ;
 "
+        
 True
-           
+        
 "
 dictionary
 containing
@@ -1783,10 +1892,12 @@ a
 JSON
 type
 "
+    
 )
     
 doTest
 (
+        
 "
 interface
 Foo
@@ -1796,7 +1907,7 @@ InterfaceWithoutToJSON
 }
 ;
 "
-           
+        
 "
 interface
 Test
@@ -1809,8 +1920,9 @@ toJSON
 }
 ;
 "
+        
 True
-           
+        
 "
 interface
 without
@@ -1822,4 +1934,5 @@ a
 JSON
 type
 "
+    
 )

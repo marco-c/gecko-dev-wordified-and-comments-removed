@@ -2,23 +2,23 @@ config
 =
 {
     
-'
+"
 stage_platform
-'
+"
 :
-'
+"
 android
 -
 api
 -
 16
-'
+"
     
-'
+"
 src_mozconfig
-'
+"
 :
-'
+"
 mobile
 /
 android
@@ -36,13 +36,5 @@ api
 profile
 -
 generate
-'
-    
-'
-multi_locale_config_platform
-'
-:
-'
-android
-'
+"
 }

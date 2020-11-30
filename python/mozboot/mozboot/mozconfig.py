@@ -8,9 +8,9 @@ import
 os
 MOZ_MYCONFIG_ERROR
 =
-'
-'
-'
+"
+"
+"
 The
 MOZ_MYCONFIG
 environment
@@ -40,18 +40,18 @@ use
 MOZCONFIG
 instead
 .
-'
-'
-'
+"
+"
+"
 .
 strip
 (
 )
 MOZCONFIG_LEGACY_PATH_ERROR
 =
-'
-'
-'
+"
+"
+"
 You
 currently
 have
@@ -89,9 +89,9 @@ MOZCONFIG
 environment
 variable
 .
-'
-'
-'
+"
+"
+"
 .
 strip
 (
@@ -99,47 +99,47 @@ strip
 DEFAULT_TOPSRCDIR_PATHS
 =
 (
-'
+"
 .
 mozconfig
-'
-'
+"
+"
 mozconfig
-'
+"
 )
 DEPRECATED_TOPSRCDIR_PATHS
 =
 (
-'
+"
 mozconfig
 .
 sh
-'
-'
+"
+"
 myconfig
 .
 sh
-'
+"
 )
 DEPRECATED_HOME_PATHS
 =
 (
-'
+"
 .
 mozconfig
-'
-'
+"
+"
 .
 mozconfig
 .
 sh
-'
-'
+"
+"
 .
 mozmyconfig
 .
 sh
-'
+"
 )
 class
 MozconfigFindException
@@ -212,10 +212,10 @@ block
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 if
 line
@@ -234,10 +234,10 @@ self
 :
         
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -376,9 +376,9 @@ above
 "
     
 if
-'
+"
 MOZ_MYCONFIG
-'
+"
 in
 env
 :
@@ -395,9 +395,9 @@ env
 .
 get
 (
-'
+"
 MOZCONFIG
-'
+"
 None
 )
 or
@@ -454,12 +454,14 @@ potential_roots
 existing
 =
 [
+                
 root
+                
 for
 root
 in
 potential_roots
-                        
+                
 if
 os
 .
@@ -477,6 +479,7 @@ root
 env_path
 )
 )
+            
 ]
             
 if
@@ -500,7 +503,6 @@ join
 root
 env_path
 )
-                              
 for
 root
 in
@@ -511,8 +513,10 @@ if
 not
 all
 (
+                    
 map
 (
+                        
 lambda
 p1
 p2
@@ -527,19 +531,22 @@ shallow
 =
 False
 )
-                               
+                        
 mozconfigs
 [
 :
 -
 1
 ]
+                        
 mozconfigs
 [
 1
 :
 ]
+                    
 )
+                
 )
 :
                     
@@ -547,7 +554,7 @@ raise
 MozconfigFindException
 (
                         
-'
+"
 MOZCONFIG
 environment
 variable
@@ -556,35 +563,37 @@ to
 a
 path
 that
-'
-+
+"
                         
-'
++
+"
 exists
 in
 more
 than
 one
 of
-'
+"
+                        
 +
-'
-'
+"
+"
 .
 join
 (
 potential_roots
 )
-+
                         
-'
++
+"
 .
 Remove
 all
 but
 one
 .
-'
+"
+                    
 )
             
 elif
@@ -596,7 +605,7 @@ raise
 MozconfigFindException
 (
                     
-'
+"
 MOZCONFIG
 environment
 variable
@@ -605,25 +614,27 @@ to
 a
 path
 that
-'
-+
+"
                     
-'
++
+"
 does
 not
 exist
 in
 any
 of
-'
+"
+                    
 +
-'
-'
+"
+"
 .
 join
 (
 potential_roots
 )
+                
 )
             
 env_path
@@ -657,7 +668,7 @@ raise
 MozconfigFindException
 (
                 
-'
+"
 MOZCONFIG
 environment
 variable
@@ -666,16 +677,17 @@ to
 a
 path
 that
-'
+"
                 
-'
+"
 does
 not
 exist
 :
-'
+"
 +
 env_path
+            
 )
         
 if
@@ -694,23 +706,23 @@ raise
 MozconfigFindException
 (
                 
-'
+"
 MOZCONFIG
 environment
 variable
 refers
 to
 a
-'
-                
-'
+"
+"
 non
 -
 file
 :
-'
+"
 +
 env_path
+            
 )
     
 srcdir_paths
@@ -728,7 +740,6 @@ p
 for
 p
 in
-                    
 DEFAULT_TOPSRCDIR_PATHS
 ]
     
@@ -767,14 +778,15 @@ existing
 raise
 MozconfigFindException
 (
-'
+            
+"
 Multiple
 default
 mozconfig
 files
-'
-                                     
-'
+"
+            
+"
 present
 .
 Remove
@@ -782,15 +794,16 @@ all
 but
 one
 .
-'
+"
 +
-'
-'
+"
+"
 .
 join
 (
 existing
 )
+        
 )
     
 path
@@ -863,7 +876,6 @@ s
 for
 s
 in
-                        
 DEPRECATED_TOPSRCDIR_PATHS
 ]
     
@@ -873,9 +885,9 @@ env
 .
 get
 (
-'
+"
 HOME
-'
+"
 None
 )
     
@@ -903,7 +915,6 @@ s
 for
 s
 in
-                                 
 DEPRECATED_HOME_PATHS
 ]
 )
@@ -935,6 +946,7 @@ MOZCONFIG_LEGACY_PATH_ERROR
 path
 topsrcdir
 )
+            
 )
     
 return

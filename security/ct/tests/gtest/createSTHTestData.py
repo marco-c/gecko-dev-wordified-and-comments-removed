@@ -225,12 +225,14 @@ path
 .
 append
 (
+    
 os
 .
 path
 .
 join
 (
+        
 os
 .
 path
@@ -239,31 +241,31 @@ dirname
 (
 __file__
 )
-'
+"
 .
 .
-'
-'
+"
+"
 .
 .
-'
-'
+"
+"
 .
 .
-'
-                             
-'
+"
+"
 manager
-'
-'
+"
+"
 ssl
-'
-'
+"
+"
 tests
-'
-'
+"
+"
 unit
-'
+"
+    
 )
 )
 import
@@ -328,21 +330,22 @@ unhexlify
 (
 hexToSign
 )
-                           
-'
+"
 hash
 :
 %
 s
-'
+"
 %
 hashAlgorithm
 )
 [
+        
 1
 :
 -
 2
+    
 ]
 class
 Error
@@ -419,9 +422,9 @@ self
 .
 category
 =
-'
+"
 key
-'
+"
     
 def
 __str__
@@ -509,7 +512,7 @@ self
 :
         
 return
-'
+"
 Input
 too
 long
@@ -518,7 +521,7 @@ long
 s
 >
 65535
-'
+"
 %
 self
 .
@@ -714,19 +717,19 @@ respectively
     
 toSign
 =
-'
-'
+"
+"
     
 prefix
 =
-'
-'
+"
+"
     
 hashAlgorithm
 =
-'
+"
 sha256
-'
+"
     
 for
 line
@@ -739,9 +742,9 @@ readlines
 :
         
 if
-'
+"
 :
-'
+"
 in
 line
 :
@@ -752,9 +755,9 @@ line
 .
 split
 (
-'
+"
 :
-'
+"
 )
 [
 0
@@ -766,9 +769,9 @@ line
 .
 split
 (
-'
+"
 :
-'
+"
 )
 [
 1
@@ -776,10 +779,10 @@ split
 .
 split
 (
-'
+"
 /
 /
-'
+"
 )
 [
 0
@@ -793,9 +796,9 @@ if
 param
 =
 =
-'
+"
 signingKey
-'
+"
 :
                 
 signingKey
@@ -811,9 +814,9 @@ elif
 param
 =
 =
-'
+"
 spki
-'
+"
 :
                 
 spki
@@ -829,9 +832,9 @@ elif
 param
 =
 =
-'
+"
 prefix
-'
+"
 :
                 
 prefix
@@ -842,9 +845,9 @@ elif
 param
 =
 =
-'
+"
 hash
-'
+"
 :
                 
 hashAlgorithm
@@ -871,10 +874,10 @@ line
 .
 split
 (
-'
+"
 /
 /
-'
+"
 )
 [
 0
@@ -933,7 +936,6 @@ hex
 )
     
 return
-(
 '
 const
 char
@@ -960,11 +962,12 @@ s
 n
 '
 %
-            
 (
+        
 sth
+        
 spkiHex
-)
+    
 )
 def
 main

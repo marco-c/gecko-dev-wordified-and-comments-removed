@@ -479,7 +479,6 @@ self
 .
 assertNotIn
 (
-            
 "
 browser
 .
@@ -488,14 +487,12 @@ engagement
 window_open_event_count
 "
 scalars1
-        
 )
         
 self
 .
 assertEqual
 (
-            
 scalars1
 [
 "
@@ -507,7 +504,6 @@ tab_open_event_count
 "
 ]
 1
-        
 )
         
 keyed_histograms1
@@ -620,12 +616,10 @@ self
 .
 wait_for_ping
 (
-            
 self
 .
 install_addon
 MAIN_ENVIRONMENT_CHANGE_PING
-        
 )
         
 self
@@ -723,7 +717,6 @@ self
 .
 assertEqual
 (
-            
 ping2_info
 [
 "
@@ -731,7 +724,6 @@ previousSubsessionId
 "
 ]
 s1_s1_subsession_id
-        
 )
         
 self
@@ -788,7 +780,6 @@ self
 .
 assertNotIn
 (
-            
 "
 browser
 .
@@ -797,7 +788,6 @@ engagement
 window_open_event_count
 "
 scalars2
-        
 )
         
 self
@@ -977,7 +967,6 @@ self
 .
 assertEqual
 (
-            
 ping3_info
 [
 "
@@ -985,7 +974,6 @@ previousSubsessionId
 "
 ]
 s2_s1_subsession_id
-        
 )
         
 self
@@ -1042,7 +1030,6 @@ self
 .
 assertNotIn
 (
-            
 "
 browser
 .
@@ -1051,7 +1038,6 @@ engagement
 window_open_event_count
 "
 scalars3
-        
 )
         
 self

@@ -33,14 +33,14 @@ MachCommandBase
     
 Command
 (
-'
+"
 cmd_foo
-'
+"
 category
 =
-'
+"
 testing
-'
+"
 conditions
 =
 [

@@ -241,9 +241,9 @@ cfg
 has_option
 (
 section
-'
+"
 Path
-'
+"
 )
 :
                 
@@ -253,19 +253,21 @@ cfg
 has_option
 (
 section
-'
+"
 IsRelative
-'
+"
 )
 and
 cfg
 .
 getint
 (
+                    
 section
-'
+"
 IsRelative
-'
+"
+                
 )
 :
                     
@@ -273,27 +275,30 @@ profiles
 .
 append
 (
+                        
 posixpath
 .
 join
 (
+                            
 posixpath
 .
 dirname
 (
 remote_ini
 )
-                                                   
 cfg
 .
 get
 (
 section
-'
+"
 Path
-'
+"
 )
+                        
 )
+                    
 )
                 
 else
@@ -308,9 +313,9 @@ cfg
 get
 (
 section
-'
+"
 Path
-'
+"
 )
 )
         
@@ -368,9 +373,9 @@ self
 app_ctx
 .
 remote_profile
-'
+"
 minidumps
-'
+"
 )
         
 local_dump_dir
@@ -401,11 +406,11 @@ e
 :
             
 if
-'
+"
 does
 not
 exist
-'
+"
 not
 in
 str
@@ -726,9 +731,9 @@ sections
 :
             
 if
-'
+"
 Profile
-'
+"
 in
 section
 :
@@ -738,9 +743,9 @@ config
 set
 (
 section
-'
+"
 IsRelative
-'
+"
 0
 )
                 
@@ -749,9 +754,9 @@ config
 set
 (
 section
-'
+"
 Path
-'
+"
 self
 .
 app_ctx
@@ -776,9 +781,9 @@ open
 new_profiles_ini
 .
 name
-'
+"
 w
-'
+"
 )
 )
         
@@ -815,9 +820,9 @@ hasattr
 self
 .
 app_ctx
-'
+"
 setup_profile
-'
+"
 )
 :
             
@@ -877,45 +882,48 @@ devices
         
 return
 [
+            
 d
 [
-'
+"
 device_serial
-'
+"
 ]
+            
 for
 d
 in
 devices
-                
+            
 if
 d
 [
-'
+"
 state
-'
+"
 ]
 !
 =
-'
+"
 offline
-'
-                
+"
+            
 if
 not
 d
 [
-'
+"
 device_serial
-'
+"
 ]
 .
 startswith
 (
-'
+"
 emulator
-'
+"
 )
+        
 ]
     
 def
@@ -982,6 +990,7 @@ online_devices
 raise
 IOError
 (
+                
 "
 No
 devices
@@ -994,7 +1003,7 @@ is
 on
 and
 "
-                          
+                
 "
 remote
 debugging
@@ -1007,6 +1016,7 @@ the
 settings
 .
 "
+            
 )
         
 self
@@ -1145,12 +1155,12 @@ device
 cp
 (
 remote_path
-'
+"
 %
 s
 .
 orig
-'
+"
 %
 remote_path
 recursive
@@ -1251,12 +1261,12 @@ device
 .
 exists
 (
-'
+"
 %
 s
 .
 orig
-'
+"
 %
 backup_file
 )
@@ -1268,12 +1278,12 @@ device
 .
 mv
 (
-'
+"
 %
 s
 .
 orig
-'
+"
 %
 backup_file
 backup_file
@@ -1285,9 +1295,9 @@ hasattr
 self
 .
 app_ctx
-'
+"
 cleanup_profile
-'
+"
 )
 :
                 
@@ -1398,10 +1408,10 @@ basename
 -
 len
 (
-'
+"
 .
 log
-'
+"
 )
 ]
         
@@ -1419,16 +1429,16 @@ basename
 -
 len
 (
-'
+"
 .
 1
-'
+"
 )
 ]
         
 basename
 =
-'
+"
 %
 s
 .
@@ -1436,7 +1446,7 @@ s
 d
 .
 log
-'
+"
 %
 (
 basename
@@ -1636,16 +1646,16 @@ value
 .
 replace
 (
-'
+"
 \
 n
-'
-'
+"
+"
 \
 n
 \
 t
-'
+"
 )
 )
 )
@@ -1750,16 +1760,16 @@ value
 .
 replace
 (
-'
+"
 \
 n
-'
-'
+"
+"
 \
 n
 \
 t
-'
+"
 )
 )
 )

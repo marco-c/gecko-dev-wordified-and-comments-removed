@@ -45,7 +45,7 @@ import
 GeckoVersion
 BUGLIST_TEMPLATE
 =
-'
+"
 *
 [
 Bugs
@@ -60,7 +60,7 @@ url
 )
 \
 n
-'
+"
 BACKOUT_REGEX
 =
 re
@@ -68,7 +68,7 @@ re
 compile
 (
 r
-'
+"
 back
 (
 \
@@ -82,14 +82,14 @@ out
 |
 backing
 out
-'
+"
 re
 .
 IGNORECASE
 )
 BACKOUT_TEMPLATE
 =
-'
+"
 *
 [
 Backouts
@@ -104,10 +104,10 @@ url
 )
 \
 n
-'
+"
 BUGZILLA_BUGLIST_TEMPLATE
 =
-'
+"
 https
 :
 /
@@ -127,7 +127,7 @@ bug_id
 {
 bugs
 }
-'
+"
 BUG_NUMBER_REGEX
 =
 re
@@ -135,19 +135,19 @@ re
 compile
 (
 r
-'
+"
 bug
 \
 d
 +
-'
+"
 re
 .
 IGNORECASE
 )
 CHANGELOG_TO_FROM_STRING
 =
-'
+"
 {
 product
 }
@@ -156,12 +156,12 @@ _
 version
 }
 _RELEASE
-'
+"
 CHANGESET_URL_TEMPLATE
 =
 (
     
-'
+"
 {
 repo
 }
@@ -169,9 +169,8 @@ repo
 {
 logtype
 }
-'
-    
-'
+"
+"
 ?
 fromchange
 =
@@ -188,11 +187,11 @@ to_version
 full
 =
 1
-'
+"
 )
 FULL_CHANGESET_TEMPLATE
 =
-'
+"
 *
 [
 Full
@@ -206,10 +205,10 @@ url
 )
 \
 n
-'
+"
 LIST_DESCRIPTION_TEMPLATE
 =
-'
+"
 Comparing
 Mercurial
 tag
@@ -223,13 +222,13 @@ to_version
 :
 \
 n
-'
+"
 MAX_BUGS_IN_BUGLIST
 =
 250
 MERCURIAL_TAGS_URL_TEMPLATE
 =
-'
+"
 {
 repo
 }
@@ -237,14 +236,14 @@ repo
 json
 -
 tags
-'
+"
 NO_BUGS
 =
-'
-'
+"
+"
 URL_SHORTENER_TEMPLATE
 =
-'
+"
 https
 :
 /
@@ -266,7 +265,7 @@ url
 {
 url
 }
-'
+"
 log
 =
 logging
@@ -413,6 +412,7 @@ product
 current_version
 current_version_tag
 mercurial_tags_json
+        
 )
         
 resp
@@ -421,30 +421,34 @@ requests
 .
 get
 (
+            
 CHANGESET_URL_TEMPLATE
 .
 format
 (
+                
 repo
 =
 repo
-                                                          
+                
 from_version
 =
 previous_version_tag
-                                                          
+                
 to_version
 =
 current_revision
-                                                          
+                
 logtype
 =
-'
+"
 json
 -
 pushes
-'
+"
+            
 )
+        
 )
         
 changeset_data
@@ -479,10 +483,10 @@ format
 from_version
 =
 previous_version_tag
-                
 to_version
 =
 current_version_tag
+            
 )
             
 if
@@ -496,12 +500,14 @@ BUGLIST_TEMPLATE
 .
 format
 (
+                    
 url
 =
 create_buglist_url
 (
 unique_bugs
 )
+                
 )
             
 if
@@ -515,12 +521,14 @@ BACKOUT_TEMPLATE
 .
 format
 (
+                    
 url
 =
 create_buglist_url
 (
 unique_backout_bugs
 )
+                
 )
             
 changeset_html
@@ -529,23 +537,25 @@ CHANGESET_URL_TEMPLATE
 .
 format
 (
+                
 repo
 =
 repo
-                                                           
+                
 from_version
 =
 previous_version_tag
-                                                           
+                
 to_version
 =
 current_revision
-                                                           
+                
 logtype
 =
-'
+"
 pushloghtml
-'
+"
+            
 )
             
 description
@@ -616,9 +626,9 @@ changeset
 in
 data
 [
-'
+"
 changesets
-'
+"
 ]
 :
             
@@ -635,9 +645,9 @@ changeset_desc
 =
 changeset
 [
-'
+"
 desc
-'
+"
 ]
             
 bug_re
@@ -663,8 +673,8 @@ group
 .
 split
 (
-'
-'
+"
+"
 )
 [
 1
@@ -708,19 +718,19 @@ excluded_change_keywords
 =
 [
         
-'
+"
 a
 =
 test
 -
 only
-'
+"
         
-'
+"
 a
 =
 release
-'
+"
     
 ]
     
@@ -731,9 +741,9 @@ keyword
 in
 changeset
 [
-'
+"
 desc
-'
+"
 ]
 for
 keyword
@@ -771,10 +781,10 @@ format
 (
 bugs
 =
-'
+"
 %
 2C
-'
+"
 .
 join
 (
@@ -798,12 +808,12 @@ version
 .
 replace
 (
-'
+"
 .
-'
-'
+"
+"
 _
-'
+"
 )
     
 return
@@ -811,6 +821,7 @@ CHANGELOG_TO_FROM_STRING
 .
 format
 (
+        
 product
 =
 product
@@ -821,6 +832,7 @@ upper
 version
 =
 underscore_version
+    
 )
 def
 parse_tag_version
@@ -831,9 +843,9 @@ tag
     
 dot_version
 =
-'
+"
 .
-'
+"
 .
 join
 (
@@ -841,9 +853,9 @@ tag
 .
 split
 (
-'
+"
 _
-'
+"
 )
 [
 1
@@ -865,8 +877,11 @@ get_previous_tag_version
 (
     
 product
+    
 current_version
+    
 current_version_tag
+    
 mercurial_tags_json
 )
 :
@@ -925,7 +940,7 @@ releases
 prod_major_version_re
 =
 r
-'
+"
 ^
 {
 product
@@ -934,7 +949,7 @@ _
 {
 major_version
 }
-'
+"
 .
 format
 (
@@ -951,41 +966,43 @@ major_version
 current_version
 .
 major_number
+        
 )
         
 return
-'
+(
+            
+"
 BASE
-'
+"
 not
 in
 tag
+            
 and
-\
-               
-'
+"
 END
-'
+"
 not
 in
 tag
+            
 and
-\
-               
-'
+"
 RELEASE
-'
+"
 in
 tag
+            
 and
-\
-               
 re
 .
 match
 (
 prod_major_version_re
 tag
+)
+        
 )
     
 tags
@@ -997,16 +1014,16 @@ parse_tag_version
 (
 item
 [
-'
+"
 tag
-'
+"
 ]
 )
 item
 [
-'
+"
 tag
-'
+"
 ]
 )
         
@@ -1015,9 +1032,9 @@ item
 in
 mercurial_tags_json
 [
-'
+"
 tags
-'
+"
 ]
         
 if
@@ -1025,9 +1042,9 @@ _invalid_tag_filter
 (
 item
 [
-'
+"
 tag
-'
+"
 ]
 )
     
@@ -1121,7 +1138,7 @@ is_beta
 :
         
 return
-'
+"
 https
 :
 /
@@ -1137,7 +1154,7 @@ releases
 mozilla
 -
 beta
-'
+"
     
 elif
 version
@@ -1146,7 +1163,7 @@ is_release
 :
         
 return
-'
+"
 https
 :
 /
@@ -1162,7 +1179,7 @@ releases
 mozilla
 -
 release
-'
+"
     
 elif
 version
@@ -1171,7 +1188,7 @@ is_esr
 :
         
 return
-'
+"
 https
 :
 /
@@ -1189,13 +1206,15 @@ mozilla
 esr
 {
 }
-'
+"
 .
 format
 (
+            
 version
 .
 major_number
+        
 )
     
 else
@@ -1205,7 +1224,7 @@ raise
 Exception
 (
             
-'
+"
 Unsupported
 version
 type
@@ -1214,11 +1233,10 @@ type
 :
 {
 }
-'
+"
 .
 format
 (
-                
 version
 .
 version_type
@@ -1226,18 +1244,24 @@ version_type
 name
 version
 )
+        
 )
 def
 email_release_drivers
 (
     
 addresses
+    
 product
+    
 version
+    
 build_number
     
 repo
+    
 revision
+    
 task_group_id
 )
 :
@@ -1315,31 +1339,34 @@ email_buglist_string
 .
 format
 (
+        
 repo
 =
 repo
+        
 revision
 =
 revision
-           
+        
 root_url
 =
 os
 .
 environ
 [
-'
+"
 TASKCLUSTER_ROOT_URL
-'
+"
 ]
-           
+        
 task_group_id
 =
 task_group_id
-           
+        
 email_buglist_string
 =
 email_buglist_string
+    
 )
     
 subject_prefix
@@ -1388,7 +1415,7 @@ desktop
     
 subject
 =
-'
+"
 {
 }
 Build
@@ -1400,20 +1427,22 @@ of
 build
 {
 }
-'
+"
 .
 format
 (
+        
 subject_prefix
 product
 version
 build_number
+    
 )
     
 if
-'
+"
 TASKCLUSTER_PROXY_URL
-'
+"
 in
 os
 .
@@ -1423,17 +1452,17 @@ environ
 notify_options
 =
 {
-'
+"
 rootUrl
-'
+"
 :
 os
 .
 environ
 [
-'
+"
 TASKCLUSTER_PROXY_URL
-'
+"
 ]
 }
     
@@ -1463,25 +1492,27 @@ notify
 .
 email
 (
+            
 {
-            
-'
+                
+"
 address
-'
+"
 :
 address
-            
-'
+                
+"
 subject
-'
+"
 :
 subject
-            
-'
+                
+"
 content
-'
+"
 :
 content
-        
+            
 }
+        
 )

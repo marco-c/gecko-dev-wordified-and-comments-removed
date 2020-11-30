@@ -59,53 +59,55 @@ object
 __slots__
 =
 (
+        
 "
 test_name
 "
-                 
+        
 "
 source_file
 "
-                 
+        
 "
 functions
 "
-                 
+        
 "
 function_exec_counts
 "
-                 
+        
 "
 function_count
 "
-                 
+        
 "
 covered_function_count
 "
-                 
+        
 "
 branches
 "
-                 
+        
 "
 branch_count
 "
-                 
+        
 "
 covered_branch_count
 "
-                 
+        
 "
 lines
 "
-                 
+        
 "
 line_count
 "
-                 
+        
 "
 covered_line_count
 "
+    
 )
     
 def
@@ -163,9 +165,9 @@ if
 hasattr
 (
 other
-'
+"
 test_name
-'
+"
 )
 :
             
@@ -215,8 +217,10 @@ function_exec_counts
 .
 get
 (
+                
 name
 0
+            
 )
         
 for
@@ -342,6 +346,7 @@ function_exec_counts
 fn_name
 :
 count
+            
 for
 fn_name
 count
@@ -363,6 +368,7 @@ functions
 values
 (
 )
+        
 }
         
 self
@@ -371,6 +377,7 @@ covered_function_count
 =
 len
 (
+            
 [
 c
 for
@@ -386,6 +393,7 @@ values
 if
 c
 ]
+        
 )
         
 self
@@ -828,7 +836,9 @@ record
 .
 function_exec_counts
 [
+                        
 fn_name
+                    
 ]
                 
 continue
@@ -1003,8 +1013,8 @@ k
 .
 split
 (
-'
-'
+"
+"
 )
 ]
 )
@@ -1020,6 +1030,7 @@ items
 (
 )
 ]
+        
 )
         
 self
@@ -1105,76 +1116,76 @@ object
 PREFIX_TYPES
 =
 {
-      
-'
+        
+"
 TN
-'
+"
 :
 0
-      
-'
+        
+"
 SF
-'
+"
 :
 0
-      
-'
+        
+"
 FN
-'
+"
 :
 1
-      
-'
+        
+"
 FNDA
-'
+"
 :
 1
-      
-'
+        
+"
 FNF
-'
+"
 :
 0
-      
-'
+        
+"
 FNH
-'
+"
 :
 0
-      
-'
+        
+"
 BRDA
-'
+"
 :
 3
-      
-'
+        
+"
 BRF
-'
+"
 :
 0
-      
-'
+        
+"
 BRH
-'
+"
 :
 0
-      
-'
+        
+"
 DA
-'
+"
 :
 2
-      
-'
+        
+"
 LH
-'
+"
 :
 0
-      
-'
+        
+"
 LF
-'
+"
 :
 0
     
@@ -1259,9 +1270,9 @@ if
 line
 =
 =
-'
+"
 end_of_record
-'
+"
 :
                         
 if
@@ -1299,9 +1310,9 @@ line
 .
 find
 (
-'
+"
 :
-'
+"
 )
                     
 prefix
@@ -1316,9 +1327,9 @@ if
 prefix
 =
 =
-'
+"
 SF
-'
+"
 :
                         
 sf
@@ -1335,19 +1346,25 @@ colon
                         
 res
 =
+(
+                            
 rewrite_source
 (
 sf
 )
+                            
 if
 rewrite_source
 is
 not
 None
+                            
 else
 (
 sf
 None
+)
+                        
 )
                         
 if
@@ -1375,10 +1392,10 @@ current_lines
 .
 append
 (
-'
+"
 SF
 :
-'
+"
 +
 current_source_file
 )
@@ -1421,9 +1438,9 @@ line
 .
 find
 (
-'
+"
 :
-'
+"
 )
             
 prefix
@@ -1463,8 +1480,8 @@ colon
 .
 split
 (
-'
-'
+"
+"
 self
 .
 PREFIX_TYPES
@@ -1516,9 +1533,9 @@ LcovFile
 .
 __dict__
 [
-'
+"
 parse_
-'
+"
 +
 prefix
 ]
@@ -1548,7 +1565,6 @@ n
 s
 "
 %
-                      
 (
 self
 .
@@ -1582,7 +1598,6 @@ n
 s
 "
 %
-                      
 (
 self
 .
@@ -1616,7 +1631,6 @@ n
 s
 "
 %
-                      
 (
 self
 .
@@ -1665,7 +1679,9 @@ self
 .
 iterate_records
 (
+            
 rewrite_source
+        
 )
 :
             
@@ -1726,22 +1742,22 @@ fh
 .
 write
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
 record_content
 )
 +
-'
+"
 \
 nend_of_record
 \
 n
-'
+"
 )
     
 def
@@ -1781,9 +1797,9 @@ LcovFile
 .
 __dict__
 [
-'
+"
 format_
-'
+"
 +
 name
 ]
@@ -1794,22 +1810,22 @@ record
 )
         
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
 out_lines
 )
 +
-'
+"
 \
 nend_of_record
 \
 n
-'
+"
     
 def
 format_test_name
@@ -1883,14 +1899,14 @@ fns
 .
 append
 (
-'
+"
 FN
 :
 %
 s
 %
 s
-'
+"
 %
 (
 start_lineno
@@ -1899,10 +1915,10 @@ fn_name
 )
         
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1941,14 +1957,14 @@ fndas
 .
 append
 (
-'
+"
 FNDA
 :
 %
 s
 %
 s
-'
+"
 %
 (
 exec_count
@@ -1957,10 +1973,10 @@ name
 )
         
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1976,12 +1992,12 @@ record
 :
         
 return
-'
+"
 FNF
 :
 %
 s
-'
+"
 %
 record
 .
@@ -1996,12 +2012,12 @@ record
 :
         
 return
-'
+"
 FNH
 :
 %
 s
-'
+"
 %
 record
 .
@@ -2042,9 +2058,9 @@ key
             
 taken
 =
-'
+"
 -
-'
+"
 if
 taken
 =
@@ -2057,16 +2073,15 @@ brdas
 .
 append
 (
-'
+"
 BRDA
 :
 %
 s
-'
+"
 %
-                         
-'
-'
+"
+"
 .
 join
 (
@@ -2086,10 +2101,10 @@ taken
 )
         
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -2105,12 +2120,12 @@ record
 :
         
 return
-'
+"
 BRF
 :
 %
 s
-'
+"
 %
 record
 .
@@ -2125,12 +2140,12 @@ record
 :
         
 return
-'
+"
 BRH
 :
 %
 s
-'
+"
 %
 record
 .
@@ -2169,14 +2184,14 @@ lines
             
 s
 =
-'
+"
 DA
 :
 %
 s
 %
 s
-'
+"
 %
 (
 line_no
@@ -2190,10 +2205,10 @@ checksum
 s
 +
 =
-'
+"
 %
 s
-'
+"
 %
 checksum
             
@@ -2205,10 +2220,10 @@ s
 )
         
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -2224,12 +2239,12 @@ record
 :
         
 return
-'
+"
 LF
 :
 %
 s
-'
+"
 %
 record
 .
@@ -2244,12 +2259,12 @@ record
 :
         
 return
-'
+"
 LH
 :
 %
 s
-'
+"
 %
 record
 .
@@ -2377,9 +2392,9 @@ if
 taken
 =
 =
-'
+"
 -
-'
+"
 else
 taken
         
@@ -2392,7 +2407,6 @@ branches
 (
 line_number
 block_number
-                                      
 branch_number
 )
 ]
@@ -2551,6 +2565,7 @@ IOError
             
 print
 (
+                
 "
 Error
 reading
@@ -2571,7 +2586,7 @@ ChromeMap
 |
 to
 "
-                  
+                
 "
 populate
 the
@@ -2581,6 +2596,7 @@ backend
 "
 %
 chrome_map_path
+            
 )
             
 raise
@@ -2591,9 +2607,9 @@ topobjdir
 =
 buildconfig
 [
-'
+"
 topobjdir
-'
+"
 ]
         
 self
@@ -2602,9 +2618,9 @@ MOZ_APP_NAME
 =
 buildconfig
 [
-'
+"
 MOZ_APP_NAME
-'
+"
 ]
         
 self
@@ -2613,9 +2629,9 @@ OMNIJAR_NAME
 =
 buildconfig
 [
-'
+"
 OMNIJAR_NAME
-'
+"
 ]
         
 if
@@ -2698,9 +2714,9 @@ mac_bundle_name
 =
 buildconfig
 [
-'
+"
 MOZ_MACBUNDLE_NAME
-'
+"
 ]
         
 if
@@ -2715,19 +2731,18 @@ mozpath
 .
 join
 (
-'
+                
+"
 dist
-'
-                                         
+"
 mac_bundle_name
-                                         
-'
+"
 Contents
-'
-                                         
-'
+"
+"
 Resources
-'
+"
+            
 )
         
 if
@@ -2746,14 +2761,14 @@ join
 self
 .
 topobjdir
-'
+"
 _tests
-'
-'
+"
+"
 extra
 .
 manifest
-'
+"
 )
             
 if
@@ -2887,9 +2902,9 @@ s
 :
                 
 if
-'
+"
 *
-'
+"
 not
 in
 p
@@ -2898,9 +2913,9 @@ p
 yield
 p
 +
-'
+"
 /
-'
+"
         
 offset
 =
@@ -2971,8 +2986,8 @@ offset
                 
 src_prefix
 =
-'
-'
+"
+"
 .
 join
 (
@@ -2990,6 +3005,7 @@ objdir_path
 ]
 =
 (
+                    
 mozpath
 .
 join
@@ -2997,8 +3013,9 @@ join
 src_prefix
 full_leaf
 )
-                                                      
+                    
 is_pp
+                
 )
                 
 break
@@ -3057,7 +3074,6 @@ for
 s
 "
 %
-                                 
 objdir_path
 )
         
@@ -3102,7 +3118,6 @@ obj_relpath
 )
         
 if
-(
 not
 res
 and
@@ -3110,7 +3125,6 @@ self
 .
 _respath
 and
-            
 obj_relpath
 .
 startswith
@@ -3118,7 +3132,6 @@ startswith
 self
 .
 _respath
-)
 )
 :
             
@@ -3131,11 +3144,11 @@ replace
 self
 .
 _respath
-'
+"
 dist
 /
 bin
-'
+"
 )
             
 res
@@ -3168,7 +3181,6 @@ for
 s
 "
 %
-                                 
 obj_relpath
 )
         
@@ -3271,18 +3283,18 @@ dest
 .
 endswith
 (
-'
+"
 /
-'
+"
 )
 :
                         
 dest
 +
 =
-'
+"
 /
-'
+"
                     
 objdir_path
 =
@@ -3299,10 +3311,10 @@ objdir_path
 .
 startswith
 (
-'
+"
 /
 /
-'
+"
 )
 :
                         
@@ -3331,9 +3343,11 @@ objdir_path
 .
 startswith
 (
+                            
 self
 .
 topobjdir
+                        
 )
 :
                             
@@ -3374,31 +3388,28 @@ UrlFinderError
 pass
                     
 if
-(
 dest
 .
 startswith
 (
-'
+"
 resource
 :
 /
 /
-'
+"
 )
 or
-                        
 dest
 .
 startswith
 (
-'
+"
 chrome
 :
 /
 /
-'
-)
+"
 )
 :
                         
@@ -3468,10 +3479,10 @@ url
 .
 endswith
 (
-'
+"
 >
 eval
-'
+"
 )
 :
             
@@ -3483,10 +3494,10 @@ url
 .
 endswith
 (
-'
+"
 >
 Function
-'
+"
 )
 :
             
@@ -3494,10 +3505,10 @@ return
 None
         
 if
-'
+"
 -
 >
-'
+"
 in
 url
 :
@@ -3508,10 +3519,10 @@ url
 .
 split
 (
-'
+"
 -
 >
-'
+"
 )
 [
 1
@@ -3522,9 +3533,9 @@ rstrip
 )
         
 if
-'
+"
 ?
-'
+"
 in
 url
 :
@@ -3535,9 +3546,9 @@ url
 .
 split
 (
-'
+"
 ?
-'
+"
 )
 [
 0
@@ -3558,9 +3569,9 @@ url_obj
 scheme
 =
 =
-'
+"
 jar
-'
+"
 :
             
 app_name
@@ -3597,18 +3608,18 @@ split
 (
 omnijar_name
 +
-'
+"
 !
-'
+"
 1
 )
                 
 elif
-'
+"
 .
 xpi
 !
-'
+"
 in
 url
 :
@@ -3621,11 +3632,11 @@ path
 .
 split
 (
-'
+"
 .
 xpi
 !
-'
+"
 1
 )
                 
@@ -3649,9 +3660,9 @@ rsplit
 (
 app_name
 +
-'
+"
 /
-'
+"
 1
 )
                 
@@ -3666,16 +3677,19 @@ mozpath
 .
 join
 (
+                        
 self
 .
 topobjdir
-'
+                        
+"
 dist
-'
-                                 
-'
+"
+                        
+"
 bin
-'
+"
+                        
 dir_parts
 [
 1
@@ -3683,10 +3697,11 @@ dir_parts
 .
 lstrip
 (
-'
+"
 /
-'
+"
 )
+                        
 parts
 [
 1
@@ -3694,20 +3709,21 @@ parts
 .
 lstrip
 (
-'
+"
 /
-'
-)
+"
 )
                     
 )
+                
+)
             
 elif
-'
+"
 .
 xpi
 !
-'
+"
 in
 url
 :
@@ -3720,11 +3736,11 @@ path
 .
 split
 (
-'
+"
 .
 xpi
 !
-'
+"
 1
 )
                 
@@ -3743,13 +3759,13 @@ parts
 )
                 
 if
-'
+"
 -
 test
 mozilla
 .
 org
-'
+"
 in
 addon_name
 :
@@ -3762,13 +3778,13 @@ addon_name
 -
 len
 (
-'
+"
 -
 test
 mozilla
 .
 org
-'
+"
 )
 ]
                 
@@ -3777,11 +3793,11 @@ addon_name
 .
 endswith
 (
-'
+"
 mozilla
 .
 org
-'
+"
 )
 :
                     
@@ -3793,11 +3809,11 @@ addon_name
 -
 len
 (
-'
+"
 mozilla
 .
 org
-'
+"
 )
 ]
                 
@@ -3807,23 +3823,28 @@ mozpath
 .
 normpath
 (
+                    
 mozpath
 .
 join
 (
+                        
 self
 .
 topobjdir
-'
+                        
+"
 dist
-'
-                                                    
-'
+"
+                        
+"
 xpi
 -
 stage
-'
+"
+                        
 addon_name
+                        
 parts
 [
 1
@@ -3831,11 +3852,13 @@ parts
 .
 lstrip
 (
-'
+"
 /
-'
+"
 )
+                    
 )
+                
 )
         
 elif
@@ -3844,9 +3867,9 @@ url_obj
 scheme
 =
 =
-'
+"
 file
-'
+"
 and
 os
 .
@@ -3909,21 +3932,21 @@ url_obj
 scheme
 in
 (
-'
+"
 http
-'
-'
+"
+"
 https
-'
-'
+"
+"
 javascript
-'
-'
+"
+"
 data
-'
-'
+"
+"
 about
-'
+"
 )
 :
             
@@ -3960,31 +3983,36 @@ object
 def
 __init__
 (
+        
 self
+        
 chrome_map_path
+        
 appdir
 =
-'
+"
 dist
 /
 bin
 /
 browser
 /
-'
-                 
+"
+        
 gredir
 =
-'
+"
 dist
 /
 bin
 /
-'
+"
+        
 extra_chrome_manifests
 =
 [
 ]
+    
 )
 :
         
@@ -3994,10 +4022,12 @@ url_finder
 =
 UrlFinder
 (
+            
 chrome_map_path
 appdir
 gredir
 extra_chrome_manifests
+        
 )
         
 self
@@ -4075,6 +4105,7 @@ unknowns
                     
 print
 (
+                        
 "
 Error
 :
@@ -4094,12 +4125,13 @@ s
 removing
 record
 "
+                        
 %
-                          
 (
 e
 url
 )
+                    
 )
                 
 unknowns
@@ -4159,10 +4191,10 @@ with
 open
 (
 output_file
-'
+"
 w
 +
-'
+"
 )
 as
 out_fh
@@ -4172,6 +4204,7 @@ lcov_file
 .
 print_file
 (
+                    
 out_fh
 rewrite_source
 self
@@ -4179,6 +4212,7 @@ self
 pp_rewriter
 .
 rewrite_record
+                
 )
         
 else
@@ -4205,10 +4239,10 @@ open
 in_path
 +
 output_suffix
-'
+"
 w
 +
-'
+"
 )
 as
 out_fh
@@ -4218,6 +4252,7 @@ lcov_file
 .
 print_file
 (
+                        
 out_fh
 rewrite_source
 self
@@ -4225,6 +4260,7 @@ self
 pp_rewriter
 .
 rewrite_record
+                    
 )
         
 if
@@ -4329,6 +4365,7 @@ map
 -
 path
 "
+        
 default
 =
 "
@@ -4338,6 +4375,7 @@ map
 .
 json
 "
+        
 help
 =
 "
@@ -4548,9 +4586,9 @@ manifests
         
 nargs
 =
-'
+"
 +
-'
+"
         
 help
 =
@@ -4623,9 +4661,9 @@ files
 "
 nargs
 =
-'
+"
 +
-'
+"
 help
 =
 "
@@ -4651,6 +4689,7 @@ rewriter
 =
 LcovFileRewriter
 (
+        
 args
 .
 chrome_map_path
@@ -4660,10 +4699,10 @@ app_dir
 args
 .
 gre_dir
-                                
 args
 .
 extra_chrome_manifests
+    
 )
     
 files
@@ -4740,9 +4779,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

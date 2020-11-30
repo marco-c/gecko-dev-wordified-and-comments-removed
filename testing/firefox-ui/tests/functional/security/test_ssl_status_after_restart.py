@@ -52,7 +52,7 @@ self
 .
 test_url
 =
-'
+"
 https
 :
 /
@@ -63,7 +63,7 @@ badssl
 .
 com
 /
-'
+"
         
 self
 .
@@ -71,13 +71,13 @@ marionette
 .
 set_pref
 (
-'
+"
 browser
 .
 startup
 .
 page
-'
+"
 3
 )
         
@@ -87,7 +87,7 @@ marionette
 .
 set_pref
 (
-'
+"
 network
 .
 http
@@ -95,7 +95,7 @@ http
 rcwn
 .
 enable
-'
+"
 False
 )
     
@@ -112,13 +112,13 @@ marionette
 .
 clear_pref
 (
-'
+"
 browser
 .
 startup
 .
 page
-'
+"
 )
         
 self
@@ -127,7 +127,7 @@ marionette
 .
 clear_pref
 (
-'
+"
 network
 .
 http
@@ -135,7 +135,7 @@ http
 rcwn
 .
 enable
-'
+"
 )
         
 super
@@ -162,9 +162,9 @@ marionette
 .
 using_context
 (
-'
+"
 content
-'
+"
 )
 :
             
@@ -223,9 +223,9 @@ marionette
 .
 using_context
 (
-'
+"
 content
-'
+"
 )
 :
             
@@ -255,11 +255,12 @@ url
                 
 message
 =
-'
+"
 Expected
 URL
 loaded
-'
+"
+            
 )
         
 identity_box
@@ -273,11 +274,11 @@ find_element
 By
 .
 ID
-'
+"
 identity
 -
 box
-'
+"
 )
         
 self
@@ -288,13 +289,13 @@ identity_box
 .
 get_attribute
 (
-'
+"
 pageproxystate
-'
+"
 )
-'
+"
 valid
-'
+"
 )
         
 class_list
@@ -305,6 +306,7 @@ marionette
 .
 execute_script
 (
+            
 "
 "
 "
@@ -347,19 +349,21 @@ names
 "
 "
 "
+            
 script_args
 =
 [
 identity_box
 ]
+        
 )
         
 self
 .
 assertIn
 (
-'
+"
 verifiedDomain
-'
+"
 class_list
 )

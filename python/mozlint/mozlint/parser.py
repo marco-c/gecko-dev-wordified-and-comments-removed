@@ -46,21 +46,21 @@ required_attributes
 =
 (
         
-'
+"
 name
-'
+"
         
-'
+"
 description
-'
+"
         
-'
+"
 type
-'
+"
         
-'
+"
 payload
-'
+"
     
 )
     
@@ -112,9 +112,9 @@ relpath
 (
 linter
 [
-'
+"
 path
-'
+"
 ]
 self
 .
@@ -155,7 +155,9 @@ missing_attrs
 raise
 LinterParseError
 (
+                
 relpath
+                
 "
 Missing
 required
@@ -165,7 +167,6 @@ s
 )
 :
 "
-                                            
 "
 {
 }
@@ -173,22 +174,23 @@ s
 .
 format
 (
-'
-'
+"
+"
 .
 join
 (
 missing_attrs
 )
 )
+            
 )
         
 if
 linter
 [
-'
+"
 type
-'
+"
 ]
 not
 in
@@ -212,9 +214,9 @@ format
 (
 linter
 [
-'
+"
 type
-'
+"
 ]
 )
 )
@@ -223,17 +225,17 @@ for
 attr
 in
 (
-'
+"
 include
-'
-'
+"
+"
 exclude
-'
-'
+"
+"
 support
 -
 files
-'
+"
 )
 :
             
@@ -257,11 +259,10 @@ attr
 list
 )
 or
-\
-                    
 not
 all
 (
+                
 isinstance
 (
 a
@@ -274,13 +275,16 @@ linter
 [
 attr
 ]
+            
 )
 :
                 
 raise
 LinterParseError
 (
+                    
 relpath
+                    
 "
 The
 {
@@ -290,7 +294,6 @@ must
 be
 a
 "
-                                                
 "
 list
 of
@@ -302,6 +305,7 @@ format
 (
 attr
 )
+                
 )
             
 invalid_paths
@@ -320,9 +324,9 @@ attr
 :
                 
 if
-'
+"
 *
-'
+"
 in
 path
 :
@@ -331,15 +335,17 @@ if
 attr
 =
 =
-'
+"
 include
-'
+"
 :
                         
 raise
 LinterParseError
 (
+                            
 relpath
+                            
 "
 Paths
 in
@@ -348,7 +354,7 @@ include
 directive
 cannot
 "
-                                                        
+                            
 "
 contain
 globs
@@ -363,6 +369,7 @@ format
 (
 path
 )
+                        
 )
                     
 continue
@@ -413,8 +420,8 @@ invalid_paths
 .
 add
 (
-'
-'
+"
+"
 +
 path
 )
@@ -426,7 +433,9 @@ invalid_paths
 raise
 LinterParseError
 (
+                    
 relpath
+                    
 "
 The
 {
@@ -436,7 +445,7 @@ contains
 the
 following
 "
-                                                
+                    
 "
 paths
 that
@@ -453,12 +462,12 @@ n
 .
 format
 (
-                                                    
+                        
 attr
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -467,13 +476,15 @@ sorted
 invalid_paths
 )
 )
+                    
 )
+                
 )
         
 if
-'
+"
 setup
-'
+"
 in
 linter
 :
@@ -481,16 +492,16 @@ linter
 if
 linter
 [
-'
+"
 setup
-'
+"
 ]
 .
 count
 (
-'
+"
 :
-'
+"
 )
 !
 =
@@ -500,7 +511,9 @@ count
 raise
 LinterParseError
 (
+                    
 relpath
+                    
 "
 The
 setup
@@ -515,7 +528,7 @@ must
 have
 the
 "
-                                                
+                    
 "
 form
 '
@@ -527,29 +540,29 @@ object
 .
 format
 (
-                                                    
 linter
 [
-'
+"
 setup
-'
+"
 ]
 )
+                
 )
         
 if
-'
+"
 extensions
-'
+"
 in
 linter
 :
             
 linter
 [
-'
+"
 extensions
-'
+"
 ]
 =
 [
@@ -557,18 +570,18 @@ e
 .
 strip
 (
-'
+"
 .
-'
+"
 )
 for
 e
 in
 linter
 [
-'
+"
 extensions
-'
+"
 ]
 ]
     
@@ -650,16 +663,17 @@ path
 .
 endswith
 (
-'
+"
 .
 yml
-'
+"
 )
 :
             
 raise
 LinterParseError
 (
+                
 path
 "
 Invalid
@@ -674,6 +688,7 @@ yml
 '
 !
 "
+            
 )
         
 with
@@ -739,18 +754,18 @@ items
                 
 linter
 [
-'
+"
 name
-'
+"
 ]
 =
 name
                 
 linter
 [
-'
+"
 path
-'
+"
 ]
 =
 path
@@ -766,35 +781,37 @@ linter
 .
 setdefault
 (
-'
+"
 support
 -
 files
-'
+"
 [
 ]
 )
 .
 extend
 (
+                    
 GLOBAL_SUPPORT_FILES
 +
 [
 path
 ]
+                
 )
                 
 linter
 .
 setdefault
 (
-'
+"
 include
-'
+"
 [
-'
+"
 .
-'
+"
 ]
 )
                 

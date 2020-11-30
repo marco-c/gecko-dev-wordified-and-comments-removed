@@ -120,7 +120,7 @@ pretty
 bad
 test
 .
-        
+    
 It
 generates
 Rust
@@ -139,7 +139,7 @@ byte
 for
 -
 byte
-        
+    
 with
 an
 expected
@@ -147,14 +147,14 @@ output
 Rust
 file
 .
-        
+    
 Expect
 it
 to
 be
 fragile
 .
-        
+    
 To
 generate
 a
@@ -175,7 +175,7 @@ t
 c
 /
 g
-        
+    
 run
 mach
 build
@@ -304,9 +304,9 @@ __file__
 metrics_test_output
 "
 )
-'
+"
 r
-'
+"
 )
 as
 file
@@ -344,7 +344,7 @@ similarly
 bad
 test
 .
-        
+    
 It
 generates
 Rust
@@ -359,7 +359,7 @@ byte
 for
 -
 byte
-        
+    
 with
 an
 expected
@@ -367,14 +367,14 @@ output
 Rust
 file
 .
-        
+    
 Expect
 it
 to
 be
 fragile
 .
-        
+    
 To
 generate
 a
@@ -395,7 +395,7 @@ t
 c
 /
 g
-        
+    
 run
 mach
 build
@@ -524,9 +524,9 @@ __file__
 pings_test_output
 "
 )
-'
+"
 r
-'
+"
 )
 as
 file
@@ -570,7 +570,7 @@ output
 by
 glean_parser
 .
-        
+    
 Expect
 it
 to
@@ -605,6 +605,7 @@ get_parser_options
 input_files
 =
 [
+        
 Path
 (
 path
@@ -624,6 +625,7 @@ yaml
 "
 )
 )
+    
 ]
     
 all_objs
@@ -662,14 +664,14 @@ all_objs
 .
 value
 [
-'
+"
 test
-'
+"
 ]
 [
-'
+"
 expired1
-'
+"
 ]
 .
 disabled
@@ -681,14 +683,14 @@ all_objs
 .
 value
 [
-'
+"
 test
-'
+"
 ]
 [
-'
+"
 expired2
-'
+"
 ]
 .
 disabled
@@ -700,14 +702,14 @@ all_objs
 .
 value
 [
-'
+"
 test
-'
+"
 ]
 [
-'
+"
 unexpired
-'
+"
 ]
 .
 disabled
@@ -734,7 +736,7 @@ not
 a
 string
 ?
-        
+    
 This
 test
 relies
@@ -747,7 +749,7 @@ output
 by
 glean_parser
 .
-        
+    
 Expect
 it
 to
@@ -782,6 +784,7 @@ get_parser_options
 input_files
 =
 [
+        
 Path
 (
 path
@@ -801,6 +804,7 @@ yaml
 "
 )
 )
+    
 ]
     
 all_objs

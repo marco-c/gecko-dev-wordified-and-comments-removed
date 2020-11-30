@@ -89,6 +89,7 @@ processhandler
 .
 ProcessHandler
 (
+            
 [
 self
 .
@@ -96,17 +97,16 @@ python
 self
 .
 proclaunch
-                                           
 "
 process_normal_finish
 .
 ini
 "
 ]
-                                          
 cwd
 =
 here
+        
 )
         
 p
@@ -158,6 +158,7 @@ processhandler
 .
 ProcessHandler
 (
+            
 [
 self
 .
@@ -165,17 +166,16 @@ python
 self
 .
 proclaunch
-                                           
 "
 process_waittimeout_10s
 .
 ini
 "
 ]
-                                          
 cwd
 =
 here
+        
 )
         
 p
@@ -218,7 +218,7 @@ out
 waiting
 on
 it
-            
+        
 to
 complete
         
@@ -236,9 +236,9 @@ sys
 platform
 =
 =
-'
+"
 darwin
-'
+"
 and
 sys
 .
@@ -262,14 +262,14 @@ copy
             
 myenv
 [
-'
+"
 PYTHONPATH
-'
+"
 ]
 =
-'
+"
 :
-'
+"
 .
 join
 (
@@ -284,6 +284,7 @@ processhandler
 .
 ProcessHandler
 (
+            
 [
 self
 .
@@ -291,20 +292,21 @@ python
 self
 .
 proclaunch
-                                           
 "
 process_waittimeout
 .
 ini
 "
 ]
-                                          
+            
 cwd
 =
 here
+            
 env
 =
 myenv
+        
 )
         
 p
@@ -347,12 +349,12 @@ determine_status
 p
 False
 [
-'
+"
 returncode
-'
-'
+"
+"
 didtimeout
-'
+"
 ]
 )
     
@@ -399,6 +401,7 @@ processhandler
 .
 ProcessHandler
 (
+            
 [
 self
 .
@@ -406,17 +409,16 @@ python
 self
 .
 proclaunch
-                                           
 "
 process_waittimeout_10s
 .
 ini
 "
 ]
-                                          
 cwd
 =
 here
+        
 )
         
 p
@@ -465,7 +467,6 @@ our
 wait
 times
 out
-        
 "
 "
 "
@@ -476,6 +477,7 @@ processhandler
 .
 ProcessHandler
 (
+            
 [
 self
 .
@@ -483,17 +485,16 @@ python
 self
 .
 proclaunch
-                                           
 "
 process_waittimeout_10s
 .
 ini
 "
 ]
-                                          
 cwd
 =
 here
+        
 )
         
 p
@@ -553,6 +554,7 @@ processhandler
 .
 ProcessHandler
 (
+            
 [
 self
 .
@@ -560,17 +562,16 @@ python
 self
 .
 proclaunch
-                                           
 "
 process_waittimeout
 .
 ini
 "
 ]
-                                          
 cwd
 =
 here
+        
 )
         
 p
@@ -618,9 +619,9 @@ self
 .
 assertGreater
 (
+                
 returncode2
 0
-                               
 '
 Positive
 returncode
@@ -633,6 +634,7 @@ s
 '
 %
 returncode2
+            
 )
         
 else
@@ -642,9 +644,9 @@ self
 .
 assertLess
 (
+                
 returncode2
 0
-                            
 '
 Negative
 returncode
@@ -657,16 +659,17 @@ s
 '
 %
 returncode2
+            
 )
         
 self
 .
 assertEqual
 (
+            
 returncode1
 returncode2
-                         
-'
+"
 Expected
 both
 returncodes
@@ -677,7 +680,8 @@ wait
 to
 be
 equal
-'
+"
+        
 )
     
 def
@@ -711,6 +715,7 @@ processhandler
 .
 ProcessHandler
 (
+            
 [
 self
 .
@@ -718,17 +723,16 @@ python
 self
 .
 proclaunch
-                                           
 "
 process_normal_finish
 .
 ini
 "
 ]
-                                          
 cwd
 =
 here
+        
 )
         
 p
@@ -767,11 +771,13 @@ self
 .
 assertEqual
 (
+                
 returncode
+                
 signal
 .
 SIGTERM
-                             
+                
 '
 Positive
 returncode
@@ -784,6 +790,7 @@ s
 '
 %
 returncode
+            
 )
         
 else
@@ -793,12 +800,14 @@ self
 .
 assertEqual
 (
+                
 returncode
+                
 -
 signal
 .
 SIGTERM
-                             
+                
 '
 %
 s
@@ -817,6 +826,7 @@ signal
 SIGTERM
 returncode
 )
+            
 )
         
 self
@@ -841,9 +851,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

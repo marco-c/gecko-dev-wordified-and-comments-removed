@@ -39,9 +39,9 @@ fixture
 (
 scope
 =
-'
+"
 session
-'
+"
 )
 def
 ip_addresses
@@ -71,6 +71,7 @@ re
 .
 compile
 (
+        
 "
 (
 (
@@ -114,7 +115,7 @@ d
 3
 }
 "
-                         
+        
 "
 (
 25
@@ -151,6 +152,7 @@ d
 d
 )
 "
+    
 )
     
 commands
@@ -158,51 +160,51 @@ commands
 (
         
 [
-'
+"
 ip
-'
-'
+"
+"
 addr
-'
-'
+"
+"
 show
-'
+"
 ]
         
 [
-'
+"
 ifconfig
-'
+"
 ]
         
 [
-'
+"
 ipconfig
-'
+"
 ]
         
 [
-'
+"
 /
 sbin
 /
 ip
-'
-'
+"
+"
 addr
-'
-'
+"
+"
 show
-'
+"
 ]
         
 [
-'
+"
 /
 sbin
 /
 ifconfig
-'
+"
 ]
     
 )
@@ -239,6 +241,7 @@ else
 raise
 OSError
 (
+            
 "
 No
 program
@@ -255,7 +258,7 @@ of
 ip
 '
 "
-                      
+            
 "
 '
 ifconfig
@@ -270,6 +273,7 @@ your
 PATH
 .
 "
+        
 )
     
 ps
@@ -314,11 +318,11 @@ standardoutput
 .
 decode
 (
-'
+"
 UTF
 -
 8
-'
+"
 )
 )
 ]
@@ -416,11 +420,11 @@ mock
 .
 patch
 (
-'
+"
 socket
 .
 gethostbyname
-'
+"
 )
 as
 byname
@@ -444,9 +448,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

@@ -35,21 +35,21 @@ _MSI_ARCH
 =
 {
     
-'
+"
 x86
-'
+"
 :
-'
+"
 x86
-'
+"
     
-'
+"
 x86_64
-'
+"
 :
-'
+"
 x64
-'
+"
 }
 def
 update_wsx
@@ -85,9 +85,9 @@ parsed
 .
 createProcessingInstruction
 (
-'
+"
 define
-'
+"
 k
 +
 '
@@ -157,6 +157,7 @@ wfile
 def
 repackage_msi
 (
+    
 topsrcdir
 wsx
 version
@@ -175,9 +176,9 @@ sys
 platform
 !
 =
-'
+"
 win32
-'
+"
 :
         
 raise
@@ -303,6 +304,7 @@ keys
 raise
 Exception
 (
+            
 "
 arch
 name
@@ -325,6 +327,7 @@ keys
 (
 )
 )
+        
 )
     
 if
@@ -420,7 +423,7 @@ light
     
 embeddedVersion
 =
-'
+"
 0
 .
 0
@@ -428,19 +431,19 @@ embeddedVersion
 0
 .
 0
-'
+"
     
 if
-'
+"
 a
-'
+"
 not
 in
 version
 and
-'
+"
 b
-'
+"
 not
 in
 version
@@ -451,9 +454,9 @@ version
 .
 endswith
 (
-'
+"
 esr
-'
+"
 )
 :
             
@@ -468,9 +471,9 @@ version
 .
 split
 (
-'
+"
 .
-'
+"
 )
         
 else
@@ -482,9 +485,9 @@ version
 .
 split
 (
-'
+"
 .
-'
+"
 )
         
 while
@@ -500,16 +503,16 @@ parts
 .
 append
 (
-'
+"
 0
-'
+"
 )
         
 embeddedVersion
 =
-'
+"
 .
-'
+"
 .
 join
 (
@@ -554,9 +557,9 @@ sys
 platform
 =
 =
-'
+"
 win32
-'
+"
 :
         
 tmpdir
@@ -624,55 +627,57 @@ temp_wsx_file
 pre_values
 =
 {
-'
+                
+"
 Vendor
-'
+"
 :
-'
+"
 Mozilla
-'
-                          
-'
+"
+                
+"
 BrandFullName
-'
+"
 :
-'
+"
 Mozilla
 Firefox
-'
-                          
-'
+"
+                
+"
 Version
-'
+"
 :
 version
-                          
-'
+                
+"
 AB_CD
-'
+"
 :
 locale
-                          
-'
+                
+"
 Architecture
-'
+"
 :
 _MSI_ARCH
 [
 arch
 ]
-                          
-'
+                
+"
 ExeSourcePath
-'
+"
 :
 setupexe
-                          
-'
+                
+"
 EmbeddedVersionCode
-'
+"
 :
 embeddedVersion
+            
 }
             
 newfile
@@ -692,11 +697,11 @@ path
 join
 (
 tmpdir
-'
+"
 installer
 .
 wixobj
-'
+"
 )
             
 env
@@ -717,20 +722,20 @@ None
                 
 candle
 =
-'
+"
 candle
 .
 exe
-'
+"
             
 cmd
 =
 [
 candle
-'
+"
 -
 out
-'
+"
 wix_object_file
 newfile
 ]
@@ -769,37 +774,44 @@ None
                 
 light
 =
-'
+"
 light
 .
 exe
-'
+"
             
 light_cmd
 =
 [
+                
 light
+                
 "
 -
 cultures
 :
 neutral
 "
+                
 "
 -
 sw1076
 "
+                
 "
 -
 sw1079
 "
-                         
-'
+                
+"
 -
 out
-'
+"
+                
 wix_installer
+                
 wix_object_file
+            
 ]
             
 subprocess

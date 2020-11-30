@@ -48,14 +48,9 @@ mozbuild
 .
 util
 import
-(
-    
 FileAvoidWrite
-    
 ensure_unicode
-    
 memoize
-)
 from
 mozpack
 .
@@ -161,9 +156,9 @@ system
 )
 !
 =
-'
+"
 Windows
-'
+"
 :
     
 _copyfile
@@ -257,12 +252,12 @@ else
 raise
 TypeError
 (
-'
+"
 mismatched
 path
 types
 !
-'
+"
 )
 def
 _open
@@ -270,9 +265,9 @@ _open
 path
 mode
 =
-'
+"
 r
-'
+"
 )
 :
     
@@ -281,9 +276,9 @@ six
 .
 PY3
 and
-'
+"
 b
-'
+"
 not
 in
 mode
@@ -296,11 +291,11 @@ path
 mode
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
     
 return
@@ -316,9 +311,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Helper
 interface
@@ -411,9 +406,9 @@ to
 it
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -475,9 +470,9 @@ self
 mode
 !
 =
-'
+"
 r
-'
+"
 :
             
 self
@@ -491,18 +486,18 @@ self
 path
 mode
 =
-'
+"
 rb
-'
+"
 )
             
 self
 .
 mode
 =
-'
+"
 r
-'
+"
         
 return
 self
@@ -528,9 +523,9 @@ self
 mode
 !
 =
-'
+"
 w
-'
+"
 :
             
 self
@@ -544,18 +539,18 @@ self
 path
 mode
 =
-'
+"
 wb
-'
+"
 )
             
 self
 .
 mode
 =
-'
+"
 w
-'
+"
         
 to_write
 =
@@ -634,9 +629,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Base
 interface
@@ -677,9 +672,9 @@ path
 property
 .
     
-'
-'
-'
+"
+"
+"
     
 staticmethod
     
@@ -691,9 +686,9 @@ second
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Compares
 the
@@ -717,9 +712,9 @@ second
 file
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 int
@@ -735,12 +730,11 @@ first
 *
 1000
 )
-\
-            
 <
 =
 int
 (
+            
 os
 .
 path
@@ -751,6 +745,7 @@ second
 )
 *
 1000
+        
 )
     
 staticmethod
@@ -763,9 +758,9 @@ inputs
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Compares
 the
@@ -798,9 +793,9 @@ than
 dest
 .
         
-'
-'
-'
+"
+"
+"
         
 dest_mtime
 =
@@ -942,9 +937,9 @@ True
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Copy
 the
@@ -1023,9 +1018,9 @@ False
 )
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 isinstance
@@ -1075,18 +1070,18 @@ elif
 getattr
 (
 self
-'
+"
 path
-'
+"
 None
 )
 and
 getattr
 (
 dest
-'
+"
 path
-'
+"
 None
 )
 :
@@ -1147,18 +1142,18 @@ if
 getattr
 (
 self
-'
+"
 path
-'
+"
 None
 )
 and
 getattr
 (
 dest
-'
+"
 path
-'
+"
 None
 )
 :
@@ -1244,8 +1239,8 @@ dest
 write
 (
 b
-'
-'
+"
+"
 )
                 
 shutil
@@ -1324,7 +1319,6 @@ src_content
 break
             
 if
-(
 six
 .
 ensure_binary
@@ -1333,13 +1327,11 @@ dest_content
 )
 !
 =
-                
 six
 .
 ensure_binary
 (
 src_content
-)
 )
 :
                 
@@ -1348,8 +1340,8 @@ dest
 write
 (
 b
-'
-'
+"
+"
 .
 join
 (
@@ -1371,17 +1363,17 @@ if
 hasattr
 (
 self
-'
+"
 path
-'
+"
 )
 and
 hasattr
 (
 dest
-'
+"
 path
-'
+"
 )
 :
             
@@ -1407,9 +1399,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 a
@@ -1449,9 +1441,9 @@ like
 object
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 self
@@ -1467,9 +1459,9 @@ open
 self
 .
 path
-'
+"
 rb
-'
+"
 )
     
 def
@@ -1482,7 +1474,7 @@ self
 raise
 NotImplementedError
 (
-'
+"
 BaseFile
 .
 read
@@ -1494,7 +1486,7 @@ implemented
 Bug
 1170329
 .
-'
+"
 )
     
 def
@@ -1553,9 +1545,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 the
@@ -1573,9 +1565,9 @@ no
 meaning
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 None
@@ -1587,9 +1579,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 an
@@ -1606,14 +1598,14 @@ output
 file
 .
         
-'
-'
-'
+"
+"
+"
         
 raise
 NotImplementedError
 (
-'
+"
 BaseFile
 .
 inputs
@@ -1622,7 +1614,7 @@ inputs
 not
 implemented
 .
-'
+"
 )
 class
 File
@@ -1631,9 +1623,9 @@ BaseFile
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 File
 class
@@ -1642,9 +1634,9 @@ plain
 files
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -1672,9 +1664,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 the
@@ -1695,9 +1687,9 @@ stat
 st_mode
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 platform
@@ -1707,9 +1699,9 @@ system
 )
 =
 =
-'
+"
 Windows
-'
+"
 :
             
 return
@@ -1751,9 +1743,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Return
 the
 contents
@@ -1761,9 +1753,9 @@ of
 the
 file
 .
-'
-'
-'
+"
+"
+"
         
 with
 open
@@ -1771,9 +1763,9 @@ open
 self
 .
 path
-'
+"
 rb
-'
+"
 )
 as
 fh
@@ -1825,9 +1817,9 @@ File
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 File
 class
@@ -1859,9 +1851,9 @@ documentation
 )
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -1955,17 +1947,17 @@ dest
 skip_if_older
 )
 and
-\
-                
 os
 .
 path
 .
 getsize
 (
+            
 self
 .
 path
+        
 )
 >
 os
@@ -2075,9 +2067,9 @@ File
 )
 :
     
-'
-'
-'
+"
+"
+"
 File
 class
 that
@@ -2103,9 +2095,9 @@ is
 absolute
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -2130,7 +2122,7 @@ path
 raise
 ValueError
 (
-'
+"
 Symlink
 target
 not
@@ -2138,7 +2130,7 @@ absolute
 :
 %
 s
-'
+"
 %
 path
 )
@@ -2180,18 +2172,17 @@ system
 )
 =
 =
-'
+"
 Windows
-'
+"
 and
-\
-            
 self
 .
 path
 .
 endswith
 (
+            
 (
 "
 .
@@ -2202,6 +2193,7 @@ js
 jsm
 "
 )
+        
 )
         
 if
@@ -2209,9 +2201,9 @@ not
 hasattr
 (
 os
-'
+"
 symlink
-'
+"
 )
 or
 js_on_windows
@@ -2246,7 +2238,7 @@ path
 raise
 ErrorMessage
 (
-'
+"
 Symlink
 target
 path
@@ -2256,7 +2248,7 @@ exist
 :
 %
 s
-'
+"
 %
 self
 .
@@ -2484,9 +2476,9 @@ File
 )
 :
     
-'
-'
-'
+"
+"
+"
 File
 class
 that
@@ -2551,9 +2543,9 @@ are
 fine
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 copy
@@ -2580,9 +2572,9 @@ not
 hasattr
 (
 os
-'
+"
 link
-'
+"
 )
 :
             
@@ -2595,12 +2587,10 @@ self
 .
 copy
 (
-                
 dest
 skip_if_older
 =
 skip_if_older
-            
 )
         
 try
@@ -2637,7 +2627,8 @@ ENOENT
 raise
 ErrorMessage
 (
-'
+                    
+"
 Hard
 link
 target
@@ -2648,11 +2639,12 @@ exist
 :
 %
 s
-'
+"
 %
 self
 .
 path
+                
 )
             
 else
@@ -2755,12 +2747,10 @@ self
 .
 copy
 (
-                
 dest
 skip_if_older
 =
 skip_if_older
-            
 )
         
 return
@@ -2772,9 +2762,9 @@ BaseFile
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 File
 class
@@ -2885,9 +2875,9 @@ is
 raised
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -2976,7 +2966,6 @@ exist
 s
 "
 %
-                         
 dest
 .
 path
@@ -2999,9 +2988,9 @@ BaseFile
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 File
 class
@@ -3030,25 +3019,32 @@ the
 output
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
 (
+        
 self
+        
 path
+        
 depfile_path
+        
 marker
+        
 defines
+        
 extra_depends
 =
 None
-                 
+        
 silence_missing_directive_warnings
 =
 False
+    
 )
 :
         
@@ -3098,8 +3094,6 @@ self
 .
 silence_missing_directive_warnings
 =
-\
-            
 silence_missing_directive_warnings
     
 def
@@ -3140,9 +3134,9 @@ _open
 self
 .
 path
-'
+"
 rU
-'
+"
 )
 as
 input
@@ -3154,9 +3148,9 @@ _open
 os
 .
 devnull
-'
+"
 w
-'
+"
 )
 as
 output
@@ -3190,9 +3184,9 @@ True
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Invokes
 the
@@ -3204,9 +3198,9 @@ destination
 file
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 isinstance
@@ -3239,9 +3233,9 @@ if
 hasattr
 (
 os
-'
+"
 symlink
-'
+"
 )
 and
 platform
@@ -3251,9 +3245,9 @@ system
 )
 !
 =
-'
+"
 Windows
-'
+"
 :
             
 if
@@ -3321,9 +3315,9 @@ _open
 self
 .
 depfile
-'
+"
 rt
-'
+"
 )
 as
 fileobj
@@ -3470,9 +3464,9 @@ _open
 self
 .
 path
-'
+"
 rU
-'
+"
 )
 as
 input
@@ -3520,9 +3514,9 @@ BaseFile
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 File
 class
@@ -3537,9 +3531,9 @@ the
 filesystem
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -3672,9 +3666,9 @@ BaseFile
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 File
 class
@@ -3701,9 +3695,9 @@ jar
 archive
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -3760,9 +3754,9 @@ GeneratedFile
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 File
 class
@@ -3788,9 +3782,9 @@ in
 memory
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -3877,9 +3871,9 @@ BaseFile
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 File
 class
@@ -4060,9 +4054,9 @@ the
 future
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -4119,9 +4113,9 @@ entry
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Add
 the
@@ -4159,9 +4153,9 @@ remove
 d
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 isinstance
@@ -4207,9 +4201,9 @@ entry
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Remove
 the
@@ -4220,9 +4214,9 @@ the
 manifest
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 isinstance
@@ -4267,9 +4261,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 a
@@ -4291,24 +4285,24 @@ the
 manifest
 .
         
-'
-'
-'
+"
+"
+"
         
 content
 =
-'
-'
+"
+"
 .
 join
 (
             
-'
+"
 %
 s
 \
 n
-'
+"
 %
 e
 .
@@ -4331,6 +4325,7 @@ self
 .
 _interfaces
 )
+        
 )
         
 return
@@ -4351,9 +4346,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Iterate
 over
@@ -4364,9 +4359,9 @@ manifest
 file
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 chain
@@ -4386,9 +4381,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 whether
@@ -4399,9 +4394,9 @@ entries
 to
 write
         
-'
-'
-'
+"
+"
+"
         
 return
 len
@@ -4427,9 +4422,9 @@ BaseFile
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 File
 class
@@ -4456,9 +4451,9 @@ its
 content
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -4488,9 +4483,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 a
@@ -4513,24 +4508,24 @@ properties
 file
 .
         
-'
-'
-'
+"
+"
+"
         
 content
 =
-'
-'
+"
+"
 .
 join
 (
             
 l
+            
 for
 l
 in
 [
-                
 six
 .
 ensure_text
@@ -4551,18 +4546,19 @@ open
 readlines
 (
 )
-            
 ]
+            
 if
 not
 l
 .
 startswith
 (
-'
+"
 #
-'
+"
 )
+        
 )
         
 return
@@ -4582,9 +4578,9 @@ BaseFile
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 File
 class
@@ -4594,9 +4590,9 @@ JavaScript
 files
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -4647,15 +4643,16 @@ minify
 =
 JavascriptMinify
 (
+            
 codecs
 .
 getreader
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 (
 self
@@ -4666,7 +4663,6 @@ open
 (
 )
 )
-                                  
 output
 quote_chars
 =
@@ -4675,6 +4671,7 @@ quote_chars
 \
 "
 "
+        
 )
         
 minify
@@ -4737,19 +4734,19 @@ read
 with
 NamedTemporaryFile
 (
-'
+"
 wb
 +
-'
+"
 )
 as
 fh1
 NamedTemporaryFile
 (
-'
+"
 wb
 +
-'
+"
 )
 as
 fh2
@@ -4811,16 +4808,17 @@ subprocess
 .
 check_output
 (
+                    
 args
 stderr
 =
 subprocess
 .
 STDOUT
-                                        
 universal_newlines
 =
 True
+                
 )
             
 except
@@ -4835,7 +4833,8 @@ errors
 .
 warn
 (
-'
+                    
+"
 JS
 minification
 verification
@@ -4844,25 +4843,26 @@ for
 %
 s
 :
-'
+"
+                    
 %
-                            
 (
 getattr
 (
 self
 .
 _file
-'
+"
 path
-'
-'
+"
+"
 <
 unknown
 >
-'
+"
 )
 )
+                
 )
                 
 for
@@ -4905,6 +4905,7 @@ object
 def
 __init__
 (
+        
 self
 base
 minify
@@ -4913,16 +4914,16 @@ False
 minify_js
 =
 False
-                 
 minify_js_verify_command
 =
 None
+    
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Initializes
 the
@@ -5081,9 +5082,9 @@ js
 )
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 minify_js
@@ -5095,12 +5096,12 @@ minify
 raise
 ValueError
 (
-'
+"
 minify_js
 requires
 minify
 .
-'
+"
 )
         
 self
@@ -5135,9 +5136,9 @@ pattern
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Yield
 path
@@ -5179,18 +5180,18 @@ handled
 patterns
 .
         
-'
-'
-'
+"
+"
+"
         
 while
 pattern
 .
 startswith
 (
-'
+"
 /
-'
+"
 )
 :
             
@@ -5329,9 +5330,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Iterates
 over
@@ -5380,17 +5381,17 @@ finder
 .
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
 .
 find
 (
-'
-'
+"
+"
 )
     
 def
@@ -5404,6 +5405,7 @@ pattern
 raise
 RuntimeError
 (
+            
 "
 '
 in
@@ -5421,12 +5423,12 @@ contains
 .
 "
 %
-                           
 self
 .
 __class__
 .
 __name__
+        
 )
     
 def
@@ -5437,9 +5439,9 @@ pattern
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 whether
@@ -5473,9 +5475,9 @@ handled
 patterns
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 any
@@ -5497,9 +5499,9 @@ file
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 an
@@ -5547,9 +5549,9 @@ BaseFile
 instance
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 not
@@ -5572,10 +5574,10 @@ path
 .
 endswith
 (
-'
+"
 .
 properties
-'
+"
 )
 :
             
@@ -5595,14 +5597,14 @@ path
 endswith
 (
 (
-'
+"
 .
 js
-'
-'
+"
+"
 .
 jsm
-'
+"
 )
 )
 :
@@ -5690,9 +5692,9 @@ instance
 "
         
 if
-'
+"
 *
-'
+"
 in
 pattern
 :
@@ -5724,8 +5726,8 @@ elif
 pattern
 =
 =
-'
-'
+"
+"
 :
             
 for
@@ -5791,9 +5793,9 @@ BaseFinder
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Helper
 to
@@ -5807,38 +5809,45 @@ file
 system
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
 (
+        
 self
+        
 base
+        
 find_executables
 =
 False
+        
 ignore
 =
 (
 )
-                 
+        
 ignore_broken_symlinks
 =
 False
+        
 find_dotfiles
 =
 False
+        
 *
 *
 kargs
+    
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Create
 a
@@ -5979,9 +5988,9 @@ bug
 1297381
 .
         
-'
-'
-'
+"
+"
+"
         
 BaseFinder
 .
@@ -6026,9 +6035,9 @@ pattern
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Actual
 implementation
@@ -6081,14 +6090,14 @@ explicitely
 requested
 .
         
-'
-'
-'
+"
+"
+"
         
 if
-'
+"
 *
-'
+"
 in
 pattern
 :
@@ -6098,8 +6107,8 @@ self
 .
 _find_glob
 (
-'
-'
+"
+"
 mozpath
 .
 split
@@ -6170,9 +6179,9 @@ path
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Actual
 implementation
@@ -6231,9 +6240,9 @@ not
 ignored
 .
         
-'
-'
-'
+"
+"
+"
         
 for
 p
@@ -6284,9 +6293,9 @@ p
 .
 startswith
 (
-'
+"
 .
-'
+"
 )
 :
                 
@@ -6294,13 +6303,13 @@ if
 p
 in
 (
-'
+"
 .
-'
-'
+"
+"
 .
 .
-'
+"
 )
 :
                     
@@ -6449,9 +6458,9 @@ pattern
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Actual
 implementation
@@ -6520,9 +6529,9 @@ entire
 tree
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 not
@@ -6552,10 +6561,10 @@ pattern
 ]
 =
 =
-'
+"
 *
 *
-'
+"
 :
             
 for
@@ -6591,9 +6600,9 @@ p
 f
         
 elif
-'
+"
 *
-'
+"
 in
 pattern
 [
@@ -6674,9 +6683,9 @@ p
 .
 startswith
 (
-'
+"
 .
-'
+"
 )
 and
 not
@@ -6687,9 +6696,9 @@ pattern
 .
 startswith
 (
-'
+"
 .
-'
+"
 )
 :
                     
@@ -6723,7 +6732,6 @@ join
 base
 p
 )
-                                                 
 pattern
 [
 1
@@ -6757,7 +6765,6 @@ pattern
 0
 ]
 )
-                                        
 pattern
 [
 1
@@ -6776,9 +6783,9 @@ BaseFinder
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Helper
 to
@@ -6791,9 +6798,9 @@ a
 JarReader
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -6807,9 +6814,9 @@ kargs
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Create
 a
@@ -6837,9 +6844,9 @@ file
 location
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 isinstance
@@ -6885,9 +6892,9 @@ pattern
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Actual
 implementation
@@ -6913,20 +6920,20 @@ was
 given
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
 .
 _find_helper
 (
+            
 pattern
 self
 .
 _files
-                                 
 lambda
 x
 :
@@ -6939,6 +6946,7 @@ _files
 x
 ]
 )
+        
 )
 class
 TarFinder
@@ -6947,9 +6955,9 @@ BaseFinder
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Helper
 to
@@ -6960,9 +6968,9 @@ a
 TarFile
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -6976,9 +6984,9 @@ kargs
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Create
 a
@@ -7006,9 +7014,9 @@ file
 location
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 isinstance
@@ -7066,9 +7074,9 @@ pattern
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Actual
 implementation
@@ -7094,20 +7102,20 @@ was
 given
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
 .
 _find_helper
 (
+            
 pattern
 self
 .
 _files
-                                 
 lambda
 x
 :
@@ -7116,7 +7124,6 @@ ExtractedTarFile
 self
 .
 _tar
-                                                            
 self
 .
 _files
@@ -7124,6 +7131,7 @@ _files
 x
 ]
 )
+        
 )
 class
 ComposedFinder
@@ -7132,9 +7140,9 @@ BaseFinder
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Composes
 multiple
@@ -7183,9 +7191,9 @@ in
 advance
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -7253,8 +7261,8 @@ finder
 .
 find
 (
-'
-'
+"
+"
 )
 :
                 
@@ -7343,6 +7351,7 @@ client
 .
 cat
 (
+            
 [
 six
 .
@@ -7351,7 +7360,6 @@ ensure_binary
 path
 )
 ]
-                                   
 rev
 =
 six
@@ -7360,6 +7368,7 @@ ensure_binary
 (
 rev
 )
+        
 )
     
 def
@@ -7424,9 +7433,9 @@ self
 repo
 rev
 =
-'
+"
 .
-'
+"
 recognize_repo_paths
 =
 False
@@ -7586,12 +7595,12 @@ hglib
 raise
 Exception
 (
-'
+"
 hglib
 package
 not
 found
-'
+"
 )
         
 super
@@ -7623,9 +7632,9 @@ repo
 .
 rstrip
 (
-'
+"
 /
-'
+"
 )
         
 self
@@ -7668,11 +7677,11 @@ repo
 encoding
 =
 b
-'
+"
 utf
 -
 8
-'
+"
 )
         
 finally
@@ -7696,9 +7705,9 @@ is
 not
 None
 else
-'
+"
 .
-'
+"
         
 self
 .
@@ -7716,18 +7725,21 @@ _client
 .
 rawcommand
 (
-[
             
+[
+                
 b
-'
+"
 files
-'
+"
+                
 b
-'
+"
 -
 -
 rev
-'
+"
+                
 six
 .
 ensure_binary
@@ -7736,8 +7748,9 @@ self
 .
 _rev
 )
-        
+            
 ]
+        
 )
         
 for
@@ -7786,13 +7799,13 @@ _recognize_repo_paths
 raise
 NotImplementedError
 (
-'
+"
 cannot
 use
 find
 with
 recognize_repo_path
-'
+"
 )
         
 return
@@ -7847,16 +7860,17 @@ _root
 raise
 ValueError
 (
-'
+                    
+"
 lookups
 in
 recognize_repo_paths
 mode
 must
 be
-'
-                                 
-'
+"
+                    
+"
 prefixed
 with
 repo
@@ -7864,9 +7878,10 @@ path
 :
 %
 s
-'
+"
 %
 path
+                
 )
             
 path
@@ -8039,16 +8054,16 @@ pattern
 .
 split
 (
-'
+"
 /
-'
+"
 )
         
 prefix
 =
-'
+"
 /
-'
+"
 .
 join
 (
@@ -8057,9 +8072,9 @@ takewhile
 lambda
 s
 :
-'
+"
 *
-'
+"
 not
 in
 s
@@ -8120,10 +8135,10 @@ prefix
 break
             
 if
-'
+"
 /
 .
-'
+"
 in
 f
 [
@@ -8171,9 +8186,9 @@ pattern
 .
 strip
 (
-'
+"
 /
-'
+"
 )
         
 for

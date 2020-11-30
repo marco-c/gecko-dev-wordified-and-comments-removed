@@ -165,9 +165,9 @@ join
 self
 .
 topobjdir
-'
+"
 build
-'
+"
 )
         
 if
@@ -199,12 +199,12 @@ join
 self
 .
 topsrcdir
-'
+"
 mozilla
-'
-'
+"
+"
 build
-'
+"
 )
         
 if
@@ -291,17 +291,18 @@ join
 self
 .
 topobjdir
-'
+"
 _tests
-'
-'
+"
+"
 xpcshell
-'
+"
 )
         
 single_test
 =
 (
+            
 len
 (
 kwargs
@@ -314,8 +315,8 @@ testPaths
 =
 =
 1
+            
 and
-                       
 os
 .
 path
@@ -332,16 +333,16 @@ testPaths
 0
 ]
 )
+            
 or
-                       
 kwargs
 [
 "
 manifest
 "
 ]
+            
 and
-                       
 (
 len
 (
@@ -360,6 +361,7 @@ test_paths
 =
 1
 )
+        
 )
         
 if
@@ -400,9 +402,9 @@ self
 .
 get_binary_path
 (
-'
+"
 xpcshell
-'
+"
 )
             
 except
@@ -415,33 +417,33 @@ self
 .
 log
 (
+                    
 logging
 .
 ERROR
-'
+"
 xpcshell
 -
 test
-'
-                         
+"
 {
-'
+"
 error
-'
+"
 :
 str
 (
 e
 )
 }
-                         
-'
+"
 ERROR
 :
 {
 error
 }
-'
+"
+                
 )
                 
 self
@@ -451,16 +453,15 @@ log
 logging
 .
 INFO
-'
+"
 xpcshell
 -
 test
-'
-                         
+"
 {
-'
+"
 help
-'
+"
 :
 e
 .
@@ -468,12 +469,11 @@ help
 (
 )
 }
-                         
-'
+"
 {
 help
 }
-'
+"
 )
                 
 return
@@ -506,11 +506,11 @@ join
 self
 .
 topobjdir
-'
+"
 mozinfo
 .
 json
-'
+"
 )
         
 if
@@ -540,11 +540,11 @@ join
 self
 .
 distdir
-'
+"
 crashreporter
 -
 symbols
-'
+"
 )
         
 if
@@ -602,9 +602,9 @@ None
             
 kwargs
 [
-'
+"
 pluginsPath
-'
+"
 ]
 =
 os
@@ -616,9 +616,9 @@ join
 self
 .
 distdir
-'
+"
 plugins
-'
+"
 )
         
 if
@@ -648,11 +648,11 @@ join
 self
 .
 topobjdir
-'
+"
 _tests
 /
 modules
-'
+"
 )
         
 if
@@ -668,9 +668,9 @@ None
             
 kwargs
 [
-'
+"
 utility_path
-'
+"
 ]
 =
 self
@@ -733,16 +733,18 @@ path
 .
 join
 (
+                
 self
 .
 statedir
-'
+"
 xpcshell
 .
 failures
 .
 ini
-'
+"
+            
 )
         
 temp_dir
@@ -756,9 +758,9 @@ join
 self
 .
 topobjdir
-'
+"
 temp
-'
+"
 )
         
 try
@@ -792,9 +794,9 @@ raise
         
 kwargs
 [
-'
+"
 tempDir
-'
+"
 ]
 =
 temp_dir
@@ -828,6 +830,7 @@ sequential
             
 print
 (
+                
 "
 Tests
 were
@@ -842,7 +845,7 @@ with
 -
 sequential
 "
-                  
+                
 "
 to
 make
@@ -856,6 +859,7 @@ by
 this
 .
 "
+            
 )
         
 return
@@ -904,9 +908,9 @@ join
 self
 .
 topobjdir
-'
+"
 build
-'
+"
 )
         
 if
@@ -1018,11 +1022,11 @@ join
 self
 .
 topobjdir
-'
+"
 dist
 /
 bin
-'
+"
 )
         
 if
@@ -1051,11 +1055,11 @@ join
 self
 .
 topobjdir
-'
+"
 _tests
 /
 modules
-'
+"
 )
         
 if
@@ -1084,11 +1088,11 @@ join
 self
 .
 topobjdir
-'
+"
 mozinfo
 .
 json
-'
+"
 )
         
 if
@@ -1114,10 +1118,11 @@ path
 .
 join
 (
+                
 self
 .
 topobjdir
-'
+"
 _tests
 /
 xpcshell
@@ -1125,7 +1130,8 @@ xpcshell
 xpcshell
 .
 ini
-'
+"
+            
 )
         
 if
@@ -1154,11 +1160,11 @@ join
 self
 .
 distdir
-'
+"
 crashreporter
 -
 symbols
-'
+"
 )
         
 if
@@ -1168,15 +1174,15 @@ substs
 .
 get
 (
-'
+"
 MOZ_BUILD_APP
-'
+"
 )
 =
 =
-'
+"
 b2g
-'
+"
 :
             
 kwargs
@@ -1233,7 +1239,6 @@ paths
 :
                     
 if
-(
 file_name
 .
 endswith
@@ -1244,17 +1249,17 @@ apk
 "
 )
 and
-                        
 file_name
 .
 startswith
 (
+                        
 "
 geckoview
 -
 withGeckoBinaries
 "
-)
+                    
 )
 :
                         
@@ -1363,18 +1368,21 @@ xpcshell
 .
 runTests
 (
+            
 kwargs
+            
 testClass
 =
 remotexpcshelltests
 .
 RemoteXPCShellTestThread
-                                   
+            
 mobileArgs
 =
 xpcshell
 .
 mobileArgs
+        
 )
         
 self
@@ -1409,12 +1417,15 @@ here
 )
     
 if
+(
+        
 conditions
 .
 is_android
 (
 build_obj
 )
+        
 or
 build_obj
 .
@@ -1422,15 +1433,17 @@ substs
 .
 get
 (
-'
+"
 MOZ_BUILD_APP
-'
+"
 )
 =
 =
-'
+"
 b2g
-'
+"
+    
+)
 :
         
 return
@@ -1455,20 +1468,22 @@ MachCommandBase
     
 Command
 (
-'
+        
+"
 xpcshell
 -
 test
-'
+"
+        
 category
 =
-'
+"
 testing
-'
-             
+"
+        
 description
 =
-'
+"
 Run
 XPCOM
 Shell
@@ -1479,8 +1494,8 @@ direct
 unit
 testing
 )
-'
-             
+"
+        
 conditions
 =
 [
@@ -1490,10 +1505,11 @@ args
 :
 True
 ]
-             
+        
 parser
 =
 get_parser
+    
 )
     
 def
@@ -1547,9 +1563,9 @@ test_objects
             
 params
 [
-'
+"
 manifest
-'
+"
 ]
 =
 m
@@ -1573,9 +1589,9 @@ self
 .
 _ensure_state_subdir_exists
 (
-'
+"
 .
-'
+"
 )
         
 if
@@ -1584,9 +1600,9 @@ params
 .
 get
 (
-'
+"
 log
-'
+"
 )
 :
             
@@ -1599,14 +1615,14 @@ _mach_context
 .
 settings
 [
-'
+"
 test
-'
+"
 ]
 [
-'
+"
 format
-'
+"
 ]
 :
 sys
@@ -1628,14 +1644,14 @@ _mach_context
 .
 settings
 [
-'
+"
 test
-'
+"
 ]
 [
-'
+"
 level
-'
+"
 ]
                 
 "
@@ -1648,9 +1664,9 @@ True
             
 params
 [
-'
+"
 log
-'
+"
 ]
 =
 structured
@@ -1666,23 +1682,24 @@ XPCShellTests
 params
 log_defaults
 fmt_defaults
+            
 )
         
 if
 not
 params
 [
-'
+"
 threadCount
-'
+"
 ]
 :
             
 params
 [
-'
+"
 threadCount
-'
+"
 ]
 =
 int
@@ -1712,15 +1729,15 @@ substs
 .
 get
 (
-'
+"
 MOZ_BUILD_APP
-'
+"
 )
 =
 =
-'
+"
 b2g
-'
+"
 :
             
 from
@@ -1730,8 +1747,13 @@ devices
 .
 android_device
 import
+(
+                
 verify_android_device
+                
 get_adb_path
+            
+)
             
 device_serial
 =
@@ -1739,9 +1761,9 @@ params
 .
 get
 (
-'
+"
 deviceSerial
-'
+"
 )
             
 verify_android_device
@@ -1759,17 +1781,17 @@ if
 not
 params
 [
-'
+"
 adbPath
-'
+"
 ]
 :
                 
 params
 [
-'
+"
 adbPath
-'
+"
 ]
 =
 get_adb_path

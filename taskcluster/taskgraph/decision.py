@@ -168,152 +168,152 @@ __name__
 )
 ARTIFACTS_DIR
 =
-'
+"
 artifacts
-'
+"
 PER_PROJECT_PARAMETERS
 =
 {
     
-'
+"
 try
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 try_tasks
-'
+"
     
 }
     
-'
+"
 try
 -
 comm
 -
 central
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 try_tasks
-'
+"
     
 }
     
-'
+"
 kaios
 -
 try
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 try_tasks
-'
+"
     
 }
     
-'
+"
 ash
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 default
-'
+"
     
 }
     
-'
+"
 cedar
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 default
-'
+"
     
 }
     
-'
+"
 oak
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 nightly_desktop
-'
+"
         
-'
+"
 release_type
-'
+"
 :
-'
+"
 nightly
 -
 oak
-'
+"
     
 }
     
-'
+"
 graphics
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 graphics_tasks
-'
+"
     
 }
     
-'
+"
 autoland
-'
+"
 :
 {
         
-'
+"
 optimize_strategies
-'
+"
 :
-'
+"
 taskgraph
 .
 optimize
@@ -321,253 +321,253 @@ optimize
 project
 .
 autoland
-'
+"
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 autoland_tasks
-'
+"
         
-'
+"
 test_manifest_loader
-'
+"
 :
-'
+"
 bugbug
-'
+"
     
 }
     
-'
+"
 mozilla
 -
 central
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 mozilla_central_tasks
-'
+"
         
-'
+"
 release_type
-'
+"
 :
-'
+"
 nightly
-'
+"
     
 }
     
-'
+"
 mozilla
 -
 beta
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 mozilla_beta_tasks
-'
+"
         
-'
+"
 release_type
-'
+"
 :
-'
+"
 beta
-'
+"
     
 }
     
-'
+"
 mozilla
 -
 release
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 mozilla_release_tasks
-'
+"
         
-'
+"
 release_type
-'
+"
 :
-'
+"
 release
-'
+"
     
 }
     
-'
+"
 mozilla
 -
 esr78
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 mozilla_esr78_tasks
-'
+"
         
-'
+"
 release_type
-'
+"
 :
-'
+"
 esr78
-'
+"
     
 }
     
-'
+"
 comm
 -
 central
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 default
-'
+"
         
-'
+"
 release_type
-'
+"
 :
-'
+"
 nightly
-'
+"
     
 }
     
-'
+"
 comm
 -
 beta
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 mozilla_beta_tasks
-'
+"
         
-'
+"
 release_type
-'
+"
 :
-'
+"
 beta
-'
+"
     
 }
     
-'
+"
 comm
 -
 esr78
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 mozilla_esr78_tasks
-'
+"
         
-'
+"
 release_type
-'
+"
 :
-'
+"
 release
-'
+"
     
 }
     
-'
+"
 pine
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 pine_tasks
-'
+"
     
 }
     
-'
+"
 kaios
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 kaios_tasks
-'
+"
     
 }
     
-'
+"
 default
-'
+"
 :
 {
         
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 default
-'
+"
     
 }
 }
@@ -575,55 +575,56 @@ try_task_config_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
-'
+"
 tasks
-'
+"
 )
 :
 [
 text_type
 ]
-    
+        
 Optional
 (
-'
+"
 browsertime
-'
+"
 )
 :
 bool
-    
+        
 Optional
 (
-'
+"
 chemspill
 -
 prio
-'
+"
 )
 :
 bool
-    
+        
 Optional
 (
-'
+"
 disable
 -
 pgo
-'
+"
 )
 :
 bool
-    
+        
 Optional
 (
-'
+"
 env
-'
+"
 )
 :
 {
@@ -631,27 +632,27 @@ text_type
 :
 text_type
 }
-    
+        
 Optional
 (
-'
+"
 gecko
 -
 profile
-'
+"
 )
 :
 bool
-    
+        
 Optional
 (
-        
+            
 "
 perftest
 -
 options
 "
-        
+            
 description
 =
 "
@@ -664,20 +665,20 @@ to
 try
 .
 "
-    
+        
 )
 :
 object
-    
+        
 Optional
 (
-        
+            
 "
 optimize
 -
 strategies
 "
-        
+            
 description
 =
 "
@@ -692,7 +693,7 @@ the
 default
 .
 "
-                    
+            
 "
 A
 module
@@ -708,7 +709,7 @@ as
 the
 strategy_override
 "
-                    
+            
 "
 argument
 in
@@ -719,42 +720,42 @@ optimize
 optimize_task_graph
 .
 "
-    
+        
 )
 :
 text_type
-    
+        
 Optional
 (
-'
+"
 rebuild
-'
+"
 )
 :
 int
-    
+        
 Optional
 (
-'
+"
 use
 -
 artifact
 -
 builds
-'
+"
 )
 :
 bool
-    
+        
 Optional
 (
-        
+            
 "
 worker
 -
 overrides
 "
-        
+            
 description
 =
 "
@@ -772,7 +773,7 @@ those
 aliases
 .
 "
-    
+        
 )
 :
 {
@@ -780,17 +781,18 @@ text_type
 :
 text_type
 }
-    
+        
 Optional
 (
-'
+"
 routes
-'
+"
 )
 :
 [
 text_type
 ]
+    
 }
 )
 "
@@ -810,13 +812,14 @@ try_task_config_schema_v2
 =
 Schema
 (
-{
     
+{
+        
 Optional
 (
-'
+"
 parameters
-'
+"
 )
 :
 {
@@ -824,6 +827,7 @@ text_type
 :
 object
 }
+    
 }
 )
 def
@@ -853,31 +857,31 @@ full_task_json
 if
 not
 (
-'
+"
 extra
-'
+"
 in
 node
 [
-'
+"
 task
-'
+"
 ]
 and
-'
+"
 treeherder
-'
+"
 in
 node
 [
-'
+"
 task
-'
+"
 ]
 [
-'
+"
 extra
-'
+"
 ]
 )
 :
@@ -888,19 +892,19 @@ th
 =
 node
 [
-'
+"
 task
-'
+"
 ]
 [
-'
+"
 extra
-'
+"
 ]
 [
-'
+"
 treeherder
-'
+"
 ]
         
 runnable_jobs
@@ -909,33 +913,31 @@ label
 ]
 =
 {
-            
-'
+"
 symbol
-'
+"
 :
 th
 [
-'
+"
 symbol
-'
+"
 ]
-        
 }
         
 for
 i
 in
 (
-'
+"
 groupName
-'
-'
+"
+"
 groupSymbol
-'
-'
+"
+"
 collection
-'
+"
 )
 :
             
@@ -963,18 +965,18 @@ th
 .
 get
 (
-'
+"
 machine
-'
+"
 {
 }
 )
 .
 get
 (
-'
+"
 platform
-'
+"
 )
 :
             
@@ -983,21 +985,21 @@ runnable_jobs
 label
 ]
 [
-'
+"
 platform
-'
+"
 ]
 =
 th
 [
-'
+"
 machine
-'
+"
 ]
 [
-'
+"
 platform
-'
+"
 ]
     
 return
@@ -1032,16 +1034,16 @@ manifests
 =
 node
 [
-'
+"
 attributes
-'
+"
 ]
 .
 get
 (
-'
+"
 test_manifests
-'
+"
 )
         
 if
@@ -1103,10 +1105,10 @@ message
 .
 find
 (
-'
+"
 try
 :
-'
+"
 )
     
 if
@@ -1118,8 +1120,8 @@ try_idx
 :
         
 return
-'
-'
+"
+"
     
 return
 message
@@ -1130,10 +1132,10 @@ try_idx
 .
 split
 (
-'
+"
 \
 n
-'
+"
 1
 )
 [
@@ -1246,9 +1248,9 @@ os
 .
 environ
 [
-'
+"
 TASK_ID
-'
+"
 ]
     
 tgg
@@ -1262,9 +1264,9 @@ options
 .
 get
 (
-'
+"
 root
-'
+"
 )
         
 parameters
@@ -1294,11 +1296,11 @@ graph_config
     
 write_artifact
 (
-'
+"
 parameters
 .
 yml
-'
+"
 dict
 (
 *
@@ -1312,11 +1314,11 @@ parameters
 write_artifact
 (
         
-'
+"
 actions
 .
 json
-'
+"
         
 render_actions_json
 (
@@ -1343,7 +1345,7 @@ to_json
     
 write_artifact
 (
-'
+"
 full
 -
 task
@@ -1351,28 +1353,31 @@ task
 graph
 .
 json
-'
+"
 full_task_json
 )
     
 write_artifact
 (
-'
+        
+"
 runnable
 -
 jobs
 .
 json
-'
+"
 full_task_graph_to_runnable_jobs
 (
 full_task_json
 )
+    
 )
     
 write_artifact
 (
-'
+        
+"
 manifests
 -
 by
@@ -1382,17 +1387,18 @@ task
 json
 .
 gz
-'
-                   
+"
+        
 full_task_graph_to_manifests_by_task
 (
 full_task_json
 )
+    
 )
     
 write_artifact
 (
-'
+"
 tests
 -
 by
@@ -1402,7 +1408,7 @@ manifest
 json
 .
 gz
-'
+"
 resolver
 .
 tests_by_manifest
@@ -1420,13 +1426,13 @@ full_task_json
     
 write_artifact
 (
-'
+"
 target
 -
 tasks
 .
 json
-'
+"
 list
 (
 tgg
@@ -1443,13 +1449,13 @@ keys
     
 write_artifact
 (
-'
+"
 task
 -
 graph
 .
 json
-'
+"
 tgg
 .
 morphed_task_graph
@@ -1461,7 +1467,7 @@ to_json
     
 write_artifact
 (
-'
+"
 label
 -
 to
@@ -1469,7 +1475,7 @@ to
 taskid
 .
 json
-'
+"
 tgg
 .
 label_to_taskid
@@ -1578,76 +1584,80 @@ product_dir
 =
 graph_config
 [
-'
+"
 product
 -
 dir
-'
+"
 ]
     
 parameters
 =
 {
+        
 n
 :
 options
 [
 n
 ]
+        
 for
 n
 in
 [
-        
-'
+            
+"
 base_repository
-'
-        
-'
+"
+            
+"
 head_repository
-'
-        
-'
+"
+            
+"
 head_rev
-'
-        
-'
+"
+            
+"
 head_ref
-'
-        
-'
+"
+            
+"
 project
-'
-        
-'
+"
+            
+"
 pushlog_id
-'
-        
-'
+"
+            
+"
 pushdate
-'
-        
-'
+"
+            
+"
 owner
-'
-        
-'
+"
+            
+"
 level
-'
-        
-'
+"
+            
+"
 target_tasks_method
-'
-        
-'
+"
+            
+"
 tasks_for
-'
-    
+"
+        
 ]
+        
 if
 n
 in
 options
+    
 }
     
 for
@@ -1655,21 +1665,21 @@ n
 in
 (
         
-'
+"
 comm_base_repository
-'
+"
         
-'
+"
 comm_head_repository
-'
+"
         
-'
+"
 comm_head_rev
-'
+"
         
-'
+"
 comm_head_ref
-'
+"
     
 )
 :
@@ -1715,24 +1725,24 @@ product_dir
     
 parameters
 [
-'
+"
 filters
-'
+"
 ]
 =
 [
         
-'
+"
 target_tasks_method
-'
+"
     
 ]
     
 parameters
 [
-'
+"
 existing_tasks
-'
+"
 ]
 =
 {
@@ -1740,9 +1750,9 @@ existing_tasks
     
 parameters
 [
-'
+"
 do_not_optimize
-'
+"
 ]
 =
 [
@@ -1750,18 +1760,18 @@ do_not_optimize
     
 parameters
 [
-'
+"
 build_number
-'
+"
 ]
 =
 1
     
 parameters
 [
-'
+"
 version
-'
+"
 ]
 =
 get_version
@@ -1771,9 +1781,9 @@ product_dir
     
 parameters
 [
-'
+"
 app_version
-'
+"
 ]
 =
 get_app_version
@@ -1783,9 +1793,9 @@ product_dir
     
 parameters
 [
-'
+"
 message
-'
+"
 ]
 =
 try_syntax_from_message
@@ -1795,103 +1805,105 @@ commit_message
     
 parameters
 [
-'
+"
 hg_branch
-'
+"
 ]
 =
 get_hg_revision_branch
 (
+        
 GECKO
 revision
 =
 parameters
 [
-'
+"
 head_rev
-'
+"
 ]
+    
 )
     
 parameters
 [
-'
+"
 next_version
-'
+"
 ]
 =
 None
     
 parameters
 [
-'
+"
 optimize_strategies
-'
+"
 ]
 =
 None
     
 parameters
 [
-'
+"
 optimize_target_tasks
-'
+"
 ]
 =
 True
     
 parameters
 [
-'
+"
 phabricator_diff
-'
+"
 ]
 =
 None
     
 parameters
 [
-'
+"
 release_type
-'
+"
 ]
 =
-'
-'
+"
+"
     
 parameters
 [
-'
+"
 release_eta
-'
+"
 ]
 =
-'
-'
+"
+"
     
 parameters
 [
-'
+"
 release_enable_partner_repack
-'
+"
 ]
 =
 False
     
 parameters
 [
-'
+"
 release_enable_partner_attribution
-'
+"
 ]
 =
 False
     
 parameters
 [
-'
+"
 release_partners
-'
+"
 ]
 =
 [
@@ -1899,9 +1911,9 @@ release_partners
     
 parameters
 [
-'
+"
 release_partner_config
-'
+"
 ]
 =
 {
@@ -1909,36 +1921,36 @@ release_partner_config
     
 parameters
 [
-'
+"
 release_partner_build_number
-'
+"
 ]
 =
 1
     
 parameters
 [
-'
+"
 release_enable_emefree
-'
+"
 ]
 =
 False
     
 parameters
 [
-'
+"
 release_product
-'
+"
 ]
 =
 None
     
 parameters
 [
-'
+"
 required_signoffs
-'
+"
 ]
 =
 [
@@ -1946,9 +1958,9 @@ required_signoffs
     
 parameters
 [
-'
+"
 signoff_urls
-'
+"
 ]
 =
 {
@@ -1956,29 +1968,29 @@ signoff_urls
     
 parameters
 [
-'
+"
 test_manifest_loader
-'
+"
 ]
 =
-'
+"
 default
-'
+"
     
 parameters
 [
-'
+"
 try_mode
-'
+"
 ]
 =
 None
     
 parameters
 [
-'
+"
 try_task_config
-'
+"
 ]
 =
 {
@@ -1986,54 +1998,54 @@ try_task_config
     
 parameters
 [
-'
+"
 try_options
-'
+"
 ]
 =
 None
     
 if
-'
-'
+"
+"
 not
 in
 parameters
 [
-'
+"
 owner
-'
+"
 ]
 :
         
 parameters
 [
-'
+"
 owner
-'
+"
 ]
 +
 =
-'
+"
 noreply
 .
 mozilla
 .
 org
-'
+"
     
 parameters
 [
-'
+"
 build_date
-'
+"
 ]
 =
 parameters
 [
-'
+"
 pushdate
-'
+"
 ]
 or
 int
@@ -2047,9 +2059,9 @@ time
     
 parameters
 [
-'
+"
 moz_build_date
-'
+"
 ]
 =
 six
@@ -2081,21 +2093,22 @@ gmtime
 (
 parameters
 [
-'
+"
 build_date
-'
+"
 ]
 )
 )
+    
 )
     
 project
 =
 parameters
 [
-'
+"
 project
-'
+"
 ]
     
 try
@@ -2119,6 +2132,7 @@ logger
 .
 warning
 (
+            
 "
 using
 default
@@ -2130,7 +2144,7 @@ add
 }
 to
 "
-                       
+            
 "
 PER_PROJECT_PARAMETERS
 in
@@ -2140,7 +2154,7 @@ to
 customize
 behavior
 "
-                       
+            
 "
 for
 this
@@ -2152,6 +2166,7 @@ format
 project
 __file__
 )
+        
 )
         
 parameters
@@ -2160,9 +2175,9 @@ update
 (
 PER_PROJECT_PARAMETERS
 [
-'
+"
 default
-'
+"
 ]
 )
     
@@ -2171,67 +2186,67 @@ options
 .
 get
 (
-'
+"
 target_tasks_method
-'
+"
 )
 :
         
 parameters
 [
-'
+"
 target_tasks_method
-'
+"
 ]
 =
 options
 [
-'
+"
 target_tasks_method
-'
+"
 ]
     
 if
-'
+"
 DONTBUILD
-'
+"
 in
 commit_message
 and
 options
 [
-'
+"
 tasks_for
-'
+"
 ]
 =
 =
-'
+"
 hg
 -
 push
-'
+"
 :
         
 parameters
 [
-'
+"
 target_tasks_method
-'
+"
 ]
 =
-'
+"
 nothing
-'
+"
     
 if
 options
 .
 get
 (
-'
+"
 include_push_tasks
-'
+"
 )
 :
         
@@ -2241,9 +2256,9 @@ options
 .
 get
 (
-'
+"
 rebuild_kinds
-'
+"
 [
 ]
 )
@@ -2255,43 +2270,43 @@ parameters
 .
 setdefault
 (
-'
+"
 release_history
-'
+"
 dict
 (
 )
 )
     
 if
-'
+"
 nightly
-'
+"
 in
 parameters
 .
 get
 (
-'
+"
 target_tasks_method
-'
-'
-'
+"
+"
+"
 )
 :
         
 parameters
 [
-'
+"
 release_history
-'
+"
 ]
 =
 populate_release_history
 (
-'
+"
 Firefox
-'
+"
 project
 )
     
@@ -2300,9 +2315,9 @@ options
 .
 get
 (
-'
+"
 try_task_config_file
-'
+"
 )
 :
         
@@ -2318,9 +2333,9 @@ options
 .
 get
 (
-'
+"
 try_task_config_file
-'
+"
 )
 )
     
@@ -2340,33 +2355,33 @@ os
 getcwd
 (
 )
-'
+"
 try_task_config
 .
 json
-'
+"
 )
     
 if
-'
+"
 try
-'
+"
 in
 project
 and
 options
 [
-'
+"
 tasks_for
-'
+"
 ]
 =
 =
-'
+"
 hg
 -
 push
-'
+"
 :
         
 set_try_config
@@ -2380,9 +2395,9 @@ options
 .
 get
 (
-'
+"
 optimize_target_tasks
-'
+"
 )
 is
 not
@@ -2391,30 +2406,30 @@ None
         
 parameters
 [
-'
+"
 optimize_target_tasks
-'
+"
 ]
 =
 options
 [
-'
+"
 optimize_target_tasks
-'
+"
 ]
     
 if
-'
+"
 decision
 -
 parameters
-'
+"
 in
 graph_config
 [
-'
+"
 taskgraph
-'
+"
 ]
 :
         
@@ -2422,29 +2437,30 @@ find_object
 (
 graph_config
 [
-'
+"
 taskgraph
-'
+"
 ]
 [
-'
+"
 decision
 -
 parameters
-'
+"
 ]
 )
 (
+            
 graph_config
-                                                                      
 parameters
+        
 )
     
 parameters
 [
-'
+"
 backstop
-'
+"
 ]
 =
 is_backstop
@@ -2585,6 +2601,7 @@ TaskGraph
 .
 from_json
 (
+        
 get_artifact
 (
 decision_task
@@ -2600,13 +2617,14 @@ graph
 json
 "
 )
+    
 )
     
 parameters
 [
-'
+"
 existing_tasks
-'
+"
 ]
 =
 find_existing_tasks_from_previous_kinds
@@ -2661,9 +2679,9 @@ with
 open
 (
 task_config_file
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -2684,9 +2702,9 @@ task_config
 .
 pop
 (
-'
+"
 version
-'
+"
 1
 )
         
@@ -2701,6 +2719,7 @@ validate_schema
 (
                 
 try_task_config_schema
+                
 task_config
                 
 "
@@ -2716,20 +2735,20 @@ json
             
 parameters
 [
-'
+"
 try_mode
-'
+"
 ]
 =
-'
+"
 try_task_config
-'
+"
             
 parameters
 [
-'
+"
 try_task_config
-'
+"
 ]
 =
 task_config
@@ -2745,6 +2764,7 @@ validate_schema
 (
                 
 try_task_config_schema_v2
+                
 task_config
                 
 "
@@ -2764,9 +2784,9 @@ update
 (
 task_config
 [
-'
+"
 parameters
-'
+"
 ]
 )
             
@@ -2794,32 +2814,33 @@ format
 (
 task_config_version
 )
+            
 )
     
 if
-'
+"
 try
 :
-'
+"
 in
 parameters
 [
-'
+"
 message
-'
+"
 ]
 :
         
 parameters
 [
-'
+"
 try_mode
-'
+"
 ]
 =
-'
+"
 try_option_syntax
-'
+"
         
 parameters
 .
@@ -2829,9 +2850,9 @@ parse_message
 (
 parameters
 [
-'
+"
 message
-'
+"
 ]
 )
 )
@@ -2841,9 +2862,9 @@ else
         
 parameters
 [
-'
+"
 try_options
-'
+"
 ]
 =
 None
@@ -2851,22 +2872,22 @@ None
 if
 parameters
 [
-'
+"
 try_mode
-'
+"
 ]
 =
 =
-'
+"
 try_task_config
-'
+"
 :
         
 parameters
 [
-'
+"
 optimize_target_tasks
-'
+"
 ]
 =
 False
@@ -2876,9 +2897,9 @@ else
         
 parameters
 [
-'
+"
 optimize_target_tasks
-'
+"
 ]
 =
 True
@@ -2999,13 +3020,13 @@ logger
 .
 info
 (
-'
+"
 writing
 artifact
 file
 {
 }
-'
+"
 .
 format
 (
@@ -3049,10 +3070,10 @@ filename
 .
 endswith
 (
-'
+"
 .
 yml
-'
+"
 )
 :
         
@@ -3060,9 +3081,9 @@ with
 open
 (
 path
-'
+"
 w
-'
+"
 )
 as
 f
@@ -3087,10 +3108,10 @@ filename
 .
 endswith
 (
-'
+"
 .
 json
-'
+"
 )
 :
         
@@ -3098,9 +3119,9 @@ with
 open
 (
 path
-'
+"
 w
-'
+"
 )
 as
 f
@@ -3121,11 +3142,11 @@ indent
 separators
 =
 (
-'
-'
-'
+"
+"
+"
 :
-'
+"
 )
 )
     
@@ -3134,12 +3155,12 @@ filename
 .
 endswith
 (
-'
+"
 .
 json
 .
 gz
-'
+"
 )
 :
         
@@ -3152,9 +3173,9 @@ gzip
 open
 (
 path
-'
+"
 wb
-'
+"
 )
 as
 f
@@ -3173,11 +3194,11 @@ data
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
     
@@ -3229,10 +3250,10 @@ filename
 .
 endswith
 (
-'
+"
 .
 yml
-'
+"
 )
 :
         
@@ -3248,10 +3269,10 @@ filename
 .
 endswith
 (
-'
+"
 .
 json
-'
+"
 )
 :
         
@@ -3259,9 +3280,9 @@ with
 open
 (
 path
-'
+"
 r
-'
+"
 )
 as
 f
@@ -3280,12 +3301,12 @@ filename
 .
 endswith
 (
-'
+"
 .
 json
 .
 gz
-'
+"
 )
 :
         
@@ -3298,9 +3319,9 @@ gzip
 open
 (
 path
-'
+"
 rb
-'
+"
 )
 as
 f
@@ -3315,11 +3336,11 @@ f
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
     

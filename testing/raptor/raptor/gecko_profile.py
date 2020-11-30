@@ -60,13 +60,13 @@ RaptorLogger
 (
 component
 =
-'
+"
 raptor
 -
 gecko
 -
 profile
-'
+"
 )
 class
 GeckoProfile
@@ -152,9 +152,9 @@ test_config
 .
 get
 (
-'
+"
 gecko_profile_interval
-'
+"
 1
 )
         
@@ -164,9 +164,9 @@ test_config
 .
 get
 (
-'
+"
 gecko_profile_entries
-'
+"
 1000000
 )
         
@@ -176,9 +176,9 @@ raptor_config
 .
 get
 (
-'
+"
 gecko_profile_interval
-'
+"
 None
 )
         
@@ -199,9 +199,9 @@ raptor_config
 .
 get
 (
-'
+"
 gecko_profile_entries
-'
+"
 None
 )
         
@@ -217,45 +217,47 @@ gecko_profile_entries
 cmd_line_entries
         
 if
+(
+            
 not
 self
 .
 raptor_config
 [
-'
+"
 symbols_path
-'
+"
 ]
+            
 and
-\
-           
 self
 .
 raptor_config
 [
-'
+"
 run_local
-'
+"
 ]
+            
 and
-\
-           
-'
+"
 MOZ_DEVELOPER_OBJ_DIR
-'
+"
 in
 os
 .
 environ
+        
+)
 :
             
 self
 .
 raptor_config
 [
-'
+"
 symbols_path
-'
+"
 ]
 =
 os
@@ -264,47 +266,47 @@ path
 .
 join
 (
+                
 os
 .
 environ
 [
-'
+"
 MOZ_DEVELOPER_OBJ_DIR
-'
+"
 ]
-                                                              
-'
+"
 dist
-'
-                                                              
-'
+"
+"
 crashreporter
 -
 symbols
-'
+"
+            
 )
         
 os
 .
 environ
 [
-'
+"
 MOZ_CRASHREPORTER_NO_REPORT
-'
+"
 ]
 =
-'
+"
 1
-'
+"
         
 if
 self
 .
 raptor_config
 [
-'
+"
 symbols_path
-'
+"
 ]
 :
             
@@ -312,14 +314,14 @@ os
 .
 environ
 [
-'
+"
 MOZ_CRASHREPORTER
-'
+"
 ]
 =
-'
+"
 1
-'
+"
         
 else
 :
@@ -328,14 +330,14 @@ os
 .
 environ
 [
-'
+"
 MOZ_CRASHREPORTER_DISABLE
-'
+"
 ]
 =
-'
+"
 1
-'
+"
         
 self
 .
@@ -351,7 +353,6 @@ join
 self
 .
 upload_dir
-            
 "
 profile_
 {
@@ -365,9 +366,9 @@ format
 (
 test_config
 [
-'
+"
 name
-'
+"
 ]
 )
         
@@ -408,9 +409,9 @@ symbol_paths
 =
 {
             
-'
+"
 FIREFOX
-'
+"
 :
 tempfile
 .
@@ -418,9 +419,9 @@ mkdtemp
 (
 )
             
-'
+"
 WINDOWS
-'
+"
 :
 tempfile
 .
@@ -434,6 +435,7 @@ LOG
 .
 info
 (
+            
 "
 Activating
 gecko
@@ -443,7 +445,7 @@ profile
 dir
 :
 "
-                 
+            
 "
 {
 0
@@ -459,18 +461,18 @@ entries
 2
 }
 "
-                 
 .
 format
 (
+                
 self
 .
 gecko_profile_dir
-                         
 gecko_profile_interval
-                         
 gecko_profile_entries
+            
 )
+        
 )
     
 def
@@ -479,7 +481,6 @@ _save_gecko_profile
 self
 symbolicator
 missing_symbols_zip
-                            
 profile_path
 )
 :
@@ -506,9 +507,9 @@ with
 open
 (
 profile_path
-'
+"
 r
-'
+"
 )
 as
 profile_file
@@ -529,8 +530,8 @@ dump_and_integrate_missing_symbols
 (
                 
 profile
-                
 missing_symbols_zip
+            
 )
             
 symbolicator
@@ -572,7 +573,6 @@ profile
 0
 }
 "
-                
 .
 format
 (
@@ -589,6 +589,7 @@ LOG
 .
 critical
 (
+                
 "
 Encountered
 an
@@ -596,19 +597,19 @@ exception
 during
 profile
 "
-                         
+                
 "
 symbolication
 {
 0
 }
 "
-                         
 .
 format
 (
 profile_path
 )
+            
 )
     
 def
@@ -626,7 +627,6 @@ all
 profiles
 files
 .
-        
 "
 "
 "
@@ -643,9 +643,9 @@ raptor_config
 .
 get
 (
-'
+"
 browsertime
-'
+"
 )
 :
             
@@ -657,9 +657,9 @@ raptor_config
 .
 get
 (
-'
+"
 browsertime_result_dir
-'
+"
 )
             
 for
@@ -802,19 +802,19 @@ symbolicator
 =
 ProfileSymbolicator
 (
-{
             
+{
+                
 "
 enableTracing
 "
 :
 0
-            
+                
 "
 remoteSymbolServer
 "
 :
-                
 "
 https
 :
@@ -830,31 +830,31 @@ symbolicate
 /
 v4
 "
-            
+                
 "
 maxCacheEntries
 "
 :
 2000000
-            
+                
 "
 prefetchInterval
 "
 :
 12
-            
+                
 "
 prefetchThreshold
 "
 :
 48
-            
+                
 "
 prefetchMaxSymbolsPerLib
 "
 :
 3
-            
+                
 "
 defaultApp
 "
@@ -862,7 +862,7 @@ defaultApp
 "
 FIREFOX
 "
-            
+                
 "
 defaultOs
 "
@@ -870,7 +870,7 @@ defaultOs
 "
 WINDOWS
 "
-            
+                
 "
 symbolPaths
 "
@@ -878,8 +878,9 @@ symbolPaths
 self
 .
 symbol_paths
-        
+            
 }
+        
 )
         
 if
@@ -889,9 +890,9 @@ raptor_config
 .
 get
 (
-'
+"
 symbols_path
-'
+"
 )
 is
 not
@@ -907,9 +908,9 @@ self
 .
 raptor_config
 [
-'
+"
 symbols_path
-'
+"
 ]
 )
 :
@@ -923,9 +924,9 @@ self
 .
 raptor_config
 [
-'
+"
 symbols_path
-'
+"
 ]
                 
 )
@@ -941,9 +942,9 @@ self
 .
 raptor_config
 [
-'
+"
 symbols_path
-'
+"
 ]
 )
 :
@@ -957,9 +958,9 @@ self
 .
 raptor_config
 [
-'
+"
 symbols_path
-'
+"
 ]
                 
 )
@@ -975,9 +976,9 @@ self
 .
 raptor_config
 [
-'
+"
 symbols_path
-'
+"
 ]
 )
 :
@@ -988,9 +989,9 @@ self
 .
 raptor_config
 [
-'
+"
 symbols_path
-'
+"
 ]
                 
 symbolicator
@@ -1026,7 +1027,6 @@ join
 self
 .
 upload_dir
-                                           
 "
 missingsymbols
 .
@@ -1061,9 +1061,9 @@ ZipFile
 self
 .
 profile_arcname
-'
+"
 a
-'
+"
 mode
 )
 as
@@ -1120,24 +1120,22 @@ self
 .
 _save_gecko_profile
 (
+                    
 symbolicator
-                                         
 missing_symbols_zip
-                                         
 profile_path
+                
 )
                 
 path_in_zip
 =
-\
-                    
 os
 .
 path
 .
 join
 (
-                        
+                    
 "
 profile_
 {
@@ -1151,18 +1149,19 @@ self
 .
 test_config
 [
-'
+"
 name
-'
+"
 ]
 )
-                        
+                    
 testname
 +
 "
 .
 profile
 "
+                
 )
                 
 LOG
@@ -1182,14 +1181,15 @@ archive
 1
 }
 "
-                    
 .
 format
 (
+                        
 path_in_zip
 self
 .
 profile_arcname
+                    
 )
                 
 )
@@ -1238,13 +1238,13 @@ archive
 .
 format
 (
+                            
 profile_path
-                                              
 path_in_zip
-                                              
 self
 .
 profile_arcname
+                        
 )
                     
 )
@@ -1253,9 +1253,9 @@ os
 .
 environ
 [
-'
+"
 RAPTOR_LATEST_GECKO_PROFILE_ARCHIVE
-'
+"
 ]
 =
 self

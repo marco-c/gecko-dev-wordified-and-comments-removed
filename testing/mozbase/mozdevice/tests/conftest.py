@@ -235,10 +235,9 @@ setattr
 mozdevice
 .
 ADBDevice
-                        
-'
+"
 command_output
-'
+"
 command_output_wrapper
 )
 pytest
@@ -325,6 +324,7 @@ mocking
 def
 shell_output_wrapper
 (
+        
 object
 cmd
 env
@@ -336,10 +336,10 @@ None
 timeout
 =
 None
-                             
 enable_run_as
 =
 False
+    
 )
 :
         
@@ -459,18 +459,18 @@ adb
 "
         
 if
-'
+"
 pm
 list
 package
 error
-'
+"
 in
 cmd
 :
             
 return
-'
+"
 Error
 :
 Could
@@ -479,29 +479,29 @@ access
 the
 Package
 Manager
-'
+"
         
 elif
-'
+"
 pm
 list
 package
 none
-'
+"
 in
 cmd
 :
             
 return
-'
-'
+"
+"
         
 elif
-'
+"
 pm
 list
 package
-'
+"
 in
 cmd
 :
@@ -527,14 +527,14 @@ geckoview_example
             
 return
 (
-'
+"
 package
 :
 {
 }
 \
 n
-'
+"
 *
 len
 (
@@ -572,9 +572,9 @@ setattr
 mozdevice
 .
 ADBDevice
-'
+"
 shell_output
-'
+"
 shell_output_wrapper
 )
 pytest
@@ -757,9 +757,9 @@ ADBError
 "
         
 if
-'
+"
 internal_storage
-'
+"
 in
 path
 :
@@ -774,14 +774,17 @@ monkeypatch
 .
 setattr
 (
+        
 mozdevice
 .
 ADBDevice
-                        
-'
+        
+"
 is_path_internal_storage
-'
+"
+        
 is_path_internal_storage_wrapper
+    
 )
 pytest
 .
@@ -881,14 +884,15 @@ monkeypatch
 .
 setattr
 (
+        
 mozdevice
 .
 ADBDevice
-                        
-'
+"
 enable_run_as_for_path
-'
+"
 enable_run_as_for_path_wrapper
+    
 )
 pytest
 .
@@ -974,6 +978,7 @@ mocking
 def
 shell_bool_wrapper
 (
+        
 object
 cmd
 env
@@ -985,10 +990,10 @@ None
 timeout
 =
 None
-                           
 enable_run_as
 =
 False
+    
 )
 :
         
@@ -1125,9 +1130,9 @@ setattr
 mozdevice
 .
 ADBDevice
-'
+"
 shell_bool
-'
+"
 shell_bool_wrapper
 )
 pytest
@@ -1236,9 +1241,9 @@ object
 mozdevice
 .
 ADBDevice
-'
+"
 __init__
-'
+"
 lambda
 self
 :
@@ -1453,9 +1458,9 @@ kwargs
 .
 pop
 (
-'
+"
 text
-'
+"
 )
         
 func
