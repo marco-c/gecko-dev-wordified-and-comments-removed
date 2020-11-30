@@ -341,9 +341,6 @@ aElement
 Element
 getFirstSelectedCell
 (
-out
-Range
-aFirstRangeOfSelection
 )
 ;
 [
@@ -363,9 +360,6 @@ aColIndex
 Element
 getNextSelectedCell
 (
-out
-Range
-aNextSelectedCellRange
 )
 ;
 }
