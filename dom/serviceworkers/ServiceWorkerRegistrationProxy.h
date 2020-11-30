@@ -62,8 +62,10 @@ final
 public
 ServiceWorkerRegistrationListener
 {
+RefPtr
+<
 ServiceWorkerRegistrationParent
-*
+>
 mActor
 ;
 nsCOMPtr

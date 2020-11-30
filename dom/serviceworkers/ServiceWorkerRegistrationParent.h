@@ -43,6 +43,11 @@ mProxy
 bool
 mDeleteSent
 ;
+~
+ServiceWorkerRegistrationParent
+(
+)
+;
 void
 ActorDestroy
 (
@@ -101,11 +106,12 @@ override
 ;
 public
 :
-ServiceWorkerRegistrationParent
+NS_INLINE_DECL_REFCOUNTING
 (
+ServiceWorkerRegistrationParent
+override
 )
 ;
-~
 ServiceWorkerRegistrationParent
 (
 )
