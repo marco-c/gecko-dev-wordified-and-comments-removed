@@ -4364,6 +4364,13 @@ Allow
 (
 )
 ;
+CASES_FOR_getdents
+:
+return
+Allow
+(
+)
+;
 CASES_FOR_ftruncate
 :
 case
@@ -6476,8 +6483,6 @@ Allow
 (
 )
 ;
-CASES_FOR_getdents
-:
 case
 __NR_writev
 :
