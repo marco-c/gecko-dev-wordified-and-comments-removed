@@ -57,6 +57,11 @@ nsIFOG
 .
 idl
 '
+'
+nsIGleanMetrics
+.
+idl
+'
 ]
 with
 Files
