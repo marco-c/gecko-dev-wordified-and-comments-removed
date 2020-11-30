@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsISupports
+.
+h
+"
+#
+include
+"
 nsWeakReference
 .
 h
