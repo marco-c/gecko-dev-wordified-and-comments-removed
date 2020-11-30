@@ -82,10 +82,6 @@ fetch
 /
 dom
 /
-file
-/
-dom
-/
 indexedDB
 /
 dom
