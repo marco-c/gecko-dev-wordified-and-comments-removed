@@ -1162,16 +1162,6 @@ inspector
 ;
 this
 .
-highlighter
-=
-this
-.
-inspectorFront
-.
-highlighter
-;
-this
-.
 walker
 =
 this
