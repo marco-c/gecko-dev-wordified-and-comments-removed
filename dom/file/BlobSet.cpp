@@ -43,6 +43,13 @@ MultipartBlobImpl
 .
 h
 "
+#
+include
+"
+StringBlobImpl
+.
+h
+"
 namespace
 mozilla
 {

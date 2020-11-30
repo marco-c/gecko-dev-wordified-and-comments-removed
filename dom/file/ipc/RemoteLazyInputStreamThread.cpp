@@ -61,6 +61,13 @@ nsXPCOMPrivate
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+ipc
+;
 namespace
 mozilla
 {

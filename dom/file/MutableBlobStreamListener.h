@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsTString
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
