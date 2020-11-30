@@ -4336,6 +4336,12 @@ return
 {
 }
 ;
+const
+auto
+notLost
+=
+mNotLost
+;
 auto
 &
 state
