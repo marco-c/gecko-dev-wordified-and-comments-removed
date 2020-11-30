@@ -547,6 +547,11 @@ PlaybackState
 )
 const
 ;
+void
+NotifyPageTitleChanged
+(
+)
+;
 protected
 :
 ~

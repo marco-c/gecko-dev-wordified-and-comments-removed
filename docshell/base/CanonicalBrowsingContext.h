@@ -757,6 +757,12 @@ GetMediaController
 )
 ;
 bool
+HasCreatedMediaController
+(
+)
+const
+;
+bool
 LoadInParent
 (
 nsDocShellLoadState
