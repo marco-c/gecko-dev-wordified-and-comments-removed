@@ -21,6 +21,13 @@ h
 #
 include
 "
+gfxTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Maybe
@@ -352,9 +359,12 @@ IDXGIOutput
 aOutOutput
 )
 ;
-bool
+void
 CheckHardwareStretchingSupport
 (
+HwStretchingSupport
+&
+aRv
 )
 ;
 bool
