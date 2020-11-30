@@ -1717,9 +1717,17 @@ ext
 !
 leaf
 .
+toLowerCase
+(
+)
+.
 endsWith
 (
 ext
+.
+toLowerCase
+(
+)
 )
 &
 &
