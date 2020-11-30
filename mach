@@ -189,7 +189,6 @@ tests
 -
 client
 test
-visualmetrics
 web
 -
 platform
