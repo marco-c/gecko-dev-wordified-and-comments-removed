@@ -89,7 +89,7 @@ Separator
 BlockUrl
 "
 "
-ShowPrivacyInfo
+AboutSponsored
 "
 ]
 ;
