@@ -50,28 +50,28 @@ register_callback_action
     
 name
 =
-"
+'
 run
 -
 all
 -
 talos
-"
+'
     
 title
 =
-"
+'
 Run
 All
 Talos
 Tests
-"
+'
     
 symbol
 =
-"
+'
 raT
-"
+'
     
 description
 =
@@ -99,65 +99,65 @@ schema
 =
 {
         
-"
+'
 type
-"
+'
 :
-"
+'
 object
-"
+'
         
-"
+'
 properties
-"
+'
 :
 {
             
-"
+'
 times
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 integer
-"
+'
                 
-"
+'
 default
-"
+'
 :
 1
                 
-"
+'
 minimum
-"
+'
 :
 1
                 
-"
+'
 maximum
-"
+'
 :
 6
                 
-"
+'
 title
-"
+'
 :
-"
+'
 Times
-"
+'
                 
-"
+'
 description
-"
+'
 :
-"
+'
 How
 many
 times
@@ -166,15 +166,15 @@ run
 each
 task
 .
-"
+'
             
 }
         
 }
         
-"
+'
 additionalProperties
-"
+'
 :
 False
     
@@ -200,7 +200,6 @@ fetch_graph_and_labels
         
 parameters
 graph_config
-    
 )
     
 times
@@ -209,9 +208,9 @@ input
 .
 get
 (
-"
+'
 times
-"
+'
 1
 )
     
@@ -227,12 +226,12 @@ times
 to_run
 =
 [
-            
 label
-            
+                  
 for
 label
 entry
+                  
 in
 six
 .
@@ -242,23 +241,23 @@ full_task_graph
 .
 tasks
 )
-            
+                  
 if
-"
+'
 talos_try_name
-"
+'
 in
 entry
 .
 attributes
-            
+                  
 and
 standard_filter
 (
 entry
 parameters
 )
-        
+                  
 ]
         
 create_tasks
@@ -282,8 +281,7 @@ logger
 .
 info
 (
-            
-"
+'
 Scheduled
 {
 }
@@ -297,7 +295,7 @@ time
 {
 }
 )
-"
+'
 .
 format
 (
@@ -310,5 +308,4 @@ i
 1
 times
 )
-        
 )

@@ -6,8 +6,8 @@ print_function
 unicode_literals
 LINUX_WASI_SYSROOT
 =
-"
+'
 wasi
 -
 sysroot
-"
+'

@@ -7,9 +7,14 @@ mozparsers
 .
 shared_telemetry_utils
 import
+(
+    
 StringTable
+    
 static_assert
+    
 ParserError
+)
 from
 mozparsers
 import
@@ -224,6 +229,7 @@ format
 (
 name_index
 )
+              
 file
 =
 output
@@ -242,9 +248,7 @@ output
     
 static_assert
 (
-        
 output
-        
 "
 sizeof
 (
@@ -257,7 +261,7 @@ UINT32_MAX
 "
 %
 table_name
-        
+                  
 "
 index
 overflow
@@ -269,7 +273,6 @@ s
 "
 %
 table_name
-    
 )
     
 print
@@ -421,7 +424,6 @@ string_table_name
     
 static_assert
 (
-        
 output
 "
 sizeof
@@ -435,11 +437,11 @@ UINT32_MAX
 "
 %
 string_table_name
+                  
 "
 index
 overflow
 "
-    
 )
     
 print
@@ -462,9 +464,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

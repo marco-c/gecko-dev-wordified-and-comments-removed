@@ -20,9 +20,8 @@ util
 scriptworker
 import
 (
-    
 BALROG_SCOPE_ALIAS_TO_PROJECT
-    
+                                         
 BALROG_SERVER_SCOPES
 )
 logger
@@ -37,55 +36,55 @@ PLATFORM_RENAMES
 =
 {
     
-"
+'
 windows2012
 -
 32
-"
+'
 :
-"
+'
 win32
-"
+'
     
-"
+'
 windows2012
 -
 64
-"
+'
 :
-"
+'
 win64
-"
+'
     
-"
+'
 windows2012
 -
 aarch64
-"
+'
 :
-"
+'
 win64
 -
 aarch64
-"
+'
     
-"
+'
 osx
 -
 cross
-"
+'
 :
-"
+'
 macosx64
-"
+'
     
-"
+'
 osx
-"
+'
 :
-"
+'
 macosx64
-"
+'
 }
 BALROG_PLATFORM_MAP
 =
@@ -96,11 +95,13 @@ linux
 "
 :
 [
+        
 "
 Linux_x86
 -
 gcc3
 "
+    
 ]
     
 "
@@ -108,11 +109,13 @@ linux32
 "
 :
 [
+        
 "
 Linux_x86
 -
 gcc3
 "
+    
 ]
     
 "
@@ -120,11 +123,13 @@ linux64
 "
 :
 [
+        
 "
 Linux_x86_64
 -
 gcc3
 "
+    
 ]
     
 "
@@ -136,6 +141,7 @@ reporter
 "
 :
 [
+        
 "
 Linux_x86_64
 -
@@ -143,6 +149,7 @@ gcc3
 -
 asan
 "
+    
 ]
     
 "
@@ -194,11 +201,13 @@ win32
 "
 :
 [
+        
 "
 WINNT_x86
 -
 msvc
 "
+        
 "
 WINNT_x86
 -
@@ -206,6 +215,7 @@ msvc
 -
 x86
 "
+        
 "
 WINNT_x86
 -
@@ -213,6 +223,7 @@ msvc
 -
 x64
 "
+    
 ]
     
 "
@@ -220,11 +231,13 @@ win64
 "
 :
 [
+        
 "
 WINNT_x86_64
 -
 msvc
 "
+        
 "
 WINNT_x86_64
 -
@@ -232,6 +245,7 @@ msvc
 -
 x64
 "
+    
 ]
     
 "
@@ -243,6 +257,7 @@ reporter
 "
 :
 [
+        
 "
 WINNT_x86_64
 -
@@ -252,6 +267,7 @@ x64
 -
 asan
 "
+    
 ]
     
 "
@@ -525,8 +541,8 @@ platform
 replace
 (
 remove
-"
-"
+'
+'
 )
     
 return
@@ -651,9 +667,9 @@ details
 .
 get
 (
-"
+'
 previousVersion
-"
+'
 None
 )
 )
@@ -670,7 +686,6 @@ platform
 {
 }
 )
-        
 .
 get
 (
@@ -678,7 +693,6 @@ locale
 {
 }
 )
-        
 .
 items
 (
@@ -742,15 +756,17 @@ k
 attributes
 =
 (
-"
+'
 buildid
-"
-"
+'
+                      
+'
 previousBuildNumber
-"
-"
+'
+                      
+'
 previousVersion
-"
+'
 )
         
 artifact_map
@@ -759,7 +775,6 @@ k
 ]
 =
 {
-            
 attr
 :
 details
@@ -770,11 +785,11 @@ for
 attr
 in
 attributes
+                           
 if
 attr
 in
 details
-        
 }
     
 return
@@ -815,6 +830,7 @@ v
 )
 ]
 )
+                              
 for
 k
 v
@@ -832,8 +848,8 @@ else
         
 params_str
 =
-"
-"
+'
+'
     
 logger
 .
@@ -923,7 +939,6 @@ logger
 .
 exception
 (
-                    
 "
 Got
 HTTP
@@ -935,13 +950,13 @@ reach
 %
 s
 "
+                                 
 e
 .
 response
 .
 status_code
 url
-                
 )
             
 else
@@ -1076,6 +1091,7 @@ req
 =
 _retry_on_http_errors
 (
+        
 url
 =
 url
@@ -1085,6 +1101,7 @@ True
 params
 =
 params
+        
 errors
 =
 [
@@ -1150,6 +1167,7 @@ req
 =
 _retry_on_http_errors
 (
+        
 url
 =
 url
@@ -1159,6 +1177,7 @@ True
 params
 =
 None
+        
 errors
 =
 [
@@ -1216,26 +1235,27 @@ scope
 =
 BALROG_SERVER_SCOPES
 [
-"
+'
 default
-"
+'
 ]
     
 if
 scope
 =
 =
-"
+u
+'
 balrog
 :
 server
 :
 dep
-"
+'
 :
         
 return
-"
+'
 https
 :
 /
@@ -1255,13 +1275,13 @@ net
 api
 /
 v1
-"
+'
     
 else
 :
         
 return
-"
+'
 https
 :
 /
@@ -1275,7 +1295,7 @@ org
 api
 /
 v1
-"
+'
 def
 find_localtest
 (
@@ -1303,7 +1323,6 @@ channel
 def
 populate_release_history
 (
-    
 product
 branch
 maxbuilds
@@ -1312,6 +1331,7 @@ maxbuilds
 maxsearch
 =
 10
+                             
 partial_updates
 =
 None
@@ -1331,7 +1351,6 @@ branch
 partial_updates
 =
 partial_updates
-        
 )
     
 else
@@ -1349,7 +1368,6 @@ maxbuilds
 maxsearch
 =
 maxsearch
-        
 )
 def
 _populate_nightly_history
@@ -1542,7 +1560,7 @@ platform2
 }
             
 }
-    
+        
 "
 "
 "
@@ -1557,7 +1575,7 @@ branch
     
 partial_mar_tmpl
 =
-"
+'
 target
 .
 partial
@@ -1566,7 +1584,7 @@ partial
 }
 .
 mar
-"
+'
     
 builds
 =
@@ -1614,7 +1632,6 @@ for
 platform
 in
 builds
-            
 for
 locale
 in
@@ -1622,7 +1639,6 @@ builds
 [
 platform
 ]
-        
 )
         
 if
@@ -1644,22 +1660,22 @@ platform
 in
 history
 [
-"
+'
 platforms
-"
+'
 ]
 :
             
 if
-"
+'
 alias
-"
+'
 in
 history
 [
-"
+'
 platforms
-"
+'
 ]
 [
 platform
@@ -1689,17 +1705,17 @@ locale
 in
 history
 [
-"
+'
 platforms
-"
+'
 ]
 [
 platform
 ]
 [
-"
+'
 locales
-"
+'
 ]
 :
                 
@@ -1747,60 +1763,58 @@ buildid
 =
 history
 [
-"
+'
 platforms
-"
+'
 ]
 [
 platform
 ]
 [
-"
+'
 locales
-"
+'
 ]
 [
 locale
 ]
 [
-"
+'
 buildID
-"
+'
 ]
                 
 url
 =
 history
 [
-"
+'
 platforms
-"
+'
 ]
 [
 platform
 ]
 [
-"
+'
 locales
-"
+'
 ]
 [
 locale
 ]
 [
-"
+'
 completes
-"
+'
 ]
 [
 0
 ]
 [
-                    
-"
+'
 fileUrl
-"
-                
+'
 ]
                 
 nextkey
@@ -1836,15 +1850,15 @@ nextkey
 =
 {
                     
-"
+'
 buildid
-"
+'
 :
 buildid
                     
-"
+'
 mar_url
-"
+'
 :
 url
                 
@@ -1881,7 +1895,7 @@ partial_updates
         
 prev_release_blob
 =
-"
+'
 {
 product
 }
@@ -1894,7 +1908,7 @@ build
 {
 build_number
 }
-"
+'
 .
 format
 (
@@ -1909,16 +1923,16 @@ build_number
 =
 release
 [
-"
+'
 buildNumber
-"
+'
 ]
         
 )
         
 partial_mar_key
 =
-"
+'
 target
 -
 {
@@ -1928,7 +1942,7 @@ version
 partial
 .
 mar
-"
+'
 .
 format
 (
@@ -1951,9 +1965,9 @@ find_localtest
 (
 history
 [
-"
+'
 fileUrls
-"
+'
 ]
 )
         
@@ -1961,22 +1975,22 @@ url_pattern
 =
 history
 [
-"
+'
 fileUrls
-"
+'
 ]
 [
 localtest
 ]
 [
-"
+'
 completes
-"
+'
 ]
 [
-"
+'
 *
-"
+'
 ]
         
 for
@@ -1984,22 +1998,22 @@ platform
 in
 history
 [
-"
+'
 platforms
-"
+'
 ]
 :
             
 if
-"
+'
 alias
-"
+'
 in
 history
 [
-"
+'
 platforms
-"
+'
 ]
 [
 platform
@@ -2029,17 +2043,17 @@ locale
 in
 history
 [
-"
+'
 platforms
-"
+'
 ]
 [
 platform
 ]
 [
-"
+'
 locales
-"
+'
 ]
 :
                 
@@ -2069,25 +2083,25 @@ buildid
 =
 history
 [
-"
+'
 platforms
-"
+'
 ]
 [
 platform
 ]
 [
-"
+'
 locales
-"
+'
 ]
 [
 locale
 ]
 [
-"
+'
 buildID
-"
+'
 ]
                 
 url
@@ -2097,26 +2111,27 @@ url_pattern
 replace
 (
                     
-"
+'
 %
 OS_FTP
 %
-"
+'
 FTP_PLATFORM_MAP
 [
 platform
 ]
-                
 )
 .
 replace
 (
-"
+                    
+'
 %
 LOCALE
 %
-"
+'
 locale
+                
 )
                 
 builds
@@ -2132,38 +2147,38 @@ partial_mar_key
 =
 {
                     
-"
+'
 buildid
-"
+'
 :
 buildid
                     
-"
+'
 mar_url
-"
+'
 :
 url
                     
-"
+'
 previousVersion
-"
+'
 :
 version
                     
-"
+'
 previousBuildNumber
-"
+'
 :
 release
 [
-"
+'
 buildNumber
-"
+'
 ]
                     
-"
+'
 product
-"
+'
 :
 product
                 

@@ -23,7 +23,7 @@ compile
 (
         
 r
-"
+'
 ^
 (
 .
@@ -55,36 +55,25 @@ matchstatus
 .
 *
 )
-"
-    
+'
 )
     
 def
 __init__
 (
-        
 self
-        
 phase
-        
 profile
-        
 testname
-        
 testpath
-        
 logfile
-        
 env
-        
+                 
 firefoxRunner
-        
 logfn
-        
 ignore_unused_engines
 =
 False
-    
 )
 :
         
@@ -155,8 +144,8 @@ self
 .
 errline
 =
-"
-"
+'
+'
     
 property
     
@@ -176,9 +165,9 @@ self
 .
 _status
 else
-"
+'
 unknown
-"
+'
     
 def
 run
@@ -261,8 +250,7 @@ self
 .
 log
 (
-            
-"
+'
 \
 nLaunching
 Firefox
@@ -276,9 +264,9 @@ prefs
 s
 \
 n
-"
-            
+'
 %
+                 
 (
 self
 .
@@ -288,7 +276,6 @@ str
 prefs
 )
 )
-        
 )
         
 self
@@ -302,10 +289,12 @@ env
 self
 .
 env
+                               
 args
 =
 [
 ]
+                               
 profile
 =
 self
@@ -324,9 +313,9 @@ open
 self
 .
 logfile
-"
+'
 r
-"
+'
 )
         
 for
@@ -345,12 +334,12 @@ line
 .
 find
 (
-"
+'
 Running
 test
 %
 s
-"
+'
 %
 self
 .
@@ -390,9 +379,9 @@ match
 .
 group
 (
-"
+'
 matchphase
-"
+'
 )
 =
 =
@@ -409,9 +398,9 @@ match
 .
 group
 (
-"
+'
 matchstatus
-"
+'
 )
                     
 break
@@ -421,11 +410,11 @@ line
 .
 find
 (
-"
+'
 CROSSWEAVE
 ERROR
 :
-"
+'
 )
 >
 -
@@ -441,9 +430,9 @@ self
 .
 _status
 =
-"
+'
 FAIL
-"
+'
                 
 self
 .
@@ -451,28 +440,26 @@ errline
 =
 line
 [
-                    
 line
 .
 find
 (
-"
+'
 CROSSWEAVE
 ERROR
 :
-"
+'
 )
 +
 len
 (
-"
+'
 CROSSWEAVE
 ERROR
 :
-"
+'
 )
 :
-                
 ]
         
 f

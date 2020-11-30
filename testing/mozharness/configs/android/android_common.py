@@ -4,9 +4,9 @@ NODEJS_PATH
 =
 None
 if
-"
+'
 MOZ_FETCHES_DIR
-"
+'
 in
 os
 .
@@ -291,51 +291,51 @@ default_actions
 :
 [
         
-"
+'
 clobber
-"
+'
         
-"
+'
 setup
 -
 avds
-"
+'
         
-"
+'
 download
 -
 and
 -
 extract
-"
+'
         
-"
+'
 create
 -
 virtualenv
-"
+'
         
-"
+'
 start
 -
 emulator
-"
+'
         
-"
+'
 verify
 -
 device
-"
+'
         
-"
+'
 install
-"
+'
         
-"
+'
 run
 -
 tests
-"
+'
     
 ]
     
@@ -1383,7 +1383,6 @@ httpd
 -
 path
 "
-                
 "
 %
 (
@@ -1525,7 +1524,6 @@ tests
 "
 :
 [
-                
 "
 tests
 /
@@ -1537,7 +1535,6 @@ reftest
 .
 list
 "
-            
 ]
         
 }
@@ -1673,7 +1670,6 @@ httpd
 -
 path
 "
-                
 "
 %
 (
@@ -1815,7 +1811,6 @@ tests
 "
 :
 [
-                
 "
 tests
 /
@@ -1829,7 +1824,6 @@ qr
 .
 list
 "
-            
 ]
         
 }
@@ -2081,7 +2075,6 @@ tests
 "
 :
 [
-                
 "
 tests
 /
@@ -2093,7 +2086,6 @@ crashtests
 .
 list
 "
-            
 ]
         
 }
@@ -2347,7 +2339,6 @@ tests
 "
 :
 [
-                
 "
 tests
 /
@@ -2361,7 +2352,6 @@ qr
 .
 list
 "
-            
 ]
         
 }
@@ -2556,7 +2546,6 @@ remote_webserver
 )
 s
 "
-                
 "
 -
 -
@@ -2584,7 +2573,6 @@ utility_path
 )
 s
 "
-                
 "
 -
 -
@@ -2612,7 +2600,6 @@ ssl_port
 )
 s
 "
-                
 "
 -
 -
@@ -2620,7 +2607,6 @@ httpd
 -
 path
 "
-                
 "
 %
 (
@@ -2767,7 +2753,6 @@ tests
 "
 :
 [
-                
 "
 .
 .
@@ -2786,7 +2771,6 @@ jstests
 .
 list
 "
-            
 ]
         
 }

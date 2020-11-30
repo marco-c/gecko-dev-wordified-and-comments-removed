@@ -151,12 +151,10 @@ VCSScript
 config_options
 =
 [
+[
         
 [
-            
-[
-                
-"
+'
 -
 -
 ignore
@@ -164,12 +162,11 @@ ignore
 closed
 -
 tree
-"
-            
+'
 ]
-            
+        
 {
-                
+            
 "
 action
 "
@@ -177,7 +174,7 @@ action
 "
 store_true
 "
-                
+            
 "
 dest
 "
@@ -185,13 +182,13 @@ dest
 "
 ignore_closed_tree
 "
-                
+            
 "
 default
 "
 :
 False
-                
+            
 "
 help
 "
@@ -206,25 +203,22 @@ closed
 tree
 .
 "
-            
+        
 }
-        
+    
 ]
+[
         
 [
-            
-[
-                
-"
+'
 -
 -
 build
-"
-            
+'
 ]
-            
+        
 {
-                
+            
 "
 action
 "
@@ -232,7 +226,7 @@ action
 "
 store_false
 "
-                
+            
 "
 dest
 "
@@ -240,13 +234,13 @@ dest
 "
 dontbuild
 "
-                
+            
 "
 default
 "
 :
 True
-                
+            
 "
 help
 "
@@ -259,11 +253,10 @@ on
 push
 .
 "
-            
-}
         
-]
+}
     
+]
 ]
     
 def
@@ -289,37 +282,37 @@ all_actions
 =
 [
                 
-"
+'
 clobber
-"
+'
                 
-"
+'
 check
 -
 treestatus
-"
+'
                 
-"
+'
 checkout
 -
 gecko
-"
+'
                 
-"
+'
 bump
 -
 changesets
-"
+'
                 
-"
+'
 push
-"
+'
                 
-"
+'
 push
 -
 loop
-"
+'
             
 ]
             
@@ -327,11 +320,11 @@ default_actions
 =
 [
                 
-"
+'
 push
 -
 loop
-"
+'
             
 ]
             
@@ -349,11 +342,11 @@ config
 =
 {
                 
-"
+'
 treestatus_base_url
-"
+'
 :
-"
+'
 https
 :
 /
@@ -365,11 +358,11 @@ mozilla
 releng
 .
 net
-"
+'
                 
-"
+'
 log_max_rotate
-"
+'
 :
 99
             
@@ -411,38 +404,36 @@ abs_dirs
 .
 update
 (
-            
 {
-                
-"
+            
+'
 gecko_local_dir
-"
+'
 :
+            
 os
 .
 path
 .
 join
 (
-                    
+                
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-                    
+                
 self
 .
 config
 .
 get
 (
-                        
-"
+'
 gecko_local_dir
-"
-                        
+'
 os
 .
 path
@@ -453,18 +444,16 @@ self
 .
 config
 [
-"
+'
 gecko_pull_url
-"
+'
 ]
 )
-                    
-)
-                
 )
             
-}
+)
         
+}
 )
         
 self
@@ -513,9 +502,9 @@ self
 .
 config
 [
-"
+'
 hg_user
-"
+'
 ]
         
 hg
@@ -524,14 +513,14 @@ self
 .
 query_exe
 (
-"
+'
 hg
-"
+'
 return_type
 =
-"
+'
 list
-"
+'
 )
         
 env
@@ -543,17 +532,17 @@ query_env
 partial_env
 =
 {
-"
+'
 LANG
-"
+'
 :
-"
+'
 en_US
 .
 UTF
 -
 8
-"
+'
 }
 )
         
@@ -562,9 +551,9 @@ cmd
 hg
 +
 [
-"
+'
 add
-"
+'
 path
 ]
         
@@ -586,18 +575,18 @@ cmd
 hg
 +
 [
-"
+'
 commit
-"
-"
+'
+'
 -
 u
-"
+'
 user
-"
+'
 -
 m
-"
+'
 message
 ]
         
@@ -628,14 +617,14 @@ self
 .
 query_exe
 (
-"
+'
 hg
-"
+'
 return_type
 =
-"
+'
 list
-"
+'
 )
         
 command
@@ -643,16 +632,14 @@ command
 hg
 +
 [
-            
 "
 push
 "
-            
 "
 -
 e
 "
-            
+                        
 "
 ssh
 -
@@ -665,10 +652,9 @@ l
 %
 s
 "
-            
 %
 (
-                
+                            
 self
 .
 config
@@ -677,7 +663,6 @@ config
 ssh_key
 "
 ]
-                
 self
 .
 config
@@ -686,18 +671,17 @@ config
 ssh_user
 "
 ]
-            
+                        
 )
-            
+                        
 "
 -
 r
 "
-            
 "
 .
 "
-            
+                        
 self
 .
 config
@@ -706,7 +690,6 @@ config
 gecko_push_url
 "
 ]
-        
 ]
         
 status
@@ -719,6 +702,7 @@ command
 cwd
 =
 repo_path
+                                  
 error_list
 =
 HgErrorList
@@ -735,9 +719,7 @@ self
 .
 run_command
 (
-                
 hg
-                
 +
 [
 "
@@ -751,6 +733,7 @@ extensions
 mq
 =
 "
+                                   
 "
 strip
 "
@@ -767,11 +750,10 @@ outgoing
 )
 "
 ]
-                
+                             
 cwd
 =
 repo_path
-            
 )
             
 self
@@ -789,6 +771,7 @@ up
 C
 "
 ]
+                             
 cwd
 =
 repo_path
@@ -798,7 +781,6 @@ self
 .
 run_command
 (
-                
 hg
 +
 [
@@ -813,6 +795,7 @@ extensions
 purge
 =
 "
+                                   
 "
 purge
 "
@@ -822,10 +805,10 @@ purge
 all
 "
 ]
+                             
 cwd
 =
 repo_path
-            
 )
             
 return
@@ -905,10 +888,10 @@ path
 .
 split
 (
-"
+'
 \
 n
-"
+'
 )
 [
 0
@@ -919,9 +902,9 @@ contents
 .
 split
 (
-"
+'
 .
-"
+'
 )
     
 def
@@ -983,17 +966,17 @@ k
 .
 get
 (
-"
+'
 revision
-"
+'
 )
 !
 =
 v
 [
-"
+'
 revision
-"
+'
 ]
 :
                 
@@ -1004,9 +987,9 @@ k
 =
 v
 [
-"
+'
 revision
-"
+'
 ]
             
 elif
@@ -1021,17 +1004,17 @@ k
 .
 get
 (
-"
+'
 platforms
-"
+'
 )
 !
 =
 v
 [
-"
+'
 platforms
-"
+'
 ]
 :
                 
@@ -1042,9 +1025,9 @@ k
 =
 v
 [
-"
+'
 platforms
-"
+'
 ]
         
 return
@@ -1070,9 +1053,9 @@ repo_path
 =
 dirs
 [
-"
+'
 gecko_local_dir
-"
+'
 ]
         
 platform_dict
@@ -1086,9 +1069,9 @@ bump_config
 .
 get
 (
-"
+'
 ignore_config
-"
+'
 {
 }
 )
@@ -1098,9 +1081,9 @@ platform_config
 in
 bump_config
 [
-"
+'
 platform_configs
-"
+'
 ]
 :
             
@@ -1115,9 +1098,9 @@ join
 repo_path
 platform_config
 [
-"
+'
 path
-"
+'
 ]
 )
             
@@ -1125,7 +1108,6 @@ self
 .
 info
 (
-                
 "
 Reading
 %
@@ -1143,12 +1125,11 @@ locales
 path
 platform_config
 [
-"
+'
 platforms
-"
+'
 ]
 )
-            
 )
             
 contents
@@ -1175,17 +1156,17 @@ platform_config
 .
 get
 (
-"
+'
 format
-"
+'
 )
 =
 =
-"
+'
 shipped
 -
 locales
-"
+'
 :
                     
 locale
@@ -1194,8 +1175,8 @@ locale
 .
 split
 (
-"
-"
+'
+'
 )
 [
 0
@@ -1205,7 +1186,6 @@ existing_platforms
 =
 set
 (
-                    
 platform_dict
 .
 get
@@ -1217,13 +1197,12 @@ locale
 .
 get
 (
-"
+'
 platforms
-"
+'
 [
 ]
 )
-                
 )
                 
 platforms
@@ -1232,9 +1211,9 @@ set
 (
 platform_config
 [
-"
+'
 platforms
-"
+'
 ]
 )
                 
@@ -1268,9 +1247,10 @@ locale
 ]
 =
 {
-"
+                    
+'
 platforms
-"
+'
 :
 sorted
 (
@@ -1279,6 +1259,7 @@ list
 platforms
 )
 )
+                
 }
         
 self
@@ -1348,9 +1329,9 @@ bump_config
 .
 get
 (
-"
+'
 revision_url
-"
+'
 )
 :
             
@@ -1358,22 +1339,21 @@ repl_dict
 =
 {
                 
-"
+'
 MAJOR_VERSION
-"
+'
 :
 version_list
 [
 0
 ]
                 
-"
+'
 COMBINED_MAJOR_VERSION
-"
+'
 :
 str
 (
-                    
 int
 (
 version_list
@@ -1389,7 +1369,6 @@ version_list
 1
 ]
 )
-                
 )
             
 }
@@ -1398,9 +1377,9 @@ url
 =
 bump_config
 [
-"
+'
 revision_url
-"
+'
 ]
 %
 repl_dict
@@ -1456,8 +1435,8 @@ line
 .
 split
 (
-"
-"
+'
+'
 )
                 
 if
@@ -1481,9 +1460,9 @@ revision_dict
 locale
 ]
 [
-"
+'
 revision
-"
+'
 ]
 =
 revision
@@ -1504,14 +1483,14 @@ items
                 
 v
 [
-"
+'
 revision
-"
+'
 ]
 =
-"
+'
 default
-"
+'
                 
 revision_dict
 [
@@ -1555,12 +1534,12 @@ locale_map
         
 comments
 =
-"
-"
+'
+'
         
 approval_str
 =
-"
+'
 r
 =
 release
@@ -1569,7 +1548,7 @@ a
 l10n
 -
 bump
-"
+'
         
 for
 locale
@@ -1609,9 +1588,9 @@ self
 .
 config
 [
-"
+'
 dontbuild
-"
+'
 ]
 :
             
@@ -1627,9 +1606,9 @@ self
 .
 config
 [
-"
+'
 ignore_closed_tree
-"
+'
 ]
 :
             
@@ -1643,7 +1622,7 @@ TREE
         
 message
 =
-"
+'
 no
 bug
 -
@@ -1656,7 +1635,7 @@ s
 n
 \
 n
-"
+'
 %
 (
 name
@@ -1723,10 +1702,9 @@ c
 .
 get
 (
-            
-"
+'
 treestatus_tree
-"
+'
 os
 .
 path
@@ -1735,9 +1713,9 @@ basename
 (
 c
 [
-"
+'
 gecko_pull_url
-"
+'
 ]
 .
 rstrip
@@ -1747,7 +1725,6 @@ rstrip
 "
 )
 )
-        
 )
         
 treestatus_url
@@ -1765,9 +1742,9 @@ s
 (
 c
 [
-"
+'
 treestatus_base_url
-"
+'
 ]
 tree
 )
@@ -1782,15 +1759,15 @@ join
 (
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 treestatus
 .
 json
-"
+'
 )
         
 if
@@ -1803,9 +1780,9 @@ exists
 (
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
 )
 :
@@ -1816,9 +1793,9 @@ mkdir_p
 (
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
 )
         
@@ -1833,7 +1810,6 @@ self
 .
 run_command
 (
-            
 [
 "
 curl
@@ -1853,11 +1829,10 @@ o
 treestatus_json
 treestatus_url
 ]
-            
+                         
 throw_exception
 =
 True
-        
 )
         
 treestatus
@@ -1872,27 +1847,26 @@ treestatus_json
 if
 treestatus
 [
-"
+'
 result
-"
+'
 ]
 [
-"
+'
 status
-"
+'
 ]
 !
 =
-"
+'
 closed
-"
+'
 :
             
 self
 .
 info
 (
-                
 "
 treestatus
 is
@@ -1904,23 +1878,22 @@ we
 can
 land
 "
-                
 %
+                      
 repr
 (
 treestatus
 [
-"
+'
 result
-"
+'
 ]
 [
-"
+'
 status
-"
+'
 ]
 )
-            
 )
             
 return
@@ -1942,9 +1915,9 @@ self
 .
 config
 [
-"
+'
 ignore_closed_tree
-"
+'
 ]
 and
 not
@@ -2001,60 +1974,58 @@ dest
 =
 dirs
 [
-"
+'
 gecko_local_dir
-"
+'
 ]
         
 repos
 =
 [
-            
 {
-                
-"
+            
+'
 repo
-"
+'
 :
 c
 [
-"
+'
 gecko_pull_url
-"
+'
 ]
-                
-"
+            
+'
 tag
-"
+'
 :
 c
 .
 get
 (
-"
+'
 gecko_tag
-"
-"
+'
+'
 default
-"
+'
 )
-                
-"
-dest
-"
-:
-dest
-                
-"
-vcs
-"
-:
-"
-hg
-"
             
-}
+'
+dest
+'
+:
+dest
+            
+'
+vcs
+'
+:
+'
+hg
+'
         
+}
 ]
         
 self
@@ -2083,9 +2054,9 @@ repo_path
 =
 dirs
 [
-"
+'
 gecko_local_dir
-"
+'
 ]
         
 version_path
@@ -2101,9 +2072,9 @@ self
 .
 config
 [
-"
+'
 version_path
-"
+'
 ]
 )
         
@@ -2127,9 +2098,9 @@ self
 .
 config
 [
-"
+'
 bump_configs
-"
+'
 ]
 :
             
@@ -2142,11 +2113,12 @@ path
 join
 (
 repo_path
+                                
 bump_config
 [
-"
+'
 path
-"
+'
 ]
 )
             
@@ -2217,7 +2189,6 @@ self
 .
 error
 (
-                    
 "
 Cowardly
 refusing
@@ -2231,7 +2202,6 @@ changesets
 file
 !
 "
-                
 )
                 
 continue
@@ -2244,11 +2214,9 @@ dumps
 (
                 
 new_contents
-                
 sort_keys
 =
 True
-                
 indent
 =
 4
@@ -2256,11 +2224,11 @@ indent
 separators
 =
 (
-"
-"
-"
+'
+'
+'
 :
-"
+'
 )
             
 )
@@ -2274,17 +2242,17 @@ open
 path
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 mode
 =
-"
+'
 w
 +
-"
+'
 )
             
 fh
@@ -2323,10 +2291,11 @@ build_commit_message
 (
 bump_config
 [
-"
+'
 name
-"
+'
 ]
+                                                
 locale_map
 )
             
@@ -2365,9 +2334,9 @@ repo_path
 =
 dirs
 [
-"
+'
 gecko_local_dir
-"
+'
 ]
         
 return
@@ -2408,9 +2377,9 @@ self
 .
 config
 [
-"
+'
 ignore_closed_tree
-"
+'
 ]
 and
 not
@@ -2561,17 +2530,17 @@ join
 (
 dirs
 [
-"
+'
 base_work_dir
-"
+'
 ]
 self
 .
 config
 [
-"
+'
 status_path
-"
+'
 ]
 )
         
@@ -2585,9 +2554,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 bumper

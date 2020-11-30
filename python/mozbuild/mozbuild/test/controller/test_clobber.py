@@ -21,7 +21,10 @@ mozbuild
 .
 base
 import
+(
+    
 MozbuildObject
+)
 from
 mozbuild
 .
@@ -29,7 +32,10 @@ controller
 .
 building
 import
+(
+    
 BuildDriver
+)
 from
 mozbuild
 .
@@ -37,7 +43,10 @@ controller
 .
 clobber
 import
+(
+    
 Clobberer
+)
 from
 mozbuild
 .
@@ -86,9 +95,9 @@ environ
 .
 pop
 (
-"
+'
 MOZCONFIG
-"
+'
 None
 )
         
@@ -98,9 +107,9 @@ environ
 .
 pop
 (
-"
+'
 MOZ_OBJDIR
-"
+'
 None
 )
         
@@ -224,18 +233,18 @@ path
 join
 (
 t
-"
+'
 CLOBBER
-"
+'
 )
         
 with
 open
 (
 p
-"
+'
 a
-"
+'
 )
 :
             
@@ -281,9 +290,9 @@ self
 get_tempdir
 (
 )
-"
+'
 topobjdir
-"
+'
 )
         
 self
@@ -391,9 +400,9 @@ path
 join
 (
 tmp
-"
+'
 CLOBBER
-"
+'
 )
 )
 )
@@ -506,9 +515,9 @@ join
 c
 .
 topobjdir
-"
+'
 CLOBBER
-"
+'
 )
 )
 )
@@ -558,9 +567,9 @@ open
 c
 .
 obj_clobber
-"
+'
 a
-"
+'
 )
 :
             
@@ -648,9 +657,9 @@ open
 c
 .
 obj_clobber
-"
+'
 a
-"
+'
 )
 :
             
@@ -667,18 +676,18 @@ join
 c
 .
 topobjdir
-"
+'
 foo
-"
+'
 )
         
 with
 open
 (
 dummy_path
-"
+'
 a
-"
+'
 )
 :
             
@@ -892,9 +901,9 @@ open
 c
 .
 obj_clobber
-"
+'
 a
-"
+'
 )
 :
             
@@ -911,18 +920,18 @@ join
 c
 .
 topobjdir
-"
+'
 dummy_file
-"
+'
 )
         
 with
 open
 (
 dummy_file
-"
+'
 a
-"
+'
 )
 :
             
@@ -939,9 +948,9 @@ join
 c
 .
 topobjdir
-"
+'
 dummy_dir
-"
+'
 )
         
 os
@@ -1121,9 +1130,9 @@ open
 c
 .
 obj_clobber
-"
+'
 a
-"
+'
 )
 :
             
@@ -1168,9 +1177,9 @@ join
 c
 .
 topobjdir
-"
+'
 dummy_dir
-"
+'
 )
         
 os
@@ -1210,7 +1219,7 @@ self
 .
 assertIn
 (
-"
+'
 Cannot
 clobber
 while
@@ -1218,7 +1227,7 @@ the
 shell
 is
 inside
-"
+'
 reason
 )
     
@@ -1270,18 +1279,18 @@ path
 join
 (
 topobjdir
-"
+'
 CLOBBER
-"
+'
 )
         
 with
 open
 (
 obj_clobber
-"
+'
 a
-"
+'
 )
 :
             
@@ -1296,18 +1305,18 @@ path
 join
 (
 topobjdir
-"
+'
 dummy_file
-"
+'
 )
         
 with
 open
 (
 dummy_file
-"
+'
 a
-"
+'
 )
 :
             
@@ -1342,9 +1351,9 @@ path
 join
 (
 topsrcdir
-"
+'
 CLOBBER
-"
+'
 )
 )
 -
@@ -1375,9 +1384,9 @@ env
 .
 get
 (
-"
+'
 AUTOCLOBBER
-"
+'
 False
 )
 :
@@ -1385,9 +1394,9 @@ False
 del
 env
 [
-"
+'
 AUTOCLOBBER
-"
+'
 ]
         
 mbo
@@ -1445,14 +1454,14 @@ dummy_file
         
 env
 [
-"
+'
 AUTOCLOBBER
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 status
 =
@@ -1490,9 +1499,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

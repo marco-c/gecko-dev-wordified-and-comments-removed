@@ -434,10 +434,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -487,9 +485,7 @@ script
 "
 "
 "
-            
 )
-        
 )
         
 self
@@ -764,7 +760,6 @@ marionette
 .
 execute_async_script
 (
-                
 "
 "
 "
@@ -850,7 +845,6 @@ tabs
 "
 "
 "
-            
 )
         
 window_handles

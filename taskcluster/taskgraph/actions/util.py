@@ -111,7 +111,10 @@ util
 .
 taskgraph
 import
+(
+    
 find_decision_task
+)
 logger
 =
 logging
@@ -122,7 +125,7 @@ __name__
 )
 INDEX_TMPL
 =
-"
+'
 gecko
 .
 v2
@@ -138,10 +141,10 @@ id
 }
 .
 decision
-"
+'
 PUSHLOG_TMPL
 =
-"
+'
 {
 }
 /
@@ -162,7 +165,7 @@ endID
 =
 {
 }
-"
+'
 def
 _tags_within_context
 (
@@ -174,9 +177,9 @@ context
 )
 :
     
-"
-"
-"
+'
+'
+'
 A
 context
 of
@@ -193,9 +196,9 @@ to
 a
 task
 group
-"
-"
-"
+'
+'
+'
     
 return
 any
@@ -243,9 +246,9 @@ task_id
 )
 :
     
-"
-"
-"
+'
+'
+'
 Extract
 action
 that
@@ -399,9 +402,9 @@ actions
 /
 spec
     
-"
-"
-"
+'
+'
+'
     
 if
 task_id
@@ -416,9 +419,9 @@ task_id
 .
 get
 (
-"
+'
 tags
-"
+'
 )
     
 action
@@ -430,9 +433,9 @@ _action
 in
 actions_json
 [
-"
+'
 actions
-"
+'
 ]
 :
         
@@ -442,9 +445,9 @@ action_name
 =
 _action
 [
-"
+'
 name
-"
+'
 ]
 :
             
@@ -456,9 +459,9 @@ _action
 .
 get
 (
-"
+'
 context
-"
+'
 [
 ]
 )
@@ -503,7 +506,6 @@ available_actions
 .
 join
 (
-            
 sorted
 (
 {
@@ -518,13 +520,12 @@ a
 in
 actions_json
 [
-"
+'
 actions
-"
+'
 ]
 }
 )
-        
 )
         
 raise
@@ -553,7 +554,6 @@ format
                 
 action_name
 available_actions
-            
 )
         
 )
@@ -605,21 +605,21 @@ actions_json
 get_artifact
 (
 decision_task_id
-"
+'
 public
 /
 actions
 .
 json
-"
+'
 )
     
 if
 actions_json
 [
-"
+'
 version
-"
+'
 ]
 !
 =
@@ -629,7 +629,7 @@ version
 raise
 RuntimeError
 (
-"
+'
 Wrong
 version
 of
@@ -639,28 +639,28 @@ json
 unable
 to
 continue
-"
+'
 )
     
 context
 =
 {
         
-"
+'
 input
-"
+'
 :
 input
         
-"
+'
 taskId
-"
+'
 :
 task_id
         
-"
+'
 taskGroupId
-"
+'
 :
 decision_task_id
     
@@ -672,9 +672,9 @@ update
 (
 actions_json
 [
-"
+'
 variables
-"
+'
 ]
 )
     
@@ -682,30 +682,28 @@ action
 =
 _extract_applicable_action
 (
-        
 actions_json
 action_name
 decision_task_id
 task_id
-    
 )
     
 kind
 =
 action
 [
-"
+'
 kind
-"
+'
 ]
     
 if
 kind
 =
 =
-"
+'
 hook
-"
+'
 :
         
 hook_payload
@@ -716,9 +714,9 @@ render
 (
 action
 [
-"
+'
 hookPayload
-"
+'
 ]
 context
 )
@@ -727,15 +725,15 @@ trigger_hook
 (
 action
 [
-"
+'
 hookGroupId
-"
+'
 ]
 action
 [
-"
+'
 hookId
-"
+'
 ]
 hook_payload
 )
@@ -779,9 +777,9 @@ input
 .
 get
 (
-"
+'
 inclusive
-"
+'
 )
 else
 0
@@ -794,9 +792,9 @@ project
 =
 parameters
 [
-"
+'
 head_repository
-"
+'
 ]
         
 end_id
@@ -805,9 +803,9 @@ int
 (
 parameters
 [
-"
+'
 pushlog_id
-"
+'
 ]
 )
 -
@@ -823,9 +821,9 @@ input
 .
 get
 (
-"
+'
 depth
-"
+'
 9
 )
 +
@@ -905,9 +903,9 @@ json
 (
 )
 [
-"
+'
 pushes
-"
+'
 ]
 .
 keys
@@ -1117,8 +1115,7 @@ logger
 .
 info
 (
-                
-"
+'
 fetching
 label
 -
@@ -1132,13 +1129,12 @@ action
 task
 {
 }
-"
+'
 .
 format
 (
 task_id
 )
-            
 )
             
 try
@@ -1192,8 +1188,7 @@ logger
 .
 debug
 (
-                    
-"
+'
 No
 label
 -
@@ -1209,29 +1204,28 @@ for
 :
 {
 }
-"
+'
 .
 format
 (
 task_id
 e
 )
-                
 )
         
 head_rev_param
 =
-"
+'
 {
 }
 head_rev
-"
+'
 .
 format
 (
 graph_config
 [
-"
+'
 project
 -
 repo
@@ -1239,13 +1233,13 @@ repo
 param
 -
 prefix
-"
+'
 ]
 )
         
 namespace
 =
-"
+'
 {
 }
 .
@@ -1262,32 +1256,31 @@ revision
 taskgraph
 .
 actions
-"
+'
 .
 format
 (
             
 graph_config
 [
-"
+'
 trust
 -
 domain
-"
+'
 ]
             
 parameters
 [
-"
+'
 project
-"
+'
 ]
             
 parameters
 [
 head_rev_param
 ]
-        
 )
         
 for
@@ -1323,8 +1316,7 @@ logger
 .
 info
 (
-                
-"
+'
 fetching
 label
 -
@@ -1338,13 +1330,12 @@ cron
 task
 {
 }
-"
+'
 .
 format
 (
 task_id
 )
-            
 )
             
 try
@@ -1398,8 +1389,7 @@ logger
 .
 debug
 (
-                    
-"
+'
 No
 label
 -
@@ -1415,19 +1405,18 @@ for
 :
 {
 }
-"
+'
 .
 format
 (
 task_id
 e
 )
-                
 )
         
 namespace
 =
-"
+'
 {
 }
 .
@@ -1442,32 +1431,31 @@ revision
 }
 .
 cron
-"
+'
 .
 format
 (
             
 graph_config
 [
-"
+'
 trust
 -
 domain
-"
+'
 ]
             
 parameters
 [
-"
+'
 project
-"
+'
 ]
             
 parameters
 [
 head_rev_param
 ]
-        
 )
         
 for
@@ -1641,19 +1629,19 @@ helpful
     
 task_def
 [
-"
+'
 schedulerId
-"
+'
 ]
 =
-"
+'
 gecko
 -
 level
 -
 {
 }
-"
+'
 .
 format
 (
@@ -1664,14 +1652,14 @@ label
 =
 task_def
 [
-"
+'
 metadata
-"
+'
 ]
 [
-"
+'
 name
-"
+'
 ]
     
 task_id
@@ -1682,9 +1670,9 @@ slugid
 .
 decode
 (
-"
+'
 ascii
-"
+'
 )
     
 session
@@ -1716,16 +1704,16 @@ task
 .
 setdefault
 (
-"
+'
 extra
-"
+'
 {
 }
 )
 [
-"
+'
 parent
-"
+'
 ]
 =
 os
@@ -1734,11 +1722,11 @@ environ
 .
 get
 (
-"
+'
 TASK_ID
-"
-"
-"
+'
+'
+'
 )
     
 return
@@ -1758,9 +1746,9 @@ environ
 .
 get
 (
-"
+'
 TASK_ID
-"
+'
 )
 :
         
@@ -1770,9 +1758,9 @@ task
 .
 setdefault
 (
-"
+'
 dependencies
-"
+'
 [
 ]
 )
@@ -1783,9 +1771,9 @@ os
 .
 environ
 [
-"
+'
 TASK_ID
-"
+'
 ]
 )
     
@@ -1794,24 +1782,17 @@ task
 def
 create_tasks
 (
-    
 graph_config
-    
 to_run
-    
 full_task_graph
-    
 label_to_taskid
-    
+                 
 params
-    
 decision_task_id
-    
 suffix
 =
-"
-"
-    
+'
+'
 modifier
 =
 lambda
@@ -2033,17 +2014,17 @@ if
 suffix
 !
 =
-"
-"
+'
+'
 :
         
 suffix
 =
-"
+'
 -
 {
 }
-"
+'
 .
 format
 (
@@ -2107,8 +2088,8 @@ target_graph
 .
 nodes
 }
+        
 target_graph
-    
 )
     
 target_task_graph
@@ -2130,9 +2111,9 @@ environ
 .
 get
 (
-"
+'
 TASK_ID
-"
+'
 )
 :
         
@@ -2148,26 +2129,24 @@ label_to_taskid
 =
 optimize_task_graph
 (
-        
 target_task_graph
-        
+                                                                
 to_run
-        
+                                                                
 params
-        
+                                                                
 to_run
-        
+                                                                
 decision_task_id
-        
+                                                                
 existing_tasks
 =
 label_to_taskid
-    
 )
     
 write_artifact
 (
-"
+'
 task
 -
 graph
@@ -2175,7 +2154,7 @@ graph
 }
 .
 json
-"
+'
 .
 format
 (
@@ -2190,7 +2169,7 @@ to_json
     
 write_artifact
 (
-"
+'
 label
 -
 to
@@ -2200,7 +2179,7 @@ taskid
 }
 .
 json
-"
+'
 .
 format
 (
@@ -2211,7 +2190,7 @@ label_to_taskid
     
 write_artifact
 (
-"
+'
 to
 -
 run
@@ -2219,7 +2198,7 @@ run
 }
 .
 json
-"
+'
 .
 format
 (
@@ -2426,23 +2405,23 @@ for
 filename
 in
 [
-"
+'
 task
 -
 graph
-"
-"
+'
+'
 label
 -
 to
 -
 taskid
-"
-"
+'
+'
 to
 -
 run
-"
+'
 ]
 :
             
@@ -2467,6 +2446,7 @@ suffixes
 0
 ]
 )
+                
 "
 {
 }
@@ -2478,7 +2458,6 @@ format
 (
 filename
 )
-            
 )
         
 return
@@ -2547,7 +2526,6 @@ dict
 files
 =
 [
-        
 read_artifact
 (
 "
@@ -2572,7 +2550,6 @@ for
 suffix
 in
 suffixes
-    
 ]
     
 write_artifact
@@ -2705,9 +2682,9 @@ parse_time
 (
 task_def
 [
-"
+'
 created
-"
+'
 ]
 )
     
@@ -2719,7 +2696,7 @@ compile
 (
         
 r
-"
+'
 ^
 \
 d
@@ -2750,10 +2727,10 @@ t
 \
 s
 ]
-"
+'
         
 r
-"
+'
 (
 ?
 :
@@ -2797,10 +2774,10 @@ d
 +
 )
 ?
-"
+'
         
 r
-"
+'
 (
 ?
 :
@@ -2820,12 +2797,10 @@ d
 \
 d
 )
-"
-        
+'
 re
 .
 I
-    
 )
     
 def
@@ -2867,18 +2842,17 @@ base
                 
 return
 {
-                    
-"
+'
 relative
 -
 datestamp
-"
+'
 :
-"
+'
 {
 }
 seconds
-"
+'
 .
 format
 (
@@ -2891,7 +2865,6 @@ total_seconds
 )
 )
 )
-                
 }
         
 if
@@ -2963,7 +2936,7 @@ extra_args
 "
 "
 "
-    
+        
 Add
 custom
 command
@@ -2974,10 +2947,10 @@ a
 given
 command
 .
-    
+        
 args
 :
-      
+          
 cmd_parts
 :
 the
@@ -2987,7 +2960,7 @@ as
 seen
 by
 taskcluster
-      
+          
 extra_args
 :
 array
@@ -3013,9 +2986,9 @@ cmd_parts
     
 cmd_type
 =
-"
+'
 default
-"
+'
     
 if
 len
@@ -3043,24 +3016,24 @@ cmd_parts
 0
 ]
 [
-"
+'
 task
 -
 reference
-"
+'
 ]
 .
 split
 (
-"
-"
+'
+'
 )
         
 cmd_type
 =
-"
+'
 dict
-"
+'
     
 elif
 len
@@ -3090,15 +3063,15 @@ cmd_parts
 .
 split
 (
-"
-"
+'
+'
 )
         
 cmd_type
 =
-"
+'
 unicode
-"
+'
     
 elif
 len
@@ -3128,9 +3101,9 @@ cmd_parts
         
 cmd_type
 =
-"
+'
 subarray
-"
+'
     
 elif
 len
@@ -3153,17 +3126,17 @@ list
         
 cmd_type
 =
-"
+'
 subarray2
-"
+'
     
 if
 cmd_type
 =
 =
-"
+'
 subarray2
-"
+'
 :
         
 cmd_parts
@@ -3190,23 +3163,23 @@ if
 cmd_type
 =
 =
-"
+'
 dict
-"
+'
 :
         
 cmd_parts
 =
 [
 {
-"
+'
 task
 -
 reference
-"
+'
 :
-"
-"
+'
+'
 .
 join
 (
@@ -3219,16 +3192,16 @@ elif
 cmd_type
 =
 =
-"
+'
 unicode
-"
+'
 :
         
 cmd_parts
 =
 [
-"
-"
+'
+'
 .
 join
 (
@@ -3240,9 +3213,9 @@ elif
 cmd_type
 =
 =
-"
+'
 subarray
-"
+'
 :
         
 cmd_parts

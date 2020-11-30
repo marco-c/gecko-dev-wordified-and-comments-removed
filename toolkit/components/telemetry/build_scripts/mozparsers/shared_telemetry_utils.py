@@ -14,128 +14,128 @@ KNOWN_PROCESS_FLAGS
 =
 {
     
-"
+'
 all
-"
+'
 :
-"
+'
 All
-"
+'
     
-"
+'
 all_children
-"
+'
 :
-"
+'
 AllChildren
-"
+'
     
-"
+'
 main
-"
+'
 :
-"
+'
 Main
-"
+'
     
-"
+'
 content
-"
+'
 :
-"
+'
 Content
-"
+'
     
-"
+'
 gpu
-"
+'
 :
-"
+'
 Gpu
-"
+'
     
-"
+'
 socket
-"
+'
 :
-"
+'
 Socket
-"
+'
     
-"
+'
 all_childs
-"
+'
 :
-"
+'
 AllChildren
-"
+'
 }
 GECKOVIEW_STREAMING_PRODUCT
 =
-"
+'
 geckoview_streaming
-"
+'
 SUPPORTED_PRODUCTS
 =
 {
     
-"
+'
 firefox
-"
+'
 :
-"
+'
 Firefox
-"
+'
     
-"
+'
 fennec
-"
+'
 :
-"
+'
 Fennec
-"
+'
     
 GECKOVIEW_STREAMING_PRODUCT
 :
-"
+'
 GeckoviewStreaming
-"
+'
     
-"
+'
 thunderbird
-"
+'
 :
-"
+'
 Thunderbird
-"
+'
 }
 SUPPORTED_OPERATING_SYSTEMS
 =
 [
     
-"
+'
 mac
-"
+'
     
-"
+'
 linux
-"
+'
     
-"
+'
 windows
-"
+'
     
-"
+'
 android
-"
+'
     
-"
+'
 unix
-"
+'
     
-"
+'
 all
-"
+'
 ]
 UNIX_LIKE_OS
 =
@@ -157,87 +157,87 @@ CANONICAL_OPERATING_SYSTEMS
 =
 {
     
-"
+'
 darwin
-"
+'
 :
-"
+'
 mac
-"
+'
     
-"
+'
 linux
-"
+'
 :
-"
+'
 linux
-"
+'
     
-"
+'
 winnt
-"
+'
 :
-"
+'
 windows
-"
+'
     
-"
+'
 android
-"
+'
 :
-"
+'
 android
-"
+'
     
-"
+'
 gnu
 /
 kfreebsd
-"
+'
 :
-"
+'
 unix
-"
+'
     
-"
+'
 sunos
-"
+'
 :
-"
+'
 unix
-"
+'
     
-"
+'
 dragonfly
-"
+'
 :
-"
+'
 unix
-"
+'
     
-"
+'
 freeunix
-"
+'
 :
-"
+'
 unix
-"
+'
     
-"
+'
 netunix
-"
+'
 :
-"
+'
 unix
-"
+'
     
-"
+'
 openunix
-"
+'
 :
-"
+'
 unix
-"
+'
 }
 PROCESS_ENUM_PREFIX
 =
@@ -473,9 +473,11 @@ name
 :
     
 return
+(
 name
 in
 KNOWN_PROCESS_FLAGS
+)
 def
 process_name_to_enum
 (
@@ -500,9 +502,11 @@ name
 :
     
 return
+(
 name
 in
 SUPPORTED_PRODUCTS
+)
 def
 is_geckoview_streaming_product
 (
@@ -511,10 +515,12 @@ name
 :
     
 return
+(
 name
 =
 =
 GECKOVIEW_STREAMING_PRODUCT
+)
 def
 is_valid_os
 (
@@ -523,9 +529,11 @@ name
 :
     
 return
+(
 name
 in
 SUPPORTED_OPERATING_SYSTEMS
+)
 def
 canonical_os
 (
@@ -1157,7 +1165,6 @@ string
 raise
 ValueError
 (
-                    
 "
 String
 in
@@ -1174,10 +1181,9 @@ sequence
 %
 s
 "
-                    
 %
+                                 
 string
-                
 )
             
 e
@@ -1195,7 +1201,6 @@ f
 .
 write
 (
-                    
 "
 /
 *
@@ -1220,7 +1225,7 @@ s
 \
 n
 "
-                    
+                        
 %
 (
 offset
@@ -1230,7 +1235,6 @@ explodeToCharArray
 string
 )
 )
-                
 )
             
 else
@@ -1353,18 +1357,20 @@ false
     
 print
 (
-'
+"
 static_assert
 (
 %
 s
+\
 "
 %
 s
+\
 "
 )
 ;
-'
+"
 %
 (
 expression
@@ -1463,9 +1469,9 @@ if
 expiration
 !
 =
-"
+'
 never
-"
+'
 and
 not
 re
@@ -1473,7 +1479,7 @@ re
 match
 (
 r
-"
+'
 ^
 \
 d
@@ -1481,7 +1487,7 @@ d
 1
 3
 }
-"
+'
 expiration
 )
 :
@@ -1543,7 +1549,7 @@ re
 match
 (
 r
-"
+'
 ^
 [
 1
@@ -1556,7 +1562,7 @@ r
 9
 ]
 *
-"
+'
 expiration
 )
 :
@@ -1575,7 +1581,7 @@ re
 match
 (
 r
-"
+'
 ^
 [
 1
@@ -1591,7 +1597,7 @@ r
 \
 .
 0
-"
+'
 expiration
 )
 :
@@ -1638,9 +1644,9 @@ with
 open
 (
 filename
-"
+'
 r
-"
+'
 )
 as
 f
@@ -1663,16 +1669,16 @@ e
 raise
 ParserError
 (
-"
+'
 Error
 opening
-"
+'
 +
 filename
 +
-"
+'
 :
-"
+'
 +
 e
 .
@@ -1688,8 +1694,7 @@ e
 raise
 ParserError
 (
-            
-"
+'
 Error
 parsing
 processes
@@ -1699,7 +1704,8 @@ in
 :
 {
 }
-"
+'
+                          
 .
 format
 (
@@ -1708,5 +1714,4 @@ e
 .
 message
 )
-        
 )

@@ -25,183 +25,183 @@ MOZHARNESS_SCRIPTS
 =
 {
     
-"
+'
 android_emulator_unittest
-"
+'
 :
 {
         
-"
+'
 class_name
-"
+'
 :
-"
+'
 AndroidEmulatorTest
-"
+'
         
-"
+'
 configs
-"
+'
 :
 [
             
-"
+'
 android
 /
 android_common
 .
 py
-"
+'
         
 ]
         
-"
+'
 xfail
-"
+'
 :
 [
             
-"
+'
 cppunittest
-"
+'
             
-"
+'
 crashtest
 -
 qr
-"
+'
             
-"
+'
 gtest
-"
+'
             
-"
+'
 geckoview
 -
 junit
-"
+'
             
-"
+'
 jittest
-"
+'
             
-"
+'
 jsreftest
-"
+'
             
-"
+'
 reftest
 -
 qr
-"
+'
         
 ]
     
 }
     
-"
+'
 desktop_unittest
-"
+'
 :
 {
         
-"
+'
 class_name
-"
+'
 :
-"
+'
 DesktopUnittest
-"
+'
         
-"
+'
 configs
-"
+'
 :
 [
             
-"
+'
 unittests
 /
 linux_unittest
 .
 py
-"
+'
             
-"
+'
 unittests
 /
 mac_unittest
 .
 py
-"
+'
             
-"
+'
 unittests
 /
 win_unittest
 .
 py
-"
+'
         
 ]
         
-"
+'
 xfail
-"
+'
 :
 [
             
-"
+'
 cppunittest
-"
+'
             
-"
+'
 gtest
-"
+'
             
-"
+'
 jittest
-"
+'
             
-"
+'
 jittest
 -
 chunked
-"
+'
             
-"
+'
 jittest1
-"
+'
             
-"
+'
 jittest2
-"
+'
             
-"
+'
 jsreftest
-"
+'
             
-"
+'
 mochitest
 -
 valgrind
 -
 plain
-"
+'
             
-"
+'
 reftest
 -
 gpu
-"
+'
             
-"
+'
 reftest
 -
 no
 -
 accel
-"
+'
         
 ]
     
@@ -265,15 +265,15 @@ join
 build
 .
 topsrcdir
-"
+'
 testing
-"
-"
+'
+'
 mozharness
-"
-"
+'
+'
 scripts
-"
+'
 )
     
 files
@@ -294,12 +294,12 @@ imp
 .
 load_module
 (
-"
+'
 scripts
 .
 {
 }
-"
+'
 .
 format
 (
@@ -316,9 +316,9 @@ MOZHARNESS_SCRIPTS
 name
 ]
 [
-"
+'
 class_name
-"
+'
 ]
     
 cls
@@ -344,9 +344,9 @@ fixture
 (
 scope
 =
-"
+'
 module
-"
+'
 )
 def
 all_suites
@@ -378,18 +378,18 @@ all_suites
 append
 (
 {
-"
+'
 flavor
-"
+'
 :
 flavor
-"
+'
 srcdir_relpath
-"
+'
 :
-"
+'
 test
-"
+'
 }
 )
     
@@ -404,27 +404,25 @@ all_suites
 .
 append
 (
-            
 {
-"
+'
 flavor
-"
+'
 :
 flavor
-"
+'
 subsuite
-"
+'
 :
 subsuite
-"
+'
 srcdir_relpath
-"
+'
 :
-"
+'
 test
-"
+'
 }
-        
 )
     
 return
@@ -447,15 +445,15 @@ join
 build
 .
 topsrcdir
-"
+'
 testing
-"
-"
+'
+'
 mozharness
-"
-"
+'
+'
 configs
-"
+'
 )
     
 parent
@@ -490,10 +488,10 @@ imp
 .
 find_module
 (
-"
+'
 {
 }
-"
+'
 .
 format
 (
@@ -518,12 +516,12 @@ imp
 .
 load_module
 (
-"
+'
 config
 .
 {
 }
-"
+'
 .
 format
 (
@@ -546,21 +544,21 @@ sorted
 (
 config
 [
-"
+'
 suite_definitions
-"
+'
 ]
 )
 :
         
 key
 =
-"
+'
 all_
 {
 }
 _suites
-"
+'
 .
 format
 (
@@ -586,12 +584,12 @@ sorted
 (
 config
 [
-"
+'
 all_
 {
 }
 _suites
-"
+'
 .
 format
 (
@@ -632,9 +630,9 @@ path
 in
 script
 [
-"
+'
 configs
-"
+'
 ]
 :
             
@@ -678,9 +676,9 @@ suite
 in
 script
 [
-"
+'
 xfail
-"
+'
 ]
 :
                     
@@ -738,9 +736,9 @@ mark
 .
 parametrize
 (
-"
+'
 item
-"
+'
 generate_suites
 (
 )
@@ -801,9 +799,9 @@ suites
 resolve_tests_by_suite
 (
 [
-"
+'
 test
-"
+'
 ]
 )
     
@@ -811,9 +809,9 @@ os
 .
 environ
 [
-"
+'
 MOZHARNESS_TEST_PATHS
-"
+'
 ]
 =
 json
@@ -845,9 +843,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

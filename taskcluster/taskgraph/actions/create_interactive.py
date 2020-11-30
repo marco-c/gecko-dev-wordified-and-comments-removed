@@ -28,8 +28,12 @@ from
 .
 util
 import
+(
+    
 create_tasks
+    
 fetch_graph_and_labels
+)
 from
 taskgraph
 .
@@ -64,7 +68,7 @@ __name__
 )
 EMAIL_SUBJECT
 =
-"
+'
 Your
 Interactive
 Task
@@ -72,12 +76,12 @@ for
 {
 label
 }
-"
+'
 EMAIL_CONTENT
 =
-"
-"
-"
+'
+'
+'
 \
 As
 you
@@ -125,9 +129,9 @@ to
 begin
 running
 .
-"
-"
-"
+'
+'
+'
 SCOPE_WHITELIST
 =
 [
@@ -137,7 +141,7 @@ re
 compile
 (
 r
-"
+'
 ^
 secrets
 :
@@ -154,7 +158,7 @@ hgfingerprint
 |
 hgmointernal
 )
-"
+'
 )
     
 re
@@ -162,7 +166,7 @@ re
 compile
 (
 r
-"
+'
 ^
 docker
 -
@@ -177,7 +181,7 @@ tooltool
 download
 .
 public
-"
+'
 )
     
 re
@@ -185,7 +189,7 @@ re
 compile
 (
 r
-"
+'
 ^
 project
 :
@@ -200,7 +204,7 @@ api
 download
 /
 public
-"
+'
 )
     
 re
@@ -208,7 +212,7 @@ re
 compile
 (
 r
-"
+'
 ^
 docker
 -
@@ -223,7 +227,7 @@ tooltool
 download
 .
 internal
-"
+'
 )
     
 re
@@ -231,7 +235,7 @@ re
 compile
 (
 r
-"
+'
 ^
 project
 :
@@ -246,7 +250,7 @@ api
 download
 /
 internal
-"
+'
 )
     
 re
@@ -254,7 +258,7 @@ re
 compile
 (
 r
-"
+'
 ^
 queue
 :
@@ -268,7 +272,7 @@ gecko
 /
 .
 *
-"
+'
 )
     
 re
@@ -276,7 +280,7 @@ re
 compile
 (
 r
-"
+'
 ^
 secrets
 :
@@ -300,7 +304,7 @@ level
 /
 \
 *
-"
+'
 )
     
 re
@@ -308,7 +312,7 @@ re
 compile
 (
 r
-"
+'
 ^
 docker
 -
@@ -317,7 +321,7 @@ worker
 feature
 :
 allowPtrace
-"
+'
 )
     
 re
@@ -325,7 +329,7 @@ re
 compile
 (
 r
-"
+'
 ^
 docker
 -
@@ -337,7 +341,7 @@ device
 :
 .
 *
-"
+'
 )
 ]
 def
@@ -352,9 +356,9 @@ int
 (
 params
 [
-"
+'
 level
-"
+'
 ]
 )
 <
@@ -364,17 +368,17 @@ level
 return
 [
 {
-"
+'
 worker
 -
 implementation
-"
+'
 :
-"
+'
 docker
 -
 worker
-"
+'
 }
 ]
     
@@ -384,24 +388,24 @@ else
 return
 [
 {
-"
+'
 worker
 -
 implementation
-"
+'
 :
-"
+'
 docker
 -
 worker
-"
-"
+'
+'
 kind
-"
+'
 :
-"
+'
 test
-"
+'
 }
 ]
 register_callback_action
@@ -409,32 +413,33 @@ register_callback_action
     
 title
 =
-"
+'
 Create
 Interactive
 Task
-"
+'
     
 name
 =
-"
+'
 create
 -
 interactive
-"
+'
     
 symbol
 =
-"
+'
 create
 -
 inter
-"
+'
     
 description
 =
 (
-"
+        
+'
 Create
 a
 a
@@ -447,7 +452,8 @@ you
 can
 interact
 with
-"
+'
+    
 )
     
 order
@@ -462,47 +468,47 @@ schema
 =
 {
         
-"
+'
 type
-"
+'
 :
-"
+'
 object
-"
+'
         
-"
+'
 properties
-"
+'
 :
 {
             
-"
+'
 notify
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
                 
-"
+'
 format
-"
+'
 :
-"
+'
 email
-"
+'
                 
-"
+'
 title
-"
+'
 :
-"
+'
 Who
 to
 notify
@@ -511,15 +517,15 @@ the
 pending
 interactive
 task
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
                     
-"
+'
 Enter
 your
 email
@@ -531,38 +537,38 @@ email
 containing
 a
 link
-"
+'
                     
-"
+'
 to
 interact
 with
 the
 task
-"
+'
                 
 )
                 
-"
+'
 default
-"
+'
 :
-"
+'
 noreply
 noreply
 .
 mozilla
 .
 org
-"
+'
             
 }
         
 }
         
-"
+'
 additionalProperties
-"
+'
 :
 False
     
@@ -588,7 +594,6 @@ fetch_graph_and_labels
         
 parameters
 graph_config
-    
 )
     
 task
@@ -604,14 +609,14 @@ label
 =
 task
 [
-"
+'
 metadata
-"
+'
 ]
 [
-"
+'
 name
-"
+'
 ]
     
 def
@@ -641,9 +646,9 @@ task
         
 task_def
 [
-"
+'
 routes
-"
+'
 ]
 =
 [
@@ -651,86 +656,84 @@ routes
         
 task_def
 [
-"
+'
 retries
-"
+'
 ]
 =
 0
         
 task_def
 [
-"
+'
 deadline
-"
+'
 ]
 =
 {
-"
+'
 relative
 -
 datestamp
-"
+'
 :
-"
+'
 12
 hours
-"
+'
 }
         
 task_def
 [
-"
+'
 created
-"
+'
 ]
 =
 {
-"
+'
 relative
 -
 datestamp
-"
+'
 :
-"
+'
 0
 hours
-"
+'
 }
         
 task_def
 [
-"
+'
 expires
-"
+'
 ]
 =
 {
-"
+'
 relative
 -
 datestamp
-"
+'
 :
-"
+'
 1
 day
-"
+'
 }
         
 task
 .
 task
 [
-"
+'
 scopes
-"
+'
 ]
 =
 [
-            
 s
-            
 for
 s
 in
@@ -740,13 +743,13 @@ task
 .
 get
 (
-"
+'
 scopes
-"
+'
 [
 ]
 )
-            
+                               
 if
 any
 (
@@ -761,23 +764,22 @@ p
 in
 SCOPE_WHITELIST
 )
-        
 ]
         
 payload
 =
 task_def
 [
-"
+'
 payload
-"
+'
 ]
         
 payload
 [
-"
+'
 maxRunTime
-"
+'
 ]
 =
 max
@@ -789,18 +791,18 @@ payload
 .
 get
 (
-"
+'
 maxRunTime
-"
+'
 0
 )
 )
         
 payload
 [
-"
+'
 cache
-"
+'
 ]
 =
 {
@@ -808,9 +810,9 @@ cache
         
 payload
 [
-"
+'
 artifacts
-"
+'
 ]
 =
 {
@@ -820,16 +822,16 @@ payload
 .
 setdefault
 (
-"
+'
 features
-"
+'
 {
 }
 )
 [
-"
+'
 interactive
-"
+'
 ]
 =
 True
@@ -838,21 +840,21 @@ payload
 .
 setdefault
 (
-"
+'
 env
-"
+'
 {
 }
 )
 [
-"
+'
 TASKCLUSTER_INTERACTIVE
-"
+'
 ]
 =
-"
+'
 true
-"
+'
         
 return
 task
@@ -865,36 +867,29 @@ environ
 .
 get
 (
-"
+'
 TASK_ID
-"
+'
 )
     
 label_to_taskid
 =
 create_tasks
 (
-        
 graph_config
-        
 [
 label
 ]
-        
 full_task_graph
-        
 label_to_taskid
-        
+                                   
 parameters
-        
 decision_task_id
 =
 action_task_id
-        
 modifier
 =
 edit
-    
 )
     
 taskId
@@ -908,7 +903,7 @@ logger
 .
 info
 (
-"
+'
 Created
 interactive
 task
@@ -917,7 +912,7 @@ task
 ;
 sending
 notification
-"
+'
 .
 format
 (
@@ -928,9 +923,9 @@ taskId
 if
 input
 and
-"
+'
 notify
-"
+'
 in
 input
 :
@@ -939,23 +934,23 @@ email
 =
 input
 [
-"
+'
 notify
-"
+'
 ]
         
 if
 email
 =
 =
-"
+'
 noreply
 noreply
 .
 mozilla
 .
 org
-"
+'
 :
             
 return
@@ -964,61 +959,59 @@ info
 =
 {
             
-"
+'
 url
-"
+'
 :
 taskcluster_urls
 .
 ui
 (
-                
 get_root_url
 (
 False
 )
-"
+'
 tasks
 /
 {
 }
 /
 connect
-"
+'
 .
 format
 (
 taskId
 )
-            
 )
             
-"
+'
 label
-"
+'
 :
 label
             
-"
+'
 revision
-"
+'
 :
 parameters
 [
-"
+'
 head_rev
-"
+'
 ]
             
-"
+'
 repo
-"
+'
 :
 parameters
 [
-"
+'
 head_repository
-"
+'
 ]
         
 }
@@ -1054,23 +1047,23 @@ link
 =
 {
                 
-"
+'
 text
-"
+'
 :
-"
+'
 Connect
-"
+'
                 
-"
+'
 href
-"
+'
 :
 info
 [
-"
+'
 url
-"
+'
 ]
             
 }
@@ -1078,5 +1071,4 @@ url
 use_proxy
 =
 True
-        
 )

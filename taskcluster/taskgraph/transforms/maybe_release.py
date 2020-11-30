@@ -46,14 +46,14 @@ for
 key
 in
 [
-"
+'
 worker
 -
 type
-"
-"
+'
+'
 scopes
-"
+'
 ]
 :
             
@@ -61,26 +61,24 @@ resolve_keyed_by
 (
                 
 job
-                
 key
-                
 item_name
 =
 job
 [
-"
+'
 name
-"
+'
 ]
                 
 *
 *
 {
-"
+'
 release
 -
 level
-"
+'
 :
 config
 .

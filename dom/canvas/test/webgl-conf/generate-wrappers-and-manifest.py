@@ -10,7 +10,7 @@ import
 shutil
 WRAPPER_TEMPLATE_FILE
 =
-"
+'
 mochi
 -
 wrapper
@@ -18,113 +18,111 @@ wrapper
 html
 .
 template
-"
+'
 MANIFEST_TEMPLATE_FILE
 =
-"
+'
 mochitest
 .
 ini
 .
 template
-"
+'
 ERRATA_FILE
 =
-"
+'
 mochitest
 -
 errata
 .
 ini
-"
+'
 DEST_MANIFEST_PATHSTR
 =
-"
+'
 generated
 -
 mochitest
 .
 ini
-"
+'
 BASE_TEST_LIST_PATHSTR
 =
-"
+'
 checkout
 /
 00_test_list
 .
 txt
-"
+'
 GENERATED_PATHSTR
 =
-"
+'
 generated
-"
+'
 WEBGL2_TEST_MANGLE
 =
-"
+'
 2_
-"
+'
 PATH_SEP_MANGLING
 =
-"
+'
 __
-"
+'
 SUPPORT_DIRS
 =
 [
     
-"
+'
 checkout
-"
+'
 ]
 EXTRA_SUPPORT_FILES
 =
 [
     
-"
+'
 always
 -
 fail
 .
 html
-"
+'
     
-"
+'
 iframe
 -
 passthrough
 .
 css
-"
+'
     
-"
+'
 mochi
 -
 single
 .
 html
-"
+'
 ]
 ACCEPTABLE_ERRATA_KEYS
 =
 set
 (
-    
 [
-        
-"
+    
+'
 fail
 -
 if
-"
-        
-"
+'
+    
+'
 skip
 -
 if
-"
-    
+'
 ]
 )
 def
@@ -140,22 +138,22 @@ name
 .
 split
 (
-"
+'
 __
-"
+'
 )
     
 version
 =
-"
+'
 1
-"
+'
     
 if
-"
+'
 /
 test_2_
-"
+'
 in
 split
 [
@@ -165,15 +163,15 @@ split
         
 version
 =
-"
+'
 2
-"
+'
     
 category
 =
-"
+'
 core
-"
+'
     
 split
 [
@@ -187,18 +185,18 @@ split
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 1
 ]
     
 if
-"
+'
 deqp
-"
+'
 in
 split
 [
@@ -210,30 +208,30 @@ if
 version
 =
 =
-"
+'
 1
-"
+'
 :
             
 category
 =
-"
+'
 ext
-"
+'
         
 else
 :
             
 category
 =
-"
+'
 deqp
-"
+'
     
 elif
-"
+'
 conformance
-"
+'
 in
 split
 [
@@ -248,23 +246,23 @@ split
 ]
 in
 (
-"
+'
 glsl
-"
-"
+'
+'
 glsl3
-"
-"
+'
+'
 ogles
-"
+'
 )
 :
             
 category
 =
-"
+'
 ext
-"
+'
         
 elif
 split
@@ -273,9 +271,9 @@ split
 ]
 =
 =
-"
+'
 textures
-"
+'
 and
 split
 [
@@ -283,26 +281,26 @@ split
 ]
 !
 =
-"
+'
 misc
-"
+'
 :
             
 category
 =
-"
+'
 ext
-"
+'
     
 return
-"
+'
 webgl
 {
 }
 -
 {
 }
-"
+'
 .
 format
 (
@@ -321,17 +319,17 @@ BASE_TEST_LIST_PATHSTR
 .
 rsplit
 (
-"
+'
 /
-"
+'
 1
 )
     
 basePath
 =
-"
+'
 .
-"
+'
     
 testListFile
 =
@@ -370,13 +368,13 @@ alwaysFailEntry
 =
 TestEntry
 (
-"
+'
 always
 -
 fail
 .
 html
-"
+'
 True
 False
 )
@@ -423,9 +421,9 @@ replace
 os
 .
 sep
-"
+'
 /
-"
+'
 )
         
 continue
@@ -454,9 +452,9 @@ a
 .
 split
 (
-"
+'
 .
-"
+'
 )
 ]
     
@@ -474,9 +472,9 @@ b
 .
 split
 (
-"
+'
 .
-"
+'
 )
 ]
     
@@ -608,9 +606,9 @@ listPathStr
 =
 pathStr
 +
-"
+'
 /
-"
+'
 +
 listFile
     
@@ -620,9 +618,9 @@ listPathStr
 .
 replace
 (
-"
+'
 /
-"
+'
 os
 .
 sep
@@ -637,11 +635,11 @@ exists
 (
 listPath
 )
-"
+'
 Bad
 listPath
 :
-"
+'
 +
 listPath
     
@@ -649,9 +647,9 @@ with
 open
 (
 listPath
-"
+'
 r
-"
+'
 )
 as
 fIn
@@ -700,10 +698,10 @@ curLine
 .
 startswith
 (
-"
+'
 /
 /
-"
+'
 )
 :
                 
@@ -714,9 +712,9 @@ curLine
 .
 startswith
 (
-"
+'
 #
-"
+'
 )
 :
                 
@@ -735,10 +733,10 @@ curLine
 .
 startswith
 (
-"
+'
 -
 -
-"
+'
 )
 :
                 
@@ -751,8 +749,8 @@ curLine
 .
 split
 (
-"
-"
+'
+'
 1
 )
                 
@@ -760,13 +758,13 @@ if
 flag
 =
 =
-"
+'
 -
 -
 min
 -
 version
-"
+'
 :
                     
 (
@@ -778,8 +776,8 @@ curLine
 .
 split
 (
-"
-"
+'
+'
 1
 )
                     
@@ -808,13 +806,13 @@ elif
 flag
 =
 =
-"
+'
 -
 -
 max
 -
 version
-"
+'
 :
                     
 (
@@ -826,8 +824,8 @@ curLine
 .
 split
 (
-"
-"
+'
+'
 1
 )
                     
@@ -855,11 +853,11 @@ elif
 flag
 =
 =
-"
+'
 -
 -
 slow
-"
+'
 :
                     
 continue
@@ -869,12 +867,14 @@ else
                     
 text
 =
-"
+'
 Unknown
 flag
+\
 '
 {
 }
+\
 '
 :
 {
@@ -885,16 +885,15 @@ flag
 :
 {
 }
-"
+'
 .
 format
 (
-                        
 flag
 listPath
+                                                                   
 lineNum
 line
-                    
 )
                     
 assert
@@ -904,9 +903,11 @@ text
 continue
             
 assert
+(
 webgl1
 or
 webgl2
+)
             
 split
 =
@@ -914,9 +915,9 @@ curLine
 .
 rsplit
 (
-"
+'
 .
-"
+'
 1
 )
             
@@ -928,13 +929,13 @@ split
 =
 =
 2
-"
+'
 Bad
 split
 for
 line
 :
-"
+'
 +
 line
             
@@ -949,18 +950,18 @@ if
 ext
 =
 =
-"
+'
 html
-"
+'
 :
                 
 newTestFilePathStr
 =
 pathStr
 +
-"
+'
 /
-"
+'
 +
 curLine
                 
@@ -986,16 +987,16 @@ assert
 ext
 =
 =
-"
+'
 txt
-"
-"
+'
+'
 Bad
 ext
 on
 line
 :
-"
+'
 +
 line
             
@@ -1005,9 +1006,9 @@ curLine
 .
 rsplit
 (
-"
+'
 /
-"
+'
 1
 )
             
@@ -1021,8 +1022,8 @@ split
             
 nextPathStr
 =
-"
-"
+'
+'
             
 if
 len
@@ -1045,9 +1046,9 @@ nextPathStr
 =
 pathStr
 +
-"
+'
 /
-"
+'
 +
 nextPathStr
             
@@ -1098,9 +1099,9 @@ with
 open
 (
 inFilePath
-"
+'
 r
-"
+'
 )
 as
 f
@@ -1133,15 +1134,15 @@ with
 open
 (
 outFilePath
-"
+'
 w
-"
+'
 newline
 =
-"
+'
 \
 n
-"
+'
 )
 as
 f
@@ -1169,10 +1170,10 @@ lines
 .
 split
 (
-"
+'
 \
 n
-"
+'
 )
     
 if
@@ -1199,8 +1200,8 @@ split
     
 indentSpaces
 =
-"
-"
+'
+'
 *
 indentLen
     
@@ -1224,10 +1225,10 @@ line
 )
     
 return
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -1239,7 +1240,7 @@ re
 .
 compile
 (
-"
+'
 (
 %
 %
@@ -1249,14 +1250,14 @@ compile
 %
 %
 )
-"
+'
 )
 assert
 templateRE
 .
 split
 (
-"
+'
 foo
 =
 %
@@ -1265,25 +1266,25 @@ BAR
 %
 %
 ;
-"
+'
 )
 =
 =
 [
-"
+'
 foo
 =
-"
-"
+'
+'
 %
 %
 BAR
 %
 %
-"
-"
+'
+'
 ;
-"
+'
 ]
 class
 TemplateShellSpan
@@ -1316,10 +1317,10 @@ span
 .
 startswith
 (
-"
+'
 %
 %
-"
+'
 )
 and
 self
@@ -1328,10 +1329,10 @@ span
 .
 endswith
 (
-"
+'
 %
 %
-"
+'
 )
 :
             
@@ -1383,21 +1384,23 @@ self
 span
 in
 templateDict
-"
 '
-"
+\
+'
+'
 +
 self
 .
 span
 +
-"
+'
+\
 '
 not
 in
 dict
 !
-"
+'
         
 filling
 =
@@ -1463,20 +1466,20 @@ cur
 .
 startswith
 (
-"
+'
 %
 %
-"
+'
 )
 and
 cur
 .
 endswith
 (
-"
+'
 %
 %
-"
+'
 )
                 
 if
@@ -1499,8 +1502,8 @@ curLiteralSpan
                     
 span
 =
-"
-"
+'
+'
 .
 join
 (
@@ -1559,8 +1562,8 @@ curLiteralSpan
             
 span
 =
-"
-"
+'
+'
 .
 join
 (
@@ -1640,10 +1643,10 @@ span
 .
 rindex
 (
-"
+'
 \
 n
-"
+'
 )
 +
 1
@@ -1687,10 +1690,10 @@ startswith
 (
 GENERATED_PATHSTR
 +
-"
+'
 /
 test_
-"
+'
 +
 WEBGL2_TEST_MANGLE
 )
@@ -1710,16 +1713,16 @@ entryPath
 .
 replace
 (
-"
+'
 /
-"
+'
 PATH_SEP_MANGLING
 )
     
 maybeWebGL2Mangle
 =
-"
-"
+'
+'
     
 if
 webgl2
@@ -1731,9 +1734,9 @@ WEBGL2_TEST_MANGLE
     
 wrapperFileName
 =
-"
+'
 test_
-"
+'
 +
 maybeWebGL2Mangle
 +
@@ -1743,27 +1746,27 @@ wrapperPath
 =
 GENERATED_PATHSTR
 +
-"
+'
 /
-"
+'
 +
 wrapperFileName
     
 print
 (
-"
+'
 Adding
 wrapper
 :
-"
+'
 +
 wrapperPath
 )
     
 args
 =
-"
-"
+'
+'
     
 if
 webgl2
@@ -1771,26 +1774,26 @@ webgl2
         
 args
 =
-"
+'
 ?
 webglVersion
 =
 2
-"
+'
     
 templateDict
 =
 {
         
-"
+'
 TEST_PATH
-"
+'
 :
 entryPath
         
-"
+'
 ARGS
-"
+'
 :
 args
     
@@ -1841,9 +1844,9 @@ GENERATED_PATHSTR
 .
 replace
 (
-"
+'
 /
-"
+'
 os
 .
 sep
@@ -1925,7 +1928,7 @@ continue
     
 print
 (
-"
+'
 {
 }
 wrappers
@@ -1933,7 +1936,7 @@ written
 .
 \
 n
-"
+'
 .
 format
 (
@@ -1954,9 +1957,9 @@ path
 .
 relpath
 (
-"
+'
 .
-"
+'
 os
 .
 path
@@ -1975,9 +1978,9 @@ replace
 os
 .
 sep
-"
+'
 /
-"
+'
 )
 def
 ManifestPathStr
@@ -1990,9 +1993,9 @@ pathStr
 =
 kManifestRelPathStr
 +
-"
+'
 /
-"
+'
 +
 pathStr
     
@@ -2011,9 +2014,9 @@ replace
 os
 .
 sep
-"
+'
 /
-"
+'
 )
 def
 WriteManifest
@@ -2029,11 +2032,11 @@ DEST_MANIFEST_PATHSTR
     
 print
 (
-"
+'
 Generating
 manifest
 :
-"
+'
 +
 destPathStr
 )
@@ -2046,9 +2049,9 @@ LoadErrata
     
 defaultSectionName
 =
-"
+'
 DEFAULT
-"
+'
     
 defaultSectionLines
 =
@@ -2076,10 +2079,10 @@ defaultSectionName
     
 defaultSectionStr
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -2108,10 +2111,10 @@ supportPathStrList
     
 supportFilesStr
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -2145,15 +2148,15 @@ wrapperPathStr
         
 sectionName
 =
-"
+'
 [
-"
+'
 +
 wrapperManifestPathStr
 +
-"
+'
 ]
-"
+'
         
 manifestTestLineList
 .
@@ -2178,10 +2181,10 @@ errataLines
 .
 append
 (
-"
+'
 subsuite
 =
-"
+'
 +
 subsuite
 )
@@ -2222,13 +2225,13 @@ errataMap
         
 print
 (
-"
+'
 Errata
 left
 in
 map
 :
-"
+'
 )
         
 for
@@ -2243,8 +2246,8 @@ keys
             
 print
 (
-"
-"
+'
+'
 *
 4
 +
@@ -2256,10 +2259,10 @@ False
     
 manifestTestsStr
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -2270,21 +2273,21 @@ templateDict
 =
 {
         
-"
+'
 DEFAULT_ERRATA
-"
+'
 :
 defaultSectionStr
         
-"
+'
 SUPPORT_FILES
-"
+'
 :
 supportFilesStr
         
-"
+'
 MANIFEST_TESTS
-"
+'
 :
 manifestTestsStr
     
@@ -2296,9 +2299,9 @@ destPathStr
 .
 replace
 (
-"
+'
 /
-"
+'
 os
 .
 sep
@@ -2319,7 +2322,7 @@ re
 compile
 (
 r
-"
+'
 [
 [
 ]
@@ -2333,7 +2336,7 @@ r
 [
 ]
 ]
-"
+'
 )
 def
 LoadINI
@@ -2374,9 +2377,9 @@ with
 open
 (
 path
-"
+'
 r
-"
+'
 )
 as
 f
@@ -2415,12 +2418,12 @@ line
 ]
 in
 [
-"
+'
 ;
-"
-"
+'
+'
 #
-"
+'
 ]
 :
                 
@@ -2433,9 +2436,9 @@ line
 ]
 =
 =
-"
+'
 [
-"
+'
 :
                 
 assert
@@ -2446,16 +2449,16 @@ line
 ]
 =
 =
-"
+'
 ]
-"
-"
+'
+'
 {
 }
 :
 {
 }
-"
+'
 .
 format
 (
@@ -2474,15 +2477,11 @@ line
 ]
                 
 assert
-(
-                    
 curSectionName
 not
 in
 ret
-                
-)
-"
+'
 Line
 {
 }
@@ -2492,10 +2491,11 @@ section
 :
 {
 }
-"
+'
 .
 format
 (
+                    
 lineNum
 line
 )
@@ -2523,9 +2523,9 @@ line
 .
 split
 (
-"
+'
 =
-"
+'
 1
 )
             
@@ -2542,8 +2542,8 @@ strip
             
 val
 =
-"
-"
+'
+'
             
 if
 len
@@ -2631,9 +2631,9 @@ elif
 sectionName
 !
 =
-"
+'
 DEFAULT
-"
+'
 :
             
 path
@@ -2642,9 +2642,9 @@ sectionName
 .
 replace
 (
-"
+'
 /
-"
+'
 os
 .
 sep
@@ -2659,7 +2659,7 @@ exists
 (
 path
 )
-"
+'
 Errata
 line
 {
@@ -2670,14 +2670,13 @@ file
 :
 {
 }
-"
+'
 .
 format
 (
                 
 sectionLineNum
 sectionName
-            
 )
         
 for
@@ -2700,14 +2699,14 @@ assert
 key
 in
 ACCEPTABLE_ERRATA_KEYS
-"
+'
 Line
 {
 }
 :
 {
 }
-"
+'
 .
 format
 (
@@ -2717,13 +2716,13 @@ key
             
 curLine
 =
-"
+'
 {
 }
 =
 {
 }
-"
+'
 .
 format
 (
@@ -2792,9 +2791,9 @@ pathStr
 .
 replace
 (
-"
+'
 /
-"
+'
 os
 .
 sep
@@ -2811,19 +2810,19 @@ path
 )
 path
 +
-"
+'
 \
 n
 \
 n
 \
 n
-"
+'
 +
-"
+'
 pathStr
 :
-"
+'
 +
 str
 (
@@ -2886,9 +2885,9 @@ replace
 os
 .
 sep
-"
+'
 /
-"
+'
 )
             
 ret
@@ -2904,9 +2903,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 file_dir
@@ -2934,9 +2933,9 @@ rmtree
 (
 file_dir
 /
-"
+'
 generated
-"
+'
 True
 )
     
@@ -2967,8 +2966,8 @@ supportPathStrList
     
 print
 (
-"
+'
 Done
 !
-"
+'
 )

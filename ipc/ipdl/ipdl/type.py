@@ -63,9 +63,9 @@ import
 hash_str
 _DELETE_MSG
 =
-"
+'
 __delete__
-"
+'
 class
 TypeVisitor
 :
@@ -98,7 +98,6 @@ args
 raise
 Exception
 (
-            
 "
 INTERNAL
 ERROR
@@ -113,6 +112,7 @@ s
 '
 "
 %
+                        
 (
 node
 .
@@ -120,7 +120,6 @@ __class__
 .
 __name__
 )
-        
 )
     
 def
@@ -513,6 +512,7 @@ o
 :
         
 return
+(
 self
 .
 __class__
@@ -521,6 +521,7 @@ __class__
 o
 .
 __class__
+                
 and
 self
 .
@@ -533,6 +534,7 @@ o
 .
 fullname
 (
+)
 )
     
 def
@@ -655,9 +657,9 @@ visit
 getattr
 (
 visitor
-"
+'
 visit
-"
+'
 +
 self
 .
@@ -677,9 +679,9 @@ return
 getattr
 (
 visitor
-"
+'
 defaultVisit
-"
+'
 )
 (
 self
@@ -737,11 +739,10 @@ name
 self
 )
 :
-        
 return
-"
+'
 void
-"
+'
     
 def
 fullname
@@ -749,11 +750,10 @@ fullname
 self
 )
 :
-        
 return
-"
+'
 void
-"
+'
 VOID
 =
 VoidType
@@ -894,7 +894,6 @@ isIPDL
 self
 )
 :
-        
 return
 True
     
@@ -904,7 +903,6 @@ isMessage
 self
 )
 :
-        
 return
 False
     
@@ -914,7 +912,6 @@ isProtocol
 self
 )
 :
-        
 return
 False
     
@@ -924,7 +921,6 @@ isActor
 self
 )
 :
-        
 return
 False
     
@@ -934,7 +930,6 @@ isStruct
 self
 )
 :
-        
 return
 False
     
@@ -944,7 +939,6 @@ isUnion
 self
 )
 :
-        
 return
 False
     
@@ -954,7 +948,6 @@ isArray
 self
 )
 :
-        
 return
 False
     
@@ -964,7 +957,6 @@ isMaybe
 self
 )
 :
-        
 return
 False
     
@@ -974,7 +966,6 @@ isAtom
 self
 )
 :
-        
 return
 True
     
@@ -984,7 +975,6 @@ isCompound
 self
 )
 :
-        
 return
 False
     
@@ -994,7 +984,6 @@ isShmem
 self
 )
 :
-        
 return
 False
     
@@ -1004,7 +993,6 @@ isByteBuf
 self
 )
 :
-        
 return
 False
     
@@ -1014,7 +1002,6 @@ isFD
 self
 )
 :
-        
 return
 False
     
@@ -1024,7 +1011,6 @@ isEndpoint
 self
 )
 :
-        
 return
 False
     
@@ -1034,7 +1020,6 @@ isManagedEndpoint
 self
 )
 :
-        
 return
 False
     
@@ -1044,7 +1029,6 @@ isAsync
 self
 )
 :
-        
 return
 self
 .
@@ -1059,7 +1043,6 @@ isSync
 self
 )
 :
-        
 return
 self
 .
@@ -1074,7 +1057,6 @@ isInterrupt
 self
 )
 :
-        
 return
 self
 .
@@ -1088,8 +1070,8 @@ hasReply
 self
 )
 :
-        
 return
+(
 self
 .
 isSync
@@ -1101,6 +1083,7 @@ self
 isInterrupt
 (
 )
+)
     
 def
 hasBaseType
@@ -1108,7 +1091,6 @@ hasBaseType
 self
 )
 :
-        
 return
 False
     
@@ -1143,9 +1125,9 @@ _unwrap
 (
 nr
 [
-"
+'
 nested
-"
+'
 ]
 )
             
@@ -1166,7 +1148,7 @@ else
 raise
 ValueError
 (
-"
+'
 Got
 unexpected
 nestedRange
@@ -1174,7 +1156,7 @@ value
 :
 %
 s
-"
+'
 %
 nr
 )
@@ -1195,7 +1177,6 @@ nestedRange
 0
 ]
 )
-            
 _unwrap
 (
 greater
@@ -1215,7 +1196,6 @@ nestedRange
 1
 ]
 )
-            
 _unwrap
 (
 greater
@@ -1225,10 +1205,10 @@ nestedRange
 1
 ]
 )
-        
 )
         
 if
+(
 lnr0
 <
 gnr0
@@ -1236,18 +1216,21 @@ or
 lnr1
 >
 gnr1
+)
 :
             
 return
 False
         
 if
+(
 greater
 .
 isInterrupt
 (
 )
 and
+                
 lesser
 .
 nestedRange
@@ -1256,6 +1239,7 @@ nestedRange
 (
 NOT_NESTED
 NOT_NESTED
+)
 )
 :
             
@@ -1332,41 +1316,31 @@ IPDLType
 def
 __init__
 (
-        
 self
-        
 nested
-        
 prio
-        
 sendSemantics
-        
 direction
-        
+                 
 ctor
 =
 False
-        
 dtor
 =
 False
-        
 cdtype
 =
 None
-        
 compress
 =
 False
-        
+                 
 tainted
 =
 False
-        
 verify
 =
 False
-    
 )
 :
         
@@ -1480,7 +1454,6 @@ isMessage
 self
 )
 :
-        
 return
 True
     
@@ -1490,7 +1463,6 @@ isCtor
 self
 )
 :
-        
 return
 self
 .
@@ -1502,7 +1474,6 @@ isDtor
 self
 )
 :
-        
 return
 self
 .
@@ -1514,7 +1485,6 @@ constructedType
 self
 )
 :
-        
 return
 self
 .
@@ -1526,7 +1496,6 @@ isIn
 self
 )
 :
-        
 return
 self
 .
@@ -1540,7 +1509,6 @@ isOut
 self
 )
 :
-        
 return
 self
 .
@@ -1554,7 +1522,6 @@ isInout
 self
 )
 :
-        
 return
 self
 .
@@ -1568,7 +1535,6 @@ hasReply
 self
 )
 :
-        
 return
 len
 (
@@ -2149,9 +2115,9 @@ None
 )
 :
         
-"
-"
-"
+'
+'
+'
 |
 self
 |
@@ -2170,7 +2136,6 @@ and
 |
 t
 |
-        
 are
 in
 a
@@ -2187,7 +2152,6 @@ self
 .
 This
 function
-        
 looks
 for
 such
@@ -2199,9 +2163,9 @@ True
 if
 found
 .
-"
-"
-"
+'
+'
+'
         
 if
 exploring
@@ -2375,7 +2339,6 @@ isStruct
 self
 )
 :
-        
 return
 True
     
@@ -2403,7 +2366,6 @@ name
 self
 )
 :
-        
 return
 self
 .
@@ -2417,7 +2379,6 @@ fullname
 self
 )
 :
-        
 return
 str
 (
@@ -2466,7 +2427,6 @@ isUnion
 self
 )
 :
-        
 return
 True
     
@@ -2494,7 +2454,6 @@ name
 self
 )
 :
-        
 return
 self
 .
@@ -2508,7 +2467,6 @@ fullname
 self
 )
 :
-        
 return
 str
 (
@@ -2543,7 +2501,6 @@ isAtom
 self
 )
 :
-        
 return
 False
     
@@ -2553,7 +2510,6 @@ isArray
 self
 )
 :
-        
 return
 True
     
@@ -2563,7 +2519,6 @@ hasBaseType
 self
 )
 :
-        
 return
 True
     
@@ -2573,7 +2528,6 @@ name
 self
 )
 :
-        
 return
 self
 .
@@ -2583,10 +2537,10 @@ name
 (
 )
 +
-"
+'
 [
 ]
-"
+'
     
 def
 fullname
@@ -2594,7 +2548,6 @@ fullname
 self
 )
 :
-        
 return
 self
 .
@@ -2604,10 +2557,10 @@ fullname
 (
 )
 +
-"
+'
 [
 ]
-"
+'
 class
 MaybeType
 (
@@ -2635,7 +2588,6 @@ isAtom
 self
 )
 :
-        
 return
 False
     
@@ -2645,7 +2597,6 @@ isMaybe
 self
 )
 :
-        
 return
 True
     
@@ -2655,7 +2606,6 @@ hasBaseType
 self
 )
 :
-        
 return
 True
     
@@ -2665,7 +2615,6 @@ name
 self
 )
 :
-        
 return
 self
 .
@@ -2675,9 +2624,9 @@ name
 (
 )
 +
-"
+'
 ?
-"
+'
     
 def
 fullname
@@ -2685,7 +2634,6 @@ fullname
 self
 )
 :
-        
 return
 self
 .
@@ -2695,9 +2643,9 @@ fullname
 (
 )
 +
-"
+'
 ?
-"
+'
 class
 ShmemType
 (
@@ -2725,7 +2673,6 @@ isShmem
 self
 )
 :
-        
 return
 True
     
@@ -2784,7 +2731,6 @@ isByteBuf
 self
 )
 :
-        
 return
 True
     
@@ -2843,7 +2789,6 @@ isFD
 self
 )
 :
-        
 return
 True
     
@@ -2909,7 +2854,6 @@ isEndpoint
 self
 )
 :
-        
 return
 True
     
@@ -2975,7 +2919,6 @@ isManagedEndpoint
 self
 )
 :
-        
 return
 True
     
@@ -3034,7 +2977,6 @@ isAtom
 self
 )
 :
-        
 return
 False
     
@@ -3044,7 +2986,6 @@ isUniquePtr
 self
 )
 :
-        
 return
 True
     
@@ -3054,7 +2995,6 @@ hasBaseType
 self
 )
 :
-        
 return
 True
     
@@ -3066,10 +3006,10 @@ self
 :
         
 return
-"
+'
 UniquePtr
 <
-"
+'
 +
 self
 .
@@ -3079,9 +3019,9 @@ name
 (
 )
 +
-"
+'
 >
-"
+'
     
 def
 fullname
@@ -3091,13 +3031,13 @@ self
 :
         
 return
-"
+'
 mozilla
 :
 :
 UniquePtr
 <
-"
+'
 +
 self
 .
@@ -3107,9 +3047,9 @@ fullname
 (
 )
 +
-"
+'
 >
-"
+'
 def
 iteractortypes
 (
@@ -3290,7 +3230,6 @@ self
 s
 )
 :
-            
 raise
 found
 (
@@ -3321,11 +3260,11 @@ _builtinloc
 =
 Loc
 (
-"
+'
 <
 builtin
 >
-"
+'
 0
 )
 def
@@ -3341,10 +3280,10 @@ tname
 .
 split
 (
-"
+'
 :
 :
-"
+'
 )
     
 base
@@ -3366,11 +3305,12 @@ quals
 return
 UsingStmt
 (
-        
 _builtinloc
+                     
 TypeSpec
 (
 _builtinloc
+                              
 QualifiedId
 (
 _builtinloc
@@ -3378,7 +3318,6 @@ base
 quals
 )
 )
-    
 )
 builtinUsing
 =
@@ -3450,7 +3389,7 @@ loc
 loc
     
 return
-"
+'
 %
 s
 :
@@ -3458,7 +3397,7 @@ error
 :
 %
 s
-"
+'
 %
 (
 str
@@ -3713,14 +3652,13 @@ errors
 .
 append
 (
-                    
 errormsg
 (
-                        
+                    
 decl
 .
 loc
-                        
+                    
 "
 redeclaration
 of
@@ -3734,15 +3672,12 @@ at
 %
 s
 "
-                        
+                    
 name
-                        
 olddecl
 .
 loc
-                    
 )
-                
 )
                 
 return
@@ -3806,9 +3741,9 @@ class
 TypeCheck
 :
     
-"
-"
-"
+'
+'
+'
 This
 pass
 sets
@@ -3825,7 +3760,6 @@ that
 is
 relevant
 ;
-    
 a
 decl
 says
@@ -3843,10 +3777,8 @@ s
 a
 node
 was
-    
 declared
 .
-    
 With
 this
 information
@@ -3856,9 +3788,9 @@ checks
 the
 AST
 .
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -4137,9 +4069,9 @@ if
 hasattr
 (
 tu
-"
+'
 visited
-"
+'
 )
 :
             
@@ -4191,12 +4123,12 @@ filename
         
 expectedfilename
 =
-"
+'
 %
 s
 .
 ipdl
-"
+'
 %
 (
 tu
@@ -4214,9 +4146,9 @@ protocol
 expectedfilename
 +
 =
-"
+'
 h
-"
+'
         
 if
 basefilename
@@ -4229,11 +4161,10 @@ self
 .
 error
 (
-                
 tu
 .
 loc
-                
+                       
 "
 expected
 file
@@ -4259,15 +4190,12 @@ named
 s
 '
 "
-                
+                       
 tu
 .
 name
-                
 expectedfilename
-                
 basefilename
-            
 )
         
 if
@@ -4361,7 +4289,6 @@ quals
 )
 else
 fullname
-            
 )
             
 p
@@ -4383,35 +4310,33 @@ type
 =
 EndpointType
 (
-                    
 QualifiedId
 (
-                        
 p
 .
 loc
-"
+'
 Endpoint
 <
-"
+'
 +
+                                              
 fullname
 +
-"
+'
 Parent
 >
-"
+'
 [
-"
+'
 mozilla
-"
-"
+'
+'
 ipc
-"
+'
 ]
-                    
 )
-                    
+                                  
 ActorType
 (
 p
@@ -4420,25 +4345,23 @@ decl
 .
 type
 )
-                
 )
                 
 shortname
 =
-"
+'
 Endpoint
 <
-"
+'
 +
 p
 .
 name
 +
-"
+'
 Parent
 >
-"
-            
+'
 )
             
 p
@@ -4460,35 +4383,33 @@ type
 =
 EndpointType
 (
-                    
 QualifiedId
 (
-                        
 p
 .
 loc
-"
+'
 Endpoint
 <
-"
+'
 +
+                                              
 fullname
 +
-"
+'
 Child
 >
-"
+'
 [
-"
+'
 mozilla
-"
-"
+'
+'
 ipc
-"
+'
 ]
-                    
 )
-                    
+                                  
 ActorType
 (
 p
@@ -4497,25 +4418,23 @@ decl
 .
 type
 )
-                
 )
                 
 shortname
 =
-"
+'
 Endpoint
 <
-"
+'
 +
 p
 .
 name
 +
-"
+'
 Child
 >
-"
-            
+'
 )
             
 p
@@ -4537,37 +4456,34 @@ type
 =
 ManagedEndpointType
 (
-                    
 QualifiedId
 (
-                        
 p
 .
 loc
-                        
-"
+'
 ManagedEndpoint
 <
-"
+'
 +
+                                                     
 fullname
 +
-"
+'
 Parent
 >
-"
-                        
+'
+                                                     
 [
-"
+'
 mozilla
-"
-"
+'
+'
 ipc
-"
+'
 ]
-                    
 )
-                    
+                                         
 ActorType
 (
 p
@@ -4576,25 +4492,23 @@ decl
 .
 type
 )
-                
 )
                 
 shortname
 =
-"
+'
 ManagedEndpoint
 <
-"
+'
 +
 p
 .
 name
 +
-"
+'
 Parent
 >
-"
-            
+'
 )
             
 p
@@ -4616,37 +4530,34 @@ type
 =
 ManagedEndpointType
 (
-                    
 QualifiedId
 (
-                        
 p
 .
 loc
-                        
-"
+'
 ManagedEndpoint
 <
-"
+'
 +
+                                                     
 fullname
 +
-"
+'
 Child
 >
-"
-                        
+'
+                                                     
 [
-"
+'
 mozilla
-"
-"
+'
+'
 ipc
-"
+'
 ]
-                    
 )
-                    
+                                         
 ActorType
 (
 p
@@ -4655,25 +4566,23 @@ decl
 .
 type
 )
-                
 )
                 
 shortname
 =
-"
+'
 ManagedEndpoint
 <
-"
+'
 +
 p
 .
 name
 +
-"
+'
 Child
 >
-"
-            
+'
 )
             
 p
@@ -4792,9 +4701,9 @@ if
 hasattr
 (
 su
-"
+'
 decl
-"
+'
 )
 :
             
@@ -4885,10 +4794,10 @@ else
 assert
 0
 and
-"
+'
 unknown
 type
-"
+'
         
 sutype
 .
@@ -4910,18 +4819,20 @@ loc
 su
 .
 loc
+            
 type
 =
 sutype
+            
 shortname
 =
 su
 .
 name
+            
 fullname
 =
 fullname
-        
 )
     
 def
@@ -4964,7 +4875,6 @@ earlier
 error
 )
 "
-            
 )
             
 return
@@ -5110,9 +5020,9 @@ if
 hasattr
 (
 sd
-"
+'
 visited
-"
+'
 )
 :
             
@@ -5174,11 +5084,9 @@ self
 .
 error
 (
-                    
 f
 .
 loc
-                    
 "
 field
 %
@@ -5196,22 +5104,19 @@ type
 s
 '
 "
-                    
+                           
 f
 .
 name
-                    
 sd
 .
 name
-                    
 str
 (
 f
 .
 typespec
 )
-                
 )
                 
 continue
@@ -5254,7 +5159,6 @@ name
 fullname
 =
 None
-            
 )
             
 stype
@@ -5337,7 +5241,6 @@ self
 .
 error
 (
-                    
 c
 .
 loc
@@ -5354,6 +5257,7 @@ union
 s
 '
 "
+                           
 str
 (
 c
@@ -5361,7 +5265,6 @@ c
 ud
 .
 name
-                
 )
                 
 continue
@@ -5429,7 +5332,7 @@ if
 fullname
 =
 =
-"
+'
 mozilla
 :
 :
@@ -5437,7 +5340,7 @@ ipc
 :
 :
 Shmem
-"
+'
 :
             
 ipdltype
@@ -5455,7 +5358,7 @@ elif
 fullname
 =
 =
-"
+'
 mozilla
 :
 :
@@ -5463,7 +5366,7 @@ ipc
 :
 :
 ByteBuf
-"
+'
 :
             
 ipdltype
@@ -5481,7 +5384,7 @@ elif
 fullname
 =
 =
-"
+'
 mozilla
 :
 :
@@ -5489,7 +5392,7 @@ ipc
 :
 :
 FileDescriptor
-"
+'
 :
             
 ipdltype
@@ -5510,7 +5413,6 @@ ipdltype
 =
 ImportedCxxType
 (
-                
 using
 .
 type
@@ -5526,7 +5428,6 @@ using
 isMoveonly
 (
 )
-            
 )
             
 existingType
@@ -5580,11 +5481,9 @@ self
 .
 error
 (
-                        
 using
 .
 loc
-                        
 "
 inconsistent
 refcounted
@@ -5594,14 +5493,13 @@ type
 %
 s
 "
-                        
+                               
 str
 (
 using
 .
 type
 )
-                    
 )
                 
 if
@@ -5625,11 +5523,9 @@ self
 .
 error
 (
-                        
 using
 .
 loc
-                        
 "
 inconsistent
 moveonly
@@ -5639,14 +5535,13 @@ type
 %
 s
 "
-                        
+                               
 str
 (
 using
 .
 type
 )
-                    
 )
                 
 using
@@ -5689,7 +5584,6 @@ basename
 fullname
 =
 fullname
-        
 )
     
 def
@@ -5746,6 +5640,7 @@ appears
 multiple
 times
 "
+                           
 mgr
 .
 name
@@ -5820,6 +5715,7 @@ error
 p
 .
 loc
+                       
 "
 top
 -
@@ -5832,6 +5728,7 @@ cannot
 be
 empty
 "
+                       
 p
 .
 name
@@ -5840,9 +5737,9 @@ name
 setattr
 (
 self
-"
+'
 currentProtocolDecl
-"
+'
 p
 .
 decl
@@ -5876,6 +5773,7 @@ type
 .
 hasDelete
 =
+(
 not
 not
 self
@@ -5885,6 +5783,7 @@ symtab
 lookup
 (
 _DELETE_MSG
+)
 )
         
 if
@@ -5940,11 +5839,9 @@ s
 "
                 
 _DELETE_MSG
-                
 p
 .
 name
-            
 )
         
 self
@@ -6037,9 +5934,7 @@ declared
 "
                 
 mgrname
-                
 pname
-            
 )
         
 elif
@@ -6092,9 +5987,7 @@ s
 "
                 
 mgrname
-                
 pname
-                
 mgrdecl
 .
 type
@@ -6102,7 +5995,6 @@ type
 typename
 (
 )
-            
 )
         
 else
@@ -6183,9 +6075,8 @@ self
 .
 error
 (
-                
 loc
-                
+                       
 "
 protocol
 %
@@ -6201,11 +6092,9 @@ not
 been
 declared
 "
-                
+                       
 mgsname
-                
 pname
-            
 )
         
 elif
@@ -6249,9 +6138,7 @@ s
 "
                 
 pname
-                
 mgsname
-                
 mgsdecl
 .
 type
@@ -6259,7 +6146,6 @@ type
 typename
 (
 )
-            
 )
         
 else
@@ -6345,9 +6231,9 @@ isProtocol
 msgname
 +
 =
-"
+'
 Constructor
-"
+'
             
 isctor
 =
@@ -6370,9 +6256,7 @@ self
 .
 error
 (
-                
 loc
-                
 "
 message
 name
@@ -6386,9 +6270,8 @@ as
 s
 '
 "
-                
+                       
 msgname
-                
 decl
 .
 type
@@ -6396,7 +6279,6 @@ type
 typename
 (
 )
-            
 )
         
 if
@@ -6430,53 +6312,44 @@ msgtype
 =
 MessageType
 (
-            
 md
 .
 nested
-            
 md
 .
 prio
-            
 md
 .
 sendSemantics
-            
 md
 .
 direction
-            
+                              
 ctor
 =
 isctor
-            
 dtor
 =
 isdtor
-            
 cdtype
 =
 cdtype
-            
+                              
 compress
 =
 md
 .
 compress
-            
 tainted
 =
 md
 .
 tainted
-            
 verify
 =
 md
 .
 verify
-        
 )
         
 def
@@ -6546,9 +6419,7 @@ declared
 "
                     
 ptname
-                    
 msgname
-                
 )
                 
 ptype
@@ -6580,9 +6451,11 @@ declare
 loc
 =
 ploc
+                                
 type
 =
 ptype
+                                
 progname
 =
 param
@@ -6684,12 +6557,15 @@ self
 .
 declare
 (
+            
 loc
 =
 loc
+            
 type
 =
 msgtype
+            
 progname
 =
 msgname
@@ -6747,6 +6623,7 @@ itype
 ActorType
 (
 itype
+                                  
 nullable
 =
 typespec
@@ -6781,6 +6658,7 @@ error
 (
                 
 loc
+                
 "
 nullable
 '
@@ -6794,12 +6672,12 @@ makes
 no
 sense
 "
+                
 itype
 .
 name
 (
 )
-            
 )
         
 if
@@ -6987,9 +6865,9 @@ None
 )
 :
     
-"
-"
-"
+'
+'
+'
 The
 rules
 for
@@ -7001,7 +6879,7 @@ of
 a
 type
 are
-    
+  
 defined
 (
 atom
@@ -7009,7 +6887,7 @@ atom
 :
 =
 true
-    
+  
 defined
 (
 array
@@ -7021,7 +6899,7 @@ defined
 (
 basetype
 )
-    
+  
 defined
 (
 struct
@@ -7046,7 +6924,7 @@ and
 .
 .
 .
-    
+  
 defined
 (
 union
@@ -7071,9 +6949,9 @@ or
 .
 .
 .
-"
-"
-"
+'
+'
+'
     
 if
 exploring
@@ -7364,6 +7242,7 @@ sd
 decl
 .
 loc
+                       
 "
 struct
 %
@@ -7408,6 +7287,7 @@ ud
 decl
 .
 loc
+                       
 "
 union
 %
@@ -7508,13 +7388,11 @@ provides
 "
                     
 pname
-                    
 mgrtype
 .
 name
 (
 )
-                
 )
         
 if
@@ -7571,7 +7449,6 @@ formatcycles
 (
 cycles
 )
-                
 )
         
 if
@@ -7604,6 +7481,7 @@ p
 decl
 .
 loc
+                
 "
 top
 -
@@ -7616,10 +7494,10 @@ cannot
 manage
 itself
 "
+                
 p
 .
 name
-            
 )
         
 return
@@ -7730,9 +7608,7 @@ s
 "
                 
 pname
-                
 mgsname
-            
 )
     
 def
@@ -7834,9 +7710,7 @@ s
 "
                 
 pname
-                
 mgrname
-            
 )
     
 def
@@ -7928,9 +7802,7 @@ s
 "
                 
 mname
-                
 pname
-            
 )
         
 if
@@ -7989,20 +7861,15 @@ s
 "
                 
 mname
-                
 pname
-            
 )
         
 if
-(
-            
 mtype
 .
 isSync
 (
 )
-            
 and
 mtype
 .
@@ -8010,7 +7877,6 @@ nested
 =
 =
 NOT_NESTED
-            
 and
 (
 mtype
@@ -8024,8 +7890,6 @@ mtype
 isInout
 (
 )
-)
-        
 )
 :
             
@@ -8061,9 +7925,7 @@ s
 "
                 
 mname
-                
 pname
-            
 )
         
 if
@@ -8102,9 +7964,7 @@ provides
 "
                 
 mname
-                
 pname
-            
 )
         
 if
@@ -8137,8 +7997,8 @@ self
 .
 error
 (
-                
 loc
+                       
 "
 asynchronous
 ctor
@@ -8152,15 +8012,17 @@ declares
 return
 values
 "
+                       
 mname
-            
 )
         
 if
+(
 mtype
 .
 compress
 and
+                
 (
 not
 mtype
@@ -8179,6 +8041,7 @@ mtype
 .
 isDtor
 (
+)
 )
 )
 :
@@ -8216,7 +8079,6 @@ destructor
 error_message
 =
 (
-                    
 "
 %
 s
@@ -8235,13 +8097,12 @@ s
 '
 )
 "
-                    
 %
+                                 
 (
 message_type
 pname
 )
-                
 )
             
 else
@@ -8250,7 +8111,6 @@ else
 error_message
 =
 (
-                    
 "
 message
 %
@@ -8268,13 +8128,12 @@ is
 not
 async
 "
-                    
 %
+                                 
 (
 mname
 pname
 )
-                
 )
             
 self
@@ -8336,12 +8195,10 @@ mname
 -
 len
 (
-"
+'
 constructor
-"
+'
 )
 ]
-                
 pname
-            
 )

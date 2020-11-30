@@ -1373,7 +1373,6 @@ pytest
 .
 fixture
 (
-    
 params
 =
 ADDON_ID_TESTS
@@ -1489,9 +1488,9 @@ addon_details
 profile
 )
 [
-"
+'
 id
-"
+'
 ]
     
 assert
@@ -1545,9 +1544,9 @@ xpi
 assert
 addon
 [
-"
+'
 id
-"
+'
 ]
 =
 =
@@ -1565,9 +1564,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

@@ -112,7 +112,6 @@ argparse
 .
 ArgumentParser
 (
-        
 description
 =
 "
@@ -122,8 +121,8 @@ print
 set
 or
 "
-        
 +
+                                     
 "
 check
 the
@@ -134,8 +133,8 @@ being
 used
 as
 "
-        
 +
+                                     
 "
 the
 desktop
@@ -144,8 +143,8 @@ image
 .
 By
 "
-        
 +
+                                     
 "
 default
 prints
@@ -154,8 +153,8 @@ path
 to
 the
 "
-        
 +
+                                     
 "
 current
 desktop
@@ -163,31 +162,27 @@ background
 image
 .
 "
-    
 )
     
 parser
 .
 add_argument
 (
-        
 "
 -
 v
 "
-        
 "
 -
 -
 verbose
 "
-        
 action
 =
 "
 store_true
 "
-        
+                        
 help
 =
 "
@@ -196,11 +191,10 @@ verbose
 debugging
 information
 "
-        
+                        
 default
 =
 False
-    
 )
     
 group
@@ -215,12 +209,10 @@ group
 .
 add_argument
 (
-        
 "
 -
 s
 "
-        
 "
 -
 -
@@ -230,17 +222,16 @@ background
 -
 image
 "
-        
+                       
 dest
 =
-"
+'
 newBackgroundImagePath
-"
-        
+'
 required
 =
 False
-        
+                       
 help
 =
 "
@@ -256,8 +247,8 @@ set
 A
 zero
 "
-        
 +
+                       
 "
 exit
 code
@@ -267,23 +258,19 @@ errors
 occurred
 .
 "
-        
 default
 =
 None
-    
 )
     
 group
 .
 add_argument
 (
-        
 "
 -
 c
 "
-        
 "
 -
 -
@@ -293,17 +280,16 @@ background
 -
 image
 "
-        
+                       
 dest
 =
-"
+'
 checkBackgroundImagePath
-"
-        
+'
 required
 =
 False
-        
+                       
 help
 =
 "
@@ -315,8 +301,8 @@ background
 image
 path
 "
-        
 +
+                       
 "
 matches
 the
@@ -328,8 +314,8 @@ zero
 exit
 code
 "
-        
 +
+                       
 "
 indicates
 the
@@ -337,11 +323,9 @@ paths
 match
 .
 "
-        
 default
 =
 None
-    
 )
     
 args
@@ -389,9 +373,9 @@ logging
 .
 getLogger
 (
-"
+'
 desktopImage
-"
+'
 )
     
 if
@@ -407,7 +391,6 @@ logger
 .
 debug
 (
-            
 "
 checking
 provided
@@ -418,7 +401,7 @@ s
 matches
 current
 "
-            
+                     
 "
 image
 "
@@ -426,7 +409,6 @@ image
 args
 .
 checkBackgroundImagePath
-        
 )
     
 elif
@@ -841,12 +823,11 @@ ws
 .
 setDesktopImageURL_forScreen_options_error_
 (
-            
+                
 newImageURL
 focussedScreen
 None
 None
-        
 )
         
 if
@@ -1017,9 +998,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 if

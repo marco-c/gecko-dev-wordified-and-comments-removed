@@ -46,39 +46,39 @@ default_actions
 :
 [
         
-"
+'
 clobber
-"
+'
         
-"
+'
 download
 -
 and
 -
 extract
-"
+'
         
-"
+'
 create
 -
 virtualenv
-"
+'
         
-"
+'
 verify
 -
 device
-"
+'
         
-"
+'
 install
-"
+'
         
-"
+'
 run
 -
 tests
-"
+'
     
 ]
     

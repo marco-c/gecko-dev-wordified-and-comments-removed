@@ -149,9 +149,9 @@ path
 join
 (
 scripts_path
-"
+'
 external_tools
-"
+'
 )
 class
 AWSY
@@ -165,12 +165,9 @@ CodeCoverageMixin
     
 config_options
 =
-(
+[
         
 [
-            
-[
-                
 [
 "
 -
@@ -180,9 +177,8 @@ disable
 e10s
 "
 ]
-                
+         
 {
-                    
 "
 action
 "
@@ -190,7 +186,7 @@ action
 "
 store_false
 "
-                    
+          
 "
 dest
 "
@@ -198,13 +194,13 @@ dest
 "
 e10s
 "
-                    
+          
 "
 default
 "
 :
 True
-                    
+          
 "
 help
 "
@@ -225,13 +221,11 @@ builds
 only
 )
 "
-                
+          
 }
-            
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -239,9 +233,8 @@ only
 setpref
 "
 ]
-                
+         
 {
-                    
 "
 action
 "
@@ -249,7 +242,7 @@ action
 "
 append
 "
-                    
+          
 "
 dest
 "
@@ -257,14 +250,14 @@ dest
 "
 extra_prefs
 "
-                    
+          
 "
 default
 "
 :
 [
 ]
-                    
+          
 "
 help
 "
@@ -275,13 +268,11 @@ user
 prefs
 .
 "
-                
+          
 }
-            
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -291,9 +282,8 @@ enable
 webrender
 "
 ]
-                
+         
 {
-                    
 "
 action
 "
@@ -301,7 +291,7 @@ action
 "
 store_true
 "
-                    
+          
 "
 dest
 "
@@ -309,13 +299,13 @@ dest
 "
 enable_webrender
 "
-                    
+          
 "
 default
 "
 :
 False
-                    
+          
 "
 help
 "
@@ -329,13 +319,11 @@ in
 Gecko
 .
 "
-                
+          
 }
-            
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -343,9 +331,8 @@ Gecko
 base
 "
 ]
-                
+         
 {
-                    
 "
 action
 "
@@ -353,7 +340,7 @@ action
 "
 store_true
 "
-                    
+          
 "
 dest
 "
@@ -361,13 +348,13 @@ dest
 "
 test_about_blank
 "
-                    
+          
 "
 default
 "
 :
 False
-                    
+          
 "
 help
 "
@@ -384,13 +371,11 @@ memory
 test
 .
 "
-                
+          
 }
-            
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -398,9 +383,8 @@ test
 dmd
 "
 ]
-                
+         
 {
-                    
 "
 action
 "
@@ -408,7 +392,7 @@ action
 "
 store_true
 "
-                    
+          
 "
 dest
 "
@@ -416,13 +400,13 @@ dest
 "
 dmd
 "
-                    
+          
 "
 default
 "
 :
 False
-                    
+          
 "
 help
 "
@@ -435,13 +419,11 @@ DMD
 enabled
 .
 "
-                
+          
 }
-            
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -449,9 +431,8 @@ enabled
 tp6
 "
 ]
-                
+         
 {
-                    
 "
 action
 "
@@ -459,7 +440,7 @@ action
 "
 store_true
 "
-                    
+          
 "
 dest
 "
@@ -467,13 +448,13 @@ dest
 "
 tp6
 "
-                    
+          
 "
 default
 "
 :
 False
-                    
+          
 "
 help
 "
@@ -487,16 +468,13 @@ tp6
 pageset
 .
 "
-                
+          
 }
-            
 ]
-        
+    
 ]
-        
 +
 testing_config_options
-        
 +
 copy
 .
@@ -505,25 +483,23 @@ deepcopy
 code_coverage_config_options
 )
     
-)
-    
 error_list
 =
 [
         
 {
-"
+'
 regex
-"
+'
 :
 re
 .
 compile
 (
 r
-"
-"
-"
+'
+'
+'
 (
 TEST
 -
@@ -533,13 +509,13 @@ PROCESS
 -
 CRASH
 )
-"
-"
-"
+'
+'
+'
 )
-"
+'
 level
-"
+'
 :
 ERROR
 }
@@ -560,9 +536,9 @@ kwargs
 .
 setdefault
 (
-"
+'
 config_options
-"
+'
 self
 .
 config_options
@@ -572,107 +548,99 @@ kwargs
 .
 setdefault
 (
-            
-"
+'
 all_actions
-"
-            
+'
 [
-                
-"
+'
 clobber
-"
-                
-"
+'
+                                          
+'
 download
 -
 and
 -
 extract
-"
-                
-"
+'
+                                          
+'
 populate
 -
 webroot
-"
-                
-"
+'
+                                          
+'
 create
 -
 virtualenv
-"
-                
-"
+'
+                                          
+'
 install
-"
-                
-"
+'
+                                          
+'
 run
 -
 tests
-"
-            
+'
+                                          
 ]
-        
 )
         
 kwargs
 .
 setdefault
 (
-            
-"
+'
 default_actions
-"
-            
+'
 [
-                
-"
+'
 clobber
-"
-                
-"
+'
+                                              
+'
 download
 -
 and
 -
 extract
-"
-                
-"
+'
+                                              
+'
 populate
 -
 webroot
-"
-                
-"
+'
+                                              
+'
 create
 -
 virtualenv
-"
-                
-"
+'
+                                              
+'
 install
-"
-                
-"
+'
+                                              
+'
 run
 -
 tests
-"
-            
+'
+                                              
 ]
-        
 )
         
 kwargs
 .
 setdefault
 (
-"
+'
 config
-"
+'
 {
 }
 )
@@ -721,9 +689,9 @@ query_abs_dirs
 (
 )
 [
-"
+'
 abs_test_install_dir
-"
+'
 ]
         
 self
@@ -739,9 +707,9 @@ join
 self
 .
 testdir
-"
+'
 awsy
-"
+'
 )
         
 self
@@ -757,9 +725,9 @@ join
 self
 .
 awsy_path
-"
+'
 awsy
-"
+'
 )
         
 self
@@ -775,9 +743,9 @@ join
 self
 .
 testdir
-"
+'
 html
-"
+'
 )
         
 self
@@ -793,9 +761,9 @@ join
 self
 .
 testdir
-"
+'
 results
-"
+'
 )
         
 self
@@ -808,9 +776,9 @@ config
 .
 get
 (
-"
+'
 binary_path
-"
+'
 )
     
 def
@@ -850,9 +818,9 @@ dirs
         
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
 =
 os
@@ -861,24 +829,22 @@ path
 .
 join
 (
-            
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 blobber_upload_dir
-"
-        
+'
 )
         
 dirs
 [
-"
+'
 abs_test_install_dir
-"
+'
 ]
 =
 os
@@ -889,13 +855,13 @@ join
 (
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 tests
-"
+'
 )
         
 abs_dirs
@@ -943,12 +909,12 @@ download_and_extract
 suite_categories
 =
 [
-"
+'
 common
-"
-"
+'
+'
 awsy
-"
+'
 ]
         
 )
@@ -958,11 +924,11 @@ ret
     
 PreScriptAction
 (
-"
+'
 create
 -
 virtualenv
-"
+'
 )
     
 def
@@ -976,7 +942,6 @@ action
 requirements_files
 =
 [
-            
 os
 .
 path
@@ -986,16 +951,17 @@ join
 self
 .
 testdir
-"
+                                           
+'
 config
-"
-"
+'
+                                           
+'
 marionette_requirements
 .
 txt
-"
+'
 )
-        
 ]
         
 for
@@ -1008,25 +974,24 @@ self
 .
 register_virtualenv_module
 (
-                
 requirements
 =
 [
 requirements_file
 ]
+                                            
 two_pass
 =
 True
-            
 )
         
 self
 .
 register_virtualenv_module
 (
-"
+'
 awsy
-"
+'
 self
 .
 awsy_path
@@ -1079,13 +1044,13 @@ join
 self
 .
 awsy_path
-"
+'
 tp5n
 -
 pageset
 .
 manifest
-"
+'
 )
         
 page_load_test_dir
@@ -1099,9 +1064,9 @@ join
 self
 .
 webroot_dir
-"
+'
 page_load_test
-"
+'
 )
         
 if
@@ -1142,9 +1107,9 @@ config
 .
 get
 (
-"
+'
 tooltool_cache
-"
+'
 )
         
 )
@@ -1158,11 +1123,11 @@ path
 join
 (
 page_load_test_dir
-"
+'
 tp5n
 .
 zip
-"
+'
 )
         
 unzip
@@ -1171,28 +1136,28 @@ self
 .
 query_exe
 (
-"
+'
 unzip
-"
+'
 )
         
 unzip_cmd
 =
 [
 unzip
-"
+'
 -
 q
-"
-"
+'
+'
 -
 o
-"
+'
 archive
-"
+'
 -
 d
-"
+'
 page_load_test_dir
 ]
         
@@ -1232,9 +1197,9 @@ kw
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 AWSY
 test
@@ -1243,9 +1208,9 @@ be
 implemented
 here
         
-"
-"
-"
+'
+'
+'
         
 dirs
 =
@@ -1266,49 +1231,46 @@ path
 .
 join
 (
-            
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
-"
+                                          
+'
 marionette_errorsummary
 .
 log
-"
-        
+'
 )
         
 runtime_testvars
 =
 {
-            
-"
+'
 webRootDir
-"
+'
 :
 self
 .
 webroot_dir
-            
-"
+                            
+'
 resultsDir
-"
+'
 :
 self
 .
 results_dir
-            
-"
+                            
+'
 bin
-"
+'
 :
 self
 .
 binary_path
-        
 }
         
 dmd_enabled
@@ -1334,9 +1296,9 @@ mozinfo
 os
 =
 =
-"
+'
 mac
-"
+'
 :
             
 dmd_py_lib_dir
@@ -1378,9 +1340,9 @@ self
 .
 config
 [
-"
+'
 dmd
-"
+'
 ]
 and
 os
@@ -1399,9 +1361,9 @@ True
             
 runtime_testvars
 [
-"
+'
 dmd
-"
+'
 ]
 =
 True
@@ -1414,9 +1376,9 @@ environ
 .
 get
 (
-"
+'
 PYTHONPATH
-"
+'
 )
             
 if
@@ -1427,9 +1389,9 @@ os
 .
 environ
 [
-"
+'
 PYTHONPATH
-"
+'
 ]
 =
 "
@@ -1442,15 +1404,11 @@ s
 "
 %
 (
-                    
 python_path
-                    
 os
 .
 pathsep
-                    
 dmd_py_lib_dir
-                
 )
             
 else
@@ -1460,18 +1418,18 @@ os
 .
 environ
 [
-"
+'
 PYTHONPATH
-"
+'
 ]
 =
 dmd_py_lib_dir
             
 env
 [
-"
+'
 DMD
-"
+'
 ]
 =
 "
@@ -1491,18 +1449,18 @@ full
         
 runtime_testvars
 [
-"
+'
 tp6
-"
+'
 ]
 =
 self
 .
 config
 [
-"
+'
 tp6
-"
+'
 ]
         
 if
@@ -1510,26 +1468,26 @@ self
 .
 config
 [
-"
+'
 tp6
-"
+'
 ]
 :
             
 env
 [
-"
+'
 SCRIPTSPATH
-"
+'
 ]
 =
 scripts_path
             
 env
 [
-"
+'
 EXTERNALTOOLSPATH
-"
+'
 ]
 =
 external_tools_path
@@ -1545,13 +1503,13 @@ join
 self
 .
 awsy_path
-"
+'
 runtime
 -
 testvars
 .
 json
-"
+'
 )
         
 runtime_testvars_file
@@ -1559,9 +1517,9 @@ runtime_testvars_file
 open
 (
 runtime_testvars_path
-"
+'
 wb
-"
+'
 )
         
 runtime_testvars_file
@@ -1588,9 +1546,9 @@ close
 cmd
 =
 [
-"
+'
 marionette
-"
+'
 ]
         
 test_vars_file
@@ -1602,9 +1560,9 @@ self
 .
 config
 [
-"
+'
 test_about_blank
-"
+'
 ]
 :
             
@@ -1626,9 +1584,9 @@ self
 .
 config
 [
-"
+'
 tp6
-"
+'
 ]
 :
                 
@@ -1657,7 +1615,6 @@ cmd
 .
 append
 (
-            
 "
 -
 -
@@ -1681,7 +1638,6 @@ conf
 "
 test_vars_file
 )
-        
 )
         
 cmd
@@ -1773,13 +1729,13 @@ join
 (
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 profile
-"
+'
 )
 )
 )
@@ -1790,9 +1746,9 @@ self
 .
 config
 [
-"
+'
 e10s
-"
+'
 ]
 :
             
@@ -1800,13 +1756,13 @@ cmd
 .
 append
 (
-"
+'
 -
 -
 disable
 -
 e10s
-"
+'
 )
         
 cmd
@@ -1814,14 +1770,14 @@ cmd
 extend
 (
 [
-"
+'
 -
 -
 setpref
 =
 {
 }
-"
+'
 .
 format
 (
@@ -1834,9 +1790,9 @@ self
 .
 config
 [
-"
+'
 extra_prefs
-"
+'
 ]
 ]
 )
@@ -1845,8 +1801,7 @@ cmd
 .
 append
 (
-            
-"
+'
 -
 -
 gecko
@@ -1855,7 +1810,7 @@ log
 =
 %
 s
-"
+'
 %
 os
 .
@@ -1869,20 +1824,20 @@ dirs
 abs_blob_upload_dir
 "
 ]
-"
+                                                   
+'
 gecko
 .
 log
-"
+'
 )
-        
 )
         
 cmd
 .
 append
 (
-"
+'
 -
 -
 symbols
@@ -1891,7 +1846,7 @@ path
 =
 %
 s
-"
+'
 %
 self
 .
@@ -1903,9 +1858,9 @@ self
 .
 config
 [
-"
+'
 test_about_blank
-"
+'
 ]
 :
             
@@ -1920,11 +1875,11 @@ join
 self
 .
 awsy_libdir
-"
+'
 test_base_memory_usage
 .
 py
-"
+'
 )
             
 prefs_file
@@ -1951,11 +1906,11 @@ join
 self
 .
 awsy_libdir
-"
+'
 test_memory_usage
 .
 py
-"
+'
 )
             
 if
@@ -1963,9 +1918,9 @@ self
 .
 config
 [
-"
+'
 tp6
-"
+'
 ]
 :
                 
@@ -1994,7 +1949,6 @@ cmd
 .
 append
 (
-            
 "
 -
 -
@@ -2018,7 +1972,6 @@ conf
 "
 prefs_file
 )
-        
 )
         
 if
@@ -2058,9 +2011,9 @@ self
 .
 config
 [
-"
+'
 enable_webrender
-"
+'
 ]
 :
             
@@ -2068,38 +2021,38 @@ cmd
 .
 append
 (
-"
+'
 -
 -
 enable
 -
 webrender
-"
+'
 )
         
 env
 [
-"
+'
 STYLO_THREADS
-"
+'
 ]
 =
-"
+'
 4
-"
+'
         
 env
 [
-"
+'
 MOZ_UPLOAD_DIR
-"
+'
 ]
 =
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
         
 if
@@ -2112,9 +2065,9 @@ isdir
 (
 env
 [
-"
+'
 MOZ_UPLOAD_DIR
-"
+'
 ]
 )
 :
@@ -2125,9 +2078,9 @@ mkdir_p
 (
 env
 [
-"
+'
 MOZ_UPLOAD_DIR
-"
+'
 ]
 )
         
@@ -2141,9 +2094,9 @@ query_minidump_stackwalk
             
 env
 [
-"
+'
 MINIDUMP_STACKWALK
-"
+'
 ]
 =
 self
@@ -2152,28 +2105,28 @@ minidump_stackwalk_path
         
 env
 [
-"
+'
 MINIDUMP_SAVE_PATH
-"
+'
 ]
 =
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
         
 env
 [
-"
+'
 RUST_BACKTRACE
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 env
 =
@@ -2190,29 +2143,27 @@ parser
 =
 StructuredOutputParser
 (
-            
 config
 =
 self
 .
 config
-            
+                                        
 log_obj
 =
 self
 .
 log_obj
-            
+                                        
 error_list
 =
 self
 .
 error_list
-            
+                                        
 strict
 =
 False
-        
 )
         
 return_code
@@ -2221,17 +2172,16 @@ self
 .
 run_command
 (
-            
 command
 =
 cmd
-            
+                                       
 cwd
 =
 self
 .
 awsy_path
-            
+                                       
 output_timeout
 =
 self
@@ -2244,15 +2194,14 @@ get
 cmd_timeout
 "
 )
-            
+                                       
 env
 =
 env
-            
+                                       
 output_parser
 =
 parser
-        
 )
         
 level
@@ -2271,14 +2220,12 @@ evaluate_parser
 return_code
 =
 return_code
-        
 )
         
 self
 .
 log
 (
-            
 "
 AWSY
 exited
@@ -2296,11 +2243,10 @@ s
 return_code
 tbpl_status
 )
-            
+                 
 level
 =
 level
-        
 )
         
 self
@@ -2313,9 +2259,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 awsy_test

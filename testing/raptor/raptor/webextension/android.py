@@ -237,9 +237,9 @@ self
 .
 config
 [
-"
+'
 binary
-"
+'
 ]
         
 self
@@ -285,9 +285,9 @@ self
 .
 config
 [
-"
+'
 power_test
-"
+'
 ]
 :
             
@@ -383,7 +383,6 @@ device
 .
 process_exist
 (
-            
 self
 .
 config
@@ -392,7 +391,6 @@ config
 binary
 "
 ]
-        
 )
     
 def
@@ -716,9 +714,9 @@ ADBProcessError
             
 thermal_zone0
 =
-"
+'
 Unknown
-"
+'
         
 try
 :
@@ -754,9 +752,9 @@ ADBProcessError
             
 zone_type
 =
-"
+'
 Unknown
-"
+'
         
 LOG
 .
@@ -823,7 +821,6 @@ extra_args
 -
 profile
 "
-            
 self
 .
 remote_profile
@@ -841,7 +838,6 @@ downgrade
 -
 es
 "
-            
 "
 env0
 "
@@ -857,7 +853,6 @@ LOG_VERBOSE
 -
 es
 "
-            
 "
 env1
 "
@@ -873,7 +868,6 @@ R_LOG_LEVEL
 -
 es
 "
-            
 "
 env2
 "
@@ -899,7 +893,6 @@ enable_webrender
 -
 es
 "
-            
 "
 env3
 "
@@ -1542,9 +1535,9 @@ self
 .
 config
 [
-"
+'
 power_test
-"
+'
 ]
 :
                 
@@ -2661,7 +2654,6 @@ mozcrash
 .
 log_crashes
 (
-                
 LOG
 dump_dir
 self
@@ -2672,7 +2664,6 @@ config
 symbols_path
 "
 ]
-            
 )
         
 finally
@@ -2758,9 +2749,9 @@ self
 .
 config
 [
-"
+'
 power_test
-"
+'
 ]
 :
             

@@ -11,25 +11,18 @@ Actions
 def
 smooth_scroll
 (
-    
 marionette_session
-    
 start_element
-    
 axis
-    
 direction
-    
+                  
 length
-    
 increments
 =
 None
-    
 wait_period
 =
 None
-    
 scroll_back
 =
 None
@@ -39,7 +32,7 @@ None
 "
 "
 "
-    
+        
 :
 param
 axis
@@ -47,7 +40,7 @@ axis
 y
 or
 x
-    
+        
 :
 param
 direction
@@ -60,7 +53,7 @@ and
 1
 for
 negative
-    
+        
 :
 param
 length
@@ -70,7 +63,7 @@ length
 of
 scroll
 scroll
-    
+        
 :
 param
 increments
@@ -81,7 +74,7 @@ be
 moved
 per
 scrolling
-    
+        
 :
 param
 wait_period
@@ -91,7 +84,7 @@ to
 wait
 between
 scrolling
-    
+        
 :
 param
 scroll_back
@@ -270,9 +263,11 @@ start_element
 )
     
 while
+(
 current
 <
 length
+)
 :
         
 current
@@ -309,9 +304,11 @@ offset
 ]
         
 while
+(
 current
 >
 0
+)
 :
             
 current
@@ -365,13 +362,13 @@ duration
 "
 "
 "
-    
+        
 :
 param
 element
 :
 target
-    
+        
 :
 param
 x1
@@ -385,7 +382,7 @@ relative
 to
 the
 target
-    
+        
 :
 param
 x3
@@ -399,7 +396,7 @@ relative
 to
 the
 target
-    
+        
 :
 param
 x2
@@ -413,7 +410,7 @@ relative
 to
 the
 target
-    
+        
 :
 param
 x4
@@ -427,7 +424,7 @@ relative
 to
 the
 target
-    
+        
 :
 param
 duration
@@ -570,9 +567,11 @@ y2
 )
     
 while
+(
 time
 <
 duration
+)
 :
         
 time
@@ -640,7 +639,6 @@ perform
 def
 long_press_without_contextmenu
 (
-    
 marionette_session
 element
 time_in_seconds
@@ -656,7 +654,7 @@ None
 "
 "
 "
-    
+        
 :
 param
 element
@@ -666,7 +664,7 @@ element
 to
 press
 .
-    
+        
 :
 param
 time_in_seconds
@@ -681,7 +679,7 @@ releasing
 the
 press
 .
-    
+        
 #
 x
 :
@@ -702,7 +700,7 @@ of
 the
 element
 .
-    
+        
 #
 y
 :

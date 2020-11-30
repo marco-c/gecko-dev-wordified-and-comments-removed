@@ -17,15 +17,15 @@ _ARTIFACT_ID_PER_PLATFORM
 =
 {
     
-"
+'
 android
 -
 aarch64
 -
 opt
-"
+'
 :
-"
+'
 geckoview
 -
 default
@@ -33,9 +33,9 @@ default
 arm64
 -
 v8a
-"
+'
     
-"
+'
 android
 -
 api
@@ -43,9 +43,9 @@ api
 16
 -
 opt
-"
+'
 :
-"
+'
 geckoview
 -
 default
@@ -53,41 +53,41 @@ default
 armeabi
 -
 v7a
-"
+'
     
-"
+'
 android
 -
 x86
 -
 opt
-"
+'
 :
-"
+'
 geckoview
 -
 default
 -
 x86
-"
+'
     
-"
+'
 android
 -
 x86_64
 -
 opt
-"
+'
 :
-"
+'
 geckoview
 -
 default
 -
 x86_64
-"
+'
     
-"
+'
 android
 -
 geckoview
@@ -97,23 +97,23 @@ fat
 aar
 -
 opt
-"
+'
 :
-"
+'
 geckoview
 -
 default
-"
+'
     
-"
+'
 android
 -
 aarch64
 -
 shippable
-"
+'
 :
-"
+'
 geckoview
 {
 update_channel
@@ -122,9 +122,9 @@ update_channel
 arm64
 -
 v8a
-"
+'
     
-"
+'
 android
 -
 api
@@ -132,9 +132,9 @@ api
 16
 -
 shippable
-"
+'
 :
-"
+'
 geckoview
 {
 update_channel
@@ -143,43 +143,43 @@ update_channel
 armeabi
 -
 v7a
-"
+'
     
-"
+'
 android
 -
 x86
 -
 shippable
-"
+'
 :
-"
+'
 geckoview
 {
 update_channel
 }
 -
 x86
-"
+'
     
-"
+'
 android
 -
 x86_64
 -
 shippable
-"
+'
 :
-"
+'
 geckoview
 {
 update_channel
 }
 -
 x86_64
-"
+'
     
-"
+'
 android
 -
 geckoview
@@ -189,14 +189,14 @@ fat
 aar
 -
 shippable
-"
+'
 :
-"
+'
 geckoview
 {
 update_channel
 }
-"
+'
 }
 def
 get_geckoview_upstream_artifacts
@@ -205,8 +205,8 @@ config
 job
 platform
 =
-"
-"
+'
+'
 )
 :
     
@@ -219,14 +219,14 @@ platform
 =
 job
 [
-"
+'
 attributes
-"
+'
 ]
 [
-"
+'
 build_platform
-"
+'
 ]
     
 upstream_artifacts
@@ -235,45 +235,41 @@ generate_beetmover_upstream_artifacts
 (
         
 config
-        
 job
-        
 platform
 =
-"
-"
+'
+'
         
 *
 *
 get_geckoview_template_vars
 (
-            
 config
 platform
 job
 [
-"
+'
 attributes
-"
+'
 ]
 .
 get
 (
-"
+'
 update
 -
 channel
-"
+'
 )
-        
 )
     
 )
     
 return
 [
-        
 {
+        
 key
 :
 value
@@ -286,20 +282,20 @@ upstream_artifact
 items
 (
 )
+        
 if
 key
 !
 =
-"
+'
 locale
-"
+'
+    
 }
-        
 for
 upstream_artifact
 in
 upstream_artifacts
-    
 ]
 def
 get_geckoview_template_vars
@@ -317,7 +313,7 @@ re
 match
 (
 r
-"
+'
 (
 \
 d
@@ -331,14 +327,14 @@ d
 )
 .
 *
-"
+'
 config
 .
 params
 [
-"
+'
 version
-"
+'
 ]
 )
     
@@ -358,43 +354,41 @@ groups
 return
 {
         
-"
+'
 artifact_id
-"
+'
 :
 get_geckoview_artifact_id
 (
             
 config
-            
 platform
-            
 update_channel
         
 )
         
-"
+'
 build_date
-"
+'
 :
 config
 .
 params
 [
-"
+'
 moz_build_date
-"
+'
 ]
         
-"
+'
 major_version
-"
+'
 :
 major_version
         
-"
+'
 minor_version
-"
+'
 :
 minor_version
     
@@ -414,15 +408,15 @@ if
 update_channel
 =
 =
-"
+'
 release
-"
+'
 :
         
 update_channel
 =
-"
-"
+'
+'
     
 elif
 update_channel
@@ -433,11 +427,11 @@ None
         
 update_channel
 =
-"
+'
 -
 {
 }
-"
+'
 .
 format
 (
@@ -449,13 +443,13 @@ else
         
 update_channel
 =
-"
+'
 -
 nightly
 -
 {
 }
-"
+'
 .
 format
 (
@@ -463,9 +457,9 @@ config
 .
 params
 [
-"
+'
 project
-"
+'
 ]
 )
     

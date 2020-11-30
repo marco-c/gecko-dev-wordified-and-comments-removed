@@ -12,7 +12,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -112,7 +111,6 @@ num2
 "
 "
 "
-    
 )
     
 results
@@ -174,6 +172,7 @@ WebIDL
 .
 IDLInterface
 )
+               
 "
 Should
 be
@@ -186,7 +185,6 @@ harness
 .
 check
 (
-        
 iface
 .
 identifier
@@ -206,14 +204,12 @@ the
 right
 QName
 "
-    
 )
     
 harness
 .
 check
 (
-        
 iface
 .
 identifier
@@ -229,7 +225,6 @@ the
 right
 name
 "
-    
 )
     
 harness
@@ -266,7 +261,6 @@ harness
 .
 check
 (
-        
 member
 .
 identifier
@@ -274,7 +268,6 @@ identifier
 QName
 (
 )
-        
 "
 :
 :
@@ -283,7 +276,6 @@ TestOverloads
 :
 basic
 "
-        
 "
 Method
 has
@@ -291,7 +283,6 @@ the
 right
 QName
 "
-    
 )
     
 harness
@@ -472,6 +463,7 @@ WebIDL
 .
 IDLArgument
 )
+               
 "
 Should
 be
@@ -484,7 +476,6 @@ harness
 .
 check
 (
-        
 argument
 .
 identifier
@@ -492,7 +483,6 @@ identifier
 QName
 (
 )
-        
 "
 :
 :
@@ -504,7 +494,6 @@ basic
 :
 arg1
 "
-        
 "
 Argument
 has
@@ -512,7 +501,6 @@ the
 right
 QName
 "
-    
 )
     
 harness
@@ -571,7 +559,6 @@ harness
 .
 check
 (
-        
 len
 (
 member
@@ -582,6 +569,7 @@ overloadsForArgCount
 )
 )
 1
+                  
 "
 Only
 one
@@ -590,7 +578,6 @@ for
 no
 args
 "
-    
 )
     
 harness
@@ -607,6 +594,7 @@ overloadsForArgCount
 )
 )
 0
+                  
 "
 No
 overloads
@@ -620,7 +608,6 @@ harness
 .
 check
 (
-        
 len
 (
 member
@@ -631,6 +618,7 @@ overloadsForArgCount
 )
 )
 1
+                  
 "
 Only
 one
@@ -639,5 +627,4 @@ for
 two
 args
 "
-    
 )

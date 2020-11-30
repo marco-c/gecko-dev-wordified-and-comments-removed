@@ -82,8 +82,8 @@ self
 .
 printdent
 (
-"
-"
+'
+'
 )
         
 self
@@ -113,8 +113,8 @@ self
 .
 printdent
 (
-"
-"
+'
+'
 )
         
 self
@@ -191,13 +191,13 @@ self
 .
 println
 (
-"
+'
 #
 %
 s
 %
 s
-"
+'
 %
 (
 cd
@@ -216,11 +216,11 @@ self
 .
 println
 (
-"
+'
 #
 %
 s
-"
+'
 %
 (
 cd
@@ -241,17 +241,17 @@ self
 .
 println
 (
-"
+'
 namespace
-"
+'
 +
 ns
 .
 name
 +
-"
+'
 {
-"
+'
 )
         
 self
@@ -265,12 +265,12 @@ self
 .
 println
 (
-"
+'
 }
 /
 /
 namespace
-"
+'
 +
 ns
 .
@@ -295,9 +295,9 @@ self
 .
 write
 (
-"
+'
 const
-"
+'
 )
         
 self
@@ -322,9 +322,9 @@ self
 .
 write
 (
-"
+'
 <
-"
+'
 )
             
 if
@@ -366,8 +366,8 @@ self
 .
 write
 (
-"
-"
+'
+'
 )
                     
 tt
@@ -393,9 +393,9 @@ self
 .
 write
 (
-"
+'
 >
-"
+'
 )
         
 if
@@ -411,10 +411,10 @@ self
 .
 write
 (
-"
+'
 :
 :
-"
+'
 )
             
 t
@@ -428,8 +428,8 @@ self
         
 ts
 =
-"
-"
+'
+'
         
 if
 t
@@ -440,9 +440,9 @@ ptr
 ts
 +
 =
-"
+'
 *
-"
+'
         
 elif
 t
@@ -453,10 +453,10 @@ ptrptr
 ts
 +
 =
-"
+'
 *
 *
-"
+'
         
 elif
 t
@@ -467,11 +467,11 @@ ptrconstptr
 ts
 +
 =
-"
+'
 *
 const
 *
-"
+'
         
 if
 t
@@ -482,9 +482,9 @@ ref
 ts
 +
 =
-"
+'
 &
-"
+'
         
 elif
 t
@@ -495,10 +495,10 @@ rvalref
 ts
 +
 =
-"
+'
 &
 &
-"
+'
         
 self
 .
@@ -519,9 +519,9 @@ self
 .
 write
 (
-"
+'
 enum
-"
+'
 )
         
 if
@@ -534,8 +534,8 @@ self
 .
 write
 (
-"
-"
+'
+'
 +
 te
 .
@@ -546,9 +546,9 @@ self
 .
 println
 (
-"
+'
 {
-"
+'
 )
         
 self
@@ -596,9 +596,9 @@ self
 .
 write
 (
-"
+'
 =
-"
+'
 +
 str
 (
@@ -621,8 +621,8 @@ self
 .
 write
 (
-"
-"
+'
+'
 )
             
 self
@@ -641,9 +641,9 @@ self
 .
 printdent
 (
-"
+'
 }
-"
+'
 )
     
 def
@@ -658,9 +658,9 @@ self
 .
 write
 (
-"
+'
 union
-"
+'
 )
         
 if
@@ -673,8 +673,8 @@ self
 .
 write
 (
-"
-"
+'
+'
 +
 u
 .
@@ -685,9 +685,9 @@ self
 .
 println
 (
-"
+'
 {
-"
+'
 )
         
 self
@@ -721,9 +721,9 @@ self
 .
 println
 (
-"
+'
 ;
-"
+'
 )
         
 self
@@ -736,9 +736,9 @@ self
 .
 printdent
 (
-"
+'
 }
-"
+'
 )
     
 def
@@ -753,13 +753,13 @@ self
 .
 write
 (
-"
+'
 std
 :
 :
 function
 <
-"
+'
 )
         
 fn
@@ -775,9 +775,9 @@ self
 .
 write
 (
-"
+'
 (
-"
+'
 )
         
 self
@@ -793,10 +793,10 @@ self
 .
 write
 (
-"
+'
 )
 >
-"
+'
 )
     
 def
@@ -815,15 +815,15 @@ templateargs
             
 formals
 =
-"
-"
+'
+'
 .
 join
 (
 [
-"
+'
 class
-"
+'
 +
 T
 for
@@ -837,8 +837,8 @@ templateargs
             
 args
 =
-"
-"
+'
+'
 .
 join
 (
@@ -851,25 +851,25 @@ self
 .
 printdent
 (
-"
+'
 template
 <
-"
+'
 +
 formals
 +
-"
+'
 >
 using
-"
+'
 +
 td
 .
 totypename
 +
-"
+'
 =
-"
+'
 )
             
 td
@@ -885,16 +885,16 @@ self
 .
 println
 (
-"
+'
 <
-"
+'
 +
 args
 +
-"
+'
 >
 ;
-"
+'
 )
         
 else
@@ -904,9 +904,9 @@ self
 .
 printdent
 (
-"
+'
 typedef
-"
+'
 )
             
 td
@@ -922,16 +922,16 @@ self
 .
 println
 (
-"
-"
+'
+'
 +
 td
 .
 totypename
 +
-"
+'
 ;
-"
+'
 )
     
 def
@@ -946,9 +946,9 @@ self
 .
 printdent
 (
-"
+'
 using
-"
+'
 )
         
 us
@@ -964,9 +964,9 @@ self
 .
 println
 (
-"
+'
 ;
-"
+'
 )
     
 def
@@ -987,9 +987,9 @@ self
 .
 printdent
 (
-"
+'
 class
-"
+'
 )
         
 elif
@@ -1002,9 +1002,9 @@ self
 .
 printdent
 (
-"
+'
 struct
-"
+'
 )
         
 self
@@ -1023,9 +1023,9 @@ self
 .
 println
 (
-"
+'
 ;
-"
+'
 )
     
 def
@@ -1079,8 +1079,8 @@ self
 .
 write
 (
-"
-"
+'
+'
 +
 d
 .
@@ -1101,9 +1101,9 @@ self
 .
 write
 (
-"
+'
 [
-"
+'
 )
             
 d
@@ -1121,9 +1121,9 @@ self
 .
 write
 (
-"
+'
 ]
-"
+'
 )
     
 def
@@ -1154,9 +1154,9 @@ self
 .
 write
 (
-"
+'
 =
-"
+'
 )
             
 p
@@ -1189,11 +1189,11 @@ self
 .
 printdentln
 (
-"
+'
 template
 <
 >
-"
+'
 )
         
 if
@@ -1206,9 +1206,9 @@ self
 .
 printdent
 (
-"
+'
 struct
-"
+'
 )
         
 else
@@ -1218,17 +1218,17 @@ self
 .
 printdent
 (
-"
+'
 class
-"
+'
 )
         
 self
 .
 write
 (
-"
-"
+'
+'
 +
 c
 .
@@ -1245,9 +1245,9 @@ self
 .
 write
 (
-"
+'
 final
-"
+'
 )
         
 if
@@ -1263,9 +1263,9 @@ self
 .
 write
 (
-"
+'
 <
-"
+'
 )
             
 c
@@ -1281,9 +1281,9 @@ self
 .
 write
 (
-"
+'
 >
-"
+'
 )
         
 ninh
@@ -1305,9 +1305,9 @@ self
 .
 println
 (
-"
+'
 :
-"
+'
 )
             
 self
@@ -1356,8 +1356,8 @@ self
 .
 println
 (
-"
-"
+'
+'
 )
             
 self
@@ -1376,9 +1376,9 @@ self
 .
 printdentln
 (
-"
+'
 {
-"
+'
 )
         
 self
@@ -1404,10 +1404,10 @@ self
 .
 printdentln
 (
-"
+'
 }
 ;
-"
+'
 )
     
 def
@@ -1426,8 +1426,8 @@ inh
 .
 viz
 +
-"
-"
+'
+'
 )
         
 inh
@@ -1451,18 +1451,18 @@ self
 .
 printdentln
 (
-"
+'
 friend
 class
-"
+'
 +
 fcd
 .
 friend
 +
-"
+'
 ;
-"
+'
 )
     
 def
@@ -1483,19 +1483,19 @@ self
 .
 write
 (
-"
+'
 template
 <
-"
+'
 )
             
 self
 .
 write
 (
-"
+'
 typename
-"
+'
 )
             
 md
@@ -1511,9 +1511,9 @@ self
 .
 println
 (
-"
+'
 >
-"
+'
 )
             
 self
@@ -1532,13 +1532,13 @@ self
 .
 write
 (
-"
+'
 [
 [
 nodiscard
 ]
 ]
-"
+'
 )
         
 if
@@ -1556,9 +1556,9 @@ self
 .
 write
 (
-"
+'
 static
-"
+'
 )
         
 elif
@@ -1571,6 +1571,8 @@ MethodSpec
 .
 VIRTUAL
 or
+\
+                
 md
 .
 methodspec
@@ -1585,9 +1587,9 @@ self
 .
 write
 (
-"
+'
 virtual
-"
+'
 )
         
 if
@@ -1606,9 +1608,9 @@ self
 .
 write
 (
-"
+'
 auto
-"
+'
 )
             
 else
@@ -1675,9 +1677,9 @@ self
 .
 write
 (
-"
+'
 <
-"
+'
 )
                 
 md
@@ -1695,19 +1697,19 @@ self
 .
 write
 (
-"
+'
 >
-"
+'
 )
             
 self
 .
 write
 (
-"
+'
 :
 :
-"
+'
 )
         
 if
@@ -1723,9 +1725,9 @@ self
 .
 write
 (
-"
+'
 operator
-"
+'
 )
             
 md
@@ -1752,9 +1754,9 @@ self
 .
 write
 (
-"
+'
 ~
-"
+'
 )
             
 self
@@ -1770,9 +1772,9 @@ self
 .
 write
 (
-"
+'
 (
-"
+'
 )
         
 self
@@ -1788,9 +1790,9 @@ self
 .
 write
 (
-"
+'
 )
-"
+'
 )
         
 if
@@ -1803,9 +1805,9 @@ self
 .
 write
 (
-"
+'
 const
-"
+'
 )
         
 if
@@ -1822,10 +1824,10 @@ self
 .
 write
 (
-"
+'
 -
 >
-"
+'
 )
             
 md
@@ -1852,9 +1854,9 @@ self
 .
 write
 (
-"
+'
 override
-"
+'
 )
         
 elif
@@ -1872,10 +1874,10 @@ self
 .
 write
 (
-"
+'
 =
 0
-"
+'
 )
     
 def
@@ -1923,9 +1925,9 @@ self
 .
 printdentln
 (
-"
+'
 {
-"
+'
 )
         
 self
@@ -1951,9 +1953,9 @@ self
 .
 printdentln
 (
-"
+'
 }
-"
+'
 )
     
 def
@@ -1974,9 +1976,9 @@ self
 .
 write
 (
-"
+'
 explicit
-"
+'
 )
         
 else
@@ -1986,9 +1988,9 @@ self
 .
 write
 (
-"
+'
 MOZ_IMPLICIT
-"
+'
 )
         
 self
@@ -2034,9 +2036,9 @@ self
 .
 println
 (
-"
+'
 :
-"
+'
 )
             
 self
@@ -2094,8 +2096,8 @@ self
 .
 println
 (
-"
-"
+'
+'
 )
             
 self
@@ -2114,9 +2116,9 @@ self
 .
 printdentln
 (
-"
+'
 {
-"
+'
 )
         
 self
@@ -2142,9 +2144,9 @@ self
 .
 printdentln
 (
-"
+'
 }
-"
+'
 )
     
 def
@@ -2195,9 +2197,9 @@ self
 .
 printdentln
 (
-"
+'
 {
-"
+'
 )
         
 self
@@ -2223,9 +2225,9 @@ self
 .
 printdentln
 (
-"
+'
 }
-"
+'
 )
     
 def
@@ -2275,9 +2277,9 @@ self
 .
 write
 (
-"
+'
 (
-"
+'
 )
         
 self
@@ -2293,9 +2295,9 @@ self
 .
 write
 (
-"
+'
 (
-"
+'
 )
         
 e
@@ -2311,18 +2313,18 @@ self
 .
 write
 (
-"
+'
 )
-"
+'
 )
         
 self
 .
 write
 (
-"
+'
 )
-"
+'
 )
     
 def
@@ -2342,13 +2344,13 @@ static
 pfx
 sfx
 =
-"
+'
 static_cast
 <
-"
-"
+'
+'
 >
-"
+'
         
 else
 :
@@ -2361,13 +2363,13 @@ const
 pfx
 sfx
 =
-"
+'
 const_cast
 <
-"
-"
+'
+'
 >
-"
+'
         
 self
 .
@@ -2391,9 +2393,9 @@ write
 (
 sfx
 +
-"
+'
 (
-"
+'
 )
         
 c
@@ -2409,9 +2411,9 @@ self
 .
 write
 (
-"
+'
 )
-"
+'
 )
     
 def
@@ -2426,9 +2428,9 @@ self
 .
 write
 (
-"
+'
 (
-"
+'
 )
         
 e
@@ -2444,17 +2446,17 @@ self
 .
 write
 (
-"
+'
 )
-"
+'
 +
 e
 .
 op
 +
-"
+'
 (
-"
+'
 )
         
 e
@@ -2470,9 +2472,9 @@ self
 .
 write
 (
-"
+'
 )
-"
+'
 )
     
 def
@@ -2487,9 +2489,9 @@ self
 .
 write
 (
-"
+'
 (
-"
+'
 )
         
 c
@@ -2505,9 +2507,9 @@ self
 .
 write
 (
-"
+'
 ?
-"
+'
 )
         
 c
@@ -2523,9 +2525,9 @@ self
 .
 write
 (
-"
+'
 :
-"
+'
 )
         
 c
@@ -2541,9 +2543,9 @@ self
 .
 write
 (
-"
+'
 )
-"
+'
 )
     
 def
@@ -2558,9 +2560,9 @@ self
 .
 write
 (
-"
+'
 (
-"
+'
 )
         
 es
@@ -2576,9 +2578,9 @@ self
 .
 write
 (
-"
+'
 )
-"
+'
 )
         
 self
@@ -2620,15 +2622,15 @@ self
 .
 write
 (
-"
-"
+'
+'
 +
 ea
 .
 op
 +
-"
-"
+'
+'
 )
         
 ea
@@ -2661,9 +2663,9 @@ self
 .
 write
 (
-"
+'
 (
-"
+'
 )
         
 self
@@ -2679,9 +2681,9 @@ self
 .
 write
 (
-"
+'
 )
-"
+'
 )
     
 def
@@ -2711,9 +2713,9 @@ self
 .
 write
 (
-"
+'
 new
-"
+'
 )
         
 if
@@ -2729,9 +2731,9 @@ self
 .
 write
 (
-"
+'
 (
-"
+'
 )
             
 self
@@ -2747,9 +2749,9 @@ self
 .
 write
 (
-"
+'
 )
-"
+'
 )
         
 en
@@ -2774,9 +2776,9 @@ self
 .
 write
 (
-"
+'
 (
-"
+'
 )
             
 self
@@ -2792,9 +2794,9 @@ self
 .
 write
 (
-"
+'
 )
-"
+'
 )
     
 def
@@ -2809,9 +2811,9 @@ self
 .
 write
 (
-"
+'
 delete
-"
+'
 )
         
 ed
@@ -2835,9 +2837,9 @@ self
 .
 write
 (
-"
+'
 [
-"
+'
 )
         
 ncaptures
@@ -2883,18 +2885,18 @@ self
 .
 write
 (
-"
-"
+'
+'
 )
         
 self
 .
 write
 (
-"
+'
 ]
 (
-"
+'
 )
         
 self
@@ -2910,9 +2912,9 @@ self
 .
 write
 (
-"
+'
 )
-"
+'
 )
         
 if
@@ -2925,10 +2927,10 @@ self
 .
 write
 (
-"
+'
 -
 >
-"
+'
 )
             
 l
@@ -2944,9 +2946,9 @@ self
 .
 println
 (
-"
+'
 {
-"
+'
 )
         
 self
@@ -2972,9 +2974,9 @@ self
 .
 printdent
 (
-"
+'
 }
-"
+'
 )
     
 def
@@ -2989,9 +2991,9 @@ self
 .
 printdentln
 (
-"
+'
 {
-"
+'
 )
         
 self
@@ -3017,9 +3019,9 @@ self
 .
 printdentln
 (
-"
+'
 }
-"
+'
 )
     
 def
@@ -3044,9 +3046,9 @@ label
 .
 name
 +
-"
+'
 :
-"
+'
 )
         
 self
@@ -3073,17 +3075,17 @@ self
 .
 printdentln
 (
-"
+'
 case
-"
+'
 +
 cl
 .
 name
 +
-"
+'
 :
-"
+'
 )
         
 self
@@ -3110,10 +3112,10 @@ self
 .
 printdentln
 (
-"
+'
 default
 :
-"
+'
 )
         
 self
@@ -3134,10 +3136,10 @@ self
 .
 printdent
 (
-"
+'
 if
 (
-"
+'
 )
         
 si
@@ -3153,10 +3155,10 @@ self
 .
 println
 (
-"
+'
 )
 {
-"
+'
 )
         
 self
@@ -3184,9 +3186,9 @@ self
 .
 printdentln
 (
-"
+'
 }
-"
+'
 )
         
 if
@@ -3202,10 +3204,10 @@ self
 .
 printdentln
 (
-"
+'
 else
 {
-"
+'
 )
             
 self
@@ -3233,9 +3235,9 @@ self
 .
 printdentln
 (
-"
+'
 }
-"
+'
 )
     
 def
@@ -3250,10 +3252,10 @@ self
 .
 printdent
 (
-"
+'
 for
 (
-"
+'
 )
         
 if
@@ -3278,9 +3280,9 @@ self
 .
 write
 (
-"
+'
 ;
-"
+'
 )
         
 if
@@ -3305,9 +3307,9 @@ self
 .
 write
 (
-"
+'
 ;
-"
+'
 )
         
 if
@@ -3332,10 +3334,10 @@ self
 .
 println
 (
-"
+'
 )
 {
-"
+'
 )
         
 self
@@ -3361,9 +3363,9 @@ self
 .
 printdentln
 (
-"
+'
 }
-"
+'
 )
     
 def
@@ -3378,12 +3380,12 @@ self
 .
 printdent
 (
-"
+'
 for
 (
 auto
 &
-"
+'
 )
         
 rf
@@ -3399,9 +3401,9 @@ self
 .
 write
 (
-"
+'
 :
-"
+'
 )
         
 rf
@@ -3417,10 +3419,10 @@ self
 .
 println
 (
-"
+'
 )
 {
-"
+'
 )
         
 self
@@ -3446,9 +3448,9 @@ self
 .
 printdentln
 (
-"
+'
 }
-"
+'
 )
     
 def
@@ -3463,10 +3465,10 @@ self
 .
 printdent
 (
-"
+'
 switch
 (
-"
+'
 )
         
 sw
@@ -3482,10 +3484,10 @@ self
 .
 println
 (
-"
+'
 )
 {
-"
+'
 )
         
 self
@@ -3511,9 +3513,9 @@ self
 .
 printdentln
 (
-"
+'
 }
-"
+'
 )
     
 def
@@ -3528,10 +3530,10 @@ self
 .
 printdentln
 (
-"
+'
 break
 ;
-"
+'
 )
     
 def
@@ -3570,9 +3572,9 @@ self
 .
 write
 (
-"
+'
 {
-"
+'
 )
             
 self
@@ -3588,9 +3590,9 @@ self
 .
 write
 (
-"
+'
 }
-"
+'
 )
         
 if
@@ -3606,9 +3608,9 @@ self
 .
 write
 (
-"
+'
 =
-"
+'
 )
             
 sd
@@ -3624,9 +3626,9 @@ self
 .
 println
 (
-"
+'
 ;
-"
+'
 )
     
 def
@@ -3656,9 +3658,9 @@ self
 .
 println
 (
-"
+'
 ;
-"
+'
 )
     
 def
@@ -3673,9 +3675,9 @@ self
 .
 printdent
 (
-"
+'
 return
-"
+'
 )
         
 if
@@ -3688,8 +3690,8 @@ self
 .
 write
 (
-"
-"
+'
+'
 )
             
 sr
@@ -3705,9 +3707,9 @@ self
 .
 println
 (
-"
+'
 ;
-"
+'
 )
     
 def
@@ -3809,8 +3811,8 @@ self
 .
 write
 (
-"
-"
+'
+'
 )
         
 self
@@ -3872,6 +3874,6 @@ self
 .
 write
 (
-"
-"
+'
+'
 )

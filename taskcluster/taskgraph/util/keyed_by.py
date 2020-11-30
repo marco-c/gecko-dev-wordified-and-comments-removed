@@ -290,10 +290,10 @@ value_key
 .
 startswith
 (
-"
+'
 by
 -
-"
+'
 )
 :
             
@@ -351,9 +351,9 @@ alternatives
 =
 1
 and
-"
+'
 default
-"
+'
 in
 alternatives
 :
@@ -390,10 +390,10 @@ item
 .
 format
 (
+                    
 keyed_by
 item_name
 )
-            
 )
         
 if
@@ -403,9 +403,9 @@ None
 :
             
 if
-"
+'
 default
-"
+'
 in
 alternatives
 :
@@ -414,9 +414,9 @@ value
 =
 alternatives
 [
-"
+'
 default
-"
+'
 ]
                 
 continue
@@ -453,10 +453,10 @@ item
 .
 format
 (
+                        
 keyed_by
 item_name
 )
-                
 )
         
 matches
@@ -504,11 +504,11 @@ item
 .
 format
 (
+                    
 keyed_by
 key
 item_name
 )
-            
 )
         
 elif
@@ -555,7 +555,5 @@ format
 keyed_by
 key
 item_name
-            
 )
-        
 )

@@ -17,7 +17,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -42,7 +41,6 @@ foo
 "
 "
 "
-        
 )
         
 results
@@ -65,6 +63,7 @@ harness
 ok
 (
 threw
+               
 "
 Should
 not
@@ -97,7 +96,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -129,7 +127,6 @@ arg
 "
 "
 "
-        
 )
         
 results
@@ -139,6 +136,7 @@ parser
 finish
 (
 )
+;
     
 except
 :
@@ -151,9 +149,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 not
@@ -165,7 +162,7 @@ both
 Promise
 and
 "
-        
+               
 "
 non
 -
@@ -174,7 +171,6 @@ return
 types
 .
 "
-    
 )
     
 parser
@@ -196,7 +192,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -228,7 +223,6 @@ foo
 "
 "
 "
-        
 )
         
 results
@@ -238,6 +232,7 @@ parser
 finish
 (
 )
+;
     
 except
 :
@@ -250,9 +245,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 not
@@ -264,7 +258,7 @@ both
 Promise
 and
 "
-        
+               
 "
 non
 -
@@ -273,7 +267,6 @@ return
 types
 .
 "
-    
 )
     
 parser
@@ -295,7 +288,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -320,7 +312,6 @@ foo
 "
 "
 "
-        
 )
         
 results
@@ -330,6 +321,7 @@ parser
 finish
 (
 )
+;
     
 except
 :
@@ -343,6 +335,7 @@ harness
 ok
 (
 threw
+               
 "
 Should
 not
@@ -374,7 +367,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -401,7 +393,6 @@ arg
 "
 "
 "
-        
 )
         
 results
@@ -411,6 +402,7 @@ parser
 finish
 (
 )
+;
     
 except
 :
@@ -424,6 +416,7 @@ harness
 ok
 (
 threw
+               
 "
 Should
 not
@@ -447,7 +440,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -482,7 +474,6 @@ arg
 "
 "
 "
-    
 )
     
 results
@@ -492,13 +483,14 @@ parser
 finish
 (
 )
+;
     
 harness
 .
 ok
 (
-        
 True
+               
 "
 Should
 allow
@@ -510,11 +502,11 @@ Promise
 and
 return
 "
+               
 "
 types
 .
 "
-    
 )
     
 parser
@@ -536,7 +528,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -559,7 +550,6 @@ attr
 "
 "
 "
-        
 )
         
 results
@@ -569,6 +559,7 @@ parser
 finish
 (
 )
+;
     
 except
 :
@@ -582,6 +573,7 @@ harness
 ok
 (
 threw
+               
 "
 Should
 not
@@ -614,7 +606,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -641,7 +632,6 @@ attr
 "
 "
 "
-        
 )
         
 results
@@ -651,6 +641,7 @@ parser
 finish
 (
 )
+;
     
 except
 :
@@ -664,6 +655,7 @@ harness
 ok
 (
 threw
+               
 "
 Should
 not
@@ -698,7 +690,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -727,7 +718,6 @@ attr
 "
 "
 "
-        
 )
         
 results
@@ -737,6 +727,7 @@ parser
 finish
 (
 )
+;
     
 except
 :
@@ -750,6 +741,7 @@ harness
 ok
 (
 threw
+               
 "
 Should
 not
@@ -784,7 +776,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -811,7 +802,6 @@ attr
 "
 "
 "
-        
 )
         
 results
@@ -821,6 +811,7 @@ parser
 finish
 (
 )
+;
     
 except
 :
@@ -834,6 +825,7 @@ harness
 ok
 (
 threw
+               
 "
 Should
 not
@@ -868,7 +860,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -895,7 +886,6 @@ attr
 "
 "
 "
-        
 )
         
 results
@@ -905,6 +895,7 @@ parser
 finish
 (
 )
+;
     
 except
 :
@@ -918,6 +909,7 @@ harness
 ok
 (
 threw
+               
 "
 Should
 not

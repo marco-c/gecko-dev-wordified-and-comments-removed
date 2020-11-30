@@ -33,12 +33,18 @@ time
 from
 wptserve
 import
+(
+    
 handlers
+    
 request
+    
 routes
 as
 default_routes
+    
 server
+)
 from
 six
 .
@@ -280,14 +286,16 @@ WWW
 -
 Authenticate
 "
-'
+"
 Basic
 realm
 =
+\
 "
 secret
+\
 "
-'
+"
 )
         
 response
@@ -369,9 +377,9 @@ params
 .
 get
 (
-"
+'
 delay
-"
+'
 5
 )
 )
@@ -465,9 +473,7 @@ p
 .
 format
 (
-        
 delay
-    
 )
 class
 NotAliveError
@@ -516,11 +522,8 @@ object
 def
 __init__
 (
-        
 self
-        
 doc_root
-        
 url
 =
 "
@@ -538,19 +541,16 @@ http
 :
 0
 "
-        
 use_ssl
 =
 False
-        
+                 
 ssl_cert
 =
 None
-        
 ssl_key
 =
 None
-    
 )
 :
         
@@ -657,7 +657,6 @@ port
 routes
 =
 [
-            
 (
 "
 POST
@@ -668,7 +667,7 @@ file_upload
 "
 upload_handler
 )
-            
+                  
 (
 "
 GET
@@ -679,7 +678,7 @@ http_auth
 "
 http_auth_handler
 )
-            
+                  
 (
 "
 GET
@@ -690,7 +689,7 @@ slow
 "
 slow_loading_handler
 )
-        
+                  
 ]
         
 routes
@@ -710,27 +709,26 @@ server
 .
 WebTestHttpd
 (
-            
 host
 =
 host
-            
+                                          
 port
 =
 port
-            
+                                          
 bind_address
 =
 True
-            
+                                          
 doc_root
 =
 doc_root
-            
+                                          
 routes
 =
 routes
-            
+                                          
 use_ssl
 =
 True
@@ -743,15 +741,14 @@ https
 "
 else
 False
-            
+                                          
 certificate
 =
 ssl_cert
-            
+                                          
 key_file
 =
 ssl_key
-        
 )
     
 def
@@ -972,18 +969,15 @@ testing
 Marionette
 .
 "
-    
 )
     
 parser
 .
 add_argument
 (
-        
 "
 url
 "
-        
 help
 =
 "
@@ -1027,7 +1021,6 @@ base
 "
 "
 "
-    
 )
     
 parser
@@ -1039,13 +1032,11 @@ add_argument
 -
 r
 "
-        
 dest
 =
 "
 doc_root
 "
-        
 default
 =
 default_doc_root
@@ -1066,7 +1057,6 @@ default
 s
 )
 "
-    
 )
     
 parser
@@ -1078,13 +1068,11 @@ add_argument
 -
 c
 "
-        
 dest
 =
 "
 ssl_cert
 "
-        
 default
 =
 default_ssl_cert
@@ -1105,7 +1093,6 @@ default
 s
 )
 "
-    
 )
     
 parser
@@ -1117,13 +1104,11 @@ add_argument
 -
 k
 "
-        
 dest
 =
 "
 ssl_key
 "
-        
 default
 =
 default_ssl_key
@@ -1145,7 +1130,6 @@ default
 s
 )
 "
-    
 )
     
 args
@@ -1160,24 +1144,24 @@ httpd
 =
 FixtureServer
 (
-        
 args
 .
 doc_root
 args
 .
 url
+                          
 ssl_cert
 =
 args
 .
 ssl_cert
+                          
 ssl_key
 =
 args
 .
 ssl_key
-    
 )
     
 httpd
@@ -1188,7 +1172,6 @@ start
     
 print
 (
-        
 "
 {
 0
@@ -1220,13 +1203,12 @@ get_url
 "
 )
 )
-        
+          
 file
 =
 sys
 .
 stderr
-    
 )
     
 httpd

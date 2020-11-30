@@ -12,7 +12,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -211,7 +210,6 @@ arg
 "
 "
 "
-    
 )
     
 results
@@ -261,6 +259,7 @@ WebIDL
 .
 IDLInterface
 )
+               
 "
 Should
 be
@@ -556,18 +555,16 @@ harness
 .
 check
 (
-            
 type
 .
 isUnrestricted
 (
 )
-            
 idx
 >
 =
 5
-            
+                      
 "
 Type
 %
@@ -579,6 +576,7 @@ unrestricted
 "
 %
 (
+                
 idx
 "
 "
@@ -592,7 +590,6 @@ else
 not
 "
 )
-        
 )
     
 parser
@@ -614,7 +611,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -641,7 +637,6 @@ arg
 "
 "
 "
-        
 )
     
 except
@@ -690,7 +685,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -718,7 +712,6 @@ arg
 "
 "
 "
-        
 )
     
 except
@@ -735,7 +728,6 @@ harness
 .
 ok
 (
-        
 threw
 "
 [
@@ -750,7 +742,6 @@ unrestricted
 float
 args
 "
-    
 )
     
 parser
@@ -772,7 +763,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -803,7 +793,6 @@ arg
 "
 "
 "
-        
 )
     
 except
@@ -820,7 +809,6 @@ harness
 .
 ok
 (
-        
 threw
 "
 [
@@ -838,7 +826,6 @@ args
 2
 )
 "
-    
 )
     
 parser
@@ -860,7 +847,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -892,7 +878,6 @@ arg
 "
 "
 "
-        
 )
     
 except
@@ -909,7 +894,6 @@ harness
 .
 ok
 (
-        
 threw
 "
 [
@@ -927,7 +911,6 @@ args
 3
 )
 "
-    
 )
     
 parser
@@ -949,7 +932,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -974,7 +956,6 @@ foo
 "
 "
 "
-        
 )
     
 except

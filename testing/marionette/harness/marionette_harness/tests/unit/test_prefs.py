@@ -141,7 +141,6 @@ self
 .
 assertEqual
 (
-                
 self
 .
 marionette
@@ -150,9 +149,8 @@ get_pref
 (
 key
 )
-                
 value
-                
+                             
 "
 Preference
 {
@@ -175,7 +173,6 @@ repr
 value
 )
 )
-            
 )
     
 def
@@ -227,7 +224,6 @@ self
 .
 assertEqual
 (
-                
 self
 .
 marionette
@@ -236,9 +232,8 @@ get_pref
 (
 key
 )
-                
 value
-                
+                             
 "
 Preference
 {
@@ -258,7 +253,6 @@ format
 key
 value
 )
-            
 )
     
 def
@@ -713,7 +707,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -725,10 +718,10 @@ default_branch
 =
 True
 )
+                         
 "
 default_value
 "
-        
 )
         
 self
@@ -764,7 +757,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -776,10 +768,10 @@ default_branch
 =
 True
 )
+                         
 "
 default_value
 "
-        
 )
         
 self
@@ -845,7 +837,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -857,8 +848,8 @@ default_branch
 =
 True
 )
+                         
 properties_file
-        
 )
         
 value
@@ -869,17 +860,16 @@ marionette
 .
 get_pref
 (
-            
 pref_complex
 default_branch
 =
 True
+                                         
 value_type
 =
 "
 nsIPrefLocalizedString
 "
-        
 )
         
 self
@@ -1005,7 +995,6 @@ True
 prefs
 =
 {
-            
 self
 .
 prefs
@@ -1016,7 +1005,6 @@ bool
 ]
 :
 True
-            
 self
 .
 prefs
@@ -1027,7 +1015,7 @@ int
 ]
 :
 42
-            
+                 
 self
 .
 prefs
@@ -1040,13 +1028,11 @@ string
 "
 abc
 "
-            
 pref_default
 :
 "
 user_value
 "
-        
 }
         
 self
@@ -1146,7 +1132,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -1158,10 +1143,10 @@ default_branch
 =
 True
 )
+                         
 "
 default_value
 "
-        
 )
     
 def
@@ -1197,9 +1182,7 @@ marionette
 .
 set_prefs
 (
-            
 {
-                
 self
 .
 prefs
@@ -1212,7 +1195,7 @@ string
 "
 abc
 "
-                
+                                   
 self
 .
 prefs
@@ -1223,7 +1206,7 @@ int
 ]
 :
 42
-                
+                                   
 self
 .
 prefs
@@ -1234,9 +1217,8 @@ bool
 ]
 :
 False
-            
+                                   
 }
-        
 )
         
 self
@@ -1327,9 +1309,7 @@ marionette
 .
 using_prefs
 (
-            
 {
-                
 self
 .
 prefs
@@ -1340,7 +1320,7 @@ bool
 ]
 :
 True
-                
+                                          
 self
 .
 prefs
@@ -1351,7 +1331,7 @@ int
 ]
 :
 24
-                
+                                          
 self
 .
 prefs
@@ -1364,15 +1344,13 @@ string
 "
 def
 "
-                
+                                          
 pref_not_existent
 :
 "
 existent
 "
-            
 }
-        
 )
 :
             
@@ -1561,7 +1539,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -1573,10 +1550,10 @@ default_branch
 =
 True
 )
+                         
 "
 default_value
 "
-        
 )
         
 with
@@ -1586,7 +1563,6 @@ marionette
 .
 using_prefs
 (
-            
 {
 pref_default
 :
@@ -1597,7 +1573,6 @@ new_value
 default_branch
 =
 True
-        
 )
 :
             
@@ -1605,7 +1580,6 @@ self
 .
 assertEqual
 (
-                
 self
 .
 marionette
@@ -1617,17 +1591,16 @@ default_branch
 =
 True
 )
+                             
 "
 new_value
 "
-            
 )
         
 self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -1639,10 +1612,10 @@ default_branch
 =
 True
 )
+                         
 "
 default_value
 "
-        
 )
     
 def

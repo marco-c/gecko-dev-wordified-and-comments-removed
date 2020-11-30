@@ -70,9 +70,9 @@ import
 urlopen
 NO_MERCURIAL
 =
-"
-"
-"
+'
+'
+'
 Could
 not
 find
@@ -99,14 +99,14 @@ the
 bootstrapper
 again
 .
-"
-"
-"
+'
+'
+'
 MERCURIAL_UNABLE_UPGRADE
 =
-"
-"
-"
+'
+'
+'
 You
 are
 currently
@@ -170,14 +170,14 @@ selenic
 com
 /
 .
-"
-"
-"
+'
+'
+'
 MERCURIAL_UPGRADE_FAILED
 =
-"
-"
-"
+'
+'
+'
 We
 attempted
 to
@@ -274,14 +274,14 @@ selenic
 com
 /
 .
-"
-"
-"
+'
+'
+'
 PYTHON_UNABLE_UPGRADE
 =
-"
-"
-"
+'
+'
+'
 You
 are
 currently
@@ -346,14 +346,14 @@ up
 to
 date
 .
-"
-"
-"
+'
+'
+'
 RUST_INSTALL_COMPLETE
 =
-"
-"
-"
+'
+'
+'
 Rust
 installation
 complete
@@ -463,14 +463,14 @@ bootstrap
 script
 again
 .
-"
-"
-"
+'
+'
+'
 RUST_NOT_IN_PATH
 =
-"
-"
-"
+'
+'
+'
 You
 have
 some
@@ -547,14 +547,14 @@ bootstrap
 script
 again
 .
-"
-"
-"
+'
+'
+'
 RUSTUP_OLD
 =
-"
-"
-"
+'
+'
+'
 We
 found
 an
@@ -639,14 +639,14 @@ programming
 language
 yourself
 .
-"
-"
-"
+'
+'
+'
 RUST_UPGRADE_FAILED
 =
-"
-"
-"
+'
+'
+'
 We
 attempted
 to
@@ -801,14 +801,14 @@ lang
 .
 org
 /
-"
-"
-"
+'
+'
+'
 BROWSER_ARTIFACT_MODE_MOZCONFIG
 =
-"
-"
-"
+'
+'
+'
 #
 Automatically
 download
@@ -828,9 +828,9 @@ enable
 artifact
 -
 builds
-"
-"
-"
+'
+'
+'
 .
 strip
 (
@@ -839,35 +839,35 @@ MODERN_MERCURIAL_VERSION
 =
 LooseVersion
 (
-"
+'
 4
 .
 9
-"
+'
 )
 MODERN_PYTHON2_VERSION
 =
 LooseVersion
 (
-"
+'
 2
 .
 7
 .
 3
-"
+'
 )
 MODERN_PYTHON3_VERSION
 =
 LooseVersion
 (
-"
+'
 3
 .
 6
 .
 0
-"
+'
 )
 MODERN_RUST_VERSION
 =
@@ -879,11 +879,11 @@ MODERN_NASM_VERSION
 =
 LooseVersion
 (
-"
+'
 2
 .
 14
-"
+'
 )
 class
 BaseBootstrapper
@@ -909,7 +909,7 @@ INSTALL_PYTHON_GUIDANCE
 =
 (
         
-"
+'
 We
 do
 not
@@ -922,9 +922,9 @@ platform
 on
 how
 to
-"
+'
         
-"
+'
 install
 Python
 .
@@ -945,9 +945,9 @@ pyenv
 /
 pyenv
 )
-"
+'
         
-"
+'
 helpful
 if
 your
@@ -960,9 +960,9 @@ provide
 a
 way
 to
-"
+'
         
-"
+'
 install
 a
 recent
@@ -972,8 +972,7 @@ Python
 and
 2
 .
-"
-    
+'
 )
     
 def
@@ -1021,9 +1020,9 @@ srcdir
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Called
 once
@@ -1057,9 +1056,9 @@ if
 necessary
 .
         
-"
-"
-"
+'
+'
+'
     
 def
 suggest_install_distutils
@@ -1068,9 +1067,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Called
 if
 distutils
@@ -1085,14 +1084,13 @@ t
 be
 imported
 .
-"
-"
-"
+'
+'
+'
         
 print
 (
-            
-"
+'
 Does
 your
 distro
@@ -1101,18 +1099,17 @@ installing
 another
 package
 for
-"
-"
+'
+              
+'
 distutils
 ?
-"
-            
+'
 file
 =
 sys
 .
 stderr
-        
 )
     
 def
@@ -1122,9 +1119,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Called
 if
 pip3
@@ -1134,13 +1131,12 @@ t
 be
 found
 .
-"
-"
-"
+'
+'
+'
         
 print
 (
-            
 "
 Try
 installing
@@ -1154,12 +1150,12 @@ package
 manager
 .
 "
+              
 file
 =
 sys
 .
 stderr
-        
 )
     
 def
@@ -1169,9 +1165,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 packages
@@ -1204,15 +1200,14 @@ autoconf
 )
 .
         
-"
-"
-"
+'
+'
+'
         
 raise
 NotImplementedError
 (
-            
-"
+'
 %
 s
 must
@@ -1220,10 +1215,10 @@ implement
 install_system_packages
 (
 )
-"
+'
 %
+                                  
 __name__
-        
 )
     
 def
@@ -1234,9 +1229,9 @@ mozconfig_builder
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 packages
@@ -1255,24 +1250,23 @@ browser
 )
 .
         
-"
-"
-"
+'
+'
+'
         
 raise
 NotImplementedError
 (
-            
-"
+'
 Cannot
 bootstrap
 Firefox
 for
 Desktop
 :
-"
-            
-"
+'
+                                  
+'
 %
 s
 does
@@ -1282,10 +1276,10 @@ implement
 install_browser_packages
 (
 )
-"
+'
 %
+                                  
 __name__
-        
 )
     
 def
@@ -1295,9 +1289,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Print
 a
@@ -1334,9 +1328,9 @@ from
 configure
 .
         
-"
-"
-"
+'
+'
+'
         
 pass
     
@@ -1348,9 +1342,9 @@ mozconfig_builder
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 packages
@@ -1372,15 +1366,15 @@ Artifact
 Mode
 .
         
-"
-"
-"
+'
+'
+'
         
 raise
 NotImplementedError
 (
             
-"
+'
 Cannot
 bootstrap
 Firefox
@@ -1389,9 +1383,9 @@ Desktop
 Artifact
 Mode
 :
-"
+'
             
-"
+'
 %
 s
 does
@@ -1401,11 +1395,10 @@ implement
 install_browser_artifact_mode_packages
 (
 )
-"
-            
+'
 %
+            
 __name__
-        
 )
     
 def
@@ -1415,9 +1408,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Print
 a
@@ -1461,9 +1454,9 @@ written
 to
 .
         
-"
-"
-"
+'
+'
+'
         
 return
 BROWSER_ARTIFACT_MODE_MOZCONFIG
@@ -1476,9 +1469,9 @@ mozconfig_builder
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 packages
@@ -1503,15 +1496,14 @@ Fennec
 )
 .
         
-"
-"
-"
+'
+'
+'
         
 raise
 NotImplementedError
 (
-            
-"
+'
 Cannot
 bootstrap
 GeckoView
@@ -1520,9 +1512,9 @@ Firefox
 for
 Android
 :
-"
-            
-"
+'
+                                  
+'
 %
 s
 does
@@ -1532,10 +1524,10 @@ implement
 install_mobile_android_packages
 (
 )
-"
+'
+                                  
 %
 __name__
-        
 )
     
 def
@@ -1545,9 +1537,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Print
 a
@@ -1592,15 +1584,14 @@ and
 NDK
 .
         
-"
-"
-"
+'
+'
+'
         
 raise
 NotImplementedError
 (
-            
-"
+'
 %
 s
 does
@@ -1610,10 +1601,10 @@ implement
 generate_mobile_android_mozconfig
 (
 )
-"
+'
 %
+                                  
 __name__
-        
 )
     
 def
@@ -1624,9 +1615,9 @@ mozconfig_builder
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 packages
@@ -1656,15 +1647,15 @@ Artifact
 Mode
 .
         
-"
-"
-"
+'
+'
+'
         
 raise
 NotImplementedError
 (
             
-"
+'
 Cannot
 bootstrap
 GeckoView
@@ -1675,9 +1666,9 @@ Android
 Artifact
 Mode
 :
-"
+'
             
-"
+'
 %
 s
 does
@@ -1687,11 +1678,10 @@ implement
 install_mobile_android_artifact_mode_packages
 (
 )
-"
+'
             
 %
 __name__
-        
 )
     
 def
@@ -1701,9 +1691,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Print
 a
@@ -1748,15 +1738,15 @@ Android
 SDK
 .
         
-"
-"
-"
+'
+'
+'
         
 raise
 NotImplementedError
 (
             
-"
+'
 %
 s
 does
@@ -1766,11 +1756,10 @@ implement
 generate_mobile_android_artifact_mode_mozconfig
 (
 )
-"
+'
             
 %
 __name__
-        
 )
     
 def
@@ -1796,9 +1785,9 @@ path
 join
 (
 checkout_root
-"
+'
 mach
-"
+'
 )
 )
         
@@ -1817,14 +1806,14 @@ mach_binary
 raise
 ValueError
 (
-"
+'
 mach
 not
 found
 at
 %
 s
-"
+'
 %
 mach_binary
 )
@@ -1836,13 +1825,13 @@ sys
 .
 executable
 mach_binary
-"
+'
 create
 -
 mach
 -
 environment
-"
+'
 ]
         
 subprocess
@@ -1864,9 +1853,9 @@ checkout_root
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 the
@@ -1875,15 +1864,15 @@ static
 analysis
 package
         
-"
-"
-"
+'
+'
+'
         
 raise
 NotImplementedError
 (
             
-"
+'
 %
 s
 does
@@ -1893,11 +1882,10 @@ implement
 ensure_clang_static_analysis_package
 (
 )
-"
+'
             
 %
 __name__
-        
 )
     
 def
@@ -1909,9 +1897,9 @@ checkout_root
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 any
@@ -1923,15 +1911,15 @@ Stylo
 development
 .
         
-"
-"
-"
+'
+'
+'
         
 raise
 NotImplementedError
 (
             
-"
+'
 %
 s
 does
@@ -1941,10 +1929,10 @@ implement
 ensure_stylo_packages
 (
 )
-"
+'
+            
 %
 __name__
-        
 )
     
 def
@@ -1956,23 +1944,23 @@ checkout_root
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 nasm
 .
         
-"
-"
-"
+'
+'
+'
         
 raise
 NotImplementedError
 (
             
-"
+'
 %
 s
 does
@@ -1982,10 +1970,10 @@ implement
 ensure_nasm_packages
 (
 )
-"
+'
+            
 %
 __name__
-        
 )
     
 def
@@ -1997,17 +1985,17 @@ checkout_root
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 sccache
 .
         
-"
-"
-"
+'
+'
+'
         
 pass
     
@@ -2020,17 +2008,17 @@ checkout_root
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 lucetc
 .
         
-"
-"
-"
+'
+'
+'
         
 pass
     
@@ -2043,9 +2031,9 @@ checkout_root
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 the
@@ -2053,9 +2041,9 @@ wasi
 sysroot
 .
         
-"
-"
-"
+'
+'
+'
         
 pass
     
@@ -2068,9 +2056,9 @@ checkout_root
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 any
@@ -2080,15 +2068,15 @@ needed
 to
 supply
 NodeJS
-"
-"
-"
+'
+'
+'
         
 raise
 NotImplementedError
 (
             
-"
+'
 %
 s
 does
@@ -2098,10 +2086,10 @@ implement
 ensure_node_packages
 (
 )
-"
+'
+            
 %
 __name__
-        
 )
     
 def
@@ -2113,17 +2101,17 @@ checkout_root
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 dump_syms
 .
         
-"
-"
-"
+'
+'
+'
         
 pass
     
@@ -2136,9 +2124,9 @@ checkout_root
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 fix
@@ -2146,9 +2134,9 @@ fix
 stacks
 .
         
-"
-"
-"
+'
+'
+'
         
 pass
     
@@ -2161,29 +2149,27 @@ checkout_root
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Install
 minidump_stackwalk
 .
         
-"
-"
-"
+'
+'
+'
         
 pass
     
 def
 install_toolchain_static_analysis
 (
-        
 self
 state_dir
 checkout_root
 toolchain_job
-    
 )
 :
         
@@ -2196,11 +2182,11 @@ path
 join
 (
 state_dir
-"
+'
 clang
 -
 tools
-"
+'
 )
         
 if
@@ -2234,15 +2220,14 @@ toolchain_job
 def
 install_toolchain_artifact
 (
-        
 self
 state_dir
 checkout_root
 toolchain_job
+                                   
 no_unpack
 =
 False
-    
 )
 :
         
@@ -2255,9 +2240,9 @@ path
 join
 (
 checkout_root
-"
+'
 mach
-"
+'
 )
         
 mach_binary
@@ -2309,7 +2294,7 @@ raise
 ValueError
 (
                 
-"
+'
 Need
 a
 state
@@ -2326,11 +2311,11 @@ mozbuild
 )
 to
 download
-"
-"
+'
+                
+'
 artifacts
-"
-            
+'
 )
         
 python_location
@@ -2359,14 +2344,14 @@ python_location
 raise
 ValueError
 (
-"
+'
 python
 not
 found
 at
 %
 s
-"
+'
 %
 python_location
 )
@@ -2374,35 +2359,28 @@ python_location
 cmd
 =
 [
-            
 python_location
-            
 mach_binary
-            
-"
+'
 artifact
-"
-            
-"
+'
+'
 toolchain
-"
-            
-"
+'
+               
+'
 -
 -
 bootstrap
-"
-            
-"
+'
+'
 -
 -
 from
 -
 build
-"
-            
+'
 toolchain_job
-        
 ]
         
 if
@@ -2413,13 +2391,13 @@ cmd
 +
 =
 [
-"
+'
 -
 -
 no
 -
 unpack
-"
+'
 ]
         
 subprocess
@@ -2454,9 +2432,9 @@ geteuid
 if
 which
 (
-"
+'
 sudo
-"
+'
 )
 :
                 
@@ -2465,9 +2443,9 @@ command
 insert
 (
 0
-"
+'
 sudo
-"
+'
 )
             
 else
@@ -2476,18 +2454,18 @@ else
 command
 =
 [
-"
+'
 su
-"
-"
+'
+'
 root
-"
-"
+'
+'
 -
 c
-"
-"
-"
+'
+'
+'
 .
 join
 (
@@ -2497,12 +2475,12 @@ command
         
 print
 (
-"
+'
 Executing
 as
 root
 :
-"
+'
 subprocess
 .
 list2cmdline
@@ -2535,21 +2513,21 @@ packages
 if
 which
 (
-"
+'
 dnf
-"
+'
 )
 :
             
 command
 =
 [
-"
+'
 dnf
-"
-"
+'
+'
 install
-"
+'
 ]
         
 else
@@ -2558,12 +2536,12 @@ else
 command
 =
 [
-"
+'
 yum
-"
-"
+'
+'
 install
-"
+'
 ]
         
 if
@@ -2576,10 +2554,10 @@ command
 .
 append
 (
-"
+'
 -
 y
-"
+'
 )
         
 command
@@ -2608,21 +2586,21 @@ packages
 if
 which
 (
-"
+'
 dnf
-"
+'
 )
 :
             
 command
 =
 [
-"
+'
 dnf
-"
-"
+'
+'
 groupinstall
-"
+'
 ]
         
 else
@@ -2631,12 +2609,12 @@ else
 command
 =
 [
-"
+'
 yum
-"
-"
+'
+'
 groupinstall
-"
+'
 ]
         
 if
@@ -2649,10 +2627,10 @@ command
 .
 append
 (
-"
+'
 -
 y
-"
+'
 )
         
 command
@@ -2681,21 +2659,21 @@ packages
 if
 which
 (
-"
+'
 dnf
-"
+'
 )
 :
             
 command
 =
 [
-"
+'
 dnf
-"
-"
+'
+'
 update
-"
+'
 ]
         
 else
@@ -2704,12 +2682,12 @@ else
 command
 =
 [
-"
+'
 yum
-"
-"
+'
+'
 update
-"
+'
 ]
         
 if
@@ -2722,10 +2700,10 @@ command
 .
 append
 (
-"
+'
 -
 y
-"
+'
 )
         
 command
@@ -2754,14 +2732,14 @@ packages
 command
 =
 [
-"
+'
 apt
 -
 get
-"
-"
+'
+'
 install
-"
+'
 ]
         
 if
@@ -2774,10 +2752,10 @@ command
 .
 append
 (
-"
+'
 -
 y
-"
+'
 )
         
 command
@@ -2804,14 +2782,14 @@ self
 command
 =
 [
-"
+'
 apt
 -
 get
-"
-"
+'
+'
 update
-"
+'
 ]
         
 if
@@ -2824,10 +2802,10 @@ command
 .
 append
 (
-"
+'
 -
 y
-"
+'
 )
         
 self
@@ -2848,16 +2826,16 @@ arch
 command
 =
 [
-"
+'
 dpkg
-"
-"
+'
+'
 -
 -
 add
 -
 architecture
-"
+'
 ]
         
 command
@@ -2887,9 +2865,9 @@ limit
 )
 :
         
-"
-"
-"
+'
+'
+'
 Prompts
 the
 user
@@ -2904,9 +2882,9 @@ low
 and
 high
 .
-"
-"
-"
+'
+'
+'
         
 valid
 =
@@ -3030,9 +3008,9 @@ prompt
 )
 :
         
-"
-"
-"
+'
+'
+'
 Prompts
 the
 user
@@ -3046,9 +3024,9 @@ yes
 no
 answer
 .
-"
-"
-"
+'
+'
+'
         
 valid
 =
@@ -3065,12 +3043,12 @@ input
 (
 prompt
 +
-"
+'
 (
 Yn
 )
 :
-"
+'
 )
 .
 strip
@@ -3089,33 +3067,33 @@ if
 choice
 =
 =
-"
-"
+'
+'
 :
                 
 choice
 =
-"
+'
 y
-"
+'
             
 if
 choice
 not
 in
 (
-"
+'
 y
-"
-"
+'
+'
 n
-"
+'
 )
 :
                 
 print
 (
-"
+'
 ERROR
 !
 Please
@@ -3124,7 +3102,7 @@ y
 or
 n
 !
-"
+'
 )
             
 else
@@ -3138,9 +3116,9 @@ return
 choice
 =
 =
-"
+'
 y
-"
+'
     
 def
 _ensure_package_manager_updated
@@ -3215,9 +3193,9 @@ version_param
 )
 :
         
-"
-"
-"
+'
+'
+'
 Execute
 the
 given
@@ -3306,9 +3284,9 @@ PATH
 etc
 .
         
-"
-"
-"
+'
+'
+'
         
 if
 not
@@ -3335,10 +3313,10 @@ lower
 .
 endswith
 (
-"
+'
 .
 exe
-"
+'
 )
 :
             
@@ -3362,11 +3340,9 @@ run
 path
 version_param
 ]
-            
 env
 =
 env
-            
 universal_newlines
 =
 True
@@ -3376,13 +3352,11 @@ stdout
 subprocess
 .
 PIPE
-            
 stderr
 =
 subprocess
 .
 STDOUT
-        
 )
         
 if
@@ -3405,7 +3379,7 @@ search
 (
 name
 +
-"
+'
 (
 [
 a
@@ -3418,7 +3392,7 @@ z0
 ]
 +
 )
-"
+'
 process
 .
 stdout
@@ -3431,7 +3405,7 @@ match
             
 print
 (
-"
+'
 ERROR
 !
 Unable
@@ -3441,7 +3415,7 @@ identify
 s
 version
 .
-"
+'
 %
 name
 )
@@ -3611,14 +3585,14 @@ copy
         
 env
 [
-"
+'
 HGPLAIN
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 if
 not
@@ -3627,13 +3601,13 @@ load_hgrc
             
 env
 [
-"
+'
 HGRCPATH
-"
+'
 ]
 =
-"
-"
+'
+'
         
 return
 env
@@ -3649,9 +3623,9 @@ hg
 =
 which
 (
-"
+'
 hg
-"
+'
 )
         
 if
@@ -3676,9 +3650,9 @@ self
 _parse_version
 (
 hg
-"
+'
 version
-"
+'
 self
 .
 _hg_cleanenv
@@ -3727,7 +3701,7 @@ modern
             
 print
 (
-"
+'
 Your
 version
 of
@@ -3740,8 +3714,9 @@ is
 sufficiently
 modern
 .
-"
+'
 %
+                  
 version
 )
             
@@ -3761,7 +3736,7 @@ installed
             
 print
 (
-"
+'
 Your
 version
 of
@@ -3775,15 +3750,15 @@ not
 modern
 enough
 .
-"
+'
 %
+                  
 version
 )
             
 print
 (
-                
-"
+'
 (
 Older
 versions
@@ -3794,9 +3769,9 @@ known
 security
 vulnerabilities
 .
-"
-                
-"
+'
+                  
+'
 Unless
 you
 are
@@ -3808,13 +3783,12 @@ version
 you
 may
 be
-"
-                
-"
+'
+                  
+'
 vulnerable
 .
-"
-            
+'
 )
         
 else
@@ -3822,14 +3796,14 @@ else
             
 print
 (
-"
+'
 You
 do
 not
 have
 Mercurial
 installed
-"
+'
 )
         
 if
@@ -3975,14 +3949,14 @@ for
 test
 in
 (
-"
+'
 python2
 .
 7
-"
-"
+'
+'
 python
-"
+'
 )
 :
                 
@@ -4004,14 +3978,16 @@ self
 _parse_version
 (
 python
-"
+'
 Python
-"
+'
 )
                     
 if
+(
 candidate_version
 and
+                        
 candidate_version
 .
 version
@@ -4021,6 +3997,7 @@ version
 =
 =
 major
+)
 :
                         
 our
@@ -4086,7 +4063,7 @@ modern
             
 print
 (
-"
+'
 Your
 version
 of
@@ -4100,7 +4077,7 @@ is
 new
 enough
 .
-"
+'
 %
 version
 )
@@ -4110,8 +4087,7 @@ else
             
 print
 (
-                
-"
+'
 ERROR
 :
 Your
@@ -4129,9 +4105,9 @@ new
 enough
 .
 You
-"
-                
-"
+'
+                  
+'
 must
 have
 Python
@@ -4143,14 +4119,13 @@ to
 build
 Firefox
 .
-"
-                
+'
 %
 (
+                      
 version
 MODERN_PYTHON3_VERSION
 )
-            
 )
             
 print
@@ -4183,7 +4158,7 @@ modern
             
 print
 (
-"
+'
 Your
 version
 of
@@ -4197,7 +4172,7 @@ is
 new
 enough
 .
-"
+'
 %
 version
 )
@@ -4207,8 +4182,7 @@ else
             
 print
 (
-                
-"
+'
 WARNING
 :
 Your
@@ -4225,9 +4199,9 @@ not
 new
 enough
 .
-"
-                
-"
+'
+                  
+'
 You
 must
 have
@@ -4243,9 +4217,9 @@ Firefox
 Python
 2
 is
-"
-                
-"
+'
+                  
+'
 not
 required
 to
@@ -4257,9 +4231,9 @@ proceed
 .
 However
 Python
-"
-                
-"
+'
+                  
+'
 2
 is
 required
@@ -4269,9 +4243,9 @@ development
 tasks
 like
 running
-"
-                
-"
+'
+                  
+'
 tests
 ;
 you
@@ -4284,18 +4258,17 @@ Python
 installed
 for
 that
-"
-                
-"
+'
+                  
+'
 reason
 .
-"
+'
 %
 (
 version
 MODERN_PYTHON2_VERSION
 )
-            
 )
             
 print
@@ -4316,9 +4289,9 @@ nasm
 =
 which
 (
-"
+'
 nasm
-"
+'
 )
         
 if
@@ -4336,9 +4309,9 @@ self
 _parse_version_short
 (
 nasm
-"
+'
 version
-"
+'
 )
         
 if
@@ -4367,9 +4340,9 @@ rustc
 =
 which
 (
-"
+'
 rustc
-"
+'
 extra_search_dirs
 =
 [
@@ -4384,7 +4357,7 @@ rustc
             
 print
 (
-"
+'
 Could
 not
 find
@@ -4392,7 +4365,7 @@ a
 Rust
 compiler
 .
-"
+'
 )
             
 return
@@ -4439,10 +4412,10 @@ environ
 .
 get
 (
-            
-"
+'
 CARGO_HOME
-"
+'
+                                    
 os
 .
 path
@@ -4455,16 +4428,15 @@ path
 .
 join
 (
-"
+'
 ~
-"
-"
+'
+'
 .
 cargo
-"
+'
 )
 )
-        
 )
         
 cargo_bin
@@ -4476,9 +4448,9 @@ path
 join
 (
 cargo_home
-"
+'
 bin
-"
+'
 )
         
 return
@@ -4493,9 +4465,9 @@ path
 )
 :
         
-"
-"
-"
+'
+'
+'
 Convert
 a
 windows
@@ -4506,9 +4478,9 @@ to
 msys
 style
 .
-"
-"
-"
+'
+'
+'
         
 drive
 path
@@ -4524,9 +4496,9 @@ path
         
 path
 =
-"
+'
 /
-"
+'
 .
 join
 (
@@ -4534,10 +4506,10 @@ path
 .
 split
 (
-"
+'
 \
 \
-"
+'
 )
 )
         
@@ -4552,9 +4524,9 @@ path
 ]
 =
 =
-"
+'
 /
-"
+'
 :
                 
 path
@@ -4567,14 +4539,14 @@ path
             
 path
 =
-"
+'
 /
 %
 s
 /
 %
 s
-"
+'
 %
 (
 drive
@@ -4613,22 +4585,22 @@ path
 join
 (
 cargo_home
-"
+'
 env
-"
+'
 )
 )
 :
             
 cmd
 =
-"
+'
 source
 %
 s
 /
 env
-"
+'
 %
 cargo_home
         
@@ -4646,7 +4618,7 @@ cargo_bin
             
 cmd
 =
-"
+'
 export
 PATH
 =
@@ -4654,32 +4626,29 @@ PATH
 s
 :
 PATH
-"
+'
 %
 cargo_bin
         
 print
 (
-            
 template
-            
 %
 {
-                
-"
-cargo_bin
-"
-:
-cargo_bin
-                
-"
-cmd
-"
-:
-cmd
             
-}
+'
+cargo_bin
+'
+:
+cargo_bin
+            
+'
+cmd
+'
+:
+cmd
         
+}
 )
     
 def
@@ -4714,7 +4683,7 @@ modern
             
 print
 (
-"
+'
 Your
 version
 of
@@ -4727,7 +4696,7 @@ is
 new
 enough
 .
-"
+'
 %
 version
 )
@@ -4736,9 +4705,9 @@ rustup
 =
 which
 (
-"
+'
 rustup
-"
+'
 extra_search_dirs
 =
 [
@@ -4766,7 +4735,7 @@ version
             
 print
 (
-"
+'
 Your
 version
 of
@@ -4779,7 +4748,7 @@ is
 too
 old
 .
-"
+'
 %
 version
 )
@@ -4788,9 +4757,9 @@ rustup
 =
 which
 (
-"
+'
 rustup
-"
+'
 extra_search_dirs
 =
 [
@@ -4830,7 +4799,7 @@ exit
             
 print
 (
-"
+'
 Found
 rustup
 .
@@ -4839,7 +4808,7 @@ try
 to
 upgrade
 .
-"
+'
 )
             
 self
@@ -4886,14 +4855,14 @@ else
             
 print
 (
-"
+'
 Will
 try
 to
 install
 Rust
 .
-"
+'
 )
             
 self
@@ -4936,12 +4905,12 @@ check_output
             
 [
 rustup
-"
+'
 target
-"
-"
+'
+'
 list
-"
+'
 ]
 universal_newlines
 =
@@ -4952,7 +4921,6 @@ True
 targets
 =
 [
-            
 line
 .
 split
@@ -4961,7 +4929,6 @@ split
 [
 0
 ]
-            
 for
 line
 in
@@ -4970,35 +4937,34 @@ target_list
 splitlines
 (
 )
-            
+                   
 if
-"
+'
 installed
-"
+'
 in
 line
 or
-"
+'
 default
-"
+'
 in
 line
-        
 ]
         
 print
 (
-"
+'
 Rust
 supports
 %
 s
 targets
 .
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
@@ -5008,7 +4974,7 @@ targets
         
 win32
 =
-"
+'
 i686
 -
 pc
@@ -5016,11 +4982,11 @@ pc
 windows
 -
 msvc
-"
+'
         
 win64
 =
-"
+'
 x86_64
 -
 pc
@@ -5028,7 +4994,7 @@ pc
 windows
 -
 msvc
-"
+'
         
 if
 rust
@@ -5052,20 +5018,20 @@ check_call
 (
 [
 rustup
-"
+'
 target
-"
-"
+'
+'
 add
-"
+'
 win32
 ]
 )
         
 if
-"
+'
 mobile_android
-"
+'
 in
 self
 .
@@ -5077,67 +5043,65 @@ rust_version
 <
 LooseVersion
 (
-"
+'
 1
 .
 33
-"
+'
 )
 :
                 
 arm_target
 =
-"
+'
 armv7
 -
 linux
 -
 androideabi
-"
+'
             
 else
 :
                 
 arm_target
 =
-"
+'
 thumbv7neon
 -
 linux
 -
 androideabi
-"
+'
             
 android_targets
 =
 (
-                
 arm_target
-                
-"
+                               
+'
 aarch64
 -
 linux
 -
 android
-"
-                
-"
+'
+                               
+'
 i686
 -
 linux
 -
 android
-"
-                
-"
+'
+                               
+'
 x86_64
 -
 linux
 -
 android
-"
-            
+'
 )
             
 for
@@ -5159,12 +5123,12 @@ check_call
 (
 [
 rustup
-"
+'
 target
-"
-"
+'
+'
 add
-"
+'
 target
 ]
 )
@@ -5206,9 +5170,9 @@ check_call
 (
 [
 rustup
-"
+'
 update
-"
+'
 ]
 )
         
@@ -5218,15 +5182,15 @@ check_call
 (
 [
 rustup
-"
+'
 component
-"
-"
+'
+'
 add
-"
-"
+'
+'
 rustfmt
-"
+'
 ]
 )
     
@@ -5296,7 +5260,7 @@ checksum
             
 print
 (
-"
+'
 ERROR
 :
 Could
@@ -5304,7 +5268,7 @@ not
 download
 installer
 .
-"
+'
 )
             
 sys
@@ -5316,7 +5280,7 @@ exit
         
 print
 (
-"
+'
 Downloading
 rustup
 -
@@ -5324,11 +5288,11 @@ init
 .
 .
 .
-"
+'
 end
 =
-"
-"
+'
+'
 )
         
 fd
@@ -5394,14 +5358,14 @@ S_IRWXU
             
 print
 (
-"
+'
 Ok
-"
+'
 )
             
 print
 (
-"
+'
 Running
 rustup
 -
@@ -5409,57 +5373,49 @@ init
 .
 .
 .
-"
+'
 )
             
 subprocess
 .
 check_call
 (
-                
 [
-                    
 rustup_init
-                    
-"
+'
 -
 y
-"
-                    
-"
+'
+                                   
+'
 -
 -
 default
 -
 toolchain
-"
-                    
-"
+'
+'
 stable
-"
-                    
-"
+'
+                                   
+'
 -
 -
 default
 -
 host
-"
-                    
+'
 platform
-                    
-"
+                                   
+'
 -
 -
 component
-"
-                    
-"
+'
+'
 rustfmt
-"
-                
+'
 ]
-            
 )
             
 cargo_home
@@ -5476,6 +5432,7 @@ self
 print_rust_path_advice
 (
 RUST_INSTALL_COMPLETE
+                                        
 cargo_home
 cargo_bin
 )
@@ -5521,9 +5478,9 @@ dest
 hexhash
 digest
 =
-"
+'
 sha256
-"
+'
 )
 :
         
@@ -5609,9 +5566,9 @@ with
 open
 (
 dest
-"
+'
 wb
-"
+'
 )
 as
 out
@@ -5674,7 +5631,7 @@ dest
 raise
 ValueError
 (
-"
+'
 Hash
 of
 downloaded
@@ -5684,7 +5641,7 @@ not
 match
 expected
 hash
-"
+'
 )
     
 def
@@ -5801,9 +5758,9 @@ jdk_bin_dir
 None
         
 if
-"
+'
 JAVA_HOME
-"
+'
 in
 os
 .
@@ -5822,21 +5779,21 @@ os
 .
 environ
 [
-"
+'
 JAVA_HOME
-"
+'
 ]
-"
+'
 bin
-"
+'
 )
             
 if
 which
 (
-"
+'
 jarsigner
-"
+'
 path
 =
 possible_jarsigner_path
@@ -5861,18 +5818,18 @@ jarsigner
 =
 which
 (
-"
+'
 jarsigner
-"
+'
 )
             
 java
 =
 which
 (
-"
+'
 java
-"
+'
 )
             
 if
@@ -5903,9 +5860,9 @@ jdk_bin_java
 =
 which
 (
-"
+'
 java
-"
+'
 path
 =
 jdk_bin_dir
@@ -5941,7 +5898,6 @@ jdk_bin_version
 raise
 Exception
 (
-                        
 '
 The
 "
@@ -5965,8 +5921,8 @@ binaries
 on
 the
 '
-                        
-"
+                                    
+'
 PATH
 are
 currently
@@ -5977,9 +5933,9 @@ different
 JDKs
 .
 Please
-"
-                        
-"
+'
+                                    
+'
 resolve
 this
 or
@@ -5987,16 +5943,14 @@ explicitly
 set
 JAVA_HOME
 .
-"
+'
+                                    
 .
 format
 (
-                            
 path_java_version
 jdk_bin_version
-                        
 )
-                    
 )
         
 if
@@ -6007,8 +5961,7 @@ jdk_bin_dir
 raise
 Exception
 (
-                
-"
+'
 You
 need
 to
@@ -6022,9 +5975,9 @@ version
 8
 installed
 .
-"
-                
-"
+'
+                            
+'
 Please
 install
 it
@@ -6041,17 +5994,16 @@ net
 variant
 =
 openjdk8
-"
-            
+'
 )
         
 java
 =
 which
 (
-"
+'
 java
-"
+'
 path
 =
 jdk_bin_dir
@@ -6076,22 +6028,21 @@ version
 not
 in
 [
-"
+'
 1
 .
 8
-"
-"
+'
+'
 8
-"
+'
 ]
 :
                 
 raise
 Exception
 (
-                    
-"
+'
 You
 need
 to
@@ -6100,9 +6051,9 @@ Java
 Development
 Kit
 version
-"
-                    
-"
+'
+                                
+'
 1
 .
 8
@@ -6115,8 +6066,8 @@ but
 could
 not
 parse
-"
-                    
+'
+                                
 '
 version
 "
@@ -6130,8 +6081,8 @@ the
 JAVA_HOME
 environment
 '
-                    
-"
+                                
+'
 variable
 .
 Please
@@ -6141,9 +6092,9 @@ JDK
 .
 8
 from
-"
-                    
-"
+'
+                                
+'
 https
 :
 /
@@ -6157,24 +6108,23 @@ variant
 =
 openjdk8
 .
-"
+'
+                                
 .
 format
 (
 java
 output
 )
-                
 )
             
 mozconfig_builder
 .
 append
 (
-                
-"
-"
-"
+'
+'
+'
             
 #
 Use
@@ -6214,17 +6164,14 @@ path
 {
 }
             
-"
-"
-"
+'
+'
+'
 .
 format
 (
-                    
 jdk_bin_dir
-                
 )
-            
 )
         
 except
@@ -6238,8 +6185,7 @@ e
 raise
 Exception
 (
-                
-"
+'
 Failed
 to
 get
@@ -6251,7 +6197,7 @@ from
 :
 {
 }
-"
+'
 .
 format
 (
@@ -6260,12 +6206,11 @@ e
 .
 output
 )
-            
 )
         
 print
 (
-"
+'
 Your
 version
 of
@@ -6285,7 +6230,7 @@ least
 }
 )
 .
-"
+'
 .
 format
 (
@@ -6306,31 +6251,31 @@ subprocess
 .
 check_output
 (
-        
 [
 java_path
-"
+                                      
+'
 -
 XshowSettings
 :
 properties
-"
-"
+'
+                                      
+'
 -
 version
-"
+'
 ]
-        
+                                     
 stderr
 =
 subprocess
 .
 STDOUT
-        
+                                     
 universal_newlines
 =
 True
-    
 )
 .
 rstrip
@@ -6340,7 +6285,6 @@ rstrip
 version
 =
 [
-        
 line
 for
 line
@@ -6350,17 +6294,17 @@ output
 splitlines
 (
 )
+               
 if
-"
+'
 java
 .
 specification
 .
 version
-"
+'
 in
 line
-    
 ]
     
 if
@@ -6386,9 +6330,9 @@ version
 .
 split
 (
-"
+'
 =
-"
+'
 )
 [
 -

@@ -10,13 +10,13 @@ import
 GeckoPrettyPrinter
 GeckoPrettyPrinter
 (
-"
+'
 mozilla
 :
 :
 EnumSet
-"
-"
+'
+'
 ^
 mozilla
 :
@@ -26,7 +26,7 @@ EnumSet
 .
 *
 >
-"
+'
 )
 class
 enumset_printer
@@ -75,9 +75,9 @@ self
 .
 value
 [
-"
+'
 mBitField
-"
+'
 ]
         
 max_bit
@@ -96,7 +96,6 @@ sizeof
         
 return
 (
-            
 (
 "
 flag
@@ -115,7 +114,7 @@ self
 enum_type
 )
 )
-            
+                
 for
 i
 in
@@ -124,7 +123,7 @@ range
 0
 max_bit
 )
-            
+                
 if
 (
 (
@@ -141,7 +140,6 @@ i
 =
 0
 )
-        
 )
     
 def
@@ -169,6 +167,6 @@ self
 :
         
 return
-"
+'
 array
-"
+'

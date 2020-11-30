@@ -6,8 +6,8 @@ print_function
 unicode_literals
 LINUX_LUCETC
 =
-"
+'
 linux64
 -
 lucetc
-"
+'

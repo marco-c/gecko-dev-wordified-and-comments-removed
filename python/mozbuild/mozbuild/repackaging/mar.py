@@ -46,33 +46,33 @@ _BCJ_OPTIONS
 =
 {
     
-"
+'
 x86
-"
+'
 :
 [
-"
+'
 -
 -
 x86
-"
+'
 ]
     
-"
+'
 x86_64
-"
+'
 :
 [
-"
+'
 -
 -
 x86
-"
+'
 ]
     
-"
+'
 aarch64
-"
+'
 :
 [
 ]
@@ -80,6 +80,7 @@ aarch64
 def
 repackage_mar
 (
+    
 topsrcdir
 package
 mar
@@ -147,7 +148,6 @@ _BCJ_OPTIONS
 raise
 Exception
 (
-            
 "
 Unknown
 architecture
@@ -162,7 +162,7 @@ architectures
 .
 format
 (
-                
+            
 arch
 list
 (
@@ -172,9 +172,7 @@ keys
 (
 )
 )
-            
 )
-        
 )
     
 ensureParentDir
@@ -291,22 +289,22 @@ excluded_stuff
 set
 (
 [
-"
-"
-"
+'
+'
+'
 .
 background
-"
-"
+'
+'
 .
 DS_Store
-"
-"
+'
+'
 .
 VolumeIcon
 .
 icns
-"
+'
 ]
 )
         
@@ -329,7 +327,6 @@ toplevel_dirs
 raise
 Exception
 (
-                
 "
 Package
 file
@@ -344,7 +341,7 @@ top
 level
 directory
 "
-                
+                            
 "
 (
 eg
@@ -360,7 +357,6 @@ s
 "
 %
 toplevel_dirs
-            
 )
         
 ffxdir
@@ -383,9 +379,8 @@ mozpath
 .
 join
 (
-            
 topsrcdir
-"
+'
 tools
 /
 update
@@ -395,8 +390,7 @@ packaging
 make_full_update
 .
 sh
-"
-        
+'
 )
         
 env
@@ -411,27 +405,27 @@ copy
         
 env
 [
-"
+'
 MOZ_PRODUCT_VERSION
-"
+'
 ]
 =
 get_application_ini_value
 (
 tmpdir
-"
+'
 App
-"
-"
+'
+'
 Version
-"
+'
 )
         
 env
 [
-"
+'
 MAR
-"
+'
 ]
 =
 mozpath
@@ -447,13 +441,13 @@ arch
             
 env
 [
-"
+'
 BCJ_OPTIONS
-"
+'
 ]
 =
-"
-"
+'
+'
 .
 join
 (
@@ -469,9 +463,9 @@ mar_channel_id
             
 env
 [
-"
+'
 MAR_CHANNEL_ID
-"
+'
 ]
 =
 mar_channel_id
@@ -483,13 +477,13 @@ mozpath
 join
 (
 topsrcdir
-"
+'
 xz
 /
 xz
 .
 exe
-"
+'
 )
         
 if
@@ -505,9 +499,9 @@ xz_path
             
 env
 [
-"
+'
 XZ
-"
+'
 ]
 =
 mozpath
@@ -531,9 +525,9 @@ sys
 platform
 =
 =
-"
+'
 win32
-"
+'
 :
             
 cmd
@@ -543,12 +537,12 @@ insert
 0
 env
 [
-"
+'
 MOZILLABUILD
-"
+'
 ]
 +
-"
+'
 /
 msys
 /
@@ -557,7 +551,7 @@ bin
 bash
 .
 exe
-"
+'
 )
         
 subprocess

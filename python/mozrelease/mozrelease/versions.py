@@ -47,6 +47,8 @@ other
 )
 class
 MozillaVersionCompareMixin
+(
+)
 :
     
 def
@@ -90,9 +92,9 @@ other
 .
 endswith
 (
-"
+'
 esr
-"
+'
 )
 :
             
@@ -100,9 +102,9 @@ has_esr
 .
 add
 (
-"
+'
 other
-"
+'
 )
             
 other
@@ -134,9 +136,9 @@ self
 .
 endswith
 (
-"
+'
 esr
-"
+'
 )
 :
             
@@ -144,9 +146,9 @@ has_esr
 .
 add
 (
-"
+'
 self
-"
+'
 )
             
 self
@@ -171,12 +173,12 @@ other
 LooseModernMozillaVersion
 )
 or
+\
+                
 isinstance
 (
-            
 self
 LooseModernMozillaVersion
-        
 )
 :
             
@@ -184,9 +186,8 @@ val
 =
 _cmp
 (
-                
 LooseVersion
-                
+                       
 LooseModernMozillaVersion
 (
 str
@@ -194,7 +195,7 @@ str
 self
 )
 )
-                
+                       
 LooseModernMozillaVersion
 (
 str
@@ -202,7 +203,6 @@ str
 other
 )
 )
-            
 )
         
 else
@@ -225,33 +225,33 @@ isdisjoint
 set
 (
 [
-"
+'
 other
-"
-"
+'
+'
 self
-"
+'
 ]
 )
 )
 or
+\
+                
 has_esr
 .
 issuperset
 (
-            
 set
 (
 [
-"
+'
 other
-"
-"
+'
+'
 self
-"
+'
 ]
 )
-        
 )
 :
             
@@ -269,9 +269,9 @@ return
 val
         
 elif
-"
+'
 other
-"
+'
 in
 has_esr
 :
@@ -397,7 +397,7 @@ restrictive
 than
 StrictVersion
 .
-    
+       
 Instead
 of
 just
@@ -415,7 +415,7 @@ tags
 it
 allows
 any
-    
+       
 alpha
 .
 This
@@ -435,7 +435,7 @@ shipped
 3plugin1
 "
 and
-    
+       
 similar
 versions
 .
@@ -449,7 +449,6 @@ re
 .
 compile
 (
-        
 r
 "
 "
@@ -497,11 +496,9 @@ d
 "
 "
 "
-        
 re
 .
 VERBOSE
-    
 )
 class
 AncientMozillaVersion
@@ -525,7 +522,7 @@ restrictive
 than
 StrictVersion
 .
-    
+       
 Instead
 of
 just
@@ -543,7 +540,7 @@ tags
 it
 allows
 any
-    
+       
 alpha
 .
 This
@@ -563,11 +560,11 @@ shipped
 3plugin1
 "
 and
-    
+       
 similar
 versions
 .
-    
+       
 It
 also
 supports
@@ -588,7 +585,7 @@ x
 .
 z
 which
-    
+       
 is
 useful
 for
@@ -619,7 +616,6 @@ re
 .
 compile
 (
-        
 r
 "
 "
@@ -670,11 +666,9 @@ d
 "
 "
 "
-        
 re
 .
 VERBOSE
-    
 )
 class
 LooseModernMozillaVersion
@@ -697,7 +691,7 @@ restrictive
 than
 LooseVersion
 .
-    
+       
 This
 class
 reduces
@@ -720,7 +714,7 @@ rc
 "
 in
 order
-    
+       
 to
 support
 esr
@@ -745,7 +739,7 @@ re
 compile
 (
 r
-"
+'
 (
 \
 d
@@ -762,7 +756,7 @@ esr
 \
 .
 )
-"
+'
 re
 .
 VERBOSE
@@ -820,9 +814,9 @@ version
 .
 count
 (
-"
+'
 .
-"
+'
 )
 =
 =
@@ -885,7 +879,7 @@ re
 sub
 (
 r
-"
+'
 a
 (
 [
@@ -895,13 +889,13 @@ a
 ]
 +
 )
-"
+'
 r
-"
+'
 Alpha
 \
 1
-"
+'
 version
 )
     
@@ -912,7 +906,7 @@ re
 sub
 (
 r
-"
+'
 b
 (
 [
@@ -922,13 +916,13 @@ b
 ]
 +
 )
-"
+'
 r
-"
+'
 Beta
 \
 1
-"
+'
 version
 )
     
@@ -939,7 +933,7 @@ re
 sub
 (
 r
-"
+'
 rc
 (
 [
@@ -949,13 +943,13 @@ rc
 ]
 +
 )
-"
+'
 r
-"
+'
 RC
 \
 1
-"
+'
 version
 )
     

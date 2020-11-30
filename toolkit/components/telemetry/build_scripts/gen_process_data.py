@@ -110,11 +110,11 @@ title
 .
 replace
 (
-"
+'
 _
-"
-"
-"
+'
+'
+'
 )
 def
 write_processes_data
@@ -190,7 +190,6 @@ items
         
 p
 (
-            
 "
 /
 *
@@ -208,7 +207,6 @@ s
 %
 s
 "
-            
 %
 (
 i
@@ -218,12 +216,11 @@ name
 )
 value
 [
-"
+'
 gecko_enum
-"
+'
 ]
 )
-        
 )
     
 p
@@ -343,7 +340,7 @@ items
         
 p
 (
-'
+"
 /
 *
 %
@@ -357,11 +354,13 @@ s
 =
 *
 /
+\
 "
 %
 s
+\
 "
-'
+"
 %
 (
 i
@@ -401,9 +400,10 @@ filenames
 raise
 Exception
 (
-"
+'
 We
 don
+\
 '
 t
 support
@@ -414,7 +414,7 @@ than
 one
 file
 .
-"
+'
 )
     
 try
@@ -500,9 +500,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

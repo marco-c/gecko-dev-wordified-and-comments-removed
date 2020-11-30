@@ -45,7 +45,10 @@ util
 .
 schema
 import
+(
+    
 resolve_keyed_by
+)
 import
 logging
 logger
@@ -145,19 +148,19 @@ item_name
 =
 job
 [
-"
+'
 name
-"
+'
 ]
                 
 *
 *
 {
-"
+'
 release
 -
 level
-"
+'
 :
 config
 .
@@ -231,7 +234,6 @@ option
 .
 format
 (
-                
 version
 =
 release_config
@@ -240,7 +242,7 @@ release_config
 version
 "
 ]
-                
+                          
 build_number
 =
 release_config
@@ -249,7 +251,6 @@ release_config
 build_number
 "
 ]
-            
 )
             
 for

@@ -15,7 +15,7 @@ re
 compile
 (
 r
-"
+'
 /
 /
 [
@@ -35,7 +35,7 @@ n
 \
 *
 /
-"
+'
 re
 .
 S
@@ -46,11 +46,10 @@ re
 .
 compile
 (
-    
 r
-"
-"
-"
+'
+'
+'
 ^
 (
 .
@@ -91,10 +90,9 @@ optional
 param
 tys
                          
-"
-"
-"
-    
+'
+'
+'
 re
 .
 X
@@ -132,9 +130,9 @@ with
 open
 (
 filename
-"
+'
 r
-"
+'
 )
 as
 fd
@@ -146,8 +144,8 @@ comment_re
 .
 sub
 (
-"
-"
+'
+'
 fd
 .
 read
@@ -170,9 +168,9 @@ text
 .
 split
 (
-"
+'
 ;
-"
+'
 )
 if
 d
@@ -246,8 +244,8 @@ params
 .
 split
 (
-"
-"
+'
+'
 )
 if
 a
@@ -276,9 +274,9 @@ with
 open
 (
 template_path
-"
+'
 r
-"
+'
 )
 as
 template_fd
@@ -299,8 +297,8 @@ read
     
 decls
 =
-"
-"
+'
+'
     
 for
 ty
@@ -332,7 +330,6 @@ textwrap
 .
 dedent
 (
-            
 "
 "
 "
@@ -386,16 +383,13 @@ endif
 .
 format
 (
-                
 ty
 =
 ty
 name
 =
 name
-            
 )
-        
 )
     
 for
@@ -425,18 +419,18 @@ decl
         
 params
 =
-"
-"
+'
+'
 .
 join
 (
-"
+'
 %
 s
 a
 %
 d
-"
+'
 %
 (
 ty
@@ -454,16 +448,16 @@ args
         
 args
 =
-"
-"
+'
+'
 .
 join
 (
-"
+'
 a
 %
 d
-"
+'
 %
 i
 for
@@ -485,7 +479,6 @@ textwrap
 .
 dedent
 (
-            
 "
 "
 "
@@ -567,7 +560,6 @@ endif
 .
 format
 (
-                
 ty
 =
 ty
@@ -580,9 +572,7 @@ params
 args
 =
 args
-            
 )
-        
 )
     
 fd

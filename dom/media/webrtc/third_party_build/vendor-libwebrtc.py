@@ -18,77 +18,77 @@ LIBWEBRTC_USED_IN_FIREFOX
 =
 [
     
-"
+'
 AUTHORS
-"
+'
     
-"
+'
 LICENSE
-"
+'
     
-"
+'
 OWNERS
-"
+'
     
-"
+'
 PATENTS
-"
+'
     
-"
+'
 api
-"
+'
     
-"
+'
 audio
-"
+'
     
-"
+'
 call
-"
+'
     
-"
+'
 common_audio
-"
+'
     
-"
+'
 common_types
 .
 h
-"
+'
     
-"
+'
 common_video
-"
+'
     
-"
+'
 logging
-"
+'
     
-"
+'
 media
-"
+'
     
-"
+'
 modules
-"
+'
     
-"
+'
 rtc_base
-"
+'
     
-"
+'
 sdk
 /
 android
-"
+'
     
-"
+'
 system_wrappers
-"
+'
     
-"
+'
 video
-"
+'
 ]
 LIBWEBRTC_DIR
 =
@@ -98,7 +98,7 @@ path
 .
 normpath
 (
-"
+'
 .
 .
 /
@@ -116,7 +116,7 @@ third_party
 libwebrtc
 /
 webrtc
-"
+'
 )
 def
 make_github_url
@@ -132,35 +132,35 @@ repo
 .
 endswith
 (
-"
+'
 /
-"
+'
 )
 :
         
 repo
 +
 =
-"
+'
 /
-"
+'
     
 return
 repo
 +
-"
+'
 archive
 /
-"
+'
 +
 commit
 +
-"
+'
 .
 tar
 .
 gz
-"
+'
 def
 make_googlesource_url
 (
@@ -173,13 +173,13 @@ if
 target
 =
 =
-"
+'
 libwebrtc
-"
+'
 :
         
 return
-"
+'
 https
 :
 /
@@ -197,24 +197,23 @@ git
 +
 archive
 /
-"
+'
 +
 commit
 +
-"
+'
 .
 tar
 .
 gz
-"
+'
     
 else
 :
         
 return
 (
-            
-"
+'
 https
 :
 /
@@ -234,19 +233,17 @@ build
 +
 archive
 /
-"
-            
+'
 +
 commit
-            
 +
-"
+                
+'
 .
 tar
 .
 gz
-"
-        
+'
 )
 def
 fetch
@@ -258,13 +255,13 @@ url
     
 print
 (
-"
+'
 Fetching
 commit
 from
 {
 }
-"
+'
 .
 format
 (
@@ -295,15 +292,15 @@ open
 (
 target
 +
-"
+'
 .
 tar
 .
 gz
-"
-"
+'
+'
 wb
-"
+'
 )
 as
 f
@@ -323,8 +320,7 @@ else
         
 print
 (
-            
-"
+'
 Hit
 status
 code
@@ -335,7 +331,7 @@ commit
 .
 Aborting
 .
-"
+'
 .
 format
 (
@@ -343,13 +339,12 @@ req
 .
 status_code
 )
-            
+              
 file
 =
 sys
 .
 stderr
-        
 )
         
 sys
@@ -369,15 +364,15 @@ path
 join
 (
 LIBWEBRTC_DIR
-"
+'
 README
 .
 mozilla
-"
+'
 )
-"
+'
 w
-"
+'
 )
 as
 f
@@ -387,8 +382,7 @@ f
 .
 write
 (
-            
-"
+'
 libwebrtc
 updated
 from
@@ -399,7 +393,7 @@ on
 {
 }
 .
-"
+'
 .
 format
 (
@@ -416,9 +410,7 @@ utcnow
 isoformat
 (
 )
-            
 )
-        
 )
 def
 fetch_local
@@ -433,12 +425,12 @@ target_archive
 =
 target
 +
-"
+'
 .
 tar
 .
 gz
-"
+'
     
 cp
 =
@@ -447,16 +439,16 @@ subprocess
 run
 (
 [
-"
+'
 git
-"
-"
+'
+'
 archive
-"
-"
+'
+'
 -
 o
-"
+'
 target_archive
 commit
 ]
@@ -476,8 +468,7 @@ returncode
         
 print
 (
-            
-"
+'
 Hit
 return
 code
@@ -488,7 +479,7 @@ commit
 .
 Aborting
 .
-"
+'
 .
 format
 (
@@ -496,13 +487,12 @@ cp
 .
 returncode
 )
-            
+              
 file
 =
 sys
 .
 stderr
-        
 )
         
 sys
@@ -522,15 +512,15 @@ path
 join
 (
 LIBWEBRTC_DIR
-"
+'
 README
 .
 mozilla
-"
+'
 )
-"
+'
 w
-"
+'
 )
 as
 f
@@ -540,8 +530,7 @@ f
 .
 write
 (
-            
-"
+'
 libwebrtc
 updated
 from
@@ -554,7 +543,7 @@ on
 {
 }
 .
-"
+'
 .
 format
 (
@@ -572,9 +561,7 @@ utcnow
 isoformat
 (
 )
-            
 )
-        
 )
     
 shutil
@@ -603,19 +590,19 @@ target_archive
 =
 target
 +
-"
+'
 .
 tar
 .
 gz
-"
+'
     
 target_path
 =
-"
+'
 tmp
 -
-"
+'
 +
 target
     
@@ -653,9 +640,9 @@ if
 target
 =
 =
-"
+'
 libwebrtc
-"
+'
 :
         
 for
@@ -726,7 +713,6 @@ shutil
 .
 move
 (
-                    
 os
 .
 path
@@ -736,6 +722,7 @@ join
 target_path
 path
 )
+                            
 os
 .
 path
@@ -745,7 +732,6 @@ join
 LIBWEBRTC_DIR
 path
 )
-                
 )
         
 else
@@ -781,7 +767,6 @@ shutil
 .
 move
 (
-                    
 os
 .
 path
@@ -791,6 +776,7 @@ join
 target_path
 path
 )
+                            
 os
 .
 path
@@ -800,7 +786,6 @@ join
 LIBWEBRTC_DIR
 path
 )
-                
 )
     
 else
@@ -820,9 +805,9 @@ path
 join
 (
 LIBWEBRTC_DIR
-"
+'
 build
-"
+'
 )
 )
         
@@ -843,9 +828,9 @@ path
 join
 (
 LIBWEBRTC_DIR
-"
+'
 build
-"
+'
 )
 )
         
@@ -863,9 +848,9 @@ path
 join
 (
 target_path
-"
+'
 linux
-"
+'
 )
 )
 :
@@ -885,7 +870,6 @@ shutil
 .
 move
 (
-                    
 os
 .
 path
@@ -895,7 +879,7 @@ join
 target_path
 path
 )
-                    
+                            
 os
 .
 path
@@ -903,12 +887,11 @@ path
 join
 (
 LIBWEBRTC_DIR
-"
+'
 build
-"
+'
 path
 )
-                
 )
         
 else
@@ -949,7 +932,6 @@ shutil
 .
 move
 (
-                    
 os
 .
 path
@@ -959,7 +941,7 @@ join
 target_path
 path
 )
-                    
+                            
 os
 .
 path
@@ -967,12 +949,11 @@ path
 join
 (
 LIBWEBRTC_DIR
-"
+'
 build
-"
+'
 path
 )
-                
 )
 def
 cleanup
@@ -987,22 +968,22 @@ remove
 (
 target
 +
-"
+'
 .
 tar
 .
 gz
-"
+'
 )
     
 shutil
 .
 rmtree
 (
-"
+'
 tmp
 -
-"
+'
 +
 target
 )
@@ -1010,9 +991,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 parser
@@ -1023,28 +1004,28 @@ ArgumentParser
 (
 description
 =
-"
+'
 Update
 libwebrtc
-"
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 target
-"
+'
 choices
 =
 (
-"
+'
 libwebrtc
-"
-"
+'
+'
 build
-"
+'
 )
 )
     
@@ -1063,13 +1044,13 @@ group
 .
 add_argument
 (
-"
+'
 -
 -
 from
 -
 github
-"
+'
 type
 =
 str
@@ -1079,18 +1060,18 @@ group
 .
 add_argument
 (
-"
+'
 -
 -
 from
 -
 googlesource
-"
+'
 action
 =
-"
+'
 store_true
-"
+'
 default
 =
 False
@@ -1100,13 +1081,13 @@ group
 .
 add_argument
 (
-"
+'
 -
 -
 from
 -
 local
-"
+'
 type
 =
 str
@@ -1116,37 +1097,37 @@ parser
 .
 add_argument
 (
-"
+'
 -
 -
 commit
-"
+'
 type
 =
 str
 default
 =
-"
+'
 master
-"
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 -
 -
 skip
 -
 fetch
-"
+'
 action
 =
-"
+'
 store_true
-"
+'
 default
 =
 False
@@ -1156,18 +1137,18 @@ parser
 .
 add_argument
 (
-"
+'
 -
 -
 skip
 -
 cleanup
-"
+'
 action
 =
-"
+'
 store_true
-"
+'
 default
 =
 False

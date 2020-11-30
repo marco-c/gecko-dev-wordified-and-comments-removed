@@ -53,6 +53,8 @@ __file__
 )
 class
 Entry
+(
+)
 :
     
 "
@@ -131,9 +133,9 @@ path
 join
 (
 here
-"
+'
 providers
-"
+'
 )
     
 def
@@ -149,26 +151,26 @@ self
 _run_mach
 (
 [
-"
+'
 help
-"
+'
 ]
 entry_point
 =
-"
+'
 mach
 .
 providers
-"
+'
 )
     
 patch
 (
-"
+'
 pkg_resources
 .
 iter_entry_points
-"
+'
 )
     
 def
@@ -180,11 +182,11 @@ mock
 :
         
 if
-"
+'
 mach
 .
 commands
-"
+'
 not
 in
 sys
@@ -198,22 +200,22 @@ imp
 .
 new_module
 (
-"
+'
 mach
 .
 commands
-"
+'
 )
             
 sys
 .
 modules
 [
-"
+'
 mach
 .
 commands
-"
+'
 ]
 =
 mod
@@ -250,11 +252,11 @@ _run_help
     
 patch
 (
-"
+'
 pkg_resources
 .
 iter_entry_points
-"
+'
 )
     
 def
@@ -282,11 +284,11 @@ join
 self
 .
 provider_dir
-"
+'
 basic
 .
 py
-"
+'
 )
 ]
 )
@@ -313,18 +315,18 @@ self
 .
 assertIn
 (
-"
+'
 cmd_foo
-"
+'
 stdout
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

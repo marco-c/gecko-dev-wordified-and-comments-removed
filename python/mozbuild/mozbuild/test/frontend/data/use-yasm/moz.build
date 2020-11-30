@@ -10,9 +10,9 @@ LIBRARY_NAME
 name
 Library
 (
-"
+'
 dummy
-"
+'
 )
 USE_YASM
 =
@@ -21,9 +21,9 @@ SOURCES
 +
 =
 [
-"
+'
 test1
 .
 S
-"
+'
 ]

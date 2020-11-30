@@ -121,9 +121,9 @@ assertTrue
 (
 rect
 [
-"
+'
 x
-"
+'
 ]
 >
 0
@@ -135,9 +135,9 @@ assertTrue
 (
 rect
 [
-"
+'
 y
-"
+'
 ]
 >
 0
@@ -149,9 +149,9 @@ assertTrue
 (
 rect
 [
-"
+'
 width
-"
+'
 ]
 >
 0
@@ -163,9 +163,9 @@ assertTrue
 (
 rect
 [
-"
+'
 height
-"
+'
 ]
 >
 0

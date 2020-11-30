@@ -299,6 +299,7 @@ L10n
 :
 LocalizeEntity
 "
+                                              
 body
 key
 =
@@ -413,17 +414,16 @@ _marionette
 .
 _send_message
 (
-            
 "
 L10n
 :
 LocalizeProperty
 "
+                                              
 body
 key
 =
 "
 value
 "
-        
 )

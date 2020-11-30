@@ -609,7 +609,6 @@ return
 .
 format
 (
-                    
 class_name
 (
 obj
@@ -626,7 +625,6 @@ name
 )
 +
 suffix
-                
 )
     
 return
@@ -865,22 +863,22 @@ value
 .
 replace
 (
-"
+'
 .
-"
-"
+'
+'
 _
-"
+'
 )
 .
 replace
 (
-"
+'
 -
-"
-"
+'
+'
 _
-"
+'
 )
     
 def
@@ -1074,29 +1072,29 @@ common_metric_data_args
 =
 [
         
-"
+'
 name
-"
+'
         
-"
+'
 category
-"
+'
         
-"
+'
 send_in_pings
-"
+'
         
-"
+'
 lifetime
-"
+'
         
-"
+'
 disabled
-"
+'
         
-"
+'
 dynamic_label
-"
+'
     
 ]
     
@@ -1104,28 +1102,24 @@ output_fd
 .
 write
 (
-        
 template
 .
 render
 (
-            
+        
 all_objs
 =
 objs
-            
 common_metric_data_args
 =
 common_metric_data_args
-            
+        
 extra_args
 =
 util
 .
 extra_args
-        
 )
-    
 )
     
 output_fd

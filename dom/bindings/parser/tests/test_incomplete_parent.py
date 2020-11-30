@@ -12,7 +12,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -51,7 +50,6 @@ EvenHigherOnTheChain
 "
 "
 "
-    
 )
     
 parser

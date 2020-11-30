@@ -19,7 +19,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -51,7 +50,6 @@ name
 "
 "
 "
-        
 )
         
 results
@@ -93,7 +91,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -125,7 +122,6 @@ name
 "
 "
 "
-        
 )
         
 results
@@ -167,7 +163,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -198,7 +193,6 @@ name
 "
 "
 "
-        
 )
         
 results

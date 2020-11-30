@@ -145,13 +145,13 @@ TRANSFORMS
     
 {
         
-"
+'
 files
-"
+'
 :
 [
             
-"
+'
 defaults
 /
 pref
@@ -161,9 +161,9 @@ channel
 prefs
 .
 js
-"
+'
             
-"
+'
 Contents
 /
 Resources
@@ -177,40 +177,40 @@ channel
 prefs
 .
 js
-"
+'
         
 ]
         
-"
+'
 channel_prefix
-"
+'
 :
 [
-"
+'
 aurora
-"
-"
+'
+'
 beta
-"
-"
+'
+'
 release
-"
-"
+'
+'
 esr
-"
+'
 ]
         
-"
+'
 side
-"
+'
 :
-"
+'
 source
-"
+'
         
-"
+'
 deletion
-"
+'
 :
 '
 /
@@ -224,13 +224,13 @@ line
     
 {
         
-"
+'
 files
-"
+'
 :
 [
             
-"
+'
 defaults
 /
 pref
@@ -240,9 +240,9 @@ channel
 prefs
 .
 js
-"
+'
             
-"
+'
 Contents
 /
 Resources
@@ -256,31 +256,31 @@ channel
 prefs
 .
 js
-"
+'
         
 ]
         
-"
+'
 channel_prefix
-"
+'
 :
 [
-"
+'
 beta
-"
+'
 ]
         
-"
+'
 side
-"
+'
 :
-"
+'
 target
-"
+'
         
-"
+'
 substitution
-"
+'
 :
 [
             
@@ -328,13 +328,13 @@ n
     
 {
         
-"
+'
 files
-"
+'
 :
 [
             
-"
+'
 defaults
 /
 pref
@@ -344,9 +344,9 @@ channel
 prefs
 .
 js
-"
+'
             
-"
+'
 Contents
 /
 Resources
@@ -360,31 +360,31 @@ channel
 prefs
 .
 js
-"
+'
         
 ]
         
-"
+'
 channel_prefix
-"
+'
 :
 [
-"
+'
 beta
-"
+'
 ]
         
-"
+'
 side
-"
+'
 :
-"
+'
 source
-"
+'
         
-"
+'
 substitution
-"
+'
 :
 [
             
@@ -432,13 +432,13 @@ n
     
 {
         
-"
+'
 files
-"
+'
 :
 [
             
-"
+'
 defaults
 /
 pref
@@ -448,9 +448,9 @@ channel
 prefs
 .
 js
-"
+'
             
-"
+'
 Contents
 /
 Resources
@@ -464,63 +464,63 @@ channel
 prefs
 .
 js
-"
+'
         
 ]
         
-"
+'
 channel_prefix
-"
+'
 :
 [
-"
+'
 aurora
-"
-"
+'
+'
 beta
-"
-"
+'
+'
 release
-"
-"
+'
+'
 esr
-"
+'
 ]
         
-"
+'
 side
-"
+'
 :
-"
+'
 target
-"
+'
         
-"
+'
 deletion
-"
+'
 :
-"
+'
 /
 /
-"
+'
     
 }
     
 {
         
-"
+'
 files
-"
+'
 :
 [
-"
+'
 update
 -
 settings
 .
 ini
-"
-"
+'
+'
 Contents
 /
 Resources
@@ -530,34 +530,34 @@ update
 settings
 .
 ini
-"
+'
 ]
         
-"
+'
 channel_prefix
-"
+'
 :
 [
-"
+'
 beta
-"
+'
 ]
         
-"
+'
 side
-"
+'
 :
-"
+'
 target
-"
+'
         
-"
+'
 substitution
-"
+'
 :
 [
             
-"
+'
 ACCEPTED_MAR_CHANNEL_IDS
 =
 firefox
@@ -567,9 +567,9 @@ mozilla
 release
 \
 n
-"
+'
             
-"
+'
 ACCEPTED_MAR_CHANNEL_IDS
 =
 firefox
@@ -584,7 +584,7 @@ mozilla
 release
 \
 n
-"
+'
         
 ]
     
@@ -592,12 +592,12 @@ n
     
 {
         
-"
+'
 files
-"
+'
 :
 [
-"
+'
 Contents
 /
 Resources
@@ -607,34 +607,34 @@ update
 settings
 .
 ini
-"
+'
 ]
         
-"
+'
 channel_prefix
-"
+'
 :
 [
-"
+'
 beta
-"
+'
 ]
         
-"
+'
 side
-"
+'
 :
-"
+'
 source
-"
+'
         
-"
+'
 substitution
-"
+'
 :
 [
             
-"
+'
 ACCEPTED_MAR_CHANNEL_IDS
 =
 firefox
@@ -644,9 +644,9 @@ mozilla
 release
 \
 n
-"
+'
             
-"
+'
 ACCEPTED_MAR_CHANNEL_IDS
 =
 firefox
@@ -661,7 +661,7 @@ mozilla
 release
 \
 n
-"
+'
         
 ]
     
@@ -823,7 +823,7 @@ logging
 .
 error
 (
-"
+'
 {
 }
 only
@@ -831,7 +831,7 @@ in
 {
 }
 :
-"
+'
 .
 format
 (
@@ -853,10 +853,10 @@ logging
 .
 error
 (
-"
+'
 {
 }
-"
+'
 .
 format
 (
@@ -882,7 +882,7 @@ logging
 .
 error
 (
-"
+'
 {
 }
 only
@@ -890,7 +890,7 @@ in
 {
 }
 :
-"
+'
 .
 format
 (
@@ -912,10 +912,10 @@ logging
 .
 error
 (
-"
+'
 {
 }
-"
+'
 .
 format
 (
@@ -948,9 +948,9 @@ with
 open
 (
 filename
-"
+'
 rb
-"
+'
 buffering
 =
 0
@@ -975,8 +975,8 @@ read
 1024
 )
 b
-"
-"
+'
+'
 )
 :
             
@@ -1057,11 +1057,11 @@ target_file
 .
 st_size
 or
+\
+                
 hash_file
 (
-            
 source_file
-        
 )
 !
 =
@@ -1075,13 +1075,13 @@ logging
 .
 info
 (
-"
+'
 Difference
 found
 in
 {
 }
-"
+'
 .
 format
 (
@@ -1093,9 +1093,9 @@ file_contents
 =
 {
                 
-"
+'
 source
-"
+'
 :
 open
 (
@@ -1106,9 +1106,9 @@ readlines
 (
 )
                 
-"
+'
 target
-"
+'
 :
 open
 (
@@ -1126,7 +1126,6 @@ transforms
 [
                 
 t
-                
 for
 t
 in
@@ -1137,9 +1136,9 @@ filename
 in
 t
 [
-"
+'
 files
-"
+'
 ]
                 
 and
@@ -1151,9 +1150,9 @@ tuple
 (
 t
 [
-"
+'
 channel_prefix
-"
+'
 ]
 )
 )
@@ -1165,7 +1164,7 @@ logging
 debug
 (
                 
-"
+'
 Got
 {
 }
@@ -1178,19 +1177,16 @@ consider
 for
 {
 }
-"
+'
 .
 format
 (
-                    
 len
 (
 transforms
 )
 filename
-                
 )
-            
 )
             
 for
@@ -1203,15 +1199,15 @@ side
 =
 transform
 [
-"
+'
 side
-"
+'
 ]
                 
 if
-"
+'
 deletion
-"
+'
 in
 transform
 :
@@ -1220,17 +1216,16 @@ d
 =
 transform
 [
-"
+'
 deletion
-"
+'
 ]
                     
 logging
 .
 debug
 (
-                        
-"
+'
 Trying
 deleting
 lines
@@ -1240,14 +1235,13 @@ starting
 from
 {
 }
-"
+'
 .
 format
 (
 d
 side
 )
-                    
 )
                     
 file_contents
@@ -1256,7 +1250,6 @@ side
 ]
 =
 [
-                        
 l
 for
 l
@@ -1273,13 +1266,12 @@ startswith
 (
 d
 )
-                    
 ]
                 
 if
-"
+'
 substitution
-"
+'
 in
 transform
 :
@@ -1288,16 +1280,16 @@ r
 =
 transform
 [
-"
+'
 substitution
-"
+'
 ]
                     
 logging
 .
 debug
 (
-"
+'
 Trying
 replacement
 for
@@ -1306,7 +1298,7 @@ for
 in
 {
 }
-"
+'
 .
 format
 (
@@ -1321,7 +1313,6 @@ side
 ]
 =
 [
-                        
 l
 .
 replace
@@ -1342,23 +1333,22 @@ file_contents
 [
 side
 ]
-                    
 ]
                 
 if
 file_contents
 [
-"
+'
 source
-"
+'
 ]
 =
 =
 file_contents
 [
-"
+'
 target
-"
+'
 ]
 :
                     
@@ -1366,12 +1356,12 @@ logging
 .
 info
 (
-"
+'
 Transforms
 removed
 all
 differences
-"
+'
 )
                     
 break
@@ -1379,17 +1369,17 @@ break
 if
 file_contents
 [
-"
+'
 source
-"
+'
 ]
 !
 =
 file_contents
 [
-"
+'
 target
-"
+'
 ]
 :
                 
@@ -1401,8 +1391,7 @@ logging
 .
 error
 (
-                    
-"
+'
 {
 }
 still
@@ -1412,13 +1401,12 @@ transforms
 residual
 diff
 :
-"
+'
 .
 format
 (
 filename
 )
-                
 )
                 
 for
@@ -1428,20 +1416,18 @@ difflib
 .
 unified_diff
 (
-                    
 file_contents
 [
-"
+'
 source
-"
+'
 ]
 file_contents
 [
-"
+'
 target
-"
+'
 ]
-                
 )
 :
                     
@@ -1462,9 +1448,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 parser
@@ -1474,7 +1460,7 @@ argparse
 ArgumentParser
 (
         
-"
+'
 Compare
 two
 directories
@@ -1484,87 +1470,84 @@ transformations
 for
 expected
 diffs
-"
-    
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 source
-"
+'
 help
 =
-"
+'
 Directory
 containing
 updated
 Firefox
-"
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 target
-"
+'
 help
 =
-"
+'
 Directory
 containing
 expected
 Firefox
-"
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 channel
-"
+'
 help
 =
-"
+'
 Update
 channel
 used
-"
+'
 )
     
 parser
 .
 add_argument
 (
-        
-"
+'
 -
 -
 verbose
-"
-"
+'
+'
 -
 v
-"
+'
 action
 =
-"
+'
 store_true
-"
+'
 help
 =
-"
+'
 Enable
 verbose
 logging
-"
-    
+'
 )
     
 args
@@ -1602,13 +1585,13 @@ level
 level
 format
 =
-"
+'
 %
 (
 message
 )
 s
-"
+'
 stream
 =
 sys
@@ -1679,7 +1662,7 @@ logging
 .
 info
 (
-"
+'
 Comparing
 {
 }
@@ -1689,7 +1672,7 @@ with
 .
 .
 .
-"
+'
 .
 format
 (
@@ -1718,30 +1701,26 @@ dir_list_diff
 =
 compare_listings
 (
-        
 source_dirs
 target_dirs
-"
+'
 Directories
-"
+'
 source
 target
-    
 )
     
 file_list_diff
 =
 compare_listings
 (
-        
 source_files
 target_files
-"
+'
 Files
-"
+'
 source
 target
-    
 )
     
 file_diff
@@ -1763,7 +1742,6 @@ args
 channel
 source
 target
-    
 )
     
 if
@@ -1797,9 +1775,9 @@ logging
 .
 info
 (
-"
+'
 No
 differences
 found
-"
+'
 )

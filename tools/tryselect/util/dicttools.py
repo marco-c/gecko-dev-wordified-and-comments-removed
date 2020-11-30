@@ -14,9 +14,9 @@ dest
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Merge
 dict
@@ -73,9 +73,9 @@ in
 place
 )
     
-"
-"
-"
+'
+'
+'
     
 for
 key
@@ -182,9 +182,9 @@ objects
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Merge
 the
@@ -232,9 +232,9 @@ any
 arguments
 .
     
-"
-"
-"
+'
+'
+'
     
 if
 len

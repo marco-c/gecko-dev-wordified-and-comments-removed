@@ -15,22 +15,13 @@ import
 from
 logging
 import
-(
-    
 getLoggerClass
-    
 addLevelName
-    
 setLoggerClass
-    
 shutdown
-    
 debug
-    
 info
-    
 basicConfig
-)
 import
 json
 _default_level
@@ -74,60 +65,60 @@ _default_level
 addLevelName
 (
 START
-"
+'
 TEST
 -
 START
-"
+'
 )
 addLevelName
 (
 END
-"
+'
 TEST
 -
 END
-"
+'
 )
 addLevelName
 (
 PASS
-"
+'
 TEST
 -
 PASS
-"
+'
 )
 addLevelName
 (
 KNOWN_FAIL
-"
+'
 TEST
 -
 KNOWN
 -
 FAIL
-"
+'
 )
 addLevelName
 (
 FAIL
-"
+'
 TEST
 -
 UNEXPECTED
 -
 FAIL
-"
+'
 )
 addLevelName
 (
 CRASH
-"
+'
 PROCESS
 -
 CRASH
-"
+'
 )
 class
 MozLogger
@@ -439,9 +430,9 @@ params
 .
 get
 (
-"
+'
 _level
-"
+'
 _default_level
 )
         
@@ -455,9 +446,9 @@ int
             
 params
 [
-"
+'
 _level
-"
+'
 ]
 =
 getLevelName
@@ -470,9 +461,9 @@ else
             
 params
 [
-"
+'
 _level
-"
+'
 ]
 =
 level
@@ -503,9 +494,9 @@ _default_level
         
 params
 [
-"
+'
 action
-"
+'
 ]
 =
 action
@@ -516,9 +507,9 @@ params
 .
 get
 (
-"
+'
 _message
-"
+'
 )
         
 self
@@ -530,9 +521,9 @@ message
 extra
 =
 {
-"
+'
 params
-"
+'
 :
 params
 }
@@ -571,9 +562,9 @@ output
 =
 {
             
-"
+'
 _time
-"
+'
 :
 int
 (
@@ -588,17 +579,17 @@ created
 )
 )
             
-"
+'
 _namespace
-"
+'
 :
 record
 .
 name
             
-"
+'
 _level
-"
+'
 :
 getLevelName
 (
@@ -616,9 +607,9 @@ update
 getattr
 (
 record
-"
+'
 params
-"
+'
 {
 }
 )
@@ -633,9 +624,9 @@ output
 .
 get
 (
-"
+'
 _message
-"
+'
 )
 is
 None
@@ -643,9 +634,9 @@ None
             
 output
 [
-"
+'
 _message
-"
+'
 ]
 =
 Formatter
@@ -668,9 +659,9 @@ output
 .
 get
 (
-"
+'
 indent
-"
+'
 )
 )
 class
@@ -726,11 +717,11 @@ max_level_length
 =
 len
 (
-"
+'
 TEST
 -
 START
-"
+'
 )
     
 def
@@ -873,9 +864,9 @@ levelname
         
 sep
 =
-"
+'
 |
-"
+'
 .
 rjust
 (
@@ -884,7 +875,7 @@ pad
         
 fmt
 =
-"
+'
 %
 (
 name
@@ -895,17 +886,17 @@ s
 levelname
 )
 s
-"
+'
 +
 sep
 +
-"
+'
 %
 (
 message
 )
 s
-"
+'
         
 if
 self
@@ -915,13 +906,13 @@ include_timestamp
             
 fmt
 =
-"
+'
 %
 (
 asctime
 )
 s
-"
+'
 +
 fmt
         
@@ -1089,16 +1080,15 @@ handler
 raise
 ValueError
 (
-                
-"
+'
 The
 handler
 parameter
 requires
-"
-                
+'
 +
-"
+                             
+'
 that
 a
 logger
@@ -1106,15 +1096,14 @@ by
 this
 name
 does
-"
-                
+'
 +
-"
+                             
+'
 not
 already
 exist
-"
-            
+'
 )
         
 return

@@ -20,19 +20,25 @@ from
 .
 mozpowerutils
 import
+(
+    
 average_summary
+    
 frequency_summary
+    
 get_logger
+    
 sum_summary
+)
 OSCPU_COMBOS
 =
 {
     
-"
+'
 darwin
 -
 intel
-"
+'
 :
 MacIntelPower
 }
@@ -40,47 +46,47 @@ SUMMARY_METHODS
 =
 {
     
-"
+'
 utilization
-"
+'
 :
 average_summary
     
-"
+'
 power
 -
 usage
-"
+'
 :
 sum_summary
     
-"
+'
 power
 -
 watts
-"
+'
 :
 frequency_summary
     
-"
+'
 frequency
 -
 cpu
-"
+'
 :
 frequency_summary
     
-"
+'
 frequency
 -
 gpu
-"
+'
 :
 frequency_summary
     
-"
+'
 default
-"
+'
 :
 sum_summary
 }
@@ -363,31 +369,29 @@ get_perfherder_data
 def
 __init__
 (
-        
 self
-        
+                 
 android
 =
 False
-        
+                 
 logger_name
 =
-"
+'
 mozpower
-"
-        
+'
+                 
 output_file_path
 =
-"
+'
 power
 -
 testing
-"
-        
+'
+                 
 *
 *
 kwargs
-    
 )
 :
         
@@ -584,6 +588,7 @@ _logger
 .
 error
 (
+                
 "
 Android
 power
@@ -594,6 +599,7 @@ not
 been
 implemented
 "
+            
 )
             
 raise
@@ -629,9 +635,9 @@ lower
 )
             
 if
-"
+'
 intel
-"
+'
 in
 cpu
 :
@@ -640,9 +646,9 @@ self
 .
 _cpu
 =
-"
+'
 intel
-"
+'
             
 else
 :
@@ -651,9 +657,9 @@ self
 .
 _cpu
 =
-"
+'
 arm64
-"
+'
         
 measurer
 =
@@ -661,13 +667,13 @@ None
         
 oscpu_combo
 =
-"
+'
 %
 s
 -
 %
 s
-"
+'
 %
 (
 self
@@ -697,7 +703,6 @@ else
 raise
 OsCpuComboMissingError
 (
-                
 "
 Cannot
 find
@@ -711,7 +716,6 @@ s
 "
 %
 oscpu_combo
-            
 )
         
 if
@@ -743,8 +747,8 @@ errors
 .
 .
 "
-                
 %
+                
 (
 measurer
 .
@@ -943,14 +947,14 @@ Darwin
             
 proc_info_path
 =
-"
+'
 /
 usr
 /
 sbin
 /
 sysctl
-"
+'
             
 command
 =
@@ -1085,8 +1089,8 @@ s
 %
 s
 "
-                    
 %
+                    
 (
 proc_info_path
 str
@@ -1113,12 +1117,12 @@ Linux
             
 proc_info_path
 =
-"
+'
 /
 proc
 /
 cpuinfo
-"
+'
             
 model_re
 =
@@ -1649,15 +1653,16 @@ to
 sum
 "
 %
+                
 datatype
             
 )
             
 datatype
 =
-"
+'
 default
-"
+'
         
 summary_func
 =
@@ -1675,7 +1680,6 @@ values
 def
 get_full_perfherder_data
 (
-        
 self
 framework
 lowerisbetter
@@ -1686,7 +1690,6 @@ alertthreshold
 2
 .
 0
-    
 )
 :
         
@@ -2032,22 +2035,25 @@ suites
 perfherder_data
 =
 {
-"
+            
+'
 framework
-"
+'
 :
 {
-"
+'
 name
-"
+'
 :
 framework
 }
-"
+            
+'
 suites
-"
+'
 :
 suites
+        
 }
         
 for
@@ -2080,9 +2086,9 @@ measurement_type
 ]
             
 if
-"
+'
 values
-"
+'
 not
 in
 dataset
@@ -2127,8 +2133,8 @@ be
 processed
 .
 "
-                    
 %
+                    
 (
 measurement_type
 measurer_name
@@ -2141,27 +2147,31 @@ continue
 settings
 =
 {
-"
+                
+'
 test
-"
+'
 :
-"
+'
 mozpower
-"
-"
+'
+                
+'
 unit
-"
+'
 :
-"
+'
 mWh
-"
-"
+'
+                
+'
 type
-"
+'
 :
-"
+'
 power
-"
+'
+            
 }
             
 for
@@ -2226,8 +2236,8 @@ as
 the
 default
 "
-                        
 %
+                        
 (
 setting
 measurement_type
@@ -2249,9 +2259,9 @@ suite
 =
 {
                 
-"
+'
 name
-"
+'
 :
 "
 %
@@ -2264,56 +2274,56 @@ s
 (
 settings
 [
-"
+'
 test
-"
+'
 ]
 measurement_type
 )
                 
-"
+'
 type
-"
+'
 :
 settings
 [
-"
+'
 type
-"
+'
 ]
                 
-"
+'
 value
-"
+'
 :
 0
                 
-"
+'
 subtests
-"
+'
 :
 subtests
                 
-"
+'
 lowerIsBetter
-"
+'
 :
 lowerisbetter
                 
-"
+'
 unit
-"
+'
 :
 settings
 [
-"
+'
 unit
-"
+'
 ]
                 
-"
+'
 alertThreshold
-"
+'
 :
 alertthreshold
             
@@ -2329,9 +2339,9 @@ measure
 in
 dataset
 [
-"
+'
 values
-"
+'
 ]
 :
                 
@@ -2339,9 +2349,9 @@ value
 =
 dataset
 [
-"
+'
 values
-"
+'
 ]
 [
 measure
@@ -2351,53 +2361,53 @@ subtest
 =
 {
                     
-"
+'
 name
-"
+'
 :
-"
+'
 %
 s
 -
 %
 s
-"
+'
 %
 (
 measurement_type
 measure
 )
                     
-"
+'
 value
-"
+'
 :
 float
 (
 value
 )
                     
-"
+'
 lowerIsBetter
-"
+'
 :
 lowerisbetter
                     
-"
+'
 alertThreshold
-"
+'
 :
 alertthreshold
                     
-"
+'
 unit
-"
+'
 :
 settings
 [
-"
+'
 unit
-"
+'
 ]
                 
 }
@@ -2430,9 +2440,9 @@ values
                 
 suite
 [
-"
+'
 value
-"
+'
 ]
 =
 self

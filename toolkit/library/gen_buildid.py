@@ -34,15 +34,15 @@ buildconfig
 .
 substs
 [
-"
+'
 EXPAND_LIBS_LIST_STYLE
-"
+'
 ]
 =
 =
-"
+'
 linkerscript
-"
+'
 :
             
 def
@@ -166,11 +166,11 @@ join
 buildconfig
 .
 topobjdir
-"
+'
 buildid
 .
 h
-"
+'
 )
 )
     
@@ -180,15 +180,16 @@ pp
 .
 context
 [
-"
+'
 MOZ_BUILDID
-"
+'
 ]
     
 output
 .
 write
 (
+        
 '
 extern
 const
@@ -205,29 +206,28 @@ s
 '
 %
 buildid
+    
 )
     
 return
 set
 (
-        
 os
 .
 path
 .
 join
 (
-"
+'
 build
-"
+'
 o
 )
-        
 for
 o
 in
 objs
-        
+               
 if
 os
 .
@@ -249,8 +249,7 @@ o
 ]
 !
 =
-"
+'
 buildid
-"
-    
+'
 )

@@ -75,6 +75,7 @@ WebIDL
 .
 IDLInterface
 )
+               
 "
 Should
 be
@@ -221,6 +222,7 @@ WebIDL
 .
 IDLInterface
 )
+               
 "
 Should
 be
@@ -295,6 +297,7 @@ WebIDL
 .
 IDLInterface
 )
+               
 "
 Interface
 has
@@ -315,7 +318,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -355,7 +357,6 @@ bar
 "
 "
 "
-    
 )
     
 results
@@ -397,6 +398,7 @@ WebIDL
 .
 IDLInterface
 )
+               
 "
 Should
 be
@@ -419,6 +421,7 @@ WebIDL
 .
 IDLInterface
 )
+               
 "
 Should
 be
@@ -509,7 +512,6 @@ harness
 .
 check
 (
-        
 base
 .
 members
@@ -522,7 +524,6 @@ identifier
 QName
 (
 )
-        
 "
 :
 :
@@ -531,7 +532,7 @@ QNameBase
 :
 foo
 "
-        
+                  
 "
 Member
 has
@@ -539,14 +540,12 @@ the
 right
 QName
 "
-    
 )
     
 harness
 .
 check
 (
-        
 derived
 .
 members
@@ -559,7 +558,6 @@ identifier
 QName
 (
 )
-        
 "
 :
 :
@@ -568,7 +566,7 @@ QNameDerived
 :
 foo
 "
-        
+                  
 "
 Member
 has
@@ -576,14 +574,12 @@ the
 right
 QName
 "
-    
 )
     
 harness
 .
 check
 (
-        
 derived
 .
 members
@@ -596,7 +592,6 @@ identifier
 QName
 (
 )
-        
 "
 :
 :
@@ -605,7 +600,7 @@ QNameDerived
 :
 bar
 "
-        
+                  
 "
 Member
 has
@@ -613,7 +608,6 @@ the
 right
 QName
 "
-    
 )
     
 parser
@@ -635,7 +629,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -659,7 +652,6 @@ A
 "
 "
 "
-        
 )
         
 results
@@ -713,7 +705,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -745,7 +736,6 @@ A
 "
 "
 "
-        
 )
         
 results
@@ -767,7 +757,6 @@ harness
 .
 ok
 (
-        
 threw
 "
 Should
@@ -780,7 +769,6 @@ interface
 inheritance
 chains
 "
-    
 )
     
 parser
@@ -802,7 +790,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -822,7 +809,6 @@ A
 "
 "
 "
-        
 )
         
 results
@@ -844,9 +830,7 @@ harness
 .
 ok
 (
-        
 threw
-        
 "
 Should
 not
@@ -861,7 +845,6 @@ only
 forward
 declared
 "
-    
 )
     
 parser
@@ -876,7 +859,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -937,8 +919,8 @@ arg
 "
 "
 "
-    
 )
+;
     
 results
 =
@@ -947,6 +929,7 @@ parser
 finish
 (
 )
+;
     
 harness
 .
@@ -957,6 +940,7 @@ len
 results
 )
 2
+                  
 "
 Should
 have
@@ -979,7 +963,6 @@ harness
 .
 check
 (
-        
 len
 (
 iface
@@ -987,6 +970,7 @@ iface
 members
 )
 3
+                  
 "
 Should
 have
@@ -996,14 +980,12 @@ with
 partial
 interface
 "
-    
 )
     
 harness
 .
 check
 (
-        
 iface
 .
 members
@@ -1014,11 +996,10 @@ members
 identifier
 .
 name
-        
 "
 x
 "
-        
+                  
 "
 First
 member
@@ -1029,14 +1010,12 @@ with
 partial
 interface
 "
-    
 )
     
 harness
 .
 check
 (
-        
 iface
 .
 members
@@ -1047,11 +1026,10 @@ members
 identifier
 .
 name
-        
 "
 foo
 "
-        
+                  
 "
 Second
 member
@@ -1062,14 +1040,12 @@ with
 partial
 interface
 "
-    
 )
     
 harness
 .
 check
 (
-        
 len
 (
 iface
@@ -1083,9 +1059,8 @@ signatures
 (
 )
 )
-        
 2
-        
+                  
 "
 Should
 have
@@ -1096,14 +1071,12 @@ with
 partial
 interface
 "
-    
 )
     
 harness
 .
 check
 (
-        
 iface
 .
 members
@@ -1114,11 +1087,10 @@ members
 identifier
 .
 name
-        
 "
 y
 "
-        
+                  
 "
 Third
 member
@@ -1129,14 +1101,12 @@ with
 partial
 interface
 "
-    
 )
     
 harness
 .
 check
 (
-        
 len
 (
 iface
@@ -1149,9 +1119,8 @@ signatures
 (
 )
 )
-        
 2
-        
+                  
 "
 Should
 have
@@ -1161,7 +1130,6 @@ with
 partial
 interface
 "
-    
 )
     
 parser
@@ -1176,7 +1144,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -1237,8 +1204,8 @@ foo
 "
 "
 "
-    
 )
+;
     
 results
 =
@@ -1247,17 +1214,18 @@ parser
 finish
 (
 )
+;
     
 harness
 .
 check
 (
-        
 len
 (
 results
 )
 2
+                  
 "
 Should
 have
@@ -1268,7 +1236,6 @@ reversed
 partial
 interface
 "
-    
 )
     
 iface
@@ -1282,16 +1249,14 @@ harness
 .
 check
 (
-        
 len
 (
 iface
 .
 members
 )
-        
 3
-        
+                  
 "
 Should
 have
@@ -1302,14 +1267,12 @@ reversed
 partial
 interface
 "
-    
 )
     
 harness
 .
 check
 (
-        
 iface
 .
 members
@@ -1320,11 +1283,10 @@ members
 identifier
 .
 name
-        
 "
 x
 "
-        
+                  
 "
 First
 member
@@ -1336,14 +1298,12 @@ reversed
 partial
 interface
 "
-    
 )
     
 harness
 .
 check
 (
-        
 iface
 .
 members
@@ -1354,11 +1314,10 @@ members
 identifier
 .
 name
-        
 "
 foo
 "
-        
+                  
 "
 Second
 member
@@ -1370,14 +1329,12 @@ reversed
 partial
 interface
 "
-    
 )
     
 harness
 .
 check
 (
-        
 len
 (
 iface
@@ -1391,9 +1348,8 @@ signatures
 (
 )
 )
-        
 2
-        
+                  
 "
 Should
 have
@@ -1405,14 +1361,12 @@ reversed
 partial
 interface
 "
-    
 )
     
 harness
 .
 check
 (
-        
 iface
 .
 members
@@ -1423,11 +1377,10 @@ members
 identifier
 .
 name
-        
 "
 y
 "
-        
+                  
 "
 Third
 member
@@ -1439,14 +1392,12 @@ reversed
 partial
 interface
 "
-    
 )
     
 harness
 .
 check
 (
-        
 len
 (
 iface
@@ -1459,9 +1410,8 @@ signatures
 (
 )
 )
-        
 2
-        
+                  
 "
 Should
 have
@@ -1472,7 +1422,6 @@ reversed
 partial
 interface
 "
-    
 )
     
 parser
@@ -1494,7 +1443,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1528,7 +1476,6 @@ y
 "
 "
 "
-        
 )
         
 results
@@ -1551,6 +1498,7 @@ harness
 ok
 (
 threw
+               
 "
 Should
 not
@@ -1586,7 +1534,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1622,7 +1569,6 @@ y
 "
 "
 "
-        
 )
         
 results
@@ -1645,6 +1591,7 @@ harness
 ok
 (
 threw
+               
 "
 Must
 have
@@ -1679,7 +1626,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1712,7 +1658,6 @@ y
 "
 "
 "
-        
 )
         
 results
@@ -1734,9 +1679,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 not
@@ -1748,13 +1692,12 @@ between
 partial
 interface
 "
-        
+               
 "
 and
 other
 object
 "
-    
 )
     
 parser
@@ -1776,7 +1719,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1808,7 +1750,6 @@ y
 "
 "
 "
-        
 )
         
 results
@@ -1830,8 +1771,8 @@ harness
 .
 ok
 (
-        
 threw
+               
 "
 Should
 not
@@ -1842,12 +1783,12 @@ collision
 between
 interface
 "
+               
 "
 and
 other
 object
 "
-    
 )
     
 parser
@@ -1869,7 +1810,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1892,7 +1832,6 @@ A
 "
 "
 "
-        
 )
         
 results
@@ -1914,9 +1853,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 not
@@ -1928,13 +1866,12 @@ between
 external
 interface
 "
-        
+               
 "
 and
 other
 object
 "
-    
 )
     
 parser
@@ -1956,7 +1893,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1981,7 +1917,6 @@ A
 "
 "
 "
-        
 )
         
 results
@@ -2003,9 +1938,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 not
@@ -2017,11 +1951,11 @@ between
 external
 interface
 "
+               
 "
 and
 interface
 "
-    
 )
     
 parser
@@ -2036,7 +1970,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -2052,7 +1985,6 @@ A
 "
 "
 "
-    
 )
     
 results
@@ -2067,7 +1999,6 @@ harness
 .
 ok
 (
-        
 len
 (
 results
@@ -2076,6 +2007,7 @@ results
 =
 1
 and
+               
 isinstance
 (
 results
@@ -2086,7 +2018,7 @@ WebIDL
 .
 IDLExternalInterface
 )
-        
+               
 "
 Should
 allow
@@ -2096,10 +2028,10 @@ between
 external
 interface
 "
+               
 "
 declarations
 "
-    
 )
     
 parser
@@ -2121,7 +2053,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2146,7 +2077,6 @@ y
 "
 "
 "
-        
 )
         
 results
@@ -2169,6 +2099,7 @@ harness
 ok
 (
 threw
+               
 "
 Should
 not
@@ -2193,7 +2124,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -2246,8 +2176,8 @@ E
 "
 "
 "
-    
 )
+;
     
 results
 =
@@ -2256,12 +2186,12 @@ parser
 finish
 (
 )
+;
     
 harness
 .
 check
 (
-        
 results
 [
 1
@@ -2273,6 +2203,7 @@ legacyWindowAliases
 A
 "
 ]
+                  
 "
 Should
 support
@@ -2280,14 +2211,12 @@ a
 single
 identifier
 "
-    
 )
     
 harness
 .
 check
 (
-        
 results
 [
 2
@@ -2302,6 +2231,7 @@ C
 D
 "
 ]
+                  
 "
 Should
 support
@@ -2309,7 +2239,6 @@ an
 identifier
 list
 "
-    
 )
     
 parser
@@ -2331,7 +2260,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2349,7 +2277,6 @@ A
 "
 "
 "
-        
 )
         
 results
@@ -2372,6 +2299,7 @@ harness
 ok
 (
 threw
+               
 "
 Should
 not
@@ -2404,7 +2332,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2427,7 +2354,6 @@ A
 "
 "
 "
-        
 )
         
 results
@@ -2450,6 +2376,7 @@ harness
 ok
 (
 threw
+               
 "
 Should
 not
@@ -2482,7 +2409,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2529,7 +2455,6 @@ B
 "
 "
 "
-        
 )
         
 results
@@ -2551,8 +2476,8 @@ harness
 .
 ok
 (
-        
 threw
+               
 "
 Should
 not
@@ -2566,7 +2491,6 @@ with
 other
 identifiers
 "
-    
 )
     
 parser
@@ -2588,7 +2512,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2635,7 +2558,6 @@ A
 "
 "
 "
-        
 )
         
 results
@@ -2657,8 +2579,8 @@ harness
 .
 ok
 (
-        
 threw
+               
 "
 Should
 not
@@ -2672,7 +2594,6 @@ with
 other
 identifiers
 "
-    
 )
     
 parser
@@ -2694,7 +2615,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2744,7 +2664,6 @@ C
 "
 "
 "
-        
 )
         
 results
@@ -2766,8 +2685,8 @@ harness
 .
 ok
 (
-        
 threw
+               
 "
 Should
 not
@@ -2781,5 +2700,4 @@ with
 other
 identifiers
 "
-    
 )

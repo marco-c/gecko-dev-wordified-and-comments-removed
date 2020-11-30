@@ -293,15 +293,15 @@ __name__
 .
 replace
 (
-"
+'
 Backend
-"
-"
-"
+'
+'
+'
 )
-            
 +
-"
+            
+'
 backend
 executed
 in
@@ -314,9 +314,9 @@ execution_time
 s
 \
 n
-"
+'
             
-"
+'
 {
 total
 :
@@ -326,9 +326,9 @@ total
 backend
 files
 ;
-"
+'
             
-"
+'
 {
 created
 :
@@ -336,9 +336,9 @@ d
 }
 created
 ;
-"
+'
             
-"
+'
 {
 updated
 :
@@ -346,9 +346,9 @@ d
 }
 updated
 ;
-"
+'
             
-"
+'
 {
 unchanged
 :
@@ -356,16 +356,16 @@ d
 }
 unchanged
 ;
-"
+'
             
-"
+'
 {
 deleted
 :
 d
 }
 deleted
-"
+'
             
 execution_time
 =
@@ -383,6 +383,7 @@ self
 .
 _updated_count
 +
+            
 self
 .
 _unchanged_count
@@ -410,7 +411,6 @@ deleted
 self
 .
 _deleted_count
-        
 )
     
 def
@@ -536,25 +536,24 @@ mozpath
 .
 join
 (
-            
 self
 .
 environment
 .
 topobjdir
-"
+'
 backend
 .
 %
 s
-"
+'
+                                 
 %
 self
 .
 __class__
 .
 __name__
-        
 )
         
 backend_output_list
@@ -587,13 +586,13 @@ backend_output_list
 .
 update
 (
-                    
 mozpath
 .
 normsep
 (
 p
 )
+                                           
 for
 p
 in
@@ -606,7 +605,6 @@ read
 splitlines
 (
 )
-                
 )
         
 for
@@ -624,6 +622,7 @@ time
 )
             
 if
+(
 not
 self
 .
@@ -632,25 +631,27 @@ consume_object
 obj
 )
 and
+                    
 not
 isinstance
 (
 self
 PartialBackend
 )
+)
 :
                 
 raise
 Exception
 (
-"
+'
 Unhandled
 object
 of
 type
 %
 s
-"
+'
 %
 type
 (
@@ -672,17 +673,20 @@ time
 obj_start
             
 if
+(
 isinstance
 (
 obj
 ContextDerived
 )
 and
+                    
 not
 isinstance
 (
 self
 PartialBackend
+)
 )
 :
                 
@@ -702,9 +706,9 @@ backend_input_files
 =
 set
 (
-            
 iter_modules_in_path
 (
+            
 self
 .
 environment
@@ -716,7 +720,6 @@ environment
 .
 topobjdir
 )
-        
 )
         
 finished_start
@@ -785,16 +788,16 @@ open
 full_path
 mode
 =
-"
+'
 r
-"
+'
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 )
 as
 existing
@@ -829,7 +832,6 @@ splitlines
 (
 )
 None
-                        
 )
             
 except
@@ -926,10 +928,10 @@ fh
 .
 write
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -956,9 +958,9 @@ with
 open
 (
 list_file
-"
+'
 a
-"
+'
 )
 :
                     
@@ -975,12 +977,12 @@ self
 .
 _write_file
 (
-"
+'
 %
 s
 .
 in
-"
+'
 %
 list_file
 )
@@ -992,16 +994,16 @@ fh
 .
 write
 (
-                
-"
+'
 \
 n
-"
+'
 .
 join
 (
 sorted
 (
+                
 mozpath
 .
 normsep
@@ -1016,7 +1018,6 @@ self
 backend_input_files
 )
 )
-            
 )
     
 abstractmethod
@@ -1309,20 +1310,20 @@ config
 .
 substs
 [
-"
+'
 MOZ_BUILD_APP
-"
+'
 ]
         
 if
 app
 =
 =
-"
+'
 mobile
 /
 android
-"
+'
 :
             
 return
@@ -1336,21 +1337,21 @@ join
 config
 .
 topobjdir
-"
+'
 dist
-"
-"
+'
+'
 bin
-"
+'
 )
         
 if
 app
 =
 =
-"
+'
 browser
-"
+'
 :
             
 root
@@ -1362,15 +1363,15 @@ join
 config
 .
 topobjdir
-"
+'
 dist
-"
-"
+'
+'
 bin
-"
-"
+'
+'
 browser
-"
+'
 )
         
 purgecaches_dirs
@@ -1383,22 +1384,22 @@ if
 app
 =
 =
-"
+'
 browser
-"
+'
 and
-"
+'
 cocoa
-"
+'
 =
 =
 config
 .
 substs
 [
-"
+'
 MOZ_WIDGET_TOOLKIT
-"
+'
 ]
 :
             
@@ -1408,36 +1409,32 @@ mozpath
 .
 join
 (
-                
 config
 .
 topobjdir
-                
-"
+'
 dist
-"
-                
+'
+                                     
 config
 .
 substs
 [
-"
+'
 MOZ_MACBUNDLE_NAME
-"
+'
 ]
-                
-"
+                                     
+'
 Contents
-"
-                
-"
+'
+'
 Resources
-"
-                
-"
+'
+                                     
+'
 browser
-"
-            
+'
 )
             
 purgecaches_dirs
@@ -1461,14 +1458,14 @@ mozpath
 join
 (
 dir
-"
+'
 .
 purgecaches
-"
+'
 )
-"
+'
 wt
-"
+'
 )
 as
 f
@@ -1478,10 +1475,10 @@ f
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
     
 def
@@ -1645,9 +1642,9 @@ fh
 None
 readmode
 =
-"
+'
 rU
-"
+'
 )
 :
         
@@ -1731,7 +1728,6 @@ fh
 =
 FileAvoidWrite
 (
-                
 path
 capture_diff
 =
@@ -1741,10 +1737,10 @@ dry_run
 self
 .
 dry_run
+                                
 readmode
 =
 readmode
-            
 )
         
 else
@@ -1805,7 +1801,6 @@ _backend_output_files
 .
 add
 (
-            
 mozpath
 .
 relpath
@@ -1819,7 +1814,6 @@ environment
 .
 topobjdir
 )
-        
 )
         
 existed
@@ -1893,9 +1887,9 @@ obj
 )
 :
         
-"
-"
-"
+'
+'
+'
 Returns
 a
 preprocessor
@@ -1925,9 +1919,9 @@ the
 current
 environment
 .
-"
-"
-"
+'
+'
+'
         
 pp
 =
@@ -1952,13 +1946,12 @@ context
 .
 update
 (
-            
 {
-                
+            
 k
 :
-"
-"
+'
+'
 .
 join
 (
@@ -1972,7 +1965,7 @@ list
 )
 else
 v
-                
+            
 for
 k
 v
@@ -1987,9 +1980,8 @@ config
 .
 substs
 )
-            
-}
         
+}
 )
         
 pp
@@ -2044,9 +2036,9 @@ obj
 topsrcdir
 )
 or
-"
+'
 .
-"
+'
             
 DEPTH
 =
@@ -2066,11 +2058,10 @@ obj
 output_path
 )
 )
-            
 or
-"
+'
 .
-"
+'
         
 )
         
@@ -2078,9 +2069,9 @@ pp
 .
 do_filter
 (
-"
+'
 attemptSubstitution
-"
+'
 )
         
 pp
@@ -2357,27 +2348,22 @@ for
 attr
 in
 (
-                
-"
+'
 _execution_time
-"
-                
-"
+'
+'
 _created_count
-"
-                
-"
+'
+'
 _updated_count
-"
-                
-"
+'
+                         
+'
 _unchanged_count
-"
-                
-"
+'
+'
 _deleted_count
-"
-            
+'
 )
 :
                 
@@ -2385,6 +2371,7 @@ setattr
 (
 self
 attr
+                        
 sum
 (
 getattr
@@ -2424,12 +2411,12 @@ for
 attr
 in
 (
-"
+'
 backend_input_files
-"
-"
+'
+'
 _backend_output_files
-"
+'
 )
 :
                     
@@ -2452,18 +2439,17 @@ attr
     
 name
 =
-"
+'
 +
-"
+'
 .
 join
 (
-        
 itertools
 .
 chain
 (
-            
+        
 (
 b
 .
@@ -2471,11 +2457,11 @@ __name__
 .
 replace
 (
-"
+'
 Backend
-"
-"
-"
+'
+'
+'
 )
 for
 b
@@ -2487,7 +2473,7 @@ backends
 1
 ]
 )
-            
+        
 (
 b
 .
@@ -2502,9 +2488,8 @@ backends
 :
 ]
 )
-        
-)
     
+)
 )
     
 return

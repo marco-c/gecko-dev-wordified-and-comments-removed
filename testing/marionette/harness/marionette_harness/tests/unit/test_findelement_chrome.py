@@ -129,7 +129,6 @@ marionette
 .
 execute_script
 (
-            
 "
 return
 window
@@ -144,7 +143,6 @@ textInput
 )
 ;
 "
-        
 )
         
 found_el
@@ -197,7 +195,6 @@ marionette
 .
 execute_script
 (
-            
 "
 return
 window
@@ -212,7 +209,6 @@ textInput
 )
 ;
 "
-        
 )
         
 found_el
@@ -428,7 +424,6 @@ vbox
 ]
 ;
 "
-        
 )
         
 found_el
@@ -451,9 +446,9 @@ self
 .
 assertEquals
 (
-"
+'
 vbox
-"
+'
 found_el
 .
 tag_name
@@ -511,7 +506,6 @@ asdf
 ]
 ;
 "
-        
 )
         
 found_el
@@ -564,7 +558,6 @@ marionette
 .
 execute_script
 (
-            
 "
 return
 window
@@ -579,7 +572,6 @@ testBox
 )
 ;
 "
-        
 )
         
 found_el
@@ -643,19 +635,16 @@ self
 .
 assertRaises
 (
-            
 NoSuchElementException
-            
+                          
 self
 .
 marionette
 .
 find_element
-            
 By
 .
 ID
-            
 "
 I
 '
@@ -665,7 +654,6 @@ on
 the
 page
 "
-        
 )
         
 self
@@ -682,19 +670,16 @@ self
 .
 assertRaises
 (
-            
 NoSuchElementException
-            
+                          
 self
 .
 marionette
 .
 find_element
-            
 By
 .
 ID
-            
 "
 I
 '
@@ -704,7 +689,6 @@ on
 the
 page
 "
-        
 )
     
 def
@@ -718,7 +702,6 @@ self
 .
 assertRaises
 (
-            
 NoSuchElementException
 self
 .
@@ -731,7 +714,6 @@ ID
 "
 myid
 "
-        
 )
         
 self
@@ -750,7 +732,6 @@ marionette
 .
 execute_script
 (
-            
 "
 "
 "
@@ -810,7 +791,6 @@ b
 "
 "
 "
-        
 )
         
 self
@@ -842,7 +822,6 @@ marionette
 .
 execute_script
 (
-            
 "
 "
 "
@@ -881,5 +860,4 @@ myid
 "
 "
 "
-        
 )

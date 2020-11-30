@@ -62,39 +62,39 @@ all_formatters
 =
 {
     
-"
+'
 compact
-"
+'
 :
 CompactFormatter
     
-"
+'
 json
-"
+'
 :
 JSONFormatter
     
-"
+'
 stylish
-"
+'
 :
 StylishFormatter
     
-"
+'
 summary
-"
+'
 :
 SummaryFormatter
     
-"
+'
 treeherder
-"
+'
 :
 TreeherderFormatter
     
-"
+'
 unix
-"
+'
 :
 UnixFormatter
 }

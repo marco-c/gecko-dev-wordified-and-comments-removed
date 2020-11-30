@@ -1333,21 +1333,18 @@ period
 "
     
 if
-(
-        
 sys
 .
 platform
 in
 (
-"
+'
 win32
-"
-"
+'
+'
 cygwin
-"
+'
 )
-        
 and
 len
 (
@@ -1356,18 +1353,18 @@ path
 >
 =
 3
-        
 and
+\
+            
 path
 [
 1
 ]
 =
 =
-"
+'
 :
-"
-        
+'
 and
 path
 [
@@ -1375,12 +1372,10 @@ path
 ]
 =
 =
-"
+'
 \
 \
-"
-    
-)
+'
 :
         
 path
@@ -2327,6 +2322,7 @@ None
 exts
 =
 None
+          
 extra_search_dirs
 =
 (
@@ -2586,9 +2582,9 @@ environ
 .
 get
 (
-"
+'
 PATH
-"
+'
 os
 .
 defpath
@@ -3535,15 +3531,15 @@ re
 .
 escape
 (
-"
+'
 /
-"
+'
 )
 =
 =
-"
+'
 /
-"
+'
 :
     
 MATCH_STAR_STAR_RE
@@ -3553,7 +3549,7 @@ re
 compile
 (
 r
-"
+'
 (
 ^
 |
@@ -3568,7 +3564,7 @@ r
 \
 *
 /
-"
+'
 )
     
 MATCH_STAR_STAR_END_RE
@@ -3578,7 +3574,7 @@ re
 compile
 (
 r
-"
+'
 (
 ^
 |
@@ -3592,7 +3588,7 @@ r
 \
 \
 *
-"
+'
 )
 else
 :
@@ -3604,7 +3600,7 @@ re
 compile
 (
 r
-"
+'
 (
 ^
 |
@@ -3625,7 +3621,7 @@ r
 \
 \
 /
-"
+'
 )
     
 MATCH_STAR_STAR_END_RE
@@ -3635,7 +3631,7 @@ re
 compile
 (
 r
-"
+'
 (
 ^
 |
@@ -3652,7 +3648,7 @@ r
 \
 \
 *
-"
+'
 )
 def
 match
@@ -3662,9 +3658,9 @@ pattern
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Return
 whether
@@ -3798,9 +3794,9 @@ or
 /
 bar
     
-"
-"
-"
+'
+'
+'
     
 if
 not
@@ -3833,7 +3829,7 @@ MATCH_STAR_STAR_RE
 sub
 (
 r
-"
+'
 \
 1
 (
@@ -3844,7 +3840,7 @@ r
 /
 )
 ?
-"
+'
 p
 )
         
@@ -3855,7 +3851,7 @@ MATCH_STAR_STAR_END_RE
 sub
 (
 r
-"
+'
 (
 ?
 :
@@ -3865,7 +3861,7 @@ r
 +
 )
 ?
-"
+'
 p
 )
         
@@ -3876,20 +3872,20 @@ p
 replace
 (
 r
-"
+'
 \
 *
-"
-"
+'
+'
 [
 ^
 /
 ]
 *
-"
+'
 )
 +
-"
+'
 (
 ?
 :
@@ -3898,7 +3894,7 @@ r
 *
 )
 ?
-"
+'
         
 re_cache
 [

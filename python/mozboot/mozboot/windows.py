@@ -95,21 +95,21 @@ gotValue
 =
 iswow64process2
 (
-        
 currentProcess
+                               
 ctypes
 .
 byref
 (
 processMachine
 )
+                               
 ctypes
 .
 byref
 (
 nativeMachine
 )
-    
 )
     
 if
@@ -134,9 +134,9 @@ BaseBootstrapper
 )
 :
     
-"
-"
-"
+'
+'
+'
 Bootstrapper
 for
 msys2
@@ -147,15 +147,15 @@ building
 in
 Windows
 .
-"
-"
-"
+'
+'
+'
     
 SYSTEM_PACKAGES
 =
 [
         
-"
+'
 mingw
 -
 w64
@@ -163,9 +163,9 @@ w64
 x86_64
 -
 make
-"
+'
         
-"
+'
 mingw
 -
 w64
@@ -173,39 +173,39 @@ w64
 x86_64
 -
 perl
-"
+'
         
-"
+'
 patch
-"
+'
         
-"
+'
 patchutils
-"
+'
         
-"
+'
 diffutils
-"
+'
         
-"
+'
 autoconf2
 .
 13
-"
+'
         
-"
+'
 tar
-"
+'
         
-"
+'
 zip
-"
+'
         
-"
+'
 unzip
-"
+'
         
-"
+'
 mingw
 -
 w64
@@ -213,9 +213,9 @@ w64
 x86_64
 -
 toolchain
-"
+'
         
-"
+'
 mingw
 -
 w64
@@ -223,7 +223,7 @@ w64
 i686
 -
 toolchain
-"
+'
     
 ]
     
@@ -231,7 +231,7 @@ BROWSER_PACKAGES
 =
 [
         
-"
+'
 mingw
 -
 w64
@@ -239,9 +239,9 @@ w64
 x86_64
 -
 nasm
-"
+'
         
-"
+'
 mingw
 -
 w64
@@ -249,9 +249,9 @@ w64
 x86_64
 -
 yasm
-"
+'
         
-"
+'
 mingw
 -
 w64
@@ -259,16 +259,18 @@ w64
 i686
 -
 nsis
-"
+'
     
 ]
     
 MOBILE_ANDROID_COMMON_PACKAGES
 =
 [
-"
+        
+'
 wget
-"
+'
+    
 ]
     
 def
@@ -282,40 +284,34 @@ kwargs
 :
         
 if
-(
-            
-"
+'
 MOZ_WINDOWS_BOOTSTRAP
-"
+'
 not
 in
 os
 .
 environ
-            
 or
 os
 .
 environ
 [
-"
+'
 MOZ_WINDOWS_BOOTSTRAP
-"
+'
 ]
 !
 =
-"
+'
 1
-"
-        
-)
+'
 :
             
 raise
 NotImplementedError
 (
-                
-"
+'
 Bootstrap
 support
 for
@@ -325,9 +321,9 @@ under
 development
 .
 For
-"
-                
-"
+'
+                                      
+'
 now
 use
 MozillaBuild
@@ -338,9 +334,9 @@ a
 build
 environment
 on
-"
-                
-"
+'
+                                      
+'
 Windows
 .
 If
@@ -350,16 +346,15 @@ testing
 Windows
 Bootstrap
 support
-"
-                
-"
+'
+                                      
+'
 try
 export
 MOZ_WINDOWS_BOOTSTRAP
 =
 1
-"
-            
+'
 )
         
 BaseBootstrapper
@@ -376,17 +371,16 @@ if
 not
 which
 (
-"
+'
 pacman
-"
+'
 )
 :
             
 raise
 NotImplementedError
 (
-                
-"
+'
 The
 Windows
 bootstrapper
@@ -395,9 +389,9 @@ works
 with
 msys2
 with
-"
-                
-"
+'
+                                      
+'
 pacman
 .
 Get
@@ -413,13 +407,12 @@ github
 .
 io
 /
-"
-            
+'
 )
         
 print
 (
-"
+'
 Using
 an
 experimental
@@ -427,7 +420,7 @@ bootstrapper
 for
 Windows
 .
-"
+'
 )
     
 def
@@ -459,9 +452,9 @@ self
 .
 pip_install
 (
-"
+'
 mercurial
-"
+'
 )
     
 def
@@ -493,8 +486,7 @@ mozconfig_builder
 raise
 NotImplementedError
 (
-            
-"
+'
 We
 do
 not
@@ -506,8 +498,7 @@ Windows
 .
 Sorry
 !
-"
-        
+'
 )
     
 def
@@ -521,8 +512,7 @@ mozconfig_builder
 raise
 NotImplementedError
 (
-            
-"
+'
 We
 do
 not
@@ -534,8 +524,7 @@ Windows
 .
 Sorry
 !
-"
-        
+'
 )
     
 def
@@ -562,7 +551,6 @@ checkout_root
 static_analysis
 .
 WINDOWS_CLANG_TIDY
-        
 )
     
 def
@@ -583,8 +571,7 @@ is_aarch64_host
 raise
 Exception
 (
-                
-"
+'
 You
 should
 not
@@ -594,9 +581,9 @@ desktop
 builds
 on
 an
-"
-                
-"
+'
+                            
+'
 AArch64
 device
 .
@@ -607,9 +594,9 @@ to
 do
 artifact
 builds
-"
-                
-"
+'
+                            
+'
 instead
 please
 choose
@@ -617,16 +604,15 @@ the
 appropriate
 artifact
 build
-"
-                
-"
+'
+                            
+'
 option
 when
 beginning
 bootstrap
 .
-"
-            
+'
 )
         
 from
@@ -649,13 +635,11 @@ self
 .
 install_toolchain_artifact
 (
-            
 state_dir
 checkout_root
 stylo
 .
 WINDOWS_CBINDGEN
-        
 )
     
 def
@@ -715,6 +699,7 @@ self
 .
 install_toolchain_artifact
 (
+            
 state_dir
 checkout_root
 node_artifact
@@ -763,19 +748,19 @@ self
 command
 =
 [
-"
+'
 pacman
-"
-"
+'
+'
 -
 -
 sync
-"
-"
+'
+'
 -
 -
 refresh
-"
+'
 ]
         
 self
@@ -795,24 +780,24 @@ self
 command
 =
 [
-"
+'
 pacman
-"
-"
+'
+'
 -
 -
 sync
-"
-"
+'
+'
 -
 -
 refresh
-"
-"
+'
+'
 -
 -
 sysupgrade
-"
+'
 ]
         
 self
@@ -834,19 +819,19 @@ packages
 command
 =
 [
-"
+'
 pacman
-"
-"
+'
+'
 -
 -
 sync
-"
-"
+'
+'
 -
 -
 needed
-"
+'
 ]
         
 if
@@ -859,11 +844,11 @@ command
 .
 append
 (
-"
+'
 -
 -
 noconfirm
-"
+'
 )
         
 command
@@ -892,17 +877,17 @@ packages
 command
 =
 [
-"
+'
 pip
-"
-"
+'
+'
 install
-"
-"
+'
+'
 -
 -
 upgrade
-"
+'
 ]
         
 command

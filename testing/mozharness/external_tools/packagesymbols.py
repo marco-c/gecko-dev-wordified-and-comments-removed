@@ -53,11 +53,13 @@ subprocess
 Popen
 (
 command
+                            
 stdout
 =
 subprocess
 .
 PIPE
+                            
 stderr
 =
 subprocess
@@ -165,8 +167,8 @@ splitlines
 .
 split
 (
-"
-"
+'
+'
 4
 )
     
@@ -202,10 +204,10 @@ lower
 .
 endswith
 (
-"
+'
 .
 pdb
-"
+'
 )
 :
         
@@ -218,10 +220,10 @@ debug_file
 4
 ]
 +
-"
+'
 .
 sym
-"
+'
     
 else
 :
@@ -230,10 +232,10 @@ sym_file
 =
 debug_file
 +
-"
+'
 .
 sym
-"
+'
     
 filename
 =
@@ -283,34 +285,35 @@ parser
 .
 add_argument
 (
-"
+'
 dump_syms
-"
+'
 help
 =
-"
+'
 Path
 to
 dump_syms
 binary
-"
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 files
-"
+'
 nargs
 =
-"
+'
 +
-"
+'
+                        
 help
 =
-"
+'
 Path
 to
 files
@@ -318,33 +321,31 @@ to
 dump
 symbols
 from
-"
+'
 )
     
 parser
 .
 add_argument
 (
-        
-"
+'
 -
 -
 symbol
 -
 zip
-"
-        
+'
 default
 =
-"
+'
 symbols
 .
 zip
-"
-        
+'
+                        
 help
 =
-"
+'
 Name
 of
 zip
@@ -354,37 +355,36 @@ put
 dumped
 symbols
 in
-"
-    
+'
 )
     
 parser
 .
 add_argument
 (
-        
-"
+'
 -
 -
 no
 -
 binaries
-"
-        
+'
+                        
 action
 =
-"
+'
 store_true
-"
-        
+'
+                        
 default
 =
 False
-        
+                        
 help
 =
-"
+'
 Don
+\
 '
 t
 store
@@ -392,8 +392,7 @@ binaries
 in
 zip
 file
-"
-    
+'
 )
     
 args
@@ -416,9 +415,9 @@ ZipFile
 args
 .
 symbol_zip
-"
+'
 w
-"
+'
 zipfile
 .
 ZIP_DEFLATED
@@ -458,11 +457,11 @@ contents
                 
 print
 (
-"
+'
 Error
 dumping
 symbols
-"
+'
 )
                 
 sys
@@ -507,7 +506,7 @@ count
     
 print
 (
-"
+'
 Added
 %
 d
@@ -515,7 +514,7 @@ files
 to
 %
 s
-"
+'
 %
 (
 count
@@ -528,9 +527,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

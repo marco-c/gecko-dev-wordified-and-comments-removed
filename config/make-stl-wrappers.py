@@ -33,9 +33,9 @@ template
 open
 (
 template_file
-"
+'
 r
-"
+'
 )
 .
 read

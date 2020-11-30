@@ -72,7 +72,6 @@ marionette
 .
 execute_script
 (
-                
 "
 "
 "
@@ -117,7 +116,6 @@ appBuildID
 "
 "
 "
-            
 )
             
 self
@@ -130,7 +128,6 @@ marionette
 .
 execute_script
 (
-                
 "
 "
 "
@@ -196,7 +193,6 @@ toLowerCase
 "
 "
 "
-            
 )
             
 self
@@ -223,7 +219,6 @@ version
 '
 )
 "
-            
 )
     
 def
@@ -476,7 +471,6 @@ self
 .
 assertDictEqual
 (
-            
 self
 .
 caps
@@ -485,24 +479,26 @@ caps
 timeouts
 "
 ]
+                             
 {
 "
 implicit
 "
 :
 0
+                              
 "
 pageLoad
 "
 :
 300000
+                              
 "
 script
 "
 :
 30000
 }
-        
 )
         
 self
@@ -645,8 +641,6 @@ fennec
                 
 current_profile
 =
-(
-                    
 self
 .
 marionette
@@ -660,8 +654,6 @@ device
 app_ctx
 .
 remote_profile
-                
-)
             
 else
 :
@@ -678,7 +670,6 @@ self
 .
 assertEqual
 (
-                
 os
 .
 path
@@ -713,7 +704,6 @@ current_profile
 lower
 (
 )
-            
 )
         
 self
@@ -963,17 +953,15 @@ self
 .
 assertNotIn
 (
-            
 "
 {
 "
-            
 self
 .
 marionette
 .
 session_id
-            
+                         
 "
 Session
 ID
@@ -991,13 +979,13 @@ it
 .
 format
 (
+                             
 self
 .
 marionette
 .
 session_id
 )
-        
 )
 class
 TestCapabilityMatching
@@ -1229,7 +1217,6 @@ self
 .
 assertEqual
 (
-                
 self
 .
 marionette
@@ -1241,7 +1228,6 @@ pageLoadStrategy
 "
 ]
 strategy
-            
 )
         
 for
@@ -1283,12 +1269,10 @@ self
 .
 assertRaisesRegexp
 (
-                
 SessionNotCreatedException
 "
 InvalidArgumentError
 "
-            
 )
 :
                 
@@ -1351,12 +1335,10 @@ self
 .
 assertRaisesRegexp
 (
-                
 SessionNotCreatedException
 "
 InvalidArgumentError
 "
-            
 )
 :
                 
@@ -1404,12 +1386,10 @@ self
 .
 assertRaisesRegexp
 (
-                
 SessionNotCreatedException
 "
 InvalidArgumentError
 "
-            
 )
 :
                 
@@ -1581,7 +1561,6 @@ self
 .
 assertDictEqual
 (
-            
 self
 .
 marionette
@@ -1595,7 +1574,6 @@ GetTimeouts
 "
 )
 timeouts
-        
 )
     
 def
@@ -1701,7 +1679,6 @@ self
 .
 assertTrue
 (
-            
 self
 .
 marionette
@@ -1712,7 +1689,6 @@ session_capabilities
 strictFileInteractability
 "
 ]
-        
 )
         
 self
@@ -1754,7 +1730,6 @@ self
 .
 assertFalse
 (
-            
 self
 .
 marionette
@@ -1765,7 +1740,6 @@ session_capabilities
 strictFileInteractability
 "
 ]
-        
 )
     
 def
@@ -1853,7 +1827,6 @@ self
 .
 assertEqual
 (
-                
 self
 .
 marionette
@@ -1864,9 +1837,8 @@ session_capabilities
 unhandledPromptBehavior
 "
 ]
-                
+                             
 behavior
-            
 )
         
 self
@@ -1887,7 +1859,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -1898,13 +1869,12 @@ session_capabilities
 unhandledPromptBehavior
 "
 ]
-            
+                         
 "
 dismiss
 and
 notify
 "
-        
 )
         
 self
@@ -1954,12 +1924,10 @@ self
 .
 assertRaisesRegexp
 (
-                
 SessionNotCreatedException
 "
 InvalidArgumentError
 "
-            
 )
 :
                 

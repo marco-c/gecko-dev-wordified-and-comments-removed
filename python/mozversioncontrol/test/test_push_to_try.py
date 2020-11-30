@@ -73,9 +73,9 @@ monkeypatch
 setattr
 (
 subprocess
-"
+'
 check_output
-"
+'
 fake_run
 )
     
@@ -84,9 +84,9 @@ monkeypatch
 setattr
 (
 subprocess
-"
+'
 check_call
-"
+'
 fake_run
 )
     
@@ -109,9 +109,9 @@ repo
 vcs
 =
 =
-"
+'
 hg
-"
+'
 :
         
 expected
@@ -120,29 +120,29 @@ expected
             
 (
 tool
-"
+'
 push
 -
 to
 -
 try
-"
-"
+'
+'
 -
 m
-"
+'
 commit_message
 )
             
 (
 tool
-"
+'
 revert
-"
-"
+'
+'
 -
 a
-"
+'
 )
         
 ]
@@ -156,63 +156,53 @@ expected
             
 (
 tool
-"
+'
 cinnabar
-"
-"
+'
+'
 -
 -
 version
-"
+'
 )
             
 (
-                
 tool
-                
-"
+'
 -
 c
-"
-                
-"
+'
+'
 commit
 .
 gpgSign
 =
 false
-"
-                
-"
+'
+'
 commit
-"
-                
-"
+'
+'
 -
 -
 allow
 -
 empty
-"
-                
-"
+'
+                   
+'
 -
 m
-"
-                
+'
 commit_message
-            
 )
             
 (
-                
 tool
-                
-"
+'
 push
-"
-                
-"
+'
+'
 hg
 :
 :
@@ -227,9 +217,9 @@ mozilla
 org
 /
 try
-"
-                
-"
+'
+                   
+'
 +
 HEAD
 :
@@ -242,19 +232,18 @@ branches
 default
 /
 tip
-"
-            
+'
 )
             
 (
 tool
-"
+'
 reset
-"
-"
+'
+'
 HEAD
 ~
-"
+'
 )
         
 ]
@@ -303,9 +292,9 @@ repo
 vcs
 !
 =
-"
+'
 git
-"
+'
 :
         
 return
@@ -343,9 +332,9 @@ args
 ]
 =
 =
-"
+'
 cinnabar
-"
+'
 :
             
 raise
@@ -372,9 +361,9 @@ monkeypatch
 setattr
 (
 vcs
-"
+'
 _run
-"
+'
 cinnabar_raises
 )
     
@@ -400,9 +389,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

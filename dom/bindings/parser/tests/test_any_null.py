@@ -17,7 +17,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -38,7 +37,6 @@ foo
 "
 "
 "
-        
 )
         
 results

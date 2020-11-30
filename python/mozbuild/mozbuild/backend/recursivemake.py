@@ -40,7 +40,10 @@ mozpack
 .
 manifests
 import
+(
+    
 InstallManifest
+)
 import
 mozpack
 .
@@ -223,105 +226,105 @@ keys
 -
 {
     
-"
+'
 XPI_NAME
-"
+'
     
-"
+'
 USE_EXTENSION_MANIFEST
-"
+'
     
-"
+'
 CFLAGS
-"
+'
     
-"
+'
 CXXFLAGS
-"
+'
 }
 DEPRECATED_VARIABLES
 =
 [
     
-"
+'
 ALLOW_COMPILER_WARNINGS
-"
+'
     
-"
+'
 EXPORT_LIBRARY
-"
+'
     
-"
+'
 EXTRA_LIBS
-"
+'
     
-"
+'
 FAIL_ON_WARNINGS
-"
+'
     
-"
+'
 HOST_LIBS
-"
+'
     
-"
+'
 LIBXUL_LIBRARY
-"
+'
     
-"
+'
 MOCHITEST_A11Y_FILES
-"
+'
     
-"
+'
 MOCHITEST_BROWSER_FILES
-"
+'
     
-"
+'
 MOCHITEST_BROWSER_FILES_PARTS
-"
+'
     
-"
+'
 MOCHITEST_CHROME_FILES
-"
+'
     
-"
+'
 MOCHITEST_FILES
-"
+'
     
-"
+'
 MOCHITEST_FILES_PARTS
-"
+'
     
-"
+'
 MOCHITEST_METRO_FILES
-"
+'
     
-"
+'
 MOCHITEST_ROBOCOP_FILES
-"
+'
     
-"
+'
 MODULE_OPTIMIZE_FLAGS
-"
+'
     
-"
+'
 MOZ_CHROME_FILE_FORMAT
-"
+'
     
-"
+'
 SHORT_LIBNAME
-"
+'
     
-"
+'
 TESTING_JS_MODULES
-"
+'
     
-"
+'
 TESTING_JS_MODULE_DIR
-"
+'
 ]
 MOZBUILD_VARIABLES_MESSAGE
 =
-"
+'
 It
 should
 only
@@ -333,12 +336,12 @@ moz
 build
 files
 .
-"
+'
 DEPRECATED_VARIABLES_MESSAGE
 =
 (
     
-"
+'
 This
 variable
 has
@@ -353,15 +356,15 @@ It
 must
 be
 removed
-"
+'
     
-"
+'
 in
 order
 to
 build
 .
-"
+'
 )
 def
 make_quote
@@ -375,21 +378,21 @@ s
 .
 replace
 (
-"
+'
 #
-"
-"
+'
+'
 \
 #
-"
+'
 )
 .
 replace
 (
-"
-"
-"
-"
+'
+'
+'
+'
 )
 class
 BackendMakeFile
@@ -701,11 +704,11 @@ mozpath
 join
 (
 objdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 self
@@ -737,7 +740,7 @@ fh
 .
 write
 (
-"
+'
 #
 THIS
 FILE
@@ -751,7 +754,7 @@ EDIT
 .
 \
 n
-"
+'
 )
         
 self
@@ -760,10 +763,10 @@ fh
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
     
 def
@@ -801,10 +804,10 @@ buf
 )
         
 if
-"
+'
 \
 n
-"
+'
 +
 buf
 not
@@ -842,12 +845,12 @@ self
 .
 write
 (
-"
+'
 %
 s
 \
 n
-"
+'
 %
 stmt
 )
@@ -871,14 +874,14 @@ fh
 .
 write
 (
-"
+'
 NONRECURSIVE_TARGETS
 +
 =
 export
 \
 n
-"
+'
 )
             
 self
@@ -887,14 +890,14 @@ fh
 .
 write
 (
-"
+'
 NONRECURSIVE_TARGETS_export
 +
 =
 xpidl
 \
 n
-"
+'
 )
             
 self
@@ -903,13 +906,12 @@ fh
 .
 write
 (
-                
-"
+'
 NONRECURSIVE_TARGETS_export_xpidl_DIRECTORY
 =
-"
-                
-"
+'
+                          
+'
 (
 DEPTH
 )
@@ -919,8 +921,7 @@ xpcom
 xpidl
 \
 n
-"
-            
+'
 )
             
 self
@@ -929,16 +930,17 @@ fh
 .
 write
 (
-"
+'
 NONRECURSIVE_TARGETS_export_xpidl_TARGETS
 +
 =
-"
-"
+'
+                          
+'
 export
 \
 n
-"
+'
 )
         
 return
@@ -1036,21 +1038,21 @@ tests
 SubDirectoryCategories
 =
 [
-"
+'
 dirs
-"
-"
+'
+'
 tests
-"
+'
 ]
     
 SubDirectoriesTuple
 =
 namedtuple
 (
-"
+'
 SubDirectories
-"
+'
 SubDirectoryCategories
 )
     
@@ -1183,26 +1185,28 @@ value
 in
 (
 (
-"
+'
 dirs
-"
+'
 dirs
 )
 (
-"
+'
 tests
-"
+'
 tests
 )
 )
 :
             
 assert
+(
 key
 in
 self
 .
 SubDirectoryCategories
+)
             
 value
 =
@@ -1493,8 +1497,8 @@ if
 start_node
 !
 =
-"
-"
+'
+'
 :
                     
 deps
@@ -1548,8 +1552,8 @@ nodes
 !
 =
 (
-"
-"
+'
+'
 )
 :
                     
@@ -1591,8 +1595,8 @@ prev_nodes
 return
 recurse
 (
-"
-"
+'
+'
 )
 deps
     
@@ -1762,8 +1766,8 @@ if
 dir
 =
 =
-"
-"
+'
+'
 :
             
 unattached
@@ -1782,8 +1786,8 @@ _attached
 set
 (
 [
-"
-"
+'
+'
 ]
 )
             
@@ -2018,7 +2022,6 @@ backend_input_files
 .
 add
 (
-            
 mozpath
 .
 join
@@ -2028,16 +2031,16 @@ self
 environment
 .
 topobjdir
-"
+                                                  
+'
 config
-"
-"
+'
+'
 autoconf
 .
 mk
-"
+'
 )
-        
 )
         
 self
@@ -2053,18 +2056,18 @@ self
 .
 _install_manifests
 [
-"
+'
 dist_public
-"
+'
 ]
         
 self
 .
 _install_manifests
 [
-"
+'
 dist_private
-"
+'
 ]
         
 self
@@ -2120,49 +2123,49 @@ _no_skip
 =
 {
             
-"
+'
 export
-"
+'
 :
 set
 (
 )
             
-"
+'
 libs
-"
+'
 :
 set
 (
 )
             
-"
+'
 misc
-"
+'
 :
 set
 (
 )
             
-"
+'
 tools
-"
+'
 :
 set
 (
 )
             
-"
+'
 check
-"
+'
 :
 set
 (
 )
             
-"
+'
 syms
-"
+'
 :
 set
 (
@@ -2193,8 +2196,7 @@ summary
 .
 extend
 (
-            
-"
+'
 ;
 {
 makefile_in
@@ -2209,20 +2211,19 @@ makefile_out
 d
 }
 Makefile
-"
-            
+'
+                       
 makefile_in
 =
 self
 .
 _makefile_in_count
-            
+                       
 makefile_out
 =
 self
 .
 _makefile_out_count
-        
 )
         
 return
@@ -2237,27 +2238,23 @@ obj
 :
         
 if
-(
-            
 isinstance
 (
 obj
 GeneratedFile
 )
-            
 and
 not
 obj
 .
 required_during_compile
-            
 and
+\
+                
 not
 obj
 .
 localized
-        
-)
 :
             
 objdir
@@ -2293,33 +2290,29 @@ _backend_files
 objdir
 ]
 =
+\
+                
 BackendMakeFile
 (
-                
 obj
 .
 srcdir
-                
 objdir
-                
 obj
 .
 config
-                
+                                
 obj
 .
 topsrcdir
-                
 self
 .
 environment
 .
 topobjdir
-                
 self
 .
 dry_run
-            
 )
         
 return
@@ -2399,12 +2392,12 @@ backend_file
 .
 xpt_name
 =
-"
+'
 %
 s
 .
 xpt
-"
+'
 %
 obj
 .
@@ -2498,9 +2491,9 @@ output_path
 )
 =
 =
-"
+'
 Makefile
-"
+'
             
 self
 .
@@ -2524,59 +2517,59 @@ suffix_map
 =
 {
                 
-"
+'
 .
 s
-"
+'
 :
-"
+'
 ASFILES
-"
+'
                 
-"
+'
 .
 c
-"
+'
 :
-"
+'
 CSRCS
-"
+'
                 
-"
+'
 .
 m
-"
+'
 :
-"
+'
 CMSRCS
-"
+'
                 
-"
+'
 .
 mm
-"
+'
 :
-"
+'
 CMMSRCS
-"
+'
                 
-"
+'
 .
 cpp
-"
+'
 :
-"
+'
 CPPSRCS
-"
+'
                 
-"
+'
 .
 S
-"
+'
 :
-"
+'
 SSRCS
-"
+'
             
 }
             
@@ -2611,9 +2604,9 @@ ObjDirPath
                 
 prefix
 =
-"
+'
 !
-"
+'
             
 else
 :
@@ -2630,8 +2623,8 @@ SourcePath
                 
 prefix
 =
-"
-"
+'
+'
             
 for
 f
@@ -2681,7 +2674,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s
 +
@@ -2690,7 +2683,7 @@ s
 s
 \
 n
-"
+'
 %
 (
 var
@@ -2706,14 +2699,15 @@ mozpath
 .
 join
 (
+                
 backend_file
 .
 relobjdir
-"
+'
 target
 -
 objects
-"
+'
 )
 ]
         
@@ -2732,32 +2726,32 @@ suffix_map
 =
 {
                 
-"
+'
 .
 c
-"
+'
 :
-"
+'
 HOST_CSRCS
-"
+'
                 
-"
+'
 .
 mm
-"
+'
 :
-"
+'
 HOST_CMMSRCS
-"
+'
                 
-"
+'
 .
 cpp
-"
+'
 :
-"
+'
 HOST_CPPSRCS
-"
+'
             
 }
             
@@ -2792,9 +2786,9 @@ ObjDirPath
                 
 prefix
 =
-"
+'
 !
-"
+'
             
 else
 :
@@ -2811,8 +2805,8 @@ SourcePath
                 
 prefix
 =
-"
-"
+'
+'
             
 for
 f
@@ -2862,7 +2856,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s
 +
@@ -2871,7 +2865,7 @@ s
 s
 \
 n
-"
+'
 %
 (
 var
@@ -2887,14 +2881,15 @@ mozpath
 .
 join
 (
+                
 backend_file
 .
 relobjdir
-"
+'
 host
 -
 objects
-"
+'
 )
 ]
         
@@ -2913,23 +2908,23 @@ suffix_map
 =
 {
                 
-"
+'
 .
 c
-"
+'
 :
-"
+'
 WASM_CSRCS
-"
+'
                 
-"
+'
 .
 cpp
-"
+'
 :
-"
+'
 WASM_CPPSRCS
-"
+'
             
 }
             
@@ -2964,9 +2959,9 @@ ObjDirPath
                 
 prefix
 =
-"
+'
 !
-"
+'
             
 else
 :
@@ -2983,8 +2978,8 @@ SourcePath
                 
 prefix
 =
-"
-"
+'
+'
             
 for
 f
@@ -3034,7 +3029,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s
 +
@@ -3043,7 +3038,7 @@ s
 s
 \
 n
-"
+'
 %
 (
 var
@@ -3059,14 +3054,15 @@ mozpath
 .
 join
 (
+                
 backend_file
 .
 relobjdir
-"
+'
 target
 -
 objects
-"
+'
 )
 ]
         
@@ -3113,7 +3109,7 @@ backend_file
 write
 (
                             
-"
+'
 %
 s
 +
@@ -3122,7 +3118,7 @@ s
 s
 \
 n
-"
+'
 %
 (
 k
@@ -3134,7 +3130,6 @@ item
 )
 )
 )
-                        
 )
                 
 elif
@@ -3153,7 +3148,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s
 :
@@ -3161,7 +3156,7 @@ s
 1
 \
 n
-"
+'
 %
 k
 )
@@ -3194,7 +3189,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s
 :
@@ -3203,7 +3198,7 @@ s
 s
 \
 n
-"
+'
 %
 (
 k
@@ -3218,7 +3213,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s
 :
@@ -3227,7 +3222,7 @@ s
 s
 \
 n
-"
+'
 %
 (
 k
@@ -3251,9 +3246,9 @@ obj
 backend_file
 which
 =
-"
+'
 HOST_DEFINES
-"
+'
 )
         
 elif
@@ -3288,9 +3283,9 @@ required_before_compile
                 
 tier
 =
-"
+'
 export
-"
+'
             
 elif
 obj
@@ -3300,20 +3295,20 @@ required_during_compile
                 
 tier
 =
-"
+'
 pre
 -
 compile
-"
+'
             
 else
 :
                 
 tier
 =
-"
+'
 misc
-"
+'
             
 relobjdir
 =
@@ -3335,11 +3330,11 @@ if
 tier
 =
 =
-"
+'
 pre
 -
 compile
-"
+'
 :
                 
 self
@@ -3370,7 +3365,7 @@ backend_file
 .
 write_once
 (
-"
+'
 include
 (
 topsrcdir
@@ -3383,7 +3378,7 @@ AB_rCD
 mk
 \
 n
-"
+'
 )
             
 relobjdir
@@ -3404,24 +3399,24 @@ if
 tier
 !
 =
-"
+'
 pre
 -
 compile
-"
+'
 and
 relobjdir
 :
                 
 tier
 =
-"
+'
 %
 s
 /
 %
 s
-"
+'
 %
 (
 relobjdir
@@ -3435,24 +3430,23 @@ self
 .
 _format_statements_for_generated_file
 (
-                
+                    
 obj
 tier
 extra_dependencies
 =
-"
+'
 backend
 .
 mk
-"
+'
 if
 obj
 .
 flags
 else
-"
-"
-            
+'
+'
 )
 :
                 
@@ -3462,10 +3456,10 @@ write
 (
 stmt
 +
-"
+'
 \
 n
-"
+'
 )
         
 elif
@@ -3480,9 +3474,9 @@ self
 .
 _no_skip
 [
-"
+'
 misc
-"
+'
 ]
 .
 add
@@ -3496,7 +3490,7 @@ backend_file
 .
 write
 (
-"
+'
 JAR_MANIFEST
 :
 =
@@ -3504,7 +3498,7 @@ JAR_MANIFEST
 s
 \
 n
-"
+'
 %
 obj
 .
@@ -3639,9 +3633,9 @@ self
 .
 _no_skip
 [
-"
+'
 syms
-"
+'
 ]
 .
 add
@@ -3703,9 +3697,9 @@ self
 .
 _no_skip
 [
-"
+'
 syms
-"
+'
 ]
 .
 add
@@ -3908,9 +3902,9 @@ self
 .
 _no_skip
 [
-"
+'
 syms
-"
+'
 ]
 .
 add
@@ -4039,16 +4033,14 @@ self
 .
 _process_final_target_pp_files
 (
-                
 obj
 obj
 .
 files
 backend_file
-"
+'
 OBJDIR_PP_FILES
-"
-            
+'
 )
         
 elif
@@ -4120,16 +4112,14 @@ self
 .
 _process_final_target_pp_files
 (
-                
 obj
 obj
 .
 files
 backend_file
-"
+'
 DIST_FILES
-"
-            
+'
 )
         
 elif
@@ -4237,32 +4227,30 @@ self
 .
 log
 (
-                
 logging
 .
 DEBUG
-                
-"
+'
 fill_root_mk
-"
-                
+'
 {
-"
+                
+'
 number
-"
+'
 :
 len
 (
 no_skip
 )
-"
+'
 tier
-"
+'
 :
 tier
-}
                 
-"
+}
+'
 Using
 {
 number
@@ -4272,8 +4260,7 @@ during
 {
 tier
 }
-"
-            
+'
 )
         
 def
@@ -4335,10 +4322,10 @@ current
 .
 startswith
 (
-"
+'
 subtiers
 /
-"
+'
 )
 :
                 
@@ -4363,9 +4350,9 @@ subdirs
 if
 should_skip
 (
-"
+'
 libs
-"
+'
 current
 )
 or
@@ -4373,10 +4360,10 @@ current
 .
 startswith
 (
-"
+'
 subtiers
 /
-"
+'
 )
 :
                 
@@ -4407,9 +4394,9 @@ subdirs
 if
 should_skip
 (
-"
+'
 tools
-"
+'
 current
 )
 or
@@ -4417,10 +4404,10 @@ current
 .
 startswith
 (
-"
+'
 subtiers
 /
-"
+'
 )
 :
                 
@@ -4445,37 +4432,37 @@ filters
 [
             
 (
-"
+'
 export
-"
+'
 parallel_filter
 )
             
 (
-"
+'
 libs
-"
+'
 libs_filter
 )
             
 (
-"
+'
 misc
-"
+'
 parallel_filter
 )
             
 (
-"
+'
 tools
-"
+'
 tools_filter
 )
             
 (
-"
+'
 check
-"
+'
 parallel_filter
 )
         
@@ -4506,6 +4493,8 @@ itemgetter
 main
 all_deps
 =
+\
+                
 self
 .
 _traversal
@@ -4541,13 +4530,14 @@ in
 self
 .
 _idl_dirs
+                                        
 and
 tier
 =
 =
-"
+'
 export
-"
+'
 )
 :
                     
@@ -4558,13 +4548,13 @@ root_deps_mk
 create_rule
 (
 [
-"
+'
 %
 s
 /
 %
 s
-"
+'
 %
 (
 dir
@@ -4582,13 +4572,13 @@ rule
 add_dependencies
 (
                             
-"
+'
 %
 s
 /
 %
 s
-"
+'
 %
 (
 d
@@ -4603,7 +4593,6 @@ deps
 )
 if
 d
-                        
 )
             
 rule
@@ -4613,11 +4602,11 @@ root_deps_mk
 create_rule
 (
 [
-"
+'
 recurse_
 %
 s
-"
+'
 %
 tier
 ]
@@ -4631,13 +4620,13 @@ rule
 .
 add_dependencies
 (
-"
+'
 %
 s
 /
 %
 s
-"
+'
 %
 (
 d
@@ -4659,11 +4648,11 @@ root_deps_mk
 create_rule
 (
 [
-"
+'
 recurse_pre
 -
 compile
-"
+'
 ]
 )
         
@@ -4671,14 +4660,14 @@ rule
 .
 add_dependencies
 (
-"
+'
 %
 s
 /
 pre
 -
 compile
-"
+'
 %
 d
 for
@@ -4715,7 +4704,6 @@ in
 self
 .
 _pre_compile
-        
 )
         
 for
@@ -4749,14 +4737,14 @@ rule
 add_dependencies
 (
 [
-"
+'
 %
 s
 /
 pre
 -
 compile
-"
+'
 %
 relobjdir
 ]
@@ -4764,14 +4752,13 @@ relobjdir
         
 all_compile_deps
 =
-(
-            
 six
 .
 moves
 .
 reduce
 (
+            
 lambda
 x
 y
@@ -4779,6 +4766,7 @@ y
 x
 |
 y
+            
 self
 .
 _compile_graph
@@ -4787,25 +4775,19 @@ values
 (
 )
 )
-            
 if
 self
 .
 _compile_graph
-            
 else
 set
 (
 )
         
-)
-        
 compile_roots
 =
 [
-            
 t
-            
 for
 t
 deps
@@ -4818,7 +4800,7 @@ self
 .
 _compile_graph
 )
-            
+                         
 if
 not
 deps
@@ -4827,7 +4809,6 @@ t
 not
 in
 all_compile_deps
-        
 ]
         
 def
@@ -4846,11 +4827,11 @@ root_deps_mk
 create_rule
 (
 [
-"
+'
 recurse_
 %
 s
-"
+'
 %
 category
 ]
@@ -4894,9 +4875,9 @@ if
 category
 =
 =
-"
+'
 compile
-"
+'
 and
 rust_roots
 :
@@ -4908,9 +4889,9 @@ root_deps_mk
 create_rule
 (
 [
-"
+'
 recurse_rust
-"
+'
 ]
 )
                 
@@ -4927,10 +4908,9 @@ target
 in
 pairwise
 (
-                    
+                        
 sorted
 (
-                        
 [
 t
 for
@@ -4938,6 +4918,7 @@ t
 in
 rust_libs
 ]
+                               
 key
 =
 lambda
@@ -4949,9 +4930,7 @@ t
 self
 .
 _gkrust_target
-                    
 )
-                
 )
 :
                     
@@ -5067,22 +5046,23 @@ target_name
 not
 in
 (
-"
+'
 target
-"
-"
+'
+'
 target
 -
 objects
-"
-"
+'
+                                   
+'
 host
-"
-"
+'
+'
 host
 -
 objects
-"
+'
 )
 :
                 
@@ -5151,25 +5131,24 @@ root
             
 if
 (
-                
 dirname
 in
 self
 .
 _no_skip
 [
-"
+'
 syms
-"
+'
 ]
-                
 and
-"
+                
+'
 %
 s
 /
 target
-"
+'
 %
 dirname
 not
@@ -5177,7 +5156,6 @@ in
 self
 .
 _compile_graph
-            
 )
 :
                 
@@ -5185,9 +5163,9 @@ self
 .
 _no_skip
 [
-"
+'
 syms
-"
+'
 ]
 .
 remove
@@ -5197,9 +5175,9 @@ dirname
         
 add_category_rules
 (
-"
+'
 compile
-"
+'
 compile_roots
 self
 .
@@ -5252,8 +5230,8 @@ _traversal
 .
 traverse
 (
-"
-"
+'
+'
 filter
 )
             
@@ -5261,19 +5239,19 @@ root_mk
 .
 add_statement
 (
-"
+'
 %
 s_dirs
 :
 =
 %
 s
-"
+'
 %
 (
 tier
-"
-"
+'
+'
 .
 join
 (
@@ -5286,31 +5264,30 @@ root_mk
 .
 add_statement
 (
-            
-"
+'
 pre_compile_targets
 :
 =
 %
 s
-"
-            
+'
 %
-"
-"
+'
+'
 .
 join
 (
 sorted
 (
-"
+            
+'
 %
 s
 /
 pre
 -
 compile
-"
+'
 %
 p
 for
@@ -5321,30 +5298,28 @@ self
 _pre_compile
 )
 )
-        
 )
         
 root_mk
 .
 add_statement
 (
-            
-"
+'
 compile_targets
 :
 =
 %
 s
-"
-            
+'
 %
-"
-"
+'
+'
 .
 join
 (
 sorted
 (
+            
 set
 (
 self
@@ -5359,38 +5334,36 @@ keys
 all_compile_deps
 )
 )
-        
 )
         
 root_mk
 .
 add_statement
 (
-            
-"
+'
 syms_targets
 :
 =
 %
 s
-"
-            
+'
 %
-"
-"
+'
+'
 .
 join
 (
 sorted
 (
+            
 set
 (
-"
+'
 %
 s
 /
 syms
-"
+'
 %
 d
 for
@@ -5400,64 +5373,62 @@ self
 .
 _no_skip
 [
-"
+'
 syms
-"
+'
 ]
 )
 )
 )
-        
 )
         
 root_mk
 .
 add_statement
 (
-            
-"
+'
 rust_targets
 :
 =
 %
 s
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
 sorted
 (
+            
 self
 .
 _rust_targets
 )
 )
-        
 )
         
 root_mk
 .
 add_statement
 (
-            
-"
+'
 non_default_tiers
 :
 =
 %
 s
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
 sorted
 (
+            
 non_default_roots
 .
 keys
@@ -5465,7 +5436,6 @@ keys
 )
 )
 )
-        
 )
         
 for
@@ -5492,6 +5462,7 @@ dirname
 (
 target
 )
+                             
 for
 target
 in
@@ -5506,19 +5477,20 @@ root_mk
 .
 add_statement
 (
-"
+'
 %
 s_dirs
 :
 =
 %
 s
-"
+'
 %
 (
 category
-"
-"
+                                                     
+'
+'
 .
 join
 (
@@ -5531,14 +5503,14 @@ root_mk
 .
 add_statement
 (
-"
+'
 include
 root
 -
 deps
 .
 mk
-"
+'
 )
         
 with
@@ -5546,7 +5518,7 @@ self
 .
 _write_file
 (
-            
+                
 mozpath
 .
 join
@@ -5556,13 +5528,12 @@ self
 environment
 .
 topobjdir
-"
+'
 root
 .
 mk
-"
+'
 )
-        
 )
 as
 root
@@ -5583,7 +5554,7 @@ self
 .
 _write_file
 (
-            
+                
 mozpath
 .
 join
@@ -5593,15 +5564,14 @@ self
 environment
 .
 topobjdir
-"
+'
 root
 -
 deps
 .
 mk
-"
+'
 )
-        
 )
 as
 root_deps
@@ -5620,23 +5590,19 @@ False
 def
 _add_unified_build_rules
 (
-        
 self
-        
 makefile
-        
 unified_source_mapping
-        
+                                 
 unified_files_makefile_variable
 =
-"
+'
 unified_files
-"
-        
+'
+                                 
 include_curdir_build_rules
 =
 True
-    
 )
 :
         
@@ -5649,12 +5615,11 @@ unified_source_mapping
         
 explanation
 =
-(
-            
 "
 \
 n
 "
+\
             
 "
 #
@@ -5673,6 +5638,7 @@ files
 \
 n
 "
+\
             
 "
 #
@@ -5690,6 +5656,7 @@ on
 \
 n
 "
+\
             
 "
 #
@@ -5702,8 +5669,6 @@ size
 .
 "
         
-)
-        
 makefile
 .
 add_statement
@@ -5713,8 +5678,8 @@ explanation
         
 all_sources
 =
-"
-"
+'
+'
 .
 join
 (
@@ -5730,21 +5695,20 @@ makefile
 .
 add_statement
 (
-            
-"
+'
 %
 s
 :
 =
 %
 s
-"
+'
 %
 (
 unified_files_makefile_variable
+                                             
 all_sources
 )
-        
 )
         
 if
@@ -5756,10 +5720,10 @@ makefile
 add_statement
 (
                 
-"
+'
 \
 n
-"
+'
                 
 '
 #
@@ -5784,7 +5748,7 @@ foo
 n
 '
                 
-"
+'
 #
 Help
 it
@@ -5794,16 +5758,14 @@ explicitly
 specifiying
 dependencies
 .
-"
-            
+'
 )
             
 makefile
 .
 add_statement
 (
-                
-"
+'
 all_absolute_unified_files
 :
 =
@@ -5811,9 +5773,9 @@ all_absolute_unified_files
 \
 \
 n
-"
-                
-"
+'
+                                   
+'
 (
 addprefix
 (
@@ -5825,10 +5787,10 @@ CURDIR
 s
 )
 )
-"
+'
+                                   
 %
 unified_files_makefile_variable
-            
 )
             
 rule
@@ -5838,11 +5800,11 @@ makefile
 create_rule
 (
 [
-"
+'
 (
 all_absolute_unified_files
 )
-"
+'
 ]
 )
             
@@ -5851,7 +5813,7 @@ rule
 add_dependencies
 (
 [
-"
+'
 (
 CURDIR
 )
@@ -5859,7 +5821,7 @@ CURDIR
 %
 :
 %
-"
+'
 ]
 )
     
@@ -5873,9 +5835,9 @@ makefile_content
 :
         
 if
-"
+'
 EXTERNALLY_MANAGED_MAKE_FILE
-"
+'
 in
 makefile_content
 :
@@ -5905,9 +5867,9 @@ l
 .
 startswith
 (
-"
+'
 #
-"
+'
 )
 :
                 
@@ -5938,7 +5900,7 @@ re
 search
 (
 r
-"
+'
 \
 b
 %
@@ -5953,7 +5915,7 @@ s
 ]
 ?
 =
-"
+'
 %
 x
 l
@@ -5980,8 +5942,7 @@ DEPRECATED_VARIABLES_MESSAGE
 raise
 Exception
 (
-                        
-"
+'
 Variable
 %
 s
@@ -5993,14 +5954,14 @@ s
 .
 %
 s
-"
+'
+                                    
 %
 (
 x
 makefile_in
 message
 )
-                    
 )
     
 def
@@ -6059,11 +6020,11 @@ mozpath
 join
 (
 srcdir
-"
+'
 Makefile
 .
 in
-"
+'
 )
                 
 makefile
@@ -6073,9 +6034,9 @@ mozpath
 join
 (
 objdir
-"
+'
 Makefile
-"
+'
 )
                 
 stub
@@ -6099,32 +6060,28 @@ self
 .
 log
 (
-                        
 logging
 .
 DEBUG
-                        
-"
+'
 substitute_makefile
-"
-                        
+'
+                             
 {
-"
+'
 path
-"
+'
 :
 makefile
 }
-                        
-"
+'
 Substituting
 makefile
 :
 {
 path
 }
-"
-                    
+'
 )
                     
 self
@@ -6144,15 +6101,12 @@ for
 tier
 in
 (
-                            
-"
+'
 export
-"
-                            
-"
+'
+'
 libs
-"
-                        
+'
 )
 :
                             
@@ -6177,24 +6131,21 @@ self
 .
 log
 (
-                        
 logging
 .
 DEBUG
-                        
-"
+'
 stub_makefile
-"
-                        
+'
+                             
 {
-"
+'
 path
-"
+'
 :
 makefile
 }
-                        
-"
+'
 Creating
 stub
 Makefile
@@ -6202,8 +6153,7 @@ Makefile
 {
 path
 }
-"
-                    
+'
 )
                 
 obj
@@ -6272,11 +6222,11 @@ obj
 output_path
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 )
 as
 fh
@@ -6294,15 +6244,15 @@ for
 t
 in
 (
-"
+'
 XPI_PKGNAME
-"
-"
+'
+'
 INSTALL_EXTENSION_ID
-"
-"
+'
+'
 tools
-"
+'
 )
 :
                         
@@ -6319,17 +6269,16 @@ if
 t
 =
 =
-"
+'
 tools
-"
+'
 and
 not
 re
 .
 search
 (
-                            
-"
+'
 (
 ?
 :
@@ -6343,12 +6292,11 @@ tools
 *
 :
 :
-"
+'
 content
 re
 .
 M
-                        
 )
 :
                             
@@ -6371,26 +6319,25 @@ self
 .
 _no_skip
 [
-"
+'
 tools
-"
+'
 ]
 .
 add
 (
-                            
 mozpath
 .
 relpath
 (
 objdir
+                                                                   
 self
 .
 environment
 .
 topobjdir
 )
-                        
 )
                     
 if
@@ -6398,7 +6345,7 @@ re
 .
 search
 (
-"
+'
 (
 ?
 :
@@ -6412,7 +6359,7 @@ check
 *
 :
 :
-"
+'
 content
 re
 .
@@ -6424,26 +6371,25 @@ self
 .
 _no_skip
 [
-"
+'
 check
-"
+'
 ]
 .
 add
 (
-                            
 mozpath
 .
 relpath
 (
 objdir
+                                                                   
 self
 .
 environment
 .
 topobjdir
 )
-                        
 )
                     
 self
@@ -6485,12 +6431,12 @@ mozpath
 join
 (
 install_prefix
-"
+'
 %
 s
 .
 ini
-"
+'
 %
 flavor
 )
@@ -6499,24 +6445,23 @@ self
 .
 _write_master_test_manifest
 (
-                
 mozpath
 .
 join
 (
+                
 self
 .
 environment
 .
 topobjdir
-"
+'
 _tests
-"
+'
 manifest_stem
 )
                 
 manifests
-            
 )
             
 try
@@ -6526,9 +6471,9 @@ self
 .
 _install_manifests
 [
-"
+'
 _tests
-"
+'
 ]
 .
 add_optional_exists
@@ -6546,9 +6491,9 @@ self
 .
 _write_manifests
 (
-"
+'
 install
-"
+'
 self
 .
 _install_manifests
@@ -6565,12 +6510,12 @@ self
 environment
 .
 topobjdir
-"
+'
 dist
-"
-"
+'
+'
 foo
-"
+'
 )
 )
     
@@ -6612,11 +6557,11 @@ srcdir
 :
                 
 return
-"
+'
 (
 srcdir
 )
-"
+'
 path
 .
 full_path
@@ -6644,11 +6589,11 @@ topsrcdir
 :
                 
 return
-"
+'
 (
 topsrcdir
 )
-"
+'
 path
 .
 full_path
@@ -6684,8 +6629,8 @@ objdir
 :
                 
 return
-"
-"
+'
+'
 path
 .
 full_path
@@ -6717,11 +6662,11 @@ topobjdir
 :
                 
 return
-"
+'
 (
 DEPTH
 )
-"
+'
 path
 .
 full_path
@@ -6738,8 +6683,8 @@ topobjdir
 ]
         
 return
-"
-"
+'
+'
 path
 .
 full_path
@@ -6754,8 +6699,8 @@ backend_file
 :
         
 return
-"
-"
+'
+'
 .
 join
 (
@@ -6789,32 +6734,32 @@ suffix_map
 =
 {
             
-"
+'
 .
 c
-"
+'
 :
-"
+'
 UNIFIED_CSRCS
-"
+'
             
-"
+'
 .
 mm
-"
+'
 :
-"
+'
 UNIFIED_CMMSRCS
-"
+'
             
-"
+'
 .
 cpp
-"
+'
 :
-"
+'
 UNIFIED_CPPSRCS
-"
+'
         
 }
         
@@ -6833,9 +6778,9 @@ var
 [
 len
 (
-"
+'
 UNIFIED_
-"
+'
 )
 :
 ]
@@ -6850,28 +6795,26 @@ self
 .
 _add_unified_build_rules
 (
-                
 backend_file
-                
+                                          
 obj
 .
 unified_source_mapping
-                
+                                          
 unified_files_makefile_variable
 =
 var
-                
+                                          
 include_curdir_build_rules
 =
 False
-            
 )
             
 backend_file
 .
 write
 (
-"
+'
 %
 s
 +
@@ -6882,7 +6825,7 @@ s
 )
 \
 n
-"
+'
 %
 (
 non_unified_var
@@ -6909,7 +6852,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s
 +
@@ -6918,12 +6861,13 @@ s
 s
 \
 n
-"
+'
 %
 (
+                    
 non_unified_var
-"
-"
+'
+'
 .
 join
 (
@@ -6940,14 +6884,15 @@ mozpath
 .
 join
 (
+            
 backend_file
 .
 relobjdir
-"
+'
 target
 -
 objects
-"
+'
 )
 ]
     
@@ -7015,8 +6960,7 @@ fh
 .
 write
 (
-                
-"
+'
 DIRS
 :
 =
@@ -7024,10 +6968,10 @@ DIRS
 s
 \
 n
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
@@ -7041,7 +6985,6 @@ obj
 dirs
 )
 )
-            
 )
             
 self
@@ -7054,7 +6997,6 @@ add
 backend_file
 .
 relobjdir
-                
 dirs
 =
 relativize
@@ -7090,9 +7032,9 @@ obj
 backend_file
 which
 =
-"
+'
 DEFINES
-"
+'
 )
 :
         
@@ -7130,8 +7072,8 @@ defines
             
 defines
 =
-"
-"
+'
+'
 .
 join
 (
@@ -7149,7 +7091,7 @@ backend_file
 .
 write_once
 (
-"
+'
 %
 s
 +
@@ -7158,7 +7100,7 @@ s
 s
 \
 n
-"
+'
 %
 (
 which
@@ -7185,14 +7127,14 @@ backend_file
 .
 write
 (
-"
+'
 XPI_NAME
 =
 %
 s
 \
 n
-"
+'
 %
 (
 obj
@@ -7211,14 +7153,14 @@ backend_file
 .
 write
 (
-"
+'
 DIST_SUBDIR
 =
 %
 s
 \
 n
-"
+'
 %
 (
 obj
@@ -7244,7 +7186,7 @@ backend_file
 .
 write
 (
-"
+'
 FINAL_TARGET
 =
 (
@@ -7255,7 +7197,7 @@ DEPTH
 s
 \
 n
-"
+'
 %
 (
 obj
@@ -7272,7 +7214,7 @@ backend_file
 write
 (
                 
-"
+'
 FINAL_TARGET
 =
 (
@@ -7291,9 +7233,9 @@ stage
 (
 XPI_NAME
 )
-"
+'
                 
-"
+'
 (
 DIST
 )
@@ -7310,8 +7252,8 @@ DIST_SUBDIR
 )
 \
 n
-"
-            
+'
+                
 )
         
 if
@@ -7325,14 +7267,14 @@ backend_file
 .
 write
 (
-"
+'
 NO_DIST_INSTALL
 :
 =
 1
 \
 n
-"
+'
 )
     
 def
@@ -7349,24 +7291,24 @@ self
 .
 _install_manifests
 [
-"
+'
 xpidl
-"
+'
 ]
         
 for
 p
 in
 (
-"
+'
 Makefile
-"
-"
+'
+'
 backend
 .
 mk
-"
-"
+'
+'
 .
 deps
 /
@@ -7374,7 +7316,7 @@ deps
 mkdir
 .
 done
-"
+'
 )
 :
             
@@ -7399,19 +7341,19 @@ self
 .
 _install_manifests
 [
-"
+'
 dist_include
-"
+'
 ]
 .
 add_optional_exists
 (
-"
+'
 %
 s
 .
 h
-"
+'
 %
 stem
 )
@@ -7432,16 +7374,16 @@ mozpath
 .
 join
 (
-"
+'
 .
 deps
-"
-"
+'
+'
 %
 s
 .
 pp
-"
+'
 %
 module
 )
@@ -7511,19 +7453,19 @@ mk
 .
 add_statement
 (
-"
+'
 %
 s_deps
 :
 =
 %
 s
-"
+'
 %
 (
 module_name
-"
-"
+'
+'
 .
 join
 (
@@ -7536,12 +7478,12 @@ build_files
 .
 add_optional_exists
 (
-"
+'
 %
 s
 .
 xpt
-"
+'
 %
 module_name
 )
@@ -7550,16 +7492,16 @@ mk
 .
 add_statement
 (
-"
+'
 all_idl_dirs
 :
 =
 %
 s
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
@@ -7602,25 +7544,24 @@ mozpath
 .
 join
 (
-            
 self
 .
 environment
 .
 topobjdir
-"
+'
 config
-"
-"
+'
+                                       
+'
 makefiles
-"
-"
+'
+'
 xpidl
-"
-"
+'
+'
 Makefile
-"
-        
+'
 )
         
 obj
@@ -7631,27 +7572,26 @@ mozpath
 .
 join
 (
-            
 self
 .
 environment
 .
 topsrcdir
-"
+'
 config
-"
-"
+'
+                                      
+'
 makefiles
-"
-"
+'
+'
 xpidl
-"
-"
+'
+'
 Makefile
 .
 in
-"
-        
+'
 )
         
 obj
@@ -7686,14 +7626,12 @@ self
 .
 _create_makefile
 (
-            
 obj
-            
 extra
 =
 dict
 (
-                
+            
 xpidl_rules
 =
 rules
@@ -7701,19 +7639,18 @@ rules
 getvalue
 (
 )
-                
+            
 xpidl_modules
 =
-"
-"
+'
+'
 .
 join
 (
 xpt_modules
 )
-            
-)
         
+)
 )
     
 def
@@ -7729,15 +7666,14 @@ backend_file
 .
 write
 (
-            
-"
+'
 PROGRAM
 =
 %
 s
 \
 n
-"
+'
 %
 self
 .
@@ -7748,7 +7684,6 @@ obj
 output_path
 backend_file
 )
-        
 )
         
 if
@@ -7769,7 +7704,7 @@ backend_file
 .
 write
 (
-"
+'
 PROG_IS_C_ONLY_
 %
 s
@@ -7778,7 +7713,7 @@ s
 1
 \
 n
-"
+'
 %
 obj
 .
@@ -7798,16 +7733,16 @@ backend_file
 .
 write
 (
-            
-"
+'
 HOST_PROGRAM
 =
 %
 s
 \
 n
-"
+'
 %
+                           
 self
 .
 _pretty_path
@@ -7817,19 +7752,18 @@ program
 output_path
 backend_file
 )
-        
 )
     
 def
 _process_rust_program_base
 (
-        
 self
 obj
 backend_file
+                                   
 target_variable
+                                   
 target_cargo_variable
-    
 )
 :
         
@@ -7837,7 +7771,7 @@ backend_file
 .
 write_once
 (
-"
+'
 CARGO_FILE
 :
 =
@@ -7845,7 +7779,7 @@ CARGO_FILE
 s
 \
 n
-"
+'
 %
 obj
 .
@@ -7856,21 +7790,21 @@ backend_file
 .
 write_once
 (
-"
+'
 CARGO_TARGET_DIR
 :
 =
 .
 \
 n
-"
+'
 )
         
 backend_file
 .
 write
 (
-"
+'
 %
 s
 +
@@ -7879,7 +7813,7 @@ s
 s
 \
 n
-"
+'
 %
 (
 target_variable
@@ -7893,7 +7827,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s
 +
@@ -7902,7 +7836,7 @@ s
 s
 \
 n
-"
+'
 %
 (
 target_cargo_variable
@@ -7925,16 +7859,16 @@ self
 .
 _process_rust_program_base
 (
-            
 obj
 backend_file
-"
+                                        
+'
 RUST_PROGRAMS
-"
-"
+'
+                                        
+'
 RUST_CARGO_PROGRAMS
-"
-        
+'
 )
     
 def
@@ -7950,16 +7884,16 @@ self
 .
 _process_rust_program_base
 (
-            
 obj
 backend_file
-"
+                                        
+'
 HOST_RUST_PROGRAMS
-"
-"
+'
+                                        
+'
 HOST_RUST_CARGO_PROGRAMS
-"
-        
+'
 )
     
 def
@@ -7980,9 +7914,9 @@ substs
 .
 get
 (
-"
+'
 MOZ_RUST_TESTS
-"
+'
 )
 :
             
@@ -7990,9 +7924,9 @@ self
 .
 _no_skip
 [
-"
+'
 check
-"
+'
 ]
 .
 add
@@ -8006,7 +7940,7 @@ backend_file
 .
 write
 (
-"
+'
 check
 :
 :
@@ -8019,7 +7953,7 @@ test
 run
 \
 n
-"
+'
 )
         
 build_target
@@ -8043,7 +7977,7 @@ self
 _process_non_default_target
 (
 obj
-"
+'
 force
 -
 cargo
@@ -8051,7 +7985,8 @@ cargo
 test
 -
 run
-"
+'
+                                         
 backend_file
 )
         
@@ -8059,7 +7994,7 @@ backend_file
 .
 write_once
 (
-"
+'
 CARGO_FILE
 :
 =
@@ -8072,14 +8007,14 @@ Cargo
 toml
 \
 n
-"
+'
 )
         
 backend_file
 .
 write_once
 (
-"
+'
 RUST_TESTS
 :
 =
@@ -8087,10 +8022,10 @@ RUST_TESTS
 s
 \
 n
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
@@ -8104,7 +8039,7 @@ backend_file
 .
 write_once
 (
-"
+'
 RUST_TEST_FEATURES
 :
 =
@@ -8112,10 +8047,10 @@ RUST_TEST_FEATURES
 s
 \
 n
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
@@ -8144,7 +8079,7 @@ backend_file
 .
 write
 (
-"
+'
 CPP_UNIT_TESTS
 +
 =
@@ -8152,7 +8087,7 @@ CPP_UNIT_TESTS
 s
 \
 n
-"
+'
 %
 obj
 .
@@ -8171,7 +8106,7 @@ backend_file
 .
 write
 (
-"
+'
 SIMPLE_PROGRAMS
 +
 =
@@ -8179,7 +8114,7 @@ SIMPLE_PROGRAMS
 s
 \
 n
-"
+'
 %
 obj
 .
@@ -8204,7 +8139,7 @@ backend_file
 .
 write
 (
-"
+'
 PROG_IS_C_ONLY_
 %
 s
@@ -8213,7 +8148,7 @@ s
 1
 \
 n
-"
+'
 %
 obj
 .
@@ -8233,7 +8168,7 @@ backend_file
 .
 write
 (
-"
+'
 HOST_SIMPLE_PROGRAMS
 +
 =
@@ -8241,7 +8176,7 @@ HOST_SIMPLE_PROGRAMS
 s
 \
 n
-"
+'
 %
 program
 )
@@ -8262,9 +8197,9 @@ install_target
 .
 startswith
 (
-"
+'
 _tests
-"
+'
 )
 :
             
@@ -8314,9 +8249,9 @@ self
 .
 _install_manifests
 [
-"
+'
 _tests
-"
+'
 ]
 .
 add_optional_exists
@@ -8332,17 +8267,17 @@ install_target
 [
 len
 (
-"
+'
 _tests
-"
+'
 )
 +
 1
 :
 ]
+                         
 dest_basename
 )
-        
 )
     
 def
@@ -8375,6 +8310,7 @@ join
 obj
 .
 topsrcdir
+                                                      
 source
 )
 )
@@ -8402,9 +8338,9 @@ self
 .
 _install_manifests
 [
-"
+'
 _test_files
-"
+'
 ]
 .
 add_link
@@ -8445,18 +8381,17 @@ self
 .
 _install_manifests
 [
-"
+'
 _test_files
-"
+'
 ]
 .
 add_pattern_link
 (
-                    
 base
+                                                                        
 pattern
 dest
-                
 )
             
 except
@@ -8487,9 +8422,9 @@ self
 .
 _install_manifests
 [
-"
+'
 _test_files
-"
+'
 ]
 .
 add_optional_exists
@@ -8521,6 +8456,7 @@ setdefault
 obj
 .
 flavor
+                                            
 (
 obj
 .
@@ -8611,31 +8547,31 @@ d
             
 d
 =
-"
+'
 (
 CURDIR
 )
 /
-"
+'
         
 elif
 d
 =
 =
-"
+'
 (
 DEPTH
 )
-"
+'
 :
             
 d
 =
-"
+'
 (
 topobjdir
 )
-"
+'
         
 quoted_path
 =
@@ -8683,7 +8619,7 @@ backend_file
 .
 write
 (
-"
+'
 LOCAL_INCLUDES
 +
 =
@@ -8693,7 +8629,7 @@ I
 s
 \
 n
-"
+'
 %
 path
 )
@@ -8719,8 +8655,7 @@ backend_file
 .
 write
 (
-                
-"
+'
 %
 s_FLAGS
 +
@@ -8729,8 +8664,9 @@ s_FLAGS
 s
 \
 n
-"
+'
 %
+                               
 (
 mozpath
 .
@@ -8742,7 +8678,6 @@ file_name
 )
 flag
 )
-            
 )
     
 def
@@ -8770,7 +8705,7 @@ backend_file
 write
 (
                 
-"
+'
 COMPUTED_
 %
 s
@@ -8780,13 +8715,13 @@ s
 s
 \
 n
-"
-                
+'
 %
 (
 var
-"
-"
+                                         
+'
+'
 .
 join
 (
@@ -8803,7 +8738,6 @@ in
 flags
 )
 )
-            
 )
     
 def
@@ -8843,7 +8777,7 @@ backend_file
 .
 write
 (
-"
+'
 MOZBUILD_NON_DEFAULT_TARGETS
 +
 =
@@ -8851,7 +8785,7 @@ MOZBUILD_NON_DEFAULT_TARGETS
 s
 \
 n
-"
+'
 %
 target_name
 )
@@ -8869,7 +8803,7 @@ backend_file
 .
 write_once
 (
-"
+'
 LIBRARY_NAME
 :
 =
@@ -8877,7 +8811,7 @@ LIBRARY_NAME
 s
 \
 n
-"
+'
 %
 libdef
 .
@@ -8888,21 +8822,21 @@ backend_file
 .
 write
 (
-"
+'
 FORCE_SHARED_LIB
 :
 =
 1
 \
 n
-"
+'
 )
         
 backend_file
 .
 write
 (
-"
+'
 IMPORT_LIBRARY
 :
 =
@@ -8910,7 +8844,7 @@ IMPORT_LIBRARY
 s
 \
 n
-"
+'
 %
 libdef
 .
@@ -8921,7 +8855,7 @@ backend_file
 .
 write
 (
-"
+'
 SHARED_LIBRARY
 :
 =
@@ -8929,7 +8863,7 @@ SHARED_LIBRARY
 s
 \
 n
-"
+'
 %
 libdef
 .
@@ -8946,7 +8880,7 @@ backend_file
 .
 write
 (
-"
+'
 DSO_SONAME
 :
 =
@@ -8954,7 +8888,7 @@ DSO_SONAME
 s
 \
 n
-"
+'
 %
 libdef
 .
@@ -8977,7 +8911,7 @@ backend_file
 .
 write
 (
-"
+'
 EXTRA_DSO_LDOPTS
 +
 =
@@ -8985,7 +8919,7 @@ EXTRA_DSO_LDOPTS
 s
 \
 n
-"
+'
 %
 libdef
 .
@@ -9003,14 +8937,14 @@ backend_file
 .
 write
 (
-"
+'
 LIB_IS_C_ONLY
 :
 =
 1
 \
 n
-"
+'
 )
         
 if
@@ -9027,6 +8961,7 @@ libdef
 libdef
 .
 lib_name
+                                             
 backend_file
 )
             
@@ -9034,7 +8969,7 @@ backend_file
 .
 write
 (
-"
+'
 SHARED_LIBRARY_TARGET
 :
 =
@@ -9042,8 +8977,9 @@ SHARED_LIBRARY_TARGET
 s
 \
 n
-"
+'
 %
+                               
 libdef
 .
 output_category
@@ -9062,7 +8998,7 @@ backend_file
 .
 write_once
 (
-"
+'
 LIBRARY_NAME
 :
 =
@@ -9070,7 +9006,7 @@ LIBRARY_NAME
 s
 \
 n
-"
+'
 %
 libdef
 .
@@ -9081,21 +9017,21 @@ backend_file
 .
 write
 (
-"
+'
 FORCE_STATIC_LIB
 :
 =
 1
 \
 n
-"
+'
 )
         
 backend_file
 .
 write
 (
-"
+'
 REAL_LIBRARY
 :
 =
@@ -9103,7 +9039,7 @@ REAL_LIBRARY
 s
 \
 n
-"
+'
 %
 libdef
 .
@@ -9120,14 +9056,14 @@ backend_file
 .
 write
 (
-"
+'
 NO_EXPAND_LIBS
 :
 =
 1
 \
 n
-"
+'
 )
     
 def
@@ -9143,7 +9079,7 @@ backend_file
 .
 write
 (
-"
+'
 WASM_LIBRARY
 :
 =
@@ -9151,7 +9087,7 @@ WASM_LIBRARY
 s
 \
 n
-"
+'
 %
 libdef
 .
@@ -9171,8 +9107,7 @@ backend_file
 .
 write_once
 (
-            
-"
+'
 %
 s
 :
@@ -9181,7 +9116,7 @@ s
 s
 \
 n
-"
+'
 %
 (
 libdef
@@ -9191,14 +9126,13 @@ libdef
 .
 import_name
 )
-        
 )
         
 backend_file
 .
 write_once
 (
-"
+'
 CARGO_FILE
 :
 =
@@ -9211,7 +9145,7 @@ Cargo
 toml
 \
 n
-"
+'
 )
         
 target_dir
@@ -9241,7 +9175,7 @@ backend_file
 .
 write
 (
-"
+'
 CARGO_TARGET_DIR
 :
 =
@@ -9249,7 +9183,7 @@ CARGO_TARGET_DIR
 s
 \
 n
-"
+'
 %
 target_dir
 )
@@ -9264,8 +9198,7 @@ backend_file
 .
 write
 (
-                
-"
+'
 %
 s
 :
@@ -9274,14 +9207,14 @@ s
 s
 \
 n
-"
+'
 %
 (
 libdef
 .
 FEATURES_VAR
-"
-"
+'
+'
 .
 join
 (
@@ -9290,7 +9223,6 @@ libdef
 features
 )
 )
-            
 )
         
 if
@@ -9323,14 +9255,14 @@ backend_file
 .
 write
 (
-"
+'
 HOST_SHARED_LIBRARY
 =
 %
 s
 \
 n
-"
+'
 %
 libdef
 .
@@ -9349,9 +9281,9 @@ if
 hasattr
 (
 obj
-"
+'
 output_category
-"
+'
 )
 and
 obj
@@ -9378,28 +9310,27 @@ if
 target_name
 =
 =
-"
+'
 wasm
-"
+'
 :
             
 target_name
 =
-"
+'
 target
-"
+'
         
 return
-"
+'
 %
 s
 /
 %
 s
-"
+'
 %
 (
-            
 mozpath
 .
 relpath
@@ -9407,15 +9338,14 @@ relpath
 obj
 .
 objdir
+                                          
 self
 .
 environment
 .
 topobjdir
 )
-            
 target_name
-        
 )
     
 def
@@ -9442,7 +9372,6 @@ path
 .
 normpath
 (
-                
 mozpath
 .
 join
@@ -9458,9 +9387,9 @@ obj
 .
 objdir
 )
+                                                 
 name
 )
-            
 )
         
 objs
@@ -9503,12 +9432,12 @@ backend_file
         
 objs_ref
 =
-"
+'
 \
 \
 \
 n
-"
+'
 .
 join
 (
@@ -9523,6 +9452,7 @@ obj
 .
 objdir
 )
+                                    
 for
 o
 in
@@ -9531,14 +9461,12 @@ objs
         
 if
 (
-            
 objs
 =
 =
 obj
 .
 objs
-            
 and
 not
 isinstance
@@ -9547,11 +9475,12 @@ obj
 (
 HostLibrary
 StaticLibrary
+                                                      
 SandboxedWasmLibrary
 )
 )
-            
 or
+            
 isinstance
 (
 obj
@@ -9560,12 +9489,11 @@ StaticLibrary
 SandboxedWasmLibrary
 )
 )
-            
 and
+            
 obj
 .
 no_expand_lib
-        
 )
 :
             
@@ -9573,7 +9501,7 @@ backend_file
 .
 write_once
 (
-"
+'
 %
 s_OBJS
 :
@@ -9582,12 +9510,13 @@ s_OBJS
 s
 \
 n
-"
+'
 %
 (
 obj
 .
 name
+                                                         
 objs_ref
 )
 )
@@ -9596,7 +9525,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s
 :
@@ -9604,7 +9533,7 @@ s
 s
 \
 n
-"
+'
 %
 (
 obj_target
@@ -9620,6 +9549,7 @@ obj
 (
 HostLibrary
 StaticLibrary
+                                  
 SandboxedWasmLibrary
 )
 )
@@ -9627,12 +9557,12 @@ SandboxedWasmLibrary
             
 list_file_path
 =
-"
+'
 %
 s
 .
 list
-"
+'
 %
 obj
 .
@@ -9640,12 +9570,12 @@ name
 .
 replace
 (
-"
+'
 .
-"
-"
+'
+'
 _
-"
+'
 )
             
 list_file_ref
@@ -9654,7 +9584,6 @@ self
 .
 _make_list_file
 (
-                
 obj
 .
 KIND
@@ -9662,15 +9591,15 @@ obj
 .
 objdir
 objs
+                                                 
 list_file_path
-            
 )
             
 backend_file
 .
 write_once
 (
-"
+'
 %
 s_OBJS
 :
@@ -9679,8 +9608,9 @@ s_OBJS
 s
 \
 n
-"
+'
 %
+                                    
 (
 obj
 .
@@ -9693,7 +9623,7 @@ backend_file
 .
 write_once
 (
-"
+'
 %
 s
 :
@@ -9701,7 +9631,7 @@ s
 s
 \
 n
-"
+'
 %
 (
 obj_target
@@ -9713,7 +9643,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s
 :
@@ -9721,7 +9651,7 @@ s
 s
 \
 n
-"
+'
 %
 (
 obj_target
@@ -9741,25 +9671,24 @@ obj
 KIND
 !
 =
-"
+'
 host
-"
+'
 and
 obj
 .
 KIND
 !
 =
-"
+'
 wasm
-"
+'
             
 backend_file
 .
 write_once
 (
-                
-"
+'
 SHARED_LIBS
 +
 =
@@ -9767,8 +9696,9 @@ SHARED_LIBS
 s
 \
 n
-"
+'
 %
+                                    
 pretty_relpath
 (
 lib
@@ -9776,34 +9706,33 @@ lib
 .
 import_name
 )
-            
 )
         
 var
 =
-"
+'
 HOST_LIBS
-"
+'
 if
 obj
 .
 KIND
 =
 =
-"
+'
 host
-"
+'
 else
-"
+'
 STATIC_LIBS
-"
+'
         
 for
 lib
 in
 chain
 (
-            
+                
 (
 l
 for
@@ -9818,7 +9747,7 @@ l
 BaseRustLibrary
 )
 )
-            
+                
 (
 l
 for
@@ -9840,8 +9769,7 @@ backend_file
 .
 write_once
 (
-                
-"
+'
 %
 s
 +
@@ -9850,8 +9778,9 @@ s
 s
 \
 n
-"
+'
 %
+                                    
 (
 var
 pretty_relpath
@@ -9862,7 +9791,6 @@ lib
 import_name
 )
 )
-            
 )
         
 for
@@ -9877,16 +9805,16 @@ obj
 KIND
 =
 =
-"
+'
 target
-"
+'
 :
                 
 backend_file
 .
 write_once
 (
-"
+'
 OS_LIBS
 +
 =
@@ -9894,7 +9822,7 @@ OS_LIBS
 s
 \
 n
-"
+'
 %
 lib
 )
@@ -9905,16 +9833,16 @@ obj
 KIND
 =
 =
-"
+'
 host
-"
+'
 :
                 
 backend_file
 .
 write_once
 (
-"
+'
 HOST_EXTRA_LIBS
 +
 =
@@ -9922,7 +9850,7 @@ HOST_EXTRA_LIBS
 s
 \
 n
-"
+'
 %
 lib
 )
@@ -9975,8 +9903,6 @@ linked_libraries
 :
                     
 if
-(
-                        
 isinstance
 (
 lib
@@ -9985,14 +9911,11 @@ StaticLibrary
 HostLibrary
 )
 )
-                        
 and
 not
 lib
 .
 no_expand_lib
-                    
-)
 :
                         
 recurse_libraries
@@ -10025,7 +9948,6 @@ _build_target_for_obj
 (
 lib
 )
-                        
 )
                 
 relobjdir
@@ -10051,12 +9973,12 @@ mozpath
 join
 (
 relobjdir
-"
+'
 %
 s
 -
 objects
-"
+'
 %
 obj
 .
@@ -10134,7 +10056,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s_FILES
 +
@@ -10143,7 +10065,7 @@ s_FILES
 s
 \
 n
-"
+'
 %
 (
 install_target
@@ -10155,7 +10077,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s_DEST
 :
@@ -10164,7 +10086,7 @@ s_DEST
 s
 \
 n
-"
+'
 %
 (
 install_target
@@ -10176,7 +10098,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s_TARGET
 :
@@ -10185,7 +10107,7 @@ s_TARGET
 s
 \
 n
-"
+'
 %
 (
 install_target
@@ -10197,7 +10119,7 @@ backend_file
 .
 write
 (
-"
+'
 INSTALL_TARGETS
 +
 =
@@ -10205,7 +10127,7 @@ INSTALL_TARGETS
 s
 \
 n
-"
+'
 %
 install_target
 )
@@ -10232,37 +10154,34 @@ mozpath
 .
 basedir
 (
-            
 target
-            
 (
-                
-"
+            
+'
 dist
 /
 bin
-"
-                
-"
+'
+            
+'
 dist
 /
 xpi
 -
 stage
-"
-                
-"
+'
+            
+'
 _tests
-"
-                
-"
+'
+            
+'
 dist
 /
 include
-"
-            
-)
+'
         
+)
 )
         
 if
@@ -10286,11 +10205,11 @@ if
 path
 =
 =
-"
+'
 dist
 /
 include
-"
+'
 and
 self
 .
@@ -10307,12 +10226,12 @@ path
 .
 replace
 (
-"
+'
 /
-"
-"
+'
+'
 _
-"
+'
 )
         
 install_manifest
@@ -10355,6 +10274,7 @@ join
 target
 path
 )
+                          
 if
 path
 else
@@ -10363,14 +10283,12 @@ target
 .
 replace
 (
-                
-"
+'
 /
-"
-"
+'
+'
 _
-"
-            
+'
 )
             
 objdir_files
@@ -10429,9 +10347,9 @@ ObjDirPath
 :
                     
 if
-"
+'
 *
-"
+'
 in
 f
 :
@@ -10441,9 +10359,9 @@ f
 .
 startswith
 (
-"
+'
 /
-"
+'
 )
 or
 isinstance
@@ -10468,9 +10386,9 @@ full_path
 )
                             
 if
-"
+'
 *
-"
+'
 in
 basepath
 :
@@ -10478,7 +10396,6 @@ basepath
 raise
 Exception
 (
-                                    
 "
 Wildcards
 are
@@ -10489,7 +10406,7 @@ the
 filename
 part
 "
-                                    
+                                                
 "
 of
 srcdir
@@ -10500,7 +10417,6 @@ absolute
 paths
 .
 "
-                                
 )
                             
 install_manifest
@@ -10547,18 +10463,18 @@ lower
 endswith
 (
 (
-"
+'
 .
 dll
-"
-"
+'
+'
 .
 pdb
-"
-"
+'
+'
 .
 so
-"
+'
 )
 )
 :
@@ -10566,7 +10482,6 @@ so
 raise
 Exception
 (
-                                
 "
 Absolute
 paths
@@ -10575,7 +10490,7 @@ to
 FINAL_TARGET_FILES
 must
 "
-                                
+                                            
 "
 only
 be
@@ -10585,12 +10500,11 @@ or
 associated
 debug
 "
-                                
+                                            
 "
 information
 .
 "
-                            
 )
                         
 install_manifest
@@ -10647,14 +10561,14 @@ backend_file
             
 install_location
 =
-"
+'
 (
 DEPTH
 )
 /
 %
 s
-"
+'
 %
 mozpath
 .
@@ -10670,24 +10584,24 @@ objdir_files
                 
 tier
 =
-"
+'
 export
-"
+'
 if
 obj
 .
 install_target
 =
 =
-"
+'
 dist
 /
 include
-"
+'
 else
-"
+'
 misc
-"
+'
                 
 if
 objdir_files
@@ -10696,30 +10610,29 @@ objdir_files
 ]
 =
 =
-"
+'
 multilocale
 .
 txt
-"
+'
 :
                     
 tier
 =
-"
+'
 libs
-"
+'
                 
 self
 .
 _add_install_target
 (
-                    
 backend_file
 target_var
 tier
+                                         
 install_location
 objdir_files
-                
 )
             
 if
@@ -10730,9 +10643,9 @@ self
 .
 _no_skip
 [
-"
+'
 misc
-"
+'
 ]
 .
 add
@@ -10746,8 +10659,7 @@ backend_file
 .
 write
 (
-                    
-"
+'
 misc
 :
 :
@@ -10757,18 +10669,18 @@ n
 s
 \
 n
-"
-                    
+'
 %
-"
+                                   
+'
 \
 n
-"
+'
 .
 join
 (
-                        
-"
+                                       
+'
 \
 t
 (
@@ -10778,10 +10690,10 @@ INSTALL
 s
 %
 s
-"
-                        
+'
 %
 (
+                                           
 make_quote
 (
 shell_quote
@@ -10791,14 +10703,12 @@ f
 )
 install_location
 )
-                        
+                                       
 for
 f
 in
 absolute_files
-                    
 )
-                
 )
     
 def
@@ -10833,9 +10743,9 @@ self
 .
 _no_skip
 [
-"
+'
 misc
-"
+'
 ]
 .
 add
@@ -10847,12 +10757,12 @@ relobjdir
             
 var
 =
-"
+'
 %
 s_
 %
 d
-"
+'
 %
 (
 name
@@ -10869,8 +10779,7 @@ backend_file
 .
 write
 (
-                    
-"
+'
 %
 s
 +
@@ -10879,9 +10788,10 @@ s
 s
 \
 n
-"
+'
 %
 (
+                    
 var
 self
 .
@@ -10891,15 +10801,13 @@ f
 backend_file
 )
 )
-                
 )
             
 backend_file
 .
 write
 (
-                
-"
+'
 %
 s_PATH
 :
@@ -10912,8 +10820,8 @@ DEPTH
 s
 \
 n
-"
-                
+'
+                               
 %
 (
 var
@@ -10927,14 +10835,13 @@ install_target
 path
 )
 )
-            
 )
             
 backend_file
 .
 write
 (
-"
+'
 %
 s_TARGET
 :
@@ -10942,7 +10849,7 @@ s_TARGET
 misc
 \
 n
-"
+'
 %
 var
 )
@@ -10951,7 +10858,7 @@ backend_file
 .
 write
 (
-"
+'
 PP_TARGETS
 +
 =
@@ -10959,7 +10866,7 @@ PP_TARGETS
 s
 \
 n
-"
+'
 %
 var
 )
@@ -10996,22 +10903,24 @@ f
 .
 split
 (
-"
+'
 en
 -
 US
 /
-"
+'
 )
                 
 assert
+(
 not
 e
+)
                 
 if
-"
+'
 *
-"
+'
 in
 f
 :
@@ -11020,8 +10929,7 @@ backend_file
 .
 write
 (
-                        
-"
+'
 %
 s
 +
@@ -11037,13 +10945,12 @@ s
 )
 \
 n
-"
+'
 %
 (
 name
 f
 )
-                    
 )
                 
 else
@@ -11053,7 +10960,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s
 +
@@ -11066,7 +10973,7 @@ s
 )
 \
 n
-"
+'
 %
 (
 name
@@ -11081,8 +10988,7 @@ backend_file
 .
 write
 (
-                    
-"
+'
 %
 s
 +
@@ -11091,7 +10997,7 @@ s
 s
 \
 n
-"
+'
 %
 (
 name
@@ -11103,7 +11009,6 @@ f
 backend_file
 )
 )
-                
 )
     
 def
@@ -11130,11 +11035,11 @@ basedir
 (
 target
 (
-"
+'
 dist
 /
 bin
-"
+'
 )
 )
         
@@ -11146,13 +11051,13 @@ path
 raise
 Exception
 (
-"
+'
 Cannot
 install
 localized
 files
 to
-"
+'
 +
 target
 )
@@ -11176,11 +11081,11 @@ walk
             
 name
 =
-"
+'
 LOCALIZED_FILES_
 %
 d
-"
+'
 %
 i
             
@@ -11188,9 +11093,9 @@ self
 .
 _no_skip
 [
-"
+'
 misc
-"
+'
 ]
 .
 add
@@ -11207,9 +11112,9 @@ _write_localized_files_files
 files
 name
 +
-"
+'
 _FILES
-"
+'
 backend_file
 )
             
@@ -11217,7 +11122,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s_DEST
 =
@@ -11229,7 +11134,7 @@ FINAL_TARGET
 s
 \
 n
-"
+'
 %
 (
 name
@@ -11241,7 +11146,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s_TARGET
 :
@@ -11249,7 +11154,7 @@ s_TARGET
 misc
 \
 n
-"
+'
 %
 name
 )
@@ -11258,7 +11163,7 @@ backend_file
 .
 write
 (
-"
+'
 INSTALL_TARGETS
 +
 =
@@ -11266,7 +11171,7 @@ INSTALL_TARGETS
 s
 \
 n
-"
+'
 %
 name
 )
@@ -11295,11 +11200,11 @@ basedir
 (
 target
 (
-"
+'
 dist
 /
 bin
-"
+'
 )
 )
         
@@ -11311,13 +11216,13 @@ path
 raise
 Exception
 (
-"
+'
 Cannot
 install
 localized
 files
 to
-"
+'
 +
 target
 )
@@ -11341,11 +11246,11 @@ walk
             
 name
 =
-"
+'
 LOCALIZED_PP_FILES_
 %
 d
-"
+'
 %
 i
             
@@ -11353,9 +11258,9 @@ self
 .
 _no_skip
 [
-"
+'
 misc
-"
+'
 ]
 .
 add
@@ -11378,7 +11283,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s_PATH
 =
@@ -11390,7 +11295,7 @@ FINAL_TARGET
 s
 \
 n
-"
+'
 %
 (
 name
@@ -11402,7 +11307,7 @@ backend_file
 .
 write
 (
-"
+'
 %
 s_TARGET
 :
@@ -11410,7 +11315,7 @@ s_TARGET
 misc
 \
 n
-"
+'
 %
 name
 )
@@ -11419,8 +11324,7 @@ backend_file
 .
 write
 (
-                
-"
+'
 %
 s_FLAGS
 :
@@ -11436,17 +11340,16 @@ directive
 warnings
 \
 n
-"
+'
 %
 name
-            
 )
             
 backend_file
 .
 write
 (
-"
+'
 PP_TARGETS
 +
 =
@@ -11454,7 +11357,7 @@ PP_TARGETS
 s
 \
 n
-"
+'
 %
 name
 )
@@ -11490,9 +11393,9 @@ self
 .
 _no_skip
 [
-"
+'
 misc
-"
+'
 ]
 .
 add
@@ -11512,8 +11415,7 @@ backend_file
 .
 write
 (
-                    
-"
+'
 OBJDIR_
 %
 d_FILES
@@ -11523,9 +11425,10 @@ d_FILES
 s
 \
 n
-"
+'
 %
 (
+                    
 i
 self
 .
@@ -11535,14 +11438,13 @@ f
 backend_file
 )
 )
-                
 )
             
 backend_file
 .
 write
 (
-"
+'
 OBJDIR_
 %
 d_DEST
@@ -11556,7 +11458,7 @@ topobjdir
 s
 \
 n
-"
+'
 %
 (
 i
@@ -11568,7 +11470,7 @@ backend_file
 .
 write
 (
-"
+'
 OBJDIR_
 %
 d_TARGET
@@ -11577,7 +11479,7 @@ d_TARGET
 misc
 \
 n
-"
+'
 %
 i
 )
@@ -11586,7 +11488,7 @@ backend_file
 .
 write
 (
-"
+'
 INSTALL_TARGETS
 +
 =
@@ -11595,7 +11497,7 @@ OBJDIR_
 d
 \
 n
-"
+'
 %
 i
 )
@@ -11624,10 +11526,10 @@ create_rule
 targets
 =
 [
-"
+'
 misc
 :
-"
+'
 ]
 )
         
@@ -11640,11 +11542,11 @@ join
 obj
 .
 install_target
-"
+'
 chrome
 .
 manifest
-"
+'
 )
         
 if
@@ -11664,26 +11566,25 @@ mozpath
 .
 join
 (
-"
+'
 (
 DEPTH
 )
-"
+'
 top_level
 )
                 
 make_quote
 (
-                    
 shell_quote
 (
-                        
-"
+'
 manifest
 %
 s
-"
+'
 %
+                                       
 mozpath
 .
 relpath
@@ -11691,13 +11592,12 @@ relpath
 obj
 .
 path
+                                                       
 obj
 .
 install_target
 )
-                    
 )
-                
 )
             
 ]
@@ -11707,7 +11607,7 @@ rule
 add_commands
 (
 [
-"
+'
 (
 call
 py_action
@@ -11715,10 +11615,11 @@ buildlist
 %
 s
 )
-"
+'
 %
-"
-"
+                               
+'
+'
 .
 join
 (
@@ -11735,11 +11636,11 @@ mozpath
 .
 join
 (
-"
+'
 (
 DEPTH
 )
-"
+'
 obj
 .
 path
@@ -11765,7 +11666,7 @@ rule
 add_commands
 (
 [
-"
+'
 (
 call
 py_action
@@ -11773,10 +11674,10 @@ buildlist
 %
 s
 )
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
@@ -11801,9 +11702,9 @@ self
 .
 _no_skip
 [
-"
+'
 misc
-"
+'
 ]
 .
 add
@@ -11833,9 +11734,10 @@ self
 environment
 .
 topobjdir
-"
+'
 _build_manifests
-"
+'
+                               
 dest
 )
         
@@ -11901,7 +11803,7 @@ master
 write
 (
                 
-"
+'
 #
 THIS
 FILE
@@ -11919,8 +11821,7 @@ HAND
 n
 \
 n
-"
-            
+'
 )
             
 for
@@ -11936,7 +11837,7 @@ master
 .
 write
 (
-"
+'
 [
 include
 :
@@ -11945,7 +11846,7 @@ s
 ]
 \
 n
-"
+'
 %
 manifest
 )
@@ -11977,25 +11878,25 @@ __slots__
 =
 (
             
-"
+'
 input_path
-"
+'
             
-"
+'
 output_path
-"
+'
             
-"
+'
 topsrcdir
-"
+'
             
-"
+'
 topobjdir
-"
+'
             
-"
+'
 config
-"
+'
         
 )
     
@@ -12013,9 +11914,9 @@ None
 )
 :
         
-"
-"
-"
+'
+'
+'
 Creates
 the
 given
@@ -12071,9 +11972,9 @@ is
 created
 .
         
-"
-"
-"
+'
+'
+'
         
 with
 self
@@ -12107,11 +12008,11 @@ context
 .
 get
 (
-"
+'
 autoconfmk
-"
-"
-"
+'
+'
+'
 )
 :
                 
@@ -12119,23 +12020,22 @@ pp
 .
 context
 [
-"
+'
 autoconfmk
-"
+'
 ]
 =
-"
+'
 autoconf
 .
 mk
-"
+'
             
 pp
 .
 handleLine
 (
-                
-"
+'
 #
 THIS
 FILE
@@ -12151,99 +12051,98 @@ HAND
 .
 \
 n
-"
-            
+'
 )
             
 pp
 .
 handleLine
 (
-"
+'
 DEPTH
 :
 =
 DEPTH
 \
 n
-"
+'
 )
             
 pp
 .
 handleLine
 (
-"
+'
 topobjdir
 :
 =
 topobjdir
 \
 n
-"
+'
 )
             
 pp
 .
 handleLine
 (
-"
+'
 topsrcdir
 :
 =
 top_srcdir
 \
 n
-"
+'
 )
             
 pp
 .
 handleLine
 (
-"
+'
 srcdir
 :
 =
 srcdir
 \
 n
-"
+'
 )
             
 pp
 .
 handleLine
 (
-"
+'
 srcdir_rel
 :
 =
 srcdir_rel
 \
 n
-"
+'
 )
             
 pp
 .
 handleLine
 (
-"
+'
 relativesrcdir
 :
 =
 relativesrcdir
 \
 n
-"
+'
 )
             
 pp
 .
 handleLine
 (
-"
+'
 include
 (
 DEPTH
@@ -12254,7 +12153,7 @@ config
 autoconfmk
 \
 n
-"
+'
 )
             
 if
@@ -12275,17 +12174,17 @@ pp
 .
 handleLine
 (
-"
+'
 \
 n
-"
+'
 )
             
 pp
 .
 handleLine
 (
-"
+'
 include
 (
 topsrcdir
@@ -12298,7 +12197,7 @@ recurse
 mk
 \
 n
-"
+'
 )
         
 if
@@ -12346,7 +12245,7 @@ backend_file
 .
 write
 (
-"
+'
 RS_STATICLIB_CRATE_SRC
 :
 =
@@ -12354,7 +12253,7 @@ RS_STATICLIB_CRATE_SRC
 s
 \
 n
-"
+'
 %
 extern_crate_file
 )
@@ -12362,19 +12261,13 @@ extern_crate_file
 def
 _handle_ipdl_sources
 (
-        
 self
-        
 ipdl_dir
-        
 sorted_ipdl_sources
-        
 sorted_nonstatic_ipdl_sources
-        
+                             
 sorted_static_ipdl_sources
-        
 unified_ipdl_cppsrcs_mapping
-    
 )
 :
         
@@ -12438,16 +12331,15 @@ rule
 .
 add_commands
 (
-                
 [
-                    
-"
+                
+'
 (
 RM
 )
-"
-                    
-"
+'
+                
+'
 (
 call
 py_action
@@ -12458,25 +12350,23 @@ DEFINES
 (
 ACDEFINES
 )
-"
-                    
-"
+'
+                
+'
 <
 -
 o
 )
-"
-                
-]
+'
             
+]
 )
         
 mk
 .
 add_statement
 (
-            
-"
+'
 ALL_IPDLSRCS
 :
 =
@@ -12484,44 +12374,39 @@ ALL_IPDLSRCS
 s
 %
 s
-"
-            
+'
 %
 (
-                
-"
-"
+'
+'
 .
 join
 (
 sorted_nonstatic_ipdl_basenames
 )
-                
-"
-"
+                                                    
+'
+'
 .
 join
 (
 sorted_static_ipdl_sources
 )
-            
 )
-        
 )
         
 self
 .
 _add_unified_build_rules
 (
-            
 mk
 unified_ipdl_cppsrcs_mapping
+                                      
 unified_files_makefile_variable
 =
-"
+'
 CPPSRCS
-"
-        
+'
 )
         
 mk
@@ -12529,7 +12414,7 @@ mk
 add_statement
 (
             
-"
+'
 IPDLDIRS
 :
 =
@@ -12537,19 +12422,15 @@ IPDLDIRS
 s
 %
 s
-"
-            
+'
 %
 (
-                
 ipdl_dir
-                
-"
-"
+'
+'
 .
 join
 (
-                    
 sorted
 (
 set
@@ -12560,17 +12441,15 @@ dirname
 (
 p
 )
+                                                      
 for
 p
 in
 sorted_static_ipdl_sources
 )
 )
-                
 )
-            
 )
-        
 )
         
 with
@@ -12583,11 +12462,11 @@ mozpath
 join
 (
 ipdl_dir
-"
+'
 ipdlsrcs
 .
 mk
-"
+'
 )
 )
 as
@@ -12607,19 +12486,14 @@ False
 def
 _handle_webidl_build
 (
-        
 self
-        
 bindings_dir
-        
 unified_source_mapping
-        
+                             
 webidls
-        
 expected_build_output_files
-        
+                             
 global_define_files
-    
 )
 :
         
@@ -12634,12 +12508,13 @@ self
 environment
 .
 topobjdir
-"
+'
 dist
-"
-"
+'
+                                   
+'
 include
-"
+'
 )
         
 for
@@ -12661,9 +12536,9 @@ self
 .
 _install_manifests
 [
-"
+'
 dist_include
-"
+'
 ]
 .
 add_optional_exists
@@ -12676,7 +12551,6 @@ relpath
 f
 include_dir
 )
-                
 )
         
 mk
@@ -12689,21 +12563,20 @@ mk
 .
 add_statement
 (
-            
-"
+'
 nonstatic_webidl_files
 :
 =
 %
 s
-"
-            
+'
 %
-"
-"
+'
+'
 .
 join
 (
+            
 sorted
 (
 webidls
@@ -12713,62 +12586,59 @@ all_non_static_basenames
 )
 )
 )
-        
 )
         
 mk
 .
 add_statement
 (
-            
-"
+'
 globalgen_sources
 :
 =
 %
 s
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
+            
 sorted
 (
 global_define_files
 )
 )
-        
 )
         
 mk
 .
 add_statement
 (
-            
-"
+'
 test_sources
 :
 =
 %
 s
-"
-            
+'
 %
-"
-"
+'
+'
 .
 join
 (
+            
 sorted
 (
-"
+'
 %
 sBinding
 .
 cpp
-"
+'
 %
 s
 for
@@ -12781,7 +12651,6 @@ all_test_stems
 )
 )
 )
-        
 )
         
 for
@@ -12825,11 +12694,11 @@ add_dependencies
 (
 [
 source
-"
+'
 (
 WEBIDL_PP_DEPS
 )
-"
+'
 ]
 )
             
@@ -12837,16 +12706,15 @@ rule
 .
 add_commands
 (
-                
 [
-                    
-"
+                
+'
 (
 RM
 )
-"
-                    
-"
+'
+                
+'
 (
 call
 py_action
@@ -12857,34 +12725,31 @@ DEFINES
 (
 ACDEFINES
 )
-"
-                    
-"
+'
+                
+'
 <
 -
 o
 )
-"
-                
-]
+'
             
+]
 )
         
 self
 .
 _add_unified_build_rules
 (
-            
 mk
-            
+                                      
 unified_source_mapping
-            
+                                      
 unified_files_makefile_variable
 =
-"
+'
 unified_binding_cpp_files
-"
-        
+'
 )
         
 webidls_mk
@@ -12894,11 +12759,11 @@ mozpath
 join
 (
 bindings_dir
-"
+'
 webidlsrcs
 .
 mk
-"
+'
 )
         
 with
@@ -12931,9 +12796,9 @@ substs
 .
 get
 (
-"
+'
 ENABLE_TESTS
-"
+'
 )
 :
             
@@ -12941,12 +12806,11 @@ self
 .
 _compile_graph
 [
-                
 mozpath
 .
 join
 (
-                    
+                
 mozpath
 .
 relpath
@@ -12958,19 +12822,16 @@ environment
 .
 topobjdir
 )
-                    
-"
+                
+'
 test
-"
-                    
-"
+'
+'
 target
 -
 objects
-"
-                
+'
 )
-            
 ]
     
 def
@@ -12989,13 +12850,13 @@ localized
 :
             
 if
-"
+'
 locales
 /
 en
 -
 US
-"
+'
 in
 path
 :
@@ -13006,17 +12867,17 @@ path
 .
 startswith
 (
-"
+'
 /
-"
+'
 )
 :
                     
 path
 =
-"
+'
 /
-"
+'
 +
 mozpath
 .
@@ -13037,22 +12898,24 @@ path
 .
 split
 (
-"
+'
 locales
 /
 en
 -
 US
 /
-"
+'
 1
 )
                 
 assert
+(
 f
+)
                 
 return
-"
+'
 (
 call
 MERGE_RELATIVE_FILE
@@ -13062,7 +12925,7 @@ MERGE_RELATIVE_FILE
 }
 locales
 )
-"
+'
 .
 format
 (
@@ -13075,22 +12938,21 @@ e
 .
 startswith
 (
-"
+'
 /
-"
+'
 )
 else
 e
 [
 len
 (
-"
+'
 /
-"
+'
 )
 :
 ]
-                
 )
             
 elif
@@ -13098,12 +12960,12 @@ path
 .
 startswith
 (
-"
+'
 en
 -
 US
 /
-"
+'
 )
 :
                 
@@ -13114,28 +12976,30 @@ path
 .
 split
 (
-"
+'
 en
 -
 US
 /
-"
+'
 1
 )
                 
 assert
+(
 not
 e
+)
                 
 return
-"
+'
 (
 call
 MERGE_FILE
 %
 s
 )
-"
+'
 %
 f
             
@@ -13195,9 +13059,9 @@ ObjDirPath
 obj
 .
 _context
-"
+'
 !
-"
+'
 +
 path
 )

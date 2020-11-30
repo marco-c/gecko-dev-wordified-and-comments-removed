@@ -253,9 +253,9 @@ VARIABLES
 =
 {
     
-"
+'
 HOGE
-"
+'
 :
 (
 six
@@ -267,9 +267,9 @@ text_type
 None
 )
     
-"
+'
 FUGA
-"
+'
 :
 (
 Fuga
@@ -279,9 +279,9 @@ text_type
 None
 )
     
-"
+'
 PIYO
-"
+'
 :
 (
 Piyo
@@ -291,9 +291,9 @@ text_type
 None
 )
     
-"
+'
 HOGERA
-"
+'
 :
 (
 ContextDerivedTypedList
@@ -301,42 +301,36 @@ ContextDerivedTypedList
 Piyo
 StrictOrderingOnAppendList
 )
+               
 list
 None
 )
     
-"
+'
 HOGEHOGE
-"
+'
 :
 (
-        
 ContextDerivedTypedListWithItems
 (
-            
+        
 Piyo
-            
+        
 StrictOrderingOnAppendListWithFlagsFactory
 (
-                
 {
-                    
-"
+            
+'
 foo
-"
+'
 :
 bool
-                
+        
 }
-            
 )
-        
 )
-        
 list
-        
 None
-    
 )
 }
 class
@@ -377,9 +371,9 @@ ke
             
 ns
 [
-"
+'
 foo
-"
+'
 ]
 =
 True
@@ -400,9 +394,9 @@ e
 [
 0
 ]
-"
+'
 global_ns
-"
+'
 )
         
 self
@@ -413,9 +407,9 @@ e
 [
 1
 ]
-"
+'
 set_unknown
-"
+'
 )
         
 self
@@ -426,9 +420,9 @@ e
 [
 2
 ]
-"
+'
 foo
-"
+'
 )
         
 self
@@ -454,9 +448,9 @@ ke
             
 ns
 [
-"
+'
 FOO
-"
+'
 ]
 =
 True
@@ -477,9 +471,9 @@ e
 [
 0
 ]
-"
+'
 global_ns
-"
+'
 )
         
 self
@@ -490,9 +484,9 @@ e
 [
 1
 ]
-"
+'
 set_unknown
-"
+'
 )
         
 self
@@ -503,9 +497,9 @@ e
 [
 2
 ]
-"
+'
 FOO
-"
+'
 )
         
 self
@@ -529,9 +523,9 @@ self
 .
 assertIn
 (
-"
+'
 HOGE
-"
+'
 VARIABLES
 )
         
@@ -546,14 +540,14 @@ VARIABLES
         
 ns
 [
-"
+'
 HOGE
-"
+'
 ]
 =
-"
+'
 foo
-"
+'
         
 self
 .
@@ -561,13 +555,13 @@ assertEqual
 (
 ns
 [
-"
+'
 HOGE
-"
+'
 ]
-"
+'
 foo
-"
+'
 )
     
 def
@@ -599,9 +593,9 @@ ve
             
 ns
 [
-"
+'
 HOGE
-"
+'
 ]
 =
 True
@@ -622,9 +616,9 @@ e
 [
 0
 ]
-"
+'
 global_ns
-"
+'
 )
         
 self
@@ -635,9 +629,9 @@ e
 [
 1
 ]
-"
+'
 set_type
-"
+'
 )
         
 self
@@ -648,9 +642,9 @@ e
 [
 2
 ]
-"
+'
 HOGE
-"
+'
 )
         
 self
@@ -697,9 +691,9 @@ self
 .
 assertFalse
 (
-"
+'
 HOGE
-"
+'
 in
 g
 )
@@ -708,9 +702,9 @@ self
 .
 assertFalse
 (
-"
+'
 HOGE
-"
+'
 in
 g
 )
@@ -744,9 +738,9 @@ ve
             
 ns
 [
-"
+'
 FUGA
-"
+'
 ]
 =
 False
@@ -767,9 +761,9 @@ e
 [
 0
 ]
-"
+'
 global_ns
-"
+'
 )
         
 self
@@ -780,9 +774,9 @@ e
 [
 1
 ]
-"
+'
 set_type
-"
+'
 )
         
 self
@@ -793,9 +787,9 @@ e
 [
 2
 ]
-"
+'
 FUGA
-"
+'
 )
         
 self
@@ -824,14 +818,14 @@ text_type
         
 ns
 [
-"
+'
 FUGA
-"
+'
 ]
 =
-"
+'
 fuga
-"
+'
         
 self
 .
@@ -839,9 +833,9 @@ assertIsInstance
 (
 ns
 [
-"
+'
 FUGA
-"
+'
 ]
 Fuga
 )
@@ -852,29 +846,29 @@ assertEqual
 (
 ns
 [
-"
+'
 FUGA
-"
+'
 ]
 .
 value
-"
+'
 fuga
-"
+'
 )
         
 ns
 [
-"
+'
 FUGA
-"
+'
 ]
 =
 Fuga
 (
-"
+'
 hoge
-"
+'
 )
         
 self
@@ -883,9 +877,9 @@ assertIsInstance
 (
 ns
 [
-"
+'
 FUGA
-"
+'
 ]
 Fuga
 )
@@ -896,15 +890,15 @@ assertEqual
 (
 ns
 [
-"
+'
 FUGA
-"
+'
 ]
 .
 value
-"
+'
 hoge
-"
+'
 )
     
 def
@@ -936,9 +930,9 @@ ve
             
 ns
 [
-"
+'
 PIYO
-"
+'
 ]
 =
 False
@@ -959,9 +953,9 @@ e
 [
 0
 ]
-"
+'
 global_ns
-"
+'
 )
         
 self
@@ -972,9 +966,9 @@ e
 [
 1
 ]
-"
+'
 set_type
-"
+'
 )
         
 self
@@ -985,9 +979,9 @@ e
 [
 2
 ]
-"
+'
 PIYO
-"
+'
 )
         
 self
@@ -1016,14 +1010,14 @@ text_type
         
 ns
 [
-"
+'
 PIYO
-"
+'
 ]
 =
-"
+'
 piyo
-"
+'
         
 self
 .
@@ -1031,9 +1025,9 @@ assertIsInstance
 (
 ns
 [
-"
+'
 PIYO
-"
+'
 ]
 Piyo
 )
@@ -1044,15 +1038,15 @@ assertEqual
 (
 ns
 [
-"
+'
 PIYO
-"
+'
 ]
 .
 value
-"
+'
 piyo
-"
+'
 )
         
 self
@@ -1061,9 +1055,9 @@ assertEqual
 (
 ns
 [
-"
+'
 PIYO
-"
+'
 ]
 .
 context
@@ -1072,17 +1066,17 @@ ns
         
 ns
 [
-"
+'
 PIYO
-"
+'
 ]
 =
 Piyo
 (
 ns
-"
+'
 fuga
-"
+'
 )
         
 self
@@ -1091,9 +1085,9 @@ assertIsInstance
 (
 ns
 [
-"
+'
 PIYO
-"
+'
 ]
 Piyo
 )
@@ -1104,15 +1098,15 @@ assertEqual
 (
 ns
 [
-"
+'
 PIYO
-"
+'
 ]
 .
 value
-"
+'
 fuga
-"
+'
 )
         
 self
@@ -1121,9 +1115,9 @@ assertEqual
 (
 ns
 [
-"
+'
 PIYO
-"
+'
 ]
 .
 context
@@ -1157,9 +1151,9 @@ ValueError
             
 ns
 [
-"
+'
 HOGERA
-"
+'
 ]
 =
 [
@@ -1168,22 +1162,22 @@ False
         
 ns
 [
-"
+'
 HOGERA
-"
+'
 ]
 +
 =
 [
-"
+'
 a
-"
-"
+'
+'
 b
-"
-"
+'
+'
 c
-"
+'
 ]
         
 self
@@ -1192,15 +1186,15 @@ assertIsInstance
 (
 ns
 [
-"
+'
 HOGERA
-"
+'
 ]
 VARIABLES
 [
-"
+'
 HOGERA
-"
+'
 ]
 [
 0
@@ -1223,9 +1217,9 @@ assertIsInstance
 (
 ns
 [
-"
+'
 HOGERA
-"
+'
 ]
 [
 n
@@ -1239,9 +1233,9 @@ assertEqual
 (
 ns
 [
-"
+'
 HOGERA
-"
+'
 ]
 [
 n
@@ -1249,15 +1243,15 @@ n
 .
 value
 [
-"
+'
 a
-"
-"
+'
+'
 b
-"
-"
+'
+'
 c
-"
+'
 ]
 [
 n
@@ -1270,9 +1264,9 @@ assertEqual
 (
 ns
 [
-"
+'
 HOGERA
-"
+'
 ]
 [
 n
@@ -1293,22 +1287,22 @@ UnsortedError
             
 ns
 [
-"
+'
 HOGERA
-"
+'
 ]
 +
 =
 [
-"
+'
 f
-"
-"
+'
+'
 e
-"
-"
+'
+'
 d
-"
+'
 ]
     
 def
@@ -1338,9 +1332,9 @@ ValueError
             
 ns
 [
-"
+'
 HOGEHOGE
-"
+'
 ]
 =
 [
@@ -1350,22 +1344,22 @@ False
 values
 =
 [
-"
+'
 a
-"
-"
+'
+'
 b
-"
-"
+'
+'
 c
-"
+'
 ]
         
 ns
 [
-"
+'
 HOGEHOGE
-"
+'
 ]
 +
 =
@@ -1377,15 +1371,15 @@ assertIsInstance
 (
 ns
 [
-"
+'
 HOGEHOGE
-"
+'
 ]
 VARIABLES
 [
-"
+'
 HOGEHOGE
-"
+'
 ]
 [
 0
@@ -1400,9 +1394,9 @@ values
             
 ns
 [
-"
+'
 HOGEHOGE
-"
+'
 ]
 [
 v
@@ -1421,9 +1415,9 @@ zip
 values
 ns
 [
-"
+'
 HOGEHOGE
-"
+'
 ]
 )
 :
@@ -1450,9 +1444,9 @@ assertEqual
 (
 ns
 [
-"
+'
 HOGEHOGE
-"
+'
 ]
 [
 v
@@ -1468,9 +1462,9 @@ assertEqual
 (
 ns
 [
-"
+'
 HOGEHOGE
-"
+'
 ]
 [
 item
@@ -1491,30 +1485,30 @@ UnsortedError
             
 ns
 [
-"
+'
 HOGEHOGE
-"
+'
 ]
 +
 =
 [
-"
+'
 f
-"
-"
+'
+'
 e
-"
-"
+'
+'
 d
-"
+'
 ]
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

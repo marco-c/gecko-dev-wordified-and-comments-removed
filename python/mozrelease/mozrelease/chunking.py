@@ -32,7 +32,6 @@ chunks
 raise
 ChunkingError
 (
-            
 "
 thisChunk
 (
@@ -50,11 +49,11 @@ d
 )
 "
 %
+                            
 (
 thisChunk
 chunks
 )
-        
 )
     
 possibleThings

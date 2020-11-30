@@ -66,9 +66,9 @@ parameter
 "
     
 if
-"
+'
 num_fails_crashed
-"
+'
 in
 request
 .
@@ -81,9 +81,9 @@ request
 .
 getfuncargvalue
 (
-"
+'
 num_fails_crashed
-"
+'
 )
     
 else
@@ -181,9 +181,9 @@ parameter
 "
     
 if
-"
+'
 num_fails_crashed
-"
+'
 in
 request
 .
@@ -197,9 +197,9 @@ request
 .
 getfuncargvalue
 (
-"
+'
 num_fails_crashed
-"
+'
 )
     
 else
@@ -345,9 +345,10 @@ num_fails_crashed
 def
 test_call_harness_with_parsed_args_yields_num_failures
 (
-    
 mach_parsed_kwargs
+                                                           
 runner_class
+                                                           
 num_fails_crashed
 )
 :
@@ -356,7 +357,7 @@ with
 patch
 (
         
-"
+'
 marionette_harness
 .
 runtests
@@ -364,7 +365,7 @@ runtests
 MarionetteHarness
 .
 parse_args
-"
+'
     
 )
 as
@@ -375,12 +376,11 @@ failed_or_crashed
 =
 MarionetteHarness
 (
-            
 runner_class
+                                              
 args
 =
 mach_parsed_kwargs
-        
 )
 .
 run
@@ -412,7 +412,7 @@ with
 patch
 (
         
-"
+'
 marionette_harness
 .
 runtests
@@ -420,14 +420,14 @@ runtests
 MarionetteHarness
 .
 parse_args
-"
+'
         
 return_value
 =
 {
-"
+'
 tests
-"
+'
 :
 [
 ]
@@ -485,9 +485,9 @@ arg_list
 .
 remove
 (
-"
+'
 tests
-"
+'
 )
     
 mach_parsed_kwargs
@@ -600,9 +600,9 @@ mach_parsed_kwargs
 .
 pop
 (
-"
+'
 tests
-"
+'
 )
     
 runner
@@ -628,25 +628,25 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit
 .
 main
 (
-"
+'
 -
 p
-"
-"
+'
+'
 no
 :
 terminalreporter
-"
-"
+'
+'
 -
 -
 log
@@ -654,13 +654,13 @@ log
 tbpl
 =
 -
-"
-"
+'
+'
 -
 -
 capture
-"
-"
+'
+'
 no
-"
+'
 )

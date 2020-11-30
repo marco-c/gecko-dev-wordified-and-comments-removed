@@ -190,6 +190,7 @@ item
 :
         
 if
+(
 item
 [
 "
@@ -202,6 +203,7 @@ action
 log
 "
 or
+                
 log_levels
 [
 item
@@ -220,6 +222,7 @@ upper
 self
 .
 level
+)
 :
             
 return
@@ -419,10 +422,8 @@ StringIO
 and
 isinstance
 (
-                    
 formatted
 bytes
-                
 )
 :
                     
@@ -436,7 +437,7 @@ decode
                 
 elif
 (
-                    
+                     
 isinstance
 (
 self
@@ -446,7 +447,7 @@ io
 .
 BytesIO
 )
-                    
+                     
 or
 isinstance
 (
@@ -457,7 +458,7 @@ mozfile
 .
 NamedTemporaryFile
 )
-                
+                     
 )
 and
 isinstance

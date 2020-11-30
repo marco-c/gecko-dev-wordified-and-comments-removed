@@ -88,7 +88,7 @@ re
 compile
 (
 r
-"
+'
 Got
 revision
 (
@@ -96,7 +96,7 @@ revision
 w
 +
 )
-"
+'
 )
     
 got_revision
@@ -168,6 +168,7 @@ None
 vcs_config
 =
 None
+                 
 script_obj
 =
 None
@@ -230,16 +231,16 @@ self
 .
 query_exe
 (
-"
+'
 gittool
 .
 py
-"
+'
 return_type
 =
-"
+'
 list
-"
+'
 )
     
 def
@@ -297,12 +298,12 @@ for
 conf_item
 in
 (
-"
+'
 dest
-"
-"
+'
+'
 repo
-"
+'
 )
 :
             
@@ -324,9 +325,9 @@ abspath
 (
 c
 [
-"
+'
 dest
-"
+'
 ]
 )
         
@@ -334,9 +335,9 @@ repo
 =
 c
 [
-"
+'
 repo
-"
+'
 ]
         
 revision
@@ -345,9 +346,9 @@ c
 .
 get
 (
-"
+'
 revision
-"
+'
 )
         
 branch
@@ -356,9 +357,9 @@ c
 .
 get
 (
-"
+'
 branch
-"
+'
 )
         
 clean
@@ -367,9 +368,9 @@ c
 .
 get
 (
-"
+'
 clean
-"
+'
 )
         
 share_base
@@ -378,15 +379,17 @@ c
 .
 get
 (
-"
+            
+'
 vcs_share_base
-"
+'
 os
 .
 environ
 .
 get
 (
+                
 "
 GIT_SHARE_BASE_DIR
 "
@@ -397,9 +400,9 @@ None
 env
 =
 {
-"
+'
 PATH
-"
+'
 :
 os
 .
@@ -407,9 +410,9 @@ environ
 .
 get
 (
-"
+'
 PATH
-"
+'
 )
 }
         
@@ -421,9 +424,9 @@ c
 .
 get
 (
-"
+'
 env
-"
+'
 {
 }
 )
@@ -439,12 +442,12 @@ _is_windows
             
 env
 [
-"
+'
 PATH
-"
+'
 ]
 =
-"
+'
 %
 s
 ;
@@ -458,19 +461,19 @@ build
 Git
 /
 bin
-"
+'
 %
 env
 [
-"
+'
 PATH
-"
+'
 ]
             
 if
-"
+'
 SYSTEMROOT
-"
+'
 not
 in
 env
@@ -478,9 +481,9 @@ env
                 
 env
 [
-"
+'
 SYSTEMROOT
-"
+'
 ]
 =
 os
@@ -489,9 +492,9 @@ environ
 .
 get
 (
-"
+'
 SYSTEMROOT
-"
+'
 )
         
 if
@@ -503,9 +506,9 @@ None
             
 env
 [
-"
+'
 GIT_SHARE_BASE_DIR
-"
+'
 ]
 =
 share_base
@@ -528,10 +531,10 @@ cmd
 extend
 (
 [
-"
+'
 -
 b
-"
+'
 branch
 ]
 )
@@ -545,10 +548,10 @@ cmd
 extend
 (
 [
-"
+'
 -
 r
-"
+'
 revision
 ]
 )
@@ -561,11 +564,11 @@ cmd
 .
 append
 (
-"
+'
 -
 -
 clean
-"
+'
 )
         
 for
@@ -577,23 +580,22 @@ config
 .
 get
 (
-            
-"
+                
+'
 gittool_base_mirror_urls
-"
+'
 self
 .
 config
 .
 get
 (
-"
+'
 vcs_base_mirror_urls
-"
+'
 [
 ]
 )
-        
 )
 :
             
@@ -623,11 +625,11 @@ cmd
 extend
 (
 [
-"
+'
 -
 -
 mirror
-"
+'
 mirror_url
 ]
 )
@@ -646,7 +648,6 @@ parser
 =
 GittoolParser
 (
-            
 config
 =
 self
@@ -657,10 +658,10 @@ log_obj
 self
 .
 log_obj
+                               
 error_list
 =
 GitErrorList
-        
 )
         
 retval
@@ -671,16 +672,18 @@ run_command
 (
             
 cmd
+            
 error_list
 =
 GitErrorList
+            
 env
 =
 env
+            
 output_parser
 =
 parser
-        
 )
         
 if

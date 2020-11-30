@@ -70,22 +70,22 @@ mozpath
 join
 (
 OUR_DIR
-"
+'
 .
 .
-"
-"
+'
+'
 .
 .
-"
-"
+'
+'
 .
 .
-"
-"
+'
+'
 .
 .
-"
+'
 )
 )
 class
@@ -101,21 +101,21 @@ TEST_STEMS
 =
 {
         
-"
+'
 Child
-"
+'
         
-"
+'
 Parent
-"
+'
         
-"
+'
 ExampleBinding
-"
+'
         
-"
+'
 TestEvent
-"
+'
     
 }
     
@@ -131,7 +131,6 @@ self
 s
 =
 {
-            
 mozpath
 .
 join
@@ -139,7 +138,6 @@ join
 OUR_DIR
 p
 )
-            
 for
 p
 in
@@ -149,18 +147,17 @@ listdir
 (
 OUR_DIR
 )
-            
+             
 if
 p
 .
 endswith
 (
-"
+'
 .
 webidl
-"
+'
 )
-        
 }
         
 return
@@ -182,17 +179,17 @@ mozpath
 join
 (
 TOPSRCDIR
-"
+'
 dom
-"
-"
+'
+'
 bindings
-"
-"
+'
+'
 Bindings
 .
 conf
-"
+'
 )
         
 self
@@ -244,9 +241,9 @@ mozpath
 join
 (
 tmp
-"
+'
 cache
-"
+'
 )
         
 os
@@ -324,9 +321,9 @@ mozpath
 join
 (
 tmp
-"
+'
 exports
-"
+'
 )
             
 codegen_dir
@@ -336,9 +333,9 @@ mozpath
 join
 (
 tmp
-"
+'
 codegen
-"
+'
 )
             
 state_path
@@ -348,11 +345,11 @@ mozpath
 join
 (
 tmp
-"
+'
 state
 .
 json
-"
+'
 )
             
 make_deps_path
@@ -362,20 +359,20 @@ mozpath
 join
 (
 tmp
-"
+'
 codegen
 .
 pp
-"
+'
 )
             
 make_deps_target
 =
-"
+'
 codegen
 .
 pp
-"
+'
             
 cache_dir
 =
@@ -440,9 +437,9 @@ p
 =
 args
 [
-"
+'
 state_path
-"
+'
 ]
         
 with
@@ -451,15 +448,15 @@ io
 open
 (
 p
-"
+'
 w
-"
+'
 newline
 =
-"
+'
 \
 n
-"
+'
 )
 as
 fh
@@ -469,31 +466,28 @@ json
 .
 dump
 (
-                
 {
-                    
-"
+                
+'
 version
-"
+'
 :
 WebIDLCodegenManagerState
 .
 VERSION
 +
 1
-                    
-"
+                
+'
 foobar
-"
+'
 :
-"
+'
 1
-"
-                
-}
-                
-fh
+'
             
+}
+fh
 )
         
 manager
@@ -513,10 +507,11 @@ manager
 .
 _state
 [
-"
+'
 version
-"
+'
 ]
+                         
 WebIDLCodegenManagerState
 .
 VERSION
@@ -526,9 +521,9 @@ self
 .
 assertNotIn
 (
-"
+'
 foobar
-"
+'
 manager
 .
 _state
@@ -711,40 +706,36 @@ self
 .
 assertTrue
 (
-                
 os
 .
 path
 .
 isfile
 (
-                    
 mozpath
 .
 join
 (
+                
 manager
 .
 _exported_header_dir
-"
+'
 %
 sBinding
 .
 h
-"
+'
 %
 s
 )
-                
 )
-            
 )
             
 self
 .
 assertTrue
 (
-                
 os
 .
 path
@@ -755,20 +746,20 @@ mozpath
 .
 join
 (
+                
 manager
 .
 _codegen_dir
-"
+'
 %
 sBinding
 .
 cpp
-"
+'
 %
 s
 )
 )
-            
 )
         
 self
@@ -795,9 +786,9 @@ open
 manager
 .
 _state_path
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -818,9 +809,9 @@ assertEqual
 (
 state
 [
-"
+'
 version
-"
+'
 ]
 3
 )
@@ -829,9 +820,9 @@ self
 .
 assertIn
 (
-"
+'
 webidls
-"
+'
 state
 )
             
@@ -839,16 +830,16 @@ child
 =
 state
 [
-"
+'
 webidls
-"
+'
 ]
 [
-"
+'
 Child
 .
 webidl
-"
+'
 ]
             
 self
@@ -859,9 +850,9 @@ len
 (
 child
 [
-"
+'
 inputs
-"
+'
 ]
 )
 2
@@ -875,9 +866,9 @@ len
 (
 child
 [
-"
+'
 outputs
-"
+'
 ]
 )
 2
@@ -889,13 +880,13 @@ assertEqual
 (
 child
 [
-"
+'
 sha1
-"
+'
 ]
-"
+'
 c41527cad3bc161fa6e7909e48fa11f9eca0468b
-"
+'
 )
     
 def
@@ -949,9 +940,9 @@ m1
 .
 _state
 [
-"
+'
 webidls
-"
+'
 ]
 )
 0
@@ -982,9 +973,9 @@ m2
 .
 _state
 [
-"
+'
 webidls
-"
+'
 ]
 )
 2
@@ -1161,21 +1152,21 @@ m1
 .
 _state
 [
-"
+'
 webidls
-"
+'
 ]
 [
-"
+'
 Child
 .
 webidl
-"
+'
 ]
 [
-"
+'
 outputs
-"
+'
 ]
 :
             
@@ -1314,11 +1305,11 @@ p
 .
 endswith
 (
-"
+'
 Child
 .
 webidl
-"
+'
 )
 :
                 
@@ -1342,9 +1333,9 @@ io
 open
 (
 child_path
-"
+'
 r
-"
+'
 )
 .
 read
@@ -1359,14 +1350,14 @@ child_path
 :
 child_content
 +
-"
+'
 \
 n
 /
 *
 *
 /
-"
+'
 }
 )
 :
@@ -1499,11 +1490,11 @@ p
 .
 endswith
 (
-"
+'
 Parent
 .
 webidl
-"
+'
 )
 :
                 
@@ -1516,11 +1507,11 @@ p
 .
 endswith
 (
-"
+'
 Child
 .
 webidl
-"
+'
 )
 :
                 
@@ -1542,9 +1533,9 @@ io
 open
 (
 parent_path
-"
+'
 r
-"
+'
 )
 .
 read
@@ -1559,14 +1550,14 @@ parent_path
 :
 parent_content
 +
-"
+'
 \
 n
 /
 *
 *
 /
-"
+'
 }
 )
 :
@@ -1660,19 +1651,19 @@ mozpath
 join
 (
 OUR_DIR
-"
+'
 fakemodule
 .
 py
-"
+'
 )
         
 with
 NamedTemporaryFile
 (
-"
+'
 wt
-"
+'
 )
 as
 fh
@@ -1682,11 +1673,11 @@ fh
 .
 write
 (
-"
+'
 #
 Original
 content
-"
+'
 )
             
 fh
@@ -1701,11 +1692,11 @@ imp
 .
 load_source
 (
-"
+'
 mozwebidlcodegen
 .
 fakemodule
-"
+'
 fh
 .
 name
@@ -1740,11 +1731,11 @@ MockedOpen
 {
 fake_path
 :
-"
+'
 #
 Original
 content
-"
+'
 }
 )
 :
@@ -1775,15 +1766,15 @@ io
 open
 (
 fake_path
-"
+'
 wt
-"
+'
 newline
 =
-"
+'
 \
 n
-"
+'
 )
 as
 fh
@@ -1793,11 +1784,11 @@ fh
 .
 write
 (
-"
+'
 #
 Modified
 content
-"
+'
 )
                     
 m2
@@ -1859,11 +1850,11 @@ sys
 .
 modules
 [
-"
+'
 mozwebidlcodegen
 .
 fakemodule
-"
+'
 ]
     
 def
@@ -1922,9 +1913,9 @@ p
 in
 args
 [
-"
+'
 inputs
-"
+'
 ]
 [
 0
@@ -1936,11 +1927,11 @@ p
 .
 endswith
 (
-"
+'
 Parent
 .
 webidl
-"
+'
 )
 :
                 
@@ -1965,15 +1956,15 @@ join
 (
 args
 [
-"
+'
 cache_dir
-"
+'
 ]
-"
+'
 Parent
 .
 webidl
-"
+'
 )
         
 shutil
@@ -1986,9 +1977,9 @@ new_path
         
 args
 [
-"
+'
 inputs
-"
+'
 ]
 [
 0
@@ -2001,9 +1992,9 @@ old_path
         
 args
 [
-"
+'
 inputs
-"
+'
 ]
 [
 0
@@ -2047,9 +2038,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

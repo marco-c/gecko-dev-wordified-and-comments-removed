@@ -10,9 +10,9 @@ config
 virtualenv_path
 "
 :
-"
+'
 venv
-"
+'
     
 "
 exes
@@ -20,17 +20,17 @@ exes
 :
 {
         
-"
+'
 python
-"
+'
 :
 sys
 .
 executable
         
-"
+'
 hg
-"
+'
 :
 os
 .
@@ -42,16 +42,16 @@ os
 .
 environ
 [
-"
+'
 PROGRAMFILES
-"
+'
 ]
-"
+'
 Mercurial
-"
-"
+'
+'
 hg
-"
+'
 )
     
 }

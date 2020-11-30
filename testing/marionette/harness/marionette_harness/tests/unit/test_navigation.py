@@ -68,14 +68,14 @@ __file__
 )
 BLACK_PIXEL
 =
-"
+'
 iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg
 =
 =
-"
+'
 RED_PIXEL
 =
-"
+'
 iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEX
 /
 TQBcNTh
@@ -84,7 +84,7 @@ AAAAAXRSTlPM0jRW
 /
 QAAAApJREFUeJxjYgAAAAYAAzY3fKgAAAAASUVORK5CYII
 =
-"
+'
 def
 inline
 (
@@ -121,7 +121,7 @@ data
 :
     
 return
-"
+'
 data
 :
 image
@@ -131,7 +131,7 @@ png
 base64
 %
 s
-"
+'
 %
 data
 class
@@ -168,14 +168,14 @@ path
 join
 (
 here
-"
+'
 data
-"
-"
+'
+'
 test
 .
 html
-"
+'
 )
 .
 replace
@@ -267,13 +267,11 @@ marionette
 .
 absolute_url
 (
-            
 "
 navigation_pushstate
 .
 html
 "
-        
 )
         
 self
@@ -303,13 +301,11 @@ marionette
 .
 absolute_url
 (
-            
 "
 slow_resource
 .
 html
 "
-        
 )
         
 if
@@ -417,7 +413,6 @@ length
 of
 1
 "
-        
 )
     
 def
@@ -509,7 +504,6 @@ marionette
 .
 execute_script
 (
-                
 "
 "
 "
@@ -698,7 +692,6 @@ isRemoteBrowser
 "
 "
 "
-            
 )
     
 property
@@ -717,7 +710,6 @@ marionette
 .
 execute_script
 (
-            
 "
 return
 window
@@ -727,10 +719,10 @@ document
 readyState
 ;
 "
+                                              
 sandbox
 =
 None
-        
 )
 class
 TestNavigate
@@ -785,11 +777,9 @@ self
 .
 test_page_remote
 )
-            
 sandbox
 =
 None
-        
 )
         
 Wait
@@ -839,7 +829,6 @@ not
 been
 found
 "
-        
 )
         
 self
@@ -882,30 +871,26 @@ self
 .
 assertRaises
 (
-                
 errors
 .
 UnsupportedOperationException
-                
+                              
 self
 .
 marionette
 .
 navigate
-                
 "
 about
 :
 blank
 "
-            
 )
             
 self
 .
 assertRaises
 (
-                
 errors
 .
 UnsupportedOperationException
@@ -914,14 +899,12 @@ self
 marionette
 .
 go_back
-            
 )
             
 self
 .
 assertRaises
 (
-                
 errors
 .
 UnsupportedOperationException
@@ -930,14 +913,12 @@ self
 marionette
 .
 go_forward
-            
 )
             
 self
 .
 assertRaises
 (
-                
 errors
 .
 UnsupportedOperationException
@@ -946,7 +927,6 @@ self
 marionette
 .
 refresh
-            
 )
     
 def
@@ -1146,25 +1126,21 @@ self
 .
 assertRaises
 (
-            
 errors
 .
 NoSuchElementException
-            
+                          
 self
 .
 marionette
 .
 find_element
-            
 By
 .
 NAME
-            
 "
 third
 "
-        
 )
         
 self
@@ -1203,7 +1179,6 @@ sub_frame
 =
 inline
 (
-            
 "
 "
 "
@@ -1245,20 +1220,16 @@ a
 .
 format
 (
-                
 self
 .
 test_page_remote
-            
 )
-        
 )
         
 top_frame
 =
 inline
 (
-            
 "
 "
 "
@@ -1288,11 +1259,8 @@ src
 .
 format
 (
-                
 sub_frame
-            
 )
-        
 )
         
 self
@@ -1402,7 +1370,6 @@ self
 .
 test_page_remote
 )
-        
 )
     
 def
@@ -1801,13 +1768,13 @@ self
 .
 assertTrue
 (
-            
 self
 .
 marionette
 .
 execute_script
 (
+            
 "
 return
 window
@@ -1818,7 +1785,6 @@ sandbox
 =
 None
 )
-        
 )
     
 def
@@ -2735,7 +2701,6 @@ t
 been
 loaded
 "
-        
 )
         
 self
@@ -2886,7 +2851,6 @@ self
 .
 test_page_remote
 )
-        
 )
         
 self
@@ -3023,18 +2987,16 @@ self
 .
 assertEqual
 (
-                    
 page
 [
 "
 is_remote
 "
 ]
-                    
 self
 .
 is_remote_tab
-                    
+                                 
 "
 '
 {
@@ -3054,7 +3016,7 @@ state
 .
 format
 (
-                        
+                                     
 page
 [
 "
@@ -3067,9 +3029,7 @@ page
 is_remote
 "
 ]
-                    
 )
-                
 )
             
 if
@@ -3349,7 +3309,6 @@ value
 value
 is
 False
-    
 )
     
 def
@@ -3363,7 +3322,6 @@ url_beforeunload
 =
 inline
 (
-            
 "
 "
 "
@@ -3413,7 +3371,6 @@ script
 "
 "
 "
-        
 )
         
 def
@@ -3550,7 +3507,6 @@ value
 value
 is
 False
-    
 )
     
 def
@@ -3654,7 +3610,6 @@ value
 value
 is
 False
-    
 )
     
 def
@@ -3758,7 +3713,6 @@ value
 value
 is
 False
-    
 )
     
 def
@@ -3842,7 +3796,6 @@ value
 value
 is
 False
-    
 )
     
 def
@@ -3944,7 +3897,6 @@ value
 value
 is
 False
-    
 )
     
 def
@@ -4137,7 +4089,6 @@ not
 been
 found
 "
-        
 )
         
 self
@@ -4335,7 +4286,6 @@ value
 value
 is
 False
-    
 )
     
 def
@@ -4437,7 +4387,6 @@ value
 value
 is
 False
-    
 )
     
 def
@@ -4570,7 +4519,6 @@ value
 value
 is
 False
-    
 )
     
 def
@@ -4673,7 +4621,6 @@ value
 value
 is
 False
-    
 )
     
 def
@@ -4778,7 +4725,6 @@ value
 value
 is
 False
-    
 )
     
 def
@@ -4866,7 +4812,6 @@ value
 value
 is
 False
-    
 )
     
 def
@@ -5079,7 +5024,6 @@ in
 back
 '
 "
-        
 )
         
 self
@@ -5212,7 +5156,6 @@ in
 forward
 '
 "
-        
 )
         
 self
@@ -5258,7 +5201,6 @@ value
 value
 is
 False
-    
 )
     
 def
@@ -5273,7 +5215,6 @@ test_pages
 [
             
 {
-                
 "
 url
 "
@@ -5281,7 +5222,7 @@ url
 self
 .
 test_page_insecure
-                
+             
 "
 error
 "
@@ -5289,7 +5230,6 @@ error
 errors
 .
 InsecureCertificateException
-            
 }
             
 {
@@ -5303,7 +5243,6 @@ test_page_remote
 }
             
 {
-                
 "
 url
 "
@@ -5311,7 +5250,7 @@ url
 self
 .
 test_page_insecure
-                
+             
 "
 error
 "
@@ -5319,7 +5258,6 @@ error
 errors
 .
 InsecureCertificateException
-            
 }
         
 ]
@@ -5377,7 +5315,6 @@ marionette
 .
 execute_script
 (
-            
 "
 "
 "
@@ -5421,7 +5358,6 @@ elem
 "
 "
 "
-        
 )
         
 self
@@ -5550,25 +5486,21 @@ self
 .
 assertRaises
 (
-            
 errors
 .
 NoSuchElementException
-            
+                          
 self
 .
 marionette
 .
 find_element
-            
 By
 .
 NAME
-            
 "
 third
 "
-        
 )
         
 self
@@ -5664,10 +5596,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -5717,9 +5647,7 @@ script
 "
 "
 "
-            
 )
-        
 )
         
 self
@@ -5786,11 +5714,11 @@ marionette
 .
 absolute_url
 (
-"
+'
 black
 .
 png
-"
+'
 )
         
 self
@@ -6384,7 +6312,6 @@ length
 of
 1
 "
-            
 )
             
 yield
@@ -6520,7 +6447,6 @@ length
 of
 1
 "
-            
 )
             
 yield
@@ -6621,7 +6547,6 @@ a
 %
 link_url
 )
-        
 )
         
 self
@@ -7139,7 +7064,6 @@ self
 .
 assertTrue
 (
-            
 self
 .
 is_remote_tab
@@ -7154,7 +7078,6 @@ remoteness
 flag
 set
 "
-        
 )
         
 self

@@ -82,7 +82,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -90,16 +89,17 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_normal_finish
 .
 ini
 "
 ]
+                                          
 cwd
 =
 here
-        
 )
         
 with
@@ -149,7 +149,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -157,16 +156,17 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_normal_finish
 .
 ini
 "
 ]
+                                          
 cwd
 =
 here
-        
 )
         
 p
@@ -281,7 +281,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -289,16 +288,17 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_normal_finish
 .
 ini
 "
 ]
+                                          
 cwd
 =
 here
-        
 )
         
 p
@@ -359,9 +359,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

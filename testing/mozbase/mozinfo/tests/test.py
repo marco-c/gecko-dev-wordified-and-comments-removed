@@ -81,9 +81,9 @@ sys
 .
 modules
 [
-"
+'
 mozbuild
-"
+'
 ]
 =
 None
@@ -109,9 +109,9 @@ sys
 .
 modules
 [
-"
+'
 mozbuild
-"
+'
 ]
     
 def
@@ -360,20 +360,20 @@ join
 self
 .
 tempdir
-"
+'
 test
 .
 json
-"
+'
 )
         
 with
 open
 (
 j
-"
+'
 w
-"
+'
 )
 as
 f
@@ -609,9 +609,9 @@ with
 open
 (
 j
-"
+'
 w
-"
+'
 )
 as
 f
@@ -737,6 +737,7 @@ mozinfo
 .
 find_and_update_from_json
 (
+            
 raise_exception
 =
 False
@@ -1025,11 +1026,11 @@ mozinfo
 .
 StringVersion
 (
-"
+'
 10
 .
 10
-"
+'
 )
         
 self
@@ -1037,20 +1038,20 @@ self
 assertGreater
 (
 version
-"
+'
 10
 .
 2
-"
+'
 )
         
 self
 .
 assertGreater
 (
-"
+'
 11
-"
+'
 version
 )
         
@@ -1059,22 +1060,22 @@ self
 assertGreaterEqual
 (
 version
-"
+'
 10
 .
 10
-"
+'
 )
         
 self
 .
 assertGreaterEqual
 (
-"
+'
 10
 .
 11
-"
+'
 version
 )
         
@@ -1083,22 +1084,22 @@ self
 assertEqual
 (
 version
-"
+'
 10
 .
 10
-"
+'
 )
         
 self
 .
 assertEqual
 (
-"
+'
 10
 .
 10
-"
+'
 version
 )
         
@@ -1107,20 +1108,20 @@ self
 assertNotEqual
 (
 version
-"
+'
 10
 .
 2
-"
+'
 )
         
 self
 .
 assertNotEqual
 (
-"
+'
 11
-"
+'
 version
 )
         
@@ -1129,24 +1130,24 @@ self
 assertLess
 (
 version
-"
+'
 11
 .
 8
 .
 5
-"
+'
 )
         
 self
 .
 assertLess
 (
-"
+'
 10
 .
 2
-"
+'
 version
 )
         
@@ -1155,20 +1156,20 @@ self
 assertLessEqual
 (
 version
-"
+'
 11
-"
+'
 )
         
 self
 .
 assertLessEqual
 (
-"
+'
 10
 .
 10
-"
+'
 version
 )
         
@@ -1181,9 +1182,9 @@ mozinfo
 .
 StringVersion
 (
-"
+'
 Testing
-"
+'
 )
 )
         
@@ -1195,9 +1196,9 @@ mozinfo
 .
 StringVersion
 (
-"
+'
 Testing
-"
+'
 )
 version
 )
@@ -1210,25 +1211,25 @@ mozinfo
 .
 StringVersion
 (
-"
-"
+'
+'
 )
-"
-"
+'
+'
 )
         
 self
 .
 assertEqual
 (
-"
-"
+'
+'
 mozinfo
 .
 StringVersion
 (
-"
-"
+'
+'
 )
 )
         
@@ -1238,13 +1239,13 @@ mozinfo
 .
 StringVersion
 (
-"
+'
 1
 .
 2
 .
 5a
-"
+'
 )
         
 b
@@ -1253,13 +1254,13 @@ mozinfo
 .
 StringVersion
 (
-"
+'
 1
 .
 2
 .
 5b
-"
+'
 )
         
 self
@@ -1284,13 +1285,13 @@ assertEqual
 (
 a
 u
-"
+'
 1
 .
 2
 .
 5a
-"
+'
 )
         
 self
@@ -1298,13 +1299,13 @@ self
 assertEqual
 (
 u
-"
+'
 1
 .
 2
 .
 5a
-"
+'
 a
 )
     
@@ -1319,22 +1320,22 @@ self
 .
 assertEqual
 (
-"
+'
 10
 .
 10
-"
+'
 str
 (
 mozinfo
 .
 StringVersion
 (
-"
+'
 10
 .
 10
-"
+'
 )
 )
 )
@@ -1342,9 +1343,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

@@ -45,33 +45,33 @@ _DEVELOPER_BLOCKLIST
 =
 [
     
-"
+'
 ahalberstadt
 mozilla
 .
 com
-"
+'
     
-"
+'
 mhentges
 mozilla
 .
 com
-"
+'
     
-"
+'
 rstewart
 mozilla
 .
 com
-"
+'
     
-"
+'
 sledru
 mozilla
 .
 com
-"
+'
 ]
 _SENTRY_DSN
 =
@@ -284,8 +284,8 @@ sentry_sdk
 .
 init
 (
-        
 _SENTRY_DSN
+                    
 before_send
 =
 lambda
@@ -297,7 +297,6 @@ _process_event
 event
 topsrcdir
 )
-    
 )
     
 sentry_sdk
@@ -423,7 +422,6 @@ re
 .
 sub
 (
-            
 "
 mach
 \
@@ -453,8 +451,8 @@ commands
 generated
 >
 "
+                        
 module
-        
 )
         
 frame
@@ -592,7 +590,7 @@ replacement
 )
 in
 (
-        
+            
 (
 get_state_dir
 (
@@ -603,7 +601,7 @@ statedir
 >
 "
 )
-        
+            
 (
 topsrcdir
 "
@@ -612,7 +610,7 @@ topsrcdir
 >
 "
 )
-        
+            
 (
 expanduser
 (
@@ -624,7 +622,7 @@ expanduser
 ~
 "
 )
-        
+            
 (
 repr
 (

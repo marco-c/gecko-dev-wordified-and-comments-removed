@@ -2,21 +2,21 @@ config
 =
 {
     
-"
+'
 stage_platform
-"
+'
 :
-"
+'
 android
 -
 x86_64
-"
+'
     
-"
+'
 src_mozconfig
-"
+'
 :
-"
+'
 mobile
 /
 android
@@ -30,5 +30,5 @@ android
 x86_64
 /
 beta
-"
+'
 }

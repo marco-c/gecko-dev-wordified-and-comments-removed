@@ -1,6 +1,6 @@
-"
-"
-"
+'
+'
+'
 This
 module
 helps
@@ -10,9 +10,9 @@ with
 autoconfig
 files
 .
-"
-"
-"
+'
+'
+'
 import
 os
 from
@@ -25,9 +25,9 @@ import
 platform_name
 AUTOCONFIG_TEXT
 =
-"
-"
-"
+'
+'
+'
 /
 /
 Any
@@ -95,24 +95,25 @@ obscure_value
 0
 )
 ;
-"
-"
-"
+'
+'
+'
 def
 write_autoconfig_files
 (
-    
 fx_install_dir
+                           
 cfg_contents
+                           
 autoconfig_contents
 =
 AUTOCONFIG_TEXT
 )
 :
     
-"
-"
-"
+'
+'
+'
 Generate
 autoconfig
 files
@@ -181,9 +182,9 @@ to
 cfg
 gile
     
-"
-"
-"
+'
+'
+'
     
 with
 open
@@ -192,9 +193,9 @@ _cfg_file_path
 (
 fx_install_dir
 )
-"
+'
 w
-"
+'
 )
 as
 fd
@@ -214,9 +215,9 @@ _autoconfig_path
 (
 fx_install_dir
 )
-"
+'
 w
-"
+'
 )
 as
 fd
@@ -235,9 +236,9 @@ fx_install_dir
 )
 :
     
-"
-"
-"
+'
+'
+'
 Read
 autoconfig
 file
@@ -253,9 +254,9 @@ to
 Firefox
 installation
     
-"
-"
-"
+'
+'
+'
     
 with
 open
@@ -264,9 +265,9 @@ _cfg_file_path
 (
 fx_install_dir
 )
-"
+'
 r
-"
+'
 )
 as
 fd
@@ -295,12 +296,12 @@ if
 platform
 in
 (
-"
+'
 win32
-"
-"
+'
+'
 win64
-"
+'
 )
 :
         
@@ -312,29 +313,30 @@ path
 join
 (
 fx_install_dir
-"
+                            
+'
 defaults
-"
-"
+'
+'
 pref
-"
-"
+'
+'
 autoconfig
 .
 js
-"
+'
 )
     
 elif
 platform
 in
 (
-"
+'
 linux
-"
-"
+'
+'
 linux64
-"
+'
 )
 :
         
@@ -346,7 +348,8 @@ path
 join
 (
 fx_install_dir
-"
+                            
+'
 defaults
 /
 pref
@@ -354,16 +357,16 @@ pref
 autoconfig
 .
 js
-"
+'
 )
     
 elif
 platform
 in
 (
-"
+'
 macosx
-"
+'
 )
 :
         
@@ -374,9 +377,9 @@ path
 .
 join
 (
-            
 fx_install_dir
-"
+                            
+'
 Contents
 /
 Resources
@@ -388,8 +391,7 @@ pref
 autoconfig
 .
 js
-"
-        
+'
 )
     
 else
@@ -398,11 +400,11 @@ else
 raise
 Exception
 (
-"
+'
 Invalid
 platform
 .
-"
+'
 )
 def
 _cfg_file_path
@@ -411,9 +413,9 @@ fx_install_dir
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Windows
 :
@@ -441,9 +443,9 @@ defaults
 /
 pref
     
-"
-"
-"
+'
+'
+'
     
 platform
 =
@@ -455,12 +457,12 @@ if
 platform
 in
 (
-"
+'
 win32
-"
-"
+'
+'
 win64
-"
+'
 )
 :
         
@@ -472,23 +474,23 @@ path
 join
 (
 fx_install_dir
-"
+'
 mozilla
 .
 cfg
-"
+'
 )
     
 elif
 platform
 in
 (
-"
+'
 linux
-"
-"
+'
+'
 linux64
-"
+'
 )
 :
         
@@ -500,20 +502,20 @@ path
 join
 (
 fx_install_dir
-"
+'
 mozilla
 .
 cfg
-"
+'
 )
     
 elif
 platform
 in
 (
-"
+'
 macosx
-"
+'
 )
 :
         
@@ -525,7 +527,8 @@ path
 join
 (
 fx_install_dir
-"
+                            
+'
 Contents
 /
 Resources
@@ -533,7 +536,7 @@ Resources
 mozilla
 .
 cfg
-"
+'
 )
     
 else
@@ -542,9 +545,9 @@ else
 raise
 Exception
 (
-"
+'
 Invalid
 platform
 .
-"
+'
 )

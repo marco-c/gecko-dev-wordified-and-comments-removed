@@ -58,9 +58,14 @@ mozbuild
 .
 util
 import
+(
+    
 exec_
+    
 memoized_property
+    
 ReadOnlyNamespace
+)
 import
 mozpack
 .
@@ -87,9 +92,9 @@ mozpath
 join
 (
 test_data_path
-"
+'
 data
-"
+'
 )
 class
 TestConfigure
@@ -103,7 +108,6 @@ TestCase
 def
 get_config
 (
-        
 self
 options
 =
@@ -115,20 +119,20 @@ env
 }
 configure
 =
-"
+'
 moz
 .
 configure
-"
+'
+                   
 prog
 =
-"
+'
 /
 bin
 /
 configure
-"
-    
+'
 )
 :
         
@@ -172,11 +176,11 @@ configure
 )
         
 if
-"
+'
 -
 -
 help
-"
+'
 in
 options
 :
@@ -198,8 +202,8 @@ self
 .
 assertEquals
 (
-"
-"
+'
+'
 out
 .
 getvalue
@@ -221,8 +225,8 @@ source
 return
 MockedOpen
 (
-            
 {
+            
 os
 .
 path
@@ -230,11 +234,12 @@ path
 join
 (
 test_data_path
-"
+                         
+'
 moz
 .
 configure
-"
+'
 )
 :
 textwrap
@@ -243,8 +248,8 @@ dedent
 (
 source
 )
-}
         
+}
 )
     
 def
@@ -272,108 +277,101 @@ self
 .
 assertEquals
 (
-            
 {
-                
-"
+            
+'
 CHOICES
-"
+'
 :
 NegativeOptionValue
 (
 )
-                
-"
+            
+'
 DEFAULTED
-"
+'
 :
 PositiveOptionValue
 (
 (
-"
+'
 not
 -
 simple
-"
+'
 )
 )
-                
-"
+            
+'
 IS_GCC
-"
+'
 :
 NegativeOptionValue
 (
 )
-                
-"
+            
+'
 REMAINDER
-"
+'
 :
 (
-                    
 PositiveOptionValue
 (
 )
-                    
 NegativeOptionValue
 (
 )
-                    
+                          
 NegativeOptionValue
 (
 )
-                    
 NegativeOptionValue
 (
 )
-                
 )
-                
-"
+            
+'
 SIMPLE
-"
+'
 :
 NegativeOptionValue
 (
 )
-                
-"
+            
+'
 VALUES
-"
+'
 :
 NegativeOptionValue
 (
 )
-                
-"
+            
+'
 VALUES2
-"
+'
 :
 NegativeOptionValue
 (
 )
-                
-"
+            
+'
 VALUES3
-"
+'
 :
 NegativeOptionValue
 (
 )
-                
-"
+            
+'
 WITH_ENV
-"
+'
 :
 NegativeOptionValue
 (
 )
-            
-}
-            
-config
         
+}
+config
 )
     
 def
@@ -391,17 +389,17 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 help
-"
+'
 ]
 prog
 =
-"
+'
 configure
-"
+'
 )
         
 self
@@ -424,7 +422,7 @@ self
 assertEquals
 (
             
-"
+'
 Usage
 :
 configure
@@ -433,14 +431,14 @@ options
 ]
 \
 n
-"
+'
             
-"
+'
 \
 n
-"
+'
             
-"
+'
 Options
 :
 [
@@ -452,17 +450,17 @@ descriptions
 ]
 \
 n
-"
+'
             
-"
+'
 Help
 options
 :
 \
 n
-"
+'
             
-"
+'
 -
 -
 help
@@ -471,14 +469,14 @@ this
 message
 \
 n
-"
+'
             
-"
+'
 \
 n
-"
+'
             
-"
+'
 Options
 from
 python
@@ -499,9 +497,9 @@ configure
 :
 \
 n
-"
+'
             
-"
+'
 -
 -
 enable
@@ -518,14 +516,14 @@ in
 template
 \
 n
-"
+'
             
-"
+'
 \
 n
-"
+'
             
-"
+'
 Options
 from
 python
@@ -546,9 +544,9 @@ configure
 :
 \
 n
-"
+'
             
-"
+'
 -
 -
 enable
@@ -557,9 +555,9 @@ include
 Include
 \
 n
-"
+'
             
-"
+'
 -
 -
 enable
@@ -569,9 +567,9 @@ Enable
 simple
 \
 n
-"
+'
             
-"
+'
 -
 -
 enable
@@ -581,9 +579,9 @@ Enable
 values
 \
 n
-"
+'
             
-"
+'
 -
 -
 enable
@@ -596,9 +594,9 @@ with
 env
 \
 n
-"
+'
             
-"
+'
 -
 -
 indirect
@@ -609,18 +607,18 @@ defined
 option
 \
 n
-"
+'
             
-"
+'
 -
 -
 option
 Option
 \
 n
-"
+'
             
-"
+'
 -
 -
 returned
@@ -629,9 +627,9 @@ choices
 Choices
 \
 n
-"
+'
             
-"
+'
 -
 -
 with
@@ -640,9 +638,9 @@ imports
 Imports
 \
 n
-"
+'
             
-"
+'
 -
 -
 with
@@ -659,9 +657,9 @@ simple
 ]
 \
 n
-"
+'
             
-"
+'
 -
 -
 with
@@ -672,9 +670,9 @@ with
 stuff
 \
 n
-"
+'
             
-"
+'
 -
 -
 without
@@ -685,27 +683,27 @@ without
 thing
 \
 n
-"
+'
             
-"
+'
 \
 n
-"
+'
             
-"
+'
 \
 n
-"
+'
             
-"
+'
 Environment
 variables
 :
 \
 n
-"
+'
             
-"
+'
 Options
 from
 python
@@ -726,34 +724,32 @@ configure
 :
 \
 n
-"
+'
             
-"
+'
 CC
 C
 Compiler
 \
 n
-"
+'
             
-"
+'
 \
 n
-"
-            
+'
 help
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 /
-"
+'
 )
-        
 )
     
 def
@@ -777,11 +773,11 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 unknown
-"
+'
 ]
 )
     
@@ -796,47 +792,47 @@ for
 config
 in
 (
-            
+                
 self
 .
 get_config
 (
 )
-            
+                
 self
 .
 get_config
 (
 [
-"
+'
 -
 -
 disable
 -
 simple
-"
+'
 ]
 )
-            
+                
 self
 .
 get_config
 (
 [
-"
+'
 -
 -
 enable
 -
 simple
-"
-"
+'
+'
 -
 -
 disable
 -
 simple
-"
+'
 ]
 )
         
@@ -847,9 +843,9 @@ self
 .
 assertNotIn
 (
-"
+'
 ENABLED_SIMPLE
-"
+'
 config
 )
             
@@ -857,9 +853,9 @@ self
 .
 assertIn
 (
-"
+'
 SIMPLE
-"
+'
 config
 )
             
@@ -872,9 +868,9 @@ NegativeOptionValue
 )
 config
 [
-"
+'
 SIMPLE
-"
+'
 ]
 )
         
@@ -882,41 +878,41 @@ for
 config
 in
 (
-            
+                
 self
 .
 get_config
 (
 [
-"
+'
 -
 -
 enable
 -
 simple
-"
+'
 ]
 )
-            
+                
 self
 .
 get_config
 (
 [
-"
+'
 -
 -
 disable
 -
 simple
-"
-"
+'
+'
 -
 -
 enable
 -
 simple
-"
+'
 ]
 )
         
@@ -927,9 +923,9 @@ self
 .
 assertIn
 (
-"
+'
 ENABLED_SIMPLE
-"
+'
 config
 )
             
@@ -937,9 +933,9 @@ self
 .
 assertIn
 (
-"
+'
 SIMPLE
-"
+'
 config
 )
             
@@ -952,9 +948,9 @@ PositiveOptionValue
 )
 config
 [
-"
+'
 SIMPLE
-"
+'
 ]
 )
             
@@ -964,15 +960,15 @@ assertIs
 (
 config
 [
-"
+'
 SIMPLE
-"
+'
 ]
 config
 [
-"
+'
 ENABLED_SIMPLE
-"
+'
 ]
 )
         
@@ -990,7 +986,7 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -998,7 +994,7 @@ enable
 simple
 =
 value
-"
+'
 ]
 )
     
@@ -1013,19 +1009,19 @@ for
 config
 in
 (
-            
+                
 self
 .
 get_config
 (
 )
-            
+                
 self
 .
 get_config
 (
 [
-"
+'
 -
 -
 disable
@@ -1033,16 +1029,16 @@ disable
 with
 -
 env
-"
+'
 ]
 )
-            
+                
 self
 .
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -1050,8 +1046,8 @@ enable
 with
 -
 env
-"
-"
+'
+'
 -
 -
 disable
@@ -1059,10 +1055,10 @@ disable
 with
 -
 env
-"
+'
 ]
 )
-            
+                
 self
 .
 get_config
@@ -1070,21 +1066,21 @@ get_config
 env
 =
 {
-"
+'
 MOZ_WITH_ENV
-"
+'
 :
-"
-"
+'
+'
 }
 )
-            
+                
 self
 .
 get_config
 (
 [
-"
+'
 -
 -
 disable
@@ -1092,18 +1088,19 @@ disable
 with
 -
 env
-"
+'
 ]
+                                
 env
 =
 {
-"
+'
 MOZ_WITH_ENV
-"
+'
 :
-"
+'
 1
-"
+'
 }
 )
         
@@ -1114,9 +1111,9 @@ self
 .
 assertIn
 (
-"
+'
 WITH_ENV
-"
+'
 config
 )
             
@@ -1129,9 +1126,9 @@ NegativeOptionValue
 )
 config
 [
-"
+'
 WITH_ENV
-"
+'
 ]
 )
         
@@ -1139,13 +1136,13 @@ for
 config
 in
 (
-            
+                
 self
 .
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -1153,16 +1150,16 @@ enable
 with
 -
 env
-"
+'
 ]
 )
-            
+                
 self
 .
 get_config
 (
 [
-"
+'
 -
 -
 disable
@@ -1170,8 +1167,8 @@ disable
 with
 -
 env
-"
-"
+'
+'
 -
 -
 enable
@@ -1179,10 +1176,10 @@ enable
 with
 -
 env
-"
+'
 ]
 )
-            
+                
 self
 .
 get_config
@@ -1190,22 +1187,22 @@ get_config
 env
 =
 {
-"
+'
 MOZ_WITH_ENV
-"
+'
 :
-"
+'
 1
-"
+'
 }
 )
-            
+                
 self
 .
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -1213,17 +1210,18 @@ enable
 with
 -
 env
-"
+'
 ]
+                                
 env
 =
 {
-"
+'
 MOZ_WITH_ENV
-"
+'
 :
-"
-"
+'
+'
 }
 )
         
@@ -1234,9 +1232,9 @@ self
 .
 assertIn
 (
-"
+'
 WITH_ENV
-"
+'
 config
 )
             
@@ -1249,9 +1247,9 @@ PositiveOptionValue
 )
 config
 [
-"
+'
 WITH_ENV
-"
+'
 ]
 )
         
@@ -1269,7 +1267,7 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -1279,7 +1277,7 @@ with
 env
 =
 value
-"
+'
 ]
 )
         
@@ -1299,13 +1297,13 @@ get_config
 env
 =
 {
-"
+'
 MOZ_WITH_ENV
-"
+'
 :
-"
+'
 value
-"
+'
 }
 )
     
@@ -1315,9 +1313,9 @@ test_values
 self
 name
 =
-"
+'
 VALUES
-"
+'
 )
 :
         
@@ -1337,13 +1335,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 disable
 -
 values
-"
+'
 ]
 )
             
@@ -1352,20 +1350,20 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 enable
 -
 values
-"
-"
+'
+'
 -
 -
 disable
 -
 values
-"
+'
 ]
 )
         
@@ -1403,13 +1401,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 enable
 -
 values
-"
+'
 ]
 )
             
@@ -1418,20 +1416,20 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 disable
 -
 values
-"
-"
+'
+'
 -
 -
 enable
 -
 values
-"
+'
 ]
 )
         
@@ -1466,7 +1464,7 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -1474,7 +1472,7 @@ enable
 values
 =
 foo
-"
+'
 ]
 )
         
@@ -1493,9 +1491,9 @@ assertEquals
 PositiveOptionValue
 (
 (
-"
+'
 foo
-"
+'
 )
 )
 config
@@ -1511,7 +1509,7 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -1520,7 +1518,7 @@ values
 =
 foo
 bar
-"
+'
 ]
 )
         
@@ -1549,12 +1547,12 @@ assertEquals
 PositiveOptionValue
 (
 (
-"
+'
 foo
-"
-"
+'
+'
 bar
-"
+'
 )
 )
 config
@@ -1574,9 +1572,9 @@ self
 .
 test_values
 (
-"
+'
 VALUES2
-"
+'
 )
     
 def
@@ -1590,9 +1588,9 @@ self
 .
 test_values
 (
-"
+'
 VALUES3
-"
+'
 )
     
 def
@@ -1609,13 +1607,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 enable
 -
 simple
-"
+'
 ]
 )
         
@@ -1623,9 +1621,9 @@ self
 .
 assertIn
 (
-"
+'
 DEFAULTED
-"
+'
 config
 )
         
@@ -1633,19 +1631,20 @@ self
 .
 assertEquals
 (
+            
 PositiveOptionValue
 (
 (
-"
+'
 simple
-"
+'
 )
 )
 config
 [
-"
+'
 DEFAULTED
-"
+'
 ]
 )
         
@@ -1656,13 +1655,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 disable
 -
 simple
-"
+'
 ]
 )
         
@@ -1670,9 +1669,9 @@ self
 .
 assertIn
 (
-"
+'
 DEFAULTED
-"
+'
 config
 )
         
@@ -1680,21 +1679,22 @@ self
 .
 assertEquals
 (
+            
 PositiveOptionValue
 (
 (
-"
+'
 not
 -
 simple
-"
+'
 )
 )
 config
 [
-"
+'
 DEFAULTED
-"
+'
 ]
 )
     
@@ -1709,15 +1709,15 @@ for
 val
 in
 (
-"
+'
 a
-"
-"
+'
+'
 b
-"
-"
+'
+'
 c
-"
+'
 )
 :
             
@@ -1729,7 +1729,7 @@ get_config
 (
                 
 [
-"
+'
 -
 -
 enable
@@ -1737,8 +1737,8 @@ enable
 values
 =
 alpha
-"
-"
+'
+'
 -
 -
 returned
@@ -1747,20 +1747,19 @@ choices
 =
 %
 s
-"
+'
 %
 val
 ]
-            
 )
             
 self
 .
 assertIn
 (
-"
+'
 CHOICES
-"
+'
 config
 )
             
@@ -1776,9 +1775,9 @@ val
 )
 config
 [
-"
+'
 CHOICES
-"
+'
 ]
 )
         
@@ -1786,15 +1785,15 @@ for
 val
 in
 (
-"
+'
 0
-"
-"
+'
+'
 1
-"
-"
+'
+'
 2
-"
+'
 )
 :
             
@@ -1806,7 +1805,7 @@ get_config
 (
                 
 [
-"
+'
 -
 -
 enable
@@ -1814,8 +1813,8 @@ enable
 values
 =
 numeric
-"
-"
+'
+'
 -
 -
 returned
@@ -1824,20 +1823,19 @@ choices
 =
 %
 s
-"
+'
 %
 val
 ]
-            
 )
             
 self
 .
 assertIn
 (
-"
+'
 CHOICES
-"
+'
 config
 )
             
@@ -1853,9 +1851,9 @@ val
 )
 config
 [
-"
+'
 CHOICES
-"
+'
 ]
 )
         
@@ -1873,7 +1871,7 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -1881,8 +1879,9 @@ enable
 values
 =
 numeric
-"
-"
+'
+                             
+'
 -
 -
 returned
@@ -1890,7 +1889,7 @@ returned
 choices
 =
 a
-"
+'
 ]
 )
         
@@ -1908,7 +1907,7 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -1916,8 +1915,8 @@ enable
 values
 =
 alpha
-"
-"
+'
+'
 -
 -
 returned
@@ -1925,7 +1924,7 @@ returned
 choices
 =
 0
-"
+'
 ]
 )
     
@@ -1945,13 +1944,13 @@ get_config
 env
 =
 {
-"
+'
 CC
-"
+'
 :
-"
+'
 gcc
-"
+'
 }
 )
         
@@ -1959,9 +1958,9 @@ self
 .
 assertIn
 (
-"
+'
 IS_GCC
-"
+'
 config
 )
         
@@ -1971,9 +1970,9 @@ assertEquals
 (
 config
 [
-"
+'
 IS_GCC
-"
+'
 ]
 True
 )
@@ -1984,8 +1983,9 @@ self
 .
 get_config
 (
+            
 [
-"
+'
 -
 -
 enable
@@ -1995,12 +1995,12 @@ include
 extra
 .
 configure
-"
-"
+'
+'
 -
 -
 extra
-"
+'
 ]
 )
         
@@ -2008,9 +2008,9 @@ self
 .
 assertIn
 (
-"
+'
 EXTRA
-"
+'
 config
 )
         
@@ -2023,9 +2023,9 @@ PositiveOptionValue
 )
 config
 [
-"
+'
 EXTRA
-"
+'
 ]
 )
         
@@ -2043,11 +2043,11 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 extra
-"
+'
 ]
 )
     
@@ -2067,13 +2067,13 @@ get_config
 env
 =
 {
-"
+'
 CC
-"
+'
 :
-"
+'
 gcc
-"
+'
 }
 )
         
@@ -2081,9 +2081,9 @@ self
 .
 assertIn
 (
-"
+'
 CFLAGS
-"
+'
 config
 )
         
@@ -2093,17 +2093,17 @@ assertEquals
 (
 config
 [
-"
+'
 CFLAGS
-"
+'
 ]
 [
-"
+'
 -
 Werror
 =
 foobar
-"
+'
 ]
 )
         
@@ -2116,13 +2116,13 @@ get_config
 env
 =
 {
-"
+'
 CC
-"
+'
 :
-"
+'
 clang
-"
+'
 }
 )
         
@@ -2130,9 +2130,9 @@ self
 .
 assertNotIn
 (
-"
+'
 CFLAGS
-"
+'
 config
 )
     
@@ -2162,9 +2162,9 @@ config
 {
 }
 [
-"
+'
 configure
-"
+'
 ]
 out
 out
@@ -2181,15 +2181,13 @@ ImportError
             
 exec_
 (
-                
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
                 
 template
                 
@@ -2205,27 +2203,24 @@ sys
 foo
 (
 )
-"
-"
-"
-                
+'
+'
+'
 )
-                
+                  
 sandbox
-            
+                  
 )
         
 exec_
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 template
             
@@ -2244,14 +2239,13 @@ foo
                 
 return
 sys
-"
-"
-"
-            
+'
+'
+'
 )
-            
+              
 sandbox
-        
+              
 )
         
 self
@@ -2260,9 +2254,9 @@ assertIs
 (
 sandbox
 [
-"
+'
 foo
-"
+'
 ]
 (
 )
@@ -2271,15 +2265,13 @@ sys
         
 exec_
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 template
             
@@ -2305,14 +2297,13 @@ foo
                 
 return
 path
-"
-"
-"
-            
+'
+'
+'
 )
-            
+              
 sandbox
-        
+              
 )
         
 self
@@ -2321,9 +2312,9 @@ assertIs
 (
 sandbox
 [
-"
+'
 foo
-"
+'
 ]
 (
 )
@@ -2334,15 +2325,13 @@ path
         
 exec_
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 template
             
@@ -2373,14 +2362,13 @@ foo
                 
 return
 os_path
-"
-"
-"
-            
+'
+'
+'
 )
-            
+              
 sandbox
-        
+              
 )
         
 self
@@ -2389,9 +2377,9 @@ assertIs
 (
 sandbox
 [
-"
+'
 foo
-"
+'
 ]
 (
 )
@@ -2402,15 +2390,13 @@ path
         
 exec_
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 template
             
@@ -2429,14 +2415,13 @@ foo
                 
 return
 __builtin__
-"
-"
-"
-            
+'
+'
+'
 )
-            
+              
 sandbox
-        
+              
 )
         
 self
@@ -2445,9 +2430,9 @@ assertIs
 (
 sandbox
 [
-"
+'
 foo
-"
+'
 ]
 (
 )
@@ -2460,15 +2445,13 @@ builtins
         
 exec_
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 template
             
@@ -2500,28 +2483,26 @@ open
 s
 '
 )
-"
-"
-"
-                
+'
+'
+'
 %
 os
 .
 devnull
-            
 )
-            
+              
 sandbox
-        
+              
 )
         
 f
 =
 sandbox
 [
-"
+'
 foo
-"
+'
 ]
 (
 )
@@ -2546,15 +2527,13 @@ close
         
 exec_
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 template
             
@@ -2583,14 +2562,13 @@ sys
                 
 return
 sys
-"
-"
-"
-            
+'
+'
+'
 )
-            
+              
 sandbox
-        
+              
 )
         
 self
@@ -2599,9 +2577,9 @@ assertIs
 (
 sandbox
 [
-"
+'
 foo
-"
+'
 ]
 (
 )
@@ -2610,15 +2588,13 @@ sys
         
 exec_
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 template
             
@@ -2637,14 +2613,13 @@ foo
                 
 return
 __sandbox__
-"
-"
-"
-            
+'
+'
+'
 )
-            
+              
 sandbox
-        
+              
 )
         
 self
@@ -2653,9 +2628,9 @@ assertIs
 (
 sandbox
 [
-"
+'
 foo
-"
+'
 ]
 (
 )
@@ -2664,15 +2639,13 @@ sandbox
         
 exec_
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 template
             
@@ -2698,14 +2671,13 @@ foo
                 
 return
 s
-"
-"
-"
-            
+'
+'
+'
 )
-            
+              
 sandbox
-        
+              
 )
         
 self
@@ -2714,9 +2686,9 @@ assertIs
 (
 sandbox
 [
-"
+'
 foo
-"
+'
 ]
 (
 )
@@ -2732,12 +2704,12 @@ list
 sandbox
 )
 [
-"
+'
 __builtins__
-"
-"
+'
+'
 foo
-"
+'
 ]
 )
         
@@ -2747,9 +2719,9 @@ assertEquals
 (
 sandbox
 [
-"
+'
 __builtins__
-"
+'
 ]
 ConfigureSandbox
 .
@@ -2758,15 +2730,13 @@ BUILTINS
         
 exec_
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 template
             
@@ -2807,14 +2777,13 @@ bar
 foo
 (
 )
-"
-"
-"
-            
+'
+'
+'
 )
-            
+              
 sandbox
-        
+              
 )
         
 with
@@ -2834,9 +2803,9 @@ _depends
 [
 sandbox
 [
-"
+'
 bar
-"
+'
 ]
 ]
 .
@@ -2914,6 +2883,7 @@ self
 .
 _apply_imports
 (
+                    
 *
 args
 *
@@ -2940,9 +2910,9 @@ config
 {
 }
 [
-"
+'
 configure
-"
+'
 ]
 out
 out
@@ -2950,15 +2920,13 @@ out
         
 exec_
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 template
             
@@ -2985,14 +2953,13 @@ foo
 foo
 (
 )
-"
-"
-"
-            
+'
+'
+'
 )
-            
+              
 sandbox
-        
+              
 )
         
 self
@@ -3066,9 +3033,9 @@ config
 {
 }
 [
-"
+'
 configure
-"
+'
 ]
 out
 out
@@ -3076,15 +3043,13 @@ out
         
 exec_
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 template
             
@@ -3226,14 +3191,11 @@ import_as
 return
 custom_name
             
-"
-"
-"
-            
+'
+'
+'
 )
-            
 sandbox
-        
 )
         
 self
@@ -3242,9 +3204,9 @@ assertIs
 (
 sandbox
 [
-"
+'
 toplevel
-"
+'
 ]
 (
 )
@@ -3257,9 +3219,9 @@ assertIs
 (
 sandbox
 [
-"
+'
 bar
-"
+'
 ]
 (
 )
@@ -3272,9 +3234,9 @@ assertIs
 (
 sandbox
 [
-"
+'
 bar_upper
-"
+'
 ]
 (
 )
@@ -3287,9 +3249,9 @@ assertIs
 (
 sandbox
 [
-"
+'
 from_import
-"
+'
 ]
 (
 )
@@ -3302,9 +3264,9 @@ assertIs
 (
 sandbox
 [
-"
+'
 from_import_as
-"
+'
 ]
 (
 )
@@ -3317,9 +3279,9 @@ assertIs
 (
 sandbox
 [
-"
+'
 import_as
-"
+'
 ]
 (
 )
@@ -3340,7 +3302,7 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
@@ -3349,7 +3311,7 @@ imports
 =
 %
 s
-"
+'
 %
 __file__
 ]
@@ -3359,9 +3321,9 @@ self
 .
 assertIn
 (
-"
+'
 HAS_ABSPATH
-"
+'
 config
 )
         
@@ -3371,9 +3333,9 @@ assertEquals
 (
 config
 [
-"
+'
 HAS_ABSPATH
-"
+'
 ]
 True
 )
@@ -3382,9 +3344,9 @@ self
 .
 assertIn
 (
-"
+'
 HAS_GETATIME
-"
+'
 config
 )
         
@@ -3394,9 +3356,9 @@ assertEquals
 (
 config
 [
-"
+'
 HAS_GETATIME
-"
+'
 ]
 True
 )
@@ -3405,9 +3367,9 @@ self
 .
 assertIn
 (
-"
+'
 HAS_GETATIME2
-"
+'
 config
 )
         
@@ -3417,9 +3379,9 @@ assertEquals
 (
 config
 [
-"
+'
 HAS_GETATIME2
-"
+'
 ]
 False
 )
@@ -3440,13 +3402,13 @@ get_config
 env
 =
 {
-"
+'
 CC
-"
+'
 :
-"
+'
 gcc
-"
+'
 }
 )
         
@@ -3454,9 +3416,9 @@ self
 .
 assertIn
 (
-"
+'
 TEMPLATE_VALUE
-"
+'
 config
 )
         
@@ -3466,9 +3428,9 @@ assertEquals
 (
 config
 [
-"
+'
 TEMPLATE_VALUE
-"
+'
 ]
 42
 )
@@ -3477,9 +3439,9 @@ self
 .
 assertIn
 (
-"
+'
 TEMPLATE_VALUE_2
-"
+'
 config
 )
         
@@ -3489,9 +3451,9 @@ assertEquals
 (
 config
 [
-"
+'
 TEMPLATE_VALUE_2
-"
+'
 ]
 21
 )
@@ -3510,7 +3472,7 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -3520,7 +3482,7 @@ imports
 in
 -
 template
-"
+'
 ]
 )
         
@@ -3528,9 +3490,9 @@ self
 .
 assertIn
 (
-"
+'
 PLATFORM
-"
+'
 config
 )
         
@@ -3540,9 +3502,9 @@ assertEquals
 (
 config
 [
-"
+'
 PLATFORM
-"
+'
 ]
 sys
 .
@@ -3575,9 +3537,9 @@ config
 {
 }
 [
-"
+'
 configure
-"
+'
 ]
 out
 out
@@ -3592,11 +3554,11 @@ mozpath
 join
 (
 test_data_path
-"
+'
 decorators
 .
 configure
-"
+'
 )
 )
         
@@ -3604,9 +3566,9 @@ self
 .
 assertNotIn
 (
-"
+'
 FOO
-"
+'
 sandbox
 )
         
@@ -3614,9 +3576,9 @@ self
 .
 assertNotIn
 (
-"
+'
 BAR
-"
+'
 sandbox
 )
         
@@ -3624,9 +3586,9 @@ self
 .
 assertNotIn
 (
-"
+'
 QUX
-"
+'
 sandbox
 )
     
@@ -3654,11 +3616,11 @@ get_config
 args
 configure
 =
-"
+'
 set_config
 .
 configure
-"
+'
 )
         
 help
@@ -3667,11 +3629,11 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 help
-"
+'
 ]
 )
         
@@ -3689,13 +3651,13 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 set
 -
 foo
-"
+'
 ]
 )
         
@@ -3703,9 +3665,9 @@ self
 .
 assertIn
 (
-"
+'
 FOO
-"
+'
 config
 )
         
@@ -3715,9 +3677,9 @@ assertEquals
 (
 config
 [
-"
+'
 FOO
-"
+'
 ]
 True
 )
@@ -3727,13 +3689,13 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 set
 -
 bar
-"
+'
 ]
 )
         
@@ -3741,9 +3703,9 @@ self
 .
 assertNotIn
 (
-"
+'
 FOO
-"
+'
 config
 )
         
@@ -3751,9 +3713,9 @@ self
 .
 assertIn
 (
-"
+'
 BAR
-"
+'
 config
 )
         
@@ -3763,9 +3725,9 @@ assertEquals
 (
 config
 [
-"
+'
 BAR
-"
+'
 ]
 True
 )
@@ -3775,7 +3737,7 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 set
@@ -3783,7 +3745,7 @@ set
 value
 =
 qux
-"
+'
 ]
 )
         
@@ -3791,9 +3753,9 @@ self
 .
 assertIn
 (
-"
+'
 VALUE
-"
+'
 config
 )
         
@@ -3803,13 +3765,13 @@ assertEquals
 (
 config
 [
-"
+'
 VALUE
-"
+'
 ]
-"
+'
 qux
-"
+'
 )
         
 config
@@ -3817,7 +3779,7 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 set
@@ -3825,7 +3787,7 @@ set
 name
 =
 hoge
-"
+'
 ]
 )
         
@@ -3833,9 +3795,9 @@ self
 .
 assertIn
 (
-"
+'
 hoge
-"
+'
 config
 )
         
@@ -3845,9 +3807,9 @@ assertEquals
 (
 config
 [
-"
+'
 hoge
-"
+'
 ]
 True
 )
@@ -3866,9 +3828,9 @@ assertEquals
 (
 config
 {
-"
+'
 BAR
-"
+'
 :
 False
 }
@@ -3886,14 +3848,14 @@ ConfigureError
 get_config
 (
 [
-"
+'
 -
 -
 set
 -
 foo
-"
-"
+'
+'
 -
 -
 set
@@ -3901,7 +3863,7 @@ set
 name
 =
 FOO
-"
+'
 ]
 )
     
@@ -3917,10 +3879,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -3983,10 +3944,9 @@ qux
 '
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -4002,21 +3962,18 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
-FOO
-"
-:
-"
-foo
-"
                 
-}
+'
+FOO
+'
+:
+'
+foo
+'
             
+}
 )
             
 config
@@ -4026,13 +3983,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -4040,29 +3997,26 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
-FOO
-"
-:
-"
-foo
-"
-                    
-"
-QUX
-"
-:
-"
-qux
-"
                 
-}
+'
+FOO
+'
+:
+'
+foo
+'
+                
+'
+QUX
+'
+:
+'
+qux
+'
             
+}
 )
     
 def
@@ -4089,11 +4043,11 @@ get_config
 args
 configure
 =
-"
+'
 set_define
 .
 configure
-"
+'
 )
         
 help
@@ -4102,11 +4056,11 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 help
-"
+'
 ]
 )
         
@@ -4116,9 +4070,9 @@ assertEquals
 (
 config
 {
-"
+'
 DEFINES
-"
+'
 :
 {
 }
@@ -4130,13 +4084,13 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 set
 -
 foo
-"
+'
 ]
 )
         
@@ -4144,14 +4098,14 @@ self
 .
 assertIn
 (
-"
+'
 FOO
-"
+'
 config
 [
-"
+'
 DEFINES
-"
+'
 ]
 )
         
@@ -4161,14 +4115,14 @@ assertEquals
 (
 config
 [
-"
+'
 DEFINES
-"
+'
 ]
 [
-"
+'
 FOO
-"
+'
 ]
 True
 )
@@ -4178,13 +4132,13 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 set
 -
 bar
-"
+'
 ]
 )
         
@@ -4192,14 +4146,14 @@ self
 .
 assertNotIn
 (
-"
+'
 FOO
-"
+'
 config
 [
-"
+'
 DEFINES
-"
+'
 ]
 )
         
@@ -4207,14 +4161,14 @@ self
 .
 assertIn
 (
-"
+'
 BAR
-"
+'
 config
 [
-"
+'
 DEFINES
-"
+'
 ]
 )
         
@@ -4224,14 +4178,14 @@ assertEquals
 (
 config
 [
-"
+'
 DEFINES
-"
+'
 ]
 [
-"
+'
 BAR
-"
+'
 ]
 True
 )
@@ -4241,7 +4195,7 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 set
@@ -4249,7 +4203,7 @@ set
 value
 =
 qux
-"
+'
 ]
 )
         
@@ -4257,14 +4211,14 @@ self
 .
 assertIn
 (
-"
+'
 VALUE
-"
+'
 config
 [
-"
+'
 DEFINES
-"
+'
 ]
 )
         
@@ -4274,18 +4228,18 @@ assertEquals
 (
 config
 [
-"
+'
 DEFINES
-"
+'
 ]
 [
-"
+'
 VALUE
-"
+'
 ]
-"
+'
 qux
-"
+'
 )
         
 config
@@ -4293,7 +4247,7 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 set
@@ -4301,7 +4255,7 @@ set
 name
 =
 hoge
-"
+'
 ]
 )
         
@@ -4309,14 +4263,14 @@ self
 .
 assertIn
 (
-"
+'
 hoge
-"
+'
 config
 [
-"
+'
 DEFINES
-"
+'
 ]
 )
         
@@ -4326,14 +4280,14 @@ assertEquals
 (
 config
 [
-"
+'
 DEFINES
-"
+'
 ]
 [
-"
+'
 hoge
-"
+'
 ]
 True
 )
@@ -4352,14 +4306,14 @@ assertEquals
 (
 config
 [
-"
+'
 DEFINES
-"
+'
 ]
 {
-"
+'
 BAR
-"
+'
 :
 False
 }
@@ -4377,14 +4331,14 @@ ConfigureError
 get_config
 (
 [
-"
+'
 -
 -
 set
 -
 foo
-"
-"
+'
+'
 -
 -
 set
@@ -4392,7 +4346,7 @@ set
 name
 =
 FOO
-"
+'
 ]
 )
     
@@ -4408,10 +4362,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -4474,10 +4427,9 @@ qux
 '
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -4493,26 +4445,23 @@ self
 .
 assertEquals
 (
-                
 config
 [
-"
+'
 DEFINES
-"
+'
 ]
-                
 {
-                    
-"
-FOO
-"
-:
-"
-foo
-"
                 
-}
+'
+FOO
+'
+:
+'
+foo
+'
             
+}
 )
             
 config
@@ -4522,13 +4471,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -4536,34 +4485,31 @@ self
 .
 assertEquals
 (
-                
 config
 [
-"
+'
 DEFINES
-"
+'
 ]
-                
 {
-                    
-"
-FOO
-"
-:
-"
-foo
-"
-                    
-"
-QUX
-"
-:
-"
-qux
-"
                 
-}
+'
+FOO
+'
+:
+'
+foo
+'
+                
+'
+QUX
+'
+:
+'
+qux
+'
             
+}
 )
     
 def
@@ -4586,17 +4532,18 @@ self
 .
 get_config
 (
+                
 *
 args
 configure
 =
-"
+'
 imply_option
 /
 simple
 .
 configure
-"
+'
 )
         
 help
@@ -4605,11 +4552,11 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 help
-"
+'
 ]
 )
         
@@ -4644,13 +4591,13 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 enable
 -
 foo
-"
+'
 ]
 )
         
@@ -4658,9 +4605,9 @@ self
 .
 assertIn
 (
-"
+'
 BAR
-"
+'
 config
 )
         
@@ -4670,9 +4617,9 @@ assertEquals
 (
 config
 [
-"
+'
 BAR
-"
+'
 ]
 PositiveOptionValue
 (
@@ -4693,20 +4640,20 @@ e
 get_config
 (
 [
-"
+'
 -
 -
 enable
 -
 foo
-"
-"
+'
+'
 -
 -
 disable
 -
 bar
-"
+'
 ]
 )
         
@@ -4757,7 +4704,6 @@ command
 -
 line
 "
-        
 )
     
 def
@@ -4780,17 +4726,18 @@ self
 .
 get_config
 (
+                
 *
 args
 configure
 =
-"
+'
 imply_option
 /
 negative
 .
 configure
-"
+'
 )
         
 help
@@ -4799,11 +4746,11 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 help
-"
+'
 ]
 )
         
@@ -4838,13 +4785,13 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 enable
 -
 foo
-"
+'
 ]
 )
         
@@ -4852,9 +4799,9 @@ self
 .
 assertIn
 (
-"
+'
 BAR
-"
+'
 config
 )
         
@@ -4864,9 +4811,9 @@ assertEquals
 (
 config
 [
-"
+'
 BAR
-"
+'
 ]
 NegativeOptionValue
 (
@@ -4887,20 +4834,20 @@ e
 get_config
 (
 [
-"
+'
 -
 -
 enable
 -
 foo
-"
-"
+'
+'
 -
 -
 enable
 -
 bar
-"
+'
 ]
 )
         
@@ -4951,7 +4898,6 @@ command
 -
 line
 "
-        
 )
         
 config
@@ -4959,13 +4905,13 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 disable
 -
 hoge
-"
+'
 ]
 )
         
@@ -4973,9 +4919,9 @@ self
 .
 assertIn
 (
-"
+'
 BAR
-"
+'
 config
 )
         
@@ -4985,9 +4931,9 @@ assertEquals
 (
 config
 [
-"
+'
 BAR
-"
+'
 ]
 NegativeOptionValue
 (
@@ -5008,20 +4954,20 @@ e
 get_config
 (
 [
-"
+'
 -
 -
 disable
 -
 hoge
-"
-"
+'
+'
 -
 -
 enable
 -
 bar
-"
+'
 ]
 )
         
@@ -5072,7 +5018,6 @@ command
 -
 line
 "
-        
 )
     
 def
@@ -5095,17 +5040,18 @@ self
 .
 get_config
 (
+                
 *
 args
 configure
 =
-"
+'
 imply_option
 /
 values
 .
 configure
-"
+'
 )
         
 help
@@ -5114,11 +5060,11 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 help
-"
+'
 ]
 )
         
@@ -5153,7 +5099,7 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -5161,7 +5107,7 @@ enable
 foo
 =
 a
-"
+'
 ]
 )
         
@@ -5169,9 +5115,9 @@ self
 .
 assertIn
 (
-"
+'
 BAR
-"
+'
 config
 )
         
@@ -5181,16 +5127,16 @@ assertEquals
 (
 config
 [
-"
+'
 BAR
-"
+'
 ]
 PositiveOptionValue
 (
 (
-"
+'
 a
-"
+'
 )
 )
 )
@@ -5200,7 +5146,7 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -5209,7 +5155,7 @@ foo
 =
 a
 b
-"
+'
 ]
 )
         
@@ -5217,9 +5163,9 @@ self
 .
 assertIn
 (
-"
+'
 BAR
-"
+'
 config
 )
         
@@ -5229,19 +5175,19 @@ assertEquals
 (
 config
 [
-"
+'
 BAR
-"
+'
 ]
 PositiveOptionValue
 (
 (
-"
+'
 a
-"
-"
+'
+'
 b
-"
+'
 )
 )
 )
@@ -5260,7 +5206,7 @@ e
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -5269,14 +5215,14 @@ foo
 =
 a
 b
-"
-"
+'
+'
 -
 -
 disable
 -
 bar
-"
+'
 ]
 )
         
@@ -5330,7 +5276,6 @@ command
 -
 line
 "
-        
 )
     
 def
@@ -5353,17 +5298,18 @@ self
 .
 get_config
 (
+                
 *
 args
 configure
 =
-"
+'
 imply_option
 /
 infer
 .
 configure
-"
+'
 )
         
 help
@@ -5372,11 +5318,11 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 help
-"
+'
 ]
 )
         
@@ -5420,20 +5366,20 @@ e
 get_config
 (
 [
-"
+'
 -
 -
 enable
 -
 foo
-"
-"
+'
+'
 -
 -
 disable
 -
 bar
-"
+'
 ]
 )
         
@@ -5484,7 +5430,6 @@ command
 -
 line
 "
-        
 )
         
 with
@@ -5506,13 +5451,13 @@ get_config
 ]
 configure
 =
-"
+'
 imply_option
 /
 infer_ko
 .
 configure
-"
+'
 )
         
 self
@@ -5553,7 +5498,6 @@ imply_option
 call
 .
 "
-        
 )
     
 def
@@ -5576,17 +5520,18 @@ self
 .
 get_config
 (
+                
 *
 args
 configure
 =
-"
+'
 imply_option
 /
 imm
 .
 configure
-"
+'
 )
         
 help
@@ -5595,11 +5540,11 @@ config
 get_config
 (
 [
-"
+'
 -
 -
 help
-"
+'
 ]
 )
         
@@ -5641,16 +5586,15 @@ mozpath
 join
 (
 test_data_path
-"
+'
 imply_option
-"
-"
+'
+'
 imm
 .
 configure
-"
+'
 )
-        
 )
         
 with
@@ -5658,9 +5602,8 @@ self
 .
 assertRaisesRegexp
 (
-            
 InvalidOptionError
-            
+                                     
 "
 -
 -
@@ -5680,7 +5623,7 @@ s
 '
 conflicts
 "
-            
+                                     
 "
 with
 '
@@ -5698,20 +5641,19 @@ line
 "
 %
 config_path
-        
 )
 :
             
 get_config
 (
 [
-"
+'
 -
 -
 disable
 -
 foo
-"
+'
 ]
 )
         
@@ -5720,9 +5662,8 @@ self
 .
 assertRaisesRegexp
 (
-            
 InvalidOptionError
-            
+                                     
 "
 -
 -
@@ -5741,10 +5682,10 @@ at
 %
 s
 :
-18
+16
 '
 "
-            
+                                     
 "
 conflicts
 with
@@ -5765,16 +5706,16 @@ command
 -
 line
 "
+                                     
 %
 config_path
-        
 )
 :
             
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -5784,7 +5725,7 @@ bar
 a
 b
 c
-"
+'
 ]
 )
         
@@ -5793,9 +5734,8 @@ self
 .
 assertRaisesRegexp
 (
-            
 InvalidOptionError
-            
+                                     
 "
 -
 -
@@ -5813,10 +5753,10 @@ at
 %
 s
 :
-29
+25
 '
 "
-            
+                                     
 "
 conflicts
 with
@@ -5835,16 +5775,16 @@ command
 -
 line
 "
+                                     
 %
 config_path
-        
 )
 :
             
 get_config
 (
 [
-"
+'
 -
 -
 enable
@@ -5852,7 +5792,7 @@ enable
 baz
 =
 QUUX
-"
+'
 ]
 )
     
@@ -5879,10 +5819,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 imply_option
 (
@@ -5903,10 +5842,9 @@ bar
 '
 )
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -5920,14 +5858,13 @@ self
 .
 assertEquals
 (
-            
 str
 (
 e
 .
 exception
 )
-            
+                          
 "
 -
 -
@@ -5944,20 +5881,19 @@ is
 unknown
 .
 "
-            
+                          
 %
 mozpath
 .
 join
 (
 test_data_path
-"
+'
 moz
 .
 configure
-"
+'
 )
-        
 )
         
 with
@@ -5976,10 +5912,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 imply_option
 (
@@ -6033,10 +5968,9 @@ value
 return
 value
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -6056,6 +5990,7 @@ e
 .
 exception
 )
+                          
 "
 Unexpected
 type
@@ -6078,10 +6013,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -6159,10 +6093,9 @@ x
 )
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -6178,21 +6111,18 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 QUX
-"
+'
 :
 NegativeOptionValue
 (
 )
-                
-}
             
+}
 )
             
 config
@@ -6202,13 +6132,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 foo
-"
+'
 ]
 )
             
@@ -6216,21 +6146,18 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 QUX
-"
+'
 :
 PositiveOptionValue
 (
 )
-                
-}
             
+}
 )
     
 def
@@ -6245,10 +6172,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -6384,10 +6310,9 @@ x
 )
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -6403,29 +6328,26 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
-:
-PositiveOptionValue
-(
-)
-                    
-"
-QUX
-"
+'
 :
 PositiveOptionValue
 (
 )
                 
-}
+'
+QUX
+'
+:
+PositiveOptionValue
+(
+)
             
+}
 )
             
 config
@@ -6435,13 +6357,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 without
 -
 foo
-"
+'
 ]
 )
             
@@ -6449,29 +6371,26 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
-:
-NegativeOptionValue
-(
-)
-                    
-"
-QUX
-"
+'
 :
 NegativeOptionValue
 (
 )
                 
-}
+'
+QUX
+'
+:
+NegativeOptionValue
+(
+)
             
+}
 )
             
 config
@@ -6481,13 +6400,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -6495,29 +6414,26 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
-:
-PositiveOptionValue
-(
-)
-                    
-"
-QUX
-"
+'
 :
 PositiveOptionValue
 (
 )
                 
-}
+'
+QUX
+'
+:
+PositiveOptionValue
+(
+)
             
+}
 )
             
 with
@@ -6538,20 +6454,20 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 without
 -
 foo
-"
-"
+'
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -6559,14 +6475,13 @@ self
 .
 assertEquals
 (
-                
 str
 (
 e
 .
 exception
 )
-                
+                              
 "
 '
 -
@@ -6586,7 +6501,7 @@ qux
 '
 conflicts
 "
-                
+                              
 "
 with
 '
@@ -6602,7 +6517,6 @@ command
 -
 line
 "
-            
 )
             
 config
@@ -6612,13 +6526,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 without
 -
 qux
-"
+'
 ]
 )
             
@@ -6626,29 +6540,26 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
+'
 :
 PositiveOptionValue
 (
 )
-                    
-"
+                
+'
 QUX
-"
+'
 :
 NegativeOptionValue
 (
 )
-                
-}
             
+}
 )
         
 with
@@ -6656,10 +6567,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -6795,10 +6705,9 @@ x
 )
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -6814,29 +6723,26 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
-:
-NegativeOptionValue
-(
-)
-                    
-"
-QUX
-"
+'
 :
 NegativeOptionValue
 (
 )
                 
-}
+'
+QUX
+'
+:
+NegativeOptionValue
+(
+)
             
+}
 )
             
 config
@@ -6846,13 +6752,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 foo
-"
+'
 ]
 )
             
@@ -6860,29 +6766,26 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
-:
-PositiveOptionValue
-(
-)
-                    
-"
-QUX
-"
+'
 :
 PositiveOptionValue
 (
 )
                 
-}
+'
+QUX
+'
+:
+PositiveOptionValue
+(
+)
             
+}
 )
             
 with
@@ -6903,13 +6806,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -6917,14 +6820,13 @@ self
 .
 assertEquals
 (
-                
 str
 (
 e
 .
 exception
 )
-                
+                              
 "
 '
 -
@@ -6944,7 +6846,7 @@ qux
 '
 conflicts
 "
-                
+                              
 "
 with
 '
@@ -6958,7 +6860,6 @@ from
 the
 default
 "
-            
 )
             
 with
@@ -6979,20 +6880,20 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 without
 -
 foo
-"
-"
+'
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -7000,14 +6901,13 @@ self
 .
 assertEquals
 (
-                
 str
 (
 e
 .
 exception
 )
-                
+                              
 "
 '
 -
@@ -7027,7 +6927,7 @@ qux
 '
 conflicts
 "
-                
+                              
 "
 with
 '
@@ -7043,7 +6943,6 @@ command
 -
 line
 "
-            
 )
             
 config
@@ -7053,13 +6952,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 without
 -
 qux
-"
+'
 ]
 )
             
@@ -7067,29 +6966,26 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
-:
-NegativeOptionValue
-(
-)
-                    
-"
-QUX
-"
+'
 :
 NegativeOptionValue
 (
 )
                 
-}
+'
+QUX
+'
+:
+NegativeOptionValue
+(
+)
             
+}
 )
         
 config_path
@@ -7098,16 +6994,17 @@ mozpath
 .
 abspath
 (
+            
 mozpath
 .
 join
 (
 test_data_path
-"
+'
 moz
 .
 configure
-"
+'
 )
 )
         
@@ -7116,10 +7013,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -7247,10 +7143,9 @@ x
 )
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -7266,29 +7161,26 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
-:
-NegativeOptionValue
-(
-)
-                    
-"
-QUX
-"
+'
 :
 NegativeOptionValue
 (
 )
                 
-}
+'
+QUX
+'
+:
+NegativeOptionValue
+(
+)
             
+}
 )
             
 config
@@ -7298,13 +7190,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 foo
-"
+'
 ]
 )
             
@@ -7312,29 +7204,26 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
-:
-PositiveOptionValue
-(
-)
-                    
-"
-QUX
-"
+'
 :
 PositiveOptionValue
 (
 )
                 
-}
+'
+QUX
+'
+:
+PositiveOptionValue
+(
+)
             
+}
 )
             
 with
@@ -7355,13 +7244,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -7369,14 +7258,13 @@ self
 .
 assertEquals
 (
-                
 str
 (
 e
 .
 exception
 )
-                
+                              
 "
 '
 -
@@ -7397,7 +7285,7 @@ s
 '
 conflicts
 "
-                
+                              
 "
 with
 '
@@ -7413,7 +7301,6 @@ default
 "
 %
 config_path
-            
 )
             
 with
@@ -7434,20 +7321,20 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 without
 -
 foo
-"
-"
+'
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -7455,14 +7342,13 @@ self
 .
 assertEquals
 (
-                
 str
 (
 e
 .
 exception
 )
-                
+                              
 "
 '
 -
@@ -7483,7 +7369,7 @@ s
 '
 conflicts
 "
-                
+                              
 "
 with
 '
@@ -7501,7 +7387,6 @@ line
 "
 %
 config_path
-            
 )
             
 config
@@ -7511,13 +7396,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 without
 -
 qux
-"
+'
 ]
 )
             
@@ -7525,29 +7410,26 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
-:
-NegativeOptionValue
-(
-)
-                    
-"
-QUX
-"
+'
 :
 NegativeOptionValue
 (
 )
                 
-}
+'
+QUX
+'
+:
+NegativeOptionValue
+(
+)
             
+}
 )
     
 def
@@ -7563,23 +7445,23 @@ mozpath
 .
 abspath
 (
+            
 mozpath
 .
 join
 (
 test_data_path
-"
+'
 moz
 .
 configure
-"
+'
 )
 )
         
 message
 =
 (
-            
 "
 '
 -
@@ -7597,7 +7479,7 @@ or
 indirect
 dependencies
 "
-            
+                   
 "
 when
 resolving
@@ -7610,7 +7492,6 @@ s
 "
 %
 config_path
-        
 )
         
 with
@@ -7618,10 +7499,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -7759,10 +7639,9 @@ x
 )
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -7812,13 +7691,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -7851,20 +7730,20 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 without
 -
 foo
-"
-"
+'
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -7942,7 +7821,7 @@ e
 exception
 )
             
-"
+'
 Option
 -
 -
@@ -7958,7 +7837,7 @@ it
 with
 a
 depends
-"
+'
         
 )
         
@@ -7978,10 +7857,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 option
 (
@@ -8015,10 +7893,9 @@ foo
 "
 )
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -8032,13 +7909,15 @@ self
 .
 assertEquals
 (
+            
 str
 (
 e
 .
 exception
 )
-"
+            
+'
 Option
 -
 -
@@ -8047,7 +7926,8 @@ with
 foo
 already
 defined
-"
+'
+        
 )
         
 with
@@ -8066,10 +7946,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 option
 (
@@ -8099,10 +7978,9 @@ foo
 "
 )
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -8116,18 +7994,21 @@ self
 .
 assertEquals
 (
+            
 str
 (
 e
 .
 exception
 )
-"
+            
+'
 Option
 MOZ_FOO
 already
 defined
-"
+'
+        
 )
         
 with
@@ -8146,10 +8027,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 option
 (
@@ -8186,10 +8066,9 @@ foo
 "
 )
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -8203,18 +8082,21 @@ self
 .
 assertEquals
 (
+            
 str
 (
 e
 .
 exception
 )
-"
+            
+'
 Option
 MOZ_FOO
 already
 defined
-"
+'
+        
 )
         
 with
@@ -8233,10 +8115,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 option
 (
@@ -8273,10 +8154,9 @@ foo
 "
 )
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -8290,18 +8170,21 @@ self
 .
 assertEquals
 (
+            
 str
 (
 e
 .
 exception
 )
-"
+            
+'
 Option
 MOZ_FOO
 already
 defined
-"
+'
+        
 )
         
 with
@@ -8320,10 +8203,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 option
 (
@@ -8362,10 +8244,9 @@ foo
 "
 )
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -8379,13 +8260,15 @@ self
 .
 assertEquals
 (
+            
 str
 (
 e
 .
 exception
 )
-"
+            
+'
 Option
 -
 -
@@ -8394,7 +8277,8 @@ with
 foo
 already
 defined
-"
+'
+        
 )
     
 def
@@ -8409,10 +8293,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -8566,10 +8449,9 @@ x
 )
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -8585,21 +8467,18 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
+'
 :
 NegativeOptionValue
 (
 )
-                
-}
             
+}
 )
             
 config
@@ -8609,13 +8488,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 foo
-"
+'
 ]
 )
             
@@ -8623,29 +8502,26 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
+'
 :
 PositiveOptionValue
 (
 )
-                    
-"
+                
+'
 QUX
-"
+'
 :
 NegativeOptionValue
 (
 )
-                
-}
             
+}
 )
             
 config
@@ -8655,20 +8531,20 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 foo
-"
-"
+'
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -8676,29 +8552,26 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
-:
-PositiveOptionValue
-(
-)
-                    
-"
-QUX
-"
+'
 :
 PositiveOptionValue
 (
 )
                 
-}
+'
+QUX
+'
+:
+PositiveOptionValue
+(
+)
             
+}
 )
             
 with
@@ -8717,13 +8590,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 bar
-"
+'
 ]
 )
             
@@ -8738,7 +8611,8 @@ e
 .
 exception
 )
-"
+                
+'
 -
 -
 with
@@ -8750,7 +8624,7 @@ available
 in
 this
 configuration
-"
+'
             
 )
             
@@ -8770,13 +8644,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -8791,7 +8665,8 @@ e
 .
 exception
 )
-"
+                
+'
 -
 -
 with
@@ -8803,7 +8678,7 @@ available
 in
 this
 configuration
-"
+'
             
 )
             
@@ -8823,11 +8698,11 @@ self
 get_config
 (
 [
-"
+'
 QUX
 =
 1
-"
+'
 ]
 )
             
@@ -8842,7 +8717,8 @@ e
 .
 exception
 )
-"
+                
+'
 QUX
 is
 not
@@ -8850,7 +8726,7 @@ available
 in
 this
 configuration
-"
+'
             
 )
             
@@ -8863,13 +8739,13 @@ get_config
 env
 =
 {
-"
+'
 QUX
-"
+'
 :
-"
+'
 1
-"
+'
 }
 )
             
@@ -8877,21 +8753,18 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
+'
 :
 NegativeOptionValue
 (
 )
-                
+            
 }
-            
 )
             
 help
@@ -8902,11 +8775,11 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 help
-"
+'
 ]
 )
             
@@ -8914,28 +8787,25 @@ self
 .
 assertEquals
 (
-                
 help
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 /
-"
+'
 )
-                
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
 \
                 
 Usage
@@ -8996,12 +8866,10 @@ Environment
 variables
 :
             
-"
-"
-"
-                
+'
+'
+'
 )
-            
 )
             
 help
@@ -9012,18 +8880,18 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 help
-"
-"
+'
+'
 -
 -
 with
 -
 foo
-"
+'
 ]
 )
             
@@ -9031,28 +8899,25 @@ self
 .
 assertEquals
 (
-                
 help
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 /
-"
+'
 )
-                
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
 \
                 
 Usage
@@ -9120,12 +8985,10 @@ Environment
 variables
 :
             
-"
-"
-"
-                
+'
+'
+'
 )
-            
 )
         
 with
@@ -9133,10 +8996,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -9180,10 +9042,9 @@ x
 )
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -9208,15 +9069,14 @@ self
 .
 assertEquals
 (
-                
 str
 (
 e
 .
 exception
 )
-                
-"
+                              
+'
 depends
 function
 needs
@@ -9224,14 +9084,14 @@ the
 same
 when
 as
-"
-"
+'
+                              
+'
 options
 it
 depends
 on
-"
-            
+'
 )
         
 with
@@ -9239,10 +9099,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 depends
 (
@@ -9321,10 +9180,9 @@ x
 )
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -9349,15 +9207,14 @@ self
 .
 assertEquals
 (
-                
 str
 (
 e
 .
 exception
 )
-                
-"
+                              
+'
 depends
 function
 needs
@@ -9365,14 +9222,14 @@ the
 same
 when
 as
-"
-"
+'
+                              
+'
 options
 it
 depends
 on
-"
-            
+'
 )
         
 with
@@ -9380,10 +9237,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 depends
 (
@@ -9539,10 +9395,9 @@ x
 )
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -9557,10 +9412,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -9645,10 +9499,9 @@ qux
 '
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -9657,13 +9510,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 foo
-"
+'
 ]
 )
             
@@ -9672,20 +9525,20 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 foo
-"
-"
+'
+'
 -
 -
 with
 -
 bar
-"
+'
 ]
 )
             
@@ -9694,20 +9547,20 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 foo
-"
-"
+'
+'
 -
 -
 without
 -
 bar
-"
+'
 ]
 )
             
@@ -9716,27 +9569,27 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 foo
-"
-"
+'
+'
 -
 -
 with
 -
 bar
-"
-"
+'
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -9745,27 +9598,27 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 foo
-"
-"
+'
+'
 -
 -
 with
 -
 bar
-"
-"
+'
+'
 -
 -
 without
 -
 qux
-"
+'
 ]
 )
             
@@ -9785,13 +9638,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 bar
-"
+'
 ]
 )
             
@@ -9811,13 +9664,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 without
 -
 bar
-"
+'
 ]
 )
             
@@ -9837,13 +9690,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -9863,13 +9716,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 without
 -
 qux
-"
+'
 ]
 )
             
@@ -9889,27 +9742,27 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 foo
-"
-"
+'
+'
 -
 -
 without
 -
 bar
-"
-"
+'
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -9929,27 +9782,27 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 foo
-"
-"
+'
+'
 -
 -
 without
 -
 bar
-"
-"
+'
+'
 -
 -
 without
 -
 qux
-"
+'
 ]
 )
     
@@ -10010,7 +9863,7 @@ e
 exception
 )
             
-"
+'
 Cannot
 include
 %
@@ -10025,11 +9878,10 @@ subdirectory
 of
 %
 s
-"
+'
             
 %
 (
-                
 mozpath
 .
 normpath
@@ -10039,25 +9891,25 @@ mozpath
 join
 (
 test_data_path
-"
+'
 .
 .
-"
-"
+'
+                                             
+'
 foo
 .
 configure
-"
+'
 )
 )
-                
+               
 mozpath
 .
 normsep
 (
 test_data_path
 )
-            
 )
         
 )
@@ -10078,10 +9930,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 include
 (
@@ -10101,10 +9952,9 @@ configure
 '
 )
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -10126,7 +9976,7 @@ e
 exception
 )
             
-"
+'
 Cannot
 include
 %
@@ -10137,7 +9987,7 @@ was
 included
 already
 .
-"
+'
             
 %
 mozpath
@@ -10149,11 +9999,12 @@ mozpath
 join
 (
 test_data_path
-"
+                                            
+'
 extra
 .
 configure
-"
+'
 )
 )
         
@@ -10175,20 +10026,18 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 include
 (
 42
 )
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -10228,9 +10077,8 @@ self
 with
 MockedOpen
 (
-            
 {
-                
+            
 os
 .
 path
@@ -10238,21 +10086,20 @@ path
 join
 (
 test_data_path
-"
+'
 moz
 .
 configure
-"
+'
 )
 :
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
                 
 option
 (
@@ -10336,12 +10183,11 @@ QUX
 qux
 )
             
-"
-"
-"
-                
+'
+'
+'
 )
-                
+            
 os
 .
 path
@@ -10349,21 +10195,20 @@ path
 join
 (
 test_data_path
-"
+'
 always
 .
 configure
-"
+'
 )
 :
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
                 
 option
 (
@@ -10408,12 +10253,11 @@ return
 bar
 '
             
-"
-"
-"
-                
+'
+'
+'
 )
-                
+            
 os
 .
 path
@@ -10421,21 +10265,20 @@ path
 join
 (
 test_data_path
-"
+'
 never
 .
 configure
-"
+'
 )
 :
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
                 
 option
 (
@@ -10480,12 +10323,11 @@ return
 qux
 '
             
-"
-"
-"
-                
+'
+'
+'
 )
-                
+            
 os
 .
 path
@@ -10493,21 +10335,20 @@ path
 join
 (
 test_data_path
-"
+'
 foo
 .
 configure
-"
+'
 )
 :
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
                 
 option
 (
@@ -10577,12 +10418,11 @@ really
 '
 )
             
-"
-"
-"
-                
+'
+'
+'
 )
-                
+            
 os
 .
 path
@@ -10590,21 +10430,20 @@ path
 join
 (
 test_data_path
-"
+'
 foo2
 .
 configure
-"
+'
 )
 :
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
                 
 set_config
 (
@@ -10614,14 +10453,12 @@ FOO2
 True
 )
             
-"
-"
-"
-                
+'
+'
+'
 )
-            
-}
         
+}
 )
 :
             
@@ -10649,13 +10486,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 foo
-"
+'
 ]
 )
             
@@ -10675,13 +10512,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 bar
-"
+'
 ]
 )
             
@@ -10689,21 +10526,18 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
-BAR
-"
-:
-"
-bar
-"
                 
-}
+'
+BAR
+'
+:
+'
+bar
+'
             
+}
 )
             
 with
@@ -10722,13 +10556,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -10743,7 +10577,8 @@ e
 .
 exception
 )
-"
+                
+'
 -
 -
 with
@@ -10755,7 +10590,7 @@ available
 in
 this
 configuration
-"
+'
             
 )
             
@@ -10766,14 +10601,14 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 foo
-"
-"
+'
+'
 -
 -
 with
@@ -10781,7 +10616,7 @@ with
 foo
 -
 really
-"
+'
 ]
 )
             
@@ -10789,27 +10624,24 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
+'
 :
-"
+'
 foo
-"
-                    
-"
+'
+                
+'
 FOO2
-"
+'
 :
 True
-                
-}
             
+}
 )
     
 def
@@ -10835,19 +10667,17 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 include
 =
 42
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -10861,11 +10691,11 @@ self
 .
 assertIn
 (
-"
+'
 Cannot
 reassign
 builtins
-"
+'
 str
 (
 e
@@ -10890,19 +10720,17 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 foo
 =
 42
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -10917,7 +10745,7 @@ self
 assertIn
 (
             
-"
+'
 Cannot
 assign
 foo
@@ -10929,18 +10757,17 @@ a
 depends
 nor
 a
-"
-"
-template
-"
+'
             
+'
+template
+'
 str
 (
 e
 .
 exception
 )
-        
 )
     
 def
@@ -10966,10 +10793,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 depends
 (
@@ -10983,10 +10809,9 @@ foo
                     
 return
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -11006,6 +10831,7 @@ e
 .
 exception
 )
+                          
 "
 depends
 needs
@@ -11032,10 +10858,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 depends
 (
@@ -11058,10 +10883,9 @@ value
 return
 value
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -11075,14 +10899,13 @@ self
 .
 assertEquals
 (
-            
 str
 (
 e
 .
 exception
 )
-            
+                          
 "
 '
 -
@@ -11102,13 +10925,13 @@ it
 '
 s
 "
+                          
 "
 declared
 too
 late
 ?
 "
-        
 )
         
 with
@@ -11127,10 +10950,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 depends
 (
@@ -11155,10 +10977,9 @@ value
 return
 value
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -11178,6 +10999,7 @@ e
 .
 exception
 )
+                          
 "
 Option
 must
@@ -11206,10 +11028,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 depends
 (
@@ -11226,10 +11047,9 @@ value
 return
 value
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -11243,14 +11063,13 @@ self
 .
 assertEquals
 (
-            
 str
 (
 e
 .
 exception
 )
-            
+                          
 "
 Cannot
 use
@@ -11263,11 +11082,11 @@ int
 as
 argument
 "
+                          
 "
 to
 depends
 "
-        
 )
         
 with
@@ -11286,10 +11105,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 depends
 (
@@ -11309,10 +11127,9 @@ value
                     
 yield
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -11326,13 +11143,13 @@ self
 .
 assertEquals
 (
-            
 str
 (
 e
 .
 exception
 )
+                          
 "
 Cannot
 decorate
@@ -11341,7 +11158,6 @@ functions
 with
 depends
 "
-        
 )
         
 with
@@ -11360,10 +11176,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 depends
 (
@@ -11377,10 +11192,9 @@ help
 42
 )
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -11400,6 +11214,7 @@ e
 .
 exception
 )
+                          
 "
 Unexpected
 type
@@ -11426,10 +11241,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 option
 (
@@ -11468,10 +11282,9 @@ foo
 (
 )
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -11491,6 +11304,7 @@ e
 .
 exception
 )
+                          
 "
 The
 foo
@@ -11518,10 +11332,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 depends
 (
@@ -11544,10 +11357,9 @@ _
                     
 return
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -11561,13 +11373,13 @@ self
 .
 assertEquals
 (
-            
 str
 (
 e
 .
 exception
 )
+                          
 "
 depends_impl
 (
@@ -11581,7 +11393,6 @@ argument
 foo
 '
 "
-        
 )
     
 def
@@ -11596,10 +11407,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 depends
 (
@@ -11701,10 +11511,9 @@ QUX
 qux
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -11720,21 +11529,18 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
-FOO
-"
-:
-"
-foo
-"
                 
-}
+'
+FOO
+'
+:
+'
+foo
+'
             
+}
 )
             
 config
@@ -11744,13 +11550,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 with
 -
 qux
-"
+'
 ]
 )
             
@@ -11758,29 +11564,26 @@ self
 .
 assertEquals
 (
-                
 config
-                
 {
-                    
-"
-FOO
-"
-:
-"
-foo
-"
-                    
-"
-QUX
-"
-:
-"
-qux
-"
                 
-}
+'
+FOO
+'
+:
+'
+foo
+'
+                
+'
+QUX
+'
+:
+'
+qux
+'
             
+}
 )
     
 def
@@ -11806,10 +11609,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 imports
 (
@@ -11830,10 +11632,9 @@ value
 return
 value
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -11853,13 +11654,14 @@ e
 .
 exception
 )
-"
+                          
+'
 imports
 must
 appear
 after
 template
-"
+'
 )
         
 with
@@ -11878,10 +11680,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 option
 (
@@ -11923,10 +11724,9 @@ value
 return
 value
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -11946,13 +11746,14 @@ e
 .
 exception
 )
-"
+                          
+'
 imports
 must
 appear
 after
 depends
-"
+'
 )
         
 for
@@ -12010,10 +11811,9 @@ self
 .
 moz_configure
 (
-                    
-"
-"
-"
+'
+'
+'
                     
 imports
 (
@@ -12033,13 +11833,11 @@ value
 return
 value
                 
-"
-"
-"
-                    
+'
+'
+'
 %
 import_
-                
 )
 :
                     
@@ -12085,10 +11883,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 imports
 (
@@ -12110,10 +11907,9 @@ value
 return
 value
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -12159,10 +11955,9 @@ self
 .
 moz_configure
 (
-                
-"
-"
-"
+'
+'
+'
                 
 imports
 (
@@ -12182,10 +11977,9 @@ value
 return
 value
             
-"
-"
-"
-            
+'
+'
+'
 )
 :
                 
@@ -12205,6 +11999,7 @@ e
 .
 exception
 )
+                          
 "
 Invalid
 argument
@@ -12227,9 +12022,9 @@ self
         
 moz_configure
 =
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -12396,9 +12191,9 @@ x
 )
 )
         
-"
-"
-"
+'
+'
+'
         
 with
 self
@@ -12421,20 +12216,17 @@ self
 .
 assertEqual
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 DEFINES
-"
+'
 :
 {
 }
-                
-}
             
+}
 )
             
 config
@@ -12444,13 +12236,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 enable
 -
 when
-"
+'
 ]
 )
             
@@ -12458,53 +12250,50 @@ self
 .
 assertEqual
 (
-                
 config
+{
                 
-{
-                    
-"
+'
 BAR
-"
+'
 :
 NegativeOptionValue
 (
 )
-                    
-"
+                
+'
 FOO
-"
+'
 :
 NegativeOptionValue
 (
 )
-                    
-"
+                
+'
 DEFINES
-"
+'
 :
 {
-                        
-"
+                    
+'
 BAR
-"
-:
-NegativeOptionValue
-(
-)
-                        
-"
-FOO
-"
+'
 :
 NegativeOptionValue
 (
 )
                     
-}
+'
+FOO
+'
+:
+NegativeOptionValue
+(
+)
                 
 }
             
+}
 )
             
 config
@@ -12514,20 +12303,20 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 enable
 -
 when
-"
-"
+'
+'
 -
 -
 foo
 =
 bar
-"
+'
 ]
 )
             
@@ -12535,73 +12324,70 @@ self
 .
 assertEqual
 (
-                
 config
+{
                 
-{
-                    
-"
+'
 BAR
-"
+'
 :
 PositiveOptionValue
 (
 [
-"
+'
 bar
-"
+'
 ]
 )
-                    
-"
+                
+'
 FOO
-"
+'
 :
 PositiveOptionValue
 (
 [
-"
+'
 bar
-"
+'
 ]
 )
-                    
-"
+                
+'
 DEFINES
-"
+'
 :
 {
-                        
-"
+                    
+'
 BAR
-"
+'
 :
 PositiveOptionValue
 (
 [
-"
+'
 bar
-"
-]
-)
-                        
-"
-FOO
-"
-:
-PositiveOptionValue
-(
-[
-"
-bar
-"
+'
 ]
 )
                     
-}
+'
+FOO
+'
+:
+PositiveOptionValue
+(
+[
+'
+bar
+'
+]
+)
                 
 }
             
+}
 )
             
 with
@@ -12620,11 +12406,11 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 foo
-"
+'
 ]
 )
             
@@ -12632,14 +12418,14 @@ self
 .
 assertEquals
 (
-                
 str
 (
 e
 .
 exception
 )
-"
+                              
+'
 -
 -
 foo
@@ -12649,8 +12435,7 @@ available
 in
 this
 configuration
-"
-            
+'
 )
         
 with
@@ -12658,13 +12443,11 @@ self
 .
 moz_configure
 (
-            
 moz_configure
-            
 +
-"
-"
-"
+'
+'
+'
             
 set_config
 (
@@ -12687,10 +12470,9 @@ x
 )
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -12715,15 +12497,14 @@ self
 .
 assertEquals
 (
-                
 str
 (
 e
 .
 exception
 )
-                
-"
+                              
+'
 depends
 function
 needs
@@ -12731,14 +12512,14 @@ the
 same
 when
 as
-"
-"
+'
+                              
+'
 options
 it
 depends
 on
-"
-            
+'
 )
         
 with
@@ -12746,13 +12527,11 @@ self
 .
 moz_configure
 (
-            
 moz_configure
-            
 +
-"
-"
-"
+'
+'
+'
             
 set_config
 (
@@ -12778,10 +12557,9 @@ x
 )
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -12790,13 +12568,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 enable
 -
 when
-"
+'
 ]
 )
         
@@ -12805,10 +12583,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 imply_option
 (
@@ -12820,13 +12597,11 @@ foo
 True
 )
         
-"
-"
-"
-            
+'
+'
+'
 +
 moz_configure
-        
 )
 :
             
@@ -12851,14 +12626,14 @@ self
 .
 assertEquals
 (
-                
 str
 (
 e
 .
 exception
 )
-"
+                              
+'
 -
 -
 foo
@@ -12868,8 +12643,7 @@ available
 in
 this
 configuration
-"
-            
+'
 )
         
 with
@@ -12877,10 +12651,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 imply_option
 (
@@ -12892,13 +12665,11 @@ foo
 True
 )
         
-"
-"
-"
-            
+'
+'
+'
 +
 moz_configure
-        
 )
 :
             
@@ -12907,13 +12678,13 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 enable
 -
 when
-"
+'
 ]
 )
     
@@ -12929,10 +12700,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -13091,10 +12861,9 @@ bar
 baz
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -13105,25 +12874,25 @@ in
 (
                 
 (
-"
-"
+'
+'
 0
 )
                 
 (
-"
+'
 -
 -
 foo
 =
 foo
-"
+'
 PositiveOptionValue
 (
 (
-"
+'
 foo
-"
+'
 )
 )
 )
@@ -13138,26 +12907,26 @@ in
 (
                     
 (
-"
-"
-"
-"
+'
+'
+'
+'
 )
                     
 (
-"
+'
 -
 -
 bar
 =
 bar
-"
+'
 PositiveOptionValue
 (
 (
-"
+'
 bar
-"
+'
 )
 )
 )
@@ -13172,27 +12941,27 @@ in
 (
                         
 (
-"
-"
+'
+'
 NegativeOptionValue
 (
 )
 )
                         
 (
-"
+'
 -
 -
 baz
 =
 baz
-"
+'
 PositiveOptionValue
 (
 (
-"
+'
 baz
-"
+'
 )
 )
 )
@@ -13220,58 +12989,52 @@ baz_opt
 if
 x
 ]
-                        
 )
                         
 self
 .
 assertEqual
 (
-                            
 config
-                            
 {
-                                
-"
+                            
+'
 FOOorBAR
-"
+'
 :
 foo_value
 or
 bar_value
-                                
-"
+                            
+'
 FOOorBARorBAZ
-"
+'
 :
 foo_value
 or
 bar_value
 or
-baz_value
-                                
-"
-FOOandBAR
-"
-:
-foo_value
-and
-bar_value
-                                
-"
-FOOandBARandBAZ
-"
-:
-foo_value
-                                
-and
-bar_value
-                                
-and
 baz_value
                             
-}
+'
+FOOandBAR
+'
+:
+foo_value
+and
+bar_value
+                            
+'
+FOOandBARandBAZ
+'
+:
+foo_value
+and
+bar_value
+and
+baz_value
                         
+}
 )
     
 def
@@ -13286,10 +13049,9 @@ self
 .
 moz_configure
 (
-            
-"
-"
-"
+'
+'
+'
             
 imports
 (
@@ -13453,10 +13215,9 @@ foobar
 baz
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
 :
             
@@ -13472,115 +13233,106 @@ self
 .
 assertEqual
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
+'
+:
+NegativeOptionValue
+(
+)
+            
+}
+)
+            
+config
+=
+self
+.
+get_config
+(
+[
+'
+-
+-
+foo
+=
+foo
+'
+]
+)
+            
+self
+.
+assertEqual
+(
+config
+{
+                
+'
+FOO
+'
+:
+PositiveOptionValue
+(
+(
+'
+foo
+'
+)
+)
+            
+}
+)
+            
+config
+=
+self
+.
+get_config
+(
+[
+'
+-
+-
+bar
+=
+bar
+'
+]
+)
+            
+self
+.
+assertEqual
+(
+config
+{
+                
+'
+FOO
+'
 :
 NegativeOptionValue
 (
 )
                 
-}
-            
-)
-            
-config
-=
-self
-.
-get_config
-(
-[
-"
--
--
-foo
-=
-foo
-"
-]
-)
-            
-self
-.
-assertEqual
-(
-                
-config
-                
-{
-                    
-"
-FOO
-"
-:
-PositiveOptionValue
-(
-(
-"
-foo
-"
-)
-)
-                
-}
-            
-)
-            
-config
-=
-self
-.
-get_config
-(
-[
-"
--
--
-bar
-=
-bar
-"
-]
-)
-            
-self
-.
-assertEqual
-(
-                
-config
-                
-{
-                    
-"
-FOO
-"
-:
-NegativeOptionValue
-(
-)
-                    
-"
+'
 BAR
-"
+'
 :
 PositiveOptionValue
 (
 (
-"
+'
 bar
-"
+'
 )
 )
-                
-}
             
+}
 )
             
 config
@@ -13590,20 +13342,20 @@ self
 get_config
 (
 [
-"
+'
 -
 -
 foo
 =
 foo
-"
-"
+'
+'
 -
 -
 bar
 =
 bar
-"
+'
 ]
 )
             
@@ -13611,47 +13363,44 @@ self
 .
 assertEqual
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 FOO
-"
+'
 :
 PositiveOptionValue
 (
 (
-"
+'
 foo
-"
-)
-)
-                    
-"
-BAR
-"
-:
-PositiveOptionValue
-(
-(
-"
-bar
-"
+'
 )
 )
                 
-}
+'
+BAR
+'
+:
+PositiveOptionValue
+(
+(
+'
+bar
+'
+)
+)
             
+}
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

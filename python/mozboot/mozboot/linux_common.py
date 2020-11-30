@@ -23,9 +23,9 @@ uname
 ]
 !
 =
-"
+'
 x86_64
-"
+'
 class
 SccacheInstall
 (
@@ -106,13 +106,12 @@ self
 .
 install_toolchain_artifact
 (
-            
 state_dir
 checkout_root
+                                        
 fix_stacks
 .
 LINUX_FIX_STACKS
-        
 )
 class
 LucetcInstall
@@ -153,6 +152,7 @@ install_toolchain_artifact
 (
 state_dir
 checkout_root
+                                        
 lucetc
 .
 LINUX_LUCETC
@@ -194,13 +194,12 @@ self
 .
 install_toolchain_artifact
 (
-            
 state_dir
 checkout_root
+                                        
 wasi_sysroot
 .
 LINUX_WASI_SYSROOT
-        
 )
 class
 StyloInstall
@@ -243,8 +242,7 @@ is_non_x86_64
             
 print
 (
-                
-"
+'
 Cannot
 install
 bindgen
@@ -257,17 +255,16 @@ taskcluster
 .
 \
 n
-"
-                
-"
+'
+                  
+'
 Please
 install
 these
 packages
 manually
 .
-"
-            
+'
 )
             
 return
@@ -329,8 +326,7 @@ is_non_x86_64
             
 print
 (
-                
-"
+'
 Cannot
 install
 nasm
@@ -339,17 +335,16 @@ taskcluster
 .
 \
 n
-"
-                
-"
+'
+                  
+'
 Please
 install
 this
 package
 manually
 .
-"
-            
+'
 )
             
 return
@@ -405,8 +400,7 @@ is_non_x86_64
             
 print
 (
-                
-"
+'
 Cannot
 install
 node
@@ -416,17 +410,16 @@ taskcluster
 .
 \
 n
-"
-                
-"
+'
+                  
+'
 Please
 install
 this
 package
 manually
 .
-"
-            
+'
 )
             
 return
@@ -482,8 +475,7 @@ is_non_x86_64
             
 print
 (
-                
-"
+'
 Cannot
 install
 static
@@ -494,17 +486,16 @@ taskcluster
 .
 \
 n
-"
-                
-"
+'
+                  
+'
 Please
 install
 these
 tools
 manually
 .
-"
-            
+'
 )
             
 return
@@ -524,7 +515,6 @@ checkout_root
 static_analysis
 .
 LINUX_CLANG_TIDY
-        
 )
 class
 MinidumpStackwalkInstall
@@ -563,13 +553,12 @@ self
 .
 install_toolchain_artifact
 (
-            
 state_dir
 checkout_root
+                                        
 minidump_stackwalk
 .
 LINUX_MINIDUMP_STACKWALK
-        
 )
 class
 DumpSymsInstall
@@ -608,36 +597,35 @@ self
 .
 install_toolchain_artifact
 (
-            
 state_dir
 checkout_root
+                                        
 dump_syms
 .
 LINUX_DUMP_SYMS
-        
 )
 class
 LinuxBootstrapper
 (
-    
+        
 ClangStaticAnalysisInstall
-    
+        
 FixStacksInstall
-    
+        
 DumpSymsInstall
-    
+        
 LucetcInstall
-    
+        
 MinidumpStackwalkInstall
-    
+        
 NasmInstall
-    
+        
 NodeInstall
-    
+        
 SccacheInstall
-    
+        
 StyloInstall
-    
+        
 WasiSysrootInstall
 )
 :
@@ -646,7 +634,7 @@ INSTALL_PYTHON_GUIDANCE
 =
 (
         
-"
+'
 See
 https
 :
@@ -667,9 +655,9 @@ setup
 linux_build
 .
 html
-"
+'
         
-"
+'
 #
 installingpython
 for
@@ -681,13 +669,12 @@ install
 Python
 on
 your
-"
+'
         
-"
+'
 system
 .
-"
-    
+'
 )
     
 def

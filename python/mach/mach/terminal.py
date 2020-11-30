@@ -233,10 +233,10 @@ fh
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
         
 if
@@ -408,7 +408,7 @@ self
 raise
 Exception
 (
-"
+'
 clear
 (
 )
@@ -416,7 +416,7 @@ must
 be
 implemented
 .
-"
+'
 )
     
 def
@@ -429,7 +429,7 @@ self
 raise
 Exception
 (
-"
+'
 draw
 (
 )
@@ -437,5 +437,5 @@ must
 be
 implemented
 .
-"
+'
 )

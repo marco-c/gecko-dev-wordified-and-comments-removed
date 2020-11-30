@@ -39,7 +39,10 @@ mozpack
 .
 files
 import
+(
+    
 GeneratedFile
+)
 from
 mozunit
 import
@@ -80,9 +83,9 @@ with
 open
 (
 path
-"
+'
 rb
-"
+'
 )
 as
 fh
@@ -161,11 +164,11 @@ path
 join
 (
 root
-"
+'
 file
 %
 02d
-"
+'
 %
 i
 )
@@ -174,9 +177,9 @@ with
 open
 (
 p
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -187,11 +190,11 @@ fh
 write
 (
 b
-"
+'
 file
 %
 02d
-"
+'
 %
 i
 )
@@ -206,11 +209,11 @@ MODE_STANDARD
             
 files
 [
-"
+'
 file
 %
 02d
-"
+'
 %
 i
 ]
@@ -228,11 +231,11 @@ range
             
 files
 [
-"
+'
 file
 %
 02d
-"
+'
 %
 (
 i
@@ -244,11 +247,11 @@ i
 GeneratedFile
 (
 b
-"
+'
 file
 %
 02d
-"
+'
 %
 (
 i
@@ -286,11 +289,11 @@ getmembers
 names
 =
 [
-"
+'
 file
 %
 02d
-"
+'
 %
 i
 for
@@ -351,8 +354,8 @@ assertEqual
 ti
 .
 uname
-"
-"
+'
+'
 )
             
 self
@@ -362,8 +365,8 @@ assertEqual
 ti
 .
 gname
-"
-"
+'
+'
 )
             
 self
@@ -392,10 +395,9 @@ mark
 .
 xfail
 (
-        
 reason
 =
-"
+'
 ValueError
 is
 not
@@ -405,8 +407,7 @@ being
 provided
 directory
 .
-"
-    
+'
 )
     
 def
@@ -436,20 +437,20 @@ path
 join
 (
 d
-"
+'
 test
 .
 tar
-"
+'
 )
             
 with
 open
 (
 tp
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -461,11 +462,11 @@ self
 assertRaisesRegexp
 (
 ValueError
-"
+'
 not
 a
 regular
-"
+'
 )
 :
                     
@@ -473,9 +474,9 @@ create_tar_from_files
 (
 fh
 {
-"
+'
 test
-"
+'
 :
 d
 }
@@ -499,7 +500,7 @@ xfail
 (
 reason
 =
-"
+'
 ValueError
 is
 not
@@ -511,7 +512,7 @@ gid
 being
 set
 .
-"
+'
 )
     
 def
@@ -541,9 +542,9 @@ path
 join
 (
 d
-"
+'
 setuid
-"
+'
 )
             
 gid
@@ -555,18 +556,18 @@ path
 join
 (
 d
-"
+'
 setgid
-"
+'
 )
             
 with
 open
 (
 uid
-"
+'
 a
-"
+'
 )
 :
                 
@@ -576,9 +577,9 @@ with
 open
 (
 gid
-"
+'
 a
-"
+'
 )
 :
                 
@@ -617,20 +618,20 @@ path
 join
 (
 d
-"
+'
 test
 .
 tar
-"
+'
 )
             
 with
 open
 (
 tp
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -642,13 +643,13 @@ self
 assertRaisesRegexp
 (
 ValueError
-"
+'
 cannot
 add
 file
 with
 setuid
-"
+'
 )
 :
                     
@@ -656,9 +657,9 @@ create_tar_from_files
 (
 fh
 {
-"
+'
 test
-"
+'
 :
 uid
 }
@@ -670,13 +671,13 @@ self
 assertRaisesRegexp
 (
 ValueError
-"
+'
 cannot
 add
 file
 with
 setuid
-"
+'
 )
 :
                     
@@ -684,9 +685,9 @@ create_tar_from_files
 (
 fh
 {
-"
+'
 test
-"
+'
 :
 gid
 }
@@ -738,20 +739,20 @@ path
 join
 (
 d
-"
+'
 test
 .
 tar
-"
+'
 )
             
 with
 open
 (
 tp
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -771,9 +772,9 @@ file_hash
 (
 tp
 )
-"
+'
 01cd314e277f060e98c7de6c8ea57f96b3a2065c
-"
+'
 )
             
 with
@@ -782,9 +783,9 @@ tarfile
 open
 (
 tp
-"
+'
 r
-"
+'
 )
 as
 tf
@@ -815,10 +816,10 @@ xfail
 (
 reason
 =
-"
+'
 hash
 mismatch
-"
+'
 )
     
 def
@@ -848,18 +849,18 @@ path
 join
 (
 d
-"
+'
 exec
-"
+'
 )
             
 with
 open
 (
 p
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -869,7 +870,7 @@ fh
 .
 write
 (
-"
+'
 #
 !
 /
@@ -878,7 +879,7 @@ bin
 bash
 \
 n
-"
+'
 )
             
 os
@@ -902,20 +903,20 @@ path
 join
 (
 d
-"
+'
 test
 .
 tar
-"
+'
 )
             
 with
 open
 (
 tp
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -925,9 +926,9 @@ create_tar_from_files
 (
 fh
 {
-"
+'
 exec
-"
+'
 :
 p
 }
@@ -941,9 +942,9 @@ file_hash
 (
 tp
 )
-"
+'
 357e1b81c0b6cfdfa5d2d118d420025c3c76ee93
-"
+'
 )
             
 with
@@ -952,9 +953,9 @@ tarfile
 open
 (
 tp
-"
+'
 r
-"
+'
 )
 as
 tf
@@ -966,9 +967,9 @@ tf
 .
 getmember
 (
-"
+'
 exec
-"
+'
 )
                 
 self
@@ -1031,22 +1032,22 @@ path
 join
 (
 d
-"
+'
 test
 .
 tar
 .
 gz
-"
+'
 )
             
 with
 open
 (
 gp
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -1066,9 +1067,9 @@ file_hash
 (
 gp
 )
-"
+'
 7c4da5adc5088cdf00911d5daf9a67b15de714b7
-"
+'
 )
             
 with
@@ -1077,11 +1078,11 @@ tarfile
 open
 (
 gp
-"
+'
 r
 :
 gz
-"
+'
 )
 as
 tf
@@ -1140,22 +1141,22 @@ path
 join
 (
 d
-"
+'
 test
 .
 tar
 .
 gz
-"
+'
 )
             
 with
 open
 (
 gp
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -1167,9 +1168,9 @@ fh
 files
 filename
 =
-"
+'
 foobar
-"
+'
 compresslevel
 =
 1
@@ -1183,9 +1184,9 @@ file_hash
 (
 gp
 )
-"
+'
 1cc8b96f0262350977c2e9d61f40a1fa76f35c52
-"
+'
 )
             
 with
@@ -1194,11 +1195,11 @@ tarfile
 open
 (
 gp
-"
+'
 r
 :
 gz
-"
+'
 )
 as
 tf
@@ -1257,22 +1258,22 @@ path
 join
 (
 d
-"
+'
 test
 .
 tar
 .
 bz2
-"
+'
 )
             
 with
 open
 (
 bp
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -1292,9 +1293,9 @@ file_hash
 (
 bp
 )
-"
+'
 eb5096d2fbb71df7b3d690001a6f2e82a5aad6a7
-"
+'
 )
             
 with
@@ -1303,11 +1304,11 @@ tarfile
 open
 (
 bp
-"
+'
 r
 :
 bz2
-"
+'
 )
 as
 tf
@@ -1333,9 +1334,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

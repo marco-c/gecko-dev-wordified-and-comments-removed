@@ -63,7 +63,7 @@ MPL
 .
 DevToolsModules
 (
-"
+'
 open
 -
 request
@@ -73,5 +73,5 @@ in
 tab
 .
 js
-"
+'
 )

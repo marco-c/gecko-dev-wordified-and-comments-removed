@@ -81,7 +81,7 @@ addon_xpi
 =
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -90,7 +90,8 @@ addon
 mozilla
 .
 org
-"
+'
+                               
 path
 =
 path
@@ -100,7 +101,7 @@ addon_folder
 =
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -109,10 +110,12 @@ addon
 mozilla
 .
 org
-"
+'
+                                  
 path
 =
 path
+                                  
 xpi
 =
 False
@@ -233,16 +236,16 @@ path
 join
 (
 here
-"
+'
 addons
-"
-"
+'
+'
 apply
 -
 css
 .
 xpi
-"
+'
 )
     
 zipped
@@ -321,16 +324,16 @@ path
 join
 (
 here
-"
+'
 addons
-"
-"
+'
+'
 apply
 -
 css
 .
 xpi
-"
+'
 )
     
 am
@@ -367,13 +370,13 @@ installed_addons
 )
     
 assert
-"
+'
 apply
 -
 css
 .
 xpi
-"
+'
 =
 =
 os
@@ -405,7 +408,7 @@ installed_addons
 )
     
 assert
-"
+'
 test
 -
 webext
@@ -414,14 +417,14 @@ quality
 mozilla
 .
 org
-"
+'
 =
 =
 details
 [
-"
+'
 id
-"
+'
 ]
 def
 test_install_webextension_id_via_browser_specific_settings
@@ -438,12 +441,11 @@ path
 .
 join
 (
-        
 here
-"
+'
 addons
-"
-"
+'
+'
 apply
 -
 css
@@ -459,8 +461,7 @@ specific
 settings
 .
 xpi
-"
-    
+'
 )
     
 am
@@ -497,7 +498,8 @@ installed_addons
 )
     
 assert
-"
+(
+'
 apply
 -
 css
@@ -513,23 +515,23 @@ specific
 settings
 .
 xpi
-"
+'
 =
 =
+            
 os
 .
 path
 .
 basename
 (
-        
 am
 .
 installed_addons
 [
 0
 ]
-    
+)
 )
     
 details
@@ -547,7 +549,7 @@ installed_addons
 )
     
 assert
-"
+'
 test
 -
 webext
@@ -556,14 +558,14 @@ quality
 mozilla
 .
 org
-"
+'
 =
 =
 details
 [
-"
+'
 id
-"
+'
 ]
 def
 test_install_webextension_sans_id
@@ -581,10 +583,10 @@ path
 join
 (
 here
-"
+'
 addons
-"
-"
+'
+'
 apply
 -
 css
@@ -594,7 +596,7 @@ sans
 id
 .
 xpi
-"
+'
 )
     
 am
@@ -631,7 +633,7 @@ installed_addons
 )
     
 assert
-"
+'
 apply
 -
 css
@@ -641,7 +643,7 @@ sans
 id
 .
 xpi
-"
+'
 =
 =
 os
@@ -673,17 +675,17 @@ installed_addons
 )
     
 assert
-"
+'
 temporary
 -
 addon
-"
+'
 in
 details
 [
-"
+'
 id
-"
+'
 ]
 def
 test_install_xpi
@@ -713,7 +715,7 @@ for
 ext
 in
 [
-"
+'
 test
 -
 addon
@@ -722,8 +724,8 @@ addon
 mozilla
 .
 org
-"
-"
+'
+'
 test
 -
 addon
@@ -732,7 +734,7 @@ addon
 mozilla
 .
 org
-"
+'
 ]
 :
         
@@ -757,9 +759,9 @@ addon_details
 temp_addon
 )
 [
-"
+'
 id
-"
+'
 ]
 )
         
@@ -773,7 +775,6 @@ temp_addon
 addons_installed
 =
 [
-        
 str
 (
 x
@@ -782,14 +783,13 @@ x
 -
 len
 (
-"
+'
 .
 xpi
-"
+'
 )
 ]
 )
-        
 for
 x
 in
@@ -803,15 +803,15 @@ path
 .
 join
 (
+                        
 am
 .
 profile
-"
+'
 extensions
-"
+'
 )
 )
-    
 ]
     
 assert
@@ -852,7 +852,7 @@ append
 (
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -861,7 +861,8 @@ addon
 mozilla
 .
 org
-"
+'
+                                 
 path
 =
 tmpdir
@@ -874,7 +875,7 @@ append
 (
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -883,10 +884,12 @@ addon
 mozilla
 .
 org
-"
+'
+                                 
 path
 =
 tmpdir
+                                 
 xpi
 =
 False
@@ -897,10 +900,9 @@ addons
 .
 append
 (
-        
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -909,30 +911,29 @@ addon
 mozilla
 .
 org
-"
+'
+                                 
 path
 =
 tmpdir
+                                 
 name
 =
-"
+'
 addon
 -
 3
-"
+'
 )
-    
 )
     
 addons
 .
 append
 (
-        
 generate_addon
 (
-            
-"
+'
 test
 -
 addon
@@ -941,23 +942,24 @@ addon
 mozilla
 .
 org
-"
+'
+                                 
 path
 =
 tmpdir
+                                 
 name
 =
-"
+'
 addon
 -
 4
-"
+'
+                                 
 xpi
 =
 False
-        
 )
-    
 )
     
 addons
@@ -998,7 +1000,7 @@ addon_xpi
 =
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -1007,7 +1009,8 @@ unpack
 mozilla
 .
 org
-"
+'
+                               
 path
 =
 tmpdir
@@ -1017,8 +1020,7 @@ addon_folder
 =
 generate_addon
 (
-        
-"
+'
 test
 -
 addon
@@ -1027,21 +1029,22 @@ unpack
 mozilla
 .
 org
-"
+'
+                                  
 path
 =
 tmpdir
+                                  
 xpi
 =
 False
-    
 )
     
 addon_no_unpack
 =
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -1050,7 +1053,8 @@ addon
 mozilla
 .
 org
-"
+'
+                                     
 path
 =
 tmpdir
@@ -1151,7 +1155,7 @@ addon
 =
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -1160,7 +1164,8 @@ addon
 mozilla
 .
 org
-"
+'
+                           
 path
 =
 tmpdir
@@ -1223,16 +1228,16 @@ join
 am
 .
 profile
-"
+'
 extensions
-"
+'
 )
     
 addon_xpi
 =
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -1241,7 +1246,8 @@ addon
 mozilla
 .
 org
-"
+'
+                               
 path
 =
 tmpdir
@@ -1251,7 +1257,7 @@ addon_folder
 =
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -1260,10 +1266,12 @@ addon
 mozilla
 .
 org
-"
+'
+                                  
 path
 =
 tmpdir
+                                  
 xpi
 =
 False
@@ -1273,8 +1281,7 @@ addon_name
 =
 generate_addon
 (
-        
-"
+'
 test
 -
 addon
@@ -1283,13 +1290,15 @@ addon
 mozilla
 .
 org
-"
+'
+                                
 path
 =
 tmpdir
+                                
 name
 =
-"
+'
 test
 -
 addon
@@ -1300,8 +1309,7 @@ dupe
 mozilla
 .
 org
-"
-    
+'
 )
     
 am
@@ -1345,7 +1353,7 @@ backup_dir
 =
 =
 [
-"
+'
 test
 -
 addon
@@ -1356,7 +1364,7 @@ mozilla
 org
 .
 xpi
-"
+'
 ]
     
 am
@@ -1375,7 +1383,7 @@ staged_path
 =
 =
 [
-"
+'
 test
 -
 addon
@@ -1386,7 +1394,7 @@ mozilla
 org
 .
 xpi
-"
+'
 ]
     
 am
@@ -1436,7 +1444,7 @@ backup_dir
 =
 =
 [
-"
+'
 test
 -
 addon
@@ -1445,7 +1453,7 @@ addon
 mozilla
 .
 org
-"
+'
 ]
     
 am
@@ -1464,7 +1472,7 @@ staged_path
 =
 =
 [
-"
+'
 test
 -
 addon
@@ -1473,7 +1481,7 @@ addon
 mozilla
 .
 org
-"
+'
 ]
     
 am
@@ -1523,7 +1531,7 @@ backup_dir
 =
 =
 [
-"
+'
 test
 -
 addon
@@ -1534,7 +1542,7 @@ mozilla
 org
 .
 xpi
-"
+'
 ]
     
 am
@@ -1553,7 +1561,7 @@ staged_path
 =
 =
 [
-"
+'
 test
 -
 addon
@@ -1564,7 +1572,7 @@ mozilla
 org
 .
 xpi
-"
+'
 ]
     
 am
@@ -1595,11 +1603,9 @@ addons
 .
 append
 (
-        
 generate_addon
 (
-            
-"
+'
 test
 -
 addon
@@ -1612,16 +1618,16 @@ manifest
 mozilla
 .
 org
-"
+'
+                                 
 path
 =
 tmpdir
+                                 
 xpi
 =
 False
-        
 )
-    
 )
     
 addons
@@ -1630,7 +1636,7 @@ append
 (
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -1643,7 +1649,8 @@ id
 mozilla
 .
 org
-"
+'
+                                 
 path
 =
 tmpdir
@@ -1710,7 +1717,7 @@ temp_addon
 =
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -1721,7 +1728,7 @@ version
 mozilla
 .
 org
-"
+'
 )
     
 with
@@ -1757,7 +1764,7 @@ valid_addon
 =
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -1766,7 +1773,8 @@ addon
 mozilla
 .
 org
-"
+'
+                                 
 path
 =
 tmpdir
@@ -1776,8 +1784,7 @@ invalid_addon
 =
 generate_addon
 (
-        
-"
+'
 test
 -
 addon
@@ -1790,11 +1797,11 @@ wellformed
 mozilla
 .
 org
-"
+'
+                                   
 path
 =
 tmpdir
-    
 )
     
 details
@@ -1809,13 +1816,13 @@ valid_addon
 assert
 details
 [
-"
+'
 id
-"
+'
 ]
 =
 =
-"
+'
 test
 -
 addon
@@ -1824,48 +1831,48 @@ addon
 mozilla
 .
 org
-"
+'
     
 assert
 details
 [
-"
+'
 name
-"
+'
 ]
 =
 =
-"
+'
 Test
 Add
 -
 on
 1
-"
+'
     
 assert
 not
 details
 [
-"
+'
 unpack
-"
+'
 ]
     
 assert
 details
 [
-"
+'
 version
-"
+'
 ]
 =
 =
-"
+'
 0
 .
 1
-"
+'
     
 with
 pytest
@@ -1900,8 +1907,8 @@ am
 .
 addon_details
 (
-"
-"
+'
+'
 )
     
 addon_path
@@ -1919,15 +1926,15 @@ path
 join
 (
 here
-"
+'
 files
-"
+'
 )
-"
+'
 not_an_addon
 .
 txt
-"
+'
 )
     
 with
@@ -1960,7 +1967,7 @@ addon_one
 =
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -1969,14 +1976,14 @@ addon
 mozilla
 .
 org
-"
+'
 )
     
 addon_two
 =
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -1985,7 +1992,7 @@ addon
 mozilla
 .
 org
-"
+'
 )
     
 am
@@ -1998,7 +2005,6 @@ addon_one
 installed_addons
 =
 [
-        
 str
 (
 x
@@ -2007,14 +2013,13 @@ x
 -
 len
 (
-"
+'
 .
 xpi
-"
+'
 )
 ]
 )
-        
 for
 x
 in
@@ -2028,15 +2033,15 @@ path
 .
 join
 (
+                        
 am
 .
 profile
-"
+'
 extensions
-"
+'
 )
 )
-    
 ]
     
 duplicate_profile
@@ -2052,6 +2057,7 @@ profile
 am
 .
 profile
+                                                   
 addons
 =
 addon_two
@@ -2068,7 +2074,6 @@ clean
 addons_after_cleanup
 =
 [
-        
 str
 (
 x
@@ -2077,14 +2082,13 @@ x
 -
 len
 (
-"
+'
 .
 xpi
-"
+'
 )
 ]
 )
-        
 for
 x
 in
@@ -2098,15 +2102,15 @@ path
 .
 join
 (
+                            
 duplicate_profile
 .
 profile
-"
+'
 extensions
-"
+'
 )
 )
-    
 ]
     
 assert
@@ -2173,7 +2177,7 @@ addons
         
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -2182,7 +2186,7 @@ addon
 mozilla
 .
 org
-"
+'
 path
 =
 tmpdir
@@ -2195,14 +2199,14 @@ path
 join
 (
 here
-"
+'
 addons
-"
-"
+'
+'
 empty
 .
 xpi
-"
+'
 )
     
 ]
@@ -2244,9 +2248,9 @@ profile
 =
 =
 [
-"
+'
 extensions
-"
+'
 ]
     
 staging_folder
@@ -2258,9 +2262,9 @@ path
 join
 (
 profile
-"
+'
 extensions
-"
+'
 )
     
 assert
@@ -2300,9 +2304,9 @@ profile
 =
 =
 [
-"
+'
 extensions
-"
+'
 ]
     
 assert
@@ -2351,7 +2355,7 @@ append
 (
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -2360,7 +2364,8 @@ addon
 mozilla
 .
 org
-"
+'
+                                 
 path
 =
 tmpdir
@@ -2373,7 +2378,7 @@ append
 (
 generate_addon
 (
-"
+'
 test
 -
 addon
@@ -2382,7 +2387,8 @@ addon
 mozilla
 .
 org
-"
+'
+                                 
 path
 =
 tmpdir
@@ -2407,9 +2413,9 @@ join
 am
 .
 profile
-"
+'
 extensions
-"
+'
 )
     
 staging_path
@@ -2465,9 +2471,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

@@ -10,7 +10,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -52,7 +51,6 @@ otherParent
 "
 "
 "
-    
 )
     
 results
@@ -69,6 +67,7 @@ results
 [
 1
 ]
+;
     
 dict2
 =
@@ -76,6 +75,7 @@ results
 [
 0
 ]
+;
     
 harness
 .
@@ -119,7 +119,6 @@ harness
 .
 check
 (
-        
 dict1
 .
 members
@@ -133,6 +132,7 @@ name
 "
 otherParent
 "
+                  
 "
 '
 o
@@ -143,14 +143,12 @@ before
 p
 '
 "
-    
 )
     
 harness
 .
 check
 (
-        
 dict1
 .
 members
@@ -164,6 +162,7 @@ name
 "
 parent
 "
+                  
 "
 '
 o
@@ -175,14 +174,12 @@ before
 p
 '
 "
-    
 )
     
 harness
 .
 check
 (
-        
 dict2
 .
 members
@@ -196,6 +193,7 @@ name
 "
 aaandAnother
 "
+                  
 "
 '
 a
@@ -206,14 +204,12 @@ before
 c
 '
 "
-    
 )
     
 harness
 .
 check
 (
-        
 dict2
 .
 members
@@ -227,6 +223,7 @@ name
 "
 child
 "
+                  
 "
 '
 a
@@ -238,7 +235,6 @@ before
 c
 '
 "
-    
 )
     
 parser
@@ -248,12 +244,12 @@ parser
 reset
 (
 )
+;
     
 parser
 .
 parse
 (
-        
 "
 "
 "
@@ -292,7 +288,6 @@ d
 "
 "
 "
-    
 )
     
 results
@@ -309,6 +304,7 @@ results
 [
 0
 ]
+;
     
 harness
 .
@@ -346,6 +342,7 @@ name
 "
 c
 "
+                  
 "
 c
 should
@@ -371,6 +368,7 @@ name
 "
 d
 "
+                  
 "
 d
 should
@@ -397,6 +395,7 @@ name
 "
 g
 "
+                  
 "
 g
 should
@@ -423,6 +422,7 @@ name
 "
 h
 "
+                  
 "
 h
 should
@@ -450,7 +450,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -475,7 +474,6 @@ prop
 "
 "
 "
-        
 )
         
 results
@@ -517,6 +515,7 @@ parser
 reset
 (
 )
+;
     
 threw
 =
@@ -529,7 +528,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -562,7 +560,6 @@ prop
 "
 "
 "
-        
 )
         
 results
@@ -584,7 +581,6 @@ harness
 .
 ok
 (
-        
 threw
 "
 Should
@@ -598,7 +594,6 @@ and
 partial
 dictionary
 "
-    
 )
     
 parser
@@ -620,7 +615,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -667,7 +661,6 @@ prop
 "
 "
 "
-        
 )
         
 results
@@ -689,7 +682,6 @@ harness
 .
 ok
 (
-        
 threw
 "
 Should
@@ -702,11 +694,11 @@ a
 dictionary
 and
 "
+               
 "
 its
 ancestor
 "
-    
 )
     
 parser
@@ -728,7 +720,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -755,7 +746,6 @@ prop
 "
 "
 "
-        
 )
         
 results
@@ -810,7 +800,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -834,7 +823,6 @@ A
 "
 "
 "
-        
 )
         
 results
@@ -888,7 +876,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -912,7 +899,6 @@ foo
 "
 "
 "
-        
 )
         
 results
@@ -947,6 +933,7 @@ dictionary
 members
 "
 )
+;
     
 parser
 =
@@ -967,7 +954,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -997,7 +983,6 @@ arg
 "
 "
 "
-        
 )
         
 results
@@ -1049,7 +1034,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1080,7 +1064,6 @@ arg
 "
 "
 "
-        
 )
         
 results
@@ -1134,7 +1117,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1168,7 +1150,6 @@ arg
 "
 "
 "
-        
 )
         
 results
@@ -1191,6 +1172,7 @@ harness
 ok
 (
 threw
+               
 "
 Trailing
 union
@@ -1223,7 +1205,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1258,7 +1239,6 @@ arg
 "
 "
 "
-        
 )
         
 results
@@ -1280,8 +1260,8 @@ harness
 .
 ok
 (
-        
 threw
+               
 "
 Trailing
 union
@@ -1295,7 +1275,6 @@ a
 default
 value
 "
-    
 )
     
 parser
@@ -1317,7 +1296,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1350,7 +1328,6 @@ arg2
 "
 "
 "
-        
 )
         
 results
@@ -1405,7 +1382,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1439,7 +1415,6 @@ arg2
 "
 "
 "
-        
 )
         
 results
@@ -1495,7 +1470,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1530,7 +1504,6 @@ arg3
 "
 "
 "
-        
 )
         
 results
@@ -1552,10 +1525,9 @@ harness
 .
 ok
 (
-        
 not
 threw
-        
+               
 "
 Dictionary
 arg
@@ -1573,7 +1545,6 @@ to
 be
 optional
 "
-    
 )
     
 parser
@@ -1595,7 +1566,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1632,7 +1602,6 @@ arg2
 "
 "
 "
-        
 )
         
 results
@@ -1654,9 +1623,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Union
 arg
@@ -1668,11 +1636,11 @@ optional
 arg
 must
 "
+               
 "
 be
 optional
 "
-    
 )
     
 parser
@@ -1694,7 +1662,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1732,7 +1699,6 @@ arg2
 "
 "
 "
-        
 )
         
 results
@@ -1754,9 +1720,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Union
 arg
@@ -1768,14 +1733,13 @@ optional
 arg
 must
 "
-        
+               
 "
 have
 a
 default
 value
 "
-    
 )
     
 parser
@@ -1790,7 +1754,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -1822,7 +1785,6 @@ arg2
 "
 "
 "
-    
 )
     
 results
@@ -1870,7 +1832,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1905,7 +1866,6 @@ arg1
 "
 "
 "
-        
 )
         
 results
@@ -1946,7 +1906,6 @@ harness
 .
 ok
 (
-        
 "
 nullable
 "
@@ -1955,7 +1914,7 @@ str
 (
 threw
 )
-        
+               
 "
 Must
 have
@@ -1968,7 +1927,6 @@ nullable
 dictionary
 arg
 "
-    
 )
     
 parser
@@ -1990,7 +1948,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2026,7 +1983,6 @@ arg1
 "
 "
 "
-        
 )
         
 results
@@ -2067,7 +2023,6 @@ harness
 .
 ok
 (
-        
 "
 nullable
 "
@@ -2076,7 +2031,7 @@ str
 (
 threw
 )
-        
+               
 "
 Must
 have
@@ -2087,11 +2042,11 @@ for
 required
 nullable
 "
+               
 "
 dictionary
 arg
 "
-    
 )
     
 parser
@@ -2113,7 +2068,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2152,7 +2106,6 @@ arg1
 "
 "
 "
-        
 )
         
 results
@@ -2196,7 +2149,6 @@ harness
 .
 ok
 (
-        
 "
 nullable
 "
@@ -2205,7 +2157,7 @@ str
 (
 threw
 )
-        
+               
 "
 Must
 have
@@ -2217,13 +2169,12 @@ optional
 nullable
 union
 "
-        
+               
 "
 arg
 containing
 dictionary
 "
-    
 )
     
 parser
@@ -2245,7 +2196,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2285,7 +2235,6 @@ arg1
 "
 "
 "
-        
 )
         
 results
@@ -2329,7 +2278,6 @@ harness
 .
 ok
 (
-        
 "
 nullable
 "
@@ -2338,7 +2286,7 @@ str
 (
 threw
 )
-        
+               
 "
 Must
 have
@@ -2350,13 +2298,12 @@ required
 nullable
 union
 "
-        
+               
 "
 arg
 containing
 dictionary
 "
-    
 )
     
 parser
@@ -2378,7 +2325,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2412,7 +2358,6 @@ arg1
 "
 "
 "
-        
 )
         
 results
@@ -2436,6 +2381,7 @@ ok
 (
 not
 threw
+               
 "
 Nullable
 union
@@ -2468,7 +2414,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2504,7 +2449,6 @@ arg1
 "
 "
 "
-        
 )
         
 results
@@ -2527,6 +2471,7 @@ harness
 ok
 (
 threw
+               
 "
 Dictionary
 must
@@ -2561,7 +2506,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2597,7 +2541,6 @@ arg1
 "
 "
 "
-        
 )
         
 results
@@ -2620,6 +2563,7 @@ harness
 ok
 (
 threw
+               
 "
 A
 nullable
@@ -2648,7 +2592,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -2677,7 +2620,6 @@ doFoo
 "
 "
 "
-    
 )
     
 results
@@ -2715,7 +2657,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -2749,7 +2690,6 @@ arg
 "
 "
 "
-    
 )
     
 results
@@ -2786,7 +2726,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -2824,7 +2763,6 @@ arg
 "
 "
 "
-    
 )
     
 results
@@ -2864,7 +2802,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -2903,7 +2840,6 @@ abc
 "
 "
 "
-    
 )
     
 results
@@ -2918,9 +2854,7 @@ harness
 .
 ok
 (
-        
 True
-        
 "
 Union
 arg
@@ -2934,7 +2868,6 @@ should
 actually
 parse
 "
-    
 )
     
 parser
@@ -2956,7 +2889,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2975,7 +2907,6 @@ foo
 "
 "
 "
-        
 )
         
 results
@@ -3029,7 +2960,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -3087,7 +3017,6 @@ b
 "
 "
 "
-        
 )
         
 results
@@ -3109,9 +3038,7 @@ harness
 .
 ok
 (
-        
 threw
-        
 "
 Member
 type
@@ -3122,6 +3049,7 @@ a
 Dictionary
 that
 "
+                      
 "
 inherits
 from
@@ -3129,7 +3057,6 @@ its
 Dictionary
 .
 "
-    
 )
     
 parser
@@ -3151,7 +3078,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -3177,7 +3103,6 @@ b
 "
 "
 "
-        
 )
         
 results
@@ -3199,9 +3124,7 @@ harness
 .
 ok
 (
-        
 threw
-        
 "
 Member
 type
@@ -3212,7 +3135,7 @@ a
 Nullable
 type
 "
-        
+                      
 "
 whose
 inner
@@ -3222,7 +3145,6 @@ its
 Dictionary
 .
 "
-    
 )
     
 parser
@@ -3244,7 +3166,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -3267,7 +3188,6 @@ b
 "
 "
 "
-        
 )
         
 results
@@ -3289,9 +3209,7 @@ harness
 .
 ok
 (
-        
 threw
-        
 "
 Member
 type
@@ -3304,7 +3222,7 @@ type
 one
 of
 "
-        
+                      
 "
 whose
 member
@@ -3314,7 +3232,6 @@ its
 Dictionary
 .
 "
-    
 )
     
 parser
@@ -3336,7 +3253,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -3364,7 +3280,6 @@ c
 "
 "
 "
-        
 )
         
 results
@@ -3386,9 +3301,7 @@ harness
 .
 ok
 (
-        
 threw
-        
 "
 Member
 type
@@ -3399,7 +3312,7 @@ a
 Sequence
 type
 "
-        
+                      
 "
 whose
 element
@@ -3409,7 +3322,6 @@ its
 Dictionary
 .
 "
-    
 )
     
 parser
@@ -3431,7 +3343,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -3456,7 +3367,6 @@ d
 "
 "
 "
-        
 )
         
 results
@@ -3478,9 +3388,7 @@ harness
 .
 ok
 (
-        
 threw
-        
 "
 Member
 type
@@ -3491,7 +3399,7 @@ an
 Array
 type
 "
-        
+                      
 "
 whose
 element
@@ -3501,7 +3409,6 @@ its
 Dictionary
 .
 "
-    
 )
     
 parser
@@ -3523,7 +3430,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -3579,7 +3485,6 @@ a
 "
 "
 "
-        
 )
         
 results
@@ -3601,9 +3506,7 @@ harness
 .
 ok
 (
-        
 threw
-        
 "
 Member
 type
@@ -3616,7 +3519,7 @@ one
 of
 whose
 "
-        
+                      
 "
 members
 or
@@ -3628,13 +3531,12 @@ type
 that
 includes
 "
-        
+                      
 "
 its
 Dictionary
 .
 "
-    
 )
     
 parser
@@ -3644,6 +3546,7 @@ parser
 reset
 (
 )
+;
     
 threw
 =
@@ -3656,7 +3559,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -3683,7 +3585,6 @@ d
 "
 "
 "
-        
 )
         
 results
@@ -3725,12 +3626,12 @@ parser
 reset
 (
 )
+;
     
 parser
 .
 parse
 (
-        
 "
 "
 "
@@ -3857,7 +3758,6 @@ NaN
 "
 "
 "
-    
 )
     
 results
@@ -3892,6 +3792,7 @@ parser
 reset
 (
 )
+;
     
 threw
 =
@@ -3904,7 +3805,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -3925,7 +3825,6 @@ Infinity
 "
 "
 "
-        
 )
         
 results
@@ -3967,6 +3866,7 @@ parser
 reset
 (
 )
+;
     
 threw
 =
@@ -3979,7 +3879,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -4001,7 +3900,6 @@ Infinity
 "
 "
 "
-        
 )
         
 results
@@ -4044,6 +3942,7 @@ parser
 reset
 (
 )
+;
     
 threw
 =
@@ -4056,7 +3955,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -4077,7 +3975,6 @@ NaN
 "
 "
 "
-        
 )
         
 results
@@ -4119,6 +4016,7 @@ parser
 reset
 (
 )
+;
     
 threw
 =
@@ -4131,7 +4029,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -4152,7 +4049,6 @@ Infinity
 "
 "
 "
-        
 )
         
 results
@@ -4194,6 +4090,7 @@ parser
 reset
 (
 )
+;
     
 threw
 =
@@ -4206,7 +4103,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -4228,7 +4124,6 @@ Infinity
 "
 "
 "
-        
 )
         
 results
@@ -4271,6 +4166,7 @@ parser
 reset
 (
 )
+;
     
 threw
 =
@@ -4283,7 +4179,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -4304,7 +4199,6 @@ NaN
 "
 "
 "
-        
 )
         
 results
@@ -4346,6 +4240,7 @@ parser
 reset
 (
 )
+;
     
 threw
 =
@@ -4358,7 +4253,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -4377,7 +4271,6 @@ module
 "
 "
 "
-        
 )
         
 results

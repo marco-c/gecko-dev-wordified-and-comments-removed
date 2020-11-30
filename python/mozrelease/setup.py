@@ -9,38 +9,38 @@ setup
 find_packages
 VERSION
 =
-"
+'
 0
 .
 2
-"
+'
 setup
 (
     
 author
 =
-"
+'
 Mozilla
 Foundation
-"
+'
     
 author_email
 =
-"
+'
 Mozilla
 Release
 Engineering
-"
+'
     
 name
 =
-"
+'
 mozrelease
-"
+'
     
 description
 =
-"
+'
 Common
 functionality
 used
@@ -48,16 +48,16 @@ by
 Mozilla
 Release
 Automation
-"
+'
     
 license
 =
-"
+'
 MPL
 2
 .
 0
-"
+'
     
 packages
 =
@@ -73,7 +73,7 @@ classifiers
 =
 [
         
-"
+'
 Development
 Status
 :
@@ -81,9 +81,9 @@ Status
 3
 -
 Alpha
-"
+'
         
-"
+'
 Topic
 :
 :
@@ -93,9 +93,9 @@ Development
 :
 Build
 Tools
-"
+'
         
-"
+'
 License
 :
 :
@@ -115,9 +115,9 @@ MPL
 .
 0
 )
-"
+'
         
-"
+'
 Programming
 Language
 :
@@ -128,9 +128,9 @@ Python
 2
 .
 7
-"
+'
         
-"
+'
 Programming
 Language
 :
@@ -142,13 +142,13 @@ Implementation
 :
 :
 CPython
-"
+'
     
 ]
     
 keywords
 =
-"
+'
 mozilla
-"
+'
 )

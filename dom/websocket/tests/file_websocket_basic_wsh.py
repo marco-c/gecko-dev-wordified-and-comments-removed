@@ -21,22 +21,24 @@ ws_requested_protocols
 ]
     
 if
+(
 request
 .
 ws_protocol
 =
 =
-"
+'
 error
-"
+'
+)
 :
         
 raise
 ValueError
 (
-"
+'
 Error
-"
+'
 )
     
 pass
@@ -64,9 +66,9 @@ if
 line
 =
 =
-"
+'
 protocol
-"
+'
 :
             
 msgutil
@@ -85,9 +87,9 @@ if
 line
 =
 =
-"
+'
 resource
-"
+'
 :
             
 msgutil
@@ -106,9 +108,9 @@ if
 line
 =
 =
-"
+'
 origin
-"
+'
 :
             
 msgutil
@@ -135,9 +137,9 @@ if
 line
 =
 =
-"
+'
 end
-"
+'
 :
             
 return

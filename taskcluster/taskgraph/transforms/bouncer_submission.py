@@ -70,65 +70,65 @@ FTP_PLATFORMS_PER_BOUNCER_PLATFORM
 =
 {
     
-"
+'
 linux
-"
+'
 :
-"
+'
 linux
 -
 i686
-"
+'
     
-"
+'
 linux64
-"
+'
 :
-"
+'
 linux
 -
 x86_64
-"
+'
     
-"
+'
 osx
-"
+'
 :
-"
+'
 mac
-"
+'
     
-"
+'
 win
-"
+'
 :
-"
+'
 win32
-"
+'
     
-"
+'
 win64
-"
+'
 :
-"
+'
 win64
-"
+'
     
-"
+'
 win64
 -
 aarch64
-"
+'
 :
-"
+'
 win64
 -
 aarch64
-"
+'
 }
 CANDIDATES_PATH_TEMPLATE
 =
-"
+'
 /
 {
 ftp_product
@@ -161,10 +161,10 @@ lang
 {
 file
 }
-"
+'
 RELEASES_PATH_TEMPLATE
 =
-"
+'
 /
 {
 ftp_product
@@ -190,45 +190,45 @@ lang
 {
 file
 }
-"
+'
 CONFIG_PER_BOUNCER_PRODUCT
 =
 {
     
-"
+'
 complete
 -
 mar
-"
+'
 :
 {
         
-"
+'
 name_postfix
-"
+'
 :
-"
+'
 -
 Complete
-"
+'
         
-"
+'
 path_template
-"
+'
 :
 RELEASES_PATH_TEMPLATE
         
-"
+'
 file_names
-"
+'
 :
 {
             
-"
+'
 default
-"
+'
 :
-"
+'
 {
 product
 }
@@ -240,52 +240,52 @@ version
 complete
 .
 mar
-"
+'
         
 }
     
 }
     
-"
+'
 complete
 -
 mar
 -
 candidates
-"
+'
 :
 {
         
-"
+'
 name_postfix
-"
+'
 :
-"
+'
 build
 {
 build_number
 }
 -
 Complete
-"
+'
         
-"
+'
 path_template
-"
+'
 :
 CANDIDATES_PATH_TEMPLATE
         
-"
+'
 file_names
-"
+'
 :
 {
             
-"
+'
 default
-"
+'
 :
-"
+'
 {
 product
 }
@@ -297,35 +297,35 @@ version
 complete
 .
 mar
-"
+'
         
 }
     
 }
     
-"
+'
 installer
-"
+'
 :
 {
         
-"
+'
 path_template
-"
+'
 :
 RELEASES_PATH_TEMPLATE
         
-"
+'
 file_names
-"
+'
 :
 {
             
-"
+'
 linux
-"
+'
 :
-"
+'
 {
 product
 }
@@ -337,13 +337,13 @@ version
 tar
 .
 bz2
-"
+'
             
-"
+'
 linux64
-"
+'
 :
-"
+'
 {
 product
 }
@@ -355,13 +355,13 @@ version
 tar
 .
 bz2
-"
+'
             
-"
+'
 osx
-"
+'
 :
-"
+'
 {
 pretty_product
 }
@@ -372,13 +372,13 @@ version
 }
 .
 dmg
-"
+'
             
-"
+'
 win
-"
+'
 :
-"
+'
 {
 pretty_product
 }
@@ -391,13 +391,13 @@ version
 }
 .
 exe
-"
+'
             
-"
+'
 win64
-"
+'
 :
-"
+'
 {
 pretty_product
 }
@@ -410,15 +410,15 @@ version
 }
 .
 exe
-"
+'
             
-"
+'
 win64
 -
 aarch64
-"
+'
 :
-"
+'
 {
 pretty_product
 }
@@ -431,50 +431,50 @@ version
 }
 .
 exe
-"
+'
         
 }
     
 }
     
-"
+'
 partial
 -
 mar
-"
+'
 :
 {
         
-"
+'
 name_postfix
-"
+'
 :
-"
+'
 -
 Partial
 -
 {
 previous_version
 }
-"
+'
         
-"
+'
 path_template
-"
+'
 :
 RELEASES_PATH_TEMPLATE
         
-"
+'
 file_names
-"
+'
 :
 {
             
-"
+'
 default
-"
+'
 :
-"
+'
 {
 product
 }
@@ -490,27 +490,27 @@ version
 partial
 .
 mar
-"
+'
         
 }
     
 }
     
-"
+'
 partial
 -
 mar
 -
 candidates
-"
+'
 :
 {
         
-"
+'
 name_postfix
-"
+'
 :
-"
+'
 build
 {
 build_number
@@ -525,25 +525,25 @@ build
 {
 previous_build
 }
-"
+'
         
-"
+'
 path_template
-"
+'
 :
 CANDIDATES_PATH_TEMPLATE
         
-"
+'
 file_names
-"
+'
 :
 {
             
-"
+'
 default
-"
+'
 :
-"
+'
 {
 product
 }
@@ -559,58 +559,58 @@ version
 partial
 .
 mar
-"
+'
         
 }
     
 }
     
-"
+'
 stub
 -
 installer
-"
+'
 :
 {
         
-"
+'
 name_postfix
-"
+'
 :
-"
+'
 -
 stub
-"
+'
         
-"
+'
 path_template
-"
+'
 :
 RELEASES_PATH_TEMPLATE
 .
 replace
 (
-"
+'
 {
 ftp_platform
 }
-"
-"
+'
+'
 win32
-"
+'
 )
         
-"
+'
 file_names
-"
+'
 :
 {
             
-"
+'
 win
-"
+'
 :
-"
+'
 {
 pretty_product
 }
@@ -618,13 +618,13 @@ pretty_product
 20Installer
 .
 exe
-"
+'
             
-"
+'
 win64
-"
+'
 :
-"
+'
 {
 pretty_product
 }
@@ -632,15 +632,15 @@ pretty_product
 20Installer
 .
 exe
-"
+'
             
-"
+'
 win64
 -
 aarch64
-"
+'
 :
-"
+'
 {
 pretty_product
 }
@@ -648,46 +648,46 @@ pretty_product
 20Installer
 .
 exe
-"
+'
         
 }
     
 }
     
-"
+'
 msi
-"
+'
 :
 {
         
-"
+'
 name_postfix
-"
+'
 :
-"
+'
 -
 msi
 -
 SSL
-"
+'
         
-"
+'
 path_template
-"
+'
 :
 RELEASES_PATH_TEMPLATE
         
-"
+'
 file_names
-"
+'
 :
 {
             
-"
+'
 win
-"
+'
 :
-"
+'
 {
 pretty_product
 }
@@ -700,13 +700,13 @@ version
 }
 .
 msi
-"
+'
             
-"
+'
 win64
-"
+'
 :
-"
+'
 {
 pretty_product
 }
@@ -719,46 +719,46 @@ version
 }
 .
 msi
-"
+'
         
 }
     
 }
     
-"
+'
 pkg
-"
+'
 :
 {
         
-"
+'
 name_postfix
-"
+'
 :
-"
+'
 -
 pkg
 -
 SSL
-"
+'
         
-"
+'
 path_template
-"
+'
 :
 RELEASES_PATH_TEMPLATE
         
-"
+'
 file_names
-"
+'
 :
 {
             
-"
+'
 osx
-"
+'
 :
-"
+'
 {
 pretty_product
 }
@@ -769,7 +769,7 @@ version
 }
 .
 pkg
-"
+'
         
 }
     
@@ -777,11 +777,11 @@ pkg
 }
 CONFIG_PER_BOUNCER_PRODUCT
 [
-"
+'
 installer
 -
 ssl
-"
+'
 ]
 =
 copy
@@ -791,29 +791,29 @@ deepcopy
     
 CONFIG_PER_BOUNCER_PRODUCT
 [
-"
+'
 installer
-"
+'
 ]
 )
 CONFIG_PER_BOUNCER_PRODUCT
 [
-"
+'
 installer
 -
 ssl
-"
+'
 ]
 [
-"
+'
 name_postfix
-"
+'
 ]
 =
-"
+'
 -
 SSL
-"
+'
 transforms
 =
 TransformSequence
@@ -840,30 +840,28 @@ resolve_keyed_by
 (
             
 job
-            
-"
+'
 worker
 -
 type
-"
-            
+'
 item_name
 =
 job
 [
-"
+'
 name
-"
+'
 ]
             
 *
 *
 {
-"
+'
 release
 -
 level
-"
+'
 :
 config
 .
@@ -880,28 +878,26 @@ resolve_keyed_by
 (
             
 job
-            
-"
+'
 scopes
-"
-            
+'
 item_name
 =
 job
 [
-"
+'
 name
-"
+'
 ]
             
 *
 *
 {
-"
+'
 release
 -
 level
-"
+'
 :
 config
 .
@@ -918,38 +914,36 @@ resolve_keyed_by
 (
             
 job
-            
-"
+'
 bouncer
 -
 products
-"
-            
+'
 item_name
 =
 job
 [
-"
+'
 name
-"
+'
 ]
             
 *
 *
 {
-"
+'
 release
 -
 type
-"
+'
 :
 config
 .
 params
 [
-"
+'
 release_type
-"
+'
 ]
 }
         
@@ -959,11 +953,10 @@ all_locales
 =
 sorted
 (
-            
 [
-                
+            
 locale
-                
+            
 for
 locale
 in
@@ -971,62 +964,61 @@ parse_locales_file
 (
 job
 [
-"
+'
 locales
 -
 file
-"
+'
 ]
 )
 .
 keys
 (
 )
-                
+            
 if
 locale
 not
 in
 (
-"
+'
 linux
-"
-"
+'
+'
 win32
-"
-"
+'
+'
 osx
-"
+'
 )
-            
-]
         
+]
 )
         
 job
 [
-"
+'
 worker
-"
+'
 ]
 [
-"
+'
 locales
-"
+'
 ]
 =
 all_locales
         
 job
 [
-"
+'
 worker
-"
+'
 ]
 [
-"
+'
 entries
-"
+'
 ]
 =
 craft_bouncer_entries
@@ -1038,44 +1030,44 @@ job
 del
 job
 [
-"
+'
 locales
 -
 file
-"
+'
 ]
         
 del
 job
 [
-"
+'
 bouncer
 -
 platforms
-"
+'
 ]
         
 del
 job
 [
-"
+'
 bouncer
 -
 products
-"
+'
 ]
         
 if
 job
 [
-"
+'
 worker
-"
+'
 ]
 [
-"
+'
 entries
-"
+'
 ]
 :
             
@@ -1089,7 +1081,6 @@ logger
 .
 warn
 (
-                
 '
 No
 bouncer
@@ -1113,16 +1104,13 @@ deleted
 .
 format
 (
-                    
 job
 [
-"
+'
 name
-"
+'
 ]
-                
 )
-            
 )
 def
 craft_bouncer_entries
@@ -1143,51 +1131,51 @@ product
 =
 job
 [
-"
+'
 shipping
 -
 product
-"
+'
 ]
     
 bouncer_platforms
 =
 job
 [
-"
+'
 bouncer
 -
 platforms
-"
+'
 ]
     
 current_version
 =
 release_config
 [
-"
+'
 version
-"
+'
 ]
     
 current_build_number
 =
 release_config
 [
-"
+'
 build_number
-"
+'
 ]
     
 bouncer_products
 =
 job
 [
-"
+'
 bouncer
 -
 products
-"
+'
 ]
     
 previous_versions_string
@@ -1196,9 +1184,9 @@ release_config
 .
 get
 (
-"
+'
 partial_versions
-"
+'
 None
 )
     
@@ -1212,8 +1200,8 @@ previous_versions_string
 .
 split
 (
-"
-"
+'
+'
 )
     
 else
@@ -1223,7 +1211,6 @@ logger
 .
 warn
 (
-            
 '
 No
 partials
@@ -1252,16 +1239,13 @@ for
 .
 format
 (
-                
 job
 [
-"
+'
 name
-"
+'
 ]
-            
 )
-        
 )
         
 bouncer_products
@@ -1276,9 +1260,9 @@ in
 bouncer_products
             
 if
-"
+'
 partial
-"
+'
 not
 in
 bouncer_product
@@ -1297,9 +1281,9 @@ config
 .
 params
 [
-"
+'
 project
-"
+'
 ]
     
 return
@@ -1309,34 +1293,30 @@ craft_bouncer_product_name
 (
             
 product
-            
 bouncer_product
-            
 current_version
-            
 current_build_number
-            
 previous_version
         
 )
 :
 {
             
-"
+'
 options
-"
+'
 :
 {
                 
-"
+'
 add_locales
-"
+'
 :
 True
                 
-"
+'
 ssl_only
-"
+'
 :
 craft_ssl_only
 (
@@ -1346,23 +1326,19 @@ project
             
 }
             
-"
+'
 paths_per_bouncer_platform
-"
+'
 :
 craft_paths_per_bouncer_platform
 (
                 
 product
-                
 bouncer_product
-                
 bouncer_platforms
-                
 current_version
                 
 current_build_number
-                
 previous_version
             
 )
@@ -1383,17 +1359,12 @@ previous_versions
 def
 craft_paths_per_bouncer_platform
 (
-    
 product
-    
 bouncer_product
-    
 bouncer_platforms
-    
 current_version
-    
+                                     
 current_build_number
-    
 previous_version
 =
 None
@@ -1418,11 +1389,9 @@ CONFIG_PER_BOUNCER_PRODUCT
 bouncer_product
 ]
 [
-            
-"
+'
 file_names
-"
-        
+'
 ]
         
 file_name_template
@@ -1437,9 +1406,9 @@ file_names_per_platform
 .
 get
 (
-"
+'
 default
-"
+'
 None
 )
         
@@ -1501,9 +1470,9 @@ CONFIG_PER_BOUNCER_PRODUCT
 bouncer_product
 ]
 [
-"
+'
 path_template
-"
+'
 ]
         
 file_relative_location
@@ -1530,20 +1499,20 @@ current_build_number
             
 update_folder
 =
-"
+'
 update
 /
-"
+'
 if
-"
+'
 -
 mar
-"
+'
 in
 bouncer_product
 else
-"
-"
+'
+'
             
 ftp_platform
 =
@@ -1588,16 +1557,16 @@ product
 :
     
 return
-"
+'
 firefox
-"
+'
 if
 product
 =
 =
-"
+'
 devedition
-"
+'
 else
 product
 attr
@@ -1631,7 +1600,7 @@ self
 raise
 Exception
 (
-"
+'
 Partial
 is
 being
@@ -1642,22 +1611,18 @@ previous
 version
 defined
 .
-"
+'
 )
 def
 craft_bouncer_product_name
 (
-    
 product
-    
 bouncer_product
-    
 current_version
-    
+                               
 current_build_number
 =
 None
-    
 previous_version
 =
 None
@@ -1677,7 +1642,7 @@ previous_build
 InvalidSubstitution
 (
             
-"
+'
 Partial
 is
 being
@@ -1688,8 +1653,7 @@ previous
 version
 defined
 .
-"
-        
+'
 )
     
 else
@@ -1705,45 +1669,39 @@ previous_version
     
 postfix
 =
-(
-        
 CONFIG_PER_BOUNCER_PRODUCT
 [
 bouncer_product
 ]
-        
 .
 get
 (
-"
+'
 name_postfix
-"
-"
-"
+'
+'
+'
 )
-        
 .
 format
 (
-            
+        
 build_number
 =
 current_build_number
-            
-previous_version
-=
-previous_version
-            
-previous_build
-=
-previous_build
         
-)
+previous_version
+=
+previous_version
+        
+previous_build
+=
+previous_build
     
 )
     
 return
-"
+'
 {
 product
 }
@@ -1754,7 +1712,7 @@ version
 {
 postfix
 }
-"
+'
 .
 format
 (
@@ -1783,19 +1741,19 @@ project
 :
     
 if
-"
+'
 -
 esr
-"
+'
 in
 project
 and
 bouncer_product
 =
 =
-"
+'
 installer
-"
+'
 :
         
 return
@@ -1807,37 +1765,37 @@ not
 in
 (
         
-"
+'
 complete
 -
 mar
-"
+'
         
-"
+'
 complete
 -
 mar
 -
 candidates
-"
+'
         
-"
+'
 installer
-"
+'
         
-"
+'
 partial
 -
 mar
-"
+'
         
-"
+'
 partial
 -
 mar
 -
 candidates
-"
+'
     
 )
 def
@@ -1850,9 +1808,9 @@ version
 if
 version
 and
-"
+'
 build
-"
+'
 in
 version
 :
@@ -1862,9 +1820,9 @@ version
 .
 split
 (
-"
+'
 build
-"
+'
 )
     
 else

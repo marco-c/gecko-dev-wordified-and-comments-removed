@@ -13,8 +13,10 @@ from
 .
 application
 import
+(
 DefaultContext
 FirefoxContext
+)
 from
 .
 runner
@@ -75,9 +77,9 @@ runner_args
 .
 pop
 (
-"
+'
 show_crash_reporter
-"
+'
 False
 )
         
@@ -112,7 +114,6 @@ mozinfo
 isWin
 and
 (
-            
 isinstance
 (
 self
@@ -120,8 +121,8 @@ self
 app_ctx
 FirefoxContext
 )
-            
 or
+                              
 isinstance
 (
 self
@@ -129,7 +130,6 @@ self
 app_ctx
 DefaultContext
 )
-        
 )
 :
             
@@ -139,7 +139,7 @@ cmdargs
 .
 append
 (
-"
+'
 -
 -
 wait
@@ -147,47 +147,47 @@ wait
 for
 -
 browser
-"
+'
 )
         
 self
 .
 env
 [
-"
+'
 MOZ_NO_REMOTE
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 self
 .
 env
 [
-"
+'
 GNOME_DISABLE_CRASH_DIALOG
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 self
 .
 env
 [
-"
+'
 XRE_NO_WINDOWS_CRASH_DIALOG
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 if
 sys
@@ -195,9 +195,9 @@ sys
 platform
 =
 =
-"
+'
 linux2
-"
+'
 and
 self
 .
@@ -205,10 +205,10 @@ binary
 .
 endswith
 (
-"
+'
 -
 bin
-"
+'
 )
 :
             
@@ -232,9 +232,9 @@ environ
 .
 get
 (
-"
+'
 LD_LIBRARY_PATH
-"
+'
 None
 )
 :
@@ -243,32 +243,29 @@ self
 .
 env
 [
-"
+'
 LD_LIBRARY_PATH
-"
+'
 ]
 =
-"
+'
 %
 s
 :
 %
 s
-"
+'
 %
 (
-                    
 os
 .
 environ
 [
-"
+'
 LD_LIBRARY_PATH
-"
+'
 ]
-                    
 dirname
-                
 )
             
 else
@@ -278,9 +275,9 @@ self
 .
 env
 [
-"
+'
 LD_LIBRARY_PATH
-"
+'
 ]
 =
 dirname
@@ -300,10 +297,10 @@ command
 self
 .
 binary
-"
+'
 -
 profile
-"
+'
 self
 .
 profile
@@ -321,14 +318,15 @@ in
 self
 .
 cmdargs
+                    
 if
 i
 !
 =
-"
+'
 -
 foreground
-"
+'
 ]
         
 if
@@ -358,10 +356,10 @@ cmdargs
 .
 append
 (
-"
+'
 -
 foreground
-"
+'
 )
         
 if
@@ -369,10 +367,10 @@ mozinfo
 .
 isMac
 and
-"
+'
 -
 foreground
-"
+'
 not
 in
 self
@@ -386,10 +384,10 @@ cmdargs
 .
 append
 (
-"
+'
 -
 foreground
-"
+'
 )
         
 command
@@ -445,8 +443,6 @@ profile
 exists
 (
 )
-(
-                
 "
 %
 s
@@ -462,8 +458,6 @@ self
 __class__
 .
 __name__
-            
-)
         
 has_debugger
 =
@@ -633,7 +627,7 @@ profile_args
 =
 [
             
-"
+'
 -
 -
 user
@@ -644,14 +638,14 @@ dir
 =
 {
 }
-"
+'
 .
 format
 (
 data_dir
 )
             
-"
+'
 -
 -
 profile
@@ -660,14 +654,14 @@ directory
 =
 {
 }
-"
+'
 .
 format
 (
 name
 )
             
-"
+'
 -
 -
 no
@@ -675,7 +669,7 @@ no
 first
 -
 run
-"
+'
         
 ]
         
@@ -718,7 +712,7 @@ cmd
 .
 append
 (
-"
+'
 -
 -
 load
@@ -727,12 +721,12 @@ extension
 =
 {
 }
-"
+'
 .
 format
 (
-"
-"
+'
+'
 .
 join
 (

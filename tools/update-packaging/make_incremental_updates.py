@@ -32,7 +32,7 @@ associated
 with
 a
 patch
-    
+        
 work_dir
 =
 working
@@ -44,7 +44,7 @@ stored
 for
 this
 patch
-    
+        
 archive_files
 =
 list
@@ -55,7 +55,7 @@ include
 in
 this
 patch
-    
+        
 manifestv2
 =
 set
@@ -65,7 +65,7 @@ version
 2
 patch
 instructions
-    
+        
 manifestv3
 =
 set
@@ -75,10 +75,10 @@ version
 3
 patch
 instructions
-    
+        
 file_exclusion_list
 =
-    
+        
 files
 to
 exclude
@@ -91,7 +91,7 @@ without
 slashes
 will
 be
-    
+        
 excluded
 anywhere
 in
@@ -102,7 +102,7 @@ hiearchy
 names
 with
 slashes
-    
+        
 will
 only
 be
@@ -111,7 +111,7 @@ at
 that
 exact
 path
-    
+        
 "
 "
 "
@@ -184,7 +184,7 @@ for
 this
 patch
 .
-        
+            
 if
 filename
 starts
@@ -200,7 +200,7 @@ this
 will
 add
 an
-        
+            
 add
 -
 if
@@ -214,7 +214,7 @@ if
 the
 parent
 directory
-        
+            
 of
 the
 file
@@ -224,7 +224,7 @@ This
 was
 ported
 from
-        
+            
 mozilla
 /
 tools
@@ -444,7 +444,7 @@ for
 this
 patch
 .
-        
+            
 This
 was
 ported
@@ -462,7 +462,7 @@ common
 sh
 '
 s
-        
+            
 make_add_if_not_instruction
 .
         
@@ -544,13 +544,13 @@ for
 this
 patch
 .
-        
+            
 filename
 =
 file
 to
 patch
-        
+            
 patchname
 =
 patchfile
@@ -558,7 +558,7 @@ to
 apply
 to
 file
-        
+            
 if
 filename
 starts
@@ -574,7 +574,7 @@ this
 will
 add
 a
-        
+            
 patch
 -
 if
@@ -587,7 +587,7 @@ file
 if
 the
 parent
-        
+            
 directory
 of
 the
@@ -598,7 +598,7 @@ This
 was
 ported
 from
-        
+            
 mozilla
 /
 tools
@@ -662,7 +662,6 @@ group
             
 print
 (
-                
 '
 patch
 -
@@ -689,7 +688,6 @@ filename
 '
 "
 '
-            
 )
             
 self
@@ -698,7 +696,6 @@ manifestv2
 .
 append
 (
-                
 '
 patch
 -
@@ -713,6 +710,7 @@ testdir
 "
 '
 +
+                                   
 patchname
 +
 '
@@ -725,7 +723,6 @@ filename
 '
 "
 '
-            
 )
             
 self
@@ -734,7 +731,6 @@ manifestv3
 .
 append
 (
-                
 '
 patch
 -
@@ -749,6 +745,7 @@ testdir
 "
 '
 +
+                                   
 patchname
 +
 '
@@ -761,7 +758,6 @@ filename
 '
 "
 '
-            
 )
         
 else
@@ -857,12 +853,12 @@ for
 this
 patch
 .
-        
+            
 This
 was
 ported
 from
-        
+            
 mozilla
 /
 tools
@@ -1128,14 +1124,16 @@ io
 BytesIO
 (
 b
-'
+"
 type
+\
 "
 partial
+\
 "
 \
 n
-'
+"
 )
 )
         
@@ -1147,10 +1145,10 @@ io
 .
 BytesIO
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -1161,9 +1159,9 @@ manifestv2
 .
 encode
 (
-"
+'
 ascii
-"
+'
 )
 )
 )
@@ -1265,14 +1263,16 @@ io
 BytesIO
 (
 b
-'
+"
 type
+\
 "
 partial
+\
 "
 \
 n
-'
+"
 )
 )
         
@@ -1284,10 +1284,10 @@ io
 .
 BytesIO
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -1298,9 +1298,9 @@ manifestv3
 .
 encode
 (
-"
+'
 ascii
-"
+'
 )
 )
 )
@@ -1368,7 +1368,7 @@ MarFileEntry
 for
 each
 file
-        
+            
 and
 directory
 in
@@ -1588,7 +1588,7 @@ Format
 (
 MAR
 )
-    
+        
 abs_path
 =
 abspath
@@ -1596,7 +1596,7 @@ to
 the
 the
 file
-    
+        
 name
 =
 relative
@@ -1609,7 +1609,7 @@ e
 .
 g
 .
-      
+          
 foo
 .
 mar
@@ -1626,7 +1626,7 @@ tmp
 /
 foo
 :
-        
+            
 abs_path
 =
 /
@@ -1639,7 +1639,7 @@ dir
 bar
 .
 txt
-        
+            
 name
 =
 dir
@@ -1673,7 +1673,7 @@ top
 of
 the
 mar
-        
+           
 name
 =
 relative
@@ -1730,7 +1730,7 @@ self
 :
         
 return
-"
+'
 Name
 :
 %
@@ -1739,7 +1739,7 @@ FullPath
 :
 %
 s
-"
+'
 %
 (
 self
@@ -1776,9 +1776,9 @@ file_content
 open
 (
 filename
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -1870,11 +1870,13 @@ fails
 "
     
 if
+(
 os
 .
 system
 (
 cmd
+)
 )
 :
         
@@ -1974,7 +1976,7 @@ original
 file
 is
 replaced
-    
+        
 with
 the
 xz
@@ -1993,7 +1995,6 @@ absolute
     
 exec_shell_cmd
 (
-        
 '
 xz
 -
@@ -2023,7 +2024,6 @@ filename
 '
 "
 '
-    
 )
     
 os
@@ -2060,7 +2060,7 @@ original
 file
 is
 replaced
-    
+        
 with
 a
 xz
@@ -2075,7 +2075,7 @@ t
 matter
 if
 the
-    
+        
 filename
 ends
 in
@@ -2154,7 +2154,7 @@ marfile
 intot
 he
 work_dir
-    
+        
 assumes
 work_dir
 already
@@ -2223,7 +2223,6 @@ saved_path
 def
 create_partial_patch_for_file
 (
-    
 from_marfile_entry
 to_marfile_entry
 shas
@@ -2249,6 +2248,7 @@ of
 files
 passed
 in
+    
 "
 "
 "
@@ -2283,6 +2283,7 @@ from_marfile_entry
 name
 +
 '
+\
 "
 '
 )
@@ -2309,7 +2310,6 @@ path
 .
 join
 (
-            
 patch_info
 .
 work_dir
@@ -2321,7 +2321,6 @@ name
 .
 patch
 "
-        
 )
         
 patch_file_dir
@@ -2356,32 +2355,26 @@ patch_file_dir
         
 exec_shell_cmd
 (
-            
 "
 mbsdiff
 "
-            
 +
 from_marfile_entry
 .
 abs_path
-            
 +
 "
 "
-            
 +
+                       
 to_marfile_entry
 .
 abs_path
-            
 +
 "
 "
-            
 +
 patch_file_abs_path
-        
 )
         
 xz_file
@@ -2466,12 +2459,10 @@ patch_info
 .
 append_patch_instruction
 (
-                
 to_marfile_entry
 .
 name
 file_in_manifest_name
-            
 )
         
 else
@@ -2518,9 +2509,7 @@ sha
 (
             
 file_in_manifest_name
-            
 file_in_manifest_abspath
-        
 )
         
 patch_info
@@ -2548,7 +2537,6 @@ src_file_abs_path
 =
 shas
 [
-            
 from_marfile_entry
 .
 sha
@@ -2559,10 +2547,10 @@ to_marfile_entry
 sha
 (
 )
-        
 ]
         
 if
+(
 filename
 .
 endswith
@@ -2572,6 +2560,7 @@ endswith
 patch
 "
 )
+)
 :
             
 file_in_manifest_name
@@ -2580,21 +2569,19 @@ to_marfile_entry
 .
 name
 +
-"
+'
 .
 patch
-"
+'
             
 patch_info
 .
 append_patch_instruction
 (
-                
 to_marfile_entry
 .
 name
 file_in_manifest_name
-            
 )
         
 else
@@ -2615,7 +2602,6 @@ file_in_manifest_name
         
 copy_file
 (
-            
 src_file_abs_path
 os
 .
@@ -2628,7 +2614,6 @@ patch_info
 work_dir
 file_in_manifest_name
 )
-        
 )
         
 patch_info
@@ -2669,7 +2654,7 @@ add
 the
 add
 instruction
-    
+         
 and
 add
 it
@@ -2685,11 +2670,9 @@ files
     
 copy_file
 (
-        
 to_marfile_entry
 .
 abs_path
-        
 os
 .
 path
@@ -2703,7 +2686,6 @@ to_marfile_entry
 .
 name
 )
-    
 )
     
 patch_info
@@ -2759,7 +2741,7 @@ if
 -
 not
 instruction
-    
+         
 and
 add
 it
@@ -2775,11 +2757,9 @@ files
     
 copy_file
 (
-        
 to_marfile_entry
 .
 abs_path
-        
 os
 .
 path
@@ -2793,7 +2773,6 @@ to_marfile_entry
 .
 name
 )
-    
 )
     
 patch_info
@@ -2928,6 +2907,7 @@ files
 )
     
 if
+(
 os
 .
 path
@@ -2935,6 +2915,7 @@ path
 exists
 (
 list_file_path
+)
 )
 :
         
@@ -2945,11 +2926,11 @@ tempfile
 .
 mkstemp
 (
-"
-"
-"
+'
+'
+'
 tmp
-"
+'
 os
 .
 getcwd
@@ -3088,19 +3069,13 @@ line
 def
 create_partial_patch
 (
-    
 from_dir_path
-    
 to_dir_path
-    
 patch_filename
-    
+                         
 shas
-    
 patch_info
-    
 forced_updates
-    
 add_if_not_list
 )
 :
@@ -3156,9 +3131,7 @@ patch_info
 .
 build_marfile_entry_hash
 (
-        
 from_dir_path
-    
 )
     
 to_dir_hash
@@ -3169,9 +3142,7 @@ patch_info
 .
 build_marfile_entry_hash
 (
-        
 to_dir_path
-    
 )
     
 forced_list
@@ -3184,9 +3155,9 @@ strip
 .
 split
 (
-"
+'
 |
-"
+'
 )
     
 if
@@ -3490,7 +3461,6 @@ from_marfile_entry
 to_marfile_entry
 shas
 patch_info
-                
 )
     
 add_filenames
@@ -3637,39 +3607,34 @@ create_manifest_files
     
 mar_cmd
 =
-(
-        
-"
+'
 mar
 -
 C
-"
-        
+'
 +
 patch_info
 .
 work_dir
-        
 +
-"
+\
+        
+'
 -
 c
 output
 .
 mar
-"
-        
+'
 +
-"
-"
+'
+'
 .
 join
 (
 patch_info
 .
 archive_files
-)
-    
 )
     
 exec_shell_cmd
@@ -3773,20 +3738,21 @@ extracts
 buildid
 from
 MAR
+    
 "
 "
 "
     
 ini
 =
-"
+'
 %
 s
 /
 application
 .
 ini
-"
+'
 %
 work_dir
     
@@ -3804,7 +3770,7 @@ ini
         
 ini
 =
-"
+'
 %
 s
 /
@@ -3815,7 +3781,7 @@ Resources
 application
 .
 ini
-"
+'
 %
 work_dir
         
@@ -3833,7 +3799,7 @@ ini
             
 print
 (
-"
+'
 WARNING
 :
 application
@@ -3845,12 +3811,12 @@ cannot
 find
 build
 ID
-"
+'
 )
             
 return
-"
-"
+'
+'
     
 fd
 tmppath
@@ -3859,11 +3825,11 @@ tempfile
 .
 mkstemp
 (
-"
-"
-"
+'
+'
+'
 tmp
-"
+'
 os
 .
 getcwd
@@ -3925,9 +3891,9 @@ line
 .
 find
 (
-"
+'
 BuildID
-"
+'
 )
 =
 =
@@ -3956,9 +3922,9 @@ strip
 .
 split
 (
-"
+'
 =
-"
+'
 )
 [
 1
@@ -3966,7 +3932,7 @@ split
     
 print
 (
-"
+'
 WARNING
 :
 cannot
@@ -3977,7 +3943,7 @@ in
 application
 .
 ini
-"
+'
 )
     
 file
@@ -3994,8 +3960,8 @@ tmppath
 )
     
 return
-"
-"
+'
+'
 def
 decode_filename
 (
@@ -4017,7 +3983,7 @@ parts
 based
 on
 regex
-    
+        
 for
 example
 :
@@ -4038,7 +4004,7 @@ i686
 complete
 .
 mar
-    
+        
 Or
 linux
 -
@@ -4057,7 +4023,7 @@ firefox
 complete
 .
 mar
-    
+        
 Returns
 dict
 with
@@ -4082,7 +4048,7 @@ re
 search
 (
             
-"
+'
 (
 ?
 P
@@ -4168,7 +4134,7 @@ w
 .
 mar
 )
-"
+'
             
 os
 .
@@ -4178,7 +4144,6 @@ basename
 (
 filepath
 )
-        
 )
         
 return
@@ -4204,7 +4169,7 @@ re
 search
 (
                 
-"
+'
 (
 ?
 P
@@ -4269,10 +4234,9 @@ w
 )
 .
 mar
-"
+'
                 
 filepath
-            
 )
             
 return
@@ -4352,13 +4316,13 @@ tempfile
 .
 mkdtemp
 (
-"
+'
 -
 fastmode
-"
-"
+'
+'
 tmp
-"
+'
 os
 .
 getcwd
@@ -4411,27 +4375,23 @@ patch
 .
 split
 (
-                
 "
 "
-            
 )
             
 from_filename
 to_filename
 patch_filename
 =
-(
-                
 os
 .
 path
 .
 abspath
 (
+                
 from_filename
 )
-                
 os
 .
 path
@@ -4440,7 +4400,6 @@ abspath
 (
 to_filename
 )
-                
 os
 .
 path
@@ -4448,8 +4407,6 @@ path
 abspath
 (
 patch_filename
-)
-            
 )
             
 work_dir
@@ -4602,9 +4559,9 @@ sha1
 open
 (
 to_filename
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -4642,62 +4599,57 @@ partial_filename
 =
 create_partial_patch
 (
-                
 work_dir_from
-                
 work_dir_to
-                
 patch_filename
-                
+                                                    
 shas
-                
 PatchInfo
 (
-                    
 work_dir
-                    
 [
-"
+                                                        
+'
 update
 .
 manifest
-"
-"
+'
+                                                        
+'
 updatev2
 .
 manifest
-"
-"
+'
+                                                        
+'
 updatev3
 .
 manifest
-"
+'
+                                                    
 ]
-                    
 [
 ]
-                
 )
-                
+                                                    
 forced_updates
-                
+                                                    
 [
-"
+'
 channel
 -
 prefs
 .
 js
-"
-"
+'
+'
 update
 -
 settings
 .
 ini
-"
+'
 ]
-            
 )
             
 partial_shasum
@@ -4706,7 +4658,6 @@ hashlib
 .
 sha1
 (
-                
 open
 (
 partial_filename
@@ -4718,7 +4669,6 @@ rb
 read
 (
 )
-            
 )
 .
 hexdigest
@@ -4743,12 +4693,11 @@ metadata
 .
 append
 (
-                
 {
-                    
-"
+                
+'
 to_filename
-"
+'
 :
 os
 .
@@ -4758,10 +4707,10 @@ basename
 (
 to_filename
 )
-                    
-"
+                
+'
 from_filename
-"
+'
 :
 os
 .
@@ -4771,10 +4720,10 @@ basename
 (
 from_filename
 )
-                    
-"
+                
+'
 partial_filename
-"
+'
 :
 os
 .
@@ -4784,106 +4733,104 @@ basename
 (
 partial_filename
 )
-                    
-"
+                
+'
 to_buildid
-"
+'
 :
 to_buildid
-                    
-"
+                
+'
 from_buildid
-"
+'
 :
 from_buildid
-                    
-"
+                
+'
 to_sha1sum
-"
+'
 :
 to_shasum
-                    
-"
+                
+'
 from_sha1sum
-"
+'
 :
 from_shasum
-                    
-"
+                
+'
 partial_sha1sum
-"
+'
 :
 partial_shasum
-                    
-"
+                
+'
 to_size
-"
+'
 :
 to_size
-                    
-"
+                
+'
 from_size
-"
+'
 :
 from_size
-                    
-"
+                
+'
 partial_size
-"
+'
 :
 partial_size
-                    
-"
+                
+'
 to_version
-"
+'
 :
 to_decoded
 [
-"
+'
 version
-"
-]
-                    
-"
-from_version
-"
-:
-from_decoded
-[
-"
-version
-"
-]
-                    
-"
-locale
-"
-:
-from_decoded
-[
-"
-locale
-"
-]
-                    
-"
-platform
-"
-:
-from_decoded
-[
-"
-platform
-"
+'
 ]
                 
-}
+'
+from_version
+'
+:
+from_decoded
+[
+'
+version
+'
+]
+                
+'
+locale
+'
+:
+from_decoded
+[
+'
+locale
+'
+]
+                
+'
+platform
+'
+:
+from_decoded
+[
+'
+platform
+'
+]
             
+}
 )
             
 print
 (
-                
 "
 done
 with
@@ -4915,15 +4862,13 @@ patch
 total
 )
 "
-                
 %
 (
-                    
 str
 (
 patch_num
 )
-                    
+                                                                                        
 str
 (
 len
@@ -4931,11 +4876,9 @@ len
 patches
 )
 )
-                    
 mar_extract_time
 -
 startTime
-                    
 time
 .
 time
@@ -4943,7 +4886,6 @@ time
 )
 -
 mar_extract_time
-                    
 time
 .
 time
@@ -4951,9 +4893,7 @@ time
 )
 -
 startTime
-                
 )
-            
 )
             
 patch_num
@@ -4968,6 +4908,7 @@ finally
 :
         
 if
+(
 work_dir_root
 and
 os
@@ -4977,6 +4918,7 @@ path
 exists
 (
 work_dir_root
+)
 )
 :
             
@@ -5119,9 +5061,9 @@ f
 open
 (
 patchlist_file
-"
+'
 r
-"
+'
 )
     
 for

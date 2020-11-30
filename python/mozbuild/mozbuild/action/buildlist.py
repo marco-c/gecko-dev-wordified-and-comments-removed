@@ -1,6 +1,6 @@
-"
-"
-"
+'
+'
+'
 A
 generic
 script
@@ -37,9 +37,9 @@ entry
 .
 .
 ]
-"
-"
-"
+'
+'
+'
 from
 __future__
 import
@@ -126,10 +126,10 @@ lock_file
 (
 listFile
 +
-"
+'
 .
 lck
-"
+'
 )
     
 try
@@ -215,15 +215,15 @@ io
 open
 (
 listFile
-"
+'
 w
-"
+'
 newline
 =
-"
+'
 \
 n
-"
+'
 )
 as
 f
@@ -233,10 +233,10 @@ f
 .
 write
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -246,10 +246,10 @@ existing
 )
 )
 +
-"
+'
 \
 n
-"
+'
 )
     
 finally
@@ -297,6 +297,7 @@ entry
 .
 ]
 "
+              
 file
 =
 sys
@@ -324,9 +325,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 sys

@@ -17,13 +17,13 @@ MarionetteTestCase
 testVar
 =
 {
-"
+'
 test
-"
+'
 :
-"
+'
 SkipTest
-"
+'
 }
     
 def
@@ -47,9 +47,9 @@ self
 .
 testVar
 [
-"
+'
 email
-"
+'
 ]
         
 except
@@ -59,7 +59,7 @@ KeyError
 raise
 SkipTest
 (
-"
+'
 email
 key
 not
@@ -70,7 +70,7 @@ skip
 .
 .
 .
-"
+'
 )
     
 def
@@ -92,13 +92,13 @@ MarionetteTestCase
 testVar
 =
 {
-"
+'
 test
-"
+'
 :
-"
+'
 SkipTest
-"
+'
 }
     
 def
@@ -115,9 +115,9 @@ self
 .
 testVar
 [
-"
+'
 test
-"
+'
 ]
         
 except
@@ -127,7 +127,7 @@ KeyError
 raise
 SkipTest
 (
-"
+'
 email
 key
 not
@@ -138,7 +138,7 @@ skip
 .
 .
 .
-"
+'
 )
         
 MarionetteTestCase

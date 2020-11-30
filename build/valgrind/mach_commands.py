@@ -46,9 +46,9 @@ cls
 )
 :
     
-"
-"
-"
+'
+'
+'
 Must
 be
 a
@@ -66,9 +66,9 @@ disable
 -
 jemalloc
 .
-"
-"
-"
+'
+'
+'
     
 defines
 =
@@ -79,15 +79,15 @@ config_environment
 defines
     
 return
-"
+'
 MOZ_VALGRIND
-"
+'
 in
 defines
 and
-"
+'
 MOZ_MEMORY
-"
+'
 not
 in
 defines
@@ -99,34 +99,32 @@ MachCommandBase
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Run
 Valgrind
 tests
 .
     
-"
-"
-"
+'
+'
+'
     
 Command
 (
-        
-"
+'
 valgrind
 -
 test
-"
-        
+'
 category
 =
-"
+'
 testing
-"
-        
+'
+             
 conditions
 =
 [
@@ -135,10 +133,10 @@ conditions
 is_firefox_or_thunderbird
 is_valgrind_build
 ]
-        
+             
 description
 =
-"
+'
 Run
 the
 Valgrind
@@ -151,39 +149,35 @@ related
 errors
 )
 .
-"
-    
+'
 )
     
 CommandArgument
 (
-        
-"
+'
 -
 -
 suppressions
-"
-        
+'
 default
 =
 [
 ]
-        
 action
 =
-"
+'
 append
-"
-        
+'
+                     
 metavar
 =
-"
+'
 FILENAME
-"
-        
+'
+                     
 help
 =
-"
+'
 Specify
 a
 suppression
@@ -194,9 +188,9 @@ to
 use
 .
 Use
-"
-        
-"
+'
+                     
+'
 -
 -
 suppression
@@ -206,13 +200,12 @@ to
 specify
 multiple
 suppression
-"
-        
-"
+'
+                     
+'
 files
 .
-"
-    
+'
 )
     
 def
@@ -281,9 +274,9 @@ join
 self
 .
 topsrcdir
-"
+'
 build
-"
+'
 )
         
 httpd
@@ -299,9 +292,9 @@ path
 join
 (
 build_dir
-"
+'
 pgo
-"
+'
 )
 )
         
@@ -330,15 +323,16 @@ path
 .
 join
 (
+                
 self
 .
 topsrcdir
-"
+'
 testing
-"
-"
+'
+'
 profiles
-"
+'
 )
             
 with
@@ -351,15 +345,15 @@ path
 join
 (
 profile_data_dir
-"
+'
 profiles
 .
 json
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -374,15 +368,14 @@ load
 fh
 )
 [
-"
+'
 valgrind
-"
+'
 ]
             
 prefpaths
 =
 [
-                
 os
 .
 path
@@ -391,18 +384,17 @@ join
 (
 profile_data_dir
 profile
-"
+'
 user
 .
 js
-"
+'
 )
-                
+                         
 for
 profile
 in
 base_profiles
-            
 ]
             
 prefs
@@ -432,17 +424,17 @@ interpolation
 =
 {
                 
-"
+'
 server
-"
+'
 :
-"
+'
 %
 s
 :
 %
 d
-"
+'
 %
 httpd
 .
@@ -506,21 +498,20 @@ join
 self
 .
 topsrcdir
-"
+'
 tools
-"
-"
+'
+'
 quitter
-"
-"
+'
+'
 quitter
 mozilla
 .
 org
 .
 xpi
-"
-            
+'
 )
             
 locations
@@ -533,10 +524,9 @@ locations
 .
 add_host
 (
-                
 host
 =
-"
+'
 127
 .
 0
@@ -544,7 +534,8 @@ host
 0
 .
 1
-"
+'
+                               
 port
 =
 httpd
@@ -552,37 +543,35 @@ httpd
 httpd
 .
 server_port
+                               
 options
 =
-"
+'
 primary
-"
-            
+'
 )
             
 profile
 =
 FirefoxProfile
 (
-                
 profile
 =
 profilePath
-                
+                                     
 preferences
 =
 prefs
-                
+                                     
 addons
 =
 [
 quitter
 ]
-                
+                                     
 locations
 =
 locations
-            
 )
             
 firefox_args
@@ -607,60 +596,60 @@ copy
             
 env
 [
-"
+'
 G_SLICE
-"
+'
 ]
 =
-"
+'
 always
 -
 malloc
-"
+'
             
 env
 [
-"
+'
 MOZ_CC_RUN_DURING_SHUTDOWN
-"
+'
 ]
 =
-"
+'
 1
-"
+'
             
 env
 [
-"
+'
 MOZ_CRASHREPORTER_NO_REPORT
-"
+'
 ]
 =
-"
+'
 1
-"
+'
             
 env
 [
-"
+'
 MOZ_DISABLE_NONLOCAL_CONNECTIONS
-"
+'
 ]
 =
-"
+'
 1
-"
+'
             
 env
 [
-"
+'
 XPCOM_DEBUG_BREAK
-"
+'
 ]
 =
-"
+'
 warn
-"
+'
             
 outputHandler
 =
@@ -675,17 +664,17 @@ kp_kwargs
 =
 {
                 
-"
+'
 processOutputLine
-"
+'
 :
 [
 outputHandler
 ]
                 
-"
+'
 universal_newlines
-"
+'
 :
 True
             
@@ -693,9 +682,9 @@ True
             
 valgrind
 =
-"
+'
 valgrind
-"
+'
             
 if
 not
@@ -722,7 +711,7 @@ valgrind_args
                 
 valgrind
                 
-"
+'
 -
 -
 sym
@@ -730,9 +719,9 @@ sym
 offsets
 =
 yes
-"
+'
                 
-"
+'
 -
 -
 smc
@@ -744,9 +733,9 @@ all
 non
 -
 file
-"
+'
                 
-"
+'
 -
 -
 vex
@@ -764,9 +753,9 @@ at
 mem
 -
 access
-"
+'
                 
-"
+'
 -
 -
 gen
@@ -774,9 +763,9 @@ gen
 suppressions
 =
 all
-"
+'
                 
-"
+'
 -
 -
 num
@@ -784,9 +773,9 @@ num
 callers
 =
 36
-"
+'
                 
-"
+'
 -
 -
 leak
@@ -794,9 +783,9 @@ leak
 check
 =
 full
-"
+'
                 
-"
+'
 -
 -
 show
@@ -806,9 +795,9 @@ possibly
 lost
 =
 no
-"
+'
                 
-"
+'
 -
 -
 track
@@ -816,9 +805,9 @@ track
 origins
 =
 yes
-"
+'
                 
-"
+'
 -
 -
 trace
@@ -826,14 +815,14 @@ trace
 children
 =
 yes
-"
+'
                 
-"
+'
 -
 v
-"
+'
                 
-"
+'
 -
 -
 fair
@@ -841,9 +830,9 @@ fair
 sched
 =
 yes
-"
+'
                 
-"
+'
 -
 -
 keep
@@ -851,9 +840,9 @@ keep
 debuginfo
 =
 yes
-"
+'
                 
-"
+'
 -
 -
 expensive
@@ -863,9 +852,9 @@ definedness
 checks
 =
 yes
-"
+'
                 
-"
+'
 -
 -
 show
@@ -875,7 +864,7 @@ mismatched
 frees
 =
 no
-"
+'
             
 ]
             
@@ -889,12 +878,12 @@ valgrind_args
 .
 append
 (
-"
+'
 -
 -
 suppressions
 =
-"
+'
 +
 s
 )
@@ -908,9 +897,9 @@ path
 join
 (
 build_dir
-"
+'
 valgrind
-"
+'
 )
             
 supps_file1
@@ -922,25 +911,25 @@ path
 join
 (
 supps_dir
-"
+'
 cross
 -
 architecture
 .
 sup
-"
+'
 )
             
 valgrind_args
 .
 append
 (
-"
+'
 -
 -
 suppressions
 =
-"
+'
 +
 supps_file1
 )
@@ -951,20 +940,20 @@ mozinfo
 os
 =
 =
-"
+'
 linux
-"
+'
 :
                 
 machtype
 =
 {
                     
-"
+'
 x86_64
-"
+'
 :
-"
+'
 x86_64
 -
 pc
@@ -972,13 +961,13 @@ pc
 linux
 -
 gnu
-"
+'
                     
-"
+'
 x86
-"
+'
 :
-"
+'
 i386
 -
 pc
@@ -986,7 +975,7 @@ pc
 linux
 -
 gnu
-"
+'
                 
 }
 .
@@ -1012,10 +1001,10 @@ join
 supps_dir
 machtype
 +
-"
+'
 .
 sup
-"
+'
 )
                     
 if
@@ -1033,12 +1022,12 @@ valgrind_args
 .
 append
 (
-"
+'
 -
 -
 suppressions
 =
-"
+'
 +
 supps_file2
 )
@@ -1062,11 +1051,10 @@ runner
 =
 FirefoxRunner
 (
-                    
 profile
 =
 profile
-                    
+                                       
 binary
 =
 self
@@ -1074,19 +1062,18 @@ self
 get_binary_path
 (
 )
-                    
+                                       
 cmdargs
 =
 firefox_args
-                    
+                                       
 env
 =
 env
-                    
+                                       
 process_args
 =
 kp_kwargs
-                
 )
                 
 runner
@@ -1149,33 +1136,31 @@ self
 .
 log
 (
-                        
 logging
 .
 ERROR
-                        
-"
+'
 valgrind
 -
 fail
 -
 parsing
-"
-                        
+'
+                             
 {
-"
+'
 errs
-"
+'
 :
 errs
-"
+'
 supps
-"
+'
 :
 supps
 }
-                        
-"
+                             
+'
 TEST
 -
 UNEXPECTED
@@ -1193,9 +1178,9 @@ parsing
 errs
 }
 errors
-"
-                        
-"
+'
+                             
+'
 seen
 but
 {
@@ -1204,8 +1189,7 @@ supps
 generated
 suppressions
 seen
-"
-                    
+'
 )
                 
 elif
@@ -1223,21 +1207,18 @@ self
 .
 log
 (
-                        
 logging
 .
 INFO
-                        
-"
+'
 valgrind
 -
 pass
-"
-                        
+'
 {
 }
-                        
-"
+                             
+'
 TEST
 -
 PASS
@@ -1250,8 +1231,7 @@ valgrind
 found
 no
 errors
-"
-                    
+'
 )
                 
 else
@@ -1273,31 +1253,29 @@ self
 .
 log
 (
-                        
 logging
 .
 ERROR
-                        
-"
+'
 valgrind
 -
 fail
 -
 errors
-"
-                        
+'
+                             
 {
-"
+'
 error
-"
+'
 :
 str
 (
 binary_not_found_exception
 )
 }
-                        
-"
+                             
+'
 TEST
 -
 UNEXPECTED
@@ -1311,31 +1289,28 @@ test
 {
 error
 }
-"
-                    
+'
 )
                     
 self
 .
 log
 (
-                        
 logging
 .
 INFO
-                        
-"
+'
 valgrind
 -
 fail
 -
 errors
-"
-                        
+'
+                             
 {
-"
+'
 help
-"
+'
 :
 binary_not_found_exception
 .
@@ -1343,13 +1318,12 @@ help
 (
 )
 }
-                        
-"
+                             
+'
 {
 help
 }
-"
-                    
+'
 )
                 
 elif
@@ -1366,28 +1340,26 @@ self
 .
 log
 (
-                        
 logging
 .
 ERROR
-                        
-"
+'
 valgrind
 -
 fail
 -
 timeout
-"
-                        
+'
+                             
 {
-"
+'
 timeout
-"
+'
 :
 timeout
 }
-                        
-"
+                             
+'
 TEST
 -
 UNEXPECTED
@@ -1401,9 +1373,9 @@ test
 Valgrind
 timed
 out
-"
-                        
-"
+'
+                             
+'
 (
 reached
 {
@@ -1412,8 +1384,7 @@ timeout
 second
 limit
 )
-"
-                    
+'
 )
                 
 elif
@@ -1431,28 +1402,26 @@ self
 .
 log
 (
-                        
 logging
 .
 ERROR
-                        
-"
+'
 valgrind
 -
 fail
 -
 errors
-"
-                        
+'
+                             
 {
-"
+'
 exitcode
-"
+'
 :
 exitcode
 }
-                        
-"
+                             
+'
 TEST
 -
 UNEXPECTED
@@ -1468,17 +1437,16 @@ non
 zero
 exit
 code
-"
-                        
-"
+'
+                             
+'
 from
 Valgrind
 :
 {
 exitcode
 }
-"
-                    
+'
 )
                 
 httpd

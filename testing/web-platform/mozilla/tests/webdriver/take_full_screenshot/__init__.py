@@ -8,12 +8,10 @@ session
 return
 tuple
 (
-        
 session
 .
 execute_script
 (
-            
 "
 "
 "
@@ -70,7 +68,5 @@ devicePixelRatio
 "
 "
 "
-        
 )
-    
 )

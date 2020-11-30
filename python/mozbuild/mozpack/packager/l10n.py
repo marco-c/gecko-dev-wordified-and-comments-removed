@@ -4,9 +4,9 @@ import
 absolute_import
 print_function
 unicode_literals
-"
-"
-"
+'
+'
+'
 Replace
 localized
 parts
@@ -21,9 +21,9 @@ a
 langpack
 directory
 .
-"
-"
-"
+'
+'
+'
 import
 json
 import
@@ -294,6 +294,7 @@ in
 f
 .
 _entries
+                            
 if
 isinstance
 (
@@ -319,6 +320,7 @@ ManifestFile
 f
 .
 _base
+                                
 [
 e
 for
@@ -333,7 +335,6 @@ not
 in
 unwanted
 ]
-                            
 )
                     
 yield
@@ -359,12 +360,12 @@ add
 (
 Component
 (
-"
-"
+'
+'
 )
-"
+'
 *
-"
+'
 )
         
 sink
@@ -380,7 +381,6 @@ locales
 =
 list
 (
-            
 set
 (
 e
@@ -392,6 +392,7 @@ in
 self
 .
 entries
+                                
 if
 isinstance
 (
@@ -399,7 +400,6 @@ e
 ManifestLocale
 )
 )
-        
 )
 class
 L10NRepackFormatterMixin
@@ -456,10 +456,10 @@ path
 .
 endswith
 (
-"
+'
 .
 dic
-"
+'
 )
 :
             
@@ -478,10 +478,10 @@ relpath
 .
 startswith
 (
-"
+'
 dictionaries
 /
-"
+'
 )
 :
                 
@@ -514,12 +514,12 @@ path
 .
 endswith
 (
-"
+'
 /
 built_in_addons
 .
 json
-"
+'
 )
 :
             
@@ -547,9 +547,9 @@ read
             
 data
 [
-"
+'
 dictionaries
-"
+'
 ]
 =
 self
@@ -673,6 +673,7 @@ supported
 :
 "
 +
+                     
 "
 "
 .
@@ -699,7 +700,6 @@ errors
 .
 fatal
 (
-            
 "
 Multiple
 l10n
@@ -711,6 +711,7 @@ supported
 :
 "
 +
+                     
 "
 "
 .
@@ -720,7 +721,6 @@ l10n
 .
 locales
 )
-        
 )
     
 locale
@@ -755,12 +755,12 @@ flags
 :
             
 return
-"
+'
 %
 s
 %
 s
-"
+'
 %
 (
 entry
@@ -930,6 +930,7 @@ s
 '
 "
 %
+                             
 e
 .
 name
@@ -1154,6 +1155,7 @@ paths
 [
 base
 ]
+                                                     
 subpath
 )
 )
@@ -1202,9 +1204,9 @@ if
 hasattr
 (
 l10n_finder
-"
+'
 base
-"
+'
 )
 :
                         
@@ -1226,6 +1228,7 @@ file
 s
 "
 %
+                                 
 os
 .
 path
@@ -1314,14 +1317,14 @@ mozpath
 join
 (
 base
-"
+'
 chrome
 .
 %
 s
 .
 manifest
-"
+'
 %
 l10n_locale
 )
@@ -1402,11 +1405,11 @@ mozpath
 join
 (
 base
-"
+'
 chrome
 .
 manifest
-"
+'
 )
 m
 )
@@ -1473,12 +1476,12 @@ l10n_finder
 .
 find
 (
-"
+'
 *
 *
 /
 localization
-"
+'
 )
 :
         
@@ -1566,9 +1569,9 @@ set
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Replace
 localized
@@ -1747,9 +1750,9 @@ chrome
 manifest
 .
     
-"
-"
-"
+'
+'
+'
     
 app_finder
 =
@@ -1773,8 +1776,8 @@ finders
 =
 {
             
-"
-"
+'
+'
 :
 l10n_finder
         
@@ -1831,9 +1834,9 @@ app_finder
 kind
 =
 =
-"
+'
 flat
-"
+'
 :
         
 formatter
@@ -1849,9 +1852,9 @@ app_finder
 kind
 =
 =
-"
+'
 jar
-"
+'
 :
         
 formatter
@@ -1859,6 +1862,7 @@ formatter
 JarFormatter
 (
 copier
+                                 
 compress
 =
 compress
@@ -1870,27 +1874,27 @@ app_finder
 kind
 =
 =
-"
+'
 omni
-"
+'
 :
         
 formatter
 =
 OmniJarFormatter
 (
-            
 copier
 app_finder
 .
 omnijar
+                                     
 compress
 =
 compress
+                                     
 non_resources
 =
 non_resources
-        
 )
     
 with

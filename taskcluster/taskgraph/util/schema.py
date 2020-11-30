@@ -110,20 +110,20 @@ error
 raise
 Exception
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
 msg
 )
 +
-"
+'
 \
 n
-"
+'
 +
 pprint
 .
@@ -305,20 +305,20 @@ k
 .
 startswith
 (
-"
+'
 by
 -
-"
+'
 )
 and
 k
 [
 len
 (
-"
+'
 by
 -
-"
+'
 )
 :
 ]
@@ -717,9 +717,9 @@ item
 field
     
 while
-"
+'
 .
-"
+'
 in
 subfield
 :
@@ -731,9 +731,9 @@ subfield
 .
 split
 (
-"
+'
 .
-"
+'
 1
 )
         
@@ -843,11 +843,12 @@ r
 .
 format
 (
-"
+u
+'
 upstream
 -
 artifacts
-"
+'
 )
 in
 path
@@ -856,7 +857,6 @@ lambda
 path
 :
 (
-        
 "
 [
 {
@@ -868,14 +868,15 @@ r
 .
 format
 (
-"
+u
+'
 test_name
-"
+'
 )
 in
 path
-        
 or
+                  
 "
 [
 {
@@ -887,14 +888,15 @@ r
 .
 format
 (
-"
+u
+'
 json_location
-"
+'
 )
 in
 path
-        
 or
+                  
 "
 [
 {
@@ -906,13 +908,13 @@ r
 .
 format
 (
-"
+u
+'
 video_location
-"
+'
 )
 in
 path
-    
 )
 ]
 def
@@ -928,7 +930,7 @@ re
 .
 compile
 (
-"
+'
 ^
 [
 a
@@ -944,7 +946,7 @@ z0
 -
 ]
 *
-"
+'
 )
     
 def
@@ -1037,7 +1039,7 @@ raise
 RuntimeError
 (
                         
-"
+'
 YAML
 schemas
 should
@@ -1047,9 +1049,9 @@ lower
 -
 case
 identifiers
-"
+'
                         
-"
+'
 not
 {
 !
@@ -1057,14 +1059,13 @@ r
 }
 {
 }
-"
+'
 .
 format
 (
 k
 path
 )
-                    
 )
             
 elif
@@ -1131,7 +1132,7 @@ raise
 RuntimeError
 (
                     
-"
+'
 Unexpected
 type
 in
@@ -1142,7 +1143,7 @@ schema
 }
 {
 }
-"
+'
 .
 format
 (
@@ -1154,9 +1155,7 @@ k
 .
 __name__
 path
-                    
 )
-                
 )
         
 if
@@ -1276,9 +1275,9 @@ v
     
 iter
 (
-"
+'
 schema
-"
+'
 schema
 .
 schema
@@ -1458,11 +1457,11 @@ voluptuous
 .
 Required
 (
-"
+'
 task
 -
 reference
-"
+'
 )
 :
 text_type
@@ -1473,11 +1472,11 @@ voluptuous
 .
 Required
 (
-"
+'
 artifact
 -
 reference
-"
+'
 )
 :
 text_type

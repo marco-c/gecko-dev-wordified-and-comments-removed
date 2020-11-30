@@ -45,18 +45,18 @@ results
         
 kwargs
 [
-"
+'
 universal_newlines
-"
+'
 ]
 =
 True
         
 kwargs
 [
-"
+'
 processOutputLine
-"
+'
 ]
 =
 [

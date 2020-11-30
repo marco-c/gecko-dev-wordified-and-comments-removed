@@ -92,9 +92,9 @@ BaseFinder
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Special
 Finder
@@ -208,9 +208,9 @@ its
 root
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -271,9 +271,9 @@ self
 .
 kind
 =
-"
+'
 flat
-"
+'
         
 if
 omnijar_name
@@ -301,14 +301,14 @@ substs
 .
 get
 (
-"
+'
 OMNIJAR_NAME
-"
-"
+'
+'
 omni
 .
 ja
-"
+'
 )
         
 self
@@ -340,9 +340,9 @@ _finder
 .
 find
 (
-"
+'
 *
-"
+'
 )
 :
             
@@ -350,9 +350,9 @@ if
 p
 =
 =
-"
+'
 precomplete
-"
+'
 :
                 
 continue
@@ -379,13 +379,13 @@ mozpath
 match
 (
 p
-"
+'
 *
 *
 /
 %
 s
-"
+'
 %
 self
 .
@@ -404,11 +404,11 @@ f
 )
                 
 if
-"
+'
 chrome
 .
 manifest
-"
+'
 in
 jar
 :
@@ -417,9 +417,9 @@ self
 .
 kind
 =
-"
+'
 omni
-"
+'
                     
 self
 .
@@ -467,6 +467,8 @@ contains
 (
 p
 )
+\
+                    
 else
 ManifestFile
 (
@@ -478,7 +480,7 @@ e
 in
 parse_manifest
 (
-                    
+                        
 self
 .
 base
@@ -487,11 +489,11 @@ codecs
 .
 getreader
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 (
 f
@@ -500,7 +502,6 @@ open
 (
 )
 )
-                
 )
 :
                     
@@ -539,10 +540,10 @@ p
 .
 endswith
 (
-"
+'
 .
 xpi
-"
+'
 )
 and
 self
@@ -629,15 +630,12 @@ filename
                 
 m
 =
-(
-                    
 self
 .
 files
 [
 path
 ]
-                    
 if
 self
 .
@@ -647,6 +645,7 @@ contains
 (
 path
 )
+\
                     
 else
 ManifestFile
@@ -657,8 +656,6 @@ dirname
 (
 path
 )
-)
-                
 )
                 
 for
@@ -733,15 +730,14 @@ jarpath
 None
         
 if
-(
-            
 isinstance
 (
 entry
 ManifestEntryWithRelPath
 )
-            
 and
+\
+                
 urlparse
 (
 entry
@@ -752,11 +748,9 @@ relpath
 scheme
 =
 =
-"
+'
 jar
-"
-        
-)
+'
 :
             
 jarpath
@@ -773,15 +767,14 @@ relpath
 )
         
 elif
-(
-            
 isinstance
 (
 entry
 ManifestResource
 )
-            
 and
+\
+                
 urlparse
 (
 entry
@@ -792,11 +785,9 @@ target
 scheme
 =
 =
-"
+'
 jar
-"
-        
-)
+'
 :
             
 jarpath
@@ -924,10 +915,12 @@ mozpath
 join
 (
 base
+                                                
 j
 .
 filename
 )
+                                   
 DeflatedFile
 (
 j
@@ -945,9 +938,9 @@ self
 .
 kind
 =
-"
+'
 jar
-"
+'
         
 return
 entry
@@ -961,9 +954,9 @@ file
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Return
 a
@@ -985,9 +978,9 @@ it
 has
 .
         
-"
-"
-"
+'
+'
+'
         
 jar
 =
@@ -1098,9 +1091,9 @@ file
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Return
 whether
@@ -1115,9 +1108,9 @@ ZIP
 Jar
 .
         
-"
-"
-"
+'
+'
+'
         
 header
 =
@@ -1151,10 +1144,11 @@ header
 =
 =
 b
-"
+'
 PK
-"
+'
 or
+                                     
 header
 [
 4
@@ -1164,9 +1158,9 @@ header
 =
 =
 b
-"
+'
 PK
-"
+'
 )
     
 def
@@ -1178,9 +1172,9 @@ relpath
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Transform
 a
@@ -1214,9 +1208,9 @@ new
 entry
 .
         
-"
-"
-"
+'
+'
+'
         
 base
 =
@@ -1236,16 +1230,14 @@ path
 .
 split
 (
-"
+'
 !
-"
+'
 1
 )
         
 entry
 =
-(
-            
 entry
 .
 rebase
@@ -1255,17 +1247,18 @@ mozpath
 join
 (
 base
-"
+'
 jar
 :
 %
 s
 !
-"
+'
 %
 jar
 )
 )
+\
             
 .
 move
@@ -1286,13 +1279,12 @@ jar
 ]
 )
 )
+\
             
 .
 rebase
 (
 base
-)
-        
 )
         
 return
@@ -1315,9 +1307,9 @@ None
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Transform
 a
@@ -1344,9 +1336,9 @@ flat
 package
 .
     
-"
-"
-"
+'
+'
+'
     
 finder
 =
@@ -1374,9 +1366,9 @@ finder
 .
 find
 (
-"
+'
 *
-"
+'
 )
 :
         
@@ -1403,9 +1395,9 @@ None
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Transform
 a
@@ -1421,9 +1413,9 @@ flat
 package
 .
     
-"
-"
-"
+'
+'
+'
     
 copier
 =

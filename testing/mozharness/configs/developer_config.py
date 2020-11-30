@@ -185,14 +185,14 @@ True
 virtualenv_path
 "
 :
-"
+'
 %
 s
 /
 build
 /
 venv
-"
+'
 %
 os
 .
@@ -274,7 +274,7 @@ gittool
 py
 "
 :
-"
+'
 http
 :
 /
@@ -304,7 +304,7 @@ files
 gittool
 .
 py
-"
+'
     
 "
 host_utils_url

@@ -2,11 +2,11 @@ config
 =
 {
     
-"
+'
 stage_platform
-"
+'
 :
-"
+'
 android
 -
 x86_64
@@ -14,13 +14,13 @@ x86_64
 asan
 -
 fuzzing
-"
+'
     
-"
+'
 src_mozconfig
-"
+'
 :
-"
+'
 mobile
 /
 android
@@ -38,5 +38,5 @@ nightly
 fuzzing
 -
 asan
-"
+'
 }

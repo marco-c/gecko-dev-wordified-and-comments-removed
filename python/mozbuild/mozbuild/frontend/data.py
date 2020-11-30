@@ -136,13 +136,19 @@ from
 .
 util
 import
+(
+    
 group_unified_files
+)
 from
 .
 .
 testing
 import
+(
+    
 all_test_flavors
+)
 class
 TreeMetadata
 (
@@ -250,41 +256,41 @@ __slots__
 =
 (
         
-"
+'
 context_main_path
-"
+'
         
-"
+'
 context_all_paths
-"
+'
         
-"
+'
 topsrcdir
-"
+'
         
-"
+'
 topobjdir
-"
+'
         
-"
+'
 relsrcdir
-"
+'
         
-"
+'
 srcdir
-"
+'
         
-"
+'
 objdir
-"
+'
         
-"
+'
 config
-"
+'
         
-"
+'
 _context
-"
+'
     
 )
     
@@ -391,9 +397,9 @@ self
 .
 _context
 [
-"
+'
 FINAL_TARGET
-"
+'
 ]
     
 property
@@ -410,9 +416,9 @@ self
 .
 _context
 [
-"
+'
 DIST_INSTALL
-"
+'
 ]
 is
 not
@@ -433,9 +439,9 @@ self
 .
 _context
 [
-"
+'
 DEFINES
-"
+'
 ]
         
 return
@@ -494,9 +500,9 @@ self
 .
 _context
 [
-"
+'
 HOST_DEFINES
-"
+'
 ]
         
 return
@@ -624,9 +630,11 @@ files
 __slots__
 =
 (
-"
+        
+'
 dirs
-"
+'
+    
 )
     
 def
@@ -681,17 +689,17 @@ __slots__
 =
 (
         
-"
+'
 input_path
-"
+'
         
-"
+'
 output_path
-"
+'
         
-"
+'
 relpath
-"
+'
     
 )
     
@@ -859,9 +867,11 @@ mk
     
 __slots__
 =
-"
+(
+'
 variables
-"
+'
+)
     
 def
 __init__
@@ -903,6 +913,7 @@ by
 various
 backends
 .
+    
 "
 "
 "
@@ -910,9 +921,9 @@ backends
 __slots__
 =
 (
-"
+'
 flags
-"
+'
 )
     
 def
@@ -1050,13 +1061,13 @@ __slots__
 =
 (
         
-"
+'
 name
-"
+'
         
-"
+'
 idl_files
-"
+'
     
 )
     
@@ -1133,9 +1144,11 @@ OrderedDicts
     
 __slots__
 =
-"
+(
+'
 defines
-"
+'
+)
     
 def
 __init__
@@ -1189,12 +1202,12 @@ True
                 
 yield
 (
-"
+'
 -
 D
 %
 s
-"
+'
 %
 define
 )
@@ -1207,12 +1220,12 @@ False
                 
 yield
 (
-"
+'
 -
 U
 %
 s
-"
+'
 %
 define
 )
@@ -1222,7 +1235,7 @@ else
                 
 yield
 (
-"
+'
 -
 D
 %
@@ -1230,7 +1243,7 @@ s
 =
 %
 s
-"
+'
 %
 (
 define
@@ -1402,28 +1415,23 @@ self
 :
         
 return
-(
-            
 self
 .
 sources
-            
 |
 self
 .
 generated_sources
-            
 |
+\
+            
 self
 .
 generated_events_sources
-            
 |
 self
 .
 preprocessed_sources
-        
-)
     
 def
 all_regular_basenames
@@ -1496,10 +1504,10 @@ all_regular_stems
 :
             
 yield
-"
+'
 %
 sBinding
-"
+'
 %
 stem
         
@@ -1545,12 +1553,12 @@ all_regular_bindinggen_stems
 :
             
 yield
-"
+'
 %
 s
 .
 cpp
-"
+'
 %
 stem
     
@@ -1633,12 +1641,12 @@ self
 return
 sorted
 (
-"
+'
 %
 sBinding
 .
 cpp
-"
+'
 %
 s
 for
@@ -1667,6 +1675,8 @@ self
 .
 generated_events_sources
 |
+\
+            
 self
 .
 test_sources
@@ -1872,34 +1882,30 @@ self
 return
 list
 (
-            
 group_unified_files
 (
-                
 self
 .
 all_regular_cpp_basenames
 (
 )
-                
+                                        
 unified_prefix
 =
-"
+'
 UnifiedBindings
-"
-                
+'
+                                        
 unified_suffix
 =
-"
+'
 cpp
-"
-                
+'
+                                        
 files_per_unified_file
 =
 32
-            
 )
-        
 )
     
 def
@@ -1915,6 +1921,7 @@ import
 WebIDLCodegenManager
         
 return
+(
 sorted
 (
 list
@@ -1925,9 +1932,9 @@ GLOBAL_DEFINE_FILES
 )
 )
 +
+                
 sorted
 (
-            
 set
 (
 p
@@ -1939,7 +1946,7 @@ self
 .
 unified_source_mapping
 )
-        
+)
 )
 class
 IPDLCollection
@@ -2084,12 +2091,12 @@ base
 files
 =
 [
-"
+'
 %
 s
 .
 cpp
-"
+'
 %
 root
 ]
@@ -2098,10 +2105,10 @@ if
 ext
 =
 =
-"
+'
 .
 ipdl
-"
+'
 :
                 
 files
@@ -2109,20 +2116,21 @@ files
 extend
 (
 [
-"
+'
 %
 sChild
 .
 cpp
-"
+'
 %
 root
-"
+                              
+'
 %
 sParent
 .
 cpp
-"
+'
 %
 root
 ]
@@ -2164,34 +2172,30 @@ self
 return
 list
 (
-            
 group_unified_files
 (
-                
 self
 .
 all_generated_sources
 (
 )
-                
+                                        
 unified_prefix
 =
-"
+'
 UnifiedProtocols
-"
-                
+'
+                                        
 unified_suffix
 =
-"
+'
 cpp
-"
-                
+'
+                                        
 files_per_unified_file
 =
 16
-            
 )
-        
 )
     
 def
@@ -2335,25 +2339,25 @@ __slots__
 =
 (
         
-"
+'
 cxx_link
-"
+'
         
-"
+'
 lib_defines
-"
+'
         
-"
+'
 linked_libraries
-"
+'
         
-"
+'
 linked_system_libs
-"
+'
         
-"
+'
 sources
-"
+'
     
 )
     
@@ -2443,14 +2447,14 @@ KIND
 raise
 LinkageWrongKindError
 (
-"
+'
 %
 s
 !
 =
 %
 s
-"
+'
 %
 (
 obj
@@ -2513,8 +2517,8 @@ lib
 .
 startswith
 (
-"
-"
+'
+'
 )
 and
 not
@@ -2522,30 +2526,30 @@ lib
 .
 startswith
 (
-"
+'
 -
-"
+'
 )
 :
             
 type_var
 =
-"
+'
 HOST_CC_TYPE
-"
+'
 if
 self
 .
 KIND
 =
 =
-"
+'
 host
-"
+'
 else
-"
+'
 CC_TYPE
-"
+'
             
 compiler_type
 =
@@ -2564,23 +2568,23 @@ if
 compiler_type
 in
 (
-"
+'
 gcc
-"
-"
+'
+'
 clang
-"
+'
 )
 :
                 
 lib
 =
-"
+'
 -
 l
 %
 s
-"
+'
 %
 lib
             
@@ -2589,14 +2593,14 @@ else
                 
 lib
 =
-"
+'
 %
 s
 %
 s
 %
 s
-"
+'
 %
 (
                     
@@ -2641,30 +2645,30 @@ for
 suffix
 in
 (
-"
+'
 .
 c
-"
-"
+'
+'
 .
 S
-"
-"
+'
+'
 .
 cpp
-"
-"
+'
+'
 .
 m
-"
-"
+'
+'
 .
 mm
-"
-"
+'
+'
 .
 s
-"
+'
 )
 :
             
@@ -2695,8 +2699,8 @@ sources
         
 obj_prefix
 =
-"
-"
+'
+'
         
 if
 self
@@ -2704,30 +2708,27 @@ self
 KIND
 =
 =
-"
+'
 host
-"
+'
 :
             
 obj_prefix
 =
-"
+'
 host_
-"
+'
         
 return
 [
-            
 mozpath
 .
 join
 (
-                
 self
 .
 objdir
-                
-"
+'
 %
 s
 %
@@ -2735,13 +2736,11 @@ s
 .
 %
 s
-"
-                
+'
 %
 (
-                    
 obj_prefix
-                    
+                                                       
 mozpath
 .
 splitext
@@ -2756,22 +2755,19 @@ f
 [
 0
 ]
-                    
+                                                       
 self
 .
 _obj_suffix
 (
 )
+)
+)
                 
-)
-            
-)
-            
 for
 f
 in
 sources
-        
 ]
     
 def
@@ -2808,11 +2804,11 @@ substs
 .
 get
 (
-"
+'
 OBJ_SUFFIX
-"
-"
-"
+'
+'
+'
 )
     
 property
@@ -2918,29 +2914,31 @@ name
     
 __slots__
 =
-"
+(
+'
 program
-"
+'
+)
     
 DICT_ATTRS
 =
 {
         
-"
+'
 install_target
-"
+'
         
-"
+'
 KIND
-"
+'
         
-"
+'
 program
-"
+'
         
-"
+'
 relobjdir
-"
+'
     
 }
     
@@ -2977,8 +2975,8 @@ get
 self
 .
 SUFFIX_VAR
-"
-"
+'
+'
 )
         
 if
@@ -3026,19 +3024,19 @@ installed
 return
 ObjDirPath
 (
-                
 self
 .
 _context
-"
+'
 !
 /
-"
+'
 +
 mozpath
 .
 join
 (
+                
 self
 .
 install_target
@@ -3046,7 +3044,6 @@ self
 .
 program
 )
-            
 )
         
 else
@@ -3058,9 +3055,9 @@ ObjDirPath
 self
 .
 _context
-"
+'
 !
-"
+'
 +
 self
 .
@@ -3075,7 +3072,7 @@ self
 :
         
 return
-"
+'
 <
 %
 s
@@ -3086,7 +3083,7 @@ s
 %
 s
 >
-"
+'
 %
 (
 type
@@ -3138,15 +3135,15 @@ PROGRAM
     
 SUFFIX_VAR
 =
-"
+'
 BIN_SUFFIX
-"
+'
     
 KIND
 =
-"
+'
 target
-"
+'
 class
 HostProgram
 (
@@ -3170,15 +3167,15 @@ HOST_PROGRAM
     
 SUFFIX_VAR
 =
-"
+'
 HOST_BIN_SUFFIX
-"
+'
     
 KIND
 =
-"
+'
 host
-"
+'
     
 property
     
@@ -3190,13 +3187,13 @@ self
 :
         
 return
-"
+'
 dist
 /
 host
 /
 bin
-"
+'
 class
 SimpleProgram
 (
@@ -3222,15 +3219,15 @@ SIMPLE_PROGRAMS
     
 SUFFIX_VAR
 =
-"
+'
 BIN_SUFFIX
-"
+'
     
 KIND
 =
-"
+'
 target
-"
+'
     
 def
 source_files
@@ -3258,8 +3255,6 @@ srcs
 :
                 
 if
-(
-                    
 mozpath
 .
 basename
@@ -3274,7 +3269,6 @@ f
 0
 ]
 )
-                    
 =
 =
 mozpath
@@ -3288,8 +3282,6 @@ program
 [
 0
 ]
-                
-)
 :
                     
 return
@@ -3327,15 +3319,15 @@ HOST_SIMPLE_PROGRAMS
     
 SUFFIX_VAR
 =
-"
+'
 HOST_BIN_SUFFIX
-"
+'
     
 KIND
 =
-"
+'
 host
-"
+'
     
 def
 source_files
@@ -3364,12 +3356,11 @@ srcs
                 
 if
 (
-                    
-"
+'
 host_
 %
 s
-"
+'
 %
 mozpath
 .
@@ -3385,9 +3376,9 @@ f
 0
 ]
 )
+=
+=
                     
-=
-=
 mozpath
 .
 splitext
@@ -3399,7 +3390,6 @@ program
 [
 0
 ]
-                
 )
 :
                     
@@ -3421,9 +3411,9 @@ target_var
     
 rust_build_kind
 =
-"
+'
 release
-"
+'
     
 if
 context
@@ -3434,17 +3424,17 @@ substs
 .
 get
 (
-"
+'
 MOZ_DEBUG_RUST
-"
+'
 )
 :
         
 rust_build_kind
 =
-"
+'
 debug
-"
+'
     
 return
 mozpath
@@ -3472,29 +3462,29 @@ __slots__
 =
 (
         
-"
+'
 name
-"
+'
         
-"
+'
 cargo_file
-"
+'
         
-"
+'
 location
-"
+'
         
-"
+'
 SUFFIX_VAR
-"
+'
         
-"
+'
 KIND
-"
+'
         
-"
+'
 TARGET_SUBST_VAR
-"
+'
     
 )
     
@@ -3538,9 +3528,9 @@ substs
 .
 get
 (
-"
+'
 COMPILE_ENVIRONMENT
-"
+'
 )
 :
             
@@ -3558,12 +3548,12 @@ TARGET_SUBST_VAR
         
 exe_file
 =
-"
+'
 %
 s
 %
 s
-"
+'
 %
 (
 name
@@ -3578,8 +3568,8 @@ get
 self
 .
 SUFFIX_VAR
-"
-"
+'
+'
 )
 )
         
@@ -3603,21 +3593,21 @@ BaseRustProgram
     
 SUFFIX_VAR
 =
-"
+'
 BIN_SUFFIX
-"
+'
     
 KIND
 =
-"
+'
 target
-"
+'
     
 TARGET_SUBST_VAR
 =
-"
+'
 RUST_TARGET
-"
+'
 class
 HostRustProgram
 (
@@ -3627,21 +3617,21 @@ BaseRustProgram
     
 SUFFIX_VAR
 =
-"
+'
 HOST_BIN_SUFFIX
-"
+'
     
 KIND
 =
-"
+'
 host
-"
+'
     
 TARGET_SUBST_VAR
 =
-"
+'
 RUST_HOST_TARGET
-"
+'
 class
 RustTests
 (
@@ -3653,17 +3643,17 @@ __slots__
 =
 (
         
-"
+'
 names
-"
+'
         
-"
+'
 features
-"
+'
         
-"
+'
 output_category
-"
+'
     
 )
     
@@ -3701,9 +3691,9 @@ self
 .
 output_category
 =
-"
+'
 rusttests
-"
+'
 class
 BaseLibrary
 (
@@ -3730,21 +3720,21 @@ __slots__
 =
 (
         
-"
+'
 basename
-"
+'
         
-"
+'
 lib_name
-"
+'
         
-"
+'
 import_name
-"
+'
         
-"
+'
 refs
-"
+'
     
 )
     
@@ -3785,14 +3775,14 @@ self
 .
 lib_name
 =
-"
+'
 %
 s
 %
 s
 %
 s
-"
+'
 %
 (
                 
@@ -3837,7 +3827,7 @@ self
 :
         
 return
-"
+'
 <
 %
 s
@@ -3848,7 +3838,7 @@ s
 %
 s
 >
-"
+'
 %
 (
 type
@@ -3901,13 +3891,14 @@ library
     
 KIND
 =
-"
+'
 target
-"
+'
     
 __slots__
 =
 (
+    
 )
     
 def
@@ -3964,33 +3955,32 @@ __slots__
 =
 (
         
-"
+'
 link_into
-"
+'
         
-"
+'
 no_expand_lib
-"
+'
     
 )
     
 def
 __init__
 (
-        
 self
 context
 basename
 real_name
 =
 None
+                 
 link_into
 =
 None
 no_expand_lib
 =
 False
-    
 )
 :
         
@@ -4045,9 +4035,9 @@ True
     
 KIND
 =
-"
+'
 wasm
-"
+'
     
 def
 __init__
@@ -4078,32 +4068,32 @@ config
 .
 substs
 [
-"
+'
 OS_TARGET
-"
+'
 ]
 in
 (
-"
+'
 Linux
-"
-"
+'
+'
 Darwin
-"
+'
 )
         
 self
 .
 lib_name
 =
-"
+'
 %
 s
 %
 s
 %
 s
-"
+'
 %
 (
             
@@ -4159,11 +4149,11 @@ substs
 .
 get
 (
-"
+'
 WASM_OBJ_SUFFIX
-"
-"
-"
+'
+'
+'
 )
 class
 BaseRustLibrary
@@ -4176,62 +4166,53 @@ slots
 =
 (
         
-"
+'
 cargo_file
-"
+'
         
-"
+'
 crate_type
-"
+'
         
-"
+'
 dependencies
-"
+'
         
-"
+'
 deps_path
-"
+'
         
-"
+'
 features
-"
+'
         
-"
+'
 target_dir
-"
+'
         
-"
+'
 output_category
-"
+'
         
-"
+'
 is_gkrust
-"
+'
     
 )
     
 def
 init
 (
-        
 self
-        
 context
-        
 basename
-        
 cargo_file
-        
 crate_type
-        
 dependencies
-        
+             
 features
-        
 target_dir
-        
 is_gkrust
-    
 )
 :
         
@@ -4259,49 +4240,47 @@ self
 crate_type
 =
 =
-"
+'
 staticlib
-"
+'
         
 self
 .
 lib_name
 =
-"
+'
 %
 s
 %
 s
 %
 s
-"
+'
 %
 (
-            
 context
 .
 config
 .
 lib_prefix
-            
+                                    
 basename
 .
 replace
 (
-"
+'
 -
-"
-"
+'
+'
 _
-"
+'
 )
-            
+                                    
 context
 .
 config
 .
 lib_suffix
-        
 )
         
 self
@@ -4330,9 +4309,9 @@ context
 .
 get
 (
-"
+'
 RUST_LIBRARY_OUTPUT_CATEGORY
-"
+'
 )
         
 if
@@ -4345,9 +4324,9 @@ substs
 .
 get
 (
-"
+'
 COMPILE_ENVIRONMENT
-"
+'
 )
 :
             
@@ -4359,8 +4338,8 @@ mozpath
 .
 join
 (
-            
 target_dir
+                                 
 cargo_output_directory
 (
 context
@@ -4368,7 +4347,6 @@ self
 .
 TARGET_SUBST_VAR
 )
-        
 )
         
 self
@@ -4394,9 +4372,9 @@ mozpath
 join
 (
 build_dir
-"
+'
 deps
-"
+'
 )
 class
 RustLibrary
@@ -4424,27 +4402,27 @@ library
     
 KIND
 =
-"
+'
 target
-"
+'
     
 TARGET_SUBST_VAR
 =
-"
+'
 RUST_TARGET
-"
+'
     
 FEATURES_VAR
 =
-"
+'
 RUST_LIBRARY_FEATURES
-"
+'
     
 LIB_FILE_VAR
 =
-"
+'
 RUST_LIBRARY_FILE
-"
+'
     
 __slots__
 =
@@ -4455,31 +4433,21 @@ slots
 def
 __init__
 (
-        
 self
-        
 context
-        
 basename
-        
 cargo_file
-        
 crate_type
-        
 dependencies
-        
+                 
 features
-        
 target_dir
-        
 is_gkrust
 =
 False
-        
 link_into
 =
 None
-    
 )
 :
         
@@ -4487,46 +4455,33 @@ StaticLibrary
 .
 __init__
 (
-            
 self
-            
 context
-            
 basename
-            
 link_into
 =
 link_into
-            
+                               
 no_expand_lib
 =
 True
-        
 )
         
 BaseRustLibrary
 .
 init
 (
-            
 self
-            
 context
-            
 basename
-            
 cargo_file
-            
+                             
 crate_type
-            
 dependencies
-            
 features
-            
 target_dir
-            
+                             
 is_gkrust
-        
 )
 class
 SharedLibrary
@@ -4554,25 +4509,25 @@ __slots__
 =
 (
         
-"
+'
 soname
-"
+'
         
-"
+'
 variant
-"
+'
         
-"
+'
 symbols_file
-"
+'
         
-"
+'
 output_category
-"
+'
         
-"
+'
 symbols_link_arg
-"
+'
     
 )
     
@@ -4580,29 +4535,29 @@ DICT_ATTRS
 =
 {
         
-"
+'
 basename
-"
+'
         
-"
+'
 import_name
-"
+'
         
-"
+'
 install_target
-"
+'
         
-"
+'
 lib_name
-"
+'
         
-"
+'
 relobjdir
-"
+'
         
-"
+'
 soname
-"
+'
     
 }
     
@@ -4617,33 +4572,27 @@ MAX_VARIANT
 def
 __init__
 (
-        
 self
-        
 context
-        
 basename
-        
 real_name
 =
 None
-        
+                 
 soname
 =
 None
-        
 variant
 =
 None
-        
 symbols_file
 =
 False
-    
 )
 :
         
 assert
+(
 variant
 in
 range
@@ -4657,6 +4606,7 @@ or
 variant
 is
 None
+)
         
 Library
 .
@@ -4690,9 +4640,9 @@ context
 .
 get
 (
-"
+'
 SHARED_LIBRARY_OUTPUT_CATEGORY
-"
+'
 )
         
 assert
@@ -4724,14 +4674,14 @@ self
 .
 import_name
 =
-"
+'
 %
 s
 %
 s
 %
 s
-"
+'
 %
 (
                 
@@ -4757,14 +4707,14 @@ self
 .
 lib_name
 =
-"
+'
 %
 s
 %
 s
 %
 s
-"
+'
 %
 (
                 
@@ -4794,14 +4744,14 @@ self
 .
 soname
 =
-"
+'
 %
 s
 %
 s
 %
 s
-"
+'
 %
 (
                 
@@ -4857,27 +4807,27 @@ config
 .
 substs
 [
-"
+'
 OS_TARGET
-"
+'
 ]
 =
 =
-"
+'
 WINNT
-"
+'
 :
                 
 self
 .
 symbols_file
 =
-"
+'
 %
 s
 .
 def
-"
+'
 %
 self
 .
@@ -4890,12 +4840,12 @@ self
 .
 symbols_file
 =
-"
+'
 %
 s
 .
 symbols
-"
+'
 %
 self
 .
@@ -4924,55 +4874,49 @@ config
 .
 substs
 [
-"
+'
 OS_TARGET
-"
+'
 ]
             
 if
 os_target
 =
 =
-"
+'
 Darwin
-"
+'
 :
                 
 self
 .
 symbols_link_arg
 =
-(
-                    
-"
+'
 -
 Wl
 -
 exported_symbols_list
-"
+'
 +
 self
 .
 symbols_file
-                
-)
             
 elif
 os_target
 =
 =
-"
+'
 SunOS
-"
+'
 :
                 
 self
 .
 symbols_link_arg
 =
-(
-                    
-"
+'
 -
 z
 gnu
@@ -4989,22 +4933,21 @@ Wl
 version
 -
 script
-"
-                    
+'
+\
+                  
 +
 self
 .
 symbols_file
-                
-)
             
 elif
 os_target
 =
 =
-"
+'
 WINNT
-"
+'
 :
                 
 if
@@ -5016,9 +4959,9 @@ substs
 .
 get
 (
-"
+'
 GNU_CC
-"
+'
 )
 :
                     
@@ -5037,11 +4980,11 @@ self
 .
 symbols_link_arg
 =
-"
+'
 -
 DEF
 :
-"
+'
 +
 self
 .
@@ -5056,9 +4999,9 @@ substs
 .
 get
 (
-"
+'
 GCC_USE_GNU_LD
-"
+'
 )
 :
                 
@@ -5066,7 +5009,7 @@ self
 .
 symbols_link_arg
 =
-"
+'
 -
 Wl
 -
@@ -5074,7 +5017,7 @@ Wl
 version
 -
 script
-"
+'
 +
 self
 .
@@ -5134,9 +5077,9 @@ plugin
     
 KIND
 =
-"
+'
 host
-"
+'
     
 def
 __init__
@@ -5160,14 +5103,14 @@ self
 .
 lib_name
 =
-"
+'
 %
 s
 %
 s
 %
 s
-"
+'
 %
 (
             
@@ -5293,9 +5236,9 @@ library
     
 KIND
 =
-"
+'
 host
-"
+'
     
 no_expand_lib
 =
@@ -5326,27 +5269,27 @@ library
     
 KIND
 =
-"
+'
 host
-"
+'
     
 TARGET_SUBST_VAR
 =
-"
+'
 RUST_HOST_TARGET
-"
+'
     
 FEATURES_VAR
 =
-"
+'
 HOST_RUST_LIBRARY_FEATURES
-"
+'
     
 LIB_FILE_VAR
 =
-"
+'
 HOST_RUST_LIBRARY_FILE
-"
+'
     
 __slots__
 =
@@ -5361,25 +5304,16 @@ True
 def
 __init__
 (
-        
 self
-        
 context
-        
 basename
-        
 cargo_file
-        
 crate_type
-        
 dependencies
-        
+                 
 features
-        
 target_dir
-        
 is_gkrust
-    
 )
 :
         
@@ -5396,25 +5330,17 @@ BaseRustLibrary
 .
 init
 (
-            
 self
-            
 context
-            
 basename
-            
 cargo_file
-            
+                             
 crate_type
-            
 dependencies
-            
 features
-            
 target_dir
-            
+                             
 is_gkrust
-        
 )
 class
 TestManifest
@@ -5443,97 +5369,89 @@ __slots__
 =
 (
         
-"
+'
 flavor
-"
+'
         
-"
+'
 installs
-"
+'
         
-"
+'
 pattern_installs
-"
+'
         
-"
+'
 install_prefix
-"
+'
         
-"
+'
 external_installs
-"
+'
         
-"
+'
 deferred_installs
-"
+'
         
-"
+'
 path
-"
+'
         
-"
+'
 directory
-"
+'
         
-"
+'
 manifest
-"
+'
         
-"
+'
 tests
-"
+'
         
-"
+'
 manifest_relpath
-"
+'
         
-"
+'
 manifest_obj_relpath
-"
+'
         
-"
+'
 source_relpaths
-"
+'
         
-"
+'
 dupe_manifest
-"
+'
     
 )
     
 def
 __init__
 (
-        
 self
-        
 context
-        
 path
-        
 manifest
-        
 flavor
 =
 None
-        
+                 
 install_prefix
 =
 None
-        
 relpath
 =
 None
-        
 sources
 =
 (
 )
-        
+                 
 dupe_manifest
 =
 False
-    
 )
 :
         
@@ -5671,9 +5589,11 @@ path
 __slots__
 =
 (
-"
+        
+'
 path
-"
+'
+    
 )
     
 def
@@ -5725,13 +5645,13 @@ __slots__
 =
 (
         
-"
+'
 file_name
-"
+'
         
-"
+'
 flags
-"
+'
     
 )
     
@@ -5840,9 +5760,11 @@ files
 __slots__
 =
 (
-"
+        
+'
 path
-"
+'
+    
 )
     
 def
@@ -5896,13 +5818,13 @@ __slots__
 =
 (
         
-"
+'
 files
-"
+'
         
-"
+'
 canonical_suffix
-"
+'
     
 )
     
@@ -6028,10 +5950,10 @@ __init__
 self
 context
 files
-"
+'
 .
 cpp
-"
+'
 )
 class
 GeneratedSources
@@ -6292,12 +6214,15 @@ build
 __slots__
 =
 (
-"
+        
+'
 have_unified_mapping
-"
-"
+'
+        
+'
 unified_source_mapping
-"
+'
+    
 )
     
 def
@@ -6373,9 +6298,9 @@ unified_prefix
 .
 split
 (
-"
+'
 /
-"
+'
 1
 )
 [
@@ -6389,12 +6314,12 @@ unified_prefix
 .
 replace
 (
-"
+'
 /
-"
-"
+'
+'
 _
-"
+'
 )
             
 suffix
@@ -6409,13 +6334,13 @@ canonical_suffix
             
 unified_prefix
 =
-"
+'
 Unified_
 %
 s_
 %
 s
-"
+'
 %
 (
 suffix
@@ -6431,23 +6356,21 @@ list
                 
 group_unified_files
 (
-                    
 source_files
-                    
+                                    
 unified_prefix
 =
 unified_prefix
-                    
+                                    
 unified_suffix
 =
 suffix
-                    
+                                    
 files_per_unified_file
 =
 files_per_unified_file
-                
 )
-            
+                
 )
 class
 InstallationTarget
@@ -6477,18 +6400,23 @@ to
 __slots__
 =
 (
-"
+        
+'
 xpiname
-"
-"
+'
+        
+'
 subdir
-"
-"
+'
+        
+'
 target
-"
-"
+'
+        
+'
 enabled
-"
+'
+    
 )
     
 def
@@ -6515,11 +6443,11 @@ context
 .
 get
 (
-"
+'
 XPI_NAME
-"
-"
-"
+'
+'
+'
 )
         
 self
@@ -6530,11 +6458,11 @@ context
 .
 get
 (
-"
+'
 DIST_SUBDIR
-"
-"
-"
+'
+'
+'
 )
         
 self
@@ -6543,9 +6471,9 @@ target
 =
 context
 [
-"
+'
 FINAL_TARGET
-"
+'
 ]
         
 self
@@ -6554,9 +6482,9 @@ enabled
 =
 context
 [
-"
+'
 DIST_INSTALL
-"
+'
 ]
 is
 not
@@ -6595,17 +6523,17 @@ subdir
 "
         
 return
-(
-            
 FinalTargetValue
 (
 dict
 (
+            
 XPI_NAME
 =
 self
 .
 xpiname
+            
 DIST_SUBDIR
 =
 self
@@ -6613,14 +6541,11 @@ self
 subdir
 )
 )
-            
 =
 =
 self
 .
 target
-        
-)
 class
 FinalTargetFiles
 (
@@ -6687,9 +6612,11 @@ FINAL_TARGET_FILES
     
 __slots__
 =
-"
+(
+'
 files
-"
+'
+)
     
 def
 __init__
@@ -6780,9 +6707,11 @@ FINAL_TARGET_PP_FILES
     
 __slots__
 =
-"
+(
+'
 files
-"
+'
+)
     
 def
 __init__
@@ -6896,8 +6825,8 @@ self
 :
         
 return
-"
-"
+'
+'
 class
 ObjdirPreprocessedFiles
 (
@@ -6934,8 +6863,8 @@ self
 :
         
 return
-"
-"
+'
+'
 class
 TestHarnessFiles
 (
@@ -6972,9 +6901,9 @@ self
 :
         
 return
-"
+'
 _tests
-"
+'
 class
 Exports
 (
@@ -7050,11 +6979,11 @@ self
 :
         
 return
-"
+'
 dist
 /
 include
-"
+'
 class
 GeneratedFile
 (
@@ -7078,85 +7007,75 @@ __slots__
 =
 (
         
-"
+'
 script
-"
+'
         
-"
+'
 method
-"
+'
         
-"
+'
 outputs
-"
+'
         
-"
+'
 inputs
-"
+'
         
-"
+'
 flags
-"
+'
         
-"
+'
 required_before_compile
-"
+'
         
-"
+'
 required_during_compile
-"
+'
         
-"
+'
 localized
-"
+'
         
-"
+'
 force
-"
+'
         
-"
+'
 py2
-"
+'
     
 )
     
 def
 __init__
 (
-        
 self
-        
 context
-        
 script
-        
 method
-        
 outputs
-        
 inputs
-        
+                 
 flags
 =
 (
 )
-        
 localized
 =
 False
-        
 force
 =
 False
-        
+                 
 py2
 =
 False
-        
 required_during_compile
 =
 None
-    
 )
 :
         
@@ -7230,34 +7149,34 @@ suffixes
 =
 [
             
-"
+'
 .
 h
-"
+'
             
-"
+'
 .
 py
-"
+'
             
-"
+'
 .
 rs
-"
+'
             
-"
+'
 android_apks
-"
+'
             
-"
+'
 .
 profdata
-"
+'
             
-"
+'
 .
 webidl
-"
+'
         
 ]
         
@@ -7272,18 +7191,18 @@ config
 .
 substs
 [
-"
+'
 LIB_SUFFIX
-"
+'
 ]
             
 suffixes
 .
 append
 (
-"
+'
 .
-"
+'
 +
 lib_suffix
 )
@@ -7308,14 +7227,12 @@ required_before_compile
 [
             
 f
-            
 for
 f
 in
 self
 .
 outputs
-            
 if
 f
 .
@@ -7323,19 +7240,20 @@ endswith
 (
 suffixes
 )
+            
 or
-"
+'
 stl_wrappers
 /
-"
+'
 in
 f
 or
-"
+'
 xpidl
 .
 stub
-"
+'
 in
 f
         
@@ -7354,14 +7272,12 @@ required_during_compile
 [
                 
 f
-                
 for
 f
 in
 self
 .
 outputs
-                
 if
 f
 .
@@ -7369,41 +7285,39 @@ endswith
 (
                     
 (
-"
+'
 .
 asm
-"
-"
+'
+'
 .
 c
-"
-"
+'
+'
 .
 cpp
-"
-"
+'
+'
 .
 inc
-"
-"
+'
+'
 .
 m
-"
-"
+'
+'
 .
 mm
-"
-"
+'
+'
 .
 def
-"
-"
+'
+'
 symverscript
-"
+'
 )
-                
 )
-            
 ]
         
 else
@@ -7439,13 +7353,13 @@ __slots__
 =
 (
         
-"
+'
 path
-"
+'
         
-"
+'
 entry
-"
+'
     
 )
     

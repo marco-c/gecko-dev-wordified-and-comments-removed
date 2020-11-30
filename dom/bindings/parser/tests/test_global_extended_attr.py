@@ -10,7 +10,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -54,7 +53,6 @@ Bar
 "
 "
 "
-    
 )
     
 results
@@ -69,7 +67,6 @@ harness
 .
 ok
 (
-        
 results
 [
 0
@@ -78,7 +75,7 @@ results
 isOnGlobalProtoChain
 (
 )
-        
+               
 "
 [
 Global
@@ -93,14 +90,12 @@ s
 proto
 chain
 "
-    
 )
     
 harness
 .
 ok
 (
-        
 results
 [
 1
@@ -109,7 +104,7 @@ results
 isOnGlobalProtoChain
 (
 )
-        
+               
 "
 [
 Global
@@ -124,7 +119,6 @@ s
 proto
 chain
 "
-    
 )
     
 parser
@@ -146,7 +140,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -186,7 +179,6 @@ arg
 "
 "
 "
-        
 )
         
 results
@@ -208,9 +200,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 have
@@ -226,11 +217,11 @@ interface
 with
 a
 "
+               
 "
 named
 setter
 "
-    
 )
     
 parser
@@ -252,7 +243,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -290,7 +280,6 @@ name
 "
 "
 "
-        
 )
         
 results
@@ -312,9 +301,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 have
@@ -330,11 +318,11 @@ interface
 with
 a
 "
+               
 "
 named
 deleter
 "
-    
 )
     
 parser
@@ -356,7 +344,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -379,7 +366,6 @@ Foo
 "
 "
 "
-        
 )
         
 results
@@ -401,9 +387,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 have
@@ -419,13 +404,12 @@ interface
 with
 a
 "
-        
+               
 "
 [
 OverrideBuiltins
 ]
 "
-    
 )
     
 parser
@@ -447,7 +431,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -485,7 +468,6 @@ Bar
 "
 "
 "
-        
 )
         
 results
@@ -507,9 +489,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 have
@@ -525,14 +506,13 @@ interface
 with
 an
 "
-        
+               
 "
 [
 OverrideBuiltins
 ]
 ancestor
 "
-    
 )
     
 parser
@@ -554,7 +534,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -591,7 +570,6 @@ Foo
 "
 "
 "
-        
 )
         
 results
@@ -613,9 +591,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 have
@@ -631,8 +608,8 @@ interface
 with
 a
 "
+               
 "
 descendant
 "
-    
 )

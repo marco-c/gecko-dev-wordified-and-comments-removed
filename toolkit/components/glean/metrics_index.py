@@ -2,7 +2,7 @@ metrics_yamls
 =
 [
     
-"
+'
 toolkit
 /
 components
@@ -12,13 +12,13 @@ glean
 metrics
 .
 yaml
-"
+'
 ]
 pings_yamls
 =
 [
     
-"
+'
 toolkit
 /
 components
@@ -28,5 +28,5 @@ glean
 pings
 .
 yaml
-"
+'
 ]

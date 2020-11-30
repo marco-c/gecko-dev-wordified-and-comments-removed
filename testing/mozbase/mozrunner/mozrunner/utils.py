@@ -22,12 +22,12 @@ mozinfo
 __all__
 =
 [
-"
+'
 findInPath
-"
-"
+'
+'
 get_metadata_from_egg
-"
+'
 ]
 try
 :
@@ -114,9 +114,9 @@ if
 key
 =
 =
-"
+'
 Description
-"
+'
 :
                     
 if
@@ -136,10 +136,10 @@ isspace
 value
 +
 =
-"
+'
 \
 n
-"
+'
 +
 line
                         
@@ -178,9 +178,9 @@ line
 .
 split
 (
-"
+'
 :
-"
+'
 1
 )
                 
@@ -269,9 +269,9 @@ os
 .
 environ
 [
-"
+'
 PATH
-"
+'
 ]
 )
 :
@@ -390,9 +390,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 for
@@ -449,9 +449,9 @@ if
 hasattr
 (
 a
-"
+'
 session
-"
+'
 )
 ]
 [
@@ -501,7 +501,6 @@ __name__
 def
 test_environment
 (
-    
 xrePath
 env
 =
@@ -512,6 +511,7 @@ True
 debugger
 =
 False
+                     
 useLSan
 =
 False
@@ -671,7 +671,6 @@ envVar
 envValue
 =
 (
-            
 (
 env
 .
@@ -684,12 +683,12 @@ str
 ldLibraryPath
 )
 )
-            
+                    
 if
 mozinfo
 .
 isWin
-            
+                    
 else
 (
 ldLibraryPath
@@ -700,7 +699,6 @@ get
 envVar
 )
 )
-        
 )
         
 env
@@ -729,25 +727,25 @@ path
     
 env
 [
-"
+'
 GNOME_DISABLE_CRASH_DIALOG
-"
+'
 ]
 =
-"
+'
 1
-"
+'
     
 env
 [
-"
+'
 XRE_NO_WINDOWS_CRASH_DIALOG
-"
+'
 ]
 =
-"
+'
 1
-"
+'
     
 if
 crashreporter
@@ -758,71 +756,73 @@ debugger
         
 env
 [
-"
+'
 MOZ_CRASHREPORTER_NO_REPORT
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 env
 [
-"
+'
 MOZ_CRASHREPORTER
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 env
 [
-"
+'
 MOZ_CRASHREPORTER_SHUTDOWN
-"
+'
 ]
 =
-"
+'
 1
-"
+'
     
 else
 :
         
 env
 [
-"
+'
 MOZ_CRASHREPORTER_DISABLE
-"
+'
 ]
 =
-"
+'
 1
-"
+'
     
 env
 .
 setdefault
 (
-"
+'
 MOZ_DISABLE_NONLOCAL_CONNECTIONS
-"
-"
+'
+'
 1
-"
+'
 )
     
 env
 .
 setdefault
 (
-"
+        
+'
 MOZ_LOG
-"
-"
+'
+        
+'
 signaling
 :
 3
@@ -835,55 +835,56 @@ DataChannel
 jsep
 :
 4
-"
+'
+    
 )
     
 env
 .
 setdefault
 (
-"
+'
 R_LOG_LEVEL
-"
-"
+'
+'
 6
-"
+'
 )
     
 env
 .
 setdefault
 (
-"
+'
 R_LOG_DESTINATION
-"
-"
+'
+'
 stderr
-"
+'
 )
     
 env
 .
 setdefault
 (
-"
+'
 R_LOG_VERBOSE
-"
-"
+'
+'
 1
-"
+'
 )
     
 env
 .
 setdefault
 (
-"
+'
 NSS_MAX_MP_PBE_ITERATION_COUNT
-"
-"
+'
+'
 10
-"
+'
 )
     
 asan
@@ -936,6 +937,7 @@ join
 (
                 
 llvmSymbolizerDir
+                
 "
 llvm
 -
@@ -950,7 +952,6 @@ info
 bin_suffix
 "
 ]
-            
 )
             
 if
@@ -991,6 +992,7 @@ at
 %
 s
 "
+                         
 %
 llvmsym
 )
@@ -1002,7 +1004,6 @@ log
 .
 error
 (
-                    
 "
 TEST
 -
@@ -1018,7 +1019,7 @@ Failed
 to
 find
 "
-                    
+                          
 "
 ASan
 symbolizer
@@ -1028,7 +1029,6 @@ s
 "
 %
 llvmsym
-                
 )
             
 if
@@ -1039,23 +1039,19 @@ isWin
                 
 totalMemory
 =
-(
-                    
 int
 (
-                        
+                    
 os
 .
 popen
 (
-                            
 "
 wmic
 computersystem
 get
 TotalPhysicalMemory
 "
-                        
 )
 .
 readlines
@@ -1064,13 +1060,9 @@ readlines
 [
 1
 ]
-                    
 )
-                    
 /
 1024
-                
-)
             
 elif
 mozinfo
@@ -1080,8 +1072,6 @@ isMac
                 
 totalMemory
 =
-(
-                    
 int
 (
 os
@@ -1112,8 +1102,6 @@ split
 )
 /
 1024
-                
-)
             
 else
 :
@@ -1183,25 +1171,26 @@ message
 =
 message
 %
-"
+'
 low
 -
 memory
-"
+'
                 
 asanOptions
 =
 [
-"
+                    
+'
 quarantine_size
 =
 50331648
-"
-"
+'
+'
 malloc_context_size
 =
 5
-"
+'
 ]
             
 else
@@ -1211,10 +1200,10 @@ message
 =
 message
 %
-"
+'
 default
 memory
-"
+'
             
 if
 useLSan
@@ -1235,11 +1224,11 @@ asanOptions
 .
 append
 (
-"
+'
 detect_leaks
 =
 1
-"
+'
 )
                 
 lsanOptions
@@ -1259,9 +1248,9 @@ LSAN_OPTIONS
 "
 ]
 =
-"
+'
 :
-"
+'
 .
 join
 (
@@ -1277,14 +1266,14 @@ asanOptions
                 
 env
 [
-"
+'
 ASAN_OPTIONS
-"
+'
 ]
 =
-"
+'
 :
-"
+'
 .
 join
 (
@@ -1301,7 +1290,6 @@ log
 .
 info
 (
-                
 "
 Failed
 determine
@@ -1310,7 +1298,7 @@ memory
 disabling
 ASan
 "
-                
+                     
 "
 low
 -
@@ -1324,7 +1312,6 @@ s
 err
 .
 strerror
-            
 )
         
 except
@@ -1335,7 +1322,6 @@ log
 .
 info
 (
-                
 "
 Failed
 determine
@@ -1344,14 +1330,13 @@ memory
 disabling
 ASan
 "
-                
+                     
 "
 low
 -
 memory
 configuration
 "
-            
 )
         
 else
@@ -1449,6 +1434,7 @@ at
 %
 s
 "
+                     
 %
 llvmsym
 )
@@ -1460,7 +1446,6 @@ log
 .
 error
 (
-                
 "
 TEST
 -
@@ -1477,7 +1462,7 @@ to
 find
 TSan
 "
-                
+                      
 "
 symbolizer
 at
@@ -1486,7 +1471,6 @@ s
 "
 %
 llvmsym
-            
 )
     
 ubsan
@@ -1632,9 +1616,9 @@ info
 .
 get
 (
-"
+'
 debug
-"
+'
 )
 :
         
@@ -1646,16 +1630,15 @@ os
 .
 getenv
 (
-"
+'
 MOZ_DISABLE_STACK_FIX
-"
+'
 0
 )
 :
         
 print
 (
-            
 "
 WARNING
 :
@@ -1670,7 +1653,6 @@ MOZ_DISABLE_STACK_FIX
 is
 set
 "
-        
 )
         
 return
@@ -1737,9 +1719,9 @@ stack_fixer_module
 =
 import_stack_fixer_module
 (
-"
+'
 fix_stacks
-"
+'
 )
         
 def
@@ -1756,19 +1738,15 @@ fixSymbols
 (
                 
 line
-                
 slowWarning
 =
 True
-                
 breakpadSymsDir
 =
 symbolsPath
-                
 hide_errors
 =
 hideErrors
-            
 )
     
 elif
@@ -1789,9 +1767,9 @@ stack_fixer_module
 =
 import_stack_fixer_module
 (
-"
+'
 fix_stacks
-"
+'
 )
         
 def
@@ -1806,7 +1784,6 @@ stack_fixer_module
 .
 fixSymbols
 (
-                
 line
 slowWarning
 =
@@ -1814,7 +1791,6 @@ True
 hide_errors
 =
 hideErrors
-            
 )
     
 else

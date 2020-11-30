@@ -2,7 +2,7 @@ LOCALIZED_PP_FILES
 +
 =
 [
-"
+'
 en
 -
 US
@@ -10,8 +10,8 @@ US
 bar
 .
 ini
-"
-"
+'
+'
 en
 -
 US
@@ -19,5 +19,5 @@ US
 foo
 .
 js
-"
+'
 ]

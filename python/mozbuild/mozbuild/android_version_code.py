@@ -51,11 +51,11 @@ or
 cpu_arch
 =
 =
-"
+'
 armeabi
 -
 v7a
-"
+'
 :
         
 return
@@ -69,9 +69,9 @@ elif
 cpu_arch
 in
 [
-"
+'
 x86
-"
+'
 ]
 :
         
@@ -88,7 +88,6 @@ else
 raise
 ValueError
 (
-            
 "
 Don
 '
@@ -101,7 +100,7 @@ android
 :
 versionCode
 "
-            
+                         
 "
 for
 CPU
@@ -111,7 +110,6 @@ s
 "
 %
 cpu_arch
-        
 )
 def
 android_version_code_v1
@@ -129,9 +127,9 @@ max_sdk
 )
 :
     
-"
-"
-"
+'
+'
+'
 Generate
 a
 v1
@@ -656,9 +654,9 @@ order
 bit
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 hours_since_cutoff
@@ -669,7 +667,7 @@ buildid
         
 fmt
 =
-"
+'
 %
 Y
 %
@@ -682,7 +680,7 @@ H
 M
 %
 S
-"
+'
         
 build
 =
@@ -713,7 +711,6 @@ fmt
 return
 int
 (
-            
 math
 .
 floor
@@ -744,7 +741,6 @@ cutoff
 0
 )
 )
-        
 )
     
 base
@@ -763,7 +759,6 @@ base
 raise
 ValueError
 (
-            
 "
 Something
 has
@@ -774,7 +769,7 @@ wrong
 cannot
 calculate
 "
-            
+                         
 "
 android
 :
@@ -788,7 +783,7 @@ s
 hours
 underflow
 "
-            
+                         
 "
 bits
 allotted
@@ -796,7 +791,6 @@ allotted
 "
 %
 buildid
-        
 )
     
 if
@@ -811,7 +805,6 @@ base
 raise
 ValueError
 (
-            
 "
 Something
 has
@@ -822,7 +815,7 @@ wrong
 cannot
 calculate
 "
-            
+                         
 "
 android
 :
@@ -836,7 +829,7 @@ s
 hours
 overflow
 "
-            
+                         
 "
 bits
 allotted
@@ -844,7 +837,6 @@ allotted
 "
 %
 buildid
-        
 )
     
 if
@@ -863,7 +855,6 @@ base
 raise
 ValueError
 (
-            
 "
 Running
 out
@@ -873,7 +864,7 @@ order
 bits
 calculating
 "
-            
+                         
 "
 android
 :
@@ -885,7 +876,7 @@ ID
 s
 :
 "
-            
+                         
 "
 ;
 YOU
@@ -901,7 +892,6 @@ SCHEME
 "
 %
 buildid
-        
 )
     
 version
@@ -920,12 +910,12 @@ if
 cpu_arch
 in
 [
-"
+'
 x86
-"
-"
+'
+'
 x86_64
-"
+'
 ]
 :
         
@@ -944,16 +934,16 @@ or
 cpu_arch
 in
 [
-"
+'
 armeabi
 -
 v7a
-"
-"
+'
+'
 arm64
 -
 v8a
-"
+'
 ]
 :
         
@@ -965,7 +955,6 @@ else
 raise
 ValueError
 (
-            
 "
 Don
 '
@@ -978,7 +967,7 @@ android
 :
 versionCode
 "
-            
+                         
 "
 for
 CPU
@@ -988,21 +977,20 @@ s
 "
 %
 cpu_arch
-        
 )
     
 if
 cpu_arch
 in
 [
-"
+'
 arm64
 -
 v8a
-"
-"
+'
+'
 x86_64
-"
+'
 ]
 :
         
@@ -1018,14 +1006,14 @@ elif
 cpu_arch
 in
 [
-"
+'
 armeabi
 -
 v7a
-"
-"
+'
+'
 x86
-"
+'
 ]
 :
         
@@ -1037,7 +1025,6 @@ else
 raise
 ValueError
 (
-            
 "
 Don
 '
@@ -1050,7 +1037,7 @@ android
 :
 versionCode
 "
-            
+                         
 "
 for
 CPU
@@ -1060,7 +1047,6 @@ s
 "
 %
 cpu_arch
-        
 )
     
 version
@@ -1138,13 +1124,14 @@ argparse
 .
 ArgumentParser
 (
-"
+'
 Generate
 an
 android
 :
 versionCode
-"
+'
+                                     
 add_help
 =
 False
@@ -1154,35 +1141,34 @@ parser
 .
 add_argument
 (
-        
-"
+'
 -
 -
 verbose
-"
+'
 action
 =
-"
+'
 store_true
-"
+'
+                        
 default
 =
 False
+                        
 help
 =
-"
+'
 Be
 verbose
-"
-    
+'
 )
     
 parser
 .
 add_argument
 (
-        
-"
+'
 -
 -
 with
@@ -1192,55 +1178,56 @@ android
 cpu
 -
 arch
-"
-        
+'
 dest
 =
-"
+'
 cpu_arch
-"
-        
+'
+                        
 choices
 =
 [
-"
+'
 armeabi
-"
-"
+'
+                                 
+'
 armeabi
 -
 v7a
-"
-"
+'
+                                 
+'
 arm64
 -
 v8a
-"
-"
+'
+                                 
+'
 x86
-"
-"
+'
+                                 
+'
 x86_64
-"
+'
 ]
-        
+                        
 help
 =
-"
+'
 The
 target
 CPU
 architecture
-"
-    
+'
 )
     
 parser
 .
 add_argument
 (
-        
-"
+'
 -
 -
 with
@@ -1252,39 +1239,35 @@ min
 sdk
 -
 version
-"
-        
+'
 dest
 =
-"
+'
 min_sdk
-"
-        
+'
+                        
 type
 =
 int
-        
 default
 =
 0
-        
+                        
 help
 =
-"
+'
 The
 minimum
 target
 SDK
-"
-    
+'
 )
     
 parser
 .
 add_argument
 (
-        
-"
+'
 -
 -
 with
@@ -1296,51 +1279,49 @@ max
 sdk
 -
 version
-"
-        
+'
 dest
 =
-"
+'
 max_sdk
-"
-        
+'
+                        
 type
 =
 int
-        
 default
 =
 0
-        
+                        
 help
 =
-"
+'
 The
 maximum
 target
 SDK
-"
-    
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 buildid
-"
+'
 type
 =
 int
+                        
 help
 =
-"
+'
 The
 input
 build
 ID
-"
+'
 )
     
 args
@@ -1356,26 +1337,27 @@ code
 =
 android_version_code
 (
-        
 args
 .
 buildid
+                                
 cpu_arch
 =
 args
 .
 cpu_arch
+                                
 min_sdk
 =
 args
 .
 min_sdk
+                                
 max_sdk
 =
 args
 .
 max_sdk
-    
 )
     
 print
@@ -1389,9 +1371,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 sys

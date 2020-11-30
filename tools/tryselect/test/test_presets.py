@@ -14,37 +14,37 @@ TASKS
     
 {
         
-"
+'
 kind
-"
+'
 :
-"
+'
 build
-"
+'
         
-"
+'
 label
-"
+'
 :
-"
+'
 build
 -
 windows
-"
+'
         
-"
+'
 attributes
-"
+'
 :
 {
             
-"
+'
 build_platform
-"
+'
 :
-"
+'
 windows
-"
+'
         
 }
     
@@ -52,19 +52,19 @@ windows
     
 {
         
-"
+'
 kind
-"
+'
 :
-"
+'
 test
-"
+'
         
-"
+'
 label
-"
+'
 :
-"
+'
 test
 -
 windows
@@ -72,39 +72,39 @@ windows
 mochitest
 -
 e10s
-"
+'
         
-"
+'
 attributes
-"
+'
 :
 {
             
-"
+'
 unittest_suite
-"
+'
 :
-"
+'
 mochitest
-"
+'
             
-"
+'
 unittest_flavor
-"
+'
 :
-"
+'
 browser
 -
 chrome
-"
+'
             
-"
+'
 mochitest_try_name
-"
+'
 :
-"
+'
 mochitest
-"
+'
         
 }
     
@@ -150,9 +150,9 @@ monkeypatch
 setattr
 (
 tasks
-"
+'
 generate_tasks
-"
+'
 fake_generate_tasks
 )
 pytest
@@ -161,7 +161,6 @@ mark
 .
 xfail
 (
-    
 strict
 =
 False
@@ -172,6 +171,7 @@ Bug
 1635204
 :
 "
+                                        
 "
 test_shared_presets
 [
@@ -230,16 +230,16 @@ selectors
 "
     
 assert
-"
+'
 description
-"
+'
 in
 shared_preset
     
 assert
-"
+'
 selector
-"
+'
 in
 shared_preset
     
@@ -247,24 +247,24 @@ selector
 =
 shared_preset
 [
-"
+'
 selector
-"
+'
 ]
     
 if
 selector
 =
 =
-"
+'
 fuzzy
-"
+'
 :
         
 assert
-"
+'
 query
-"
+'
 in
 shared_preset
         
@@ -273,9 +273,9 @@ isinstance
 (
 shared_preset
 [
-"
+'
 query
-"
+'
 ]
 list
 )
@@ -284,21 +284,21 @@ assert
 run_mach
 (
 [
-"
+'
 try
-"
-"
+'
+'
 -
 -
 no
 -
 push
-"
-"
+'
+'
 -
 -
 preset
-"
+'
 shared_name
 ]
 )
@@ -309,9 +309,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

@@ -134,9 +134,9 @@ paths
 "
     
 if
-"
+'
 OSTYPE
-"
+'
 in
 os
 .
@@ -146,21 +146,21 @@ os
 .
 environ
 [
-"
+'
 OSTYPE
-"
+'
 ]
 =
 =
-"
+'
 msys
-"
+'
 :
         
 if
-"
+'
 SHELL
-"
+'
 in
 os
 .
@@ -173,9 +173,9 @@ os
 .
 environ
 [
-"
+'
 SHELL
-"
+'
 ]
             
 msys
@@ -187,10 +187,10 @@ sh
 .
 find
 (
-"
+'
 /
 bin
-"
+'
 )
 ]
             
@@ -331,13 +331,13 @@ base_path
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 /
-"
+'
 )
     
 return
@@ -527,18 +527,18 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 path
 =
 OptionalEnvironmentVariable
 (
-"
+'
 UPLOAD_PATH
-"
+'
 )
     
 if
@@ -547,9 +547,9 @@ sys
 platform
 =
 =
-"
+'
 win32
-"
+'
 :
         
 if
@@ -590,12 +590,10 @@ parser
 .
 add_option
 (
-        
 "
 -
 b
 "
-        
 "
 -
 -
@@ -603,13 +601,13 @@ base
 -
 path
 "
-        
+                      
 action
 =
 "
 store
 "
-        
+                      
 help
 =
 "
@@ -624,7 +622,7 @@ when
 uploading
 .
 "
-        
+                      
 "
 If
 unset
@@ -638,7 +636,6 @@ to
 UPLOAD_PATH
 .
 "
-    
 )
     
 (
@@ -695,6 +692,7 @@ base_path
 options
 .
 base_path
+                         
 verbose
 =
 True

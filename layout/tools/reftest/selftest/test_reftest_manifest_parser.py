@@ -68,7 +68,6 @@ utilityPath
 options
 .
 symbolsPath
-    
 )
     
 def
@@ -159,11 +158,11 @@ tests
 =
 parse
 (
-"
+'
 types
 .
 list
-"
+'
 )
     
 assert
@@ -172,16 +171,16 @@ tests
 0
 ]
 [
-"
+'
 type
-"
+'
 ]
 =
 =
-"
+'
 =
 =
-"
+'
     
 assert
 tests
@@ -189,16 +188,16 @@ tests
 1
 ]
 [
-"
+'
 type
-"
+'
 ]
 =
 =
-"
+'
 !
 =
-"
+'
     
 assert
 tests
@@ -206,15 +205,15 @@ tests
 2
 ]
 [
-"
+'
 type
-"
+'
 ]
 =
 =
-"
+'
 load
-"
+'
     
 assert
 tests
@@ -222,15 +221,15 @@ tests
 3
 ]
 [
-"
+'
 type
-"
+'
 ]
 =
 =
-"
+'
 script
-"
+'
     
 assert
 tests
@@ -238,15 +237,15 @@ tests
 4
 ]
 [
-"
+'
 type
-"
+'
 ]
 =
 =
-"
+'
 print
-"
+'
 def
 test_parse_failure_type_interactions
 (
@@ -272,7 +271,7 @@ tests
 =
 parse
 (
-"
+'
 failure
 -
 type
@@ -280,7 +279,7 @@ type
 interactions
 .
 list
-"
+'
 )
     
 for
@@ -290,24 +289,24 @@ tests
 :
         
 if
-"
+'
 skip
-"
+'
 in
 t
 [
-"
+'
 name
-"
+'
 ]
 :
             
 assert
 t
 [
-"
+'
 skip
-"
+'
 ]
         
 else
@@ -317,30 +316,30 @@ assert
 not
 t
 [
-"
+'
 skip
-"
+'
 ]
         
 if
-"
+'
 fails
-"
+'
 in
 t
 [
-"
+'
 name
-"
+'
 ]
 :
             
 assert
 t
 [
-"
+'
 expected
-"
+'
 ]
 =
 =
@@ -352,9 +351,9 @@ else
 assert
 t
 [
-"
+'
 expected
-"
+'
 ]
 =
 =
@@ -377,13 +376,13 @@ SystemExit
         
 parse
 (
-"
+'
 invalid
 -
 defaults
 .
 list
-"
+'
 )
     
 with
@@ -397,7 +396,7 @@ SystemExit
         
 parse
 (
-"
+'
 invalid
 -
 defaults
@@ -405,7 +404,7 @@ defaults
 include
 .
 list
-"
+'
 )
     
 with
@@ -419,21 +418,21 @@ SystemExit
         
 parse
 (
-"
+'
 invalid
 -
 include
 .
 list
-"
+'
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

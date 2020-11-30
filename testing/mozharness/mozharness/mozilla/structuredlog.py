@@ -107,9 +107,9 @@ run
 "
         
 if
-"
+'
 strict
-"
+'
 in
 kwargs
 :
@@ -122,9 +122,9 @@ kwargs
 .
 pop
 (
-"
+'
 strict
-"
+'
 )
         
 else
@@ -144,9 +144,9 @@ kwargs
 .
 pop
 (
-"
+'
 suite_category
-"
+'
 None
 )
         
@@ -254,14 +254,14 @@ harness_retry_re
 =
 TinderBoxPrintRe
 [
-"
+'
 harness_error
-"
+'
 ]
 [
-"
+'
 retry_regex
-"
+'
 ]
         
 self
@@ -291,7 +291,6 @@ self
 .
 fatal
 (
-                
 "
 A
 script
@@ -302,7 +301,7 @@ logging
 must
 inherit
 "
-                
+                       
 "
 from
 the
@@ -315,7 +314,6 @@ is
 available
 .
 "
-            
 )
         
 return
@@ -430,32 +428,29 @@ line
             
 if
 (
-                
 isinstance
 (
 candidate_data
 dict
 )
-                
 and
-"
+               
+'
 action
-"
+'
 in
 candidate_data
-                
 and
 candidate_data
 [
-"
+'
 action
-"
+'
 ]
 in
 self
 .
 log_actions
-            
 )
 :
                 
@@ -492,9 +487,7 @@ self
 .
 critical
 (
-                        
 (
-                            
 "
 Test
 harness
@@ -508,19 +501,16 @@ log
 message
 :
 "
-                            
+                                   
 "
 \
 n
 %
 s
 "
-                        
 )
-                        
 %
 line
-                    
 )
                 
 else
@@ -587,12 +577,12 @@ if
 action
 in
 (
-"
+'
 log
-"
-"
+'
+'
 process_output
-"
+'
 )
 :
             
@@ -600,18 +590,18 @@ if
 action
 =
 =
-"
+'
 log
-"
+'
 :
                 
 message
 =
 data
 [
-"
+'
 message
-"
+'
 ]
                 
 level
@@ -621,9 +611,9 @@ getattr
 log
 data
 [
-"
+'
 level
-"
+'
 ]
 .
 upper
@@ -638,9 +628,9 @@ message
 =
 data
 [
-"
+'
 data
-"
+'
 ]
             
 error_level
@@ -938,35 +928,31 @@ RunSummary
 =
 namedtuple
 (
-            
 "
 RunSummary
 "
-            
+                                
 (
-                
 "
 unexpected_statuses
 "
-                
+                                 
 "
 expected_statuses
 "
-                
+                                 
 "
 known_intermittent_statuses
 "
-                
+                                 
 "
 log_level_counts
 "
-                
+                                 
 "
 action_counts
 "
-            
 )
-        
 )
         
 if
@@ -981,32 +967,30 @@ previous_summary
 =
 RunSummary
 (
-                
 defaultdict
 (
 int
 )
-                
+                                          
 defaultdict
 (
 int
 )
-                
+                                          
 defaultdict
 (
 int
 )
-                
+                                          
 defaultdict
 (
 int
 )
-                
+                                          
 defaultdict
 (
 int
 )
-            
 )
         
 if
@@ -1033,9 +1017,9 @@ joined_summary
 summary
             
 if
-"
+'
 ERROR
-"
+'
 in
 summary
 .
@@ -1046,9 +1030,9 @@ summary
 .
 log_level_counts
 [
-"
+'
 ERROR
-"
+'
 ]
 -
 =
@@ -1062,68 +1046,62 @@ summary
 =
 RunSummary
 (
-                
 self
 .
 _subtract_tuples
 (
-                    
 previous_summary
 .
 unexpected_statuses
+                                                       
 summary
 .
 unexpected_statuses
-                
 )
-                
+                                 
 self
 .
 _subtract_tuples
 (
-                    
 previous_summary
 .
 expected_statuses
+                                                       
 summary
 .
 expected_statuses
-                
 )
-                
+                                 
 self
 .
 _subtract_tuples
 (
-                    
+                                    
 previous_summary
 .
 known_intermittent_statuses
-                    
+                                    
 summary
 .
 known_intermittent_statuses
-                
 )
-                
+                                 
 self
 .
 _subtract_tuples
 (
-                    
 previous_summary
 .
 log_level_counts
+                                                       
 summary
 .
 log_level_counts
-                
 )
-                
+                                 
 summary
 .
 action_counts
-            
 )
             
 self
@@ -1172,64 +1150,56 @@ False
 )
             
 (
-                
 summary
 .
 action_counts
 .
 get
 (
-"
+'
 crash
-"
+'
 0
 )
-                
+             
 summary
 .
 expected_statuses
 .
 get
 (
-"
+'
 CRASH
-"
+'
 0
 )
-                
 "
 crashes
 "
-                
 self
 .
 allow_crashes
-            
 )
             
 (
-                
 summary
 .
 action_counts
 .
 get
 (
-"
+'
 valgrind_error
-"
+'
 0
 )
-                
 0
-                
+             
 "
 valgrind
 errors
 "
-                
 False
-            
 )
         
 ]
@@ -1336,11 +1306,11 @@ required_actions
 =
 {
             
-"
+'
 suite_end
-"
+'
 :
-"
+'
 No
 suite
 end
@@ -1351,18 +1321,18 @@ by
 this
 harness
 .
-"
+'
             
-"
+'
 test_end
-"
+'
 :
-"
+'
 No
 checks
 run
 .
-"
+'
         
 }
         
@@ -1405,12 +1375,12 @@ error_pair
 failure_log_levels
 =
 [
-"
+'
 ERROR
-"
-"
+'
+'
 CRITICAL
-"
+'
 ]
         
 for
@@ -1511,15 +1481,14 @@ self
 .
 worst_level
 (
-            
 tbpl_level
 self
 .
 tbpl_status
+                                            
 levels
 =
 TBPL_WORST_LEVEL_TUPLE
-        
 )
     
 def
@@ -1587,9 +1556,9 @@ expected_statuses
 .
 get
 (
-"
+'
 FAIL
-"
+'
 0
 )
         
@@ -1623,9 +1592,9 @@ else
             
 fail_text
 =
-"
+'
 0
-"
+'
         
 text_summary
 =
@@ -1736,9 +1705,9 @@ expected_statuses
 .
 get
 (
-"
+'
 FAIL
-"
+'
 0
 )
         
@@ -1747,9 +1716,9 @@ crashed
 0
         
 if
-"
+'
 crash
-"
+'
 in
 summary
 .
@@ -1762,24 +1731,26 @@ summary
 .
 action_counts
 [
-"
+'
 crash
-"
+'
 ]
         
 text_summary
 =
 tbox_print_summary
 (
-            
 expected_count
+                                          
 unexpected_count
+                                          
 expected_failures
+                                          
 crashed
 >
 0
+                                          
 False
-        
 )
         
 self

@@ -68,9 +68,9 @@ InvalidString
             
 value_of
 (
-"
+'
 wtfs
-"
+'
 )
     
 def
@@ -91,9 +91,9 @@ InvalidString
             
 value_of
 (
-"
+'
 1
-"
+'
 )
     
 def
@@ -114,9 +114,9 @@ UnknownTimeMeasurement
             
 value_of
 (
-"
+'
 1z
-"
+'
 )
     
 def
@@ -132,9 +132,9 @@ assertEqual
 (
 value_of
 (
-"
+'
 1s
-"
+'
 )
 .
 total_seconds
@@ -149,10 +149,10 @@ assertEqual
 (
 value_of
 (
-"
+'
 1
 second
-"
+'
 )
 .
 total_seconds
@@ -167,9 +167,9 @@ assertEqual
 (
 value_of
 (
-"
+'
 1min
-"
+'
 )
 .
 total_seconds
@@ -184,9 +184,9 @@ assertEqual
 (
 value_of
 (
-"
+'
 1h
-"
+'
 )
 .
 total_seconds
@@ -201,9 +201,9 @@ assertEqual
 (
 value_of
 (
-"
+'
 1d
-"
+'
 )
 .
 total_seconds
@@ -218,9 +218,9 @@ assertEqual
 (
 value_of
 (
-"
+'
 1mo
-"
+'
 )
 .
 total_seconds
@@ -235,10 +235,10 @@ assertEqual
 (
 value_of
 (
-"
+'
 1
 month
-"
+'
 )
 .
 total_seconds
@@ -253,9 +253,9 @@ assertEqual
 (
 value_of
 (
-"
+'
 1y
-"
+'
 )
 .
 total_seconds
@@ -275,9 +275,9 @@ UnknownTimeMeasurement
             
 value_of
 (
-"
+'
 1m
-"
+'
 )
 .
 total_seconds
@@ -293,10 +293,10 @@ self
         
 json_time_from_now
 (
-"
+'
 1
 years
-"
+'
 )
     
 def
@@ -321,13 +321,14 @@ assertEqual
 (
 json_time_from_now
 (
-"
+'
 1
 years
-"
+'
 now
 )
-"
+                         
+'
 2015
 -
 01
@@ -337,7 +338,7 @@ now
 00
 :
 00Z
-"
+'
 )
         
 self
@@ -346,13 +347,14 @@ assertEqual
 (
 json_time_from_now
 (
-"
+'
 6
 days
-"
+'
 now
 )
-"
+                         
+'
 2014
 -
 01
@@ -362,15 +364,15 @@ now
 00
 :
 00Z
-"
+'
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

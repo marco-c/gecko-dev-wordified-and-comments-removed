@@ -57,7 +57,6 @@ marionette
 .
 execute_script
 (
-            
 "
 "
 "
@@ -85,17 +84,14 @@ availHeight
 "
 "
 "
-            
 sandbox
 =
 None
-        
 )
         
 start_size
 =
 {
-            
 "
 height
 "
@@ -108,7 +104,6 @@ original_rect
 height
 "
 ]
-            
 "
 width
 "
@@ -121,12 +116,9 @@ original_rect
 width
 "
 ]
-        
 }
         
 if
-(
-            
 start_size
 [
 "
@@ -143,7 +135,6 @@ max
 width
 "
 ]
-            
 and
 start_size
 [
@@ -161,8 +152,6 @@ max
 height
 "
 ]
-        
-)
 :
             
 start_size
@@ -191,7 +180,6 @@ marionette
 .
 set_window_rect
 (
-            
 height
 =
 start_size
@@ -208,7 +196,6 @@ start_size
 width
 "
 ]
-        
 )
     
 def
@@ -286,7 +273,6 @@ marionette
 .
 execute_script
 (
-            
 "
 return
 document
@@ -297,7 +283,6 @@ fullscreenElement
 sandbox
 =
 None
-        
 )
         
 if
@@ -439,7 +424,6 @@ self
 invalid_rects
 =
 (
-            
 [
 "
 a
@@ -454,7 +438,7 @@ h
 w
 "
 ]
-            
+                         
 [
 1
 .
@@ -469,14 +453,14 @@ w
 .
 6
 ]
-            
+                         
 [
 True
 False
 True
 False
 ]
-            
+                         
 [
 [
 ]
@@ -487,7 +471,7 @@ False
 [
 ]
 ]
-            
+                         
 [
 {
 }
@@ -498,7 +482,6 @@ False
 {
 }
 ]
-        
 )
         
 for
@@ -589,6 +572,7 @@ None
 width
 =
 None
+                                            
 x
 =
 None
@@ -649,7 +633,6 @@ marionette
 .
 set_window_rect
 (
-            
 x
 =
 wanted_position
@@ -666,7 +649,6 @@ wanted_position
 y
 "
 ]
-        
 )
         
 expected_position
@@ -767,7 +749,6 @@ window_rect
 wanted_size
 =
 {
-            
 "
 height
 "
@@ -780,7 +761,6 @@ height
 ]
 -
 50
-            
 "
 width
 "
@@ -793,7 +773,6 @@ width
 ]
 -
 50
-        
 }
         
 new_size
@@ -804,7 +783,6 @@ marionette
 .
 set_window_rect
 (
-            
 height
 =
 wanted_size
@@ -821,7 +799,6 @@ wanted_size
 width
 "
 ]
-        
 )
         
 expected_size
@@ -836,21 +813,19 @@ self
 .
 assertEqual
 (
-            
 new_size
 [
 "
 width
 "
 ]
-            
 wanted_size
 [
 "
 width
 "
 ]
-            
+                         
 "
 New
 width
@@ -868,7 +843,6 @@ be
 .
 format
 (
-                
 new_size
 [
 "
@@ -881,48 +855,13 @@ wanted_size
 width
 "
 ]
-            
 )
-        
 )
         
 self
 .
 assertEqual
 (
-            
-new_size
-[
-"
-height
-"
-]
-            
-wanted_size
-[
-"
-height
-"
-]
-            
-"
-New
-height
-is
-{
-0
-}
-but
-should
-be
-{
-1
-}
-"
-.
-format
-(
-                
 new_size
 [
 "
@@ -935,84 +874,7 @@ wanted_size
 height
 "
 ]
-            
-)
-        
-)
-        
-self
-.
-assertEqual
-(
-            
-new_size
-[
-"
-width
-"
-]
-            
-expected_size
-[
-"
-width
-"
-]
-            
-"
-New
-width
-is
-{
-0
-}
-but
-should
-be
-{
-1
-}
-"
-.
-format
-(
-                
-new_size
-[
-"
-width
-"
-]
-expected_size
-[
-"
-width
-"
-]
-            
-)
-        
-)
-        
-self
-.
-assertEqual
-(
-            
-new_size
-[
-"
-height
-"
-]
-            
-expected_size
-[
-"
-height
-"
-]
-            
+                         
 "
 New
 height
@@ -1030,7 +892,74 @@ be
 .
 format
 (
-                
+new_size
+[
+"
+height
+"
+]
+wanted_size
+[
+"
+height
+"
+]
+)
+)
+        
+self
+.
+assertEqual
+(
+new_size
+[
+"
+width
+"
+]
+expected_size
+[
+"
+width
+"
+]
+                         
+"
+New
+width
+is
+{
+0
+}
+but
+should
+be
+{
+1
+}
+"
+.
+format
+(
+new_size
+[
+"
+width
+"
+]
+expected_size
+[
+"
+width
+"
+]
+)
+)
+        
+self
+.
+assertEqual
+(
 new_size
 [
 "
@@ -1043,9 +972,37 @@ expected_size
 height
 "
 ]
-            
+                         
+"
+New
+height
+is
+{
+0
+}
+but
+should
+be
+{
+1
+}
+"
+.
+format
+(
+new_size
+[
+"
+height
+"
+]
+expected_size
+[
+"
+height
+"
+]
 )
-        
 )
     
 def
@@ -1066,7 +1023,6 @@ window_rect
 wanted_rect
 =
 {
-            
 "
 x
 "
@@ -1079,7 +1035,6 @@ x
 ]
 +
 10
-            
 "
 y
 "
@@ -1092,7 +1047,7 @@ y
 ]
 +
 10
-            
+                       
 "
 width
 "
@@ -1105,7 +1060,6 @@ width
 ]
 -
 50
-            
 "
 height
 "
@@ -1118,7 +1072,6 @@ height
 ]
 -
 50
-        
 }
         
 new_rect
@@ -1129,7 +1082,6 @@ marionette
 .
 set_window_rect
 (
-            
 x
 =
 wanted_rect
@@ -1138,7 +1090,6 @@ wanted_rect
 x
 "
 ]
-            
 y
 =
 wanted_rect
@@ -1147,7 +1098,7 @@ wanted_rect
 y
 "
 ]
-            
+                                                   
 width
 =
 wanted_rect
@@ -1156,7 +1107,6 @@ wanted_rect
 width
 "
 ]
-            
 height
 =
 wanted_rect
@@ -1165,7 +1115,6 @@ wanted_rect
 height
 "
 ]
-        
 )
         
 expected_rect
@@ -1216,21 +1165,19 @@ self
 .
 assertEqual
 (
-            
 new_rect
 [
 "
 width
 "
 ]
-            
 wanted_rect
 [
 "
 width
 "
 ]
-            
+                         
 "
 New
 width
@@ -1248,7 +1195,6 @@ be
 .
 format
 (
-                
 new_rect
 [
 "
@@ -1261,30 +1207,26 @@ wanted_rect
 width
 "
 ]
-            
 )
-        
 )
         
 self
 .
 assertEqual
 (
-            
 new_rect
 [
 "
 height
 "
 ]
-            
 wanted_rect
 [
 "
 height
 "
 ]
-            
+                         
 "
 New
 height
@@ -1302,7 +1244,6 @@ be
 .
 format
 (
-                
 new_rect
 [
 "
@@ -1315,9 +1256,7 @@ wanted_rect
 height
 "
 ]
-            
 )
-        
 )
         
 self
@@ -1360,21 +1299,19 @@ self
 .
 assertEqual
 (
-            
 new_rect
 [
 "
 width
 "
 ]
-            
 expected_rect
 [
 "
 width
 "
 ]
-            
+                         
 "
 New
 width
@@ -1392,7 +1329,6 @@ be
 .
 format
 (
-                
 new_rect
 [
 "
@@ -1405,30 +1341,26 @@ expected_rect
 width
 "
 ]
-            
 )
-        
 )
         
 self
 .
 assertEqual
 (
-            
 new_rect
 [
 "
 height
 "
 ]
-            
 expected_rect
 [
 "
 height
 "
 ]
-            
+                         
 "
 New
 height
@@ -1446,7 +1378,6 @@ be
 .
 format
 (
-                
 new_rect
 [
 "
@@ -1459,9 +1390,7 @@ expected_rect
 height
 "
 ]
-            
 )
-        
 )
     
 def
@@ -1487,7 +1416,6 @@ marionette
 .
 set_window_rect
 (
-            
 x
 =
 old_position
@@ -1504,7 +1432,6 @@ old_position
 y
 "
 ]
-        
 )
         
 self
@@ -1566,7 +1493,6 @@ marionette
 .
 set_window_rect
 (
-            
 height
 =
 old_size
@@ -1583,7 +1509,6 @@ old_size
 width
 "
 ]
-        
 )
         
 self
@@ -1645,7 +1570,6 @@ marionette
 .
 set_window_rect
 (
-            
 x
 =
 old_position_and_size
@@ -1654,7 +1578,6 @@ old_position_and_size
 x
 "
 ]
-            
 y
 =
 old_position_and_size
@@ -1663,7 +1586,7 @@ old_position_and_size
 y
 "
 ]
-            
+                                                                
 height
 =
 old_position_and_size
@@ -1672,7 +1595,6 @@ old_position_and_size
 height
 "
 ]
-            
 width
 =
 old_position_and_size
@@ -1681,7 +1603,6 @@ old_position_and_size
 width
 "
 ]
-        
 )
         
 self
@@ -1742,7 +1663,6 @@ self
 .
 assertEqual
 (
-            
 new_position_and_size
 [
 "
@@ -1755,7 +1675,6 @@ old_position_and_size
 height
 "
 ]
-        
 )
     
 def
@@ -1785,6 +1704,7 @@ position
 .
 format
 (
+            
 old_position
 [
 "
@@ -1820,7 +1740,6 @@ y
         
 print
 (
-            
 "
 Position
 after
@@ -1835,10 +1754,10 @@ coordinates
 {
 }
 "
+              
 .
 format
 (
-                
 new_position
 [
 "
@@ -1851,9 +1770,7 @@ new_position
 y
 "
 ]
-            
 )
-        
 )
         
 os
@@ -2060,7 +1977,6 @@ height
 ]
 *
 2
-        
 )
         
 actual_size
@@ -2162,7 +2078,6 @@ marionette
 .
 set_window_rect
 (
-            
 width
 =
 self
@@ -2173,6 +2088,7 @@ max
 width
 "
 ]
+                                                        
 height
 =
 self
@@ -2183,7 +2099,6 @@ max
 height
 "
 ]
-        
 )
         
 result_size
@@ -2293,7 +2208,6 @@ marionette
 .
 set_window_rect
 (
-            
 width
 =
 self
@@ -2306,6 +2220,7 @@ width
 ]
 -
 100
+                                                        
 height
 =
 self
@@ -2318,7 +2233,6 @@ height
 ]
 -
 100
-        
 )
         
 result_size
@@ -2333,14 +2247,12 @@ self
 .
 assertTrue
 (
-            
 self
 .
 marionette
 .
 execute_script
 (
-                
 "
 return
 window
@@ -2350,12 +2262,11 @@ fullscreenElement
 =
 null
 "
+                                                        
 sandbox
 =
 None
-            
 )
-        
 )
         
 self

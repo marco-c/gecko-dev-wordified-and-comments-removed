@@ -53,10 +53,10 @@ imp
 .
 load_source
 (
-        
 "
 localpaths
 "
+                    
 os
 .
 path
@@ -76,7 +76,6 @@ localpaths
 py
 "
 )
-    
 )
     
 sys
@@ -122,7 +121,6 @@ p
 .
 add_argument
 (
-        
 "
 -
 -
@@ -133,6 +131,7 @@ action
 "
 store_true
 "
+                   
 help
 =
 "
@@ -141,7 +140,6 @@ manifest
 from
 scratch
 "
-    
 )
     
 download_group
@@ -162,19 +160,16 @@ add_argument
 -
 download
 "
-        
 dest
 =
 "
 download
 "
-        
 action
 =
 "
 store_true
 "
-        
 default
 =
 None
@@ -192,7 +187,6 @@ manifest
 is
 recent
 "
-    
 )
     
 download_group
@@ -207,13 +201,11 @@ no
 -
 download
 "
-        
 dest
 =
 "
 download
 "
-        
 action
 =
 "
@@ -232,7 +224,6 @@ download
 the
 manifest
 "
-    
 )
     
 p
@@ -247,13 +238,11 @@ no
 -
 update
 "
-        
 action
 =
 "
 store_false
 "
-        
 dest
 =
 "
@@ -263,7 +252,6 @@ update
 default
 =
 True
-        
 help
 =
 "
@@ -276,7 +264,6 @@ don
 t
 update
 "
-    
 )
     
 p
@@ -289,19 +276,16 @@ add_argument
 -
 config
 "
-        
 action
 =
 "
 store
 "
-        
 dest
 =
 "
 config_path
 "
-        
 default
 =
 None
@@ -315,7 +299,6 @@ wptrunner
 config
 file
 "
-    
 )
     
 p
@@ -330,13 +313,11 @@ rewrite
 -
 config
 "
-        
 action
 =
 "
 store_true
 "
-        
 default
 =
 False
@@ -352,7 +333,6 @@ to
 be
 regenerated
 "
-    
 )
     
 p
@@ -367,13 +347,11 @@ cache
 -
 root
 "
-        
 action
 =
 "
 store
 "
-        
 default
 =
 os
@@ -404,7 +382,6 @@ the
 metadata
 cache
 "
-    
 )
     
 commandline
@@ -535,13 +512,12 @@ config_path
 =
 generate_config
 (
-            
 logger
-            
+                                      
 src_root
-            
+                                      
 src_wpt_dir
-            
+                                      
 os
 .
 path
@@ -558,14 +534,13 @@ web
 platform
 "
 )
-            
+                                      
 kwargs
 [
 "
 rewrite_config
 "
 ]
-        
 )
     
 else
@@ -633,6 +608,7 @@ wptcommandline
 .
 get_test_paths
 (
+        
 wptcommandline
 .
 config
@@ -676,19 +652,18 @@ path
 .
 join
 (
-                
 paths
 [
 "
 metadata_path
 "
 ]
+                                                  
 "
 MANIFEST
 .
 json
 "
-            
 )
     
 ensure_manifest_directories
@@ -741,7 +716,6 @@ path
 .
 join
 (
-            
 local_config
 .
 get
@@ -751,12 +725,12 @@ section
 metadata
 "
 )
+                                         
 "
 MANIFEST
 .
 json
 "
-        
 )
         
 test_paths
@@ -810,14 +784,15 @@ manifestdownload
 .
 download_from_taskcluster
 (
-            
 logger
+                                                   
 src_root
+                                                   
 test_paths
+                                                   
 force
 =
 force_download
-        
 )
     
 else
@@ -854,17 +829,14 @@ manifests
 =
 load_and_update
 (
-        
 logger
-        
 src_wpt_dir
-        
 test_paths
-        
+                                
 update
 =
 update
-        
+                                
 rebuild
 =
 kwargs
@@ -873,7 +845,7 @@ kwargs
 rebuild
 "
 ]
-        
+                                
 cache_root
 =
 kwargs
@@ -882,7 +854,6 @@ kwargs
 cache_root
 "
 ]
-    
 )
     
 return
@@ -1127,13 +1098,13 @@ path
 join
 (
 dest_path
-"
+'
 wptrunner
 .
 local
 .
 ini
-"
+'
 )
     
 if
@@ -1235,11 +1206,11 @@ parser
 .
 set
 (
-            
 section
 "
 manifest
 "
+                   
 os
 .
 path
@@ -1248,13 +1219,12 @@ join
 (
 dest_path
 meta_rel_path
-"
+'
 MANIFEST
 .
 json
-"
+'
 )
-        
 )
         
 parser
@@ -1299,21 +1269,19 @@ parser
 .
 set
 (
-        
-"
+'
 paths
-"
-        
-"
+'
+'
 prefs
-"
-        
+'
 os
 .
 path
 .
 abspath
 (
+        
 os
 .
 path
@@ -1334,16 +1302,15 @@ prefs
 )
 )
 )
-    
 )
     
 with
 open
 (
 dest_config_path
-"
+'
 wt
-"
+'
 )
 as
 config_file
@@ -1361,25 +1328,19 @@ dest_config_path
 def
 load_and_update
 (
-    
 logger
-    
 wpt_dir
-    
 test_paths
-    
 rebuild
 =
 False
-    
 config_dir
 =
 None
-    
 cache_root
 =
 None
-    
+                    
 update
 =
 True
@@ -1444,9 +1405,10 @@ path
 .
 join
 (
-            
 cache_root
+                                       
 wptdir_hash
+                                       
 os
 .
 path
@@ -1460,7 +1422,6 @@ manifest_rel_path
 "
 ]
 )
-        
 )
         
 m
@@ -1471,34 +1432,32 @@ manifest
 .
 load_and_update
 (
-            
 paths
 [
 "
 tests_path
 "
 ]
-            
+                                              
 manifest_path
-            
+                                              
 url_base
-            
+                                              
 update
 =
 update
-            
+                                              
 rebuild
 =
 rebuild
-            
+                                              
 working_copy
 =
 True
-            
+                                              
 cache_root
 =
 this_cache_root
-        
 )
         
 path_data
@@ -1540,20 +1499,23 @@ logger
 .
 lint_error
 (
-        
 path
 =
 manifest_path
+                      
 message
 =
 msg
+                      
 lineno
 =
 0
+                      
 source
 =
 "
 "
+                      
 linter
 =
 "
@@ -1561,5 +1523,4 @@ wpt
 -
 manifest
 "
-    
 )

@@ -2,11 +2,11 @@ config
 =
 {
     
-"
+'
 stage_platform
-"
+'
 :
-"
+'
 android
 -
 api
@@ -14,29 +14,29 @@ api
 16
 -
 debug
-"
+'
     
-"
+'
 env
-"
+'
 :
 {
         
-"
+'
 SCCACHE_DISABLE
-"
+'
 :
-"
+'
 1
-"
+'
     
 }
     
-"
+'
 src_mozconfig
-"
+'
 :
-"
+'
 mobile
 /
 android
@@ -54,11 +54,11 @@ api
 debug
 -
 searchfox
-"
+'
     
-"
+'
 debug_build
-"
+'
 :
 True
 }

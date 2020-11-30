@@ -185,6 +185,7 @@ environment
 s
 "
 %
+                       
 os
 .
 environ
@@ -239,6 +240,7 @@ self
 .
 debug
 (
+                
 "
 Using
 locales
@@ -251,6 +253,7 @@ CLI
 s
 "
 %
+                
 "
 "
 .
@@ -343,9 +346,9 @@ if
 not
 locales
 and
-"
+'
 locales_file
-"
+'
 in
 c
 :
@@ -368,15 +371,15 @@ join
 (
 abs_dirs
 [
-"
+'
 abs_src_dir
-"
+'
 ]
 c
 [
-"
+'
 locales_file
-"
+'
 ]
 )
             
@@ -524,6 +527,7 @@ Stub
 action
 method
 .
+        
 "
 "
 "
@@ -601,9 +605,9 @@ locales_file
 .
 endswith
 (
-"
+'
 json
-"
+'
 )
 :
             
@@ -649,9 +653,9 @@ locales_json
 locale
 ]
 [
-"
+'
 platforms
-"
+'
 ]
 :
                         
@@ -669,9 +673,9 @@ locales_json
 locale
 ]
 [
-"
+'
 revision
-"
+'
 ]
                 
 else
@@ -684,9 +688,9 @@ l10n_revisions
 locale
 ]
 =
-"
+'
 default
-"
+'
                 
 locales
 .
@@ -715,6 +719,7 @@ self
 .
 info
 (
+            
 "
 self
 .
@@ -724,10 +729,12 @@ l10n_revisions
 s
 "
 %
+            
 pprint
 .
 pformat
 (
+                
 self
 .
 l10n_revisions
@@ -794,9 +801,9 @@ dirs
         
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
 =
 os
@@ -807,15 +814,16 @@ join
 (
 c
 [
-"
+'
 base_work_dir
-"
+'
 ]
+                                            
 c
 [
-"
+'
 work_dir
-"
+'
 ]
 )
         
@@ -859,9 +867,9 @@ central
         
 dirs
 [
-"
+'
 abs_locales_src_dir
-"
+'
 ]
 =
 os
@@ -873,25 +881,25 @@ join
             
 abs_dirs
 [
-"
+'
 abs_src_dir
-"
+'
 ]
             
 c
 [
-"
+'
 locales_dir
-"
+'
 ]
         
 )
         
 dirs
 [
-"
+'
 abs_obj_dir
-"
+'
 ]
 =
 os
@@ -902,23 +910,24 @@ join
 (
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
+                                           
 c
 [
-"
+'
 objdir
-"
+'
 ]
 )
         
 dirs
 [
-"
+'
 abs_locales_dir
-"
+'
 ]
 =
 os
@@ -929,15 +938,16 @@ join
 (
 dirs
 [
-"
+'
 abs_obj_dir
-"
+'
 ]
+                                               
 c
 [
-"
+'
 locales_dir
-"
+'
 ]
 )
         
@@ -994,9 +1004,9 @@ parent_dir
 None
 vcs
 =
-"
+'
 hg
-"
+'
 )
 :
         
@@ -1015,9 +1025,9 @@ hg_l10n_base
 =
 c
 [
-"
+'
 hg_l10n_base
-"
+'
 ]
         
 if
@@ -1034,9 +1044,9 @@ query_abs_dirs
 (
 )
 [
-"
+'
 abs_l10n_dir
-"
+'
 ]
         
 self
@@ -1079,9 +1089,9 @@ c
 .
 get
 (
-"
+'
 tag_override
-"
+'
 )
 )
         
@@ -1110,12 +1120,12 @@ c
 .
 get
 (
-"
+'
 hg_l10n_tag
-"
-"
+'
+'
 default
-"
+'
 )
             
 if
@@ -1142,11 +1152,11 @@ locale_repos
 .
 append
 (
-                
 {
-"
+                
+'
 repo
-"
+'
 :
 "
 %
@@ -1160,18 +1170,20 @@ s
 hg_l10n_base
 locale
 )
-"
+                
+'
 branch
-"
+'
 :
 tag
-"
+                
+'
 vcs
-"
+'
 :
 vcs
-}
             
+}
 )
         
 revs
@@ -1180,26 +1192,24 @@ self
 .
 vcs_checkout_repos
 (
-            
 repo_list
 =
 locale_repos
-            
+                                       
 parent_dir
 =
 parent_dir
-            
+                                       
 tag_override
 =
 c
 .
 get
 (
-"
+'
 tag_override
-"
+'
 )
-        
 )
         
 self
@@ -1211,9 +1221,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 pass

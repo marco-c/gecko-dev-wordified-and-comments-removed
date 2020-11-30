@@ -36,17 +36,17 @@ __file__
 )
 )
     
-"
+'
 external_tools
-"
+'
 )
 config
 =
 {
     
-"
+'
 tooltool_manifest_file
-"
+'
 :
 "
 linux
@@ -54,9 +54,9 @@ linux
 manifest
 "
     
-"
+'
 tooltool_cache
-"
+'
 :
 "
 /
@@ -65,17 +65,17 @@ builds
 tooltool_cache
 "
     
-"
+'
 exes
-"
+'
 :
 {
         
-"
+'
 gittool
 .
 py
-"
+'
 :
 [
 os
@@ -85,19 +85,19 @@ path
 join
 (
 external_tools_path
-"
+'
 gittool
 .
 py
-"
+'
 )
 ]
         
-"
+'
 python2
 .
 7
-"
+'
 :
 "
 python2
@@ -107,49 +107,48 @@ python2
     
 }
     
-"
+'
 dump_syms_binary
-"
+'
 :
-"
+'
 dump_syms
-"
+'
     
-"
+'
 arch
-"
+'
 :
-"
+'
 x64
-"
+'
     
-"
+'
 avoid_avx2
-"
+'
 :
 True
     
-"
+'
 operating_system
-"
+'
 :
-"
+'
 linux
-"
+'
     
-"
+'
 partial_env
-"
+'
 :
 {
         
-"
+'
 PATH
-"
+'
 :
 (
-            
-"
+'
 {
 MOZ_FETCHES_DIR
 }
@@ -158,9 +157,9 @@ clang
 /
 bin
 :
-"
-            
-"
+'
+                 
+'
 {
 MOZ_FETCHES_DIR
 }
@@ -169,9 +168,9 @@ binutils
 /
 bin
 :
-"
-            
-"
+'
+                 
+'
 {
 MOZ_FETCHES_DIR
 }
@@ -183,24 +182,22 @@ nasm
 PATH
 )
 s
-"
+'
+                 
 .
 format
 (
-                
 MOZ_FETCHES_DIR
 =
 os
 .
 environ
 [
-"
+'
 MOZ_FETCHES_DIR
-"
+'
 ]
-            
 )
-        
 )
     
 }

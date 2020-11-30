@@ -25,7 +25,7 @@ requirements
 to
 use
 mozbase
-    
+       
 from
 test
 package
@@ -64,11 +64,11 @@ kwargs
     
 PreScriptAction
 (
-"
+'
 create
 -
 virtualenv
-"
+'
 )
     
 def
@@ -98,14 +98,14 @@ join
             
 dirs
 [
-"
+'
 abs_test_install_dir
-"
+'
 ]
             
-"
+'
 config
-"
+'
             
 self
 .
@@ -113,14 +113,14 @@ config
 .
 get
 (
-"
+'
 mozbase_requirements
-"
-"
+'
+'
 mozbase_requirements
 .
 txt
-"
+'
 )
         
 )

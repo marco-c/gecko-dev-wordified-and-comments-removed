@@ -8,43 +8,43 @@ default_actions
 :
 [
         
-"
+'
 setup
 -
 avds
-"
+'
         
-"
+'
 download
-"
+'
         
-"
+'
 create
 -
 virtualenv
-"
+'
         
-"
+'
 start
 -
 emulator
-"
+'
         
-"
+'
 verify
 -
 device
-"
+'
         
-"
+'
 install
-"
+'
         
-"
+'
 run
 -
 tests
-"
+'
     
 ]
     

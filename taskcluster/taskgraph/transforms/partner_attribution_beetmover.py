@@ -481,9 +481,7 @@ private
 this_config
 =
 [
-                
 p
-                
 for
 p
 in
@@ -493,9 +491,9 @@ partner_config
 configs
 "
 ]
-                
 if
 (
+                    
 p
 [
 "

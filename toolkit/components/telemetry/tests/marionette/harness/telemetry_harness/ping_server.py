@@ -126,12 +126,14 @@ zlib
 .
 decompress
 (
+                    
 request_data
 zlib
 .
 MAX_WBITS
 |
 16
+                
 )
             
 ping_data
@@ -221,8 +223,10 @@ reason
 .
 format
 (
+                    
 log_message
 ping_reason
+                
 )
             
 self

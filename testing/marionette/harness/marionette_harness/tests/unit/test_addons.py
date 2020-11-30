@@ -134,7 +134,6 @@ marionette
 .
 execute_async_script
 (
-                
 "
 "
 "
@@ -212,7 +211,6 @@ ids
 "
 "
 "
-            
 )
         
 return
@@ -244,6 +242,7 @@ chrome
 for
 addon
 in
+(
 self
 .
 all_addon_ids
@@ -251,6 +250,7 @@ all_addon_ids
 self
 .
 preinstalled_addons
+)
 :
                 
 addon_id
@@ -261,7 +261,6 @@ marionette
 .
 execute_async_script
 (
-                    
 "
 "
 "
@@ -343,22 +342,20 @@ id
 "
 "
 "
-                    
 script_args
 =
 (
 addon
 )
-                
 )
                 
 self
 .
 assertEqual
 (
-                    
 addon_id
 addon
+                                 
 msg
 =
 "
@@ -373,7 +370,6 @@ format
 (
 addon
 )
-                
 )
     
 def
@@ -792,11 +788,11 @@ addons
 .
 install
 (
-"
+'
 webextension
 .
 xpi
-"
+'
 )
     
 skipIf

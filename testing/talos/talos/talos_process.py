@@ -197,9 +197,7 @@ LOG
 .
 debug
 (
-                
 (
-                    
 "
 Launcher
 process
@@ -210,7 +208,7 @@ detected
 Terminating
 parent
 "
-                    
+                       
 "
 process
 {
@@ -218,7 +216,6 @@ process
 instead
 .
 "
-                
 )
 .
 format
@@ -229,7 +226,6 @@ kids
 0
 ]
 )
-            
 )
             
 parentProc
@@ -395,8 +391,8 @@ self
 .
 timeout_message
 =
-"
-"
+'
+'
         
 self
 .
@@ -429,9 +425,9 @@ line
 .
 find
 (
-"
+'
 __endTimestamp
-"
+'
 )
 !
 =
@@ -457,11 +453,11 @@ elif
 line
 =
 =
-"
+'
 TART
 :
 TIMEOUT
-"
+'
 :
             
 self
@@ -474,9 +470,9 @@ self
 .
 timeout_message
 =
-"
+'
 TART
-"
+'
             
 self
 .
@@ -491,14 +487,14 @@ line
 .
 startswith
 (
-"
+'
 TEST
 -
 UNEXPECTED
 -
 FAIL
 |
-"
+'
 )
 :
             
@@ -519,30 +515,28 @@ set
 if
 not
 (
-            
 line
 .
 startswith
 (
-"
+'
 JavaScript
 error
 :
-"
+'
 )
-            
 or
+                
 line
 .
 startswith
 (
-"
+'
 JavaScript
 warning
 :
-"
+'
 )
-        
 )
 :
             
@@ -569,31 +563,24 @@ line
 def
 run_browser
 (
-    
 command
-    
 minidump_dir
-    
 timeout
 =
 None
-    
 on_started
 =
 None
-    
+                
 debug
 =
 None
-    
 debugger
 =
 None
-    
 debugger_args
 =
 None
-    
 *
 *
 kwargs
@@ -826,9 +813,9 @@ None
 return
 run_in_debug_mode
 (
-            
 command
 debugger_info
+                                 
 on_started
 =
 on_started
@@ -838,11 +825,10 @@ kwargs
 .
 get
 (
-"
+'
 env
-"
+'
 )
-        
 )
     
 is_launcher
@@ -853,19 +839,19 @@ platform
 .
 startswith
 (
-"
+'
 win
-"
+'
 )
 and
-"
+'
 -
 wait
 -
 for
 -
 browser
-"
+'
 in
 command
     
@@ -924,36 +910,36 @@ pformat
 (
 kwargs
 [
-"
+'
 env
-"
+'
 ]
 )
 )
     
 kwargs
 [
-"
+'
 storeOutput
-"
+'
 ]
 =
 False
     
 kwargs
 [
-"
+'
 processOutputLine
-"
+'
 ]
 =
 reader
     
 kwargs
 [
-"
+'
 onFinish
-"
+'
 ]
 =
 event
@@ -989,8 +975,8 @@ process_start
 proc
 .
 pid
-"
-"
+'
+'
 .
 join
 (
@@ -1182,12 +1168,12 @@ got_timeout
 raise
 TalosError
 (
-"
+'
 TIMEOUT
 :
 %
 s
-"
+'
 %
 reader
 .
@@ -1281,9 +1267,9 @@ __startBeforeLaunchTimestamp
 %
 d__endBeforeLaunchTimestamp
 "
+        
 %
 first_time
-    
 )
     
 reader
@@ -1312,7 +1298,6 @@ time
 *
 1000
 )
-    
 )
     
 if
@@ -1403,13 +1388,11 @@ mozdebug
 .
 get_default_debugger_name
 (
-                
 mozdebug
 .
 DebuggerSearch
 .
 KeepLooking
-            
 )
         
 debuggerInfo
@@ -1439,7 +1422,7 @@ None
 raise
 TalosError
 (
-"
+'
 Could
 not
 find
@@ -1450,7 +1433,7 @@ in
 your
 PATH
 .
-"
+'
 )
     
 return
@@ -1636,9 +1619,7 @@ LOG
 .
 debug
 (
-                
 (
-                    
 "
 Launcher
 process
@@ -1649,7 +1630,7 @@ detected
 Killing
 parent
 "
-                    
+                       
 "
 process
 {
@@ -1657,7 +1638,6 @@ process
 instead
 .
 "
-                
 )
 .
 format
@@ -1668,7 +1648,6 @@ kids
 0
 ]
 )
-            
 )
             
 proc

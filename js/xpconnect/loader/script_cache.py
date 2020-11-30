@@ -14,11 +14,11 @@ sys
 MAGIC
 =
 b
-"
+'
 mozXDRcachev002
 \
 0
-"
+'
 def
 usage
 (
@@ -27,7 +27,6 @@ usage
     
 print
 (
-        
 "
 "
 "
@@ -78,7 +77,6 @@ form
 "
 "
 "
-    
 )
     
 sys
@@ -155,11 +153,11 @@ Uninitialized
 raise
 Exception
 (
-"
+'
 Uninitialized
 process
 type
-"
+'
 )
         
 if
@@ -181,9 +179,9 @@ res
 .
 append
 (
-"
+'
 Parent
-"
+'
 )
         
 if
@@ -205,9 +203,9 @@ res
 .
 append
 (
-"
+'
 Web
-"
+'
 )
         
 if
@@ -229,9 +227,9 @@ res
 .
 append
 (
-"
+'
 Extension
-"
+'
 )
         
 if
@@ -253,15 +251,15 @@ res
 .
 append
 (
-"
+'
 Privileged
-"
+'
 )
         
 return
-"
+'
 |
-"
+'
 .
 join
 (
@@ -360,18 +358,16 @@ self
 )
 :
         
-(
 size
-)
 =
 self
 .
 unpack
 (
-"
+'
 <
 H
-"
+'
 )
         
 res
@@ -393,11 +389,11 @@ size
 .
 decode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
         
 self
@@ -456,9 +452,9 @@ io
 open
 (
 filename
-"
+'
 rb
-"
+'
 )
 as
 f
@@ -486,25 +482,23 @@ MAGIC
 raise
 Exception
 (
-"
+'
 Bad
 magic
 number
-"
+'
 )
         
-(
 hdrSize
-)
 =
 struct
 .
 unpack
 (
-"
+'
 <
 I
-"
+'
 f
 .
 read
@@ -542,13 +536,13 @@ i
             
 print
 (
-"
+'
 {
 }
 :
 {
 }
-"
+'
 .
 format
 (
@@ -563,12 +557,12 @@ unpack_str
             
 print
 (
-"
+'
 Key
 :
 {
 }
-"
+'
 .
 format
 (
@@ -582,7 +576,7 @@ unpack_str
             
 print
 (
-"
+'
 Offset
 :
 {
@@ -590,7 +584,7 @@ Offset
 >
 9
 }
-"
+'
 .
 format
 (
@@ -599,17 +593,17 @@ hdr
 .
 unpack
 (
-"
+'
 <
 I
-"
+'
 )
 )
 )
             
 print
 (
-"
+'
 Size
 :
 {
@@ -617,7 +611,7 @@ Size
 >
 9
 }
-"
+'
 .
 format
 (
@@ -626,22 +620,22 @@ hdr
 .
 unpack
 (
-"
+'
 <
 I
-"
+'
 )
 )
 )
             
 print
 (
-"
+'
 Processes
 :
 {
 }
-"
+'
 .
 format
 (
@@ -652,9 +646,9 @@ hdr
 .
 unpack
 (
-"
+'
 B
-"
+'
 )
 )
 )
@@ -662,6 +656,6 @@ B
             
 print
 (
-"
-"
+'
+'
 )

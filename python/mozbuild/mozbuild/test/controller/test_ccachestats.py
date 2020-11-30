@@ -1210,19 +1210,17 @@ GB
 .
 format
 (
-        
 timestamp
 =
 time
 .
 strftime
 (
-"
+'
 %
 c
-"
+'
 )
-    
 )
     
 STAT9
@@ -1391,17 +1389,16 @@ GB
 .
 format
 (
-        
 timestamp
 =
 time
 .
 strftime
 (
-"
+'
 %
 c
-"
+'
 )
 timestamp2
 =
@@ -1409,12 +1406,11 @@ time
 .
 strftime
 (
-"
+'
 %
 c
-"
+'
 )
-    
 )
     
 def
@@ -1846,9 +1842,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

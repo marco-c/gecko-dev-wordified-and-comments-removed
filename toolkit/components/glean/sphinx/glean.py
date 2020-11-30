@@ -128,9 +128,9 @@ join
 manager
 .
 staging_dir
-"
+'
 metrics
-"
+'
 )
 )
     
@@ -139,18 +139,18 @@ translate
 translate
 (
 input_files
-"
+'
 markdown
-"
+'
 out_path
 {
-"
+'
 project_title
-"
+'
 :
-"
+'
 Firefox
-"
+'
 }
 )
     
@@ -165,11 +165,11 @@ path
 join
 (
 out_path
-"
+'
 metrics
 .
 md
-"
+'
 )
 os
 .
@@ -178,10 +178,10 @@ path
 join
 (
 out_path
-"
+'
 index
 .
 md
-"
+'
 )
 )

@@ -27,9 +27,9 @@ os
 name
 =
 =
-"
+'
 nt
-"
+'
 :
     
 try
@@ -112,15 +112,15 @@ __file__
 )
 test_string
 =
-"
-"
-"
+'
+'
+'
 foo
 bar
 baz
-"
-"
-"
+'
+'
+'
 class
 CleanupObj
 (
@@ -161,9 +161,9 @@ self
 config
 =
 {
-"
+'
 log_level
-"
+'
 :
 ERROR
 }
@@ -188,18 +188,18 @@ files
 extend
 (
 (
-"
+'
 test_logs
-"
-"
+'
+'
 test_dir
-"
-"
+'
+'
 tmpfile_stdout
-"
-"
+'
+'
 tmpfile_stderr
-"
+'
 )
 )
     
@@ -239,34 +239,33 @@ script
 .
 BaseScript
 (
-        
 config
 =
 {
-"
+'
 log_type
-"
+'
 :
-"
+'
 multi
-"
-"
+'
+                                  
+'
 log_level
-"
+'
 :
 DEBUG
 }
-        
+                          
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
-    
+'
 )
     
 return
@@ -285,12 +284,12 @@ fh
 =
 open
 (
-"
+'
 tmpfile_stdout
-"
-"
+'
+'
 w
-"
+'
 )
     
 print
@@ -342,10 +341,10 @@ mkdtemp
 (
 suffix
 =
-"
+'
 .
 mozharness
-"
+'
 )
     
 def
@@ -359,9 +358,9 @@ if
 hasattr
 (
 self
-"
+'
 s
-"
+'
 )
 and
 isinstance
@@ -374,9 +373,11 @@ object
 :
             
 del
+(
 self
 .
 s
+)
         
 cleanup
 (
@@ -408,23 +409,23 @@ BaseScript
                 
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
                 
 option_args
 =
 [
-"
+'
 -
 -
 cfg
-"
-"
+'
+'
 test
 /
 test_override
@@ -435,15 +436,15 @@ test
 test_override2
 .
 py
-"
+'
 ]
                 
 config
 =
 {
-"
+'
 dump_config_hierarchy
-"
+'
 :
 True
 }
@@ -458,13 +459,13 @@ local_cfg_files
 =
 parse_config_file
 (
-"
+'
 test_logs
 /
 localconfigfiles
 .
 json
-"
+'
 )
             
 self
@@ -476,7 +477,6 @@ len
 (
 local_cfg_files
 )
-                
 4
                 
 msg
@@ -520,23 +520,23 @@ BaseScript
                 
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
                 
 option_args
 =
 [
-"
+'
 -
 -
 cfg
-"
-"
+'
+'
 test
 /
 test_override
@@ -547,15 +547,15 @@ test
 test_override2
 .
 py
-"
+'
 ]
                 
 config
 =
 {
-"
+'
 dump_config_hierarchy
-"
+'
 :
 True
 }
@@ -570,13 +570,13 @@ local_cfg_files
 =
 parse_config_file
 (
-"
+'
 test_logs
 /
 localconfigfiles
 .
 json
-"
+'
 )
             
 t_override
@@ -585,13 +585,13 @@ local_cfg_files
 .
 get
 (
-"
+'
 test
 /
 test_override
 .
 py
-"
+'
 {
 }
 )
@@ -605,9 +605,9 @@ t_override
 .
 get
 (
-"
+'
 keep_string
-"
+'
 )
 =
 =
@@ -618,7 +618,6 @@ t
 change
 me
 "
-                
 and
 len
 (
@@ -649,7 +648,7 @@ keys
 value
 for
 "
-                
+                    
 "
 test
 /
@@ -663,7 +662,7 @@ only
 be
 one
 "
-                
+                    
 "
 item
 and
@@ -676,7 +675,7 @@ all
 the
 other
 "
-                
+                    
 "
 items
 in
@@ -709,23 +708,23 @@ BaseScript
                 
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
                 
 option_args
 =
 [
-"
+'
 -
 -
 cfg
-"
-"
+'
+'
 test
 /
 test_override
@@ -736,7 +735,7 @@ test
 test_override2
 .
 py
-"
+'
 ]
             
 )
@@ -760,9 +759,9 @@ temp_cfg
 update
 (
 {
-"
+'
 dump_config_hierarchy
-"
+'
 :
 True
 }
@@ -779,23 +778,23 @@ BaseScript
                 
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
                 
 option_args
 =
 [
-"
+'
 -
 -
 cfg
-"
-"
+'
+'
 test
 /
 test_override
@@ -806,15 +805,15 @@ test
 test_override2
 .
 py
-"
+'
 ]
                 
 config
 =
 {
-"
+'
 dump_config_hierarchy
-"
+'
 :
 True
 }
@@ -829,13 +828,13 @@ local_cfg_files
 =
 parse_config_file
 (
-"
+'
 test_logs
 /
 localconfigfiles
 .
 json
-"
+'
 )
             
 target_cfg
@@ -865,7 +864,6 @@ assertEqual
 (
                 
 target_cfg
-                
 temp_cfg
                 
 msg
@@ -885,7 +883,7 @@ file
 dumped
 via
 "
-                
+                    
 "
 -
 -
@@ -923,23 +921,23 @@ BaseScript
                 
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
                 
 option_args
 =
 [
-"
+'
 -
 -
 cfg
-"
-"
+'
+'
 test
 /
 test_override
@@ -950,7 +948,7 @@ test
 test_override2
 .
 py
-"
+'
 ]
             
 )
@@ -974,9 +972,9 @@ temp_cfg
 update
 (
 {
-"
+'
 dump_config
-"
+'
 :
 True
 }
@@ -993,23 +991,23 @@ BaseScript
                 
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
                 
 option_args
 =
 [
-"
+'
 -
 -
 cfg
-"
-"
+'
+'
 test
 /
 test_override
@@ -1020,15 +1018,15 @@ test
 test_override2
 .
 py
-"
+'
 ]
                 
 config
 =
 {
-"
+'
 dump_config
-"
+'
 :
 True
 }
@@ -1043,13 +1041,13 @@ target_cfg
 =
 parse_config_file
 (
-"
+'
 test_logs
 /
 localconfig
 .
 json
-"
+'
 )
             
 self
@@ -1058,7 +1056,6 @@ assertEqual
 (
                 
 target_cfg
-                
 temp_cfg
                 
 msg
@@ -1078,7 +1075,7 @@ file
 dumped
 via
 "
-                
+                    
 "
 -
 -
@@ -1112,13 +1109,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 self
@@ -1127,7 +1124,7 @@ s
 .
 mkdir_p
 (
-"
+'
 test_dir
 /
 foo
@@ -1135,7 +1132,7 @@ foo
 bar
 /
 baz
-"
+'
 )
         
 self
@@ -1148,7 +1145,7 @@ path
 .
 isdir
 (
-"
+'
 test_dir
 /
 foo
@@ -1156,8 +1153,9 @@ foo
 bar
 /
 baz
-"
+'
 )
+                        
 msg
 =
 "
@@ -1183,20 +1181,20 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 os
 .
 makedirs
 (
-"
+'
 test_dir
 /
 foo
@@ -1204,7 +1202,7 @@ foo
 bar
 /
 baz
-"
+'
 )
         
 self
@@ -1213,7 +1211,7 @@ s
 .
 mkdir_p
 (
-"
+'
 test_dir
 /
 foo
@@ -1221,21 +1219,20 @@ foo
 bar
 /
 baz
-"
+'
 )
         
 self
 .
 assertTrue
 (
-            
 os
 .
 path
 .
 isdir
 (
-"
+'
 test_dir
 /
 foo
@@ -1243,8 +1240,9 @@ foo
 bar
 /
 baz
-"
+'
 )
+                        
 msg
 =
 "
@@ -1254,7 +1252,6 @@ when
 dir
 exists
 "
-        
 )
     
 def
@@ -1274,13 +1271,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 cwd
@@ -1297,9 +1294,9 @@ s
 .
 chdir
 (
-"
+'
 test_logs
-"
+'
 )
         
 self
@@ -1322,6 +1319,7 @@ os
 getcwd
 (
 )
+                         
 msg
 =
 "
@@ -1461,9 +1459,11 @@ s
 )
         
 del
+(
 self
 .
 s
+)
         
 self
 .
@@ -1475,13 +1475,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 self
@@ -1514,7 +1514,6 @@ s
 .
 run_command
 (
-            
 command
 =
 "
@@ -1523,25 +1522,24 @@ this_cmd_should_not_exist
 -
 help
 "
-            
+                           
 env
 =
 {
-"
+'
 GARBLE
-"
+'
 :
-"
+'
 FARG
-"
+'
 }
-            
+                           
 error_list
 =
 errors
 .
 PythonErrorList
-        
 )
         
 error_logsize
@@ -1568,6 +1566,7 @@ assertTrue
 error_logsize
 >
 0
+                        
 msg
 =
 "
@@ -1601,26 +1600,24 @@ s
 .
 run_command
 (
-            
 command
 =
 "
 ls
 "
-            
+                           
 cwd
 =
-"
+'
 /
 this_dir_should_not_exist
-"
-            
+'
+                           
 error_list
 =
 errors
 .
 PythonErrorList
-        
 )
         
 error_logsize
@@ -1647,6 +1644,7 @@ assertTrue
 error_logsize
 >
 0
+                        
 msg
 =
 "
@@ -1686,10 +1684,10 @@ ls
 "
 cwd
 =
-"
+'
 /
 this_dir_should_not_exist
-"
+'
 )
         
 error_logsize
@@ -1716,6 +1714,7 @@ assertTrue
 error_logsize
 >
 0
+                        
 msg
 =
 "
@@ -1781,6 +1780,7 @@ assertTrue
 error_logsize
 >
 0
+                        
 msg
 =
 "
@@ -1830,64 +1830,59 @@ py
 error_list
 =
 [
-                
 {
-"
+                
+'
 substr
-"
+'
 :
 "
 error
 "
-"
+'
 level
-"
+'
 :
 ERROR
+            
 }
-                
 {
-                    
-"
+                
+'
 regex
-"
+'
 :
 re
 .
 compile
 (
-"
-"
+'
+'
 )
-                    
-"
+'
 level
-"
+'
 :
 IGNORE
-                
+            
 }
-                
 {
-                    
-"
+                
+'
 substr
-"
+'
 :
-"
+'
 ]
-"
-                    
-"
+'
+'
 level
-"
+'
 :
 WARNING
-                
-}
             
+}
 ]
-        
 )
         
 error_logsize
@@ -1914,6 +1909,7 @@ assertTrue
 error_logsize
 >
 0
+                        
 msg
 =
 "
@@ -1949,47 +1945,42 @@ path
 join
 (
 here
-"
+'
 helper_files
-"
-"
+'
+'
 archives
-"
+'
 )
         
 for
 archive
 in
 (
-            
-"
+'
 archive
 .
 tar
-"
-            
-"
+'
+'
 archive
 .
 tar
 .
 bz2
-"
-            
-"
+'
+'
 archive
 .
 tar
 .
 gz
-"
-            
-"
+'
+'
 archive
 .
 zip
-"
-        
+'
 )
 :
             
@@ -2011,6 +2002,7 @@ join
 archives_path
 archive
 )
+                
 extract_to
 =
 self
@@ -2023,11 +2015,11 @@ self
 .
 assertIn
 (
-"
+'
 script
 .
 sh
-"
+'
 os
 .
 listdir
@@ -2041,9 +2033,9 @@ join
 self
 .
 tmpdir
-"
+'
 bin
-"
+'
 )
 )
 )
@@ -2052,11 +2044,11 @@ self
 .
 assertIn
 (
-"
+'
 lorem
 .
 txt
-"
+'
 os
 .
 listdir
@@ -2092,11 +2084,11 @@ path
 join
 (
 archives_path
-"
+'
 archive
 .
 zip
-"
+'
 )
             
 extract_to
@@ -2122,14 +2114,14 @@ join
 self
 .
 tmpdir
-"
+'
 bin
-"
-"
+'
+'
 script
 .
 sh
-"
+'
 )
 )
         
@@ -2139,7 +2131,6 @@ os
 .
 stat
 (
-            
 os
 .
 path
@@ -2147,19 +2138,18 @@ path
 join
 (
 archives_path
-"
+'
 reference
-"
-"
+'
+'
 bin
-"
-"
+'
+'
 script
 .
 sh
-"
+'
 )
-        
 )
         
 self
@@ -2199,11 +2189,11 @@ path
 join
 (
 archives_path
-"
+'
 archive
 .
 zip
-"
+'
 )
             
 extract_to
@@ -2215,11 +2205,11 @@ tmpdir
 extract_dirs
 =
 [
-"
+'
 bin
 /
 *
-"
+'
 ]
         
 )
@@ -2228,9 +2218,9 @@ self
 .
 assertIn
 (
-"
+'
 bin
-"
+'
 os
 .
 listdir
@@ -2245,11 +2235,11 @@ self
 .
 assertNotIn
 (
-"
+'
 lorem
 .
 txt
-"
+'
 os
 .
 listdir
@@ -2298,11 +2288,11 @@ path
 join
 (
 archives_path
-"
+'
 archive_invalid_filename
 .
 zip
-"
+'
 )
                     
 extract_to
@@ -2337,47 +2327,42 @@ path
 join
 (
 here
-"
+'
 helper_files
-"
-"
+'
+'
 archives
-"
+'
 )
         
 for
 archive
 in
 (
-            
-"
+'
 archive
 .
 tar
-"
-            
-"
+'
+'
 archive
 .
 tar
 .
 bz2
-"
-            
-"
+'
+'
 archive
 .
 tar
 .
 gz
-"
-            
-"
+'
+'
 archive
 .
 zip
-"
-        
+'
 )
 :
             
@@ -2405,11 +2390,11 @@ self
 .
 assertIn
 (
-"
+'
 script
 .
 sh
-"
+'
 os
 .
 listdir
@@ -2423,9 +2408,9 @@ join
 self
 .
 tmpdir
-"
+'
 bin
-"
+'
 )
 )
 )
@@ -2434,11 +2419,11 @@ self
 .
 assertIn
 (
-"
+'
 lorem
 .
 txt
-"
+'
 os
 .
 listdir
@@ -2471,11 +2456,11 @@ path
 join
 (
 archives_path
-"
+'
 archive
 .
 zip
-"
+'
 )
 self
 .
@@ -2497,14 +2482,14 @@ join
 self
 .
 tmpdir
-"
+'
 bin
-"
-"
+'
+'
 script
 .
 sh
-"
+'
 )
 )
         
@@ -2514,7 +2499,6 @@ os
 .
 stat
 (
-            
 os
 .
 path
@@ -2522,19 +2506,18 @@ path
 join
 (
 archives_path
-"
+'
 reference
-"
-"
+'
+'
 bin
-"
-"
+'
+'
 script
 .
 sh
-"
+'
 )
-        
 )
         
 self
@@ -2564,7 +2547,6 @@ s
 .
 unpack
 (
-            
 os
 .
 path
@@ -2572,36 +2554,34 @@ path
 join
 (
 archives_path
-"
+'
 archive
 .
 zip
-"
+'
 )
-            
 self
 .
 tmpdir
-            
+                      
 extract_dirs
 =
 [
-"
+'
 bin
 /
 *
-"
+'
 ]
-        
 )
         
 self
 .
 assertIn
 (
-"
+'
 bin
-"
+'
 os
 .
 listdir
@@ -2616,11 +2596,11 @@ self
 .
 assertNotIn
 (
-"
+'
 lorem
 .
 txt
-"
+'
 os
 .
 listdir
@@ -2659,7 +2639,6 @@ s
 .
 unpack
 (
-                    
 os
 .
 path
@@ -2667,17 +2646,16 @@ path
 join
 (
 archives_path
-"
+'
 archive_invalid_filename
 .
 zip
-"
+'
 )
-                    
+                              
 self
 .
 tmpdir
-                
 )
 class
 TestHelperFunctions
@@ -2724,9 +2702,9 @@ if
 hasattr
 (
 self
-"
+'
 s
-"
+'
 )
 and
 isinstance
@@ -2739,9 +2717,11 @@ object
 :
             
 del
+(
 self
 .
 s
+)
         
 cleanup
 (
@@ -2761,9 +2741,9 @@ os
 .
 mkdir
 (
-"
+'
 test_dir
-"
+'
 )
         
 fh
@@ -2807,13 +2787,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 self
@@ -2822,9 +2802,9 @@ s
 .
 mkdir_p
 (
-"
+'
 test_dir
-"
+'
 )
         
 self
@@ -2837,10 +2817,11 @@ path
 .
 isdir
 (
-"
+'
 test_dir
-"
+'
 )
+                        
 msg
 =
 "
@@ -2872,13 +2853,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 contents
@@ -2889,7 +2870,6 @@ s
 .
 get_output_from_command
 (
-            
 [
 "
 bash
@@ -2908,18 +2888,15 @@ self
 .
 temp_file
 ]
-        
 )
         
 self
 .
 assertEqual
 (
-            
 test_string
-            
 contents
-            
+                         
 msg
 =
 "
@@ -2936,7 +2913,6 @@ fh
 .
 write
 "
-        
 )
     
 def
@@ -2962,13 +2938,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 temp_file_name
@@ -2988,7 +2964,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 s
@@ -3002,15 +2977,15 @@ s
 "
 %
 temp_file_name
+                                            
 cwd
 =
 "
 test_dir
 "
 )
-            
 0
-            
+                         
 msg
 =
 "
@@ -3026,7 +3001,6 @@ not
 exit
 0
 "
-        
 )
     
 def
@@ -3052,21 +3026,21 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 temp_file2
 =
-"
+'
 %
 s2
-"
+'
 %
 self
 .
@@ -3088,7 +3062,6 @@ self
 .
 assertFalse
 (
-            
 os
 .
 path
@@ -3099,7 +3072,7 @@ self
 .
 temp_file
 )
-            
+                         
 msg
 =
 "
@@ -3116,7 +3089,6 @@ move
 self
 .
 temp_file
-        
 )
     
 def
@@ -3142,21 +3114,21 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 temp_file2
 =
-"
+'
 %
 s2
-"
+'
 %
 self
 .
@@ -3178,7 +3150,6 @@ self
 .
 assertTrue
 (
-            
 os
 .
 path
@@ -3187,6 +3158,7 @@ exists
 (
 temp_file2
 )
+                        
 msg
 =
 "
@@ -3203,7 +3175,6 @@ move
 "
 %
 temp_file2
-        
 )
     
 def
@@ -3229,21 +3200,21 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 temp_file2
 =
-"
+'
 %
 s2
-"
+'
 %
 self
 .
@@ -3265,7 +3236,6 @@ self
 .
 assertEqual
 (
-            
 os
 .
 path
@@ -3276,7 +3246,7 @@ self
 .
 temp_file
 )
-            
+                         
 os
 .
 path
@@ -3285,7 +3255,7 @@ getsize
 (
 temp_file2
 )
-            
+                         
 msg
 =
 "
@@ -3302,15 +3272,14 @@ copyfile
 (
 )
 "
-            
 %
+                             
 (
 self
 .
 temp_file
 temp_file2
 )
-        
 )
     
 def
@@ -3336,13 +3305,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 self
@@ -3351,7 +3320,7 @@ s
 .
 mkdir_p
 (
-"
+'
 test_dir
 /
 foo
@@ -3359,7 +3328,7 @@ foo
 bar
 /
 baz
-"
+'
 )
         
 self
@@ -3368,9 +3337,9 @@ s
 .
 rmtree
 (
-"
+'
 test_dir
-"
+'
 )
         
 self
@@ -3383,10 +3352,11 @@ path
 .
 exists
 (
-"
+'
 test_dir
-"
+'
 )
+                         
 msg
 =
 "
@@ -3412,13 +3382,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 status
@@ -3429,9 +3399,9 @@ s
 .
 rmtree
 (
-"
+'
 test_dir
-"
+'
 )
         
 self
@@ -3476,19 +3446,19 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 path
 =
 u
-"
+'
 \
 \
 \
@@ -3501,7 +3471,7 @@ s
 \
 \
 test_dir
-"
+'
 %
 os
 .
@@ -3514,9 +3484,9 @@ win32file
 CreateDirectoryExW
 (
 u
-"
+'
 .
-"
+'
 path
 )
         
@@ -3547,12 +3517,12 @@ path
 path
 +
 u
-"
+'
 \
 \
 %
 sxxxxxxxxxxxxxxxxxxxx
-"
+'
 %
 x
             
@@ -3561,9 +3531,9 @@ win32file
 CreateDirectoryExW
 (
 u
-"
+'
 .
-"
+'
 path
 )
         
@@ -3573,9 +3543,9 @@ s
 .
 rmtree
 (
-"
+'
 test_dir
-"
+'
 )
         
 self
@@ -3588,10 +3558,11 @@ path
 .
 exists
 (
-"
+'
 test_dir
-"
+'
 )
+                         
 msg
 =
 "
@@ -3646,13 +3617,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 self
@@ -3661,9 +3632,9 @@ s
 .
 rmtree
 (
-"
+'
 test_dir
-"
+'
 )
         
 self
@@ -3676,10 +3647,11 @@ path
 .
 exists
 (
-"
+'
 test_dir
-"
+'
 )
+                         
 msg
 =
 "
@@ -3730,13 +3702,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 self
@@ -3767,6 +3739,7 @@ temp_file
 0
 ]
 33216
+                         
 msg
 =
 "
@@ -3792,13 +3765,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 script_env
@@ -3815,13 +3788,11 @@ self
 .
 assertEqual
 (
-            
 script_env
-            
 os
 .
 environ
-            
+                         
 msg
 =
 "
@@ -3847,7 +3818,6 @@ os
 .
 environ
 )
-        
 )
     
 def
@@ -3867,13 +3837,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 self
@@ -3898,13 +3868,11 @@ self
 .
 assertEqual
 (
-            
 script_env
-            
 os
 .
 environ
-            
+                         
 msg
 =
 "
@@ -3931,7 +3899,6 @@ os
 .
 environ
 )
-        
 )
     
 def
@@ -3951,13 +3918,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 script_env
@@ -3971,13 +3938,13 @@ query_env
 partial_env
 =
 {
-"
+'
 foo
-"
+'
 :
-"
+'
 bar
-"
+'
 }
 )
         
@@ -3985,23 +3952,23 @@ self
 .
 assertTrue
 (
-"
+'
 foo
-"
+'
 in
 script_env
 and
 script_env
 [
-"
+'
 foo
-"
+'
 ]
 =
 =
-"
+'
 bar
-"
+'
 )
     
 def
@@ -4021,13 +3988,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 partial_path
@@ -4047,17 +4014,17 @@ full_path
 partial_path
 %
 {
-"
+'
 PATH
-"
+'
 :
 os
 .
 environ
 [
-"
+'
 PATH
-"
+'
 ]
 }
         
@@ -4072,9 +4039,9 @@ query_env
 partial_env
 =
 {
-"
+'
 PATH
-"
+'
 :
 partial_path
 }
@@ -4086,9 +4053,9 @@ assertEqual
 (
 script_env
 [
-"
+'
 PATH
-"
+'
 ]
 full_path
 )
@@ -4111,29 +4078,29 @@ BaseScript
             
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
             
 config
 =
 {
-"
+'
 exes
-"
+'
 :
 {
-"
+'
 foo
-"
+'
 :
-"
+'
 bar
-"
+'
 }
 }
         
@@ -4147,9 +4114,9 @@ s
 .
 query_exe
 (
-"
+'
 foo
-"
+'
 )
         
 self
@@ -4157,9 +4124,9 @@ self
 assertEqual
 (
 path
-"
+'
 bar
-"
+'
 )
     
 def
@@ -4180,42 +4147,42 @@ BaseScript
             
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
             
 config
 =
 {
                 
-"
+'
 base_work_dir
-"
+'
 :
-"
+'
 foo
-"
+'
                 
-"
+'
 work_dir
-"
+'
 :
-"
+'
 bar
-"
+'
                 
-"
+'
 exes
-"
+'
 :
 {
-"
+'
 foo
-"
+'
 :
 os
 .
@@ -4223,16 +4190,16 @@ path
 .
 join
 (
-"
+'
 %
 (
 abs_work_dir
 )
 s
-"
-"
+'
+'
 baz
-"
+'
 )
 }
             
@@ -4248,9 +4215,9 @@ s
 .
 query_exe
 (
-"
+'
 foo
-"
+'
 )
         
 self
@@ -4264,15 +4231,15 @@ path
 .
 join
 (
-"
+'
 foo
-"
-"
+'
+'
 bar
-"
-"
+'
+'
 baz
-"
+'
 )
 )
     
@@ -4299,13 +4266,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 contents
@@ -4346,13 +4313,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 contents
@@ -4415,9 +4382,9 @@ if
 hasattr
 (
 self
-"
+'
 s
-"
+'
 )
 and
 isinstance
@@ -4430,9 +4397,11 @@ object
 :
             
 del
+(
 self
 .
 s
+)
         
 cleanup
 (
@@ -4453,28 +4422,27 @@ script
 .
 BaseScript
 (
-            
 config
 =
 {
-"
+'
 log_type
-"
+'
 :
-"
+'
 multi
-"
+'
 }
+                                   
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
-        
+'
 )
         
 info_logsize
@@ -4501,6 +4469,7 @@ assertTrue
 info_logsize
 >
 0
+                        
 msg
 =
 "
@@ -4529,28 +4498,27 @@ script
 .
 BaseScript
 (
-            
 config
 =
 {
-"
+'
 log_type
-"
+'
 :
-"
+'
 multi
-"
+'
 }
+                                   
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
-        
+'
 )
         
 info_logsize
@@ -4576,9 +4544,9 @@ s
 .
 add_summary
 (
-"
+'
 one
-"
+'
 )
         
 info_logsize2
@@ -4602,10 +4570,10 @@ self
 .
 assertTrue
 (
-            
 info_logsize
 <
 info_logsize2
+                        
 msg
 =
 "
@@ -4616,7 +4584,6 @@ info
 not
 logged
 "
-        
 )
     
 def
@@ -4634,28 +4601,27 @@ script
 .
 BaseScript
 (
-            
 config
 =
 {
-"
+'
 log_type
-"
+'
 :
-"
+'
 multi
-"
+'
 }
+                                   
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
-        
+'
 )
         
 warning_logsize
@@ -4681,9 +4647,9 @@ s
 .
 add_summary
 (
-"
+'
 two
-"
+'
 level
 =
 WARNING
@@ -4710,11 +4676,10 @@ self
 .
 assertTrue
 (
-            
 warning_logsize
 <
 warning_logsize2
-            
+                        
 msg
 =
 "
@@ -4733,7 +4698,6 @@ log
 "
 %
 WARNING
-        
 )
     
 def
@@ -4751,28 +4715,27 @@ script
 .
 BaseScript
 (
-            
 config
 =
 {
-"
+'
 log_type
-"
+'
 :
-"
+'
 multi
-"
+'
 }
+                                   
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
-        
+'
 )
         
 self
@@ -4781,9 +4744,9 @@ s
 .
 add_summary
 (
-"
+'
 one
-"
+'
 )
         
 self
@@ -4792,9 +4755,9 @@ s
 .
 add_summary
 (
-"
+'
 two
-"
+'
 level
 =
 WARNING
@@ -4960,28 +4923,27 @@ script
 .
 BaseScript
 (
-            
 config
 =
 {
-"
+'
 log_type
-"
+'
 :
-"
+'
 multi
-"
+'
 }
+                                   
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
-        
+'
 )
         
 if
@@ -4997,9 +4959,9 @@ s
 .
 log
 (
-"
+'
 testing
-"
+'
 level
 =
 log_level
@@ -5033,9 +4995,9 @@ s
 .
 fatal
 (
-"
+'
 testing
-"
+'
 )
             
 except
@@ -5053,9 +5015,9 @@ path
 .
 exists
 (
-"
+'
 tmpfile_stdout
-"
+'
 )
 :
                     
@@ -5063,9 +5025,9 @@ fh
 =
 open
 (
-"
+'
 tmpfile_stdout
-"
+'
 )
                     
 contents
@@ -5100,9 +5062,11 @@ failed
 )
         
 del
+(
 self
 .
 s
+)
         
 msg
 =
@@ -5381,13 +5345,13 @@ BaseScript
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
     
 def
@@ -5401,9 +5365,9 @@ if
 hasattr
 (
 self
-"
+'
 s
-"
+'
 )
 and
 isinstance
@@ -5416,9 +5380,11 @@ object
 :
             
 del
+(
 self
 .
 s
+)
         
 cleanup
 (
@@ -5570,7 +5536,6 @@ self
 .
 assertRaises
 (
-            
 Exception
 self
 .
@@ -5583,11 +5548,11 @@ _alwaysFail
 sleeptime
 =
 0
+                          
 exceptions
 =
 (
 )
-        
 )
     
 def
@@ -5601,7 +5566,6 @@ self
 .
 assertRaises
 (
-            
 SystemExit
 self
 .
@@ -5614,10 +5578,10 @@ _alwaysFail
 sleeptime
 =
 0
+                          
 error_level
 =
 FATAL
-        
 )
     
 def
@@ -5633,25 +5597,21 @@ s
 .
 retry
 (
-            
 self
 .
 _raiseCustomException
-            
 attempts
 =
 2
-            
 sleeptime
 =
 0
-            
+                     
 retry_exceptions
 =
 (
 NewError
 )
-        
 )
     
 def
@@ -5665,33 +5625,27 @@ self
 .
 assertRaises
 (
-            
 NewError
-            
 self
 .
 s
 .
 retry
-            
 self
 .
 _raiseCustomException
-            
 attempts
 =
 2
-            
+                          
 sleeptime
 =
 0
-            
 retry_exceptions
 =
 (
 OtherError
 )
-        
 )
     
 def
@@ -5857,9 +5811,9 @@ args
 =
 (
 1
-"
+'
 two
-"
+'
 3
 )
         
@@ -5869,9 +5823,9 @@ dict
 (
 foo
 =
-"
+'
 a
-"
+'
 bar
 =
 7
@@ -5885,7 +5839,6 @@ s
 .
 retry
 (
-            
 self
 .
 _mirrorArgs
@@ -5902,7 +5855,6 @@ copy
 sleeptime
 =
 0
-        
 )
         
 print
@@ -6176,9 +6128,9 @@ script
 .
 PreScriptAction
 (
-"
+'
 clobber
-"
+'
 )
     
 def
@@ -6279,9 +6231,9 @@ script
 .
 PostScriptAction
 (
-"
+'
 build
-"
+'
 )
     
 def
@@ -6435,9 +6387,9 @@ if
 hasattr
 (
 self
-"
+'
 s
-"
+'
 )
 and
 isinstance
@@ -6473,13 +6425,13 @@ BaseScriptWithDecorators
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 self
@@ -6494,9 +6446,9 @@ s
 .
 _listeners
 [
-"
+'
 pre_run
-"
+'
 ]
 )
 1
@@ -6514,9 +6466,9 @@ s
 .
 _listeners
 [
-"
+'
 pre_action
-"
+'
 ]
 )
 3
@@ -6534,9 +6486,9 @@ s
 .
 _listeners
 [
-"
+'
 post_action
-"
+'
 ]
 )
 3
@@ -6554,9 +6506,9 @@ s
 .
 _listeners
 [
-"
+'
 post_run
-"
+'
 ]
 )
 2
@@ -6577,13 +6529,13 @@ BaseScriptWithDecorators
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 self
@@ -6748,9 +6700,9 @@ pre_action_1_args
 ]
 (
 (
-"
+'
 clobber
-"
+'
 )
 {
 }
@@ -6771,9 +6723,9 @@ pre_action_1_args
 ]
 (
 (
-"
+'
 build
-"
+'
 )
 {
 }
@@ -6794,9 +6746,9 @@ pre_action_3_args
 ]
 (
 (
-"
+'
 clobber
-"
+'
 )
 {
 }
@@ -6819,9 +6771,9 @@ post_action_1_args
 0
 ]
 (
-"
+'
 clobber
-"
+'
 )
 )
         
@@ -6864,9 +6816,9 @@ post_action_1_args
 0
 ]
 (
-"
+'
 build
-"
+'
 )
 )
         
@@ -6907,10 +6859,11 @@ post_action_3_args
 ]
 (
 (
-"
+'
 build
-"
+'
 )
+                         
 dict
 (
 success
@@ -6955,13 +6908,13 @@ BaseScriptWithDecorators
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 self
@@ -6970,13 +6923,13 @@ s
 .
 raise_during_build
 =
-"
+'
 Testing
 post
 always
 fired
 .
-"
+'
         
 with
 self
@@ -7169,13 +7122,13 @@ BaseScriptWithDecorators
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 self
@@ -7184,13 +7137,13 @@ s
 .
 raise_during_pre_run_1
 =
-"
+'
 Error
 during
 pre
 run
 1
-"
+'
         
 with
 self
@@ -7284,13 +7237,13 @@ BaseScriptWithDecorators
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 self
@@ -7299,12 +7252,12 @@ s
 .
 raise_during_pre_action_1
 =
-"
+'
 Error
 during
 pre
 1
-"
+'
         
 with
 self
@@ -7443,13 +7396,13 @@ BaseScriptWithDecorators
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 self
@@ -7458,12 +7411,12 @@ s
 .
 raise_during_post_action_1
 =
-"
+'
 Error
 during
 post
 1
-"
+'
         
 with
 self
@@ -7572,13 +7525,13 @@ BaseScriptWithDecorators
 (
 initial_config_file
 =
-"
+'
 test
 /
 test
 .
 json
-"
+'
 )
         
 self
@@ -7587,13 +7540,13 @@ s
 .
 raise_during_post_run_1
 =
-"
+'
 Error
 during
 post
 run
 1
-"
+'
         
 with
 self
@@ -7645,9 +7598,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 unittest

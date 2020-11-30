@@ -66,9 +66,9 @@ MarionetteTestCase
 )
 :
     
-"
-"
-"
+'
+'
+'
 Test
 cases
 for
@@ -77,173 +77,173 @@ under
 selection
 mode
 .
-"
-"
-"
+'
+'
+'
     
 _input_id
 =
-"
+'
 input
-"
+'
     
 _input_padding_id
 =
-"
+'
 input
 -
 padding
-"
+'
     
 _input_size_id
 =
-"
+'
 input
 -
 size
-"
+'
     
 _textarea_id
 =
-"
+'
 textarea
-"
+'
     
 _textarea2_id
 =
-"
+'
 textarea2
-"
+'
     
 _textarea_one_line_id
 =
-"
+'
 textarea
 -
 one
 -
 line
-"
+'
     
 _textarea_rtl_id
 =
-"
+'
 textarea
 -
 rtl
-"
+'
     
 _contenteditable_id
 =
-"
+'
 contenteditable
-"
+'
     
 _contenteditable2_id
 =
-"
+'
 contenteditable2
-"
+'
     
 _content_id
 =
-"
+'
 content
-"
+'
     
 _content2_id
 =
-"
+'
 content2
-"
+'
     
 _non_selectable_id
 =
-"
+'
 non
 -
 selectable
-"
+'
     
 _selection_html
 =
-"
+'
 layout
 /
 test_carets_selection
 .
 html
-"
+'
     
 _multipleline_html
 =
-"
+'
 layout
 /
 test_carets_multipleline
 .
 html
-"
+'
     
 _multiplerange_html
 =
-"
+'
 layout
 /
 test_carets_multiplerange
 .
 html
-"
+'
     
 _longtext_html
 =
-"
+'
 layout
 /
 test_carets_longtext
 .
 html
-"
+'
     
 _iframe_html
 =
-"
+'
 layout
 /
 test_carets_iframe
 .
 html
-"
+'
     
 _iframe_scroll_html
 =
-"
+'
 layout
 /
 test_carets_iframe_scroll
 .
 html
-"
+'
     
 _display_none_html
 =
-"
+'
 layout
 /
 test_carets_display_none
 .
 html
-"
+'
     
 _svg_shapes_html
 =
-"
+'
 layout
 /
 test_carets_svg_shapes
 .
 html
-"
+'
     
 def
 setUp
@@ -266,13 +266,13 @@ self
 .
 carets_tested_pref
 =
-"
+'
 layout
 .
 accessiblecaret
 .
 enabled
-"
+'
         
 self
 .
@@ -280,13 +280,13 @@ prefs
 =
 {
             
-"
+'
 layout
 .
 word_select
 .
 eat_space_to_next_word
-"
+'
 :
 False
             
@@ -380,7 +380,7 @@ ordinal
 )
 :
         
-"
+'
 Get
 the
 character
@@ -394,7 +394,7 @@ word
 in
 text
 .
-"
+'
         
 tokens
 =
@@ -403,13 +403,13 @@ re
 split
 (
 r
-"
+'
 (
 \
 S
 +
 )
-"
+'
 text
 )
         
@@ -446,8 +446,7 @@ words
 raise
 IndexError
 (
-                
-"
+'
 Only
 %
 d
@@ -459,8 +458,9 @@ got
 ordinal
 %
 d
-"
+'
 %
+                             
 (
 len
 (
@@ -468,7 +468,6 @@ words
 )
 ordinal
 )
-            
 )
         
 offset
@@ -526,23 +525,23 @@ self
         
 text
 =
-"
-"
+'
+'
 *
 3
 +
-"
+'
 abc
-"
+'
 +
-"
-"
+'
+'
 *
 3
 +
-"
+'
 def
-"
+'
         
 self
 .
@@ -598,9 +597,9 @@ ordinal
 )
 :
         
-"
-"
-"
+'
+'
+'
 Get
 the
 location
@@ -644,9 +643,9 @@ element
 el
 .
         
-"
-"
-"
+'
+'
+'
         
 sel
 =
@@ -707,9 +706,9 @@ el
 )
 :
         
-"
-"
-"
+'
+'
+'
 Get
 element
 '
@@ -746,9 +745,9 @@ the
 document
 .
         
-"
-"
-"
+'
+'
+'
         
 return
 self
@@ -757,10 +756,9 @@ marionette
 .
 execute_script
 (
-            
-"
-"
-"
+'
+'
+'
             
 let
 rect
@@ -800,16 +798,14 @@ height
 }
 ;
             
-"
-"
-"
-            
+'
+'
+'
 script_args
 =
 [
 el
 ]
-        
 )
     
 def
@@ -826,9 +822,9 @@ None
 )
 :
         
-"
-"
-"
+'
+'
+'
 Long
 press
 the
@@ -885,9 +881,9 @@ to
 gecko
 .
         
-"
-"
-"
+'
+'
+'
         
 rect
 =
@@ -902,9 +898,9 @@ target_x
 =
 rect
 [
-"
+'
 x
-"
+'
 ]
 +
 (
@@ -917,9 +913,9 @@ None
 else
 rect
 [
-"
+'
 width
-"
+'
 ]
 /
 /
@@ -930,9 +926,9 @@ target_y
 =
 rect
 [
-"
+'
 y
-"
+'
 ]
 +
 (
@@ -945,9 +941,9 @@ None
 else
 rect
 [
-"
+'
 height
-"
+'
 ]
 /
 /
@@ -960,10 +956,9 @@ marionette
 .
 execute_script
 (
-            
-"
-"
-"
+'
+'
+'
             
 let
 utils
@@ -1075,23 +1070,20 @@ arguments
 )
 ;
             
-"
-"
-"
-            
+'
+'
+'
 script_args
 =
 [
 target_x
 target_y
 ]
-            
 sandbox
 =
-"
+'
 system
-"
-        
+'
 )
     
 def
@@ -1157,28 +1149,28 @@ s
 .
 replace
 (
-"
+'
 \
 r
 \
 n
-"
-"
+'
+'
 \
 n
-"
+'
 )
 .
 replace
 (
-"
+'
 \
 r
-"
-"
+'
+'
 \
 n
-"
+'
 )
     
 parameterized
@@ -1299,7 +1291,7 @@ words
 >
 =
 2
-"
+'
 Expect
 at
 least
@@ -1309,7 +1301,7 @@ in
 the
 content
 .
-"
+'
 )
         
 target_content
@@ -1440,7 +1432,7 @@ words
 >
 =
 1
-"
+'
 Expect
 at
 least
@@ -1450,7 +1442,7 @@ in
 the
 content
 .
-"
+'
 )
         
 target_content
@@ -1658,7 +1650,7 @@ words
 >
 =
 1
-"
+'
 Expect
 at
 least
@@ -1668,7 +1660,7 @@ in
 the
 content
 .
-"
+'
 )
         
 target_content1
@@ -1742,16 +1734,16 @@ caret1_y
 end_caret_x
 end_caret_y
 )
+\
+                    
 .
 flick
 (
-            
 el
 end_caret_x
 end_caret_y
 caret1_x
 caret1_y
-        
 )
 .
 perform
@@ -1984,7 +1976,7 @@ words
 >
 =
 1
-"
+'
 Expect
 at
 least
@@ -1994,7 +1986,7 @@ in
 the
 content
 .
-"
+'
 )
         
 sel
@@ -2109,242 +2101,218 @@ selected_content
     
 parameterized
 (
-        
 _input_id
 +
-"
+'
 _to_
-"
+'
 +
 _textarea_id
+                   
 el1_id
 =
 _input_id
 el2_id
 =
 _textarea_id
-    
 )
     
 parameterized
 (
-        
 _input_id
 +
-"
+'
 _to_
-"
+'
 +
 _contenteditable_id
-        
+                   
 el1_id
 =
 _input_id
-        
 el2_id
 =
 _contenteditable_id
-    
 )
     
 parameterized
 (
-        
 _input_id
 +
-"
+'
 _to_
-"
+'
 +
 _content_id
+                   
 el1_id
 =
 _input_id
 el2_id
 =
 _content_id
-    
 )
     
 parameterized
 (
-        
 _textarea_id
 +
-"
+'
 _to_
-"
+'
 +
 _input_id
+                   
 el1_id
 =
 _textarea_id
 el2_id
 =
 _input_id
-    
 )
     
 parameterized
 (
-        
 _textarea_id
 +
-"
+'
 _to_
-"
+'
 +
 _contenteditable_id
-        
+                   
 el1_id
 =
 _textarea_id
-        
 el2_id
 =
 _contenteditable_id
-    
 )
     
 parameterized
 (
-        
 _textarea_id
 +
-"
+'
 _to_
-"
+'
 +
 _content_id
+                   
 el1_id
 =
 _textarea_id
 el2_id
 =
 _content_id
-    
 )
     
 parameterized
 (
-        
 _contenteditable_id
 +
-"
+'
 _to_
-"
+'
 +
 _input_id
-        
+                   
 el1_id
 =
 _contenteditable_id
-        
 el2_id
 =
 _input_id
-    
 )
     
 parameterized
 (
-        
 _contenteditable_id
 +
-"
+'
 _to_
-"
+'
 +
 _textarea_id
-        
+                   
 el1_id
 =
 _contenteditable_id
-        
 el2_id
 =
 _textarea_id
-    
 )
     
 parameterized
 (
-        
 _contenteditable_id
 +
-"
+'
 _to_
-"
+'
 +
 _content_id
-        
+                   
 el1_id
 =
 _contenteditable_id
-        
 el2_id
 =
 _content_id
-    
 )
     
 parameterized
 (
-        
 _content_id
 +
-"
+'
 _to_
-"
+'
 +
 _input_id
+                   
 el1_id
 =
 _content_id
 el2_id
 =
 _input_id
-    
 )
     
 parameterized
 (
-        
 _content_id
 +
-"
+'
 _to_
-"
+'
 +
 _textarea_id
+                   
 el1_id
 =
 _content_id
 el2_id
 =
 _textarea_id
-    
 )
     
 parameterized
 (
-        
 _content_id
 +
-"
+'
 _to_
-"
+'
 +
 _contenteditable_id
-        
+                   
 el1_id
 =
 _content_id
-        
 el2_id
 =
 _contenteditable_id
-    
 )
     
 def
@@ -2631,9 +2599,9 @@ el_id
 )
 :
         
-"
-"
-"
+'
+'
+'
 Test
 tilt
 handling
@@ -2682,9 +2650,9 @@ be
 draggable
 .
         
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -2741,7 +2709,7 @@ words
 >
 =
 1
-"
+'
 Expect
 at
 least
@@ -2751,7 +2719,7 @@ in
 the
 content
 .
-"
+'
 )
         
 self
@@ -2825,13 +2793,13 @@ marionette
 .
 get_pref
 (
-"
+'
 layout
 .
 accessiblecaret
 .
 width
-"
+'
 )
 )
         
@@ -2839,14 +2807,13 @@ caret_margin_left
 =
 float
 (
-            
 self
 .
 marionette
 .
 get_pref
 (
-"
+'
 layout
 .
 accessiblecaret
@@ -2854,9 +2821,8 @@ accessiblecaret
 margin
 -
 left
-"
+'
 )
-        
 )
         
 tilt_right_margin_left
@@ -2897,15 +2863,14 @@ caret3_y
 right_caret_right_edge_x
 =
 (
-            
 caret4_x
 +
 caret_margin_left
 +
+                                    
 tilt_right_margin_left
 +
 caret_width
-        
 )
         
 el
@@ -2952,9 +2917,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Test
 dragging
 the
@@ -2991,9 +2956,9 @@ s
 position
 .
         
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -3015,9 +2980,9 @@ find_element
 By
 .
 ID
-"
+'
 bd
-"
+'
 )
         
 sel3
@@ -3031,9 +2996,9 @@ find_element
 By
 .
 ID
-"
+'
 sel3
-"
+'
 )
         
 sel4
@@ -3047,9 +3012,9 @@ find_element
 By
 .
 ID
-"
+'
 sel4
-"
+'
 )
         
 sel6
@@ -3063,9 +3028,9 @@ find_element
 By
 .
 ID
-"
+'
 sel6
-"
+'
 )
         
 self
@@ -3138,14 +3103,12 @@ actions
 .
 flick
 (
-            
 body
 caret2_x
 caret2_y
 end_caret_x
 end_caret_y
 1
-        
 )
 .
 perform
@@ -3156,7 +3119,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 to_unix_line_ending
@@ -3169,8 +3131,8 @@ strip
 (
 )
 )
-            
-"
+                         
+'
 this
 3
 \
@@ -3178,8 +3140,7 @@ nuser
 can
 select
 this
-"
-        
+'
 )
         
 (
@@ -3203,14 +3164,12 @@ actions
 .
 flick
 (
-            
 body
 caret2_x
 caret2_y
 end_caret2_x
 end_caret2_y
 1
-        
 )
 .
 perform
@@ -3221,7 +3180,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 to_unix_line_ending
@@ -3234,8 +3192,8 @@ strip
 (
 )
 )
-            
-"
+                         
+'
 this
 3
 \
@@ -3252,8 +3210,7 @@ this
 5
 \
 nuser
-"
-        
+'
 )
         
 (
@@ -3277,14 +3234,12 @@ actions
 .
 flick
 (
-            
 body
 caret1_x
 caret1_y
 end_caret_x
 end_caret_y
 1
-        
 )
 .
 perform
@@ -3295,7 +3250,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 to_unix_line_ending
@@ -3308,8 +3262,8 @@ strip
 (
 )
 )
-            
-"
+                         
+'
 4
 \
 nuser
@@ -3319,8 +3273,7 @@ this
 5
 \
 nuser
-"
-        
+'
 )
     
 def
@@ -3350,9 +3303,9 @@ find_element
 By
 .
 ID
-"
+'
 bd
-"
+'
 )
         
 sel3
@@ -3366,9 +3319,9 @@ find_element
 By
 .
 ID
-"
+'
 sel3
-"
+'
 )
         
 sel4
@@ -3382,9 +3335,9 @@ find_element
 By
 .
 ID
-"
+'
 sel4
-"
+'
 )
         
 sel
@@ -3403,17 +3356,12 @@ sel4
 )
         
 (
-            
-(
 end_caret1_x
 end_caret1_y
 )
-            
 (
 end_caret2_x
 end_caret2_y
-)
-        
 )
 =
 sel
@@ -3451,13 +3399,11 @@ actions
 .
 flick
 (
-            
 body
 caret1_x
 caret1_y
 end_caret1_x
 end_caret1_y
-        
 )
 .
 perform
@@ -3468,7 +3414,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 to_unix_line_ending
@@ -3481,14 +3426,14 @@ strip
 (
 )
 )
-"
+                         
+'
 3
 \
 nuser
 can
 select
-"
-        
+'
 )
         
 self
@@ -3497,13 +3442,11 @@ actions
 .
 flick
 (
-            
 body
 caret2_x
 caret2_y
 end_caret2_x
 end_caret2_y
-        
 )
 .
 perform
@@ -3526,9 +3469,10 @@ strip
 (
 )
 )
-"
+                         
+'
 this
-"
+'
 )
     
 def
@@ -3538,9 +3482,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Bug
 1094056
         
@@ -3557,9 +3501,9 @@ of
 a
 line
         
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -3581,9 +3525,9 @@ find_element
 By
 .
 ID
-"
+'
 bd
-"
+'
 )
         
 sel1
@@ -3597,9 +3541,9 @@ find_element
 By
 .
 ID
-"
+'
 sel1
-"
+'
 )
         
 sel2
@@ -3613,9 +3557,9 @@ find_element
 By
 .
 ID
-"
+'
 sel2
-"
+'
 )
         
 self
@@ -3634,17 +3578,12 @@ body
 )
         
 (
-            
-(
 start_caret_x
 start_caret_y
 )
-            
 (
 end_caret_x
 end_caret_y
-)
-        
 )
 =
 sel
@@ -3682,13 +3621,11 @@ actions
 .
 flick
 (
-            
 body
 caret2_x
 caret2_y
 start_caret_x
 start_caret_y
-        
 )
 .
 perform
@@ -3701,13 +3638,11 @@ actions
 .
 flick
 (
-            
 body
 start_caret_x
 start_caret_y
 caret2_x
 caret2_y
-        
 )
 .
 perform
@@ -3726,9 +3661,9 @@ sel
 .
 selected_content
 )
-"
+'
 select
-"
+'
 )
     
 def
@@ -3738,9 +3673,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Bug
 1088552
         
@@ -3799,9 +3734,9 @@ select
 word
 .
         
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -3823,9 +3758,9 @@ find_element
 By
 .
 ID
-"
+'
 frame
-"
+'
 )
         
 self
@@ -3843,6 +3778,7 @@ marionette
 .
 execute_script
 (
+            
 '
 document
 .
@@ -3871,9 +3807,9 @@ find_element
 By
 .
 ID
-"
+'
 bd
-"
+'
 )
         
 sel
@@ -3896,9 +3832,9 @@ find_element
 By
 .
 ID
-"
+'
 bottomtext
-"
+'
 )
         
 self
@@ -3922,8 +3858,8 @@ sel
 .
 selected_content
 )
-"
-"
+'
+'
 )
     
 def
@@ -3933,9 +3869,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Bug
 1306634
 :
@@ -3953,9 +3889,9 @@ an
 unfocused
 iframe
 .
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -4031,9 +3967,9 @@ find_element
 By
 .
 ID
-"
+'
 frame
-"
+'
 )
         
 self
@@ -4063,9 +3999,9 @@ find_element
 By
 .
 ID
-"
+'
 bd
-"
+'
 )
         
 sel
@@ -4079,8 +4015,8 @@ self
 .
 assertNotEqual
 (
-"
-"
+'
+'
 sel
 .
 selected_content
@@ -4093,9 +4029,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Test
 AccessibleCaretEventHub
 is
@@ -4113,9 +4049,9 @@ display
 none
 .
         
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -4137,9 +4073,9 @@ find_element
 By
 .
 ID
-"
+'
 html
-"
+'
 )
         
 content
@@ -4153,9 +4089,9 @@ find_element
 By
 .
 ID
-"
+'
 content
-"
+'
 )
         
 self
@@ -4180,6 +4116,7 @@ unset
 "
 ;
 '
+            
 script_args
 =
 [
@@ -4445,7 +4382,7 @@ words
 >
 =
 3
-"
+'
 Expect
 at
 least
@@ -4455,7 +4392,7 @@ in
 the
 content
 .
-"
+'
 )
         
 target_content
@@ -4573,9 +4510,9 @@ find_element
 By
 .
 ID
-"
+'
 rect
-"
+'
 )
         
 text
@@ -4589,9 +4526,9 @@ find_element
 By
 .
 ID
-"
+'
 text
-"
+'
 )
         
 sel
@@ -4701,9 +4638,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Bug
 1657256
 :
@@ -4752,9 +4689,9 @@ EEEEEE
 "
 .
         
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -4776,9 +4713,9 @@ find_element
 By
 .
 ID
-"
+'
 iframe
-"
+'
 )
         
 self
@@ -4801,9 +4738,9 @@ find_element
 By
 .
 ID
-"
+'
 bd
-"
+'
 )
         
 sel
@@ -4908,7 +4845,7 @@ marionette
 execute_script
 (
             
-"
+'
 document
 .
 documentElement
@@ -4920,14 +4857,13 @@ arguments
 [
 0
 ]
-"
+'
             
 script_args
 =
 [
 scroll_offset
 ]
-        
 )
         
 self
@@ -4936,19 +4872,18 @@ actions
 .
 flick
 (
-            
 body
 x
 y1
 -
 scroll_offset
+                           
 x
 y1
 -
 scroll_offset
 +
 y_offset
-        
 )
 .
 perform

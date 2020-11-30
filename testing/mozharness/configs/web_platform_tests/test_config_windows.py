@@ -154,19 +154,19 @@ exes
 :
 {
         
-"
+'
 python
-"
+'
 :
 sys
 .
 executable
         
-"
+'
 hg
-"
+'
 :
-"
+'
 c
 :
 /
@@ -177,7 +177,7 @@ build
 hg
 /
 hg
-"
+'
     
 }
     
@@ -187,37 +187,37 @@ default_actions
 :
 [
         
-"
+'
 clobber
-"
+'
         
-"
+'
 download
 -
 and
 -
 extract
-"
+'
         
-"
+'
 create
 -
 virtualenv
-"
+'
         
-"
+'
 pull
-"
+'
         
-"
+'
 install
-"
+'
         
-"
+'
 run
 -
 tests
-"
+'
     
 ]
 }

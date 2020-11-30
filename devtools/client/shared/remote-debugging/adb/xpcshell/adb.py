@@ -20,7 +20,7 @@ import
 sys
 HOST
 =
-"
+'
 127
 .
 0
@@ -28,7 +28,7 @@ HOST
 0
 .
 1
-"
+'
 PORT
 =
 5037
@@ -51,11 +51,11 @@ data
         
 header
 =
-"
+'
 OKAY
 %
 04x
-"
+'
 %
 len
 (
@@ -129,11 +129,11 @@ recv
 )
             
 if
-"
+'
 host
 :
 kill
-"
+'
 in
 data
 :
@@ -142,8 +142,8 @@ self
 .
 sendData
 (
-"
-"
+'
+'
 )
                 
 os
@@ -156,11 +156,11 @@ _exit
 break
             
 elif
-"
+'
 host
 :
 version
-"
+'
 in
 data
 :
@@ -169,9 +169,9 @@ self
 .
 sendData
 (
-"
+'
 001F
-"
+'
 )
                 
 self
@@ -185,13 +185,13 @@ close
 break
             
 elif
-"
+'
 host
 :
 track
 -
 devices
-"
+'
 in
 data
 :
@@ -200,11 +200,11 @@ self
 .
 sendData
 (
-"
+'
 1234567890
 \
 tdevice
-"
+'
 )
                 
 break
@@ -231,14 +231,15 @@ TCPServer
 .
 __init__
 (
-            
 self
+                                        
 server_address
+                                        
 ADBRequestHandler
+                                        
 bind_and_activate
 =
 False
-        
 )
 if
 len
@@ -259,11 +260,11 @@ argv
 ]
 =
 =
-"
+'
 start
 -
 server
-"
+'
 :
     
 if

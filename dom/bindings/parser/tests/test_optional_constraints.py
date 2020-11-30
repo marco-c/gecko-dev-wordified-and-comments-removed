@@ -17,7 +17,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -43,7 +42,6 @@ arg2
 "
 "
 "
-        
 )
         
 results
@@ -65,10 +63,9 @@ harness
 .
 ok
 (
-        
 not
 threw
-        
+               
 "
 Should
 not
@@ -81,13 +78,12 @@ optional
 argument
 following
 "
-        
+               
 "
 optional
 argument
 .
 "
-    
 )
     
 parser
@@ -102,7 +98,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -151,7 +146,6 @@ arg6
 "
 "
 "
-    
 )
     
 results
@@ -214,6 +208,7 @@ defaultValue
 .
 value
 9
+                  
 "
 Should
 have

@@ -32,10 +32,10 @@ return
 create_zip
 (
 [
-"
+'
 -
 C
-"
+'
 input_dir
 abspath
 (
@@ -43,9 +43,9 @@ output
 .
 name
 )
-"
+'
 *
 *
-"
+'
 ]
 )

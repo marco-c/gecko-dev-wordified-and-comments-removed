@@ -281,7 +281,6 @@ cmd
 "
 python
 "
-                
 "
 .
 .
@@ -317,7 +316,6 @@ configuration
 .
 json
 "
-            
 ]
             
 "

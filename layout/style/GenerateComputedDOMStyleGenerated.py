@@ -12,7 +12,6 @@ output
 .
 write
 (
-        
 "
 "
 "
@@ -61,7 +60,6 @@ kEntries
 "
 "
 "
-    
 )
     
 def

@@ -712,7 +712,6 @@ self
 .
 assertEqual
 (
-            
 len
 (
 self
@@ -729,7 +728,6 @@ start_windows
 )
 +
 1
-        
 )
         
 self
@@ -748,7 +746,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -757,7 +754,6 @@ current_chrome_window_handle
 self
 .
 start_window
-        
 )
         
 self
@@ -785,7 +781,6 @@ self
 .
 assertNotEqual
 (
-            
 self
 .
 marionette
@@ -794,7 +789,6 @@ current_chrome_window_handle
 self
 .
 start_window
-        
 )
         
 self
@@ -809,7 +803,6 @@ self
 .
 assertEqual
 (
-            
 len
 (
 self
@@ -824,7 +817,6 @@ self
 .
 start_windows
 )
-        
 )
         
 self
@@ -854,7 +846,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -863,5 +854,4 @@ current_chrome_window_handle
 self
 .
 start_window
-        
 )

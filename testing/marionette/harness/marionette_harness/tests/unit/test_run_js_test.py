@@ -24,20 +24,20 @@ self
 .
 run_js_test
 (
-"
+'
 test_simpletest_pass
 .
 js
-"
+'
 )
         
 self
 .
 run_js_test
 (
-"
+'
 test_simpletest_fail
 .
 js
-"
+'
 )

@@ -31,7 +31,7 @@ stubs
 =
 {
     
-"
+'
 test
 -
 addon
@@ -40,15 +40,15 @@ addon
 mozilla
 .
 org
-"
+'
 :
-"
+'
 test_addon_1
 .
 rdf
-"
+'
     
-"
+'
 test
 -
 addon
@@ -57,15 +57,15 @@ addon
 mozilla
 .
 org
-"
+'
 :
-"
+'
 test_addon_2
 .
 rdf
-"
+'
     
-"
+'
 test
 -
 addon
@@ -74,15 +74,15 @@ addon
 mozilla
 .
 org
-"
+'
 :
-"
+'
 test_addon_3
 .
 rdf
-"
+'
     
-"
+'
 test
 -
 addon
@@ -91,15 +91,15 @@ addon
 mozilla
 .
 org
-"
+'
 :
-"
+'
 test_addon_4
 .
 rdf
-"
+'
     
-"
+'
 test
 -
 addon
@@ -112,15 +112,15 @@ id
 mozilla
 .
 org
-"
+'
 :
-"
+'
 test_addon_invalid_no_id
 .
 rdf
-"
+'
     
-"
+'
 test
 -
 addon
@@ -131,15 +131,15 @@ version
 mozilla
 .
 org
-"
+'
 :
-"
+'
 test_addon_invalid_version
 .
 rdf
-"
+'
     
-"
+'
 test
 -
 addon
@@ -152,11 +152,11 @@ manifest
 mozilla
 .
 org
-"
+'
 :
 None
     
-"
+'
 test
 -
 addon
@@ -169,15 +169,15 @@ wellformed
 mozilla
 .
 org
-"
+'
 :
-"
+'
 test_addon_invalid_not_wellformed
 .
 rdf
-"
+'
     
-"
+'
 test
 -
 addon
@@ -186,13 +186,13 @@ unpack
 mozilla
 .
 org
-"
+'
 :
-"
+'
 test_addon_unpack
 .
 rdf
-"
+'
 }
 def
 generate_addon
@@ -368,7 +368,7 @@ IOError
 raise
 IOError
 (
-"
+'
 Could
 not
 generate
@@ -378,7 +378,7 @@ for
 addon
 stub
 .
-"
+'
 )
     
 if
@@ -397,20 +397,20 @@ path
 join
 (
 addon_dir
-"
+'
 install
 .
 rdf
-"
+'
 )
         
 with
 open
 (
 install_rdf
-"
+'
 w
-"
+'
 )
 as
 f
@@ -425,9 +425,9 @@ path
 join
 (
 here
-"
+'
 install_manifests
-"
+'
 stubs
 [
 addon_id
@@ -441,9 +441,9 @@ write
 open
 (
 manifest
-"
+'
 r
-"
+'
 )
 .
 read
@@ -474,10 +474,10 @@ or
 addon_id
 )
 +
-"
+'
 .
 xpi
-"
+'
 )
     
 with
@@ -486,9 +486,9 @@ zipfile
 ZipFile
 (
 xpi_file
-"
+'
 w
-"
+'
 )
 as
 x

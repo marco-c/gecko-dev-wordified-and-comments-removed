@@ -116,10 +116,9 @@ local_dict
         
 exec
 (
-            
 compile
 (
-                
+            
 open
 (
 self
@@ -138,7 +137,7 @@ rb
 read
 (
 )
-                
+            
 self
 .
 config
@@ -147,17 +146,13 @@ config
 credentials_file
 "
 ]
-                
-"
+            
+'
 exec
-"
-            
+'
 )
-            
 global_dict
-            
 local_dict
-        
 )
         
 self
@@ -171,6 +166,7 @@ local_dict
 tuxedoUsername
 "
 ]
+                            
 local_dict
 [
 "
@@ -211,23 +207,19 @@ None
 retry_exceptions
 =
 (
-                
 HTTPError
-                
 URLError
-                
+                              
 httplib
 .
 BadStatusLine
-                
+                              
 socket
 .
 timeout
-                
 socket
 .
 error
-            
 )
             
 error_message
@@ -266,18 +258,22 @@ self
 .
 retry
 (
+            
 self
 .
 _api_call
+            
 args
 =
 (
 route
 data
 )
+            
 *
 *
 retry_args
+        
 )
     
 def
@@ -380,13 +376,13 @@ base64
 .
 encodestring
 (
-"
+'
 %
 s
 :
 %
 s
-"
+'
 %
 credentials
 )
@@ -624,7 +620,7 @@ self
 .
 warning
 (
-"
+'
 BadStatusLine
 accessing
 %
@@ -632,7 +628,7 @@ s
 :
 %
 s
-"
+'
 %
 (
 api_url
@@ -681,6 +677,7 @@ product
 s
 "
 %
+                            
 quote
 (
 product_name

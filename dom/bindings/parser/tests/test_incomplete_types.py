@@ -12,7 +12,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -47,7 +46,6 @@ FooInterface
 "
 "
 "
-    
 )
     
 results
@@ -109,6 +107,7 @@ WebIDL
 .
 IDLInterface
 )
+               
 "
 Should
 be
@@ -121,7 +120,6 @@ harness
 .
 check
 (
-        
 iface
 .
 identifier
@@ -129,13 +127,11 @@ identifier
 QName
 (
 )
-        
 "
 :
 :
 TestIncompleteTypes
 "
-        
 "
 Interface
 has
@@ -143,14 +139,12 @@ the
 right
 QName
 "
-    
 )
     
 harness
 .
 check
 (
-        
 iface
 .
 identifier
@@ -166,7 +160,6 @@ the
 right
 name
 "
-    
 )
     
 harness
@@ -207,6 +200,7 @@ WebIDL
 .
 IDLAttribute
 )
+               
 "
 Should
 be
@@ -235,6 +229,7 @@ WebIDL
 .
 IDLMethod
 )
+               
 "
 Should
 be
@@ -247,7 +242,6 @@ harness
 .
 check
 (
-        
 attr
 .
 identifier
@@ -255,7 +249,6 @@ identifier
 QName
 (
 )
-        
 "
 :
 :
@@ -264,7 +257,7 @@ TestIncompleteTypes
 :
 attr1
 "
-        
+                  
 "
 Attribute
 has
@@ -272,14 +265,12 @@ the
 right
 QName
 "
-    
 )
     
 harness
 .
 check
 (
-        
 attr
 .
 type
@@ -288,6 +279,7 @@ name
 "
 FooInterface
 "
+                  
 "
 Previously
 unresolved
@@ -297,14 +289,12 @@ the
 right
 name
 "
-    
 )
     
 harness
 .
 check
 (
-        
 method
 .
 identifier
@@ -312,7 +302,6 @@ identifier
 QName
 (
 )
-        
 "
 :
 :
@@ -321,7 +310,7 @@ TestIncompleteTypes
 :
 method1
 "
-        
+                  
 "
 Attribute
 has
@@ -329,7 +318,6 @@ the
 right
 QName
 "
-    
 )
     
 (
@@ -350,13 +338,13 @@ harness
 .
 check
 (
-        
 returnType
 .
 name
 "
 FooInterface
 "
+                  
 "
 Previously
 unresolved
@@ -366,14 +354,12 @@ the
 right
 name
 "
-    
 )
     
 harness
 .
 check
 (
-        
 args
 [
 0
@@ -382,11 +368,10 @@ args
 type
 .
 name
-        
 "
 FooInterface
 "
-        
+                  
 "
 Previously
 unresolved
@@ -396,5 +381,4 @@ the
 right
 name
 "
-    
 )

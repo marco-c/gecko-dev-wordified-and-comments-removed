@@ -67,19 +67,19 @@ path
 .
 expanduser
 (
-"
+'
 ~
-"
+'
 )
-"
+'
 .
 mozbuild
-"
-"
+'
+'
 android
 -
 device
-"
+'
 )
 EMULATOR_AUTH_FILE
 =
@@ -89,25 +89,24 @@ path
 .
 join
 (
-    
 os
 .
 path
 .
 expanduser
 (
-"
+'
 ~
-"
+'
 )
-"
+'
 .
 emulator_console_auth_token
-"
+'
 )
 TOOLTOOL_PATH
 =
-"
+'
 testing
 /
 mozharness
@@ -117,10 +116,10 @@ external_tools
 tooltool
 .
 py
-"
+'
 TRY_URL
 =
-"
+'
 https
 :
 /
@@ -138,10 +137,10 @@ raw
 file
 /
 default
-"
+'
 MANIFEST_PATH
 =
-"
+'
 testing
 /
 config
@@ -149,7 +148,7 @@ config
 tooltool
 -
 manifests
-"
+'
 SHORT_TIMEOUT
 =
 10
@@ -180,7 +179,7 @@ object
 "
 "
 "
-    
+       
 Simple
 class
 to
@@ -197,15 +196,14 @@ description
 def
 __init__
 (
-        
 self
 description
 name
 tooltool_manifest
 toolchain_job
+                 
 extra_args
 x86
-    
 )
 :
         
@@ -216,7 +214,7 @@ tooltool_manifest
 and
 toolchain_job
 )
-(
+\
             
 "
 %
@@ -232,8 +230,6 @@ both
 "
 %
 description
-        
-)
         
 self
 .
@@ -324,33 +320,32 @@ AVD_DICT
 =
 {
     
-"
+'
 arm
 -
 4
 .
 3
-"
+'
 :
 AvdInfo
 (
-        
-"
+'
 Android
 4
 .
 3
-"
-        
-"
+'
+                       
+'
 mozemulator
 -
 4
 .
 3
-"
-        
-"
+'
+                       
+'
 testing
 /
 config
@@ -366,47 +361,45 @@ mach
 emulator
 .
 manifest
-"
-        
+'
+                       
 None
-        
+                       
 [
-"
+'
 -
 skip
 -
 adb
 -
 auth
-"
-"
+'
+'
 -
 verbose
-"
-"
+'
+'
 -
 show
 -
 kernel
-"
+'
 ]
-        
+                       
 False
-    
 )
     
-"
+'
 x86
 -
 7
 .
 0
-"
+'
 :
 AvdInfo
 (
-        
-"
+'
 Android
 7
 .
@@ -414,9 +407,9 @@ Android
 x86
 /
 x86_64
-"
-        
-"
+'
+                       
+'
 mozemulator
 -
 x86
@@ -424,9 +417,9 @@ x86
 7
 .
 0
-"
-        
-"
+'
+                       
+'
 testing
 /
 config
@@ -442,69 +435,60 @@ mach
 emulator
 .
 manifest
-"
-        
+'
+                       
 None
-        
+                       
 [
-            
-"
+'
 -
 skip
 -
 adb
 -
 auth
-"
-            
-"
+'
+'
 -
 verbose
-"
-            
-"
+'
+'
 -
 show
 -
 kernel
-"
-            
-"
+'
+                        
+'
 -
 ranchu
-"
-            
-"
+'
+                        
+'
 -
 selinux
-"
-            
-"
+'
+'
 permissive
-"
-            
-"
+'
+                        
+'
 -
 memory
-"
-            
-"
+'
+'
 3072
-"
-            
-"
+'
+'
 -
 cores
-"
-            
-"
+'
+'
 4
-"
-        
+'
 ]
-        
+                       
 True
-    
 )
 }
 def
@@ -522,9 +506,9 @@ adb_path
 _find_sdk_exe
 (
 substs
-"
+'
 adb
-"
+'
 False
 )
     
@@ -535,15 +519,14 @@ adb_path
         
 adb_path
 =
-"
+'
 adb
-"
+'
     
 device
 =
 ADBDeviceFactory
 (
-        
 adb
 =
 adb_path
@@ -553,7 +536,6 @@ verbose_logging
 device
 =
 device_serial
-    
 )
     
 return
@@ -615,27 +597,26 @@ join
 (
 path
 host_platform
-"
+'
 hostutils
 .
 manifest
-"
+'
 )
         
 _get_tooltool_manifest
 (
-            
 build_obj
 .
 substs
 path
 EMULATOR_HOME_DIR
-"
+                               
+'
 releng
 .
 manifest
-"
-        
+'
 )
         
 _tooltool_fetch
@@ -658,12 +639,12 @@ path
 join
 (
 EMULATOR_HOME_DIR
-"
+'
 host
 -
 utils
 *
-"
+'
 )
 )
         
@@ -689,7 +670,6 @@ path
 .
 isfile
 (
-                
 os
 .
 path
@@ -701,7 +681,6 @@ _get_xpcshell_name
 (
 )
 )
-            
 )
 :
                 
@@ -709,9 +688,9 @@ os
 .
 environ
 [
-"
+'
 MOZ_HOST_BIN
-"
+'
 ]
 =
 path
@@ -760,7 +739,6 @@ not
 supported
 !
 "
-        
 )
 def
 _get_xpcshell_name
@@ -771,7 +749,7 @@ _get_xpcshell_name
 "
 "
 "
-    
+       
 Returns
 the
 xpcshell
@@ -796,9 +774,9 @@ system
     
 xpcshell_binary
 =
-"
+'
 xpcshell
-"
+'
     
 if
 os
@@ -806,18 +784,18 @@ os
 name
 =
 =
-"
+'
 nt
-"
+'
 :
         
 xpcshell_binary
 =
-"
+'
 xpcshell
 .
 exe
-"
+'
     
 return
 xpcshell_binary
@@ -831,7 +809,7 @@ build_obj
 "
 "
 "
-    
+       
 Compare
 the
 installed
@@ -846,7 +824,7 @@ in
 the
 manifest
 ;
-    
+       
 if
 the
 installed
@@ -879,12 +857,12 @@ path
 join
 (
 EMULATOR_HOME_DIR
-"
+'
 host
 -
 utils
 *
-"
+'
 )
 )
     
@@ -910,7 +888,6 @@ path
 .
 isfile
 (
-            
 os
 .
 path
@@ -922,7 +899,6 @@ _get_xpcshell_name
 (
 )
 )
-        
 )
 :
             
@@ -989,20 +965,20 @@ join
 (
 path
 host_platform
-"
+'
 hostutils
 .
 manifest
-"
+'
 )
         
 with
 open
 (
 manifest_path
-"
+'
 r
-"
+'
 )
 as
 f
@@ -1027,6 +1003,7 @@ search
 '
 .
 *
+\
 "
 (
 host
@@ -1036,6 +1013,7 @@ utils
 .
 *
 )
+\
 "
 '
 line
@@ -1095,7 +1073,6 @@ date
             
 _log_info
 (
-                
 "
 You
 have
@@ -1108,19 +1085,19 @@ s
 is
 available
 "
-                
 %
+                      
 (
 existing_version
 manifest_version
 )
-            
 )
             
 response
 =
 input
 (
+                
 "
 Update
 host
@@ -1147,16 +1124,16 @@ lower
 .
 startswith
 (
-"
+'
 y
-"
+'
 )
 or
 response
 =
 =
-"
-"
+'
+'
 :
                 
 parts
@@ -1172,10 +1149,10 @@ existing_path
                 
 backup_dir
 =
-"
+'
 _backup
 -
-"
+'
 +
 parts
 [
@@ -1212,35 +1189,28 @@ build_obj
 def
 verify_android_device
 (
-    
 build_obj
-    
 install
 =
 InstallIntent
 .
 NO
-    
 xre
 =
 False
-    
 debugger
 =
 False
-    
+                          
 network
 =
 False
-    
 verbose
 =
 False
-    
 app
 =
 None
-    
 device_serial
 =
 None
@@ -1250,7 +1220,7 @@ None
 "
 "
 "
-    
+       
 Determine
 if
 any
@@ -1261,7 +1231,7 @@ connected
 via
 adb
 .
-    
+       
 If
 no
 device
@@ -1273,7 +1243,7 @@ start
 an
 emulator
 .
-    
+       
 If
 a
 device
@@ -1288,7 +1258,7 @@ and
 install
 '
 is
-    
+       
 specified
 also
 check
@@ -1298,7 +1268,7 @@ is
 installed
 on
 the
-    
+       
 device
 ;
 if
@@ -1308,7 +1278,7 @@ to
 install
 Firefox
 .
-    
+       
 If
 '
 xre
@@ -1321,7 +1291,7 @@ with
 MOZ_HOST_BIN
 is
 set
-    
+       
 to
 a
 valid
@@ -1337,11 +1307,11 @@ not
 prompt
 to
 set
-    
+       
 one
 up
 .
-    
+       
 If
 '
 debugger
@@ -1355,7 +1325,7 @@ JimDB
 is
 installed
 ;
-    
+       
 if
 JimDB
 is
@@ -1367,7 +1337,7 @@ set
 up
 JimDB
 .
-    
+       
 If
 '
 network
@@ -1381,11 +1351,11 @@ the
 device
 has
 basic
-    
+       
 network
 connectivity
 .
-    
+       
 Returns
 True
 if
@@ -1397,7 +1367,7 @@ or
 another
 device
 was
-    
+       
 already
 connected
 .
@@ -1424,7 +1394,6 @@ NO
         
 _log_info
 (
-            
 "
 Found
 MOZ_DISABLE_ADB_INSTALL
@@ -1434,11 +1403,10 @@ skipping
 android
 app
 "
-            
+                  
 "
 installation
 "
-        
 )
     
 device_verified
@@ -1449,9 +1417,9 @@ emulator
 =
 AndroidEmulator
 (
-"
+'
 *
-"
+'
 substs
 =
 build_obj
@@ -1469,9 +1437,9 @@ _find_sdk_exe
 build_obj
 .
 substs
-"
+'
 adb
-"
+'
 False
 )
     
@@ -1482,9 +1450,9 @@ adb_path
         
 adb_path
 =
-"
+'
 adb
-"
+'
     
 adbhost
 =
@@ -1513,16 +1481,16 @@ SHORT_TIMEOUT
 )
     
 if
-"
+'
 device
-"
+'
 in
 [
 d
 [
-"
+'
 state
-"
+'
 ]
 for
 d
@@ -1564,7 +1532,6 @@ Y
 n
 )
 "
-        
 )
 .
 strip
@@ -1580,16 +1547,16 @@ lower
 .
 startswith
 (
-"
+'
 y
-"
+'
 )
 or
 response
 =
 =
-"
-"
+'
+'
 :
             
 if
@@ -1620,7 +1587,6 @@ update_avd
             
 _log_info
 (
-                
 "
 Starting
 emulator
@@ -1632,12 +1598,12 @@ s
 .
 "
 %
+                      
 emulator
 .
 get_avd_description
 (
 )
-            
 )
             
 emulator
@@ -1689,15 +1655,15 @@ devices
 if
 d
 [
-"
+'
 state
-"
+'
 ]
 =
 =
-"
+'
 device
-"
+'
 :
                 
 os
@@ -1711,9 +1677,9 @@ DEVICE_SERIAL
 =
 d
 [
-"
+'
 device_serial
-"
+'
 ]
                 
 break
@@ -1758,8 +1724,8 @@ device_serial
         
 response
 =
-"
-"
+'
+'
         
 installed
 =
@@ -1796,15 +1762,15 @@ app
 )
         
 if
-"
+'
 fennec
-"
+'
 in
 app
 or
-"
+'
 firefox
-"
+'
 in
 app
 :
@@ -1842,9 +1808,10 @@ directory
 "
 target
 =
-"
+'
 install
-"
+'
+                                
 ensure_exit_code
 =
 False
@@ -1854,7 +1821,7 @@ elif
 app
 =
 =
-"
+'
 org
 .
 mozilla
@@ -1862,7 +1829,7 @@ mozilla
 geckoview
 .
 test
-"
+'
 :
             
 if
@@ -1890,11 +1857,11 @@ AndroidTest
             
 sub
 =
-"
+'
 geckoview
 :
 installWithGeckoBinariesDebugAndroidTest
-"
+'
             
 build_obj
 .
@@ -1905,9 +1872,9 @@ commands
 dispatch
 (
                 
-"
+'
 gradle
-"
+'
 build_obj
 .
 _mach_context
@@ -1916,20 +1883,19 @@ args
 [
 sub
 ]
-            
 )
         
 elif
 app
 =
 =
-"
+'
 org
 .
 mozilla
 .
 geckoview_example
-"
+'
 :
             
 if
@@ -1956,11 +1922,11 @@ geckoview_example
             
 sub
 =
-"
+'
 install
 -
 geckoview_example
-"
+'
             
 build_obj
 .
@@ -1971,9 +1937,9 @@ commands
 dispatch
 (
                 
-"
+'
 android
-"
+'
 build_obj
 .
 _mach_context
@@ -1984,7 +1950,6 @@ args
 =
 [
 ]
-            
 )
         
 elif
@@ -2039,7 +2004,6 @@ Enter
 "
 %
 app
-            
 )
         
 device
@@ -2062,9 +2026,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_HOST_BIN
-"
+'
 )
         
 err
@@ -2078,8 +2042,6 @@ xre_path
             
 err
 =
-(
-                
 "
 environment
 variable
@@ -2091,14 +2053,13 @@ to
 a
 directory
 "
-                
+\
+                  
 "
 containing
 host
 xpcshell
 "
-            
-)
         
 elif
 not
@@ -2114,14 +2075,14 @@ xre_path
             
 err
 =
-"
+'
 MOZ_HOST_BIN
 does
 not
 specify
 a
 directory
-"
+'
         
 elif
 not
@@ -2147,14 +2108,14 @@ _get_xpcshell_name
             
 err
 =
-"
+'
 MOZ_HOST_BIN
 /
 xpcshell
 does
 not
 exist
-"
+'
         
 if
 err
@@ -2178,12 +2139,12 @@ path
 join
 (
 EMULATOR_HOME_DIR
-"
+'
 host
 -
 utils
 *
-"
+'
 )
 )
             
@@ -2265,6 +2226,7 @@ response
 =
 input
 (
+                
 "
 Download
 and
@@ -2294,16 +2256,16 @@ lower
 .
 startswith
 (
-"
+'
 y
-"
+'
 )
 or
 response
 =
 =
-"
-"
+'
+'
 :
                 
 _install_host_utils
@@ -2327,9 +2289,9 @@ environ
 .
 get
 (
-"
+'
 DEVICE_SERIAL
-"
+'
 )
         
 if
@@ -2337,9 +2299,9 @@ not
 serial
 or
 (
-"
+'
 emulator
-"
+'
 not
 in
 serial
@@ -2396,7 +2358,6 @@ address
                     
 _log_warning
 (
-                        
 "
 tests
 may
@@ -2409,7 +2370,6 @@ the
 device
 !
 "
-                    
 )
                 
 else
@@ -2466,7 +2426,6 @@ e
                 
 _log_warning
 (
-                    
 "
 unable
 to
@@ -2484,12 +2443,10 @@ str
 (
 e
 )
-                
 )
                 
 _log_warning
 (
-                    
 "
 tests
 may
@@ -2502,7 +2459,6 @@ the
 device
 !
 "
-                
 )
         
 else
@@ -2549,9 +2505,9 @@ _find_sdk_exe
 build_obj
 .
 substs
-"
+'
 adb
-"
+'
 False
 )
 def
@@ -2627,7 +2583,7 @@ object
 "
 "
 "
-    
+        
 Support
 running
 the
@@ -2638,21 +2594,21 @@ an
 AVD
 from
 Mozilla
-    
+        
 test
 automation
 .
-    
+        
 Example
 usage
 :
-        
+            
 emulator
 =
 AndroidEmulator
 (
 )
-        
+            
 if
 not
 emulator
@@ -2667,7 +2623,7 @@ is_available
 (
 )
 :
-            
+                
 if
 not
 emulator
@@ -2676,25 +2632,25 @@ check_avd
 (
 )
 :
-                
+                    
 emulator
 .
 update_avd
 (
 )
-            
+                
 emulator
 .
 start
 (
 )
-            
+                
 emulator
 .
 wait_for_start
 (
 )
-            
+                
 emulator
 .
 wait
@@ -2737,9 +2693,9 @@ self
 .
 emulator_path
 =
-"
+'
 emulator
-"
+'
         
 verbose_logging
 =
@@ -2854,7 +2810,7 @@ self
 "
 "
 "
-        
+           
 Returns
 True
 if
@@ -2876,9 +2832,9 @@ _find_sdk_exe
 self
 .
 substs
-"
+'
 adb
-"
+'
 False
 )
         
@@ -2889,9 +2845,9 @@ adb_path
             
 adb_path
 =
-"
+'
 adb
-"
+'
         
 adbhost
 =
@@ -2925,15 +2881,15 @@ devs
 (
 d
 [
-"
+'
 device_serial
-"
+'
 ]
 d
 [
-"
+'
 state
-"
+'
 ]
 )
 for
@@ -2949,14 +2905,14 @@ devs
         
 if
 (
-"
+'
 emulator
 -
 5554
-"
-"
+'
+'
 device
-"
+'
 )
 in
 devs
@@ -2978,7 +2934,7 @@ self
 "
 "
 "
-        
+           
 Returns
 True
 if
@@ -3004,9 +2960,9 @@ _find_sdk_exe
 self
 .
 substs
-"
+'
 emulator
-"
+'
 True
 )
         
@@ -3040,7 +2996,7 @@ False
 "
 "
 "
-        
+           
 Determine
 if
 the
@@ -3050,7 +3006,7 @@ already
 installed
 locally
 .
-        
+           
 (
 This
 is
@@ -3064,14 +3020,14 @@ update_avd
 )
 is
 likely
-        
+           
 to
 require
 a
 download
 .
 )
-        
+           
 Returns
 True
 if
@@ -3093,20 +3049,21 @@ path
 .
 join
 (
+            
 EMULATOR_HOME_DIR
-"
+'
 avd
-"
+'
 self
 .
 avd_info
 .
 name
 +
-"
+'
 .
 avd
-"
+'
 )
         
 if
@@ -3172,7 +3129,7 @@ False
 "
 "
 "
-        
+           
 If
 required
 update
@@ -3181,7 +3138,7 @@ AVD
 via
 tooltool
 .
-        
+           
 If
 the
 AVD
@@ -3195,7 +3152,7 @@ force
 "
 is
 requested
-        
+           
 download
 the
 tooltool
@@ -3206,7 +3163,7 @@ the
 AVD
 and
 then
-        
+           
 invoke
 tooltool
 .
@@ -3221,7 +3178,7 @@ py
 will
 download
 the
-        
+           
 required
 archive
 (
@@ -3232,7 +3189,7 @@ in
 the
 local
 tooltool
-        
+           
 cache
 )
 and
@@ -3253,20 +3210,21 @@ path
 .
 join
 (
+            
 EMULATOR_HOME_DIR
-"
+'
 avd
-"
+'
 self
 .
 avd_info
 .
 name
 +
-"
+'
 .
 avd
-"
+'
 )
         
 ini_file
@@ -3277,20 +3235,21 @@ path
 .
 join
 (
+            
 EMULATOR_HOME_DIR
-"
+'
 avd
-"
+'
 self
 .
 avd_info
 .
 name
 +
-"
+'
 .
 ini
-"
+'
 )
         
 if
@@ -3331,12 +3290,12 @@ path
 join
 (
 EMULATOR_HOME_DIR
-"
+'
 AVD
 *
 .
 checksum
-"
+'
 )
 )
 :
@@ -3396,18 +3355,16 @@ tooltool_manifest
                 
 _get_tooltool_manifest
 (
-                    
 self
 .
 substs
 path
 EMULATOR_HOME_DIR
-"
+'
 releng
 .
 manifest
-"
-                
+'
 )
                 
 _tooltool_fetch
@@ -3440,8 +3397,7 @@ else
 raise
 Exception
 (
-                    
-"
+'
 either
 a
 tooltool
@@ -3452,8 +3408,7 @@ toolchain
 job
 is
 required
-"
-                
+'
 )
             
 self
@@ -3475,7 +3430,7 @@ None
 "
 "
 "
-        
+           
 Launch
 the
 emulator
@@ -3492,9 +3447,9 @@ avd_info
 .
 x86
 and
-"
+'
 linux
-"
+'
 in
 _get_host_platform
 (
@@ -3542,9 +3497,9 @@ auth_file
 open
 (
 EMULATOR_AUTH_FILE
-"
+'
 w
-"
+'
 )
         
 auth_file
@@ -3561,9 +3516,9 @@ environ
         
 env
 [
-"
+'
 ANDROID_AVD_HOME
-"
+'
 ]
 =
 os
@@ -3603,9 +3558,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_EMULATOR_COMMAND_ARGS
-"
+'
 )
         
 if
@@ -3647,10 +3602,10 @@ command
 +
 =
 [
-"
+'
 -
 gpu
-"
+'
 gpu_arg
 ]
                 
@@ -3670,13 +3625,13 @@ command
 +
 =
 [
-"
+'
 -
 gpu
-"
-"
+'
+'
 on
-"
+'
 ]
             
 if
@@ -3688,36 +3643,33 @@ extra_args
 :
                 
 if
-(
-                    
 _get_host_platform
 (
 )
 in
 (
-"
+'
 macosx64
-"
-"
+'
+'
 win32
-"
+'
 )
-                    
 and
-"
+\
+                   
+'
 -
 enable
 -
 kvm
-"
+'
 in
 self
 .
 avd_info
 .
 extra_args
-                
-)
 :
                     
 self
@@ -3728,12 +3680,12 @@ extra_args
 .
 remove
 (
-"
+'
 -
 enable
 -
 kvm
-"
+'
 )
                 
 command
@@ -3754,11 +3706,11 @@ path
 join
 (
 EMULATOR_HOME_DIR
-"
+'
 emulator
 .
 log
-"
+'
 )
         
 self
@@ -3768,10 +3720,10 @@ emulator_log
 open
 (
 log_path
-"
+'
 w
 +
-"
+'
 )
         
 _log_debug
@@ -3788,8 +3740,9 @@ command
 s
 "
 %
-"
-"
+                   
+'
+'
 .
 join
 (
@@ -3812,6 +3765,7 @@ s
 '
 "
 %
+                   
 log_path
 )
         
@@ -3823,31 +3777,26 @@ subprocess
 .
 Popen
 (
-            
 command
-            
 env
 =
 env
-            
 stdin
 =
 subprocess
 .
 PIPE
-            
+                                     
 stdout
 =
 self
 .
 emulator_log
-            
 stderr
 =
 self
 .
 emulator_log
-        
 )
         
 _log_debug
@@ -3881,7 +3830,7 @@ self
 "
 "
 "
-        
+           
 Verify
 that
 the
@@ -3893,7 +3842,7 @@ emulator
 device
 is
 visible
-        
+           
 to
 adb
 and
@@ -3957,9 +3906,9 @@ _find_sdk_exe
 self
 .
 substs
-"
+'
 adb
-"
+'
 False
 )
         
@@ -3970,9 +3919,9 @@ adb_path
             
 adb_path
 =
-"
+'
 adb
-"
+'
         
 adbhost
 =
@@ -4006,15 +3955,15 @@ devs
 (
 d
 [
-"
+'
 device_serial
-"
+'
 ]
 d
 [
-"
+'
 state
-"
+'
 ]
 )
 for
@@ -4025,14 +3974,14 @@ devs
         
 while
 (
-"
+'
 emulator
 -
 5554
-"
-"
+'
+'
 device
-"
+'
 )
 not
 in
@@ -4074,15 +4023,15 @@ devs
 (
 d
 [
-"
+'
 device_serial
-"
+'
 ]
 d
 [
-"
+'
 state
-"
+'
 ]
 )
 for
@@ -4138,8 +4087,8 @@ complete
             
 output
 =
-"
-"
+'
+'
             
 try
 :
@@ -4150,11 +4099,11 @@ device
 .
 get_prop
 (
-"
+'
 sys
 .
 boot_completed
-"
+'
 timeout
 =
 5
@@ -4174,9 +4123,9 @@ strip
 )
 =
 =
-"
+'
 1
-"
+'
 :
                 
 complete
@@ -4237,7 +4186,6 @@ x86
             
 _log_info
 (
-                
 "
 Running
 the
@@ -4257,7 +4205,6 @@ x86_64
 APK
 !
 "
-            
 )
         
 else
@@ -4327,8 +4274,6 @@ readlines
 :
                         
 if
-(
-                            
 "
 Invalid
 value
@@ -4338,7 +4283,6 @@ gpu
 "
 in
 line
-                            
 or
 "
 Invalid
@@ -4347,8 +4291,6 @@ mode
 "
 in
 line
-                        
-)
 :
                             
 self
@@ -4387,7 +4329,6 @@ restarted
                 
 _log_warning
 (
-                    
 "
 Emulator
 failed
@@ -4403,7 +4344,6 @@ of
 date
 .
 "
-                
 )
                 
 _log_warning
@@ -4457,16 +4397,15 @@ path
 join
 (
 EMULATOR_HOME_DIR
-"
+'
 emulator
 .
 log
-"
+'
 )
             
 _log_warning
 (
-                
 "
 See
 log
@@ -4487,7 +4426,6 @@ information
 "
 %
 log_path
-            
 )
             
 return
@@ -4506,7 +4444,7 @@ self
 "
 "
 "
-        
+           
 Wait
 for
 the
@@ -4577,7 +4515,7 @@ self
 "
 "
 "
-        
+           
 Close
 the
 emulator
@@ -4608,7 +4546,7 @@ self
 "
 "
 "
-        
+           
 Return
 the
 human
@@ -4804,10 +4742,10 @@ line
 .
 startswith
 (
-"
+'
 path
 =
-"
+'
 )
 :
                     
@@ -4829,7 +4767,7 @@ f
 .
 write
 (
-"
+'
 path
 =
 %
@@ -4841,8 +4779,9 @@ s
 avd
 \
 n
-"
+'
 %
+                            
 (
 avd_path
 self
@@ -4858,12 +4797,12 @@ line
 .
 startswith
 (
-"
+'
 path
 .
 rel
 =
-"
+'
 )
 :
                     
@@ -4871,7 +4810,7 @@ f
 .
 write
 (
-"
+'
 path
 .
 rel
@@ -4884,7 +4823,7 @@ s
 avd
 \
 n
-"
+'
 %
 self
 .
@@ -4933,9 +4872,9 @@ expected
 .
 encode
 (
-"
+'
 ascii
-"
+'
 )
         
 return
@@ -4976,9 +4915,9 @@ command
 .
 encode
 (
-"
+'
 ascii
-"
+'
 )
         
 telnet
@@ -5015,12 +4954,12 @@ self
 _telnet_write
 (
 telnet
-"
+'
 %
 s
 \
 n
-"
+'
 %
 command
 )
@@ -5032,9 +4971,9 @@ self
 _telnet_read_until
 (
 telnet
-"
+'
 OK
-"
+'
 10
 )
         
@@ -5070,8 +5009,10 @@ tn
 None
         
 while
+(
 not
 telnet_ok
+)
 :
             
 try
@@ -5083,9 +5024,9 @@ telnetlib
 .
 Telnet
 (
-"
+'
 localhost
-"
+'
 5554
 10
 )
@@ -5102,9 +5043,9 @@ self
 _telnet_read_until
 (
 tn
-"
+'
 OK
-"
+'
 10
 )
                     
@@ -5113,10 +5054,10 @@ self
 _telnet_cmd
 (
 tn
-"
+'
 avd
 status
-"
+'
 )
                     
 self
@@ -5124,10 +5065,10 @@ self
 _telnet_cmd
 (
 tn
-"
+'
 redir
 list
-"
+'
 )
                     
 self
@@ -5135,10 +5076,10 @@ self
 _telnet_cmd
 (
 tn
-"
+'
 network
 status
-"
+'
 )
                     
 self
@@ -5146,11 +5087,11 @@ self
 _telnet_write
 (
 tn
-"
+'
 quit
 \
 n
-"
+'
 )
                     
 tn
@@ -5284,48 +5225,48 @@ self
 .
 substs
 [
-"
+'
 TARGET_CPU
-"
+'
 ]
 .
 startswith
 (
-"
+'
 arm
-"
+'
 )
 :
                 
 return
-"
+'
 x86
 -
 7
 .
 0
-"
+'
             
 else
 :
                 
 return
-"
+'
 arm
 -
 4
 .
 3
-"
+'
         
 return
-"
+'
 x86
 -
 7
 .
 0
-"
+'
 def
 _find_sdk_exe
 (
@@ -5342,12 +5283,12 @@ tools
 subdirs
 =
 [
-"
+'
 emulator
-"
-"
+'
+'
 tools
-"
+'
 ]
     
 else
@@ -5356,11 +5297,11 @@ else
 subdirs
 =
 [
-"
+'
 platform
 -
 tools
-"
+'
 ]
     
 found
@@ -5408,6 +5349,7 @@ else
                 
 _log_debug
 (
+                    
 "
 Unable
 to
@@ -5442,14 +5384,15 @@ upper
 )
     
 if
+(
 os
 .
 name
 =
 =
-"
+'
 nt
-"
+'
 and
 not
 exe
@@ -5460,20 +5403,21 @@ lower
 .
 endswith
 (
-"
+'
 .
 exe
-"
+'
+)
 )
 :
         
 exe
 +
 =
-"
+'
 .
 exe
-"
+'
     
 if
 not
@@ -5489,9 +5433,9 @@ os
 .
 environ
 [
-"
+'
 ANDROID_SDK_ROOT
-"
+'
 ]
             
 for
@@ -5508,6 +5452,7 @@ path
 .
 join
 (
+                    
 android_sdk_root
 subdir
 exe
@@ -5535,6 +5480,7 @@ else
                     
 _log_debug
 (
+                        
 "
 Unable
 to
@@ -5574,10 +5520,10 @@ environ
 .
 get
 (
-            
-"
+'
 MOZBUILD_STATE_PATH
-"
+'
+                                       
 os
 .
 path
@@ -5590,16 +5536,15 @@ path
 .
 join
 (
-"
+'
 ~
-"
-"
+'
+'
 .
 mozbuild
-"
+'
 )
 )
-        
 )
         
 for
@@ -5616,14 +5561,15 @@ path
 .
 join
 (
+                
 mozbuild_path
-"
+'
 android
 -
 sdk
 -
 linux
-"
+'
 subdir
 exe
 )
@@ -5650,6 +5596,7 @@ else
                 
 _log_debug
 (
+                    
 "
 Unable
 to
@@ -5812,9 +5759,9 @@ with
 open
 (
 prop_path
-"
+'
 r
-"
+'
 )
 as
 f
@@ -5853,7 +5800,6 @@ strip
                         
 _log_debug
 (
-                            
 "
 .
 .
@@ -5873,7 +5819,6 @@ s
 prop_path
 line
 )
-                        
 )
                         
 break
@@ -6039,9 +5984,9 @@ join
 path
 filename
 )
-"
+'
 wb
-"
+'
 )
     
 local_file
@@ -6137,9 +6082,9 @@ False
 if
 substs
 and
-"
+'
 top_srcdir
-"
+'
 in
 substs
 :
@@ -6154,9 +6099,9 @@ join
 (
 substs
 [
-"
+'
 top_srcdir
-"
+'
 ]
 src_path
 )
@@ -6255,9 +6200,9 @@ join
 (
 substs
 [
-"
+'
 top_srcdir
-"
+'
 ]
 TOOLTOOL_PATH
 )
@@ -6265,33 +6210,27 @@ TOOLTOOL_PATH
 command
 =
 [
-        
 sys
 .
 executable
-        
 tooltool_full_path
-        
-"
+               
+'
 fetch
-"
-        
-"
+'
+'
 -
 o
-"
-        
-"
+'
+'
 -
 m
-"
-        
-"
+'
+'
 releng
 .
 manifest
-"
-    
+'
 ]
     
 try
@@ -6356,9 +6295,9 @@ join
 build_obj
 .
 topsrcdir
-"
+'
 mach
-"
+'
 )
     
 mach_binary
@@ -6422,31 +6361,25 @@ executable
 cmd
 =
 [
-        
 sys
 .
 executable
-        
 mach_binary
-        
-"
+'
 artifact
-"
-        
-"
+'
+'
 toolchain
-"
-        
-"
+'
+           
+'
 -
 -
 from
 -
 build
-"
-        
+'
 toolchain_job
-    
 ]
     
 if
@@ -6457,13 +6390,13 @@ cmd
 +
 =
 [
-"
+'
 -
 -
 no
 -
 unpack
-"
+'
 ]
     
 subprocess
@@ -6486,9 +6419,9 @@ plat
 None
     
 if
-"
+'
 darwin
-"
+'
 in
 str
 (
@@ -6504,14 +6437,14 @@ lower
         
 plat
 =
-"
+'
 macosx64
-"
+'
     
 elif
-"
+'
 win32
-"
+'
 in
 str
 (
@@ -6527,14 +6460,14 @@ lower
         
 plat
 =
-"
+'
 win32
-"
+'
     
 elif
-"
+'
 linux
-"
+'
 in
 str
 (
@@ -6549,9 +6482,9 @@ lower
 :
         
 if
-"
+'
 64
-"
+'
 in
 platform
 .
@@ -6565,18 +6498,18 @@ architecture
             
 plat
 =
-"
+'
 linux64
-"
+'
         
 else
 :
             
 plat
 =
-"
+'
 linux32
-"
+'
     
 return
 plat
@@ -6592,9 +6525,9 @@ emulator_path
 _find_sdk_exe
 (
 substs
-"
+'
 emulator
-"
+'
 True
 )
     
@@ -6605,20 +6538,20 @@ emulator_path
         
 emulator_path
 =
-"
+'
 emulator
-"
+'
     
 command
 =
 [
 emulator_path
-"
+'
 -
 accel
 -
 check
-"
+'
 ]
     
 try
@@ -6654,23 +6587,23 @@ out
 .
 decode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
         
 if
-"
+'
 is
 installed
 and
 usable
-"
+'
 in
-"
-"
+'
+'
 .
 join
 (

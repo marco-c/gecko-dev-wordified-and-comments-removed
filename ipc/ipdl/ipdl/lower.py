@@ -69,9 +69,9 @@ segmentcapacitydict
 )
 :
         
-"
-"
-"
+'
+'
+'
 returns
 |
 [
@@ -87,16 +87,15 @@ File
 |
 representing
 the
-        
 lowered
 form
 of
 |
 tu
 |
-"
-"
-"
+'
+'
+'
         
 tu
 .
@@ -120,19 +119,19 @@ File
 (
 name
 +
-"
+'
 .
 h
-"
+'
 )
 File
 (
 name
 +
-"
+'
 .
 cpp
-"
+'
 )
         
 _GenerateProtocolCode
@@ -176,30 +175,25 @@ name
 parentheader
 parentcpp
 =
-(
-                
 File
 (
 pname
 +
-"
+'
 Parent
 .
 h
-"
+'
 )
-                
 File
 (
 pname
 +
-"
+'
 Parent
 .
 cpp
-"
-)
-            
+'
 )
             
 _GenerateProtocolParentCode
@@ -212,12 +206,11 @@ lower
 tu
 pname
 +
-"
+'
 Parent
-"
+'
 parentheader
 parentcpp
-            
 )
             
 childheader
@@ -227,21 +220,21 @@ File
 (
 pname
 +
-"
+'
 Child
 .
 h
-"
+'
 )
 File
 (
 pname
 +
-"
+'
 Child
 .
 cpp
-"
+'
 )
             
 _GenerateProtocolChildCode
@@ -254,12 +247,11 @@ lower
 tu
 pname
 +
-"
+'
 Child
-"
+'
 childheader
 childcpp
-            
 )
             
 headers
@@ -330,10 +322,9 @@ _DISCLAIMER
 =
 Whitespace
 (
-    
-"
-"
-"
+'
+'
+'
 /
 /
 /
@@ -352,9 +343,9 @@ own
 risk
 /
 /
-"
-"
-"
+'
+'
+'
 )
 class
 _struct
@@ -371,9 +362,9 @@ namespaces
     
 pfx
 =
-"
+'
 /
-"
+'
 .
 join
 (
@@ -395,9 +386,9 @@ pfx
 return
 pfx
 +
-"
+'
 /
-"
+'
 +
 name
     
@@ -419,9 +410,9 @@ tu
 filetype
 =
 =
-"
+'
 header
-"
+'
     
 return
 _namespacedHeaderName
@@ -439,8 +430,8 @@ _protocolHeaderName
 p
 side
 =
-"
-"
+'
+'
 )
 :
     
@@ -485,15 +476,15 @@ re
 sub
 (
 r
-"
+'
 [
 .
 /
 ]
-"
-"
+'
+'
 _
-"
+'
 headerfile
 .
 name
@@ -516,16 +507,17 @@ return
 [
 CppDirective
 (
-"
+'
 ifndef
-"
+'
 guard
 )
+            
 CppDirective
 (
-"
+'
 define
-"
+'
 guard
 )
 ]
@@ -547,14 +539,14 @@ return
 [
 CppDirective
 (
-"
+'
 endif
-"
-"
+'
+'
 /
 /
 ifndef
-"
+'
 +
 guard
 )
@@ -573,9 +565,9 @@ name
 (
 )
 +
-"
+'
 MsgStart
-"
+'
 def
 _protocolId
 (
@@ -706,13 +698,13 @@ ExprCall
 ExprSelect
 (
 actor
-"
+'
 -
 >
-"
-"
+'
+'
 Id
-"
+'
 )
 )
     
@@ -721,9 +713,9 @@ ExprCall
 (
 ExprVar
 (
-"
+'
 Id
-"
+'
 )
 )
 def
@@ -737,12 +729,12 @@ return
 ExprSelect
 (
 actorhandle
-"
+'
 .
-"
-"
+'
+'
 mId
-"
+'
 )
 def
 _backstagePass
@@ -755,7 +747,7 @@ ExprCall
 (
 ExprVar
 (
-"
+'
 mozilla
 :
 :
@@ -763,7 +755,7 @@ ipc
 :
 :
 PrivateIPDLInterface
-"
+'
 )
 )
 def
@@ -776,9 +768,9 @@ ptr
 return
 Type
 (
-"
+'
 PickleIterator
-"
+'
 ptr
 =
 ptr
@@ -792,9 +784,9 @@ _deleteId
 return
 ExprVar
 (
-"
+'
 Msg___delete____ID
-"
+'
 )
 def
 _deleteReplyId
@@ -805,9 +797,9 @@ _deleteReplyId
 return
 ExprVar
 (
-"
+'
 Reply___delete____ID
-"
+'
 )
 def
 _lookupListener
@@ -821,9 +813,9 @@ ExprCall
 (
 ExprVar
 (
-"
+'
 Lookup
-"
+'
 )
 args
 =
@@ -933,7 +925,6 @@ side
 return
 _makeForwardDeclForQClass
 (
-        
 _actorName
 (
 ptype
@@ -943,12 +934,12 @@ qname
 baseid
 side
 )
+                                     
 ptype
 .
 qname
 .
 quals
-    
 )
 def
 _makeForwardDecl
@@ -1106,14 +1097,14 @@ isInterrupt
 :
         
 return
-"
+'
 Call
-"
+'
     
 return
-"
+'
 Send
-"
+'
 def
 _recvPrefix
 (
@@ -1153,14 +1144,14 @@ isInterrupt
 :
         
 return
-"
+'
 Answer
-"
+'
     
 return
-"
+'
 Recv
-"
+'
 def
 _flatTypeName
 (
@@ -1185,10 +1176,8 @@ be
 used
 as
 an
-    
 identifier
 .
-    
 E
 .
 g
@@ -1224,9 +1213,9 @@ isArray
 :
         
 return
-"
+'
 ArrayOf
-"
+'
 +
 ipdltype
 .
@@ -1251,9 +1240,9 @@ isMaybe
 :
         
 return
-"
+'
 Maybe
-"
+'
 +
 ipdltype
 .
@@ -1298,7 +1287,6 @@ Actor
 *
 type
 .
-    
 For
 example
 :
@@ -1319,7 +1307,6 @@ ActorParent
 |
 so
 this
-    
 function
 would
 return
@@ -1336,20 +1323,21 @@ Actor
 "
     
 return
+(
 ipdltype
 .
 isIPDL
 (
 )
+            
 and
 (
-        
 ipdltype
 .
 isActor
 (
 )
-        
+                 
 or
 (
 ipdltype
@@ -1357,6 +1345,7 @@ ipdltype
 hasBaseType
 (
 )
+                     
 and
 _hasVisibleActor
 (
@@ -1365,7 +1354,7 @@ ipdltype
 basetype
 )
 )
-    
+)
 )
 def
 _abortIfFalse
@@ -1378,15 +1367,16 @@ msg
 return
 StmtExpr
 (
-        
 ExprCall
 (
+        
 ExprVar
 (
-"
+'
 MOZ_RELEASE_ASSERT
-"
+'
 )
+        
 [
 cond
 ExprLiteral
@@ -1397,7 +1387,6 @@ msg
 )
 ]
 )
-    
 )
 def
 _refptr
@@ -1409,9 +1398,9 @@ T
 return
 Type
 (
-"
+'
 RefPtr
-"
+'
 T
 =
 T
@@ -1426,9 +1415,9 @@ T
 return
 Type
 (
-"
+'
 UniquePtr
-"
+'
 T
 =
 T
@@ -1443,9 +1432,9 @@ T
 return
 Type
 (
-"
+'
 already_AddRefed
-"
+'
 T
 =
 T
@@ -1466,9 +1455,9 @@ False
 return
 Type
 (
-"
+'
 Tuple
-"
+'
 T
 =
 types
@@ -1495,9 +1484,9 @@ inner
 =
 Type
 (
-"
+'
 Private
-"
+'
 )
 if
 resolver
@@ -1507,9 +1496,9 @@ None
 return
 Type
 (
-"
+'
 MozPromise
-"
+'
 T
 =
 [
@@ -1577,20 +1566,21 @@ side
 return
 _promise
 (
-        
 resolvetype
+                    
 _ResponseRejectReason
 .
 Type
 (
 )
+                    
 ExprLiteral
 .
 TRUE
+                    
 resolver
 =
 resolver
-    
 )
 def
 _makeResolver
@@ -1649,8 +1639,8 @@ TypeFunction
 Decl
 (
 resolvetype
-"
-"
+'
+'
 )
 ]
 )
@@ -1670,9 +1660,9 @@ False
 return
 Type
 (
-"
+'
 nsTArray
-"
+'
 T
 =
 basetype
@@ -1702,32 +1692,27 @@ False
 return
 Type
 (
-        
-"
+'
 mozilla
 :
 :
 Maybe
-"
-        
+'
 T
 =
 basetype
-        
 const
 =
 const
-        
 ref
 =
 ref
-        
+                
 hasimplicitcopyctor
 =
 basetype
 .
 hasimplicitcopyctor
-    
 )
 def
 _cxxManagedContainerType
@@ -1745,13 +1730,13 @@ False
 return
 Type
 (
-        
-"
+'
 ManagedContainer
-"
+'
 T
 =
 basetype
+                
 const
 =
 const
@@ -1761,7 +1746,6 @@ ref
 hasimplicitcopyctor
 =
 False
-    
 )
 def
 _cxxLifecycleProxyType
@@ -1775,7 +1759,7 @@ False
 return
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -1783,7 +1767,7 @@ ipc
 :
 :
 ActorLifecycleProxy
-"
+'
 ptr
 =
 ptr
@@ -1802,13 +1786,14 @@ ExprCall
 ExprSelect
 (
 managees
-"
+'
 .
-"
-"
+'
+'
 PutEntry
-"
+'
 )
+                    
 args
 =
 [
@@ -1829,13 +1814,14 @@ ExprCall
 ExprSelect
 (
 managees
-"
+'
 .
-"
-"
+'
+'
 RemoveEntry
-"
+'
 )
+                    
 args
 =
 [
@@ -1855,12 +1841,12 @@ ExprCall
 ExprSelect
 (
 managees
-"
+'
 .
-"
-"
+'
+'
 Clear
-"
+'
 )
 )
 def
@@ -1877,12 +1863,12 @@ ExprCall
 ExprSelect
 (
 managees
-"
+'
 .
-"
-"
+'
+'
 Contains
-"
+'
 )
 args
 =
@@ -1907,13 +1893,13 @@ ExprCall
 ExprSelect
 (
 actor
-"
+'
 -
 >
-"
-"
+'
+'
 GetLifecycleProxy
-"
+'
 )
 )
 def
@@ -1929,9 +1915,9 @@ return
 StmtCode
 (
         
-"
-"
-"
+'
+'
+'
         
 mozilla
 :
@@ -1962,9 +1948,9 @@ proxy
 )
 ;
         
-"
-"
-"
+'
+'
+'
         
 actor
 =
@@ -1973,7 +1959,6 @@ or
 ExprVar
 .
 THIS
-    
 )
 def
 _otherSide
@@ -1986,29 +1971,29 @@ if
 side
 =
 =
-"
+'
 child
-"
+'
 :
         
 return
-"
+'
 parent
-"
+'
     
 if
 side
 =
 =
-"
+'
 parent
-"
+'
 :
         
 return
-"
+'
 child
-"
+'
     
 assert
 0
@@ -2024,9 +2009,9 @@ return
 StmtCode
 (
         
-"
-"
-"
+'
+'
+'
         
 if
 (
@@ -2052,9 +2037,9 @@ stmts
         
 }
         
-"
-"
-"
+'
+'
+'
         
 proto
 =
@@ -2063,7 +2048,6 @@ topLevelProtocol
 stmts
 =
 stmts
-    
 )
 def
 _printErrorMessage
@@ -2092,13 +2076,14 @@ msg
 return
 StmtExpr
 (
+        
 ExprCall
 (
 ExprVar
 (
-"
+'
 NS_ERROR
-"
+'
 )
 args
 =
@@ -2134,12 +2119,11 @@ msg
 return
 StmtExpr
 (
-        
 ExprCall
 (
 ExprVar
 (
-"
+'
 mozilla
 :
 :
@@ -2147,15 +2131,15 @@ ipc
 :
 :
 ProtocolErrorBreakpoint
-"
+'
 )
+                             
 args
 =
 [
 msg
 ]
 )
-    
 )
 def
 _printWarningMessage
@@ -2184,13 +2168,14 @@ msg
 return
 StmtExpr
 (
+        
 ExprCall
 (
 ExprVar
 (
-"
+'
 NS_WARNING
-"
+'
 )
 args
 =
@@ -2209,13 +2194,14 @@ msg
 return
 StmtExpr
 (
+        
 ExprCall
 (
 ExprVar
 (
-"
+'
 FatalError
-"
+'
 )
 args
 =
@@ -2244,7 +2230,7 @@ ExprCall
 (
 ExprVar
 (
-"
+'
 mozilla
 :
 :
@@ -2252,7 +2238,7 @@ ipc
 :
 :
 LogicError
-"
+'
 )
 args
 =
@@ -2265,7 +2251,6 @@ msg
 )
 ]
 )
-    
 )
 def
 _sentinelReadError
@@ -2280,10 +2265,9 @@ StmtExpr
         
 ExprCall
 (
-            
 ExprVar
 (
-"
+'
 mozilla
 :
 :
@@ -2291,9 +2275,9 @@ ipc
 :
 :
 SentinelReadError
-"
+'
 )
-            
+                 
 args
 =
 [
@@ -2304,9 +2288,7 @@ String
 classname
 )
 ]
-        
 )
-    
 )
 class
 _Result
@@ -2323,72 +2305,72 @@ Type
 return
 Type
 (
-"
+'
 Result
-"
+'
 )
     
 Processed
 =
 ExprVar
 (
-"
+'
 MsgProcessed
-"
+'
 )
     
 NotKnown
 =
 ExprVar
 (
-"
+'
 MsgNotKnown
-"
+'
 )
     
 NotAllowed
 =
 ExprVar
 (
-"
+'
 MsgNotAllowed
-"
+'
 )
     
 PayloadError
 =
 ExprVar
 (
-"
+'
 MsgPayloadError
-"
+'
 )
     
 ProcessingError
 =
 ExprVar
 (
-"
+'
 MsgProcessingError
-"
+'
 )
     
 RouteError
 =
 ExprVar
 (
-"
+'
 MsgRouteError
-"
+'
 )
     
 ValuError
 =
 ExprVar
 (
-"
+'
 MsgValueError
-"
+'
 )
 def
 errfnSend
@@ -2404,14 +2386,17 @@ FALSE
     
 return
 [
+        
 _fatalError
 (
 msg
 )
+        
 StmtReturn
 (
 errcode
 )
+    
 ]
 def
 errfnSendCtor
@@ -2419,7 +2404,6 @@ errfnSendCtor
 msg
 )
 :
-    
 return
 errfnSend
 (
@@ -2439,13 +2423,16 @@ msg
     
 return
 [
+        
 _printErrorMessage
 (
 msg
 )
+        
 StmtReturn
 .
 FALSE
+    
 ]
 def
 errfnRecv
@@ -2461,14 +2448,17 @@ ValuError
     
 return
 [
+        
 _fatalError
 (
 msg
 )
+        
 StmtReturn
 (
 errcode
 )
+    
 ]
 def
 errfnSentinel
@@ -2511,9 +2501,9 @@ _destroyMethod
 return
 ExprVar
 (
-"
+'
 ActorDestroy
-"
+'
 )
 def
 errfnUnreachable
@@ -2524,10 +2514,12 @@ msg
     
 return
 [
+        
 _logicError
 (
 msg
 )
+    
 ]
 class
 _DestroyReason
@@ -2540,58 +2532,57 @@ Type
 (
 )
 :
-        
 return
 Type
 (
-"
+'
 ActorDestroyReason
-"
+'
 )
     
 Deletion
 =
 ExprVar
 (
-"
+'
 Deletion
-"
+'
 )
     
 AncestorDeletion
 =
 ExprVar
 (
-"
+'
 AncestorDeletion
-"
+'
 )
     
 NormalShutdown
 =
 ExprVar
 (
-"
+'
 NormalShutdown
-"
+'
 )
     
 AbnormalShutdown
 =
 ExprVar
 (
-"
+'
 AbnormalShutdown
-"
+'
 )
     
 FailedConstructor
 =
 ExprVar
 (
-"
+'
 FailedConstructor
-"
+'
 )
 class
 _ResponseRejectReason
@@ -2608,57 +2599,57 @@ Type
 return
 Type
 (
-"
+'
 ResponseRejectReason
-"
+'
 )
     
 SendError
 =
 ExprVar
 (
-"
+'
 ResponseRejectReason
 :
 :
 SendError
-"
+'
 )
     
 ChannelClosed
 =
 ExprVar
 (
-"
+'
 ResponseRejectReason
 :
 :
 ChannelClosed
-"
+'
 )
     
 HandlerRejected
 =
 ExprVar
 (
-"
+'
 ResponseRejectReason
 :
 :
 HandlerRejected
-"
+'
 )
     
 ActorDestroyed
 =
 ExprVar
 (
-"
+'
 ResponseRejectReason
 :
 :
 ActorDestroyed
-"
+'
 )
 class
 _ConvertToCxxType
@@ -2993,7 +2984,6 @@ self
 p
 )
 :
-        
 assert
 0
     
@@ -3004,7 +2994,6 @@ self
 m
 )
 :
-        
 assert
 0
     
@@ -3015,7 +3004,6 @@ self
 v
 )
 :
-        
 assert
 0
 def
@@ -3384,34 +3372,32 @@ basetype
         
 return
 (
-            
 ipdltype
 .
 isShmem
 (
 )
-            
 or
+                
 ipdltype
 .
 isByteBuf
 (
 )
-            
 or
+                
 ipdltype
 .
 isEndpoint
 (
 )
-            
 or
+                
 ipdltype
 .
 isManagedEndpoint
 (
 )
-        
 )
     
 return
@@ -3508,13 +3494,12 @@ isUnion
 return
 any
 (
-                
 _cxxTypeCanOnlyMove
 (
 t
 visited
 )
-                
+                       
 for
 t
 in
@@ -3523,13 +3508,11 @@ ipdltype
 itercomponents
 (
 )
-                
 if
 t
 not
 in
 visited
-            
 )
         
 return
@@ -3752,9 +3735,9 @@ side
 :
     
 return
-"
+'
 Alloc
-"
+'
 +
 ptype
 .
@@ -3776,9 +3759,9 @@ side
 :
     
 return
-"
+'
 Dealloc
-"
+'
 +
 ptype
 .
@@ -3813,7 +3796,6 @@ C
 +
 +
 type
-    
 info
 needed
 by
@@ -3938,7 +3920,6 @@ type
 which
 is
 not
-        
 necessarily
 a
 C
@@ -4721,9 +4702,9 @@ thisexpr
 None
 sel
 =
-"
+'
 .
-"
+'
 )
 :
         
@@ -4785,9 +4766,9 @@ ref
 ExprSelect
 (
 thisexpr
-"
+'
 .
-"
+'
 ref
 .
 name
@@ -4816,9 +4797,9 @@ thisexpr
 )
         
 if
-"
+'
 Shmem
-"
+'
 =
 =
 self
@@ -4837,9 +4818,9 @@ ExprCast
 refexpr
 Type
 (
-"
+'
 Shmem
-"
+'
 ref
 =
 True
@@ -4850,9 +4831,9 @@ True
 )
         
 if
-"
+'
 ByteBuf
-"
+'
 =
 =
 self
@@ -4871,9 +4852,9 @@ ExprCast
 refexpr
 Type
 (
-"
+'
 ByteBuf
-"
+'
 ref
 =
 True
@@ -4884,9 +4865,9 @@ True
 )
         
 if
-"
+'
 FileDescriptor
-"
+'
 =
 =
 self
@@ -4905,9 +4886,9 @@ ExprCast
 refexpr
 Type
 (
-"
+'
 FileDescriptor
-"
+'
 ref
 =
 True
@@ -4930,9 +4911,9 @@ self
 return
 ExprVar
 (
-"
+'
 _
-"
+'
 +
 self
 .
@@ -4953,9 +4934,9 @@ self
 .
 name
 +
-"
+'
 _
-"
+'
 )
 class
 UnionDecl
@@ -4983,9 +4964,9 @@ func
 =
 ExprVar
 (
-"
+'
 type
-"
+'
 )
         
 if
@@ -5000,9 +4981,9 @@ func
 ExprSelect
 (
 var
-"
+'
 .
-"
+'
 func
 .
 name
@@ -5070,7 +5051,6 @@ int
 )
 of
 an
-    
 IPDL
 union
 type
@@ -5127,9 +5107,9 @@ __init__
 (
 self
 ipdltype
-"
+'
 V
-"
+'
 +
 flatname
 side
@@ -5200,9 +5180,9 @@ self
 :
         
 return
-"
+'
 T
-"
+'
 +
 self
 .
@@ -5298,12 +5278,12 @@ else
 return
 Type
 (
-"
+'
 mozilla
 :
 :
 AlignedStorage2
-"
+'
 T
 =
 self
@@ -5325,13 +5305,13 @@ ExprSelect
 (
 ExprVar
 (
-"
+'
 mValue
-"
+'
 )
-"
+'
 .
-"
+'
 self
 .
 name
@@ -5349,9 +5329,9 @@ self
 .
 flattypename
 +
-"
+'
 __tdef
-"
+'
     
 def
 callGetConstPtr
@@ -5469,8 +5449,6 @@ True
 )
         
 elif
-(
-            
 self
 .
 ipdltype
@@ -5478,7 +5456,6 @@ ipdltype
 isIPDL
 (
 )
-            
 and
 self
 .
@@ -5487,15 +5464,12 @@ ipdltype
 isArray
 (
 )
-            
 and
 not
 isinstance
 (
 rhs
 ExprMove
-)
-        
 )
 :
             
@@ -5506,12 +5480,12 @@ ExprCall
 ExprSelect
 (
 rhs
-"
+'
 .
-"
-"
+'
+'
 Clone
-"
+'
 )
 args
 =
@@ -5597,8 +5571,6 @@ True
 ]
         
 elif
-(
-            
 self
 .
 ipdltype
@@ -5606,7 +5578,6 @@ ipdltype
 isIPDL
 (
 )
-            
 and
 self
 .
@@ -5615,15 +5586,12 @@ ipdltype
 isArray
 (
 )
-            
 and
 not
 isinstance
 (
 expr
 ExprMove
-)
-        
 )
 :
             
@@ -5635,12 +5603,12 @@ ExprCall
 ExprSelect
 (
 expr
-"
+'
 .
-"
-"
+'
+'
 Clone
-"
+'
 )
 args
 =
@@ -5667,12 +5635,12 @@ recursive
 return
 ExprAssn
 (
-                
 self
 .
 callGetPtr
 (
 )
+                            
 ExprNew
 (
 self
@@ -5683,11 +5651,11 @@ self
 .
 side
 )
+                                    
 args
 =
 args
 )
-            
 )
         
 else
@@ -5696,7 +5664,6 @@ else
 return
 ExprNew
 (
-                
 self
 .
 bareType
@@ -5705,22 +5672,22 @@ self
 .
 side
 )
-                
+                           
 args
 =
 args
-                
+                           
 newargs
 =
 [
 ExprVar
 (
-"
+'
 mozilla
 :
 :
 KnownNotNull
-"
+'
 )
 self
 .
@@ -5728,7 +5695,6 @@ callGetPtr
 (
 )
 ]
-            
 )
     
 def
@@ -5760,6 +5726,7 @@ else
 return
 ExprCall
 (
+                
 ExprSelect
 (
 self
@@ -5767,13 +5734,13 @@ self
 callGetPtr
 (
 )
-"
+'
 -
 >
-"
-"
+'
+'
 ~
-"
+'
 +
 self
 .
@@ -5789,11 +5756,10 @@ getTypeName
 self
 )
 :
-        
 return
-"
+'
 get_
-"
+'
 +
 self
 .
@@ -5805,11 +5771,10 @@ getConstTypeName
 self
 )
 :
-        
 return
-"
+'
 get_
-"
+'
 +
 self
 .
@@ -5821,11 +5786,10 @@ getOtherTypeName
 self
 )
 :
-        
 return
-"
+'
 get_
-"
+'
 +
 self
 .
@@ -5837,11 +5801,10 @@ getPtrName
 self
 )
 :
-        
 return
-"
+'
 ptr_
-"
+'
 +
 self
 .
@@ -5853,11 +5816,10 @@ getConstPtrName
 self
 )
 :
-        
 return
-"
+'
 constptr_
-"
+'
 +
 self
 .
@@ -5918,12 +5880,12 @@ ExprCall
 ExprSelect
 (
 v
-"
+'
 .
-"
-"
+'
+'
 addr
-"
+'
 )
 )
     
@@ -5979,12 +5941,12 @@ ExprCall
 ExprSelect
 (
 v
-"
+'
 .
-"
-"
+'
+'
 addr
-"
+'
 )
 )
     
@@ -6097,9 +6059,9 @@ callGetConstPtr
 )
         
 if
-"
+'
 ByteBuf
-"
+'
 =
 =
 self
@@ -6118,9 +6080,9 @@ ExprCast
 v
 Type
 (
-"
+'
 ByteBuf
-"
+'
 ref
 =
 True
@@ -6131,9 +6093,9 @@ True
 )
         
 if
-"
+'
 Shmem
-"
+'
 =
 =
 self
@@ -6152,9 +6114,9 @@ ExprCast
 v
 Type
 (
-"
+'
 Shmem
-"
+'
 ref
 =
 True
@@ -6165,9 +6127,9 @@ True
 )
         
 if
-"
+'
 FileDescriptor
-"
+'
 =
 =
 self
@@ -6186,9 +6148,9 @@ ExprCast
 v
 Type
 (
-"
+'
 FileDescriptor
-"
+'
 ref
 =
 True
@@ -6262,9 +6224,9 @@ isCtor
 name
 +
 =
-"
+'
 Constructor
-"
+'
         
 return
 name
@@ -6308,9 +6270,9 @@ isCtor
 name
 +
 =
-"
+'
 Constructor
-"
+'
         
 return
 name
@@ -6324,7 +6286,6 @@ self
         
 return
 (
-            
 self
 .
 decl
@@ -6334,7 +6295,7 @@ type
 hasReply
 (
 )
-            
+                
 or
 self
 .
@@ -6345,7 +6306,7 @@ type
 isCtor
 (
 )
-            
+                
 or
 self
 .
@@ -6356,7 +6317,6 @@ type
 isDtor
 (
 )
-        
 )
     
 def
@@ -6367,6 +6327,7 @@ self
 :
         
 return
+(
 self
 .
 decl
@@ -6377,9 +6338,11 @@ isAsync
 (
 )
 and
+                
 self
 .
 returns
+)
     
 def
 msgCtorFunc
@@ -6389,11 +6352,11 @@ self
 :
         
 return
-"
+'
 Msg_
 %
 s
-"
+'
 %
 (
 self
@@ -6409,8 +6372,8 @@ prettyMsgName
 self
 pfx
 =
-"
-"
+'
+'
 )
 :
         
@@ -6431,14 +6394,14 @@ self
 :
         
 return
-"
+'
 %
 s
 :
 :
 %
 s
-"
+'
 %
 (
 self
@@ -6457,7 +6420,6 @@ msgId
 self
 )
 :
-        
 return
 self
 .
@@ -6465,9 +6427,9 @@ msgCtorFunc
 (
 )
 +
-"
+'
 __ID
-"
+'
     
 def
 pqMsgId
@@ -6477,14 +6439,14 @@ self
 :
         
 return
-"
+'
 %
 s
 :
 :
 %
 s
-"
+'
 %
 (
 self
@@ -6505,11 +6467,11 @@ self
 :
         
 return
-"
+'
 Reply_
 %
 s
-"
+'
 %
 (
 self
@@ -6527,14 +6489,14 @@ self
 :
         
 return
-"
+'
 %
 s
 :
 :
 %
 s
-"
+'
 %
 (
 self
@@ -6553,7 +6515,6 @@ replyId
 self
 )
 :
-        
 return
 self
 .
@@ -6561,9 +6522,9 @@ replyCtorFunc
 (
 )
 +
-"
+'
 __ID
-"
+'
     
 def
 pqReplyId
@@ -6573,14 +6534,14 @@ self
 :
         
 return
-"
+'
 %
 s
 :
 :
 %
 s
-"
+'
 %
 (
 self
@@ -6599,8 +6560,8 @@ prettyReplyName
 self
 pfx
 =
-"
-"
+'
+'
 )
 :
         
@@ -6643,16 +6604,16 @@ isCtor
 name
 +
 =
-"
+'
 Constructor
-"
+'
         
 name
 +
 =
-"
+'
 Promise
-"
+'
         
 return
 name
@@ -6671,9 +6632,9 @@ baseName
 (
 )
 +
-"
+'
 Resolver
-"
+'
     
 def
 actorDecl
@@ -6693,18 +6654,18 @@ params
 def
 makeCxxParams
 (
-        
 self
 paramsems
 =
-"
+'
 in
-"
+'
 returnsems
 =
-"
+'
 out
-"
+'
+                      
 side
 =
 None
@@ -6714,7 +6675,6 @@ True
 direction
 =
 None
-    
 )
 :
         
@@ -6736,7 +6696,6 @@ spec
 d
 configuration
 .
-        
 |
 params
 |
@@ -6786,27 +6745,27 @@ and
 direction
 =
 =
-"
+'
 recv
-"
+'
 :
                 
 assert
 sems
 !
 =
-"
+'
 out
-"
+'
                 
 return
 Decl
 (
 Type
 (
-"
+'
 Tainted
-"
+'
 T
 =
 d
@@ -6825,9 +6784,9 @@ if
 sems
 =
 =
-"
+'
 in
-"
+'
 :
                 
 return
@@ -6848,9 +6807,9 @@ elif
 sems
 =
 =
-"
+'
 move
-"
+'
 :
                 
 return
@@ -6871,9 +6830,9 @@ elif
 sems
 =
 =
-"
+'
 out
-"
+'
 :
                 
 return
@@ -6917,9 +6876,9 @@ rvalref
 =
 True
 )
-"
+'
 aResolve
-"
+'
 )
         
 def
@@ -6974,7 +6933,6 @@ side
 return
 Decl
 (
-                
 Type
 (
 "
@@ -6993,11 +6951,10 @@ rvalref
 =
 True
 )
-                
-"
+                        
+'
 aResolve
-"
-            
+'
 )
         
 def
@@ -7025,9 +6982,9 @@ rvalref
 =
 True
 )
-"
+'
 aReject
-"
+'
 )
         
 cxxparams
@@ -7065,9 +7022,9 @@ if
 returnsems
 =
 =
-"
+'
 promise
-"
+'
 and
 self
 .
@@ -7080,9 +7037,9 @@ elif
 returnsems
 =
 =
-"
+'
 callback
-"
+'
 and
 self
 .
@@ -7093,34 +7050,30 @@ cxxparams
 .
 extend
 (
-                
 [
-                    
 makeCallbackResolveDecl
 (
 self
 .
 returns
 )
-                    
+                              
 makeCallbackRejectDecl
 (
 self
 .
 returns
 )
-                
 ]
-            
 )
         
 elif
 returnsems
 =
 =
-"
+'
 resolver
-"
+'
 and
 self
 .
@@ -7196,27 +7149,26 @@ cxxparams
 def
 makeCxxArgs
 (
-        
 self
 paramsems
 =
-"
+'
 in
-"
+'
 retsems
 =
-"
+'
 out
-"
+'
 retcallsems
 =
-"
+'
 out
-"
+'
+                    
 implicit
 =
 True
-    
 )
 :
         
@@ -7235,18 +7187,17 @@ if
 paramsems
 =
 =
-"
+'
 move
-"
+'
 :
             
 cxxargs
 .
 extend
 (
-                
 [
-                    
+                
 p
 .
 var
@@ -7269,25 +7220,24 @@ var
 (
 )
 )
-                    
+                
 for
 p
 in
 self
 .
 params
-                
-]
             
+]
 )
         
 elif
 paramsems
 =
 =
-"
+'
 in
-"
+'
 :
             
 cxxargs
@@ -7327,18 +7277,18 @@ if
 retsems
 =
 =
-"
+'
 in
-"
+'
 :
                 
 if
 retcallsems
 =
 =
-"
+'
 in
-"
+'
 :
                     
 cxxargs
@@ -7356,9 +7306,9 @@ elif
 retcallsems
 =
 =
-"
+'
 out
-"
+'
 :
                     
 cxxargs
@@ -7385,18 +7335,18 @@ elif
 retsems
 =
 =
-"
+'
 out
-"
+'
 :
                 
 if
 retcallsems
 =
 =
-"
+'
 in
-"
+'
 :
                     
 cxxargs
@@ -7417,9 +7367,9 @@ elif
 retcallsems
 =
 =
-"
+'
 out
-"
+'
 :
                     
 cxxargs
@@ -7443,9 +7393,9 @@ elif
 retsems
 =
 =
-"
+'
 resolver
-"
+'
 :
                 
 pass
@@ -7454,9 +7404,9 @@ if
 retsems
 =
 =
-"
+'
 resolver
-"
+'
 :
             
 cxxargs
@@ -7467,9 +7417,9 @@ ExprMove
 (
 ExprVar
 (
-"
+'
 resolver
-"
+'
 )
 )
 )
@@ -7551,6 +7501,7 @@ type
 .
 ActorType
 (
+                        
 messageDecl
 .
 decl
@@ -7562,12 +7513,10 @@ constructedType
 )
 )
                     
-"
+'
 actor
-"
-                
+'
 )
-            
 )
         
 messageDecl
@@ -7732,7 +7681,7 @@ False
 return
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -7740,7 +7689,7 @@ ipc
 :
 :
 IProtocol
-"
+'
 ptr
 =
 ptr
@@ -7759,7 +7708,7 @@ False
 return
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -7767,7 +7716,8 @@ ipc
 :
 :
 IToplevelProtocol
-"
+'
+                    
 ptr
 =
 ptr
@@ -7837,6 +7787,7 @@ name
 )
 side
 )
+                    
 ptr
 =
 ptr
@@ -7863,21 +7814,21 @@ return
 ExprSelect
 (
 actorThis
-"
+'
 -
 >
-"
-"
+'
+'
 Unregister
-"
+'
 )
         
 return
 ExprVar
 (
-"
+'
 Unregister
-"
+'
 )
     
 def
@@ -7890,9 +7841,9 @@ self
 return
 ExprVar
 (
-"
+'
 RemoveManagee
-"
+'
 )
     
 def
@@ -7905,9 +7856,9 @@ self
 return
 ExprVar
 (
-"
+'
 DeallocManagee
-"
+'
 )
     
 def
@@ -7920,9 +7871,9 @@ self
 return
 ExprVar
 (
-"
+'
 OtherPid
-"
+'
 )
     
 def
@@ -7955,10 +7906,10 @@ fn
 ExprSelect
 (
 actorThis
-"
+'
 -
 >
-"
+'
 fn
 .
 name
@@ -7980,9 +7931,9 @@ self
 return
 ExprVar
 (
-"
+'
 GetIPCChannel
-"
+'
 )
     
 def
@@ -8015,10 +7966,10 @@ fn
 ExprSelect
 (
 actorThis
-"
+'
 -
 >
-"
+'
 fn
 .
 name
@@ -8051,9 +8002,9 @@ isToplevel
 return
 ExprVar
 (
-"
+'
 ProcessingError
-"
+'
 )
     
 def
@@ -8077,9 +8028,9 @@ isToplevel
 return
 ExprVar
 (
-"
+'
 ShouldContinueFromReplyTimeout
-"
+'
 )
     
 def
@@ -8103,9 +8054,9 @@ isToplevel
 return
 ExprVar
 (
-"
+'
 EnteredCxxStack
-"
+'
 )
     
 def
@@ -8129,9 +8080,9 @@ isToplevel
 return
 ExprVar
 (
-"
+'
 ExitedCxxStack
-"
+'
 )
     
 def
@@ -8155,9 +8106,9 @@ isToplevel
 return
 ExprVar
 (
-"
+'
 EnteredCall
-"
+'
 )
     
 def
@@ -8181,9 +8132,9 @@ isToplevel
 return
 ExprVar
 (
-"
+'
 ExitedCall
-"
+'
 )
     
 def
@@ -8211,9 +8162,9 @@ isToplevel
 return
 ExprVar
 (
-"
+'
 MSG_ROUTING_CONTROL
-"
+'
 )
         
 if
@@ -8229,13 +8180,13 @@ ExprCall
 ExprSelect
 (
 actorThis
-"
+'
 -
 >
-"
-"
+'
+'
 Id
-"
+'
 )
 )
         
@@ -8244,9 +8195,9 @@ ExprCall
 (
 ExprVar
 (
-"
+'
 Id
-"
+'
 )
 )
     
@@ -8283,9 +8234,9 @@ ExprCall
 (
 ExprVar
 (
-"
+'
 Manager
-"
+'
 )
 args
 =
@@ -8307,13 +8258,13 @@ ExprCall
 ExprSelect
 (
 thisexpr
-"
+'
 -
 >
-"
-"
+'
+'
 Manager
-"
+'
 )
 args
 =
@@ -8386,9 +8337,9 @@ actortype
 return
 ExprVar
 (
-"
+'
 Managed
-"
+'
 +
 _actorName
 (
@@ -8425,9 +8376,9 @@ actortype
 return
 ExprVar
 (
-"
+'
 mManaged
-"
+'
 +
 _actorName
 (
@@ -8470,7 +8421,6 @@ actortype
 return
 _cxxManagedContainerType
 (
-            
 Type
 (
 _actorName
@@ -8483,13 +8433,13 @@ name
 side
 )
 )
+                                        
 const
 =
 const
 ref
 =
 ref
-        
 )
     
 def
@@ -8570,63 +8520,63 @@ pod_types
 =
 {
     
-"
+'
 int8_t
-"
+'
 :
 1
     
-"
+'
 uint8_t
-"
+'
 :
 1
     
-"
+'
 int16_t
-"
+'
 :
 2
     
-"
+'
 uint16_t
-"
+'
 :
 2
     
-"
+'
 int32_t
-"
+'
 :
 4
     
-"
+'
 uint32_t
-"
+'
 :
 4
     
-"
+'
 int64_t
-"
+'
 :
 8
     
-"
+'
 uint64_t
-"
+'
 :
 8
     
-"
+'
 float
-"
+'
 :
 4
     
-"
+'
 double
-"
+'
 :
 8
 }
@@ -8705,7 +8655,6 @@ IPDL
 AST
 with
 information
-    
 relevant
 to
 C
@@ -8714,7 +8663,6 @@ C
 code
 generation
 .
-    
 This
 pass
 results
@@ -8735,7 +8683,6 @@ IR
 in
 reality
 a
-    
 "
 hybrid
 "
@@ -8752,7 +8699,6 @@ C
 +
 info
 along
-    
 with
 some
 new
@@ -8803,14 +8749,12 @@ typedefSet
 =
 set
 (
-            
 [
-                
 Typedef
 (
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -8818,34 +8762,36 @@ ipc
 :
 :
 ActorHandle
-"
+'
 )
-"
+                                       
+'
 ActorHandle
-"
+'
 )
-                
+                               
 Typedef
 (
 Type
 (
-"
+'
 base
 :
 :
 ProcessId
-"
+'
 )
-"
+                                       
+'
 ProcessId
-"
+'
 )
-                
+                               
 Typedef
 (
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -8853,18 +8799,19 @@ ipc
 :
 :
 ProtocolId
-"
+'
 )
-"
+                                       
+'
 ProtocolId
-"
+'
 )
-                
+                               
 Typedef
 (
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -8872,18 +8819,19 @@ ipc
 :
 :
 Transport
-"
+'
 )
-"
+                                       
+'
 Transport
-"
+'
 )
-                
+                               
 Typedef
 (
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -8891,24 +8839,24 @@ ipc
 :
 :
 Endpoint
-"
+'
 )
-"
+                                       
+'
 Endpoint
-"
+'
 [
-"
+'
 FooSide
-"
+'
 ]
 )
-                
+                               
 Typedef
 (
-                    
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -8916,27 +8864,24 @@ ipc
 :
 :
 ManagedEndpoint
-"
+'
 )
-                    
-"
+                                       
+'
 ManagedEndpoint
-"
-                    
+'
 [
-"
+'
 FooSide
-"
+'
 ]
-                
 )
-                
+                               
 Typedef
 (
-                    
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -8944,41 +8889,41 @@ ipc
 :
 :
 TransportDescriptor
-"
+'
 )
-"
+                                       
+'
 TransportDescriptor
-"
-                
+'
 )
-                
+                               
 Typedef
 (
 Type
 (
-"
+'
 mozilla
 :
 :
 UniquePtr
-"
+'
 )
-"
+                                       
+'
 UniquePtr
-"
+'
 [
-"
+'
 T
-"
+'
 ]
 )
-                
+                               
 Typedef
 (
-                    
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -8986,16 +8931,14 @@ ipc
 :
 :
 ResponseRejectReason
-"
+'
 )
-"
+                                       
+'
 ResponseRejectReason
-"
-                
+'
 )
-            
 ]
-        
 )
         
 self
@@ -9091,9 +9034,9 @@ tu
 filetype
 =
 =
-"
+'
 header
-"
+'
 :
             
 inc
@@ -9176,7 +9119,6 @@ typedefSet
 .
 add
 (
-                
 Typedef
 (
 Type
@@ -9187,13 +9129,13 @@ decl
 .
 fullname
 )
+                                        
 using
 .
 decl
 .
 shortname
 )
-            
 )
     
 def
@@ -9268,11 +9210,12 @@ f
 .
 name
 sd
+                                                  
 side
 =
-"
+'
 parent
-"
+'
 )
 )
                     
@@ -9287,11 +9230,12 @@ f
 .
 name
 sd
+                                                  
 side
 =
-"
+'
 child
-"
+'
 )
 )
                 
@@ -9465,9 +9409,9 @@ ctype
 ud
 side
 =
-"
+'
 parent
-"
+'
 )
 )
                 
@@ -9481,9 +9425,9 @@ ctype
 ud
 side
 =
-"
+'
 child
-"
+'
 )
 )
             
@@ -9640,9 +9584,9 @@ msgenum
 =
 TypeEnum
 (
-"
+'
 MessageType
-"
+'
 )
     
 msgstart
@@ -9656,11 +9600,11 @@ decl
 type
 )
 +
-"
+'
 <
 <
 16
-"
+'
     
 msgenum
 .
@@ -9670,9 +9614,9 @@ protocol
 .
 name
 +
-"
+'
 Start
-"
+'
 msgstart
 )
     
@@ -9738,9 +9682,9 @@ protocol
 .
 name
 +
-"
+'
 End
-"
+'
 )
     
 return
@@ -9756,9 +9700,9 @@ Visitor
 )
 :
     
-"
-"
-"
+'
+'
+'
 Creates
 code
 common
@@ -9770,9 +9714,9 @@ and
 child
 actors
 .
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -10147,9 +10091,9 @@ addthing
 (
 CppDirective
 (
-"
+'
 include
-"
+'
 '
 "
 '
@@ -10250,9 +10194,9 @@ tu
 filetype
 =
 =
-"
+'
 header
-"
+'
 :
             
 self
@@ -10266,10 +10210,10 @@ _ipdlhHeaderName
 tu
 )
 +
-"
+'
 .
 h
-"
+'
 )
         
 hf
@@ -10301,24 +10245,22 @@ cf
 .
 addthings
 (
-            
 (
-                
+            
 [
 _DISCLAIMER
 Whitespace
 .
 NL
 ]
-                
+            
 +
 [
-                    
 CppDirective
 (
-"
+'
 include
-"
+'
 '
 "
 '
@@ -10329,25 +10271,23 @@ h
 "
 '
 )
-                    
+                
 for
 h
 in
 self
 .
 cppIncludeHeaders
-                
 ]
-                
+            
 +
 [
 Whitespace
 .
 NL
 ]
-            
-)
         
+)
 )
         
 if
@@ -10392,10 +10332,12 @@ Whitespace
 .
 NL
 ]
+                         
 +
 self
 .
 funcDefns
+                         
 +
 [
 Whitespace
@@ -10430,9 +10372,9 @@ addthing
 (
 CppDirective
 (
-"
+'
 include
-"
+'
 '
 "
 '
@@ -10482,9 +10424,9 @@ tu
 filetype
 =
 =
-"
+'
 header
-"
+'
 :
             
 self
@@ -10493,12 +10435,12 @@ hdrfile
 .
 addthing
 (
-                
 CppDirective
 (
-"
+                
+'
 include
-"
+'
 '
 "
 '
@@ -10516,7 +10458,6 @@ h
 "
 '
 )
-            
 )
         
 else
@@ -10536,15 +10477,15 @@ inc
 tu
 .
 protocol
-"
+'
 parent
-"
+'
 )
 +
-"
+'
 .
 h
-"
+'
                 
 _protocolHeaderName
 (
@@ -10553,15 +10494,15 @@ inc
 tu
 .
 protocol
-"
+'
 child
-"
+'
 )
 +
-"
+'
 .
 h
-"
+'
             
 ]
     
@@ -10573,9 +10514,9 @@ tu
 )
 :
         
-"
-"
-"
+'
+'
+'
 Generate
 the
 definitions
@@ -10610,9 +10551,9 @@ already
 been
 defined
 .
-"
-"
-"
+'
+'
+'
         
 decls
 =
@@ -10638,9 +10579,9 @@ StructDecl
                 
 which
 =
-"
+'
 struct
-"
+'
                 
 forwarddecls
 fulldecltypes
@@ -10677,9 +10618,9 @@ UnionDecl
                 
 which
 =
-"
+'
 union
-"
+'
                 
 forwarddecls
 fulldecltypes
@@ -10736,10 +10677,8 @@ forwarddecls
                 
 +
 [
-                    
 Whitespace
 (
-                        
 "
 "
 "
@@ -10840,7 +10779,6 @@ s
 "
 "
 "
-                        
 %
 (
 which
@@ -10848,7 +10786,6 @@ su
 .
 name
 )
-                    
 )
                     
 _putInNamespaces
@@ -10866,9 +10803,9 @@ namespaces
 Whitespace
 .
 NL
+                    
 traitsdecl
 ]
-            
 )
             
 self
@@ -10877,12 +10814,10 @@ structUnionDefns
 .
 extend
 (
-                
 [
-                    
+                
 Whitespace
 (
-                        
 "
 "
 "
@@ -10984,7 +10919,6 @@ s
 "
 "
 "
-                        
 %
 (
 which
@@ -10992,9 +10926,8 @@ su
 .
 name
 )
-                    
 )
-                    
+                
 _putInNamespaces
 (
 methoddefns
@@ -11002,15 +10935,14 @@ su
 .
 namespaces
 )
-                    
+                
 Whitespace
 .
 NL
-                    
-traitsdefns
                 
-]
+traitsdefns
             
+]
 )
         
 def
@@ -11109,14 +11041,14 @@ _protocolHeaderName
 self
 .
 protocol
-"
-"
+'
+'
 )
 +
-"
+'
 .
 h
-"
+'
 )
         
 self
@@ -11125,22 +11057,20 @@ cppIncludeHeaders
 .
 append
 (
-            
 _protocolHeaderName
 (
 self
 .
 protocol
-"
+'
 Parent
-"
+'
 )
 +
-"
+'
 .
 h
-"
-        
+'
 )
         
 self
@@ -11149,22 +11079,20 @@ cppIncludeHeaders
 .
 append
 (
-            
 _protocolHeaderName
 (
 self
 .
 protocol
-"
+'
 Child
-"
+'
 )
 +
-"
+'
 .
 h
-"
-        
+'
 )
         
 self
@@ -11173,13 +11101,12 @@ hdrfile
 .
 addthings
 (
-            
 [
-                
+            
 Whitespace
 .
 NL
-                
+            
 _makeForwardDeclForActor
 (
 p
@@ -11187,25 +11114,24 @@ p
 decl
 .
 type
-"
+'
 Parent
-"
-)
-                
-_makeForwardDeclForActor
-(
-p
-.
-decl
-.
-type
-"
-Child
-"
+'
 )
             
-]
+_makeForwardDeclForActor
+(
+p
+.
+decl
+.
+type
+'
+Child
+'
+)
         
+]
 )
         
 self
@@ -11214,10 +11140,8 @@ hdrfile
 .
 addthing
 (
-            
 Whitespace
 (
-                
 "
 "
 "
@@ -11315,7 +11239,6 @@ sParent
 "
 "
 "
-                
 %
 (
 p
@@ -11325,9 +11248,7 @@ p
 .
 name
 )
-            
 )
-        
 )
         
 ns
@@ -11417,8 +11338,8 @@ StmtDecl
 Decl
 (
 msgenum
-"
-"
+'
+'
 )
 )
 Whitespace
@@ -11442,14 +11363,14 @@ decls
             
 name
 =
-"
+'
 %
 s
 :
 :
 %
 s
-"
+'
 %
 (
 md
@@ -11485,11 +11406,11 @@ _generateMessageConstructor
 md
 segmentcapacity
 p
+                                            
 forReply
 =
 False
 )
-            
 )
             
 decls
@@ -11531,7 +11452,6 @@ forReply
 =
 True
 )
-                
 )
                 
 decls
@@ -11605,9 +11525,9 @@ ActorType
 (
 p
 )
-"
+'
 Parent
-"
+'
 fq
 =
 True
@@ -11621,9 +11541,9 @@ ActorType
 (
 p
 )
-"
+'
 Child
-"
+'
 fq
 =
 True
@@ -11633,56 +11553,53 @@ openfunc
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
-"
+            
+'
 CreateEndpoints
-"
-                
+'
+            
 params
 =
 [
-                    
 Decl
 (
 Type
 (
-"
+'
 base
 :
 :
 ProcessId
-"
+'
 )
-"
+'
 aParentDestPid
-"
+'
 )
                     
 Decl
 (
 Type
 (
-"
+'
 base
 :
 :
 ProcessId
-"
+'
 )
-"
+'
 aChildDestPid
-"
+'
 )
                     
 Decl
 (
-                        
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -11691,32 +11608,30 @@ ipc
 :
 Endpoint
 <
-"
+'
 +
 tparent
 .
 name
 +
-"
+'
 >
-"
+'
 ptr
 =
 True
 )
-                        
-"
+                         
+'
 aParent
-"
-                    
+'
 )
                     
 Decl
 (
-                        
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -11725,36 +11640,32 @@ ipc
 :
 Endpoint
 <
-"
+'
 +
 tchild
 .
 name
 +
-"
+'
 >
-"
+'
 ptr
 =
 True
 )
-                        
-"
+                         
+'
 aChild
-"
-                    
+'
 )
-                
 ]
-                
+            
 ret
 =
 Type
 .
 NSRESULT
-            
 )
-        
 )
         
 openfunc
@@ -11762,9 +11673,9 @@ openfunc
 addcode
 (
             
-"
-"
-"
+'
+'
+'
             
 return
 mozilla
@@ -11794,10 +11705,9 @@ aChild
 )
 ;
             
-"
-"
-"
-        
+'
+'
+'
 )
         
 return
@@ -11836,9 +11746,9 @@ replyId
         
 replyEnum
 =
-"
+'
 REPLY
-"
+'
     
 else
 :
@@ -11861,9 +11771,9 @@ msgId
         
 replyEnum
 =
-"
+'
 NOT_REPLY
-"
+'
     
 nested
 =
@@ -11899,21 +11809,20 @@ routingId
 =
 ExprVar
 (
-"
+'
 routingId
-"
+'
 )
     
 func
 =
 FunctionDefn
 (
-        
 FunctionDecl
 (
-            
+        
 clsname
-            
+        
 params
 =
 [
@@ -11921,49 +11830,47 @@ Decl
 (
 Type
 (
-"
+'
 int32_t
-"
+'
 )
 routingId
 .
 name
 )
 ]
-            
+        
 ret
 =
 Type
 (
-"
+'
 IPC
 :
 :
 Message
-"
+'
 ptr
 =
 True
 )
-        
 )
-    
 )
     
 if
 compress
 =
 =
-"
+'
 compress
-"
+'
 :
         
 compression
 =
-"
+'
 COMPRESSION_ENABLED
-"
+'
     
 elif
 compress
@@ -11973,24 +11880,24 @@ assert
 compress
 =
 =
-"
+'
 compressall
-"
+'
         
 compression
 =
-"
+'
 COMPRESSION_ALL
-"
+'
     
 else
 :
         
 compression
 =
-"
+'
 COMPRESSION_NONE
-"
+'
     
 if
 nested
@@ -12005,9 +11912,9 @@ NOT_NESTED
         
 nestedEnum
 =
-"
+'
 NOT_NESTED
-"
+'
     
 elif
 nested
@@ -12022,9 +11929,9 @@ INSIDE_SYNC_NESTED
         
 nestedEnum
 =
-"
+'
 NESTED_INSIDE_SYNC
-"
+'
     
 else
 :
@@ -12041,9 +11948,9 @@ INSIDE_CPOW_NESTED
         
 nestedEnum
 =
-"
+'
 NESTED_INSIDE_CPOW
-"
+'
     
 if
 prio
@@ -12058,9 +11965,9 @@ NORMAL_PRIORITY
         
 prioEnum
 =
-"
+'
 NORMAL_PRIORITY
-"
+'
     
 elif
 prio
@@ -12075,9 +11982,9 @@ INPUT_PRIORITY
         
 prioEnum
 =
-"
+'
 INPUT_PRIORITY
-"
+'
     
 elif
 prio
@@ -12092,18 +11999,18 @@ HIGH_PRIORITY
         
 prioEnum
 =
-"
+'
 HIGH_PRIORITY
-"
+'
     
 else
 :
         
 prioEnum
 =
-"
+'
 MEDIUMHIGH_PRIORITY
-"
+'
     
 if
 md
@@ -12119,18 +12026,18 @@ isSync
         
 syncEnum
 =
-"
+'
 SYNC
-"
+'
     
 else
 :
         
 syncEnum
 =
-"
+'
 ASYNC
-"
+'
     
 if
 md
@@ -12146,18 +12053,18 @@ isInterrupt
         
 interruptEnum
 =
-"
+'
 INTERRUPT
-"
+'
     
 else
 :
         
 interruptEnum
 =
-"
+'
 NOT_INTERRUPT
-"
+'
     
 if
 md
@@ -12173,18 +12080,18 @@ isCtor
         
 ctorEnum
 =
-"
+'
 CONSTRUCTOR
-"
+'
     
 else
 :
         
 ctorEnum
 =
-"
+'
 NOT_CONSTRUCTOR
-"
+'
     
 def
 messageEnum
@@ -12196,14 +12103,14 @@ valname
 return
 ExprVar
 (
-"
+'
 IPC
 :
 :
 Message
 :
 :
-"
+'
 +
 valname
 )
@@ -12212,10 +12119,9 @@ flags
 =
 ExprCall
 (
-        
 ExprVar
 (
-"
+'
 IPC
 :
 :
@@ -12223,50 +12129,47 @@ Message
 :
 :
 HeaderFlags
-"
+'
 )
-        
+                     
 args
 =
 [
-            
 messageEnum
 (
 nestedEnum
 )
-            
+                           
 messageEnum
 (
 prioEnum
 )
-            
+                           
 messageEnum
 (
 compression
 )
-            
+                           
 messageEnum
 (
 ctorEnum
 )
-            
+                           
 messageEnum
 (
 syncEnum
 )
-            
+                           
 messageEnum
 (
 interruptEnum
 )
-            
+                           
 messageEnum
 (
 replyEnum
 )
-        
 ]
-    
 )
     
 segmentSize
@@ -12287,31 +12190,28 @@ addstmt
             
 StmtReturn
 (
-                
 ExprNew
 (
-                    
 Type
 (
-"
+'
 IPC
 :
 :
 Message
-"
+'
 )
-                    
+                               
 args
 =
 [
-                        
 routingId
-                        
+                                     
 ExprVar
 (
 msgid
 )
-                        
+                                     
 ExprLiteral
 .
 Int
@@ -12321,19 +12221,15 @@ int
 segmentSize
 )
 )
-                        
+                                     
 flags
-                        
+                                     
 ExprLiteral
 .
 TRUE
-                    
 ]
-                
 )
-            
 )
-        
 )
     
 else
@@ -12346,13 +12242,11 @@ addstmt
             
 StmtReturn
 (
-                
 ExprCall
 (
-                    
 ExprVar
 (
-"
+'
 IPC
 :
 :
@@ -12360,66 +12254,67 @@ Message
 :
 :
 IPDLMessage
-"
+'
 )
-                    
+                                
 args
 =
 [
 routingId
+                                      
 ExprVar
 (
 msgid
 )
+                                      
 flags
 ]
-                
 )
-            
 )
-        
 )
     
 return
 func
 class
 _ParamTraits
+(
+)
 :
     
 var
 =
 ExprVar
 (
-"
+'
 aVar
-"
+'
 )
     
 msgvar
 =
 ExprVar
 (
-"
+'
 aMsg
-"
+'
 )
     
 itervar
 =
 ExprVar
 (
-"
+'
 aIter
-"
+'
 )
     
 actor
 =
 ExprVar
 (
-"
+'
 aActor
-"
+'
 )
     
 classmethod
@@ -12440,7 +12335,7 @@ cxxside
 =
 ExprVar
 (
-"
+'
 mozilla
 :
 :
@@ -12448,23 +12343,23 @@ ipc
 :
 :
 ChildSide
-"
+'
 )
         
 if
 side
 =
 =
-"
+'
 parent
-"
+'
 :
             
 cxxside
 =
 ExprVar
 (
-"
+'
 mozilla
 :
 :
@@ -12472,21 +12367,21 @@ ipc
 :
 :
 ParentSide
-"
+'
 )
         
 ifstmt
 =
 StmtIf
 (
-            
 ExprBinary
 (
 cxxside
-"
+'
 =
 =
-"
+'
+                                   
 ExprCall
 (
 ExprSelect
@@ -12494,17 +12389,16 @@ ExprSelect
 cls
 .
 actor
-"
+'
 -
 >
-"
-"
+'
+'
 GetSide
-"
+'
 )
 )
 )
-        
 )
         
 ifstmt
@@ -12544,8 +12438,7 @@ reason
 return
 StmtCode
 (
-            
-"
+'
 aActor
 -
 >
@@ -12556,7 +12449,8 @@ reason
 }
 )
 ;
-"
+'
+                        
 reason
 =
 ExprLiteral
@@ -12565,7 +12459,6 @@ String
 (
 reason
 )
-        
 )
     
 classmethod
@@ -12584,22 +12477,22 @@ return
             
 Whitespace
 (
-"
+'
 /
 /
 Sentinel
 =
-"
+'
 +
 repr
 (
 sentinelKey
 )
 +
-"
+'
 \
 n
-"
+'
 indent
 =
 True
@@ -12607,22 +12500,20 @@ True
             
 StmtExpr
 (
-                
 ExprCall
 (
-                    
 ExprSelect
 (
 msgvar
-"
+'
 -
 >
-"
-"
+'
+'
 WriteSentinel
-"
+'
 )
-                    
+                              
 args
 =
 [
@@ -12636,9 +12527,7 @@ sentinelKey
 )
 )
 ]
-                
 )
-            
 )
         
 ]
@@ -12660,19 +12549,18 @@ read
 =
 ExprCall
 (
-            
 ExprSelect
 (
 msgvar
-"
+'
 -
 >
-"
-"
+'
+'
 ReadSentinel
-"
+'
 )
-            
+                        
 args
 =
 [
@@ -12687,7 +12575,6 @@ sentinelKey
 )
 )
 ]
-        
 )
         
 ifsentinel
@@ -12712,22 +12599,22 @@ return
             
 Whitespace
 (
-"
+'
 /
 /
 Sentinel
 =
-"
+'
 +
 repr
 (
 sentinelKey
 )
 +
-"
+'
 \
 n
-"
+'
 indent
 =
 True
@@ -12773,9 +12660,9 @@ ExprCall
 (
 ExprVar
 (
-"
+'
 WriteIPDLParam
-"
+'
 )
 args
 =
@@ -12810,42 +12697,34 @@ Block
 )
         
 if
-(
-            
 ipdltype
-            
 and
 ipdltype
 .
 isIPDL
 (
 )
-            
 and
 ipdltype
 .
 isActor
 (
 )
-            
 and
 not
 ipdltype
 .
 nullable
-        
-)
 :
             
 block
 .
 addstmt
 (
-                
 _abortIfFalse
 (
 var
-"
+'
 NULL
 actor
 value
@@ -12855,18 +12734,16 @@ non
 -
 nullable
 param
-"
+'
 )
-            
 )
         
 block
 .
 addstmts
 (
-            
 [
-                
+            
 StmtExpr
 (
 cls
@@ -12879,9 +12756,8 @@ actor
 ipdltype
 )
 )
-            
-]
         
+]
 )
         
 block
@@ -12911,9 +12787,9 @@ fields
 :
         
 return
-"
+'
 |
-"
+'
 .
 join
 (
@@ -12954,36 +12830,31 @@ block
 .
 addstmts
 (
-            
 [
-                
+            
 StmtExpr
 (
-                    
 ExprCall
 (
-                        
 ExprSelect
 (
 cls
 .
 msgvar
-"
+'
 -
 >
-"
-"
+'
+'
 WriteBytes
-"
+'
 )
-                        
+                              
 args
 =
 [
-                            
 ExprAddrOf
 (
-                                
 ExprCall
 (
 first
@@ -12995,16 +12866,16 @@ thisexpr
 cls
 .
 var
+                                                                        
 sel
 =
-"
+'
 .
-"
+'
 )
 )
-                            
 )
-                            
+                                    
 ExprLiteral
 .
 Int
@@ -13016,15 +12887,11 @@ len
 fields
 )
 )
-                        
 ]
-                    
 )
-                
 )
-            
-]
         
+]
 )
         
 block
@@ -13078,29 +12945,27 @@ readbytes
 =
 ExprCall
 (
-            
 ExprSelect
 (
 cls
 .
 msgvar
-"
+'
 -
 >
-"
-"
+'
+'
 ReadBytesInto
-"
+'
 )
-            
+                             
 args
 =
 [
-                
 cls
 .
 itervar
-                
+                                   
 ExprAddrOf
 (
 ExprCall
@@ -13114,16 +12979,17 @@ thisexpr
 cls
 .
 var
+                                                                       
 sel
 =
-"
+'
 -
 >
-"
+'
 )
 )
 )
-                
+                                   
 ExprLiteral
 .
 Int
@@ -13135,9 +13001,7 @@ len
 fields
 )
 )
-            
 ]
-        
 )
         
 ifbad
@@ -13152,7 +13016,7 @@ readbytes
         
 errmsg
 =
-"
+'
 Error
 bulk
 reading
@@ -13160,7 +13024,7 @@ fields
 from
 %
 s
-"
+'
 %
 first
 .
@@ -13181,6 +13045,7 @@ fatalError
 (
 errmsg
 )
+                          
 StmtReturn
 .
 FALSE
@@ -13198,36 +13063,32 @@ block
 .
 addstmts
 (
-            
 cls
 .
 readSentinel
 (
-                
 cls
 .
 msgvar
-                
+                                        
 cls
 .
 itervar
-                
+                                        
 cls
 .
 bulkSentinelKey
 (
 fields
 )
-                
+                                        
 errfnSentinel
 (
 )
 (
 errmsg
 )
-            
 )
-        
 )
         
 return
@@ -13238,27 +13099,19 @@ classmethod
 def
 checkedRead
 (
-        
 cls
-        
 ipdltype
-        
 var
-        
+                    
 msgvar
-        
 itervar
-        
 errfn
-        
+                    
 paramtype
-        
 sentinelKey
-        
+                    
 errfnSentinel
-        
 actor
-    
 )
 :
         
@@ -13272,18 +13125,17 @@ ifbad
 =
 StmtIf
 (
-            
 ExprNot
 (
-                
 ExprCall
 (
 ExprVar
 (
-"
+'
 ReadIPDLParam
-"
+'
 )
+                                        
 args
 =
 [
@@ -13293,9 +13145,7 @@ actor
 var
 ]
 )
-            
 )
-        
 )
         
 if
@@ -13310,10 +13160,10 @@ list
 paramtype
 =
 [
-"
+'
 Error
 deserializing
-"
+'
 +
 paramtype
 ]
@@ -13337,31 +13187,24 @@ ifbad
 )
         
 if
-(
-            
 ipdltype
-            
 and
 ipdltype
 .
 isIPDL
 (
 )
-            
 and
 ipdltype
 .
 isActor
 (
 )
-            
 and
 not
 ipdltype
 .
 nullable
-        
-)
 :
             
 ifnull
@@ -13399,7 +13242,6 @@ block
 .
 addstmts
 (
-            
 cls
 .
 readSentinel
@@ -13407,13 +13249,13 @@ readSentinel
 msgvar
 itervar
 sentinelKey
+                                        
 errfnSentinel
 (
 *
 paramtype
 )
 )
-        
 )
         
 return
@@ -13459,13 +13301,10 @@ checkedRead
 (
             
 ipdltype
-            
 var
-            
 cls
 .
 msgvar
-            
 cls
 .
 itervar
@@ -13493,7 +13332,6 @@ actor
 cls
 .
 actor
-        
 )
     
 classmethod
@@ -13515,41 +13353,40 @@ pt
 =
 Class
 (
-            
-"
+'
 IPDLParamTraits
-"
-            
+'
+                   
 specializes
 =
 Type
 (
-                
 fortype
 .
 name
+                                    
 T
 =
 fortype
 .
 T
+                                    
 inner
 =
 fortype
 .
 inner
+                                    
 ptr
 =
 fortype
 .
 ptr
-            
 )
-            
+                   
 struct
 =
 True
-        
 )
         
 pt
@@ -13559,9 +13396,9 @@ addstmt
 Typedef
 (
 fortype
-"
+'
 paramType
-"
+'
 )
 )
         
@@ -13569,7 +13406,7 @@ iprotocoltype
 =
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -13577,7 +13414,7 @@ ipc
 :
 :
 IProtocol
-"
+'
 ptr
 =
 True
@@ -13587,9 +13424,9 @@ intype
 =
 Type
 (
-"
+'
 paramType
-"
+'
 ref
 =
 True
@@ -13605,66 +13442,64 @@ MethodDefn
             
 MethodDecl
 (
-                
-"
+'
 Write
-"
-                
+'
+                       
 params
 =
 [
-                    
 Decl
 (
 Type
 (
-"
+'
 IPC
 :
 :
 Message
-"
+'
 ptr
 =
 True
 )
+                                    
 cls
 .
 msgvar
 .
 name
 )
-                    
+                               
 Decl
 (
 iprotocoltype
+                                    
 cls
 .
 actor
 .
 name
 )
-                    
+                               
 Decl
 (
 intype
+                                    
 cls
 .
 var
 .
 name
 )
-                
 ]
-                
+                       
 methodspec
 =
 MethodSpec
 .
 STATIC
-            
 )
-        
 )
         
 writemthd
@@ -13685,9 +13520,9 @@ outtype
 =
 Type
 (
-"
+'
 paramType
-"
+'
 ptr
 =
 True
@@ -13700,25 +13535,23 @@ MethodDefn
             
 MethodDecl
 (
-                
-"
+'
 Read
-"
-                
+'
+                       
 params
 =
 [
-                    
 Decl
 (
 Type
 (
-"
+'
 IPC
 :
 :
 Message
-"
+'
 ptr
 =
 True
@@ -13726,13 +13559,14 @@ const
 =
 True
 )
+                                    
 cls
 .
 msgvar
 .
 name
 )
-                    
+                               
 Decl
 (
 _iterType
@@ -13741,49 +13575,49 @@ ptr
 =
 True
 )
+                                    
 cls
 .
 itervar
 .
 name
 )
-                    
+                               
 Decl
 (
 iprotocoltype
+                                    
 cls
 .
 actor
 .
 name
 )
-                    
+                               
 Decl
 (
 outtype
+                                    
 cls
 .
 var
 .
 name
 )
-                
 ]
-                
+                       
 ret
 =
 Type
 .
 BOOL
-                
+                       
 methodspec
 =
 MethodSpec
 .
 STATIC
-            
 )
-        
 )
         
 readmthd
@@ -13813,15 +13647,15 @@ namespaces
 [
 Namespace
 (
-"
+'
 mozilla
-"
+'
 )
 Namespace
 (
-"
+'
 ipc
-"
+'
 )
 ]
         
@@ -13903,9 +13737,9 @@ write
 StmtCode
 (
             
-"
-"
-"
+'
+'
+'
             
 int32_t
 id
@@ -14054,9 +13888,9 @@ write
 }
 ;
             
-"
-"
-"
+'
+'
+'
             
 var
 =
@@ -14078,9 +13912,9 @@ write
 (
 ExprVar
 (
-"
+'
 id
-"
+'
 )
 cls
 .
@@ -14089,7 +13923,6 @@ cls
 .
 actor
 )
-        
 )
         
 read
@@ -14097,9 +13930,9 @@ read
 StmtCode
 (
             
-"
-"
-"
+'
+'
+'
             
 mozilla
 :
@@ -14181,9 +14014,9 @@ return
 true
 ;
             
-"
-"
-"
+'
+'
+'
             
 actor
 =
@@ -14232,7 +14065,6 @@ var
 cxxtype
 =
 cxxtype
-        
 )
         
 return
@@ -14322,12 +14154,12 @@ itertools
 .
 groupby
 (
-            
 sd
 .
 fields_member_order
 (
 )
+                                                
 lambda
 f
 :
@@ -14337,7 +14169,6 @@ f
 .
 ipdltype
 )
-        
 )
 :
             
@@ -14367,35 +14198,33 @@ cls
 .
 checkedWrite
 (
-                        
 f
 .
 ipdltype
-                        
+                                                  
 get
 (
-"
+'
 .
-"
+'
 f
 )
-                        
+                                                  
 cls
 .
 msgvar
-                        
+                                                  
 sentinelKey
 =
 f
 .
 basename
-                        
+                                                  
 actor
 =
 cls
 .
 actor
-                    
 )
                     
 readfield
@@ -14404,31 +14233,29 @@ cls
 .
 _checkedRead
 (
-                        
 f
 .
 ipdltype
-                        
+                                                 
 ExprAddrOf
 (
 get
 (
-"
+'
 -
 >
-"
+'
 f
 )
 )
-                        
 f
 .
 basename
-                        
-"
+                                                 
 '
-"
-                        
+\
+'
+'
 +
 f
 .
@@ -14437,17 +14264,16 @@ getMethod
 )
 .
 name
-                        
 +
-"
 '
-"
-                        
+\
+'
+'
 +
-"
+                                                 
+'
 (
-"
-                        
+'
 +
 f
 .
@@ -14456,31 +14282,29 @@ ipdltype
 name
 (
 )
-                        
 +
-"
+'
 )
 member
 of
-"
-                        
-+
-"
 '
-"
-                        
++
+                                                 
+'
+\
+'
+'
 +
 structtype
 .
 name
 (
 )
-                        
 +
-"
 '
-"
-                    
+\
+'
+'
 )
                     
 if
@@ -14624,17 +14448,17 @@ _ast
         
 alias
 =
-"
+'
 union__
-"
+'
         
 typevar
 =
 ExprVar
 (
-"
+'
 type
-"
+'
 )
         
 prelude
@@ -14689,12 +14513,14 @@ cls
 .
 checkedWrite
 (
-                
 None
+                             
 typevar
+                             
 cls
 .
 msgvar
+                             
 sentinelKey
 =
 uniontype
@@ -14702,12 +14528,12 @@ uniontype
 name
 (
 )
+                             
 actor
 =
 cls
 .
 actor
-            
 )
             
 Whitespace
@@ -14753,32 +14579,30 @@ cls
 .
 _checkedRead
 (
-                
 None
-                
+                             
 ExprAddrOf
 (
 typevar
 )
-                
+                             
 uniontype
 .
 name
 (
 )
-                
-"
+                             
+'
 type
 of
 union
-"
+'
 +
 uniontype
 .
 name
 (
 )
-            
 )
             
 Whitespace
@@ -14809,10 +14633,10 @@ CaseLabel
 (
 alias
 +
-"
+'
 :
 :
-"
+'
 +
 c
 .
@@ -14841,11 +14665,10 @@ cls
 .
 checkedWrite
 (
-                
 c
 .
 ipdltype
-                
+                                     
 ExprCall
 (
 ExprSelect
@@ -14853,9 +14676,10 @@ ExprSelect
 cls
 .
 var
-"
+'
 .
-"
+'
+                                                         
 c
 .
 getTypeName
@@ -14863,11 +14687,10 @@ getTypeName
 )
 )
 )
-                
+                                     
 cls
 .
 msgvar
-                
 sentinelKey
 =
 c
@@ -14875,13 +14698,12 @@ c
 enum
 (
 )
-                
+                                     
 actor
 =
 cls
 .
 actor
-            
 )
             
 if
@@ -14900,17 +14722,18 @@ c
 .
 side
 wstmt
+                                     
 els
 =
 cls
 .
 fatalError
 (
-"
+'
 wrong
 side
 !
-"
+'
 )
 )
             
@@ -14950,16 +14773,14 @@ readcase
 .
 addstmt
 (
-                    
 cls
 .
 ifsideis
 (
-                        
 c
 .
 side
-                        
+                                              
 StmtBlock
 (
 [
@@ -14967,20 +14788,19 @@ cls
 .
 fatalError
 (
-"
+'
 wrong
 side
 !
-"
+'
 )
+                                                         
 StmtReturn
 .
 FALSE
 ]
 )
-                    
 )
-                
 )
                 
 c
@@ -14993,9 +14813,9 @@ tmpvar
 =
 ExprVar
 (
-"
+'
 tmp
-"
+'
 )
             
 ct
@@ -15013,9 +14833,8 @@ readcase
 .
 addstmts
 (
-                
 [
-                    
+                
 StmtDecl
 (
 Decl
@@ -15036,7 +14855,7 @@ fq
 True
 )
 )
-                    
+                
 StmtExpr
 (
 ExprAssn
@@ -15053,19 +14872,17 @@ tmpvar
 )
 )
 )
-                    
+                
 cls
 .
 _checkedRead
 (
-                        
 c
 .
 ipdltype
-                        
+                                 
 ExprAddrOf
 (
-                            
 ExprCall
 (
 ExprSelect
@@ -15073,10 +14890,11 @@ ExprSelect
 cls
 .
 var
-"
+'
 -
 >
-"
+'
+                                                                
 c
 .
 getTypeName
@@ -15084,36 +14902,33 @@ getTypeName
 )
 )
 )
-                        
 )
-                        
+                                 
 origenum
-                        
-"
+                                 
+'
 variant
-"
+'
 +
 origenum
 +
-"
+'
 of
 union
-"
+'
 +
 uniontype
 .
 name
 (
 )
-                    
 )
-                    
+                
 StmtReturn
 .
 TRUE
-                
-]
             
+]
 )
             
 readswitch
@@ -15128,11 +14943,10 @@ writeswitch
 .
 addcase
 (
-            
 DefaultLabel
 (
 )
-            
+                            
 StmtBlock
 (
 [
@@ -15140,29 +14954,28 @@ cls
 .
 fatalError
 (
-"
+'
 unknown
 union
 type
-"
+'
 )
+                                       
 StmtReturn
 (
 )
 ]
 )
-        
 )
         
 readswitch
 .
 addcase
 (
-            
 DefaultLabel
 (
 )
-            
+                           
 StmtBlock
 (
 [
@@ -15170,18 +14983,18 @@ cls
 .
 fatalError
 (
-"
+'
 unknown
 union
 type
-"
+'
 )
+                                      
 StmtReturn
 .
 FALSE
 ]
 )
-        
 )
         
 return
@@ -15200,9 +15013,9 @@ TypeVisitor
 )
 :
     
-"
-"
-"
+'
+'
+'
 Pass
 that
 gathers
@@ -15216,7 +15029,6 @@ a
 particular
 IPDL
 type
-    
 (
 recursively
 )
@@ -15233,7 +15045,6 @@ dependencies
 (
 i
 )
-    
 types
 that
 need
@@ -15250,7 +15061,6 @@ a
 |
 using
 |
-    
 stmt
 ;
 (
@@ -15265,7 +15075,6 @@ must
 be
 fully
 declared
-    
 before
 this
 struct
@@ -15276,9 +15085,9 @@ generate
 multiple
 kinds
 .
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -15467,16 +15276,17 @@ maybeTypedef
 _actorName
 (
 fqname
-"
+'
 Parent
-"
+'
 )
+                          
 _actorName
 (
 name
-"
+'
 Parent
-"
+'
 )
 )
         
@@ -15487,16 +15297,17 @@ maybeTypedef
 _actorName
 (
 fqname
-"
+'
 Child
-"
+'
 )
+                          
 _actorName
 (
 name
-"
+'
 Child
-"
+'
 )
 )
         
@@ -15506,39 +15317,35 @@ forwardDeclStmts
 .
 extend
 (
-            
 [
-                
+            
 _makeForwardDeclForActor
 (
 t
 .
 protocol
-"
+'
 parent
-"
+'
 )
-                
-Whitespace
-.
-NL
-                
-_makeForwardDeclForActor
-(
-t
-.
-protocol
-"
-child
-"
-)
-                
 Whitespace
 .
 NL
             
-]
+_makeForwardDeclForActor
+(
+t
+.
+protocol
+'
+child
+'
+)
+Whitespace
+.
+NL
         
+]
 )
     
 def
@@ -15607,9 +15414,7 @@ fortype
 .
 mutuallyRecursiveWith
 (
-            
 su
-        
 )
 :
             
@@ -15747,7 +15552,7 @@ self
 .
 maybeTypedef
 (
-"
+'
 mozilla
 :
 :
@@ -15755,10 +15560,10 @@ ipc
 :
 :
 Shmem
-"
-"
+'
+'
 Shmem
-"
+'
 )
     
 def
@@ -15792,7 +15597,7 @@ self
 .
 maybeTypedef
 (
-"
+'
 mozilla
 :
 :
@@ -15800,10 +15605,10 @@ ipc
 :
 :
 ByteBuf
-"
-"
+'
+'
 ByteBuf
-"
+'
 )
     
 def
@@ -15837,7 +15642,7 @@ self
 .
 maybeTypedef
 (
-"
+'
 mozilla
 :
 :
@@ -15845,10 +15650,10 @@ ipc
 :
 :
 FileDescriptor
-"
-"
+'
+'
 FileDescriptor
-"
+'
 )
     
 def
@@ -15882,7 +15687,7 @@ self
 .
 maybeTypedef
 (
-"
+'
 mozilla
 :
 :
@@ -15890,14 +15695,14 @@ ipc
 :
 :
 Endpoint
-"
-"
+'
+'
 Endpoint
-"
+'
 [
-"
+'
 FooSide
-"
+'
 ]
 )
         
@@ -15941,8 +15746,7 @@ self
 .
 maybeTypedef
 (
-            
-"
+'
 mozilla
 :
 :
@@ -15950,16 +15754,16 @@ ipc
 :
 :
 ManagedEndpoint
-"
-"
+'
+'
 ManagedEndpoint
-"
+'
+                          
 [
-"
+'
 FooSide
-"
+'
 ]
-        
 )
         
 self
@@ -16005,7 +15809,6 @@ self
 v
 )
 :
-        
 assert
 0
     
@@ -16016,7 +15819,6 @@ self
 v
 )
 :
-        
 assert
 0
     
@@ -16027,7 +15829,6 @@ self
 v
 )
 :
-        
 assert
 0
 def
@@ -16052,12 +15853,12 @@ itertools
 .
 groupby
 (
-        
 sd
 .
 fields_member_order
 (
 )
+                                            
 lambda
 f
 :
@@ -16067,7 +15868,6 @@ f
 .
 ipdltype
 )
-    
 )
 :
         
@@ -16103,13 +15903,12 @@ staticasserts
 .
 append
 (
-            
 StmtCode
 (
-                
-"
-"
-"
+            
+'
+'
+'
             
 static_assert
 (
@@ -16152,16 +15951,16 @@ layout
 )
 ;
             
-"
-"
-"
-                
+'
+'
+'
+            
 struct
 =
 sd
 .
 name
-                
+            
 first
 =
 fields
@@ -16172,7 +15971,7 @@ fields
 memberVar
 (
 )
-                
+            
 last
 =
 fields
@@ -16184,7 +15983,7 @@ fields
 memberVar
 (
 )
-                
+            
 expected
 =
 ExprLiteral
@@ -16202,9 +16001,7 @@ fields
 1
 )
 )
-            
 )
-        
 )
     
 return
@@ -16216,12 +16013,12 @@ sd
 )
 :
     
-"
-"
-"
-"
-"
-"
+'
+'
+'
+'
+'
+'
     
 gettypedeps
 =
@@ -16290,8 +16087,10 @@ Label
 .
 PRIVATE
 ]
+                    
 +
 usingTypedefs
+                    
 +
 [
 Whitespace
@@ -16326,10 +16125,8 @@ fieldsAsParamList
         
 return
 [
-            
 Decl
 (
-                
 f
 .
 forceMoveType
@@ -16342,13 +16139,13 @@ f
 .
 ipdltype
 )
+                     
 else
 f
 .
 inType
 (
 )
-                
 f
 .
 argVar
@@ -16356,9 +16153,8 @@ argVar
 )
 .
 name
-            
 )
-            
+                
 for
 f
 in
@@ -16367,7 +16163,6 @@ sd
 fields_ipdl_order
 (
 )
-        
 ]
     
 if
@@ -16415,7 +16210,6 @@ defctor
 memberinits
 =
 [
-            
 ExprMemberInit
 (
 f
@@ -16424,6 +16218,7 @@ memberVar
 (
 )
 )
+                               
 for
 f
 in
@@ -16432,7 +16227,6 @@ sd
 fields_member_order
 (
 )
-        
 ]
         
 struct
@@ -16451,22 +16245,22 @@ valctor
 =
 ConstructorDefn
 (
-        
 ConstructorDecl
 (
 sd
 .
 name
+                                              
 params
 =
 fieldsAsParamList
 (
 )
+                                              
 force_inline
 =
 True
 )
-    
 )
     
 valctor
@@ -16553,25 +16347,24 @@ ovar
 =
 ExprVar
 (
-"
+'
 _o
-"
+'
 )
         
 opeqeq
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
-"
+            
+'
 operator
 =
 =
-"
-                
+'
+            
 params
 =
 [
@@ -16583,19 +16376,17 @@ ovar
 name
 )
 ]
-                
+            
 ret
 =
 Type
 .
 BOOL
-                
+            
 const
 =
 True
-            
 )
-        
 )
         
 for
@@ -16612,13 +16403,11 @@ ifneq
 =
 StmtIf
 (
-                
 ExprNot
 (
-                    
+                
 ExprBinary
 (
-                        
 ExprCall
 (
 f
@@ -16627,10 +16416,11 @@ getMethod
 (
 )
 )
-"
+'
 =
 =
-"
+'
+                           
 ExprCall
 (
 f
@@ -16640,11 +16430,8 @@ getMethod
 ovar
 )
 )
-                    
 )
-                
 )
-            
 )
             
 ifneq
@@ -16688,16 +16475,15 @@ opneq
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
-"
+            
+'
 operator
 !
 =
-"
-                
+'
+            
 params
 =
 [
@@ -16709,19 +16495,17 @@ ovar
 name
 )
 ]
-                
+            
 ret
 =
 Type
 .
 BOOL
-                
+            
 const
 =
 True
-            
 )
-        
 )
         
 opneq
@@ -16736,12 +16520,13 @@ ExprCall
 (
 ExprVar
 (
-"
+'
 operator
 =
 =
-"
+'
 )
+                                                  
 args
 =
 [
@@ -16778,10 +16563,8 @@ get
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
 f
 .
 getMethod
@@ -16789,10 +16572,12 @@ getMethod
 )
 .
 name
+                                    
 params
 =
 [
 ]
+                                    
 ret
 =
 f
@@ -16800,12 +16585,11 @@ f
 refType
 (
 )
+                                    
 force_inline
 =
 True
-            
 )
-        
 )
         
 get
@@ -16905,26 +16689,27 @@ method
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-"
+'
 StaticAssertions
-"
+'
+                                       
 params
 =
 [
 ]
+                                       
 ret
 =
 Type
 .
 VOID
+                                       
 const
 =
 True
 )
-        
 )
         
 method
@@ -16947,9 +16732,7 @@ struct
 .
 addstmts
 (
-        
 [
-            
 StmtDecl
 (
 Decl
@@ -16967,7 +16750,7 @@ memberVar
 name
 )
 )
-            
+                     
 for
 f
 in
@@ -16976,9 +16759,7 @@ sd
 fields_member_order
 (
 )
-        
 ]
-    
 )
     
 return
@@ -17083,72 +16864,72 @@ typetype
 =
 Type
 (
-"
+'
 Type
-"
+'
 )
     
 valuetype
 =
 Type
 (
-"
+'
 Value
-"
+'
 )
     
 mtypevar
 =
 ExprVar
 (
-"
+'
 mType
-"
+'
 )
     
 mvaluevar
 =
 ExprVar
 (
-"
+'
 mValue
-"
+'
 )
     
 maybedtorvar
 =
 ExprVar
 (
-"
+'
 MaybeDestroy
-"
+'
 )
     
 assertsanityvar
 =
 ExprVar
 (
-"
+'
 AssertSanity
-"
+'
 )
     
 tnonevar
 =
 ExprVar
 (
-"
+'
 T__None
-"
+'
 )
     
 tlastvar
 =
 ExprVar
 (
-"
+'
 T__Last
-"
+'
 )
     
 def
@@ -17184,9 +16965,9 @@ func
 ExprSelect
 (
 uvar
-"
+'
 .
-"
+'
 assertsanityvar
 .
 name
@@ -17435,10 +17216,11 @@ StmtDecl
 Decl
 (
 typeenum
-"
-"
+'
+'
 )
 )
+                  
 Whitespace
 .
 NL
@@ -17483,7 +17265,6 @@ ud
 .
 components
 ]
-    
 )
     
 cls
@@ -17536,10 +17317,11 @@ StmtDecl
 Decl
 (
 valueunion
-"
-"
+'
+'
 )
 )
+                  
 Whitespace
 .
 NL
@@ -17558,10 +17340,9 @@ getptr
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
+            
 c
 .
 getPtrName
@@ -17578,12 +17359,11 @@ c
 ptrToInternalType
 (
 )
+            
 force_inline
 =
 True
-            
 )
-        
 )
         
 getptr
@@ -17604,21 +17384,18 @@ getptrconst
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
+            
 c
 .
 getConstPtrName
 (
 )
-                
 params
 =
 [
 ]
-                
 ret
 =
 c
@@ -17626,17 +17403,14 @@ c
 constPtrToType
 (
 )
-                
+            
 const
 =
 True
-                
 force_inline
 =
 True
-            
 )
-        
 )
         
 getptrconst
@@ -17676,22 +17450,22 @@ newtypevar
 =
 ExprVar
 (
-"
+'
 aNewType
-"
+'
 )
     
 maybedtor
 =
 MethodDefn
 (
-        
 MethodDecl
 (
-            
+        
 maybedtorvar
 .
 name
+        
 params
 =
 [
@@ -17703,14 +17477,13 @@ newtypevar
 name
 )
 ]
+        
 ret
 =
 Type
 .
 BOOL
-        
 )
-    
 )
     
 ifnone
@@ -17720,10 +17493,10 @@ StmtIf
 ExprBinary
 (
 mtypevar
-"
+'
 =
 =
-"
+'
 tnonevar
 )
 )
@@ -17744,10 +17517,10 @@ StmtIf
 ExprBinary
 (
 mtypevar
-"
+'
 =
 =
-"
+'
 newtypevar
 )
 )
@@ -17789,6 +17562,7 @@ enum
 (
 )
 )
+            
 StmtBlock
 (
 [
@@ -17800,12 +17574,12 @@ callDtor
 (
 )
 )
+                       
 StmtBreak
 (
 )
 ]
 )
-        
 )
     
 dtorswitch
@@ -17816,6 +17590,7 @@ addcase
 DefaultLabel
 (
 )
+        
 StmtBlock
 (
 [
@@ -17831,7 +17606,6 @@ StmtBreak
 )
 ]
 )
-    
 )
     
 maybedtor
@@ -17839,12 +17613,17 @@ maybedtor
 addstmts
 (
 [
+        
 ifnone
+        
 ifnochange
+        
 dtorswitch
+        
 StmtReturn
 .
 TRUE
+    
 ]
 )
     
@@ -17864,9 +17643,9 @@ sanity
 =
 MethodDefn
 (
-        
 MethodDecl
 (
+        
 assertsanityvar
 .
 name
@@ -17882,54 +17661,52 @@ force_inline
 =
 True
 )
-    
 )
     
 sanity
 .
 addstmts
 (
-        
 [
-            
+        
 _abortIfFalse
 (
 ExprBinary
 (
 tnonevar
-"
+'
 <
 =
-"
+'
 mtypevar
 )
-"
+                      
+'
 invalid
 type
 tag
-"
+'
 )
-            
+        
 _abortIfFalse
 (
 ExprBinary
 (
 mtypevar
-"
+'
 <
 =
-"
+'
 tlastvar
 )
-"
+                      
+'
 invalid
 type
 tag
-"
+'
 )
-        
 ]
-    
 )
     
 cls
@@ -17943,9 +17720,9 @@ atypevar
 =
 ExprVar
 (
-"
+'
 aType
-"
+'
 )
     
 sanity2
@@ -17955,11 +17732,10 @@ MethodDefn
         
 MethodDecl
 (
-            
 assertsanityvar
 .
 name
-            
+                   
 params
 =
 [
@@ -17971,32 +17747,28 @@ atypevar
 name
 )
 ]
-            
+                   
 ret
 =
 Type
 .
 VOID
-            
+                   
 const
 =
 True
-            
 force_inline
 =
 True
-        
 )
-    
 )
     
 sanity2
 .
 addstmts
 (
-        
 [
-            
+        
 StmtExpr
 (
 ExprCall
@@ -18004,27 +17776,26 @@ ExprCall
 assertsanityvar
 )
 )
-            
+        
 _abortIfFalse
 (
 ExprBinary
 (
 mtypevar
-"
+'
 =
 =
-"
+'
 atypevar
 )
-"
+                      
+'
 unexpected
 type
 tag
-"
+'
 )
-        
 ]
-    
 )
     
 cls
@@ -18043,16 +17814,15 @@ cls
 .
 addstmts
 (
-        
 [
-            
+        
 Label
 .
 PUBLIC
-            
+        
 ConstructorDefn
 (
-                
+            
 ConstructorDecl
 (
 ud
@@ -18062,7 +17832,7 @@ force_inline
 =
 True
 )
-                
+            
 memberinits
 =
 [
@@ -18074,24 +17844,22 @@ tnonevar
 ]
 )
 ]
-            
 )
-            
+        
 Whitespace
 .
 NL
-        
-]
     
+]
 )
     
 othervar
 =
 ExprVar
 (
-"
+'
 aOther
-"
+'
 )
     
 for
@@ -18116,9 +17884,9 @@ copyctor
 =
 ConstructorDefn
 (
-                
 ConstructorDecl
 (
+                
 ud
 .
 name
@@ -18138,16 +17906,14 @@ name
 )
 ]
 )
-            
 )
             
 copyctor
 .
 addstmts
 (
-                
 [
-                    
+                
 StmtExpr
 (
 c
@@ -18157,7 +17923,7 @@ callCtor
 othervar
 )
 )
-                    
+                
 StmtExpr
 (
 ExprAssn
@@ -18170,9 +17936,7 @@ enumvar
 )
 )
 )
-                
 ]
-            
 )
             
 cls
@@ -18210,9 +17974,9 @@ movector
 =
 ConstructorDefn
 (
-            
 ConstructorDecl
 (
+            
 ud
 .
 name
@@ -18232,16 +17996,14 @@ name
 )
 ]
 )
-        
 )
         
 movector
 .
 addstmts
 (
-            
 [
-                
+            
 StmtExpr
 (
 c
@@ -18254,7 +18016,7 @@ othervar
 )
 )
 )
-                
+            
 StmtExpr
 (
 ExprAssn
@@ -18267,9 +18029,7 @@ enumvar
 )
 )
 )
-            
 ]
-        
 )
         
 cls
@@ -18311,9 +18071,9 @@ copyctor
 =
 ConstructorDefn
 (
-            
 ConstructorDecl
 (
+            
 ud
 .
 name
@@ -18329,7 +18089,6 @@ name
 )
 ]
 )
-        
 )
         
 othertype
@@ -18372,47 +18131,40 @@ enum
                 
 StmtBlock
 (
-                    
 [
-                        
+                    
 StmtExpr
 (
-                            
 c
 .
 callCtor
 (
-                                
+                        
 ExprCall
 (
-                                    
 ExprSelect
 (
 othervar
-"
+                                            
+'
 .
-"
+'
 c
 .
 getConstTypeName
 (
 )
 )
-                                
 )
-                            
 )
-                        
 )
-                        
+                    
 StmtBreak
 (
 )
-                    
-]
                 
+]
 )
-            
 )
         
 copyswitch
@@ -18425,6 +18177,7 @@ tnonevar
 .
 name
 )
+                           
 StmtBlock
 (
 [
@@ -18443,30 +18196,29 @@ addcase
 DefaultLabel
 (
 )
+            
 StmtBlock
 (
 [
 _logicError
 (
-"
+'
 unreached
-"
+'
 )
 StmtReturn
 (
 )
 ]
 )
-        
 )
         
 copyctor
 .
 addstmts
 (
-            
 [
-                
+            
 StmtExpr
 (
 callAssertSanity
@@ -18476,9 +18228,9 @@ uvar
 othervar
 )
 )
-                
+            
 copyswitch
-                
+            
 StmtExpr
 (
 ExprAssn
@@ -18487,9 +18239,8 @@ mtypevar
 othertype
 )
 )
-            
-]
         
+]
 )
         
 cls
@@ -18508,9 +18259,9 @@ movector
 =
 ConstructorDefn
 (
-        
 ConstructorDecl
 (
+        
 ud
 .
 name
@@ -18526,7 +18277,6 @@ name
 )
 ]
 )
-    
 )
     
 othertypevar
@@ -18569,30 +18319,26 @@ case
 .
 addstmts
 (
-                
 [
-                    
+                
 StmtExpr
 (
-                        
 ExprAssn
 (
-                            
 c
 .
 callGetPtr
 (
 )
-                            
+                                  
 ExprCall
 (
-                                
 ExprSelect
 (
 othervar
-"
+'
 .
-"
+'
 ExprVar
 (
 c
@@ -18602,15 +18348,11 @@ getPtrName
 )
 )
 )
-                            
 )
-                        
 )
-                    
 )
-                
-]
             
+]
 )
         
 else
@@ -18620,28 +18362,25 @@ case
 .
 addstmts
 (
-                
 [
-                    
+                
 StmtExpr
 (
-                        
 c
 .
 callCtor
 (
-                            
 ExprMove
 (
-                                
 ExprCall
 (
 ExprSelect
 (
 othervar
-"
+'
 .
-"
+'
+                                                                 
 c
 .
 getTypeName
@@ -18649,44 +18388,36 @@ getTypeName
 )
 )
 )
-                            
 )
-                        
 )
-                    
 )
-                    
+                
 StmtExpr
 (
-                        
+                    
 voidCast
 (
-                            
 ExprCall
 (
-                                
 ExprSelect
 (
 othervar
-"
+'
 .
-"
+'
 maybedtorvar
 )
+                                      
 args
 =
 [
 tnonevar
 ]
-                            
 )
-                        
 )
-                    
 )
-                
-]
             
+]
 )
         
 case
@@ -18725,6 +18456,7 @@ tnonevar
 .
 name
 )
+                       
 StmtBlock
 (
 [
@@ -18743,30 +18475,29 @@ addcase
 DefaultLabel
 (
 )
+        
 StmtBlock
 (
 [
 _logicError
 (
-"
+'
 unreached
-"
+'
 )
 StmtReturn
 (
 )
 ]
 )
-    
 )
     
 movector
 .
 addstmts
 (
-        
 [
-            
+        
 StmtExpr
 (
 callAssertSanity
@@ -18776,7 +18507,7 @@ uvar
 othervar
 )
 )
-            
+        
 StmtDecl
 (
 Decl
@@ -18795,9 +18526,9 @@ callType
 othervar
 )
 )
-            
+        
 moveswitch
-            
+        
 StmtExpr
 (
 ExprAssn
@@ -18805,15 +18536,15 @@ ExprAssn
 ExprSelect
 (
 othervar
-"
+'
 .
-"
+'
 mtypevar
 )
 tnonevar
 )
 )
-            
+        
 StmtExpr
 (
 ExprAssn
@@ -18822,9 +18553,8 @@ mtypevar
 othertypevar
 )
 )
-        
-]
     
+]
 )
     
 cls
@@ -18883,15 +18613,15 @@ typemeth
 =
 MethodDefn
 (
-        
 MethodDecl
 (
-"
+'
 type
-"
+'
 ret
 =
 typetype
+                                     
 const
 =
 True
@@ -18899,7 +18629,6 @@ force_inline
 =
 True
 )
-    
 )
     
 typemeth
@@ -18928,9 +18657,9 @@ rhsvar
 =
 ExprVar
 (
-"
+'
 aRhs
-"
+'
 )
     
 for
@@ -18955,14 +18684,14 @@ opeq
 =
 MethodDefn
 (
-                
 MethodDecl
 (
-                    
-"
+                
+'
 operator
 =
-"
+'
+                
 params
 =
 [
@@ -18978,21 +18707,19 @@ rhsvar
 name
 )
 ]
+                
 ret
 =
 refClsType
-                
 )
-            
 )
             
 opeq
 .
 addstmts
 (
-                
 [
-                    
+                
 maybeReconstruct
 (
 c
@@ -19002,7 +18729,7 @@ enumvar
 (
 )
 )
-                    
+                
 StmtExpr
 (
 c
@@ -19012,7 +18739,7 @@ callOperatorEq
 rhsvar
 )
 )
-                    
+                
 StmtExpr
 (
 ExprAssn
@@ -19025,7 +18752,7 @@ enumvar
 )
 )
 )
-                    
+                
 StmtReturn
 (
 ExprDeref
@@ -19035,9 +18762,8 @@ ExprVar
 THIS
 )
 )
-                
-]
             
+]
 )
             
 cls
@@ -19075,15 +18801,14 @@ opeq
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
-"
+            
+'
 operator
 =
-"
-                
+'
+            
 params
 =
 [
@@ -19099,22 +18824,19 @@ rhsvar
 name
 )
 ]
-                
+            
 ret
 =
 refClsType
-            
 )
-        
 )
         
 opeq
 .
 addstmts
 (
-            
 [
-                
+            
 maybeReconstruct
 (
 c
@@ -19124,7 +18846,7 @@ enumvar
 (
 )
 )
-                
+            
 StmtExpr
 (
 c
@@ -19137,7 +18859,7 @@ rhsvar
 )
 )
 )
-                
+            
 StmtExpr
 (
 ExprAssn
@@ -19150,7 +18872,7 @@ enumvar
 )
 )
 )
-                
+            
 StmtReturn
 (
 ExprDeref
@@ -19160,9 +18882,8 @@ ExprVar
 THIS
 )
 )
-            
-]
         
+]
 )
         
 cls
@@ -19186,14 +18907,14 @@ opeq
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
-"
+            
+'
 operator
 =
-"
+'
+            
 params
 =
 [
@@ -19205,21 +18926,20 @@ rhsvar
 name
 )
 ]
+            
 ret
 =
 refClsType
-            
 )
-        
 )
         
 rhstypevar
 =
 ExprVar
 (
-"
+'
 t
-"
+'
 )
         
 opeqswitch
@@ -19247,31 +18967,29 @@ case
 .
 addstmts
 (
-                
 [
-                    
+                
 maybeReconstruct
 (
 c
 rhstypevar
 )
-                    
+                
 StmtExpr
 (
-                        
 c
 .
 callOperatorEq
 (
-                            
+                    
 ExprCall
 (
 ExprSelect
 (
 rhsvar
-"
+'
 .
-"
+'
 c
 .
 getConstTypeName
@@ -19279,17 +18997,14 @@ getConstTypeName
 )
 )
 )
-                        
 )
-                    
 )
-                    
+                
 StmtBreak
 (
 )
-                
-]
             
+]
 )
             
 opeqswitch
@@ -19321,12 +19036,9 @@ name
             
 StmtBlock
 (
-                
 [
-                    
 StmtExpr
 (
-                        
 ExprCast
 (
 callMaybeDestroy
@@ -19336,19 +19048,17 @@ rhstypevar
 Type
 .
 VOID
+                                         
 static
 =
 True
 )
-                    
 )
-                    
+                       
 StmtBreak
 (
 )
-                
 ]
-            
 )
         
 )
@@ -19361,30 +19071,29 @@ addcase
 DefaultLabel
 (
 )
+            
 StmtBlock
 (
 [
 _logicError
 (
-"
+'
 unreached
-"
+'
 )
 StmtBreak
 (
 )
 ]
 )
-        
 )
         
 opeq
 .
 addstmts
 (
-            
 [
-                
+            
 StmtExpr
 (
 callAssertSanity
@@ -19394,7 +19103,7 @@ uvar
 rhsvar
 )
 )
-                
+            
 StmtDecl
 (
 Decl
@@ -19413,9 +19122,9 @@ callType
 rhsvar
 )
 )
-                
+            
 opeqswitch
-                
+            
 StmtExpr
 (
 ExprAssn
@@ -19424,7 +19133,7 @@ mtypevar
 rhstypevar
 )
 )
-                
+            
 StmtReturn
 (
 ExprDeref
@@ -19434,9 +19143,8 @@ ExprVar
 THIS
 )
 )
-            
-]
         
+]
 )
         
 cls
@@ -19455,14 +19163,14 @@ opeq
 =
 MethodDefn
 (
-        
 MethodDecl
 (
-            
-"
+        
+'
 operator
 =
-"
+'
+        
 params
 =
 [
@@ -19474,21 +19182,20 @@ rhsvar
 name
 )
 ]
+        
 ret
 =
 refClsType
-        
 )
-    
 )
     
 rhstypevar
 =
 ExprVar
 (
-"
+'
 t
-"
+'
 )
     
 opeqswitch
@@ -19522,9 +19229,8 @@ case
 .
 addstmts
 (
-                
 [
-                    
+                
 StmtExpr
 (
 voidCast
@@ -19535,27 +19241,25 @@ tnonevar
 )
 )
 )
-                    
+                
 StmtExpr
 (
-                        
 ExprAssn
 (
-                            
 c
 .
 callGetPtr
 (
 )
-                            
+                                  
 ExprCall
 (
 ExprSelect
 (
 rhsvar
-"
+'
 .
-"
+'
 ExprVar
 (
 c
@@ -19566,13 +19270,10 @@ getPtrName
 )
 )
 )
-                        
 )
-                    
 )
-                
-]
             
+]
 )
         
 else
@@ -19582,23 +19283,21 @@ case
 .
 addstmts
 (
-                
 [
-                    
+                
 maybeReconstruct
 (
 c
 rhstypevar
 )
-                    
+                
 StmtExpr
 (
-                        
 c
 .
 callOperatorEq
 (
-                            
+                    
 ExprMove
 (
 ExprCall
@@ -19606,9 +19305,9 @@ ExprCall
 ExprSelect
 (
 rhsvar
-"
+'
 .
-"
+'
 c
 .
 getTypeName
@@ -19617,26 +19316,22 @@ getTypeName
 )
 )
 )
-                        
 )
-                    
 )
-                    
+                
 StmtExpr
 (
-                        
+                    
 voidCast
 (
-                            
 ExprCall
 (
-                                
 ExprSelect
 (
 rhsvar
-"
+'
 .
-"
+'
 maybedtorvar
 )
 args
@@ -19644,15 +19339,11 @@ args
 [
 tnonevar
 ]
-                            
 )
-                        
 )
-                    
 )
-                
-]
             
+]
 )
         
 case
@@ -19706,6 +19397,7 @@ rhstypevar
 )
 )
 )
+                   
 StmtBreak
 (
 )
@@ -19722,30 +19414,29 @@ addcase
 DefaultLabel
 (
 )
+        
 StmtBlock
 (
 [
 _logicError
 (
-"
+'
 unreached
-"
+'
 )
 StmtBreak
 (
 )
 ]
 )
-    
 )
     
 opeq
 .
 addstmts
 (
-        
 [
-            
+        
 StmtExpr
 (
 callAssertSanity
@@ -19755,7 +19446,7 @@ uvar
 rhsvar
 )
 )
-            
+        
 StmtDecl
 (
 Decl
@@ -19774,9 +19465,9 @@ callType
 rhsvar
 )
 )
-            
+        
 opeqswitch
-            
+        
 StmtExpr
 (
 ExprAssn
@@ -19784,15 +19475,15 @@ ExprAssn
 ExprSelect
 (
 rhsvar
-"
+'
 .
-"
+'
 mtypevar
 )
 tnonevar
 )
 )
-            
+        
 StmtExpr
 (
 ExprAssn
@@ -19801,7 +19492,7 @@ mtypevar
 rhstypevar
 )
 )
-            
+        
 StmtReturn
 (
 ExprDeref
@@ -19811,9 +19502,8 @@ ExprVar
 THIS
 )
 )
-        
-]
     
+]
 )
     
 cls
@@ -19846,16 +19536,15 @@ opeqeq
 =
 MethodDefn
 (
-                
 MethodDecl
 (
-                    
-"
+                
+'
 operator
 =
 =
-"
-                    
+'
+                
 params
 =
 [
@@ -19871,30 +19560,28 @@ rhsvar
 name
 )
 ]
-                    
+                
 ret
 =
 Type
 .
 BOOL
-                    
+                
 const
 =
 True
-                
 )
-            
 )
             
 opeqeq
 .
 addstmt
 (
-                
 StmtReturn
 (
 ExprBinary
 (
+                
 ExprCall
 (
 ExprVar
@@ -19906,14 +19593,13 @@ getTypeName
 )
 )
 )
-"
+'
 =
 =
-"
+'
 rhsvar
 )
 )
-            
 )
             
 cls
@@ -19932,16 +19618,15 @@ opeqeq
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
-"
+            
+'
 operator
 =
 =
-"
-                
+'
+            
 params
 =
 [
@@ -19953,19 +19638,17 @@ rhsvar
 name
 )
 ]
-                
+            
 ret
 =
 Type
 .
 BOOL
-                
+            
 const
 =
 True
-            
 )
-        
 )
         
 iftypesmismatch
@@ -19979,10 +19662,11 @@ ud
 callType
 (
 )
-"
+'
 !
 =
-"
+'
+                                            
 ud
 .
 callType
@@ -20042,13 +19726,11 @@ case
 .
 addstmt
 (
-                
 StmtReturn
 (
-                    
 ExprBinary
 (
-                        
+                
 ExprCall
 (
 ExprVar
@@ -20060,20 +19742,19 @@ getTypeName
 )
 )
 )
-                        
-"
+'
 =
 =
-"
-                        
+'
+                
 ExprCall
 (
 ExprSelect
 (
 rhsvar
-"
+'
 .
-"
+'
 c
 .
 getTypeName
@@ -20081,11 +19762,8 @@ getTypeName
 )
 )
 )
-                    
 )
-                
 )
-            
 )
             
 opeqeqswitch
@@ -20111,21 +19789,22 @@ addcase
 DefaultLabel
 (
 )
+            
 StmtBlock
 (
 [
 _logicError
 (
-"
+'
 unreached
-"
+'
 )
+                       
 StmtReturn
 .
 FALSE
 ]
 )
-        
 )
         
 opeqeq
@@ -20181,12 +19860,12 @@ getvalue
 =
 MethodDefn
 (
-            
 MethodDecl
 (
 getValueVar
 .
 name
+                                         
 ret
 =
 c
@@ -20194,20 +19873,19 @@ c
 refType
 (
 )
+                                         
 force_inline
 =
 True
 )
-        
 )
         
 getvalue
 .
 addstmts
 (
-            
 [
-                
+            
 StmtExpr
 (
 callAssertSanity
@@ -20221,7 +19899,7 @@ enumvar
 )
 )
 )
-                
+            
 StmtReturn
 (
 ExprDeref
@@ -20233,23 +19911,20 @@ callGetPtr
 )
 )
 )
-            
-]
         
+]
 )
         
 getconstvalue
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
+            
 getConstValueVar
 .
 name
-                
 ret
 =
 c
@@ -20257,26 +19932,22 @@ c
 constRefType
 (
 )
-                
+            
 const
 =
 True
-                
 force_inline
 =
 True
-            
 )
-        
 )
         
 getconstvalue
 .
 addstmts
 (
-            
 [
-                
+            
 StmtExpr
 (
 callAssertSanity
@@ -20290,7 +19961,7 @@ enumvar
 )
 )
 )
-                
+            
 StmtReturn
 (
 c
@@ -20299,9 +19970,8 @@ getConstValue
 (
 )
 )
-            
-]
         
+]
 )
         
 cls
@@ -20320,8 +19990,8 @@ MethodDefn
 (
 MethodDecl
 (
-"
-"
+'
+'
 typeop
 =
 c
@@ -20352,11 +20022,11 @@ opconsttype
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-"
-"
+            
+'
+'
 const
 =
 True
@@ -20371,7 +20041,6 @@ force_inline
 =
 True
 )
-        
 )
         
 opconsttype
@@ -20404,13 +20073,12 @@ cls
 .
 addstmts
 (
-        
 [
-            
+        
 Label
 .
 PRIVATE
-            
+        
 StmtDecl
 (
 Decl
@@ -20421,7 +20089,7 @@ mvaluevar
 name
 )
 )
-            
+        
 StmtDecl
 (
 Decl
@@ -20432,9 +20100,8 @@ mtypevar
 name
 )
 )
-        
-]
     
+]
 )
     
 return
@@ -20861,7 +20528,7 @@ Typedef
 (
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -20869,50 +20536,50 @@ ipc
 :
 :
 IProtocol
-"
+'
 )
-"
+'
 IProtocol
-"
+'
 )
             
 Typedef
 (
 Type
 (
-"
+'
 IPC
 :
 :
 Message
-"
+'
 )
-"
+'
 Message
-"
+'
 )
             
 Typedef
 (
 Type
 (
-"
+'
 base
 :
 :
 ProcessHandle
-"
+'
 )
-"
+'
 ProcessHandle
-"
+'
 )
             
 Typedef
 (
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -20920,18 +20587,18 @@ ipc
 :
 :
 MessageChannel
-"
+'
 )
-"
+'
 MessageChannel
-"
+'
 )
             
 Typedef
 (
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -20939,11 +20606,11 @@ ipc
 :
 :
 SharedMemory
-"
+'
 )
-"
+'
 SharedMemory
-"
+'
 )
         
 ]
@@ -21000,9 +20667,11 @@ NL
                 
 CppDirective
 (
-"
+                    
+'
 include
-"
+'
+                    
 '
 "
 '
@@ -21022,7 +20691,6 @@ h
 )
             
 ]
-        
 )
         
 for
@@ -21121,9 +20789,9 @@ ret
 name
 =
 =
-"
+'
 Result
-"
+'
 :
                     
 stmt
@@ -21138,10 +20806,10 @@ clsdecl
 .
 name
 +
-"
+'
 :
 :
-"
+'
 +
 stmt
 .
@@ -21162,9 +20830,9 @@ return
 [
 CppDirective
 (
-"
+'
 include
-"
+'
 '
 "
 %
@@ -21174,6 +20842,7 @@ s
 %
 i
 )
+                    
 for
 i
 in
@@ -21269,10 +20938,9 @@ addthings
 (
                 
 [
-                    
 Whitespace
 (
-"
+'
 /
 /
 Headers
@@ -21283,13 +20951,12 @@ cannot
 be
 forward
 declared
-"
+'
 )
-                    
+                 
 Whitespace
 .
 NL
-                
 ]
                 
 +
@@ -21347,23 +21014,27 @@ hdrns
 .
 addstmts
 (
-            
 [
+            
 Whitespace
 .
 NL
+            
 Whitespace
 .
 NL
+            
 clsdecl
+            
 Whitespace
 .
 NL
+            
 Whitespace
 .
 NL
-]
         
+]
 )
         
 actortype
@@ -21398,6 +21069,7 @@ hdrfile
 .
 addthings
 (
+            
 [
 traitsdecl
 Whitespace
@@ -21409,6 +21081,7 @@ _includeGuardEnd
 (
 hf
 )
+        
 )
         
 if
@@ -21545,22 +21218,21 @@ cf
 .
 addthings
 (
-            
 [
-                
+            
 _DISCLAIMER
-                
+            
 Whitespace
 .
 NL
-                
+            
 CppDirective
 (
-                    
-"
+                
+'
 include
-"
-                    
+'
+                
 '
 "
 '
@@ -21580,9 +21252,7 @@ side
 h
 "
 '
-                
 )
-            
 ]
             
 +
@@ -21592,18 +21262,16 @@ self
 .
 externalIncludes
 )
-        
 )
         
 cppheaders
 =
 [
-            
 CppDirective
 (
-"
+'
 include
-"
+'
 '
 "
 %
@@ -21613,7 +21281,7 @@ s
 %
 filename
 )
-            
+                      
 for
 filename
 in
@@ -21622,30 +21290,29 @@ ipdl
 builtin
 .
 CppIncludes
-        
 ]
         
 cf
 .
 addthings
 (
-            
 (
-                
+            
 [
 Whitespace
 .
 NL
 ]
-                
+            
 +
 [
-                    
 CppDirective
 (
-"
+                
+'
 include
-"
+'
+                
 '
 "
 %
@@ -21659,26 +21326,14 @@ h
 inc
 )
 )
-                    
 for
 inc
 in
 self
 .
 protocolCxxIncludes
-                
 ]
-                
-+
-[
-Whitespace
-.
-NL
-]
-                
-+
-cppheaders
-                
+            
 +
 [
 Whitespace
@@ -21686,8 +21341,16 @@ Whitespace
 NL
 ]
             
++
+cppheaders
+            
++
+[
+Whitespace
+.
+NL
+]
 )
-        
 )
         
 cppns
@@ -21704,23 +21367,27 @@ cppns
 .
 addstmts
 (
-            
 [
+            
 Whitespace
 .
 NL
+            
 Whitespace
 .
 NL
+            
 clsdefn
+            
 Whitespace
 .
 NL
+            
 Whitespace
 .
 NL
-]
         
+]
 )
         
 cf
@@ -21781,20 +21448,17 @@ usingDecls
 .
 extend
 (
-                
 [
-                    
+                
 _makeForwardDeclForQClass
 (
-                        
 spec
 .
 baseid
-                        
 spec
 .
 quals
-                        
+                                          
 cls
 =
 using
@@ -21802,7 +21466,7 @@ using
 isClass
 (
 )
-                        
+                                          
 struct
 =
 using
@@ -21810,15 +21474,13 @@ using
 isStruct
 (
 )
-                    
 )
-                    
+                
 Whitespace
 .
 NL
-                
-]
             
+]
 )
             
 self
@@ -21894,9 +21556,8 @@ actorForwardDecls
 .
 extend
 (
-            
 [
-                
+            
 _makeForwardDeclForActor
 (
 ip
@@ -21908,7 +21569,7 @@ self
 .
 side
 )
-                
+            
 _makeForwardDeclForActor
 (
 ip
@@ -21923,13 +21584,12 @@ self
 side
 )
 )
-                
+            
 Whitespace
 .
 NL
-            
-]
         
+]
 )
         
 self
@@ -21964,10 +21624,9 @@ includedActorTypedefs
 .
 append
 (
-                
 Typedef
 (
-                    
+                
 Type
 (
 _actorName
@@ -21986,7 +21645,7 @@ title
 )
 )
 )
-                    
+                
 _actorName
 (
 ip
@@ -22002,9 +21661,7 @@ title
 (
 )
 )
-                
 )
-            
 )
             
 self
@@ -22013,10 +21670,9 @@ includedActorTypedefs
 .
 append
 (
-                
 Typedef
 (
-                    
+                
 Type
 (
 _actorName
@@ -22038,7 +21694,7 @@ title
 )
 )
 )
-                    
+                
 _actorName
 (
 ip
@@ -22057,9 +21713,7 @@ title
 (
 )
 )
-                
 )
-            
 )
     
 def
@@ -22077,9 +21731,9 @@ hdrfile
 addcode
 (
             
-"
-"
-"
+'
+'
+'
             
 #
 ifdef
@@ -22133,10 +21787,9 @@ ProtocolUtils
 h
 "
             
-"
-"
-"
-        
+'
+'
+'
 )
         
 self
@@ -22215,11 +21868,12 @@ p
 openedProtocolInterfaceType
 (
 )
+                                    
 viz
 =
-"
+'
 public
-"
+'
 )
 )
         
@@ -22239,9 +21893,9 @@ managerInterfaceType
 )
 viz
 =
-"
+'
 public
-"
+'
 )
 )
         
@@ -22257,15 +21911,15 @@ Inherit
 (
 Type
 (
-"
+'
 SupportsWeakPtr
-"
+'
 )
 viz
 =
-"
+'
 public
-"
+'
 )
 )
             
@@ -22277,9 +21931,9 @@ addthing
 (
 CppDirective
 (
-"
+'
 include
-"
+'
 '
 "
 mozilla
@@ -22304,9 +21958,9 @@ self
 side
 =
 =
-"
+'
 parent
-"
+'
 :
             
 self
@@ -22315,21 +21969,22 @@ hdrfile
 .
 addthings
 (
-                
 [
+                
 _makeForwardDeclForQClass
 (
-"
+'
 nsIFile
-"
+'
 [
 ]
 )
+                
 Whitespace
 .
 NL
-]
             
+]
 )
         
 self
@@ -22338,12 +21993,15 @@ cls
 =
 Class
 (
+            
 self
 .
 clsname
+            
 inherits
 =
 inherits
+            
 abstract
 =
 True
@@ -22416,8 +22074,8 @@ actorForwardDecls
 .
 extend
 (
-                
 [
+                
 _makeForwardDeclForActor
 (
 friend
@@ -22425,11 +22083,12 @@ self
 .
 prettyside
 )
+                
 Whitespace
 .
 NL
-]
             
+]
 )
             
 self
@@ -22438,7 +22097,6 @@ cls
 .
 addstmt
 (
-                
 FriendClassDecl
 (
 _actorName
@@ -22448,12 +22106,12 @@ friend
 fullname
 (
 )
+                                                        
 self
 .
 prettyside
 )
 )
-            
 )
         
 self
@@ -22570,13 +22228,13 @@ self
 .
 side
 )
+                                
 md
 .
 promiseName
 (
 )
 )
-                    
 )
                 
 if
@@ -22612,13 +22270,13 @@ self
 .
 side
 )
+                                
 md
 .
 resolverName
 (
 )
 )
-                    
 )
             
 self
@@ -22684,14 +22342,16 @@ md
                 
 implicit
 =
+(
 not
 isdtor
+)
                 
 returnsems
 =
-"
+'
 resolver
-"
+'
 if
 md
 .
@@ -22703,9 +22363,9 @@ isAsync
 (
 )
 else
-"
+'
 out
-"
+'
                 
 recvDecl
 =
@@ -22724,40 +22384,35 @@ md
 .
 makeCxxParams
 (
-                        
 paramsems
 =
-"
+'
 move
-"
-                        
+'
 returnsems
 =
 returnsems
-                        
+                                            
 side
 =
 self
 .
 side
-                        
 implicit
 =
 implicit
-                        
 direction
 =
-"
+'
 recv
-"
-                    
+'
 )
                     
 ret
 =
 Type
 (
-"
+'
 mozilla
 :
 :
@@ -22765,7 +22420,7 @@ ipc
 :
 :
 IPCResult
-"
+'
 )
                     
 methodspec
@@ -22773,7 +22428,6 @@ methodspec
 MethodSpec
 .
 VIRTUAL
-                
 )
                 
 if
@@ -22800,7 +22454,7 @@ defaultRecv
 .
 addcode
 (
-"
+'
 return
 IPC_OK
 (
@@ -22808,7 +22462,7 @@ IPC_OK
 ;
 \
 n
-"
+'
 )
                     
 self
@@ -22966,13 +22620,11 @@ cls
 .
 addstmt
 (
-                    
 StmtDecl
 (
-                        
 MethodDecl
 (
-                            
+                    
 _allocMethod
 (
 managed
@@ -22980,14 +22632,13 @@ self
 .
 side
 )
-                            
+                    
 params
 =
 md
 .
 makeCxxParams
 (
-                                
 side
 =
 self
@@ -22998,26 +22649,21 @@ implicit
 False
 direction
 =
-"
+'
 recv
-"
-                            
+'
 )
-                            
+                    
 ret
 =
 actortype
-                            
 methodspec
 =
 MethodSpec
 .
 PURE
-                        
 )
-                    
 )
-                
 )
             
 for
@@ -23044,13 +22690,11 @@ cls
 .
 addstmt
 (
-                    
 StmtDecl
 (
-                        
 MethodDecl
 (
-                            
+                    
 _deallocMethod
 (
 managed
@@ -23058,11 +22702,10 @@ self
 .
 side
 )
-                            
+                    
 params
 =
 [
-                                
 Decl
 (
 p
@@ -23074,29 +22717,24 @@ self
 .
 side
 )
-"
+'
 aActor
-"
+'
 )
-                            
 ]
-                            
+                    
 ret
 =
 Type
 .
 BOOL
-                            
 methodspec
 =
 MethodSpec
 .
 PURE
-                        
 )
-                    
 )
-                
 )
         
 if
@@ -23114,7 +22752,6 @@ MethodDefn
                 
 MethodDecl
 (
-                    
 p
 .
 processingErrorVar
@@ -23122,11 +22759,10 @@ processingErrorVar
 )
 .
 name
-                    
+                           
 params
 =
 [
-                        
 Param
 (
 _Result
@@ -23134,18 +22770,18 @@ _Result
 Type
 (
 )
-"
+'
 aCode
-"
+'
 )
-                        
+                                   
 Param
 (
 Type
 (
-"
+'
 char
-"
+'
 const
 =
 True
@@ -23153,21 +22789,18 @@ ptr
 =
 True
 )
-"
+'
 aReason
-"
+'
 )
-                    
 ]
-                    
+                           
 methodspec
 =
 MethodSpec
 .
 OVERRIDE
-                
 )
-            
 )
             
 shouldcontinue
@@ -23177,7 +22810,6 @@ MethodDefn
                 
 MethodDecl
 (
-                    
 p
 .
 shouldContinueFromTimeoutVar
@@ -23185,34 +22817,31 @@ shouldContinueFromTimeoutVar
 )
 .
 name
-                    
+                           
 ret
 =
 Type
 .
 BOOL
-                    
 methodspec
 =
 MethodSpec
 .
 OVERRIDE
-                
 )
-            
 )
             
 shouldcontinue
 .
 addcode
 (
-"
+'
 return
 true
 ;
 \
 n
-"
+'
 )
             
 entered
@@ -23235,7 +22864,6 @@ MethodSpec
 .
 OVERRIDE
 )
-            
 )
             
 exited
@@ -23258,7 +22886,6 @@ MethodSpec
 .
 OVERRIDE
 )
-            
 )
             
 enteredcall
@@ -23281,7 +22908,6 @@ MethodSpec
 .
 OVERRIDE
 )
-            
 )
             
 exitedcall
@@ -23304,7 +22930,6 @@ MethodSpec
 .
 OVERRIDE
 )
-            
 )
             
 self
@@ -23313,27 +22938,21 @@ cls
 .
 addstmts
 (
-                
 [
-                    
 processingerror
-                    
+                               
 shouldcontinue
-                    
+                               
 entered
-                    
 exited
-                    
+                               
 enteredcall
-                    
 exitedcall
-                    
+                               
 Whitespace
 .
 NL
-                
 ]
-            
 )
         
 self
@@ -23343,23 +22962,27 @@ cls
 addstmts
 (
 (
+            
 [
 Label
 .
 PUBLIC
 ]
+            
 +
 self
 .
 standardTypedefs
 (
 )
+            
 +
 [
 Whitespace
 .
 NL
 ]
+        
 )
 )
         
@@ -23390,14 +23013,14 @@ side
 =
 ExprVar
 (
-"
+'
 mozilla
 :
 :
 ipc
 :
 :
-"
+'
 +
 self
 .
@@ -23407,9 +23030,9 @@ title
 (
 )
 +
-"
+'
 Side
-"
+'
 )
         
 if
@@ -23445,10 +23068,9 @@ memberinits
                 
 ExprMemberInit
 (
-                    
 ExprVar
 (
-"
+'
 mozilla
 :
 :
@@ -23456,9 +23078,9 @@ ipc
 :
 :
 IToplevelProtocol
-"
+'
 )
-                    
+                               
 [
 name
 _protocolId
@@ -23467,7 +23089,6 @@ ptype
 )
 side
 ]
-                
 )
             
 ]
@@ -23483,10 +23104,9 @@ memberinits
                 
 ExprMemberInit
 (
-                    
 ExprVar
 (
-"
+'
 mozilla
 :
 :
@@ -23494,8 +23114,9 @@ ipc
 :
 :
 IProtocol
-"
+'
 )
+                               
 [
 _protocolId
 (
@@ -23503,7 +23124,6 @@ ptype
 )
 side
 ]
-                
 )
             
 ]
@@ -23512,7 +23132,7 @@ ctor
 .
 addcode
 (
-"
+'
 MOZ_COUNT_CTOR
 (
 {
@@ -23522,7 +23142,7 @@ clsname
 ;
 \
 n
-"
+'
 clsname
 =
 self
@@ -23560,14 +23180,13 @@ MethodSpec
 .
 VIRTUAL
 )
-        
 )
         
 dtor
 .
 addcode
 (
-"
+'
 MOZ_COUNT_DTOR
 (
 {
@@ -23577,7 +23196,7 @@ clsname
 ;
 \
 n
-"
+'
 clsname
 =
 self
@@ -23614,16 +23233,15 @@ cls
 addcode
 (
                 
-"
-"
-"
+'
+'
+'
                 
 NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
                 
-"
-"
-"
-            
+'
+'
+'
 )
             
 self
@@ -23644,9 +23262,9 @@ cls
 addcode
 (
                 
-"
-"
-"
+'
+'
+'
                 
 void
 ActorAlloc
@@ -23672,10 +23290,9 @@ Release
 ;
 }
                 
-"
-"
-"
-            
+'
+'
+'
 )
         
 self
@@ -23728,12 +23345,12 @@ managermeth
 =
 MethodDefn
 (
-                    
 MethodDecl
 (
-"
+                    
+'
 Manager
-"
+'
 ret
 =
 managertype
@@ -23741,7 +23358,6 @@ const
 =
 True
 )
-                
 )
                 
 managermeth
@@ -23749,9 +23365,9 @@ managermeth
 addcode
 (
                     
-"
-"
-"
+'
+'
+'
                     
 return
 static_cast
@@ -23770,14 +23386,13 @@ Manager
 )
 ;
                     
-"
-"
-"
+'
+'
+'
                     
 type
 =
 managertype
-                
 )
                 
 self
@@ -23804,7 +23419,7 @@ itervar
 return
 ExprCode
 (
-"
+'
 {
 iter
 }
@@ -23817,7 +23432,7 @@ Get
 GetKey
 (
 )
-"
+'
 iter
 =
 itervar
@@ -23836,15 +23451,15 @@ False
             
 itermeth
 =
-"
+'
 ConstIter
-"
+'
 if
 const
 else
-"
+'
 Iter
-"
+'
             
 return
 StmtFor
@@ -23854,8 +23469,7 @@ init
 =
 ExprCode
 (
-                    
-"
+'
 auto
 {
 itervar
@@ -23870,27 +23484,26 @@ itermeth
 }
 (
 )
-"
-                    
+'
+                              
 itervar
 =
 itervar
-                    
+                              
 hashtable
 =
 hashtable
-                    
+                              
 itermeth
 =
 itermeth
-                
 )
                 
 cond
 =
 ExprCode
 (
-"
+'
 !
 {
 itervar
@@ -23899,7 +23512,7 @@ itervar
 Done
 (
 )
-"
+'
 itervar
 =
 itervar
@@ -23909,7 +23522,7 @@ update
 =
 ExprCode
 (
-"
+'
 {
 itervar
 }
@@ -23917,12 +23530,11 @@ itervar
 Next
 (
 )
-"
+'
 itervar
 =
 itervar
 )
-            
 )
         
 for
@@ -23949,10 +23561,9 @@ meth
 =
 MethodDefn
 (
-                
 MethodDecl
 (
-                    
+                
 p
 .
 managedMethod
@@ -23964,17 +23575,14 @@ side
 )
 .
 name
-                    
+                
 params
 =
 [
-                        
 Decl
 (
-                            
 _cxxArrayType
 (
-                                
 p
 .
 managedCxxType
@@ -23987,30 +23595,25 @@ side
 ref
 =
 True
-                            
 )
-                            
-"
+                              
+'
 aArr
-"
-                        
+'
 )
-                    
 ]
-                    
+                
 const
 =
 True
-                
 )
-            
 )
             
 meth
 .
 addcode
 (
-"
+'
 {
 container
 }
@@ -24022,7 +23625,7 @@ aArr
 ;
 \
 n
-"
+'
 container
 =
 container
@@ -24032,10 +23635,9 @@ refmeth
 =
 MethodDefn
 (
-                
 MethodDecl
 (
-                    
+                
 p
 .
 managedMethod
@@ -24047,12 +23649,12 @@ side
 )
 .
 name
-                    
+                
 params
 =
 [
 ]
-                    
+                
 ret
 =
 p
@@ -24070,20 +23672,18 @@ ref
 =
 True
 )
-                    
+                
 const
 =
 True
-                
 )
-            
 )
             
 refmeth
 .
 addcode
 (
-"
+'
 return
 {
 container
@@ -24091,7 +23691,7 @@ container
 ;
 \
 n
-"
+'
 container
 =
 container
@@ -24116,30 +23716,27 @@ arrvar
 =
 ExprVar
 (
-"
+'
 arr__
-"
+'
 )
         
 managedmeth
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
-"
+            
+'
 AllManagedActors
-"
-                
+'
+            
 params
 =
 [
-                    
 Decl
 (
-                        
 _cxxArrayType
 (
 _refptr
@@ -24152,27 +23749,23 @@ ref
 =
 True
 )
-                        
+                         
 arrvar
 .
 name
-                    
 )
-                
 ]
-                
+            
 methodspec
 =
 MethodSpec
 .
 OVERRIDE
-                
+            
 const
 =
 True
-            
 )
-        
 )
         
 managedmeth
@@ -24180,9 +23773,9 @@ managedmeth
 addcode
 (
             
-"
-"
-"
+'
+'
+'
             
 uint32_t
 total
@@ -24190,10 +23783,9 @@ total
 0
 ;
             
-"
-"
-"
-        
+'
+'
+'
 )
         
 for
@@ -24209,9 +23801,9 @@ managedmeth
 addcode
 (
                 
-"
-"
-"
+'
+'
+'
                 
 total
 +
@@ -24225,9 +23817,9 @@ Count
 )
 ;
                 
-"
-"
-"
+'
+'
+'
                 
 container
 =
@@ -24240,7 +23832,6 @@ self
 .
 side
 )
-            
 )
         
 managedmeth
@@ -24248,9 +23839,9 @@ managedmeth
 addcode
 (
             
-"
-"
-"
+'
+'
+'
             
 arr__
 .
@@ -24260,10 +23851,9 @@ total
 )
 ;
             
-"
-"
-"
-        
+'
+'
+'
 )
         
 for
@@ -24279,9 +23869,9 @@ managedmeth
 addcode
 (
                 
-"
-"
-"
+'
+'
+'
                 
 for
 (
@@ -24335,9 +23925,9 @@ GetLifecycleProxy
                 
 }
                 
-"
-"
-"
+'
+'
+'
                 
 container
 =
@@ -24350,7 +23940,6 @@ self
 .
 side
 )
-            
 )
         
 self
@@ -24386,9 +23975,9 @@ msgvar
 =
 ExprVar
 (
-"
+'
 msg__
-"
+'
 )
         
 self
@@ -24401,9 +23990,9 @@ replyvar
 =
 ExprVar
 (
-"
+'
 reply__
-"
+'
 )
         
 self
@@ -24416,9 +24005,9 @@ itervar
 =
 ExprVar
 (
-"
+'
 iter__
-"
+'
 )
         
 self
@@ -24431,9 +24020,9 @@ var
 =
 ExprVar
 (
-"
+'
 v__
-"
+'
 )
         
 self
@@ -24446,9 +24035,9 @@ handlevar
 =
 ExprVar
 (
-"
+'
 handle__
-"
+'
 )
         
 self
@@ -24461,13 +24050,13 @@ msgtype
 =
 ExprCode
 (
-"
+'
 msg__
 .
 type
 (
 )
-"
+'
 )
         
 self
@@ -24551,18 +24140,17 @@ default
 StmtCode
 (
             
-"
-"
-"
+'
+'
+'
             
 return
 MsgNotKnown
 ;
             
-"
-"
-"
-        
+'
+'
+'
 )
         
 self
@@ -24655,9 +24243,9 @@ Decl
 (
 Type
 (
-"
+'
 Message
-"
+'
 const
 =
 True
@@ -24683,9 +24271,9 @@ Decl
 (
 Type
 (
-"
+'
 Message
-"
+'
 ref
 =
 True
@@ -24693,6 +24281,7 @@ ptr
 =
 True
 )
+                                   
 replyvar
 .
 name
@@ -24703,22 +24292,18 @@ method
 =
 MethodDefn
 (
-                
 MethodDecl
 (
-                    
 name
-                    
 methodspec
 =
 MethodSpec
 .
 OVERRIDE
-                    
+                                           
 params
 =
 params
-                    
 ret
 =
 _Result
@@ -24726,9 +24311,7 @@ _Result
 Type
 (
 )
-                
 )
-            
 )
             
 if
@@ -24741,9 +24324,9 @@ method
 addcode
 (
                     
-"
-"
-"
+'
+'
+'
                     
 MOZ_ASSERT_UNREACHABLE
 (
@@ -24760,10 +24343,9 @@ return
 MsgNotKnown
 ;
                     
-"
-"
-"
-                
+'
+'
+'
 )
                 
 return
@@ -24778,9 +24360,9 @@ method
 addcode
 (
                     
-"
-"
-"
+'
+'
+'
                     
 int32_t
 route__
@@ -24881,9 +24463,9 @@ args
                     
 }
                     
-"
-"
-"
+'
+'
+'
                     
 msgvar
 =
@@ -24895,20 +24477,19 @@ self
 .
 logMessage
 (
-                        
 None
 ExprAddrOf
 (
 msgvar
 )
-"
+                                               
+'
 Ignored
 message
 for
 dead
 actor
-"
-                    
+'
 )
                     
 name
@@ -24926,7 +24507,6 @@ p
 in
 params
 ]
-                
 )
             
 if
@@ -24964,6 +24544,7 @@ method
         
 dispatches
 =
+(
 ptype
 .
 isToplevel
@@ -24975,6 +24556,7 @@ ptype
 isManager
 (
 )
+)
         
 self
 .
@@ -24982,36 +24564,30 @@ cls
 .
 addstmts
 (
-            
 [
-                
+            
 makeHandlerMethod
 (
-                    
-"
+'
 OnMessageReceived
-"
-                    
+'
 self
 .
 asyncSwitch
-                    
+                              
 hasReply
 =
 False
-                    
 dispatches
 =
 dispatches
-                
 )
-                
+            
 Whitespace
 .
 NL
-            
-]
         
+]
 )
         
 self
@@ -25020,36 +24596,30 @@ cls
 .
 addstmts
 (
-            
 [
-                
+            
 makeHandlerMethod
 (
-                    
-"
+'
 OnMessageReceived
-"
-                    
+'
 self
 .
 syncSwitch
-                    
+                              
 hasReply
 =
 True
-                    
 dispatches
 =
 dispatches
-                
 )
-                
+            
 Whitespace
 .
 NL
-            
-]
         
+]
 )
         
 self
@@ -25058,45 +24628,39 @@ cls
 .
 addstmts
 (
-            
 [
-                
+            
 makeHandlerMethod
 (
-                    
-"
+'
 OnCallReceived
-"
-                    
+'
 self
 .
 interruptSwitch
-                    
+                              
 hasReply
 =
 True
-                    
 dispatches
 =
 dispatches
-                
 )
-                
+            
 Whitespace
 .
 NL
-            
-]
         
+]
 )
         
 clearsubtreevar
 =
 ExprVar
 (
-"
+'
 ClearSubtree
-"
+'
 )
         
 if
@@ -25111,19 +24675,18 @@ onclose
 =
 MethodDefn
 (
-                
 MethodDecl
 (
-"
+'
 OnChannelClose
-"
+'
+                                            
 methodspec
 =
 MethodSpec
 .
 OVERRIDE
 )
-            
 )
             
 onclose
@@ -25131,9 +24694,9 @@ onclose
 addcode
 (
                 
-"
-"
-"
+'
+'
+'
                 
 DestroySubtree
 (
@@ -25171,10 +24734,9 @@ Release
                 
 }
                 
-"
-"
-"
-            
+'
+'
+'
 )
             
 self
@@ -25195,19 +24757,18 @@ onerror
 =
 MethodDefn
 (
-                
 MethodDecl
 (
-"
+'
 OnChannelError
-"
+'
+                                            
 methodspec
 =
 MethodSpec
 .
 OVERRIDE
 )
-            
 )
             
 onerror
@@ -25215,9 +24776,9 @@ onerror
 addcode
 (
                 
-"
-"
-"
+'
+'
+'
                 
 DestroySubtree
 (
@@ -25255,10 +24816,9 @@ Release
                 
 }
                 
-"
-"
-"
-            
+'
+'
+'
 )
             
 self
@@ -25276,6 +24836,7 @@ NL
 )
         
 if
+(
 ptype
 .
 isToplevel
@@ -25287,6 +24848,7 @@ ptype
 isInterrupt
 (
 )
+)
 :
             
 processnative
@@ -25296,16 +24858,15 @@ MethodDefn
                 
 MethodDecl
 (
-"
+'
 ProcessNativeEventsInInterruptCall
-"
+'
 ret
 =
 Type
 .
 VOID
 )
-            
 )
             
 processnative
@@ -25313,9 +24874,9 @@ processnative
 addcode
 (
                 
-"
-"
-"
+'
+'
+'
                 
 #
 ifdef
@@ -25350,10 +24911,9 @@ only
 #
 endif
                 
-"
-"
-"
-            
+'
+'
+'
 )
             
 self
@@ -25406,9 +24966,9 @@ clearsubtree
 addcode
 (
                 
-"
-"
-"
+'
+'
+'
                 
 for
 (
@@ -25533,9 +25093,9 @@ Clear
 )
 ;
                 
-"
-"
-"
+'
+'
+'
                 
 container
 =
@@ -25548,7 +25108,6 @@ self
 .
 side
 )
-            
 )
         
 self
@@ -25579,15 +25138,13 @@ cls
 .
 addstmts
 (
-                
 [
-                    
+                
 StmtDecl
 (
-                        
 Decl
 (
-                            
+                    
 p
 .
 managedVarType
@@ -25597,7 +25154,7 @@ self
 .
 side
 )
-                            
+                    
 p
 .
 managedVar
@@ -25609,13 +25166,9 @@ side
 )
 .
 name
-                        
 )
-                    
 )
-                
 ]
-            
 )
     
 def
@@ -25628,13 +25181,13 @@ managed
         
 hereEp
 =
-"
+'
 ManagedEndpoint
 <
 %
 s
 >
-"
+'
 %
 _actorName
 (
@@ -25650,29 +25203,28 @@ side
         
 thereEp
 =
-"
+'
 ManagedEndpoint
 <
 %
 s
 >
-"
+'
 %
 _actorName
 (
-            
 managed
 .
 name
 (
 )
+                                                     
 _otherSide
 (
 self
 .
 side
 )
-        
 )
         
 actor
@@ -25687,35 +25239,33 @@ ActorType
 (
 managed
 )
-"
+'
 aActor
-"
+'
 )
         
 openmeth
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
-"
+            
+'
 Open
 %
 sEndpoint
-"
+'
 %
 managed
 .
 name
 (
 )
-                
+            
 params
 =
 [
-                    
 Decl
 (
 self
@@ -25733,18 +25283,15 @@ actor
 .
 name
 )
-                
 ]
-                
+            
 ret
 =
 Type
 (
 thereEp
 )
-            
 )
-        
 )
         
 openmeth
@@ -25752,9 +25299,9 @@ openmeth
 addcode
 (
             
-"
-"
-"
+'
+'
+'
             
 *
 {
@@ -25784,9 +25331,9 @@ Id
 )
 ;
             
-"
-"
-"
+'
+'
+'
             
 bind
 =
@@ -25809,42 +25356,39 @@ thereEp
 thereEp
 =
 thereEp
-        
 )
         
 bindmeth
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
-"
+            
+'
 Bind
 %
 sEndpoint
-"
+'
 %
 managed
 .
 name
 (
 )
-                
+            
 params
 =
 [
-                    
 Decl
 (
 Type
 (
 hereEp
 )
-"
+'
 aEndpoint
-"
+'
 )
                     
 Decl
@@ -25860,21 +25404,19 @@ self
 .
 side
 )
+                         
 actor
 .
 name
 )
-                
 ]
-                
+            
 ret
 =
 Type
 .
 BOOL
-            
 )
-        
 )
         
 bindmeth
@@ -25882,9 +25424,9 @@ bindmeth
 addcode
 (
             
-"
-"
-"
+'
+'
+'
             
 MOZ_RELEASE_ASSERT
 (
@@ -25910,9 +25452,9 @@ return
 true
 ;
             
-"
-"
-"
+'
+'
+'
             
 bind
 =
@@ -25920,29 +25462,27 @@ self
 .
 bindManagedActor
 (
-                
 actor
 errfn
 =
 ExprLiteral
 .
 FALSE
+                                       
 idexpr
 =
 ExprCode
 (
-"
+'
 *
 aEndpoint
 .
 ActorId
 (
 )
-"
+'
 )
-            
 )
-        
 )
         
 self
@@ -25977,9 +25517,9 @@ protocolbase
 =
 Type
 (
-"
+'
 IProtocol
-"
+'
 ptr
 =
 True
@@ -26019,9 +25559,9 @@ addcase
                     
 CaseLabel
 (
-"
+'
 SHMEM_CREATED_MESSAGE_TYPE
-"
+'
 )
                     
 self
@@ -26029,7 +25569,6 @@ self
 genShmemCreatedHandler
 (
 )
-                
 )
                 
 self
@@ -26041,9 +25580,9 @@ addcase
                     
 CaseLabel
 (
-"
+'
 SHMEM_DESTROYED_MESSAGE_TYPE
-"
+'
 )
                     
 self
@@ -26051,7 +25590,6 @@ self
 genShmemDestroyedHandler
 (
 )
-                
 )
             
 else
@@ -26067,12 +25605,11 @@ abort
 .
 addstmts
 (
-                    
 [
-                        
+                    
 _fatalError
 (
-"
+'
 this
 protocol
 tree
@@ -26080,18 +25617,17 @@ does
 not
 use
 shmem
-"
+'
 )
-                        
+                    
 StmtReturn
 (
 _Result
 .
 NotKnown
 )
-                    
+                
 ]
-                
 )
                 
 self
@@ -26100,11 +25636,12 @@ asyncSwitch
 .
 addcase
 (
+                    
 CaseLabel
 (
-"
+'
 SHMEM_CREATED_MESSAGE_TYPE
-"
+'
 )
 abort
 )
@@ -26118,12 +25655,11 @@ addcase
                     
 CaseLabel
 (
-"
+'
 SHMEM_DESTROYED_MESSAGE_TYPE
-"
+'
 )
 abort
-                
 )
         
 inoutCtorTypes
@@ -26176,28 +25712,27 @@ pvar
 =
 ExprVar
 (
-"
+'
 aProtocolId
-"
+'
 )
         
 listenervar
 =
 ExprVar
 (
-"
+'
 aListener
-"
+'
 )
         
 removemanagee
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
+            
 p
 .
 removeManageeMethod
@@ -26205,11 +25740,10 @@ removeManageeMethod
 )
 .
 name
-                
+            
 params
 =
 [
-                    
 Decl
 (
 _protocolIdType
@@ -26227,17 +25761,14 @@ listenervar
 .
 name
 )
-                
 ]
-                
+            
 methodspec
 =
 MethodSpec
 .
 OVERRIDE
-            
 )
-        
 )
         
 if
@@ -26255,9 +25786,9 @@ removemanagee
 addcode
 (
                 
-"
-"
-"
+'
+'
+'
                 
 FatalError
 (
@@ -26270,10 +25801,9 @@ unreached
 return
 ;
                 
-"
-"
-"
-            
+'
+'
+'
 )
         
 else
@@ -26306,7 +25836,6 @@ manageecxxtype
 =
 _cxxBareType
 (
-                    
 ipdl
 .
 type
@@ -26315,10 +25844,10 @@ ActorType
 (
 manageeipdltype
 )
+                                              
 self
 .
 side
-                
 )
                 
 case
@@ -26326,9 +25855,9 @@ case
 ExprCode
 (
                     
-"
-"
-"
+'
+'
+'
                     
 {
                         
@@ -26451,9 +25980,9 @@ return
                     
 }
                     
-"
-"
-"
+'
+'
+'
                     
 manageecxxtype
 =
@@ -26470,7 +25999,6 @@ self
 .
 side
 )
-                
 )
                 
 switchontype
@@ -26486,6 +26014,7 @@ manageeipdltype
 .
 name
 )
+                                     
 case
 )
             
@@ -26493,17 +26022,15 @@ switchontype
 .
 addcase
 (
-                
 DefaultLabel
 (
 )
-                
 ExprCode
 (
-                    
-"
-"
-"
+                
+'
+'
+'
                 
 FatalError
 (
@@ -26516,12 +26043,10 @@ unreached
 return
 ;
                 
-"
-"
-"
-                
+'
+'
+'
 )
-            
 )
             
 removemanagee
@@ -26535,10 +26060,9 @@ deallocmanagee
 =
 MethodDefn
 (
-            
 MethodDecl
 (
-                
+            
 p
 .
 deallocManageeMethod
@@ -26546,11 +26070,10 @@ deallocManageeMethod
 )
 .
 name
-                
+            
 params
 =
 [
-                    
 Decl
 (
 _protocolIdType
@@ -26568,17 +26091,14 @@ listenervar
 .
 name
 )
-                
 ]
-                
+            
 methodspec
 =
 MethodSpec
 .
 OVERRIDE
-            
 )
-        
 )
         
 if
@@ -26596,9 +26116,9 @@ deallocmanagee
 addcode
 (
                 
-"
-"
-"
+'
+'
+'
                 
 FatalError
 (
@@ -26611,10 +26131,9 @@ unreached
 return
 ;
                 
-"
-"
-"
-            
+'
+'
+'
 )
         
 else
@@ -26658,9 +26177,9 @@ case
 StmtCode
 (
                     
-"
-"
-"
+'
+'
+'
                     
 {
 concrete
@@ -26686,9 +26205,9 @@ aListener
 return
 ;
                     
-"
-"
-"
+'
+'
+'
                     
 concrete
 =
@@ -26724,7 +26243,6 @@ self
 .
 side
 )
-                
 )
                 
 switchontype
@@ -26740,6 +26258,7 @@ manageeipdltype
 .
 name
 )
+                                     
 case
 )
             
@@ -26747,17 +26266,15 @@ switchontype
 .
 addcase
 (
-                
 DefaultLabel
 (
 )
-                
 StmtCode
 (
-                    
-"
-"
-"
+                
+'
+'
+'
                 
 FatalError
 (
@@ -26770,12 +26287,10 @@ unreached
 return
 ;
                 
-"
-"
-"
-                
+'
+'
+'
 )
-            
 )
             
 deallocmanagee
@@ -26820,9 +26335,9 @@ return
 StmtCode
 (
             
-"
-"
-"
+'
+'
+'
             
 {
                 
@@ -26850,16 +26365,15 @@ MsgProcessed
             
 }
             
-"
-"
-"
+'
+'
+'
             
 msgvar
 =
 self
 .
 msgvar
-        
 )
     
 def
@@ -26886,9 +26400,9 @@ return
 StmtCode
 (
             
-"
-"
-"
+'
+'
+'
             
 {
                 
@@ -26916,16 +26430,15 @@ MsgProcessed
             
 }
             
-"
-"
-"
+'
+'
+'
             
 msgvar
 =
 self
 .
 msgvar
-        
 )
     
 def
@@ -27036,7 +26549,7 @@ capitalize
 return
 ExprCode
 (
-"
+'
 static_cast
 <
 {
@@ -27047,7 +26560,7 @@ class_name
 (
 this
 )
-"
+'
 class_name
 =
 class_name
@@ -27072,12 +26585,13 @@ self
 concreteThis
 (
 )
-"
+'
 -
 >
-"
+'
 function
 )
+                        
 args
 =
 args
@@ -27332,21 +26846,16 @@ elif
 isasync
 :
                 
-(
-                    
 sendmethod
-                    
 movesendmethod
-                    
 promisesendmethod
-                    
 (
 recvlbl
 recvcase
 )
-                
-)
 =
+\
+                    
 self
 .
 genAsyncSendMethod
@@ -27602,9 +27111,9 @@ method
 addcode
 (
             
-"
-"
-"
+'
+'
+'
             
 *
 {
@@ -27776,9 +27285,9 @@ actor
 }
 ;
             
-"
-"
-"
+'
+'
+'
             
 bind
 =
@@ -27799,7 +27308,6 @@ self
 .
 genVerifyMessage
 (
-                
 md
 .
 decl
@@ -27810,14 +27318,14 @@ verify
 md
 .
 params
+                                         
 errfnSendCtor
 ExprVar
 (
-"
+'
 msg__
-"
+'
 )
-            
 )
             
 sendstmts
@@ -27834,19 +27342,18 @@ self
 .
 destroyActor
 (
-                
 md
 actor
 .
 var
 (
 )
+                                      
 why
 =
 _DestroyReason
 .
 FailedConstructor
-            
 )
             
 actor
@@ -27876,7 +27383,6 @@ side
 capitalize
 (
 )
-        
 )
         
 lbl
@@ -27960,7 +27466,6 @@ self
 .
 genVerifyMessage
 (
-            
 md
 .
 decl
@@ -27971,14 +27476,14 @@ verify
 md
 .
 params
+                                       
 errfnSendCtor
 ExprVar
 (
-"
+'
 msg__
-"
+'
 )
-        
 )
         
 replyvar
@@ -28007,25 +27512,21 @@ deserializeReply
 (
             
 md
-            
 ExprAddrOf
 (
 replyvar
 )
-            
 self
 .
 side
             
 errfnSendCtor
-            
 errfnSentinel
 (
 ExprLiteral
 .
 NULL
 )
-        
 )
         
 method
@@ -28033,9 +27534,9 @@ method
 addcode
 (
             
-"
-"
-"
+'
+'
+'
             
 *
 {
@@ -28180,9 +27681,9 @@ actor
 }
 ;
             
-"
-"
-"
+'
+'
+'
             
 bind
 =
@@ -28219,19 +27720,18 @@ self
 .
 destroyActor
 (
-                
 md
 actor
 .
 var
 (
 )
+                                      
 why
 =
 _DestroyReason
 .
 FailedConstructor
-            
 )
             
 replystmts
@@ -28265,7 +27765,6 @@ side
 capitalize
 (
 )
-        
 )
         
 return
@@ -28323,13 +27822,12 @@ idexpr
         
 return
 [
-            
 StmtCode
 (
-                
-"
-"
-"
+            
+'
+'
+'
             
 if
 (
@@ -28387,10 +27885,10 @@ actor
 )
 ;
             
-"
-"
-"
-                
+'
+'
+'
+            
 actor
 =
 actordecl
@@ -28398,7 +27896,7 @@ actordecl
 var
 (
 )
-                
+            
 actorname
 =
 actorproto
@@ -28414,15 +27912,15 @@ side
 capitalize
 (
 )
-                
+            
 errfn
 =
 errfn
-                
+            
 setManagerArgs
 =
 setManagerArgs
-                
+            
 container
 =
 self
@@ -28436,9 +27934,7 @@ self
 .
 side
 )
-            
 )
-        
 ]
     
 def
@@ -28481,9 +27977,8 @@ helper
 .
 addstmts
 (
-            
 [
-                
+            
 self
 .
 callAllocActor
@@ -28491,16 +27986,16 @@ callAllocActor
 md
 retsems
 =
-"
+'
 out
-"
+'
 side
 =
 self
 .
 side
 )
-                
+            
 StmtReturn
 (
 ExprCall
@@ -28520,9 +28015,8 @@ makeCxxArgs
 )
 )
 )
-            
-]
         
+]
 )
         
 return
@@ -28612,7 +28106,6 @@ self
 .
 genVerifyMessage
 (
-                
 md
 .
 decl
@@ -28623,14 +28116,14 @@ verify
 md
 .
 params
+                                    
 errfnSendDtor
 ExprVar
 (
-"
+'
 msg__
-"
+'
 )
-            
 )
             
 +
@@ -28663,7 +28156,6 @@ StmtReturn
 sendok
 )
 ]
-        
 )
         
 lbl
@@ -28793,7 +28285,6 @@ self
 .
 genVerifyMessage
 (
-                
 md
 .
 decl
@@ -28804,14 +28295,14 @@ verify
 md
 .
 params
+                                    
 errfnSendDtor
 ExprVar
 (
-"
+'
 msg__
-"
+'
 )
-            
 )
             
 +
@@ -28819,15 +28310,16 @@ msg__
 Whitespace
 .
 NL
+                
 StmtDecl
 (
 Decl
 (
 Type
 (
-"
+'
 Message
-"
+'
 )
 replyvar
 .
@@ -28838,7 +28330,6 @@ name
             
 +
 sendstmts
-        
 )
         
 destmts
@@ -28857,11 +28348,11 @@ self
 .
 side
 errfnSend
+            
 errfnSentinel
 (
 )
 actorvar
-        
 )
         
 ifsendok
@@ -28884,11 +28375,11 @@ ifsendok
 .
 addifstmts
 (
-            
 [
 Whitespace
 .
 NL
+                             
 StmtExpr
 (
 ExprAssn
@@ -28897,14 +28388,13 @@ sendok
 ExprLiteral
 .
 FALSE
-"
+'
 &
 =
-"
+'
 )
 )
 ]
-        
 )
         
 method
@@ -28930,6 +28420,7 @@ var
 (
 )
 )
+            
 +
 [
 Whitespace
@@ -28940,7 +28431,6 @@ StmtReturn
 sendok
 )
 ]
-        
 )
         
 return
@@ -28999,13 +28489,12 @@ type
         
 return
 [
-            
 StmtCode
 (
-                
-"
-"
-"
+            
+'
+'
+'
             
 IProtocol
 *
@@ -29058,27 +28547,25 @@ actor
 )
 ;
             
-"
-"
-"
-                
+'
+'
+'
+            
 actor
 =
 actorexpr
-                
+            
 why
 =
 why
-                
+            
 protoId
 =
 _protocolId
 (
 destroyedType
 )
-            
 )
-        
 ]
     
 def
@@ -29093,9 +28580,9 @@ return
 StmtCode
 (
             
-"
-"
-"
+'
+'
+'
             
 if
 (
@@ -29137,14 +28624,13 @@ false
             
 }
             
-"
-"
-"
+'
+'
+'
             
 actor
 =
 actorexpr
-        
 )
     
 def
@@ -29212,7 +28698,6 @@ _Result
 .
 ValuError
 )
-        
 )
         
 if
@@ -29252,13 +28737,13 @@ resolvearg
 =
 ExprCall
 (
-                
 ExprVar
 (
-"
+'
 MakeTuple
-"
+'
 )
+                                  
 args
 =
 [
@@ -29277,7 +28762,6 @@ md
 .
 returns
 ]
-            
 )
         
 else
@@ -29320,9 +28804,9 @@ case
 addcode
 (
             
-"
-"
-"
+'
+'
+'
             
 *
 {
@@ -29462,9 +28946,9 @@ return
 MsgProcessed
 ;
             
-"
-"
-"
+'
+'
+'
             
 prologue
 =
@@ -29499,7 +28983,6 @@ desrej
 reason
 =
 reason
-        
 )
         
 return
@@ -29554,22 +29037,20 @@ method
 .
 addstmts
 (
-            
 stmts
-            
+                        
 +
 [
 Whitespace
 .
 NL
 ]
-            
+                        
 +
 self
 .
 genVerifyMessage
 (
-                
 md
 .
 decl
@@ -29580,19 +29061,19 @@ verify
 md
 .
 params
+                                                
 errfnSend
 ExprVar
 (
-"
+'
 msg__
-"
+'
 )
-            
 )
-            
+                        
 +
 sendstmts
-            
+                        
 +
 [
 StmtReturn
@@ -29600,7 +29081,6 @@ StmtReturn
 retvar
 )
 ]
-        
 )
         
 movemethod
@@ -29771,7 +29251,6 @@ errfnSend
 errfnSentinel
 (
 )
-        
 )
         
 method
@@ -29786,7 +29265,6 @@ self
 .
 genVerifyMessage
 (
-                
 md
 .
 decl
@@ -29798,13 +29276,13 @@ md
 .
 params
 errfnSend
+                                    
 ExprVar
 (
-"
+'
 msg__
-"
+'
 )
-            
 )
             
 +
@@ -29812,15 +29290,16 @@ msg__
 Whitespace
 .
 NL
+                
 StmtDecl
 (
 Decl
 (
 Type
 (
-"
+'
 Message
-"
+'
 )
 replyvar
 .
@@ -29845,11 +29324,11 @@ desstmts
 Whitespace
 .
 NL
+                
 StmtReturn
 .
 TRUE
 ]
-        
 )
         
 movemethod
@@ -29897,12 +29376,12 @@ self
 .
 deserializeMessage
 (
-            
 md
 self
 .
 side
 errfnRecv
+                                        
 errfnSent
 =
 errfnSentinel
@@ -29911,7 +29390,6 @@ _Result
 .
 ValuError
 )
-        
 )
         
 idvar
@@ -29933,7 +29411,6 @@ stmts
             
 +
 [
-                
 StmtDecl
 (
 Decl
@@ -29966,7 +29443,6 @@ in
 md
 .
 returns
-            
 ]
             
 +
@@ -29978,9 +29454,9 @@ callAllocActor
 md
 retsems
 =
-"
+'
 in
-"
+'
 side
 =
 self
@@ -29994,7 +29470,6 @@ self
 .
 bindManagedActor
 (
-                
 md
 .
 actorDecl
@@ -30005,13 +29480,13 @@ errfn
 _Result
 .
 ValuError
+                                    
 idexpr
 =
 _actorHId
 (
 actorhandle
 )
-            
 )
             
 +
@@ -30047,7 +29522,6 @@ self
 .
 genVerifyMessage
 (
-                
 md
 .
 decl
@@ -30059,10 +29533,10 @@ md
 .
 returns
 errfnRecv
+                                    
 self
 .
 replyvar
-            
 )
             
 +
@@ -30070,6 +29544,7 @@ replyvar
 Whitespace
 .
 NL
+                
 StmtReturn
 (
 _Result
@@ -30077,7 +29552,6 @@ _Result
 Processed
 )
 ]
-        
 )
         
 return
@@ -30115,12 +29589,12 @@ self
 .
 deserializeMessage
 (
-            
 md
 self
 .
 side
 errfnRecv
+                                        
 errfnSent
 =
 errfnSentinel
@@ -30129,7 +29603,6 @@ _Result
 .
 ValuError
 )
-        
 )
         
 idvar
@@ -30151,7 +29624,6 @@ stmts
             
 +
 [
-                
 StmtDecl
 (
 Decl
@@ -30184,7 +29656,6 @@ in
 md
 .
 returns
-            
 ]
             
 +
@@ -30232,7 +29703,6 @@ self
 .
 genVerifyMessage
 (
-                
 md
 .
 decl
@@ -30244,10 +29714,10 @@ md
 .
 returns
 errfnRecv
+                                    
 self
 .
 replyvar
-            
 )
             
 +
@@ -30272,6 +29742,7 @@ var
 Whitespace
 .
 NL
+                
 StmtReturn
 (
 _Result
@@ -30279,7 +29750,6 @@ _Result
 Processed
 )
 ]
-        
 )
         
 return
@@ -30317,7 +29787,6 @@ self
 .
 deserializeMessage
 (
-            
 md
 self
 .
@@ -30325,6 +29794,7 @@ side
 errfn
 =
 errfnRecv
+                                        
 errfnSent
 =
 errfnSentinel
@@ -30333,7 +29803,6 @@ _Result
 .
 ValuError
 )
-        
 )
         
 idvar
@@ -30349,7 +29818,6 @@ md
 declstmts
 =
 [
-            
 StmtDecl
 (
 Decl
@@ -30375,14 +29843,13 @@ initargs
 [
 ]
 )
-            
+                     
 for
 r
 in
 md
 .
 returns
-        
 ]
         
 if
@@ -30459,7 +29926,6 @@ self
 .
 genVerifyMessage
 (
-                
 md
 .
 decl
@@ -30471,10 +29937,10 @@ md
 .
 returns
 errfnRecv
+                                    
 self
 .
 replyvar
-            
 )
             
 +
@@ -30486,7 +29952,6 @@ _Result
 Processed
 )
 ]
-        
 )
         
 return
@@ -30555,22 +30020,19 @@ var
 stmts
 =
 (
-            
 [
-                
 StmtDecl
 (
-                    
 Decl
 (
 Type
 (
-"
+'
 IPC
 :
 :
 Message
-"
+'
 ptr
 =
 True
@@ -30579,7 +30041,7 @@ msgvar
 .
 name
 )
-                    
+                           
 init
 =
 ExprCall
@@ -30592,32 +30054,29 @@ pqMsgCtorFunc
 (
 )
 )
+                                         
 args
 =
 [
 routingId
 ]
 )
-                
 )
-            
 ]
-            
+                 
 +
 [
 Whitespace
 .
 NL
 ]
-            
+                 
 +
 [
-                
 _ParamTraits
 .
 checkedWrite
 (
-                    
 p
 .
 ipdltype
@@ -30627,6 +30086,7 @@ var
 (
 )
 msgvar
+                                              
 sentinelKey
 =
 p
@@ -30635,25 +30095,23 @@ name
 actor
 =
 this
-                
 )
-                
+                     
 for
 p
 in
 md
 .
 params
-            
 ]
-            
+                 
 +
 [
 Whitespace
 .
 NL
 ]
-            
+                 
 +
 self
 .
@@ -30662,7 +30120,6 @@ setMessageFlags
 md
 msgvar
 )
-        
 )
         
 return
@@ -30723,27 +30180,27 @@ sendok
 =
 ExprVar
 (
-"
+'
 sendok__
-"
+'
 )
         
 seqno
 =
 ExprVar
 (
-"
+'
 seqno__
-"
+'
 )
         
 resolve
 =
 ExprVar
 (
-"
+'
 resolve__
-"
+'
 )
         
 resolvertype
@@ -30773,16 +30230,17 @@ addifstmt
 (
 _printWarningMessage
 (
-"
+'
 Error
 sending
 reply
-"
+'
 )
 )
         
 sendmsg
 =
+(
 self
 .
 setMessageFlags
@@ -30795,9 +30253,9 @@ seqno
 =
 seqno
 )
+                   
 +
 [
-            
 self
 .
 logMessage
@@ -30806,15 +30264,14 @@ md
 self
 .
 replyvar
-"
+'
 Sending
 reply
-"
+'
 )
-            
+                       
 StmtDecl
 (
-                
 Decl
 (
 Type
@@ -30824,17 +30281,18 @@ sendok
 .
 name
 )
-                
+                                
 init
 =
 ExprCall
 (
 ExprVar
 (
-"
+'
 ChannelSend
-"
+'
 )
+                                              
 args
 =
 [
@@ -30843,20 +30301,19 @@ self
 replyvar
 ]
 )
-            
 )
-            
+                       
 failifsendok
-        
 ]
+)
         
 selfvar
 =
 ExprVar
 (
-"
+'
 self__
-"
+'
 )
         
 ifactorisdead
@@ -30873,9 +30330,8 @@ ifactorisdead
 .
 addifstmts
 (
-            
 [
-                
+            
 _printWarningMessage
 (
 "
@@ -30889,20 +30345,17 @@ dead
 .
 "
 )
-                
+            
 StmtReturn
 (
 )
-            
 ]
-        
 )
         
 resolverfn
 =
 ExprLambda
 (
-            
 [
 ExprVar
 .
@@ -30911,29 +30364,28 @@ selfvar
 routingId
 seqno
 ]
+                                
 [
 Decl
 (
 Type
 .
 AUTORVAL
-"
+'
 aParam
-"
+'
 )
 ]
-        
 )
         
 resolverfn
 .
 addstmts
 (
-            
 [
 ifactorisdead
 ]
-            
+                            
 +
 [
 StmtDecl
@@ -30947,6 +30399,7 @@ resolve
 .
 name
 )
+                                        
 init
 =
 ExprLiteral
@@ -30954,7 +30407,6 @@ ExprLiteral
 TRUE
 )
 ]
-        
 )
         
 fwdparam
@@ -30993,9 +30445,7 @@ resolverfn
 .
 addstmts
 (
-                
 [
-                    
 StmtDecl
 (
 Decl
@@ -31021,34 +30471,30 @@ initargs
 [
 ]
 )
-                    
+                                    
 for
 p
 in
 md
 .
 returns
-                
 ]
-                
+                                
 +
 [
-                    
 StmtExpr
 (
-                        
 ExprAssn
 (
-                            
 ExprCall
 (
-                                
 ExprVar
 (
-"
+'
 Tie
-"
+'
 )
+                                                        
 args
 =
 [
@@ -31064,17 +30510,12 @@ md
 .
 returns
 ]
-                            
 )
-                            
+                                                     
 fwdparam
-                        
 )
-                    
 )
-                
 ]
-            
 )
         
 else
@@ -31084,15 +30525,11 @@ resolverfn
 .
 addstmts
 (
-                
 [
-                    
 StmtDecl
 (
-                        
 Decl
 (
-                            
 md
 .
 returns
@@ -31106,6 +30543,7 @@ self
 .
 side
 )
+                                               
 md
 .
 returns
@@ -31118,50 +30556,44 @@ var
 )
 .
 name
-                        
 )
-                        
+                                          
 init
 =
 fwdparam
-                    
 )
-                
 ]
-            
 )
         
 resolverfn
 .
 addstmts
 (
-            
 [
-                
 StmtDecl
 (
-                    
 Decl
 (
 Type
 (
-"
+'
 IPC
 :
 :
 Message
-"
+'
 ptr
 =
 True
 )
+                                           
 self
 .
 replyvar
 .
 name
 )
-                    
+                                      
 init
 =
 ExprCall
@@ -31174,59 +30606,48 @@ pqReplyCtorFunc
 (
 )
 )
+                                                    
 args
 =
 [
 routingId
 ]
 )
-                
 )
-            
 ]
-            
+                            
 +
 [
-                
 _ParamTraits
 .
 checkedWrite
 (
-                    
 None
-                    
 resolve
-                    
 self
 .
 replyvar
-                    
+                                                         
 sentinelKey
 =
 resolve
 .
 name
-                    
 actor
 =
 selfvar
-                
 )
-            
 ]
-            
+                            
 +
 [
-                
 _ParamTraits
 .
 checkedWrite
 (
-                    
 r
 .
 ipdltype
-                    
 ExprMove
 (
 r
@@ -31235,32 +30656,27 @@ var
 (
 )
 )
-                    
 self
 .
 replyvar
-                    
+                                                         
 sentinelKey
 =
 r
 .
 name
-                    
 actor
 =
 selfvar
-                
 )
-                
+                                
 for
 r
 in
 md
 .
 returns
-            
 ]
-        
 )
         
 resolverfn
@@ -31273,14 +30689,12 @@ sendmsg
 makeresolver
 =
 [
-            
 Whitespace
 .
 NL
-            
+                        
 StmtDecl
 (
-                
 Decl
 (
 Type
@@ -31290,7 +30704,7 @@ seqno
 .
 name
 )
-                
+                                 
 init
 =
 ExprCall
@@ -31300,27 +30714,25 @@ ExprSelect
 self
 .
 msgvar
-"
+'
 .
-"
-"
+'
+'
 seqno
-"
+'
 )
 )
-            
 )
-            
+                        
 StmtDecl
 (
-                
 Decl
 (
 Type
 (
-"
+'
 WeakPtr
-"
+'
 T
 =
 ExprVar
@@ -31330,33 +30742,33 @@ self
 clsname
 )
 )
+                                      
 selfvar
 .
 name
 )
-                
+                                 
 init
 =
 ExprVar
 .
 THIS
-            
 )
-            
+                        
 StmtDecl
 (
 Decl
 (
 resolvertype
-"
+'
 resolver
-"
+'
 )
+                                 
 init
 =
 resolverfn
 )
-        
 ]
         
 return
@@ -31441,15 +30853,12 @@ return
 (
             
 [
-                
 StmtExpr
 (
-                    
 ExprAssn
 (
-                        
+                
 replyvar
-                        
 ExprCall
 (
 ExprVar
@@ -31466,49 +30875,40 @@ args
 routingId
 ]
 )
-                    
 )
-                
 )
-                
+             
 Whitespace
 .
 NL
-            
 ]
             
 +
 [
-                
 _ParamTraits
 .
 checkedWrite
 (
-                    
 r
 .
 ipdltype
-                    
 r
 .
 var
 (
 )
-                    
 replyvar
-                    
+                                         
 sentinelKey
 =
 r
 .
 name
-                    
 actor
 =
 ExprVar
 .
 THIS
-                
 )
                 
 for
@@ -31517,7 +30917,6 @@ in
 md
 .
 returns
-            
 ]
             
 +
@@ -31537,13 +30936,12 @@ logMessage
 (
 md
 replyvar
-"
+'
 Sending
 reply
-"
+'
 )
 ]
-        
 )
     
 def
@@ -31587,9 +30985,9 @@ msgvar
 =
 ExprVar
 (
-"
+'
 msgverify__
-"
+'
 )
         
 side
@@ -31609,38 +31007,36 @@ itervar
 =
 ExprVar
 (
-"
+'
 msgverifyIter__
-"
+'
 )
         
 stmts
 .
 append
 (
-            
 StmtDecl
 (
-                
 Decl
 (
 Type
 (
-"
+'
 IPC
 :
 :
 Message
-"
+'
 ptr
 =
 False
 )
-"
+'
 msgverify__
-"
+'
 )
-                
+                              
 init
 =
 ExprMove
@@ -31650,18 +31046,15 @@ ExprDeref
 msgsrcVar
 )
 )
-            
 )
-        
 )
         
 stmts
 .
 extend
 (
-            
 (
-                
+            
 [
 StmtDecl
 (
@@ -31677,6 +31070,7 @@ itervar
 .
 name
 )
+                      
 initargs
 =
 [
@@ -31684,10 +31078,9 @@ msgvar
 ]
 )
 ]
-                
+            
 +
 [
-                    
 StmtDecl
 (
 Decl
@@ -31706,42 +31099,39 @@ var
 .
 name
 +
-"
+'
 Copy
-"
+'
 )
 initargs
 =
 [
 ]
 )
-                    
+                
 for
 p
 in
 params
-                
 ]
-                
+            
 +
 [
 Whitespace
 .
 NL
 ]
-                
+            
 +
 [
-                    
 _ParamTraits
 .
 checkedRead
 (
-                        
 p
 .
 ipdltype
-                        
+                                        
 ExprAddrOf
 (
 ExprVar
@@ -31754,21 +31144,19 @@ var
 .
 name
 +
-"
+'
 Copy
-"
+'
 )
 )
-                        
+                                        
 msgexpr
-                        
 ExprAddrOf
 (
 itervar
 )
-                        
+                                        
 errfn
-                        
 p
 .
 ipdltype
@@ -31776,34 +31164,32 @@ ipdltype
 name
 (
 )
-                        
+                                        
 sentinelKey
 =
 p
 .
 name
-                        
+                                        
 errfnSentinel
 =
 errfnSentinel
 (
 )
-                        
+                                        
 actor
 =
 ExprVar
 .
 THIS
-                    
 )
-                    
+                
 for
 p
 in
 params
-                
 ]
-                
+            
 +
 [
 self
@@ -31814,7 +31200,7 @@ msgvar
 itervar
 )
 ]
-                
+            
 +
 [
 StmtExpr
@@ -31832,9 +31218,8 @@ msgvar
 )
 )
 ]
-            
-)
         
+)
 )
         
 return
@@ -31865,22 +31250,23 @@ stmts
 .
 append
 (
-                
 StmtExpr
 (
 ExprCall
 (
+                
 ExprSelect
 (
 var
-"
+'
 -
 >
-"
-"
+'
+'
 set_seqno
-"
+'
 )
+                
 args
 =
 [
@@ -31888,7 +31274,6 @@ seqno
 ]
 )
 )
-            
 )
         
 return
@@ -31944,6 +31329,7 @@ isCtor
         
 stmts
 =
+(
 [
             
 self
@@ -31952,9 +31338,10 @@ logMessage
 (
 md
 msgexpr
-"
+'
 Received
-"
+'
+                            
 receiving
 =
 True
@@ -31972,6 +31359,7 @@ Whitespace
 NL
         
 ]
+)
         
 if
 0
@@ -32012,9 +31400,9 @@ handletype
 =
 Type
 (
-"
+'
 ActorHandle
-"
+'
 )
             
 decls
@@ -32039,30 +31427,25 @@ initargs
 reads
 =
 [
-                
 _ParamTraits
 .
 checkedRead
 (
-                    
 None
-                    
 ExprAddrOf
 (
 handlevar
 )
-                    
 msgexpr
-                    
+                                              
 ExprAddrOf
 (
 self
 .
 itervar
 )
-                    
+                                              
 errfn
-                    
 "
 '
 %
@@ -32073,25 +31456,22 @@ s
 handletype
 .
 name
-                    
+                                              
 sentinelKey
 =
-"
+'
 actor
-"
-                    
+'
 errfnSentinel
 =
 errfnSent
-                    
+                                              
 actor
 =
 ExprVar
 .
 THIS
-                
 )
-            
 ]
             
 start
@@ -32102,22 +31482,18 @@ decls
 .
 extend
 (
-            
 [
-                
 StmtDecl
 (
-                    
 Decl
 (
-                        
+                                   
 (
-                            
 Type
 (
-"
+'
 Tainted
-"
+'
 T
 =
 p
@@ -32127,7 +31503,7 @@ bareType
 side
 )
 )
-                            
+                                    
 if
 md
 .
@@ -32136,17 +31512,16 @@ decl
 type
 .
 tainted
-                            
 else
+                                    
 p
 .
 bareType
 (
 side
 )
-                        
 )
-                        
+                                   
 p
 .
 var
@@ -32154,16 +31529,13 @@ var
 )
 .
 name
-                    
 )
-                    
 initargs
 =
 [
 ]
-                
 )
-                
+                      
 for
 p
 in
@@ -32174,27 +31546,22 @@ params
 start
 :
 ]
-            
 ]
-        
 )
         
 reads
 .
 extend
 (
-            
 [
-                
 _ParamTraits
 .
 checkedRead
 (
-                    
 p
 .
 ipdltype
-                    
+                                               
 ExprAddrOf
 (
 p
@@ -32203,16 +31570,14 @@ var
 (
 )
 )
-                    
+                                               
 msgexpr
-                    
 ExprAddrOf
 (
 itervar
 )
-                    
+                                               
 errfn
-                    
 "
 '
 %
@@ -32227,25 +31592,23 @@ ipdltype
 name
 (
 )
-                    
+                                               
 sentinelKey
 =
 p
 .
 name
-                    
 errfnSentinel
 =
 errfnSent
-                    
+                                               
 actor
 =
 ExprVar
 .
 THIS
-                
 )
-                
+                      
 for
 p
 in
@@ -32256,23 +31619,18 @@ params
 start
 :
 ]
-            
 ]
-        
 )
         
 stmts
 .
 extend
 (
-            
 (
-                
+            
 [
-                    
 StmtDecl
 (
-                        
 Decl
 (
 _iterType
@@ -32287,29 +31645,28 @@ itervar
 .
 name
 )
+                      
 initargs
 =
 [
 msgvar
 ]
-                    
 )
-                
 ]
-                
+            
 +
 decls
-                
+            
 +
 [
 Whitespace
 .
 NL
 ]
-                
+            
 +
 reads
-                
+            
 +
 [
 self
@@ -32320,9 +31677,7 @@ msgvar
 itervar
 )
 ]
-            
 )
-        
 )
         
 return
@@ -32374,24 +31729,23 @@ resolve
 =
 ExprVar
 (
-"
+'
 resolve__
-"
+'
 )
         
 reason
 =
 ExprVar
 (
-"
+'
 reason__
-"
+'
 )
         
 desresolve
 =
 [
-            
 StmtDecl
 (
 Decl
@@ -32409,28 +31763,24 @@ ExprLiteral
 .
 FALSE
 )
-            
+                      
 _ParamTraits
 .
 checkedRead
 (
-                
 None
-                
 ExprAddrOf
 (
 resolve
 )
-                
 msgexpr
-                
+                                               
 ExprAddrOf
 (
 itervar
 )
-                
+                                               
 errfn
-                
 "
 '
 %
@@ -32441,31 +31791,27 @@ s
 resolve
 .
 name
-                
+                                               
 sentinelKey
 =
 resolve
 .
 name
-                
 errfnSentinel
 =
 errfnSent
-                
+                                               
 actor
 =
 ExprVar
 .
 THIS
-            
 )
-        
 ]
         
 desrej
 =
 [
-            
 StmtDecl
 (
 Decl
@@ -32484,28 +31830,24 @@ initargs
 [
 ]
 )
-            
+                  
 _ParamTraits
 .
 checkedRead
 (
-                
 None
-                
 ExprAddrOf
 (
 reason
 )
-                
 msgexpr
-                
+                                           
 ExprAddrOf
 (
 itervar
 )
-                
+                                           
 errfn
-                
 "
 '
 %
@@ -32516,25 +31858,23 @@ s
 reason
 .
 name
-                
+                                           
 sentinelKey
 =
 reason
 .
 name
-                
 errfnSentinel
 =
 errfnSent
-                
+                                           
 actor
 =
 ExprVar
 .
 THIS
-            
 )
-            
+                  
 self
 .
 endRead
@@ -32542,11 +31882,11 @@ endRead
 msgvar
 itervar
 )
-        
 ]
         
 prologue
 =
+(
 [
             
 self
@@ -32555,9 +31895,10 @@ logMessage
 (
 md
 msgexpr
-"
+'
 Received
-"
+'
+                            
 receiving
 =
 True
@@ -32575,6 +31916,7 @@ Whitespace
 NL
         
 ]
+)
         
 if
 not
@@ -32590,7 +31932,6 @@ prologue
 .
 extend
 (
-            
 [
 StmtDecl
 (
@@ -32606,6 +31947,7 @@ itervar
 .
 name
 )
+                                  
 initargs
 =
 [
@@ -32613,10 +31955,9 @@ msgvar
 ]
 )
 ]
-            
+                        
 +
 desresolve
-        
 )
         
 start
@@ -32643,9 +31984,9 @@ handletype
 =
 Type
 (
-"
+'
 ActorHandle
-"
+'
 )
             
 decls
@@ -32670,28 +32011,23 @@ initargs
 reads
 =
 [
-                
 _ParamTraits
 .
 checkedRead
 (
-                    
 None
-                    
 ExprAddrOf
 (
 handlevar
 )
-                    
 msgexpr
-                    
+                                              
 ExprAddrOf
 (
 itervar
 )
-                    
+                                              
 errfn
-                    
 "
 '
 %
@@ -32702,25 +32038,22 @@ s
 handletype
 .
 name
-                    
+                                              
 sentinelKey
 =
-"
+'
 actor
-"
-                    
+'
 errfnSentinel
 =
 errfnSent
-                    
+                                              
 actor
 =
 ExprVar
 .
 THIS
-                
 )
-            
 ]
             
 start
@@ -32732,10 +32065,8 @@ stmts
 (
             
 decls
-            
 +
 [
-                
 StmtDecl
 (
 Decl
@@ -32759,14 +32090,13 @@ initargs
 [
 ]
 )
-                
+                     
 for
 p
 in
 md
 .
 returns
-            
 ]
             
 +
@@ -32778,19 +32108,15 @@ NL
             
 +
 reads
-            
 +
 [
-                
 _ParamTraits
 .
 checkedRead
 (
-                    
 p
 .
 ipdltype
-                    
 ExprAddrOf
 (
 p
@@ -32799,16 +32125,14 @@ var
 (
 )
 )
-                    
+                                                
 msgexpr
-                    
 ExprAddrOf
 (
 itervar
 )
-                    
+                                                
 errfn
-                    
 "
 '
 %
@@ -32823,25 +32147,23 @@ ipdltype
 name
 (
 )
-                    
+                                                
 sentinelKey
 =
 p
 .
 name
-                    
 errfnSentinel
 =
 errfnSent
-                    
+                                                
 actor
 =
 ExprVar
 .
 THIS
-                
 )
-                
+                       
 for
 p
 in
@@ -32852,7 +32174,6 @@ returns
 start
 :
 ]
-            
 ]
             
 +
@@ -32865,7 +32186,6 @@ msgvar
 itervar
 )
 ]
-        
 )
         
 return
@@ -32878,7 +32198,6 @@ stmts
 def
 deserializeReply
 (
-        
 self
 md
 replyexpr
@@ -32891,34 +32210,32 @@ None
 decls
 =
 False
-    
 )
 :
         
 stmts
 =
 [
-            
 Whitespace
 .
 NL
-            
+                 
 self
 .
 logMessage
 (
 md
 replyexpr
-"
+                                 
+'
 Received
 reply
-"
+'
 actor
 receiving
 =
 True
 )
-        
 ]
         
 if
@@ -32954,7 +32271,6 @@ decls
 declstmts
 =
 [
-                
 StmtDecl
 (
 Decl
@@ -32978,14 +32294,13 @@ initargs
 [
 ]
 )
-                
+                         
 for
 p
 in
 md
 .
 returns
-            
 ]
         
 stmts
@@ -32994,14 +32309,12 @@ extend
 (
             
 [
-                
 Whitespace
 .
 NL
-                
+             
 StmtDecl
 (
-                    
 Decl
 (
 _iterType
@@ -33014,6 +32327,7 @@ itervar
 .
 name
 )
+                      
 initargs
 =
 [
@@ -33021,9 +32335,7 @@ self
 .
 replyvar
 ]
-                
 )
-            
 ]
             
 +
@@ -33038,38 +32350,34 @@ NL
             
 +
 [
-                
 _ParamTraits
 .
 checkedRead
 (
-                    
 r
 .
 ipdltype
-                    
 r
 .
 var
 (
 )
-                    
+                                        
 ExprAddrOf
 (
 self
 .
 replyvar
 )
-                    
+                                        
 ExprAddrOf
 (
 self
 .
 itervar
 )
-                    
+                                        
 errfn
-                    
 "
 '
 %
@@ -33084,23 +32392,21 @@ ipdltype
 name
 (
 )
-                    
+                                        
 sentinelKey
 =
 r
 .
 name
-                    
 errfnSentinel
 =
 errfnSentinel
-                    
+                                        
 actor
 =
 ExprVar
 .
 THIS
-                
 )
                 
 for
@@ -33109,7 +32415,6 @@ in
 md
 .
 returns
-            
 ]
             
 +
@@ -33124,7 +32429,6 @@ replyvar
 itervar
 )
 ]
-        
 )
         
 return
@@ -33146,56 +32450,54 @@ sendok
 =
 ExprVar
 (
-"
+'
 sendok__
-"
+'
 )
         
 resolvefn
 =
 ExprVar
 (
-"
+'
 aResolve
-"
+'
 )
         
 rejectfn
 =
 ExprVar
 (
-"
+'
 aReject
-"
+'
 )
         
 stmts
 =
 [
-            
 Whitespace
 .
 NL
-            
+                 
 self
 .
 logMessage
 (
 md
 msgexpr
-"
+'
 Sending
-"
+'
 actor
 )
-            
+                 
 self
 .
 profilerLabel
 (
 md
 )
-        
 ]
         
 stmts
@@ -33211,9 +32513,9 @@ send
 =
 ExprVar
 (
-"
+'
 ChannelSend
-"
+'
 )
         
 if
@@ -33228,10 +32530,10 @@ send
 ExprSelect
 (
 actor
-"
+'
 -
 >
-"
+'
 send
 .
 name
@@ -33247,32 +32549,28 @@ stmts
 .
 append
 (
-                
 StmtExpr
 (
-                    
 ExprCall
 (
-                        
 send
 args
 =
 [
 msgexpr
+                                                       
 ExprMove
 (
 resolvefn
 )
+                                                       
 ExprMove
 (
 rejectfn
 )
 ]
-                    
 )
-                
 )
-            
 )
             
 retvar
@@ -33286,10 +32584,8 @@ stmts
 .
 append
 (
-                
 StmtDecl
 (
-                    
 Decl
 (
 Type
@@ -33299,6 +32595,7 @@ sendok
 .
 name
 )
+                                  
 init
 =
 ExprCall
@@ -33310,9 +32607,7 @@ args
 msgexpr
 ]
 )
-                
 )
-            
 )
             
 retvar
@@ -33342,9 +32637,9 @@ send
 =
 ExprVar
 (
-"
+'
 ChannelSend
-"
+'
 )
         
 if
@@ -33363,9 +32658,9 @@ send
 =
 ExprVar
 (
-"
+'
 ChannelCall
-"
+'
 )
         
 if
@@ -33380,10 +32675,10 @@ send
 ExprSelect
 (
 actor
-"
+'
 -
 >
-"
+'
 send
 .
 name
@@ -33393,9 +32688,9 @@ sendok
 =
 ExprVar
 (
-"
+'
 sendok__
-"
+'
 )
         
 return
@@ -33404,41 +32699,37 @@ return
 sendok
             
 (
-                
 [
-                    
 Whitespace
 .
 NL
-                    
+              
 self
 .
 logMessage
 (
 md
 msgexpr
-"
+'
 Sending
-"
+'
 actor
 )
-                    
+              
 self
 .
 profilerLabel
 (
 md
 )
-                
 ]
-                
+             
 +
 [
-                    
 Whitespace
 .
 NL
-                    
+                
 StmtDecl
 (
 Decl
@@ -33456,23 +32747,19 @@ ExprLiteral
 .
 FALSE
 )
-                    
+                
 StmtBlock
 (
-                        
 [
-                            
+                    
 StmtExpr
 (
-                                
 ExprAssn
 (
-                                    
 sendok
-                                    
 ExprCall
 (
-                                        
+                        
 send
 args
 =
@@ -33483,19 +32770,15 @@ ExprAddrOf
 replyexpr
 )
 ]
-                                    
-)
-                                
-)
-                            
-)
-                        
-]
                     
+)
+)
 )
                 
 ]
-            
+)
+                
+]
 )
         
 )
@@ -33580,9 +32863,9 @@ resolve
 ExprCode
 (
             
-"
-"
-"
+'
+'
+'
             
 [
 promise__
@@ -33615,14 +32898,13 @@ __func__
             
 }
             
-"
-"
-"
+'
+'
+'
             
 resolvetype
 =
 resolvetype
-        
 )
         
 reject
@@ -33630,9 +32912,9 @@ reject
 ExprCode
 (
             
-"
-"
-"
+'
+'
+'
             
 [
 promise__
@@ -33663,14 +32945,13 @@ __func__
             
 }
             
-"
-"
-"
+'
+'
+'
             
 resolvetype
 =
 resolvetype
-        
 )
         
 args
@@ -33702,9 +32983,9 @@ stmt
 StmtCode
 (
             
-"
-"
-"
+'
+'
+'
             
 RefPtr
 <
@@ -33746,9 +33027,9 @@ return
 promise__
 ;
             
-"
-"
-"
+'
+'
+'
             
 promise
 =
@@ -33765,7 +33046,6 @@ sendMethod
 args
 =
 args
-        
 )
         
 return
@@ -33859,14 +33139,14 @@ retsems
 retsems
 retcallsems
 =
-"
+'
 out
-"
+'
+                                
 implicit
 =
 False
 )
-        
 )
         
 return
@@ -33887,6 +33167,7 @@ var
 .
 name
 )
+                        
 init
 =
 callalloc
@@ -33905,9 +33186,9 @@ True
         
 retsems
 =
-"
+'
 in
-"
+'
         
 if
 md
@@ -33927,84 +33208,78 @@ returns
             
 retsems
 =
-"
+'
 resolver
-"
+'
         
 failif
 =
 StmtIf
 (
-            
 ExprNot
 (
-                
 self
 .
 thisCall
 (
-                    
+            
 md
 .
 recvMethod
 (
 )
-                    
+            
 md
 .
 makeCxxArgs
 (
-                        
+                
 paramsems
 =
-"
+'
 move
-"
-                        
+'
+                
 retsems
 =
 retsems
-                        
+                
 retcallsems
 =
-"
+'
 out
-"
-                        
+'
+                
 implicit
 =
 implicit
-                    
-)
-                
-)
             
 )
         
+)
+)
 )
         
 failif
 .
 addifstmts
 (
-            
 [
-                
+            
 _protocolErrorBreakpoint
 (
-"
+'
 Handler
 returned
 error
 code
 !
-"
+'
 )
-                
+            
 Whitespace
 (
-                    
-"
+'
 /
 /
 Error
@@ -34019,22 +33294,20 @@ ipc
 IPCResult
 \
 n
-"
+'
 indent
 =
 True
-                
 )
-                
+            
 StmtReturn
 (
 _Result
 .
 ProcessingError
 )
-            
-]
         
+]
 )
         
 return
@@ -34080,9 +33353,9 @@ promise
 False
 paramsems
 =
-"
+'
 in
-"
+'
 )
 :
         
@@ -34120,9 +33393,9 @@ promise
                 
 returnsems
 =
-"
+'
 promise
-"
+'
                 
 rettype
 =
@@ -34143,9 +33416,9 @@ else
                 
 returnsems
 =
-"
+'
 callback
-"
+'
                 
 rettype
 =
@@ -34162,9 +33435,9 @@ promise
             
 returnsems
 =
-"
+'
 out
-"
+'
             
 rettype
 =
@@ -34189,54 +33462,48 @@ md
 .
 makeCxxParams
 (
-                
 paramsems
-                
 returnsems
 =
 returnsems
-                
+                                    
 side
 =
 self
 .
 side
-                
 implicit
 =
 implicit
-                
 direction
 =
-"
+'
 send
-"
-            
+'
 )
             
 warn_unused
 =
 (
-                
 (
 self
 .
 side
 =
 =
-"
+'
 parent
-"
+'
 and
 returnsems
 !
 =
-"
+'
 callback
-"
+'
 )
-                
 or
+                         
 (
 md
 .
@@ -34259,13 +33526,11 @@ isAsync
 (
 )
 )
-            
 )
             
 ret
 =
 rettype
-        
 )
         
 if
@@ -34334,9 +33599,9 @@ return
 StmtCode
 (
             
-"
-"
-"
+'
+'
+'
             
 if
 (
@@ -34402,9 +33667,9 @@ direction
             
 }
             
-"
-"
-"
+'
+'
+'
             
 actorname
 =
@@ -34441,16 +33706,15 @@ msgptr
             
 direction
 =
-"
+'
 eReceiving
-"
+'
 if
 receiving
 else
-"
+'
 eSending
-"
-        
+'
 )
     
 def
@@ -34465,9 +33729,9 @@ return
 StmtCode
 (
             
-"
-"
-"
+'
+'
+'
             
 AUTO_PROFILER_LABEL
 (
@@ -34485,9 +33749,9 @@ OTHER
 )
 ;
             
-"
-"
-"
+'
+'
+'
             
 name
 =
@@ -34504,7 +33768,6 @@ md
 prettyMsgName
 (
 )
-        
 )
     
 def
@@ -34519,9 +33782,9 @@ idvar
 =
 ExprVar
 (
-"
+'
 id__
-"
+'
 )
         
 if
@@ -34539,7 +33802,6 @@ hasReply
 saveIdStmts
 =
 [
-                
 StmtDecl
 (
 Decl
@@ -34551,6 +33813,7 @@ idvar
 .
 name
 )
+                                    
 self
 .
 protocol
@@ -34559,7 +33822,6 @@ routingId
 (
 )
 )
-            
 ]
         
 else
@@ -34587,9 +33849,9 @@ return
 StmtCode
 (
             
-"
-"
-"
+'
+'
+'
             
 {
 msg
@@ -34610,9 +33872,9 @@ type
 )
 ;
             
-"
-"
-"
+'
+'
+'
             
 msg
 =
@@ -34621,7 +33883,6 @@ msgexpr
 iter
 =
 iterexpr
-        
 )
 class
 _GenerateProtocolParentCode
@@ -34642,9 +33903,9 @@ _GenerateProtocolActorCode
 __init__
 (
 self
-"
+'
 parent
-"
+'
 )
     
 def
@@ -34714,9 +33975,9 @@ _GenerateProtocolActorCode
 __init__
 (
 self
-"
+'
 child
-"
+'
 )
     
 def
@@ -34786,7 +34047,6 @@ methods
 into
 declarations
 and
-    
 definitions
 (
 if
@@ -34800,7 +34060,6 @@ force_inline
 .
 Return
 classDecl
-    
 methodDefns
 .
 "

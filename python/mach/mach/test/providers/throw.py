@@ -43,33 +43,33 @@ MachCommandBase
     
 Command
 (
-"
+'
 throw
-"
+'
 category
 =
-"
+'
 testing
-"
+'
 )
     
 CommandArgument
 (
-"
+'
 -
 -
 message
-"
-"
+'
+'
 -
 m
-"
+'
 default
 =
-"
+'
 General
 Error
-"
+'
 )
     
 def
@@ -88,33 +88,33 @@ message
     
 Command
 (
-"
+'
 throw_deep
-"
+'
 category
 =
-"
+'
 testing
-"
+'
 )
     
 CommandArgument
 (
-"
+'
 -
 -
 message
-"
-"
+'
+'
 -
 m
-"
+'
 default
 =
-"
+'
 General
 Error
-"
+'
 )
     
 def

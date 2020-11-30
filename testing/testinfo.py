@@ -68,7 +68,7 @@ MAX_ACTIVEDATA_RETRIES
 5
 REFERER
 =
-"
+'
 https
 :
 /
@@ -92,7 +92,7 @@ Mozilla
 Test
 -
 Info
-"
+'
 class
 TestInfo
 (
@@ -230,7 +230,6 @@ requests
 .
 post
 (
-            
 "
 http
 :
@@ -244,7 +243,7 @@ org
 /
 query
 "
-            
+                                 
 data
 =
 json
@@ -253,21 +252,20 @@ dumps
 (
 query
 )
-            
+                                 
 headers
 =
 {
-"
+'
 referer
-"
+'
 :
 REFERER
 }
-            
+                                 
 stream
 =
 True
-        
 )
         
 end_time
@@ -512,7 +510,6 @@ ti
 .
 log_verbose
 (
-                    
 "
 %
 s
@@ -532,7 +529,6 @@ self
 name
 attempt
 )
-                
 )
                 
 traceback
@@ -615,9 +611,9 @@ _hg
 =
 which
 (
-"
+'
 hg
-"
+'
 )
             
 if
@@ -669,9 +665,9 @@ _git
 =
 which
 (
-"
+'
 git
-"
+'
 )
             
 if
@@ -720,13 +716,13 @@ cmd
 self
 .
 _hg
-"
+'
 files
-"
-"
+'
+'
 -
 I
-"
+'
 test_name
 ]
         
@@ -742,11 +738,11 @@ cmd
 self
 .
 _git
-"
+'
 ls
 -
 files
-"
+'
 test_name
 ]
         
@@ -877,14 +873,14 @@ self
 .
 find_in_hg_or_git
 (
-"
+'
 *
 *
 /
 %
 s
 *
-"
+'
 %
 self
 .
@@ -1038,14 +1034,12 @@ TestResolver
 .
 from_environment
 (
-            
 cwd
 =
 here
 loader_cls
 =
 TestManifestLoader
-        
 )
         
 relpath
@@ -1104,9 +1098,9 @@ tests
 0
 ]
 [
-"
+'
 manifest
-"
+'
 ]
 )
 .
@@ -1142,9 +1136,9 @@ tests
 .
 get
 (
-"
+'
 flavor
-"
+'
 )
 :
                 
@@ -1162,9 +1156,9 @@ tests
 0
 ]
 [
-"
+'
 flavor
-"
+'
 ]
 )
             
@@ -1176,11 +1170,11 @@ tests
 .
 get
 (
-"
+'
 skip
 -
 if
-"
+'
 )
 :
                 
@@ -1200,11 +1194,11 @@ tests
 0
 ]
 [
-"
+'
 skip
 -
 if
-"
+'
 ]
 )
             
@@ -1216,11 +1210,11 @@ tests
 .
 get
 (
-"
+'
 fail
 -
 if
-"
+'
 )
 :
                 
@@ -1240,11 +1234,11 @@ tests
 0
 ]
 [
-"
+'
 fail
 -
 if
-"
+'
 ]
 )
         
@@ -1313,9 +1307,9 @@ full_test_name
 .
 rfind
 (
-"
+'
 /
-"
+'
 )
         
 if
@@ -1394,15 +1388,19 @@ None
 simple_names
 =
 [
+            
 self
 .
 full_test_name
+            
 self
 .
 test_name
+            
 self
 .
 short_name
+        
 ]
         
 simple_names
@@ -1535,13 +1533,12 @@ where
 "
 :
 {
-                
 "
 and
 "
 :
 [
-                    
+                
 {
 "
 or
@@ -1549,7 +1546,7 @@ or
 :
 searches
 }
-                    
+                
 {
 "
 in
@@ -1568,12 +1565,12 @@ branches
 .
 split
 (
-"
-"
+'
+'
 )
 }
 }
-                    
+                
 {
 "
 gt
@@ -1597,7 +1594,7 @@ start
 }
 }
 }
-                    
+                
 {
 "
 lt
@@ -1621,9 +1618,8 @@ end
 }
 }
 }
-                
-]
             
+]
 }
         
 }
@@ -1667,14 +1663,14 @@ activedata_test_name
                 
 d
 [
-"
+'
 result
-"
+'
 ]
 [
-"
+'
 test
-"
+'
 ]
                 
 for
@@ -1700,22 +1696,20 @@ p
 "
 d
 [
-"
+'
 result
-"
+'
 ]
 [
-"
+'
 test
-"
+'
 ]
 )
             
 ]
 [
-                
 0
-            
 ]
         
 if
@@ -1726,7 +1720,6 @@ activedata_test_name
             
 print
 (
-                
 "
 Found
 records
@@ -1740,10 +1733,10 @@ ActiveData
 .
 "
 %
+                  
 self
 .
 activedata_test_name
-            
 )
         
 else
@@ -1751,7 +1744,6 @@ else
             
 print
 (
-                
 "
 Unable
 to
@@ -1766,12 +1758,11 @@ using
 s
 !
 "
-                
 %
+                  
 self
 .
 test_name
-            
 )
             
 self
@@ -1791,15 +1782,15 @@ record
 :
         
 if
-"
+'
 platform
-"
+'
 in
 record
 [
-"
+'
 build
-"
+'
 ]
 :
             
@@ -1807,14 +1798,14 @@ platform
 =
 record
 [
-"
+'
 build
-"
+'
 ]
 [
-"
+'
 platform
-"
+'
 ]
         
 else
@@ -1832,9 +1823,9 @@ platform
 .
 split
 (
-"
+'
 -
-"
+'
 )
         
 types_label
@@ -1848,21 +1839,21 @@ run_types
 ]
         
 if
-"
+'
 run
-"
+'
 in
 record
 and
-"
+'
 type
-"
+'
 in
 record
 [
-"
+'
 run
-"
+'
 ]
 :
             
@@ -1870,14 +1861,14 @@ run_types
 =
 record
 [
-"
+'
 run
-"
+'
 ]
 [
-"
+'
 type
-"
+'
 ]
             
 run_types
@@ -1900,21 +1891,21 @@ build_types
 ]
         
 if
-"
+'
 build
-"
+'
 in
 record
 and
-"
+'
 type
-"
+'
 in
 record
 [
-"
+'
 build
-"
+'
 ]
 :
             
@@ -1922,20 +1913,18 @@ build_types
 =
 record
 [
-"
+'
 build
-"
+'
 ]
 [
-"
+'
 type
-"
+'
 ]
             
 build_types
 =
-(
-                
 build_types
 if
 isinstance
@@ -1947,8 +1936,6 @@ else
 [
 build_types
 ]
-            
-)
         
 run_types
 =
@@ -1963,9 +1950,9 @@ build_types
 )
         
 if
-"
+'
 e10s
-"
+'
 not
 in
 run_types
@@ -1976,9 +1963,9 @@ run_types
 run_types
 +
 [
-"
+'
 1proc
-"
+'
 ]
         
 for
@@ -1991,9 +1978,9 @@ if
 run_type
 =
 =
-"
+'
 chunked
-"
+'
 :
                 
 continue
@@ -2002,9 +1989,9 @@ if
 run_type
 =
 =
-"
+'
 e10s
-"
+'
 :
                 
 continue
@@ -2129,12 +2116,12 @@ value
 "
 :
 {
-                        
 "
 case
 "
 :
 [
+                        
 {
 "
 when
@@ -2163,8 +2150,8 @@ then
 :
 1
 }
-]
                     
+]
 }
                     
 "
@@ -2198,12 +2185,12 @@ value
 "
 :
 {
-                        
 "
 case
 "
 :
 [
+                        
 {
 "
 when
@@ -2232,8 +2219,8 @@ then
 :
 1
 }
-]
                     
+]
 }
                     
 "
@@ -2278,13 +2265,12 @@ where
 "
 :
 {
-                
 "
 and
 "
 :
 [
-                    
+                
 {
 "
 eq
@@ -2302,7 +2288,7 @@ self
 activedata_test_name
 }
 }
-                    
+                
 {
 "
 in
@@ -2321,12 +2307,12 @@ branches
 .
 split
 (
-"
-"
+'
+'
 )
 }
 }
-                    
+                
 {
 "
 gt
@@ -2350,7 +2336,7 @@ start
 }
 }
 }
-                    
+                
 {
 "
 lt
@@ -2374,16 +2360,14 @@ end
 }
 }
 }
-                
-]
             
+]
 }
         
 }
         
 print
 (
-            
 "
 \
 nTest
@@ -2401,8 +2385,8 @@ and
 %
 s
 "
-            
 %
+              
 (
 self
 .
@@ -2417,7 +2401,6 @@ self
 .
 end
 )
-        
 )
         
 data
@@ -2501,9 +2484,9 @@ runs
 =
 record
 [
-"
+'
 count
-"
+'
 ]
                 
 total_runs
@@ -2518,9 +2501,9 @@ record
 .
 get
 (
-"
+'
 failures
-"
+'
 0
 )
                 
@@ -2530,9 +2513,9 @@ record
 .
 get
 (
-"
+'
 skips
-"
+'
 0
 )
                 
@@ -2578,7 +2561,6 @@ runs
                 
 print
 (
-                    
 "
 %
 -
@@ -2596,20 +2578,18 @@ in
 6d
 runs
 "
-                    
 %
 (
+                    
 platform
 failures
 skips
 runs
 )
-                
 )
             
 print
 (
-                
 "
 \
 nTotal
@@ -2629,8 +2609,8 @@ failures
 /
 run
 "
-                
 %
+                  
 (
 total_failures
 total_runs
@@ -2643,7 +2623,6 @@ total_failures
 /
 total_runs
 )
-            
 )
             
 if
@@ -2654,7 +2633,6 @@ worst_failures
                 
 print
 (
-                    
 "
 Worst
 rate
@@ -2676,15 +2654,14 @@ failures
 /
 run
 "
-                    
 %
+                      
 (
 worst_platform
 worst_failures
 worst_runs
 worst_rate
 )
-                
 )
         
 else
@@ -2768,6 +2745,7 @@ result
 .
 duration
 "
+                    
 "
 aggregate
 "
@@ -2872,13 +2850,12 @@ where
 "
 :
 {
-                
 "
 and
 "
 :
 [
-                    
+                
 {
 "
 eq
@@ -2896,7 +2873,7 @@ T
 "
 }
 }
-                    
+                
 {
 "
 eq
@@ -2914,7 +2891,7 @@ self
 activedata_test_name
 }
 }
-                    
+                
 {
 "
 in
@@ -2933,12 +2910,12 @@ branches
 .
 split
 (
-"
-"
+'
+'
 )
 }
 }
-                    
+                
 {
 "
 gt
@@ -2962,7 +2939,7 @@ start
 }
 }
 }
-                    
+                
 {
 "
 lt
@@ -2986,9 +2963,8 @@ end
 }
 }
 }
-                
-]
             
+]
 }
         
 }
@@ -3004,7 +2980,6 @@ query
         
 print
 (
-            
 "
 \
 nTest
@@ -3022,8 +2997,8 @@ and
 %
 s
 "
-            
 %
+              
 (
 self
 .
@@ -3038,7 +3013,6 @@ self
 .
 end
 )
-        
 )
         
 if
@@ -3093,7 +3067,6 @@ continue
                 
 print
 (
-                    
 "
 %
 -
@@ -3119,42 +3092,36 @@ d
 runs
 )
 "
-                    
 %
 (
-                        
+                    
 platform
-                        
 record
 [
-"
+'
 average
-"
+'
 ]
-                        
 record
 [
-"
+'
 min
-"
-]
-                        
-record
-[
-"
-max
-"
-]
-                        
-record
-[
-"
-count
-"
+'
 ]
                     
+record
+[
+'
+max
+'
+]
+record
+[
+'
+count
+'
+]
 )
-                
 )
         
 else
@@ -3236,13 +3203,12 @@ where
 "
 :
 {
-                
 "
 and
 "
 :
 [
-                    
+                
 {
 "
 eq
@@ -3260,7 +3226,7 @@ self
 activedata_test_name
 }
 }
-                    
+                
 {
 "
 in
@@ -3279,12 +3245,12 @@ branches
 .
 split
 (
-"
-"
+'
+'
 )
 }
 }
-                    
+                
 {
 "
 gt
@@ -3308,7 +3274,7 @@ start
 }
 }
 }
-                    
+                
 {
 "
 lt
@@ -3332,9 +3298,8 @@ end
 }
 }
 }
-                
-]
             
+]
 }
         
 }
@@ -3350,7 +3315,6 @@ query
         
 print
 (
-            
 "
 \
 nTest
@@ -3368,8 +3332,8 @@ and
 %
 s
 "
-            
 %
+              
 (
 self
 .
@@ -3384,7 +3348,6 @@ self
 .
 end
 )
-        
 )
         
 if
@@ -3447,14 +3410,14 @@ platform
 if
 record
 [
-"
+'
 run
-"
+'
 ]
 [
-"
+'
 name
-"
+'
 ]
 in
 consolidated
@@ -3470,14 +3433,14 @@ platform
 [
 record
 [
-"
+'
 run
-"
+'
 ]
 [
-"
+'
 name
-"
+'
 ]
 ]
 +
@@ -3494,14 +3457,14 @@ platform
 [
 record
 [
-"
+'
 run
-"
+'
 ]
 [
-"
+'
 name
-"
+'
 ]
 ]
 =
@@ -3630,12 +3593,12 @@ test_name
             
 search
 =
-"
+'
 %
 s
 %
 s
-"
+'
 %
 (
 search
@@ -3652,12 +3615,12 @@ short_name
             
 search
 =
-"
+'
 %
 s
 %
 s
-"
+'
 %
 (
 search
@@ -3669,19 +3632,20 @@ short_name
 payload
 =
 {
-"
+'
 quicksearch
-"
+'
 :
 search
-"
+                   
+'
 include_fields
-"
+'
 :
-"
+'
 id
 summary
-"
+'
 }
         
 response
@@ -3690,7 +3654,7 @@ requests
 .
 get
 (
-"
+'
 https
 :
 /
@@ -3704,7 +3668,8 @@ org
 rest
 /
 bug
-"
+'
+                                
 payload
 )
         
@@ -3741,9 +3706,9 @@ search
 )
         
 if
-"
+'
 bugs
-"
+'
 in
 json_response
 :
@@ -3753,9 +3718,9 @@ bug
 in
 json_response
 [
-"
+'
 bugs
-"
+'
 ]
 :
                 
@@ -3773,15 +3738,15 @@ s
 (
 bug
 [
-"
+'
 id
-"
+'
 ]
 bug
 [
-"
+'
 summary
-"
+'
 ]
 )
 )
@@ -3802,27 +3767,17 @@ found
 def
 report
 (
-        
 self
-        
 test_names
-        
 branches
-        
 start
-        
 end
-        
+               
 show_info
-        
 show_results
-        
 show_durations
-        
 show_tasks
-        
 show_bugs
-    
 )
 :
         
@@ -3870,34 +3825,32 @@ show_tasks
         
 if
 (
-            
 not
 self
 .
 show_info
-            
 and
+            
 not
 self
 .
 show_results
-            
 and
+            
 not
 self
 .
 show_durations
-            
 and
+            
 not
 self
 .
 show_tasks
-            
 and
+                
 not
 show_bugs
-        
 )
 :
             
@@ -4130,18 +4083,18 @@ count
 =
 record
 [
-"
+'
 count
-"
+'
 ]
             
 tasks_gt_pct
 =
 record
 [
-"
+'
 tasks_gt_pct
-"
+'
 ]
             
 return
@@ -4224,6 +4177,7 @@ max_run_time
 }
                 
 {
+                    
 "
 aggregate
 "
@@ -4231,6 +4185,7 @@ aggregate
 "
 count
 "
+                
 }
                 
 {
@@ -4254,6 +4209,7 @@ gt
 [
                                 
 {
+                                    
 "
 div
 "
@@ -4270,8 +4226,8 @@ task
 maxRunTime
 "
 ]
-}
                                 
+}
 threshold_pct
 /
 100
@@ -4315,13 +4271,12 @@ where
 "
 :
 {
-                
 "
 and
 "
 :
 [
-                    
+                
 {
 "
 in
@@ -4338,12 +4293,12 @@ branches
 .
 split
 (
-"
-"
+'
+'
 )
 }
 }
-                    
+                
 {
 "
 gt
@@ -4367,7 +4322,7 @@ start
 }
 }
 }
-                    
+                
 {
 "
 lte
@@ -4391,7 +4346,7 @@ end
 }
 }
 }
-                    
+                
 {
 "
 eq
@@ -4409,9 +4364,8 @@ completed
 "
 }
 }
-                
-]
             
+]
 }
         
 }
@@ -4427,7 +4381,6 @@ query
         
 print
 (
-            
 "
 \
 nTasks
@@ -4448,14 +4401,13 @@ and
 %
 s
 "
-            
 %
+              
 (
 branches
 start
 end
 )
-        
 )
         
 if
@@ -4481,9 +4433,9 @@ data
 :
                 
 if
-"
+'
 tasks_gt_pct
-"
+'
 in
 record
 :
@@ -4492,18 +4444,18 @@ count
 =
 record
 [
-"
+'
 count
-"
+'
 ]
                     
 tasks_gt_pct
 =
 record
 [
-"
+'
 tasks_gt_pct
-"
+'
 ]
                     
 if
@@ -4564,46 +4516,45 @@ name
 =
 record
 [
-"
+'
 run
-"
+'
 ]
 [
-"
+'
 name
-"
+'
 ]
                 
 count
 =
 record
 [
-"
+'
 count
-"
+'
 ]
                 
 max_run_time
 =
 record
 [
-"
+'
 max_run_time
-"
+'
 ]
                 
 tasks_gt_pct
 =
 record
 [
-"
+'
 tasks_gt_pct
-"
+'
 ]
                 
 print
 (
-                    
 "
 %
 -
@@ -4639,28 +4590,21 @@ d
 s
 )
 "
-                    
 %
+                      
 (
-                        
 name
-                        
 tasks_gt_pct
-                        
 count
-                        
 tasks_gt_pct
 *
 100
 /
 count
-                        
+                       
 threshold_pct
-                        
 max_run_time
-                    
 )
-                
 )
         
 else
@@ -4743,15 +4687,14 @@ threads
 def
 add_activedata_for_suite
 (
-        
 self
 label
 branches
 days
+                                 
 suite_clause
 tests_clause
 path_mod
-    
 )
 :
         
@@ -4796,8 +4739,8 @@ branches
 .
 split
 (
-"
-"
+'
+'
 )
 }
 }
@@ -4876,6 +4819,7 @@ select
 [
                 
 {
+                    
 "
 name
 "
@@ -4885,6 +4829,7 @@ result
 .
 count
 "
+                    
 "
 aggregate
 "
@@ -4892,6 +4837,7 @@ aggregate
 "
 count
 "
+                
 }
                 
 {
@@ -4943,12 +4889,12 @@ value
 "
 :
 {
-                        
 "
 case
 "
 :
 [
+                        
 {
 "
 when
@@ -4977,8 +4923,8 @@ then
 :
 1
 }
-]
                     
+]
 }
                     
 "
@@ -5014,12 +4960,12 @@ value
 "
 :
 {
-                        
 "
 case
 "
 :
 [
+                        
 {
 "
 when
@@ -5048,8 +4994,8 @@ then
 :
 1
 }
-]
                     
+]
 }
                     
 "
@@ -5166,15 +5112,15 @@ new_value
 )
         
 if
-"
+'
 test
-"
+'
 in
 result
 and
-"
+'
 tests
-"
+'
 in
 by_component
 :
@@ -5183,9 +5129,9 @@ test
 =
 result
 [
-"
+'
 test
-"
+'
 ]
             
 if
@@ -5204,9 +5150,9 @@ bc
 in
 by_component
 [
-"
+'
 tests
-"
+'
 ]
 :
                 
@@ -5215,9 +5161,9 @@ item
 in
 by_component
 [
-"
+'
 tests
-"
+'
 ]
 [
 bc
@@ -5230,9 +5176,9 @@ test
 =
 item
 [
-"
+'
 test
-"
+'
 ]
 :
                         
@@ -5244,9 +5190,9 @@ result
 .
 get
 (
-"
+'
 duration
-"
+'
 0
 )
 2
@@ -5255,29 +5201,29 @@ duration
 update_item
 (
 item
-"
+'
 total
 run
 time
 seconds
-"
+'
 seconds
 )
                         
 update_item
 (
 item
-"
+'
 total
 runs
-"
+'
 result
 .
 get
 (
-"
+'
 count
-"
+'
 0
 )
 )
@@ -5285,17 +5231,17 @@ count
 update_item
 (
 item
-"
+'
 skipped
 runs
-"
+'
 result
 .
 get
 (
-"
+'
 skips
-"
+'
 0
 )
 )
@@ -5303,17 +5249,17 @@ skips
 update_item
 (
 item
-"
+'
 failed
 runs
-"
+'
 result
 .
 get
 (
-"
+'
 failures
-"
+'
 0
 )
 )
@@ -5463,7 +5409,6 @@ running_threads
 =
 min
 (
-                            
 MAX_ACTIVEDATA_CONCURRENCY
 len
 (
@@ -5471,7 +5416,6 @@ self
 .
 threads
 )
-                        
 )
                         
 self
@@ -5503,7 +5447,6 @@ ACTIVEDATA_RECORD_LIMIT
                             
 print
 (
-                                
 "
 %
 s
@@ -5518,10 +5461,8 @@ may
 be
 missing
 "
-                                
 %
 name
-                            
 )
                         
 matches
@@ -5535,9 +5476,9 @@ ad_response
 :
                             
 if
-"
+'
 result
-"
+'
 in
 record
 :
@@ -5546,9 +5487,9 @@ result
 =
 record
 [
-"
+'
 result
-"
+'
 ]
                                 
 if
@@ -5571,7 +5512,6 @@ self
 .
 log_verbose
 (
-                            
 "
 %
 s
@@ -5584,8 +5524,8 @@ results
 d
 matches
 "
-                            
 %
+                                         
 (
 name
 len
@@ -5594,7 +5534,6 @@ ad_response
 )
 matches
 )
-                        
 )
                         
 self
@@ -5620,8 +5559,8 @@ path
 .
 split
 (
-"
-"
+'
+'
 )
 [
 0
@@ -5633,9 +5572,9 @@ path
 .
 split
 (
-"
+'
 ?
-"
+'
 )
 [
 0
@@ -5647,9 +5586,9 @@ path
 .
 split
 (
-"
+'
 #
-"
+'
 )
 [
 0
@@ -5672,9 +5611,9 @@ path
 .
 split
 (
-"
+'
 ;
-"
+'
 )
 [
 0
@@ -5697,8 +5636,8 @@ path
 .
 split
 (
-"
-"
+'
+'
 )
 [
 0
@@ -5710,10 +5649,10 @@ path
 .
 replace
 (
-"
+'
 \
 \
-"
+'
 os
 .
 path
@@ -5762,17 +5701,17 @@ path
 .
 join
 (
-"
+'
 testing
-"
-"
+'
+'
 web
 -
 platform
-"
-"
+'
+'
 tests
-"
+'
 path
 )
         
@@ -5782,9 +5721,9 @@ path
 .
 split
 (
-"
+'
 ?
-"
+'
 )
 [
 0
@@ -5807,10 +5746,10 @@ path
 .
 replace
 (
-"
+'
 \
 \
-"
+'
 os
 .
 path
@@ -5825,20 +5764,20 @@ path
 .
 join
 (
-"
+'
 js
-"
-"
+'
+'
 src
-"
-"
+'
+'
 jit
 -
 test
-"
-"
+'
+'
 tests
-"
+'
 path
 )
     
@@ -5856,11 +5795,11 @@ path
 .
 split
 (
-"
+'
 .
 ini
 :
-"
+'
 )
 [
 -
@@ -5889,13 +5828,11 @@ reftest
 "
 :
 (
-                
 self
 .
 path_mod_reftest
-                
+                        
 [
-                    
 {
 "
 regex
@@ -5923,7 +5860,7 @@ k
 "
 }
 }
-                    
+                         
 {
 "
 regex
@@ -5952,7 +5889,7 @@ k
 "
 }
 }
-                    
+                         
 {
 "
 not
@@ -5981,9 +5918,7 @@ reftests
 }
 }
 }
-                
 ]
-            
 )
             
 "
@@ -5995,13 +5930,11 @@ tests
 "
 :
 (
-                
 self
 .
 path_mod_wpt
-                
+                                   
 [
-                    
 {
 "
 regex
@@ -6026,7 +5959,7 @@ g
 "
 }
 }
-                    
+                                    
 {
 "
 regex
@@ -6051,7 +5984,7 @@ p
 "
 }
 }
-                    
+                                    
 {
 "
 not
@@ -6082,9 +6015,7 @@ p
 }
 }
 }
-                
 ]
-            
 )
             
 "
@@ -6098,13 +6029,11 @@ reftest
 "
 :
 (
-                
 self
 .
 path_mod_wpt
-                
+                                           
 [
-                    
 {
 "
 regex
@@ -6128,7 +6057,7 @@ css
 "
 }
 }
-                    
+                                            
 {
 "
 not
@@ -6158,9 +6087,7 @@ css
 }
 }
 }
-                
 ]
-            
 )
             
 "
@@ -6168,11 +6095,9 @@ crashtest
 "
 :
 (
-                
 None
-                
+                          
 [
-                    
 {
 "
 regex
@@ -6196,7 +6121,7 @@ g
 "
 }
 }
-                    
+                           
 {
 "
 not
@@ -6226,9 +6151,7 @@ g
 }
 }
 }
-                
 ]
-            
 )
             
 "
@@ -6491,20 +6414,18 @@ self
 .
 add_activedata_for_suite
 (
-                    
 label
 branches
 days
+                                              
 suite_clause
 test_clause
 path_mod
-                
 )
         
 suite_clause
 =
 {
-            
 "
 not
 "
@@ -6531,23 +6452,21 @@ suites
 )
 }
 }
-        
 }
         
 self
 .
 add_activedata_for_suite
 (
-            
 "
 remainder
 "
 branches
 days
+                                      
 suite_clause
 None
 None
-        
 )
         
 self
@@ -6560,35 +6479,24 @@ by_component
 def
 description
 (
-        
 self
-        
 components
-        
 flavor
-        
 subsuite
-        
 paths
-        
+                    
 show_manifests
-        
 show_tests
-        
 show_summary
-        
 show_annotations
-        
+                    
 show_activedata
-        
+                    
 filter_values
-        
 filter_keys
-        
+                    
 branches
-        
 days
-    
 )
 :
         
@@ -6876,9 +6784,7 @@ s
 (
                 
 days
-                
 branches
-            
 )
         
 d
@@ -6925,39 +6831,26 @@ d
 def
 report
 (
-        
 self
-        
 components
-        
 flavor
-        
 subsuite
-        
 paths
-        
+               
 show_manifests
-        
 show_tests
-        
 show_summary
-        
 show_annotations
-        
+               
 show_activedata
-        
+               
 filter_values
-        
 filter_keys
-        
 show_components
-        
 output_file
-        
+               
 branches
-        
 days
-    
 )
 :
         
@@ -6968,10 +6861,10 @@ test
 )
 :
             
-"
-"
-"
-            
+'
+'
+'
+               
 Return
 True
 if
@@ -6986,7 +6879,7 @@ in
 this
 test
 ;
-            
+               
 if
 filter_keys
 are
@@ -6999,9 +6892,9 @@ test
 keys
 .
             
-"
-"
-"
+'
+'
+'
             
 for
 value
@@ -7069,24 +6962,17 @@ now
 )
         
 if
-(
-            
 not
 show_manifests
-            
 and
 not
 show_tests
-            
 and
 not
 show_summary
-            
 and
 not
 show_annotations
-        
-)
 :
             
 show_manifests
@@ -7112,8 +6998,8 @@ components
 .
 split
 (
-"
-"
+'
+'
 )
         
 if
@@ -7126,8 +7012,8 @@ filter_keys
 .
 split
 (
-"
-"
+'
+'
 )
         
 if
@@ -7140,8 +7026,8 @@ filter_values
 .
 split
 (
-"
-"
+'
+'
 )
         
 else
@@ -7162,21 +7048,21 @@ or
 )
 +
 [
-"
+'
 skip
 -
 if
-"
-"
+'
+'
 fail
 -
 if
-"
-"
+'
+'
 fails
 -
 if
-"
+'
 ]
         
 display_keys
@@ -7221,21 +7107,18 @@ TestResolver
 .
 from_environment
 (
-            
 cwd
 =
 here
 loader_cls
 =
 TestManifestLoader
-        
 )
         
 tests
 =
 list
 (
-            
 resolver
 .
 resolve_tests
@@ -7246,11 +7129,11 @@ paths
 flavor
 =
 flavor
+                                            
 subsuite
 =
 subsuite
 )
-        
 )
         
 manifest_paths
@@ -7266,17 +7149,17 @@ tests
 :
             
 if
-"
+'
 manifest
-"
+'
 in
 t
 and
 t
 [
-"
+'
 manifest
-"
+'
 ]
 is
 not
@@ -7289,9 +7172,9 @@ add
 (
 t
 [
-"
+'
 manifest
-"
+'
 ]
 )
         
@@ -7304,7 +7187,6 @@ manifest_paths
         
 print
 (
-            
 "
 Resolver
 found
@@ -7324,7 +7206,6 @@ tests
 )
 manifest_count
 )
-        
 )
         
 if
@@ -7341,9 +7222,9 @@ topsrcdir
             
 by_component
 [
-"
+'
 manifests
-"
+'
 ]
 =
 {
@@ -7417,9 +7298,9 @@ mozbuild_reader
 (
 config_mode
 =
-"
+'
 empty
-"
+'
 )
             
 files_info
@@ -7483,9 +7364,9 @@ relpath
 .
 get
 (
-"
+'
 BUG_COMPONENT
-"
+'
 )
                     
 if
@@ -7505,14 +7386,12 @@ key
 .
 format
 (
-                            
 bug_component
 .
 product
 bug_component
 .
 component
-                        
 )
                     
 else
@@ -7544,21 +7423,25 @@ components
 manifest_info
 =
 {
-"
+                            
+'
 manifest
-"
+'
 :
 relpath
-"
+                            
+'
 tests
-"
+'
 :
 0
-"
+                            
+'
 skipped
-"
+'
 :
 0
+                        
 }
                         
 rkey
@@ -7567,26 +7450,26 @@ key
 if
 show_components
 else
-"
+'
 all
-"
+'
                         
 if
 rkey
 in
 by_component
 [
-"
+'
 manifests
-"
+'
 ]
 :
                             
 by_component
 [
-"
+'
 manifests
-"
+'
 ]
 [
 rkey
@@ -7602,9 +7485,9 @@ else
                             
 by_component
 [
-"
+'
 manifests
-"
+'
 ]
 [
 rkey
@@ -7627,9 +7510,9 @@ tests
 if
 t
 [
-"
+'
 manifest
-"
+'
 ]
 =
 =
@@ -7638,9 +7521,9 @@ manifest_path
                             
 manifest_info
 [
-"
+'
 tests
-"
+'
 ]
 +
 =
@@ -7651,19 +7534,19 @@ t
 .
 get
 (
-"
+'
 skip
 -
 if
-"
+'
 )
 :
                                 
 manifest_info
 [
-"
+'
 skipped
-"
+'
 ]
 +
 =
@@ -7674,17 +7557,17 @@ key
 in
 by_component
 [
-"
+'
 manifests
-"
+'
 ]
 :
                 
 by_component
 [
-"
+'
 manifests
-"
+'
 ]
 [
 key
@@ -7699,9 +7582,9 @@ k
 :
 k
 [
-"
+'
 manifest
-"
+'
 ]
 )
         
@@ -7711,9 +7594,9 @@ show_tests
             
 by_component
 [
-"
+'
 tests
-"
+'
 ]
 =
 {
@@ -7766,66 +7649,59 @@ conditions
 known_unconditional_annotations
 =
 [
-"
+'
 skip
-"
-"
+'
+'
 fail
-"
-"
+'
+'
 asserts
-"
-"
+'
+'
 random
-"
+'
 ]
             
 known_conditional_annotations
 =
 [
-                
-"
+'
 skip
 -
 if
-"
-                
-"
+'
+'
 fail
 -
 if
-"
-                
-"
+'
+'
 run
 -
 if
-"
-                
-"
+'
+                                             
+'
 fails
 -
 if
-"
-                
-"
+'
+'
 fuzzy
 -
 if
-"
-                
-"
+'
+'
 random
 -
 if
-"
-                
-"
+'
+'
 asserts
 -
 if
-"
-            
+'
 ]
             
 for
@@ -7840,9 +7716,9 @@ t
 .
 get
 (
-"
+'
 srcdir_relpath
-"
+'
 )
                 
 relpaths
@@ -7862,9 +7738,9 @@ mozbuild_reader
 (
 config_mode
 =
-"
+'
 empty
-"
+'
 )
             
 files_info
@@ -7893,11 +7769,11 @@ t
 continue
                 
 if
-"
+'
 referenced
 -
 test
-"
+'
 in
 t
 :
@@ -7945,9 +7821,9 @@ key
 .
 split
 (
-"
+'
 ;
-"
+'
 )
                             
 for
@@ -7967,8 +7843,8 @@ condition
 .
 split
 (
-"
-"
+'
+'
 )
 [
 0
@@ -8007,9 +7883,9 @@ t
 .
 get
 (
-"
+'
 srcdir_relpath
-"
+'
 )
                 
 if
@@ -8027,9 +7903,9 @@ relpath
 .
 get
 (
-"
+'
 BUG_COMPONENT
-"
+'
 )
                     
 if
@@ -8049,14 +7925,12 @@ key
 .
 format
 (
-                            
 bug_component
 .
 product
 bug_component
 .
 component
-                        
 )
                     
 else
@@ -8095,9 +7969,9 @@ key
 test_info
 =
 {
-"
+'
 test
-"
+'
 :
 relpath
 }
@@ -8133,11 +8007,11 @@ t
 .
 get
 (
-"
+'
 fail
 -
 if
-"
+'
 )
 :
                             
@@ -8151,11 +8025,11 @@ t
 .
 get
 (
-"
+'
 fails
 -
 if
-"
+'
 )
 :
                             
@@ -8169,11 +8043,11 @@ t
 .
 get
 (
-"
+'
 skip
 -
 if
-"
+'
 )
 :
                             
@@ -8192,18 +8066,18 @@ key
 if
 show_components
 else
-"
+'
 all
-"
+'
                             
 if
 rkey
 in
 by_component
 [
-"
+'
 tests
-"
+'
 ]
 :
                                 
@@ -8216,9 +8090,9 @@ ctest
 in
 by_component
 [
-"
+'
 tests
-"
+'
 ]
 [
 rkey
@@ -8228,17 +8102,17 @@ rkey
 if
 ctest
 [
-"
+'
 test
-"
+'
 ]
 =
 =
 test_info
 [
-"
+'
 test
-"
+'
 ]
 :
                                         
@@ -8255,9 +8129,9 @@ found
                                     
 by_component
 [
-"
+'
 tests
-"
+'
 ]
 [
 rkey
@@ -8273,9 +8147,9 @@ else
                                 
 by_component
 [
-"
+'
 tests
-"
+'
 ]
 [
 rkey
@@ -8294,17 +8168,17 @@ key
 in
 by_component
 [
-"
+'
 tests
-"
+'
 ]
 :
                     
 by_component
 [
-"
+'
 tests
-"
+'
 ]
 [
 key
@@ -8319,9 +8193,9 @@ k
 :
 k
 [
-"
+'
 test
-"
+'
 ]
 )
         
@@ -8368,7 +8242,6 @@ self
 .
 log_verbose
 (
-                
 "
 %
 d
@@ -8379,19 +8252,17 @@ matching
 ActiveData
 data
 "
-                
 %
+                             
 self
 .
 total_activedata_matches
-            
 )
             
 self
 .
 log_verbose
 (
-                
 "
 %
 d
@@ -8401,17 +8272,17 @@ for
 ActiveData
 "
 %
+                             
 self
 .
 total_activedata_seconds
-            
 )
         
 by_component
 [
-"
+'
 description
-"
+'
 ]
 =
 self
@@ -8420,31 +8291,22 @@ description
 (
             
 components
-            
 flavor
-            
 subsuite
-            
 paths
             
 show_manifests
-            
 show_tests
-            
 show_summary
-            
 show_annotations
             
 show_activedata
             
 filter_values
-            
 filter_keys
             
 branches
-            
 days
-        
 )
         
 if
@@ -8453,9 +8315,9 @@ show_summary
             
 by_component
 [
-"
+'
 summary
-"
+'
 ]
 =
 {
@@ -8463,14 +8325,14 @@ summary
             
 by_component
 [
-"
+'
 summary
-"
+'
 ]
 [
-"
+'
 components
-"
+'
 ]
 =
 len
@@ -8480,58 +8342,58 @@ component_set
             
 by_component
 [
-"
+'
 summary
-"
+'
 ]
 [
-"
+'
 manifests
-"
+'
 ]
 =
 manifest_count
             
 by_component
 [
-"
+'
 summary
-"
+'
 ]
 [
-"
+'
 tests
-"
+'
 ]
 =
 test_count
             
 by_component
 [
-"
+'
 summary
-"
+'
 ]
 [
-"
+'
 failed
 tests
-"
+'
 ]
 =
 failed_count
             
 by_component
 [
-"
+'
 summary
-"
+'
 ]
 [
-"
+'
 skipped
 tests
-"
+'
 ]
 =
 skipped_count
@@ -8542,9 +8404,9 @@ show_annotations
             
 by_component
 [
-"
+'
 annotations
-"
+'
 ]
 =
 {
@@ -8552,45 +8414,45 @@ annotations
             
 by_component
 [
-"
+'
 annotations
-"
+'
 ]
 [
-"
+'
 total
 annotations
-"
+'
 ]
 =
 annotation_count
             
 by_component
 [
-"
+'
 annotations
-"
+'
 ]
 [
-"
+'
 total
 conditions
-"
+'
 ]
 =
 condition_count
             
 by_component
 [
-"
+'
 annotations
-"
+'
 ]
 [
-"
+'
 unique
 conditions
-"
+'
 ]
 =
 len
@@ -8600,14 +8462,14 @@ conditions
             
 by_component
 [
-"
+'
 annotations
-"
+'
 ]
 [
-"
+'
 conditions
-"
+'
 ]
 =
 conditions
@@ -8634,7 +8496,6 @@ self
 .
 log_verbose
 (
-            
 "
 %
 d
@@ -8644,8 +8505,8 @@ to
 generate
 report
 "
-            
 %
+                         
 (
 end_time
 -
@@ -8655,7 +8516,6 @@ start_time
 total_seconds
 (
 )
-        
 )
     
 def
@@ -8731,9 +8591,9 @@ with
 open
 (
 output_file
-"
+'
 w
-"
+'
 )
 as
 f
@@ -8767,7 +8627,7 @@ output_file
 "
 "
 "
-        
+           
 Support
 for
 '
@@ -8862,15 +8722,15 @@ after
 by_component
 =
 {
-"
+'
 tests
-"
+'
 :
 {
 }
-"
+'
 summary
-"
+'
 :
 {
 }
@@ -8935,7 +8795,7 @@ summary2
 "
 "
 "
-        
+           
 Update
 by_component
 with
@@ -8994,16 +8854,16 @@ key
             
 by_component
 [
-"
+'
 summary
-"
+'
 ]
 [
-"
+'
 %
 s
 delta
-"
+'
 %
 key
 ]
@@ -9023,7 +8883,7 @@ tests2
 "
 "
 "
-        
+           
 Update
 by_component
 with
@@ -9124,15 +8984,15 @@ component2
         
 by_component
 [
-"
+'
 summary
-"
+'
 ]
 [
-"
+'
 added
 tests
-"
+'
 ]
 =
 self
@@ -9141,15 +9001,15 @@ added_count
         
 by_component
 [
-"
+'
 summary
-"
+'
 ]
 [
-"
+'
 deleted
 tests
-"
+'
 ]
 =
 self
@@ -9170,7 +9030,7 @@ component2
 "
 "
 "
-        
+           
 Update
 by_component
 [
@@ -9184,11 +9044,11 @@ deleted
 tests
 for
 the
-        
+           
 named
 component
 .
-        
+           
 "
 added
 "
@@ -9202,7 +9062,7 @@ missing
 from
 component1
 .
-        
+           
 "
 deleted
 "
@@ -9228,9 +9088,9 @@ set
 [
 t
 [
-"
+'
 test
-"
+'
 ]
 for
 t
@@ -9246,9 +9106,9 @@ set
 [
 t
 [
-"
+'
 test
-"
+'
 ]
 for
 t
@@ -9277,9 +9137,9 @@ added
             
 by_component
 [
-"
+'
 tests
-"
+'
 ]
 [
 component
@@ -9294,17 +9154,17 @@ deleted
                 
 by_component
 [
-"
+'
 tests
-"
+'
 ]
 [
 component
 ]
 [
-"
+'
 deleted
-"
+'
 ]
 =
 sorted
@@ -9321,17 +9181,17 @@ added
                 
 by_component
 [
-"
+'
 tests
-"
+'
 ]
 [
 component
 ]
 [
-"
+'
 added
-"
+'
 ]
 =
 sorted
@@ -9378,7 +9238,6 @@ self
 .
 log_verbose
 (
-            
 "
 %
 s
@@ -9393,7 +9252,6 @@ added
 d
 common
 "
-            
 %
 (
 component
@@ -9401,11 +9259,11 @@ len
 (
 deleted
 )
+                                                                  
 len
 (
 added
 )
 common
 )
-        
 )

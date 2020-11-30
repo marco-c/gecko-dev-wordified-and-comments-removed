@@ -74,32 +74,30 @@ firefox_ui_update_release_config_options
 [
     
 [
-        
 [
-"
+'
 -
 -
 build
 -
 number
-"
+'
 ]
-        
 {
-            
-"
+        
+'
 dest
-"
+'
 :
-"
+'
 build_number
-"
-            
-"
+'
+        
+'
 help
-"
+'
 :
-"
+'
 Build
 number
 of
@@ -107,52 +105,49 @@ release
 eg
 :
 2
-"
-        
-}
+'
     
+}
 ]
     
 [
-        
 [
-"
+'
 -
 -
 limit
 -
 locales
-"
+'
 ]
-        
 {
-            
-"
+        
+'
 dest
-"
+'
 :
-"
+'
 limit_locales
-"
-            
-"
+'
+        
+'
 default
-"
+'
 :
 -
 1
-            
-"
+        
+'
 type
-"
+'
 :
 int
-            
-"
+        
+'
 help
-"
+'
 :
-"
+'
 Limit
 the
 number
@@ -161,16 +156,14 @@ locales
 to
 run
 .
-"
-        
-}
+'
     
+}
 ]
     
 [
-        
 [
-"
+'
 -
 -
 release
@@ -178,24 +171,23 @@ release
 update
 -
 config
-"
+'
 ]
-        
 {
-            
-"
+        
+'
 dest
-"
+'
 :
-"
+'
 release_update_config
-"
-            
-"
+'
+        
+'
 help
-"
+'
 :
-"
+'
 Name
 of
 the
@@ -207,45 +199,42 @@ file
 to
 use
 .
-"
-        
-}
+'
     
+}
 ]
     
 [
-        
 [
-"
+'
 -
 -
 this
 -
 chunk
-"
+'
 ]
-        
 {
-            
-"
+        
+'
 dest
-"
+'
 :
-"
+'
 this_chunk
-"
-            
-"
+'
+        
+'
 default
-"
+'
 :
 1
-            
-"
+        
+'
 help
-"
+'
 :
-"
+'
 What
 chunk
 of
@@ -253,39 +242,36 @@ locales
 to
 process
 .
-"
-        
-}
+'
     
+}
 ]
     
 [
-        
 [
-"
+'
 -
 -
 tools
 -
 repo
-"
+'
 ]
-        
 {
-            
-"
+        
+'
 dest
-"
+'
 :
-"
+'
 tools_repo
-"
-            
-"
+'
+        
+'
 default
-"
+'
 :
-"
+'
 http
 :
 /
@@ -299,52 +285,49 @@ org
 build
 /
 tools
-"
-            
-"
+'
+        
+'
 help
-"
+'
 :
-"
+'
 Which
 tools
 repo
 to
 check
 out
-"
-        
-}
+'
     
+}
 ]
     
 [
-        
 [
-"
+'
 -
 -
 tools
 -
 tag
-"
+'
 ]
-        
 {
-            
-"
+        
+'
 dest
-"
+'
 :
-"
+'
 tools_tag
-"
-            
-"
+'
+        
+'
 help
-"
+'
 :
-"
+'
 Which
 revision
 /
@@ -356,45 +339,42 @@ the
 tools
 repository
 .
-"
-        
-}
+'
     
+}
 ]
     
 [
-        
 [
-"
+'
 -
 -
 total
 -
 chunks
-"
+'
 ]
-        
 {
-            
-"
+        
+'
 dest
-"
+'
 :
-"
+'
 total_chunks
-"
-            
-"
+'
+        
+'
 default
-"
+'
 :
 1
-            
-"
+        
+'
 help
-"
+'
 :
-"
+'
 Total
 chunks
 to
@@ -403,10 +383,9 @@ the
 locales
 into
 .
-"
-        
-}
+'
     
+}
 ]
 ]
 +
@@ -434,25 +413,25 @@ all_actions
 =
 [
             
-"
+'
 clobber
-"
+'
             
-"
+'
 checkout
-"
+'
             
-"
+'
 create
 -
 virtualenv
-"
+'
             
-"
+'
 query_minidump_stackwalk
-"
+'
             
-"
+'
 read
 -
 release
@@ -460,13 +439,13 @@ release
 update
 -
 config
-"
+'
             
-"
+'
 run
 -
 tests
-"
+'
         
 ]
         
@@ -507,9 +486,9 @@ config
 .
 get
 (
-"
+'
 tools_repo
-"
+'
 )
         
 self
@@ -522,14 +501,12 @@ config
 .
 get
 (
-"
+'
 tools_tag
-"
+'
 )
         
 assert
-(
-            
 self
 .
 tools_repo
@@ -537,33 +514,33 @@ and
 self
 .
 tools_tag
-        
-)
-"
+\
+            
+'
 Without
 the
-\
 "
 -
 -
 tools
 -
 tag
-\
 "
 we
 can
+\
 '
 t
 clone
 the
 releng
+\
 '
 s
 tools
 repository
 .
-"
+'
         
 self
 .
@@ -577,9 +554,9 @@ config
 .
 get
 (
-"
+'
 limit_locales
-"
+'
 )
 )
         
@@ -653,9 +630,9 @@ dest
 =
 dirs
 [
-"
+'
 abs_tools_dir
-"
+'
 ]
             
 branch
@@ -666,9 +643,9 @@ tools_tag
             
 vcs
 =
-"
+'
 hg
-"
+'
         
 )
     
@@ -706,9 +683,9 @@ dirs
 =
 {
             
-"
+'
 abs_tools_dir
-"
+'
 :
 os
 .
@@ -718,13 +695,13 @@ join
 (
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 tools
-"
+'
 )
         
 }
@@ -770,9 +747,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Builds
 a
@@ -1023,9 +1000,9 @@ such
 manner
 .
         
-"
-"
-"
+'
+'
+'
         
 dirs
 =
@@ -1042,16 +1019,16 @@ path
 .
 exists
 (
-            
 dirs
 [
-"
+'
 abs_tools_dir
-"
+'
 ]
-        
 )
-"
+\
+            
+'
 Without
 the
 tools
@@ -1059,16 +1036,18 @@ tools
 checkout
 we
 can
+\
 '
 t
 use
 releng
+\
 '
 s
 config
 parser
 .
-"
+'
         
 if
 self
@@ -1077,9 +1056,9 @@ config
 .
 get
 (
-"
+'
 release_update_config
-"
+'
 )
 :
             
@@ -1095,7 +1074,7 @@ self
 .
 fatal
 (
-"
+'
 Make
 sure
 to
@@ -1106,7 +1085,7 @@ the
 tools
 -
 tag
-"
+'
 )
             
 self
@@ -1117,9 +1096,9 @@ self
 .
 config
 [
-"
+'
 release_update_config
-"
+'
 ]
         
 sys
@@ -1137,16 +1116,16 @@ join
 (
 dirs
 [
-"
+'
 abs_tools_dir
-"
+'
 ]
-"
+'
 lib
-"
-"
+'
+'
 python
-"
+'
 )
 )
         
@@ -1173,31 +1152,27 @@ path
 .
 join
 (
-            
 dirs
 [
-"
+'
 abs_tools_dir
-"
+'
 ]
-            
-"
+'
 release
-"
-            
-"
+'
+'
 updates
-"
-            
+'
+                                   
 self
 .
 config
 [
-"
+'
 release_update_config
-"
+'
 ]
-        
 )
         
 uvc
@@ -1212,9 +1187,9 @@ not
 hasattr
 (
 self
-"
+'
 update_channel
-"
+'
 )
 :
             
@@ -1231,7 +1206,6 @@ uvc
 releases
 =
 [
-            
 r
 for
 r
@@ -1239,21 +1213,22 @@ in
 uvc
 .
 releases
+                        
 if
 int
 (
 r
 [
-"
+'
 release
-"
+'
 ]
 .
 split
 (
-"
+'
 .
-"
+'
 )
 [
 0
@@ -1262,7 +1237,6 @@ split
 >
 =
 38
-        
 ]
         
 temp_releases
@@ -1279,17 +1253,17 @@ releases
 :
             
 if
-"
+'
 from
-"
+'
 in
 rel_info
 and
 rel_info
 [
-"
+'
 from
-"
+'
 ]
 is
 not
@@ -1302,19 +1276,17 @@ uvc
 .
 getRelease
 (
-                    
 build_id
 =
 rel_info
 [
-"
+'
 build_id
-"
+'
 ]
 from_path
 =
 None
-                
 )
                 
 if
@@ -1327,28 +1299,26 @@ quick_release
                     
 rel_info
 [
-"
+'
 locales
-"
+'
 ]
 =
 sorted
 (
-                        
 rel_info
 [
-"
+'
 locales
-"
+'
 ]
 +
 quick_release
 [
-"
+'
 locales
-"
+'
 ]
-                    
 )
                 
 temp_releases
@@ -1379,9 +1349,9 @@ self
 .
 config
 [
-"
+'
 total_chunks
-"
+'
 ]
 )
             
@@ -1393,9 +1363,9 @@ self
 .
 config
 [
-"
+'
 this_chunk
-"
+'
 ]
 )
         
@@ -1411,11 +1381,11 @@ releases
     
 PreScriptAction
 (
-"
+'
 run
 -
 tests
-"
+'
 )
     
 def
@@ -1428,27 +1398,26 @@ action
         
 assert
 (
-            
-"
+'
 release_update_config
-"
+'
 in
 self
 .
 config
-            
 or
+                
 self
 .
 installer_url
-            
 or
 self
 .
 installer_path
-        
 )
-"
+\
+            
+'
 Either
 specify
 -
@@ -1470,7 +1439,7 @@ installer
 -
 path
 .
-"
+'
     
 def
 run_tests
@@ -1491,13 +1460,13 @@ self
 .
 info
 (
-"
+'
 Using
 env
 :
 {
 }
-"
+'
 .
 format
 (
@@ -1538,9 +1507,9 @@ release
 :
 release
 [
-"
+'
 build_id
-"
+'
 ]
 )
 :
@@ -1549,9 +1518,9 @@ build_id
 =
 rel_info
 [
-"
+'
 build_id
-"
+'
 ]
             
 results
@@ -1566,8 +1535,7 @@ self
 .
 info
 (
-                
-"
+'
 About
 to
 run
@@ -1582,38 +1550,37 @@ path
 num_locales
 }
 locales
-"
+'
 .
 format
 (
-                    
+                
 buildid
 =
 build_id
-                    
+                
 path
 =
 rel_info
 [
-"
+'
 from
-"
+'
 ]
-                    
+                
 num_locales
 =
 len
 (
 rel_info
 [
-"
+'
 locales
-"
+'
 ]
 )
-                
-)
             
+)
 )
             
 marionette_port
@@ -1625,9 +1592,9 @@ locale
 in
 rel_info
 [
-"
+'
 locales
-"
+'
 ]
 :
                 
@@ -1640,8 +1607,7 @@ self
 .
 info
 (
-                    
-"
+'
 Running
 {
 buildid
@@ -1649,18 +1615,18 @@ buildid
 {
 locale
 }
-"
+'
 .
 format
 (
 buildid
 =
 build_id
+                                                              
 locale
 =
 locale
 )
-                
 )
                 
 if
@@ -1682,8 +1648,7 @@ self
 .
 info
 (
-                        
-"
+'
 We
 have
 reached
@@ -1696,8 +1661,7 @@ were
 intending
 to
 run
-"
-                    
+'
 )
                     
 break
@@ -1707,9 +1671,9 @@ self
 .
 config
 [
-"
+'
 dry_run
-"
+'
 ]
 :
                     
@@ -1717,7 +1681,7 @@ continue
                 
 installer_url
 =
-"
+'
 {
 server
 }
@@ -1725,7 +1689,7 @@ server
 {
 fragment
 }
-"
+'
 .
 format
 (
@@ -1734,9 +1698,9 @@ server
 =
 rel_info
 [
-"
+'
 ftp_server_from
-"
+'
 ]
                     
 fragment
@@ -1747,18 +1711,18 @@ quote
 (
 rel_info
 [
-"
+'
 from
-"
+'
 ]
 .
 replace
 (
-"
+'
 %
 locale
 %
-"
+'
 locale
 )
 )
@@ -1775,13 +1739,14 @@ download_file
 url
 =
 installer_url
+                    
 parent_dir
 =
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
                 
 )
@@ -1792,7 +1757,6 @@ self
 .
 install_app
 (
-                    
 app
 =
 self
@@ -1801,14 +1765,14 @@ config
 .
 get
 (
-"
+'
 application
-"
+'
 )
+                                               
 installer_path
 =
 installer_path
-                
 )
                 
 marionette_port
@@ -1854,11 +1818,11 @@ self
 .
 info
 (
-"
+'
 Removing
 {
 }
-"
+'
 .
 format
 (
@@ -1881,7 +1845,7 @@ self
 .
 warning
 (
-"
+'
 FAIL
 :
 {
@@ -1889,7 +1853,7 @@ FAIL
 has
 failed
 .
-"
+'
 .
 format
 (
@@ -1904,9 +1868,7 @@ argv
                     
 base_cmd
 =
-(
-                        
-"
+'
 python
 {
 command
@@ -1921,9 +1883,10 @@ branch
 {
 branch
 }
-"
+'
+\
                         
-"
+'
 -
 -
 release
@@ -1942,7 +1905,7 @@ tag
 {
 tag
 }
-"
+'
 .
 format
 (
@@ -1976,8 +1939,6 @@ tools_tag
                         
 )
                     
-)
-                    
 for
 config
 in
@@ -1985,22 +1946,22 @@ self
 .
 config
 [
-"
+'
 config_files
-"
+'
 ]
 :
                         
 base_cmd
 +
 =
-"
+'
 -
 -
 cfg
 {
 }
-"
+'
 .
 format
 (
@@ -2016,7 +1977,7 @@ symbols_url
 base_cmd
 +
 =
-"
+'
 -
 -
 symbols
@@ -2024,7 +1985,7 @@ symbols
 path
 {
 }
-"
+'
 .
 format
 (
@@ -2036,7 +1997,7 @@ symbols_url
 base_cmd
 +
 =
-"
+'
 -
 -
 installer
@@ -2044,7 +2005,7 @@ installer
 url
 {
 }
-"
+'
 .
 format
 (
@@ -2055,8 +2016,7 @@ self
 .
 info
 (
-                        
-"
+'
 You
 can
 run
@@ -2071,8 +2031,7 @@ same
 machine
 with
 :
-"
-                    
+'
 )
                     
 self
@@ -2086,8 +2045,7 @@ self
 .
 info
 (
-                        
-"
+'
 You
 can
 run
@@ -2103,15 +2061,14 @@ your
 machine
 with
 :
-"
-                    
+'
 )
                     
 self
 .
 info
 (
-"
+'
 {
 }
 -
@@ -2120,7 +2077,7 @@ cfg
 developer_config
 .
 py
-"
+'
 .
 format
 (
@@ -2142,8 +2099,7 @@ self
 .
 info
 (
-                    
-"
+'
 Completed
 {
 buildid
@@ -2158,23 +2114,23 @@ code
 {
 retcode
 }
-"
+'
 .
 format
 (
-                        
+                    
 buildid
 =
 build_id
-locale
-=
-locale
-retcode
-=
-retcode
                     
+locale
+=
+locale
+                    
+retcode
+=
+retcode
 )
-                
 )
             
 if
@@ -2267,8 +2223,7 @@ self
 .
 info
 (
-                        
-"
+'
 \
 nSUMMARY
 -
@@ -2278,7 +2233,7 @@ for
 {
 }
 :
-"
+'
 .
 format
 (
@@ -2286,14 +2241,13 @@ self
 .
 cli_script
 )
-                    
 )
                     
 self
 .
 info
 (
-"
+'
 =
 =
 =
@@ -2346,7 +2300,7 @@ info
 =
 =
 =
-"
+'
 )
                     
 exit_status
@@ -2364,15 +2318,15 @@ self
 .
 info
 (
-"
+'
 {
 }
-"
+'
 .
 format
 (
-"
-"
+'
+'
 .
 join
 (
@@ -2393,9 +2347,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 myScript

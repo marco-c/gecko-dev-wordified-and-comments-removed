@@ -55,11 +55,11 @@ MPL
 .
 DevToolsModules
 (
-"
+'
 event
 -
 telemetry
 .
 js
-"
+'
 )

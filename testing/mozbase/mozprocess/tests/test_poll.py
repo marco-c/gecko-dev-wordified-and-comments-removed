@@ -92,7 +92,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -100,16 +99,17 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_normal_finish
 .
 ini
 "
 ]
+                                          
 cwd
 =
 here
-        
 )
         
 self
@@ -152,7 +152,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -160,16 +159,17 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_normal_finish
 .
 ini
 "
 ]
+                                          
 cwd
 =
 here
-        
 )
         
 p
@@ -238,7 +238,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -246,16 +245,17 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_normal_finish
 .
 ini
 "
 ]
+                                          
 cwd
 =
 here
-        
 )
         
 p
@@ -282,9 +282,9 @@ self
 .
 assertGreater
 (
-                
 returncode
 0
+                               
 '
 Positive
 returncode
@@ -297,7 +297,6 @@ s
 '
 %
 returncode
-            
 )
         
 else
@@ -307,9 +306,9 @@ self
 .
 assertLess
 (
-                
 returncode
 0
+                            
 '
 Negative
 returncode
@@ -322,7 +321,6 @@ s
 '
 %
 returncode
-            
 )
         
 self
@@ -378,33 +376,29 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
-                
 self
 .
 python
-                
 self
 .
 proclaunch
-                
+                                           
 "
 process_normal_finish_no_process_group
 .
 ini
 "
-            
 ]
-            
+                                          
 cwd
 =
 here
-            
+                                          
 ignore_children
 =
 True
-        
+                                          
 )
         
 p
@@ -431,9 +425,9 @@ self
 .
 assertGreater
 (
-                
 returncode
 0
+                               
 '
 Positive
 returncode
@@ -446,7 +440,6 @@ s
 '
 %
 returncode
-            
 )
         
 else
@@ -456,9 +449,9 @@ self
 .
 assertLess
 (
-                
 returncode
 0
+                            
 '
 Negative
 returncode
@@ -471,7 +464,6 @@ s
 '
 %
 returncode
-            
 )
         
 self
@@ -524,7 +516,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -532,16 +523,17 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_normal_finish
 .
 ini
 "
 ]
+                                          
 cwd
 =
 here
-        
 )
         
 p
@@ -574,9 +566,9 @@ self
 .
 assertGreater
 (
-                
 returncode
 0
+                               
 '
 Positive
 returncode
@@ -589,7 +581,6 @@ s
 '
 %
 returncode
-            
 )
         
 else
@@ -599,9 +590,9 @@ self
 .
 assertLess
 (
-                
 returncode
 0
+                            
 '
 Negative
 returncode
@@ -614,7 +605,6 @@ s
 '
 %
 returncode
-            
 )
         
 self
@@ -687,7 +677,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -695,16 +684,17 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_normal_finish
 .
 ini
 "
 ]
+                                          
 cwd
 =
 here
-        
 )
         
 p
@@ -771,13 +761,11 @@ self
 .
 assertEqual
 (
-                
 returncode
-                
 signal
 .
 SIGTERM
-                
+                             
 '
 Positive
 returncode
@@ -790,7 +778,6 @@ s
 '
 %
 returncode
-            
 )
         
 else
@@ -800,14 +787,12 @@ self
 .
 assertEqual
 (
-                
 returncode
-                
 -
 signal
 .
 SIGTERM
-                
+                             
 '
 %
 s
@@ -826,7 +811,6 @@ signal
 SIGTERM
 returncode
 )
-            
 )
         
 self
@@ -851,9 +835,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

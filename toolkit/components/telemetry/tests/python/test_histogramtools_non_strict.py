@@ -16,7 +16,6 @@ path
 .
 abspath
 (
-    
 path
 .
 join
@@ -227,9 +226,8 @@ a
 new
 field
 "
-            
+                
 }
-        
 }
         
 histograms
@@ -245,22 +243,20 @@ parse_histograms
 .
 Histogram
 (
-            
-"
+'
 A11Y_INSTANTIATED_FLAG
-"
-            
+'
+                                          
 histograms
 [
-"
+'
 A11Y_INSTANTIATED_FLAG
-"
+'
 ]
-            
+                                          
 strict_type_checks
 =
 False
-        
 )
         
 self
@@ -272,9 +268,9 @@ hist
 expiration
 (
 )
-"
+'
 never
-"
+'
 )
         
 self
@@ -286,9 +282,9 @@ hist
 kind
 (
 )
-"
+'
 flag
-"
+'
 )
         
 self
@@ -370,9 +366,8 @@ StartupTimeline
 :
 MAX_EVENT_ID
 "
-            
+                
 }
-        
 }
         
 histograms
@@ -388,22 +383,20 @@ parse_histograms
 .
 Histogram
 (
-            
-"
+'
 TEST_NON_NUMERIC_HISTOGRAM
-"
-            
+'
+                                          
 histograms
 [
-"
+'
 TEST_NON_NUMERIC_HISTOGRAM
-"
+'
 ]
-            
+                                          
 strict_type_checks
 =
 False
-        
 )
         
 self
@@ -443,37 +436,36 @@ path
 .
 join
 (
-            
 TELEMETRY_ROOT_PATH
-            
+                       
 path
 .
 pardir
-            
+                       
 path
 .
 pardir
-            
+                       
 path
 .
 pardir
-            
+                       
 "
 devtools
 "
-            
+                       
 "
 shared
 "
-            
+                       
 "
 css
 "
-            
+                       
 "
 generated
 "
-            
+                       
 "
 properties
 -
@@ -481,7 +473,6 @@ db
 .
 js
 "
-        
 )
         
 histograms
@@ -541,26 +532,22 @@ self
 .
 assertTrue
 (
-            
 "
 USE_COUNTER2_CSS_PROPERTY_AnimationName_DOCUMENT
 "
 in
 histograms
-        
 )
         
 self
 .
 assertTrue
 (
-            
 "
 USE_COUNTER2_CSS_PROPERTY_MozAnimationName_DOCUMENT
 "
 in
 histograms
-        
 )
     
 def
@@ -588,7 +575,6 @@ all_histograms
 =
 list
 (
-            
 parse_histograms
 .
 from_files
@@ -596,17 +582,16 @@ from_files
 [
 HISTOGRAMS_PATH
 ]
+                                                          
 strict_type_checks
 =
 False
 )
-        
 )
         
 test_histogram
 =
 [
-            
 i
 for
 i
@@ -620,10 +605,9 @@ name
 )
 =
 =
-"
+'
 TELEMETRY_TEST_FLAG
-"
-        
+'
 ]
 [
 0
@@ -638,9 +622,9 @@ test_histogram
 expiration
 (
 )
-"
+'
 never
-"
+'
 )
         
 self
@@ -652,9 +636,9 @@ test_histogram
 kind
 (
 )
-"
+'
 flag
-"
+'
 )
         
 self
@@ -720,9 +704,8 @@ description
 "
 sample
 "
-            
+                
 }
-        
 }
         
 histograms
@@ -738,22 +721,20 @@ parse_histograms
 .
 Histogram
 (
-            
-"
+'
 TEST_EMPTY_PRODUCTS
-"
-            
+'
+                                          
 histograms
 [
-"
+'
 TEST_EMPTY_PRODUCTS
-"
+'
 ]
-            
+                                          
 strict_type_checks
 =
 False
-        
 )
         
 self
@@ -765,9 +746,9 @@ hist
 kind
 (
 )
-"
+'
 flag
-"
+'
 )
         
 self
@@ -785,9 +766,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit
