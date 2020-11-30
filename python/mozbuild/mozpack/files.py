@@ -2243,8 +2243,9 @@ path
 )
 :
             
-raise
-ErrorMessage
+errors
+.
+fatal
 (
 '
 Symlink
@@ -2634,8 +2635,9 @@ errno
 ENOENT
 :
                 
-raise
-ErrorMessage
+errors
+.
+fatal
 (
 '
 Hard
