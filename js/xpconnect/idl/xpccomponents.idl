@@ -4289,6 +4289,12 @@ object
 nsISupports
 createCommandLine
 (
+[
+optional
+]
+in
+nsIFile
+aWorkingDir
 )
 ;
 /

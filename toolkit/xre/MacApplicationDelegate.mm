@@ -787,9 +787,12 @@ NS_FAILED
 rv
 )
 )
-return
-NO
+{
+workingDir
+=
+nullptr
 ;
+}
 const
 char
 *
@@ -1856,8 +1859,9 @@ rv
 )
 )
 {
-return
-NO
+workingDir
+=
+nullptr
 ;
 }
 const
