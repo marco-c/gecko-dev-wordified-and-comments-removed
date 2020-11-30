@@ -1436,6 +1436,8 @@ i
 in
 debug
 /
+deps
+/
 *
 ;
 do

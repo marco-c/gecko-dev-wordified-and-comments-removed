@@ -143,12 +143,16 @@ cargo
 test
 -
 binaries
+/
+debug
+/
+deps
 -
 type
 f
 -
 maxdepth
-2
+1
 -
 executable
 -
