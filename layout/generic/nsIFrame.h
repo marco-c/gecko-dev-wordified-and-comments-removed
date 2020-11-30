@@ -8912,6 +8912,11 @@ mMovedOverNonSelectableText
 =
 false
 ;
+bool
+mHasSelectableFrame
+=
+false
+;
 FrameSearchResult
 PeekOffsetNoAmount
 (
