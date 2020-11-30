@@ -82,5 +82,9 @@ fetch
 /
 dom
 /
+localstorage
+/
+dom
+/
 quota
 /
