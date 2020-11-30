@@ -19085,11 +19085,10 @@ fun
 ;
 if
 (
+!
 script
-)
-{
-if
-(
+|
+|
 !
 DisassembleScript
 (
@@ -19107,7 +19106,6 @@ sp
 return
 false
 ;
-}
 }
 }
 else
