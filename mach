@@ -189,11 +189,6 @@ reftest
 talos
 -
 test
-taskcluster
--
-load
--
-image
 telemetry
 -
 tests

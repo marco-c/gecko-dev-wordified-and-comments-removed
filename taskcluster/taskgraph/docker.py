@@ -1165,6 +1165,15 @@ reader
 BytesIO
 (
 data
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
 )
                     
 member
@@ -1240,6 +1249,7 @@ remainder
 :
                     
 yield
+(
 '
 \
 0
@@ -1249,6 +1259,16 @@ yield
 512
 -
 remainder
+)
+)
+.
+encode
+(
+"
+utf
+-
+8
+"
 )
                 
 reader
