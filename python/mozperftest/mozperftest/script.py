@@ -1377,10 +1377,9 @@ continue
 options
 +
 =
-(
-                        
 f
 "
+:
 {
 plat
 .
@@ -1389,6 +1388,12 @@ capitalize
 )
 }
 options
+:
+\
+n
+\
+n
+:
 :
 \
 n
@@ -1405,11 +1410,7 @@ plat
 }
 \
 n
-\
-n
 "
-                    
-)
             
 else
 :
@@ -1488,6 +1489,11 @@ n
 info
 +
 =
+options
+        
+info
++
+=
 f
 "
 \
@@ -1534,11 +1540,6 @@ longDescription
 \
 n
 "
-        
-info
-+
-=
-options
         
 return
 info
