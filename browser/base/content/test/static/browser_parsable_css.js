@@ -3078,12 +3078,6 @@ checkWhitelist
 propNameWhitelist
 )
 ;
-iframe
-.
-remove
-(
-)
-;
 doc
 .
 head
@@ -3096,6 +3090,12 @@ innerHTML
 doc
 =
 null
+;
+iframe
+.
+remove
+(
+)
 ;
 iframe
 =
