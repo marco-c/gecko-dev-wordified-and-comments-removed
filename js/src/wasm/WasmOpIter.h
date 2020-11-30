@@ -317,6 +317,17 @@ ValType
 :
 F64
 :
+#
+ifdef
+ENABLE_WASM_SIMD
+case
+ValType
+:
+:
+V128
+:
+#
+endif
 return
 true
 ;
