@@ -244,7 +244,7 @@ wr
 *
 *
 '
-linux
+linux64
 -
 release
 :
@@ -408,7 +408,7 @@ wr
 *
 *
 '
-linux
+linux64
 -
 debug
 :
