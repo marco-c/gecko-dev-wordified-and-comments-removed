@@ -479,11 +479,6 @@ repeat
 )
 ;
 }
-await
-finishTests
-(
-)
-;
 }
 )
 ;

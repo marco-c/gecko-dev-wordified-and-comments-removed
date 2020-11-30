@@ -139,11 +139,6 @@ browser
 ]
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

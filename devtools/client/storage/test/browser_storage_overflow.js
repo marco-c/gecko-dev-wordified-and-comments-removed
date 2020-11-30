@@ -134,11 +134,6 @@ runTests
 (
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

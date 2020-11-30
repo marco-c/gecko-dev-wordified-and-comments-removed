@@ -705,11 +705,6 @@ plop
 ]
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

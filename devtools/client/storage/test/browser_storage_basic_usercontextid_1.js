@@ -1133,11 +1133,6 @@ testTables
 testCases
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

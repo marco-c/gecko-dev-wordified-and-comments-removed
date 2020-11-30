@@ -89,11 +89,6 @@ tree
 )
 ;
 }
-await
-finishTests
-(
-)
-;
 }
 )
 ;

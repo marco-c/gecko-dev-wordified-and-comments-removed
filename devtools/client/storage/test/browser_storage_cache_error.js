@@ -160,11 +160,6 @@ closeWindow
 win
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

@@ -136,11 +136,6 @@ false
 "
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

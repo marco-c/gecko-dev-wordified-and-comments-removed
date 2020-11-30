@@ -77,11 +77,6 @@ closeToolbox
 target
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

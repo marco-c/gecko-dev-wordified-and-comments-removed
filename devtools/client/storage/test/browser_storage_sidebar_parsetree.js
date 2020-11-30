@@ -301,11 +301,6 @@ parseTreeVisible
 )
 ;
 }
-await
-finishTests
-(
-)
-;
 }
 )
 ;
