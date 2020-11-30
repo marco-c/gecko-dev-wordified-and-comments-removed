@@ -16181,7 +16181,7 @@ async
 function
 (
 objectActor
-inspectFromAnnotation
+reason
 )
 {
 await
@@ -16217,7 +16217,7 @@ inspectNodeActor
 objectActor
 .
 actor
-inspectFromAnnotation
+reason
 )
 ;
 if
@@ -16233,6 +16233,7 @@ selectTool
 "
 inspector
 "
+reason
 )
 ;
 }
