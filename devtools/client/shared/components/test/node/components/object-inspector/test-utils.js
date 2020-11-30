@@ -134,8 +134,6 @@ shared
 /
 components
 /
-reps
-/
 object
 -
 inspector
@@ -162,8 +160,6 @@ client
 shared
 /
 components
-/
-reps
 /
 object
 -

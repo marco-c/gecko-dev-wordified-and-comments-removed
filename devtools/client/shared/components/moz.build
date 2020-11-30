@@ -3,6 +3,11 @@ DIRS
 =
 [
 '
+object
+-
+inspector
+'
+'
 menu
 '
 '
