@@ -383,7 +383,12 @@ logcat
 perfherder
 -
 metrics
+name
+:
 processLaunchToNavStart
+shouldAlert
+:
+True
 -
 -
 android
@@ -566,7 +571,12 @@ fenix
 perfherder
 -
 metrics
+name
+:
 processLaunchToNavStart
+shouldAlert
+:
+True
 -
 -
 android
