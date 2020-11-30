@@ -894,9 +894,13 @@ aTime
 ;
 private
 :
+mutable
+DataMutex
+<
 Maybe
 <
 TimeStamp
+>
 >
 mTestSampleTime
 ;
