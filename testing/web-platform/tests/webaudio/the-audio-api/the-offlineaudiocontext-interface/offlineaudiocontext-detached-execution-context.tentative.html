@@ -118,7 +118,6 @@ detached
 -
 iframe
 '
-async
 (
 task
 should
@@ -235,6 +234,7 @@ existent
 /
 ExecutionContext
 .
+return
 should
 (
 context
@@ -263,19 +263,6 @@ beRejectedWith
 '
 NotAllowedError
 '
-)
-.
-then
-(
-(
-)
-=
->
-task
-.
-done
-(
-)
 )
 ;
 }
