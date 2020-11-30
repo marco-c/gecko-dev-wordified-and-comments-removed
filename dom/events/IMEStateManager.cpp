@@ -8502,7 +8502,7 @@ sFocusedIMEBrowserParent
 s
 "
 "
-CanSendNotificationToTheMainProcess
+CanSendNotificationToWidget
 (
 )
 =
@@ -8550,7 +8550,7 @@ sFocusedIMEBrowserParent
 )
 GetBoolName
 (
-CanSendNotificationToTheMainProcess
+CanSendNotificationToWidget
 (
 )
 )
@@ -8604,7 +8604,7 @@ NOTIFY_IME_OF_FOCUS
 {
 MOZ_ASSERT
 (
-CanSendNotificationToTheMainProcess
+CanSendNotificationToWidget
 (
 )
 )
@@ -9009,7 +9009,7 @@ sFocusedIMEBrowserParent
 nullptr
 ;
 return
-CanSendNotificationToTheMainProcess
+CanSendNotificationToWidget
 (
 )
 ?
@@ -9188,7 +9188,7 @@ NS_OK
 if
 (
 !
-CanSendNotificationToTheMainProcess
+CanSendNotificationToWidget
 (
 )
 )

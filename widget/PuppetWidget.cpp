@@ -3500,7 +3500,7 @@ MOZ_ASSERT
 IMEStateManager
 :
 :
-CanSendNotificationToTheMainProcess
+CanSendNotificationToWidget
 (
 )
 )
@@ -3724,7 +3724,7 @@ MOZ_ASSERT
 IMEStateManager
 :
 :
-CanSendNotificationToTheMainProcess
+CanSendNotificationToWidget
 (
 )
 )
@@ -3805,7 +3805,7 @@ MOZ_ASSERT
 IMEStateManager
 :
 :
-CanSendNotificationToTheMainProcess
+CanSendNotificationToWidget
 (
 )
 )
@@ -3928,7 +3928,7 @@ MOZ_ASSERT
 IMEStateManager
 :
 :
-CanSendNotificationToTheMainProcess
+CanSendNotificationToWidget
 (
 )
 )
@@ -4041,7 +4041,7 @@ MOZ_ASSERT
 IMEStateManager
 :
 :
-CanSendNotificationToTheMainProcess
+CanSendNotificationToWidget
 (
 )
 )
@@ -4126,7 +4126,7 @@ MOZ_ASSERT
 IMEStateManager
 :
 :
-CanSendNotificationToTheMainProcess
+CanSendNotificationToWidget
 (
 )
 )
