@@ -27,7 +27,6 @@ is
 correctly
 initialized
 .
-    
 "
 "
 "
@@ -48,9 +47,9 @@ macintelpower_obj
 _os
 =
 =
-'
+"
 darwin
-'
+"
     
 assert
 macintelpower_obj
@@ -58,9 +57,9 @@ macintelpower_obj
 _cpu
 =
 =
-'
+"
 intel
-'
+"
 def
 test_macintelpower_measuring
 (
@@ -200,8 +199,8 @@ mock
 .
 patch
 (
-            
-'
+        
+"
 mozpower
 .
 intel_power_gadget
@@ -209,8 +208,8 @@ intel_power_gadget
 IPGResultsHandler
 .
 clean_ipg_data
-'
-         
+"
+    
 )
 as
 _
@@ -221,20 +220,20 @@ mock
 .
 patch
 (
-                
-'
+            
+"
 mozpower
 .
 intel_power_gadget
 .
 IPGResultsHandler
 .
-'
-                
-'
+"
+            
+"
 format_ipg_data_to_partial_perfherder
-'
-             
+"
+        
 )
 as
 formatter
@@ -287,8 +286,6 @@ macintelpower_obj
 .
 ipg_results_handler
 .
-\
-                
 clean_ipg_data
 .
 assert_called
@@ -299,13 +296,11 @@ macintelpower_obj
 .
 ipg_results_handler
 .
-\
-                
 format_ipg_data_to_partial_perfherder
 .
 assert_called_once_with
 (
-                    
+                
 macintelpower_obj
 .
 end_time
@@ -313,12 +308,13 @@ end_time
 macintelpower_obj
 .
 start_time
-'
+                
+"
 power
 -
 testing
-'
-                
+"
+            
 )
             
 assert
@@ -334,9 +330,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit
