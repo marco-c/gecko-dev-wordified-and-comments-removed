@@ -8014,10 +8014,6 @@ allow_scissored_cache_clears
 start_debug_server
 surface_origin_is_top_left
 :
-!
-software
-&
-&
 surface_origin_is_top_left
 compositor_config
 enable_gpu_markers
