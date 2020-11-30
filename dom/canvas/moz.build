@@ -1107,14 +1107,6 @@ error
 =
 shadow
 '
-'
--
-Wno
--
-missing
--
-braces
-'
 ]
 if
 CONFIG

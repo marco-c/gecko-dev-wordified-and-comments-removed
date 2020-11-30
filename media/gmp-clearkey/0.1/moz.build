@@ -206,14 +206,6 @@ CFLAGS
 -
 Wno
 -
-missing
--
-braces
-'
-'
--
-Wno
--
 pointer
 -
 to
