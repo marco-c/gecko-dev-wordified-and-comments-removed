@@ -458,7 +458,7 @@ _
 js
 :
 :
-Int32ToStringHelperPure
+Int32ToStringPure
 )
 \
 _
@@ -1217,7 +1217,7 @@ _
 js
 :
 :
-NumberToStringHelperPure
+NumberToStringPure
 )
 \
 _
