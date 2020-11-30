@@ -647,7 +647,9 @@ origin
 ]
 =
 {
-WEB_ELEMENT_KEY
+origin
+.
+kind
 :
 origin
 .
@@ -1291,6 +1293,9 @@ __init__
 self
 marionette
 id
+kind
+=
+WEB_ELEMENT_KEY
 )
 :
         
@@ -1313,6 +1318,12 @@ self
 id
 =
 id
+        
+self
+.
+kind
+=
+kind
     
 def
 __str__
@@ -2494,6 +2505,7 @@ json
 [
 WEB_ELEMENT_KEY
 ]
+WEB_ELEMENT_KEY
 )
             
 elif
@@ -2510,6 +2522,7 @@ json
 [
 CHROME_ELEMENT_KEY
 ]
+CHROME_ELEMENT_KEY
 )
             
 elif
@@ -2526,6 +2539,7 @@ json
 [
 FRAME_KEY
 ]
+FRAME_KEY
 )
             
 elif
@@ -2542,6 +2556,7 @@ json
 [
 WINDOW_KEY
 ]
+WINDOW_KEY
 )
         
 raise

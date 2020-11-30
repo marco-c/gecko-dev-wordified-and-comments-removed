@@ -2250,7 +2250,7 @@ if
 !
 element
 .
-isDOMElement
+isElement
 (
 obj
 )
@@ -2356,13 +2356,17 @@ action
 .
 inputStateMap
 =
-undefined
+new
+Map
+(
+)
 ;
 action
 .
 inputsToCancel
 =
-undefined
+[
+]
 ;
 class
 InputState
@@ -6281,7 +6285,7 @@ if
 (
 element
 .
-isDOMElement
+isElement
 (
 el
 )
