@@ -976,6 +976,16 @@ LZ4_HC_SLO_098092834
 define
 LZ4_HC_SLO_098092834
 #
+define
+LZ4_STATIC_LINKING_ONLY
+#
+include
+"
+lz4
+.
+h
+"
+#
 if
 defined
 (
