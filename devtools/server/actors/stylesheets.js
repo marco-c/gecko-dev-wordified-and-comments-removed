@@ -1691,10 +1691,9 @@ rawSheet
 title
 system
 :
-!
 CssLogic
 .
-isAuthorStylesheet
+isAgentStylesheet
 (
 this
 .

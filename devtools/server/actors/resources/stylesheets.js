@@ -2190,10 +2190,9 @@ styleSheet
 )
 system
 :
-!
 CssLogic
 .
-isAuthorStylesheet
+isAgentStylesheet
 (
 styleSheet
 )
