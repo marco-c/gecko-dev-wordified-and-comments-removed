@@ -30251,6 +30251,10 @@ MediaFeatureChange
 :
 kAllChanges
 }
+MediaFeatureChangePropagation
+:
+:
+JustThisDocument
 )
 ;
 nsCOMPtr

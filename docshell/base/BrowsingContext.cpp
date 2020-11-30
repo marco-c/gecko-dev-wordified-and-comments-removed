@@ -11107,7 +11107,7 @@ GetPresContext
 pc
 -
 >
-MediaFeatureValuesChangedAllDocuments
+MediaFeatureValuesChanged
 (
 {
 MediaFeatureChangeReason
@@ -11115,13 +11115,10 @@ MediaFeatureChangeReason
 :
 DisplayModeChange
 }
-nsPresContext
+MediaFeatureChangePropagation
 :
 :
-RecurseIntoInProcessSubDocuments
-:
-:
-No
+JustThisDocument
 )
 ;
 }
