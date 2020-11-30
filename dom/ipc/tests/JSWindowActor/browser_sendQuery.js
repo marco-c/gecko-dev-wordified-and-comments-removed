@@ -241,7 +241,7 @@ TestWindowChild
 .
 jsm
 :
-33
+35
 :
 31
 \
@@ -395,7 +395,7 @@ TestWindowChild
 .
 jsm
 :
-36
+38
 :
 22
 \
