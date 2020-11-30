@@ -166,6 +166,14 @@ partner_repack
 .
 py
 -
+taskcluster
+/
+test
+-
+testing
+/
+performance
+-
 tools
 /
 crashreporter
@@ -195,10 +203,6 @@ lint
 tools
 /
 tryselect
--
-testing
-/
-performance
 extensions
 :
 [
