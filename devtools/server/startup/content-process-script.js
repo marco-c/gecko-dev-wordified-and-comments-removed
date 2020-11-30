@@ -763,7 +763,7 @@ processID
 ;
 const
 {
-init
+initContentProcessTarget
 }
 =
 ChromeUtils
@@ -795,7 +795,7 @@ actor
 connection
 }
 =
-init
+initContentProcessTarget
 (
 {
 target
