@@ -799,6 +799,12 @@ NS_ERROR_UNEXPECTED
 return
 ;
 }
+PR_SetFDInheritable
+(
+clientFD
+false
+)
+;
 NetAddr
 clientAddr
 (
@@ -1519,6 +1525,12 @@ PR_GetError
 )
 ;
 }
+PR_SetFDInheritable
+(
+mFD
+false
+)
+;
 PRSocketOptionData
 opt
 ;
