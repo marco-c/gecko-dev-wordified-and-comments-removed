@@ -21827,8 +21827,6 @@ PCToLineNumber
 (
 unsigned
 startLine
-unsigned
-startCol
 SrcNote
 *
 notes
@@ -21851,7 +21849,7 @@ startLine
 unsigned
 column
 =
-startCol
+0
 ;
 ptrdiff_t
 offset
@@ -21943,7 +21941,6 @@ SetLine
 getLine
 (
 sn
-startLine
 )
 ;
 column
@@ -22067,12 +22064,6 @@ script
 -
 >
 lineno
-(
-)
-script
--
->
-column
 (
 )
 script
@@ -22266,12 +22257,6 @@ SetLine
 getLine
 (
 sn
-script
--
->
-lineno
-(
-)
 )
 ;
 }
@@ -22408,12 +22393,6 @@ SetLine
 getLine
 (
 sn
-script
--
->
-lineno
-(
-)
 )
 ;
 }

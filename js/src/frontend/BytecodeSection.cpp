@@ -1116,8 +1116,6 @@ JSContext
 cx
 uint32_t
 lineNum
-uint32_t
-column
 )
 :
 code_
@@ -1147,10 +1145,6 @@ cx
 currentLine_
 (
 lineNum
-)
-lastColumn_
-(
-column
 )
 {
 }
