@@ -92,6 +92,10 @@ GL_R8
 0x8229
 #
 define
+GL_R16
+0x822A
+#
+define
 GL_RGBA32I
 0x8D82
 #

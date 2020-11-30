@@ -125,6 +125,10 @@ units
 api
 :
 :
+ColorDepth
+api
+:
+:
 ExternalImageId
 api
 :
@@ -556,6 +560,9 @@ u32
 color_space
 :
 YuvColorSpace
+color_depth
+:
+ColorDepth
 size
 :
 DeviceIntSize
@@ -2350,6 +2357,7 @@ swgl
 :
 LockedResource
 YuvColorSpace
+ColorDepth
 )
 }
 unsafe
@@ -2574,6 +2582,7 @@ u
 ref
 v
 color_space
+color_depth
 )
 =
 >
@@ -2648,6 +2657,11 @@ y
 u
 v
 swgl_color_space
+color_depth
+.
+bit_depth
+(
+)
 self
 .
 src_rect
@@ -4673,6 +4687,9 @@ v_texture
 info
 .
 color_space
+info
+.
+color_depth
 )
 }
 _
@@ -4838,6 +4855,12 @@ YuvColorSpace
 :
 :
 Identity
+color_depth
+:
+ColorDepth
+:
+:
+Color8
 size
 :
 DeviceIntSize
