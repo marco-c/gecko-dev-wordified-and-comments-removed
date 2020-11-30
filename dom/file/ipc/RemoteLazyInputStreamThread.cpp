@@ -193,10 +193,16 @@ RemoteLazyInputStreamChild
 eInactiveMigrating
 )
 ;
+ipc
+:
+:
 PBackgroundChild
 *
 actorChild
 =
+ipc
+:
+:
 BackgroundChild
 :
 :

@@ -317,6 +317,9 @@ nsID
 aID
 uint64_t
 aSize
+net
+:
+:
 SocketProcessParent
 *
 aManager
@@ -426,6 +429,9 @@ RemoteLazyInputStreamParent
 :
 Create
 <
+dom
+:
+:
 ContentParent
 >
 (
@@ -435,6 +441,9 @@ uint64_t
 uint64_t
 nsresult
 *
+dom
+:
+:
 ContentParent
 *
 )
@@ -450,6 +459,9 @@ nsID
 aID
 uint64_t
 aSize
+dom
+:
+:
 ContentParent
 *
 aManager
@@ -534,6 +546,9 @@ nsID
 aID
 uint64_t
 aSize
+net
+:
+:
 SocketProcessParent
 *
 aManager

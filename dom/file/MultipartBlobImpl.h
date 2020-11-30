@@ -12,6 +12,13 @@ utility
 #
 include
 "
+Blob
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
