@@ -1227,6 +1227,15 @@ aEncodedBodySize
 override
 ;
 NS_IMETHOD
+GetSupportsHTTP3
+(
+bool
+*
+aSupportsHTTP3
+)
+override
+;
+NS_IMETHOD
 SetRequestContextID
 (
 uint64_t
@@ -3395,6 +3404,9 @@ mRequestSize
 ;
 uint64_t
 mDecodedBodySize
+;
+bool
+mSupportsHTTP3
 ;
 uint64_t
 mEncodedBodySize

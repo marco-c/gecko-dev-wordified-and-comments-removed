@@ -3042,11 +3042,6 @@ mHTTPSSVCTelemetryReported
 :
 1
 ;
-bool
-mSupportsHTTP3
-=
-false
-;
 nsCString
 mTopWindowOrigin
 ;

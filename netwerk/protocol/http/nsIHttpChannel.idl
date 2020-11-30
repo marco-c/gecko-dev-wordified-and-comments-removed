@@ -215,6 +215,14 @@ must_use
 ]
 readonly
 attribute
+boolean
+supportsHTTP3
+;
+[
+must_use
+]
+readonly
+attribute
 unsigned
 long
 responseStatus
