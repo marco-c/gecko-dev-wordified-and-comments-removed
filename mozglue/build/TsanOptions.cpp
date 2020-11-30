@@ -526,16 +526,6 @@ n
 "
 race
 :
-TelemetryImpl
-:
-:
-sTelemetry
-\
-n
-"
-"
-race
-:
 BeginBackgroundRead
 \
 n
