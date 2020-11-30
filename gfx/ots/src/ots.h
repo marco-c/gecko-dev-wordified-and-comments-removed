@@ -1961,14 +1961,6 @@ range_shift
 (
 0
 )
-dropped_graphite
-(
-false
-)
-dropped_variations
-(
-false
-)
 {
 }
 bool
@@ -2033,12 +2025,6 @@ entry_selector
 ;
 uint16_t
 range_shift
-;
-bool
-dropped_graphite
-;
-bool
-dropped_variations
 ;
 private
 :

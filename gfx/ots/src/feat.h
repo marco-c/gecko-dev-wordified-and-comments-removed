@@ -156,7 +156,7 @@ const
 uint16_t
 RESERVED
 =
-0x3F00
+0x3700
 ;
 static
 const

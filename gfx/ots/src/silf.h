@@ -869,7 +869,7 @@ uint8_t
 direction
 ;
 uint8_t
-attCollisions
+attrCollisions
 ;
 uint8_t
 reserved4
