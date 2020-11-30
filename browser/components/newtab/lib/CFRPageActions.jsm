@@ -297,7 +297,7 @@ PageAction
 constructor
 (
 win
-dispatchToASRouter
+dispatchCFRAction
 )
 {
 this
@@ -379,9 +379,9 @@ label
 ;
 this
 .
-_dispatchToASRouter
+_dispatchCFRAction
 =
-dispatchToASRouter
+dispatchCFRAction
 ;
 this
 .
@@ -1388,7 +1388,7 @@ action
 {
 this
 .
-_dispatchToASRouter
+_dispatchCFRAction
 (
 {
 type
@@ -1400,9 +1400,6 @@ data
 :
 action
 }
-{
-browser
-:
 this
 .
 window
@@ -1410,7 +1407,6 @@ window
 gBrowser
 .
 selectedBrowser
-}
 )
 ;
 }
@@ -1421,7 +1417,7 @@ message
 {
 this
 .
-_dispatchToASRouter
+_dispatchCFRAction
 (
 {
 type
@@ -1443,7 +1439,7 @@ ping
 {
 this
 .
-_dispatchToASRouter
+_dispatchCFRAction
 (
 {
 type
@@ -1480,7 +1476,7 @@ messageID
 {
 this
 .
-_dispatchToASRouter
+_dispatchCFRAction
 (
 {
 type
@@ -4765,7 +4761,7 @@ chiclet_open_url
 :
 this
 .
-_dispatchToASRouter
+_dispatchCFRAction
 (
 {
 type
@@ -5401,14 +5397,12 @@ forceRecommendation
 (
 browser
 recommendation
-dispatchToASRouter
+dispatchCFRAction
 )
 {
 const
 win
 =
-browser
-.
 browser
 .
 ownerGlobal
@@ -5426,8 +5420,6 @@ RecommendationMap
 .
 set
 (
-browser
-.
 browser
 {
 id
@@ -5461,7 +5453,7 @@ new
 PageAction
 (
 win
-dispatchToASRouter
+dispatchCFRAction
 )
 )
 ;
@@ -5566,7 +5558,7 @@ addRecommendation
 browser
 host
 recommendation
-dispatchToASRouter
+dispatchCFRAction
 )
 {
 const
@@ -5681,7 +5673,7 @@ new
 PageAction
 (
 win
-dispatchToASRouter
+dispatchCFRAction
 )
 )
 ;

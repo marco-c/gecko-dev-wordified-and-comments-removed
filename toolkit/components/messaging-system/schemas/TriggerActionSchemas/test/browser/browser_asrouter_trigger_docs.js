@@ -438,6 +438,7 @@ test_message_triggers
 const
 messages
 =
+await
 CFRMessageProvider
 .
 getMessages

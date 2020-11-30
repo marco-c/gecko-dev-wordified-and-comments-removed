@@ -145,6 +145,7 @@ const
 msg
 ]
 =
+await
 PanelTestProvider
 .
 getMessages

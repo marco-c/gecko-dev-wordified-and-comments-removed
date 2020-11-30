@@ -505,6 +505,7 @@ messages
 from
 CFRMessageProvider
 "
+async
 (
 )
 =
@@ -513,6 +514,7 @@ CFRMessageProvider
 const
 messages
 =
+await
 CFRMessageProvider
 .
 getMessages

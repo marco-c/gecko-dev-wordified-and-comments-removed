@@ -3341,6 +3341,10 @@ getMessages
 )
 {
 return
+Promise
+.
+resolve
+(
 MESSAGES
 (
 )
@@ -3367,6 +3371,7 @@ panel_local_testing
 SHOW_TEST
 "
 }
+)
 )
 )
 ;

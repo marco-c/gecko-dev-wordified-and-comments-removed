@@ -82,8 +82,7 @@ providers
 cfr
 "
 "
-[
-]
+null
 "
 )
 ;
@@ -107,8 +106,7 @@ cfr
 fxa
 "
 "
-[
-]
+null
 "
 )
 ;
@@ -130,8 +128,7 @@ providers
 snippets
 "
 "
-[
-]
+null
 "
 )
 ;
@@ -155,8 +152,7 @@ message
 groups
 "
 "
-[
-]
+null
 "
 )
 ;
@@ -182,8 +178,7 @@ new
 panel
 "
 "
-[
-]
+null
 "
 )
 ;
@@ -207,8 +202,7 @@ messaging
 experiments
 "
 "
-[
-]
+null
 "
 )
 ;

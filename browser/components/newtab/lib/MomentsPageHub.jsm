@@ -172,7 +172,7 @@ waitForInitialized
 handleMessageRequest
 addImpression
 blockMessageById
-dispatch
+sendTelemetry
 }
 )
 {
@@ -196,9 +196,9 @@ blockMessageById
 ;
 this
 .
-_dispatch
+_sendTelemetry
 =
-dispatch
+sendTelemetry
 ;
 await
 waitForInitialized
@@ -247,14 +247,14 @@ _intervalId
 }
 ;
 }
-_sendTelemetry
+_sendPing
 (
 ping
 )
 {
 this
 .
-_dispatch
+_sendTelemetry
 (
 {
 type
@@ -286,7 +286,7 @@ message
 {
 this
 .
-_sendTelemetry
+_sendPing
 (
 {
 message_id

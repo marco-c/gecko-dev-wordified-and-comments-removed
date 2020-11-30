@@ -78,7 +78,7 @@ let
 fakeContainer
 ;
 let
-fakeDispatch
+fakeSendTelemetry
 ;
 let
 fakeWindow
@@ -88,6 +88,7 @@ isBrowserPrivateStub
 ;
 beforeEach
 (
+async
 (
 )
 =
@@ -233,6 +234,7 @@ fakeMessage
 }
 ]
 =
+await
 PanelTestProvider
 .
 getMessages
@@ -457,7 +459,7 @@ fakeWindow
 }
 }
 ;
-fakeDispatch
+fakeSendTelemetry
 =
 sandbox
 .
@@ -588,7 +590,7 @@ init
 (
 fakeHandleMessageRequest
 fakeAddImpression
-fakeDispatch
+fakeSendTelemetry
 )
 ;
 assert
@@ -617,8 +619,8 @@ equal
 (
 instance
 .
-_dispatch
-fakeDispatch
+_sendTelemetry
+fakeSendTelemetry
 )
 ;
 assert
@@ -707,7 +709,7 @@ init
 (
 fakeHandleMessageRequest
 fakeAddImpression
-fakeDispatch
+fakeSendTelemetry
 )
 ;
 }
@@ -951,7 +953,7 @@ init
 (
 fakeHandleMessageRequest
 fakeAddImpression
-fakeDispatch
+fakeSendTelemetry
 )
 ;
 sandbox
@@ -1220,7 +1222,7 @@ assert
 .
 calledOnce
 (
-fakeDispatch
+fakeSendTelemetry
 )
 ;
 const
@@ -1228,7 +1230,7 @@ const
 ping
 ]
 =
-fakeDispatch
+fakeSendTelemetry
 .
 firstCall
 .
@@ -1341,7 +1343,7 @@ assert
 .
 notCalled
 (
-fakeDispatch
+fakeSendTelemetry
 )
 ;
 }
@@ -1426,7 +1428,7 @@ init
 (
 fakeHandleMessageRequest
 fakeAddImpression
-fakeDispatch
+fakeSendTelemetry
 )
 ;
 sandbox
@@ -2779,7 +2781,7 @@ describe
 (
 "
 #
-_forceShowMessage
+forceShowMessage
 "
 (
 )
@@ -2824,9 +2826,11 @@ hideMessage
 ;
 instance
 .
-_forceShowMessage
+forceShowMessage
 (
 fakeTarget
+.
+browser
 {
 content
 :
@@ -2897,9 +2901,11 @@ showMessage
 ;
 instance
 .
-_forceShowMessage
+forceShowMessage
 (
 fakeTarget
+.
+browser
 {
 content
 :
@@ -2969,9 +2975,11 @@ sendUserEventTelemetry
 ;
 instance
 .
-_forceShowMessage
+forceShowMessage
 (
 fakeTarget
+.
+browser
 {
 content
 :
@@ -3053,7 +3061,7 @@ init
 (
 fakeHandleMessageRequest
 fakeAddImpression
-fakeDispatch
+fakeSendTelemetry
 )
 ;
 instance

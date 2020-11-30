@@ -202,6 +202,7 @@ describe
 "
 SnippetsTestMessageProvider
 "
+async
 (
 )
 =
@@ -210,6 +211,7 @@ SnippetsTestMessageProvider
 let
 messages
 =
+await
 SnippetsTestMessageProvider
 .
 getMessages

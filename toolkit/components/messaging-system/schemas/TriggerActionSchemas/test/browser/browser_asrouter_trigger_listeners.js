@@ -545,7 +545,6 @@ true
 }
 )
 ;
-await
 openURLListener
 .
 init

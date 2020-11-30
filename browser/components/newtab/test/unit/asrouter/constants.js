@@ -319,7 +319,12 @@ getMessages
 )
 =
 >
+Promise
+.
+resolve
+(
 FAKE_LOCAL_MESSAGES
+)
 }
 }
 ;

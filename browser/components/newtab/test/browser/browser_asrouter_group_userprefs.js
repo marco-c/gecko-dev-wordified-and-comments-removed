@@ -124,10 +124,13 @@ length
 const
 heartbeatMsg
 =
+(
+await
 CFRMessageProvider
 .
 getMessages
 (
+)
 )
 .
 find
