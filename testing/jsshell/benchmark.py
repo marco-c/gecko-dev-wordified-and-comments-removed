@@ -724,6 +724,12 @@ env
 '
 :
 env
+            
+'
+universal_newlines
+'
+:
+True
         
 }
         
