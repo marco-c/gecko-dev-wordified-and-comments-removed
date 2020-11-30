@@ -4,6 +4,15 @@ DevToolsModules
 content
 -
 process
+-
+script
+.
+js
+'
+'
+content
+-
+process
 .
 js
 '

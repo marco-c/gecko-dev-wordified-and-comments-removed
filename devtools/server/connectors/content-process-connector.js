@@ -149,6 +149,16 @@ listener
 msg
 )
 {
+if
+(
+msg
+.
+watcherActorID
+)
+{
+return
+;
+}
 mm
 .
 removeMessageListener

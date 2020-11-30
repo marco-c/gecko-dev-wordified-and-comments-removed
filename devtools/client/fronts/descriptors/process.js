@@ -233,6 +233,14 @@ form
 form
 )
 ;
+if
+(
+!
+front
+.
+processID
+)
+{
 front
 .
 processID
@@ -241,6 +249,7 @@ this
 .
 id
 ;
+}
 this
 .
 manage
