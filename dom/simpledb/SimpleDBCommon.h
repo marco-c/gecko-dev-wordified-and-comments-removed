@@ -18,6 +18,13 @@ QuotaCommon
 h
 "
 #
+include
+"
+nsLiteralString
+.
+h
+"
+#
 define
 SDB_TRY_GLUE
 (
