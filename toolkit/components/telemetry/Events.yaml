@@ -14611,7 +14611,7 @@ firefox
 expiry_version
 :
 "
-85
+97
 "
 notification_emails
 :
@@ -14643,6 +14643,7 @@ bug_numbers
 1486507
 1553311
 1607501
+1672571
 ]
 security
 :
