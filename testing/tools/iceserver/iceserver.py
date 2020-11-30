@@ -1476,6 +1476,11 @@ extend
 bytearray
 (
 phrase
+"
+utf
+-
+8
+"
 )
 )
         
@@ -1968,6 +1973,11 @@ NONCE
 bytearray
 (
 nonce
+"
+utf
+-
+8
+"
 )
 )
 )
@@ -1992,6 +2002,11 @@ REALM
 bytearray
 (
 realm
+"
+utf
+-
+8
+"
 )
 )
 )
@@ -2076,7 +2091,15 @@ md5
 .
 update
 (
+bytearray
+(
 key_string
+"
+utf
+-
+8
+"
+)
 )
         
 key
@@ -2589,7 +2612,7 @@ self
 .
 data
 =
-str
+bytearray
 (
 )
         
@@ -2613,10 +2636,7 @@ self
 data
 +
 =
-bytearray
-(
 data
-)
         
 while
 True
@@ -4015,11 +4035,17 @@ REALM
 )
         
 if
-str
-(
 username
 .
 data
+.
+decode
+(
+"
+utf
+-
+8
+"
 )
 !
 =
@@ -4175,7 +4201,7 @@ transport
 .
 write
 (
-str
+bytes
 (
 data
 )
@@ -4335,6 +4361,11 @@ address
 )
 )
         
+keys_to_delete
+=
+[
+]
+        
 for
 key
 allocation
@@ -4376,17 +4407,30 @@ key
 )
 )
                 
-del
-allocations
-[
+keys_to_delete
+.
+append
+(
 key
-]
+)
                 
 allocation
 .
 close
 (
 )
+        
+for
+key
+in
+keys_to_delete
+:
+            
+del
+allocations
+[
+key
+]
     
 def
 write
@@ -4403,7 +4447,7 @@ transport
 .
 write
 (
-str
+bytes
 (
 data
 )
@@ -4555,6 +4599,11 @@ time
 (
 )
     
+keys_to_delete
+=
+[
+]
+    
 for
 key
 allocation
@@ -4590,17 +4639,30 @@ key
 )
 )
             
-del
-allocations
-[
+keys_to_delete
+.
+append
+(
 key
-]
+)
             
 allocation
 .
 close
 (
 )
+    
+for
+key
+in
+keys_to_delete
+:
+        
+del
+allocations
+[
+key
+]
 CERT_FILE
 =
 "
@@ -5060,7 +5122,6 @@ CERT_FILE
 r
 '
 )
-;
         
 lines
 =
@@ -5069,7 +5130,6 @@ f
 readlines
 (
 )
-;
         
 lines
 .
@@ -5077,14 +5137,12 @@ pop
 (
 0
 )
-;
         
 lines
 .
 pop
 (
 )
-;
         
 lines
 =
@@ -5095,7 +5153,6 @@ string
 strip
 lines
 )
-;
         
 certbase64
 =
@@ -5107,7 +5164,6 @@ lines
 '
 '
 )
-;
         
 turns_url
 =
