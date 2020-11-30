@@ -1,4 +1,4 @@
-53236
+53261
 0
 /
 nm
@@ -10998,6 +10998,9 @@ M
 Einstein
 /
 MS
+Einsteinian
+/
+M
 Eire
 /
 M
@@ -12106,6 +12109,9 @@ FSF
 M
 FSLIC
 FTC
+FTM
+/
+MS
 FUD
 /
 S
@@ -19155,6 +19161,9 @@ M
 Kaunda
 /
 M
+Kavanaugh
+/
+M
 Kawabata
 /
 M
@@ -20149,6 +20158,9 @@ LG
 M
 LGBT
 LIFO
+LISTSERV
+/
+M
 LL
 LLB
 /
@@ -22087,6 +22099,9 @@ MSW
 MT
 /
 M
+MTF
+/
+MS
 MTV
 /
 M
@@ -34910,6 +34925,9 @@ M
 Texas
 /
 M
+TextEdit
+/
+M
 Th
 /
 M
@@ -34971,6 +34989,7 @@ M
 Theda
 /
 M
+Theia
 Theiler
 /
 M
@@ -39186,7 +39205,7 @@ absolve
 DSG
 absorb
 /
-AGDS
+AGDSRZ
 absorbance
 /
 S
@@ -39916,7 +39935,7 @@ MS
 addenda
 addendum
 /
-M
+MS
 adder
 /
 M
@@ -41144,6 +41163,7 @@ algorithm
 /
 SM
 algorithmic
+algorithmically
 alias
 /
 GMDS
@@ -41215,6 +41235,11 @@ alkoxy
 alkyd
 /
 MS
+all
+-
+nighter
+/
+S
 all
 /
 M
@@ -41762,6 +41787,7 @@ amoebae
 amoebic
 amok
 among
+amongst
 amontillado
 /
 SM
@@ -41799,6 +41825,7 @@ amoxicillin
 amp
 /
 SMY
+amped
 amperage
 /
 M
@@ -42304,7 +42331,9 @@ Y
 annual
 /
 MYS
-annualized
+annualize
+/
+DG
 annuitant
 /
 SM
@@ -42927,7 +42956,7 @@ apparition
 SM
 appeal
 /
-GMDS
+GMDSB
 appealing
 /
 UY
@@ -43040,7 +43069,7 @@ apply
 ANXGDS
 appoint
 /
-AELSVGD
+AELSVGDRZ
 appointee
 /
 SM
@@ -43432,6 +43461,12 @@ t
 arena
 /
 MS
+areola
+/
+S
+areolae
+areolar
+areolate
 argent
 /
 M
@@ -43846,7 +43881,7 @@ aseptic
 aseptically
 asexual
 /
-Y
+YS
 asexuality
 /
 M
@@ -44585,7 +44620,9 @@ audiovisuals
 M
 audit
 /
-GMDS
+GMDSB
+auditability
+auditee
 audition
 /
 SMDG
@@ -44778,6 +44815,7 @@ M
 automaker
 /
 SM
+automata
 automate
 /
 GNDS
@@ -45505,6 +45543,8 @@ s
 balance
 /
 UDSG
+balanitis
+balanoposthitis
 balboa
 /
 SM
@@ -45589,6 +45629,7 @@ S
 ballistic
 /
 S
+ballistically
 ballistics
 /
 M
@@ -47893,6 +47934,8 @@ A
 birthstone
 /
 SM
+biscotti
+biscotto
 biscuit
 /
 SM
@@ -48073,7 +48116,7 @@ blackout
 SM
 blacksmith
 /
-M
+MG
 blacksmiths
 blacksnake
 /
@@ -50503,6 +50546,7 @@ bubo
 /
 M
 buboes
+bubonic
 buccaneer
 /
 SGMD
@@ -52070,6 +52114,9 @@ MS
 cantilever
 /
 MDGS
+cantina
+/
+S
 canto
 /
 MS
@@ -54249,7 +54296,7 @@ chevron
 MS
 chew
 /
-SZGMDR
+SZGMDRB
 chewer
 /
 M
@@ -55097,6 +55144,9 @@ cirri
 cirrus
 /
 M
+cisgender
+/
+D
 cistern
 /
 MS
@@ -56155,6 +56205,9 @@ s
 code
 /
 CZGDRS
+codebook
+/
+M
 codec
 /
 SM
@@ -56902,6 +56955,7 @@ commendation
 /
 AMS
 commendatory
+commensurability
 commensurable
 commensurate
 /
@@ -56918,6 +56972,9 @@ DSG
 commentator
 /
 SM
+commenter
+/
+MS
 commerce
 /
 M
@@ -57166,10 +57223,10 @@ compassion
 M
 compassionate
 /
-Y
+YU
 compatibility
 /
-IM
+IMS
 compatible
 /
 IMS
@@ -57336,6 +57393,7 @@ LSGD
 comportment
 /
 M
+composable
 compose
 /
 AECGSD
@@ -57806,7 +57864,7 @@ conferee
 SM
 conference
 /
-MGS
+MGSD
 conferrable
 conferral
 /
@@ -58915,6 +58973,7 @@ convoluted
 convolution
 /
 MS
+convolutional
 convoy
 /
 SMDG
@@ -59284,6 +59343,9 @@ coronary
 /
 SM
 coronation
+/
+SM
+coronavirus
 /
 SM
 coroner
@@ -59736,6 +59798,9 @@ SM
 counterintelligence
 /
 M
+counterintuitive
+/
+Y
 counterman
 /
 M
@@ -59935,6 +60000,9 @@ MS
 covalent
 covariance
 covariant
+covariate
+/
+S
 cove
 /
 MS
@@ -61053,6 +61121,9 @@ S
 crystal
 /
 SM
+crystalize
+/
+DSG
 crystalline
 crystallization
 /
@@ -62636,6 +62707,9 @@ decrypt
 /
 BSGD
 decryption
+dedendum
+/
+MS
 dedicate
 /
 AGDS
@@ -63932,6 +64006,9 @@ M
 deuce
 /
 SM
+deuteride
+/
+S
 deuterium
 /
 M
@@ -64792,7 +64869,7 @@ disablement
 M
 disambiguate
 /
-N
+NGDS
 disappointing
 /
 Y
@@ -66153,6 +66230,7 @@ M
 doublet
 /
 MS
+doubling
 doubloon
 /
 SM
@@ -69623,6 +69701,7 @@ SM
 epicurean
 /
 MS
+epicycle
 epidemic
 /
 SM
@@ -70194,6 +70273,9 @@ SM
 ethical
 /
 UY
+ethicist
+/
+MS
 ethics
 /
 M
@@ -70966,7 +71048,7 @@ exonerate
 GNDS
 exoneration
 /
-M
+MS
 exoplanet
 /
 MS
@@ -71208,6 +71290,7 @@ M
 exploration
 /
 MS
+explorative
 exploratory
 explore
 /
@@ -71268,6 +71351,7 @@ M
 exposure
 /
 MS
+expos
 expound
 /
 ZGDRS
@@ -73177,6 +73261,7 @@ F
 fine
 /
 CAFTGDS
+fineable
 finely
 fineness
 /
@@ -74485,6 +74570,9 @@ SGD
 fomentation
 /
 M
+fomite
+/
+S
 fond
 /
 RYTP
@@ -76773,7 +76861,7 @@ gasket
 SM
 gaslight
 /
-MS
+MSDG
 gasman
 gasmen
 gasohol
@@ -76843,6 +76931,9 @@ SM
 gatekeeper
 /
 MS
+gatekeeping
+/
+M
 gatepost
 /
 MS
@@ -77034,7 +77125,7 @@ gendarme
 MS
 gender
 /
-MDS
+MDSG
 gene
 /
 MS
@@ -78228,6 +78319,7 @@ goldsmith
 /
 M
 goldsmiths
+golem
 golf
 /
 MDRZGS
@@ -78420,6 +78512,10 @@ got
 gotcha
 /
 S
+gothic
+/
+P
+gothically
 goths
 gotta
 gotten
@@ -78875,6 +78971,7 @@ grayish
 grayness
 /
 M
+grayscale
 graze
 /
 DRSMZG
@@ -80373,6 +80470,7 @@ MS
 handstand
 /
 SM
+handwashing
 handwork
 /
 M
@@ -83625,6 +83723,7 @@ hydraulically
 hydraulics
 /
 M
+hydride
 hydro
 /
 M
@@ -85191,7 +85290,7 @@ incentive
 ES
 incentivize
 /
-DSG
+DSGE
 inception
 /
 SM
@@ -85594,6 +85693,9 @@ MS
 inductive
 /
 Y
+inductor
+/
+SM
 indue
 /
 DG
@@ -88152,6 +88254,9 @@ MDSG
 jitney
 /
 SM
+jitter
+/
+DG
 jitterbug
 /
 MS
@@ -88443,13 +88548,15 @@ SM
 judgemental
 judgeship
 /
-M
+MS
+judgey
 judgment
 /
 SM
 judgmental
 /
 Y
+judgy
 judicatory
 /
 SM
@@ -89681,6 +89788,9 @@ MS
 laird
 /
 SM
+laissez
+-
+faire
 laity
 /
 M
@@ -90050,7 +90160,7 @@ last
 MDYSG
 lasting
 /
-Y
+YU
 lat
 /
 S
@@ -90821,6 +90931,7 @@ SM
 lethal
 /
 Y
+lethality
 lethargic
 lethargically
 lethargy
@@ -91107,6 +91218,7 @@ MS
 lifebuoy
 /
 MS
+lifecycle
 lifeforms
 lifeguard
 /
@@ -91607,6 +91719,9 @@ listless
 /
 YP
 listlessness
+/
+M
+listserv
 /
 M
 lit
@@ -92838,6 +92953,9 @@ SMH
 mac
 /
 SGMD
+macOS
+/
+M
 macabre
 macadam
 /
@@ -95621,6 +95739,9 @@ MS
 microorganism
 /
 MS
+micropayment
+/
+S
 microphone
 /
 SM
@@ -95904,7 +96025,7 @@ M
 millennia
 millennial
 /
-M
+MS
 millennium
 /
 MS
@@ -95957,6 +96078,9 @@ SM
 millisecond
 /
 SM
+millisievert
+/
+S
 millpond
 /
 SM
@@ -96446,6 +96570,9 @@ misfitting
 misfortune
 /
 SM
+misgender
+/
+DGS
 misgiving
 /
 MS
@@ -96716,7 +96843,7 @@ misty
 PRT
 mistype
 /
-GS
+GSD
 misunderstand
 /
 SGJ
@@ -96733,6 +96860,7 @@ MZRS
 miter
 /
 MDG
+mitigable
 mitigate
 /
 XDSGN
@@ -97665,7 +97793,7 @@ mosque
 MS
 mosquito
 /
-M
+MS
 mosquitoes
 moss
 /
@@ -99903,6 +100031,9 @@ nitric
 nitrification
 /
 M
+nitrile
+/
+S
 nitrite
 /
 SM
@@ -99920,6 +100051,7 @@ M
 nitroglycerine
 /
 M
+nitty
 nitty
 -
 gritty
@@ -100089,6 +100221,7 @@ MS
 nonbelligerent
 /
 MS
+nonbinary
 nonbinding
 nonbreakable
 nonburnable
@@ -100882,6 +101015,7 @@ numbered
 /
 U
 numberless
+numbingly
 numbness
 /
 M
@@ -102149,6 +102283,7 @@ SMYNX
 opposition
 /
 M
+oppositional
 oppress
 /
 DSGV
@@ -102917,7 +103052,7 @@ outsider
 M
 outsize
 /
-MS
+MSD
 outskirt
 /
 MS
@@ -103267,6 +103402,8 @@ overheat
 /
 DSG
 overhung
+overinclusion
+overinclusive
 overindulge
 /
 GDS
@@ -104323,6 +104460,7 @@ DSMG
 parachutist
 /
 MS
+paracord
 parade
 /
 MZGDRS
@@ -105591,6 +105729,7 @@ CDSG
 pendant
 /
 MS
+pendency
 pendent
 /
 MS
@@ -106063,6 +106202,7 @@ GNDS
 permeation
 /
 M
+permissibility
 permissible
 permissibly
 permission
@@ -106667,6 +106807,9 @@ SM
 philter
 /
 MS
+phimosis
+/
+S
 phish
 /
 ZGDR
@@ -106760,6 +106903,9 @@ phony
 PTGDRSM
 phooey
 phosphate
+/
+MS
+phosphine
 /
 MS
 phosphodiesterase
@@ -109138,6 +109284,8 @@ postgraduate
 /
 SM
 posthaste
+posthitides
+posthitis
 posthumous
 /
 Y
@@ -109185,6 +109333,8 @@ postmortem
 SM
 postnasal
 postnatal
+/
+Y
 postoperative
 postpaid
 postpartum
@@ -109511,6 +109661,12 @@ pre
 fill
 /
 GDS
+pre
+-
+programmed
+pre
+-
+programming
 preach
 /
 DRSZGL
@@ -109996,6 +110152,11 @@ prepping
 preppy
 /
 TRSM
+preprocess
+/
+DGS
+preprogrammed
+preprogramming
 prepubescence
 /
 M
@@ -110810,6 +110971,7 @@ program
 CAS
 programed
 programing
+programmability
 programmable
 /
 MS
@@ -111134,7 +111296,7 @@ propulsive
 propyl
 prorate
 /
-DSG
+DSGN
 prorogation
 /
 M
@@ -111160,7 +111322,7 @@ prose
 M
 prosecute
 /
-DSXGN
+DSXGNB
 prosecution
 /
 M
@@ -111212,6 +111374,8 @@ prosthesis
 /
 M
 prosthetic
+/
+S
 prostitute
 /
 MGNDS
@@ -113196,6 +113360,7 @@ S
 ramekin
 /
 SM
+ramen
 ramie
 /
 M
@@ -113908,6 +114073,9 @@ receptivity
 /
 M
 receptor
+/
+SM
+recertification
 /
 SM
 recess
@@ -114962,6 +115130,7 @@ M
 renew
 /
 DSBG
+renewables
 renewal
 /
 MS
@@ -115234,6 +115403,9 @@ M
 repurchase
 /
 GDS
+repurpose
+/
+DGS
 reputability
 /
 M
@@ -115481,6 +115653,9 @@ SGD
 respondent
 /
 SM
+responder
+/
+MS
 response
 /
 MS
@@ -119268,6 +119443,7 @@ TR
 scythe
 /
 DSMG
+se
 sea
 /
 SM
@@ -120434,6 +120610,7 @@ SMH
 sever
 /
 ETGDS
+severability
 several
 /
 MY
@@ -120704,6 +120881,9 @@ M
 shapely
 /
 PTR
+shapeshift
+/
+GRZD
 shard
 /
 MS
@@ -120961,7 +121141,7 @@ shield
 MDGS
 shift
 /
-GMDS
+GMDSRZ
 shiftily
 shiftiness
 /
@@ -121490,6 +121670,9 @@ shrivel
 /
 SGD
 shriven
+shroom
+/
+S
 shroud
 /
 GMDS
@@ -121894,7 +122077,7 @@ silly
 TRSMP
 silo
 /
-MS
+MSD
 silt
 /
 GMDS
@@ -122039,6 +122222,9 @@ M
 singing
 /
 M
+single
+-
+handedly
 single
 /
 PMGDS
@@ -122289,6 +122475,10 @@ S
 sketchy
 /
 RTP
+skeuomorph
+skeuomorphic
+skeuomorphism
+skeuomorphs
 skew
 /
 MDRZGS
@@ -123122,6 +123312,9 @@ SMDRZG
 smelter
 /
 M
+smidge
+/
+MS
 smidgen
 /
 MS
@@ -123972,6 +124165,7 @@ solution
 s
 /
 AE
+solvability
 solvable
 /
 IU
@@ -124717,6 +124911,9 @@ specter
 AMS
 spectra
 spectral
+spectrogram
+/
+MS
 spectrometer
 /
 MS
@@ -125138,6 +125335,9 @@ splintery
 split
 /
 SM
+splitter
+/
+MS
 splitting
 /
 MS
@@ -127455,6 +127655,10 @@ stylistically
 stylize
 /
 DSG
+stylometric
+stylometry
+/
+S
 stylus
 /
 MS
@@ -127678,6 +127882,7 @@ subornation
 M
 subpar
 subparagraph
+subparagraphs
 subpart
 subplot
 /
@@ -127685,6 +127890,7 @@ MS
 subpoena
 /
 GMDS
+subpoenable
 subprime
 subprofessional
 /
@@ -127851,7 +128057,7 @@ subtotal
 SGMD
 subtract
 /
-GSD
+GSDV
 subtraction
 /
 SM
@@ -128187,7 +128393,7 @@ summery
 summing
 summit
 /
-MS
+MSD
 summitry
 /
 M
@@ -128801,9 +129007,17 @@ MDSG
 surtitle
 /
 S
+surveil
+/
+S
 surveillance
 /
-M
+MS
+surveillant
+/
+MS
+surveilled
+surveilling
 survey
 '
 s
@@ -131262,6 +131476,7 @@ thematically
 theme
 /
 DSMG
+themself
 themselves
 then
 /
@@ -131710,6 +131925,7 @@ throb
 /
 SM
 throbbed
+throbber
 throbbing
 throe
 /
@@ -133164,10 +133380,13 @@ FCKMS
 trad
 trade
 /
-JDRSMZG
+JDRSMZGB
 trademark
 /
 SGMD
+tradeoff
+/
+S
 trader
 /
 M
@@ -133347,6 +133566,7 @@ DGS
 transaction
 /
 SM
+transactional
 transactor
 /
 MS
@@ -133397,6 +133617,7 @@ MS
 transfect
 /
 SGD
+transfeminine
 transfer
 /
 MBS
@@ -133518,6 +133739,7 @@ M
 translucent
 /
 Y
+transmasculine
 transmigrate
 /
 GNDS
@@ -134608,7 +134830,7 @@ tundra
 SM
 tune
 /
-MS
+MSB
 tuneful
 /
 YP
@@ -135132,6 +135354,7 @@ M
 udder
 /
 SM
+udon
 ufologist
 /
 SM
@@ -135360,6 +135583,7 @@ M
 unconstitutional
 /
 Y
+uncontradicted
 uncontrollably
 uncontroversial
 uncool
@@ -135508,6 +135732,7 @@ PY
 underhandedness
 /
 M
+underinclusive
 underinflated
 underlain
 underlay
@@ -135731,6 +135956,7 @@ unessential
 uneven
 /
 Y
+unexamined
 unexceptionably
 unexcited
 unexciting
@@ -137148,7 +137374,7 @@ verandahs
 verapamil
 verb
 /
-KMS
+KMSDG
 verbal
 /
 MYS
@@ -137193,6 +137419,7 @@ FDSG
 verger
 /
 MS
+verifiability
 verifiable
 /
 U
@@ -137202,6 +137429,9 @@ M
 verified
 /
 U
+verifier
+/
+SM
 verify
 /
 DSNG
@@ -139152,6 +139382,9 @@ MS
 weblog
 /
 MS
+webmail
+/
+MS
 webmaster
 /
 SM
@@ -139675,6 +139908,9 @@ M
 whistle
 /
 MZGDRS
+whistleblower
+/
+MSG
 whistler
 /
 M
@@ -140110,8 +140346,8 @@ windiness
 /
 M
 winding
-'
-s
+/
+MS
 windjammer
 /
 SM
