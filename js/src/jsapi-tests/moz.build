@@ -639,11 +639,6 @@ UNIFIED_SOURCES
 =
 [
 '
-testJitABIcalls
-.
-cpp
-'
-'
 testJitDCEinGVN
 .
 cpp
