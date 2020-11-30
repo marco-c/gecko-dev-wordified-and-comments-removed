@@ -441,6 +441,15 @@ Resources
 .
 TYPES
 .
+LOCAL_STORAGE
+]
+:
+hasBrowserElement
+[
+Resources
+.
+TYPES
+.
 PLATFORM_MESSAGE
 ]
 :
