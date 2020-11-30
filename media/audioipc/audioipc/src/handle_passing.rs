@@ -31,12 +31,12 @@ futures
 :
 :
 {
+task
 AsyncSink
 Poll
 Sink
 StartSend
 Stream
-task
 }
 ;
 use
