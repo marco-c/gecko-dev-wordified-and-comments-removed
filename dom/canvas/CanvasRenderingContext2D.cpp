@@ -22843,13 +22843,6 @@ aSh
 0
 )
 {
-aError
-.
-Throw
-(
-NS_ERROR_DOM_INDEX_SIZE_ERR
-)
-;
 return
 ;
 }
