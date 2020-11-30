@@ -74,6 +74,16 @@ ServiceWorkerContainer
 h
 '
 '
+ServiceWorkerContainerChild
+.
+h
+'
+'
+ServiceWorkerContainerParent
+.
+h
+'
+'
 ServiceWorkerDescriptor
 .
 h

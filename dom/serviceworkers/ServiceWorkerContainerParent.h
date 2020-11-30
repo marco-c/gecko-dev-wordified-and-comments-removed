@@ -40,6 +40,11 @@ ServiceWorkerContainerProxy
 >
 mProxy
 ;
+~
+ServiceWorkerContainerParent
+(
+)
+;
 void
 ActorDestroy
 (
@@ -158,11 +163,12 @@ override
 ;
 public
 :
-ServiceWorkerContainerParent
+NS_INLINE_DECL_REFCOUNTING
 (
+ServiceWorkerContainerParent
+override
 )
 ;
-~
 ServiceWorkerContainerParent
 (
 )
