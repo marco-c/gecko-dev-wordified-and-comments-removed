@@ -13686,6 +13686,11 @@ AccumulateJSTelemetry
 (
 )
 ;
+void
+AccumulatePageLoadTelemetry
+(
+)
+;
 public
 :
 JS
