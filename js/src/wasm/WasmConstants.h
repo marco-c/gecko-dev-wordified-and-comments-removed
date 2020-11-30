@@ -1514,10 +1514,10 @@ F32x4ConvertSI32x4
 F32x4ConvertUI32x4
 =
 0xfb
-V128Load32ZeroExperimental
+V128Load32Zero
 =
 0xfc
-V128Load64ZeroExperimental
+V128Load64Zero
 =
 0xfd
 Limit

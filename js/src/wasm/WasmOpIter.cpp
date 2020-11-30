@@ -2860,13 +2860,13 @@ case
 SimdOp
 :
 :
-V128Load32ZeroExperimental
+V128Load32Zero
 :
 case
 SimdOp
 :
 :
-V128Load64ZeroExperimental
+V128Load64Zero
 :
 WASM_SIMD_OP
 (
