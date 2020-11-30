@@ -510,7 +510,7 @@ clear
 }
 clearElement
 (
-elem
+webEl
 )
 {
 return
@@ -525,13 +525,15 @@ clearElement
 "
 {
 elem
+:
+webEl
 }
 )
 ;
 }
 clickElement
 (
-elem
+webEl
 capabilities
 )
 {
@@ -547,6 +549,8 @@ clickElement
 "
 {
 elem
+:
+webEl
 capabilities
 }
 )
@@ -667,7 +671,7 @@ getCurrentUrl
 async
 getElementAttribute
 (
-elem
+webEl
 name
 )
 {
@@ -683,6 +687,8 @@ getElementAttribute
 "
 {
 elem
+:
+webEl
 name
 }
 )
@@ -691,7 +697,7 @@ name
 async
 getElementProperty
 (
-elem
+webEl
 name
 )
 {
@@ -707,6 +713,8 @@ getElementProperty
 "
 {
 elem
+:
+webEl
 name
 }
 )
@@ -715,7 +723,7 @@ name
 async
 getElementRect
 (
-elem
+webEl
 )
 {
 return
@@ -730,6 +738,8 @@ getElementRect
 "
 {
 elem
+:
+webEl
 }
 )
 ;
@@ -737,7 +747,7 @@ elem
 async
 getElementTagName
 (
-elem
+webEl
 )
 {
 return
@@ -752,6 +762,8 @@ getElementTagName
 "
 {
 elem
+:
+webEl
 }
 )
 ;
@@ -759,7 +771,7 @@ elem
 async
 getElementText
 (
-elem
+webEl
 )
 {
 return
@@ -774,6 +786,8 @@ getElementText
 "
 {
 elem
+:
+webEl
 }
 )
 ;
@@ -781,7 +795,7 @@ elem
 async
 getElementValueOfCssProperty
 (
-elem
+webEl
 name
 )
 {
@@ -797,6 +811,8 @@ getElementValueOfCssProperty
 "
 {
 elem
+:
+webEl
 name
 }
 )
@@ -823,7 +839,7 @@ getPageSource
 async
 isElementDisplayed
 (
-elem
+webEl
 capabilities
 )
 {
@@ -840,6 +856,8 @@ isElementDisplayed
 {
 capabilities
 elem
+:
+webEl
 }
 )
 ;
@@ -847,7 +865,7 @@ elem
 async
 isElementEnabled
 (
-elem
+webEl
 capabilities
 )
 {
@@ -864,6 +882,8 @@ isElementEnabled
 {
 capabilities
 elem
+:
+webEl
 }
 )
 ;
@@ -871,7 +891,7 @@ elem
 async
 isElementSelected
 (
-elem
+webEl
 capabilities
 )
 {
@@ -888,6 +908,8 @@ isElementSelected
 {
 capabilities
 elem
+:
+webEl
 }
 )
 ;
@@ -895,7 +917,7 @@ elem
 async
 sendKeysToElement
 (
-elem
+webEl
 text
 capabilities
 )
@@ -913,6 +935,8 @@ sendKeysToElement
 {
 capabilities
 elem
+:
+webEl
 text
 }
 )
@@ -963,7 +987,7 @@ releaseActions
 async
 singleTap
 (
-elem
+webEl
 x
 y
 capabilities
@@ -982,6 +1006,8 @@ singleTap
 {
 capabilities
 elem
+:
+webEl
 x
 y
 }
@@ -1065,7 +1091,7 @@ browsingContextId
 async
 takeScreenshot
 (
-elem
+webEl
 format
 full
 scroll
@@ -1086,6 +1112,8 @@ getScreenshotRect
 "
 {
 elem
+:
+webEl
 full
 scroll
 }
@@ -1094,7 +1122,7 @@ scroll
 const
 browsingContext
 =
-elem
+webEl
 ?
 this
 .
