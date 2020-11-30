@@ -254,7 +254,7 @@ aError
 override
 ;
 void
-Abort
+RunAbortAlgorithm
 (
 )
 override

@@ -222,7 +222,7 @@ nullptr
 ;
 }
 void
-Abort
+RunAbortAlgorithm
 (
 )
 override

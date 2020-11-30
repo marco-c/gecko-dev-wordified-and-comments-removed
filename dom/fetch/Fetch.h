@@ -601,7 +601,7 @@ const
 0
 ;
 void
-Abort
+RunAbortAlgorithm
 (
 )
 override

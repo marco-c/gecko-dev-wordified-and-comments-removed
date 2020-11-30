@@ -258,7 +258,7 @@ mSignal
 mSignal
 -
 >
-Abort
+SignalAbort
 (
 )
 ;

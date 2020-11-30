@@ -539,21 +539,10 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 AbortSignalMainThread
 )
-tmp
--
->
-Unfollow
-(
-)
-;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
 AbortSignalMainThread
-)
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
-mFollowingSignal
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -664,7 +653,7 @@ GetOrCreateSignalImplForMainThread
 signalImpl
 -
 >
-Abort
+SignalAbort
 (
 )
 ;
@@ -717,7 +706,7 @@ aSignalImpl
 ;
 }
 void
-Abort
+RunAbortAlgorithm
 (
 )
 override
@@ -7303,7 +7292,7 @@ Derived
 >
 :
 :
-Abort
+RunAbortAlgorithm
 (
 )
 {
@@ -7376,7 +7365,7 @@ Request
 >
 :
 :
-Abort
+RunAbortAlgorithm
 (
 )
 ;
@@ -7388,7 +7377,7 @@ Response
 >
 :
 :
-Abort
+RunAbortAlgorithm
 (
 )
 ;
