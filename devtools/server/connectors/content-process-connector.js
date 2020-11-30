@@ -189,11 +189,6 @@ bind
 (
 connection
 )
-onClosed
-(
-)
-{
-}
 }
 ;
 childTransport

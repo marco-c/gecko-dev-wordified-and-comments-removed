@@ -468,14 +468,6 @@ send
 (
 packet
 )
-onClosed
-:
-(
-)
-=
->
-{
-}
 }
 ;
 gMainConnection

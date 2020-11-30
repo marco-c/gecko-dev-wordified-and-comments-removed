@@ -368,6 +368,15 @@ function
 (
 )
 {
+if
+(
+this
+.
+hooks
+.
+onClosed
+)
+{
 this
 .
 hooks
@@ -376,6 +385,7 @@ onClosed
 (
 )
 ;
+}
 }
 expectSend
 :

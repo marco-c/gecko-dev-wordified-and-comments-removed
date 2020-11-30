@@ -99,14 +99,6 @@ packet
 ;
 }
 }
-onClosed
-:
-(
-)
-=
->
-{
-}
 }
 ;
 transport

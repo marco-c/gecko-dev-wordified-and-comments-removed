@@ -107,6 +107,15 @@ _removeListener
 (
 )
 ;
+if
+(
+this
+.
+hooks
+.
+onClosed
+)
+{
 this
 .
 hooks
@@ -115,6 +124,7 @@ onClosed
 (
 )
 ;
+}
 }
 _onPacketReceived
 (
