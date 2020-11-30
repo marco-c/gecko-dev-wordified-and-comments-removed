@@ -7621,14 +7621,6 @@ makeExpectedRemoteSuggestionResults
 (
 context
 )
-.
-.
-.
-makeExpectedFormHistoryResults
-(
-context
-2
-)
 ]
 }
 )

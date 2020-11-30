@@ -1647,6 +1647,9 @@ continue
 }
 while
 (
+maxInitialFormHistory
+&
+&
 results
 .
 length
