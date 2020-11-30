@@ -86,6 +86,10 @@ file
 /
 dom
 /
+filehandle
+/
+dom
+/
 indexedDB
 /
 dom
