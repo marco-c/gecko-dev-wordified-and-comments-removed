@@ -72,7 +72,7 @@ targetList
 }
 =
 await
-initResourceWatcherAndTarget
+initMultiProcessResourceWatcher
 (
 )
 ;
@@ -454,7 +454,7 @@ targetList
 }
 =
 await
-initResourceWatcherAndTarget
+initMultiProcessResourceWatcher
 (
 )
 ;

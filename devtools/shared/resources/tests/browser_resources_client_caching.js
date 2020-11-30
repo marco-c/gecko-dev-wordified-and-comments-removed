@@ -81,7 +81,7 @@ targetList
 }
 =
 await
-initResourceWatcherAndTarget
+initResourceWatcher
 (
 tab
 )
@@ -281,7 +281,7 @@ targetList
 }
 =
 await
-initResourceWatcherAndTarget
+initResourceWatcher
 (
 tab
 )
@@ -565,7 +565,7 @@ targetList
 }
 =
 await
-initResourceWatcherAndTarget
+initResourceWatcher
 (
 tab
 )
@@ -782,7 +782,7 @@ targetList
 }
 =
 await
-initResourceWatcherAndTarget
+initResourceWatcher
 (
 tab
 )
@@ -1128,7 +1128,7 @@ targetList
 }
 =
 await
-initResourceWatcherAndTarget
+initResourceWatcher
 (
 tab
 )
@@ -1484,7 +1484,7 @@ targetList
 }
 =
 await
-initResourceWatcherAndTarget
+initResourceWatcher
 (
 tab
 )
