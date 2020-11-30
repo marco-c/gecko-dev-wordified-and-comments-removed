@@ -163,11 +163,14 @@ runSubtestsSeriallyInFreshWindows
 subtests
 )
 .
-finally
+then
 (
 SimpleTest
 .
 finish
+SimpleTest
+.
+finishWithFailure
 )
 ;
 }
