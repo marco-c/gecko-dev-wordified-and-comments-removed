@@ -83,7 +83,7 @@ IterationResult
 OneIteration
 (
 GraphTime
-aStateEnd
+aStateTime
 GraphTime
 aIterationEnd
 AudioMixer
@@ -138,7 +138,7 @@ class
 IterationState
 {
 GraphTime
-mStateEnd
+mStateTime
 ;
 GraphTime
 mIterationEnd
@@ -153,7 +153,7 @@ public
 IterationState
 (
 GraphTime
-aStateEnd
+aStateTime
 GraphTime
 aIterationEnd
 AudioMixer
@@ -161,9 +161,9 @@ AudioMixer
 aMixer
 )
 :
-mStateEnd
+mStateTime
 (
-aStateEnd
+aStateTime
 )
 mIterationEnd
 (
@@ -189,13 +189,13 @@ aOther
 default
 ;
 GraphTime
-StateEnd
+StateTime
 (
 )
 const
 {
 return
-mStateEnd
+mStateTime
 ;
 }
 GraphTime

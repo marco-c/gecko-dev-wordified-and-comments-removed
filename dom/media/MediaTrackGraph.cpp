@@ -6754,7 +6754,7 @@ MediaTrackGraphImpl
 OneIteration
 (
 GraphTime
-aStateEnd
+aStateTime
 GraphTime
 aIterationEnd
 AudioMixer
@@ -6776,7 +6776,7 @@ mGraphRunner
 >
 OneIteration
 (
-aStateEnd
+aStateTime
 aIterationEnd
 aMixer
 )
@@ -6785,7 +6785,7 @@ aMixer
 return
 OneIterationImpl
 (
-aStateEnd
+aStateTime
 aIterationEnd
 aMixer
 )
@@ -6798,7 +6798,7 @@ MediaTrackGraphImpl
 OneIterationImpl
 (
 GraphTime
-aStateEnd
+aStateTime
 GraphTime
 aIterationEnd
 AudioMixer
@@ -6878,14 +6878,14 @@ nullptr
 ;
 }
 GraphTime
-stateEnd
+stateTime
 =
 std
 :
 :
 min
 (
-aStateEnd
+aStateTime
 GraphTime
 (
 mEndTime
@@ -6894,12 +6894,12 @@ mEndTime
 ;
 UpdateGraph
 (
-stateEnd
+stateTime
 )
 ;
 mStateComputedTime
 =
-stateEnd
+stateTime
 ;
 GraphTime
 oldProcessedTime
@@ -6916,7 +6916,7 @@ MOZ_ASSERT
 mProcessedTime
 =
 =
-stateEnd
+stateTime
 )
 ;
 UpdateCurrentTimeForTracks
