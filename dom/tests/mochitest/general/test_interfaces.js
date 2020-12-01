@@ -4779,6 +4779,9 @@ name
 "
 Sanitizer
 "
+disabled
+:
+true
 }
 {
 name
