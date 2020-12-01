@@ -2442,6 +2442,16 @@ of
 permissions
 )
 {
+if
+(
+clearRequested
+[
+permission
+.
+id
+]
+)
+{
 let
 windowId
 =
@@ -2657,6 +2667,7 @@ id
 browser
 )
 ;
+}
 }
 }
 let
