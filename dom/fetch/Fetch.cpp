@@ -766,7 +766,9 @@ AbortSignalProxyRunnable
 this
 )
 ;
-mMainThreadEventTarget
+MainThreadEventTarget
+(
+)
 -
 >
 Dispatch
@@ -830,6 +832,16 @@ return
 Signal
 (
 )
+;
+}
+nsIEventTarget
+*
+MainThreadEventTarget
+(
+)
+{
+return
+mMainThreadEventTarget
 ;
 }
 void
