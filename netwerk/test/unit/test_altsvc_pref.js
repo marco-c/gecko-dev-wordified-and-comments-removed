@@ -519,10 +519,6 @@ h3
 )
 ;
 }
-run_next_test
-(
-)
-;
 do_test_finished
 (
 )
