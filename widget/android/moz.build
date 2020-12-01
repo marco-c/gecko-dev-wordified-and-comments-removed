@@ -226,9 +226,6 @@ SessionTextInput
 SpeechSynthesisService
 "
 "
-StackScroller
-"
-"
 SurfaceAllocator
 "
 "
