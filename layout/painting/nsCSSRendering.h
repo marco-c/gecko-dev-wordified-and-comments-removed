@@ -1093,6 +1093,7 @@ static
 bool
 IsCanvasFrame
 (
+const
 nsIFrame
 *
 aFrame
@@ -1102,6 +1103,7 @@ static
 bool
 FindBackground
 (
+const
 nsIFrame
 *
 aForFrame
@@ -1118,6 +1120,7 @@ static
 bool
 FindBackgroundFrame
 (
+const
 nsIFrame
 *
 aForFrame
@@ -1145,6 +1148,7 @@ nsIFrame
 *
 FindCanvasBackgroundFrame
 (
+const
 nsIFrame
 *
 aForFrame
@@ -1180,7 +1184,14 @@ aRootElementFrame
 ;
 }
 return
+const_cast
+<
+nsIFrame
+*
+>
+(
 aForFrame
+)
 ;
 }
 static

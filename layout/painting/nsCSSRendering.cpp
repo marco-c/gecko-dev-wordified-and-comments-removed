@@ -6138,6 +6138,7 @@ nsCSSRendering
 :
 IsCanvasFrame
 (
+const
 nsIFrame
 *
 aFrame
@@ -6345,6 +6346,7 @@ inline
 bool
 FindElementBackground
 (
+const
 nsIFrame
 *
 aForFrame
@@ -6502,6 +6504,7 @@ nsCSSRendering
 :
 FindBackgroundFrame
 (
+const
 nsIFrame
 *
 aForFrame
@@ -6556,7 +6559,14 @@ true
 *
 aBackgroundFrame
 =
+const_cast
+<
+nsIFrame
+*
+>
+(
 aForFrame
+)
 ;
 return
 FindElementBackground
@@ -6572,6 +6582,7 @@ nsCSSRendering
 :
 FindBackground
 (
+const
 nsIFrame
 *
 aForFrame
