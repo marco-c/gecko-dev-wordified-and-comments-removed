@@ -571,9 +571,9 @@ mTexture
 ;
 RefPtr
 <
-ID3D11Texture2D
+DataSourceSurface
 >
-mStagingTexture
+mSurface
 ;
 gfx
 :
