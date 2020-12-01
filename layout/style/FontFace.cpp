@@ -1547,6 +1547,13 @@ NS_IsMainThread
 )
 )
 ;
+mFontFaceSet
+-
+>
+FlushUserFontSet
+(
+)
+;
 EnsurePromise
 (
 )
