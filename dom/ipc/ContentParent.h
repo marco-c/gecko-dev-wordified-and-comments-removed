@@ -6668,6 +6668,12 @@ mIsAPreallocBlocker
 nsCString
 mRemoteType
 ;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mRemoteTypeIsolationPrincipal
+;
 ContentParentId
 mChildID
 ;
