@@ -252,15 +252,6 @@ MacOSX10
 11
 .
 sdk
-CROSS_PRIVATE_FRAMEWORKS
-=
-CROSS_SYSROOT
-/
-System
-/
-Library
-/
-PrivateFrameworks
 export
 CC
 =
@@ -417,10 +408,6 @@ export
 MACOS_SDK_DIR
 =
 CROSS_SYSROOT
-export
-MACOS_PRIVATE_FRAMEWORKS_DIR
-=
-CROSS_PRIVATE_FRAMEWORKS
 if
 [
 "
