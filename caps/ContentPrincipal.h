@@ -145,7 +145,7 @@ aAddonId
 override
 ;
 NS_IMETHOD
-GetSiteOriginNoSuffix
+GetSiteOrigin
 (
 nsACString
 &

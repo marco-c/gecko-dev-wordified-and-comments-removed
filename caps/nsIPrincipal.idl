@@ -651,11 +651,6 @@ siteOrigin
 readonly
 attribute
 ACString
-siteOriginNoSuffix
-;
-readonly
-attribute
-ACString
 baseDomain
 ;
 readonly

@@ -745,16 +745,7 @@ GetSiteOrigin
 (
 nsACString
 &
-aSiteOrigin
-)
-final
-;
-NS_IMETHOD
-GetSiteOriginNoSuffix
-(
-nsACString
-&
-aSiteOrigin
+aOrigin
 )
 override
 ;
