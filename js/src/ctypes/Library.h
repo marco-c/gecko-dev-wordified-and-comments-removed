@@ -22,9 +22,13 @@ TypeDecls
 .
 h
 "
+namespace
+JS
+{
 struct
-JSCTypesCallbacks
+CTypesCallbacks
 ;
+}
 struct
 PRLibrary
 ;
@@ -76,7 +80,10 @@ JS
 HandleValue
 path
 const
-JSCTypesCallbacks
+JS
+:
+:
+CTypesCallbacks
 *
 callbacks
 )

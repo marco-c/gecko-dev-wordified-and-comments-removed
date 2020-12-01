@@ -22680,10 +22680,10 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 ;
+}
 #
 ifdef
 JS_HAS_CTYPES
-}
 else
 {
 info
@@ -22692,7 +22692,7 @@ info
 objectsMallocHeapMisc
 +
 =
-js
+ctypes
 :
 :
 SizeOfDataIfCDataObject
@@ -22708,9 +22708,9 @@ this
 )
 )
 ;
+}
 #
 endif
-}
 }
 size_t
 JSObject

@@ -192,7 +192,10 @@ result
 ;
 }
 static
-JSCTypesCallbacks
+JS
+:
+:
+CTypesCallbacks
 sCallbacks
 =
 {
@@ -398,7 +401,10 @@ global
 if
 (
 !
-JS_InitCTypesClass
+JS
+:
+:
+InitCTypesClass
 (
 cx
 global
@@ -439,7 +445,10 @@ ctypes
 return
 false
 ;
-JS_SetCTypesCallbacks
+JS
+:
+:
+SetCTypesCallbacks
 (
 ctypes
 .

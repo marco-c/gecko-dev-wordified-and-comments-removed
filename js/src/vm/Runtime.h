@@ -1634,7 +1634,7 @@ js
 :
 MainThreadData
 <
-js
+JS
 :
 :
 CTypesActivityCallback

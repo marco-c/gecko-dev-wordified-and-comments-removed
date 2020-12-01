@@ -1775,7 +1775,10 @@ obj
 )
 ;
 const
-JSCTypesCallbacks
+JS
+:
+:
+CTypesCallbacks
 *
 GetCallbacks
 (
@@ -2150,7 +2153,10 @@ slot
 )
 ;
 const
-JSCTypesCallbacks
+JS
+:
+:
+CTypesCallbacks
 *
 GetCallbacksFromType
 (
