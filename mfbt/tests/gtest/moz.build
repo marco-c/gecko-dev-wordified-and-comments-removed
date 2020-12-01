@@ -22,11 +22,6 @@ TestSpan
 .
 cpp
 "
-"
-TestTainting
-.
-cpp
-"
 ]
 SOURCES
 +

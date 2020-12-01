@@ -159,6 +159,9 @@ TestSplayTree
 TestSPSCQueue
 "
 "
+TestTainting
+"
+"
 TestTemplateLib
 "
 "
