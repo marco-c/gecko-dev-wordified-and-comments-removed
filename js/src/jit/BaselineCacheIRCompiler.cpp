@@ -12089,13 +12089,6 @@ return
 false
 ;
 }
-allowDoubleResult_
-.
-emplace
-(
-true
-)
-;
 size_t
 numInputs
 =

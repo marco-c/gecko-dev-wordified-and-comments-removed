@@ -1221,8 +1221,6 @@ TypedOrValueRegister
 output
 Register
 maybeTemp
-GetPropertyResultFlags
-flags
 )
 ;
 void
@@ -1247,12 +1245,6 @@ ConstantOrRegister
 value
 bool
 strict
-bool
-needsPostBarrier
-bool
-needsTypeBarrier
-bool
-guardHoles
 )
 ;
 MOZ_MUST_USE

@@ -231,12 +231,6 @@ uint32_t
 numNewSlotsOffset
 )
 ;
-bool
-needsPostBarrier
-(
-)
-const
-;
 void
 pushStubCodePointer
 (

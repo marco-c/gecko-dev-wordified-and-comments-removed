@@ -2753,15 +2753,6 @@ outputUnchecked_
 Mode
 mode_
 ;
-mozilla
-:
-:
-Maybe
-<
-bool
->
-allowDoubleResult_
-;
 uint32_t
 stubDataOffset_
 ;

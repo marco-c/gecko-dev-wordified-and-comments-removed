@@ -6897,11 +6897,6 @@ Uninlineable
 )
 MUTABLE_FLAG_GETTER_SETTER
 (
-invalidatedIdempotentCache
-InvalidatedIdempotentCache
-)
-MUTABLE_FLAG_GETTER_SETTER
-(
 failedLexicalCheck
 FailedLexicalCheck
 )
