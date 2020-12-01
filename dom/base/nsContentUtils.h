@@ -471,9 +471,6 @@ class
 nsView
 ;
 class
-nsViewportInfo
-;
-class
 nsWrapperCache
 ;
 class

@@ -181,6 +181,17 @@ mozilla
 /
 dom
 /
+Location
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 NavigatorBinding
 .
 h
@@ -550,9 +561,6 @@ InstallTriggerImpl
 ;
 class
 IntlUtils
-;
-class
-Location
 ;
 class
 MediaQueryList

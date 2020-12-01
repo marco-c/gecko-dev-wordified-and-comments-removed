@@ -1,3 +1,10 @@
+#
+ifndef
+dom_base_nsPIDOMWindowInlines_h___
+#
+define
+dom_base_nsPIDOMWindowInlines_h___
+inline
 bool
 nsPIDOMWindowOuter
 :
@@ -46,6 +53,7 @@ IsLoading
 )
 ;
 }
+inline
 bool
 nsPIDOMWindowInner
 :
@@ -85,6 +93,7 @@ return
 mIsDocumentLoaded
 ;
 }
+inline
 bool
 nsPIDOMWindowOuter
 :
@@ -133,6 +142,7 @@ IsHandlingResizeEvent
 )
 ;
 }
+inline
 bool
 nsPIDOMWindowInner
 :
@@ -171,6 +181,7 @@ return
 mIsHandlingResizeEvent
 ;
 }
+inline
 bool
 nsPIDOMWindowInner
 :
@@ -185,6 +196,7 @@ IsCurrentInnerWindow
 )
 ;
 }
+inline
 bool
 nsPIDOMWindowInner
 :
@@ -201,6 +213,7 @@ mTopInnerWindow
 this
 ;
 }
+inline
 nsIDocShell
 *
 nsPIDOMWindowOuter
@@ -215,6 +228,7 @@ return
 mDocShell
 ;
 }
+inline
 nsIDocShell
 *
 nsPIDOMWindowInner
@@ -238,6 +252,7 @@ GetDocShell
 nullptr
 ;
 }
+inline
 mozilla
 :
 :
@@ -258,6 +273,7 @@ return
 mBrowsingContext
 ;
 }
+inline
 mozilla
 :
 :
@@ -278,6 +294,7 @@ return
 mBrowsingContext
 ;
 }
+inline
 mozilla
 :
 :
@@ -307,6 +324,7 @@ GetFocusedElement
 nullptr
 ;
 }
+inline
 mozilla
 :
 :
@@ -327,3 +345,5 @@ return
 mFocusedElement
 ;
 }
+#
+endif
