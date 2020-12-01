@@ -715,7 +715,7 @@ f
 {
 }
 "
-hex_with_len
+hex
 (
 &
 self

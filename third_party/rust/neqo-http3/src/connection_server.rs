@@ -27,7 +27,10 @@ crate
 recv_message
 :
 :
+{
+MessageType
 RecvMessage
+}
 ;
 use
 crate
@@ -830,6 +833,10 @@ RecvMessage
 :
 new
 (
+MessageType
+:
+:
+Request
 stream_id
 .
 as_u64

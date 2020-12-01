@@ -1750,7 +1750,7 @@ must_use
 ]
 pub
 fn
-is_empty
+packet_empty
 (
 &
 self

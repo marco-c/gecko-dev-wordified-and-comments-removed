@@ -4643,10 +4643,6 @@ check_request_header
 (
 &
 headers
-.
-unwrap
-(
-)
 )
 ;
 assert_eq
@@ -4896,10 +4892,6 @@ check_request_header
 (
 &
 headers
-.
-unwrap
-(
-)
 )
 ;
 assert_eq
@@ -5301,10 +5293,6 @@ check_request_header
 (
 &
 headers
-.
-unwrap
-(
-)
 )
 ;
 assert_eq

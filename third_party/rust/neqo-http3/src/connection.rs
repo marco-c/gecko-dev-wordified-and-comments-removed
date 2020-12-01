@@ -75,7 +75,10 @@ use
 crate
 :
 :
+{
 RecvStream
+ResetType
+}
 ;
 use
 neqo_common
@@ -2123,7 +2126,7 @@ stream_id
 {
 s
 .
-stream_reset_recv
+stream_reset
 (
 app_error
 &
@@ -2131,6 +2134,10 @@ mut
 self
 .
 qpack_decoder
+ResetType
+:
+:
+Remote
 )
 ;
 Ok
@@ -3240,11 +3247,16 @@ s
 .
 stream_reset
 (
+error
 &
 mut
 self
 .
 qpack_decoder
+ResetType
+:
+:
+App
 )
 ;
 found

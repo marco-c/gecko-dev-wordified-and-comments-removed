@@ -446,12 +446,9 @@ request
 ClientRequestStream
 headers
 :
-Option
-<
 Vec
 <
 Header
->
 >
 fin
 :
@@ -634,12 +631,9 @@ request
 ClientRequestStream
 headers
 :
-Option
-<
 Vec
 <
 Header
->
 >
 fin
 :
