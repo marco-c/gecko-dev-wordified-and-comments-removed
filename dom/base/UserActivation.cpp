@@ -133,9 +133,6 @@ CanTreatAsUserInput
 )
 ;
 case
-eFormChange
-:
-case
 eMouseClick
 :
 case
