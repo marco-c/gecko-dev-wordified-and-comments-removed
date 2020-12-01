@@ -1177,6 +1177,8 @@ nscoord
 inside
 =
 0
+;
+nscoord
 outside
 =
 ComputedLogicalBorderPadding
@@ -1190,6 +1192,7 @@ wm
 +
 ComputedLogicalMargin
 (
+wm
 )
 .
 IStartEnd
@@ -7535,6 +7538,7 @@ wm
 )
 ComputedLogicalMargin
 (
+wm
 )
 .
 Size
@@ -7668,12 +7672,7 @@ margin
 =
 ComputedLogicalMargin
 (
-)
-.
-ConvertTo
-(
 cbwm
-wm
 )
 ;
 const
@@ -11185,6 +11184,7 @@ AvailableISize
 )
 ComputedLogicalMargin
 (
+wm
 )
 .
 Size
@@ -12298,12 +12298,7 @@ margin
 =
 ComputedLogicalMargin
 (
-)
-.
-ConvertTo
-(
 cbWM
-mWritingMode
 )
 ;
 LogicalMargin
@@ -13475,6 +13470,7 @@ m
 =
 ComputedLogicalMargin
 (
+mWritingMode
 )
 ;
 m

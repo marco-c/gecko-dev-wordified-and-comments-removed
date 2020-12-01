@@ -27740,6 +27740,7 @@ childRI
 .
 ComputedLogicalMargin
 (
+childWM
 )
 .
 BStartEnd

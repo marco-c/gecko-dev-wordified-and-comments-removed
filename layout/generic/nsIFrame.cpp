@@ -51687,6 +51687,7 @@ reflowInput
 .
 ComputedLogicalMargin
 (
+wm
 )
 .
 Size

@@ -4709,12 +4709,7 @@ reflowInput
 .
 ComputedLogicalMargin
 (
-)
-.
-ConvertTo
-(
 lineWM
-stateWM
 )
 ;
 pfd

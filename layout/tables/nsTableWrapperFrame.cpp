@@ -1181,6 +1181,7 @@ aOuterRI
 .
 ComputedLogicalMargin
 (
+wm
 )
 .
 Size
@@ -1329,6 +1330,11 @@ childRI
 .
 ComputedLogicalMargin
 (
+childRI
+.
+GetWritingMode
+(
+)
 )
 ;
 }
@@ -1769,17 +1775,12 @@ offsets
 .
 ComputedLogicalMargin
 (
+aWM
 )
 .
 Size
 (
-childWM
-)
-.
-ConvertTo
-(
 aWM
-childWM
 )
 ;
 LogicalSize
@@ -1950,6 +1951,7 @@ offsets
 .
 ComputedLogicalMargin
 (
+aWM
 )
 .
 IStartEnd
@@ -4810,12 +4812,7 @@ captionRI
 >
 ComputedLogicalMargin
 (
-)
-.
-ConvertTo
-(
 wm
-captionWM
 )
 ;
 LogicalSize
@@ -5100,6 +5097,7 @@ innerRI
 >
 ComputedLogicalMargin
 (
+wm
 )
 ;
 LogicalSize
