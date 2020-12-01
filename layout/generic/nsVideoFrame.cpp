@@ -3574,8 +3574,7 @@ AspectRatio
 :
 FromSize
 (
-REPLACED_ELEM_FALLBACK_PX_WIDTH
-REPLACED_ELEM_FALLBACK_PX_HEIGHT
+kFallbackIntrinsicSizeInPixels
 )
 ;
 }
@@ -3832,11 +3831,7 @@ CSSPixel
 :
 ToAppUnits
 (
-CSSIntSize
-(
-REPLACED_ELEM_FALLBACK_PX_WIDTH
-REPLACED_ELEM_FALLBACK_PX_HEIGHT
-)
+kFallbackIntrinsicSizeInPixels
 )
 ;
 }

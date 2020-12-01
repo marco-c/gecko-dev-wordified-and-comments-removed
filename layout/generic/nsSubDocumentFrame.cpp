@@ -2949,14 +2949,7 @@ CSSPixel
 :
 ToAppUnits
 (
-REPLACED_ELEM_FALLBACK_PX_WIDTH
-)
-CSSPixel
-:
-:
-ToAppUnits
-(
-REPLACED_ELEM_FALLBACK_PX_HEIGHT
+kFallbackIntrinsicSizeInPixels
 )
 )
 ;

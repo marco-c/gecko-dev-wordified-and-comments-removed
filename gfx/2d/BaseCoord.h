@@ -62,6 +62,7 @@ aValue
 )
 {
 }
+constexpr
 operator
 T
 (
