@@ -34,7 +34,7 @@ BaseCapturerPipeWire
 CaptureSourceType
 :
 :
-kScreen
+Screen
 )
 {
 }
