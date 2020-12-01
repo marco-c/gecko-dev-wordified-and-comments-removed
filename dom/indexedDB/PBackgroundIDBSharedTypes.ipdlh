@@ -302,9 +302,11 @@ mozilla
 SerializedStructuredCloneBuffer
 from
 "
+mozilla
+/
 ipc
 /
-IPCMessageUtils
+SerializedStructuredCloneBuffer
 .
 h
 "
