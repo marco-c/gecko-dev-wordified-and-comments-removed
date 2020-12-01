@@ -243,11 +243,11 @@ constructor
 ;
 attribute
 EventHandler
-onerror
+onreading
 ;
 attribute
 EventHandler
-onreading
+onreadingerror
 ;
 Promise
 <
