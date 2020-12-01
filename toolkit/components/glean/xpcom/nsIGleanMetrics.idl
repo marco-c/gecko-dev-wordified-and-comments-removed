@@ -36,7 +36,7 @@ optional
 ]
 in
 PRTime
-value
+aValue
 )
 ;
 [
@@ -72,9 +72,6 @@ nsIGleanCounter
 :
 nsISupports
 {
-[
-implicit_jscontext
-]
 void
 add
 (
@@ -113,9 +110,6 @@ nsIGleanString
 :
 nsISupports
 {
-[
-implicit_jscontext
-]
 void
 set
 (
@@ -157,17 +151,11 @@ nsIGleanTimespan
 :
 nsISupports
 {
-[
-implicit_jscontext
-]
 void
 start
 (
 )
 ;
-[
-implicit_jscontext
-]
 void
 stop
 (
@@ -203,9 +191,6 @@ nsIGleanUuid
 :
 nsISupports
 {
-[
-implicit_jscontext
-]
 void
 set
 (
@@ -214,9 +199,6 @@ ACString
 aValue
 )
 ;
-[
-implicit_jscontext
-]
 void
 generateAndSet
 (

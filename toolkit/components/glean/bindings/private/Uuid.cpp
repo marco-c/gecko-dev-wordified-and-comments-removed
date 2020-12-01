@@ -34,8 +34,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 glean
 {
 NS_IMPL_CLASSINFO
@@ -61,10 +61,7 @@ Set
 const
 nsACString
 &
-value
-JSContext
-*
-cx
+aValue
 )
 {
 this
@@ -74,7 +71,7 @@ mUuid
 .
 Set
 (
-value
+aValue
 )
 ;
 return
@@ -87,9 +84,6 @@ GleanUuid
 :
 GenerateAndSet
 (
-JSContext
-*
-cx
 )
 {
 this
@@ -117,7 +111,7 @@ nsACString
 aStorageName
 JSContext
 *
-cx
+aCx
 JS
 :
 :
@@ -191,7 +185,7 @@ StringValue
 (
 JS_NewUCStringCopyN
 (
-cx
+aCx
 str
 .
 Data
@@ -210,6 +204,5 @@ Length
 return
 NS_OK
 ;
-}
 }
 }

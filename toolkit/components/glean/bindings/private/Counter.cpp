@@ -34,8 +34,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 glean
 {
 NS_IMPL_CLASSINFO
@@ -59,10 +59,7 @@ GleanCounter
 Add
 (
 uint32_t
-amount
-JSContext
-*
-cx
+aAmount
 )
 {
 this
@@ -72,7 +69,7 @@ mCounter
 .
 Add
 (
-amount
+aAmount
 )
 ;
 return
@@ -161,6 +158,5 @@ value
 return
 NS_OK
 ;
-}
 }
 }
