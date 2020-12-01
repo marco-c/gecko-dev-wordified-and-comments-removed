@@ -195,6 +195,11 @@ RecordLookAndFeelSpecificTelemetry
 )
 override
 ;
+bool
+ShouldHonorThemeScrollbarColors
+(
+)
+;
 nsString
 mDefaultFontName
 ;
