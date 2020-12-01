@@ -187,16 +187,6 @@ mLayoutManager
 ;
 }
 virtual
-nsresult
-XULRelayoutChildAtOrdinal
-(
-nsIFrame
-*
-aChild
-)
-override
-;
-virtual
 nsSize
 GetXULPrefSize
 (

@@ -10095,15 +10095,6 @@ nsBoxLayoutState
 aState
 )
 ;
-virtual
-nsresult
-XULRelayoutChildAtOrdinal
-(
-nsIFrame
-*
-aChild
-)
-;
 static
 bool
 AddXULPrefSize
