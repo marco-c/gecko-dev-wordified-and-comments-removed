@@ -654,6 +654,9 @@ SyntaxError
 :
 illegal
 character
+U
++
+1F32F
 :
 \
 n
