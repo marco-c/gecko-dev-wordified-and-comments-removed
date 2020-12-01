@@ -58,7 +58,7 @@ partial
 interface
 Element
 {
-void
+undefined
 requestPointerLock
 (
 )
@@ -77,7 +77,7 @@ attribute
 EventHandler
 onpointerlockerror
 ;
-void
+undefined
 exitPointerLock
 (
 )
