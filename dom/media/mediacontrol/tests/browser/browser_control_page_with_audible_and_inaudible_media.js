@@ -20,6 +20,8 @@ mediacontrol
 /
 tests
 /
+browser
+/
 file_audio_and_inaudible_media
 .
 html

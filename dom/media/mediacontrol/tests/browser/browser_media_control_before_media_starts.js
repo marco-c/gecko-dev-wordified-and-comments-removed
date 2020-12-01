@@ -52,6 +52,8 @@ mediacontrol
 /
 tests
 /
+browser
+/
 file_non_autoplay
 .
 html
@@ -78,6 +80,8 @@ media
 mediacontrol
 /
 tests
+/
+browser
 /
 file_iframe_media
 .

@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 Services
 .
 scriptloader
@@ -56,6 +51,8 @@ media
 mediacontrol
 /
 tests
+/
+browser
 /
 file_non_autoplay
 .

@@ -402,8 +402,10 @@ mediacontrol
 tests
 /
 browser
+/
+browser
 .
-ini
+inii
 "
 "
 mediasession

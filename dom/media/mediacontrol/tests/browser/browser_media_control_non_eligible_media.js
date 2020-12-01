@@ -20,6 +20,8 @@ mediacontrol
 /
 tests
 /
+browser
+/
 file_non_eligible_media
 .
 html

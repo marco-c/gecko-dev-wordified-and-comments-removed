@@ -52,6 +52,8 @@ mediacontrol
 /
 tests
 /
+browser
+/
 file_no_src_media
 .
 html
@@ -78,6 +80,8 @@ media
 mediacontrol
 /
 tests
+/
+browser
 /
 file_error_media
 .
