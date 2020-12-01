@@ -3474,6 +3474,12 @@ APPEND_RANGE
 0x94b9
 )
 ;
+APPEND_RANGE
+(
+0x9540
+0x955f
+)
+;
 #
 endif
 break
