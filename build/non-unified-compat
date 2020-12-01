@@ -340,6 +340,12 @@ webspeech
 /
 dom
 /
+media
+/
+webvtt
+/
+dom
+/
 quota
 /
 dom
