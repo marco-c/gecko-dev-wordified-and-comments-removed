@@ -255,6 +255,12 @@ nsIObjectLoadingContent
 :
 :
 PLUGIN_CLICK_TO_PLAY_QUIET
+eFallbackBlockAllPlugins
+=
+nsIObjectLoadingContent
+:
+:
+PLUGIN_BLOCK_ALL
 }
 ;
 nsObjectLoadingContent
