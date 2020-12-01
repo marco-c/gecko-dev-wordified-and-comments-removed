@@ -370,6 +370,15 @@ type
 ]
 ;
 return
+typeof
+time
+!
+=
+"
+undefined
+"
+&
+&
 time
 !
 =
