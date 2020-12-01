@@ -2187,6 +2187,10 @@ MaybeDiscardedBrowsingContext
 aBc
 )
 ;
+prio
+(
+input
+)
 async
 ReleaseAllPointerCapture
 (
