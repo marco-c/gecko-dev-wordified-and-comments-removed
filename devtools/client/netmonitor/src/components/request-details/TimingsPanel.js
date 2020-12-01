@@ -352,6 +352,7 @@ if
 (
 !
 serverTimings
+?
 .
 length
 )
