@@ -349,6 +349,7 @@ aRI
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 BStart

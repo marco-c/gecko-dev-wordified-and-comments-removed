@@ -1937,6 +1937,7 @@ aReflowInput
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 IStartEnd
@@ -1948,6 +1949,7 @@ kidReflowInput
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 IStartEnd
@@ -4001,6 +4003,17 @@ GetLogicalRect
 containerSize
 )
 ;
+const
+auto
+borderPadding
+=
+aReflowInput
+.
+ComputedLogicalBorderPadding
+(
+wm
+)
+;
 buttonRect
 .
 IStart
@@ -4008,11 +4021,7 @@ IStart
 wm
 )
 =
-aReflowInput
-.
-ComputedLogicalBorderPadding
-(
-)
+borderPadding
 .
 IStartEnd
 (
@@ -4022,11 +4031,7 @@ wm
 mDisplayISize
 -
 (
-aReflowInput
-.
-ComputedLogicalBorderPadding
-(
-)
+borderPadding
 .
 IEnd
 (
@@ -5753,6 +5758,7 @@ state
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 ;
 if

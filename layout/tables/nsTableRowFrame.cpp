@@ -285,6 +285,7 @@ mWritingMode
 -
 ComputedLogicalBorderPadding
 (
+mWritingMode
 )
 .
 IStartEnd
@@ -342,6 +343,7 @@ mWritingMode
 -
 ComputedLogicalBorderPadding
 (
+mWritingMode
 )
 .
 BStartEnd

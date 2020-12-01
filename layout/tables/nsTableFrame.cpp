@@ -9023,6 +9023,7 @@ aReflowInput
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 IStartEnd
@@ -9684,6 +9685,7 @@ aReflowInput
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 IStartEnd

@@ -418,11 +418,22 @@ mWritingMode
 LogicalMargin
 ComputedLogicalBorderPadding
 (
+mozilla
+:
+:
+WritingMode
+aWM
 )
 const
 {
 return
 mComputedBorderPadding
+.
+ConvertTo
+(
+aWM
+mWritingMode
+)
 ;
 }
 LogicalMargin
@@ -1589,6 +1600,7 @@ ComputedISize
 +
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 IStartEnd
@@ -1601,6 +1613,7 @@ ComputedBSize
 +
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 BStartEnd
@@ -1680,6 +1693,7 @@ wm
 +
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 IStartEnd
@@ -1702,6 +1716,7 @@ wm
 +
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 BStartEnd

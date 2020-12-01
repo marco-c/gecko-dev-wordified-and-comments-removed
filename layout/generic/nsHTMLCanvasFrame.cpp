@@ -2266,6 +2266,7 @@ aReflowInput
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 ;
 finalSize

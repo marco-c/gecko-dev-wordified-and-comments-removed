@@ -574,6 +574,7 @@ aReflowInput
 .
 ComputedLogicalBorderPadding
 (
+frameWM
 )
 ;
 nsLayoutUtils

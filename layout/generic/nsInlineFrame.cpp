@@ -2131,6 +2131,7 @@ aReflowInput
 .
 ComputedLogicalBorderPadding
 (
+frameWM
 )
 ;
 nscoord

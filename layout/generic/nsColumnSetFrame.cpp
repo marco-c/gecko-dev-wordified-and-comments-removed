@@ -5193,6 +5193,11 @@ aReflowInput
 .
 ComputedLogicalBorderPadding
 (
+aReflowInput
+.
+GetWritingMode
+(
+)
 )
 .
 IsAllZero
