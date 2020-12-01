@@ -17,6 +17,13 @@ h
 #
 include
 "
+MediaSystemResourceClient
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
