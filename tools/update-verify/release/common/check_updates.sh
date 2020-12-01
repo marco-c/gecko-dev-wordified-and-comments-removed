@@ -204,6 +204,10 @@ u
 i386
 -
 x86_64
+|
+Darwin_aarch64
+-
+gcc3
 )
 platform_dirname
 =

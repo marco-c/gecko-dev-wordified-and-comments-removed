@@ -177,6 +177,12 @@ x86_64
 "
         
 "
+Darwin_aarch64
+-
+gcc3
+"
+        
+"
 Darwin_x86
 -
 gcc3
