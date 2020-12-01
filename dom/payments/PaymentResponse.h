@@ -50,6 +50,9 @@ PaymentAddress
 class
 PaymentRequest
 ;
+struct
+PaymentValidationErrors
+;
 class
 Promise
 ;

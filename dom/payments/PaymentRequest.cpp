@@ -34,6 +34,17 @@ mozilla
 /
 dom
 /
+PaymentMethodChangeEvent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PaymentRequest
 .
 h
