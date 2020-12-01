@@ -164,7 +164,7 @@ return
 nsWindow
 :
 :
-IsMainWindowTransparent
+IsToplevelWindowTransparent
 (
 )
 ;
