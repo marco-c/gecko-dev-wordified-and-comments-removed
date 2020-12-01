@@ -2730,7 +2730,7 @@ GetRemoteType
 )
 |
 |
-IsPriviligedMozillaRemoteType
+IsPrivilegedMozillaRemoteType
 (
 cc
 -
