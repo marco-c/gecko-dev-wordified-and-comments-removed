@@ -790,6 +790,15 @@ ChildFrameMerger
 aMergeFunc
 =
 DefaultChildFrameMerge
+Maybe
+<
+nsSize
+>
+aContainerSize
+=
+Nothing
+(
+)
 )
 ;
 virtual

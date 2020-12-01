@@ -6624,6 +6624,11 @@ nsReflowStatus
 aStatus
 ChildFrameMerger
 aMergeFunc
+Maybe
+<
+nsSize
+>
+aContainerSize
 )
 {
 MOZ_ASSERT
@@ -6882,6 +6887,10 @@ GetWritingMode
 nsSize
 containerSize
 =
+aContainerSize
+.
+valueOr
+(
 aReflowInput
 .
 AvailableSize
@@ -6892,6 +6901,7 @@ wm
 GetPhysicalSize
 (
 wm
+)
 )
 ;
 LogicalRect
