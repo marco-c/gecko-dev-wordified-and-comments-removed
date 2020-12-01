@@ -6210,17 +6210,7 @@ aReflowInput
 >
 ComputedLogicalOffsets
 (
-)
-.
-ConvertTo
-(
 aWM
-aReflowInput
--
->
-GetWritingMode
-(
-)
 )
 ;
 ReflowInput
