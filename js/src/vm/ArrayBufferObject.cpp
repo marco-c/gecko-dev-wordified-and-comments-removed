@@ -662,6 +662,17 @@ return
 liveBufferCount
 ;
 }
+bool
+js
+:
+:
+ArrayBufferObject
+:
+:
+supportLargeBuffers
+=
+false
+;
 static
 MOZ_MUST_USE
 bool
