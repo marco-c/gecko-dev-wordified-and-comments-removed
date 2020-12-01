@@ -190,11 +190,10 @@ static
 uint32_t
 sNumCores
 ;
-RefPtr
-<
-DecodePoolImpl
->
-mImpl
+bool
+mShuttingDown
+=
+false
 ;
 Mutex
 mMutex
