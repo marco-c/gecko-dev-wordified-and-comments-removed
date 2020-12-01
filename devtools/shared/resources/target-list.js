@@ -409,6 +409,16 @@ this
 .
 listenForWorkers
 =
+this
+.
+rootFront
+.
+traits
+.
+workerConsoleApiMessagesDispatchedToMainThread
+=
+=
+=
 false
 ;
 this

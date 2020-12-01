@@ -4772,6 +4772,14 @@ function
 (
 )
 {
+if
+(
+isWorker
+)
+{
+return
+;
+}
 const
 windowId
 =
