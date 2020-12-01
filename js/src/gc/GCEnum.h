@@ -499,11 +499,6 @@ JitScript
 \
 _
 (
-ObjectGroupAddendum
-)
-\
-_
-(
 ScriptDebugScript
 )
 \

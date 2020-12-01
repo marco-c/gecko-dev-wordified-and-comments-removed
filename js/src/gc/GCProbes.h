@@ -172,16 +172,6 @@ MajorGCEnd
 )
 {
 }
-inline
-void
-TypeNewScript
-(
-ObjectGroup
-*
-group
-)
-{
-}
 }
 }
 }

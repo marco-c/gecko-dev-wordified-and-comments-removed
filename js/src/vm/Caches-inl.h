@@ -278,17 +278,6 @@ return
 nullptr
 ;
 }
-MOZ_ASSERT
-(
-!
-group
--
->
-hasUnanalyzedPreliminaryObjects
-(
-)
-)
-;
 {
 AutoSweepObjectGroup
 sweepGroup
