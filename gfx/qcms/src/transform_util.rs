@@ -1702,8 +1702,7 @@ build_colorant_matrix
 mut
 p
 :
-*
-mut
+&
 qcms_profile
 )
 -

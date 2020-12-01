@@ -245,8 +245,12 @@ transform
 =
 qcms_transform_create
 (
+&
+*
 src_profile
 src_type
+&
+*
 dst_profile
 dst_type
 intent
