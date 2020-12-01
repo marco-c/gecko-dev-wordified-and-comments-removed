@@ -90,6 +90,11 @@ App
 js
 "
 "
+AppErrorBoundary
+.
+js
+"
+"
 CustomRequestPanel
 .
 js
