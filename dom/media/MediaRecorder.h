@@ -494,6 +494,12 @@ RefPtr
 <
 DOMException
 >
+mInvalidModificationDomException
+;
+RefPtr
+<
+DOMException
+>
 mSecurityDomException
 ;
 RefPtr
