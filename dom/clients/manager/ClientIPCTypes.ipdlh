@@ -83,6 +83,15 @@ ClientIPCUtils
 h
 "
 ;
+include
+"
+ipc
+/
+ErrorIPCUtils
+.
+h
+"
+;
 using
 class
 mozilla
@@ -171,9 +180,9 @@ mozilla
 CopyableErrorResult
 from
 "
-ipc
+mozilla
 /
-ErrorIPCUtils
+ErrorResult
 .
 h
 "

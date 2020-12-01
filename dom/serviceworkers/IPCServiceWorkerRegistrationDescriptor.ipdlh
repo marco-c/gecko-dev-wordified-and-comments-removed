@@ -62,6 +62,15 @@ PBackgroundSharedTypes
 include
 IPCServiceWorkerDescriptor
 ;
+include
+"
+ipc
+/
+ErrorIPCUtils
+.
+h
+"
+;
 using
 ServiceWorkerUpdateViaCache
 from
@@ -82,9 +91,9 @@ mozilla
 CopyableErrorResult
 from
 "
-ipc
+mozilla
 /
-ErrorIPCUtils
+ErrorResult
 .
 h
 "

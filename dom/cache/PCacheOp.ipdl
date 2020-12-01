@@ -83,6 +83,15 @@ PParentToChildStream
 include
 CacheTypes
 ;
+include
+"
+ipc
+/
+ErrorIPCUtils
+.
+h
+"
+;
 using
 moveonly
 mozilla
@@ -91,9 +100,9 @@ mozilla
 ErrorResult
 from
 "
-ipc
+mozilla
 /
-ErrorIPCUtils
+ErrorResult
 .
 h
 "
