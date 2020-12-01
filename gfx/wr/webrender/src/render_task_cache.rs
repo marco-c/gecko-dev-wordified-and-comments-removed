@@ -658,15 +658,6 @@ location
 RenderTaskLocation
 :
 :
-Fixed
-(
-.
-.
-)
-|
-RenderTaskLocation
-:
-:
 PictureCache
 {
 .
