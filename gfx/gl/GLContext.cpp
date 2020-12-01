@@ -112,6 +112,13 @@ h
 #
 include
 "
+GLLibraryLoader
+.
+h
+"
+#
+include
+"
 GLTextureImage
 .
 h
