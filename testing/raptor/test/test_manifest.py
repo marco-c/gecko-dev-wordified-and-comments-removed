@@ -2401,8 +2401,6 @@ refbrow
 test
 =
 "
-raptor
--
 speedometer
 "
                        
@@ -2443,11 +2441,7 @@ name
 =
 =
 '
-raptor
--
 speedometer
--
-refbrow
 '
 def
 test_get_raptor_test_list_fenix
@@ -2469,8 +2463,6 @@ fenix
 test
 =
 "
-raptor
--
 speedometer
 "
                        
@@ -2497,6 +2489,22 @@ test_list
 =
 =
 1
+    
+assert
+test_list
+[
+0
+]
+[
+'
+name
+'
+]
+=
+=
+'
+speedometer
+'
 def
 test_add_test_url_params_with_single_extra_param
 (
