@@ -659,6 +659,9 @@ aNoHttp3
 out
 boolean
 aAllRecordsHaveEchConfig
+out
+boolean
+aAllRecordsInH3ExcludedList
 )
 ;
 }

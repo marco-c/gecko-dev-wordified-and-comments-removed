@@ -1992,6 +1992,9 @@ aNoHttp3
 bool
 *
 aAllRecordsHaveEchConfig
+bool
+*
+aAllRecordsInH3ExcludedList
 nsTArray
 <
 RefPtr
@@ -2012,6 +2015,7 @@ GetAllRecordsWithEchConfig
 aNoHttp2
 aNoHttp3
 aAllRecordsHaveEchConfig
+aAllRecordsInH3ExcludedList
 aResult
 )
 ;

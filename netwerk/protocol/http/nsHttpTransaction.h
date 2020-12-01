@@ -1603,6 +1603,11 @@ mFastFallbackTriggered
 =
 false
 ;
+bool
+mAllRecordsInH3ExcludedListBefore
+=
+false
+;
 nsCOMPtr
 <
 nsITimer

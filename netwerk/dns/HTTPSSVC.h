@@ -626,6 +626,10 @@ aRecords
 bool
 &
 aRecordsAllExcluded
+bool
+aCheckHttp3ExcludedList
+=
+true
 )
 ;
 bool
@@ -657,6 +661,9 @@ aRecords
 bool
 *
 aAllRecordsHaveEchConfig
+bool
+*
+aAllRecordsInH3ExcludedList
 nsTArray
 <
 RefPtr
@@ -666,6 +673,10 @@ nsISVCBRecord
 >
 &
 aResult
+bool
+aCheckHttp3ExcludedList
+=
+true
 )
 ;
 nsCString
