@@ -94,10 +94,6 @@ nsContainerFrame
 public
 nsMathMLFrame
 {
-friend
-class
-nsMathMLmfencedFrame
-;
 public
 :
 nsMathMLContainerFrame
