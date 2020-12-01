@@ -87,6 +87,8 @@ slots
 dbus
 -
 daemon
+-
+mpris
 plugs
 :
 -
