@@ -553,15 +553,6 @@ BytecodeRange
 cx
 script
 )
-initialLine
-(
-script
--
->
-lineno
-(
-)
-)
 lineno
 (
 script
@@ -573,12 +564,7 @@ lineno
 )
 column
 (
-script
--
->
-column
-(
-)
+0
 )
 sn
 (
@@ -966,7 +952,6 @@ SetLine
 getLine
 (
 sn
-initialLine
 )
 ;
 column
@@ -1061,9 +1046,6 @@ frontPC
 )
 ;
 }
-size_t
-initialLine
-;
 size_t
 lineno
 ;

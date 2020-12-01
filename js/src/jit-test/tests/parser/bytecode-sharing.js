@@ -130,7 +130,7 @@ hasSameBytecodeData
 b
 b02
 )
-true
+false
 )
 assertEq
 (
@@ -591,7 +591,7 @@ hasSameBytecodeData
 i01
 i02
 )
-true
+false
 )
 assertEq
 (
@@ -600,7 +600,7 @@ hasSameBytecodeData
 i01
 i03
 )
-true
+false
 )
 evaluate
 (
@@ -646,7 +646,7 @@ hasSameBytecodeData
 j01
 j02
 )
-true
+false
 )
 assertEq
 (
@@ -655,7 +655,7 @@ hasSameBytecodeData
 j01
 j03
 )
-true
+false
 )
 evaluate
 (
