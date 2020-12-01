@@ -40,6 +40,9 @@ m
 Bug
 1234567
 -
+[
+devtools
+]
 Implement
 feature
 XYZ
@@ -71,6 +74,9 @@ bugzilla
 .
 -
 -
+[
+devtools
+]
 Implement
 feature
 XYZ
@@ -79,6 +85,17 @@ XYZ
 The
 commit
 message
+with
+a
+"
+devtools
+"
+prefix
+to
+quickly
+identify
+DevTools
+changesets
 .
 -
 r
