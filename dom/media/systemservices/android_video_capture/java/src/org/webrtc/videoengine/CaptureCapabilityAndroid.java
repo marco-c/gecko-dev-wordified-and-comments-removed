@@ -50,6 +50,10 @@ boolean
 frontFacing
 ;
 public
+boolean
+infrared
+;
+public
 int
 orientation
 ;

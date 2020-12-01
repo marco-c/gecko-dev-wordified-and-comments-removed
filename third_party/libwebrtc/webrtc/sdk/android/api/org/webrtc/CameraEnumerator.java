@@ -48,6 +48,14 @@ deviceName
 )
 ;
 public
+boolean
+isInfrared
+(
+String
+deviceName
+)
+;
+public
 List
 <
 CaptureFormat
