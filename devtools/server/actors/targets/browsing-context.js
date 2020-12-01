@@ -2853,7 +2853,7 @@ this
 .
 threadActor
 .
-exit
+destroy
 (
 )
 ;
