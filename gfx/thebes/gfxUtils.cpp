@@ -2107,7 +2107,6 @@ CurrentMatrix
 .
 ScaleFactors
 (
-true
 )
 ;
 Matrix

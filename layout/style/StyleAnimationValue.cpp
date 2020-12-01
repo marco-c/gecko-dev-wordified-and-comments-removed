@@ -810,7 +810,6 @@ transform2d
 .
 ScaleFactors
 (
-true
 )
 ;
 }

@@ -1425,7 +1425,6 @@ mFrameSpaceInCSSPxToFilterSpaceTransform
 .
 ScaleFactors
 (
-true
 )
 ;
 radiusInFilterSpace
@@ -1562,7 +1561,6 @@ mFrameSpaceInCSSPxToFilterSpaceTransform
 .
 ScaleFactors
 (
-true
 )
 ;
 offsetInFilterSpace

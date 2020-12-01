@@ -391,7 +391,6 @@ CurrentMatrixDouble
 .
 ScaleFactors
 (
-true
 )
 ;
 if
@@ -2924,7 +2923,6 @@ mPaintTransform
 .
 ScaleFactors
 (
-true
 )
 ;
 if

@@ -11181,7 +11181,6 @@ transform2D
 .
 ScaleFactors
 (
-true
 )
 ;
 }
@@ -11379,7 +11378,6 @@ transform2D
 .
 ScaleFactors
 (
-true
 )
 ;
 }
@@ -31091,7 +31089,6 @@ currentMatrix
 .
 ScaleFactors
 (
-true
 )
 ;
 if
@@ -31508,7 +31505,6 @@ currentMatrix
 .
 ScaleFactors
 (
-true
 )
 :
 devPixelDest
@@ -46768,7 +46764,6 @@ transform2D
 .
 ScaleFactors
 (
-true
 )
 ;
 if
@@ -49452,7 +49447,6 @@ As2D
 .
 ScaleFactors
 (
-true
 )
 ;
 ScreenSize
