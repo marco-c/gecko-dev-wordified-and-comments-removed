@@ -3980,6 +3980,16 @@ this
 notifySHistoryChanges
 (
 oldIndex
+=
+=
+-
+1
+?
+oldIndex
+:
+oldIndex
+-
+1
 )
 ;
 }
