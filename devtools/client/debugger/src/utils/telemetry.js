@@ -16,7 +16,7 @@ telemetry
 ;
 import
 {
-isFirefoxPanel
+isNode
 }
 from
 "
@@ -119,15 +119,9 @@ fields
 ;
 if
 (
-!
-isFirefoxPanel
+isNode
 (
 )
-&
-&
-window
-.
-dbg
 )
 {
 const

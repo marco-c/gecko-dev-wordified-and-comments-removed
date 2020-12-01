@@ -18,7 +18,7 @@ prefs
 ;
 import
 {
-isDevelopment
+isNode
 }
 from
 "
@@ -50,7 +50,7 @@ Services
 ;
 if
 (
-isDevelopment
+isNode
 (
 )
 )

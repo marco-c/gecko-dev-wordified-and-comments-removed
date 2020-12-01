@@ -1,6 +1,6 @@
 import
 {
-isDevelopment
+isNodeTest
 }
 from
 "
@@ -26,7 +26,7 @@ void
 {
 if
 (
-isDevelopment
+isNodeTest
 (
 )
 &

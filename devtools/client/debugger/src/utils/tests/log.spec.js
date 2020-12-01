@@ -107,7 +107,10 @@ describe
 (
 "
 when
-isDevelopment
+logging
+pref
+is
+true
 "
 (
 )

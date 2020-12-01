@@ -56,9 +56,6 @@ describe
 (
 "
 when
-isDevelopment
-and
-the
 condition
 is
 truthy
@@ -114,9 +111,6 @@ describe
 (
 "
 when
-isDevelopment
-and
-the
 condition
 is
 falsy
@@ -180,7 +174,9 @@ describe
 "
 when
 not
-isDevelopment
+in
+Node
+test
 "
 (
 )
