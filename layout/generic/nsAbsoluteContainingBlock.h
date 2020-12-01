@@ -255,7 +255,10 @@ nsRect
 aContainingBlock
 AbsPosReflowFlags
 aFlags
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 *
 aOverflowAreas
 )
@@ -382,7 +385,10 @@ aKidFrame
 nsReflowStatus
 &
 aStatus
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 *
 aOverflowAreas
 )

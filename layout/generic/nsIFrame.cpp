@@ -36574,7 +36574,7 @@ GetSize
 )
 ;
 }
-nsOverflowAreas
+OverflowAreas
 nsIFrame
 :
 :
@@ -36601,7 +36601,7 @@ GetOverflowAreasProperty
 ;
 }
 return
-nsOverflowAreas
+OverflowAreas
 (
 InkOverflowFromDeltas
 (
@@ -36620,7 +36620,7 @@ GetSize
 )
 ;
 }
-nsOverflowAreas
+OverflowAreas
 nsIFrame
 :
 :
@@ -36636,7 +36636,7 @@ IsTransformed
 )
 )
 {
-nsOverflowAreas
+OverflowAreas
 *
 preTransformOverflows
 =
@@ -36653,7 +36653,7 @@ preTransformOverflows
 )
 {
 return
-nsOverflowAreas
+OverflowAreas
 (
 preTransformOverflows
 -
@@ -36672,7 +36672,7 @@ ScrollableOverflow
 }
 }
 return
-nsOverflowAreas
+OverflowAreas
 (
 InkOverflowRect
 (
@@ -36741,7 +36741,7 @@ IsTransformed
 )
 )
 {
-nsOverflowAreas
+OverflowAreas
 *
 preTransformOverflows
 =
@@ -36787,7 +36787,7 @@ IsTransformed
 )
 )
 {
-nsOverflowAreas
+OverflowAreas
 *
 preTransformOverflows
 =
@@ -36891,7 +36891,7 @@ GetSize
 )
 )
 ;
-nsOverflowAreas
+OverflowAreas
 overflowAreas
 (
 rect
@@ -37003,7 +37003,7 @@ nsIFrame
 :
 ComputeCustomOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -37018,7 +37018,7 @@ nsIFrame
 :
 UnionChildOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -45386,7 +45386,7 @@ nsIFrame
 SetOverflowAreas
 (
 const
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -45401,7 +45401,7 @@ mType
 NS_FRAME_OVERFLOW_LARGE
 )
 {
-nsOverflowAreas
+OverflowAreas
 *
 overflow
 =
@@ -45638,7 +45638,7 @@ OverflowAreasProperty
 (
 )
 new
-nsOverflowAreas
+OverflowAreas
 (
 aOverflowAreas
 )
@@ -45668,7 +45668,7 @@ aSizeOverride
 =
 nullptr
 const
-nsOverflowAreas
+OverflowAreas
 *
 aOverflowOverride
 =
@@ -46245,7 +46245,7 @@ ComputeAndIncludeOutlineArea
 nsIFrame
 *
 aFrame
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 const
@@ -46703,7 +46703,7 @@ nsIFrame
 :
 FinishAndStoreOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 nsSize
@@ -46807,7 +46807,7 @@ bounds
 )
 )
 {
-nsOverflowAreas
+OverflowAreas
 *
 initial
 =
@@ -46836,7 +46836,7 @@ InitialOverflowProperty
 (
 )
 new
-nsOverflowAreas
+OverflowAreas
 (
 aOverflowAreas
 )
@@ -47466,7 +47466,7 @@ PreTransformOverflowAreasProperty
 (
 )
 new
-nsOverflowAreas
+OverflowAreas
 (
 aOverflowAreas
 )
@@ -47577,7 +47577,7 @@ if
 aOverflowAreas
 !
 =
-nsOverflowAreas
+OverflowAreas
 (
 bounds
 bounds
@@ -47728,7 +47728,7 @@ HasPerspective
 )
 )
 {
-nsOverflowAreas
+OverflowAreas
 *
 overflow
 =
@@ -47766,7 +47766,7 @@ if
 overflow
 )
 {
-nsOverflowAreas
+OverflowAreas
 overflowCopy
 =
 *
@@ -47788,7 +47788,7 @@ Size
 }
 else
 {
-nsOverflowAreas
+OverflowAreas
 boundsOverflow
 ;
 boundsOverflow
@@ -47846,7 +47846,7 @@ nsIFrame
 :
 ComputePreserve3DChildrenOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -47903,7 +47903,7 @@ childDisp
 )
 )
 {
-nsOverflowAreas
+OverflowAreas
 childOverflow
 =
 child

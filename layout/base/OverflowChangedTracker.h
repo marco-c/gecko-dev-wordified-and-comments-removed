@@ -352,7 +352,7 @@ first
 "
 )
 ;
-nsOverflowAreas
+OverflowAreas
 *
 overflow
 =
@@ -374,7 +374,7 @@ if
 overflow
 )
 {
-nsOverflowAreas
+OverflowAreas
 overflowCopy
 =
 *
@@ -413,7 +413,7 @@ GetSize
 )
 )
 ;
-nsOverflowAreas
+OverflowAreas
 boundsOverflow
 ;
 boundsOverflow

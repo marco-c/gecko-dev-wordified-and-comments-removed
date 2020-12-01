@@ -2564,7 +2564,7 @@ contentRect
 0
 )
 ;
-nsOverflowAreas
+OverflowAreas
 overflowRects
 ;
 nsIFrame
@@ -4135,7 +4135,7 @@ PhysicalSize
 (
 )
 ;
-nsOverflowAreas
+OverflowAreas
 overflowRects
 ;
 for

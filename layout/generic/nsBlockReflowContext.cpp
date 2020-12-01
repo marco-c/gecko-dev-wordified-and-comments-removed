@@ -1742,7 +1742,7 @@ aLine
 nsCollapsingMargin
 &
 aBEndMarginResult
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 const

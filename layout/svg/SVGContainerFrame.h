@@ -288,11 +288,13 @@ aLists
 override
 {
 }
-virtual
 bool
 ComputeCustomOverflow
 (
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 )

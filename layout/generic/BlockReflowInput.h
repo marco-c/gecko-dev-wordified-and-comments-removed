@@ -859,7 +859,10 @@ mozilla
 LogicalMargin
 mBorderPadding
 ;
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 mFloatOverflowAreas
 ;
 nsFloatCacheFreeList

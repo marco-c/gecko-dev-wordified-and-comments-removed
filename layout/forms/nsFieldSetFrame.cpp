@@ -2002,7 +2002,7 @@ size
 "
 )
 ;
-nsOverflowAreas
+OverflowAreas
 ocBounds
 ;
 nsReflowStatus

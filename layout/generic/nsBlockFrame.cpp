@@ -7084,7 +7084,7 @@ ResolveBidi
 )
 ;
 }
-nsOverflowAreas
+OverflowAreas
 ocBounds
 ;
 nsReflowStatus
@@ -7138,7 +7138,7 @@ DrainPushedFloats
 (
 )
 ;
-nsOverflowAreas
+OverflowAreas
 fcBounds
 ;
 nsReflowStatus
@@ -10387,7 +10387,7 @@ WritingMode
 aWritingMode
 nscoord
 aBEndEdgeOfChildren
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 const
@@ -10655,12 +10655,12 @@ nsStyleDisplay
 aDisplay
 nscoord
 aBEndEdgeOfChildren
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
 {
-nsOverflowAreas
+OverflowAreas
 areas
 (
 aBounds
@@ -10712,10 +10712,10 @@ InkOverflowRect
 (
 )
 ;
-nsOverflowAreas
+OverflowAreas
 childVisualArea
 =
-nsOverflowAreas
+OverflowAreas
 (
 childVisualRect
 nsRect
@@ -10847,7 +10847,7 @@ nsBlockFrame
 :
 UnionChildOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -10872,7 +10872,7 @@ GetPhysicalBounds
 (
 )
 ;
-nsOverflowAreas
+OverflowAreas
 lineAreas
 (
 bounds
@@ -11001,7 +11001,7 @@ nsBlockFrame
 :
 ComputeCustomOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -19310,7 +19310,7 @@ HasFloats
 nsCollapsingMargin
 collapsedBEndMargin
 ;
-nsOverflowAreas
+OverflowAreas
 overflowAreas
 ;
 *
@@ -23984,7 +23984,7 @@ aLine
 isLastLine
 )
 ;
-nsOverflowAreas
+OverflowAreas
 overflowAreas
 ;
 aLineLayout
@@ -24261,7 +24261,7 @@ HasFloats
 )
 )
 {
-nsOverflowAreas
+OverflowAreas
 lineOverflowAreas
 =
 aState
@@ -32765,7 +32765,7 @@ ReflowPushedFloats
 BlockReflowInput
 &
 aState
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 nsReflowStatus

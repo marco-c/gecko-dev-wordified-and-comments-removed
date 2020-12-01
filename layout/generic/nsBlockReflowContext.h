@@ -124,7 +124,10 @@ aLine
 nsCollapsingMargin
 &
 aBEndMarginResult
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 const

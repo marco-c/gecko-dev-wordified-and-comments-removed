@@ -9535,7 +9535,7 @@ nsTableFrame
 :
 ComputeCustomOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -10128,7 +10128,7 @@ GetColCount
 )
 )
 ;
-nsOverflowAreas
+OverflowAreas
 overflow
 ;
 for
@@ -13955,7 +13955,7 @@ nsIFrame
 *
 &
 aLastChildReflowed
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )

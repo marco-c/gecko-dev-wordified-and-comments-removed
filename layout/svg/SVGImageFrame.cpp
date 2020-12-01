@@ -3563,7 +3563,7 @@ Size
 )
 )
 ;
-nsOverflowAreas
+OverflowAreas
 overflowAreas
 (
 overflow

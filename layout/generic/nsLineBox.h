@@ -1610,7 +1610,10 @@ void
 SetOverflowAreas
 (
 const
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -1681,7 +1684,10 @@ GetPhysicalBounds
 )
 ;
 }
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 GetOverflowAreas
 (
 )
@@ -1707,7 +1713,10 @@ GetPhysicalBounds
 )
 ;
 return
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 (
 bounds
 bounds
@@ -2757,7 +2766,10 @@ aBounds
 )
 {
 }
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 mOverflowAreas
 ;
 }

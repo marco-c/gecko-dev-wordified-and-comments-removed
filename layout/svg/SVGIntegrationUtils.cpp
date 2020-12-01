@@ -388,7 +388,7 @@ aFrame
 aInReflow
 )
 {
-nsOverflowAreas
+OverflowAreas
 *
 preTransformOverflows
 =

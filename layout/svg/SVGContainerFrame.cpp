@@ -328,7 +328,7 @@ SVGContainerFrame
 :
 ComputeCustomOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -1492,7 +1492,7 @@ NS_FRAME_FIRST_REFLOW
 )
 ;
 }
-nsOverflowAreas
+OverflowAreas
 overflowRects
 ;
 for

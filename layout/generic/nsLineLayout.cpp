@@ -16704,7 +16704,7 @@ RelativePositionAnnotations
 PerSpanData
 *
 aRubyPSD
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -16804,7 +16804,7 @@ ApplyRelativePositioning
 rtc
 )
 ;
-nsOverflowAreas
+OverflowAreas
 rtcOverflowAreas
 ;
 RelativePositionFrames
@@ -16842,12 +16842,12 @@ RelativePositionFrames
 PerSpanData
 *
 psd
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
 {
-nsOverflowAreas
+OverflowAreas
 overflowAreas
 ;
 WritingMode
@@ -17059,7 +17059,7 @@ ReflowChildFlags
 NoSizeView
 )
 ;
-nsOverflowAreas
+OverflowAreas
 r
 ;
 if

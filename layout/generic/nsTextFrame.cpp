@@ -38432,7 +38432,7 @@ if
 cachedBounds
 )
 {
-nsOverflowAreas
+OverflowAreas
 overflowAreas
 ;
 ComputeCustomOverflowInternal
@@ -51358,7 +51358,7 @@ return
 result
 ;
 }
-nsOverflowAreas
+OverflowAreas
 nsTextFrame
 :
 :
@@ -51391,7 +51391,7 @@ GetSize
 )
 )
 ;
-nsOverflowAreas
+OverflowAreas
 result
 (
 bounds
@@ -53869,7 +53869,7 @@ nsTextFrame
 :
 ComputeCustomOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -53888,7 +53888,7 @@ nsTextFrame
 :
 ComputeCustomOverflowInternal
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 bool

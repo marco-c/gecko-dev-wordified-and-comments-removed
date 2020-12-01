@@ -4787,7 +4787,7 @@ scrollBounds
 textRect
 )
 ;
-nsOverflowAreas
+OverflowAreas
 overflow
 (
 visualBounds

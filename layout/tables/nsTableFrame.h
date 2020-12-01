@@ -1600,11 +1600,13 @@ bool
 aIsFirstReflow
 )
 ;
-virtual
 bool
 ComputeCustomOverflow
 (
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -1742,7 +1744,10 @@ nsIFrame
 *
 &
 aLastChildReflowed
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 )

@@ -1610,7 +1610,7 @@ true
 nsMargin
 mComputedBorder
 ;
-nsOverflowAreas
+OverflowAreas
 mContentsOverflowAreas
 ;
 MOZ_INIT_OUTSIDE_CTOR
@@ -4038,7 +4038,7 @@ ContentBox
 )
 )
 {
-nsOverflowAreas
+OverflowAreas
 childOverflow
 ;
 nsLayoutUtils
@@ -4923,7 +4923,7 @@ portSize
 )
 )
 ;
-nsOverflowAreas
+OverflowAreas
 overflow
 (
 scrolledArea
@@ -28821,7 +28821,7 @@ mHelper
 mScrollPort
 )
 ;
-nsOverflowAreas
+OverflowAreas
 overflow
 =
 f
@@ -30313,7 +30313,7 @@ ScrollFrameHelper
 :
 ComputeCustomOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )

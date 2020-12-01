@@ -1082,7 +1082,7 @@ NS_FRAME_FIRST_REFLOW
 )
 ;
 }
-nsOverflowAreas
+OverflowAreas
 overflowRects
 ;
 nsIFrame
