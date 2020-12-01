@@ -517,11 +517,7 @@ enableWasmBaseline
 ;
 extern
 bool
-enableWasmIon
-;
-extern
-bool
-enableWasmCranelift
+enableWasmOptimizing
 ;
 extern
 bool
