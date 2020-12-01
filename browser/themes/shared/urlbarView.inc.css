@@ -3683,11 +3683,13 @@ in
 {
 0
 %
+28
+.
+6
+%
 {
-transform
+translate
 :
-translateX
-(
 var
 (
 -
@@ -3702,7 +3704,6 @@ in
 -
 distance
 )
-)
 ;
 opacity
 :
@@ -3712,12 +3713,9 @@ opacity
 100
 %
 {
-transform
+translate
 :
-translateX
-(
 0
-)
 ;
 opacity
 :
@@ -3786,7 +3784,7 @@ animation
 -
 duration
 :
-250ms
+350ms
 ;
 animation
 -
