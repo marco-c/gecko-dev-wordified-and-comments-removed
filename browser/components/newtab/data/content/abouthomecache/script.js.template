@@ -173,11 +173,14 @@ true
 ;
 window
 .
-__STARTUP_STATE__
-=
+NewtabRenderUtils
+.
+renderCache
+(
 {
 {
 STATE
 }
 }
+)
 ;
