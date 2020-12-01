@@ -163,9 +163,6 @@ geckodriver
 geckodriver
 -
 test
-jsshell
--
-bench
 marionette
 -
 test
