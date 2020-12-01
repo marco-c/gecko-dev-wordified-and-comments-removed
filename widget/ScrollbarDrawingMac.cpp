@@ -302,7 +302,13 @@ case
 StyleAppearance
 :
 :
-Scrollbar
+ScrollbarVertical
+:
+case
+StyleAppearance
+:
+:
+ScrollbarHorizontal
 :
 case
 StyleAppearance

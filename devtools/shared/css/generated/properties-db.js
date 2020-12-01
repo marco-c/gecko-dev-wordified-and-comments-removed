@@ -1210,9 +1210,6 @@ revert
 "
 "
 scrollbar
-"
-"
-scrollbar
 -
 horizontal
 "
@@ -6658,9 +6655,6 @@ resizerpanel
 "
 "
 revert
-"
-"
-scrollbar
 "
 "
 scrollbar
@@ -15019,9 +15013,6 @@ resizerpanel
 "
 "
 revert
-"
-"
-scrollbar
 "
 "
 scrollbar
