@@ -258,6 +258,11 @@ if
 no_virtualenv
 :
             
+from
+mach_bootstrap
+import
+mach_sys_path
+            
 python_path
 =
 sys
@@ -277,9 +282,12 @@ pathsep
 .
 join
 (
-sys
+mach_sys_path
+(
+self
 .
-path
+topsrcdir
+)
 )
         
 else
