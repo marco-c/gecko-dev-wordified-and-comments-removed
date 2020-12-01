@@ -39,6 +39,17 @@ nsCycleCollectionParticipant
 h
 "
 #
+include
+"
+mozilla
+/
+dom
+/
+AuthenticatorResponse
+.
+h
+"
+#
 ifdef
 OS_WIN
 #

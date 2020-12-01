@@ -110,6 +110,15 @@ nsTextFormatter
 h
 "
 #
+include
+"
+mozilla
+/
+Telemetry
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_ANDROID
 #
