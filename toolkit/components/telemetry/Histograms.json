@@ -11056,9 +11056,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
 ]
 "
 alert_emails
@@ -11076,7 +11073,7 @@ mozilla
 com
 "
 "
-kgupta
+amccreight
 mozilla
 .
 com
@@ -11177,7 +11174,7 @@ mozilla
 com
 "
 "
-erahm
+amccreight
 mozilla
 .
 com
@@ -11558,7 +11555,7 @@ alert_emails
 :
 [
 "
-erahm
+amccreight
 mozilla
 .
 com
