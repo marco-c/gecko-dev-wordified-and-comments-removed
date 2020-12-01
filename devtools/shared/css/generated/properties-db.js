@@ -42237,6 +42237,11 @@ pan
 y
 "
 "
+pinch
+-
+zoom
+"
+"
 revert
 "
 "
