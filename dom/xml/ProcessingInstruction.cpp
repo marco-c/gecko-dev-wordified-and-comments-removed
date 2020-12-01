@@ -336,7 +336,7 @@ StyleSheet
 ProcessingInstruction
 :
 :
-GetSheetForBindings
+GetSheet
 (
 )
 const
@@ -362,7 +362,7 @@ return
 linkStyle
 -
 >
-GetSheetForBindings
+GetSheet
 (
 )
 ;
