@@ -3032,6 +3032,11 @@ ComputeCrossOriginOpenerPolicyMismatch
 (
 )
 ;
+nsresult
+ValidateMIMEType
+(
+)
+;
 friend
 class
 PrivateBrowsingChannel
