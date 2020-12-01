@@ -224,7 +224,6 @@ ABIFUNCTION_JS_GC_PROBES_LIST
 (
 _
 )
-\
 _
 (
 js
