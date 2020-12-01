@@ -537,7 +537,7 @@ truncated_extras
 =
 extra
 .
-and_then
+map
 (
 |
 extra
@@ -688,10 +688,7 @@ truncated_value
 )
 ;
 }
-Some
-(
 temp_map
-)
 }
 )
 ;

@@ -120,7 +120,7 @@ version
 "
 1
 .
-2
+3
 .
 1
 "
@@ -160,8 +160,14 @@ com
 >
 "
 "
-Daniel
-Griffen
+Zoey
+Riordan
+<
+zoey
+dos
+.
+cafe
+>
 "
 ]
 exclude
@@ -171,11 +177,6 @@ exclude
 logo
 .
 png
-"
-"
-tests
-/
-*
 "
 "
 examples
