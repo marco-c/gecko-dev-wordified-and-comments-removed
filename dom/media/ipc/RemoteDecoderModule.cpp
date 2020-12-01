@@ -253,14 +253,6 @@ aDiagnostics
 )
 const
 {
-RemoteDecoderManagerChild
-:
-:
-LaunchRDDProcessIfNeeded
-(
-mLocation
-)
-;
 bool
 supports
 =
