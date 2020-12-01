@@ -203,6 +203,11 @@ PEMFactory
 cpp
 "
 "
+PlatformDecoderModule
+.
+cpp
+"
+"
 wrappers
 /
 AudioTrimmer
