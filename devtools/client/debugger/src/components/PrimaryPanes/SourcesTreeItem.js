@@ -118,6 +118,7 @@ isOriginalSource
 isUrlExtension
 isExtensionDirectoryPath
 shouldBlackbox
+sourceTypes
 }
 from
 "
@@ -136,6 +137,7 @@ import
 {
 isDirectory
 getPathWithoutThread
+getFileExtension
 }
 from
 "
@@ -2054,7 +2056,6 @@ modifier
 icon
 =
 >
-(
 icon
 =
 =
@@ -2063,12 +2064,20 @@ icon
 extension
 "
 ?
+sourceTypes
+[
+getFileExtension
+(
+source
+)
+]
+|
+|
 "
 javascript
 "
 :
 icon
-)
 }
 /
 >
