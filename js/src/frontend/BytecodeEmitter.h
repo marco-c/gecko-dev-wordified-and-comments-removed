@@ -1480,6 +1480,15 @@ WantValue
 ;
 MOZ_MUST_USE
 bool
+emitDeclarationInstantiation
+(
+ParseNode
+*
+body
+)
+;
+MOZ_MUST_USE
+bool
 emitScript
 (
 ParseNode
