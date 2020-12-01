@@ -37,7 +37,7 @@ strict
 "
 ;
 const
-hashSuffix
+params
 =
 new
 URLSearchParams
@@ -48,6 +48,11 @@ location
 .
 search
 )
+;
+const
+hashSuffix
+=
+params
 .
 get
 (
