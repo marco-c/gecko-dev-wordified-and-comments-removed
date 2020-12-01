@@ -24173,7 +24173,7 @@ if
 (
 val_
 .
-isNumber
+isDouble
 (
 )
 )
