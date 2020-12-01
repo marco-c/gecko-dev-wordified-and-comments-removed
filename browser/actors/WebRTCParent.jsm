@@ -3210,6 +3210,11 @@ menuseparator
 )
 ;
 let
+isPipeWire
+=
+false
+;
+let
 monitorIndex
 =
 1
@@ -3339,6 +3344,10 @@ id
 PIPEWIRE_ID
 )
 {
+isPipeWire
+=
+true
+;
 let
 sawcStringId
 =
@@ -3985,6 +3994,12 @@ perms
 EXPIRE_SESSION
 )
 ;
+if
+(
+!
+isPipeWire
+)
+{
 video
 .
 deviceId
@@ -4156,6 +4171,7 @@ constraint
 }
 )
 ;
+}
 }
 ;
 menupopup
