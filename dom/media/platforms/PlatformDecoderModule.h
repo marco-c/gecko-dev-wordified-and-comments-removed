@@ -148,9 +148,6 @@ ImageContainer
 ;
 }
 class
-GpuDecoderModule
-;
-class
 MediaDataDecoder
 ;
 class
@@ -1478,10 +1475,6 @@ MediaChangeMonitor
 friend
 class
 PDMFactory
-;
-friend
-class
-GpuDecoderModule
 ;
 friend
 class
