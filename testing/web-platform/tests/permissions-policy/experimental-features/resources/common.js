@@ -366,7 +366,7 @@ types
 :
 [
 "
-feature
+permissions
 -
 policy
 -

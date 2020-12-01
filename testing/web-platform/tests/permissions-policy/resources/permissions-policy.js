@@ -1753,7 +1753,7 @@ types
 :
 [
 '
-feature
+permissions
 -
 policy
 -

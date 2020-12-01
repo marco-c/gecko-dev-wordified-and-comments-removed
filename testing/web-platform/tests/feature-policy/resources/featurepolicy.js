@@ -1811,7 +1811,7 @@ types
 :
 [
 '
-feature
+permissions
 -
 policy
 -
