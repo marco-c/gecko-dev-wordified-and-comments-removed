@@ -3807,7 +3807,6 @@ append
 "
 "
 )
-;
     
 mozbuild
 =
