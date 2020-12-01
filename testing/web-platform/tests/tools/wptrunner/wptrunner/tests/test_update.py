@@ -3611,10 +3611,10 @@ default_run_info
 =
 [
 "
-FAIL
-"
-"
 PASS
+"
+"
+FAIL
 "
 ]
 def

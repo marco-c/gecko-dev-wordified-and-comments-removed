@@ -4292,6 +4292,26 @@ status
 )
         
 if
+current
+and
+set
+(
+expected
+)
+.
+issubset
+(
+set
+(
+current
+)
+)
+:
+            
+return
+current
+        
+if
 self
 .
 update_intermittent
@@ -4315,24 +4335,6 @@ expected
             
 return
 expected
-        
-if
-set
-(
-expected
-)
-.
-issubset
-(
-set
-(
-current
-)
-)
-:
-            
-return
-current
         
 return
 expected
