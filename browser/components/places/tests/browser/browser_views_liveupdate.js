@@ -850,6 +850,11 @@ onEndUpdateBatch
 )
 {
 }
+onItemVisited
+(
+)
+{
+}
 onItemChanged
 (
 itemId

@@ -5301,6 +5301,12 @@ onManyFrecenciesChanged
 ;
 observer
 .
+onPageChanged
+(
+)
+;
+observer
+.
 onDeleteVisits
 (
 )

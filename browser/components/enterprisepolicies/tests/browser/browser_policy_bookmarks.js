@@ -580,6 +580,11 @@ onItemChanged
 )
 {
 }
+onItemVisited
+(
+)
+{
+}
 onItemMoved
 (
 )

@@ -3153,6 +3153,11 @@ onItemChanged
 )
 {
 }
+onItemVisited
+(
+)
+{
+}
 onItemMoved
 (
 )
@@ -3204,6 +3209,11 @@ onDeleteURI
 {
 }
 onClearHistory
+(
+)
+{
+}
+onPageChanged
 (
 )
 {

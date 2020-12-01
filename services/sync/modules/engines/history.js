@@ -2890,6 +2890,11 @@ onEndUpdateBatch
 )
 {
 }
+onPageChanged
+(
+)
+{
+}
 onTitleChanged
 (
 )

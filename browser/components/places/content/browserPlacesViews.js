@@ -2625,9 +2625,6 @@ true
 }
 }
 }
-observeHistoryDetails
-:
-false
 nodeHistoryDetailsChanged
 (
 )

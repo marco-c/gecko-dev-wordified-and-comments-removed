@@ -1887,6 +1887,11 @@ aItemId
 ;
 }
 }
+onItemVisited
+(
+)
+{
+}
 onBeginUpdateBatch
 (
 )

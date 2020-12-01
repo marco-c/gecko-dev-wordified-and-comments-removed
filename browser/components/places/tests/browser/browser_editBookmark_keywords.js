@@ -49,6 +49,11 @@ onEndUpdateBatch
 )
 {
 }
+onItemVisited
+(
+)
+{
+}
 onItemMoved
 (
 )

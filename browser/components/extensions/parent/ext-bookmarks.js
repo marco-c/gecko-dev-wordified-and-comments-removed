@@ -866,6 +866,11 @@ node
 }
 }
 }
+onItemVisited
+(
+)
+{
+}
 onItemMoved
 (
 id

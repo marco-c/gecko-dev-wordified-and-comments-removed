@@ -410,6 +410,11 @@ onClearHistory
 )
 {
 }
+onPageChanged
+(
+)
+{
+}
 onDeleteVisits
 (
 )

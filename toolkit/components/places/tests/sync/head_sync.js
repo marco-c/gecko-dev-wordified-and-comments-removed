@@ -2028,6 +2028,11 @@ params
 )
 ;
 }
+onItemVisited
+(
+)
+{
+}
 onItemMoved
 (
 itemId

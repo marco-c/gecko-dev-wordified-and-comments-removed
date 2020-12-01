@@ -597,6 +597,11 @@ urls
 )
 ;
 }
+onPageChanged
+(
+)
+{
+}
 onFrecencyChanged
 (
 )

@@ -201,16 +201,6 @@ nodeIconChanged
 aNode
 )
 {
-if
-(
-PlacesUtils
-.
-nodeIsContainer
-(
-aNode
-)
-)
-{
 do_throw
 (
 "
@@ -235,7 +225,6 @@ query
 "
 )
 ;
-}
 }
 }
 ;

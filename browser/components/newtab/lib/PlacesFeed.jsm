@@ -299,6 +299,11 @@ onManyFrecenciesChanged
 )
 {
 }
+onPageChanged
+(
+)
+{
+}
 onDeleteVisits
 (
 )
@@ -336,6 +341,11 @@ onBeginUpdateBatch
 {
 }
 onEndUpdateBatch
+(
+)
+{
+}
+onItemVisited
 (
 )
 {

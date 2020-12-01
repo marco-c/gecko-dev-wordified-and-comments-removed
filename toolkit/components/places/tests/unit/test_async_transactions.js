@@ -388,6 +388,14 @@ change
 )
 ;
 }
+onItemVisited
+:
+(
+)
+=
+>
+{
+}
 onItemMoved
 (
 aItemId
