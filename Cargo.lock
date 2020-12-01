@@ -3015,7 +3015,7 @@ version
 .
 0
 .
-47
+59
 "
 source
 =
@@ -3043,16 +3043,13 @@ index
 checksum
 =
 "
-aa87058dce70a3ff5621797f1506cb837edd02ac4c0ae642b4542dce802908b8
+66120af515773fb005778dc07c261bd201ec8ce50bd6e7144c927753fe013381
 "
 dependencies
 =
 [
 "
 jobserver
-"
-"
-num_cpus
 "
 ]
 [
