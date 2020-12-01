@@ -4450,7 +4450,7 @@ span
 auto
 yPx
 =
-textureLinearPackedR16
+textureLinearUnpackedR16
 (
 &
 sampler
@@ -4473,7 +4473,7 @@ rescaleBits
 auto
 uPx
 =
-textureLinearPackedR16
+textureLinearUnpackedR16
 (
 &
 sampler
@@ -4496,7 +4496,7 @@ rescaleBits
 auto
 vPx
 =
-textureLinearPackedR16
+textureLinearUnpackedR16
 (
 &
 sampler
@@ -4566,7 +4566,7 @@ span
 auto
 yPx
 =
-textureLinearPackedR16
+textureLinearUnpackedR16
 (
 &
 sampler
@@ -4589,7 +4589,7 @@ rescaleBits
 auto
 uPx
 =
-textureLinearPackedR16
+textureLinearUnpackedR16
 (
 &
 sampler
@@ -4612,7 +4612,7 @@ rescaleBits
 auto
 vPx
 =
-textureLinearPackedR16
+textureLinearUnpackedR16
 (
 &
 sampler

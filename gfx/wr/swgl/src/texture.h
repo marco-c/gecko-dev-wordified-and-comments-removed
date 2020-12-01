@@ -5767,7 +5767,7 @@ S
 static
 inline
 I16
-textureLinearPackedR16
+textureLinearUnpackedR16
 (
 S
 sampler
@@ -6389,7 +6389,7 @@ r
 =
 CONVERT
 (
-textureLinearPackedR16
+textureLinearUnpackedR16
 (
 sampler
 i
@@ -9370,7 +9370,7 @@ S
 static
 VectorType
 <
-uint8_t
+uint16_t
 4
 *
 sizeof
@@ -9807,13 +9807,10 @@ coeff
 ;
 }
 return
-pack
-(
 sum
 >
 >
 8
-)
 ;
 }
 template
@@ -9826,7 +9823,7 @@ S
 static
 VectorType
 <
-uint8_t
+uint16_t
 4
 *
 sizeof
@@ -10273,13 +10270,10 @@ coeff
 ;
 }
 return
-pack
-(
 sum
 >
 >
 8
-)
 ;
 }
 }
