@@ -1645,14 +1645,8 @@ IsEnabled
 )
 &
 &
-(
-!
-mIsNightly
-|
-|
 !
 mWrForceAngleNoGPUProcess
-)
 )
 {
 mFeatureWrAngle
