@@ -240,6 +240,13 @@ componentProps
 {
 highlightAccessible
 unhighlightAccessible
+toolboxHighlighter
+:
+toolbox
+.
+getHighlighter
+(
+)
 toolbox
 labelledby
 :
