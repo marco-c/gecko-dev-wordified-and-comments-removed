@@ -17,7 +17,7 @@ setupPlacesDatabase
 /
 migration
 /
-places_v38
+places_v43
 .
 sqlite
 "
@@ -41,7 +41,7 @@ db
 .
 setSchemaVersion
 (
-38
+43
 )
 ;
 await

@@ -300,15 +300,6 @@ return
 gFaviconService
 ;
 }
-static
-void
-ConvertUnsupportedPayloads
-(
-mozIStorageConnection
-*
-aDBConn
-)
-;
 nsresult
 GetFaviconLinkForIconString
 (
