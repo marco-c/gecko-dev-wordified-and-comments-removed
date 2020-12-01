@@ -38,6 +38,17 @@ mozilla
 /
 dom
 /
+PermissionStatus
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Promise
 .
 h
