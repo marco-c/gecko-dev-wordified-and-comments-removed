@@ -80,9 +80,11 @@ mozilla
 void_t
 from
 "
+mozilla
+/
 ipc
 /
-IPCMessageUtils
+IPCCore
 .
 h
 "

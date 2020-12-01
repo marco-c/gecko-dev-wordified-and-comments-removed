@@ -10,9 +10,11 @@ mozilla
 null_t
 from
 "
+mozilla
+/
 ipc
 /
-IPCMessageUtils
+IPCCore
 .
 h
 "
