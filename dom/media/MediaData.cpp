@@ -1686,6 +1686,14 @@ aBuffer
 .
 mColorDepth
 ;
+data
+.
+mColorRange
+=
+aBuffer
+.
+mColorRange
+;
 return
 data
 ;
