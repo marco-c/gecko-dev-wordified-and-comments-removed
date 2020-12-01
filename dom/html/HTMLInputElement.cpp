@@ -2639,6 +2639,12 @@ tmp
 )
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 if
 (
 mode
@@ -2794,12 +2800,6 @@ NS_OK
 ;
 }
 }
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
 RefPtr
 <
 Blob
