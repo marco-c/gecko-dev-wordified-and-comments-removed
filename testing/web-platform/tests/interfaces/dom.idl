@@ -94,7 +94,7 @@ srcElement
 ;
 /
 /
-historical
+legacy
 readonly
 attribute
 EventTarget
@@ -154,11 +154,13 @@ cancelBubble
 ;
 /
 /
-historical
+legacy
 alias
 of
 .
 stopPropagation
+(
+)
 undefined
 stopImmediatePropagation
 (
@@ -180,7 +182,7 @@ returnValue
 ;
 /
 /
-historical
+legacy
 undefined
 preventDefault
 (
@@ -228,7 +230,7 @@ false
 ;
 /
 /
-historical
+legacy
 }
 ;
 dictionary
@@ -265,7 +267,7 @@ event
 ;
 /
 /
-historical
+legacy
 }
 ;
 [
@@ -322,7 +324,7 @@ null
 ;
 /
 /
-historical
+legacy
 }
 ;
 dictionary
@@ -1047,7 +1049,7 @@ ENTITY_REFERENCE_NODE
 ;
 /
 /
-historical
+legacy
 const
 unsigned
 short
@@ -1057,7 +1059,7 @@ ENTITY_NODE
 ;
 /
 /
-historical
+legacy
 const
 unsigned
 short
@@ -1102,7 +1104,7 @@ NOTATION_NODE
 ;
 /
 /
-historical
+legacy
 readonly
 attribute
 unsigned
@@ -1246,7 +1248,7 @@ otherNode
 ;
 /
 /
-historical
+legacy
 alias
 of
 =
@@ -1442,7 +1444,7 @@ charset
 ;
 /
 /
-historical
+legacy
 alias
 of
 .
@@ -1454,7 +1456,7 @@ inputEncoding
 ;
 /
 /
-historical
+legacy
 alias
 of
 .
@@ -1656,7 +1658,7 @@ interface
 ;
 /
 /
-historical
+legacy
 [
 NewObject
 ]
@@ -2160,7 +2162,7 @@ selectors
 ;
 /
 /
-historical
+legacy
 alias
 of
 .
@@ -2204,7 +2206,7 @@ element
 ;
 /
 /
-historical
+legacy
 undefined
 insertAdjacentText
 (
@@ -2216,7 +2218,7 @@ data
 ;
 /
 /
-historical
+legacy
 }
 ;
 dictionary
@@ -3066,7 +3068,7 @@ SHOW_ENTITY_REFERENCE
 ;
 /
 /
-historical
+legacy
 const
 unsigned
 long
@@ -3076,7 +3078,7 @@ SHOW_ENTITY
 ;
 /
 /
-historical
+legacy
 const
 unsigned
 long
@@ -3121,7 +3123,7 @@ SHOW_NOTATION
 ;
 /
 /
-historical
+legacy
 unsigned
 short
 acceptNode
