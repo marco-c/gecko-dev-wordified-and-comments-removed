@@ -218,7 +218,7 @@ fetch
 -
 clang
 -
-10
+11
 linux64
 -
 clang
@@ -369,6 +369,8 @@ macosx64
 cross
 -
 releng
+-
+12
 .
 manifest
 "
@@ -466,13 +468,17 @@ port
 -
 clang
 -
-10
+11
 -
 linux64
 -
 clang
 -
-10
+11
+-
+macosx
+-
+cross
 -
 linux64
 -

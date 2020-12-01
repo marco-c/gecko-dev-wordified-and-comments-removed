@@ -99,7 +99,11 @@ errors
 patch
 "
 "
-clang_format_10
+clang
+-
+format
+-
+11
 .
 patch
 "
