@@ -9194,7 +9194,7 @@ if
 (
 rhsConstant
 .
-isIntegerZero
+isZeroBits
 (
 )
 )
