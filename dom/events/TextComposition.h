@@ -226,6 +226,12 @@ return
 mLastData
 ;
 }
+nsString
+CommitStringIfCommittedAsIs
+(
+)
+const
+;
 const
 nsString
 &

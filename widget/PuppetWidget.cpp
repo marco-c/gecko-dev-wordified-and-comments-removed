@@ -1850,6 +1850,14 @@ compositionEvent
 >
 mNativeIMEContext
 ;
+mContentCache
+.
+OnCompositionEvent
+(
+*
+compositionEvent
+)
+;
 }
 if
 (
