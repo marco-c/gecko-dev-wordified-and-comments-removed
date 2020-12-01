@@ -73,7 +73,7 @@ window
 addEventListener
 (
 '
-load
+pageshow
 '
 (
 )
