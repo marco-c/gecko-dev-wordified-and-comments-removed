@@ -276,8 +276,10 @@ gl
 Version
 GetMaximumClientVersion
 (
-D3D_FEATURE_LEVEL
-featureLevel
+const
+Renderer11DeviceCaps
+&
+caps
 )
 ;
 void

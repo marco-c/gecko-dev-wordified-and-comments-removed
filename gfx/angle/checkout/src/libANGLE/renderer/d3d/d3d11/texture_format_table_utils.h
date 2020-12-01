@@ -139,8 +139,6 @@ d3d11_gl
 GetMaximumClientVersion
 (
 deviceCaps
-.
-featureLevel
 )
 .
 major
