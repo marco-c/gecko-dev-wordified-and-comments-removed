@@ -890,10 +890,11 @@ IOError
 >
 TouchSync
 (
-const
-nsAString
-&
-aPath
+already_AddRefed
+<
+nsIFile
+>
+aFile
 const
 Maybe
 <
