@@ -937,6 +937,11 @@ IntlUtils
 h
 "
 "
+JSExecutionContext
+.
+h
+"
+"
 Link
 .
 h
@@ -1540,6 +1545,11 @@ cpp
 "
 "
 IntlUtils
+.
+cpp
+"
+"
+JSExecutionContext
 .
 cpp
 "
