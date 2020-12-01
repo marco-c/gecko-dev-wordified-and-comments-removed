@@ -391,6 +391,17 @@ shared
 with_dbus
 "
 ]
+thread_sanitizer
+=
+[
+"
+gkrust
+-
+shared
+/
+thread_sanitizer
+"
+]
 [
 dependencies
 ]

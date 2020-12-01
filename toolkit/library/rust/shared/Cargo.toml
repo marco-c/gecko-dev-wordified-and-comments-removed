@@ -1842,6 +1842,15 @@ audio_thread_priority
 with_dbus
 "
 ]
+thread_sanitizer
+=
+[
+"
+xpcom
+/
+thread_sanitizer
+"
+]
 [
 lib
 ]
