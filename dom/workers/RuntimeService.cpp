@@ -112,6 +112,17 @@ h
 #
 include
 "
+js
+/
+experimental
+/
+CTypes
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h
