@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsJSUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPrefs_dom
@@ -148,6 +155,9 @@ return
 }
 if
 (
+mozilla
+:
+:
 StaticPrefs
 :
 :

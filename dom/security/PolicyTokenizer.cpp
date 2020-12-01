@@ -6,6 +6,9 @@ PolicyTokenizer
 h
 "
 static
+mozilla
+:
+:
 LogModule
 *
 GetPolicyTokenizerLog
@@ -13,6 +16,9 @@ GetPolicyTokenizerLog
 )
 {
 static
+mozilla
+:
+:
 LazyLogModule
 gPolicyTokenizerPRLog
 (
