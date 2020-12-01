@@ -541,6 +541,14 @@ realm
 #
 endif
 void
+WaitForOffThreadParses
+(
+JSRuntime
+*
+runtime
+)
+;
+void
 CancelOffThreadParses
 (
 JSRuntime
