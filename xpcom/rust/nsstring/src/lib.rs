@@ -5692,8 +5692,6 @@ ptr
 )
 }
 length
-:
-length
 dataflags
 :
 DataFlags
