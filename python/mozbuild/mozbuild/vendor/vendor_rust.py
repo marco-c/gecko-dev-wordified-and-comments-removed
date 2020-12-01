@@ -378,9 +378,13 @@ cargo
 raise
 OSError
 (
+                    
 errno
 .
 ENOENT
+                    
+(
+                        
 "
 Could
 not
@@ -393,6 +397,23 @@ your
 PATH
 .
 "
+                        
+"
+Hint
+:
+have
+you
+run
+mach
+build
+or
+mach
+configure
+?
+"
+                    
+)
+                
 )
             
 return
