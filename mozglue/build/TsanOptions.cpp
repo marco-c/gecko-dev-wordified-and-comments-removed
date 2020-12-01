@@ -397,9 +397,7 @@ crossbeam_deque
 :
 :
 Worker
-LT
-T
-GT
+*
 :
 :
 resize
