@@ -120,6 +120,15 @@ use
 crate
 :
 :
+packet
+:
+:
+PacketNumber
+;
+use
+crate
+:
+:
 qlog
 :
 :
@@ -996,7 +1005,7 @@ largest_acked
 :
 Option
 <
-u64
+PacketNumber
 >
 largest_acked_sent_time
 :
@@ -2996,7 +3005,7 @@ PNSpace
 >
 Option
 <
-u64
+PacketNumber
 >
 {
 self
