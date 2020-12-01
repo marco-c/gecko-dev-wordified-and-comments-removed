@@ -25704,7 +25704,7 @@ bailoutKind
 unbox
 -
 >
-bailoutKindUnchecked
+bailoutKind
 (
 )
 ;
