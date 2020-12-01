@@ -3043,6 +3043,12 @@ mTouchStartTime
 TimeDuration
 mTouchStartRestingTimeBeforePan
 ;
+Maybe
+<
+ParentLayerCoord
+>
+mMinimumVelocityDuringPan
+;
 CSSPoint
 mTestAsyncScrollOffset
 ;

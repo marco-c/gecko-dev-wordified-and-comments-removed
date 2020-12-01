@@ -348,6 +348,9 @@ TimeDuration
 >
 mTouchStartRestingTime
 ;
+ParentLayerCoord
+mMinPanVelocity
+;
 bool
 mIsHandoff
 ;
