@@ -4681,11 +4681,11 @@ getAllUserPreferences
 (
 )
 targetingParameters
-trailhead
+trailheadTriplet
 :
 ASRouterPreferences
 .
-trailhead
+trailheadTriplet
 errors
 :
 this
@@ -6032,8 +6032,6 @@ message
 trailheadTriplet
 :
 ASRouterPreferences
-.
-trailhead
 .
 trailheadTriplet
 |
