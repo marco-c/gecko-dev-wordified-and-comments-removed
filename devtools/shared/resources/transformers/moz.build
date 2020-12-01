@@ -70,13 +70,6 @@ messages
 js
 "
 "
-network
--
-events
-.
-js
-"
-"
 root
 -
 node
