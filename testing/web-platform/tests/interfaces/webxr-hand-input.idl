@@ -74,6 +74,11 @@ hand
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 XRHand
 {
@@ -274,6 +279,11 @@ LITTLE_PHALANX_TIP
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 XRJointSpace
 :
@@ -323,6 +333,11 @@ transforms
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 XRJointPose
 :
