@@ -158,9 +158,7 @@ move
 |
 |
 {
-loop
-{
-if
+while
 let
 Some
 (
@@ -245,12 +243,6 @@ response
 }
 )
 ;
-}
-else
-{
-break
-;
-}
 }
 else
 {

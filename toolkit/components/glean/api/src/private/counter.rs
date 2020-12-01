@@ -404,10 +404,6 @@ insert
 c
 .
 0
-.
-clone
-(
-)
 amount
 )
 ;
