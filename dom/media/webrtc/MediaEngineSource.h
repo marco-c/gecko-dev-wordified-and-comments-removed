@@ -92,7 +92,7 @@ class
 MediaEnginePrefs
 ;
 class
-SourceMediaTrack
+MediaTrack
 ;
 class
 MediaEnginePhotoCallback
@@ -259,7 +259,7 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaTrack
+MediaTrack
 >
 &
 aTrack

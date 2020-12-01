@@ -2390,7 +2390,7 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaTrack
+MediaTrack
 >
 &
 aTrack
@@ -2411,6 +2411,16 @@ aTrack
 ;
 MOZ_ASSERT
 (
+aTrack
+-
+>
+AsSourceTrack
+(
+)
+)
+;
+MOZ_ASSERT
+(
 !
 mTrack
 )
@@ -2426,6 +2436,11 @@ PRINCIPAL_HANDLE_NONE
 mTrack
 =
 aTrack
+-
+>
+AsSourceTrack
+(
+)
 ;
 mPrincipal
 =
@@ -6057,7 +6072,7 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaTrack
+MediaTrack
 >
 &
 aTrack
