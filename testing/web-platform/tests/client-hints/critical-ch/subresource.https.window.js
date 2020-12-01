@@ -41,12 +41,16 @@ r
 =
 >
 {
-assert_equals
+assert_true
 (
 r
+.
+includes
+(
 "
 FAIL
 "
+)
 )
 ;
 }
@@ -55,6 +59,8 @@ FAIL
 Critical
 -
 CH
+subresource
+fetch
 "
 )
 ;
