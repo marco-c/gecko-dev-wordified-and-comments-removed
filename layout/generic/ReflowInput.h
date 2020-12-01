@@ -395,16 +395,6 @@ return
 mComputedBorderPadding
 ;
 }
-nsMargin
-&
-ComputedPhysicalPadding
-(
-)
-{
-return
-mComputedPadding
-;
-}
 LogicalMargin
 ComputedLogicalMargin
 (
