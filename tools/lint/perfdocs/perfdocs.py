@@ -395,6 +395,24 @@ tools
 0
 ]
     
+top_dir
+=
+top_dir
+.
+replace
+(
+"
+\
+\
+"
+"
+\
+\
+\
+\
+"
+)
+    
 PerfDocLogger
 .
 LOGGER
