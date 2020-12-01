@@ -2094,6 +2094,7 @@ resource_cache
 block_until_all_resources_added
 (
 gpu_cache
+render_tasks
 profile
 )
 ;
