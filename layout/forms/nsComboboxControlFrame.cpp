@@ -6179,6 +6179,7 @@ nsComboboxControlFrame
 GetScrollTargetFrame
 (
 )
+const
 {
 return
 do_QueryFrame

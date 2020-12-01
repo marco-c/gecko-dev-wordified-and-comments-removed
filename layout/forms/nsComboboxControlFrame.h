@@ -373,6 +373,7 @@ nsIScrollableFrame
 GetScrollTargetFrame
 (
 )
+const
 override
 ;
 #

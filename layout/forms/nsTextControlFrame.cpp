@@ -570,6 +570,7 @@ nsTextControlFrame
 GetScrollTargetFrame
 (
 )
+const
 {
 if
 (

@@ -1057,6 +1057,7 @@ nsMenuFrame
 GetPopup
 (
 )
+const
 {
 nsFrameList
 *
@@ -5549,6 +5550,7 @@ nsMenuFrame
 GetScrollTargetFrame
 (
 )
+const
 {
 nsMenuPopupFrame
 *

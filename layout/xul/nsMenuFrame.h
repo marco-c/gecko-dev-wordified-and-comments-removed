@@ -410,6 +410,7 @@ nsIScrollableFrame
 GetScrollTargetFrame
 (
 )
+const
 override
 ;
 void
@@ -508,6 +509,7 @@ nsMenuPopupFrame
 GetPopup
 (
 )
+const
 ;
 bool
 HasPopup
