@@ -3,10 +3,6 @@ protocol
 PBackground
 ;
 include
-protocol
-PBrowser
-;
-include
 "
 mozilla
 /
@@ -50,7 +46,7 @@ namespace
 mozilla
 {
 namespace
-dom
+layout
 {
 async
 protocol
@@ -58,8 +54,6 @@ PVsync
 {
 manager
 PBackground
-or
-PBrowser
 ;
 child
 :
