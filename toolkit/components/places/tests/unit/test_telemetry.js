@@ -561,6 +561,8 @@ null
 "
 gather
 -
+places
+-
 telemetry
 "
 null
