@@ -131,12 +131,7 @@ nsAString
 &
 aString
 )
-{
-aString
-=
-mMessage
 ;
-}
 SpeechRecognitionErrorCode
 Error
 (
@@ -160,7 +155,7 @@ aCancelable
 SpeechRecognitionErrorCode
 aError
 const
-nsAString
+nsACString
 &
 aMessage
 )
@@ -170,7 +165,7 @@ protected
 SpeechRecognitionErrorCode
 mError
 ;
-nsString
+nsCString
 mMessage
 ;
 }

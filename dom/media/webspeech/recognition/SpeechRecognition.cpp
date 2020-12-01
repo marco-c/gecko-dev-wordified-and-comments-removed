@@ -3093,7 +3093,6 @@ SpeechRecognitionErrorCode
 :
 :
 No_speech
-u
 "
 No
 speech
@@ -3102,7 +3101,6 @@ detected
 timeout
 )
 "
-_ns
 )
 ;
 }
@@ -3237,13 +3235,11 @@ SpeechRecognitionErrorCode
 :
 :
 Audio_capture
-u
 "
 AUDIO_ERROR
 test
 event
 "
-_ns
 )
 ;
 }
@@ -4439,7 +4435,7 @@ aErrorType
 SpeechRecognitionErrorCode
 aErrorCode
 const
-nsAString
+nsACString
 &
 aMessage
 )

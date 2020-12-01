@@ -373,13 +373,11 @@ SpeechRecognitionErrorCode
 :
 :
 Network
-u
 "
 RECOGNITIONSERVICE_ERROR
 test
 event
 "
-_ns
 )
 ;
 }

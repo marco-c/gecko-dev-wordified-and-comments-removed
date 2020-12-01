@@ -34,7 +34,7 @@ BaseMediaMgrError
 Name
 aName
 const
-nsAString
+nsACString
 &
 aMessage
 const
@@ -373,9 +373,11 @@ aMessage
 )
 const
 {
-aMessage
-=
+CopyUTF8toUTF16
+(
 mMessage
+aMessage
+)
 ;
 }
 void
