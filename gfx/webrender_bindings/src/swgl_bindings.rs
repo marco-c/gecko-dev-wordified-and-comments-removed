@@ -7668,6 +7668,12 @@ start_compositing
 &
 mut
 self
+_dirty_rects
+:
+&
+[
+DeviceIntRect
+]
 )
 {
 if
