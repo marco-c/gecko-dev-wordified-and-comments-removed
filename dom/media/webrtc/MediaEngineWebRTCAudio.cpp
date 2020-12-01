@@ -5888,6 +5888,8 @@ TrackRate
 aRate
 uint32_t
 aChannels
+uint32_t
+aAlreadyBuffered
 )
 {
 MOZ_ASSERT
@@ -5909,6 +5911,17 @@ MOZ_ASSERT
 mEnabled
 )
 ;
+if
+(
+!
+mLiveFramesAppended
+)
+{
+mLiveBufferingAppended
+=
+aAlreadyBuffered
+;
+}
 if
 (
 PassThrough

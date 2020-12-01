@@ -2243,6 +2243,8 @@ TrackRate
 aRate
 uint32_t
 aChannels
+uint32_t
+aAlreadyBuffered
 )
 override
 {
@@ -5070,6 +5072,9 @@ aOutputBuffer
 aFrames
 )
 ;
+uint32_t
+alreadyBuffered
+=
 mScratchBuffer
 .
 Empty
@@ -5277,6 +5282,7 @@ aFrames
 )
 mSampleRate
 mInputChannelCount
+alreadyBuffered
 )
 ;
 }

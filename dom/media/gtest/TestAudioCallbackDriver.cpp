@@ -129,7 +129,7 @@ void
 )
 )
 ;
-MOCK_METHOD4
+MOCK_METHOD5
 (
 NotifyInputData
 void
@@ -139,6 +139,7 @@ AudioDataValue
 *
 size_t
 TrackRate
+uint32_t
 uint32_t
 )
 )
