@@ -99,11 +99,6 @@ varying
 vec2
 v_uv
 ;
-flat
-varying
-float
-v_layer
-;
 #
 ifdef
 WR_FEATURE_GLYPH_TRANSFORM
@@ -2002,12 +1997,6 @@ st1
 f
 )
 ;
-v_layer
-=
-res
-.
-layer
-;
 v_uv_bounds
 =
 (
@@ -2056,11 +2045,9 @@ void
 Fragment
 frag
 ;
-vec3
+vec2
 tc
 =
-vec3
-(
 clamp
 (
 v_uv
@@ -2070,8 +2057,6 @@ xy
 v_uv_bounds
 .
 zw
-)
-v_layer
 )
 ;
 vec4

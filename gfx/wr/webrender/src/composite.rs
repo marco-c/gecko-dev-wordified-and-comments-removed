@@ -8,6 +8,7 @@ YuvColorSpace
 YuvFormat
 ImageRendering
 ExternalImageId
+ImageBufferKind
 }
 ;
 use
@@ -90,15 +91,6 @@ prim_store
 :
 :
 DeferredResolve
-;
-use
-crate
-:
-:
-renderer
-:
-:
-ImageBufferKind
 ;
 use
 crate
