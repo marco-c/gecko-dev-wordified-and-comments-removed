@@ -25,11 +25,7 @@ github
 .
 com
 /
-env
--
-logger
--
-rs
+sebasmagri
 /
 env_logger
 /
