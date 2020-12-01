@@ -34092,9 +34092,6 @@ nargs
 bool
 singletonType
 ;
-bool
-useSingletonForClone
-;
 LambdaFunctionInfo
 (
 JSFunction
@@ -34109,8 +34106,6 @@ uint16_t
 nargs
 bool
 singletonType
-bool
-useSingletonForClone
 )
 :
 fun_
@@ -34132,10 +34127,6 @@ nargs
 singletonType
 (
 singletonType
-)
-useSingletonForClone
-(
-useSingletonForClone
 )
 {
 }
@@ -34183,12 +34174,6 @@ singletonType
 other
 .
 singletonType
-)
-useSingletonForClone
-(
-other
-.
-useSingletonForClone
 )
 {
 }

@@ -18571,16 +18571,6 @@ info
 )
 .
 singletonType
-|
-|
-ins
--
->
-info
-(
-)
-.
-useSingletonForClone
 )
 {
 LLambdaForSingleton
