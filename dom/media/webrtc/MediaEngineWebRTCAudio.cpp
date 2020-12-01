@@ -6649,6 +6649,15 @@ mStateComputedTime
 ended
 )
 ;
+ApplyTrackDisabling
+(
+mSegment
+.
+get
+(
+)
+)
+;
 if
 (
 ended
