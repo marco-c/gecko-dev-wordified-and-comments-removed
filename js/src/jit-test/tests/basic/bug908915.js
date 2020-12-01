@@ -21,7 +21,7 @@ null
 )
 ;
 var
-blacklist
+ignorelist
 =
 {
 '
@@ -46,6 +46,11 @@ terminate
 true
 '
 nukeAllCCWs
+'
+:
+true
+'
+rateMyCacheIR
 '
 :
 true
@@ -79,7 +84,7 @@ e
 .
 name
 in
-blacklist
+ignorelist
 )
 continue
 ;
@@ -168,7 +173,7 @@ b
 .
 name
 in
-blacklist
+ignorelist
 )
 continue
 ;
