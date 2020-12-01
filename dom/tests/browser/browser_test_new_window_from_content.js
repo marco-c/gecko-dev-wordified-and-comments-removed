@@ -307,7 +307,6 @@ html
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

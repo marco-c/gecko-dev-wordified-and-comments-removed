@@ -85,7 +85,6 @@ false
 RESOURCE_LINK
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -398,7 +397,6 @@ false
 RESOURCE_LINK
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

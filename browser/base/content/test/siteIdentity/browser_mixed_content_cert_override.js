@@ -284,7 +284,6 @@ svg
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

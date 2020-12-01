@@ -179,7 +179,6 @@ com
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

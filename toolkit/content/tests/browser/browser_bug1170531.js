@@ -202,7 +202,6 @@ let
 menu_cut_disabled
 menu_copy_disabled
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -362,7 +361,6 @@ Promise
 closeMenu
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -527,7 +525,6 @@ Promise
 closeMenu
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

@@ -840,7 +840,6 @@ url
 =
 >
 {
-await
 BrowserTestUtils
 .
 loadURI
@@ -1690,7 +1689,6 @@ url
 =
 >
 {
-await
 BrowserTestUtils
 .
 loadURI
@@ -1990,7 +1988,6 @@ url
 =
 >
 {
-await
 BrowserTestUtils
 .
 loadURI
@@ -2519,7 +2516,6 @@ url
 =
 >
 {
-await
 BrowserTestUtils
 .
 loadURI
@@ -2693,7 +2689,6 @@ url
 =
 >
 {
-await
 BrowserTestUtils
 .
 loadURI

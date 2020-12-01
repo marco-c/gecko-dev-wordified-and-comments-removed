@@ -566,7 +566,6 @@ page
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

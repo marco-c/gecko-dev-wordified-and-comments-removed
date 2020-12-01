@@ -171,7 +171,6 @@ Time
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

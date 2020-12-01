@@ -138,7 +138,6 @@ enabled
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -225,7 +224,6 @@ within
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -425,7 +423,6 @@ example
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -613,7 +610,6 @@ newtab
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

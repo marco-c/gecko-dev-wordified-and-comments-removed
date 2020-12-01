@@ -1458,7 +1458,6 @@ removeCalls
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

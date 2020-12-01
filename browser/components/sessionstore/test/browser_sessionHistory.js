@@ -66,7 +66,6 @@ promiseOnHistoryReplaceEntryInChild
 browser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

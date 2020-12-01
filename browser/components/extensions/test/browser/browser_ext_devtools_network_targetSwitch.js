@@ -80,7 +80,6 @@ target
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

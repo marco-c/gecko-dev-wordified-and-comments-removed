@@ -689,7 +689,6 @@ home
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

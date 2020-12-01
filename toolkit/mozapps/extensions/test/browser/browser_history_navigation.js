@@ -1027,7 +1027,6 @@ forward
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

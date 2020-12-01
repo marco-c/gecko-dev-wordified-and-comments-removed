@@ -1045,7 +1045,6 @@ url
 .
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

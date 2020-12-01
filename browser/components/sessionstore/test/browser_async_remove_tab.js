@@ -795,7 +795,6 @@ remote
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -806,6 +805,14 @@ about
 :
 robots
 "
+)
+;
+await
+BrowserTestUtils
+.
+browserLoaded
+(
+browser
 )
 ;
 ok
@@ -821,12 +828,6 @@ not
 remote
 anymore
 "
-)
-;
-await
-promiseTabRestored
-(
-tab
 )
 ;
 let

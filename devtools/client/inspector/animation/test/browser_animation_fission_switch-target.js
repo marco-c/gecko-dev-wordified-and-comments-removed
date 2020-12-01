@@ -480,7 +480,6 @@ updated
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

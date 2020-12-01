@@ -2836,7 +2836,6 @@ null
 false
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

@@ -823,7 +823,6 @@ gBrowser
 TEST_URL
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -953,7 +952,6 @@ gBrowser
 TEST_URL
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -1087,7 +1085,6 @@ gBrowser
 TEST_URL
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

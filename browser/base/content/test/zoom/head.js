@@ -950,7 +950,6 @@ if
 url
 )
 {
-await
 BrowserTestUtils
 .
 loadURI
