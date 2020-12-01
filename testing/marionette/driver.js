@@ -306,7 +306,7 @@ evaluate
 .
 js
 "
-getMarionetteFrameActorProxy
+getMarionetteCommandsActorProxy
 :
 "
 chrome
@@ -319,7 +319,7 @@ content
 /
 actors
 /
-MarionetteFrameParent
+MarionetteCommandsParent
 .
 jsm
 "
@@ -2009,7 +2009,7 @@ options
 )
 {
 return
-getMarionetteFrameActorProxy
+getMarionetteCommandsActorProxy
 (
 (
 )
@@ -3535,7 +3535,7 @@ ChromeUtils
 registerWindowActor
 (
 "
-MarionetteFrame
+MarionetteCommands
 "
 {
 kind
@@ -3559,7 +3559,7 @@ content
 /
 actors
 /
-MarionetteFrameParent
+MarionetteCommandsParent
 .
 jsm
 "
@@ -3580,7 +3580,7 @@ content
 /
 actors
 /
-MarionetteFrameChild
+MarionetteCommandsChild
 .
 jsm
 "
@@ -11053,7 +11053,7 @@ ChromeUtils
 unregisterWindowActor
 (
 "
-MarionetteFrame
+MarionetteCommands
 "
 )
 ;

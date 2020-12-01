@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-MarionetteFrameChild
+MarionetteCommandsChild
 "
 ]
 ;
@@ -230,7 +230,7 @@ get
 )
 ;
 class
-MarionetteFrameChild
+MarionetteCommandsChild
 extends
 JSWindowActorChild
 {
@@ -420,7 +420,7 @@ this
 sendAsyncMessage
 (
 "
-MarionetteFrameChild
+MarionetteCommandsChild
 :
 PageLoadEvent
 "
@@ -489,7 +489,7 @@ name
 {
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 clearElement
 "
@@ -505,7 +505,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 clickElement
 "
@@ -524,7 +524,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 executeScript
 "
@@ -543,7 +543,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 findElement
 "
@@ -562,7 +562,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 findElements
 "
@@ -581,7 +581,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getCurrentUrl
 "
@@ -599,7 +599,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getActiveElement
 "
@@ -617,7 +617,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getElementAttribute
 "
@@ -636,7 +636,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getElementProperty
 "
@@ -655,7 +655,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getElementRect
 "
@@ -674,7 +674,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getElementTagName
 "
@@ -693,7 +693,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getElementText
 "
@@ -712,7 +712,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getElementValueOfCssProperty
 "
@@ -731,7 +731,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getPageSource
 "
@@ -749,7 +749,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getScreenshotRect
 "
@@ -768,7 +768,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 isElementDisplayed
 "
@@ -787,7 +787,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 isElementEnabled
 "
@@ -806,7 +806,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 isElementSelected
 "
@@ -825,7 +825,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 performActions
 "
@@ -844,7 +844,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 releaseActions
 "
@@ -862,7 +862,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 sendKeysToElement
 "
@@ -881,7 +881,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 singleTap
 "
@@ -900,7 +900,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 switchToFrame
 "
@@ -919,7 +919,7 @@ break
 ;
 case
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 switchToParentFrame
 "
