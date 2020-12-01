@@ -138,6 +138,11 @@ StaticComponents
 .
 cpp
 "
+"
+services
+.
+json
+"
 script
 =
 "
