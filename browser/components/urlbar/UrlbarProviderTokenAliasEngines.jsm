@@ -230,6 +230,17 @@ return
 false
 ;
 }
+if
+(
+queryContext
+.
+searchMode
+)
+{
+return
+false
+;
+}
 this
 .
 _engines
