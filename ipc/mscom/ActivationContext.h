@@ -61,6 +61,13 @@ final
 {
 public
 :
+static
+constexpr
+WORD
+kDllManifestDefaultResourceId
+=
+2
+;
 ActivationContext
 (
 )
@@ -86,7 +93,7 @@ aLoadFromModule
 WORD
 aResourceId
 =
-2
+kDllManifestDefaultResourceId
 )
 ;
 ActivationContext
