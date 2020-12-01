@@ -213,6 +213,7 @@ uint8_t
 {
 Unknown
 TranspiledCacheIR
+SpeculativePhi
 Inevitable
 DuringVMCall
 TooManyArguments
@@ -306,6 +307,17 @@ TranspiledCacheIR
 return
 "
 TranspiledCacheIR
+"
+;
+case
+BailoutKind
+:
+:
+SpeculativePhi
+:
+return
+"
+SpeculativePhi
 "
 ;
 case

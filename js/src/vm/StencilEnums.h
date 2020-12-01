@@ -322,6 +322,12 @@ FailedLexicalCheck
 <
 <
 24
+HadSpeculativePhiBailout
+=
+1
+<
+<
+25
 }
 ;
 }
