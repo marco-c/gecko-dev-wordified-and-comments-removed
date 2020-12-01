@@ -101,6 +101,25 @@ environ
 COMSPEC
 "
 ]
+elif
+sys
+.
+platform
+!
+=
+"
+win32
+"
+:
+    
+_current_shell
+=
+"
+/
+bin
+/
+sh
+"
 else
 :
     
