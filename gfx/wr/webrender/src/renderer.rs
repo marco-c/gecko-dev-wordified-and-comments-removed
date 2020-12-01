@@ -12959,7 +12959,6 @@ document_id
 mut
 prev_doc
 None
-0
 )
 .
 ok
@@ -13288,7 +13287,6 @@ doc_id
 mut
 doc
 None
-0
 )
 .
 ok
@@ -15392,9 +15390,6 @@ self
 device_size
 :
 DeviceIntSize
-buffer_age
-:
-usize
 )
 -
 >
@@ -15481,7 +15476,6 @@ Some
 (
 device_size
 )
-buffer_age
 )
 ;
 self
@@ -16046,9 +16040,6 @@ Option
 <
 DeviceIntSize
 >
-buffer_age
-:
-usize
 )
 -
 >
@@ -16613,7 +16604,6 @@ draw_frame
 (
 frame
 device_size
-buffer_age
 &
 mut
 results
@@ -23506,9 +23496,6 @@ results
 &
 mut
 RenderResults
-buffer_age
-:
-usize
 max_partial_present_rects
 :
 usize
@@ -23590,8 +23577,7 @@ if
 let
 Some
 (
-.
-.
+partial_present
 )
 =
 self
@@ -23608,7 +23594,11 @@ buffer_damage_tracker
 .
 get_damage_rect
 (
-buffer_age
+partial_present
+.
+get_buffer_age
+(
+)
 )
 .
 or_else
@@ -27878,9 +27868,6 @@ Option
 <
 DeviceIntSize
 >
-buffer_age
-:
-usize
 results
 :
 &
@@ -28522,7 +28509,6 @@ draw_target
 &
 projection
 results
-buffer_age
 max_partial_present_rects
 draw_previous_partial_present_regions
 )
