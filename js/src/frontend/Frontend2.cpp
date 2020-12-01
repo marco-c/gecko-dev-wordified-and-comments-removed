@@ -1720,6 +1720,11 @@ regExpData
 emplaceBack
 (
 atom
+-
+>
+toIndex
+(
+)
 JS
 :
 :
