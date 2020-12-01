@@ -5265,6 +5265,16 @@ scratch
 scratch
 )
 ;
+asMasm
+(
+)
+.
+moveSimd128
+(
+src
+dest
+)
+;
 vpsraw
 (
 count
