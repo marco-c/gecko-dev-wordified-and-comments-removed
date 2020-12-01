@@ -558,17 +558,6 @@ mHttp3Session
 Init
 (
 mConnInfo
--
->
-GetOrigin
-(
-)
-mConnInfo
--
->
-GetNPNToken
-(
-)
 mSocketTransport
 this
 )
