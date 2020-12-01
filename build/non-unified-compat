@@ -98,6 +98,10 @@ flex
 /
 dom
 /
+gamepad
+/
+dom
+/
 indexedDB
 /
 dom

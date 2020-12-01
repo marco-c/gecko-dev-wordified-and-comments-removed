@@ -27,6 +27,17 @@ mozilla
 /
 dom
 /
+GamepadMonitoring
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 GamepadTestChannelParent
 .
 h

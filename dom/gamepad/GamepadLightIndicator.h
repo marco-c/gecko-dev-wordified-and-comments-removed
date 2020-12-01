@@ -15,6 +15,13 @@ GamepadLightIndicatorBinding
 .
 h
 "
+#
+include
+"
+nsWrapperCache
+.
+h
+"
 namespace
 mozilla
 {

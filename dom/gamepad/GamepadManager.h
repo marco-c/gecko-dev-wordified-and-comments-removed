@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsRefPtrHashtable
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -35,6 +42,9 @@ h
 "
 class
 nsGlobalWindowInner
+;
+class
+nsIGlobalObject
 ;
 namespace
 mozilla

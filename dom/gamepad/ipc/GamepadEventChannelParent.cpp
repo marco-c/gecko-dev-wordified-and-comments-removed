@@ -26,6 +26,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+BackgroundParent
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
