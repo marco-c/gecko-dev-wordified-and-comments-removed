@@ -1609,7 +1609,7 @@ aOutput
 >
 SetNull
 (
-numFrames
+WEBAUDIO_BLOCK_SIZE
 )
 ;
 }
