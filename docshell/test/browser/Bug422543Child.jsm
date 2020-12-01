@@ -218,6 +218,10 @@ shistory
 =
 null
 ;
+listeners
+=
+null
+;
 return
 {
 }
