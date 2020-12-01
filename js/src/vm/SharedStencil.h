@@ -836,7 +836,7 @@ funLength
 0
 ;
 uint16_t
-numBytecodeTypeSets
+padding
 =
 0
 ;
@@ -1192,8 +1192,6 @@ GCThingIndex
 bodyScopeIndex
 uint32_t
 numICEntries
-uint32_t
-numBytecodeTypeSets
 bool
 isFunction
 uint16_t
