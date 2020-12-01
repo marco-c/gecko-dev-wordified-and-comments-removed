@@ -204,14 +204,6 @@ allow
 )
 ;
 }
-confirmFolderUpload
-(
-)
-{
-return
-false
-;
-}
 }
 PromptCollection
 .
