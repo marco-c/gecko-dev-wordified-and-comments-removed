@@ -338,8 +338,6 @@ mStride
 mSize
 .
 height
-+
-16
 ;
 }
 size_t
@@ -992,8 +990,6 @@ mStride
 mSize
 .
 height
-+
-16
 ;
 }
 size_t

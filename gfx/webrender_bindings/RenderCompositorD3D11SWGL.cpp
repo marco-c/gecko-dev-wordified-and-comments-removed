@@ -1964,13 +1964,6 @@ texture
 ;
 desc
 .
-Height
-+
-=
-1
-;
-desc
-.
 CPUAccessFlags
 =
 D3D11_CPU_ACCESS_WRITE
