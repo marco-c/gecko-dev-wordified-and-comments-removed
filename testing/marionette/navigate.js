@@ -1005,10 +1005,6 @@ seenBeforeUnload
 =
 true
 ;
-seenUnload
-=
-false
-;
 break
 ;
 case
