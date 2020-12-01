@@ -71,6 +71,17 @@ ErrorIPCUtils
 h
 "
 ;
+include
+"
+mozilla
+/
+dom
+/
+ServiceWorkerIPCUtils
+.
+h
+"
+;
 using
 ServiceWorkerUpdateViaCache
 from
@@ -79,7 +90,7 @@ mozilla
 /
 dom
 /
-ServiceWorkerIPCUtils
+ServiceWorkerRegistrationBinding
 .
 h
 "

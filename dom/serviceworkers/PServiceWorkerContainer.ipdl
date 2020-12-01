@@ -66,6 +66,17 @@ ClientIPCTypes
 include
 IPCServiceWorkerRegistrationDescriptor
 ;
+include
+"
+mozilla
+/
+dom
+/
+ServiceWorkerIPCUtils
+.
+h
+"
+;
 namespace
 mozilla
 {

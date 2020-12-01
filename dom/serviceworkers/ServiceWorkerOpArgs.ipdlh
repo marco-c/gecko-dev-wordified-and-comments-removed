@@ -68,6 +68,17 @@ DOMTypes
 include
 FetchTypes
 ;
+include
+"
+mozilla
+/
+dom
+/
+ServiceWorkerIPCUtils
+.
+h
+"
+;
 using
 ServiceWorkerState
 from
@@ -76,7 +87,7 @@ mozilla
 /
 dom
 /
-ServiceWorkerIPCUtils
+ServiceWorkerBinding
 .
 h
 "
