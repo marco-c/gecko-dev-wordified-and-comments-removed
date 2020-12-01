@@ -168,10 +168,6 @@ mScrollOffset
 mZoom
 (
 )
-mScrollGeneration
-(
-0
-)
 mDisplayPortMargins
 (
 0
@@ -763,7 +759,7 @@ mScrollUpdateType
 eNone
 ;
 }
-uint32_t
+ScrollGeneration
 GetScrollGeneration
 (
 )
@@ -918,7 +914,7 @@ mScrollOffset
 CSSToParentLayerScale2D
 mZoom
 ;
-uint32_t
+ScrollGeneration
 mScrollGeneration
 ;
 ScreenMargin

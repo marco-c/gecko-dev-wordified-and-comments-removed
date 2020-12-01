@@ -164,7 +164,9 @@ static
 ScrollPositionUpdate
 NewScrollframe
 (
-uint32_t
+const
+ScrollGeneration
+&
 aGeneration
 nsPoint
 aInitialPosition
@@ -174,7 +176,9 @@ static
 ScrollPositionUpdate
 NewScroll
 (
-uint32_t
+const
+ScrollGeneration
+&
 aGeneration
 ScrollOrigin
 aOrigin
@@ -186,7 +190,9 @@ static
 ScrollPositionUpdate
 NewRelativeScroll
 (
-uint32_t
+const
+ScrollGeneration
+&
 aGeneration
 nsPoint
 aSource
@@ -198,7 +204,9 @@ static
 ScrollPositionUpdate
 NewSmoothScroll
 (
-uint32_t
+const
+ScrollGeneration
+&
 aGeneration
 ScrollOrigin
 aOrigin
@@ -210,7 +218,9 @@ static
 ScrollPositionUpdate
 NewPureRelativeScroll
 (
-uint32_t
+const
+ScrollGeneration
+&
 aGeneration
 ScrollOrigin
 aOrigin
@@ -234,7 +244,7 @@ aOther
 )
 const
 ;
-uint32_t
+ScrollGeneration
 GetGeneration
 (
 )
@@ -300,7 +310,7 @@ aUpdate
 ;
 private
 :
-uint32_t
+ScrollGeneration
 mScrollGeneration
 ;
 ScrollUpdateType

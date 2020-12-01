@@ -1097,6 +1097,12 @@ IsEmpty
 )
 &
 &
+compositorMetrics
+.
+GetScrollGeneration
+(
+)
+<
 scrollUpdates
 .
 LastElement
@@ -1104,12 +1110,6 @@ LastElement
 )
 .
 GetGeneration
-(
-)
->
-compositorMetrics
-.
-GetScrollGeneration
 (
 )
 ;
