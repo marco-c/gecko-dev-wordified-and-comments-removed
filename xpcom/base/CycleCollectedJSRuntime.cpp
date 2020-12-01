@@ -9200,12 +9200,6 @@ JSExnType
 :
 JSEXN_SYNTAXERR
 :
-case
-JSExnType
-:
-:
-JSEXN_TYPEERR
-:
 break
 ;
 default
