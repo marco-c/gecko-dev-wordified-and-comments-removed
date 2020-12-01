@@ -1686,10 +1686,6 @@ mActualPlaybackState
 )
 )
 ;
-HandleActualPlaybackStateChanged
-(
-)
-;
 mPlaybackStateChangedEvent
 .
 Notify

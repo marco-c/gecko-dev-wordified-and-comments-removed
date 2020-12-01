@@ -561,14 +561,6 @@ MediaStatusManager
 =
 default
 ;
-virtual
-void
-HandleActualPlaybackStateChanged
-(
-)
-=
-0
-;
 MediaEventSource
 <
 nsTArray

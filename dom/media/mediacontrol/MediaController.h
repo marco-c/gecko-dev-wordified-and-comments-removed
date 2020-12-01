@@ -549,7 +549,6 @@ void
 HandleActualPlaybackStateChanged
 (
 )
-override
 ;
 void
 UpdateMediaControlActionToContentMediaIfNeeded
@@ -697,6 +696,9 @@ MediaControlKey
 >
 >
 mSupportedKeysChangedEvent
+;
+MediaEventListener
+mPlaybackChangedListener
 ;
 MediaEventListener
 mPositionStateChangedListener
