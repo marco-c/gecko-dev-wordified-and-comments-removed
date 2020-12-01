@@ -11612,7 +11612,7 @@ Descriptor
 registration
 -
 >
-MaybeScheduleTimeCheckAndUpdate
+MaybeScheduleUpdate
 (
 )
 ;
