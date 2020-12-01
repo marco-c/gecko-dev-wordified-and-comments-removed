@@ -205,7 +205,7 @@ detached
 "
 )
 ;
-assert_equals
+assert_not_equals
 (
 iframeNavigator
 .
@@ -219,7 +219,7 @@ iframe
 s
 clipboard
 should
-not
+still
 exist
 "
 )
@@ -230,10 +230,9 @@ Verify
 navigator
 .
 clipboard
-attached
-only
-on
-attached
+behavior
+in
+detached
 frames
 '
 )
