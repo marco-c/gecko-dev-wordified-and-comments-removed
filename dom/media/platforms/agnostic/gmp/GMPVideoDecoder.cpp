@@ -182,14 +182,6 @@ aParams
 .
 mImageContainer
 )
-mLayersBackend
-(
-aParams
-.
-GetLayersBackend
-(
-)
-)
 mCrashHelper
 (
 aParams
