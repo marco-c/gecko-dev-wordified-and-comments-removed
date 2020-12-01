@@ -2554,7 +2554,7 @@ this
 SAP
 in
 Firefox
-82
+83
 +
 since
 urlbar
