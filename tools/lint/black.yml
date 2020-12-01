@@ -36,6 +36,16 @@ mozbuild
 /
 mozbuild
 /
+fork_interpose
+.
+py
+-
+python
+/
+mozbuild
+/
+mozbuild
+/
 test
 /
 frontend

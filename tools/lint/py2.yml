@@ -47,6 +47,16 @@ other
 -
 licenses
 -
+python
+/
+mozbuild
+/
+mozbuild
+/
+fork_interpose
+.
+py
+-
 security
 -
 servo
