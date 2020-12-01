@@ -1668,6 +1668,7 @@ matches
 about
 :
 home
+*
 "
 "
 about
