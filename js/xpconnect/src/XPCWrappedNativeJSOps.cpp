@@ -188,7 +188,6 @@ wrapper
 ToString
 (
 ccx
-ccx
 .
 GetTearOff
 (
