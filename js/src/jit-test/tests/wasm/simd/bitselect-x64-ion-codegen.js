@@ -15,10 +15,11 @@ rbp
 000000
 .
 .
+66
 0f
-28
+6f
 da
-movaps
+movdqa
 %
 xmm2
 %
