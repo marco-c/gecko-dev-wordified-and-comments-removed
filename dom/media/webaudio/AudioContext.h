@@ -484,11 +484,6 @@ AudioContext
 (
 )
 ;
-nsresult
-Init
-(
-)
-;
 public
 :
 typedef
