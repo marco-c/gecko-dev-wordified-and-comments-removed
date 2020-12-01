@@ -256,6 +256,12 @@ mediacontrol
 /
 dom
 /
+media
+/
+mediasession
+/
+dom
+/
 quota
 /
 dom
