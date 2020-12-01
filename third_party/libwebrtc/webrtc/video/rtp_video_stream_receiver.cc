@@ -2163,6 +2163,16 @@ in_order
 )
 ;
 }
+rtc
+:
+:
+CritScope
+lock
+(
+&
+receive_cs_
+)
+;
 for
 (
 RtpPacketSinkInterface
