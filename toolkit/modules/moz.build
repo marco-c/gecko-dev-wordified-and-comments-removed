@@ -1061,15 +1061,6 @@ tests
 /
 xpcshell
 /
-RegionTestUtils
-.
-jsm
-"
-"
-tests
-/
-xpcshell
-/
 TestIntegration
 .
 jsm
