@@ -849,6 +849,11 @@ allowSpdy
 )
 a
 .
+allowHttp3
+(
+)
+a
+.
 allowAltSvc
 (
 )
@@ -2039,6 +2044,10 @@ allowSpdy
 const
 bool
 &
+allowHttp3
+const
+bool
+&
 allowAltSvc
 const
 bool
@@ -3089,6 +3098,14 @@ httpChannel
 SetAllowSpdy
 (
 allowSpdy
+)
+;
+httpChannel
+-
+>
+SetAllowHttp3
+(
+allowHttp3
 )
 ;
 httpChannel

@@ -386,6 +386,13 @@ must_use
 ]
 attribute
 boolean
+allowHttp3
+;
+[
+must_use
+]
+attribute
+boolean
 responseTimeoutEnabled
 ;
 [

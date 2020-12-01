@@ -10153,6 +10153,14 @@ mAllowSpdy
 ;
 openArgs
 .
+allowHttp3
+(
+)
+=
+mAllowHttp3
+;
+openArgs
+.
 allowAltSvc
 (
 )

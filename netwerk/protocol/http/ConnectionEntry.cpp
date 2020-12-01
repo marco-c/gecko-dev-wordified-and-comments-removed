@@ -299,6 +299,7 @@ GetH2orH3ActiveConn
 (
 this
 false
+false
 )
 ?
 true
@@ -3295,8 +3296,6 @@ ConnectionEntry
 :
 GetH2orH3ActiveConn
 (
-bool
-aNoHttp3
 )
 {
 MOZ_ASSERT
