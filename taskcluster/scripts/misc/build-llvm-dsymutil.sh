@@ -48,7 +48,11 @@ Release
 -
 DLLVM_TARGETS_TO_BUILD
 =
+"
 X86
+;
+AArch64
+"
 \
 -
 DCMAKE_C_COMPILER
