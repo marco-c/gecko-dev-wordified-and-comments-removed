@@ -5681,6 +5681,12 @@ Height
 =
 0
 ;
+aDesiredSize
+.
+SetOverflowAreasToDesiredBounds
+(
+)
+;
 const
 nscoord
 availWidth
