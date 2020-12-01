@@ -11329,6 +11329,13 @@ mGeckoChild
 >
 NotifyThemeChanged
 (
+widget
+:
+:
+ThemeChangeKind
+:
+:
+StyleAndLayout
 )
 ;
 }

@@ -81,6 +81,13 @@ LookAndFeel
 :
 NotifyChangedAllWindows
 (
+widget
+:
+:
+ThemeChangeKind
+:
+:
+StyleAndLayout
 )
 ;
 }

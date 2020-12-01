@@ -152,6 +152,17 @@ h
 #
 include
 "
+mozilla
+/
+widget
+/
+ThemeChangeKind
+.
+h
+"
+#
+include
+"
 nsColor
 .
 h
@@ -2793,6 +2804,11 @@ WindowSizeMoveDone
 void
 ThemeChanged
 (
+widget
+:
+:
+ThemeChangeKind
+aChangeKind
 )
 {
 mPresContext
@@ -2800,6 +2816,7 @@ mPresContext
 >
 ThemeChanged
 (
+aChangeKind
 )
 ;
 }

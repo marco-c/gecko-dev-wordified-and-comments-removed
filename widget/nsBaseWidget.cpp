@@ -7741,6 +7741,8 @@ nsBaseWidget
 :
 NotifyThemeChanged
 (
+ThemeChangeKind
+aKind
 )
 {
 if
@@ -7771,6 +7773,7 @@ presShell
 >
 ThemeChanged
 (
+aKind
 )
 ;
 }

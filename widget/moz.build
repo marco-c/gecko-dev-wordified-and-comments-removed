@@ -874,6 +874,11 @@ ScreenManager
 h
 "
 "
+ThemeChangeKind
+.
+h
+"
+"
 WidgetMessageUtils
 .
 h
