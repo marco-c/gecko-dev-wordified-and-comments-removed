@@ -268,7 +268,7 @@ TOOLTIP
 tooltip
 "
 ATK_ROLE_TOOL_TIP
-NSAccessibilityHelpTagRole
+NSAccessibilityGroupRole
 "
 AXUserInterfaceTooltip
 "
