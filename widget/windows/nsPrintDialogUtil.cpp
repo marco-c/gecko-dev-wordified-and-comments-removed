@@ -1388,9 +1388,6 @@ nToPage
 )
 ;
 }
-else
-{
-}
 aPrintSettings
 -
 >
