@@ -2794,9 +2794,12 @@ TypedArrayObject
 :
 :
 BYTEOFFSET_SLOT
-Int32Value
+PrivateValue
+(
+size_t
 (
 0
+)
 )
 )
 ;

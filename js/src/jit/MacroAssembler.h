@@ -17381,6 +17381,15 @@ Register
 output
 )
 ;
+void
+loadArrayBufferViewByteOffsetInt32
+(
+Register
+obj
+Register
+output
+)
+;
 private
 :
 void
