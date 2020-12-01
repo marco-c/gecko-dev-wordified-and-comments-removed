@@ -8,6 +8,10 @@ import
 json
 from
 six
+import
+assertRegex
+from
+six
 .
 moves
 import
@@ -510,6 +514,7 @@ txt
 "
 query
 =
+r
 "
 pipe
 =
@@ -585,6 +590,7 @@ txt
 "
 query
 =
+r
 "
 pipe
 =
@@ -1457,10 +1463,9 @@ txt
 "
 )
         
-self
-.
-assertRegexpMatches
+assertRegex
 (
+self
 resp
 .
 read
