@@ -43,16 +43,6 @@ Emulation
 extends
 ContentProcessDomain
 {
-setDeviceMetricsOverride
-(
-)
-{
-}
-setTouchEmulationEnabled
-(
-)
-{
-}
 async
 _awaitViewportDimensions
 (
