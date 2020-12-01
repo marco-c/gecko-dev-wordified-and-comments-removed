@@ -82,6 +82,13 @@ kMaxLengthForCompositionString
 =
 8
 ;
+static
+constexpr
+uint32_t
+kMaxLengthForEditor
+=
+20
+;
 PrintStringDetail
 (
 )
