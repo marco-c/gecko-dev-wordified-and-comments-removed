@@ -2628,10 +2628,6 @@ tar
 "
             
 "
-node
-"
-            
-"
 terminal
 -
 notifier
@@ -3002,9 +2998,6 @@ gnutar
 "
 "
 watchman
-"
-"
-nodejs8
 "
 ]
         
