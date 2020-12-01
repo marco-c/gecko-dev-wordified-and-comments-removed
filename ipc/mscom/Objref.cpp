@@ -1211,13 +1211,6 @@ return
 false
 ;
 }
-CLSID
-zeroClsid
-=
-{
-0
-}
-;
 hr
 =
 aStream
@@ -1226,7 +1219,7 @@ aStream
 Write
 (
 &
-zeroClsid
+CLSID_NULL
 sizeof
 (
 CLSID
