@@ -515,6 +515,11 @@ TrackInfo
 TrackType
 mType
 ;
+std
+:
+:
+function
+<
 MediaEventProducer
 <
 TrackInfo
@@ -523,7 +528,9 @@ TrackInfo
 TrackType
 >
 *
-const
+(
+)
+>
 mOnWaitingForKeyEvent
 ;
 const
