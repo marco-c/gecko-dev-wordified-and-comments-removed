@@ -3993,14 +3993,13 @@ mUniqueStrings
 WriteProperty
 (
 aWriter
+MakeStringSpan
+(
 "
 url
 "
-mScreenshotDataURL
-.
-get
-(
 )
+mScreenshotDataURL
 )
 ;
 char
