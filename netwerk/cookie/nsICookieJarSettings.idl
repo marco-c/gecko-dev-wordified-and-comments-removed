@@ -9,6 +9,7 @@ interface
 nsIPrincipal
 ;
 [
+scriptable
 builtinclass
 uuid
 (
