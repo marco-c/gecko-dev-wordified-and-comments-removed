@@ -2237,6 +2237,16 @@ adjust
 .
 55
 ;
+font
+-
+variant
+-
+numeric
+:
+tabular
+-
+nums
+;
 }
 %
 ifdef
