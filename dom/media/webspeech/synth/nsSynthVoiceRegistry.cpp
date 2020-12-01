@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsSynthVoiceRegistry
 .
 h

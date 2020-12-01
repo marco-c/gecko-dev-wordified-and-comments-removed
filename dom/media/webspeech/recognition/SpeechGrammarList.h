@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
