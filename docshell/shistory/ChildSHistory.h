@@ -441,6 +441,16 @@ mAsyncHistoryLength
 =
 false
 ;
+uint64_t
+mHistoryEpoch
+=
+1
+;
+bool
+mPendingEpoch
+=
+false
+;
 }
 ;
 }

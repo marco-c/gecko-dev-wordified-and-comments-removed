@@ -6110,6 +6110,8 @@ BrowsingContext
 aContext
 int32_t
 aOffset
+uint64_t
+aHistoryEpoch
 HistoryGoResolver
 &
 &
