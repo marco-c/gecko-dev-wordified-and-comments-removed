@@ -708,6 +708,13 @@ if
 not
 in
 value
+and
+"
+:
+"
+not
+in
+value
 :
         
 return
