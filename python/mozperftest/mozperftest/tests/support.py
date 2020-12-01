@@ -393,6 +393,21 @@ sys
 .
 executable
     
+mach_cmd
+.
+virtualenv_manager
+.
+bin_path
+=
+Path
+(
+sys
+.
+executable
+)
+.
+parent
+    
 mach_args
 =
 {

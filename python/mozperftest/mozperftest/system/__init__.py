@@ -36,6 +36,14 @@ system
 macos
 import
 MacosDevice
+from
+mozperftest
+.
+system
+.
+pingserver
+import
+PingServer
 def
 get_layers
 (
@@ -43,6 +51,7 @@ get_layers
 :
     
 return
+PingServer
 Profile
 ProxyRunner
 AndroidDevice
@@ -80,6 +89,8 @@ env
 mach_cmd
             
 (
+                
+PingServer
                 
 MacosDevice
                 
