@@ -19,7 +19,7 @@ dom
 {
 nsXULElement
 *
-NS_NewXULPopupElement
+NS_NewXULTooltipElement
 (
 already_AddRefed
 <

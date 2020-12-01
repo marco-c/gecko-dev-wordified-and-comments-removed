@@ -5,6 +5,13 @@ mozilla_dom_XULPersist_h
 define
 mozilla_dom_XULPersist_h
 #
+include
+"
+nsStubDocumentObserver
+.
+h
+"
+#
 ifndef
 MOZ_NEW_XULSTORE
 class
