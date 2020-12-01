@@ -27,15 +27,4 @@ Timespan
 h
 "
 #
-include
-"
-mozilla
-/
-glean
-/
-Uuid
-.
-h
-"
-#
 endif
