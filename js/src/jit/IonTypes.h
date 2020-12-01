@@ -211,6 +211,7 @@ BailoutKind
 :
 uint8_t
 {
+Unknown
 Inevitable
 DuringVMCall
 TooManyArguments
@@ -290,6 +291,17 @@ switch
 kind
 )
 {
+case
+BailoutKind
+:
+:
+Unknown
+:
+return
+"
+Unknown
+"
+;
 case
 BailoutKind
 :
