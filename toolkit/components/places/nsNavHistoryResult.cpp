@@ -14615,8 +14615,6 @@ return
 NS_OK
 ;
 }
-else
-{
 nsCOMPtr
 <
 nsIURI
@@ -14723,7 +14721,6 @@ aNewParentGUID
 aSource
 )
 ;
-}
 }
 return
 NS_OK
