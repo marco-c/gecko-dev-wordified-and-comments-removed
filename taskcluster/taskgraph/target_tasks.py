@@ -10,61 +10,6 @@ utf
 -
 *
 -
-#
-This
-Source
-Code
-Form
-is
-subject
-to
-the
-terms
-of
-the
-Mozilla
-Public
-#
-License
-v
-.
-2
-.
-0
-.
-If
-a
-copy
-of
-the
-MPL
-was
-not
-distributed
-with
-this
-#
-file
-You
-can
-obtain
-one
-at
-http
-:
-/
-/
-mozilla
-.
-org
-/
-MPL
-/
-2
-.
-0
-/
-.
 from
 __future__
 import
@@ -108,54 +53,9 @@ _target_task_methods
 =
 {
 }
-#
-Some
-tasks
-show
-up
-in
-the
-target
-task
-set
-but
-are
-possibly
-special
-cases
-#
-uncommon
-tasks
-or
-tasks
-running
-against
-limited
-hardware
-set
-that
-they
-#
-should
-only
-be
-selectable
-with
--
--
-full
-.
 UNCOMMON_TRY_TASK_LABELS
 =
 [
-    
-#
-Platforms
-and
-/
-or
-Build
-types
     
 r
 "
@@ -166,29 +66,16 @@ build
 -
 gcp
 "
-#
-Bug
-1631990
     
 r
 "
 mingwclang
 "
-#
-Bug
-1631990
     
 r
 "
 valgrind
 "
-#
-Bug
-1631990
-    
-#
-Android
-tasks
     
 r
 "
@@ -205,10 +92,6 @@ android
 -
 hw
 "
-    
-#
-Windows
-tasks
     
 r
 "
@@ -228,25 +111,11 @@ windows10
 aarch64
 "
     
-#
-Linux
-tasks
-    
 r
 "
 linux
 -
 "
-#
-hide
-all
-linux32
-tasks
-by
-default
--
-bug
-1599197
     
 r
 "
@@ -254,17 +123,6 @@ linux1804
 -
 32
 "
-#
-hide
-linux32
-tests
--
-bug
-1599197
-    
-#
-Test
-tasks
     
 r
 "
@@ -277,18 +135,6 @@ tests
 *
 backlog
 "
-#
-hide
-wpt
-jobs
-that
-are
-not
-implemented
-yet
--
-bug
-1572820
     
 r
 "
@@ -302,47 +148,6 @@ r
 profiling
 -
 "
-#
-talos
-/
-raptor
-profiling
-jobs
-are
-run
-too
-often
-    
-#
-Hide
-shippable
-versions
-of
-tests
-we
-have
-opt
-versions
-of
-because
-the
-non
--
-shippable
-    
-#
-versions
-are
-faster
-to
-run
-.
-This
-is
-mostly
-perf
-tests
-.
     
 r
 "
@@ -386,25 +191,7 @@ headless
 )
 )
 "
-#
-noqa
--
-too
-long
 ]
-#
-These
-are
-live
-site
-performance
-tests
-we
-run
-three
-times
-a
-week
 LIVE_SITES
 =
 [
@@ -595,14 +382,6 @@ parameters
     
 return
 (
-        
-#
-nightly
-still
-here
-because
-of
-geckodriver
         
 not
 task
@@ -1171,14 +950,6 @@ l10n
 "
 :
             
-#
-This
-is
-on
--
-change
-l10n
-            
 return
 True
         
@@ -1372,20 +1143,6 @@ esr
 return
 True
     
-#
-code
-below
-here
-is
-intended
-to
-reduce
-beta
-/
-release
-debug
-tasks
-    
 build_type
 =
 task
@@ -1448,14 +1205,6 @@ in
 build_platform
 :
         
-#
-keep
-hazard
-and
-toolchain
-builds
-around
-        
 return
 True
     
@@ -1476,15 +1225,6 @@ not
 in
 build_platform
 :
-            
-#
-filter
-out
-windows
-/
-mac
-/
-android
             
 return
 False
@@ -1509,16 +1249,6 @@ in
 test_platform
 :
             
-#
-filter
-out
-linux
--
-qr
-tests
-leave
-spidermonkey
-            
 return
 False
         
@@ -1531,38 +1261,8 @@ in
 build_platform
 :
             
-#
-filter
-out
-linux32
-builds
-            
 return
 False
-    
-#
-webrender
--
-android
--
-*
--
-debug
-doesn
-'
-t
-have
-attributes
-to
-find
-'
-debug
-'
-using
-task
-.
-label
-.
     
 if
 task
@@ -2091,24 +1791,6 @@ full_task_graph
 l
 ]
         
-#
-If
-the
-developer
-wants
-test
-jobs
-to
-be
-rebuilt
-N
-times
-we
-add
-that
-value
-here
-        
 if
 options
 .
@@ -2137,25 +1819,6 @@ task_duplicates
 options
 .
 trigger_tests
-        
-#
-If
-the
-developer
-wants
-test
-talos
-jobs
-to
-be
-rebuilt
-N
-times
-we
-add
-that
-value
-here
         
 if
 (
@@ -2198,25 +1861,6 @@ task_duplicates
 options
 .
 talos_trigger_tests
-        
-#
-If
-the
-developer
-wants
-test
-raptor
-jobs
-to
-be
-rebuilt
-N
-times
-we
-add
-that
-value
-here
         
 if
 (
@@ -2273,13 +1917,6 @@ update
 (
 attributes
 )
-    
-#
-Add
-notifications
-here
-as
-well
     
 if
 options
@@ -2472,27 +2109,6 @@ graph_config
     
 else
 :
-        
-#
-With
-no
-try
-mode
-we
-schedule
-nothing
-allowing
-the
-user
-to
-add
-tasks
-        
-#
-later
-via
-treeherder
-.
         
 return
 [
@@ -3362,123 +2978,6 @@ platform_family
 build_platform
 )
         
-#
-We
-need
-to
-know
-whether
-this
-test
-is
-against
-a
-"
-regular
-"
-opt
-build
-        
-#
-(
-which
-is
-to
-say
-not
-shippable
-asan
-tsan
-or
-any
-other
-opt
-build
-        
-#
-with
-other
-properties
-)
-.
-There
-'
-s
-no
-positive
-test
-for
-this
-so
-we
-have
-to
-        
-#
-do
-it
-somewhat
-hackily
-.
-Android
-doesn
-'
-t
-have
-variants
-other
-than
-shippable
-        
-#
-so
-it
-is
-pretty
-straightforward
-to
-check
-for
-.
-Other
-platforms
-have
-many
-        
-#
-variants
-but
-none
-of
-the
-regular
-opt
-builds
-we
-'
-re
-looking
-for
-have
-a
-"
--
-"
-        
-#
-in
-their
-platform
-name
-so
-this
-works
-(
-for
-now
-)
-.
-        
 is_regular_opt
 =
 (
@@ -4084,15 +3583,6 @@ build_platform
 "
 )
         
-#
-Android
-is
-not
-built
-on
-esr78
-.
-        
 if
 platform
 and
@@ -4118,17 +3608,6 @@ get
 test_platform
 "
 )
-        
-#
-Don
-'
-t
-run
-QuantumRender
-tests
-on
-esr78
-.
         
 if
 test_platform
@@ -4260,23 +3739,6 @@ release_product
             
 return
 False
-        
-#
-'
-secondary
-'
-balrog
-/
-update
-verify
-/
-final
-verify
-tasks
-only
-run
-for
-RCs
         
 if
 parameters
@@ -4503,17 +3965,6 @@ parameters
 return
 False
         
-#
-Include
-promotion
-tasks
-;
-these
-will
-be
-optimized
-out
-        
 if
 task
 .
@@ -4524,38 +3975,6 @@ filtered_for_candidates
             
 return
 True
-        
-#
-XXX
-:
-Bug
-1612540
--
-include
-beetmover
-jobs
-for
-publishing
-geckoview
-along
-        
-#
-with
-the
-regular
-Firefox
-(
-not
-Devedition
-!
-)
-releases
-so
-that
-they
-are
-at
-sync
         
 if
 "
@@ -4716,23 +4135,6 @@ if
 is_rc
 :
         
-#
-ship_firefox_rc
-runs
-after
-promote
-rather
-than
-push
-;
-include
-        
-#
-all
-promote
-tasks
-.
-        
 filtered_for_candidates
 =
 target_tasks_promote_desktop
@@ -4748,18 +4150,6 @@ graph_config
     
 else
 :
-        
-#
-ship_firefox
-runs
-after
-push
-;
-include
-all
-push
-tasks
-.
         
 filtered_for_candidates
 =
@@ -4793,17 +4183,6 @@ parameters
 return
 False
         
-#
-Include
-promotion
-tasks
-;
-these
-will
-be
-optimized
-out
-        
 if
 task
 .
@@ -4814,19 +4193,6 @@ filtered_for_candidates
             
 return
 True
-        
-#
-XXX
-:
-Bug
-1619603
--
-geckoview
-also
-ships
-alongside
-Firefox
-RC
         
 if
 is_geckoview
@@ -4978,11 +4344,6 @@ build_platform
 "
 )
         
-#
-disable
-mobile
-jobs
-        
 if
 str
 (
@@ -5000,10 +4361,6 @@ android
 return
 False
         
-#
-disable
-asan
-        
 if
 platform
 =
@@ -5017,18 +4374,6 @@ asan
             
 return
 False
-        
-#
-disable
-non
--
-pine
-and
-tasks
-with
-a
-shipping
-phase
         
 if
 standard_filter
@@ -5107,17 +4452,6 @@ filter
 task
 )
 :
-        
-#
-We
-disable
-everything
-in
-central
-and
-adjust
-downstream
-.
         
 return
 False
@@ -5203,29 +4537,6 @@ filter
 task
 )
 :
-        
-#
-XXX
-Starting
-69
-we
-don
-'
-t
-ship
-Fennec
-Nightly
-anymore
-.
-We
-just
-want
-geckoview
-to
-be
-        
-#
-uploaded
         
 return
 task
@@ -5521,19 +4832,6 @@ in
 try_name
 :
                 
-#
-Bug
-1627898
-:
-VP9
-tests
-don
-'
-t
-work
-on
-G5
-                
 if
 "
 -
@@ -5554,16 +4852,6 @@ try_name
                     
 return
 False
-                
-#
-Bug
-1639193
-:
-AV1
-tests
-are
-currently
-broken
                 
 if
 "
@@ -5844,17 +5132,6 @@ e10s
 )
 :
                 
-#
-These
-tests
-run
-3
-times
-a
-week
-ignore
-them
-                
 return
 False
         
@@ -6001,16 +5278,6 @@ if
 vismet
 :
             
-#
-Visual
-metric
-tasks
-are
-configured
-a
-bit
-differently
-            
 platform
 =
 task
@@ -6111,15 +5378,6 @@ True
 return
 False
         
-#
-Completely
-ignore
-all
-non
--
-shippable
-platforms
-        
 if
 "
 shippable
@@ -6132,10 +5390,6 @@ platform
 return
 False
         
-#
-Desktop
-selection
-        
 if
 "
 android
@@ -6144,17 +5398,6 @@ not
 in
 platform
 :
-            
-#
-Select
-some
-browsertime
-tasks
-as
-desktop
-smoke
--
-tests
             
 if
 "
@@ -6266,14 +5509,6 @@ True
 else
 :
                 
-#
-Run
-tests
-on
-all
-chrome
-variants
-                
 if
 (
 "
@@ -6323,27 +5558,12 @@ try_name
 return
 True
         
-#
-Android
-selection
-        
 elif
 accept_raptor_android_build
 (
 platform
 )
 :
-            
-#
-Ignore
-all
-fennec
-tests
-here
-we
-run
-those
-weekly
             
 if
 "
@@ -6355,12 +5575,6 @@ try_name
                 
 return
 False
-            
-#
-Only
-run
-webrender
-tests
             
 if
 "
@@ -6383,12 +5597,6 @@ try_name
                 
 return
 False
-            
-#
-Select
-live
-site
-tests
             
 if
 "
@@ -6420,13 +5628,6 @@ _run_live_site
 (
 )
             
-#
-Select
-fenix
-resource
-usage
-tests
-            
 if
 "
 fenix
@@ -6447,13 +5648,6 @@ try_name
 return
 True
             
-#
-Select
-geckoview
-resource
-usage
-tests
-            
 if
 "
 geckoview
@@ -6461,15 +5655,6 @@ geckoview
 in
 try_name
 :
-                
-#
-Run
-cpu
-+
-memory
-and
-power
-tests
                 
 cpu_n_memory_task
 =
@@ -6495,15 +5680,6 @@ power
 "
 in
 try_name
-                
-#
-Ignore
-cpu
-+
-memory
-+
-power
-tests
                 
 if
 power_task
@@ -6560,13 +5736,6 @@ browsertime
 "
 in
 try_name
-            
-#
-Select
-browsertime
--
-specific
-tests
             
 if
 "
@@ -6676,19 +5845,6 @@ shippable
 False
 )
                 
-#
-Tests
-and
-nightly
-only
-builds
-don
-'
-t
-have
-shipping_product
-set
-                
 task
 .
 attributes
@@ -6721,12 +5877,6 @@ in
 l10n
 "
 }
-#
-no
-on
--
-change
-l10n
             
 ]
         
@@ -7438,15 +6588,6 @@ windows
 "
 "
     
-#
-Tasks
-that
-aren
-'
-t
-platform
-specific
-    
 release_filter
 =
 make_desktop_nightly_filter
@@ -7483,12 +6624,6 @@ parameters
 )
     
 ]
-    
-#
-Avoid
-duplicate
-tasks
-.
     
 return
 list
@@ -7570,13 +6705,6 @@ release_tasks
 )
     
 )
-#
-Run
-Searchfox
-analysis
-once
-daily
-.
 _target_task
 (
 "
@@ -7699,14 +6827,6 @@ summary
 "
     
 ]
-#
-Run
-Coverity
-Static
-Analysis
-once
-daily
-.
 _target_task
 (
 "
@@ -7908,20 +7028,6 @@ task
 )
 :
         
-#
-For
-now
-any
-task
-in
-the
-repo
--
-update
-kind
-is
-ok
-        
 return
 task
 .
@@ -8001,20 +7107,6 @@ task
 )
 :
         
-#
-For
-now
-any
-task
-in
-the
-repo
--
-update
-kind
-is
-ok
-        
 return
 task
 .
@@ -8088,20 +7180,6 @@ filter
 task
 )
 :
-        
-#
-For
-now
-any
-task
-in
-the
-repo
--
-update
-kind
-is
-ok
         
 return
 task
@@ -8177,20 +7255,6 @@ task
 )
 :
         
-#
-For
-now
-any
-task
-in
-the
-repo
--
-update
-kind
-is
-ok
-        
 return
 task
 .
@@ -8264,20 +7328,6 @@ filter
 task
 )
 :
-        
-#
-For
-now
-any
-task
-in
-the
-repo
--
-update
-kind
-is
-ok
         
 return
 task
@@ -8365,20 +7415,6 @@ parameters
             
 return
 False
-        
-#
-For
-now
-any
-task
-in
-the
-repo
--
-update
-kind
-is
-ok
         
 return
 task
@@ -8890,10 +7926,6 @@ task
 )
 :
         
-#
-Ending
-tasks
-        
 if
 task
 .
@@ -8910,10 +7942,6 @@ review
             
 return
 True
-        
-#
-Analyzer
-tasks
         
 if
 task
@@ -9112,13 +8140,6 @@ shippable
 in
 platform
 :
-            
-#
-Get
-browsertime
-amazon
-smoke
-tests
             
 if
 (
@@ -9639,9 +8660,6 @@ in
 [
 "
 view
-"
-"
-main
 "
 ]
         
