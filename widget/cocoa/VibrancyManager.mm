@@ -648,15 +648,3 @@ aType
 ]
 ;
 }
-bool
-VibrancyManager
-:
-:
-SystemSupportsVibrancy
-(
-)
-{
-return
-true
-;
-}
