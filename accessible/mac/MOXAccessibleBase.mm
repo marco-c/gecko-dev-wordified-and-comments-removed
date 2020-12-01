@@ -2216,16 +2216,6 @@ return
 nil
 ;
 }
--
-(
-BOOL
-)
-moxIsLiveRegion
-{
-return
-NO
-;
-}
 #
 pragma
 mark

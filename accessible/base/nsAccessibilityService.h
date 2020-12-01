@@ -1638,16 +1638,6 @@ scrolling
 "
 announcement
 "
-"
-live
-region
-added
-"
-"
-live
-region
-removed
-"
 }
 ;
 #
