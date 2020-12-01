@@ -179,8 +179,6 @@ static
 ASCII_CASE_INSENSITIVE_HTML_ATTRIBUTES
 :
 &
-'
-static
 str
 =
 r

@@ -162,13 +162,8 @@ get
 el
 )
 .
-map
+copied
 (
-|
-x
-|
-*
-x
 )
 }
 pub

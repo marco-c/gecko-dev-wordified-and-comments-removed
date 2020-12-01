@@ -3661,11 +3661,9 @@ debug_assert
 (
 buffer
 .
-offset
+add
 (
 size
-as
-isize
 )
 as
 usize
@@ -4072,10 +4070,6 @@ Self
 HeaderWithLength
 {
 header
-:
-header
-length
-:
 length
 }
 }
@@ -5337,10 +5331,6 @@ ptr
 self
 .
 ptr
-.
-clone
-(
-)
 }
 )
 ;

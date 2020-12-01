@@ -2712,8 +2712,8 @@ len
 =
 =
 1
-{
-if
+&
+&
 !
 collect_ancestor_hashes
 (
@@ -2733,7 +2733,6 @@ len
 return
 false
 ;
-}
 }
 continue
 ;
@@ -14833,8 +14832,6 @@ const
 MATHML
 :
 &
-'
-static
 str
 =
 "
@@ -14859,8 +14856,6 @@ const
 SVG
 :
 &
-'
-static
 str
 =
 "

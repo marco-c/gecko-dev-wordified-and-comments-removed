@@ -373,10 +373,6 @@ blob
 u8
 ]
 )
--
->
-(
-)
 {
 let
 mut
@@ -642,8 +638,6 @@ a
 {
 BufReader
 {
-buf
-:
 buf
 pos
 :
@@ -2510,7 +2504,7 @@ Job
 =
 requests
 .
-into_iter
+iter
 (
 )
 .
@@ -3705,10 +3699,6 @@ new
 (
 )
 workers
-:
-workers
-workers_low_priority
-:
 workers_low_priority
 enable_multithreading
 :

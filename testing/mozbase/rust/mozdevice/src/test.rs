@@ -551,10 +551,6 @@ test
 :
 F
 )
--
->
-(
-)
 where
 F
 :
@@ -566,10 +562,6 @@ Device
 TempDir
 &
 Path
-)
--
->
-(
 )
 +
 panic

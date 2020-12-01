@@ -1800,14 +1800,10 @@ as_secs
 1_000
 )
 +
-(
 elapsed
 .
-subsec_nanos
+subsec_millis
 (
-)
-/
-1_000_000
 )
 as
 u64
@@ -2211,8 +2207,6 @@ program_cache_observer
 WrProgramCache
 {
 program_cache
-disk_cache
-:
 disk_cache
 }
 }

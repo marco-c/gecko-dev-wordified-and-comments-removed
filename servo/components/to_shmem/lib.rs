@@ -806,11 +806,9 @@ self
 .
 buffer
 .
-offset
+add
 (
 start
-as
-isize
 )
 as
 *

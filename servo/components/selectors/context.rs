@@ -898,9 +898,5 @@ OpaqueElement
 self
 .
 current_host
-.
-clone
-(
-)
 }
 }

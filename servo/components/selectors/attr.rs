@@ -732,8 +732,6 @@ static
 SELECTOR_WHITESPACE
 :
 &
-'
-static
 [
 char
 ]
