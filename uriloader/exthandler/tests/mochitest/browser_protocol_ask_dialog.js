@@ -94,7 +94,7 @@ content
 /
 handling
 /
-dialog
+appChooser
 .
 xhtml
 "
@@ -406,7 +406,7 @@ html
 let
 dialogWindowPromise
 =
-waitForProtocolAskDialog
+waitForProtocolAppChooserDialog
 (
 tab
 .
@@ -467,7 +467,7 @@ expected
 let
 dialogClosedPromise
 =
-waitForProtocolAskDialog
+waitForProtocolAppChooserDialog
 (
 tab
 .
@@ -549,7 +549,7 @@ html
 let
 dialogWindowPromise
 =
-waitForProtocolAskDialog
+waitForProtocolAppChooserDialog
 (
 tab
 .
@@ -610,7 +610,7 @@ expected
 let
 dialogClosedPromise
 =
-waitForProtocolAskDialog
+waitForProtocolAppChooserDialog
 (
 tab
 .
@@ -881,7 +881,7 @@ html
 let
 dialogWindowPromise
 =
-waitForProtocolAskDialog
+waitForProtocolAppChooserDialog
 (
 tab
 .
@@ -1041,7 +1041,7 @@ open
 let
 dialogClosedPromise
 =
-waitForProtocolAskDialog
+waitForProtocolAppChooserDialog
 (
 tab
 .
@@ -1079,7 +1079,7 @@ closed
 ;
 dialogWindowPromise
 =
-waitForProtocolAskDialog
+waitForProtocolAppChooserDialog
 (
 tab
 .
@@ -1139,7 +1139,7 @@ expected
 ;
 dialogClosedPromise
 =
-waitForProtocolAskDialog
+waitForProtocolAppChooserDialog
 (
 tab
 .
@@ -1225,7 +1225,7 @@ com
 let
 dialogWindowPromise
 =
-waitForProtocolAskDialog
+waitForProtocolAppChooserDialog
 (
 tab
 .
@@ -1330,7 +1330,7 @@ iframe
 let
 dialogClosedPromise
 =
-waitForProtocolAskDialog
+waitForProtocolAppChooserDialog
 (
 tab
 .
@@ -1389,7 +1389,7 @@ com
 let
 dialogWindowPromise
 =
-waitForProtocolAskDialog
+waitForProtocolAppChooserDialog
 (
 tab
 .
@@ -1694,7 +1694,7 @@ iframe
 let
 dialogClosedPromise
 =
-waitForProtocolAskDialog
+waitForProtocolAppChooserDialog
 (
 tab
 .
