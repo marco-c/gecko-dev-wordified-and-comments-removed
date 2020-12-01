@@ -100,6 +100,7 @@ bool
 OnThread
 (
 )
+const
 ;
 #
 ifdef
@@ -107,10 +108,12 @@ DEBUG
 bool
 InDriverIteration
 (
+const
 GraphDriver
 *
 aDriver
 )
+const
 ;
 #
 endif
