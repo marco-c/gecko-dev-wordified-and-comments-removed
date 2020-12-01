@@ -628,13 +628,6 @@ return
 mStyleSheet
 ;
 }
-StyleSheet
-*
-GetSheetForBindings
-(
-)
-const
-;
 protected
 :
 LinkStyle
