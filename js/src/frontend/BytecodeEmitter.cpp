@@ -52189,7 +52189,7 @@ mozilla
 :
 Span
 <
-ScriptThingVariant
+TaggedScriptThingIndex
 >
 stencilThings
 =

@@ -2009,7 +2009,7 @@ mozilla
 :
 Span
 <
-ScriptThingVariant
+TaggedScriptThingIndex
 >
 NewScriptThingSpanUninitialized
 (

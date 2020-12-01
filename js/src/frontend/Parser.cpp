@@ -9777,7 +9777,7 @@ mozilla
 :
 Span
 <
-ScriptThingVariant
+TaggedScriptThingIndex
 >
 stencilThings
 =
@@ -9847,7 +9847,7 @@ new
 (
 raw
 )
-ScriptThingVariant
+TaggedScriptThingIndex
 (
 index
 )
@@ -9896,7 +9896,7 @@ new
 (
 raw
 )
-ScriptThingVariant
+TaggedScriptThingIndex
 (
 binding
 -
@@ -9913,11 +9913,8 @@ new
 (
 raw
 )
-ScriptThingVariant
+TaggedScriptThingIndex
 (
-NullScriptThing
-(
-)
 )
 ;
 }
