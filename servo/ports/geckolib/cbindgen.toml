@@ -4844,6 +4844,13 @@ HasFiniteRatio
 )
 ;
 }
+inline
+AspectRatio
+ToLayoutRatio
+(
+)
+const
+;
 static
 StyleGenericAspectRatio
 Auto
