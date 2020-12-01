@@ -1631,8 +1631,6 @@ targetOrigin
 ;
 if
 (
-NS_WARN_IF
-(
 NS_FAILED
 (
 targetPrincipal
@@ -1641,7 +1639,6 @@ targetPrincipal
 GetAsciiOrigin
 (
 targetOrigin
-)
 )
 )
 )
