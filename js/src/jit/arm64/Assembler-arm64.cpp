@@ -621,10 +621,7 @@ getOffset
 ;
 ldr
 (
-vixl
-:
-:
-ip0
+ScratchReg64
 ptrdiff_t
 (
 8
@@ -638,10 +635,7 @@ kInstructionSize
 ;
 br
 (
-vixl
-:
-:
-ip0
+ScratchReg64
 )
 ;
 DebugOnly
