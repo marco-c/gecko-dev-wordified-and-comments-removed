@@ -821,10 +821,7 @@ srcZOffset
 unaligned_store
 (
 dest
-pack
-(
 srcpx
-)
 )
 ;
 dest
@@ -865,10 +862,7 @@ srcZOffset
 partial_store_span
 (
 dest
-pack
-(
 srcpx
-)
 span
 )
 ;
