@@ -1243,12 +1243,12 @@ nullptr
 ;
 Maybe
 <
+OffsetAndData
+<
 uint32_t
 >
-mLastCommitStringStart
-;
-nsString
-mLastCommitString
+>
+mLastCommit
 ;
 }
 ;
