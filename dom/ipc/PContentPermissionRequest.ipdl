@@ -97,11 +97,6 @@ Destroy
 child
 :
 async
-GetVisibility
-(
-)
-;
-async
 NotifyResult
 (
 bool

@@ -655,15 +655,8 @@ NS_DECL_NSICONTENTPERMISSIONREQUESTER
 explicit
 nsContentPermissionRequesterProxy
 (
-ContentPermissionRequestParent
-*
-aParent
 )
 :
-mParent
-(
-aParent
-)
 mWaitGettingResult
 (
 false
@@ -688,10 +681,6 @@ nsContentPermissionRequesterProxy
 )
 =
 default
-;
-ContentPermissionRequestParent
-*
-mParent
 ;
 bool
 mWaitGettingResult
