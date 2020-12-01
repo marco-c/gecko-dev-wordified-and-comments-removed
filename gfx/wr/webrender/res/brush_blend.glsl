@@ -180,11 +180,6 @@ varying
 vec2
 v_local_pos
 ;
-flat
-varying
-vec4
-v_flood_color
-;
 /
 /
 Normalized
@@ -1338,7 +1333,7 @@ v_op
 FILTER_FLOOD
 )
 {
-v_flood_color
+v_color_offset
 =
 fetch_from_gpu_cache_1
 (
@@ -2388,13 +2383,13 @@ FILTER_FLOOD
 :
 color
 =
-v_flood_color
+v_color_offset
 .
 rgb
 ;
 alpha
 =
-v_flood_color
+v_color_offset
 .
 a
 ;
