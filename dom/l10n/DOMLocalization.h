@@ -84,6 +84,9 @@ namespace
 dom
 {
 class
+L10nMutations
+;
+class
 DOMLocalization
 :
 public
