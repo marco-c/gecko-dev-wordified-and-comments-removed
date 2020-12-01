@@ -1361,6 +1361,14 @@ typeName
 "
 workerDescriptor
 "
+|
+|
+typeName
+=
+=
+"
+workerTarget
+"
 )
 {
 if

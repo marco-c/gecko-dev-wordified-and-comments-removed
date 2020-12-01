@@ -62,6 +62,13 @@ close
 (
 )
 {
+if
+(
+this
+.
+_dbgListener
+)
+{
 this
 .
 _dbg
@@ -72,6 +79,13 @@ this
 .
 _dbgListener
 )
+;
+}
+this
+.
+_dbgListener
+=
+null
 ;
 this
 .
