@@ -1271,6 +1271,13 @@ first
             
 )
     
+inherit_command_args
+(
+"
+build
+"
+)
+    
 SubCommand
 (
         
