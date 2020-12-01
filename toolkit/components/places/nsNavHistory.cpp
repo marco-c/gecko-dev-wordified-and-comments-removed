@@ -15184,13 +15184,6 @@ itemId
 resultNode
 -
 >
-mFolderId
-=
-parentId
-;
-resultNode
--
->
 mDateAdded
 =
 aRow

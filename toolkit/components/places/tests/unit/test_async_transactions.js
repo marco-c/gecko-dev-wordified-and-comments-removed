@@ -388,14 +388,6 @@ change
 )
 ;
 }
-onItemVisited
-:
-(
-)
-=
->
-{
-}
 onItemMoved
 (
 aItemId

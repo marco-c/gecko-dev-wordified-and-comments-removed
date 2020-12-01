@@ -2028,11 +2028,6 @@ params
 )
 ;
 }
-onItemVisited
-(
-)
-{
-}
 onItemMoved
 (
 itemId
