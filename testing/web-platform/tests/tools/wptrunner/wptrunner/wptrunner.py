@@ -1878,6 +1878,8 @@ product
 .
 get_browser_kwargs
 (
+logger
+                                                                
 test_type
                                                                 
 run_info
@@ -1910,6 +1912,8 @@ product
 .
 get_executor_kwargs
 (
+logger
+                                                                  
 test_type
                                                                   
 test_environment

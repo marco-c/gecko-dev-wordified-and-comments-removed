@@ -166,6 +166,7 @@ pass
 def
 browser_kwargs
 (
+logger
 test_type
 run_info_data
 config
@@ -364,6 +365,7 @@ host_cert_path
 def
 executor_kwargs
 (
+logger
 test_type
 server_config
 cache_manager

@@ -216,6 +216,7 @@ webdriver_binary
 def
 browser_kwargs
 (
+logger
 test_type
 run_info_data
 config
@@ -269,6 +270,7 @@ kwargs
 def
 executor_kwargs
 (
+logger
 test_type
 server_config
 cache_manager
