@@ -620,7 +620,10 @@ const
 std
 :
 :
-string
+basic_string
+<
+CHAR
+>
 &
 aString
 )
@@ -666,7 +669,7 @@ std
 :
 char_traits
 <
-char
+CHAR
 >
 :
 :
@@ -952,7 +955,7 @@ operator
 Span
 <
 const
-char
+CHAR
 >
 (
 )
@@ -962,7 +965,7 @@ return
 Span
 <
 const
-char
+CHAR
 >
 (
 Data
