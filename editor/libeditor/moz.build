@@ -235,6 +235,11 @@ HTMLEditorDataTransfer
 cpp
 "
 "
+HTMLEditorDeleteHandler
+.
+cpp
+"
+"
 HTMLEditorDocumentCommands
 .
 cpp
@@ -246,6 +251,11 @@ cpp
 "
 "
 HTMLEditorObjectResizer
+.
+cpp
+"
+"
+HTMLEditorState
 .
 cpp
 "
