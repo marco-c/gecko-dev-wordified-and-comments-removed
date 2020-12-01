@@ -3610,6 +3610,15 @@ this
 .
 _folderTree
 .
+stopEditing
+(
+false
+)
+;
+this
+.
+_folderTree
+.
 view
 =
 null
