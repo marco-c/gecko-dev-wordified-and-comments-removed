@@ -5,7 +5,11 @@ strict
 ;
 var
 {
+style
+:
+{
 ELEMENT_STYLE
+}
 }
 =
 require
@@ -15,11 +19,7 @@ devtools
 /
 shared
 /
-specs
-/
-style
--
-rule
+constants
 "
 )
 ;

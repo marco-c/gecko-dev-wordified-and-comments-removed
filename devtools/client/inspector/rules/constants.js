@@ -5,12 +5,6 @@ strict
 ;
 exports
 .
-ELEMENT_STYLE
-=
-100
-;
-exports
-.
 COLOR_SCHEMES
 =
 [

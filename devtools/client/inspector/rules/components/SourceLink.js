@@ -91,7 +91,11 @@ redux
 ;
 const
 {
+style
+:
+{
 ELEMENT_STYLE
+}
 }
 =
 require
@@ -99,11 +103,7 @@ require
 "
 devtools
 /
-client
-/
-inspector
-/
-rules
+shared
 /
 constants
 "
