@@ -2738,6 +2738,9 @@ distance
 increment
 =
 5
+scaleFactor
+=
+1
 )
 {
 var
@@ -2811,6 +2814,16 @@ mouseY
 upArrowHeight
 +
 5
+;
+mouseX
+*
+=
+scaleFactor
+;
+mouseY
+*
+=
+scaleFactor
 ;
 dump
 (
