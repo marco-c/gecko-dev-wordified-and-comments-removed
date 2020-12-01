@@ -474,6 +474,9 @@ if
 (
 !
 resetHandlerChoice
+&
+&
+aPrincipal
 )
 {
 let
