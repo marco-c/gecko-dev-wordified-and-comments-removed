@@ -30,6 +30,13 @@ AudioBlock
 .
 h
 "
+#
+include
+"
+MediaData
+.
+h
+"
 namespace
 mozilla
 {
