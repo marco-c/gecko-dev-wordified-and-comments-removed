@@ -193,9 +193,6 @@ init
 (
 )
 ;
-await
-promise
-;
 let
 engine
 =
@@ -249,6 +246,9 @@ setDefault
 (
 engine
 )
+;
+await
+promise
 ;
 await
 AddonTestUtils
