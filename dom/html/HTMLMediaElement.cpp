@@ -22813,6 +22813,16 @@ PauseInternal
 (
 )
 ;
+self
+-
+>
+mMediaControlKeyListener
+-
+>
+StopIfNeeded
+(
+)
+;
 }
 }
 )
