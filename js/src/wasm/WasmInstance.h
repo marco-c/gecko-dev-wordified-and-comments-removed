@@ -672,13 +672,6 @@ profilingEnabled
 const
 ;
 void
-deoptimizeImportExit
-(
-uint32_t
-funcImportIndex
-)
-;
-void
 onMovingGrowMemory
 (
 )
