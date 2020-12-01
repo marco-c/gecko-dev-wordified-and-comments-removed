@@ -4151,7 +4151,7 @@ vp9_settings
 .
 frameDroppingOn
 =
-frame_dropping
+true
 ;
 return
 new
