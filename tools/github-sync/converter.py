@@ -1900,25 +1900,9 @@ author_to_signature
 commit_author
 )
         
-pygit2
-.
-Signature
+author_to_signature
 (
-"
-github
--
-sync
-"
-"
-graphics
--
-team
-mozilla
-.
-staktrace
-.
-com
-"
+commit_author
 )
         
 commit_message
