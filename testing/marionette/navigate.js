@@ -1431,6 +1431,7 @@ onUnload
 driver
 .
 dialogObserver
+?
 .
 remove
 (
