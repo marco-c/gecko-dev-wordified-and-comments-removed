@@ -904,9 +904,6 @@ Destroy
 )
 ;
 }
-#
-ifndef
-MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZCBasicTester
@@ -1001,8 +998,6 @@ pointOut
 ;
 }
 }
-#
-endif
 #
 ifndef
 MOZ_WIDGET_ANDROID

@@ -2356,9 +2356,6 @@ IsOverscrolled
 }
 #
 endif
-#
-ifndef
-MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZScrollHandoffTester
@@ -2464,8 +2461,6 @@ AssertStateIsFling
 )
 ;
 }
-#
-endif
 TEST_F
 (
 APZScrollHandoffTester
