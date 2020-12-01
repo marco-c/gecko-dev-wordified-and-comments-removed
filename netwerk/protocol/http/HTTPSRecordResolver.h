@@ -57,6 +57,17 @@ nsICancelable
 aDNSRequest
 )
 ;
+void
+PrefetchAddrRecord
+(
+const
+nsACString
+&
+aTargetName
+bool
+aRefreshDNS
+)
+;
 protected
 :
 virtual
