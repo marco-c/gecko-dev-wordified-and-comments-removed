@@ -233,9 +233,11 @@ adapter
 MemoryType
 general_config
 :
+&
 GeneralConfig
 linear_config
 :
+&
 LinearConfig
 non_coherent_atom_size
 :
@@ -404,6 +406,7 @@ Kind
 Dedicated
 =
 >
+{
 self
 .
 dedicated
@@ -434,12 +437,14 @@ block
 size
 )
 )
+}
 Kind
 :
 :
 General
 =
 >
+{
 self
 .
 general
@@ -470,12 +475,14 @@ block
 size
 )
 )
+}
 Kind
 :
 :
 Linear
 =
 >
+{
 self
 .
 linear
@@ -506,6 +513,7 @@ block
 size
 )
 )
+}
 }
 ?
 ;
@@ -640,9 +648,6 @@ B
 :
 Device
 )
--
->
-Size
 {
 log
 :
@@ -651,10 +656,9 @@ trace
 !
 (
 "
-Clear
+Dispose
 memory
 allocators
-.
 "
 )
 ;
@@ -666,7 +670,7 @@ clear
 (
 device
 )
-+
+;
 self
 .
 linear
@@ -675,6 +679,7 @@ clear
 (
 device
 )
+;
 }
 pub
 (

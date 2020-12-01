@@ -90,12 +90,6 @@ Wall
 Wextra
 -
 Wshadow
--
-Wno
--
-deprecated
--
-declarations
 ifeq
 (
 (

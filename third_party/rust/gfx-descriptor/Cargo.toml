@@ -127,7 +127,7 @@ version
 "
 0
 .
-2
+1
 .
 0
 "
@@ -229,18 +229,6 @@ extras
 [
 dependencies
 .
-arrayvec
-]
-version
-=
-"
-0
-.
-5
-"
-[
-dependencies
-.
 fxhash
 ]
 version
@@ -260,7 +248,7 @@ version
 "
 0
 .
-6
+5
 "
 package
 =

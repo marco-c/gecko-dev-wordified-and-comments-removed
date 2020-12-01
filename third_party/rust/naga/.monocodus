@@ -2,7 +2,7 @@ version
 :
 1
 .
-1
+0
 .
 0
 rust
@@ -12,11 +12,10 @@ formatter
 name
 :
 rustfmt
-repo_checkers
+ignore_paths
 :
 -
-name
-:
-rust
--
-clippy
+"
+.
+*
+"

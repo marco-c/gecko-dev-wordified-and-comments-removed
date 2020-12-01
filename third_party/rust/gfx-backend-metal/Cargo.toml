@@ -129,9 +129,9 @@ version
 "
 0
 .
-6
+5
 .
-4
+7
 "
 authors
 =
@@ -284,7 +284,7 @@ version
 "
 0
 .
-7
+4
 "
 features
 =
@@ -391,7 +391,9 @@ version
 "
 0
 .
-6
+5
+.
+2
 "
 package
 =
@@ -517,7 +519,7 @@ version
 "
 0
 .
-22
+20
 "
 features
 =

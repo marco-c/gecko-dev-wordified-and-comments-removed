@@ -11,16 +11,6 @@ unused_import_braces
 unused_qualifications
 )
 ]
-#
-[
-allow
-(
-clippy
-:
-:
-new_without_default
-)
-]
 mod
 allocator
 ;

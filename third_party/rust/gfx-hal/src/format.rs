@@ -57,13 +57,6 @@ color
 .
 #
 [
-derive
-(
-Default
-)
-]
-#
-[
 cfg_attr
 (
 feature

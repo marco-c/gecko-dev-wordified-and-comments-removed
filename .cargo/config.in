@@ -294,7 +294,7 @@ spirv_cross
 branch
 =
 "
-wgpu4
+wgpu3
 "
 git
 =
@@ -522,7 +522,7 @@ sources
 rev
 =
 "
-aa35110471ee7915e1f4e1de61ea41f2f32f92c4
+bce6358eb1026c13d2f1c6d365af37afe8869a86
 "
 [
 source

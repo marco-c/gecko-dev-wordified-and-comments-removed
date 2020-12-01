@@ -1940,12 +1940,6 @@ compile
 (
 )
 {
-ir
-.
-fixup_reserved_names
-(
-)
-;
 options
 .
 es
