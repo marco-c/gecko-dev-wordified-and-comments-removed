@@ -1682,7 +1682,6 @@ xy
 vPartialWidths
 .
 xy
-aa_range
 )
 ;
 float
@@ -1702,7 +1701,6 @@ xy
 vPartialWidths
 .
 xy
-aa_range
 )
 ;
 float
@@ -1747,7 +1745,6 @@ xy
 vPartialWidths
 .
 zw
-aa_range
 )
 ;
 float
@@ -2481,7 +2478,6 @@ clip_relative_pos
 vClipRadii
 .
 xy
-aa_range
 )
 ;
 float
@@ -2493,7 +2489,6 @@ clip_relative_pos
 vClipRadii
 .
 zw
-aa_range
 )
 ;
 float

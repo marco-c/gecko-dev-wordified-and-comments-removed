@@ -856,7 +856,6 @@ clip_relative_pos
 vClipRadii
 .
 xy
-aa_range
 )
 ;
 float
@@ -868,7 +867,6 @@ clip_relative_pos
 vClipRadii
 .
 zw
-aa_range
 )
 ;
 d
@@ -932,7 +930,6 @@ clip_relative_pos
 vHorizontalClipRadii
 .
 xy
-aa_range
 )
 ;
 d
@@ -995,7 +992,6 @@ clip_relative_pos
 vVerticalClipRadii
 .
 xy
-aa_range
 )
 ;
 d

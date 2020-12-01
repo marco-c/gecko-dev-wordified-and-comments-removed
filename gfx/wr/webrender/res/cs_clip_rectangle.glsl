@@ -602,7 +602,10 @@ clip_rect
 p0
 +
 r_tl
+inverse_radii_squared
+(
 r_tl
+)
 )
 ;
 vClipCenter_Radius_TR
@@ -627,7 +630,10 @@ y
 r_tr
 .
 y
+inverse_radii_squared
+(
 r_tr
+)
 )
 ;
 vClipCenter_Radius_BR
@@ -639,7 +645,10 @@ clip_rect
 p1
 -
 r_br
+inverse_radii_squared
+(
 r_br
+)
 )
 ;
 vClipCenter_Radius_BL
@@ -664,7 +673,10 @@ y
 r_bl
 .
 y
+inverse_radii_squared
+(
 r_bl
+)
 )
 ;
 #
