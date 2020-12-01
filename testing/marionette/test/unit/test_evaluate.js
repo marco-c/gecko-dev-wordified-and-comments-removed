@@ -148,6 +148,10 @@ this
 ownerDocument
 =
 {
+documentElement
+:
+{
+}
 }
 ;
 this
