@@ -848,7 +848,6 @@ focus
 (
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -867,7 +866,6 @@ browserLoaded
 bg
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -1184,7 +1182,6 @@ focus
 .
 focusedElement
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -1205,7 +1202,6 @@ browserLoaded
 bg
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -1226,7 +1222,6 @@ browserLoaded
 fg
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -1245,7 +1240,6 @@ browserLoaded
 bg
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

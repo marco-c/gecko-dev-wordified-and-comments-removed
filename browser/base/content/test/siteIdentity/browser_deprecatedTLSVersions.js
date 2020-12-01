@@ -275,7 +275,6 @@ function
 browser
 )
 {
-await
 BrowserTestUtils
 .
 loadURI
@@ -327,7 +326,6 @@ secure
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -379,7 +377,6 @@ secure
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -428,7 +425,6 @@ secure
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -480,7 +476,6 @@ secure
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

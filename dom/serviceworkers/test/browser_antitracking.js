@@ -382,7 +382,6 @@ topTab
 linkedBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -481,7 +480,6 @@ topTab
 linkedBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

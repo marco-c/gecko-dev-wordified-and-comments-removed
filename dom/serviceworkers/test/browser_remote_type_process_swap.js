@@ -164,7 +164,6 @@ browserLoaded
 aXULBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

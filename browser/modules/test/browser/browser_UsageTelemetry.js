@@ -1259,7 +1259,6 @@ _lastRecordTabCount
 =
 0
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -1676,7 +1675,6 @@ BrowserUsageTelemetry
 .
 _lastRecordTabCount
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -1790,7 +1788,6 @@ BrowserUsageTelemetry
 .
 _lastRecordTabCount
 ;
-await
 BrowserTestUtils
 .
 loadURI

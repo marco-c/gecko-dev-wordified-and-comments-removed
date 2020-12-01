@@ -795,7 +795,6 @@ remote
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

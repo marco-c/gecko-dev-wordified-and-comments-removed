@@ -430,7 +430,6 @@ focusWindow
 win2
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -459,7 +458,6 @@ gBrowser
 selectedBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

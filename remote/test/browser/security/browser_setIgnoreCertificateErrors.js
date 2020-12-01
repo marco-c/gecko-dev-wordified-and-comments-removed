@@ -424,7 +424,6 @@ gBrowser
 selectedBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -528,7 +527,6 @@ url
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -654,7 +652,6 @@ gBrowser
 selectedBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -757,7 +754,6 @@ the
 override
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -856,7 +852,6 @@ gBrowser
 selectedBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

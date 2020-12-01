@@ -333,7 +333,6 @@ ABOUT_LICENSE_URL
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -343,7 +342,11 @@ win
 gBrowser
 .
 selectedBrowser
-ABOUT_LICENSE_URL
+"
+about
+:
+license
+"
 )
 ;
 await

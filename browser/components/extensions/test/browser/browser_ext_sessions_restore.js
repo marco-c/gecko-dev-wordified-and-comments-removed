@@ -509,7 +509,6 @@ openNewBrowserWindow
 (
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

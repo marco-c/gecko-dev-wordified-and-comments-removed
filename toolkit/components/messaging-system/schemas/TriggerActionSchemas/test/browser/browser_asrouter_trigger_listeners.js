@@ -86,7 +86,6 @@ window
 .
 gBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI

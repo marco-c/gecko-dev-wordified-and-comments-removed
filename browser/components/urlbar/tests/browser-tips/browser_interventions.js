@@ -967,7 +967,6 @@ helpButton
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

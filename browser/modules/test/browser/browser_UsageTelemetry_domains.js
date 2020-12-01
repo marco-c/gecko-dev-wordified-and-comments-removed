@@ -357,7 +357,6 @@ totalUnfilteredURIs
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -459,7 +458,6 @@ openNewBrowserWindow
 (
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -622,7 +620,6 @@ gBrowser
 selectedBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -664,7 +661,6 @@ totalUnfilteredURIs
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -715,7 +711,6 @@ totalUnfilteredURIs
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -911,7 +906,6 @@ a
 >
 "
 ;
-await
 BrowserTestUtils
 .
 loadURI

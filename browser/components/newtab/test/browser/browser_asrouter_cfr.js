@@ -1058,7 +1058,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -1319,7 +1318,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -1636,7 +1634,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -1908,7 +1905,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -2241,7 +2237,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -2556,7 +2551,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -2838,7 +2832,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -3119,7 +3112,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -3436,7 +3428,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -3669,7 +3660,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -4081,7 +4071,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -4555,7 +4544,6 @@ com
 ]
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -4582,7 +4570,6 @@ blank
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -4635,7 +4622,6 @@ com
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -4691,7 +4677,6 @@ navigation
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -4819,7 +4804,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -4893,7 +4877,6 @@ location
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -4960,7 +4943,6 @@ match
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -5040,7 +5022,6 @@ mins
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -5321,7 +5302,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI

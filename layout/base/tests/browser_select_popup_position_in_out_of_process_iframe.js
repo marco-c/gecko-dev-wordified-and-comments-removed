@@ -367,7 +367,6 @@ selectedBrowser
 true
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

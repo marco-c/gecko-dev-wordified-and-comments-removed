@@ -93,7 +93,6 @@ registerListener
 on_auto_upgrade_message
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

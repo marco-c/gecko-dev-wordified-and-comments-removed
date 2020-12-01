@@ -258,7 +258,6 @@ config
 ]
 )
 {
-await
 BrowserTestUtils
 .
 loadURI

@@ -877,7 +877,6 @@ waitForErrorPage
 browser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
