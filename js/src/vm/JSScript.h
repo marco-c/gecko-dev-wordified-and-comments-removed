@@ -6423,9 +6423,7 @@ extent_
 toStringEnd
 ;
 }
-const
 SourceExtent
-&
 extent
 (
 )

@@ -23945,9 +23945,7 @@ AssertObjectIsNotGray
 sourceObject
 )
 ;
-const
 SourceExtent
-&
 extent
 =
 maybeClassExtent
