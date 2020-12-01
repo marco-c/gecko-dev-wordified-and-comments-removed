@@ -624,10 +624,6 @@ KERN_SUCCESS
 pragma
 mark
 -
-#
-define
-MH_SHAREDCACHE
-0x80000000
 struct
 MachO32
 {

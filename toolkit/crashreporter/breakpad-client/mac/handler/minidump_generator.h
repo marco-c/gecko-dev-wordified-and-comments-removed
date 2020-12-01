@@ -622,6 +622,10 @@ char
 module_path
 bool
 in_memory
+bool
+out_of_process
+bool
+in_dyld_shared_cache
 )
 ;
 bool
