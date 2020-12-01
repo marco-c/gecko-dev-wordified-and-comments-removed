@@ -3916,16 +3916,9 @@ currentWindow
 currentFocus
 0
 currentWindow
--
->
-GetBrowsingContext
-(
-)
 !
 =
-GetFocusedBrowsingContext
-(
-)
+mFocusedWindow
 false
 appWin
 !
