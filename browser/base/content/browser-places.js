@@ -2129,11 +2129,10 @@ isNewBookmark
 let
 parentGuid
 =
-PlacesUtils
+await
+PlacesUIUtils
 .
-bookmarks
-.
-unfiledGuid
+defaultParentGuid
 ;
 info
 =
