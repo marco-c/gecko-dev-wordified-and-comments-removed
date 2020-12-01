@@ -250,6 +250,12 @@ mediacapabilities
 /
 dom
 /
+media
+/
+mediacontrol
+/
+dom
+/
 quota
 /
 dom
