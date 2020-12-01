@@ -56,6 +56,17 @@ MPL
 .
 *
 /
+include
+"
+mozilla
+/
+dom
+/
+GamepadMessageUtils
+.
+h
+"
+;
 using
 mozilla
 :
@@ -70,7 +81,7 @@ mozilla
 /
 dom
 /
-GamepadMessageUtils
+GamepadServiceType
 .
 h
 "
@@ -89,7 +100,7 @@ mozilla
 /
 dom
 /
-GamepadMessageUtils
+GamepadPoseState
 .
 h
 "
@@ -108,7 +119,7 @@ mozilla
 /
 dom
 /
-GamepadMessageUtils
+GamepadTouchState
 .
 h
 "
@@ -127,7 +138,7 @@ mozilla
 /
 dom
 /
-GamepadMessageUtils
+GamepadLightIndicatorBinding
 .
 h
 "
@@ -146,7 +157,7 @@ mozilla
 /
 dom
 /
-GamepadMessageUtils
+GamepadBinding
 .
 h
 "
@@ -165,7 +176,7 @@ mozilla
 /
 dom
 /
-GamepadMessageUtils
+GamepadBinding
 .
 h
 "
