@@ -67,6 +67,17 @@ mozilla
 /
 dom
 /
+FileSystem
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FileSystemDirectoryReaderBinding
 .
 h

@@ -90,6 +90,10 @@ filehandle
 /
 dom
 /
+filesystem
+/
+dom
+/
 indexedDB
 /
 dom

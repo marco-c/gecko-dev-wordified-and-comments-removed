@@ -12,6 +12,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+FileSystemUtils
+.
+h
+"
+#
+include
+"
 nsCharSeparatedTokenizer
 .
 h
