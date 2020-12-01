@@ -50,6 +50,15 @@ style
 license
 The
 author
+disclaims
+copyright
+to
+this
+source
+code
+.
+The
+author
 hereby
 disclaims
 copyright

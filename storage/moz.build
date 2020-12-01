@@ -284,6 +284,11 @@ mozStorageStatementRow
 cpp
 "
 "
+ObfuscatingVFS
+.
+cpp
+"
+"
 SQLCollations
 .
 cpp
@@ -403,3 +408,11 @@ CONFIG
 SQLITE_CFLAGS
 "
 ]
+DEFINES
+[
+"
+SQLITE_OBFSVFS_STATIC
+"
+]
+=
+1
