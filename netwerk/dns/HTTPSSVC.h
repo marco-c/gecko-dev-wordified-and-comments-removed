@@ -101,7 +101,10 @@ aOther
 mValue
 ;
 }
+CopyableTArray
+<
 nsCString
+>
 mValue
 ;
 }

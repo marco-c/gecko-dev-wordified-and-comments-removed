@@ -341,7 +341,10 @@ nsISupports
 {
 readonly
 attribute
+Array
+<
 ACString
+>
 alpn
 ;
 }

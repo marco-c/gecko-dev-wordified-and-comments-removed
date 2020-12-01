@@ -1323,7 +1323,10 @@ bool
 SelectAlpnFromAlpnList
 (
 const
-nsACString
+nsTArray
+<
+nsCString
+>
 &
 aAlpnList
 bool
