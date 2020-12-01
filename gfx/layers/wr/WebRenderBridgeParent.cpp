@@ -4152,10 +4152,10 @@ TextureHandle
 wr
 :
 :
-ImageBufferKind
+TextureTarget
 :
 :
-Texture2D
+Default
 )
 :
 wr
@@ -4916,10 +4916,10 @@ TextureHandle
 wr
 :
 :
-ImageBufferKind
+TextureTarget
 :
 :
-Texture2D
+Default
 )
 :
 wr

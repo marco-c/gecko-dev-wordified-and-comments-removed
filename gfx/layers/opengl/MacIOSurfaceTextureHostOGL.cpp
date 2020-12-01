@@ -937,10 +937,10 @@ TextureHandle
 wr
 :
 :
-ImageBufferKind
+TextureTarget
 :
 :
-TextureRect
+Rect
 )
 ;
 switch
