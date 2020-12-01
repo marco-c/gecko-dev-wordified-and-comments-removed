@@ -1353,7 +1353,16 @@ false
 ;
 #
 if
+defined
+(
 MOZ_WIDGET_GTK
+)
+&
+&
+defined
+(
+MOZ_X11
+)
 GdkDisplay
 *
 display
