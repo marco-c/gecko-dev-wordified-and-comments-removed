@@ -10408,6 +10408,10 @@ tarray
 length
 (
 )
+.
+deprecatedGetUint32
+(
+)
 )
 {
 MOZ_ASSERT
@@ -10522,6 +10526,10 @@ viewData
 tarr
 .
 length
+(
+)
+.
+deprecatedGetUint32
 (
 )
 !

@@ -6985,6 +6985,10 @@ tobj
 length
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 if
 (

@@ -7178,6 +7178,10 @@ TypedArrayObject
 length
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 JSObject
 *

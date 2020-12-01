@@ -8526,6 +8526,10 @@ obj
 length
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 args
 .
@@ -9629,6 +9633,10 @@ source
 length
 (
 )
+.
+deprecatedGetUint32
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -9640,6 +9648,10 @@ source
 -
 >
 length
+(
+)
+.
+deprecatedGetUint32
 (
 )
 -
@@ -9655,6 +9667,10 @@ unsafeTypedArrayCrossCompartment
 -
 >
 length
+(
+)
+.
+deprecatedGetUint32
 (
 )
 )
@@ -10007,6 +10023,10 @@ target
 -
 >
 length
+(
+)
+.
+get
 (
 )
 )

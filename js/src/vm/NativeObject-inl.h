@@ -4280,6 +4280,10 @@ TypedArrayObject
 length
 (
 )
+.
+get
+(
+)
 )
 {
 propp
@@ -4573,6 +4577,10 @@ TypedArrayObject
 )
 .
 length
+(
+)
+.
+get
 (
 )
 )

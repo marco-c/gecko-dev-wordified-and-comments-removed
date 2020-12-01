@@ -11050,6 +11050,10 @@ TypedArrayObject
 length
 (
 )
+.
+get
+(
+)
 )
 ;
 if

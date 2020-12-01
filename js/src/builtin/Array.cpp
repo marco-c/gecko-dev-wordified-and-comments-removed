@@ -2544,6 +2544,10 @@ typedArray
 length
 (
 )
+.
+deprecatedGetUint32
+(
+)
 =
 =
 length
@@ -15818,6 +15822,10 @@ TypedArrayObject
 )
 .
 length
+(
+)
+.
+deprecatedGetUint32
 (
 )
 ;

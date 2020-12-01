@@ -5830,6 +5830,10 @@ templateObj
 length
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 size_t
 nbytes

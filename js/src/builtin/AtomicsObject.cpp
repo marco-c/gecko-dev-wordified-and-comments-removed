@@ -496,6 +496,10 @@ typedArray
 length
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 uint64_t
 accessIndex

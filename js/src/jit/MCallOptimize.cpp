@@ -16183,6 +16183,10 @@ obj
 length
 (
 )
+.
+get
+(
+)
 !
 =
 len

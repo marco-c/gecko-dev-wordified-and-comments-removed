@@ -1078,6 +1078,10 @@ TypedArrayObject
 length
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 for
 (
