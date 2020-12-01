@@ -1166,6 +1166,15 @@ PictureInPicture
 :
 Pause
 "
+{
+reason
+:
+"
+pip
+-
+closed
+"
+}
 )
 ;
 this
