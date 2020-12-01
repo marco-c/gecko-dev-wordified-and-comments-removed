@@ -1875,7 +1875,7 @@ initializeSlotRange
 uint32_t
 start
 uint32_t
-length
+end
 )
 {
 HeapSlot
@@ -1897,7 +1897,7 @@ slotsEnd
 getSlotRangeUnchecked
 (
 start
-length
+end
 &
 fixedStart
 &
@@ -1993,10 +1993,8 @@ js
 NativeObject
 :
 :
-initSlotRange
+initSlots
 (
-uint32_t
-start
 const
 Value
 *
@@ -2023,7 +2021,7 @@ slotsEnd
 ;
 getSlotRange
 (
-start
+0
 length
 &
 fixedStart
@@ -2038,7 +2036,7 @@ slotsEnd
 uint32_t
 offset
 =
-start
+0
 ;
 for
 (

@@ -616,7 +616,7 @@ nobj
 uint32_t
 start
 uint32_t
-length
+end
 )
 ;
 void
