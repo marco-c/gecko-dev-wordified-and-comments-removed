@@ -2806,6 +2806,13 @@ newURI
 (
 file
 )
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 }
@@ -2951,6 +2958,13 @@ NetUtil
 newURI
 (
 parent
+)
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
 )
 )
 ;

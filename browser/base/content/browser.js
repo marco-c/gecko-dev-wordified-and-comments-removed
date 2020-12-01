@@ -35371,6 +35371,13 @@ extProtocolSvc
 loadURI
 (
 aURL
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 }
