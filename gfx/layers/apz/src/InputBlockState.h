@@ -492,16 +492,6 @@ bool
 aPreventDefault
 )
 ;
-void
-StartContentResponseTimer
-(
-)
-;
-void
-RecordContentResponseTime
-(
-)
-;
 bool
 TimeoutContentResponse
 (
@@ -552,9 +542,6 @@ override
 ;
 private
 :
-TimeStamp
-mContentResponseTimer
-;
 bool
 mPreventDefault
 ;
