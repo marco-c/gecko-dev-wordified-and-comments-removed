@@ -54,6 +54,10 @@ timespan_metric
 11
 )
 ;
+}
+namespace
+test_nested
+{
 constexpr
 impl
 :
