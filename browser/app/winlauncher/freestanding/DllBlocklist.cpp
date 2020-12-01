@@ -62,13 +62,6 @@ h
 #
 include
 "
-FunctionTableResolver
-.
-h
-"
-#
-include
-"
 LoaderPrivateAPI
 .
 h
@@ -77,6 +70,13 @@ h
 include
 "
 ModuleLoadFrame
+.
+h
+"
+#
+include
+"
+SharedSection
 .
 h
 "

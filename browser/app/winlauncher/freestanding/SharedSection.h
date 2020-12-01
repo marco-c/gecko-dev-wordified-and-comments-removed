@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_freestanding_FunctionTableResolver_h
+mozilla_freestanding_SharedSection_h
 #
 define
-mozilla_freestanding_FunctionTableResolver_h
+mozilla_freestanding_SharedSection_h
 #
 include
 "

@@ -1,7 +1,7 @@
 #
 include
 "
-FunctionTableResolver
+SharedSection
 .
 h
 "
