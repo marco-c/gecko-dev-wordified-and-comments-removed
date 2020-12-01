@@ -34,12 +34,6 @@ IsShuttingDown
 )
 ;
 static
-int
-GetExitCode
-(
-)
-;
-static
 void
 SaveEnvVarsForPotentialRestart
 (
@@ -51,8 +45,6 @@ Init
 (
 AppShutdownMode
 aMode
-int
-aExitCode
 )
 ;
 static
@@ -79,10 +71,6 @@ static
 void
 DoImmediateExit
 (
-int
-aExitCode
-=
-0
 )
 ;
 static

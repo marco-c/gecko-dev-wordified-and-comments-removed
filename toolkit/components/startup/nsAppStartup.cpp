@@ -1202,7 +1202,6 @@ true
 Quit
 (
 eForceQuit
-0
 &
 userAllowedQuit
 )
@@ -1242,8 +1241,6 @@ Quit
 (
 uint32_t
 aMode
-int
-aExitCode
 bool
 *
 aUserAllowedQuit
@@ -1604,7 +1601,6 @@ AppShutdown
 Init
 (
 shutdownMode
-aExitCode
 )
 ;
 if
@@ -2129,15 +2125,6 @@ false
 Quit
 (
 eConsiderQuit
-mozilla
-:
-:
-AppShutdown
-:
-:
-GetExitCode
-(
-)
 &
 userAllowedQuit
 )
@@ -4296,7 +4283,6 @@ nsIAppStartup
 :
 :
 eRestart
-0
 &
 userAllowedQuit
 )
