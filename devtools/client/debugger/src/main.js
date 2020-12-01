@@ -60,10 +60,6 @@ querySelector
 "
 #
 mount
-.
-launchpad
--
-root
 "
 )
 ;
