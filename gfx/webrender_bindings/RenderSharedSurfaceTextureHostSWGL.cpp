@@ -129,9 +129,6 @@ RenderSharedSurfaceTextureHostSWGL
 :
 MapPlane
 (
-RenderCompositor
-*
-aCompositor
 uint8_t
 aChannelIndex
 PlaneInfo
