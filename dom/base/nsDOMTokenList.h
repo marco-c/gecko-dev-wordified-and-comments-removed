@@ -46,17 +46,6 @@ mozilla
 /
 dom
 /
-Element
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 BindingDeclarations
 .
 h
@@ -83,6 +72,9 @@ dom
 {
 class
 DocGroup
+;
+class
+Element
 ;
 }
 }

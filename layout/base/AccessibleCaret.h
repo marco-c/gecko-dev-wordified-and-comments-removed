@@ -27,17 +27,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Element
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -115,6 +104,9 @@ PresShell
 namespace
 dom
 {
+class
+Element
+;
 class
 Event
 ;

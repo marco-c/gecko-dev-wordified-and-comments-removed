@@ -14,17 +14,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Element
-.
-h
-"
-#
-include
-"
 nsGridContainerFrame
 .
 h
@@ -49,6 +38,9 @@ mozilla
 namespace
 dom
 {
+class
+Element
+;
 class
 GridDimension
 ;

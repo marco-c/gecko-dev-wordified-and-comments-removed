@@ -7,17 +7,6 @@ mozilla_dom_HTMLFormControlsCollection_h
 #
 include
 "
-mozilla
-/
-dom
-/
-Element
-.
-h
-"
-#
-include
-"
 nsIHTMLCollection
 .
 h
@@ -63,6 +52,9 @@ mozilla
 namespace
 dom
 {
+class
+Element
+;
 class
 HTMLFormElement
 ;

@@ -35,6 +35,13 @@ nsIContent
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+Element
+;
+}
 struct
 SMILTargetIdentifier
 {

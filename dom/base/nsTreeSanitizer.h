@@ -28,17 +28,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Element
-.
-h
-"
-#
-include
-"
 nsTHashtable
 .
 h
@@ -64,6 +53,9 @@ dom
 {
 class
 DocumentFragment
+;
+class
+Element
 ;
 }
 class
