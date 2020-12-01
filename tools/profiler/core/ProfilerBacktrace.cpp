@@ -44,8 +44,6 @@ const
 char
 *
 aName
-int
-aThreadId
 mozilla
 :
 :
@@ -70,10 +68,6 @@ aProfileBufferStorageOrNull
 mName
 (
 aName
-)
-mThreadId
-(
-aThreadId
 )
 mOptionalProfileChunkedBufferStorage
 (
@@ -217,8 +211,6 @@ const
 char
 *
 aName
-int
-aThreadId
 mozilla
 :
 :
@@ -233,10 +225,6 @@ aExternalProfileBuffer
 mName
 (
 aName
-)
-mThreadId
-(
-aThreadId
 )
 mProfileChunkedBuffer
 (
@@ -379,7 +367,7 @@ ProfilerBacktrace
 )
 ;
 }
-void
+int
 ProfilerBacktrace
 :
 :
@@ -400,11 +388,18 @@ UniqueStacks
 aUniqueStacks
 )
 {
+int
+processedThreadId
+=
+0
+;
 if
 (
 mProfileBuffer
 )
 {
+processedThreadId
+=
 StreamSamplesAndMarkers
 (
 mName
@@ -412,7 +407,7 @@ mName
 c_str
 (
 )
-mThreadId
+0
 *
 mProfileBuffer
 aWriter
@@ -453,6 +448,8 @@ profileBuffer
 mProfileChunkedBuffer
 )
 ;
+processedThreadId
+=
 StreamSamplesAndMarkers
 (
 mName
@@ -460,7 +457,7 @@ mName
 c_str
 (
 )
-mThreadId
+0
 profileBuffer
 aWriter
 "
@@ -487,4 +484,7 @@ aUniqueStacks
 )
 ;
 }
+return
+processedThreadId
+;
 }

@@ -153,7 +153,7 @@ kMaxFrameKeyLength
 =
 512
 ;
-void
+int
 StreamSamplesToJSON
 (
 SpliceableJSONWriter

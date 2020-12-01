@@ -188,7 +188,7 @@ aJITFrameInfo
 )
 const
 ;
-void
+int
 StreamSamplesToJSON
 (
 SpliceableJSONWriter

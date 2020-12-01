@@ -260,7 +260,7 @@ mUnregisterTime
 ;
 }
 ;
-void
+int
 StreamSamplesAndMarkers
 (
 const
