@@ -1,3 +1,5 @@
+from
+subdir
 import
 example_module
 def
