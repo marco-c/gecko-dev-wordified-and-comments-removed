@@ -2576,11 +2576,6 @@ ScopeIndex
 lazyFunctionEnclosingScopeIndex_
 ;
 bool
-isStandaloneFunction
-:
-1
-;
-bool
 wasFunctionEmitted
 :
 1
@@ -2594,10 +2589,6 @@ ScriptStencil
 (
 )
 :
-isStandaloneFunction
-(
-false
-)
 wasFunctionEmitted
 (
 false

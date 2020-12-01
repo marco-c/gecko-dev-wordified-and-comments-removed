@@ -1695,12 +1695,6 @@ if
 scriptStencil
 .
 wasFunctionEmitted
-&
-&
-!
-scriptStencil
-.
-isStandaloneFunction
 )
 {
 continue
@@ -8551,9 +8545,9 @@ json
 boolProperty
 (
 "
-isStandaloneFunction
+wasFunctionEmitted
 "
-isStandaloneFunction
+wasFunctionEmitted
 )
 ;
 json
@@ -8561,9 +8555,9 @@ json
 boolProperty
 (
 "
-wasFunctionEmitted
+allowRelazify
 "
-wasFunctionEmitted
+allowRelazify
 )
 ;
 }

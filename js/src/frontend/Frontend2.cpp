@@ -2718,14 +2718,6 @@ AsSome
 }
 script
 .
-isStandaloneFunction
-=
-smooshScript
-.
-is_standalone_function
-;
-script
-.
 wasFunctionEmitted
 =
 smooshScript

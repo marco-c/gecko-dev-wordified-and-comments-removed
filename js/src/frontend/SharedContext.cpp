@@ -1198,10 +1198,6 @@ emitBytecode
 (
 false
 )
-isStandalone_
-(
-false
-)
 wasEmitted_
 (
 false
@@ -2208,12 +2204,6 @@ script
 lazyFunctionEnclosingScopeIndex_
 =
 enclosingScopeIndex_
-;
-script
-.
-isStandaloneFunction
-=
-isStandalone_
 ;
 script
 .
