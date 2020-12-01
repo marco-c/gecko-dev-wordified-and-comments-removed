@@ -2963,8 +2963,6 @@ count
 detail
 :
 {
-numPages
-:
 sheetCount
 totalPages
 :
@@ -8784,7 +8782,7 @@ max
 =
 this
 .
-_numPages
+_totalPages
 =
 totalPages
 ;
@@ -8827,7 +8825,7 @@ value
 =
 this
 .
-_numPages
+_totalPages
 ;
 isChanged
 =
@@ -8854,7 +8852,7 @@ value
 =
 this
 .
-_numPages
+_totalPages
 ;
 isChanged
 =
@@ -9065,7 +9063,7 @@ value
 =
 this
 .
-_numPages
+_totalPages
 |
 |
 1
@@ -9244,7 +9242,7 @@ numPages
 :
 this
 .
-_numPages
+_totalPages
 }
 )
 ;
@@ -11020,7 +11018,7 @@ numCopies
 !
 this
 .
-numPages
+sheetCount
 )
 {
 return
@@ -11045,7 +11043,7 @@ sheetCount
 :
 this
 .
-numPages
+sheetCount
 *
 this
 .
@@ -11083,20 +11081,15 @@ handleEvent
 e
 )
 {
-let
-{
-numPages
-}
+this
+.
+sheetCount
 =
 e
 .
 detail
-;
-this
 .
-numPages
-=
-numPages
+sheetCount
 ;
 this
 .
