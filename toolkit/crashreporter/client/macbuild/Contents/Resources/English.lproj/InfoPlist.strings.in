@@ -77,9 +77,7 @@ Reporter
 CFBundleDisplayName
 =
 "
-%
 APP_NAME
-%
 Crash
 Reporter
 "
