@@ -845,7 +845,7 @@ MACOS_VERSION_10_13_HEX
 ;
 }
 bool
-Gecko_OnHighSierraOrLater
+Gecko_OnSierraOrLater
 (
 )
 {
@@ -853,7 +853,7 @@ return
 nsCocoaFeatures
 :
 :
-OnHighSierraOrLater
+OnSierraOrLater
 (
 )
 ;

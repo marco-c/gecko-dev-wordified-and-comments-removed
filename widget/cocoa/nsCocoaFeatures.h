@@ -190,7 +190,7 @@ Gecko_OnSierraExactly
 )
 ;
 bool
-Gecko_OnHighSierraOrLater
+Gecko_OnSierraOrLater
 (
 )
 ;
