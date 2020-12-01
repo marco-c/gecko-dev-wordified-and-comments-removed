@@ -182,7 +182,7 @@ mStyleCause
 {
 mStyleCause
 =
-profiler_get_backtrace
+profiler_capture_backtrace
 (
 )
 ;
