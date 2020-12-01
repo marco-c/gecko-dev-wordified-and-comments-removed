@@ -1240,9 +1240,11 @@ nsTableRowGroupFrame
 GetLogicalSkipSides
 (
 const
-ReflowInput
-*
-aReflowInput
+Maybe
+<
+SkipSidesDuringReflow
+>
+&
 )
 const
 {
@@ -1277,9 +1279,6 @@ skip
 }
 if
 (
-nullptr
-!
-=
 GetPrevInFlow
 (
 )
@@ -1293,9 +1292,6 @@ eLogicalSideBitsBStart
 }
 if
 (
-nullptr
-!
-=
 GetNextInFlow
 (
 )
