@@ -28650,16 +28650,6 @@ currentURI
 }
 )
 ;
-isVisible
-&
-&
-=
-BookmarkingUI
-.
-bookmarksToolbarHasVisibleChildren
-(
-)
-;
 break
 ;
 }
