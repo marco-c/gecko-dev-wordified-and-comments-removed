@@ -272,6 +272,11 @@ mOpened
 bool
 mCanceled
 ;
+bool
+mOnDataCalled
+=
+false
+;
 RefPtr
 <
 nsJARProtocolHandler
