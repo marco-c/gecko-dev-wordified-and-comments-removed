@@ -581,8 +581,6 @@ Ok
 scoped
 {
 ptr
-:
-ptr
 }
 )
 }

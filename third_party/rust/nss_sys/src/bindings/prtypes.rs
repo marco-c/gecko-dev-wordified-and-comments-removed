@@ -11,7 +11,6 @@ raw
 {
 c_int
 c_uint
-c_ulong
 }
 ;
 pub
@@ -30,7 +29,7 @@ pub
 type
 PRUword
 =
-c_ulong
+usize
 ;
 pub
 type

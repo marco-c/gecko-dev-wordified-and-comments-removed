@@ -52,6 +52,7 @@ Vec
 <
 String
 >
+String
 )
 CompleteOAuthFlow
 (

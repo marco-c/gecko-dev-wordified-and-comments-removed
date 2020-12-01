@@ -16,6 +16,12 @@ record
 mod
 ser
 ;
+use
+anyhow
+:
+:
+Result
+;
 pub
 use
 engine
@@ -84,10 +90,6 @@ HashSet
 <
 Command
 >
-failure
-:
-:
-Error
 >
 ;
 fn
@@ -104,10 +106,6 @@ Command
 Result
 <
 CommandStatus
-failure
-:
-:
-Error
 >
 ;
 }

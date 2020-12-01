@@ -209,6 +209,11 @@ async
 beginOAuthFlow
 (
 scopes
+entryPoint
+=
+"
+desktop
+"
 )
 {
 return
@@ -220,6 +225,7 @@ bridge
 .
 beginOAuthFlow
 scopes
+entryPoint
 )
 ;
 }
