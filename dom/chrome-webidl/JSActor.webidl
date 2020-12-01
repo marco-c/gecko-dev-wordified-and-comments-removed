@@ -81,12 +81,6 @@ MozJSActorCallbacks
 ChromeOnly
 ]
 MozJSActorCallback
-willDestroy
-;
-[
-ChromeOnly
-]
-MozJSActorCallback
 didDestroy
 ;
 [
