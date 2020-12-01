@@ -185,7 +185,7 @@ Arg
 (
 0
 "
-number
+string
 "
 )
 }
@@ -217,7 +217,7 @@ flag
 RetVal
 (
 "
-number
+string
 "
 )
 }

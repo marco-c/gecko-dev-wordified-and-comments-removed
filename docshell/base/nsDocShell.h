@@ -3819,9 +3819,6 @@ mFailedLoadType
 uint32_t
 mJSRunToCompletionDepth
 ;
-TouchEventsOverride
-mTouchEventsOverride
-;
 MetaViewportOverride
 mMetaViewportOverride
 ;

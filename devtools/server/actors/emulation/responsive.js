@@ -938,11 +938,9 @@ if
 flag
 =
 =
-Ci
-.
-nsIDocShell
-.
-TOUCHEVENTS_OVERRIDE_ENABLED
+"
+enabled
+"
 )
 {
 this
@@ -969,6 +967,8 @@ this
 .
 docShell
 .
+browsingContext
+.
 touchEventsOverride
 =
 flag
@@ -985,6 +985,8 @@ return
 this
 .
 docShell
+.
+browsingContext
 .
 touchEventsOverride
 ;

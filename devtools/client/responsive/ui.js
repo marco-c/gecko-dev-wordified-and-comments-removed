@@ -3966,11 +3966,9 @@ responsiveFront
 .
 setTouchEventsOverride
 (
-Ci
-.
-nsIDocShell
-.
-TOUCHEVENTS_OVERRIDE_ENABLED
+"
+enabled
+"
 )
 ;
 if
