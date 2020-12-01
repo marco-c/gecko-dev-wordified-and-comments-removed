@@ -5915,12 +5915,7 @@ aLastRI
 >
 ComputedLogicalPadding
 (
-)
-.
-ConvertTo
-(
 aWM
-lastWM
 )
 ;
 LogicalMargin

@@ -3025,16 +3025,7 @@ aReflowInput
 .
 ComputedLogicalPadding
 (
-)
-.
-ConvertTo
-(
 wm
-aReflowInput
-.
-GetWritingMode
-(
-)
 )
 )
 )

@@ -4230,6 +4230,7 @@ aReflowInput
 .
 ComputedLogicalPadding
 (
+wm
 )
 +
 GetBorderWidth

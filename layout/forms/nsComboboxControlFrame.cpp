@@ -3965,6 +3965,7 @@ aReflowInput
 .
 ComputedLogicalPadding
 (
+wm
 )
 .
 IEnd
@@ -4042,6 +4043,7 @@ aReflowInput
 .
 ComputedLogicalPadding
 (
+wm
 )
 .
 IEnd
