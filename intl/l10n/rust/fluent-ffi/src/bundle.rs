@@ -173,7 +173,7 @@ str
 transform_dom
 (
 s
-false
+true
 false
 )
 }
