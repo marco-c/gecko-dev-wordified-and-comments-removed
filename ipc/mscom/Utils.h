@@ -67,19 +67,6 @@ IsCurrentThreadImplicitMTA
 (
 )
 ;
-#
-if
-defined
-(
-MOZILLA_INTERNAL_API
-)
-bool
-IsCurrentThreadNonMainMTA
-(
-)
-;
-#
-endif
 bool
 IsProxy
 (
@@ -100,7 +87,7 @@ GetContainingModuleHandle
 (
 )
 ;
-long
+uint32_t
 CreateStream
 (
 const
@@ -116,7 +103,7 @@ IStream
 aOutStream
 )
 ;
-long
+uint32_t
 CopySerializedProxy
 (
 IStream
