@@ -56,14 +56,3 @@ jest
 test
 )
 .
--
-isTesting
--
-is
-the
-tool
-running
-in
-a
-mochitest
-environment

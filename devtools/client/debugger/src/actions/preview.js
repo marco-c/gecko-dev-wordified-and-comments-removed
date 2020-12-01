@@ -77,7 +77,7 @@ source
 ;
 import
 {
-isTesting
+isNodeTest
 }
 from
 "
@@ -651,7 +651,7 @@ hover
 &
 &
 !
-isTesting
+isNodeTest
 (
 )
 )
