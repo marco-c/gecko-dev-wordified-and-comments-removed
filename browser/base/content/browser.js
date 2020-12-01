@@ -28637,13 +28637,6 @@ isOnNewTabPage
 (
 {
 currentURI
-isNullPrincipal
-:
-gBrowser
-.
-contentPrincipal
-.
-isNullPrincipal
 }
 )
 ;
