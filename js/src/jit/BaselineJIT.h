@@ -344,7 +344,6 @@ Kind
 uint32_t
 {
 IC
-PrologueIC
 CallVM
 NonOpCallVM
 StackCheck
@@ -1695,12 +1694,6 @@ nullptr
 void
 *
 resumeAddr
-=
-nullptr
-;
-jsbytecode
-*
-monitorPC
 =
 nullptr
 ;

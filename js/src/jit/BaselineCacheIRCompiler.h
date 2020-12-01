@@ -57,8 +57,6 @@ class
 BaselineCacheIRStubKind
 {
 Regular
-Monitored
-Updated
 }
 ;
 ICStub

@@ -8027,9 +8027,6 @@ args_
 PropertyTypeCheckInfo
 typeCheckInfo_
 ;
-BaselineCacheIRStubKind
-cacheIRStubKind_
-;
 ScriptedThisResult
 getThisForScripted
 (
@@ -8849,16 +8846,6 @@ HandleValue
 result
 )
 ;
-BaselineCacheIRStubKind
-cacheIRStubKind
-(
-)
-const
-{
-return
-cacheIRStubKind_
-;
-}
 const
 PropertyTypeCheckInfo
 *
