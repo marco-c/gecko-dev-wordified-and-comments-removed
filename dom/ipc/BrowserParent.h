@@ -3095,6 +3095,10 @@ aPrincipal
 nsIContentSecurityPolicy
 *
 aCsp
+const
+CookieJarSettingsArgs
+&
+aCookieJarSettingsArgs
 )
 ;
 void

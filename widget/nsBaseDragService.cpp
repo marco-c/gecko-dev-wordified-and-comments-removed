@@ -1010,6 +1010,9 @@ aPrincipal
 nsIContentSecurityPolicy
 *
 aCsp
+nsICookieJarSettings
+*
+aCookieJarSettings
 nsIArray
 *
 aTransferableArray
@@ -1245,6 +1248,14 @@ SetContentPolicyType
 mContentPolicyType
 )
 ;
+trans
+-
+>
+SetCookieJarSettings
+(
+aCookieJarSettings
+)
+;
 mutableArray
 -
 >
@@ -1311,6 +1322,14 @@ SetContentPolicyType
 mContentPolicyType
 )
 ;
+trans
+-
+>
+SetCookieJarSettings
+(
+aCookieJarSettings
+)
+;
 }
 }
 }
@@ -1362,6 +1381,9 @@ aPrincipal
 nsIContentSecurityPolicy
 *
 aCsp
+nsICookieJarSettings
+*
+aCookieJarSettings
 nsIArray
 *
 aTransferableArray
@@ -1580,6 +1602,7 @@ InvokeDragSession
 aDOMNode
 aPrincipal
 aCsp
+aCookieJarSettings
 aTransferableArray
 aActionType
 nsIContentPolicy
@@ -1613,6 +1636,9 @@ aPrincipal
 nsIContentSecurityPolicy
 *
 aCsp
+nsICookieJarSettings
+*
+aCookieJarSettings
 nsIArray
 *
 aTransferableArray
@@ -1743,6 +1769,7 @@ InvokeDragSession
 aDOMNode
 aPrincipal
 aCsp
+aCookieJarSettings
 aTransferableArray
 aActionType
 nsIContentPolicy
@@ -1776,6 +1803,9 @@ aPrincipal
 nsIContentSecurityPolicy
 *
 aCsp
+nsICookieJarSettings
+*
+aCookieJarSettings
 nsIArray
 *
 aTransferableArray
@@ -1918,6 +1948,7 @@ InvokeDragSession
 node
 aPrincipal
 aCsp
+aCookieJarSettings
 aTransferableArray
 aActionType
 nsIContentPolicy
