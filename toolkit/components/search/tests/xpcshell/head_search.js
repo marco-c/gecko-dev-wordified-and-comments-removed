@@ -343,8 +343,7 @@ SearchTestUtils
 .
 init
 (
-Assert
-registerCleanupFunction
+this
 )
 ;
 const

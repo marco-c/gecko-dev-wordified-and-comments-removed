@@ -262,8 +262,7 @@ SearchTestUtils
 .
 init
 (
-Assert
-registerCleanupFunction
+this
 )
 ;
 Services
