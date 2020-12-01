@@ -1892,6 +1892,7 @@ metricsFlowUri
 {
 setFlowParams
 (
+(
 await
 _lib_aboutwelcome_utils__WEBPACK_IMPORTED_MODULE_3__
 [
@@ -1903,6 +1904,7 @@ AboutWelcomeUtils
 fetchFlowParams
 (
 metricsFlowUri
+)
 )
 )
 ;
@@ -2031,11 +2033,13 @@ async
 {
 setRegion
 (
+(
 await
 window
 .
 AWGetRegion
 (
+)
 )
 )
 ;
@@ -2231,11 +2235,13 @@ JSON
 .
 parse
 (
+(
 await
 window
 .
 AWGetImportableSites
 (
+)
 )
 )
 ;
