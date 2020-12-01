@@ -4331,7 +4331,7 @@ exists
 "
 llvm
 /
-LLVMBuild
+README
 .
 txt
 "
@@ -4354,8 +4354,6 @@ root
 directory
 of
 the
-"
-"
 llvm
 -
 project
