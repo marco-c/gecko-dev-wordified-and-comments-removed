@@ -526,12 +526,6 @@ NS_INTRINSIC_ISIZE_UNKNOWN
 LogicalSides
 GetLogicalSkipSides
 (
-const
-Maybe
-<
-SkipSidesDuringReflow
->
-&
 )
 const
 override
