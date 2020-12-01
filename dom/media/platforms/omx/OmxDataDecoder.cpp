@@ -1006,6 +1006,10 @@ LOG
 ;
 MOZ_ASSERT
 (
+!
+mThread
+|
+|
 mThread
 -
 >

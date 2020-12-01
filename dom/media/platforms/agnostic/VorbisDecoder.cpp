@@ -204,16 +204,6 @@ VorbisDataDecoder
 (
 )
 {
-MOZ_ASSERT
-(
-mThread
--
->
-IsOnCurrentThread
-(
-)
-)
-;
 vorbis_block_clear
 (
 &
@@ -252,6 +242,10 @@ Shutdown
 {
 MOZ_ASSERT
 (
+!
+mThread
+|
+|
 mThread
 -
 >

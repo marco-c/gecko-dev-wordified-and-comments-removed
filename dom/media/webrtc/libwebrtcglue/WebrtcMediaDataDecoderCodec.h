@@ -111,8 +111,12 @@ WebrtcVideoDecoder
 {
 public
 :
+explicit
 WebrtcMediaDataDecoder
 (
+nsACString
+&
+aCodecMimeType
 )
 ;
 uint64_t
@@ -300,6 +304,10 @@ MediaDataDecoder
 :
 DecodedData
 mResults
+;
+const
+nsCString
+mCodecType
 ;
 }
 ;
