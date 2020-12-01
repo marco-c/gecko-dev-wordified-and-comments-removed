@@ -181,9 +181,6 @@ const
 nsAString
 &
 aValue
-URLExtraData
-*
-aUrl
 nsTimingFunction
 &
 aResult
@@ -194,7 +191,6 @@ Servo_ParseEasing
 (
 &
 aValue
-aUrl
 &
 aResult
 )

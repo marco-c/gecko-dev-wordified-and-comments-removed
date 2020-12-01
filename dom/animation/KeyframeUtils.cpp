@@ -2020,7 +2020,6 @@ ParseEasing
 keyframeDict
 .
 mEasing
-aDocument
 parseEasingResult
 )
 ;
@@ -4872,7 +4871,6 @@ TimingParams
 ParseEasing
 (
 easingString
-aDocument
 aRv
 )
 ;

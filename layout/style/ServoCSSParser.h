@@ -193,9 +193,6 @@ const
 nsAString
 &
 aValue
-URLExtraData
-*
-aUrl
 nsTimingFunction
 &
 aResult
