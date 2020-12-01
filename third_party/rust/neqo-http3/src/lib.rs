@@ -262,6 +262,7 @@ StreamLimitError
 TransportStreamDoesNotExist
 InvalidInput
 FatalError
+InvalidHeader
 }
 impl
 Error
@@ -300,9 +301,16 @@ Self
 :
 :
 HttpGeneralProtocolStream
+|
+Self
+:
+:
+InvalidHeader
 =
 >
+{
 0x101
+}
 Self
 :
 :
@@ -542,6 +550,11 @@ Self
 :
 :
 HttpGeneralProtocolStream
+|
+Self
+:
+:
+InvalidHeader
 )
 }
 #

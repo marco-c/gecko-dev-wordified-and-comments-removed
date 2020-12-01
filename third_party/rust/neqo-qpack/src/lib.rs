@@ -93,7 +93,6 @@ reader
 mod
 static_table
 ;
-pub
 mod
 stats
 ;
@@ -113,6 +112,13 @@ encoder
 :
 :
 QPackEncoder
+;
+pub
+use
+stats
+:
+:
+Stats
 ;
 pub
 type
