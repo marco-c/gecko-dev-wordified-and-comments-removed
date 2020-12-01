@@ -12493,7 +12493,7 @@ uint8_t
 memoryBase
 ;
 uint32_t
-boundsCheckLimit
+boundsCheckLimit32
 ;
 Instance
 *
@@ -13221,6 +13221,14 @@ u
 builtin_
 ;
 }
+}
+;
+enum
+class
+MemoryKind
+{
+Memory32
+Memory64
 }
 ;
 static

@@ -11940,7 +11940,7 @@ trapOffset
 )
 ;
 void
-wasmBoundsCheck
+wasmBoundsCheck32
 (
 Condition
 cond
@@ -11962,7 +11962,7 @@ x86_shared
 )
 ;
 void
-wasmBoundsCheck
+wasmBoundsCheck32
 (
 Condition
 cond
