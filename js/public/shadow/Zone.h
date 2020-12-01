@@ -50,6 +50,7 @@ GCState
 uint8_t
 {
 NoGC
+Prepare
 MarkBlackOnly
 MarkBlackAndGray
 Sweep
@@ -195,6 +196,19 @@ gcState_
 !
 =
 NoGC
+;
+}
+bool
+isGCPreparing
+(
+)
+const
+{
+return
+gcState_
+=
+=
+Prepare
 ;
 }
 bool
