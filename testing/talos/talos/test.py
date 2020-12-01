@@ -2517,6 +2517,20 @@ maxurls
 :
 -
 1
+        
+"
+browser
+.
+toolbars
+.
+bookmarks
+.
+visibility
+"
+:
+"
+never
+"
     
 }
     
