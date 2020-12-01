@@ -128,11 +128,8 @@ new
 (
 (
 sample
-.
-saturating_add
-(
++
 1
-)
 )
 as
 f64

@@ -597,7 +597,7 @@ meta
 ErrorType
 :
 :
-InvalidOverflow
+InvalidValue
 None
 )
 )

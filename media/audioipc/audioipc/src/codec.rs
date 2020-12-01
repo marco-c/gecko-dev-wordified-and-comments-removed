@@ -6,7 +6,6 @@ bincode
 self
 deserialize
 serialized_size
-Options
 }
 ;
 use
@@ -869,11 +868,11 @@ e
 bincode
 :
 :
-options
+config
 (
 )
 .
-with_limit
+limit
 (
 encoded_len
 )
