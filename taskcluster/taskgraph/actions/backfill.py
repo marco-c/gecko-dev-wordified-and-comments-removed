@@ -257,15 +257,12 @@ Bk
 description
 =
 (
-        
 "
 Given
 a
 task
 schedule
 it
-"
-"
 on
 previous
 pushes
@@ -275,7 +272,6 @@ same
 project
 .
 "
-    
 )
     
 order
@@ -494,8 +490,6 @@ to
 execute
 each
 job
-"
-"
 you
 are
 backfilling
@@ -808,9 +802,6 @@ label
 return
 task
     
-try
-:
-        
 logger
 .
 debug
@@ -830,11 +821,11 @@ task
 label
 )
 )
-        
+    
 test_manifests
 =
 test_manifests
-        
+    
 task
 .
 attributes
@@ -845,7 +836,7 @@ test_manifests
 ]
 =
 test_manifests
-        
+    
 task
 .
 task
@@ -869,11 +860,9 @@ json
 .
 dumps
 (
-            
 test_manifests
-        
 )
-        
+    
 task
 .
 task
@@ -891,7 +880,7 @@ name
 task
 .
 label
-        
+    
 th_info
 =
 task
@@ -907,7 +896,7 @@ extra
 treeherder
 "
 ]
-        
+    
 th_info
 [
 "
@@ -935,7 +924,7 @@ revision
 11
 ]
 )
-        
+    
 if
 th_info
 .
@@ -946,7 +935,7 @@ groupSymbol
 "
 )
 :
-            
+        
 th_info
 [
 "
@@ -971,39 +960,6 @@ groupSymbol
 ]
 )
     
-except
-KeyError
-as
-e
-:
-        
-logger
-.
-exception
-(
-e
-)
-        
-logger
-.
-warning
-(
-"
-The
-task
-will
-be
-scheduled
-without
-intended
-modifications
-.
-"
-)
-    
-finally
-:
-        
 return
 task
 def
