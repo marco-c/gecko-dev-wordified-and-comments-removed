@@ -5138,7 +5138,7 @@ geckoprofiler
 markers
 :
 :
-MediaSample
+MediaSampleMarker
 {
 }
 123

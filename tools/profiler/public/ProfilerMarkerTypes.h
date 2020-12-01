@@ -137,7 +137,7 @@ markers
 UserTimingMeasure
 ;
 using
-MediaSample
+MediaSampleMarker
 =
 mozilla
 :
@@ -148,7 +148,7 @@ baseprofiler
 markers
 :
 :
-MediaSample
+MediaSampleMarker
 ;
 using
 ContentBuildMarker
