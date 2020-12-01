@@ -43253,7 +43253,7 @@ toThrowRuntimeLexicalError
 }
 ;
 class
-LGlobalNameConflictsCheck
+LGlobalDeclInstantiation
 :
 public
 LInstructionHelper
@@ -43267,9 +43267,9 @@ public
 :
 LIR_HEADER
 (
-GlobalNameConflictsCheck
+GlobalDeclInstantiation
 )
-LGlobalNameConflictsCheck
+LGlobalDeclInstantiation
 (
 )
 :
@@ -43279,7 +43279,7 @@ classOpcode
 )
 {
 }
-MGlobalNameConflictsCheck
+MGlobalDeclInstantiation
 *
 mir
 (
@@ -43289,7 +43289,7 @@ return
 mir_
 -
 >
-toGlobalNameConflictsCheck
+toGlobalDeclInstantiation
 (
 )
 ;

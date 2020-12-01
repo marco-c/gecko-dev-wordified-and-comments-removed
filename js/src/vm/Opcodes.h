@@ -3159,13 +3159,13 @@ JOF_ATOM
 \
 MACRO
 (
-CheckGlobalOrEvalDecl
-check_global_or_eval_decl
+GlobalOrEvalDeclInstantiation
+global_or_eval_decl_instantiation
 NULL
-1
+5
 0
 0
-JOF_BYTE
+JOF_GCTHING
 )
 \
 \

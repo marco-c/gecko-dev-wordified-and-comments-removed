@@ -1508,13 +1508,16 @@ resumeKindArg
 ;
 MOZ_MUST_USE
 bool
-GlobalNameConflictsCheckFromIon
+GlobalDeclInstantiationFromIon
 (
 JSContext
 *
 cx
 HandleScript
 script
+jsbytecode
+*
+pc
 )
 ;
 MOZ_MUST_USE

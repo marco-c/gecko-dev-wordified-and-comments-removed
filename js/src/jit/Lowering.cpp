@@ -39821,14 +39821,14 @@ void
 LIRGenerator
 :
 :
-visitGlobalNameConflictsCheck
+visitGlobalDeclInstantiation
 (
-MGlobalNameConflictsCheck
+MGlobalDeclInstantiation
 *
 ins
 )
 {
-LGlobalNameConflictsCheck
+LGlobalDeclInstantiation
 *
 lir
 =
@@ -39838,7 +39838,7 @@ alloc
 (
 )
 )
-LGlobalNameConflictsCheck
+LGlobalDeclInstantiation
 (
 )
 ;

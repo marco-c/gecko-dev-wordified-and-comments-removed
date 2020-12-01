@@ -3850,7 +3850,7 @@ varObj
 ;
 MOZ_MUST_USE
 bool
-CheckGlobalOrEvalDeclarationConflicts
+GlobalOrEvalDeclInstantiation
 (
 JSContext
 *
@@ -3859,6 +3859,8 @@ HandleObject
 envChain
 HandleScript
 script
+GCThingIndex
+lastFun
 )
 ;
 MOZ_MUST_USE

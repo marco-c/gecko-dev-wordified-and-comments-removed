@@ -8457,7 +8457,7 @@ bool
 WarpBuilder
 :
 :
-build_CheckGlobalOrEvalDecl
+build_GlobalOrEvalDeclInstantiation
 (
 BytecodeLocation
 loc
@@ -8484,7 +8484,7 @@ auto
 *
 redeclCheck
 =
-MGlobalNameConflictsCheck
+MGlobalDeclInstantiation
 :
 :
 New

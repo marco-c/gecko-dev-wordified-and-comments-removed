@@ -7785,13 +7785,16 @@ false
 ;
 }
 bool
-GlobalNameConflictsCheckFromIon
+GlobalDeclInstantiationFromIon
 (
 JSContext
 *
 cx
 HandleScript
 script
+jsbytecode
+*
+pc
 )
 {
 Rooted

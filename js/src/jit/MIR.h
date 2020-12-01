@@ -32396,12 +32396,12 @@ ExceptionState
 }
 ;
 class
-MGlobalNameConflictsCheck
+MGlobalDeclInstantiation
 :
 public
 MNullaryInstruction
 {
-MGlobalNameConflictsCheck
+MGlobalDeclInstantiation
 (
 )
 :
@@ -32419,7 +32419,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-GlobalNameConflictsCheck
+GlobalDeclInstantiation
 )
 TRIVIAL_NEW_WRAPPERS
 }
