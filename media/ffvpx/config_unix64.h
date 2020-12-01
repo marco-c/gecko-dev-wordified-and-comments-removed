@@ -2334,6 +2334,10 @@ CONFIG_NVENC
 0
 #
 define
+CONFIG_VAAPI
+0
+#
+define
 CONFIG_VDPAU
 0
 #
