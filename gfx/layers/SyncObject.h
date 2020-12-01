@@ -207,6 +207,14 @@ IsSyncObjectValid
 =
 0
 ;
+virtual
+void
+EnsureInitialized
+(
+)
+=
+0
+;
 protected
 :
 SyncObjectClient
