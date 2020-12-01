@@ -245,11 +245,6 @@ onInitBrowser
 )
 {
 }
-onDestroyBrowser
-(
-)
-{
-}
 onInit
 (
 )
