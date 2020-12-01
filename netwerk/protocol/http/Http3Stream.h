@@ -383,6 +383,11 @@ mSendingBlockedByFlowControlCount
 =
 0
 ;
+nsresult
+mSocketInCondition
+=
+NS_ERROR_NOT_INITIALIZED
+;
 }
 ;
 }
