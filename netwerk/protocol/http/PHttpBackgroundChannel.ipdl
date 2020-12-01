@@ -33,11 +33,7 @@ nsIHttpChannel
 FlashPluginState
 from
 "
-mozilla
-/
-net
-/
-NeckoMessageUtils
+nsIHttpChannel
 .
 h
 "
