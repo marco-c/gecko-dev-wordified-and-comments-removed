@@ -295,6 +295,22 @@ self
 carets_tested_pref
 :
 True
+            
+"
+layout
+.
+accessiblecaret
+.
+transition
+-
+duration
+"
+:
+"
+0
+.
+0
+"
         
 }
         

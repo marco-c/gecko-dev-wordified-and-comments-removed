@@ -208,6 +208,22 @@ self
 hide_carets_for_mouse
 :
 False
+            
+"
+layout
+.
+accessiblecaret
+.
+transition
+-
+duration
+"
+:
+"
+0
+.
+0
+"
         
 }
         
