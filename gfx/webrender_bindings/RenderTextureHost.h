@@ -85,6 +85,9 @@ namespace
 wr
 {
 class
+RenderCompositor
+;
+class
 RenderDXGITextureHost
 ;
 class
@@ -172,6 +175,9 @@ aChannelIndex
 void
 *
 aContext
+RenderCompositor
+*
+aCompositor
 wr
 :
 :

@@ -713,6 +713,12 @@ mTarget
 nullptr
 ;
 }
+SyncObjectHost
+*
+GetSyncObject
+(
+)
+;
 private
 :
 enum

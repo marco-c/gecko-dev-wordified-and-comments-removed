@@ -458,6 +458,12 @@ LockSWGL
 (
 aChannelIndex
 swgl
+renderer
+-
+>
+GetCompositor
+(
+)
 aRendering
 )
 ;
