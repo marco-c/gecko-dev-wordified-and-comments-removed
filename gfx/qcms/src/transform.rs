@@ -10590,6 +10590,8 @@ as_deref
 unwrap
 (
 )
+&
+mut
 Arc
 :
 :
@@ -10605,10 +10607,6 @@ unwrap
 )
 .
 data
-.
-as_mut_ptr
-(
-)
 )
 {
 (
@@ -10662,6 +10660,8 @@ as_deref
 unwrap
 (
 )
+&
+mut
 Arc
 :
 :
@@ -10677,10 +10677,6 @@ unwrap
 )
 .
 data
-.
-as_mut_ptr
-(
-)
 )
 {
 (
@@ -10734,6 +10730,8 @@ as_deref
 unwrap
 (
 )
+&
+mut
 Arc
 :
 :
@@ -10749,10 +10747,6 @@ unwrap
 )
 .
 data
-.
-as_mut_ptr
-(
-)
 )
 {
 (
