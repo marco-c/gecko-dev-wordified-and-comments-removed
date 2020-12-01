@@ -198,6 +198,7 @@ de
 :
 :
 {
+from_bytes
 from_file
 from_reader
 from_reader_xml

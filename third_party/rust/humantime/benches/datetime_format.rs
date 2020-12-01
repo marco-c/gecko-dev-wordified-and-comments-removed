@@ -8,14 +8,6 @@ test
 ]
 extern
 crate
-chrono
-;
-extern
-crate
-humantime
-;
-extern
-crate
 test
 ;
 use
@@ -72,7 +64,7 @@ Duration
 :
 new
 (
-1483228799
+1_483_228_799
 0
 )
 ;
@@ -227,7 +219,7 @@ NaiveDateTime
 :
 from_timestamp
 (
-1483228799
+1_483_228_799
 0
 )
 Utc
@@ -249,8 +241,6 @@ const
 ITEMS
 :
 &
-'
-static
 [
 Item
 <
