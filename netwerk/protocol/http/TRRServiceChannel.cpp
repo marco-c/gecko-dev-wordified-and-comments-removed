@@ -68,6 +68,13 @@ h
 #
 include
 "
+nsICachingChannel
+.
+h
+"
+#
+include
+"
 nsIHttpPushListener
 .
 h
