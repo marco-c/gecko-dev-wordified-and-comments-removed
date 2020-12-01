@@ -7176,15 +7176,6 @@ objectGrip
 )
 ;
 }
-getSourcesManager
-:
-(
-)
-=
->
-this
-.
-sourcesManager
 createEnvironmentActor
 :
 (
