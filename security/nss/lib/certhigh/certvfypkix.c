@@ -916,9 +916,6 @@ pplContext
 =
 plContext
 ;
-#
-ifdef
-PKIX_NOTDEF
 PKIX_CHECK
 (
 pkix_pl_NssContext_SetCertSignatureCheck
@@ -933,8 +930,6 @@ plContext
 PKIX_NSSCONTEXTSETCERTSIGNCHECKFAILED
 )
 ;
-#
-endif
 PKIX_CHECK
 (
 PKIX_ProcessingParams_Create

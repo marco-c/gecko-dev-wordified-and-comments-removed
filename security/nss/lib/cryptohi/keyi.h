@@ -33,6 +33,13 @@ SECOidTag
 hashalg
 )
 ;
+SECOidTag
+sec_GetEncAlgFromSigAlg
+(
+SECOidTag
+sigAlg
+)
+;
 SECStatus
 sec_DecodeRSAPSSParams
 (
