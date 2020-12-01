@@ -1,0 +1,16 @@
+SOURCES
++
+=
+[
+'
+mozva
+.
+cpp
+'
+]
+SharedLibrary
+(
+'
+mozva
+'
+)
