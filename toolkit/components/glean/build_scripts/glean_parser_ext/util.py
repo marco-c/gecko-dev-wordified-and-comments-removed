@@ -137,6 +137,9 @@ IMPLEMENTED_CPP_TYPES
 counter
 "
 "
+datetime
+"
+"
 string
 "
 "
