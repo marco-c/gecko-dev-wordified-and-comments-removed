@@ -266,6 +266,10 @@ webbrowserpersist
 /
 dom
 /
+webgpu
+/
+dom
+/
 webidl
 /
 dom
