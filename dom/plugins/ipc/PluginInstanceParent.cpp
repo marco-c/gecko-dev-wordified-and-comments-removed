@@ -1552,6 +1552,9 @@ AllowDirectBitmapSurfaceDrawing
 if
 (
 !
+mozilla
+:
+:
 StaticPrefs
 :
 :

@@ -81,6 +81,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IntentionalCrash
 .
 h
@@ -3138,6 +3147,9 @@ error
 )
 {
 }
+std
+:
+:
 string
 pluginGetClipboardText
 (
@@ -3164,6 +3176,9 @@ gtk_clipboard_wait_for_text
 cb
 )
 ;
+std
+:
+:
 string
 retText
 =

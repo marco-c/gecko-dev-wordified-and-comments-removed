@@ -2082,6 +2082,12 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
+mozilla
+:
+:
+dom
+:
+:
 Document
 >
 doc
