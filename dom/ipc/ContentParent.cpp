@@ -6965,11 +6965,10 @@ if
 cp
 &
 &
-!
 cp
 -
 >
-IsDestroyed
+CanSend
 (
 )
 )
@@ -8915,7 +8914,9 @@ SEND_SHUTDOWN_MESSAGE
 {
 if
 (
-mIPCOpen
+CanSend
+(
+)
 &
 &
 !
@@ -9917,10 +9918,6 @@ mForceKillTimer
 nullptr
 ;
 }
-mIPCOpen
-=
-false
-;
 RemoveShutdownBlockers
 (
 )
@@ -11374,7 +11371,9 @@ mForceKillTimer
 |
 |
 !
-mIPCOpen
+CanSend
+(
+)
 )
 {
 return
@@ -13279,10 +13278,6 @@ false
 mShutdownPending
 (
 false
-)
-mIPCOpen
-(
-true
 )
 mIsRemoteInputEventQueueEnabled
 (
@@ -16024,7 +16019,9 @@ aVar
 if
 (
 !
-mIPCOpen
+CanSend
+(
+)
 )
 {
 return
