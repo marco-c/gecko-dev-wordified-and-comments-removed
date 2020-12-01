@@ -150,13 +150,6 @@ POISON
 }
 }
 extern
-MFBT_API
-void
-mozPoisonValueInit
-(
-)
-;
-extern
 MFBT_DATA
 uintptr_t
 gMozillaPoisonBase

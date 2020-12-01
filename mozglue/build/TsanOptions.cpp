@@ -533,13 +533,6 @@ n
 "
 race
 :
-gMozillaPoisonValue
-\
-n
-"
-"
-race
-:
 setFlagBit
 \
 n
