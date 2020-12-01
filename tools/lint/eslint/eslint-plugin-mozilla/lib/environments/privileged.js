@@ -974,6 +974,9 @@ false
 MediaCapabilitiesInfo
 :
 false
+MediaControlService
+:
+false
 MediaDeviceInfo
 :
 false
