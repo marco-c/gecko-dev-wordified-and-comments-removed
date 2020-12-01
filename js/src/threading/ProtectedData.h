@@ -7,6 +7,15 @@ threading_ProtectedData_h
 #
 include
 "
+mozilla
+/
+Atomics
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
