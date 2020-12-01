@@ -4709,7 +4709,7 @@ load
 }
 MWasmLoadTls
 *
-maybeLoadBoundsCheckLimit32
+maybeLoadBoundsCheckLimit
 (
 )
 {
@@ -4773,7 +4773,7 @@ wasm
 :
 :
 TlsData
-boundsCheckLimit32
+boundsCheckLimit
 )
 MIRType
 :
@@ -5222,15 +5222,15 @@ bytecodeOffset
 }
 MWasmLoadTls
 *
-boundsCheckLimit32
+boundsCheckLimit
 =
-maybeLoadBoundsCheckLimit32
+maybeLoadBoundsCheckLimit
 (
 )
 ;
 if
 (
-boundsCheckLimit32
+boundsCheckLimit
 )
 {
 auto
@@ -5247,7 +5247,7 @@ alloc
 )
 *
 base
-boundsCheckLimit32
+boundsCheckLimit
 bytecodeOffset
 (
 )
@@ -5477,9 +5477,9 @@ offset
 ;
 MWasmLoadTls
 *
-boundsCheckLimit32
+boundsCheckLimit
 =
-maybeLoadBoundsCheckLimit32
+maybeLoadBoundsCheckLimit
 (
 )
 ;
@@ -5495,7 +5495,7 @@ alloc
 )
 memoryBase
 base
-boundsCheckLimit32
+boundsCheckLimit
 access
 -
 >
@@ -5619,9 +5619,9 @@ offset
 ;
 MWasmLoadTls
 *
-boundsCheckLimit32
+boundsCheckLimit
 =
-maybeLoadBoundsCheckLimit32
+maybeLoadBoundsCheckLimit
 (
 )
 ;
@@ -5637,7 +5637,7 @@ alloc
 )
 memoryBase
 base
-boundsCheckLimit32
+boundsCheckLimit
 access
 -
 >

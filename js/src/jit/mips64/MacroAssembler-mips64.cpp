@@ -12023,7 +12023,7 @@ void
 MacroAssembler
 :
 :
-wasmBoundsCheck32
+wasmBoundsCheck
 (
 Condition
 cond
@@ -12049,7 +12049,7 @@ void
 MacroAssembler
 :
 :
-wasmBoundsCheck32
+wasmBoundsCheck
 (
 Condition
 cond

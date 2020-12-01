@@ -38263,9 +38263,11 @@ memoryLength
 =
 uint64_t
 (
-ByteLength32
-(
 buffer
+-
+>
+byteLength
+(
 )
 )
 ;

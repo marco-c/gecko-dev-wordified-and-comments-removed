@@ -2822,7 +2822,7 @@ mir
 ;
 masm
 .
-wasmBoundsCheck32
+wasmBoundsCheck
 (
 Assembler
 :
@@ -3272,7 +3272,7 @@ needsBoundsCheck
 {
 masm
 .
-wasmBoundsCheck32
+wasmBoundsCheck
 (
 Assembler
 :

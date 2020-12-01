@@ -4955,9 +4955,10 @@ MOZ_ASSERT
 offset
 <
 =
-ByteLength32
-(
 buffer
+.
+byteLength
+(
 )
 )
 ;
@@ -4968,9 +4969,10 @@ size
 )
 <
 =
-ByteLength32
-(
 buffer
+.
+byteLength
+(
 )
 -
 offset

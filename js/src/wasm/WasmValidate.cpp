@@ -13449,7 +13449,7 @@ memory
 .
 initial
 >
-MaxMemory32LimitField
+MaxMemoryLimitField
 )
 {
 return
@@ -13479,7 +13479,7 @@ memory
 .
 maximum
 >
-MaxMemory32LimitField
+MaxMemoryLimitField
 )
 {
 return

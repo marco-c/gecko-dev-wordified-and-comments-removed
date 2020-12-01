@@ -30859,7 +30859,7 @@ ok
 ;
 masm
 .
-wasmBoundsCheck32
+wasmBoundsCheck
 (
 Assembler
 :
@@ -30872,7 +30872,7 @@ tls
 offsetof
 (
 TlsData
-boundsCheckLimit32
+boundsCheckLimit
 )
 )
 &

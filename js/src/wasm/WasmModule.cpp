@@ -2828,7 +2828,7 @@ memoryLength
 memoryObj
 -
 >
-volatileMemoryLength32
+volatileMemoryLength
 (
 )
 ;
@@ -3640,7 +3640,7 @@ uint64_t
 memory
 -
 >
-volatileMemoryLength32
+volatileMemoryLength
 (
 )
 )
@@ -3712,7 +3712,7 @@ declaredMin
 /
 PageSize
 >
-MaxMemory32Pages
+MaxMemoryPages
 )
 {
 JS_ReportErrorNumberUTF8
@@ -3757,10 +3757,6 @@ if
 CreateWasmBuffer
 (
 cx
-MemoryKind
-:
-:
-Memory32
 l
 &
 buffer
