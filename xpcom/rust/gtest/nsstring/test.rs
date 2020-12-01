@@ -72,8 +72,9 @@ c_char
 }
 unsafe
 {
-GTest_ExpectFailure
-(
+let
+msg
+=
 CString
 :
 :
@@ -85,6 +86,10 @@ msg
 unwrap
 (
 )
+;
+GTest_ExpectFailure
+(
+msg
 .
 as_ptr
 (
