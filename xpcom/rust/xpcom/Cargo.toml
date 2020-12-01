@@ -108,10 +108,3 @@ ffi
 "
 ]
 }
-[
-features
-]
-thread_sanitizer
-=
-[
-]
