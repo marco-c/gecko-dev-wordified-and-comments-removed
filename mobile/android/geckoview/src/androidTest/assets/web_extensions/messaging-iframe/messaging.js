@@ -11,6 +11,11 @@ badNativeApi
 errorerrorerror
 "
 )
+.
+catch
+(
+runTest
+)
 ;
 async
 function
@@ -45,7 +50,3 @@ browser
 )
 ;
 }
-runTest
-(
-)
-;
