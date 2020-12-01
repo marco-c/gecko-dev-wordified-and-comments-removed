@@ -3652,14 +3652,11 @@ method
 MSG_DEF
 (
 JSMSG_ILLEGAL_CHARACTER
-1
+0
 JSEXN_SYNTAXERR
 "
 illegal
 character
-{
-0
-}
 "
 )
 MSG_DEF

@@ -663,9 +663,6 @@ message
 "
 illegal
 character
-U
-+
-0040
 "
 "
 stack
@@ -717,9 +714,6 @@ SyntaxError
 :
 illegal
 character
-U
-+
-0040
 "
 "
 exceptionDocURL
