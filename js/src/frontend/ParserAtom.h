@@ -2519,6 +2519,8 @@ JS
 Latin1Char
 *
 latin1Ptr
+HashNumber
+hash
 uint32_t
 length
 )
@@ -2589,6 +2591,8 @@ JSContext
 cx
 LittleEndianChars
 twoByteLE
+HashNumber
+hash
 uint32_t
 length
 )
