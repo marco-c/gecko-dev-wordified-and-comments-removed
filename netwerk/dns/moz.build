@@ -215,6 +215,11 @@ SOURCES
 =
 [
 "
+GetAddrInfo
+.
+cpp
+"
+"
 nsEffectiveTLDService
 .
 cpp
@@ -256,11 +261,6 @@ cpp
 "
 "
 DNSResolverInfo
-.
-cpp
-"
-"
-GetAddrInfo
 .
 cpp
 "
