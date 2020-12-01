@@ -568,6 +568,8 @@ XULTreeElement
 :
 GetView
 (
+FlushType
+aFlushType
 )
 {
 if
@@ -581,6 +583,7 @@ if
 !
 GetTreeBodyFrame
 (
+aFlushType
 )
 )
 {
