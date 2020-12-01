@@ -3447,7 +3447,6 @@ YUVConverter
 {
 }
 ;
-static
 constexpr
 double
 YUVMatrix601
