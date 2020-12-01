@@ -212,11 +212,6 @@ wpt
 serve
 wpt
 -
-test
--
-paths
-wpt
--
 update
 "
 #
