@@ -1021,7 +1021,9 @@ this
 IOError
 WithMessage
 (
+const
 nsCString
+&
 aMessage
 )
 {
