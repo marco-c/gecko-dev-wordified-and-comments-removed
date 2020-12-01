@@ -13945,8 +13945,11 @@ forceWNPanel
 >
 {
 let
-browserWindow
+browser
 =
+{
+ownerGlobal
+:
 {
 document
 :
@@ -13977,6 +13980,7 @@ stub
 }
 }
 }
+}
 ;
 let
 fakePanel
@@ -13995,7 +13999,9 @@ sinon
 .
 stub
 (
-browserWindow
+browser
+.
+ownerGlobal
 .
 document
 "
@@ -14026,7 +14032,7 @@ Router
 .
 forceWNPanel
 (
-browserWindow
+browser
 )
 ;
 assert
@@ -14042,7 +14048,9 @@ assert
 .
 calledOnce
 (
-browserWindow
+browser
+.
+ownerGlobal
 .
 PanelUI
 .
