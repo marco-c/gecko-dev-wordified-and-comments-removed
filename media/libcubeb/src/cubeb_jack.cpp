@@ -5098,6 +5098,17 @@ JackPortIsInput
 }
 if
 (
+!
+input_stream_params
+-
+>
+prefs
+&
+CUBEB_STREAM_PREF_JACK_NO_AUTO_CONNECT
+)
+{
+if
+(
 cbjack_connect_ports
 (
 stm
@@ -5124,6 +5135,7 @@ stm
 return
 CUBEB_ERROR
 ;
+}
 }
 *
 stream
