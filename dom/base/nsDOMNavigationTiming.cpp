@@ -167,13 +167,6 @@ MOZ_GECKO_PROFILER
 #
 include
 "
-ProfilerMarkerPayload
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ProfilerMarkerTypes
