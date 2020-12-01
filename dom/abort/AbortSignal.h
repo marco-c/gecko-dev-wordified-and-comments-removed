@@ -41,10 +41,12 @@ AbortSignalImpl
 ;
 class
 AbortFollower
+:
+public
+nsISupports
 {
 public
 :
-NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 virtual
 void
 RunAbortAlgorithm

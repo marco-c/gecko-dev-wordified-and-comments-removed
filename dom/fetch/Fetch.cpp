@@ -665,11 +665,7 @@ NS_OK
 ;
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-AbortSignalProxy
-override
-)
+NS_DECL_THREADSAFE_ISUPPORTS
 AbortSignalProxy
 (
 AbortSignalImpl
@@ -825,6 +821,10 @@ forget
 }
 }
 ;
+NS_IMPL_ISUPPORTS0
+(
+AbortSignalProxy
+)
 class
 WorkerFetchResolver
 final
