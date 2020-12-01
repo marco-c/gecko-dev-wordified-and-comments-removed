@@ -1263,8 +1263,6 @@ geckoview
 test
 =
 "
-raptor
--
 unity
 -
 webgl
@@ -1307,13 +1305,9 @@ name
 =
 =
 '
-raptor
--
 unity
 -
 webgl
--
-geckoview
 '
 def
 test_get_raptor_test_list_gecko_profiling_enabled
