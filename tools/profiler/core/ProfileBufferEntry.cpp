@@ -38,6 +38,15 @@ h
 #
 include
 "
+js
+/
+ProfilingFrameIterator
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
