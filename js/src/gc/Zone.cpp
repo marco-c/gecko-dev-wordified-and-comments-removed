@@ -2593,13 +2593,6 @@ purgeOptimizedStubs
 script
 )
 ;
-jitScript
--
->
-clearIonCompiledOrInlined
-(
-)
-;
 }
 jitScript
 -
