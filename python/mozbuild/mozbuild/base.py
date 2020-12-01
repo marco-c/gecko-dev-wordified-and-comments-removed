@@ -1169,22 +1169,42 @@ not
 topsrcdir
 :
             
-raise
-BuildEnvironmentNotFoundException
+topsrcdir
+=
+os
+.
+path
+.
+abspath
 (
                 
+os
+.
+path
+.
+join
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
 "
-Could
-not
-find
-Mozilla
-source
-tree
-or
-build
-environment
+.
 .
 "
+"
+.
+.
+"
+"
+.
+.
+"
+)
             
 )
         
