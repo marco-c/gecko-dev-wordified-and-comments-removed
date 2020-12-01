@@ -81,6 +81,13 @@ AsRenderDXGITextureHost
 )
 override
 ;
+RenderDXGIYCbCrTextureHost
+*
+AsRenderDXGIYCbCrTextureHost
+(
+)
+override
+;
 size_t
 GetPlaneCount
 (
