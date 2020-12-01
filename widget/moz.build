@@ -1043,11 +1043,11 @@ Screen
 .
 cpp
 "
-'
+"
 ScrollbarDrawingMac
 .
 cpp
-'
+"
 "
 SharedWidgetUtils
 .
