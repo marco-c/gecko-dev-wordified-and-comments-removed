@@ -14,6 +14,15 @@ include
 "
 jit
 /
+JitCommon
+.
+h
+"
+#
+include
+"
+jit
+/
 Linker
 .
 h
@@ -277,8 +286,9 @@ EnterTest
 (
 )
 ;
-test
+CALL_GENERATED_0
 (
+test
 )
 ;
 return
