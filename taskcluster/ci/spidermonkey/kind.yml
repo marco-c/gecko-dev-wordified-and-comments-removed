@@ -405,6 +405,12 @@ gcc
 linux64
 -
 rust
+-
+linux64
+-
+dump
+-
+syms
 jobs
 -
 from
