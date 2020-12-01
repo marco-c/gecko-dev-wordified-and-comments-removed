@@ -89,8 +89,8 @@ args
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 media
 {
 RefPtr
@@ -560,5 +560,6 @@ aActor
 return
 true
 ;
+}
 }
 }

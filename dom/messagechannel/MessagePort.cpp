@@ -296,8 +296,8 @@ PostMessage
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 void
@@ -3609,5 +3609,6 @@ DispatchEvent
 event
 )
 ;
+}
 }
 }

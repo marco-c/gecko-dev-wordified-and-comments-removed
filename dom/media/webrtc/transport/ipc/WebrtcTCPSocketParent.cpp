@@ -46,8 +46,8 @@ ipc
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 mozilla
@@ -610,6 +610,7 @@ mChannel
 =
 nullptr
 ;
+}
 }
 }
 }

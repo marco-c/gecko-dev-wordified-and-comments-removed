@@ -123,8 +123,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 SafeRefPtr
@@ -2199,5 +2199,6 @@ move
 aPrincipalInfo
 )
 ;
+}
 }
 }

@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 media
 {
 using
@@ -313,5 +313,6 @@ mDestroyed
 =
 true
 ;
+}
 }
 }

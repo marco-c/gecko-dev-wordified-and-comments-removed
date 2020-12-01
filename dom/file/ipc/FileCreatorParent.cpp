@@ -40,8 +40,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 FileCreatorParent
@@ -636,5 +636,6 @@ aBlobImpl
 return
 NS_OK
 ;
+}
 }
 }

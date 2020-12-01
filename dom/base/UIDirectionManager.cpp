@@ -54,8 +54,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 void
@@ -344,5 +344,6 @@ pseudo
 "
 )
 ;
+}
 }
 }

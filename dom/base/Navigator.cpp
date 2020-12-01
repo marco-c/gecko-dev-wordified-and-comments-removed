@@ -824,8 +824,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 static
@@ -10551,5 +10551,6 @@ enabled
 false
 )
 ;
+}
 }
 }

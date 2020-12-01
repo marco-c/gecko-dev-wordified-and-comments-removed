@@ -189,8 +189,8 @@ digest
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 enum
@@ -15403,4 +15403,5 @@ WebCryptoTask
 =
 default
 ;
+}
 }

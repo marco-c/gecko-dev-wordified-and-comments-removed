@@ -1607,8 +1607,8 @@ TRUE
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 void
@@ -1698,5 +1698,6 @@ indicator
 "
 )
 ;
+}
 }
 }

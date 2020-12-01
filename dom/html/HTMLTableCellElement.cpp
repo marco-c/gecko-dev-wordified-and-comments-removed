@@ -78,8 +78,8 @@ TableCell
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLTableCellElement
@@ -1060,5 +1060,6 @@ return
 &
 MapAttributesIntoRule
 ;
+}
 }
 }

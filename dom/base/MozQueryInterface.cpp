@@ -42,8 +42,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 constexpr
@@ -491,5 +491,6 @@ aGivenProto
 aReflector
 )
 ;
+}
 }
 }

@@ -49,8 +49,8 @@ HR
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLHRElement
@@ -960,5 +960,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

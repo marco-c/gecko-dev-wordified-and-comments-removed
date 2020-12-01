@@ -452,8 +452,8 @@ gUseCountersLog
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 WindowGlobalParent
@@ -6875,4 +6875,5 @@ NS_IMPL_RELEASE_INHERITED
 WindowGlobalParent
 WindowContext
 )
+}
 }

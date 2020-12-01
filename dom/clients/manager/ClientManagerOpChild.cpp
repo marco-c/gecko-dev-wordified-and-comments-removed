@@ -29,8 +29,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 void
@@ -224,5 +224,6 @@ MOZ_DIAGNOSTIC_ASSERT
 mPromise
 )
 ;
+}
 }
 }

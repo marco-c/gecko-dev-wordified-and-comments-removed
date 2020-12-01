@@ -60,8 +60,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -1368,5 +1368,6 @@ listener
 mListeners
 )
 ;
+}
 }
 }

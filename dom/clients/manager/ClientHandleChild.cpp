@@ -32,8 +32,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 using
@@ -278,5 +278,6 @@ SendTeardown
 (
 )
 ;
+}
 }
 }

@@ -399,8 +399,8 @@ indexedDB
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -4345,6 +4345,7 @@ value
 "
 )
 ;
+}
 }
 }
 }

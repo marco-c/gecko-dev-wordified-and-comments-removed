@@ -257,11 +257,11 @@ aAction
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 cache
 {
 AutoChildOpArgs
@@ -2709,5 +2709,7 @@ Failed
 )
 )
 ;
+}
+}
 }
 }

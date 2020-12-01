@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 SerializedStackHolder
@@ -730,5 +730,6 @@ get
 )
 )
 ;
+}
 }
 }

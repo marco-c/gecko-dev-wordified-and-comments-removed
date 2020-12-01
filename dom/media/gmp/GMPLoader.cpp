@@ -140,8 +140,8 @@ h
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 gmp
 {
 class
@@ -917,5 +917,6 @@ return
 !
 mSandboxStarter
 ;
+}
 }
 }

@@ -122,11 +122,11 @@ h
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 quota
 {
 namespace
@@ -1440,4 +1440,6 @@ true
 }
 #
 endif
+}
+}
 }

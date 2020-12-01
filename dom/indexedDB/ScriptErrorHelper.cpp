@@ -597,11 +597,11 @@ default
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 indexedDB
 {
 void
@@ -780,6 +780,8 @@ forget
 )
 )
 ;
+}
+}
 }
 }
 }

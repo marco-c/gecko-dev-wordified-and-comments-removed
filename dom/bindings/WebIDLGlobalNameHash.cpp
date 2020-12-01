@@ -178,8 +178,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 static
@@ -1167,5 +1167,6 @@ false
 return
 true
 ;
+}
 }
 }

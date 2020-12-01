@@ -51,8 +51,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gmp
 {
 GMPVideoEncoderChild
@@ -909,5 +909,6 @@ aMem
 ;
 #
 endif
+}
 }
 }

@@ -174,8 +174,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -1817,5 +1817,6 @@ RequestAllowToClose
 return
 NS_OK
 ;
+}
 }
 }

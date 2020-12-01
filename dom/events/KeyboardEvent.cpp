@@ -34,8 +34,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 KeyboardEvent
@@ -1712,6 +1712,7 @@ spoofedState
 return
 aRawModifierState
 ;
+}
 }
 }
 using

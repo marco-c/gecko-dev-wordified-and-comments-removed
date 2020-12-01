@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 plugins
 {
 FunctionBrokerChild
@@ -451,5 +451,6 @@ sInstance
 =
 nullptr
 ;
+}
 }
 }

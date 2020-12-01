@@ -1118,8 +1118,8 @@ HTMLMediaElement_Binding
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 using
@@ -36758,6 +36758,7 @@ IsCloningElementVisually
 (
 )
 ;
+}
 }
 }
 #

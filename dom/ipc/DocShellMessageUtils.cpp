@@ -29,8 +29,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 ipc
 {
 void
@@ -150,5 +150,6 @@ loadState
 return
 true
 ;
+}
 }
 }

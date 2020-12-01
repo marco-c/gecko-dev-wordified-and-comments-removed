@@ -55,8 +55,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 using
@@ -541,6 +541,7 @@ aSource
 __func__
 )
 ;
+}
 }
 }
 }

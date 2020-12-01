@@ -43,8 +43,8 @@ ipc
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 MemoryReportRequestHost
@@ -700,5 +700,6 @@ failed
 return
 rv
 ;
+}
 }
 }

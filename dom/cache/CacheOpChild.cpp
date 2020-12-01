@@ -98,8 +98,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 template
@@ -1245,6 +1245,7 @@ MaybeResolve
 requests
 )
 ;
+}
 }
 }
 }

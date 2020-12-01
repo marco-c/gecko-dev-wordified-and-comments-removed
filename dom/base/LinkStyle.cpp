@@ -171,8 +171,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 LinkStyle
@@ -1727,5 +1727,6 @@ Update
 return
 resultOrError
 ;
+}
 }
 }

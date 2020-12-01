@@ -28,8 +28,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 MediaTrack
@@ -141,5 +141,6 @@ mList
 =
 aList
 ;
+}
 }
 }

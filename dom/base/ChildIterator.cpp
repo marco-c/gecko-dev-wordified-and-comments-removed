@@ -75,8 +75,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 ExplicitChildIterator
@@ -1588,5 +1588,6 @@ eAtBegin
 return
 nullptr
 ;
+}
 }
 }

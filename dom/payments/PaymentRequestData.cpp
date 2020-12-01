@@ -64,11 +64,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 payments
 {
 NS_IMPL_ISUPPORTS
@@ -3554,5 +3554,7 @@ mPhone
 return
 NS_OK
 ;
+}
+}
 }
 }

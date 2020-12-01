@@ -32,8 +32,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gmp
 {
 GMPPlaneImpl
@@ -832,5 +832,6 @@ Destroy
 delete
 this
 ;
+}
 }
 }

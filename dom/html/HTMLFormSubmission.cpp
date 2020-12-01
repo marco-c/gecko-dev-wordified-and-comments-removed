@@ -223,8 +223,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -4060,5 +4060,6 @@ aSubmitter
 return
 NS_OK
 ;
+}
 }
 }

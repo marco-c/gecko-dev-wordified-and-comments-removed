@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 bool
@@ -915,4 +915,5 @@ sCrossOriginProxyFamily
 =
 0
 ;
+}
 }

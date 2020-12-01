@@ -22,8 +22,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 enum
@@ -10039,5 +10039,6 @@ get
 )
 )
 ;
+}
 }
 }

@@ -33,11 +33,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 cache
 {
 void
@@ -373,5 +373,7 @@ IPC_OK
 (
 )
 ;
+}
+}
 }
 }

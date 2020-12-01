@@ -402,8 +402,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 using
@@ -5799,6 +5799,7 @@ mIncreasedActiveDatabaseCount
 =
 false
 ;
+}
 }
 }
 }

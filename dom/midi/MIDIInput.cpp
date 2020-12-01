@@ -62,8 +62,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 MIDIInput
@@ -355,6 +355,7 @@ SendOpen
 (
 )
 ;
+}
 }
 }
 }

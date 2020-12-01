@@ -22,8 +22,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 MessageBroadcaster
@@ -140,5 +140,6 @@ RemoveElement
 aManager
 )
 ;
+}
 }
 }

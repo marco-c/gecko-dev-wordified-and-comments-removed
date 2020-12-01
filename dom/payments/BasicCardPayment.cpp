@@ -44,8 +44,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -681,6 +681,7 @@ NoteJSContextException
 aCx
 )
 ;
+}
 }
 }
 }

@@ -25,8 +25,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 MediaKeyError
@@ -125,5 +125,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

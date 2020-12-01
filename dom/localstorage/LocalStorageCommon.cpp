@@ -177,8 +177,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 using
@@ -750,5 +750,6 @@ GetLocalStorageLogger
 return
 gLogger
 ;
+}
 }
 }

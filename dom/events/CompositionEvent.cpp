@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 CompositionEvent
@@ -503,6 +503,7 @@ Clone
 (
 )
 ;
+}
 }
 }
 using

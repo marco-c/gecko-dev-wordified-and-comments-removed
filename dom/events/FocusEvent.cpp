@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 FocusEvent
@@ -287,6 +287,7 @@ forget
 (
 )
 ;
+}
 }
 }
 using

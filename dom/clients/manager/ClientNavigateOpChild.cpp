@@ -100,8 +100,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -1570,5 +1570,6 @@ Track
 mPromiseRequestHolder
 )
 ;
+}
 }
 }

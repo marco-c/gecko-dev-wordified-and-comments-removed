@@ -60,8 +60,8 @@ Title
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLTitleElement
@@ -410,6 +410,7 @@ NotifyPossibleTitleChange
 aBound
 )
 ;
+}
 }
 }
 }

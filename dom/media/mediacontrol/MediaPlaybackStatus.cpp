@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 #
@@ -856,5 +856,6 @@ aContextId
 :
 false
 ;
+}
 }
 }

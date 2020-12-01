@@ -135,11 +135,11 @@ ipc
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 ipc
 {
 using
@@ -2360,5 +2360,7 @@ forget
 (
 )
 ;
+}
+}
 }
 }

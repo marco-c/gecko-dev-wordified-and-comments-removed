@@ -136,11 +136,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 indexedDB
 {
 namespace
@@ -2783,5 +2783,7 @@ false
 return
 true
 ;
+}
+}
 }
 }

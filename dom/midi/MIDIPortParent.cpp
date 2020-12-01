@@ -29,8 +29,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 static
@@ -597,5 +597,6 @@ AddPort
 this
 )
 ;
+}
 }
 }

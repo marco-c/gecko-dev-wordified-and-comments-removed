@@ -57,8 +57,8 @@ ipc
 ;
 namespace
 dom
-:
-:
+{
+namespace
 ipc
 {
 static
@@ -770,6 +770,7 @@ Finalize
 aMap
 )
 ;
+}
 }
 }
 }

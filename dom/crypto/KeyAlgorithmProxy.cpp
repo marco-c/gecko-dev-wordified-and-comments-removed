@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 bool
@@ -1129,5 +1129,6 @@ CKM_SHA512_HMAC
 return
 UNKNOWN_CK_MECHANISM
 ;
+}
 }
 }

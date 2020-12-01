@@ -1941,11 +1941,11 @@ UnregisterGCCallbacks
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 plugins
-:
-:
+{
+namespace
 parent
 {
 static
@@ -2035,6 +2035,8 @@ GetScopeObject
 (
 )
 ;
+}
+}
 }
 }
 static

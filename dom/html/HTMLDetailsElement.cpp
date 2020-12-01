@@ -26,8 +26,8 @@ Details
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLDetailsElement
@@ -313,5 +313,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

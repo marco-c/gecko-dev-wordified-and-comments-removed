@@ -33,11 +33,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 cache
 {
 using
@@ -974,5 +974,7 @@ aDatabaseQuotaObject
 aJournalQuotaObject
 )
 ;
+}
+}
 }
 }

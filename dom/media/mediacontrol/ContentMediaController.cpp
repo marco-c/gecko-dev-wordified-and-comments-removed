@@ -88,8 +88,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 #
@@ -2171,6 +2171,7 @@ MediaControlKey
 Pause
 )
 ;
+}
 }
 }
 }

@@ -7,8 +7,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 AudioScheduledSourceNode
@@ -35,5 +35,6 @@ aChannelCountMode
 aChannelInterpretation
 )
 {
+}
 }
 }

@@ -76,8 +76,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 static
@@ -1054,5 +1054,6 @@ mElement
 return
 NS_OK
 ;
+}
 }
 }

@@ -54,8 +54,8 @@ Map
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLMapElement
@@ -183,5 +183,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

@@ -49,8 +49,8 @@ Paragraph
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLParagraphElement
@@ -247,5 +247,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

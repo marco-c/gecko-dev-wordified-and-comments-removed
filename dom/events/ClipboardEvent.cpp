@@ -38,8 +38,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 ClipboardEvent
@@ -434,6 +434,7 @@ event
 >
 mClipboardData
 ;
+}
 }
 }
 using

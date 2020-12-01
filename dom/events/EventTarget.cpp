@@ -78,8 +78,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 already_AddRefed
@@ -986,5 +986,6 @@ GetBrowsingContext
 )
 )
 ;
+}
 }
 }

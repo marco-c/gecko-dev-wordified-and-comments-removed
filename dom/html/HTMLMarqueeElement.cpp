@@ -89,8 +89,8 @@ Marquee
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLMarqueeElement
@@ -928,6 +928,7 @@ stop
 _ns
 )
 ;
+}
 }
 }
 }

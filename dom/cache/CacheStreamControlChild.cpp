@@ -119,11 +119,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 cache
 {
 using
@@ -637,5 +637,7 @@ IPC_OK
 (
 )
 ;
+}
+}
 }
 }

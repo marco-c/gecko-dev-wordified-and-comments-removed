@@ -81,11 +81,11 @@ nsIInputStream
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 quota
 {
 already_AddRefed
@@ -410,5 +410,7 @@ false
 return
 NS_OK
 ;
+}
+}
 }
 }

@@ -52,8 +52,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 GetUserMediaRequest
@@ -378,5 +378,6 @@ result
 *
 mConstraints
 ;
+}
 }
 }

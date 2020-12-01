@@ -183,8 +183,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -2290,5 +2290,6 @@ set
 json
 )
 ;
+}
 }
 }

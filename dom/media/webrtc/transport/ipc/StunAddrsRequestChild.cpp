@@ -32,8 +32,8 @@ ipc
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 StunAddrsRequestChild
@@ -195,4 +195,5 @@ NS_IMPL_RELEASE
 (
 StunAddrsListener
 )
+}
 }

@@ -67,8 +67,8 @@ TableSection
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLTableSectionElement
@@ -847,5 +847,6 @@ return
 &
 MapAttributesIntoRule
 ;
+}
 }
 }

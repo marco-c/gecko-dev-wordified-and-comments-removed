@@ -122,8 +122,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -1150,5 +1150,6 @@ HandleResult
 return
 NS_OK
 ;
+}
 }
 }

@@ -60,8 +60,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_IMPL_ADDREF
@@ -957,5 +957,6 @@ sMemoryReporterRegistered
 =
 true
 ;
+}
 }
 }

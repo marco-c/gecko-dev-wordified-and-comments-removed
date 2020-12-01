@@ -67,8 +67,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 PaymentRequestParent
@@ -2412,5 +2412,6 @@ NS_ERROR_FAILURE
 return
 NS_OK
 ;
+}
 }
 }

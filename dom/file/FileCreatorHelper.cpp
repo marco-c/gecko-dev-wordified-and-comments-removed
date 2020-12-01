@@ -120,8 +120,8 @@ CreateFile
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 already_AddRefed
@@ -336,5 +336,6 @@ forget
 (
 )
 ;
+}
 }
 }

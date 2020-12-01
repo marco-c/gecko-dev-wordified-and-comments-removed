@@ -56,8 +56,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 const
@@ -2628,5 +2628,6 @@ minutes
 return
 true
 ;
+}
 }
 }

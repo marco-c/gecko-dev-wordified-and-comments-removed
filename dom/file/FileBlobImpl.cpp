@@ -87,8 +87,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 FileBlobImpl
@@ -1439,5 +1439,6 @@ isDirectory
 return
 isDirectory
 ;
+}
 }
 }

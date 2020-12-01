@@ -29,8 +29,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -311,5 +311,6 @@ IPC_OK
 (
 )
 ;
+}
 }
 }

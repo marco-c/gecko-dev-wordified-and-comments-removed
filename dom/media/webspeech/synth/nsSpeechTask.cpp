@@ -74,8 +74,8 @@ AUDIO_TRACK
 1
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_WEAK
@@ -1686,6 +1686,7 @@ OnVolumeChanged
 aVolume
 )
 ;
+}
 }
 }
 }

@@ -290,8 +290,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -2324,6 +2324,7 @@ type
 "
 )
 ;
+}
 }
 }
 }

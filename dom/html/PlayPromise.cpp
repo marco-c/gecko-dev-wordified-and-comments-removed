@@ -60,8 +60,8 @@ __VA_ARGS__
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 PlayPromise
@@ -316,5 +316,6 @@ MaybeReject
 aReason
 )
 ;
+}
 }
 }

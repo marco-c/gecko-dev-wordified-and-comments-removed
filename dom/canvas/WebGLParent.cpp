@@ -68,8 +68,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 mozilla
@@ -1827,5 +1827,6 @@ IPC_OK
 (
 )
 ;
+}
 }
 }

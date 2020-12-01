@@ -245,8 +245,8 @@ gfx
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 CanvasUtils
 {
 bool
@@ -1474,5 +1474,6 @@ true
 return
 false
 ;
+}
 }
 }

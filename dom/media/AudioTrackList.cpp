@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 JSObject
@@ -183,5 +183,6 @@ AsAudioTrack
 :
 nullptr
 ;
+}
 }
 }

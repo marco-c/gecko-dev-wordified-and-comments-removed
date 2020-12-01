@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 bool
@@ -228,5 +228,6 @@ rhs
 .
 z
 ;
+}
 }
 }

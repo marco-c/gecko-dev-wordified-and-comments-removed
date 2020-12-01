@@ -41,8 +41,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 static
@@ -148,5 +148,6 @@ PR_Now
 (
 )
 ;
+}
 }
 }

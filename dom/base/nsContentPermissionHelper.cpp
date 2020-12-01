@@ -563,8 +563,8 @@ forget
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 class
@@ -3642,6 +3642,7 @@ NS_ERROR_FAILURE
 return
 NS_OK
 ;
+}
 }
 }
 NS_IMPL_ISUPPORTS

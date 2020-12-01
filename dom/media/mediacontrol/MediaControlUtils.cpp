@@ -29,8 +29,8 @@ MediaControl
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 BrowsingContext
@@ -90,5 +90,6 @@ nullptr
 return
 aBC
 ;
+}
 }
 }

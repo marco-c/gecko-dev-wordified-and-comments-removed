@@ -419,8 +419,8 @@ exceptions
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 struct
@@ -14443,5 +14443,6 @@ false
 return
 true
 ;
+}
 }
 }

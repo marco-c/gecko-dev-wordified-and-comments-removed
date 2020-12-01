@@ -282,8 +282,8 @@ GetMessage
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 #
@@ -5320,5 +5320,6 @@ this
 return
 NS_OK
 ;
+}
 }
 }

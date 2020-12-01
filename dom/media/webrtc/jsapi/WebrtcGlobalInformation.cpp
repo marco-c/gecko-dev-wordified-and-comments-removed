@@ -240,8 +240,8 @@ LOGTAG
 wgiLogTag
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 typedef
@@ -4464,5 +4464,6 @@ aError
 }
 )
 ;
+}
 }
 }

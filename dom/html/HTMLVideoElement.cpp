@@ -334,8 +334,8 @@ element
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 nsresult
@@ -3202,5 +3202,6 @@ GetVideoFrameContainer
 )
 )
 ;
+}
 }
 }

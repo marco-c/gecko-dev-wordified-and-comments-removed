@@ -45,8 +45,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 MessagePortParent
@@ -710,5 +710,6 @@ aDestinationUUID
 aSequenceID
 )
 ;
+}
 }
 }

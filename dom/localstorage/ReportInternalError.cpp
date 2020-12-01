@@ -33,11 +33,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 localstorage
 {
 void
@@ -131,5 +131,7 @@ false
 true
 )
 ;
+}
+}
 }
 }

@@ -52,8 +52,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 bool
@@ -352,5 +352,6 @@ sVoidLSValue
 return
 sVoidLSValue
 ;
+}
 }
 }

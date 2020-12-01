@@ -21,8 +21,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 plugins
 {
 ChildTimer
@@ -121,5 +121,6 @@ GetNPP
 mID
 )
 ;
+}
 }
 }

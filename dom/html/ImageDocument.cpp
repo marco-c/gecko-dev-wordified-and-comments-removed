@@ -327,8 +327,8 @@ false
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 class
@@ -3564,6 +3564,7 @@ GetResolution
 return
 mOriginalResolution
 ;
+}
 }
 }
 nsresult

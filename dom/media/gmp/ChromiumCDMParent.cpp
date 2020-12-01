@@ -133,8 +133,8 @@ NS_DispatchToMainThread
 CompileError_UseAbstractMainThreadInstead
 namespace
 mozilla
-:
-:
+{
+namespace
 gmp
 {
 using
@@ -6424,6 +6424,7 @@ SendDestroy
 (
 )
 ;
+}
 }
 }
 }

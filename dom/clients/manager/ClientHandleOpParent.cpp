@@ -45,8 +45,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 ClientSourceParent
@@ -440,5 +440,6 @@ Track
 mSourcePromiseRequestHolder
 )
 ;
+}
 }
 }

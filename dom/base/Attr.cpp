@@ -146,8 +146,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 bool
@@ -1146,5 +1146,6 @@ storage
 this
 )
 ;
+}
 }
 }

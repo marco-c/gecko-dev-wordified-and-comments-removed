@@ -118,8 +118,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -860,5 +860,6 @@ AppendNativeHandler
 handler
 )
 ;
+}
 }
 }

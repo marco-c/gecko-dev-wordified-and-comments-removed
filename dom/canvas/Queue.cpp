@@ -7,8 +7,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 webgl
 {
 mozilla
@@ -33,4 +33,5 @@ ipdlqueue
 "
 )
 ;
+}
 }

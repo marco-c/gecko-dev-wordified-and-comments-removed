@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 static
@@ -227,6 +227,7 @@ PermissionState
 :
 Prompt
 ;
+}
 }
 }
 }

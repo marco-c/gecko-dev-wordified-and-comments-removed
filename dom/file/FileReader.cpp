@@ -201,8 +201,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 #
@@ -3448,6 +3448,7 @@ mBusyCount
 =
 0
 ;
+}
 }
 }
 }

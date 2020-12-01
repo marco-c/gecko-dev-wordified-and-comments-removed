@@ -77,8 +77,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 LazyLogModule
@@ -343,5 +343,6 @@ get
 )
 )
 ;
+}
 }
 }

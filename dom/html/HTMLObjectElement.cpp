@@ -174,8 +174,8 @@ h
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLObjectElement
@@ -2071,6 +2071,7 @@ obj
 return
 obj
 ;
+}
 }
 }
 NS_IMPL_NS_NEW_HTML_ELEMENT_CHECK_PARSER

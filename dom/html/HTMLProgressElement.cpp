@@ -35,8 +35,8 @@ Progress
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 const
@@ -488,5 +488,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

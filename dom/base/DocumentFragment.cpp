@@ -106,8 +106,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 JSObject
@@ -640,4 +640,5 @@ NS_IMPL_ELEMENT_CLONE
 (
 DocumentFragment
 )
+}
 }

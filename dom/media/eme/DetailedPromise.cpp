@@ -25,8 +25,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 DetailedPromise
@@ -538,5 +538,6 @@ tid
 latency
 )
 ;
+}
 }
 }

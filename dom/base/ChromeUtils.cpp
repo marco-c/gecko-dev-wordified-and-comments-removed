@@ -452,8 +452,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 void
@@ -7497,6 +7497,7 @@ AppendElement
 cp
 )
 ;
+}
 }
 }
 }

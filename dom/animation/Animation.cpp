@@ -190,8 +190,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 uint64_t
@@ -8035,5 +8035,6 @@ IsRunningOnCompositor
 (
 )
 ;
+}
 }
 }

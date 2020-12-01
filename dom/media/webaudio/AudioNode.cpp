@@ -57,8 +57,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 static
@@ -3384,5 +3384,6 @@ aMaxValue
 )
 )
 ;
+}
 }
 }

@@ -83,8 +83,8 @@ OptGroup
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLOptGroupElement
@@ -552,5 +552,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

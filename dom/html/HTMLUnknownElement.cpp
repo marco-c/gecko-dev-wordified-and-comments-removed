@@ -44,8 +44,8 @@ Unknown
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_IMPL_ISUPPORTS_INHERITED
@@ -91,4 +91,5 @@ NS_IMPL_ELEMENT_CLONE
 (
 HTMLUnknownElement
 )
+}
 }

@@ -69,8 +69,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLAllCollection
@@ -1078,5 +1078,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 plugins
 {
 int
@@ -183,5 +183,6 @@ endif
 return
 quirks
 ;
+}
 }
 }

@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 PClientManagerChild
@@ -111,5 +111,6 @@ Init
 (
 )
 ;
+}
 }
 }

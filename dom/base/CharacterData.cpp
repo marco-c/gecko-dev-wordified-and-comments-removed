@@ -238,8 +238,8 @@ h
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 CharacterData
@@ -3046,5 +3046,6 @@ mState
 mMallocSizeOf
 )
 ;
+}
 }
 }

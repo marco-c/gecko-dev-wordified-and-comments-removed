@@ -41,8 +41,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 webgl
 {
 const
@@ -9257,5 +9257,6 @@ itr
 second
 )
 ;
+}
 }
 }

@@ -59,11 +59,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 cache
 {
 StreamList
@@ -815,5 +815,7 @@ RemoveActivity
 this
 )
 ;
+}
+}
 }
 }

@@ -85,8 +85,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 StructuredCloneBlob
@@ -1132,4 +1132,5 @@ NS_IMPL_ISUPPORTS
 StructuredCloneBlob
 nsIMemoryReporter
 )
+}
 }

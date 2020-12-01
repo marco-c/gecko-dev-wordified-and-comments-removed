@@ -211,11 +211,11 @@ NS_OK
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 cache
 {
 using
@@ -4000,5 +4000,7 @@ MOZ_DIAGNOSTIC_ASSERT
 mData
 )
 ;
+}
+}
 }
 }

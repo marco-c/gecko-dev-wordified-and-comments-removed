@@ -36,8 +36,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 FileSystemBase
@@ -645,5 +645,6 @@ NS_ASSERT_OWNINGTHREAD
 FileSystemBase
 )
 ;
+}
 }
 }

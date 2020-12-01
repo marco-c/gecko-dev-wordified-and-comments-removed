@@ -171,8 +171,8 @@ Meta
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLMetaElement
@@ -1047,5 +1047,6 @@ RemoveMetaViewportElement
 this
 )
 ;
+}
 }
 }

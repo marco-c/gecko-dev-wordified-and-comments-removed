@@ -117,8 +117,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 OffscreenCanvasCloneData
@@ -1357,4 +1357,5 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 DOMEventTargetHelper
 )
+}
 }

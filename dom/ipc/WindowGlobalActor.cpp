@@ -145,8 +145,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 static
@@ -989,5 +989,6 @@ forget
 (
 )
 ;
+}
 }
 }

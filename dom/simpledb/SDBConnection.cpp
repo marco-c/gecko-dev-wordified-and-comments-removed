@@ -258,8 +258,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 using
@@ -1807,5 +1807,6 @@ aCloseCallback
 return
 NS_OK
 ;
+}
 }
 }

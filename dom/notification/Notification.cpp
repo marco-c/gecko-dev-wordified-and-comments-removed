@@ -444,8 +444,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 struct
@@ -10855,5 +10855,6 @@ nsIEventTarget
 DISPATCH_NORMAL
 )
 ;
+}
 }
 }

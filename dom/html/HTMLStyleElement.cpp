@@ -79,8 +79,8 @@ Style
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLStyleElement
@@ -881,5 +881,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

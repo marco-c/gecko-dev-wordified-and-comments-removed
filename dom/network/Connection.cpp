@@ -56,11 +56,11 @@ typechange
 _ns
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 network
 {
 NS_IMPL_ISUPPORTS_INHERITED0
@@ -335,5 +335,7 @@ aWorkerPrivate
 aRv
 )
 ;
+}
+}
 }
 }

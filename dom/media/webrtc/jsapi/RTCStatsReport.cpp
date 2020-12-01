@@ -36,8 +36,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 RTCStatsTimestampMaker
@@ -431,5 +431,6 @@ aValue
 aRv
 )
 ;
+}
 }
 }

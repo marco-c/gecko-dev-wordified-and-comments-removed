@@ -77,8 +77,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 JSWindowActorParent
@@ -681,4 +681,5 @@ NS_IMPL_RELEASE_INHERITED
 JSWindowActorParent
 JSActor
 )
+}
 }

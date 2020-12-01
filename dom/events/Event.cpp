@@ -299,8 +299,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 Event
@@ -4261,6 +4261,7 @@ Truncate
 (
 )
 ;
+}
 }
 }
 using

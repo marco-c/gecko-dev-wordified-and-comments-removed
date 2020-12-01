@@ -49,8 +49,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 ScrollAreaEvent
@@ -390,6 +390,7 @@ height
 return
 true
 ;
+}
 }
 }
 using

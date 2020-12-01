@@ -102,8 +102,8 @@ type_traits
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 gmp
 {
 ChromiumCDMChild
@@ -5613,5 +5613,6 @@ get
 mDecoderInitialized
 )
 ;
+}
 }
 }

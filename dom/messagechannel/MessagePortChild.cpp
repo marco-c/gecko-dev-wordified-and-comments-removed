@@ -36,8 +36,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 MessagePortChild
@@ -201,6 +201,7 @@ MOZ_ASSERT
 mPort
 )
 ;
+}
 }
 }
 }

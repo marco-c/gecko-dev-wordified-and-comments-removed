@@ -76,8 +76,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 SDBConnectionChild
@@ -791,5 +791,6 @@ IPC_OK
 (
 )
 ;
+}
 }
 }

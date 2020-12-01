@@ -26,11 +26,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 quota
 {
 namespace
@@ -890,5 +890,7 @@ TypeFrom_impl
 aInt32
 )
 ;
+}
+}
 }
 }

@@ -39,11 +39,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 quota
 {
 UsageResult
@@ -331,5 +331,7 @@ mLimit
 return
 NS_OK
 ;
+}
+}
 }
 }

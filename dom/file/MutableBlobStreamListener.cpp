@@ -28,8 +28,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 MutableBlobStreamListener
@@ -376,5 +376,6 @@ CheckListenerChain
 return
 NS_OK
 ;
+}
 }
 }

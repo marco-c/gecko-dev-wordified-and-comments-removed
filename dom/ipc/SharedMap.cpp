@@ -106,8 +106,8 @@ ipc
 ;
 namespace
 dom
-:
-:
+{
+namespace
 ipc
 {
 constexpr
@@ -2267,5 +2267,6 @@ NS_IMPL_RELEASE_INHERITED
 WritableSharedMap
 SharedMap
 )
+}
 }
 }

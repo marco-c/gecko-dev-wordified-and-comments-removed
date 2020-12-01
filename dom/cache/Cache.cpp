@@ -185,11 +185,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 cache
 {
 using
@@ -3200,5 +3200,7 @@ OpenMode
 :
 Lazy
 ;
+}
+}
 }
 }

@@ -72,8 +72,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 OSFileSystem
@@ -342,5 +342,6 @@ mLocalRootPath
 =
 aRootDir
 ;
+}
 }
 }

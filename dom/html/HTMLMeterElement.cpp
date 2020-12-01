@@ -31,8 +31,8 @@ Meter
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 const
@@ -924,5 +924,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

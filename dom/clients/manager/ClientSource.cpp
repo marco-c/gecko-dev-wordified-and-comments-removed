@@ -269,8 +269,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 using
@@ -3789,5 +3789,6 @@ Contains
 aScope
 )
 ;
+}
 }
 }

@@ -43,8 +43,8 @@ Div
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLDivElement
@@ -244,5 +244,6 @@ return
 &
 MapAttributesIntoRule
 ;
+}
 }
 }

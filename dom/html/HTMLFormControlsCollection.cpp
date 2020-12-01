@@ -103,8 +103,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 bool
@@ -1332,5 +1332,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

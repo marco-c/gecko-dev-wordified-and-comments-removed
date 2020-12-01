@@ -38,8 +38,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 ParentProcessMessageManager
@@ -132,5 +132,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

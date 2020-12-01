@@ -33,11 +33,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 cache
 {
 void
@@ -192,5 +192,7 @@ MOZ_DIAGNOSTIC_ASSERT
 mWorkerRef
 )
 ;
+}
+}
 }
 }

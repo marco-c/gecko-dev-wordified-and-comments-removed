@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_IMPL_ISUPPORTS
@@ -823,5 +823,6 @@ aClassificationFlags
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;
+}
 }
 }

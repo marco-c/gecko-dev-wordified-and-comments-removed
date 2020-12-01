@@ -11,8 +11,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_CLASS
@@ -61,4 +61,5 @@ NS_INTERFACE_MAP_ENTRY
 nsISupports
 )
 NS_INTERFACE_MAP_END
+}
 }

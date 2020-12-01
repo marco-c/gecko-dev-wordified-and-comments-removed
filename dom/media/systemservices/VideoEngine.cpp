@@ -63,8 +63,8 @@ h
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 camera
 {
 #
@@ -1627,5 +1627,6 @@ __PRETTY_FUNCTION__
 )
 )
 ;
+}
 }
 }

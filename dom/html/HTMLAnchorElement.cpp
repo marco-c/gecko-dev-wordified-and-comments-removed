@@ -131,8 +131,8 @@ Anchor
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 #
@@ -1170,5 +1170,6 @@ aSizes
 mState
 )
 ;
+}
 }
 }

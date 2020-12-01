@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 using
@@ -246,5 +246,6 @@ MOZ_DIAGNOSTIC_ASSERT
 mPromise
 )
 ;
+}
 }
 }

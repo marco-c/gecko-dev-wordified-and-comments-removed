@@ -140,8 +140,8 @@ Clipboard
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 Clipboard
@@ -1091,4 +1091,5 @@ NS_IMPL_RELEASE_INHERITED
 Clipboard
 DOMEventTargetHelper
 )
+}
 }

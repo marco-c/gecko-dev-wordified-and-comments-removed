@@ -140,8 +140,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 Link
@@ -2587,5 +2587,6 @@ mMallocSizeOf
 return
 n
 ;
+}
 }
 }

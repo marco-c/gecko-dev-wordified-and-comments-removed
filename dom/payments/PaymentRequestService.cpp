@@ -80,8 +80,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 StaticRefPtr
@@ -3162,5 +3162,6 @@ true
 return
 false
 ;
+}
 }
 }

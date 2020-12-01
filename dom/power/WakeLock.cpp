@@ -86,8 +86,8 @@ hal
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_INTERFACE_MAP_BEGIN
@@ -1049,5 +1049,6 @@ mWindow
 return
 window
 ;
+}
 }
 }

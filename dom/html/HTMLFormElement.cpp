@@ -509,8 +509,8 @@ Form
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 static
@@ -10723,5 +10723,6 @@ mCurrentLoadId
 return
 loading
 ;
+}
 }
 }

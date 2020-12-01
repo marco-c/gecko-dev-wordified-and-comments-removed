@@ -63,8 +63,8 @@ LI
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLLIElement
@@ -520,5 +520,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

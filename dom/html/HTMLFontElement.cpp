@@ -52,8 +52,8 @@ Font
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLFontElement
@@ -560,5 +560,6 @@ return
 &
 MapAttributesIntoRule
 ;
+}
 }
 }

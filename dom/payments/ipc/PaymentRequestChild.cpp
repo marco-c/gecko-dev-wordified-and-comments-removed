@@ -29,8 +29,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 PaymentRequestChild
@@ -721,5 +721,6 @@ mRequest
 =
 nullptr
 ;
+}
 }
 }

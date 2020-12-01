@@ -21,8 +21,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 plugins
 {
 #
@@ -644,4 +644,5 @@ aClientId
 }
 #
 endif
+}
 }

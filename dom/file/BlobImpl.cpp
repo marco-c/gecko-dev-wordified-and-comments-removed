@@ -23,8 +23,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 static
@@ -475,4 +475,5 @@ NS_IMPL_ISUPPORTS
 BlobImpl
 BlobImpl
 )
+}
 }

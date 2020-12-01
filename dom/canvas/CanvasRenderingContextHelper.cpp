@@ -119,8 +119,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 CanvasRenderingContextHelper
@@ -1432,5 +1432,6 @@ true
 return
 NS_OK
 ;
+}
 }
 }

@@ -103,8 +103,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -1881,6 +1881,7 @@ IsShift
 (
 )
 ;
+}
 }
 }
 using

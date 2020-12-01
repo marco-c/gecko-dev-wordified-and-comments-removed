@@ -89,8 +89,8 @@ gfx
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 FetchImageHelper
@@ -843,5 +843,6 @@ aImage
 return
 NS_OK
 ;
+}
 }
 }

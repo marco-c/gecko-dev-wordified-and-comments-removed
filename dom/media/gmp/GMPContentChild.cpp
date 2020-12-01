@@ -51,8 +51,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gmp
 {
 MessageLoop
@@ -760,5 +760,6 @@ IsEmpty
 (
 )
 ;
+}
 }
 }

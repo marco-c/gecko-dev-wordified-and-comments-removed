@@ -7,8 +7,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 already_AddRefed
@@ -155,5 +155,6 @@ IPC_OK
 (
 )
 ;
+}
 }
 }

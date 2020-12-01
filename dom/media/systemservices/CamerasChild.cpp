@@ -142,8 +142,8 @@ Debug
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 camera
 {
 CamerasSingleton
@@ -3340,5 +3340,6 @@ callback
 return
 nullptr
 ;
+}
 }
 }

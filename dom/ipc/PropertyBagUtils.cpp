@@ -80,8 +80,8 @@ dom
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 ipc
 {
 void
@@ -1592,5 +1592,6 @@ properties
 return
 true
 ;
+}
 }
 }

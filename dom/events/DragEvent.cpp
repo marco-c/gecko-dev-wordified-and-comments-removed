@@ -45,8 +45,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 DragEvent
@@ -467,6 +467,7 @@ forget
 (
 )
 ;
+}
 }
 }
 using

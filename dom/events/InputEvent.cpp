@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 InputEvent
@@ -647,6 +647,7 @@ forget
 (
 )
 ;
+}
 }
 }
 using

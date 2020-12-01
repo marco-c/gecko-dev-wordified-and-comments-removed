@@ -141,8 +141,8 @@ Body
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLBodyElement
@@ -1859,4 +1859,5 @@ WINDOW_EVENT_HELPER
 #
 undef
 EVENT
+}
 }

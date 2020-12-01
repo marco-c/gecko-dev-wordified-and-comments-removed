@@ -88,8 +88,8 @@ JS
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 jsid
@@ -1849,5 +1849,6 @@ expando
 "
 )
 ;
+}
 }
 }

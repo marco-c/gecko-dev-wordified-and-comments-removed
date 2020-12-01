@@ -287,8 +287,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -4794,5 +4794,6 @@ true
 return
 NS_OK
 ;
+}
 }
 }

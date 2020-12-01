@@ -32,8 +32,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gmp
 {
 GMPVideoEncodedFrameImpl
@@ -1062,5 +1062,6 @@ mBufferType
 =
 aBufferType
 ;
+}
 }
 }

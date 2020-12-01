@@ -198,8 +198,8 @@ __VA_ARGS__
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 StaticRefPtr
@@ -2730,5 +2730,6 @@ contains
 aController
 )
 ;
+}
 }
 }

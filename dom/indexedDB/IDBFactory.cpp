@@ -293,8 +293,8 @@ h
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 using
@@ -4120,5 +4120,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

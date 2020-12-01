@@ -194,8 +194,8 @@ forget
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLDialogElement
@@ -1089,5 +1089,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

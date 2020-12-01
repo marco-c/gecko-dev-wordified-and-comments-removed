@@ -33,8 +33,8 @@ Mod
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLModElement
@@ -115,5 +115,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

@@ -25,8 +25,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 Timeout
@@ -295,5 +295,6 @@ IsNull
 return
 mTimeRemaining
 ;
+}
 }
 }

@@ -68,8 +68,8 @@ plugins
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 plugins
 {
 template
@@ -7331,4 +7331,5 @@ endif
 #
 undef
 FUN_HOOK
+}
 }

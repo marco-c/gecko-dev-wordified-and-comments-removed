@@ -21,11 +21,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 network
 {
 ConnectionMainThread
@@ -168,5 +168,7 @@ aNetworkInfo
 true
 )
 ;
+}
+}
 }
 }

@@ -21,8 +21,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_IMPL_ISUPPORTS
@@ -1480,5 +1480,6 @@ aBillingAddress
 return
 NS_OK
 ;
+}
 }
 }

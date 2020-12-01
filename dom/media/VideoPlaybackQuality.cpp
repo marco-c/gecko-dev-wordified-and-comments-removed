@@ -43,8 +43,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 VideoPlaybackQuality
@@ -143,4 +143,5 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 VideoPlaybackQuality
 mElement
 )
+}
 }

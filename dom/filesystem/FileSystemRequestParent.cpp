@@ -121,8 +121,8 @@ ipc
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 FileSystemRequestParent
@@ -802,5 +802,6 @@ mDestroyed
 =
 true
 ;
+}
 }
 }

@@ -68,8 +68,8 @@ ipc
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 RemoteDragStartData
@@ -522,5 +522,6 @@ mPrincipal
 =
 nullptr
 ;
+}
 }
 }

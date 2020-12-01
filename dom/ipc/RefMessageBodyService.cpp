@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 StaticMutex
@@ -784,5 +784,6 @@ TakeTransferredPortsAsSequence
 aPorts
 )
 ;
+}
 }
 }

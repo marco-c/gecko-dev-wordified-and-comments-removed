@@ -85,11 +85,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 cache
 {
 using
@@ -656,5 +656,7 @@ mVerifier
 =
 nullptr
 ;
+}
+}
 }
 }

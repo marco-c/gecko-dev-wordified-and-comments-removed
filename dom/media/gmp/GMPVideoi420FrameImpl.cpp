@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gmp
 {
 GMPVideoi420FrameImpl
@@ -1822,5 +1822,6 @@ ResetSize
 (
 )
 ;
+}
 }
 }

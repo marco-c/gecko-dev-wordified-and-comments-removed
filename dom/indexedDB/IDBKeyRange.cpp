@@ -58,8 +58,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 using
@@ -1823,5 +1823,6 @@ nullptr
 return
 keyRange
 ;
+}
 }
 }

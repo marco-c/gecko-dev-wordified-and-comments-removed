@@ -56,8 +56,8 @@ ipc
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 StaticRefPtr
@@ -1414,4 +1414,5 @@ NS_IMPL_ISUPPORTS
 InProcessChild
 nsIDOMProcessChild
 )
+}
 }

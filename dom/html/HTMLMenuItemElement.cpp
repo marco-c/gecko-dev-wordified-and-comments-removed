@@ -58,8 +58,8 @@ MenuItem
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 #
@@ -1899,6 +1899,7 @@ this
 aGivenProto
 )
 ;
+}
 }
 }
 #

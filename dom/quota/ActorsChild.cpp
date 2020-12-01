@@ -136,11 +136,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 quota
 {
 QuotaChild
@@ -1635,5 +1635,7 @@ IPC_OK
 (
 )
 ;
+}
+}
 }
 }

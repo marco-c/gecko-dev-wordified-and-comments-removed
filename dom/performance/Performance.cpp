@@ -218,8 +218,8 @@ __VA_ARGS__
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -2746,5 +2746,6 @@ aMallocSizeOf
 return
 resourceEntries
 ;
+}
 }
 }

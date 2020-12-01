@@ -50,8 +50,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 StaticAutoPtr
@@ -601,5 +601,6 @@ forget
 (
 )
 ;
+}
 }
 }

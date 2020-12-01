@@ -56,8 +56,8 @@ TableCaption
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLTableCaptionElement
@@ -367,5 +367,6 @@ return
 &
 MapAttributesIntoRule
 ;
+}
 }
 }

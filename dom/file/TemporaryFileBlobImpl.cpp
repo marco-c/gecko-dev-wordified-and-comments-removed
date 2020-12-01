@@ -63,8 +63,8 @@ ipc
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -534,6 +534,7 @@ Failed
 {
 return
 ;
+}
 }
 }
 }

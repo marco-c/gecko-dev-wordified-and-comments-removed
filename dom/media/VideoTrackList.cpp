@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 JSObject
@@ -386,5 +386,6 @@ AsVideoTrack
 :
 nullptr
 ;
+}
 }
 }

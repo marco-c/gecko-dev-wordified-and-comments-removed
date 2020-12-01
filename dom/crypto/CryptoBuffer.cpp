@@ -34,8 +34,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 uint8_t
@@ -885,5 +885,6 @@ i
 return
 true
 ;
+}
 }
 }

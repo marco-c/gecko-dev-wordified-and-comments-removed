@@ -925,11 +925,11 @@ rv
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 cache
 {
 const
@@ -2549,5 +2549,7 @@ rv
 return
 rv
 ;
+}
+}
 }
 }

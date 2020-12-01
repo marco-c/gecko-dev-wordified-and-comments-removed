@@ -14,11 +14,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 indexedDB
 {
 template
@@ -28,4 +28,6 @@ FileInfoT
 FileManager
 >
 ;
+}
+}
 }

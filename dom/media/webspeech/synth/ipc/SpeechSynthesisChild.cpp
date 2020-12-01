@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 SpeechSynthesisChild
@@ -803,6 +803,7 @@ SendSetAudioOutputVolume
 aVolume
 )
 ;
+}
 }
 }
 }

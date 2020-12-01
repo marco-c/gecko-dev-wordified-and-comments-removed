@@ -42,8 +42,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -260,5 +260,6 @@ mActor
 =
 aActor
 ;
+}
 }
 }

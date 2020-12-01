@@ -83,8 +83,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gmp
 {
 static
@@ -1162,5 +1162,6 @@ vep
 return
 NS_OK
 ;
+}
 }
 }

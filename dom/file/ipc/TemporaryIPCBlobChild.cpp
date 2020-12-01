@@ -38,8 +38,8 @@ h
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 TemporaryIPCBlobChild
@@ -379,5 +379,6 @@ aContentType
 fdd
 )
 ;
+}
 }
 }

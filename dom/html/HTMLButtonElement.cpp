@@ -240,8 +240,8 @@ Button
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 static
@@ -1978,5 +1978,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

@@ -141,8 +141,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 using
@@ -1735,5 +1735,6 @@ forget
 (
 )
 ;
+}
 }
 }

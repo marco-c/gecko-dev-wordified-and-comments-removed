@@ -43,8 +43,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 using
@@ -440,5 +440,6 @@ aEvent
 NS_DISPATCH_NORMAL
 )
 ;
+}
 }
 }

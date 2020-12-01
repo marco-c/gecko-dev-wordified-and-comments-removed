@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 nsresult
@@ -303,5 +303,6 @@ NS_ERROR_UNEXPECTED
 return
 NS_OK
 ;
+}
 }
 }

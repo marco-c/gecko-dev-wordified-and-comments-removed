@@ -30,8 +30,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gmp
 {
 GMPVideoHostImpl
@@ -410,5 +410,6 @@ aFrame
 )
 )
 ;
+}
 }
 }

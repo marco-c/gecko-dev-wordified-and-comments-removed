@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 #
@@ -594,5 +594,6 @@ const
 return
 mPlaybackState
 ;
+}
 }
 }

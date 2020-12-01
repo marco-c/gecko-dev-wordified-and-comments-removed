@@ -46,8 +46,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 void
@@ -540,5 +540,6 @@ Private
 (
 )
 ;
+}
 }
 }
