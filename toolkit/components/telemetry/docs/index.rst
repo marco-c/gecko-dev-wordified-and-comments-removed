@@ -105,7 +105,9 @@ retention
 Note
 :
 *
-the
+Mozilla
+'
+s
 data
 collection
 policy
