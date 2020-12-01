@@ -305,6 +305,11 @@ TRR
 cpp
 "
 "
+TRRQuery
+.
+cpp
+"
+"
 TRRService
 .
 cpp
