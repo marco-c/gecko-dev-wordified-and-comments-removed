@@ -121,7 +121,7 @@ version
 "
 0
 .
-67
+68
 .
 0
 "
@@ -141,7 +141,7 @@ version
 "
 0
 .
-67
+68
 .
 0
 "
@@ -185,6 +185,17 @@ smallvec
 .
 0
 "
+wasmparser
+=
+{
+version
+=
+"
+0
+.
+67
+"
+}
 [
 build
 -

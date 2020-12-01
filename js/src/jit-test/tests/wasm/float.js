@@ -1469,12 +1469,7 @@ type
 mismatch
 :
 expected
-Some
-\
-(
-F32
-\
-)
+f32
 but
 nothing
 on

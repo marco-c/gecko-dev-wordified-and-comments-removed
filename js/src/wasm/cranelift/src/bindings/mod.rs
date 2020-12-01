@@ -78,6 +78,7 @@ FuncIndex
 GlobalIndex
 SignatureIndex
 TableIndex
+TypeIndex
 WasmResult
 }
 ;
@@ -2069,9 +2070,9 @@ signature
 (
 &
 self
-sig_index
+type_index
 :
-SignatureIndex
+TypeIndex
 )
 -
 >
@@ -2092,7 +2093,7 @@ env_signature
 self
 .
 env
-sig_index
+type_index
 .
 index
 (
