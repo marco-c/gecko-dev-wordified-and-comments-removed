@@ -347,17 +347,6 @@ ccov
 *
 :
 6
-windows10
--
-64
--
-ccov
--
-qr
-/
-opt
-:
-6
 android
 -
 em
