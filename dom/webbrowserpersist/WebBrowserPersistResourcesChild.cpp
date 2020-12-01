@@ -12,6 +12,17 @@ WebBrowserPersistDocumentChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+PContentChild
+.
+h
+"
 namespace
 mozilla
 {
