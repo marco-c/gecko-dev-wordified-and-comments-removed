@@ -634,6 +634,14 @@ ifdef
 MOZ_AV1
 if
 (
+StaticPrefs
+:
+:
+media_av1_enabled
+(
+)
+&
+&
 IsAV1CodecString
 (
 codec
