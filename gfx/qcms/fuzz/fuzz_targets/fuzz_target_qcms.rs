@@ -236,6 +236,9 @@ size
 {
 qcms_profile_precache_output_transform
 (
+&
+mut
+*
 dst_profile
 )
 ;
