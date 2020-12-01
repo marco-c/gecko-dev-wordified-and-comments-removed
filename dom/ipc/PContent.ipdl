@@ -4572,8 +4572,6 @@ SessionHistoryInfo
 info
 uint32_t
 loadType
-int32_t
-childOffset
 uint32_t
 updatedCacheKey
 nsID
