@@ -985,7 +985,7 @@ CORSMissingAllowCredentials
 CORSPreflightDidNotSucceed2
 :
 "
-CORSPreflightDidNotSucceed2
+CORSPreflightDidNotSucceed
 "
 CORSInvalidAllowMethod
 :
@@ -1000,7 +1000,7 @@ CORSInvalidAllowHeader
 CORSMissingAllowHeaderFromPreflight2
 :
 "
-CORSMissingAllowHeaderFromPreflight2
+CORSMissingAllowHeaderFromPreflight
 "
 }
 ;

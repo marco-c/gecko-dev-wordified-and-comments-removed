@@ -319,10 +319,10 @@ break
 ;
 case
 "
-CORSPreflightDidNotSucceed2
+CORSPreflightDidNotSucceed
 "
 :
-corsPreflightDidNotSucceed2
+corsPreflightDidNotSucceed
 (
 request
 response
@@ -358,10 +358,10 @@ break
 ;
 case
 "
-CORSMissingAllowHeaderFromPreflight2
+CORSMissingAllowHeaderFromPreflight
 "
 :
-corsMissingAllowHeaderFromPreflight2
+corsMissingAllowHeaderFromPreflight
 (
 request
 response
@@ -892,7 +892,7 @@ com
 ;
 }
 function
-corsPreflightDidNotSucceed2
+corsPreflightDidNotSucceed
 (
 request
 response
@@ -1084,7 +1084,7 @@ xyz
 ;
 }
 function
-corsMissingAllowHeaderFromPreflight2
+corsMissingAllowHeaderFromPreflight
 (
 request
 response
@@ -1099,7 +1099,7 @@ request
 httpVersion
 200
 "
-corsMissingAllowHeaderFromPreflight2
+corsMissingAllowHeaderFromPreflight
 "
 )
 ;
