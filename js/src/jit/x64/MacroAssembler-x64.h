@@ -6067,6 +6067,17 @@ srcDest
 )
 ;
 void
+vpxorSimd128
+(
+const
+SimdConstant
+&
+v
+FloatRegister
+srcDest
+)
+;
+void
 loadWasmGlobalPtr
 (
 uint32_t
