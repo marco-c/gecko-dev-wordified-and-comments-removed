@@ -7569,6 +7569,7 @@ state
 addPreviewEndpoint
 (
 url
+browser
 )
 {
 const
@@ -7613,6 +7614,20 @@ url
 )
 )
 {
+browser
+.
+sendMessageToActor
+(
+"
+EnterSnippetsPreviewMode
+"
+{
+}
+"
+ASRouter
+"
+)
+;
 providers
 .
 push
@@ -7900,6 +7915,7 @@ addPreviewEndpoint
 endpoint
 .
 url
+browser
 )
 ;
 }

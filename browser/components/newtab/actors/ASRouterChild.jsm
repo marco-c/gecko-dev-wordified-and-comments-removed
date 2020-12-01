@@ -267,6 +267,11 @@ name
 {
 case
 "
+EnterSnippetsPreviewMode
+"
+:
+case
+"
 UpdateAdminState
 "
 :
