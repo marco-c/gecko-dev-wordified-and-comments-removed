@@ -637,11 +637,6 @@ hasTryFinally
 =
 false
 ;
-bool
-emittingRunOnceLambda
-=
-false
-;
 enum
 EmitterMode
 {
@@ -1140,12 +1135,6 @@ isInLoop
 MOZ_MUST_USE
 bool
 checkSingletonContext
-(
-)
-;
-MOZ_MUST_USE
-bool
-checkRunOnceContext
 (
 )
 ;

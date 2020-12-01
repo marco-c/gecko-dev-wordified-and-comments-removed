@@ -2586,11 +2586,6 @@ wasFunctionEmitted
 1
 ;
 bool
-isSingletonFunction
-:
-1
-;
-bool
 allowRelazify
 :
 1
@@ -2604,10 +2599,6 @@ isStandaloneFunction
 false
 )
 wasFunctionEmitted
-(
-false
-)
-isSingletonFunction
 (
 false
 )

@@ -23996,8 +23996,10 @@ src
 treatAsRunOnce
 (
 )
-&
-&
+)
+{
+MOZ_ASSERT
+(
 !
 src
 -
@@ -24006,7 +24008,7 @@ isFunction
 (
 )
 )
-{
+;
 JS_ReportErrorASCII
 (
 cx

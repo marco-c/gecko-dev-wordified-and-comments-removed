@@ -1026,15 +1026,6 @@ script
 function
 (
 )
-&
-&
-!
-script
--
->
-treatAsRunOnce
-(
-)
 )
 {
 return
