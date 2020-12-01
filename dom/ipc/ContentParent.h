@@ -1600,6 +1600,12 @@ const
 override
 ;
 bool
+IsInitialized
+(
+)
+const
+;
+bool
 IsDead
 (
 )
@@ -6724,6 +6730,7 @@ uint8_t
 {
 LAUNCHING
 ALIVE
+INITIALIZED
 DEAD
 }
 ;
