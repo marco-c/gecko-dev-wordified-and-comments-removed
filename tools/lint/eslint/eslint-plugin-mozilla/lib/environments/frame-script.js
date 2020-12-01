@@ -53,6 +53,9 @@ false
 RPMGetAppBuildID
 :
 false
+RPMGetInnerMostURI
+:
+false
 RPMGetIntPref
 :
 false
