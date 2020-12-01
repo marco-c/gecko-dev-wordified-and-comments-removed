@@ -4817,6 +4817,12 @@ userContextId
 listener
 .
 _sHistoryChanges
+&
+&
+!
+aData
+.
+sHistoryNeeded
 ?
 listener
 .
