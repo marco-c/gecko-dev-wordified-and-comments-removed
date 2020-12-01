@@ -364,9 +364,14 @@ LAYERS_BASIC
 &
 &
 !
-ident
+aParams
 .
-mUsingSoftwareWebRender
+mKnowsCompositor
+-
+>
+UsingSoftwareWebRender
+(
+)
 &
 &
 ident
