@@ -815,6 +815,7 @@ function
 -
 declaration
 "
+c_compiler
 )
 check_and_add_gcc_warning
 (
