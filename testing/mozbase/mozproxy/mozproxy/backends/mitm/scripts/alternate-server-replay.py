@@ -650,7 +650,7 @@ in
 )
 :
                 
-l
+f
 =
 self
 .
@@ -667,11 +667,10 @@ i
 )
 {
 "
-items
+flow
 "
 :
-[
-]
+None
 "
 reply_count
 "
@@ -681,17 +680,14 @@ reply_count
                 
 )
                 
-l
+f
 [
 "
-items
+flow
 "
 ]
-.
-append
-(
+=
 i
-)
             
 else
 :
@@ -1334,12 +1330,8 @@ hsh
 ]
 [
 "
-items
+flow
 "
-]
-[
--
-1
 ]
     
 def
