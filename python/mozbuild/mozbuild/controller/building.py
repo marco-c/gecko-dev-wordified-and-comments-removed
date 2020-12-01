@@ -7153,18 +7153,22 @@ CCACHE
 )
 )
             
-mozbuild_metrics
-.
-sccache
-.
-set
-(
+using_sccache
+=
 get_substs_flag
 (
 "
 MOZ_USING_SCCACHE
 "
 )
+            
+mozbuild_metrics
+.
+sccache
+.
+set
+(
+using_sccache
 )
             
 mozbuild_metrics
@@ -8715,11 +8719,16 @@ successfully
             
 )
             
+if
+not
+using_sccache
+:
+                
 output
 .
 on_line
 (
-                
+                    
 "
 If
 you
@@ -8734,7 +8743,7 @@ you
 a
 lot
 "
-                
+                    
 "
 of
 time
@@ -8746,21 +8755,34 @@ more
 here
 :
 "
-                
+                    
 "
 https
 :
 /
 /
-github
+firefox
+-
+source
+-
+docs
 .
-com
-/
 mozilla
+.
+org
 /
+setup
+/
+"
+                    
+"
+configuring_build_options
+.
+html
+#
 sccache
 "
-            
+                
 )
         
 else
