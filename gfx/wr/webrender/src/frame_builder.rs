@@ -3790,11 +3790,10 @@ ctx
 .
 batch_lookback_count
 task_id
-render_tasks
-.
-get_task_address
-(
 task_id
+.
+into
+(
 )
 vis_mask
 0
