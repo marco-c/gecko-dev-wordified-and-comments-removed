@@ -5794,9 +5794,11 @@ static
 ScrollMetadata
 ComputeScrollMetadata
 (
+const
 nsIFrame
 *
 aForFrame
+const
 nsIFrame
 *
 aScrollFrame
