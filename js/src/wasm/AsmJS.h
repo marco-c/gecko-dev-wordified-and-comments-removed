@@ -330,7 +330,7 @@ extern
 bool
 IsValidAsmJSHeapLength
 (
-uint32_t
+size_t
 length
 )
 ;
