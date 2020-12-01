@@ -664,13 +664,6 @@ patches
 with
 external
 checks
-attributes
-:
-code
--
-review
-:
-false
 treeherder
 :
 symbol
