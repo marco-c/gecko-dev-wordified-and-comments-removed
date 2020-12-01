@@ -6938,8 +6938,17 @@ devices
 0
 :
                 
-return
-None
+raise
+ADBError
+(
+"
+No
+connected
+devices
+found
+.
+"
+)
             
 device
 =
