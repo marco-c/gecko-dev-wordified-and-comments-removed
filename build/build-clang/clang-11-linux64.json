@@ -193,6 +193,17 @@ manager
 patch
 "
 "
+stack
+-
+clash
+-
+fix
+-
+probing
+.
+patch
+"
+"
 loosen
 -
 msvc

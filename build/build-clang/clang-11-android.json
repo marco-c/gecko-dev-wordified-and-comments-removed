@@ -562,6 +562,17 @@ rename_gcov_flush_clang_11
 patch
 "
 "
+stack
+-
+clash
+-
+fix
+-
+probing
+.
+patch
+"
+"
 revert
 -
 r362047
