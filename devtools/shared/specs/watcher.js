@@ -150,7 +150,7 @@ oneway
 :
 true
 }
-getNetworkActor
+getNetworkParentActor
 :
 {
 request
@@ -165,7 +165,7 @@ network
 RetVal
 (
 "
-network
+networkParent
 "
 )
 }

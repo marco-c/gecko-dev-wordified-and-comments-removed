@@ -22,7 +22,7 @@ protocol
 ;
 const
 {
-networkSpec
+networkParentSpec
 }
 =
 require
@@ -35,6 +35,8 @@ shared
 specs
 /
 network
+-
+parent
 "
 )
 ;
@@ -64,11 +66,11 @@ index
 )
 ;
 const
-NetworkActor
+NetworkParentActor
 =
 ActorClassWithSpec
 (
-networkSpec
+networkParentSpec
 {
 initialize
 (
@@ -213,7 +215,7 @@ getBlockedUrls
 ;
 exports
 .
-NetworkActor
+NetworkParentActor
 =
-NetworkActor
+NetworkParentActor
 ;

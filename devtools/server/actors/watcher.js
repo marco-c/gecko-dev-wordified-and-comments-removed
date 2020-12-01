@@ -228,7 +228,7 @@ lazyRequireGetter
 (
 this
 "
-NetworkActor
+NetworkParentActor
 "
 "
 devtools
@@ -242,6 +242,8 @@ network
 monitor
 /
 network
+-
+parent
 "
 true
 )
@@ -1309,13 +1311,13 @@ maybeUnregisteringJSWindowActor
 )
 ;
 }
-getNetworkActor
+getNetworkParentActor
 (
 )
 {
 return
 new
-NetworkActor
+NetworkParentActor
 (
 this
 )

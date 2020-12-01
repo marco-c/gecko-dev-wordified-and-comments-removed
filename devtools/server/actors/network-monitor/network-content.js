@@ -22,7 +22,7 @@ protocol
 ;
 const
 {
-stackTracesSpec
+networkContentSpec
 }
 =
 require
@@ -34,7 +34,9 @@ shared
 /
 specs
 /
-stacktraces
+network
+-
+content
 "
 )
 ;
@@ -86,11 +88,11 @@ index
 )
 ;
 const
-StackTracesActor
+NetworkContentActor
 =
 ActorClassWithSpec
 (
-stackTracesSpec
+networkContentSpec
 {
 initialize
 (
@@ -200,7 +202,7 @@ stacktrace
 ;
 exports
 .
-StackTracesActor
+NetworkContentActor
 =
-StackTracesActor
+NetworkContentActor
 ;

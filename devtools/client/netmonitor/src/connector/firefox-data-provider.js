@@ -1069,7 +1069,7 @@ actor
 )
 {
 const
-stacktracesFront
+networkContentFront
 =
 await
 actor
@@ -1079,7 +1079,7 @@ targetFront
 getFront
 (
 "
-stacktraces
+networkContent
 "
 )
 ;
@@ -1087,7 +1087,7 @@ const
 stacktrace
 =
 await
-stacktracesFront
+networkContentFront
 .
 getStackTrace
 (

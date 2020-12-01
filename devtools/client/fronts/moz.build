@@ -115,6 +115,15 @@ js
 "
 "
 network
+-
+content
+.
+js
+"
+"
+network
+-
+parent
 .
 js
 "
@@ -186,11 +195,6 @@ js
 "
 "
 source
-.
-js
-"
-"
-stacktraces
 .
 js
 "
