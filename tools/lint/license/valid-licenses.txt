@@ -21,11 +21,9 @@ the
 Public
 Domain
 .
-Licensed
 under
 the
 MIT
-License
 Redistributions
 of
 source
@@ -106,14 +104,6 @@ to
 use
 copy
 modify
-This
-file
-is
-dual
-licensed
-under
-the
-MIT
 License
 :
 Public
