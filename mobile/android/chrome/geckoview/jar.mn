@@ -131,11 +131,6 @@ GeckoViewMediaControlChild
 js
 content
 /
-GeckoViewSelectionActionChild
-.
-js
-content
-/
 SessionStateAggregator
 .
 js

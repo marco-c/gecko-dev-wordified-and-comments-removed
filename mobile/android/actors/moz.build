@@ -129,6 +129,11 @@ ScrollDelegateChild
 jsm
 "
 "
+SelectionActionDelegateChild
+.
+jsm
+"
+"
 WebBrowserChromeChild
 .
 jsm
