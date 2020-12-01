@@ -32,6 +32,13 @@ StaticPtr
 .
 h
 "
+#
+include
+"
+prtime
+.
+h
+"
 namespace
 mozilla
 {

@@ -33,6 +33,9 @@ namespace
 dom
 {
 class
+Performance
+;
+class
 PerformancePaintTiming
 final
 :

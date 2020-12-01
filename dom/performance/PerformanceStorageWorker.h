@@ -7,6 +7,15 @@ mozilla_dom_PerformanceStorageWorker_h
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 PerformanceStorage
 .
 h
