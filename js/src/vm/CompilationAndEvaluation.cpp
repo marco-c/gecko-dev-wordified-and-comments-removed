@@ -1137,8 +1137,6 @@ get
 )
 .
 stencil
-.
-parserAtoms
 )
 ;
 JS

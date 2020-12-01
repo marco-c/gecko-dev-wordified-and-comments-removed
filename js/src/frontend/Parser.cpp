@@ -47607,11 +47607,7 @@ atom
 this
 -
 >
-getCompilationInfo
-(
-)
-.
-stencil
+compilationState_
 .
 parserAtoms
 .

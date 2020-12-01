@@ -552,9 +552,9 @@ JS
 ReadOnlyCompileOptions
 &
 options
-ParserAtomsTable
+CompilationStencil
 &
-parserAtoms
+stencil
 SourceText
 <
 Unit
@@ -585,7 +585,7 @@ compilationState_
 cx
 allocScope
 options
-parserAtoms
+stencil
 enclosingScope
 enclosingEnv
 )
@@ -839,9 +839,9 @@ JS
 ReadOnlyCompileOptions
 &
 options
-ParserAtomsTable
+CompilationStencil
 &
-parserAtoms
+stencil
 SourceText
 <
 Unit
@@ -868,7 +868,7 @@ Base
 cx
 allocScope
 options
-parserAtoms
+stencil
 sourceBuffer
 enclosingScope
 enclosingEnv
@@ -1269,8 +1269,6 @@ options
 compilationInfo
 .
 stencil
-.
-parserAtoms
 srcBuf
 )
 ;
@@ -2339,8 +2337,6 @@ get
 )
 .
 stencil
-.
-parserAtoms
 srcBuf
 enclosingScope
 enclosingEnv
@@ -2636,9 +2632,9 @@ JS
 ReadOnlyCompileOptions
 &
 options
-ParserAtomsTable
+CompilationStencil
 &
-parserAtoms
+stencil
 SourceText
 <
 Unit
@@ -2665,7 +2661,7 @@ Base
 cx
 allocScope
 options
-parserAtoms
+stencil
 sourceBuffer
 enclosingScope
 enclosingEnv
@@ -2779,9 +2775,9 @@ JS
 ReadOnlyCompileOptions
 &
 options
-ParserAtomsTable
+CompilationStencil
 &
-parserAtoms
+stencil
 SourceText
 <
 Unit
@@ -2808,7 +2804,7 @@ Base
 cx
 allocScope
 options
-parserAtoms
+stencil
 sourceBuffer
 enclosingScope
 enclosingEnv
@@ -4573,8 +4569,6 @@ options
 compilationInfo
 .
 stencil
-.
-parserAtoms
 srcBuf
 )
 ;
@@ -5276,8 +5270,6 @@ options
 compilationInfo
 .
 stencil
-.
-parserAtoms
 fun
 -
 >
@@ -5880,8 +5872,6 @@ get
 )
 .
 stencil
-.
-parserAtoms
 srcBuf
 enclosingScope
 )

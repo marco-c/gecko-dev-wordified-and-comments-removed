@@ -21986,8 +21986,6 @@ get
 )
 .
 stencil
-.
-parserAtoms
 )
 ;
 Parser
