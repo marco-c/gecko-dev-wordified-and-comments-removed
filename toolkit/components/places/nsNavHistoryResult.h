@@ -472,6 +472,11 @@ StopObserving
 (
 )
 ;
+void
+EnsureIsObservingBookmarks
+(
+)
+;
 nsresult
 OnVisit
 (
@@ -563,10 +568,7 @@ bool
 mIsHistoryObserver
 ;
 bool
-mIsBookmarkFolderObserver
-;
-bool
-mIsAllBookmarksObserver
+mIsBookmarksObserver
 ;
 bool
 mIsMobilePrefObserver
