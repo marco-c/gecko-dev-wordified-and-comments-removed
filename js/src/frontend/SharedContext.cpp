@@ -1163,8 +1163,6 @@ FunctionFlags
 flags
 FunctionIndex
 index
-TopLevelFunction
-isTopLevel
 )
 :
 SharedContext
@@ -1195,10 +1193,6 @@ clearMutableflags
 (
 flags
 )
-)
-isTopLevel_
-(
-isTopLevel
 )
 emitBytecode
 (

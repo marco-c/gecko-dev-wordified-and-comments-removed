@@ -4295,10 +4295,6 @@ emitter
 emitFunctionScript
 (
 parsedFunction
-TopLevelFunction
-:
-:
-Yes
 )
 )
 {
@@ -5422,10 +5418,6 @@ bce
 emitFunctionScript
 (
 pn
-TopLevelFunction
-:
-:
-Yes
 )
 )
 {

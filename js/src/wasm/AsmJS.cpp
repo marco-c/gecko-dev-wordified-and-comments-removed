@@ -34494,10 +34494,6 @@ FunctionAsyncKind
 :
 :
 SyncFunction
-TopLevelFunction
-:
-:
-No
 )
 ;
 if

@@ -1514,8 +1514,6 @@ emitFunctionScript
 FunctionNode
 *
 funNode
-TopLevelFunction
-isTopLevel
 )
 ;
 MOZ_MUST_USE
