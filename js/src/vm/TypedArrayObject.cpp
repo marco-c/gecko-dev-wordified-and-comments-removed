@@ -709,7 +709,12 @@ ArrayBufferObject
 createZeroed
 (
 cx
+tarray
+-
+>
 byteLength
+(
+)
 )
 )
 ;
@@ -4599,7 +4604,10 @@ ArrayBufferObject
 createZeroed
 (
 cx
+BufferSize
+(
 byteLength
+)
 nonDefaultProto
 )
 ;

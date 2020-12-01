@@ -92,7 +92,7 @@ mozilla
 :
 Atomic
 <
-uint32_t
+size_t
 mozilla
 :
 :
@@ -174,7 +174,7 @@ SharedArrayRawBuffer
 uint8_t
 *
 buffer
-uint32_t
+BufferSize
 length
 uint64_t
 maxSize
@@ -191,6 +191,10 @@ refcount_
 length_
 (
 length
+.
+get
+(
+)
 )
 growLock_
 (
@@ -291,7 +295,7 @@ SharedArrayRawBuffer
 *
 Allocate
 (
-uint32_t
+BufferSize
 length
 const
 mozilla
@@ -417,14 +421,17 @@ SharedArrayRawBuffer
 )
 ;
 }
-uint32_t
+BufferSize
 volatileByteLength
 (
 )
 const
 {
 return
+BufferSize
+(
 length_
+)
 ;
 }
 uint64_t
@@ -470,7 +477,7 @@ wasmGrowToSizeInPlace
 const
 Lock
 &
-uint32_t
+BufferSize
 newLength
 )
 ;
@@ -591,7 +598,7 @@ New
 JSContext
 *
 cx
-uint32_t
+BufferSize
 length
 HandleObject
 proto
@@ -610,7 +617,7 @@ cx
 SharedArrayRawBuffer
 *
 buffer
-uint32_t
+BufferSize
 length
 HandleObject
 proto
@@ -769,7 +776,7 @@ cx
 SharedArrayRawBuffer
 *
 buffer
-uint32_t
+BufferSize
 initialSize
 )
 ;
@@ -828,7 +835,7 @@ acceptRawBuffer
 SharedArrayRawBuffer
 *
 buffer
-uint32_t
+BufferSize
 length
 )
 ;

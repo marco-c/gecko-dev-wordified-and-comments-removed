@@ -5082,7 +5082,10 @@ ArrayBufferObject
 createForTypedObject
 (
 cx
+BufferSize
+(
 totalSize
+)
 )
 ;
 if

@@ -11090,7 +11090,10 @@ ArrayBufferObject
 createForContents
 (
 cx
+BufferSize
+(
 length
+)
 contents
 )
 )
@@ -40321,7 +40324,10 @@ New
 (
 cx
 buf
+BufferSize
+(
 length
+)
 )
 )
 ;
@@ -41630,10 +41636,13 @@ ArrayBufferObject
 createZeroed
 (
 cx
+BufferSize
+(
 bytes
 .
 length
 (
+)
 )
 )
 )
