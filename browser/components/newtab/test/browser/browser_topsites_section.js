@@ -213,10 +213,6 @@ not
 search
 -
 shortcut
-)
-:
-not
-(
 .
 placeholder
 )

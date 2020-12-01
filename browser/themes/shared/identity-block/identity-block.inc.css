@@ -250,10 +250,6 @@ not
 no
 -
 hover
-)
-:
-not
-(
 [
 open
 =
@@ -507,16 +503,8 @@ not
 (
 .
 chromeUI
-)
-:
-not
-(
 .
 extensionPage
-)
-:
-not
-(
 .
 notSecureText
 )

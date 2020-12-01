@@ -2156,10 +2156,6 @@ autohide
 =
 true
 ]
-)
-:
-not
-(
 [
 collapsed
 =

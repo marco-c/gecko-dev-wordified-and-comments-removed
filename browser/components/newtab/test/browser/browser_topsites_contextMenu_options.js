@@ -34,10 +34,6 @@ not
 search
 -
 shortcut
-)
-:
-not
-(
 .
 placeholder
 )
@@ -216,10 +212,6 @@ not
 search
 -
 shortcut
-)
-:
-not
-(
 .
 placeholder
 )
