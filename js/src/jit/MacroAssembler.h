@@ -17372,6 +17372,15 @@ Label
 fail
 )
 ;
+void
+loadArrayBufferByteLengthInt32
+(
+Register
+obj
+Register
+output
+)
+;
 private
 :
 void
