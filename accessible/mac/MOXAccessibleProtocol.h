@@ -613,6 +613,14 @@ _Nullable
 )
 moxEditableAncestor
 ;
+-
+(
+NSString
+*
+_Nullable
+)
+moxMozDebugDescription
+;
 #
 pragma
 mark
