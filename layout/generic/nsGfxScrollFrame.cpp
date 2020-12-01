@@ -36532,12 +36532,6 @@ Some
 (
 aDestination
 )
-&
-&
-mScrollGeneration
-=
-=
-sScrollGenerationCounter
 )
 {
 return
