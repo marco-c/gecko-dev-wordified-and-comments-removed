@@ -766,7 +766,7 @@ overflowBSize
 LogicalRect
 (
 wm
-InkOverflowRect
+ScrollableOverflowRect
 (
 )
 GetSize
