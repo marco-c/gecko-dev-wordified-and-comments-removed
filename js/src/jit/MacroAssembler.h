@@ -10494,8 +10494,7 @@ lhsDest
 )
 DEFINED_ON
 (
-x64
-x86
+x86_shared
 )
 ;
 inline
@@ -10541,8 +10540,7 @@ lhsDest
 )
 DEFINED_ON
 (
-x64
-x86
+x86_shared
 )
 ;
 inline
