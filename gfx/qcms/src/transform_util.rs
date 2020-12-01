@@ -469,11 +469,7 @@ c_uint
 1
 )
 /
-(
-8192
--
-1
-)
+PRECACHE_OUTPUT_MAX
 as
 libc
 :
@@ -2639,7 +2635,7 @@ isize
 v
 /
 (
-8192
+PRECACHE_OUTPUT_SIZE
 /
 256
 )
