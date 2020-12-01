@@ -249,6 +249,17 @@ aConstraint
 {
 }
 NS_DECL_THREADSAFE_ISUPPORTS
+void
+Reject
+(
+dom
+:
+:
+Promise
+*
+aPromise
+)
+;
 private
 :
 ~
