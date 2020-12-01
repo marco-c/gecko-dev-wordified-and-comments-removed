@@ -305,11 +305,6 @@ passwordSavingEnabled
 "
 passwordManagerExtensionContent
 "
-defaultSearch
-:
-"
-browserDefaultSearchExtensionContent
-"
 "
 proxy
 .
@@ -382,13 +377,6 @@ passwordSavingEnabled
 password
 -
 saving
-"
-defaultSearch
-:
-"
-default
--
-search
 "
 "
 privacy
