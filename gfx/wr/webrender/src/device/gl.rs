@@ -4369,6 +4369,10 @@ supports_render_target_partial_update
 :
 bool
 pub
+prefers_batched_texture_uploads
+:
+bool
+pub
 renderer_name
 :
 String
@@ -6748,9 +6752,8 @@ supports_nonzero_pbo_offsets
 is_macos
 ;
 let
-supports_render_target_partial_update
+is_mali_g
 =
-!
 renderer_name
 .
 starts_with
@@ -6761,6 +6764,17 @@ Mali
 G
 "
 )
+;
+let
+supports_render_target_partial_update
+=
+!
+is_mali_g
+;
+let
+prefers_batched_texture_uploads
+=
+is_mali_g
 ;
 Device
 {
@@ -6792,6 +6806,7 @@ supports_texture_swizzle
 supports_nonzero_pbo_offsets
 supports_texture_usage
 supports_render_target_partial_update
+prefers_batched_texture_uploads
 renderer_name
 }
 color_formats
