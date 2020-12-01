@@ -907,6 +907,7 @@ LifoAllocChunkSize
 parserAtoms
 (
 rt
+alloc
 )
 {
 }
@@ -1027,6 +1028,13 @@ steal
 &
 other
 .
+alloc
+)
+;
+parserAtoms
+.
+updateLifoAlloc
+(
 alloc
 )
 ;
