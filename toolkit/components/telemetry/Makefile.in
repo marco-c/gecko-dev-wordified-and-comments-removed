@@ -135,13 +135,12 @@ dir
 ;
 \
 (
-cd
-dir
-&
-&
+call
+py_action
 zip
 -
-qr
+C
+dir
 (
 testdir
 )
@@ -149,6 +148,7 @@ testdir
 base
 .
 xpi
+\
 *
 )
 ;
