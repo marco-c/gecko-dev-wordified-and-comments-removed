@@ -18,8 +18,8 @@ stylesheets
 :
 :
 {
-StylesheetInvalidationSet
 RuleChangeKind
+StylesheetInvalidationSet
 }
 ;
 use
@@ -2076,10 +2076,12 @@ RuleChangeKind
 Removal
 =
 >
+{
 DataValidity
 :
 :
 FullyInvalid
+}
 /
 /
 TODO

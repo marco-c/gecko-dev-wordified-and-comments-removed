@@ -8,10 +8,10 @@ values
 computed
 :
 :
-position
+percentage
 :
 :
-Position
+Percentage
 ;
 use
 crate
@@ -23,10 +23,10 @@ values
 computed
 :
 :
-percentage
+position
 :
 :
-Percentage
+Position
 ;
 use
 crate
