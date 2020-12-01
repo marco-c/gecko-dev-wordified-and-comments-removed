@@ -361,15 +361,6 @@ timeout
 )
   
 if
-hasattr
-(
-request
-u
-'
-cookies
-'
-)
-and
 len
 (
 request
