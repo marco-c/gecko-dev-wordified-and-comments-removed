@@ -28614,6 +28614,16 @@ isNullPrincipal
 }
 )
 ;
+isVisible
+&
+&
+=
+BookmarkingUI
+.
+bookmarksToolbarHasVisibleChildren
+(
+)
+;
 break
 ;
 }

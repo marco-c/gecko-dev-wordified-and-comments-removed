@@ -1076,7 +1076,10 @@ message
 }
 )
 {
-return
+let
+result
+=
+await
 TestUtils
 .
 waitForCondition
@@ -1137,6 +1140,15 @@ hidden
 "
 )
 )
+;
+ok
+(
+result
+message
+)
+;
+return
+result
 ;
 }
 function
