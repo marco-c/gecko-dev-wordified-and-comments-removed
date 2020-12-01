@@ -3265,7 +3265,7 @@ aPresShellId
 )
 ;
 void
-SuspendProgressEventsUntilAfterNextLoadStarts
+SuspendProgressEvents
 (
 )
 {

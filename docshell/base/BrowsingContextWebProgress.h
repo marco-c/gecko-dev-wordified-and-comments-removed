@@ -173,6 +173,11 @@ ListenerInfo
 ListenerArray
 mListenerInfoList
 ;
+bool
+mSuspendOnStateStartChangeEvents
+=
+false
+;
 }
 ;
 }

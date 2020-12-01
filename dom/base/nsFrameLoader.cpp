@@ -9004,7 +9004,7 @@ aForProcessSwitch
 browserParent
 -
 >
-SuspendProgressEventsUntilAfterNextLoadStarts
+SuspendProgressEvents
 (
 )
 ;

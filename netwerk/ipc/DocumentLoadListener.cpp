@@ -8441,7 +8441,7 @@ GetBrowserParent
 browserParent
 -
 >
-SuspendProgressEventsUntilAfterNextLoadStarts
+SuspendProgressEvents
 (
 )
 ;
@@ -10448,13 +10448,6 @@ GetCurrentWindowGlobal
 -
 >
 GetBrowserParent
-(
-)
-;
-browserParent
--
->
-SuspendProgressEventsUntilAfterNextLoadStarts
 (
 )
 ;
