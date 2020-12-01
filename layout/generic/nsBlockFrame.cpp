@@ -12156,7 +12156,10 @@ aLine
 >
 GetOverflowArea
 (
-eScrollableOverflow
+OverflowType
+:
+:
+Scrollable
 wm
 containerSize
 )
@@ -16077,7 +16080,10 @@ aLine
 >
 GetOverflowArea
 (
-eScrollableOverflow
+OverflowType
+:
+:
+Scrollable
 wm
 aLine
 -
