@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-MarionetteReftestFrameChild
+MarionetteReftestChild
 "
 ]
 ;
@@ -80,7 +80,7 @@ get
 )
 ;
 class
-MarionetteReftestFrameChild
+MarionetteReftestChild
 extends
 JSWindowActorChild
 {
@@ -221,7 +221,7 @@ name
 {
 case
 "
-MarionetteReftestFrameParent
+MarionetteReftestParent
 :
 reftestWait
 "
