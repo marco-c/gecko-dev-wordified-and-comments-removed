@@ -915,10 +915,11 @@ IOError
 >
 GetChildrenSync
 (
-const
-nsAString
-&
-aPath
+already_AddRefed
+<
+nsIFile
+>
+aFile
 )
 ;
 }
