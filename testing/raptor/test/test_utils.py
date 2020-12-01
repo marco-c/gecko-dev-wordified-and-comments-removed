@@ -357,7 +357,7 @@ yml_loaded
 =
 yaml
 .
-load
+unsafe_load
 (
 yml_in
 )
