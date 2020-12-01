@@ -875,10 +875,11 @@ IOError
 >
 StatSync
 (
-const
-nsAString
-&
-aPath
+already_AddRefed
+<
+nsIFile
+>
+aFile
 )
 ;
 static
