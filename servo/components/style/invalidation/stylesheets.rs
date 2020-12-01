@@ -594,11 +594,10 @@ return
 let
 quirks_mode
 =
-stylesheet
+device
 .
 quirks_mode
 (
-guard
 )
 ;
 for

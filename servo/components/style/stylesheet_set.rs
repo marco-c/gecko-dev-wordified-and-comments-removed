@@ -1998,11 +1998,10 @@ device
 let
 quirks_mode
 =
-sheet
+device
 .
 quirks_mode
 (
-guard
 )
 ;
 self
