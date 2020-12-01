@@ -3626,9 +3626,6 @@ fuzzy
 -
 if
 (
-gtkWidget
-&
-&
 webrender
 &
 &
