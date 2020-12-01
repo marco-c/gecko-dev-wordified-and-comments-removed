@@ -1141,6 +1141,14 @@ mozilla
 :
 LayoutDeviceCoord
 ;
+using
+LayoutDeviceRect
+=
+mozilla
+:
+:
+LayoutDeviceRect
+;
 public
 :
 using
@@ -1405,11 +1413,11 @@ aFrame
 )
 ;
 static
-Rect
+LayoutDeviceRect
 FixAspectRatio
 (
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 )
@@ -1424,7 +1432,7 @@ DrawTarget
 &
 aDt
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 )
@@ -1439,6 +1447,10 @@ mDt
 PushClipRect
 (
 aRect
+.
+ToUnknownRect
+(
+)
 )
 ;
 }
@@ -1469,7 +1481,7 @@ GetFocusStrokeRect
 DrawTarget
 *
 aDrawTarget
-Rect
+LayoutDeviceRect
 &
 aFocusRect
 LayoutDeviceCoord
@@ -1756,7 +1768,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 DPIRatio
@@ -1774,7 +1786,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -1800,7 +1812,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -1826,7 +1838,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -1844,7 +1856,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -1862,7 +1874,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -1880,7 +1892,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -1905,7 +1917,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 float
@@ -1927,7 +1939,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -1945,7 +1957,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -1963,7 +1975,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -1981,7 +1993,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -1999,7 +2011,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -2017,7 +2029,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -2053,7 +2065,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -2074,7 +2086,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -2097,7 +2109,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -2117,7 +2129,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -2138,7 +2150,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -2156,7 +2168,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -2177,7 +2189,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -2198,7 +2210,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
@@ -2217,7 +2229,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 bool
@@ -2249,7 +2261,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 bool
@@ -2279,7 +2291,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 bool
@@ -2309,7 +2321,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 nsIFrame
@@ -2339,7 +2351,7 @@ aDrawTarget
 StyleAppearance
 aAppearance
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 const
