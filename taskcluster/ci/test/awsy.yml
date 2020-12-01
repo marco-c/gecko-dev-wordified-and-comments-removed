@@ -63,6 +63,11 @@ defaults
 suite
 :
 awsy
+force
+-
+py2
+:
+true
 max
 -
 run

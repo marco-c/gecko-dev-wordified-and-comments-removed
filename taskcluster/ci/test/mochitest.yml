@@ -65,6 +65,11 @@ suite
 category
 :
 mochitest
+force
+-
+py2
+:
+true
 target
 :
 by

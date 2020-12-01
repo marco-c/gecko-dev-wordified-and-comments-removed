@@ -67,6 +67,11 @@ category
 firefox
 -
 ui
+force
+-
+py2
+:
+true
 max
 -
 run
