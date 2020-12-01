@@ -1,11 +1,3 @@
-extern
-crate
-euclid
-;
-extern
-crate
-plane_split
-;
 use
 euclid
 :
@@ -14,13 +6,6 @@ euclid
 point3
 rect
 vec3
-}
-;
-use
-euclid
-:
-:
-{
 Angle
 Rect
 Transform3D

@@ -110,6 +110,11 @@ reasonable
 [
 package
 ]
+edition
+=
+"
+2018
+"
 name
 =
 "
@@ -124,7 +129,7 @@ version
 .
 17
 .
-0
+1
 "
 authors
 =
