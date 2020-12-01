@@ -81,7 +81,7 @@ EventTarget
 {
 Promise
 <
-void
+undefined
 >
 lock
 (
@@ -89,7 +89,7 @@ OrientationLockType
 orientation
 )
 ;
-void
+undefined
 unlock
 (
 )
