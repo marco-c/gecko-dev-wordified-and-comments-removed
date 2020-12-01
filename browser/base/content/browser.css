@@ -8605,6 +8605,16 @@ index
 ;
 }
 .
+dialogStack
+.
+temporarilyHidden
+{
+visibility
+:
+hidden
+;
+}
+.
 dialogOverlay
 {
 visibility
