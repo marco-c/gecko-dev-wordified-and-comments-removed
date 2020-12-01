@@ -1053,6 +1053,17 @@ day
 }
 )
 {
+if
+(
+!
+this
+.
+state
+)
+{
+return
+;
+}
 const
 {
 dateKeeper
