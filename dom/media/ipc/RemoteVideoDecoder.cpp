@@ -563,12 +563,13 @@ CreateDecoderParams
 OptionSet
 &
 aOptions
-const
+Maybe
+<
 layers
 :
 :
 TextureFactoryIdentifier
-*
+>
 aIdentifier
 )
 {
@@ -686,10 +687,7 @@ SendPRemoteDecoderConstructor
 this
 decoderInfo
 aOptions
-ToMaybe
-(
 aIdentifier
-)
 )
 ;
 return
