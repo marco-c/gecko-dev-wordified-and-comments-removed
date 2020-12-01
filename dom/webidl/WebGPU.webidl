@@ -1211,15 +1211,11 @@ popErrorScope
 (
 )
 ;
-/
-/
 [
 Exposed
 =
 Window
 ]
-/
-/
 attribute
 EventHandler
 onuncapturederror
