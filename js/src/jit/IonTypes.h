@@ -216,6 +216,7 @@ TranspiledCacheIR
 SpeculativePhi
 TypePolicy
 LICM
+HoistBoundsCheck
 Inevitable
 DuringVMCall
 TooManyArguments
@@ -342,6 +343,17 @@ LICM
 return
 "
 LICM
+"
+;
+case
+BailoutKind
+:
+:
+HoistBoundsCheck
+:
+return
+"
+HoistBoundsCheck
 "
 ;
 case
