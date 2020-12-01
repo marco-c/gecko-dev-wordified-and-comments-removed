@@ -141,6 +141,7 @@ Frame
 *
 fp_
 ;
+const
 TlsData
 *
 tls_
@@ -351,6 +352,7 @@ return
 fp_
 ;
 }
+const
 TlsData
 *
 tls
@@ -1006,6 +1008,17 @@ framePushed
 FuncOffsets
 *
 offsets
+)
+;
+const
+TlsData
+*
+GetNearestEffectiveTls
+(
+const
+Frame
+*
+fp
 )
 ;
 TlsData
