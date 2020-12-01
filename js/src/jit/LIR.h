@@ -6973,9 +6973,6 @@ TempObject
 {
 private
 :
-uint32_t
-numSlots_
-;
 LAllocation
 *
 slots_
@@ -6986,6 +6983,9 @@ recoverInfo_
 ;
 SnapshotOffset
 snapshotOffset_
+;
+uint32_t
+numSlots_
 ;
 BailoutId
 bailoutId_
