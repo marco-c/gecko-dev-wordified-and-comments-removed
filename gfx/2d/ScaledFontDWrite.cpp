@@ -2147,12 +2147,6 @@ return
 false
 ;
 }
-aFileName
-.
-pop_back
-(
-)
-;
 return
 true
 ;
