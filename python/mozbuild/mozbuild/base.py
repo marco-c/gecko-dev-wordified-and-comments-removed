@@ -3726,21 +3726,22 @@ screen
 "
 "
         
-moz_nospam
-=
-os
-.
-environ
-.
-get
-(
+if
 "
 MOZ_NOSPAM
 "
-)
-        
-if
-moz_nospam
+in
+os
+.
+environ
+or
+"
+MOZ_AUTOMATION
+"
+in
+os
+.
+environ
 :
             
 return
