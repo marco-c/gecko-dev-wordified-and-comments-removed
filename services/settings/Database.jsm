@@ -190,7 +190,7 @@ filters
 =
 {
 }
-sort
+order
 =
 "
 "
@@ -431,13 +431,13 @@ _cid
 ;
 }
 return
-sort
+order
 ?
 Utils
 .
 sortObjects
 (
-sort
+order
 results
 )
 :
