@@ -3237,9 +3237,10 @@ storage
 >
 OpenSpecialDatabase
 (
-"
-memory
-"
+kMozStorageMemoryStorageKey
+VoidCString
+(
+)
 getter_AddRefs
 (
 data

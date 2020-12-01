@@ -187,6 +187,14 @@ false
 nsresult
 initialize
 (
+const
+nsACString
+&
+aStorageKey
+const
+nsACString
+&
+aName
 )
 ;
 nsresult
@@ -578,6 +586,12 @@ aOperationType
 sqlite3
 *
 mDBConn
+;
+nsCString
+mStorageKey
+;
+nsCString
+mName
 ;
 nsCOMPtr
 <
