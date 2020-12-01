@@ -120,14 +120,6 @@ created
 }
 ;
 struct
-InitStorageAndOriginResponse
-{
-bool
-created
-;
-}
-;
-struct
 ClearOriginResponse
 {
 }
@@ -204,8 +196,6 @@ InitTemporaryStorageResponse
 InitializePersistentOriginResponse
 ;
 InitializeTemporaryOriginResponse
-;
-InitStorageAndOriginResponse
 ;
 ClearOriginResponse
 ;

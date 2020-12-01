@@ -224,17 +224,6 @@ principalInfo
 }
 ;
 struct
-InitStorageAndOriginParams
-{
-PrincipalInfo
-principalInfo
-;
-PersistenceType
-persistenceType
-;
-}
-;
-struct
 AllUsageParams
 {
 bool
@@ -364,8 +353,6 @@ InitTemporaryStorageParams
 InitializePersistentOriginParams
 ;
 InitializeTemporaryOriginParams
-;
-InitStorageAndOriginParams
 ;
 ClearOriginParams
 ;
