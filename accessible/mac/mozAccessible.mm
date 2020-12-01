@@ -784,6 +784,15 @@ roles
 :
 :
 DOCUMENT
+|
+|
+mRole
+=
+=
+roles
+:
+:
+OUTLINE
 ;
 }
 -
