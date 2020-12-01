@@ -4445,6 +4445,11 @@ mUsage
 OriginScope
 (
 )
++
+"
+%
+"
+_ns
 )
 ;
 NS_ENSURE_SUCCESS
