@@ -1242,6 +1242,16 @@ int64_t
 ;
 }
 else
+if
+(
+argument_count
+=
+=
+0
+)
+{
+}
+else
 {
 MOZ_CRASH
 (
@@ -1326,6 +1336,7 @@ USE_DEBUGGER
 "
 )
 )
+{
 printf
 (
 "
@@ -1335,6 +1346,7 @@ n
 "
 )
 ;
+}
 return
 result
 ;
