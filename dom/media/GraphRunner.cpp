@@ -287,7 +287,7 @@ GraphRunner
 OneIteration
 (
 GraphTime
-aStateTime
+aStateEnd
 GraphTime
 aIterationEnd
 AudioMixer
@@ -325,7 +325,7 @@ Some
 (
 IterationState
 (
-aStateTime
+aStateEnd
 aIterationEnd
 aMixer
 )
@@ -598,7 +598,7 @@ OneIterationImpl
 mIterationState
 -
 >
-StateTime
+StateEnd
 (
 )
 mIterationState
@@ -656,7 +656,6 @@ GraphRunner
 OnThread
 (
 )
-const
 {
 return
 mThread
@@ -681,12 +680,10 @@ GraphRunner
 :
 InDriverIteration
 (
-const
 GraphDriver
 *
 aDriver
 )
-const
 {
 if
 (

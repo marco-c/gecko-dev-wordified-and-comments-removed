@@ -83,7 +83,7 @@ IterationResult
 OneIteration
 (
 GraphTime
-aStateTime
+aStateEnd
 GraphTime
 aIterationEnd
 AudioMixer
@@ -100,7 +100,6 @@ bool
 OnThread
 (
 )
-const
 ;
 #
 ifdef
@@ -108,12 +107,10 @@ DEBUG
 bool
 InDriverIteration
 (
-const
 GraphDriver
 *
 aDriver
 )
-const
 ;
 #
 endif
@@ -141,7 +138,7 @@ class
 IterationState
 {
 GraphTime
-mStateTime
+mStateEnd
 ;
 GraphTime
 mIterationEnd
@@ -156,7 +153,7 @@ public
 IterationState
 (
 GraphTime
-aStateTime
+aStateEnd
 GraphTime
 aIterationEnd
 AudioMixer
@@ -164,9 +161,9 @@ AudioMixer
 aMixer
 )
 :
-mStateTime
+mStateEnd
 (
-aStateTime
+aStateEnd
 )
 mIterationEnd
 (
@@ -192,13 +189,13 @@ aOther
 default
 ;
 GraphTime
-StateTime
+StateEnd
 (
 )
 const
 {
 return
-mStateTime
+mStateEnd
 ;
 }
 GraphTime
