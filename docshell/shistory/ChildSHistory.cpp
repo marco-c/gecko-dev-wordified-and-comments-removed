@@ -733,7 +733,7 @@ LogLevel
 Debug
 (
 "
-nsHistory
+ChildSHistory
 :
 :
 Go
@@ -993,7 +993,7 @@ LogLevel
 Debug
 (
 "
-nsHistory
+ChildSHistory
 :
 :
 AsyncGo
@@ -1114,7 +1114,7 @@ LogLevel
 Debug
 (
 "
-nsHistory
+ChildSHistory
 :
 :
 GotoIndex
@@ -1218,6 +1218,9 @@ LogLevel
 Debug
 (
 "
+ChildSHistory
+:
+:
 RemovePendingHistoryNavigations
 :
 %
