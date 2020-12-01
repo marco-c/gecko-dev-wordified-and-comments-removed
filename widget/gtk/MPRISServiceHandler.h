@@ -211,6 +211,14 @@ Identity
 )
 const
 ;
+const
+char
+*
+DesktopEntry
+(
+)
+const
+;
 bool
 PressKey
 (
@@ -304,6 +312,9 @@ false
 ;
 nsAutoCString
 mIdentity
+;
+nsAutoCString
+mDesktopEntry
 ;
 nsCString
 mMimeType
