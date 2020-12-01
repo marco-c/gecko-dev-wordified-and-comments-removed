@@ -967,6 +967,11 @@ MessageListenerManager
 h
 "
 "
+MessageManagerCallback
+.
+h
+"
+"
 MessageManagerGlobal
 .
 h

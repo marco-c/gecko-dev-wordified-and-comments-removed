@@ -693,6 +693,16 @@ mCount
 )
 {
 }
+RefMessageBody
+:
+:
+~
+RefMessageBody
+(
+)
+=
+default
+;
 void
 RefMessageBody
 :

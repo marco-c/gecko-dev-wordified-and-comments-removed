@@ -163,8 +163,6 @@ private
 RefMessageBody
 (
 )
-=
-default
 ;
 const
 nsID
