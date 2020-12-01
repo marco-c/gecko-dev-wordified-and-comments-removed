@@ -81,6 +81,9 @@ SMILCSSProperty
 (
 nsCSSPropertyID
 aPropID
+dom
+:
+:
 Element
 *
 aElement
@@ -240,6 +243,9 @@ nsAString
 &
 aStr
 const
+dom
+:
+:
 SVGAnimationElement
 *
 aSrcElement
