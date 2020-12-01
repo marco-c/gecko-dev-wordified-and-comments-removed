@@ -2307,6 +2307,9 @@ resolveElement
 function
 (
 id
+win
+=
+undefined
 )
 {
 let
@@ -2348,9 +2351,7 @@ element
 isStale
 (
 el
-this
-.
-content
+win
 )
 )
 {

@@ -476,6 +476,10 @@ evaluate
 fromJSON
 (
 serializedData
+null
+this
+.
+contentWindow
 )
 ;
 switch
