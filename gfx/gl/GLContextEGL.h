@@ -398,6 +398,13 @@ aDamageRegion
 )
 override
 ;
+GLint
+GetBufferAge
+(
+)
+const
+override
+;
 virtual
 void
 GetWSIInfo
@@ -436,12 +443,6 @@ const
 ;
 bool
 HasKhrPartialUpdate
-(
-)
-const
-;
-EGLint
-GetBufferAge
 (
 )
 const

@@ -3208,7 +3208,7 @@ KHR_partial_update
 )
 ;
 }
-EGLint
+GLint
 GLContextEGL
 :
 :

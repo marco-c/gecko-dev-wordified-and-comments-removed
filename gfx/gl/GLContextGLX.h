@@ -222,6 +222,13 @@ SwapBuffers
 )
 override
 ;
+GLint
+GetBufferAge
+(
+)
+const
+override
+;
 void
 GetWSIInfo
 (
