@@ -72,3 +72,5 @@ DllRegisterServer
 PRIVATE
 DllUnregisterServer
 PRIVATE
+GetProxyDllInfo
+PRIVATE
