@@ -3098,6 +3098,16 @@ length
 )
 ;
 }
+const
+ParserAtom
+*
+getWellKnown
+(
+WellKnownAtomId
+atomId
+)
+const
+;
 }
 ;
 bool
