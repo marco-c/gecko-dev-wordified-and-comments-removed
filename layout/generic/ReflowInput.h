@@ -1643,16 +1643,6 @@ return
 mComputedOffsets
 ;
 }
-nsMargin
-&
-ComputedPhysicalOffsets
-(
-)
-{
-return
-mComputedOffsets
-;
-}
 LogicalMargin
 ComputedLogicalOffsets
 (
