@@ -423,7 +423,7 @@ info
 "
 Testing
 the
-removeAllLogins
+removeAllUserFacingLogins
 (
 )
 case
@@ -605,7 +605,7 @@ Services
 .
 logins
 .
-removeAllLogins
+removeAllUserFacingLogins
 (
 )
 ;
