@@ -157,6 +157,13 @@ npapi
 h
 "
 #
+include
+"
+WinUtils
+.
+h
+"
+#
 endif
 namespace
 mozilla
