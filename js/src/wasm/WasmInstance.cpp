@@ -10189,9 +10189,6 @@ void
 )
 )
 ;
-#
-ifndef
-JS_CODEGEN_ARM64
 MOZ_ASSERT_IF
 (
 highestByteVisitedInPrevFrame
@@ -10206,8 +10203,6 @@ highestByteVisitedInPrevFrame
 scanStart
 )
 ;
-#
-endif
 uintptr_t
 *
 stackWords
