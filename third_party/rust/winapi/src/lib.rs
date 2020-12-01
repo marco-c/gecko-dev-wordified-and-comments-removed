@@ -31,6 +31,8 @@ allow
 bad_style
 overflowing_literals
 unused_macros
+deprecated
+unused_crate_dependencies
 )
 ]
 #
@@ -90,6 +92,10 @@ km
 pub
 mod
 shared
+;
+pub
+mod
+ucrt
 ;
 pub
 mod

@@ -657,13 +657,11 @@ LAYOUT_ORIENTATIONMASK
 :
 DWORD
 =
-(
 LAYOUT_RTL
 |
 LAYOUT_BTT
 |
 LAYOUT_VBH
-)
 ;
 pub
 const
@@ -917,11 +915,9 @@ DCB_SET
 :
 UINT
 =
-(
 DCB_RESET
 |
 DCB_ACCUMULATE
-)
 ;
 pub
 const

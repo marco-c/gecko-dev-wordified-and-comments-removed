@@ -6,7 +6,11 @@ allow
 clippy
 :
 :
-block_in_if_condition_stmt
+blocks_in_if_conditions
+clippy
+:
+:
+range_plus_one
 )
 ]
 extern

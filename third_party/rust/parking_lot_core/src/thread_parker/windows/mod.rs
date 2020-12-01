@@ -18,10 +18,7 @@ Ordering
 }
 ;
 use
-std
-:
-:
-time
+instant
 :
 :
 Instant
