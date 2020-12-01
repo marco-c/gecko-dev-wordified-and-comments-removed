@@ -557,6 +557,13 @@ attribute
 float
 textZoom
 ;
+[
+SetterThrows
+]
+attribute
+boolean
+suspendMediaWhenInactive
+;
 /
 /
 Default
