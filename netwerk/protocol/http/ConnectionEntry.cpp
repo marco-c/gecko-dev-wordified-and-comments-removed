@@ -2630,8 +2630,14 @@ ConnMgr
 )
 -
 >
-IncrementNumIdleConns
+NewIdleConnectionAdded
 (
+conn
+-
+>
+TimeToLive
+(
+)
 )
 ;
 conn
