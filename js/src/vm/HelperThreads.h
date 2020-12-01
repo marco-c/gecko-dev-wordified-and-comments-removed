@@ -7,6 +7,15 @@ vm_HelperThreads_h
 #
 include
 "
+mozilla
+/
+Variant
+.
+h
+"
+#
+include
+"
 NamespaceImports
 .
 h

@@ -415,6 +415,11 @@ ResultExtensions
 h
 "
 "
+ResultVariant
+.
+h
+"
+"
 ReverseIterator
 .
 h

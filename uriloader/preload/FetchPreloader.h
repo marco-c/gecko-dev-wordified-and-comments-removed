@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+Variant
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

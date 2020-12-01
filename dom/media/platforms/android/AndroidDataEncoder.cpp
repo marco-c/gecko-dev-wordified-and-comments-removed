@@ -52,6 +52,15 @@ h
 #
 include
 "
+mozilla
+/
+ResultVariant
+.
+h
+"
+#
+include
+"
 nsMimeTypes
 .
 h

@@ -30,7 +30,7 @@ include
 "
 mozilla
 /
-Result
+ResultVariant
 .
 h
 "
