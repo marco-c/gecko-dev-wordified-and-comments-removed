@@ -301,12 +301,3 @@ error
 shadow
 "
 ]
-CXXFLAGS
-+
-=
-[
-"
--
-O0
-"
-]
