@@ -97159,7 +97159,7 @@ funcType
 (
 )
 ;
-ABIArgGenerator
+WasmABIArgGenerator
 abi
 ;
 for

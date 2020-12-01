@@ -23944,7 +23944,7 @@ Register
 scratch
 )
 {
-setupABICall
+setupNativeABICall
 (
 )
 ;
