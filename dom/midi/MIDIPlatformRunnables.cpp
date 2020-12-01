@@ -56,6 +56,14 @@ Run
 (
 )
 {
+:
+:
+mozilla
+:
+:
+ipc
+:
+:
 AssertIsOnBackgroundThread
 (
 )

@@ -15,6 +15,13 @@ Promise
 .
 h
 "
+#
+include
+"
+nsContentPermissionHelper
+.
+h
+"
 namespace
 mozilla
 {

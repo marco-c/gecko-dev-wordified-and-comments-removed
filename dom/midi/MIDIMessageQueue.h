@@ -7,6 +7,15 @@ mozilla_dom_MIDIMessageQueue_h
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -14,6 +23,9 @@ h
 namespace
 mozilla
 {
+class
+TimeStamp
+;
 namespace
 dom
 {

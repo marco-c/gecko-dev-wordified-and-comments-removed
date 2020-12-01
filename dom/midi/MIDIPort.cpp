@@ -16,6 +16,17 @@ mozilla
 /
 dom
 /
+MIDIConnectionEvent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MIDIPortChild
 .
 h
