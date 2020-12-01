@@ -164,7 +164,7 @@ conn
 bool
 IsInIdleConnections
 (
-nsHttpConnection
+HttpConnectionBase
 *
 conn
 )

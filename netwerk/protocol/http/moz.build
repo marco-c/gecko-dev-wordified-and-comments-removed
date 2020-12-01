@@ -648,6 +648,11 @@ ParentChannelListener
 cpp
 "
 "
+PendingTransactionInfo
+.
+cpp
+"
+"
 PendingTransactionQueue
 .
 cpp
