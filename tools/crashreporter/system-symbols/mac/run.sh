@@ -33,7 +33,7 @@ PATH
 PATH
 :
 /
-home
+builds
 /
 worker
 /
@@ -43,7 +43,7 @@ base
 "
 cd
 /
-home
+builds
 /
 worker
 if
@@ -245,6 +245,14 @@ the
 update
 info
 .
+python3
+/
+usr
+/
+local
+/
+bin
+/
 repo_sync
 -
 -
@@ -267,7 +275,7 @@ in
 packages
 =
 (
-python
+python3
 "
 {
 base
@@ -285,6 +293,14 @@ shellcheck
 disable
 =
 SC2086
+python3
+/
+usr
+/
+local
+/
+bin
+/
 repo_sync
 packages
 du
@@ -312,7 +328,7 @@ mkdir
 p
 symbols
 artifacts
-python
+python3
 "
 {
 base
@@ -329,7 +345,7 @@ tracking
 file
 =
 /
-home
+builds
 /
 worker
 /
@@ -341,7 +357,7 @@ packages
 dump_syms
 =
 /
-home
+builds
 /
 worker
 /
@@ -361,7 +377,7 @@ content
 /
 downloads
 /
-home
+builds
 /
 worker
 /
@@ -390,7 +406,7 @@ zip
 -
 r9
 /
-home
+builds
 /
 worker
 /

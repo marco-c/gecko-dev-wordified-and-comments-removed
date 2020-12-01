@@ -1757,7 +1757,7 @@ open
 (
 tracking_file
 "
-rb
+r
 "
 )
 .
@@ -1818,7 +1818,7 @@ open
 (
 tracking_file
 "
-wb
+w
 "
 )
 .
