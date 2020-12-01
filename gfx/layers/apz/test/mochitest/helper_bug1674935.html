@@ -680,7 +680,6 @@ async
 function
 test
 (
-testDriver
 )
 {
 is
@@ -719,6 +718,14 @@ scrolled
 "
 )
 ;
+let
+waitForScroll
+=
+waitForScrollEvent
+(
+window
+)
+;
 window
 .
 synthesizeKey
@@ -729,10 +736,7 @@ KEY_ArrowDown
 )
 ;
 await
-waitForScrollEvent
-(
-window
-)
+waitForScroll
 ;
 is
 (
