@@ -1024,7 +1024,7 @@ MockCubebStream
 aStream
 )
 ;
-void
+int
 StopStream
 (
 MockCubebStream
