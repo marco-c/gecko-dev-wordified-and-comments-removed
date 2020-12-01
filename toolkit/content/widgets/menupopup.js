@@ -413,6 +413,15 @@ menupopup
 -
 arrowscrollbox
 "
+exportparts
+=
+"
+scrollbox
+:
+arrowscrollbox
+-
+scrollbox
+"
 flex
 =
 "
