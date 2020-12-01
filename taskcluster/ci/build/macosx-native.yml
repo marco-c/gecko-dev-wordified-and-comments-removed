@@ -110,6 +110,8 @@ py
 macosx64
 -
 aarch64
+-
+shippable
 /
 opt
 :
@@ -131,8 +133,18 @@ macosx64
 aarch64
 -
 opt
+type
+:
+shippable
 attributes
 :
+enable
+-
+full
+-
+crashsymbols
+:
+true
 skip
 -
 verify
@@ -149,6 +161,8 @@ platform
 osx
 -
 aarch64
+-
+shippable
 /
 opt
 symbol
@@ -215,7 +229,7 @@ projects
 :
 [
 '
-integration
+release
 '
 ]
 fetches
