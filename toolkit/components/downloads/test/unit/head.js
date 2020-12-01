@@ -1334,6 +1334,17 @@ referrerInfo
 :
 null
 ;
+let
+cookieJarSettings
+=
+aOptions
+?
+aOptions
+.
+cookieJarSettings
+:
+null
+;
 transfer
 .
 init
@@ -1378,6 +1389,7 @@ getSystemPrincipal
 )
 0
 referrerInfo
+cookieJarSettings
 null
 null
 targetFile

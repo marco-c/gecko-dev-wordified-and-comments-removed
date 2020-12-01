@@ -775,6 +775,7 @@ inTriggeringPrincipal
 nullptr
 nullptr
 nullptr
+nullptr
 inDestFile
 inContentPolicyType
 isPrivate
