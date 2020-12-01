@@ -3205,14 +3205,6 @@ set
 fun
 )
 ;
-MOZ_RELEASE_ASSERT
-(
-!
-IsTypeInferenceEnabled
-(
-)
-)
-;
 }
 if
 (

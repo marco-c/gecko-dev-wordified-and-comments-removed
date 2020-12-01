@@ -3272,14 +3272,6 @@ return
 false
 ;
 }
-MOZ_RELEASE_ASSERT
-(
-!
-IsTypeInferenceEnabled
-(
-)
-)
-;
 if
 (
 !

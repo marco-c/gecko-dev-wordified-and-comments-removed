@@ -2748,12 +2748,7 @@ rval
 .
 setBoolean
 (
-js
-:
-:
-IsTypeInferenceEnabled
-(
-)
+false
 )
 ;
 return

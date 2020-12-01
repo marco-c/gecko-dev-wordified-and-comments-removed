@@ -22998,14 +22998,6 @@ hasBytecode
 )
 )
 ;
-MOZ_RELEASE_ASSERT
-(
-!
-IsTypeInferenceEnabled
-(
-)
-)
-;
 return
 clone
 ;

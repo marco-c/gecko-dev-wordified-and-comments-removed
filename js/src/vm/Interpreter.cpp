@@ -2058,14 +2058,6 @@ clearAllowRelazify
 (
 )
 ;
-MOZ_RELEASE_ASSERT
-(
-!
-IsTypeInferenceEnabled
-(
-)
-)
-;
 DebugAPI
 :
 :

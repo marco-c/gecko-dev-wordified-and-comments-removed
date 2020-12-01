@@ -24973,14 +24973,6 @@ temp
 spectreTemp
 )
 ;
-if
-(
-!
-IsTypeInferenceEnabled
-(
-)
-)
-{
 assignSnapshot
 (
 lir
@@ -24992,7 +24984,6 @@ bailoutKind
 )
 )
 ;
-}
 define
 (
 lir
@@ -25045,14 +25036,6 @@ temp
 spectreTemp
 )
 ;
-if
-(
-!
-IsTypeInferenceEnabled
-(
-)
-)
-{
 assignSnapshot
 (
 lir
@@ -25064,7 +25047,6 @@ bailoutKind
 )
 )
 ;
-}
 define
 (
 lir
