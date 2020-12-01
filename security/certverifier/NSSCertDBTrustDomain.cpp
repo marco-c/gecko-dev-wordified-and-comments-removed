@@ -1681,7 +1681,13 @@ geckoRootCandidates
 .
 appendAll
 (
+std
+:
+:
+move
+(
 geckoIntermediateCandidates
+)
 )
 )
 {
@@ -1892,7 +1898,13 @@ nssRootCandidates
 .
 appendAll
 (
+std
+:
+:
+move
+(
 nssIntermediateCandidates
+)
 )
 )
 {
