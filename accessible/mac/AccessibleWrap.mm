@@ -1252,6 +1252,12 @@ nsIAccessibleEvent
 :
 EVENT_LIVE_REGION_REMOVED
 :
+case
+nsIAccessibleEvent
+:
+:
+EVENT_NAME_CHANGE
+:
 [
 nativeAcc
 handleAccessibleEvent
