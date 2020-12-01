@@ -4354,8 +4354,8 @@ length
 frontend
 :
 :
-ParserAtomsTable
-parserAtoms
+ParserAtomVectorBuilder
+parserAtomBuilder
 (
 cx
 (
@@ -4381,10 +4381,10 @@ stencil
 parserAtomData
 )
 ;
-parserAtoms_
+parserAtomBuilder_
 =
 &
-parserAtoms
+parserAtomBuilder
 ;
 stencilAlloc_
 =
@@ -4499,8 +4499,8 @@ false
 frontend
 :
 :
-ParserAtomsTable
-parserAtoms
+ParserAtomVectorBuilder
+parserAtomBuilder
 (
 cx
 (
@@ -4522,10 +4522,10 @@ stencil
 parserAtomData
 )
 ;
-parserAtoms_
+parserAtomBuilder_
 =
 &
-parserAtoms
+parserAtomBuilder
 ;
 stencilAlloc_
 =
