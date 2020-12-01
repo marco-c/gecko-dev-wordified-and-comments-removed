@@ -19,6 +19,17 @@ mozilla
 /
 dom
 /
+RefMessageBodyService
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SharedMessageBody
 .
 h
