@@ -134,6 +134,17 @@ mozilla
 /
 dom
 /
+AutoSuppressEventHandlingAndSuspend
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 BrowsingContext
 .
 h

@@ -86,17 +86,6 @@ EventListenerManager
 .
 h
 "
-#
-include
-"
-mozilla
-/
-extensions
-/
-WebExtensionContentScript
-.
-h
-"
 namespace
 mozilla
 {

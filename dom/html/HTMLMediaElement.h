@@ -211,6 +211,9 @@ typedef
 uint32_t
 AudibleChangedReasons
 ;
+class
+nsIStreamListener
+;
 namespace
 mozilla
 {

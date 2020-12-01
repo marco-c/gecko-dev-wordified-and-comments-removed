@@ -667,6 +667,11 @@ AutoPrintEventDispatcher
 h
 "
 "
+AutoSuppressEventHandlingAndSuspend
+.
+h
+"
+"
 BarProps
 .
 h

@@ -86,17 +86,6 @@ mozilla
 /
 dom
 /
-Document
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Element
 .
 h
@@ -286,6 +275,9 @@ ChromeMessageSender
 ;
 class
 ContentParent
+;
+class
+Document
 ;
 class
 TabListener

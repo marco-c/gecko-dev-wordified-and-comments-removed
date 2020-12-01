@@ -1243,11 +1243,7 @@ nsAtom
 *
 aName
 )
-{
-return
-nullptr
 ;
-}
 nsDOMCSSAttributeDeclaration
 *
 SMILOverrideStyle

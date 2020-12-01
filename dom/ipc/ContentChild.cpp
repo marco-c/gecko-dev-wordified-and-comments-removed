@@ -345,6 +345,17 @@ mozilla
 /
 dom
 /
+AutoSuppressEventHandlingAndSuspend
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 BlobImpl
 .
 h

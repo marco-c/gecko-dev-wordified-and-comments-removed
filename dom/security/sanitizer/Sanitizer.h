@@ -58,6 +58,17 @@ nsTreeSanitizer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Document
+.
+h
+"
 class
 nsISupports
 ;
