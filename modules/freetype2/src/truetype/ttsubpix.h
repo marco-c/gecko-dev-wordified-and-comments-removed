@@ -6,13 +6,6 @@ define
 TTSUBPIX_H_
 #
 include
-<
-ft2build
-.
-h
->
-#
-include
 "
 ttobjs
 .

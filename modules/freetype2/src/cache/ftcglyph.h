@@ -6,13 +6,6 @@ define
 FTCGLYPH_H_
 #
 include
-<
-ft2build
-.
-h
->
-#
-include
 "
 ftcmanag
 .

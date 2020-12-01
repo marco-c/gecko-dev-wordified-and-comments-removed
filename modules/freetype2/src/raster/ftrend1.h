@@ -7,13 +7,12 @@ FTREND1_H_
 #
 include
 <
-ft2build
+freetype
+/
+ftrender
 .
 h
 >
-#
-include
-FT_RENDER_H
 FT_BEGIN_HEADER
 FT_DECLARE_RENDERER
 (

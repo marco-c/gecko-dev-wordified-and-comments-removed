@@ -7,13 +7,12 @@ FTCIMAGE_H_
 #
 include
 <
-ft2build
+freetype
+/
+ftcache
 .
 h
 >
-#
-include
-FT_CACHE_H
 #
 include
 "

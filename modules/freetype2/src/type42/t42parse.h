@@ -13,7 +13,15 @@ h
 "
 #
 include
-FT_INTERNAL_POSTSCRIPT_AUX_H
+<
+freetype
+/
+internal
+/
+psaux
+.
+h
+>
 FT_BEGIN_HEADER
 typedef
 struct

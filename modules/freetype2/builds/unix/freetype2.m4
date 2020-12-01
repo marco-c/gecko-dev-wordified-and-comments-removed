@@ -143,7 +143,7 @@ program
 #
 #
 serial
-4
+5
 #
 AC_CHECK_FT2
 (
@@ -1022,7 +1022,13 @@ h
 >
 #
 include
-FT_FREETYPE_H
+<
+freetype
+/
+freetype
+.
+h
+>
 #
 include
 <

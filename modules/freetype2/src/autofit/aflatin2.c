@@ -1,13 +1,12 @@
 #
 include
 <
-ft2build
+freetype
+/
+ftadvanc
 .
 h
 >
-#
-include
-FT_ADVANCES_H
 #
 ifdef
 FT_OPTION_AUTOFIT2

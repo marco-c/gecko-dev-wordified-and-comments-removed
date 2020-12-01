@@ -21,7 +21,15 @@ h
 "
 #
 include
-FT_INTERNAL_DEBUG_H
+<
+freetype
+/
+internal
+/
+ftdebug
+.
+h
+>
 #
 undef
 FT_COMPONENT
@@ -1157,7 +1165,7 @@ FT_TRACE4
 (
 "
 %
-d
+ld
 "
 idx
 )

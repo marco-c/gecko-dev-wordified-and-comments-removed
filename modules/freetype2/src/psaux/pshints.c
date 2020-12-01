@@ -7,7 +7,15 @@ h
 "
 #
 include
-FT_INTERNAL_DEBUG_H
+<
+freetype
+/
+internal
+/
+ftdebug
+.
+h
+>
 #
 include
 "
@@ -818,7 +826,7 @@ FT_TRACE6
 (
 "
 %
-3d
+3ld
 %
 7
 .

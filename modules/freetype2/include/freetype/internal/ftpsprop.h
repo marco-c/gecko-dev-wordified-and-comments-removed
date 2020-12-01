@@ -7,13 +7,12 @@ FTPSPROP_H_
 #
 include
 <
-ft2build
+freetype
+/
+freetype
 .
 h
 >
-#
-include
-FT_FREETYPE_H
 FT_BEGIN_HEADER
 FT_BASE_CALLBACK
 (

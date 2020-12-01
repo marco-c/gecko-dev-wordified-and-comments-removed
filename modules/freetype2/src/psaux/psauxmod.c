@@ -1,12 +1,5 @@
 #
 include
-<
-ft2build
-.
-h
->
-#
-include
 "
 psauxmod
 .
@@ -242,12 +235,9 @@ endif
 cff_decoder_funcs
 }
 ;
-FT_CALLBACK_TABLE_DEF
-const
-FT_Module_Class
+FT_DEFINE_MODULE
+(
 psaux_module_class
-=
-{
 0
 sizeof
 (
@@ -272,5 +262,4 @@ NULL
 FT_Module_Requester
 )
 NULL
-}
-;
+)

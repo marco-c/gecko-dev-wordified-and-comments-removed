@@ -478,7 +478,13 @@ h
 >
 #
 include
-FT_FREETYPE_H
+<
+freetype
+/
+freetype
+.
+h
+>
 FT_Library
 library
 ;

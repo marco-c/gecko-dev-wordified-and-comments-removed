@@ -16,7 +16,15 @@ include
 FT_CONFIG_CONFIG_H
 #
 include
-FT_INTERNAL_TRUETYPE_TYPES_H
+<
+freetype
+/
+internal
+/
+tttypes
+.
+h
+>
 FT_BEGIN_HEADER
 FT_LOCAL
 (

@@ -7,13 +7,13 @@ FTZOPEN_H_
 #
 include
 <
-ft2build
+freetype
+/
+freetype
 .
 h
 >
-#
-include
-FT_FREETYPE_H
+FT_BEGIN_HEADER
 #
 define
 FT_LZW_IN_BUFF_SIZE
@@ -217,5 +217,6 @@ FT_ULong
 out_size
 )
 ;
+FT_END_HEADER
 #
 endif

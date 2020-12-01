@@ -7,13 +7,12 @@ FTCCBACK_H_
 #
 include
 <
-ft2build
+freetype
+/
+ftcache
 .
 h
 >
-#
-include
-FT_CACHE_H
 #
 include
 "
@@ -49,6 +48,7 @@ ftcsbits
 .
 h
 "
+FT_BEGIN_HEADER
 FT_LOCAL
 (
 void
@@ -213,5 +213,6 @@ FTC_Manager
 manager
 )
 ;
+FT_END_HEADER
 #
 endif

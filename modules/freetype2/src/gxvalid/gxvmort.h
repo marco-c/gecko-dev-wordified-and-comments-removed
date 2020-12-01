@@ -20,7 +20,14 @@ h
 "
 #
 include
-FT_SFNT_NAMES_H
+<
+freetype
+/
+ftsnames
+.
+h
+>
+FT_BEGIN_HEADER
 typedef
 struct
 GXV_mort_featureRec_
@@ -199,5 +206,6 @@ GXV_Validator
 gxvalid
 )
 ;
+FT_END_HEADER
 #
 endif

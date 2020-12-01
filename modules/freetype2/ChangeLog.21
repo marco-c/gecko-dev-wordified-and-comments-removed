@@ -35516,7 +35516,7 @@ Don
 t
 change
 font
-colour
+color
 directly
 but
 use
@@ -35536,7 +35536,7 @@ Don
 '
 t
 change
-colour
+color
 .
 (
 code_header
@@ -35548,7 +35548,7 @@ Don
 t
 change
 font
-colour
+color
 directly
 but
 use

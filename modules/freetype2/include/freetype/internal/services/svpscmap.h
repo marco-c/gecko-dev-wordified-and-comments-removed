@@ -6,7 +6,15 @@ define
 SVPSCMAP_H_
 #
 include
-FT_INTERNAL_OBJECTS_H
+<
+freetype
+/
+internal
+/
+ftobjs
+.
+h
+>
 FT_BEGIN_HEADER
 #
 define

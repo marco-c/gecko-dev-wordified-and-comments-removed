@@ -8,13 +8,6 @@ FTIMAGE_H_
 ifndef
 STANDALONE_
 #
-include
-<
-ft2build
-.
-h
->
-#
 endif
 FT_BEGIN_HEADER
 typedef
@@ -191,6 +184,10 @@ FT_OUTLINE_SMART_DROPOUTS
 define
 FT_OUTLINE_INCLUDE_STUBS
 0x20
+#
+define
+FT_OUTLINE_OVERLAP
+0x40
 #
 define
 FT_OUTLINE_HIGH_PRECISION

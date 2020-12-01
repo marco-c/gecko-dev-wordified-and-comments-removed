@@ -7,7 +7,15 @@ h
 "
 #
 include
-FT_INTERNAL_DEBUG_H
+<
+freetype
+/
+internal
+/
+ftdebug
+.
+h
+>
 #
 include
 "

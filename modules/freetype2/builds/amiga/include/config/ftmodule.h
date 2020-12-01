@@ -220,16 +220,6 @@ FT_USE_MODULE
 FT_Renderer_Class
 ft_smooth_renderer_class
 )
-FT_USE_MODULE
-(
-FT_Renderer_Class
-ft_smooth_lcd_renderer_class
-)
-FT_USE_MODULE
-(
-FT_Renderer_Class
-ft_smooth_lcdv_renderer_class
-)
 #
 endif
 #

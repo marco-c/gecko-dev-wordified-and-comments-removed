@@ -7,13 +7,12 @@ AFSHAPER_H_
 #
 include
 <
-ft2build
+freetype
+/
+freetype
 .
 h
 >
-#
-include
-FT_FREETYPE_H
 #
 ifdef
 FT_CONFIG_OPTION_USE_HARFBUZZ

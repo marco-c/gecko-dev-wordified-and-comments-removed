@@ -1,16 +1,23 @@
 #
 include
 <
-ft2build
+freetype
+/
+ftadvanc
 .
 h
 >
 #
 include
-FT_ADVANCES_H
-#
-include
-FT_INTERNAL_DEBUG_H
+<
+freetype
+/
+internal
+/
+ftdebug
+.
+h
+>
 #
 include
 "
@@ -461,7 +468,7 @@ U
 glyph
 index
 %
-d
+ld
 )
 \
 n
@@ -920,7 +927,7 @@ FT_TRACE5
 (
 "
 %
-d
+ld
 (
 standard
 )
@@ -954,7 +961,7 @@ FT_TRACE5
 (
 "
 %
-d
+ld
 "
 axis
 -
@@ -3919,7 +3926,7 @@ adjusting
 %
 s
 %
-d
+ld
 to
 %
 ld
@@ -4815,7 +4822,7 @@ to
 (
 by
 %
-d
+ld
 %
 %
 )
@@ -5097,7 +5104,7 @@ FT_TRACE5
 (
 "
 %
-d
+ld
 scaled
 to
 %
@@ -5844,7 +5851,7 @@ reference
 d
 :
 %
-d
+ld
 scaled
 to
 %
@@ -5861,7 +5868,7 @@ overshoot
 d
 :
 %
-d
+ld
 scaled
 to
 %
@@ -11143,7 +11150,7 @@ LINK
 :
 edge
 %
-d
+ld
 (
 opos
 =
@@ -11611,7 +11618,7 @@ BLUE_ANCHOR
 :
 edge
 %
-d
+ld
 (
 opos
 =
@@ -11635,7 +11642,7 @@ anchor
 =
 edge
 %
-d
+ld
 )
 \
 n
@@ -11682,7 +11689,7 @@ BLUE
 :
 edge
 %
-d
+ld
 (
 opos
 =
@@ -11873,7 +11880,7 @@ FAILED
 for
 edge
 %
-d
+ld
 \
 n
 "
@@ -12132,7 +12139,7 @@ ANCHOR
 :
 edge
 %
-d
+ld
 (
 opos
 =
@@ -12142,7 +12149,7 @@ opos
 )
 and
 %
-d
+ld
 (
 opos
 =
@@ -12316,7 +12323,7 @@ ADJUST
 :
 edge
 %
-d
+ld
 (
 pos
 =
@@ -12507,7 +12514,7 @@ STEM
 :
 edge
 %
-d
+ld
 (
 opos
 =
@@ -12518,7 +12525,7 @@ opos
 linked
 to
 %
-d
+ld
 (
 opos
 =
@@ -12745,7 +12752,7 @@ STEM
 :
 edge
 %
-d
+ld
 (
 opos
 =
@@ -12756,7 +12763,7 @@ opos
 linked
 to
 %
-d
+ld
 (
 opos
 =
@@ -12928,7 +12935,7 @@ BOUND
 :
 edge
 %
-d
+ld
 (
 pos
 =
@@ -13337,7 +13344,7 @@ SERIF
 :
 edge
 %
-d
+ld
 (
 opos
 =
@@ -13348,7 +13355,7 @@ opos
 serif
 to
 %
-d
+ld
 (
 opos
 =
@@ -13438,7 +13445,7 @@ SERIF_ANCHOR
 :
 edge
 %
-d
+ld
 (
 opos
 =
@@ -13636,7 +13643,7 @@ SERIF_LINK1
 :
 edge
 %
-d
+ld
 (
 opos
 =
@@ -13653,7 +13660,7 @@ to
 "
 from
 %
-d
+ld
 (
 opos
 =
@@ -13737,7 +13744,7 @@ SERIF_LINK2
 :
 edge
 %
-d
+ld
 (
 opos
 =
@@ -13879,7 +13886,7 @@ BOUND
 :
 edge
 %
-d
+ld
 (
 pos
 =
@@ -14034,7 +14041,7 @@ BOUND
 :
 edge
 %
-d
+ld
 (
 pos
 =

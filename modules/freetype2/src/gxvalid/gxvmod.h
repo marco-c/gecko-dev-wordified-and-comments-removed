@@ -7,13 +7,12 @@ GXVMOD_H_
 #
 include
 <
-ft2build
+freetype
+/
+ftmodapi
 .
 h
 >
-#
-include
-FT_MODULE_H
 FT_BEGIN_HEADER
 FT_EXPORT_VAR
 (
