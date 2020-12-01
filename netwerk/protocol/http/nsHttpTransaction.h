@@ -1395,6 +1395,11 @@ bool
 mWaitingOnPipeOut
 ;
 bool
+mIsHttp3Used
+=
+false
+;
+bool
 mDoNotRemoveAltSvc
 ;
 bool
