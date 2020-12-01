@@ -813,7 +813,7 @@ IntelGMAX4500HD
 IntelHDGraphicsToIvyBridge
 IntelHDGraphicsToSandyBridge
 IntelHaswell
-IntelHD3000
+IntelSandyBridge
 IntelHD520
 IntelMobileHDGraphics
 NvidiaBlockD3D9Layers
