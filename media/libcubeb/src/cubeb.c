@@ -1183,6 +1183,15 @@ endif
 if
 defined
 (
+USE_AAUDIO
+)
+aaudio_init
+#
+endif
+#
+if
+defined
+(
 USE_OPENSL
 )
 opensl_init

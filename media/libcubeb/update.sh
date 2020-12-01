@@ -835,3 +835,12 @@ details
 .
 "
 fi
+patch
+-
+p3
+<
+.
+/
+aaudio_by_default
+.
+patch
