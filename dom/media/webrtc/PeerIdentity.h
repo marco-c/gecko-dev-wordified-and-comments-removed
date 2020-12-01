@@ -7,6 +7,15 @@ PeerIdentity_h
 #
 include
 "
+mozilla
+/
+RefCounted
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

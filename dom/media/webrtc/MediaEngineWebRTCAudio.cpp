@@ -66,6 +66,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 transport
 /
 runnable_utils

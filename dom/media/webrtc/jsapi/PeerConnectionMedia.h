@@ -65,6 +65,13 @@ h
 #
 include
 "
+RTCDtlsTransport
+.
+h
+"
+#
+include
+"
 TransceiverImpl
 .
 h
@@ -84,9 +91,6 @@ PeerIdentity
 namespace
 dom
 {
-class
-RTCDtlsTransport
-;
 class
 MediaStreamTrack
 ;
@@ -764,6 +768,9 @@ std
 string
 RefPtr
 <
+dom
+:
+:
 RTCDtlsTransport
 >
 >
