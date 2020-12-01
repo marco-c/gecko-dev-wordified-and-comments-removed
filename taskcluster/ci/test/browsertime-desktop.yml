@@ -265,14 +265,6 @@ options
 -
 -
 browsertime
--
--
--
-browsertime
--
-no
--
-ffwindowrecorder
 fission
 -
 run

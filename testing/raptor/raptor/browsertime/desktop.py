@@ -163,6 +163,18 @@ binaryPath
 "
                 
 binary_path
+                
+"
+-
+-
+xvfbParams
+.
+display
+"
+                
+"
+0
+"
             
 ]
         
