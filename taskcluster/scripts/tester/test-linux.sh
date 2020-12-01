@@ -739,6 +739,9 @@ q
 mozharness
 .
 zip
+-
+d
+mozharness
 ;
 then
 return
