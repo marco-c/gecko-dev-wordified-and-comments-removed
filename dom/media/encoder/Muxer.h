@@ -18,6 +18,12 @@ class
 ContainerWriter
 ;
 class
+EncodedFrame
+;
+class
+TrackMetadataBase
+;
+class
 Muxer
 {
 public
