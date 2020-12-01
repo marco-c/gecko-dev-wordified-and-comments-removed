@@ -579,6 +579,12 @@ FetchEventRespondWithClosure
 >
 mRespondWithClosure
 ;
+RefPtr
+<
+Promise
+>
+mHandled
+;
 }
 ;
 }
