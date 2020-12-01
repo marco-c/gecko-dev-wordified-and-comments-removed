@@ -96,6 +96,9 @@ ref_types_enabled
 bool
 threads_enabled
 ;
+bool
+v128_enabled
+;
 size_t
 static_memory_bound
 ;
@@ -306,6 +309,12 @@ f64
 void
 *
 r
+;
+uint8_t
+v128
+[
+16
+]
 ;
 }
 u
