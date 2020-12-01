@@ -2848,6 +2848,7 @@ aReflowInput
 .
 ComputedSizeWithPadding
 (
+wm
 )
 .
 ISize
