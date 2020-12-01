@@ -10601,12 +10601,14 @@ FloatRegister
 floatReg
 )
 {
-static_assert
+MOZ_ASSERT
 (
 TypedArrayObject
 :
 :
-MAX_BYTE_LENGTH
+maxByteLength
+(
+)
 <
 =
 INT32_MAX

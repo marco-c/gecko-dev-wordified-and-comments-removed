@@ -549,7 +549,9 @@ get
 TypedArrayObject
 :
 :
-MAX_BYTE_LENGTH
+maxByteLength
+(
+)
 /
 bytesPerElement
 )
