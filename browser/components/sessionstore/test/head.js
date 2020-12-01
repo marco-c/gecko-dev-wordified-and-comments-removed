@@ -3055,7 +3055,7 @@ event
 ;
 }
 function
-promiseOnHistoryReplaceEntryInChild
+promiseOnHistoryReplaceEntry
 (
 browser
 )

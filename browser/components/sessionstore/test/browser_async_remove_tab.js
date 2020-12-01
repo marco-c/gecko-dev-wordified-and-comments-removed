@@ -462,7 +462,7 @@ remote
 let
 entryReplaced
 =
-promiseOnHistoryReplaceEntryInChild
+promiseOnHistoryReplaceEntry
 (
 browser
 )
@@ -752,7 +752,7 @@ remote
 let
 entryReplaced
 =
-promiseOnHistoryReplaceEntryInChild
+promiseOnHistoryReplaceEntry
 (
 browser
 )

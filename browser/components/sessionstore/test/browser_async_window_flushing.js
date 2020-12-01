@@ -112,7 +112,7 @@ newPage
 )
 ;
 await
-promiseOnHistoryReplaceEntryInChild
+promiseOnHistoryReplaceEntry
 (
 browser
 )

@@ -61,7 +61,7 @@ com
 let
 historyReplacePromise
 =
-promiseOnHistoryReplaceEntryInChild
+promiseOnHistoryReplaceEntry
 (
 browser
 )
