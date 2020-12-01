@@ -37,13 +37,6 @@ done
 }
 )
 ;
-t_col
-.
-step
-(
-col_check
-)
-;
 }
 20
 )
