@@ -78,10 +78,6 @@ ic
 IonScript
 *
 ionScript
-const
-PropertyTypeCheckInfo
-*
-typeCheckInfo
 uint32_t
 stubDataOffset
 )
@@ -127,11 +123,6 @@ ic_
 IonScript
 *
 ionScript_
-;
-const
-PropertyTypeCheckInfo
-*
-typeCheckInfo_
 ;
 Vector
 <

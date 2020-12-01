@@ -961,12 +961,6 @@ ionScript
 bool
 *
 attached
-const
-PropertyTypeCheckInfo
-*
-typeCheckInfo
-=
-nullptr
 )
 ;
 }
