@@ -170,9 +170,6 @@ marionette
 test
 jstests
 mozharness
-prettier
--
-format
 raptor
 raptor
 -

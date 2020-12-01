@@ -12836,7 +12836,7 @@ open
 (
 path
 "
-r
+rb
 "
 )
 as
