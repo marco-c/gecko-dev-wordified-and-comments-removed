@@ -76,7 +76,6 @@ expires
 =
 expiration
 )
-;
     
 response
 .
@@ -102,10 +101,10 @@ expires
 =
 expiration
 )
-;
     
 content
 =
+b
 "
 "
     
