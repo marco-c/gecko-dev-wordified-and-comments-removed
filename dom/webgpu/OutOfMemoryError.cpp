@@ -12,17 +12,6 @@ Device
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-WebGPUBinding
-.
-h
-"
 namespace
 mozilla
 {

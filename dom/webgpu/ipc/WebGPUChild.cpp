@@ -29,13 +29,6 @@ wgpu
 .
 h
 "
-#
-include
-"
-Sampler
-.
-h
-"
 namespace
 mozilla
 {

@@ -18,15 +18,6 @@ ObjectModel
 .
 h
 "
-#
-include
-"
-ipc
-/
-WebGPUTypes
-.
-h
-"
 namespace
 mozilla
 {

@@ -12,17 +12,6 @@ RemoteWorkerManager
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ipc
-/
-BackgroundParent
-.
-h
-"
 namespace
 mozilla
 {
