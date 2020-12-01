@@ -17604,16 +17604,10 @@ dependencies
 log
 "
 "
-once_cell
-"
-"
 regex
 "
 "
 tempfile
-"
-"
-uuid
 "
 "
 walkdir
@@ -31312,9 +31306,6 @@ dependencies
 [
 "
 rand
-"
-"
-serde
 "
 ]
 [
