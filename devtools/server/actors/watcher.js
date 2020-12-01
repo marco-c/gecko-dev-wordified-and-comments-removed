@@ -556,6 +556,15 @@ Resources
 .
 TYPES
 .
+SESSION_STORAGE
+]
+:
+hasBrowserElement
+[
+Resources
+.
+TYPES
+.
 PLATFORM_MESSAGE
 ]
 :
