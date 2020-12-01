@@ -4781,6 +4781,12 @@ SnapBackOverscrolledApzc
 this
 )
 ;
+mFlingAccelerator
+.
+Reset
+(
+)
+;
 if
 (
 mState
@@ -6309,6 +6315,12 @@ GetOverscrollHandoffChain
 SnapBackOverscrolledApzc
 (
 this
+)
+;
+mFlingAccelerator
+.
+Reset
+(
 )
 ;
 return
