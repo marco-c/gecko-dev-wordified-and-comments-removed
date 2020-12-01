@@ -545,6 +545,17 @@ mozilla
 /
 dom
 /
+SerializedStackHolder
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SRILogHelper
 .
 h

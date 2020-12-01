@@ -31,6 +31,9 @@ nsTArray
 .
 h
 "
+class
+nsIEventTarget
+;
 namespace
 mozilla
 {

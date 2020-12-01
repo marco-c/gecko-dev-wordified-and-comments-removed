@@ -46,6 +46,17 @@ mozilla
 /
 dom
 /
+RemoteWorkerController
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 RemoteWorkerParent
 .
 h

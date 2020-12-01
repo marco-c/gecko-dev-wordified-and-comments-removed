@@ -9,6 +9,17 @@ include
 "
 mozilla
 /
+dom
+/
+WorkerRef
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h

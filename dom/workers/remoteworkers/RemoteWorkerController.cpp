@@ -78,6 +78,17 @@ mozilla
 /
 dom
 /
+FetchEventOpParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FetchEventOpProxyParent
 .
 h
