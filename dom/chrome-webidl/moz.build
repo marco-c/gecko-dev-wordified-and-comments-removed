@@ -345,6 +345,11 @@ MozStorageStatementRow
 webidl
 "
 "
+PathUtils
+.
+webidl
+"
+"
 PrecompiledScript
 .
 webidl
