@@ -260,11 +260,18 @@ fetch_composite_instance
 SplitCompositeInstance
 ci
 ;
+ivec4
+data
+=
+raw_instance_data
+(
+)
+;
 ci
 .
 prim_header_index
 =
-aData
+data
 .
 x
 ;
@@ -272,7 +279,7 @@ ci
 .
 polygons_address
 =
-aData
+data
 .
 y
 ;
@@ -282,7 +289,7 @@ z
 =
 float
 (
-aData
+data
 .
 z
 )
@@ -291,7 +298,7 @@ ci
 .
 render_task_index
 =
-aData
+data
 .
 w
 ;
