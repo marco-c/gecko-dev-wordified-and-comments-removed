@@ -323,9 +323,9 @@ aPtr
 ;
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
-mFreeMemoryQueue
+mIOThread
 ;
 }
 ;
