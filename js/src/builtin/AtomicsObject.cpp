@@ -3294,6 +3294,10 @@ unwrappedTypedArray
 byteOffset
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 uint32_t
 indexedPosition
@@ -4117,6 +4121,10 @@ unwrappedTypedArray
 -
 >
 byteOffset
+(
+)
+.
+deprecatedGetUint32
 (
 )
 ;
