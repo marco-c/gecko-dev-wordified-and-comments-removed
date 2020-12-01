@@ -172,10 +172,6 @@ instrumentedProfilingIsCached_
 (
 false
 )
-safeForMinorGC_
-(
-true
-)
 stringsCanBeInNursery_
 (
 realm
