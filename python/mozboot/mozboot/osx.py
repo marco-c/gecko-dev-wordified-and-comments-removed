@@ -136,28 +136,6 @@ xcode_3
 dmg
 "
 )
-JAVA_PATH
-=
-"
-/
-Library
-/
-Java
-/
-JavaVirtualMachines
-/
-adoptopenjdk
--
-8
-.
-jdk
-/
-Contents
-/
-Home
-/
-bin
-"
 MACPORTS_URL
 =
 {
@@ -2806,6 +2784,15 @@ Android
             
 )
         
+java_path
+=
+self
+.
+ensure_java
+(
+mozconfig_builder
+)
+        
 os
 .
 environ
@@ -2826,7 +2813,7 @@ PATH
 .
 format
 (
-JAVA_PATH
+java_path
 os
 .
 pathsep
@@ -2838,13 +2825,6 @@ environ
 PATH
 "
 ]
-)
-        
-self
-.
-ensure_java
-(
-mozconfig_builder
 )
         
 from
