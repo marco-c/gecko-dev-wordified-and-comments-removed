@@ -203,14 +203,6 @@ onClearHistory
 )
 {
 }
-onPageChanged
-(
-aURI
-aWhat
-aValue
-)
-{
-}
 onDeleteVisits
 (
 )

@@ -597,11 +597,6 @@ urls
 )
 ;
 }
-onPageChanged
-(
-)
-{
-}
 onFrecencyChanged
 (
 )

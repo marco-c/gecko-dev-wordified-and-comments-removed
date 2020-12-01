@@ -526,11 +526,6 @@ REASON_EXPIRED
 )
 ;
 }
-onPageChanged
-(
-)
-{
-}
 onDeleteVisits
 (
 aURI

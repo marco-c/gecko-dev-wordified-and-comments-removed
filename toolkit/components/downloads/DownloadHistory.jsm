@@ -1192,11 +1192,6 @@ onManyFrecenciesChanged
 )
 {
 }
-onPageChanged
-(
-)
-{
-}
 onDeleteVisits
 (
 )
