@@ -28,6 +28,7 @@ const
 EVALUATE_EXPRESSION
 SET_TERMINAL_INPUT
 SET_TERMINAL_EAGER_RESULT
+EDITOR_PRETTY_PRINT
 }
 =
 require
@@ -1520,6 +1521,19 @@ return
 result
 ;
 }
+function
+prettyPrintEditor
+(
+)
+{
+return
+{
+type
+:
+EDITOR_PRETTY_PRINT
+}
+;
+}
 module
 .
 exports
@@ -1530,5 +1544,6 @@ focusInput
 setInputValue
 terminalInputChanged
 updateInstantEvaluationResultForCurrentExpression
+prettyPrintEditor
 }
 ;
