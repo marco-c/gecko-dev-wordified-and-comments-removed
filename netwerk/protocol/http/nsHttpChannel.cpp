@@ -30765,6 +30765,16 @@ NS_HTTP_BE_CONSERVATIVE
 mBeConservative
 &
 &
+!
+gHttpHandler
+-
+>
+IsHttp3Excluded
+(
+connInfo
+)
+&
+&
 mAllowHttp3
 ;
 mUseHTTPSSVC

@@ -2883,9 +2883,9 @@ bool
 IsHttp3Excluded
 (
 const
-nsACString
-&
-aRoutedHost
+nsHttpConnectionInfo
+*
+ci
 )
 ;
 private

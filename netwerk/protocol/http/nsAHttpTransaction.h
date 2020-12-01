@@ -461,13 +461,6 @@ DisableSpdy
 }
 virtual
 void
-DisableHttp3
-(
-)
-{
-}
-virtual
-void
 MakeNonSticky
 (
 )
