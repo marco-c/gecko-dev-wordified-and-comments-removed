@@ -2875,6 +2875,12 @@ false
 )
 ;
 }
+mozilla
+:
+:
+widget
+:
+:
 LookAndFeelCache
 nsLookAndFeel
 :
@@ -2899,6 +2905,8 @@ useOverlayScrollbars
 useOverlayScrollbars
 .
 id
+(
+)
 =
 IntID
 :
@@ -2908,6 +2916,8 @@ UseOverlayScrollbars
 useOverlayScrollbars
 .
 value
+(
+)
 =
 GetInt
 (
@@ -2920,6 +2930,8 @@ UseOverlayScrollbars
 cache
 .
 mInts
+(
+)
 .
 AppendElement
 (
@@ -2932,6 +2944,8 @@ allowOverlayScrollbarsOverlap
 allowOverlayScrollbarsOverlap
 .
 id
+(
+)
 =
 IntID
 :
@@ -2941,6 +2955,8 @@ AllowOverlayScrollbarsOverlap
 allowOverlayScrollbarsOverlap
 .
 value
+(
+)
 =
 GetInt
 (
@@ -2953,6 +2969,8 @@ AllowOverlayScrollbarsOverlap
 cache
 .
 mInts
+(
+)
 .
 AppendElement
 (
@@ -2965,6 +2983,8 @@ prefersReducedMotion
 prefersReducedMotion
 .
 id
+(
+)
 =
 IntID
 :
@@ -2974,6 +2994,8 @@ PrefersReducedMotion
 prefersReducedMotion
 .
 value
+(
+)
 =
 GetInt
 (
@@ -2986,6 +3008,8 @@ PrefersReducedMotion
 cache
 .
 mInts
+(
+)
 .
 AppendElement
 (
@@ -2998,6 +3022,8 @@ systemUsesDarkTheme
 systemUsesDarkTheme
 .
 id
+(
+)
 =
 IntID
 :
@@ -3007,6 +3033,8 @@ SystemUsesDarkTheme
 systemUsesDarkTheme
 .
 value
+(
+)
 =
 GetInt
 (
@@ -3019,6 +3047,8 @@ SystemUsesDarkTheme
 cache
 .
 mInts
+(
+)
 .
 AppendElement
 (
@@ -3049,6 +3079,8 @@ entry
 aCache
 .
 mInts
+(
+)
 )
 {
 switch
@@ -3056,6 +3088,8 @@ switch
 entry
 .
 id
+(
+)
 )
 {
 case
@@ -3069,6 +3103,8 @@ mUseOverlayScrollbars
 entry
 .
 value
+(
+)
 ;
 mUseOverlayScrollbarsCached
 =
@@ -3087,6 +3123,8 @@ mAllowOverlayScrollbarsOverlap
 entry
 .
 value
+(
+)
 ;
 mAllowOverlayScrollbarsOverlapCached
 =
@@ -3105,6 +3143,8 @@ mSystemUsesDarkTheme
 entry
 .
 value
+(
+)
 ;
 mSystemUsesDarkThemeCached
 =
@@ -3123,6 +3163,8 @@ mPrefersReducedMotion
 entry
 .
 value
+(
+)
 ;
 mPrefersReducedMotionCached
 =

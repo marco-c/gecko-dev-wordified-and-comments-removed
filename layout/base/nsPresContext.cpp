@@ -6463,6 +6463,9 @@ GetAll
 cp
 )
 ;
+widget
+:
+:
 LookAndFeelCache
 lnfCache
 =

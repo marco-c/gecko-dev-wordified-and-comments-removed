@@ -1652,6 +1652,16 @@ HeadlessWidgetTypes
 ipdlh
 "
 ]
+IPDL_SOURCES
++
+=
+[
+"
+LookAndFeelTypes
+.
+ipdlh
+"
+]
 LOCAL_INCLUDES
 +
 =
