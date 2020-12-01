@@ -329,6 +329,12 @@ options_
 {
 }
 ;
+rtc
+:
+:
+CriticalSection
+current_frame_lock_
+;
 std
 :
 :
