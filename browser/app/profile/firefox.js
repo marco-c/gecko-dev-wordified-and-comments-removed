@@ -11230,7 +11230,7 @@ logowordmark
 .
 alwaysVisible
 "
-false
+true
 )
 ;
 pref
