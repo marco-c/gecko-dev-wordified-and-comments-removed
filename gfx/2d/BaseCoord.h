@@ -74,6 +74,7 @@ value
 ;
 }
 friend
+constexpr
 bool
 operator
 =
@@ -97,6 +98,7 @@ value
 ;
 }
 friend
+constexpr
 bool
 operator
 !
@@ -120,6 +122,7 @@ value
 ;
 }
 friend
+constexpr
 Sub
 operator
 +
@@ -144,6 +147,7 @@ value
 ;
 }
 friend
+constexpr
 Sub
 operator
 -
@@ -168,6 +172,7 @@ value
 ;
 }
 friend
+constexpr
 Sub
 operator
 *
@@ -190,6 +195,7 @@ aScale
 ;
 }
 friend
+constexpr
 Sub
 operator
 *
@@ -212,6 +218,7 @@ value
 ;
 }
 friend
+constexpr
 Sub
 operator
 /
@@ -233,6 +240,7 @@ aScale
 )
 ;
 }
+constexpr
 Sub
 &
 operator
@@ -262,6 +270,7 @@ this
 )
 ;
 }
+constexpr
 Sub
 &
 operator
@@ -291,6 +300,7 @@ this
 )
 ;
 }
+constexpr
 Sub
 &
 operator
@@ -318,6 +328,7 @@ this
 )
 ;
 }
+constexpr
 Sub
 &
 operator
@@ -346,6 +357,7 @@ this
 ;
 }
 friend
+constexpr
 bool
 operator
 =
@@ -367,6 +379,7 @@ aB
 ;
 }
 friend
+constexpr
 bool
 operator
 =
@@ -388,6 +401,7 @@ value
 ;
 }
 friend
+constexpr
 bool
 operator
 !
@@ -409,6 +423,7 @@ aB
 ;
 }
 friend
+constexpr
 bool
 operator
 !
@@ -430,6 +445,7 @@ value
 ;
 }
 friend
+constexpr
 T
 operator
 +
@@ -449,6 +465,7 @@ aB
 ;
 }
 friend
+constexpr
 T
 operator
 +
@@ -468,6 +485,7 @@ value
 ;
 }
 friend
+constexpr
 T
 operator
 -
@@ -487,6 +505,7 @@ aB
 ;
 }
 friend
+constexpr
 T
 operator
 -
@@ -505,6 +524,7 @@ aB
 value
 ;
 }
+constexpr
 Sub
 operator
 -
