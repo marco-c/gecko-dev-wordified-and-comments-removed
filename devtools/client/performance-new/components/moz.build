@@ -89,6 +89,11 @@ DirectoryPicker
 js
 "
 "
+OnboardingMessage
+.
+js
+"
+"
 Presets
 .
 js

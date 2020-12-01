@@ -871,6 +871,10 @@ addObserver
 :
 any
 ;
+removeObserver
+:
+any
+;
 }
 ;
 profiler
