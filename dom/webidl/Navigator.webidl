@@ -791,8 +791,6 @@ DOMString
 scheme
 DOMString
 url
-DOMString
-title
 )
 ;
 /
