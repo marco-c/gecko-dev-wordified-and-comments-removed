@@ -38,6 +38,15 @@ ho2_download_error
 ho2
 /
 ho2_sharebutton
+loggedoutvariants
+/
+variant_a
+loggedoutvariants
+/
+variant_b
+loggedoutvariants
+/
+variant_c
 saved_premiumextras
 saved_premiumshell
 saved_shell
