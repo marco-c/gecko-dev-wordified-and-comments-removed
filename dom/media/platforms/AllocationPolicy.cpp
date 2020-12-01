@@ -1233,6 +1233,11 @@ aParams
 .
 mType
 ;
+std
+:
+:
+function
+<
 MediaEventProducer
 <
 TrackInfo
@@ -1241,6 +1246,9 @@ TrackInfo
 TrackType
 >
 *
+(
+)
+>
 onWaitingForKeyEvent
 =
 aParams
