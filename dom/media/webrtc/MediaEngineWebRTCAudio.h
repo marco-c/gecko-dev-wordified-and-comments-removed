@@ -495,7 +495,7 @@ aChannels
 override
 ;
 void
-NotifyStarted
+NotifyInputStopped
 (
 MediaTrackGraphImpl
 *

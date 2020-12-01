@@ -844,7 +844,7 @@ aChannels
 override
 ;
 void
-NotifyStarted
+NotifyInputStopped
 (
 )
 override

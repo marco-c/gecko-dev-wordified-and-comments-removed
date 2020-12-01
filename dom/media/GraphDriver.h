@@ -824,7 +824,7 @@ aChannels
 ;
 virtual
 void
-NotifyStarted
+NotifyInputStopped
 (
 )
 =
@@ -2268,11 +2268,6 @@ FallbackWrapper
 >
 >
 mFallback
-;
-bool
-mRanFirstIteration
-=
-false
 ;
 TimeDuration
 mNextReInitBackoffStep

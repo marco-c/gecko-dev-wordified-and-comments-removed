@@ -275,7 +275,7 @@ aChannels
 ;
 virtual
 void
-NotifyStarted
+NotifyInputStopped
 (
 MediaTrackGraphImpl
 *

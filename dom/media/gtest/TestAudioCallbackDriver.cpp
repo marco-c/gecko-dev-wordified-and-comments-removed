@@ -123,7 +123,7 @@ uint32_t
 ;
 MOCK_METHOD0
 (
-NotifyStarted
+NotifyInputStopped
 void
 (
 )
@@ -296,12 +296,12 @@ EXPECT_CALL
 (
 *
 graph
-NotifyStarted
+NotifyInputStopped
 )
 .
 Times
 (
-1
+0
 )
 ;
 ON_CALL

@@ -4151,7 +4151,7 @@ void
 MediaTrackGraphImpl
 :
 :
-NotifyStarted
+NotifyInputStopped
 (
 )
 {
@@ -4220,7 +4220,7 @@ listeners
 listener
 -
 >
-NotifyStarted
+NotifyInputStopped
 (
 this
 )
