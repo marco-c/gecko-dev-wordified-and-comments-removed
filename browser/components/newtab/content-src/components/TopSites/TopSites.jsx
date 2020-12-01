@@ -900,6 +900,8 @@ topsites
 title
 =
 {
+this
+.
 props
 .
 title
@@ -918,17 +920,6 @@ header
 topsites
 "
 }
-}
-hideTitle
-=
-{
-props
-.
-Prefs
-.
-values
-.
-hideTopSitesTitle
 }
 extraMenuOptions
 =
