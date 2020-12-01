@@ -218,6 +218,9 @@ ParserAtomEntry
 class
 WellKnownParserAtoms_ROM
 ;
+struct
+CompilationAtomCache
+;
 }
 class
 StaticStrings
@@ -5706,6 +5709,16 @@ frontend
 :
 :
 WellKnownParserAtoms_ROM
+;
+friend
+struct
+js
+:
+:
+frontend
+:
+:
+CompilationAtomCache
 ;
 private
 :
