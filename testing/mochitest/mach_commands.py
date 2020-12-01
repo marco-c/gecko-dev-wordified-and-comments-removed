@@ -2187,10 +2187,6 @@ defaultdict
 list
 )
         
-is_webrtc_tag_present
-=
-False
-        
 unsupported
 =
 set
@@ -2202,27 +2198,6 @@ test
 in
 tests
 :
-            
-if
-"
-webrtc
-"
-in
-test
-.
-get
-(
-"
-tags
-"
-"
-"
-)
-:
-                
-is_webrtc_tag_present
-=
-True
             
 if
 test
@@ -2357,8 +2332,6 @@ media
 )
 in
 suites
-and
-is_webrtc_tag_present
 :
             
 req
