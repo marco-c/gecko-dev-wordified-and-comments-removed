@@ -140,6 +140,16 @@ clearOutput
 hud
 )
 ;
+await
+waitForTick
+(
+)
+;
+await
+safeCloseBrowserConsole
+(
+)
+;
 }
 )
 ;

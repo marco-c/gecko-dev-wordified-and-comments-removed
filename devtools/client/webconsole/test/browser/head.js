@@ -6654,6 +6654,7 @@ waitUntil
 >
 {
 return
+(
 !
 wrapper
 .
@@ -6662,6 +6663,15 @@ networkDataProvider
 lazyRequestData
 .
 size
+&
+&
+!
+wrapper
+.
+queuedRequestUpdates
+.
+length
+)
 ;
 }
 )
