@@ -1670,13 +1670,25 @@ items
 :
             
 if
+opt
+.
+startswith
+(
+"
+visualmetrics
+"
+)
+or
 "
 metrics
 "
+not
 in
 opt
 :
                 
+continue
+            
 if
 not
 isinstance
@@ -1685,7 +1697,7 @@ val
 list
 )
 :
-                    
+                
 raise
 BadOptionTypeError
 (
@@ -1699,13 +1711,13 @@ a
 list
 "
 )
-                
+            
 for
 metric
 in
 val
 :
-                    
+                
 if
 not
 isinstance
@@ -1714,11 +1726,11 @@ metric
 dict
 )
 :
-                        
+                    
 raise
 BadOptionTypeError
 (
-                            
+                        
 "
 Each
 individual
@@ -1733,7 +1745,7 @@ JSON
 like
 object
 "
-                        
+                    
 )
         
 if

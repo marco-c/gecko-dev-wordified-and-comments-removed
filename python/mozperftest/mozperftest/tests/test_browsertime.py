@@ -304,6 +304,16 @@ tests
 [
 EXAMPLE_TEST
 ]
+        
+browsertime_no_window_recorder
+=
+False
+        
+browsertime_viewport_size
+=
+"
+1234x567
+"
     
 )
     
@@ -1222,6 +1232,16 @@ tests
 [
 EXAMPLE_TEST
 ]
+        
+browsertime_no_window_recorder
+=
+False
+        
+browsertime_viewport_size
+=
+"
+1234x567
+"
     
 )
     
@@ -1394,6 +1414,16 @@ tests
 [
 EXAMPLE_TEST
 ]
+        
+browsertime_no_window_recorder
+=
+False
+        
+browsertime_viewport_size
+=
+"
+1234x567
+"
     
 )
     
@@ -1734,6 +1764,16 @@ tests
 [
 EXAMPLE_TEST
 ]
+        
+browsertime_no_window_recorder
+=
+False
+        
+browsertime_viewport_size
+=
+"
+1234x567
+"
     
 )
     
