@@ -897,6 +897,11 @@ JSRuntime
 runtime
 )
 ;
+bool
+IsOffThreadSourceCompressionEnabled
+(
+)
+;
 extern
 bool
 OffThreadParsingMustWaitForGC
