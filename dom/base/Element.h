@@ -3724,7 +3724,7 @@ return
 PointerEventHandler
 :
 :
-SetPointerCaptureById
+RequestPointerCaptureById
 (
 aPointerId
 this
