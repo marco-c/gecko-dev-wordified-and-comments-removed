@@ -624,6 +624,9 @@ aChannels
 void
 SetPassThrough
 (
+MediaTrackGraphImpl
+*
+aGraph
 bool
 aPassThrough
 )
