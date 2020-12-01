@@ -361,6 +361,7 @@ NumberOfChannels
 (
 )
 const
+override
 ;
 void
 AdvanceAndResume
