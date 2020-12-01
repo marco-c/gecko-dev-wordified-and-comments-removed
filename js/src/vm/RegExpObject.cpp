@@ -4027,16 +4027,6 @@ return
 false
 ;
 }
-AddTypePropertyId
-(
-cx
-templateObject
-id
-UndefinedValue
-(
-)
-)
-;
 }
 uint32_t
 arraySize

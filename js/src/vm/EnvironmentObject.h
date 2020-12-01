@@ -554,15 +554,10 @@ inline
 void
 setAliasedFormalFromArguments
 (
-JSContext
-*
-cx
 const
 Value
 &
 argsValue
-jsid
-id
 const
 Value
 &
