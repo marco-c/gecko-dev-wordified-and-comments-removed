@@ -420,15 +420,6 @@ a
 const
 FormatInfo
 *
-FindSizedFormat
-(
-GLenum
-sizedFormat
-)
-;
-const
-FormatInfo
-*
 GetFormat
 (
 EffectiveFormat
