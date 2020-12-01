@@ -96,12 +96,14 @@ url
 js
 "
 "
-stack
+sources
+-
+manager
 .
 js
 "
 "
-TabSources
+stack
 .
 js
 "

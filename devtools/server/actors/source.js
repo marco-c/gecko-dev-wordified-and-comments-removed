@@ -483,7 +483,7 @@ _threadActor
 ;
 }
 get
-sources
+sourcesManager
 (
 )
 {
@@ -492,7 +492,7 @@ this
 .
 _threadActor
 .
-sources
+sourcesManager
 ;
 }
 get
@@ -746,9 +746,7 @@ isBlackBoxed
 :
 this
 .
-threadActor
-.
-sources
+sourcesManager
 .
 isBlackBoxed
 (
@@ -972,7 +970,7 @@ javascript
 return
 this
 .
-sources
+sourcesManager
 .
 urlContents
 (
@@ -1220,7 +1218,7 @@ fileContents
 =
 this
 .
-sources
+sourcesManager
 .
 urlContents
 (
@@ -2474,9 +2472,7 @@ range
 {
 this
 .
-threadActor
-.
-sources
+sourcesManager
 .
 blackBox
 (
@@ -2540,9 +2536,7 @@ range
 {
 this
 .
-threadActor
-.
-sources
+sourcesManager
 .
 unblackBox
 (

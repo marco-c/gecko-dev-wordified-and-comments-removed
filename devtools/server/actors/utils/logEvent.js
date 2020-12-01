@@ -133,7 +133,7 @@ column
 =
 threadActor
 .
-sources
+sourcesManager
 .
 getFrameLocation
 (

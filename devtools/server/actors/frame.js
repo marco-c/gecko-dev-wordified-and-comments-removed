@@ -218,7 +218,7 @@ savedFrame
 return
 threadActor
 .
-sources
+sourcesManager
 .
 getSourceActorByInternalSourceId
 (
@@ -748,7 +748,7 @@ this
 .
 threadActor
 .
-sources
+sourcesManager
 .
 getFrameLocation
 (
