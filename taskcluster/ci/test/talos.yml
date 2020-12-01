@@ -70,11 +70,6 @@ time
 suite
 :
 talos
-force
--
-py2
-:
-true
 tier
 :
 by

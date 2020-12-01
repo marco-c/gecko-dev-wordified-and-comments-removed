@@ -63,11 +63,6 @@ defaults
 suite
 :
 xpcshell
-force
--
-py2
-:
-true
 variants
 :
 by

@@ -3645,17 +3645,6 @@ text_type
 )
         
 }
-        
-Optional
-(
-"
-force
--
-py2
-"
-)
-:
-bool
     
 }
 )
@@ -4197,18 +4186,6 @@ setdefault
 (
 "
 checkout
-"
-False
-)
-        
-task
-.
-setdefault
-(
-"
-force
--
-py2
 "
 False
 )
@@ -14303,27 +14280,6 @@ test
 ]
 =
 task
-        
-run
-[
-"
-force
--
-py2
-"
-]
-=
-task
-.
-pop
-(
-"
-force
--
-py2
-"
-False
-)
         
 if
 "
