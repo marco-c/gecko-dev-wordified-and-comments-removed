@@ -1364,6 +1364,15 @@ Cross
 -
 compile
 "
+use
+-
+pgo
+:
+macosx64
+-
+shippable
+/
+opt
 attributes
 :
 enable
@@ -1419,7 +1428,10 @@ shippable
 opt
 symbol
 :
+Bpgo
+(
 B
+)
 tier
 :
 1
