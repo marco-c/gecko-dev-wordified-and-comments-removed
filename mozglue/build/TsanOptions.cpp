@@ -802,16 +802,6 @@ n
 "
 race
 :
-nsHtml5OwningUTF16Buffer
-:
-:
-Release
-\
-n
-"
-"
-race
-:
 makeOwnBaseShape
 \
 n
