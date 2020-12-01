@@ -634,7 +634,7 @@ entry
 URI
 .
 spec
-DUMMY2
+DUMMY1
 "
 Should
 have
