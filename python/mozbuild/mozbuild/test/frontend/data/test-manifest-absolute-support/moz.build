@@ -29,11 +29,11 @@ MOCHITEST_MANIFESTS
 +
 =
 [
-"
+'
 absolute
 -
 support
 .
 ini
-"
+'
 ]

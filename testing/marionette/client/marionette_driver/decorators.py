@@ -44,9 +44,9 @@ if
 hasattr
 (
 a
-"
+'
 session
-"
+'
 )
 ]
 [

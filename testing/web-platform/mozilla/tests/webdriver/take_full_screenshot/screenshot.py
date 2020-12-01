@@ -70,9 +70,7 @@ session_id
 session
 .
 session_id
-        
 )
-    
 )
 def
 test_no_browsing_context
@@ -222,7 +220,6 @@ url
 =
 inline
 (
-        
 "
 "
 "
@@ -248,7 +245,6 @@ style
 "
 "
 "
-    
 )
     
 response

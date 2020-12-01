@@ -128,6 +128,7 @@ logging
 .
 basicConfig
 (
+    
 stream
 =
 sys
@@ -199,7 +200,6 @@ buildfarm
 utils
 "
 )
-    
 )
     
 from
@@ -259,33 +259,30 @@ subprocess
 .
 Popen
 (
-            
 [
 SEVENZIP
-"
+'
 x
-"
-"
+'
+'
 -
 o
 %
 s
-"
+'
 %
 tempdir
 filename
 ]
-            
+                                
 stdout
 =
 fd
-            
 stderr
 =
 subprocess
 .
 STDOUT
-        
 )
         
 proc
@@ -305,17 +302,17 @@ EXTRACTORS
 =
 {
     
-"
+'
 .
 mar
-"
+'
 :
 extractMar
     
-"
+'
 .
 exe
-"
+'
 :
 extractExe
 }
@@ -485,7 +482,7 @@ it
 to
 a
 temporary
-    
+       
 directory
 and
 chmods
@@ -497,7 +494,7 @@ is
 responsible
 for
 removing
-    
+       
 the
 extracted
 files
@@ -553,9 +550,9 @@ filename
 .
 lstrip
 (
-"
+'
 /
-"
+'
 )
 )
     
@@ -800,7 +797,6 @@ logs
 .
 append
 (
-            
 "
 END
 %
@@ -819,6 +815,7 @@ n
 "
 %
 (
+            
 format_time
 (
 end
@@ -826,7 +823,6 @@ end
 elapsed
 item
 )
-        
 )
         
 log
@@ -896,9 +892,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 from
@@ -918,15 +914,15 @@ argv
 1
 :
 ]
-"
+'
 j
 :
 h
-"
+'
 [
-"
+'
 help
-"
+'
 ]
 )
     
@@ -945,10 +941,10 @@ if
 o
 =
 =
-"
+'
 -
 j
-"
+'
 :
             
 concurrency
@@ -962,15 +958,15 @@ elif
 o
 in
 (
-"
+'
 -
 h
-"
-"
+'
+'
 -
 -
 help
-"
+'
 )
 :
             
@@ -996,10 +992,10 @@ args
 <
 3
 or
-"
+'
 -
 -
-"
+'
 not
 in
 args

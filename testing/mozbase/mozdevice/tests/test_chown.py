@@ -18,9 +18,9 @@ mark
 .
 parametrize
 (
-"
+'
 boolean_value
-"
+'
 [
 True
 False
@@ -29,7 +29,6 @@ False
 def
 test_set_chown_r_attribute
 (
-    
 mock_adb_object
 redirect_stdout_and_assert
 boolean_value
@@ -79,9 +78,9 @@ patch
 object
 (
 logging
-"
+'
 getLogger
-"
+'
 )
 as
 mock_log
@@ -117,14 +116,14 @@ internal_storage
     
 expected
 =
-"
+'
 Ignoring
 attempt
 to
 chown
 external
 storage
-"
+'
     
 mock_adb_object
 .
@@ -136,8 +135,8 @@ testing_parameters
 )
     
 assert
-"
-"
+'
+'
 .
 join
 (
@@ -155,12 +154,12 @@ method_calls
 )
 !
 =
-"
-"
+'
+'
     
 assert
-"
-"
+'
+'
 .
 join
 (
@@ -210,9 +209,9 @@ patch
 object
 (
 logging
-"
+'
 getLogger
-"
+'
 )
 as
 mock_log
@@ -255,7 +254,7 @@ system
     
 command
 =
-"
+'
 chown
 {
 owner
@@ -263,7 +262,7 @@ owner
 {
 path
 }
-"
+'
 .
 format
 (
@@ -274,9 +273,9 @@ testing_parameters
     
 testing_parameters
 [
-"
+'
 text
-"
+'
 ]
 =
 command
@@ -319,9 +318,9 @@ patch
 object
 (
 logging
-"
+'
 getLogger
-"
+'
 )
 as
 mock_log
@@ -372,7 +371,7 @@ group_2
     
 command
 =
-"
+'
 chown
 {
 owner
@@ -384,7 +383,7 @@ group
 {
 path
 }
-"
+'
 .
 format
 (
@@ -395,9 +394,9 @@ testing_parameters
     
 testing_parameters
 [
-"
+'
 text
-"
+'
 ]
 =
 command
@@ -415,9 +414,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

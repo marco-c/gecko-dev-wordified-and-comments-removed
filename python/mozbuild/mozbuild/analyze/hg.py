@@ -33,7 +33,7 @@ PUSHLOG_CHUNK_SIZE
 500
 URL
 =
-"
+'
 https
 :
 /
@@ -52,7 +52,7 @@ json
 -
 pushes
 ?
-"
+'
 def
 unix_epoch
 (
@@ -109,21 +109,21 @@ get
 (
 URL
 +
-"
+'
 &
 version
 =
 2
-"
+'
 )
 .
 json
 (
 )
 [
-"
+'
 lastpushid
-"
+'
 ]
 def
 get_pushlog_chunk
@@ -140,11 +140,9 @@ session
 .
 get
 (
-        
 URL
-        
 +
-"
+'
 version
 =
 1
@@ -166,16 +164,13 @@ endID
 full
 =
 1
-"
+'
 .
 format
 (
-            
 start
 end
-        
 )
-    
 )
 .
 json
@@ -200,9 +195,9 @@ x
 1
 ]
 [
-"
+'
 date
-"
+'
 ]
 )
 def
@@ -281,9 +276,9 @@ res
 1
 ]
 [
-"
+'
 date
-"
+'
 ]
         
 dates
@@ -294,9 +289,9 @@ x
 1
 ]
 [
-"
+'
 date
-"
+'
 ]
 for
 x
@@ -587,9 +582,9 @@ date
 =
 p_dict
 [
-"
+'
 date
-"
+'
 ]
         
 self
@@ -603,18 +598,18 @@ x
 in
 p_dict
 [
-"
+'
 changesets
-"
+'
 ]
 for
 f
 in
 x
 [
-"
+'
 files
-"
+'
 ]
 ]
 class
@@ -670,9 +665,9 @@ str
 days
 )
 +
-"
+'
 day_report
-"
+'
         
 self
 .
@@ -886,13 +881,13 @@ secs
 60
             
 return
-"
+'
 %
 d
 :
 %
 02d
-"
+'
 %
 (
 math
@@ -914,19 +909,18 @@ if
 format
 in
 (
-"
+'
 html
-"
-"
+'
+'
 pretty
-"
+'
 )
 :
             
 res
 =
 [
-                
 (
 f
 ms_to_mins_secs
@@ -939,8 +933,8 @@ ms_to_mins_secs
 total
 )
 )
-                
 for
+                   
 (
 f
 cost
@@ -949,7 +943,6 @@ total
 )
 in
 res
-            
 ]
         
 return
@@ -1009,18 +1002,18 @@ Dataset
 headers
 =
 [
-"
+'
 FILE
-"
-"
+'
+'
 TIME
-"
-"
+'
+'
 CHANGES
-"
-"
+'
+'
 TOTAL
-"
+'
 ]
 )
         
@@ -1067,9 +1060,9 @@ if
 format
 =
 =
-"
+'
 pretty
-"
+'
 :
             
 print
@@ -1086,9 +1079,9 @@ self
 .
 name
 +
-"
+'
 .
-"
+'
 +
 format
             
@@ -1107,9 +1100,9 @@ if
 format
 =
 =
-"
+'
 csv
-"
+'
 :
                 
 content
@@ -1122,9 +1115,9 @@ elif
 format
 =
 =
-"
+'
 json
-"
+'
 :
                 
 content
@@ -1156,9 +1149,9 @@ with
 open
 (
 file_path
-"
+'
 wb
-"
+'
 )
 as
 f

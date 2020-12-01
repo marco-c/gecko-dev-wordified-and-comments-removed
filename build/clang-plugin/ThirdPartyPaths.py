@@ -111,9 +111,9 @@ line
 .
 endswith
 (
-"
+'
 /
-"
+'
 )
 :
             
@@ -135,10 +135,10 @@ line
     
 tpp_strings
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -163,7 +163,6 @@ output
 .
 write
 (
-        
 "
 "
 "
@@ -215,7 +214,6 @@ d
 "
 "
 "
-        
 %
 (
 tpp_strings
@@ -224,5 +222,4 @@ len
 tpp_list
 )
 )
-    
 )

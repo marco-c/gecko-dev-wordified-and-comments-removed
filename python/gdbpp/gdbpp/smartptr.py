@@ -8,16 +8,16 @@ import
 GeckoPrettyPrinter
 GeckoPrettyPrinter
 (
-"
+'
 nsWeakPtr
-"
-"
+'
+'
 ^
 nsCOMPtr
 <
 nsIWeakReference
 >
-"
+'
 )
 class
 weak_ptr_printer
@@ -53,9 +53,9 @@ self
 .
 value
 [
-"
+'
 mRawPtr
-"
+'
 ]
         
 if
@@ -64,7 +64,7 @@ proxy
 :
             
 return
-"
+'
 [
 (
 %
@@ -72,7 +72,7 @@ s
 )
 0x0
 ]
-"
+'
 %
 proxy
 .
@@ -97,9 +97,9 @@ dereference
 (
 )
 [
-"
+'
 mReferent
-"
+'
 ]
         
 if
@@ -108,7 +108,7 @@ weak_ptr
 :
             
 return
-"
+'
 [
 (
 %
@@ -117,7 +117,7 @@ s
 %
 s
 ]
-"
+'
 %
 (
 weak_ptr
@@ -127,7 +127,7 @@ weak_ptr
 )
         
 return
-"
+'
 [
 (
 %
@@ -136,7 +136,7 @@ s
 %
 s
 ]
-"
+'
 %
 (
 weak_ptr
@@ -146,13 +146,13 @@ weak_ptr
 )
 GeckoPrettyPrinter
 (
-"
+'
 mozilla
 :
 :
 StaticAutoPtr
-"
-"
+'
+'
 ^
 mozilla
 :
@@ -162,17 +162,17 @@ StaticAutoPtr
 .
 *
 >
-"
+'
 )
 GeckoPrettyPrinter
 (
-"
+'
 mozilla
 :
 :
 StaticRefPtr
-"
-"
+'
+'
 ^
 mozilla
 :
@@ -182,49 +182,49 @@ StaticRefPtr
 .
 *
 >
-"
+'
 )
 GeckoPrettyPrinter
 (
-"
+'
 nsAutoPtr
-"
-"
+'
+'
 ^
 nsAutoPtr
 <
 .
 *
 >
-"
+'
 )
 GeckoPrettyPrinter
 (
-"
+'
 nsCOMPtr
-"
-"
+'
+'
 ^
 nsCOMPtr
 <
 .
 *
 >
-"
+'
 )
 GeckoPrettyPrinter
 (
-"
+'
 RefPtr
-"
-"
+'
+'
 ^
 RefPtr
 <
 .
 *
 >
-"
+'
 )
 class
 smartptr_printer
@@ -247,9 +247,9 @@ value
 =
 value
 [
-"
+'
 mRawPtr
-"
+'
 ]
     
 def
@@ -300,7 +300,7 @@ pointer
 )
         
 return
-"
+'
 [
 (
 %
@@ -309,7 +309,7 @@ s
 %
 s
 ]
-"
+'
 %
 (
 type_name
@@ -322,10 +322,10 @@ value
 )
 GeckoPrettyPrinter
 (
-"
+'
 UniquePtr
-"
-"
+'
+'
 ^
 mozilla
 :
@@ -335,7 +335,7 @@ UniquePtr
 .
 *
 >
-"
+'
 )
 class
 uniqueptr_printer
@@ -358,14 +358,14 @@ value
 =
 value
 [
-"
+'
 mTuple
-"
+'
 ]
 [
-"
+'
 mFirstA
-"
+'
 ]
     
 def
@@ -416,7 +416,7 @@ pointer
 )
         
 return
-"
+'
 [
 (
 %
@@ -425,7 +425,7 @@ s
 %
 s
 ]
-"
+'
 %
 (
 type_name

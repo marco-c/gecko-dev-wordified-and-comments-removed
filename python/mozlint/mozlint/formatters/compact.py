@@ -182,16 +182,16 @@ else
                 
 d
 [
-"
+'
 level
-"
+'
 ]
 =
 d
 [
-"
+'
 level
-"
+'
 ]
 .
 capitalize
@@ -200,23 +200,23 @@ capitalize
                 
 d
 [
-"
+'
 rule
-"
+'
 ]
 =
 d
 [
-"
+'
 rule
-"
+'
 ]
 or
 d
 [
-"
+'
 linter
-"
+'
 ]
                 
 message
@@ -247,7 +247,6 @@ message
 .
 append
 (
-                
 "
 \
 n
@@ -261,19 +260,18 @@ problem
 format
 (
 num_problems
-"
-"
+'
+'
 if
 num_problems
 =
 =
 1
 else
-"
+'
 s
-"
+'
 )
-            
 )
         
 return

@@ -18,13 +18,14 @@ import
 sys
 HELP_OPTIONS_CATEGORY
 =
-"
+'
 Help
 options
-"
+'
 _ALL_CATEGORIES
 =
 (
+    
 HELP_OPTIONS_CATEGORY
 )
 def
@@ -85,10 +86,10 @@ f_code
 co_filename
     
 return
-"
+'
 Options
 from
-"
+'
 +
 path
 def
@@ -99,23 +100,20 @@ obj
 :
     
 return
-(
-        
 isinstance
 (
 obj
 tuple
 )
-        
 and
 len
 (
 obj
 )
-        
 and
 all
 (
+        
 isinstance
 (
 o
@@ -128,8 +126,6 @@ o
 in
 obj
 )
-    
-)
 class
 OptionValue
 (
@@ -137,9 +133,9 @@ tuple
 )
 :
     
-"
-"
-"
+'
+'
+'
 Represents
 the
 value
@@ -187,9 +183,9 @@ or
 default
 )
     
-"
-"
-"
+'
+'
+'
     
 def
 __new__
@@ -201,9 +197,9 @@ values
 )
 origin
 =
-"
+'
 unknown
-"
+'
 )
 :
         
@@ -230,9 +226,9 @@ values
 )
 origin
 =
-"
+'
 unknown
-"
+'
 )
 :
         
@@ -255,10 +251,10 @@ option
 .
 startswith
 (
-"
+'
 -
 -
-"
+'
 )
 :
             
@@ -284,23 +280,23 @@ for
 prefix_set
 in
 (
-                
+                    
 (
-"
+'
 disable
-"
-"
+'
+'
 enable
-"
+'
 )
-                
+                    
 (
-"
+'
 without
-"
-"
+'
+'
 with
-"
+'
 )
             
 )
@@ -333,7 +329,7 @@ prefix
                 
 option
 =
-"
+'
 -
 -
 %
@@ -341,7 +337,7 @@ s
 -
 %
 s
-"
+'
 %
 (
 prefix
@@ -354,12 +350,12 @@ self
                 
 option
 =
-"
+'
 -
 -
 %
 s
-"
+'
 %
 name
             
@@ -367,8 +363,8 @@ else
 :
                 
 return
-"
-"
+'
+'
             
 if
 len
@@ -378,18 +374,18 @@ self
 :
                 
 return
-"
+'
 %
 s
 =
 %
 s
-"
+'
 %
 (
 option
-"
-"
+'
+'
 .
 join
 (
@@ -411,28 +407,28 @@ self
 :
             
 return
-"
+'
 %
 s
 =
 1
-"
+'
 %
 option
         
 return
-"
+'
 %
 s
 =
 %
 s
-"
+'
 %
 (
 option
-"
-"
+'
+'
 .
 join
 (
@@ -465,8 +461,7 @@ self
 raise
 TypeError
 (
-                
-"
+'
 cannot
 compare
 a
@@ -478,9 +473,9 @@ an
 %
 s
 ;
-"
-                
-"
+'
+                            
+'
 OptionValue
 instances
 are
@@ -490,9 +485,9 @@ did
 you
 mean
 to
-"
-                
-"
+'
+                            
+'
 compare
 against
 member
@@ -502,10 +497,10 @@ using
 x
 ]
 ?
-"
-                
+'
 %
 (
+                                
 type
 (
 other
@@ -519,7 +514,6 @@ self
 .
 __name__
 )
-            
 )
         
 if
@@ -614,12 +608,12 @@ self
 :
         
 return
-"
+'
 %
 s
 %
 s
-"
+'
 %
 (
 self
@@ -627,6 +621,7 @@ self
 __class__
 .
 __name__
+                         
 super
 (
 OptionValue
@@ -733,6 +728,7 @@ type
 s
 '
 "
+                            
 %
 type
 (
@@ -748,9 +744,9 @@ OptionValue
 )
 :
     
-"
-"
-"
+'
+'
+'
 Represents
 the
 value
@@ -804,9 +800,9 @@ value2
 ]
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __nonzero__
@@ -834,9 +830,9 @@ OptionValue
 )
 :
     
-"
-"
-"
+'
+'
+'
 Represents
 the
 value
@@ -866,9 +862,9 @@ origin
 attribute
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __new__
@@ -876,9 +872,9 @@ __new__
 cls
 origin
 =
-"
+'
 unknown
-"
+'
 )
 :
         
@@ -903,9 +899,9 @@ __init__
 self
 origin
 =
-"
+'
 unknown
-"
+'
 )
 :
         
@@ -999,9 +995,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
 Represents
 a
 configure
@@ -1356,102 +1352,84 @@ the
 category
 .
     
-"
-"
-"
+'
+'
+'
     
 __slots__
 =
 (
         
-"
+'
 id
-"
-        
-"
+'
+'
 prefix
-"
-        
-"
+'
+'
 name
-"
-        
-"
+'
+'
 env
-"
-        
-"
+'
+'
 nargs
-"
-        
-"
+'
+'
 default
-"
-        
-"
+'
+'
 choices
-"
-        
-"
+'
+'
 help
-"
+'
         
-"
+'
 possible_origins
-"
-        
-"
+'
+'
 category
-"
-        
-"
+'
+'
 define_depth
-"
+'
     
 )
     
 def
 __init__
 (
-        
 self
-        
 name
 =
 None
-        
 env
 =
 None
-        
 nargs
 =
 None
-        
 default
 =
 None
-        
+                 
 possible_origins
 =
 None
-        
 choices
 =
 None
-        
 category
 =
 None
-        
 help
 =
 None
-        
+                 
 define_depth
 =
 0
-    
 )
 :
         
@@ -1467,7 +1445,7 @@ raise
 InvalidOptionError
 (
                 
-"
+'
 At
 least
 an
@@ -1479,13 +1457,12 @@ environment
 variable
 name
 must
-"
+'
                 
-"
+'
 be
 given
-"
-            
+'
 )
         
 if
@@ -1506,13 +1483,13 @@ string_types
 raise
 InvalidOptionError
 (
-"
+'
 Option
 must
 be
 a
 string
-"
+'
 )
             
 if
@@ -1521,30 +1498,30 @@ name
 .
 startswith
 (
-"
+'
 -
 -
-"
+'
 )
 :
                 
 raise
 InvalidOptionError
 (
-"
+'
 Option
 must
 start
 with
 -
 -
-"
+'
 )
             
 if
-"
+'
 =
-"
+'
 in
 name
 :
@@ -1552,14 +1529,14 @@ name
 raise
 InvalidOptionError
 (
-"
+'
 Option
 must
 not
 contain
 an
 =
-"
+'
 )
             
 if
@@ -1574,13 +1551,13 @@ islower
 raise
 InvalidOptionError
 (
-"
+'
 Option
 must
 be
 all
 lowercase
-"
+'
 )
         
 if
@@ -1601,7 +1578,8 @@ string_types
 raise
 InvalidOptionError
 (
-"
+                    
+'
 Environment
 variable
 name
@@ -1609,7 +1587,7 @@ must
 be
 a
 string
-"
+'
 )
             
 if
@@ -1625,7 +1603,7 @@ raise
 InvalidOptionError
 (
                     
-"
+'
 Environment
 variable
 name
@@ -1633,8 +1611,7 @@ must
 be
 all
 uppercase
-"
-                
+'
 )
         
 if
@@ -1643,20 +1620,20 @@ not
 in
 (
 None
-"
+'
 ?
-"
-"
+'
+'
 *
-"
-"
+'
+'
 +
-"
+'
 )
 and
 not
 (
-            
+                
 isinstance
 (
 nargs
@@ -1667,7 +1644,6 @@ nargs
 >
 =
 0
-        
 )
 :
             
@@ -1693,12 +1669,10 @@ or
 +
 '
 "
-            
 )
         
 if
 (
-            
 not
 isinstance
 (
@@ -1707,8 +1681,8 @@ six
 .
 string_types
 )
-            
 and
+                
 not
 isinstance
 (
@@ -1721,14 +1695,13 @@ None
 )
 )
 )
-            
 and
+                
 not
 istupleofstrings
 (
 default
 )
-        
 )
 :
             
@@ -1736,7 +1709,7 @@ raise
 InvalidOptionError
 (
                 
-"
+'
 default
 must
 be
@@ -1749,8 +1722,7 @@ a
 tuple
 of
 strings
-"
-            
+'
 )
         
 if
@@ -1766,7 +1738,8 @@ choices
 raise
 InvalidOptionError
 (
-"
+                
+'
 choices
 must
 be
@@ -1774,7 +1747,7 @@ a
 tuple
 of
 strings
-"
+'
 )
         
 if
@@ -1793,13 +1766,13 @@ string_types
 raise
 InvalidOptionError
 (
-"
+'
 Category
 must
 be
 a
 string
-"
+'
 )
         
 if
@@ -1815,7 +1788,7 @@ raise
 InvalidOptionError
 (
                 
-"
+'
 Category
 must
 either
@@ -1825,9 +1798,9 @@ or
 in
 the
 _ALL_CATEGORIES
-"
+'
                 
-"
+'
 list
 in
 options
@@ -1836,16 +1809,15 @@ py
 :
 %
 s
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
 _ALL_CATEGORIES
 )
-            
 )
         
 if
@@ -1860,13 +1832,13 @@ int
 raise
 InvalidOptionError
 (
-"
+'
 DefineDepth
 must
 be
 an
 integer
-"
+'
 )
         
 if
@@ -1877,14 +1849,14 @@ help
 raise
 InvalidOptionError
 (
-"
+'
 A
 help
 string
 must
 be
 provided
-"
+'
 )
         
 if
@@ -1900,7 +1872,8 @@ possible_origins
 raise
 InvalidOptionError
 (
-"
+                
+'
 possible_origins
 must
 be
@@ -1908,7 +1881,7 @@ a
 tuple
 of
 strings
-"
+'
 )
         
 self
@@ -1954,12 +1927,12 @@ default
 prefix
 in
 (
-"
+'
 disable
-"
-"
+'
+'
 without
-"
+'
 )
                 
 elif
@@ -1972,21 +1945,21 @@ prefix
 =
 {
                         
-"
+'
 disable
-"
+'
 :
-"
+'
 enable
-"
+'
                         
-"
+'
 without
-"
+'
 :
-"
+'
 with
-"
+'
                     
 }
 .
@@ -2006,21 +1979,21 @@ prefix
 =
 {
                         
-"
+'
 enable
-"
+'
 :
-"
+'
 disable
-"
+'
                         
-"
+'
 with
-"
+'
 :
-"
+'
 without
-"
+'
                     
 }
 .
@@ -2035,8 +2008,8 @@ else
             
 prefix
 =
-"
-"
+'
+'
         
 self
 .
@@ -2073,9 +2046,9 @@ NegativeOptionValue
 (
 origin
 =
-"
+'
 default
-"
+'
 )
         
 elif
@@ -2095,9 +2068,9 @@ PositiveOptionValue
 default
 origin
 =
-"
+'
 default
-"
+'
 )
         
 elif
@@ -2114,9 +2087,9 @@ PositiveOptionValue
 (
 origin
 =
-"
+'
 default
-"
+'
 )
         
 else
@@ -2133,9 +2106,9 @@ default
 )
 origin
 =
-"
+'
 default
-"
+'
 )
         
 if
@@ -2162,9 +2135,9 @@ default
                 
 nargs
 =
-"
+'
 ?
-"
+'
             
 elif
 len
@@ -2179,9 +2152,9 @@ default
                 
 nargs
 =
-"
+'
 *
-"
+'
             
 elif
 choices
@@ -2232,7 +2205,7 @@ raise
 InvalidOptionError
 (
                     
-"
+'
 A
 default
 must
@@ -2241,8 +2214,7 @@ given
 along
 with
 choices
-"
-                
+'
 )
             
 if
@@ -2263,6 +2235,7 @@ default
 raise
 InvalidOptionError
 (
+                    
 "
 The
 given
@@ -2297,7 +2270,7 @@ raise
 InvalidOptionError
 (
                     
-"
+'
 The
 default
 value
@@ -2307,11 +2280,11 @@ one
 of
 %
 s
-"
-                    
+'
 %
-"
-"
+                    
+'
+'
 .
 join
 (
@@ -2328,7 +2301,6 @@ c
 in
 choices
 )
-                
 )
         
 elif
@@ -2360,13 +2332,13 @@ maxsize
 raise
 InvalidOptionError
 (
-"
+'
 Not
 enough
 choices
 for
 nargs
-"
+'
 )
         
 self
@@ -2401,9 +2373,9 @@ option
 )
 :
         
-"
-"
-"
+'
+'
+'
 Split
 a
 flag
@@ -2486,9 +2458,9 @@ with
 commas
 .
         
-"
-"
-"
+'
+'
+'
         
 if
 not
@@ -2504,13 +2476,13 @@ string_types
 raise
 InvalidOptionError
 (
-"
+'
 Option
 must
 be
 a
 string
-"
+'
 )
         
 elements
@@ -2519,9 +2491,9 @@ option
 .
 split
 (
-"
+'
 =
-"
+'
 1
 )
         
@@ -2543,8 +2515,8 @@ elements
 .
 split
 (
-"
-"
+'
+'
 )
 )
 if
@@ -2564,10 +2536,10 @@ name
 .
 startswith
 (
-"
+'
 -
 -
-"
+'
 )
 :
             
@@ -2591,13 +2563,13 @@ islower
 raise
 InvalidOptionError
 (
-"
+'
 Option
 must
 be
 all
 lowercase
-"
+'
 )
             
 elements
@@ -2606,9 +2578,9 @@ name
 .
 split
 (
-"
+'
 -
-"
+'
 1
 )
             
@@ -2631,23 +2603,19 @@ and
 prefix
 in
 (
-                
-"
+'
 enable
-"
-                
-"
+'
+'
 disable
-"
-                
-"
+'
+                                                 
+'
 with
-"
-                
-"
+'
+'
 without
-"
-            
+'
 )
 :
                 
@@ -2667,9 +2635,9 @@ name
 .
 startswith
 (
-"
+'
 -
-"
+'
 )
 :
                 
@@ -2677,7 +2645,7 @@ raise
 InvalidOptionError
 (
                     
-"
+'
 Option
 must
 start
@@ -2687,8 +2655,7 @@ dashes
 instead
 of
 one
-"
-                
+'
 )
             
 if
@@ -2718,12 +2685,11 @@ uppercase
 '
 %
 name
-                
 )
         
 return
-"
-"
+'
+'
 name
 values
     
@@ -2757,7 +2723,7 @@ prefix
 :
             
 return
-"
+'
 -
 -
 %
@@ -2765,7 +2731,7 @@ s
 -
 %
 s
-"
+'
 %
 (
 prefix
@@ -2773,12 +2739,12 @@ name
 )
         
 return
-"
+'
 -
 -
 %
 s
-"
+'
 %
 name
     
@@ -2854,9 +2820,9 @@ self
 nargs
 =
 =
-"
+'
 +
-"
+'
 else
 0
     
@@ -2892,9 +2858,9 @@ self
 nargs
 =
 =
-"
+'
 ?
-"
+'
 else
 sys
 .
@@ -2938,15 +2904,15 @@ option
 None
 origin
 =
-"
+'
 unknown
-"
+'
 )
 :
         
-"
-"
-"
+'
+'
+'
 Given
 a
 full
@@ -3013,9 +2979,9 @@ CFLAGS
 O2
 )
         
-"
-"
-"
+'
+'
+'
         
 if
 not
@@ -3044,7 +3010,7 @@ raise
 InvalidOptionError
 (
                 
-"
+'
 %
 s
 can
@@ -3062,14 +3028,14 @@ from
 :
 %
 s
-"
-                
+'
 %
+                
 (
 option
 origin
-"
-"
+'
+'
 .
 join
 (
@@ -3078,7 +3044,6 @@ self
 possible_origins
 )
 )
-            
 )
         
 prefix
@@ -3118,12 +3083,12 @@ if
 prefix
 in
 (
-"
+'
 disable
-"
-"
+'
+'
 without
-"
+'
 )
 :
             
@@ -3138,7 +3103,7 @@ values
 raise
 InvalidOptionError
 (
-"
+'
 Cannot
 pass
 a
@@ -3146,7 +3111,7 @@ value
 to
 %
 s
-"
+'
 %
 option
 )
@@ -3173,8 +3138,8 @@ values
 =
 =
 (
-"
-"
+'
+'
 )
 :
                 
@@ -3193,21 +3158,21 @@ nargs
 in
 (
 0
-"
+'
 ?
-"
-"
+'
+'
 *
-"
+'
 )
 and
 values
 =
 =
 (
-"
+'
 1
-"
+'
 )
 :
                 
@@ -3245,8 +3210,7 @@ values
 raise
 InvalidOptionError
 (
-                
-"
+'
 %
 s
 takes
@@ -3255,45 +3219,44 @@ s
 value
 %
 s
-"
-                
+'
 %
 (
-                    
+                
 option
-                    
+                
 {
-                        
-"
-?
-"
-:
-"
-0
-or
-1
-"
-                        
-"
-*
-"
-:
-"
-0
-or
-more
-"
-                        
-"
-+
-"
-:
-"
-1
-or
-more
-"
                     
+'
+?
+'
+:
+'
+0
+or
+1
+'
+                    
+'
+*
+'
+:
+'
+0
+or
+more
+'
+                    
+'
++
+'
+:
+'
+1
+or
+more
+'
+                
 }
 .
 get
@@ -3308,10 +3271,10 @@ self
 nargs
 )
 )
-                    
-"
+                
+'
 s
-"
+'
 if
 (
 not
@@ -3323,6 +3286,7 @@ nargs
 int
 )
 or
+                        
 self
 .
 nargs
@@ -3331,11 +3295,10 @@ nargs
 1
 )
 else
-"
-"
-                
-)
+'
+'
             
+)
 )
         
 if
@@ -3365,12 +3328,12 @@ self
 nargs
 in
 (
-"
+'
 +
-"
-"
+'
+'
 *
-"
+'
 )
 :
                     
@@ -3380,12 +3343,12 @@ val
 startswith
 (
 (
-"
+'
 +
-"
-"
+'
+'
 -
-"
+'
 )
 )
 :
@@ -3424,9 +3387,9 @@ if
 sign
 =
 =
-"
+'
 +
-"
+'
 :
                             
 if
@@ -3491,8 +3454,8 @@ s
 %
 (
 val
-"
-"
+'
+'
 .
 join
 (
@@ -3512,7 +3475,6 @@ self
 choices
 )
 )
-                    
 )
             
 if
@@ -3543,7 +3505,7 @@ self
 :
         
 return
-"
+'
 <
 %
 s
@@ -3552,7 +3514,7 @@ s
 s
 ]
 >
-"
+'
 %
 (
 self
@@ -3571,9 +3533,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
 Helper
 class
 to
@@ -3713,9 +3675,9 @@ an
 exception
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -3773,6 +3735,7 @@ _last
 0
         
 assert
+(
 argv
 and
 not
@@ -3783,10 +3746,11 @@ argv
 .
 startswith
 (
-"
+'
 -
 -
-"
+'
+)
 )
         
 for
@@ -3804,11 +3768,11 @@ self
 add
 (
 arg
-"
+'
 command
 -
 line
-"
+'
 self
 .
 _args
@@ -3821,11 +3785,11 @@ self
 arg
 origin
 =
-"
+'
 command
 -
 line
-"
+'
 args
 =
 None
@@ -3836,9 +3800,9 @@ assert
 origin
 !
 =
-"
+'
 default
-"
+'
         
 prefix
 name
@@ -3951,11 +3915,9 @@ earlier
 arg
 =
 arg
-                    
 origin
 =
 origin
-                    
 old_arg
 =
 old_arg
@@ -3968,7 +3930,6 @@ _origins
 [
 old_arg
 ]
-                
 )
         
 self
@@ -4012,11 +3973,11 @@ None
         
 origin
 =
-"
+'
 command
 -
 line
-"
+'
         
 from_name
 =
@@ -4087,7 +4048,6 @@ self
 _extra_args
 and
 (
-                
 option
 .
 get_value
@@ -4096,13 +4056,13 @@ arg1
 )
 !
 =
+                                             
 option
 .
 get_value
 (
 arg2
 )
-            
 )
 :
                 
@@ -4170,11 +4130,9 @@ earlier
 arg
 =
 arg
-                    
 origin
 =
 origin
-                    
 old_arg
 =
 old_arg
@@ -4187,7 +4145,6 @@ _origins
 [
 old_arg
 ]
-                
 )
         
 elif
@@ -4239,13 +4196,13 @@ None
                 
 arg
 =
-"
+'
 %
 s
 =
 %
 s
-"
+'
 %
 (
 option
@@ -4256,9 +4213,9 @@ env
                 
 origin
 =
-"
+'
 environment
-"
+'
         
 origin
 =
@@ -4312,9 +4269,9 @@ option
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 the
 OptionValue
@@ -4355,9 +4312,9 @@ given
 Option
 .
         
-"
-"
-"
+'
+'
+'
         
 assert
 isinstance
@@ -4418,9 +4375,9 @@ extra_ret
 origin
 =
 =
-"
+'
 default
-"
+'
 :
             
 return
@@ -4433,9 +4390,9 @@ ret
 origin
 !
 =
-"
+'
 default
-"
+'
 and
 extra_ret
 !
@@ -4478,7 +4435,6 @@ old_origin
 }
 set
 "
-                
 arg
 =
 extra_arg
@@ -4488,17 +4444,14 @@ origin
 extra_ret
 .
 origin
-                
 old_arg
 =
 arg
-                
 old_origin
 =
 ret
 .
 origin
-            
 )
         
 return

@@ -330,42 +330,40 @@ sampling_rate
 def
 __init__
 (
-        
 self
-        
+                 
 exe_file_path
-        
+                 
 ipg_measure_duration
 =
 10
-        
+                 
 sampling_rate
 =
 1000
-        
+                 
 output_file_ext
 =
-"
+'
 .
 txt
-"
-        
+'
+                 
 file_counter
 =
 1
-        
+                 
 output_file_path
 =
-"
+'
 powerlog
-"
-        
+'
+                 
 logger_name
 =
-"
+'
 mozpower
-"
-    
+'
 )
 :
         
@@ -653,11 +651,9 @@ path
 .
 split
 (
-            
 self
 .
 _output_file_path
-        
 )
         
 self
@@ -963,6 +959,7 @@ start
 gathering
 measurements
 .
+        
 "
 "
 "
@@ -1216,7 +1213,6 @@ _logger
 .
 info
 (
-                
 "
 Waiting
 %
@@ -1231,7 +1227,6 @@ stop
 "
 %
 wait_interval
-            
 )
             
 time
@@ -1330,15 +1325,14 @@ self
 .
 _output_dir_path
             
-"
+'
 %
 s_
 %
 s_
 %
 s
-"
-            
+'
 %
 (
 self
@@ -1527,48 +1521,42 @@ subprocess
 .
 check_output
 (
-                    
 [
-                        
+                    
 exe_file_path
-                        
-"
+                    
+'
 -
 duration
-"
-                        
+'
 str
 (
 ipg_measure_duration
 )
-                        
-"
+                    
+'
 -
 resolution
-"
-                        
+'
 str
 (
 self
 .
 _sampling_rate
 )
-                        
-"
+                    
+'
 -
 file
-"
-                        
+'
 outname
-                    
+                
 ]
-                    
 stderr
 =
 subprocess
 .
 STDOUT
-                
 )
             
 except
@@ -1789,27 +1777,25 @@ summarized_results
 def
 __init__
 (
-        
 self
-        
+                 
 output_files
-        
+                 
 output_dir_path
-        
+                 
 ipg_measure_duration
 =
 10
-        
+                 
 sampling_rate
 =
 1000
-        
+                 
 logger_name
 =
-"
+'
 mozpower
-"
-    
+'
 )
 :
         
@@ -2034,17 +2020,17 @@ self
 .
 _output_file_ext
 =
-"
+'
 .
-"
+'
 +
 file
 .
 split
 (
-"
+'
 .
-"
+'
 )
 [
 -
@@ -2118,9 +2104,9 @@ file
 .
 split
 (
-"
+'
 _
-"
+'
 )
 [
 0
@@ -2961,8 +2947,8 @@ file
         
 txt
 =
-"
-"
+'
+'
         
 if
 os
@@ -2979,9 +2965,9 @@ with
 open
 (
 file
-"
+'
 r
-"
+'
 )
 as
 f
@@ -3027,8 +3013,8 @@ if
 txt
 =
 =
-"
-"
+'
+'
 :
             
 raise
@@ -3107,12 +3093,12 @@ summary
 .
 replace
 (
-"
+'
 \
 r
-"
-"
-"
+'
+'
+'
 )
 )
 if
@@ -3149,10 +3135,10 @@ tseries
 .
 split
 (
-"
+'
 \
 n
-"
+'
 )
 quotechar
 =
@@ -3166,8 +3152,8 @@ delimiter
 =
 str
 (
-"
-"
+'
+'
 )
 )
         
@@ -3189,49 +3175,49 @@ val
 .
 replace
 (
-"
+'
 \
 n
-"
-"
-"
+'
+'
+'
 )
-                
 .
+                
 replace
 (
-"
+'
 \
 t
-"
-"
-"
+'
+'
+'
 )
-                
 .
+                
 replace
 (
-"
+'
 \
 r
-"
-"
-"
+'
+'
+'
 )
-                
 .
+                
 replace
 (
-"
+'
 \
 \
 n
-"
-"
-"
+'
+'
+'
 )
-                
 .
+                
 strip
 (
 )
@@ -3346,13 +3332,12 @@ replace
 self
 .
 _output_file_ext
-                
-"
+'
 _clean
 .
 %
 s
-"
+'
 %
 self
 .
@@ -3360,11 +3345,11 @@ _output_file_ext
 .
 replace
 (
-"
+'
 .
-"
-"
-"
+'
+'
+'
 )
             
 )
@@ -3397,9 +3382,9 @@ with
 open
 (
 clean_output_path
-"
+'
 w
-"
+'
 )
 as
 csvfile
@@ -3485,7 +3470,6 @@ got
 %
 s
 "
-                                
 %
 (
 str
@@ -3565,29 +3549,32 @@ e
 column_datatypes
 =
 {
-"
+            
+'
 System
 Time
-"
+'
 :
 str
-"
+            
+'
 RDTSC
-"
+'
 :
 int
-"
+            
+'
 default
-"
+'
 :
 float
+        
 }
         
 expected_samples
 =
 int
 (
-            
 self
 .
 _ipg_measure_duration
@@ -3602,7 +3589,6 @@ _sampling_rate
 /
 1000
 )
-        
 )
         
 for
@@ -3656,8 +3642,8 @@ got
 %
 s
 "
-                    
 %
+                    
 (
 clean_output_path
 key
@@ -3677,9 +3663,9 @@ dtype
 =
 column_datatypes
 [
-"
+'
 default
-"
+'
 ]
             
 if
@@ -3759,8 +3745,8 @@ continue
 %
 s
 "
-                        
 %
+                        
 (
 clean_output_path
 str
@@ -3781,13 +3767,13 @@ e
         
 etime
 =
-"
+'
 Elapsed
 Time
 (
 sec
 )
-"
+'
         
 if
 etime
@@ -3854,8 +3840,8 @@ got
 %
 s
 "
-                    
 %
+                    
 (
 clean_output_path
 self
@@ -3875,7 +3861,6 @@ _logger
 .
 warning
 (
-                
 "
 Missing
 '
@@ -3892,7 +3877,6 @@ s
 "
 %
 clean_output_path
-            
 )
         
 return
@@ -3984,16 +3968,19 @@ cumulatives
 mod_cumulative
 =
 [
+                
 val_mod
 +
 float
 (
 val
 )
+                
 for
 val
 in
 cumulative
+            
 ]
             
 val_mod
@@ -4177,17 +4164,17 @@ lower
 )
             
 if
-"
+'
 cumulative
-"
+'
 not
 in
 lmeasure
 and
-"
+'
 elapsed
 time
-"
+'
 not
 in
 lmeasure
@@ -4204,16 +4191,16 @@ all_results
 :
                     
 if
-"
+'
 system
 time
-"
+'
 in
 lmeasure
 or
-"
+'
 rdtsc
-"
+'
 in
 lmeasure
 :
@@ -4277,14 +4264,17 @@ else
 cumulatives
 =
 [
+                    
 result
 [
 measure
 ]
+                    
 for
 result
 in
 all_results
+                
 ]
                 
 self
@@ -4293,7 +4283,6 @@ _logger
 .
 info
 (
-                    
 "
 Combining
 cumulative
@@ -4307,7 +4296,6 @@ measure
 "
 %
 measure
-                
 )
                 
 combined_results
@@ -4335,14 +4323,13 @@ self
 .
 _output_dir_path
             
-"
+'
 %
 s_merged
 .
 %
 s
-"
-            
+'
 %
 (
 self
@@ -4354,11 +4341,11 @@ _output_file_ext
 .
 replace
 (
-"
+'
 .
-"
-"
-"
+'
+'
+'
 )
 )
         
@@ -4396,9 +4383,9 @@ with
 open
 (
 merged_output_path
-"
+'
 w
-"
+'
 )
 as
 csvfile
@@ -4541,7 +4528,6 @@ expected_samples
 =
 int
 (
-            
 self
 .
 _ipg_measure_duration
@@ -4556,7 +4542,6 @@ _sampling_rate
 /
 1000
 )
-        
 )
         
 combined_expected_samples
@@ -4622,16 +4607,12 @@ got
 %
 s
 "
-                    
 %
+                    
 (
-                        
 merged_output_path
-                        
 key
-                        
 combined_expected_samples
-                        
 len
 (
 results
@@ -4639,7 +4620,6 @@ results
 key
 ]
 )
-                    
 )
                 
 )
@@ -5137,60 +5117,60 @@ lower
 )
             
 if
-"
+'
 ia
-"
+'
 in
 lname
 :
                 
 return
-"
+'
 processor
 -
 cores
-"
+'
             
 elif
-"
+'
 processor
-"
+'
 in
 lname
 :
                 
 return
-"
+'
 processor
 -
 package
-"
+'
             
 elif
-"
+'
 gt
-"
+'
 in
 lname
 :
                 
 return
-"
+'
 gpu
-"
+'
             
 elif
-"
+'
 dram
-"
+'
 in
 lname
 :
                 
 return
-"
+'
 dram
-"
+'
             
 else
 :
@@ -5222,13 +5202,13 @@ self
 .
 _results
 [
-"
+'
 Elapsed
 Time
 (
 sec
 )
-"
+'
 ]
 )
 :
@@ -5287,9 +5267,9 @@ cut_results
 :
             
 if
-"
+'
 cumulative
-"
+'
 in
 measure
 .
@@ -5297,9 +5277,9 @@ lower
 (
 )
 and
-"
+'
 mwh
-"
+'
 in
 measure
 .
@@ -5342,9 +5322,9 @@ cut_results
 :
             
 if
-"
+'
 watt
-"
+'
 in
 measure
 .
@@ -5352,9 +5332,9 @@ lower
 (
 )
 and
-"
+'
 limit
-"
+'
 not
 in
 measure
@@ -5371,20 +5351,21 @@ replace_measure_name
 measure
 )
 +
-"
+'
 -
 avg
-"
+'
 ]
 =
 sum
 (
-                    
 [
+                    
 float
 (
 val
 )
+                    
 for
 val
 in
@@ -5392,8 +5373,8 @@ cut_results
 [
 measure
 ]
-]
                 
+]
 )
 /
 len
@@ -5411,20 +5392,21 @@ replace_measure_name
 measure
 )
 +
-"
+'
 -
 max
-"
+'
 ]
 =
 max
 (
-                    
 [
+                    
 float
 (
 val
 )
+                    
 for
 val
 in
@@ -5432,8 +5414,8 @@ cut_results
 [
 measure
 ]
-]
                 
+]
 )
         
 average_utilization
@@ -5445,20 +5427,20 @@ for
 utilization
 in
 (
-"
+'
 CPU
 Utilization
 (
 %
 )
-"
-"
+'
+'
 GT
 Utilization
 (
 %
 )
-"
+'
 )
 :
             
@@ -5475,7 +5457,6 @@ _logger
 .
 warning
 (
-                    
 "
 Could
 not
@@ -5488,7 +5469,6 @@ s
 "
 %
 utilization
-                
 )
                 
 continue
@@ -5502,32 +5482,32 @@ lower
 )
             
 if
-"
+'
 cpu
-"
+'
 in
 utilized_name
 :
                 
 utilized_name
 =
-"
+'
 cpu
-"
+'
             
 elif
-"
+'
 gt
-"
+'
 in
 utilized_name
 :
                 
 utilized_name
 =
-"
+'
 gpu
-"
+'
             
 average_utilization
 [
@@ -5536,12 +5516,13 @@ utilized_name
 =
 sum
 (
-                
 [
+                
 float
 (
 val
 )
+                
 for
 val
 in
@@ -5549,8 +5530,8 @@ cut_results
 [
 utilization
 ]
-]
             
+]
 )
 /
 len
@@ -5564,15 +5545,15 @@ utilization
 frequency_info
 =
 {
-"
+'
 cpu
-"
+'
 :
 {
 }
-"
+'
 gpu
-"
+'
 :
 {
 }
@@ -5582,20 +5563,20 @@ for
 frequency_measure
 in
 (
-"
+'
 CPU
 Frequency_0
 (
 MHz
 )
-"
-"
+'
+'
 GT
 Frequency
 (
 MHz
 )
-"
+'
 )
 :
             
@@ -5612,7 +5593,6 @@ _logger
 .
 warning
 (
-                    
 "
 Could
 not
@@ -5625,7 +5605,6 @@ s
 "
 %
 frequency_measure
-                
 )
                 
 continue
@@ -5639,51 +5618,52 @@ lower
 )
             
 if
-"
+'
 cpu
-"
+'
 in
 fmeasure_name
 :
                 
 fmeasure_name
 =
-"
+'
 cpu
-"
+'
             
 elif
-"
+'
 gt
-"
+'
 in
 fmeasure_name
 :
                 
 fmeasure_name
 =
-"
+'
 gpu
-"
+'
             
 frequency_info
 [
 fmeasure_name
 ]
 [
-"
+'
 favg
-"
+'
 ]
 =
 sum
 (
-                
 [
+                
 float
 (
 val
 )
+                
 for
 val
 in
@@ -5691,8 +5671,8 @@ cut_results
 [
 frequency_measure
 ]
-]
             
+]
 )
 /
 len
@@ -5708,19 +5688,20 @@ frequency_info
 fmeasure_name
 ]
 [
-"
+'
 fmax
-"
+'
 ]
 =
 max
 (
-                
 [
+                
 float
 (
 val
 )
+                
 for
 val
 in
@@ -5728,8 +5709,8 @@ cut_results
 [
 frequency_measure
 ]
-]
             
+]
 )
             
 frequency_info
@@ -5737,19 +5718,20 @@ frequency_info
 fmeasure_name
 ]
 [
-"
+'
 fmin
-"
+'
 ]
 =
 min
 (
-                
 [
+                
 float
 (
 val
 )
+                
 for
 val
 in
@@ -5757,8 +5739,8 @@ cut_results
 [
 frequency_measure
 ]
-]
             
+]
 )
         
 summarized_results
@@ -5788,10 +5770,10 @@ str
 test_name
 )
 +
-"
+'
 -
 utilization
-"
+'
                 
 "
 unit
@@ -5834,10 +5816,10 @@ str
 test_name
 )
 +
-"
+'
 -
 cumulative
-"
+'
                 
 "
 unit
@@ -5880,10 +5862,10 @@ str
 test_name
 )
 +
-"
+'
 -
 watts
-"
+'
                 
 "
 unit
@@ -5926,12 +5908,12 @@ str
 test_name
 )
 +
-"
+'
 -
 frequency
 -
 cpu
-"
+'
                 
 "
 unit
@@ -5947,9 +5929,9 @@ values
 :
 frequency_info
 [
-"
+'
 cpu
-"
+'
 ]
             
 }
@@ -5979,12 +5961,12 @@ str
 test_name
 )
 +
-"
+'
 -
 frequency
 -
 gpu
-"
+'
                 
 "
 unit
@@ -6000,9 +5982,9 @@ values
 :
 frequency_info
 [
-"
+'
 gpu
-"
+'
 ]
             
 }

@@ -331,7 +331,6 @@ mozilla
 -
 beta
 "
-                
 "
 firefox
 -

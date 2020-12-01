@@ -30,9 +30,9 @@ DIST_INSTALL
 False
 HostProgram
 (
-"
+'
 not
 -
 installed
-"
+'
 )

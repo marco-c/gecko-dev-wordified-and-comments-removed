@@ -20,7 +20,6 @@ path
 .
 abspath
 (
-    
 os
 .
 path

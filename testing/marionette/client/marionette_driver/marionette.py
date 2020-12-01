@@ -585,6 +585,7 @@ viewport
 action
 =
 {
+            
 "
 type
 "
@@ -592,16 +593,19 @@ type
 "
 pointerMove
 "
+            
 "
 x
 "
 :
 x
+            
 "
 y
 "
 :
 y
+        
 }
         
 if
@@ -1302,10 +1306,12 @@ marionette
 marionette
         
 assert
+(
 id
 is
 not
 None
+)
         
 self
 .
@@ -1558,19 +1564,18 @@ marionette
 .
 _send_message
 (
-            
 "
 WebDriver
 :
 GetElementAttribute
 "
+                                             
 body
 key
 =
 "
 value
 "
-        
 )
     
 def
@@ -1630,19 +1635,18 @@ marionette
 .
 _send_message
 (
-                
 "
 WebDriver
 :
 GetElementProperty
 "
+                                                 
 body
 key
 =
 "
 value
 "
-            
 )
         
 except
@@ -1691,6 +1695,7 @@ WebDriver
 :
 ElementClick
 "
+                                      
 {
 "
 id
@@ -1862,19 +1867,18 @@ marionette
 .
 _send_message
 (
-            
 "
 WebDriver
 :
 GetElementText
 "
+                                             
 body
 key
 =
 "
 value
 "
-        
 )
     
 def
@@ -1899,7 +1903,7 @@ to
 the
 element
 .
-        
+           
 If
 an
 array
@@ -1919,7 +1923,7 @@ a
 "
 )
 it
-        
+           
 will
 be
 joined
@@ -1927,7 +1931,7 @@ into
 a
 string
 .
-        
+           
 If
 an
 integer
@@ -1944,7 +1948,7 @@ send_keys
 it
 will
 be
-        
+           
 coerced
 into
 a
@@ -1971,12 +1975,12 @@ marionette
 .
 _send_message
 (
-            
 "
 WebDriver
 :
 ElementSendKeys
 "
+                                      
 {
 "
 id
@@ -1991,7 +1995,6 @@ text
 :
 keys
 }
-        
 )
     
 def
@@ -2026,6 +2029,7 @@ WebDriver
 :
 ElementClear
 "
+                                      
 {
 "
 id
@@ -2078,19 +2082,18 @@ marionette
 .
 _send_message
 (
-            
 "
 WebDriver
 :
 IsElementSelected
 "
+                                             
 body
 key
 =
 "
 value
 "
-        
 )
     
 def
@@ -2162,19 +2165,18 @@ marionette
 .
 _send_message
 (
-            
 "
 WebDriver
 :
 IsElementEnabled
 "
+                                             
 body
 key
 =
 "
 value
 "
-        
 )
     
 def
@@ -2220,19 +2222,18 @@ marionette
 .
 _send_message
 (
-            
 "
 WebDriver
 :
 IsElementDisplayed
 "
+                                             
 body
 key
 =
 "
 value
 "
-        
 )
     
 property
@@ -2277,19 +2278,18 @@ marionette
 .
 _send_message
 (
-            
 "
 WebDriver
 :
 GetElementTagName
 "
+                                             
 body
 key
 =
 "
 value
 "
-        
 )
     
 property
@@ -2378,12 +2378,12 @@ marionette
 .
 _send_message
 (
-            
 "
 WebDriver
 :
 GetElementRect
 "
+                                             
 {
 "
 id
@@ -2393,7 +2393,6 @@ self
 .
 id
 }
-        
 )
     
 def
@@ -2459,19 +2458,18 @@ marionette
 .
 _send_message
 (
-            
 "
 WebDriver
 :
 GetElementCSSValue
 "
+                                             
 body
 key
 =
 "
 value
 "
-        
 )
     
 classmethod
@@ -2733,6 +2731,7 @@ WebDriver
 :
 GetAlertText
 "
+                                             
 key
 =
 "
@@ -2779,12 +2778,12 @@ marionette
 .
 _send_message
 (
-            
 "
 WebDriver
 :
 SendAlertText
 "
+                                      
 {
 "
 text
@@ -2798,7 +2797,6 @@ convert_keys
 string
 )
 }
-        
 )
 class
 Marionette
@@ -2842,11 +2840,7 @@ DEFAULT_STARTUP_TIMEOUT
     
 DEFAULT_SHUTDOWN_TIMEOUT
 =
-(
-        
 70
-    
-)
     
 DEFAULT_SOCKET_TIMEOUT
 =
@@ -2855,9 +2849,7 @@ DEFAULT_SOCKET_TIMEOUT
 def
 __init__
 (
-        
 self
-        
 host
 =
 "
@@ -2869,35 +2861,29 @@ host
 .
 1
 "
-        
 port
 =
 2828
-        
 app
 =
 None
-        
 bin
 =
 None
-        
+                 
 baseurl
 =
 None
-        
 socket_timeout
 =
 None
-        
+                 
 startup_timeout
 =
 None
-        
 *
 *
 instance_args
-    
 )
 :
         
@@ -3302,7 +3288,6 @@ bin
 *
 *
 instance_args
-            
 )
             
 self
@@ -3475,8 +3460,6 @@ cleanup
             
 msg
 =
-(
-                
 "
 Process
 killed
@@ -3490,7 +3473,8 @@ connection
 to
 Marionette
 "
-                
+\
+                  
 "
 server
 could
@@ -3504,8 +3488,6 @@ log
 for
 errors
 "
-            
-)
             
 reraise
 (
@@ -3612,7 +3594,6 @@ consecutive
 times
 .
 "
-                
 )
     
 def
@@ -3636,8 +3617,8 @@ check_port_available
 port
 host
 =
-"
-"
+'
+'
 )
 :
         
@@ -3988,7 +3969,7 @@ check_for_crash
 raise
 IOError
 (
-"
+'
 Process
 crashed
 (
@@ -3998,7 +3979,7 @@ code
 {
 }
 )
-"
+'
 .
 format
 (
@@ -4016,7 +3997,6 @@ socket
 .
 timeout
 (
-                
 "
 Timed
 out
@@ -4036,16 +4016,14 @@ on
 .
 format
 (
-                    
+                
 self
 .
 host
 self
 .
 port
-                
 )
-            
 )
     
 do_process_check
@@ -4293,7 +4271,6 @@ dict
 and
 any
 (
-            
 k
 in
 value
@@ -4307,7 +4284,6 @@ in
 HTMLElement
 .
 identifiers
-        
 )
 :
             
@@ -4454,11 +4430,11 @@ self
 .
 test_name
 or
-"
+'
 marionette
 .
 py
-"
+'
             
 crash_count
 =
@@ -4640,8 +4616,7 @@ None
 message
 =
 (
-                    
-"
+'
 Process
 killed
 because
@@ -4651,9 +4626,9 @@ to
 Marionette
 server
 is
-"
-                    
-"
+'
+                           
+'
 lost
 .
 Check
@@ -4662,8 +4637,7 @@ gecko
 log
 for
 errors
-"
-                
+'
 )
                 
 self
@@ -4698,18 +4672,18 @@ returncode
                         
 message
 =
-"
+'
 Content
 process
 crashed
-"
+'
                     
 else
 :
                         
 message
 =
-"
+'
 Process
 crashed
 (
@@ -4720,16 +4694,14 @@ code
 returncode
 }
 )
-"
+'
                 
 else
 :
                     
 message
 =
-(
-                        
-"
+'
 Process
 has
 been
@@ -4743,9 +4715,7 @@ code
 returncode
 }
 )
-"
-                    
-)
+'
                 
 self
 .
@@ -4759,7 +4729,7 @@ False
 message
 +
 =
-"
+'
 (
 Reason
 :
@@ -4767,11 +4737,10 @@ Reason
 reason
 }
 )
-"
+'
             
 reraise
 (
-                
 IOError
 IOError
 (
@@ -4788,7 +4757,6 @@ exc
 )
 )
 tb
-            
 )
     
 staticmethod
@@ -4950,7 +4918,6 @@ self
 .
 execute_script
 (
-                
 "
 "
 "
@@ -4991,13 +4958,11 @@ arguments
 "
 "
 "
-                
 script_args
 =
 (
 pref
 )
-            
 )
     
 def
@@ -5139,7 +5104,6 @@ self
 .
 execute_script
 (
-                
 "
 "
 "
@@ -5225,7 +5189,6 @@ valueType
 "
 "
 "
-                
 script_args
 =
 (
@@ -5233,7 +5196,6 @@ pref
 default_branch
 value_type
 )
-            
 )
             
 return
@@ -5409,7 +5371,6 @@ self
 .
 execute_script
 (
-                
 "
 "
 "
@@ -5488,7 +5449,6 @@ value
 "
 "
 "
-                
 script_args
 =
 (
@@ -5496,7 +5456,6 @@ pref
 value
 default_branch
 )
-            
 )
     
 def
@@ -5904,7 +5863,6 @@ errors
 .
 MarionetteException
 (
-                
 "
 enforce_gecko_prefs
 (
@@ -5914,7 +5872,7 @@ only
 be
 called
 "
-                
+                                             
 "
 on
 Gecko
@@ -5923,7 +5881,6 @@ launched
 by
 Marionette
 "
-            
 )
         
 pref_exists
@@ -5978,7 +5935,6 @@ self
 .
 execute_script
 (
-                    
 "
 "
 "
@@ -6137,12 +6093,9 @@ false
 .
 format
 (
-                        
 pref
 value
-                    
 )
-                
 )
                 
 if
@@ -6168,6 +6121,7 @@ Marionette
 :
 GetContext
 "
+                                         
 key
 =
 "
@@ -6419,7 +6373,6 @@ self
 .
 execute_script
 (
-                
 "
 "
 "
@@ -6504,7 +6457,6 @@ data
 "
 "
 "
-            
 )
             
 if
@@ -6525,7 +6477,6 @@ quit
 application
 request
 "
-                
 )
         
 body
@@ -6564,6 +6515,7 @@ Marionette
 :
 Quit
 "
+                                  
 body
 key
 =
@@ -6748,7 +6700,6 @@ errors
 .
 MarionetteException
 (
-                
 "
 quit
 (
@@ -6758,6 +6709,7 @@ only
 be
 called
 "
+                                             
 "
 on
 Gecko
@@ -6766,7 +6718,6 @@ launched
 by
 Marionette
 "
-            
 )
         
 cause
@@ -6793,7 +6744,6 @@ callback
 raise
 ValueError
 (
-                    
 "
 Specified
 callback
@@ -6810,7 +6760,6 @@ format
 (
 callback
 )
-                
 )
             
 self
@@ -6822,6 +6771,7 @@ Marionette
 :
 AcceptConnections
 "
+                               
 {
 "
 value
@@ -6979,7 +6929,6 @@ errors
 .
 MarionetteException
 (
-                
 "
 Unexpected
 shutdown
@@ -6990,7 +6939,7 @@ reason
 '
 for
 "
-                
+                                             
 "
 quitting
 the
@@ -7002,7 +6951,6 @@ format
 (
 cause
 )
-            
 )
     
 do_process_check
@@ -7158,7 +7106,6 @@ errors
 .
 MarionetteException
 (
-                
 "
 restart
 (
@@ -7168,7 +7115,7 @@ only
 be
 called
 "
-                
+                                             
 "
 on
 Gecko
@@ -7177,7 +7124,6 @@ launched
 by
 Marionette
 "
-            
 )
         
 context
@@ -7191,6 +7137,7 @@ Marionette
 :
 GetContext
 "
+                                     
 key
 =
 "
@@ -7213,7 +7160,6 @@ clean
 raise
 ValueError
 (
-                    
 "
 An
 in_app
@@ -7227,7 +7173,6 @@ clean
 flag
 set
 "
-                
 )
             
 if
@@ -7246,7 +7191,6 @@ callback
 raise
 ValueError
 (
-                    
 "
 Specified
 callback
@@ -7263,7 +7207,6 @@ format
 (
 callback
 )
-                
 )
             
 self
@@ -7275,6 +7218,7 @@ Marionette
 :
 AcceptConnections
 "
+                               
 {
 "
 value
@@ -7344,6 +7288,7 @@ raise_for_port
 timeout
 =
 timeout_restart
+                                    
 check_process_status
 =
 False
@@ -7452,9 +7397,7 @@ code
                     
 reraise
 (
-                        
 exc_cls
-                        
 exc_cls
 (
 msg
@@ -7470,9 +7413,7 @@ runner
 returncode
 )
 )
-                        
 tb
-                    
 )
             
 finally
@@ -7541,7 +7482,6 @@ errors
 .
 MarionetteException
 (
-                
 "
 Unexpected
 shutdown
@@ -7552,7 +7492,7 @@ reason
 '
 for
 "
-                
+                                             
 "
 restarting
 the
@@ -7563,7 +7503,6 @@ format
 (
 cause
 )
-            
 )
         
 self
@@ -7610,9 +7549,9 @@ relative_url
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Returns
 an
@@ -7648,9 +7587,9 @@ www
 directory
 .
         
-"
-"
-"
+'
+'
+'
         
 return
 "
@@ -7869,12 +7808,15 @@ transport
 .
 TcpTransport
 (
+            
 self
 .
 host
+            
 self
 .
 port
+            
 self
 .
 socket_timeout
@@ -7939,7 +7881,6 @@ session
 .
 get
 (
-            
 "
 moz
 :
@@ -7955,7 +7896,6 @@ get
 processId
 "
 )
-        
 )
         
 self
@@ -8320,6 +8260,7 @@ WebDriver
 :
 GetWindowHandle
 "
+                                         
 key
 =
 "
@@ -8430,18 +8371,17 @@ self
 .
 _send_message
 (
-            
 "
 WebDriver
 :
 GetChromeWindowHandle
 "
+                                                
 key
 =
 "
 value
 "
-        
 )
         
 return
@@ -8614,7 +8554,6 @@ errors
 .
 InvalidArgumentException
 (
-                
 "
 x
 and
@@ -8626,7 +8565,6 @@ width
 need
 values
 "
-            
 )
         
 body
@@ -8664,6 +8602,7 @@ WebDriver
 :
 SetWindowRect
 "
+                                  
 body
 )
     
@@ -8721,6 +8660,7 @@ WebDriver
 :
 GetTitle
 "
+                                  
 key
 =
 "
@@ -8958,6 +8898,7 @@ WebDriver
 :
 GetPageSource
 "
+                                  
 key
 =
 "
@@ -9334,6 +9275,7 @@ Marionette
 :
 SetContext
 "
+                           
 {
 "
 value
@@ -9455,6 +9397,7 @@ Marionette
 :
 GetContext
 "
+                                   
 key
 =
 "
@@ -9627,7 +9570,6 @@ self
 .
 _send_message
 (
-            
 "
 WebDriver
 :
@@ -9645,7 +9587,6 @@ focus
 :
 focus
 }
-        
 )
         
 self
@@ -9696,7 +9637,7 @@ self
 "
 "
 "
-        
+           
 Switch
 to
 the
@@ -9892,6 +9833,7 @@ WebDriver
 :
 SwitchToFrame
 "
+                           
 body
 )
     
@@ -9986,6 +9928,7 @@ WebDriver
 :
 GetCurrentURL
 "
+                                  
 key
 =
 "
@@ -10062,6 +10005,7 @@ Marionette
 :
 GetWindowType
 "
+                                      
 key
 =
 "
@@ -10300,6 +10244,7 @@ WebDriver
 :
 Navigate
 "
+                           
 {
 "
 url
@@ -10510,6 +10455,7 @@ WEB_ELEMENT_KEY
 args
 .
 id
+                       
 CHROME_ELEMENT_KEY
 :
 args
@@ -10519,13 +10465,11 @@ id
         
 elif
 (
-            
 isinstance
 (
 args
 bool
 )
-            
 or
 isinstance
 (
@@ -10534,26 +10478,23 @@ six
 .
 string_types
 )
-            
 or
+              
 isinstance
 (
 args
 int
 )
-            
 or
 isinstance
 (
 args
 float
 )
-            
 or
 args
 is
 None
-        
 )
 :
             
@@ -10675,30 +10616,24 @@ value
 def
 execute_script
 (
-        
 self
-        
 script
-        
 script_args
 =
 (
 )
-        
 new_sandbox
 =
 True
-        
+                       
 sandbox
 =
 "
 default
 "
-        
 script_timeout
 =
 None
-    
 )
 :
         
@@ -11278,8 +11213,6 @@ stack
             
 filename
 =
-(
-                
 frame
 [
 0
@@ -11306,12 +11239,9 @@ frame
 ]
 )
             
-)
-            
 body
 =
 {
-                
 "
 script
 "
@@ -11321,25 +11251,25 @@ script
 strip
 (
 )
-                
+                    
 "
 args
 "
 :
 args
-                
+                    
 "
 newSandbox
 "
 :
 new_sandbox
-                
+                    
 "
 sandbox
 "
 :
 sandbox
-                
+                    
 "
 line
 "
@@ -11351,13 +11281,12 @@ frame
 1
 ]
 )
-                
+                    
 "
 filename
 "
 :
 filename
-            
 }
             
 rv
@@ -11408,30 +11337,24 @@ rv
 def
 execute_async_script
 (
-        
 self
-        
 script
-        
 script_args
 =
 (
 )
-        
 new_sandbox
 =
 True
-        
+                             
 sandbox
 =
 "
 default
 "
-        
 script_timeout
 =
 None
-    
 )
 :
         
@@ -11777,8 +11700,6 @@ stack
             
 filename
 =
-(
-                
 frame
 [
 0
@@ -11805,12 +11726,9 @@ frame
 ]
 )
             
-)
-            
 body
 =
 {
-                
 "
 script
 "
@@ -11820,31 +11738,31 @@ script
 strip
 (
 )
-                
+                    
 "
 args
 "
 :
 args
-                
+                    
 "
 newSandbox
 "
 :
 new_sandbox
-                
+                    
 "
 sandbox
 "
 :
 sandbox
-                
+                    
 "
 scriptTimeout
 "
 :
 script_timeout
-                
+                    
 "
 line
 "
@@ -11856,13 +11774,12 @@ frame
 1
 ]
 )
-                
+                    
 "
 filename
 "
 :
 filename
-            
 }
             
 rv
@@ -12234,6 +12151,7 @@ WebDriver
 :
 FindElement
 "
+                                  
 body
 key
 =
@@ -12544,6 +12462,7 @@ WebDriver
 :
 FindElements
 "
+                                  
 body
 )
     
@@ -12565,6 +12484,7 @@ WebDriver
 :
 GetActiveElement
 "
+                                       
 key
 =
 "
@@ -12739,6 +12659,7 @@ WebDriver
 :
 AddCookie
 "
+                           
 {
 "
 cookie
@@ -12857,6 +12778,7 @@ WebDriver
 :
 DeleteCookie
 "
+                           
 {
 "
 name
@@ -13377,16 +13299,19 @@ id
 "
 :
 element
+                
 "
 full
 "
 :
 full
+                
 "
 hash
 "
 :
 False
+                
 "
 scroll
 "
@@ -13423,6 +13348,7 @@ WebDriver
 :
 TakeScreenshot
 "
+                                  
 body
 key
 =
@@ -13480,7 +13406,6 @@ else
 raise
 ValueError
 (
-                
 "
 format
 parameter
@@ -13491,7 +13416,7 @@ either
 base64
 '
 "
-                
+                             
 "
 or
 '
@@ -13510,7 +13435,6 @@ repr
 format
 )
 )
-            
 )
     
 property
@@ -13575,6 +13499,7 @@ Marionette
 :
 GetScreenOrientation
 "
+                                      
 key
 =
 "

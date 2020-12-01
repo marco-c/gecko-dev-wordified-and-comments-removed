@@ -106,11 +106,9 @@ BaseScript
 config_options
 =
 [
-        
 [
-            
+     
 [
-                
 "
 -
 -
@@ -118,11 +116,9 @@ test
 -
 file
 "
-            
 ]
-            
+     
 {
-                
 "
 action
 "
@@ -130,7 +126,7 @@ action
 "
 extend
 "
-                
+      
 "
 dest
 "
@@ -138,7 +134,7 @@ dest
 "
 test_files
 "
-                
+      
 "
 help
 "
@@ -151,11 +147,10 @@ files
 to
 test
 "
-            
+      
 }
-        
-]
     
+]
 ]
     
 def
@@ -179,79 +174,74 @@ BaseScript
 .
 __init__
 (
-            
 self
-            
 config_options
 =
 self
 .
 config_options
-            
+                            
 all_actions
 =
 [
-                
-"
+'
 list
 -
 config
 -
 files
-"
-                
-"
+'
+                                         
+'
 test
 -
 json
 -
 configs
-"
-                
-"
+'
+                                         
+'
 test
 -
 python
 -
 configs
-"
-                
-"
+'
+                                         
+'
 summary
-"
-            
+'
+                                         
 ]
-            
+                            
 default_actions
 =
 [
-                
-"
+'
 test
 -
 json
 -
 configs
-"
-                
-"
+'
+                                             
+'
 test
 -
 python
 -
 configs
-"
-                
-"
+'
+                                             
+'
 summary
-"
-            
+'
+                                             
 ]
-            
+                            
 require_config_file
 =
 require_config_file
-        
 )
     
 def
@@ -316,9 +306,9 @@ self
 config
         
 if
-"
+'
 test_files
-"
+'
 in
 c
 :
@@ -329,9 +319,9 @@ config_files
 =
 c
 [
-"
+'
 test_files
-"
+'
 ]
             
 return
@@ -343,7 +333,6 @@ self
 .
 debug
 (
-            
 "
 No
 -
@@ -365,7 +354,6 @@ configs
 directory
 .
 "
-        
 )
         
 config_files
@@ -398,6 +386,7 @@ path
 .
 .
 "
+                                                      
 "
 configs
 "
@@ -550,6 +539,7 @@ formed
 json
 ?
 "
+        
 "
 "
 "
@@ -649,6 +639,7 @@ json
 "
 %
 config_file
+                                     
 level
 =
 "
@@ -707,7 +698,6 @@ self
 .
 add_summary
 (
-                
 "
 %
 d
@@ -722,6 +712,7 @@ good
 .
 "
 %
+                             
 (
 filecount
 [
@@ -732,7 +723,6 @@ filecount
 0
 ]
 )
-            
 )
         
 else
@@ -775,6 +765,7 @@ config
 dictionary
 ?
 "
+        
 "
 "
 "
@@ -862,7 +853,6 @@ self
 .
 add_summary
 (
-                        
 "
 %
 s
@@ -873,12 +863,12 @@ python
 "
 %
 config_file
+                                     
 level
 =
 "
 error
 "
-                    
 )
                     
 self
@@ -904,23 +894,21 @@ else
 :
                     
 if
-"
+'
 config
-"
+'
 in
 local_dict
 and
 isinstance
 (
-                        
 local_dict
 [
-"
+'
 config
-"
+'
 ]
 dict
-                    
 )
 :
                         
@@ -949,7 +937,6 @@ self
 .
 add_summary
 (
-                            
 "
 %
 s
@@ -957,7 +944,7 @@ is
 valid
 python
 "
-                            
+                                         
 "
 but
 doesn
@@ -970,14 +957,13 @@ dictionary
 .
 "
 %
+                                         
 config_file
-                            
 level
 =
 "
 error
 "
-                        
 )
         
 if
@@ -991,7 +977,6 @@ self
 .
 add_summary
 (
-                
 "
 %
 d
@@ -1006,6 +991,7 @@ good
 .
 "
 %
+                             
 (
 filecount
 [
@@ -1016,7 +1002,6 @@ filecount
 0
 ]
 )
-            
 )
         
 else
@@ -1040,9 +1025,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 config_test

@@ -2,7 +2,7 @@ import
 json
 FIRST_LINE
 =
-"
+'
 /
 /
 This
@@ -18,7 +18,7 @@ DO
 NOT
 EDIT
 .
-"
+'
 def
 generate_allows
 (
@@ -29,7 +29,7 @@ input_paths
 "
 "
 "
-    
+        
 This
 script
 reads
@@ -43,7 +43,7 @@ ThreadFileAllows
 .
 txt
 lists
-    
+        
 and
 generates
 a
@@ -57,7 +57,7 @@ of
 allowed
 threads
 .
-    
+        
 These
 can
 be
@@ -65,7 +65,7 @@ the
 following
 formats
 :
-        
+            
 -
 Files
 which
@@ -73,7 +73,7 @@ the
 checker
 should
 ignore
-            
+                
 These
 files
 either
@@ -82,7 +82,7 @@ definitions
 of
 NS_NewNamedThread
 or
-            
+                
 use
 args
 which
@@ -99,7 +99,7 @@ func
 args
 )
 .
-        
+            
 -
 Thread
 names
@@ -108,7 +108,7 @@ the
 checker
 should
 ignore
-            
+                
 Specifies
 which
 individual
@@ -176,7 +176,7 @@ lines
 "
 "
 "
-        
+            
 We
 are
 assuming
@@ -192,7 +192,7 @@ files
 .
 Threads
 should
-        
+            
 NOT
 have
 names
@@ -224,20 +224,20 @@ line
 .
 endswith
 (
-"
+'
 .
 cpp
-"
+'
 )
 or
 line
 .
 endswith
 (
-"
+'
 .
 h
-"
+'
 )
 :
             
@@ -260,10 +260,10 @@ line
     
 file_list_s
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -281,10 +281,10 @@ file_list
     
 name_list_s
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -302,10 +302,7 @@ name_list
     
 output_string
 =
-(
-        
 FIRST_LINE
-        
 +
 "
 "
@@ -342,13 +339,10 @@ s
 "
 "
 "
-        
 %
 (
 file_list_s
 name_list_s
-)
-    
 )
     
 return

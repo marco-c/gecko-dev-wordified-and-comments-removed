@@ -17,7 +17,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -42,7 +41,6 @@ arg1
 "
 "
 "
-        
 )
         
 results

@@ -84,8 +84,8 @@ environ
 .
 get
 (
-"
+'
 MOZ_FETCHES_DIR
-"
+'
 )
 }

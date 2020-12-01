@@ -361,7 +361,6 @@ accessibilityChecks
 ]
             
 enable_a11y_checks
-        
 )
         
 if
@@ -439,11 +438,10 @@ self
 .
 run_element_test
 (
-            
 self
 .
 invalid_elementIDs
-            
+                              
 lambda
 button
 :
@@ -452,22 +450,21 @@ self
 assertRaises
 (
 ElementNotAccessibleException
+                                                               
 button
 .
 tap
 )
-        
 )
         
 self
 .
 run_element_test
 (
-            
 self
 .
 falsy_elements
-            
+                              
 lambda
 button
 :
@@ -475,14 +472,12 @@ self
 .
 assertRaises
 (
-                
 ElementNotInteractableException
+                                                               
 button
 .
 tap
-            
 )
-        
 )
     
 def
@@ -521,11 +516,10 @@ self
 .
 run_element_test
 (
-            
 self
 .
 falsy_elements
-            
+                              
 lambda
 button
 :
@@ -533,14 +527,12 @@ self
 .
 assertRaises
 (
-                
 ElementNotInteractableException
+                                                               
 button
 .
 tap
-            
 )
-        
 )
     
 def
@@ -590,11 +582,10 @@ self
 .
 run_element_test
 (
-            
 self
 .
 invalid_elementIDs
-            
+                              
 lambda
 button
 :
@@ -602,25 +593,22 @@ self
 .
 assertRaises
 (
-                
 ElementNotAccessibleException
+                                                               
 button
 .
 click
-            
 )
-        
 )
         
 self
 .
 run_element_test
 (
-            
 self
 .
 falsy_elements
-            
+                              
 lambda
 button
 :
@@ -628,14 +616,12 @@ self
 .
 assertRaises
 (
-                
 ElementNotInteractableException
+                                                               
 button
 .
 click
-            
 )
-        
 )
     
 def
@@ -674,11 +660,10 @@ self
 .
 run_element_test
 (
-            
 self
 .
 falsy_elements
-            
+                              
 lambda
 button
 :
@@ -686,14 +671,12 @@ self
 .
 assertRaises
 (
-                
 ElementNotInteractableException
+                                                               
 button
 .
 click
-            
 )
-        
 )
     
 def
@@ -713,11 +696,10 @@ self
 .
 run_element_test
 (
-            
 self
 .
 displayed_but_have_no_accessible_elementIDs
-            
+                              
 lambda
 element
 :
@@ -725,14 +707,12 @@ self
 .
 assertRaises
 (
-                
 ElementNotAccessibleException
+                                                                
 element
 .
 is_displayed
-            
 )
-        
 )
     
 def
@@ -752,7 +732,6 @@ self
 .
 run_element_test
 (
-            
 self
 .
 displayed_elementIDs
@@ -764,7 +743,6 @@ element
 is_displayed
 (
 )
-        
 )
     
 def
@@ -784,11 +762,10 @@ self
 .
 run_element_test
 (
-            
 self
 .
 aria_disabled_elementIDs
-            
+                              
 lambda
 element
 :
@@ -796,25 +773,22 @@ self
 .
 assertRaises
 (
-                
 ElementNotAccessibleException
+                                                                
 element
 .
 is_enabled
-            
 )
-        
 )
         
 self
 .
 run_element_test
 (
-            
 self
 .
 pointer_events_none_elementIDs
-            
+                              
 lambda
 element
 :
@@ -822,25 +796,22 @@ self
 .
 assertRaises
 (
-                
 ElementNotAccessibleException
+                                                                
 element
 .
 is_enabled
-            
 )
-        
 )
         
 self
 .
 run_element_test
 (
-            
 self
 .
 aria_disabled_elementIDs
-            
+                              
 lambda
 element
 :
@@ -848,14 +819,12 @@ self
 .
 assertRaises
 (
-                
 ElementNotAccessibleException
+                                                                
 element
 .
 click
-            
 )
-        
 )
         
 if
@@ -878,11 +847,10 @@ self
 .
 run_element_test
 (
-                
 self
 .
 pointer_events_none_elementIDs
-                
+                                  
 lambda
 element
 :
@@ -890,14 +858,12 @@ self
 .
 assertRaises
 (
-                    
 ElementNotAccessibleException
+                                                                    
 element
 .
 click
-                
 )
-            
 )
         
 self
@@ -912,10 +878,10 @@ self
 .
 run_element_test
 (
-            
 self
 .
 aria_disabled_elementIDs
+                              
 lambda
 element
 :
@@ -924,17 +890,16 @@ element
 is_enabled
 (
 )
-        
 )
         
 self
 .
 run_element_test
 (
-            
 self
 .
 pointer_events_none_elementIDs
+                              
 lambda
 element
 :
@@ -943,17 +908,16 @@ element
 is_enabled
 (
 )
-        
 )
         
 self
 .
 run_element_test
 (
-            
 self
 .
 aria_disabled_elementIDs
+                              
 lambda
 element
 :
@@ -962,7 +926,6 @@ element
 click
 (
 )
-        
 )
         
 if
@@ -985,10 +948,10 @@ self
 .
 run_element_test
 (
-                
 self
 .
 pointer_events_none_elementIDs
+                                  
 lambda
 element
 :
@@ -997,7 +960,6 @@ element
 click
 (
 )
-            
 )
     
 def
@@ -1017,7 +979,6 @@ self
 .
 run_element_test
 (
-            
 self
 .
 disabled_elementIDs
@@ -1029,7 +990,6 @@ element
 is_enabled
 (
 )
-        
 )
     
 def
@@ -1050,9 +1010,9 @@ self
 run_element_test
 (
 [
-"
+'
 input1
-"
+'
 ]
 lambda
 element
@@ -1084,7 +1044,6 @@ self
 .
 run_element_test
 (
-            
 self
 .
 valid_option_elementIDs
@@ -1096,14 +1055,12 @@ element
 is_selected
 (
 )
-        
 )
         
 self
 .
 run_element_test
 (
-            
 self
 .
 valid_elementIDs
@@ -1115,5 +1072,4 @@ element
 is_selected
 (
 )
-        
 )

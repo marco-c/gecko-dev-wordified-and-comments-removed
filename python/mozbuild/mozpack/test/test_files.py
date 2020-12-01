@@ -181,9 +181,9 @@ if
 hasattr
 (
 os
-"
+'
 symlink
-"
+'
 )
 and
 platform
@@ -193,9 +193,9 @@ system
 )
 !
 =
-"
+'
 Windows
-"
+'
 :
             
 dummy_path
@@ -204,18 +204,18 @@ self
 .
 tmppath
 (
-"
+'
 dummy_file
-"
+'
 )
             
 with
 open
 (
 dummy_path
-"
+'
 a
-"
+'
 )
 :
                 
@@ -233,9 +233,9 @@ self
 .
 tmppath
 (
-"
+'
 dummy_symlink
-"
+'
 )
 )
                 
@@ -247,9 +247,9 @@ self
 .
 tmppath
 (
-"
+'
 dummy_symlink
-"
+'
 )
 )
             
@@ -279,9 +279,9 @@ if
 hasattr
 (
 os
-"
+'
 link
-"
+'
 )
 :
             
@@ -291,18 +291,18 @@ self
 .
 tmppath
 (
-"
+'
 dummy_file
-"
+'
 )
             
 with
 open
 (
 dummy_path
-"
+'
 a
-"
+'
 )
 :
                 
@@ -320,9 +320,9 @@ self
 .
 tmppath
 (
-"
+'
 dummy_hardlink
-"
+'
 )
 )
                 
@@ -334,9 +334,9 @@ self
 .
 tmppath
 (
-"
+'
 dummy_hardlink
-"
+'
 )
 )
             
@@ -450,9 +450,9 @@ self
 mode
 !
 =
-"
+'
 r
-"
+'
 :
             
 self
@@ -466,9 +466,9 @@ self
 .
 mode
 =
-"
+'
 r
-"
+'
         
 return
 BytesIO
@@ -493,9 +493,9 @@ self
 mode
 !
 =
-"
+'
 w
-"
+'
 :
             
 self
@@ -516,9 +516,9 @@ self
 .
 mode
 =
-"
+'
 w
-"
+'
         
 return
 BytesIO
@@ -596,9 +596,9 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
 )
         
@@ -618,9 +618,9 @@ dest
 write
 (
 b
-"
+'
 foo
-"
+'
 )
         
 self
@@ -639,9 +639,9 @@ dest
 write
 (
 b
-"
+'
 foo
-"
+'
 )
         
 self
@@ -655,9 +655,9 @@ read
 4
 )
 b
-"
+'
 foof
-"
+'
 )
         
 self
@@ -670,9 +670,9 @@ read
 (
 )
 b
-"
+'
 oo
-"
+'
 )
         
 self
@@ -685,8 +685,8 @@ read
 (
 )
 b
-"
-"
+'
+'
 )
         
 dest
@@ -694,9 +694,9 @@ dest
 write
 (
 b
-"
+'
 bar
-"
+'
 )
         
 self
@@ -710,9 +710,9 @@ read
 4
 )
 b
-"
+'
 bar
-"
+'
 )
         
 dest
@@ -731,9 +731,9 @@ read
 (
 )
 b
-"
+'
 bar
-"
+'
 )
         
 dest
@@ -741,9 +741,9 @@ dest
 write
 (
 b
-"
+'
 foo
-"
+'
 )
         
 dest
@@ -757,9 +757,9 @@ dest
 write
 (
 b
-"
+'
 qux
-"
+'
 )
         
 self
@@ -772,25 +772,24 @@ read
 (
 )
 b
-"
+'
 qux
-"
+'
 )
 rand
 =
 bytes
 (
-    
 random
 .
 choice
 (
 b
-"
+'
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
-"
+'
 )
-    
+             
 for
 i
 in
@@ -808,35 +807,35 @@ samples
 [
     
 b
-"
-"
+'
+'
     
 b
-"
+'
 test
-"
+'
     
 b
-"
+'
 fooo
-"
+'
     
 b
-"
+'
 same
-"
+'
     
 b
-"
+'
 same
-"
+'
     
 b
-"
+'
 Different
 and
 longer
-"
+'
     
 rand
     
@@ -850,14 +849,14 @@ rand
 ]
 +
 b
-"
+'
 _
-"
+'
     
 b
-"
+'
 test
-"
+'
 ]
 class
 TestFile
@@ -873,9 +872,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Check
 that
@@ -921,9 +920,9 @@ content
 long
 content
         
-"
-"
-"
+'
+'
+'
         
 src
 =
@@ -931,9 +930,9 @@ self
 .
 tmppath
 (
-"
+'
 src
-"
+'
 )
         
 dest
@@ -942,9 +941,9 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 for
@@ -957,9 +956,9 @@ with
 open
 (
 src
-"
+'
 wb
-"
+'
 )
 as
 tmp
@@ -1029,9 +1028,9 @@ content
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -1078,9 +1077,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Similar
 to
@@ -1122,9 +1121,9 @@ will
 work
 .
         
-"
-"
-"
+'
+'
+'
         
 src
 =
@@ -1132,9 +1131,9 @@ self
 .
 tmppath
 (
-"
+'
 src
-"
+'
 )
         
 dest
@@ -1153,9 +1152,9 @@ with
 open
 (
 src
-"
+'
 wb
-"
+'
 )
 as
 tmp
@@ -1201,9 +1200,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Test
 whether
@@ -1218,9 +1217,9 @@ file
 object
 .
         
-"
-"
-"
+'
+'
+'
         
 src
 =
@@ -1228,16 +1227,16 @@ self
 .
 tmppath
 (
-"
+'
 src
-"
+'
 )
         
 content
 =
 b
-"
-"
+'
+'
 .
 join
 (
@@ -1248,9 +1247,9 @@ with
 open
 (
 src
-"
+'
 wb
-"
+'
 )
 as
 tmp
@@ -1314,9 +1313,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Test
 various
@@ -1337,9 +1336,9 @@ destination
 file
 .
         
-"
-"
-"
+'
+'
+'
         
 src
 =
@@ -1347,9 +1346,9 @@ self
 .
 tmppath
 (
-"
+'
 src
-"
+'
 )
         
 dest
@@ -1358,18 +1357,18 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 with
 open
 (
 src
-"
+'
 wb
-"
+'
 )
 as
 tmp
@@ -1380,9 +1379,9 @@ tmp
 write
 (
 b
-"
+'
 test
-"
+'
 )
         
 f
@@ -1414,15 +1413,15 @@ self
 assertEqual
 (
 b
-"
+'
 test
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -1469,15 +1468,15 @@ self
 assertEqual
 (
 b
-"
+'
 test
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -1489,9 +1488,9 @@ with
 open
 (
 src
-"
+'
 wb
-"
+'
 )
 as
 tmp
@@ -1502,9 +1501,9 @@ tmp
 write
 (
 b
-"
+'
 fooo
-"
+'
 )
         
 time
@@ -1546,15 +1545,15 @@ self
 assertEqual
 (
 b
-"
+'
 test
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -1615,15 +1614,15 @@ self
 assertEqual
 (
 b
-"
+'
 fooo
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -1646,10 +1645,10 @@ self
         
 AbsoluteSymlinkFile
 (
-"
+'
 /
 foo
-"
+'
 )
         
 with
@@ -1658,22 +1657,22 @@ self
 assertRaisesRegexp
 (
 ValueError
-"
+'
 Symlink
 target
 not
 absolute
-"
+'
 )
 :
             
 AbsoluteSymlinkFile
 (
-"
+'
 .
 /
 foo
-"
+'
 )
     
 def
@@ -1689,18 +1688,18 @@ self
 .
 tmppath
 (
-"
+'
 test_path
-"
+'
 )
         
 with
 open
 (
 source
-"
+'
 wt
-"
+'
 )
 as
 fh
@@ -1710,10 +1709,10 @@ fh
 .
 write
 (
-"
+'
 Hello
 world
-"
+'
 )
         
 s
@@ -1729,9 +1728,9 @@ self
 .
 tmppath
 (
-"
+'
 symlink
-"
+'
 )
         
 self
@@ -1816,10 +1815,10 @@ self
 assertEqual
 (
 content
-"
+'
 Hello
 world
-"
+'
 )
     
 def
@@ -1835,18 +1834,18 @@ self
 .
 tmppath
 (
-"
+'
 test_path
-"
+'
 )
         
 with
 open
 (
 source
-"
+'
 wt
-"
+'
 )
 as
 fh
@@ -1856,9 +1855,9 @@ fh
 .
 write
 (
-"
+'
 source
-"
+'
 )
         
 dest
@@ -1867,18 +1866,18 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 with
 open
 (
 dest
-"
+'
 a
-"
+'
 )
 :
             
@@ -1971,9 +1970,9 @@ self
 assertEqual
 (
 content
-"
+'
 source
-"
+'
 )
     
 def
@@ -1998,18 +1997,18 @@ self
 .
 tmppath
 (
-"
+'
 source
-"
+'
 )
         
 with
 open
 (
 source
-"
+'
 a
-"
+'
 )
 :
             
@@ -2021,9 +2020,9 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 os
@@ -2034,9 +2033,9 @@ self
 .
 tmppath
 (
-"
+'
 bad
-"
+'
 )
 dest
 )
@@ -2117,9 +2116,9 @@ not
 hasattr
 (
 os
-"
+'
 symlink
-"
+'
 )
 :
             
@@ -2131,9 +2130,9 @@ self
 .
 tmppath
 (
-"
+'
 source
-"
+'
 )
         
 dest
@@ -2142,18 +2141,18 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 with
 open
 (
 source
-"
+'
 a
-"
+'
 )
 :
             
@@ -2235,19 +2234,19 @@ self
         
 HardlinkFile
 (
-"
+'
 /
 foo
-"
+'
 )
         
 HardlinkFile
 (
-"
+'
 .
 /
 foo
-"
+'
 )
     
 def
@@ -2263,18 +2262,18 @@ self
 .
 tmppath
 (
-"
+'
 test_path
-"
+'
 )
         
 with
 open
 (
 source
-"
+'
 wt
-"
+'
 )
 as
 fh
@@ -2284,10 +2283,10 @@ fh
 .
 write
 (
-"
+'
 Hello
 world
-"
+'
 )
         
 s
@@ -2303,9 +2302,9 @@ self
 .
 tmppath
 (
-"
+'
 hardlink
-"
+'
 )
         
 self
@@ -2407,10 +2406,10 @@ self
 assertEqual
 (
 content
-"
+'
 Hello
 world
-"
+'
 )
     
 def
@@ -2426,18 +2425,18 @@ self
 .
 tmppath
 (
-"
+'
 test_path
-"
+'
 )
         
 with
 open
 (
 source
-"
+'
 wt
-"
+'
 )
 as
 fh
@@ -2447,9 +2446,9 @@ fh
 .
 write
 (
-"
+'
 source
-"
+'
 )
         
 dest
@@ -2458,18 +2457,18 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 with
 open
 (
 dest
-"
+'
 a
-"
+'
 )
 :
             
@@ -2579,9 +2578,9 @@ self
 assertEqual
 (
 content
-"
+'
 source
-"
+'
 )
     
 def
@@ -2603,11 +2602,11 @@ unittest
 .
 SkipTest
 (
-"
+'
 hardlink
 not
 supported
-"
+'
 )
         
 source
@@ -2616,18 +2615,18 @@ self
 .
 tmppath
 (
-"
+'
 source
-"
+'
 )
         
 with
 open
 (
 source
-"
+'
 a
-"
+'
 )
 :
             
@@ -2639,9 +2638,9 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 os
@@ -2732,11 +2731,11 @@ unittest
 .
 SkipTest
 (
-"
+'
 hardlink
 not
 supported
-"
+'
 )
         
 source
@@ -2745,9 +2744,9 @@ self
 .
 tmppath
 (
-"
+'
 source
-"
+'
 )
         
 dest
@@ -2756,18 +2755,18 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 with
 open
 (
 source
-"
+'
 a
-"
+'
 )
 :
             
@@ -2855,9 +2854,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Test
 that
@@ -2868,9 +2867,9 @@ invokes
 the
 preprocessor
         
-"
-"
-"
+'
+'
+'
         
 src
 =
@@ -2878,9 +2877,9 @@ self
 .
 tmppath
 (
-"
+'
 src
-"
+'
 )
         
 dest
@@ -2889,18 +2888,18 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 with
 open
 (
 src
-"
+'
 wb
-"
+'
 )
 as
 tmp
@@ -2911,7 +2910,7 @@ tmp
 write
 (
 b
-"
+'
 #
 ifdef
 FOO
@@ -2921,7 +2920,7 @@ ntest
 n
 #
 endif
-"
+'
 )
         
 f
@@ -2934,15 +2933,15 @@ depfile_path
 None
 marker
 =
-"
+'
 #
-"
+'
 defines
 =
 {
-"
+'
 FOO
-"
+'
 :
 True
 }
@@ -2965,17 +2964,17 @@ self
 assertEqual
 (
 b
-"
+'
 test
 \
 n
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -2990,9 +2989,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Test
 various
@@ -3013,9 +3012,9 @@ destination
 file
 .
         
-"
-"
-"
+'
+'
+'
         
 src
 =
@@ -3023,9 +3022,9 @@ self
 .
 tmppath
 (
-"
+'
 src
-"
+'
 )
         
 dest
@@ -3034,9 +3033,9 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 depfile
@@ -3045,18 +3044,18 @@ self
 .
 tmppath
 (
-"
+'
 depfile
-"
+'
 )
         
 with
 open
 (
 src
-"
+'
 wb
-"
+'
 )
 as
 tmp
@@ -3067,7 +3066,7 @@ tmp
 write
 (
 b
-"
+'
 #
 ifdef
 FOO
@@ -3077,33 +3076,31 @@ ntest
 n
 #
 endif
-"
+'
 )
         
 f
 =
 PreprocessedFile
 (
-            
 src
 depfile_path
 =
 depfile
 marker
 =
-"
+'
 #
-"
+'
 defines
 =
 {
-"
+'
 FOO
-"
+'
 :
 True
 }
-        
 )
         
 self
@@ -3138,17 +3135,17 @@ self
 assertEqual
 (
 b
-"
+'
 test
 \
 n
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -3160,9 +3157,9 @@ with
 open
 (
 src
-"
+'
 wb
-"
+'
 )
 as
 tmp
@@ -3173,7 +3170,7 @@ tmp
 write
 (
 b
-"
+'
 #
 ifdef
 FOO
@@ -3183,7 +3180,7 @@ nfooo
 n
 #
 endif
-"
+'
 )
         
 time
@@ -3230,17 +3227,17 @@ self
 assertEqual
 (
 b
-"
+'
 test
 \
 n
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -3268,17 +3265,17 @@ self
 assertEqual
 (
 b
-"
+'
 fooo
 \
 n
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -3293,9 +3290,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Test
 that
@@ -3310,9 +3307,9 @@ the
 source
 change
         
-"
-"
-"
+'
+'
+'
         
 src
 =
@@ -3320,9 +3317,9 @@ self
 .
 tmppath
 (
-"
+'
 src
-"
+'
 )
         
 dest
@@ -3331,9 +3328,9 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 incl
@@ -3342,9 +3339,9 @@ self
 .
 tmppath
 (
-"
+'
 incl
-"
+'
 )
         
 deps
@@ -3353,20 +3350,20 @@ self
 .
 tmppath
 (
-"
+'
 src
 .
 pp
-"
+'
 )
         
 with
 open
 (
 src
-"
+'
 wb
-"
+'
 )
 as
 tmp
@@ -3377,7 +3374,7 @@ tmp
 write
 (
 b
-"
+'
 #
 ifdef
 FOO
@@ -3387,16 +3384,16 @@ ntest
 n
 #
 endif
-"
+'
 )
         
 with
 open
 (
 incl
-"
+'
 wb
-"
+'
 )
 as
 tmp
@@ -3407,10 +3404,10 @@ tmp
 write
 (
 b
-"
+'
 foo
 bar
-"
+'
 )
         
 f
@@ -3423,15 +3420,15 @@ depfile_path
 deps
 marker
 =
-"
+'
 #
-"
+'
 defines
 =
 {
-"
+'
 FOO
-"
+'
 :
 True
 }
@@ -3453,9 +3450,9 @@ with
 open
 (
 src
-"
+'
 wb
-"
+'
 )
 as
 tmp
@@ -3466,13 +3463,13 @@ tmp
 write
 (
 b
-"
+'
 #
 include
 incl
 \
 n
-"
+'
 )
         
 time
@@ -3516,16 +3513,16 @@ self
 assertEqual
 (
 b
-"
+'
 foo
 bar
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -3537,9 +3534,9 @@ with
 open
 (
 incl
-"
+'
 wb
-"
+'
 )
 as
 tmp
@@ -3550,9 +3547,9 @@ tmp
 write
 (
 b
-"
+'
 quux
-"
+'
 )
         
 time
@@ -3596,15 +3593,15 @@ self
 assertEqual
 (
 b
-"
+'
 quux
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -3658,9 +3655,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Test
 that
@@ -3687,9 +3684,9 @@ preprocessor
 output
 .
         
-"
-"
-"
+'
+'
+'
         
 if
 not
@@ -3706,9 +3703,9 @@ self
 .
 tmppath
 (
-"
+'
 source
-"
+'
 )
         
 dest
@@ -3717,9 +3714,9 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 pp_source
@@ -3728,9 +3725,9 @@ self
 .
 tmppath
 (
-"
+'
 pp_in
-"
+'
 )
         
 deps
@@ -3739,18 +3736,18 @@ self
 .
 tmppath
 (
-"
+'
 deps
-"
+'
 )
         
 with
 open
 (
 source
-"
+'
 a
-"
+'
 )
 :
             
@@ -3782,9 +3779,9 @@ with
 open
 (
 pp_source
-"
+'
 wb
-"
+'
 )
 as
 tmp
@@ -3795,39 +3792,38 @@ tmp
 write
 (
 b
-"
+'
 #
 define
 FOO
 \
 nPREPROCESSED
-"
+'
 )
         
 f
 =
 PreprocessedFile
 (
-            
 pp_source
 depfile_path
 =
 deps
 marker
 =
-"
+'
 #
-"
+'
+                             
 defines
 =
 {
-"
+'
 FOO
-"
+'
 :
 True
 }
-        
 )
         
 self
@@ -3847,15 +3843,15 @@ self
 assertEqual
 (
 b
-"
+'
 PREPROCESSED
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -3882,14 +3878,14 @@ self
 assertEqual
 (
 b
-"
-"
+'
+'
 open
 (
 source
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -3916,11 +3912,11 @@ self
 assertRaisesRegexp
 (
 ErrorMessage
-"
+'
 Required
 existing
 file
-"
+'
 )
 :
             
@@ -3941,9 +3937,9 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
 )
     
@@ -3960,18 +3956,18 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 with
 open
 (
 p
-"
+'
 a
-"
+'
 )
 :
             
@@ -4017,9 +4013,9 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
 )
     
@@ -4036,18 +4032,18 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 with
 open
 (
 p
-"
+'
 a
-"
+'
 )
 :
             
@@ -4082,9 +4078,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Check
 that
@@ -4116,9 +4112,9 @@ TestFile
 test_file
 )
         
-"
-"
-"
+'
+'
+'
         
 dest
 =
@@ -4126,9 +4122,9 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 for
@@ -4159,9 +4155,9 @@ content
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -4176,9 +4172,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Test
 whether
@@ -4194,15 +4190,15 @@ file
 object
 .
         
-"
-"
-"
+'
+'
+'
         
 content
 =
 b
-"
-"
+'
+'
 .
 join
 (
@@ -4260,9 +4256,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Test
 various
@@ -4283,9 +4279,9 @@ destination
 file
 .
         
-"
-"
-"
+'
+'
+'
         
 dest
 =
@@ -4293,9 +4289,9 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 f
@@ -4303,9 +4299,9 @@ f
 GeneratedFile
 (
 b
-"
+'
 test
-"
+'
 )
         
 f
@@ -4330,15 +4326,15 @@ self
 assertEqual
 (
 b
-"
+'
 test
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -4351,9 +4347,9 @@ f
 GeneratedFile
 (
 b
-"
+'
 test
-"
+'
 )
         
 f
@@ -4371,15 +4367,15 @@ self
 assertEqual
 (
 b
-"
+'
 test
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -4392,9 +4388,9 @@ f
 GeneratedFile
 (
 b
-"
+'
 fooo
-"
+'
 )
         
 self
@@ -4418,9 +4414,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Test
 GeneratedFile
@@ -4429,9 +4425,9 @@ with
 functions
 .
         
-"
-"
-"
+'
+'
+'
         
 dest
 =
@@ -4439,18 +4435,18 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 data
 =
 {
             
-"
+'
 num_calls
-"
+'
 :
 0
         
@@ -4464,9 +4460,9 @@ content
             
 data
 [
-"
+'
 num_calls
-"
+'
 ]
 +
 =
@@ -4474,9 +4470,9 @@ num_calls
             
 return
 b
-"
+'
 content
-"
+'
         
 f
 =
@@ -4491,9 +4487,9 @@ assertEqual
 (
 data
 [
-"
+'
 num_calls
-"
+'
 ]
 0
 )
@@ -4511,9 +4507,9 @@ assertEqual
 (
 data
 [
-"
+'
 num_calls
-"
+'
 ]
 1
 )
@@ -4523,15 +4519,15 @@ self
 assertEqual
 (
 b
-"
+'
 content
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -4544,9 +4540,9 @@ self
 assertEqual
 (
 b
-"
+'
 content
-"
+'
 f
 .
 open
@@ -4563,9 +4559,9 @@ self
 assertEqual
 (
 b
-"
+'
 content
-"
+'
 f
 .
 read
@@ -4580,9 +4576,9 @@ assertEqual
 len
 (
 b
-"
+'
 content
-"
+'
 )
 f
 .
@@ -4597,9 +4593,9 @@ assertEqual
 (
 data
 [
-"
+'
 num_calls
-"
+'
 ]
 1
 )
@@ -4609,9 +4605,9 @@ f
 content
 =
 b
-"
+'
 modified
-"
+'
         
 f
 .
@@ -4626,9 +4622,9 @@ assertEqual
 (
 data
 [
-"
+'
 num_calls
-"
+'
 ]
 1
 )
@@ -4638,15 +4634,15 @@ self
 assertEqual
 (
 b
-"
+'
 modified
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -4659,9 +4655,9 @@ self
 assertEqual
 (
 b
-"
+'
 modified
-"
+'
 f
 .
 open
@@ -4678,9 +4674,9 @@ self
 assertEqual
 (
 b
-"
+'
 modified
-"
+'
 f
 .
 read
@@ -4695,9 +4691,9 @@ assertEqual
 len
 (
 b
-"
+'
 modified
-"
+'
 )
 f
 .
@@ -4718,9 +4714,9 @@ assertEqual
 (
 data
 [
-"
+'
 num_calls
-"
+'
 ]
 1
 )
@@ -4730,9 +4726,9 @@ self
 assertEqual
 (
 b
-"
+'
 content
-"
+'
 f
 .
 read
@@ -4746,9 +4742,9 @@ assertEqual
 (
 data
 [
-"
+'
 num_calls
-"
+'
 ]
 2
 )
@@ -4766,9 +4762,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Check
 that
@@ -4800,9 +4796,9 @@ TestFile
 test_file
 )
         
-"
-"
-"
+'
+'
+'
         
 src
 =
@@ -4810,11 +4806,11 @@ self
 .
 tmppath
 (
-"
+'
 src
 .
 jar
-"
+'
 )
         
 dest
@@ -4823,9 +4819,9 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 contents
@@ -4850,8 +4846,8 @@ samples
                 
 name
 =
-"
-"
+'
+'
 .
 join
 (
@@ -4861,12 +4857,11 @@ random
 choice
 (
                         
-"
+'
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
-"
+'
                     
 )
-                    
 for
 i
 in
@@ -4874,7 +4869,6 @@ range
 (
 8
 )
-                
 )
                 
 jar
@@ -4931,9 +4925,9 @@ filename
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -4948,9 +4942,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Test
 whether
@@ -4966,9 +4960,9 @@ file
 object
 .
         
-"
-"
-"
+'
+'
+'
         
 src
 =
@@ -4976,18 +4970,18 @@ self
 .
 tmppath
 (
-"
+'
 src
 .
 jar
-"
+'
 )
         
 content
 =
 b
-"
-"
+'
+'
 .
 join
 (
@@ -5007,9 +5001,9 @@ jar
 .
 add
 (
-"
+'
 content
-"
+'
 content
 )
         
@@ -5022,9 +5016,9 @@ JarReader
 src
 )
 [
-"
+'
 content
-"
+'
 ]
 )
         
@@ -5072,9 +5066,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Test
 various
@@ -5095,9 +5089,9 @@ destination
 file
 .
         
-"
-"
-"
+'
+'
+'
         
 src
 =
@@ -5105,11 +5099,11 @@ self
 .
 tmppath
 (
-"
+'
 src
 .
 jar
-"
+'
 )
         
 dest
@@ -5118,9 +5112,9 @@ self
 .
 tmppath
 (
-"
+'
 dest
-"
+'
 )
         
 with
@@ -5136,39 +5130,39 @@ jar
 .
 add
 (
-"
+'
 test
-"
+'
 b
-"
+'
 test
-"
+'
 )
             
 jar
 .
 add
 (
-"
+'
 test2
-"
+'
 b
-"
+'
 test
-"
+'
 )
             
 jar
 .
 add
 (
-"
+'
 fooo
-"
+'
 b
-"
+'
 fooo
-"
+'
 )
         
 jar
@@ -5184,9 +5178,9 @@ DeflatedFile
 (
 jar
 [
-"
+'
 test
-"
+'
 ]
 )
         
@@ -5212,15 +5206,15 @@ self
 assertEqual
 (
 b
-"
+'
 test
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -5234,9 +5228,9 @@ DeflatedFile
 (
 jar
 [
-"
+'
 test2
-"
+'
 ]
 )
         
@@ -5255,15 +5249,15 @@ self
 assertEqual
 (
 b
-"
+'
 test
-"
+'
 open
 (
 dest
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -5277,9 +5271,9 @@ DeflatedFile
 (
 jar
 [
-"
+'
 fooo
-"
+'
 ]
 )
         
@@ -5314,9 +5308,9 @@ f
 =
 ManifestFile
 (
-"
+'
 chrome
-"
+'
 )
         
 f
@@ -5325,20 +5319,20 @@ add
 (
 ManifestContent
 (
-"
+'
 chrome
-"
-"
+'
+'
 global
-"
-"
+'
+'
 toolkit
 /
 content
 /
 global
 /
-"
+'
 )
 )
         
@@ -5348,20 +5342,20 @@ add
 (
 ManifestResource
 (
-"
+'
 chrome
-"
-"
+'
+'
 gre
 -
 resources
-"
-"
+'
+'
 toolkit
 /
 res
 /
-"
+'
 )
 )
         
@@ -5371,18 +5365,18 @@ add
 (
 ManifestResource
 (
-"
+'
 chrome
 /
 pdfjs
-"
-"
+'
+'
 pdfjs
-"
-"
+'
+'
 .
 /
-"
+'
 )
 )
         
@@ -5392,17 +5386,17 @@ add
 (
 ManifestContent
 (
-"
+'
 chrome
 /
 pdfjs
-"
-"
+'
+'
 pdfjs
-"
-"
+'
+'
 pdfjs
-"
+'
 )
 )
         
@@ -5412,18 +5406,19 @@ add
 (
 ManifestLocale
 (
-"
+'
 chrome
-"
-"
+'
+'
 browser
-"
-"
+'
+'
 en
 -
 US
-"
-"
+'
+                             
+'
 en
 -
 US
@@ -5432,7 +5427,7 @@ locale
 /
 browser
 /
-"
+'
 )
 )
         
@@ -5444,11 +5439,11 @@ self
 .
 tmppath
 (
-"
+'
 chrome
 .
 manifest
-"
+'
 )
 )
         
@@ -5456,28 +5451,26 @@ self
 .
 assertEqual
 (
-            
 open
 (
 self
 .
 tmppath
 (
-"
+'
 chrome
 .
 manifest
-"
+'
 )
 )
 .
 readlines
 (
 )
-            
 [
-                
-"
+            
+'
 content
 global
 toolkit
@@ -5488,9 +5481,9 @@ global
 /
 \
 n
-"
-                
-"
+'
+            
+'
 resource
 gre
 -
@@ -5501,18 +5494,18 @@ res
 /
 \
 n
-"
-                
-"
+'
+            
+'
 resource
 pdfjs
 pdfjs
 /
 \
 n
-"
-                
-"
+'
+            
+'
 content
 pdfjs
 pdfjs
@@ -5520,9 +5513,9 @@ pdfjs
 pdfjs
 \
 n
-"
-                
-"
+'
+            
+'
 locale
 browser
 en
@@ -5538,10 +5531,9 @@ browser
 /
 \
 n
-"
-            
-]
+'
         
+]
 )
         
 self
@@ -5557,19 +5549,19 @@ remove
             
 ManifestContent
 (
-"
-"
-"
+'
+'
+'
 global
-"
-"
+'
+'
 toolkit
 /
 content
 /
 global
 /
-"
+'
 )
         
 )
@@ -5587,12 +5579,10 @@ remove
             
 ManifestOverride
 (
-                
-"
+'
 chrome
-"
-                
-"
+'
+'
 chrome
 :
 /
@@ -5604,9 +5594,9 @@ locale
 netError
 .
 dtd
-"
-                
-"
+'
+                             
+'
 chrome
 :
 /
@@ -5618,8 +5608,7 @@ locale
 netError
 .
 dtd
-"
-            
+'
 )
         
 )
@@ -5630,20 +5619,21 @@ remove
 (
 ManifestContent
 (
-"
+'
 chrome
-"
-"
+'
+'
 global
-"
-"
+'
+                                 
+'
 toolkit
 /
 content
 /
 global
 /
-"
+'
 )
 )
         
@@ -5660,20 +5650,20 @@ remove
             
 ManifestContent
 (
-"
+'
 chrome
-"
-"
+'
+'
 global
-"
-"
+'
+'
 toolkit
 /
 content
 /
 global
 /
-"
+'
 )
         
 )
@@ -5686,11 +5676,11 @@ self
 .
 tmppath
 (
-"
+'
 chrome
 .
 manifest
-"
+'
 )
 )
         
@@ -5702,15 +5692,15 @@ self
 .
 tmppath
 (
-"
+'
 chrome
 .
 manifest
-"
+'
 )
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -5759,7 +5749,7 @@ GeneratedFile
 (
     
 b
-"
+'
 \
 x58
 \
@@ -5792,11 +5782,11 @@ x0D
 x0A
 \
 x1A
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x01
 \
@@ -5829,11 +5819,11 @@ x00
 x00
 \
 x5C
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x80
 \
@@ -5866,11 +5856,11 @@ x00
 x00
 \
 x00
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x00
 \
@@ -5903,11 +5893,11 @@ x00
 x00
 \
 x5F
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x70
 \
@@ -5940,11 +5930,11 @@ xE2
 xD6
 \
 x00
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x00
 \
@@ -5977,11 +5967,11 @@ x6F
 x6F
 \
 x00
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x62
 \
@@ -6014,11 +6004,11 @@ x00
 x00
 \
 x00
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x09
 \
@@ -6041,7 +6031,7 @@ x00
 x00
 \
 x80
-"
+'
 )
 foo_xpt
 =
@@ -6049,7 +6039,7 @@ GeneratedFile
 (
     
 b
-"
+'
 \
 x58
 \
@@ -6082,11 +6072,11 @@ x0D
 x0A
 \
 x1A
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x01
 \
@@ -6119,11 +6109,11 @@ x00
 x00
 \
 x40
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x80
 \
@@ -6156,11 +6146,11 @@ x44
 xE0
 \
 xAA
-"
-    
+'
 +
+    
 b
-"
+'
 \
 xF3
 \
@@ -6193,11 +6183,11 @@ x00
 x09
 \
 x00
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x66
 \
@@ -6230,11 +6220,11 @@ x00
 x00
 \
 x00
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x05
 \
@@ -6249,7 +6239,7 @@ x00
 x00
 \
 x00
-"
+'
 )
 foo2_xpt
 =
@@ -6257,7 +6247,7 @@ GeneratedFile
 (
     
 b
-"
+'
 \
 x58
 \
@@ -6290,11 +6280,11 @@ x0D
 x0A
 \
 x1A
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x01
 \
@@ -6327,11 +6317,11 @@ x00
 x00
 \
 x40
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x80
 \
@@ -6364,11 +6354,11 @@ x08
 xD9
 \
 x39
-"
-    
+'
 +
+    
 b
-"
+'
 \
 xF7
 \
@@ -6401,11 +6391,11 @@ x00
 x09
 \
 x00
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x66
 \
@@ -6438,11 +6428,11 @@ x00
 x00
 \
 x00
-"
-    
+'
 +
+    
 b
-"
+'
 \
 x05
 \
@@ -6457,7 +6447,7 @@ x00
 x00
 \
 x00
-"
+'
 )
 class
 TestMinifiedProperties
@@ -6477,27 +6467,27 @@ propLines
 =
 [
             
-"
+'
 #
 Comments
 are
 removed
-"
+'
             
-"
+'
 foo
 =
 bar
-"
+'
             
-"
-"
+'
+'
             
-"
+'
 #
 Another
 comment
-"
+'
         
 ]
         
@@ -6505,10 +6495,10 @@ prop
 =
 GeneratedFile
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -6520,7 +6510,6 @@ self
 .
 assertEqual
 (
-            
 MinifiedProperties
 (
 prop
@@ -6533,22 +6522,22 @@ open
 readlines
 (
 )
+                         
 [
 b
-"
+'
 foo
 =
 bar
 \
 n
-"
+'
 b
-"
+'
 \
 n
-"
+'
 ]
-        
 )
         
 open
@@ -6557,21 +6546,21 @@ self
 .
 tmppath
 (
-"
+'
 prop
-"
+'
 )
-"
+'
 w
-"
+'
 )
 .
 write
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -6587,12 +6576,14 @@ self
 .
 tmppath
 (
-"
+'
 prop
-"
+'
 )
 )
 )
+\
+            
 .
 copy
 (
@@ -6600,9 +6591,9 @@ self
 .
 tmppath
 (
-"
+'
 prop2
-"
+'
 )
 )
         
@@ -6616,27 +6607,28 @@ self
 .
 tmppath
 (
-"
+'
 prop2
-"
+'
 )
 )
 .
 readlines
 (
 )
+                         
 [
-"
+'
 foo
 =
 bar
 \
 n
-"
-"
+'
+'
 \
 n
-"
+'
 ]
 )
 class
@@ -6650,12 +6642,12 @@ orig_lines
 =
 [
         
-"
+'
 /
 /
 Comment
 line
-"
+'
         
 '
 let
@@ -6667,23 +6659,23 @@ bar
 ;
 '
         
-"
+'
 var
 bar
 =
 true
 ;
-"
+'
         
-"
-"
+'
+'
         
-"
+'
 /
 /
 Another
 comment
-"
+'
     
 ]
     
@@ -6698,10 +6690,10 @@ orig_f
 =
 GeneratedFile
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -6794,14 +6786,14 @@ path
 join
 (
 our_dir
-"
+'
 support
-"
-"
+'
+'
 minify_js_verify
 .
 py
-"
+'
 )
             
 code
@@ -6819,10 +6811,10 @@ orig_f
 =
 GeneratedFile
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -6837,15 +6829,16 @@ min_f
 MinifiedJavaScript
 (
 orig_f
+                                   
 verify_command
 =
 self
 .
 _verify_command
 (
-"
+'
 0
-"
+'
 )
 )
         
@@ -6907,10 +6900,10 @@ orig_f
 =
 GeneratedFile
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -6935,15 +6928,16 @@ min_f
 MinifiedJavaScript
 (
 orig_f
+                                   
 verify_command
 =
 self
 .
 _verify_command
 (
-"
+'
 1
-"
+'
 )
 )
         
@@ -6981,10 +6975,9 @@ self
 .
 assertEqual
 (
-            
 output
-            
-"
+                         
+'
 Warning
 :
 JS
@@ -6998,17 +6991,16 @@ unknown
 :
 \
 n
-"
-            
-"
+'
+                         
+'
 Warning
 :
 Error
 message
 \
 n
-"
-        
+'
 )
         
 self
@@ -7047,64 +7039,64 @@ self
 .
 add
 (
-"
+'
 bar
-"
+'
 )
         
 self
 .
 add
 (
-"
+'
 foo
 /
 bar
-"
+'
 )
         
 self
 .
 add
 (
-"
+'
 foo
 /
 baz
-"
+'
 )
         
 self
 .
 add
 (
-"
+'
 foo
 /
 qux
 /
 1
-"
+'
 )
         
 self
 .
 add
 (
-"
+'
 foo
 /
 qux
 /
 bar
-"
+'
 )
         
 self
 .
 add
 (
-"
+'
 foo
 /
 qux
@@ -7112,14 +7104,14 @@ qux
 2
 /
 test
-"
+'
 )
         
 self
 .
 add
 (
-"
+'
 foo
 /
 qux
@@ -7127,7 +7119,7 @@ qux
 2
 /
 test2
-"
+'
 )
         
 if
@@ -7138,26 +7130,26 @@ self
 .
 add
 (
-"
+'
 foo
 /
 .
 foo
-"
+'
 )
             
 self
 .
 add
 (
-"
+'
 foo
 /
 .
 bar
 /
 foo
-"
+'
 )
     
 def
@@ -7171,45 +7163,39 @@ self
 .
 do_check
 (
-            
-"
-"
-            
+'
+'
 [
-                
-"
+            
+'
 bar
-"
-                
-"
+'
+'
 foo
 /
 bar
-"
-                
-"
+'
+'
 foo
 /
 baz
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 1
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 bar
-"
-                
-"
+'
+            
+'
 foo
 /
 qux
@@ -7217,9 +7203,8 @@ qux
 2
 /
 test
-"
-                
-"
+'
+'
 foo
 /
 qux
@@ -7227,56 +7212,49 @@ qux
 2
 /
 test2
-"
-            
-]
+'
         
+]
 )
         
 self
 .
 do_check
 (
-            
-"
+'
 *
-"
-            
+'
 [
-                
-"
+            
+'
 bar
-"
-                
-"
+'
+'
 foo
 /
 bar
-"
-                
-"
+'
+'
 foo
 /
 baz
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 1
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 bar
-"
-                
-"
+'
+            
+'
 foo
 /
 qux
@@ -7284,9 +7262,8 @@ qux
 2
 /
 test
-"
-                
-"
+'
+'
 foo
 /
 qux
@@ -7294,38 +7271,37 @@ qux
 2
 /
 test2
-"
-            
-]
+'
         
+]
 )
         
 self
 .
 do_check
 (
-            
-"
+'
 foo
 /
 qux
-"
+'
 [
-"
+            
+'
 foo
 /
 qux
 /
 1
-"
-"
+'
+'
 foo
 /
 qux
 /
 bar
-"
-"
+'
+'
 foo
 /
 qux
@@ -7333,8 +7309,8 @@ qux
 2
 /
 test
-"
-"
+'
+'
 foo
 /
 qux
@@ -7342,32 +7318,32 @@ qux
 2
 /
 test2
-"
-]
+'
         
+]
 )
         
 self
 .
 do_check
 (
-"
+'
 foo
 /
 b
 *
-"
+'
 [
-"
+'
 foo
 /
 bar
-"
-"
+'
+'
 foo
 /
 baz
-"
+'
 ]
 )
         
@@ -7375,9 +7351,9 @@ self
 .
 do_check
 (
-"
+'
 baz
-"
+'
 [
 ]
 )
@@ -7386,11 +7362,11 @@ self
 .
 do_check
 (
-"
+'
 foo
 /
 foo
-"
+'
 [
 ]
 )
@@ -7399,18 +7375,18 @@ self
 .
 do_check
 (
-"
+'
 foo
 /
 *
 ar
-"
+'
 [
-"
+'
 foo
 /
 bar
-"
+'
 ]
 )
         
@@ -7418,14 +7394,14 @@ self
 .
 do_check
 (
-"
+'
 *
 ar
-"
+'
 [
-"
+'
 bar
-"
+'
 ]
 )
         
@@ -7433,17 +7409,17 @@ self
 .
 do_check
 (
-"
+'
 *
 /
 bar
-"
+'
 [
-"
+'
 foo
 /
 bar
-"
+'
 ]
 )
         
@@ -7451,29 +7427,29 @@ self
 .
 do_check
 (
-            
-"
+'
 foo
 /
 *
 ux
-"
+'
 [
-"
+            
+'
 foo
 /
 qux
 /
 1
-"
-"
+'
+'
 foo
 /
 qux
 /
 bar
-"
-"
+'
+'
 foo
 /
 qux
@@ -7481,8 +7457,8 @@ qux
 2
 /
 test
-"
-"
+'
+'
 foo
 /
 qux
@@ -7490,40 +7466,39 @@ qux
 2
 /
 test2
-"
-]
+'
         
+]
 )
         
 self
 .
 do_check
 (
-            
-"
+'
 foo
 /
 q
 *
 ux
-"
-            
+'
 [
-"
+            
+'
 foo
 /
 qux
 /
 1
-"
-"
+'
+'
 foo
 /
 qux
 /
 bar
-"
-"
+'
+'
 foo
 /
 qux
@@ -7531,8 +7506,8 @@ qux
 2
 /
 test
-"
-"
+'
+'
 foo
 /
 qux
@@ -7540,16 +7515,16 @@ qux
 2
 /
 test2
-"
-]
+'
         
+]
 )
         
 self
 .
 do_check
 (
-"
+'
 foo
 /
 *
@@ -7558,9 +7533,9 @@ foo
 /
 test
 *
-"
+'
 [
-"
+'
 foo
 /
 qux
@@ -7568,8 +7543,8 @@ qux
 2
 /
 test
-"
-"
+'
+'
 foo
 /
 qux
@@ -7577,7 +7552,7 @@ qux
 2
 /
 test2
-"
+'
 ]
 )
         
@@ -7585,28 +7560,28 @@ self
 .
 do_check
 (
-"
+'
 *
 *
 /
 bar
-"
+'
 [
-"
+'
 bar
-"
-"
+'
+'
 foo
 /
 bar
-"
-"
+'
+'
 foo
 /
 qux
 /
 bar
-"
+'
 ]
 )
         
@@ -7614,16 +7589,16 @@ self
 .
 do_check
 (
-"
+'
 foo
 /
 *
 *
 /
 test
-"
+'
 [
-"
+'
 foo
 /
 qux
@@ -7631,7 +7606,7 @@ qux
 2
 /
 test
-"
+'
 ]
 )
         
@@ -7639,42 +7614,37 @@ self
 .
 do_check
 (
-            
-"
+'
 foo
-"
-            
+'
 [
-                
-"
+            
+'
 foo
 /
 bar
-"
-                
-"
+'
+'
 foo
 /
 baz
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 1
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 bar
-"
-                
-"
+'
+            
+'
 foo
 /
 qux
@@ -7682,9 +7652,8 @@ qux
 2
 /
 test
-"
-                
-"
+'
+'
 foo
 /
 qux
@@ -7692,55 +7661,49 @@ qux
 2
 /
 test2
-"
-            
-]
+'
         
+]
 )
         
 self
 .
 do_check
 (
-            
-"
+'
 foo
 /
 *
 *
-"
-            
+'
 [
-                
-"
+            
+'
 foo
 /
 bar
-"
-                
-"
+'
+'
 foo
 /
 baz
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 1
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 bar
-"
-                
-"
+'
+            
+'
 foo
 /
 qux
@@ -7748,9 +7711,8 @@ qux
 2
 /
 test
-"
-                
-"
+'
+'
 foo
 /
 qux
@@ -7758,17 +7720,16 @@ qux
 2
 /
 test2
-"
-            
-]
+'
         
+]
 )
         
 self
 .
 do_check
 (
-"
+'
 *
 *
 /
@@ -7776,9 +7737,9 @@ do_check
 /
 test
 *
-"
+'
 [
-"
+'
 foo
 /
 qux
@@ -7786,8 +7747,8 @@ qux
 2
 /
 test
-"
-"
+'
+'
 foo
 /
 qux
@@ -7795,7 +7756,7 @@ qux
 2
 /
 test2
-"
+'
 ]
 )
         
@@ -7803,45 +7764,40 @@ self
 .
 do_check
 (
-            
-"
+'
 *
 *
 /
 foo
-"
-            
+'
 [
-                
-"
+            
+'
 foo
 /
 bar
-"
-                
-"
+'
+'
 foo
 /
 baz
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 1
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 bar
-"
-                
-"
+'
+            
+'
 foo
 /
 qux
@@ -7849,9 +7805,8 @@ qux
 2
 /
 test
-"
-                
-"
+'
+'
 foo
 /
 qux
@@ -7859,22 +7814,21 @@ qux
 2
 /
 test2
-"
-            
-]
+'
         
+]
 )
         
 self
 .
 do_check
 (
-"
+'
 *
 *
 /
 barbaz
-"
+'
 [
 ]
 )
@@ -7883,19 +7837,19 @@ self
 .
 do_check
 (
-"
+'
 f
 *
 *
 /
 bar
-"
+'
 [
-"
+'
 foo
 /
 bar
-"
+'
 ]
 )
     
@@ -7915,12 +7869,12 @@ finder
 .
 contains
 (
-"
+'
 foo
 /
 .
 foo
-"
+'
 )
 )
         
@@ -7932,12 +7886,12 @@ finder
 .
 contains
 (
-"
+'
 foo
 /
 .
 bar
-"
+'
 )
 )
         
@@ -7945,12 +7899,12 @@ self
 .
 assertTrue
 (
-"
+'
 foo
 /
 .
 foo
-"
+'
 in
 [
 f
@@ -7958,16 +7912,17 @@ for
 f
 c
 in
+                                       
 finder
 .
 find
 (
-"
+'
 foo
 /
 .
 foo
-"
+'
 )
 ]
 )
@@ -7976,14 +7931,14 @@ self
 .
 assertTrue
 (
-"
+'
 foo
 /
 .
 bar
 /
 foo
-"
+'
 in
 [
 f
@@ -7991,16 +7946,17 @@ for
 f
 c
 in
+                                           
 finder
 .
 find
 (
-"
+'
 foo
 /
 .
 bar
-"
+'
 )
 ]
 )
@@ -8009,7 +7965,6 @@ self
 .
 assertEqual
 (
-            
 sorted
 (
 [
@@ -8022,62 +7977,62 @@ finder
 .
 find
 (
-"
+'
 foo
 /
 .
 *
-"
+'
 )
 ]
 )
+                         
 [
-"
+'
 foo
 /
 .
 bar
 /
 foo
-"
-"
+'
+'
 foo
 /
 .
 foo
-"
+'
 ]
-        
 )
         
 for
 pattern
 in
 [
-"
+'
 foo
-"
-"
+'
+'
 *
 *
-"
-"
+'
+'
 *
 *
 /
 *
-"
-"
+'
+'
 *
 *
 /
 foo
-"
-"
+'
+'
 foo
 /
 *
-"
+'
 ]
 :
             
@@ -8085,12 +8040,12 @@ self
 .
 assertFalse
 (
-"
+'
 foo
 /
 .
 foo
-"
+'
 in
 [
 f
@@ -8098,6 +8053,7 @@ for
 f
 c
 in
+                                            
 finder
 .
 find
@@ -8111,14 +8067,14 @@ self
 .
 assertFalse
 (
-"
+'
 foo
 /
 .
 bar
 /
 foo
-"
+'
 in
 [
 f
@@ -8126,6 +8082,7 @@ for
 f
 c
 in
+                                                
 finder
 .
 find
@@ -8139,7 +8096,6 @@ self
 .
 assertEqual
 (
-                
 sorted
 (
 [
@@ -8156,7 +8112,7 @@ pattern
 )
 ]
 )
-                
+                             
 sorted
 (
 [
@@ -8166,6 +8122,7 @@ f
 c
 in
 finder
+                                     
 if
 mozpath
 .
@@ -8176,7 +8133,6 @@ pattern
 )
 ]
 )
-            
 )
 def
 do_check
@@ -8240,6 +8196,7 @@ pattern
 )
 )
 )
+                     
 sorted
 (
 result
@@ -8279,9 +8236,9 @@ tmppath
 (
 path
 )
-"
+'
 wb
-"
+'
 )
 .
 write
@@ -8385,13 +8342,13 @@ finder
 .
 get
 (
-"
+'
 does
 -
 not
 -
 exist
-"
+'
 )
 )
         
@@ -8401,9 +8358,9 @@ finder
 .
 get
 (
-"
+'
 bar
-"
+'
 )
         
 self
@@ -8426,6 +8383,7 @@ res
 .
 path
 )
+                         
 mozpath
 .
 join
@@ -8433,9 +8391,9 @@ join
 self
 .
 tmpdir
-"
+'
 bar
-"
+'
 )
 )
     
@@ -8471,20 +8429,20 @@ self
 .
 add
 (
-"
+'
 fooz
-"
+'
 )
         
 self
 .
 add
 (
-"
+'
 foo
 /
 quxz
-"
+'
 )
         
 self
@@ -8499,11 +8457,11 @@ tmpdir
 ignore
 =
 [
-"
+'
 foo
 /
 qux
-"
+'
 ]
 )
         
@@ -8511,32 +8469,32 @@ self
 .
 do_check
 (
-"
+'
 *
 *
-"
+'
 [
-"
+'
 bar
-"
-"
+'
+'
 foo
 /
 bar
-"
-"
+'
+'
 foo
 /
 baz
-"
-"
+'
+'
 foo
 /
 quxz
-"
-"
+'
+'
 fooz
-"
+'
 ]
 )
         
@@ -8544,27 +8502,27 @@ self
 .
 do_check
 (
-"
+'
 foo
 /
 *
-"
+'
 [
-"
+'
 foo
 /
 bar
-"
-"
+'
+'
 foo
 /
 baz
-"
-"
+'
+'
 foo
 /
 quxz
-"
+'
 ]
 )
         
@@ -8572,28 +8530,28 @@ self
 .
 do_check
 (
-"
+'
 foo
 /
 *
 *
-"
+'
 [
-"
+'
 foo
 /
 bar
-"
-"
+'
+'
 foo
 /
 baz
-"
-"
+'
+'
 foo
 /
 quxz
-"
+'
 ]
 )
         
@@ -8601,14 +8559,14 @@ self
 .
 do_check
 (
-"
+'
 foo
 /
 qux
 /
 *
 *
-"
+'
 [
 ]
 )
@@ -8617,13 +8575,13 @@ self
 .
 do_check
 (
-"
+'
 foo
 /
 qux
 /
 *
-"
+'
 [
 ]
 )
@@ -8632,13 +8590,13 @@ self
 .
 do_check
 (
-"
+'
 foo
 /
 qux
 /
 bar
-"
+'
 [
 ]
 )
@@ -8647,17 +8605,17 @@ self
 .
 do_check
 (
-"
+'
 foo
 /
 quxz
-"
+'
 [
-"
+'
 foo
 /
 quxz
-"
+'
 ]
 )
         
@@ -8665,13 +8623,13 @@ self
 .
 do_check
 (
-"
+'
 fooz
-"
+'
 [
-"
+'
 fooz
-"
+'
 ]
 )
     
@@ -8707,9 +8665,9 @@ self
 .
 add
 (
-"
+'
 barz
-"
+'
 )
         
 self
@@ -8724,14 +8682,14 @@ tmpdir
 ignore
 =
 [
-"
+'
 foo
 /
 bar
-"
-"
+'
+'
 bar
-"
+'
 ]
 )
         
@@ -8739,33 +8697,27 @@ self
 .
 do_check
 (
-            
-"
+'
 *
 *
-"
-            
+'
 [
-                
-"
+'
 barz
-"
-                
-"
+'
+'
 foo
 /
 baz
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 1
-"
-                
-"
+'
+'
 foo
 /
 qux
@@ -8773,9 +8725,9 @@ qux
 2
 /
 test
-"
-                
-"
+'
+                             
+'
 foo
 /
 qux
@@ -8783,49 +8735,41 @@ qux
 2
 /
 test2
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 bar
-"
-            
+'
 ]
-        
 )
         
 self
 .
 do_check
 (
-            
-"
+'
 foo
 /
 *
 *
-"
-            
+'
 [
-                
-"
+'
 foo
 /
 baz
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 1
-"
-                
-"
+'
+'
 foo
 /
 qux
@@ -8833,9 +8777,9 @@ qux
 2
 /
 test
-"
-                
-"
+'
+                                 
+'
 foo
 /
 qux
@@ -8843,18 +8787,15 @@ qux
 2
 /
 test2
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 bar
-"
-            
+'
 ]
-        
 )
     
 def
@@ -8889,11 +8830,11 @@ self
 .
 add
 (
-"
+'
 foo
 /
 quxz
-"
+'
 )
         
 self
@@ -8908,13 +8849,13 @@ tmpdir
 ignore
 =
 [
-"
+'
 foo
 /
 qux
 /
 *
-"
+'
 ]
 )
         
@@ -8922,29 +8863,29 @@ self
 .
 do_check
 (
-"
+'
 *
 *
-"
+'
 [
-"
+'
 foo
 /
 bar
-"
-"
+'
+'
 foo
 /
 baz
-"
-"
+'
+'
 foo
 /
 quxz
-"
-"
+'
+'
 bar
-"
+'
 ]
 )
         
@@ -8952,28 +8893,28 @@ self
 .
 do_check
 (
-"
+'
 foo
 /
 *
 *
-"
+'
 [
-"
+'
 foo
 /
 bar
-"
-"
+'
+'
 foo
 /
 baz
-"
-"
+'
+'
 foo
 /
 quxz
-"
+'
 ]
 )
     
@@ -9028,63 +8969,55 @@ self
 .
 do_check
 (
-            
-"
+'
 *
 *
-"
-            
+'
 [
-                
-"
+'
 bar
-"
-                
-"
+'
+'
 foo
 /
 .
 foo
-"
-                
-"
+'
+'
 foo
 /
 .
 bar
 /
 foo
-"
-                
-"
+'
+                             
+'
 foo
 /
 bar
-"
-                
-"
+'
+'
 foo
 /
 baz
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 1
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 bar
-"
-                
-"
+'
+                             
+'
 foo
 /
 qux
@@ -9092,9 +9025,8 @@ qux
 2
 /
 test
-"
-                
-"
+'
+'
 foo
 /
 qux
@@ -9102,10 +9034,8 @@ qux
 2
 /
 test2
-"
-            
+'
 ]
-        
 )
     
 def
@@ -9130,17 +9060,17 @@ finder
 =
 FileFinder
 (
-            
 self
 .
 tmpdir
 find_dotfiles
 =
 True
+                                 
 ignore
 =
 [
-"
+'
 foo
 /
 .
@@ -9148,61 +9078,53 @@ bar
 /
 *
 *
-"
+'
 ]
-        
 )
         
 self
 .
 do_check
 (
-            
-"
+'
 foo
 /
 *
 *
-"
-            
+'
 [
-                
-"
+'
 foo
 /
 .
 foo
-"
-                
-"
+'
+'
 foo
 /
 bar
-"
-                
-"
+'
+'
 foo
 /
 baz
-"
-                
-"
+'
+                                 
+'
 foo
 /
 qux
 /
 1
-"
-                
-"
+'
+'
 foo
 /
 qux
 /
 bar
-"
-                
-"
+'
+'
 foo
 /
 qux
@@ -9210,9 +9132,8 @@ qux
 2
 /
 test
-"
-                
-"
+'
+'
 foo
 /
 qux
@@ -9220,10 +9141,8 @@ qux
 2
 /
 test2
-"
-            
+'
 ]
-        
 )
 class
 TestJarFinder
@@ -9295,11 +9214,11 @@ self
 .
 tmppath
 (
-"
+'
 test
 .
 jar
-"
+'
 )
 )
         
@@ -9327,11 +9246,11 @@ self
 .
 tmppath
 (
-"
+'
 test
 .
 jar
-"
+'
 )
 )
         
@@ -9345,11 +9264,11 @@ self
 .
 tmppath
 (
-"
+'
 test
 .
 jar
-"
+'
 )
 reader
 )
@@ -9370,13 +9289,13 @@ finder
 .
 get
 (
-"
+'
 does
 -
 not
 -
 exist
-"
+'
 )
 )
         
@@ -9390,9 +9309,9 @@ finder
 .
 get
 (
-"
+'
 bar
-"
+'
 )
 DeflatedFile
 )
@@ -9468,21 +9387,22 @@ self
 .
 tmppath
 (
-"
+'
 test
 .
 tar
 .
 bz2
-"
+'
 )
+                                
 mode
 =
-"
+'
 w
 :
 bz2
-"
+'
 )
         
 self
@@ -9510,21 +9430,22 @@ self
 .
 tmppath
 (
-"
+'
 test
 .
 tar
 .
 bz2
-"
+'
 )
+                          
 mode
 =
-"
+'
 r
 :
 bz2
-"
+'
 )
 as
 tarreader
@@ -9540,13 +9461,13 @@ self
 .
 tmppath
 (
-"
+'
 test
 .
 tar
 .
 bz2
-"
+'
 )
 tarreader
 )
@@ -9567,13 +9488,13 @@ finder
 .
 get
 (
-"
+'
 does
 -
 not
 -
 exist
-"
+'
 )
 )
             
@@ -9587,9 +9508,9 @@ finder
 .
 get
 (
-"
+'
 bar
-"
+'
 )
 ExtractedTarFile
 )
@@ -9617,12 +9538,12 @@ path
 .
 startswith
 (
-"
+'
 foo
 /
 qux
 /
-"
+'
 )
 :
             
@@ -9632,9 +9553,9 @@ mozpath
 .
 join
 (
-"
+'
 b
-"
+'
 path
 [
 8
@@ -9651,9 +9572,9 @@ mozpath
 .
 join
 (
-"
+'
 a
-"
+'
 path
 )
         
@@ -9689,9 +9610,9 @@ tmppath
 (
 real_path
 )
-"
+'
 wb
-"
+'
 )
 .
 write
@@ -9709,9 +9630,9 @@ result
 :
         
 if
-"
+'
 *
-"
+'
 in
 pattern
 :
@@ -9747,7 +9668,7 @@ self
 .
 tmppath
 (
-"
+'
 a
 /
 foo
@@ -9755,7 +9676,7 @@ foo
 qux
 /
 hoge
-"
+'
 )
 )
         
@@ -9765,7 +9686,7 @@ self
 .
 tmppath
 (
-"
+'
 a
 /
 foo
@@ -9773,19 +9694,19 @@ foo
 qux
 /
 hoge
-"
+'
 )
-"
+'
 wb
-"
+'
 )
 .
 write
 (
 b
-"
+'
 hoge
-"
+'
 )
         
 open
@@ -9794,7 +9715,7 @@ self
 .
 tmppath
 (
-"
+'
 a
 /
 foo
@@ -9802,22 +9723,22 @@ foo
 qux
 /
 bar
-"
+'
 )
-"
+'
 wb
-"
+'
 )
 .
 write
 (
 b
-"
+'
 not
 the
 right
 content
-"
+'
 )
         
 self
@@ -9826,11 +9747,10 @@ finder
 =
 ComposedFinder
 (
-            
 {
-                
-"
-"
+            
+'
+'
 :
 FileFinder
 (
@@ -9838,17 +9758,17 @@ self
 .
 tmppath
 (
-"
+'
 a
-"
+'
 )
 )
-                
-"
+            
+'
 foo
 /
 qux
-"
+'
 :
 FileFinder
 (
@@ -9856,14 +9776,13 @@ self
 .
 tmppath
 (
-"
+'
 b
-"
+'
 )
 )
-            
-}
         
+}
 )
         
 self
@@ -9882,13 +9801,13 @@ finder
 .
 get
 (
-"
+'
 does
 -
 not
 -
 exist
-"
+'
 )
 )
         
@@ -9902,9 +9821,9 @@ finder
 .
 get
 (
-"
+'
 bar
-"
+'
 )
 File
 )
@@ -9913,17 +9832,16 @@ unittest
 skipUnless
 (
 hglib
-"
+'
 hglib
 not
 available
-"
+'
 )
 unittest
 .
 skipIf
 (
-    
 six
 .
 PY3
@@ -9933,10 +9851,11 @@ os
 name
 =
 =
-"
+'
 nt
-"
-"
+'
+                 
+'
 Does
 not
 currently
@@ -9945,7 +9864,7 @@ in
 Python3
 on
 Windows
-"
+'
 )
 class
 TestMercurialRevisionFinder
@@ -10001,9 +9920,9 @@ in
 getattr
 (
 self
-"
+'
 _clients
-"
+'
 [
 ]
 )
@@ -10078,7 +9997,6 @@ hglib
 .
 open
 (
-            
 six
 .
 ensure_binary
@@ -10087,20 +10005,19 @@ self
 .
 tmpdir
 )
-            
+                            
 encoding
 =
 b
-"
+'
 UTF
 -
 8
-"
-            
+'
+                            
 configs
 =
 configs
-        
 )
         
 self
@@ -10152,9 +10069,9 @@ tmppath
 (
 path
 )
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -10272,10 +10189,10 @@ c
 .
 commit
 (
-"
+'
 initial
 commit
-"
+'
 )
         
 self
@@ -10307,13 +10224,13 @@ finder
 .
 get
 (
-"
+'
 does
 -
 not
 -
 exist
-"
+'
 )
 )
         
@@ -10327,9 +10244,9 @@ finder
 .
 get
 (
-"
+'
 bar
-"
+'
 )
 MercurialFile
 )
@@ -10358,13 +10275,13 @@ self
 .
 tmppath
 (
-"
+'
 foo
-"
+'
 )
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -10375,10 +10292,10 @@ fh
 write
 (
 b
-"
+'
 foo
 initial
-"
+'
 )
             
 c
@@ -10393,9 +10310,9 @@ self
 .
 tmppath
 (
-"
+'
 foo
-"
+'
 )
 )
 )
@@ -10404,9 +10321,9 @@ c
 .
 commit
 (
-"
+'
 initial
-"
+'
 )
             
 with
@@ -10416,13 +10333,13 @@ self
 .
 tmppath
 (
-"
+'
 foo
-"
+'
 )
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -10433,10 +10350,10 @@ fh
 write
 (
 b
-"
+'
 foo
 second
-"
+'
 )
             
 with
@@ -10446,13 +10363,13 @@ self
 .
 tmppath
 (
-"
+'
 bar
-"
+'
 )
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -10463,10 +10380,10 @@ fh
 write
 (
 b
-"
+'
 bar
 second
-"
+'
 )
             
 c
@@ -10481,9 +10398,9 @@ self
 .
 tmppath
 (
-"
+'
 bar
-"
+'
 )
 )
 )
@@ -10492,9 +10409,9 @@ c
 .
 commit
 (
-"
+'
 second
-"
+'
 )
             
 c
@@ -10503,13 +10420,13 @@ rawcommand
 (
 [
 b
-"
+'
 update
-"
+'
 b
-"
+'
 null
-"
+'
 ]
 )
         
@@ -10522,9 +10439,9 @@ _get_finder
 self
 .
 tmpdir
-"
+'
 0
-"
+'
 )
         
 f
@@ -10533,9 +10450,9 @@ finder
 .
 get
 (
-"
+'
 foo
-"
+'
 )
         
 self
@@ -10548,10 +10465,10 @@ read
 (
 )
 b
-"
+'
 foo
 initial
-"
+'
 )
         
 self
@@ -10564,17 +10481,18 @@ read
 (
 )
 b
-"
+'
 foo
 initial
-"
-"
+'
+                         
+'
 read
 again
 for
 good
 measure
-"
+'
 )
         
 self
@@ -10585,9 +10503,9 @@ finder
 .
 get
 (
-"
+'
 bar
-"
+'
 )
 )
         
@@ -10602,9 +10520,9 @@ self
 tmpdir
 rev
 =
-"
+'
 1
-"
+'
 )
         
 f
@@ -10613,9 +10531,9 @@ finder
 .
 get
 (
-"
+'
 foo
-"
+'
 )
         
 self
@@ -10628,10 +10546,10 @@ read
 (
 )
 b
-"
+'
 foo
 second
-"
+'
 )
         
 f
@@ -10640,9 +10558,9 @@ finder
 .
 get
 (
-"
+'
 bar
-"
+'
 )
         
 self
@@ -10655,10 +10573,10 @@ read
 (
 )
 b
-"
+'
 bar
 second
-"
+'
 )
         
 f
@@ -10689,13 +10607,13 @@ self
 .
 tmppath
 (
-"
+'
 foo
-"
+'
 )
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -10706,9 +10624,9 @@ fh
 write
 (
 b
-"
+'
 initial
-"
+'
 )
             
 c
@@ -10723,9 +10641,9 @@ self
 .
 tmppath
 (
-"
+'
 foo
-"
+'
 )
 )
 )
@@ -10734,9 +10652,9 @@ c
 .
 commit
 (
-"
+'
 initial
-"
+'
 )
             
 c
@@ -10745,13 +10663,13 @@ rawcommand
 (
 [
 b
-"
+'
 update
-"
+'
 b
-"
+'
 null
-"
+'
 ]
 )
         
@@ -10764,9 +10682,10 @@ _get_finder
 self
 .
 tmpdir
-"
+'
 0
-"
+'
+                                  
 recognize_repo_paths
 =
 True
@@ -10787,8 +10706,8 @@ finder
 .
 find
 (
-"
-"
+'
+'
 )
 )
         
@@ -10805,9 +10724,9 @@ finder
 .
 get
 (
-"
+'
 foo
-"
+'
 )
         
 with
@@ -10823,8 +10742,8 @@ finder
 .
 get
 (
-"
-"
+'
+'
 )
         
 f
@@ -10837,9 +10756,9 @@ self
 .
 tmppath
 (
-"
+'
 foo
-"
+'
 )
 )
         
@@ -10861,9 +10780,9 @@ read
 (
 )
 b
-"
+'
 initial
-"
+'
 )
         
 f
@@ -10873,9 +10792,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

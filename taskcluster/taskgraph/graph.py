@@ -397,7 +397,6 @@ nodes
 raise
 Exception
 (
-                
 "
 Unknown
 nodes
@@ -417,7 +416,6 @@ self
 .
 nodes
 )
-            
 )
         
 new_nodes
@@ -461,13 +459,12 @@ add_edges
 =
 set
 (
-                
 (
 left
 right
 name
 )
-                
+                            
 for
 (
 left
@@ -478,7 +475,7 @@ in
 self
 .
 edges
-                
+                            
 if
 (
 right
@@ -489,14 +486,12 @@ left
 )
 in
 nodes
-            
 )
             
 add_nodes
 =
 set
 (
-                
 (
 left
 if
@@ -512,7 +507,6 @@ _
 )
 in
 add_edges
-            
 )
             
 new_nodes

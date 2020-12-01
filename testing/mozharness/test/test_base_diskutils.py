@@ -40,14 +40,14 @@ size
 0
 from_unit
 =
-"
+'
 GB
-"
+'
 to_unit
 =
-"
+'
 MB
-"
+'
 )
 =
 =
@@ -69,14 +69,14 @@ size
 size
 from_unit
 =
-"
+'
 MB
-"
+'
 to_unit
 =
-"
+'
 MB
-"
+'
 )
 =
 =
@@ -94,14 +94,14 @@ size
 size
 from_unit
 =
-"
+'
 MB
-"
+'
 to_unit
 =
-"
+'
 GB
-"
+'
 )
 =
 =
@@ -112,39 +112,37 @@ self
 .
 assertRaises
 (
-            
 DiskutilsError
-            
+                          
 lambda
 :
 convert_to
 (
 size
 =
-"
+'
 a
 string
-"
+'
 from_unit
 =
-"
+'
 MB
-"
+'
 to_unit
 =
-"
+'
 MB
-"
+'
 )
-        
 )
         
 self
 .
 assertRaises
 (
-            
 DiskutilsError
+                          
 lambda
 :
 convert_to
@@ -154,24 +152,23 @@ size
 0
 from_unit
 =
-"
+'
 foo
-"
+'
 to_unit
 =
-"
+'
 MB
-"
+'
 )
-        
 )
         
 self
 .
 assertRaises
 (
-            
 DiskutilsError
+                          
 lambda
 :
 convert_to
@@ -181,16 +178,15 @@ size
 0
 from_unit
 =
-"
+'
 MB
-"
+'
 to_unit
 =
-"
+'
 foo
-"
+'
 )
-        
 )
 class
 TestDiskInfo
@@ -223,9 +219,9 @@ di
 unit
 =
 =
-"
+'
 bytes
-"
+'
 )
         
 self
@@ -268,9 +264,9 @@ di
 .
 _to
 (
-"
+'
 GB
-"
+'
 )
         
 self
@@ -282,9 +278,9 @@ di
 unit
 =
 =
-"
+'
 GB
-"
+'
 )
         
 self
@@ -408,7 +404,7 @@ mock
 .
 patch
 (
-"
+'
 mozharness
 .
 base
@@ -416,7 +412,7 @@ base
 diskutils
 .
 os
-"
+'
 )
     
 def
@@ -449,9 +445,9 @@ DiskSize
 .
 _posix_size
 (
-"
+'
 /
-"
+'
 )
         
 self
@@ -463,9 +459,9 @@ di
 unit
 =
 =
-"
+'
 bytes
-"
+'
 )
         
 self
@@ -508,7 +504,7 @@ mock
 .
 patch
 (
-"
+'
 mozharness
 .
 base
@@ -516,7 +512,7 @@ base
 diskutils
 .
 ctypes
-"
+'
 )
     
 def
@@ -559,11 +555,11 @@ DiskSize
 .
 _windows_size
 (
-"
+'
 /
 c
 /
-"
+'
 )
         
 self
@@ -575,9 +571,9 @@ di
 unit
 =
 =
-"
+'
 bytes
-"
+'
 )
         
 self
@@ -620,7 +616,7 @@ mock
 .
 patch
 (
-"
+'
 mozharness
 .
 base
@@ -628,14 +624,14 @@ base
 diskutils
 .
 os
-"
+'
 )
     
 mock
 .
 patch
 (
-"
+'
 mozharness
 .
 base
@@ -643,7 +639,7 @@ base
 diskutils
 .
 ctypes
-"
+'
 )
     
 def
@@ -663,8 +659,8 @@ side_effect
 =
 AttributeError
 (
-"
-"
+'
+'
 )
         
 self
@@ -680,9 +676,9 @@ DiskSize
 .
 _posix_size
 (
-"
+'
 /
-"
+'
 )
 )
         
@@ -698,8 +694,8 @@ side_effect
 =
 AttributeError
 (
-"
-"
+'
+'
 )
         
 mock_ctypes
@@ -714,8 +710,8 @@ side_effect
 =
 AttributeError
 (
-"
-"
+'
+'
 )
         
 self
@@ -731,9 +727,9 @@ DiskSize
 .
 _windows_size
 (
-"
+'
 /
-"
+'
 )
 )
         
@@ -741,7 +737,6 @@ self
 .
 assertRaises
 (
-            
 DiskutilsError
 lambda
 :
@@ -753,14 +748,13 @@ get_size
 (
 path
 =
-"
+'
 /
-"
+'
 unit
 =
-"
+'
 GB
-"
+'
 )
-        
 )

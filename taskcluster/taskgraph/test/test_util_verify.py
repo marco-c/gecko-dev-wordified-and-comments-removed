@@ -88,8 +88,12 @@ util
 .
 verify
 import
+(
+    
 DocPaths
+    
 verify_docs
+)
 from
 taskgraph
 import
@@ -107,12 +111,12 @@ path
 join
 (
 GECKO
-"
+'
 taskcluster
-"
-"
+'
+'
 docs
-"
+'
 )
 EXTRA_DOCS_BASE
 =
@@ -136,9 +140,9 @@ dirname
 (
 __file__
 )
-"
+'
 docs
-"
+'
 )
 )
 pytest
@@ -181,7 +185,6 @@ monkeypatch
 .
 setattr
 (
-        
 taskgraph
 .
 util
@@ -191,7 +194,6 @@ verify
 documentation_paths
 "
 mocked_documentation_paths
-    
 )
 pytest
 .
@@ -239,7 +241,6 @@ monkeypatch
 .
 setattr
 (
-        
 taskgraph
 .
 util
@@ -249,7 +250,6 @@ verify
 documentation_paths
 "
 mocked_documentation_paths
-    
 )
 pytest
 .
@@ -354,15 +354,15 @@ rst
 identifiers
 =
 [
-"
+'
 build
-"
-"
+'
+'
 packages
-"
-"
+'
+'
 toolchain
-"
+'
 ]
             
 appearing_as
@@ -381,12 +381,12 @@ raises
 Exception
 match
 =
-"
+'
 missing
 from
 doc
 file
-"
+'
 )
 :
             
@@ -404,15 +404,15 @@ rst
 identifiers
 =
 [
-"
+'
 build
-"
-"
+'
+'
 packages
-"
-"
+'
+'
 badvalue
-"
+'
 ]
                 
 appearing_as
@@ -476,15 +476,15 @@ rst
 identifiers
 =
 [
-"
+'
 base_repository
-"
-"
+'
+'
 head_repository
-"
-"
+'
+'
 owner
-"
+'
 ]
             
 appearing_as
@@ -505,12 +505,12 @@ raises
 Exception
 match
 =
-"
+'
 missing
 from
 doc
 file
-"
+'
 )
 :
             
@@ -528,15 +528,15 @@ rst
 identifiers
 =
 [
-"
+'
 base_repository
-"
-"
+'
+'
 head_repository
-"
-"
+'
+'
 badvalue
-"
+'
 ]
                 
 appearing_as
@@ -722,15 +722,15 @@ rst
 identifiers
 =
 [
-"
+'
 build
-"
-"
+'
+'
 packages
-"
-"
+'
+'
 toolchain
-"
+'
 ]
             
 appearing_as
@@ -755,15 +755,15 @@ rst
 identifiers
 =
 [
-"
+'
 build
-"
-"
+'
+'
 packages
-"
-"
+'
+'
 newkind
-"
+'
 ]
             
 appearing_as
@@ -782,12 +782,12 @@ raises
 Exception
 match
 =
-"
+'
 missing
 from
 doc
 file
-"
+'
 )
 :
             
@@ -805,15 +805,15 @@ rst
 identifiers
 =
 [
-"
+'
 build
-"
-"
+'
+'
 packages
-"
-"
+'
+'
 badvalue
-"
+'
 ]
                 
 appearing_as
@@ -896,15 +896,15 @@ rst
 identifiers
 =
 [
-"
+'
 base_repository
-"
-"
+'
+'
 head_repository
-"
-"
+'
+'
 owner
-"
+'
 ]
             
 appearing_as
@@ -931,15 +931,15 @@ rst
 identifiers
 =
 [
-"
+'
 base_repository
-"
-"
+'
+'
 head_repository
-"
-"
+'
+'
 newparameter
-"
+'
 ]
             
 appearing_as
@@ -960,12 +960,12 @@ raises
 Exception
 match
 =
-"
+'
 missing
 from
 doc
 file
-"
+'
 )
 :
             
@@ -983,15 +983,15 @@ rst
 identifiers
 =
 [
-"
+'
 base_repository
-"
-"
+'
+'
 head_repository
-"
-"
+'
+'
 badvalue
-"
+'
 ]
                 
 appearing_as
@@ -1007,9 +1007,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

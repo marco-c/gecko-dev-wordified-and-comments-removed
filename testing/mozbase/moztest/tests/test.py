@@ -38,31 +38,30 @@ self
 .
 assertRaises
 (
-            
 AssertionError
+                          
 lambda
 :
 TestResult
 (
-"
+'
 test
-"
+'
 result_expected
 =
-"
+'
 hello
-"
+'
 )
-        
 )
         
 t
 =
 TestResult
 (
-"
+'
 test
-"
+'
 )
         
 self
@@ -78,10 +77,10 @@ finish
 (
 result
 =
-"
+'
 good
 bye
-"
+'
 )
 )
     
@@ -104,9 +103,9 @@ t
 =
 TestResult
 (
-"
+'
 test
-"
+'
 )
         
 time
@@ -120,9 +119,9 @@ t
 .
 finish
 (
-"
+'
 PASS
-"
+'
 )
         
 duration
@@ -164,9 +163,9 @@ t
 =
 TestResult
 (
-"
+'
 test
-"
+'
 time_start
 =
 0
@@ -178,9 +177,9 @@ finish
 (
 result
 =
-"
+'
 PASS
-"
+'
 time_end
 =
 1000
@@ -215,45 +214,45 @@ c1
 =
 TestContext
 (
-"
+'
 host1
-"
+'
 )
         
 c2
 =
 TestContext
 (
-"
+'
 host2
-"
+'
 )
         
 c3
 =
 TestContext
 (
-"
+'
 host2
-"
+'
 )
         
 c4
 =
 TestContext
 (
-"
+'
 host1
-"
+'
 )
         
 t1
 =
 TestResult
 (
-"
+'
 t1
-"
+'
 context
 =
 c1
@@ -263,9 +262,9 @@ t2
 =
 TestResult
 (
-"
+'
 t2
-"
+'
 context
 =
 c2
@@ -275,9 +274,9 @@ t3
 =
 TestResult
 (
-"
+'
 t3
-"
+'
 context
 =
 c3
@@ -287,9 +286,9 @@ t4
 =
 TestResult
 (
-"
+'
 t4
-"
+'
 context
 =
 c4
@@ -301,9 +300,9 @@ collection
 =
 TestResultCollection
 (
-"
+'
 tests
-"
+'
 )
         
 self
@@ -345,9 +344,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

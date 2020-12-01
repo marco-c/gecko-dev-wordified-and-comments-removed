@@ -49,9 +49,9 @@ environ
 .
 get
 (
-"
+'
 MOZLINT_SUMMARY_DEPTH
-"
+'
 1
 )
 )
@@ -68,7 +68,6 @@ paths
 =
 set
 (
-            
 list
 (
 result
@@ -90,7 +89,6 @@ keys
 (
 )
 )
-        
 )
         
 commonprefix
@@ -119,18 +117,18 @@ commonprefix
 .
 rsplit
 (
-"
+'
 /
-"
+'
 1
 )
 [
 0
 ]
 +
-"
+'
 /
-"
+'
         
 summary
 =
@@ -189,12 +187,10 @@ commonprefix
 )
 )
 [
-                    
 :
 self
 .
 depth
-                
 ]
                 
 abspath
@@ -219,7 +215,6 @@ abspath
 =
 len
 (
-                
 [
 r
 for
@@ -237,11 +232,10 @@ r
 level
 =
 =
-"
+'
 error
-"
+'
 ]
-            
 )
             
 summary
@@ -255,7 +249,6 @@ abspath
 =
 len
 (
-                
 [
 r
 for
@@ -273,11 +266,10 @@ r
 level
 =
 =
-"
+'
 warning
-"
+'
 ]
-            
 )
             
 summary
@@ -320,8 +312,6 @@ items
             
 warning_str
 =
-(
-                
 "
 {
 }
@@ -331,25 +321,23 @@ format
 (
 pluralize
 (
-"
+'
 warning
-"
+'
 warnings
 )
 )
 if
 warnings
 else
-"
-"
-            
-)
+'
+'
             
 msg
 .
 append
 (
-"
+'
 {
 }
 :
@@ -357,16 +345,16 @@ append
 }
 {
 }
-"
+'
 .
 format
 (
 path
 pluralize
 (
-"
+'
 error
-"
+'
 errors
 )
 warning_str
@@ -374,10 +362,10 @@ warning_str
 )
         
 return
-"
+'
 \
 n
-"
+'
 .
 join
 (

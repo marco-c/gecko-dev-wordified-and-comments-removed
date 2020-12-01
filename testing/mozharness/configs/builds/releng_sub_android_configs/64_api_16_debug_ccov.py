@@ -2,11 +2,11 @@ config
 =
 {
     
-"
+'
 stage_platform
-"
+'
 :
-"
+'
 android
 -
 api
@@ -16,13 +16,13 @@ api
 debug
 -
 ccov
-"
+'
     
-"
+'
 src_mozconfig
-"
+'
 :
-"
+'
 mobile
 /
 android
@@ -40,33 +40,32 @@ api
 debug
 -
 ccov
-"
+'
     
-"
+'
 debug_build
-"
+'
 :
 True
     
-"
+'
 postflight_build_mach_commands
-"
+'
 :
 [
         
 [
-            
-"
+'
 android
-"
-            
-"
+'
+         
+'
 archive
 -
 coverage
 -
 artifacts
-"
+'
         
 ]
     

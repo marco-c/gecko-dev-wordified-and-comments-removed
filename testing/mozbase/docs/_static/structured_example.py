@@ -187,9 +187,9 @@ get_default_logger
 (
 component
 =
-"
+'
 TestRunner
-"
+'
 )
     
 def
@@ -226,11 +226,9 @@ __name__
 .
 startswith
 (
-                
 "
 test_
 "
-            
 )
 :
                 

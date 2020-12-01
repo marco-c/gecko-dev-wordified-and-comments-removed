@@ -133,9 +133,9 @@ join
 build
 .
 topobjdir
-"
+'
 _tests
-"
+'
 install_dir
 )
         
@@ -154,9 +154,9 @@ return
 harness_root
     
 if
-"
+'
 TEST_HARNESS_ROOT
-"
+'
 in
 os
 .
@@ -175,9 +175,9 @@ os
 .
 environ
 [
-"
+'
 TEST_HARNESS_ROOT
-"
+'
 ]
 suite
 )
@@ -204,9 +204,9 @@ fixture
 (
 scope
 =
-"
+'
 session
-"
+'
 )
 def
 setup_test_harness
@@ -287,12 +287,12 @@ path
 join
 (
 harness_root
-"
+'
 tests
-"
-"
+'
+'
 selftests
-"
+'
 )
                 
 if
@@ -329,9 +329,9 @@ if
 hasattr
 (
 os
-"
+'
 symlink
-"
+'
 )
 :
                         
@@ -355,9 +355,9 @@ test_root
 )
         
 elif
-"
+'
 TEST_HARNESS_ROOT
-"
+'
 in
 os
 .
@@ -384,9 +384,9 @@ fixture
 (
 scope
 =
-"
+'
 session
-"
+'
 )
 def
 binary
@@ -423,9 +423,9 @@ pass
     
 app
 =
-"
+'
 firefox
-"
+'
     
 bindir
 =
@@ -439,9 +439,9 @@ os
 .
 environ
 [
-"
+'
 PYTHON_TEST_TMP
-"
+'
 ]
 app
 )
@@ -478,9 +478,9 @@ Exception
 pass
     
 if
-"
+'
 GECKO_BINARY_PATH
-"
+'
 in
 os
 .
@@ -492,7 +492,7 @@ os
 .
 environ
 [
-"
+'
 GECKO_BINARY_PATH
-"
+'
 ]

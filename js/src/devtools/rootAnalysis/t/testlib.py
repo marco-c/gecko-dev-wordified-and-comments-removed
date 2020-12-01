@@ -47,75 +47,76 @@ HazardSummary
 =
 namedtuple
 (
-    
-"
+'
 HazardSummary
-"
+'
 [
-"
+    
+'
 function
-"
-"
+'
+    
+'
 variable
-"
-"
+'
+    
+'
 type
-"
-"
+'
+    
+'
 GCFunction
-"
-"
+'
+    
+'
 location
-"
+'
 ]
 )
 Callgraph
 =
 namedtuple
 (
-    
-"
+'
 Callgraph
-"
-    
+'
 [
-        
-"
-functionNames
-"
-        
-"
-nameToId
-"
-        
-"
-mangledToUnmangled
-"
-        
-"
-unmangledToMangled
-"
-        
-"
-calleesOf
-"
-        
-"
-callersOf
-"
-        
-"
-tags
-"
-        
-"
-calleeGraph
-"
-        
-"
-callerGraph
-"
     
+'
+functionNames
+'
+    
+'
+nameToId
+'
+    
+'
+mangledToUnmangled
+'
+    
+'
+unmangledToMangled
+'
+    
+'
+calleesOf
+'
+    
+'
+callersOf
+'
+    
+'
+tags
+'
+    
+'
+calleeGraph
+'
+    
+'
+callerGraph
+'
 ]
 )
 def
@@ -165,8 +166,8 @@ func
 .
 split
 (
-"
-"
+'
+'
 )
 [
 -
@@ -267,8 +268,8 @@ self
 source
 options
 =
-"
-"
+'
+'
 )
 :
         
@@ -280,14 +281,14 @@ environ
         
 env
 [
-"
+'
 CCACHE_DISABLE
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 cmd
 =
@@ -349,7 +350,6 @@ self
 cfg
 .
 cxx
-            
 sixgill
 =
 self
@@ -361,7 +361,6 @@ sixgill_plugin
 options
 =
 options
-        
 )
         
 if
@@ -408,9 +407,9 @@ pattern
 )
 :
         
-"
-"
-"
+'
+'
+'
 Look
 up
 an
@@ -440,17 +439,17 @@ a
 single
 entry
 .
-"
-"
-"
+'
+'
+'
         
 if
 hasattr
 (
 pattern
-"
+'
 match
-"
+'
 )
 :
             
@@ -460,7 +459,6 @@ subprocess
 .
 check_output
 (
-                
 [
 self
 .
@@ -477,10 +475,10 @@ dbname
 xdb
 "
 ]
+                                             
 universal_newlines
 =
 True
-            
 )
             
 matches
@@ -559,7 +557,6 @@ subprocess
 .
 check_output
 (
-            
 [
 self
 .
@@ -579,13 +576,13 @@ dbname
 .
 xdb
 "
+                                          
 pattern
 ]
-            
+                                         
 universal_newlines
 =
 True
-        
 )
         
 return
@@ -621,10 +618,9 @@ w
 .
 write
 (
-            
-"
-"
-"
+'
+'
+'
 \
 analysis_scriptdir
 =
@@ -640,13 +636,12 @@ sixgill_bin
 bindir
 }
 '
-"
-"
-"
+'
+'
+'
 .
 format
 (
-                
 scriptdir
 =
 scriptdir
@@ -657,15 +652,12 @@ self
 cfg
 .
 sixgill_bin
-            
 )
-        
 )
         
 cmd
 =
 [
-            
 os
 .
 path
@@ -679,23 +671,20 @@ analyze
 py
 "
 )
-            
-"
+'
 -
 v
-"
+'
 if
 self
 .
 verbose
 else
-"
+'
 -
 q
-"
-            
+'
 phase
-        
 ]
         
 if
@@ -925,12 +914,10 @@ self
 return
 set
 (
-            
 self
 .
 load_text_file
 (
-                
 "
 limitedFunctions
 .
@@ -945,15 +932,13 @@ l
 .
 split
 (
-"
-"
+'
+'
 )
 [
 1
 ]
-            
 )
-        
 )
     
 def
@@ -977,7 +962,7 @@ re
 match
 (
 r
-"
+'
 ^
 (
 GC
@@ -990,7 +975,7 @@ w
 .
 *
 )
-"
+'
 line
 )
             
@@ -1007,9 +992,9 @@ group
 1
 )
 +
-"
+'
 s
-"
+'
 m
 .
 group
@@ -1036,16 +1021,14 @@ self
 .
 load_text_file
 (
-            
-"
+'
 gcTypes
 .
 txt
-"
+'
 extract
 =
 grab_type
-        
 )
 :
             
@@ -1115,11 +1098,11 @@ self
 .
 load_text_file
 (
-"
+'
 gcFunctions
 .
 lst
-"
+'
 extract
 =
 extract_unmangled
@@ -1140,9 +1123,9 @@ Callgraph
 functionNames
 =
 [
-"
+'
 dummy
-"
+'
 ]
             
 nameToId
@@ -1296,9 +1279,9 @@ line
 .
 startswith
 (
-"
+'
 #
-"
+'
 )
 :
                 
@@ -1346,9 +1329,9 @@ line
 .
 startswith
 (
-"
+'
 =
-"
+'
 )
 :
                 
@@ -1359,7 +1342,7 @@ re
 match
 (
 r
-"
+'
 ^
 =
 (
@@ -1371,7 +1354,7 @@ d
 .
 *
 )
-"
+'
 line
 )
                 
@@ -1441,7 +1424,7 @@ re
 match
 (
 r
-"
+'
 ^
 \
 w
@@ -1456,7 +1439,7 @@ d
 )
 )
 ?
-"
+'
 line
 )
             
@@ -1480,8 +1463,8 @@ line
 .
 split
 (
-"
-"
+'
+'
 )
             
 if
@@ -1491,12 +1474,12 @@ tokens
 ]
 in
 (
-"
+'
 D
-"
-"
+'
+'
 R
-"
+'
 )
 :
                 
@@ -1526,9 +1509,9 @@ tokens
 ]
 =
 =
-"
+'
 T
-"
+'
 :
                 
 data
@@ -1547,8 +1530,8 @@ line
 .
 split
 (
-"
-"
+'
+'
 2
 )
 [
@@ -1563,12 +1546,12 @@ tokens
 ]
 in
 (
-"
+'
 F
-"
-"
+'
+'
 V
-"
+'
 )
 :
                 
@@ -1579,7 +1562,7 @@ re
 match
 (
 r
-"
+'
 ^
 [
 FV
@@ -1605,7 +1588,7 @@ FIELD
 .
 *
 )
-"
+'
 line
 )
                 
@@ -1640,9 +1623,9 @@ tokens
 ]
 =
 =
-"
+'
 I
-"
+'
 :
                 
 m
@@ -1652,7 +1635,7 @@ re
 match
 (
 r
-"
+'
 ^
 I
 (
@@ -1668,7 +1651,7 @@ VARIABLE
 ]
 *
 )
-"
+'
 line
 )
                 
@@ -1678,11 +1661,11 @@ self
 .
 load_text_file
 (
-"
+'
 callgraph
 .
 txt
-"
+'
 extract
 =
 process
@@ -1757,9 +1740,7 @@ at
 *
 )
 "
-                
 line
-            
 )
             
 if
@@ -1832,11 +1813,11 @@ self
 .
 load_text_file
 (
-"
+'
 rootingHazards
 .
 txt
-"
+'
 extract
 =
 grab_hazard

@@ -132,11 +132,11 @@ self
 .
 device_serial
 =
-"
+'
 emulator
 -
 5554
-"
+'
             
 self
 .
@@ -157,9 +157,9 @@ self
 .
 _adb_path
 =
-"
+'
 adb
-"
+'
         
 self
 .
@@ -236,7 +236,7 @@ no
 op
 because
 the
-        
+           
 setup
 for
 wrench
@@ -279,9 +279,9 @@ abs_dirs
         
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
 =
 os
@@ -305,18 +305,18 @@ environ
 .
 get
 (
-"
+'
 MOZ_AUTOMATION
-"
-"
+'
+'
 0
-"
+'
 )
 =
 =
-"
+'
 1
-"
+'
 :
             
 parent_abs_dirs
@@ -332,32 +332,32 @@ query_abs_dirs
 )
             
 if
-"
+'
 abs_work_dir
-"
+'
 in
 parent_abs_dirs
 :
                 
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
 =
 parent_abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
         
 abs_dirs
 [
-"
+'
 abs_avds_dir
-"
+'
 ]
 =
 os
@@ -366,22 +366,23 @@ path
 .
 join
 (
+            
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 avds
-"
+'
 )
         
 abs_dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
 =
 os
@@ -390,22 +391,23 @@ path
 .
 join
 (
+            
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 logs
-"
+'
 )
         
 abs_dirs
 [
-"
+'
 abs_apk_path
-"
+'
 ]
 =
 os
@@ -415,10 +417,11 @@ environ
 get
 (
             
-"
+'
 WRENCH_APK
-"
-"
+'
+            
+'
 gfx
 /
 wr
@@ -436,15 +439,14 @@ apk
 wrench
 .
 apk
-"
-        
+'
 )
         
 abs_dirs
 [
-"
+'
 abs_reftests_path
-"
+'
 ]
 =
 os
@@ -454,10 +456,11 @@ environ
 get
 (
             
-"
+'
 WRENCH_REFTESTS
-"
-"
+'
+            
+'
 gfx
 /
 wr
@@ -465,8 +468,7 @@ wr
 wrench
 /
 reftests
-"
-        
+'
 )
         
 if
@@ -476,18 +478,18 @@ environ
 .
 get
 (
-"
+'
 MOZ_AUTOMATION
-"
-"
+'
+'
 0
-"
+'
 )
 =
 =
-"
+'
 1
-"
+'
 :
             
 fetches_dir
@@ -498,9 +500,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_FETCHES_DIR
-"
+'
 )
             
 if
@@ -513,9 +515,9 @@ fetches_dir
                 
 abs_dirs
 [
-"
+'
 abs_sdk_dir
-"
+'
 ]
 =
 os
@@ -525,13 +527,14 @@ path
 join
 (
 fetches_dir
-"
+                                                       
+'
 android
 -
 sdk
 -
 linux
-"
+'
 )
             
 else
@@ -539,9 +542,9 @@ else
                 
 abs_dirs
 [
-"
+'
 abs_sdk_dir
-"
+'
 ]
 =
 os
@@ -550,21 +553,20 @@ path
 .
 join
 (
-                    
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+                                                       
+'
 android
 -
 sdk
 -
 linux
-"
-                
+'
 )
         
 else
@@ -579,23 +581,23 @@ environ
 get
 (
                 
-"
+'
 MOZBUILD_STATE_PATH
-"
+'
+                
 os
 .
 path
 .
 expanduser
 (
-"
+'
 ~
 /
 .
 mozbuild
-"
+'
 )
-            
 )
             
 mozbuild_sdk
@@ -607,9 +609,10 @@ environ
 get
 (
                 
-"
+'
 ANDROID_SDK_HOME
-"
+'
+                
 os
 .
 path
@@ -617,22 +620,21 @@ path
 join
 (
 mozbuild_path
-"
+'
 android
 -
 sdk
 -
 linux
-"
+'
 )
-            
 )
             
 abs_dirs
 [
-"
+'
 abs_sdk_dir
-"
+'
 ]
 =
 mozbuild_sdk
@@ -671,7 +673,7 @@ pre
 -
 existing
 logcat
-        
+           
 is
 cleared
 before
@@ -685,7 +687,7 @@ logcat
 This
 is
 helpful
-        
+           
 when
 running
 multiple
@@ -705,28 +707,28 @@ logcat_cmd
 self
 .
 adb_path
-"
+'
 -
 s
-"
+'
 self
 .
 device_serial
-"
+'
 logcat
-"
-"
+'
+'
 -
 c
-"
+'
 ]
         
 self
 .
 info
 (
-"
-"
+'
+'
 .
 join
 (
@@ -923,12 +925,12 @@ device
 .
 rm
 (
-"
+'
 /
 sdcard
 /
 wrench
-"
+'
 recursive
 =
 True
@@ -943,12 +945,12 @@ device
 .
 mkdir
 (
-"
+'
 /
 sdcard
 /
 wrench
-"
+'
 parents
 =
 True
@@ -960,26 +962,24 @@ device
 .
 push
 (
-            
 self
 .
 query_abs_dirs
 (
 )
 [
-"
+'
 abs_reftests_path
-"
+'
 ]
-"
+'
 /
 sdcard
 /
 wrench
 /
 reftests
-"
-        
+'
 )
         
 args_file
@@ -990,15 +990,16 @@ path
 .
 join
 (
+            
 self
 .
 query_abs_dirs
 (
 )
 [
-"
+'
 abs_work_dir
-"
+'
 ]
 "
 wrench_args
@@ -1009,9 +1010,9 @@ with
 open
 (
 args_file
-"
+'
 w
-"
+'
 )
 as
 argfile
@@ -1072,14 +1073,14 @@ device
 push
 (
 args_file
-"
+'
 /
 sdcard
 /
 wrench
 /
 args
-"
+'
 )
     
 def
@@ -1105,28 +1106,27 @@ launch_application
             
 app_name
 =
-"
+'
 org
 .
 mozilla
 .
 wrench
-"
+'
             
 activity_name
 =
-"
+'
 android
 .
 app
 .
 NativeActivity
-"
+'
             
 intent
 =
 None
-        
 )
         
 self
@@ -1145,13 +1145,13 @@ self
 .
 wait_until_process_done
 (
-"
+'
 org
 .
 mozilla
 .
 wrench
-"
+'
 timeout
 =
 60
@@ -1205,7 +1205,7 @@ but
 for
 convenience
 we
-        
+           
 want
 it
 to
@@ -1224,7 +1224,7 @@ out
 of
 the
 logcat
-        
+           
 and
 dump
 it
@@ -1240,7 +1240,7 @@ output
 from
 wrench
 goes
-        
+           
 through
 the
 cargo
@@ -1252,7 +1252,7 @@ which
 uses
 the
 RustAndroidGlueStdouterr
-        
+           
 tag
 on
 the
@@ -1267,7 +1267,7 @@ length
 to
 512
 bytes
-        
+           
 (
 including
 the
@@ -1281,7 +1281,7 @@ unexpected
 -
 fail
 output
-        
+           
 this
 means
 that
@@ -1293,7 +1293,7 @@ gets
 wrapped
 over
 multiple
-        
+           
 lines
 so
 part
@@ -1308,7 +1308,7 @@ that
 so
 that
 the
-        
+           
 resulting
 log
 is
@@ -1330,9 +1330,9 @@ self
 logcat_path
 (
 )
-"
+'
 r
-"
+'
 )
 as
 f
@@ -1409,12 +1409,9 @@ rstrip
 )
                 
 if
-(
-                    
 long_line
 is
 None
-                    
 and
 "
 REFTEST
@@ -1422,7 +1419,6 @@ REFTEST
 not
 in
 line
-                    
 and
 "
 panicked
@@ -1430,8 +1426,6 @@ panicked
 not
 in
 line
-                
-)
 :
                     
 continue
@@ -1578,9 +1572,9 @@ query_abs_dirs
 (
 )
 [
-"
+'
 abs_avds_dir
-"
+'
 ]
 )
 :
@@ -1599,9 +1593,9 @@ query_abs_dirs
 (
 )
 [
-"
+'
 abs_sdk_dir
-"
+'
 ]
         
 if
@@ -1620,7 +1614,7 @@ self
 .
 error
 (
-"
+'
 Unable
 to
 find
@@ -1629,7 +1623,7 @@ SDK
 at
 %
 s
-"
+'
 %
 sdk_path
 )
@@ -1643,18 +1637,18 @@ environ
 .
 get
 (
-"
+'
 MOZ_AUTOMATION
-"
-"
+'
+'
 0
-"
+'
 )
 =
 =
-"
+'
 1
-"
+'
 :
             
 self
@@ -1701,14 +1695,14 @@ self
 .
 info
 (
-"
+'
 Logging
 device
 properties
 .
 .
 .
-"
+'
 )
         
 self
@@ -1719,9 +1713,9 @@ self
 .
 shell_output
 (
-"
+'
 getprop
-"
+'
 )
 )
         
@@ -1729,13 +1723,13 @@ self
 .
 info
 (
-"
+'
 Installing
 APK
 .
 .
 .
-"
+'
 )
         
 self
@@ -1748,9 +1742,9 @@ query_abs_dirs
 (
 )
 [
-"
+'
 abs_apk_path
-"
+'
 ]
 replace
 =
@@ -1761,7 +1755,7 @@ self
 .
 info
 (
-"
+'
 Setting
 up
 SD
@@ -1769,7 +1763,7 @@ card
 .
 .
 .
-"
+'
 )
         
 self
@@ -1782,13 +1776,13 @@ self
 .
 info
 (
-"
+'
 Running
 tests
 .
 .
 .
-"
+'
 )
         
 self
@@ -1801,7 +1795,7 @@ self
 .
 info
 (
-"
+'
 Tests
 done
 ;
@@ -1810,7 +1804,7 @@ logcat
 .
 .
 .
-"
+'
 )
         
 self
@@ -1829,11 +1823,11 @@ self
 .
 info
 (
-"
+'
 All
 done
 !
-"
+'
 )
     
 def
@@ -1877,9 +1871,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 test

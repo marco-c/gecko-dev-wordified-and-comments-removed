@@ -1,5 +1,7 @@
 class
 Atom
+(
+)
 :
     
 def
@@ -263,16 +265,16 @@ if
 c
 >
 =
-"
+'
 A
-"
+'
 and
 c
 <
 =
-"
+'
 Z
-"
+'
 :
             
 return

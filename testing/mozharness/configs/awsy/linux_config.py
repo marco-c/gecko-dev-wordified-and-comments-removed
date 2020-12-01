@@ -13,14 +13,14 @@ python
 "
 VENV_PATH
 =
-"
+'
 %
 s
 /
 build
 /
 venv
-"
+'
 %
 os
 .
@@ -123,6 +123,7 @@ exes
 "
 :
 {
+    
 }
     
 "
@@ -144,9 +145,9 @@ lower
 .
 split
 (
-"
+'
 .
-"
+'
 )
 [
 0

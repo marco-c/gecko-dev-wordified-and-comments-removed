@@ -19,9 +19,9 @@ subprocess
 check_call
 (
 [
-"
+'
 unzip
-"
+'
 package
 ]
 )
@@ -44,7 +44,7 @@ args
         
 print
 (
-"
+'
 Usage
 :
 make_unzip
@@ -53,7 +53,8 @@ py
 <
 package
 >
-"
+'
+              
 file
 =
 sys
@@ -81,9 +82,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 sys

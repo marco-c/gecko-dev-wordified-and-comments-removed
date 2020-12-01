@@ -48,9 +48,9 @@ tmpdir
 .
 join
 (
-"
+'
 stackwalk
-"
+'
 )
     
 assert
@@ -65,6 +65,7 @@ fspath
 (
 stackwalk
 )
+                                  
 quiet
 =
 False
@@ -117,9 +118,9 @@ os
 .
 environ
 [
-"
+'
 MINIDUMP_STACKWALK
-"
+'
 ]
 =
 fspath
@@ -149,9 +150,9 @@ os
 .
 environ
 [
-"
+'
 MINIDUMP_STACKWALK
-"
+'
 ]
 def
 test_stackwalk_unicode
@@ -192,19 +193,19 @@ u
 .
 join
 (
-"
+'
 stackwalk
-"
+'
 )
     
 stackwalk
 .
 write
 (
-"
+'
 fake
 binary
-"
+'
 )
     
 stackwalk
@@ -226,6 +227,7 @@ fspath
 (
 stackwalk
 )
+                                  
 quiet
 =
 False
@@ -251,9 +253,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

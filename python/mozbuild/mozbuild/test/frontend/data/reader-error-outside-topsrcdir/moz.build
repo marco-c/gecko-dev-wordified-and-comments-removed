@@ -1,6 +1,6 @@
 include
 (
-"
+'
 .
 .
 /
@@ -11,5 +11,5 @@ basic
 moz
 .
 build
-"
+'
 )

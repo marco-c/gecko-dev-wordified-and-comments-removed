@@ -62,11 +62,11 @@ dep_job
 =
 job
 [
-"
+'
 primary
 -
 dependency
-"
+'
 ]
         
 locale
@@ -77,9 +77,9 @@ attributes
 .
 get
 (
-"
+'
 locale
-"
+'
 )
         
 if
@@ -94,9 +94,9 @@ continue
         
 group
 =
-"
+'
 BMR
-"
+'
         
 symbol
 =
@@ -106,9 +106,9 @@ treeherder
 =
 {
             
-"
+'
 symbol
-"
+'
 :
 join_symbol
 (
@@ -122,91 +122,91 @@ beet_description
 =
 {
             
-"
+'
 label
-"
+'
 :
 job
 [
-"
+'
 label
-"
+'
 ]
             
-"
+'
 primary
 -
 dependency
-"
+'
 :
 dep_job
             
-"
+'
 dependent
 -
 tasks
-"
+'
 :
 job
 [
-"
+'
 dependent
 -
 tasks
-"
+'
 ]
             
-"
+'
 attributes
-"
+'
 :
 job
 [
-"
+'
 attributes
-"
+'
 ]
             
-"
+'
 treeherder
-"
+'
 :
 treeherder
             
-"
+'
 locale
-"
+'
 :
 locale
             
-"
+'
 shipping
 -
 phase
-"
+'
 :
 job
 [
-"
+'
 shipping
 -
 phase
-"
+'
 ]
             
-"
+'
 shipping
 -
 product
-"
+'
 :
 job
 [
-"
+'
 shipping
 -
 product
-"
+'
 ]
         
 }

@@ -46,25 +46,25 @@ TBPL_WORST_LEVEL_TUPLE
 SUITE_CATEGORIES
 =
 [
-"
+'
 mochitest
-"
-"
+'
+'
 reftest
-"
-"
+'
+'
 xpcshell
-"
+'
 ]
 def
 tbox_print_summary
 (
-    
 pass_count
 fail_count
 known_fail_count
 =
 None
+                       
 crashed
 =
 False
@@ -94,18 +94,16 @@ em
 '
     
 if
-(
-        
 pass_count
 <
 0
-        
 or
 fail_count
 <
 0
-        
 or
+\
+            
 (
 known_fail_count
 is
@@ -116,35 +114,31 @@ known_fail_count
 <
 0
 )
-    
-)
 :
         
 summary
 =
 emphasize_fail_text
 %
-"
+'
 T
 -
 FAIL
-"
+'
     
 elif
-(
-        
 pass_count
 =
 =
 0
-        
 and
 fail_count
 =
 =
 0
-        
 and
+\
+            
 (
 known_fail_count
 =
@@ -155,19 +149,17 @@ known_fail_count
 is
 None
 )
-    
-)
 :
         
 summary
 =
 emphasize_fail_text
 %
-"
+'
 T
 -
 FAIL
-"
+'
     
 else
 :
@@ -266,6 +258,7 @@ s
 emphasize_fail_text
 %
 (
+            
 (
 leaked
 and
@@ -301,7 +294,7 @@ re
 compile
 (
 r
-"
+'
 (
 passed
 |
@@ -315,7 +308,7 @@ todo
 d
 +
 )
-"
+'
 )
 *
 *
@@ -763,10 +756,10 @@ TinderBoxPrintRe
 .
 get
 (
-"
+'
 %
 s_summary
-"
+'
 %
 suite_category
 {
@@ -779,14 +772,14 @@ harness_error_re
 =
 TinderBoxPrintRe
 [
-"
+'
 harness_error
-"
+'
 ]
 [
-"
+'
 minimum_regex
-"
+'
 ]
         
 self
@@ -795,14 +788,14 @@ full_harness_error_re
 =
 TinderBoxPrintRe
 [
-"
+'
 harness_error
-"
+'
 ]
 [
-"
+'
 full_regex
-"
+'
 ]
         
 self
@@ -811,14 +804,14 @@ harness_retry_re
 =
 TinderBoxPrintRe
 [
-"
+'
 harness_error
-"
+'
 ]
 [
-"
+'
 retry_regex
-"
+'
 ]
         
 self
@@ -845,9 +838,9 @@ summary_suite_re
 .
 get
 (
-"
+'
 known_fail_group
-"
+'
 )
 and
 -
@@ -889,9 +882,9 @@ self
 .
 summary_suite_re
 [
-"
+'
 regex
-"
+'
 ]
 .
 match
@@ -905,10 +898,10 @@ summary_m
                 
 message
 =
-"
+'
 %
 s
-"
+'
 %
 line
                 
@@ -919,7 +912,6 @@ INFO
 summary_match_list
 =
 [
-                    
 group
 for
 group
@@ -929,12 +921,12 @@ summary_m
 groups
 (
 )
+                                      
 if
 group
 is
 not
 None
-                
 ]
                 
 r
@@ -949,9 +941,9 @@ self
 .
 summary_suite_re
 [
-"
+'
 pass_group
-"
+'
 ]
 in
 r
@@ -999,9 +991,9 @@ self
 .
 summary_suite_re
 [
-"
+'
 fail_group
-"
+'
 ]
 in
 r
@@ -1031,7 +1023,7 @@ fail_count
 message
 +
 =
-"
+'
 \
 n
 One
@@ -1040,7 +1032,7 @@ more
 unittests
 failed
 .
-"
+'
                         
 log_level
 =
@@ -1051,9 +1043,9 @@ self
 .
 summary_suite_re
 [
-"
+'
 known_fail_group
-"
+'
 ]
 in
 r
@@ -1101,10 +1093,10 @@ self
 .
 warning
 (
-"
+'
 %
 s
-"
+'
 %
 line
 )
@@ -1131,15 +1123,14 @@ self
 .
 worst_level
 (
-                
 TBPL_WARNING
 self
 .
 tbpl_status
+                                                
 levels
 =
 TBPL_WORST_LEVEL_TUPLE
-            
 )
             
 full_harness_match
@@ -1229,10 +1220,10 @@ self
 .
 critical
 (
-"
+'
 %
 s
-"
+'
 %
 line
 )
@@ -1259,15 +1250,14 @@ self
 .
 worst_level
 (
-                
 TBPL_RETRY
 self
 .
 tbpl_status
+                                                
 levels
 =
 TBPL_WORST_LEVEL_TUPLE
-            
 )
             
 return
@@ -1319,15 +1309,14 @@ self
 .
 worst_level
 (
-                
 TBPL_FAILURE
 self
 .
 tbpl_status
+                                                
 levels
 =
 TBPL_WORST_LEVEL_TUPLE
-            
 )
         
 "
@@ -1393,9 +1382,9 @@ results
 joined_summary
 =
 {
-"
+'
 pass_count
-"
+'
 :
 self
 .
@@ -1461,27 +1450,24 @@ self
 .
 worst_level
 (
-                
 TBPL_WARNING
 self
 .
 tbpl_status
+                                                
 levels
 =
 TBPL_WORST_LEVEL_TUPLE
-            
 )
         
 if
 (
-            
 self
 .
 pass_count
 <
 =
 0
-            
 and
 self
 .
@@ -1489,8 +1475,8 @@ fail_count
 <
 =
 0
-            
 and
+           
 (
 self
 .
@@ -1505,24 +1491,23 @@ known_fail_count
 =
 0
 )
-            
 and
+           
 os
 .
 environ
 .
 get
 (
-"
+'
 TRY_SELECTOR
-"
+'
 )
 !
 =
-"
+'
 coverage
-"
-        
+'
 )
 :
             
@@ -1530,7 +1515,7 @@ self
 .
 error
 (
-"
+'
 No
 tests
 run
@@ -1539,7 +1524,7 @@ test
 summary
 not
 found
-"
+'
 )
             
 self
@@ -1551,6 +1536,7 @@ self
 worst_level
 (
 WARNING
+                                                    
 self
 .
 worst_log_level
@@ -1564,15 +1550,15 @@ self
 .
 worst_level
 (
-                
 TBPL_WARNING
+                                                
 self
 .
 tbpl_status
+                                                
 levels
 =
 TBPL_WORST_LEVEL_TUPLE
-            
 )
         
 if
@@ -1590,15 +1576,14 @@ self
 .
 worst_level
 (
-                
 TBPL_FAILURE
 self
 .
 tbpl_status
+                                                
 levels
 =
 TBPL_WORST_LEVEL_TUPLE
-            
 )
         
 return
@@ -1624,27 +1609,25 @@ summary
 =
 tbox_print_summary
 (
-            
 self
 .
 pass_count
-            
+                                     
 self
 .
 fail_count
-            
+                                     
 self
 .
 known_fail_count
-            
+                                     
 self
 .
 crashed
-            
+                                     
 self
 .
 leaked
-        
 )
         
 self

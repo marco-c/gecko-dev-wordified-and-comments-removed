@@ -73,9 +73,9 @@ path
 .
 count
 (
-"
+'
 :
-"
+'
 )
 !
 =
@@ -109,7 +109,6 @@ format
 (
 path
 )
-        
 )
     
 modulepath
@@ -119,9 +118,9 @@ path
 .
 split
 (
-"
+'
 :
-"
+'
 )
     
 obj
@@ -138,9 +137,9 @@ modulepath
 .
 split
 (
-"
+'
 .
-"
+'
 )
 [
 1
@@ -163,9 +162,9 @@ objectpath
 .
 split
 (
-"
+'
 .
-"
+'
 )
 :
         
@@ -278,11 +277,11 @@ excs
 set
 (
 [
-"
+'
 __init__
 .
 py
-"
+'
 name
 ]
 )
@@ -310,11 +309,11 @@ name
 .
 startswith
 (
-"
+'
 __init__
 .
 py
-"
+'
 )
 :
         
@@ -324,9 +323,9 @@ modpath
 .
 rsplit
 (
-"
+'
 .
-"
+'
 1
 )
 [
@@ -358,10 +357,10 @@ f
 .
 endswith
 (
-"
+'
 .
 py
-"
+'
 )
 and
 f
@@ -374,9 +373,9 @@ __import__
 (
 modpath
 +
-"
+'
 .
-"
+'
 +
 f
 [

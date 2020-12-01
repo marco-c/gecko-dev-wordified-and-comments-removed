@@ -11,7 +11,6 @@ output
 .
 write
 (
-        
 "
 /
 *
@@ -34,7 +33,6 @@ n
 \
 n
 "
-    
 )
     
 OS_TARGET
@@ -52,7 +50,7 @@ output
 .
 write
 (
-'
+"
 pub
 const
 OS_TARGET
@@ -60,14 +58,16 @@ OS_TARGET
 &
 str
 =
+\
 "
 {
 }
+\
 "
 ;
 \
 n
-'
+"
 .
 format
 (
@@ -90,7 +90,7 @@ output
 .
 write
 (
-'
+"
 pub
 const
 TARGET_XPCOM_ABI
@@ -98,14 +98,16 @@ TARGET_XPCOM_ABI
 &
 str
 =
+\
 "
 {
 }
+\
 "
 ;
 \
 n
-'
+"
 .
 format
 (
@@ -173,7 +175,7 @@ output
 .
 write
 (
-'
+"
 pub
 const
 GRE_MILESTONE
@@ -181,14 +183,16 @@ GRE_MILESTONE
 &
 str
 =
+\
 "
 {
 }
+\
 "
 ;
 \
 n
-'
+"
 .
 format
 (

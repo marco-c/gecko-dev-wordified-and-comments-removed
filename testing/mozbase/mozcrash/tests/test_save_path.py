@@ -344,9 +344,9 @@ os
 .
 environ
 [
-"
+'
 MINIDUMP_SAVE_PATH
-"
+'
 ]
 =
 fspath
@@ -376,9 +376,9 @@ os
 .
 environ
 [
-"
+'
 MINIDUMP_SAVE_PATH
-"
+'
 ]
     
 assert
@@ -430,9 +430,9 @@ mark
 .
 parametrize
 (
-"
+'
 minidump_files
-"
+'
 [
 3
 ]
@@ -544,9 +544,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

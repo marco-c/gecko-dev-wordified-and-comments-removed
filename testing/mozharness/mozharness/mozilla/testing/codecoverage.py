@@ -48,7 +48,6 @@ code_coverage_config_options
 [
     
 [
-        
 [
 "
 -
@@ -58,9 +57,8 @@ code
 coverage
 "
 ]
-        
+     
 {
-            
 "
 action
 "
@@ -68,7 +66,7 @@ action
 "
 store_true
 "
-            
+      
 "
 dest
 "
@@ -76,13 +74,13 @@ dest
 "
 code_coverage
 "
-            
+      
 "
 default
 "
 :
 False
-            
+      
 "
 help
 "
@@ -100,13 +98,11 @@ be
 run
 .
 "
-        
+      
 }
-    
 ]
     
 [
-        
 [
 "
 -
@@ -118,9 +114,8 @@ test
 coverage
 "
 ]
-        
+     
 {
-            
 "
 action
 "
@@ -128,7 +123,7 @@ action
 "
 store_true
 "
-            
+      
 "
 dest
 "
@@ -136,13 +131,13 @@ dest
 "
 per_test_coverage
 "
-            
+      
 "
 default
 "
 :
 False
-            
+      
 "
 help
 "
@@ -158,13 +153,11 @@ be
 collected
 .
 "
-        
+      
 }
-    
 ]
     
 [
-        
 [
 "
 -
@@ -176,9 +169,8 @@ ccov
 upload
 "
 ]
-        
+     
 {
-            
 "
 action
 "
@@ -186,7 +178,7 @@ action
 "
 store_true
 "
-            
+      
 "
 dest
 "
@@ -194,13 +186,13 @@ dest
 "
 disable_ccov_upload
 "
-            
+      
 "
 default
 "
 :
 False
-            
+      
 "
 help
 "
@@ -218,13 +210,11 @@ coverage
 data
 .
 "
-        
+      
 }
-    
 ]
     
 [
-        
 [
 "
 -
@@ -236,9 +226,8 @@ code
 coverage
 "
 ]
-        
+     
 {
-            
 "
 action
 "
@@ -246,7 +235,7 @@ action
 "
 store_true
 "
-            
+      
 "
 dest
 "
@@ -254,13 +243,13 @@ dest
 "
 java_code_coverage
 "
-            
+      
 "
 default
 "
 :
 False
-            
+      
 "
 help
 "
@@ -275,9 +264,8 @@ be
 run
 .
 "
-        
+      
 }
-    
 ]
 ]
 class
@@ -358,27 +346,27 @@ mozinfo
 os
 =
 =
-"
+'
 linux
-"
+'
 or
 mozinfo
 .
 os
 =
 =
-"
+'
 mac
-"
+'
 :
             
 self
 .
 grcov_bin
 =
-"
+'
 grcov
-"
+'
         
 elif
 mozinfo
@@ -386,20 +374,20 @@ mozinfo
 os
 =
 =
-"
+'
 win
-"
+'
 :
             
 self
 .
 grcov_bin
 =
-"
+'
 grcov
 .
 exe
-"
+'
         
 else
 :
@@ -407,13 +395,13 @@ else
 raise
 Exception
 (
-"
+'
 Unexpected
 OS
 :
 {
 }
-"
+'
 .
 format
 (
@@ -457,9 +445,9 @@ config
 .
 get
 (
-"
+'
 code_coverage
-"
+'
 )
 )
         
@@ -495,9 +483,9 @@ config
 .
 get
 (
-"
+'
 per_test_coverage
-"
+'
 )
 )
         
@@ -533,9 +521,9 @@ config
 .
 get
 (
-"
+'
 disable_ccov_upload
-"
+'
 )
 )
         
@@ -571,9 +559,9 @@ config
 .
 get
 (
-"
+'
 jsd_code_coverage
-"
+'
 )
 )
         
@@ -609,9 +597,9 @@ config
 .
 get
 (
-"
+'
 java_code_coverage
-"
+'
 )
 )
         
@@ -639,25 +627,25 @@ mozinfo
 os
 =
 =
-"
+'
 linux
-"
+'
 or
 mozinfo
 .
 os
 =
 =
-"
+'
 mac
-"
+'
 :
             
 self
 .
 prefix
 =
-"
+'
 /
 builds
 /
@@ -666,7 +654,7 @@ worker
 checkouts
 /
 gecko
-"
+'
         
 elif
 mozinfo
@@ -674,16 +662,16 @@ mozinfo
 os
 =
 =
-"
+'
 win
-"
+'
 :
             
 self
 .
 prefix
 =
-"
+'
 z
 :
 /
@@ -693,7 +681,7 @@ build
 /
 src
 /
-"
+'
         
 else
 :
@@ -701,13 +689,13 @@ else
 raise
 Exception
 (
-"
+'
 Unexpected
 OS
 :
 {
 }
-"
+'
 .
 format
 (
@@ -730,9 +718,9 @@ prefix
 .
 split
 (
-"
+'
 /
-"
+'
 )
 )
 )
@@ -741,9 +729,9 @@ os
 .
 environ
 [
-"
+'
 GCOV_PREFIX_STRIP
-"
+'
 ]
 =
 str
@@ -757,7 +745,7 @@ self
 .
 query_build_dir_url
 (
-"
+'
 target
 .
 code
@@ -767,7 +755,7 @@ coverage
 gcno
 .
 zip
-"
+'
 )
         
 self
@@ -788,13 +776,13 @@ self
 .
 query_build_dir_url
 (
-"
+'
 chrome
 -
 map
 .
 json
-"
+'
 )
         
 self
@@ -822,7 +810,7 @@ self
 .
 query_build_dir_url
 (
-"
+'
 target
 .
 jacoco
@@ -830,7 +818,7 @@ jacoco
 cli
 .
 jar
-"
+'
 )
         
 self
@@ -848,7 +836,7 @@ tempfile
 mkdtemp
 (
 )
-"
+'
 target
 .
 jacoco
@@ -856,7 +844,7 @@ jacoco
 cli
 .
 jar
-"
+'
 )
         
 self
@@ -883,20 +871,20 @@ for
 archive
 in
 [
-"
+'
 target
 .
 geckoview_classfiles
 .
 zip
-"
-"
+'
+'
 target
 .
 app_classfiles
 .
 zip
-"
+'
 ]
 :
             
@@ -937,9 +925,9 @@ zipfile
 ZipFile
 (
 classfiles_zip_path
-"
+'
 r
-"
+'
 )
 as
 z
@@ -973,13 +961,13 @@ mkdtemp
     
 PostScriptAction
 (
-"
+'
 download
 -
 and
 -
 extract
-"
+'
 )
     
 def
@@ -1015,9 +1003,9 @@ os
 .
 environ
 [
-"
+'
 MOZ_FETCHES_DIR
-"
+'
 ]
         
 if
@@ -1047,19 +1035,18 @@ grcov_bin
 raise
 Exception
 (
-                
-"
+'
 File
 not
 found
 :
 {
 }
-"
+'
 .
 format
 (
-                    
+                
 os
 .
 path
@@ -1073,9 +1060,7 @@ self
 .
 grcov_bin
 )
-                
 )
-            
 )
         
 if
@@ -1104,13 +1089,13 @@ _setup_java_coverage_tools
     
 PostScriptAction
 (
-"
+'
 download
 -
 and
 -
 extract
-"
+'
 )
     
 def
@@ -1127,7 +1112,7 @@ None
 "
 "
 "
-        
+           
 For
 each
 file
@@ -1140,7 +1125,7 @@ if
 the
 modified
 file
-        
+           
 is
 a
 test
@@ -1153,7 +1138,7 @@ Populate
 self
 .
 verify_suites
-        
+           
 with
 test
 files
@@ -1161,7 +1146,7 @@ organized
 by
 suite
 .
-        
+           
 This
 depends
 on
@@ -1175,7 +1160,7 @@ after
 test
 zips
 have
-        
+           
 been
 downloaded
 and
@@ -1205,18 +1190,18 @@ baseline_tests_by_ext
 =
 {
             
-"
+'
 .
 html
-"
+'
 :
 {
                 
-"
+'
 test
-"
+'
 :
-"
+'
 testing
 /
 mochitest
@@ -1228,32 +1213,32 @@ plain
 test_baselinecoverage
 .
 html
-"
+'
                 
-"
+'
 suite
-"
+'
 :
-"
+'
 mochitest
 -
 plain
-"
+'
             
 }
             
-"
+'
 .
 js
-"
+'
 :
 {
                 
-"
+'
 test
-"
+'
 :
-"
+'
 testing
 /
 mochitest
@@ -1265,34 +1250,34 @@ browser_chrome
 browser_baselinecoverage
 .
 js
-"
+'
                 
-"
+'
 suite
-"
+'
 :
-"
+'
 mochitest
 -
 browser
 -
 chrome
-"
+'
             
 }
             
-"
+'
 .
 xhtml
-"
+'
 :
 {
                 
-"
+'
 test
-"
+'
 :
-"
+'
 testing
 /
 mochitest
@@ -1304,17 +1289,17 @@ chrome
 test_baselinecoverage
 .
 xhtml
-"
+'
                 
-"
+'
 suite
-"
+'
 :
-"
+'
 mochitest
 -
 chrome
-"
+'
             
 }
         
@@ -1324,15 +1309,15 @@ baseline_tests_by_suite
 =
 {
             
-"
+'
 mochitest
 -
 browser
 -
 chrome
-"
+'
 :
-"
+'
 testing
 /
 mochitest
@@ -1341,21 +1326,21 @@ baselinecoverage
 /
 browser_chrome
 /
-"
-            
-"
+'
+                                        
+'
 browser_baselinecoverage_browser
 -
 chrome
 .
 js
-"
+'
         
 }
         
 wpt_baseline_test
 =
-"
+'
 tests
 /
 web
@@ -1371,7 +1356,7 @@ baselinecoverage
 wpt_baselinecoverage
 .
 html
-"
+'
         
 if
 self
@@ -1380,9 +1365,9 @@ config
 .
 get
 (
-"
+'
 per_test_category
-"
+'
 )
 =
 =
@@ -1394,9 +1379,9 @@ platform
 :
             
 if
-"
+'
 testharness
-"
+'
 not
 in
 self
@@ -1408,9 +1393,9 @@ self
 .
 suites
 [
-"
+'
 testharness
-"
+'
 ]
 =
 [
@@ -1424,9 +1409,9 @@ self
 .
 suites
 [
-"
+'
 testharness
-"
+'
 ]
 :
                 
@@ -1544,10 +1529,10 @@ baseline_tests_by_ext
                     
 test_ext
 =
-"
+'
 .
 js
-"
+'
                 
 baseline_test_suite
 =
@@ -1556,9 +1541,9 @@ baseline_tests_by_ext
 test_ext
 ]
 [
-"
+'
 suite
-"
+'
 ]
                 
 baseline_test_name
@@ -1568,9 +1553,9 @@ baseline_tests_by_ext
 test_ext
 ]
 [
-"
+'
 test
-"
+'
 ]
                 
 if
@@ -1702,9 +1687,9 @@ mkdtemp
         
 env
 [
-"
+'
 GCOV_PREFIX
-"
+'
 ]
 =
 self
@@ -1722,9 +1707,9 @@ is_baseline_test
             
 env
 [
-"
+'
 GCOV_RESULTS_DIR
-"
+'
 ]
 =
 tempfile
@@ -1735,9 +1720,9 @@ mkdtemp
             
 env
 [
-"
+'
 JSVM_RESULTS_DIR
-"
+'
 ]
 =
 tempfile
@@ -1758,9 +1743,9 @@ mkdtemp
         
 env
 [
-"
+'
 JS_CODE_COVERAGE_OUTPUT_DIR
-"
+'
 ]
 =
 self
@@ -1769,11 +1754,11 @@ jsvm_dir
     
 PreScriptAction
 (
-"
+'
 run
 -
 tests
-"
+'
 )
     
 def
@@ -1813,45 +1798,43 @@ environ
 def
 parse_coverage_artifacts
 (
-        
 self
-        
+                                 
 gcov_dir
-        
+                                 
 jsvm_dir
-        
+                                 
 merge
 =
 False
-        
+                                 
 output_format
 =
-"
+'
 lcov
-"
-        
+'
+                                 
 filter_covered
 =
 False
-    
 )
 :
         
 jsvm_output_file
 =
-"
+'
 jsvm_lcov_output
 .
 info
-"
+'
         
 grcov_output_file
 =
-"
+'
 grcov_lcov_output
 .
 info
-"
+'
         
 dirs
 =
@@ -1869,9 +1852,9 @@ append
 (
 dirs
 [
-"
+'
 abs_test_install_dir
-"
+'
 ]
 )
         
@@ -1889,13 +1872,13 @@ join
 (
 dirs
 [
-"
+'
 abs_test_install_dir
-"
+'
 ]
-"
+'
 mozbuild
-"
+'
 )
 )
         
@@ -1942,13 +1925,13 @@ join
 self
 .
 grcov_dir
-"
+'
 chrome
 -
 map
 .
 json
-"
+'
 )
 )
         
@@ -1958,8 +1941,8 @@ rewrite_files
 (
 jsvm_files
 jsvm_output_file
-"
-"
+'
+'
 )
         
 grcov_command
@@ -1980,43 +1963,39 @@ self
 grcov_bin
 )
             
-"
+'
 -
 t
-"
-            
+'
 output_format
             
-"
+'
 -
 p
-"
-            
+'
 self
 .
 prefix
             
-"
+'
 -
 -
 ignore
-"
-            
-"
+'
+'
 gcc
 *
-"
+'
             
-"
+'
 -
 -
 ignore
-"
-            
-"
+'
+'
 vs2017_
 *
-"
+'
             
 os
 .
@@ -2027,7 +2006,7 @@ join
 self
 .
 grcov_dir
-"
+'
 target
 .
 code
@@ -2037,17 +2016,16 @@ coverage
 gcno
 .
 zip
-"
+'
 )
-            
 gcov_dir
         
 ]
         
 if
-"
+'
 coveralls
-"
+'
 in
 output_format
 :
@@ -2056,24 +2034,24 @@ grcov_command
 +
 =
 [
-"
+'
 -
 -
 token
-"
-"
+'
+'
 UNUSED
-"
-"
+'
+'
 -
 -
 commit
 -
 sha
-"
-"
+'
+'
 UNUSED
-"
+'
 ]
         
 if
@@ -2093,29 +2071,29 @@ mozinfo
 os
 =
 =
-"
+'
 win
-"
+'
 or
 mozinfo
 .
 os
 =
 =
-"
+'
 mac
-"
+'
 :
             
 grcov_command
 +
 =
 [
-"
+'
 -
 -
 llvm
-"
+'
 ]
         
 if
@@ -2126,14 +2104,14 @@ grcov_command
 +
 =
 [
-"
+'
 -
 -
 filter
-"
-"
+'
+'
 covered
-"
+'
 ]
         
 tmp_output_file
@@ -2156,9 +2134,9 @@ True
             
 return_type
 =
-"
+'
 files
-"
+'
             
 throw_exception
 =
@@ -2221,18 +2199,16 @@ test
         
 gcov_dir
 =
-(
-            
 env
 [
-"
+'
 GCOV_RESULTS_DIR
-"
+'
 ]
 if
-"
+'
 GCOV_RESULTS_DIR
-"
+'
 in
 env
 else
@@ -2240,30 +2216,24 @@ self
 .
 gcov_dir
         
-)
-        
 jsvm_dir
 =
-(
-            
 env
 [
-"
+'
 JSVM_RESULTS_DIR
-"
+'
 ]
 if
-"
+'
 JSVM_RESULTS_DIR
-"
+'
 in
 env
 else
 self
 .
 jsvm_dir
-        
-)
         
 grcov_file
 =
@@ -2273,18 +2243,15 @@ parse_coverage_artifacts
 (
             
 gcov_dir
-            
 jsvm_dir
-            
 merge
 =
 True
-            
 output_format
 =
-"
+'
 coveralls
-"
+'
             
 filter_covered
 =
@@ -2303,10 +2270,10 @@ uuid4
 )
 )
 +
-"
+'
 .
 json
-"
+'
         
 shutil
 .
@@ -2413,17 +2380,17 @@ test
 report_file
         
 if
-"
+'
 GCOV_RESULTS_DIR
-"
+'
 in
 env
 :
             
 assert
-"
+'
 JSVM_RESULTS_DIR
-"
+'
 in
 env
             
@@ -2470,9 +2437,9 @@ c
 in
 sf
 [
-"
+'
 coverage
-"
+'
 ]
 )
         
@@ -2487,14 +2454,14 @@ functions
 =
 sf
 [
-"
+'
 functions
-"
+'
 ]
 if
-"
+'
 functions
-"
+'
 in
 sf
 else
@@ -2505,33 +2472,31 @@ all_functions_uncovered
 =
 all
 (
-            
 not
 f
 [
-"
+'
 exec
-"
+'
 ]
 or
 f
 [
-"
+'
 name
-"
+'
 ]
 =
 =
-"
+'
 top
 -
 level
-"
+'
 for
 f
 in
 functions
-        
 )
         
 if
@@ -2553,11 +2518,11 @@ True
     
 PostScriptAction
 (
-"
+'
 run
 -
 tests
-"
+'
 )
     
 def
@@ -2658,9 +2623,9 @@ items
 :
                     
 if
-"
+'
 baselinecoverage
-"
+'
 not
 in
 test
@@ -2672,9 +2637,9 @@ with
 open
 (
 grcov_file
-"
+'
 r
-"
+'
 )
 as
 f
@@ -2743,14 +2708,13 @@ path
 .
 join
 (
-                
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
-"
+'
 per
 -
 test
@@ -2760,8 +2724,7 @@ coverage
 reports
 .
 zip
-"
-            
+'
 )
             
 with
@@ -2770,9 +2733,9 @@ zipfile
 ZipFile
 (
 dest
-"
+'
 w
-"
+'
 zipfile
 .
 ZIP_DEFLATED
@@ -2806,9 +2769,9 @@ items
 :
                         
 if
-"
+'
 baselinecoverage
-"
+'
 in
 test
 :
@@ -2822,9 +2785,9 @@ with
 open
 (
 grcov_file
-"
+'
 r
-"
+'
 )
 as
 f
@@ -2841,25 +2804,23 @@ f
                             
 report
 [
-"
+'
 source_files
-"
+'
 ]
 =
 [
                                 
 sf
-                                
 for
 sf
 in
 report
 [
-"
+'
 source_files
-"
+'
 ]
-                                
 if
 self
 .
@@ -2867,7 +2828,6 @@ is_covered
 (
 sf
 )
-                            
 ]
                             
 baseline_coverage
@@ -2895,9 +2855,9 @@ config
 .
 get
 (
-"
+'
 per_test_category
-"
+'
 )
 =
 =
@@ -2912,10 +2872,10 @@ baseline_coverage
 =
 baseline_tests_ext_cov
 [
-"
+'
 .
 html
-"
+'
 ]
                             
 else
@@ -2943,9 +2903,7 @@ baseline_coverage
 =
 baseline_tests_ext_cov
 [
-                                        
 file_type
-                                    
 ]
                                     
 break
@@ -2977,10 +2935,10 @@ baseline_coverage
 =
 baseline_tests_ext_cov
 [
-"
+'
 .
 js
-"
+'
 ]
                             
 unique_coverage
@@ -2995,9 +2953,9 @@ with
 open
 (
 grcov_file
-"
+'
 w
-"
+'
 )
 as
 f
@@ -3007,31 +2965,28 @@ json
 .
 dump
 (
-                                
 {
-                                    
-"
+                                
+'
 test
-"
+'
 :
 test
-                                    
-"
+                                
+'
 suite
-"
+'
 :
 suite
-                                    
-"
+                                
+'
 report
-"
+'
 :
 unique_coverage
-                                
-}
-                                
-f
                             
+}
+f
 )
                         
 z
@@ -3048,9 +3003,9 @@ os
 .
 environ
 [
-"
+'
 GCOV_PREFIX_STRIP
-"
+'
 ]
         
 del
@@ -3058,9 +3013,9 @@ os
 .
 environ
 [
-"
+'
 GCOV_PREFIX
-"
+'
 ]
         
 del
@@ -3068,9 +3023,9 @@ os
 .
 environ
 [
-"
+'
 JS_CODE_COVERAGE_OUTPUT_DIR
-"
+'
 ]
         
 if
@@ -3087,14 +3042,13 @@ self
 .
 parse_coverage_artifacts
 (
-                
 self
 .
 gcov_dir
+                                                                                
 self
 .
 jsvm_dir
-            
 )
             
 grcov_zip_path
@@ -3105,14 +3059,13 @@ path
 .
 join
 (
-                
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
-"
+'
 code
 -
 coverage
@@ -3120,8 +3073,7 @@ coverage
 grcov
 .
 zip
-"
-            
+'
 )
             
 with
@@ -3130,9 +3082,9 @@ zipfile
 ZipFile
 (
 grcov_zip_path
-"
+'
 w
-"
+'
 zipfile
 .
 ZIP_DEFLATED
@@ -3156,14 +3108,13 @@ path
 .
 join
 (
-                
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
-"
+'
 code
 -
 coverage
@@ -3171,8 +3122,7 @@ coverage
 jsvm
 .
 zip
-"
-            
+'
 )
             
 with
@@ -3181,9 +3131,9 @@ zipfile
 ZipFile
 (
 jsvm_zip_path
-"
+'
 w
-"
+'
 zipfile
 .
 ZIP_DEFLATED
@@ -3210,11 +3160,11 @@ grcov_dir
     
 PostScriptAction
 (
-"
+'
 run
 -
 tests
-"
+'
 )
     
 def
@@ -3228,9 +3178,9 @@ None
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Run
 JaCoCo
@@ -3278,9 +3228,9 @@ is
 doing
 .
         
-"
-"
-"
+'
+'
+'
         
 if
 not
@@ -3311,7 +3261,6 @@ return
 report_files
 =
 [
-            
 os
 .
 path
@@ -3323,7 +3272,7 @@ self
 java_coverage_output_dir
 f
 )
-            
+                        
 for
 f
 in
@@ -3335,7 +3284,6 @@ self
 .
 java_coverage_output_dir
 )
-        
 ]
         
 assert
@@ -3374,58 +3322,54 @@ mkdtemp
         
 jacoco_command
 =
-(
-            
 [
-"
+'
 java
-"
-"
+'
+'
 -
 jar
-"
+'
 self
 .
 jacoco_jar
-"
+'
 report
-"
+'
 ]
-            
 +
+\
+            
 report_files
-            
 +
+\
+            
 [
-                
-"
+'
 -
 -
 classfiles
-"
-                
+'
 self
 .
 classfiles_dir
-                
-"
+             
+'
 -
 -
 name
-"
-                
-"
+'
+'
 geckoview
 -
 junit
-"
-                
-"
+'
+             
+'
 -
 -
 xml
-"
-                
+'
 os
 .
 path
@@ -3433,18 +3377,15 @@ path
 join
 (
 xml_path
-"
+'
 geckoview
 -
 junit
 .
 xml
-"
+'
 )
-            
 ]
-        
-)
         
 self
 .
@@ -3474,14 +3415,13 @@ self
 grcov_bin
 )
             
-"
+'
 -
 t
-"
-            
-"
+'
+'
 lcov
-"
+'
             
 xml_path
         
@@ -3507,9 +3447,9 @@ True
             
 return_type
 =
-"
+'
 files
-"
+'
             
 throw_exception
 =
@@ -3532,14 +3472,13 @@ path
 .
 join
 (
-                
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
-"
+'
 code
 -
 coverage
@@ -3547,8 +3486,7 @@ coverage
 grcov
 .
 zip
-"
-            
+'
 )
             
 with
@@ -3557,9 +3495,9 @@ zipfile
 ZipFile
 (
 grcov_zip_path
-"
+'
 w
-"
+'
 zipfile
 .
 ZIP_DEFLATED
@@ -3573,11 +3511,11 @@ z
 write
 (
 tmp_output_file
-"
+'
 grcov_lcov_output
 .
 info
-"
+'
 )
 def
 rm_baseline_cov
@@ -3587,9 +3525,9 @@ test_coverage
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Returns
 the
@@ -3616,9 +3554,9 @@ in
 question
 .
     
-"
-"
-"
+'
+'
+'
     
 unique_test_coverage
 =
@@ -3629,9 +3567,9 @@ baseline_files
 {
 el
 [
-"
+'
 name
-"
+'
 ]
 :
 el
@@ -3640,9 +3578,9 @@ el
 in
 baseline_coverage
 [
-"
+'
 source_files
-"
+'
 ]
 }
     
@@ -3651,9 +3589,9 @@ test_files
 {
 el
 [
-"
+'
 name
-"
+'
 ]
 :
 el
@@ -3662,9 +3600,9 @@ el
 in
 test_coverage
 [
-"
+'
 source_files
-"
+'
 ]
 }
     
@@ -3706,26 +3644,24 @@ test_files
 test_file
 ]
 [
-"
+'
 coverage
-"
+'
 ]
 )
 !
 =
 len
 (
-            
 baseline_files
 [
 test_file
 ]
 [
-"
+'
 coverage
-"
+'
 ]
-        
 )
 :
             
@@ -3734,9 +3670,7 @@ continue
 file_coverage
 =
 {
-            
 i
-            
 for
 i
 cov
@@ -3748,12 +3682,12 @@ test_files
 test_file
 ]
 [
-"
+'
 coverage
-"
+'
 ]
 )
-            
+                         
 if
 cov
 is
@@ -3763,15 +3697,12 @@ and
 cov
 >
 0
-        
 }
         
 baseline
 =
 {
-            
 i
-            
 for
 i
 cov
@@ -3783,12 +3714,12 @@ baseline_files
 test_file
 ]
 [
-"
+'
 coverage
-"
+'
 ]
 )
-            
+                    
 if
 cov
 is
@@ -3798,7 +3729,6 @@ and
 cov
 >
 0
-        
 }
         
 unique_coverage
@@ -3842,9 +3772,9 @@ unique_file_coverage
 test_file
 ]
 [
-"
+'
 coverage
-"
+'
 ]
 )
 :
@@ -3880,20 +3810,18 @@ fmt_unique_coverage
 .
 append
 (
-                            
 unique_file_coverage
 [
 test_file
 ]
 [
-"
+'
 coverage
-"
+'
 ]
 [
 i
 ]
-                        
 )
                         
 continue
@@ -3910,18 +3838,18 @@ unique_file_coverage
 test_file
 ]
 [
-"
+'
 coverage
-"
+'
 ]
 =
 fmt_unique_coverage
     
 unique_test_coverage
 [
-"
+'
 source_files
-"
+'
 ]
 =
 list

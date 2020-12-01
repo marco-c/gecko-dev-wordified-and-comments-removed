@@ -556,6 +556,7 @@ AndroidProfileRun
 TestingMixin
 BaseScript
 MozbaseMixin
+                        
 AndroidMixin
 )
 :
@@ -617,45 +618,44 @@ config_options
 all_actions
 =
 [
-                
-"
+'
 setup
 -
 avds
-"
-                
-"
+'
+                         
+'
 download
-"
-                
-"
+'
+                         
+'
 create
 -
 virtualenv
-"
-                
-"
+'
+                         
+'
 start
 -
 emulator
-"
-                
-"
+'
+                         
+'
 verify
 -
 device
-"
-                
-"
+'
+                         
+'
 install
-"
-                
-"
+'
+                         
+'
 run
 -
 tests
-"
-            
+'
+                         
 ]
             
 require_config_file
@@ -666,35 +666,35 @@ config
 =
 {
                 
-"
+'
 virtualenv_modules
-"
+'
 :
 [
 ]
                 
-"
+'
 virtualenv_requirements
-"
+'
 :
 [
 ]
                 
-"
+'
 require_test_zip
-"
+'
 :
 True
                 
-"
+'
 mozbase_requirements
-"
+'
 :
-"
+'
 mozbase_source_requirements
 .
 txt
-"
+'
             
 }
         
@@ -714,20 +714,20 @@ c
 .
 get
 (
-"
+'
 installer_path
-"
+'
 )
         
 self
 .
 device_serial
 =
-"
+'
 emulator
 -
 5554
-"
+'
     
 def
 query_abs_dirs
@@ -766,9 +766,9 @@ dirs
         
 dirs
 [
-"
+'
 abs_test_install_dir
-"
+'
 ]
 =
 os
@@ -777,22 +777,23 @@ path
 .
 join
 (
+            
 abs_dirs
 [
-"
+'
 abs_src_dir
-"
+'
 ]
-"
+'
 testing
-"
+'
 )
         
 dirs
 [
-"
+'
 abs_xre_dir
-"
+'
 ]
 =
 os
@@ -801,25 +802,26 @@ path
 .
 join
 (
+            
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 hostutils
-"
+'
 )
         
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
 =
-"
+'
 /
 builds
 /
@@ -828,13 +830,13 @@ worker
 artifacts
 /
 blobber_upload_dir
-"
+'
         
 dirs
 [
-"
+'
 abs_avds_dir
-"
+'
 ]
 =
 os
@@ -904,11 +906,11 @@ pass
     
 PreScriptAction
 (
-"
+'
 create
 -
 virtualenv
-"
+'
 )
     
 def
@@ -932,9 +934,9 @@ self
 register_virtualenv_module
 (
             
-"
+'
 marionette
-"
+'
             
 os
 .
@@ -944,16 +946,16 @@ join
 (
 dirs
 [
-"
+'
 abs_test_install_dir
-"
+'
 ]
-"
+'
 marionette
-"
-"
+'
+'
 client
-"
+'
 )
         
 )
@@ -995,9 +997,9 @@ download_hostutils
 (
 dirs
 [
-"
+'
 abs_xre_dir
-"
+'
 ]
 )
     
@@ -1024,16 +1026,14 @@ device
 "
         
 assert
-(
-            
 self
 .
 installer_path
 is
 not
 None
-        
-)
+\
+            
 "
 Either
 add
@@ -1137,7 +1137,7 @@ query_package_name
         
 IP
 =
-"
+'
 10
 .
 0
@@ -1145,7 +1145,7 @@ IP
 2
 .
 2
-"
+'
         
 PORT
 =
@@ -1155,7 +1155,7 @@ PATH_MAPPINGS
 =
 {
             
-"
+'
 /
 js
 -
@@ -1164,15 +1164,15 @@ input
 webkit
 /
 PerformanceTests
-"
+'
 :
-"
+'
 third_party
 /
 webkit
 /
 PerformanceTests
-"
+'
         
 }
         
@@ -1188,9 +1188,9 @@ topsrcdir
 =
 dirs
 [
-"
+'
 abs_src_dir
-"
+'
 ]
         
 adb
@@ -1199,9 +1199,9 @@ self
 .
 query_exe
 (
-"
+'
 adb
-"
+'
 )
         
 path_mappings
@@ -1219,6 +1219,7 @@ join
 topsrcdir
 v
 )
+            
 for
 k
 v
@@ -1260,7 +1261,6 @@ pgo
 path_mappings
 =
 path_mappings
-        
 )
         
 httpd
@@ -1281,12 +1281,12 @@ path
 join
 (
 topsrcdir
-"
+'
 testing
-"
-"
+'
+'
 profiles
-"
+'
 )
         
 with
@@ -1299,15 +1299,15 @@ path
 join
 (
 profile_data_dir
-"
+'
 profiles
 .
 json
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -1322,9 +1322,9 @@ load
 fh
 )
 [
-"
+'
 profileserver
-"
+'
 ]
         
 prefpaths
@@ -1339,11 +1339,11 @@ join
 (
 profile_data_dir
 profile
-"
+'
 user
 .
 js
-"
+'
 )
             
 for
@@ -1396,6 +1396,7 @@ httpd
 httpd
 .
 server_address
+                         
 "
 OOP
 "
@@ -1455,15 +1456,15 @@ config
 .
 get
 (
-"
+'
 output_directory
-"
-"
+'
+'
 /
 sdcard
 /
 pgo_profile
-"
+'
 )
         
 jarlog
@@ -1473,13 +1474,13 @@ posixpath
 join
 (
 outputdir
-"
+'
 en
 -
 US
 .
 log
-"
+'
 )
         
 profdata
@@ -1489,7 +1490,7 @@ posixpath
 join
 (
 outputdir
-"
+'
 default_
 %
 p_random_
@@ -1497,7 +1498,7 @@ p_random_
 m
 .
 profraw
-"
+'
 )
         
 env
@@ -1557,9 +1558,9 @@ os
 .
 environ
 [
-"
+'
 MINIDUMP_STACKWALK
-"
+'
 ]
 =
 self
@@ -1570,9 +1571,9 @@ os
 .
 environ
 [
-"
+'
 MINIDUMP_SAVE_PATH
-"
+'
 ]
 =
 self
@@ -1581,9 +1582,9 @@ query_abs_dirs
 (
 )
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
         
 if
@@ -1610,32 +1611,32 @@ MOZ_FETCHES_DIR
         
 sdcard_test_root
 =
-"
+'
 /
 sdcard
 /
 test_root
-"
+'
         
 adbdevice
 =
 ADBDeviceFactory
 (
-            
 adb
 =
 adb
+                                     
 device
 =
-"
+'
 emulator
 -
 5554
-"
+'
+                                     
 test_root
 =
 sdcard_test_root
-        
 )
         
 if
@@ -1673,9 +1674,9 @@ Marionette
                 
 app
 =
-"
+'
 fennec
-"
+'
                 
 package_name
 =
@@ -1762,13 +1763,13 @@ timeout
 2
                 
 if
-"
+'
 Speedometer
 /
 index
 .
 html
-"
+'
 in
 page
 :
@@ -1797,7 +1798,6 @@ driver
 .
 execute_script
 (
-                
 "
 "
 "
@@ -1882,14 +1882,12 @@ data
 "
 "
 "
-            
 )
             
 driver
 .
 execute_script
 (
-                
 "
 "
 "
@@ -1932,7 +1930,6 @@ eAttemptQuit
 "
 "
 "
-            
 )
             
 for
@@ -1988,7 +1985,7 @@ adbdevice
 pull
 (
 outputdir
-"
+'
 /
 builds
 /
@@ -1996,7 +1993,7 @@ worker
 /
 workspace
 /
-"
+'
 )
         
 except
@@ -2007,8 +2004,7 @@ self
 .
 fatal
 (
-                
-"
+'
 INFRA
 -
 ERROR
@@ -2017,13 +2013,12 @@ Failed
 with
 an
 ADBTimeoutError
-"
-                
+'
+                       
 EXIT_STATUS_DICT
 [
 TBPL_RETRY
 ]
-            
 )
         
 profraw_files
@@ -2032,7 +2027,7 @@ glob
 .
 glob
 (
-"
+'
 /
 builds
 /
@@ -2043,7 +2038,7 @@ workspace
 *
 .
 profraw
-"
+'
 )
         
 if
@@ -2055,7 +2050,7 @@ self
 .
 fatal
 (
-"
+'
 Could
 not
 find
@@ -2069,7 +2064,7 @@ builds
 worker
 /
 workspace
-"
+'
 )
         
 merge_cmd
@@ -2086,11 +2081,11 @@ os
 .
 environ
 [
-"
+'
 MOZ_FETCHES_DIR
-"
+'
 ]
-"
+'
 clang
 /
 bin
@@ -2098,19 +2093,19 @@ bin
 llvm
 -
 profdata
-"
+'
 )
             
-"
+'
 merge
-"
+'
             
-"
+'
 -
 o
-"
+'
             
-"
+'
 /
 builds
 /
@@ -2121,7 +2116,7 @@ workspace
 merged
 .
 profdata
-"
+'
         
 ]
 +
@@ -2147,8 +2142,7 @@ self
 .
 fatal
 (
-                
-"
+'
 INFRA
 -
 ERROR
@@ -2162,29 +2156,28 @@ data
 Corrupt
 profile
 ?
-"
-                
+'
+                       
 EXIT_STATUS_DICT
 [
 TBPL_RETRY
 ]
-            
 )
         
 tar_cmd
 =
 [
             
-"
+'
 tar
-"
+'
             
-"
+'
 -
 acvf
-"
+'
             
-"
+'
 /
 builds
 /
@@ -2197,35 +2190,34 @@ profdata
 tar
 .
 xz
-"
+'
             
-"
+'
 -
 C
-"
-            
-"
+'
+'
 /
 builds
 /
 worker
 /
 workspace
-"
+'
             
-"
+'
 merged
 .
 profdata
-"
+'
             
-"
+'
 en
 -
 US
 .
 log
-"
+'
         
 ]
         
@@ -2245,9 +2237,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 test

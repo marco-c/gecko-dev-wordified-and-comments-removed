@@ -12,7 +12,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -59,7 +58,6 @@ foo
 "
 "
 "
-    
 )
     
 results
@@ -116,6 +114,7 @@ WebIDL
 .
 IDLEnum
 )
+               
 "
 Should
 be
@@ -138,6 +137,7 @@ WebIDL
 .
 IDLInterface
 )
+               
 "
 Should
 be
@@ -238,7 +238,6 @@ harness
 .
 check
 (
-        
 iface
 .
 identifier
@@ -258,14 +257,12 @@ the
 right
 QName
 "
-    
 )
     
 harness
 .
 check
 (
-        
 iface
 .
 identifier
@@ -281,7 +278,6 @@ the
 right
 name
 "
-    
 )
     
 harness
@@ -337,6 +333,7 @@ WebIDL
 .
 IDLMethod
 )
+               
 "
 Should
 be
@@ -356,7 +353,6 @@ harness
 .
 check
 (
-        
 method
 .
 identifier
@@ -364,7 +360,6 @@ identifier
 QName
 (
 )
-        
 "
 :
 :
@@ -373,14 +368,13 @@ TestEnumInterface
 :
 doFoo
 "
-        
+                  
 "
 Method
 has
 correct
 QName
 "
-    
 )
     
 harness
@@ -441,7 +435,6 @@ harness
 .
 check
 (
-        
 str
 (
 returnType
@@ -460,7 +453,6 @@ the
 correct
 name
 "
-    
 )
     
 harness
@@ -542,7 +534,6 @@ harness
 .
 check
 (
-        
 attr
 .
 identifier
@@ -558,13 +549,13 @@ TestEnumInterface
 :
 foo
 "
+                  
 "
 Attr
 has
 correct
 QName
 "
-    
 )
     
 harness
@@ -632,7 +623,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -679,7 +669,6 @@ d
 "
 "
 "
-        
 )
         
 results
@@ -728,7 +717,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -755,7 +743,6 @@ c
 "
 "
 "
-    
 )
     
 results

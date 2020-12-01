@@ -80,9 +80,9 @@ self
 .
 _consume
 (
-"
+'
 stub0
-"
+'
 FasterMakeBackend
 )
         
@@ -90,7 +90,6 @@ self
 .
 assertTrue
 (
-            
 os
 .
 path
@@ -104,21 +103,20 @@ join
 env
 .
 topobjdir
-"
+                                                    
+'
 backend
 .
 FasterMakeBackend
-"
+'
 )
 )
-        
 )
         
 self
 .
 assertTrue
 (
-            
 os
 .
 path
@@ -132,16 +130,16 @@ join
 env
 .
 topobjdir
-"
+                                                    
+'
 backend
 .
 FasterMakeBackend
 .
 in
-"
+'
 )
 )
-        
 )
     
 def
@@ -172,7 +170,7 @@ self
 .
 _consume
 (
-"
+'
 final
 -
 target
@@ -180,7 +178,7 @@ target
 files
 -
 wildcard
-"
+'
 FasterMakeBackend
 )
         
@@ -188,7 +186,6 @@ m
 =
 InstallManifest
 (
-            
 path
 =
 mozpath
@@ -198,14 +195,14 @@ join
 env
 .
 topobjdir
-"
+                                              
+'
 faster
-"
-"
+'
+'
 install_dist_bin
-"
+'
 )
-        
 )
         
 self
@@ -236,32 +233,32 @@ expected
 =
 [
 (
-"
+'
 foo
 /
 bar
 .
 xyz
-"
-"
+'
+'
 bar
 .
 xyz
-"
+'
 )
 (
-"
+'
 foo
 /
 foo
 .
 xyz
-"
-"
+'
+'
 foo
 .
 xyz
-"
+'
 )
 ]
         
@@ -302,9 +299,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

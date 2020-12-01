@@ -59,10 +59,7 @@ BROWSERTIME_PAGELOAD_OUTPUT_TIMEOUT
 120
 BROWSERTIME_BENCHMARK_OUTPUT_TIMEOUT
 =
-(
-    
 None
-)
 class
 Browsertime
 (
@@ -493,7 +490,6 @@ lines
 [
                 
 line
-                
 for
 line
 in
@@ -772,10 +768,13 @@ browsertime_geckodriver
 )
         
 if
+(
+            
 self
 .
 browsertime_chromedriver
 and
+            
 self
 .
 config
@@ -786,20 +785,18 @@ app
 ]
 in
 (
-            
 "
 chrome
 "
-            
 "
 chrome
 -
 m
 "
-            
 "
 chromium
 "
+)
         
 )
 :
@@ -1118,7 +1115,6 @@ browsertime
 .
 scenario_time
 "
-                
 test
 .
 get
@@ -1136,7 +1132,6 @@ browsertime
 .
 background_app
 "
-                
 test
 .
 get
@@ -1221,11 +1216,11 @@ chrome
 "
 chromium
 "
-"
+'
 chrome
 -
 m
-"
+'
 )
 :
             
@@ -1350,7 +1345,6 @@ firefox
 .
 profileTemplate
 "
-            
 str
 (
 self
@@ -1371,7 +1365,6 @@ skipHar
 -
 pageLoadStrategy
 "
-            
 "
 none
 "
@@ -1383,7 +1376,6 @@ firefox
 .
 disableBrowsertimeExtension
 "
-            
 "
 true
 "
@@ -1393,7 +1385,6 @@ true
 -
 pageCompleteCheckStartWait
 "
-            
 "
 5000
 "
@@ -1403,7 +1394,6 @@ pageCompleteCheckStartWait
 -
 pageCompleteCheckPollTimeout
 "
-            
 "
 1000
 "
@@ -1415,7 +1405,6 @@ timeouts
 .
 pageLoad
 "
-            
 str
 (
 timeout
@@ -1428,7 +1417,6 @@ timeouts
 .
 script
 "
-            
 str
 (
 timeout
@@ -1452,7 +1440,6 @@ page_cycles
 -
 resultDir
 "
-            
 self
 .
 results_handler
@@ -1490,25 +1477,22 @@ browsertime_options
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
 video
 "
-                    
 "
 true
 "
-                    
+                
 "
 -
 -
 visualMetrics
 "
-                    
 "
 true
 "
@@ -1520,16 +1504,18 @@ else
 "
 false
 "
-                
-]
             
+]
 )
             
 if
+(
+                
 self
 .
 browsertime_no_ffwindowrecorder
 or
+                
 self
 .
 config
@@ -1540,20 +1526,18 @@ app
 ]
 in
 (
-                
 "
 chromium
 "
-                
 "
 chrome
 -
 m
 "
-                
 "
 chrome
 "
+)
             
 )
 :
@@ -1562,9 +1546,8 @@ browsertime_options
 .
 extend
 (
-                    
 [
-                        
+                    
 "
 -
 -
@@ -1572,20 +1555,17 @@ firefox
 .
 windowRecorder
 "
-                        
 "
 false
 "
-                    
-]
                 
+]
 )
                 
 LOG
 .
 info
 (
-                    
 "
 Using
 adb
@@ -1599,7 +1579,6 @@ desktop
 for
 videos
 "
-                
 )
             
 else
@@ -1609,9 +1588,8 @@ browsertime_options
 .
 extend
 (
-                    
 [
-                        
+                    
 "
 -
 -
@@ -1619,13 +1597,11 @@ firefox
 .
 windowRecorder
 "
-                        
 "
 true
 "
-                    
-]
                 
+]
 )
                 
 LOG
@@ -1650,6 +1626,7 @@ browsertime_options
 extend
 (
 [
+                
 "
 -
 -
@@ -1658,6 +1635,7 @@ video
 "
 false
 "
+                
 "
 -
 -
@@ -1666,6 +1644,7 @@ visualMetrics
 "
 false
 "
+            
 ]
 )
         

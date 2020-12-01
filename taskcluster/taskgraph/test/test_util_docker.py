@@ -56,15 +56,15 @@ patch
 .
 dict
 (
-"
+'
 os
 .
 environ
-"
+'
 {
-"
+'
 TASKCLUSTER_ROOT_URL
-"
+'
 :
 liburls
 .
@@ -111,14 +111,14 @@ path
 join
 (
 tmpdir
-"
+'
 docker
-"
-"
+'
+'
 my
 -
 image
-"
+'
 )
 )
             
@@ -131,26 +131,26 @@ path
 join
 (
 tmpdir
-"
+'
 docker
-"
-"
+'
+'
 my
 -
 image
-"
-"
+'
+'
 Dockerfile
-"
+'
 )
             
 with
 open
 (
 p
-"
+'
 w
-"
+'
 )
 as
 f
@@ -190,28 +190,28 @@ path
 join
 (
 tmpdir
-"
+'
 docker
-"
-"
+'
+'
 my
 -
 image
-"
-"
+'
+'
 a
 -
 file
-"
+'
 )
             
 with
 open
 (
 p
-"
+'
 w
-"
+'
 )
 as
 f
@@ -247,7 +247,6 @@ generate_context_hash
 (
                     
 tmpdir
-                    
 os
 .
 path
@@ -263,21 +262,19 @@ my
 image
 "
 )
-                    
 "
 my
 -
 image
 "
-                    
 {
 }
                 
 )
                 
-"
+'
 680532a33c845e3b4f8ea8a7bd697da579b647f28c29f7a0a71e51e6cca33983
-"
+'
             
 )
         
@@ -394,14 +391,13 @@ self
 .
 assertEqual
 (
-                
 docker
 .
 docker_image
 (
-"
+'
 myimage
-"
+'
 )
 "
 cool
@@ -416,7 +412,6 @@ sha256
 .
 .
 "
-            
 )
     
 def
@@ -520,14 +515,13 @@ self
 .
 assertEqual
 (
-                
 docker
 .
 docker_image
 (
-"
+'
 myimage
-"
+'
 by_tag
 =
 True
@@ -543,7 +537,6 @@ myimage
 .
 3
 "
-            
 )
     
 def
@@ -645,14 +638,13 @@ self
 .
 assertEqual
 (
-                
 docker
 .
 docker_image
 (
-"
+'
 myimage
-"
+'
 )
 "
 mozilla
@@ -665,7 +657,6 @@ sha256
 .
 .
 "
-            
 )
     
 def
@@ -767,14 +758,13 @@ self
 .
 assertEqual
 (
-                
 docker
 .
 docker_image
 (
-"
+'
 myimage
-"
+'
 by_tag
 =
 True
@@ -790,7 +780,6 @@ myimage
 .
 3
 "
-            
 )
     
 def
@@ -820,9 +809,9 @@ path
 join
 (
 tmp
-"
+'
 test_image
-"
+'
 )
             
 os
@@ -842,13 +831,13 @@ path
 join
 (
 d
-"
+'
 Dockerfile
-"
+'
 )
-"
+'
 a
-"
+'
 )
 :
                 
@@ -865,9 +854,9 @@ path
 join
 (
 d
-"
+'
 Dockerfile
-"
+'
 )
 MODE_STANDARD
 )
@@ -882,13 +871,13 @@ path
 join
 (
 d
-"
+'
 extra
-"
+'
 )
-"
+'
 a
-"
+'
 )
 :
                 
@@ -905,9 +894,9 @@ path
 join
 (
 d
-"
+'
 extra
-"
+'
 )
 MODE_STANDARD
 )
@@ -921,9 +910,9 @@ path
 join
 (
 tmp
-"
+'
 tar
-"
+'
 )
             
 h
@@ -935,9 +924,9 @@ create_context_tar
 tmp
 d
 tp
-"
+'
 my_image
-"
+'
 {
 }
 )
@@ -946,12 +935,10 @@ self
 .
 assertEqual
 (
-                
 h
-"
+'
 eae3ad00936085eb3e5958912f79fb06ee8e14a91f7157c5f38625f7ddacb9c7
-"
-            
+'
 )
             
 with
@@ -960,11 +947,11 @@ tarfile
 open
 (
 tp
-"
+'
 r
 :
 gz
-"
+'
 )
 as
 tf
@@ -974,25 +961,22 @@ self
 .
 assertEqual
 (
-                    
 tf
 .
 getnames
 (
 )
-                    
 [
-                        
-"
-Dockerfile
-"
-                        
-"
-extra
-"
                     
-]
+'
+Dockerfile
+'
+                    
+'
+extra
+'
                 
+]
 )
         
 finally
@@ -1032,11 +1016,11 @@ path
 join
 (
 tmp
-"
+'
 test
 -
 image
-"
+'
 )
             
 os
@@ -1056,13 +1040,13 @@ path
 join
 (
 d
-"
+'
 Dockerfile
-"
+'
 )
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -1073,7 +1057,7 @@ fh
 write
 (
 b
-"
+'
 #
 %
 include
@@ -1082,7 +1066,7 @@ extra
 file0
 \
 n
-"
+'
 )
             
 os
@@ -1096,9 +1080,9 @@ path
 join
 (
 d
-"
+'
 Dockerfile
-"
+'
 )
 MODE_STANDARD
 )
@@ -1112,9 +1096,9 @@ path
 join
 (
 tmp
-"
+'
 extra
-"
+'
 )
             
 os
@@ -1134,13 +1118,13 @@ path
 join
 (
 extra
-"
+'
 file0
-"
+'
 )
-"
+'
 a
-"
+'
 )
 :
                 
@@ -1157,9 +1141,9 @@ path
 join
 (
 extra
-"
+'
 file0
-"
+'
 )
 MODE_STANDARD
 )
@@ -1173,9 +1157,9 @@ path
 join
 (
 tmp
-"
+'
 tar
-"
+'
 )
             
 h
@@ -1187,9 +1171,9 @@ create_context_tar
 tmp
 d
 tp
-"
+'
 test_image
-"
+'
 {
 }
 )
@@ -1198,12 +1182,10 @@ self
 .
 assertEqual
 (
-                
 h
-"
+'
 49dc3827530cd344d7bcc52e1fdd4aefc632568cf442cffd3dd9633a58f271bf
-"
-            
+'
 )
             
 with
@@ -1212,11 +1194,11 @@ tarfile
 open
 (
 tp
-"
+'
 r
 :
 gz
-"
+'
 )
 as
 tf
@@ -1226,29 +1208,26 @@ self
 .
 assertEqual
 (
-                    
 tf
 .
 getnames
 (
 )
-                    
 [
-                        
-"
+                    
+'
 Dockerfile
-"
-                        
-"
+'
+                    
+'
 topsrcdir
 /
 extra
 /
 file0
-"
-                    
-]
+'
                 
+]
 )
         
 finally
@@ -1288,11 +1267,11 @@ path
 join
 (
 tmp
-"
+'
 test
 -
 image
-"
+'
 )
             
 os
@@ -1312,13 +1291,13 @@ path
 join
 (
 d
-"
+'
 Dockerfile
-"
+'
 )
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -1329,7 +1308,7 @@ fh
 write
 (
 b
-"
+'
 #
 %
 include
@@ -1339,7 +1318,7 @@ etc
 shadow
 \
 n
-"
+'
 )
             
 with
@@ -1348,11 +1327,11 @@ self
 assertRaisesRegexp
 (
 Exception
-"
+'
 cannot
 be
 absolute
-"
+'
 )
 :
                 
@@ -1369,13 +1348,13 @@ path
 join
 (
 tmp
-"
+'
 tar
-"
+'
 )
-"
+'
 test
-"
+'
 {
 }
 )
@@ -1417,11 +1396,11 @@ path
 join
 (
 tmp
-"
+'
 test
 -
 image
-"
+'
 )
             
 os
@@ -1441,13 +1420,13 @@ path
 join
 (
 d
-"
+'
 Dockerfile
-"
+'
 )
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -1458,7 +1437,7 @@ fh
 write
 (
 b
-"
+'
 #
 %
 include
@@ -1478,7 +1457,7 @@ etc
 shadow
 \
 n
-"
+'
 )
             
 with
@@ -1487,11 +1466,11 @@ self
 assertRaisesRegexp
 (
 Exception
-"
+'
 path
 outside
 topsrcdir
-"
+'
 )
 :
                 
@@ -1508,13 +1487,13 @@ path
 join
 (
 tmp
-"
+'
 tar
-"
+'
 )
-"
+'
 test
-"
+'
 {
 }
 )
@@ -1556,11 +1535,11 @@ path
 join
 (
 tmp
-"
+'
 test
 -
 image
-"
+'
 )
             
 os
@@ -1580,13 +1559,13 @@ path
 join
 (
 d
-"
+'
 Dockerfile
-"
+'
 )
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -1597,7 +1576,7 @@ fh
 write
 (
 b
-"
+'
 #
 %
 include
@@ -1608,7 +1587,7 @@ not
 exist
 \
 n
-"
+'
 )
             
 with
@@ -1617,12 +1596,12 @@ self
 assertRaisesRegexp
 (
 Exception
-"
+'
 path
 does
 not
 exist
-"
+'
 )
 :
                 
@@ -1639,13 +1618,13 @@ path
 join
 (
 tmp
-"
+'
 tar
-"
+'
 )
-"
+'
 test
-"
+'
 {
 }
 )
@@ -1687,11 +1666,11 @@ path
 join
 (
 tmp
-"
+'
 test
 -
 image
-"
+'
 )
             
 os
@@ -1711,13 +1690,13 @@ path
 join
 (
 d
-"
+'
 Dockerfile
-"
+'
 )
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -1728,14 +1707,14 @@ fh
 write
 (
 b
-"
+'
 #
 %
 include
 extra
 \
 n
-"
+'
 )
                 
 fh
@@ -1743,14 +1722,14 @@ fh
 write
 (
 b
-"
+'
 #
 %
 include
 file0
 \
 n
-"
+'
 )
             
 os
@@ -1764,9 +1743,9 @@ path
 join
 (
 d
-"
+'
 Dockerfile
-"
+'
 )
 MODE_STANDARD
 )
@@ -1780,9 +1759,9 @@ path
 join
 (
 tmp
-"
+'
 extra
-"
+'
 )
             
 os
@@ -1810,11 +1789,11 @@ path
 join
 (
 extra
-"
+'
 file
 %
 d
-"
+'
 %
 i
 )
@@ -1823,9 +1802,9 @@ with
 open
 (
 p
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -1836,11 +1815,11 @@ fh
 write
 (
 b
-"
+'
 file
 %
 d
-"
+'
 %
 i
 )
@@ -1863,13 +1842,13 @@ path
 join
 (
 tmp
-"
+'
 file0
-"
+'
 )
-"
+'
 a
-"
+'
 )
 :
                 
@@ -1886,9 +1865,9 @@ path
 join
 (
 tmp
-"
+'
 file0
-"
+'
 )
 MODE_STANDARD
 )
@@ -1902,9 +1881,9 @@ path
 join
 (
 tmp
-"
+'
 tar
-"
+'
 )
             
 h
@@ -1916,9 +1895,9 @@ create_context_tar
 tmp
 d
 tp
-"
+'
 my_image
-"
+'
 {
 }
 )
@@ -1927,12 +1906,10 @@ self
 .
 assertEqual
 (
-                
 h
-"
+'
 a392f23cd6606ae43116390a4d0113354cff1e688a41d46f48b0fb25e90baa13
-"
-            
+'
 )
             
 with
@@ -1941,11 +1918,11 @@ tarfile
 open
 (
 tp
-"
+'
 r
 :
 gz
-"
+'
 )
 as
 tf
@@ -1955,51 +1932,48 @@ self
 .
 assertEqual
 (
-                    
 tf
 .
 getnames
 (
 )
-                    
 [
-                        
-"
+                    
+'
 Dockerfile
-"
-                        
-"
+'
+                    
+'
 topsrcdir
 /
 extra
 /
 file0
-"
-                        
-"
+'
+                    
+'
 topsrcdir
 /
 extra
 /
 file1
-"
-                        
-"
+'
+                    
+'
 topsrcdir
 /
 extra
 /
 file2
-"
-                        
-"
+'
+                    
+'
 topsrcdir
 /
 file0
-"
-                    
-]
+'
                 
+]
 )
         
 finally
@@ -2015,9 +1989,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

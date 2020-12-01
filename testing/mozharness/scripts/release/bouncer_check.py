@@ -106,7 +106,6 @@ config_options
 [
         
 [
-            
 [
 "
 -
@@ -114,9 +113,8 @@ config_options
 version
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -124,7 +122,7 @@ dest
 "
 version
 "
-                
+            
 "
 help
 "
@@ -139,13 +137,11 @@ eg
 .
 0b5
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -155,9 +151,8 @@ product
 field
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -165,7 +160,7 @@ dest
 "
 product_field
 "
-                
+            
 "
 help
 "
@@ -182,13 +177,11 @@ eg
 :
 LATEST_FIREFOX_VERSION
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -198,9 +191,8 @@ products
 url
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -208,7 +200,7 @@ dest
 "
 products_url
 "
-                
+            
 "
 help
 "
@@ -223,13 +215,13 @@ Firefox
 product
 versions
 "
-                
+            
 "
 type
 "
 :
 str
-                
+            
 "
 default
 "
@@ -255,13 +247,11 @@ firefox_versions
 .
 json
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -271,9 +261,8 @@ previous
 version
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -281,7 +270,7 @@ dest
 "
 prev_versions
 "
-                
+            
 "
 action
 "
@@ -289,7 +278,7 @@ action
 "
 extend
 "
-                
+            
 "
 help
 "
@@ -301,13 +290,11 @@ version
 s
 )
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -315,9 +302,8 @@ s
 locale
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -325,7 +311,7 @@ dest
 "
 locales
 "
-                
+            
 "
 default
 "
@@ -348,7 +334,7 @@ zh
 TW
 "
 ]
-                
+            
 "
 action
 "
@@ -356,7 +342,7 @@ action
 "
 append
 "
-                
+            
 "
 help
 "
@@ -369,13 +355,11 @@ to
 check
 .
 "
-            
-}
         
+}
 ]
         
 [
-            
 [
 "
 -
@@ -387,9 +371,8 @@ j
 parallelization
 "
 ]
-            
 {
-                
+            
 "
 dest
 "
@@ -397,19 +380,19 @@ dest
 "
 parallelization
 "
-                
+            
 "
 default
 "
 :
 20
-                
+            
 "
 type
 "
 :
 int
-                
+            
 "
 help
 "
@@ -423,9 +406,8 @@ running
 in
 parallel
 "
-            
-}
         
+}
 ]
     
 ]
@@ -469,7 +451,7 @@ cdn_urls
 :
 [
                     
-"
+'
 download
 -
 installer
@@ -479,9 +461,9 @@ cdn
 mozilla
 .
 net
-"
+'
                     
-"
+'
 download
 .
 cdn
@@ -489,23 +471,23 @@ cdn
 mozilla
 .
 net
-"
+'
                     
-"
+'
 download
 .
 mozilla
 .
 org
-"
+'
                     
-"
+'
 archive
 .
 mozilla
 .
 org
-"
+'
                 
 ]
             
@@ -590,9 +572,9 @@ self
 .
 config
 [
-"
+'
 product_field
-"
+'
 ]
 not
 in
@@ -603,14 +585,14 @@ self
 .
 fatal
 (
-"
+'
 Unknown
 Firefox
 label
 :
 {
 }
-"
+'
 .
 format
 (
@@ -618,9 +600,9 @@ self
 .
 config
 [
-"
+'
 product_field
-"
+'
 ]
 )
 )
@@ -805,16 +787,16 @@ final_url
 scheme
 !
 =
-"
+'
 https
-"
+'
 :
                 
 self
 .
 error
 (
-"
+'
 FAIL
 :
 URL
@@ -825,7 +807,7 @@ https
 :
 {
 }
-"
+'
 .
 format
 (
@@ -854,9 +836,9 @@ self
 .
 config
 [
-"
+'
 cdn_urls
-"
+'
 ]
 :
                 
@@ -864,7 +846,7 @@ self
 .
 error
 (
-"
+'
 FAIL
 :
 host
@@ -875,7 +857,7 @@ locations
 :
 {
 }
-"
+'
 .
 format
 (
@@ -1109,7 +1091,6 @@ name
 ]
 %
 {
-                    
 "
 version
 "
@@ -1122,13 +1103,12 @@ config
 version
 "
 ]
-                    
+                                                          
 "
 prev_version
 "
 :
 prev_version
-                
 }
                 
 for
@@ -1245,19 +1225,18 @@ config
 parallelization
 "
 ]
-        
 )
         
 session
 .
 mount
 (
-"
+'
 https
 :
 /
 /
-"
+'
 http_adapter
 )
         
@@ -1265,12 +1244,12 @@ session
 .
 mount
 (
-"
+'
 http
 :
 /
 /
-"
+'
 http_adapter
 )
         
@@ -1343,9 +1322,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 BouncerCheck

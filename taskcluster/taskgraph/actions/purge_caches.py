@@ -50,33 +50,33 @@ register_callback_action
     
 title
 =
-"
+'
 Purge
 Worker
 Caches
-"
+'
     
 name
 =
-"
+'
 purge
 -
 cache
-"
+'
     
 symbol
 =
-"
+'
 purge
 -
 cache
-"
+'
     
 description
 =
 (
         
-"
+'
 Purge
 any
 caches
@@ -84,9 +84,9 @@ associated
 with
 this
 task
-"
+'
         
-"
+'
 across
 all
 workers
@@ -98,7 +98,7 @@ as
 the
 task
 .
-"
+'
     
 )
     
@@ -110,17 +110,17 @@ context
 =
 [
 {
-"
+'
 worker
 -
 implementation
-"
+'
 :
-"
+'
 docker
 -
 worker
-"
+'
 }
 ]
 )
@@ -147,16 +147,16 @@ task_id
 if
 task
 [
-"
+'
 payload
-"
+'
 ]
 .
 get
 (
-"
+'
 cache
-"
+'
 )
 :
         
@@ -165,37 +165,35 @@ cache
 in
 task
 [
-"
+'
 payload
-"
+'
 ]
 [
-"
+'
 cache
-"
+'
 ]
 :
             
 purge_cache
 (
-                
 task
 [
-"
+'
 provisionerId
-"
+'
 ]
 task
 [
-"
+'
 workerType
-"
+'
 ]
 cache
 use_proxy
 =
 True
-            
 )
     
 else
@@ -205,7 +203,7 @@ logger
 .
 info
 (
-"
+'
 Task
 has
 no
@@ -216,5 +214,5 @@ not
 clear
 anything
 !
-"
+'
 )

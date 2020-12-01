@@ -45,7 +45,6 @@ method
 "
 "
 "
-    
 )
     
 results
@@ -119,7 +118,6 @@ attr
 "
 "
 "
-        
 )
         
 results
@@ -198,7 +196,6 @@ method
 "
 "
 "
-        
 )
         
 results
@@ -280,7 +277,6 @@ attr
 "
 "
 "
-        
 )
         
 results
@@ -364,7 +360,6 @@ attr
 "
 "
 "
-        
 )
         
 results

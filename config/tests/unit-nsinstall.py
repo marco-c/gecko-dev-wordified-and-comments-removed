@@ -47,6 +47,7 @@ import
 codecs
 RUN_NON_ASCII_TESTS
 =
+(
 sys
 .
 platform
@@ -56,8 +57,8 @@ platform
 win32
 "
 or
+                       
 (
-    
 sys
 .
 stdin
@@ -66,8 +67,8 @@ encoding
 is
 not
 None
-    
 and
+                        
 codecs
 .
 lookup
@@ -89,6 +90,7 @@ utf
 -
 8
 "
+)
 )
 )
 class
@@ -220,9 +222,9 @@ file
 open
 (
 f
-"
+'
 w
-"
+'
 )
 .
 close
@@ -524,15 +526,17 @@ nsinstall
 [
 sourcedir
 destdir
-"
+                                    
+'
 -
 X
-"
+'
 Xfile
-"
+                                    
+'
 -
 X
-"
+'
 Xdir
 ]
 )
@@ -656,6 +660,7 @@ path
 .
 join
 (
+            
 testdir
 "
 copieddir
@@ -715,7 +720,6 @@ dir
 testfiles
 =
 [
-            
 self
 .
 touch
@@ -724,7 +728,7 @@ touch
 testfile1
 "
 )
-            
+                     
 self
 .
 touch
@@ -733,7 +737,7 @@ touch
 testfile2
 "
 )
-            
+                     
 self
 .
 touch
@@ -742,7 +746,6 @@ touch
 testfile3
 "
 )
-        
 ]
         
 testdir
@@ -794,6 +797,7 @@ path
 join
 (
 testdir
+                                                     
 os
 .
 path
@@ -1019,6 +1023,7 @@ testfile
 )
 .
 st_mtime
+                         
 os
 .
 stat
@@ -1111,7 +1116,6 @@ self
 .
 assertEqual
 (
-            
 nsinstall
 (
 [
@@ -1126,6 +1130,7 @@ m
 04o
 }
 "
+                                    
 .
 format
 (
@@ -1136,7 +1141,6 @@ testdir
 ]
 )
 0
-        
 )
         
 destfile
@@ -1179,6 +1183,7 @@ testfile
 )
 .
 st_mode
+                         
 os
 .
 stat
@@ -1365,7 +1370,6 @@ self
 .
 assertEqual
 (
-            
 nsinstall
 (
 [
@@ -1379,6 +1383,7 @@ utf
 8
 "
 )
+                                    
 testdir
 .
 encode
@@ -1392,7 +1397,6 @@ utf
 ]
 )
 0
-        
 )
         
 destfile
@@ -1425,7 +1429,6 @@ unittest
 .
 skipIf
 (
-        
 not
 RUN_NON_ASCII_TESTS
 or
@@ -1438,13 +1441,13 @@ version_info
 =
 =
 2
+                     
 "
 Skipping
 non
 ascii
 tests
 "
-    
 )
     
 def
@@ -1514,16 +1517,16 @@ processhandler
 .
 ProcessHandlerMixin
 (
-            
 [
 sys
 .
 executable
+                                                
 NSINSTALL_PATH
+                                                
 testfile
 testdir
 ]
-        
 )
         
 p
@@ -1577,9 +1580,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

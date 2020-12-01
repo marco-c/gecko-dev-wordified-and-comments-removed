@@ -12,7 +12,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -82,7 +81,6 @@ ts
 "
 "
 "
-    
 )
     
 results
@@ -139,6 +137,7 @@ WebIDL
 .
 IDLInterface
 )
+               
 "
 Should
 be
@@ -158,7 +157,6 @@ harness
 .
 check
 (
-        
 iface
 .
 identifier
@@ -178,7 +176,6 @@ the
 right
 QName
 "
-    
 )
     
 harness
@@ -279,47 +276,36 @@ ts
 types
 =
 [
-        
 "
 Boolean
 "
-        
 "
 Byte
 "
-        
 "
 Octet
 "
-        
 "
 Short
 "
-        
 "
 UnsignedShort
 "
-        
 "
 Long
 "
-        
 "
 UnsignedLong
 "
-        
 "
 LongLong
 "
-        
 "
 UnsignedLongLong
 "
-        
 "
 UnsignedLongLong
 "
-    
 ]
     
 for
@@ -361,7 +347,6 @@ harness
 .
 check
 (
-            
 attr
 .
 identifier
@@ -369,7 +354,6 @@ identifier
 QName
 (
 )
-            
 "
 :
 :
@@ -382,14 +366,12 @@ names
 [
 i
 ]
-            
 "
 Attr
 has
 correct
 QName
 "
-        
 )
         
 harness

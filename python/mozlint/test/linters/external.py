@@ -41,9 +41,9 @@ lintargs
 .
 get
 (
-"
+'
 fix
-"
+'
 )
 :
         
@@ -79,9 +79,9 @@ with
 open
 (
 path
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -102,9 +102,9 @@ readlines
 :
                 
 if
-"
+'
 foobar
-"
+'
 in
 line
 :
@@ -113,12 +113,11 @@ results
 .
 append
 (
-                        
 result
 .
 from_config
 (
-                            
+                        
 config
 path
 =
@@ -138,9 +137,7 @@ no
 -
 foobar
 "
-                        
 )
-                    
 )
     
 return
@@ -224,9 +221,9 @@ with
 open
 (
 path
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -247,9 +244,9 @@ readlines
 :
                 
 if
-"
+'
 foobar
-"
+'
 in
 line
 :
@@ -258,18 +255,20 @@ logger
 .
 lint_error
 (
-                        
 path
 =
 path
+                                      
 lineno
 =
 i
 +
 1
+                                      
 column
 =
 1
+                                      
 rule
 =
 "
@@ -277,7 +276,6 @@ no
 -
 foobar
 "
-                    
 )
 def
 passes
@@ -304,10 +302,10 @@ lintargs
     
 print
 (
-"
+'
 setup
 passed
-"
+'
 )
 def
 setupfailed
@@ -320,10 +318,10 @@ lintargs
     
 print
 (
-"
+'
 setup
 failed
-"
+'
 )
     
 return
@@ -339,19 +337,19 @@ lintargs
     
 print
 (
-"
+'
 setup
 raised
-"
+'
 )
     
 raise
 LintException
 (
-"
+'
 oh
 no
 setup
 failed
-"
+'
 )

@@ -149,9 +149,9 @@ params
 .
 get
 (
-"
+'
 pushlog_id
-"
+'
 )
 =
 =
@@ -181,8 +181,7 @@ logger
 .
 debug
 (
-                
-"
+'
 no
 files
 found
@@ -196,13 +195,12 @@ unless
 -
 changed
 for
-"
-                
+'
 +
+                         
 task
 .
 label
-            
 )
             
 return
@@ -264,9 +262,9 @@ mozbuild_reader
 (
 config_mode
 =
-"
+'
 empty
-"
+'
 )
         
 components
@@ -298,9 +296,9 @@ set
 (
 m
 [
-"
+'
 SCHEDULES
-"
+'
 ]
 .
 components
@@ -324,9 +322,9 @@ params
 .
 get
 (
-"
+'
 pushlog_id
-"
+'
 )
 =
 =
@@ -343,20 +341,18 @@ self
 .
 scheduled_by_push
 (
-            
 params
 [
-"
+'
 head_repository
-"
+'
 ]
 params
 [
-"
+'
 head_rev
-"
+'
 ]
-        
 )
         
 conditions
@@ -482,9 +478,9 @@ attributes
 .
 get
 (
-"
+'
 test_manifests
-"
+'
 )
 :
             
@@ -500,15 +496,15 @@ get_changed_dirs
 (
 params
 [
-"
+'
 head_repository
-"
+'
 ]
 params
 [
-"
+'
 head_rev
-"
+'
 ]
 )
 :
@@ -520,9 +516,9 @@ task
 .
 attributes
 [
-"
+'
 test_manifests
-"
+'
 ]
 :
                 
@@ -539,8 +535,7 @@ logger
 .
 debug
 (
-                        
-"
+'
 {
 }
 runs
@@ -560,19 +555,17 @@ file
 {
 }
 )
-"
+'
+                                 
 .
 format
 (
-                            
 task
 .
 label
 t
 d
-                        
 )
-                    
 )
                     
 return

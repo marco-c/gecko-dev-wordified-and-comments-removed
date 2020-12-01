@@ -12,7 +12,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -258,7 +257,6 @@ arg3
 "
 "
 "
-    
 )
     
 results
@@ -477,7 +475,6 @@ harness
 .
 ok
 (
-            
 arguments
 [
 0
@@ -496,14 +493,12 @@ a
 js
 interface
 "
-        
 )
         
 harness
 .
 check
 (
-            
 str
 (
 arguments
@@ -524,14 +519,12 @@ an
 ArrayBuffer
 type
 "
-        
 )
         
 harness
 .
 ok
 (
-            
 arguments
 [
 1
@@ -544,7 +537,6 @@ inner
 isSpiderMonkeyInterface
 (
 )
-            
 "
 Should
 test
@@ -553,14 +545,12 @@ a
 js
 interface
 "
-        
 )
         
 harness
 .
 check
 (
-            
 str
 (
 arguments
@@ -581,14 +571,12 @@ an
 ArrayBuffer
 type
 "
-        
 )
         
 harness
 .
 ok
 (
-            
 arguments
 [
 2
@@ -601,7 +589,6 @@ inner
 isSpiderMonkeyInterface
 (
 )
-            
 "
 Should
 test
@@ -610,7 +597,6 @@ a
 js
 interface
 "
-        
 )
     
 checkStuff

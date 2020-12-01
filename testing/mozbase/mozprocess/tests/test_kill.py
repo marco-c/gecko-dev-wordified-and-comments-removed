@@ -95,10 +95,10 @@ ProcessHandler
 self
 .
 python
-"
+'
 -
 V
-"
+'
 ]
 )
         
@@ -138,7 +138,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -146,16 +145,17 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_normal_finish
 .
 ini
 "
 ]
+                                          
 cwd
 =
 here
-        
 )
         
 p
@@ -178,9 +178,9 @@ p
 expectedfail
 =
 (
-"
+'
 returncode
-"
+'
 )
 )
     
@@ -216,7 +216,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -224,16 +223,17 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_normal_deep
 .
 ini
 "
 ]
+                                          
 cwd
 =
 here
-        
 )
         
 p
@@ -256,9 +256,9 @@ p
 expectedfail
 =
 (
-"
+'
 returncode
-"
+'
 )
 )
     
@@ -285,7 +285,7 @@ we
 let
 it
 spawn
-        
+           
 for
 a
 bit
@@ -306,9 +306,9 @@ sys
 platform
 =
 =
-"
+'
 darwin
-"
+'
 and
 sys
 .
@@ -332,14 +332,14 @@ copy
             
 myenv
 [
-"
+'
 PYTHONPATH
-"
+'
 ]
 =
-"
+'
 :
-"
+'
 .
 join
 (
@@ -354,7 +354,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -362,21 +361,20 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_normal_deep
 .
 ini
 "
 ]
-            
+                                          
 cwd
 =
 here
-            
 env
 =
 myenv
-        
 )
         
 p
@@ -406,9 +404,9 @@ p
 expectedfail
 =
 (
-"
+'
 returncode
-"
+'
 )
 )
     
@@ -444,7 +442,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -452,16 +449,17 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_normal_broad
 .
 ini
 "
 ]
+                                          
 cwd
 =
 here
-        
 )
         
 p
@@ -484,9 +482,9 @@ p
 expectedfail
 =
 (
-"
+'
 returncode
-"
+'
 )
 )
     
@@ -513,7 +511,7 @@ we
 let
 it
 spawn
-        
+           
 for
 a
 bit
@@ -534,9 +532,9 @@ sys
 platform
 =
 =
-"
+'
 darwin
-"
+'
 and
 sys
 .
@@ -560,14 +558,14 @@ copy
             
 myenv
 [
-"
+'
 PYTHONPATH
-"
+'
 ]
 =
-"
+'
 :
-"
+'
 .
 join
 (
@@ -582,7 +580,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -590,21 +587,20 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_normal_broad
 .
 ini
 "
 ]
-            
+                                          
 cwd
 =
 here
-            
 env
 =
 myenv
-        
 )
         
 p
@@ -634,9 +630,9 @@ p
 expectedfail
 =
 (
-"
+'
 returncode
-"
+'
 )
 )
     
@@ -669,14 +665,14 @@ path
 join
 (
 here
-"
+'
 scripts
-"
-"
+'
+'
 infinite_loop
 .
 py
-"
+'
 )
         
 p
@@ -749,14 +745,14 @@ path
 join
 (
 here
-"
+'
 scripts
-"
-"
+'
+'
 infinite_loop
 .
 py
-"
+'
 )
         
 p
@@ -770,9 +766,9 @@ self
 .
 python
 script
-"
+'
 deadlock
-"
+'
 ]
 )
         
@@ -813,9 +809,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

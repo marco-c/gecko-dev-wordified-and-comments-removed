@@ -181,11 +181,11 @@ RaptorLogger
 (
 component
 =
-"
+'
 raptor
 -
 mitmproxy
-"
+'
 )
 try
 :
@@ -243,7 +243,6 @@ execute
 via
 a
 subharness
-    
 either
 Raptor
 or
@@ -369,9 +368,9 @@ False
         
 conditioned_profile_scenario
 =
-"
+'
 settled
-"
+'
         
 chimera
 =
@@ -644,7 +643,7 @@ using_condprof
 =
 not
 (
-            
+             
 (
 self
 .
@@ -674,7 +673,7 @@ processor
 aarch64
 "
 )
-            
+             
 or
 self
 .
@@ -693,7 +692,7 @@ mozilla
 .
 fennec_aurora
 "
-            
+             
 or
 self
 .
@@ -716,7 +715,7 @@ browser
 .
 raptor
 "
-            
+             
 or
 self
 .
@@ -993,9 +992,9 @@ self
 .
 config
 [
-"
+'
 run_local
-"
+'
 ]
         
 self
@@ -1047,6 +1046,7 @@ post_startup_delay
 min
 (
 post_startup_delay
+                                              
 POST_DELAY_DEBUG
 )
             
@@ -1501,8 +1501,11 @@ get_profile
 (
                 
 temp_download_dir
+                
 platform
+                
 profile_scenario
+                
 repo
 =
 repo
@@ -1519,8 +1522,11 @@ get_profile
 (
                 
 temp_download_dir
+                
 platform
+                
 profile_scenario
+                
 repo
 =
 alternate_repo
@@ -1616,8 +1622,11 @@ format
 (
                     
 cond_prof_target_dir
+                    
 temp_download_dir
+                    
 platform
+                    
 profile_scenario
                 
 )
@@ -1678,27 +1687,23 @@ self
 .
 config
 [
-"
+'
 app
-"
+'
 ]
 in
 [
-            
-"
+'
 chrome
-"
-            
-"
+'
+'
 chromium
-"
-            
-"
+'
+'
 chrome
 -
 m
-"
-        
+'
 ]
 :
             
@@ -3038,14 +3043,15 @@ playback_files
 "
 :
 [
-                    
 os
 .
 path
 .
 join
 (
+                    
 playback_dir
+                    
 test
 .
 get
@@ -3054,8 +3060,8 @@ get
 playback_pageset_manifest
 "
 )
-)
                 
+)
 ]
             
 }
@@ -3563,7 +3569,6 @@ browser_version
 raise
 Exception
 (
-                    
 "
 Could
 not
@@ -3575,7 +3580,6 @@ Chrome
 for
 Android
 "
-                
 )
         
 if

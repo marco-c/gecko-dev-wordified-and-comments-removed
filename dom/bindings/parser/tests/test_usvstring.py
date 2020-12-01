@@ -24,7 +24,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -44,7 +43,6 @@ svs
 "
 "
 "
-    
 )
     
 results
@@ -54,6 +52,7 @@ parser
 finish
 (
 )
+;
     
 harness
 .
@@ -86,6 +85,7 @@ WebIDL
 .
 IDLInterface
 )
+               
 "
 Should
 be
@@ -105,7 +105,6 @@ harness
 .
 check
 (
-        
 iface
 .
 identifier
@@ -118,6 +117,7 @@ QName
 :
 TestUSVString
 "
+                  
 "
 Interface
 has
@@ -125,14 +125,12 @@ the
 right
 QName
 "
-    
 )
     
 harness
 .
 check
 (
-        
 iface
 .
 identifier
@@ -141,6 +139,7 @@ name
 "
 TestUSVString
 "
+                  
 "
 Interface
 has
@@ -148,7 +147,6 @@ the
 right
 name
 "
-    
 )
     
 harness
@@ -220,7 +218,6 @@ harness
 .
 check
 (
-        
 attr
 .
 identifier
@@ -236,13 +233,13 @@ TestUSVString
 :
 svs
 "
+                  
 "
 Attr
 has
 correct
 QName
 "
-    
 )
     
 harness
@@ -278,6 +275,7 @@ type
 "
 USVString
 "
+                  
 "
 Attr
 type

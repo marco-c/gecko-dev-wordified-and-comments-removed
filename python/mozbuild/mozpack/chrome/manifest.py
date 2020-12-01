@@ -47,9 +47,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Base
 class
@@ -166,9 +166,9 @@ in
 entries
 .
     
-"
-"
-"
+'
+'
+'
     
 localized
 =
@@ -182,41 +182,41 @@ allowed_flags
 =
 [
         
-"
+'
 application
-"
+'
         
-"
+'
 platformversion
-"
+'
         
-"
+'
 os
-"
+'
         
-"
+'
 osversion
-"
+'
         
-"
+'
 abi
-"
+'
         
-"
+'
 xpcnativewrappers
-"
+'
         
-"
+'
 tablet
-"
+'
         
-"
+'
 process
-"
+'
         
-"
+'
 contentaccessible
-"
+'
     
 ]
     
@@ -230,9 +230,9 @@ flags
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Initialize
 a
@@ -247,9 +247,9 @@ and
 flags
 .
         
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -289,8 +289,7 @@ errors
 .
 fatal
 (
-                
-"
+'
 %
 s
 unsupported
@@ -299,13 +298,12 @@ for
 s
 manifest
 entries
-"
-                
+'
 %
+                         
 (
-                    
-"
-"
+'
+'
 .
 join
 (
@@ -316,6 +314,7 @@ in
 self
 .
 flags
+                                   
 if
 f
 not
@@ -324,13 +323,10 @@ self
 .
 allowed_flags
 )
-                    
 self
 .
 type
-                
 )
-            
 )
     
 def
@@ -342,9 +338,9 @@ args
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Serialize
 the
@@ -352,9 +348,9 @@ manifest
 entry
 .
         
-"
-"
-"
+'
+'
+'
         
 entry
 =
@@ -390,8 +386,8 @@ flags
 )
         
 return
-"
-"
+'
+'
 .
 join
 (
@@ -452,14 +448,14 @@ self
 :
         
 return
-"
+'
 <
 %
 s
 %
 s
 >
-"
+'
 %
 (
 str
@@ -479,9 +475,9 @@ base
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Return
 a
@@ -495,9 +491,9 @@ base
 path
 .
         
-"
-"
-"
+'
+'
+'
         
 return
 parse_manifest_line
@@ -517,9 +513,9 @@ base
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Return
 a
@@ -563,9 +559,9 @@ move
 )
 .
         
-"
-"
-"
+'
+'
+'
         
 return
 self
@@ -581,9 +577,9 @@ ManifestEntry
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Abstract
 manifest
@@ -596,9 +592,9 @@ path
 definition
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -652,9 +648,9 @@ base
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Return
 a
@@ -678,9 +674,9 @@ base
 directory
 .
         
-"
-"
-"
+'
+'
+'
         
 clone
 =
@@ -733,6 +729,7 @@ join
 self
 .
 base
+                                             
 self
 .
 relpath
@@ -745,9 +742,9 @@ ManifestEntryWithRelPath
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Class
 for
@@ -768,15 +765,15 @@ another
 .
 manifest
     
-"
-"
-"
+'
+'
+'
     
 type
 =
-"
+'
 manifest
-"
+'
 class
 ManifestChrome
 (
@@ -784,9 +781,9 @@ ManifestEntryWithRelPath
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Abstract
 class
@@ -795,9 +792,9 @@ chrome
 entries
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -856,9 +853,9 @@ ManifestChrome
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Class
 for
@@ -875,15 +872,15 @@ content
 global
 /
     
-"
-"
-"
+'
+'
+'
     
 type
 =
-"
+'
 content
-"
+'
     
 allowed_flags
 =
@@ -893,13 +890,13 @@ allowed_flags
 +
 [
         
-"
+'
 contentaccessible
-"
+'
         
-"
+'
 platform
-"
+'
     
 ]
     
@@ -929,9 +926,9 @@ ManifestChrome
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Abstract
 class
@@ -951,9 +948,9 @@ skin
 entries
 .
     
-"
-"
-"
+'
+'
+'
     
 type
 =
@@ -1019,9 +1016,9 @@ ManifestMultiContent
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Class
 for
@@ -1051,9 +1048,9 @@ content
 fr
 /
     
-"
-"
-"
+'
+'
+'
     
 localized
 =
@@ -1061,9 +1058,9 @@ True
     
 type
 =
-"
+'
 locale
-"
+'
 class
 ManifestSkin
 (
@@ -1071,9 +1068,9 @@ ManifestMultiContent
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Class
 for
@@ -1097,15 +1094,15 @@ skin
 classic
 /
     
-"
-"
-"
+'
+'
+'
     
 type
 =
-"
+'
 skin
-"
+'
 class
 ManifestOverload
 (
@@ -1113,9 +1110,9 @@ ManifestEntry
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Abstract
 class
@@ -1138,9 +1135,9 @@ style
 entries
 .
     
-"
-"
-"
+'
+'
+'
     
 type
 =
@@ -1206,9 +1203,9 @@ ManifestOverload
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Class
 for
@@ -1244,15 +1241,15 @@ viewSourceOverlay
 .
 xul
     
-"
-"
-"
+'
+'
+'
     
 type
 =
-"
+'
 overlay
-"
+'
 class
 ManifestStyle
 (
@@ -1260,9 +1257,9 @@ ManifestOverload
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Class
 for
@@ -1295,15 +1292,15 @@ browser
 skin
 /
     
-"
-"
-"
+'
+'
+'
     
 type
 =
-"
+'
 style
-"
+'
 class
 ManifestOverride
 (
@@ -1311,9 +1308,9 @@ ManifestOverload
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Class
 for
@@ -1349,15 +1346,15 @@ netError
 .
 dtd
     
-"
-"
-"
+'
+'
+'
     
 type
 =
-"
+'
 override
-"
+'
 class
 ManifestResource
 (
@@ -1365,9 +1362,9 @@ ManifestEntry
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Class
 for
@@ -1418,15 +1415,15 @@ chrome
 url
 .
     
-"
-"
-"
+'
+'
+'
     
 type
 =
-"
+'
 resource
-"
+'
     
 def
 __init__
@@ -1509,9 +1506,9 @@ u
 scheme
 !
 =
-"
+'
 jar
-"
+'
 :
             
 return
@@ -1559,9 +1556,9 @@ ManifestEntryWithRelPath
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Class
 for
@@ -1588,17 +1585,17 @@ component
 .
 dll
     
-"
-"
-"
+'
+'
+'
     
 type
 =
-"
+'
 binary
 -
 component
-"
+'
 class
 ManifestComponent
 (
@@ -1606,9 +1603,9 @@ ManifestEntryWithRelPath
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Class
 for
@@ -1634,15 +1631,15 @@ foo
 .
 js
     
-"
-"
-"
+'
+'
+'
     
 type
 =
-"
+'
 component
-"
+'
     
 def
 __init__
@@ -1699,9 +1696,9 @@ ManifestEntryWithRelPath
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Class
 for
@@ -1716,15 +1713,15 @@ foo
 .
 xpt
     
-"
-"
-"
+'
+'
+'
     
 type
 =
-"
+'
 interfaces
-"
+'
 class
 ManifestCategory
 (
@@ -1732,9 +1729,9 @@ ManifestEntry
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Class
 for
@@ -1762,15 +1759,15 @@ browser
 clh
 ;
     
-"
-"
-"
+'
+'
+'
     
 type
 =
-"
+'
 category
-"
+'
     
 def
 __init__
@@ -1842,9 +1839,9 @@ ManifestEntry
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Class
 for
@@ -1874,15 +1871,15 @@ b6b1
 94a10a8ede68
 }
     
-"
-"
-"
+'
+'
+'
     
 type
 =
-"
+'
 contract
-"
+'
     
 def
 __init__
@@ -1941,16 +1938,13 @@ MANIFESTS_TYPES
 =
 dict
 (
-    
 [
-        
 (
 c
 .
 type
 c
 )
-        
 for
 c
 in
@@ -1961,7 +1955,7 @@ globals
 values
 (
 )
-        
+                        
 if
 type
 (
@@ -1970,28 +1964,25 @@ c
 =
 =
 type
-        
 and
 issubclass
 (
 c
 ManifestEntry
 )
-        
+                        
 and
 hasattr
 (
 c
-"
+'
 type
-"
+'
 )
-        
 and
 c
 .
 type
-    
 ]
 )
 MANIFEST_RE
@@ -2001,12 +1992,12 @@ re
 compile
 (
 r
-"
+'
 ^
 #
 .
 *
-"
+'
 )
 def
 parse_manifest_line
@@ -2016,9 +2007,9 @@ line
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Parse
 a
@@ -2041,9 +2032,9 @@ ManifestEntry
 instance
 .
     
-"
-"
-"
+'
+'
+'
     
 cmd
 =
@@ -2051,8 +2042,8 @@ MANIFEST_RE
 .
 sub
 (
-"
-"
+'
+'
 line
 )
 .
@@ -2087,14 +2078,14 @@ errors
 .
 fatal
 (
-"
+'
 Unknown
 manifest
 directive
 :
 %
 s
-"
+'
 %
 cmd
 [
@@ -2130,9 +2121,9 @@ None
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Parse
 a
@@ -2140,9 +2131,9 @@ manifest
 file
 .
     
-"
-"
-"
+'
+'
+'
     
 base
 =
@@ -2250,9 +2241,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Return
 whether
@@ -2267,36 +2258,34 @@ manifest
 file
 .
     
-"
-"
-"
+'
+'
+'
     
 return
-(
-        
 path
 .
 endswith
 (
-"
+'
 .
 manifest
-"
+'
 )
-        
 and
 not
 path
 .
 endswith
 (
-"
+'
 .
 CRT
 .
 manifest
-"
+'
 )
+\
         
 and
 not
@@ -2304,13 +2293,14 @@ path
 .
 endswith
 (
-"
+'
 .
 exe
 .
 manifest
-"
+'
 )
+\
         
 and
 os
@@ -2328,5 +2318,3 @@ cose
 .
 manifest
 "
-    
-)

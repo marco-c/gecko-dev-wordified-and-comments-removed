@@ -81,11 +81,11 @@ exes
 :
 {
         
-"
+'
 adb
-"
+'
 :
-"
+'
 %
 (
 abs_sdk_dir
@@ -97,7 +97,7 @@ platform
 tools
 /
 adb
-"
+'
     
 }
     

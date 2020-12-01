@@ -21,9 +21,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
 Provides
 an
 interface
@@ -46,9 +46,9 @@ then
 written
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -75,9 +75,9 @@ targets
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Create
 a
@@ -99,9 +99,9 @@ Rule
 instance
 .
         
-"
-"
-"
+'
+'
+'
         
 targets
 =
@@ -152,9 +152,9 @@ statement
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Add
 a
@@ -175,9 +175,9 @@ variable
 assignments
 .
         
-"
-"
-"
+'
+'
+'
         
 assert
 isinstance
@@ -208,9 +208,9 @@ True
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Dump
 all
@@ -246,9 +246,9 @@ rules
 dependencies
 )
         
-"
-"
-"
+'
+'
+'
         
 all_deps
 =
@@ -314,12 +314,12 @@ fh
 .
 write
 (
-"
+'
 %
 s
 \
 n
-"
+'
 %
 statement
 )
@@ -353,9 +353,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Simple
 ordered
@@ -386,9 +386,9 @@ at
 insertion
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -508,9 +508,9 @@ replace
 os
 .
 sep
-"
+'
 /
-"
+'
 )
                 
 if
@@ -571,9 +571,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
 Class
 handling
 simple
@@ -582,7 +582,7 @@ in
 the
 form
 :
-    
+           
 target1
 target2
 .
@@ -594,18 +594,18 @@ dep2
 .
 .
 .
-            
+                   
 command1
-            
+                   
 command2
-            
+                   
 .
 .
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -656,9 +656,9 @@ targets
 )
 :
         
-"
-"
-"
+'
+'
+'
 Add
 additional
 targets
@@ -666,9 +666,9 @@ to
 the
 rule
 .
-"
-"
-"
+'
+'
+'
         
 assert
 isinstance
@@ -685,7 +685,6 @@ targets
 six
 .
 string_types
-        
 )
         
 targets
@@ -730,18 +729,18 @@ deps
 )
 :
         
-"
-"
-"
+'
+'
+'
 Add
 dependencies
 to
 the
 rule
 .
-"
-"
-"
+'
+'
+'
         
 assert
 isinstance
@@ -753,6 +752,7 @@ and
 not
 isinstance
 (
+            
 deps
 six
 .
@@ -801,18 +801,18 @@ commands
 )
 :
         
-"
-"
-"
+'
+'
+'
 Add
 commands
 to
 the
 rule
 .
-"
-"
-"
+'
+'
+'
         
 assert
 isinstance
@@ -829,7 +829,6 @@ commands
 six
 .
 string_types
-        
 )
         
 commands
@@ -873,9 +872,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 an
 iterator
@@ -884,9 +883,9 @@ the
 rule
 targets
 .
-"
-"
-"
+'
+'
+'
         
 return
 iter
@@ -903,9 +902,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 an
 iterator
@@ -914,9 +913,9 @@ the
 rule
 dependencies
 .
-"
-"
-"
+'
+'
+'
         
 return
 iter
@@ -944,9 +943,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 an
 iterator
@@ -955,9 +954,9 @@ the
 rule
 commands
 .
-"
-"
-"
+'
+'
+'
         
 return
 iter
@@ -975,9 +974,9 @@ fh
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Dump
 the
@@ -989,9 +988,9 @@ file
 handle
 .
         
-"
-"
-"
+'
+'
+'
         
 if
 not
@@ -1006,14 +1005,14 @@ fh
 .
 write
 (
-"
+'
 %
 s
 :
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
@@ -1033,13 +1032,13 @@ fh
 .
 write
 (
-"
+'
 %
 s
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
@@ -1055,10 +1054,10 @@ fh
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
         
 for
@@ -1073,14 +1072,14 @@ fh
 .
 write
 (
-"
+'
 \
 t
 %
 s
 \
 n
-"
+'
 %
 cmd
 )
@@ -1091,7 +1090,7 @@ re
 compile
 (
 r
-"
+'
 :
 (
 ?
@@ -1102,7 +1101,7 @@ r
 /
 ]
 )
-"
+'
 )
 def
 read_dep_makefile
@@ -1155,8 +1154,8 @@ rules
     
 rule
 =
-"
-"
+'
+'
     
 for
 line
@@ -1183,10 +1182,10 @@ line
 .
 startswith
 (
-"
+'
 \
 t
-"
+'
 )
         
 line
@@ -1202,10 +1201,10 @@ line
 .
 endswith
 (
-"
+'
 \
 \
-"
+'
 )
 :
             
@@ -1271,10 +1270,11 @@ split
 (
 )
 )
+\
+                      
 .
 add_dependencies
 (
-                    
 split_rule
 [
 1
@@ -1287,13 +1287,12 @@ strip
 split
 (
 )
-                
 )
             
 rule
 =
-"
-"
+'
+'
     
 if
 rule
@@ -1302,7 +1301,7 @@ rule
 raise
 Exception
 (
-"
+'
 Makefile
 finishes
 with
@@ -1313,7 +1312,7 @@ Expected
 more
 input
 .
-"
+'
 )
 def
 write_dep_makefile
@@ -1324,9 +1323,9 @@ deps
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Write
 a
@@ -1345,9 +1344,9 @@ handle
 specified
 .
     
-"
-"
-"
+'
+'
+'
     
 mk
 =

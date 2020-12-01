@@ -120,11 +120,11 @@ arg
 .
 startswith
 (
-"
+'
 -
 -
 -
-"
+'
 )
 :
             
@@ -153,10 +153,10 @@ arg
 .
 startswith
 (
-"
+'
 -
 -
-"
+'
 )
 :
             
@@ -187,9 +187,9 @@ arg
 ]
             
 if
-"
+'
 =
-"
+'
 in
 key
 :
@@ -201,9 +201,9 @@ key
 .
 split
 (
-"
+'
 =
-"
+'
 1
 )
                 
@@ -225,9 +225,9 @@ arg
 .
 startswith
 (
-"
+'
 -
-"
+'
 )
 :
             
@@ -300,14 +300,14 @@ object
     
 usage
 =
-"
+'
 %
 prog
 [
 options
 ]
 command
-"
+'
     
 def
 __init__
@@ -333,7 +333,6 @@ self
 return
 OptionParser
 (
-            
 usage
 =
 self
@@ -344,10 +343,10 @@ description
 self
 .
 __doc__
+                            
 add_help_option
 =
 False
-        
 )
 class
 Copy
@@ -358,7 +357,7 @@ CLICommand
     
 usage
 =
-"
+'
 %
 prog
 [
@@ -384,7 +383,7 @@ value2
 .
 .
 .
-"
+'
     
 def
 __call__
@@ -444,9 +443,9 @@ _parser
 (
 options
 [
-"
+'
 copy
-"
+'
 ]
 )
             
@@ -509,7 +508,7 @@ directories
     
 usage
 =
-"
+'
 %
 prog
 [
@@ -525,7 +524,7 @@ directory
 .
 .
 >
-"
+'
     
 def
 parser
@@ -547,21 +546,21 @@ parser
 .
 add_option
 (
-            
-"
+'
 -
 p
-"
-"
+'
+'
 -
 -
 pattern
-"
+'
 dest
 =
-"
+'
 pattern
-"
+'
+                          
 help
 =
 "
@@ -570,79 +569,70 @@ pattern
 for
 files
 "
-        
 )
         
 parser
 .
 add_option
 (
-            
-"
+'
 -
 i
-"
-            
-"
+'
+'
 -
 -
 ignore
-"
-            
+'
 dest
 =
-"
+'
 ignore
-"
-            
+'
+                          
 default
 =
 [
 ]
-            
 action
 =
-"
+'
 append
-"
-            
+'
+                          
 help
 =
-"
+'
 directories
 to
 ignore
-"
-        
+'
 )
         
 parser
 .
 add_option
 (
-            
-"
+'
 -
 w
-"
-            
-"
+'
+'
 -
 -
 in
 -
 place
-"
-            
+'
 dest
 =
-"
+'
 in_place
-"
-            
+'
+                          
 help
 =
-"
+'
 Write
 .
 ini
@@ -654,8 +644,7 @@ filename
 to
 write
 to
-"
-        
+'
 )
         
 return
@@ -734,27 +723,23 @@ manifest
 =
 convert
 (
-                
 args
-                
 pattern
 =
 options
 .
 pattern
-                
 ignore
 =
 options
 .
 ignore
-                
+                               
 write
 =
 options
 .
 in_place
-            
 )
         
 if
@@ -790,7 +775,7 @@ query
     
 usage
 =
-"
+'
 %
 prog
 [
@@ -818,7 +803,7 @@ value2
 .
 .
 .
-"
+'
     
 def
 __call__
@@ -872,9 +857,9 @@ _parser
 (
 options
 [
-"
+'
 write
-"
+'
 ]
 )
             
@@ -928,7 +913,7 @@ command
     
 usage
 =
-"
+'
 %
 prog
 [
@@ -938,7 +923,7 @@ help
 [
 command
 ]
-"
+'
     
 def
 __call__
@@ -1000,11 +985,11 @@ print_help
             
 print
 (
-"
+'
 \
 nCommands
 :
-"
+'
 )
             
 for
@@ -1018,13 +1003,13 @@ commands
                 
 print
 (
-"
+'
 %
 s
 :
 %
 s
-"
+'
 %
 (
 command
@@ -1069,7 +1054,7 @@ directory
     
 usage
 =
-"
+'
 %
 prog
 [
@@ -1095,7 +1080,7 @@ value2
 .
 .
 .
-"
+'
     
 def
 __call__
@@ -1155,9 +1140,9 @@ _parser
 (
 options
 [
-"
+'
 update
-"
+'
 ]
 )
             
@@ -1197,28 +1182,27 @@ kwargs
 commands
 =
 {
-    
-"
+'
 create
-"
+'
 :
 CreateCLI
-    
-"
+            
+'
 help
-"
+'
 :
 HelpCLI
-    
-"
+            
+'
 update
-"
+'
 :
 UpdateCLI
-    
-"
+            
+'
 write
-"
+'
 :
 WriteCLI
 }
@@ -1249,7 +1233,7 @@ point
     
 usage
 =
-"
+'
 %
 prog
 [
@@ -1261,7 +1245,7 @@ command
 .
 .
 .
-"
+'
     
 description
 =
@@ -1298,43 +1282,38 @@ parser
 .
 add_option
 (
-        
-"
+'
 -
 s
-"
-        
-"
+'
+'
 -
 -
 strict
-"
-        
+'
 dest
 =
-"
+'
 strict
-"
-        
+'
+                      
 action
 =
-"
+'
 store_true
-"
-        
+'
 default
 =
 False
-        
+                      
 help
 =
-"
+'
 adhere
 strictly
 to
 errors
-"
-    
+'
 )
     
 parser
@@ -1391,7 +1370,6 @@ parser
 .
 error
 (
-            
 "
 Command
 must
@@ -1409,11 +1387,11 @@ s
 '
 )
 "
-            
 %
+                     
 (
-"
-"
+'
+'
 .
 join
 (
@@ -1428,7 +1406,6 @@ keys
 )
 command
 )
-        
 )
     
 handler
@@ -1454,9 +1431,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

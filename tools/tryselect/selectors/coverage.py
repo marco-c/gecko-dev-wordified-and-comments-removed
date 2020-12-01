@@ -140,7 +140,6 @@ hashlib
 .
 sha256
 (
-        
 six
 .
 ensure_binary
@@ -156,7 +155,6 @@ build
 topsrcdir
 )
 )
-    
 )
 .
 hexdigest
@@ -174,13 +172,13 @@ join
 get_state_dir
 (
 )
-"
+'
 cache
-"
+'
 root_hash
-"
+'
 chunk_mapping
-"
+'
 )
     
 if
@@ -211,11 +209,11 @@ path
 join
 (
 cache_dir
-"
+'
 chunk_mapping
 .
 sqlite
-"
+'
 )
     
 CHUNK_MAPPING_TAG_FILE
@@ -227,33 +225,33 @@ path
 join
 (
 cache_dir
-"
+'
 chunk_mapping_tag
 .
 json
-"
+'
 )
 PLATFORM_MAP
 =
 {
     
-"
+'
 linux
-"
+'
 :
-"
+'
 test
 -
 linux64
 /
 opt
-"
+'
     
-"
+'
 windows
-"
+'
 :
-"
+'
 test
 -
 windows10
@@ -261,39 +259,39 @@ windows10
 64
 /
 opt
-"
+'
 }
 OPT_TASK_PATTERNS
 =
 [
     
-"
+'
 macosx64
 /
 opt
-"
+'
     
-"
+'
 windows10
 -
 64
 /
 opt
-"
+'
     
-"
+'
 windows7
 -
 32
 /
 opt
-"
+'
     
-"
+'
 linux64
 /
 opt
-"
+'
 ]
 class
 CoverageParser
@@ -304,9 +302,9 @@ BaseTryParser
     
 name
 =
-"
+'
 coverage
-"
+'
     
 arguments
 =
@@ -316,12 +314,12 @@ arguments
 common_groups
 =
 [
-"
+'
 push
-"
-"
+'
+'
 task
-"
+'
 ]
     
 task_configs
@@ -365,9 +363,9 @@ read_test_manifests
 )
 :
     
-"
-"
-"
+'
+'
+'
 Uses
 TestResolver
 to
@@ -427,9 +425,9 @@ require
 them
 it
     
-"
-"
-"
+'
+'
+'
     
 test_resolver
 =
@@ -485,18 +483,18 @@ add
 (
 test
 [
-"
+'
 srcdir_relpath
-"
+'
 ]
 )
         
 if
-"
+'
 support
 -
 files
-"
+'
 not
 in
 test
@@ -509,11 +507,11 @@ support_file_pattern
 in
 test
 [
-"
+'
 support
 -
 files
-"
+'
 ]
 .
 split
@@ -526,10 +524,10 @@ support_file_pattern
 .
 startswith
 (
-"
+'
 !
 /
-"
+'
 )
 :
                 
@@ -546,9 +544,9 @@ support_file_pattern
 .
 startswith
 (
-"
+'
 /
-"
+'
 )
 :
                 
@@ -571,7 +569,6 @@ path
 .
 normpath
 (
-                    
 os
 .
 path
@@ -580,19 +577,19 @@ join
 (
 test
 [
-"
+'
 dir_relpath
-"
+'
 ]
+                                                                     
 support_file_pattern
 )
-                
 )
             
 if
-"
+'
 *
-"
+'
 not
 in
 support_file_pattern
@@ -607,9 +604,9 @@ append
 (
 test
 [
-"
+'
 srcdir_relpath
-"
+'
 ]
 )
                 
@@ -636,9 +633,9 @@ append
 (
 test
 [
-"
+'
 srcdir_relpath
-"
+'
 ]
 )
     
@@ -665,9 +662,9 @@ with
 open
 (
 CHUNK_MAPPING_TAG_FILE
-"
+'
 r
-"
+'
 )
 as
 f
@@ -685,9 +682,9 @@ f
 if
 tags
 [
-"
+'
 target_revision
-"
+'
 ]
 =
 =
@@ -701,12 +698,12 @@ else
                 
 print
 (
-"
+'
 Base
 revision
 changed
 .
-"
+'
 )
     
 except
@@ -718,19 +715,19 @@ ValueError
         
 print
 (
-"
+'
 Chunk
 mapping
 file
 not
 found
 .
-"
+'
 )
     
 CHUNK_MAPPING_URL_TEMPLATE
 =
-"
+'
 https
 :
 /
@@ -779,11 +776,11 @@ chunk_mapping
 tar
 .
 xz
-"
+'
     
 JSON_PUSHES_URL_TEMPLATE
 =
-"
+'
 https
 :
 /
@@ -814,7 +811,7 @@ startdate
 =
 {
 }
-"
+'
     
 PUSH_HISTORY_DAYS
 =
@@ -847,7 +844,7 @@ delta
 .
 strftime
 (
-"
+'
 %
 Y
 -
@@ -856,7 +853,7 @@ m
 -
 %
 d
-"
+'
 )
     
 pushes_url
@@ -876,13 +873,13 @@ get
 (
 pushes_url
 +
-"
+'
 &
 tochange
 =
 {
 }
-"
+'
 .
 format
 (
@@ -895,31 +892,30 @@ json
 )
     
 if
-"
+'
 error
-"
+'
 in
 pushes_data
 :
         
 if
-"
+'
 unknown
 revision
-"
+'
 in
 pushes_data
 [
-"
+'
 error
-"
+'
 ]
 :
             
 print
 (
-                
-"
+'
 unknown
 revision
 {
@@ -930,15 +926,12 @@ latest
 mozilla
 -
 central
-"
+'
 .
 format
 (
-                    
 base_revision
-                
 )
-            
 )
             
 pushes_data
@@ -955,9 +948,9 @@ json
 )
         
 if
-"
+'
 error
-"
+'
 in
 pushes_data
 :
@@ -967,9 +960,9 @@ Exception
 (
 pushes_data
 [
-"
+'
 error
-"
+'
 ]
 )
     
@@ -977,14 +970,14 @@ pushes
 =
 pushes_data
 [
-"
+'
 pushes
-"
+'
 ]
     
 print
 (
-"
+'
 Looking
 for
 coverage
@@ -998,16 +991,16 @@ minute
 or
 two
 .
-"
+'
 )
     
 print
 (
-"
+'
 Base
 revision
 :
-"
+'
 base_revision
 )
     
@@ -1037,9 +1030,9 @@ pushes
 push_id
 ]
 [
-"
+'
 changesets
-"
+'
 ]
 [
 0
@@ -1056,7 +1049,7 @@ rev
         
 print
 (
-"
+'
 push
 id
 :
@@ -1067,7 +1060,7 @@ trevision
 :
 {
 }
-"
+'
 .
 format
 (
@@ -1096,7 +1089,7 @@ continue
         
 print
 (
-"
+'
 Chunk
 mapping
 found
@@ -1104,7 +1097,7 @@ downloading
 .
 .
 .
-"
+'
 )
         
 r
@@ -1130,22 +1123,22 @@ join
 build
 .
 topsrcdir
-"
+'
 chunk_mapping
 .
 tar
 .
 xz
-"
+'
 )
         
 with
 open
 (
 CHUNK_MAPPING_ARCHIVE
-"
+'
 wb
-"
+'
 )
 as
 f
@@ -1173,25 +1166,20 @@ subprocess
 .
 check_call
 (
-            
 [
-                
-"
+'
 tar
-"
-                
-"
+'
+'
 -
 xJf
-"
-                
+'
 CHUNK_MAPPING_ARCHIVE
-                
-"
+                              
+'
 -
 C
-"
-                
+'
 os
 .
 path
@@ -1200,9 +1188,7 @@ dirname
 (
 CHUNK_MAPPING_FILE
 )
-            
 ]
-        
 )
         
 os
@@ -1226,9 +1212,9 @@ with
 open
 (
 CHUNK_MAPPING_TAG_FILE
-"
+'
 w
-"
+'
 )
 as
 f
@@ -1238,31 +1224,27 @@ json
 .
 dump
 (
-                
 {
-                    
-"
+'
 target_revision
-"
+'
 :
 base_revision
-                    
-"
+                       
+'
 chunk_mapping_revision
-"
+'
 :
 rev
-                    
-"
+                       
+'
 download_date
-"
+'
 :
 start_time
-                
 }
-                
+                      
 f
-            
 )
         
 return
@@ -1270,7 +1252,7 @@ return
 raise
 Exception
 (
-"
+'
 Could
 not
 find
@@ -1278,7 +1260,7 @@ suitable
 coverage
 data
 .
-"
+'
 )
 def
 is_a_test
@@ -1288,9 +1270,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
 Checks
 the
 all_tests
@@ -1313,9 +1295,9 @@ test
 file
 .
     
-"
-"
-"
+'
+'
+'
     
 if
 path
@@ -1330,7 +1312,7 @@ cursor
 .
 execute
 (
-"
+'
 SELECT
 COUNT
 (
@@ -1342,7 +1324,7 @@ WHERE
 path
 =
 ?
-"
+'
 (
 path
 )
@@ -1366,7 +1348,7 @@ cursor
 .
 execute
 (
-"
+'
 SELECT
 COUNT
 (
@@ -1378,7 +1360,7 @@ WHERE
 test
 =
 ?
-"
+'
 (
 path
 )
@@ -1408,9 +1390,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
 Returns
 a
 set
@@ -1423,15 +1405,16 @@ given
 source
 file
 .
-"
-"
-"
+    
+'
+'
+'
     
 cursor
 .
 execute
 (
-"
+'
 SELECT
 test
 FROM
@@ -1440,7 +1423,7 @@ WHERE
 source
 =
 ?
-"
+'
 (
 path
 )
@@ -1471,9 +1454,9 @@ chunk
 )
 :
     
-"
-"
-"
+'
+'
+'
 Returns
 a
 set
@@ -1487,16 +1470,16 @@ a
 given
 chunk
 .
-"
-"
-"
+    
+'
+'
+'
     
 cursor
 .
 execute
 (
-        
-"
+'
 SELECT
 path
 FROM
@@ -1509,12 +1492,12 @@ AND
 chunk
 =
 ?
-"
+'
+                   
 (
 platform
 chunk
 )
-    
 )
     
 return
@@ -1527,8 +1510,8 @@ e
 .
 split
 (
-"
-"
+'
+'
 )
 [
 0
@@ -1550,9 +1533,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
 Returns
 a
 set
@@ -1572,15 +1555,16 @@ given
 source
 file
 .
-"
-"
-"
+    
+'
+'
+'
     
 cursor
 .
 execute
 (
-"
+'
 SELECT
 platform
 chunk
@@ -1590,7 +1574,7 @@ WHERE
 path
 =
 ?
-"
+'
 (
 path
 )
@@ -1612,9 +1596,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
 Returns
 a
 set
@@ -1632,9 +1616,10 @@ support
 -
 file
 .
-"
-"
-"
+    
+'
+'
+'
     
 return
 set
@@ -1651,9 +1636,9 @@ changed_files
 )
 :
     
-"
-"
-"
+'
+'
+'
 Finds
 both
 individual
@@ -1756,9 +1741,9 @@ be
 run
 .
     
-"
-"
-"
+'
+'
+'
     
 test_files
 =
@@ -1896,13 +1881,13 @@ s
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 /
-"
+'
 )
 for
 s
@@ -1958,13 +1943,13 @@ test
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 /
-"
+'
 )
 )
             
@@ -1994,9 +1979,9 @@ test_chunks
 )
 :
     
-"
-"
-"
+'
+'
+'
 Print
 a
 summary
@@ -2012,9 +1997,10 @@ user
 s
 terminal
 .
-"
-"
-"
+    
+'
+'
+'
     
 files_covered
 =
@@ -2050,8 +2036,7 @@ files_covered
         
 print
 (
-            
-"
+'
 Found
 {
 }
@@ -2062,18 +2047,15 @@ with
 test
 coverage
 :
-"
+'
 .
 format
 (
-                
 len
 (
 files_covered
 )
-            
 )
-        
 )
         
 for
@@ -2084,10 +2066,10 @@ files_covered
             
 print
 (
-"
+'
 \
 t
-"
+'
 covered
 )
     
@@ -2097,8 +2079,7 @@ files_no_coverage
         
 print
 (
-            
-"
+'
 Found
 {
 }
@@ -2109,18 +2090,15 @@ with
 no
 coverage
 :
-"
+'
 .
 format
 (
-                
 len
 (
 files_no_coverage
 )
-            
 )
-        
 )
         
 for
@@ -2131,10 +2109,10 @@ files_no_coverage
             
 print
 (
-"
+'
 \
 t
-"
+'
 f
 )
     
@@ -2145,7 +2123,7 @@ files_covered
         
 print
 (
-"
+'
 No
 modified
 source
@@ -2155,7 +2133,7 @@ covered
 by
 tests
 .
-"
+'
 )
     
 elif
@@ -2165,7 +2143,7 @@ files_no_coverage
         
 print
 (
-"
+'
 All
 modified
 source
@@ -2175,7 +2153,7 @@ covered
 by
 tests
 .
-"
+'
 )
     
 if
@@ -2184,7 +2162,7 @@ test_files
         
 print
 (
-"
+'
 Running
 {
 }
@@ -2192,7 +2170,7 @@ individual
 test
 files
 .
-"
+'
 .
 format
 (
@@ -2208,7 +2186,7 @@ else
         
 print
 (
-"
+'
 Could
 not
 find
@@ -2218,7 +2196,7 @@ tests
 to
 run
 .
-"
+'
 )
     
 if
@@ -2227,14 +2205,14 @@ test_chunks
         
 print
 (
-"
+'
 Running
 {
 }
 test
 chunks
 .
-"
+'
 .
 format
 (
@@ -2254,10 +2232,10 @@ test_chunks
             
 print
 (
-"
+'
 \
 t
-"
+'
 platform
 chunk
 )
@@ -2267,7 +2245,7 @@ else
         
 print
 (
-"
+'
 Could
 not
 find
@@ -2277,7 +2255,7 @@ chunks
 to
 run
 .
-"
+'
 )
 def
 filter_tasks_by_chunks
@@ -2287,9 +2265,9 @@ chunks
 )
 :
     
-"
-"
-"
+'
+'
+'
 Find
 all
 tasks
@@ -2300,9 +2278,10 @@ the
 given
 chunks
 .
-"
-"
-"
+    
+'
+'
+'
     
 selected_tasks
 =
@@ -2350,7 +2329,6 @@ if
 not
 any
 (
-                
 task
 [
 len
@@ -2373,26 +2351,21 @@ in
 chunk
 chunk
 +
-"
+'
 -
 e10s
-"
+'
 ]
-            
 )
 :
                 
 continue
             
 assert
-(
-                
 selected_task
 is
 None
-            
-)
-"
+'
 Only
 one
 task
@@ -2420,16 +2393,14 @@ and
 }
 were
 selected
-"
+'
 .
 format
 (
-                
 platform
 chunk
 selected_task
 task
-            
 )
             
 selected_task
@@ -2444,7 +2415,7 @@ None
             
 print
 (
-"
+'
 Warning
 :
 no
@@ -2452,7 +2423,7 @@ task
 found
 for
 chunk
-"
+'
 platform
 chunk
 )
@@ -2479,9 +2450,9 @@ task
 )
 :
     
-"
-"
-"
+'
+'
+'
 True
 if
 the
@@ -2517,9 +2488,9 @@ debug
 tasks
 .
     
-"
-"
-"
+'
+'
+'
     
 return
 any
@@ -2535,32 +2506,26 @@ OPT_TASK_PATTERNS
 def
 run
 (
-    
 try_config
 =
 {
 }
-    
 full
 =
 False
-    
 parameters
 =
 None
-    
 push
 =
 True
-    
 message
 =
-"
+'
 {
 msg
 }
-"
-    
+'
 closed_tree
 =
 False
@@ -2604,7 +2569,7 @@ test_chunks
         
 print
 (
-"
+'
 ERROR
 Could
 not
@@ -2616,7 +2581,7 @@ chunks
 to
 run
 .
-"
+'
 )
         
 return
@@ -2686,7 +2651,7 @@ tasks
         
 print
 (
-"
+'
 ERROR
 Did
 not
@@ -2697,7 +2662,7 @@ tasks
 after
 filtering
 .
-"
+'
 )
         
 return
@@ -2706,8 +2671,7 @@ return
 test_count_message
 =
 (
-        
-"
+'
 {
 test_count
 }
@@ -2717,20 +2681,20 @@ file
 test_plural
 }
 that
-"
-        
+'
 +
-"
+                          
+'
 cover
 {
 test_singular
 }
 these
 changes
-"
-        
+'
 +
-"
+                          
+'
 (
 {
 task_count
@@ -2743,8 +2707,7 @@ to
 be
 scheduled
 )
-"
-    
+'
 )
 .
 format
@@ -2759,8 +2722,8 @@ test_files
         
 test_plural
 =
-"
-"
+'
+'
 if
 len
 (
@@ -2770,15 +2733,15 @@ test_files
 =
 1
 else
-"
+'
 s
-"
+'
         
 test_singular
 =
-"
+'
 s
-"
+'
 if
 len
 (
@@ -2788,8 +2751,8 @@ test_files
 =
 1
 else
-"
-"
+'
+'
         
 task_count
 =
@@ -2800,8 +2763,8 @@ tasks
         
 task_plural
 =
-"
-"
+'
+'
 if
 len
 (
@@ -2811,17 +2774,16 @@ tasks
 =
 1
 else
-"
+'
 s
-"
-    
+'
 )
     
 print
 (
-"
+'
 Found
-"
+'
 +
 test_count_message
 )
@@ -2829,16 +2791,15 @@ test_count_message
 path_env
 =
 {
-        
-"
+'
 MOZHARNESS_TEST_PATHS
-"
+'
 :
 six
 .
 ensure_text
 (
-            
+        
 json
 .
 dumps
@@ -2848,18 +2809,16 @@ resolve_tests_by_suite
 test_files
 )
 )
-        
 )
-    
 }
     
 try_config
 .
 setdefault
 (
-"
+'
 env
-"
+'
 {
 }
 )
@@ -2871,22 +2830,20 @@ path_env
     
 msg
 =
-"
+'
 try
 coverage
 -
-"
+'
 +
 test_count_message
     
 return
 push_to_try
 (
-        
-"
+'
 coverage
-"
-        
+'
 message
 .
 format
@@ -2895,24 +2852,22 @@ msg
 =
 msg
 )
-        
+                       
 try_task_config
 =
 generate_try_task_config
 (
-"
+'
 coverage
-"
+'
 tasks
 try_config
 )
-        
+                       
 push
 =
 push
-        
 closed_tree
 =
 closed_tree
-    
 )

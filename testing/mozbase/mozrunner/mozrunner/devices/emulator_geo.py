@@ -74,7 +74,7 @@ emulator
 .
 _run_telnet
 (
-"
+'
 geo
 fix
 %
@@ -85,7 +85,7 @@ fix
 0
 .
 5f
-"
+'
 %
 (
 self

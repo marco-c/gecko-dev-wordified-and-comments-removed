@@ -39,7 +39,6 @@ node
 raise
 Exception
 (
-            
 "
 INTERNAL
 ERROR
@@ -54,6 +53,7 @@ s
 '
 "
 %
+                        
 (
 node
 .
@@ -61,7 +61,6 @@ __class__
 .
 __name__
 )
-        
 )
     
 def
@@ -430,12 +429,12 @@ __init__
 self
 filename
 =
-"
+'
 <
 ?
 ?
 >
-"
+'
 lineno
 =
 0
@@ -465,13 +464,13 @@ self
 :
         
 return
-"
+'
 %
 r
 :
 %
 r
-"
+'
 %
 (
 self
@@ -490,13 +489,13 @@ self
 :
         
 return
-"
+'
 %
 s
 :
 %
 s
-"
+'
 %
 (
 self
@@ -514,12 +513,12 @@ Loc
 (
 filename
 =
-"
+'
 <
 ?
 ?
 >
-"
+'
 lineno
 =
 0
@@ -564,9 +563,9 @@ visit
 getattr
 (
 visitor
-"
+'
 visit
-"
+'
 +
 self
 .
@@ -586,9 +585,9 @@ return
 getattr
 (
 visitor
-"
+'
 defaultVisit
-"
+'
 )
 (
 self
@@ -702,6 +701,7 @@ loc
 self
 .
 name
+                           
 [
 ns
 .
@@ -800,7 +800,6 @@ self
 cxxInclude
 )
 :
-        
 self
 .
 cxxIncludes
@@ -817,7 +816,6 @@ self
 inc
 )
 :
-        
 self
 .
 includes
@@ -834,7 +832,6 @@ self
 struct
 )
 :
-        
 self
 .
 structsAndUnions
@@ -851,7 +848,6 @@ self
 union
 )
 :
-        
 self
 .
 structsAndUnions
@@ -868,7 +864,6 @@ self
 using
 )
 :
-        
 self
 .
 using
@@ -885,7 +880,6 @@ self
 protocol
 )
 :
-        
 self
 .
 protocol
@@ -947,25 +941,25 @@ loc
         
 suffix
 =
-"
+'
 ipdl
-"
+'
         
 if
 type
 =
 =
-"
+'
 header
-"
+'
 :
             
 suffix
 +
 =
-"
+'
 h
-"
+'
         
 self
 .
@@ -993,29 +987,22 @@ Node
 def
 __init__
 (
-        
 self
-        
 loc
-        
 cxxTypeSpec
-        
 cxxHeader
 =
 None
-        
 kind
 =
 None
-        
+                 
 refcounted
 =
 False
-        
 moveonly
 =
 False
-    
 )
 :
         
@@ -1054,16 +1041,16 @@ or
 kind
 =
 =
-"
+'
 class
-"
+'
 or
 kind
 =
 =
-"
+'
 struct
-"
+'
         
 self
 .
@@ -1128,9 +1115,9 @@ self
 kind
 =
 =
-"
+'
 class
-"
+'
     
 def
 isStruct
@@ -1145,9 +1132,9 @@ self
 kind
 =
 =
-"
+'
 struct
-"
+'
     
 def
 isRefcounted
@@ -1184,7 +1171,6 @@ __hash__
 cls
 )
 :
-        
 return
 hash_str
 (
@@ -1201,7 +1187,6 @@ __str__
 cls
 )
 :
-        
 return
 cls
 .
@@ -1215,9 +1200,9 @@ PrettyPrinted
     
 pretty
 =
-"
+'
 async
-"
+'
 class
 TAINTED
 (
@@ -1227,9 +1212,9 @@ PrettyPrinted
     
 pretty
 =
-"
+'
 tainted
-"
+'
 class
 INTR
 (
@@ -1239,9 +1224,9 @@ PrettyPrinted
     
 pretty
 =
-"
+'
 intr
-"
+'
 class
 SYNC
 (
@@ -1251,9 +1236,9 @@ PrettyPrinted
     
 pretty
 =
-"
+'
 sync
-"
+'
 class
 INOUT
 (
@@ -1263,9 +1248,9 @@ PrettyPrinted
     
 pretty
 =
-"
+'
 inout
-"
+'
 class
 IN
 (
@@ -1275,9 +1260,9 @@ PrettyPrinted
     
 pretty
 =
-"
+'
 in
-"
+'
 class
 OUT
 (
@@ -1287,9 +1272,9 @@ PrettyPrinted
     
 pretty
 =
-"
+'
 out
-"
+'
 class
 Namespace
 (
@@ -1622,22 +1607,22 @@ self
 .
 compress
 =
-"
-"
+'
+'
         
 self
 .
 tainted
 =
-"
-"
+'
+'
         
 self
 .
 verify
 =
-"
-"
+'
+'
     
 def
 addInParams
@@ -1688,9 +1673,9 @@ modifier
 .
 startswith
 (
-"
+'
 compress
-"
+'
 )
 :
                 
@@ -1704,9 +1689,9 @@ elif
 modifier
 =
 =
-"
+'
 verify
-"
+'
 :
                 
 self
@@ -1720,9 +1705,9 @@ modifier
 .
 startswith
 (
-"
+'
 tainted
-"
+'
 )
 :
                 
@@ -1736,8 +1721,8 @@ elif
 modifier
 !
 =
-"
-"
+'
+'
 :
                 
 raise
@@ -1864,7 +1849,6 @@ __str__
 self
 )
 :
-        
 return
 str
 (
@@ -1977,10 +1961,10 @@ self
 baseid
         
 return
-"
+'
 :
 :
-"
+'
 .
 join
 (
@@ -1989,10 +1973,10 @@ self
 quals
 )
 +
-"
+'
 :
 :
-"
+'
 +
 self
 .

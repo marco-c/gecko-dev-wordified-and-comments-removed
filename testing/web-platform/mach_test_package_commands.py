@@ -98,17 +98,16 @@ self
 context
 .
 package_root
-"
+'
 web
 -
 platform
-"
-"
+'
+'
 wptrunner
 .
 ini
-"
-            
+'
 )
         
 if
@@ -159,21 +158,19 @@ path
 .
 join
 (
-                
 self
 .
 context
 .
 package_root
-"
+'
 web
 -
 platform
-"
+'
 "
 prefs
 "
-            
 )
         
 if
@@ -205,9 +202,9 @@ self
 context
 .
 bin_dir
-"
+'
 certutil
-"
+'
 )
         
 if
@@ -258,7 +255,6 @@ path
 .
 join
 (
-                
 self
 .
 context
@@ -269,6 +265,7 @@ web
 -
 platform
 "
+                                     
 "
 tests
 "
@@ -278,7 +275,6 @@ tools
 "
 certs
 "
-            
 )
             
 if
@@ -337,7 +333,6 @@ path
 .
 join
 (
-                    
 cert_root
 "
 web
@@ -348,7 +343,6 @@ test
 .
 key
 "
-                
 )
             
 if
@@ -375,7 +369,6 @@ path
 .
 join
 (
-                    
 cert_root
 "
 web
@@ -386,7 +379,6 @@ test
 .
 pem
 "
-                
 )
         
 kwargs
@@ -400,7 +392,6 @@ True
         
 if
 (
-            
 kwargs
 [
 "
@@ -409,7 +400,6 @@ exclude
 ]
 is
 None
-            
 and
 kwargs
 [
@@ -419,7 +409,7 @@ include
 ]
 is
 None
-            
+           
 and
 not
 sys
@@ -432,7 +422,6 @@ startswith
 linux
 "
 )
-        
 )
 :
             
@@ -473,7 +462,6 @@ path
 .
 join
 (
-                
 self
 .
 context
@@ -482,7 +470,6 @@ bin_dir
 "
 geckodriver
 "
-            
 )
         
 return
@@ -520,11 +507,13 @@ platform
 -
 tests
 "
+             
 category
 =
 "
 testing
 "
+             
 parser
 =
 create_parser_wpt
@@ -558,7 +547,6 @@ self
 .
 _mach_context
 )
-        
 )
 .
 run
@@ -573,11 +561,13 @@ Command
 "
 wpt
 "
+             
 category
 =
 "
 testing
 "
+             
 parser
 =
 create_parser_wpt

@@ -393,6 +393,7 @@ is
 preferred
 .
 "
+                
 %
 sys
 .
@@ -414,9 +415,9 @@ environ
 .
 get
 (
-"
+'
 VIRTUAL_ENV
-"
+'
 )
 :
             
@@ -464,7 +465,6 @@ subprocess
 .
 check_output
 (
-            
 [
 pip3
 "
@@ -481,7 +481,6 @@ MozPhab
 universal_newlines
 =
 True
-        
 )
         
 mozphab_package_location
@@ -609,7 +608,6 @@ path
 .
 realpath
 (
-            
 os
 .
 path
@@ -617,12 +615,12 @@ path
 join
 (
 mozphab_package_location
+                                                       
 potential_cli_paths
 [
 0
 ]
 )
-        
 )
         
 subprocess
@@ -631,10 +629,10 @@ run
 (
 [
 console_script
-"
+'
 install
 -
 certificate
-"
+'
 ]
 )

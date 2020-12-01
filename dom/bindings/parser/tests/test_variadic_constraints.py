@@ -17,7 +17,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -45,7 +44,6 @@ arg2
 "
 "
 "
-        
 )
         
 results
@@ -67,9 +65,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 have
@@ -81,11 +78,11 @@ followed
 by
 required
 "
+               
 "
 argument
 .
 "
-    
 )
     
 parser
@@ -107,7 +104,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -136,7 +132,6 @@ arg2
 "
 "
 "
-        
 )
         
 results
@@ -146,6 +141,7 @@ parser
 finish
 (
 )
+;
     
 except
 :
@@ -158,9 +154,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 have
@@ -172,11 +167,11 @@ followed
 by
 optional
 "
+               
 "
 argument
 .
 "
-    
 )
     
 parser
@@ -198,7 +193,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -225,7 +219,6 @@ arg1
 "
 "
 "
-        
 )
         
 results
@@ -247,9 +240,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 have
@@ -261,11 +253,11 @@ explicitly
 flagged
 as
 "
+               
 "
 optional
 .
 "
-    
 )
     
 parser
@@ -287,7 +279,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -315,7 +306,6 @@ arg1
 "
 "
 "
-        
 )
         
 results

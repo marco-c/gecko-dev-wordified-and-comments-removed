@@ -114,12 +114,14 @@ h
 _fields_
 =
 [
+        
 (
 "
 X
 "
 SHORT
 )
+        
 (
 "
 Y
@@ -150,24 +152,28 @@ h
 _fields_
 =
 [
+        
 (
 "
 Left
 "
 SHORT
 )
+        
 (
 "
 Top
 "
 SHORT
 )
+        
 (
 "
 Right
 "
 SHORT
 )
+        
 (
 "
 Bottom
@@ -233,7 +239,6 @@ dwMaximumWindowSize
 "
 COORD
 )
-    
 ]
 STD_INPUT_HANDLE
 =
@@ -366,51 +371,51 @@ COLOR
 =
 {
         
-"
+'
 black
-"
+'
 :
 0x0000
         
-"
+'
 blue
-"
+'
 :
 0x0001
         
-"
+'
 green
-"
+'
 :
 0x0002
         
-"
+'
 cyan
-"
+'
 :
 0x0003
         
-"
+'
 red
-"
+'
 :
 0x0004
         
-"
+'
 magenta
-"
+'
 :
 0x0005
         
-"
+'
 yellow
-"
+'
 :
 0x0006
         
-"
+'
 gray
-"
+'
 :
 0x0007
     
@@ -459,9 +464,9 @@ color
 .
 startswith
 (
-"
+'
 bright
-"
+'
 )
 :
             
@@ -478,9 +483,9 @@ color
 [
 len
 (
-"
+'
 bright
-"
+'
 )
 :
 ]

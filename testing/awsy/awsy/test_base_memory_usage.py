@@ -59,9 +59,9 @@ CHECKPOINTS
     
 {
         
-"
+'
 name
-"
+'
 :
 "
 After
@@ -75,9 +75,9 @@ GC
 ]
 "
         
-"
+'
 path
-"
+'
 :
 "
 memory
@@ -93,23 +93,23 @@ json
 gz
 "
         
-"
+'
 name_filter
-"
+'
 :
 [
-"
+'
 web
-"
-"
+'
+'
 Web
 Content
-"
+'
 ]
         
-"
+'
 median
-"
+'
 :
 True
     
@@ -120,9 +120,9 @@ PERF_SUITES
 [
     
 {
-"
+'
 name
-"
+'
 :
 "
 Base
@@ -131,9 +131,9 @@ Resident
 Unique
 Memory
 "
-"
+'
 node
-"
+'
 :
 "
 resident
@@ -143,9 +143,9 @@ unique
 }
     
 {
-"
+'
 name
-"
+'
 :
 "
 Base
@@ -153,9 +153,9 @@ Content
 Heap
 Unclassified
 "
-"
+'
 node
-"
+'
 :
 "
 explicit
@@ -167,18 +167,18 @@ unclassified
 }
     
 {
-"
+'
 name
-"
+'
 :
 "
 Base
 Content
 JS
 "
-"
+'
 node
-"
+'
 :
 "
 js
@@ -188,9 +188,9 @@ main
 runtime
 /
 "
-"
+'
 alertThreshold
-"
+'
 :
 0
 .
@@ -198,18 +198,18 @@ alertThreshold
 }
     
 {
-"
+'
 name
-"
+'
 :
 "
 Base
 Content
 Explicit
 "
-"
+'
 node
-"
+'
 :
 "
 explicit
@@ -329,13 +329,13 @@ marionette
 .
 get_pref
 (
-"
+'
 dom
 .
 ipc
 .
 processCount
-"
+'
 )
         
 self
@@ -349,11 +349,11 @@ self
 _urls
 =
 [
-"
+'
 about
 :
 blank
-"
+'
 ]
 *
 process_count
@@ -364,7 +364,6 @@ logger
 .
 info
 (
-            
 "
 areweslimyet
 run
@@ -373,7 +372,7 @@ by
 d
 pages
 "
-            
+                         
 "
 %
 d
@@ -385,37 +384,32 @@ perTabPause
 d
 settleWaitTime
 "
-            
+                         
 "
 %
 d
 content
 processes
 "
-            
+                         
 %
 (
-                
 self
 .
 _pages_to_load
-                
 self
 .
 _iterations
-                
+                            
 self
 .
 _perTabPause
-                
 self
 .
 _settleWaitTime
-                
+                            
 process_count
-            
 )
-        
 )
         
 self
@@ -533,13 +527,13 @@ logger
 .
 info
 (
-"
+'
 re
 -
 enabling
 preallocated
 process
-"
+'
 )
         
 else
@@ -551,11 +545,11 @@ logger
 .
 info
 (
-"
+'
 disabling
 preallocated
 process
-"
+'
 )
         
 self
@@ -564,7 +558,7 @@ marionette
 .
 set_pref
 (
-"
+'
 dom
 .
 ipc
@@ -572,7 +566,7 @@ ipc
 processPrelaunch
 .
 enabled
-"
+'
 enabled
 )
     

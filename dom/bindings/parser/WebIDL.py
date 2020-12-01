@@ -62,9 +62,9 @@ string
 ]
 =
 =
-"
+'
 -
-"
+'
 :
         
 sign
@@ -94,9 +94,9 @@ string
 ]
 =
 =
-"
+'
 0
-"
+'
 and
 len
 (
@@ -113,9 +113,9 @@ string
 ]
 =
 =
-"
+'
 x
-"
+'
 or
 string
 [
@@ -123,9 +123,9 @@ string
 ]
 =
 =
-"
+'
 X
-"
+'
 :
             
 base
@@ -366,23 +366,22 @@ s
 "
 %
 (
-            
 self
 .
 warning
 and
-"
+'
 warning
-"
+'
 or
-"
+'
 error
-"
-            
+'
+                               
 self
 .
 message
-            
+                               
 "
 "
 if
@@ -398,7 +397,7 @@ locations
 else
 "
 "
-            
+                               
 "
 \
 n
@@ -410,7 +409,6 @@ self
 .
 locations
 )
-        
 )
 class
 Location
@@ -479,6 +477,7 @@ other
 :
         
 return
+(
 self
 .
 _lexpos
@@ -488,6 +487,7 @@ other
 .
 _lexpos
 and
+                
 self
 .
 _file
@@ -496,6 +496,7 @@ _file
 other
 .
 _file
+)
     
 def
 filename
@@ -532,10 +533,10 @@ _lexdata
 .
 rfind
 (
-"
+'
 \
 n
-"
+'
 0
 self
 .
@@ -552,10 +553,10 @@ _lexdata
 .
 find
 (
-"
+'
 \
 n
-"
+'
 self
 .
 _lexpos
@@ -623,10 +624,10 @@ _lexdata
 .
 count
 (
-"
+'
 \
 n
-"
+'
 0
 startofline
 )
@@ -721,29 +722,24 @@ s
 "
 %
 (
-            
 self
 .
 _file
-            
 self
 .
 _lineno
-            
 self
 .
 _colno
-            
+                                          
 self
 .
 _line
-            
 self
 .
 _pointerline
 (
 )
-        
 )
 class
 BuiltinLocation
@@ -780,12 +776,14 @@ other
 :
         
 return
+(
 isinstance
 (
 other
 BuiltinLocation
 )
 and
+                
 self
 .
 msg
@@ -794,6 +792,7 @@ msg
 other
 .
 msg
+)
     
 def
 filename
@@ -803,11 +802,11 @@ self
 :
         
 return
-"
+'
 <
 builtin
 >
-"
+'
     
 def
 resolve
@@ -1075,7 +1074,7 @@ on
 If
 any
 of
-        
+            
 these
 files
 are
@@ -1088,12 +1087,12 @@ be
 rerun
 to
 regenerate
-        
+            
 a
 new
 IDLObject
 .
-        
+            
 The
 visited
 argument
@@ -1107,7 +1106,7 @@ objects
 already
 visited
 .
-        
+            
 We
 must
 test
@@ -1125,7 +1124,7 @@ do
 nothing
 .
 This
-        
+            
 prevents
 infinite
 recursion
@@ -1379,7 +1378,7 @@ object
 "
 "
 "
-        
+            
 Ensure
 that
 there
@@ -1398,7 +1397,7 @@ self
 '
 )
 .
-        
+            
 Note
 that
 object
@@ -1415,7 +1414,7 @@ up
 here
 for
 an
-        
+            
 interface
 type
 we
@@ -1500,9 +1499,9 @@ self
 .
 resolveIdentifierConflict
 (
-                
 self
 identifier
+                                                         
 self
 .
 _dict
@@ -1511,8 +1510,8 @@ identifier
 .
 name
 ]
+                                                         
 object
-            
 )
             
 self
@@ -1555,21 +1554,20 @@ newObject
         
 if
 (
-            
 isinstance
 (
 originalObject
 IDLExternalInterface
 )
-            
 and
+            
 isinstance
 (
 newObject
 IDLExternalInterface
 )
-            
 and
+            
 originalObject
 .
 identifier
@@ -1582,7 +1580,6 @@ newObject
 identifier
 .
 name
-        
 )
 :
             
@@ -1590,18 +1587,19 @@ return
 originalObject
         
 if
+(
 isinstance
 (
 originalObject
 IDLExternalInterface
 )
 or
+            
 isinstance
 (
-            
 newObject
 IDLExternalInterface
-        
+)
 )
 :
             
@@ -1641,6 +1639,7 @@ s
 identifier
 .
 name
+                    
 originalObject
 .
 location
@@ -1648,25 +1647,24 @@ newObject
 .
 location
 )
-                
 [
 ]
-            
 )
         
 if
+(
 isinstance
 (
 originalObject
 IDLDictionary
 )
 or
+            
 isinstance
 (
-            
 newObject
 IDLDictionary
-        
+)
 )
 :
             
@@ -1705,6 +1703,7 @@ s
 identifier
 .
 name
+                   
 originalObject
 .
 location
@@ -1712,23 +1711,24 @@ newObject
 .
 location
 )
-                
 [
 ]
-            
 )
         
 if
+(
 isinstance
 (
 originalObject
 IDLMethod
 )
 and
+            
 isinstance
 (
 newObject
 IDLMethod
+)
 )
 :
             
@@ -1764,19 +1764,17 @@ s
 "
 %
 (
-            
 originalObject
-            
+                                                     
 originalObject
 .
 location
-            
+                                                     
 newObject
-            
+                                                     
 newObject
 .
 location
-        
 )
         
 raise
@@ -1814,10 +1812,8 @@ self
 )
 conflictdesc
 )
-            
 [
 ]
-        
 )
     
 def
@@ -2084,17 +2080,16 @@ IDLObject
 def
 __init__
 (
-        
 self
 location
 name
 allowDoubleUnderscore
 =
 False
+                 
 allowForbidden
 =
 False
-    
 )
 :
         
@@ -2170,6 +2165,7 @@ __
 are
 reserved
 "
+                              
 [
 location
 ]
@@ -2182,9 +2178,9 @@ name
 ]
 =
 =
-"
+'
 _
-"
+'
 and
 not
 allowDoubleUnderscore
@@ -2199,6 +2195,7 @@ name
 ]
         
 if
+(
 name
 in
 [
@@ -2210,14 +2207,15 @@ toString
 "
 ]
 and
+            
 not
 allowForbidden
+)
 :
             
 raise
 WebIDLError
 (
-                
 "
 Cannot
 use
@@ -2232,10 +2230,10 @@ s
 (
 name
 )
+                              
 [
 location
 ]
-            
 )
         
 self
@@ -2546,7 +2544,6 @@ except
 raise
 WebIDLError
 (
-                
 "
 Unresolved
 type
@@ -2560,12 +2557,12 @@ s
 self
 .
 identifier
+                              
 [
 self
 .
 location
 ]
-            
 )
         
 obj
@@ -2589,6 +2586,8 @@ obj
 )
 class
 IDLExposureMixins
+(
+)
 :
     
 def
@@ -2668,7 +2667,6 @@ globalNames
 raise
 WebIDLError
 (
-                    
 "
 Unknown
 [
@@ -2680,12 +2678,12 @@ s
 "
 %
 globalName
+                                  
 [
 self
 .
 _location
 ]
-                
 )
         
 if
@@ -2701,6 +2699,7 @@ globalNames
 :
             
 if
+(
 len
 (
 self
@@ -2710,14 +2709,13 @@ _exposureGlobalNames
 =
 =
 0
+)
 :
                 
 raise
 WebIDLError
 (
-                    
 (
-                        
 "
 '
 %
@@ -2732,7 +2730,7 @@ though
 we
 have
 "
-                        
+                                   
 "
 globals
 to
@@ -2740,18 +2738,15 @@ be
 exposed
 to
 "
-                    
 )
-                    
 %
 self
-                    
+                                  
 [
 self
 .
 location
 ]
-                
 )
         
 globalNameSetToExposureSet
@@ -2760,6 +2755,7 @@ scope
 self
 .
 _exposureGlobalNames
+                                   
 self
 .
 exposureSet
@@ -2773,9 +2769,9 @@ self
 :
         
 return
-"
+'
 Window
-"
+'
 in
 self
 .
@@ -3149,7 +3145,6 @@ attrs
 raise
 WebIDLError
 (
-                
 "
 There
 are
@@ -3159,14 +3154,14 @@ attributes
 that
 are
 "
-                
+                              
 "
 allowed
 on
 external
 interfaces
 "
-                
+                              
 [
 attrs
 [
@@ -3178,7 +3173,6 @@ self
 .
 location
 ]
-            
 )
     
 def
@@ -3499,7 +3493,6 @@ SecureContext
 raise
 WebIDLError
 (
-                            
 "
 [
 SecureContext
@@ -3509,7 +3502,7 @@ on
 both
 a
 "
-                            
+                                          
 "
 partial
 interface
@@ -3518,13 +3511,13 @@ and
 on
 the
 "
-                            
+                                          
 "
 partial
 interface
 itself
 "
-                            
+                                          
 [
 member
 .
@@ -3533,7 +3526,6 @@ attr
 .
 location
 ]
-                        
 )
                     
 member
@@ -3577,7 +3569,6 @@ _exposureGlobalNames
 raise
 WebIDLError
 (
-                            
 "
 [
 Exposed
@@ -3587,7 +3578,7 @@ on
 both
 a
 "
-                            
+                                          
 "
 partial
 interface
@@ -3596,13 +3587,13 @@ and
 on
 the
 "
-                            
+                                          
 "
 partial
 interface
 itself
 "
-                            
+                                          
 [
 member
 .
@@ -3611,7 +3602,6 @@ attr
 .
 location
 ]
-                        
 )
                     
 member
@@ -3629,7 +3619,6 @@ else
 raise
 WebIDLError
 (
-                    
 "
 Unknown
 extended
@@ -3639,19 +3628,18 @@ s
 on
 partial
 "
-                    
+                                  
 "
 interface
 "
 %
 identifier
-                    
+                                  
 [
 attr
 .
 location
 ]
-                
 )
     
 def
@@ -3678,26 +3666,22 @@ True
         
 if
 (
-            
 not
 self
 .
 _haveSecureContextExtendedAttribute
-            
 and
+            
 self
 .
 _nonPartialInterfaceOrNamespace
 .
 getExtendedAttribute
 (
-                
 "
 SecureContext
 "
-            
 )
-        
 )
 :
             
@@ -3723,7 +3707,6 @@ SecureContext
 raise
 WebIDLError
 (
-                        
 "
 [
 SecureContext
@@ -3733,7 +3716,7 @@ on
 both
 a
 "
-                        
+                                      
 "
 partial
 interface
@@ -3742,28 +3725,25 @@ and
 on
 the
 "
-                        
+                                      
 "
 non
 -
 partial
 interface
 "
-                        
+                                      
 [
-                            
 member
 .
 location
-                            
+                                       
 self
 .
 _nonPartialInterfaceOrNamespace
 .
 location
-                        
 ]
-                    
 )
                 
 member
@@ -3772,26 +3752,21 @@ addExtendedAttributes
 (
                     
 [
-                        
 IDLExtendedAttribute
 (
-                            
 self
 .
 _nonPartialInterfaceOrNamespace
 .
 location
-                            
+                                          
 (
 "
 SecureContext
 "
 )
-                        
 )
-                    
 ]
-                
 )
         
 self
@@ -3994,7 +3969,6 @@ _isKnownNonPartial
 raise
 WebIDLError
 (
-                
 "
 %
 s
@@ -4008,17 +3982,16 @@ partial
 declaration
 "
 %
+                              
 str
 (
 self
 )
-                
 [
 self
 .
 location
 ]
-            
 )
         
 IDLExposureMixins
@@ -4102,13 +4075,12 @@ IDLScope
 .
 resolveIdentifierConflict
 (
-            
 self
 scope
 identifier
+                                                    
 originalObject
 newObject
-        
 )
         
 if
@@ -4214,7 +4186,6 @@ _isKnownNonPartial
 raise
 WebIDLError
 (
-                
 "
 Two
 non
@@ -4224,6 +4195,7 @@ definitions
 for
 the
 "
+                              
 "
 same
 %
@@ -4235,14 +4207,13 @@ self
 typeName
 (
 )
-                
+                              
 [
 location
 self
 .
 location
 ]
-            
 )
         
 self
@@ -4431,7 +4402,6 @@ exposureSet
 raise
 WebIDLError
 (
-                    
 "
 Interface
 or
@@ -4440,7 +4410,7 @@ mixin
 member
 has
 "
-                    
+                                  
 "
 larger
 exposure
@@ -4449,7 +4419,7 @@ than
 its
 container
 "
-                    
+                                  
 [
 member
 .
@@ -4458,7 +4428,6 @@ self
 .
 location
 ]
-                
 )
     
 def
@@ -4512,12 +4481,10 @@ IDLInterfaceOrInterfaceMixinOrNamespace
 .
 __init__
 (
-            
 self
 location
 parentScope
 name
-        
 )
         
 if
@@ -4661,7 +4628,6 @@ inherit
 raise
 WebIDLError
 (
-                        
 "
 Interface
 mixin
@@ -4669,13 +4635,13 @@ member
 cannot
 include
 "
-                        
+                                      
 "
 an
 inherited
 attribute
 "
-                        
+                                      
 [
 member
 .
@@ -4684,7 +4650,6 @@ self
 .
 location
 ]
-                    
 )
                 
 if
@@ -4698,7 +4663,6 @@ isStatic
 raise
 WebIDLError
 (
-                        
 "
 Interface
 mixin
@@ -4706,12 +4670,13 @@ member
 cannot
 include
 "
+                                      
 "
 a
 static
 member
 "
-                        
+                                      
 [
 member
 .
@@ -4720,7 +4685,6 @@ self
 .
 location
 ]
-                    
 )
             
 if
@@ -4742,7 +4706,6 @@ isStatic
 raise
 WebIDLError
 (
-                        
 "
 Interface
 mixin
@@ -4750,12 +4713,13 @@ member
 cannot
 include
 "
+                                      
 "
 a
 static
 operation
 "
-                        
+                                      
 [
 member
 .
@@ -4764,46 +4728,42 @@ self
 .
 location
 ]
-                    
 )
                 
 if
 (
-                    
 member
 .
 isGetter
 (
 )
-                    
 or
+                    
 member
 .
 isSetter
 (
 )
-                    
 or
+                    
 member
 .
 isDeleter
 (
 )
-                    
 or
+                    
 member
 .
 isLegacycaller
 (
 )
-                
 )
 :
                     
 raise
 WebIDLError
 (
-                        
 "
 Interface
 mixin
@@ -4812,11 +4772,12 @@ cannot
 include
 a
 "
+                                      
 "
 special
 operation
 "
-                        
+                                      
 [
 member
 .
@@ -4825,7 +4786,6 @@ self
 .
 location
 ]
-                    
 )
     
 def
@@ -4871,7 +4831,6 @@ noArguments
 raise
 WebIDLError
 (
-                        
 "
 [
 %
@@ -4884,12 +4843,12 @@ arguments
 "
 %
 identifier
+                                      
 [
 attr
 .
 location
 ]
-                    
 )
                 
 for
@@ -4914,7 +4873,6 @@ SecureContext
 raise
 WebIDLError
 (
-                            
 "
 [
 SecureContext
@@ -4923,7 +4881,7 @@ specified
 on
 both
 "
-                            
+                                          
 "
 an
 interface
@@ -4932,14 +4890,14 @@ member
 and
 on
 "
-                            
+                                          
 "
 the
 interface
 mixin
 itself
 "
-                            
+                                          
 [
 member
 .
@@ -4948,7 +4906,6 @@ attr
 .
 location
 ]
-                        
 )
                     
 member
@@ -4972,6 +4929,7 @@ Exposed
 convertExposedAttrToGlobalNameSet
 (
 attr
+                                                  
 self
 .
 _exposureGlobalNames
@@ -4983,7 +4941,6 @@ else
 raise
 WebIDLError
 (
-                    
 "
 Unknown
 extended
@@ -4995,13 +4952,12 @@ interface
 "
 %
 identifier
-                    
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 attrlist
@@ -5058,6 +5014,7 @@ parentScope
 name
 parent
 members
+                 
 isKnownNonPartial
 )
 :
@@ -5177,12 +5134,10 @@ IDLInterfaceOrInterfaceMixinOrNamespace
 .
 __init__
 (
-            
 self
 location
 parentScope
 name
-        
 )
         
 if
@@ -5209,17 +5164,16 @@ identifier
 =
 IDLUnresolvedIdentifier
 (
-            
 self
 .
 location
 "
 constructor
 "
+                                             
 allowForbidden
 =
 True
-        
 )
         
 try
@@ -5248,12 +5202,11 @@ self
         
 return
 (
-            
 self
 .
 maplikeOrSetlikeOrIterable
-            
 and
+                
 self
 .
 maplikeOrSetlikeOrIterable
@@ -5261,7 +5214,6 @@ maplikeOrSetlikeOrIterable
 isIterable
 (
 )
-        
 )
     
 def
@@ -5332,7 +5284,6 @@ hasInterfaceObject
 raise
 WebIDLError
 (
-                    
 "
 Interface
 %
@@ -5343,7 +5294,7 @@ has
 LegacyWindowAlias
 ]
 "
-                    
+                                  
 "
 and
 [
@@ -5357,13 +5308,12 @@ self
 identifier
 .
 name
-                    
+                                  
 [
 self
 .
 location
 ]
-                
 )
             
 if
@@ -5378,7 +5328,6 @@ isExposedInWindow
 raise
 WebIDLError
 (
-                    
 "
 Interface
 %
@@ -5388,7 +5337,7 @@ has
 LegacyWindowAlias
 ]
 "
-                    
+                                  
 "
 but
 not
@@ -5402,13 +5351,12 @@ self
 identifier
 .
 name
-                    
+                                  
 [
 self
 .
 location
 ]
-                
 )
         
 for
@@ -5436,7 +5384,6 @@ maplikeOrSetlikeOrIterable
 raise
 WebIDLError
 (
-                        
 "
 %
 s
@@ -5444,7 +5391,7 @@ declaration
 used
 on
 "
-                        
+                                      
 "
 interface
 that
@@ -5453,37 +5400,35 @@ has
 %
 s
 "
-                        
+                                      
 "
 declaration
 "
-                        
 %
+                                      
 (
-                            
 member
 .
 maplikeOrSetlikeOrIterableType
-                            
+                                       
 self
 .
 maplikeOrSetlikeOrIterable
 .
 maplikeOrSetlikeOrIterableType
-                        
 )
-                        
+                                      
 [
 self
 .
 maplikeOrSetlikeOrIterable
 .
 location
+                                       
 member
 .
 location
 ]
-                    
 )
                 
 self
@@ -5498,7 +5443,6 @@ maplikeOrSetlikeOrIterable
 .
 expand
 (
-                    
 self
 .
 members
@@ -5507,7 +5451,6 @@ self
 isJSImplemented
 (
 )
-                
 )
         
 assert
@@ -5554,7 +5497,6 @@ IDLExternalInterface
 raise
 WebIDLError
 (
-                
 "
 %
 s
@@ -5567,18 +5509,20 @@ does
 not
 have
 "
-                
+                              
 "
 a
 definition
 "
 %
+                              
 (
 self
 .
 identifier
 .
 name
+                               
 self
 .
 parent
@@ -5587,13 +5531,12 @@ identifier
 .
 name
 )
-                
+                              
 [
 self
 .
 location
 ]
-            
 )
         
 if
@@ -5610,7 +5553,6 @@ IDLInterface
 raise
 WebIDLError
 (
-                
 "
 %
 s
@@ -5624,14 +5566,15 @@ not
 an
 interface
 "
-                
 %
+                              
 (
 self
 .
 identifier
 .
 name
+                               
 self
 .
 parent
@@ -5640,7 +5583,7 @@ identifier
 .
 name
 )
-                
+                              
 [
 self
 .
@@ -5649,7 +5592,6 @@ parent
 .
 location
 ]
-            
 )
         
 self
@@ -5713,7 +5655,6 @@ isStatic
 raise
 WebIDLError
 (
-                            
 "
 Don
 '
@@ -5723,11 +5664,12 @@ things
 explicitly
 static
 "
+                                          
 "
 in
 namespaces
 "
-                            
+                                          
 [
 self
 .
@@ -5736,7 +5678,6 @@ m
 .
 location
 ]
-                        
 )
                     
 m
@@ -5794,7 +5735,6 @@ Global
 raise
 WebIDLError
 (
-                    
 "
 [
 Global
@@ -5804,12 +5744,13 @@ has
 another
 interface
 "
+                                  
 "
 inheriting
 from
 it
 "
-                    
+                                  
 [
 self
 .
@@ -5820,7 +5761,6 @@ parent
 .
 location
 ]
-                
 )
             
 if
@@ -5842,7 +5782,6 @@ exposureSet
 raise
 WebIDLError
 (
-                    
 "
 Interface
 %
@@ -5854,7 +5793,7 @@ globals
 where
 its
 "
-                    
+                                  
 "
 parent
 interface
@@ -5865,14 +5804,15 @@ not
 exposed
 .
 "
-                    
 %
+                                  
 (
 self
 .
 identifier
 .
 name
+                                   
 self
 .
 parent
@@ -5881,7 +5821,7 @@ identifier
 .
 name
 )
-                    
+                                  
 [
 self
 .
@@ -5892,7 +5832,6 @@ parent
 .
 location
 ]
-                
 )
             
 if
@@ -5917,7 +5856,6 @@ isCallback
 raise
 WebIDLError
 (
-                        
 "
 Callback
 interface
@@ -5926,7 +5864,7 @@ s
 inheriting
 from
 "
-                        
+                                      
 "
 non
 -
@@ -5935,14 +5873,15 @@ interface
 %
 s
 "
-                        
 %
+                                      
 (
 self
 .
 identifier
 .
 name
+                                       
 self
 .
 parent
@@ -5951,7 +5890,7 @@ identifier
 .
 name
 )
-                        
+                                      
 [
 self
 .
@@ -5962,7 +5901,6 @@ parent
 .
 location
 ]
-                    
 )
             
 elif
@@ -5978,7 +5916,6 @@ isCallback
 raise
 WebIDLError
 (
-                    
 "
 Non
 -
@@ -5989,21 +5926,22 @@ s
 inheriting
 from
 "
-                    
+                                  
 "
 callback
 interface
 %
 s
 "
-                    
 %
+                                  
 (
 self
 .
 identifier
 .
 name
+                                   
 self
 .
 parent
@@ -6012,7 +5950,7 @@ identifier
 .
 name
 )
-                    
+                                  
 [
 self
 .
@@ -6023,23 +5961,22 @@ parent
 .
 location
 ]
-                
 )
             
 if
+(
 self
 .
 parent
 .
 getExtendedAttribute
 (
-                
 "
 NoInterfaceObject
 "
-            
 )
 and
+                
 not
 self
 .
@@ -6049,12 +5986,12 @@ getExtendedAttribute
 NoInterfaceObject
 "
 )
+)
 :
                 
 raise
 WebIDLError
 (
-                    
 "
 Interface
 %
@@ -6063,7 +6000,7 @@ does
 not
 have
 "
-                    
+                                  
 "
 [
 NoInterfaceObject
@@ -6072,7 +6009,7 @@ but
 inherits
 from
 "
-                    
+                                  
 "
 interface
 %
@@ -6080,14 +6017,15 @@ s
 which
 does
 "
-                    
 %
+                                  
 (
 self
 .
 identifier
 .
 name
+                                   
 self
 .
 parent
@@ -6096,7 +6034,7 @@ identifier
 .
 name
 )
-                    
+                                  
 [
 self
 .
@@ -6107,23 +6045,22 @@ parent
 .
 location
 ]
-                
 )
             
 if
+(
 self
 .
 parent
 .
 getExtendedAttribute
 (
-                
 "
 SecureContext
 "
-            
 )
 and
+                
 not
 self
 .
@@ -6133,12 +6070,12 @@ getExtendedAttribute
 SecureContext
 "
 )
+)
 :
                 
 raise
 WebIDLError
 (
-                    
 "
 Interface
 %
@@ -6147,7 +6084,7 @@ does
 not
 have
 "
-                    
+                                  
 "
 [
 SecureContext
@@ -6156,7 +6093,7 @@ but
 inherits
 from
 "
-                    
+                                  
 "
 interface
 %
@@ -6164,14 +6101,15 @@ s
 which
 does
 "
-                    
 %
+                                  
 (
 self
 .
 identifier
 .
 name
+                                   
 self
 .
 parent
@@ -6180,7 +6118,7 @@ identifier
 .
 name
 )
-                    
+                                  
 [
 self
 .
@@ -6191,7 +6129,6 @@ parent
 .
 location
 ]
-                
 )
         
 for
@@ -6250,7 +6187,6 @@ cycleInGraph
 .
 location
 ]
-            
 )
         
 self
@@ -6310,7 +6246,6 @@ ctor
 .
 location
 ]
-                
 )
             
 if
@@ -6345,10 +6280,10 @@ ctor
 .
 location
 ]
-                
 )
             
 assert
+(
 ctor
 .
 _exposureGlobalNames
@@ -6357,6 +6292,7 @@ _exposureGlobalNames
 self
 .
 _exposureGlobalNames
+)
             
 ctor
 .
@@ -6419,7 +6355,6 @@ ctor
 .
 location
 ]
-                
 )
             
 assert
@@ -6470,6 +6405,7 @@ sorted
 self
 .
 includedMixins
+                            
 key
 =
 lambda
@@ -6534,8 +6470,8 @@ includes
 '
 statements
 "
-                            
 %
+                            
 (
 member
 .
@@ -6553,7 +6489,6 @@ member
 .
 location
 ]
-                        
 )
             
 self
@@ -6588,29 +6523,26 @@ self
             
 if
 (
-                
 ancestor
 .
 maplikeOrSetlikeOrIterable
 is
 not
 None
-                
 and
+                
 self
 .
 maplikeOrSetlikeOrIterable
 is
 not
 None
-            
 )
 :
                 
 raise
 WebIDLError
 (
-                    
 "
 Cannot
 have
@@ -6622,7 +6554,7 @@ on
 s
 that
 "
-                    
+                                  
 "
 inherits
 %
@@ -6631,43 +6563,41 @@ which
 is
 already
 "
-                    
+                                  
 "
 maplike
 /
 setlike
 "
-                    
 %
+                                  
 (
 self
 .
 identifier
 .
 name
+                                   
 ancestor
 .
 identifier
 .
 name
 )
-                    
+                                  
 [
-                        
 self
 .
 maplikeOrSetlikeOrIterable
 .
 location
-                        
+                                   
 ancestor
 .
 maplikeOrSetlikeOrIterable
 .
 location
-                    
 ]
-                
 )
         
 if
@@ -6708,7 +6638,6 @@ members
 raise
 WebIDLError
 (
-                    
 "
 Unforgeable
 interface
@@ -6719,7 +6648,7 @@ not
 have
 a
 "
-                    
+                                  
 "
 stringifier
 "
@@ -6729,13 +6658,12 @@ self
 identifier
 .
 name
-                    
+                                  
 [
 self
 .
 location
 ]
-                
 )
             
 for
@@ -6762,7 +6690,6 @@ toJSON
 raise
 WebIDLError
 (
-                        
 "
 Unforgeable
 interface
@@ -6771,7 +6698,7 @@ s
 has
 a
 "
-                        
+                                      
 "
 toJSON
 so
@@ -6784,7 +6711,7 @@ able
 to
 add
 "
-                        
+                                      
 "
 one
 ourselves
@@ -6795,7 +6722,7 @@ self
 identifier
 .
 name
-                        
+                                      
 [
 self
 .
@@ -6804,7 +6731,6 @@ m
 .
 location
 ]
-                    
 )
                 
 if
@@ -6830,7 +6756,6 @@ isStatic
 raise
 WebIDLError
 (
-                        
 "
 Unforgeable
 interface
@@ -6840,7 +6765,7 @@ has
 a
 valueOf
 "
-                        
+                                      
 "
 member
 so
@@ -6854,7 +6779,7 @@ to
 add
 one
 "
-                        
+                                      
 "
 ourselves
 "
@@ -6864,7 +6789,7 @@ self
 identifier
 .
 name
-                        
+                                      
 [
 self
 .
@@ -6873,7 +6798,6 @@ m
 .
 location
 ]
-                    
 )
         
 for
@@ -6886,7 +6810,6 @@ members
             
 if
 (
-                
 (
 member
 .
@@ -6900,15 +6823,15 @@ isMethod
 (
 )
 )
-                
 and
+                
 member
 .
 isUnforgeable
 (
 )
-                
 and
+                
 not
 hasattr
 (
@@ -6917,7 +6840,6 @@ member
 originatingInterface
 "
 )
-            
 )
 :
                 
@@ -6937,13 +6859,14 @@ members
             
 if
 (
-                
+(
 member
 .
 isMethod
 (
 )
 and
+                 
 member
 .
 getExtendedAttribute
@@ -6952,20 +6875,18 @@ getExtendedAttribute
 CrossOriginCallable
 "
 )
-            
 )
 or
-(
                 
+(
 member
 .
 isAttr
 (
 )
-                
 and
+                 
 (
-                    
 member
 .
 getExtendedAttribute
@@ -6974,8 +6895,8 @@ getExtendedAttribute
 CrossOriginReadable
 "
 )
-                    
 or
+                  
 member
 .
 getExtendedAttribute
@@ -6984,9 +6905,8 @@ getExtendedAttribute
 CrossOriginWritable
 "
 )
-                
 )
-            
+)
 )
 :
                 
@@ -7034,16 +6954,15 @@ members
             
 if
 (
-                
+(
 member
 .
 isAttr
 (
 )
-                
 and
+                 
 (
-                    
 member
 .
 getExtendedAttribute
@@ -7052,8 +6971,8 @@ getExtendedAttribute
 StoreInSlot
 "
 )
-                    
 or
+                  
 member
 .
 getExtendedAttribute
@@ -7062,15 +6981,15 @@ getExtendedAttribute
 Cached
 "
 )
-                
 )
-            
 )
 or
+                
 member
 .
 isMaplikeOrSetlike
 (
+)
 )
 :
                 
@@ -7092,7 +7011,6 @@ isMaplikeOrSetlike
 raise
 WebIDLError
 (
-                        
 "
 Interface
 %
@@ -7104,7 +7022,7 @@ implemented
 and
 we
 "
-                        
+                                      
 "
 don
 '
@@ -7118,7 +7036,7 @@ or
 StoreInSlot
 ]
 "
-                        
+                                      
 "
 on
 JS
@@ -7127,12 +7045,13 @@ implemented
 interfaces
 "
 %
+                                      
 self
 .
 identifier
 .
 name
-                        
+                                      
 [
 self
 .
@@ -7141,7 +7060,6 @@ member
 .
 location
 ]
-                    
 )
                 
 if
@@ -7210,9 +7128,7 @@ for
 unforgeableMember
 in
 (
-                
 member
-                
 for
 member
 in
@@ -7221,8 +7137,8 @@ self
 parent
 .
 members
-                
 if
+                                      
 (
 member
 .
@@ -7237,29 +7153,27 @@ isMethod
 )
 )
 and
+                                      
 member
 .
 isUnforgeable
 (
 )
-            
 )
 :
                 
 shadows
 =
 [
-                    
 m
-                    
 for
 m
 in
 self
 .
 members
-                    
 if
+                           
 (
 m
 .
@@ -7273,16 +7187,16 @@ isMethod
 (
 )
 )
-                    
 and
+                           
 not
 m
 .
 isStatic
 (
 )
-                    
 and
+                           
 m
 .
 identifier
@@ -7295,7 +7209,6 @@ unforgeableMember
 identifier
 .
 name
-                
 ]
                 
 if
@@ -7322,6 +7235,7 @@ s
 location
 for
 s
+                                                           
 in
 shadows
 ]
@@ -7329,7 +7243,6 @@ shadows
 raise
 WebIDLError
 (
-                        
 "
 Interface
 %
@@ -7339,30 +7252,30 @@ shadows
 Unforgeable
 ]
 "
-                        
+                                      
 "
 members
 of
 %
 s
 "
-                        
 %
+                                      
 (
 self
 .
 identifier
 .
 name
+                                       
 ancestor
 .
 identifier
 .
 name
 )
-                        
+                                      
 locs
-                    
 )
                 
 self
@@ -7398,12 +7311,11 @@ maplikeOrSetlikeOrIterable
 .
 checkCollisions
 (
-                    
 testInterface
 .
 members
+                                                                
 isAncestor
-                
 )
                 
 isAncestor
@@ -7516,6 +7428,7 @@ else
 continue
             
 if
+(
 memberType
 !
 =
@@ -7529,6 +7442,7 @@ memberType
 "
 legacycallers
 "
+)
 :
                 
 if
@@ -7574,7 +7488,6 @@ specialMembersSeen
 raise
 WebIDLError
 (
-                    
 "
 Multiple
 "
@@ -7590,26 +7503,23 @@ s
 (
 self
 )
-                    
+                                  
 [
-                        
 self
 .
 location
-                        
+                                   
 specialMembersSeen
 [
 memberType
 ]
 .
 location
-                        
+                                   
 member
 .
 location
-                    
 ]
-                
 )
             
 specialMembersSeen
@@ -7666,7 +7576,6 @@ self
 .
 location
 ]
-                
 )
             
 ancestor
@@ -7724,7 +7633,6 @@ ancestor
 .
 location
 ]
-                    
 )
                 
 ancestor
@@ -7773,7 +7681,6 @@ specialMembersSeen
 raise
 WebIDLError
 (
-                        
 "
 Interface
 with
@@ -7787,12 +7694,14 @@ named
 s
 "
 %
+                                      
 memberType
-                        
+                                      
 [
 self
 .
 location
+                                       
 specialMembersSeen
 [
 memberId
@@ -7800,7 +7709,6 @@ memberId
 .
 location
 ]
-                    
 )
             
 if
@@ -7817,7 +7725,6 @@ OverrideBuiltins
 raise
 WebIDLError
 (
-                    
 "
 Interface
 with
@@ -7827,18 +7734,18 @@ Global
 also
 has
 "
+                                  
 "
 [
 OverrideBuiltins
 ]
 "
-                    
+                                  
 [
 self
 .
 location
 ]
-                
 )
             
 parent
@@ -7865,7 +7772,6 @@ OverrideBuiltins
 raise
 WebIDLError
 (
-                        
 "
 Interface
 with
@@ -7875,7 +7781,7 @@ Global
 inherits
 from
 "
-                        
+                                      
 "
 interface
 with
@@ -7883,7 +7789,7 @@ with
 OverrideBuiltins
 ]
 "
-                        
+                                      
 [
 self
 .
@@ -7892,7 +7798,6 @@ parent
 .
 location
 ]
-                    
 )
                 
 parent
@@ -7945,7 +7850,6 @@ name
 raise
 WebIDLError
 (
-                        
 "
 [
 %
@@ -7961,13 +7865,13 @@ as
 interface
 member
 "
-                        
 %
+                                      
 (
 attributeName
 name
 )
-                        
+                                      
 [
 member
 .
@@ -7976,7 +7880,6 @@ m
 .
 location
 ]
-                    
 )
                 
 if
@@ -8001,7 +7904,6 @@ aliases
 raise
 WebIDLError
 (
-                        
 "
 conflicting
 [
@@ -8014,11 +7916,12 @@ s
 definitions
 "
 %
+                                      
 (
 attributeName
 name
 )
-                        
+                                      
 [
 member
 .
@@ -8027,7 +7930,6 @@ m
 .
 location
 ]
-                    
 )
                 
 if
@@ -8052,7 +7954,6 @@ bindingAliases
 raise
 WebIDLError
 (
-                        
 "
 conflicting
 [
@@ -8065,11 +7966,12 @@ s
 definitions
 "
 %
+                                      
 (
 attributeName
 name
 )
-                        
+                                      
 [
 member
 .
@@ -8078,7 +7980,6 @@ m
 .
 location
 ]
-                    
 )
         
 if
@@ -8100,21 +8001,23 @@ hasChildInterfaces
             
 locations
 =
+(
 [
 self
 .
 location
 ]
 +
+                         
 list
 (
-                
 i
 .
 location
 for
 i
 in
+                              
 self
 .
 interfacesBasedOnSelf
@@ -8125,13 +8028,12 @@ parent
 =
 =
 self
-            
+)
 )
             
 raise
 WebIDLError
 (
-                
 "
 %
 s
@@ -8142,14 +8044,14 @@ ancestor
 interface
 "
 %
+                              
 self
 .
 identifier
 .
 name
-                
+                              
 locations
-            
 )
         
 ctor
@@ -8229,7 +8131,6 @@ Replaceable
 raise
 WebIDLError
 (
-                    
 "
 [
 Replaceable
@@ -8240,7 +8141,7 @@ an
 attribute
 on
 "
-                    
+                                  
 "
 interface
 %
@@ -8252,12 +8153,13 @@ callback
 interface
 "
 %
+                                  
 self
 .
 identifier
 .
 name
-                    
+                                  
 [
 self
 .
@@ -8266,7 +8168,6 @@ member
 .
 location
 ]
-                
 )
             
 if
@@ -8278,6 +8179,7 @@ isAttr
 :
                 
 if
+(
 member
 .
 identifier
@@ -8289,12 +8191,14 @@ name
 length
 "
 and
+                    
 member
 .
 type
 .
 isInteger
 (
+)
 )
 :
                     
@@ -8334,7 +8238,6 @@ isCallback
 raise
 WebIDLError
 (
-                        
 "
 [
 PutForwards
@@ -8344,7 +8247,7 @@ on
 an
 attribute
 "
-                        
+                                      
 "
 on
 interface
@@ -8355,7 +8258,7 @@ is
 a
 callback
 "
-                        
+                                      
 "
 interface
 "
@@ -8365,7 +8268,7 @@ self
 identifier
 .
 name
-                        
+                                      
 [
 self
 .
@@ -8374,7 +8277,6 @@ member
 .
 location
 ]
-                    
 )
                 
 while
@@ -8410,15 +8312,14 @@ members
                         
 if
 (
-                            
 not
 forwardedMember
 .
 isAttr
 (
 )
-                            
 or
+                            
 forwardedMember
 .
 identifier
@@ -8430,7 +8331,6 @@ putForwards
 [
 0
 ]
-                        
 )
 :
                             
@@ -8446,14 +8346,13 @@ member
 raise
 WebIDLError
 (
-                                
 "
 Cycle
 detected
 in
 forwarded
 "
-                                
+                                              
 "
 assignments
 for
@@ -8462,12 +8361,13 @@ attribute
 s
 on
 "
-                                
+                                              
 "
 %
 s
 "
 %
+                                              
 (
 member
 .
@@ -8476,13 +8376,12 @@ identifier
 name
 self
 )
-                                
+                                              
 [
 member
 .
 location
 ]
-                            
 )
                         
 fowardAttr
@@ -8500,7 +8399,6 @@ None
 raise
 WebIDLError
 (
-                            
 "
 Attribute
 %
@@ -8511,15 +8409,15 @@ s
 forwards
 to
 "
-                            
+                                          
 "
 missing
 attribute
 %
 s
 "
-                            
 %
+                                          
 (
 attr
 .
@@ -8529,13 +8427,12 @@ name
 iface
 putForwards
 )
-                            
+                                          
 [
 attr
 .
 location
 ]
-                        
 )
                     
 iface
@@ -8602,7 +8499,6 @@ isOnGlobalProtoChain
 raise
 WebIDLError
 (
-                            
 "
 [
 Alias
@@ -8614,7 +8510,7 @@ used
 on
 a
 "
-                            
+                                          
 "
 [
 Global
@@ -8622,18 +8518,16 @@ Global
 interface
 operation
 "
-                            
+                                          
 [
 member
 .
 location
 ]
-                        
 )
                     
 if
 (
-                        
 member
 .
 getExtendedAttribute
@@ -8642,8 +8536,8 @@ getExtendedAttribute
 Exposed
 "
 )
-                        
 or
+                        
 member
 .
 getExtendedAttribute
@@ -8652,8 +8546,8 @@ getExtendedAttribute
 ChromeOnly
 "
 )
-                        
 or
+                        
 member
 .
 getExtendedAttribute
@@ -8662,8 +8556,8 @@ getExtendedAttribute
 Pref
 "
 )
-                        
 or
+                        
 member
 .
 getExtendedAttribute
@@ -8672,8 +8566,8 @@ getExtendedAttribute
 Func
 "
 )
-                        
 or
+                        
 member
 .
 getExtendedAttribute
@@ -8682,14 +8576,12 @@ getExtendedAttribute
 SecureContext
 "
 )
-                    
 )
 :
                         
 raise
 WebIDLError
 (
-                            
 "
 [
 Alias
@@ -8701,19 +8593,18 @@ used
 on
 a
 "
-                            
+                                          
 "
 conditionally
 exposed
 operation
 "
-                            
+                                          
 [
 member
 .
 location
 ]
-                        
 )
                     
 if
@@ -8727,7 +8618,6 @@ isStatic
 raise
 WebIDLError
 (
-                            
 "
 [
 Alias
@@ -8739,17 +8629,17 @@ used
 on
 a
 "
+                                          
 "
 static
 operation
 "
-                            
+                                          
 [
 member
 .
 location
 ]
-                        
 )
                     
 if
@@ -8763,7 +8653,6 @@ isIdentifierLess
 raise
 WebIDLError
 (
-                            
 "
 [
 Alias
@@ -8775,18 +8664,17 @@ used
 on
 an
 "
-                            
+                                          
 "
 identifierless
 operation
 "
-                            
+                                          
 [
 member
 .
 location
 ]
-                        
 )
                     
 if
@@ -8800,7 +8688,6 @@ isUnforgeable
 raise
 WebIDLError
 (
-                            
 "
 [
 Alias
@@ -8812,19 +8699,19 @@ used
 on
 an
 "
+                                          
 "
 [
 Unforgeable
 ]
 operation
 "
-                            
+                                          
 [
 member
 .
 location
 ]
-                        
 )
                     
 checkDuplicateNames
@@ -8863,7 +8750,6 @@ BindingAlias
         
 if
 (
-            
 self
 .
 isExposedConditionally
@@ -8876,22 +8762,20 @@ SecureContext
 "
 ]
 )
-            
 and
+            
 not
 self
 .
 hasInterfaceObject
 (
 )
-        
 )
 :
             
 raise
 WebIDLError
 (
-                
 "
 Interface
 with
@@ -8900,17 +8784,17 @@ interface
 object
 is
 "
+                              
 "
 exposed
 conditionally
 "
-                
+                              
 [
 self
 .
 location
 ]
-            
 )
         
 if
@@ -8943,7 +8827,6 @@ indexedGetter
 raise
 WebIDLError
 (
-                        
 "
 Interface
 with
@@ -8952,13 +8835,13 @@ iterator
 does
 not
 "
-                        
+                                      
 "
 support
 indexed
 properties
 "
-                        
+                                      
 [
 self
 .
@@ -8967,7 +8850,6 @@ iterableDecl
 .
 location
 ]
-                    
 )
                 
 if
@@ -8992,7 +8874,6 @@ signatures
 raise
 WebIDLError
 (
-                        
 "
 Iterable
 type
@@ -9001,20 +8882,21 @@ not
 match
 indexed
 "
+                                      
 "
 getter
 type
 "
-                        
+                                      
 [
 iterableDecl
 .
 location
+                                       
 indexedGetter
 .
 location
 ]
-                    
 )
                 
 if
@@ -9025,16 +8907,15 @@ hasLengthAttribute
 raise
 WebIDLError
 (
-                        
-"
+'
 Interface
 with
 value
 iterator
 does
 not
-"
-                        
+'
+                                      
 '
 have
 an
@@ -9046,7 +8927,7 @@ length
 "
 attribute
 '
-                        
+                                      
 [
 self
 .
@@ -9055,7 +8936,6 @@ iterableDecl
 .
 location
 ]
-                    
 )
             
 else
@@ -9075,7 +8955,6 @@ indexedGetter
 raise
 WebIDLError
 (
-                        
 "
 Interface
 with
@@ -9083,11 +8962,12 @@ pair
 iterator
 supports
 "
+                                      
 "
 indexed
 properties
 "
-                        
+                                      
 [
 self
 .
@@ -9095,11 +8975,11 @@ location
 iterableDecl
 .
 location
+                                       
 indexedGetter
 .
 location
 ]
-                    
 )
         
 if
@@ -9112,8 +8992,7 @@ hasLengthAttribute
 raise
 WebIDLError
 (
-                
-"
+'
 Interface
 with
 an
@@ -9122,8 +9001,8 @@ getter
 does
 not
 have
-"
-                
+'
+                              
 '
 an
 integer
@@ -9134,7 +9013,7 @@ length
 "
 attribute
 '
-                
+                              
 [
 self
 .
@@ -9143,7 +9022,6 @@ indexedGetter
 .
 location
 ]
-            
 )
     
 def
@@ -9201,14 +9079,12 @@ self
 isJSImplemented
 (
 )
-            
 and
             
 not
 self
 .
 parent
-            
 and
             
 not
@@ -9226,29 +9102,25 @@ self
 .
 members
 )
-            
 and
             
 len
 (
-                
 set
 (
-                    
 m
 .
 identifier
 .
 name
-                    
 for
 m
 in
 self
 .
 members
-                    
 if
+                    
 m
 .
 isMethod
@@ -9261,15 +9133,11 @@ m
 isStatic
 (
 )
-                
 )
-            
 )
-            
 =
 =
 1
-        
 )
     
 def
@@ -9372,14 +9240,12 @@ self
         
 return
 (
-            
 not
 self
 .
 isCallback
 (
 )
-            
 and
 not
 self
@@ -9387,18 +9253,17 @@ self
 isNamespace
 (
 )
-            
+                
 and
 self
 .
 getUserData
 (
-"
+'
 hasConcreteDescendant
-"
+'
 False
 )
-        
 )
     
 def
@@ -9410,10 +9275,12 @@ includedMixin
 :
         
 assert
+(
 isinstance
 (
 includedMixin
 IDLInterfaceMixin
+)
 )
         
 self
@@ -9474,9 +9341,11 @@ derived
 "
         
 assert
+(
 self
 .
 _finished
+)
         
 if
 not
@@ -9827,6 +9696,7 @@ ChromeOnly
 "
 Func
 "
+                                    
 "
 SecureContext
 "
@@ -9846,7 +9716,6 @@ exclusions
 return
 any
 (
-            
 (
 (
 not
@@ -9862,14 +9731,12 @@ getExtendedAttribute
 a
 )
 )
-            
 for
 a
 in
 self
 .
 conditionExtendedAttributes
-        
 )
 class
 IDLInterface
@@ -9881,25 +9748,17 @@ IDLInterfaceOrNamespace
 def
 __init__
 (
-        
 self
-        
 location
-        
 parentScope
-        
 name
-        
 parent
-        
 members
-        
+                 
 isKnownNonPartial
-        
 classNameOverride
 =
 None
-    
 )
 :
         
@@ -9907,15 +9766,14 @@ IDLInterfaceOrNamespace
 .
 __init__
 (
-            
 self
 location
 parentScope
 name
+                                         
 parent
 members
 isKnownNonPartial
-        
 )
         
 self
@@ -10015,7 +9873,6 @@ TreatNonCallableAsNull
 raise
 WebIDLError
 (
-                    
 "
 TreatNonCallableAsNull
 cannot
@@ -10024,7 +9881,7 @@ specified
 on
 interfaces
 "
-                    
+                                  
 [
 attr
 .
@@ -10033,7 +9890,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -10048,7 +9904,6 @@ TreatNonObjectAsNull
 raise
 WebIDLError
 (
-                    
 "
 TreatNonObjectAsNull
 cannot
@@ -10057,7 +9912,7 @@ specified
 on
 interfaces
 "
-                    
+                                  
 [
 attr
 .
@@ -10066,7 +9921,6 @@ self
 .
 location
 ]
-                
 )
             
 elif
@@ -10090,7 +9944,6 @@ noArguments
 raise
 WebIDLError
 (
-                        
 "
 [
 NoInterfaceObject
@@ -10100,12 +9953,12 @@ take
 no
 arguments
 "
+                                      
 [
 attr
 .
 location
 ]
-                    
 )
                 
 self
@@ -10135,7 +9988,6 @@ hasValue
 raise
 WebIDLError
 (
-                        
 "
 NamedConstructor
 must
@@ -10150,13 +10002,12 @@ named
 argument
 list
 "
-                        
+                                      
 [
 attr
 .
 location
 ]
-                    
 )
                 
 args
@@ -10226,7 +10077,6 @@ Throws
 )
 )
 ]
-                
 )
                 
 method
@@ -10279,14 +10129,13 @@ namedConstructors
 raise
 WebIDLError
 (
-                        
 "
 NamedConstructor
 conflicts
 with
 a
 "
-                        
+                                      
 "
 NamedConstructor
 of
@@ -10294,7 +10143,7 @@ a
 different
 interface
 "
-                        
+                                      
 [
 method
 .
@@ -10303,16 +10152,17 @@ newMethod
 .
 location
 ]
-                    
 )
             
 elif
+(
 identifier
 =
 =
 "
 ExceptionClass
 "
+)
 :
                 
 if
@@ -10327,7 +10177,6 @@ noArguments
 raise
 WebIDLError
 (
-                        
 "
 [
 ExceptionClass
@@ -10337,12 +10186,12 @@ take
 no
 arguments
 "
+                                      
 [
 attr
 .
 location
 ]
-                    
 )
                 
 if
@@ -10354,7 +10203,6 @@ parent
 raise
 WebIDLError
 (
-                        
 "
 [
 ExceptionClass
@@ -10365,7 +10213,7 @@ be
 specified
 on
 "
-                        
+                                      
 "
 an
 interface
@@ -10373,7 +10221,7 @@ with
 inherited
 interfaces
 "
-                        
+                                      
 [
 attr
 .
@@ -10382,7 +10230,6 @@ self
 .
 location
 ]
-                    
 )
             
 elif
@@ -10453,16 +10300,15 @@ parentScope
 .
 addIfaceGlobalNames
 (
-                    
 self
 .
 identifier
 .
 name
+                                                     
 self
 .
 globalNames
-                
 )
                 
 self
@@ -10524,7 +10370,6 @@ else
 raise
 WebIDLError
 (
-                        
 "
 [
 %
@@ -10536,7 +10381,7 @@ take
 an
 identifier
 "
-                        
+                                      
 "
 or
 take
@@ -10546,13 +10391,12 @@ list
 "
 %
 identifier
-                        
+                                      
 [
 attr
 .
 location
 ]
-                    
 )
                 
 for
@@ -10605,7 +10449,6 @@ noArguments
 raise
 WebIDLError
 (
-                        
 "
 [
 %
@@ -10618,12 +10461,12 @@ arguments
 "
 %
 identifier
+                                      
 [
 attr
 .
 location
 ]
-                    
 )
                 
 for
@@ -10648,7 +10491,6 @@ SecureContext
 raise
 WebIDLError
 (
-                            
 "
 [
 SecureContext
@@ -10657,7 +10499,7 @@ specified
 on
 both
 "
-                            
+                                          
 "
 an
 interface
@@ -10666,12 +10508,12 @@ and
 on
 the
 "
-                            
+                                          
 "
 interface
 itself
 "
-                            
+                                          
 [
 member
 .
@@ -10680,7 +10522,6 @@ attr
 .
 location
 ]
-                        
 )
                     
 member
@@ -10694,86 +10535,84 @@ attr
             
 elif
 (
-                
 identifier
 =
 =
 "
 NeedResolve
 "
-                
 or
+                  
 identifier
 =
 =
 "
 OverrideBuiltins
 "
-                
 or
+                  
 identifier
 =
 =
 "
 ChromeOnly
 "
-                
 or
+                  
 identifier
 =
 =
 "
 Unforgeable
 "
-                
 or
+                  
 identifier
 =
 =
 "
 LegacyEventInit
 "
-                
 or
+                  
 identifier
 =
 =
 "
 ProbablyShortLivingWrapper
 "
-                
 or
+                  
 identifier
 =
 =
 "
 LegacyUnenumerableNamedProperties
 "
-                
 or
+                  
 identifier
 =
 =
 "
 RunConstructorInCallerCompartment
 "
-                
 or
+                  
 identifier
 =
 =
 "
 WantsEventListenerHooks
 "
-                
 or
+                  
 identifier
 =
 =
 "
 Serializable
 "
-            
 )
 :
                 
@@ -10789,7 +10628,6 @@ noArguments
 raise
 WebIDLError
 (
-                        
 "
 [
 %
@@ -10802,12 +10640,12 @@ arguments
 "
 %
 identifier
+                                      
 [
 attr
 .
 location
 ]
-                    
 )
             
 elif
@@ -10822,6 +10660,7 @@ Exposed
 convertExposedAttrToGlobalNameSet
 (
 attr
+                                                  
 self
 .
 _exposureGlobalNames
@@ -10829,46 +10668,44 @@ _exposureGlobalNames
             
 elif
 (
-                
 identifier
 =
 =
 "
 Pref
 "
-                
 or
+                  
 identifier
 =
 =
 "
 JSImplementation
 "
-                
 or
+                  
 identifier
 =
 =
 "
 HeaderFile
 "
-                
 or
+                  
 identifier
 =
 =
 "
 Func
 "
-                
 or
+                  
 identifier
 =
 =
 "
 Deprecated
 "
-            
 )
 :
                 
@@ -10884,7 +10721,6 @@ hasValue
 raise
 WebIDLError
 (
-                        
 "
 [
 %
@@ -10897,12 +10733,12 @@ value
 "
 %
 identifier
+                                      
 [
 attr
 .
 location
 ]
-                    
 )
             
 elif
@@ -10926,7 +10762,6 @@ hasArgs
 raise
 WebIDLError
 (
-                        
 "
 [
 %
@@ -10938,12 +10773,12 @@ arguments
 "
 %
 identifier
+                                      
 [
 attr
 .
 location
 ]
-                    
 )
             
 else
@@ -10952,7 +10787,6 @@ else
 raise
 WebIDLError
 (
-                    
 "
 Unknown
 extended
@@ -10964,13 +10798,12 @@ interface
 "
 %
 identifier
-                    
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 attrlist
@@ -11087,7 +10920,6 @@ parent
 .
 location
 ]
-            
 )
     
 def
@@ -11170,15 +11002,14 @@ IDLInterfaceOrNamespace
 .
 __init__
 (
-            
 self
 location
 parentScope
 name
+                                         
 None
 members
 isKnownNonPartial
-        
 )
     
 def
@@ -11247,6 +11078,7 @@ Exposed
 convertExposedAttrToGlobalNameSet
 (
 attr
+                                                  
 self
 .
 _exposureGlobalNames
@@ -11273,7 +11105,6 @@ hasValue
 raise
 WebIDLError
 (
-                        
 "
 [
 %
@@ -11286,15 +11117,16 @@ value
 "
 %
 identifier
+                                      
 [
 attr
 .
 location
 ]
-                    
 )
             
 elif
+(
 identifier
 =
 =
@@ -11302,12 +11134,14 @@ identifier
 ProtoObjectHack
 "
 or
+                  
 identifier
 =
 =
 "
 ChromeOnly
 "
+)
 :
                 
 if
@@ -11322,7 +11156,6 @@ noArguments
 raise
 WebIDLError
 (
-                        
 "
 [
 %
@@ -11335,40 +11168,38 @@ arguments
 "
 %
 identifier
+                                      
 [
 attr
 .
 location
 ]
-                    
 )
             
 elif
 (
-                
 identifier
 =
 =
 "
 Pref
 "
-                
 or
+                  
 identifier
 =
 =
 "
 HeaderFile
 "
-                
 or
+                  
 identifier
 =
 =
 "
 Func
 "
-            
 )
 :
                 
@@ -11384,7 +11215,6 @@ hasValue
 raise
 WebIDLError
 (
-                        
 "
 [
 %
@@ -11397,12 +11227,12 @@ value
 "
 %
 identifier
+                                      
 [
 attr
 .
 location
 ]
-                    
 )
             
 else
@@ -11411,7 +11241,6 @@ else
 raise
 WebIDLError
 (
-                    
 "
 Unknown
 extended
@@ -11422,14 +11251,14 @@ on
 namespace
 "
 %
+                                  
 identifier
-                    
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 attrlist
@@ -11640,6 +11469,7 @@ ancestors
 "
         
 return
+(
 all
 (
 member
@@ -11653,8 +11483,8 @@ self
 members
 )
 and
+                
 (
-            
 not
 self
 .
@@ -11667,7 +11497,7 @@ parent
 canBeEmpty
 (
 )
-        
+)
 )
     
 def
@@ -11740,7 +11570,6 @@ IDLDictionary
 raise
 WebIDLError
 (
-                    
 "
 Dictionary
 %
@@ -11753,14 +11582,14 @@ not
 a
 dictionary
 "
-                    
 %
+                                  
 self
 .
 identifier
 .
 name
-                    
+                                  
 [
 oldParent
 .
@@ -11771,7 +11600,6 @@ parent
 .
 location
 ]
-                
 )
             
 self
@@ -11892,7 +11720,6 @@ self
 raise
 WebIDLError
 (
-                    
 "
 Dictionary
 %
@@ -11904,12 +11731,13 @@ an
 ancestor
 "
 %
+                                  
 self
 .
 identifier
 .
 name
-                    
+                                  
 [
 self
 .
@@ -11917,7 +11745,6 @@ identifier
 .
 location
 ]
-                
 )
             
 inheritedMembers
@@ -11967,7 +11794,6 @@ name
 raise
 WebIDLError
 (
-                        
 "
 Dictionary
 %
@@ -11980,8 +11806,8 @@ name
 %
 s
 "
-                        
 %
+                                      
 (
 self
 .
@@ -11994,7 +11820,7 @@ identifier
 .
 name
 )
-                        
+                                      
 [
 member
 .
@@ -12003,7 +11829,6 @@ inheritedMember
 .
 location
 ]
-                    
 )
     
 def
@@ -12106,27 +11931,25 @@ False
             
 if
 (
-                
 memberType
 .
 nullable
 (
 )
-                
 or
+                
 memberType
 .
 isSequence
 (
 )
-                
 or
+                
 memberType
 .
 isRecord
 (
 )
-            
 )
 :
                 
@@ -12173,12 +11996,11 @@ locations
 =
 dictionaryContainsDictionary
 (
-                    
 memberType
 .
 inner
+                                                                     
 dictionary
-                
 )
                 
 if
@@ -12320,12 +12142,10 @@ locations
 =
 dictionaryContainsDictionary
 (
-                        
 dictMember
 .
 parent
 dictionary
-                    
 )
                     
 if
@@ -12379,7 +12199,6 @@ nullable
 raise
 WebIDLError
 (
-                    
 "
 Dictionary
 %
@@ -12389,7 +12208,7 @@ member
 with
 nullable
 "
-                    
+                                  
 "
 dictionary
 type
@@ -12400,13 +12219,12 @@ self
 identifier
 .
 name
-                    
+                                  
 [
 member
 .
 location
 ]
-                
 )
             
 (
@@ -12429,7 +12247,6 @@ contains
 raise
 WebIDLError
 (
-                    
 "
 Dictionary
 %
@@ -12442,14 +12259,14 @@ as
 type
 .
 "
-                    
 %
+                                  
 self
 .
 identifier
 .
 name
-                    
+                                  
 [
 member
 .
@@ -12457,7 +12274,6 @@ location
 ]
 +
 locations
-                
 )
     
 def
@@ -12502,6 +12318,7 @@ identifier
 )
             
 if
+(
 identifier
 =
 =
@@ -12509,12 +12326,14 @@ identifier
 GenerateInitFromJSON
 "
 or
+                
 identifier
 =
 =
 "
 GenerateInit
 "
+)
 :
                 
 if
@@ -12529,7 +12348,6 @@ noArguments
 raise
 WebIDLError
 (
-                        
 "
 [
 %
@@ -12542,12 +12360,12 @@ arguments
 "
 %
 identifier
+                                      
 [
 attr
 .
 location
 ]
-                    
 )
                 
 self
@@ -12558,7 +12376,6 @@ True
             
 elif
 (
-                
 identifier
 =
 =
@@ -12566,13 +12383,13 @@ identifier
 GenerateConversionToJS
 "
 or
+                  
 identifier
 =
 =
 "
 GenerateToJSON
 "
-            
 )
 :
                 
@@ -12588,7 +12405,6 @@ noArguments
 raise
 WebIDLError
 (
-                        
 "
 [
 %
@@ -12601,12 +12417,12 @@ arguments
 "
 %
 identifier
+                                      
 [
 attr
 .
 location
 ]
-                    
 )
                 
 self
@@ -12621,7 +12437,6 @@ else
 raise
 WebIDLError
 (
-                    
 "
 [
 %
@@ -12633,19 +12448,18 @@ not
 allowed
 on
 "
-                    
+                                  
 "
 dictionaries
 "
 %
 identifier
-                    
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 self
@@ -12674,9 +12488,11 @@ members
 )
         
 if
+(
 self
 .
 parent
+)
 :
             
 deps
@@ -12772,7 +12588,6 @@ values
 raise
 WebIDLError
 (
-                
 "
 Enum
 %
@@ -12786,10 +12601,10 @@ strings
 name
 .
 name
+                              
 [
 location
 ]
-            
 )
         
 IDLObjectWithIdentifier
@@ -12870,7 +12685,6 @@ attrs
 raise
 WebIDLError
 (
-                
 "
 There
 are
@@ -12880,12 +12694,13 @@ attributes
 that
 are
 "
+                              
 "
 allowed
 on
 enums
 "
-                
+                              
 [
 attrs
 [
@@ -12897,7 +12712,6 @@ self
 .
 location
 ]
-            
 )
     
 def
@@ -12923,122 +12737,122 @@ Tags
 enum
 (
         
-"
+'
 int8
-"
+'
         
-"
+'
 uint8
-"
+'
         
-"
+'
 int16
-"
+'
         
-"
+'
 uint16
-"
+'
         
-"
+'
 int32
-"
+'
         
-"
+'
 uint32
-"
+'
         
-"
+'
 int64
-"
+'
         
-"
+'
 uint64
-"
+'
         
-"
+'
 bool
-"
+'
         
-"
+'
 unrestricted_float
-"
+'
         
-"
+'
 float
-"
+'
         
-"
+'
 unrestricted_double
-"
+'
         
-"
+'
 double
-"
+'
         
-"
+'
 any
-"
+'
         
-"
+'
 domstring
-"
+'
         
-"
+'
 bytestring
-"
+'
         
-"
+'
 usvstring
-"
+'
         
-"
+'
 utf8string
-"
+'
         
-"
+'
 jsstring
-"
+'
         
-"
+'
 object
-"
+'
         
-"
+'
 void
-"
+'
         
-"
+'
 interface
-"
+'
         
-"
+'
 dictionary
-"
+'
         
-"
+'
 enum
-"
+'
         
-"
+'
 callback
-"
+'
         
-"
+'
 union
-"
+'
         
-"
+'
 sequence
-"
+'
         
-"
+'
 record
-"
+'
         
-"
+'
 promise
-"
-    
+'
+        
 )
     
 def
@@ -13110,14 +12924,12 @@ self
         
 return
 (
-            
 hash
 (
 self
 .
 builtin
 )
-            
 +
 hash
 (
@@ -13125,7 +12937,6 @@ self
 .
 name
 )
-            
 +
 hash
 (
@@ -13133,15 +12944,14 @@ self
 .
 _clamp
 )
-            
 +
+                
 hash
 (
 self
 .
 _enforceRange
 )
-            
 +
 hash
 (
@@ -13149,15 +12959,14 @@ self
 .
 treatNullAsEmpty
 )
-            
 +
+                
 hash
 (
 self
 .
 _allowShared
 )
-        
 )
     
 def
@@ -13170,9 +12979,7 @@ other
         
 return
 (
-            
 other
-            
 and
 self
 .
@@ -13182,7 +12989,6 @@ builtin
 other
 .
 builtin
-            
 and
 self
 .
@@ -13192,8 +12998,8 @@ name
 other
 .
 name
-            
 and
+                          
 self
 .
 _clamp
@@ -13204,7 +13010,6 @@ other
 hasClamp
 (
 )
-            
 and
 self
 .
@@ -13216,8 +13021,8 @@ other
 hasEnforceRange
 (
 )
-            
 and
+                          
 self
 .
 treatNullAsEmpty
@@ -13226,8 +13031,8 @@ treatNullAsEmpty
 other
 .
 treatNullAsEmpty
-            
 and
+                          
 self
 .
 _allowShared
@@ -13238,7 +13043,6 @@ other
 hasAllowShared
 (
 )
-        
 )
     
 def
@@ -13587,7 +13391,7 @@ an
 '
 interface
 '
-        
+            
 type
 that
 is
@@ -13600,7 +13404,7 @@ the
 moment
 this
 returns
-        
+            
 true
 for
 all
@@ -13613,7 +13417,7 @@ types
 from
 the
 TypedArray
-        
+            
 spec
 .
 "
@@ -13656,7 +13460,7 @@ an
 '
 interface
 '
-        
+            
 type
 that
 is
@@ -13682,6 +13486,7 @@ isBufferSource
 (
 )
 or
+                                       
 self
 .
 isReadableStream
@@ -13953,7 +13758,6 @@ attrs
 raise
 WebIDLError
 (
-                
 "
 Extended
 attributes
@@ -13964,7 +13768,7 @@ supported
 for
 builtins
 "
-                
+                              
 [
 attrs
 [
@@ -13976,7 +13780,6 @@ self
 .
 location
 ]
-            
 )
         
 return
@@ -14032,7 +13835,6 @@ other
 raise
 TypeError
 (
-            
 "
 Can
 '
@@ -14047,14 +13849,13 @@ or
 is
 not
 "
-            
+                        
 "
 distinguishable
 from
 other
 things
 "
-        
 )
     
 def
@@ -14077,7 +13878,7 @@ IDLType
 "
 "
 "
-    
+        
 Unresolved
 types
 are
@@ -14171,6 +13972,7 @@ s
 self
 .
 name
+                              
 [
 self
 .
@@ -14234,6 +14036,7 @@ location
 obj
 .
 innerType
+                                         
 obj
 .
 identifier
@@ -14257,11 +14060,9 @@ scope
 .
 withExtendedAttributes
 (
-                
 self
 .
 extraTypeAttributes
-            
 )
         
 elif
@@ -14354,7 +14155,6 @@ other
 raise
 TypeError
 (
-            
 "
 Can
 '
@@ -14369,14 +14169,13 @@ or
 is
 not
 "
-            
+                        
 "
 distinguishable
 from
 other
 things
 "
-        
 )
 class
 IDLParametrizedType
@@ -15219,7 +15018,6 @@ nullable
 raise
 WebIDLError
 (
-                
 "
 The
 inner
@@ -15232,12 +15030,13 @@ must
 not
 be
 "
+                              
 "
 a
 nullable
 type
 "
-                
+                              
 [
 self
 .
@@ -15248,7 +15047,6 @@ inner
 .
 location
 ]
-            
 )
         
 if
@@ -15272,7 +15070,6 @@ hasNullableType
 raise
 WebIDLError
 (
-                    
 "
 The
 inner
@@ -15284,7 +15081,7 @@ type
 must
 not
 "
-                    
+                                  
 "
 be
 a
@@ -15296,7 +15093,7 @@ has
 a
 nullable
 "
-                    
+                                  
 "
 type
 as
@@ -15304,13 +15101,11 @@ a
 member
 type
 "
-                    
 [
 self
 .
 location
 ]
-                
 )
         
 if
@@ -15334,7 +15129,6 @@ treatNullAsEmpty
 raise
 WebIDLError
 (
-                    
 "
 [
 TreatNullAs
@@ -15346,7 +15140,7 @@ a
 nullable
 DOMString
 "
-                    
+                                  
 [
 self
 .
@@ -15357,7 +15151,6 @@ inner
 .
 location
 ]
-                
 )
         
 self
@@ -15387,29 +15180,28 @@ other
         
 if
 (
-            
 other
 .
 nullable
 (
 )
-            
 or
+            
 other
 .
 isDictionary
 (
 )
-            
 or
+            
 (
-                
 other
 .
 isUnion
 (
 )
 and
+             
 (
 other
 .
@@ -15421,9 +15213,7 @@ hasDictionaryType
 (
 )
 )
-            
 )
-        
 )
 :
             
@@ -15841,55 +15631,49 @@ self
         
 return
 (
-            
 other
 .
 isPrimitive
 (
 )
-            
 or
 other
 .
 isString
 (
 )
-            
 or
 other
 .
 isEnum
 (
 )
-            
 or
+                
 other
 .
 isInterface
 (
 )
-            
 or
 other
 .
 isDictionary
 (
 )
-            
 or
+                
 other
 .
 isCallback
 (
 )
-            
 or
 other
 .
 isRecord
 (
 )
-        
 )
 class
 IDLRecordType
@@ -16211,41 +15995,36 @@ self
         
 return
 (
-            
 other
 .
 isPrimitive
 (
 )
-            
 or
 other
 .
 isString
 (
 )
-            
 or
 other
 .
 isEnum
 (
 )
-            
 or
+                
 other
 .
 isNonCallbackInterface
 (
 )
-            
 or
 other
 .
 isSequence
 (
 )
-        
 )
     
 def
@@ -16745,7 +16524,6 @@ hasNullableType
 raise
 WebIDLError
 (
-                        
 "
 Can
 '
@@ -16760,7 +16538,7 @@ in
 a
 union
 "
-                        
+                                      
 [
 nullableType
 .
@@ -16774,7 +16552,6 @@ i
 .
 location
 ]
-                    
 )
                 
 if
@@ -16788,7 +16565,6 @@ hasDictionaryType
 raise
 WebIDLError
 (
-                        
 "
 Can
 '
@@ -16800,7 +16576,7 @@ type
 and
 a
 "
-                        
+                                      
 "
 dictionary
 type
@@ -16808,15 +16584,14 @@ in
 a
 union
 "
-                        
+                                      
 [
-                            
 self
 .
 _dictionaryType
 .
 location
-                            
+                                       
 self
 .
 flatMemberTypes
@@ -16825,9 +16600,7 @@ i
 ]
 .
 location
-                        
 ]
-                    
 )
                 
 self
@@ -16885,7 +16658,6 @@ hasNullableType
 raise
 WebIDLError
 (
-                        
 "
 Can
 '
@@ -16897,7 +16669,7 @@ type
 and
 a
 "
-                        
+                                      
 "
 dictionary
 type
@@ -16905,11 +16677,12 @@ in
 a
 union
 "
-                        
+                                      
 [
 nullableType
 .
 location
+                                       
 self
 .
 flatMemberTypes
@@ -16919,7 +16692,6 @@ i
 .
 location
 ]
-                    
 )
                 
 self
@@ -17019,7 +16791,6 @@ u
 raise
 WebIDLError
 (
-                        
 "
 Flat
 member
@@ -17030,7 +16801,7 @@ union
 should
 be
 "
-                        
+                                      
 "
 distinguishable
 "
@@ -17044,7 +16815,7 @@ t
 is
 not
 "
-                        
+                                      
 "
 distinguishable
 from
@@ -17054,7 +16825,7 @@ str
 (
 u
 )
-                        
+                                      
 [
 self
 .
@@ -17066,7 +16837,6 @@ u
 .
 location
 ]
-                    
 )
         
 return
@@ -17171,7 +16941,6 @@ if
 not
 any
 (
-                
 t
 .
 unroll
@@ -17187,14 +16956,13 @@ globalName
 ]
 )
 )
-                
 for
 t
+                       
 in
 self
 .
 flatMemberTypes
-            
 )
 :
                 
@@ -17228,7 +16996,6 @@ self
         
 return
 (
-            
 self
 .
 _dictionaryType
@@ -17236,6 +17003,7 @@ is
 not
 None
 and
+                
 self
 .
 _dictionaryType
@@ -17245,7 +17013,6 @@ inner
 canBeEmpty
 (
 )
-        
 )
     
 def
@@ -17836,7 +17603,6 @@ attrs
 return
 IDLTypedefType
 (
-            
 self
 .
 location
@@ -17851,7 +17617,6 @@ attrs
 self
 .
 name
-        
 )
 class
 IDLTypedef
@@ -17994,7 +17759,6 @@ attrs
 raise
 WebIDLError
 (
-                
 "
 There
 are
@@ -18004,12 +17768,13 @@ attributes
 that
 are
 "
+                              
 "
 allowed
 on
 typedefs
 "
-                
+                              
 [
 attrs
 [
@@ -18021,7 +17786,6 @@ self
 .
 location
 ]
-            
 )
     
 def
@@ -18120,14 +17884,13 @@ other
         
 return
 (
-            
 isinstance
 (
 other
 IDLWrapperType
 )
-            
 and
+                
 self
 .
 _identifier
@@ -18136,8 +17899,8 @@ _identifier
 other
 .
 _identifier
-            
 and
+                
 self
 .
 builtin
@@ -18146,7 +17909,6 @@ builtin
 other
 .
 builtin
-        
 )
     
 def
@@ -18294,6 +18056,7 @@ self
 :
         
 return
+(
 isinstance
 (
 self
@@ -18302,14 +18065,14 @@ inner
 IDLInterface
 )
 or
+                
 isinstance
 (
-            
 self
 .
 inner
 IDLExternalInterface
-        
+)
 )
     
 def
@@ -18513,7 +18276,6 @@ else
 raise
 WebIDLError
 (
-                
 "
 IDLWrapperType
 wraps
@@ -18528,7 +18290,7 @@ t
 know
 if
 "
-                
+                              
 "
 is
 serializable
@@ -18540,13 +18302,11 @@ self
 .
 inner
 )
-                
 [
 self
 .
 location
 ]
-            
 )
     
 def
@@ -18705,55 +18465,49 @@ isEnum
             
 return
 (
-                
 other
 .
 isPrimitive
 (
 )
-                
 or
 other
 .
 isInterface
 (
 )
-                
 or
 other
 .
 isObject
 (
 )
-                
 or
+                    
 other
 .
 isCallback
 (
 )
-                
 or
 other
 .
 isDictionary
 (
 )
-                
 or
+                    
 other
 .
 isSequence
 (
 )
-                
 or
 other
 .
 isRecord
 (
 )
-            
 )
         
 if
@@ -18775,34 +18529,30 @@ False
         
 if
 (
-            
 other
 .
 isPrimitive
 (
 )
-            
 or
 other
 .
 isString
 (
 )
-            
 or
 other
 .
 isEnum
 (
 )
-            
 or
+            
 other
 .
 isSequence
 (
 )
-        
 )
 :
             
@@ -18897,16 +18647,16 @@ self
 other
             
 return
+(
 len
 (
-                
 self
 .
 inner
 .
 interfacesBasedOnSelf
-                
 &
+                        
 other
 .
 unroll
@@ -18916,12 +18666,12 @@ unroll
 inner
 .
 interfacesBasedOnSelf
-            
 )
 =
 =
 0
 and
+                    
 (
 self
 .
@@ -18929,14 +18679,17 @@ isNonCallbackInterface
 (
 )
 or
+                     
 other
 .
 isNonCallbackInterface
 (
 )
 )
+)
         
 if
+(
 other
 .
 isDictionary
@@ -18949,10 +18702,12 @@ isCallback
 (
 )
 or
+            
 other
 .
 isRecord
 (
+)
 )
 :
             
@@ -19104,14 +18859,13 @@ other
         
 return
 (
-            
 isinstance
 (
 other
 IDLPromiseType
 )
-            
 and
+                
 self
 .
 promiseInnerType
@@ -19124,7 +18878,6 @@ other
 promiseInnerType
 (
 )
-        
 )
     
 def
@@ -19289,138 +19042,138 @@ Types
 enum
 (
         
-"
+'
 byte
-"
+'
         
-"
+'
 octet
-"
+'
         
-"
+'
 short
-"
+'
         
-"
+'
 unsigned_short
-"
+'
         
-"
+'
 long
-"
+'
         
-"
+'
 unsigned_long
-"
+'
         
-"
+'
 long_long
-"
+'
         
-"
+'
 unsigned_long_long
-"
+'
         
-"
+'
 boolean
-"
+'
         
-"
+'
 unrestricted_float
-"
+'
         
-"
+'
 float
-"
+'
         
-"
+'
 unrestricted_double
-"
+'
         
-"
+'
 double
-"
+'
         
-"
+'
 any
-"
+'
         
-"
+'
 domstring
-"
+'
         
-"
+'
 bytestring
-"
+'
         
-"
+'
 usvstring
-"
+'
         
-"
+'
 utf8string
-"
+'
         
-"
+'
 jsstring
-"
+'
         
-"
+'
 object
-"
+'
         
-"
+'
 void
-"
+'
         
-"
+'
 ArrayBuffer
-"
+'
         
-"
+'
 ArrayBufferView
-"
+'
         
-"
+'
 Int8Array
-"
+'
         
-"
+'
 Uint8Array
-"
+'
         
-"
+'
 Uint8ClampedArray
-"
+'
         
-"
+'
 Int16Array
-"
+'
         
-"
+'
 Uint16Array
-"
+'
         
-"
+'
 Int32Array
-"
+'
         
-"
+'
 Uint32Array
-"
+'
         
-"
+'
 Float32Array
-"
+'
         
-"
+'
 Float64Array
-"
+'
         
-"
+'
 ReadableStream
-"
-    
+'
+        
 )
     
 TagLookup
@@ -20039,36 +19792,27 @@ ReadableStream
 def
 __init__
 (
-        
 self
-        
 location
-        
 name
-        
 type
-        
 clamp
 =
 False
-        
 enforceRange
 =
 False
-        
 treatNullAsEmpty
 =
 False
-        
+                 
 allowShared
 =
 False
-        
 attrLocation
 =
 [
 ]
-    
 )
 :
         
@@ -20186,6 +19930,7 @@ self
 _withAllowShared
 =
 None
+;
         
 if
 self
@@ -20270,7 +20015,6 @@ enforceRange
 raise
 WebIDLError
 (
-                
 "
 Non
 -
@@ -20287,7 +20031,6 @@ EnforceRange
 ]
 "
 attrLocation
-            
 )
         
 if
@@ -20398,7 +20141,6 @@ allowShared
 raise
 WebIDLError
 (
-                
 "
 Types
 that
@@ -20413,9 +20155,7 @@ be
 AllowShared
 ]
 "
-                
 attrLocation
-            
 )
     
 def
@@ -20496,27 +20236,23 @@ _clamped
 =
 IDLBuiltinType
 (
-                
 self
 .
 location
-                
 self
 .
 name
-                
+                                           
 self
 .
 _typeTag
-                
 clamp
 =
 True
-                
+                                           
 attrLocation
 =
 attrLocation
-            
 )
         
 return
@@ -20545,27 +20281,23 @@ _rangeEnforced
 =
 IDLBuiltinType
 (
-                
 self
 .
 location
-                
 self
 .
 name
-                
+                                           
 self
 .
 _typeTag
-                
 enforceRange
 =
 True
-                
+                                           
 attrLocation
 =
 attrLocation
-            
 )
         
 return
@@ -20594,27 +20326,23 @@ _withTreatNullAs
 =
 IDLBuiltinType
 (
-                
 self
 .
 location
-                
 self
 .
 name
-                
+                                           
 self
 .
 _typeTag
-                
 treatNullAsEmpty
 =
 True
-                
+                                           
 attrLocation
 =
 attrLocation
-            
 )
         
 return
@@ -20643,27 +20371,23 @@ _withAllowShared
 =
 IDLBuiltinType
 (
-                
 self
 .
 location
-                
 self
 .
 name
-                
+                                           
 self
 .
 _typeTag
-                
 allowShared
 =
 True
-                
+                                           
 attrLocation
 =
 attrLocation
-            
 )
         
 return
@@ -20739,7 +20463,6 @@ self
         
 return
 (
-            
 self
 .
 _typeTag
@@ -20750,8 +20473,8 @@ IDLBuiltinType
 Types
 .
 domstring
-            
 or
+                
 self
 .
 _typeTag
@@ -20762,8 +20485,8 @@ IDLBuiltinType
 Types
 .
 bytestring
-            
 or
+                
 self
 .
 _typeTag
@@ -20774,8 +20497,8 @@ IDLBuiltinType
 Types
 .
 usvstring
-            
 or
+                
 self
 .
 _typeTag
@@ -20786,8 +20509,8 @@ IDLBuiltinType
 Types
 .
 utf8string
-            
 or
+                
 self
 .
 _typeTag
@@ -20798,7 +20521,6 @@ IDLBuiltinType
 Types
 .
 jsstring
-        
 )
     
 def
@@ -20962,7 +20684,6 @@ self
         
 return
 (
-            
 self
 .
 _typeTag
@@ -20973,8 +20694,8 @@ IDLBuiltinType
 Types
 .
 Int8Array
-            
 and
+                
 self
 .
 _typeTag
@@ -20985,7 +20706,6 @@ IDLBuiltinType
 Types
 .
 Float64Array
-        
 )
     
 def
@@ -21016,34 +20736,32 @@ self
         
 return
 (
-            
 self
 .
 isArrayBuffer
 (
 )
-            
 or
+                
 self
 .
 isArrayBufferView
 (
 )
-            
 or
+                
 self
 .
 isTypedArray
 (
 )
-            
 or
+                
 self
 .
 isReadableStream
 (
 )
-        
 )
     
 def
@@ -21069,7 +20787,6 @@ self
         
 return
 (
-            
 self
 .
 _typeTag
@@ -21080,8 +20797,8 @@ IDLBuiltinType
 Types
 .
 float
-            
 or
+                
 self
 .
 _typeTag
@@ -21092,8 +20809,8 @@ IDLBuiltinType
 Types
 .
 double
-            
 or
+                
 self
 .
 _typeTag
@@ -21104,8 +20821,8 @@ IDLBuiltinType
 Types
 .
 unrestricted_float
-            
 or
+                
 self
 .
 _typeTag
@@ -21116,7 +20833,6 @@ IDLBuiltinType
 Types
 .
 unrestricted_double
-        
 )
     
 def
@@ -21135,7 +20851,6 @@ isFloat
         
 return
 (
-            
 self
 .
 _typeTag
@@ -21146,8 +20861,8 @@ IDLBuiltinType
 Types
 .
 unrestricted_float
-            
 or
+                
 self
 .
 _typeTag
@@ -21158,7 +20873,6 @@ IDLBuiltinType
 Types
 .
 unrestricted_double
-        
 )
     
 def
@@ -21270,69 +20984,62 @@ isBoolean
             
 return
 (
-                
 other
 .
 isNumeric
 (
 )
-                
 or
 other
 .
 isString
 (
 )
-                
 or
 other
 .
 isEnum
 (
 )
-                
 or
+                    
 other
 .
 isInterface
 (
 )
-                
 or
 other
 .
 isObject
 (
 )
-                
 or
+                    
 other
 .
 isCallback
 (
 )
-                
 or
 other
 .
 isDictionary
 (
 )
-                
 or
+                    
 other
 .
 isSequence
 (
 )
-                
 or
 other
 .
 isRecord
 (
 )
-            
 )
         
 if
@@ -21345,69 +21052,62 @@ isNumeric
             
 return
 (
-                
 other
 .
 isBoolean
 (
 )
-                
 or
 other
 .
 isString
 (
 )
-                
 or
 other
 .
 isEnum
 (
 )
-                
 or
+                    
 other
 .
 isInterface
 (
 )
-                
 or
 other
 .
 isObject
 (
 )
-                
 or
+                    
 other
 .
 isCallback
 (
 )
-                
 or
 other
 .
 isDictionary
 (
 )
-                
 or
+                    
 other
 .
 isSequence
 (
 )
-                
 or
 other
 .
 isRecord
 (
 )
-            
 )
         
 if
@@ -21420,55 +21120,50 @@ isString
             
 return
 (
-                
 other
 .
 isPrimitive
 (
 )
-                
 or
 other
 .
 isInterface
 (
 )
-                
 or
+                    
 other
 .
 isObject
 (
 )
-                
 or
+                    
 other
 .
 isCallback
 (
 )
-                
 or
 other
 .
 isDictionary
 (
 )
-                
 or
+                    
 other
 .
 isSequence
 (
 )
-                
 or
 other
 .
 isRecord
 (
 )
-            
 )
         
 if
@@ -21534,67 +21229,60 @@ isSpiderMonkeyInterface
         
 return
 (
-            
 other
 .
 isPrimitive
 (
 )
-            
 or
 other
 .
 isString
 (
 )
-            
 or
 other
 .
 isEnum
 (
 )
-            
 or
+                
 other
 .
 isCallback
 (
 )
-            
 or
 other
 .
 isDictionary
 (
 )
-            
 or
+                
 other
 .
 isSequence
 (
 )
-            
 or
 other
 .
 isRecord
 (
 )
-            
 or
-(
                 
+(
 other
 .
 isInterface
 (
 )
-                
 and
 (
-                    
+                 
 (
 self
 .
@@ -21609,8 +21297,8 @@ isArrayBuffer
 (
 )
 )
-                    
 or
+                 
 (
 self
 .
@@ -21625,17 +21313,14 @@ isReadableStream
 (
 )
 )
-                    
 or
-                    
+                 
 (
-                        
 self
 .
 isArrayBufferView
 (
 )
-                        
 and
 not
 other
@@ -21643,27 +21328,23 @@ other
 isArrayBufferView
 (
 )
-                        
 and
+                  
 not
 other
 .
 isTypedArray
 (
 )
-                    
 )
-                    
 or
-                    
+                 
 (
-                        
 self
 .
 isTypedArray
 (
 )
-                        
 and
 not
 other
@@ -21671,9 +21352,9 @@ other
 isArrayBufferView
 (
 )
-                        
 and
 not
+                  
 (
 other
 .
@@ -21690,13 +21371,9 @@ self
 .
 name
 )
-                    
 )
-                
 )
-            
 )
-        
 )
     
 def
@@ -21758,7 +21435,6 @@ noArguments
 raise
 WebIDLError
 (
-                        
 "
 [
 Clamp
@@ -21768,12 +21444,12 @@ take
 no
 arguments
 "
+                                      
 [
 attribute
 .
 location
 ]
-                    
 )
                 
 if
@@ -21791,7 +21467,6 @@ _enforceRange
 raise
 WebIDLError
 (
-                        
 "
 [
 EnforceRange
@@ -21804,7 +21479,7 @@ are
 mutually
 exclusive
 "
-                        
+                                      
 [
 self
 .
@@ -21813,7 +21488,6 @@ attribute
 .
 location
 ]
-                    
 )
                 
 ret
@@ -21853,7 +21527,6 @@ noArguments
 raise
 WebIDLError
 (
-                        
 "
 [
 EnforceRange
@@ -21863,12 +21536,12 @@ take
 no
 arguments
 "
+                                      
 [
 attribute
 .
 location
 ]
-                    
 )
                 
 if
@@ -21886,7 +21559,6 @@ _clamp
 raise
 WebIDLError
 (
-                        
 "
 [
 EnforceRange
@@ -21899,7 +21571,7 @@ are
 mutually
 exclusive
 "
-                        
+                                      
 [
 self
 .
@@ -21908,7 +21580,6 @@ attribute
 .
 location
 ]
-                    
 )
                 
 ret
@@ -21956,7 +21627,6 @@ isUTF8String
 raise
 WebIDLError
 (
-                        
 "
 [
 TreatNullAs
@@ -21968,7 +21638,7 @@ DOMStrings
 and
 UTF8Strings
 "
-                        
+                                      
 [
 self
 .
@@ -21977,7 +21647,6 @@ attribute
 .
 location
 ]
-                    
 )
                 
 assert
@@ -22000,7 +21669,6 @@ hasValue
 raise
 WebIDLError
 (
-                        
 "
 [
 TreatNullAs
@@ -22011,13 +21679,12 @@ an
 identifier
 argument
 "
-                        
+                                      
 [
 attribute
 .
 location
 ]
-                    
 )
                 
 value
@@ -22032,15 +21699,14 @@ if
 value
 !
 =
-"
+'
 EmptyString
-"
+'
 :
                     
 raise
 WebIDLError
 (
-                        
 "
 [
 TreatNullAs
@@ -22050,7 +21716,7 @@ take
 the
 identifier
 "
-                        
+                                      
 "
 '
 EmptyString
@@ -22063,13 +21729,12 @@ s
 "
 %
 value
-                        
+                                      
 [
 attribute
 .
 location
 ]
-                    
 )
                 
 ret
@@ -22109,7 +21774,6 @@ noArguments
 raise
 WebIDLError
 (
-                        
 "
 [
 AllowShared
@@ -22119,12 +21783,12 @@ take
 no
 arguments
 "
+                                      
 [
 attribute
 .
 location
 ]
-                    
 )
                 
 if
@@ -22139,7 +21803,6 @@ isBufferSource
 raise
 WebIDLError
 (
-                        
 "
 [
 AllowShared
@@ -22151,7 +21814,7 @@ buffer
 source
 types
 "
-                        
+                                      
 [
 self
 .
@@ -22160,7 +21823,6 @@ attribute
 .
 location
 ]
-                    
 )
                 
 ret
@@ -22185,7 +21847,6 @@ else
 raise
 WebIDLError
 (
-                    
 "
 Unhandled
 extended
@@ -22193,7 +21854,7 @@ attribute
 on
 type
 "
-                    
+                                  
 [
 self
 .
@@ -22202,7 +21863,6 @@ attribute
 .
 location
 ]
-                
 )
         
 return
@@ -22217,9 +21877,9 @@ Types
 .
 byte
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22232,12 +21892,12 @@ type
 "
 Byte
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 byte
-    
 )
     
 IDLBuiltinType
@@ -22246,9 +21906,9 @@ Types
 .
 octet
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22261,12 +21921,12 @@ type
 "
 Octet
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 octet
-    
 )
     
 IDLBuiltinType
@@ -22275,9 +21935,9 @@ Types
 .
 short
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22290,12 +21950,12 @@ type
 "
 Short
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 short
-    
 )
     
 IDLBuiltinType
@@ -22304,9 +21964,9 @@ Types
 .
 unsigned_short
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22316,17 +21976,15 @@ type
 >
 "
 )
-        
 "
 UnsignedShort
 "
-        
+                       
 IDLBuiltinType
 .
 Types
 .
 unsigned_short
-    
 )
     
 IDLBuiltinType
@@ -22335,9 +21993,9 @@ Types
 .
 long
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22350,12 +22008,12 @@ type
 "
 Long
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 long
-    
 )
     
 IDLBuiltinType
@@ -22364,9 +22022,9 @@ Types
 .
 unsigned_long
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22376,17 +22034,15 @@ type
 >
 "
 )
-        
 "
 UnsignedLong
 "
-        
+                       
 IDLBuiltinType
 .
 Types
 .
 unsigned_long
-    
 )
     
 IDLBuiltinType
@@ -22395,9 +22051,9 @@ Types
 .
 long_long
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22410,12 +22066,12 @@ type
 "
 LongLong
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 long_long
-    
 )
     
 IDLBuiltinType
@@ -22424,9 +22080,9 @@ Types
 .
 unsigned_long_long
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22436,17 +22092,15 @@ type
 >
 "
 )
-        
 "
 UnsignedLongLong
 "
-        
+                       
 IDLBuiltinType
 .
 Types
 .
 unsigned_long_long
-    
 )
     
 IDLBuiltinType
@@ -22455,9 +22109,9 @@ Types
 .
 boolean
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22470,12 +22124,12 @@ type
 "
 Boolean
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 boolean
-    
 )
     
 IDLBuiltinType
@@ -22484,9 +22138,9 @@ Types
 .
 float
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22499,12 +22153,12 @@ type
 "
 Float
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 float
-    
 )
     
 IDLBuiltinType
@@ -22513,9 +22167,9 @@ Types
 .
 unrestricted_float
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22525,17 +22179,15 @@ type
 >
 "
 )
-        
 "
 UnrestrictedFloat
 "
-        
+                       
 IDLBuiltinType
 .
 Types
 .
 unrestricted_float
-    
 )
     
 IDLBuiltinType
@@ -22544,9 +22196,9 @@ Types
 .
 double
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22559,12 +22211,12 @@ type
 "
 Double
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 double
-    
 )
     
 IDLBuiltinType
@@ -22573,9 +22225,9 @@ Types
 .
 unrestricted_double
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22585,17 +22237,15 @@ type
 >
 "
 )
-        
 "
 UnrestrictedDouble
 "
-        
+                       
 IDLBuiltinType
 .
 Types
 .
 unrestricted_double
-    
 )
     
 IDLBuiltinType
@@ -22604,9 +22254,9 @@ Types
 .
 any
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22619,12 +22269,12 @@ type
 "
 Any
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 any
-    
 )
     
 IDLBuiltinType
@@ -22633,9 +22283,9 @@ Types
 .
 domstring
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22648,12 +22298,12 @@ type
 "
 String
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 domstring
-    
 )
     
 IDLBuiltinType
@@ -22662,9 +22312,9 @@ Types
 .
 bytestring
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22677,12 +22327,12 @@ type
 "
 ByteString
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 bytestring
-    
 )
     
 IDLBuiltinType
@@ -22691,9 +22341,9 @@ Types
 .
 usvstring
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22706,12 +22356,12 @@ type
 "
 USVString
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 usvstring
-    
 )
     
 IDLBuiltinType
@@ -22720,9 +22370,9 @@ Types
 .
 utf8string
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22735,12 +22385,12 @@ type
 "
 UTF8String
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 utf8string
-    
 )
     
 IDLBuiltinType
@@ -22749,9 +22399,9 @@ Types
 .
 jsstring
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22764,12 +22414,12 @@ type
 "
 JSString
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 jsstring
-    
 )
     
 IDLBuiltinType
@@ -22778,9 +22428,9 @@ Types
 .
 object
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22793,12 +22443,12 @@ type
 "
 Object
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 object
-    
 )
     
 IDLBuiltinType
@@ -22807,9 +22457,9 @@ Types
 .
 void
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22822,12 +22472,12 @@ type
 "
 Void
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 void
-    
 )
     
 IDLBuiltinType
@@ -22836,9 +22486,9 @@ Types
 .
 ArrayBuffer
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22848,17 +22498,15 @@ type
 >
 "
 )
-        
 "
 ArrayBuffer
 "
-        
+                       
 IDLBuiltinType
 .
 Types
 .
 ArrayBuffer
-    
 )
     
 IDLBuiltinType
@@ -22867,9 +22515,9 @@ Types
 .
 ArrayBufferView
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22879,17 +22527,15 @@ type
 >
 "
 )
-        
 "
 ArrayBufferView
 "
-        
+                       
 IDLBuiltinType
 .
 Types
 .
 ArrayBufferView
-    
 )
     
 IDLBuiltinType
@@ -22898,9 +22544,9 @@ Types
 .
 Int8Array
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22913,12 +22559,12 @@ type
 "
 Int8Array
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 Int8Array
-    
 )
     
 IDLBuiltinType
@@ -22927,9 +22573,9 @@ Types
 .
 Uint8Array
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22942,12 +22588,12 @@ type
 "
 Uint8Array
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 Uint8Array
-    
 )
     
 IDLBuiltinType
@@ -22956,9 +22602,9 @@ Types
 .
 Uint8ClampedArray
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -22968,17 +22614,15 @@ type
 >
 "
 )
-        
 "
 Uint8ClampedArray
 "
-        
+                       
 IDLBuiltinType
 .
 Types
 .
 Uint8ClampedArray
-    
 )
     
 IDLBuiltinType
@@ -22987,9 +22631,9 @@ Types
 .
 Int16Array
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -23002,12 +22646,12 @@ type
 "
 Int16Array
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 Int16Array
-    
 )
     
 IDLBuiltinType
@@ -23016,9 +22660,9 @@ Types
 .
 Uint16Array
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -23028,17 +22672,15 @@ type
 >
 "
 )
-        
 "
 Uint16Array
 "
-        
+                       
 IDLBuiltinType
 .
 Types
 .
 Uint16Array
-    
 )
     
 IDLBuiltinType
@@ -23047,9 +22689,9 @@ Types
 .
 Int32Array
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -23062,12 +22704,12 @@ type
 "
 Int32Array
 "
+                       
 IDLBuiltinType
 .
 Types
 .
 Int32Array
-    
 )
     
 IDLBuiltinType
@@ -23076,9 +22718,9 @@ Types
 .
 Uint32Array
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -23088,17 +22730,15 @@ type
 >
 "
 )
-        
 "
 Uint32Array
 "
-        
+                       
 IDLBuiltinType
 .
 Types
 .
 Uint32Array
-    
 )
     
 IDLBuiltinType
@@ -23107,9 +22747,9 @@ Types
 .
 Float32Array
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -23119,17 +22759,15 @@ type
 >
 "
 )
-        
 "
 Float32Array
 "
-        
+                       
 IDLBuiltinType
 .
 Types
 .
 Float32Array
-    
 )
     
 IDLBuiltinType
@@ -23138,9 +22776,9 @@ Types
 .
 Float64Array
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -23150,17 +22788,15 @@ type
 >
 "
 )
-        
 "
 Float64Array
 "
-        
+                       
 IDLBuiltinType
 .
 Types
 .
 Float64Array
-    
 )
     
 IDLBuiltinType
@@ -23169,9 +22805,9 @@ Types
 .
 ReadableStream
 :
+        
 IDLBuiltinType
 (
-        
 BuiltinLocation
 (
 "
@@ -23181,17 +22817,15 @@ type
 >
 "
 )
-        
 "
 ReadableStream
 "
-        
+                       
 IDLBuiltinType
 .
 Types
 .
 ReadableStream
-    
 )
 }
 integerTypeSizes
@@ -23489,19 +23123,20 @@ e
 :
                     
 if
+(
 isinstance
 (
 e
 WebIDLError
 )
 and
+                        
 not
 isinstance
 (
-                        
 e
 NoCoercionFoundError
-                    
+)
 )
 :
                         
@@ -23609,7 +23244,6 @@ else
 raise
 WebIDLError
 (
-                    
 "
 Value
 %
@@ -23625,17 +23259,16 @@ s
 .
 "
 %
+                                  
 (
 self
 .
 value
 type
 )
-                    
 [
 location
 ]
-                
 )
         
 elif
@@ -23656,12 +23289,10 @@ isFloat
             
 if
 -
-(
 2
 *
 *
 24
-)
 <
 =
 self
@@ -23696,7 +23327,6 @@ else
 raise
 WebIDLError
 (
-                    
 "
 Converting
 value
@@ -23710,19 +23340,17 @@ lose
 precision
 .
 "
-                    
 %
+                                  
 (
 self
 .
 value
 type
 )
-                    
 [
 location
 ]
-                
 )
         
 elif
@@ -23767,7 +23395,6 @@ values
 raise
 WebIDLError
 (
-                    
 "
 '
 %
@@ -23784,7 +23411,7 @@ enum
 %
 s
 "
-                    
+                                  
 %
 (
 self
@@ -23796,14 +23423,13 @@ identifier
 .
 name
 )
-                    
+                                  
 [
 location
 enum
 .
 location
 ]
-                
 )
             
 return
@@ -23826,6 +23452,7 @@ isFloat
 :
             
 if
+(
 not
 type
 .
@@ -23833,8 +23460,8 @@ isUnrestricted
 (
 )
 and
-(
                 
+(
 self
 .
 value
@@ -23846,7 +23473,6 @@ float
 inf
 "
 )
-                
 or
 self
 .
@@ -23860,8 +23486,8 @@ float
 inf
 "
 )
-                
 or
+                 
 math
 .
 isnan
@@ -23870,14 +23496,13 @@ self
 .
 value
 )
-            
+)
 )
 :
                 
 raise
 WebIDLError
 (
-                    
 "
 Trying
 to
@@ -23891,16 +23516,14 @@ non
 -
 unrestricted
 "
-                    
+                                  
 %
 self
 .
 value
-                    
 [
 location
 ]
-                
 )
             
 return
@@ -23970,7 +23593,6 @@ isString
 )
 and
 (
-            
 type
 .
 isByteString
@@ -23988,14 +23610,11 @@ type
 isUTF8String
 (
 )
-        
 )
 :
             
 valid_ascii_lit
 =
-(
-                
 "
 "
 +
@@ -24010,8 +23629,6 @@ digits
 string
 .
 punctuation
-            
-)
             
 for
 idx
@@ -24035,7 +23652,6 @@ valid_ascii_lit
 raise
 WebIDLError
 (
-                        
 "
 Coercing
 this
@@ -24052,7 +23668,7 @@ supported
 yet
 .
 "
-                        
+                                      
 "
 Coercion
 failed
@@ -24069,7 +23685,7 @@ index
 d
 .
 "
-                        
+                                      
 %
 (
 self
@@ -24085,11 +23701,9 @@ c
 )
 idx
 )
-                        
 [
 location
 ]
-                    
 )
             
 return
@@ -24107,7 +23721,6 @@ value
 raise
 NoCoercionFoundError
 (
-            
 "
 Cannot
 coerce
@@ -24121,6 +23734,7 @@ s
 .
 "
 %
+                                   
 (
 self
 .
@@ -24130,7 +23744,6 @@ type
 [
 location
 ]
-        
 )
     
 def
@@ -24190,15 +23803,14 @@ location
         
 if
 (
-            
 not
 isinstance
 (
 type
 IDLNullableType
 )
-            
 and
+            
 not
 (
 type
@@ -24211,15 +23823,14 @@ type
 .
 hasNullableType
 )
-            
 and
+            
 not
 type
 .
 isAny
 (
 )
-        
 )
 :
             
@@ -24239,6 +23850,7 @@ s
 "
 %
 type
+                              
 [
 location
 ]
@@ -24412,7 +24024,6 @@ isSequence
 raise
 WebIDLError
 (
-                
 "
 Cannot
 coerce
@@ -24427,10 +24038,10 @@ s
 "
 %
 type
+                              
 [
 location
 ]
-            
 )
         
 emptySequenceValue
@@ -24555,7 +24166,6 @@ isDictionary
 raise
 WebIDLError
 (
-                
 "
 Cannot
 coerce
@@ -24570,10 +24180,10 @@ s
 "
 %
 type
+                              
 [
 location
 ]
-            
 )
         
 defaultDictionaryValue
@@ -24661,7 +24271,6 @@ isAny
 raise
 WebIDLError
 (
-                
 "
 Cannot
 coerce
@@ -24675,10 +24284,10 @@ s
 "
 %
 type
+                              
 [
 location
 ]
-            
 )
         
 undefinedValue
@@ -24722,33 +24331,42 @@ Tags
 =
 enum
 (
-"
+        
+'
 Const
-"
-"
+'
+        
+'
 Attr
-"
-"
+'
+        
+'
 Method
-"
-"
+'
+        
+'
 MaplikeOrSetlike
-"
-"
+'
+        
+'
 Iterable
-"
+'
+    
 )
     
 Special
 =
 enum
 (
-"
+        
+'
 Static
-"
-"
+'
+        
+'
 Stringifier
-"
+'
+    
 )
     
 AffectsValues
@@ -24904,7 +24522,6 @@ self
         
 return
 (
-            
 self
 .
 tag
@@ -24915,8 +24532,8 @@ IDLInterfaceMember
 Tags
 .
 MaplikeOrSetlike
-            
 or
+                
 self
 .
 tag
@@ -24927,7 +24544,6 @@ IDLInterfaceMember
 Tags
 .
 Iterable
-        
 )
     
 def
@@ -24989,8 +24605,6 @@ identifier
 )
 ]
 =
-(
-                
 attrlist
 if
 len
@@ -24999,8 +24613,6 @@ attrlist
 )
 else
 True
-            
-)
     
 def
 handleExtendedAttribute
@@ -25091,7 +24703,6 @@ Everything
 raise
 WebIDLError
 (
-                    
 "
 Interface
 member
@@ -25100,7 +24711,7 @@ flagged
 as
 affecting
 "
-                    
+                                  
 "
 everything
 but
@@ -25110,7 +24721,7 @@ on
 everything
 .
 "
-                    
+                                  
 "
 That
 seems
@@ -25118,13 +24729,12 @@ rather
 unlikely
 .
 "
-                    
+                                  
 [
 self
 .
 location
 ]
-                
 )
         
 if
@@ -25161,7 +24771,6 @@ DOMState
 raise
 WebIDLError
 (
-                    
 "
 A
 [
@@ -25172,7 +24781,7 @@ is
 not
 idempotent
 "
-                    
+                                  
 "
 so
 it
@@ -25187,16 +24796,16 @@ DOM
 state
 .
 "
-                    
+                                  
 [
 self
 .
 location
 ]
-                
 )
             
 if
+(
 self
 .
 getExtendedAttribute
@@ -25206,22 +24815,21 @@ Cached
 "
 )
 or
+                
 self
 .
 getExtendedAttribute
 (
-                
 "
 StoreInSlot
 "
-            
+)
 )
 :
                 
 raise
 WebIDLError
 (
-                    
 "
 A
 [
@@ -25231,7 +24839,7 @@ attribute
 shouldnt
 be
 "
-                    
+                                  
 "
 [
 Cached
@@ -25244,7 +24852,7 @@ since
 the
 point
 "
-                    
+                                  
 "
 of
 those
@@ -25255,7 +24863,7 @@ returning
 the
 same
 "
-                    
+                                  
 "
 thing
 across
@@ -25265,7 +24873,7 @@ which
 is
 not
 "
-                    
+                                  
 "
 what
 [
@@ -25274,13 +24882,12 @@ NewObject
 does
 .
 "
-                    
+                                  
 [
 self
 .
 location
 ]
-                
 )
     
 def
@@ -25305,7 +24912,6 @@ Everything
 raise
 WebIDLError
 (
-                
 "
 Trying
 to
@@ -25314,7 +24920,7 @@ multiple
 different
 DependsOn
 "
-                
+                              
 "
 Pure
 or
@@ -25323,17 +24929,15 @@ extended
 attributes
 for
 "
-                
+                              
 "
 attribute
 "
-                
 [
 self
 .
 location
 ]
-            
 )
         
 if
@@ -25348,7 +24952,6 @@ DependsOnValues
 raise
 WebIDLError
 (
-                
 "
 Invalid
 [
@@ -25362,12 +24965,12 @@ attribute
 "
 %
 dependsOn
+                              
 [
 self
 .
 location
 ]
-            
 )
         
 self
@@ -25398,7 +25001,6 @@ Everything
 raise
 WebIDLError
 (
-                
 "
 Trying
 to
@@ -25407,7 +25009,7 @@ multiple
 different
 Affects
 "
-                
+                              
 "
 Pure
 or
@@ -25416,17 +25018,15 @@ extended
 attributes
 for
 "
-                
+                              
 "
 attribute
 "
-                
 [
 self
 .
 location
 ]
-            
 )
         
 if
@@ -25441,7 +25041,6 @@ AffectsValues
 raise
 WebIDLError
 (
-                
 "
 Invalid
 [
@@ -25455,12 +25054,12 @@ attribute
 "
 %
 dependsOn
+                              
 [
 self
 .
 location
 ]
-            
 )
         
 self
@@ -25488,7 +25087,6 @@ aliases
 raise
 WebIDLError
 (
-                
 "
 Duplicate
 [
@@ -25502,12 +25100,12 @@ attribute
 "
 %
 alias
+                              
 [
 self
 .
 location
 ]
-            
 )
         
 self
@@ -25538,7 +25136,6 @@ bindingAliases
 raise
 WebIDLError
 (
-                
 "
 Duplicate
 [
@@ -25552,13 +25149,12 @@ attribute
 "
 %
 bindingAlias
-                
+                              
 [
 self
 .
 location
 ]
-            
 )
         
 self
@@ -25626,15 +25222,15 @@ assert
 ifaceType
 in
 [
-"
+'
 maplike
-"
-"
+'
+'
 setlike
-"
-"
+'
+'
 iterable
-"
+'
 ]
         
 if
@@ -25780,6 +25376,7 @@ members
 :
             
 if
+(
 member
 .
 identifier
@@ -25790,9 +25387,9 @@ self
 .
 disallowedMemberNames
 and
+                
 not
 (
-                
 (
 member
 .
@@ -25806,8 +25403,8 @@ isMaplikeOrSetlikeOrIterableMethod
 (
 )
 )
-                
 or
+                     
 (
 member
 .
@@ -25821,14 +25418,13 @@ isMaplikeOrSetlikeAttr
 (
 )
 )
-            
+)
 )
 :
                 
 raise
 WebIDLError
 (
-                    
 "
 Member
 '
@@ -25837,7 +25433,7 @@ s
 '
 conflicts
 "
-                    
+                                  
 "
 with
 reserved
@@ -25846,19 +25442,20 @@ s
 name
 .
 "
-                    
 %
+                                  
 (
 member
 .
 identifier
 .
 name
+                                   
 self
 .
 maplikeOrSetlikeOrIterableType
 )
-                    
+                                  
 [
 self
 .
@@ -25867,12 +25464,11 @@ member
 .
 location
 ]
-                
 )
             
 if
 (
-                
+(
 isAncestor
 or
 member
@@ -25886,9 +25482,9 @@ member
 isConst
 (
 )
-            
 )
 and
+                
 member
 .
 identifier
@@ -25898,12 +25494,12 @@ in
 self
 .
 disallowedNonMethodNames
+)
 :
                 
 raise
 WebIDLError
 (
-                    
 "
 Member
 '
@@ -25912,7 +25508,7 @@ s
 '
 conflicts
 "
-                    
+                                  
 "
 with
 reserved
@@ -25921,19 +25517,20 @@ s
 method
 .
 "
-                    
 %
+                                  
 (
 member
 .
 identifier
 .
 name
+                                   
 self
 .
 maplikeOrSetlikeOrIterableType
 )
-                    
+                                  
 [
 self
 .
@@ -25942,48 +25539,37 @@ member
 .
 location
 ]
-                
 )
     
 def
 addMethod
 (
-        
 self
-        
 name
-        
 members
-        
 allowExistingOperations
-        
 returnType
-        
 args
 =
 [
 ]
-        
+                  
 chromeOnly
 =
 False
-        
 isPure
 =
 False
-        
 affectsNothing
 =
 False
-        
 newObject
 =
 False
-        
+                  
 isIteratorAlias
 =
 False
-    
 )
 :
         
@@ -26211,14 +25797,12 @@ method
 =
 IDLMethod
 (
-            
 self
 .
 location
-            
+                           
 IDLUnresolvedIdentifier
 (
-                
 self
 .
 location
@@ -26226,23 +25810,20 @@ name
 allowDoubleUnderscore
 =
 chromeOnly
-            
 )
-            
+                           
 returnType
-            
 args
-            
 maplikeOrSetlikeOrIterable
 =
 self
-        
 )
         
 method
 .
 addExtendedAttributes
 (
+            
 [
 IDLExtendedAttribute
 (
@@ -26280,7 +25861,6 @@ ChromeOnly
 )
 )
 ]
-            
 )
         
 if
@@ -26305,7 +25885,6 @@ Pure
 )
 )
 ]
-            
 )
         
 if
@@ -26318,7 +25897,6 @@ addExtendedAttributes
 (
                 
 [
-                    
 IDLExtendedAttribute
 (
 self
@@ -26333,7 +25911,7 @@ Everything
 "
 )
 )
-                    
+                 
 IDLExtendedAttribute
 (
 self
@@ -26348,9 +25926,7 @@ Nothing
 "
 )
 )
-                
 ]
-            
 )
         
 if
@@ -26375,7 +25951,6 @@ NewObject
 )
 )
 ]
-            
 )
         
 if
@@ -26403,7 +25978,6 @@ iterator
 )
 )
 ]
-            
 )
         
 if
@@ -26433,7 +26007,6 @@ NonEnumerable
 )
 )
 ]
-            
 )
         
 members
@@ -26698,17 +26271,14 @@ self
         
 return
 [
-            
 IDLArgument
 (
-                
 self
 .
 location
-                
+                            
 IDLUnresolvedIdentifier
 (
-                    
 BuiltinLocation
 (
 "
@@ -26721,12 +26291,12 @@ identifier
 >
 "
 )
+                                                    
 "
 callback
 "
-                
 )
-                
+                            
 BuiltinTypes
 [
 IDLBuiltinType
@@ -26735,19 +26305,16 @@ Types
 .
 object
 ]
-            
 )
-            
+                
 IDLArgument
 (
-                
 self
 .
 location
-                
+                            
 IDLUnresolvedIdentifier
 (
-                    
 BuiltinLocation
 (
 "
@@ -26760,12 +26327,12 @@ identifier
 >
 "
 )
+                                                    
 "
 thisArg
 "
-                
 )
-                
+                            
 BuiltinTypes
 [
 IDLBuiltinType
@@ -26774,13 +26341,11 @@ Types
 .
 any
 ]
-                
+                            
 optional
 =
 True
-            
 )
-        
 ]
 class
 IDLIterable
@@ -26809,27 +26374,21 @@ IDLMaplikeOrSetlikeOrIterableBase
 .
 __init__
 (
-            
 self
-            
 location
-            
 identifier
-            
+                                                   
 "
 iterable
 "
-            
 keyType
-            
 valueType
-            
+                                                   
 IDLInterfaceMember
 .
 Tags
 .
 Iterable
-        
 )
         
 self
@@ -26864,15 +26423,12 @@ s
 "
 %
 (
-            
 self
 .
 keyType
-            
 self
 .
 valueType
-        
 )
     
 def
@@ -26939,100 +26495,79 @@ self
 .
 addMethod
 (
-            
 "
 entries
 "
-            
 members
-            
 False
-            
 self
 .
 iteratorType
-            
+                       
 affectsNothing
 =
 True
-            
 newObject
 =
 True
-            
+                       
 isIteratorAlias
 =
 True
-        
 )
         
 self
 .
 addMethod
 (
-            
 "
 keys
 "
-            
 members
-            
 False
-            
 self
 .
 iteratorType
-            
+                       
 affectsNothing
 =
 True
-            
 newObject
 =
 True
-        
 )
         
 self
 .
 addMethod
 (
-            
 "
 values
 "
-            
 members
-            
 False
-            
 self
 .
 iteratorType
-            
+                       
 affectsNothing
 =
 True
-            
 newObject
 =
 True
-        
 )
         
 self
 .
 addMethod
 (
-            
 "
 forEach
 "
-            
 members
-            
 False
-            
+                       
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27041,13 +26576,12 @@ Types
 .
 void
 ]
-            
+                       
 self
 .
 getForEachArguments
 (
 )
-        
 )
     
 def
@@ -27088,15 +26622,14 @@ IDLMaplikeOrSetlikeOrIterableBase
 def
 __init__
 (
-        
 self
 location
 identifier
 maplikeOrSetlikeType
+                 
 readonly
 keyType
 valueType
-    
 )
 :
         
@@ -27104,25 +26637,18 @@ IDLMaplikeOrSetlikeOrIterableBase
 .
 __init__
 (
-            
 self
-            
 location
-            
 identifier
-            
 maplikeOrSetlikeType
-            
+                                                   
 keyType
-            
 valueType
-            
 IDLInterfaceMember
 .
 Tags
 .
 MaplikeOrSetlike
-        
 )
         
 self
@@ -27149,9 +26675,9 @@ self
 .
 prefix
 =
-"
+'
 Map
-"
+'
         
 elif
 self
@@ -27165,9 +26691,9 @@ self
 .
 prefix
 =
-"
+'
 Set
-"
+'
     
 def
 __str__
@@ -27192,15 +26718,12 @@ s
 "
 %
 (
-            
 self
 .
 maplikeOrSetlikeOrIterableType
-            
 self
 .
 keyType
-        
 )
     
 def
@@ -27256,14 +26779,12 @@ sizeAttr
 =
 IDLAttribute
 (
-            
 self
 .
 location
-            
+                                
 IDLUnresolvedIdentifier
 (
-                
 BuiltinLocation
 (
 "
@@ -27279,9 +26800,8 @@ identifier
 "
 size
 "
-            
 )
-            
+                                
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27290,20 +26810,19 @@ Types
 .
 unsigned_long
 ]
-            
+                                
 True
-            
+                                
 maplikeOrSetlike
 =
 self
-        
 )
         
 sizeAttr
 .
 addExtendedAttributes
 (
-            
+                
 [
 IDLExtendedAttribute
 (
@@ -27317,7 +26836,6 @@ NonEnumerable
 )
 )
 ]
-        
 )
         
 members
@@ -27352,15 +26870,11 @@ self
 .
 addMethod
 (
-            
 "
 entries
 "
-            
 members
-            
 False
-            
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27369,11 +26883,10 @@ Types
 .
 object
 ]
-            
+                       
 affectsNothing
 =
 True
-            
 isIteratorAlias
 =
 self
@@ -27381,22 +26894,17 @@ self
 isMaplike
 (
 )
-        
 )
         
 self
 .
 addMethod
 (
-            
 "
 keys
 "
-            
 members
-            
 False
-            
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27405,26 +26913,21 @@ Types
 .
 object
 ]
-            
+                       
 affectsNothing
 =
 True
-        
 )
         
 self
 .
 addMethod
 (
-            
 "
 values
 "
-            
 members
-            
 False
-            
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27433,11 +26936,10 @@ Types
 .
 object
 ]
-            
+                       
 affectsNothing
 =
 True
-            
 isIteratorAlias
 =
 self
@@ -27445,22 +26947,17 @@ self
 isSetlike
 (
 )
-        
 )
         
 self
 .
 addMethod
 (
-            
 "
 forEach
 "
-            
 members
-            
 False
-            
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27469,13 +26966,12 @@ Types
 .
 void
 ]
-            
+                       
 self
 .
 getForEachArguments
 (
 )
-        
 )
         
 def
@@ -27487,11 +26983,10 @@ getKeyArg
 return
 IDLArgument
 (
-                
 self
 .
 location
-                
+                               
 IDLUnresolvedIdentifier
 (
 self
@@ -27501,26 +26996,21 @@ location
 key
 "
 )
-                
+                               
 self
 .
 keyType
-            
 )
         
 self
 .
 addMethod
 (
-            
 "
 has
 "
-            
 members
-            
 False
-            
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27529,17 +27019,15 @@ Types
 .
 boolean
 ]
-            
+                       
 [
 getKeyArg
 (
 )
 ]
-            
 isPure
 =
 True
-        
 )
         
 if
@@ -27553,7 +27041,6 @@ self
 .
 addMethod
 (
-                
 "
 clear
 "
@@ -27567,24 +27054,21 @@ Types
 .
 void
 ]
+                           
 [
 ]
-            
 )
             
 self
 .
 addMethod
 (
-                
 "
 delete
 "
-                
 members
-                
 True
-                
+                           
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27593,13 +27077,11 @@ Types
 .
 boolean
 ]
-                
 [
 getKeyArg
 (
 )
 ]
-            
 )
         
 if
@@ -27610,15 +27092,11 @@ self
 .
 addMethod
 (
-                
 "
 clear
 "
-                
 members
-                
 True
-                
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27627,29 +27105,24 @@ Types
 .
 void
 ]
-                
+                           
 [
 ]
-                
 chromeOnly
 =
 True
-            
 )
             
 self
 .
 addMethod
 (
-                
 "
 delete
 "
-                
 members
-                
 True
-                
+                           
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27658,17 +27131,15 @@ Types
 .
 boolean
 ]
-                
 [
 getKeyArg
 (
 )
 ]
-                
+                           
 chromeOnly
 =
 True
-            
 )
         
 if
@@ -27690,15 +27161,12 @@ self
 .
 addMethod
 (
-                    
 "
 add
 "
-                    
 members
-                    
 True
-                    
+                               
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27707,13 +27175,11 @@ Types
 .
 object
 ]
-                    
 [
 getKeyArg
 (
 )
 ]
-                
 )
             
 if
@@ -27724,15 +27190,12 @@ self
 .
 addMethod
 (
-                    
 "
 add
 "
-                    
 members
-                    
 True
-                    
+                               
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27741,17 +27204,15 @@ Types
 .
 object
 ]
-                    
 [
 getKeyArg
 (
 )
 ]
-                    
+                               
 chromeOnly
 =
 True
-                
 )
             
 return
@@ -27760,15 +27221,11 @@ self
 .
 addMethod
 (
-            
 "
 get
 "
-            
 members
-            
 False
-            
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27777,17 +27234,15 @@ Types
 .
 any
 ]
-            
+                       
 [
 getKeyArg
 (
 )
 ]
-            
 isPure
 =
 True
-        
 )
         
 def
@@ -27799,11 +27254,10 @@ getValueArg
 return
 IDLArgument
 (
-                
 self
 .
 location
-                
+                               
 IDLUnresolvedIdentifier
 (
 self
@@ -27813,11 +27267,10 @@ location
 value
 "
 )
-                
+                               
 self
 .
 valueType
-            
 )
         
 if
@@ -27831,15 +27284,11 @@ self
 .
 addMethod
 (
-                
 "
 set
 "
-                
 members
-                
 True
-                
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27848,7 +27297,7 @@ Types
 .
 object
 ]
-                
+                           
 [
 getKeyArg
 (
@@ -27857,7 +27306,6 @@ getValueArg
 (
 )
 ]
-            
 )
         
 if
@@ -27868,15 +27316,11 @@ self
 .
 addMethod
 (
-                
 "
 set
 "
-                
 members
-                
 True
-                
 BuiltinTypes
 [
 IDLBuiltinType
@@ -27885,7 +27329,7 @@ Types
 .
 object
 ]
-                
+                           
 [
 getKeyArg
 (
@@ -27894,11 +27338,9 @@ getValueArg
 (
 )
 ]
-                
 chromeOnly
 =
 True
-            
 )
 class
 IDLConst
@@ -27922,16 +27364,15 @@ IDLInterfaceMember
 .
 __init__
 (
-            
 self
 location
 identifier
+                                    
 IDLInterfaceMember
 .
 Tags
 .
 Const
-        
 )
         
 assert
@@ -27952,7 +27393,6 @@ isDictionary
 raise
 WebIDLError
 (
-                
 "
 A
 constant
@@ -27963,12 +27403,12 @@ a
 dictionary
 type
 "
+                              
 [
 self
 .
 location
 ]
-            
 )
         
 if
@@ -27992,6 +27432,7 @@ a
 record
 type
 "
+                              
 [
 self
 .
@@ -28025,7 +27466,6 @@ prototype
 raise
 WebIDLError
 (
-                
 "
 The
 identifier
@@ -28039,10 +27479,10 @@ be
 prototype
 '
 "
+                              
 [
 location
 ]
-            
 )
     
 def
@@ -28252,46 +27692,44 @@ _exposureGlobalNames
         
 elif
 (
-            
 identifier
 =
 =
 "
 Pref
 "
-            
 or
+              
 identifier
 =
 =
 "
 ChromeOnly
 "
-            
 or
+              
 identifier
 =
 =
 "
 Func
 "
-            
 or
+              
 identifier
 =
 =
 "
 SecureContext
 "
-            
 or
+              
 identifier
 =
 =
 "
 NonEnumerable
 "
-        
 )
 :
             
@@ -28303,7 +27741,6 @@ else
 raise
 WebIDLError
 (
-                
 "
 Unknown
 extended
@@ -28315,13 +27752,12 @@ constant
 "
 %
 identifier
-                
+                              
 [
 attr
 .
 location
 ]
-            
 )
         
 IDLInterfaceMember
@@ -28361,37 +27797,28 @@ IDLInterfaceMember
 def
 __init__
 (
-        
 self
-        
 location
-        
 identifier
-        
 type
-        
 readonly
-        
 inherit
 =
 False
-        
+                 
 static
 =
 False
-        
 stringifier
 =
 False
-        
 maplikeOrSetlike
 =
 None
-        
+                 
 extendedAttrDict
 =
 None
-    
 )
 :
         
@@ -28399,23 +27826,19 @@ IDLInterfaceMember
 .
 __init__
 (
-            
 self
-            
 location
-            
 identifier
-            
+                                    
 IDLInterfaceMember
 .
 Tags
 .
 Attr
-            
+                                    
 extendedAttrDict
 =
 extendedAttrDict
-        
 )
         
 assert
@@ -28480,10 +27903,8 @@ None
 or
 isinstance
 (
-            
 maplikeOrSetlike
 IDLMaplikeOrSetlike
-        
 )
         
 self
@@ -28531,7 +27952,6 @@ prototype
 raise
 WebIDLError
 (
-                
 "
 The
 identifier
@@ -28546,11 +27966,10 @@ be
 prototype
 '
 "
-                
+                              
 [
 location
 ]
-            
 )
         
 if
@@ -28562,7 +27981,6 @@ inherit
 raise
 WebIDLError
 (
-                
 "
 An
 attribute
@@ -28577,12 +27995,12 @@ and
 inherit
 '
 "
+                              
 [
 self
 .
 location
 ]
-            
 )
     
 def
@@ -28715,7 +28133,6 @@ self
 readonly
 and
 (
-            
 self
 .
 type
@@ -28723,7 +28140,6 @@ type
 hasClamp
 (
 )
-            
 or
 self
 .
@@ -28732,8 +28148,8 @@ type
 hasEnforceRange
 (
 )
-            
 or
+                              
 self
 .
 type
@@ -28741,21 +28157,18 @@ type
 hasAllowShared
 (
 )
-            
 or
 self
 .
 type
 .
 treatNullAsEmpty
-        
 )
 :
             
 raise
 WebIDLError
 (
-                
 "
 A
 readonly
@@ -28774,13 +28187,12 @@ or
 AllowShared
 ]
 "
-                
+                              
 [
 self
 .
 location
 ]
-            
 )
         
 if
@@ -28806,7 +28218,6 @@ Cached
 raise
 WebIDLError
 (
-                
 "
 An
 attribute
@@ -28817,12 +28228,12 @@ a
 dictionary
 type
 "
+                              
 [
 self
 .
 location
 ]
-            
 )
         
 if
@@ -28848,7 +28259,6 @@ Cached
 raise
 WebIDLError
 (
-                
 "
 A
 non
@@ -28861,16 +28271,15 @@ of
 a
 sequence
 "
+                              
 "
 type
 "
-                
 [
 self
 .
 location
 ]
-            
 )
         
 if
@@ -28896,7 +28305,6 @@ Cached
 raise
 WebIDLError
 (
-                
 "
 A
 non
@@ -28909,6 +28317,7 @@ of
 a
 record
 "
+                              
 "
 type
 "
@@ -28917,7 +28326,6 @@ self
 .
 location
 ]
-            
 )
         
 if
@@ -28955,7 +28363,6 @@ isDictionary
 raise
 WebIDLError
 (
-                        
 "
 An
 attribute
@@ -28965,7 +28372,7 @@ of
 a
 union
 "
-                        
+                                      
 "
 type
 if
@@ -28977,7 +28384,7 @@ types
 (
 or
 "
-                        
+                                      
 "
 one
 of
@@ -28988,7 +28395,7 @@ types
 s
 member
 "
-                        
+                                      
 "
 types
 and
@@ -28999,11 +28406,10 @@ is
 a
 dictionary
 "
-                        
+                                      
 "
 type
 "
-                        
 [
 self
 .
@@ -29012,7 +28418,6 @@ f
 .
 location
 ]
-                    
 )
                 
 if
@@ -29026,7 +28431,6 @@ isSequence
 raise
 WebIDLError
 (
-                        
 "
 An
 attribute
@@ -29036,7 +28440,7 @@ of
 a
 union
 "
-                        
+                                      
 "
 type
 if
@@ -29048,7 +28452,7 @@ types
 (
 or
 "
-                        
+                                      
 "
 one
 of
@@ -29059,7 +28463,7 @@ types
 s
 member
 "
-                        
+                                      
 "
 types
 and
@@ -29070,11 +28474,10 @@ is
 a
 sequence
 "
-                        
+                                      
 "
 type
 "
-                        
 [
 self
 .
@@ -29083,7 +28486,6 @@ f
 .
 location
 ]
-                    
 )
                 
 if
@@ -29097,7 +28499,6 @@ isRecord
 raise
 WebIDLError
 (
-                        
 "
 An
 attribute
@@ -29107,7 +28508,7 @@ of
 a
 union
 "
-                        
+                                      
 "
 type
 if
@@ -29119,7 +28520,7 @@ types
 (
 or
 "
-                        
+                                      
 "
 one
 of
@@ -29130,7 +28531,7 @@ types
 s
 member
 "
-                        
+                                      
 "
 types
 and
@@ -29141,11 +28542,10 @@ is
 a
 record
 "
-                        
+                                      
 "
 type
 "
-                        
 [
 self
 .
@@ -29154,7 +28554,6 @@ f
 .
 location
 ]
-                    
 )
         
 if
@@ -29180,7 +28579,6 @@ PutForwards
 raise
 WebIDLError
 (
-                
 "
 An
 attribute
@@ -29192,7 +28590,7 @@ must
 have
 an
 "
-                
+                              
 "
 interface
 type
@@ -29200,16 +28598,15 @@ as
 its
 type
 "
-                
 [
 self
 .
 location
 ]
-            
 )
         
 if
+(
 not
 self
 .
@@ -29219,6 +28616,7 @@ isInterface
 (
 )
 and
+            
 self
 .
 getExtendedAttribute
@@ -29227,12 +28625,12 @@ getExtendedAttribute
 SameObject
 "
 )
+)
 :
             
 raise
 WebIDLError
 (
-                
 "
 An
 attribute
@@ -29244,7 +28642,7 @@ must
 have
 an
 "
-                
+                              
 "
 interface
 type
@@ -29252,13 +28650,11 @@ as
 its
 type
 "
-                
 [
 self
 .
 location
 ]
-            
 )
         
 if
@@ -29279,7 +28675,6 @@ readonly
 raise
 WebIDLError
 (
-                
 "
 Promise
 -
@@ -29289,12 +28684,12 @@ must
 be
 readonly
 "
+                              
 [
 self
 .
 location
 ]
-            
 )
     
 def
@@ -29312,22 +28707,26 @@ type
 :
             
 if
+(
 type
 .
 nullable
 (
 )
 or
+                
 type
 .
 isSequence
 (
 )
 or
+                
 type
 .
 isRecord
 (
+)
 )
 :
                 
@@ -29362,9 +28761,7 @@ location
 =
 typeContainsChromeOnlyDictionaryMember
 (
-                        
 memberType
-                    
 )
                     
 if
@@ -29402,9 +28799,7 @@ location
 =
 dictionaryContainsChromeOnlyMember
 (
-                        
 dictionary
-                    
 )
                     
 if
@@ -29470,11 +28865,9 @@ location
 =
 typeContainsChromeOnlyDictionaryMember
 (
-                    
 member
 .
 type
-                
 )
                 
 if
@@ -29501,6 +28894,7 @@ self
 )
         
 if
+(
 self
 .
 getExtendedAttribute
@@ -29510,15 +28904,15 @@ Cached
 "
 )
 or
+            
 self
 .
 getExtendedAttribute
 (
-            
 "
 StoreInSlot
 "
-        
+)
 )
 :
             
@@ -29537,7 +28931,6 @@ Nothing
 raise
 WebIDLError
 (
-                    
 "
 Cached
 attributes
@@ -29546,7 +28939,7 @@ attributes
 stored
 in
 "
-                    
+                                  
 "
 slots
 must
@@ -29556,7 +28949,7 @@ or
 Pure
 or
 "
-                    
+                                  
 "
 Affects
 =
@@ -29569,19 +28962,18 @@ won
 t
 always
 "
-                    
+                                  
 "
 be
 called
 .
 "
-                    
+                                  
 [
 self
 .
 location
 ]
-                
 )
             
 (
@@ -29603,7 +28995,6 @@ contains
 raise
 WebIDLError
 (
-                    
 "
 [
 Cached
@@ -29617,7 +29008,7 @@ not
 be
 used
 "
-                    
+                                  
 "
 on
 an
@@ -29627,7 +29018,7 @@ type
 contains
 a
 "
-                    
+                                  
 "
 [
 ChromeOnly
@@ -29635,14 +29026,13 @@ ChromeOnly
 dictionary
 member
 "
-                    
+                                  
 [
 self
 .
 location
 location
 ]
-                
 )
         
 if
@@ -29658,7 +29048,6 @@ Frozen
             
 if
 (
-                
 not
 self
 .
@@ -29667,7 +29056,6 @@ type
 isSequence
 (
 )
-                
 and
 not
 self
@@ -29677,8 +29065,8 @@ type
 isDictionary
 (
 )
-                
 and
+                
 not
 self
 .
@@ -29687,14 +29075,12 @@ type
 isRecord
 (
 )
-            
 )
 :
                 
 raise
 WebIDLError
 (
-                    
 "
 [
 Frozen
@@ -29704,7 +29090,7 @@ only
 allowed
 on
 "
-                    
+                                  
 "
 sequence
 -
@@ -29714,20 +29100,19 @@ dictionary
 valued
 and
 "
-                    
+                                  
 "
 record
 -
 valued
 attributes
 "
-                    
+                                  
 [
 self
 .
 location
 ]
-                
 )
         
 if
@@ -29751,7 +29136,6 @@ exposureSet
 raise
 WebIDLError
 (
-                
 "
 Attribute
 returns
@@ -29762,7 +29146,7 @@ is
 not
 exposed
 "
-                
+                              
 "
 everywhere
 where
@@ -29771,13 +29155,12 @@ attribute
 is
 exposed
 "
-                
+                              
 [
 self
 .
 location
 ]
-            
 )
         
 if
@@ -29800,7 +29183,6 @@ readonly
 raise
 WebIDLError
 (
-                    
 "
 [
 CEReactions
@@ -29810,17 +29192,17 @@ not
 allowed
 on
 "
+                                  
 "
 readonly
 attributes
 "
-                    
+                                  
 [
 self
 .
 location
 ]
-                
 )
     
 def
@@ -29841,14 +29223,13 @@ identifier
         
 if
 (
-            
+(
 identifier
 =
 =
 "
 SetterThrows
 "
-            
 or
 identifier
 =
@@ -29856,26 +29237,26 @@ identifier
 "
 SetterCanOOM
 "
-            
 or
+             
 identifier
 =
 =
 "
 SetterNeedsSubjectPrincipal
 "
-        
 )
+            
 and
 self
 .
 readonly
+)
 :
             
 raise
 WebIDLError
 (
-                
 "
 Readonly
 attributes
@@ -29885,6 +29266,7 @@ be
 flagged
 as
 "
+                              
 "
 [
 %
@@ -29893,13 +29275,12 @@ s
 "
 %
 identifier
-                
+                              
 [
 self
 .
 location
 ]
-            
 )
         
 elif
@@ -29923,7 +29304,6 @@ hasValue
 raise
 WebIDLError
 (
-                    
 "
 [
 BindingAlias
@@ -29934,12 +29314,12 @@ identifier
 or
 string
 "
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 self
@@ -29955,16 +29335,14 @@ value
         
 elif
 (
-            
 (
-                
+(
 identifier
 =
 =
 "
 Throws
 "
-                
 or
 identifier
 =
@@ -29972,15 +29350,14 @@ identifier
 "
 GetterThrows
 "
-                
 or
+                
 identifier
 =
 =
 "
 CanOOM
 "
-                
 or
 identifier
 =
@@ -29988,10 +29365,9 @@ identifier
 "
 GetterCanOOM
 "
-            
 )
-            
 and
+               
 self
 .
 getExtendedAttribute
@@ -30000,21 +29376,19 @@ getExtendedAttribute
 StoreInSlot
 "
 )
-        
 )
 or
+              
 (
-            
 identifier
 =
 =
 "
 StoreInSlot
 "
-            
 and
+               
 (
-                
 self
 .
 getExtendedAttribute
@@ -30023,8 +29397,8 @@ getExtendedAttribute
 Throws
 "
 )
-                
 or
+                
 self
 .
 getExtendedAttribute
@@ -30033,8 +29407,8 @@ getExtendedAttribute
 GetterThrows
 "
 )
-                
 or
+                
 self
 .
 getExtendedAttribute
@@ -30043,8 +29417,8 @@ getExtendedAttribute
 CanOOM
 "
 )
-                
 or
+                
 self
 .
 getExtendedAttribute
@@ -30053,9 +29427,8 @@ getExtendedAttribute
 GetterCanOOM
 "
 )
-            
 )
-        
+)
 )
 :
             
@@ -30073,6 +29446,7 @@ be
 StoreInSlot
 ]
 "
+                              
 [
 attr
 .
@@ -30101,7 +29475,6 @@ noArguments
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientThis
@@ -30111,12 +29484,12 @@ take
 no
 arguments
 "
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 if
@@ -30130,7 +29503,6 @@ isStatic
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientThis
@@ -30143,10 +29515,10 @@ non
 -
 static
 "
+                                  
 "
 attributes
 "
-                    
 [
 attr
 .
@@ -30155,7 +29527,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -30172,7 +29543,6 @@ CrossOriginReadable
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientThis
@@ -30183,14 +29553,14 @@ allowed
 in
 combination
 "
-                    
+                                  
 "
 with
 [
 CrossOriginReadable
 ]
 "
-                    
+                                  
 [
 attr
 .
@@ -30199,7 +29569,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -30216,7 +29585,6 @@ CrossOriginWritable
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientThis
@@ -30227,14 +29595,14 @@ allowed
 in
 combination
 "
-                    
+                                  
 "
 with
 [
 CrossOriginWritable
 ]
 "
-                    
+                                  
 [
 attr
 .
@@ -30243,7 +29611,6 @@ self
 .
 location
 ]
-                
 )
             
 self
@@ -30272,7 +29639,6 @@ isStatic
 raise
 WebIDLError
 (
-                    
 "
 [
 Unforgeable
@@ -30285,10 +29651,10 @@ non
 -
 static
 "
+                                  
 "
 attributes
 "
-                    
 [
 attr
 .
@@ -30297,7 +29663,6 @@ self
 .
 location
 ]
-                
 )
             
 self
@@ -30323,7 +29688,6 @@ readonly
 raise
 WebIDLError
 (
-                
 "
 [
 SameObject
@@ -30334,7 +29698,7 @@ on
 readonly
 attributes
 "
-                
+                              
 [
 attr
 .
@@ -30343,7 +29707,6 @@ self
 .
 location
 ]
-            
 )
         
 elif
@@ -30363,7 +29726,6 @@ readonly
 raise
 WebIDLError
 (
-                
 "
 [
 Constant
@@ -30374,7 +29736,7 @@ on
 readonly
 attributes
 "
-                
+                              
 [
 attr
 .
@@ -30383,7 +29745,6 @@ self
 .
 location
 ]
-            
 )
         
 elif
@@ -30405,7 +29766,6 @@ readonly
 raise
 WebIDLError
 (
-                    
 "
 [
 PutForwards
@@ -30416,10 +29776,10 @@ allowed
 on
 readonly
 "
+                                  
 "
 attributes
 "
-                    
 [
 attr
 .
@@ -30428,7 +29788,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -30444,7 +29803,6 @@ isPromise
 raise
 WebIDLError
 (
-                    
 "
 [
 PutForwards
@@ -30454,13 +29812,14 @@ not
 allowed
 on
 "
+                                  
 "
 Promise
 -
 typed
 attributes
 "
-                    
+                                  
 [
 attr
 .
@@ -30469,7 +29828,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -30483,7 +29841,6 @@ isStatic
 raise
 WebIDLError
 (
-                    
 "
 [
 PutForwards
@@ -30496,10 +29853,10 @@ non
 -
 static
 "
+                                  
 "
 attributes
 "
-                    
 [
 attr
 .
@@ -30508,7 +29865,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -30528,7 +29884,6 @@ None
 raise
 WebIDLError
 (
-                    
 "
 [
 PutForwards
@@ -30542,7 +29897,7 @@ can
 t
 both
 "
-                    
+                                  
 "
 appear
 on
@@ -30550,7 +29905,7 @@ the
 same
 attribute
 "
-                    
+                                  
 [
 attr
 .
@@ -30559,7 +29914,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -30574,7 +29928,6 @@ hasValue
 raise
 WebIDLError
 (
-                    
 "
 [
 PutForwards
@@ -30583,6 +29936,7 @@ takes
 an
 identifier
 "
+                                  
 [
 attr
 .
@@ -30591,7 +29945,6 @@ self
 .
 location
 ]
-                
 )
         
 elif
@@ -30615,7 +29968,6 @@ noArguments
 raise
 WebIDLError
 (
-                    
 "
 [
 Replaceable
@@ -30625,12 +29977,12 @@ take
 no
 arguments
 "
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 if
@@ -30643,7 +29995,6 @@ readonly
 raise
 WebIDLError
 (
-                    
 "
 [
 Replaceable
@@ -30654,10 +30005,10 @@ allowed
 on
 readonly
 "
+                                  
 "
 attributes
 "
-                    
 [
 attr
 .
@@ -30666,7 +30017,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -30682,7 +30032,6 @@ isPromise
 raise
 WebIDLError
 (
-                    
 "
 [
 Replaceable
@@ -30692,13 +30041,14 @@ not
 allowed
 on
 "
+                                  
 "
 Promise
 -
 typed
 attributes
 "
-                    
+                                  
 [
 attr
 .
@@ -30707,7 +30057,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -30721,7 +30070,6 @@ isStatic
 raise
 WebIDLError
 (
-                    
 "
 [
 Replaceable
@@ -30734,10 +30082,10 @@ non
 -
 static
 "
+                                  
 "
 attributes
 "
-                    
 [
 attr
 .
@@ -30746,7 +30094,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -30766,7 +30113,6 @@ None
 raise
 WebIDLError
 (
-                    
 "
 [
 PutForwards
@@ -30780,7 +30126,7 @@ can
 t
 both
 "
-                    
+                                  
 "
 appear
 on
@@ -30788,7 +30134,7 @@ the
 same
 attribute
 "
-                    
+                                  
 [
 attr
 .
@@ -30797,7 +30143,6 @@ self
 .
 location
 ]
-                
 )
         
 elif
@@ -30821,7 +30166,6 @@ noArguments
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientSetter
@@ -30831,12 +30175,12 @@ take
 no
 arguments
 "
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 if
@@ -30849,7 +30193,6 @@ readonly
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientSetter
@@ -30860,10 +30203,10 @@ allowed
 on
 readonly
 "
+                                  
 "
 attributes
 "
-                    
 [
 attr
 .
@@ -30872,7 +30215,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -30888,7 +30230,6 @@ isPromise
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientSetter
@@ -30898,13 +30239,14 @@ not
 allowed
 on
 "
+                                  
 "
 Promise
 -
 typed
 attributes
 "
-                    
+                                  
 [
 attr
 .
@@ -30913,7 +30255,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -30927,7 +30268,6 @@ isStatic
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientSetter
@@ -30940,10 +30280,10 @@ non
 -
 static
 "
+                                  
 "
 attributes
 "
-                    
 [
 attr
 .
@@ -30952,7 +30292,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -30972,7 +30311,6 @@ None
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientSetter
@@ -30986,7 +30324,7 @@ can
 t
 both
 "
-                    
+                                  
 "
 appear
 on
@@ -30994,7 +30332,7 @@ the
 same
 attribute
 "
-                    
+                                  
 [
 attr
 .
@@ -31003,7 +30341,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -31023,7 +30360,6 @@ None
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientSetter
@@ -31037,7 +30373,7 @@ can
 t
 both
 "
-                    
+                                  
 "
 appear
 on
@@ -31045,7 +30381,7 @@ the
 same
 attribute
 "
-                    
+                                  
 [
 attr
 .
@@ -31054,7 +30390,6 @@ self
 .
 location
 ]
-                
 )
         
 elif
@@ -31075,7 +30410,6 @@ readonly
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientFloat
@@ -31086,7 +30420,7 @@ a
 readonly
 attribute
 "
-                    
+                                  
 [
 attr
 .
@@ -31095,7 +30429,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -31112,7 +30445,6 @@ includesRestrictedFloat
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientFloat
@@ -31124,7 +30456,7 @@ attribute
 with
 a
 "
-                    
+                                  
 "
 non
 -
@@ -31133,7 +30465,7 @@ restricted
 float
 type
 "
-                    
+                                  
 [
 attr
 .
@@ -31142,7 +30474,6 @@ self
 .
 location
 ]
-                
 )
         
 elif
@@ -31168,7 +30499,6 @@ Cached
 raise
 WebIDLError
 (
-                    
 "
 [
 StoreInSlot
@@ -31181,7 +30511,7 @@ must
 not
 be
 "
-                    
+                                  
 "
 specified
 on
@@ -31189,7 +30519,7 @@ the
 same
 attribute
 "
-                    
+                                  
 [
 attr
 .
@@ -31198,7 +30528,6 @@ self
 .
 location
 ]
-                
 )
         
 elif
@@ -31224,7 +30553,6 @@ StoreInSlot
 raise
 WebIDLError
 (
-                    
 "
 [
 Cached
@@ -31237,7 +30565,7 @@ must
 not
 be
 "
-                    
+                                  
 "
 specified
 on
@@ -31245,7 +30573,7 @@ the
 same
 attribute
 "
-                    
+                                  
 [
 attr
 .
@@ -31254,10 +30582,10 @@ self
 .
 location
 ]
-                
 )
         
 elif
+(
 identifier
 =
 =
@@ -31265,12 +30593,14 @@ identifier
 CrossOriginReadable
 "
 or
+              
 identifier
 =
 =
 "
 CrossOriginWritable
 "
+)
 :
             
 if
@@ -31285,7 +30615,6 @@ noArguments
 raise
 WebIDLError
 (
-                    
 "
 [
 %
@@ -31298,12 +30627,12 @@ arguments
 "
 %
 identifier
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 if
@@ -31317,7 +30646,6 @@ isStatic
 raise
 WebIDLError
 (
-                    
 "
 [
 %
@@ -31331,12 +30659,13 @@ non
 -
 static
 "
+                                  
 "
 attributes
 "
 %
 identifier
-                    
+                                  
 [
 attr
 .
@@ -31345,7 +30674,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -31362,7 +30690,6 @@ LenientThis
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientThis
@@ -31373,7 +30700,7 @@ allowed
 in
 combination
 "
-                    
+                                  
 "
 with
 [
@@ -31383,7 +30710,7 @@ s
 "
 %
 identifier
-                    
+                                  
 [
 attr
 .
@@ -31392,7 +30719,6 @@ self
 .
 location
 ]
-                
 )
         
 elif
@@ -31442,6 +30768,7 @@ take
 no
 arguments
 "
+                                  
 [
 attr
 .
@@ -31495,7 +30822,6 @@ noArguments
 raise
 WebIDLError
 (
-                    
 "
 [
 %
@@ -31508,12 +30834,12 @@ arguments
 "
 %
 identifier
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 self
@@ -31563,6 +30889,7 @@ takes
 an
 identifier
 "
+                                  
 [
 attr
 .
@@ -31610,6 +30937,7 @@ takes
 an
 identifier
 "
+                                  
 [
 attr
 .
@@ -31619,7 +30947,6 @@ location
             
 if
 (
-                
 attr
 .
 value
@@ -31630,7 +30957,6 @@ value
 "
 Everything
 "
-                
 and
 attr
 .
@@ -31642,20 +30968,18 @@ value
 "
 DOMState
 "
-                
 and
+                
 not
 self
 .
 readonly
-            
 )
 :
                 
 raise
 WebIDLError
 (
-                    
 "
 [
 DependsOn
@@ -31667,7 +30991,7 @@ only
 allowed
 on
 "
-                    
+                                  
 "
 readonly
 attributes
@@ -31678,7 +31002,7 @@ attr
 value
 (
 )
-                    
+                                  
 [
 attr
 .
@@ -31687,7 +31011,6 @@ self
 .
 location
 ]
-                
 )
             
 self
@@ -31719,7 +31042,6 @@ stringifier
 raise
 WebIDLError
 (
-                    
 "
 [
 UseCounter
@@ -31731,11 +31053,12 @@ used
 on
 a
 "
+                                  
 "
 stringifier
 attribute
 "
-                    
+                                  
 [
 attr
 .
@@ -31744,7 +31067,6 @@ self
 .
 location
 ]
-                
 )
         
 elif
@@ -31768,7 +31090,6 @@ noArguments
 raise
 WebIDLError
 (
-                    
 "
 [
 Unscopable
@@ -31778,12 +31099,12 @@ take
 no
 arguments
 "
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 if
@@ -31797,7 +31118,6 @@ isStatic
 raise
 WebIDLError
 (
-                    
 "
 [
 Unscopable
@@ -31810,13 +31130,13 @@ non
 -
 static
 "
-                    
+                                  
 "
 attributes
 and
 operations
 "
-                    
+                                  
 [
 attr
 .
@@ -31825,7 +31145,6 @@ self
 .
 location
 ]
-                
 )
         
 elif
@@ -31849,7 +31168,6 @@ noArguments
 raise
 WebIDLError
 (
-                    
 "
 [
 CEReactions
@@ -31859,176 +31177,174 @@ take
 no
 arguments
 "
+                                  
 [
 attr
 .
 location
 ]
-                
 )
         
 elif
 (
-            
 identifier
 =
 =
 "
 Pref
 "
-            
 or
+              
 identifier
 =
 =
 "
 Deprecated
 "
-            
 or
+              
 identifier
 =
 =
 "
 SetterThrows
 "
-            
 or
+              
 identifier
 =
 =
 "
 Throws
 "
-            
 or
+              
 identifier
 =
 =
 "
 GetterThrows
 "
-            
 or
+              
 identifier
 =
 =
 "
 SetterCanOOM
 "
-            
 or
+              
 identifier
 =
 =
 "
 CanOOM
 "
-            
 or
+              
 identifier
 =
 =
 "
 GetterCanOOM
 "
-            
 or
+              
 identifier
 =
 =
 "
 ChromeOnly
 "
-            
 or
+              
 identifier
 =
 =
 "
 Func
 "
-            
 or
+              
 identifier
 =
 =
 "
 SecureContext
 "
-            
 or
+              
 identifier
 =
 =
 "
 Frozen
 "
-            
 or
+              
 identifier
 =
 =
 "
 NewObject
 "
-            
 or
+              
 identifier
 =
 =
 "
 NeedsSubjectPrincipal
 "
-            
 or
+              
 identifier
 =
 =
 "
 SetterNeedsSubjectPrincipal
 "
-            
 or
+              
 identifier
 =
 =
 "
 GetterNeedsSubjectPrincipal
 "
-            
 or
+              
 identifier
 =
 =
 "
 NeedsCallerType
 "
-            
 or
+              
 identifier
 =
 =
 "
 ReturnValueNeedsContainsHack
 "
-            
 or
+              
 identifier
 =
 =
 "
 BinaryName
 "
-            
 or
+              
 identifier
 =
 =
 "
 NonEnumerable
 "
-        
 )
 :
             
@@ -32040,7 +31356,6 @@ else
 raise
 WebIDLError
 (
-                
 "
 Unknown
 extended
@@ -32052,13 +31367,12 @@ attribute
 "
 %
 identifier
-                
+                              
 [
 attr
 .
 location
 ]
-            
 )
         
 IDLInterfaceMember
@@ -32232,7 +31546,6 @@ isUSVString
 raise
 WebIDLError
 (
-                
 "
 The
 type
@@ -32243,69 +31556,63 @@ attribute
 must
 be
 "
-                
+                              
 "
 either
 DOMString
 or
 USVString
 "
-                
+                              
 [
 self
 .
 location
 ]
-            
 )
         
 identifier
 =
 IDLUnresolvedIdentifier
 (
-            
 self
 .
 location
 "
 __stringifier
 "
+                                             
 allowDoubleUnderscore
 =
 True
-        
 )
         
 method
 =
 IDLMethod
 (
-            
 self
 .
 location
-            
+                           
 identifier
-            
+                           
 returnType
 =
 self
 .
 type
-            
 arguments
 =
 [
 ]
-            
+                           
 stringifier
 =
 True
-            
 underlyingAttr
 =
 self
-        
 )
         
 allowedExtAttrs
@@ -32371,7 +31678,6 @@ True
 raise
 WebIDLError
 (
-                        
 "
 [
 %
@@ -32383,14 +31689,14 @@ value
 is
 currently
 "
-                        
+                                      
 "
 unsupported
 in
 stringifier
 attributes
 "
-                        
+                                      
 "
 please
 file
@@ -32402,20 +31708,18 @@ support
 "
 %
 key
-                        
+                                      
 [
 self
 .
 location
 ]
-                    
 )
                 
 method
 .
 addExtendedAttributes
 (
-                    
 [
 IDLExtendedAttribute
 (
@@ -32427,7 +31731,6 @@ key
 )
 )
 ]
-                
 )
             
 elif
@@ -32440,7 +31743,6 @@ attributeOnlyExtAttrs
 raise
 WebIDLError
 (
-                    
 "
 [
 %
@@ -32451,7 +31753,7 @@ currently
 unsupported
 in
 "
-                    
+                                  
 "
 stringifier
 attributes
@@ -32460,7 +31762,7 @@ file
 a
 bug
 "
-                    
+                                  
 "
 to
 add
@@ -32468,13 +31770,12 @@ support
 "
 %
 key
-                    
+                                  
 [
 self
 .
 location
 ]
-                
 )
         
 members
@@ -32493,35 +31794,25 @@ IDLObjectWithIdentifier
 def
 __init__
 (
-        
 self
-        
 location
-        
 identifier
-        
 type
-        
 optional
 =
 False
-        
 defaultValue
 =
 None
-        
 variadic
 =
 False
-        
 dictionaryMember
 =
 False
-        
 allowTypeAttributes
 =
 False
-    
 )
 :
         
@@ -32638,14 +31929,12 @@ self
 allowTypeAttributes
 and
 (
-                
 identifier
 =
 =
 "
 EnforceRange
 "
-                
 or
 identifier
 =
@@ -32653,15 +31942,14 @@ identifier
 "
 Clamp
 "
-                
 or
+                                             
 identifier
 =
 =
 "
 TreatNullAs
 "
-                
 or
 identifier
 =
@@ -32669,7 +31957,6 @@ identifier
 "
 AllowShared
 "
-            
 )
 :
                 
@@ -32704,35 +31991,36 @@ _allowTreatNonCallableAsNull
 True
             
 elif
+(
 self
 .
 dictionaryMember
 and
+                  
 (
-                
 identifier
 =
 =
 "
 ChromeOnly
 "
-                
 or
+                   
 identifier
 =
 =
 "
 Func
 "
-                
 or
+                   
 identifier
 =
 =
 "
 Pref
 "
-            
+)
 )
 :
                 
@@ -32746,7 +32034,6 @@ optional
 raise
 WebIDLError
 (
-                        
 "
 [
 %
@@ -32760,20 +32047,19 @@ on
 a
 required
 "
-                        
+                                      
 "
 dictionary
 member
 "
 %
 identifier
-                        
+                                      
 [
 attribute
 .
 location
 ]
-                    
 )
             
 else
@@ -32782,7 +32068,6 @@ else
 raise
 WebIDLError
 (
-                    
 "
 Unhandled
 extended
@@ -32791,35 +32076,31 @@ on
 %
 s
 "
-                    
 %
+                                  
 (
-                        
 "
 a
 dictionary
 member
 "
-                        
 if
 self
 .
 dictionaryMember
-                        
 else
+                                   
 "
 an
 argument
 "
-                    
 )
-                    
+                                  
 [
 attribute
 .
 location
 ]
-                
 )
             
 attrlist
@@ -32964,20 +32245,21 @@ isAny
 :
             
 assert
+(
 self
 .
 defaultValue
 is
 None
 or
+                    
 isinstance
 (
-                
 self
 .
 defaultValue
 IDLNullValue
-            
+)
 )
             
 if
@@ -33022,7 +32304,6 @@ treatNullAsEmpty
 raise
 WebIDLError
 (
-                
 "
 Dictionary
 members
@@ -33037,7 +32318,6 @@ self
 .
 location
 ]
-            
 )
         
 if
@@ -33059,6 +32339,7 @@ coerceToType
 self
 .
 type
+                                                               
 self
 .
 location
@@ -33143,7 +32424,6 @@ IDLObjectWithScope
 def
 __init__
 (
-        
 self
 location
 parentScope
@@ -33151,7 +32431,6 @@ identifier
 returnType
 arguments
 isConstructor
-    
 )
 :
         
@@ -33472,7 +32751,6 @@ _isConstructor
 raise
 WebIDLError
 (
-                        
 "
 [
 TreatNonObjectAsNull
@@ -33481,17 +32759,16 @@ is
 not
 supported
 "
+                                      
 "
 on
 constructors
 "
-                        
 [
 self
 .
 location
 ]
-                    
 )
                 
 self
@@ -33522,7 +32799,6 @@ _isConstructor
 raise
 WebIDLError
 (
-                        
 "
 [
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
@@ -33530,19 +32806,18 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 is
 not
 "
-                        
+                                      
 "
 permitted
 on
 constructors
 "
-                        
+                                      
 [
 self
 .
 location
 ]
-                    
 )
                 
 self
@@ -33574,7 +32849,6 @@ _treatNonObjectAsNull
 raise
 WebIDLError
 (
-                
 "
 Cannot
 specify
@@ -33583,20 +32857,18 @@ both
 TreatNonCallableAsNull
 ]
 "
-                
+                              
 "
 and
 [
 TreatNonObjectAsNull
 ]
 "
-                
 [
 self
 .
 location
 ]
-            
 )
         
 if
@@ -33649,6 +32921,7 @@ return
 self
 .
 _isRunScriptBoundary
+;
 class
 IDLCallbackType
 (
@@ -33745,41 +33018,36 @@ self
         
 return
 (
-            
 other
 .
 isPrimitive
 (
 )
-            
 or
 other
 .
 isString
 (
 )
-            
 or
 other
 .
 isEnum
 (
 )
-            
 or
+                
 other
 .
 isNonCallbackInterface
 (
 )
-            
 or
 other
 .
 isSequence
 (
 )
-        
 )
     
 def
@@ -33981,18 +33249,22 @@ Special
 enum
 (
         
-"
+'
 Getter
-"
-"
+'
+        
+'
 Setter
-"
-"
+'
+        
+'
 Deleter
-"
-"
+'
+        
+'
 LegacyCaller
-"
+'
+        
 base
 =
 IDLInterfaceMember
@@ -34005,69 +33277,63 @@ NamedOrIndexed
 =
 enum
 (
-"
+        
+'
 Neither
-"
-"
+'
+        
+'
 Named
-"
-"
+'
+        
+'
 Indexed
-"
+'
+    
 )
     
 def
 __init__
 (
-        
 self
-        
 location
-        
 identifier
-        
 returnType
-        
 arguments
-        
+                 
 static
 =
 False
-        
 getter
 =
 False
-        
 setter
 =
 False
-        
+                 
 deleter
 =
 False
-        
 specialType
 =
 NamedOrIndexed
 .
 Neither
-        
+                 
 legacycaller
 =
 False
-        
 stringifier
 =
 False
-        
+                 
 maplikeOrSetlikeOrIterable
 =
 None
-        
+                 
 underlyingAttr
 =
 None
-    
 )
 :
         
@@ -34075,16 +33341,15 @@ IDLInterfaceMember
 .
 __init__
 (
-            
 self
 location
 identifier
+                                    
 IDLInterfaceMember
 .
 Tags
 .
 Method
-        
 )
         
 self
@@ -34198,10 +33463,8 @@ None
 or
 isinstance
 (
-            
 maplikeOrSetlikeOrIterable
 IDLMaplikeOrSetlikeOrIterableBase
-        
 )
         
 self
@@ -34273,7 +33536,6 @@ prototype
 raise
 WebIDLError
 (
-                
 "
 The
 identifier
@@ -34288,11 +33550,10 @@ be
 prototype
 '
 "
-                
+                              
 [
 location
 ]
-            
 )
         
 self
@@ -34375,7 +33636,6 @@ arguments
             
 assert
 (
-                
 arguments
 [
 0
@@ -34392,8 +33652,8 @@ Types
 .
 domstring
 ]
-                
 or
+                    
 arguments
 [
 0
@@ -34410,7 +33670,6 @@ Types
 .
 unsigned_long
 ]
-            
 )
             
 assert
@@ -34484,7 +33743,6 @@ arguments
             
 assert
 (
-                
 arguments
 [
 0
@@ -34501,8 +33759,8 @@ Types
 .
 domstring
 ]
-                
 or
+                    
 arguments
 [
 0
@@ -34519,7 +33777,6 @@ Types
 .
 unsigned_long
 ]
-            
 )
             
 assert
@@ -34601,8 +33858,6 @@ underlyingAttr
 :
                 
 assert
-(
-                    
 overload
 .
 returnType
@@ -34616,8 +33871,6 @@ Types
 .
 domstring
 ]
-                
-)
     
 def
 isStatic
@@ -34689,7 +33942,6 @@ self
         
 assert
 (
-            
 self
 .
 _specialType
@@ -34700,8 +33952,8 @@ IDLMethod
 NamedOrIndexed
 .
 Named
-            
 or
+                
 self
 .
 _specialType
@@ -34712,7 +33964,6 @@ IDLMethod
 NamedOrIndexed
 .
 Indexed
-        
 )
         
 return
@@ -34736,7 +33987,6 @@ self
         
 assert
 (
-            
 self
 .
 _specialType
@@ -34747,8 +33997,8 @@ IDLMethod
 NamedOrIndexed
 .
 Named
-            
 or
+                
 self
 .
 _specialType
@@ -34759,7 +34009,6 @@ IDLMethod
 NamedOrIndexed
 .
 Indexed
-        
 )
         
 return
@@ -34900,41 +34149,39 @@ self
         
 return
 (
-            
 self
 .
 isGetter
 (
 )
-            
 or
+                
 self
 .
 isSetter
 (
 )
-            
 or
+                
 self
 .
 isDeleter
 (
 )
-            
 or
+                
 self
 .
 isLegacycaller
 (
 )
-            
 or
+                
 self
 .
 isStringifier
 (
 )
-        
 )
     
 def
@@ -35044,7 +34291,6 @@ identifier
         
 return
 (
-            
 self
 .
 identifier
@@ -35059,15 +34305,14 @@ name
 "
 __
 "
-            
 and
+                
 not
 self
 .
 isMaplikeOrSetlikeOrIterableMethod
 (
 )
-        
 )
     
 def
@@ -35178,7 +34423,6 @@ keys
 ^
 set
 (
-                
 method
 .
 _extendedAttrDict
@@ -35186,7 +34430,6 @@ _extendedAttrDict
 keys
 (
 )
-            
 )
             
 if
@@ -35230,7 +34473,6 @@ includesRestrictedFloatArgument
 raise
 WebIDLError
 (
-                                
 "
 Restricted
 float
@@ -35239,7 +34481,7 @@ differs
 on
 different
 "
-                                
+                                              
 "
 overloads
 of
@@ -35250,7 +34492,7 @@ s
 method
 .
 identifier
-                                
+                                              
 [
 overload
 .
@@ -35259,7 +34501,6 @@ method
 .
 location
 ]
-                            
 )
                     
 self
@@ -35275,11 +34516,9 @@ method
 .
 _extendedAttrDict
 [
-                        
 "
 LenientFloat
 "
-                    
 ]
                 
 elif
@@ -35298,7 +34537,6 @@ includesRestrictedFloatArgument
 raise
 WebIDLError
 (
-                        
 "
 Restricted
 float
@@ -35307,7 +34545,7 @@ differs
 on
 different
 "
-                        
+                                      
 "
 overloads
 of
@@ -35318,7 +34556,7 @@ s
 method
 .
 identifier
-                        
+                                      
 [
 self
 .
@@ -35327,7 +34565,6 @@ method
 .
 location
 ]
-                    
 )
             
 else
@@ -35336,7 +34573,6 @@ else
 raise
 WebIDLError
 (
-                    
 "
 Extended
 attributes
@@ -35344,7 +34580,7 @@ differ
 on
 different
 "
-                    
+                                
 "
 overloads
 of
@@ -35355,7 +34591,7 @@ s
 method
 .
 identifier
-                    
+                                
 [
 self
 .
@@ -35364,7 +34600,6 @@ method
 .
 location
 ]
-                
 )
         
 self
@@ -35402,7 +34637,6 @@ isStatic
 raise
 WebIDLError
 (
-                
 "
 Overloaded
 identifier
@@ -35419,18 +34653,16 @@ static
 '
 attribute
 "
-                
 %
 method
 .
 identifier
-                
+                              
 [
 method
 .
 location
 ]
-            
 )
         
 if
@@ -35451,7 +34683,6 @@ isLegacycaller
 raise
 WebIDLError
 (
-                
 "
 Overloaded
 identifier
@@ -35468,18 +34699,16 @@ legacycaller
 '
 attribute
 "
-                
 %
 method
 .
 identifier
-                
+                              
 [
 method
 .
 location
 ]
-            
 )
         
 assert
@@ -35574,7 +34803,6 @@ self
         
 return
 [
-            
 (
 overload
 .
@@ -35586,10 +34814,10 @@ arguments
 for
 overload
 in
+                
 self
 .
 _overloads
-        
 ]
     
 def
@@ -35733,9 +34961,7 @@ self
 allowedArgCounts
 =
 [
-            
 i
-            
 for
 i
 in
@@ -35747,7 +34973,7 @@ maxArgCount
 +
 1
 )
-            
+                                 
 if
 len
 (
@@ -35761,7 +34987,6 @@ i
 !
 =
 0
-        
 ]
     
 def
@@ -35902,22 +35127,18 @@ index
 %
 d
 "
-                            
 %
+                            
 (
-                                
 self
 .
 identifier
 .
 name
-                                
 argCount
-                                
 idx
-                                
+                             
 distinguishingIndex
-                            
 )
                             
 [
@@ -35928,7 +35149,6 @@ overload
 .
 location
 ]
-                        
 )
         
 overloadWithPromiseReturnType
@@ -35972,7 +35192,6 @@ exposureSet
 raise
 WebIDLError
 (
-                    
 "
 Overload
 returns
@@ -35983,7 +35202,7 @@ is
 not
 exposed
 "
-                    
+                                  
 "
 everywhere
 where
@@ -35992,13 +35211,12 @@ method
 is
 exposed
 "
-                    
+                                  
 [
 overload
 .
 location
 ]
-                
 )
             
 variadicArgument
@@ -36034,7 +35252,7 @@ isComplete
                 
 if
 (
-                    
+(
 argument
 .
 type
@@ -36042,8 +35260,8 @@ type
 isDictionary
 (
 )
-                    
 and
+                     
 argument
 .
 type
@@ -36057,11 +35275,10 @@ inner
 canBeEmpty
 (
 )
-                
 )
 or
-(
                     
+(
 argument
 .
 type
@@ -36069,8 +35286,8 @@ type
 isUnion
 (
 )
-                    
 and
+                     
 argument
 .
 type
@@ -36082,19 +35299,20 @@ unroll
 hasPossiblyEmptyDictionaryType
 (
 )
-                
+)
 )
 :
                     
 if
+(
 not
 argument
 .
 optional
 and
+                        
 all
 (
-                        
 arg
 .
 optional
@@ -36108,21 +35326,20 @@ idx
 1
 :
 ]
-                    
+)
 )
 :
                         
 raise
 WebIDLError
 (
-                            
 "
 Dictionary
 argument
 without
 any
 "
-                            
+                                          
 "
 required
 fields
@@ -36130,14 +35347,14 @@ or
 union
 argument
 "
-                            
+                                          
 "
 containing
 such
 dictionary
 not
 "
-                            
+                                          
 "
 followed
 by
@@ -36145,30 +35362,30 @@ a
 required
 argument
 "
-                            
+                                          
 "
 must
 be
 optional
 "
-                            
+                                          
 [
 argument
 .
 location
 ]
-                        
 )
                     
 if
+(
 not
 argument
 .
 defaultValue
 and
+                        
 all
 (
-                        
 arg
 .
 optional
@@ -36182,21 +35399,20 @@ idx
 1
 :
 ]
-                    
+)
 )
 :
                         
 raise
 WebIDLError
 (
-                            
 "
 Dictionary
 argument
 without
 any
 "
-                            
+                                          
 "
 required
 fields
@@ -36204,14 +35420,14 @@ or
 union
 argument
 "
-                            
+                                          
 "
 containing
 such
 dictionary
 not
 "
-                            
+                                          
 "
 followed
 by
@@ -36219,7 +35435,7 @@ a
 required
 argument
 "
-                            
+                                          
 "
 must
 have
@@ -36227,16 +35443,16 @@ a
 default
 value
 "
-                            
+                                          
 [
 argument
 .
 location
 ]
-                        
 )
                 
 if
+(
 argument
 .
 type
@@ -36245,8 +35461,8 @@ nullable
 (
 )
 and
-(
                     
+(
 argument
 .
 type
@@ -36254,10 +35470,9 @@ type
 isDictionary
 (
 )
-                    
 or
+                     
 (
-                        
 argument
 .
 type
@@ -36265,8 +35480,8 @@ type
 isUnion
 (
 )
-                        
 and
+                      
 argument
 .
 type
@@ -36278,16 +35493,14 @@ unroll
 hasDictionaryType
 (
 )
-                    
 )
-                
+)
 )
 :
                     
 raise
 WebIDLError
 (
-                        
 "
 An
 argument
@@ -36296,26 +35509,25 @@ be
 a
 nullable
 "
-                        
+                                      
 "
 dictionary
 or
 nullable
 union
 "
-                        
+                                      
 "
 containing
 a
 dictionary
 "
-                        
+                                      
 [
 argument
 .
 location
 ]
-                    
 )
                 
 if
@@ -36325,7 +35537,6 @@ variadicArgument
 raise
 WebIDLError
 (
-                        
 "
 Variadic
 argument
@@ -36334,13 +35545,12 @@ not
 last
 argument
 "
-                        
+                                      
 [
 variadicArgument
 .
 location
 ]
-                    
 )
                 
 if
@@ -36381,7 +35591,6 @@ overloadWithoutPromiseReturnType
 raise
 WebIDLError
 (
-                
 "
 We
 have
@@ -36391,6 +35600,7 @@ both
 Promise
 and
 "
+                              
 "
 non
 -
@@ -36398,19 +35608,16 @@ Promise
 return
 types
 "
-                
+                              
 [
-                    
 overloadWithPromiseReturnType
 .
 location
-                    
+                               
 overloadWithoutPromiseReturnType
 .
 location
-                
 ]
-            
 )
         
 if
@@ -36424,7 +35631,6 @@ _legacycaller
 raise
 WebIDLError
 (
-                
 "
 May
 not
@@ -36436,17 +35642,17 @@ type
 for
 a
 "
+                              
 "
 legacycaller
 .
 "
-                
+                              
 [
 overloadWithPromiseReturnType
 .
 location
 ]
-            
 )
         
 if
@@ -36460,8 +35666,9 @@ StaticClassOverride
 )
 and
 not
+\
+           
 (
-            
 self
 .
 identifier
@@ -36477,14 +35684,12 @@ self
 isStatic
 (
 )
-        
 )
 :
             
 raise
 WebIDLError
 (
-                
 "
 StaticClassOverride
 can
@@ -36493,7 +35698,7 @@ applied
 to
 static
 "
-                
+                              
 "
 methods
 on
@@ -36504,13 +35709,12 @@ classes
 only
 .
 "
-                
+                              
 [
 self
 .
 location
 ]
-            
 )
         
 if
@@ -36543,7 +35747,6 @@ signatures
 raise
 WebIDLError
 (
-                    
 "
 toJSON
 method
@@ -36551,7 +35754,7 @@ has
 multiple
 overloads
 "
-                    
+                                  
 [
 self
 .
@@ -36561,6 +35764,7 @@ _overloads
 ]
 .
 location
+                                   
 self
 .
 _overloads
@@ -36570,7 +35774,6 @@ _overloads
 .
 location
 ]
-                
 )
             
 if
@@ -36602,6 +35805,7 @@ method
 has
 arguments
 "
+                                  
 [
 self
 .
@@ -36631,7 +35835,6 @@ isJSONType
 raise
 WebIDLError
 (
-                    
 "
 toJSON
 method
@@ -36642,12 +35845,12 @@ JSON
 return
 type
 "
+                                  
 [
 self
 .
 location
 ]
-                
 )
     
 def
@@ -36660,17 +35863,15 @@ argc
         
 return
 [
-            
 overload
-            
 for
 overload
 in
 self
 .
 _overloads
-            
 if
+                
 len
 (
 overload
@@ -36680,10 +35881,9 @@ arguments
 =
 =
 argc
-            
 or
-(
                 
+(
 len
 (
 overload
@@ -36692,8 +35892,8 @@ arguments
 )
 >
 argc
-                
 and
+                 
 all
 (
 arg
@@ -36710,12 +35910,10 @@ argc
 :
 ]
 )
-            
 )
-            
 or
-(
                 
+(
 len
 (
 overload
@@ -36724,8 +35922,8 @@ arguments
 )
 <
 argc
-                
 and
+                 
 len
 (
 overload
@@ -36734,8 +35932,8 @@ arguments
 )
 >
 0
-                
 and
+                 
 overload
 .
 arguments
@@ -36745,9 +35943,7 @@ arguments
 ]
 .
 variadic
-            
 )
-        
 ]
     
 def
@@ -36760,7 +35956,6 @@ argc
         
 return
 [
-            
 (
 overload
 .
@@ -36769,9 +35964,9 @@ overload
 .
 arguments
 )
-            
 for
 overload
+                
 in
 self
 .
@@ -36779,7 +35974,6 @@ overloadsForArgCount
 (
 argc
 )
-        
 ]
     
 def
@@ -36879,6 +36073,7 @@ else
 :
                         
 assert
+(
 firstArgs
 [
 -
@@ -36886,6 +36081,7 @@ firstArgs
 ]
 .
 variadic
+)
                         
 firstType
 =
@@ -36919,6 +36115,7 @@ else
 :
                         
 assert
+(
 secondArgs
 [
 -
@@ -36926,6 +36123,7 @@ secondArgs
 ]
 .
 variadic
+)
                         
 secondType
 =
@@ -36994,7 +36192,6 @@ argc
 raise
 WebIDLError
 (
-            
 "
 Signatures
 with
@@ -37010,7 +36207,7 @@ s
 are
 not
 "
-            
+                          
 "
 distinguishable
 "
@@ -37023,9 +36220,8 @@ identifier
 .
 name
 )
-            
+                          
 locations
-        
 )
     
 def
@@ -37046,61 +36242,58 @@ identifier
         
 if
 (
-            
 identifier
 =
 =
 "
 GetterThrows
 "
-            
 or
+            
 identifier
 =
 =
 "
 SetterThrows
 "
-            
 or
+            
 identifier
 =
 =
 "
 GetterCanOOM
 "
-            
 or
+            
 identifier
 =
 =
 "
 SetterCanOOM
 "
-            
 or
+            
 identifier
 =
 =
 "
 SetterNeedsSubjectPrincipal
 "
-            
 or
+            
 identifier
 =
 =
 "
 GetterNeedsSubjectPrincipal
 "
-        
 )
 :
             
 raise
 WebIDLError
 (
-                
 "
 Methods
 must
@@ -37109,6 +36302,7 @@ be
 flagged
 as
 "
+                              
 "
 [
 %
@@ -37117,7 +36311,7 @@ s
 "
 %
 identifier
-                
+                              
 [
 attr
 .
@@ -37126,7 +36320,6 @@ self
 .
 location
 ]
-            
 )
         
 elif
@@ -37149,7 +36342,6 @@ isStatic
 raise
 WebIDLError
 (
-                    
 "
 [
 Unforgeable
@@ -37162,10 +36354,10 @@ non
 -
 static
 "
+                                  
 "
 methods
 "
-                    
 [
 attr
 .
@@ -37174,7 +36366,6 @@ self
 .
 location
 ]
-                
 )
             
 self
@@ -37195,7 +36386,6 @@ SameObject
 raise
 WebIDLError
 (
-                
 "
 Methods
 must
@@ -37207,7 +36397,7 @@ as
 SameObject
 ]
 "
-                
+                              
 [
 attr
 .
@@ -37216,7 +36406,6 @@ self
 .
 location
 ]
-            
 )
         
 elif
@@ -37231,7 +36420,6 @@ Constant
 raise
 WebIDLError
 (
-                
 "
 Methods
 must
@@ -37243,7 +36431,7 @@ as
 Constant
 ]
 "
-                
+                              
 [
 attr
 .
@@ -37252,7 +36440,6 @@ self
 .
 location
 ]
-            
 )
         
 elif
@@ -37267,7 +36454,6 @@ PutForwards
 raise
 WebIDLError
 (
-                
 "
 Only
 attributes
@@ -37276,6 +36462,7 @@ support
 PutForwards
 ]
 "
+                              
 [
 attr
 .
@@ -37284,7 +36471,6 @@ self
 .
 location
 ]
-            
 )
         
 elif
@@ -37299,7 +36485,6 @@ LenientSetter
 raise
 WebIDLError
 (
-                
 "
 Only
 attributes
@@ -37308,7 +36493,7 @@ support
 LenientSetter
 ]
 "
-                
+                              
 [
 attr
 .
@@ -37317,7 +36502,6 @@ self
 .
 location
 ]
-            
 )
         
 elif
@@ -37361,7 +36545,6 @@ isVoid
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientFloat
@@ -37374,7 +36557,7 @@ non
 void
 method
 "
-                    
+                                  
 [
 attr
 .
@@ -37383,7 +36566,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -37401,7 +36583,6 @@ includesRestrictedFloatArgument
 raise
 WebIDLError
 (
-                    
 "
 [
 LenientFloat
@@ -37413,14 +36594,14 @@ operation
 with
 no
 "
-                    
+                                  
 "
 restricted
 float
 type
 arguments
 "
-                    
+                                  
 [
 attr
 .
@@ -37429,7 +36610,6 @@ self
 .
 location
 ]
-                
 )
         
 elif
@@ -37451,22 +36631,20 @@ _exposureGlobalNames
         
 elif
 (
-            
 identifier
 =
 =
 "
 CrossOriginCallable
 "
-            
 or
+              
 identifier
 =
 =
 "
 WebGLHandlesContextLoss
 "
-        
 )
 :
             
@@ -37482,7 +36660,6 @@ noArguments
 raise
 WebIDLError
 (
-                    
 "
 [
 %
@@ -37495,12 +36672,12 @@ arguments
 "
 %
 identifier
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 if
@@ -37521,7 +36698,6 @@ isStatic
 raise
 WebIDLError
 (
-                    
 "
 [
 CrossOriginCallable
@@ -37534,10 +36710,11 @@ non
 -
 static
 "
+                                  
 "
 attributes
 "
-                    
+                                  
 [
 attr
 .
@@ -37546,7 +36723,6 @@ self
 .
 location
 ]
-                
 )
         
 elif
@@ -37579,6 +36755,7 @@ take
 no
 arguments
 "
+                                  
 [
 attr
 .
@@ -37633,6 +36810,7 @@ takes
 an
 identifier
 "
+                                  
 [
 attr
 .
@@ -37680,6 +36858,7 @@ takes
 an
 identifier
 "
+                                  
 [
 attr
 .
@@ -37719,7 +36898,6 @@ hasValue
 raise
 WebIDLError
 (
-                    
 "
 [
 Alias
@@ -37730,12 +36908,12 @@ identifier
 or
 string
 "
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 self
@@ -37769,7 +36947,6 @@ isSpecial
 raise
 WebIDLError
 (
-                    
 "
 [
 UseCounter
@@ -37782,10 +36959,11 @@ on
 a
 special
 "
+                                  
 "
 operation
 "
-                    
+                                  
 [
 attr
 .
@@ -37794,7 +36972,6 @@ self
 .
 location
 ]
-                
 )
         
 elif
@@ -37818,7 +36995,6 @@ noArguments
 raise
 WebIDLError
 (
-                    
 "
 [
 Unscopable
@@ -37828,12 +37004,12 @@ take
 no
 arguments
 "
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 if
@@ -37847,7 +37023,6 @@ isStatic
 raise
 WebIDLError
 (
-                    
 "
 [
 Unscopable
@@ -37860,13 +37035,13 @@ non
 -
 static
 "
-                    
+                                  
 "
 attributes
 and
 operations
 "
-                    
+                                  
 [
 attr
 .
@@ -37875,7 +37050,6 @@ self
 .
 location
 ]
-                
 )
         
 elif
@@ -37899,7 +37073,6 @@ noArguments
 raise
 WebIDLError
 (
-                    
 "
 [
 CEReactions
@@ -37909,12 +37082,12 @@ take
 no
 arguments
 "
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 if
@@ -37942,7 +37115,6 @@ isDeleter
 raise
 WebIDLError
 (
-                    
 "
 [
 CEReactions
@@ -37953,14 +37125,14 @@ allowed
 on
 operation
 "
-                    
+                                  
 "
 attribute
 setter
 and
 deleter
 "
-                    
+                                  
 [
 attr
 .
@@ -37969,7 +37141,6 @@ self
 .
 location
 ]
-                
 )
         
 elif
@@ -38002,6 +37173,7 @@ take
 no
 arguments
 "
+                                  
 [
 attr
 .
@@ -38021,7 +37193,6 @@ isToJSON
 raise
 WebIDLError
 (
-                    
 "
 [
 Default
@@ -38033,7 +37204,7 @@ on
 toJSON
 operations
 "
-                    
+                                  
 [
 attr
 .
@@ -38042,7 +37213,6 @@ self
 .
 location
 ]
-                
 )
             
 if
@@ -38072,7 +37242,6 @@ object
 raise
 WebIDLError
 (
-                    
 "
 The
 return
@@ -38082,7 +37251,7 @@ the
 default
 toJSON
 "
-                    
+                                  
 "
 operation
 must
@@ -38091,7 +37260,7 @@ be
 object
 '
 "
-                    
+                                  
 [
 attr
 .
@@ -38100,123 +37269,120 @@ self
 .
 location
 ]
-                
 )
         
 elif
 (
-            
 identifier
 =
 =
 "
 Throws
 "
-            
 or
+              
 identifier
 =
 =
 "
 CanOOM
 "
-            
 or
+              
 identifier
 =
 =
 "
 NewObject
 "
-            
 or
+              
 identifier
 =
 =
 "
 ChromeOnly
 "
-            
 or
+              
 identifier
 =
 =
 "
 Pref
 "
-            
 or
+              
 identifier
 =
 =
 "
 Deprecated
 "
-            
 or
+              
 identifier
 =
 =
 "
 Func
 "
-            
 or
+              
 identifier
 =
 =
 "
 SecureContext
 "
-            
 or
+              
 identifier
 =
 =
 "
 BinaryName
 "
-            
 or
+              
 identifier
 =
 =
 "
 NeedsSubjectPrincipal
 "
-            
 or
+              
 identifier
 =
 =
 "
 NeedsCallerType
 "
-            
 or
+              
 identifier
 =
 =
 "
 StaticClassOverride
 "
-            
 or
+              
 identifier
 =
 =
 "
 NonEnumerable
 "
-            
 or
+              
 identifier
 =
 =
 "
 Unexposed
 "
-        
 )
 :
             
@@ -38228,7 +37394,6 @@ else
 raise
 WebIDLError
 (
-                
 "
 Unknown
 extended
@@ -38240,12 +37405,12 @@ method
 "
 %
 identifier
+                              
 [
 attr
 .
 location
 ]
-            
 )
         
 IDLInterfaceMember
@@ -38421,62 +37586,60 @@ identifier
         
 if
 (
-            
 identifier
 =
 =
 "
 BinaryName
 "
-            
 or
+            
 identifier
 =
 =
 "
 ChromeOnly
 "
-            
 or
+            
 identifier
 =
 =
 "
 NewObject
 "
-            
 or
+            
 identifier
 =
 =
 "
 SecureContext
 "
-            
 or
+            
 identifier
 =
 =
 "
 Throws
 "
-            
 or
+            
 identifier
 =
 =
 "
 Func
 "
-            
 or
+            
 identifier
 =
 =
 "
 Pref
 "
-        
 )
 :
             
@@ -38509,7 +37672,6 @@ noArguments
 raise
 WebIDLError
 (
-                    
 "
 [
 HTMLConstructor
@@ -38519,15 +37681,16 @@ take
 no
 arguments
 "
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 assert
+(
 self
 .
 identifier
@@ -38538,6 +37701,7 @@ name
 "
 constructor
 "
+)
             
 if
 any
@@ -38566,7 +37730,6 @@ signatures
 raise
 WebIDLError
 (
-                    
 "
 [
 HTMLConstructor
@@ -38578,7 +37741,7 @@ applied
 to
 a
 "
-                    
+                                  
 "
 constructor
 operation
@@ -38587,13 +37750,12 @@ has
 arguments
 .
 "
-                    
+                                  
 [
 attr
 .
 location
 ]
-                
 )
             
 self
@@ -38608,7 +37770,6 @@ else
 raise
 WebIDLError
 (
-                
 "
 Unknown
 extended
@@ -38620,12 +37781,12 @@ method
 "
 %
 identifier
+                              
 [
 attr
 .
 location
 ]
-            
 )
     
 def
@@ -38673,7 +37834,6 @@ IDLMethod
 .
 __init__
 (
-            
 self
 location
 identifier
@@ -38681,10 +37841,10 @@ retType
 self
 .
 _initArgs
+                           
 static
 =
 True
-        
 )
         
 self
@@ -38692,6 +37852,7 @@ self
 _inited
 =
 True
+;
         
 self
 .
@@ -38727,7 +37888,6 @@ NewObject
 )
 )
 ]
-        
 )
 class
 IDLIncludesStatement
@@ -38795,6 +37955,7 @@ _finished
 True
         
 assert
+(
 isinstance
 (
 self
@@ -38802,14 +37963,17 @@ self
 interface
 IDLIdentifierPlaceholder
 )
+)
         
 assert
+(
 isinstance
 (
 self
 .
 mixin
 IDLIdentifierPlaceholder
+)
 )
         
 interface
@@ -38846,7 +38010,6 @@ IDLInterface
 raise
 WebIDLError
 (
-                
 "
 Left
 -
@@ -38860,10 +38023,11 @@ is
 not
 an
 "
+                              
 "
 interface
 "
-                
+                              
 [
 self
 .
@@ -38874,7 +38038,6 @@ interface
 .
 location
 ]
-            
 )
         
 if
@@ -38888,7 +38051,6 @@ isCallback
 raise
 WebIDLError
 (
-                
 "
 Left
 -
@@ -38902,10 +38064,11 @@ is
 a
 callback
 "
+                              
 "
 interface
 "
-                
+                              
 [
 self
 .
@@ -38916,7 +38079,6 @@ interface
 .
 location
 ]
-            
 )
         
 if
@@ -38931,7 +38093,6 @@ IDLInterfaceMixin
 raise
 WebIDLError
 (
-                
 "
 Right
 -
@@ -38945,11 +38106,12 @@ is
 not
 an
 "
+                              
 "
 interface
 mixin
 "
-                
+                              
 [
 self
 .
@@ -38960,7 +38122,6 @@ mixin
 .
 location
 ]
-            
 )
         
 mixin
@@ -39023,7 +38184,6 @@ attrs
 raise
 WebIDLError
 (
-                
 "
 There
 are
@@ -39033,14 +38193,14 @@ attributes
 that
 are
 "
-                
+                              
 "
 allowed
 on
 includes
 statements
 "
-                
+                              
 [
 attrs
 [
@@ -39052,7 +38212,6 @@ self
 .
 location
 ]
-            
 )
 class
 IDLExtendedAttribute
@@ -39176,10 +38335,12 @@ self
 :
         
 assert
+(
 self
 .
 hasValue
 (
+)
 )
         
 return
@@ -39199,7 +38360,6 @@ self
         
 return
 (
-            
 len
 (
 self
@@ -39209,7 +38369,6 @@ _tuple
 =
 =
 2
-            
 and
 isinstance
 (
@@ -39221,8 +38380,8 @@ _tuple
 ]
 list
 )
-            
 or
+                
 len
 (
 self
@@ -39232,7 +38391,6 @@ _tuple
 =
 =
 3
-        
 )
     
 def
@@ -39243,10 +38401,12 @@ self
 :
         
 assert
+(
 self
 .
 hasArgs
 (
+)
 )
         
 return
@@ -39302,24 +38462,31 @@ object
 tokens
 =
 [
+        
 "
 INTEGER
 "
+        
 "
 FLOATLITERAL
 "
+        
 "
 IDENTIFIER
 "
+        
 "
 STRING
 "
+        
 "
 WHITESPACE
 "
+        
 "
 OTHER
 "
+        
 ]
     
 def
@@ -39331,7 +38498,7 @@ t
 :
         
 r
-"
+'
 (
 -
 ?
@@ -39411,7 +38578,7 @@ Infinity
 )
 |
 NaN
-"
+'
         
 t
 .
@@ -39436,7 +38603,7 @@ t
 :
         
 r
-"
+'
 -
 ?
 (
@@ -39477,7 +38644,7 @@ f
 ]
 *
 )
-"
+'
         
 try
 :
@@ -39499,24 +38666,21 @@ except
 raise
 WebIDLError
 (
-                
 "
 Invalid
 integer
 literal
 "
-                
+                              
 [
-                    
 Location
 (
-                        
 lexer
 =
 self
 .
 lexer
-                        
+                                        
 lineno
 =
 self
@@ -39524,7 +38688,7 @@ self
 lexer
 .
 lineno
-                        
+                                        
 lexpos
 =
 self
@@ -39532,17 +38696,14 @@ self
 lexer
 .
 lexpos
-                        
+                                        
 filename
 =
 self
 .
 _filename
-                    
 )
-                
 ]
-            
 )
         
 return
@@ -39557,7 +38718,7 @@ t
 :
         
 r
-"
+'
 [
 _
 -
@@ -39581,7 +38742,7 @@ z
 -
 ]
 *
-"
+'
         
 t
 .
@@ -39596,9 +38757,9 @@ get
 t
 .
 value
-"
+'
 IDENTIFIER
-"
+'
 )
         
 return
@@ -39649,7 +38810,7 @@ t
 :
         
 r
-"
+'
 [
 \
 t
@@ -39701,7 +38862,7 @@ r
 *
 )
 +
-"
+'
         
 pass
     
@@ -39714,14 +38875,14 @@ t
 :
         
 r
-"
+'
 \
 .
 \
 .
 \
 .
-"
+'
         
 t
 .
@@ -39750,7 +38911,7 @@ t
 :
         
 r
-"
+'
 [
 ^
 \
@@ -39767,7 +38928,7 @@ Z_a
 -
 z
 ]
-"
+'
         
 t
 .
@@ -39782,9 +38943,9 @@ get
 t
 .
 value
-"
+'
 OTHER
-"
+'
 )
         
 return
@@ -40355,7 +39516,7 @@ async
 "
 ASYNC
 "
-    
+        
 }
     
 tokens
@@ -40380,23 +39541,20 @@ t
 raise
 WebIDLError
 (
-            
 "
 Unrecognized
 Input
 "
-            
+                          
 [
-                
 Location
 (
-                    
 lexer
 =
 self
 .
 lexer
-                    
+                                    
 lineno
 =
 self
@@ -40404,7 +39562,7 @@ self
 lexer
 .
 lineno
-                    
+                                    
 lexpos
 =
 self
@@ -40412,17 +39570,14 @@ self
 lexer
 .
 lexpos
-                    
+                                    
 filename
 =
 self
 .
 filename
-                
 )
-            
 ]
-        
 )
     
 def
@@ -40532,7 +39687,7 @@ Other
 is
 unreachable
 "
-    
+        
 ]
     
 def
@@ -40582,8 +39737,6 @@ kwargs
 :
         
 if
-(
-            
 msg
 =
 =
@@ -40602,8 +39755,9 @@ but
 not
 used
 "
-            
 or
+\
+           
 msg
 =
 =
@@ -40624,8 +39778,6 @@ but
 not
 used
 "
-        
-)
 :
             
 whitelistmsg
@@ -40779,7 +39931,7 @@ p
 "
 "
 "
-        
+            
 Definitions
 :
 ExtendedAttributeList
@@ -40864,7 +40016,7 @@ p
 "
 "
 "
-        
+            
 Definitions
 :
         
@@ -40891,29 +40043,29 @@ p
 "
 "
 "
-        
+            
 Definition
 :
 CallbackOrInterfaceOrMixin
-                   
+                       
 |
 Namespace
-                   
+                       
 |
 Partial
-                   
+                       
 |
 Dictionary
-                   
+                       
 |
 Exception
-                   
+                       
 |
 Enum
-                   
+                       
 |
 Typedef
-                   
+                       
 |
 IncludesStatement
         
@@ -40948,7 +40100,7 @@ p
 "
 "
 "
-        
+            
 CallbackOrInterfaceOrMixin
 :
 CALLBACK
@@ -41010,7 +40162,7 @@ p
 "
 "
 "
-        
+            
 CallbackOrInterfaceOrMixin
 :
 INTERFACE
@@ -41041,14 +40193,14 @@ p
 "
 "
 "
-        
+            
 CallbackRestOrInterface
 :
 CallbackRest
-                                
+                                    
 |
 CallbackConstructorRest
-                                
+                                    
 |
 CallbackInterface
         
@@ -41075,14 +40227,13 @@ p
 def
 handleNonPartialObject
 (
-        
 self
 location
 identifier
 constructor
+                               
 constructorArgs
 nonPartialArgs
-    
 )
 :
         
@@ -41210,7 +40361,6 @@ constructor
 raise
 WebIDLError
 (
-                        
 "
 %
 s
@@ -41220,7 +40370,7 @@ same
 name
 as
 "
-                        
+                                      
 "
 non
 -
@@ -41229,6 +40379,7 @@ s
 object
 "
 %
+                                      
 (
 prettyname
 .
@@ -41237,14 +40388,13 @@ capitalize
 )
 prettyname
 )
-                        
+                                      
 [
 location
 existingObj
 .
 location
 ]
-                    
 )
                 
 existingObj
@@ -41301,11 +40451,11 @@ p
 "
 "
 "
-        
+            
 InterfaceOrMixin
 :
 InterfaceRest
-                         
+                             
 |
 MixinRest
         
@@ -41334,7 +40484,7 @@ p
 "
 "
 "
-        
+            
 CallbackInterface
 :
 INTERFACE
@@ -41365,7 +40515,7 @@ p
 "
 "
 "
-        
+            
 InterfaceRest
 :
 IDENTIFIER
@@ -41425,9 +40575,7 @@ handleNonPartialObject
 (
             
 location
-            
 identifier
-            
 IDLInterface
             
 [
@@ -41447,7 +40595,6 @@ location
 parent
 members
 ]
-        
 )
     
 def
@@ -41461,7 +40608,7 @@ p
 "
 "
 "
-        
+            
 InterfaceRest
 :
 IDENTIFIER
@@ -41539,21 +40686,20 @@ IDLExternalInterface
 raise
 WebIDLError
 (
-                        
 "
 Name
 collision
 between
 external
 "
-                        
+                                      
 "
 interface
 declaration
 for
 identifier
 "
-                        
+                                      
 "
 %
 s
@@ -41571,7 +40717,7 @@ p
 0
 ]
 )
-                        
+                                      
 [
 location
 p
@@ -41581,7 +40727,6 @@ p
 .
 location
 ]
-                    
 )
                 
 return
@@ -41632,7 +40777,7 @@ p
 "
 "
 "
-        
+            
 MixinRest
 :
 MIXIN
@@ -41691,9 +40836,7 @@ handleNonPartialObject
 (
             
 location
-            
 identifier
-            
 IDLInterfaceMixin
             
 [
@@ -41711,7 +40854,6 @@ members
 location
 members
 ]
-        
 )
     
 def
@@ -41725,7 +40867,7 @@ p
 "
 "
 "
-        
+            
 Namespace
 :
 NAMESPACE
@@ -41784,9 +40926,7 @@ handleNonPartialObject
 (
             
 location
-            
 identifier
-            
 IDLNamespace
             
 [
@@ -41805,7 +40945,6 @@ location
 None
 members
 ]
-        
 )
     
 def
@@ -41819,7 +40958,7 @@ p
 "
 "
 "
-        
+            
 Partial
 :
 PARTIAL
@@ -41850,7 +40989,7 @@ p
 "
 "
 "
-        
+            
 PartialDefinition
 :
 INTERFACE
@@ -41881,11 +41020,11 @@ p
 "
 "
 "
-        
+            
 PartialDefinition
 :
 PartialNamespace
-                          
+                              
 |
 PartialDictionary
         
@@ -41906,19 +41045,14 @@ p
 def
 handlePartialObject
 (
-        
 self
-        
 location
-        
 identifier
-        
 nonPartialConstructor
-        
+                            
 nonPartialConstructorArgs
-        
+                            
 partialConstructorArgs
-    
 )
 :
         
@@ -42079,7 +41213,6 @@ nonPartialConstructor
 raise
 WebIDLError
 (
-                        
 "
 Partial
 %
@@ -42090,7 +41223,7 @@ same
 name
 as
 "
-                        
+                                      
 "
 non
 -
@@ -42099,18 +41232,18 @@ s
 object
 "
 %
+                                      
 (
 prettyname
 prettyname
 )
-                        
+                                      
 [
 location
 nonPartialObject
 .
 location
 ]
-                    
 )
         
 except
@@ -42146,16 +41279,13 @@ nonPartialConstructor
 (
 nonPartialConstructorArgs
 )
-                
 members
 =
 [
 ]
-                
 isKnownNonPartial
 =
 False
-            
 )
         
 partialObject
@@ -42183,20 +41313,17 @@ partialConstructorArgs
 nonPartialObject
 ]
 )
-            
 )
         
 elif
 isinstance
 (
-            
 nonPartialObject
 (
 IDLInterface
 IDLInterfaceMixin
 IDLNamespace
 )
-        
 )
 :
             
@@ -42213,7 +41340,6 @@ partialConstructorArgs
 nonPartialObject
 ]
 )
-            
 )
         
 else
@@ -42222,7 +41348,6 @@ else
 raise
 WebIDLError
 (
-                
 "
 Unknown
 partial
@@ -42232,14 +41357,15 @@ type
 s
 "
 %
+                    
 type
 (
 partialObject
 )
+                    
 [
 location
 ]
-            
 )
         
 return
@@ -42256,11 +41382,11 @@ p
 "
 "
 "
-        
+            
 PartialInterfaceOrPartialMixin
 :
 PartialInterfaceRest
-                                       
+                                           
 |
 PartialMixinRest
         
@@ -42289,7 +41415,7 @@ p
 "
 "
 "
-        
+            
 PartialInterfaceRest
 :
 IDENTIFIER
@@ -42341,9 +41467,7 @@ handlePartialObject
 (
             
 location
-            
 identifier
-            
 IDLInterface
             
 [
@@ -42362,7 +41486,6 @@ location
 identifier
 members
 ]
-        
 )
     
 def
@@ -42376,7 +41499,7 @@ p
 "
 "
 "
-        
+            
 PartialMixinRest
 :
 MIXIN
@@ -42435,9 +41558,7 @@ handlePartialObject
 (
             
 location
-            
 identifier
-            
 IDLInterfaceMixin
             
 [
@@ -42455,7 +41576,6 @@ location
 identifier
 members
 ]
-        
 )
     
 def
@@ -42469,7 +41589,7 @@ p
 "
 "
 "
-        
+            
 PartialNamespace
 :
 NAMESPACE
@@ -42528,9 +41648,7 @@ handlePartialObject
 (
             
 location
-            
 identifier
-            
 IDLNamespace
             
 [
@@ -42548,7 +41666,6 @@ location
 identifier
 members
 ]
-        
 )
     
 def
@@ -42562,7 +41679,7 @@ p
 "
 "
 "
-        
+            
 PartialDictionary
 :
 DICTIONARY
@@ -42621,9 +41738,7 @@ handlePartialObject
 (
             
 location
-            
 identifier
-            
 IDLDictionary
             
 [
@@ -42641,7 +41756,6 @@ location
 identifier
 members
 ]
-        
 )
     
 def
@@ -42655,7 +41769,7 @@ p
 "
 "
 "
-        
+            
 Inheritance
 :
 COLON
@@ -42696,7 +41810,7 @@ p
 "
 "
 "
-        
+            
 Inheritance
 :
         
@@ -42717,7 +41831,7 @@ p
 "
 "
 "
-        
+            
 InterfaceMembers
 :
 ExtendedAttributeList
@@ -42789,7 +41903,7 @@ p
 "
 "
 "
-        
+            
 InterfaceMembers
 :
         
@@ -42816,11 +41930,11 @@ p
 "
 "
 "
-        
+            
 InterfaceMember
 :
 PartialInterfaceMember
-                        
+                            
 |
 Constructor
         
@@ -42849,7 +41963,7 @@ p
 "
 "
 "
-        
+            
 Constructor
 :
 CONSTRUCTOR
@@ -42896,7 +42010,7 @@ p
 "
 "
 "
-        
+            
 PartialInterfaceMembers
 :
 ExtendedAttributeList
@@ -42968,7 +42082,7 @@ p
 "
 "
 "
-        
+            
 PartialInterfaceMembers
 :
         
@@ -42995,11 +42109,11 @@ p
 "
 "
 "
-        
+            
 PartialInterfaceMember
 :
 Const
-                               
+                                   
 |
 AttributeOrOperationOrMaplikeOrSetlikeOrIterable
         
@@ -43028,7 +42142,7 @@ p
 "
 "
 "
-        
+            
 MixinMembers
 :
         
@@ -43055,7 +42169,7 @@ p
 "
 "
 "
-        
+            
 MixinMembers
 :
 ExtendedAttributeList
@@ -43127,14 +42241,14 @@ p
 "
 "
 "
-        
+            
 MixinMember
 :
 Const
-                    
+                        
 |
 Attribute
-                    
+                        
 |
 Operation
         
@@ -43163,7 +42277,7 @@ p
 "
 "
 "
-        
+            
 Dictionary
 :
 DICTIONARY
@@ -43244,13 +42358,13 @@ p
 "
 "
 "
-        
+            
 DictionaryMembers
 :
 ExtendedAttributeList
 DictionaryMember
 DictionaryMembers
-                         
+                             
 |
         
 "
@@ -43326,7 +42440,7 @@ p
 "
 "
 "
-        
+            
 DictionaryMember
 :
 REQUIRED
@@ -43376,7 +42490,6 @@ p
 =
 IDLArgument
 (
-            
 self
 .
 getLocation
@@ -43384,27 +42497,23 @@ getLocation
 p
 3
 )
-            
 identifier
-            
 t
-            
+                           
 optional
 =
 False
-            
+                           
 defaultValue
 =
 None
-            
 variadic
 =
 False
-            
+                           
 dictionaryMember
 =
 True
-        
 )
     
 def
@@ -43418,7 +42527,7 @@ p
 "
 "
 "
-        
+            
 DictionaryMember
 :
 Type
@@ -43475,7 +42584,6 @@ p
 =
 IDLArgument
 (
-            
 self
 .
 getLocation
@@ -43483,31 +42591,26 @@ getLocation
 p
 2
 )
-            
 identifier
-            
 t
-            
+                           
 optional
 =
 True
-            
+                           
 defaultValue
 =
 defaultValue
-            
 variadic
 =
 False
-            
+                           
 dictionaryMember
 =
 True
-            
 allowTypeAttributes
 =
 True
-        
 )
     
 def
@@ -43521,12 +42624,12 @@ p
 "
 "
 "
-        
+            
 Default
 :
 EQUALS
 DefaultValue
-                
+                    
 |
         
 "
@@ -43573,15 +42676,15 @@ p
 "
 "
 "
-        
+            
 DefaultValue
 :
 ConstValue
-                     
+                         
 |
 LBRACKET
 RBRACKET
-                     
+                         
 |
 LBRACE
 RBRACE
@@ -43691,7 +42794,7 @@ p
 "
 "
 "
-        
+            
 DefaultValue
 :
 NULL
@@ -43727,7 +42830,7 @@ p
 "
 "
 "
-        
+            
 Exception
 :
 EXCEPTION
@@ -43755,7 +42858,7 @@ p
 "
 "
 "
-        
+            
 Enum
 :
 ENUM
@@ -43834,7 +42937,7 @@ p
 "
 "
 "
-        
+            
 EnumValueList
 :
 STRING
@@ -43880,7 +42983,7 @@ p
 "
 "
 "
-        
+            
 EnumValueListComma
 :
 COMMA
@@ -43911,7 +43014,7 @@ p
 "
 "
 "
-        
+            
 EnumValueListComma
 :
         
@@ -43938,7 +43041,7 @@ p
 "
 "
 "
-        
+            
 EnumValueListString
 :
 STRING
@@ -43984,7 +43087,7 @@ p
 "
 "
 "
-        
+            
 EnumValueListString
 :
         
@@ -44011,7 +43114,7 @@ p
 "
 "
 "
-        
+            
 CallbackRest
 :
 IDENTIFIER
@@ -44050,7 +43153,6 @@ p
 =
 IDLCallback
 (
-            
 self
 .
 getLocation
@@ -44058,29 +43160,24 @@ getLocation
 p
 1
 )
-            
 self
 .
 globalScope
 (
 )
-            
+                           
 identifier
-            
 p
 [
 3
 ]
-            
 p
 [
 5
 ]
-            
 isConstructor
 =
 False
-        
 )
     
 def
@@ -44094,7 +43191,7 @@ p
 "
 "
 "
-        
+            
 CallbackConstructorRest
 :
 CONSTRUCTOR
@@ -44134,7 +43231,6 @@ p
 =
 IDLCallback
 (
-            
 self
 .
 getLocation
@@ -44142,29 +43238,24 @@ getLocation
 p
 2
 )
-            
 self
 .
 globalScope
 (
 )
-            
+                           
 identifier
-            
 p
 [
 4
 ]
-            
 p
 [
 6
 ]
-            
 isConstructor
 =
 True
-        
 )
     
 def
@@ -44178,13 +43269,13 @@ p
 "
 "
 "
-        
+            
 ExceptionMembers
 :
 ExtendedAttributeList
 ExceptionMember
 ExceptionMembers
-                         
+                             
 |
         
 "
@@ -44204,7 +43295,7 @@ p
 "
 "
 "
-        
+            
 Typedef
 :
 TYPEDEF
@@ -44232,6 +43323,7 @@ self
 globalScope
 (
 )
+                             
 p
 [
 2
@@ -44260,7 +43352,7 @@ p
 "
 "
 "
-        
+            
 IncludesStatement
 :
 ScopedName
@@ -44273,6 +43365,7 @@ SEMICOLON
 "
         
 assert
+(
 p
 [
 2
@@ -44282,6 +43375,7 @@ p
 "
 includes
 "
+)
         
 interface
 =
@@ -44346,7 +43440,7 @@ p
 "
 "
 "
-        
+            
 Const
 :
 CONST
@@ -44425,7 +43519,7 @@ p
 "
 "
 "
-        
+            
 ConstValue
 :
 BooleanLiteral
@@ -44481,7 +43575,7 @@ p
 "
 "
 "
-        
+            
 ConstValue
 :
 INTEGER
@@ -44557,7 +43651,7 @@ p
 "
 "
 "
-        
+            
 ConstValue
 :
 FLOATLITERAL
@@ -44583,7 +43677,6 @@ p
 =
 IDLValue
 (
-            
 location
 BuiltinTypes
 [
@@ -44597,7 +43690,6 @@ p
 [
 1
 ]
-        
 )
     
 def
@@ -44611,7 +43703,7 @@ p
 "
 "
 "
-        
+            
 ConstValue
 :
 STRING
@@ -44667,7 +43759,7 @@ p
 "
 "
 "
-        
+            
 BooleanLiteral
 :
 TRUE
@@ -44694,7 +43786,7 @@ p
 "
 "
 "
-        
+            
 BooleanLiteral
 :
 FALSE
@@ -44721,20 +43813,20 @@ p
 "
 "
 "
-        
+            
 AttributeOrOperationOrMaplikeOrSetlikeOrIterable
 :
 Attribute
-                                                         
+                                                             
 |
 Maplike
-                                                         
+                                                             
 |
 Setlike
-                                                         
+                                                             
 |
 Iterable
-                                                         
+                                                             
 |
 Operation
         
@@ -44763,7 +43855,7 @@ p
 "
 "
 "
-        
+            
 Iterable
 :
 ITERABLE
@@ -44771,7 +43863,7 @@ LT
 TypeWithExtendedAttributes
 GT
 SEMICOLON
-                 
+                     
 |
 ITERABLE
 LT
@@ -44799,24 +43891,25 @@ identifier
 =
 IDLUnresolvedIdentifier
 (
-            
 location
 "
 __iterable
 "
+                                             
 allowDoubleUnderscore
 =
 True
-        
 )
         
 if
+(
 len
 (
 p
 )
 >
 6
+)
 :
             
 keyType
@@ -44876,7 +43969,7 @@ p
 "
 "
 "
-        
+            
 Setlike
 :
 ReadOnly
@@ -44918,15 +44011,14 @@ identifier
 =
 IDLUnresolvedIdentifier
 (
-            
 location
 "
 __setlike
 "
+                                             
 allowDoubleUnderscore
 =
 True
-        
 )
         
 keyType
@@ -44947,14 +44039,13 @@ p
 =
 IDLMaplikeOrSetlike
 (
-            
 location
 identifier
 maplikeOrSetlikeType
+                                   
 readonly
 keyType
 valueType
-        
 )
     
 def
@@ -44968,7 +44059,7 @@ p
 "
 "
 "
-        
+            
 Maplike
 :
 ReadOnly
@@ -45012,15 +44103,14 @@ identifier
 =
 IDLUnresolvedIdentifier
 (
-            
 location
 "
 __maplike
 "
+                                             
 allowDoubleUnderscore
 =
 True
-        
 )
         
 keyType
@@ -45044,14 +44134,13 @@ p
 =
 IDLMaplikeOrSetlike
 (
-            
 location
 identifier
 maplikeOrSetlikeType
+                                   
 readonly
 keyType
 valueType
-        
 )
     
 def
@@ -45065,7 +44154,7 @@ p
 "
 "
 "
-        
+            
 Attribute
 :
 Qualifier
@@ -45120,18 +44209,17 @@ p
 =
 IDLAttribute
 (
-            
 location
 identifier
 type
 readonly
+                            
 static
 =
 static
 stringifier
 =
 stringifier
-        
 )
     
 def
@@ -45145,7 +44233,7 @@ p
 "
 "
 "
-        
+            
 Attribute
 :
 INHERIT
@@ -45194,7 +44282,7 @@ p
 "
 "
 "
-        
+            
 Attribute
 :
 AttributeRest
@@ -45242,7 +44330,7 @@ p
 "
 "
 "
-        
+            
 AttributeRest
 :
 ReadOnly
@@ -45319,7 +44407,7 @@ p
 "
 "
 "
-        
+            
 ReadOnly
 :
 READONLY
@@ -45346,7 +44434,7 @@ p
 "
 "
 "
-        
+            
 ReadOnly
 :
         
@@ -45372,7 +44460,7 @@ p
 "
 "
 "
-        
+            
 Operation
 :
 Qualifiers
@@ -45409,7 +44497,6 @@ qualifiers
 raise
 WebIDLError
 (
-                
 "
 Duplicate
 qualifiers
@@ -45417,6 +44504,7 @@ are
 not
 allowed
 "
+                              
 [
 self
 .
@@ -45426,7 +44514,6 @@ p
 1
 )
 ]
-            
 )
         
 static
@@ -45560,7 +44647,6 @@ setter
 raise
 WebIDLError
 (
-                    
 "
 getter
 and
@@ -45570,7 +44656,7 @@ incompatible
 with
 setter
 "
-                    
+                                  
 [
 self
 .
@@ -45580,7 +44666,6 @@ p
 1
 )
 ]
-                
 )
         
 (
@@ -45628,7 +44713,6 @@ arguments
 raise
 WebIDLError
 (
-                    
 "
 %
 s
@@ -45638,8 +44722,8 @@ number
 of
 arguments
 "
-                    
 %
+                                  
 (
 "
 getter
@@ -45651,7 +44735,7 @@ else
 deleter
 "
 )
-                    
+                                  
 [
 self
 .
@@ -45661,7 +44745,6 @@ p
 2
 )
 ]
-                
 )
             
 argType
@@ -45724,7 +44807,6 @@ deleter
 raise
 WebIDLError
 (
-                        
 "
 There
 is
@@ -45737,7 +44819,7 @@ indexed
 deleter
 .
 "
-                        
+                                      
 [
 self
 .
@@ -45747,7 +44829,6 @@ p
 1
 )
 ]
-                    
 )
             
 else
@@ -45756,7 +44837,6 @@ else
 raise
 WebIDLError
 (
-                    
 "
 %
 s
@@ -45772,8 +44852,8 @@ or
 UnsignedLong
 )
 "
-                    
 %
+                                  
 (
 "
 getter
@@ -45785,7 +44865,7 @@ else
 deleter
 "
 )
-                    
+                                  
 [
 arguments
 [
@@ -45794,7 +44874,6 @@ arguments
 .
 location
 ]
-                
 )
             
 if
@@ -45816,7 +44895,6 @@ variadic
 raise
 WebIDLError
 (
-                    
 "
 %
 s
@@ -45826,10 +44904,9 @@ have
 s
 argument
 "
-                    
 %
+                                  
 (
-                        
 "
 getter
 "
@@ -45839,7 +44916,7 @@ else
 "
 deleter
 "
-                        
+                                   
 "
 optional
 "
@@ -45854,9 +44931,8 @@ else
 "
 variadic
 "
-                    
 )
-                    
+                                  
 [
 arguments
 [
@@ -45865,7 +44941,6 @@ arguments
 .
 location
 ]
-                
 )
         
 if
@@ -45883,7 +44958,6 @@ isVoid
 raise
 WebIDLError
 (
-                    
 "
 getter
 cannot
@@ -45892,6 +44966,7 @@ void
 return
 type
 "
+                                  
 [
 self
 .
@@ -45901,7 +44976,6 @@ p
 2
 )
 ]
-                
 )
         
 if
@@ -45921,7 +44995,6 @@ arguments
 raise
 WebIDLError
 (
-                    
 "
 setter
 has
@@ -45930,6 +45003,7 @@ number
 of
 arguments
 "
+                                  
 [
 self
 .
@@ -45939,7 +45013,6 @@ p
 2
 )
 ]
-                
 )
             
 argType
@@ -46001,7 +45074,6 @@ else
 raise
 WebIDLError
 (
-                    
 "
 settter
 has
@@ -46016,7 +45088,7 @@ or
 UnsignedLong
 )
 "
-                    
+                                  
 [
 arguments
 [
@@ -46025,7 +45097,6 @@ arguments
 .
 location
 ]
-                
 )
             
 if
@@ -46047,7 +45118,6 @@ variadic
 raise
 WebIDLError
 (
-                    
 "
 setter
 cannot
@@ -46056,8 +45126,8 @@ have
 s
 argument
 "
-                    
 %
+                                   
 (
 "
 optional
@@ -46074,7 +45144,7 @@ else
 variadic
 "
 )
-                    
+                                  
 [
 arguments
 [
@@ -46083,7 +45153,6 @@ arguments
 .
 location
 ]
-                
 )
             
 if
@@ -46105,7 +45174,6 @@ variadic
 raise
 WebIDLError
 (
-                    
 "
 setter
 cannot
@@ -46114,8 +45182,8 @@ have
 s
 argument
 "
-                    
 %
+                                   
 (
 "
 optional
@@ -46132,7 +45200,7 @@ else
 variadic
 "
 )
-                    
+                                  
 [
 arguments
 [
@@ -46141,7 +45209,6 @@ arguments
 .
 location
 ]
-                
 )
         
 if
@@ -46161,7 +45228,6 @@ arguments
 raise
 WebIDLError
 (
-                    
 "
 stringifier
 has
@@ -46170,7 +45236,7 @@ number
 of
 arguments
 "
-                    
+                                  
 [
 self
 .
@@ -46180,7 +45246,6 @@ p
 2
 )
 ]
-                
 )
             
 if
@@ -46195,7 +45260,6 @@ isDOMString
 raise
 WebIDLError
 (
-                    
 "
 stringifier
 must
@@ -46204,7 +45268,7 @@ DOMString
 return
 type
 "
-                    
+                                  
 [
 self
 .
@@ -46214,7 +45278,6 @@ p
 2
 )
 ]
-                
 )
         
 if
@@ -46224,33 +45287,27 @@ identifier
             
 if
 (
-                
 not
 getter
-                
 and
 not
 setter
-                
 and
+                
 not
 deleter
-                
 and
 not
 legacycaller
-                
 and
 not
 stringifier
-            
 )
 :
                 
 raise
 WebIDLError
 (
-                    
 "
 Identifier
 required
@@ -46260,7 +45317,7 @@ non
 special
 methods
 "
-                    
+                                  
 [
 self
 .
@@ -46270,7 +45327,6 @@ p
 2
 )
 ]
-                
 )
             
 location
@@ -46310,14 +45366,12 @@ s
 %
 s
 "
-                
 %
+                
 (
-                    
 "
 named
 "
-                    
 if
 specialType
 =
@@ -46327,12 +45381,11 @@ IDLMethod
 NamedOrIndexed
 .
 Named
-                    
 else
+                 
 "
 indexed
 "
-                    
 if
 specialType
 =
@@ -46342,11 +45395,10 @@ IDLMethod
 NamedOrIndexed
 .
 Indexed
-                    
 else
 "
 "
-                    
+                 
 "
 getter
 "
@@ -46355,7 +45407,7 @@ getter
 else
 "
 "
-                    
+                 
 "
 setter
 "
@@ -46364,7 +45416,7 @@ setter
 else
 "
 "
-                    
+                 
 "
 deleter
 "
@@ -46373,7 +45425,7 @@ deleter
 else
 "
 "
-                    
+                 
 "
 legacycaller
 "
@@ -46382,7 +45434,7 @@ legacycaller
 else
 "
 "
-                    
+                 
 "
 stringifier
 "
@@ -46391,20 +45443,17 @@ stringifier
 else
 "
 "
-                
 )
                 
 allowDoubleUnderscore
 =
 True
-            
 )
         
 method
 =
 IDLMethod
 (
-            
 self
 .
 getLocation
@@ -46412,41 +45461,33 @@ getLocation
 p
 2
 )
-            
 identifier
-            
 returnType
-            
 arguments
-            
+                           
 static
 =
 static
-            
 getter
 =
 getter
-            
 setter
 =
 setter
-            
+                           
 deleter
 =
 deleter
-            
 specialType
 =
 specialType
-            
+                           
 legacycaller
 =
 legacycaller
-            
 stringifier
 =
 stringifier
-        
 )
         
 p
@@ -46467,7 +45508,7 @@ p
 "
 "
 "
-        
+            
 Operation
 :
 STRINGIFIER
@@ -46481,7 +45522,6 @@ identifier
 =
 IDLUnresolvedIdentifier
 (
-            
 BuiltinLocation
 (
 "
@@ -46494,22 +45534,20 @@ identifier
 >
 "
 )
-            
+                                             
 "
 __stringifier
 "
-            
+                                             
 allowDoubleUnderscore
 =
 True
-        
 )
         
 method
 =
 IDLMethod
 (
-            
 self
 .
 getLocation
@@ -46517,9 +45555,9 @@ getLocation
 p
 1
 )
-            
+                           
 identifier
-            
+                           
 returnType
 =
 BuiltinTypes
@@ -46530,16 +45568,15 @@ Types
 .
 domstring
 ]
-            
+                           
 arguments
 =
 [
 ]
-            
+                           
 stringifier
 =
 True
-        
 )
         
 p
@@ -46560,7 +45597,7 @@ p
 "
 "
 "
-        
+            
 Qualifier
 :
 STATIC
@@ -46593,7 +45630,7 @@ p
 "
 "
 "
-        
+            
 Qualifier
 :
 STRINGIFIER
@@ -46626,11 +45663,11 @@ p
 "
 "
 "
-        
+            
 Qualifiers
 :
 Qualifier
-                   
+                       
 |
 Specials
         
@@ -46659,7 +45696,7 @@ p
 "
 "
 "
-        
+            
 Specials
 :
 Special
@@ -46705,7 +45742,7 @@ p
 "
 "
 "
-        
+            
 Specials
 :
         
@@ -46732,7 +45769,7 @@ p
 "
 "
 "
-        
+            
 Special
 :
 GETTER
@@ -46763,7 +45800,7 @@ p
 "
 "
 "
-        
+            
 Special
 :
 SETTER
@@ -46794,7 +45831,7 @@ p
 "
 "
 "
-        
+            
 Special
 :
 DELETER
@@ -46825,7 +45862,7 @@ p
 "
 "
 "
-        
+            
 Special
 :
 LEGACYCALLER
@@ -46856,7 +45893,7 @@ p
 "
 "
 "
-        
+            
 OperationRest
 :
 ReturnType
@@ -46901,7 +45938,7 @@ p
 "
 "
 "
-        
+            
 OptionalIdentifier
 :
 IDENTIFIER
@@ -46941,7 +45978,7 @@ p
 "
 "
 "
-        
+            
 OptionalIdentifier
 :
         
@@ -46962,7 +45999,7 @@ p
 "
 "
 "
-        
+            
 ArgumentList
 :
 Argument
@@ -47016,7 +46053,7 @@ p
 "
 "
 "
-        
+            
 ArgumentList
 :
         
@@ -47043,7 +46080,7 @@ p
 "
 "
 "
-        
+            
 Arguments
 :
 COMMA
@@ -47098,7 +46135,7 @@ p
 "
 "
 "
-        
+            
 Arguments
 :
         
@@ -47125,7 +46162,7 @@ p
 "
 "
 "
-        
+            
 Argument
 :
 ExtendedAttributeList
@@ -47169,7 +46206,7 @@ p
 "
 "
 "
-        
+            
 ArgumentRest
 :
 OPTIONAL
@@ -47199,7 +46236,6 @@ identifier
 =
 IDLUnresolvedIdentifier
 (
-            
 self
 .
 getLocation
@@ -47211,10 +46247,10 @@ p
 [
 3
 ]
+                                             
 allowForbidden
 =
 True
-        
 )
         
 defaultValue
@@ -47231,7 +46267,6 @@ p
 =
 IDLArgument
 (
-            
 self
 .
 getLocation
@@ -47244,7 +46279,6 @@ t
 True
 defaultValue
 False
-        
 )
     
 def
@@ -47258,7 +46292,7 @@ p
 "
 "
 "
-        
+            
 ArgumentRest
 :
 Type
@@ -47287,7 +46321,6 @@ identifier
 =
 IDLUnresolvedIdentifier
 (
-            
 self
 .
 getLocation
@@ -47299,10 +46332,10 @@ p
 [
 3
 ]
+                                             
 allowForbidden
 =
 True
-        
 )
         
 variadic
@@ -47319,7 +46352,6 @@ p
 =
 IDLArgument
 (
-            
 self
 .
 getLocation
@@ -47327,21 +46359,14 @@ getLocation
 p
 3
 )
-            
 identifier
-            
 t
-            
 variadic
-            
 None
-            
 variadic
-            
 allowTypeAttributes
 =
 True
-        
 )
     
 def
@@ -47355,11 +46380,11 @@ p
 "
 "
 "
-        
+            
 ArgumentName
 :
 IDENTIFIER
-                     
+                         
 |
 ArgumentNameKeyword
         
@@ -47388,89 +46413,89 @@ p
 "
 "
 "
-        
+            
 ArgumentNameKeyword
 :
 ASYNC
-                            
+                                
 |
 ATTRIBUTE
-                            
+                                
 |
 CALLBACK
-                            
+                                
 |
 CONST
-                            
+                                
 |
 CONSTRUCTOR
-                            
+                                
 |
 DELETER
-                            
+                                
 |
 DICTIONARY
-                            
+                                
 |
 ENUM
-                            
+                                
 |
 EXCEPTION
-                            
+                                
 |
 GETTER
-                            
+                                
 |
 INCLUDES
-                            
+                                
 |
 INHERIT
-                            
+                                
 |
 INTERFACE
-                            
+                                
 |
 ITERABLE
-                            
+                                
 |
 LEGACYCALLER
-                            
+                                
 |
 MAPLIKE
-                            
+                                
 |
 MIXIN
-                            
+                                
 |
 NAMESPACE
-                            
+                                
 |
 PARTIAL
-                            
+                                
 |
 READONLY
-                            
+                                
 |
 REQUIRED
-                            
+                                
 |
 SERIALIZER
-                            
+                                
 |
 SETLIKE
-                            
+                                
 |
 SETTER
-                            
+                                
 |
 STATIC
-                            
+                                
 |
 STRINGIFIER
-                            
+                                
 |
 TYPEDEF
-                            
+                                
 |
 UNRESTRICTED
         
@@ -47499,11 +46524,11 @@ p
 "
 "
 "
-        
+            
 AttributeName
 :
 IDENTIFIER
-                      
+                          
 |
 AttributeNameKeyword
         
@@ -47532,11 +46557,11 @@ p
 "
 "
 "
-        
+            
 AttributeNameKeyword
 :
 ASYNC
-                             
+                                 
 |
 REQUIRED
         
@@ -47565,7 +46590,7 @@ p
 "
 "
 "
-        
+            
 Ellipsis
 :
 ELLIPSIS
@@ -47592,7 +46617,7 @@ p
 "
 "
 "
-        
+            
 Ellipsis
 :
         
@@ -47618,11 +46643,11 @@ p
 "
 "
 "
-        
+            
 ExceptionMember
 :
 Const
-                        
+                            
 |
 ExceptionField
         
@@ -47643,7 +46668,7 @@ p
 "
 "
 "
-        
+            
 ExceptionField
 :
 Type
@@ -47667,7 +46692,7 @@ p
 "
 "
 "
-        
+            
 ExtendedAttributeList
 :
 LBRACKET
@@ -47722,7 +46747,7 @@ p
 "
 "
 "
-        
+            
 ExtendedAttributeList
 :
         
@@ -47749,20 +46774,20 @@ p
 "
 "
 "
-        
+            
 ExtendedAttribute
 :
 ExtendedAttributeNoArgs
-                          
+                              
 |
 ExtendedAttributeArgList
-                          
+                              
 |
 ExtendedAttributeIdent
-                          
+                              
 |
 ExtendedAttributeNamedArgList
-                          
+                              
 |
 ExtendedAttributeIdentList
         
@@ -47801,7 +46826,7 @@ p
 "
 "
 "
-        
+            
 ExtendedAttribute
 :
         
@@ -47822,7 +46847,7 @@ p
 "
 "
 "
-        
+            
 ExtendedAttributes
 :
 COMMA
@@ -47877,7 +46902,7 @@ p
 "
 "
 "
-        
+            
 ExtendedAttributes
 :
         
@@ -47904,122 +46929,122 @@ p
 "
 "
 "
-        
+            
 Other
 :
 INTEGER
-              
+                  
 |
 FLOATLITERAL
-              
+                  
 |
 IDENTIFIER
-              
+                  
 |
 STRING
-              
+                  
 |
 OTHER
-              
+                  
 |
 ELLIPSIS
-              
+                  
 |
 COLON
-              
+                  
 |
 SCOPE
-              
+                  
 |
 SEMICOLON
-              
+                  
 |
 LT
-              
+                  
 |
 EQUALS
-              
+                  
 |
 GT
-              
+                  
 |
 QUESTIONMARK
-              
+                  
 |
 DOMSTRING
-              
+                  
 |
 BYTESTRING
-              
+                  
 |
 USVSTRING
-              
+                  
 |
 UTF8STRING
-              
+                  
 |
 JSSTRING
-              
+                  
 |
 PROMISE
-              
+                  
 |
 ANY
-              
+                  
 |
 BOOLEAN
-              
+                  
 |
 BYTE
-              
+                  
 |
 DOUBLE
-              
+                  
 |
 FALSE
-              
+                  
 |
 FLOAT
-              
+                  
 |
 LONG
-              
+                  
 |
 NULL
-              
+                  
 |
 OBJECT
-              
+                  
 |
 OCTET
-              
+                  
 |
 OR
-              
+                  
 |
 OPTIONAL
-              
+                  
 |
 RECORD
-              
+                  
 |
 SEQUENCE
-              
+                  
 |
 SHORT
-              
+                  
 |
 SYMBOL
-              
+                  
 |
 TRUE
-              
+                  
 |
 UNSIGNED
-              
+                  
 |
 VOID
-              
+                  
 |
 ArgumentNameKeyword
         
@@ -48040,11 +47065,11 @@ p
 "
 "
 "
-        
+            
 OtherOrComma
 :
 Other
-                     
+                         
 |
 COMMA
         
@@ -48065,7 +47090,7 @@ p
 "
 "
 "
-        
+            
 Type
 :
 SingleType
@@ -48095,7 +47120,7 @@ p
 "
 "
 "
-        
+            
 Type
 :
 UnionType
@@ -48135,7 +47160,7 @@ p
 "
 "
 "
-        
+            
 TypeWithExtendedAttributes
 :
 ExtendedAttributeList
@@ -48174,7 +47199,7 @@ p
 "
 "
 "
-        
+            
 SingleType
 :
 DistinguishableType
@@ -48204,7 +47229,7 @@ p
 "
 "
 "
-        
+            
 SingleType
 :
 ANY
@@ -48238,7 +47263,7 @@ p
 "
 "
 "
-        
+            
 SingleType
 :
 PROMISE
@@ -48281,7 +47306,7 @@ p
 "
 "
 "
-        
+            
 UnionType
 :
 LPAREN
@@ -48346,7 +47371,7 @@ p
 "
 "
 "
-        
+            
 UnionMemberType
 :
 ExtendedAttributeList
@@ -48385,7 +47410,7 @@ p
 "
 "
 "
-        
+            
 UnionMemberType
 :
 UnionType
@@ -48425,7 +47450,7 @@ p
 "
 "
 "
-        
+            
 UnionMemberTypes
 :
 OR
@@ -48472,7 +47497,7 @@ p
 "
 "
 "
-        
+            
 UnionMemberTypes
 :
         
@@ -48499,20 +47524,20 @@ p
 "
 "
 "
-        
+            
 DistinguishableType
 :
 PrimitiveType
 Null
-                            
+                                
 |
 ARRAYBUFFER
 Null
-                            
+                                
 |
 READABLESTREAM
 Null
-                            
+                                
 |
 OBJECT
 Null
@@ -48630,7 +47655,7 @@ p
 "
 "
 "
-        
+            
 DistinguishableType
 :
 StringType
@@ -48670,7 +47695,7 @@ p
 "
 "
 "
-        
+            
 DistinguishableType
 :
 SEQUENCE
@@ -48731,7 +47756,7 @@ p
 "
 "
 "
-        
+            
 DistinguishableType
 :
 RECORD
@@ -48802,7 +47827,7 @@ p
 "
 "
 "
-        
+            
 DistinguishableType
 :
 ScopedName
@@ -48839,7 +47864,6 @@ Promise
 raise
 WebIDLError
 (
-                
 "
 Promise
 used
@@ -48850,11 +47874,12 @@ it
 '
 s
 "
+                              
 "
 parametrized
 over
 "
-                
+                              
 [
 self
 .
@@ -48864,7 +47889,6 @@ p
 1
 )
 ]
-            
 )
         
 type
@@ -48926,7 +47950,6 @@ type
 =
 IDLTypedefType
 (
-                        
 self
 .
 getLocation
@@ -48937,12 +47960,12 @@ p
 obj
 .
 innerType
+                                          
 obj
 .
 identifier
 .
 name
-                    
 )
                 
 elif
@@ -49061,7 +48084,7 @@ p
 "
 "
 "
-        
+            
 ConstType
 :
 PrimitiveType
@@ -49094,7 +48117,7 @@ p
 "
 "
 "
-        
+            
 ConstType
 :
 IDENTIFIER
@@ -49148,7 +48171,7 @@ p
 "
 "
 "
-        
+            
 PrimitiveType
 :
 UnsignedIntegerType
@@ -49178,7 +48201,7 @@ p
 "
 "
 "
-        
+            
 PrimitiveType
 :
 BOOLEAN
@@ -49209,7 +48232,7 @@ p
 "
 "
 "
-        
+            
 PrimitiveType
 :
 BYTE
@@ -49240,7 +48263,7 @@ p
 "
 "
 "
-        
+            
 PrimitiveType
 :
 OCTET
@@ -49271,7 +48294,7 @@ p
 "
 "
 "
-        
+            
 PrimitiveType
 :
 FLOAT
@@ -49302,7 +48325,7 @@ p
 "
 "
 "
-        
+            
 PrimitiveType
 :
 UNRESTRICTED
@@ -49334,7 +48357,7 @@ p
 "
 "
 "
-        
+            
 PrimitiveType
 :
 DOUBLE
@@ -49365,7 +48388,7 @@ p
 "
 "
 "
-        
+            
 PrimitiveType
 :
 UNRESTRICTED
@@ -49397,7 +48420,7 @@ p
 "
 "
 "
-        
+            
 StringType
 :
 BuiltinStringType
@@ -49430,7 +48453,7 @@ p
 "
 "
 "
-        
+            
 BuiltinStringType
 :
 DOMSTRING
@@ -49461,7 +48484,7 @@ p
 "
 "
 "
-        
+            
 BuiltinStringType
 :
 BYTESTRING
@@ -49492,7 +48515,7 @@ p
 "
 "
 "
-        
+            
 BuiltinStringType
 :
 USVSTRING
@@ -49523,7 +48546,7 @@ p
 "
 "
 "
-        
+            
 BuiltinStringType
 :
 UTF8STRING
@@ -49554,7 +48577,7 @@ p
 "
 "
 "
-        
+            
 BuiltinStringType
 :
 JSSTRING
@@ -49585,7 +48608,7 @@ p
 "
 "
 "
-        
+            
 UnsignedIntegerType
 :
 UNSIGNED
@@ -49618,7 +48641,7 @@ p
 "
 "
 "
-        
+            
 UnsignedIntegerType
 :
 IntegerType
@@ -49648,7 +48671,7 @@ p
 "
 "
 "
-        
+            
 IntegerType
 :
 SHORT
@@ -49679,7 +48702,7 @@ p
 "
 "
 "
-        
+            
 IntegerType
 :
 LONG
@@ -49732,7 +48755,7 @@ p
 "
 "
 "
-        
+            
 OptionalLong
 :
 LONG
@@ -49759,7 +48782,7 @@ p
 "
 "
 "
-        
+            
 OptionalLong
 :
         
@@ -49785,11 +48808,11 @@ p
 "
 "
 "
-        
+            
 Null
 :
 QUESTIONMARK
-             
+                 
 |
         
 "
@@ -49839,7 +48862,7 @@ p
 "
 "
 "
-        
+            
 ReturnType
 :
 Type
@@ -49869,7 +48892,7 @@ p
 "
 "
 "
-        
+            
 ReturnType
 :
 VOID
@@ -49903,11 +48926,11 @@ p
 "
 "
 "
-        
+            
 ScopedName
 :
 AbsoluteScopedName
-                   
+                       
 |
 RelativeScopedName
         
@@ -49936,7 +48959,7 @@ p
 "
 "
 "
-        
+            
 AbsoluteScopedName
 :
 SCOPE
@@ -49963,7 +48986,7 @@ p
 "
 "
 "
-        
+            
 RelativeScopedName
 :
 IDENTIFIER
@@ -50011,7 +49034,7 @@ p
 "
 "
 "
-        
+            
 ScopedNameParts
 :
 SCOPE
@@ -50038,7 +49061,7 @@ p
 "
 "
 "
-        
+            
 ScopedNameParts
 :
         
@@ -50064,7 +49087,7 @@ p
 "
 "
 "
-        
+            
 ExtendedAttributeNoArgs
 :
 IDENTIFIER
@@ -50096,7 +49119,7 @@ p
 "
 "
 "
-        
+            
 ExtendedAttributeArgList
 :
 IDENTIFIER
@@ -50135,13 +49158,13 @@ p
 "
 "
 "
-        
+            
 ExtendedAttributeIdent
 :
 IDENTIFIER
 EQUALS
 STRING
-                               
+                                   
 |
 IDENTIFIER
 EQUALS
@@ -50178,7 +49201,7 @@ p
 "
 "
 "
-        
+            
 ExtendedAttributeNamedArgList
 :
 IDENTIFIER
@@ -50223,7 +49246,7 @@ p
 "
 "
 "
-        
+            
 ExtendedAttributeIdentList
 :
 IDENTIFIER
@@ -50263,7 +49286,7 @@ p
 "
 "
 "
-        
+            
 IdentifierList
 :
 IDENTIFIER
@@ -50297,9 +49320,9 @@ ident
 ]
 =
 =
-"
+'
 _
-"
+'
 :
             
 ident
@@ -50336,7 +49359,7 @@ p
 "
 "
 "
-        
+            
 Identifiers
 :
 COMMA
@@ -50371,9 +49394,9 @@ ident
 ]
 =
 =
-"
+'
 _
-"
+'
 :
             
 ident
@@ -50410,7 +49433,7 @@ p
 "
 "
 "
-        
+            
 Identifiers
 :
         
@@ -50442,7 +49465,6 @@ p
 raise
 WebIDLError
 (
-                
 "
 Syntax
 Error
@@ -50466,13 +49488,12 @@ braces
 or
 both
 "
-                
+                              
 [
 self
 .
 _filename
 ]
-            
 )
         
 else
@@ -50481,12 +49502,10 @@ else
 raise
 WebIDLError
 (
-                
 "
 invalid
 syntax
 "
-                
 [
 Location
 (
@@ -50504,7 +49523,6 @@ self
 _filename
 )
 ]
-            
 )
     
 def
@@ -50513,8 +49531,8 @@ __init__
 self
 outputdir
 =
-"
-"
+'
+'
 lexer
 =
 None
@@ -50547,19 +49565,18 @@ yacc
 .
 yacc
 (
-                
 module
 =
 self
-                
+                                    
 outputdir
 =
 outputdir
-                
+                                    
 errorlog
 =
 logger
-                
+                                    
 write_tables
 =
 False
@@ -50673,7 +49690,6 @@ x
 in
 range
 (
-            
 IDLBuiltinType
 .
 Types
@@ -50686,7 +49702,6 @@ Types
 Float64Array
 +
 1
-        
 )
 :
             
@@ -50707,7 +49722,6 @@ typedef
 =
 IDLTypedef
 (
-                
 BuiltinLocation
 (
 "
@@ -50720,7 +49734,6 @@ type
 scope
 builtin
 name
-            
 )
     
 staticmethod
@@ -50932,10 +49945,8 @@ Types
 .
 object
 ]
-                    
 [
 ]
-                
 )
                 
 nextMethod
@@ -50956,10 +49967,10 @@ itr_ident
 =
 IDLUnresolvedIdentifier
 (
-                    
 iface
 .
 location
+                                                    
 iface
 .
 identifier
@@ -50969,7 +49980,6 @@ name
 "
 Iterator
 "
-                
 )
                 
 classNameOverride
@@ -50988,40 +49998,34 @@ itr_iface
 =
 IDLInterface
 (
-                    
 iface
 .
 location
-                    
 self
 .
 globalScope
 (
 )
-                    
+                                         
 itr_ident
-                    
 None
-                    
 [
 nextMethod
 ]
-                    
+                                         
 isKnownNonPartial
 =
 True
-                    
+                                         
 classNameOverride
 =
 classNameOverride
-                
 )
                 
 itr_iface
 .
 addExtendedAttributes
 (
-                    
 [
 simpleExtendedAttr
 (
@@ -51030,7 +50034,6 @@ NoInterfaceObject
 "
 )
 ]
-                
 )
                 
 itr_iface
@@ -51074,7 +50077,6 @@ itr_iface
 includesStatements
 =
 [
-            
 p
 for
 p
@@ -51083,18 +50085,17 @@ self
 .
 _productions
 if
+                                
 isinstance
 (
 p
 IDLIncludesStatement
 )
-        
 ]
         
 otherStatements
 =
 [
-            
 p
 for
 p
@@ -51103,13 +50104,13 @@ self
 .
 _productions
 if
+                           
 not
 isinstance
 (
 p
 IDLIncludesStatement
 )
-        
 ]
         
 for
@@ -51282,23 +50283,20 @@ o
 .
 add_option
 (
-        
 "
 -
 -
 cachedir
 "
-        
 dest
 =
-"
+'
 cachedir
-"
-        
+'
 default
 =
 None
-        
+                 
 help
 =
 "
@@ -51313,14 +50311,12 @@ parse
 tables
 .
 "
-    
 )
     
 o
 .
 add_option
 (
-        
 "
 -
 -
@@ -51328,17 +50324,15 @@ verbose
 -
 errors
 "
-        
 action
 =
-"
+'
 store_true
-"
-        
+'
 default
 =
 False
-        
+                 
 help
 =
 "
@@ -51352,7 +50346,6 @@ Python
 traceback
 .
 "
-    
 )
     
 (
@@ -51436,9 +50429,9 @@ f
 open
 (
 fullPath
-"
+'
 rb
-"
+'
 )
             
 lines
@@ -51464,8 +50457,8 @@ parser
 .
 parse
 (
-"
-"
+'
+'
 .
 join
 (
@@ -51509,9 +50502,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

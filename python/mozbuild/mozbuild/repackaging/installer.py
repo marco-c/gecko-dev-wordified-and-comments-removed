@@ -34,12 +34,12 @@ ensureParentDir
 def
 repackage_installer
 (
-    
 topsrcdir
 tag
 setupexe
 package
 output
+                        
 package_name
 sfx_stub
 use_upx
@@ -122,7 +122,6 @@ None
 raise
 Exception
 (
-            
 "
 Package
 name
@@ -138,7 +137,6 @@ not
 provided
 .
 "
-        
 )
     
 tag

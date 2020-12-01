@@ -62,8 +62,8 @@ name
 "
 "
 "
-    
 )
+;
     
 results
 =
@@ -72,6 +72,7 @@ parser
 finish
 (
 )
+;
     
 harness
 .
@@ -109,7 +110,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -128,7 +128,6 @@ NoNamedGetter
 "
 "
 "
-        
 )
         
 results
@@ -181,7 +180,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -210,7 +208,6 @@ name
 "
 "
 "
-        
 )
         
 results
@@ -263,7 +260,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -319,7 +315,6 @@ name
 "
 "
 "
-        
 )
         
 results

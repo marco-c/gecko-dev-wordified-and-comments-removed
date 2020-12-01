@@ -58,9 +58,8 @@ paths
 =
 set
 (
-        
 [
-            
+        
 os
 .
 path
@@ -75,13 +74,13 @@ abspath
 (
 tests_path
 )
-"
+'
 __init__
 .
 py
-"
+'
 )
-            
+        
 os
 .
 path
@@ -96,23 +95,22 @@ abspath
 (
 tests_path
 )
-"
+'
 test_pythonutil
 .
 py
-"
+'
 )
-        
-]
     
+]
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

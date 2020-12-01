@@ -1,6 +1,6 @@
-"
-"
-"
+'
+'
+'
 This
 script
 will
@@ -168,9 +168,9 @@ Step
 Enjoy
 =
 )
-"
-"
-"
+'
+'
+'
 from
 typing
 import
@@ -204,9 +204,9 @@ XML_DIR_STR
 HEADER
 =
 b
-"
-"
-"
+'
+'
+'
 /
 *
 This
@@ -345,20 +345,19 @@ py
  
 *
 /
-"
-"
-"
+'
+'
+'
 [
-    
 1
 :
 ]
 FOOTER
 =
 b
-"
-"
-"
+'
+'
+'
 #
 endif
 /
@@ -370,11 +369,10 @@ clang
 -
 format
 on
-"
-"
-"
+'
+'
+'
 [
-    
 1
 :
 ]
@@ -389,17 +387,17 @@ value
     
 define
 =
-"
+'
 #
 define
 LOCAL_
-"
+'
 +
 lib
 +
-"
+'
 _
-"
+'
 +
 name
     
@@ -427,13 +425,13 @@ whitespace
 return
 define
 +
-"
-"
+'
+'
 *
 whitespace
 +
-"
-"
+'
+'
 +
 value
 class
@@ -481,18 +479,18 @@ GLDatabase
 LIBS
 =
 [
-"
+'
 GL
-"
-"
+'
+'
 EGL
-"
-"
+'
+'
 GLX
-"
-"
+'
+'
 WGL
-"
+'
 ]
     
 def
@@ -527,12 +525,12 @@ vendors
 set
 (
 [
-"
+'
 EXT
-"
-"
+'
+'
 ATI
-"
+'
 ]
 )
     
@@ -572,9 +570,9 @@ root
 .
 iter
 (
-"
+'
 enums
-"
+'
 )
 :
             
@@ -584,9 +582,9 @@ enums
 .
 get
 (
-"
+'
 vendor
-"
+'
 )
             
 if
@@ -596,9 +594,9 @@ vendor
                 
 vendor
 =
-"
+'
 ARB
-"
+'
             
 if
 vendor
@@ -624,9 +622,9 @@ enums
 .
 get
 (
-"
+'
 type
-"
+'
 )
             
 for
@@ -641,9 +639,9 @@ enum
 tag
 !
 =
-"
+'
 enum
-"
+'
 :
                     
 continue
@@ -654,16 +652,16 @@ enum
 .
 get
 (
-"
+'
 name
-"
+'
 )
 .
 split
 (
-"
+'
 _
-"
+'
 )
 [
 0
@@ -686,9 +684,9 @@ enum
 .
 get
 (
-"
+'
 name
-"
+'
 )
 [
 len
@@ -706,9 +704,9 @@ enum
 .
 get
 (
-"
+'
 value
-"
+'
 )
                 
 type
@@ -717,9 +715,9 @@ enum
 .
 get
 (
-"
+'
 type
-"
+'
 )
                 
 if
@@ -737,9 +735,9 @@ consts
 [
 lib
 +
-"
+'
 _
-"
+'
 +
 name
 ]
@@ -762,11 +760,11 @@ load_xml
 (
 XML_DIR
 /
-"
+'
 gl
 .
 xml
-"
+'
 )
 db
 .
@@ -774,11 +772,11 @@ load_xml
 (
 XML_DIR
 /
-"
+'
 glx
 .
 xml
-"
+'
 )
 db
 .
@@ -786,11 +784,11 @@ load_xml
 (
 XML_DIR
 /
-"
+'
 wgl
 .
 xml
-"
+'
 )
 db
 .
@@ -798,11 +796,11 @@ load_xml
 (
 XML_DIR
 /
-"
+'
 egl
 .
 xml
-"
+'
 )
 lines
 :
@@ -837,10 +835,10 @@ lines
 .
 append
 (
-"
+'
 /
 /
-"
+'
 +
 lib
 )
@@ -895,8 +893,8 @@ lines
 .
 append
 (
-"
-"
+'
+'
 )
 b_lines
 :
@@ -929,10 +927,10 @@ b_data
 bytes
 =
 b
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -944,11 +942,11 @@ pathlib
 .
 Path
 (
-"
+'
 GLConsts
 .
 h
-"
+'
 )
 dest
 .
@@ -959,7 +957,7 @@ b_data
 print
 (
 f
-"
+'
 Wrote
 {
 len
@@ -969,5 +967,5 @@ b_data
 }
 bytes
 .
-"
+'
 )

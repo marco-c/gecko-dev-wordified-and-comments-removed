@@ -57,14 +57,14 @@ self
 .
 c
 [
-"
+'
 FAIL
-"
+'
 ]
 =
-"
+'
 PASS
-"
+'
     
 def
 test_string_literal
@@ -100,13 +100,13 @@ self
 .
 c
 [
-"
+'
 PASS
-"
+'
 ]
-"
+'
 PASS
-"
+'
 )
     
 def
@@ -140,13 +140,13 @@ self
 .
 c
 [
-"
+'
 FAIL
-"
+'
 ]
-"
+'
 PASS
-"
+'
 )
     
 def
@@ -178,9 +178,9 @@ self
 .
 assert_
 (
-"
+'
 FAIL
-"
+'
 in
 self
 .
@@ -191,9 +191,9 @@ self
 .
 assert_
 (
-"
+'
 PASS
-"
+'
 not
 in
 self
@@ -259,14 +259,14 @@ self
 .
 c
 [
-"
+'
 FAIL
-"
+'
 ]
 =
-"
+'
 PASS
-"
+'
     
 def
 test_string_literal
@@ -296,9 +296,9 @@ assertEqual
 (
 Expression
 (
-"
+'
 PASS
-"
+'
 )
 .
 evaluate
@@ -307,9 +307,9 @@ self
 .
 c
 )
-"
+'
 PASS
-"
+'
 )
     
 def
@@ -339,9 +339,9 @@ assertEqual
 (
 Expression
 (
-"
+'
 FAIL
-"
+'
 )
 .
 evaluate
@@ -350,9 +350,9 @@ self
 .
 c
 )
-"
+'
 PASS
-"
+'
 )
     
 def
@@ -380,10 +380,10 @@ assert_
 (
 Expression
 (
-"
+'
 !
 0
-"
+'
 )
 .
 evaluate
@@ -401,10 +401,10 @@ assert_
 not
 Expression
 (
-"
+'
 !
 1
-"
+'
 )
 .
 evaluate
@@ -441,12 +441,12 @@ assert_
 (
 Expression
 (
-"
+'
 FAIL
 =
 =
 PASS
-"
+'
 )
 .
 evaluate
@@ -483,12 +483,12 @@ assert_
 (
 Expression
 (
-"
+'
 FAIL
 !
 =
 1
-"
+'
 )
 .
 evaluate
@@ -525,7 +525,7 @@ assertTrue
 (
 Expression
 (
-"
+'
 PASS
 =
 =
@@ -536,7 +536,7 @@ PASS
 !
 =
 NOTPASS
-"
+'
 )
 .
 evaluate
@@ -571,10 +571,9 @@ self
 .
 assertTrue
 (
-            
 Expression
 (
-"
+'
 PASS
 =
 =
@@ -585,7 +584,7 @@ PASS
 !
 =
 NOTPASS
-"
+'
 )
 .
 evaluate
@@ -594,7 +593,6 @@ self
 .
 c
 )
-        
 )
     
 def
@@ -625,10 +623,10 @@ self
 .
 assertTrue
 (
-            
 Expression
 (
-"
+            
+'
 PASS
 =
 =
@@ -645,18 +643,15 @@ PASS
 =
 =
 NOTPASS
-"
+'
 )
 .
 evaluate
 (
-                
 self
 .
 c
-            
 )
-        
 )
     
 def
@@ -686,12 +681,12 @@ assertTrue
 (
 Expression
 (
-"
+'
 defined
 (
 FAIL
 )
-"
+'
 )
 .
 evaluate
@@ -708,13 +703,13 @@ assertTrue
 (
 Expression
 (
-"
+'
 !
 defined
 (
 PASS
 )
-"
+'
 )
 .
 evaluate
@@ -728,9 +723,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

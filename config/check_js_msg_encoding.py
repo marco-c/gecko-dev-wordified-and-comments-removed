@@ -24,14 +24,14 @@ __file__
 )
 expected_encoding
 =
-"
+'
 ascii
-"
+'
 ignore_files
 =
 [
     
-"
+'
 dom
 /
 base
@@ -39,9 +39,9 @@ base
 domerr
 .
 msg
-"
+'
     
-"
+'
 js
 /
 xpconnect
@@ -51,7 +51,7 @@ src
 xpc
 .
 msg
-"
+'
 ]
 def
 log_pass
@@ -63,7 +63,7 @@ text
     
 print
 (
-"
+'
 TEST
 -
 PASS
@@ -76,7 +76,7 @@ PASS
 |
 {
 }
-"
+'
 .
 format
 (
@@ -95,7 +95,7 @@ text
     
 print
 (
-"
+'
 TEST
 -
 UNEXPECTED
@@ -110,12 +110,13 @@ FAIL
 |
 {
 }
-"
+'
 .
 format
 (
 scriptname
 filename
+                                                       
 text
 )
 )
@@ -130,9 +131,9 @@ with
 open
 (
 filename
-"
+'
 rb
-"
+'
 )
 as
 f
@@ -163,13 +164,13 @@ Exception
 log_fail
 (
 filename
-"
+'
 not
 in
 {
 }
 encoding
-"
+'
 .
 format
 (
@@ -180,9 +181,9 @@ expected_encoding
 log_pass
 (
 filename
-"
+'
 ok
-"
+'
 )
     
 return
@@ -223,14 +224,14 @@ get_tracked_files_finder
 .
 find
 (
-"
+'
 *
 *
 /
 *
 .
 msg
-"
+'
 )
 :
             
@@ -293,9 +294,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

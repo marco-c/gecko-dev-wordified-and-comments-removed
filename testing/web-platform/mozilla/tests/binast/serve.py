@@ -106,9 +106,9 @@ request
 )
     
 if
-"
+'
 expect_accept
-"
+'
 in
 params
 :
@@ -117,9 +117,9 @@ expect_accept
 =
 params
 [
-"
+'
 expect_accept
-"
+'
 ]
 [
 0
@@ -129,9 +129,9 @@ if
 expect_accept
 =
 =
-"
+'
 false
-"
+'
 :
             
 if
@@ -153,9 +153,9 @@ elif
 expect_accept
 =
 =
-"
+'
 true
-"
+'
 :
             
 if
@@ -190,26 +190,26 @@ expect_accept
 )
     
 if
-"
+'
 force_binast
-"
+'
 in
 params
 and
 params
 [
-"
+'
 force_binast
-"
+'
 ]
 [
 0
 ]
 =
 =
-"
+'
 true
-"
+'
 :
         
 return
@@ -253,9 +253,9 @@ name
 =
 params
 [
-"
+'
 name
-"
+'
 ]
 [
 0
@@ -268,11 +268,11 @@ re
 match
 (
 r
-"
+'
 \
 w
 +
-"
+'
 name
 )
 :

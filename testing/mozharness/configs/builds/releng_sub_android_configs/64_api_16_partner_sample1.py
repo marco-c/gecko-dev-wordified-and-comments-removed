@@ -2,11 +2,11 @@ config
 =
 {
     
-"
+'
 stage_platform
-"
+'
 :
-"
+'
 android
 -
 api
@@ -16,19 +16,19 @@ api
 partner
 -
 sample1
-"
+'
     
-"
+'
 src_mozconfig
-"
+'
 :
 None
     
-"
+'
 src_mozconfig_manifest
-"
+'
 :
-"
+'
 partner
 /
 mozconfigs
@@ -36,13 +36,13 @@ mozconfigs
 mozconfig1
 .
 json
-"
+'
     
-"
+'
 tooltool_manifest_src
-"
+'
 :
-"
+'
 mobile
 /
 android
@@ -58,5 +58,5 @@ android
 releng
 .
 manifest
-"
+'
 }

@@ -144,7 +144,6 @@ output
 .
 write
 (
-                
 "
 FRAME_ID
 (
@@ -170,7 +169,6 @@ frame
 .
 leafness
 )
-            
 )
     
 for
@@ -236,7 +234,6 @@ output
 .
 write
 (
-            
 "
 FRAME_TYPE
 (
@@ -272,5 +269,4 @@ group
 .
 cls
 )
-        
 )

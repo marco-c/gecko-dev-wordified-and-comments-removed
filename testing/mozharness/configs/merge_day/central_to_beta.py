@@ -109,9 +109,7 @@ replacements
 [
         
 (
-            
 f
-            
 "
 ac_add_options
 -
@@ -126,7 +124,7 @@ branding
 /
 nightly
 "
-            
+        
 "
 ac_add_options
 -
@@ -137,14 +135,12 @@ official
 -
 branding
 "
-        
 )
         
 for
 f
 in
 [
-            
 "
 browser
 /
@@ -158,7 +154,7 @@ l10n
 -
 mozconfig
 "
-            
+                  
 "
 browser
 /
@@ -172,7 +168,7 @@ l10n
 -
 mozconfig
 "
-            
+                  
 "
 browser
 /
@@ -186,7 +182,7 @@ l10n
 -
 mozconfig
 "
-            
+                  
 "
 browser
 /
@@ -200,7 +196,7 @@ l10n
 -
 mozconfig
 "
-            
+                  
 "
 browser
 /
@@ -216,7 +212,7 @@ l10n
 -
 mozconfig
 "
-            
+                  
 "
 browser
 /
@@ -230,16 +226,13 @@ l10n
 -
 mozconfig
 "
-        
 ]
     
 ]
-    
 +
 [
         
 (
-            
 "
 build
 /
@@ -247,7 +240,7 @@ mozconfig
 .
 common
 "
-            
+         
 "
 MOZ_REQUIRE_SIGNING
 =
@@ -257,7 +250,7 @@ MOZ_REQUIRE_SIGNING
 0
 }
 "
-            
+         
 "
 MOZ_REQUIRE_SIGNING
 =
@@ -267,11 +260,9 @@ MOZ_REQUIRE_SIGNING
 1
 }
 "
-        
 )
         
 (
-            
 "
 build
 /
@@ -279,7 +270,7 @@ mozconfig
 .
 common
 "
-            
+         
 "
 #
 Disable
@@ -295,7 +286,7 @@ the
 trusted
 root
 "
-            
+         
 "
 #
 Enable
@@ -311,7 +302,6 @@ the
 trusted
 root
 "
-        
 )
     
 ]
@@ -327,11 +317,11 @@ path
 join
 (
 ABS_WORK_DIR
-"
+'
 hg
 -
 shared
-"
+'
 )
     
 "

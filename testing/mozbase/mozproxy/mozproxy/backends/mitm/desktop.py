@@ -663,8 +663,8 @@ policies_dir
 policies_content
 =
 POLICIES_CONTENT_ON
-            
 %
+            
 {
 "
 cert
@@ -906,9 +906,9 @@ contents
             
 if
 (
-                
+                    
 POLICIES_CONTENT_ON
-                
+                    
 %
 {
 "

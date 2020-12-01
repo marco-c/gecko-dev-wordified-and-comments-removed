@@ -8,7 +8,10 @@ logging
 from
 .
 import
+(
+    
 target_tasks
+)
 logger
 =
 logging
@@ -64,9 +67,9 @@ return
 wrap
 filter_task
 (
-"
+'
 target_tasks_method
-"
+'
 )
 def
 filter_target_tasks
@@ -112,12 +115,12 @@ parameters
 .
 get
 (
-"
+'
 target_tasks_method
-"
-"
+'
+'
 all_tasks
-"
+'
 )
     
 fn

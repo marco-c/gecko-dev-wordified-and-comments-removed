@@ -23,9 +23,9 @@ NODEJS_PATH
 =
 None
 if
-"
+'
 MOZ_FETCHES_DIR
-"
+'
 in
 os
 .
@@ -58,18 +58,18 @@ node
 )
 XPCSHELL_NAME
 =
-"
+'
 xpcshell
-"
+'
 HTTP3SERVER_NAME
 =
-"
+'
 http3server
-"
+'
 EXE_SUFFIX
 =
-"
-"
+'
+'
 DISABLE_SCREEN_SAVER
 =
 False
@@ -85,7 +85,7 @@ virtualenv_modules
 "
 :
 [
-"
+'
 six
 =
 =
@@ -94,8 +94,8 @@ six
 13
 .
 0
-"
-"
+'
+'
 vcversioner
 =
 =
@@ -106,7 +106,7 @@ vcversioner
 0
 .
 0
-"
+'
 ]
     
 "
@@ -1125,7 +1125,6 @@ screenshots
 "
 :
 [
-            
 "
 -
 -
@@ -1133,7 +1132,6 @@ flavor
 =
 browser
 "
-            
 "
 -
 -
@@ -1141,7 +1139,6 @@ subsuite
 =
 screenshots
 "
-        
 ]
         
 "
@@ -1269,7 +1266,6 @@ chrome
 "
 :
 [
-            
 "
 -
 -
@@ -1277,7 +1273,6 @@ flavor
 =
 browser
 "
-            
 "
 -
 -
@@ -1285,7 +1280,6 @@ subsuite
 =
 devtools
 "
-            
 "
 -
 -
@@ -1295,7 +1289,6 @@ by
 -
 runtime
 "
-        
 ]
         
 "
@@ -1358,9 +1351,9 @@ crashtest
 :
 {
             
-"
+'
 options
-"
+'
 :
 [
 "
@@ -1370,6 +1363,7 @@ suite
 =
 crashtest
 "
+                        
 "
 -
 -
@@ -1383,9 +1377,9 @@ tests
 "
 ]
             
-"
+'
 tests
-"
+'
 :
 [
 "
@@ -1413,12 +1407,11 @@ jsreftest
 :
 {
             
-"
+'
 options
-"
+'
 :
 [
-                
 "
 -
 -
@@ -1444,7 +1437,7 @@ user
 .
 js
 "
-                
+                       
 "
 -
 -
@@ -1452,7 +1445,7 @@ suite
 =
 jstestbrowser
 "
-                
+                       
 "
 -
 -
@@ -1464,12 +1457,11 @@ jsreftest
 /
 tests
 "
-            
 ]
             
-"
+'
 tests
-"
+'
 :
 [
 "
@@ -1499,9 +1491,9 @@ reftest
 :
 {
             
-"
+'
 options
-"
+'
 :
 [
 "
@@ -1511,6 +1503,7 @@ suite
 =
 reftest
 "
+                        
 "
 -
 -
@@ -1524,9 +1517,9 @@ tests
 "
 ]
             
-"
+'
 tests
-"
+'
 :
 [
 "
@@ -1562,12 +1555,11 @@ xpcshell
 :
 {
             
-"
+'
 options
-"
+'
 :
 [
-                
 "
 -
 -
@@ -1582,7 +1574,7 @@ s
 "
 +
 XPCSHELL_NAME
-                
+                        
 "
 -
 -
@@ -1597,7 +1589,7 @@ s
 "
 +
 HTTP3SERVER_NAME
-                
+                        
 "
 -
 -
@@ -1613,12 +1605,11 @@ xpcshell
 .
 ini
 "
-            
 ]
             
-"
+'
 tests
-"
+'
 :
 [
 ]
@@ -1632,17 +1623,19 @@ all_cppunittest_suites
 "
 :
 {
+        
 "
 cppunittest
 "
 :
 [
-"
+'
 tests
 /
 cppunittest
-"
+'
 ]
+    
 }
     
 "
@@ -1650,12 +1643,14 @@ all_gtest_suites
 "
 :
 {
+        
 "
 gtest
 "
 :
 [
 ]
+    
 }
     
 "
@@ -1663,12 +1658,14 @@ all_jittest_suites
 "
 :
 {
+        
 "
 jittest
 "
 :
 [
 ]
+        
 "
 jittest
 -
@@ -1677,6 +1674,7 @@ chunked
 :
 [
 ]
+    
 }
     
 "
@@ -1885,7 +1883,6 @@ cmd
 "
 python
 "
-                
 "
 .
 .
@@ -1921,7 +1918,6 @@ configuration
 .
 json
 "
-            
 ]
             
 "
@@ -1978,35 +1974,34 @@ unstructured_flavors
 "
 :
 {
-        
 "
 xpcshell
 "
 :
 [
 ]
-        
+                             
 "
 gtest
 "
 :
 [
 ]
-        
+                             
 "
 cppunittest
 "
 :
 [
 ]
-        
+                             
 "
 jittest
 "
 :
 [
 ]
-    
+                             
 }
     
 "

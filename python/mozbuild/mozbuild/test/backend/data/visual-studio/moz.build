@@ -2,13 +2,13 @@ DIRS
 +
 =
 [
-"
+'
 dir1
-"
+'
 ]
 Library
 (
-"
+'
 test
-"
+'
 )

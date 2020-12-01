@@ -33,22 +33,22 @@ MOCHI_PATH
 suffix
 =
 =
-"
+'
 .
 html
-"
+'
 TEST_PATH
 =
 MOCHI_PATH
 .
 with_suffix
 (
-"
+'
 .
 solo
 .
 html
-"
+'
 )
 def
 read_local_file
@@ -85,14 +85,14 @@ IOError
         
 return
 b
-"
-"
+'
+'
 SIMPLETEST_REPLACEMENT
 =
 b
-"
-"
-"
+'
+'
+'
 <
 script
 >
@@ -397,9 +397,9 @@ output
 /
 div
 >
-"
-"
-"
+'
+'
+'
 INCLUDE_PATTERN
 =
 re
@@ -407,7 +407,7 @@ re
 compile
 (
 b
-"
+'
 <
 script
 \
@@ -417,8 +417,8 @@ s
 src
 =
 [
-'
 \
+'
 "
 ]
 (
@@ -430,8 +430,8 @@ src
 .
 js
 [
-'
 \
+'
 "
 ]
 >
@@ -443,7 +443,7 @@ s
 /
 script
 >
-"
+'
 )
 CSS_PATTERN
 =
@@ -451,9 +451,8 @@ re
 .
 compile
 (
-    
 b
-"
+'
 <
 link
 \
@@ -463,14 +462,14 @@ s
 rel
 =
 [
-'
 \
+'
 "
 ]
 stylesheet
 [
-'
 \
+'
 "
 ]
 \
@@ -480,8 +479,8 @@ s
 href
 =
 [
-'
 \
+'
 "
 ]
 (
@@ -493,20 +492,20 @@ href
 *
 )
 [
-'
 \
+'
 "
 ]
 >
-"
+'
 )
 with
 open
 (
 TEST_PATH
-"
+'
 wb
-"
+'
 )
 as
 fout
@@ -516,9 +515,9 @@ with
 open
 (
 MOCHI_PATH
-"
+'
 rb
-"
+'
 )
 as
 fin
@@ -551,11 +550,11 @@ True
                 
 print
 (
-"
+'
 Ignoring
 stylesheet
 :
-"
+'
 +
 css
 .
@@ -584,12 +583,12 @@ inc
 =
 =
 b
-"
+'
 /
 MochiKit
 /
 MochiKit
-"
+'
 :
                     
 continue
@@ -599,23 +598,23 @@ inc
 =
 =
 b
-"
+'
 /
 tests
 /
 SimpleTest
 /
 SimpleTest
-"
+'
 :
                     
 print
 (
-"
+'
 Injecting
 SimpleTest
 replacement
-"
+'
 )
                     
 fout
@@ -635,10 +634,10 @@ decode
 (
 )
 +
-"
+'
 .
 js
-"
+'
                 
 inc_data
 =
@@ -654,7 +653,7 @@ inc_data
                     
 print
 (
-"
+'
 Warning
 :
 Unknown
@@ -662,7 +661,7 @@ JS
 file
 ignored
 :
-"
+'
 +
 inc_js
 )
@@ -671,11 +670,11 @@ continue
                 
 print
 (
-"
+'
 Injecting
 include
 :
-"
+'
 +
 inc_js
 )
@@ -685,7 +684,7 @@ fout
 write
 (
 b
-"
+'
 \
 n
 <
@@ -698,7 +697,7 @@ n
 Imported
 from
 :
-"
+'
 +
 inc_js
 .
@@ -707,10 +706,10 @@ encode
 )
 +
 b
-"
+'
 \
 n
-"
+'
 )
                 
 fout
@@ -725,7 +724,7 @@ fout
 write
 (
 b
-"
+'
 \
 n
 <
@@ -734,7 +733,7 @@ script
 >
 \
 n
-"
+'
 )
                 
 continue

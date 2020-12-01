@@ -32,10 +32,10 @@ contents
             
 return
 [
-"
+'
 \
 0
-"
+'
 ]
         
 return
@@ -67,17 +67,17 @@ cert_bytes
 substs
 =
 {
-"
+'
 array_name
-"
+'
 :
 array_name
-"
+'
 bytes
-"
+'
 :
-"
-"
+'
+'
 .
 join
 (
@@ -118,21 +118,21 @@ array_names
 =
 [
     
-"
+'
 xpcshellRoot
-"
+'
     
-"
+'
 addonsPublicRoot
-"
+'
     
-"
+'
 addonsPublicIntermediate
-"
+'
     
-"
+'
 addonsStageRoot
-"
+'
 ]
 for
 n
@@ -167,5 +167,4 @@ _file_byte_generator
 cert_filename
 )
 )
-    
 )

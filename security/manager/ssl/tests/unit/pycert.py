@@ -835,9 +835,9 @@ self
 .
 category
 =
-"
+'
 input
-"
+'
     
 def
 __str__
@@ -912,9 +912,9 @@ self
 .
 category
 =
-"
+'
 algorithm
-"
+'
 class
 UnknownParameterTypeError
 (
@@ -958,9 +958,9 @@ self
 .
 category
 =
-"
+'
 parameter
-"
+'
 class
 UnknownExtensionTypeError
 (
@@ -1004,9 +1004,9 @@ self
 .
 category
 =
-"
+'
 extension
-"
+'
 class
 UnknownKeyPurposeTypeError
 (
@@ -1050,9 +1050,9 @@ self
 .
 category
 =
-"
+'
 keyPurpose
-"
+'
 class
 UnknownKeyTargetError
 (
@@ -1096,10 +1096,10 @@ self
 .
 category
 =
-"
+'
 key
 target
-"
+'
 class
 UnknownVersionError
 (
@@ -1143,9 +1143,9 @@ self
 .
 category
 =
-"
+'
 version
-"
+'
 class
 UnknownNameConstraintsSpecificationError
 (
@@ -1190,10 +1190,10 @@ self
 .
 category
 =
-"
+'
 nameConstraints
 specification
-"
+'
 class
 UnknownDNTypeError
 (
@@ -1237,9 +1237,9 @@ self
 .
 category
 =
-"
+'
 DN
-"
+'
 class
 UnknownNSCertTypeError
 (
@@ -1283,9 +1283,9 @@ self
 .
 category
 =
-"
+'
 nsCertType
-"
+'
 class
 UnknownTLSFeature
 (
@@ -1329,9 +1329,9 @@ self
 .
 category
 =
-"
+'
 TLSFeature
-"
+'
 class
 UnknownDelegatedCredentialError
 (
@@ -1376,9 +1376,9 @@ self
 .
 category
 =
-"
+'
 delegatedCredential
-"
+'
 class
 InvalidSCTSpecification
 (
@@ -1606,9 +1606,9 @@ GeneralName
     
 accessLocation
 [
-"
+'
 uniformResourceIdentifier
-"
+'
 ]
 =
 string
@@ -1711,9 +1711,9 @@ differently
 if
 string
 and
-"
+'
 /
-"
+'
 not
 in
 string
@@ -1721,13 +1721,13 @@ string
         
 string
 =
-"
+'
 /
 CN
 =
 %
 s
-"
+'
 %
 string
     
@@ -1741,7 +1741,7 @@ RDNSequence
     
 pattern
 =
-"
+'
 /
 (
 C
@@ -1759,7 +1759,7 @@ CN
 emailAddress
 )
 =
-"
+'
     
 split
 =
@@ -1790,9 +1790,9 @@ else
         
 encoding
 =
-"
+'
 utf8String
-"
+'
     
 for
 pos
@@ -1835,16 +1835,16 @@ if
 nameType
 =
 =
-"
+'
 C
-"
+'
 :
             
 ava
 [
-"
+'
 type
-"
+'
 ]
 =
 rfc2459
@@ -1864,16 +1864,16 @@ elif
 nameType
 =
 =
-"
+'
 ST
-"
+'
 :
             
 ava
 [
-"
+'
 type
-"
+'
 ]
 =
 rfc2459
@@ -1892,16 +1892,16 @@ elif
 nameType
 =
 =
-"
+'
 L
-"
+'
 :
             
 ava
 [
-"
+'
 type
-"
+'
 ]
 =
 rfc2459
@@ -1920,16 +1920,16 @@ elif
 nameType
 =
 =
-"
+'
 O
-"
+'
 :
             
 ava
 [
-"
+'
 type
-"
+'
 ]
 =
 rfc2459
@@ -1948,16 +1948,16 @@ elif
 nameType
 =
 =
-"
+'
 OU
-"
+'
 :
             
 ava
 [
-"
+'
 type
-"
+'
 ]
 =
 rfc2459
@@ -1976,16 +1976,16 @@ elif
 nameType
 =
 =
-"
+'
 CN
-"
+'
 :
             
 ava
 [
-"
+'
 type
-"
+'
 ]
 =
 rfc2459
@@ -2004,16 +2004,16 @@ elif
 nameType
 =
 =
-"
+'
 emailAddress
-"
+'
 :
             
 ava
 [
-"
+'
 type
-"
+'
 ]
 =
 rfc2459
@@ -2043,17 +2043,17 @@ not
 nameType
 =
 =
-"
+'
 C
-"
+'
 and
 not
 nameType
 =
 =
-"
+'
 emailAddress
-"
+'
 :
             
 nameComponent
@@ -2073,17 +2073,16 @@ decode
                 
 encoding
 =
-"
+'
 unicode_escape
-"
-            
+'
 )
         
 ava
 [
-"
+'
 value
-"
+'
 ]
 =
 nameComponent
@@ -2219,9 +2218,9 @@ if
 string
 =
 =
-"
+'
 sha1WithRSAEncryption
-"
+'
 :
         
 algorithmType
@@ -2244,9 +2243,9 @@ elif
 string
 =
 =
-"
+'
 sha256WithRSAEncryption
-"
+'
 :
         
 algorithmType
@@ -2261,7 +2260,7 @@ univ
 .
 ObjectIdentifier
 (
-"
+'
 1
 .
 2
@@ -2275,7 +2274,7 @@ ObjectIdentifier
 1
 .
 11
-"
+'
 )
         
 addParameters
@@ -2286,9 +2285,9 @@ elif
 string
 =
 =
-"
+'
 md5WithRSAEncryption
-"
+'
 :
         
 algorithmType
@@ -2311,9 +2310,9 @@ elif
 string
 =
 =
-"
+'
 ecdsaWithSHA256
-"
+'
 :
         
 algorithmType
@@ -2328,7 +2327,7 @@ univ
 .
 ObjectIdentifier
 (
-"
+'
 1
 .
 2
@@ -2342,16 +2341,16 @@ ObjectIdentifier
 3
 .
 2
-"
+'
 )
     
 elif
 string
 =
 =
-"
+'
 ecdsaWithSHA384
-"
+'
 :
         
 algorithmType
@@ -2366,7 +2365,7 @@ univ
 .
 ObjectIdentifier
 (
-"
+'
 1
 .
 2
@@ -2380,16 +2379,16 @@ ObjectIdentifier
 3
 .
 3
-"
+'
 )
     
 elif
 string
 =
 =
-"
+'
 ecdsaWithSHA512
-"
+'
 :
         
 algorithmType
@@ -2404,7 +2403,7 @@ univ
 .
 ObjectIdentifier
 (
-"
+'
 1
 .
 2
@@ -2418,7 +2417,7 @@ ObjectIdentifier
 3
 .
 4
-"
+'
 )
     
 else
@@ -2432,9 +2431,9 @@ string
     
 algorithmIdentifier
 [
-"
+'
 algorithm
-"
+'
 ]
 =
 algorithm
@@ -2458,9 +2457,9 @@ Null
         
 algorithmIdentifier
 [
-"
+'
 parameters
-"
+'
 ]
 =
 univ
@@ -2520,9 +2519,9 @@ Time
     
 time
 [
-"
+'
 generalTime
-"
+'
 ]
 =
 useful
@@ -2533,7 +2532,7 @@ dt
 .
 strftime
 (
-"
+'
 %
 Y
 %
@@ -2546,7 +2545,7 @@ H
 M
 %
 SZ
-"
+'
 )
 )
     
@@ -2683,18 +2682,18 @@ self
 .
 signature
 =
-"
+'
 sha256WithRSAEncryption
-"
+'
         
 self
 .
 issuer
 =
-"
+'
 Default
 Issuer
-"
+'
         
 actualNow
 =
@@ -2722,10 +2721,10 @@ actualNow
 .
 year
 )
-"
+'
 %
 Y
-"
+'
 )
         
 aYearAndAWhile
@@ -2763,10 +2762,10 @@ self
 .
 subject
 =
-"
+'
 Default
 Subject
-"
+'
         
 self
 .
@@ -2794,9 +2793,9 @@ pykey
 .
 keyFromSpecification
 (
-"
+'
 default
-"
+'
 )
         
 self
@@ -2807,9 +2806,9 @@ pykey
 .
 keyFromSpecification
 (
-"
+'
 default
-"
+'
 )
         
 self
@@ -3059,18 +3058,21 @@ savedEmbeddedSCTListData
 )
             
 if
+(
 self
 .
 savedEmbeddedSCTListData
 [
 1
 ]
+)
 :
                 
 hasher
 .
 update
 (
+                    
 six
 .
 ensure_binary
@@ -3108,7 +3110,7 @@ serialBytes
 ]
 &
 =
-0x7F
+0x7f
         
 serialBytes
 [
@@ -3167,9 +3169,9 @@ line
 .
 split
 (
-"
+'
 :
-"
+'
 )
 [
 0
@@ -3177,9 +3179,9 @@ split
         
 value
 =
-"
+'
 :
-"
+'
 .
 join
 (
@@ -3187,9 +3189,9 @@ line
 .
 split
 (
-"
+'
 :
-"
+'
 )
 [
 1
@@ -3201,9 +3203,9 @@ if
 param
 =
 =
-"
+'
 version
-"
+'
 :
             
 self
@@ -3217,9 +3219,9 @@ elif
 param
 =
 =
-"
+'
 subject
-"
+'
 :
             
 self
@@ -3232,9 +3234,9 @@ elif
 param
 =
 =
-"
+'
 issuer
-"
+'
 :
             
 self
@@ -3247,9 +3249,9 @@ elif
 param
 =
 =
-"
+'
 validity
-"
+'
 :
             
 self
@@ -3263,9 +3265,9 @@ elif
 param
 =
 =
-"
+'
 extension
-"
+'
 :
             
 self
@@ -3279,18 +3281,18 @@ elif
 param
 =
 =
-"
+'
 issuerKey
-"
+'
 :
             
 self
 .
 setupKey
 (
-"
+'
 issuer
-"
+'
 value
 )
         
@@ -3298,18 +3300,18 @@ elif
 param
 =
 =
-"
+'
 subjectKey
-"
+'
 :
             
 self
 .
 setupKey
 (
-"
+'
 subject
-"
+'
 value
 )
         
@@ -3317,9 +3319,9 @@ elif
 param
 =
 =
-"
+'
 signature
-"
+'
 :
             
 self
@@ -3332,9 +3334,9 @@ elif
 param
 =
 =
-"
+'
 serialNumber
-"
+'
 :
             
 serialNumber
@@ -3438,7 +3440,7 @@ re
 .
 search
 (
-"
+'
 (
 [
 0
@@ -3460,7 +3462,7 @@ search
 8
 }
 )
-"
+'
 duration
 )
         
@@ -3484,14 +3486,14 @@ group
 (
 1
 )
-"
+'
 %
 Y
 %
 m
 %
 d
-"
+'
 )
             
 self
@@ -3510,14 +3512,14 @@ group
 (
 2
 )
-"
+'
 %
 Y
 %
 m
 %
 d
-"
+'
 )
         
 else
@@ -3576,7 +3578,7 @@ re
 search
 (
 r
-"
+'
 (
 [
 a
@@ -3600,7 +3602,7 @@ critical
 .
 *
 )
-"
+'
 extension
 )
         
@@ -3646,9 +3648,9 @@ if
 extensionType
 =
 =
-"
+'
 basicConstraints
-"
+'
 :
             
 self
@@ -3663,9 +3665,9 @@ elif
 extensionType
 =
 =
-"
+'
 keyUsage
-"
+'
 :
             
 self
@@ -3680,9 +3682,9 @@ elif
 extensionType
 =
 =
-"
+'
 extKeyUsage
-"
+'
 :
             
 self
@@ -3697,9 +3699,9 @@ elif
 extensionType
 =
 =
-"
+'
 subjectAlternativeName
-"
+'
 :
             
 self
@@ -3714,9 +3716,9 @@ elif
 extensionType
 =
 =
-"
+'
 authorityInformationAccess
-"
+'
 :
             
 self
@@ -3731,9 +3733,9 @@ elif
 extensionType
 =
 =
-"
+'
 certificatePolicies
-"
+'
 :
             
 self
@@ -3748,9 +3750,9 @@ elif
 extensionType
 =
 =
-"
+'
 nameConstraints
-"
+'
 :
             
 self
@@ -3765,9 +3767,9 @@ elif
 extensionType
 =
 =
-"
+'
 nsCertType
-"
+'
 :
             
 self
@@ -3782,9 +3784,9 @@ elif
 extensionType
 =
 =
-"
+'
 TLSFeature
-"
+'
 :
             
 self
@@ -3799,9 +3801,9 @@ elif
 extensionType
 =
 =
-"
+'
 embeddedSCTList
-"
+'
 :
             
 self
@@ -3817,9 +3819,9 @@ elif
 extensionType
 =
 =
-"
+'
 delegationUsage
-"
+'
 :
             
 self
@@ -3842,9 +3844,9 @@ if
 extensionType
 !
 =
-"
+'
 embeddedSCTList
-"
+'
 :
             
 if
@@ -3883,9 +3885,9 @@ if
 subjectOrIssuer
 =
 =
-"
+'
 subject
-"
+'
 :
             
 self
@@ -3903,9 +3905,9 @@ elif
 subjectOrIssuer
 =
 =
-"
+'
 issuer
-"
+'
 :
             
 self
@@ -3976,9 +3978,9 @@ Extension
         
 extension
 [
-"
+'
 extnID
-"
+'
 ]
 =
 extensionType
@@ -3989,18 +3991,18 @@ critical
             
 extension
 [
-"
+'
 critical
-"
+'
 ]
 =
 True
         
 extension
 [
-"
+'
 extnValue
-"
+'
 ]
 =
 encapsulated
@@ -4029,8 +4031,8 @@ basicConstraints
 .
 split
 (
-"
-"
+'
+'
 )
 [
 0
@@ -4042,8 +4044,8 @@ basicConstraints
 .
 split
 (
-"
-"
+'
+'
 )
 [
 1
@@ -4059,17 +4061,17 @@ BasicConstraints
         
 basicConstraintsExtension
 [
-"
+'
 cA
-"
+'
 ]
 =
 cA
 =
 =
-"
+'
 cA
-"
+'
         
 if
 pathLenConstraint
@@ -4077,6 +4079,8 @@ pathLenConstraint
             
 pathLenConstraintValue
 =
+\
+                
 univ
 .
 Integer
@@ -4089,7 +4093,7 @@ pathLenConstraint
 .
 subtype
 (
-                
+                    
 subtypeSpec
 =
 constraint
@@ -4099,19 +4103,18 @@ ValueRangeConstraint
 0
 float
 (
-"
+'
 inf
-"
+'
 )
 )
-            
 )
             
 basicConstraintsExtension
 [
-"
+'
 pathLenConstraint
-"
+'
 ]
 =
 pathLenConstraintValue
@@ -4120,13 +4123,11 @@ self
 .
 addExtension
 (
-            
 rfc2459
 .
 id_ce_basicConstraints
 basicConstraintsExtension
 critical
-        
 )
     
 def
@@ -4170,9 +4171,9 @@ if
 keyPurpose
 =
 =
-"
+'
 serverAuth
-"
+'
 :
             
 return
@@ -4184,9 +4185,9 @@ if
 keyPurpose
 =
 =
-"
+'
 clientAuth
-"
+'
 :
             
 return
@@ -4198,9 +4199,9 @@ if
 keyPurpose
 =
 =
-"
+'
 codeSigning
-"
+'
 :
             
 return
@@ -4212,9 +4213,9 @@ if
 keyPurpose
 =
 =
-"
+'
 emailProtection
-"
+'
 :
             
 return
@@ -4226,9 +4227,9 @@ if
 keyPurpose
 =
 =
-"
+'
 nsSGC
-"
+'
 :
             
 return
@@ -4236,7 +4237,7 @@ univ
 .
 ObjectIdentifier
 (
-"
+'
 2
 .
 16
@@ -4250,16 +4251,16 @@ ObjectIdentifier
 4
 .
 1
-"
+'
 )
         
 if
 keyPurpose
 =
 =
-"
+'
 OCSPSigning
-"
+'
 :
             
 return
@@ -4267,7 +4268,7 @@ univ
 .
 ObjectIdentifier
 (
-"
+'
 1
 .
 3
@@ -4285,16 +4286,16 @@ ObjectIdentifier
 3
 .
 9
-"
+'
 )
         
 if
 keyPurpose
 =
 =
-"
+'
 timeStamping
-"
+'
 :
             
 return
@@ -4335,8 +4336,8 @@ extKeyUsage
 .
 split
 (
-"
-"
+'
+'
 )
 )
 :
@@ -4345,7 +4346,6 @@ extKeyUsageExtension
 .
 setComponentByPosition
 (
-                
 count
 self
 .
@@ -4353,7 +4353,6 @@ keyPurposeToOID
 (
 keyPurpose
 )
-            
 )
         
 self
@@ -4378,10 +4377,10 @@ critical
         
 IPV4_PREFIX
 =
-"
+'
 ip4
 :
-"
+'
         
 subjectAlternativeName
 =
@@ -4401,8 +4400,8 @@ names
 .
 split
 (
-"
-"
+'
+'
 )
 )
 :
@@ -4416,9 +4415,9 @@ GeneralName
 )
             
 if
-"
+'
 /
-"
+'
 in
 name
 :
@@ -4427,8 +4426,8 @@ directoryName
 =
 stringToDN
 (
-                    
 name
+                                           
 tag
 .
 Tag
@@ -4441,30 +4440,29 @@ tag
 tagFormatSimple
 4
 )
-                
 )
                 
 generalName
 [
-"
+'
 directoryName
-"
+'
 ]
 =
 directoryName
             
 elif
-"
-"
+'
+'
 in
 name
 :
                 
 generalName
 [
-"
+'
 rfc822Name
-"
+'
 ]
 =
 name
@@ -4480,16 +4478,15 @@ IPV4_PREFIX
                 
 generalName
 [
-"
+'
 iPAddress
-"
+'
 ]
 =
 socket
 .
 inet_pton
 (
-                    
 socket
 .
 AF_INET
@@ -4501,7 +4498,6 @@ IPV4_PREFIX
 )
 :
 ]
-                
 )
             
 else
@@ -4509,9 +4505,9 @@ else
                 
 generalName
 [
-"
+'
 dNSName
-"
+'
 ]
 =
 six
@@ -4523,11 +4519,9 @@ name
 .
 decode
 (
-                    
-"
+'
 unicode_escape
-"
-                
+'
 )
             
 subjectAlternativeName
@@ -4542,13 +4536,11 @@ self
 .
 addExtension
 (
-            
 rfc2459
 .
 id_ce_subjectAltName
 subjectAlternativeName
 critical
-        
 )
     
 def
@@ -4621,8 +4613,8 @@ policyOIDs
 .
 split
 (
-"
-"
+'
+'
 )
 )
 :
@@ -4631,14 +4623,14 @@ if
 policyOID
 =
 =
-"
+'
 any
-"
+'
 :
                 
 policyOID
 =
-"
+'
 2
 .
 5
@@ -4648,7 +4640,7 @@ policyOID
 32
 .
 0
-"
+'
             
 policy
 =
@@ -4669,9 +4661,9 @@ policyOID
             
 policy
 [
-"
+'
 policyIdentifier
-"
+'
 ]
 =
 policyIdentifier
@@ -4717,10 +4709,10 @@ constraints
 .
 startswith
 (
-"
+'
 permitted
 :
-"
+'
 )
 :
             
@@ -4730,9 +4722,9 @@ subtreesTag
 )
 =
 (
-"
+'
 permittedSubtrees
-"
+'
 0
 )
         
@@ -4741,10 +4733,10 @@ constraints
 .
 startswith
 (
-"
+'
 excluded
 :
-"
+'
 )
 :
             
@@ -4754,9 +4746,9 @@ subtreesTag
 )
 =
 (
-"
+'
 excludedSubtrees
-"
+'
 1
 )
         
@@ -4786,7 +4778,6 @@ tag
 .
 Tag
 (
-                
 tag
 .
 tagClassContext
@@ -4794,9 +4785,7 @@ tag
 .
 tagFormatConstructed
 subtreesTag
-            
 )
-        
 )
         
 subtrees
@@ -4808,9 +4797,9 @@ constraints
 .
 find
 (
-"
+'
 :
-"
+'
 )
 +
 1
@@ -4828,8 +4817,8 @@ subtrees
 .
 split
 (
-"
-"
+'
+'
 )
 )
 :
@@ -4843,9 +4832,9 @@ GeneralName
 )
             
 if
-"
+'
 /
-"
+'
 in
 name
 :
@@ -4854,8 +4843,8 @@ directoryName
 =
 stringToDN
 (
-                    
 name
+                                           
 tag
 .
 Tag
@@ -4868,14 +4857,13 @@ tag
 tagFormatSimple
 4
 )
-                
 )
                 
 generalName
 [
-"
+'
 directoryName
-"
+'
 ]
 =
 directoryName
@@ -4885,9 +4873,9 @@ else
                 
 generalName
 [
-"
+'
 dNSName
-"
+'
 ]
 =
 name
@@ -4902,9 +4890,9 @@ GeneralSubtree
             
 generalSubtree
 [
-"
+'
 base
-"
+'
 ]
 =
 generalName
@@ -4948,9 +4936,9 @@ if
 certType
 !
 =
-"
+'
 sslServer
-"
+'
 :
             
 raise
@@ -4963,12 +4951,11 @@ self
 .
 addExtension
 (
-            
 univ
 .
 ObjectIdentifier
 (
-"
+'
 2
 .
 16
@@ -4982,9 +4969,8 @@ ObjectIdentifier
 1
 .
 1
-"
+'
 )
-            
 univ
 .
 BitString
@@ -4996,9 +4982,8 @@ BitString
 B
 "
 )
-            
+                          
 critical
-        
 )
     
 def
@@ -5023,12 +5008,11 @@ self
 .
 addExtension
 (
-            
 univ
 .
 ObjectIdentifier
 (
-"
+'
 1
 .
 3
@@ -5044,15 +5028,15 @@ ObjectIdentifier
 44363
 .
 44
-"
+'
 )
 univ
 .
 Null
 (
 )
+                          
 critical
-        
 )
     
 def
@@ -5067,9 +5051,9 @@ critical
 namedFeatures
 =
 {
-"
+'
 OCSPMustStaple
-"
+'
 :
 5
 }
@@ -5089,8 +5073,8 @@ features
 .
 split
 (
-"
-"
+'
+'
 )
 ]
         
@@ -5167,12 +5151,11 @@ self
 .
 addExtension
 (
-            
 univ
 .
 ObjectIdentifier
 (
-"
+'
 1
 .
 3
@@ -5190,11 +5173,11 @@ ObjectIdentifier
 1
 .
 24
-"
+'
 )
 sequence
+                          
 critical
-        
 )
     
 def
@@ -5225,8 +5208,8 @@ scts
 .
 split
 (
-"
-"
+'
+'
 )
 :
             
@@ -5236,7 +5219,7 @@ re
 .
 search
 (
-"
+'
 (
 \
 w
@@ -5250,7 +5233,7 @@ d
 8
 }
 )
-"
+'
 sctSpec
 )
             
@@ -5297,14 +5280,14 @@ group
 (
 2
 )
-"
+'
 %
 Y
 %
 m
 %
 d
-"
+'
 )
             
 tbsCertificate
@@ -5350,10 +5333,10 @@ lengthPrefix
 =
 pack
 (
-"
+'
 !
 H
-"
+'
 len
 (
 signed
@@ -5372,8 +5355,8 @@ signed
 encodedSCTBytes
 =
 b
-"
-"
+'
+'
 .
 join
 (
@@ -5384,10 +5367,10 @@ lengthPrefix
 =
 pack
 (
-"
+'
 !
 H
-"
+'
 len
 (
 encodedSCTBytes
@@ -5404,12 +5387,11 @@ self
 .
 addExtension
 (
-            
 univ
 .
 ObjectIdentifier
 (
-"
+'
 1
 .
 3
@@ -5429,18 +5411,16 @@ ObjectIdentifier
 4
 .
 2
-"
+'
 )
-            
+                          
 univ
 .
 OctetString
 (
 extensionBytes
 )
-            
 critical
-        
 )
     
 def
@@ -5477,7 +5457,6 @@ tag
 tagFormatSimple
 0
 )
-        
 )
     
 def
@@ -5532,9 +5511,9 @@ Validity
         
 validity
 [
-"
+'
 notBefore
-"
+'
 ]
 =
 self
@@ -5545,9 +5524,9 @@ getNotBefore
         
 validity
 [
-"
+'
 notAfter
-"
+'
 ]
 =
 self
@@ -5633,9 +5612,9 @@ TBSCertificate
         
 tbsCertificate
 [
-"
+'
 version
-"
+'
 ]
 =
 self
@@ -5646,9 +5625,9 @@ getVersion
         
 tbsCertificate
 [
-"
+'
 serialNumber
-"
+'
 ]
 =
 self
@@ -5659,18 +5638,18 @@ getSerialNumber
         
 tbsCertificate
 [
-"
+'
 signature
-"
+'
 ]
 =
 signatureOID
         
 tbsCertificate
 [
-"
+'
 issuer
-"
+'
 ]
 =
 self
@@ -5681,9 +5660,9 @@ getIssuer
         
 tbsCertificate
 [
-"
+'
 validity
-"
+'
 ]
 =
 self
@@ -5694,9 +5673,9 @@ getValidity
         
 tbsCertificate
 [
-"
+'
 subject
-"
+'
 ]
 =
 self
@@ -5707,11 +5686,9 @@ getSubject
         
 tbsCertificate
 [
-            
-"
+'
 subjectPublicKeyInfo
-"
-        
+'
 ]
 =
 self
@@ -5753,7 +5730,6 @@ tag
 tagFormatSimple
 3
 )
-            
 )
             
 for
@@ -5778,9 +5754,9 @@ extension
             
 tbsCertificate
 [
-"
+'
 extensions
-"
+'
 ]
 =
 extensions
@@ -5825,18 +5801,18 @@ getTBSCertificate
         
 certificate
 [
-"
+'
 tbsCertificate
-"
+'
 ]
 =
 tbsCertificate
         
 certificate
 [
-"
+'
 signatureAlgorithm
-"
+'
 ]
 =
 signatureOID
@@ -5852,9 +5828,9 @@ tbsCertificate
         
 certificate
 [
-"
+'
 signatureValue
-"
+'
 ]
 =
 self
@@ -5884,7 +5860,7 @@ self
         
 output
 =
-"
+'
 -
 -
 -
@@ -5897,7 +5873,7 @@ CERTIFICATE
 -
 -
 -
-"
+'
         
 der
 =
@@ -5928,10 +5904,10 @@ b64
 output
 +
 =
-"
+'
 \
 n
-"
+'
 +
 b64
 [
@@ -5950,7 +5926,7 @@ b64
 output
 +
 =
-"
+'
 \
 n
 -
@@ -5965,7 +5941,7 @@ CERTIFICATE
 -
 -
 -
-"
+'
         
 return
 output
@@ -5999,18 +5975,18 @@ toPEM
 (
 )
 +
-"
+'
 \
 n
-"
+'
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 print

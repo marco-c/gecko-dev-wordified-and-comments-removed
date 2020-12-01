@@ -30,11 +30,11 @@ logging
 .
 getLogger
 (
-"
+'
 upload
 -
 symbols
-"
+'
 )
 log
 .
@@ -46,7 +46,7 @@ INFO
 )
 DEFAULT_URL
 =
-"
+'
 https
 :
 /
@@ -59,7 +59,7 @@ org
 /
 upload
 /
-"
+'
 MAX_RETRIES
 =
 7
@@ -82,7 +82,7 @@ log
 .
 error
 (
-"
+'
 Error
 :
 bad
@@ -98,13 +98,14 @@ token
 1
 }
 )
-"
+'
 .
 format
 (
 r
 .
 status_code
+                                                             
 r
 .
 reason
@@ -118,7 +119,7 @@ log
 .
 error
 (
-"
+'
 Error
 :
 got
@@ -131,13 +132,14 @@ response
 {
 1
 }
-"
+'
 .
 format
 (
 r
 .
 status_code
+                                                             
 r
 .
 reason
@@ -148,8 +150,7 @@ log
 .
 error
 (
-        
-"
+'
 Response
 body
 :
@@ -170,24 +171,26 @@ sep
 }
 \
 n
-"
+'
 .
 format
 (
+        
 sep
 =
-"
+'
 =
-"
+'
 *
 20
+        
 body
 =
 r
 .
 text
+        
 )
-    
 )
 def
 get_taskcluster_secret
@@ -198,7 +201,7 @@ secret_name
     
 secrets_url
 =
-"
+'
 http
 :
 /
@@ -213,7 +216,7 @@ secret
 /
 {
 }
-"
+'
 .
 format
 (
@@ -245,7 +248,6 @@ format
 (
 secrets_url
 )
-    
 )
     
 res
@@ -275,14 +277,14 @@ auth_token
 =
 secret
 [
-"
+'
 secret
-"
+'
 ]
 [
-"
+'
 token
-"
+'
 ]
     
 return
@@ -322,7 +324,7 @@ ArgumentParser
         
 description
 =
-"
+'
 Upload
 symbols
 in
@@ -334,21 +336,20 @@ Taskcluster
 secrets
 service
 .
-"
-    
+'
 )
     
 parser
 .
 add_argument
 (
-        
-"
+'
 archive
-"
+'
+                        
 help
 =
-"
+'
 Symbols
 archive
 file
@@ -359,37 +360,36 @@ path
 to
 local
 file
-"
-    
+'
 )
     
 parser
 .
 add_argument
 (
-        
-"
+'
 -
 -
 ignore
 -
 missing
-"
+'
+                        
 help
 =
-"
+'
 No
 error
 on
 missing
 files
-"
+'
+                        
 action
 =
-"
+'
 store_true
-"
-    
+'
 )
     
 args
@@ -468,13 +468,13 @@ log
 .
 error
 (
-"
+'
 Error
 :
 {
 0
 }
-"
+'
 .
 format
 (
@@ -486,12 +486,12 @@ log
 .
 info
 (
-"
+'
 Retrying
 .
 .
 .
-"
+'
 )
         
 return
@@ -510,12 +510,12 @@ archive
 .
 endswith
 (
-"
+'
 .
 tar
 .
 zst
-"
+'
 )
 :
         
@@ -564,9 +564,9 @@ archive
 .
 startswith
 (
-"
+'
 http
-"
+'
 )
 :
                 
@@ -604,17 +604,17 @@ headers
 .
 get
 (
-"
+'
 Content
 -
 Encoding
-"
+'
 )
 =
 =
-"
+'
 gzip
-"
+'
 :
                     
 reader
@@ -636,9 +636,9 @@ reader
 open
 (
 archive
-"
+'
 rb
-"
+'
 )
             
 ctx
@@ -663,13 +663,12 @@ tarfile
 .
 open
 (
-                
 mode
 =
-"
+'
 r
 |
-"
+'
 fileobj
 =
 uncompressed
@@ -678,7 +677,6 @@ bufsize
 1024
 *
 1024
-            
 )
 as
 tar
@@ -737,9 +735,9 @@ name
 .
 lstrip
 (
-"
+'
 /
-"
+'
 )
 )
                     
@@ -750,10 +748,10 @@ name
 .
 endswith
 (
-"
+'
 .
 dbg
-"
+'
 )
 :
                         
@@ -778,9 +776,9 @@ with
 open
 (
 path
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -791,19 +789,17 @@ gzip
 .
 GzipFile
 (
-                                
 fileobj
 =
 fh
 mode
 =
-"
+'
 wb
-"
+'
 compresslevel
 =
 5
-                            
 )
 as
 c
@@ -825,10 +821,10 @@ info
 .
 name
 +
-"
+'
 .
 gz
-"
+'
 File
 (
 path
@@ -845,12 +841,12 @@ name
 .
 endswith
 (
-"
+'
 .
 dSYM
 .
 tar
-"
+'
 )
 :
                         
@@ -878,9 +874,9 @@ with
 open
 (
 path
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -945,10 +941,10 @@ info
 .
 name
 +
-"
+'
 .
 bz2
-"
+'
 File
 (
 path
@@ -966,18 +962,18 @@ name
 endswith
 (
 (
-"
+'
 .
 pdb
-"
-"
+'
+'
 .
 exe
-"
-"
+'
+'
 .
 dll
-"
+'
 )
 )
 :
@@ -993,12 +989,12 @@ environ
 .
 get
 (
-"
+'
 MAKECAB
-"
-"
+'
+'
 makecab
-"
+'
 )
                         
 os
@@ -1022,9 +1018,9 @@ with
 open
 (
 path
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -1045,21 +1041,21 @@ check_call
                             
 [
 makecab
-"
+'
 -
 D
-"
-"
+'
+'
 CompressionType
 =
 MSZIP
-"
+'
 path
 path
 +
-"
+'
 _
-"
+'
 ]
                             
 stdout
@@ -1073,7 +1069,6 @@ stderr
 subprocess
 .
 STDOUT
-                        
 )
                         
 jar
@@ -1089,16 +1084,16 @@ name
 1
 ]
 +
-"
+'
 _
-"
+'
 File
 (
 path
 +
-"
+'
 _
-"
+'
 )
 compress
 =
@@ -1143,18 +1138,17 @@ join
 tmpdir
 .
 name
-"
+'
 symbols
 .
 zip
-"
+'
 )
         
 log
 .
 info
 (
-            
 '
 Preparing
 symbol
@@ -1179,7 +1173,6 @@ args
 .
 archive
 )
-        
 )
         
 is_existing
@@ -1254,13 +1247,13 @@ log
 .
 error
 (
-"
+'
 Error
 :
 {
 0
 }
-"
+'
 .
 format
 (
@@ -1272,12 +1265,12 @@ log
 .
 info
 (
-"
+'
 Retrying
 .
 .
 .
-"
+'
 )
         
 except
@@ -1300,9 +1293,9 @@ archive
 .
 startswith
 (
-"
+'
 http
-"
+'
 )
 :
         
@@ -1413,9 +1406,9 @@ environ
 .
 get
 (
-"
+'
 SYMBOL_SECRET
-"
+'
 )
     
 if
@@ -1433,9 +1426,9 @@ secret_name
 )
     
 elif
-"
+'
 SOCORRO_SYMBOL_UPLOAD_TOKEN_FILE
-"
+'
 in
 os
 .
@@ -1448,9 +1441,9 @@ os
 .
 environ
 [
-"
+'
 SOCORRO_SYMBOL_UPLOAD_TOKEN_FILE
-"
+'
 ]
         
 if
@@ -1469,7 +1462,6 @@ log
 .
 error
 (
-                
 '
 SOCORRO_SYMBOL_UPLOAD_TOKEN_FILE
 "
@@ -1485,11 +1477,8 @@ exist
 .
 format
 (
-                    
 token_file
-                
 )
-            
 )
             
 return
@@ -1500,9 +1489,9 @@ auth_token
 open
 (
 token_file
-"
+'
 r
-"
+'
 )
 .
 read
@@ -1520,8 +1509,7 @@ log
 .
 error
 (
-            
-"
+'
 You
 must
 set
@@ -1529,23 +1517,22 @@ the
 SYMBOL_SECRET
 or
 SOCORRO_SYMBOL_UPLOAD_TOKEN_FILE
-"
-            
-"
+'
+                  
+'
 environment
 variables
 !
-"
-        
+'
 )
         
 return
 1
     
 if
-"
+'
 SOCORRO_SYMBOL_UPLOAD_URL
-"
+'
 in
 os
 .
@@ -1558,9 +1545,9 @@ os
 .
 environ
 [
-"
+'
 SOCORRO_SYMBOL_UPLOAD_URL
-"
+'
 ]
     
 else
@@ -1622,7 +1609,7 @@ log
 .
 info
 (
-"
+'
 Attempt
 %
 d
@@ -1632,7 +1619,7 @@ d
 .
 .
 .
-"
+'
 %
 (
 i
@@ -1648,23 +1635,23 @@ zip_path
 .
 startswith
 (
-"
+'
 http
-"
+'
 )
 :
                 
 zip_arg
 =
 {
-"
+'
 data
-"
+'
 :
 {
-"
+'
 url
-"
+'
 :
 zip_path
 }
@@ -1676,23 +1663,23 @@ else
 zip_arg
 =
 {
-"
+'
 files
-"
+'
 :
 {
-"
+'
 symbols
 .
 zip
-"
+'
 :
 open
 (
 zip_path
-"
+'
 rb
-"
+'
 )
 }
 }
@@ -1709,11 +1696,11 @@ url
 headers
 =
 {
-"
+'
 Auth
 -
 Token
-"
+'
 :
 auth_token
 }
@@ -1732,7 +1719,6 @@ timeout
 *
 *
 zip_arg
-            
 )
             
 if
@@ -1777,13 +1763,13 @@ log
 .
 error
 (
-"
+'
 Error
 :
 {
 0
 }
-"
+'
 .
 format
 (
@@ -1795,12 +1781,12 @@ log
 .
 info
 (
-"
+'
 Retrying
 .
 .
 .
-"
+'
 )
     
 else
@@ -1810,14 +1796,14 @@ log
 .
 warn
 (
-"
+'
 Maximum
 retries
 hit
 giving
 up
 !
-"
+'
 )
         
 return
@@ -1842,11 +1828,11 @@ log
 .
 info
 (
-"
+'
 Uploaded
 successfully
 !
-"
+'
 )
         
 return
@@ -1863,9 +1849,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 sys

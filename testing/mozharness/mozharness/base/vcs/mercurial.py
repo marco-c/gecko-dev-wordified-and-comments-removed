@@ -100,6 +100,7 @@ path
 .
 dirname
 (
+                
 sys
 .
 path
@@ -144,19 +145,19 @@ __file__
 )
 )
     
-"
+'
 external_tools
-"
+'
 )
 HG_OPTIONS
 =
 [
-"
+'
 -
 -
 config
-"
-"
+'
+'
 ui
 .
 merge
@@ -164,7 +165,7 @@ merge
 internal
 :
 merge
-"
+'
 ]
 REVISION
 BRANCH
@@ -206,7 +207,7 @@ re
 .
 compile
 (
-"
+'
 ^
 updated
 to
@@ -222,7 +223,7 @@ f0
 40
 }
 )
-"
+'
 )
     
 def
@@ -263,6 +264,7 @@ return
 super
 (
 RepositoryUpdateRevisionParser
+                     
 self
 )
 .
@@ -277,12 +279,13 @@ hg_host
 repo_path
 protocol
 =
-"
+'
 http
-"
+'
 revision
 =
 None
+                
 filename
 =
 None
@@ -326,7 +329,7 @@ filename
     
 base
 =
-"
+'
 %
 s
 :
@@ -334,7 +337,7 @@ s
 /
 %
 s
-"
+'
 %
 (
 protocol
@@ -343,9 +346,9 @@ hg_host
     
 repo
 =
-"
+'
 /
-"
+'
 .
 join
 (
@@ -353,9 +356,9 @@ p
 .
 strip
 (
-"
+'
 /
-"
+'
 )
 for
 p
@@ -383,9 +386,9 @@ else
 :
             
 return
-"
+'
 /
-"
+'
 .
 join
 (
@@ -394,18 +397,18 @@ p
 .
 strip
 (
-"
+'
 /
-"
+'
 )
 for
 p
 in
 [
 repo
-"
+'
 rev
-"
+'
 revision
 ]
 ]
@@ -418,9 +421,9 @@ assert
 revision
         
 return
-"
+'
 /
-"
+'
 .
 join
 (
@@ -429,20 +432,21 @@ p
 .
 strip
 (
-"
+'
 /
-"
+'
 )
+                         
 for
 p
 in
 [
 repo
-"
+'
 raw
 -
 file
-"
+'
 revision
 filename
 ]
@@ -470,6 +474,7 @@ None
 vcs_config
 =
 None
+                 
 script_obj
 =
 None
@@ -649,16 +654,16 @@ repo
 .
 rstrip
 (
-"
+'
 /
-"
+'
 )
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -757,19 +762,19 @@ self
 hg
 +
 [
-"
+'
 parent
-"
-"
+'
+'
 -
 -
 template
-"
-"
+'
+'
 {
 node
 }
-"
+'
 ]
 cwd
 =
@@ -796,9 +801,9 @@ self
 hg
 +
 [
-"
+'
 branch
-"
+'
 ]
 cwd
 =
@@ -835,24 +840,23 @@ self
 .
 get_output_from_command
 (
-            
 self
 .
 hg
 +
 [
-"
+'
 branches
-"
-"
+'
+'
 -
 c
-"
+'
 ]
+                                                 
 cwd
 =
 path
-        
 )
 .
 splitlines
@@ -918,13 +922,13 @@ self
 hg
 +
 [
-"
+'
 -
 q
-"
-"
+'
+'
 version
-"
+'
 ]
 )
         
@@ -1174,17 +1178,17 @@ self
 hg
 +
 [
-"
+'
 update
-"
-"
+'
+'
 -
 C
-"
-"
+'
+'
 -
 r
-"
+'
 revision
 ]
             
@@ -1206,6 +1210,7 @@ HgErrorList
 raise
 VCSException
 (
+                    
 "
 Unable
 to
@@ -1218,6 +1223,7 @@ s
 !
 "
 %
+                    
 (
 dest
 revision
@@ -1243,13 +1249,13 @@ self
 hg
 +
 [
-"
+'
 update
-"
-"
+'
+'
 -
 C
-"
+'
 ]
             
 if
@@ -1538,9 +1544,9 @@ self
 hg
 +
 [
-"
+'
 clone
-"
+'
 ]
         
 if
@@ -1552,10 +1558,10 @@ cmd
 .
 append
 (
-"
+'
 -
 U
-"
+'
 )
         
 if
@@ -1567,10 +1573,10 @@ cmd
 extend
 (
 [
-"
+'
 -
 r
-"
+'
 revision
 ]
 )
@@ -1603,10 +1609,10 @@ cmd
 extend
 (
 [
-"
+'
 -
 b
-"
+'
 branch
 ]
 )
@@ -1629,10 +1635,10 @@ config
 .
 get
 (
-            
 "
 vcs_output_timeout
 "
+                                         
 self
 .
 vcs_config
@@ -1643,12 +1649,9 @@ get
 output_timeout
 "
 )
-        
 )
         
 if
-(
-            
 self
 .
 run_command
@@ -1657,16 +1660,14 @@ cmd
 error_list
 =
 HgErrorList
+                            
 output_timeout
 =
 output_timeout
 )
-            
 !
 =
 0
-        
-)
 :
             
 raise
@@ -1717,6 +1718,7 @@ None
 ssh_username
 =
 None
+                    
 ssh_key
 =
 None
@@ -1762,13 +1764,13 @@ ssh_key
 opt
 =
 [
-"
+'
 -
 e
-"
-"
+'
+'
 ssh
-"
+'
 ]
             
 if
@@ -1781,12 +1783,12 @@ opt
 ]
 +
 =
-"
+'
 -
 l
 %
 s
-"
+'
 %
 ssh_username
             
@@ -1800,12 +1802,12 @@ opt
 ]
 +
 =
-"
+'
 -
 i
 %
 s
-"
+'
 %
 ssh_key
             
@@ -1825,10 +1827,10 @@ args
 extend
 (
 [
-"
+'
 -
 r
-"
+'
 revision
 ]
 )
@@ -1857,10 +1859,10 @@ args
 extend
 (
 [
-"
+'
 -
 b
-"
+'
 branch
 ]
 )
@@ -2038,9 +2040,9 @@ self
 hg
 +
 [
-"
+'
 pull
-"
+'
 ]
         
 cmd
@@ -2072,10 +2074,10 @@ config
 .
 get
 (
-            
 "
 vcs_output_timeout
 "
+                                         
 self
 .
 vcs_config
@@ -2086,17 +2088,13 @@ get
 output_timeout
 "
 )
-        
 )
         
 if
-(
-            
 self
 .
 run_command
 (
-                
 cmd
 cwd
 =
@@ -2104,17 +2102,14 @@ dest
 error_list
 =
 HgErrorList
+                            
 output_timeout
 =
 output_timeout
-            
 )
-            
 !
 =
 0
-        
-)
 :
             
 raise
@@ -2146,9 +2141,9 @@ vcs_config
 .
 get
 (
-"
+'
 branch
-"
+'
 )
             
 revision
@@ -2159,9 +2154,9 @@ vcs_config
 .
 get
 (
-"
+'
 revision
-"
+'
 )
             
 return
@@ -2209,6 +2204,7 @@ self
 .
 info
 (
+            
 "
 Checking
 for
@@ -2223,6 +2219,7 @@ s
 .
 "
 %
+            
 (
 src
 remote
@@ -2236,19 +2233,19 @@ self
 hg
 +
 [
-"
+'
 -
 q
-"
-"
+'
+'
 out
-"
-"
+'
+'
 -
 -
 template
-"
-"
+'
+'
 {
 node
 }
@@ -2257,7 +2254,7 @@ branches
 }
 \
 n
-"
+'
 ]
         
 cmd
@@ -2303,12 +2300,11 @@ revs
 for
 line
 in
-(
-                    
 self
 .
 get_output_from_command
 (
+                        
 cmd
 cwd
 =
@@ -2317,12 +2313,10 @@ throw_exception
 =
 True
 )
-                    
 .
 rstrip
 (
 )
-                    
 .
 split
 (
@@ -2330,8 +2324,6 @@ split
 \
 n
 "
-)
-                
 )
 :
                     
@@ -2446,9 +2438,9 @@ self
 hg
 +
 [
-"
+'
 push
-"
+'
 ]
         
 cmd
@@ -2486,13 +2478,13 @@ cmd
 .
 append
 (
-"
+'
 -
 -
 new
 -
 branch
-"
+'
 )
         
 cmd
@@ -2508,30 +2500,25 @@ self
 .
 run_command
 (
-            
 cmd
-            
 cwd
 =
 src
-            
 error_list
 =
 HgErrorList
-            
 success_codes
 =
 (
 0
 1
 )
-            
+                                  
 return_type
 =
 "
 num_errors
 "
-        
 )
         
 if
@@ -2594,11 +2581,11 @@ path
 join
 (
 external_tools_path
-"
+'
 robustcheckout
 .
 py
-"
+'
 )
         
 if
@@ -2670,18 +2657,18 @@ dest
 =
 c
 [
-"
+'
 dest
-"
+'
 ]
         
 repo_url
 =
 c
 [
-"
+'
 repo
-"
+'
 ]
         
 rev
@@ -2690,9 +2677,9 @@ c
 .
 get
 (
-"
+'
 revision
-"
+'
 )
         
 branch
@@ -2701,9 +2688,9 @@ c
 .
 get
 (
-"
+'
 branch
-"
+'
 )
         
 purge
@@ -2712,9 +2699,9 @@ c
 .
 get
 (
-"
+'
 clone_with_purge
-"
+'
 False
 )
         
@@ -2724,9 +2711,9 @@ c
 .
 get
 (
-"
+'
 clone_upstream_url
-"
+'
 )
         
 if
@@ -2741,6 +2728,7 @@ self
 .
 warning
 (
+                
 '
 did
 not
@@ -2758,9 +2746,9 @@ default
             
 branch
 =
-"
+'
 default
-"
+'
         
 share_base
 =
@@ -2768,9 +2756,9 @@ c
 .
 get
 (
-"
+'
 vcs_share_base
-"
+'
 )
 or
 os
@@ -2779,9 +2767,10 @@ environ
 .
 get
 (
-"
+            
+'
 HG_SHARE_BASE_DIR
-"
+'
 )
         
 if
@@ -2791,9 +2780,9 @@ c
 .
 get
 (
-"
+'
 use_vcs_unique_share
-"
+'
 )
 :
             
@@ -2805,6 +2794,7 @@ path
 .
 join
 (
+                
 share_base
 hashlib
 .
@@ -2826,24 +2816,23 @@ share_base
 raise
 VCSException
 (
-                
-"
+'
 vcs
 share
 base
 not
 defined
 ;
-"
-"
+'
+                               
+'
 refusing
 to
 operate
 sub
 -
 optimally
-"
-            
+'
 )
         
 if
@@ -2856,7 +2845,8 @@ robustcheckout_path
 raise
 VCSException
 (
-"
+                
+'
 could
 not
 find
@@ -2864,7 +2854,7 @@ the
 robustcheckout
 Mercurial
 extension
-"
+'
 )
         
 self
@@ -2876,11 +2866,11 @@ self
 hg
 +
 [
-"
+'
 -
 -
 version
-"
+'
 ]
 )
         
@@ -2892,11 +2882,12 @@ self
 .
 hg
 +
+                         
 [
-"
+'
 debuginstall
-"
-"
+'
+'
 -
 -
 config
@@ -2906,7 +2897,7 @@ ui
 username
 =
 worker
-"
+'
 ]
 )
         
@@ -2918,39 +2909,34 @@ hg
 +
 [
             
-"
+'
 -
 -
 config
-"
-            
-"
+'
+'
 extensions
 .
 robustcheckout
 =
 %
 s
-"
+'
 %
 self
 .
 robustcheckout_path
             
-"
+'
 robustcheckout
-"
-            
+'
 repo_url
-            
 dest
-            
-"
+'
 -
 -
 sharebase
-"
-            
+'
 share_base
         
 ]
@@ -2963,11 +2949,11 @@ args
 .
 append
 (
-"
+'
 -
 -
 purge
-"
+'
 )
         
 if
@@ -2979,11 +2965,11 @@ args
 extend
 (
 [
-"
+'
 -
 -
 upstream
-"
+'
 upstream
 ]
 )
@@ -2997,11 +2983,11 @@ args
 extend
 (
 [
-"
+'
 -
 -
 revision
-"
+'
 rev
 ]
 )
@@ -3015,11 +3001,11 @@ args
 extend
 (
 [
-"
+'
 -
 -
 branch
-"
+'
 branch
 ]
 )
@@ -3028,18 +3014,17 @@ parser
 =
 RepositoryUpdateRevisionParser
 (
-            
 config
 =
 self
 .
 config
+                                                
 log_obj
 =
 self
 .
 log_obj
-        
 )
         
 if
@@ -3057,12 +3042,12 @@ parser
 raise
 VCSException
 (
-"
+'
 repo
 checkout
 failed
 !
-"
+'
 )
         
 if
@@ -3075,14 +3060,14 @@ revision
 raise
 VCSException
 (
-"
+'
 could
 not
 identify
 revision
 updated
 to
-"
+'
 )
         
 return
@@ -3105,6 +3090,7 @@ self
 .
 info
 (
+            
 "
 Wiping
 outgoing
@@ -3119,6 +3105,7 @@ s
 .
 "
 %
+            
 (
 reponame
 remote
@@ -3131,20 +3118,19 @@ self
 .
 out
 (
-            
 src
 =
 reponame
 remote
 =
 remote
+                                
 ssh_username
 =
 username
 ssh_key
 =
 sshKey
-        
 )
         
 for
@@ -3160,33 +3146,30 @@ self
 .
 run_command
 (
-                
 self
 .
 hg
 +
 [
-"
+'
 strip
-"
-"
+'
+'
 -
 n
-"
+'
 r
 [
 REVISION
 ]
 ]
-                
+                             
 cwd
 =
 reponame
-                
 error_list
 =
 HgErrorList
-            
 )
     
 def
@@ -3253,16 +3236,16 @@ PushInfo
 =
 namedtuple
 (
-"
+'
 PushInfo
-"
+'
 [
-"
+'
 pushid
-"
-"
+'
+'
 pushdate
-"
+'
 ]
 )
         
@@ -3271,7 +3254,7 @@ try
             
 url
 =
-"
+'
 %
 s
 /
@@ -3283,7 +3266,7 @@ changeset
 =
 %
 s
-"
+'
 %
 (
 repository
@@ -3294,14 +3277,14 @@ self
 .
 info
 (
-"
+'
 Pushdate
 URL
 is
 :
 %
 s
-"
+'
 %
 url
 )
@@ -3337,13 +3320,13 @@ self
 .
 info
 (
-"
+'
 Pushid
 is
 :
 %
 s
-"
+'
 %
 pushid
 )
@@ -3355,22 +3338,22 @@ contents
 pushid
 ]
 [
-"
+'
 date
-"
+'
 ]
             
 self
 .
 info
 (
-"
+'
 Pushdate
 is
 :
 %
 s
-"
+'
 %
 pushdate
 )
@@ -3410,9 +3393,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 pass

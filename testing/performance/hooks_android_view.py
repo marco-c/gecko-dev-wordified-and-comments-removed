@@ -55,7 +55,6 @@ com
 COMMON_OPTIONS
 =
 [
-    
 (
 "
 processStartTime
@@ -64,7 +63,7 @@ processStartTime
 true
 "
 )
-    
+                  
 (
 "
 firefox
@@ -75,7 +74,7 @@ disableBrowsertimeExtension
 true
 "
 )
-    
+                  
 (
 "
 firefox
@@ -91,7 +90,7 @@ a
 '
 "
 )
-    
+                  
 (
 "
 firefox
@@ -112,7 +111,7 @@ VIEW
 '
 "
 )
-    
+                  
 (
 "
 firefox
@@ -128,7 +127,7 @@ d
 '
 "
 )
-    
+                  
 (
 "
 firefox
@@ -195,6 +194,7 @@ android_install_apk
 )
     
 if
+(
 len
 (
 install_list
@@ -203,9 +203,9 @@ install_list
 =
 0
 or
+        
 all
 (
-        
 [
 "
 fenix_nightlysim_multicommit
@@ -218,7 +218,7 @@ apk
 in
 install_list
 ]
-    
+)
 )
 :
         
@@ -267,8 +267,8 @@ max_count
 None
 message
 =
-"
-"
+'
+'
 )
 :
             
@@ -302,7 +302,7 @@ Repo
 clone_from
 (
         
-"
+'
 https
 :
 /
@@ -316,7 +316,7 @@ mozilla
 mobile
 /
 fenix
-"
+'
         
 tempfile
 .
@@ -326,9 +326,9 @@ mkdtemp
         
 branch
 =
-"
+'
 master
-"
+'
         
 progress
 =
@@ -340,8 +340,6 @@ _GitProgress
     
 architecture
 =
-(
-        
 "
 arm64
 -
@@ -367,13 +365,10 @@ armeabi
 v7a
 "
     
-)
-    
 json_
 =
 _fetch_json
 (
-        
 get_revision_namespace_url
 NIGHTLY_SIM_ROUTE
 day
@@ -384,7 +379,6 @@ kw
 test_date
 "
 ]
-    
 )
     
 namespaces
@@ -464,7 +458,6 @@ json_
 =
 _fetch_json
 (
-            
 get_multi_tasks_url
 NIGHTLY_SIM_ROUTE
 revision
@@ -476,7 +469,6 @@ kw
 test_date
 "
 ]
-        
 )
         
 for
@@ -525,27 +517,26 @@ tasks
 .
 append
 (
-                    
 {
-                        
+                    
 "
 timestamp
 "
 :
 commitdate
-                        
+                    
 "
 revision
 "
 :
 revision
-                        
+                    
 "
 route
 "
 :
 route
-                        
+                    
 "
 route_suffix
 "
@@ -554,15 +545,12 @@ ROUTE_SUFFIX
 .
 format
 (
-                            
 architecture
 =
 task_architecture
-                        
 )
-                    
-}
                 
+}
 )
     
 kw

@@ -112,20 +112,20 @@ traversal
 .
 add
 (
-"
-"
+'
+'
 dirs
 =
 [
-"
+'
 A
-"
-"
+'
+'
 B
-"
-"
+'
+'
 C
-"
+'
 ]
 )
         
@@ -133,14 +133,14 @@ traversal
 .
 add
 (
-"
-"
+'
+'
 dirs
 =
 [
-"
+'
 D
-"
+'
 ]
 )
         
@@ -148,27 +148,27 @@ traversal
 .
 add
 (
-"
+'
 A
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 B
-"
+'
 dirs
 =
 [
-"
+'
 E
-"
-"
+'
+'
 F
-"
+'
 ]
 )
         
@@ -176,18 +176,18 @@ traversal
 .
 add
 (
-"
+'
 C
-"
+'
 dirs
 =
 [
-"
+'
 G
-"
-"
+'
+'
 H
-"
+'
 ]
 )
         
@@ -195,18 +195,18 @@ traversal
 .
 add
 (
-"
+'
 D
-"
+'
 dirs
 =
 [
-"
+'
 I
-"
-"
+'
+'
 K
-"
+'
 ]
 )
         
@@ -214,18 +214,18 @@ traversal
 .
 add
 (
-"
+'
 D
-"
+'
 dirs
 =
 [
-"
+'
 J
-"
-"
+'
+'
 L
-"
+'
 ]
 )
         
@@ -233,54 +233,54 @@ traversal
 .
 add
 (
-"
+'
 E
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 F
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 G
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 H
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 I
-"
+'
 dirs
 =
 [
-"
+'
 M
-"
-"
+'
+'
 N
-"
+'
 ]
 )
         
@@ -288,18 +288,18 @@ traversal
 .
 add
 (
-"
+'
 J
-"
+'
 dirs
 =
 [
-"
+'
 O
-"
-"
+'
+'
 P
-"
+'
 ]
 )
         
@@ -307,18 +307,18 @@ traversal
 .
 add
 (
-"
+'
 K
-"
+'
 dirs
 =
 [
-"
+'
 Q
-"
-"
+'
+'
 R
-"
+'
 ]
 )
         
@@ -326,15 +326,15 @@ traversal
 .
 add
 (
-"
+'
 L
-"
+'
 dirs
 =
 [
-"
+'
 S
-"
+'
 ]
 )
         
@@ -342,24 +342,24 @@ traversal
 .
 add
 (
-"
+'
 M
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 N
-"
+'
 dirs
 =
 [
-"
+'
 T
-"
+'
 ]
 )
         
@@ -367,24 +367,24 @@ traversal
 .
 add
 (
-"
+'
 O
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 P
-"
+'
 dirs
 =
 [
-"
+'
 U
-"
+'
 ]
 )
         
@@ -392,24 +392,24 @@ traversal
 .
 add
 (
-"
+'
 Q
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 R
-"
+'
 dirs
 =
 [
-"
+'
 V
-"
+'
 ]
 )
         
@@ -417,15 +417,15 @@ traversal
 .
 add
 (
-"
+'
 S
-"
+'
 dirs
 =
 [
-"
+'
 W
-"
+'
 ]
 )
         
@@ -433,42 +433,42 @@ traversal
 .
 add
 (
-"
+'
 T
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 U
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 V
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 W
-"
+'
 dirs
 =
 [
-"
+'
 X
-"
+'
 ]
 )
         
@@ -476,9 +476,9 @@ traversal
 .
 add
 (
-"
+'
 X
-"
+'
 )
         
 parallels
@@ -486,33 +486,33 @@ parallels
 set
 (
 (
-"
+'
 G
-"
-"
+'
+'
 H
-"
-"
+'
+'
 I
-"
-"
+'
+'
 J
-"
-"
+'
+'
 O
-"
-"
+'
+'
 P
-"
-"
+'
+'
 Q
-"
-"
+'
+'
 R
-"
-"
+'
+'
 U
-"
+'
 )
 )
         
@@ -526,9 +526,7 @@ subdirs
             
 return
 (
-                
 current
-                
 [
 d
 for
@@ -542,7 +540,7 @@ d
 in
 parallels
 ]
-                
+                    
 [
 d
 for
@@ -557,7 +555,6 @@ not
 in
 parallels
 ]
-            
 )
         
 start
@@ -576,9 +573,9 @@ assertEqual
 (
 start
 (
-"
+'
 X
-"
+'
 )
 )
         
@@ -592,386 +589,357 @@ self
 .
 assertEqual
 (
-            
 deps
-            
 {
-                
-"
+            
+'
 A
-"
+'
 :
 (
-"
-"
-)
-                
-"
-B
-"
-:
-(
-"
-A
-"
-)
-                
-"
-C
-"
-:
-(
-"
-F
-"
-)
-                
-"
-D
-"
-:
-(
-"
-G
-"
-"
-H
-"
-)
-                
-"
-E
-"
-:
-(
-"
-B
-"
-)
-                
-"
-F
-"
-:
-(
-"
-E
-"
-)
-                
-"
-G
-"
-:
-(
-"
-C
-"
-)
-                
-"
-H
-"
-:
-(
-"
-C
-"
-)
-                
-"
-I
-"
-:
-(
-"
-D
-"
-)
-                
-"
-J
-"
-:
-(
-"
-D
-"
-)
-                
-"
-K
-"
-:
-(
-"
-T
-"
-"
-O
-"
-"
-U
-"
-)
-                
-"
-L
-"
-:
-(
-"
-Q
-"
-"
-V
-"
-)
-                
-"
-M
-"
-:
-(
-"
-I
-"
-)
-                
-"
-N
-"
-:
-(
-"
-M
-"
-)
-                
-"
-O
-"
-:
-(
-"
-J
-"
-)
-                
-"
-P
-"
-:
-(
-"
-J
-"
-)
-                
-"
-Q
-"
-:
-(
-"
-K
-"
-)
-                
-"
-R
-"
-:
-(
-"
-K
-"
-)
-                
-"
-S
-"
-:
-(
-"
-L
-"
-)
-                
-"
-T
-"
-:
-(
-"
-N
-"
-)
-                
-"
-U
-"
-:
-(
-"
-P
-"
-)
-                
-"
-V
-"
-:
-(
-"
-R
-"
-)
-                
-"
-W
-"
-:
-(
-"
-S
-"
-)
-                
-"
-X
-"
-:
-(
-"
-W
-"
+'
+'
 )
             
+'
+B
+'
+:
+(
+'
+A
+'
+)
+            
+'
+C
+'
+:
+(
+'
+F
+'
+)
+            
+'
+D
+'
+:
+(
+'
+G
+'
+'
+H
+'
+)
+            
+'
+E
+'
+:
+(
+'
+B
+'
+)
+            
+'
+F
+'
+:
+(
+'
+E
+'
+)
+            
+'
+G
+'
+:
+(
+'
+C
+'
+)
+            
+'
+H
+'
+:
+(
+'
+C
+'
+)
+            
+'
+I
+'
+:
+(
+'
+D
+'
+)
+            
+'
+J
+'
+:
+(
+'
+D
+'
+)
+            
+'
+K
+'
+:
+(
+'
+T
+'
+'
+O
+'
+'
+U
+'
+)
+            
+'
+L
+'
+:
+(
+'
+Q
+'
+'
+V
+'
+)
+            
+'
+M
+'
+:
+(
+'
+I
+'
+)
+            
+'
+N
+'
+:
+(
+'
+M
+'
+)
+            
+'
+O
+'
+:
+(
+'
+J
+'
+)
+            
+'
+P
+'
+:
+(
+'
+J
+'
+)
+            
+'
+Q
+'
+:
+(
+'
+K
+'
+)
+            
+'
+R
+'
+:
+(
+'
+K
+'
+)
+            
+'
+S
+'
+:
+(
+'
+L
+'
+)
+            
+'
+T
+'
+:
+(
+'
+N
+'
+)
+            
+'
+U
+'
+:
+(
+'
+P
+'
+)
+            
+'
+V
+'
+:
+(
+'
+R
+'
+)
+            
+'
+W
+'
+:
+(
+'
+S
+'
+)
+            
+'
+X
+'
+:
+(
+'
+W
+'
+)
+        
 }
-        
 )
         
 self
 .
 assertEqual
 (
-            
 list
 (
 traversal
 .
 traverse
 (
-"
-"
+'
+'
 filter
 )
 )
-            
+                         
 [
-                
-"
-"
-                
-"
+'
+'
+'
 A
-"
-                
-"
+'
+'
 B
-"
-                
-"
+'
+'
 E
-"
-                
-"
+'
+'
 F
-"
-                
-"
+'
+'
 C
-"
-                
-"
+'
+'
 G
-"
-                
-"
+'
+'
 H
-"
-                
-"
+'
+'
 D
-"
-                
-"
+'
+'
 I
-"
-                
-"
+'
+                          
+'
 M
-"
-                
-"
+'
+'
 N
-"
-                
-"
+'
+'
 T
-"
-                
-"
+'
+'
 J
-"
-                
-"
+'
+'
 O
-"
-                
-"
+'
+'
 P
-"
-                
-"
+'
+'
 U
-"
-                
-"
+'
+'
 K
-"
-                
-"
+'
+'
 Q
-"
-                
-"
+'
+'
 R
-"
-                
-"
+'
+                          
+'
 V
-"
-                
-"
+'
+'
 L
-"
-                
-"
+'
+'
 S
-"
-                
-"
+'
+'
 W
-"
-                
-"
+'
+'
 X
-"
-            
+'
 ]
-        
 )
         
 self
@@ -984,22 +952,23 @@ traversal
 .
 traverse
 (
-"
+'
 C
-"
+'
 filter
 )
 )
+                         
 [
-"
+'
 C
-"
-"
+'
+'
 G
-"
-"
+'
+'
 H
-"
+'
 ]
 )
     
@@ -1020,20 +989,20 @@ traversal
 .
 add
 (
-"
-"
+'
+'
 dirs
 =
 [
-"
+'
 A
-"
-"
+'
+'
 B
-"
-"
+'
+'
 C
-"
+'
 ]
 )
         
@@ -1041,30 +1010,30 @@ traversal
 .
 add
 (
-"
+'
 A
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 B
-"
+'
 dirs
 =
 [
-"
+'
 D
-"
-"
+'
+'
 E
-"
-"
+'
+'
 F
-"
+'
 ]
 )
         
@@ -1072,21 +1041,21 @@ traversal
 .
 add
 (
-"
+'
 C
-"
+'
 dirs
 =
 [
-"
+'
 G
-"
-"
+'
+'
 H
-"
-"
+'
+'
 I
-"
+'
 ]
 )
         
@@ -1094,54 +1063,54 @@ traversal
 .
 add
 (
-"
+'
 D
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 E
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 F
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 G
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 H
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 I
-"
+'
 )
         
 start
@@ -1159,9 +1128,9 @@ assertEqual
 (
 start
 (
-"
+'
 I
-"
+'
 )
 )
         
@@ -1169,102 +1138,99 @@ self
 .
 assertEqual
 (
-            
 deps
-            
 {
-                
-"
+            
+'
 A
-"
+'
 :
 (
-"
-"
-)
-                
-"
-B
-"
-:
-(
-"
-A
-"
-)
-                
-"
-C
-"
-:
-(
-"
-F
-"
-)
-                
-"
-D
-"
-:
-(
-"
-B
-"
-)
-                
-"
-E
-"
-:
-(
-"
-D
-"
-)
-                
-"
-F
-"
-:
-(
-"
-E
-"
-)
-                
-"
-G
-"
-:
-(
-"
-C
-"
-)
-                
-"
-H
-"
-:
-(
-"
-G
-"
-)
-                
-"
-I
-"
-:
-(
-"
-H
-"
+'
+'
 )
             
-}
+'
+B
+'
+:
+(
+'
+A
+'
+)
+            
+'
+C
+'
+:
+(
+'
+F
+'
+)
+            
+'
+D
+'
+:
+(
+'
+B
+'
+)
+            
+'
+E
+'
+:
+(
+'
+D
+'
+)
+            
+'
+F
+'
+:
+(
+'
+E
+'
+)
+            
+'
+G
+'
+:
+(
+'
+C
+'
+)
+            
+'
+H
+'
+:
+(
+'
+G
+'
+)
+            
+'
+I
+'
+:
+(
+'
+H
+'
+)
         
+}
 )
     
 def
@@ -1284,20 +1250,20 @@ traversal
 .
 add
 (
-"
-"
+'
+'
 dirs
 =
 [
-"
+'
 A
-"
-"
+'
+'
 B
-"
-"
+'
+'
 C
-"
+'
 ]
 )
         
@@ -1305,30 +1271,30 @@ traversal
 .
 add
 (
-"
+'
 A
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 B
-"
+'
 dirs
 =
 [
-"
+'
 D
-"
-"
+'
+'
 E
-"
-"
+'
+'
 F
-"
+'
 ]
 )
         
@@ -1336,21 +1302,21 @@ traversal
 .
 add
 (
-"
+'
 C
-"
+'
 dirs
 =
 [
-"
+'
 G
-"
-"
+'
+'
 H
-"
-"
+'
+'
 I
-"
+'
 ]
 )
         
@@ -1358,54 +1324,54 @@ traversal
 .
 add
 (
-"
+'
 D
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 E
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 F
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 G
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 H
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 I
-"
+'
 )
         
 def
@@ -1420,9 +1386,9 @@ if
 current
 =
 =
-"
+'
 B
-"
+'
 :
                 
 current
@@ -1453,9 +1419,9 @@ assertEqual
 (
 start
 (
-"
+'
 I
-"
+'
 )
 )
         
@@ -1463,92 +1429,89 @@ self
 .
 assertEqual
 (
-            
 deps
-            
 {
-                
-"
+            
+'
 A
-"
+'
 :
 (
-"
-"
-)
-                
-"
-C
-"
-:
-(
-"
-F
-"
-)
-                
-"
-D
-"
-:
-(
-"
-A
-"
-)
-                
-"
-E
-"
-:
-(
-"
-D
-"
-)
-                
-"
-F
-"
-:
-(
-"
-E
-"
-)
-                
-"
-G
-"
-:
-(
-"
-C
-"
-)
-                
-"
-H
-"
-:
-(
-"
-G
-"
-)
-                
-"
-I
-"
-:
-(
-"
-H
-"
+'
+'
 )
             
-}
+'
+C
+'
+:
+(
+'
+F
+'
+)
+            
+'
+D
+'
+:
+(
+'
+A
+'
+)
+            
+'
+E
+'
+:
+(
+'
+D
+'
+)
+            
+'
+F
+'
+:
+(
+'
+E
+'
+)
+            
+'
+G
+'
+:
+(
+'
+C
+'
+)
+            
+'
+H
+'
+:
+(
+'
+G
+'
+)
+            
+'
+I
+'
+:
+(
+'
+H
+'
+)
         
+}
 )
     
 def
@@ -1568,20 +1531,20 @@ traversal
 .
 add
 (
-"
-"
+'
+'
 dirs
 =
 [
-"
+'
 A
-"
-"
+'
+'
 B
-"
-"
+'
+'
 C
-"
+'
 ]
 )
         
@@ -1589,30 +1552,30 @@ traversal
 .
 add
 (
-"
+'
 A
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 B
-"
+'
 dirs
 =
 [
-"
+'
 D
-"
-"
+'
+'
 E
-"
-"
+'
+'
 F
-"
+'
 ]
 )
         
@@ -1620,21 +1583,21 @@ traversal
 .
 add
 (
-"
+'
 C
-"
+'
 dirs
 =
 [
-"
+'
 G
-"
-"
+'
+'
 H
-"
-"
+'
+'
 I
-"
+'
 ]
 )
         
@@ -1642,63 +1605,63 @@ traversal
 .
 add
 (
-"
+'
 D
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 E
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 F
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 G
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 H
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 I
-"
+'
 )
         
 traversal
 .
 add
 (
-"
+'
 J
-"
+'
 )
         
 def
@@ -1733,30 +1696,30 @@ assertEqual
 (
 start
 (
-"
+'
 A
-"
-"
+'
+'
 D
-"
-"
+'
+'
 E
-"
-"
+'
+'
 F
-"
-"
+'
+'
 G
-"
-"
+'
+'
 H
-"
-"
+'
+'
 I
-"
-"
+'
+'
 J
-"
+'
 )
 )
         
@@ -1764,109 +1727,106 @@ self
 .
 assertEqual
 (
-            
 deps
-            
 {
-                
-"
+            
+'
 A
-"
+'
 :
 (
-"
-"
-)
-                
-"
-B
-"
-:
-(
-"
-"
-)
-                
-"
-C
-"
-:
-(
-"
-"
-)
-                
-"
-D
-"
-:
-(
-"
-B
-"
-)
-                
-"
-E
-"
-:
-(
-"
-B
-"
-)
-                
-"
-F
-"
-:
-(
-"
-B
-"
-)
-                
-"
-G
-"
-:
-(
-"
-C
-"
-)
-                
-"
-H
-"
-:
-(
-"
-C
-"
-)
-                
-"
-I
-"
-:
-(
-"
-C
-"
-)
-                
-"
-J
-"
-:
-(
-"
-"
+'
+'
 )
             
-}
+'
+B
+'
+:
+(
+'
+'
+)
+            
+'
+C
+'
+:
+(
+'
+'
+)
+            
+'
+D
+'
+:
+(
+'
+B
+'
+)
+            
+'
+E
+'
+:
+(
+'
+B
+'
+)
+            
+'
+F
+'
+:
+(
+'
+B
+'
+)
+            
+'
+G
+'
+:
+(
+'
+C
+'
+)
+            
+'
+H
+'
+:
+(
+'
+C
+'
+)
+            
+'
+I
+'
+:
+(
+'
+C
+'
+)
+            
+'
+J
+'
+:
+(
+'
+'
+)
         
+}
 )
 class
 TestRecursiveMakeBackend
@@ -1902,9 +1862,9 @@ self
 .
 _consume
 (
-"
+'
 stub0
-"
+'
 RecursiveMakeBackend
 )
         
@@ -1912,7 +1872,6 @@ self
 .
 assertTrue
 (
-            
 os
 .
 path
@@ -1926,28 +1885,26 @@ join
 env
 .
 topobjdir
-"
+                                                    
+'
 backend
 .
 RecursiveMakeBackend
-"
+'
 )
 )
-        
 )
         
 self
 .
 assertTrue
 (
-            
 os
 .
 path
 .
 exists
 (
-                
 mozpath
 .
 join
@@ -1955,17 +1912,16 @@ join
 env
 .
 topobjdir
-"
+                                                    
+'
 backend
 .
 RecursiveMakeBackend
 .
 in
-"
+'
 )
-            
 )
-        
 )
     
 def
@@ -1994,23 +1950,23 @@ self
 .
 _consume
 (
-"
+'
 stub0
-"
+'
 RecursiveMakeBackend
 )
         
 expected
 =
 [
-"
-"
-"
+'
+'
+'
 dir1
-"
-"
+'
+'
 dir2
-"
+'
 ]
         
 for
@@ -2029,9 +1985,9 @@ env
 .
 topobjdir
 d
-"
+'
 Makefile
-"
+'
 )
             
 out_backend
@@ -2044,11 +2000,11 @@ env
 .
 topobjdir
 d
-"
+'
 backend
 .
 mk
-"
+'
 )
             
 self
@@ -2107,9 +2063,9 @@ self
 .
 _consume
 (
-"
+'
 stub0
-"
+'
 RecursiveMakeBackend
 )
         
@@ -2122,15 +2078,14 @@ join
 env
 .
 topobjdir
-"
+'
 Makefile
-"
+'
 )
         
 lines
 =
 [
-            
 l
 .
 strip
@@ -2142,9 +2097,9 @@ in
 open
 (
 p
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -2160,72 +2115,69 @@ l
 .
 startswith
 (
-"
+'
 #
-"
+'
 )
-        
 ]
         
 self
 .
 assertEqual
 (
-            
 lines
-            
 [
-                
-"
+            
+'
 DEPTH
 :
 =
 .
-"
-                
-"
+'
+            
+'
 topobjdir
 :
 =
 %
 s
-"
+'
 %
 env
 .
 topobjdir
-                
-"
+            
+'
 topsrcdir
 :
 =
 %
 s
-"
+'
 %
 env
 .
 topsrcdir
-                
-"
+            
+'
 srcdir
 :
 =
 %
 s
-"
+'
 %
 env
 .
 topsrcdir
-                
-"
+            
+'
 srcdir_rel
 :
 =
 %
 s
-"
+'
 %
 mozpath
 .
@@ -2238,15 +2190,15 @@ env
 .
 topobjdir
 )
-                
-"
+            
+'
 relativesrcdir
 :
 =
 .
-"
-                
-"
+'
+            
+'
 include
 (
 DEPTH
@@ -2257,22 +2209,22 @@ config
 autoconf
 .
 mk
-"
-                
-"
-"
-                
-"
+'
+            
+'
+'
+            
+'
 FOO
 :
 =
 foo
-"
-                
-"
-"
-                
-"
+'
+            
+'
+'
+            
+'
 include
 (
 topsrcdir
@@ -2283,10 +2235,9 @@ config
 recurse
 .
 mk
-"
-            
-]
+'
         
+]
 )
     
 def
@@ -2319,9 +2270,9 @@ self
 .
 _consume
 (
-"
+'
 stub0
-"
+'
 RecursiveMakeBackend
 )
         
@@ -2334,12 +2285,12 @@ join
 env
 .
 topobjdir
-"
+'
 dir2
-"
-"
+'
+'
 Makefile
-"
+'
 )
         
 self
@@ -2370,9 +2321,9 @@ in
 open
 (
 p
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -2402,13 +2353,13 @@ lines
 .
 startswith
 (
-"
+'
 #
 THIS
 FILE
 WAS
 AUTOMATICALLY
-"
+'
 )
 )
     
@@ -2442,9 +2393,9 @@ self
 .
 _consume
 (
-"
+'
 stub0
-"
+'
 RecursiveMakeBackend
 )
         
@@ -2457,11 +2408,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -2478,9 +2429,9 @@ in
 open
 (
 p
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -2496,21 +2447,18 @@ self
 .
 assertEqual
 (
-            
 lines
-            
 [
-                
-"
+            
+'
 DIRS
 :
 =
 dir1
 dir2
-"
-            
-]
+'
         
+]
 )
         
 env
@@ -2528,22 +2476,22 @@ env
 .
 substs
 [
-"
+'
 ENABLE_TESTS
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 self
 .
 _consume
 (
-"
+'
 stub0
-"
+'
 RecursiveMakeBackend
 env
 =
@@ -2559,11 +2507,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -2580,9 +2528,9 @@ in
 open
 (
 p
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -2598,22 +2546,19 @@ self
 .
 assertEqual
 (
-            
 lines
-            
 [
-                
-"
+            
+'
 DIRS
 :
 =
 dir1
 dir2
 dir3
-"
-            
-]
+'
         
+]
 )
     
 def
@@ -2648,9 +2593,9 @@ self
 .
 _consume
 (
-"
+'
 stub0
-"
+'
 RecursiveMakeBackend
 )
         
@@ -2663,9 +2608,9 @@ join
 env
 .
 topobjdir
-"
+'
 Makefile
-"
+'
 )
         
 backend_path
@@ -2677,11 +2622,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 makefile_mtime
@@ -2800,9 +2745,9 @@ self
 .
 _consume
 (
-"
+'
 substitute_config_files
-"
+'
 RecursiveMakeBackend
 )
         
@@ -2815,9 +2760,9 @@ join
 env
 .
 topobjdir
-"
+'
 foo
-"
+'
 )
         
 self
@@ -2848,9 +2793,9 @@ in
 open
 (
 p
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -2862,19 +2807,16 @@ self
 .
 assertEqual
 (
-            
 lines
-            
 [
-                
-"
+            
+'
 TEST
 =
 foo
-"
-            
-]
+'
         
+]
 )
     
 def
@@ -2909,9 +2851,9 @@ self
 .
 _consume
 (
-"
+'
 install_substitute_config_files
-"
+'
 RecursiveMakeBackend
 )
         
@@ -2924,13 +2866,13 @@ join
 env
 .
 topobjdir
-"
+'
 root
 -
 deps
 .
 mk
-"
+'
 )
         
 lines
@@ -2947,9 +2889,9 @@ in
 open
 (
 root_deps_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -2966,13 +2908,13 @@ any
 l
 =
 =
-"
+'
 recurse_export
 :
 sub
 /
 export
-"
+'
 for
 l
 in
@@ -3008,9 +2950,9 @@ self
 .
 _consume
 (
-"
+'
 variable_passthru
-"
+'
 RecursiveMakeBackend
 )
         
@@ -3023,11 +2965,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -3044,9 +2986,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -3062,13 +3004,13 @@ expected
 =
 {
             
-"
+'
 RCFILE
-"
+'
 :
 [
                 
-"
+'
 RCFILE
 :
 =
@@ -3079,17 +3021,17 @@ srcdir
 foo
 .
 rc
-"
+'
             
 ]
             
-"
+'
 RCINCLUDE
-"
+'
 :
 [
                 
-"
+'
 RCINCLUDE
 :
 =
@@ -3100,17 +3042,17 @@ srcdir
 bar
 .
 rc
-"
+'
             
 ]
             
-"
+'
 WIN32_EXE_LDFLAGS
-"
+'
 :
 [
                 
-"
+'
 WIN32_EXE_LDFLAGS
 +
 =
@@ -3118,7 +3060,7 @@ WIN32_EXE_LDFLAGS
 subsystem
 :
 console
-"
+'
             
 ]
         
@@ -3189,9 +3131,9 @@ self
 .
 _consume
 (
-"
+'
 sources
-"
+'
 RecursiveMakeBackend
 )
         
@@ -3204,11 +3146,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -3225,9 +3167,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -3243,13 +3185,13 @@ expected
 =
 {
             
-"
+'
 ASFILES
-"
+'
 :
 [
                 
-"
+'
 ASFILES
 +
 =
@@ -3260,9 +3202,9 @@ srcdir
 bar
 .
 s
-"
+'
                 
-"
+'
 ASFILES
 +
 =
@@ -3273,17 +3215,17 @@ srcdir
 foo
 .
 asm
-"
+'
             
 ]
             
-"
+'
 CMMSRCS
-"
+'
 :
 [
                 
-"
+'
 CMMSRCS
 +
 =
@@ -3294,9 +3236,9 @@ srcdir
 bar
 .
 mm
-"
+'
                 
-"
+'
 CMMSRCS
 +
 =
@@ -3307,17 +3249,17 @@ srcdir
 foo
 .
 mm
-"
+'
             
 ]
             
-"
+'
 CSRCS
-"
+'
 :
 [
                 
-"
+'
 CSRCS
 +
 =
@@ -3328,9 +3270,9 @@ srcdir
 bar
 .
 c
-"
+'
                 
-"
+'
 CSRCS
 +
 =
@@ -3341,17 +3283,17 @@ srcdir
 foo
 .
 c
-"
+'
             
 ]
             
-"
+'
 HOST_CPPSRCS
-"
+'
 :
 [
                 
-"
+'
 HOST_CPPSRCS
 +
 =
@@ -3362,9 +3304,9 @@ srcdir
 bar
 .
 cpp
-"
+'
                 
-"
+'
 HOST_CPPSRCS
 +
 =
@@ -3375,17 +3317,17 @@ srcdir
 foo
 .
 cpp
-"
+'
             
 ]
             
-"
+'
 HOST_CSRCS
-"
+'
 :
 [
                 
-"
+'
 HOST_CSRCS
 +
 =
@@ -3396,9 +3338,9 @@ srcdir
 bar
 .
 c
-"
+'
                 
-"
+'
 HOST_CSRCS
 +
 =
@@ -3409,17 +3351,17 @@ srcdir
 foo
 .
 c
-"
+'
             
 ]
             
-"
+'
 SSRCS
-"
+'
 :
 [
                 
-"
+'
 SSRCS
 +
 =
@@ -3430,9 +3372,9 @@ srcdir
 baz
 .
 S
-"
+'
                 
-"
+'
 SSRCS
 +
 =
@@ -3443,17 +3385,17 @@ srcdir
 foo
 .
 S
-"
+'
             
 ]
             
-"
+'
 WASM_CSRCS
-"
+'
 :
 [
                 
-"
+'
 WASM_CSRCS
 +
 =
@@ -3464,11 +3406,10 @@ srcdir
 bar
 .
 c
-"
+'
                 
 (
-                    
-"
+'
 WASM_CSRCS
 +
 =
@@ -3482,27 +3423,26 @@ rust
 /
 rlbox_lucet_sandbox
 /
-"
-                    
-"
+'
+                 
+'
 c_src
 /
 lucet_sandbox_wrapper
 .
 c
-"
-                
+'
 )
             
 ]
             
-"
+'
 WASM_CPPSRCS
-"
+'
 :
 [
                 
-"
+'
 WASM_CPPSRCS
 +
 =
@@ -3513,7 +3453,7 @@ srcdir
 bar
 .
 cpp
-"
+'
             
 ]
         
@@ -3581,9 +3521,9 @@ self
 .
 _consume
 (
-"
+'
 exports
-"
+'
 RecursiveMakeBackend
 )
         
@@ -3591,29 +3531,26 @@ m
 =
 InstallManifest
 (
-            
 path
 =
 mozpath
 .
 join
 (
-                
 env
 .
 topobjdir
-"
+                                              
+'
 _build_manifests
-"
-"
+'
+'
 install
-"
-"
+'
+'
 dist_include
-"
-            
+'
 )
-        
 )
         
 self
@@ -3631,11 +3568,11 @@ self
 .
 assertIn
 (
-"
+'
 foo
 .
 h
-"
+'
 m
 )
         
@@ -3643,13 +3580,13 @@ self
 .
 assertIn
 (
-"
+'
 mozilla
 /
 mozilla1
 .
 h
-"
+'
 m
 )
         
@@ -3657,7 +3594,7 @@ self
 .
 assertIn
 (
-"
+'
 mozilla
 /
 dom
@@ -3665,7 +3602,7 @@ dom
 dom2
 .
 h
-"
+'
 m
 )
     
@@ -3695,11 +3632,11 @@ self
 .
 _consume
 (
-"
+'
 generated
 -
 files
-"
+'
 RecursiveMakeBackend
 )
         
@@ -3712,11 +3649,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -3733,9 +3670,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -3751,7 +3688,7 @@ expected
 =
 [
             
-"
+'
 include
 (
 topsrcdir
@@ -3762,9 +3699,9 @@ config
 AB_rCD
 .
 mk
-"
+'
             
-"
+'
 PRE_COMPILE_TARGETS
 +
 =
@@ -3777,9 +3714,9 @@ bar
 c
 .
 stub
-"
+'
             
-"
+'
 bar
 .
 c
@@ -3794,9 +3731,9 @@ c
 .
 stub
 ;
-"
+'
             
-"
+'
 EXTRA_MDDEPEND_FILES
 +
 =
@@ -3809,9 +3746,9 @@ bar
 c
 .
 pp
-"
+'
             
-"
+'
 (
 MDDEPDIR
 )
@@ -3830,19 +3767,19 @@ generate
 bar
 .
 py
-"
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 REPORT_BUILD
 )
-"
+'
             
-"
+'
 (
 call
 py_action
@@ -3878,23 +3815,22 @@ c
 .
 stub
 )
-"
-            
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 TOUCH
 )
-"
+'
             
-"
-"
+'
+'
             
-"
+'
 EXPORT_TARGETS
 +
 =
@@ -3907,9 +3843,9 @@ foo
 h
 .
 stub
-"
+'
             
-"
+'
 foo
 .
 h
@@ -3924,9 +3860,9 @@ h
 .
 stub
 ;
-"
+'
             
-"
+'
 EXTRA_MDDEPEND_FILES
 +
 =
@@ -3939,9 +3875,9 @@ foo
 h
 .
 pp
-"
+'
             
-"
+'
 (
 MDDEPDIR
 )
@@ -3967,8 +3903,7 @@ srcdir
 foo
 -
 data
-"
-            
+'
 %
 (
 env
@@ -3976,13 +3911,13 @@ env
 topsrcdir
 )
             
-"
+'
 (
 REPORT_BUILD
 )
-"
+'
             
-"
+'
 (
 call
 py_action
@@ -4025,8 +3960,7 @@ foo
 -
 data
 )
-"
-            
+'
 %
 (
 env
@@ -4034,14 +3968,14 @@ env
 topsrcdir
 )
             
-"
+'
 (
 TOUCH
 )
-"
+'
             
-"
-"
+'
+'
         
 ]
         
@@ -4088,13 +4022,13 @@ self
 .
 _consume
 (
-"
+'
 generated
 -
 files
 -
 force
-"
+'
 RecursiveMakeBackend
 )
         
@@ -4107,11 +4041,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -4128,9 +4062,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -4146,7 +4080,7 @@ expected
 =
 [
             
-"
+'
 include
 (
 topsrcdir
@@ -4157,9 +4091,9 @@ config
 AB_rCD
 .
 mk
-"
+'
             
-"
+'
 PRE_COMPILE_TARGETS
 +
 =
@@ -4172,9 +4106,9 @@ bar
 c
 .
 stub
-"
+'
             
-"
+'
 bar
 .
 c
@@ -4189,9 +4123,9 @@ c
 .
 stub
 ;
-"
+'
             
-"
+'
 EXTRA_MDDEPEND_FILES
 +
 =
@@ -4204,9 +4138,9 @@ bar
 c
 .
 pp
-"
+'
             
-"
+'
 (
 MDDEPDIR
 )
@@ -4226,19 +4160,19 @@ bar
 .
 py
 FORCE
-"
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 REPORT_BUILD
 )
-"
+'
             
-"
+'
 (
 call
 py_action
@@ -4274,23 +4208,22 @@ c
 .
 stub
 )
-"
-            
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 TOUCH
 )
-"
+'
             
-"
-"
+'
+'
             
-"
+'
 PRE_COMPILE_TARGETS
 +
 =
@@ -4303,9 +4236,9 @@ foo
 c
 .
 stub
-"
+'
             
-"
+'
 foo
 .
 c
@@ -4320,9 +4253,9 @@ c
 .
 stub
 ;
-"
+'
             
-"
+'
 EXTRA_MDDEPEND_FILES
 +
 =
@@ -4335,9 +4268,9 @@ foo
 c
 .
 pp
-"
+'
             
-"
+'
 (
 MDDEPDIR
 )
@@ -4363,8 +4296,7 @@ srcdir
 foo
 -
 data
-"
-            
+'
 %
 (
 env
@@ -4372,13 +4304,13 @@ env
 topsrcdir
 )
             
-"
+'
 (
 REPORT_BUILD
 )
-"
+'
             
-"
+'
 (
 call
 py_action
@@ -4421,8 +4353,7 @@ foo
 -
 data
 )
-"
-            
+'
 %
 (
 env
@@ -4430,14 +4361,14 @@ env
 topsrcdir
 )
             
-"
+'
 (
 TOUCH
 )
-"
+'
             
-"
-"
+'
+'
         
 ]
         
@@ -4481,13 +4412,13 @@ self
 .
 _consume
 (
-"
+'
 localized
 -
 generated
 -
 files
-"
+'
 RecursiveMakeBackend
 )
         
@@ -4500,11 +4431,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -4521,9 +4452,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -4539,7 +4470,7 @@ expected
 =
 [
             
-"
+'
 include
 (
 topsrcdir
@@ -4550,9 +4481,9 @@ config
 AB_rCD
 .
 mk
-"
+'
             
-"
+'
 MISC_TARGETS
 +
 =
@@ -4565,9 +4496,9 @@ foo
 xyz
 .
 stub
-"
+'
             
-"
+'
 foo
 .
 xyz
@@ -4582,9 +4513,9 @@ xyz
 .
 stub
 ;
-"
+'
             
-"
+'
 EXTRA_MDDEPEND_FILES
 +
 =
@@ -4597,9 +4528,9 @@ foo
 xyz
 .
 pp
-"
+'
             
-"
+'
 (
 MDDEPDIR
 )
@@ -4641,20 +4572,19 @@ IS_LANGUAGE_REPACK
 )
 FORCE
 )
-"
-            
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 REPORT_BUILD
 )
-"
+'
             
-"
+'
 (
 call
 py_action
@@ -4713,53 +4643,52 @@ localized
 -
 input
 )
-"
-            
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 TOUCH
 )
-"
+'
             
-"
-"
+'
+'
             
-"
+'
 LOCALIZED_FILES_0_FILES
 +
 =
 foo
 .
 xyz
-"
+'
             
-"
+'
 LOCALIZED_FILES_0_DEST
 =
 (
 FINAL_TARGET
 )
 /
-"
+'
             
-"
+'
 LOCALIZED_FILES_0_TARGET
 :
 =
 misc
-"
+'
             
-"
+'
 INSTALL_TARGETS
 +
 =
 LOCALIZED_FILES_0
-"
+'
         
 ]
         
@@ -4806,7 +4735,7 @@ self
 .
 _consume
 (
-"
+'
 localized
 -
 generated
@@ -4814,7 +4743,7 @@ generated
 files
 -
 force
-"
+'
 RecursiveMakeBackend
 )
         
@@ -4827,11 +4756,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -4848,9 +4777,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -4866,7 +4795,7 @@ expected
 =
 [
             
-"
+'
 include
 (
 topsrcdir
@@ -4877,9 +4806,9 @@ config
 AB_rCD
 .
 mk
-"
+'
             
-"
+'
 MISC_TARGETS
 +
 =
@@ -4892,9 +4821,9 @@ foo
 xyz
 .
 stub
-"
+'
             
-"
+'
 foo
 .
 xyz
@@ -4909,9 +4838,9 @@ xyz
 .
 stub
 ;
-"
+'
             
-"
+'
 EXTRA_MDDEPEND_FILES
 +
 =
@@ -4924,9 +4853,9 @@ foo
 xyz
 .
 pp
-"
+'
             
-"
+'
 (
 MDDEPDIR
 )
@@ -4968,20 +4897,19 @@ IS_LANGUAGE_REPACK
 )
 FORCE
 )
-"
-            
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 REPORT_BUILD
 )
-"
+'
             
-"
+'
 (
 call
 py_action
@@ -5040,23 +4968,22 @@ localized
 -
 input
 )
-"
-            
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 TOUCH
 )
-"
+'
             
-"
-"
+'
+'
             
-"
+'
 MISC_TARGETS
 +
 =
@@ -5069,9 +4996,9 @@ abc
 xyz
 .
 stub
-"
+'
             
-"
+'
 abc
 .
 xyz
@@ -5086,9 +5013,9 @@ xyz
 .
 stub
 ;
-"
+'
             
-"
+'
 EXTRA_MDDEPEND_FILES
 +
 =
@@ -5101,9 +5028,9 @@ abc
 xyz
 .
 pp
-"
+'
             
-"
+'
 (
 MDDEPDIR
 )
@@ -5139,20 +5066,19 @@ localized
 -
 input
 FORCE
-"
-            
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 REPORT_BUILD
 )
-"
+'
             
-"
+'
 (
 call
 py_action
@@ -5211,21 +5137,20 @@ localized
 -
 input
 )
-"
-            
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 TOUCH
 )
-"
+'
             
-"
-"
+'
+'
         
 ]
         
@@ -5280,7 +5205,7 @@ self
 .
 _consume
 (
-"
+'
 localized
 -
 generated
@@ -5288,7 +5213,7 @@ generated
 files
 -
 AB_CD
-"
+'
 RecursiveMakeBackend
 )
         
@@ -5301,11 +5226,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -5322,9 +5247,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -5340,7 +5265,7 @@ expected
 =
 [
             
-"
+'
 include
 (
 topsrcdir
@@ -5351,9 +5276,9 @@ config
 AB_rCD
 .
 mk
-"
+'
             
-"
+'
 MISC_TARGETS
 +
 =
@@ -5369,9 +5294,9 @@ AB_CD
 xyz
 .
 stub
-"
+'
             
-"
+'
 foo
 (
 AB_CD
@@ -5392,9 +5317,9 @@ xyz
 .
 stub
 ;
-"
+'
             
-"
+'
 EXTRA_MDDEPEND_FILES
 +
 =
@@ -5410,9 +5335,9 @@ AB_CD
 xyz
 .
 pp
-"
+'
             
-"
+'
 (
 MDDEPDIR
 )
@@ -5457,20 +5382,19 @@ IS_LANGUAGE_REPACK
 )
 FORCE
 )
-"
-            
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 REPORT_BUILD
 )
-"
+'
             
-"
+'
 (
 call
 py_action
@@ -5538,23 +5462,22 @@ localized
 -
 input
 )
-"
-            
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 TOUCH
 )
-"
+'
             
-"
-"
+'
+'
             
-"
+'
 bar
 (
 AB_rCD
@@ -5575,9 +5498,9 @@ xyz
 .
 stub
 ;
-"
+'
             
-"
+'
 EXTRA_MDDEPEND_FILES
 +
 =
@@ -5593,9 +5516,9 @@ AB_rCD
 xyz
 .
 pp
-"
+'
             
-"
+'
 (
 MDDEPDIR
 )
@@ -5643,20 +5566,19 @@ IS_LANGUAGE_REPACK
 )
 FORCE
 )
-"
-            
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 REPORT_BUILD
 )
-"
+'
             
-"
+'
 (
 call
 py_action
@@ -5727,23 +5649,22 @@ localized
 -
 input
 )
-"
-            
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 TOUCH
 )
-"
+'
             
-"
-"
+'
+'
             
-"
+'
 zot
 (
 AB_rCD
@@ -5764,9 +5685,9 @@ xyz
 .
 stub
 ;
-"
+'
             
-"
+'
 EXTRA_MDDEPEND_FILES
 +
 =
@@ -5782,9 +5703,9 @@ AB_rCD
 xyz
 .
 pp
-"
+'
             
-"
+'
 (
 MDDEPDIR
 )
@@ -5830,20 +5751,19 @@ IS_LANGUAGE_REPACK
 )
 FORCE
 )
-"
-            
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 REPORT_BUILD
 )
-"
+'
             
-"
+'
 (
 call
 py_action
@@ -5912,21 +5832,20 @@ localized
 -
 input
 )
-"
-            
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 (
 TOUCH
 )
-"
+'
             
-"
-"
+'
+'
         
 ]
         
@@ -5976,11 +5895,11 @@ self
 .
 _consume
 (
-"
+'
 exports
 -
 generated
-"
+'
 RecursiveMakeBackend
 )
         
@@ -5988,29 +5907,26 @@ m
 =
 InstallManifest
 (
-            
 path
 =
 mozpath
 .
 join
 (
-                
 env
 .
 topobjdir
-"
+                                              
+'
 _build_manifests
-"
-"
+'
+'
 install
-"
-"
+'
+'
 dist_include
-"
-            
+'
 )
-        
 )
         
 self
@@ -6028,11 +5944,11 @@ self
 .
 assertIn
 (
-"
+'
 foo
 .
 h
-"
+'
 m
 )
         
@@ -6040,13 +5956,13 @@ self
 .
 assertIn
 (
-"
+'
 mozilla
 /
 mozilla1
 .
 h
-"
+'
 m
 )
         
@@ -6054,7 +5970,7 @@ self
 .
 assertIn
 (
-"
+'
 mozilla
 /
 dom
@@ -6062,7 +5978,7 @@ dom
 dom1
 .
 h
-"
+'
 m
 )
         
@@ -6070,13 +5986,13 @@ self
 .
 assertIn
 (
-"
+'
 gfx
 /
 gfx
 .
 h
-"
+'
 m
 )
         
@@ -6084,11 +6000,11 @@ self
 .
 assertIn
 (
-"
+'
 bar
 .
 h
-"
+'
 m
 )
         
@@ -6096,13 +6012,13 @@ self
 .
 assertIn
 (
-"
+'
 mozilla
 /
 mozilla2
 .
 h
-"
+'
 m
 )
         
@@ -6110,7 +6026,7 @@ self
 .
 assertIn
 (
-"
+'
 mozilla
 /
 dom
@@ -6118,7 +6034,7 @@ dom
 dom2
 .
 h
-"
+'
 m
 )
         
@@ -6126,7 +6042,7 @@ self
 .
 assertIn
 (
-"
+'
 mozilla
 /
 dom
@@ -6134,7 +6050,7 @@ dom
 dom3
 .
 h
-"
+'
 m
 )
         
@@ -6147,11 +6063,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -6168,9 +6084,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -6186,7 +6102,7 @@ expected
 =
 [
             
-"
+'
 include
 (
 topsrcdir
@@ -6197,18 +6113,18 @@ config
 AB_rCD
 .
 mk
-"
+'
             
-"
+'
 dist_include_FILES
 +
 =
 bar
 .
 h
-"
+'
             
-"
+'
 dist_include_DEST
 :
 =
@@ -6220,32 +6136,32 @@ dist
 /
 include
 /
-"
+'
             
-"
+'
 dist_include_TARGET
 :
 =
 export
-"
+'
             
-"
+'
 INSTALL_TARGETS
 +
 =
 dist_include
-"
+'
             
-"
+'
 dist_include_mozilla_FILES
 +
 =
 mozilla2
 .
 h
-"
+'
             
-"
+'
 dist_include_mozilla_DEST
 :
 =
@@ -6258,41 +6174,41 @@ dist
 include
 /
 mozilla
-"
+'
             
-"
+'
 dist_include_mozilla_TARGET
 :
 =
 export
-"
+'
             
-"
+'
 INSTALL_TARGETS
 +
 =
 dist_include_mozilla
-"
+'
             
-"
+'
 dist_include_mozilla_dom_FILES
 +
 =
 dom2
 .
 h
-"
+'
             
-"
+'
 dist_include_mozilla_dom_FILES
 +
 =
 dom3
 .
 h
-"
+'
             
-"
+'
 dist_include_mozilla_dom_DEST
 :
 =
@@ -6307,21 +6223,21 @@ include
 mozilla
 /
 dom
-"
+'
             
-"
+'
 dist_include_mozilla_dom_TARGET
 :
 =
 export
-"
+'
             
-"
+'
 INSTALL_TARGETS
 +
 =
 dist_include_mozilla_dom
-"
+'
         
 ]
         
@@ -6365,9 +6281,9 @@ self
 .
 _consume
 (
-"
+'
 resources
-"
+'
 RecursiveMakeBackend
 )
         
@@ -6375,7 +6291,6 @@ m
 =
 InstallManifest
 (
-            
 path
 =
 os
@@ -6387,17 +6302,17 @@ join
 env
 .
 topobjdir
-"
+                                              
+'
 _build_manifests
-"
-"
+'
+'
 install
-"
-"
+'
+'
 dist_bin
-"
+'
 )
-        
 )
         
 self
@@ -6415,13 +6330,13 @@ self
 .
 assertIn
 (
-"
+'
 res
 /
 foo
 .
 res
-"
+'
 m
 )
         
@@ -6429,7 +6344,7 @@ self
 .
 assertIn
 (
-"
+'
 res
 /
 fonts
@@ -6437,7 +6352,7 @@ fonts
 font1
 .
 ttf
-"
+'
 m
 )
         
@@ -6445,7 +6360,7 @@ self
 .
 assertIn
 (
-"
+'
 res
 /
 fonts
@@ -6455,7 +6370,7 @@ desktop
 desktop2
 .
 ttf
-"
+'
 m
 )
         
@@ -6463,7 +6378,7 @@ self
 .
 assertIn
 (
-"
+'
 res
 /
 bar
@@ -6471,7 +6386,7 @@ bar
 res
 .
 in
-"
+'
 m
 )
         
@@ -6479,7 +6394,7 @@ self
 .
 assertIn
 (
-"
+'
 res
 /
 tests
@@ -6487,7 +6402,7 @@ tests
 test
 .
 manifest
-"
+'
 m
 )
         
@@ -6495,7 +6410,7 @@ self
 .
 assertIn
 (
-"
+'
 res
 /
 tests
@@ -6503,7 +6418,7 @@ tests
 extra
 .
 manifest
-"
+'
 m
 )
     
@@ -6535,13 +6450,13 @@ self
 .
 _consume
 (
-"
+'
 test
 -
 manifests
 -
 written
-"
+'
 RecursiveMakeBackend
 )
         
@@ -6554,9 +6469,9 @@ join
 env
 .
 topobjdir
-"
+'
 _tests
-"
+'
 )
         
 m_master
@@ -6565,23 +6480,21 @@ mozpath
 .
 join
 (
-            
 tests_dir
-"
+'
 testing
-"
-"
+'
+'
 mochitest
-"
-"
+'
+'
 tests
-"
-"
+'
+'
 mochitest
 .
 ini
-"
-        
+'
 )
         
 x_master
@@ -6591,14 +6504,14 @@ mozpath
 join
 (
 tests_dir
-"
+'
 xpcshell
-"
-"
+'
+'
 xpcshell
 .
 ini
-"
+'
 )
         
 self
@@ -6643,9 +6556,9 @@ in
 open
 (
 x_master
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -6657,12 +6570,10 @@ self
 .
 assertEqual
 (
-            
 lines
-            
 [
-                
-"
+            
+'
 #
 THIS
 FILE
@@ -6676,12 +6587,12 @@ MODIFY
 BY
 HAND
 .
-"
-                
-"
-"
-                
-"
+'
+            
+'
+'
+            
+'
 [
 include
 :
@@ -6691,9 +6602,9 @@ xpcshell
 .
 ini
 ]
-"
-                
-"
+'
+            
+'
 [
 include
 :
@@ -6701,10 +6612,9 @@ xpcshell
 .
 ini
 ]
-"
-            
-]
+'
         
+]
 )
     
 def
@@ -6740,13 +6650,13 @@ self
 .
 _consume
 (
-"
+'
 test
 -
 manifests
 -
 written
-"
+'
 RecursiveMakeBackend
 )
         
@@ -6754,29 +6664,26 @@ m
 =
 InstallManifest
 (
-            
 path
 =
 mozpath
 .
 join
 (
-                
 env
 .
 topobjdir
-"
+                                              
+'
 _build_manifests
-"
-"
+'
+'
 install
-"
-"
+'
+'
 _test_files
-"
-            
+'
 )
-        
 )
         
 entries
@@ -6794,10 +6701,10 @@ keys
 (
 )
 if
-"
+'
 *
 *
-"
+'
 in
 e
 ]
@@ -6817,12 +6724,12 @@ self
 .
 assertIn
 (
-"
+'
 support
 /
 *
 *
-"
+'
 entries
 [
 0
@@ -6863,7 +6770,7 @@ self
 .
 _consume
 (
-"
+'
 test
 -
 manifest
@@ -6871,7 +6778,7 @@ manifest
 shared
 -
 support
-"
+'
 RecursiveMakeBackend
 )
         
@@ -6881,20 +6788,21 @@ mozpath
 .
 join
 (
-            
 env
 .
 topobjdir
-"
+                                           
+'
 _build_manifests
-"
-"
+'
+                                           
+'
 install
-"
-"
+'
+                                           
+'
 _test_files
-"
-        
+'
 )
         
 m
@@ -6912,7 +6820,7 @@ self
 .
 _consume
 (
-"
+'
 test
 -
 manifest
@@ -6920,7 +6828,7 @@ manifest
 shared
 -
 support
-"
+'
 TestManifestBackend
 )
         
@@ -6933,22 +6841,22 @@ join
 env
 .
 topobjdir
-"
+'
 test
 -
 installs
 .
 pkl
-"
+'
 )
         
 with
 open
 (
 test_installs_path
-"
+'
 rb
-"
+'
 )
 as
 fh
@@ -6967,7 +6875,6 @@ self
 .
 assertEqual
 (
-            
 set
 (
 test_installs
@@ -6976,26 +6883,28 @@ keys
 (
 )
 )
-            
+                         
 set
 (
 [
-"
+'
 child
 /
 test_sub
 .
 js
-"
-"
+'
+                              
+'
 child
 /
 data
 /
 *
 *
-"
-"
+'
+                              
+'
 child
 /
 another
@@ -7003,10 +6912,9 @@ another
 file
 .
 sjs
-"
+'
 ]
 )
-        
 )
         
 for
@@ -7160,9 +7068,9 @@ self
 .
 _consume
 (
-"
+'
 xpidl
-"
+'
 RecursiveMakeBackend
 )
         
@@ -7175,12 +7083,13 @@ join
 env
 .
 topobjdir
-"
+'
 _build_manifests
-"
-"
+'
+                                   
+'
 install
-"
+'
 )
         
 self
@@ -7198,9 +7107,9 @@ mozpath
 join
 (
 install_dir
-"
+'
 xpidl
-"
+'
 )
 )
 )
@@ -7216,9 +7125,9 @@ mozpath
 join
 (
 install_dir
-"
+'
 xpidl
-"
+'
 )
 )
         
@@ -7226,14 +7135,14 @@ self
 .
 assertIn
 (
-"
+'
 .
 deps
 /
 my_module
 .
 pp
-"
+'
 m
 )
         
@@ -7248,9 +7157,9 @@ mozpath
 join
 (
 install_dir
-"
+'
 xpidl
-"
+'
 )
 )
         
@@ -7258,11 +7167,11 @@ self
 .
 assertIn
 (
-"
+'
 my_module
 .
 xpt
-"
+'
 m
 )
         
@@ -7277,9 +7186,9 @@ mozpath
 join
 (
 install_dir
-"
+'
 dist_include
-"
+'
 )
 )
         
@@ -7287,11 +7196,11 @@ self
 .
 assertIn
 (
-"
+'
 foo
 .
 h
-"
+'
 m
 )
         
@@ -7304,13 +7213,13 @@ join
 env
 .
 topobjdir
-"
+'
 config
 /
 makefiles
 /
 xpidl
-"
+'
 )
         
 self
@@ -7342,9 +7251,9 @@ mozpath
 join
 (
 p
-"
+'
 Makefile
-"
+'
 )
 )
 )
@@ -7362,7 +7271,7 @@ self
 .
 _consume
 (
-"
+'
 test
 -
 support
@@ -7370,7 +7279,7 @@ support
 binaries
 -
 tracked
-"
+'
 RecursiveMakeBackend
 )
         
@@ -7378,7 +7287,6 @@ m
 =
 InstallManifest
 (
-            
 path
 =
 mozpath
@@ -7388,17 +7296,17 @@ join
 env
 .
 topobjdir
-"
+                                              
+'
 _build_manifests
-"
-"
+'
+'
 install
-"
-"
+'
+'
 _tests
-"
+'
 )
-        
 )
         
 self
@@ -7416,7 +7324,7 @@ self
 .
 assertIn
 (
-"
+'
 xpcshell
 /
 tests
@@ -7428,7 +7336,7 @@ test
 library
 .
 dll
-"
+'
 m
 )
         
@@ -7436,7 +7344,7 @@ self
 .
 assertIn
 (
-"
+'
 xpcshell
 /
 tests
@@ -7448,7 +7356,7 @@ test
 one
 .
 exe
-"
+'
 m
 )
         
@@ -7456,7 +7364,7 @@ self
 .
 assertIn
 (
-"
+'
 xpcshell
 /
 tests
@@ -7468,7 +7376,7 @@ test
 two
 .
 exe
-"
+'
 m
 )
         
@@ -7476,7 +7384,7 @@ self
 .
 assertIn
 (
-"
+'
 xpcshell
 /
 tests
@@ -7490,7 +7398,7 @@ test
 library
 .
 dll
-"
+'
 m
 )
     
@@ -7507,9 +7415,9 @@ self
 .
 _get_environment
 (
-"
+'
 stub0
-"
+'
 )
         
 purge_dir
@@ -7521,12 +7429,12 @@ join
 env
 .
 topobjdir
-"
+'
 _build_manifests
-"
-"
+'
+'
 install
-"
+'
 )
         
 manifest_path
@@ -7536,9 +7444,9 @@ mozpath
 join
 (
 purge_dir
-"
+'
 old_manifest
-"
+'
 )
         
 os
@@ -7566,24 +7474,23 @@ manifest_path
 with
 open
 (
-            
 mozpath
 .
 join
 (
+                
 env
 .
 topobjdir
-"
+'
 backend
 .
 RecursiveMakeBackend
-"
+'
 )
-"
+'
 w
-"
-        
+'
 )
 as
 f
@@ -7593,12 +7500,12 @@ f
 .
 write
 (
-"
+'
 %
 s
 \
 n
-"
+'
 %
 manifest_path
 )
@@ -7621,9 +7528,9 @@ self
 .
 _consume
 (
-"
+'
 stub0
-"
+'
 RecursiveMakeBackend
 env
 )
@@ -7656,9 +7563,9 @@ self
 .
 _emit
 (
-"
+'
 stub0
-"
+'
 )
         
 backend
@@ -7678,9 +7585,9 @@ backend
 .
 _install_manifests
 [
-"
+'
 testing
-"
+'
 ]
 =
 m
@@ -7690,9 +7597,9 @@ m
 add_link
 (
 __file__
-"
+'
 self
-"
+'
 )
         
 backend
@@ -7711,12 +7618,12 @@ join
 env
 .
 topobjdir
-"
+'
 _build_manifests
-"
-"
+'
+'
 install
-"
+'
 )
         
 self
@@ -7736,9 +7643,9 @@ man_dir
 expected
 =
 [
-"
+'
 testing
-"
+'
 ]
         
 for
@@ -7822,9 +7729,9 @@ self
 .
 _get_environment
 (
-"
+'
 ipdl_sources
-"
+'
 )
         
 env
@@ -7842,9 +7749,9 @@ env
 .
 substs
 [
-"
+'
 IPDL_ROOT
-"
+'
 ]
 =
 env
@@ -7855,9 +7762,9 @@ self
 .
 _consume
 (
-"
+'
 ipdl_sources
-"
+'
 RecursiveMakeBackend
 env
 )
@@ -7871,11 +7778,11 @@ join
 env
 .
 topobjdir
-"
+'
 ipdlsrcs
 .
 mk
-"
+'
 )
         
 lines
@@ -7892,9 +7799,9 @@ in
 open
 (
 manifest_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -7913,9 +7820,9 @@ replace
 os
 .
 sep
-"
+'
 /
-"
+'
 )
         
 expected
@@ -7965,7 +7872,6 @@ foo2
 .
 ipdlh
 "
-            
 %
 tuple
 (
@@ -8014,32 +7920,30 @@ topsrcdir
 found
 =
 [
-            
 str
-            
 for
 str
 in
 lines
-            
 if
 str
 .
 startswith
 (
 (
-"
+'
 ALL_IPDLSRCS
-"
-"
+'
+                                                         
+'
 CPPSRCS
-"
-"
+'
+                                                         
+'
 IPDLDIRS
-"
+'
 )
 )
-        
 ]
         
 self
@@ -8081,9 +7985,9 @@ self
 .
 _consume
 (
-"
+'
 defines
-"
+'
 RecursiveMakeBackend
 )
         
@@ -8096,11 +8000,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -8117,9 +8021,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -8133,9 +8037,9 @@ readlines
         
 var
 =
-"
+'
 DEFINES
-"
+'
         
 defines
 =
@@ -8157,27 +8061,30 @@ var
 expected
 =
 [
-"
+'
 DEFINES
 +
 =
 -
 DFOO
+\
 '
 -
 DBAZ
 =
-\
 "
 ab
+\
 '
 \
 \
+\
 '
+\
 '
 cd
-\
 "
+\
 '
 -
 UQUX
@@ -8189,7 +8096,7 @@ DBAR
 DVALUE
 =
 xyz
-"
+'
 ]
         
 self
@@ -8231,9 +8138,9 @@ self
 .
 _consume
 (
-"
+'
 local_includes
-"
+'
 RecursiveMakeBackend
 )
         
@@ -8246,11 +8153,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -8267,9 +8174,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -8285,7 +8192,7 @@ expected
 =
 [
             
-"
+'
 LOCAL_INCLUDES
 +
 =
@@ -8298,9 +8205,9 @@ srcdir
 bar
 /
 baz
-"
+'
             
-"
+'
 LOCAL_INCLUDES
 +
 =
@@ -8311,7 +8218,7 @@ srcdir
 )
 /
 foo
-"
+'
         
 ]
         
@@ -8328,9 +8235,9 @@ str
 .
 startswith
 (
-"
+'
 LOCAL_INCLUDES
-"
+'
 )
 ]
         
@@ -8373,9 +8280,9 @@ self
 .
 _consume
 (
-"
+'
 generated_includes
-"
+'
 RecursiveMakeBackend
 )
         
@@ -8388,11 +8295,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -8409,9 +8316,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -8427,7 +8334,7 @@ expected
 =
 [
             
-"
+'
 LOCAL_INCLUDES
 +
 =
@@ -8440,9 +8347,9 @@ CURDIR
 bar
 /
 baz
-"
+'
             
-"
+'
 LOCAL_INCLUDES
 +
 =
@@ -8453,7 +8360,7 @@ CURDIR
 )
 /
 foo
-"
+'
         
 ]
         
@@ -8470,9 +8377,9 @@ str
 .
 startswith
 (
-"
+'
 LOCAL_INCLUDES
-"
+'
 )
 ]
         
@@ -8517,11 +8424,11 @@ self
 .
 _consume
 (
-"
+'
 rust
 -
 library
-"
+'
 RecursiveMakeBackend
 )
         
@@ -8534,32 +8441,30 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
 =
 [
-            
 l
 .
 strip
 (
 )
-            
 for
 l
 in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -8569,25 +8474,24 @@ readlines
 2
 :
 ]
-            
+                 
 if
 not
 l
 .
 startswith
 (
-"
+'
 COMPUTED_
-"
+'
 )
-        
 ]
         
 expected
 =
 [
             
-"
+'
 RUST_LIBRARY_FILE
 :
 =
@@ -8607,14 +8511,13 @@ release
 libtest_library
 .
 a
-"
-            
+'
 %
 env
 .
 topobjdir
             
-"
+'
 CARGO_FILE
 :
 =
@@ -8625,15 +8528,15 @@ srcdir
 Cargo
 .
 toml
-"
+'
             
-"
+'
 CARGO_TARGET_DIR
 :
 =
 %
 s
-"
+'
 %
 env
 .
@@ -8682,13 +8585,13 @@ self
 .
 _consume
 (
-"
+'
 host
 -
 rust
 -
 library
-"
+'
 RecursiveMakeBackend
 )
         
@@ -8701,32 +8604,30 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
 =
 [
-            
 l
 .
 strip
 (
 )
-            
 for
 l
 in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -8736,25 +8637,24 @@ readlines
 2
 :
 ]
-            
+                 
 if
 not
 l
 .
 startswith
 (
-"
+'
 COMPUTED_
-"
+'
 )
-        
 ]
         
 expected
 =
 [
             
-"
+'
 HOST_RUST_LIBRARY_FILE
 :
 =
@@ -8774,14 +8674,13 @@ release
 libhostrusttool
 .
 a
-"
-            
+'
 %
 env
 .
 topobjdir
             
-"
+'
 CARGO_FILE
 :
 =
@@ -8792,15 +8691,15 @@ srcdir
 Cargo
 .
 toml
-"
+'
             
-"
+'
 CARGO_TARGET_DIR
 :
 =
 %
 s
-"
+'
 %
 env
 .
@@ -8852,7 +8751,7 @@ self
 .
 _consume
 (
-"
+'
 host
 -
 rust
@@ -8860,7 +8759,7 @@ rust
 library
 -
 features
-"
+'
 RecursiveMakeBackend
 )
         
@@ -8873,32 +8772,30 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
 =
 [
-            
 l
 .
 strip
 (
 )
-            
 for
 l
 in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -8908,25 +8805,24 @@ readlines
 2
 :
 ]
-            
+                 
 if
 not
 l
 .
 startswith
 (
-"
+'
 COMPUTED_
-"
+'
 )
-        
 ]
         
 expected
 =
 [
             
-"
+'
 HOST_RUST_LIBRARY_FILE
 :
 =
@@ -8946,14 +8842,13 @@ release
 libhostrusttool
 .
 a
-"
-            
+'
 %
 env
 .
 topobjdir
             
-"
+'
 CARGO_FILE
 :
 =
@@ -8964,27 +8859,27 @@ srcdir
 Cargo
 .
 toml
-"
+'
             
-"
+'
 CARGO_TARGET_DIR
 :
 =
 %
 s
-"
+'
 %
 env
 .
 topobjdir
             
-"
+'
 HOST_RUST_LIBRARY_FEATURES
 :
 =
 musthave
 cantlivewithout
-"
+'
         
 ]
         
@@ -9031,13 +8926,13 @@ self
 .
 _consume
 (
-"
+'
 rust
 -
 library
 -
 features
-"
+'
 RecursiveMakeBackend
 )
         
@@ -9050,32 +8945,30 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
 =
 [
-            
 l
 .
 strip
 (
 )
-            
 for
 l
 in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -9085,25 +8978,24 @@ readlines
 2
 :
 ]
-            
+                 
 if
 not
 l
 .
 startswith
 (
-"
+'
 COMPUTED_
-"
+'
 )
-        
 ]
         
 expected
 =
 [
             
-"
+'
 RUST_LIBRARY_FILE
 :
 =
@@ -9123,14 +9015,13 @@ release
 libfeature_library
 .
 a
-"
-            
+'
 %
 env
 .
 topobjdir
             
-"
+'
 CARGO_FILE
 :
 =
@@ -9141,27 +9032,27 @@ srcdir
 Cargo
 .
 toml
-"
+'
             
-"
+'
 CARGO_TARGET_DIR
 :
 =
 %
 s
-"
+'
 %
 env
 .
 topobjdir
             
-"
+'
 RUST_LIBRARY_FEATURES
 :
 =
 musthave
 cantlivewithout
-"
+'
         
 ]
         
@@ -9207,11 +9098,11 @@ self
 .
 _consume
 (
-"
+'
 rust
 -
 programs
-"
+'
 RecursiveMakeBackend
 )
         
@@ -9224,34 +9115,32 @@ join
 env
 .
 topobjdir
-"
+'
 code
 /
 backend
 .
 mk
-"
+'
 )
         
 lines
 =
 [
-            
 l
 .
 strip
 (
 )
-            
 for
 l
 in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -9261,25 +9150,24 @@ readlines
 2
 :
 ]
-            
+                 
 if
 not
 l
 .
 startswith
 (
-"
+'
 COMPUTED_
-"
+'
 )
-        
 ]
         
 expected
 =
 [
             
-"
+'
 CARGO_FILE
 :
 =
@@ -9291,20 +9179,20 @@ code
 Cargo
 .
 toml
-"
+'
 %
 env
 .
 topsrcdir
             
-"
+'
 CARGO_TARGET_DIR
 :
 =
 .
-"
+'
             
-"
+'
 RUST_PROGRAMS
 +
 =
@@ -9321,16 +9209,16 @@ release
 target
 .
 exe
-"
+'
             
-"
+'
 RUST_CARGO_PROGRAMS
 +
 =
 target
-"
+'
             
-"
+'
 HOST_RUST_PROGRAMS
 +
 =
@@ -9347,14 +9235,14 @@ release
 host
 .
 exe
-"
+'
             
-"
+'
 HOST_RUST_CARGO_PROGRAMS
 +
 =
 host
-"
+'
         
 ]
         
@@ -9375,13 +9263,13 @@ join
 env
 .
 topobjdir
-"
+'
 root
 -
 deps
 .
 mk
-"
+'
 )
         
 lines
@@ -9398,9 +9286,9 @@ in
 open
 (
 root_deps_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -9412,13 +9300,12 @@ self
 .
 assertTrue
 (
-            
 any
 (
 l
 =
 =
-"
+'
 recurse_compile
 :
 code
@@ -9427,13 +9314,12 @@ host
 code
 /
 target
-"
+'
 for
 l
 in
 lines
 )
-        
 )
     
 def
@@ -9467,9 +9353,9 @@ self
 .
 _consume
 (
-"
+'
 final_target
-"
+'
 RecursiveMakeBackend
 )
         
@@ -9535,25 +9421,25 @@ join
 env
 .
 topobjdir
-"
+'
 both
-"
+'
 )
 ]
 =
 [
             
-"
+'
 XPI_NAME
 =
 mycrazyxpi
-"
+'
             
-"
+'
 DIST_SUBDIR
 =
 asubdir
-"
+'
             
 final_target_rule
         
@@ -9568,21 +9454,21 @@ join
 env
 .
 topobjdir
-"
+'
 dist
 -
 subdir
-"
+'
 )
 ]
 =
 [
             
-"
+'
 DIST_SUBDIR
 =
 asubdir
-"
+'
             
 final_target_rule
         
@@ -9597,21 +9483,21 @@ join
 env
 .
 topobjdir
-"
+'
 xpi
 -
 name
-"
+'
 )
 ]
 =
 [
             
-"
+'
 XPI_NAME
 =
 mycrazyxpi
-"
+'
             
 final_target_rule
         
@@ -9626,17 +9512,17 @@ join
 env
 .
 topobjdir
-"
+'
 final
 -
 target
-"
+'
 )
 ]
 =
 [
             
-"
+'
 FINAL_TARGET
 =
 (
@@ -9648,7 +9534,7 @@ random
 final
 -
 target
-"
+'
         
 ]
         
@@ -9671,11 +9557,11 @@ mozpath
 join
 (
 key
-"
+'
 backend
 .
 mk
-"
+'
 )
             
 lines
@@ -9692,9 +9578,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -9709,44 +9595,40 @@ readlines
 found
 =
 [
-                
 str
-                
 for
 str
 in
 lines
-                
 if
+                     
 str
 .
 startswith
 (
-"
+'
 FINAL_TARGET
-"
+'
 )
-                
 or
 str
 .
 startswith
 (
-"
+'
 XPI_NAME
-"
+'
 )
-                
 or
+                     
 str
 .
 startswith
 (
-"
+'
 DIST_SUBDIR
-"
+'
 )
-            
 ]
             
 self
@@ -9788,11 +9670,11 @@ self
 .
 _consume
 (
-"
+'
 dist
 -
 files
-"
+'
 RecursiveMakeBackend
 )
         
@@ -9805,11 +9687,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -9826,9 +9708,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -9844,7 +9726,7 @@ expected
 =
 [
             
-"
+'
 DIST_FILES_0
 +
 =
@@ -9855,9 +9737,9 @@ srcdir
 install
 .
 rdf
-"
+'
             
-"
+'
 DIST_FILES_0
 +
 =
@@ -9868,9 +9750,9 @@ srcdir
 main
 .
 js
-"
+'
             
-"
+'
 DIST_FILES_0_PATH
 :
 =
@@ -9882,21 +9764,21 @@ dist
 /
 bin
 /
-"
+'
             
-"
+'
 DIST_FILES_0_TARGET
 :
 =
 misc
-"
+'
             
-"
+'
 PP_TARGETS
 +
 =
 DIST_FILES_0
-"
+'
         
 ]
         
@@ -9909,9 +9791,9 @@ str
 in
 lines
 if
-"
+'
 DIST_FILES
-"
+'
 in
 str
 ]
@@ -9955,11 +9837,11 @@ self
 .
 _consume
 (
-"
+'
 localized
 -
 files
-"
+'
 RecursiveMakeBackend
 )
         
@@ -9972,11 +9854,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -9993,9 +9875,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -10011,7 +9893,7 @@ expected
 =
 [
             
-"
+'
 LOCALIZED_FILES_0_FILES
 +
 =
@@ -10027,9 +9909,9 @@ abc
 .
 abc
 )
-"
+'
             
-"
+'
 LOCALIZED_FILES_0_FILES
 +
 =
@@ -10040,9 +9922,9 @@ bar
 .
 ini
 )
-"
+'
             
-"
+'
 LOCALIZED_FILES_0_FILES
 +
 =
@@ -10053,30 +9935,30 @@ foo
 .
 js
 )
-"
+'
             
-"
+'
 LOCALIZED_FILES_0_DEST
 =
 (
 FINAL_TARGET
 )
 /
-"
+'
             
-"
+'
 LOCALIZED_FILES_0_TARGET
 :
 =
 misc
-"
+'
             
-"
+'
 INSTALL_TARGETS
 +
 =
 LOCALIZED_FILES_0
-"
+'
         
 ]
         
@@ -10089,9 +9971,9 @@ str
 in
 lines
 if
-"
+'
 LOCALIZED_FILES
-"
+'
 in
 str
 ]
@@ -10135,13 +10017,13 @@ self
 .
 _consume
 (
-"
+'
 localized
 -
 pp
 -
 files
-"
+'
 RecursiveMakeBackend
 )
         
@@ -10154,11 +10036,11 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
         
 lines
@@ -10175,9 +10057,9 @@ in
 open
 (
 backend_path
-"
+'
 rt
-"
+'
 )
 .
 readlines
@@ -10193,7 +10075,7 @@ expected
 =
 [
             
-"
+'
 LOCALIZED_PP_FILES_0
 +
 =
@@ -10204,9 +10086,9 @@ bar
 .
 ini
 )
-"
+'
             
-"
+'
 LOCALIZED_PP_FILES_0
 +
 =
@@ -10217,25 +10099,25 @@ foo
 .
 js
 )
-"
+'
             
-"
+'
 LOCALIZED_PP_FILES_0_PATH
 =
 (
 FINAL_TARGET
 )
 /
-"
+'
             
-"
+'
 LOCALIZED_PP_FILES_0_TARGET
 :
 =
 misc
-"
+'
             
-"
+'
 LOCALIZED_PP_FILES_0_FLAGS
 :
 =
@@ -10248,14 +10130,14 @@ missing
 directive
 -
 warnings
-"
+'
             
-"
+'
 PP_TARGETS
 +
 =
 LOCALIZED_PP_FILES_0
-"
+'
         
 ]
         
@@ -10268,9 +10150,9 @@ str
 in
 lines
 if
-"
+'
 LOCALIZED_PP_FILES
-"
+'
 in
 str
 ]
@@ -10310,9 +10192,9 @@ self
 .
 _consume
 (
-"
+'
 test_config
-"
+'
 RecursiveMakeBackend
 )
         
@@ -10332,44 +10214,42 @@ join
 env
 .
 topobjdir
-"
+'
 file
-"
+'
 )
-"
+'
 r
-"
+'
 )
 .
 readlines
 (
 )
-            
 [
                 
-"
+'
 #
 ifdef
 foo
 \
 n
-"
+'
                 
-"
+'
 bar
 baz
 \
 n
-"
+'
                 
-"
+'
 bar
 \
 n
-"
+'
             
 ]
-        
 )
     
 def
@@ -10404,7 +10284,7 @@ self
 .
 _consume
 (
-"
+'
 prog
 -
 lib
@@ -10412,7 +10292,7 @@ lib
 c
 -
 only
-"
+'
 RecursiveMakeBackend
 )
         
@@ -10428,20 +10308,20 @@ join
 env
 .
 topobjdir
-"
+'
 c
 -
 program
-"
-"
+'
+'
 backend
 .
 mk
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -10473,12 +10353,12 @@ self
 .
 assertIn
 (
-"
+'
 PROG_IS_C_ONLY_c_test_program
 :
 =
 1
-"
+'
 lines
 )
         
@@ -10494,20 +10374,20 @@ join
 env
 .
 topobjdir
-"
+'
 cxx
 -
 program
-"
-"
+'
+'
 backend
 .
 mk
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -10545,16 +10425,15 @@ self
 .
 assertNotIn
 (
-"
+'
 PROG_IS_C_ONLY_cxx_test_program
-"
+'
 line
 )
         
 with
 open
 (
-            
 os
 .
 path
@@ -10564,23 +10443,22 @@ join
 env
 .
 topobjdir
-"
+'
 c
 -
 simple
 -
 programs
-"
-"
+'
+'
 backend
 .
 mk
-"
+'
 )
-"
+'
 r
-"
-        
+'
 )
 as
 fh
@@ -10612,19 +10490,18 @@ self
 .
 assertIn
 (
-"
+'
 PROG_IS_C_ONLY_c_simple_program
 :
 =
 1
-"
+'
 lines
 )
         
 with
 open
 (
-            
 os
 .
 path
@@ -10634,23 +10511,22 @@ join
 env
 .
 topobjdir
-"
+'
 cxx
 -
 simple
 -
 programs
-"
-"
+'
+'
 backend
 .
 mk
-"
+'
 )
-"
+'
 r
-"
-        
+'
 )
 as
 fh
@@ -10688,9 +10564,9 @@ self
 .
 assertNotIn
 (
-"
+'
 PROG_IS_C_ONLY_cxx_simple_program
-"
+'
 line
 )
         
@@ -10706,20 +10582,20 @@ join
 env
 .
 topobjdir
-"
+'
 c
 -
 library
-"
-"
+'
+'
 backend
 .
 mk
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -10751,12 +10627,12 @@ self
 .
 assertIn
 (
-"
+'
 LIB_IS_C_ONLY
 :
 =
 1
-"
+'
 lines
 )
         
@@ -10772,20 +10648,20 @@ join
 env
 .
 topobjdir
-"
+'
 cxx
 -
 library
-"
-"
+'
+'
 backend
 .
 mk
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -10823,9 +10699,9 @@ self
 .
 assertNotIn
 (
-"
+'
 LIB_IS_C_ONLY
-"
+'
 line
 )
     
@@ -10842,9 +10718,9 @@ self
 .
 _consume
 (
-"
+'
 linkage
-"
+'
 RecursiveMakeBackend
 )
         
@@ -10852,25 +10728,26 @@ expected_linkage
 =
 {
             
-"
+'
 prog
-"
+'
 :
 {
                 
-"
+'
 SHARED_LIBS
-"
+'
 :
 [
-"
+'
 qux
 /
 qux
 .
 so
-"
-"
+'
+                                
+'
 .
 .
 /
@@ -10879,15 +10756,15 @@ shared
 baz
 .
 so
-"
+'
 ]
                 
-"
+'
 STATIC_LIBS
-"
+'
 :
 [
-"
+'
 .
 .
 /
@@ -10896,53 +10773,53 @@ real
 foo
 .
 a
-"
+'
 ]
                 
-"
+'
 OS_LIBS
-"
+'
 :
 [
-"
+'
 -
 lfoo
-"
-"
+'
+'
 -
 lbaz
-"
-"
+'
+'
 -
 lbar
-"
+'
 ]
             
 }
             
-"
+'
 shared
-"
+'
 :
 {
                 
-"
+'
 OS_LIBS
-"
+'
 :
 [
-"
+'
 -
 lfoo
-"
+'
 ]
                 
-"
+'
 SHARED_LIBS
-"
+'
 :
 [
-"
+'
 .
 .
 /
@@ -10953,30 +10830,30 @@ qux
 qux
 .
 so
-"
+'
 ]
                 
-"
+'
 STATIC_LIBS
-"
+'
 :
 [
 ]
             
 }
             
-"
+'
 static
-"
+'
 :
 {
                 
-"
+'
 STATIC_LIBS
-"
+'
 :
 [
-"
+'
 .
 .
 /
@@ -10985,26 +10862,26 @@ real
 foo
 .
 a
-"
+'
 ]
                 
-"
+'
 OS_LIBS
-"
+'
 :
 [
-"
+'
 -
 lbar
-"
+'
 ]
                 
-"
+'
 SHARED_LIBS
-"
+'
 :
 [
-"
+'
 .
 .
 /
@@ -11015,30 +10892,30 @@ qux
 qux
 .
 so
-"
+'
 ]
             
 }
             
-"
+'
 real
-"
+'
 :
 {
                 
-"
+'
 STATIC_LIBS
-"
+'
 :
 [
 ]
                 
-"
+'
 SHARED_LIBS
-"
+'
 :
 [
-"
+'
 .
 .
 /
@@ -11049,18 +10926,18 @@ qux
 qux
 .
 so
-"
+'
 ]
                 
-"
+'
 OS_LIBS
-"
+'
 :
 [
-"
+'
 -
 lbaz
-"
+'
 ]
             
 }
@@ -11095,15 +10972,15 @@ env
 .
 topobjdir
 name
-"
+'
 backend
 .
 mk
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -11170,14 +11047,14 @@ val
                     
 line
 =
-"
+'
 %
 s
 +
 =
 %
 s
-"
+'
 %
 (
 var
@@ -11189,6 +11066,7 @@ self
 assertIn
 (
 line
+                                  
 actual_linkage
 [
 name
@@ -11218,12 +11096,12 @@ self
 .
 assertNotIn
 (
-"
+'
 %
 s
 +
 =
-"
+'
 %
 var
 line
@@ -11242,9 +11120,9 @@ self
 .
 _consume
 (
-"
+'
 linkage
-"
+'
 RecursiveMakeBackend
 )
         
@@ -11252,17 +11130,17 @@ expected_list_files
 =
 {
             
-"
+'
 prog
 /
 MyProgram_exe
 .
 list
-"
+'
 :
 [
                 
-"
+'
 .
 .
 /
@@ -11273,9 +11151,9 @@ bar
 bar1
 .
 o
-"
+'
                 
-"
+'
 .
 .
 /
@@ -11286,9 +11164,9 @@ bar
 bar2
 .
 o
-"
+'
                 
-"
+'
 .
 .
 /
@@ -11301,27 +11179,27 @@ bar_helper
 bar_helper1
 .
 o
-"
+'
             
 ]
             
-"
+'
 shared
 /
 baz_so
 .
 list
-"
+'
 :
 [
                 
-"
+'
 baz
 /
 baz1
 .
 o
-"
+'
             
 ]
         
@@ -11356,9 +11234,9 @@ env
 topobjdir
 name
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -11375,6 +11253,7 @@ line
 rstrip
 (
 )
+                                           
 for
 line
 in
@@ -11395,12 +11274,11 @@ self
 .
 assertEqual
 (
-                
 actual_list_files
 [
 name
 ]
-                
+                             
 [
 os
 .
@@ -11418,7 +11296,6 @@ expected_list_files
 name
 ]
 ]
-            
 )
         
 with
@@ -11433,21 +11310,21 @@ join
 env
 .
 topobjdir
-"
+'
 prog
-"
-"
+'
+'
 qux
-"
-"
+'
+'
 backend
 .
 mk
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -11475,7 +11352,7 @@ self
 .
 assertIn
 (
-"
+'
 qux
 .
 so_OBJS
@@ -11484,7 +11361,7 @@ so_OBJS
 qux1
 .
 o
-"
+'
 lines
 )
     
@@ -11501,11 +11378,11 @@ self
 .
 _consume
 (
-"
+'
 jar
 -
 manifests
-"
+'
 RecursiveMakeBackend
 )
         
@@ -11521,15 +11398,15 @@ join
 env
 .
 topobjdir
-"
+'
 backend
 .
 mk
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -11561,7 +11438,7 @@ self
 .
 assertIn
 (
-"
+'
 JAR_MANIFEST
 :
 =
@@ -11571,7 +11448,7 @@ s
 jar
 .
 mn
-"
+'
 %
 env
 .
@@ -11609,8 +11486,7 @@ self
 .
 _consume
 (
-            
-"
+'
 test
 -
 manifests
@@ -11620,9 +11496,9 @@ duplicate
 support
 -
 files
-"
+'
+                            
 RecursiveMakeBackend
-        
 )
         
 p
@@ -11636,15 +11512,15 @@ join
 env
 .
 topobjdir
-"
+'
 _build_manifests
-"
-"
+'
+'
 install
-"
-"
+'
+'
 _test_files
-"
+'
 )
         
 m
@@ -11658,7 +11534,7 @@ self
 .
 assertIn
 (
-"
+'
 testing
 /
 mochitest
@@ -11670,7 +11546,7 @@ support
 file
 .
 txt
-"
+'
 m
 )
     
@@ -11702,7 +11578,7 @@ self
 .
 _consume
 (
-"
+'
 test
 -
 manifests
@@ -11710,7 +11586,7 @@ manifests
 package
 -
 tests
-"
+'
 RecursiveMakeBackend
 )
         
@@ -11723,12 +11599,12 @@ join
 env
 .
 topobjdir
-"
+'
 _build_manifests
-"
-"
+'
+'
 install
-"
+'
 )
         
 self
@@ -11752,9 +11628,9 @@ mozpath
 join
 (
 man_dir
-"
+'
 _test_files
-"
+'
 )
         
 self
@@ -11784,7 +11660,7 @@ self
 .
 assertTrue
 (
-"
+'
 testing
 /
 mochitest
@@ -11794,7 +11670,7 @@ tests
 mochitest
 .
 js
-"
+'
 in
 m
 )
@@ -11803,7 +11679,7 @@ self
 .
 assertFalse
 (
-"
+'
 instrumentation
 /
 .
@@ -11811,7 +11687,7 @@ instrumentation
 not_packaged
 .
 java
-"
+'
 in
 m
 )
@@ -11858,11 +11734,11 @@ self
 .
 _consume
 (
-"
+'
 program
 -
 paths
-"
+'
 RecursiveMakeBackend
 )
         
@@ -11871,12 +11747,12 @@ expected
 [
             
 (
-"
+'
 dist
 -
 bin
-"
-"
+'
+'
 (
 DEPTH
 )
@@ -11890,16 +11766,16 @@ dist
 bin
 .
 prog
-"
+'
 )
             
 (
-"
+'
 dist
 -
 subdir
-"
-"
+'
+'
 (
 DEPTH
 )
@@ -11915,16 +11791,16 @@ dist
 subdir
 .
 prog
-"
+'
 )
             
 (
-"
+'
 final
 -
 target
-"
-"
+'
+'
 (
 DEPTH
 )
@@ -11938,32 +11814,32 @@ final
 target
 .
 prog
-"
+'
 )
             
 (
-"
+'
 not
 -
 installed
-"
-"
+'
+'
 not
 -
 installed
 .
 prog
-"
+'
 )
         
 ]
         
 prefix
 =
-"
+'
 PROGRAM
 =
-"
+'
         
 for
 (
@@ -11989,15 +11865,15 @@ env
 .
 topobjdir
 subdir
-"
+'
 backend
 .
 mk
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -12014,7 +11890,6 @@ readlines
 program
 =
 [
-                    
 line
 .
 rstrip
@@ -12029,12 +11904,11 @@ prefix
 [
 1
 ]
-                    
 for
 line
 in
 lines
-                    
+                           
 if
 line
 .
@@ -12042,7 +11916,6 @@ startswith
 (
 prefix
 )
-                
 ]
 [
 0
@@ -12059,9 +11932,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

@@ -57,9 +57,9 @@ buildconfig
 .
 substs
 [
-"
+'
 WINCHECKSEC
-"
+'
 ]
 except
 KeyError
@@ -67,7 +67,6 @@ KeyError
     
 print
 (
-        
 "
 TEST
 -
@@ -84,7 +83,7 @@ environment
 variable
 is
 "
-        
+          
 "
 not
 set
@@ -100,7 +99,6 @@ etc
 status
 .
 "
-    
 )
     
 sys
@@ -117,9 +115,9 @@ substs
 .
 get
 (
-"
+'
 WINE
-"
+'
 )
 if
 wine
@@ -132,10 +130,10 @@ lower
 .
 endswith
 (
-"
+'
 .
 exe
-"
+'
 )
 :
     
@@ -165,12 +163,13 @@ check_output
 cmd
 +
 [
-"
+'
 -
 j
-"
+'
 binary_path
 ]
+                                     
 universal_newlines
 =
 True
@@ -185,7 +184,6 @@ e
     
 print
 (
-        
 "
 TEST
 -
@@ -209,9 +207,9 @@ n
 %
 s
 "
-        
 %
 (
+          
 e
 .
 returncode
@@ -219,7 +217,6 @@ e
 .
 output
 )
-    
 )
     
 sys
@@ -240,48 +237,48 @@ checks
 =
 [
     
-"
+'
 aslr
-"
+'
     
-"
+'
 cfg
-"
+'
     
-"
+'
 dynamicBase
-"
+'
     
-"
+'
 gs
-"
+'
     
-"
+'
 isolation
-"
+'
     
-"
+'
 nx
-"
+'
     
-"
+'
 seh
-"
+'
 ]
 if
 buildconfig
 .
 substs
 [
-"
+'
 CPU_ARCH
-"
+'
 ]
 =
 =
-"
+'
 x86
-"
+'
 :
     
 checks
@@ -289,9 +286,9 @@ checks
 =
 [
         
-"
+'
 safeSEH
-"
+'
     
 ]
 else
@@ -302,9 +299,9 @@ checks
 =
 [
         
-"
+'
 highEntropyVA
-"
+'
     
 ]
 failed
@@ -331,7 +328,6 @@ failed
     
 print
 (
-        
 "
 TEST
 -
@@ -355,8 +351,8 @@ for
 %
 s
 "
-        
 %
+          
 (
 len
 (
@@ -364,12 +360,10 @@ failed
 )
 binary_path
 )
-    
 )
     
 print
 (
-        
 "
 TEST
 -
@@ -392,18 +386,17 @@ failed
 %
 s
 "
-        
 %
+          
 (
-"
-"
+'
+'
 .
 join
 (
 failed
 )
 )
-    
 )
     
 sys

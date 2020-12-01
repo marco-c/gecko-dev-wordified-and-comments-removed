@@ -51,24 +51,21 @@ parser
 .
 add_argument
 (
-        
 "
 -
 v
 "
-        
 "
 -
 -
 verbose
 "
-        
 action
 =
 "
 store_true
 "
-        
+                        
 help
 =
 "
@@ -77,26 +74,24 @@ verbose
 registration
 failures
 "
-        
 default
 =
 False
-    
 )
     
 parser
 .
 add_argument
 (
-        
 "
 file
 "
 nargs
 =
-"
+'
 *
-"
+'
+                        
 help
 =
 "
@@ -111,31 +106,27 @@ default
 =
 [
 ]
-    
 )
     
 parser
 .
 add_argument
 (
-        
 "
 -
 u
 "
-        
 "
 -
 -
 unregister
 "
-        
 action
 =
 "
 store_true
 "
-        
+                        
 help
 =
 "
@@ -144,23 +135,19 @@ the
 provided
 fonts
 "
-        
 default
 =
 False
-    
 )
     
 parser
 .
 add_argument
 (
-        
 "
 -
 p
 "
-        
 "
 -
 -
@@ -168,13 +155,12 @@ persist
 -
 user
 "
-        
 action
 =
 "
 store_true
 "
-        
+                        
 help
 =
 "
@@ -183,11 +169,9 @@ register
 the
 font
 "
-        
 default
 =
 False
-    
 )
     
 args
@@ -262,6 +246,7 @@ error
 register_or_unregister_font
 (
 fontURL
+                                                      
 args
 .
 unregister
@@ -274,7 +259,6 @@ result
             
 print
 (
-                
 "
 %
 sregistered
@@ -286,8 +270,8 @@ with
 s
 scope
 "
-                
 %
+                  
 (
 (
 "
@@ -304,7 +288,6 @@ else
 fontPath
 scopeDesc
 )
-            
 )
         
 else
@@ -312,7 +295,6 @@ else
             
 print
 (
-                
 "
 Failed
 to
@@ -326,8 +308,8 @@ with
 s
 scope
 "
-                
 %
+                  
 (
 (
 "
@@ -344,7 +326,6 @@ else
 fontPath
 scopeDesc
 )
-            
 )
             
 if
@@ -380,37 +361,36 @@ scope
     
 return
 (
-        
 CoreText
 .
 CTFontManagerUnregisterFontsForURL
 (
 fontURL
+                                                        
 scope
 None
 )
-        
 if
 unregister
-        
+            
 else
 CoreText
 .
 CTFontManagerRegisterFontsForURL
 (
 fontURL
+                                                           
 scope
 None
 )
-    
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

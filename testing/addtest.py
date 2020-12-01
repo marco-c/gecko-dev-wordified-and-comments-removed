@@ -315,7 +315,7 @@ manifest_file
             
 print
 (
-"
+'
 Could
 not
 open
@@ -323,7 +323,7 @@ manifest
 file
 {
 }
-"
+'
 .
 format
 (
@@ -435,12 +435,12 @@ dirname
 (
 __file__
 )
-"
+'
 mochitest
-"
-"
+'
+'
 static
-"
+'
 )
         
 )
@@ -470,7 +470,6 @@ None
             
 print
 (
-                
 "
 Sorry
 addtest
@@ -488,13 +487,10 @@ add
 .
 format
 (
-                    
 self
 .
 suite
-                
 )
-            
 )
             
 return
@@ -540,7 +536,6 @@ template_file
             
 print
 (
-                
 "
 Sorry
 addtest
@@ -560,19 +555,17 @@ type
 {
 }
 "
+                  
 .
 format
 (
-                    
 self
 .
 suite
 self
 .
 doc
-                
 )
-            
 )
             
 return
@@ -698,7 +691,7 @@ manifest_file
             
 print
 (
-"
+'
 Could
 not
 open
@@ -706,7 +699,7 @@ manifest
 file
 {
 }
-"
+'
 .
 format
 (
@@ -1009,7 +1002,6 @@ parser
 .
 add_argument
 (
-            
 "
 -
 -
@@ -1017,13 +1009,12 @@ long
 -
 timeout
 "
-            
 action
 =
 "
 store_true
 "
-            
+                            
 help
 =
 "
@@ -1035,7 +1026,7 @@ a
 long
 timeout
 "
-            
+                            
 "
 (
 typically
@@ -1050,14 +1041,12 @@ on
 environment
 )
 "
-        
 )
         
 parser
 .
 add_argument
 (
-            
 "
 -
 m
@@ -1081,14 +1070,12 @@ the
 reference
 file
 "
-        
 )
         
 parser
 .
 add_argument
 (
-            
 "
 -
 -
@@ -1099,6 +1086,7 @@ action
 "
 store_true
 "
+                            
 help
 =
 "
@@ -1107,26 +1095,23 @@ a
 mismatch
 reftest
 "
-        
 )
         
 parser
 .
 add_argument
 (
-            
 "
 -
 -
 wait
 "
-            
 action
 =
 "
 store_true
 "
-            
+                            
 help
 =
 "
@@ -1142,7 +1127,6 @@ takeScreenshot
 is
 called
 "
-        
 )
     
 def
@@ -1167,7 +1151,6 @@ None
             
 print
 (
-                
 "
 "
 "
@@ -1211,12 +1194,10 @@ tests
 "
 "
 "
-                
 %
 self
 .
 test
-            
 )
             
 return
@@ -1449,7 +1430,6 @@ False
 args
 =
 {
-            
 "
 documentElement
 "
@@ -1466,7 +1446,7 @@ wait
 \
 n
 "
-            
+                
 if
 self
 .
@@ -1476,11 +1456,9 @@ kwargs
 wait
 "
 ]
-            
 else
 "
 "
-        
 }
         
 if
@@ -1572,7 +1550,6 @@ reference
 args
 =
 {
-                        
 "
 match
 "
@@ -1594,13 +1571,12 @@ else
 "
 mismatch
 "
-                        
+                            
 "
 ref
 "
 :
 (
-                            
 self
 .
 ref_url
@@ -1614,7 +1590,7 @@ ref
 "
 ]
 )
-                            
+                                    
 if
 self
 .
@@ -1624,15 +1600,12 @@ kwargs
 ref
 "
 ]
-                            
 else
 '
 "
 "
 '
-                        
 )
-                    
 }
                     
 template
@@ -1974,7 +1947,6 @@ test
 )
 path
 )
-                
 )
                 
 if
@@ -2200,9 +2172,9 @@ any
 (
 t
 [
-"
+'
 name
-"
+'
 ]
 =
 =
@@ -2250,9 +2222,9 @@ test
 .
 get
 (
-"
+'
 name
-"
+'
 )
 >
 filename
@@ -2264,9 +2236,9 @@ test
 .
 get
 (
-"
+'
 name
-"
+'
 )
             
 break
@@ -2293,14 +2265,14 @@ readlines
     
 filename
 =
-"
+'
 [
 {
 }
 ]
 \
 n
-"
+'
 .
 format
 (
@@ -2324,12 +2296,12 @@ else
         
 insert_before
 =
-"
+'
 [
 {
 }
 ]
-"
+'
 .
 format
 (
@@ -2381,10 +2353,10 @@ w
 "
 newline
 =
-"
+'
 \
 n
-"
+'
 )
 as
 f
@@ -2405,13 +2377,12 @@ contents
 TEST_CREATORS
 =
 {
-    
 "
 mochitest
 "
 :
 MochitestCreator
-    
+                 
 "
 web
 -
@@ -2421,7 +2392,7 @@ tests
 "
 :
 WebPlatformTestsCreator
-    
+                 
 "
 xpcshell
 "

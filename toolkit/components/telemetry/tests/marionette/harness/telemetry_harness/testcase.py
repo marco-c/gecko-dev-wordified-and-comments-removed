@@ -342,7 +342,6 @@ uploadEnabled
 :
 False
 }
-        
 )
         
 self
@@ -409,7 +408,6 @@ uploadEnabled
 :
 True
 }
-        
 )
         
 self
@@ -724,6 +722,7 @@ self
 .
 assertNotEqual
 (
+            
 value
 CANARY_CLIENT_ID
 msg
@@ -735,6 +734,7 @@ CANARY
 CLIENT
 ID
 "
+        
 )
         
 self
@@ -1015,14 +1015,12 @@ self
 .
 wait_for_pings
 (
-            
 action_func
 ping_filter
 1
 ping_server
 =
 ping_server
-        
 )
         
 return
@@ -1305,6 +1303,7 @@ self
 .
 fail
 (
+                
 "
 {
 }
@@ -1327,6 +1326,7 @@ e
 .
 message
 )
+            
 )
         
 else

@@ -12,9 +12,9 @@ mozinfo
 os
 =
 =
-"
+'
 linux
-"
+'
 :
     
 from
@@ -23,6 +23,8 @@ talos
 cmanager_linux
 import
 LinuxCounterManager
+\
+        
 as
 DefaultCounterManager
 elif
@@ -31,9 +33,9 @@ mozinfo
 os
 =
 =
-"
+'
 win
-"
+'
 :
     
 from
@@ -42,6 +44,8 @@ talos
 cmanager_win32
 import
 WinCounterManager
+\
+        
 as
 DefaultCounterManager
 else
@@ -53,6 +57,8 @@ talos
 cmanager_mac
 import
 MacCounterManager
+\
+        
 as
 DefaultCounterManager
 class
@@ -144,6 +150,8 @@ self
 .
 _counter_results
 =
+\
+            
 dict
 (
 [
@@ -209,17 +217,16 @@ manager
 =
 DefaultCounterManager
 (
-            
 self
 .
 _process_name
 self
 .
 _process
+                                        
 self
 .
 _raw_counters
-        
 )
         
 while

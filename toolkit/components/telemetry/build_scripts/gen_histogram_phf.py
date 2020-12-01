@@ -179,7 +179,6 @@ filenames
 histograms
 =
 [
-            
 h
 for
 h
@@ -199,7 +198,6 @@ OS_TARGET
 "
 ]
 )
-        
 ]
     
 except
@@ -241,7 +239,6 @@ exit
 histograms
 =
 [
-        
 (
 bytearray
 (
@@ -250,9 +247,9 @@ hist
 name
 (
 )
-"
+'
 ascii
-"
+'
 )
 idx
 )
@@ -266,7 +263,6 @@ enumerate
 (
 histograms
 )
-    
 ]
     
 name_phf
@@ -281,24 +277,23 @@ output
 .
 write
 (
-        
 name_phf
 .
 cxx_codegen
 (
-            
+        
 name
 =
-"
+'
 HistogramIDByNameLookup
-"
-            
+'
+        
 entry_type
 =
 "
 uint32_t
 "
-            
+        
 lower_entry
 =
 lambda
@@ -311,7 +306,7 @@ x
 1
 ]
 )
-            
+        
 key_type
 =
 "
@@ -319,7 +314,7 @@ const
 nsACString
 &
 "
-            
+        
 key_bytes
 =
 "
@@ -329,7 +324,7 @@ BeginReading
 (
 )
 "
-            
+        
 key_length
 =
 "
@@ -339,9 +334,7 @@ Length
 (
 )
 "
-        
 )
-    
 )
     
 output
@@ -354,9 +347,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

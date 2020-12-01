@@ -113,11 +113,11 @@ path
 join
 (
 ABS_WORK_DIR
-"
+'
 hg
 -
 shared
-"
+'
 )
     
 "

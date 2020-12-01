@@ -12,7 +12,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -137,7 +136,6 @@ arg1
 "
 "
 "
-    
 )
     
 results
@@ -199,6 +197,7 @@ WebIDL
 .
 IDLInterface
 )
+               
 "
 Should
 be
@@ -211,7 +210,6 @@ harness
 .
 check
 (
-        
 iface
 .
 identifier
@@ -231,7 +229,6 @@ the
 right
 QName
 "
-    
 )
     
 harness
@@ -302,6 +299,7 @@ WebIDL
 .
 IDLArgument
 )
+                   
 "
 Should
 be
@@ -314,7 +312,6 @@ harness
 .
 check
 (
-            
 argument
 .
 identifier
@@ -330,7 +327,6 @@ the
 right
 QName
 "
-        
 )
         
 harness
@@ -377,7 +373,6 @@ harness
 .
 check
 (
-            
 argument
 .
 optional
@@ -390,14 +385,12 @@ right
 optional
 value
 "
-        
 )
         
 harness
 .
 check
 (
-            
 argument
 .
 variadic
@@ -410,45 +403,35 @@ right
 variadic
 value
 "
-        
 )
     
 def
 checkMethod
 (
-        
 method
-        
 QName
-        
 name
-        
 signatures
-        
+                    
 static
 =
 False
-        
 getter
 =
 False
-        
 setter
 =
 False
-        
+                    
 deleter
 =
 False
-        
 legacycaller
 =
 False
-        
 stringifier
 =
 False
-    
 )
 :
         
@@ -463,6 +446,7 @@ WebIDL
 .
 IDLMethod
 )
+                   
 "
 Should
 be
@@ -630,7 +614,6 @@ harness
 .
 check
 (
-            
 method
 .
 isDeleter
@@ -645,22 +628,18 @@ correct
 deleter
 value
 "
-        
 )
         
 harness
 .
 check
 (
-            
 method
 .
 isLegacycaller
 (
 )
-            
 legacycaller
-            
 "
 Method
 has
@@ -669,22 +648,18 @@ correct
 legacycaller
 value
 "
-        
 )
         
 harness
 .
 check
 (
-            
 method
 .
 isStringifier
 (
 )
-            
 stringifier
-            
 "
 Method
 has
@@ -693,14 +668,12 @@ correct
 stringifier
 value
 "
-        
 )
         
 harness
 .
 check
 (
-            
 len
 (
 method
@@ -709,12 +682,10 @@ signatures
 (
 )
 )
-            
 len
 (
 signatures
 )
-            
 "
 Method
 has
@@ -724,7 +695,6 @@ number
 of
 signatures
 "
-        
 )
         
 sigpairs
@@ -766,12 +736,12 @@ harness
 .
 check
 (
-                
 str
 (
 gotRetType
 )
 expectedRetType
+                          
 "
 Method
 has
@@ -781,7 +751,6 @@ return
 type
 .
 "
-            
 )
             
 for
@@ -853,12 +822,10 @@ Void
     
 checkMethod
 (
-        
 methods
 [
 1
 ]
-        
 "
 :
 :
@@ -867,11 +834,10 @@ TestMethods
 :
 basicStatic
 "
-        
 "
 basicStatic
 "
-        
+                
 [
 (
 "
@@ -881,21 +847,17 @@ Void
 ]
 )
 ]
-        
 static
 =
 True
-    
 )
     
 checkMethod
 (
-        
 methods
 [
 2
 ]
-        
 "
 :
 :
@@ -904,23 +866,19 @@ TestMethods
 :
 basicWithSimpleArgs
 "
-        
+                
 "
 basicWithSimpleArgs
 "
-        
+       
 [
-            
 (
-                
 "
 Void
 "
-                
+        
 [
-                    
 (
-                        
 "
 :
 :
@@ -932,23 +890,17 @@ basicWithSimpleArgs
 :
 arg1
 "
-                        
 "
 arg1
 "
-                        
 "
 Boolean
 "
-                        
 False
-                        
 False
-                    
 )
-                    
+         
 (
-                        
 "
 :
 :
@@ -960,23 +912,17 @@ basicWithSimpleArgs
 :
 arg2
 "
-                        
 "
 arg2
 "
-                        
 "
 Byte
 "
-                        
 False
-                        
 False
-                    
 )
-                    
+         
 (
-                        
 "
 :
 :
@@ -988,32 +934,22 @@ basicWithSimpleArgs
 :
 arg3
 "
-                        
 "
 arg3
 "
-                        
 "
 UnsignedLong
 "
-                        
 False
-                        
 False
-                    
 )
-                
 ]
-            
 )
-        
 ]
-    
 )
     
 checkMethod
 (
-        
 methods
 [
 3
@@ -1038,17 +974,14 @@ Boolean
 ]
 )
 ]
-    
 )
     
 checkMethod
 (
-        
 methods
 [
 4
 ]
-        
 "
 :
 :
@@ -1057,11 +990,9 @@ TestMethods
 :
 basicStaticBoolean
 "
-        
 "
 basicStaticBoolean
 "
-        
 [
 (
 "
@@ -1071,21 +1002,17 @@ Boolean
 ]
 )
 ]
-        
 static
 =
 True
-    
 )
     
 checkMethod
 (
-        
 methods
 [
 5
 ]
-        
 "
 :
 :
@@ -1094,23 +1021,19 @@ TestMethods
 :
 basicBooleanWithSimpleArgs
 "
-        
+                
 "
 basicBooleanWithSimpleArgs
 "
-        
+       
 [
-            
 (
-                
 "
 Boolean
 "
-                
+        
 [
-                    
 (
-                        
 "
 :
 :
@@ -1122,23 +1045,17 @@ basicBooleanWithSimpleArgs
 :
 arg1
 "
-                        
 "
 arg1
 "
-                        
 "
 Boolean
 "
-                        
 False
-                        
 False
-                    
 )
-                    
+         
 (
-                        
 "
 :
 :
@@ -1150,23 +1067,17 @@ basicBooleanWithSimpleArgs
 :
 arg2
 "
-                        
 "
 arg2
 "
-                        
 "
 Byte
 "
-                        
 False
-                        
 False
-                    
 )
-                    
+         
 (
-                        
 "
 :
 :
@@ -1178,37 +1089,26 @@ basicBooleanWithSimpleArgs
 :
 arg3
 "
-                        
 "
 arg3
 "
-                        
 "
 UnsignedLong
 "
-                        
 False
-                        
 False
-                    
 )
-                
 ]
-            
 )
-        
 ]
-    
 )
     
 checkMethod
 (
-        
 methods
 [
 6
 ]
-        
 "
 :
 :
@@ -1217,23 +1117,19 @@ TestMethods
 :
 optionalArg
 "
-        
+                
 "
 optionalArg
 "
-        
+       
 [
-            
 (
-                
 "
 Void
 "
-                
+        
 [
-                    
 (
-                        
 "
 :
 :
@@ -1245,23 +1141,17 @@ optionalArg
 :
 arg1
 "
-                        
 "
 arg1
 "
-                        
 "
 ByteOrNull
 "
-                        
 True
-                        
 False
-                    
 )
-                    
+         
 (
-                        
 "
 :
 :
@@ -1273,37 +1163,26 @@ optionalArg
 :
 arg2
 "
-                        
 "
 arg2
 "
-                        
 "
 ByteSequence
 "
-                        
 True
-                        
 False
-                    
 )
-                
 ]
-            
 )
-        
 ]
-    
 )
     
 checkMethod
 (
-        
 methods
 [
 7
 ]
-        
 "
 :
 :
@@ -1312,23 +1191,19 @@ TestMethods
 :
 variadicArg
 "
-        
+                
 "
 variadicArg
 "
-        
+       
 [
-            
 (
-                
 "
 Void
 "
-                
+        
 [
-                    
 (
-                        
 "
 :
 :
@@ -1340,27 +1215,18 @@ variadicArg
 :
 arg1
 "
-                        
 "
 arg1
 "
-                        
 "
 ByteOrNull
 "
-                        
 True
-                        
 True
-                    
 )
-                
 ]
-            
 )
-        
 ]
-    
 )
     
 checkMethod
@@ -1377,6 +1243,7 @@ TestMethods
 :
 getObject
 "
+                
 "
 getObject
 "
@@ -1393,12 +1260,10 @@ Object
     
 checkMethod
 (
-        
 methods
 [
 9
 ]
-        
 "
 :
 :
@@ -1407,19 +1272,17 @@ TestMethods
 :
 setObject
 "
-        
+                
 "
 setObject
 "
-        
+       
 [
-            
 (
-                
 "
 Void
 "
-                
+        
 [
 (
 "
@@ -1443,21 +1306,16 @@ False
 False
 )
 ]
-            
 )
-        
 ]
-    
 )
     
 checkMethod
 (
-        
 methods
 [
 10
 ]
-        
 "
 :
 :
@@ -1466,16 +1324,17 @@ TestMethods
 :
 setAny
 "
-        
+                
 "
 setAny
 "
-        
+       
 [
 (
 "
 Void
 "
+        
 [
 (
 "
@@ -1501,17 +1360,14 @@ False
 ]
 )
 ]
-    
 )
     
 checkMethod
 (
-        
 methods
 [
 11
 ]
-        
 "
 :
 :
@@ -1520,16 +1376,17 @@ TestMethods
 :
 doFloats
 "
-        
+                
 "
 doFloats
 "
-        
+       
 [
 (
 "
 Float
 "
+        
 [
 (
 "
@@ -1555,7 +1412,6 @@ False
 ]
 )
 ]
-    
 )
     
 parser
@@ -1577,7 +1433,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1603,7 +1458,6 @@ bar
 "
 "
 "
-        
 )
         
 results
@@ -1660,7 +1514,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1684,7 +1537,6 @@ foo
 "
 "
 "
-        
 )
         
 results
@@ -1741,7 +1593,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1765,7 +1616,6 @@ foo
 "
 "
 "
-        
 )
         
 results
@@ -1822,7 +1672,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1846,7 +1695,6 @@ foo
 "
 "
 "
-        
 )
         
 results
@@ -1903,7 +1751,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1924,7 +1771,6 @@ __noSuchMethod__
 "
 "
 "
-        
 )
         
 results
@@ -1978,7 +1824,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2016,7 +1861,6 @@ foo
 "
 "
 "
-        
 )
         
 results
@@ -2069,7 +1913,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -2107,7 +1950,6 @@ myFloat
 "
 "
 "
-    
 )
     
 results
@@ -2149,12 +1991,10 @@ harness
 .
 ok
 (
-        
 lenientFloat
 is
 not
 None
-        
 "
 LenientFloat
 in
@@ -2166,7 +2006,6 @@ to
 the
 method
 "
-    
 )
     
 parser
@@ -2188,7 +2027,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2230,7 +2068,6 @@ yourFloat
 "
 "
 "
-        
 )
         
 results
@@ -2255,9 +2092,7 @@ harness
 .
 ok
 (
-        
 threw
-        
 "
 Should
 prevent
@@ -2269,7 +2104,6 @@ restricted
 float
 behavior
 "
-    
 )
     
 parser
@@ -2291,7 +2125,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2333,7 +2166,6 @@ myFloat
 "
 "
 "
-        
 )
         
 results
@@ -2358,9 +2190,7 @@ harness
 .
 ok
 (
-        
 threw
-        
 "
 Should
 prevent
@@ -2375,7 +2205,6 @@ behavior
 2
 )
 "
-    
 )
     
 parser
@@ -2397,7 +2226,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -2438,7 +2266,6 @@ myShort
 "
 "
 "
-        
 )
         
 results

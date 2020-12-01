@@ -20,21 +20,21 @@ as
 mercurial
 test_string
 =
-"
-"
-"
+'
+'
+'
 foo
 bar
 baz
-"
-"
-"
+'
+'
+'
 HG
 =
 [
-"
+'
 hg
-"
+'
 ]
 +
 mercurial
@@ -44,9 +44,9 @@ os
 .
 environ
 [
-"
+'
 HGRCPATH
-"
+'
 ]
 =
 os
@@ -55,7 +55,6 @@ path
 .
 abspath
 (
-    
 os
 .
 path
@@ -70,13 +69,14 @@ dirname
 (
 __file__
 )
-"
+                                                      
+'
 helper_files
-"
-"
+'
+'
 .
 hgrc
-"
+'
 )
 )
 def
@@ -92,9 +92,9 @@ path
 .
 exists
 (
-"
+'
 test_logs
-"
+'
 )
 :
         
@@ -102,9 +102,9 @@ shutil
 .
 rmtree
 (
-"
+'
 test_logs
-"
+'
 )
     
 if
@@ -114,9 +114,9 @@ path
 .
 exists
 (
-"
+'
 test_dir
-"
+'
 )
 :
         
@@ -127,9 +127,9 @@ path
 .
 isdir
 (
-"
+'
 test_dir
-"
+'
 )
 :
             
@@ -137,9 +137,9 @@ shutil
 .
 rmtree
 (
-"
+'
 test_dir
-"
+'
 )
         
 else
@@ -149,27 +149,27 @@ os
 .
 remove
 (
-"
+'
 test_dir
-"
+'
 )
     
 for
 filename
 in
 (
-"
+'
 localconfig
 .
 json
-"
-"
+'
+'
 localconfig
 .
 json
 .
 bak
-"
+'
 )
 :
         
@@ -236,26 +236,26 @@ command
 HG
 +
 [
-"
+'
 log
-"
-"
+'
+'
 -
 R
-"
+'
 dest
-"
+'
 -
 -
 template
-"
-"
+'
+'
 {
 node
 }
 \
 n
-"
+'
 ]
     
 for
@@ -270,10 +270,10 @@ command
 .
 split
 (
-"
+'
 \
 n
-"
+'
 )
 :
         
@@ -520,6 +520,7 @@ foo
 bar
 "
 )
+                
 "
 file
 :
@@ -538,7 +539,6 @@ os
 getcwd
 (
 )
-            
 )
 class
 TestHg
@@ -562,20 +562,17 @@ hg_obj
 .
 run_command
 (
-            
 [
-                
 "
 bash
 "
-                
+                            
 os
 .
 path
 .
 join
 (
-                    
 os
 .
 path
@@ -584,6 +581,7 @@ dirname
 (
 __file__
 )
+                                         
 "
 helper_files
 "
@@ -592,13 +590,10 @@ init_hgrepo
 .
 sh
 "
-                
 )
-                
+                            
 repodir
-            
 ]
-        
 )
     
 def
@@ -631,9 +626,9 @@ join
 self
 .
 tmpdir
-"
+'
 repo
-"
+'
 )
         
 m
@@ -676,9 +671,9 @@ join
 self
 .
 tmpdir
-"
+'
 wc
-"
+'
 )
         
 self
@@ -757,9 +752,9 @@ self
 assertEquals
 (
 b
-"
+'
 default
-"
+'
 )
     
 def
@@ -888,10 +883,10 @@ wc
 )
 )
 [
-"
+'
 .
 hg
-"
+'
 ]
 )
     
@@ -928,22 +923,22 @@ join
 self
 .
 wc
-"
+'
 test
 .
 txt
-"
+'
 )
-"
+'
 w
-"
+'
 )
 .
 write
 (
-"
+'
 hello
-"
+'
 )
         
 m
@@ -981,11 +976,11 @@ join
 self
 .
 wc
-"
+'
 test
 .
 txt
-"
+'
 )
 )
 )
@@ -1058,9 +1053,10 @@ self
 wc
 branch
 =
-"
+'
 branch2
-"
+'
+                
 update_dest
 =
 False
@@ -1092,6 +1088,7 @@ revisions
 1
 :
 ]
+                              
 get_revisions
 (
 self
@@ -1110,6 +1107,7 @@ assertEquals
 self
 .
 revisions
+                              
 get_revisions
 (
 self
@@ -1137,11 +1135,9 @@ m
 .
 clone
 (
-            
 self
 .
 repodir
-            
 os
 .
 path
@@ -1151,21 +1147,19 @@ join
 self
 .
 tmpdir
-"
+'
 wc
-"
+'
 )
-            
+                      
 branch
 =
 "
 branch2
 "
-            
 update_dest
 =
 True
-        
 )
         
 self
@@ -1207,6 +1201,7 @@ repodir
 self
 .
 wc
+                
 revision
 =
 self
@@ -1224,7 +1219,6 @@ self
 .
 assertEquals
 (
-            
 self
 .
 revisions
@@ -1240,13 +1234,13 @@ revisions
 2
 :
 ]
+                          
 get_revisions
 (
 self
 .
 wc
 )
-        
 )
     
 def
@@ -1479,7 +1473,6 @@ m
 .
 pull
 (
-            
 self
 .
 repodir
@@ -1497,7 +1490,6 @@ revisions
 update_dest
 =
 False
-        
 )
         
 self
@@ -1512,7 +1504,6 @@ self
 .
 assertEquals
 (
-            
 get_revisions
 (
 self
@@ -1534,7 +1525,6 @@ revisions
 2
 :
 ]
-        
 )
     
 def
@@ -1700,9 +1690,9 @@ join
 self
 .
 tmpdir
-"
+'
 repo2
-"
+'
 )
         
 self
@@ -1746,9 +1736,9 @@ m
 config
 =
 {
-"
+'
 log_to_console
-"
+'
 :
 False
 }
@@ -1757,7 +1747,6 @@ self
 .
 assertRaises
 (
-            
 mercurial
 .
 VCSException
@@ -1771,7 +1760,6 @@ wc
 update_dest
 =
 False
-        
 )
     
 def
@@ -1904,9 +1892,9 @@ self
 wc
 branch
 =
-"
+'
 branch2
-"
+'
 )
             
 m
@@ -1925,9 +1913,9 @@ self
 wc
 branch
 =
-"
+'
 default
-"
+'
 )
             
 self
@@ -2043,25 +2031,25 @@ vcs_config
 =
 {
             
-"
+'
 repo
-"
+'
 :
 self
 .
 repodir
             
-"
+'
 dest
-"
+'
 :
 self
 .
 wc
             
-"
+'
 vcs_share_base
-"
+'
 :
 os
 .
@@ -2072,9 +2060,9 @@ join
 self
 .
 tmpdir
-"
+'
 share
-"
+'
 )
         
 }
@@ -2144,9 +2132,9 @@ m
 config
 =
 {
-"
+'
 log_to_console
-"
+'
 :
 False
 }
@@ -2155,7 +2143,6 @@ self
 .
 assertRaises
 (
-            
 Exception
 m
 .
@@ -2169,7 +2156,6 @@ wc
 push_new_branches
 =
 False
-        
 )
     
 def
@@ -2217,21 +2203,21 @@ vcs_config
 =
 {
             
-"
+'
 repo
-"
+'
 :
 repo
             
-"
+'
 dest
-"
+'
 :
 wc
             
-"
+'
 revision
-"
+'
 :
 self
 .
@@ -2241,9 +2227,9 @@ revisions
 1
 ]
             
-"
+'
 vcs_share_base
-"
+'
 :
 os
 .
@@ -2254,9 +2240,9 @@ join
 self
 .
 tmpdir
-"
+'
 share
-"
+'
 )
         
 }
@@ -2325,15 +2311,15 @@ join
 self
 .
 wc
-"
+'
 test
 .
 txt
-"
+'
 )
-"
+'
 w
-"
+'
 )
 .
 write
@@ -2356,21 +2342,21 @@ vcs_config
 =
 {
                 
-"
+'
 repo
-"
+'
 :
 repo
                 
-"
+'
 dest
-"
+'
 :
 wc
                 
-"
+'
 revision
-"
+'
 :
 self
 .
@@ -2379,9 +2365,9 @@ revisions
 0
 ]
                 
-"
+'
 vcs_share_base
-"
+'
 :
 os
 .
@@ -2392,9 +2378,9 @@ join
 self
 .
 tmpdir
-"
+'
 share
-"
+'
 )
             
 }
@@ -2439,11 +2425,11 @@ join
 self
 .
 wc
-"
+'
 test
 .
 txt
-"
+'
 )
 )
 )
@@ -2479,25 +2465,25 @@ vcs_config
 =
 {
             
-"
+'
 repo
-"
+'
 :
 self
 .
 repodir
             
-"
+'
 dest
-"
+'
 :
 self
 .
 wc
             
-"
+'
 revision
-"
+'
 :
 self
 .
@@ -2507,9 +2493,9 @@ revisions
 1
 ]
             
-"
+'
 vcs_share_base
-"
+'
 :
 os
 .
@@ -2520,9 +2506,9 @@ join
 self
 .
 tmpdir
-"
+'
 share
-"
+'
 )
         
 }
@@ -2560,15 +2546,15 @@ join
 self
 .
 wc
-"
+'
 test
 .
 txt
-"
+'
 )
-"
+'
 w
-"
+'
 )
 .
 write
@@ -2591,25 +2577,25 @@ vcs_config
 =
 {
             
-"
+'
 repo
-"
+'
 :
 self
 .
 repodir
             
-"
+'
 dest
-"
+'
 :
 self
 .
 wc
             
-"
+'
 vcs_share_base
-"
+'
 :
 os
 .
@@ -2620,9 +2606,9 @@ join
 self
 .
 tmpdir
-"
+'
 share
-"
+'
 )
         
 }
@@ -2667,11 +2653,11 @@ join
 self
 .
 wc
-"
+'
 test
 .
 txt
-"
+'
 )
 )
 )
@@ -2695,25 +2681,25 @@ vcs_config
 =
 {
             
-"
+'
 repo
-"
+'
 :
 self
 .
 repodir
             
-"
+'
 dest
-"
+'
 :
 self
 .
 wc
             
-"
+'
 revision
-"
+'
 :
 self
 .
@@ -2723,9 +2709,9 @@ revisions
 1
 ]
             
-"
+'
 vcs_share_base
-"
+'
 :
 os
 .
@@ -2736,9 +2722,9 @@ join
 self
 .
 tmpdir
-"
+'
 share
-"
+'
 )
         
 }
@@ -2776,15 +2762,15 @@ join
 self
 .
 wc
-"
+'
 test
 .
 txt
-"
+'
 )
-"
+'
 w
-"
+'
 )
 .
 write
@@ -2807,25 +2793,25 @@ vcs_config
 =
 {
             
-"
+'
 repo
-"
+'
 :
 self
 .
 repodir
             
-"
+'
 dest
-"
+'
 :
 self
 .
 wc
             
-"
+'
 revision
-"
+'
 :
 self
 .
@@ -2834,9 +2820,9 @@ revisions
 0
 ]
             
-"
+'
 vcs_share_base
-"
+'
 :
 os
 .
@@ -2847,9 +2833,9 @@ join
 self
 .
 tmpdir
-"
+'
 share
-"
+'
 )
         
 }
@@ -2894,11 +2880,11 @@ join
 self
 .
 wc
-"
+'
 test
 .
 txt
-"
+'
 )
 )
 )
@@ -2925,20 +2911,20 @@ mozilla
 org
 "
             
-"
+'
 /
 /
 build
 /
 tools
 /
-"
+'
             
 revision
 =
-"
+'
 FIREFOX_3_6_12_RELEASE
-"
+'
             
 filename
 =
@@ -2957,9 +2943,9 @@ py
             
 protocol
 =
-"
+'
 https
-"
+'
         
 )
         
@@ -3049,9 +3035,9 @@ default
             
 protocol
 =
-"
+'
 https
-"
+'
         
 )
         
@@ -3116,9 +3102,9 @@ tools
             
 protocol
 =
-"
+'
 https
-"
+'
         
 )
         
@@ -3179,9 +3165,9 @@ tools
             
 protocol
 =
-"
+'
 ssh
-"
+'
         
 )
         
@@ -3214,9 +3200,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 unittest

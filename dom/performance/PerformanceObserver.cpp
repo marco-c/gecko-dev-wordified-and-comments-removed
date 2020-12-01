@@ -618,7 +618,7 @@ char16_t
 const
 sValidTypeNames
 [
-5
+4
 ]
 =
 {
@@ -633,10 +633,6 @@ measure
 u
 "
 navigation
-"
-u
-"
-paint
 "
 u
 "

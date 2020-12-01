@@ -50,7 +50,7 @@ object
 "
 "
 "
-    
+       
 Mixin
 class
 used
@@ -102,9 +102,9 @@ environ
 .
 get
 (
-"
+'
 DEVICE_NAME
-"
+'
 None
 )
         
@@ -118,9 +118,9 @@ environ
 .
 get
 (
-"
+'
 DEVICE_SERIAL
-"
+'
 None
 )
         
@@ -134,9 +134,9 @@ environ
 .
 get
 (
-"
+'
 DEVICE_IP
-"
+'
 None
 )
         
@@ -186,9 +186,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Get
 the
 path
@@ -197,9 +197,10 @@ the
 adb
 executable
 .
-"
-"
-"
+        
+'
+'
+'
         
 self
 .
@@ -222,9 +223,9 @@ self
 .
 query_exe
 (
-"
+'
 adb
-"
+'
 )
         
 return
@@ -265,16 +266,15 @@ mozdevice
 .
 ADBDeviceFactory
 (
-                
 adb
 =
 adb
+                                                      
 device
 =
 self
 .
 device_serial
-            
 )
         
 return
@@ -303,28 +303,26 @@ c
 .
 get
 (
-"
+'
 installer_url
-"
+'
 None
 )
         
 return
-(
-            
 self
 .
 device_serial
 is
 not
 None
-            
 or
 self
 .
 is_emulator
-            
 or
+\
+            
 (
 installer_url
 is
@@ -340,8 +338,6 @@ endswith
 apk
 "
 )
-)
-        
 )
     
 property
@@ -366,9 +362,9 @@ c
 .
 get
 (
-"
+'
 emulator_avd_name
-"
+'
 )
 else
 False
@@ -384,7 +380,7 @@ path
 "
 "
 "
-        
+           
 Return
 a
 url
@@ -401,7 +397,7 @@ in
 this
 hg
 repo
-        
+           
 and
 using
 this
@@ -418,12 +414,12 @@ repo
 /
 rev
 cannot
-        
+           
 be
 determined
 )
 .
-        
+           
 :
 param
 path
@@ -443,17 +439,17 @@ interest
 "
         
 if
-"
+'
 GECKO_HEAD_REPOSITORY
-"
+'
 in
 os
 .
 environ
 and
-"
+'
 GECKO_HEAD_REV
-"
+'
 in
 os
 .
@@ -466,9 +462,9 @@ os
 .
 environ
 [
-"
+'
 GECKO_HEAD_REPOSITORY
-"
+'
 ]
             
 revision
@@ -477,9 +473,9 @@ os
 .
 environ
 [
-"
+'
 GECKO_HEAD_REV
-"
+'
 ]
         
 else
@@ -487,7 +483,7 @@ else
             
 repo
 =
-"
+'
 https
 :
 /
@@ -501,20 +497,19 @@ org
 mozilla
 -
 central
-"
+'
             
 revision
 =
-"
+'
 default
-"
+'
             
 self
 .
 warning
 (
-                
-"
+'
 Unable
 to
 find
@@ -524,22 +519,21 @@ revision
 for
 manifest
 ;
-"
-                
-"
+'
+                         
+'
 using
 mozilla
 -
 central
 /
 default
-"
-            
+'
 )
         
 url
 =
-"
+'
 %
 s
 /
@@ -552,11 +546,14 @@ s
 /
 %
 s
-"
+'
 %
 (
+            
 repo
+            
 revision
+            
 path
 )
         
@@ -586,13 +583,15 @@ download_file
 (
             
 url
+            
 file_name
 =
-"
+'
 releng
 .
 manifest
-"
+'
+            
 parent_dir
 =
 dir
@@ -615,7 +614,6 @@ self
 .
 fatal
 (
-                
 "
 Could
 not
@@ -625,7 +623,7 @@ needed
 to
 retrieve
 "
-                
+                       
 "
 artifacts
 from
@@ -634,18 +632,18 @@ s
 "
 %
 manifest_path
-            
 )
         
 self
 .
 tooltool_fetch
 (
-            
 manifest_path
+                            
 output_dir
 =
 dir
+                            
 cache
 =
 c
@@ -657,7 +655,6 @@ tooltool_cache
 "
 None
 )
-        
 )
     
 def
@@ -681,9 +678,9 @@ self
 .
 abs_dirs
 [
-"
+'
 abs_avds_dir
-"
+'
 ]
         
 DDMS_FILE
@@ -706,9 +703,9 @@ with
 open
 (
 DDMS_FILE
-"
+'
 w
-"
+'
 )
 as
 f
@@ -753,22 +750,20 @@ path
 .
 join
 (
-            
 os
 .
 path
 .
 expanduser
 (
-"
+'
 ~
-"
+'
 )
-"
+'
 .
 emulator_console_auth_token
-"
-        
+'
 )
         
 if
@@ -833,9 +828,9 @@ path
 join
 (
 avd_home_dir
-"
+'
 avd
-"
+'
 )
         
 if
@@ -851,9 +846,9 @@ avd_path
             
 env
 [
-"
+'
 ANDROID_AVD_HOME
-"
+'
 ]
 =
 avd_path
@@ -919,10 +914,10 @@ path
 join
 (
 avd_home_dir
-"
+'
 .
 .
-"
+'
 )
 )
         
@@ -935,9 +930,9 @@ self
 .
 abs_dirs
 [
-"
+'
 abs_sdk_dir
-"
+'
 ]
         
 if
@@ -953,9 +948,9 @@ sdk_path
             
 env
 [
-"
+'
 ANDROID_SDK_HOME
-"
+'
 ]
 =
 sdk_path
@@ -1023,9 +1018,9 @@ with
 open
 (
 AF_FILE
-"
+'
 w
-"
+'
 )
 as
 f
@@ -1052,9 +1047,9 @@ config
 .
 get
 (
-"
+'
 emulator_process_name
-"
+'
 )
         
 if
@@ -1064,19 +1059,19 @@ path
 .
 exists
 (
-"
+'
 /
 dev
 /
 kvm
-"
+'
 )
 and
 emu
 and
-"
+'
 x86
-"
+'
 in
 emu
 :
@@ -1089,19 +1084,19 @@ self
 run_command
 (
 [
-"
+'
 ls
-"
-"
+'
+'
 -
 l
-"
-"
+'
+'
 /
 dev
 /
 kvm
-"
+'
 ]
 )
                 
@@ -1110,11 +1105,11 @@ self
 run_command
 (
 [
-"
+'
 kvm
 -
 ok
-"
+'
 ]
 )
                 
@@ -1218,9 +1213,9 @@ query_abs_dirs
 (
 )
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
         
 tmp_file
@@ -1229,31 +1224,30 @@ tempfile
 .
 NamedTemporaryFile
 (
-            
 mode
 =
-"
+'
 w
-"
+'
 prefix
 =
-"
+'
 emulator
 -
-"
+'
+                                               
 suffix
 =
-"
+'
 .
 log
-"
+'
 dir
 =
 dir
 delete
 =
 False
-        
 )
         
 self
@@ -1270,8 +1264,8 @@ with
 s
 "
 %
-"
-"
+'
+'
 .
 join
 (
@@ -1302,7 +1296,6 @@ subprocess
 .
 Popen
 (
-            
 command
 stdout
 =
@@ -1316,7 +1309,6 @@ env
 bufsize
 =
 0
-        
 )
         
 return
@@ -1335,26 +1327,21 @@ self
 .
 _retry
 (
-            
 30
-            
 10
-            
 self
 .
 is_boot_completed
-            
 "
 Verify
 Android
 boot
 completed
 "
-            
+                              
 max_time
 =
 330
-        
 )
         
 if
@@ -1366,14 +1353,14 @@ self
 .
 warning
 (
-"
+'
 Unable
 to
 verify
 Android
 boot
 completion
-"
+'
 )
             
 return
@@ -1434,13 +1421,13 @@ subprocess
 check_call
 (
 [
-"
+'
 ps
-"
-"
+'
+'
 -
 ef
-"
+'
 ]
 )
             
@@ -1503,9 +1490,9 @@ max_time
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Execute
 func
@@ -1573,9 +1560,9 @@ highly
 variable
 .
         
-"
-"
-"
+'
+'
+'
         
 status
 =
@@ -1651,7 +1638,6 @@ self
 .
 info
 (
-                    
 "
 Maximum
 retry
@@ -1665,7 +1651,7 @@ seconds
 exceeded
 ;
 "
-                    
+                          
 "
 remaining
 attempts
@@ -1673,7 +1659,6 @@ abandoned
 "
 %
 max_time
-                
 )
                 
 break
@@ -1715,7 +1700,6 @@ self
 .
 info
 (
-                
 "
 >
 >
@@ -1736,7 +1720,6 @@ description
 attempts
 max_attempts
 )
-            
 )
             
 status
@@ -1755,9 +1738,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Dump
 some
@@ -1781,9 +1764,9 @@ task
 performance
 .
         
-"
-"
-"
+'
+'
+'
         
 dir
 =
@@ -1793,9 +1776,9 @@ query_abs_dirs
 (
 )
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
         
 perf_path
@@ -1832,7 +1815,7 @@ f
 .
 write
 (
-"
+'
 \
 n
 \
@@ -1843,7 +1826,7 @@ scaling_governor
 :
 \
 n
-"
+'
 )
             
 cpus
@@ -1852,7 +1835,7 @@ glob
 .
 glob
 (
-"
+'
 /
 sys
 /
@@ -1868,7 +1851,7 @@ cpu
 cpufreq
 /
 scaling_governor
-"
+'
 )
             
 for
@@ -1884,9 +1867,9 @@ subprocess
 check_output
 (
 [
-"
+'
 cat
-"
+'
 cpu
 ]
 universal_newlines
@@ -1916,7 +1899,7 @@ f
 .
 write
 (
-"
+'
 \
 n
 \
@@ -1928,7 +1911,7 @@ cpuinfo
 :
 \
 n
-"
+'
 )
             
 out
@@ -1937,22 +1920,21 @@ subprocess
 .
 check_output
 (
-                
 [
-"
+'
 cat
-"
-"
+'
+'
 /
 proc
 /
 cpuinfo
-"
+'
 ]
+                                          
 universal_newlines
 =
 True
-            
 )
             
 f
@@ -1966,7 +1948,7 @@ f
 .
 write
 (
-"
+'
 \
 n
 \
@@ -1978,7 +1960,7 @@ meminfo
 :
 \
 n
-"
+'
 )
             
 out
@@ -1987,22 +1969,21 @@ subprocess
 .
 check_output
 (
-                
 [
-"
+'
 cat
-"
-"
+'
+'
 /
 proc
 /
 meminfo
-"
+'
 ]
+                                          
 universal_newlines
 =
 True
-            
 )
             
 f
@@ -2016,7 +1997,7 @@ f
 .
 write
 (
-"
+'
 \
 n
 \
@@ -2026,7 +2007,7 @@ list
 :
 \
 n
-"
+'
 )
             
 out
@@ -2036,13 +2017,13 @@ subprocess
 check_output
 (
 [
-"
+'
 ps
-"
-"
+'
+'
 -
 ef
-"
+'
 ]
 universal_newlines
 =
@@ -2060,7 +2041,7 @@ f
 .
 write
 (
-"
+'
 \
 n
 \
@@ -2072,18 +2053,18 @@ cpuinfo
 :
 \
 n
-"
+'
 )
             
 cmd
 =
-"
+'
 cat
 /
 proc
 /
 cpuinfo
-"
+'
             
 out
 =
@@ -2109,7 +2090,7 @@ f
 .
 write
 (
-"
+'
 \
 n
 \
@@ -2121,18 +2102,18 @@ meminfo
 :
 \
 n
-"
+'
 )
             
 cmd
 =
-"
+'
 cat
 /
 proc
 /
 meminfo
-"
+'
             
 out
 =
@@ -2154,7 +2135,7 @@ f
 .
 write
 (
-"
+'
 \
 n
 \
@@ -2164,14 +2145,14 @@ list
 :
 \
 n
-"
+'
 )
             
 cmd
 =
-"
+'
 ps
-"
+'
             
 out
 =
@@ -2199,9 +2180,9 @@ config
 .
 get
 (
-"
+'
 bogomips_minimum
-"
+'
 )
 or
 0
@@ -2214,10 +2195,10 @@ cpuinfo
 .
 split
 (
-"
+'
 \
 n
-"
+'
 )
 :
             
@@ -2274,8 +2255,7 @@ self
 .
 fatal
 (
-                        
-"
+'
 INFRA
 -
 ERROR
@@ -2290,19 +2270,18 @@ d
 %
 d
 )
-"
-                        
+'
 %
+                               
 (
 bogomips
 bogomips_minimum
 )
-                        
+                               
 EXIT_STATUS_DICT
 [
 TBPL_RETRY
 ]
-                    
 )
                 
 self
@@ -2332,14 +2311,14 @@ self
         
 logcat_filename
 =
-"
+'
 logcat
 -
 %
 s
 .
 log
-"
+'
 %
 self
 .
@@ -2352,19 +2331,18 @@ path
 .
 join
 (
-            
 self
 .
 query_abs_dirs
 (
 )
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
+                            
 logcat_filename
-        
 )
     
 def
@@ -2377,7 +2355,7 @@ self
 "
 "
 "
-        
+           
 Start
 recording
 logcat
@@ -2405,67 +2383,59 @@ self
 logcat_path
 (
 )
-"
+'
 w
-"
+'
 )
         
 logcat_cmd
 =
 [
-            
 self
 .
 adb_path
-            
-"
+'
 -
 s
-"
-            
+'
 self
 .
 device_serial
-            
-"
+'
 logcat
-"
-            
-"
+'
+'
 -
 v
-"
-            
-"
+'
+                      
+'
 threadtime
-"
-            
-"
+'
+'
 Trace
 :
 S
-"
-            
-"
+'
+'
 StrictMode
 :
 S
-"
-            
-"
+'
+                      
+'
 ExchangeService
 :
 S
-"
-        
+'
 ]
         
 self
 .
 info
 (
-"
-"
+'
+'
 .
 join
 (
@@ -2481,19 +2451,18 @@ subprocess
 .
 Popen
 (
-            
 logcat_cmd
 stdout
 =
 self
 .
 logcat_file
+                                            
 stdin
 =
 subprocess
 .
 PIPE
-        
 )
     
 def
@@ -2506,7 +2475,7 @@ self
 "
 "
 "
-        
+           
 Stop
 logcat
 process
@@ -2575,7 +2544,7 @@ False
 "
 "
 "
-        
+           
 Install
 the
 specified
@@ -2612,19 +2581,15 @@ replace
         
 except
 (
-            
 mozdevice
 .
 ADBError
-            
 mozdevice
 .
 ADBProcessError
-            
 mozdevice
 .
 ADBTimeoutError
-        
 )
 as
 e
@@ -2634,8 +2599,7 @@ self
 .
 info
 (
-                
-"
+'
 Failed
 to
 install
@@ -2649,14 +2613,15 @@ s
 s
 %
 s
-"
-                
+'
 %
+                      
 (
 apk
 self
 .
 device_name
+                       
 type
 (
 e
@@ -2665,15 +2630,13 @@ e
 __name__
 e
 )
-            
 )
             
 self
 .
 fatal
 (
-                
-"
+'
 INFRA
 -
 ERROR
@@ -2685,9 +2648,9 @@ to
 install
 %
 s
-"
-                
+'
 %
+                       
 (
 type
 (
@@ -2704,12 +2667,11 @@ basename
 apk
 )
 )
-                
+                       
 EXIT_STATUS_DICT
 [
 TBPL_RETRY
 ]
-            
 )
     
 def
@@ -2722,7 +2684,7 @@ self
 "
 "
 "
-        
+           
 Uninstall
 the
 app
@@ -2734,7 +2696,7 @@ apk
 if
 it
 is
-        
+           
 installed
 .
         
@@ -2767,19 +2729,15 @@ package_name
         
 except
 (
-            
 mozdevice
 .
 ADBError
-            
 mozdevice
 .
 ADBProcessError
-            
 mozdevice
 .
 ADBTimeoutError
-        
 )
 as
 e
@@ -2789,8 +2747,7 @@ self
 .
 info
 (
-                
-"
+'
 Failed
 to
 uninstall
@@ -2804,14 +2761,15 @@ s
 s
 %
 s
-"
-                
+'
 %
+                      
 (
 package_name
 self
 .
 device_name
+                       
 type
 (
 e
@@ -2820,15 +2778,13 @@ e
 __name__
 e
 )
-            
 )
             
 self
 .
 fatal
 (
-                
-"
+'
 INFRA
 -
 ERROR
@@ -2840,9 +2796,9 @@ to
 uninstall
 %
 s
-"
-                
+'
 %
+                       
 (
 type
 (
@@ -2852,12 +2808,11 @@ e
 __name__
 package_name
 )
-                
+                       
 EXIT_STATUS_DICT
 [
 TBPL_RETRY
 ]
-            
 )
     
 def
@@ -2881,11 +2836,11 @@ device
 .
 get_prop
 (
-"
+'
 sys
 .
 boot_completed
-"
+'
 timeout
 =
 30
@@ -2899,9 +2854,9 @@ strip
 )
 =
 =
-"
+'
 1
-"
+'
 :
                 
 return
@@ -2948,7 +2903,6 @@ device
 .
 shell_output
 (
-                
 cmd
 timeout
 =
@@ -2956,7 +2910,6 @@ timeout
 enable_run_as
 =
 enable_run_as
-            
 )
         
 except
@@ -2973,8 +2926,7 @@ self
 .
 info
 (
-                
-"
+'
 Failed
 to
 run
@@ -2990,14 +2942,15 @@ s
 s
 %
 s
-"
-                
+'
 %
+                      
 (
 cmd
 self
 .
 device_name
+                       
 type
 (
 e
@@ -3006,15 +2959,13 @@ e
 __name__
 e
 )
-            
 )
             
 self
 .
 fatal
 (
-                
-"
+'
 INFRA
 -
 ERROR
@@ -3028,9 +2979,9 @@ shell
 command
 %
 s
-"
-                
+'
 %
+                       
 (
 type
 (
@@ -3040,12 +2991,11 @@ e
 __name__
 cmd
 )
-                
+                       
 EXIT_STATUS_DICT
 [
 TBPL_RETRY
 ]
-            
 )
     
 def
@@ -3059,7 +3009,7 @@ prefix
 "
 "
 "
-        
+           
 On
 emulator
 save
@@ -3074,7 +3024,7 @@ the
 upload
 directory
 ;
-        
+           
 otherwise
 save
 a
@@ -3087,7 +3037,7 @@ the
 upload
 directory
 .
-        
+           
 :
 param
 prefix
@@ -3147,9 +3097,9 @@ MOZ_UPLOAD_DIR
 =
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
             
 reset_dir
@@ -3186,7 +3136,7 @@ self
 .
 info
 (
-"
+'
 Not
 saving
 screenshot
@@ -3194,7 +3144,7 @@ screenshot
 no
 XRE
 configured
-"
+'
 )
         
 else
@@ -3236,7 +3186,7 @@ xre_dir
 "
 "
 "
-        
+           
 Download
 and
 install
@@ -3316,13 +3266,13 @@ path
 join
 (
 xre_dir
-"
+'
 host
 -
 utils
 -
 *
-"
+'
 )
 )
 :
@@ -3350,9 +3300,9 @@ path
 join
 (
 p
-"
+'
 xpcshell
-"
+'
 )
 )
 :
@@ -3416,9 +3366,9 @@ None
 :
             
 if
-"
+'
 androidTest
-"
+'
 in
 self
 .
@@ -3429,7 +3379,7 @@ self
 .
 app_name
 =
-"
+'
 org
 .
 mozilla
@@ -3437,12 +3387,12 @@ mozilla
 geckoview
 .
 test
-"
+'
             
 elif
-"
+'
 geckoview
-"
+'
 in
 self
 .
@@ -3453,13 +3403,13 @@ self
 .
 app_name
 =
-"
+'
 org
 .
 mozilla
 .
 geckoview_example
-"
+'
         
 if
 self
@@ -3475,9 +3425,9 @@ self
 .
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
             
 self
@@ -3516,27 +3466,27 @@ path
 join
 (
 apk_dir
-"
+'
 package
 -
 name
 .
 txt
-"
+'
 )
             
 unzip_cmd
 =
 [
 unzip
-"
+'
 -
 q
-"
-"
+'
+'
 -
 o
-"
+'
 self
 .
 apk_path
@@ -3561,7 +3511,6 @@ app_name
 =
 str
 (
-                
 self
 .
 read_from_file
@@ -3571,7 +3520,6 @@ verbose
 =
 True
 )
-            
 )
 .
 rstrip
@@ -3623,13 +3571,13 @@ subprocess
 check_output
 (
 [
-"
+'
 ps
-"
-"
+'
+'
 -
 A
-"
+'
 ]
 )
         
@@ -3825,7 +3773,6 @@ self
 .
 info
 (
-                
 "
 failed
 to
@@ -3852,7 +3799,6 @@ str
 e
 )
 )
-            
 )
     
 def
@@ -3956,9 +3902,9 @@ pull
 remote_dir
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
 )
             
@@ -3978,7 +3924,6 @@ self
 .
 info
 (
-                
 "
 failed
 to
@@ -4005,7 +3950,6 @@ str
 e
 )
 )
-            
 )
     
 def
@@ -4144,7 +4088,6 @@ self
 .
 info
 (
-                
 "
 failed
 to
@@ -4171,7 +4114,6 @@ str
 e
 )
 )
-            
 )
     
 def
@@ -4272,9 +4214,9 @@ pull
 remote_dir
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
 )
             
@@ -4294,7 +4236,6 @@ self
 .
 info
 (
-                
 "
 failed
 to
@@ -4321,7 +4262,6 @@ str
 e
 )
 )
-            
 )
     
 def
@@ -4407,9 +4347,9 @@ mkdir_p
 (
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
 )
         
@@ -4419,9 +4359,9 @@ mkdir_p
 (
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
 )
         
@@ -4431,9 +4371,9 @@ rmtree
 (
 dirs
 [
-"
+'
 abs_avds_dir
-"
+'
 ]
 )
         
@@ -4443,16 +4383,16 @@ mkdir_p
 (
 dirs
 [
-"
+'
 abs_avds_dir
-"
+'
 ]
 )
         
 if
-"
+'
 avd_url
-"
+'
 in
 c
 :
@@ -4461,9 +4401,9 @@ url
 =
 c
 [
-"
+'
 avd_url
-"
+'
 ]
             
 self
@@ -4473,9 +4413,9 @@ download_unpack
 url
 dirs
 [
-"
+'
 abs_avds_dir
-"
+'
 ]
 )
         
@@ -4503,9 +4443,9 @@ _tooltool_fetch
 url
 dirs
 [
-"
+'
 abs_avds_dir
-"
+'
 ]
 )
         
@@ -4515,9 +4455,9 @@ self
 .
 abs_dirs
 [
-"
+'
 abs_avds_dir
-"
+'
 ]
         
 if
@@ -4539,14 +4479,13 @@ cmd
 =
 [
                 
-"
+'
 bash
-"
-                
-"
+'
+'
 -
 c
-"
+'
                 
 '
 sed
@@ -4576,8 +4515,8 @@ test
 .
 ini
 '
-                
 %
+                
 (
 avd_home_dir
 os
@@ -4587,9 +4526,9 @@ path
 join
 (
 avd_home_dir
-"
+'
 avd
-"
+'
 )
 )
             
@@ -4631,17 +4570,17 @@ is_emulator
 return
         
 if
-"
+'
 emulator_url
-"
+'
 in
 self
 .
 config
 or
-"
+'
 emulator_manifest
-"
+'
 in
 self
 .
@@ -4663,9 +4602,9 @@ config
 .
 get
 (
-"
+'
 emulator_url
-"
+'
 )
 :
                 
@@ -4677,15 +4616,15 @@ self
 .
 config
 [
-"
+'
 emulator_url
-"
+'
 ]
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
 )
             
@@ -4696,9 +4635,9 @@ config
 .
 get
 (
-"
+'
 emulator_manifest
-"
+'
 )
 :
                 
@@ -4708,16 +4647,14 @@ self
 .
 create_tooltool_manifest
 (
-                    
 self
 .
 config
 [
-"
+'
 emulator_manifest
-"
+'
 ]
-                
 )
                 
 dirs
@@ -4747,20 +4684,20 @@ self
 .
 tooltool_fetch
 (
-                    
 manifest_path
+                                       
 output_dir
 =
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
+                                       
 cache
 =
 cache
-                
 )
 :
                     
@@ -4907,20 +4844,17 @@ self
 .
 _retry
 (
-                
 max_restarts
-                
 10
-                
+                                      
 self
 .
 _verify_emulator_and_restart_on_fail
-                
+                                      
 "
 Check
 emulator
 "
-            
 )
             
 if
@@ -4932,8 +4866,7 @@ self
 .
 fatal
 (
-                    
-"
+'
 INFRA
 -
 ERROR
@@ -4946,16 +4879,14 @@ after
 %
 d
 attempts
-"
-                    
+'
+                           
 %
 max_restarts
-                    
 EXIT_STATUS_DICT
 [
 TBPL_RETRY
 ]
-                
 )
         
 self
@@ -4968,9 +4899,9 @@ query_abs_dirs
 (
 )
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
 )
         
@@ -5010,11 +4941,11 @@ complete
     
 PreScriptAction
 (
-"
+'
 run
 -
 tests
-"
+'
 )
     
 def
@@ -5172,11 +5103,11 @@ t
     
 PostScriptAction
 (
-"
+'
 run
 -
 tests
-"
+'
 )
     
 def

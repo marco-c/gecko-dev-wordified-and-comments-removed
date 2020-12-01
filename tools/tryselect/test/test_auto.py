@@ -68,7 +68,6 @@ parser
 .
 parse_args
 (
-        
 [
 "
 -
@@ -85,7 +84,6 @@ experimental
 relevant_tests
 "
 ]
-    
 )
     
 assert

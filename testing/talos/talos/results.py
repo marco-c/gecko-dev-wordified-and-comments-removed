@@ -233,14 +233,14 @@ _output
 output
 (
                     
-"
+'
 file
 :
 /
 /
 %
 s
-"
+'
 %
 os
 .
@@ -253,12 +253,13 @@ os
 getcwd
 (
 )
-"
+'
 results
 .
 out
-"
+'
 )
+                    
 results
                 
 )
@@ -271,13 +272,13 @@ pass
             
 print
 (
-"
+'
 \
 nFAIL
 :
 %
 s
-"
+'
 %
 str
 (
@@ -286,15 +287,15 @@ e
 .
 replace
 (
-"
+'
 \
 n
-"
-"
+'
+'
 \
 nRETURN
 :
-"
+'
 )
 )
             
@@ -395,9 +396,9 @@ self
 .
 test_config
 [
-"
+'
 name
-"
+'
 ]
     
 def
@@ -412,9 +413,9 @@ self
 .
 test_config
 [
-"
+'
 mainthread
-"
+'
 ]
     
 def
@@ -472,9 +473,9 @@ self
 .
 test_config
 [
-"
+'
 format_pagename
-"
+'
 ]
 :
             
@@ -684,18 +685,18 @@ page
 =
 result
 [
-"
+'
 page
-"
+'
 ]
             
 data
 =
 result
 [
-"
+'
 runs
-"
+'
 ]
             
 remaining_filters
@@ -718,9 +719,9 @@ __name__
 .
 startswith
 (
-"
+'
 ignore
-"
+'
 )
 :
                     
@@ -788,15 +789,15 @@ summary
 =
 {
                 
-"
+'
 filtered
-"
+'
 :
 data
                 
-"
+'
 value
-"
+'
 :
 data
             
@@ -827,15 +828,15 @@ return
 (
 result
 [
-"
+'
 page
-"
+'
 ]
 result
 [
-"
+'
 runs
-"
+'
 ]
 )
 for
@@ -873,12 +874,10 @@ value
         
 return
 [
-            
 [
 val
 page
 ]
-            
 for
 val
 page
@@ -890,18 +889,17 @@ filter
 testname
 filters
 )
-            
+                
 if
 val
 [
-"
+'
 filtered
-"
+'
 ]
 >
 -
 1
-        
 ]
 class
 TsResults
@@ -925,9 +923,9 @@ tests
     
 format
 =
-"
+'
 tsformat
-"
+'
     
 def
 __init__
@@ -981,9 +979,9 @@ string
 .
 startswith
 (
-"
+'
 {
-"
+'
 )
 :
             
@@ -999,9 +997,9 @@ string
 result
 =
 {
-"
+'
 runs
-"
+'
 :
 {
 }
@@ -1009,23 +1007,23 @@ runs
             
 result
 [
-"
+'
 index
-"
+'
 ]
 =
 index
             
 result
 [
-"
+'
 page
-"
+'
 ]
 =
-"
+'
 NULL
-"
+'
             
 for
 event_label
@@ -1035,9 +1033,9 @@ jsonResult
                 
 result
 [
-"
+'
 runs
-"
+'
 ]
 [
 str
@@ -1090,8 +1088,8 @@ strip
 .
 split
 (
-"
-"
+'
+'
 )
                 
 r
@@ -1120,18 +1118,18 @@ continue
                 
 result
 [
-"
+'
 index
-"
+'
 ]
 =
 index
                 
 result
 [
-"
+'
 page
-"
+'
 ]
 =
 r
@@ -1141,9 +1139,9 @@ r
                 
 result
 [
-"
+'
 runs
-"
+'
 ]
 =
 [
@@ -1189,29 +1187,29 @@ result
             
 result
 [
-"
+'
 index
-"
+'
 ]
 =
 index
             
 result
 [
-"
+'
 page
-"
+'
 ]
 =
-"
+'
 NULL
-"
+'
             
 result
 [
-"
+'
 runs
-"
+'
 ]
 =
 [
@@ -1226,9 +1224,9 @@ string
 .
 split
 (
-"
+'
 |
-"
+'
 )
 ]
             
@@ -1283,9 +1281,9 @@ txt
     
 format
 =
-"
+'
 tpformat
-"
+'
     
 def
 __init__
@@ -1358,9 +1356,9 @@ line
 in
 lines
 if
-"
+'
 ;
-"
+'
 in
 line
 ]
@@ -1389,16 +1387,16 @@ line
 .
 strip
 (
-"
+'
 |
-"
+'
 )
 .
 split
 (
-"
+'
 ;
-"
+'
 )
             
 r
@@ -1427,9 +1425,9 @@ continue
             
 result
 [
-"
+'
 index
-"
+'
 ]
 =
 int
@@ -1442,9 +1440,9 @@ r
             
 result
 [
-"
+'
 page
-"
+'
 ]
 =
 r
@@ -1454,9 +1452,9 @@ r
             
 result
 [
-"
+'
 runs
-"
+'
 ]
 =
 [
@@ -1480,9 +1478,9 @@ format_pagename
                 
 result
 [
-"
+'
 page
-"
+'
 ]
 =
 self
@@ -1491,9 +1489,9 @@ format_pagename
 (
 result
 [
-"
+'
 page
-"
+'
 ]
 )
             
@@ -1535,29 +1533,29 @@ page
 .
 rstrip
 (
-"
+'
 /
-"
+'
 )
         
 if
-"
+'
 /
-"
+'
 in
 page
 :
             
 if
-"
+'
 base_page
-"
+'
 in
 page
 or
-"
+'
 ref_page
-"
+'
 in
 page
 :
@@ -1568,9 +1566,9 @@ page
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -1586,9 +1584,9 @@ page
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 0
@@ -1623,30 +1621,30 @@ report_tokens
 [
         
 (
-"
+'
 tsformat
-"
+'
 (
-"
+'
 __start_report
-"
-"
+'
+'
 __end_report
-"
+'
 )
 )
         
 (
-"
+'
 tpformat
-"
+'
 (
-"
+'
 __start_tp_report
-"
-"
+'
+'
 __end_tp_report
-"
+'
 )
 )
     
@@ -1657,51 +1655,47 @@ time_tokens
 [
         
 (
-"
+'
 startTime
-"
+'
 (
-"
+'
 __startTimestamp
-"
-"
+'
+'
 __endTimestamp
-"
+'
 )
 )
         
 (
-            
-"
+'
 beforeLaunchTime
-"
-            
+'
 (
-"
+'
 __startBeforeLaunchTimestamp
-"
-"
+'
+                              
+'
 __endBeforeLaunchTimestamp
-"
+'
 )
-        
 )
         
 (
-            
-"
+'
 endTime
-"
-            
+'
 (
-"
+'
 __startAfterTerminationTimestamp
-"
-"
+'
+                     
+'
 __endAfterTerminationTimestamp
-"
+'
 )
-        
 )
     
 ]
@@ -1712,7 +1706,7 @@ re
 .
 compile
 (
-"
+'
 __FAIL
 (
 .
@@ -1720,7 +1714,8 @@ __FAIL
 ?
 )
 __FAIL
-"
+'
+                                    
 re
 .
 DOTALL
@@ -1737,7 +1732,7 @@ re
 compile
 (
         
-"
+'
 MOZ_EVENT_TRACE
 \
 ssample
@@ -1760,7 +1755,8 @@ d
 d
 *
 )
-"
+'
+        
 re
 .
 DOTALL
@@ -1774,14 +1770,15 @@ MULTILINE
 classes
 =
 {
-"
+'
 tsformat
-"
+'
 :
 TsResults
-"
+               
+'
 tpformat
-"
+'
 :
 PageloaderResults
 }
@@ -1793,23 +1790,18 @@ False
 def
 __init__
 (
-        
 self
-        
 results_raw
-        
 format_pagename
 =
 True
-        
 counter_results
 =
 None
-        
+                 
 global_counters
 =
 None
-    
 )
 :
         
@@ -2025,7 +2017,6 @@ self
 .
 error
 (
-                
 "
 Could
 not
@@ -2038,11 +2029,11 @@ output
 %
 s
 "
+                       
 %
 self
 .
 report_tokens
-            
 )
         
 for
@@ -2074,7 +2065,6 @@ self
 .
 error
 (
-                    
 "
 Could
 not
@@ -2092,12 +2082,12 @@ tokens
 s
 )
 "
+                           
 %
 (
 attr
 tokens
 )
-                
 )
             
 try
@@ -2134,6 +2124,7 @@ integer
 %
 s
 "
+                           
 %
 (
 attr
@@ -2151,7 +2142,6 @@ self
 .
 error
 (
-                    
 "
 %
 s
@@ -2167,7 +2157,7 @@ before
 %
 s
 "
-                    
+                           
 "
 [
 character
@@ -2177,7 +2167,7 @@ position
 s
 ]
 "
-                    
+                           
 %
 (
 tokens
@@ -2185,7 +2175,6 @@ _last_token
 previous_tokens
 position
 )
-                
 )
             
 setattr
@@ -2243,6 +2232,7 @@ tokenize
 self
 .
 results_raw
+                                               
 start_token
 end_token
 )
@@ -2362,6 +2352,7 @@ format
 %
 s
 "
+                
 %
 repr
 (
@@ -2382,16 +2373,15 @@ self
 format
 ]
 (
-            
 self
 .
 browser_results
+                                         
 format_pagename
 =
 self
 .
 format_pagename
-        
 )
     
 def
@@ -2425,18 +2415,18 @@ None
 :
             
 if
-"
+'
 responsiveness
-"
+'
 in
 global_counters
 :
                 
 global_counters
 [
-"
+'
 responsiveness
-"
+'
 ]
 .
 extend
@@ -2478,86 +2468,84 @@ dictionary
         
 session_store_counter
 =
-"
+'
 time_to_session_store_window_restored_ms
-"
+'
         
 counters
 =
 [
-            
-"
+'
 main_startup_fileio
-"
-            
-"
+'
+                    
+'
 main_startup_netio
-"
-            
-"
+'
+                    
+'
 main_normal_fileio
-"
-            
-"
+'
+                    
+'
 main_normal_netio
-"
-            
-"
+'
+                    
+'
 nonmain_startup_fileio
-"
-            
-"
+'
+                    
+'
 nonmain_normal_fileio
-"
-            
-"
+'
+                    
+'
 nonmain_normal_netio
-"
-            
+'
+                    
 session_store_counter
-        
+                    
 ]
         
 mainthread_counter_keys
 =
 [
-"
+'
 readcount
-"
-"
+'
+'
 readbytes
-"
-"
+'
+'
 writecount
-"
-"
+'
+                                   
+'
 writebytes
-"
+'
 ]
         
 mainthread_counters
 =
 [
-            
-"
+'
 _
-"
+'
 .
 join
 (
 [
-"
+'
 mainthread
-"
+'
 counter_key
 ]
 )
-            
+                               
 for
 counter_key
 in
 mainthread_counter_keys
-        
 ]
         
 self
@@ -2568,14 +2556,11 @@ counter_results
 )
         
 if
-(
-            
 not
 set
 (
 counters
 )
-            
 .
 union
 (
@@ -2584,7 +2569,8 @@ set
 mainthread_counters
 )
 )
-            
+\
+                
 .
 intersection
 (
@@ -2594,19 +2580,17 @@ keys
 (
 )
 )
-        
-)
 :
             
 return
         
 filename
 =
-"
+'
 etl_output_thread_stats
 .
 csv
-"
+'
         
 if
 not
@@ -2625,7 +2609,6 @@ utils
 .
 TalosError
 (
-                
 "
 Error
 :
@@ -2639,7 +2622,7 @@ file
 %
 s
 "
-                
+                                   
 "
 and
 didn
@@ -2650,7 +2633,6 @@ it
 "
 %
 filename
-            
 )
         
 contents
@@ -2731,25 +2713,25 @@ thread
 =
 values
 [
-"
+'
 thread
-"
+'
 ]
             
 counter
 =
 values
 [
-"
+'
 counter
-"
+'
 ]
 .
 rsplit
 (
-"
+'
 _io_bytes
-"
+'
 1
 )
 [
@@ -2758,22 +2740,22 @@ _io_bytes
             
 counter_name
 =
-"
+'
 %
 s_
 %
 s_
 %
 sio
-"
+'
 %
 (
 thread
 values
 [
-"
+'
 stage
-"
+'
 ]
 counter
 )
@@ -2784,9 +2766,9 @@ float
 (
 values
 [
-"
+'
 value
-"
+'
 ]
 )
             
@@ -2817,6 +2799,7 @@ using_xperf
 True
         
 if
+(
 set
 (
 mainthread_counters
@@ -2830,15 +2813,16 @@ keys
 (
 )
 )
+)
 :
             
 filename
 =
-"
+'
 etl_output
 .
 csv
-"
+'
             
 if
 not
@@ -2857,7 +2841,6 @@ utils
 .
 TalosError
 (
-                    
 "
 Error
 :
@@ -2869,7 +2852,7 @@ xperf
 results
 file
 "
-                    
+                                       
 "
 %
 s
@@ -2882,7 +2865,6 @@ it
 "
 %
 filename
-                
 )
             
 contents
@@ -2992,12 +2974,12 @@ mainthread_counter
 [
 ]
 )
+\
+                            
 .
 append
 (
-                            
 [
-                                
 int
 (
 values
@@ -3008,16 +2990,14 @@ i
 ]
 ]
 )
-                                
+                                     
 values
 [
-"
+'
 filename
-"
+'
 ]
-                            
 ]
-                        
 )
         
 if
@@ -3032,19 +3012,19 @@ keys
             
 filename
 =
-"
+'
 etl_output_session_restore_stats
 .
 csv
-"
+'
             
 with
 open
 (
 filename
-"
+'
 r
-"
+'
 )
 as
 contents
@@ -3114,6 +3094,8 @@ dictionary
         
 SCRIPT_DIR
 =
+\
+            
 os
 .
 path
@@ -3146,11 +3128,11 @@ path
 join
 (
 SCRIPT_DIR
-"
+'
 mainthread_io
 .
 json
-"
+'
 )
         
 try
@@ -3171,9 +3153,9 @@ counter_results
 .
 setdefault
 (
-"
+'
 mainthreadio
-"
+'
 [
 ]
 )

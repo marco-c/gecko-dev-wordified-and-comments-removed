@@ -47,15 +47,15 @@ BinaryNotFoundException
 SUPPORTED_APPS
 =
 [
-"
+'
 firefox
-"
-"
+'
+'
 android
-"
-"
+'
+'
 thunderbird
-"
+'
 ]
 def
 create_parser_tests
@@ -120,8 +120,13 @@ marionette_harness
 .
 runtests
 import
+(
+        
 MarionetteTestRunner
+        
 MarionetteHarness
+    
+)
     
 parser
 =
@@ -154,9 +159,9 @@ kwargs
 .
 pop
 (
-"
+'
 log
-"
+'
 None
 )
     
@@ -199,13 +204,14 @@ commandline
 .
 setup_logging
 (
-            
 "
 Marionette
 Unit
 Tests
 "
+                                                
 args
+                                                
 {
 "
 mach
@@ -215,7 +221,6 @@ sys
 .
 stdout
 }
-        
 )
     
 failed
@@ -259,19 +264,18 @@ MachCommandBase
     
 Command
 (
-        
 "
 marionette
 -
 test
 "
-        
+             
 category
 =
 "
 testing
 "
-        
+             
 description
 =
 "
@@ -286,7 +290,7 @@ browser
 automation
 .
 "
-        
+             
 conditions
 =
 [
@@ -302,11 +306,11 @@ apps
 SUPPORTED_APPS
 )
 ]
-        
+             
 parser
 =
 create_parser_tests
-    
+             
 )
     
 def
@@ -381,17 +385,16 @@ self
 tests
 =
 [
-                    
 os
 .
 path
 .
 join
 (
-                        
 self
 .
 topsrcdir
+                         
 "
 comm
 /
@@ -405,9 +408,7 @@ tests
 .
 ini
 "
-                    
 )
-                
 ]
             
 else
@@ -416,18 +417,16 @@ else
 tests
 =
 [
-                    
 os
 .
 path
 .
 join
 (
-                        
 self
 .
 topsrcdir
-                        
+                         
 "
 testing
 /
@@ -445,9 +444,7 @@ tests
 .
 ini
 "
-                    
 )
-                
 ]
         
 if
@@ -461,8 +458,9 @@ binary
 "
 )
 and
+\
+                
 (
-            
 conditions
 .
 is_firefox
@@ -476,7 +474,6 @@ is_thunderbird
 (
 self
 )
-        
 )
 :
             
@@ -509,36 +506,33 @@ self
 .
 log
 (
-                    
 logging
 .
 ERROR
-                    
-"
+'
 marionette
 -
 test
-"
-                    
+'
+                         
 {
-"
+'
 error
-"
+'
 :
 str
 (
 e
 )
 }
-                    
-"
+                         
+'
 ERROR
 :
 {
 error
 }
-"
-                
+'
 )
                 
 self
@@ -548,15 +542,16 @@ log
 logging
 .
 INFO
-"
+'
 marionette
 -
 test
-"
+'
+                         
 {
-"
+'
 help
-"
+'
 :
 e
 .
@@ -564,11 +559,12 @@ help
 (
 )
 }
-"
+                         
+'
 {
 help
 }
-"
+'
 )
                 
 return

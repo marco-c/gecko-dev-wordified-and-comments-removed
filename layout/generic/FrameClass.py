@@ -15,6 +15,8 @@ DynamicLeaf
 "
 class
 FrameClass
+(
+)
 :
     
 def

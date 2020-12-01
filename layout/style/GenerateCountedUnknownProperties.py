@@ -16,7 +16,6 @@ re
 .
 sub
 (
-        
 "
 (
 ^
@@ -63,7 +62,6 @@ strip
 -
 "
 )
-    
 )
 def
 generate
@@ -122,7 +120,6 @@ output
 .
 write
 (
-            
 "
 COUNTED_UNKNOWN_PROPERTY
 (
@@ -143,5 +140,4 @@ to_camel_case
 prop
 )
 )
-        
 )

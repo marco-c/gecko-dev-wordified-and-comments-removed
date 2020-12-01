@@ -69,8 +69,8 @@ kind
 .
 split
 (
-"
-"
+'
+'
 )
 )
 class
@@ -147,8 +147,8 @@ kind
 .
 split
 (
-"
-"
+'
+'
 )
     
 def
@@ -166,14 +166,14 @@ defaultdict
 lambda
 :
 {
-"
+'
 max_chunk
-"
+'
 :
 0
-"
+'
 attrs
-"
+'
 :
 defaultdict
 (
@@ -243,9 +243,9 @@ not
 in
 label
 [
-"
+'
 attrs
-"
+'
 ]
 [
 attr
@@ -254,9 +254,9 @@ attr
                     
 label
 [
-"
+'
 attrs
-"
+'
 ]
 [
 attr
@@ -271,71 +271,69 @@ attr
 )
                 
 if
-"
+'
 test_chunk
-"
+'
 in
 task
 :
                     
 label
 [
-"
+'
 max_chunk
-"
+'
 ]
 =
 max
 (
-                        
 label
 [
-"
+'
 max_chunk
-"
+'
 ]
 int
 (
 task
 [
-"
+'
 test_chunk
-"
+'
 ]
 )
-                    
 )
         
 return
 {
             
-"
+'
 name
-"
+'
 :
 self
 .
 name
             
-"
+'
 kind
-"
+'
 :
 self
 .
 kind
             
-"
+'
 title
-"
+'
 :
 self
 .
 title
             
-"
+'
 labels
-"
+'
 :
 labels
         
@@ -350,28 +348,28 @@ Section
     
 name
 =
-"
+'
 platform
-"
+'
     
 kind
 =
-"
+'
 build
-"
+'
     
 title
 =
-"
+'
 Platforms
-"
+'
     
 attrs
 =
 [
-"
+'
 build_platform
-"
+'
 ]
     
 def
@@ -385,9 +383,9 @@ task
 return
 task
 [
-"
+'
 build_platform
-"
+'
 ]
     
 def
@@ -417,18 +415,18 @@ task
 .
 task
 [
-"
+'
 tags
-"
+'
 ]
 .
 get
 (
-"
+'
 android
 -
 stuff
-"
+'
 False
 )
 !
@@ -446,29 +444,29 @@ Section
     
 name
 =
-"
+'
 test
-"
+'
     
 kind
 =
-"
+'
 test
-"
+'
     
 title
 =
-"
+'
 Test
 Suites
-"
+'
     
 attrs
 =
 [
-"
+'
 unittest_suite
-"
+'
 ]
     
 def
@@ -483,18 +481,18 @@ suite
 =
 task
 [
-"
+'
 unittest_suite
-"
+'
 ]
 .
 replace
 (
-"
-"
-"
+'
+'
+'
 -
-"
+'
 )
         
 if
@@ -502,10 +500,10 @@ suite
 .
 endswith
 (
-"
+'
 -
 chunked
-"
+'
 )
 :
             
@@ -517,10 +515,10 @@ suite
 -
 len
 (
-"
+'
 -
 chunked
-"
+'
 )
 ]
         
@@ -554,19 +552,19 @@ task
 .
 attributes
 [
-"
+'
 unittest_suite
-"
+'
 ]
 not
 in
 (
-"
+'
 raptor
-"
-"
+'
+'
 talos
-"
+'
 )
 register_section
 class
@@ -578,34 +576,34 @@ Section
     
 name
 =
-"
+'
 perf
-"
+'
     
 kind
 =
-"
+'
 test
-"
+'
     
 title
 =
-"
+'
 Performance
-"
+'
     
 attrs
 =
 [
-"
+'
 unittest_suite
-"
-"
+'
+'
 raptor_try_name
-"
-"
+'
+'
 talos_try_name
-"
+'
 ]
     
 def
@@ -620,20 +618,20 @@ suite
 =
 task
 [
-"
+'
 unittest_suite
-"
+'
 ]
         
 label
 =
 task
 [
-"
+'
 {
 }
 _try_name
-"
+'
 .
 format
 (
@@ -653,13 +651,13 @@ suite
             
 label
 =
-"
+'
 {
 }
 -
 {
 }
-"
+'
 .
 format
 (
@@ -672,10 +670,10 @@ label
 .
 endswith
 (
-"
+'
 -
 e10s
-"
+'
 )
 :
             
@@ -687,10 +685,10 @@ label
 -
 len
 (
-"
+'
 -
 e10s
-"
+'
 )
 ]
         
@@ -724,18 +722,18 @@ task
 .
 attributes
 [
-"
+'
 unittest_suite
-"
+'
 ]
 in
 (
-"
+'
 raptor
-"
-"
+'
+'
 talos
-"
+'
 )
 register_section
 class
@@ -747,33 +745,33 @@ Section
     
 name
 =
-"
+'
 analysis
-"
+'
     
 kind
 =
-"
+'
 build
 static
 -
 analysis
 -
 autotest
-"
+'
     
 title
 =
-"
+'
 Analysis
-"
+'
     
 attrs
 =
 [
-"
+'
 build_platform
-"
+'
 ]
     
 def
@@ -787,9 +785,9 @@ task
 return
 task
 [
-"
+'
 build_platform
-"
+'
 ]
     
 def
@@ -820,9 +818,9 @@ task
 kind
 =
 =
-"
+'
 build
-"
+'
 :
             
 return
@@ -830,18 +828,18 @@ task
 .
 task
 [
-"
+'
 tags
-"
+'
 ]
 .
 get
 (
-"
+'
 android
 -
 stuff
-"
+'
 False
 )
 =
@@ -903,9 +901,9 @@ context
 =
 {
         
-"
+'
 tasks
-"
+'
 :
 {
 l
@@ -924,9 +922,9 @@ items
 )
 }
         
-"
+'
 sections
-"
+'
 :
 sections
     
@@ -943,9 +941,9 @@ app
 .
 env
 =
-"
+'
 development
-"
+'
     
 app
 .
@@ -958,18 +956,18 @@ app
 .
 route
 (
-"
+'
 /
-"
+'
 methods
 =
 [
-"
+'
 GET
-"
-"
+'
+'
 POST
-"
+'
 ]
 )
     
@@ -985,19 +983,19 @@ request
 method
 =
 =
-"
+'
 GET
-"
+'
 :
             
 return
 render_template
 (
-"
+'
 chooser
 .
 html
-"
+'
 *
 *
 context
@@ -1008,15 +1006,15 @@ request
 .
 form
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 Push
-"
+'
 :
             
 labels
@@ -1025,11 +1023,11 @@ request
 .
 form
 [
-"
+'
 selected
 -
 tasks
-"
+'
 ]
 .
 splitlines
@@ -1053,13 +1051,13 @@ environ
 .
 get
 (
-"
+'
 werkzeug
 .
 server
 .
 shutdown
-"
+'
 )
         
 if
@@ -1073,11 +1071,11 @@ shutdown
 return
 render_template
 (
-"
+'
 close
 .
 html
-"
+'
 )
     
 return

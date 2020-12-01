@@ -9,14 +9,14 @@ sys
 executable
 VENV_PATH
 =
-"
+'
 %
 s
 /
 build
 /
 venv
-"
+'
 %
 os
 .
@@ -27,9 +27,9 @@ exes
 =
 {
     
-"
+'
 python
-"
+'
 :
 PYTHON
 }
@@ -116,9 +116,9 @@ lower
 .
 split
 (
-"
+'
 .
-"
+'
 )
 [
 0

@@ -12,7 +12,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -44,7 +43,6 @@ arg
 "
 "
 "
-    
 )
     
 results
@@ -106,6 +104,7 @@ WebIDL
 .
 IDLInterface
 )
+               
 "
 Should
 be
@@ -118,7 +117,6 @@ harness
 .
 check
 (
-        
 iface
 .
 identifier
@@ -138,7 +136,6 @@ the
 right
 QName
 "
-    
 )
     
 harness
@@ -203,6 +200,7 @@ WebIDL
 .
 IDLAttribute
 )
+               
 "
 Should
 be
@@ -270,7 +268,6 @@ harness
 .
 check
 (
-        
 attr
 .
 identifier
@@ -293,7 +290,6 @@ the
 right
 QName
 "
-    
 )
     
 harness

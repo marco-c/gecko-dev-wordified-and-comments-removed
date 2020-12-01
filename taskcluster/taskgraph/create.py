@@ -91,7 +91,7 @@ label_to_taskid
     
 scheduler_id
 =
-"
+'
 {
 }
 -
@@ -99,23 +99,23 @@ level
 -
 {
 }
-"
+'
 .
 format
 (
 graph_config
 [
-"
+'
 trust
 -
 domain
-"
+'
 ]
 params
 [
-"
+'
 level
-"
+'
 ]
 )
     
@@ -156,9 +156,9 @@ task_def
 .
 get
 (
-"
+'
 dependencies
-"
+'
 [
 ]
 )
@@ -169,9 +169,9 @@ task_def
 .
 setdefault
 (
-"
+'
 dependencies
-"
+'
 [
 ]
 )
@@ -183,18 +183,18 @@ decision_task_id
         
 task_def
 [
-"
+'
 taskGroupId
-"
+'
 ]
 =
 decision_task_id
         
 task_def
 [
-"
+'
 schedulerId
-"
+'
 ]
 =
 scheduler_id
@@ -357,9 +357,9 @@ task_def
 .
 get
 (
-"
+'
 dependencies
-"
+'
 [
 ]
 )
@@ -433,9 +433,9 @@ attributes
 .
 get
 (
-"
+'
 task_duplicates
-"
+'
 1
 )
 )
@@ -541,34 +541,29 @@ json
 .
 dump
 (
-            
 [
 task_id
 task_def
 ]
-            
 sys
 .
 stdout
-            
+                  
 sort_keys
 =
 True
-            
 indent
 =
 4
-            
 separators
 =
 (
-"
-"
-"
+'
+'
+'
 :
-"
+'
 )
-        
 )
         
 print
@@ -608,8 +603,7 @@ session
 .
 put
 (
-        
-"
+'
 http
 :
 /
@@ -624,12 +618,13 @@ task
 /
 {
 }
-"
+'
 .
 format
 (
 task_id
 )
+                      
 data
 =
 json
@@ -638,7 +633,6 @@ dumps
 (
 task_def
 )
-    
 )
     
 if
@@ -663,9 +657,9 @@ json
 (
 )
 [
-"
+'
 message
-"
+'
 ]
 )
         

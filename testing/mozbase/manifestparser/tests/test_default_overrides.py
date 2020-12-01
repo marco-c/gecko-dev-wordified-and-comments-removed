@@ -85,13 +85,13 @@ path
 join
 (
 here
-"
+'
 default
 -
 skipif
 .
 ini
-"
+'
 )
         
 parser
@@ -116,15 +116,15 @@ tests
 if
 test
 [
-"
+'
 name
-"
+'
 ]
 =
 =
-"
+'
 test1
-"
+'
 :
                 
 self
@@ -133,11 +133,11 @@ assertEqual
 (
 test
 [
-"
+'
 skip
 -
 if
-"
+'
 ]
 "
 (
@@ -162,29 +162,28 @@ debug
 elif
 test
 [
-"
+'
 name
-"
+'
 ]
 =
 =
-"
+'
 test2
-"
+'
 :
                 
 self
 .
 assertEqual
 (
-                    
 test
 [
-"
+'
 skip
 -
 if
-"
+'
 ]
 "
 (
@@ -209,35 +208,33 @@ linux
 '
 )
 "
-                
 )
             
 elif
 test
 [
-"
+'
 name
-"
+'
 ]
 =
 =
-"
+'
 test3
-"
+'
 :
                 
 self
 .
 assertEqual
 (
-                    
 test
 [
-"
+'
 skip
 -
 if
-"
+'
 ]
 "
 (
@@ -262,21 +259,20 @@ win
 '
 )
 "
-                
 )
             
 elif
 test
 [
-"
+'
 name
-"
+'
 ]
 =
 =
-"
+'
 test4
-"
+'
 :
                 
 self
@@ -286,11 +282,11 @@ assertEqual
                     
 test
 [
-"
+'
 skip
 -
 if
-"
+'
 ]
 "
 (
@@ -318,21 +314,20 @@ win
 debug
 )
 "
-                
 )
             
 elif
 test
 [
-"
+'
 name
-"
+'
 ]
 =
 =
-"
+'
 test5
-"
+'
 :
                 
 self
@@ -341,11 +336,11 @@ assertEqual
 (
 test
 [
-"
+'
 skip
 -
 if
-"
+'
 ]
 "
 os
@@ -363,15 +358,15 @@ debug
 elif
 test
 [
-"
+'
 name
-"
+'
 ]
 =
 =
-"
+'
 test6
-"
+'
 :
                 
 self
@@ -380,11 +375,11 @@ assertEqual
 (
 test
 [
-"
+'
 skip
 -
 if
-"
+'
 ]
 "
 (
@@ -453,13 +448,13 @@ path
 join
 (
 here
-"
+'
 default
 -
 suppfiles
 .
 ini
-"
+'
 )
         
 parser
@@ -477,38 +472,38 @@ expected_supp_files
 =
 {
             
-"
+'
 test7
-"
+'
 :
-"
+'
 foo
 .
 js
-"
+'
             
-"
+'
 test8
-"
+'
 :
-"
+'
 foo
 .
 js
 bar
 .
 js
-"
+'
             
-"
+'
 test9
-"
+'
 :
-"
+'
 foo
 .
 js
-"
+'
         
 }
         
@@ -526,9 +521,9 @@ expected_supp_files
 [
 test
 [
-"
+'
 name
-"
+'
 ]
 ]
             
@@ -538,11 +533,11 @@ assertEqual
 (
 test
 [
-"
+'
 support
 -
 files
-"
+'
 ]
 expected
 )
@@ -570,6 +565,7 @@ propagating
 to
 definitions
 .
+    
 "
 "
 "
@@ -584,7 +580,6 @@ self
 manifests
 =
 (
-            
 os
 .
 path
@@ -592,15 +587,15 @@ path
 join
 (
 here
-"
+'
 default
 -
 suppfiles
 .
 ini
-"
+'
 )
-            
+                     
 os
 .
 path
@@ -608,15 +603,14 @@ path
 join
 (
 here
-"
+'
 default
 -
 skipif
 .
 ini
-"
+'
 )
-        
 )
         
 parser
@@ -635,15 +629,15 @@ expected_supp_files
 =
 {
             
-"
+'
 test8
-"
+'
 :
-"
+'
 bar
 .
 js
-"
+'
         
 }
         
@@ -651,17 +645,17 @@ expected_skip_ifs
 =
 {
             
-"
+'
 test1
-"
+'
 :
 "
 debug
 "
             
-"
+'
 test2
-"
+'
 :
 "
 os
@@ -672,9 +666,9 @@ linux
 '
 "
             
-"
+'
 test3
-"
+'
 :
 "
 os
@@ -685,9 +679,9 @@ win
 '
 "
             
-"
+'
 test4
-"
+'
 :
 "
 os
@@ -701,9 +695,9 @@ win
 debug
 "
             
-"
+'
 test6
-"
+'
 :
 "
 debug
@@ -724,25 +718,23 @@ field
 expectations
 in
 (
-                
 (
-"
+'
 support
 -
 files
-"
+'
 expected_supp_files
 )
-                
+                                        
 (
-"
+'
 skip
 -
 if
-"
+'
 expected_skip_ifs
 )
-            
 )
 :
                 
@@ -754,9 +746,9 @@ get
 (
 test
 [
-"
+'
 name
-"
+'
 ]
 )
                 
@@ -798,13 +790,13 @@ path
 join
 (
 here
-"
+'
 default
 -
 suppfiles
 .
 ini
-"
+'
 )
 :
 {
@@ -830,13 +822,13 @@ path
 join
 (
 here
-"
+'
 default
 -
 skipif
 .
 ini
-"
+'
 )
 :
 {
@@ -970,13 +962,13 @@ path
 join
 (
 here
-"
+'
 default
 -
 subsuite
 .
 ini
-"
+'
 )
         
 parser
@@ -997,21 +989,21 @@ expected_subsuites
 =
 {
             
-"
+'
 test1
-"
+'
 :
-"
+'
 baz
-"
+'
             
-"
+'
 test2
-"
+'
 :
-"
+'
 foo
-"
+'
         
 }
         
@@ -1048,25 +1040,26 @@ expected_subsuites
 [
 value
 [
-"
+'
 name
-"
+'
 ]
 ]
+                             
 value
 [
-"
+'
 subsuite
-"
+'
 ]
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

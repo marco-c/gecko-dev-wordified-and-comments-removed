@@ -24,21 +24,21 @@ LOCALE
 "
 )
     
-"
+'
 run_configure
-"
+'
 :
 False
     
-"
+'
 env
-"
+'
 :
 {
         
-"
+'
 PATH
-"
+'
 :
 "
 %

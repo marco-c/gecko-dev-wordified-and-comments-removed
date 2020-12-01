@@ -60,23 +60,23 @@ payload
     
 payload
 [
-"
+'
 include_fields
-"
+'
 ]
 =
-"
+'
 id
 summary
 last_change_time
 resolution
-"
+'
     
 payload
 [
-"
+'
 blocks
-"
+'
 ]
 =
 1543241
@@ -87,7 +87,7 @@ requests
 .
 get
 (
-"
+'
 https
 :
 /
@@ -101,7 +101,7 @@ org
 rest
 /
 bug
-"
+'
 payload
 )
     
@@ -120,9 +120,9 @@ json
 .
 get
 (
-"
+'
 bugs
-"
+'
 [
 ]
 )
@@ -136,20 +136,18 @@ MachCommandBase
     
 Command
 (
-        
-"
+'
 busted
-"
-        
+'
 category
 =
-"
+'
 misc
-"
-        
+'
+             
 description
 =
-"
+'
 Query
 known
 bugs
@@ -161,8 +159,7 @@ file
 new
 ones
 .
-"
-    
+'
 )
     
 def
@@ -177,15 +174,15 @@ unresolved
 _get_busted_bugs
 (
 {
-"
+'
 resolution
-"
+'
 :
-"
+'
 -
 -
 -
-"
+'
 }
 )
         
@@ -210,7 +207,7 @@ creation_time
 .
 strftime
 (
-"
+'
 %
 Y
 -
@@ -227,7 +224,7 @@ M
 -
 %
 SZ
-"
+'
 )
         
 resolved
@@ -235,9 +232,9 @@ resolved
 _get_busted_bugs
 (
 {
-"
+'
 creation_time
-"
+'
 :
 creation_time
 }
@@ -254,9 +251,9 @@ resolved
 if
 bug
 [
-"
+'
 resolution
-"
+'
 ]
 ]
         
@@ -272,14 +269,14 @@ key
 =
 itemgetter
 (
-"
+'
 last_change_time
-"
+'
 )
+            
 reverse
 =
 True
-        
 )
         
 if
@@ -294,7 +291,6 @@ all_bugs
                 
 print
 (
-                    
 "
 [
 %
@@ -307,54 +303,49 @@ s
 %
 s
 "
-                    
 %
 (
-                        
-"
+                    
+'
 UNRESOLVED
-"
-                        
+'
 if
 not
 bug
 [
-"
+'
 resolution
-"
+'
 ]
-                        
+                    
 else
-"
+'
 RESOLVED
 -
 %
 s
-"
+'
 %
 bug
 [
-"
+'
 resolution
-"
+'
 ]
-                        
 bug
 [
-"
+'
 id
-"
-]
-                        
-bug
-[
-"
-summary
-"
+'
 ]
                     
+bug
+[
+'
+summary
+'
+]
 )
-                
 )
         
 else
@@ -374,15 +365,17 @@ found
     
 SubCommand
 (
-"
+'
 busted
-"
-"
+'
+                
+'
 file
-"
+'
+                
 description
 =
-"
+'
 File
 a
 bug
@@ -390,21 +383,20 @@ for
 busted
 tooling
 .
-"
+'
 )
     
 CommandArgument
 (
         
-"
+'
 against
-"
-        
+'
 help
 =
 (
             
-"
+'
 The
 specific
 mach
@@ -420,9 +412,9 @@ e
 if
 you
 encountered
-"
+'
             
-"
+'
 an
 error
 with
@@ -436,9 +428,9 @@ build
 )
 .
 If
-"
+'
             
-"
+'
 the
 issue
 is
@@ -450,9 +442,9 @@ particular
 mach
 command
 you
-"
+'
             
-"
+'
 can
 also
 run
@@ -461,10 +453,8 @@ busted
 file
 general
 .
-"
-        
+'
 )
-    
 )
     
 def
@@ -480,15 +470,14 @@ webbrowser
         
 if
 (
-            
 against
 !
 =
-"
+'
 general
-"
-            
+'
 and
+            
 against
 not
 in
@@ -499,14 +488,12 @@ _mach_context
 commands
 .
 command_handlers
-        
 )
 :
             
 print
 (
-                
-"
+'
 %
 s
 is
@@ -520,9 +507,9 @@ against
 against
 must
 be
-"
-                
-"
+'
+                  
+'
 the
 name
 of
@@ -533,8 +520,8 @@ or
 else
 the
 string
-"
-                
+'
+                  
 '
 "
 general
@@ -543,7 +530,6 @@ general
 '
 %
 against
-            
 )
             
 return
@@ -553,24 +539,24 @@ if
 against
 =
 =
-"
+'
 general
-"
+'
 :
             
 product
 =
-"
+'
 Firefox
 Build
 System
-"
+'
             
 component
 =
-"
+'
 General
-"
+'
         
 else
 :
@@ -622,6 +608,7 @@ getsourcefile
 (
 method
 )
+                                         
 self
 .
 topsrcdir
@@ -635,9 +622,9 @@ mozbuild_reader
 (
 config_mode
 =
-"
+'
 empty
-"
+'
 )
             
 try
@@ -649,6 +636,7 @@ reader
 .
 files_info
 (
+                    
 [
 sourcefile
 ]
@@ -657,9 +645,9 @@ sourcefile
 sourcefile
 ]
 [
-"
+'
 BUG_COMPONENT
-"
+'
 ]
                 
 product
@@ -678,23 +666,22 @@ TypeError
                 
 product
 =
-"
+'
 Firefox
 Build
 System
-"
+'
                 
 component
 =
-"
+'
 General
-"
+'
         
 uri
 =
 (
-            
-"
+'
 https
 :
 /
@@ -709,9 +696,9 @@ enter_bug
 .
 cgi
 ?
-"
-            
-"
+'
+               
+'
 product
 =
 %
@@ -725,13 +712,12 @@ s
 blocked
 =
 1543241
-"
+'
 %
 (
 product
 component
 )
-        
 )
         
 webbrowser
@@ -744,634 +730,634 @@ MACH_PASTEBIN_DURATIONS
 =
 {
     
-"
+'
 onetime
-"
+'
 :
-"
+'
 onetime
-"
+'
     
-"
+'
 hour
-"
+'
 :
-"
+'
 3600
-"
+'
     
-"
+'
 day
-"
+'
 :
-"
+'
 86400
-"
+'
     
-"
+'
 week
-"
+'
 :
-"
+'
 604800
-"
+'
     
-"
+'
 month
-"
+'
 :
-"
+'
 2073600
-"
+'
 }
 EXTENSION_TO_HIGHLIGHTER
 =
 {
     
-"
+'
 .
 hgrc
-"
+'
 :
-"
+'
 ini
-"
+'
     
-"
+'
 Dockerfile
-"
+'
 :
-"
+'
 docker
-"
+'
     
-"
+'
 Makefile
-"
+'
 :
-"
+'
 make
-"
+'
     
-"
+'
 applescript
-"
+'
 :
-"
+'
 applescript
-"
+'
     
-"
+'
 arduino
-"
+'
 :
-"
+'
 arduino
-"
+'
     
-"
+'
 bash
-"
+'
 :
-"
+'
 bash
-"
+'
     
-"
+'
 bat
-"
+'
 :
-"
+'
 bat
-"
+'
     
-"
+'
 c
-"
+'
 :
-"
+'
 c
-"
+'
     
-"
+'
 clojure
-"
+'
 :
-"
+'
 clojure
-"
+'
     
-"
+'
 cmake
-"
+'
 :
-"
+'
 cmake
-"
+'
     
-"
+'
 coffee
-"
+'
 :
-"
+'
 coffee
 -
 script
-"
+'
     
-"
+'
 console
-"
+'
 :
-"
+'
 console
-"
+'
     
-"
+'
 cpp
-"
+'
 :
-"
+'
 cpp
-"
+'
     
-"
+'
 cs
-"
+'
 :
-"
+'
 csharp
-"
+'
     
-"
+'
 css
-"
+'
 :
-"
+'
 css
-"
+'
     
-"
+'
 cu
-"
+'
 :
-"
+'
 cuda
-"
+'
     
-"
+'
 cuda
-"
+'
 :
-"
+'
 cuda
-"
+'
     
-"
+'
 dart
-"
+'
 :
-"
+'
 dart
-"
+'
     
-"
+'
 delphi
-"
+'
 :
-"
+'
 delphi
-"
+'
     
-"
+'
 diff
-"
+'
 :
-"
+'
 diff
-"
+'
     
-"
+'
 django
-"
+'
 :
-"
+'
 django
-"
+'
     
-"
+'
 docker
-"
+'
 :
-"
+'
 docker
-"
+'
     
-"
+'
 elixir
-"
+'
 :
-"
+'
 elixir
-"
+'
     
-"
+'
 erlang
-"
+'
 :
-"
+'
 erlang
-"
+'
     
-"
+'
 go
-"
+'
 :
-"
+'
 go
-"
+'
     
-"
+'
 h
-"
+'
 :
-"
+'
 c
-"
+'
     
-"
+'
 handlebars
-"
+'
 :
-"
+'
 handlebars
-"
+'
     
-"
+'
 haskell
-"
+'
 :
-"
+'
 haskell
-"
+'
     
-"
+'
 hs
-"
+'
 :
-"
+'
 haskell
-"
+'
     
-"
+'
 html
-"
+'
 :
-"
+'
 html
-"
+'
     
-"
+'
 ini
-"
+'
 :
-"
+'
 ini
-"
+'
     
-"
+'
 ipy
-"
+'
 :
-"
+'
 ipythonconsole
-"
+'
     
-"
+'
 ipynb
-"
+'
 :
-"
+'
 ipythonconsole
-"
+'
     
-"
+'
 irc
-"
+'
 :
-"
+'
 irc
-"
+'
     
-"
+'
 j2
-"
+'
 :
-"
+'
 django
-"
+'
     
-"
+'
 java
-"
+'
 :
-"
+'
 java
-"
+'
     
-"
+'
 js
-"
+'
 :
-"
+'
 js
-"
+'
     
-"
+'
 json
-"
+'
 :
-"
+'
 json
-"
+'
     
-"
+'
 jsx
-"
+'
 :
-"
+'
 jsx
-"
+'
     
-"
+'
 kt
-"
+'
 :
-"
+'
 kotlin
-"
+'
     
-"
+'
 less
-"
+'
 :
-"
+'
 less
-"
+'
     
-"
+'
 lisp
-"
+'
 :
-"
+'
 common
 -
 lisp
-"
+'
     
-"
+'
 lsp
-"
+'
 :
-"
+'
 common
 -
 lisp
-"
+'
     
-"
+'
 lua
-"
+'
 :
-"
+'
 lua
-"
+'
     
-"
+'
 m
-"
+'
 :
-"
+'
 objective
 -
 c
-"
+'
     
-"
+'
 make
-"
+'
 :
-"
+'
 make
-"
+'
     
-"
+'
 matlab
-"
+'
 :
-"
+'
 matlab
-"
+'
     
-"
+'
 md
-"
+'
 :
-"
+'
 _markdown
-"
+'
     
-"
+'
 nginx
-"
+'
 :
-"
+'
 nginx
-"
+'
     
-"
+'
 numpy
-"
+'
 :
-"
+'
 numpy
-"
+'
     
-"
+'
 patch
-"
+'
 :
-"
+'
 diff
-"
+'
     
-"
+'
 perl
-"
+'
 :
-"
+'
 perl
-"
+'
     
-"
+'
 php
-"
+'
 :
-"
+'
 php
-"
+'
     
-"
+'
 pm
-"
+'
 :
-"
+'
 perl
-"
+'
     
-"
+'
 postgresql
-"
+'
 :
-"
+'
 postgresql
-"
+'
     
-"
+'
 py
-"
+'
 :
-"
+'
 python
-"
+'
     
-"
+'
 rb
-"
+'
 :
-"
+'
 rb
-"
+'
     
-"
+'
 rs
-"
+'
 :
-"
+'
 rust
-"
+'
     
-"
+'
 rst
-"
+'
 :
-"
+'
 rst
-"
+'
     
-"
+'
 sass
-"
+'
 :
-"
+'
 sass
-"
+'
     
-"
+'
 scss
-"
+'
 :
-"
+'
 scss
-"
+'
     
-"
+'
 sh
-"
+'
 :
-"
+'
 bash
-"
+'
     
-"
+'
 sol
-"
+'
 :
-"
+'
 sol
-"
+'
     
-"
+'
 sql
-"
+'
 :
-"
+'
 sql
-"
+'
     
-"
+'
 swift
-"
+'
 :
-"
+'
 swift
-"
+'
     
-"
+'
 tex
-"
+'
 :
-"
+'
 tex
-"
+'
     
-"
+'
 typoscript
-"
+'
 :
-"
+'
 typoscript
-"
+'
     
-"
+'
 vim
-"
+'
 :
-"
+'
 vim
-"
+'
     
-"
+'
 xml
-"
+'
 :
-"
+'
 xml
-"
+'
     
-"
+'
 xslt
-"
+'
 :
-"
+'
 xslt
-"
+'
     
-"
+'
 yaml
-"
+'
 :
-"
+'
 yaml
-"
+'
     
-"
+'
 yml
-"
+'
 :
-"
+'
 yaml
-"
+'
 }
 def
 guess_highlighter_from_path
@@ -1380,9 +1366,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
 Return
 a
 known
@@ -1435,9 +1421,9 @@ that
 fails
 .
     
-"
-"
-"
+'
+'
+'
     
 import
 os
@@ -1459,9 +1445,9 @@ ext
 .
 startswith
 (
-"
+'
 .
-"
+'
 )
 :
         
@@ -1502,9 +1488,9 @@ EXTENSION_TO_HIGHLIGHTER
 get
 (
 basename
-"
+'
 _code
-"
+'
 )
 PASTEMO_MAX_CONTENT_LENGTH
 =
@@ -1515,7 +1501,7 @@ PASTEMO_MAX_CONTENT_LENGTH
 1024
 PASTEMO_URL
 =
-"
+'
 https
 :
 /
@@ -1528,12 +1514,12 @@ org
 /
 api
 /
-"
+'
 MACH_PASTEBIN_DESCRIPTION
 =
-"
-"
-"
+'
+'
+'
 Command
 line
 interface
@@ -1582,9 +1568,9 @@ an
 appropriate
 highlighter
 .
-"
-"
-"
+'
+'
+'
 CommandProvider
 class
 PastebinProvider
@@ -1595,14 +1581,15 @@ MachCommandBase
     
 Command
 (
-"
+'
 pastebin
-"
+'
 category
 =
-"
+'
 misc
-"
+'
+             
 description
 =
 MACH_PASTEBIN_DESCRIPTION
@@ -1610,72 +1597,66 @@ MACH_PASTEBIN_DESCRIPTION
     
 CommandArgument
 (
-        
-"
+'
 -
 -
 list
 -
 highlighters
-"
-        
+'
 action
 =
-"
+'
 store_true
-"
-        
+'
+                     
 help
 =
-"
+'
 List
 known
 highlighters
 and
 exit
-"
-    
+'
 )
     
 CommandArgument
 (
-        
-"
+'
 -
 -
 highlighter
-"
+'
 default
 =
 None
+                     
 help
 =
-"
+'
 Syntax
 highlighting
 to
 use
 for
 paste
-"
-    
+'
 )
     
 CommandArgument
 (
-        
-"
+'
 -
 -
 expires
-"
-        
+'
 default
 =
-"
+'
 week
-"
-        
+'
+                     
 choices
 =
 sorted
@@ -1686,10 +1667,10 @@ keys
 (
 )
 )
-        
+                     
 help
 =
-"
+'
 Expire
 paste
 after
@@ -1705,28 +1686,25 @@ default
 )
 s
 )
-"
-    
+'
 )
     
 CommandArgument
 (
-        
-"
+'
 -
 -
 verbose
-"
-        
+'
 action
 =
-"
+'
 store_true
-"
-        
+'
+                     
 help
 =
-"
+'
 Print
 extra
 info
@@ -1735,30 +1713,26 @@ as
 selected
 syntax
 highlighter
-"
-    
+'
 )
     
 CommandArgument
 (
-        
-"
+'
 path
-"
-        
+'
 nargs
 =
-"
+'
 ?
-"
-        
+'
 default
 =
 None
-        
+                     
 help
 =
-"
+'
 Path
 to
 file
@@ -1770,8 +1744,7 @@ paste
 mozilla
 .
 org
-"
-    
+'
 )
     
 def
@@ -1800,9 +1773,9 @@ kwargs
 )
 :
             
-"
-"
-"
+'
+'
+'
 Print
 a
 string
@@ -1813,9 +1786,9 @@ verbose
 flag
 is
 set
-"
-"
-"
+'
+'
+'
             
 if
 verbose
@@ -1847,24 +1820,25 @@ values
             
 print
 (
-"
+'
 Available
 lexers
 :
 \
 n
-"
-"
+'
+                  
+'
 -
 %
 s
-"
+'
 %
-"
+'
 \
 n
 -
-"
+'
 .
 join
 (
@@ -1883,13 +1857,13 @@ try
             
 verbose_print
 (
-"
+'
 Setting
 expiry
 from
 %
 s
-"
+'
 %
 expires
 )
@@ -1903,13 +1877,13 @@ expires
             
 verbose_print
 (
-"
+'
 Using
 %
 s
 as
 expiry
-"
+'
 %
 expires
 )
@@ -1920,8 +1894,7 @@ KeyError
             
 print
 (
-                
-"
+'
 %
 s
 is
@@ -1932,9 +1905,9 @@ duration
 .
 \
 n
-"
-                
-"
+'
+                  
+'
 (
 hint
 :
@@ -1944,13 +1917,13 @@ of
 %
 s
 )
-"
-                
+'
 %
+                  
 (
 expires
-"
-"
+'
+'
 .
 join
 (
@@ -1961,7 +1934,6 @@ keys
 )
 )
 )
-            
 )
             
 return
@@ -1971,17 +1943,17 @@ data
 =
 {
             
-"
+'
 format
-"
+'
 :
-"
+'
 json
-"
+'
             
-"
+'
 expires
-"
+'
 :
 expires
         
@@ -1993,13 +1965,13 @@ path
             
 verbose_print
 (
-"
+'
 Reading
 content
 from
 %
 s
-"
+'
 %
 path
 )
@@ -2011,9 +1983,9 @@ with
 open
 (
 path
-"
+'
 r
-"
+'
 )
 as
 f
@@ -2033,7 +2005,7 @@ IOError
                 
 print
 (
-"
+'
 ERROR
 .
 No
@@ -2041,7 +2013,7 @@ such
 file
 %
 s
-"
+'
 %
 path
 )
@@ -2062,9 +2034,9 @@ lexer
                 
 data
 [
-"
+'
 lexer
-"
+'
 ]
 =
 lexer
@@ -2074,12 +2046,12 @@ else
             
 verbose_print
 (
-"
+'
 Reading
 content
 from
 stdin
-"
+'
 )
             
 content
@@ -2101,7 +2073,7 @@ content
         
 verbose_print
 (
-"
+'
 Checking
 size
 of
@@ -2112,7 +2084,7 @@ okay
 %
 d
 )
-"
+'
 %
 content_length
 )
@@ -2125,8 +2097,7 @@ PASTEMO_MAX_CONTENT_LENGTH
             
 print
 (
-                
-"
+'
 Paste
 content
 is
@@ -2139,14 +2110,13 @@ maximum
 %
 d
 )
-"
-                
+'
 %
+                  
 (
 content_length
 PASTEMO_MAX_CONTENT_LENGTH
 )
-            
 )
             
 return
@@ -2154,9 +2124,9 @@ return
         
 data
 [
-"
+'
 content
-"
+'
 ]
 =
 content
@@ -2167,22 +2137,22 @@ highlighter
             
 verbose_print
 (
-"
+'
 Setting
 %
 s
 as
 highlighter
-"
+'
 %
 highlighter
 )
             
 data
 [
-"
+'
 lexer
-"
+'
 ]
 =
 highlighter
@@ -2192,13 +2162,13 @@ try
             
 verbose_print
 (
-"
+'
 Sending
 request
 to
 %
 s
-"
+'
 %
 PASTEMO_URL
 )
@@ -2226,7 +2196,7 @@ status_code
                 
 print
 (
-"
+'
 Error
 code
 %
@@ -2234,7 +2204,7 @@ d
 :
 %
 s
-"
+'
 %
 (
 resp
@@ -2251,10 +2221,10 @@ return
             
 verbose_print
 (
-"
+'
 Pasted
 successfully
-"
+'
 )
             
 response_json
@@ -2267,19 +2237,19 @@ json
             
 verbose_print
 (
-"
+'
 Paste
 highlighted
 as
 %
 s
-"
+'
 %
 response_json
 [
-"
+'
 lexer
-"
+'
 ]
 )
             
@@ -2287,9 +2257,9 @@ print
 (
 response_json
 [
-"
+'
 url
-"
+'
 ]
 )
             
@@ -2304,21 +2274,21 @@ e
             
 print
 (
-"
+'
 ERROR
 .
 Paste
 failed
 .
-"
+'
 )
             
 print
 (
-"
+'
 %
 s
-"
+'
 %
 e
 )
@@ -2411,12 +2381,12 @@ importlib
 .
 import_module
 (
-"
+'
 %
 s
 .
 mach_interface
-"
+'
 %
 self
 .
@@ -2480,7 +2450,6 @@ pypi_name
             
 print
 (
-                
 "
 %
 s
@@ -2493,7 +2462,7 @@ re
 run
 your
 "
-                
+                  
 "
 command
 .
@@ -2505,7 +2474,7 @@ this
 message
 please
 "
-                
+                  
 "
 manually
 run
@@ -2529,7 +2498,6 @@ self
 .
 pypi_name
 )
-            
 )
         
 else
@@ -2558,19 +2526,20 @@ virtualenv_manager
 .
 _run_pip
 (
-                    
 [
-"
+                    
+'
 install
-"
-"
+'
+                    
+'
 %
 s
 =
 =
 %
 s
-"
+'
 %
 (
 self
@@ -2578,13 +2547,12 @@ self
 pypi_name
 release
 )
-]
                 
+]
 )
                 
 print
 (
-                    
 "
 %
 s
@@ -2597,7 +2565,7 @@ s
 .
 please
 "
-                    
+                      
 "
 re
 -
@@ -2613,7 +2581,6 @@ self
 pypi_name
 release
 )
-                
 )
             
 else
@@ -2703,17 +2670,16 @@ MachCommandBase
     
 Command
 (
-        
-"
+'
 mozregression
-"
-        
+'
+             
 category
 =
-"
+'
 misc
-"
-        
+'
+             
 description
 =
 (
@@ -2724,6 +2690,7 @@ finder
 for
 nightly
 "
+                          
 "
 and
 inbound
@@ -2731,11 +2698,10 @@ builds
 .
 "
 )
-        
+             
 parser
 =
 mozregression_create_parser
-    
 )
     
 def
@@ -3032,17 +2998,16 @@ MachCommandBase
     
 Command
 (
-        
-"
+'
 logspam
-"
-        
+'
+             
 category
 =
-"
+'
 misc
-"
-        
+'
+             
 description
 =
 (
@@ -3056,7 +3021,6 @@ runs
 .
 "
 )
-    
 )
     
 def
@@ -3070,12 +3034,12 @@ pass
     
 SubCommand
 (
-"
+'
 logspam
-"
-"
+'
+'
 report
-"
+'
 parser
 =
 partial
@@ -3128,12 +3092,12 @@ options
     
 SubCommand
 (
-"
+'
 logspam
-"
-"
+'
+'
 bisect
-"
+'
 parser
 =
 partial
@@ -3186,12 +3150,12 @@ options
     
 SubCommand
 (
-"
+'
 logspam
-"
-"
+'
+'
 file
-"
+'
 parser
 =
 partial

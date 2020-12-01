@@ -4,13 +4,13 @@ import
 absolute_import
 __version__
 =
-"
+'
 3
 .
 1
 .
 0
-"
+'
 from
 marionette_driver
 import

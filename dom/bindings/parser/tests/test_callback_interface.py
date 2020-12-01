@@ -12,7 +12,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -33,7 +32,6 @@ bool
 "
 "
 "
-    
 )
     
 results
@@ -88,7 +86,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -118,7 +115,6 @@ bool
 "
 "
 "
-        
 )
         
 results
@@ -174,7 +170,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -204,7 +199,6 @@ bool
 "
 "
 "
-        
 )
         
 results
@@ -253,7 +247,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -477,7 +470,6 @@ bar
 "
 "
 "
-    
 )
     
 results
@@ -499,22 +491,20 @@ enumerate
 results
 )
 :
-        
+      
 harness
 .
 check
 (
-            
 iface
 .
 isSingleOperationInterface
 (
 )
-            
 i
 <
 4
-            
+                    
 "
 Interface
 %
@@ -526,12 +516,11 @@ single
 operation
 interface
 "
-            
 %
+                    
 iface
 .
 identifier
 .
 name
-        
 )

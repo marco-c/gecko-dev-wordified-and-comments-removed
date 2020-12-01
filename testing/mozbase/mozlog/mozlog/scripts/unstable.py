@@ -45,11 +45,11 @@ statuses
 =
 defaultdict
 (
-            
 lambda
 :
 defaultdict
 (
+            
 lambda
 :
 defaultdict
@@ -62,7 +62,6 @@ int
 )
 )
 )
-        
 )
     
 def
@@ -177,7 +176,6 @@ item
 status
 "
 ]
-        
 ]
 +
 =
@@ -216,14 +214,12 @@ test
 None
 ]
 [
-            
 item
 [
 "
 status
 "
 ]
-        
 ]
 +
 =
@@ -512,8 +508,6 @@ data
         
 run_str
 =
-(
-            
 "
 "
 .
@@ -537,18 +531,14 @@ v
 in
 run_info
 )
-            
 if
 run_info
-            
 else
 "
 No
 Run
 Info
 "
-        
-)
         
 print
 (
@@ -631,7 +621,6 @@ subtests
             
 print
 (
-                
 "
 [
 %
@@ -641,10 +630,8 @@ s
 %
 s
 "
-                
 %
 (
-                    
 name
 if
 name
@@ -654,7 +641,7 @@ None
 else
 "
 "
-                    
+                                
 "
 "
 .
@@ -684,9 +671,7 @@ iteritems
 results
 )
 )
-                
 )
-            
 )
 def
 get_parser
@@ -703,11 +688,10 @@ argparse
 .
 ArgumentParser
 (
-        
 "
 unstable
 "
-        
+                                     
 description
 =
 "
@@ -720,7 +704,7 @@ t
 give
 consistent
 "
-        
+                                     
 "
 results
 from
@@ -730,18 +714,15 @@ more
 runs
 .
 "
-        
 add_help
 =
 add_help
-    
 )
     
 parser
 .
 add_argument
 (
-        
 "
 -
 -
@@ -755,6 +736,7 @@ store_true
 default
 =
 False
+                        
 help
 =
 "
@@ -763,30 +745,26 @@ in
 JSON
 format
 "
-    
 )
     
 parser
 .
 add_argument
 (
-        
 "
 -
 -
 group
 "
-        
 action
 =
 "
 store_true
 "
-        
 default
 =
 False
-        
+                        
 help
 =
 "
@@ -797,7 +775,6 @@ different
 run
 types
 "
-    
 )
     
 parser
@@ -812,6 +789,7 @@ nargs
 "
 +
 "
+                        
 help
 =
 "

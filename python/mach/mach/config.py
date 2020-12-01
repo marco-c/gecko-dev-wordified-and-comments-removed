@@ -395,15 +395,15 @@ value
 :
         
 return
-"
+'
 true
-"
+'
 if
 value
 else
-"
+'
 false
-"
+'
 class
 IntegerType
 (
@@ -546,33 +546,33 @@ TYPE_CLASSES
 =
 {
     
-"
+'
 string
-"
+'
 :
 StringType
     
-"
+'
 boolean
-"
+'
 :
 BooleanType
     
-"
+'
 int
-"
+'
 :
 IntegerType
     
-"
+'
 pos_int
-"
+'
 :
 PositiveIntegerType
     
-"
+'
 path
-"
+'
 :
 PathType
 }
@@ -1048,9 +1048,9 @@ object
 __setattr__
 (
 self
-"
+'
 _config
-"
+'
 config
 )
             
@@ -1059,9 +1059,9 @@ object
 __setattr__
 (
 self
-"
+'
 _name
-"
+'
 name
 )
             
@@ -1070,9 +1070,9 @@ object
 __setattr__
 (
 self
-"
+'
 _settings
-"
+'
 settings
 )
             
@@ -1083,9 +1083,9 @@ any
 s
 =
 =
-"
+'
 *
-"
+'
 for
 s
 in
@@ -1099,9 +1099,9 @@ object
 __setattr__
 (
 self
-"
+'
 _wildcard
-"
+'
 wildcard
 )
         
@@ -1172,15 +1172,15 @@ self
 .
 _settings
 [
-"
+'
 *
-"
+'
 ]
             
 raise
 KeyError
 (
-"
+'
 Option
 not
 registered
@@ -1189,7 +1189,7 @@ provider
 :
 %
 s
-"
+'
 %
 option
 )
@@ -1214,9 +1214,9 @@ option
             
 meta
 [
-"
+'
 type_cls
-"
+'
 ]
 .
 validate
@@ -1225,9 +1225,9 @@ value
 )
             
 if
-"
+'
 choices
-"
+'
 in
 meta
 and
@@ -1236,16 +1236,15 @@ not
 in
 meta
 [
-"
+'
 choices
-"
+'
 ]
 :
                 
 raise
 ValueError
 (
-                    
 "
 Value
 '
@@ -1260,12 +1259,12 @@ of
 %
 s
 "
-                    
 %
 (
+                                 
 value
-"
-"
+'
+'
 .
 join
 (
@@ -1273,14 +1272,13 @@ sorted
 (
 meta
 [
-"
+'
 choices
-"
+'
 ]
 )
 )
 )
-                
 )
         
 def
@@ -1369,9 +1367,9 @@ v
 =
 meta
 [
-"
+'
 type_cls
-"
+'
 ]
 .
 from_config
@@ -1394,9 +1392,9 @@ meta
 .
 get
 (
-"
+'
 default
-"
+'
 DefaultValue
 )
             
@@ -1410,7 +1408,7 @@ DefaultValue
 raise
 KeyError
 (
-"
+'
 No
 default
 value
@@ -1418,7 +1416,7 @@ registered
 :
 %
 s
-"
+'
 %
 k
 )
@@ -1497,9 +1495,9 @@ _name
 k
 meta
 [
-"
+'
 type_cls
-"
+'
 ]
 .
 to_config
@@ -1760,9 +1758,9 @@ fps
 open
 (
 f
-"
+'
 rt
-"
+'
 )
 for
 f
@@ -1876,27 +1874,19 @@ classmethod
 def
 _format_metadata
 (
-        
 cls
-        
 provider
-        
 section
-        
 option
-        
 type_cls
-        
 description
-        
+                         
 default
 =
 DefaultValue
-        
 extra
 =
 None
-    
 )
 :
         
@@ -2068,15 +2058,15 @@ meta
 =
 {
             
-"
+'
 description
-"
+'
 :
 description
             
-"
+'
 type_cls
-"
+'
 :
 type_cls
         
@@ -2091,9 +2081,9 @@ DefaultValue
             
 meta
 [
-"
+'
 default
-"
+'
 ]
 =
 default
@@ -2144,7 +2134,7 @@ _finalized
 raise
 ConfigException
 (
-"
+'
 Providers
 cannot
 be
@@ -2152,7 +2142,7 @@ registered
 after
 finalized
 .
-"
+'
 )
         
 settings
@@ -2199,9 +2189,9 @@ setting
 .
 split
 (
-"
+'
 .
-"
+'
 )
             
 if
@@ -2216,8 +2206,7 @@ section
 raise
 ConfigException
 (
-                    
-"
+'
 Setting
 has
 already
@@ -2229,13 +2218,13 @@ s
 .
 %
 s
-"
+'
 %
 (
+                                
 section
 option
 )
-                
 )
             
 meta
@@ -2309,8 +2298,7 @@ section
 raise
 ConfigException
 (
-                        
-"
+'
 Setting
 already
 registered
@@ -2320,13 +2308,13 @@ s
 .
 %
 s
-"
+'
 %
+                                          
 (
 section_name
 k
 )
-                    
 )
                 
 section

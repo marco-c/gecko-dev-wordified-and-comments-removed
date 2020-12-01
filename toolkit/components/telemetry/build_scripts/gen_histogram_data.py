@@ -7,8 +7,12 @@ mozparsers
 .
 shared_telemetry_utils
 import
+(
+    
 static_assert
+    
 ParserError
+)
 from
 mozparsers
 import
@@ -27,7 +31,6 @@ path
 .
 abspath
 (
-    
 path
 .
 join
@@ -52,7 +55,6 @@ path
 .
 append
 (
-    
 path
 .
 join
@@ -99,25 +101,18 @@ py
 def
 print_array_entry
 (
-    
 output
-    
 histogram
-    
 name_index
-    
 exp_index
-    
+                      
 label_index
-    
 label_count
-    
+                      
 key_index
-    
 key_count
-    
+                      
 store_index
-    
 store_count
 )
 :
@@ -140,7 +135,6 @@ OS_TARGET
         
 print
 (
-            
 "
 {
 %
@@ -177,44 +171,43 @@ s
 s
 }
 "
-            
+              
 %
 (
-                
 histogram
 .
 low
 (
 )
-                
+                 
 histogram
 .
 high
 (
 )
-                
+                 
 histogram
 .
 n_buckets
 (
 )
-                
+                 
 name_index
-                
+                 
 exp_index
-                
+                 
 label_count
-                
+                 
 key_count
-                
+                 
 store_count
-                
+                 
 label_index
-                
+                 
 key_index
-                
+                 
 store_index
-                
+                 
 "
 |
 "
@@ -227,7 +220,7 @@ record_in_processes_enum
 (
 )
 )
-                
+                 
 "
 true
 "
@@ -241,19 +234,19 @@ else
 "
 false
 "
-                
+                 
 histogram
 .
 nsITelemetry_kind
 (
 )
-                
+                 
 histogram
 .
 dataset
 (
 )
-                
+                 
 "
 |
 "
@@ -266,13 +259,10 @@ products_enum
 (
 )
 )
-            
 )
-            
 file
 =
 output
-        
 )
 def
 write_histogram_table
@@ -492,9 +482,9 @@ main
             
 store_index
 =
-"
+'
 UINT16_MAX
-"
+'
         
 else
 :
@@ -532,36 +522,27 @@ stores
         
 print_array_entry
 (
-            
 output
-            
 histogram
-            
 name_index
-            
 exp_index
-            
+                          
 label_index
-            
 len
 (
 labels
 )
-            
 key_index
-            
 len
 (
 keys
 )
-            
+                          
 store_index
-            
 len
 (
 stores
 )
-        
 )
     
 print
@@ -606,6 +587,7 @@ UINT32_MAX
 "
 %
 strtab_name
+                  
 "
 index
 overflow
@@ -742,7 +724,6 @@ output
     
 static_assert
 (
-        
 output
 "
 sizeof
@@ -757,7 +738,6 @@ UINT16_MAX
 index
 overflow
 "
-    
 )
     
 print
@@ -1056,7 +1036,6 @@ output
     
 static_assert
 (
-        
 output
 "
 sizeof
@@ -1070,11 +1049,11 @@ UINT16_MAX
 "
 %
 store_table_name
+                  
 "
 index
 overflow
 "
-    
 )
 def
 static_asserts_for_boolean
@@ -1121,7 +1100,6 @@ high
     
 static_assert
 (
-        
 output
 "
 %
@@ -1131,6 +1109,7 @@ s
 "
 %
 n_values
+                  
 "
 Not
 enough
@@ -1145,7 +1124,6 @@ histogram
 name
 (
 )
-    
 )
 def
 shared_static_asserts
@@ -1264,9 +1242,7 @@ name
     
 static_assert
 (
-        
 output
-        
 "
 %
 s
@@ -1279,7 +1255,6 @@ s
 high
 n_buckets
 )
-        
 "
 high
 must
@@ -1293,7 +1268,7 @@ for
 s
 ;
 "
-        
+                  
 "
 you
 may
@@ -1304,7 +1279,6 @@ histogram
 "
 %
 name
-    
 )
 def
 static_asserts_for_linear
@@ -1342,7 +1316,6 @@ histograms
     
 print
 (
-        
 "
 "
 "
@@ -1380,56 +1353,54 @@ errors
 "
 "
 "
-        
 file
 =
 output
-    
 )
     
 table
 =
 {
         
-"
+'
 boolean
-"
+'
 :
 static_asserts_for_boolean
         
-"
+'
 flag
-"
+'
 :
 static_asserts_for_flag
         
-"
+'
 count
-"
+'
 :
 static_asserts_for_count
         
-"
+'
 enumerated
-"
+'
 :
 static_asserts_for_enumerated
         
-"
+'
 categorical
-"
+'
 :
 static_asserts_for_enumerated
         
-"
+'
 linear
-"
+'
 :
 static_asserts_for_linear
         
-"
+'
 exponential
-"
+'
 :
 static_asserts_for_exponential
     
@@ -1482,7 +1453,6 @@ table
 raise
 Exception
 (
-                
 '
 Unknown
 kind
@@ -1507,7 +1477,6 @@ name
 (
 )
 )
-            
 )
         
 fn
@@ -1671,8 +1640,8 @@ ranges
             
 print
 (
-"
-"
+'
+'
 .
 join
 (
@@ -1682,9 +1651,9 @@ str
 ranges
 )
 )
-"
+'
 INT_MAX
-"
+'
 file
 =
 output
@@ -1711,7 +1680,7 @@ offset
 raise
 Exception
 (
-"
+'
 Histogram
 offsets
 exceeded
@@ -1721,7 +1690,7 @@ for
 an
 int16_t
 .
-"
+'
 )
     
 target_os
@@ -1952,9 +1921,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

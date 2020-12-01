@@ -416,9 +416,7 @@ result
 type
 "
 ]
-                        
 )
-                    
 )
         
 except
@@ -437,12 +435,10 @@ exc_info
             
 reraise
 (
-                
 exc_cls
-                
 exc_cls
 (
-"
+'
 Failed
 to
 trigger
@@ -453,16 +449,14 @@ tab
 :
 {
 }
-"
+'
 .
 format
 (
 exc
 )
 )
-                
 tb
-            
 )
         
 else
@@ -592,7 +586,6 @@ marionette
 .
 execute_script
 (
-                    
 "
 "
 "
@@ -654,13 +647,11 @@ complete
 "
 "
 "
-                    
 script_args
 =
 [
 handle
 ]
-                
 )
         
 try
@@ -689,7 +680,6 @@ marionette
 .
 open
 (
-                    
 type
 =
 "
@@ -701,7 +691,6 @@ focus
 private
 =
 private
-                
 )
                 
 if
@@ -747,9 +736,7 @@ result
 type
 "
 ]
-                        
 )
-                    
 )
         
 except
@@ -768,12 +755,10 @@ exc_info
             
 reraise
 (
-                
 exc_cls
-                
 exc_cls
 (
-"
+'
 Failed
 to
 trigger
@@ -784,16 +769,14 @@ window
 :
 {
 }
-"
+'
 .
 format
 (
 exc
 )
 )
-                
 tb
-            
 )
         
 else
@@ -846,7 +829,6 @@ new_window
 =
 list
 (
-                
 set
 (
 self
@@ -860,7 +842,6 @@ set
 (
 current_windows
 )
-            
 )
             
 Wait
@@ -900,11 +881,8 @@ loading
 .
 format
 (
-                    
 new_window
-                
 )
-            
 )
             
 context
@@ -915,7 +893,6 @@ marionette
 .
 _send_message
 (
-                
 "
 Marionette
 :
@@ -926,7 +903,6 @@ key
 "
 value
 "
-            
 )
             
 if
@@ -956,7 +932,6 @@ new_tab
 =
 list
 (
-                    
 set
 (
 self
@@ -970,7 +945,6 @@ set
 (
 current_tabs
 )
-                
 )
                 
 return
@@ -1058,7 +1032,6 @@ marionette
 .
 execute_async_script
 (
-                    
 "
 "
 "
@@ -1338,14 +1311,12 @@ id
 "
 "
 "
-                    
 script_args
 =
 (
 url
 focus
 )
-                
 )
         
 with

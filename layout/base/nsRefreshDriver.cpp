@@ -5304,16 +5304,11 @@ nsRefreshDriver
 :
 MostRecentRefresh
 (
-bool
-aEnsureTimerStarted
 )
 const
 {
 if
 (
-aEnsureTimerStarted
-&
-&
 !
 ServoStyleSet
 :

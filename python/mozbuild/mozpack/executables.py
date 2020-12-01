@@ -20,20 +20,20 @@ MACHO_SIGNATURES
 =
 [
     
-0xFEEDFACE
+0xfeedface
     
-0xCEFAEDFE
+0xcefaedfe
     
-0xFEEDFACF
+0xfeedfacf
     
-0xCFFAEDFE
+0xcffaedfe
 ]
 FAT_SIGNATURE
 =
-0xCAFEBABE
+0xcafebabe
 ELF_SIGNATURE
 =
-0x7F454C46
+0x7f454c46
 UNKNOWN
 =
 0
@@ -50,9 +50,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Check
 the
@@ -71,17 +71,17 @@ executable
 matches
 .
     
-"
-"
-"
+'
+'
+'
     
 with
 open
 (
 path
-"
+'
 rb
-"
+'
 )
 as
 f
@@ -114,10 +114,10 @@ struct
 .
 unpack
 (
-"
+'
 >
 L
-"
+'
 signature
 )
 [
@@ -180,10 +180,10 @@ struct
 .
 unpack
 (
-"
+'
 >
 L
-"
+'
 num
 )
 [
@@ -208,9 +208,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Return
 whether
@@ -321,9 +321,9 @@ of
 executables
 .
     
-"
-"
-"
+'
+'
+'
     
 from
 buildconfig
@@ -348,15 +348,15 @@ False
 if
 substs
 [
-"
+'
 OS_ARCH
-"
+'
 ]
 =
 =
-"
+'
 WINNT
-"
+'
 :
         
 return
@@ -371,15 +371,16 @@ endswith
 (
 substs
 [
-"
+'
 DLL_SUFFIX
-"
+'
 ]
+                                      
 substs
 [
-"
+'
 BIN_SUFFIX
-"
+'
 ]
 )
 )
@@ -399,9 +400,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Return
 whether
@@ -412,9 +413,9 @@ should
 be
 called
     
-"
-"
-"
+'
+'
+'
     
 from
 buildconfig
@@ -422,9 +423,9 @@ import
 substs
     
 if
-"
+'
 d3dcompiler
-"
+'
 in
 path
 :
@@ -439,9 +440,9 @@ substs
 .
 get
 (
-"
+'
 PKG_STRIP
-"
+'
 )
 )
 def
@@ -451,9 +452,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Execute
 the
@@ -467,9 +468,9 @@ given
 path
 .
     
-"
-"
-"
+'
+'
+'
     
 from
 buildconfig
@@ -480,9 +481,9 @@ strip
 =
 substs
 [
-"
+'
 STRIP
-"
+'
 ]
     
 flags
@@ -491,9 +492,9 @@ substs
 .
 get
 (
-"
+'
 STRIP_FLAGS
-"
+'
 [
 ]
 )
@@ -526,13 +527,13 @@ errors
 .
 fatal
 (
-"
+'
 Error
 executing
-"
+'
 +
-"
-"
+'
+'
 .
 join
 (
@@ -546,9 +547,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Return
 whether
@@ -559,9 +560,9 @@ should
 be
 called
     
-"
-"
-"
+'
+'
+'
     
 from
 buildconfig
@@ -570,49 +571,45 @@ substs
     
 return
 (
-        
-"
+'
 USE_ELF_HACK
-"
+'
 in
 substs
-        
 and
 substs
 [
-"
+'
 USE_ELF_HACK
-"
+'
 ]
-        
 and
+            
 path
 .
 endswith
 (
 substs
 [
-"
+'
 DLL_SUFFIX
-"
+'
 ]
 )
-        
 and
-"
+            
+'
 COMPILE_ENVIRONMENT
-"
+'
 in
 substs
-        
 and
 substs
 [
-"
+'
 COMPILE_ENVIRONMENT
-"
+'
 ]
-    
 )
 def
 elfhack
@@ -621,9 +618,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Execute
 the
@@ -635,9 +632,9 @@ given
 path
 .
     
-"
-"
-"
+'
+'
+'
     
 from
 buildconfig
@@ -654,7 +651,7 @@ path
 join
 (
 topobjdir
-"
+'
 build
 /
 unix
@@ -662,7 +659,7 @@ unix
 elfhack
 /
 elfhack
-"
+'
 )
 path
 ]
@@ -683,13 +680,13 @@ errors
 .
 fatal
 (
-"
+'
 Error
 executing
-"
+'
 +
-"
-"
+'
+'
 .
 join
 (
@@ -703,9 +700,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Execute
 xz
@@ -716,17 +713,17 @@ given
 path
 .
     
-"
-"
-"
+'
+'
+'
     
 if
 open
 (
 path
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -739,20 +736,20 @@ read
 ]
 =
 =
-"
+'
 7zXZ
-"
+'
 :
         
 print
 (
-"
+'
 %
 s
 is
 already
 compressed
-"
+'
 %
 path
 )
@@ -770,19 +767,19 @@ substs
 .
 get
 (
-"
+'
 XZ
-"
+'
 )
     
 cmd
 =
 [
 xz
-"
+'
 -
 zkf
-"
+'
 path
 ]
     
@@ -791,13 +788,13 @@ cmd
 extend
 (
 [
-"
+'
 -
 -
 threads
 =
 1
-"
+'
 ]
 )
     
@@ -810,67 +807,67 @@ substs
 .
 get
 (
-"
+'
 MOZ_THUMB2
-"
+'
 )
 :
         
 bcj
 =
-"
+'
 -
 -
 armthumb
-"
+'
     
 elif
 substs
 .
 get
 (
-"
+'
 CPU_ARCH
-"
+'
 )
 =
 =
-"
+'
 arm
-"
+'
 :
         
 bcj
 =
-"
+'
 -
 -
 arm
-"
+'
     
 elif
 substs
 .
 get
 (
-"
+'
 CPU_ARCH
-"
+'
 )
 =
 =
-"
+'
 x86
-"
+'
 :
         
 bcj
 =
-"
+'
 -
 -
 x86
-"
+'
     
 if
 bcj
@@ -890,7 +887,7 @@ cmd
 extend
 (
 [
-"
+'
 -
 -
 lzma2
@@ -919,13 +916,13 @@ bt4
 depth
 =
 0
-"
+'
 ]
 )
     
 print
 (
-"
+'
 xz
 -
 compressing
@@ -934,12 +931,12 @@ s
 with
 %
 s
-"
+'
 %
 (
 path
-"
-"
+'
+'
 .
 join
 (
@@ -964,13 +961,13 @@ errors
 .
 fatal
 (
-"
+'
 Error
 executing
-"
+'
 +
-"
-"
+'
+'
 .
 join
 (
@@ -986,9 +983,9 @@ rename
 (
 path
 +
-"
+'
 .
 xz
-"
+'
 path
 )

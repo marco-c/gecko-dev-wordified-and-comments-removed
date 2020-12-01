@@ -66,7 +66,7 @@ import
 ExecutionSummary
 MSBUILD_NAMESPACE
 =
-"
+'
 http
 :
 /
@@ -82,7 +82,7 @@ developer
 msbuild
 /
 2003
-"
+'
 def
 get_id
 (
@@ -108,11 +108,11 @@ name
 .
 encode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
     
 return
@@ -143,20 +143,20 @@ if
 version
 =
 =
-"
+'
 2017
-"
+'
 :
         
 return
-"
+'
 12
 .
 00
-"
-"
+'
+'
 15
-"
+'
     
 else
 :
@@ -164,14 +164,14 @@ else
 raise
 Exception
 (
-"
+'
 Unknown
 version
 seen
 :
 %
 s
-"
+'
 %
 version
 )
@@ -186,15 +186,15 @@ if
 version
 =
 =
-"
+'
 2017
-"
+'
 :
         
 return
-"
+'
 v141
-"
+'
     
 else
 :
@@ -202,14 +202,14 @@ else
 raise
 Exception
 (
-"
+'
 Unknown
 version
 seen
 :
 %
 s
-"
+'
 %
 version
 )
@@ -305,18 +305,18 @@ self
 environment
 .
 topobjdir
-"
+'
 msvc
-"
+'
 )
         
 self
 .
 _projsubdir
 =
-"
+'
 projects
-"
+'
         
 self
 .
@@ -330,12 +330,12 @@ substs
 .
 get
 (
-"
+'
 MSVS_VERSION
-"
-"
+'
+'
 2017
-"
+'
 )
         
 self
@@ -391,7 +391,7 @@ return
 ExecutionSummary
 (
             
-"
+'
 VisualStudio
 backend
 executed
@@ -405,9 +405,9 @@ execution_time
 s
 \
 n
-"
+'
             
-"
+'
 Generated
 Visual
 Studio
@@ -418,7 +418,7 @@ path
 :
 s
 }
-"
+'
             
 execution_time
 =
@@ -437,13 +437,12 @@ join
 self
 .
 _out_dir
-"
+'
 mozilla
 .
 sln
-"
+'
 )
-        
 )
     
 def
@@ -459,9 +458,9 @@ reldir
 getattr
 (
 obj
-"
+'
 relsrcdir
-"
+'
 None
 )
         
@@ -469,9 +468,9 @@ if
 hasattr
 (
 obj
-"
+'
 config
-"
+'
 )
 and
 reldir
@@ -706,9 +705,9 @@ reldir
 getattr
 (
 obj
-"
+'
 relsrcdir
-"
+'
 None
 )
         
@@ -770,71 +769,67 @@ self
 .
 _write_projects_for_sources
 (
-            
 self
 .
 _libs_to_paths
+                                                    
 "
 library
 "
 out_proj_dir
-        
 )
         
 projects
 .
 update
 (
-            
 self
 .
 _write_projects_for_sources
 (
-                
 self
 .
 _progs_to_paths
+                                                         
 "
 binary
 "
 out_proj_dir
-            
 )
-        
 )
         
 for
 target
 in
 (
-"
+'
 export
-"
-"
+'
+'
 binaries
-"
-"
+'
+'
 tools
-"
-"
+'
+'
 full
-"
+'
 )
 :
             
 basename
 =
-"
+'
 target_
 %
 s
-"
+'
 %
 target
             
 command
 =
-"
+'
 (
 SolutionDir
 )
@@ -844,24 +839,24 @@ mach
 .
 bat
 build
-"
+'
             
 if
 target
 !
 =
-"
+'
 full
-"
+'
 :
                 
 command
 +
 =
-"
+'
 %
 s
-"
+'
 %
 target
             
@@ -873,18 +868,15 @@ _write_vs_project
 (
                 
 out_proj_dir
-                
 basename
-                
 target
-                
 build_command
 =
 command
                 
 clean_command
 =
-"
+'
 (
 SolutionDir
 )
@@ -895,8 +887,7 @@ mach
 bat
 build
 clean
-"
-            
+'
 )
             
 projects
@@ -912,9 +903,9 @@ target
         
 basename
 =
-"
+'
 target_vs
-"
+'
         
 project_id
 =
@@ -924,18 +915,16 @@ _write_vs_project
 (
             
 out_proj_dir
-            
 basename
-            
-"
+'
 visual
 -
 studio
-"
+'
             
 build_command
 =
-"
+'
 (
 SolutionDir
 )
@@ -950,8 +939,7 @@ backend
 -
 b
 VisualStudio
-"
-        
+'
 )
         
 projects
@@ -962,11 +950,11 @@ basename
 (
 project_id
 basename
-"
+'
 visual
 -
 studio
-"
+'
 )
         
 props_path
@@ -978,11 +966,11 @@ path
 join
 (
 out_proj_dir
-"
+'
 mozilla
 .
 props
-"
+'
 )
         
 with
@@ -993,9 +981,9 @@ _write_file
 props_path
 readmode
 =
-"
+'
 rb
-"
+'
 )
 as
 fh
@@ -1020,17 +1008,17 @@ path
 join
 (
 out_dir
-"
+'
 mach
 .
 bat
-"
+'
 )
 readmode
 =
-"
+'
 rb
-"
+'
 )
 as
 fh
@@ -1055,17 +1043,17 @@ path
 join
 (
 out_dir
-"
+'
 mach
 .
 ps1
-"
+'
 )
 readmode
 =
-"
+'
 rb
-"
+'
 )
 as
 fh
@@ -1087,11 +1075,11 @@ path
 join
 (
 out_dir
-"
+'
 mozilla
 .
 sln
-"
+'
 )
         
 with
@@ -1102,9 +1090,9 @@ _write_file
 solution_path
 readmode
 =
-"
+'
 rb
-"
+'
 )
 as
 fh
@@ -1183,11 +1171,11 @@ path
 .
 join
 (
-"
+'
 (
 TopSrcDir
 )
-"
+'
 path
 s
 )
@@ -1248,18 +1236,17 @@ finder
 .
 find
 (
-"
+'
 *
 .
 h
-"
+'
 )
 ]
             
 headers
 =
 [
-                
 os
 .
 path
@@ -1272,11 +1259,12 @@ path
 .
 join
 (
-"
+'
 (
 TopSrcDir
 )
-"
+'
+                                                     
 path
 f
 )
@@ -1285,7 +1273,6 @@ for
 f
 in
 headers
-            
 ]
             
 includes
@@ -1298,11 +1285,11 @@ path
 .
 join
 (
-"
+'
 (
 TopSrcDir
 )
-"
+'
 path
 )
                 
@@ -1312,11 +1299,11 @@ path
 .
 join
 (
-"
+'
 (
 TopObjDir
 )
-"
+'
 path
 )
             
@@ -1342,7 +1329,7 @@ includes
 .
 append
 (
-"
+'
 (
 TopObjDir
 )
@@ -1355,14 +1342,14 @@ include
 \
 \
 nss
-"
+'
 )
             
 includes
 .
 append
 (
-"
+'
 (
 TopObjDir
 )
@@ -1372,38 +1359,32 @@ dist
 \
 \
 include
-"
+'
 )
             
 for
 v
 in
 (
-                
-"
+'
 NSPR_CFLAGS
-"
-                
-"
+'
+'
 NSS_CFLAGS
-"
-                
-"
+'
+'
 MOZ_JPEG_CFLAGS
-"
-                
-"
+'
+                      
+'
 MOZ_PNG_CFLAGS
-"
-                
-"
+'
+'
 MOZ_ZLIB_CFLAGS
-"
-                
-"
+'
+'
 MOZ_PIXMAN_CFLAGS
-"
-            
+'
 )
 :
                 
@@ -1442,10 +1423,10 @@ arg
 .
 startswith
 (
-"
+'
 -
 I
-"
+'
 )
 :
                         
@@ -1471,11 +1452,11 @@ includes
 .
 append
 (
-"
+'
 (
 DefaultIncludes
 )
-"
+'
 )
             
 includes
@@ -1540,13 +1521,13 @@ defines
 .
 append
 (
-"
+'
 %
 s
 =
 %
 s
-"
+'
 %
 (
 k
@@ -1562,9 +1543,9 @@ if
 prefix
 =
 =
-"
+'
 binary
-"
+'
 :
                 
 if
@@ -1578,16 +1559,16 @@ environment
 .
 substs
 [
-"
+'
 MOZ_APP_NAME
-"
+'
 ]
 )
 :
                     
 app_args
 =
-"
+'
 -
 no
 -
@@ -1605,7 +1586,7 @@ tmp
 profile
 -
 default
-"
+'
                     
 if
 self
@@ -1616,9 +1597,9 @@ substs
 .
 get
 (
-"
+'
 MOZ_LAUNCHER_PROCESS
-"
+'
 False
 )
 :
@@ -1626,19 +1607,19 @@ False
 app_args
 +
 =
-"
+'
 -
 wait
 -
 for
 -
 browser
-"
+'
                     
 debugger
 =
 (
-"
+'
 (
 TopObjDir
 )
@@ -1652,7 +1633,7 @@ bin
 \
 %
 s
-"
+'
 %
 item
 app_args
@@ -1664,7 +1645,7 @@ else
 debugger
 =
 (
-"
+'
 (
 TopObjDir
 )
@@ -1678,21 +1659,21 @@ bin
 \
 %
 s
-"
+'
 %
 item
-"
-"
+'
+'
 )
             
 basename
 =
-"
+'
 %
 s_
 %
 s
-"
+'
 %
 (
 prefix
@@ -1707,9 +1688,7 @@ _write_vs_project
 (
                 
 out_dir
-                
 basename
-                
 item
                 
 includes
@@ -1719,7 +1698,7 @@ includes
 forced_includes
 =
 [
-"
+'
 (
 TopObjDir
 )
@@ -1736,7 +1715,7 @@ mozilla
 config
 .
 h
-"
+'
 ]
                 
 defines
@@ -1754,7 +1733,6 @@ sources
 debugger
 =
 debugger
-            
 )
             
 projects
@@ -1793,9 +1771,9 @@ open
 fh
 .
 name
-"
+'
 rb
-"
+'
 )
 as
 sfh
@@ -1813,10 +1791,10 @@ line
 startswith
 (
 b
-"
+'
 VisualStudioVersion
 =
-"
+'
 )
 :
                         
@@ -1827,9 +1805,9 @@ line
 split
 (
 b
-"
+'
 =
-"
+'
 1
 )
 [
@@ -1864,16 +1842,14 @@ comment_version
 =
 visual_studio_product_to_solution_version
 (
-            
 self
 .
 _version
-        
 )
         
 project_type
 =
-"
+'
 8BC9CEB8
 -
 8B4A
@@ -1883,14 +1859,13 @@ project_type
 8D11
 -
 00A0C91BC942
-"
+'
         
 fh
 .
 write
 (
-            
-"
+'
 Microsoft
 Visual
 Studio
@@ -1904,18 +1879,17 @@ s
 r
 \
 n
-"
-            
+'
 %
+                 
 format_version
-        
 )
         
 fh
 .
 write
 (
-"
+'
 #
 Visual
 Studio
@@ -1925,7 +1899,7 @@ s
 r
 \
 n
-"
+'
 %
 comment_version
 )
@@ -1938,7 +1912,7 @@ fh
 .
 write
 (
-"
+'
 VisualStudioVersion
 =
 %
@@ -1947,7 +1921,7 @@ s
 r
 \
 n
-"
+'
 %
 vs_version
 )
@@ -1956,7 +1930,7 @@ fh
 .
 write
 (
-"
+'
 MinimumVisualStudioVersion
 =
 12
@@ -1970,16 +1944,16 @@ MinimumVisualStudioVersion
 r
 \
 n
-"
+'
 )
         
 binaries_id
 =
 projects
 [
-"
+'
 target_binaries
-"
+'
 ]
 [
 0
@@ -2014,12 +1988,12 @@ join
 self
 .
 _projsubdir
-"
+'
 %
 s
 .
 vcxproj
-"
+'
 %
 basename
 )
@@ -2028,7 +2002,6 @@ fh
 .
 write
 (
-                
 '
 Project
 (
@@ -2059,15 +2032,14 @@ r
 \
 n
 '
-                
 %
 (
+                
 project_type
 name
 path
 project_id
 )
-            
 )
             
 if
@@ -2075,9 +2047,9 @@ key
 .
 startswith
 (
-"
+'
 library_
-"
+'
 )
 :
                 
@@ -2085,7 +2057,7 @@ fh
 .
 write
 (
-"
+'
 \
 tProjectSection
 (
@@ -2097,14 +2069,14 @@ postProject
 r
 \
 n
-"
+'
 )
                 
 fh
 .
 write
 (
-"
+'
 \
 t
 \
@@ -2122,7 +2094,7 @@ s
 r
 \
 n
-"
+'
 %
 (
 binaries_id
@@ -2134,32 +2106,32 @@ fh
 .
 write
 (
-"
+'
 \
 tEndProjectSection
 \
 r
 \
 n
-"
+'
 )
             
 fh
 .
 write
 (
-"
+'
 EndProject
 \
 r
 \
 n
-"
+'
 )
         
 container_id
 =
-"
+'
 2150E333
 -
 8FDC
@@ -2169,7 +2141,7 @@ container_id
 9474
 -
 1A3956D46DE8
-"
+'
         
 def
 write_container
@@ -2189,7 +2161,6 @@ fh
 .
 write
 (
-                
 '
 Project
 (
@@ -2220,28 +2191,27 @@ r
 \
 n
 '
-                
 %
 (
+                
 container_id
 desc
 desc
 cid
 )
-            
 )
             
 fh
 .
 write
 (
-"
+'
 EndProject
 \
 r
 \
 n
-"
+'
 )
             
 return
@@ -2251,48 +2221,48 @@ library_id
 =
 write_container
 (
-"
+'
 Libraries
-"
+'
 )
         
 target_id
 =
 write_container
 (
-"
+'
 Build
 Targets
-"
+'
 )
         
 binary_id
 =
 write_container
 (
-"
+'
 Binaries
-"
+'
 )
         
 fh
 .
 write
 (
-"
+'
 Global
 \
 r
 \
 n
-"
+'
 )
         
 fh
 .
 write
 (
-"
+'
 \
 tGlobalSection
 (
@@ -2304,14 +2274,14 @@ preSolution
 r
 \
 n
-"
+'
 )
         
 fh
 .
 write
 (
-"
+'
 \
 t
 \
@@ -2326,28 +2296,28 @@ Win32
 r
 \
 n
-"
+'
 )
         
 fh
 .
 write
 (
-"
+'
 \
 tEndGlobalSection
 \
 r
 \
 n
-"
+'
 )
         
 fh
 .
 write
 (
-"
+'
 \
 tGlobalSection
 (
@@ -2359,7 +2329,7 @@ postSolution
 r
 \
 n
-"
+'
 )
         
 for
@@ -2380,7 +2350,7 @@ fh
 .
 write
 (
-"
+'
 \
 t
 \
@@ -2403,7 +2373,7 @@ Win32
 r
 \
 n
-"
+'
 %
 project
 [
@@ -2415,16 +2385,16 @@ if
 name
 =
 =
-"
+'
 target_full
-"
+'
 :
                 
 fh
 .
 write
 (
-"
+'
 \
 t
 \
@@ -2449,7 +2419,7 @@ Win32
 r
 \
 n
-"
+'
 %
 project
 [
@@ -2461,21 +2431,21 @@ fh
 .
 write
 (
-"
+'
 \
 tEndGlobalSection
 \
 r
 \
 n
-"
+'
 )
         
 fh
 .
 write
 (
-"
+'
 \
 tGlobalSection
 (
@@ -2487,14 +2457,14 @@ preSolution
 r
 \
 n
-"
+'
 )
         
 fh
 .
 write
 (
-"
+'
 \
 t
 \
@@ -2505,28 +2475,28 @@ FALSE
 r
 \
 n
-"
+'
 )
         
 fh
 .
 write
 (
-"
+'
 \
 tEndGlobalSection
 \
 r
 \
 n
-"
+'
 )
         
 fh
 .
 write
 (
-"
+'
 \
 tGlobalSection
 (
@@ -2538,7 +2508,7 @@ preSolution
 r
 \
 n
-"
+'
 )
         
 for
@@ -2565,9 +2535,9 @@ key
 .
 startswith
 (
-"
+'
 library_
-"
+'
 )
 :
                 
@@ -2580,9 +2550,9 @@ key
 .
 startswith
 (
-"
+'
 target_
-"
+'
 )
 :
                 
@@ -2595,9 +2565,9 @@ key
 .
 startswith
 (
-"
+'
 binary_
-"
+'
 )
 :
                 
@@ -2611,14 +2581,14 @@ else
 raise
 Exception
 (
-"
+'
 Unknown
 project
 type
 :
 %
 s
-"
+'
 %
 key
 )
@@ -2627,7 +2597,7 @@ fh
 .
 write
 (
-"
+'
 \
 t
 \
@@ -2645,7 +2615,7 @@ s
 r
 \
 n
-"
+'
 %
 (
 project_id
@@ -2657,27 +2627,27 @@ fh
 .
 write
 (
-"
+'
 \
 tEndGlobalSection
 \
 r
 \
 n
-"
+'
 )
         
 fh
 .
 write
 (
-"
+'
 EndGlobal
 \
 r
 \
 n
-"
+'
 )
     
 def
@@ -2701,9 +2671,9 @@ impl
 createDocument
 (
 MSBUILD_NAMESPACE
-"
+'
 Project
-"
+'
 None
 )
         
@@ -2717,9 +2687,9 @@ project
 .
 setAttribute
 (
-"
+'
 xmlns
-"
+'
 MSBUILD_NAMESPACE
 )
         
@@ -2727,14 +2697,14 @@ project
 .
 setAttribute
 (
-"
+'
 ToolsVersion
-"
-"
+'
+'
 4
 .
 0
-"
+'
 )
         
 ig
@@ -2747,9 +2717,9 @@ doc
 .
 createElement
 (
-"
+'
 ImportGroup
-"
+'
 )
 )
         
@@ -2757,12 +2727,12 @@ ig
 .
 setAttribute
 (
-"
+'
 Label
-"
-"
+'
+'
 PropertySheets
-"
+'
 )
         
 pg
@@ -2775,9 +2745,9 @@ doc
 .
 createElement
 (
-"
+'
 PropertyGroup
-"
+'
 )
 )
         
@@ -2785,12 +2755,12 @@ pg
 .
 setAttribute
 (
-"
+'
 Label
-"
-"
+'
+'
 UserMacros
-"
+'
 )
         
 ig
@@ -2803,9 +2773,9 @@ doc
 .
 createElement
 (
-"
+'
 ItemGroup
-"
+'
 )
 )
         
@@ -2853,9 +2823,9 @@ doc
 .
 createElement
 (
-"
+'
 BuildMacro
-"
+'
 )
 )
             
@@ -2863,9 +2833,9 @@ e
 .
 setAttribute
 (
-"
+'
 Include
-"
+'
 k
 )
             
@@ -2879,9 +2849,9 @@ doc
 .
 createElement
 (
-"
+'
 Value
-"
+'
 )
 )
             
@@ -2893,12 +2863,12 @@ doc
 .
 createTextNode
 (
-"
+'
 (
 %
 s
 )
-"
+'
 %
 k
 )
@@ -2906,9 +2876,9 @@ k
         
 add_var
 (
-"
+'
 TopObjDir
-"
+'
 os
 .
 path
@@ -2925,9 +2895,9 @@ topobjdir
         
 add_var
 (
-"
+'
 TopSrcDir
-"
+'
 os
 .
 path
@@ -2944,10 +2914,10 @@ topsrcdir
         
 add_var
 (
-"
+'
 PYTHON
-"
-"
+'
+'
 (
 TopObjDir
 )
@@ -2962,40 +2932,40 @@ Scripts
 python
 .
 exe
-"
+'
 )
         
 add_var
 (
-"
+'
 MACH
-"
-"
+'
+'
 (
 TopSrcDir
 )
 \
 \
 mach
-"
+'
 )
         
 add_var
 (
-"
+'
 DefaultIncludes
-"
+'
 os
 .
 environ
 .
 get
 (
-"
+'
 INCLUDE
-"
-"
-"
+'
+'
+'
 )
 )
         
@@ -3004,14 +2974,14 @@ fh
 write
 (
 b
-"
+'
 \
 xef
 \
 xbb
 \
 xbf
-"
+'
 )
         
 doc
@@ -3021,16 +2991,16 @@ writexml
 fh
 addindent
 =
-"
-"
+'
+'
 newl
 =
-"
+'
 \
 r
 \
 n
-"
+'
 )
     
 def
@@ -3062,7 +3032,7 @@ re
 .
 match
 (
-"
+'
 ^
 [
 a
@@ -3074,7 +3044,7 @@ Z0
 9_
 ]
 +
-"
+'
 k
 )
 :
@@ -3085,12 +3055,12 @@ if
 k
 in
 (
-"
+'
 OLDPWD
-"
-"
+'
+'
 PS1
-"
+'
 )
 :
                 
@@ -3101,9 +3071,9 @@ k
 .
 startswith
 (
-"
+'
 _
-"
+'
 )
 :
                 
@@ -3114,9 +3084,9 @@ k
 v
         
 yield
-"
+'
 TOPSRCDIR
-"
+'
 self
 .
 environment
@@ -3124,9 +3094,9 @@ environment
 topsrcdir
         
 yield
-"
+'
 TOPOBJDIR
-"
+'
 self
 .
 environment
@@ -3178,21 +3148,21 @@ k
 .
 encode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 v
 .
 encode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 )
 )
@@ -3205,36 +3175,34 @@ path
 .
 relpath
 (
-            
 self
 .
 environment
 .
 topsrcdir
+                                  
 self
 .
 environment
 .
 topobjdir
-        
 )
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 /
-"
+'
 )
         
 fh
 .
 write
 (
-            
 b
 '
 bashargs
@@ -3264,13 +3232,12 @@ relpath
 .
 encode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
-        
 )
         
 fh
@@ -3278,7 +3245,7 @@ fh
 write
 (
 b
-"
+'
 bashargs
 =
 bashargs
@@ -3288,7 +3255,7 @@ args
 r
 \
 n
-"
+'
 )
         
 fh
@@ -3335,9 +3302,8 @@ fh
 .
 write
 (
-            
 b
-"
+'
 Start
 -
 Process
@@ -3346,10 +3312,10 @@ WorkingDirectory
 env
 :
 TOPOBJDIR
-"
-            
+'
+                 
 b
-"
+'
 -
 FilePath
 env
@@ -3364,17 +3330,17 @@ bin
 \
 \
 bash
-"
-            
+'
+                 
 b
-"
+'
 -
 ArgumentList
 procargs
-"
-            
+'
+                 
 b
-"
+'
 -
 Wait
 -
@@ -3383,8 +3349,7 @@ NoNewWindow
 r
 \
 n
-"
-        
+'
 )
     
 def
@@ -3481,21 +3446,21 @@ k
 .
 encode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 v
 .
 encode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 )
 )
@@ -3505,7 +3470,7 @@ fh
 write
 (
 b
-"
+'
 cd
 %
 TOPOBJDIR
@@ -3514,7 +3479,7 @@ TOPOBJDIR
 r
 \
 n
-"
+'
 )
         
 relpath
@@ -3525,36 +3490,34 @@ path
 .
 relpath
 (
-            
 self
 .
 environment
 .
 topsrcdir
+                                  
 self
 .
 environment
 .
 topobjdir
-        
 )
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 /
-"
+'
 )
         
 fh
 .
 write
 (
-            
 b
 '
 "
@@ -3574,7 +3537,7 @@ bin
 bash
 "
 '
-            
+                 
 b
 '
 -
@@ -3614,19 +3577,18 @@ times
 7
 "
 '
-            
+                 
 %
 relpath
 .
 encode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
-        
 )
     
 def
@@ -3644,12 +3606,12 @@ kwargs
         
 root
 =
-"
+'
 %
 s
 .
 vcxproj
-"
+'
 %
 basename
         
@@ -3676,9 +3638,9 @@ root
 )
 readmode
 =
-"
+'
 rb
-"
+'
 )
 as
 fh
@@ -3701,7 +3663,6 @@ name
 *
 *
 kwargs
-            
 )
         
 with
@@ -3709,7 +3670,6 @@ self
 .
 _write_file
 (
-            
 os
 .
 path
@@ -3717,21 +3677,20 @@ path
 join
 (
 out_dir
-"
+'
 %
 s
 .
 user
-"
+'
 %
 root
 )
 readmode
 =
-"
+'
 rb
-"
-        
+'
 )
 as
 fh
@@ -3795,6 +3754,7 @@ r
 n
 '
 %
+                     
 MSBUILD_NAMESPACE
 )
             
@@ -3802,7 +3762,7 @@ fh
 .
 write
 (
-"
+'
 <
 /
 Project
@@ -3811,7 +3771,7 @@ Project
 r
 \
 n
-"
+'
 )
         
 return
@@ -3822,52 +3782,42 @@ staticmethod
 def
 write_vs_project
 (
-        
 fh
-        
 version
-        
 project_id
-        
 name
-        
 includes
 =
 [
 ]
-        
+                         
 forced_includes
 =
 [
 ]
-        
 defines
 =
 [
 ]
-        
+                         
 build_command
 =
 None
-        
 clean_command
 =
 None
-        
+                         
 debugger
 =
 None
-        
 headers
 =
 [
 ]
-        
 sources
 =
 [
 ]
-    
 )
 :
         
@@ -3884,9 +3834,9 @@ impl
 createDocument
 (
 MSBUILD_NAMESPACE
-"
+'
 Project
-"
+'
 None
 )
         
@@ -3900,35 +3850,35 @@ project
 .
 setAttribute
 (
-"
+'
 DefaultTargets
-"
-"
+'
+'
 Build
-"
+'
 )
         
 project
 .
 setAttribute
 (
-"
+'
 ToolsVersion
-"
-"
+'
+'
 4
 .
 0
-"
+'
 )
         
 project
 .
 setAttribute
 (
-"
+'
 xmlns
-"
+'
 MSBUILD_NAMESPACE
 )
         
@@ -3942,9 +3892,9 @@ doc
 .
 createElement
 (
-"
+'
 ItemGroup
-"
+'
 )
 )
         
@@ -3952,12 +3902,12 @@ ig
 .
 setAttribute
 (
-"
+'
 Label
-"
-"
+'
+'
 ProjectConfigurations
-"
+'
 )
         
 pc
@@ -3970,9 +3920,9 @@ doc
 .
 createElement
 (
-"
+'
 ProjectConfiguration
-"
+'
 )
 )
         
@@ -3980,14 +3930,14 @@ pc
 .
 setAttribute
 (
-"
+'
 Include
-"
-"
+'
+'
 Build
 |
 Win32
-"
+'
 )
         
 c
@@ -4000,9 +3950,9 @@ doc
 .
 createElement
 (
-"
+'
 Configuration
-"
+'
 )
 )
         
@@ -4014,9 +3964,9 @@ doc
 .
 createTextNode
 (
-"
+'
 Build
-"
+'
 )
 )
         
@@ -4030,9 +3980,9 @@ doc
 .
 createElement
 (
-"
+'
 Platform
-"
+'
 )
 )
         
@@ -4044,9 +3994,9 @@ doc
 .
 createTextNode
 (
-"
+'
 Win32
-"
+'
 )
 )
         
@@ -4060,9 +4010,9 @@ doc
 .
 createElement
 (
-"
+'
 PropertyGroup
-"
+'
 )
 )
         
@@ -4070,12 +4020,12 @@ pg
 .
 setAttribute
 (
-"
+'
 Label
-"
-"
+'
+'
 Globals
-"
+'
 )
         
 n
@@ -4088,9 +4038,9 @@ doc
 .
 createElement
 (
-"
+'
 ProjectName
-"
+'
 )
 )
         
@@ -4116,9 +4066,9 @@ doc
 .
 createElement
 (
-"
+'
 Keyword
-"
+'
 )
 )
         
@@ -4130,9 +4080,9 @@ doc
 .
 createTextNode
 (
-"
+'
 MakeFileProj
-"
+'
 )
 )
         
@@ -4146,9 +4096,9 @@ doc
 .
 createElement
 (
-"
+'
 ProjectGuid
-"
+'
 )
 )
         
@@ -4160,12 +4110,12 @@ doc
 .
 createTextNode
 (
-"
+'
 {
 %
 s
 }
-"
+'
 %
 project_id
 )
@@ -4181,9 +4131,9 @@ doc
 .
 createElement
 (
-"
+'
 RootNamespace
-"
+'
 )
 )
         
@@ -4195,9 +4145,9 @@ doc
 .
 createTextNode
 (
-"
+'
 mozilla
-"
+'
 )
 )
         
@@ -4211,9 +4161,9 @@ doc
 .
 createElement
 (
-"
+'
 PlatformToolset
-"
+'
 )
 )
         
@@ -4221,19 +4171,16 @@ pts
 .
 appendChild
 (
-            
 doc
 .
 createTextNode
 (
-                
+            
 visual_studio_product_to_platform_toolset_version
 (
 version
 )
-            
 )
-        
 )
         
 i
@@ -4246,9 +4193,9 @@ doc
 .
 createElement
 (
-"
+'
 Import
-"
+'
 )
 )
         
@@ -4256,10 +4203,10 @@ i
 .
 setAttribute
 (
-"
+'
 Project
-"
-"
+'
+'
 (
 VCTargetsPath
 )
@@ -4272,7 +4219,7 @@ Cpp
 Default
 .
 props
-"
+'
 )
         
 ig
@@ -4285,9 +4232,9 @@ doc
 .
 createElement
 (
-"
+'
 ImportGroup
-"
+'
 )
 )
         
@@ -4295,12 +4242,12 @@ ig
 .
 setAttribute
 (
-"
+'
 Label
-"
-"
+'
+'
 ExtensionTargets
-"
+'
 )
         
 ig
@@ -4313,9 +4260,9 @@ doc
 .
 createElement
 (
-"
+'
 ImportGroup
-"
+'
 )
 )
         
@@ -4323,12 +4270,12 @@ ig
 .
 setAttribute
 (
-"
+'
 Label
-"
-"
+'
+'
 ExtensionSettings
-"
+'
 )
         
 ig
@@ -4341,9 +4288,9 @@ doc
 .
 createElement
 (
-"
+'
 ImportGroup
-"
+'
 )
 )
         
@@ -4351,12 +4298,12 @@ ig
 .
 setAttribute
 (
-"
+'
 Label
-"
-"
+'
+'
 PropertySheets
-"
+'
 )
         
 i
@@ -4369,9 +4316,9 @@ doc
 .
 createElement
 (
-"
+'
 Import
-"
+'
 )
 )
         
@@ -4379,14 +4326,14 @@ i
 .
 setAttribute
 (
-"
+'
 Project
-"
-"
+'
+'
 mozilla
 .
 props
-"
+'
 )
         
 pg
@@ -4399,9 +4346,9 @@ doc
 .
 createElement
 (
-"
+'
 PropertyGroup
-"
+'
 )
 )
         
@@ -4409,12 +4356,12 @@ pg
 .
 setAttribute
 (
-"
+'
 Label
-"
-"
+'
+'
 Configuration
-"
+'
 )
         
 ct
@@ -4427,9 +4374,9 @@ doc
 .
 createElement
 (
-"
+'
 ConfigurationType
-"
+'
 )
 )
         
@@ -4441,9 +4388,9 @@ doc
 .
 createTextNode
 (
-"
+'
 Makefile
-"
+'
 )
 )
         
@@ -4457,9 +4404,9 @@ doc
 .
 createElement
 (
-"
+'
 PropertyGroup
-"
+'
 )
 )
         
@@ -4467,9 +4414,9 @@ pg
 .
 setAttribute
 (
-"
+'
 Condition
-"
+'
 "
 '
 (
@@ -4504,9 +4451,9 @@ doc
 .
 createElement
 (
-"
+'
 NMakeBuildCommandLine
-"
+'
 )
 )
             
@@ -4536,9 +4483,9 @@ doc
 .
 createElement
 (
-"
+'
 NMakeCleanCommandLine
-"
+'
 )
 )
             
@@ -4568,9 +4515,9 @@ doc
 .
 createElement
 (
-"
+'
 NMakeIncludeSearchPath
-"
+'
 )
 )
             
@@ -4582,9 +4529,9 @@ doc
 .
 createTextNode
 (
-"
+'
 ;
-"
+'
 .
 join
 (
@@ -4607,9 +4554,9 @@ doc
 .
 createElement
 (
-"
+'
 NMakeForcedIncludes
-"
+'
 )
 )
             
@@ -4621,9 +4568,9 @@ doc
 .
 createTextNode
 (
-"
+'
 ;
-"
+'
 .
 join
 (
@@ -4646,9 +4593,9 @@ doc
 .
 createElement
 (
-"
+'
 NMakePreprocessorDefinitions
-"
+'
 )
 )
             
@@ -4660,9 +4607,9 @@ doc
 .
 createTextNode
 (
-"
+'
 ;
-"
+'
 .
 join
 (
@@ -4685,9 +4632,9 @@ doc
 .
 createElement
 (
-"
+'
 LocalDebuggerCommand
-"
+'
 )
 )
             
@@ -4716,9 +4663,9 @@ doc
 .
 createElement
 (
-"
+'
 LocalDebuggerCommandArguments
-"
+'
 )
 )
             
@@ -4747,9 +4694,9 @@ doc
 .
 createElement
 (
-"
+'
 Import
-"
+'
 )
 )
         
@@ -4757,10 +4704,10 @@ i
 .
 setAttribute
 (
-"
+'
 Project
-"
-"
+'
+'
 (
 VCTargetsPath
 )
@@ -4771,7 +4718,7 @@ Microsoft
 Cpp
 .
 props
-"
+'
 )
         
 i
@@ -4784,9 +4731,9 @@ doc
 .
 createElement
 (
-"
+'
 Import
-"
+'
 )
 )
         
@@ -4794,10 +4741,10 @@ i
 .
 setAttribute
 (
-"
+'
 Project
-"
-"
+'
+'
 (
 VCTargetsPath
 )
@@ -4808,7 +4755,7 @@ Microsoft
 Cpp
 .
 targets
-"
+'
 )
         
 ig
@@ -4821,9 +4768,9 @@ doc
 .
 createElement
 (
-"
+'
 ItemGroup
-"
+'
 )
 )
         
@@ -4849,9 +4796,9 @@ doc
 .
 createElement
 (
-"
+'
 ClInclude
-"
+'
 )
 )
             
@@ -4859,9 +4806,9 @@ n
 .
 setAttribute
 (
-"
+'
 Include
-"
+'
 header
 )
         
@@ -4875,9 +4822,9 @@ doc
 .
 createElement
 (
-"
+'
 ItemGroup
-"
+'
 )
 )
         
@@ -4903,9 +4850,9 @@ doc
 .
 createElement
 (
-"
+'
 ClCompile
-"
+'
 )
 )
             
@@ -4913,9 +4860,9 @@ n
 .
 setAttribute
 (
-"
+'
 Include
-"
+'
 source
 )
         
@@ -4924,14 +4871,14 @@ fh
 write
 (
 b
-"
+'
 \
 xef
 \
 xbb
 \
 xbf
-"
+'
 )
         
 doc
@@ -4941,16 +4888,16 @@ writexml
 fh
 addindent
 =
-"
-"
+'
+'
 newl
 =
-"
+'
 \
 r
 \
 n
-"
+'
 )
         
 return

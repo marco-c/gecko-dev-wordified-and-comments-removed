@@ -14,6 +14,7 @@ path
 .
 insert
 (
+    
 0
 os
 .
@@ -21,12 +22,14 @@ path
 .
 abspath
 (
+        
 os
 .
 path
 .
 realpath
 (
+            
 os
 .
 path
@@ -132,43 +135,38 @@ verbose
 False
         
 if
-(
-            
 options
 .
 log_mach_verbose
-            
 or
 options
 .
 log_tbpl_level
 =
 =
-"
+'
 debug
-"
-            
+'
 or
+\
+           
 options
 .
 log_mach_level
 =
 =
-"
+'
 debug
-"
-            
+'
 or
 options
 .
 log_raw_level
 =
 =
-"
+'
 debug
-"
-        
-)
+'
 :
             
 verbose
@@ -179,18 +177,18 @@ if
 hasattr
 (
 options
-"
+'
 log
-"
+'
 )
 :
             
 delattr
 (
 options
-"
+'
 log
-"
+'
 )
         
 self
@@ -213,9 +211,9 @@ app
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -228,37 +226,35 @@ device
 =
 ADBDeviceFactory
 (
-            
 adb
 =
 options
 .
 adbPath
 or
-"
+'
 adb
-"
-            
+'
+                                       
 device
 =
 options
 .
 deviceSerial
-            
+                                       
 test_root
 =
 options
 .
 remoteTestRoot
-            
+                                       
 verbose
 =
 verbose
-            
+                                       
 run_as_package
 =
 expected
-        
 )
         
 if
@@ -295,7 +291,6 @@ posixpath
 .
 join
 (
-            
 options
 .
 remoteTestRoot
@@ -307,7 +302,6 @@ mochitest
 .
 log
 "
-        
 )
         
 logParent
@@ -413,16 +407,16 @@ log
 process_args
 =
 {
-"
+'
 messageLogger
-"
+'
 :
 self
 .
 message_logger
-"
+'
 counts
-"
+'
 :
 self
 .
@@ -435,27 +429,22 @@ automation
 =
 RemoteAutomation
 (
-            
 self
 .
 device
-            
 options
 .
 remoteappname
-            
 self
 .
 remoteProfile
-            
+                                           
 self
 .
 remoteLogFile
-            
 processArgs
 =
 process_args
-        
 )
         
 self
@@ -476,9 +465,9 @@ app
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -579,7 +568,6 @@ extraPrefs
 +
 =
 [
-            
 "
 browser
 .
@@ -596,7 +584,6 @@ s
 self
 .
 remoteCache
-        
 ]
         
 self
@@ -654,9 +641,11 @@ posixpath
 .
 join
 (
+            
 options
 .
 remoteTestRoot
+            
 "
 chrome
 "
@@ -701,9 +690,9 @@ app
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -774,8 +763,8 @@ to
 filter
 manifests
 "
-            
 %
+            
 str
 (
 self
@@ -784,16 +773,15 @@ device
 .
 version
 )
-        
 )
         
 mozinfo
 .
 info
 [
-"
+'
 android_version
-"
+'
 ]
 =
 str
@@ -809,16 +797,16 @@ mozinfo
 .
 info
 [
-"
+'
 is_fennec
-"
+'
 ]
 =
 not
 (
-"
+'
 geckoview
-"
+'
 in
 options
 .
@@ -829,9 +817,9 @@ mozinfo
 .
 info
 [
-"
+'
 is_emulator
-"
+'
 ]
 =
 self
@@ -842,10 +830,10 @@ _device_serial
 .
 startswith
 (
-"
+'
 emulator
 -
-"
+'
 )
     
 def
@@ -894,9 +882,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_UPLOAD_DIR
-"
+'
 None
 )
             
@@ -1025,7 +1013,6 @@ was
 previously
 logged
 "
-            
 )
             
 return
@@ -1045,10 +1032,10 @@ _device_serial
 .
 startswith
 (
-"
+'
 emulator
 -
-"
+'
 )
 :
             
@@ -1259,12 +1246,11 @@ xre
 -
 path
 "
-                
 %
+                
 os
 .
 name
-            
 )
             
 sys
@@ -1281,6 +1267,7 @@ xpcshell
 "
         
 if
+(
 os
 .
 name
@@ -1289,6 +1276,7 @@ name
 "
 nt
 "
+)
 :
             
 xpcshell
@@ -1372,12 +1360,11 @@ utility
 -
 path
 "
-                
 %
+                
 os
 .
 name
-            
 )
             
 sys
@@ -1416,8 +1403,7 @@ log
 .
 error
 (
-                
-"
+'
 xpcshell
 at
 %
@@ -1429,9 +1415,9 @@ binary
 ;
 please
 use
-"
-                
-"
+'
+                           
+'
 the
 -
 -
@@ -1443,18 +1429,17 @@ to
 specify
 the
 path
-"
-                
-"
+'
+                           
+'
 to
 a
 desktop
 version
 .
-"
+'
 %
 xpcshell_path
-            
 )
             
 sys
@@ -1556,9 +1541,13 @@ MochitestDesktop
 .
 startServers
 (
+            
 self
+            
 options
+            
 debuggerInfo
+            
 public
 =
 True
@@ -1646,7 +1635,6 @@ to
 device
 .
 "
-                
 )
                 
 raise
@@ -1875,9 +1863,9 @@ options
 flavor
 =
 =
-"
+'
 chrome
-"
+'
 and
 not
 self
@@ -1980,6 +1968,7 @@ device
 .
 get_logcat
 (
+                    
 filter_out_regexps
 =
 fennecLogcatFilters
@@ -1997,16 +1986,16 @@ l
 .
 decode
 (
-"
+'
 utf
 -
 8
-"
+'
 errors
 =
-"
+'
 replace
-"
+'
 )
                     
 sl
@@ -2015,16 +2004,16 @@ ul
 .
 encode
 (
-"
+'
 iso8859
 -
 1
-"
+'
 errors
 =
-"
+'
 replace
-"
+'
 )
                     
 self
@@ -2224,8 +2213,11 @@ MochitestDesktop
 .
 buildBrowserEnv
 (
+            
 self
+            
 options
+            
 debugger
 =
 debugger
@@ -2270,6 +2262,7 @@ join
 self
 .
 remoteMozLog
+                
 "
 moz
 -
@@ -2297,7 +2290,6 @@ uuid4
 )
 )
 )
-            
 )
         
 if
@@ -2308,14 +2300,14 @@ dmd
             
 browserEnv
 [
-"
+'
 DMD
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 browserEnv
 [
@@ -2363,34 +2355,34 @@ written
 "
         
 if
-"
+'
 profileDir
-"
+'
 not
 in
 kwargs
 and
-"
+'
 profile
-"
+'
 in
 kwargs
 :
             
 kwargs
 [
-"
+'
 profileDir
-"
+'
 ]
 =
 kwargs
 .
 pop
 (
-"
+'
 profile
-"
+'
 )
 .
 profile
@@ -2399,9 +2391,9 @@ kwargs
 .
 pop
 (
-"
+'
 marionette_args
-"
+'
 None
 )
         
@@ -2430,9 +2422,9 @@ self
 .
 counts
 [
-"
+'
 pass
-"
+'
 ]
         
 self
@@ -2444,9 +2436,9 @@ self
 .
 counts
 [
-"
+'
 fail
-"
+'
 ]
         
 self
@@ -2458,9 +2450,9 @@ self
 .
 counts
 [
-"
+'
 todo
-"
+'
 ]
         
 return
@@ -2490,7 +2482,6 @@ None
 raise
 ValueError
 (
-            
 "
 Invalid
 options
@@ -2506,7 +2497,6 @@ of
 valid
 options
 "
-        
 )
     
 options
@@ -2521,9 +2511,9 @@ options
 flavor
 !
 =
-"
+'
 chrome
-"
+'
 :
         
 options
@@ -2532,12 +2522,12 @@ extensionsToExclude
 .
 append
 (
-"
+'
 roboextender
 mozilla
 .
 org
-"
+'
 )
     
 mochitest
@@ -2758,9 +2748,9 @@ MochitestArgumentParser
 (
 app
 =
-"
+'
 android
-"
+'
 )
     
 options

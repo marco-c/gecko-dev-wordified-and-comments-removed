@@ -27,9 +27,9 @@ struct
 .
 pack
 (
-"
+'
 I
-"
+'
 len
 (
 line
@@ -125,9 +125,9 @@ if
 cmd
 =
 =
-"
+'
 echo
-"
+'
 :
     
 echo_loop
@@ -137,9 +137,9 @@ elif
 cmd
 =
 =
-"
+'
 exit
-"
+'
 :
     
 sys
@@ -160,9 +160,9 @@ elif
 cmd
 =
 =
-"
+'
 env
-"
+'
 :
     
 for
@@ -186,17 +186,17 @@ environ
 get
 (
 var
-"
-"
+'
+'
 )
 )
 elif
 cmd
 =
 =
-"
+'
 pwd
-"
+'
 :
     
 output
@@ -216,9 +216,9 @@ elif
 cmd
 =
 =
-"
+'
 print_args
-"
+'
 :
     
 for
@@ -241,9 +241,9 @@ elif
 cmd
 =
 =
-"
+'
 ignore_sigterm
-"
+'
 :
     
 signal
@@ -260,9 +260,9 @@ SIG_IGN
     
 output
 (
-"
+'
 Ready
-"
+'
 )
     
 while
@@ -295,9 +295,9 @@ elif
 cmd
 =
 =
-"
+'
 print
-"
+'
 :
     
 sys

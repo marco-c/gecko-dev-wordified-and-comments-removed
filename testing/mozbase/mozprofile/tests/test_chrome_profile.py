@@ -95,9 +95,9 @@ profile
 .
 endswith
 (
-"
+'
 Default
-"
+'
 )
 def
 test_chrome_preferences
@@ -109,13 +109,13 @@ tmpdir
 prefs
 =
 {
-"
+'
 foo
-"
+'
 :
-"
+'
 bar
-"
+'
 }
     
 profile
@@ -138,9 +138,9 @@ join
 profile
 .
 profile
-"
+'
 Preferences
-"
+'
 )
     
 assert
@@ -179,9 +179,9 @@ tmpdir
 .
 join
 (
-"
+'
 Preferences
-"
+'
 )
 .
 strpath
@@ -190,9 +190,9 @@ with
 open
 (
 prefs_file
-"
+'
 w
-"
+'
 )
 as
 fh
@@ -203,13 +203,13 @@ json
 dump
 (
 {
-"
+'
 num
-"
+'
 :
-"
+'
 1
-"
+'
 }
 fh
 )
@@ -266,30 +266,30 @@ data
 .
 get
 (
-"
+'
 foo
-"
+'
 )
 =
 =
-"
+'
 bar
-"
+'
         
 assert
 data
 .
 get
 (
-"
+'
 num
-"
+'
 )
 =
 =
-"
+'
 1
-"
+'
     
 assert_prefs
 (
@@ -313,12 +313,12 @@ test_chrome_addons
 addons
 =
 [
-"
+'
 foo
-"
-"
+'
+'
 bar
-"
+'
 ]
     
 profile
@@ -353,9 +353,9 @@ addons
 .
 install
 (
-"
+'
 baz
-"
+'
 )
     
 assert
@@ -367,9 +367,9 @@ addons
 addons
 +
 [
-"
+'
 baz
-"
+'
 ]
     
 profile
@@ -389,9 +389,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

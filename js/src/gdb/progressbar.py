@@ -79,21 +79,19 @@ self
 .
 fmt
 =
-(
-            
-"
+'
 \
 r
 %
 -
-"
+'
 +
 str
 (
 label_width
 )
 +
-"
+'
 s
 %
 3d
@@ -101,7 +99,7 @@ s
 %
 %
 -
-"
+'
 +
 str
 (
@@ -110,16 +108,14 @@ self
 barlen
 )
 +
-"
+'
 s
 |
 %
 6
 .
 1fs
-"
-        
-)
+'
     
 def
 update
@@ -177,15 +173,15 @@ limit
         
 bar
 =
-"
+'
 =
-"
+'
 *
 barlen
 +
-"
+'
 >
-"
+'
         
 dt
 =
@@ -270,9 +266,11 @@ self
 :
         
 if
+(
 self
 .
 fullwidth
+)
 :
             
 sys
@@ -281,22 +279,22 @@ stdout
 .
 write
 (
-"
+'
 \
 r
-"
+'
 +
-"
-"
+'
+'
 *
 self
 .
 fullwidth
 +
-"
+'
 \
 r
-"
+'
 )
             
 self
@@ -327,27 +325,27 @@ stdout
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 pb
 =
 ProgressBar
 (
-"
+'
 test
-"
+'
 12
 )
     

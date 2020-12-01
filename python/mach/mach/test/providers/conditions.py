@@ -85,14 +85,14 @@ False
     
 Command
 (
-"
+'
 cmd_foo
-"
+'
 category
 =
-"
+'
 testing
-"
+'
 conditions
 =
 [
@@ -111,14 +111,14 @@ pass
     
 Command
 (
-"
+'
 cmd_bar
-"
+'
 category
 =
-"
+'
 testing
-"
+'
 conditions
 =
 [
@@ -137,14 +137,14 @@ pass
     
 Command
 (
-"
+'
 cmd_foobar
-"
+'
 category
 =
-"
+'
 testing
-"
+'
 conditions
 =
 [
@@ -218,14 +218,14 @@ bar
     
 Command
 (
-"
+'
 cmd_foo_ctx
-"
+'
 category
 =
-"
+'
 testing
-"
+'
 conditions
 =
 [
@@ -244,14 +244,14 @@ pass
     
 Command
 (
-"
+'
 cmd_bar_ctx
-"
+'
 category
 =
-"
+'
 testing
-"
+'
 conditions
 =
 [
@@ -270,14 +270,14 @@ pass
     
 Command
 (
-"
+'
 cmd_foobar_ctx
-"
+'
 category
 =
-"
+'
 testing
-"
+'
 conditions
 =
 [

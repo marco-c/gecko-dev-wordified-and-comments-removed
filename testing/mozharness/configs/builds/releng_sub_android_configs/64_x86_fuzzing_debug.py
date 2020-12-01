@@ -2,11 +2,11 @@ config
 =
 {
     
-"
+'
 stage_platform
-"
+'
 :
-"
+'
 android
 -
 x86
@@ -14,13 +14,13 @@ x86
 fuzzing
 -
 debug
-"
+'
     
-"
+'
 src_mozconfig
-"
+'
 :
-"
+'
 mobile
 /
 android
@@ -36,11 +36,11 @@ x86
 debug
 -
 fuzzing
-"
+'
     
-"
+'
 debug_build
-"
+'
 :
 True
 }

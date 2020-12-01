@@ -24,14 +24,14 @@ SpiderMonkey
     
 run_fragment
 (
-"
+'
 unwind
 .
 simple
-"
-"
+'
+'
 Something
-"
+'
 )
     
 first
@@ -263,9 +263,9 @@ machine
 )
 =
 =
-"
+'
 x86_64
-"
+'
 and
 platform
 .
@@ -274,9 +274,9 @@ system
 )
 =
 =
-"
+'
 Linux
-"
+'
 :
     
 try

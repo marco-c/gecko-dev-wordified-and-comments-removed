@@ -312,7 +312,6 @@ output
             
 print
 (
-                
 "
 Histogram
 {
@@ -332,11 +331,9 @@ format
 (
 group_type
 )
-                
 file
 =
 output
-            
 )
         
 for
@@ -408,7 +405,6 @@ output
             
 print
 (
-                
 "
 HistogramLast
 {
@@ -428,11 +424,9 @@ format
 (
 group_type
 )
-                
 file
 =
 output
-            
 )
     
 print
@@ -467,7 +461,6 @@ value
             
 print
 (
-                
 "
 Histogram
 {
@@ -487,18 +480,15 @@ HistogramFirst
 +
 1
 "
+                  
 .
 format
 (
-                    
 key
-                
 )
-                
 file
 =
 output
-            
 )
         
 else
@@ -587,7 +577,6 @@ categorical
 =
 filter
 (
-        
 lambda
 h
 :
@@ -605,7 +594,6 @@ OS_TARGET
 ]
 )
 categorical
-    
 )
     
 enums
@@ -699,7 +687,6 @@ output
     
 print
 (
-        
 "
 \
 ntemplate
@@ -718,11 +705,9 @@ false_type
 }
 ;
 "
-        
 file
 =
 output
-    
 )
     
 for
@@ -735,7 +720,6 @@ enums
         
 print
 (
-            
 "
 template
 <
@@ -757,11 +741,10 @@ true_type
 "
 %
 name
-            
+              
 file
 =
 output
-        
 )
     
 print
@@ -794,7 +777,6 @@ enums
         
 print
 (
-            
 "
 template
 <
@@ -807,7 +789,7 @@ s
 >
 :
 "
-            
+              
 "
 std
 :
@@ -827,11 +809,9 @@ s
 name
 id
 )
-            
 file
 =
 output
-        
 )
     
 print
@@ -845,9 +825,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

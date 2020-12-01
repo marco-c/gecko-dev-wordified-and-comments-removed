@@ -44,25 +44,23 @@ lines
 .
 extend
 (
-        
 [
-            
+        
 f
-            
-"
+        
+'
 -
-"
+'
 *
 len
 (
 f
 )
-            
-"
-"
         
-]
+'
+'
     
+]
 )
     
 docstring
@@ -76,19 +74,17 @@ lines
 .
 extend
 (
-        
 [
-            
+        
 docstring
 [
 0
 ]
-            
-"
-"
         
-]
+'
+'
     
+]
 )
     
 arg_types
@@ -126,9 +122,9 @@ arg_types
 .
 append
 (
-"
+'
 |
-"
+'
 .
 join
 (
@@ -149,15 +145,15 @@ __name__
     
 arg_s
 =
-"
+'
 (
 %
 s
 )
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
@@ -168,24 +164,22 @@ lines
 .
 extend
 (
-        
 [
-            
-"
+        
+'
 :
 Arguments
 :
 %
 s
-"
+'
 %
 arg_s
-            
-"
-"
         
-]
+'
+'
     
+]
 )
     
 lines
@@ -203,8 +197,8 @@ lines
 .
 append
 (
-"
-"
+'
+'
 )
     
 return
@@ -225,17 +219,17 @@ lines
         
 v
         
-"
+'
 -
-"
+'
 *
 len
 (
 v
 )
         
-"
-"
+'
+'
     
 ]
     
@@ -250,59 +244,55 @@ lines
 .
 extend
 (
-        
 [
-            
+        
 docstring
 [
 0
 ]
-            
-"
-"
         
-]
+'
+'
     
+]
 )
     
 lines
 .
 extend
 (
-        
 [
-            
-"
+        
+'
 :
 Storage
 Type
 :
 %
 s
-"
+'
 %
 st_type
 .
 __name__
-            
-"
+        
+'
 :
 Input
 Type
 :
 %
 s
-"
+'
 %
 in_type
 .
 __name__
-            
-"
-"
         
-]
+'
+'
     
+]
 )
     
 lines
@@ -320,8 +310,8 @@ lines
 .
 append
 (
-"
-"
+'
+'
 )
     
 return
@@ -342,17 +332,17 @@ lines
         
 v
         
-"
+'
 -
-"
+'
 *
 len
 (
 v
 )
         
-"
-"
+'
+'
     
 ]
     
@@ -367,34 +357,32 @@ lines
 .
 extend
 (
-        
 [
-            
+        
 docstring
 [
 0
 ]
-            
-"
-"
-            
-"
+        
+'
+'
+        
+'
 :
 Type
 :
 %
 s
-"
+'
 %
 typ
 .
 __name__
-            
-"
-"
         
-]
+'
+'
     
+]
 )
     
 lines
@@ -412,8 +400,8 @@ lines
 .
 append
 (
-"
-"
+'
+'
 )
     
 return
@@ -434,17 +422,16 @@ lines
 .
 extend
 (
-        
 [
-            
-"
+        
+'
 .
 .
 note
 :
 :
-"
-            
+'
+        
 "
 moz
 .
@@ -458,9 +445,8 @@ Path
 class
 .
 "
-        
-]
     
+]
 )
     
 path_docstring_minus_summary
@@ -483,8 +469,8 @@ lines
 extend
 (
 [
-"
-"
+'
+'
 +
 line
 for
@@ -514,35 +500,34 @@ lines
 .
 extend
 (
-            
 [
-                
-"
+            
+'
 .
 .
 _mozbuild_subcontext_
 %
 s
 :
-"
+'
 %
 subcontext
-                
-"
-"
-                
-"
+            
+'
+'
+            
+'
 Sub
 -
 Context
 :
 %
 s
-"
+'
 %
 subcontext
-                
-"
+            
+'
 =
 =
 =
@@ -556,22 +541,21 @@ subcontext
 =
 =
 =
-"
+'
 +
-"
+'
 =
-"
+'
 *
 len
 (
 subcontext
 )
-                
-"
-"
             
-]
+'
+'
         
+]
 )
         
 lines
@@ -598,8 +582,8 @@ lines
 .
 append
 (
-"
-"
+'
+'
 )
         
 for
@@ -634,30 +618,28 @@ lines
 .
 extend
 (
-        
 [
-            
-"
-Variables
-"
-            
-"
-=
-=
-=
-=
-=
-=
-=
-=
-=
-"
-            
-"
-"
         
-]
+'
+Variables
+'
+        
+'
+=
+=
+=
+=
+=
+=
+=
+=
+=
+'
+        
+'
+'
     
+]
 )
     
 for
@@ -692,30 +674,28 @@ lines
 .
 extend
 (
-        
 [
-            
-"
-Functions
-"
-            
-"
-=
-=
-=
-=
-=
-=
-=
-=
-=
-"
-            
-"
-"
         
-]
+'
+Functions
+'
+        
+'
+=
+=
+=
+=
+=
+=
+=
+=
+=
+'
+        
+'
+'
     
+]
 )
     
 for
@@ -750,39 +730,37 @@ lines
 .
 extend
 (
-        
 [
-            
-"
+        
+'
 Special
 Variables
-"
-            
-"
-=
-=
-=
-=
-=
-=
-=
-=
-=
-=
-=
-=
-=
-=
-=
-=
-=
-"
-            
-"
-"
+'
         
-]
+'
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+'
+        
+'
+'
     
+]
 )
     
 for
@@ -873,10 +851,10 @@ fname
 .
 endswith
 (
-"
+'
 .
 pyc
-"
+'
 )
 :
             
@@ -944,9 +922,9 @@ app
 .
 add_directive
 (
-"
+'
 mozbuildsymbols
-"
+'
 MozbuildSymbols
 )
     
@@ -977,7 +955,6 @@ VirtualenvManager
 (
         
 topsrcdir
-        
 os
 .
 path
@@ -987,11 +964,10 @@ join
 app
 .
 outdir
-"
+'
 _venv
-"
+'
 )
-        
 sys
 .
 stderr
@@ -1003,16 +979,15 @@ path
 join
 (
 topsrcdir
-"
+'
 build
-"
-"
+'
+'
 build_virtualenv_packages
 .
 txt
-"
+'
 )
-    
 )
     
 ve

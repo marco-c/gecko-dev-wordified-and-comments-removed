@@ -17,7 +17,10 @@ distutils
 .
 version
 import
+(
+    
 StrictVersion
+)
 def
 iter_modules_in_path
 (
@@ -48,6 +51,7 @@ p
 os
 .
 sep
+             
 for
 p
 in
@@ -71,9 +75,9 @@ if
 getattr
 (
 module
-"
+'
 __file__
-"
+'
 None
 )
 is
@@ -103,10 +107,10 @@ path
 .
 endswith
 (
-"
+'
 .
 pyc
-"
+'
 )
 :
             
@@ -228,24 +232,23 @@ six
 .
 ensure_text
 (
-        
 subprocess
 .
 check_output
 (
+        
 [
 exe
-"
+'
 -
 c
-"
+'
 program
 ]
 universal_newlines
 =
 True
 )
-    
 )
 .
 rstrip
@@ -277,7 +280,7 @@ in
 raise
 ValueError
 (
-"
+'
 Expected
 a
 Python
@@ -287,7 +290,7 @@ of
 2
 or
 3
-"
+'
 )
     
 min_versions
@@ -295,22 +298,22 @@ min_versions
 {
 2
 :
-"
+'
 2
 .
 7
 .
 0
-"
+'
 3
 :
-"
+'
 3
 .
 6
 .
 0
-"
+'
 }
     
 def
@@ -337,9 +340,9 @@ min_version
 0
 ]
 +
-"
+'
 .
-"
+'
         
 if
 not
@@ -354,8 +357,7 @@ prefix
 raise
 ValueError
 (
-                
-"
+'
 min_version
 expected
 a
@@ -365,13 +367,13 @@ string
 got
 %
 s
-"
+'
 %
+                             
 (
 prefix
 min_version
 )
-            
 )
         
 min_version
@@ -405,7 +407,7 @@ our_version
 =
 StrictVersion
 (
-"
+'
 %
 s
 .
@@ -414,7 +416,7 @@ s
 .
 %
 s
-"
+'
 %
 (
 sys
@@ -446,11 +448,11 @@ version
 names
 =
 [
-"
+'
 python
 %
 d
-"
+'
 %
 major
 ]
@@ -478,14 +480,14 @@ names
 .
 append
 (
-"
+'
 python
 %
 d
 .
 %
 d
-"
+'
 %
 (
 major

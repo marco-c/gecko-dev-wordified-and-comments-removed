@@ -20,125 +20,125 @@ allocatorFns
 =
 [
     
-"
+'
 malloc
 (
-"
+'
     
-"
+'
 replace_malloc
-"
+'
     
-"
+'
 replace_calloc
-"
+'
     
-"
+'
 replace_realloc
-"
+'
     
-"
+'
 replace_memalign
-"
+'
     
-"
+'
 replace_posix_memalign
-"
+'
     
-"
+'
 malloc_zone_malloc
-"
+'
     
-"
+'
 moz_xmalloc
-"
+'
     
-"
+'
 moz_xcalloc
-"
+'
     
-"
+'
 moz_xrealloc
-"
+'
     
-"
+'
 operator
 new
 (
-"
+'
     
-"
+'
 operator
 new
 [
 ]
 (
-"
+'
     
-"
+'
 g_malloc
-"
+'
     
-"
+'
 g_slice_alloc
-"
+'
     
-"
+'
 callocCanGC
-"
+'
     
-"
+'
 reallocCanGC
-"
+'
     
-"
+'
 vpx_malloc
-"
+'
     
-"
+'
 vpx_calloc
-"
+'
     
-"
+'
 vpx_realloc
-"
+'
     
-"
+'
 vpx_memalign
-"
+'
     
-"
+'
 js_malloc
-"
+'
     
-"
+'
 js_calloc
-"
+'
     
-"
+'
 js_realloc
-"
+'
     
-"
+'
 pod_malloc
-"
+'
     
-"
+'
 pod_calloc
-"
+'
     
-"
+'
 pod_realloc
-"
+'
     
-"
+'
 nsTArrayInfallibleAllocator
 :
 :
 Malloc
-"
+'
     
-"
+'
 Allocator
 <
 ReplaceMallocBase
@@ -147,13 +147,13 @@ ReplaceMallocBase
 :
 malloc
 (
-"
+'
     
-"
+'
 ?
 ?
 ?
-"
+'
 ]
 def
 range_1_24
@@ -181,7 +181,7 @@ value
         
 msg
 =
-"
+'
 {
 :
 s
@@ -195,7 +195,7 @@ range
 .
 .
 24
-"
+'
 .
 format
 (
@@ -218,10 +218,9 @@ argparse
 .
 ArgumentParser
 (
-    
 description
 =
-"
+'
 Analyze
 the
 heap
@@ -250,73 +249,72 @@ the
 given
 block
 .
-"
+'
 )
 parser
 .
 add_argument
 (
-"
+'
 dmd_log_file_name
-"
+'
+                    
 help
 =
-"
+'
 clamped
 DMD
 log
 file
 name
-"
+'
 )
 parser
 .
 add_argument
 (
-"
+'
 block
-"
+'
+                    
 help
 =
-"
+'
 address
 of
 the
 block
 of
 interest
-"
+'
 )
 parser
 .
 add_argument
 (
-    
-"
+'
 -
 -
 info
-"
-    
+'
 dest
 =
-"
+'
 info
-"
-    
+'
 action
 =
-"
+'
 store_true
-"
-    
+'
+                    
 default
 =
 False
-    
+                    
 help
 =
-"
+'
 Print
 out
 information
@@ -324,19 +322,17 @@ about
 the
 block
 .
-"
+'
 )
 parser
 .
 add_argument
 (
-    
-"
+'
 -
 sfl
-"
-    
-"
+'
+'
 -
 -
 max
@@ -346,19 +342,18 @@ stack
 frame
 -
 length
-"
-    
+'
 type
 =
 int
-    
+                    
 default
 =
 150
-    
+                    
 help
 =
-"
+'
 Maximum
 number
 of
@@ -369,19 +364,17 @@ from
 each
 stack
 frame
-"
+'
 )
 parser
 .
 add_argument
 (
-    
-"
+'
 -
 a
-"
-    
-"
+'
+'
 -
 -
 ignore
@@ -389,17 +382,16 @@ ignore
 alloc
 -
 fns
-"
-    
+'
 action
 =
-"
+'
 store_true
-"
-    
+'
+                    
 help
 =
-"
+'
 ignore
 allocation
 functions
@@ -408,37 +400,33 @@ the
 start
 of
 traces
-"
+'
 )
 parser
 .
 add_argument
 (
-    
-"
+'
 -
 f
-"
-    
-"
+'
+'
 -
 -
 max
 -
 frames
-"
-    
+'
 type
 =
 range_1_24
-    
 default
 =
 8
-    
+                    
 help
 =
-"
+'
 maximum
 number
 of
@@ -448,35 +436,32 @@ consider
 in
 each
 trace
-"
+'
 )
 parser
 .
 add_argument
 (
-    
-"
+'
 -
 c
-"
-    
-"
+'
+'
 -
 -
 chain
 -
 reports
-"
-    
+'
 action
 =
-"
+'
 store_true
-"
-    
+'
+                    
 help
 =
-"
+'
 if
 only
 one
@@ -489,14 +474,14 @@ onto
 the
 object
 report
-"
-    
-"
+'
+                    
+'
 the
 next
 one
 too
-"
+'
 )
 class
 BlockData
@@ -516,15 +501,15 @@ addr
 =
 json_block
 [
-"
+'
 addr
-"
+'
 ]
         
 if
-"
+'
 contents
-"
+'
 in
 json_block
 :
@@ -533,9 +518,9 @@ contents
 =
 json_block
 [
-"
+'
 contents
-"
+'
 ]
         
 else
@@ -578,9 +563,9 @@ req_size
 =
 json_block
 [
-"
+'
 req
-"
+'
 ]
         
 self
@@ -589,9 +574,9 @@ alloc_stack
 =
 json_block
 [
-"
+'
 alloc
-"
+'
 ]
 def
 print_trace_segment
@@ -622,8 +607,8 @@ alloc_stack
         
 print
 (
-"
-"
+'
+'
 +
 frameTable
 [
@@ -735,8 +720,7 @@ stdout
 .
 write
 (
-                
-"
+'
 0x
 {
 }
@@ -745,7 +729,7 @@ size
 {
 }
 bytes
-"
+'
 .
 format
 (
@@ -762,14 +746,13 @@ r
 .
 req_size
 )
-            
 )
             
 plural
 =
-"
+'
 s
-"
+'
 if
 len
 (
@@ -781,8 +764,8 @@ r
 >
 1
 else
-"
-"
+'
+'
             
 sys
 .
@@ -790,24 +773,21 @@ stdout
 .
 write
 (
-                
-"
+'
 at
 byte
 offset
-"
-                
+'
 +
 plural
-                
 +
-"
-"
-                
+'
+'
 +
+                             
 (
-"
-"
+'
+'
 .
 join
 (
@@ -824,7 +804,6 @@ r
 ]
 )
 )
-            
 )
             
 print
@@ -863,7 +842,7 @@ stdout
 .
 write
 (
-"
+'
 Found
 no
 more
@@ -871,7 +850,7 @@ referrers
 .
 \
 n
-"
+'
 )
                 
 break
@@ -891,7 +870,7 @@ stdout
 .
 write
 (
-"
+'
 Found
 too
 many
@@ -899,7 +878,7 @@ referrers
 .
 \
 n
-"
+'
 )
                 
 break
@@ -910,7 +889,7 @@ stdout
 .
 write
 (
-"
+'
 Chaining
 to
 next
@@ -920,7 +899,7 @@ referrer
 n
 \
 n
-"
+'
 )
             
 for
@@ -945,14 +924,14 @@ stdout
 .
 write
 (
-"
+'
 Found
 a
 loop
 .
 \
 n
-"
+'
 )
                 
 break
@@ -976,12 +955,12 @@ anyFound
         
 print
 (
-"
+'
 No
 referrers
 found
 .
-"
+'
 )
 def
 show_block_info
@@ -1006,7 +985,7 @@ stdout
 .
 write
 (
-"
+'
 block
 :
 0x
@@ -1014,7 +993,7 @@ block
 }
 \
 n
-"
+'
 .
 format
 (
@@ -1030,7 +1009,7 @@ stdout
 .
 write
 (
-"
+'
 requested
 size
 :
@@ -1039,7 +1018,7 @@ size
 bytes
 \
 n
-"
+'
 .
 format
 (
@@ -1055,10 +1034,10 @@ stdout
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
     
 sys
@@ -1067,11 +1046,11 @@ stdout
 .
 write
 (
-"
+'
 block
 contents
 :
-"
+'
 )
     
 for
@@ -1084,9 +1063,9 @@ contents
         
 v
 =
-"
+'
 0
-"
+'
 if
 c
 =
@@ -1106,11 +1085,11 @@ stdout
 .
 write
 (
-"
+'
 0x
 {
 }
-"
+'
 .
 format
 (
@@ -1124,12 +1103,12 @@ stdout
 .
 write
 (
-"
+'
 \
 n
 \
 n
-"
+'
 )
     
 sys
@@ -1138,13 +1117,13 @@ stdout
 .
 write
 (
-"
+'
 allocation
 stack
 :
 \
 n
-"
+'
 )
     
 print_trace_segment
@@ -1186,9 +1165,9 @@ re
 .
 compile
 (
-"
+'
 |
-"
+'
 .
 join
 (
@@ -1310,10 +1289,10 @@ dmd_log_file_name
 .
 endswith
 (
-"
+'
 .
 gz
-"
+'
 )
     
 opener
@@ -1332,9 +1311,9 @@ opener
 options
 .
 dmd_log_file_name
-"
+'
 rb
-"
+'
 )
 as
 f
@@ -1352,9 +1331,9 @@ f
 if
 j
 [
-"
+'
 version
-"
+'
 ]
 !
 =
@@ -1390,9 +1369,9 @@ block_list
 =
 j
 [
-"
+'
 blockList
-"
+'
 ]
     
 blocks
@@ -1412,9 +1391,9 @@ int
 (
 json_block
 [
-"
+'
 addr
-"
+'
 ]
 16
 )
@@ -1429,18 +1408,18 @@ traceTable
 =
 j
 [
-"
+'
 traceTable
-"
+'
 ]
     
 frameTable
 =
 j
 [
-"
+'
 frameTable
-"
+'
 ]
     
 cleanupTraceTable
@@ -1501,26 +1480,26 @@ blocks
         
 print
 (
-"
+'
 Object
-"
+'
 +
 options
 .
 block
 +
-"
+'
 not
 found
 in
 traces
 .
-"
+'
 )
         
 print
 (
-"
+'
 It
 could
 still
@@ -1531,7 +1510,7 @@ of
 some
 nodes
 .
-"
+'
 )
         
 return

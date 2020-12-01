@@ -24,13 +24,13 @@ __name__
 )
 PrivateNameSymbol
 =
-0xFFFFFFFD
+0xfffffffd
 InSymbolRegistry
 =
-0xFFFFFFFE
+0xfffffffe
 UniqueSymbol
 =
-0xFFFFFFFF
+0xffffffff
 ptr_pretty_printer
 (
 "
@@ -93,13 +93,13 @@ self
 .
 value
 [
-"
+'
 code_
-"
+'
 ]
 )
 &
-0xFFFFFFFF
+0xffffffff
         
 desc
 =

@@ -54,11 +54,11 @@ job
 .
 get
 (
-"
+'
 dependent
 -
 tasks
-"
+'
 )
 :
             
@@ -71,11 +71,11 @@ l
 in
 job
 [
-"
+'
 dependent
 -
 tasks
-"
+'
 ]
 .
 keys
@@ -90,25 +90,21 @@ dep_labels
 :
                 
 if
-"
+'
 notarization
 -
 part
 -
 1
-"
+'
 in
 label
 :
                     
 assert
-(
-                        
 dep_job
 is
 None
-                    
-)
 "
 Can
 '
@@ -116,6 +112,8 @@ t
 determine
 whether
 "
+\
+                        
 "
 {
 }
@@ -129,23 +127,21 @@ dep_job
 .
 format
 (
-                        
 dep_job
 .
 label
 label
-                    
 )
                     
 dep_job
 =
 job
 [
-"
+'
 dependent
 -
 tasks
-"
+'
 ]
 [
 label
@@ -160,13 +156,13 @@ None
                 
 job
 [
-"
+'
 upstream
 -
 artifact
 -
 task
-"
+'
 ]
 =
 dep_job

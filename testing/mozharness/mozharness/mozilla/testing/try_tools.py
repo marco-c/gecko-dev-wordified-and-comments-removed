@@ -29,7 +29,6 @@ try_config_options
 [
     
 [
-        
 [
 "
 -
@@ -39,9 +38,8 @@ try
 message
 "
 ]
-        
+     
 {
-            
 "
 action
 "
@@ -49,7 +47,7 @@ action
 "
 store
 "
-            
+      
 "
 dest
 "
@@ -57,13 +55,13 @@ dest
 "
 try_message
 "
-            
+      
 "
 default
 "
 :
 None
-            
+      
 "
 help
 "
@@ -78,59 +76,59 @@ tests
 to
 run
 "
-        
+      
 }
-    
 ]
 ]
 test_flavors
 =
 {
     
-"
+'
 browser
 -
 chrome
-"
+'
 :
 {
 }
     
-"
+'
 chrome
-"
+'
 :
 {
 }
     
-"
+'
 devtools
 -
 chrome
-"
+'
 :
 {
 }
     
-"
+'
 mochitest
-"
+'
 :
 {
 }
     
-"
+'
 xpcshell
-"
+'
 :
 {
 }
     
-"
+'
 reftest
-"
+'
 :
 {
+        
 "
 path
 "
@@ -155,13 +153,15 @@ tests
 "
 x
 )
+    
 }
     
-"
+'
 crashtest
-"
+'
 :
 {
+        
 "
 path
 "
@@ -186,13 +186,15 @@ tests
 "
 x
 )
+    
 }
     
-"
+'
 remote
-"
+'
 :
 {
+        
 "
 path
 "
@@ -217,15 +219,16 @@ browser
 "
 x
 )
+    
 }
     
-"
+'
 web
 -
 platform
 -
 tests
-"
+'
 :
 {
         
@@ -266,7 +269,7 @@ sep
     
 }
     
-"
+'
 web
 -
 platform
@@ -274,7 +277,7 @@ platform
 tests
 -
 reftests
-"
+'
 :
 {
         
@@ -315,7 +318,7 @@ sep
     
 }
     
-"
+'
 web
 -
 platform
@@ -323,7 +326,7 @@ platform
 tests
 -
 wdspec
-"
+'
 :
 {
         
@@ -411,80 +414,77 @@ known_try_arguments
 =
 {
         
-"
+'
 -
 -
 tag
-"
+'
 :
 (
-            
 {
-                
-"
+            
+'
 action
-"
+'
 :
-"
+'
 append
-"
-                
-"
+'
+            
+'
 dest
-"
+'
 :
-"
+'
 tags
-"
-                
-"
+'
+            
+'
 default
-"
+'
 :
 None
-            
+        
 }
-            
 (
-                
-"
+            
+'
 browser
 -
 chrome
-"
-                
-"
+'
+            
+'
 chrome
-"
-                
-"
+'
+            
+'
 devtools
 -
 chrome
-"
-                
-"
+'
+            
+'
 marionette
-"
-                
-"
+'
+            
+'
 mochitest
-"
-                
-"
+'
+            
+'
 web
 -
 plaftform
 -
 tests
-"
-                
-"
-xpcshell
-"
+'
             
-)
+'
+xpcshell
+'
         
+)
 )
     
 }
@@ -531,9 +531,9 @@ try_message
 ]
         
 elif
-"
+'
 TRY_COMMIT_MSG
-"
+'
 in
 os
 .
@@ -546,9 +546,9 @@ os
 .
 environ
 [
-"
+'
 TRY_COMMIT_MSG
-"
+'
 ]
         
 if
@@ -560,13 +560,13 @@ self
 .
 warning
 (
-"
+'
 Try
 message
 not
 found
 .
-"
+'
 )
         
 return
@@ -621,10 +621,10 @@ splitlines
 :
             
 if
-"
+'
 try
 :
-"
+'
 in
 line
 :
@@ -669,10 +669,10 @@ strip
 .
 split
 (
-"
+'
 try
 :
-"
+'
 1
 )
                 
@@ -683,7 +683,7 @@ re
 findall
 (
 r
-"
+'
 (
 ?
 :
@@ -699,7 +699,7 @@ r
 S
 )
 +
-"
+'
 try_message
 [
 1
@@ -717,7 +717,7 @@ self
 .
 warning
 (
-"
+'
 Try
 syntax
 not
@@ -727,7 +727,7 @@ in
 %
 s
 .
-"
+'
 %
 msg
 )
@@ -778,17 +778,17 @@ parser
 .
 add_argument
 (
-"
+'
 -
 -
-"
+'
 +
 flag
 action
 =
-"
+'
 store_true
-"
+'
 )
         
 message
@@ -855,9 +855,9 @@ config
 .
 get
 (
-"
+'
 branch
-"
+'
 repo_path
 )
         
@@ -870,17 +870,19 @@ None
             
 on_try
 =
-"
+(
+'
 try
-"
+'
 in
 get_branch
 or
-"
+'
 Try
-"
+'
 in
 get_branch
+)
         
 elif
 os
@@ -893,13 +895,15 @@ None
             
 on_try
 =
-"
+(
+'
 TRY_COMMIT_MSG
-"
+'
 in
 os
 .
 environ
+)
         
 else
 :
@@ -913,13 +917,13 @@ on_try
     
 PostScriptAction
 (
-"
+'
 download
 -
 and
 -
 extract
-"
+'
 )
     
 def
@@ -1033,8 +1037,7 @@ ArgumentParser
 description
 =
 (
-                
-"
+'
 Parse
 an
 additional
@@ -1045,9 +1048,9 @@ passed
 to
 try
 syntax
-"
-                
-"
+'
+                         
+'
 and
 forward
 them
@@ -1058,10 +1061,8 @@ test
 harness
 command
 .
-"
-            
+'
 )
-        
 )
         
 label_dict
@@ -1089,23 +1090,23 @@ val
 ]
             
 return
-"
+'
 -
 -
 %
 s
-"
+'
 %
 val
 .
 replace
 (
-"
+'
 _
-"
-"
+'
+'
 -
-"
+'
 )
         
 for
@@ -1125,38 +1126,34 @@ iteritems
 :
             
 if
-"
+'
 action
-"
+'
 in
 opts
 and
 opts
 [
-"
+'
 action
-"
+'
 ]
 not
 in
 (
-                
-"
+'
 append
-"
-                
-"
+'
+'
 store
-"
-                
-"
+'
+                                                           
+'
 store_true
-"
-                
-"
+'
+'
 store_false
-"
-            
+'
 )
 :
                 
@@ -1164,8 +1161,7 @@ self
 .
 fatal
 (
-                    
-"
+'
 Try
 syntax
 does
@@ -1175,23 +1171,22 @@ passing
 custom
 or
 store_const
-"
-                    
-"
+'
+                           
+'
 arguments
 to
 the
 harness
 process
 .
-"
-                
+'
 )
             
 if
-"
+'
 dest
-"
+'
 in
 opts
 :
@@ -1200,9 +1195,9 @@ label_dict
 [
 opts
 [
-"
+'
 dest
-"
+'
 ]
 ]
 =
@@ -1222,7 +1217,7 @@ parser
 .
 add_argument
 (
-"
+'
 -
 -
 try
@@ -1230,12 +1225,12 @@ try
 test
 -
 paths
-"
+'
 nargs
 =
-"
+'
 *
-"
+'
 )
         
 (
@@ -1350,13 +1345,13 @@ f
 extend
 (
 [
-"
+'
 %
 s
 =
 %
 s
-"
+'
 %
 (
 label
@@ -1379,13 +1374,13 @@ f
 .
 append
 (
-"
+'
 %
 s
 =
 %
 s
-"
+'
 %
 (
 label
@@ -1527,8 +1522,7 @@ self
 .
 info
 (
-                
-"
+'
 TinderboxPrint
 :
 Tests
@@ -1538,18 +1532,18 @@ run
 from
 the
 following
-"
-                
-"
+'
+                      
+'
 files
 :
 %
 s
 .
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
@@ -1560,7 +1554,6 @@ try_test_paths
 flavor
 ]
 )
-            
 )
             
 args
@@ -1568,7 +1561,7 @@ args
 extend
 (
 [
-"
+'
 -
 -
 this
@@ -1576,8 +1569,8 @@ this
 chunk
 =
 1
-"
-"
+'
+'
 -
 -
 total
@@ -1585,7 +1578,7 @@ total
 chunks
 =
 1
-"
+'
 ]
 )
             
@@ -1610,7 +1603,6 @@ x
 tests
 =
 [
-                
 path_func
 (
 os
@@ -1622,7 +1614,6 @@ normpath
 item
 )
 )
-                
 for
 item
 in
@@ -1632,7 +1623,6 @@ try_test_paths
 [
 flavor
 ]
-            
 ]
         
 else
@@ -1653,8 +1643,7 @@ self
 .
 info
 (
-                
-"
+'
 TinderboxPrint
 :
 The
@@ -1664,9 +1653,9 @@ were
 forwarded
 from
 mozharness
-"
-                
-"
+'
+                      
+'
 to
 the
 test
@@ -1683,9 +1672,9 @@ s
 -
 %
 s
-"
-                
+'
 %
+                      
 (
 "
 "
@@ -1702,7 +1691,6 @@ join
 tests
 )
 )
-            
 )
         
 return

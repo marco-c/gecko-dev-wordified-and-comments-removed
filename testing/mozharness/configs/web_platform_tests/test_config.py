@@ -152,37 +152,37 @@ default_actions
 :
 [
         
-"
+'
 clobber
-"
+'
         
-"
+'
 download
 -
 and
 -
 extract
-"
+'
         
-"
+'
 create
 -
 virtualenv
-"
+'
         
-"
+'
 pull
-"
+'
         
-"
+'
 install
-"
+'
         
-"
+'
 run
 -
 tests
-"
+'
     
 ]
 }

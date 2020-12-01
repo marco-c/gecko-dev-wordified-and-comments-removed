@@ -150,9 +150,9 @@ path
 =
 slots
 [
-"
+'
 relpath
-"
+'
 ]
                 
 slots

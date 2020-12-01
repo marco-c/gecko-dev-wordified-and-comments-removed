@@ -88,7 +88,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -96,16 +95,17 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_waittimeout_10s
 .
 ini
 "
 ]
+                                          
 cwd
 =
 here
-        
 )
         
 p
@@ -169,11 +169,11 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
 python
+                                           
 os
 .
 path
@@ -190,10 +190,10 @@ py
 "
 )
 ]
+                                          
 cwd
 =
 here
-        
 )
         
 p
@@ -251,10 +251,10 @@ buffer
         
 expected
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -297,11 +297,11 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
 python
+                                           
 os
 .
 path
@@ -318,15 +318,14 @@ py
 "
 )
 ]
-            
+                                          
 cwd
 =
 here
-            
+                                          
 stream
 =
 buf
-        
 )
         
 p
@@ -362,21 +361,21 @@ i
 .
 encode
 (
-"
+'
 utf8
-"
+'
 )
 +
-"
+'
 \
 n
-"
+'
 .
 encode
 (
-"
+'
 utf8
-"
+'
 )
 )
         
@@ -402,9 +401,9 @@ strip
 .
 decode
 (
-"
+'
 utf8
-"
+'
 )
 expected
 )
@@ -437,9 +436,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

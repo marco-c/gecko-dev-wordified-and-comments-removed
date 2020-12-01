@@ -1200,7 +1200,6 @@ is_replacement_for_prefix_end_node
 (
 end_of_prefix
 )
-        
 )
     
 def
@@ -1263,7 +1262,6 @@ is_replacement_for_prefix_node
 (
 prefix_node
 )
-        
 )
 class
 DafsaAppendStateMachine
@@ -1930,7 +1928,6 @@ first_fork_index
 -
 1
 ]
-                
 )
                 
 self
@@ -2770,7 +2767,6 @@ not
 self
 .
 suffix_overlaps_prefix
-            
 )
         
 else
