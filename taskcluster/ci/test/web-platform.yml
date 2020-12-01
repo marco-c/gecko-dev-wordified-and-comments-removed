@@ -473,6 +473,8 @@ linux
 64
 -
 ccov
+.
+*
 /
 opt
 :
@@ -510,6 +512,8 @@ windows10
 64
 -
 ccov
+.
+*
 /
 opt
 :
@@ -533,6 +537,8 @@ platform
 *
 -
 ccov
+.
+*
 /
 .
 *
@@ -911,6 +917,8 @@ platform
 *
 -
 ccov
+.
+*
 /
 .
 *
@@ -1234,6 +1242,8 @@ platform
 *
 -
 ccov
+.
+*
 /
 .
 *
@@ -2095,6 +2105,8 @@ asan
 *
 -
 ccov
+.
+*
 /
 .
 *
@@ -2258,6 +2270,8 @@ platform
 *
 -
 ccov
+.
+*
 /
 .
 *
