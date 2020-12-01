@@ -119,6 +119,10 @@ ComputeScrollbarParams
 nsIFrame
 *
 aFrame
+const
+ComputedStyle
+&
+aStyle
 bool
 aIsHorizontal
 )
