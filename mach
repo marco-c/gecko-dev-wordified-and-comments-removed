@@ -222,9 +222,6 @@ test
 paths
 wpt
 -
-unittest
-wpt
--
 update
 "
 #

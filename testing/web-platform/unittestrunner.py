@@ -1,7 +1,7 @@
 import
-ConfigParser
-import
 argparse
+import
+configparser
 import
 os
 import
@@ -312,7 +312,7 @@ rv
         
 parser
 =
-ConfigParser
+configparser
 .
 ConfigParser
 (
