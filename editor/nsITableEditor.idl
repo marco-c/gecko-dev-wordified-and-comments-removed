@@ -338,11 +338,6 @@ Element
 aElement
 )
 ;
-Element
-getFirstSelectedCell
-(
-)
-;
 [
 can_run_script
 ]
@@ -357,8 +352,11 @@ long
 aColIndex
 )
 ;
+Array
+<
 Element
-getNextSelectedCell
+>
+getSelectedCells
 (
 )
 ;
