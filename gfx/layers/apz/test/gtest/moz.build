@@ -13,6 +13,11 @@ TestEventRegions
 cpp
 "
 "
+TestFlingAcceleration
+.
+cpp
+"
+"
 TestGestureDetector
 .
 cpp
