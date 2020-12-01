@@ -317,7 +317,7 @@ aFmt
 ;
 raw
 .
-AppendPrintf
+AppendVprintf
 (
 aFmt
 ap

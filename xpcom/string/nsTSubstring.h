@@ -2274,7 +2274,7 @@ MOZ_FORMAT_PRINTF
 )
 ;
 void
-AppendPrintf
+AppendVprintf
 (
 const
 char

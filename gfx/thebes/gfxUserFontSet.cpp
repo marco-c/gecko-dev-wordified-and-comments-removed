@@ -676,7 +676,7 @@ msg
 ;
 msg
 .
-AppendPrintf
+AppendVprintf
 (
 format
 va
