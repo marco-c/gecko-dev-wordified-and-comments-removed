@@ -601,7 +601,7 @@ server
 .
 rtc_use_pipewire
 =
-false
+true
 rtc_enable_android_opensl
 =
 false
