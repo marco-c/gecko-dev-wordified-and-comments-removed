@@ -157,9 +157,6 @@ state
 :
 not
 (
-:
-is
-(
 [
 state
 =
@@ -182,7 +179,6 @@ state
 "
 ]
 )
-)
 .
 downloadBlockedBadge
 .
@@ -191,9 +187,6 @@ download
 state
 :
 not
-(
-:
-is
 (
 [
 state
@@ -231,7 +224,6 @@ state
 7
 "
 ]
-)
 )
 .
 downloadProgress
@@ -314,9 +306,6 @@ state
 :
 not
 (
-:
-is
-(
 [
 state
 =
@@ -360,7 +349,6 @@ state
 "
 ]
 )
-)
 .
 downloadRemoveFromHistoryMenuItem
 .
@@ -369,9 +357,6 @@ download
 state
 :
 not
-(
-:
-is
 (
 [
 state
@@ -410,7 +395,6 @@ state
 "
 ]
 )
-)
 .
 downloadShowMenuItem
 .
@@ -439,9 +423,6 @@ download
 state
 :
 not
-(
-:
-is
 (
 [
 state
@@ -486,7 +467,6 @@ state
 8
 "
 ]
-)
 )
 .
 downloadCommandsSeparator
@@ -600,9 +580,6 @@ state
 :
 not
 (
-:
-is
-(
 [
 state
 =
@@ -633,7 +610,6 @@ state
 "
 ]
 )
-)
 .
 downloadCancel
 .
@@ -642,9 +618,6 @@ download
 state
 :
 not
-(
-:
-is
 (
 [
 state
@@ -660,7 +633,6 @@ state
 3
 "
 ]
-)
 )
 .
 downloadRetry

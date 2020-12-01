@@ -317,9 +317,6 @@ label
 :
 not
 (
-:
-is
-(
 [
 checked
 =
@@ -328,7 +325,6 @@ true
 [
 disabled
 ]
-)
 )
 :
 hover
@@ -356,9 +352,6 @@ toolbarbutton
 :
 not
 (
-:
-is
-(
 [
 checked
 =
@@ -367,7 +360,6 @@ true
 [
 disabled
 ]
-)
 )
 [
 label

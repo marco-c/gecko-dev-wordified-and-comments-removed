@@ -1327,9 +1327,6 @@ button
 :
 not
 (
-:
-is
-(
 [
 checked
 =
@@ -1344,7 +1341,6 @@ disabled
 true
 "
 ]
-)
 )
 :
 hover
