@@ -74,6 +74,17 @@ PSandboxTesting
 ;
 #
 endif
+include
+"
+mozilla
+/
+layers
+/
+LayersMessageUtils
+.
+h
+"
+;
 using
 base
 :
