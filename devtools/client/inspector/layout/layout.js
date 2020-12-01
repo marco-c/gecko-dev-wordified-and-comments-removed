@@ -234,9 +234,7 @@ getCommonComponentProps
 ;
 const
 {
-onHideBoxModelHighlighter
 onShowBoxModelEditor
-onShowBoxModelHighlighter
 onShowRulePreviewTooltip
 onToggleGeometryEditor
 }
@@ -337,11 +335,9 @@ getSwatchColorPickerTooltip
 this
 .
 swatchColorPickerTooltip
-onHideBoxModelHighlighter
 onSetFlexboxOverlayColor
 onSetGridOverlayColor
 onShowBoxModelEditor
-onShowBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 onShowRulePreviewTooltip
 onShowGridOutlineHighlight
