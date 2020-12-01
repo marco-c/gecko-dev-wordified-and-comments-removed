@@ -50,9 +50,6 @@ service
 "
 nsINavBookmarksService
 "
-"
-nsINavHistoryObserver
-"
 ]
 [
 "
@@ -60,15 +57,6 @@ createFolder
 "
 "
 getObservers
-"
-"
-onFrecencyChanged
-"
-"
-onTitleChanged
-"
-"
-onDeleteURI
 "
 ]
 ]
