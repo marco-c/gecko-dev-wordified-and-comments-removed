@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIObserver
+.
+h
+"
+#
+include
+"
 nsIStorageActivityService
 .
 h

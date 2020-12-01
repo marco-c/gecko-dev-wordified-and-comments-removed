@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -91,8 +98,9 @@ PartitionedLocalStorage
 PartitionedLocalStorage
 (
 )
-{
-}
+=
+default
+;
 int64_t
 PartitionedLocalStorage
 :
