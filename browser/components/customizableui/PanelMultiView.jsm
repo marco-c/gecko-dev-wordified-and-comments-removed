@@ -5518,6 +5518,16 @@ toolbarbutton
 |
 node
 .
+tagName
+=
+=
+"
+checkbox
+"
+|
+|
+node
+.
 classList
 .
 contains

@@ -1144,7 +1144,7 @@ set
 )
 with
 the
-checkbox
+opposite
 value
 "
 (
@@ -1207,6 +1207,7 @@ whatsNewPanel
 .
 enabled
 "
+!
 checkbox
 .
 checked
@@ -1223,7 +1224,7 @@ report
 telemetry
 with
 the
-checkbox
+opposite
 value
 "
 (
@@ -1309,7 +1310,7 @@ value
 "
 prefValue
 "
-true
+false
 )
 ;
 }
