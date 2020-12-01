@@ -1808,9 +1808,6 @@ false
 }
 #
 endif
-#
-ifndef
-MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZCFlingStopTester
@@ -1835,8 +1832,6 @@ true
 )
 ;
 }
-#
-endif
 #
 ifndef
 MOZ_WIDGET_ANDROID
