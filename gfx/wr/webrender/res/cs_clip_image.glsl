@@ -78,11 +78,6 @@ varying
 vec4
 vClipMaskUvInnerRect
 ;
-flat
-varying
-float
-vLayer
-;
 #
 ifdef
 WR_VERTEX_SHADER
@@ -256,12 +251,6 @@ vLocalPos
 vi
 .
 local_pos
-;
-vLayer
-=
-res
-.
-layer
 ;
 vClipMaskImageUv
 =
@@ -531,11 +520,7 @@ clip_alpha
 texture
 (
 sColor0
-vec3
-(
 source_uv
-vLayer
-)
 )
 .
 r

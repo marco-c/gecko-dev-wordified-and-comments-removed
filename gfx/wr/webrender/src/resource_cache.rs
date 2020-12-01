@@ -10263,13 +10263,6 @@ self
 .
 texture_cache
 .
-max_texture_layers
-(
-)
-self
-.
-texture_cache
-.
 default_picture_tile_size
 (
 )
