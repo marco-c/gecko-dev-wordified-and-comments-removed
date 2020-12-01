@@ -213,12 +213,6 @@ principalInfo
 PersistenceType
 persistenceType
 ;
-Type
-clientType
-;
-bool
-clientTypeIsExplicit
-;
 }
 ;
 struct

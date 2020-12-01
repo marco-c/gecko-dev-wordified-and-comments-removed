@@ -1600,13 +1600,6 @@ EnsureStorageAndOriginIsInitialized
 (
 PERSISTENCE_TYPE_DEFAULT
 mQuotaInfo
-quota
-:
-:
-Client
-:
-:
-DOMCACHE
 )
 ;
 if
