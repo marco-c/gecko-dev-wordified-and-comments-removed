@@ -23284,13 +23284,6 @@ Kind
 kind
 )
 {
-fr
-.
-loadTlsPtr
-(
-WasmTlsReg
-)
-;
 masm
 .
 nopPatchableToCall
@@ -23474,7 +23467,7 @@ false
 }
 for
 (
-WasmABIArgIter
+ABIArgIter
 i
 (
 args
@@ -23963,7 +23956,7 @@ void
 }
 for
 (
-WasmABIArgIter
+ABIArgIter
 i
 (
 args
@@ -25347,13 +25340,6 @@ resultType
 )
 ;
 }
-fr
-.
-loadTlsPtr
-(
-WasmTlsReg
-)
-;
 GenerateFunctionEpilogue
 (
 masm
@@ -25515,7 +25501,7 @@ stackArgAreaSize
 uint32_t
 lineOrBytecode
 ;
-WasmABIArgGenerator
+ABIArgGenerator
 abi
 ;
 bool
