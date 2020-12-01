@@ -2917,6 +2917,10 @@ mName
 mode
 =
 memory
+&
+cache
+=
+shared
 "
 _ns
 ;
