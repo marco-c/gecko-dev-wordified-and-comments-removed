@@ -230,6 +230,7 @@ window
 .
 prepareForTest
 (
+testForCallingStop
 )
 ;
 const
@@ -316,7 +317,9 @@ subFrameStop
 .
 window
 .
-drawSomethingOnCanvas
+control
+.
+addVideoFrame
 (
 )
 ;
@@ -343,6 +346,7 @@ window
 .
 prepareForTest
 (
+testForAllTrackEnded
 )
 ;
 const
@@ -429,7 +433,9 @@ subFrameAllTrackEnded
 .
 window
 .
-drawSomethingOnCanvas
+control
+.
+addVideoFrame
 (
 )
 ;
