@@ -5121,10 +5121,6 @@ ParserFunctionScopeData
 >
 (
 data_
-.
-get
-(
-)
 )
 ;
 json
@@ -5215,10 +5211,6 @@ ParserVarScopeData
 >
 (
 data_
-.
-get
-(
-)
 )
 ;
 json
@@ -5306,10 +5298,6 @@ ParserLexicalScopeData
 >
 (
 data_
-.
-get
-(
-)
 )
 ;
 json
@@ -5390,10 +5378,6 @@ ParserEvalScopeData
 >
 (
 data_
-.
-get
-(
-)
 )
 ;
 json
@@ -5451,10 +5435,6 @@ ParserGlobalScopeData
 >
 (
 data_
-.
-get
-(
-)
 )
 ;
 json
@@ -5519,10 +5499,6 @@ ParserModuleScopeData
 >
 (
 data_
-.
-get
-(
-)
 )
 ;
 json
@@ -5618,10 +5594,6 @@ ParserAtom
 >
 (
 data_
-.
-get
-(
-)
 )
 ;
 json
@@ -5691,10 +5663,6 @@ ParserAtom
 >
 (
 data_
-.
-get
-(
-)
 )
 ;
 json
