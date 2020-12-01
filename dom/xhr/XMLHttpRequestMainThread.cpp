@@ -10870,7 +10870,7 @@ httpChannel
 >
 SetSource
 (
-profiler_capture_backtrace
+profiler_get_backtrace
 (
 )
 )
@@ -14207,10 +14207,7 @@ XMLHttpRequestMainThread
 :
 SetSource
 (
-UniquePtr
-<
-ProfileChunkedBuffer
->
+UniqueProfilerBacktrace
 aSource
 )
 {

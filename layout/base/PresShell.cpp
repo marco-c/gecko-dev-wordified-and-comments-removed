@@ -44740,10 +44740,10 @@ Paint
 "
 Reflow
 "
-geckoprofiler
+JS
 :
 :
-category
+ProfilingCategoryPair
 :
 :
 LAYOUT
