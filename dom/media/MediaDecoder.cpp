@@ -71,6 +71,13 @@ h
 #
 include
 "
+MediaTrackGraph
+.
+h
+"
+#
+include
+"
 VideoFrameContainer
 .
 h
