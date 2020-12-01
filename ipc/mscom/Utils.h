@@ -87,7 +87,7 @@ GetContainingModuleHandle
 (
 )
 ;
-uint32_t
+long
 CreateStream
 (
 const
@@ -103,7 +103,7 @@ IStream
 aOutStream
 )
 ;
-uint32_t
+long
 CopySerializedProxy
 (
 IStream
