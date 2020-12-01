@@ -256,6 +256,14 @@ python3
 -
 zstandard
 \
+python
+-
+psutil
+\
+python3
+-
+psutil
+\
 vim
 -
 tiny
