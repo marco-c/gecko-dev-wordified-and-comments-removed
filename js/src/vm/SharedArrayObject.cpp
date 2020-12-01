@@ -887,7 +887,7 @@ rval
 (
 )
 .
-setInt32
+setNumber
 (
 buffer
 -
@@ -896,7 +896,7 @@ byteLength
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 )
