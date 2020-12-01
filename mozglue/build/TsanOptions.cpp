@@ -526,13 +526,6 @@ n
 "
 race
 :
-BeginBackgroundRead
-\
-n
-"
-"
-race
-:
 currentNameHasEscapes
 \
 n
