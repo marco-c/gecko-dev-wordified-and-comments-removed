@@ -49,6 +49,17 @@ include
 "
 mozilla
 /
+dom
+/
+Promise
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 CompositorBridgeChild

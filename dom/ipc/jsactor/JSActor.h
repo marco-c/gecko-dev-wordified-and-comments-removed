@@ -84,6 +84,13 @@ mozilla
 namespace
 dom
 {
+namespace
+ipc
+{
+class
+StructuredCloneData
+;
+}
 class
 JSActorManager
 ;

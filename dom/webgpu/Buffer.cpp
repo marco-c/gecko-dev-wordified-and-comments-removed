@@ -43,6 +43,15 @@ include
 "
 mozilla
 /
+HoldDropJSObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 Shmem

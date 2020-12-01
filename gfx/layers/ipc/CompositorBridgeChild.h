@@ -203,6 +203,9 @@ class
 CompositorOptions
 ;
 class
+LayerManager
+;
+class
 TextureClient
 ;
 class

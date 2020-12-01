@@ -64,6 +64,9 @@ layers
 class
 TextureClient
 ;
+class
+WebRenderBridgeChild
+;
 }
 namespace
 wr

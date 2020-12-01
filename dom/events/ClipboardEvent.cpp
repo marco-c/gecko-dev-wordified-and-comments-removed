@@ -23,6 +23,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 DataTransfer

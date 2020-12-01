@@ -47,6 +47,13 @@ SVGUseElement
 .
 h
 "
+#
+include
+"
+nsCSSValue
+.
+h
+"
 namespace
 mozilla
 {

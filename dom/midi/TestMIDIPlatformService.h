@@ -26,6 +26,9 @@ MIDITypes
 .
 h
 "
+class
+nsIThread
+;
 namespace
 mozilla
 {

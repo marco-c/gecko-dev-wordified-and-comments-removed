@@ -71,6 +71,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h

@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+ProfileChunkedBuffer
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h

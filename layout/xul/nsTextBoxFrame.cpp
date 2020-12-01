@@ -110,6 +110,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h

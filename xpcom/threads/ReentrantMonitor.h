@@ -32,6 +32,13 @@ BlockingResourceBase
 .
 h
 "
+#
+include
+"
+nsISupports
+.
+h
+"
 namespace
 mozilla
 {

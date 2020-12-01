@@ -89,6 +89,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
@@ -174,6 +181,13 @@ h
 include
 "
 nsAttrName
+.
+h
+"
+#
+include
+"
+nsComponentManagerUtils
 .
 h
 "

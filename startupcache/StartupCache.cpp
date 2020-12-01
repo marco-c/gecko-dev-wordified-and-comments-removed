@@ -226,6 +226,13 @@ nsAppRunner
 h
 "
 #
+include
+"
+xpcpublic
+.
+h
+"
+#
 if
 defined
 (

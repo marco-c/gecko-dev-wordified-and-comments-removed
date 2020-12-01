@@ -20,6 +20,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 gfxDrawable
 .
 h

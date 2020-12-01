@@ -11,6 +11,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ResizeObserver
 .
 h
@@ -50,9 +61,6 @@ PresShell
 namespace
 dom
 {
-class
-Document
-;
 class
 ResizeObserverController
 ;

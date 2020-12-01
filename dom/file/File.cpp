@@ -84,6 +84,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h

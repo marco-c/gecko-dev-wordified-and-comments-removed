@@ -34,15 +34,6 @@ h
 #
 include
 "
-mozilla
-/
-Variant
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h

@@ -87,6 +87,15 @@ include
 "
 mozilla
 /
+Encoding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h

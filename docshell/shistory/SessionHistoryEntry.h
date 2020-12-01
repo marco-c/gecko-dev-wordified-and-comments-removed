@@ -1205,6 +1205,9 @@ NS_SESSIONHISTORYENTRY_IID
 namespace
 ipc
 {
+class
+IProtocol
+;
 template
 <
 >

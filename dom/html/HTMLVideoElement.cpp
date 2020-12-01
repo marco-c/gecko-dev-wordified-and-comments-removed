@@ -60,6 +60,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsNodeInfoManager
 .
 h
@@ -75,6 +82,13 @@ h
 include
 "
 prlock
+.
+h
+"
+#
+include
+"
+nsRFPService
 .
 h
 "

@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsIScrollableFrame
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

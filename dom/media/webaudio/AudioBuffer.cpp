@@ -89,6 +89,15 @@ include
 "
 mozilla
 /
+HoldDropJSObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h

@@ -79,6 +79,15 @@ RangeBoundary
 .
 h
 "
+#
+include
+"
+mozilla
+/
+WeakPtr
+.
+h
+"
 namespace
 mozilla
 {

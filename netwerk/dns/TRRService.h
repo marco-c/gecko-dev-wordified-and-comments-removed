@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsITimer
+.
+h
+"
+#
+include
+"
 nsWeakReference
 .
 h

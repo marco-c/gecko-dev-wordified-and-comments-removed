@@ -40,6 +40,9 @@ mozilla
 class
 CopyableErrorResult
 ;
+class
+ErrorResult
+;
 namespace
 dom
 {

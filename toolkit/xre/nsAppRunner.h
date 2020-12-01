@@ -77,6 +77,13 @@ endif
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h

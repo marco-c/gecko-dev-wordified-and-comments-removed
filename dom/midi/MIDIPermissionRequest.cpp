@@ -16,6 +16,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MIDIAccessManager
 .
 h

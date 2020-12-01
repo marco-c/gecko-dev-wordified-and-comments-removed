@@ -48,6 +48,13 @@ h
 #
 include
 "
+nsIChannelEventSink
+.
+h
+"
+#
+include
+"
 nsIFormPOSTActionChannel
 .
 h
@@ -63,6 +70,13 @@ h
 include
 "
 nsIHttpChannelInternal
+.
+h
+"
+#
+include
+"
+nsIInterfaceRequestor
 .
 h
 "

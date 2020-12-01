@@ -136,6 +136,9 @@ nsIPrincipal
 namespace
 mozilla
 {
+class
+PreloaderBase
+;
 namespace
 dom
 {

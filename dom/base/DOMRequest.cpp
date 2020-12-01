@@ -24,6 +24,15 @@ include
 "
 mozilla
 /
+HoldDropJSObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h

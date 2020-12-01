@@ -221,6 +221,13 @@ AudioChannelService
 .
 h
 "
+#
+include
+"
+GeckoProfiler
+.
+h
+"
 using
 namespace
 mozilla

@@ -45,6 +45,17 @@ ServoUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+DOMString
+.
+h
+"
 namespace
 mozilla
 {

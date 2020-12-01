@@ -231,6 +231,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h

@@ -55,6 +55,15 @@ include
 "
 mozilla
 /
+HoldDropJSObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 JSONWriter
 .
 h

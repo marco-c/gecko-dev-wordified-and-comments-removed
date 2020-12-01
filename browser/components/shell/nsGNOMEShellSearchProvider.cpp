@@ -61,6 +61,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h

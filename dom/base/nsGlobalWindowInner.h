@@ -438,6 +438,9 @@ class
 nsIBrowserChild
 ;
 class
+nsIPrintSettings
+;
+class
 nsITimeoutHandler
 ;
 class

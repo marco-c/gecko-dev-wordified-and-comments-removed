@@ -7,6 +7,13 @@ PendingTransactionQueue_h__
 #
 include
 "
+nsClassHashtable
+.
+h
+"
+#
+include
+"
 nsHttpTransaction
 .
 h

@@ -133,6 +133,17 @@ include
 "
 mozilla
 /
+gfx
+/
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h

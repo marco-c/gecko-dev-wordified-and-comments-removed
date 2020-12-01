@@ -15,6 +15,13 @@ h
 #
 include
 "
+GLLibraryLoader
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -82,6 +89,13 @@ h
 include
 "
 prenv
+.
+h
+"
+#
+include
+"
+prlink
 .
 h
 "

@@ -12,6 +12,13 @@ memory
 #
 include
 "
+gfxRect
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -38,6 +45,13 @@ h
 include
 "
 nsIDocShell
+.
+h
+"
+#
+include
+"
+nsRefreshObservers
 .
 h
 "

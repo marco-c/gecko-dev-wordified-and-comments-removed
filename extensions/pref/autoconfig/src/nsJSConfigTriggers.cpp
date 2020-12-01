@@ -70,6 +70,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ScriptSettings
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

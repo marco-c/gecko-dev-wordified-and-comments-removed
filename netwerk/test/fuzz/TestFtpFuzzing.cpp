@@ -80,6 +80,13 @@ h
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsSandboxFlags
 .
 h

@@ -51,6 +51,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -58,9 +67,6 @@ h
 namespace
 mozilla
 {
-class
-ErrorResult
-;
 namespace
 dom
 {

@@ -32,6 +32,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsIPrincipal
+.
+h
+"
 class
 nsIPrincipal
 ;

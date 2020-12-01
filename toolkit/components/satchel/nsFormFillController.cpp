@@ -299,6 +299,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 xpcpublic
 .
 h

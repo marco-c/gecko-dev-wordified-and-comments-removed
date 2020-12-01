@@ -190,6 +190,17 @@ include
 "
 mozilla
 /
+layers
+/
+TransactionIdAllocator
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PerfStats
 .
 h

@@ -7,6 +7,15 @@ nsJSThingHashtable_h__
 #
 include
 "
+js
+/
+RootingAPI
+.
+h
+"
+#
+include
+"
 nsHashKeys
 .
 h

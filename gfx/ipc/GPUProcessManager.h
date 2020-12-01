@@ -131,6 +131,13 @@ h
 #
 include
 "
+nsIObserver
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -182,6 +189,9 @@ InProcessCompositorSession
 ;
 class
 UiCompositorControllerChild
+;
+class
+LayerManager
 ;
 }
 namespace

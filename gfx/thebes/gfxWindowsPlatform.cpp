@@ -38,6 +38,13 @@ h
 #
 include
 "
+gfxBlur
+.
+h
+"
+#
+include
+"
 gfxImageSurface
 .
 h

@@ -126,6 +126,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsIRedirectHistoryEntry
 .
 h

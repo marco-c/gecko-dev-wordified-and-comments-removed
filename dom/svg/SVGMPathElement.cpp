@@ -32,6 +32,17 @@ mozilla
 /
 dom
 /
+ReferrerInfo
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGAnimateMotionElement
 .
 h

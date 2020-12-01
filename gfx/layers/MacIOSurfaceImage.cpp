@@ -57,6 +57,17 @@ include
 "
 mozilla
 /
+layers
+/
+TextureForwarder
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_layers
 .
 h

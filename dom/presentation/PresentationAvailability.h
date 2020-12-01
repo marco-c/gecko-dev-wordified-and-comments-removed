@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+WeakPtr
+.
+h
+"
+#
+include
+"
 nsIPresentationListener
 .
 h

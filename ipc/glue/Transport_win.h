@@ -35,6 +35,13 @@ nsWindowsHelpers
 .
 h
 "
+#
+include
+"
+nsXULAppAPI
+.
+h
+"
 namespace
 mozilla
 {

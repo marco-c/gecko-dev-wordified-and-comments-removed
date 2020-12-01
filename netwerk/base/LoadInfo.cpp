@@ -127,6 +127,17 @@ include
 "
 mozilla
 /
+dom
+/
+WindowGlobalParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 CookieJarSettings

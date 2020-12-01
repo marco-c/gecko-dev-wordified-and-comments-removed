@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsWrapperCache
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -69,6 +76,9 @@ Row
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

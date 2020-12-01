@@ -86,6 +86,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIDocShell
 .
 h

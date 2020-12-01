@@ -1341,6 +1341,9 @@ InternalLoad
 nsDocShellLoadState
 *
 aLoadState
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -1663,6 +1666,9 @@ GetPostDataFromCurrentEntry
 )
 const
 ;
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -2007,6 +2013,9 @@ nsIURI
 *
 aBaseURI
 const
+mozilla
+:
+:
 Maybe
 <
 nsILoadInfo
@@ -2229,6 +2238,9 @@ void
 SetHistoryEntryAndUpdateBC
 (
 const
+mozilla
+:
+:
 Maybe
 <
 nsISHEntry
@@ -2237,6 +2249,9 @@ nsISHEntry
 &
 aLSHE
 const
+mozilla
+:
+:
 Maybe
 <
 nsISHEntry
@@ -2287,6 +2302,9 @@ DoURILoad
 nsDocShellLoadState
 *
 aLoadState
+mozilla
+:
+:
 Maybe
 <
 uint32_t

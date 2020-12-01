@@ -66,6 +66,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MouseEventBinding
 .
 h

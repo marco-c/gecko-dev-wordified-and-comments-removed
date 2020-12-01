@@ -172,6 +172,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 prprf
 .
 h

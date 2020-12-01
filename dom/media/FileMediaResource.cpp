@@ -46,6 +46,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsIFileChannel
 .
 h

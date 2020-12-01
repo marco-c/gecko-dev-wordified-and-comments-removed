@@ -54,6 +54,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

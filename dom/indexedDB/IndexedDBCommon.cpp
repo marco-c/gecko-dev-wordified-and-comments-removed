@@ -8,6 +8,15 @@ h
 #
 include
 "
+js
+/
+StructuredClone
+.
+h
+"
+#
+include
+"
 mozilla
 /
 SnappyUncompressInputStream

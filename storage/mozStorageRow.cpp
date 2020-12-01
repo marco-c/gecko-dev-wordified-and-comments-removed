@@ -1,6 +1,13 @@
 #
 include
 "
+mozStorageRow
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -23,13 +30,6 @@ h
 include
 "
 Variant
-.
-h
-"
-#
-include
-"
-mozStorageRow
 .
 h
 "

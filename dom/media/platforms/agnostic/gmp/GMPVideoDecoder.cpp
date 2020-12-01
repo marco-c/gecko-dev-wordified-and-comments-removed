@@ -38,6 +38,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 AnnexB
 .
 h

@@ -82,6 +82,17 @@ ImageDataSerializer
 h
 "
 #
+include
+"
+mozilla
+/
+layers
+/
+TextureForwarder
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_GTK
 #

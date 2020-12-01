@@ -31,6 +31,17 @@ mozilla
 /
 dom
 /
+DocumentOrShadowRoot
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLLabelElement
 .
 h

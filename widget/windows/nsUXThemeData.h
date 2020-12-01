@@ -37,6 +37,15 @@ h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 WinUtils
 .
 h
@@ -138,6 +147,9 @@ class
 ThemeHandle
 final
 {
+mozilla
+:
+:
 Maybe
 <
 HANDLE

@@ -7,6 +7,17 @@ nsHtml5DocumentBuilder_h
 #
 include
 "
+mozilla
+/
+dom
+/
+Document
+.
+h
+"
+#
+include
+"
 nsContentSink
 .
 h

@@ -40,6 +40,17 @@ TypedArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+BlobImpl
+.
+h
+"
 namespace
 mozilla
 {

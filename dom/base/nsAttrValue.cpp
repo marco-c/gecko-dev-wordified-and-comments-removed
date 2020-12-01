@@ -94,6 +94,15 @@ include
 "
 mozilla
 /
+SVGAttrValueWrapper
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DeclarationBlock
 .
 h

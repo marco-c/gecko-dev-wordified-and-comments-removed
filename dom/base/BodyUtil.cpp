@@ -38,6 +38,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsCharSeparatedTokenizer
 .
 h

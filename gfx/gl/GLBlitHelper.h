@@ -67,6 +67,11 @@ ImageTypes
 h
 "
 #
+include
+<
+map
+>
+#
 ifdef
 XP_WIN
 #
@@ -76,6 +81,9 @@ windows
 .
 h
 >
+struct
+ID3D11Texture2D
+;
 #
 endif
 #

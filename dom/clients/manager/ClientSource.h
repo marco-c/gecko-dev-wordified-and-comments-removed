@@ -92,6 +92,9 @@ nsPIDOMWindowInner
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

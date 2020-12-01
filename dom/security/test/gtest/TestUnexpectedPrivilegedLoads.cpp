@@ -97,6 +97,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h

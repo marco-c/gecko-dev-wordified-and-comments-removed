@@ -83,6 +83,17 @@ mozilla
 /
 dom
 /
+BlobImpl
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Element
 .
 h

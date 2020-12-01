@@ -204,6 +204,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsContentPolicyUtils
 .
 h
@@ -352,6 +359,13 @@ h
 include
 "
 nsNetUtil
+.
+h
+"
+#
+include
+"
+nsProxyRelease
 .
 h
 "

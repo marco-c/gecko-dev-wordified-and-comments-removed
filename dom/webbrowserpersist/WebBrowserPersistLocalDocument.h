@@ -7,6 +7,15 @@ WebBrowserPersistLocalDocument_h__
 #
 include
 "
+mozilla
+/
+NotNull
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

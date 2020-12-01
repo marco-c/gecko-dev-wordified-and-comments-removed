@@ -19,6 +19,15 @@ include
 "
 mozilla
 /
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 TimeoutManager

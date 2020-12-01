@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsSubDocumentFrame
 .
 h

@@ -7,6 +7,17 @@ mozilla_layers_ShadowLayerUtilsX11_h
 #
 include
 "
+mozilla
+/
+gfx
+/
+Point
+.
+h
+"
+#
+include
+"
 ipc
 /
 IPCMessageUtils

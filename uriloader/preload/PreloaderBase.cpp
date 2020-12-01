@@ -60,6 +60,13 @@ nsIInterfaceRequestorUtils
 .
 h
 "
+#
+include
+"
+nsIRedirectResultListener
+.
+h
+"
 constexpr
 static
 bool

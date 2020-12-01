@@ -99,6 +99,17 @@ include
 "
 mozilla
 /
+layers
+/
+TextureForwarder
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h

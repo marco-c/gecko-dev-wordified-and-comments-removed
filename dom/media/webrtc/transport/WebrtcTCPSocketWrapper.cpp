@@ -51,6 +51,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nr_socket_proxy_config
 .
 h

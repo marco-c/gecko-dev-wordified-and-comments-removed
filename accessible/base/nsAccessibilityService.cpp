@@ -157,6 +157,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsTextFormatter
 .
 h

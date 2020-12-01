@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsISelectionController
+.
+h
+"
+#
+include
+"
 nsDirection
 .
 h

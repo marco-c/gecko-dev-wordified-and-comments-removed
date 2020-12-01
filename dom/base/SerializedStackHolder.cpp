@@ -25,6 +25,13 @@ WorkerPrivate
 .
 h
 "
+#
+include
+"
+nsJSPrincipals
+.
+h
+"
 namespace
 mozilla
 :

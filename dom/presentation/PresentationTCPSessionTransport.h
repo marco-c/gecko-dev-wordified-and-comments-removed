@@ -23,6 +23,13 @@ h
 #
 include
 "
+nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
 nsIAsyncInputStream
 .
 h

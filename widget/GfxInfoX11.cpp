@@ -66,6 +66,13 @@ h
 #
 include
 "
+nsUnicharUtils
+.
+h
+"
+#
+include
+"
 prenv
 .
 h

@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsIPrefService
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

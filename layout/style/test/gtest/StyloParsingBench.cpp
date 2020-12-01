@@ -42,6 +42,17 @@ include
 "
 mozilla
 /
+dom
+/
+DOMString
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Encoding
 .
 h

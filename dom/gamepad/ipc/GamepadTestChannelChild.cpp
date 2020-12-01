@@ -5,6 +5,17 @@ GamepadTestChannelChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+GamepadServiceTest
+.
+h
+"
 namespace
 mozilla
 :

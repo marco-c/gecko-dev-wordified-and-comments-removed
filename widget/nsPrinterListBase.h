@@ -191,6 +191,9 @@ const
 =
 0
 ;
+mozilla
+:
+:
 Maybe
 <
 PrinterInfo
@@ -233,6 +236,9 @@ nsPrinterListBase
 )
 ;
 virtual
+mozilla
+:
+:
 Maybe
 <
 PrinterInfo
@@ -247,6 +253,9 @@ const
 0
 ;
 virtual
+mozilla
+:
+:
 Maybe
 <
 PrinterInfo

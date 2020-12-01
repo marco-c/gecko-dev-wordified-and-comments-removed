@@ -156,6 +156,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIThreadRetargetableStreamListener
 .
 h
@@ -178,6 +185,13 @@ h
 include
 "
 nsIAuthPrompt2
+.
+h
+"
+#
+include
+"
+nsIHttpChannel
 .
 h
 "

@@ -34,6 +34,15 @@ h
 #
 include
 "
+mozilla
+/
+ErrorResult
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h

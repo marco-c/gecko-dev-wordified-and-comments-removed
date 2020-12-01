@@ -33,6 +33,17 @@ mozilla
 /
 dom
 /
+ClientsBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ServiceWorkerDescriptor
 .
 h

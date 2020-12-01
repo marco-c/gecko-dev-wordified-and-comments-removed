@@ -54,6 +54,17 @@ mozilla
 /
 dom
 /
+StructuredCloneHolderBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 StructuredCloneTags
 .
 h

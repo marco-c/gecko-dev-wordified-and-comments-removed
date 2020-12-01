@@ -19,6 +19,13 @@ namespace
 mozilla
 {
 namespace
+ipc
+{
+class
+PrincipalInfo
+;
+}
+namespace
 dom
 {
 class

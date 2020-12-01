@@ -32,6 +32,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SVGObserverUtils
 .
 h

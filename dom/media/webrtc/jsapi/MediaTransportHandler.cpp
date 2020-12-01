@@ -80,6 +80,15 @@ h
 #
 include
 "
+mozilla
+/
+Preferences
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h

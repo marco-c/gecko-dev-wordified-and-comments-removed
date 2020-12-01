@@ -114,6 +114,17 @@ U2FAuthenticator
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Document
+.
+h
+"
 namespace
 mozilla
 {

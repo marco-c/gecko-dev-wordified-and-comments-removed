@@ -19,6 +19,15 @@ include
 "
 mozilla
 /
+StaticPrefs_dom
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StorageAccess
 .
 h

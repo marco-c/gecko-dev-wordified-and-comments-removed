@@ -19,6 +19,15 @@ include
 "
 mozilla
 /
+MouseEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BrowserBridgeParent

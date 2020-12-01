@@ -123,6 +123,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsJSNPRuntime
 .
 h
@@ -637,7 +644,7 @@ include
 "
 mozilla
 /
-StaticPrefs_plugins
+StaticPrefs_browser
 .
 h
 "

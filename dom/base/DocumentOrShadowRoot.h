@@ -36,6 +36,15 @@ h
 #
 include
 "
+mozilla
+/
+ReverseIterator
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h

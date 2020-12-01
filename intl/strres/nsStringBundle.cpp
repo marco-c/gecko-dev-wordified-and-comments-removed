@@ -78,6 +78,13 @@ h
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h

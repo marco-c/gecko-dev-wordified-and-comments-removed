@@ -199,6 +199,17 @@ mozilla
 /
 dom
 /
+CustomElementRegistry
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DocumentType
 .
 h

@@ -85,6 +85,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsFocusManager
 .
 h
@@ -93,6 +100,13 @@ h
 include
 "
 nsFrameSelection
+.
+h
+"
+#
+include
+"
+nsServiceManagerUtils
 .
 h
 "

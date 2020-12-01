@@ -7,6 +7,13 @@ MOZILLA_GFX_RENDERPASSMLGPU_H
 #
 include
 "
+LayerMLGPU
+.
+h
+"
+#
+include
+"
 LayerManagerMLGPU
 .
 h

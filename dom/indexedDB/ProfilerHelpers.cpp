@@ -68,6 +68,17 @@ ThreadLocal
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Event
+.
+h
+"
 namespace
 mozilla
 :

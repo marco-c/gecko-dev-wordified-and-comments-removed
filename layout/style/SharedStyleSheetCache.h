@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+WeakPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 Loader

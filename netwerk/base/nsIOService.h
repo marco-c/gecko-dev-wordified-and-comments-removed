@@ -137,6 +137,13 @@ nsIObserverService
 h
 "
 #
+include
+"
+nsWeakReference
+.
+h
+"
+#
 define
 NS_N
 (

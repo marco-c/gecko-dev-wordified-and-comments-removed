@@ -56,6 +56,13 @@ h
 #
 include
 "
+gfxRect
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

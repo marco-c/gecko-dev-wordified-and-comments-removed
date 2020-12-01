@@ -212,6 +212,17 @@ include
 "
 mozilla
 /
+intl
+/
+WordBreaker
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 KeyboardMap

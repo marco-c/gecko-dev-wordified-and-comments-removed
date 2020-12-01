@@ -56,6 +56,15 @@ include
 "
 mozilla
 /
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h

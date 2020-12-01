@@ -32,6 +32,16 @@ NamedAudioParamTimeline
 struct
 ProcessorErrorDetails
 ;
+template
+<
+typename
+KeyType
+typename
+ValueType
+>
+class
+Record
+;
 class
 AudioWorkletNode
 :

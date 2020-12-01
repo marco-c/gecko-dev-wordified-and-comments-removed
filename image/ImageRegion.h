@@ -7,6 +7,13 @@ mozilla_image_ImageRegion_h
 #
 include
 "
+gfxMatrix
+.
+h
+"
+#
+include
+"
 gfxRect
 .
 h

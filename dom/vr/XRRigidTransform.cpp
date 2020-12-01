@@ -42,6 +42,15 @@ DOMPointBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+HoldDropJSObjects
+.
+h
+"
 namespace
 mozilla
 {

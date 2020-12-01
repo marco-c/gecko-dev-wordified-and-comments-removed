@@ -80,6 +80,9 @@ JSContext
 namespace
 mozilla
 {
+class
+LazyLogModule
+;
 namespace
 net
 {

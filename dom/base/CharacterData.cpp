@@ -174,6 +174,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsTextNode
 .
 h

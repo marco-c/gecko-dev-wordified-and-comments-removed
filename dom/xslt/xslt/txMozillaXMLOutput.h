@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsICSSLoaderObserver
 .
 h

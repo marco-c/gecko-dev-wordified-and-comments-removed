@@ -132,6 +132,17 @@ include
 "
 mozilla
 /
+dom
+/
+DocumentBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 FocusTarget

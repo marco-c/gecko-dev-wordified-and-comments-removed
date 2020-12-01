@@ -1,3 +1,14 @@
+include
+"
+mozilla
+/
+dom
+/
+IPCBlobUtils
+.
+h
+"
+;
 using
 mozilla
 :
@@ -39,7 +50,7 @@ mozilla
 /
 dom
 /
-IPCBlobUtils
+BlobImpl
 .
 h
 "

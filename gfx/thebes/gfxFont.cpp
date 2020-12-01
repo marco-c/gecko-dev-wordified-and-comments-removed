@@ -168,6 +168,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsSpecialCasingData
 .
 h

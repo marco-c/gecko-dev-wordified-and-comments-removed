@@ -17,6 +17,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+IPDLParamTraits
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h

@@ -18,6 +18,15 @@ Role
 .
 h
 "
+#
+include
+"
+ipc
+/
+IPCMessageUtils
+.
+h
+"
 namespace
 IPC
 {

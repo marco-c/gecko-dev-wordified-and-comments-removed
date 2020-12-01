@@ -62,6 +62,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsIHttpChannelInternal
 .
 h

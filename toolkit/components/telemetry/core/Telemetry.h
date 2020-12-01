@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TelemetryEventEnums
 .
 h

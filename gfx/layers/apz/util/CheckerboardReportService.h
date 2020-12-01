@@ -53,6 +53,13 @@ h
 #
 include
 "
+nsTArrayForwardDeclare
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h

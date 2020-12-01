@@ -40,6 +40,9 @@ Units
 .
 h
 "
+class
+nsPresContext
+;
 namespace
 mozilla
 {

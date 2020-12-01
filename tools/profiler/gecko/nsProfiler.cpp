@@ -122,6 +122,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIFileStreams
 .
 h

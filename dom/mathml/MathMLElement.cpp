@@ -43,6 +43,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FontPropertyTypes
 .
 h

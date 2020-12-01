@@ -34,6 +34,13 @@ nsICrashService
 .
 h
 "
+#
+include
+"
+nsPrintfCString
+.
+h
+"
 namespace
 mozilla
 {

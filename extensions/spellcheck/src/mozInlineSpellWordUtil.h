@@ -16,6 +16,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Document
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

@@ -123,6 +123,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DOMMozPromiseRequestHolder
 .
 h

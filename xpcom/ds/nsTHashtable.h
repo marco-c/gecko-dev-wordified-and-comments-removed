@@ -7,6 +7,11 @@ nsTHashtable_h__
 #
 include
 <
+iterator
+>
+#
+include
+<
 new
 >
 #

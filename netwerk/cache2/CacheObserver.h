@@ -52,6 +52,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+StaticPtr
+.
+h
+"
+#
+include
 <
 algorithm
 >

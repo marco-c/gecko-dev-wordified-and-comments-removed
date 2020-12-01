@@ -16,6 +16,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 HalScreenConfiguration
 .
 h

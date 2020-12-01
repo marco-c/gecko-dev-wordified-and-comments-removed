@@ -17,6 +17,15 @@ vector
 #
 include
 "
+ipc
+/
+IPCMessageUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc

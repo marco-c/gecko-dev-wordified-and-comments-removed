@@ -35,13 +35,6 @@ EventForwards
 .
 h
 "
-#
-include
-"
-nsRFPService
-.
-h
-"
 namespace
 mozilla
 {

@@ -110,6 +110,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsFocusManager
 .
 h

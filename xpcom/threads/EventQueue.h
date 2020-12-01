@@ -25,6 +25,15 @@ h
 #
 include
 "
+mozilla
+/
+TimeStamp
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

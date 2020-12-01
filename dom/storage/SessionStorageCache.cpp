@@ -41,6 +41,13 @@ PBackgroundSessionStorageCache
 .
 h
 "
+#
+include
+"
+nsDOMString
+.
+h
+"
 namespace
 mozilla
 {

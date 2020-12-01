@@ -7,6 +7,15 @@ nsToolkitProfileService_h
 #
 include
 "
+mozilla
+/
+LinkedList
+.
+h
+"
+#
+include
+"
 nsIToolkitProfileService
 .
 h

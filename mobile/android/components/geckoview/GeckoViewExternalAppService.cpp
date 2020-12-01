@@ -41,6 +41,13 @@ h
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 mozilla
 /
 widget

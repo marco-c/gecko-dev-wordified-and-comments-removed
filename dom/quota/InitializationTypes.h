@@ -73,6 +73,9 @@ TelemetryHistogramEnums
 .
 h
 "
+#
+undef
+None
 namespace
 mozilla
 {

@@ -16,6 +16,17 @@ Event
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+EventBinding
+.
+h
+"
 namespace
 mozilla
 :

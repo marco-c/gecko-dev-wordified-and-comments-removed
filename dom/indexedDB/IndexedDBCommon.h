@@ -17,6 +17,12 @@ QuotaCommon
 .
 h
 "
+class
+JSStructuredCloneData
+;
+class
+nsIInputStream
+;
 #
 define
 IDB_TRY_GLUE

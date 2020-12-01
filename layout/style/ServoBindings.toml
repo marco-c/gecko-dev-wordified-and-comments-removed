@@ -217,6 +217,13 @@ h
 "
 mozilla
 /
+PresShell
+.
+h
+"
+"
+mozilla
+/
 ServoTraversalStatistics
 .
 h

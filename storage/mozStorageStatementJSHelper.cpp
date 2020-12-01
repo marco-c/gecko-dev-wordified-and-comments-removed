@@ -71,6 +71,15 @@ h
 #
 include
 "
+js
+/
+Value
+.
+h
+"
+#
+include
+"
 xpc_make_class
 .
 h

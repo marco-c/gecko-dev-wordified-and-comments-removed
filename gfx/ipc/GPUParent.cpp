@@ -350,6 +350,15 @@ h
 #
 include
 "
+mozilla
+/
+Preferences
+.
+h
+"
+#
+include
+"
 nscore
 .
 h

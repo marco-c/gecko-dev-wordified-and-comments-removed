@@ -8,6 +8,13 @@ h
 #
 include
 "
+ChromiumCDMParent
+.
+h
+"
+#
+include
+"
 GMPServiceParent
 .
 h

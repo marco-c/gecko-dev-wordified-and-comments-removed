@@ -54,6 +54,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 GLContextCGL
 .
 h

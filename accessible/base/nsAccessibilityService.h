@@ -71,6 +71,13 @@ h
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -86,6 +93,13 @@ h
 include
 "
 nsIEventListenerService
+.
+h
+"
+#
+include
+"
+nsXULAppAPI
 .
 h
 "

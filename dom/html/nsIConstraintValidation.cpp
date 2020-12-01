@@ -93,6 +93,13 @@ h
 #
 include
 "
+nsISimpleEnumerator
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

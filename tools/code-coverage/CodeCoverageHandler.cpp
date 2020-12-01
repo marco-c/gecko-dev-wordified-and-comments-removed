@@ -96,6 +96,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsIOutputStream
 .
 h

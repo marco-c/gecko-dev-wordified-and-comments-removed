@@ -12,6 +12,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 chrome
 /
 common

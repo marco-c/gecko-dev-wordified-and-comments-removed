@@ -7,6 +7,15 @@ mozilla_glean_GleanDatetime_h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 nsIGleanMetrics
 .
 h

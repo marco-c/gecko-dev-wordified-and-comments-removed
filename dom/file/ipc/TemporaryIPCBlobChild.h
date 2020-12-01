@@ -33,6 +33,9 @@ namespace
 dom
 {
 class
+BlobImpl
+;
+class
 MutableBlobStorage
 ;
 class

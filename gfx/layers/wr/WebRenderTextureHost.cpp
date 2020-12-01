@@ -32,6 +32,17 @@ include
 "
 mozilla
 /
+layers
+/
+TextureSourceProvider
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webrender
 /
 RenderThread

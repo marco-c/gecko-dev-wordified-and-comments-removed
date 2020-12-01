@@ -48,6 +48,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIMultiplexInputStream
 .
 h

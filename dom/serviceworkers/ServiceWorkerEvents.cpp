@@ -74,6 +74,15 @@ include
 "
 mozilla
 /
+HoldDropJSObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LoadInfo
 .
 h

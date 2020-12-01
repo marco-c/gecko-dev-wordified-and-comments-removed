@@ -20,6 +20,15 @@ shared_memory
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Maybe
+.
+h
+"
 namespace
 mozilla
 {

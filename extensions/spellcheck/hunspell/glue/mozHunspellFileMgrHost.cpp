@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsILoadInfo
 .
 h

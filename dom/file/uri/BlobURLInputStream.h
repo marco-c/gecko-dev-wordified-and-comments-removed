@@ -27,6 +27,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIAsyncInputStream
 .
 h

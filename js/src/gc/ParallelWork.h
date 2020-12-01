@@ -16,15 +16,6 @@ h
 #
 include
 "
-mozilla
-/
-Variant
-.
-h
-"
-#
-include
-"
 gc
 /
 GC

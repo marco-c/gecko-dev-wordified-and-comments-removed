@@ -80,6 +80,17 @@ include
 "
 mozilla
 /
+dom
+/
+Promise
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 BackgroundChild

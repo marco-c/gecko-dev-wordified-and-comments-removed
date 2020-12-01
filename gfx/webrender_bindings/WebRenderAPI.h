@@ -88,6 +88,15 @@ include
 "
 mozilla
 /
+MozPromise
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Range
 .
 h
@@ -138,6 +147,9 @@ Units
 h
 "
 class
+gfxContext
+;
+class
 nsDisplayItem
 ;
 class
@@ -176,6 +188,9 @@ WebRenderBridgeParent
 ;
 class
 RenderRootStateManager
+;
+class
+StackingContextHelper
 ;
 struct
 DisplayListData

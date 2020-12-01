@@ -144,6 +144,13 @@ DeclarationBlock
 class
 ShadowParts
 ;
+namespace
+dom
+{
+class
+DOMString
+;
+}
 }
 #
 define

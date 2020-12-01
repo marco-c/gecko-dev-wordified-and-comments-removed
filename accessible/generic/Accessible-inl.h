@@ -30,6 +30,17 @@ include
 "
 mozilla
 /
+dom
+/
+Element
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h

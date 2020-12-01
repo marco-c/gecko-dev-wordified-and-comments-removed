@@ -39,6 +39,17 @@ mozilla
 /
 dom
 /
+AutocompleteInfoBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Document
 .
 h

@@ -42,6 +42,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Variant
+.
+h
+"
+#
+include
 <
 stdint
 .

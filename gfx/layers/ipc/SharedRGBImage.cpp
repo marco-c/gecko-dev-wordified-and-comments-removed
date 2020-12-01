@@ -147,6 +147,13 @@ h
 #
 include
 "
+nsProxyRelease
+.
+h
+"
+#
+include
+"
 nsRect
 .
 h

@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+Preferences
+.
+h
+"
+#
+include
+"
 nsRefreshDriver
 .
 h

@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+Preferences
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

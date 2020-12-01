@@ -51,6 +51,9 @@ nsWrapperCache
 .
 h
 "
+class
+nsIRequest
+;
 namespace
 mozilla
 {

@@ -187,6 +187,16 @@ prio
 h
 >
 namespace
+JS
+{
+class
+CompileOptions
+;
+class
+OffThreadToken
+;
+}
+namespace
 mozilla
 {
 namespace

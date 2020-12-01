@@ -62,6 +62,13 @@ h
 #
 include
 "
+nsRefPtrHashtable
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -92,6 +99,9 @@ already_AddRefed
 namespace
 mozilla
 {
+class
+OriginAttributesPattern
+;
 namespace
 gmp
 {

@@ -51,6 +51,13 @@ h
 #
 include
 "
+nsRefPtrHashtable
+.
+h
+"
+#
+include
+"
 mozilla
 /
 TimeStamp
@@ -129,6 +136,9 @@ IMEContentObserver
 ;
 class
 ScrollbarsForWheel
+;
+class
+TextEditor
 ;
 class
 WheelTransaction

@@ -287,6 +287,13 @@ h
 #
 include
 "
+nsICookieJarSettings
+.
+h
+"
+#
+include
+"
 nsIDOMWindowUtils
 .
 h

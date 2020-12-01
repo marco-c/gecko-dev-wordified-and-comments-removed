@@ -33,6 +33,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -104,6 +111,13 @@ h
 include
 "
 nsILoadContext
+.
+h
+"
+#
+include
+"
+nsIPrefService
 .
 h
 "

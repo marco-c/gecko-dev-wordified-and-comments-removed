@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsFontMetrics
 .
 h

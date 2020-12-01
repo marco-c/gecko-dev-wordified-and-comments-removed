@@ -4,6 +4,11 @@ LAYERSTATE_H_
 #
 define
 LAYERSTATE_H_
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 {

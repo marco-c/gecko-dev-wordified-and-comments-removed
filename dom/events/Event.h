@@ -120,6 +120,15 @@ nsIGlobalObject
 .
 h
 "
+#
+include
+"
+mozilla
+/
+HoldDropJSObjects
+.
+h
+"
 class
 nsIContent
 ;

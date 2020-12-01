@@ -7,6 +7,15 @@ mozilla_dom_WebAuthnUtil_h
 #
 include
 "
+ipc
+/
+IPCMessageUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

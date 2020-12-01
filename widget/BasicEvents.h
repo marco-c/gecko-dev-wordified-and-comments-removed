@@ -110,6 +110,9 @@ h
 "
 #
 endif
+class
+nsIPrincipal
+;
 namespace
 IPC
 {

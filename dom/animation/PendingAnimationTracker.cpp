@@ -21,6 +21,17 @@ mozilla
 /
 dom
 /
+AnimationEffect
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 AnimationTimeline
 .
 h

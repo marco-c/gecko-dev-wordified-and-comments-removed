@@ -53,6 +53,15 @@ include
 "
 mozilla
 /
+IntegerRange
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MathAlgorithms
 .
 h

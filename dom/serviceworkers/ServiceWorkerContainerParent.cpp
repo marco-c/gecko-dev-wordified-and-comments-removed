@@ -12,6 +12,17 @@ ServiceWorkerContainerProxy
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ClientInfo
+.
+h
+"
 namespace
 mozilla
 {

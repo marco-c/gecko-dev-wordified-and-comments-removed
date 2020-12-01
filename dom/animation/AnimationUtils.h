@@ -79,6 +79,9 @@ dom
 class
 Document
 ;
+class
+Element
+;
 }
 class
 AnimationUtils

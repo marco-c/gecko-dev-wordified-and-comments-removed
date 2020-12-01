@@ -21,6 +21,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLTrackElement
 .
 h

@@ -135,6 +135,17 @@ include
 "
 mozilla
 /
+layers
+/
+NativeLayer
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SSE
 .
 h

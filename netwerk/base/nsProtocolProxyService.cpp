@@ -112,6 +112,13 @@ h
 #
 include
 "
+nsIPrefService
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

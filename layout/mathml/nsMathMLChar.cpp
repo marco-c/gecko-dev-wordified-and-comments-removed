@@ -31,6 +31,17 @@ include
 "
 mozilla
 /
+dom
+/
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D

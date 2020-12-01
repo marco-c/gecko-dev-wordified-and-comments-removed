@@ -44,6 +44,17 @@ mozilla
 /
 dom
 /
+DocGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 RegisterWorkletBindings
 .
 h

@@ -209,6 +209,13 @@ h
 #
 include
 "
+nsIRemoteTab
+.
+h
+"
+#
+include
+"
 nsIWidget
 .
 h

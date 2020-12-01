@@ -17,6 +17,17 @@ h
 "
 #
 include
+"
+chrome
+/
+common
+/
+ipc_message
+.
+h
+"
+#
+include
 <
 string
 >

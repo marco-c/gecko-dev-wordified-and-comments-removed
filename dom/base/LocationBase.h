@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+AlreadyAddRefed
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h

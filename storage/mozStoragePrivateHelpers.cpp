@@ -1185,9 +1185,6 @@ return
 nullptr
 ;
 }
-return
-nullptr
-;
 }
 namespace
 {

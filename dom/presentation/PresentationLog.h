@@ -7,6 +7,9 @@ mozilla_dom_PresentationLog_h
 namespace
 mozilla
 {
+class
+LazyLogModule
+;
 namespace
 dom
 {

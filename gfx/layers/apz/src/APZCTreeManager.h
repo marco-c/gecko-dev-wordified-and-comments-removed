@@ -185,6 +185,17 @@ include
 "
 mozilla
 /
+webrender
+/
+webrender_ffi
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RecursiveMutex
 .
 h

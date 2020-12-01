@@ -46,6 +46,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsIHttpHeaderVisitor
 .
 h

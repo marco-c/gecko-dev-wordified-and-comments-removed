@@ -15,6 +15,15 @@ h
 #
 include
 "
+mozilla
+/
+ErrorResult
+.
+h
+"
+#
+include
+"
 nsFileStreams
 .
 h

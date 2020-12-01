@@ -69,6 +69,13 @@ h
 #
 include
 "
+nsIChannelEventSink
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h

@@ -143,6 +143,13 @@ h
 #
 include
 "
+nsXULAppAPI
+.
+h
+"
+#
+include
+"
 ContentHandlerService
 .
 h

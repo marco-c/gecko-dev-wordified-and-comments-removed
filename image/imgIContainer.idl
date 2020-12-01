@@ -96,6 +96,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 limits
 .
 h

@@ -88,6 +88,12 @@ WindowGlobalChild
 h
 "
 class
+nsIDOMProcessChild
+;
+class
+nsIDOMProcessParent
+;
+class
 MOZ_STACK_CLASS
 nsQueryJSActor
 final

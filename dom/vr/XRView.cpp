@@ -14,6 +14,15 @@ include
 "
 mozilla
 /
+HoldDropJSObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 XRRigidTransform

@@ -49,6 +49,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WebAuthnTransactionChild
 .
 h

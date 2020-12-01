@@ -6,6 +6,11 @@ define
 mozilla_DataStorage_h
 #
 include
+<
+functional
+>
+#
+include
 "
 mozilla
 /

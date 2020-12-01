@@ -190,6 +190,9 @@ NS_WEBBROWSER_CID
 class
 mozIDOMWindowProxy
 ;
+class
+nsDocShell
+;
 namespace
 mozilla
 {

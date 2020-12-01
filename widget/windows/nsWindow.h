@@ -2441,6 +2441,9 @@ EventIsInsideWindow
 nsWindow
 *
 aWindow
+mozilla
+:
+:
 Maybe
 <
 POINT
@@ -2513,6 +2516,9 @@ LPARAM
 lParam
 )
 ;
+mozilla
+:
+:
 Maybe
 <
 mozilla
@@ -2747,6 +2753,9 @@ aRollupListener
 uint32_t
 *
 aPopupsToRollup
+mozilla
+:
+:
 Maybe
 <
 POINT

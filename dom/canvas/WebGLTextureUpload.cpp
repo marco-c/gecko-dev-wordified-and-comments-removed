@@ -68,6 +68,17 @@ include
 "
 mozilla
 /
+gfx
+/
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLCanvasElement

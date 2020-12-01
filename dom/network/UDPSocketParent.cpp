@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Unused

@@ -136,6 +136,17 @@ mozilla
 /
 dom
 /
+WorkerCommon
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WorkerRef
 .
 h

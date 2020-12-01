@@ -55,6 +55,11 @@ mozilla_TelemetryHistogramEnums_h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 type_traits
 >
 namespace

@@ -16,6 +16,17 @@ include
 "
 mozilla
 /
+dom
+/
+BindingDeclarations
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h

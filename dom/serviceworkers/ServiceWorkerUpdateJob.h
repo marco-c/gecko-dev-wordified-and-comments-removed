@@ -18,6 +18,13 @@ ServiceWorkerRegistration
 .
 h
 "
+#
+include
+"
+nsIRequest
+.
+h
+"
 namespace
 mozilla
 {

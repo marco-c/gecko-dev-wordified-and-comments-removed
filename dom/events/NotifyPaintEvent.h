@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsDOMNavigationTiming
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

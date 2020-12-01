@@ -19,6 +19,14 @@ nsIXULStore
 ;
 #
 endif
+template
+<
+typename
+T
+>
+class
+nsCOMArray
+;
 namespace
 mozilla
 {

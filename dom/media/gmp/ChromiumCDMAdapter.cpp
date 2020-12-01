@@ -78,6 +78,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 HelperMacros
 .
 h

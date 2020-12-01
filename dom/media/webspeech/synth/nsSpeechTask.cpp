@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsXULAppAPI
+.
+h
+"
+#
+include
+"
 SharedBuffer
 .
 h

@@ -180,6 +180,15 @@ h
 #
 include
 "
+mozilla
+/
+Preferences
+.
+h
+"
+#
+include
+"
 nsExceptionHandler
 .
 h

@@ -130,6 +130,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsIScreenManager
 .
 h

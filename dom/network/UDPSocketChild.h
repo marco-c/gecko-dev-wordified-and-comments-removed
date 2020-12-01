@@ -53,6 +53,12 @@ UDPSOCKETCHILD_CID
 \
 }
 class
+nsIInputStream
+;
+class
+nsIPrincipal
+;
+class
 nsIUDPSocketInternal
 ;
 namespace

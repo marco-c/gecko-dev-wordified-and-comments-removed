@@ -117,6 +117,15 @@ include
 "
 mozilla
 /
+BasePrincipal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ComputedStyle
 .
 h

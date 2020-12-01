@@ -16,6 +16,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -36,6 +47,9 @@ mozilla
 {
 class
 DeclarationBlock
+;
+struct
+MutationClosureData
 ;
 }
 #

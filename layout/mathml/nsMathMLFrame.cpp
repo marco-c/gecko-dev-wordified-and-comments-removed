@@ -33,6 +33,13 @@ h
 #
 include
 "
+nsCSSValue
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h

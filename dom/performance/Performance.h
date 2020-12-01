@@ -36,6 +36,13 @@ nsDOMNavigationTiming
 .
 h
 "
+#
+include
+"
+nsTObserverArray
+.
+h
+"
 class
 nsITimedChannel
 ;

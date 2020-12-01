@@ -87,6 +87,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsIGlobalObject
 .
 h

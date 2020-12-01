@@ -7,6 +7,13 @@ mozilla_ServoElementSnapshot_h
 #
 include
 "
+AttrArray
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EventStates

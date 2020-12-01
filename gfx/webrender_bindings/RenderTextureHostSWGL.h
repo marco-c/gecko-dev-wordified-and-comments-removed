@@ -7,6 +7,13 @@ MOZILLA_GFX_RENDERTEXTUREHOSTSWGL_H
 #
 include
 "
+GLTypes
+.
+h
+"
+#
+include
+"
 RenderTextureHost
 .
 h

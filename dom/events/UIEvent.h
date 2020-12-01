@@ -74,6 +74,13 @@ h
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

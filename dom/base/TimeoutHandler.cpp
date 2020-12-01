@@ -17,6 +17,15 @@ h
 #
 include
 "
+mozilla
+/
+HoldDropJSObjects
+.
+h
+"
+#
+include
+"
 nsJSUtils
 .
 h

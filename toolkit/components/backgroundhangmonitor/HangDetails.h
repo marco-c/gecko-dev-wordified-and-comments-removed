@@ -75,6 +75,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsIHangDetails
 .
 h

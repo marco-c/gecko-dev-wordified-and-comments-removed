@@ -125,6 +125,13 @@ nsIThreadInternal
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 class
 mozIStorageConnection
 ;

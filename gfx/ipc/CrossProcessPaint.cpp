@@ -56,6 +56,17 @@ mozilla
 /
 dom
 /
+Promise
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WindowGlobalParent
 .
 h

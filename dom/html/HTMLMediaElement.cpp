@@ -782,6 +782,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h
@@ -804,6 +811,13 @@ h
 include
 "
 nsISupportsPrimitives
+.
+h
+"
+#
+include
+"
+nsIThreadRetargetableStreamListener
 .
 h
 "

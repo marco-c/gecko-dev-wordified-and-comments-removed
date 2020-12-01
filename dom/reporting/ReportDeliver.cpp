@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+StaticPrefs_dom
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 EndpointForReportChild

@@ -53,6 +53,13 @@ h
 #
 include
 "
+PlatformDecoderModule
+.
+h
+"
+#
+include
+"
 SeekTarget
 .
 h

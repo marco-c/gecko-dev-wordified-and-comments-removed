@@ -16,6 +16,9 @@ PCookieServiceParent
 h
 "
 class
+nsIArray
+;
+class
 nsICookie
 ;
 namespace

@@ -42,6 +42,13 @@ Units
 .
 h
 "
+#
+include
+"
+UnitTransforms
+.
+h
+"
 namespace
 mozilla
 {

@@ -15,6 +15,15 @@ XMLHttpRequestEventTarget
 .
 h
 "
+#
+include
+"
+mozilla
+/
+EventListenerManager
+.
+h
+"
 namespace
 mozilla
 {

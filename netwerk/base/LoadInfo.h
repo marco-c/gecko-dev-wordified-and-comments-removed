@@ -92,6 +92,9 @@ ServiceWorkerDescriptor
 h
 "
 class
+nsDocShell
+;
+class
 nsICookieJarSettings
 ;
 class

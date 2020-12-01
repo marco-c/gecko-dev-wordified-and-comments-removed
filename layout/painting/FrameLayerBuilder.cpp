@@ -98,6 +98,13 @@ h
 #
 include
 "
+TransformClipNode
+.
+h
+"
+#
+include
+"
 UnitTransforms
 .
 h

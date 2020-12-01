@@ -33,6 +33,17 @@ mozilla
 /
 dom
 /
+BlobImpl
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 CanvasRenderingContext2D
 .
 h

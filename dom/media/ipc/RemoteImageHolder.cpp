@@ -41,6 +41,17 @@ ImageDataSerializer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+VideoBridgeUtils
+.
+h
+"
 namespace
 mozilla
 {

@@ -17,6 +17,17 @@ include
 "
 mozilla
 /
+dom
+/
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h

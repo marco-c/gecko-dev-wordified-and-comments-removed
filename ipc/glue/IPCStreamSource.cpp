@@ -37,6 +37,17 @@ include
 "
 mozilla
 /
+dom
+/
+WorkerCommon
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webrender
 /
 WebRenderTypes

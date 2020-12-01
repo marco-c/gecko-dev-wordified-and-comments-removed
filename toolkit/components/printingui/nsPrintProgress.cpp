@@ -68,6 +68,13 @@ h
 #
 include
 "
+nsIObserver
+.
+h
+"
+#
+include
+"
 nsISupportsPrimitives
 .
 h

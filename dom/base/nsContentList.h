@@ -126,6 +126,13 @@ NameSpaceConstants
 .
 h
 "
+#
+include
+"
+nsIContent
+.
+h
+"
 namespace
 mozilla
 {

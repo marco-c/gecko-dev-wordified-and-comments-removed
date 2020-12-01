@@ -34,6 +34,16 @@ UniquePtr
 .
 h
 "
+#
+ifdef
+OS_WIN
+#
+include
+<
+string
+>
+#
+endif
 namespace
 IPC
 {

@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceUtils
 .
 h

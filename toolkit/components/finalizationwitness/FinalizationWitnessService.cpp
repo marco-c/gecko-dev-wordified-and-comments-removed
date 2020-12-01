@@ -56,6 +56,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 nsZipArchive
 .
 h

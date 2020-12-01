@@ -7,6 +7,13 @@ GFX_FONT_FEATURES_H
 #
 include
 "
+nsAtom
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h

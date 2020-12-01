@@ -118,6 +118,13 @@ namespace
 mozilla
 {
 namespace
+dom
+{
+class
+WindowGlobalChild
+;
+}
+namespace
 extensions
 {
 using

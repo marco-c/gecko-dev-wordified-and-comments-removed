@@ -101,6 +101,15 @@ include
 "
 mozilla
 /
+StaticPrefs_browser
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_privacy
 .
 h

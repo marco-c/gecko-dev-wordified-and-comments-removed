@@ -64,6 +64,13 @@ GleanJSMetricsLookup
 .
 h
 "
+#
+include
+"
+MainThreadUtils
+.
+h
+"
 namespace
 mozilla
 :

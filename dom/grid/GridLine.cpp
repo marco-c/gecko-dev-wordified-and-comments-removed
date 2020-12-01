@@ -23,6 +23,13 @@ GridBinding
 .
 h
 "
+#
+include
+"
+nsAtom
+.
+h
+"
 namespace
 mozilla
 :

@@ -36,6 +36,15 @@ h
 #
 include
 "
+mozilla
+/
+ErrorResult
+.
+h
+"
+#
+include
+"
 xpcpublic
 .
 h

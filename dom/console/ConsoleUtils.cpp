@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ClearOnShutdown

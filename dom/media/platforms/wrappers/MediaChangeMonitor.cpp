@@ -22,6 +22,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 ImageContainer
 .
 h

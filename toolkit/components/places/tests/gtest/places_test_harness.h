@@ -59,6 +59,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h

@@ -17,6 +17,13 @@ h
 #
 include
 "
+XREShellData
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h

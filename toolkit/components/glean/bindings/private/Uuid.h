@@ -7,6 +7,15 @@ mozilla_glean_GleanUuid_h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 nsIGleanMetrics
 .
 h

@@ -17,6 +17,13 @@ WebGLTypes
 .
 h
 "
+#
+include
+"
+nsPrintfCString
+.
+h
+"
 namespace
 mozilla
 {

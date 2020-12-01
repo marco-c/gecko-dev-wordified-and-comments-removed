@@ -28,6 +28,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 nsMixedContentBlocker
 .
 h

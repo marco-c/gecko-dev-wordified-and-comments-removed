@@ -58,6 +58,15 @@ NullPrincipal
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Preferences
+.
+h
+"
 using
 namespace
 mozilla

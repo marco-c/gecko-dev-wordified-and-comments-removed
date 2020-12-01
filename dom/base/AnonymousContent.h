@@ -11,6 +11,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsISupportsImpl
+.
+h
+"
 class
 nsIPrincipal
 ;
