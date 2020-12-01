@@ -1374,6 +1374,11 @@ results
 [
 ]
         
+prev_line
+=
+"
+"
+        
 for
 line
 in
@@ -1384,6 +1389,21 @@ result
 =
 {
 }
+            
+if
+prev_line
+:
+                
+line
+=
+prev_line
++
+line
+                
+prev_line
+=
+"
+"
             
 r
 =
@@ -1424,6 +1444,10 @@ r
 =
 2
 :
+                
+prev_line
+=
+line
                 
 continue
             
