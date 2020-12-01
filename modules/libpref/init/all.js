@@ -4007,6 +4007,14 @@ use_rtx
 blocklist
 "
 "
+doxy
+.
+me
+*
+.
+doxy
+.
+me
 "
 )
 ;
