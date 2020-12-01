@@ -627,10 +627,6 @@ Init
 (
 )
 {
-g_type_init
-(
-)
-;
 mozilla
 :
 :

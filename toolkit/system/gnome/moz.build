@@ -28,11 +28,6 @@ nsAlertsIconListener
 cpp
 "
 "
-nsGnomeModule
-.
-cpp
-"
-"
 nsSystemAlertsService
 .
 cpp
