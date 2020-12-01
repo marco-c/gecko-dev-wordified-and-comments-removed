@@ -140,7 +140,6 @@ if
 "
 ]
 "
-(
 os
 =
 =
@@ -150,12 +149,8 @@ win
 &
 &
 debug
-)
-|
-|
-(
-debug
-)
+\
+ndebug
 "
 )
             
@@ -177,7 +172,6 @@ self
 .
 assertEqual
 (
-                    
 test
 [
 "
@@ -187,7 +181,6 @@ if
 "
 ]
 "
-(
 os
 =
 =
@@ -197,19 +190,14 @@ win
 &
 &
 debug
-)
-|
-|
-(
-os
+\
+nos
 =
 =
 '
 linux
 '
-)
 "
-                
 )
             
 elif
@@ -230,7 +218,6 @@ self
 .
 assertEqual
 (
-                    
 test
 [
 "
@@ -240,7 +227,6 @@ if
 "
 ]
 "
-(
 os
 =
 =
@@ -250,19 +236,14 @@ win
 &
 &
 debug
-)
-|
-|
-(
-os
+\
+nos
 =
 =
 '
 win
 '
-)
 "
-                
 )
             
 elif
@@ -293,7 +274,6 @@ if
 "
 ]
 "
-(
 os
 =
 =
@@ -303,11 +283,8 @@ win
 &
 &
 debug
-)
-|
-|
-(
-os
+\
+nos
 =
 =
 '
@@ -316,7 +293,6 @@ win
 &
 &
 debug
-)
 "
                 
 )
@@ -387,7 +363,6 @@ if
 "
 ]
 "
-(
 os
 =
 =
@@ -397,12 +372,8 @@ win
 &
 &
 debug
-)
-|
-|
-(
-debug
-)
+\
+ndebug
 "
 )
 class
