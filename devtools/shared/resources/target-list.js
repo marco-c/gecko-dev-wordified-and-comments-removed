@@ -800,7 +800,7 @@ return
 !
 this
 .
-watcher
+watcherFront
 ?
 .
 traits
@@ -827,7 +827,7 @@ if
 !
 this
 .
-watcher
+watcherFront
 )
 {
 const
@@ -850,7 +850,7 @@ supportsWatcher
 {
 this
 .
-watcher
+watcherFront
 =
 await
 this
@@ -1083,7 +1083,7 @@ true
 ;
 this
 .
-watcher
+watcherFront
 .
 on
 (
@@ -1099,7 +1099,7 @@ _onTargetAvailable
 ;
 this
 .
-watcher
+watcherFront
 .
 on
 (
@@ -1117,7 +1117,7 @@ _onTargetDestroyed
 await
 this
 .
-watcher
+watcherFront
 .
 watchTargets
 (
@@ -1231,7 +1231,7 @@ onlyLegacy
 {
 this
 .
-watcher
+watcherFront
 .
 unwatchTargets
 (
