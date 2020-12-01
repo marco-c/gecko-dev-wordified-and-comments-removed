@@ -209,9 +209,6 @@ class
 AutoSweepBase
 ;
 class
-AutoSweepObjectGroup
-;
-class
 LifoAlloc
 ;
 class
@@ -239,12 +236,6 @@ OBJECT_FLAG_ADDENDUM_MASK
 OBJECT_FLAG_ADDENDUM_SHIFT
 =
 27
-OBJECT_FLAG_GENERATION_MASK
-=
-0x40000000
-OBJECT_FLAG_GENERATION_SHIFT
-=
-30
 }
 ;
 using
