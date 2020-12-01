@@ -46,7 +46,9 @@ h
 #
 include
 "
-jsfriendapi
+js
+/
+Conversions
 .
 h
 "
@@ -55,7 +57,9 @@ include
 "
 js
 /
-Conversions
+friend
+/
+ErrorMessages
 .
 h
 "

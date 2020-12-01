@@ -84,6 +84,17 @@ include
 "
 js
 /
+friend
+/
+ErrorMessages
+.
+h
+"
+#
+include
+"
+js
+/
 MemoryFunctions
 .
 h

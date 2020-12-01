@@ -32,6 +32,17 @@ h
 #
 include
 "
+js
+/
+friend
+/
+ErrorMessages
+.
+h
+"
+#
+include
+"
 vm
 /
 ArgumentsObject

@@ -142,6 +142,17 @@ Conversions
 h
 "
 #
+include
+"
+js
+/
+friend
+/
+ErrorMessages
+.
+h
+"
+#
 if
 !
 JS_HAS_INTL_API

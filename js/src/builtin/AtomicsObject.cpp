@@ -114,6 +114,17 @@ include
 "
 js
 /
+friend
+/
+ErrorMessages
+.
+h
+"
+#
+include
+"
+js
+/
 PropertySpec
 .
 h

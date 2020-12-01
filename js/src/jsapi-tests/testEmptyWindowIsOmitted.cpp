@@ -69,6 +69,17 @@ include
 "
 js
 /
+friend
+/
+ErrorMessages
+.
+h
+"
+#
+include
+"
+js
+/
 SourceText
 .
 h
