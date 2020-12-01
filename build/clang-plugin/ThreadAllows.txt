@@ -11,14 +11,11 @@ AwaitIdlePaused
 BGReadURLs
 BHMgr
 Processor
-BgFileSaver
 COM
 Intcpt
 Log
 COM
 MTA
-Cache
-Deleter
 Cache
 I
 /
@@ -74,7 +71,6 @@ MediaTelemetry
 MediaTrackGrph
 mtransport
 NamedPipeSrv
-NetPredictClean
 Netlink
 Monitor
 OSKeyStore
@@ -102,7 +98,6 @@ SuicideManager
 SuicideThread
 TEQ
 AwaitIdle
-TelemetryGVIO
 Test
 Thread
 Test
