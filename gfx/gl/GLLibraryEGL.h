@@ -581,7 +581,7 @@ display_id
 ;
 }
 EGLDisplay
-fGetPlatformDisplayEXT
+fGetPlatformDisplay
 (
 EGLenum
 platform
@@ -589,7 +589,7 @@ void
 *
 native_display
 const
-EGLint
+EGLAttrib
 *
 attrib_list
 )
@@ -597,7 +597,7 @@ const
 {
 WRAP
 (
-fGetPlatformDisplayEXT
+fGetPlatformDisplay
 (
 platform
 native_display
@@ -1878,7 +1878,7 @@ EGLDisplay
 (
 GLAPIENTRY
 *
-fGetPlatformDisplayEXT
+fGetPlatformDisplay
 )
 (
 EGLenum
@@ -1887,7 +1887,7 @@ void
 *
 native_display
 const
-EGLint
+EGLAttrib
 *
 attrib_list
 )
