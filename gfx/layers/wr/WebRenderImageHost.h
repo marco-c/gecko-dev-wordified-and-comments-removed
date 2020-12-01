@@ -49,6 +49,9 @@ class
 WebRenderBridgeParent
 ;
 class
+WebRenderBridgeParentRef
+;
+class
 WebRenderImageHost
 :
 public
@@ -407,9 +410,9 @@ std
 unordered_map
 <
 uint64_t
-WeakPtr
+RefPtr
 <
-WebRenderBridgeParent
+WebRenderBridgeParentRef
 >
 >
 mWrBridges
