@@ -1,0 +1,12 @@
+#
+include
+<
+windows
+.
+h
+>
+int
+psutil_set_se_debug
+(
+)
+;
