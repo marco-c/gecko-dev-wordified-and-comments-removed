@@ -362,6 +362,11 @@ nsISupports
 readonly
 attribute
 boolean
+isClosed
+;
+readonly
+attribute
+boolean
 isPrivate
 ;
 readonly
