@@ -68,6 +68,16 @@ uuid_metric
 14
 )
 ;
+constexpr
+impl
+:
+:
+DatetimeMetric
+datetime_metric
+(
+15
+)
+;
 }
 }
 }
