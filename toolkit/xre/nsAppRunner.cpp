@@ -8830,7 +8830,7 @@ GetPreXULSkeletonUIEnabled
 shouldBeEnabled
 )
 {
-SetPreXULSkeletonUIEnabled
+SetPreXULSkeletonUIEnabledIfAllowed
 (
 shouldBeEnabled
 )

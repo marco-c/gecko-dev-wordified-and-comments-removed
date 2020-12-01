@@ -55,6 +55,12 @@ CreateAndStorePreXULSkeletonUI
 (
 HINSTANCE
 hInstance
+int
+argc
+char
+*
+*
+argv
 )
 ;
 MFBT_API
@@ -99,7 +105,7 @@ GetPreXULSkeletonUIEnabled
 ;
 MFBT_API
 void
-SetPreXULSkeletonUIEnabled
+SetPreXULSkeletonUIEnabledIfAllowed
 (
 bool
 value
