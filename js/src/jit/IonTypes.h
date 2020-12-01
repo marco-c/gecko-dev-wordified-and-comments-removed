@@ -246,7 +246,6 @@ FunctionName
 InvalidCodePoint
 OverflowInvalidate
 DoubleOutput
-ArgumentCheck
 BoundsCheck
 ShapeGuard
 ProtoGuard
@@ -674,17 +673,6 @@ DoubleOutput
 return
 "
 DoubleOutput
-"
-;
-case
-BailoutKind
-:
-:
-ArgumentCheck
-:
-return
-"
-ArgumentCheck
 "
 ;
 case

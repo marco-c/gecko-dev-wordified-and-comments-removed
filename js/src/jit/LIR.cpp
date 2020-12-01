@@ -142,10 +142,6 @@ argumentSlotCount_
 (
 0
 )
-entrySnapshot_
-(
-nullptr
-)
 mir_
 (
 *

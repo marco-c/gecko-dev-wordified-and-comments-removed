@@ -7067,14 +7067,6 @@ MNullaryInstruction
 classOpcode
 )
 {
-setBailoutKind
-(
-BailoutKind
-:
-:
-ArgumentCheck
-)
-;
 }
 public
 :
