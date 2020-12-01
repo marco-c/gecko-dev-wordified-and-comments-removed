@@ -78,6 +78,8 @@ platform
 import
 shutil
 import
+six
+import
 subprocess
 import
 sys
@@ -868,6 +870,10 @@ framework
 for
 i
 in
+six
+.
+moves
+.
 range
 (
 test_config

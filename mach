@@ -180,9 +180,6 @@ raptor
 -
 test
 reftest
-talos
--
-test
 telemetry
 -
 tests

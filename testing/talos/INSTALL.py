@@ -53,11 +53,11 @@ absolute_import
 import
 os
 import
+six
+import
 subprocess
 import
 sys
-import
-urllib2
 try
 :
     
@@ -350,9 +350,16 @@ process
 .
 communicate
 (
+            
 input
 =
-urllib2
+six
+.
+moves
+.
+urllib
+.
+request
 .
 urlopen
 (
@@ -362,6 +369,7 @@ VIRTUALENV
 read
 (
 )
+        
 )
     
 for

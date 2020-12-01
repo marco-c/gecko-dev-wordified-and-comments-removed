@@ -10,11 +10,9 @@ os
 import
 re
 import
+six
+import
 sys
-import
-urllib2
-import
-urlparse
 from
 optparse
 import
@@ -738,7 +736,13 @@ download
     
 parsed
 =
-urlparse
+six
+.
+moves
+.
+urllib
+.
+parse
 .
 urlsplit
 (
@@ -855,7 +859,13 @@ path
     
 req
 =
-urllib2
+six
+.
+moves
+.
+urllib
+.
+request
 .
 Request
 (
@@ -864,7 +874,13 @@ url
     
 f
 =
-urllib2
+six
+.
+moves
+.
+urllib
+.
+request
 .
 urlopen
 (

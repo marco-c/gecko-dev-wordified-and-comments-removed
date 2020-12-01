@@ -9,6 +9,8 @@ logging
 import
 os
 import
+six
+import
 sys
 import
 json
@@ -652,6 +654,10 @@ config_file
 .
 write
 (
+six
+.
+ensure_binary
+(
 json
 .
 dumps
@@ -659,6 +665,7 @@ dumps
 self
 .
 config
+)
 )
 )
         

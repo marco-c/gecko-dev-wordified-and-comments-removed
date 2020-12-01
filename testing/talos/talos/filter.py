@@ -4,6 +4,8 @@ import
 absolute_import
 import
 math
+import
+six
 "
 "
 "
@@ -550,12 +552,15 @@ series
 return
 series
 [
+int
+(
 len
 (
 series
 )
 /
 2
+)
 ]
     
 else
@@ -563,12 +568,15 @@ else
         
 middle
 =
+int
+(
 len
 (
 series
 )
 /
 2
+)
         
 return
 0
@@ -828,6 +836,10 @@ size
 for
 i
 in
+six
+.
+moves
+.
 range
 (
 0

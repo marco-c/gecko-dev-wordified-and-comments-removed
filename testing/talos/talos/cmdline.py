@@ -13,6 +13,8 @@ mozlog
 commandline
 import
 add_logging_group
+import
+six
 class
 _StopAction
 (
@@ -157,14 +159,15 @@ description
 for
 test_class
 in
+six
+.
+itervalues
+(
 test
 .
 test_dict
 (
 )
-.
-itervalues
-(
 )
         
 ]
@@ -205,6 +208,8 @@ description
 )
             
 print
+(
+)
         
 parser
 .
@@ -318,6 +323,8 @@ tests
 )
         
 print
+(
+)
         
 parser
 .
