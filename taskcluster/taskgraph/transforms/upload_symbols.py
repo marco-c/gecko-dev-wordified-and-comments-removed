@@ -231,6 +231,23 @@ full
 crashsymbols
 "
 )
+            
+and
+not
+dep
+.
+attributes
+.
+get
+(
+"
+skip
+-
+upload
+-
+crashsymbols
+"
+)
         
 )
 :
@@ -349,6 +366,23 @@ full
 -
 crashsymbols
 "
+)
+or
+dep
+.
+attributes
+.
+get
+(
+            
+"
+skip
+-
+upload
+-
+crashsymbols
+"
+        
 )
 :
             
