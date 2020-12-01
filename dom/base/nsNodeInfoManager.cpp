@@ -1728,7 +1728,7 @@ remove
 }
 static
 bool
-IsSystemOrAddonPrincipal
+IsSystemOrAddonOrAboutPrincipal
 (
 nsIPrincipal
 *
@@ -1755,6 +1755,17 @@ aPrincipal
 >
 AddonPolicy
 (
+)
+|
+|
+aPrincipal
+-
+>
+SchemeIs
+(
+"
+about
+"
 )
 ;
 }
@@ -1843,7 +1854,7 @@ conclusion
 SVGEnabled
 |
 |
-IsSystemOrAddonPrincipal
+IsSystemOrAddonOrAboutPrincipal
 (
 mPrincipal
 )
@@ -1884,7 +1895,7 @@ TYPE_OTHER
 &
 &
 (
-IsSystemOrAddonPrincipal
+IsSystemOrAddonOrAboutPrincipal
 (
 loadInfo
 -
@@ -1895,7 +1906,7 @@ GetLoadingPrincipal
 )
 |
 |
-IsSystemOrAddonPrincipal
+IsSystemOrAddonOrAboutPrincipal
 (
 loadInfo
 -
