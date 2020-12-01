@@ -73,6 +73,7 @@ curveType
 qcms_CIE_xyY
 qcms_CIE_xyYTRIPLE
 qcms_profile
+RGB_SIGNATURE
 }
 qcms_intent
 s15Fixed16Number
@@ -10464,7 +10465,7 @@ profile
 color_space
 !
 =
-0x52474220
+RGB_SIGNATURE
 {
 return
 ;
@@ -12030,7 +12031,7 @@ in_0
 color_space
 =
 =
-0x52474220
+RGB_SIGNATURE
 {
 if
 precache
