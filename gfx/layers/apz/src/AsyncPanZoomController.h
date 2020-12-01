@@ -1614,6 +1614,10 @@ const
 ExternalPoint
 &
 aStartPoint
+const
+TimeStamp
+&
+aEventTime
 )
 ;
 void
@@ -3033,6 +3037,12 @@ ANIMATING_ZOOM
 }
 private
 :
+TimeStamp
+mTouchStartTime
+;
+TimeDuration
+mTouchStartRestingTimeBeforePan
+;
 CSSPoint
 mTestAsyncScrollOffset
 ;

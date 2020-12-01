@@ -342,6 +342,12 @@ OverscrollHandoffChain
 >
 mChain
 ;
+Maybe
+<
+TimeDuration
+>
+mTouchStartRestingTime
+;
 bool
 mIsHandoff
 ;
