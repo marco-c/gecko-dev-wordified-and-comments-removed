@@ -55,13 +55,6 @@ nsISupports
 .
 h
 "
-#
-include
-"
-jsapi
-.
-h
-"
 namespace
 mozilla
 {

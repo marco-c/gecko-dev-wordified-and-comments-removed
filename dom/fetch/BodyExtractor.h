@@ -7,13 +7,6 @@ mozilla_dom_BodyExtractor_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

@@ -166,6 +166,9 @@ nsIURI
 namespace
 JS
 {
+class
+CompileOptions
+;
 template
 <
 typename

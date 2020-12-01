@@ -22,7 +22,7 @@ include
 "
 js
 /
-Array
+RootingAPI
 .
 h
 "
@@ -31,14 +31,7 @@ include
 "
 js
 /
-RootingAPI
-.
-h
-"
-#
-include
-"
-jsapi
+TypeDecls
 .
 h
 "
