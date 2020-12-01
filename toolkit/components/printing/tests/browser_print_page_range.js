@@ -221,6 +221,15 @@ percentScale
 await
 helper
 .
+waitForPreview
+(
+(
+)
+=
+>
+{
+helper
+.
 text
 (
 helper
@@ -240,7 +249,6 @@ start
 "
 )
 ;
-await
 helper
 .
 text
@@ -260,6 +268,9 @@ end
 "
 3
 "
+)
+;
+}
 )
 ;
 await
