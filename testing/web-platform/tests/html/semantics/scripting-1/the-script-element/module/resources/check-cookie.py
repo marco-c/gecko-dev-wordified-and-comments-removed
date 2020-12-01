@@ -38,13 +38,13 @@ Origin
 "
 request
 .
-headers
+GET
 .
-get
+first
 (
 b
 "
-Origin
+origin
 "
 )
 )
