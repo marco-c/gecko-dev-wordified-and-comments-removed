@@ -62,6 +62,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+ShmemMessageUtils
+.
+h
+"
+#
+include
+"
 CrossProcessSemaphore
 .
 h

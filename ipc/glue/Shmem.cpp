@@ -22,6 +22,13 @@ h
 #
 include
 "
+ShmemMessageUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Unused

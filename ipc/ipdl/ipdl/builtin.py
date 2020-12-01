@@ -246,6 +246,16 @@ mozilla
 /
 ipc
 /
+ShmemMessageUtils
+.
+h
+"
+    
+"
+mozilla
+/
+ipc
+/
 TaintingIPCUtils
 .
 h
