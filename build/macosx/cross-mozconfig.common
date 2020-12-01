@@ -320,14 +320,6 @@ UPLOAD_PATH
 }
 "
 export
-BINDGEN_CFLAGS
-=
-"
--
-isysroot
-CROSS_SYSROOT
-"
-export
 DSYMUTIL
 =
 topsrcdir
