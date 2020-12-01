@@ -527,13 +527,13 @@ if
 mMode
 =
 =
-MODE_TRRFIRST
+2
 |
 |
 mMode
 =
 =
-MODE_TRRONLY
+3
 )
 &
 &
