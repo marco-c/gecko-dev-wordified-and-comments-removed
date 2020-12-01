@@ -1002,6 +1002,7 @@ configure_args
 raise
 FailedCommandError
 (
+                
 "
 ctypes
 required
@@ -1009,7 +1010,12 @@ in
 hazard
 JS
 shell
+mozconfig
+=
 "
++
+mozconfig_path
+            
 )
         
 os
@@ -1407,6 +1413,17 @@ FailedCommandError
 (
                 
 "
+"
+"
+\
+no
+shell
+found
+in
+%
+s
+-
+-
 must
 build
 the
@@ -1420,6 +1437,11 @@ build
 shell
 first
 "
+"
+"
+                
+%
+objdir
             
 )
     
