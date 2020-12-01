@@ -585,7 +585,7 @@ WarnOnceAbout
 dom
 :
 :
-Document
+DeprecatedOperations
 :
 :
 eMathML_DeprecatedLineThicknessValue
@@ -1151,7 +1151,7 @@ WarnOnceAbout
 dom
 :
 :
-Document
+DeprecatedOperations
 :
 :
 eMathML_DeprecatedBevelledAttribute
@@ -1819,7 +1819,7 @@ WarnOnceAbout
 dom
 :
 :
-Document
+DeprecatedOperations
 :
 :
 eMathML_DeprecatedAlignmentAttributes
@@ -1903,7 +1903,7 @@ WarnOnceAbout
 dom
 :
 :
-Document
+DeprecatedOperations
 :
 :
 eMathML_DeprecatedAlignmentAttributes
