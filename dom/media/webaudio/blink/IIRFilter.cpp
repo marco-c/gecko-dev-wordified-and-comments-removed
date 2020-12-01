@@ -14,6 +14,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
 <
 mozilla
 /
@@ -585,6 +594,9 @@ n
 0
 |
 |
+std
+:
+:
 fabs
 (
 destP
@@ -596,6 +608,9 @@ n
 FLT_MIN
 |
 |
+mozilla
+:
+:
 IsNaN
 (
 destP

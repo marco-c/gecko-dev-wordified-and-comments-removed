@@ -246,6 +246,9 @@ x
 }
 m_fftFrame
 =
+mozilla
+:
+:
 MakeUnique
 <
 FFTBlock
