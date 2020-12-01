@@ -89,7 +89,8 @@ module
 .
 exports
 =
-inspector
+(
+)
 =
 >
 {
@@ -108,7 +109,6 @@ true
 thunkOptions
 :
 {
-inspector
 }
 }
 )
