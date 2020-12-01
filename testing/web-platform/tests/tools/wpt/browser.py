@@ -4411,6 +4411,13 @@ channel
 "
 nightly
 "
+or
+channel
+=
+=
+"
+canary
+"
 :
             
 url
@@ -6231,9 +6238,14 @@ strip
 )
         
 except
+(
 subprocess
 .
 CalledProcessError
+OSError
+)
+as
+e
 :
             
 self
@@ -6248,9 +6260,15 @@ to
 call
 %
 s
+:
+%
+s
 "
 %
+(
 binary
+e
+)
 )
             
 return
@@ -6365,9 +6383,14 @@ strip
 )
         
 except
+(
 subprocess
 .
 CalledProcessError
+OSError
+)
+as
+e
 :
             
 self
@@ -6382,9 +6405,15 @@ to
 call
 %
 s
+:
+%
+s
 "
 %
+(
 webdriver_binary
+e
+)
 )
             
 return
