@@ -1282,6 +1282,7 @@ public
 Vector
 <
 FunctionIndex
+4
 >
 innerFunctionIndexesForLazy
 ;
