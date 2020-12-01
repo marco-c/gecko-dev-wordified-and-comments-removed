@@ -203,9 +203,6 @@ TempAllocator
 ;
 }
 class
-AutoClearTypeInferenceStateOnOOM
-;
-class
 AutoSweepBase
 ;
 class

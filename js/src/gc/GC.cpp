@@ -11677,12 +11677,6 @@ beginSweepTypes
 (
 )
 ;
-AutoClearTypeInferenceStateOnOOM
-oom
-(
-zone
-)
-;
 for
 (
 auto
@@ -28759,12 +28753,6 @@ sweepZone
 -
 >
 arenas
-;
-AutoClearTypeInferenceStateOnOOM
-oom
-(
-sweepZone
-)
 ;
 if
 (
