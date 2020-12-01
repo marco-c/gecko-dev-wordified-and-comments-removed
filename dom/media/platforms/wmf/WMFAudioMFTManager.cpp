@@ -1495,6 +1495,3 @@ nullptr
 ;
 }
 }
-#
-undef
-LOG
