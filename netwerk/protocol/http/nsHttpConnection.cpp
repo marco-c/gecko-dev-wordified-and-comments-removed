@@ -3470,8 +3470,10 @@ esni
 =
 false
 ;
-rv
-=
+if
+(
+NS_SUCCEEDED
+(
 mSocketTransport
 -
 >
@@ -3480,12 +3482,6 @@ GetEsniUsed
 &
 esni
 )
-;
-if
-(
-NS_SUCCEEDED
-(
-rv
 )
 )
 {
