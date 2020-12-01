@@ -26100,6 +26100,8 @@ bug_numbers
 :
 -
 1634115
+-
+1672585
 description
 :
 >
@@ -26117,7 +26119,7 @@ uninstaller
 expires
 :
 "
-85
+90
 "
 kind
 :
