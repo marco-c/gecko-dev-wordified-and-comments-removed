@@ -61103,7 +61103,6 @@ if
 parentFrame
 &
 &
-!
 parentFrame
 -
 >
@@ -61112,7 +61111,7 @@ StyleDisplay
 )
 -
 >
-IsScrollableOverflow
+OverflowIsVisibleInBothAxis
 (
 )
 )
@@ -61121,8 +61120,7 @@ return
 false
 ;
 }
-if
-(
+return
 !
 bodyFrame
 -
@@ -61132,17 +61130,9 @@ StyleDisplay
 )
 -
 >
-IsScrollableOverflow
+OverflowIsVisibleInBothAxis
 (
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 Element
