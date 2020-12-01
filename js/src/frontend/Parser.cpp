@@ -9833,8 +9833,8 @@ index
 for
 (
 const
-ScriptAtom
-&
+ParserAtom
+*
 binding
 :
 pc_
@@ -9876,6 +9876,11 @@ raw
 ScriptThingVariant
 (
 binding
+-
+>
+toIndex
+(
+)
 )
 ;
 }

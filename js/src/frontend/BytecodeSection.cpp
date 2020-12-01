@@ -431,7 +431,7 @@ operator
 )
 (
 const
-ScriptAtom
+TaggedParserAtomIndex
 &
 data
 )
@@ -440,13 +440,12 @@ JSAtom
 *
 atom
 =
-data
--
->
-toExistingJSAtom
+atomCache
+.
+getExistingAtomAt
 (
 cx
-atomCache
+data
 )
 ;
 MOZ_ASSERT
