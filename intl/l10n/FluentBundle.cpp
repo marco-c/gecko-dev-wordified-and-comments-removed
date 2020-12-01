@@ -26,6 +26,13 @@ h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h
