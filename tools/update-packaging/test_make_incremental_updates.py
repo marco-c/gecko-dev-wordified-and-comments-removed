@@ -29,30 +29,34 @@ self
 .
 work_dir
 =
-'
+"
 work_dir
-'
+"
         
 self
 .
 file_exclusion_list
 =
 [
-'
+            
+"
 update
 .
 manifest
-'
-'
+"
+            
+"
 updatev2
 .
 manifest
-'
-'
+"
+            
+"
 updatev3
 .
 manifest
-'
+"
+        
 ]
         
 self
@@ -60,12 +64,12 @@ self
 path_exclusion_list
 =
 [
-'
+"
 /
 readme
 .
 txt
-'
+"
 ]
         
 self
@@ -84,6 +88,7 @@ file_exclusion_list
 self
 .
 path_exclusion_list
+        
 )
     
 def
@@ -187,11 +192,11 @@ patch_info
 .
 append_add_instruction
 (
-'
+"
 file
 .
 test
-'
+"
 )
         
 self
@@ -249,7 +254,8 @@ patch_info
 .
 append_add_instruction
 (
-'
+            
+"
 distribution
 /
 extensions
@@ -259,7 +265,8 @@ extension
 file
 .
 test
-'
+"
+        
 )
         
 self
@@ -268,6 +275,7 @@ assertEquals
 (
             
 [
+                
 '
 add
 -
@@ -291,6 +299,7 @@ file
 test
 "
 '
+            
 ]
             
 self
@@ -298,6 +307,7 @@ self
 patch_info
 .
 manifestv2
+        
 )
         
 self
@@ -306,6 +316,7 @@ assertEquals
 (
             
 [
+                
 '
 add
 -
@@ -329,6 +340,7 @@ file
 test
 "
 '
+            
 ]
             
 self
@@ -336,6 +348,7 @@ self
 patch_info
 .
 manifestv3
+        
 )
     
 def
@@ -351,11 +364,11 @@ patch_info
 .
 append_add_if_not_instruction
 (
-'
+"
 file
 .
 test
-'
+"
 )
         
 self
@@ -375,6 +388,7 @@ self
 .
 assertEquals
 (
+            
 [
 '
 add
@@ -399,6 +413,7 @@ self
 patch_info
 .
 manifestv3
+        
 )
     
 def
@@ -414,14 +429,14 @@ patch_info
 .
 append_patch_instruction
 (
-'
+"
 file
 .
 test
-'
-'
+"
+"
 patchname
-'
+"
 )
         
 self
@@ -486,7 +501,7 @@ patch_info
 append_patch_instruction
 (
             
-'
+"
 distribution
 /
 extensions
@@ -496,10 +511,11 @@ extension
 file
 .
 test
-'
-'
+"
+"
 patchname
-'
+"
+        
 )
         
 self
@@ -508,6 +524,7 @@ assertEquals
 (
             
 [
+                
 '
 patch
 -
@@ -534,6 +551,7 @@ file
 test
 "
 '
+            
 ]
             
 self
@@ -541,6 +559,7 @@ self
 patch_info
 .
 manifestv2
+        
 )
         
 self
@@ -549,6 +568,7 @@ assertEquals
 (
             
 [
+                
 '
 patch
 -
@@ -575,6 +595,7 @@ file
 test
 "
 '
+            
 ]
             
 self
@@ -582,6 +603,7 @@ self
 patch_info
 .
 manifestv3
+        
 )
     
 def
@@ -597,11 +619,11 @@ patch_info
 .
 append_remove_instruction
 (
-'
+"
 file
 .
 test
-'
+"
 )
         
 self
@@ -659,10 +681,10 @@ patch_info
 .
 append_remove_instruction
 (
-'
+"
 dirtest
 /
-'
+"
 )
         
 self
@@ -718,11 +740,11 @@ patch_info
 .
 append_remove_instruction
 (
-'
+"
 dirtest
 /
 *
-'
+"
 )
         
 self
@@ -805,6 +827,7 @@ self
 .
 assertEquals
 (
+            
 (
 {
 }
@@ -819,17 +842,18 @@ set
 ]
 )
 )
-                          
+            
 self
 .
 patch_info
 .
 build_marfile_entry_hash
 (
-'
+"
 root_path
-'
+"
 )
+        
 )
 "
 "
@@ -1043,9 +1067,9 @@ self
         
 work_dir
 =
-'
+"
 .
-'
+"
         
 self
 .
@@ -1057,46 +1081,47 @@ PatchInfo
 work_dir
             
 [
-'
+"
 update
 .
 manifest
-'
-'
+"
+"
 updatev2
 .
 manifest
-'
-'
+"
+"
 updatev3
 .
 manifest
-'
+"
 ]
             
 [
-'
+"
 /
 readme
 .
 txt
-'
+"
 ]
+        
 )
         
 root_path
 =
-'
+"
 /
-'
+"
         
 filename
 =
-'
+"
 test
 .
 file
-'
+"
         
 self
 .
@@ -1365,56 +1390,62 @@ self
 expected
 =
 {
-'
+            
+"
 locale
-'
+"
 :
-'
+"
 lang
-'
-'
+"
+            
+"
 platform
-'
+"
 :
-'
+"
 platform
-'
-                    
-'
+"
+            
+"
 product
-'
+"
 :
-'
+"
 product
-'
-'
+"
+            
+"
 version
-'
+"
 :
-'
+"
 1
 .
 0
-'
-'
+"
+            
+"
 type
-'
+"
 :
-'
+"
 complete
-'
+"
+        
 }
         
 self
 .
 assertEquals
 (
+            
 expected
 mkup
 .
 decode_filename
 (
-'
+"
 product
 -
 1
@@ -1428,20 +1459,22 @@ platform
 complete
 .
 mar
-'
+"
 )
+        
 )
         
 self
 .
 assertEquals
 (
+            
 expected
 mkup
 .
 decode_filename
 (
-'
+"
 platform
 /
 lang
@@ -1455,8 +1488,9 @@ product
 complete
 .
 mar
-'
+"
 )
+        
 )
         
 with
@@ -1474,15 +1508,16 @@ mkup
 .
 decode_filename
 (
-'
+"
 fail
-'
+"
 )
         
 self
 .
 assertTrue
 (
+            
 cm
 .
 exception
@@ -1494,23 +1529,24 @@ args
 .
 startswith
 (
-'
+"
 could
 not
 parse
 filepath
 fail
 :
-'
+"
 )
+        
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 unittest

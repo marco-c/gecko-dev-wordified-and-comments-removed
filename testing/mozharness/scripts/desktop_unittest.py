@@ -176,51 +176,57 @@ testing_config_options
 SUITE_CATEGORIES
 =
 [
-'
+    
+"
 gtest
-'
-'
+"
+    
+"
 cppunittest
-'
-'
+"
+    
+"
 jittest
-'
-'
+"
+    
+"
 mochitest
-'
-'
+"
+    
+"
 reftest
-'
-'
+"
+    
+"
 xpcshell
-'
+"
 ]
 SUITE_DEFAULT_E10S
 =
 [
-'
+"
 mochitest
-'
-'
+"
+"
 reftest
-'
+"
 ]
 SUITE_NO_E10S
 =
 [
-'
+"
 xpcshell
-'
+"
 ]
 SUITE_REPEATABLE
 =
 [
-'
+"
 mochitest
-'
-'
+"
+"
 reftest
-'
+"
 ]
 class
 DesktopUnittest
@@ -228,27 +234,32 @@ DesktopUnittest
 TestingMixin
 MercurialScript
 MozbaseMixin
-                      
 CodeCoverageMixin
 )
 :
     
 config_options
 =
-[
+(
         
 [
+            
 [
-'
+                
+[
+                    
+"
 -
 -
 mochitest
 -
 suite
-'
+"
+                
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -256,7 +267,7 @@ action
 "
 extend
 "
-            
+                    
 "
 dest
 "
@@ -264,7 +275,7 @@ dest
 "
 specified_mochitest_suites
 "
-            
+                    
 "
 type
 "
@@ -272,7 +283,7 @@ type
 "
 string
 "
-            
+                    
 "
 help
 "
@@ -320,22 +331,27 @@ or
 a11y
 '
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
-'
+                    
+"
 -
 -
 reftest
 -
 suite
-'
+"
+                
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -343,7 +359,7 @@ action
 "
 extend
 "
-            
+                    
 "
 dest
 "
@@ -351,7 +367,7 @@ dest
 "
 specified_reftest_suites
 "
-            
+                    
 "
 type
 "
@@ -359,7 +375,7 @@ type
 "
 string
 "
-            
+                    
 "
 help
 "
@@ -401,22 +417,27 @@ or
 jsreftest
 '
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
-'
+                    
+"
 -
 -
 xpcshell
 -
 suite
-'
+"
+                
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -424,7 +445,7 @@ action
 "
 extend
 "
-            
+                    
 "
 dest
 "
@@ -432,7 +453,7 @@ dest
 "
 specified_xpcshell_suites
 "
-            
+                    
 "
 type
 "
@@ -440,7 +461,7 @@ type
 "
 string
 "
-            
+                    
 "
 help
 "
@@ -475,22 +496,27 @@ Examples
 xpcshell
 '
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
-'
+                    
+"
 -
 -
 cppunittest
 -
 suite
-'
+"
+                
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -498,7 +524,7 @@ action
 "
 extend
 "
-            
+                    
 "
 dest
 "
@@ -506,7 +532,7 @@ dest
 "
 specified_cppunittest_suites
 "
-            
+                    
 "
 type
 "
@@ -514,7 +540,7 @@ type
 "
 string
 "
-            
+                    
 "
 help
 "
@@ -550,22 +576,27 @@ Examples
 cppunittest
 '
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
-'
+                    
+"
 -
 -
 gtest
 -
 suite
-'
+"
+                
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -573,7 +604,7 @@ action
 "
 extend
 "
-            
+                    
 "
 dest
 "
@@ -581,7 +612,7 @@ dest
 "
 specified_gtest_suites
 "
-            
+                    
 "
 type
 "
@@ -589,7 +620,7 @@ type
 "
 string
 "
-            
+                    
 "
 help
 "
@@ -624,22 +655,27 @@ Examples
 gtest
 '
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
-'
+                    
+"
 -
 -
 jittest
 -
 suite
-'
+"
+                
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -647,7 +683,7 @@ action
 "
 extend
 "
-            
+                    
 "
 dest
 "
@@ -655,7 +691,7 @@ dest
 "
 specified_jittest_suites
 "
-            
+                    
 "
 type
 "
@@ -663,7 +699,7 @@ type
 "
 string
 "
-            
+                    
 "
 help
 "
@@ -700,13 +736,16 @@ Examples
 jittest
 '
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
-'
+                    
+"
 -
 -
 run
@@ -714,10 +753,12 @@ run
 all
 -
 suites
-'
+"
+                
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -725,7 +766,7 @@ action
 "
 store_true
 "
-            
+                    
 "
 dest
 "
@@ -733,13 +774,13 @@ dest
 "
 run_all_suites
 "
-            
+                    
 "
 default
 "
 :
 False
-            
+                    
 "
 help
 "
@@ -784,22 +825,27 @@ while
 ;
 )
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
-'
+                    
+"
 -
 -
 disable
 -
 e10s
-'
+"
+                
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -807,7 +853,7 @@ action
 "
 store_false
 "
-            
+                    
 "
 dest
 "
@@ -815,13 +861,13 @@ dest
 "
 e10s
 "
-            
+                    
 "
 default
 "
 :
 True
-            
+                    
 "
 help
 "
@@ -837,20 +883,25 @@ e10s
 )
 .
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
-'
+                    
+"
 -
 -
 headless
-'
+"
+                
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -858,7 +909,7 @@ action
 "
 store_true
 "
-            
+                    
 "
 dest
 "
@@ -866,13 +917,13 @@ dest
 "
 headless
 "
-            
+                    
 "
 default
 "
 :
 False
-            
+                    
 "
 help
 "
@@ -885,22 +936,27 @@ headless
 mode
 .
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
-'
+                    
+"
 -
 -
 no
 -
 random
-'
+"
+                
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -908,7 +964,7 @@ action
 "
 store_true
 "
-            
+                    
 "
 dest
 "
@@ -916,13 +972,13 @@ dest
 "
 no_random
 "
-            
+                    
 "
 default
 "
 :
 False
-            
+                    
 "
 help
 "
@@ -943,11 +999,13 @@ real
 failure
 .
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
 "
 -
@@ -957,8 +1015,9 @@ total
 chunks
 "
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -966,7 +1025,7 @@ action
 "
 store
 "
-            
+                    
 "
 dest
 "
@@ -974,7 +1033,7 @@ dest
 "
 total_chunks
 "
-            
+                    
 "
 help
 "
@@ -985,11 +1044,13 @@ of
 total
 chunks
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
 "
 -
@@ -999,8 +1060,9 @@ this
 chunk
 "
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -1008,7 +1070,7 @@ action
 "
 store
 "
-            
+                    
 "
 dest
 "
@@ -1016,7 +1078,7 @@ dest
 "
 this_chunk
 "
-            
+                    
 "
 help
 "
@@ -1027,11 +1089,13 @@ of
 this
 chunk
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
 "
 -
@@ -1045,8 +1109,9 @@ gl
 layers
 "
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -1054,7 +1119,7 @@ action
 "
 store_true
 "
-            
+                    
 "
 dest
 "
@@ -1062,13 +1127,13 @@ dest
 "
 allow_software_gl_layers
 "
-            
+                    
 "
 default
 "
 :
 False
-            
+                    
 "
 help
 "
@@ -1094,11 +1159,13 @@ GL
 compositor
 .
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
 "
 -
@@ -1108,8 +1175,9 @@ enable
 webrender
 "
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -1117,7 +1185,7 @@ action
 "
 store_true
 "
-            
+                    
 "
 dest
 "
@@ -1125,13 +1193,13 @@ dest
 "
 enable_webrender
 "
-            
+                    
 "
 default
 "
 :
 False
-            
+                    
 "
 help
 "
@@ -1145,11 +1213,13 @@ in
 Gecko
 .
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
 "
 -
@@ -1159,8 +1229,9 @@ gpu
 required
 "
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -1168,7 +1239,7 @@ action
 "
 store_true
 "
-            
+                    
 "
 dest
 "
@@ -1176,13 +1247,13 @@ dest
 "
 gpu_required
 "
-            
+                    
 "
 default
 "
 :
 False
-            
+                    
 "
 help
 "
@@ -1199,11 +1270,13 @@ gpu
 instances
 .
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
 "
 -
@@ -1211,8 +1284,9 @@ instances
 setpref
 "
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -1220,7 +1294,7 @@ action
 "
 append
 "
-            
+                    
 "
 metavar
 "
@@ -1230,7 +1304,7 @@ PREF
 =
 VALUE
 "
-            
+                    
 "
 dest
 "
@@ -1238,14 +1312,14 @@ dest
 "
 extra_prefs
 "
-            
+                    
 "
 default
 "
 :
 [
 ]
-            
+                    
 "
 help
 "
@@ -1258,20 +1332,25 @@ user
 preference
 .
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
-'
+                    
+"
 -
 -
 repeat
-'
+"
+                
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -1279,7 +1358,7 @@ action
 "
 store
 "
-            
+                    
 "
 type
 "
@@ -1287,7 +1366,7 @@ type
 "
 int
 "
-            
+                    
 "
 dest
 "
@@ -1295,13 +1374,13 @@ dest
 "
 repeat
 "
-            
+                    
 "
 default
 "
 :
 0
-            
+                    
 "
 help
 "
@@ -1328,11 +1407,13 @@ ignored
 otherwise
 .
 "
+                
 }
-         
+            
 ]
-        
+            
 [
+                
 [
 "
 -
@@ -1344,8 +1425,9 @@ xorigin
 tests
 "
 ]
+                
 {
-            
+                    
 "
 action
 "
@@ -1353,7 +1435,7 @@ action
 "
 store_true
 "
-            
+                    
 "
 dest
 "
@@ -1361,13 +1443,13 @@ dest
 "
 enable_xorigin_tests
 "
-            
+                    
 "
 default
 "
 :
 False
-            
+                    
 "
 help
 "
@@ -1382,11 +1464,13 @@ origin
 iframe
 .
 "
+                
 }
-         
+            
 ]
-    
+        
 ]
+        
 +
 copy
 .
@@ -1394,14 +1478,15 @@ deepcopy
 (
 testing_config_options
 )
-+
-\
         
++
 copy
 .
 deepcopy
 (
 code_coverage_config_options
+)
+    
 )
     
 def
@@ -1439,45 +1524,45 @@ all_actions
 =
 [
                 
-'
+"
 clobber
-'
+"
                 
-'
+"
 download
 -
 and
 -
 extract
-'
+"
                 
-'
+"
 create
 -
 virtualenv
-'
+"
                 
-'
+"
 start
 -
 pulseaudio
-'
+"
                 
-'
+"
 install
-'
+"
                 
-'
+"
 stage
 -
 files
-'
+"
                 
-'
+"
 run
 -
 tests
-'
+"
             
 ]
             
@@ -1488,12 +1573,13 @@ require_config_file
 config
 =
 {
-'
+"
 require_test_zip
-'
+"
 :
 True
 }
+        
 )
         
 c
@@ -1517,9 +1603,9 @@ c
 .
 get
 (
-'
+"
 installer_url
-'
+"
 )
         
 self
@@ -1530,9 +1616,9 @@ c
 .
 get
 (
-'
+"
 test_url
-'
+"
 )
         
 self
@@ -1543,9 +1629,9 @@ c
 .
 get
 (
-'
+"
 test_packages_url
-'
+"
 )
         
 self
@@ -1556,9 +1642,9 @@ c
 .
 get
 (
-'
+"
 symbols_url
-'
+"
 )
         
 self
@@ -1569,9 +1655,9 @@ c
 .
 get
 (
-'
+"
 installer_path
-'
+"
 )
         
 self
@@ -1582,9 +1668,9 @@ c
 .
 get
 (
-'
+"
 binary_path
-'
+"
 )
         
 self
@@ -1614,57 +1700,57 @@ suites
 (
             
 (
-'
+"
 specified_mochitest_suites
-'
-'
+"
+"
 mochitest
-'
+"
 )
             
 (
-'
+"
 specified_reftest_suites
-'
-'
+"
+"
 reftest
-'
+"
 )
             
 (
-'
+"
 specified_xpcshell_suites
-'
-'
+"
+"
 xpcshell
-'
+"
 )
             
 (
-'
+"
 specified_cppunittest_suites
-'
-'
+"
+"
 cppunit
-'
+"
 )
             
 (
-'
+"
 specified_gtest_suites
-'
-'
+"
+"
 gtest
-'
+"
 )
             
 (
-'
+"
 specified_jittest_suites
-'
-'
+"
+"
 jittest
-'
+"
 )
         
 )
@@ -1700,9 +1786,9 @@ s
 )
         
 if
-'
+"
 this_chunk
-'
+"
 in
 c
 :
@@ -1713,18 +1799,18 @@ append
 (
 c
 [
-'
+"
 this_chunk
-'
+"
 ]
 )
         
 if
 c
 [
-'
+"
 e10s
-'
+"
 ]
 :
             
@@ -1732,9 +1818,9 @@ perfherder_options
 .
 append
 (
-'
+"
 e10s
-'
+"
 )
         
 self
@@ -1742,16 +1828,18 @@ self
 resource_monitor_perfherder_id
 =
 (
-'
+            
+"
 .
-'
+"
 .
 join
 (
 perfherder_parts
 )
-                                               
+            
 perfherder_options
+        
 )
     
 def
@@ -1785,9 +1873,9 @@ c
 .
 get
 (
-'
+"
 run_all_suites
-'
+"
 )
 :
             
@@ -1805,11 +1893,11 @@ c
 .
 get
 (
-'
+"
 specified_
 %
 s_suites
-'
+"
 %
 (
 category
@@ -1824,15 +1912,16 @@ if
 specific_suites
 !
 =
-'
+"
 all
-'
+"
 :
                     
 self
 .
 fatal
 (
+                        
 "
 Config
 options
@@ -1843,7 +1932,7 @@ valid
 Please
 ensure
 "
-                               
+                        
 "
 that
 if
@@ -1861,7 +1950,7 @@ flag
 was
 enabled
 "
-                               
+                        
 "
 then
 do
@@ -1873,7 +1962,7 @@ only
 specific
 suites
 "
-                               
+                        
 "
 like
 :
@@ -1890,6 +1979,7 @@ browser
 chrome
 '
 "
+                    
 )
     
 def
@@ -1935,23 +2025,23 @@ dirs
         
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
 =
 abs_dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
         
 dirs
 [
-'
+"
 abs_app_install_dir
-'
+"
 ]
 =
 os
@@ -1960,22 +2050,24 @@ path
 .
 join
 (
+            
 abs_dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 application
-'
+"
+        
 )
         
 dirs
 [
-'
+"
 abs_test_install_dir
-'
+"
 ]
 =
 os
@@ -1986,20 +2078,20 @@ join
 (
 abs_dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 tests
-'
+"
 )
         
 dirs
 [
-'
+"
 abs_test_extensions_dir
-'
+"
 ]
 =
 os
@@ -2008,22 +2100,24 @@ path
 .
 join
 (
+            
 dirs
 [
-'
+"
 abs_test_install_dir
-'
+"
 ]
-'
+"
 extensions
-'
+"
+        
 )
         
 dirs
 [
-'
+"
 abs_test_bin_dir
-'
+"
 ]
 =
 os
@@ -2034,20 +2128,20 @@ join
 (
 dirs
 [
-'
+"
 abs_test_install_dir
-'
+"
 ]
-'
+"
 bin
-'
+"
 )
         
 dirs
 [
-'
+"
 abs_test_bin_plugins_dir
-'
+"
 ]
 =
 os
@@ -2056,23 +2150,24 @@ path
 .
 join
 (
+            
 dirs
 [
-'
+"
 abs_test_bin_dir
-'
+"
 ]
-                                                        
-'
+"
 plugins
-'
+"
+        
 )
         
 dirs
 [
-'
+"
 abs_test_bin_components_dir
-'
+"
 ]
 =
 os
@@ -2081,23 +2176,24 @@ path
 .
 join
 (
+            
 dirs
 [
-'
+"
 abs_test_bin_dir
-'
+"
 ]
-                                                           
-'
+"
 components
-'
+"
+        
 )
         
 dirs
 [
-'
+"
 abs_mochitest_dir
-'
+"
 ]
 =
 os
@@ -2106,22 +2202,24 @@ path
 .
 join
 (
+            
 dirs
 [
-'
+"
 abs_test_install_dir
-'
+"
 ]
 "
 mochitest
 "
+        
 )
         
 dirs
 [
-'
+"
 abs_reftest_dir
-'
+"
 ]
 =
 os
@@ -2132,9 +2230,9 @@ join
 (
 dirs
 [
-'
+"
 abs_test_install_dir
-'
+"
 ]
 "
 reftest
@@ -2143,9 +2241,9 @@ reftest
         
 dirs
 [
-'
+"
 abs_xpcshell_dir
-'
+"
 ]
 =
 os
@@ -2154,22 +2252,24 @@ path
 .
 join
 (
+            
 dirs
 [
-'
+"
 abs_test_install_dir
-'
+"
 ]
 "
 xpcshell
 "
+        
 )
         
 dirs
 [
-'
+"
 abs_cppunittest_dir
-'
+"
 ]
 =
 os
@@ -2178,22 +2278,24 @@ path
 .
 join
 (
+            
 dirs
 [
-'
+"
 abs_test_install_dir
-'
+"
 ]
 "
 cppunittest
 "
+        
 )
         
 dirs
 [
-'
+"
 abs_gtest_dir
-'
+"
 ]
 =
 os
@@ -2204,9 +2306,9 @@ join
 (
 dirs
 [
-'
+"
 abs_test_install_dir
-'
+"
 ]
 "
 gtest
@@ -2215,9 +2317,9 @@ gtest
         
 dirs
 [
-'
+"
 abs_blob_upload_dir
-'
+"
 ]
 =
 os
@@ -2226,23 +2328,24 @@ path
 .
 join
 (
+            
 abs_dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-                                                   
-'
+"
 blobber_upload_dir
-'
+"
+        
 )
         
 dirs
 [
-'
+"
 abs_jittest_dir
-'
+"
 ]
 =
 os
@@ -2251,13 +2354,13 @@ path
 .
 join
 (
+            
 dirs
 [
-'
+"
 abs_test_install_dir
-'
+"
 ]
-                                               
 "
 jit
 -
@@ -2268,6 +2371,7 @@ jit
 -
 test
 "
+        
 )
         
 if
@@ -2279,25 +2383,25 @@ isabs
 (
 c
 [
-'
+"
 virtualenv_path
-'
+"
 ]
 )
 :
             
 dirs
 [
-'
+"
 abs_virtualenv_dir
-'
+"
 ]
 =
 c
 [
-'
+"
 virtualenv_path
-'
+"
 ]
         
 else
@@ -2305,9 +2409,9 @@ else
             
 dirs
 [
-'
+"
 abs_virtualenv_dir
-'
+"
 ]
 =
 os
@@ -2316,19 +2420,20 @@ path
 .
 join
 (
+                
 abs_dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-                                                      
 c
 [
-'
+"
 virtualenv_path
-'
+"
 ]
+            
 )
         
 abs_dirs
@@ -2596,11 +2701,11 @@ abs_res_dir
     
 PreScriptAction
 (
-'
+"
 create
 -
 virtualenv
-'
+"
 )
     
 def
@@ -2625,9 +2730,9 @@ register_virtualenv_module
 (
 name
 =
-'
+"
 mock
-'
+"
 )
         
 self
@@ -2636,36 +2741,39 @@ register_virtualenv_module
 (
 name
 =
-'
+"
 simplejson
-'
+"
 )
         
 requirements_files
 =
 [
+            
 os
 .
 path
 .
 join
 (
+                
 dirs
 [
-'
+"
 abs_test_install_dir
-'
+"
 ]
-                              
-'
+"
 config
-'
-'
+"
+"
 marionette_requirements
 .
 txt
-'
+"
+            
 )
+        
 ]
         
 if
@@ -2673,9 +2781,9 @@ self
 .
 _query_specified_suites
 (
-'
+"
 mochitest
-'
+"
 )
 is
 not
@@ -2693,23 +2801,26 @@ path
 .
 join
 (
+                    
 dirs
 [
-'
+"
 abs_mochitest_dir
-'
+"
 ]
-                             
-'
+                    
+"
 websocketprocessbridge
-'
-                             
-'
+"
+                    
+"
 websocketprocessbridge_requirements
 .
 txt
-'
+"
+                
 )
+            
 )
         
 for
@@ -2722,15 +2833,16 @@ self
 .
 register_virtualenv_module
 (
+                
 requirements
 =
 [
 requirements_file
 ]
-                                            
 two_pass
 =
 True
+            
 )
     
 def
@@ -2796,20 +2908,20 @@ for
 ext
 in
 [
-'
+"
 .
 zip
-'
-'
+"
+"
 .
 dmg
-'
-'
+"
+"
 .
 tar
 .
 bz2
-'
+"
 ]
 :
                 
@@ -2831,14 +2943,15 @@ replace
 (
                         
 ext
-'
+"
 .
 crashreporter
 -
 symbols
 .
 zip
-'
+"
+                    
 )
             
 if
@@ -2850,6 +2963,7 @@ self
 .
 fatal
 (
+                    
 "
 self
 .
@@ -2865,6 +2979,7 @@ not
 be
 determined
 "
+                
 )
         
 else
@@ -2937,9 +3052,9 @@ environ
 .
 get
 (
-'
+"
 MOZHARNESS_TEST_PATHS
-'
+"
 '
 "
 "
@@ -2948,10 +3063,10 @@ MOZHARNESS_TEST_PATHS
 )
         
 if
-'
+"
 -
 coverage
-'
+"
 in
 suite
 :
@@ -2965,10 +3080,10 @@ suite
 .
 index
 (
-'
+"
 -
 coverage
-'
+"
 )
 ]
         
@@ -2996,9 +3111,9 @@ if
 suite_category
 =
 =
-'
+"
 reftest
-'
+"
 :
             
 dirs
@@ -3012,6 +3127,7 @@ query_abs_dirs
 suite_test_paths
 =
 [
+                
 os
 .
 path
@@ -3020,20 +3136,21 @@ join
 (
 dirs
 [
-'
+"
 abs_reftest_dir
-'
+"
 ]
-'
+"
 tests
-'
+"
 p
 )
-                                
+                
 for
 p
 in
 suite_test_paths
+            
 ]
         
 return
@@ -3072,9 +3189,9 @@ run_file
 =
 c
 [
-'
+"
 run_file_names
-'
+"
 ]
 [
 suite_category
@@ -3087,14 +3204,14 @@ self
 .
 query_python_path
 (
-'
+"
 python
-'
+"
 )
-'
+"
 -
 u
-'
+"
 ]
             
 base_cmd
@@ -3147,28 +3264,29 @@ get_indexed_logs
                 
 dirs
 [
-'
+"
 abs_blob_upload_dir
-'
+"
 ]
 suite
+            
 )
             
 str_format_values
 =
 {
                 
-'
+"
 binary_path
-'
+"
 :
 self
 .
 binary_path
                 
-'
+"
 symbols_path
-'
+"
 :
 self
 .
@@ -3176,44 +3294,44 @@ _query_symbols_url
 (
 )
                 
-'
+"
 abs_work_dir
-'
+"
 :
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
                 
-'
+"
 abs_app_dir
-'
+"
 :
 abs_app_dir
                 
-'
+"
 abs_res_dir
-'
+"
 :
 abs_res_dir
                 
-'
+"
 raw_log_file
-'
+"
 :
 raw_log_file
                 
-'
+"
 error_summary_file
-'
+"
 :
 error_summary_file
                 
-'
+"
 gtest_dir
-'
+"
 :
 os
 .
@@ -3223,14 +3341,13 @@ join
 (
 dirs
 [
-'
+"
 abs_test_install_dir
-'
+"
 ]
-                                          
-'
+"
 gtest
-'
+"
 )
             
 }
@@ -3243,9 +3360,9 @@ symbols_path
                 
 str_format_values
 [
-'
+"
 symbols_path
-'
+"
 ]
 =
 self
@@ -3267,9 +3384,9 @@ and
 not
 c
 [
-'
+"
 e10s
-'
+"
 ]
 :
                     
@@ -3277,13 +3394,13 @@ base_cmd
 .
 append
 (
-'
+"
 -
 -
 disable
 -
 e10s
-'
+"
 )
                 
 elif
@@ -3294,9 +3411,9 @@ SUITE_DEFAULT_E10S
 and
 c
 [
-'
+"
 e10s
-'
+"
 ]
 :
                     
@@ -3304,11 +3421,11 @@ base_cmd
 .
 append
 (
-'
+"
 -
 -
 e10s
-'
+"
 )
             
 if
@@ -3316,9 +3433,9 @@ c
 .
 get
 (
-'
+"
 repeat
-'
+"
 )
 :
                 
@@ -3346,9 +3463,9 @@ c
 .
 get
 (
-'
+"
 repeat
-'
+"
 )
 ]
 )
@@ -3360,6 +3477,7 @@ self
 .
 log
 (
+                        
 "
 -
 -
@@ -3375,9 +3493,11 @@ format
 (
 suite_category
 )
+                        
 level
 =
 WARNING
+                    
 )
             
 if
@@ -3419,18 +3539,18 @@ c
 .
 get
 (
-'
+"
 total_chunks
-'
+"
 )
 and
 c
 .
 get
 (
-'
+"
 this_chunk
-'
+"
 )
 :
                     
@@ -3438,43 +3558,49 @@ base_cmd
 .
 extend
 (
+                        
 [
-'
+                            
+"
 -
 -
 total
 -
 chunks
-'
+"
+                            
 c
 [
-'
+"
 total_chunks
-'
+"
 ]
-                                     
-'
+                            
+"
 -
 -
 this
 -
 chunk
-'
+"
+                            
 c
 [
-'
+"
 this_chunk
-'
+"
 ]
+                        
 ]
+                    
 )
             
 if
 c
 [
-'
+"
 no_random
-'
+"
 ]
 :
                 
@@ -3491,7 +3617,7 @@ base_cmd
 .
 append
 (
-'
+"
 -
 -
 bisect
@@ -3499,7 +3625,7 @@ bisect
 chunk
 =
 default
-'
+"
 )
                 
 else
@@ -3509,6 +3635,7 @@ self
 .
 warning
 (
+                        
 "
 -
 -
@@ -3524,19 +3651,20 @@ suites
 other
 than
 "
-                                 
+                        
 "
 mochitest
 .
 "
+                    
 )
             
 if
 c
 [
-'
+"
 headless
-'
+"
 ]
 :
                 
@@ -3544,19 +3672,19 @@ base_cmd
 .
 append
 (
-'
+"
 -
 -
 headless
-'
+"
 )
             
 if
 c
 [
-'
+"
 enable_webrender
-'
+"
 ]
 :
                 
@@ -3564,21 +3692,21 @@ base_cmd
 .
 append
 (
-'
+"
 -
 -
 enable
 -
 webrender
-'
+"
 )
             
 if
 c
 [
-'
+"
 enable_xorigin_tests
-'
+"
 ]
 :
                 
@@ -3586,7 +3714,7 @@ base_cmd
 .
 append
 (
-'
+"
 -
 -
 enable
@@ -3594,15 +3722,15 @@ enable
 xorigin
 -
 tests
-'
+"
 )
             
 if
 c
 [
-'
+"
 extra_prefs
-'
+"
 ]
 :
                 
@@ -3611,14 +3739,14 @@ base_cmd
 extend
 (
 [
-'
+"
 -
 -
 setpref
 =
 {
 }
-'
+"
 .
 format
 (
@@ -3629,9 +3757,9 @@ p
 in
 c
 [
-'
+"
 extra_prefs
-'
+"
 ]
 ]
 )
@@ -3645,16 +3773,16 @@ path
 join
 (
 abs_res_dir
-'
+"
 plugins
-'
+"
 )
             
 str_format_values
 [
-'
+"
 test_plugin_path
-'
+"
 ]
 =
 abs_res_plugins_dir
@@ -3693,20 +3821,22 @@ if
 suite
 in
 (
-'
+                
+"
 browser
 -
 chrome
 -
 coverage
-'
-'
+"
+                
+"
 xpcshell
 -
 coverage
-'
-                         
-'
+"
+                
+"
 mochitest
 -
 devtools
@@ -3714,12 +3844,14 @@ devtools
 chrome
 -
 coverage
-'
-'
+"
+                
+"
 plain
 -
 coverage
-'
+"
+            
 )
 :
                 
@@ -3727,7 +3859,7 @@ base_cmd
 .
 append
 (
-'
+"
 -
 -
 jscov
@@ -3738,14 +3870,13 @@ prefix
 =
 %
 s
-'
+"
 %
-                                
 dirs
 [
-'
+"
 abs_blob_upload_dir
-'
+"
 ]
 )
             
@@ -3788,9 +3919,9 @@ option
 .
 endswith
 (
-'
+"
 None
-'
+"
 )
 :
                         
@@ -3808,7 +3939,6 @@ structured_output
 (
                     
 suite_category
-                    
 self
 .
 _query_try_flavor
@@ -3845,6 +3975,7 @@ self
 .
 warning
 (
+                    
 "
 Suite
 options
@@ -3857,7 +3988,7 @@ be
 determined
 .
 "
-                             
+                    
 "
 \
 nIf
@@ -3870,7 +4001,7 @@ for
 this
 suite
 "
-                             
+                    
 "
 please
 make
@@ -3881,7 +4012,7 @@ specified
 in
 your
 "
-                             
+                    
 "
 config
 under
@@ -3889,11 +4020,11 @@ under
 s_options
 "
 %
-                             
 (
 suite_category
 suite_category
 )
+                
 )
             
 return
@@ -3906,6 +4037,7 @@ self
 .
 fatal
 (
+                
 "
 '
 binary_path
@@ -3920,7 +4052,7 @@ n
 This
 should
 "
-                       
+                
 "
 be
 like
@@ -3937,7 +4069,7 @@ firefox
 firefox
 '
 "
-                       
+                
 "
 \
 nIf
@@ -3952,7 +4084,7 @@ the
 install
 '
 "
-                       
+                
 "
 action
 (
@@ -3966,7 +4098,7 @@ ensure
 you
 are
 "
-                       
+                
 "
 either
 :
@@ -3983,7 +4115,7 @@ config
 file
 under
 "
-                       
+                
 "
 binary_path
 \
@@ -3999,7 +4131,7 @@ line
 with
 the
 "
-                       
+                
 "
 '
 -
@@ -4010,6 +4142,7 @@ path
 '
 flag
 "
+            
 )
     
 def
@@ -4088,12 +4221,12 @@ c
 .
 get
 (
-'
+"
 all_
 {
 }
 _suites
-'
+"
 .
 format
 (
@@ -4108,12 +4241,12 @@ c
 .
 get
 (
-'
+"
 specified_
 {
 }
 _suites
-'
+"
 .
 format
 (
@@ -4152,6 +4285,7 @@ self
 .
 fatal
 (
+                
 "
 "
 "
@@ -4176,6 +4310,7 @@ suite
 "
 "
 "
+            
 )
             
 return
@@ -4240,6 +4375,7 @@ mochitest
 "
 :
 [
+                
 (
 "
 plain
@@ -4250,7 +4386,7 @@ plain
 mochitest
 "
 )
-                          
+                
 (
 "
 browser
@@ -4265,7 +4401,7 @@ browser
 chrome
 "
 )
-                          
+                
 (
 "
 mochitest
@@ -4282,7 +4418,7 @@ devtools
 chrome
 "
 )
-                          
+                
 (
 "
 chrome
@@ -4291,6 +4427,7 @@ chrome
 chrome
 "
 )
+            
 ]
             
 "
@@ -4321,7 +4458,6 @@ reftest
 reftest
 "
 )
-                        
 (
 "
 crashtest
@@ -4384,9 +4520,9 @@ config
 .
 get
 (
-'
+"
 unstructured_flavors
-'
+"
 )
         
 if
@@ -4413,11 +4549,11 @@ unstructured_flavors
 .
 get
 (
+            
 suite_category
+        
 )
 or
-\
-                
 flavor
 in
 unstructured_flavors
@@ -4437,6 +4573,7 @@ True
 def
 get_test_output_parser
 (
+        
 self
 suite_category
 flavor
@@ -4445,10 +4582,10 @@ None
 strict
 =
 False
-                               
 *
 *
 kwargs
+    
 )
 :
         
@@ -4496,6 +4633,7 @@ suite_category
 return
 StructuredOutputParser
 (
+            
 suite_category
 =
 suite_category
@@ -4505,17 +4643,18 @@ strict
 *
 *
 kwargs
+        
 )
     
 PreScriptAction
 (
-'
+"
 download
 -
 and
 -
 extract
-'
+"
 )
     
 def
@@ -4555,9 +4694,9 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_blob_upload_dir
-'
+"
 ]
         
 self
@@ -4573,9 +4712,9 @@ self
 .
 try_message_has_flag
 (
-'
+"
 artifact
-'
+"
 )
 :
             
@@ -4585,7 +4724,7 @@ self
 .
 info
 (
-'
+"
 Artifact
 build
 requested
@@ -4593,7 +4732,7 @@ in
 try
 syntax
 .
-'
+"
 )
         
 rejected
@@ -4685,6 +4824,7 @@ self
 .
 fatal
 (
+                
 "
 There
 are
@@ -4695,7 +4835,7 @@ are
 incompatible
 with
 "
-                       
+                
 "
 -
 -
@@ -4710,20 +4850,21 @@ flag
 .
 format
 (
-'
-'
+"
+"
 .
 join
 (
 rejected
 )
 )
-                       
+                
 exit_code
 =
 self
 .
 return_code
+            
 )
     
 def
@@ -4774,9 +4915,9 @@ c
 .
 get
 (
-'
+"
 run_all_suites
-'
+"
 )
 :
             
@@ -4790,12 +4931,14 @@ else
 target_categories
 =
 [
+                
 cat
+                
 for
 cat
 in
 SUITE_CATEGORIES
-                                 
+                
 if
 self
 .
@@ -4806,6 +4949,7 @@ cat
 is
 not
 None
+            
 ]
         
 super
@@ -4816,13 +4960,14 @@ self
 .
 download_and_extract
 (
+            
 extract_dirs
 =
 extract_dirs
-                                                          
 suite_categories
 =
 target_categories
+        
 )
     
 def
@@ -4838,42 +4983,41 @@ command
 ]
         
 if
-(
 os
 .
 environ
 .
 get
 (
-'
+"
 NEED_PULSEAUDIO
-'
+"
 )
 =
 =
-'
+"
 true
-'
-)
+"
 :
             
 command
 .
 extend
 (
+                
 [
-                
-'
+                    
+"
 pulseaudio
-'
-                
-'
+"
+                    
+"
 -
 -
 daemonize
-'
-                
-'
+"
+                    
+"
 -
 -
 log
@@ -4881,9 +5025,9 @@ log
 level
 =
 4
-'
-                
-'
+"
+                    
+"
 -
 -
 log
@@ -4891,14 +5035,14 @@ log
 time
 =
 1
-'
-                
-'
+"
+                    
+"
 -
 vvvvv
-'
-                
-'
+"
+                    
+"
 -
 -
 exit
@@ -4909,9 +5053,10 @@ time
 =
 -
 1
-'
-            
+"
+                
 ]
+            
 )
             
 if
@@ -4926,9 +5071,9 @@ self
 .
 _kill_named_proc
 (
-'
+"
 pulseaudio
-'
+"
 )
                 
 self
@@ -4942,7 +5087,7 @@ self
 .
 run_command
 (
-'
+"
 pactl
 load
 -
@@ -4952,19 +5097,19 @@ module
 null
 -
 sink
-'
+"
 )
             
 self
 .
 run_command
 (
-'
+"
 pactl
 list
 modules
 short
-'
+"
 )
     
 def
@@ -4994,11 +5139,11 @@ stage
 getattr
 (
 self
-'
+"
 _stage_
 {
 }
-'
+"
 .
 format
 (
@@ -5064,9 +5209,9 @@ path
 join
 (
 abs_res_dir
-'
+"
 components
-'
+"
 )
         
 abs_res_plugins_dir
@@ -5078,9 +5223,9 @@ path
 join
 (
 abs_res_dir
-'
+"
 plugins
-'
+"
 )
         
 abs_res_extensions_dir
@@ -5092,9 +5237,9 @@ path
 join
 (
 abs_res_dir
-'
+"
 extensions
-'
+"
 )
         
 if
@@ -5111,9 +5256,9 @@ join
 (
 dirs
 [
-'
+"
 abs_test_bin_dir
-'
+"
 ]
 bin_name
 )
@@ -5133,14 +5278,15 @@ self
 .
 info
 (
-'
+                    
+"
 copying
 %
 s
 to
 %
 s
-'
+"
 %
 (
 src
@@ -5154,6 +5300,7 @@ abs_app_dir
 bin_name
 )
 )
+                
 )
                 
 shutil
@@ -5179,13 +5326,13 @@ fail_if_not_exists
 raise
 OSError
 (
-'
+"
 File
 %
 s
 not
 found
-'
+"
 %
 src
 )
@@ -5194,20 +5341,22 @@ self
 .
 copytree
 (
+            
 dirs
 [
-'
+"
 abs_test_bin_components_dir
-'
+"
 ]
-                      
+            
 abs_res_components_dir
-                      
+            
 overwrite
 =
-'
+"
 overwrite_if_exists
-'
+"
+        
 )
         
 self
@@ -5221,20 +5370,22 @@ self
 .
 copytree
 (
+            
 dirs
 [
-'
+"
 abs_test_bin_plugins_dir
-'
+"
 ]
-                      
+            
 abs_res_plugins_dir
-                      
+            
 overwrite
 =
-'
+"
 overwrite_if_exists
-'
+"
+        
 )
         
 if
@@ -5246,9 +5397,9 @@ isdir
 (
 dirs
 [
-'
+"
 abs_test_extensions_dir
-'
+"
 ]
 )
 :
@@ -5264,20 +5415,22 @@ self
 .
 copytree
 (
+                
 dirs
 [
-'
+"
 abs_test_extensions_dir
-'
+"
 ]
-                          
+                
 abs_res_extensions_dir
-                          
+                
 overwrite
 =
-'
+"
 overwrite_if_exists
-'
+"
+            
 )
     
 def
@@ -5296,9 +5449,9 @@ self
 .
 config
 [
-'
+"
 xpcshell_name
-'
+"
 ]
 )
         
@@ -5309,9 +5462,9 @@ config
 .
 get
 (
-'
+"
 http3server_name
-'
+"
 )
 :
             
@@ -5323,11 +5476,10 @@ self
 .
 config
 [
-'
+"
 http3server_name
-'
+"
 ]
-                              
 fail_if_not_exists
 =
 False
@@ -5361,9 +5513,9 @@ abs_cppunittest_dir
 =
 dirs
 [
-'
+"
 abs_cppunittest_dir
-'
+"
 ]
         
 files
@@ -5379,11 +5531,11 @@ path
 join
 (
 abs_cppunittest_dir
-'
+"
 *
 .
 js
-'
+"
 )
 )
         
@@ -5402,11 +5554,11 @@ path
 join
 (
 abs_cppunittest_dir
-'
+"
 *
 .
 manifest
-'
+"
 )
 )
 )
@@ -5461,16 +5613,16 @@ abs_gtest_dir
 =
 dirs
 [
-'
+"
 abs_gtest_dir
-'
+"
 ]
         
 dirs
 [
-'
+"
 abs_test_bin_dir
-'
+"
 ]
 =
 os
@@ -5481,13 +5633,13 @@ join
 (
 dirs
 [
-'
+"
 abs_test_install_dir
-'
+"
 ]
-'
+"
 bin
-'
+"
 )
         
 files
@@ -5504,15 +5656,15 @@ join
 (
 dirs
 [
-'
+"
 abs_test_bin_plugins_dir
-'
+"
 ]
-'
+"
 gmp
 -
 *
-'
+"
 )
 )
         
@@ -5527,13 +5679,13 @@ path
 join
 (
 abs_gtest_dir
-'
+"
 dependentlibs
 .
 list
 .
 gtest
-'
+"
 )
 )
         
@@ -5555,6 +5707,7 @@ self
 .
 copytree
 (
+            
 os
 .
 path
@@ -5562,11 +5715,10 @@ path
 join
 (
 abs_gtest_dir
-'
+"
 gtest_bin
-'
+"
 )
-                      
 os
 .
 path
@@ -5575,6 +5727,7 @@ join
 (
 abs_app_dir
 )
+        
 )
     
 def
@@ -5680,14 +5833,14 @@ self
 .
 info
 (
-'
+"
 psutil
 found
 pid
 %
 s
 dead
-'
+"
 %
 p
 .
@@ -5704,7 +5857,7 @@ self
 .
 error
 (
-'
+"
 failed
 to
 kill
@@ -5714,7 +5867,7 @@ d
 after
 %
 d
-'
+"
 %
 (
 p
@@ -5740,7 +5893,7 @@ self
 .
 error
 (
-'
+"
 Exception
 while
 trying
@@ -5751,7 +5904,7 @@ tree
 :
 %
 s
-'
+"
 %
 str
 (
@@ -5783,6 +5936,7 @@ self
 .
 info
 (
+                
 "
 Error
 importing
@@ -5802,6 +5956,7 @@ str
 (
 e
 )
+            
 )
             
 return
@@ -5839,18 +5994,18 @@ as_dict
 attrs
 =
 [
-'
+"
 pid
-'
-'
+"
+"
 ppid
-'
-'
+"
+"
 name
-'
-'
+"
+"
 username
-'
+"
 ]
 )
                     
@@ -5923,7 +6078,7 @@ self
 "
 "
 "
-            
+        
 When
 running
 on
@@ -5938,7 +6093,7 @@ XenDPriv
 exe
 running
 which
-            
+        
 interferes
 with
 the
@@ -5949,7 +6104,7 @@ this
 process
 and
 remove
-            
+        
 the
 binary
 so
@@ -5978,11 +6133,11 @@ self
 .
 _kill_named_proc
 (
-'
+"
 XenDPriv
 .
 exe
-'
+"
 )
         
 xenpath
@@ -5993,28 +6148,27 @@ path
 .
 join
 (
+            
 os
 .
 environ
 [
-'
+"
 ProgramFiles
-'
+"
 ]
-                               
-'
+"
 Citrix
-'
-                               
-'
+"
+"
 XenTools
-'
-                               
-'
+"
+"
 XenDPriv
 .
 exe
-'
+"
+        
 )
         
 try
@@ -6081,7 +6235,7 @@ self
 "
 "
 "
-           
+        
 Create
 the
 system
@@ -6095,7 +6249,7 @@ containing
 a
 variety
 of
-           
+        
 system
 information
 that
@@ -6434,6 +6588,7 @@ f
 .
 write
 (
+                            
 "
 PID
 %
@@ -6449,8 +6604,8 @@ s
 \
 n
 "
+                            
 %
-                                
 (
 p
 .
@@ -6470,6 +6625,7 @@ cmdline
 )
 ctime
 )
+                        
 )
                 
 except
@@ -6593,9 +6749,9 @@ if
 suite_category
 =
 =
-'
+"
 cppunittest
-'
+"
 :
             
 return
@@ -6616,9 +6772,9 @@ suite_category
 .
 get
 (
-'
+"
 run_timeout
-'
+"
 1000
 )
     
@@ -6718,7 +6874,7 @@ self
 .
 info
 (
-'
+"
 #
 #
 #
@@ -6727,7 +6883,7 @@ Running
 %
 s
 suites
-'
+"
 %
 suite_category
 )
@@ -6754,15 +6910,15 @@ replace_dict
 =
 {
                     
-'
+"
 abs_app_dir
-'
+"
 :
 abs_app_dir
                     
-'
+"
 abs_res_dir
-'
+"
 :
 abs_res_dir
                 
@@ -6776,13 +6932,11 @@ options_list
 env
 =
 {
-                    
-'
+"
 TEST_SUITE
-'
+"
 :
 suite
-                
 }
                 
 if
@@ -6805,24 +6959,26 @@ suite
 .
 get
 (
-'
+"
 options
-'
+"
 [
 ]
 )
                     
 if
 (
+                        
 self
 .
 verify_enabled
+                        
 or
 self
 .
 per_test_coverage
-or
                         
+or
 self
 .
 _get_mozharness_test_paths
@@ -6830,6 +6986,7 @@ _get_mozharness_test_paths
 suite_category
 suite
 )
+                    
 )
 :
                         
@@ -6850,9 +7007,9 @@ suite
 .
 get
 (
-'
+"
 tests
-'
+"
 [
 ]
 )
@@ -6870,9 +7027,9 @@ suite
 .
 get
 (
-'
+"
 env
-'
+"
 {
 }
 )
@@ -6917,9 +7074,9 @@ suite_name
 =
 suite_category
 +
-'
+"
 -
-'
+"
 +
 suite
                 
@@ -6941,27 +7098,29 @@ self
 .
 get_test_output_parser
 (
+                    
 suite_category
-                                                     
+                    
 flavor
 =
 flavor
-                                                     
+                    
 config
 =
 self
 .
 config
-                                                     
+                    
 error_list
 =
 error_list
-                                                     
+                    
 log_obj
 =
 self
 .
 log_obj
+                
 )
                 
 if
@@ -7009,7 +7168,9 @@ output
 py
 "
 )
+                        
 )
+                    
 )
                     
 parser
@@ -7032,9 +7193,9 @@ query_minidump_stackwalk
                     
 env
 [
-'
+"
 MINIDUMP_STACKWALK
-'
+"
 ]
 =
 self
@@ -7046,33 +7207,33 @@ self
 .
 config
 [
-'
+"
 nodejs_path
-'
+"
 ]
 :
                     
 env
 [
-'
+"
 MOZ_NODE_PATH
-'
+"
 ]
 =
 self
 .
 config
 [
-'
+"
 nodejs_path
-'
+"
 ]
                 
 env
 [
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 ]
 =
 self
@@ -7081,16 +7242,16 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_blob_upload_dir
-'
+"
 ]
                 
 env
 [
-'
+"
 MINIDUMP_SAVE_PATH
-'
+"
 ]
 =
 self
@@ -7099,21 +7260,21 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_blob_upload_dir
-'
+"
 ]
                 
 env
 [
-'
+"
 RUST_BACKTRACE
-'
+"
 ]
 =
-'
+"
 full
-'
+"
                 
 if
 not
@@ -7125,9 +7286,9 @@ isdir
 (
 env
 [
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 ]
 )
 :
@@ -7138,9 +7299,9 @@ mkdir_p
 (
 env
 [
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 ]
 )
                 
@@ -7149,33 +7310,33 @@ self
 .
 config
 [
-'
+"
 allow_software_gl_layers
-'
+"
 ]
 :
                     
 env
 [
-'
+"
 MOZ_LAYERS_ALLOW_SOFTWARE_GL
-'
+"
 ]
 =
-'
+"
 1
-'
+"
                 
 env
 [
-'
+"
 STYLO_THREADS
-'
+"
 ]
 =
-'
+"
 4
-'
+"
                 
 env
 =
@@ -7218,23 +7379,27 @@ suite
                     
 is_baseline_test
 =
-'
+(
+                        
+"
 baselinecoverage
-'
+"
 in
 per_test_args
 [
 -
 1
 ]
-\
-                                       
+                        
 if
 self
 .
 per_test_coverage
+                        
 else
 False
+                    
+)
                     
 if
 executed_too_many_tests
@@ -7270,6 +7435,7 @@ self
 .
 info
 (
+                                
 "
 TinderboxPrint
 :
@@ -7283,7 +7449,7 @@ Not
 all
 tests
 "
-                                      
+                                
 "
 were
 executed
@@ -7293,6 +7459,7 @@ br
 /
 >
 "
+                            
 )
                             
 return
@@ -7309,6 +7476,7 @@ self
 .
 info
 (
+                                
 "
 TinderboxPrint
 :
@@ -7321,7 +7489,7 @@ Not
 all
 tests
 "
-                                      
+                                
 "
 were
 executed
@@ -7331,6 +7499,7 @@ br
 /
 >
 "
+                            
 )
                             
 executed_too_many_tests
@@ -7364,36 +7533,40 @@ cmd
 .
 extend
 (
+                        
 self
 .
 query_options
 (
+                            
 options_list
-                                                  
 try_options
-                                                  
 str_format_values
 =
 replace_dict
+                        
 )
+                    
 )
                     
 cmd
 .
 extend
 (
+                        
 self
 .
 query_tests_args
 (
+                            
 tests_list
-                                                     
 try_tests
-                                                     
 str_format_values
 =
 replace_dict
+                        
 )
+                    
 )
                     
 final_cmd
@@ -7440,27 +7613,30 @@ self
 .
 run_command
 (
+                        
 final_cmd
+                        
 cwd
 =
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-                                                   
+                        
 output_timeout
 =
 cmd_timeout
-                                                   
+                        
 output_parser
 =
 parser
-                                                   
+                        
 env
 =
 final_env
+                    
 )
                     
 if
@@ -7473,6 +7649,7 @@ self
 .
 add_per_test_coverage_report
 (
+                            
 final_env
 suite
 per_test_args
@@ -7480,6 +7657,7 @@ per_test_args
 -
 1
 ]
+                        
 )
                     
 success_codes
@@ -7488,24 +7666,25 @@ None
                     
 if
 (
+                        
 suite_category
 =
 =
-'
+"
 reftest
-'
-                            
+"
+                        
 and
-'
+"
 32bit
-'
+"
 in
 platform
 .
 architecture
 (
 )
-                            
+                        
 and
 platform
 .
@@ -7517,6 +7696,7 @@ system
 "
 Windows
 "
+                    
 )
 :
                         
@@ -7534,11 +7714,11 @@ parser
 .
 evaluate_parser
 (
+                        
 return_code
-                                                                             
 success_codes
-                                                                             
 summary
+                    
 )
                     
 parser
@@ -7571,6 +7751,7 @@ self
 .
 log_per_test_status
 (
+                            
 per_test_args
 [
 -
@@ -7578,6 +7759,7 @@ per_test_args
 ]
 tbpl_status
 log_level
+                        
 )
                         
 if
@@ -7614,6 +7796,7 @@ self
 .
 log
 (
+                            
 "
 The
 %
@@ -7630,16 +7813,18 @@ status
 %
 s
 "
+                            
 %
-                                 
 (
 suite_category
 suite
 tbpl_status
 )
+                            
 level
 =
 log_level
+                        
 )
             
 if
@@ -7656,7 +7841,7 @@ self
 .
 debug
 (
-'
+"
 There
 were
 no
@@ -7666,7 +7851,7 @@ run
 for
 %
 s
-'
+"
 %
 suite_category
 )
@@ -7677,9 +7862,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 desktop_unittest

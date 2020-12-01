@@ -47,12 +47,9 @@ base
 .
 config
 import
-(
 DEFAULT_CONFIG_PATH
 BaseConfig
-                                    
 parse_config_file
-)
 from
 mozharness
 .
@@ -78,11 +75,8 @@ base
 .
 python
 import
-(
 PerfherderResourceOptionsMixin
-                                    
 VirtualenvMixin
-)
 from
 mozharness
 .
@@ -109,16 +103,19 @@ mozilla
 automation
 import
 (
+    
 EXIT_STATUS_DICT
+    
 TBPL_FAILURE
-                                           
+    
 TBPL_RETRY
+    
 TBPL_STATUS_DICT
-                                           
+    
 TBPL_SUCCESS
-                                           
+    
 TBPL_WORST_LEVEL_TUPLE
-                                           
+    
 AutomationMixin
 )
 from
@@ -165,9 +162,9 @@ ERROR_MSGS
 =
 {
     
-'
+"
 comments_undetermined
-'
+"
 :
 '
 "
@@ -191,9 +188,9 @@ build
 .
 '
     
-'
+"
 tooltool_manifest_undetermined
-'
+"
 :
 '
 "
@@ -215,9 +212,9 @@ TBPL_UPLOAD_ERRORS
     
 {
         
-'
+"
 regex
-'
+"
 :
 re
 .
@@ -230,9 +227,9 @@ out
 "
 )
         
-'
+"
 level
-'
+"
 :
 TBPL_RETRY
     
@@ -240,9 +237,9 @@ TBPL_RETRY
     
 {
         
-'
+"
 regex
-'
+"
 :
 re
 .
@@ -256,9 +253,9 @@ peer
 "
 )
         
-'
+"
 level
-'
+"
 :
 TBPL_RETRY
     
@@ -266,9 +263,9 @@ TBPL_RETRY
     
 {
         
-'
+"
 regex
-'
+"
 :
 re
 .
@@ -280,9 +277,9 @@ refused
 "
 )
         
-'
+"
 level
-'
+"
 :
 TBPL_RETRY
     
@@ -347,9 +344,9 @@ tbpl_error_list
 if
 error_check
 [
-'
+"
 regex
-'
+"
 ]
 .
 search
@@ -383,10 +380,11 @@ worst_level
                     
 error_check
 [
-'
+"
 level
-'
+"
 ]
+                    
 self
 .
 tbpl_status
@@ -527,15 +525,15 @@ dict
 COMPOSITE_KEYS
 =
 {
-'
+"
 mozconfig_variant
-'
-'
+"
+"
 app_name
-'
-'
+"
+"
 mozconfig_platform
-'
+"
 }
     
 have_composite_mozconfig
@@ -556,7 +554,6 @@ have_partial_composite_mozconfig
 =
 len
 (
-        
 COMPOSITE_KEYS
 &
 set
@@ -573,17 +570,17 @@ keys
     
 have_src_mozconfig
 =
-'
+"
 src_mozconfig
-'
+"
 in
 config
     
 have_src_mozconfig_manifest
 =
-'
+"
 src_mozconfig_manifest
-'
+"
 in
 config
     
@@ -628,6 +625,7 @@ the
 mozconfig
 .
 "
+        
 )
     
 elif
@@ -667,6 +665,7 @@ the
 mozconfig
 .
 "
+        
 )
     
 elif
@@ -706,6 +705,7 @@ the
 mozconfig
 .
 "
+        
 )
     
 elif
@@ -745,6 +745,7 @@ the
 mozconfig
 .
 "
+        
 )
     
 elif
@@ -753,7 +754,7 @@ have_composite_mozconfig
         
 src_mozconfig
 =
-'
+"
 %
 (
 app_name
@@ -775,41 +776,41 @@ s
 variant
 )
 s
-'
+"
 %
 {
             
-'
+"
 app_name
-'
+"
 :
 config
 [
-'
+"
 app_name
-'
+"
 ]
             
-'
+"
 platform
-'
+"
 :
 config
 [
-'
+"
 mozconfig_platform
-'
+"
 ]
             
-'
+"
 variant
-'
+"
 :
 config
 [
-'
+"
 mozconfig_variant
-'
+"
 ]
         
 }
@@ -824,9 +825,9 @@ join
 (
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
 src_mozconfig
 )
@@ -846,18 +847,19 @@ join
             
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
 config
 .
 get
 (
-'
+"
 src_mozconfig
-'
+"
 )
+        
 )
     
 elif
@@ -872,19 +874,17 @@ path
 .
 join
 (
-            
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-            
 config
 [
-'
+"
 src_mozconfig_manifest
-'
+"
 ]
 )
         
@@ -920,10 +920,10 @@ exist
 ?
 '
 %
-                
 (
 manifest
 )
+            
 )
         
 else
@@ -965,8 +965,8 @@ read
 properties
 "
 %
-                        
 manifest
+                    
 )
                 
 abs_mozconfig_path
@@ -980,9 +980,9 @@ join
                     
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
 json
 .
@@ -991,10 +991,11 @@ load
 fh
 )
 [
-'
+"
 gecko_path
-'
+"
 ]
+                
 )
     
 else
@@ -1045,6 +1046,7 @@ the
 mozconfig
 .
 "
+        
 )
     
 return
@@ -1167,8 +1169,8 @@ variant_cfg_file
 =
 pool_cfg_file
 =
-'
-'
+"
+"
         
 for
 i
@@ -1252,7 +1254,6 @@ self
 get_cfgs_from_files
 (
 all_config_files
-                                                            
 options
 )
         
@@ -1284,9 +1285,9 @@ options
 config_paths
 or
 [
-'
+"
 .
-'
+"
 ]
         
 if
@@ -1299,7 +1300,6 @@ parse_config_file
 (
                 
 pool_cfg_file
-                
 search_path
 =
 config_paths
@@ -1307,6 +1307,7 @@ config_paths
 [
 DEFAULT_CONFIG_PATH
 ]
+            
 )
             
 all_config_dicts
@@ -1347,15 +1348,15 @@ build_variants
 =
 {
         
-'
+"
 add
 -
 on
 -
 devel
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1370,13 +1371,13 @@ on
 devel
 .
 py
-'
+"
         
-'
+"
 asan
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1387,15 +1388,15 @@ s_configs
 s_asan
 .
 py
-'
+"
         
-'
+"
 asan
 -
 tc
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1406,17 +1407,17 @@ s_configs
 s_asan_tc
 .
 py
-'
+"
         
-'
+"
 asan
 -
 reporter
 -
 tc
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1427,17 +1428,17 @@ s_configs
 s_asan_reporter_tc
 .
 py
-'
+"
         
-'
+"
 fuzzing
 -
 asan
 -
 tc
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1448,15 +1449,15 @@ s_configs
 s_fuzzing_asan_tc
 .
 py
-'
+"
         
-'
+"
 tsan
 -
 tc
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1467,17 +1468,17 @@ s_configs
 s_tsan_tc
 .
 py
-'
+"
         
-'
+"
 fuzzing
 -
 tsan
 -
 tc
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1488,15 +1489,15 @@ s_configs
 s_fuzzing_tsan_tc
 .
 py
-'
+"
         
-'
+"
 cross
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1507,17 +1508,17 @@ s_configs
 s_cross_debug
 .
 py
-'
+"
         
-'
+"
 cross
 -
 debug
 -
 searchfox
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1528,17 +1529,17 @@ s_configs
 s_cross_debug_searchfox
 .
 py
-'
+"
         
-'
+"
 cross
 -
 noopt
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1549,17 +1550,17 @@ s_configs
 s_cross_noopt_debug
 .
 py
-'
+"
         
-'
+"
 cross
 -
 fuzzing
 -
 asan
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1570,17 +1571,17 @@ s_configs
 s_cross_fuzzing_asan
 .
 py
-'
+"
         
-'
+"
 cross
 -
 fuzzing
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1591,13 +1592,13 @@ s_configs
 s_cross_fuzzing_debug
 .
 py
-'
+"
         
-'
+"
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1608,15 +1609,15 @@ s_configs
 s_debug
 .
 py
-'
+"
         
-'
+"
 fuzzing
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1627,17 +1628,17 @@ s_configs
 s_fuzzing_debug
 .
 py
-'
+"
         
-'
+"
 asan
 -
 and
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1648,9 +1649,9 @@ s_configs
 s_asan_and_debug
 .
 py
-'
+"
         
-'
+"
 asan
 -
 tc
@@ -1658,9 +1659,9 @@ tc
 and
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1671,17 +1672,17 @@ s_configs
 s_asan_tc_and_debug
 .
 py
-'
+"
         
-'
+"
 stat
 -
 and
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1692,17 +1693,17 @@ s_configs
 s_stat_and_debug
 .
 py
-'
+"
         
-'
+"
 code
 -
 coverage
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1713,17 +1714,17 @@ s_configs
 s_code_coverage_debug
 .
 py
-'
+"
         
-'
+"
 code
 -
 coverage
 -
 opt
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1734,13 +1735,13 @@ s_configs
 s_code_coverage_opt
 .
 py
-'
+"
         
-'
+"
 source
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1751,15 +1752,15 @@ s_configs
 s_source
 .
 py
-'
+"
         
-'
+"
 noopt
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1770,9 +1771,9 @@ s_configs
 s_noopt_debug
 .
 py
-'
+"
         
-'
+"
 api
 -
 16
@@ -1780,10 +1781,9 @@ api
 gradle
 -
 dependencies
-'
+"
 :
-            
-'
+"
 builds
 /
 releng_sub_
@@ -1794,15 +1794,15 @@ s_configs
 s_api_16_gradle_dependencies
 .
 py
-'
+"
         
-'
+"
 api
 -
 16
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1813,17 +1813,17 @@ s_configs
 s_api_16
 .
 py
-'
+"
         
-'
+"
 api
 -
 16
 -
 beta
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1834,9 +1834,9 @@ s_configs
 s_api_16_beta
 .
 py
-'
+"
         
-'
+"
 api
 -
 16
@@ -1844,9 +1844,9 @@ api
 beta
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1857,17 +1857,17 @@ s_configs
 s_api_16_beta_debug
 .
 py
-'
+"
         
-'
+"
 api
 -
 16
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1878,9 +1878,9 @@ s_configs
 s_api_16_debug
 .
 py
-'
+"
         
-'
+"
 api
 -
 16
@@ -1888,9 +1888,9 @@ api
 debug
 -
 ccov
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1901,9 +1901,9 @@ s_configs
 s_api_16_debug_ccov
 .
 py
-'
+"
         
-'
+"
 api
 -
 16
@@ -1911,9 +1911,9 @@ api
 debug
 -
 searchfox
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1924,17 +1924,17 @@ s_configs
 s_api_16_debug_searchfox
 .
 py
-'
+"
         
-'
+"
 api
 -
 16
 -
 gradle
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1945,9 +1945,9 @@ s_configs
 s_api_16_gradle
 .
 py
-'
+"
         
-'
+"
 api
 -
 16
@@ -1955,9 +1955,9 @@ api
 profile
 -
 generate
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1968,13 +1968,13 @@ s_configs
 s_api_16_profile_generate
 .
 py
-'
+"
         
-'
+"
 rusttests
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -1985,15 +1985,15 @@ s_configs
 s_rusttests
 .
 py
-'
+"
         
-'
+"
 rusttests
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2004,13 +2004,13 @@ s_configs
 s_rusttests_debug
 .
 py
-'
+"
         
-'
+"
 x86
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2021,15 +2021,15 @@ s_configs
 s_x86
 .
 py
-'
+"
         
-'
+"
 x86
 -
 beta
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2040,17 +2040,17 @@ s_configs
 s_x86_beta
 .
 py
-'
+"
         
-'
+"
 x86
 -
 beta
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2061,15 +2061,15 @@ s_configs
 s_x86_beta_debug
 .
 py
-'
+"
         
-'
+"
 x86
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2080,17 +2080,17 @@ s_configs
 s_x86_debug
 .
 py
-'
+"
         
-'
+"
 x86
 -
 fuzzing
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2101,13 +2101,13 @@ s_configs
 s_x86_fuzzing_debug
 .
 py
-'
+"
         
-'
+"
 x86_64
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2118,15 +2118,15 @@ s_configs
 s_x86_64
 .
 py
-'
+"
         
-'
+"
 x86_64
 -
 beta
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2137,17 +2137,17 @@ s_configs
 s_x86_64_beta
 .
 py
-'
+"
         
-'
+"
 x86_64
 -
 beta
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2158,15 +2158,15 @@ s_configs
 s_x86_64_beta_debug
 .
 py
-'
+"
         
-'
+"
 x86_64
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2177,17 +2177,17 @@ s_configs
 s_x86_64_debug
 .
 py
-'
+"
         
-'
+"
 x86_64
 -
 fuzzing
 -
 asan
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2198,9 +2198,9 @@ s_configs
 s_x86_64_fuzzing_asan
 .
 py
-'
+"
         
-'
+"
 api
 -
 16
@@ -2208,9 +2208,9 @@ api
 partner
 -
 sample1
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2221,13 +2221,13 @@ s_configs
 s_api_16_partner_sample1
 .
 py
-'
+"
         
-'
+"
 aarch64
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2238,15 +2238,15 @@ s_configs
 s_aarch64
 .
 py
-'
+"
         
-'
+"
 aarch64
 -
 beta
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2257,17 +2257,17 @@ s_configs
 s_aarch64_beta
 .
 py
-'
+"
         
-'
+"
 aarch64
 -
 beta
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2278,15 +2278,15 @@ s_configs
 s_aarch64_beta_debug
 .
 py
-'
+"
         
-'
+"
 aarch64
 -
 pgo
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2297,15 +2297,15 @@ s_configs
 s_aarch64_pgo
 .
 py
-'
+"
         
-'
+"
 aarch64
 -
 debug
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2316,17 +2316,17 @@ s_configs
 s_aarch64_debug
 .
 py
-'
+"
         
-'
+"
 android
 -
 geckoview
 -
 docs
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2337,13 +2337,13 @@ s_configs
 s_geckoview_docs
 .
 py
-'
+"
         
-'
+"
 valgrind
-'
+"
 :
-'
+"
 builds
 /
 releng_sub_
@@ -2354,19 +2354,19 @@ s_configs
 s_valgrind
 .
 py
-'
+"
     
 }
     
 build_pool_cfg_file
 =
-'
+"
 builds
 /
 build_pool_specifics
 .
 py
-'
+"
     
 classmethod
     
@@ -2420,7 +2420,7 @@ error_msg
 =
 (
             
-'
+"
 Whoops
 !
 \
@@ -2432,9 +2432,9 @@ pass
 a
 shortname
 for
-'
+"
             
-'
+"
 %
 s
 .
@@ -2451,7 +2451,7 @@ to
 find
 the
 appropriate
-'
+"
             
 '
 filename
@@ -2497,7 +2497,7 @@ case
 these
 '
             
-'
+"
 option
 arguments
 must
@@ -2511,7 +2511,7 @@ build
 -
 variant
 .
-'
+"
         
 )
         
@@ -2538,9 +2538,9 @@ current_config_files
 :
                 
 if
-'
+"
 32
-'
+"
 in
 cfg_file_name
 :
@@ -2549,16 +2549,16 @@ cls
 .
 bits
 =
-'
+"
 32
-'
+"
                     
 break
                 
 if
-'
+"
 64
-'
+"
 in
 cfg_file_name
 :
@@ -2567,9 +2567,9 @@ cls
 .
 bits
 =
-'
+"
 64
-'
+"
                     
 break
             
@@ -2584,15 +2584,14 @@ error_msg
 %
 (
 target_option
-'
+"
 bits
-'
-'
+"
+"
 -
 -
 bits
-'
-                                      
+"
 '
 "
 32
@@ -2619,9 +2618,9 @@ current_config_files
 :
                 
 if
-'
+"
 windows
-'
+"
 in
 cfg_file_name
 :
@@ -2630,16 +2629,16 @@ cls
 .
 platform
 =
-'
+"
 windows
-'
+"
                     
 break
                 
 if
-'
+"
 mac
-'
+"
 in
 cfg_file_name
 :
@@ -2648,16 +2647,16 @@ cls
 .
 platform
 =
-'
+"
 mac
-'
+"
                     
 break
                 
 if
-'
+"
 linux
-'
+"
 in
 cfg_file_name
 :
@@ -2666,16 +2665,16 @@ cls
 .
 platform
 =
-'
+"
 linux
-'
+"
                     
 break
                 
 if
-'
+"
 android
-'
+"
 in
 cfg_file_name
 :
@@ -2684,9 +2683,9 @@ cls
 .
 platform
 =
-'
+"
 android
-'
+"
                     
 break
             
@@ -2699,21 +2698,22 @@ exit
 (
                     
 error_msg
-%
                     
+%
 (
+                        
 target_option
-                     
-'
+                        
+"
 platform
-'
-                     
-'
+"
+                        
+"
 -
 -
 platform
-'
-                     
+"
+                        
 '
 "
 linux
@@ -2729,7 +2729,9 @@ or
 android
 "
 '
+                    
 )
+                
 )
         
 return
@@ -2872,7 +2874,6 @@ path
 join
 (
 path
-                                                          
 prospective_cfg_path
 )
                     
@@ -2941,7 +2942,7 @@ cls
 find_variant_cfg_path
 (
             
-'
+"
 -
 -
 custom
@@ -2951,9 +2952,10 @@ build
 variant
 -
 cfg
-'
+"
 value
 parser
+        
 )
         
 if
@@ -3045,8 +3047,8 @@ and
 bits
 .
 "
-%
                 
+%
 (
 prospective_cfg_path
 str
@@ -3063,6 +3065,7 @@ keys
 )
 )
 )
+            
 )
         
 parser
@@ -3212,17 +3215,19 @@ BUILD_BASE_CONFIG_OPTIONS
 [
     
 [
+        
 [
-'
+"
 -
 -
 developer
 -
 run
-'
+"
 ]
-{
         
+{
+            
 "
 action
 "
@@ -3230,7 +3235,7 @@ action
 "
 store_false
 "
-        
+            
 "
 dest
 "
@@ -3238,13 +3243,13 @@ dest
 "
 is_automation
 "
-        
+            
 "
 default
 "
 :
 True
-        
+            
 "
 help
 "
@@ -3261,7 +3266,7 @@ Mozilla
 s
 build
 "
-                
+            
 "
 infrastructure
 use
@@ -3272,7 +3277,7 @@ It
 ignores
 actions
 "
-                
+            
 "
 that
 are
@@ -3284,19 +3289,23 @@ config
 checks
 .
 "
+        
 }
+    
 ]
     
 [
+        
 [
-'
+"
 -
 -
 platform
-'
+"
 ]
-{
         
+{
+            
 "
 action
 "
@@ -3304,7 +3313,7 @@ action
 "
 callback
 "
-        
+            
 "
 callback
 "
@@ -3312,7 +3321,7 @@ callback
 BuildOptionParser
 .
 set_platform
-        
+            
 "
 type
 "
@@ -3320,7 +3329,7 @@ type
 "
 string
 "
-        
+            
 "
 dest
 "
@@ -3328,7 +3337,7 @@ dest
 "
 platform
 "
-        
+            
 "
 help
 "
@@ -3343,7 +3352,7 @@ running
 this
 against
 "
-                
+            
 "
 valid
 values
@@ -3358,19 +3367,23 @@ mac
 linux
 '
 "
+        
 }
+    
 ]
     
 [
+        
 [
-'
+"
 -
 -
 bits
-'
+"
 ]
-{
         
+{
+            
 "
 action
 "
@@ -3378,7 +3391,7 @@ action
 "
 callback
 "
-        
+            
 "
 callback
 "
@@ -3386,7 +3399,7 @@ callback
 BuildOptionParser
 .
 set_bits
-        
+            
 "
 type
 "
@@ -3394,7 +3407,7 @@ type
 "
 string
 "
-        
+            
 "
 dest
 "
@@ -3402,7 +3415,7 @@ dest
 "
 bits
 "
-        
+            
 "
 help
 "
@@ -3417,7 +3430,7 @@ building
 this
 against
 "
-                
+            
 "
 valid
 values
@@ -3429,12 +3442,15 @@ values
 64
 '
 "
+        
 }
+    
 ]
     
 [
+        
 [
-'
+"
 -
 -
 custom
@@ -3444,10 +3460,11 @@ build
 variant
 -
 cfg
-'
+"
 ]
-{
         
+{
+            
 "
 action
 "
@@ -3455,7 +3472,7 @@ action
 "
 callback
 "
-        
+            
 "
 callback
 "
@@ -3463,7 +3480,7 @@ callback
 BuildOptionParser
 .
 set_build_variant
-        
+            
 "
 type
 "
@@ -3471,7 +3488,7 @@ type
 "
 string
 "
-        
+            
 "
 dest
 "
@@ -3479,7 +3496,7 @@ dest
 "
 build_variant
 "
-        
+            
 "
 help
 "
@@ -3494,7 +3511,7 @@ will
 determine
 appropriate
 "
-                
+            
 "
 additional
 config
@@ -3507,7 +3524,7 @@ a
 config
 path
 "
-                
+            
 "
 or
 use
@@ -3517,7 +3534,7 @@ shortname
 from
 :
 "
-                
+            
 "
 %
 s
@@ -3535,21 +3552,25 @@ keys
 )
 )
 )
+        
 }
+    
 ]
     
 [
+        
 [
-'
+"
 -
 -
 build
 -
 pool
-'
+"
 ]
-{
         
+{
+            
 "
 action
 "
@@ -3557,7 +3578,7 @@ action
 "
 callback
 "
-        
+            
 "
 callback
 "
@@ -3565,7 +3586,7 @@ callback
 BuildOptionParser
 .
 set_build_pool
-        
+            
 "
 type
 "
@@ -3573,7 +3594,7 @@ type
 "
 string
 "
-        
+            
 "
 dest
 "
@@ -3581,7 +3602,7 @@ dest
 "
 build_pool
 "
-        
+            
 "
 help
 "
@@ -3596,7 +3617,7 @@ with
 specific
 pool
 "
-                
+            
 "
 environment
 keys
@@ -3609,7 +3630,7 @@ for
 this
 are
 "
-                
+            
 "
 in
 %
@@ -3621,33 +3642,37 @@ values
 staging
 or
 "
-                
+            
 "
 production
 "
 %
 (
-'
+"
 builds
 /
 build_pool_specifics
 .
 py
-'
+"
 )
+        
 }
+    
 ]
     
 [
+        
 [
-'
+"
 -
 -
 branch
-'
+"
 ]
-{
         
+{
+            
 "
 action
 "
@@ -3655,7 +3680,7 @@ action
 "
 callback
 "
-        
+            
 "
 callback
 "
@@ -3663,7 +3688,7 @@ callback
 BuildOptionParser
 .
 set_build_branch
-        
+            
 "
 type
 "
@@ -3671,7 +3696,7 @@ type
 "
 string
 "
-        
+            
 "
 dest
 "
@@ -3679,7 +3704,7 @@ dest
 "
 branch
 "
-        
+            
 "
 help
 "
@@ -3697,21 +3722,25 @@ this
 for
 .
 "
+        
 }
+    
 ]
     
 [
+        
 [
-'
+"
 -
 -
 enable
 -
 nightly
-'
+"
 ]
-{
         
+{
+            
 "
 action
 "
@@ -3719,7 +3748,7 @@ action
 "
 store_true
 "
-        
+            
 "
 dest
 "
@@ -3727,13 +3756,13 @@ dest
 "
 nightly_build
 "
-        
+            
 "
 default
 "
 :
 False
-        
+            
 "
 help
 "
@@ -3748,19 +3777,23 @@ in
 nightly
 mode
 "
+        
 }
+    
 ]
     
 [
+        
 [
-'
+"
 -
 -
 who
-'
+"
 ]
-{
         
+{
+            
 "
 dest
 "
@@ -3768,14 +3801,14 @@ dest
 "
 who
 "
-        
+            
 "
 default
 "
 :
-'
-'
-        
+"
+"
+            
 "
 help
 "
@@ -3790,7 +3823,9 @@ the
 change
 .
 "
+        
 }
+    
 ]
 ]
 def
@@ -3846,12 +3881,15 @@ hex
 class
 BuildScript
 (
+    
 AutomationMixin
-                  
+    
 VirtualenvMixin
+    
 MercurialScript
-                  
+    
 SecretsMixin
+    
 PerfherderResourceOptionsMixin
 )
 :
@@ -3917,9 +3955,9 @@ config
 .
 get
 (
-'
+"
 branch
-'
+"
 )
         
 self
@@ -3932,9 +3970,9 @@ config
 .
 get
 (
-'
+"
 stage_platform
-'
+"
 )
         
 if
@@ -4060,11 +4098,11 @@ c
 .
 get
 (
-'
+"
 build_pool
-'
-'
-'
+"
+"
+"
 )
         
 build_variant
@@ -4073,17 +4111,17 @@ c
 .
 get
 (
-'
+"
 build_variant
-'
-'
-'
+"
+"
+"
 )
         
 variant_cfg
 =
-'
-'
+"
+"
         
 if
 build_variant
@@ -4199,30 +4237,31 @@ info
 (
                     
 cfg_match_msg
+                    
 %
 {
                         
-'
+"
 option
-'
+"
 :
-'
+"
 -
 -
 build
 -
 pool
-'
+"
                         
-'
+"
 type
-'
+"
 :
 build_pool
                         
-'
+"
 type_config_file
-'
+"
 :
 build_pool_cfg
                     
@@ -4244,14 +4283,15 @@ info
 (
                     
 cfg_match_msg
+                    
 %
 {
                         
-'
+"
 option
-'
+"
 :
-'
+"
 -
 -
 custom
@@ -4261,17 +4301,17 @@ build
 variant
 -
 cfg
-'
+"
                         
-'
+"
 type
-'
+"
 :
 build_variant
                         
-'
+"
 type_config_file
-'
+"
 :
 variant_cfg
                     
@@ -4283,7 +4323,8 @@ self
 .
 info
 (
-'
+            
+"
 To
 generate
 a
@@ -4294,9 +4335,9 @@ upon
 options
 passed
 and
-'
-                  
-'
+"
+            
+"
 config
 files
 used
@@ -4307,8 +4348,8 @@ before
 but
 extend
 options
-'
-                  
+"
+            
 '
 with
 "
@@ -4319,13 +4360,15 @@ dump
 config
 "
 '
+        
 )
         
 self
 .
 info
 (
-'
+            
+"
 For
 a
 diff
@@ -4337,9 +4380,9 @@ config
 got
 its
 items
-'
-                  
-'
+"
+            
+"
 run
 the
 script
@@ -4351,8 +4394,8 @@ extend
 options
 with
 :
-'
-                  
+"
+            
 '
 "
 -
@@ -4364,12 +4407,14 @@ config
 hierarchy
 "
 '
+        
 )
         
 self
 .
 info
 (
+            
 "
 Both
 -
@@ -4389,7 +4434,7 @@ don
 '
 t
 "
-                  
+            
 "
 actually
 run
@@ -4397,6 +4442,7 @@ any
 actions
 .
 "
+        
 )
     
 def
@@ -4425,9 +4471,9 @@ config
 .
 get
 (
-'
+"
 objdir
-'
+"
 )
 :
             
@@ -4439,9 +4485,9 @@ fatal
 MISSING_CFG_KEY_MSG
 %
 (
-'
+"
 objdir
-'
+"
 )
 )
         
@@ -4453,9 +4499,9 @@ self
 .
 config
 [
-'
+"
 objdir
-'
+"
 ]
         
 return
@@ -4478,9 +4524,9 @@ config
 .
 get
 (
-'
+"
 enable_nightly_promotion
-'
+"
 )
         
 branch_enabled
@@ -4495,10 +4541,9 @@ config
 .
 get
 (
-            
-'
+"
 nightly_promotion_branches
-'
+"
 )
         
 return
@@ -4528,7 +4573,6 @@ copy
 .
 deepcopy
 (
-            
 super
 (
 BuildScript
@@ -4541,7 +4585,6 @@ query_env
 *
 kwargs
 )
-        
 )
         
 if
@@ -4563,9 +4606,9 @@ c
 .
 get
 (
-'
+"
 update_channel
-'
+"
 )
 :
                 
@@ -4573,9 +4616,9 @@ update_channel
 =
 c
 [
-'
+"
 update_channel
-'
+"
 ]
                 
 if
@@ -4637,7 +4680,6 @@ self
 .
 info
 (
-                
 "
 Update
 channel
@@ -4650,7 +4692,6 @@ to
 .
 format
 (
-                    
 env
 [
 "
@@ -4697,9 +4738,9 @@ c
 .
 get
 (
-'
+"
 multi_locale
-'
+"
 False
 )
         
@@ -4713,9 +4754,9 @@ c
 .
 get
 (
-'
+"
 upload_env
-'
+"
 )
 :
             
@@ -4725,9 +4766,9 @@ update
 (
 c
 [
-'
+"
 upload_env
-'
+"
 ]
 )
         
@@ -4740,25 +4781,25 @@ config
 .
 get
 (
-'
+"
 taskcluster_nightly
-'
+"
 )
 :
             
 if
-'
+"
 UPLOAD_PATH
-'
+"
 in
 mach_env
 :
                 
 mach_env
 [
-'
+"
 UPLOAD_PATH
-'
+"
 ]
 =
 os
@@ -4769,16 +4810,15 @@ join
 (
 mach_env
 [
-'
+"
 UPLOAD_PATH
-'
+"
 ]
-                                                       
-'
+"
 en
 -
 US
-'
+"
 )
         
 return
@@ -4828,6 +4868,7 @@ config
 dirs
 =
 dirs
+            
 )
         
 except
@@ -4917,26 +4958,24 @@ copyfile
 (
             
 abs_mozconfig_path
-            
 os
 .
 path
 .
 join
 (
-                
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
-                
-'
+"
 .
 mozconfig
-'
+"
 )
+        
 )
     
 def
@@ -4947,9 +4986,9 @@ self
 :
         
 if
-'
+"
 tooltool_authentication_file
-'
+"
 in
 self
 .
@@ -4962,9 +5001,9 @@ self
 .
 config
 [
-'
+"
 tooltool_authentication_file
-'
+"
 ]
         
 elif
@@ -4978,7 +5017,7 @@ _is_windows
 fn
 =
 r
-'
+"
 c
 :
 \
@@ -4987,21 +5026,21 @@ builds
 relengapi
 .
 tok
-'
+"
         
 else
 :
             
 fn
 =
-'
+"
 /
 builds
 /
 relengapi
 .
 tok
-'
+"
         
 if
 os
@@ -5065,9 +5104,9 @@ environ
 .
 get
 (
-'
+"
 MOZ_TOOLCHAINS
-'
+"
 )
         
 manifest_src
@@ -5078,9 +5117,9 @@ environ
 .
 get
 (
-'
+"
 TOOLTOOL_MANIFEST
-'
+"
 )
         
 if
@@ -5094,9 +5133,9 @@ c
 .
 get
 (
-'
+"
 tooltool_manifest_src
-'
+"
 )
         
 if
@@ -5114,9 +5153,9 @@ warning
 (
 ERROR_MSGS
 [
-'
+"
 tooltool_manifest_undetermined
-'
+"
 ]
 )
         
@@ -5127,10 +5166,11 @@ cmd
 sys
 .
 executable
-'
+            
+"
 -
 u
-'
+"
             
 os
 .
@@ -5140,44 +5180,45 @@ join
 (
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
-'
+"
 mach
-'
+"
 )
             
-'
+"
 artifact
-'
+"
             
-'
+"
 toolchain
-'
+"
             
-'
+"
 -
 v
-'
+"
             
-'
+"
 -
 -
 retry
-'
-'
-4
-'
+"
             
-'
+"
+4
+"
+            
+"
 -
 -
 artifact
 -
 manifest
-'
+"
             
 os
 .
@@ -5187,15 +5228,15 @@ join
 (
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
-'
+"
 toolchains
 .
 json
-'
+"
 )
         
 ]
@@ -5208,16 +5249,17 @@ cmd
 .
 extend
 (
-[
                 
-'
+[
+                    
+"
 -
 -
 tooltool
 -
 manifest
-'
-                
+"
+                    
 os
 .
 path
@@ -5226,14 +5268,15 @@ join
 (
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
 manifest_src
 )
-            
+                
 ]
+            
 )
             
 auth_file
@@ -5253,13 +5296,13 @@ cmd
 extend
 (
 [
-'
+"
 -
 -
 authentication
 -
 file
-'
+"
 auth_file
 ]
 )
@@ -5268,16 +5311,16 @@ cache
 =
 c
 [
-'
+"
 env
-'
+"
 ]
 .
 get
 (
-'
+"
 TOOLTOOL_CACHE
-'
+"
 )
         
 if
@@ -5289,13 +5332,13 @@ cmd
 extend
 (
 [
-'
+"
 -
 -
 cache
 -
 dir
-'
+"
 cache
 ]
 )
@@ -5334,14 +5377,13 @@ cwd
 =
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
 halt_on_failure
 =
 True
-                         
 env
 =
 env
@@ -5376,9 +5418,9 @@ env
 .
 get
 (
-'
+"
 MOZBUILD_STATE_PATH
-'
+"
 )
         
 if
@@ -5399,6 +5441,7 @@ self
 .
 warning
 (
+                
 "
 mozbuild_path
 could
@@ -5408,12 +5451,12 @@ determined
 .
 skipping
 "
-                         
 "
 creating
 it
 .
 "
+            
 )
     
 def
@@ -5483,13 +5526,13 @@ application
 args
 =
 [
-'
+"
 build
-'
-'
+"
+"
 -
 v
-'
+"
 ]
         
 custom_build_targets
@@ -5500,9 +5543,9 @@ config
 .
 get
 (
-'
+"
 build_targets
-'
+"
 )
         
 if
@@ -5566,9 +5609,9 @@ self
 _run_mach_command_in_build_env
 (
 [
-'
+"
 configure
-'
+"
 ]
 )
         
@@ -5576,28 +5619,28 @@ self
 .
 _run_mach_command_in_build_env
 (
+            
 [
-'
+"
 static
 -
 analysis
-'
-'
+"
+"
 autotest
-'
-                                             
-'
+"
+"
 -
 -
 intree
 -
 tool
-'
+"
 ]
-                                            
 use_subprocess
 =
 True
+        
 )
     
 def
@@ -5616,9 +5659,9 @@ query_abs_dirs
 )
         
 if
-'
+"
 MOZILLABUILD
-'
+"
 in
 os
 .
@@ -5635,29 +5678,25 @@ path
 .
 join
 (
-                    
 os
 .
 environ
 [
-'
+"
 MOZILLABUILD
-'
+"
 ]
-                    
-'
+"
 msys
-'
-                    
-'
+"
+"
 bin
-'
-                    
-'
+"
+"
 bash
 .
 exe
-'
+"
 )
                 
 os
@@ -5666,18 +5705,17 @@ path
 .
 join
 (
-                    
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
-                    
-'
+"
 mach
-'
+"
 )
+            
 ]
         
 else
@@ -5689,9 +5727,9 @@ mach
 sys
 .
 executable
-'
+"
 mach
-'
+"
 ]
         
 return
@@ -5772,10 +5810,11 @@ subprocess
 .
 call
 (
+                
 mach
 +
 [
-'
+"
 -
 -
 log
@@ -5783,11 +5822,10 @@ log
 no
 -
 times
-'
+"
 ]
 +
 args
-                                          
 env
 =
 env
@@ -5795,10 +5833,11 @@ cwd
 =
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
+            
 )
         
 else
@@ -5816,7 +5855,7 @@ command
 mach
 +
 [
-'
+"
 -
 -
 log
@@ -5824,7 +5863,7 @@ log
 no
 -
 times
-'
+"
 ]
 +
 args
@@ -5833,9 +5872,9 @@ cwd
 =
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
                 
 env
@@ -5854,10 +5893,9 @@ config
 .
 get
 (
-'
+"
 max_build_output_timeout
-'
-                                               
+"
 60
 *
 40
@@ -5882,6 +5920,7 @@ EXIT_STATUS_DICT
 [
 TBPL_FAILURE
 ]
+                
 self
 .
 return_code
@@ -5900,6 +5939,7 @@ self
 .
 fatal
 (
+                
 "
 '
 mach
@@ -5914,7 +5954,7 @@ successfully
 Please
 check
 "
-                       
+                
 "
 log
 for
@@ -5922,13 +5962,14 @@ errors
 .
 "
 %
-'
-'
+"
+"
 .
 join
 (
 args
 )
+            
 )
     
 def
@@ -5977,27 +6018,27 @@ base_work_dir
 =
 dirs
 [
-'
+"
 base_work_dir
-'
+"
 ]
         
 work_dir
 =
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
         
 objdir
 =
 dirs
 [
-'
+"
 abs_obj_dir
-'
+"
 ]
         
 branch
@@ -6010,18 +6051,18 @@ if
 branch
 =
 =
-'
+"
 try
-'
+"
 :
             
 branch
 =
-'
+"
 mozilla
 -
 central
-'
+"
         
 multil10n_path
 =
@@ -6034,12 +6075,12 @@ join
             
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
             
-'
+"
 testing
 /
 mozharness
@@ -6049,7 +6090,7 @@ scripts
 multil10n
 .
 py
-'
+"
         
 )
         
@@ -6063,25 +6104,25 @@ executable
             
 multil10n_path
             
-'
+"
 -
 -
 work
 -
 dir
-'
+"
             
 work_dir
             
-'
+"
 -
 -
 config
 -
 file
-'
+"
             
-'
+"
 multi_locale
 /
 android
@@ -6091,9 +6132,9 @@ mozharness
 build
 .
 json
-'
+"
             
-'
+"
 -
 -
 pull
@@ -6101,21 +6142,21 @@ pull
 locale
 -
 source
-'
+"
             
-'
+"
 -
 -
 package
 -
 multi
-'
+"
             
-'
+"
 -
 -
 summary
-'
+"
         
 ]
         
@@ -6123,6 +6164,7 @@ self
 .
 run_command
 (
+            
 cmd
 env
 =
@@ -6134,33 +6176,33 @@ query_build_env
 cwd
 =
 base_work_dir
-                         
 halt_on_failure
 =
 True
+        
 )
         
 package_cmd
 =
 [
             
-'
+"
 make
-'
+"
             
-'
+"
 echo
 -
 variable
 -
 PACKAGE
-'
+"
             
-'
+"
 AB_CD
 =
 multi
-'
+"
         
 ]
         
@@ -6215,15 +6257,15 @@ run
 s
 "
 %
-                
 package_cmd
+            
 )
         
 self
 .
 info
 (
-'
+"
 Multi
 -
 l10n
@@ -6233,7 +6275,7 @@ is
 :
 %
 s
-'
+"
 %
 package_filename
 )
@@ -6242,42 +6284,44 @@ parser
 =
 MakeUploadOutputParser
 (
+            
 config
 =
 self
 .
 config
-                                        
+            
 log_obj
 =
 self
 .
 log_obj
-                                        
+        
 )
         
 upload_cmd
 =
 [
-'
+"
 make
-'
-'
+"
+"
 upload
-'
-'
+"
+"
 AB_CD
 =
 multi
-'
+"
 ]
         
 self
 .
 run_command
 (
+            
 upload_cmd
-                         
+            
 env
 =
 self
@@ -6288,40 +6332,42 @@ multiLocale
 =
 False
 )
-                         
+            
 cwd
 =
 objdir
+            
 halt_on_failure
 =
 True
-                         
+            
 output_parser
 =
 parser
+        
 )
         
 upload_files_cmd
 =
 [
             
-'
+"
 make
-'
+"
             
-'
+"
 echo
 -
 variable
 -
 UPLOAD_FILES
-'
+"
             
-'
+"
 AB_CD
 =
 multi
-'
+"
         
 ]
         
@@ -6370,9 +6416,9 @@ config
 .
 get
 (
-'
+"
 postflight_build_mach_commands
-'
+"
 [
 ]
 )
@@ -6423,10 +6469,10 @@ command
 sys
 .
 executable
-'
+"
 mach
-'
-'
+"
+"
 -
 -
 log
@@ -6434,7 +6480,7 @@ log
 no
 -
 times
-'
+"
 ]
         
 command
@@ -6461,9 +6507,9 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_src_dir
-'
+"
 ]
             
 env
@@ -6478,11 +6524,9 @@ config
 .
 get
 (
-                
-'
+"
 max_build_output_timeout
-'
-                
+"
 60
 *
 20
@@ -6565,10 +6609,10 @@ command
 sys
 .
 executable
-'
+"
 mach
-'
-'
+"
+"
 -
 -
 log
@@ -6576,29 +6620,31 @@ log
 no
 -
 times
-'
-'
+"
+"
 configure
-'
+"
 ]
             
 cwd
 =
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
             
 env
 =
 env
+            
 output_timeout
 =
 60
 *
 3
+            
 halt_on_failure
 =
 True
@@ -6614,19 +6660,21 @@ command
 =
 [
                 
-'
+"
 make
-'
-'
+"
+                
+"
 source
 -
 package
-'
-'
+"
+                
+"
 source
 -
 upload
-'
+"
             
 ]
             
@@ -6634,19 +6682,21 @@ cwd
 =
 dirs
 [
-'
+"
 abs_obj_dir
-'
+"
 ]
             
 env
 =
 env
+            
 output_timeout
 =
 60
 *
 45
+            
 halt_on_failure
 =
 True
@@ -6709,9 +6759,9 @@ config
 .
 get
 (
-'
+"
 debug_build
-'
+"
 )
 :
             
@@ -6725,15 +6775,15 @@ config
 .
 get
 (
-'
+"
 platform
-'
+"
 )
 =
 =
-'
+"
 macosx64
-'
+"
 :
             
 if
@@ -6744,9 +6794,9 @@ config
 .
 get
 (
-'
+"
 build_variant
-'
+"
 )
 :
                 
@@ -6760,15 +6810,15 @@ config
 .
 get
 (
-'
+"
 platform
-'
+"
 )
 =
 =
-'
+"
 android
-'
+"
 :
             
 if
@@ -6779,9 +6829,9 @@ config
 .
 get
 (
-'
+"
 build_variant
-'
+"
 )
 :
                 
@@ -6806,9 +6856,9 @@ config
 .
 get
 (
-'
+"
 build_resources_path
-'
+"
 )
 %
 self
@@ -6833,7 +6883,7 @@ self
 .
 info
 (
-'
+"
 %
 s
 does
@@ -6844,7 +6894,7 @@ not
 loading
 build
 resources
-'
+"
 %
 p
 )
@@ -6856,9 +6906,9 @@ with
 open
 (
 p
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -6874,9 +6924,9 @@ fh
 )
         
 if
-'
+"
 duration
-'
+"
 not
 in
 resources
@@ -6886,14 +6936,14 @@ self
 .
 info
 (
-'
+"
 resource
 usage
 lacks
 duration
 ;
 ignoring
-'
+"
 )
             
 return
@@ -6909,15 +6959,15 @@ environ
 .
 get
 (
-'
+"
 USE_SCCACHE
-'
+"
 )
 =
 =
-'
+"
 1
-'
+"
 else
 True
         
@@ -6925,29 +6975,29 @@ data
 =
 {
             
-'
+"
 name
-'
+"
 :
-'
+"
 build
 times
-'
+"
             
-'
+"
 value
-'
+"
 :
 resources
 [
-'
+"
 duration
-'
+"
 ]
             
-'
+"
 extraOptions
-'
+"
 :
 self
 .
@@ -6955,15 +7005,15 @@ perfherder_resource_options
 (
 )
             
-'
+"
 shouldAlert
-'
+"
 :
 should_alert
             
-'
+"
 subtests
-'
+"
 :
 [
 ]
@@ -6975,16 +7025,16 @@ phase
 in
 resources
 [
-'
+"
 phases
-'
+"
 ]
 :
             
 if
-'
+"
 duration
-'
+"
 not
 in
 phase
@@ -6994,38 +7044,40 @@ continue
             
 data
 [
-'
+"
 subtests
-'
+"
 ]
 .
 append
 (
+                
 {
-                
-'
+                    
+"
 name
-'
+"
 :
 phase
 [
-'
+"
 name
-'
+"
 ]
-                
-'
+                    
+"
 value
-'
+"
 :
 phase
 [
-'
+"
 duration
-'
+"
 ]
-            
+                
 }
+            
 )
         
 return
@@ -7053,17 +7105,17 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_obj_dir
-'
+"
 ]
-'
+"
 sccache
 -
 stats
 .
 json
-'
+"
         
 )
         
@@ -7083,8 +7135,7 @@ self
 .
 info
 (
-                
-'
+"
 %
 s
 does
@@ -7095,9 +7146,8 @@ not
 loading
 sccache
 stats
-'
+"
 %
-                
 stats_file
 )
             
@@ -7107,9 +7157,9 @@ with
 open
 (
 stats_file
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -7135,9 +7185,9 @@ val
 =
 stats
 [
-'
+"
 stats
-'
+"
 ]
 [
 key
@@ -7157,9 +7207,9 @@ sum
 (
 val
 [
-'
+"
 counts
-'
+"
 ]
 .
 values
@@ -7174,18 +7224,18 @@ total
 =
 get_stat
 (
-'
+"
 requests_executed
-'
+"
 )
         
 hits
 =
 get_stat
 (
-'
+"
 cache_hits
-'
+"
 )
         
 if
@@ -7205,46 +7255,46 @@ total
 yield
 {
             
-'
+"
 name
-'
+"
 :
-'
+"
 sccache
 hit
 rate
-'
+"
             
-'
+"
 value
-'
+"
 :
 hits
             
-'
+"
 subtests
-'
+"
 :
 [
 ]
             
-'
+"
 alertThreshold
-'
+"
 :
 50
 .
 0
             
-'
+"
 lowerIsBetter
-'
+"
 :
 False
             
-'
+"
 shouldAlert
-'
+"
 :
 False
         
@@ -7253,42 +7303,42 @@ False
 yield
 {
             
-'
+"
 name
-'
+"
 :
-'
+"
 sccache
 cache_write_errors
-'
+"
             
-'
+"
 value
-'
+"
 :
 stats
 [
-'
+"
 stats
-'
+"
 ]
 [
-'
+"
 cache_write_errors
-'
+"
 ]
             
-'
+"
 alertThreshold
-'
+"
 :
 50
 .
 0
             
-'
+"
 subtests
-'
+"
 :
 [
 ]
@@ -7298,42 +7348,42 @@ subtests
 yield
 {
             
-'
+"
 name
-'
+"
 :
-'
+"
 sccache
 requests_not_cacheable
-'
+"
             
-'
+"
 value
-'
+"
 :
 stats
 [
-'
+"
 stats
-'
+"
 ]
 [
-'
+"
 requests_not_cacheable
-'
+"
 ]
             
-'
+"
 alertThreshold
-'
+"
 :
 50
 .
 0
             
-'
+"
 subtests
-'
+"
 :
 [
 ]
@@ -7371,42 +7421,42 @@ join
 (
 dirs
 [
-'
+"
 abs_obj_dir
-'
+"
 ]
-'
+"
 dist
-'
+"
 )
         
 for
 ext
 in
 [
-'
+"
 apk
-'
-'
+"
+"
 dmg
-'
-'
+"
+"
 tar
 .
 bz2
-'
-'
+"
+"
 zip
-'
+"
 ]
 :
             
 name
 =
-'
+"
 target
 .
-'
+"
 +
 ext
             
@@ -7453,26 +7503,26 @@ packageName
 interests
 =
 [
-'
+"
 libxul
 .
 so
-'
-'
+"
+"
 classes
 .
 dex
-'
-'
+"
+"
 omni
 .
 ja
-'
-'
+"
+"
 xul
 .
 dll
-'
+"
 ]
         
 installer
@@ -7518,9 +7568,9 @@ zipfile
 ZipFile
 (
 installer
-'
+"
 r
-'
+"
 )
 as
 zf
@@ -7559,11 +7609,11 @@ tarfile
 open
 (
 installer
-'
+"
 r
 :
 *
-'
+"
 )
 as
 tf
@@ -7607,7 +7657,7 @@ self
 .
 info
 (
-'
+"
 Size
 of
 %
@@ -7616,7 +7666,7 @@ s
 %
 s
 bytes
-'
+"
 %
 (
 packageName
@@ -7663,11 +7713,11 @@ if
 name
 =
 =
-'
+"
 omni
 .
 ja
-'
+"
 :
                             
 containing_dir
@@ -7678,7 +7728,6 @@ path
 .
 basename
 (
-                                
 os
 .
 path
@@ -7693,20 +7742,20 @@ if
 containing_dir
 =
 =
-'
+"
 browser
-'
+"
 :
                                 
 name
 =
-'
+"
 browser
 -
 omni
 .
 ja
-'
+"
                         
 if
 name
@@ -7718,7 +7767,8 @@ self
 .
 fatal
 (
-'
+                                
+"
 should
 not
 see
@@ -7731,13 +7781,13 @@ s
 multiple
 times
 !
-'
-                                       
+"
 %
 (
 name
 path
 )
+                            
 )
                         
 subtests
@@ -7757,7 +7807,7 @@ self
 .
 info
 (
-'
+"
 Size
 of
 %
@@ -7766,11 +7816,10 @@ s
 %
 s
 bytes
-'
+"
 %
 (
 name
-                                                        
 subtests
 [
 name
@@ -7782,16 +7831,15 @@ size_measurements
 .
 append
 (
-                        
 {
-'
+"
 name
-'
+"
 :
 name
-'
+"
 value
-'
+"
 :
 subtests
 [
@@ -7808,8 +7856,7 @@ self
 .
 info
 (
-                    
-'
+"
 Unable
 to
 search
@@ -7819,9 +7866,8 @@ for
 component
 sizes
 .
-'
+"
 %
-                    
 installer
 )
                 
@@ -7858,9 +7904,9 @@ _is_configuration_shipped
                 
 alert
 [
-'
+"
 shouldAlert
-'
+"
 ]
 =
 False
@@ -7873,18 +7919,19 @@ installer
 .
 endswith
 (
-'
+"
 .
 apk
-'
+"
 )
 :
             
 yield
 filter_alert
 (
-{
                 
+{
+                    
 "
 name
 "
@@ -7893,13 +7940,13 @@ name
 installer
 size
 "
-                
+                    
 "
 value
 "
 :
 installer_size
-                
+                    
 "
 alertChangeType
 "
@@ -7907,7 +7954,7 @@ alertChangeType
 "
 absolute
 "
-                
+                    
 "
 alertThreshold
 "
@@ -7917,14 +7964,15 @@ alertThreshold
 *
 1024
 )
-                
+                    
 "
 subtests
 "
 :
 size_measurements
-            
+                
 }
+            
 )
         
 else
@@ -7933,8 +7981,9 @@ else
 yield
 filter_alert
 (
-{
                 
+{
+                    
 "
 name
 "
@@ -7943,13 +7992,13 @@ name
 installer
 size
 "
-                
+                    
 "
 value
 "
 :
 installer_size
-                
+                    
 "
 alertChangeType
 "
@@ -7957,7 +8006,7 @@ alertChangeType
 "
 absolute
 "
-                
+                    
 "
 alertThreshold
 "
@@ -7967,14 +8016,15 @@ alertThreshold
 *
 1024
 )
-                
+                    
 "
 subtests
 "
 :
 size_measurements
-            
+                
 }
+            
 )
     
 def
@@ -8014,25 +8064,26 @@ path
 .
 join
 (
+            
 os
 .
 environ
 [
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 ]
-                                 
-'
+"
 rust
 -
 size
-'
-'
+"
+"
 rust
 -
 size
-'
+"
+        
 )
         
 size_prog
@@ -8246,112 +8297,112 @@ lib_interests
 =
 {
             
-'
+"
 XUL
-'
+"
 :
 (
-'
+"
 libxul
 .
 so
-'
-'
+"
+"
 xul
 .
 dll
-'
-'
+"
+"
 XUL
-'
+"
 )
             
-'
+"
 NSS
-'
+"
 :
 (
-'
+"
 libnss3
 .
 so
-'
-'
+"
+"
 nss3
 .
 dll
-'
-'
+"
+"
 libnss3
 .
 dylib
-'
+"
 )
             
-'
+"
 NSPR
-'
+"
 :
 (
-'
+"
 libnspr4
 .
 so
-'
-'
+"
+"
 nspr4
 .
 dll
-'
-'
+"
+"
 libnspr4
 .
 dylib
-'
+"
 )
             
-'
+"
 avcodec
-'
+"
 :
 (
-'
+"
 libmozavcodec
 .
 so
-'
-'
+"
+"
 mozavcodec
 .
 dll
-'
-'
+"
+"
 libmozavcodec
 .
 dylib
-'
+"
 )
             
-'
+"
 avutil
-'
+"
 :
 (
-'
+"
 libmozavutil
 .
 so
-'
-'
+"
+"
 mozavutil
 .
 dll
-'
-'
+"
+"
 libmozavutil
 .
 dylib
-'
+"
 )
         
 }
@@ -8359,39 +8410,46 @@ dylib
 section_interests
 =
 (
-'
+            
+"
 .
 text
-'
-'
+"
+            
+"
 .
 data
-'
-'
+"
+            
+"
 .
 rodata
-'
-'
+"
+            
+"
 .
 rdata
-'
-                             
-'
+"
+            
+"
 .
 cstring
-'
-'
+"
+            
+"
 .
 data
 .
 rel
 .
 ro
-'
-'
+"
+            
+"
 .
 bss
-'
+"
+        
 )
         
 lib_details
@@ -8417,13 +8475,13 @@ join
 (
 dirs
 [
-'
+"
 abs_obj_dir
-'
+"
 ]
-'
+"
 dist
-'
+"
 )
         
 bin_dir
@@ -8435,9 +8493,9 @@ path
 join
 (
 dist_dir
-'
+"
 bin
-'
+"
 )
         
 for
@@ -8493,7 +8551,6 @@ self
 .
 _get_sections
 (
-                        
 lib
 section_interests
 )
@@ -8507,14 +8564,14 @@ for
 ro_alias
 in
 (
-'
+"
 .
 cstring
-'
-'
+"
+"
 .
 rdata
-'
+"
 )
 :
                         
@@ -8525,20 +8582,20 @@ section_details
 :
                             
 if
-'
+"
 .
 rodata
-'
+"
 in
 section_details
 :
                                 
 section_details
 [
-'
+"
 .
 rodata
-'
+"
 ]
 +
 =
@@ -8552,10 +8609,10 @@ else
                                 
 section_details
 [
-'
+"
 .
 rodata
-'
+"
 ]
 =
 section_details
@@ -8588,14 +8645,14 @@ section_measurements
 append
 (
 {
-'
+"
 name
-'
+"
 :
 k
-'
+"
 value
-'
+"
 :
 v
 }
@@ -8610,27 +8667,29 @@ lib_details
 .
 append
 (
-{
                         
-'
+{
+                            
+"
 name
-'
+"
 :
 lib_type
-                        
-'
+                            
+"
 size
-'
+"
 :
 lib_size
-                        
-'
+                            
+"
 sections
-'
+"
 :
 section_measurements
-                    
+                        
 }
+                    
 )
         
 for
@@ -8655,9 +8714,9 @@ sizes
 %
 lib_detail
 [
-'
+"
 name
-'
+"
 ]
                 
 "
@@ -8666,9 +8725,9 @@ value
 :
 lib_detail
 [
-'
+"
 size
-'
+"
 ]
                 
 "
@@ -8683,9 +8742,9 @@ subtests
 :
 lib_detail
 [
-'
+"
 sections
-'
+"
 ]
             
 }
@@ -8750,11 +8809,11 @@ self
 .
 info
 (
-'
+"
 Collecting
 build
 metrics
-'
+"
 )
         
 if
@@ -8764,9 +8823,9 @@ environ
 .
 get
 (
-'
+"
 USE_ARTIFACT
-'
+"
 )
 :
             
@@ -8774,7 +8833,7 @@ self
 .
 info
 (
-'
+"
 Skipping
 due
 to
@@ -8782,7 +8841,7 @@ forced
 artifact
 build
 .
-'
+"
 )
             
 return
@@ -8802,7 +8861,6 @@ framework
 "
 :
 {
-                
 "
 name
 "
@@ -8810,7 +8868,6 @@ name
 "
 build_metrics
 "
-            
 }
             
 "
@@ -8828,9 +8885,9 @@ c
 .
 get
 (
-'
+"
 debug_build
-'
+"
 )
 and
 not
@@ -8838,17 +8895,17 @@ c
 .
 get
 (
-'
+"
 disable_package_metrics
-'
+"
 )
 :
             
 perfherder_data
 [
-'
+"
 suites
-'
+"
 ]
 .
 extend
@@ -8862,9 +8919,9 @@ _get_package_metrics
             
 perfherder_data
 [
-'
+"
 suites
-'
+"
 ]
 .
 extend
@@ -8889,14 +8946,14 @@ command
 sys
 .
 executable
-'
+"
 mach
-'
-'
+"
+"
 warnings
 -
 list
-'
+"
 ]
             
 cwd
@@ -8907,9 +8964,9 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_src_dir
-'
+"
 ]
             
 env
@@ -8927,6 +8984,7 @@ True
 halt_on_failure
 =
 True
+        
 )
         
 if
@@ -8938,27 +8996,28 @@ None
             
 perfherder_data
 [
-'
+"
 suites
-'
+"
 ]
 .
 append
 (
-{
                 
-'
+{
+                    
+"
 name
-'
+"
 :
-'
+"
 compiler
 warnings
-'
-                
-'
+"
+                    
+"
 value
-'
+"
 :
 len
 (
@@ -8972,23 +9031,24 @@ splitlines
 (
 )
 )
-                
-'
+                    
+"
 alertThreshold
-'
+"
 :
 100
 .
 0
-                
-'
+                    
+"
 subtests
-'
+"
 :
 [
 ]
-            
+                
 }
+            
 )
         
 build_metrics
@@ -9005,9 +9065,9 @@ build_metrics
             
 perfherder_data
 [
-'
+"
 suites
-'
+"
 ]
 .
 append
@@ -9017,9 +9077,9 @@ build_metrics
         
 perfherder_data
 [
-'
+"
 suites
-'
+"
 ]
 .
 extend
@@ -9040,11 +9100,11 @@ environ
 .
 get
 (
-'
+"
 PERFHERDER_EXTRA_OPTIONS
-'
-'
-'
+"
+"
+"
 )
 .
 split
@@ -9057,9 +9117,9 @@ suite
 in
 perfherder_data
 [
-'
+"
 suites
-'
+"
 ]
 :
                 
@@ -9071,9 +9131,9 @@ suite
 .
 get
 (
-'
+"
 extraOptions
-'
+"
 [
 ]
 )
@@ -9083,9 +9143,9 @@ suite
 .
 setdefault
 (
-'
+"
 extraOptions
-'
+"
 [
 ]
 )
@@ -9108,9 +9168,9 @@ suite
 in
 perfherder_data
 [
-'
+"
 suites
-'
+"
 ]
 :
                 
@@ -9118,9 +9178,9 @@ suite
 .
 setdefault
 (
-'
+"
 extraOptions
-'
+"
 [
 ]
 )
@@ -9128,9 +9188,9 @@ extraOptions
 insert
 (
 0
-'
+"
 nightly
-'
+"
 )
         
 if
@@ -9146,12 +9206,12 @@ self
 .
 info
 (
-'
+"
 PERFHERDER_DATA
 :
 %
 s
-'
+"
 %
 json
 .
@@ -9168,9 +9228,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Execute
 mach
 '
@@ -9181,9 +9241,9 @@ test
 for
 memory
 leaks
-'
-'
-'
+"
+"
+"
         
 env
 =
@@ -9214,20 +9274,17 @@ run_command
 command
 =
 [
-                
 sys
 .
 executable
-                
-'
+"
 mach
-'
-                
-'
+"
+"
 valgrind
 -
 test
-'
+"
 ]
             
 cwd
@@ -9238,9 +9295,9 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_src_dir
-'
+"
 ]
             
 env
@@ -9255,15 +9312,14 @@ config
 .
 get
 (
-                
-'
+"
 max_build_output_timeout
-'
-                
+"
 60
 *
 40
 )
+        
 )
         
 if
@@ -9283,6 +9339,7 @@ EXIT_STATUS_DICT
 [
 TBPL_FAILURE
 ]
+                
 self
 .
 return_code
@@ -9324,6 +9381,7 @@ for
 errors
 .
 "
+            
 )
     
 def
@@ -9342,9 +9400,9 @@ query_mach_build_env
 )
         
 if
-'
+"
 UPLOAD_PATH
-'
+"
 in
 env
 and
@@ -9357,9 +9415,9 @@ exists
 (
 env
 [
-'
+"
 UPLOAD_PATH
-'
+"
 ]
 )
 :
@@ -9370,9 +9428,9 @@ mkdir_p
 (
 env
 [
-'
+"
 UPLOAD_PATH
-'
+"
 ]
 )
     
@@ -9400,7 +9458,7 @@ self
 .
 error
 (
-'
+"
 setting
 return
 code
@@ -9410,7 +9468,7 @@ because
 fatal
 was
 called
-'
+"
 )
             
 self
@@ -9428,9 +9486,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 If
 sccache
 was
@@ -9445,9 +9503,9 @@ the
 sccache
 server
 .
-'
-'
-'
+"
+"
+"
         
 if
 os
@@ -9456,15 +9514,15 @@ environ
 .
 get
 (
-'
+"
 USE_SCCACHE
-'
+"
 )
 =
 =
-'
+"
 1
-'
+"
 :
             
 topsrcdir
@@ -9475,9 +9533,9 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_src_dir
-'
+"
 ]
             
 sccache_base
@@ -9486,9 +9544,9 @@ os
 .
 environ
 [
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 ]
             
 sccache
@@ -9500,12 +9558,12 @@ path
 join
 (
 sccache_base
-'
+"
 sccache
-'
-'
+"
+"
 sccache
-'
+"
 )
             
 if
@@ -9519,10 +9577,10 @@ _is_windows
 sccache
 +
 =
-'
+"
 .
 exe
-'
+"
             
 self
 .
@@ -9530,13 +9588,13 @@ run_command
 (
 [
 sccache
-'
+"
 -
 -
 stop
 -
 server
-'
+"
 ]
 cwd
 =
@@ -9622,6 +9680,7 @@ self
 .
 error
 (
+                    
 "
 Return
 code
@@ -9636,7 +9695,7 @@ is
 outside
 of
 "
-                           
+                    
 "
 automation
 '
@@ -9652,7 +9711,7 @@ failure
 )
 .
 "
-                           
+                    
 "
 Valid
 return
@@ -9665,9 +9724,9 @@ s
 self
 .
 return_code
-                                                      
 AUTOMATION_EXIT_CODES
 )
+                
 )
                 
 self
@@ -9726,9 +9785,9 @@ self
 :
         
 if
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 not
 in
 os
@@ -9750,18 +9809,18 @@ topsrcdir
 =
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
         
 base_work_dir
 =
 dirs
 [
-'
+"
 base_work_dir
-'
+"
 ]
         
 env
@@ -9784,13 +9843,13 @@ os
 .
 environ
 [
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 ]
-'
+"
 grcov
-'
+"
 )
         
 if
@@ -9828,16 +9887,16 @@ _is_windows
 grcov_path
 +
 =
-'
+"
 .
 exe
-'
+"
         
 env
 [
-'
+"
 GRCOV_PATH
-'
+"
 ]
 =
 grcov_path
@@ -9852,9 +9911,9 @@ _query_mach
 +
 [
             
-'
+"
 python
-'
+"
             
 os
 .
@@ -9862,14 +9921,14 @@ path
 .
 join
 (
-'
+"
 testing
-'
-'
+"
+"
 parse_build_tests_ccov
 .
 py
-'
+"
 )
         
 ]
@@ -9878,19 +9937,15 @@ self
 .
 run_command
 (
-            
 command
 =
 cmd
-            
 cwd
 =
 topsrcdir
-            
 env
 =
 env
-            
 halt_on_failure
 =
 True

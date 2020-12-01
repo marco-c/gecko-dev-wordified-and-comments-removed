@@ -25,7 +25,7 @@ filepaths_map
 {
         
 r
-'
+"
 {
 talos
 }
@@ -55,11 +55,10 @@ eng
 style
 \
 css_images
-'
+"
 :
-            
 r
-'
+"
 {
 talos
 }
@@ -71,10 +70,10 @@ tests
 {
 tp5n_files
 }
-'
+"
         
 r
-'
+"
 {
 talos
 }
@@ -106,11 +105,10 @@ i
 tron
 \
 fd
-'
+"
 :
-            
 r
-'
+"
 {
 talos
 }
@@ -122,10 +120,10 @@ tests
 {
 tp5n_files
 }
-'
+"
         
 r
-'
+"
 {
 talos
 }
@@ -139,11 +137,10 @@ tp5n
 tp5n
 .
 manifest
-'
+"
 :
-            
 r
-'
+"
 {
 talos
 }
@@ -155,10 +152,10 @@ tests
 {
 tp5n_files
 }
-'
+"
         
 r
-'
+"
 {
 talos
 }
@@ -174,11 +171,10 @@ tp5n
 manifest
 .
 develop
-'
+"
 :
-            
 r
-'
+"
 {
 talos
 }
@@ -190,10 +186,10 @@ tests
 {
 tp5n_files
 }
-'
+"
         
 r
-'
+"
 {
 talos
 }
@@ -217,11 +213,10 @@ yelpcdn
 com
 \
 photo
-'
+"
 :
-            
 r
-'
+"
 {
 talos
 }
@@ -233,10 +228,10 @@ tests
 {
 tp5n_files
 }
-'
+"
         
 r
-'
+"
 c
 :
 \
@@ -259,11 +254,10 @@ appdata
 locallow
 \
 mozilla
-'
+"
 :
-            
 r
-'
+"
 c
 :
 \
@@ -278,10 +272,10 @@ appdata
 locallow
 \
 mozilla
-'
+"
         
 r
-'
+"
 c
 :
 \
@@ -304,11 +298,10 @@ appdata
 locallow
 \
 mozilla
-'
+"
 :
-            
 r
-'
+"
 c
 :
 \
@@ -323,10 +316,10 @@ appdata
 locallow
 \
 mozilla
-'
+"
         
 r
-'
+"
 c
 :
 \
@@ -349,11 +342,10 @@ appdata
 locallow
 \
 mozilla
-'
+"
 :
-            
 r
-'
+"
 c
 :
 \
@@ -368,10 +360,10 @@ appdata
 locallow
 \
 mozilla
-'
+"
         
 r
-'
+"
 c
 :
 \
@@ -394,11 +386,10 @@ appdata
 local
 \
 temp
-'
+"
 :
-            
 r
-'
+"
 c
 :
 \
@@ -413,10 +404,10 @@ appdata
 local
 \
 temp
-'
+"
         
 r
-'
+"
 c
 :
 \
@@ -432,11 +423,10 @@ vision
 npnv3dv
 .
 dll
-'
+"
 :
-            
 r
-'
+"
 c
 :
 \
@@ -446,10 +436,10 @@ files
 {
 nvidia_3d_vision
 }
-'
+"
         
 r
-'
+"
 c
 :
 \
@@ -465,11 +455,10 @@ vision
 npnv3dvstreaming
 .
 dll
-'
+"
 :
-            
 r
-'
+"
 c
 :
 \
@@ -479,10 +468,10 @@ files
 {
 nvidia_3d_vision
 }
-'
+"
         
 r
-'
+"
 c
 :
 \
@@ -498,11 +487,10 @@ vision
 nvstereoapii
 .
 dll
-'
+"
 :
-            
 r
-'
+"
 c
 :
 \
@@ -512,10 +500,10 @@ files
 {
 nvidia_3d_vision
 }
-'
+"
         
 r
-'
+"
 {
 firefox
 }
@@ -537,11 +525,10 @@ a6ad
 }
 .
 xpi
-'
+"
 :
-            
 r
-'
+"
 {
 firefox
 }
@@ -555,10 +542,10 @@ uuid
 }
 .
 xpi
-'
+"
         
 r
-'
+"
 c
 :
 \
@@ -583,11 +570,10 @@ _vendor
 html5lib
 \
 treebuilders
-'
+"
 :
-            
 r
-'
+"
 c
 :
 \
@@ -608,10 +594,10 @@ packages
 {
 pip_vendor
 }
-'
+"
         
 r
-'
+"
 c
 :
 \
@@ -634,11 +620,10 @@ pip
 _vendor
 \
 colorama
-'
+"
 :
-            
 r
-'
+"
 c
 :
 \
@@ -659,10 +644,10 @@ packages
 {
 pip_vendor
 }
-'
+"
         
 r
-'
+"
 c
 :
 \
@@ -687,11 +672,10 @@ _vendor
 cachecontrol
 \
 caches
-'
+"
 :
-            
 r
-'
+"
 c
 :
 \
@@ -712,10 +696,10 @@ packages
 {
 pip_vendor
 }
-'
+"
         
 r
-'
+"
 c
 :
 \
@@ -742,19 +726,14 @@ requests
 packages
 \
 urllib3
-'
-        
-r
-'
 \
 packages
 \
 ssl_match_hostname
-'
+"
 :
-            
 r
-'
+"
 c
 :
 \
@@ -775,7 +754,7 @@ packages
 {
 pip_vendor
 }
-'
+"
     
 }
     
@@ -821,9 +800,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit
