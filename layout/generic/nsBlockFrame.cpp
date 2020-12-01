@@ -4186,10 +4186,10 @@ line
 -
 >
 mFirstChild
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-MIN_ISIZE
+MinISize
 )
 ;
 data
@@ -4752,10 +4752,10 @@ line
 -
 >
 mFirstChild
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-PREF_ISIZE
+PrefISize
 )
 ;
 data

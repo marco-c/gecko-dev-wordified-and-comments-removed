@@ -302,10 +302,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 mOutOfFlowFrame
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-MIN_ISIZE
+MinISize
 )
 ;
 aData
@@ -364,10 +364,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 mOutOfFlowFrame
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-PREF_ISIZE
+PrefISize
 )
 ;
 aData

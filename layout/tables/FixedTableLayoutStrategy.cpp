@@ -429,10 +429,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 cellFrame
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-MIN_ISIZE
+MinISize
 )
 ;
 if
@@ -1047,10 +1047,10 @@ aReflowInput
 .
 mRenderingContext
 cellFrame
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-MIN_ISIZE
+MinISize
 )
 ;
 }

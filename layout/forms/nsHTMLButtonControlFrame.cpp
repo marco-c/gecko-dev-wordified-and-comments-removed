@@ -662,10 +662,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 kid
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-MIN_ISIZE
+MinISize
 )
 ;
 }
@@ -731,10 +731,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 kid
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-PREF_ISIZE
+PrefISize
 )
 ;
 }

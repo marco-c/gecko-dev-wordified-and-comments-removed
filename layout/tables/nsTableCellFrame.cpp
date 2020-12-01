@@ -3708,10 +3708,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 inner
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-MIN_ISIZE
+MinISize
 )
 ;
 return
@@ -3759,10 +3759,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 inner
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-PREF_ISIZE
+PrefISize
 )
 ;
 return

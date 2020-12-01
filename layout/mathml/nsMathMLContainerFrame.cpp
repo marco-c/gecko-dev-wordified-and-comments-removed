@@ -3831,10 +3831,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 childFrame
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-PREF_ISIZE
+PrefISize
 )
 ;
 childDesiredSize

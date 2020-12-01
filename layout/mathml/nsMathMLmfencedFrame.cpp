@@ -2572,10 +2572,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 childFrame
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-PREF_ISIZE
+PrefISize
 )
 ;
 if

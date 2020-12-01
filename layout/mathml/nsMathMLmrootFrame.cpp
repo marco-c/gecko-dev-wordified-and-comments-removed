@@ -1731,10 +1731,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 baseFrame
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-PREF_ISIZE
+PrefISize
 )
 ;
 nscoord
@@ -1747,10 +1747,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 indexFrame
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-PREF_ISIZE
+PrefISize
 )
 ;
 nscoord
