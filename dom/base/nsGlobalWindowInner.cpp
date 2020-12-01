@@ -14480,7 +14480,7 @@ aError
 )
 ;
 }
-int32_t
+double
 nsGlobalWindowInner
 :
 :
@@ -14551,7 +14551,7 @@ nsGlobalWindowInner
 :
 GetInnerWidth
 (
-int32_t
+double
 *
 aInnerWidth
 )
@@ -14585,7 +14585,7 @@ nsGlobalWindowInner
 :
 SetInnerWidth
 (
-int32_t
+double
 aInnerWidth
 CallerType
 aCallerType
@@ -14650,7 +14650,7 @@ aError
 )
 ;
 }
-int32_t
+double
 nsGlobalWindowInner
 :
 :
@@ -14721,7 +14721,7 @@ nsGlobalWindowInner
 :
 GetInnerHeight
 (
-int32_t
+double
 *
 aInnerHeight
 )
@@ -14755,7 +14755,7 @@ nsGlobalWindowInner
 :
 SetInnerHeight
 (
-int32_t
+double
 aInnerHeight
 CallerType
 aCallerType
@@ -32166,6 +32166,11 @@ NS_ERROR_FAILURE
 ;
 }
 }
+template
+<
+typename
+T
+>
 void
 nsGlobalWindowInner
 :
@@ -32179,6 +32184,9 @@ nsGlobalWindowInner
 :
 :
 WindowCoordGetter
+<
+T
+>
 aGetter
 JS
 :
@@ -32198,7 +32206,7 @@ ErrorResult
 aError
 )
 {
-int32_t
+T
 coord
 =
 (
@@ -32241,6 +32249,11 @@ NS_ERROR_FAILURE
 ;
 }
 }
+template
+<
+typename
+T
+>
 void
 nsGlobalWindowInner
 :
@@ -32254,6 +32267,9 @@ nsGlobalWindowInner
 :
 :
 WindowCoordSetter
+<
+T
+>
 aSetter
 JS
 :
@@ -32320,7 +32336,7 @@ aError
 return
 ;
 }
-int32_t
+T
 value
 ;
 if
@@ -32328,7 +32344,7 @@ if
 !
 ValueToPrimitive
 <
-int32_t
+T
 eDefault
 >
 (
@@ -32612,7 +32628,7 @@ winHeight
 scale
 )
 ;
-CSSIntSize
+CSSSize
 contentSize
 ;
 outer
@@ -32643,6 +32659,17 @@ if
 screen
 )
 {
+int32_t
+roundedValue
+=
+std
+:
+:
+round
+(
+value
+)
+;
 int32_t
 *
 targetContentWidth
@@ -32754,7 +32781,7 @@ value
 targetContentWidth
 =
 &
-value
+roundedValue
 ;
 targetContentHeight
 =
@@ -32783,7 +32810,7 @@ unused
 targetContentHeight
 =
 &
-value
+roundedValue
 ;
 }
 nsContentUtils
@@ -32801,6 +32828,13 @@ outerWidthSpecified
 outerHeightSpecified
 targetContentWidth
 targetContentHeight
+)
+;
+value
+=
+T
+(
+roundedValue
 )
 ;
 }

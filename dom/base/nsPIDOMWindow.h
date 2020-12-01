@@ -1488,7 +1488,7 @@ virtual
 nsresult
 GetInnerWidth
 (
-int32_t
+double
 *
 aWidth
 )
@@ -1499,7 +1499,7 @@ virtual
 nsresult
 GetInnerHeight
 (
-int32_t
+double
 *
 aHeight
 )
@@ -2983,7 +2983,7 @@ virtual
 nsresult
 GetInnerWidth
 (
-int32_t
+double
 *
 aWidth
 )
@@ -2994,7 +2994,7 @@ virtual
 nsresult
 GetInnerHeight
 (
-int32_t
+double
 *
 aHeight
 )
