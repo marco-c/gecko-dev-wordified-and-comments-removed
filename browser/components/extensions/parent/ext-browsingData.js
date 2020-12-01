@@ -1077,6 +1077,15 @@ localStorage
 )
 ;
 }
+if
+(
+Services
+.
+domStorageManager
+.
+nextGenLocalStorageEnabled
+)
+{
 return
 clearQuotaManager
 (
@@ -1086,6 +1095,7 @@ localStorage
 "
 )
 ;
+}
 }
 ;
 const
