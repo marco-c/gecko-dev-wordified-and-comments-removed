@@ -117,6 +117,16 @@ aDirtyRects
 )
 final
 ;
+bool
+UsePartialPresent
+(
+)
+override
+{
+return
+true
+;
+}
 void
 Pause
 (
