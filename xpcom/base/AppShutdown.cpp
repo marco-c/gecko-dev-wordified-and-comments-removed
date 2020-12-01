@@ -196,6 +196,12 @@ Relaxed
 sIsShuttingDown
 ;
 static
+int
+sExitCode
+=
+0
+;
+static
 char
 *
 sSavedXulAppFile
@@ -294,6 +300,18 @@ IsShuttingDown
 {
 return
 sIsShuttingDown
+;
+}
+int
+AppShutdown
+:
+:
+GetExitCode
+(
+)
+{
+return
+sExitCode
 ;
 }
 void
@@ -595,6 +613,8 @@ Init
 (
 AppShutdownMode
 aMode
+int
+aExitCode
 )
 {
 if
@@ -613,6 +633,10 @@ sShutdownMode
 aMode
 ;
 }
+sExitCode
+=
+aExitCode
+;
 InitLateWriteChecks
 (
 )
@@ -886,6 +910,7 @@ Yes
 endif
 DoImmediateExit
 (
+sExitCode
 )
 ;
 }
@@ -1069,6 +1094,8 @@ AppShutdown
 :
 DoImmediateExit
 (
+int
+aExitCode
 )
 {
 #
@@ -1090,7 +1117,7 @@ if
 TerminateProcess
 (
 process
-0
+aExitCode
 )
 )
 {
@@ -1116,7 +1143,7 @@ failed
 else
 _exit
 (
-0
+aExitCode
 )
 ;
 #
