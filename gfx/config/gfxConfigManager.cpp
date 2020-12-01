@@ -697,6 +697,9 @@ pref
 else
 if
 (
+mWrForceEnabled
+|
+|
 mWrEnvForceEnabled
 )
 {
