@@ -90,6 +90,17 @@ IPCUtils
 h
 "
 ;
+include
+"
+mozilla
+/
+dom
+/
+FetchIPCTypes
+.
+h
+"
+;
 using
 HeadersGuardEnum
 from
@@ -98,7 +109,7 @@ mozilla
 /
 dom
 /
-FetchIPCTypes
+HeadersBinding
 .
 h
 "
@@ -141,7 +152,7 @@ mozilla
 /
 dom
 /
-FetchIPCTypes
+ReferrerPolicyBinding
 .
 h
 "
@@ -154,7 +165,7 @@ mozilla
 /
 dom
 /
-FetchIPCTypes
+RequestBinding
 .
 h
 "
@@ -167,7 +178,7 @@ mozilla
 /
 dom
 /
-FetchIPCTypes
+RequestBinding
 .
 h
 "
@@ -180,7 +191,7 @@ mozilla
 /
 dom
 /
-FetchIPCTypes
+RequestBinding
 .
 h
 "
@@ -193,7 +204,7 @@ mozilla
 /
 dom
 /
-FetchIPCTypes
+RequestBinding
 .
 h
 "
@@ -206,7 +217,7 @@ mozilla
 /
 dom
 /
-FetchIPCTypes
+ResponseBinding
 .
 h
 "
