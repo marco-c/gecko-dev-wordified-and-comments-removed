@@ -33,6 +33,11 @@ ClearDataService
 jsm
 "
 "
+PrincipalsCollector
+.
+jsm
+"
+"
 ServiceWorkerCleanUp
 .
 jsm
