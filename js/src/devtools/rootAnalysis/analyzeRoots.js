@@ -3229,6 +3229,7 @@ entry
 else
 if
 (
+(
 variable
 .
 Kind
@@ -3237,6 +3238,17 @@ Kind
 "
 Arg
 "
+|
+|
+variable
+.
+Kind
+=
+=
+"
+This
+"
+)
 &
 &
 gcInfo
