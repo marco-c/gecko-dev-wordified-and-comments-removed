@@ -86,6 +86,7 @@ replacements
 [
         
 (
+            
 "
 build
 /
@@ -93,7 +94,7 @@ mozconfig
 .
 common
 "
-         
+            
 "
 #
 Enable
@@ -109,7 +110,7 @@ the
 trusted
 root
 "
-         
+            
 "
 #
 Disable
@@ -125,9 +126,11 @@ the
 trusted
 root
 "
+        
 )
         
 (
+            
 "
 build
 /
@@ -135,7 +138,7 @@ mozconfig
 .
 common
 "
-         
+            
 "
 MOZ_REQUIRE_SIGNING
 =
@@ -145,7 +148,7 @@ MOZ_REQUIRE_SIGNING
 1
 }
 "
-         
+            
 "
 MOZ_REQUIRE_SIGNING
 =
@@ -155,6 +158,7 @@ MOZ_REQUIRE_SIGNING
 0
 }
 "
+        
 )
     
 ]
@@ -170,11 +174,11 @@ path
 join
 (
 ABS_WORK_DIR
-'
+"
 hg
 -
 shared
-'
+"
 )
     
 "

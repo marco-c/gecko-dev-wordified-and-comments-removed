@@ -222,10 +222,10 @@ requests
 .
 get
 (
+        
 url
 =
 url
-                            
 proxies
 =
 {
@@ -255,6 +255,7 @@ playback
 port
 )
 }
+    
 )
     
 return
@@ -329,13 +330,13 @@ pageset_name
 playback_version
 "
 :
-'
+"
 5
 .
 1
 .
 1
-'
+"
         
 "
 platform
@@ -619,13 +620,13 @@ pageset_name
 playback_version
 "
 :
-'
+"
 5
 .
 1
 .
 1
-'
+"
         
 "
 platform
@@ -874,13 +875,13 @@ pageset_name
 playback_version
 "
 :
-'
+"
 4
 .
 0
 .
 4
-'
+"
         
 "
 platform
@@ -1140,13 +1141,13 @@ pageset_name
 playback_version
 "
 :
-'
+"
 5
 .
 1
 .
 1
-'
+"
         
 "
 platform

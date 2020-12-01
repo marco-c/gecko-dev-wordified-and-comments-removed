@@ -26,12 +26,12 @@ sys
 __all__
 =
 [
-'
+"
 diff
-'
-'
+"
+"
 diff_profiles
-'
+"
 ]
 def
 diff
@@ -121,7 +121,6 @@ parts_dict
 [
 1
 ]
-                     
 if
 i
 not
@@ -142,8 +141,8 @@ extend
 [
 (
 i
-'
-'
+"
+"
 )
 for
 i
@@ -177,8 +176,8 @@ parts_dict
 get
 (
 key
-'
-'
+"
+"
 )
         
 value
@@ -201,17 +200,17 @@ if
 key
 =
 =
-'
+"
 Files
-'
+"
 :
             
 value
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -232,10 +231,10 @@ other
                 
 other
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -270,6 +269,7 @@ section_diff
 =
 list
 (
+            
 diff_function
 (
 value
@@ -281,6 +281,7 @@ profile2
 .
 profile
 )
+        
 )
         
 if
@@ -293,10 +294,10 @@ append
 (
 (
 key
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -324,7 +325,7 @@ argv
     
 usage
 =
-'
+"
 %
 prog
 [
@@ -332,7 +333,7 @@ options
 ]
 profile1
 profile2
-'
+"
     
 parser
 =
@@ -419,8 +420,8 @@ s
 "
 %
 (
-'
-'
+"
+"
 .
 join
 (
@@ -442,7 +443,6 @@ Profile
 (
 arg
 )
-                    
 for
 arg
 in
@@ -467,7 +467,7 @@ pop
         
 print
 (
-'
+"
 [
 %
 s
@@ -475,7 +475,7 @@ s
 :
 \
 n
-'
+"
 %
 key
 )
@@ -491,9 +491,9 @@ diffs
             
 print
 (
-'
+"
 -
-'
+"
 *
 4
 )
@@ -501,9 +501,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 diff_profiles

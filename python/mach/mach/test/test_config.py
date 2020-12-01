@@ -102,27 +102,27 @@ config_settings
 [
         
 (
-'
+"
 foo
 .
 bar
-'
+"
 StringType
-'
+"
 desc
-'
+"
 )
         
 (
-'
+"
 foo
 .
 baz
-'
+"
 PathType
-'
+"
 desc
-'
+"
 )
     
 ]
@@ -139,27 +139,27 @@ config_settings
 [
         
 (
-'
+"
 dupesect
 .
 foo
-'
+"
 StringType
-'
+"
 desc
-'
+"
 )
         
 (
-'
+"
 dupesect
 .
 foo
-'
+"
 StringType
-'
+"
 desc
-'
+"
 )
     
 ]
@@ -176,63 +176,63 @@ config_settings
 [
         
 (
-'
+"
 a
 .
 string
-'
+"
 StringType
-'
+"
 desc
-'
+"
 )
         
 (
-'
+"
 a
 .
 boolean
-'
+"
 BooleanType
-'
+"
 desc
-'
+"
 )
         
 (
-'
+"
 a
 .
 pos_int
-'
+"
 PositiveIntegerType
-'
+"
 desc
-'
+"
 )
         
 (
-'
+"
 a
 .
 int
-'
+"
 IntegerType
-'
+"
 desc
-'
+"
 )
         
 (
-'
+"
 a
 .
 path
-'
+"
 PathType
-'
+"
 desc
-'
+"
 )
     
 ]
@@ -257,73 +257,73 @@ return
 [
             
 (
-'
+"
 a
 .
 string
-'
-'
+"
+"
 string
-'
-'
+"
+"
 desc
-'
+"
 )
             
 (
-'
+"
 a
 .
 boolean
-'
-'
+"
+"
 boolean
-'
-'
+"
+"
 desc
-'
+"
 )
             
 (
-'
+"
 a
 .
 pos_int
-'
-'
+"
+"
 pos_int
-'
-'
+"
+"
 desc
-'
+"
 )
             
 (
-'
+"
 a
 .
 int
-'
-'
+"
+"
 int
-'
-'
+"
+"
 desc
-'
+"
 )
             
 (
-'
+"
 a
 .
 path
-'
-'
+"
+"
 path
-'
-'
+"
+"
 desc
-'
+"
 )
         
 ]
@@ -340,55 +340,55 @@ config_settings
 [
         
 (
-'
+"
 foo
 .
 abc
-'
+"
 StringType
-'
+"
 desc
-'
-'
+"
+"
 a
-'
+"
 {
-'
+"
 choices
-'
+"
 :
 set
 (
-'
+"
 abc
-'
+"
 )
 }
 )
         
 (
-'
+"
 foo
 .
 xyz
-'
+"
 StringType
-'
+"
 desc
-'
-'
+"
+"
 w
-'
+"
 {
-'
+"
 choices
-'
+"
 :
 set
 (
-'
+"
 xyz
-'
+"
 )
 }
 )
@@ -407,31 +407,31 @@ config_settings
 [
         
 (
-'
+"
 foo
 .
 *
-'
-'
+"
+"
 string
-'
-'
+"
+"
 desc
-'
+"
 )
         
 (
-'
+"
 foo
 .
 bar
-'
-'
+"
+"
 string
-'
-'
+"
+"
 desc
-'
+"
 )
     
 ]
@@ -472,9 +472,9 @@ self
 .
 assertNotIn
 (
-'
+"
 foo
-'
+"
 s
 )
     
@@ -542,9 +542,9 @@ self
 .
 assertIn
 (
-'
+"
 foo
-'
+"
 s
 )
         
@@ -552,9 +552,9 @@ foo
 =
 s
 [
-'
+"
 foo
-'
+"
 ]
         
 foo
@@ -591,9 +591,9 @@ self
 .
 assertIn
 (
-'
+"
 bar
-'
+"
 foo
 .
 _settings
@@ -603,9 +603,9 @@ self
 .
 assertIn
 (
-'
+"
 baz
-'
+"
 foo
 .
 _settings
@@ -615,30 +615,30 @@ self
 .
 assertNotIn
 (
-'
+"
 bar
-'
+"
 foo
 )
         
 foo
 [
-'
+"
 bar
-'
+"
 ]
 =
-'
+"
 value1
-'
+"
         
 self
 .
 assertIn
 (
-'
+"
 bar
-'
+"
 foo
 )
         
@@ -648,13 +648,13 @@ assertEqual
 (
 foo
 [
-'
+"
 bar
-'
+"
 ]
-'
+"
 value1
-'
+"
 )
         
 self
@@ -664,9 +664,9 @@ assertEqual
 foo
 .
 bar
-'
+"
 value1
-'
+"
 )
     
 def
@@ -736,9 +736,9 @@ KeyError
             
 a
 [
-'
+"
 undefined
-'
+"
 ]
 =
 True
@@ -747,17 +747,17 @@ a
 .
 string
 =
-'
+"
 foo
-'
+"
         
 a
 .
 string
 =
-'
+"
 foo
-'
+"
         
 with
 self
@@ -799,9 +799,9 @@ a
 .
 boolean
 =
-'
+"
 foo
-'
+"
         
 a
 .
@@ -844,9 +844,9 @@ a
 .
 pos_int
 =
-'
+"
 foo
-'
+"
         
 a
 .
@@ -897,50 +897,50 @@ a
 .
 int
 =
-'
+"
 foo
-'
+"
         
 a
 .
 path
 =
-'
+"
 /
 home
 /
 gps
-'
+"
         
 a
 .
 path
 =
-'
+"
 foo
 .
 c
-'
+"
         
 a
 .
 path
 =
-'
+"
 foo
 /
 bar
-'
+"
         
 a
 .
 path
 =
-'
+"
 .
 /
 foo
-'
+"
     
 def
 retrieval_type_helper
@@ -973,9 +973,9 @@ a
 .
 string
 =
-'
+"
 foo
-'
+"
         
 a
 .
@@ -1000,13 +1000,13 @@ a
 .
 path
 =
-'
+"
 .
 /
 foo
 /
 bar
-'
+"
         
 self
 .
@@ -1135,25 +1135,25 @@ foo
 .
 abc
 =
-'
+"
 e
-'
+"
         
 foo
 .
 abc
 =
-'
+"
 b
-'
+"
         
 foo
 .
 xyz
 =
-'
+"
 y
-'
+"
     
 def
 test_wildcard_options
@@ -1185,9 +1185,9 @@ self
 .
 assertIn
 (
-'
+"
 *
-'
+"
 foo
 .
 _settings
@@ -1197,9 +1197,9 @@ self
 .
 assertNotIn
 (
-'
+"
 *
-'
+"
 foo
 )
         
@@ -1207,25 +1207,25 @@ foo
 .
 baz
 =
-'
+"
 value1
-'
+"
         
 foo
 .
 bar
 =
-'
+"
 value2
-'
+"
         
 self
 .
 assertIn
 (
-'
+"
 baz
-'
+"
 foo
 )
         
@@ -1236,18 +1236,18 @@ assertEqual
 foo
 .
 baz
-'
+"
 value1
-'
+"
 )
         
 self
 .
 assertIn
 (
-'
+"
 bar
-'
+"
 foo
 )
         
@@ -1258,9 +1258,9 @@ assertEqual
 foo
 .
 bar
-'
+"
 value2
-'
+"
 )
     
 def
@@ -1276,9 +1276,9 @@ NamedTemporaryFile
 (
 mode
 =
-'
+"
 wt
-'
+"
 )
         
 temp
@@ -1325,9 +1325,9 @@ s
 foo
 .
 bar
-'
+"
 bar_value
-'
+"
 )
     
 def
@@ -1358,9 +1358,9 @@ NamedTemporaryFile
 (
 mode
 =
-'
+"
 wt
-'
+"
 )
         
 temp1
@@ -1382,9 +1382,9 @@ NamedTemporaryFile
 (
 mode
 =
-'
+"
 wt
-'
+"
 )
         
 temp2
@@ -1436,9 +1436,9 @@ s
 foo
 .
 bar
-'
+"
 value2
-'
+"
 )
     
 def
@@ -1472,14 +1472,14 @@ s
 .
 load_file
 (
-'
+"
 /
 tmp
 /
 foo
 .
 ini
-'
+"
 )
     
 def
@@ -1508,9 +1508,9 @@ a
 .
 string
 =
-'
+"
 foo
-'
+"
         
 s
 .
@@ -1524,9 +1524,9 @@ temp
 =
 NamedTemporaryFile
 (
-'
+"
 wt
-'
+"
 )
         
 s
@@ -1599,9 +1599,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

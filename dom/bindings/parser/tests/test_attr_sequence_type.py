@@ -17,6 +17,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -39,6 +40,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -90,6 +92,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -116,6 +119,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -138,7 +142,6 @@ harness
 ok
 (
 threw
-               
 "
 Attribute
 type
@@ -172,6 +175,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -199,6 +203,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -220,8 +225,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Attribute
 type
@@ -235,11 +241,11 @@ a
 nullable
 sequence
 "
-               
 "
 member
 type
 "
+    
 )
     
 parser
@@ -259,6 +265,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -289,6 +296,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -310,8 +318,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Attribute
 type
@@ -326,7 +335,7 @@ a
 union
 member
 "
-               
+        
 "
 type
 that
@@ -336,4 +345,5 @@ sequence
 member
 type
 "
+    
 )

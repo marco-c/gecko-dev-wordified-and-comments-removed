@@ -61,30 +61,30 @@ register_callback_action
     
 title
 =
-'
+"
 Cancel
 All
-'
+"
     
 name
 =
-'
+"
 cancel
 -
 all
-'
+"
     
 symbol
 =
-'
+"
 cAll
-'
+"
     
 description
 =
 (
         
-'
+"
 Cancel
 all
 running
@@ -96,9 +96,9 @@ by
 the
 decision
 task
-'
+"
         
-'
+"
 this
 action
 task
@@ -106,7 +106,7 @@ is
 associated
 with
 .
-'
+"
     
 )
     
@@ -141,12 +141,12 @@ logger
 .
 info
 (
-'
+"
 Cancelling
 task
 {
 }
-'
+"
 .
 format
 (
@@ -189,7 +189,7 @@ logger
 info
 (
                     
-'
+"
 Task
 {
 }
@@ -202,12 +202,15 @@ cannot
 be
 cancelled
 .
-'
+"
 .
 format
 (
+                        
 task_id
+                    
 )
+                
 )
                 
 return
@@ -222,17 +225,19 @@ environ
 .
 get
 (
-'
+"
 TASK_ID
-'
-'
-'
+"
+"
+"
 )
     
 to_cancel
 =
 [
+        
 t
+        
 for
 t
 in
@@ -240,11 +245,13 @@ list_task_group_incomplete_task_ids
 (
 task_group_id
 )
+        
 if
 t
 !
 =
 own_task_id
+    
 ]
     
 logger

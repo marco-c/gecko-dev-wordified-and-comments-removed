@@ -40,29 +40,31 @@ groups
 =
 defaultdict
 (
+            
 lambda
 :
 {
-            
+                
 "
 status
 "
 :
 None
-            
+                
 "
 start
 "
 :
 None
-            
+                
 "
 end
 "
 :
 None
-        
+            
 }
+        
 )
         
 self
@@ -156,18 +158,19 @@ item
 data
 =
 {
+            
 "
 test
 "
 :
 test
-                
+            
 "
 subtest
 "
 :
 subtest
-                
+            
 "
 group
 "
@@ -179,10 +182,10 @@ test_to_group
 get
 (
 test
-'
-'
+"
+"
 )
-                
+            
 "
 status
 "
@@ -193,7 +196,7 @@ item
 status
 "
 ]
-                
+            
 "
 expected
 "
@@ -204,7 +207,7 @@ item
 expected
 "
 ]
-                
+            
 "
 message
 "
@@ -217,7 +220,7 @@ get
 message
 "
 )
-                
+            
 "
 stack
 "
@@ -230,7 +233,7 @@ get
 stack
 "
 )
-                
+            
 "
 known_intermittent
 "
@@ -245,6 +248,7 @@ known_intermittent
 [
 ]
 )
+        
 }
         
 return
@@ -488,17 +492,19 @@ self
 .
 _output
 (
+                
 "
 group_result
 "
-{
                 
+{
+                    
 "
 group
 "
 :
 group
-                
+                    
 "
 status
 "
@@ -509,7 +515,7 @@ info
 status
 "
 ]
-                
+                    
 "
 duration
 "
@@ -527,8 +533,9 @@ info
 start
 "
 ]
-            
+                
 }
+            
 )
             
 for
@@ -799,7 +806,6 @@ item
 level
 "
 ]
-                
 "
 message
 "
@@ -834,6 +840,7 @@ item
 data
 =
 {
+            
 "
 test
 "
@@ -846,7 +853,7 @@ get
 test
 "
 )
-                
+            
 "
 signature
 "
@@ -857,7 +864,7 @@ item
 signature
 "
 ]
-                
+            
 "
 stackwalk_stdout
 "
@@ -870,7 +877,7 @@ get
 stackwalk_stdout
 "
 )
-                
+            
 "
 stackwalk_stderr
 "
@@ -883,6 +890,7 @@ get
 stackwalk_stderr
 "
 )
+        
 }
         
 return

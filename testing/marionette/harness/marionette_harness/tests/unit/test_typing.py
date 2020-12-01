@@ -1009,20 +1009,18 @@ key_reporter
 .
 send_keys
 (
+'
 "
-\
-"
-"
+'
 )
         
 self
 .
 assertEqual
 (
+'
 "
-\
-"
-"
+'
 key_reporter
 .
 get_property
@@ -2117,7 +2115,7 @@ keyReporter
         
 numeric_shifts_etc
 =
-"
+'
 ~
 !
 #
@@ -2133,7 +2131,6 @@ _
 }
 :
 i
-\
 "
 <
 >
@@ -2141,7 +2138,7 @@ i
 |
 END
 ~
-"
+'
         
 element
 .
@@ -2538,6 +2535,7 @@ keyReporter
 all_printable
 =
 (
+            
 "
 !
 \
@@ -2560,7 +2558,7 @@ all_printable
 >
 ?
 "
-                         
+            
 "
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 [
@@ -2570,7 +2568,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ^
 _
 "
-                         
+            
 "
 abcdefghijklmnopqrstuvwxyz
 {
@@ -2578,6 +2576,7 @@ abcdefghijklmnopqrstuvwxyz
 }
 ~
 "
+        
 )
         
 element
@@ -3040,18 +3039,18 @@ find_element
 By
 .
 ID
-'
+"
 number
-'
+"
 )
         
 self
 .
 assertEqual
 (
+            
 "
 "
-                         
 self
 .
 marionette
@@ -3071,6 +3070,7 @@ value
 num_input
 ]
 )
+        
 )
         
 num_input
@@ -3086,10 +3086,11 @@ self
 .
 assertEqual
 (
-'
+            
+"
 1234
-'
-                         
+"
+            
 self
 .
 marionette
@@ -3109,6 +3110,7 @@ value
 num_input
 ]
 )
+        
 )
     
 def
@@ -3147,6 +3149,7 @@ self
 .
 assertEqual
 (
+            
 "
 abde
 "
@@ -3170,6 +3173,7 @@ value
 l
 ]
 )
+        
 )
         
 self
@@ -3216,6 +3220,7 @@ script_args
 [
 l
 ]
+        
 )
         
 l
@@ -3231,10 +3236,10 @@ self
 .
 assertEqual
 (
+            
 "
 abcde
 "
-                         
 self
 .
 marionette
@@ -3255,6 +3260,7 @@ value
 l
 ]
 )
+        
 )
 class
 TestTypingContentLegacy

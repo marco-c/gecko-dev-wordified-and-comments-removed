@@ -38,25 +38,25 @@ __file__
 )
 )
     
-'
+"
 external_tools
-'
+"
 )
 config
 =
 {
     
-'
+"
 exes
-'
+"
 :
 {
         
-'
+"
 gittool
 .
 py
-'
+"
 :
 [
             
@@ -71,22 +71,22 @@ path
 join
 (
 external_tools_path
-'
+"
 gittool
 .
 py
-'
+"
 )
         
 ]
     
 }
     
-'
+"
 download_symbols
-'
+"
 :
-'
+"
 ondemand
-'
+"
 }

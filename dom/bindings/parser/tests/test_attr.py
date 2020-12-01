@@ -11,6 +11,7 @@ harness
 testData
 =
 [
+        
 (
 "
 :
@@ -32,7 +33,7 @@ s
 "
 False
 )
-                
+        
 (
 "
 :
@@ -54,7 +55,7 @@ s
 "
 True
 )
-                
+        
 (
 "
 :
@@ -76,7 +77,7 @@ s
 "
 False
 )
-                
+        
 (
 "
 :
@@ -98,7 +99,7 @@ s
 "
 True
 )
-                
+        
 (
 "
 :
@@ -120,7 +121,7 @@ s
 "
 False
 )
-                
+        
 (
 "
 :
@@ -142,7 +143,7 @@ s
 "
 True
 )
-                
+        
 (
 "
 :
@@ -164,7 +165,7 @@ s
 "
 False
 )
-                
+        
 (
 "
 :
@@ -186,7 +187,7 @@ s
 "
 True
 )
-                
+        
 (
 "
 :
@@ -208,7 +209,7 @@ s
 "
 False
 )
-                
+        
 (
 "
 :
@@ -230,7 +231,7 @@ s
 "
 True
 )
-                
+        
 (
 "
 :
@@ -252,7 +253,7 @@ s
 "
 False
 )
-                
+        
 (
 "
 :
@@ -274,7 +275,7 @@ s
 "
 True
 )
-                
+        
 (
 "
 :
@@ -296,7 +297,7 @@ s
 "
 False
 )
-                
+        
 (
 "
 :
@@ -318,7 +319,7 @@ s
 "
 True
 )
-                
+        
 (
 "
 :
@@ -340,7 +341,7 @@ s
 "
 False
 )
-                
+        
 (
 "
 :
@@ -362,7 +363,7 @@ s
 "
 True
 )
-                
+        
 (
 "
 :
@@ -384,7 +385,7 @@ s
 "
 False
 )
-                
+        
 (
 "
 :
@@ -406,7 +407,7 @@ s
 "
 True
 )
-                
+        
 (
 "
 :
@@ -428,7 +429,7 @@ s
 "
 False
 )
-                
+        
 (
 "
 :
@@ -450,7 +451,7 @@ s
 "
 True
 )
-                
+        
 (
 "
 :
@@ -472,7 +473,7 @@ s
 "
 False
 )
-                
+        
 (
 "
 :
@@ -494,7 +495,7 @@ s
 "
 False
 )
-                
+        
 (
 "
 :
@@ -516,12 +517,14 @@ s
 "
 True
 )
+    
 ]
     
 parser
 .
 parse
 (
+        
 "
 "
 "
@@ -838,6 +841,7 @@ rf
 "
 "
 "
+    
 )
     
 results
@@ -870,7 +874,6 @@ WebIDL
 .
 IDLAttribute
 )
-                  
 "
 Should
 be
@@ -1064,7 +1067,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 be
@@ -1077,6 +1079,7 @@ harness
 .
 check
 (
+        
 iface
 .
 identifier
@@ -1096,6 +1099,7 @@ the
 right
 QName
 "
+    
 )
     
 harness
@@ -1123,6 +1127,7 @@ harness
 .
 check
 (
+        
 len
 (
 iface
@@ -1144,6 +1149,7 @@ len
 (
 testData
 )
+    
 )
     
 attrs
@@ -1220,7 +1226,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 be
@@ -1233,6 +1238,7 @@ harness
 .
 check
 (
+        
 iface
 .
 identifier
@@ -1252,12 +1258,14 @@ the
 right
 QName
 "
+    
 )
     
 harness
 .
 check
 (
+        
 iface
 .
 identifier
@@ -1273,12 +1281,14 @@ the
 right
 name
 "
+    
 )
     
 harness
 .
 check
 (
+        
 len
 (
 iface
@@ -1300,6 +1310,7 @@ len
 (
 testData
 )
+    
 )
     
 attrs
@@ -1379,6 +1390,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1402,6 +1414,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -1459,6 +1472,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1482,6 +1496,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -1536,6 +1551,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1559,6 +1575,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -1583,6 +1600,7 @@ harness
 .
 ok
 (
+        
 threw
 "
 Should
@@ -1598,6 +1616,7 @@ of
 interface
 type
 "
+    
 )
     
 parser
@@ -1619,6 +1638,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1642,6 +1662,7 @@ foo
 "
 "
 "
+        
 )
         
 results

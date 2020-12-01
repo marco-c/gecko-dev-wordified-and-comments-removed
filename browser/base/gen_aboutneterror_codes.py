@@ -30,9 +30,9 @@ with
 open
 (
 filename
-'
+"
 r
-'
+"
 encoding
 =
 "
@@ -49,6 +49,7 @@ known_strings
 +
 =
 [
+            
 m
 .
 id
@@ -73,6 +74,7 @@ isinstance
 m
 Message
 )
+        
 ]
 def
 main
@@ -104,7 +106,7 @@ output
 .
 write
 (
-'
+"
 const
 KNOWN_ERROR_MESSAGE_IDS
 =
@@ -114,7 +116,7 @@ Set
 [
 \
 n
-'
+"
 )
     
 for
@@ -146,21 +148,21 @@ output
 .
 write
 (
-'
+"
 ]
 )
 ;
 \
 n
-'
+"
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 sys

@@ -141,9 +141,9 @@ fh
 open
 (
 tmp_dir
-'
+"
 w
-'
+"
 )
         
 fh
@@ -167,16 +167,17 @@ log
 .
 SimpleFileLogger
 (
+            
 log_dir
 =
 tmp_dir
 log_name
 =
 log_name
-                                 
 log_to_console
 =
 False
+        
 )
         
 self
@@ -197,9 +198,9 @@ l
 .
 log_message
 (
-'
+"
 blah
-'
+"
 )
         
 self
@@ -219,16 +220,14 @@ get_log_file_path
 )
         
 del
-(
 l
-)
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 unittest

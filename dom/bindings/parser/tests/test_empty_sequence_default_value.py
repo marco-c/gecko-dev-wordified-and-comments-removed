@@ -19,6 +19,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -44,6 +45,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -94,6 +96,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -123,6 +126,7 @@ arg
 "
 "
 "
+    
 )
     
 results
@@ -132,15 +136,15 @@ parser
 finish
 (
 )
-;
     
 harness
 .
 ok
 (
+        
 isinstance
 (
-        
+            
 results
 [
 0
@@ -165,12 +169,13 @@ signatures
 ]
 .
 defaultValue
-        
+            
 WebIDL
 .
 IDLEmptySequenceValue
+        
 )
-               
+        
 "
 Should
 have
@@ -181,6 +186,7 @@ value
 of
 argument
 "
+    
 )
     
 parser
@@ -195,6 +201,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -219,6 +226,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -228,12 +236,12 @@ parser
 finish
 (
 )
-;
     
 harness
 .
 ok
 (
+        
 isinstance
 (
 results
@@ -247,12 +255,11 @@ members
 ]
 .
 defaultValue
-                          
 WebIDL
 .
 IDLEmptySequenceValue
 )
-               
+        
 "
 Should
 have
@@ -262,9 +269,9 @@ default
 value
 of
 "
-               
 "
 dictionary
 member
 "
+    
 )

@@ -40,10 +40,10 @@ cmd
 sys
 .
 executable
-'
+"
 -
 c
-'
+"
 str_code
 ]
     
@@ -134,25 +134,27 @@ reader
 =
 ProcessReader
 (
+            
 stdout_callback
 =
 self
 .
 out
-                                    
+            
 stderr_callback
 =
 self
 .
 err
-                                    
+            
 finished_callback
 =
 on_finished
-                                    
+            
 timeout_callback
 =
 on_timeout
+        
 )
     
 def
@@ -166,7 +168,7 @@ proc
 =
 run_python
 (
-'
+"
 print
 (
 1
@@ -176,7 +178,7 @@ print
 (
 2
 )
-'
+"
 )
         
 self
@@ -207,9 +209,9 @@ x
 .
 decode
 (
-'
+"
 utf8
-'
+"
 )
 for
 x
@@ -221,12 +223,12 @@ out
 output
 ]
 [
-'
+"
 1
-'
-'
+"
+"
 2
-'
+"
 ]
 )
         
@@ -316,9 +318,9 @@ x
 .
 decode
 (
-'
+"
 utf8
-'
+"
 )
 for
 x
@@ -330,10 +332,10 @@ err
 output
 ]
 [
-'
+"
 hello
 world
-'
+"
 ]
 )
     
@@ -348,6 +350,7 @@ proc
 =
 run_python
 (
+            
 '
 import
 sys
@@ -377,6 +380,7 @@ print
 2
 )
 '
+        
 )
         
 self
@@ -407,9 +411,9 @@ x
 .
 decode
 (
-'
+"
 utf8
-'
+"
 )
 for
 x
@@ -421,12 +425,12 @@ out
 output
 ]
 [
-'
+"
 1
-'
-'
+"
+"
 2
-'
+"
 ]
 )
         
@@ -439,9 +443,9 @@ x
 .
 decode
 (
-'
+"
 utf8
-'
+"
 )
 for
 x
@@ -453,10 +457,10 @@ err
 output
 ]
 [
-'
+"
 hello
 world
-'
+"
 ]
 )
     
@@ -480,8 +484,8 @@ proc
 =
 run_python
 (
-'
-'
+"
+"
 )
         
 self
@@ -542,7 +546,7 @@ proc
 =
 run_python
 (
-'
+"
 import
 time
 ;
@@ -554,7 +558,7 @@ sleep
 .
 1
 )
-'
+"
 )
         
 self
@@ -624,7 +628,7 @@ proc
 =
 run_python
 (
-'
+"
 import
 time
 ;
@@ -636,7 +640,7 @@ sleep
 .
 1
 )
-'
+"
 )
         
 self
@@ -732,9 +736,9 @@ x
 .
 decode
 (
-'
+"
 utf8
-'
+"
 )
 for
 x
@@ -746,9 +750,9 @@ out
 output
 ]
 [
-'
+"
 1
-'
+"
 ]
 )
     
@@ -820,9 +824,9 @@ x
 .
 decode
 (
-'
+"
 utf8
-'
+"
 )
 for
 x
@@ -834,9 +838,9 @@ out
 output
 ]
 [
-'
+"
 1
-'
+"
 ]
 )
     
@@ -851,6 +855,7 @@ proc
 =
 run_python
 (
+            
 '
 import
 sys
@@ -880,12 +885,13 @@ print
 2
 )
 '
-                          
+            
 stderr
 =
 subprocess
 .
 STDOUT
+        
 )
         
 self
@@ -911,6 +917,7 @@ self
 .
 assertEqual
 (
+            
 sorted
 (
 [
@@ -918,9 +925,9 @@ x
 .
 decode
 (
-'
+"
 utf8
-'
+"
 )
 for
 x
@@ -932,22 +939,23 @@ out
 output
 ]
 )
-                         
+            
 sorted
 (
 [
-'
+"
 1
-'
-'
+"
+"
 2
-'
-'
+"
+"
 hello
 world
-'
+"
 ]
 )
+        
 )
         
 self
@@ -966,9 +974,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

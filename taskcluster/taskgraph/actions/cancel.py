@@ -46,34 +46,32 @@ register_callback_action
     
 title
 =
-'
+"
 Cancel
 Task
-'
+"
     
 name
 =
-'
+"
 cancel
-'
+"
     
 symbol
 =
-'
+"
 cx
-'
+"
     
 description
 =
 (
-        
-'
+"
 Cancel
 the
 given
 task
-'
-    
+"
 )
     
 order
@@ -132,7 +130,8 @@ logger
 .
 info
 (
-'
+                
+"
 Task
 {
 }
@@ -145,12 +144,13 @@ cannot
 be
 cancelled
 .
-'
+"
 .
 format
 (
 task_id
 )
+            
 )
             
 return

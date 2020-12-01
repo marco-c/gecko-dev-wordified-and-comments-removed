@@ -29,8 +29,6 @@ update_or_create_build_telemetry_config
 SettingsProvider
 class
 TelemetrySettings
-(
-)
 :
     
 config_settings
@@ -38,14 +36,17 @@ config_settings
 [
         
 (
-'
+            
+"
 build
 .
 telemetry
-'
-'
+"
+            
+"
 boolean
-'
+"
+            
 "
 "
 "
@@ -64,15 +65,15 @@ telemetry
 strip
 (
 )
+            
 False
+        
 )
     
 ]
 SettingsProvider
 class
 OtherSettings
-(
-)
 :
     
 config_settings
@@ -80,32 +81,32 @@ config_settings
 [
         
 (
-'
+"
 foo
 .
 bar
-'
-'
+"
+"
 int
-'
-'
-'
+"
+"
+"
 1
 )
         
 (
-'
+"
 build
 .
 abc
-'
-'
+"
+"
 string
-'
-'
-'
-'
-'
+"
+"
+"
+"
+"
 )
     
 ]
@@ -162,9 +163,9 @@ tmpdir
 .
 join
 (
-'
+"
 machrc
-'
+"
 )
 )
 pytest
@@ -188,9 +189,9 @@ with
 open
 (
 config_path
-'
+"
 w
-'
+"
 )
 as
 f
@@ -225,13 +226,11 @@ config_path
 )
     
 assert
-(
 s
 .
 build
 .
 telemetry
-)
 def
 test_file_exists_no_build_section
 (
@@ -242,18 +241,20 @@ write_config
     
 write_config
 (
-'
-'
-'
+        
+"
+"
+"
 [
 foo
 ]
 bar
 =
 2
-'
-'
-'
+"
+"
+"
+    
 )
     
 update_or_create_build_telemetry_config
@@ -269,16 +270,13 @@ config_path
 )
     
 assert
-(
 s
 .
 build
 .
 telemetry
-)
     
 assert
-(
 s
 .
 foo
@@ -287,7 +285,6 @@ bar
 =
 =
 2
-)
 def
 test_existing_build_section
 (
@@ -298,9 +295,10 @@ write_config
     
 write_config
 (
-'
-'
-'
+        
+"
+"
+"
 [
 foo
 ]
@@ -313,9 +311,10 @@ build
 abc
 =
 xyz
-'
-'
-'
+"
+"
+"
+    
 )
     
 update_or_create_build_telemetry_config
@@ -331,16 +330,13 @@ config_path
 )
     
 assert
-(
 s
 .
 build
 .
 telemetry
-)
     
 assert
-(
 s
 .
 build
@@ -348,13 +344,11 @@ build
 abc
 =
 =
-'
+"
 xyz
-'
-)
+"
     
 assert
-(
 s
 .
 foo
@@ -363,7 +357,6 @@ bar
 =
 =
 2
-)
 def
 test_malformed_file
 (
@@ -393,34 +386,34 @@ breakage
     
 write_config
 (
-'
-'
-'
+        
+"
+"
+"
 [
 foo
 bar
 =
 1
-'
-'
-'
+"
+"
+"
+    
 )
     
 assert
-(
 not
 update_or_create_build_telemetry_config
 (
 config_path
 )
-)
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

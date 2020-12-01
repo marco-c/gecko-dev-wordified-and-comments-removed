@@ -86,21 +86,25 @@ parser
 .
 add_argument
 (
+        
 "
 suite_name
 "
+        
 nargs
 =
 1
+        
 type
 =
 str
+        
 action
 =
 "
 store
 "
-                        
+        
 help
 =
 "
@@ -110,21 +114,24 @@ run
 in
 mozharness
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 mozharness_args
 "
+        
 nargs
 =
 argparse
 .
 REMAINDER
-                        
+        
 help
 =
 "
@@ -135,6 +142,7 @@ pass
 to
 mozharness
 "
+    
 )
     
 return
@@ -201,16 +209,17 @@ config
 -
 file
 "
+            
 lambda
 :
 self
 .
 config_path
 (
+                
 "
 unittests
 "
-                                                      
 "
 %
 s_unittest
@@ -222,10 +231,11 @@ mozinfo
 .
 info
 [
-'
+"
 os
-'
+"
 ]
+            
 )
             
 "
@@ -235,6 +245,7 @@ config
 -
 file
 "
+            
 lambda
 :
 self
@@ -247,6 +258,7 @@ developer_config
 py
 "
 )
+        
 ]
         
 self
@@ -266,6 +278,7 @@ config
 "
 :
 [
+                    
 "
 -
 -
@@ -273,10 +286,11 @@ download
 -
 symbols
 "
+                    
 "
 ondemand
 "
-                           
+                    
 "
 -
 -
@@ -284,10 +298,11 @@ installer
 -
 url
 "
+                    
 self
 .
 installer_url
-                           
+                    
 "
 -
 -
@@ -297,9 +312,11 @@ packages
 -
 url
 "
+                    
 self
 .
 test_packages_url
+                
 ]
             
 }
@@ -327,9 +344,9 @@ config
 "
 :
 desktop_unittest_config
+                
 +
 [
-                    
 "
 -
 -
@@ -369,7 +386,6 @@ config
 desktop_unittest_config
 +
 [
-                    
 "
 -
 -
@@ -409,7 +425,6 @@ config
 desktop_unittest_config
 +
 [
-                    
 "
 -
 -
@@ -449,9 +464,9 @@ config
 "
 :
 desktop_unittest_config
+                
 +
 [
-                    
 "
 -
 -
@@ -493,9 +508,9 @@ config
 "
 :
 desktop_unittest_config
+                
 +
 [
-                    
 "
 -
 -
@@ -537,9 +552,9 @@ config
 "
 :
 desktop_unittest_config
+                
 +
 [
-                    
 "
 -
 -
@@ -579,7 +594,6 @@ config
 desktop_unittest_config
 +
 [
-                    
 "
 -
 -
@@ -617,7 +631,6 @@ config
 desktop_unittest_config
 +
 [
-                    
 "
 -
 -
@@ -655,7 +668,6 @@ config
 desktop_unittest_config
 +
 [
-                    
 "
 -
 -
@@ -695,9 +707,9 @@ config
 "
 :
 desktop_unittest_config
+                
 +
 [
-                    
 "
 -
 -
@@ -737,9 +749,9 @@ config
 "
 :
 desktop_unittest_config
+                
 +
 [
-                    
 "
 -
 -
@@ -777,7 +789,6 @@ config
 desktop_unittest_config
 +
 [
-                    
 "
 -
 -
@@ -815,9 +826,9 @@ config
 "
 :
 desktop_unittest_config
+                
 +
 [
-                    
 "
 -
 -
@@ -857,7 +868,6 @@ config
 desktop_unittest_config
 +
 [
-                    
 "
 -
 -
@@ -893,6 +903,7 @@ config
 "
 :
 [
+                    
 "
 -
 -
@@ -900,6 +911,7 @@ config
 -
 file
 "
+                    
 self
 .
 config_path
@@ -907,13 +919,13 @@ config_path
 "
 marionette
 "
-                                                             
 "
 test_config
 .
 py
 "
 )
+                
 ]
             
 }
@@ -943,6 +955,7 @@ config
 "
 :
 [
+                    
 "
 -
 -
@@ -950,6 +963,7 @@ config
 -
 file
 "
+                    
 self
 .
 config_path
@@ -957,11 +971,11 @@ config_path
 "
 web_platform_tests
 "
-                                                             
 self
 .
 wpt_config
 )
+                
 ]
             
 }
@@ -979,10 +993,10 @@ path
 return
 urljoin
 (
-'
+"
 file
 :
-'
+"
 pathname2url
 (
 path
@@ -1096,9 +1110,9 @@ mozinfo
 .
 info
 [
-'
+"
 os
-'
+"
 ]
 ]
         
@@ -1132,7 +1146,6 @@ listdir
 dist_path
 )
 if
-                     
 package_re
 .
 match
@@ -1195,7 +1208,9 @@ dist
 filenames
 =
 [
+            
 item
+            
 for
 item
 in
@@ -1205,18 +1220,19 @@ listdir
 (
 dist_path
 )
+            
 if
-                     
 item
 .
 endswith
 (
-'
+"
 test_packages
 .
 json
-'
+"
 )
+        
 ]
         
 assert
@@ -1261,6 +1277,7 @@ self
 .
 path_to_url
 (
+            
 os
 .
 path
@@ -1276,13 +1293,13 @@ testing
 "
 mozharness
 "
-                                             
 "
 configs
 "
 *
 parts
 )
+        
 )
     
 property
@@ -1295,31 +1312,37 @@ self
 :
         
 return
+(
+            
 "
 test_config
 .
 py
 "
+            
 if
 mozinfo
 .
 info
 [
-'
+"
 os
-'
+"
 ]
 !
 =
 "
 win
 "
+            
 else
 "
 test_config_windows
 .
 py
 "
+        
+)
     
 def
 run_suite
@@ -1385,6 +1408,7 @@ path
 .
 join
 (
+            
 self
 .
 topsrcdir
@@ -1394,7 +1418,6 @@ testing
 "
 mozharness
 "
-                              
 "
 scripts
 "
@@ -1404,11 +1427,13 @@ suite_config
 script
 "
 ]
+        
 )
         
 options
 =
 [
+            
 item
 (
 )
@@ -1419,7 +1444,7 @@ item
 )
 else
 item
-                   
+            
 for
 item
 in
@@ -1436,6 +1461,7 @@ suite_config
 config
 "
 ]
+        
 ]
         
 cmd
@@ -1477,25 +1503,27 @@ MachCommandBase
     
 Command
 (
-'
+        
+"
 mozharness
-'
+"
+        
 category
 =
-'
+"
 testing
-'
-             
+"
+        
 description
 =
-'
+"
 Run
 tests
 using
 mozharness
 .
-'
-             
+"
+        
 conditions
 =
 [
@@ -1503,10 +1531,11 @@ conditions
 .
 is_firefox_or_android
 ]
-             
+        
 parser
 =
 get_parser
+    
 )
     
 def

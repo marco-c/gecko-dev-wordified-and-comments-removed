@@ -120,9 +120,9 @@ file
 open
 (
 f
-'
+"
 w
-'
+"
 )
 .
 close
@@ -185,9 +185,9 @@ f
 open
 (
 filename
-'
+"
 r
-'
+"
 )
         
 lines
@@ -224,13 +224,14 @@ self
 .
 assert_
 (
+                
 len
 (
 l
 )
 >
 0
-                         
+                
 "
 ran
 out
@@ -253,13 +254,15 @@ got
 '
 )
 "
-                         
 .
 format
 (
+                    
 l
 lines
+                
 )
+            
 )
             
 self
@@ -279,6 +282,7 @@ self
 .
 assert_
 (
+            
 len
 (
 l
@@ -286,7 +290,7 @@ l
 =
 =
 0
-                     
+            
 "
 not
 enough
@@ -302,7 +306,6 @@ expected
 }
 '
 "
-                     
 "
 got
 '
@@ -317,6 +320,7 @@ format
 l
 lines
 )
+        
 )
     
 def
@@ -735,9 +739,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

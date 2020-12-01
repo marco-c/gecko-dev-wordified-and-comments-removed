@@ -69,9 +69,9 @@ L10NBASEDIR
 l10n
 "
         
-'
+"
 TOOLTOOL_CACHE
-'
+"
 :
 os
 .
@@ -79,9 +79,9 @@ environ
 .
 get
 (
-'
+"
 TOOLTOOL_CACHE
-'
+"
 )
     
 }

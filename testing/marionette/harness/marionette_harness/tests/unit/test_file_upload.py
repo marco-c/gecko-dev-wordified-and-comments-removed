@@ -109,8 +109,10 @@ html
 .
 format
 (
+    
 quote
 (
+        
 "
 "
 "
@@ -161,8 +163,11 @@ form
 .
 format
 (
+            
 url
+        
 )
+    
 )
 )
 class
@@ -658,7 +663,6 @@ marionette
 .
 navigate
 (
-            
 upload
 (
 self
@@ -776,6 +780,7 @@ a
 file
 upload
 "
+        
 )
         
 self
@@ -818,6 +823,7 @@ marionette
 .
 execute_script
 (
+            
 "
 "
 "
@@ -879,6 +885,7 @@ length
 "
 "
 "
+            
 script_args
 =
 (
@@ -886,9 +893,11 @@ self
 .
 input
 )
+            
 sandbox
 =
 None
+        
 )
         
 with
@@ -930,6 +939,7 @@ length
 sandbox
 =
 None
+        
 )
         
 self
@@ -1031,6 +1041,7 @@ TAG_NAME
 body
 "
 )
+        
 )
     
 def
@@ -1094,6 +1105,7 @@ script_args
 [
 el
 ]
+        
 )
     
 def

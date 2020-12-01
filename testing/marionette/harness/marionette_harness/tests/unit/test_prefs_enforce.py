@@ -38,8 +38,9 @@ marionette
 .
 enforce_gecko_prefs
 (
-{
             
+{
+                
 "
 marionette
 .
@@ -49,7 +50,7 @@ bool
 "
 :
 True
-            
+                
 "
 marionette
 .
@@ -59,7 +60,7 @@ int
 "
 :
 3
-            
+                
 "
 marionette
 .
@@ -71,8 +72,9 @@ string
 "
 testing
 "
-        
+            
 }
+        
 )
         
 self

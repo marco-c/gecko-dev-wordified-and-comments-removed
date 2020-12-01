@@ -7817,71 +7817,71 @@ YOUTUBE_PLAYBACK_2019
 =
 [
     
-'
+"
 VP9
 .
 720p60
 2X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
 2X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
 1X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
 1X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
@@ -7890,27 +7890,27 @@ VP9
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
@@ -7919,27 +7919,27 @@ VP9
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
 0
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
 0
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
@@ -7948,27 +7948,27 @@ VP9
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
 0
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
 0
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 720p60
@@ -7977,73 +7977,73 @@ VP9
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p30
 2X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p30
 2X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 720p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p30
 1X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p30
 1X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 720p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p30
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p30
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 720p30
@@ -8052,27 +8052,27 @@ VP9
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 720p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 720p30
@@ -8081,73 +8081,73 @@ VP9
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 480p30
 2X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 480p30
 2X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 480p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 480p30
 1X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 480p30
 1X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 480p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 480p30
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 480p30
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 480p30
@@ -8156,27 +8156,27 @@ VP9
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 480p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 480p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 480p30
@@ -8185,73 +8185,73 @@ VP9
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 360p30
 2X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 360p30
 2X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 360p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 360p30
 1X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 360p30
 1X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 360p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 360p30
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 360p30
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 360p30
@@ -8260,27 +8260,27 @@ VP9
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 360p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 360p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 360p30
@@ -8289,73 +8289,73 @@ VP9
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 240p30
 2X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 240p30
 2X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 240p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 240p30
 1X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 240p30
 1X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 240p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 240p30
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 240p30
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 240p30
@@ -8364,27 +8364,27 @@ VP9
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 240p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 240p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 240p30
@@ -8393,73 +8393,73 @@ VP9
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
 2X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
 2X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
 1X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
 1X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
@@ -8468,27 +8468,27 @@ VP9
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
@@ -8497,27 +8497,27 @@ VP9
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
 0
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
 0
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
@@ -8526,27 +8526,27 @@ VP9
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
 0
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
 0
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p60
@@ -8555,73 +8555,73 @@ VP9
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p30
 2X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p30
 2X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p30
 1X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p30
 1X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p30
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p30
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p30
@@ -8630,27 +8630,27 @@ VP9
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 2160p30
@@ -8659,73 +8659,73 @@ VP9
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 144p30
 2X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 144p30
 2X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 144p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 144p30
 1X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 144p30
 1X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 144p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
-VP9
-.
-144p30
-1
-.
-5X_dropped_frames
-'
-    
-'
+"
 VP9
 .
 144p30
 1
 .
-5X_decoded_frames
-'
+5X_dropped_frames
+"
     
-'
+"
+VP9
+.
+144p30
+1
+.
+5X_decoded_frames
+"
+    
+"
 VP9
 .
 144p30
@@ -8734,27 +8734,27 @@ VP9
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 144p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 144p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 144p30
@@ -8763,73 +8763,73 @@ VP9
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p60
 2X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p60
 2X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p60
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p60
 1X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p60
 1X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p60
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p60
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p60
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p60
@@ -8838,27 +8838,27 @@ VP9
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p60
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p60
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p60
@@ -8867,73 +8867,73 @@ VP9
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p30
 2X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p30
 2X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p30
 1X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p30
 1X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p30
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p30
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p30
@@ -8942,27 +8942,27 @@ VP9
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1440p30
@@ -8971,73 +8971,73 @@ VP9
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p60
 2X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p60
 2X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p60
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p60
 1X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p60
 1X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p60
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p60
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p60
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p60
@@ -9046,27 +9046,27 @@ VP9
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p60
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p60
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p60
@@ -9075,73 +9075,73 @@ VP9
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p30
 2X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p30
 2X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p30
 1X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p30
 1X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p30
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p30
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p30
@@ -9150,27 +9150,27 @@ VP9
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 VP9
 .
 1080p30
@@ -9179,73 +9179,73 @@ VP9
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p60
 2X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p60
 2X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 720p60
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p60
 1X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p60
 1X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 720p60
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p60
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p60
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 720p60
@@ -9254,27 +9254,27 @@ H264
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p60
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p60
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 720p60
@@ -9283,73 +9283,73 @@ H264
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
 2X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
 2X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
 1X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
 1X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
@@ -9358,27 +9358,27 @@ H264
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
@@ -9387,27 +9387,27 @@ H264
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
 0
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
 0
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
@@ -9416,27 +9416,27 @@ H264
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
 0
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
 0
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 720p30
@@ -9445,73 +9445,73 @@ H264
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 480p30
 2X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 480p30
 2X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 480p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 480p30
 1X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 480p30
 1X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 480p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 480p30
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 480p30
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 480p30
@@ -9520,27 +9520,27 @@ H264
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 480p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 480p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 480p30
@@ -9549,73 +9549,73 @@ H264
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 360p30
 2X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 360p30
 2X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 360p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 360p30
 1X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 360p30
 1X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 360p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 360p30
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 360p30
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 360p30
@@ -9624,27 +9624,27 @@ H264
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 360p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 360p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 360p30
@@ -9653,73 +9653,73 @@ H264
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 240p30
 2X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 240p30
 2X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 240p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 240p30
 1X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 240p30
 1X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 240p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 240p30
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 240p30
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 240p30
@@ -9728,27 +9728,27 @@ H264
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 240p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 240p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 240p30
@@ -9757,73 +9757,73 @@ H264
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
 2X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
 2X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
 1X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
 1X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
@@ -9832,27 +9832,27 @@ H264
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
@@ -9861,27 +9861,27 @@ H264
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
 0
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
 0
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
@@ -9890,27 +9890,27 @@ H264
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
 0
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
 0
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 2160p30
@@ -9919,73 +9919,73 @@ H264
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 144p15
 2X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 144p15
 2X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 144p15
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 144p15
 1X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 144p15
 1X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 144p15
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 144p15
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 144p15
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 144p15
@@ -9994,27 +9994,27 @@ H264
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 144p15
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 144p15
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 144p15
@@ -10023,73 +10023,73 @@ H264
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1440p30
 2X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1440p30
 2X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 1440p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1440p30
 1X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1440p30
 1X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 1440p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1440p30
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1440p30
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 1440p30
@@ -10098,27 +10098,27 @@ H264
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1440p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1440p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 1440p30
@@ -10127,73 +10127,73 @@ H264
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p60
 2X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p60
 2X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 1080p60
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p60
 1X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p60
 1X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 1080p60
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p60
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p60
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 1080p60
@@ -10202,27 +10202,27 @@ H264
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p60
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p60
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 1080p60
@@ -10231,73 +10231,73 @@ H264
 25X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p30
 2X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p30
 2X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 1080p30
 2X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p30
 1X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p30
 1X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 1080p30
 1X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p30
 1
 .
 5X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p30
 1
 .
 5X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 1080p30
@@ -10306,27 +10306,27 @@ H264
 5X_
 %
 _dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p30
 1
 .
 25X_dropped_frames
-'
+"
     
-'
+"
 H264
 .
 1080p30
 1
 .
 25X_decoded_frames
-'
+"
     
-'
+"
 H264
 .
 1080p30
@@ -10335,27 +10335,35 @@ H264
 25X_
 %
 _dropped_frames
-'
+"
 ]
 r
 =
+(
+    
 HFR
+    
 +
 SFR_AV1
+    
 +
 SFR_H264
+    
 +
 SFR_VP9
+    
 +
 WIDEVINE_HFR
+    
 +
 WIDEVINE_SFR_H264
+    
 +
 WIDEVINE_SFR_VP9
-+
-\
     
++
 YOUTUBE_PLAYBACK_2019
+)
 YOUTUBE_PLAYBACK_MEASURE
 =
 list

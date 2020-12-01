@@ -156,9 +156,9 @@ fileInfo
 file_
 ]
 [
-'
+"
 size
-'
+"
 ]
 !
 =
@@ -195,12 +195,13 @@ fileInfo
 file_
 ]
 [
-'
+"
 size
-'
+"
 ]
 size
 )
+            
 )
         
 elif
@@ -213,9 +214,9 @@ fileInfo
 file_
 ]
 [
-'
+"
 hashes
-'
+"
 ]
             
 and
@@ -224,9 +225,9 @@ fileInfo
 file_
 ]
 [
-'
+"
 hashes
-'
+"
 ]
 [
 type_
@@ -271,15 +272,16 @@ fileInfo
 file_
 ]
 [
-'
+"
 hashes
-'
+"
 ]
 [
 type_
 ]
 hash_
 )
+            
 )
         
 fileInfo
@@ -287,9 +289,9 @@ fileInfo
 file_
 ]
 [
-'
+"
 size
-'
+"
 ]
 =
 size
@@ -299,9 +301,9 @@ fileInfo
 file_
 ]
 [
-'
+"
 hashes
-'
+"
 ]
 [
 type_

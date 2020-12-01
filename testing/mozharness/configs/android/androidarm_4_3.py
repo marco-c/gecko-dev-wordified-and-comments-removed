@@ -151,11 +151,11 @@ exes
 :
 {
         
-'
+"
 adb
-'
+"
 :
-'
+"
 %
 (
 abs_work_dir
@@ -173,7 +173,7 @@ platform
 tools
 /
 adb
-'
+"
     
 }
     

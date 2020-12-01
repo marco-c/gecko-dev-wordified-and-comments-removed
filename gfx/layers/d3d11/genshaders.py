@@ -40,48 +40,46 @@ parser
 .
 add_argument
 (
-'
+"
 -
 o
-'
-'
+"
+"
 -
 -
 output
-'
+"
 type
 =
 str
 required
 =
 True
-                        
 help
 =
-'
+"
 Output
 file
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 manifest
-'
+"
 type
 =
 str
-                        
 help
 =
-'
+"
 Manifest
 source
 file
-'
+"
 )
     
 args
@@ -98,9 +96,9 @@ open
 args
 .
 output
-'
+"
 w
-'
+"
 )
 as
 out_file
@@ -193,14 +191,14 @@ codecs
 open
 (
 manifest_filename
-'
+"
 r
-'
-'
+"
+"
 UTF
 -
 8
-'
+"
 )
 as
 in_fp
@@ -247,9 +245,9 @@ manifest
 :
         
 if
-'
+"
 type
-'
+"
 not
 in
 block
@@ -271,9 +269,9 @@ mode
 )
         
 if
-'
+"
 file
-'
+"
 not
 in
 block
@@ -295,9 +293,9 @@ file
 )
         
 if
-'
+"
 shaders
-'
+"
 not
 in
 block
@@ -330,9 +328,9 @@ join
 shader_folder
 block
 [
-'
+"
 file
-'
+"
 ]
 )
         
@@ -347,9 +345,9 @@ shader_model
 =
 block
 [
-'
+"
 type
-'
+"
 ]
         
 for
@@ -357,9 +355,9 @@ shader_name
 in
 block
 [
-'
+"
 shaders
-'
+"
 ]
 :
             
@@ -383,6 +381,7 @@ shader_name
 output_fp
 =
 output_fp
+            
 )
             
 deps
@@ -403,11 +402,8 @@ def
 run_fxc
 (
 shader_model
-            
 shader_file
-            
 shader_name
-            
 output_fp
 )
 :
@@ -418,9 +414,9 @@ buildconfig
 .
 substs
 [
-'
+"
 FXC
-'
+"
 ]
     
 argv
@@ -429,18 +425,18 @@ argv
         
 fxc_location
         
-'
+"
 -
 nologo
-'
+"
         
-'
+"
 -
 T
 {
 0
 }
-'
+"
 .
 format
 (
@@ -456,52 +452,52 @@ relpath
 shader_file
 )
         
-'
+"
 -
 E
 {
 0
 }
-'
+"
 .
 format
 (
 shader_name
 )
         
-'
+"
 -
 Vn
 {
 0
 }
-'
+"
 .
 format
 (
 shader_name
 )
         
-'
+"
 -
 Vi
-'
+"
     
 ]
     
 if
-'
+"
 WINNT
-'
+"
 not
 in
 buildconfig
 .
 substs
 [
-'
+"
 HOST_OS_ARCH
-'
+"
 ]
 :
         
@@ -514,9 +510,9 @@ buildconfig
 .
 substs
 [
-'
+"
 WINE
-'
+"
 ]
 )
     
@@ -525,9 +521,9 @@ shader_model
 .
 startswith
 (
-'
+"
 vs_
-'
+"
 )
 :
         
@@ -535,10 +531,10 @@ argv
 +
 =
 [
-'
+"
 -
 DVERTEX_SHADER
-'
+"
 ]
     
 elif
@@ -546,9 +542,9 @@ shader_model
 .
 startswith
 (
-'
+"
 ps_
-'
+"
 )
 :
         
@@ -556,10 +552,10 @@ argv
 +
 =
 [
-'
+"
 -
 DPIXEL_SHADER
-'
+"
 ]
     
 deps
@@ -578,13 +574,13 @@ argv
 +
 =
 [
-'
+"
 -
 Fh
 {
 0
 }
-'
+"
 .
 format
 (
@@ -605,18 +601,18 @@ stdout
 .
 write
 (
-'
+"
 {
 0
 }
 \
 n
-'
+"
 .
 format
 (
-'
-'
+"
+"
 .
 join
 (
@@ -660,9 +656,9 @@ proc_stdout
 )
         
 assert
-'
+"
 fxc2
-'
+"
 in
 fxc_location
 or
@@ -677,9 +673,9 @@ with
 open
 (
 temp_filename
-'
+"
 r
-'
+"
 )
 as
 temp_fp
@@ -727,7 +723,6 @@ n
 .
 format
 (
-        
 shader_name
 )
 )
@@ -754,10 +749,10 @@ fxc_output
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 :
         
@@ -814,18 +809,20 @@ dep_path
 )
         
 if
-'
+"
 WINNT
-'
+"
 not
 in
 buildconfig
 .
 substs
 [
-'
+            
+"
 HOST_OS_ARCH
-'
+"
+        
 ]
 and
 dep_path
@@ -836,10 +833,10 @@ lower
 .
 startswith
 (
-'
+"
 z
 :
-'
+"
 )
 :
             
@@ -853,13 +850,13 @@ dep_path
 .
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 /
-'
+"
 )
         
 if
@@ -907,9 +904,9 @@ decode
 pipe
 .
 encoding
-'
+"
 replace
-'
+"
 )
     
 except
@@ -931,9 +928,9 @@ locale
 getpreferredencoding
 (
 )
-'
+"
 replace
-'
+"
 )
     
 except
@@ -945,12 +942,12 @@ text
 .
 decode
 (
-'
+"
 utf8
-'
-'
+"
+"
 replace
-'
+"
 )
 class
 ScopedTempFilename
@@ -1052,9 +1049,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 shell_main

@@ -30,7 +30,4 @@ from
 .
 mixins
 import
-(
-    
 WindowManagerMixin
-)

@@ -20,13 +20,13 @@ request
 expected_messages
 =
 [
-'
+"
 Hello
 world
 !
-'
-'
-'
+"
+"
+"
 all_distinct_bytes
 (
 )
@@ -71,7 +71,7 @@ msgutil
 send_message
 (
 request
-'
+"
 PASS
 :
 Message
@@ -81,7 +81,7 @@ Message
 d
 }
 .
-'
+"
 .
 format
 (
@@ -96,8 +96,10 @@ msgutil
 .
 send_message
 (
+                
 request
-'
+                
+"
 FAIL
 :
 Message
@@ -115,14 +117,16 @@ message
 !
 r
 }
-'
-                                 
+"
 .
 format
 (
+                    
 test_number
 message
+                
 )
+            
 )
 def
 all_distinct_bytes
@@ -131,8 +135,8 @@ all_distinct_bytes
 :
     
 return
-'
-'
+"
+"
 .
 join
 (

@@ -203,11 +203,9 @@ self
 .
 filepath
 )
-            
 "
 data
 "
-            
 EXT_DIR_PATH
         
 )
@@ -296,6 +294,7 @@ marionette
 .
 execute_script
 (
+                
 "
 "
 "
@@ -328,6 +327,7 @@ arguments
 "
 "
 "
+                
 script_args
 =
 (
@@ -336,6 +336,7 @@ self
 test_extension_id
 path
 )
+            
 )
     
 property
@@ -367,6 +368,7 @@ marionette
 .
 execute_script
 (
+                
 "
 "
 "
@@ -474,6 +476,7 @@ false
 "
 "
 "
+                
 script_args
 =
 (
@@ -481,4 +484,5 @@ self
 .
 test_extension_base_url
 )
+            
 )

@@ -43,10 +43,10 @@ line
 .
 startswith
 (
-'
+"
 cargo
 :
-'
+"
 )
 :
             
@@ -55,19 +55,19 @@ line
 [
 len
 (
-'
+"
 cargo
 :
-'
+"
 )
 :
 ]
 .
 split
 (
-'
+"
 =
-'
+"
 1
 )
     
@@ -138,23 +138,23 @@ if
 key
 =
 =
-'
+"
 rustc
 -
 link
 -
 search
-'
+"
 :
                 
 args
 +
 =
 [
-'
+"
 -
 L
-'
+"
 value
 ]
             
@@ -162,11 +162,11 @@ elif
 key
 =
 =
-'
+"
 rustc
 -
 flags
-'
+"
 :
                 
 flags
@@ -204,10 +204,10 @@ if
 flag
 =
 =
-'
+"
 -
 l
-'
+"
 and
 f
 =
@@ -219,10 +219,10 @@ args
 +
 =
 [
-'
+"
 -
 l
-'
+"
 val
 ]
                     
@@ -230,20 +230,20 @@ elif
 flag
 =
 =
-'
+"
 -
 L
-'
+"
 :
                         
 args
 +
 =
 [
-'
+"
 -
 L
-'
+"
 val
 ]
                     
@@ -253,13 +253,14 @@ else
 raise
 Exception
 (
-'
+                            
+"
 Unknown
 flag
 passed
 through
-'
-                                        
+"
+                            
 '
 "
 cargo
@@ -276,19 +277,20 @@ s
 '
 %
 flag
+                        
 )
             
 elif
 key
 =
 =
-'
+"
 rustc
 -
 link
 -
 lib
-'
+"
 and
 f
 =
@@ -300,10 +302,10 @@ args
 +
 =
 [
-'
+"
 -
 l
-'
+"
 value
 ]
             
@@ -311,11 +313,11 @@ elif
 key
 =
 =
-'
+"
 rustc
 -
 cfg
-'
+"
 and
 f
 =
@@ -327,11 +329,11 @@ args
 +
 =
 [
-'
+"
 -
 -
 cfg
-'
+"
 value
 ]
             
@@ -339,11 +341,11 @@ elif
 key
 =
 =
-'
+"
 rustc
 -
 env
-'
+"
 and
 f
 =
@@ -358,9 +360,9 @@ value
 .
 split
 (
-'
+"
 =
-'
+"
 1
 )
                 
@@ -375,13 +377,13 @@ elif
 key
 =
 =
-'
+"
 rerun
 -
 if
 -
 changed
-'
+"
 :
                 
 pass
@@ -390,7 +392,7 @@ elif
 key
 =
 =
-'
+"
 rerun
 -
 if
@@ -398,7 +400,7 @@ if
 env
 -
 changed
-'
+"
 :
                 
 pass
@@ -407,9 +409,9 @@ elif
 key
 =
 =
-'
+"
 warning
-'
+"
 :
                 
 pass
@@ -442,54 +444,54 @@ parser
 .
 add_argument
 (
-'
+"
 -
 -
 crate
 -
 out
-'
+"
 nargs
 =
-'
+"
 ?
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 -
 -
 deps
 -
 out
-'
+"
 nargs
 =
-'
+"
 *
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 -
 -
 cwd
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 -
 -
 pass
@@ -497,23 +499,23 @@ pass
 l
 -
 flag
-'
+"
 action
 =
-'
+"
 store_true
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 -
 -
 cmd
-'
+"
 nargs
 =
 argparse
@@ -541,7 +543,6 @@ crate_out
 args
 .
 deps_out
-                                      
 args
 .
 pass_l_flag
@@ -580,9 +581,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 sys

@@ -48,11 +48,11 @@ marionette
 .
 absolute_url
 (
-'
+"
 test
 .
 html
-'
+"
 )
         
 self
@@ -76,7 +76,6 @@ name
 "
 foo
 "
-                         
 "
 value
 "
@@ -84,7 +83,6 @@ value
 "
 bar
 "
-                         
 "
 path
 "
@@ -92,7 +90,6 @@ path
 "
 /
 "
-                         
 "
 secure
 "
@@ -272,8 +269,8 @@ self
 .
 assertRaises
 (
+                
 UnsupportedOperationException
-                              
 self
 .
 marionette
@@ -282,48 +279,54 @@ add_cookie
 self
 .
 COOKIE_A
+            
 )
             
 self
 .
 assertRaises
 (
+                
 UnsupportedOperationException
-                              
+                
 self
 .
 marionette
 .
 delete_cookie
+                
 self
 .
 COOKIE_A
+            
 )
             
 self
 .
 assertRaises
 (
+                
 UnsupportedOperationException
-                              
 self
 .
 marionette
 .
 delete_all_cookies
+            
 )
             
 self
 .
 assertRaises
 (
+                
 UnsupportedOperationException
-                              
 self
 .
 marionette
 .
 get_cookies
+            
 )
     
 def
@@ -539,6 +542,7 @@ marionette
 .
 execute_script
 (
+            
 "
 document
 .
@@ -558,6 +562,7 @@ set
 [
 key
 ]
+        
 )
         
 cookie
@@ -662,7 +667,6 @@ name
 "
 :
 key1
-               
 "
 value
 "
@@ -680,7 +684,6 @@ name
 "
 :
 key2
-               
 "
 value
 "
@@ -716,11 +719,11 @@ marionette
 .
 absolute_url
 (
-'
+"
 test
 .
 html
-'
+"
 )
         
 self
@@ -776,7 +779,6 @@ name
 "
 :
 cookieOneName
-                    
 "
 value
 "
@@ -798,7 +800,6 @@ cookieOneName
 "
 x
 "
-                    
 "
 value
 "
@@ -940,11 +941,11 @@ cookies
 [
 0
 ]
-'
+"
 name
 not
 available
-'
+"
 )
         
 self
@@ -958,11 +959,11 @@ cookies
 [
 0
 ]
-'
+"
 value
 not
 available
-'
+"
 )
         
 self
@@ -976,9 +977,9 @@ cookies
 [
 0
 ]
-'
+"
 httpOnly
 not
 available
-'
+"
 )

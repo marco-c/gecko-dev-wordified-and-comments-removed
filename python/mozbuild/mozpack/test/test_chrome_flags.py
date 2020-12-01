@@ -51,9 +51,9 @@ flag
 =
 Flag
 (
-'
+"
 flag
-'
+"
 )
         
 self
@@ -64,8 +64,8 @@ str
 (
 flag
 )
-'
-'
+"
+"
 )
         
 self
@@ -88,9 +88,9 @@ flag
 .
 matches
 (
-'
+"
 false
-'
+"
 )
 )
         
@@ -102,9 +102,9 @@ flag
 .
 matches
 (
-'
+"
 true
-'
+"
 )
 )
         
@@ -116,10 +116,10 @@ ErrorMessage
 flag
 .
 add_definition
-'
+"
 flag
 =
-'
+"
 )
         
 self
@@ -130,11 +130,11 @@ ErrorMessage
 flag
 .
 add_definition
-'
+"
 flag
 =
 42
-'
+"
 )
         
 self
@@ -145,23 +145,23 @@ ErrorMessage
 flag
 .
 add_definition
-'
+"
 flag
 !
 =
 false
-'
+"
 )
         
 flag
 .
 add_definition
 (
-'
+"
 flag
 =
 1
-'
+"
 )
         
 self
@@ -172,11 +172,11 @@ str
 (
 flag
 )
-'
+"
 flag
 =
 1
-'
+"
 )
         
 self
@@ -199,9 +199,9 @@ flag
 .
 matches
 (
-'
+"
 1
-'
+"
 )
 )
         
@@ -213,9 +213,9 @@ flag
 .
 matches
 (
-'
+"
 no
-'
+"
 )
 )
         
@@ -223,11 +223,11 @@ flag
 .
 add_definition
 (
-'
+"
 flag
 =
 true
-'
+"
 )
         
 self
@@ -238,11 +238,11 @@ str
 (
 flag
 )
-'
+"
 flag
 =
 true
-'
+"
 )
         
 self
@@ -265,9 +265,9 @@ flag
 .
 matches
 (
-'
+"
 true
-'
+"
 )
 )
         
@@ -279,9 +279,9 @@ flag
 .
 matches
 (
-'
+"
 0
-'
+"
 )
 )
         
@@ -289,11 +289,11 @@ flag
 .
 add_definition
 (
-'
+"
 flag
 =
 no
-'
+"
 )
         
 self
@@ -304,11 +304,11 @@ str
 (
 flag
 )
-'
+"
 flag
 =
 no
-'
+"
 )
         
 self
@@ -319,9 +319,9 @@ flag
 .
 matches
 (
-'
+"
 false
-'
+"
 )
 )
         
@@ -333,9 +333,9 @@ flag
 .
 matches
 (
-'
+"
 1
-'
+"
 )
 )
         
@@ -343,9 +343,9 @@ flag
 .
 add_definition
 (
-'
+"
 flag
-'
+"
 )
         
 self
@@ -356,9 +356,9 @@ str
 (
 flag
 )
-'
+"
 flag
-'
+"
 )
         
 self
@@ -369,9 +369,9 @@ flag
 .
 matches
 (
-'
+"
 false
-'
+"
 )
 )
         
@@ -383,9 +383,9 @@ flag
 .
 matches
 (
-'
+"
 true
-'
+"
 )
 )
         
@@ -412,9 +412,9 @@ flag
 =
 StringFlag
 (
-'
+"
 flag
-'
+"
 )
         
 self
@@ -425,8 +425,8 @@ str
 (
 flag
 )
-'
-'
+"
+"
 )
         
 self
@@ -437,9 +437,9 @@ flag
 .
 matches
 (
-'
+"
 foo
-'
+"
 )
 )
         
@@ -451,23 +451,23 @@ ErrorMessage
 flag
 .
 add_definition
-'
+"
 flag
 >
 =
 2
-'
+"
 )
         
 flag
 .
 add_definition
 (
-'
+"
 flag
 =
 foo
-'
+"
 )
         
 self
@@ -478,11 +478,11 @@ str
 (
 flag
 )
-'
+"
 flag
 =
 foo
-'
+"
 )
         
 self
@@ -493,9 +493,9 @@ flag
 .
 matches
 (
-'
+"
 foo
-'
+"
 )
 )
         
@@ -507,9 +507,9 @@ flag
 .
 matches
 (
-'
+"
 bar
-'
+"
 )
 )
         
@@ -517,11 +517,11 @@ flag
 .
 add_definition
 (
-'
+"
 flag
 =
 bar
-'
+"
 )
         
 self
@@ -532,14 +532,14 @@ str
 (
 flag
 )
-'
+"
 flag
 =
 foo
 flag
 =
 bar
-'
+"
 )
         
 self
@@ -550,9 +550,9 @@ flag
 .
 matches
 (
-'
+"
 foo
-'
+"
 )
 )
         
@@ -564,9 +564,9 @@ flag
 .
 matches
 (
-'
+"
 bar
-'
+"
 )
 )
         
@@ -578,9 +578,9 @@ flag
 .
 matches
 (
-'
+"
 baz
-'
+"
 )
 )
         
@@ -588,21 +588,21 @@ flag
 =
 StringFlag
 (
-'
+"
 flag
-'
+"
 )
         
 flag
 .
 add_definition
 (
-'
+"
 flag
 !
 =
 bar
-'
+"
 )
         
 self
@@ -613,12 +613,12 @@ str
 (
 flag
 )
-'
+"
 flag
 !
 =
 bar
-'
+"
 )
         
 self
@@ -629,9 +629,9 @@ flag
 .
 matches
 (
-'
+"
 foo
-'
+"
 )
 )
         
@@ -643,9 +643,9 @@ flag
 .
 matches
 (
-'
+"
 bar
-'
+"
 )
 )
     
@@ -660,9 +660,9 @@ flag
 =
 VersionFlag
 (
-'
+"
 flag
-'
+"
 )
         
 self
@@ -673,8 +673,8 @@ str
 (
 flag
 )
-'
-'
+"
+"
 )
         
 self
@@ -685,11 +685,11 @@ flag
 .
 matches
 (
-'
+"
 1
 .
 0
-'
+"
 )
 )
         
@@ -701,25 +701,25 @@ ErrorMessage
 flag
 .
 add_definition
-'
+"
 flag
 !
 =
 2
-'
+"
 )
         
 flag
 .
 add_definition
 (
-'
+"
 flag
 =
 1
 .
 0
-'
+"
 )
         
 self
@@ -730,13 +730,13 @@ str
 (
 flag
 )
-'
+"
 flag
 =
 1
 .
 0
-'
+"
 )
         
 self
@@ -747,11 +747,11 @@ flag
 .
 matches
 (
-'
+"
 1
 .
 0
-'
+"
 )
 )
         
@@ -763,11 +763,11 @@ flag
 .
 matches
 (
-'
+"
 2
 .
 0
-'
+"
 )
 )
         
@@ -775,13 +775,13 @@ flag
 .
 add_definition
 (
-'
+"
 flag
 =
 2
 .
 0
-'
+"
 )
         
 self
@@ -792,7 +792,7 @@ str
 (
 flag
 )
-'
+"
 flag
 =
 1
@@ -803,7 +803,7 @@ flag
 2
 .
 0
-'
+"
 )
         
 self
@@ -814,11 +814,11 @@ flag
 .
 matches
 (
-'
+"
 1
 .
 0
-'
+"
 )
 )
         
@@ -830,11 +830,11 @@ flag
 .
 matches
 (
-'
+"
 2
 .
 0
-'
+"
 )
 )
         
@@ -846,11 +846,11 @@ flag
 .
 matches
 (
-'
+"
 3
 .
 0
-'
+"
 )
 )
         
@@ -858,23 +858,23 @@ flag
 =
 VersionFlag
 (
-'
+"
 flag
-'
+"
 )
         
 flag
 .
 add_definition
 (
-'
+"
 flag
 >
 =
 2
 .
 0
-'
+"
 )
         
 self
@@ -885,14 +885,14 @@ str
 (
 flag
 )
-'
+"
 flag
 >
 =
 2
 .
 0
-'
+"
 )
         
 self
@@ -903,11 +903,11 @@ flag
 .
 matches
 (
-'
+"
 1
 .
 0
-'
+"
 )
 )
         
@@ -919,11 +919,11 @@ flag
 .
 matches
 (
-'
+"
 2
 .
 0
-'
+"
 )
 )
         
@@ -935,11 +935,11 @@ flag
 .
 matches
 (
-'
+"
 3
 .
 0
-'
+"
 )
 )
         
@@ -947,13 +947,13 @@ flag
 .
 add_definition
 (
-'
+"
 flag
 <
 1
 .
 10
-'
+"
 )
         
 self
@@ -964,7 +964,7 @@ str
 (
 flag
 )
-'
+"
 flag
 >
 =
@@ -976,7 +976,7 @@ flag
 1
 .
 10
-'
+"
 )
         
 self
@@ -987,11 +987,11 @@ flag
 .
 matches
 (
-'
+"
 1
 .
 0
-'
+"
 )
 )
         
@@ -1003,11 +1003,11 @@ flag
 .
 matches
 (
-'
+"
 1
 .
 9
-'
+"
 )
 )
         
@@ -1019,11 +1019,11 @@ flag
 .
 matches
 (
-'
+"
 1
 .
 10
-'
+"
 )
 )
         
@@ -1035,11 +1035,11 @@ flag
 .
 matches
 (
-'
+"
 1
 .
 20
-'
+"
 )
 )
         
@@ -1051,11 +1051,11 @@ flag
 .
 matches
 (
-'
+"
 2
 .
 0
-'
+"
 )
 )
         
@@ -1067,11 +1067,11 @@ flag
 .
 matches
 (
-'
+"
 3
 .
 0
-'
+"
 )
 )
         
@@ -1083,10 +1083,10 @@ Exception
 flag
 .
 add_definition
-'
+"
 flag
 <
-'
+"
 )
         
 self
@@ -1097,10 +1097,10 @@ Exception
 flag
 .
 add_definition
-'
+"
 flag
 >
-'
+"
 )
         
 self
@@ -1111,11 +1111,11 @@ Exception
 flag
 .
 add_definition
-'
+"
 flag
 >
 =
-'
+"
 )
         
 self
@@ -1126,11 +1126,11 @@ Exception
 flag
 .
 add_definition
-'
+"
 flag
 <
 =
-'
+"
 )
         
 self
@@ -1141,14 +1141,14 @@ Exception
 flag
 .
 add_definition
-'
+"
 flag
 !
 =
 1
 .
 0
-'
+"
 )
 class
 TestFlags
@@ -1172,53 +1172,55 @@ flags
 =
 Flags
 (
-'
+            
+"
 contentaccessible
 =
 yes
-'
-                           
-'
+"
+            
+"
 appversion
 >
 =
 3
 .
 5
-'
-                           
-'
+"
+            
+"
 application
 =
 foo
-'
-                           
-'
+"
+            
+"
 application
 =
 bar
-'
-                           
-'
+"
+            
+"
 appversion
 <
 2
 .
 0
-'
-                           
-'
+"
+            
+"
 platform
-'
-                           
-'
+"
+            
+"
 abi
 !
 =
 Linux_x86
 -
 gcc3
-'
+"
+        
 )
     
 def
@@ -1232,20 +1234,22 @@ self
 .
 assertEqual
 (
+            
 str
 (
 self
 .
 flags
 )
-'
+            
+"
 contentaccessible
 =
 yes
-'
+"
+            
 +
-                         
-'
+"
 appversion
 >
 =
@@ -1260,10 +1264,10 @@ appversion
 application
 =
 foo
-'
+"
+            
 +
-                         
-'
+"
 application
 =
 bar
@@ -1274,7 +1278,8 @@ abi
 Linux_x86
 -
 gcc3
-'
+"
+        
 )
     
 def
@@ -1296,9 +1301,9 @@ match
 (
 os
 =
-'
+"
 WINNT
-'
+"
 )
 )
     
@@ -1321,9 +1326,9 @@ match
 (
 application
 =
-'
+"
 foo
-'
+"
 )
 )
         
@@ -1339,9 +1344,9 @@ match
 (
 application
 =
-'
+"
 qux
-'
+"
 )
 )
     
@@ -1364,11 +1369,11 @@ match
 (
 abi
 =
-'
+"
 WINNT_x86
 -
 MSVC
-'
+"
 )
 )
         
@@ -1384,11 +1389,11 @@ match
 (
 abi
 =
-'
+"
 Linux_x86
 -
 gcc3
-'
+"
 )
 )
     
@@ -1411,11 +1416,11 @@ match
 (
 appversion
 =
-'
+"
 1
 .
 0
-'
+"
 )
 )
         
@@ -1431,11 +1436,11 @@ match
 (
 appversion
 =
-'
+"
 1
 .
 5
-'
+"
 )
 )
         
@@ -1451,11 +1456,11 @@ match
 (
 appversion
 =
-'
+"
 2
 .
 0
-'
+"
 )
 )
         
@@ -1471,11 +1476,11 @@ match
 (
 appversion
 =
-'
+"
 3
 .
 0
-'
+"
 )
 )
         
@@ -1491,11 +1496,11 @@ match
 (
 appversion
 =
-'
+"
 3
 .
 5
-'
+"
 )
 )
         
@@ -1511,20 +1516,20 @@ match
 (
 appversion
 =
-'
+"
 3
 .
 10
-'
+"
 )
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

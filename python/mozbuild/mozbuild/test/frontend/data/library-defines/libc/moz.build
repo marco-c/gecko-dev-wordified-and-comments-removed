@@ -27,12 +27,12 @@ zero
 /
 Library
 (
-'
+"
 libc
-'
+"
 )
 FINAL_LIBRARY
 =
-'
+"
 libb
-'
+"

@@ -133,7 +133,9 @@ session_id
 session
 .
 session_id
+        
 )
+    
 )
 pytest
 .
@@ -257,6 +259,7 @@ url
 =
 inline
 (
+        
 "
 "
 "
@@ -272,7 +275,6 @@ inline
 .
 format
 (
-        
 DEFAULT_CSS_STYLE
 iframe
 (
@@ -282,6 +284,7 @@ domain
 domain
 )
 )
+    
 )
     
 response

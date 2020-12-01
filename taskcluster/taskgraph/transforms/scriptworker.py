@@ -50,9 +50,9 @@ worker
 =
 job
 [
-'
+"
 worker
-'
+"
 ]
         
 server_scope
@@ -71,19 +71,19 @@ action
 =
 worker
 [
-'
+"
 balrog
 -
 action
-'
+"
 ]
 )
         
 job
 [
-'
+"
 scopes
-'
+"
 ]
 =
 [

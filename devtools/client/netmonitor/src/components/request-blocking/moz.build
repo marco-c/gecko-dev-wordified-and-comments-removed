@@ -55,9 +55,9 @@ MPL
 .
 DevToolsModules
 (
-'
+"
 RequestBlockingPanel
 .
 js
-'
+"
 )

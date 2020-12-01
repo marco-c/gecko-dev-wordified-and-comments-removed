@@ -10,6 +10,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -72,6 +73,7 @@ arg
 "
 "
 "
+    
 )
     
 results
@@ -86,6 +88,7 @@ harness
 .
 check
 (
+        
 results
 [
 2
@@ -112,15 +115,17 @@ signatures
 type
 .
 name
+        
 "
 LongOrNull
 "
-                  
+        
 "
 Should
 expand
 typedefs
 "
+    
 )
     
 parser
@@ -142,6 +147,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -171,6 +177,7 @@ Y
 "
 "
 "
+        
 )
         
 results
@@ -225,6 +232,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -253,6 +261,7 @@ X
 "
 "
 "
+        
 )
         
 results
@@ -307,6 +316,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -335,6 +345,7 @@ mynullablelong
 "
 "
 "
+        
 )
         
 results
@@ -356,8 +367,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Should
 have
@@ -369,12 +381,13 @@ nullable
 const
 typedef
 "
-               
+        
 "
 after
 interface
 .
 "
+    
 )
     
 parser
@@ -389,6 +402,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -415,6 +429,7 @@ mylong
 "
 "
 "
+    
 )
     
 results
@@ -429,6 +444,7 @@ harness
 .
 check
 (
+        
 results
 [
 0
@@ -442,10 +458,11 @@ members
 type
 .
 name
+        
 "
 Long
 "
-                  
+        
 "
 Should
 expand
@@ -455,4 +472,5 @@ come
 before
 interface
 "
+    
 )

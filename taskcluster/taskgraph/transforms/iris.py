@@ -78,74 +78,74 @@ config
 .
 get
 (
-'
+"
 iris
 -
 build
 -
 platforms
-'
+"
 )
     
 fields
 =
 [
         
-'
+"
 dependencies
 .
 build
-'
+"
         
-'
+"
 fetches
 .
 build
-'
+"
         
-'
+"
 run
 .
 command
-'
+"
         
-'
+"
 run
 -
 on
 -
 projects
-'
+"
         
-'
+"
 treeherder
 .
 platform
-'
+"
         
-'
+"
 worker
 .
 docker
 -
 image
-'
+"
         
-'
+"
 worker
 .
 artifacts
-'
+"
         
-'
+"
 worker
 .
 env
 .
 PATH
-'
+"
         
-'
+"
 worker
 .
 max
@@ -153,13 +153,13 @@ max
 run
 -
 time
-'
+"
         
-'
+"
 worker
 -
 type
-'
+"
     
 ]
     
@@ -238,25 +238,30 @@ fields
                 
 resolve_keyed_by
 (
+                    
 clone
+                    
 field
+                    
 clone
 [
-'
+"
 name
-'
+"
 ]
+                    
 *
 *
 {
-                    
-'
+                        
+"
 platform
-'
+"
 :
 platform
-                
+                    
 }
+                
 )
             
 clone
@@ -503,12 +508,15 @@ CURRENT_TEST_DIR
         
 resolve_keyed_by
 (
+            
 task
-'
+            
+"
 notify
 .
 email
-'
+"
+            
 item_name
 =
 task
@@ -517,13 +525,14 @@ task
 name
 "
 ]
+            
 *
 *
 {
-            
-'
+                
+"
 project
-'
+"
 :
 config
 .
@@ -533,8 +542,9 @@ params
 project
 "
 ]
-        
+            
 }
+        
 )
         
 email
@@ -634,9 +644,9 @@ task
 .
 pop
 (
-'
+"
 notify
-'
+"
 {
 }
 )
@@ -647,9 +657,9 @@ notify
 .
 get
 (
-'
+"
 email
-'
+"
 )
         
 if
@@ -662,9 +672,9 @@ task
 .
 setdefault
 (
-'
+"
 extra
-'
+"
 {
 }
 )
@@ -675,55 +685,55 @@ extra
 .
 setdefault
 (
-'
+"
 notify
-'
+"
 {
 }
 )
             
 notify
 [
-'
+"
 email
-'
+"
 ]
 =
 {
                 
-'
+"
 subject
-'
+"
 :
 email_config
 [
-'
+"
 subject
-'
+"
 ]
                 
-'
+"
 content
-'
+"
 :
 email_config
 [
-'
+"
 message
-'
+"
 ]
                 
-'
+"
 link
-'
+"
 :
 email_config
 .
 get
 (
-'
+"
 link
-'
+"
 None
 )
             
@@ -735,9 +745,9 @@ task
 .
 setdefault
 (
-'
+"
 routes
-'
+"
 [
 ]
 )
@@ -746,9 +756,10 @@ routes
 .
 extend
 (
-[
                 
-'
+[
+                    
+"
 notify
 .
 email
@@ -760,37 +771,38 @@ on
 -
 {
 }
-'
+"
 .
 format
 (
 address
 reason
 )
-                
+                    
 for
 address
 in
 email_config
 [
-'
+"
 emails
-'
+"
 ]
-                
+                    
 for
 reason
 in
 email_config
 [
-'
+"
 on
 -
 reasons
-'
+"
+]
+                
 ]
             
-]
 )
         
 yield

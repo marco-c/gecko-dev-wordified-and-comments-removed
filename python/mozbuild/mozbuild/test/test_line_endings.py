@@ -79,9 +79,9 @@ NamedTemporaryFile
 (
 mode
 =
-'
+"
 wb
-'
+"
 )
     
 def
@@ -115,19 +115,19 @@ zip
 (
 [
 b
-'
+"
 a
-'
+"
 b
-'
+"
 #
 literal
 b
-'
+"
 b
-'
+"
 c
-'
+"
 ]
 lineendings
 )
@@ -165,10 +165,10 @@ createFile
 (
 [
 b
-'
+"
 \
 x0D
-'
+"
 ]
 *
 3
@@ -200,7 +200,7 @@ out
 getvalue
 (
 )
-'
+"
 a
 \
 nb
@@ -208,7 +208,7 @@ nb
 nc
 \
 n
-'
+"
 )
     
 def
@@ -224,10 +224,10 @@ createFile
 (
 [
 b
-'
+"
 \
 x0A
-'
+"
 ]
 *
 3
@@ -259,7 +259,7 @@ out
 getvalue
 (
 )
-'
+"
 a
 \
 nb
@@ -267,7 +267,7 @@ nb
 nc
 \
 n
-'
+"
 )
     
 def
@@ -283,12 +283,12 @@ createFile
 (
 [
 b
-'
+"
 \
 x0D
 \
 x0A
-'
+"
 ]
 *
 3
@@ -320,7 +320,7 @@ out
 getvalue
 (
 )
-'
+"
 a
 \
 nb
@@ -328,15 +328,15 @@ nb
 nc
 \
 n
-'
+"
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

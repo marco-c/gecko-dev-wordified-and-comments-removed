@@ -32,9 +32,9 @@ import
 update_or_create_build_telemetry_config
 TELEMETRY_LOAD_ERROR
 =
-'
-'
-'
+"
+"
+"
 Error
 loading
 telemetry
@@ -158,9 +158,9 @@ s
 =
 =
 =
-'
-'
-'
+"
+"
+"
 pytest
 .
 fixture
@@ -220,9 +220,9 @@ tmpdir
 .
 join
 (
-'
+"
 machrc
-'
+"
 )
 )
 )
@@ -238,9 +238,9 @@ tmpdir
 .
 join
 (
-'
+"
 machrc
-'
+"
 )
 )
 )
@@ -256,9 +256,9 @@ environ
     
 env
 [
-'
+"
 MOZBUILD_STATE_PATH
-'
+"
 ]
 =
 str
@@ -268,14 +268,14 @@ tmpdir
     
 env
 [
-'
+"
 TEST_MACH_TELEMETRY_NO_SUBMIT
-'
+"
 ]
 =
-'
+"
 1
-'
+"
     
 mach
 =
@@ -288,9 +288,9 @@ join
 buildconfig
 .
 topsrcdir
-'
+"
 mach
-'
+"
 )
     
 def
@@ -310,9 +310,9 @@ env
 .
 pop
 (
-'
+"
 MACH_MAIN_PID
-'
+"
 )
         
 moz_automation
@@ -321,9 +321,9 @@ env
 .
 pop
 (
-'
+"
 MOZ_AUTOMATION
-'
+"
 None
 )
         
@@ -333,9 +333,9 @@ env
 .
 pop
 (
-'
+"
 TASK_ID
-'
+"
 None
 )
         
@@ -345,6 +345,7 @@ subprocess
 .
 check_output
 (
+            
 [
 sys
 .
@@ -356,45 +357,46 @@ list
 (
 args
 )
-                                      
+            
 stderr
 =
 subprocess
 .
 STDOUT
-                                      
+            
 env
 =
 env
-                                      
+            
 *
 *
 kwargs
+        
 )
         
 env
 [
-'
+"
 MACH_MAIN_PID
-'
+"
 ]
 =
 mach_main_pid
         
 env
 [
-'
+"
 MOZ_AUTOMATION
-'
+"
 ]
 =
 moz_automation
         
 env
 [
-'
+"
 TASK_ID
-'
+"
 ]
 =
 task_id
@@ -405,12 +407,12 @@ tmpdir
 .
 join
 (
-'
+"
 telemetry
-'
-'
+"
+"
 outgoing
-'
+"
 )
         
 try
@@ -422,18 +424,18 @@ PY3
                 
 read_mode
 =
-'
+"
 r
-'
+"
             
 else
 :
                 
 read_mode
 =
-'
+"
 rb
-'
+"
             
 return
 [
@@ -537,16 +539,16 @@ data
 =
 run_mach
 (
-'
+"
 python
-'
-'
+"
+"
 -
 c
-'
-'
+"
+"
 pass
-'
+"
 )
     
 assert
@@ -568,33 +570,33 @@ data
 assert
 d
 [
-'
+"
 command
-'
+"
 ]
 =
 =
-'
+"
 python
-'
+"
     
 assert
 d
 [
-'
+"
 argv
-'
+"
 ]
 =
 =
 [
-'
+"
 -
 c
-'
-'
+"
+"
 pass
-'
+"
 ]
     
 if
@@ -603,18 +605,18 @@ PY3
         
 read_mode
 =
-'
+"
 r
-'
+"
     
 else
 :
         
 read_mode
 =
-'
+"
 rb
-'
+"
     
 client_id_data
 =
@@ -626,12 +628,11 @@ tmpdir
 .
 join
 (
-        
-'
+"
 telemetry_client_id
 .
 json
-'
+"
 )
 .
 open
@@ -641,26 +642,26 @@ read_mode
 )
     
 assert
-'
+"
 client_id
-'
+"
 in
 client_id_data
     
 assert
 client_id_data
 [
-'
+"
 client_id
-'
+"
 ]
 =
 =
 d
 [
-'
+"
 client_id
-'
+"
 ]
 pytest
 .
@@ -668,6 +669,7 @@ mark
 .
 xfail
 (
+    
 platform
 .
 system
@@ -680,17 +682,17 @@ Windows
 "
 and
 PY3
-                   
+    
 reason
 =
-'
+"
 Windows
 and
 Python3
 mozpath
 filtering
 issues
-'
+"
 )
 def
 test_path_filtering
@@ -711,9 +713,9 @@ join
 buildconfig
 .
 topsrcdir
-'
+"
 a
-'
+"
 )
     
 srcdir_path_2
@@ -727,13 +729,13 @@ join
 buildconfig
 .
 topsrcdir
-'
+"
 a
 /
 b
 /
 c
-'
+"
 )
     
 objdir_path
@@ -747,9 +749,9 @@ join
 buildconfig
 .
 topobjdir
-'
+"
 x
-'
+"
 )
     
 objdir_path_2
@@ -763,13 +765,13 @@ join
 buildconfig
 .
 topobjdir
-'
+"
 x
 /
 y
 /
 z
-'
+"
 )
     
 home_path
@@ -786,13 +788,13 @@ path
 .
 expanduser
 (
-'
+"
 ~
-'
+"
 )
-'
+"
 something_in_home
-'
+"
 )
     
 other_path
@@ -803,9 +805,9 @@ tmpdir
 .
 join
 (
-'
+"
 other
-'
+"
 )
 )
     
@@ -813,32 +815,38 @@ data
 =
 run_mach
 (
-'
+        
+"
 python
-'
-'
+"
+        
+"
 -
 c
-'
-'
+"
+        
+"
 pass
-'
-                    
+"
+        
 srcdir_path
+        
 srcdir_path_2
-                    
+        
 objdir_path
+        
 objdir_path_2
-                    
+        
 home_path
-                    
+        
 other_path
-                    
+        
 cwd
 =
 buildconfig
 .
 topsrcdir
+    
 )
     
 assert
@@ -861,31 +869,34 @@ expected
 =
 [
         
-'
+"
 -
 c
-'
-'
-pass
-'
+"
         
-'
+"
+pass
+"
+        
+"
 a
-'
-'
+"
+        
+"
 a
 /
 b
 /
 c
-'
+"
         
-'
+"
 topobjdir
 /
 x
-'
-'
+"
+        
+"
 topobjdir
 /
 x
@@ -893,29 +904,29 @@ x
 y
 /
 z
-'
+"
         
-'
+"
 HOME
 /
 something_in_home
-'
+"
         
-'
+"
 <
 path
 omitted
 >
-'
+"
     
 ]
     
 assert
 d
 [
-'
+"
 argv
-'
+"
 ]
 =
 =
@@ -926,6 +937,7 @@ mark
 .
 xfail
 (
+    
 platform
 .
 system
@@ -938,17 +950,17 @@ Windows
 "
 and
 PY3
-                   
+    
 reason
 =
-'
+"
 Windows
 and
 Python3
 mozpath
 filtering
 issues
-'
+"
 )
 def
 test_path_filtering_in_objdir
@@ -969,9 +981,9 @@ join
 buildconfig
 .
 topsrcdir
-'
+"
 a
-'
+"
 )
     
 srcdir_path_2
@@ -985,13 +997,13 @@ join
 buildconfig
 .
 topsrcdir
-'
+"
 a
 /
 b
 /
 c
-'
+"
 )
     
 objdir_path
@@ -1005,9 +1017,9 @@ join
 buildconfig
 .
 topobjdir
-'
+"
 x
-'
+"
 )
     
 objdir_path_2
@@ -1021,13 +1033,13 @@ join
 buildconfig
 .
 topobjdir
-'
+"
 x
 /
 y
 /
 z
-'
+"
 )
     
 other_path
@@ -1038,9 +1050,9 @@ tmpdir
 .
 join
 (
-'
+"
 other
-'
+"
 )
 )
     
@@ -1048,30 +1060,36 @@ data
 =
 run_mach
 (
-'
+        
+"
 python
-'
-'
+"
+        
+"
 -
 c
-'
-'
+"
+        
+"
 pass
-'
-                    
+"
+        
 srcdir_path
+        
 srcdir_path_2
-                    
+        
 objdir_path
+        
 objdir_path_2
-                    
+        
 other_path
-                    
+        
 cwd
 =
 buildconfig
 .
 topobjdir
+    
 )
     
 assert
@@ -1094,20 +1112,22 @@ expected
 =
 [
         
-'
+"
 -
 c
-'
-'
-pass
-'
+"
         
-'
+"
+pass
+"
+        
+"
 topsrcdir
 /
 a
-'
-'
+"
+        
+"
 topsrcdir
 /
 a
@@ -1115,34 +1135,35 @@ a
 b
 /
 c
-'
+"
         
-'
+"
 x
-'
-'
+"
+        
+"
 x
 /
 y
 /
 z
-'
+"
         
-'
+"
 <
 path
 omitted
 >
-'
+"
     
 ]
     
 assert
 d
 [
-'
+"
 argv
-'
+"
 ]
 =
 =
@@ -1166,9 +1187,9 @@ join
 buildconfig
 .
 topsrcdir
-'
+"
 a
-'
+"
 )
     
 srcdir_path_2
@@ -1182,13 +1203,13 @@ join
 buildconfig
 .
 topsrcdir
-'
+"
 a
 /
 b
 /
 c
-'
+"
 )
     
 other_path
@@ -1199,9 +1220,9 @@ tmpdir
 .
 join
 (
-'
+"
 other
-'
+"
 )
 )
     
@@ -1209,21 +1230,19 @@ data
 =
 run_mach
 (
-'
+        
+"
 python
-'
-'
+"
+"
 -
 c
-'
-'
+"
+"
 pass
-'
-                    
+"
 srcdir_path
-                    
 srcdir_path_2
-                    
 other_path
 cwd
 =
@@ -1231,6 +1250,7 @@ str
 (
 tmpdir
 )
+    
 )
     
 assert
@@ -1253,20 +1273,22 @@ expected
 =
 [
         
-'
+"
 -
 c
-'
-'
-pass
-'
+"
         
-'
+"
+pass
+"
+        
+"
 topsrcdir
 /
 a
-'
-'
+"
+        
+"
 topsrcdir
 /
 a
@@ -1274,20 +1296,20 @@ a
 b
 /
 c
-'
+"
         
-'
+"
 other
-'
+"
     
 ]
     
 assert
 d
 [
-'
+"
 argv
-'
+"
 ]
 =
 =
@@ -1303,17 +1325,19 @@ data
 =
 run_mach
 (
-'
+        
+"
 python
-'
-'
+"
+        
+"
 -
 -
 exec
 -
 file
-'
-                    
+"
+        
 os
 .
 path
@@ -1328,12 +1352,13 @@ dirname
 (
 __file__
 )
-'
+"
 zero_microseconds
 .
 py
-'
+"
 )
+    
 )
     
 d
@@ -1346,22 +1371,22 @@ data
 assert
 d
 [
-'
+"
 command
-'
+"
 ]
 =
 =
-'
+"
 python
-'
+"
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

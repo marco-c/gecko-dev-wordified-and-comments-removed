@@ -17,9 +17,9 @@ raptor
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
     
 total
@@ -33,7 +33,7 @@ re
 compile
 (
 r
-'
+"
 TOTAL
 :
 \
@@ -44,7 +44,7 @@ s
 d
 +
 )
-'
+"
 )
     
 verbose
@@ -83,10 +83,10 @@ app_name
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
     
 raptor
@@ -151,9 +151,9 @@ raptor
 .
 config
 [
-'
+"
 memory_test
-'
+"
 ]
 :
         
@@ -188,6 +188,7 @@ device
 .
 shell_output
 (
+        
 "
 am
 start
@@ -201,7 +202,6 @@ action
 .
 MAIN
 "
-                               
 "
 -
 c
@@ -213,6 +213,7 @@ category
 .
 HOME
 "
+    
 )
     
 raptor
@@ -233,47 +234,46 @@ raptor
 meminfo_data
 =
 {
-'
+        
+"
 type
-'
+"
 :
-'
+"
 memory
-'
-                    
-'
+"
+        
+"
 test
-'
+"
 :
 test_name
-                    
-'
+        
+"
 unit
-'
+"
 :
-'
+"
 KB
-'
-                    
-'
+"
+        
+"
 values
-'
+"
 :
 {
-                        
-'
+"
 foreground
-'
+"
 :
 foreground
-                        
-'
+"
 background
-'
+"
 :
 background
-                    
 }
+    
 }
     
 raptor

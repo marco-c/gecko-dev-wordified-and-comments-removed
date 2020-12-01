@@ -206,9 +206,9 @@ self
 .
 config
 [
-'
+"
 loader
-'
+"
 ]
         
 except
@@ -278,11 +278,11 @@ config
 .
 get
 (
-'
+"
 kind
 -
 dependencies
-'
+"
 [
 ]
 )
@@ -290,6 +290,7 @@ dependencies
 kind_dependencies_tasks
 =
 {
+            
 task
 .
 label
@@ -299,13 +300,13 @@ for
 task
 in
 loaded_tasks
-                                   
 if
 task
 .
 kind
 in
 kind_dependencies
+        
 }
         
 inputs
@@ -334,9 +335,9 @@ xform_path
 in
 config
 [
-'
+"
 transforms
-'
+"
 ]
 :
             
@@ -358,133 +359,141 @@ trans_config
 =
 TransformConfig
 (
+            
 self
 .
 name
+            
 self
 .
 path
+            
 config
+            
 parameters
-                                       
+            
 kind_dependencies_tasks
+            
 self
 .
 graph_config
-                                       
+            
 write_artifacts
 =
 write_artifacts
+        
 )
         
 tasks
 =
 [
+            
 Task
 (
+                
 self
 .
 name
-                      
+                
 label
 =
 task_dict
 [
-'
+"
 label
-'
+"
 ]
-                      
+                
 description
 =
 task_dict
 [
-'
+"
 description
-'
+"
 ]
-                      
+                
 attributes
 =
 task_dict
 [
-'
+"
 attributes
-'
+"
 ]
-                      
+                
 task
 =
 task_dict
 [
-'
+"
 task
-'
+"
 ]
-                      
+                
 optimization
 =
 task_dict
 .
 get
 (
-'
+"
 optimization
-'
+"
 )
-                      
+                
 dependencies
 =
 task_dict
 .
 get
 (
-'
+"
 dependencies
-'
+"
 )
-                      
+                
 soft_dependencies
 =
 task_dict
 .
 get
 (
-'
+"
 soft
 -
 dependencies
-'
+"
 )
-                      
+                
 if_dependencies
 =
 task_dict
 .
 get
 (
-'
+"
 if
 -
 dependencies
-'
+"
 )
-                      
+                
 release_artifacts
 =
 task_dict
 .
 get
 (
-'
+"
 release
 -
 artifacts
-'
+"
 )
-                      
+            
 )
-                 
+            
 for
 task_dict
 in
@@ -493,6 +502,7 @@ transforms
 trans_config
 inputs
 )
+        
 ]
         
 return
@@ -531,11 +541,11 @@ path
 join
 (
 path
-'
+"
 kind
 .
 yml
-'
+"
 )
         
 if
@@ -769,11 +779,11 @@ None
             
 root_dir
 =
-'
+"
 taskcluster
 /
 ci
-'
+"
         
 self
 .
@@ -853,9 +863,9 @@ self
 .
 _run_until
 (
-'
+"
 parameters
-'
+"
 )
     
 property
@@ -902,9 +912,9 @@ self
 .
 _run_until
 (
-'
+"
 full_task_set
-'
+"
 )
     
 property
@@ -949,9 +959,9 @@ self
 .
 _run_until
 (
-'
+"
 full_task_graph
-'
+"
 )
     
 property
@@ -992,9 +1002,9 @@ self
 .
 _run_until
 (
-'
+"
 target_task_set
-'
+"
 )
     
 property
@@ -1034,9 +1044,9 @@ self
 .
 _run_until
 (
-'
+"
 target_task_graph
-'
+"
 )
     
 property
@@ -1099,9 +1109,9 @@ self
 .
 _run_until
 (
-'
+"
 optimized_task_graph
-'
+"
 )
     
 property
@@ -1148,9 +1158,9 @@ self
 .
 _run_until
 (
-'
+"
 label_to_taskid
-'
+"
 )
     
 property
@@ -1214,9 +1224,9 @@ self
 .
 _run_until
 (
-'
+"
 morphed_task_graph
-'
+"
 )
     
 property
@@ -1252,9 +1262,9 @@ self
 .
 _run_until
 (
-'
+"
 graph_config
-'
+"
 )
     
 def
@@ -1329,9 +1339,9 @@ root_dir
         
 yield
 (
-'
+"
 graph_config
-'
+"
 graph_config
 )
         
@@ -1381,17 +1391,17 @@ parameters
 .
 get
 (
-'
+"
 filters
-'
+"
 [
 ]
 )
         
 if
-'
+"
 target_tasks_method
-'
+"
 not
 in
 filters
@@ -1402,9 +1412,9 @@ filters
 insert
 (
 0
-'
+"
 target_tasks_method
-'
+"
 )
         
 filters
@@ -1424,9 +1434,9 @@ filters
         
 yield
 (
-'
+"
 parameters
-'
+"
 parameters
 )
         
@@ -1492,11 +1502,11 @@ config
 .
 get
 (
-'
+"
 kind
 -
 dependencies
-'
+"
 [
 ]
 )
@@ -1511,11 +1521,11 @@ kind
 .
 name
 dep
-'
+"
 kind
 -
 dependency
-'
+"
 )
 )
         
@@ -1535,11 +1545,11 @@ parameters
 .
 get
 (
-'
+"
 target
 -
 kind
-'
+"
 )
 :
             
@@ -1547,11 +1557,11 @@ target_kind
 =
 parameters
 [
-'
+"
 target
 -
 kind
-'
+"
 ]
             
 logger
@@ -1576,7 +1586,9 @@ format
 target_kind
 =
 target_kind
+                
 )
+            
 )
             
 kind_graph
@@ -1587,11 +1599,11 @@ transitive_closure
 (
 {
 target_kind
-'
+"
 docker
 -
 image
-'
+"
 }
 )
         
@@ -1659,6 +1671,7 @@ load_tasks
 (
                     
 parameters
+                    
 list
 (
 all_tasks
@@ -1667,6 +1680,7 @@ values
 (
 )
 )
+                    
 self
 .
 _write_artifacts
@@ -1742,6 +1756,7 @@ logger
 .
 info
 (
+                
 "
 Generated
 {
@@ -1761,6 +1776,7 @@ new_tasks
 )
 kind_name
 )
+            
 )
         
 full_task_set
@@ -1796,9 +1812,9 @@ verify_run_using
 yield
 verifications
 (
-'
+"
 full_task_set
-'
+"
 full_task_set
 graph_config
 parameters
@@ -1860,7 +1876,6 @@ full_task_graph
 TaskGraph
 (
 all_tasks
-                                    
 Graph
 (
 full_task_set
@@ -1876,6 +1891,7 @@ logger
 .
 info
 (
+            
 "
 Full
 task
@@ -1889,9 +1905,9 @@ and
 d
 dependencies
 "
+            
 %
 (
-            
 len
 (
 full_task_set
@@ -1905,17 +1921,20 @@ len
 edges
 )
 )
+        
 )
         
 yield
 verifications
 (
-'
+            
+"
 full_task_graph
-'
+"
 full_task_graph
 graph_config
 parameters
+        
 )
         
 logger
@@ -1934,11 +1953,11 @@ target_task_set
 =
 TaskGraph
 (
+            
 dict
 (
 all_tasks
 )
-                                    
 Graph
 (
 set
@@ -1953,6 +1972,7 @@ set
 (
 )
 )
+        
 )
         
 for
@@ -2001,7 +2021,6 @@ l
 in
 target_tasks
 }
-                
 Graph
 (
 target_tasks
@@ -2009,13 +2028,15 @@ set
 (
 )
 )
+            
 )
             
 logger
 .
 info
 (
-'
+                
+"
 Filter
 %
 s
@@ -2028,37 +2049,38 @@ tasks
 d
 remain
 )
-'
+"
+                
 %
 (
-                
 fltr
 .
 __name__
-                
 old_len
 -
 len
 (
 target_tasks
 )
-                
 len
 (
 target_tasks
 )
 )
+            
 )
         
 yield
 verifications
 (
-'
+            
+"
 target_task_set
-'
+"
 target_task_set
 graph_config
 parameters
+        
 )
         
 logger
@@ -2077,9 +2099,11 @@ docker_image_tasks
 =
 set
 (
+            
 t
 .
 label
+            
 for
 t
 in
@@ -2091,23 +2115,24 @@ full_task_graph
 .
 tasks
 )
-                                 
+            
 if
 t
 .
 attributes
 [
-'
+"
 kind
-'
+"
 ]
 =
 =
-'
+"
 docker
 -
 image
-'
+"
+        
 )
         
 if
@@ -2130,9 +2155,11 @@ always_target_tasks
 =
 set
 (
+                
 t
 .
 label
+                
 for
 t
 in
@@ -2144,7 +2171,7 @@ full_task_graph
 .
 tasks
 )
-                                      
+                
 if
 t
 .
@@ -2152,10 +2179,11 @@ attributes
 .
 get
 (
-'
+"
 always_target
-'
+"
 )
+            
 )
         
 else
@@ -2171,7 +2199,8 @@ logger
 .
 info
 (
-'
+            
+"
 Adding
 %
 d
@@ -2179,10 +2208,10 @@ tasks
 with
 always_target
 attribute
-'
+"
+            
 %
 (
-                    
 len
 (
 always_target_tasks
@@ -2195,6 +2224,7 @@ always_target_tasks
 target_tasks
 )
 )
+        
 )
         
 requested_tasks
@@ -2235,19 +2265,21 @@ target_graph
 .
 nodes
 }
-            
 target_graph
+        
 )
         
 yield
 verifications
 (
-'
+            
+"
 target_task_graph
-'
+"
 target_task_graph
 graph_config
 parameters
+        
 )
         
 logger
@@ -2268,9 +2300,9 @@ parameters
 .
 get
 (
-'
+"
 existing_tasks
-'
+"
 )
         
 do_not_optimize
@@ -2281,9 +2313,9 @@ parameters
 .
 get
 (
-'
+"
 do_not_optimize
-'
+"
 [
 ]
 )
@@ -2295,9 +2327,9 @@ parameters
 .
 get
 (
-'
+"
 optimize_target_tasks
-'
+"
 True
 )
 :
@@ -2326,18 +2358,19 @@ environ
 .
 get
 (
-'
+            
+"
 TASKGRAPH_OPTIMIZE_STRATEGIES
-'
-                                    
+"
 parameters
 .
 get
 (
-'
+"
 optimize_strategies
-'
+"
 )
+        
 )
         
 if
@@ -2382,12 +2415,14 @@ strategies
 yield
 verifications
 (
-'
+            
+"
 optimized_task_graph
-'
+"
 optimized_task_graph
 graph_config
 parameters
+        
 )
         
 morphed_task_graph
@@ -2397,30 +2432,36 @@ morph
 (
             
 optimized_task_graph
+            
 label_to_taskid
+            
 parameters
+            
 graph_config
             
 self
 .
 _decision_task_id
+        
 )
         
 yield
-'
+"
 label_to_taskid
-'
+"
 label_to_taskid
         
 yield
 verifications
 (
-'
+            
+"
 morphed_task_graph
-'
+"
 morphed_task_graph
 graph_config
 parameters
+        
 )
     
 def
@@ -2543,7 +2584,7 @@ inline
 -
 literal
 "
-         
+        
 )
     
 def
@@ -2564,7 +2605,6 @@ kinds
 .
 rst
 "
-            
 identifiers
 =
 kinds
@@ -2572,13 +2612,12 @@ kinds
 keys
 (
 )
-            
 appearing_as
 =
 "
 heading
 "
-         
+        
 )
     
 def
@@ -2643,7 +2682,7 @@ appearing_as
 "
 heading
 "
-         
+        
 )
     
 def
@@ -2687,7 +2726,7 @@ inline
 -
 literal
 "
-         
+        
 )
 def
 load_tasks_for_kind
@@ -2740,11 +2779,11 @@ parameters
     
 parameters
 [
-'
+"
 target
 -
 kind
-'
+"
 ]
 =
 kind
@@ -2780,14 +2819,14 @@ task
 .
 task
 [
-'
+"
 metadata
-'
+"
 ]
 [
-'
+"
 name
-'
+"
 ]
 :
 task

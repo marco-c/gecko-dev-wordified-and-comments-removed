@@ -39,21 +39,27 @@ handler
 KNOWN_TEST_MODIFIERS
 =
 [
+    
 "
 nocondprof
 "
+    
 "
 fission
 "
+    
 "
 live
 "
+    
 "
 gecko_profile
 "
+    
 "
 cold
 "
+    
 "
 webrender
 "
@@ -438,6 +444,7 @@ an
 extra
 option
 "
+                        
 %
 name
                     
@@ -1301,12 +1308,14 @@ extra_options
 .
 extend
 (
+            
 self
 .
 build_extra_options
 (
+                
 [
-            
+                    
 (
 self
 .
@@ -1315,7 +1324,7 @@ no_conditioned_profile
 nocondprof
 "
 )
-            
+                    
 (
 self
 .
@@ -1324,7 +1333,7 @@ fission_enabled
 fission
 "
 )
-            
+                    
 (
 self
 .
@@ -1333,9 +1342,11 @@ webrender_enabled
 webrender
 "
 )
-        
+                
 ]
+            
 )
+        
 )
         
 if
@@ -1540,6 +1551,8 @@ out_perfdata
 )
         
 return
+(
+            
 sup_success
 and
 success
@@ -1550,6 +1563,8 @@ not
 self
 .
 page_timeout_list
+        
+)
 class
 BrowsertimeResultsHandler
 (
@@ -2769,19 +2784,19 @@ measurements
 .
 setdefault
 (
-                            
 metric
 [
 ]
-                        
 )
 .
 append
 (
+                            
 cycle
 [
 metric
 ]
+                        
 )
                 
 power_result
@@ -2803,9 +2818,11 @@ android
 "
 ]
 [
+                    
 "
 power
 "
+                
 ]
                 
 results
@@ -2899,19 +2916,19 @@ measurements
 .
 setdefault
 (
-                            
 metric
 [
 ]
-                        
 )
 .
 append
 (
+                            
 cycle
 [
 metric
 ]
+                        
 )
                 
 vismet_result
@@ -3034,6 +3051,7 @@ app
                         
 and
 (
+                            
 "
 chrome
 "
@@ -3045,6 +3063,7 @@ app
 lower
 (
 )
+                            
 or
 "
 chromium
@@ -3057,6 +3076,7 @@ app
 lower
 (
 )
+                        
 )
                         
 and
@@ -3275,8 +3295,11 @@ _extract_vmetrics
 (
         
 self
+        
 test_name
+        
 browsertime_json
+        
 json_name
 =
 "
@@ -3284,6 +3307,7 @@ browsertime
 .
 json
 "
+        
 extra_options
 =
 [
@@ -4026,23 +4050,23 @@ video_jobs
 .
 append
 (
+                        
 self
 .
 _extract_vmetrics
 (
-                        
+                            
 test_name
-                        
 bt_res_json
-                        
 extra_options
 =
 list
 (
 extra_options
 )
-                    
+                        
 )
+                    
 )
             
 for
@@ -4399,7 +4423,6 @@ _new_standard_result
 (
                         
 new_result
-                        
 subtest_unit
 =
 test
@@ -4584,7 +4607,9 @@ and
 not
 _is_supporting_data
 (
+                            
 item
+                        
 )
 :
                             

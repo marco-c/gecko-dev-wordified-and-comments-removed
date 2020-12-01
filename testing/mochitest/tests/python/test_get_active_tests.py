@@ -52,9 +52,9 @@ pytest
 .
 importorskip
 (
-'
+"
 runtests
-'
+"
 )
     
 md
@@ -63,17 +63,17 @@ runtests
 .
 MochitestDesktop
 (
-'
+"
 plain
-'
+"
 {
-'
+"
 log_tbpl
-'
+"
 :
-'
+"
 -
-'
+"
 }
 )
     
@@ -120,9 +120,9 @@ opts
 .
 get
 (
-'
+"
 manifestFile
-'
+"
 )
         
 if
@@ -210,11 +210,11 @@ inner
 string
 name
 =
-'
+"
 manifest
 .
 ini
-'
+"
 )
 :
         
@@ -274,18 +274,20 @@ create_manifest
     
 manifest_relpath
 =
-'
+"
 manifest
 .
 ini
-'
+"
     
 manifest
 =
 create_manifest
 (
+        
 dedent
 (
+            
 "
 "
 "
@@ -328,22 +330,24 @@ html
 "
 "
 "
+        
 )
+    
 )
     
 options
 =
 {
         
-'
+"
 runByManifest
-'
+"
 :
 True
         
-'
+"
 manifestFile
-'
+"
 :
 manifest
     
@@ -418,9 +422,9 @@ baz
     
 options
 [
-'
+"
 runByManifest
-'
+"
 ]
 =
 False
@@ -443,24 +447,26 @@ options
     
 options
 [
-'
+"
 runByManifest
-'
+"
 ]
 =
 True
     
 options
 [
-'
+"
 manifestFile
-'
+"
 ]
 =
 create_manifest
 (
+        
 dedent
 (
+            
 "
 "
 "
@@ -490,7 +496,9 @@ html
 "
 "
 "
+        
 )
+    
 )
     
 with
@@ -518,8 +526,10 @@ create_manifest
     
 create_manifest
 (
+        
 dedent
 (
+            
 "
 "
 "
@@ -562,24 +572,29 @@ html
 "
 "
 "
+        
 )
+        
 name
 =
-'
+"
 subdir
 /
 manifest
 .
 ini
-'
+"
+    
 )
     
 manifest
 =
 create_manifest
 (
+        
 dedent
 (
+            
 "
 "
 "
@@ -620,10 +635,12 @@ html
 "
 "
 "
+        
 )
+        
 name
 =
-'
+"
 subdir
 /
 ancestor
@@ -631,22 +648,23 @@ ancestor
 manifest
 .
 ini
-'
+"
+    
 )
     
 options
 =
 {
         
-'
+"
 runByManifest
-'
+"
 :
 True
         
-'
+"
 manifestFile
-'
+"
 :
 manifest
     
@@ -679,16 +697,16 @@ path
 .
 join
 (
-'
+"
 subdir
-'
-'
+"
+"
 ancestor
 -
 manifest
 .
 ini
-'
+"
 )
     
 assert
@@ -724,7 +742,7 @@ pop
 )
 =
 =
-'
+"
 \
 nbrowser
 .
@@ -737,17 +755,17 @@ fleem
 nflower
 =
 rose
-'
+"
     
 key
 =
-'
+"
 {
 }
 :
 {
 }
-'
+"
 .
 format
 (
@@ -758,16 +776,16 @@ path
 .
 join
 (
-'
+"
 subdir
-'
-'
+"
+"
 ancestor
 -
 manifest
 .
 ini
-'
+"
 )
         
 os
@@ -776,14 +794,14 @@ path
 .
 join
 (
-'
+"
 subdir
-'
-'
+"
+"
 manifest
 .
 ini
-'
+"
 )
     
 )
@@ -814,14 +832,17 @@ prefs
 1
     
 assert
+(
+        
 prefs
 .
 pop
 (
 )
+        
 =
 =
-'
+"
 \
 nbrowser
 .
@@ -846,14 +867,16 @@ dom
 foo
 =
 baz
-'
+"
+    
+)
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

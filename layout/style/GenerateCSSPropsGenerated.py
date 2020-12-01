@@ -136,6 +136,7 @@ output
 .
 write
 (
+        
 "
 "
 "
@@ -187,6 +188,7 @@ cpp
 "
 "
 "
+    
 )
     
 raw_properties
@@ -206,12 +208,13 @@ data
 properties
 =
 [
+        
 PropertyWrapper
 (
 i
 p
 )
-                  
+        
 for
 i
 p
@@ -220,7 +223,7 @@ enumerate
 (
 raw_properties
 )
-                  
+        
 if
 p
 .
@@ -232,12 +235,14 @@ type
 "
 alias
 "
+    
 ]
     
 output
 .
 write
 (
+        
 "
 const
 char
@@ -247,7 +252,6 @@ nsCSSProps
 :
 :
 "
-                 
 "
 kIDLNameTable
 [
@@ -258,6 +262,7 @@ eCSSProperty_COUNT
 \
 n
 "
+    
 )
     
 for
@@ -352,8 +357,8 @@ p
 .
 idlname
 else
-'
-'
+"
+"
 )
     
 ps
@@ -394,6 +399,7 @@ output
 .
 write
 (
+        
 "
 const
 int32_t
@@ -401,7 +407,7 @@ nsCSSProps
 :
 :
 "
-                 
+        
 "
 kIDLNameSortPositionTable
 [
@@ -412,6 +418,7 @@ eCSSProperty_COUNT
 \
 n
 "
+    
 )
     
 for
@@ -458,6 +465,7 @@ output
 .
 write
 (
+        
 "
 const
 nsCSSProps
@@ -465,7 +473,6 @@ nsCSSProps
 :
 PropertyPref
 "
-                 
 "
 nsCSSProps
 :
@@ -478,6 +485,7 @@ kPropertyPrefTable
 \
 n
 "
+    
 )
     
 for
@@ -535,22 +543,20 @@ output
 .
 write
 (
-"
+'
 {
 {
 {
 }
-\
 "
 {
 }
-\
 "
 }
 }
 \
 n
-"
+'
 .
 format
 (
@@ -732,6 +738,7 @@ output
 .
 write
 (
+        
 "
 nsCSSProps
 :
@@ -739,13 +746,13 @@ nsCSSProps
 kSubpropertyTable
 [
 "
-                 
+        
 "
 eCSSProperty_COUNT
 -
 eCSSProperty_COUNT_no_shorthands
 "
-                 
+        
 "
 ]
 =
@@ -753,6 +760,7 @@ eCSSProperty_COUNT_no_shorthands
 \
 n
 "
+    
 )
     
 for
@@ -795,6 +803,7 @@ n
 msg
 =
 (
+        
 "
 GenerateCSSPropsGenerated
 .
@@ -804,12 +813,13 @@ not
 list
 properties
 "
-           
+        
 "
 in
 nsCSSPropertyID
 order
 "
+    
 )
     
 for
@@ -822,6 +832,7 @@ output
 .
 write
 (
+            
 '
 static_assert
 (
@@ -841,7 +852,6 @@ eCSSProperty_
 \
 n
 '
-                     
 .
 format
 (
@@ -853,4 +863,5 @@ p
 index
 msg
 )
+        
 )

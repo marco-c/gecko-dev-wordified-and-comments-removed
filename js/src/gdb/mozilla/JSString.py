@@ -75,9 +75,9 @@ ATOM_BIT
 =
 dummy
 [
-'
+"
 ATOM_BIT
-'
+"
 ]
         
 self
@@ -86,9 +86,9 @@ LINEAR_BIT
 =
 dummy
 [
-'
+"
 LINEAR_BIT
-'
+"
 ]
         
 self
@@ -97,9 +97,9 @@ INLINE_CHARS_BIT
 =
 dummy
 [
-'
+"
 INLINE_CHARS_BIT
-'
+"
 ]
         
 self
@@ -108,9 +108,9 @@ TYPE_FLAGS_MASK
 =
 dummy
 [
-'
+"
 TYPE_FLAGS_MASK
-'
+"
 ]
         
 self
@@ -119,9 +119,9 @@ LATIN1_CHARS_BIT
 =
 dummy
 [
-'
+"
 LATIN1_CHARS_BIT
-'
+"
 ]
 class
 Common
@@ -216,9 +216,9 @@ self
 .
 value
 [
-'
+"
 d
-'
+"
 ]
         
 length
@@ -238,25 +238,25 @@ corrupt
 =
 {
             
-0x2f2f2f2f
+0x2F2F2F2F
 :
-'
+"
 JS_FRESH_NURSERY_PATTERN
-'
+"
             
-0x2b2b2b2b
+0x2B2B2B2B
 :
-'
+"
 JS_SWEPT_NURSERY_PATTERN
-'
+"
             
-0xe5e5e5e5
+0xE5E5E5E5
 :
-'
+"
 jemalloc
 freed
 memory
-'
+"
         
 }
 .
@@ -264,7 +264,7 @@ get
 (
 flags
 &
-0xffffffff
+0xFFFFFFFF
 )
         
 if
@@ -317,19 +317,19 @@ JSStringPtr
 (
 d
 [
-'
+"
 s
-'
+"
 ]
 [
-'
+"
 u2
-'
+"
 ]
 [
-'
+"
 left
-'
+"
 ]
 self
 .
@@ -351,19 +351,19 @@ JSStringPtr
 (
 d
 [
-'
+"
 s
-'
+"
 ]
 [
-'
+"
 u3
-'
+"
 ]
 [
-'
+"
 right
-'
+"
 ]
 self
 .
@@ -423,9 +423,9 @@ chars
 =
 d
 [
-'
+"
 inlineStorageLatin1
-'
+"
 ]
                 
 else
@@ -435,9 +435,9 @@ chars
 =
 d
 [
-'
+"
 inlineStorageTwoByte
-'
+"
 ]
             
 else
@@ -451,19 +451,19 @@ chars
 =
 d
 [
-'
+"
 s
-'
+"
 ]
 [
-'
+"
 u2
-'
+"
 ]
 [
-'
+"
 nonInlineCharsLatin1
-'
+"
 ]
                 
 else
@@ -473,19 +473,19 @@ chars
 =
 d
 [
-'
+"
 s
-'
+"
 ]
 [
-'
+"
 u2
-'
+"
 ]
 [
-'
+"
 nonInlineCharsTwoByte
-'
+"
 ]
             
 for
@@ -518,8 +518,8 @@ maxlen
         
 s
 =
-'
-'
+"
+"
         
 invalid_chars_allowed
 =
@@ -611,7 +611,7 @@ x
 (
 c
 &
-0xffff
+0xFFFF
 )
         
 return

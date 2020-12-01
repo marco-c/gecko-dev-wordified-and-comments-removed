@@ -1,6 +1,6 @@
-'
-'
-'
+"
+"
+"
 A
 generic
 script
@@ -33,9 +33,9 @@ directory
 .
 .
 ]
-'
-'
-'
+"
+"
+"
 from
 __future__
 import
@@ -80,11 +80,11 @@ path
 join
 (
 testdir
-'
+"
 xpcshell
 .
 ini
-'
+"
 )
 )
     
@@ -132,7 +132,6 @@ files
 :
         
 if
-(
 not
 os
 .
@@ -141,7 +140,6 @@ path
 isfile
 (
 f
-)
 )
 :
             
@@ -163,10 +161,10 @@ name
 .
 endswith
 (
-'
+"
 .
 in
-'
+"
 )
 :
             
@@ -185,10 +183,10 @@ name
 .
 endswith
 (
-'
+"
 .
 js
-'
+"
 )
 :
             
@@ -225,9 +223,9 @@ name
 =
 test
 [
-'
+"
 path
-'
+"
 ]
 :
                 
@@ -244,8 +242,10 @@ found
             
 print
 (
+                
 (
-'
+                    
+"
 TEST
 -
 UNEXPECTED
@@ -255,9 +255,9 @@ FAIL
 xpccheck
 |
 test
-'
-                   
-'
+"
+                    
+"
 %
 s
 is
@@ -268,8 +268,10 @@ manifest
 %
 s
 !
-'
+"
+                
 )
+                
 %
 (
                     
@@ -282,21 +284,21 @@ path
 join
 (
 directory
-'
+"
 xpcshell
 .
 ini
-'
+"
 )
-                    
+                
 )
-                  
+                
 file
 =
 sys
 .
 stderr
-                  
+            
 )
             
 sys
@@ -348,16 +350,16 @@ name
 =
 test
 [
-'
+"
 path
-'
+"
 ]
 .
 split
 (
-'
+"
 /
-'
+"
 )
 [
 -
@@ -380,9 +382,9 @@ f
 .
 split
 (
-'
+"
 /
-'
+"
 )
 [
 -
@@ -394,19 +396,19 @@ fname
 .
 endswith
 (
-'
+"
 .
 in
-'
+"
 )
 :
                 
 fname
 =
-'
+"
 .
 in
-'
+"
 .
 join
 (
@@ -414,10 +416,10 @@ fname
 .
 split
 (
-'
+"
 .
 in
-'
+"
 )
 [
 :
@@ -447,9 +449,9 @@ fname
 =
 test
 [
-'
+"
 path
-'
+"
 ]
 :
                 
@@ -466,7 +468,9 @@ found
             
 print
 (
+                
 (
+                    
 "
 TEST
 -
@@ -478,7 +482,7 @@ xpccheck
 |
 found
 "
-                   
+                    
 "
 %
 s
@@ -495,22 +499,24 @@ directory
 s
 '
 "
+                
 )
+                
 %
 (
                     
 name
                     
 directory
-                    
+                
 )
-                  
+                
 file
 =
 sys
 .
 stderr
-                  
+            
 )
             
 sys
@@ -537,6 +543,7 @@ argv
         
 print
 (
+            
 "
 Usage
 :
@@ -558,12 +565,13 @@ directory
 .
 ]
 "
-              
+            
 file
 =
 sys
 .
 stderr
+        
 )
         
 sys
@@ -588,7 +596,7 @@ d
 .
 endswith
 (
-'
+"
 toolkit
 /
 mozapps
@@ -600,7 +608,7 @@ test
 xpcshell
 -
 unpack
-'
+"
 )
 :
             
@@ -628,9 +636,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

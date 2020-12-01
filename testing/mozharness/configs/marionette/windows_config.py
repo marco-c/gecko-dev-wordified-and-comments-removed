@@ -28,9 +28,9 @@ ini
 virtualenv_path
 "
 :
-'
+"
 venv
-'
+"
     
 "
 exes
@@ -38,11 +38,11 @@ exes
 :
 {
         
-'
+"
 python
-'
+"
 :
-'
+"
 c
 :
 /
@@ -53,13 +53,13 @@ build
 python27
 /
 python
-'
+"
         
-'
+"
 hg
-'
+"
 :
-'
+"
 c
 :
 /
@@ -70,7 +70,7 @@ build
 hg
 /
 hg
-'
+"
     
 }
     
@@ -80,33 +80,33 @@ default_actions
 :
 [
         
-'
+"
 clobber
-'
+"
         
-'
+"
 download
 -
 and
 -
 extract
-'
+"
         
-'
+"
 create
 -
 virtualenv
-'
+"
         
-'
+"
 install
-'
+"
         
-'
+"
 run
 -
 tests
-'
+"
     
 ]
     

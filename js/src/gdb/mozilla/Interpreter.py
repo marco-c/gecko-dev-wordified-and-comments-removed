@@ -40,12 +40,12 @@ gdb
 .
 lookup_type
 (
-'
+"
 JS
 :
 :
 Value
-'
+"
 )
         
 self
@@ -56,9 +56,9 @@ gdb
 .
 lookup_type
 (
-'
+"
 JSOp
-'
+"
 )
         
 try
@@ -72,7 +72,7 @@ gdb
 .
 lookup_type
 (
-'
+"
 js
 :
 :
@@ -80,7 +80,7 @@ ScriptFrameIter
 :
 :
 Data
-'
+"
 )
         
 except
@@ -97,7 +97,7 @@ gdb
 .
 lookup_type
 (
-'
+"
 js
 :
 :
@@ -105,7 +105,7 @@ FrameIter
 :
 :
 Data
-'
+"
 )
         
 self
@@ -116,12 +116,12 @@ gdb
 .
 lookup_type
 (
-'
+"
 js
 :
 :
 InterpreterFrame
-'
+"
 )
         
 self
@@ -132,7 +132,7 @@ gdb
 .
 lookup_type
 (
-'
+"
 js
 :
 :
@@ -140,7 +140,7 @@ jit
 :
 :
 BaselineFrame
-'
+"
 )
         
 self
@@ -151,7 +151,7 @@ gdb
 .
 lookup_type
 (
-'
+"
 js
 :
 :
@@ -159,7 +159,7 @@ jit
 :
 :
 RematerializedFrame
-'
+"
 )
         
 self
@@ -170,7 +170,7 @@ gdb
 .
 lookup_type
 (
-'
+"
 js
 :
 :
@@ -178,16 +178,16 @@ wasm
 :
 :
 DebugFrame
-'
+"
 )
 pretty_printer
 (
-'
+"
 js
 :
 :
 InterpreterRegs
-'
+"
 )
 class
 InterpreterRegs
@@ -249,12 +249,12 @@ self
         
 fp_
 =
-'
+"
 fp_
 =
 {
 }
-'
+"
 .
 format
 (
@@ -262,9 +262,9 @@ self
 .
 value
 [
-'
+"
 fp_
-'
+"
 ]
 )
         
@@ -275,9 +275,9 @@ self
 .
 value
 [
-'
+"
 fp_
-'
+"
 ]
 +
 1
@@ -298,7 +298,7 @@ pointer
         
 sp
 =
-'
+"
 sp
 =
 fp_
@@ -309,7 +309,7 @@ slots
 +
 {
 }
-'
+"
 .
 format
 (
@@ -317,9 +317,9 @@ self
 .
 value
 [
-'
+"
 sp
-'
+"
 ]
 -
 slots
@@ -327,12 +327,12 @@ slots
         
 pc
 =
-'
+"
 pc
 =
 {
 }
-'
+"
 .
 format
 (
@@ -340,14 +340,14 @@ self
 .
 value
 [
-'
+"
 pc
-'
+"
 ]
 )
         
 return
-'
+"
 {
 {
 {
@@ -358,7 +358,7 @@ return
 }
 }
 }
-'
+"
 .
 format
 (
@@ -368,12 +368,12 @@ pc
 )
 pretty_printer
 (
-'
+"
 js
 :
 :
 AbstractFramePtr
-'
+"
 )
 class
 AbstractFramePtr
@@ -463,9 +463,9 @@ self
 .
 value
 [
-'
+"
 ptr_
-'
+"
 ]
         
 tag
@@ -496,7 +496,7 @@ Tag_ScriptFrameIterData
             
 label
 =
-'
+"
 js
 :
 :
@@ -504,7 +504,7 @@ ScriptFrameIter
 :
 :
 Data
-'
+"
             
 ptr
 =
@@ -534,12 +534,12 @@ Tag_InterpreterFrame
             
 label
 =
-'
+"
 js
 :
 :
 InterpreterFrame
-'
+"
             
 ptr
 =
@@ -569,7 +569,7 @@ Tag_BaselineFrame
             
 label
 =
-'
+"
 js
 :
 :
@@ -577,7 +577,7 @@ jit
 :
 :
 BaselineFrame
-'
+"
             
 ptr
 =
@@ -607,7 +607,7 @@ Tag_RematerializedFrame
             
 label
 =
-'
+"
 js
 :
 :
@@ -615,7 +615,7 @@ jit
 :
 :
 RematerializedFrame
-'
+"
             
 ptr
 =
@@ -645,7 +645,7 @@ Tag_WasmDebugFrame
             
 label
 =
-'
+"
 js
 :
 :
@@ -653,7 +653,7 @@ wasm
 :
 :
 DebugFrame
-'
+"
             
 ptr
 =
@@ -673,7 +673,7 @@ pointer
 )
         
 return
-'
+"
 AbstractFramePtr
 (
 (
@@ -684,7 +684,7 @@ AbstractFramePtr
 {
 }
 )
-'
+"
 .
 format
 (
@@ -701,15 +701,15 @@ self
         
 yield
 (
-'
+"
 ptr_
-'
+"
 self
 .
 value
 [
-'
+"
 ptr_
-'
+"
 ]
 )

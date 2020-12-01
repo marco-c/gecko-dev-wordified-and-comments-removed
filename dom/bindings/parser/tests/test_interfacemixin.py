@@ -67,6 +67,7 @@ harness
 .
 ok
 (
+        
 isinstance
 (
 results
@@ -77,13 +78,14 @@ WebIDL
 .
 IDLInterfaceMixin
 )
-               
+        
 "
 Should
 be
 an
 IDLInterfaceMixin
 "
+    
 )
     
 mixin
@@ -97,6 +99,7 @@ harness
 .
 check
 (
+        
 mixin
 .
 identifier
@@ -117,6 +120,7 @@ the
 right
 QName
 "
+    
 )
     
 harness
@@ -153,6 +157,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -175,6 +180,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -206,6 +212,7 @@ harness
 .
 ok
 (
+        
 isinstance
 (
 results
@@ -216,13 +223,14 @@ WebIDL
 .
 IDLInterfaceMixin
 )
-               
+        
 "
 Should
 be
 an
 IDLInterfaceMixin
 "
+    
 )
     
 harness
@@ -257,6 +265,7 @@ harness
 .
 check
 (
+        
 mixin
 .
 members
@@ -269,6 +278,7 @@ identifier
 QName
 (
 )
+        
 "
 :
 :
@@ -277,7 +287,7 @@ QNameBase
 :
 foo
 "
-                  
+        
 "
 Member
 has
@@ -285,6 +295,7 @@ the
 right
 QName
 "
+    
 )
     
 parser
@@ -299,6 +310,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -349,6 +361,7 @@ arg
 "
 "
 "
+    
 )
     
 results
@@ -363,12 +376,12 @@ harness
 .
 check
 (
+        
 len
 (
 results
 )
 2
-                  
 "
 Should
 have
@@ -379,6 +392,7 @@ partial
 interface
 mixin
 "
+    
 )
     
 mixin
@@ -392,6 +406,7 @@ harness
 .
 check
 (
+        
 len
 (
 mixin
@@ -399,7 +414,6 @@ mixin
 members
 )
 3
-                  
 "
 Should
 have
@@ -410,12 +424,14 @@ partial
 interface
 mixin
 "
+    
 )
     
 harness
 .
 check
 (
+        
 mixin
 .
 members
@@ -426,10 +442,11 @@ members
 identifier
 .
 name
+        
 "
 x
 "
-                  
+        
 "
 First
 member
@@ -441,12 +458,14 @@ partial
 interface
 mixin
 "
+    
 )
     
 harness
 .
 check
 (
+        
 mixin
 .
 members
@@ -457,10 +476,11 @@ members
 identifier
 .
 name
+        
 "
 foo
 "
-                  
+        
 "
 Second
 member
@@ -472,12 +492,14 @@ partial
 interface
 mixin
 "
+    
 )
     
 harness
 .
 check
 (
+        
 len
 (
 mixin
@@ -491,8 +513,9 @@ signatures
 (
 )
 )
+        
 2
-                  
+        
 "
 Should
 have
@@ -504,12 +527,14 @@ partial
 interface
 mixin
 "
+    
 )
     
 harness
 .
 check
 (
+        
 mixin
 .
 members
@@ -520,10 +545,11 @@ members
 identifier
 .
 name
+        
 "
 y
 "
-                  
+        
 "
 Third
 member
@@ -535,6 +561,7 @@ partial
 interface
 mixin
 "
+    
 )
     
 parser
@@ -549,6 +576,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -599,6 +627,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -613,12 +642,12 @@ harness
 .
 check
 (
+        
 len
 (
 results
 )
 2
-                  
 "
 Should
 have
@@ -630,6 +659,7 @@ partial
 interface
 mixin
 "
+    
 )
     
 mixin
@@ -643,14 +673,16 @@ harness
 .
 check
 (
+        
 len
 (
 mixin
 .
 members
 )
+        
 3
-                  
+        
 "
 Should
 have
@@ -662,12 +694,14 @@ partial
 interface
 mixin
 "
+    
 )
     
 harness
 .
 check
 (
+        
 mixin
 .
 members
@@ -678,10 +712,11 @@ members
 identifier
 .
 name
+        
 "
 x
 "
-                  
+        
 "
 First
 member
@@ -694,12 +729,14 @@ partial
 interface
 mixin
 "
+    
 )
     
 harness
 .
 check
 (
+        
 mixin
 .
 members
@@ -710,10 +747,11 @@ members
 identifier
 .
 name
+        
 "
 foo
 "
-                  
+        
 "
 Second
 member
@@ -726,12 +764,14 @@ partial
 interface
 mixin
 "
+    
 )
     
 harness
 .
 check
 (
+        
 len
 (
 mixin
@@ -745,8 +785,9 @@ signatures
 (
 )
 )
+        
 2
-                  
+        
 "
 Should
 have
@@ -759,12 +800,14 @@ partial
 interface
 mixin
 "
+    
 )
     
 harness
 .
 check
 (
+        
 mixin
 .
 members
@@ -775,10 +818,11 @@ members
 identifier
 .
 name
+        
 "
 y
 "
-                  
+        
 "
 Third
 member
@@ -791,6 +835,7 @@ partial
 interface
 mixin
 "
+    
 )
     
 parser
@@ -805,6 +850,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -836,6 +882,7 @@ Mixin
 "
 "
 "
+    
 )
     
 results
@@ -877,6 +924,7 @@ harness
 .
 check
 (
+        
 iface
 .
 members
@@ -890,7 +938,6 @@ name
 "
 x
 "
-                  
 "
 Should
 merge
@@ -898,6 +945,7 @@ members
 from
 mixins
 "
+    
 )
     
 parser
@@ -919,6 +967,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -954,6 +1003,7 @@ y
 "
 "
 "
+        
 )
         
 results
@@ -975,8 +1025,8 @@ harness
 .
 ok
 (
+        
 threw
-               
 "
 Should
 not
@@ -992,6 +1042,7 @@ the
 same
 name
 "
+    
 )
     
 parser
@@ -1013,6 +1064,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1050,6 +1102,7 @@ y
 "
 "
 "
+        
 )
         
 results
@@ -1072,7 +1125,6 @@ harness
 ok
 (
 threw
-               
 "
 Must
 have
@@ -1108,6 +1160,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1141,6 +1194,7 @@ y
 "
 "
 "
+        
 )
         
 results
@@ -1162,8 +1216,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Should
 not
@@ -1175,13 +1230,14 @@ between
 partial
 interface
 "
-               
+        
 "
 mixin
 and
 other
 object
 "
+    
 )
     
 parser
@@ -1203,6 +1259,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1235,6 +1292,7 @@ y
 "
 "
 "
+        
 )
         
 results
@@ -1256,8 +1314,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Should
 not
@@ -1269,12 +1328,12 @@ between
 interface
 mixin
 "
-               
 "
 and
 other
 object
 "
+    
 )
     
 parser
@@ -1296,6 +1355,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1321,6 +1381,7 @@ A
 "
 "
 "
+        
 )
         
 results
@@ -1342,8 +1403,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Should
 not
@@ -1355,12 +1417,13 @@ between
 external
 interface
 "
-               
+        
 "
 and
 interface
 mixin
 "
+    
 )
     
 parser
@@ -1382,6 +1445,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1407,6 +1471,7 @@ y
 "
 "
 "
+        
 )
         
 results
@@ -1428,8 +1493,8 @@ harness
 .
 ok
 (
+        
 threw
-               
 "
 Should
 not
@@ -1441,6 +1506,7 @@ on
 interface
 mixins
 "
+    
 )
     
 parser
@@ -1462,6 +1528,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1485,6 +1552,7 @@ propertyName
 "
 "
 "
+        
 )
         
 results
@@ -1507,7 +1575,6 @@ harness
 ok
 (
 threw
-               
 "
 Should
 not
@@ -1538,6 +1605,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1563,6 +1631,7 @@ propertyValue
 "
 "
 "
+        
 )
         
 results
@@ -1585,7 +1654,6 @@ harness
 ok
 (
 threw
-               
 "
 Should
 not
@@ -1616,6 +1684,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1639,6 +1708,7 @@ propertyName
 "
 "
 "
+        
 )
         
 results
@@ -1661,7 +1731,6 @@ harness
 ok
 (
 threw
-               
 "
 Should
 not
@@ -1692,6 +1761,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1716,6 +1786,7 @@ x
 "
 "
 "
+        
 )
         
 results
@@ -1738,7 +1809,6 @@ harness
 ok
 (
 threw
-               
 "
 Should
 not
@@ -1769,6 +1839,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1789,6 +1860,7 @@ x
 "
 "
 "
+        
 )
         
 results
@@ -1811,7 +1883,6 @@ harness
 ok
 (
 threw
-               
 "
 Should
 not
@@ -1843,6 +1914,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1873,6 +1945,7 @@ NotMixin
 "
 "
 "
+        
 )
         
 results
@@ -1895,7 +1968,6 @@ harness
 ok
 (
 threw
-               
 "
 Should
 fail
@@ -1931,6 +2003,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1963,6 +2036,7 @@ Mixin
 "
 "
 "
+        
 )
         
 results
@@ -1985,7 +2059,6 @@ harness
 ok
 (
 threw
-               
 "
 Should
 fail
@@ -2020,6 +2093,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2041,6 +2115,7 @@ DOMString
 "
 "
 "
+        
 )
         
 results
@@ -2063,7 +2138,6 @@ harness
 ok
 (
 threw
-               
 "
 Should
 fail
@@ -2095,6 +2169,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2116,6 +2191,7 @@ DOMString
 "
 "
 "
+        
 )
         
 results
@@ -2138,7 +2214,6 @@ harness
 ok
 (
 threw
-               
 "
 Should
 fail
@@ -2170,6 +2245,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2192,6 +2268,7 @@ DOMString
 "
 "
 "
+        
 )
         
 results
@@ -2214,7 +2291,6 @@ harness
 ok
 (
 threw
-               
 "
 Should
 fail
@@ -2246,6 +2322,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2283,6 +2360,7 @@ Mixin
 "
 "
 "
+        
 )
         
 results
@@ -2304,8 +2382,8 @@ harness
 .
 ok
 (
+        
 threw
-               
 "
 Should
 fail
@@ -2318,6 +2396,7 @@ has
 duplicated
 member
 "
+    
 )
     
 parser
@@ -2339,6 +2418,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2388,6 +2468,7 @@ Mixin2
 "
 "
 "
+        
 )
         
 results
@@ -2409,8 +2490,8 @@ harness
 .
 ok
 (
+        
 threw
-               
 "
 Should
 fail
@@ -2423,6 +2504,7 @@ have
 duplicated
 member
 "
+    
 )
     
 parser
@@ -2437,6 +2519,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -2499,6 +2582,7 @@ Mixin
 "
 "
 "
+    
 )
     
 results
@@ -2529,9 +2613,11 @@ harness
 .
 check
 (
+        
 attr
 .
 exposureSet
+        
 set
 (
 [
@@ -2540,7 +2626,7 @@ Window
 "
 ]
 )
-                  
+        
 "
 Should
 expose
@@ -2553,6 +2639,7 @@ interfaces
 are
 exposed
 "
+    
 )
     
 parser
@@ -2567,6 +2654,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -2634,6 +2722,7 @@ Mixin
 "
 "
 "
+    
 )
     
 results
@@ -2664,6 +2753,7 @@ harness
 .
 check
 (
+        
 attr
 .
 exposureSet
@@ -2675,7 +2765,6 @@ Window
 "
 ]
 )
-                 
 "
 Should
 follow
@@ -2686,6 +2775,7 @@ on
 interface
 mixin
 "
+    
 )
     
 parser
@@ -2700,6 +2790,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -2778,6 +2869,7 @@ Mixin
 "
 "
 "
+    
 )
     
 results
@@ -2808,9 +2900,11 @@ harness
 .
 check
 (
+        
 attr
 .
 exposureSet
+        
 set
 (
 [
@@ -2822,7 +2916,7 @@ Worker
 "
 ]
 )
-                 
+        
 "
 Should
 expose
@@ -2834,10 +2928,10 @@ including
 interfaces
 are
 "
-                  
 "
 exposed
 "
+    
 )
     
 base
@@ -2860,9 +2954,11 @@ harness
 .
 check
 (
+        
 attr
 .
 exposureSet
+        
 set
 (
 [
@@ -2874,7 +2970,7 @@ Worker
 "
 ]
 )
-                 
+        
 "
 Should
 expose
@@ -2886,8 +2982,8 @@ including
 interfaces
 are
 "
-                  
 "
 exposed
 "
+    
 )

@@ -465,6 +465,7 @@ True
 )
 register_strategy
 (
+    
 "
 bugbug
 -
@@ -775,9 +776,9 @@ project
 =
 params
 [
-'
+"
 project
-'
+"
 ]
         
 if
@@ -803,9 +804,9 @@ int
 (
 params
 [
-'
+"
 pushlog_id
-'
+"
 ]
 )
         
@@ -815,9 +816,9 @@ urlsplit
 (
 params
 [
-'
+"
 head_repository
-'
+"
 ]
 )
 .
@@ -825,18 +826,18 @@ path
 .
 strip
 (
-'
+"
 /
-'
+"
 )
         
 rev
 =
 params
 [
-'
+"
 head_rev
-'
+"
 ]
         
 if
@@ -855,7 +856,6 @@ fallback
 .
 should_remove_task
 (
-                    
 task
 params
 importance
@@ -1053,9 +1053,9 @@ attributes
 .
 get
 (
-'
+"
 test_manifests
-'
+"
 )
         
 if
@@ -1274,9 +1274,9 @@ importance
 manifest
 ]
 =
-'
+"
 high
-'
+"
             
 elif
 confidence
@@ -1290,9 +1290,9 @@ importance
 manifest
 ]
 =
-'
+"
 medium
-'
+"
             
 elif
 confidence
@@ -1306,9 +1306,9 @@ importance
 manifest
 ]
 =
-'
+"
 low
-'
+"
             
 else
 :
@@ -1318,9 +1318,9 @@ importance
 manifest
 ]
 =
-'
+"
 lowest
-'
+"
         
 return
 False
@@ -1362,6 +1362,8 @@ arg
 :
         
 return
+(
+            
 "
 build_type
 "
@@ -1383,6 +1385,8 @@ build_type
 "
 debug
 "
+        
+)
 register_strategy
 (
 "
@@ -1411,6 +1415,7 @@ None
 )
 register_strategy
 (
+    
 "
 platform
 -
@@ -1420,36 +1425,41 @@ only
 -
 one
 "
+    
 args
 =
 (
+        
 {
-    
-'
+            
+"
 high
-'
+"
 :
 1
-    
-'
+            
+"
 medium
-'
+"
 :
 1
-    
-'
+            
+"
 low
-'
+"
 :
 1
-    
-'
+            
+"
 lowest
-'
+"
 :
 0
+        
 }
+        
 0
+    
 )
 )
 class
@@ -1713,27 +1723,27 @@ DEFAULT_TARGET_COUNTS
 =
 {
         
-'
+"
 high
-'
+"
 :
 3
         
-'
+"
 medium
-'
+"
 :
 2
         
-'
+"
 low
-'
+"
 :
 1
         
-'
+"
 lowest
-'
+"
 :
 0
     
@@ -1859,9 +1869,9 @@ key
 test_platform
         
 if
-'
+"
 unittest_variant
-'
+"
 in
 task
 .
@@ -1879,9 +1889,9 @@ task
 .
 attributes
 [
-'
+"
 unittest_variant
-'
+"
 ]
         
 if

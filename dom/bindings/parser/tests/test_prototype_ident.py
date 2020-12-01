@@ -17,6 +17,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -37,6 +38,7 @@ prototype
 "
 "
 "
+        
 )
         
 results
@@ -94,6 +96,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -115,6 +118,7 @@ prototype
 "
 "
 "
+        
 )
         
 results
@@ -172,6 +176,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -193,6 +198,7 @@ true
 "
 "
 "
+        
 )
         
 results
@@ -242,6 +248,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -261,6 +268,7 @@ prototype
 "
 "
 "
+    
 )
     
 results
@@ -277,12 +285,12 @@ results
 [
 0
 ]
-;
     
 harness
 .
 check
 (
+        
 testIface
 .
 members
@@ -301,12 +309,14 @@ not
 be
 static
 "
+    
 )
     
 harness
 .
 check
 (
+        
 testIface
 .
 members
@@ -317,9 +327,11 @@ members
 identifier
 .
 name
+        
 "
 prototype
 "
+        
 "
 Attribute
 identifier
@@ -329,6 +341,7 @@ be
 prototype
 '
 "
+    
 )
     
 parser
@@ -343,6 +356,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -363,6 +377,7 @@ prototype
 "
 "
 "
+    
 )
     
 results
@@ -379,12 +394,12 @@ results
 [
 0
 ]
-;
     
 harness
 .
 check
 (
+        
 testIface
 .
 members
@@ -403,12 +418,14 @@ not
 be
 static
 "
+    
 )
     
 harness
 .
 check
 (
+        
 testIface
 .
 members
@@ -419,9 +436,11 @@ members
 identifier
 .
 name
+        
 "
 prototype
 "
+        
 "
 Operation
 identifier
@@ -431,6 +450,7 @@ be
 prototype
 '
 "
+    
 )
     
 parser
@@ -445,6 +465,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -463,6 +484,7 @@ prototype
 "
 "
 "
+    
 )
     
 results
@@ -479,12 +501,12 @@ results
 [
 0
 ]
-;
     
 harness
 .
 check
 (
+        
 testDict
 .
 members
@@ -495,9 +517,11 @@ members
 identifier
 .
 name
+        
 "
 prototype
 "
+        
 "
 Dictionary
 member
@@ -507,4 +531,5 @@ be
 prototype
 '
 "
+    
 )

@@ -116,7 +116,7 @@ pretty
 bad
 test
 .
-        
+    
 It
 generates
 C
@@ -137,7 +137,7 @@ byte
 for
 -
 byte
-        
+    
 with
 an
 expected
@@ -147,14 +147,14 @@ C
 +
 file
 .
-        
+    
 Expect
 it
 to
 be
 fragile
 .
-        
+    
 To
 generate
 a
@@ -175,7 +175,7 @@ t
 c
 /
 g
-        
+    
 run
 mach
 build
@@ -302,9 +302,9 @@ __file__
 metrics_test_output_js
 "
 )
-'
+"
 r
-'
+"
 )
 as
 file

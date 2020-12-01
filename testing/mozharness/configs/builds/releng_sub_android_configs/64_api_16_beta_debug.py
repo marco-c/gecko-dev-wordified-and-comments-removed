@@ -2,11 +2,11 @@ config
 =
 {
     
-'
+"
 stage_platform
-'
+"
 :
-'
+"
 android
 -
 api
@@ -14,13 +14,13 @@ api
 16
 -
 debug
-'
+"
     
-'
+"
 src_mozconfig
-'
+"
 :
-'
+"
 mobile
 /
 android
@@ -38,11 +38,11 @@ api
 debug
 -
 beta
-'
+"
     
-'
+"
 debug_build
-'
+"
 :
 True
 }

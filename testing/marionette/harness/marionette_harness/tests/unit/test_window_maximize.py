@@ -37,6 +37,7 @@ marionette
 .
 execute_script
 (
+            
 "
 "
 "
@@ -64,9 +65,11 @@ availHeight
 "
 "
 "
+            
 sandbox
 =
 None
+        
 )
         
 self
@@ -100,6 +103,7 @@ height
 ]
 -
 100
+        
 )
         
 actual
@@ -190,6 +194,7 @@ original_size
 height
 "
 ]
+        
 )
     
 def

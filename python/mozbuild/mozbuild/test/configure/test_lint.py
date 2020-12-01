@@ -65,9 +65,9 @@ mozpath
 join
 (
 test_data_path
-'
+"
 data
-'
+"
 )
 class
 TestLint
@@ -99,9 +99,9 @@ LintSandbox
 (
 env
 [
-'
+"
 configure
-'
+"
 ]
 +
 options
@@ -116,11 +116,11 @@ mozpath
 join
 (
 test_data_path
-'
+"
 moz
 .
 configure
-'
+"
 )
 )
     
@@ -135,8 +135,8 @@ source
 return
 MockedOpen
 (
-{
             
+{
 os
 .
 path
@@ -144,12 +144,11 @@ path
 join
 (
 test_data_path
-                         
-'
+"
 moz
 .
 configure
-'
+"
 )
 :
 textwrap
@@ -158,8 +157,8 @@ dedent
 (
 source
 )
-        
 }
+        
 )
     
 contextlib
@@ -225,14 +224,15 @@ mozpath
 join
 (
 test_data_path
-'
+"
 moz
 .
 configure
-'
+"
 )
 line
 )
+        
 )
     
 def
@@ -260,9 +260,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+            
+"
+"
+"
             
 option
 (
@@ -325,9 +326,10 @@ foo
 return
 foo
         
-'
-'
-'
+"
+"
+"
+        
 )
 :
             
@@ -354,9 +356,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 option
 (
@@ -412,9 +415,10 @@ foo
 return
 foo
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -434,7 +438,6 @@ e
 .
 exception
 )
-                          
 "
 The
 dependency
@@ -464,9 +467,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 option
 (
@@ -536,9 +540,10 @@ foo
 return
 foo
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -580,6 +585,7 @@ help
 and
 foo
 "
+        
 )
         
 with
@@ -599,9 +605,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 template
                 
@@ -682,9 +689,10 @@ tmpl
 (
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -726,6 +734,7 @@ help
 and
 foo
 "
+        
 )
         
 with
@@ -733,9 +742,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+            
+"
+"
+"
             
 option
 (
@@ -775,9 +785,10 @@ include
 foo
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
 :
             
@@ -804,9 +815,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 option
 (
@@ -853,9 +865,10 @@ include
 foo
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -875,7 +888,6 @@ e
 .
 exception
 )
-                          
 "
 Missing
 '
@@ -904,9 +916,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 option
 (
@@ -968,9 +981,10 @@ include
 bar
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -990,7 +1004,6 @@ e
 .
 exception
 )
-                          
 "
 Missing
 '
@@ -1019,9 +1032,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 option
 (
@@ -1080,9 +1094,10 @@ when
 foo
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -1102,7 +1117,6 @@ e
 .
 exception
 )
-                          
 "
 Missing
 '
@@ -1119,9 +1133,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+            
+"
+"
+"
             
 option
 (
@@ -1175,9 +1190,10 @@ when
 foo
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
 :
             
@@ -1204,9 +1220,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 template
                 
@@ -1274,9 +1291,10 @@ tmpl
 (
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -1296,7 +1314,6 @@ e
 .
 exception
 )
-                          
 "
 Missing
 '
@@ -1313,9 +1330,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+            
+"
+"
+"
             
 option
 (
@@ -1357,9 +1375,10 @@ include
 foo
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
 :
             
@@ -1386,9 +1405,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 option
 (
@@ -1427,9 +1447,10 @@ include
 foo
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -1449,7 +1470,6 @@ e
 .
 exception
 )
-                          
 "
 The
 dependency
@@ -1479,9 +1499,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 depends
 (
@@ -1517,9 +1538,10 @@ include
 foo
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -1539,7 +1561,6 @@ e
 .
 exception
 )
-                          
 "
 The
 dependency
@@ -1567,9 +1588,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 depends
 (
@@ -1600,9 +1622,10 @@ include
 foo
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -1622,7 +1645,6 @@ e
 .
 exception
 )
-                          
 "
 The
 dependency
@@ -1652,9 +1674,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 template
                 
@@ -1707,9 +1730,10 @@ include
 foo
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -1729,7 +1753,6 @@ e
 .
 exception
 )
-                          
 "
 The
 dependency
@@ -1752,9 +1775,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+            
+"
+"
+"
             
 option
 (
@@ -1775,9 +1799,10 @@ foo
 '
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
 :
             
@@ -1804,9 +1829,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 option
 (
@@ -1827,9 +1853,10 @@ foo
 '
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -1843,14 +1870,15 @@ self
 .
 assertEquals
 (
+            
 str
 (
 e
 .
 exception
 )
-                          
-'
+            
+"
 -
 -
 disable
@@ -1861,9 +1889,8 @@ be
 used
 instead
 of
-'
-                          
-'
+"
+"
 -
 -
 enable
@@ -1873,7 +1900,8 @@ with
 default
 =
 True
-'
+"
+        
 )
     
 def
@@ -1888,9 +1916,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+            
+"
+"
+"
             
 option
 (
@@ -1911,9 +1940,10 @@ foo
 '
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
 :
             
@@ -1940,9 +1970,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 option
 (
@@ -1963,9 +1994,10 @@ foo
 '
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -1979,14 +2011,15 @@ self
 .
 assertEquals
 (
+            
 str
 (
 e
 .
 exception
 )
-                          
-'
+            
+"
 -
 -
 enable
@@ -1997,9 +2030,9 @@ be
 used
 instead
 of
-'
-                          
-'
+"
+            
+"
 -
 -
 disable
@@ -2009,7 +2042,8 @@ with
 default
 =
 False
-'
+"
+        
 )
     
 def
@@ -2024,9 +2058,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+            
+"
+"
+"
             
 option
 (
@@ -2047,9 +2082,10 @@ foo
 '
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
 :
             
@@ -2076,9 +2112,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 option
 (
@@ -2099,9 +2136,10 @@ foo
 '
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -2115,14 +2153,15 @@ self
 .
 assertEquals
 (
+            
 str
 (
 e
 .
 exception
 )
-                          
-'
+            
+"
 -
 -
 without
@@ -2133,9 +2172,8 @@ be
 used
 instead
 of
-'
-                          
-'
+"
+"
 -
 -
 with
@@ -2145,7 +2183,8 @@ with
 default
 =
 True
-'
+"
+        
 )
     
 def
@@ -2160,9 +2199,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+            
+"
+"
+"
             
 option
 (
@@ -2183,9 +2223,10 @@ foo
 '
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
 :
             
@@ -2212,9 +2253,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 option
 (
@@ -2235,9 +2277,10 @@ foo
 '
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -2251,14 +2294,15 @@ self
 .
 assertEquals
 (
+            
 str
 (
 e
 .
 exception
 )
-                          
-'
+            
+"
 -
 -
 with
@@ -2269,9 +2313,8 @@ be
 used
 instead
 of
-'
-                          
-'
+"
+"
 -
 -
 without
@@ -2281,7 +2324,8 @@ with
 default
 =
 False
-'
+"
+        
 )
     
 def
@@ -2296,9 +2340,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+            
+"
+"
+"
             
 option
 (
@@ -2353,9 +2398,10 @@ bar
 '
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
 :
             
@@ -2382,9 +2428,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 option
 (
@@ -2435,9 +2482,10 @@ bar
 '
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -2451,13 +2499,14 @@ self
 .
 assertEquals
 (
+            
 str
 (
 e
 .
 exception
 )
-                          
+            
 '
 help
 should
@@ -2472,13 +2521,14 @@ Disable
 because
 of
 '
-                          
-'
+            
+"
 non
 -
 constant
 default
-'
+"
+        
 )
     
 def
@@ -2503,9 +2553,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 option
 (
@@ -2521,20 +2572,22 @@ foo
 '
 )
             
-'
-'
-'
+"
+"
+"
+                
 +
-'
+"
 \
 n
-'
+"
 *
 371
+                
 +
-'
-'
-'
+"
+"
+"
                 
 option
 (
@@ -2571,9 +2624,10 @@ bar
 '
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -2607,9 +2661,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 option
 (
@@ -2649,9 +2704,10 @@ unknown
 return
 value
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -2671,7 +2727,6 @@ e
 .
 exception
 )
-                          
 "
 global
 name
@@ -2701,9 +2756,10 @@ self
 .
 moz_configure
 (
-'
-'
-'
+                
+"
+"
+"
                 
 template
                 
@@ -2739,9 +2795,10 @@ tmpl
 (
 )
             
-'
-'
-'
+"
+"
+"
+            
 )
 :
                 
@@ -2761,7 +2818,6 @@ e
 .
 exception
 )
-                          
 "
 global
 name
@@ -2777,9 +2833,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

@@ -75,8 +75,8 @@ out
 getvalue
 (
 )
-'
-'
+"
+"
 )
         
 out
@@ -90,12 +90,12 @@ rule
 add_targets
 (
 [
-'
+"
 foo
-'
-'
+"
+"
 bar
-'
+"
 ]
 )
         
@@ -115,13 +115,13 @@ out
 getvalue
 (
 )
-'
+"
 foo
 bar
 :
 \
 n
-'
+"
 )
         
 out
@@ -135,9 +135,9 @@ rule
 add_targets
 (
 [
-'
+"
 baz
-'
+"
 ]
 )
         
@@ -146,15 +146,15 @@ rule
 add_dependencies
 (
 [
-'
+"
 qux
-'
-'
+"
+"
 hoge
-'
-'
+"
+"
 piyo
-'
+"
 ]
 )
         
@@ -174,7 +174,7 @@ out
 getvalue
 (
 )
-'
+"
 foo
 bar
 baz
@@ -184,7 +184,7 @@ hoge
 piyo
 \
 n
-'
+"
 )
         
 out
@@ -198,12 +198,12 @@ rule
 Rule
 (
 [
-'
+"
 foo
-'
-'
+"
+"
 bar
-'
+"
 ]
 )
         
@@ -212,9 +212,9 @@ rule
 add_dependencies
 (
 [
-'
+"
 baz
-'
+"
 ]
 )
         
@@ -223,9 +223,9 @@ rule
 add_commands
 (
 [
-'
+"
 echo
-'
+"
 ]
 )
         
@@ -234,19 +234,19 @@ rule
 add_commands
 (
 [
-'
+"
 (
 BAZ
 )
 -
 o
 <
-'
-'
+"
+"
 (
 TOUCH
 )
-'
+"
 ]
 )
         
@@ -261,31 +261,32 @@ self
 .
 assertEqual
 (
+            
 out
 .
 getvalue
 (
 )
-                         
-'
+            
+"
 foo
 bar
 :
 baz
 \
 n
-'
+"
+            
 +
-                         
-'
+"
 \
 techo
 \
 n
-'
+"
+            
 +
-                         
-'
+"
 \
 t
 (
@@ -296,10 +297,10 @@ o
 <
 \
 n
-'
+"
+            
 +
-                         
-'
+"
 \
 t
 (
@@ -307,7 +308,8 @@ TOUCH
 )
 \
 n
-'
+"
+        
 )
         
 out
@@ -321,9 +323,9 @@ rule
 Rule
 (
 [
-'
+"
 foo
-'
+"
 ]
 )
         
@@ -332,15 +334,15 @@ rule
 add_dependencies
 (
 [
-'
+"
 bar
-'
-'
+"
+"
 foo
-'
-'
+"
+"
 baz
-'
+"
 ]
 )
         
@@ -360,14 +362,14 @@ out
 getvalue
 (
 )
-'
+"
 foo
 :
 bar
 baz
 \
 n
-'
+"
 )
         
 out
@@ -381,9 +383,9 @@ rule
 add_targets
 (
 [
-'
+"
 bar
-'
+"
 ]
 )
         
@@ -403,14 +405,14 @@ out
 getvalue
 (
 )
-'
+"
 foo
 bar
 :
 baz
 \
 n
-'
+"
 )
         
 out
@@ -424,9 +426,9 @@ rule
 add_targets
 (
 [
-'
+"
 bar
-'
+"
 ]
 )
         
@@ -446,14 +448,14 @@ out
 getvalue
 (
 )
-'
+"
 foo
 bar
 :
 baz
 \
 n
-'
+"
 )
         
 out
@@ -467,9 +469,9 @@ rule
 add_dependencies
 (
 [
-'
+"
 bar
-'
+"
 ]
 )
         
@@ -489,14 +491,14 @@ out
 getvalue
 (
 )
-'
+"
 foo
 bar
 :
 baz
 \
 n
-'
+"
 )
         
 out
@@ -510,9 +512,9 @@ rule
 add_dependencies
 (
 [
-'
+"
 qux
-'
+"
 ]
 )
         
@@ -532,7 +534,7 @@ out
 getvalue
 (
 )
-'
+"
 foo
 bar
 :
@@ -540,7 +542,7 @@ baz
 qux
 \
 n
-'
+"
 )
         
 out
@@ -554,9 +556,9 @@ rule
 add_dependencies
 (
 [
-'
+"
 qux
-'
+"
 ]
 )
         
@@ -576,7 +578,7 @@ out
 getvalue
 (
 )
-'
+"
 foo
 bar
 :
@@ -584,7 +586,7 @@ baz
 qux
 \
 n
-'
+"
 )
         
 out
@@ -598,12 +600,12 @@ rule
 add_dependencies
 (
 [
-'
+"
 hoge
-'
-'
+"
+"
 hoge
-'
+"
 ]
 )
         
@@ -623,7 +625,7 @@ out
 getvalue
 (
 )
-'
+"
 foo
 bar
 :
@@ -632,7 +634,7 @@ qux
 hoge
 \
 n
-'
+"
 )
         
 out
@@ -646,12 +648,12 @@ rule
 add_targets
 (
 [
-'
+"
 fuga
-'
-'
+"
+"
 fuga
-'
+"
 ]
 )
         
@@ -671,7 +673,7 @@ out
 getvalue
 (
 )
-'
+"
 foo
 bar
 fuga
@@ -681,7 +683,7 @@ qux
 hoge
 \
 n
-'
+"
 )
     
 def
@@ -710,9 +712,9 @@ mk
 create_rule
 (
 [
-'
+"
 foo
-'
+"
 ]
 )
         
@@ -721,15 +723,15 @@ rule
 add_dependencies
 (
 [
-'
+"
 bar
-'
-'
+"
+"
 baz
-'
-'
+"
+"
 qux
-'
+"
 ]
 )
         
@@ -738,10 +740,10 @@ rule
 add_commands
 (
 [
-'
+"
 echo
 foo
-'
+"
 ]
 )
         
@@ -756,12 +758,12 @@ create_rule
 add_targets
 (
 [
-'
+"
 bar
-'
-'
+"
+"
 baz
-'
+"
 ]
 )
         
@@ -770,9 +772,9 @@ rule
 add_dependencies
 (
 [
-'
+"
 hoge
-'
+"
 ]
 )
         
@@ -781,9 +783,9 @@ rule
 add_commands
 (
 [
-'
+"
 echo
-'
+"
 ]
 )
         
@@ -801,13 +803,14 @@ self
 .
 assertEqual
 (
+            
 out
 .
 getvalue
 (
 )
-                         
-'
+            
+"
 foo
 :
 bar
@@ -815,34 +818,32 @@ baz
 qux
 \
 n
-'
+"
 +
-                         
-'
+"
 \
 techo
 foo
 \
 n
-'
+"
 +
-                         
-'
+"
 bar
 baz
 :
 hoge
 \
 n
-'
+"
 +
-                         
-'
+"
 \
 techo
 \
 n
-'
+"
+        
 )
         
 out
@@ -862,13 +863,14 @@ self
 .
 assertEqual
 (
+            
 out
 .
 getvalue
 (
 )
-                         
-'
+            
+"
 foo
 :
 bar
@@ -876,43 +878,44 @@ baz
 qux
 \
 n
-'
+"
+            
 +
-                         
-'
+"
 \
 techo
 foo
 \
 n
-'
+"
+            
 +
-                         
-'
+"
 bar
 baz
 :
 hoge
 \
 n
-'
+"
+            
 +
-                         
-'
+"
 \
 techo
 \
 n
-'
+"
+            
 +
-                         
-'
+"
 hoge
 qux
 :
 \
 n
-'
+"
+        
 )
     
 def
@@ -939,30 +942,28 @@ mk
 create_rule
 (
 [
-'
+"
 foo
-'
+"
 ]
 )
 .
 add_dependencies
 (
 [
-'
+"
 bar
-'
+"
 ]
 )
-\
-                               
 .
 add_commands
 (
 [
-'
+"
 echo
 foo
-'
+"
 ]
 )
         
@@ -970,11 +971,11 @@ mk
 .
 add_statement
 (
-'
+"
 BAR
 =
 bar
-'
+"
 )
         
 mk
@@ -982,20 +983,20 @@ mk
 create_rule
 (
 [
-'
+"
 (
 BAR
 )
-'
+"
 ]
 )
 .
 add_commands
 (
 [
-'
+"
 echo
-'
+"
 ]
 )
         
@@ -1013,55 +1014,53 @@ self
 .
 assertEqual
 (
+            
 out
 .
 getvalue
 (
 )
-                         
-'
+            
+"
 foo
 :
 bar
 \
 n
-'
+"
 +
-                         
-'
+"
 \
 techo
 foo
 \
 n
-'
+"
 +
-                         
-'
+"
 BAR
 =
 bar
 \
 n
-'
+"
 +
-                         
-'
+"
 (
 BAR
 )
 :
 \
 n
-'
+"
 +
-                         
-'
+"
 \
 techo
 \
 n
-'
+"
+        
 )
     
 unittest
@@ -1073,17 +1072,17 @@ os
 name
 !
 =
-'
+"
 nt
-'
-'
+"
+"
 Test
 only
 applicable
 on
 Windows
 .
-'
+"
 )
     
 def
@@ -1112,13 +1111,13 @@ mk
 create_rule
 (
 [
-'
+"
 c
 :
 \
 \
 foo
-'
+"
 ]
 )
         
@@ -1127,14 +1126,14 @@ rule
 add_dependencies
 (
 [
-'
+"
 c
 :
 \
 \
 bar
-'
-'
+"
+"
 c
 :
 \
@@ -1143,7 +1142,7 @@ baz
 \
 \
 qux
-'
+"
 ]
 )
         
@@ -1152,14 +1151,14 @@ rule
 add_commands
 (
 [
-'
+"
 echo
 c
 :
 \
 \
 foo
-'
+"
 ]
 )
         
@@ -1174,13 +1173,14 @@ self
 .
 assertEqual
 (
+            
 out
 .
 getvalue
 (
 )
-                         
-'
+            
+"
 c
 :
 /
@@ -1198,10 +1198,9 @@ baz
 qux
 \
 n
-'
+"
 +
-                         
-'
+"
 \
 techo
 c
@@ -1211,10 +1210,9 @@ c
 foo
 \
 n
-'
+"
 +
-                         
-'
+"
 c
 :
 /
@@ -1228,7 +1226,8 @@ qux
 :
 \
 n
-'
+"
+        
 )
     
 def
@@ -1249,20 +1248,21 @@ path
 .
 abspath
 (
-'
+"
 foo
-'
+"
 )
+            
 +
-'
+"
 :
 bar
 \
 n
-'
-+
+"
             
-'
++
+"
 baz
 qux
 :
@@ -1270,40 +1270,40 @@ qux
 \
 \
 n
-'
-+
+"
             
-'
++
+"
 hoge
 \
 \
 \
 n
-'
-+
+"
             
-'
++
+"
 piyo
 \
 \
 \
 n
-'
-+
+"
             
-'
++
+"
 fuga
 \
 n
-'
-+
+"
             
-'
++
+"
 fuga
 :
 \
 n
-'
+"
         
 )
         
@@ -1332,6 +1332,7 @@ self
 .
 assertEqual
 (
+            
 list
 (
 result
@@ -1350,9 +1351,9 @@ path
 .
 abspath
 (
-'
+"
 foo
-'
+"
 )
 .
 replace
@@ -1360,11 +1361,12 @@ replace
 os
 .
 sep
-'
+"
 /
-'
+"
 )
 ]
+        
 )
         
 self
@@ -1383,9 +1385,9 @@ dependencies
 )
 )
 [
-'
+"
 bar
-'
+"
 ]
 )
         
@@ -1405,12 +1407,12 @@ targets
 )
 )
 [
-'
+"
 baz
-'
-'
+"
+"
 qux
-'
+"
 ]
 )
         
@@ -1430,15 +1432,15 @@ dependencies
 )
 )
 [
-'
+"
 hoge
-'
-'
+"
+"
 piyo
-'
-'
+"
+"
 fuga
-'
+"
 ]
 )
     
@@ -1458,19 +1460,19 @@ StringIO
 write_dep_makefile
 (
 out
-'
+"
 target
-'
+"
 [
-'
+"
 b
-'
-'
+"
+"
 c
-'
-'
+"
+"
 a
-'
+"
 ]
 )
         
@@ -1483,8 +1485,7 @@ out
 getvalue
 (
 )
-                         
-'
+"
 target
 :
 b
@@ -1492,25 +1493,24 @@ c
 a
 \
 n
-'
+"
 +
-                         
-'
+"
 a
 b
 c
 :
 \
 n
-'
+"
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

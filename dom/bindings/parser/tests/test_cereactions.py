@@ -17,6 +17,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -46,6 +47,7 @@ arg2
 "
 "
 "
+        
 )
         
 results
@@ -101,6 +103,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -128,6 +131,7 @@ bar
 "
 "
 "
+        
 )
         
 results
@@ -183,6 +187,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -205,6 +210,7 @@ bar
 "
 "
 "
+        
 )
         
 results
@@ -225,7 +231,9 @@ harness
 .
 ok
 (
+            
 False
+            
 "
 Shouldn
 '
@@ -244,8 +252,10 @@ attribute
 %
 s
 "
+            
 %
 e
+        
 )
         
 threw
@@ -271,6 +281,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -296,6 +307,7 @@ arg2
 "
 "
 "
+        
 )
         
 results
@@ -316,7 +328,9 @@ harness
 .
 ok
 (
+            
 False
+            
 "
 Shouldn
 '
@@ -335,8 +349,10 @@ operations
 %
 s
 "
+            
 %
 e
+        
 )
         
 threw
@@ -362,6 +378,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -385,6 +402,7 @@ A
 "
 "
 "
+        
 )
         
 results
@@ -406,6 +424,7 @@ harness
 .
 ok
 (
+        
 threw
 "
 Should
@@ -421,6 +440,7 @@ a
 readonly
 attribute
 "
+    
 )
     
 parser
@@ -442,6 +462,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -459,6 +480,7 @@ Foo
 "
 "
 "
+        
 )
         
 results
@@ -515,6 +537,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -540,6 +563,7 @@ name
 "
 "
 "
+        
 )
         
 results
@@ -562,7 +586,6 @@ harness
 ok
 (
 threw
-               
 "
 Should
 have
@@ -598,6 +621,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -624,6 +648,7 @@ x
 "
 "
 "
+        
 )
         
 results
@@ -646,7 +671,6 @@ harness
 ok
 (
 threw
-               
 "
 Should
 have
@@ -681,6 +705,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -704,6 +729,7 @@ DOMString
 "
 "
 "
+        
 )
         
 results
@@ -726,7 +752,6 @@ harness
 ok
 (
 threw
-               
 "
 Should
 have

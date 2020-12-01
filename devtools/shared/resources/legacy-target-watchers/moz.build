@@ -55,7 +55,7 @@ MPL
 .
 DevToolsModules
 (
-'
+"
 legacy
 -
 processes
@@ -63,8 +63,8 @@ processes
 watcher
 .
 js
-'
-'
+"
+"
 legacy
 -
 serviceworkers
@@ -72,8 +72,8 @@ serviceworkers
 watcher
 .
 js
-'
-'
+"
+"
 legacy
 -
 sharedworkers
@@ -81,8 +81,8 @@ sharedworkers
 watcher
 .
 js
-'
-'
+"
+"
 legacy
 -
 workers
@@ -90,5 +90,5 @@ workers
 watcher
 .
 js
-'
+"
 )

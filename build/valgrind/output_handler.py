@@ -14,9 +14,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 A
 class
@@ -374,9 +374,9 @@ fail
 appropriately
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -396,10 +396,10 @@ self
 .
 re_error
 =
-\
+(
             
 r
-'
+"
 =
 =
 \
@@ -408,12 +408,11 @@ d
 =
 =
 (
-'
-+
-\
+"
             
++
 r
-'
+"
 (
 Use
 of
@@ -426,12 +425,11 @@ d
 +
 )
 |
-'
-+
-\
+"
             
++
 r
-'
+"
 (
 Conditional
 jump
@@ -448,12 +446,11 @@ s
 )
 )
 |
-'
-+
-\
+"
             
++
 r
-'
+"
 (
 Syscall
 param
@@ -469,12 +466,11 @@ s
 )
 )
 |
-'
-+
-\
+"
             
++
 r
-'
+"
 (
 Syscall
 param
@@ -495,12 +491,11 @@ s
 )
 )
 |
-'
-+
-\
+"
             
++
 r
-'
+"
 (
 (
 Unaddressable
@@ -520,12 +515,11 @@ check
 request
 )
 |
-'
-+
-\
+"
             
++
 r
-'
+"
 (
 Invalid
 free
@@ -549,12 +543,11 @@ realloc
 )
 )
 |
-'
-+
-\
+"
             
++
 r
-'
+"
 (
 Mismatched
 free
@@ -572,12 +565,11 @@ delete
 ]
 )
 |
-'
-+
-\
+"
             
++
 r
-'
+"
 (
 Invalid
 (
@@ -592,12 +584,11 @@ d
 +
 )
 |
-'
-+
-\
+"
             
++
 r
-'
+"
 (
 Jump
 to
@@ -611,12 +602,11 @@ next
 line
 )
 |
-'
-+
-\
+"
             
++
 r
-'
+"
 (
 Source
 and
@@ -627,12 +617,11 @@ in
 *
 )
 |
-'
-+
-\
+"
             
++
 r
-'
+"
 (
 .
 *
@@ -646,21 +635,22 @@ are
 *
 lost
 )
-'
-+
-\
+"
             
++
 r
-'
+"
 )
-'
+"
+        
+)
         
 self
 .
 re_stack_entry
 =
 r
-'
+"
 ^
 =
 =
@@ -696,19 +686,19 @@ z0
 ]
 +
 )
-'
+"
         
 self
 .
 re_suppression
 =
 r
-'
+"
 *
 <
 insert_a_suppression_name_here
 >
-'
+"
         
 self
 .
@@ -761,23 +751,23 @@ logger
 logging
 .
 INFO
-'
+"
 valgrind
 -
 output
-'
+"
 {
-'
+"
 line
-'
+"
 :
 line
 }
-'
+"
 {
 line
 }
-'
+"
 )
     
 def
@@ -910,11 +900,11 @@ self
 curr_location
 +
 =
-'
+"
 ?
 !
 ?
-'
+"
             
 self
 .
@@ -937,9 +927,9 @@ self
 curr_location
 +
 =
-'
+"
 /
-'
+"
             
 else
 :
@@ -948,36 +938,37 @@ self
 .
 logger
 (
+                    
 logging
 .
 ERROR
-'
+                    
+"
 valgrind
 -
 error
 -
 msg
-'
-                            
+"
+                    
 {
-'
+"
 error
-'
+"
 :
 self
 .
 curr_error
-                             
-'
+"
 location
-'
+"
 :
 self
 .
 curr_location
 }
-                            
-'
+                    
+"
 TEST
 -
 UNEXPECTED
@@ -995,7 +986,8 @@ at
 {
 location
 }
-'
+"
+                
 )
                 
 for

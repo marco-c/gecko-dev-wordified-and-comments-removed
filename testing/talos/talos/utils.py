@@ -119,7 +119,7 @@ time
 .
 strftime
 (
-'
+"
 %
 H
 :
@@ -128,7 +128,7 @@ M
 :
 %
 S
-'
+"
 time
 .
 gmtime
@@ -173,7 +173,7 @@ runtime
 report
 it
 properly
-       
+    
 Currently
 this
 is
@@ -212,7 +212,7 @@ a
 crash
 and
 stay
-       
+    
 compatible
 with
 tbpl
@@ -223,7 +223,7 @@ to
 continue
 on
 .
-       
+    
 https
 :
 /
@@ -315,9 +315,9 @@ kwargs
 .
 setdefault
 (
-'
+"
 talos
-'
+"
 here
 )
     
@@ -418,8 +418,6 @@ end
 not
 in
 start
-\
-        
 "
 End
 token
@@ -439,8 +437,11 @@ s
 "
 %
 (
+        
 end
+        
 start
+    
 )
     
 assert
@@ -448,8 +449,6 @@ start
 not
 in
 end
-\
-        
 "
 Start
 token
@@ -469,8 +468,11 @@ s
 "
 %
 (
+        
 start
+        
 end
+    
 )
     
 _start
@@ -552,11 +554,10 @@ _start
 =
 len
 (
-_end
-)
-\
         
-(
+_end
+    
+)
 "
 Unmatched
 number
@@ -582,20 +583,23 @@ s
 d
 )
 "
-         
 %
 (
+        
 start
+        
 len
 (
 _start
 )
+        
 end
+        
 len
 (
 _end
 )
-)
+    
 )
     
 for
@@ -620,8 +624,6 @@ _start
 [
 i
 ]
-\
-            
 "
 End
 token
@@ -640,8 +642,11 @@ s
 "
 %
 (
+            
 end
+            
 start
+        
 )
     
 parts
@@ -697,9 +702,9 @@ urlsplit
 url
 default_scheme
 =
-'
+"
 file
-'
+"
 )
 :
     
@@ -718,11 +723,11 @@ urlsplit
 "
     
 if
-'
+"
 :
 /
 /
-'
+"
 not
 in
 url
@@ -730,7 +735,7 @@ url
         
 url
 =
-'
+"
 %
 s
 :
@@ -738,7 +743,7 @@ s
 /
 %
 s
-'
+"
 %
 (
 default_scheme
@@ -750,39 +755,39 @@ url
 .
 startswith
 (
-'
+"
 file
 :
 /
 /
-'
+"
 )
 :
         
 return
 [
-'
+"
 file
-'
-'
-'
+"
+"
+"
 url
 [
 len
 (
-'
+"
 file
 :
 /
 /
-'
+"
 )
 :
 ]
-'
-'
-'
-'
+"
+"
+"
+"
 ]
     
 return
@@ -836,6 +841,7 @@ value
 def
 GenerateBrowserCommandLine
 (
+    
 browser_path
 extra_args
 profile_dir
@@ -864,9 +870,9 @@ system
 )
 =
 =
-'
+"
 Darwin
-'
+"
 :
         
 command_args
@@ -874,10 +880,10 @@ command_args
 extend
 (
 [
-'
+"
 -
 foreground
-'
+"
 ]
 )
     
@@ -918,10 +924,10 @@ command_args
 extend
 (
 [
-'
+"
 -
 profile
-'
+"
 profile_dir
 ]
 )
@@ -942,9 +948,9 @@ url
 .
 find
 (
-'
+"
 ?
-'
+"
 )
 !
 =
@@ -955,9 +961,9 @@ find
 url
 +
 =
-'
+"
 &
-'
+"
 +
 urllib
 .
@@ -972,9 +978,9 @@ else
 url
 +
 =
-'
+"
 ?
-'
+"
 +
 urllib
 .
@@ -991,8 +997,8 @@ url
 .
 split
 (
-'
-'
+"
+"
 )
 )
     
@@ -1011,8 +1017,8 @@ url
 .
 split
 (
-'
-'
+"
+"
 )
 )
     
@@ -1101,33 +1107,37 @@ browser_config
 :
     
 if
+(
+        
 browser_config
 .
 get
 (
-'
+"
 debug
-'
+"
 )
+        
 or
 browser_config
 .
 get
 (
-'
+"
 debugger
-'
+"
 )
+        
 or
-\
-            
 browser_config
 .
 get
 (
-'
+"
 debugg_args
-'
+"
+)
+    
 )
 :
         

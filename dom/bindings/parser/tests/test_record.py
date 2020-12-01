@@ -12,6 +12,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -44,6 +45,7 @@ arg
 "
 "
 "
+    
 )
     
 results
@@ -71,12 +73,12 @@ two
 things
 "
 )
-;
     
 harness
 .
 ok
 (
+        
 isinstance
 (
 results
@@ -87,7 +89,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 have
@@ -95,8 +96,8 @@ an
 interface
 here
 "
+    
 )
-;
     
 members
 =
@@ -221,7 +222,6 @@ inner
 isDictionary
 (
 )
-               
 "
 Should
 have
@@ -251,6 +251,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -277,6 +278,7 @@ arg
 "
 "
 "
+        
 )
         
 results
@@ -301,6 +303,7 @@ harness
 .
 ok
 (
+        
 threw
 "
 Should
@@ -318,6 +321,7 @@ value
 type
 .
 "
+    
 )
     
 parser
@@ -339,6 +343,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -361,6 +366,7 @@ val
 "
 "
 "
+        
 )
         
 results
@@ -386,7 +392,6 @@ harness
 ok
 (
 threw
-               
 "
 Should
 have

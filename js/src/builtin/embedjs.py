@@ -288,6 +288,7 @@ js
 def
 embed
 (
+    
 cxx
 preprocessorOption
 cppflags
@@ -310,18 +311,21 @@ getcwd
     
 combinedSources
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
+        
 [
 msgs
 ]
+        
 +
 [
+            
 '
 #
 include
@@ -334,11 +338,10 @@ s
 "
 '
 %
-                                          
 {
-'
+"
 s
-'
+"
 :
 mozpath
 .
@@ -348,12 +351,14 @@ source
 objdir
 )
 }
-                                          
+            
 for
 source
 in
 sources
+        
 ]
+    
 )
     
 args
@@ -361,7 +366,7 @@ args
 cppflags
 +
 [
-'
+"
 -
 D
 %
@@ -375,17 +380,17 @@ s
 v
 )
 s
-'
+"
 %
 {
-'
+"
 k
-'
+"
 :
 k
-'
+"
 v
-'
+"
 :
 env
 [
@@ -410,15 +415,18 @@ args
     
 processed
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
+        
 [
+            
 line
+            
 for
 line
 in
@@ -427,8 +435,8 @@ preprocessed
 splitlines
 (
 )
+            
 if
-                           
 (
 line
 .
@@ -441,12 +449,14 @@ line
 .
 startswith
 (
-'
+"
 #
-'
+"
 )
 )
+        
 ]
+    
 )
     
 js_out
@@ -482,58 +492,61 @@ c_out
 .
 write
 (
+        
 HEADER_TEMPLATE
+        
 %
 {
-        
-'
+            
+"
 sources_type
-'
+"
 :
-'
+"
 unsigned
 char
-'
-        
-'
+"
+            
+"
 sources_data
-'
+"
 :
 data
-        
-'
+            
+"
 sources_name
-'
+"
 :
-'
+"
 compressedSources
-'
-        
-'
+"
+            
+"
 compressed_total_length
-'
+"
 :
 len
 (
 compressed
 )
-        
-'
+            
+"
 raw_total_length
-'
+"
 :
 len
 (
 processed
 )
-        
-'
+            
+"
 namespace
-'
+"
 :
 namespace
-    
+        
 }
+    
 )
 def
 preprocess
@@ -549,7 +562,6 @@ args
 :
     
 if
-(
 not
 os
 .
@@ -561,7 +573,6 @@ cxx
 [
 0
 ]
-)
 )
 :
         
@@ -610,7 +621,7 @@ binary
     
 tmpIn
 =
-'
+"
 self
 -
 hosting
@@ -620,11 +631,11 @@ cpp
 input
 .
 cpp
-'
+"
     
 tmpOut
 =
-'
+"
 self
 -
 hosting
@@ -632,7 +643,7 @@ hosting
 preprocessed
 .
 pp
-'
+"
     
 outputArg
 =
@@ -649,9 +660,9 @@ with
 open
 (
 tmpIn
-'
+"
 wb
-'
+"
 )
 as
 input
@@ -669,8 +680,8 @@ source
     
 print
 (
-'
-'
+"
+"
 .
 join
 (
@@ -708,12 +719,10 @@ wait
 )
     
 if
-(
 result
 !
 =
 0
-)
 :
         
 sys
@@ -727,9 +736,9 @@ with
 open
 (
 tmpOut
-'
+"
 r
-'
+"
 )
 as
 output
@@ -852,10 +861,10 @@ MSG_DEF
 )
     
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -874,9 +883,9 @@ buildconfig
 .
 defines
 [
-'
+"
 ALLDEFINES
-'
+"
 ]
     
 for
@@ -886,9 +895,9 @@ buildconfig
 .
 substs
 [
-'
+"
 MOZ_DEBUG_DEFINES
-'
+"
 ]
 :
         
@@ -946,6 +955,7 @@ js
 sources
 =
 [
+        
 path
 for
 path
@@ -974,6 +984,7 @@ h
 js
 "
 )
+    
 ]
     
 assert
@@ -1003,9 +1014,9 @@ buildconfig
 .
 substs
 [
-'
+"
 CXX
-'
+"
 ]
 )
     
@@ -1015,9 +1026,9 @@ buildconfig
 .
 substs
 [
-'
+"
 PREPROCESS_OPTION
-'
+"
 ]
     
 cppflags
@@ -1026,9 +1037,9 @@ buildconfig
 .
 substs
 [
-'
+"
 OS_CPPFLAGS
-'
+"
 ]
     
 cppflags
@@ -1042,9 +1053,9 @@ buildconfig
 .
 substs
 [
-'
+"
 WARNINGS_AS_ERRORS
-'
+"
 ]
 )
     
@@ -1093,9 +1104,9 @@ with
 open
 (
 js_path
-'
+"
 w
-'
+"
 )
 as
 js_out
@@ -1125,9 +1136,9 @@ inputs
     
 process_inputs
 (
-'
+"
 selfhosted
-'
+"
 c_out
 msg_file
 inputs
@@ -1144,9 +1155,9 @@ inputs
     
 process_inputs
 (
-'
+"
 moduleloader
-'
+"
 c_out
 msg_file
 inputs

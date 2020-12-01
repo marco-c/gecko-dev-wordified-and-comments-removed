@@ -27,8 +27,8 @@ args
 :
     
 return
-'
-'
+"
+"
 .
 join
 (
@@ -222,22 +222,22 @@ self
 .
 cmd
 =
-'
-'
+"
+"
         
 self
 .
 out
 =
-'
-'
+"
+"
         
 self
 .
 err
 =
-'
-'
+"
+"
         
 self
 .
@@ -264,21 +264,21 @@ TestResult
     
 PASS
 =
-'
+"
 PASS
-'
+"
     
 FAIL
 =
-'
+"
 FAIL
-'
+"
     
 CRASH
 =
-'
+"
 CRASH
-'
+"
     
 "
 "
@@ -532,12 +532,14 @@ tests
 =
 testharness_result_converter
 (
+                        
 output
 .
 test
 .
 wpt
 data
+                    
 )
                     
 harness_status
@@ -558,9 +560,11 @@ s
 "
 %
 (
+                        
 harness_status_obj
 .
 message
+                    
 )
                     
 del
@@ -686,16 +690,14 @@ tests
                 
 test_output
 =
-"
+'
 Subtest
-\
 "
 %
 s
-\
 "
 :
-"
+'
 %
 (
 test
@@ -802,19 +804,17 @@ message
 test_output
 +
 =
-"
+'
 (
 with
 message
 :
-\
 "
 %
 s
-\
 "
 )
-"
+'
 %
 (
 test
@@ -826,8 +826,9 @@ subtests
 .
 append
 (
-{
                     
+{
+                        
 "
 test
 "
@@ -839,7 +840,7 @@ test
 wpt
 .
 id
-                    
+                        
 "
 subtest
 "
@@ -847,7 +848,7 @@ subtest
 test
 .
 name
-                    
+                        
 "
 status
 "
@@ -855,14 +856,15 @@ status
 test
 .
 status
-                    
+                        
 "
 expected
 "
 :
 expected
-                
+                    
 }
+                
 )
                 
 results
@@ -1018,12 +1020,12 @@ path
 .
 endswith
 (
-'
+"
 -
 n
 .
 js
-'
+"
 )
 :
             
@@ -1041,10 +1043,10 @@ out
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 :
             
@@ -1053,10 +1055,10 @@ line
 .
 startswith
 (
-'
+"
 FAILED
 !
-'
+"
 )
 :
                 
@@ -1071,10 +1073,10 @@ line
 [
 len
 (
-'
+"
 FAILED
 !
-'
+"
 )
 :
 ]
@@ -1096,10 +1098,10 @@ line
 .
 startswith
 (
-'
+"
 PASSED
 !
-'
+"
 )
 :
                 
@@ -1114,10 +1116,10 @@ line
 [
 len
 (
-'
+"
 PASSED
 !
-'
+"
 )
 :
 ]
@@ -1143,7 +1145,8 @@ re
 .
 match
 (
-'
+                    
+"
 -
 -
 -
@@ -1156,9 +1159,9 @@ WE
 EXPECT
 EXIT
 CODE
-'
-                             
-'
+"
+                    
+"
 (
 (
 ?
@@ -1174,8 +1177,10 @@ d
 -
 -
 -
-'
+"
+                    
 line
+                
 )
                 
 if
@@ -1231,6 +1236,7 @@ results
 .
 append
 (
+                    
 (
 cls
 .
@@ -1251,6 +1257,7 @@ test
 error
 )
 )
+                
 )
         
 if
@@ -1384,9 +1391,9 @@ options
 format
 =
 =
-'
+"
 automation
-'
+"
 :
             
 self
@@ -1475,24 +1482,24 @@ self
 counts
 =
 {
-'
+"
 PASS
-'
+"
 :
 0
-'
+"
 FAIL
-'
+"
 :
 0
-'
+"
 TIMEOUT
-'
+"
 :
 0
-'
+"
 SKIP
-'
+"
 :
 0
 }
@@ -1532,71 +1539,71 @@ fmt
 [
                 
 {
-'
+"
 value
-'
+"
 :
-'
+"
 PASS
-'
-'
+"
+"
 color
-'
+"
 :
-'
+"
 green
-'
+"
 }
                 
 {
-'
+"
 value
-'
+"
 :
-'
+"
 FAIL
-'
-'
+"
+"
 color
-'
+"
 :
-'
+"
 red
-'
+"
 }
                 
 {
-'
+"
 value
-'
+"
 :
-'
+"
 TIMEOUT
-'
-'
+"
+"
 color
-'
+"
 :
-'
+"
 blue
-'
+"
 }
                 
 {
-'
+"
 value
-'
+"
 :
-'
+"
 SKIP
-'
-'
+"
+"
 color
-'
+"
 :
-'
+"
 brightgray
-'
+"
 }
             
 ]
@@ -1665,9 +1672,9 @@ self
 .
 counts
 [
-'
+"
 TIMEOUT
-'
+"
 ]
 +
 =
@@ -1689,9 +1696,9 @@ options
 format
 =
 =
-'
+"
 automation
-'
+"
 :
                 
 self
@@ -1699,13 +1706,13 @@ self
 print_automation_result
 (
                     
-'
+"
 TEST
 -
 KNOWN
 -
 FAIL
-'
+"
 output
 .
 test
@@ -1714,19 +1721,19 @@ time
 output
 .
 dt
-                    
 skip
 =
 True
+                
 )
             
 self
 .
 counts
 [
-'
+"
 SKIP
-'
+"
 ]
 +
 =
@@ -1852,9 +1859,9 @@ self
 .
 counts
 [
-'
+"
 FAIL
-'
+"
 ]
 +
 =
@@ -1872,9 +1879,11 @@ UNEXPECTED
 -
 FAIL
 "
+                            
 result
 .
 test
+                            
 time
 =
 output
@@ -1893,6 +1902,7 @@ producing
 different
 output
 "
+                        
 )
                 
 else
@@ -1919,9 +1929,9 @@ timed_out
                 
 dev_label
 =
-'
+"
 TIMEOUTS
-'
+"
             
 self
 .
@@ -1943,20 +1953,20 @@ if
 dev_label
 =
 =
-'
+"
 REGRESSIONS
-'
+"
 :
                 
 show_output
 =
+(
+                    
 self
 .
 options
 .
 show_output
-\
-                    
 or
 not
 self
@@ -1964,14 +1974,16 @@ self
 options
 .
 no_show_failed
+                
+)
             
 elif
 dev_label
 =
 =
-'
+"
 TIMEOUTS
-'
+"
 :
                 
 show_output
@@ -1992,8 +2004,6 @@ self
 options
 .
 show_output
-\
-                    
 and
 not
 self
@@ -2006,12 +2016,12 @@ if
 dev_label
 in
 (
-'
+"
 REGRESSIONS
-'
-'
+"
+"
 TIMEOUTS
-'
+"
 )
 :
                 
@@ -2033,8 +2043,6 @@ self
 options
 .
 show_cmd
-\
-                    
 and
 not
 self
@@ -2063,7 +2071,8 @@ show_output
                     
 print
 (
-'
+                        
+"
 #
 #
 {
@@ -2080,11 +2089,11 @@ time
 =
 {
 }
-'
+"
 .
 format
 (
-                        
+                            
 output
 .
 test
@@ -2096,12 +2105,15 @@ rc
 output
 .
 dt
+                        
 )
+                        
 file
 =
 self
 .
 fp
+                    
 )
                 
 if
@@ -2155,7 +2167,8 @@ fp
 .
 write
 (
-'
+                                
+"
 WARNING
 :
 Falling
@@ -2167,19 +2180,20 @@ exception
 }
 \
 n
-'
+"
 .
 format
 (
 e
 )
+                            
 )
                             
 fp
 .
 write
 (
-'
+"
 WARNING
 :
 The
@@ -2187,14 +2201,14 @@ following
 output
 is
 escaped
-'
+"
 )
                             
 fp
 .
 write
 (
-'
+"
 and
 may
 be
@@ -2205,32 +2219,33 @@ one
 .
 \
 n
-'
+"
 )
                             
 fp
 .
 write
 (
+                                
 data
 .
 encode
 (
-'
+"
 ascii
-'
-'
+"
+"
 namereplace
-'
+"
 )
-                                     
 .
 decode
 (
-'
+"
 ascii
-'
+"
 )
+                            
 )
                     
 write_with_fallback
@@ -2282,9 +2297,9 @@ self
 .
 counts
 [
-'
+"
 PASS
-'
+"
 ]
 +
 =
@@ -2309,9 +2324,9 @@ self
 .
 counts
 [
-'
+"
 FAIL
-'
+"
 ]
 +
 =
@@ -2324,9 +2339,9 @@ self
 .
 counts
 [
-'
+"
 SKIP
-'
+"
 ]
 +
 =
@@ -2340,9 +2355,9 @@ options
 format
 =
 =
-'
+"
 automation
-'
+"
 :
                 
 if
@@ -2406,18 +2421,18 @@ if
 label
 =
 =
-'
+"
 TEST
 -
 UNEXPECTED
 -
 PASS
-'
+"
 :
                             
 label
 =
-'
+"
 TEST
 -
 PASS
@@ -2425,7 +2440,7 @@ PASS
 EXPECTED
 RANDOM
 )
-'
+"
                         
 self
 .
@@ -2441,10 +2456,10 @@ time
 output
 .
 dt
-                            
 message
 =
 msg
+                        
 )
                 
 tup
@@ -2469,6 +2484,7 @@ self
 .
 print_automation_result
 (
+                    
 self
 .
 LABELS
@@ -2478,27 +2494,28 @@ tup
 [
 0
 ]
-                                             
+                    
 result
 .
 test
-                                             
+                    
 time
 =
 output
 .
 dt
-                                             
+                    
 extra
 =
 getattr
 (
 output
-'
+"
 extra
-'
+"
 None
 )
+                
 )
                 
 return
@@ -2553,7 +2570,6 @@ singular
 (
 dev_label
 )
-                                                 
 output
 .
 test
@@ -2601,9 +2617,9 @@ options
 format
 =
 =
-'
+"
 automation
-'
+"
 :
             
 self
@@ -2654,16 +2670,16 @@ False
 )
 :
 (
-'
+"
 TEST
 -
 UNEXPECTED
 -
 FAIL
-'
-'
+"
+"
 REGRESSIONS
-'
+"
 )
         
 (
@@ -2675,16 +2691,16 @@ True
 )
 :
 (
-'
+"
 TEST
 -
 UNEXPECTED
 -
 FAIL
-'
-'
+"
+"
 REGRESSIONS
-'
+"
 )
         
 (
@@ -2696,16 +2712,16 @@ False
 )
 :
 (
-'
+"
 TEST
 -
 UNEXPECTED
 -
 FAIL
-'
-'
+"
+"
 REGRESSIONS
-'
+"
 )
         
 (
@@ -2717,16 +2733,16 @@ True
 )
 :
 (
-'
+"
 TEST
 -
 UNEXPECTED
 -
 FAIL
-'
-'
+"
+"
 REGRESSIONS
-'
+"
 )
         
 (
@@ -2738,15 +2754,15 @@ False
 )
 :
 (
-'
+"
 TEST
 -
 KNOWN
 -
 FAIL
-'
-'
-'
+"
+"
+"
 )
         
 (
@@ -2758,52 +2774,7 @@ True
 )
 :
 (
-'
-TEST
--
-KNOWN
--
-FAIL
-(
-EXPECTED
-RANDOM
-)
-'
-'
-'
-)
-        
-(
-TestResult
-.
-FAIL
-True
-False
-)
-:
-(
-'
-TEST
--
-UNEXPECTED
--
-FAIL
-'
-'
-REGRESSIONS
-'
-)
-        
-(
-TestResult
-.
-FAIL
-True
-True
-)
-:
-(
-'
+"
 TEST
 -
 KNOWN
@@ -2813,9 +2784,54 @@ FAIL
 EXPECTED
 RANDOM
 )
-'
-'
-'
+"
+"
+"
+)
+        
+(
+TestResult
+.
+FAIL
+True
+False
+)
+:
+(
+"
+TEST
+-
+UNEXPECTED
+-
+FAIL
+"
+"
+REGRESSIONS
+"
+)
+        
+(
+TestResult
+.
+FAIL
+True
+True
+)
+:
+(
+"
+TEST
+-
+KNOWN
+-
+FAIL
+(
+EXPECTED
+RANDOM
+)
+"
+"
+"
 )
         
 (
@@ -2827,16 +2843,16 @@ False
 )
 :
 (
-'
+"
 TEST
 -
 UNEXPECTED
 -
 PASS
-'
-'
+"
+"
 FIXES
-'
+"
 )
         
 (
@@ -2848,7 +2864,7 @@ True
 )
 :
 (
-'
+"
 TEST
 -
 PASS
@@ -2856,9 +2872,9 @@ PASS
 EXPECTED
 RANDOM
 )
-'
-'
-'
+"
+"
+"
 )
         
 (
@@ -2870,13 +2886,13 @@ False
 )
 :
 (
-'
+"
 TEST
 -
 PASS
-'
-'
-'
+"
+"
+"
 )
         
 (
@@ -2888,7 +2904,7 @@ True
 )
 :
 (
-'
+"
 TEST
 -
 PASS
@@ -2896,9 +2912,9 @@ PASS
 EXPECTED
 RANDOM
 )
-'
-'
-'
+"
+"
+"
 )
     
 }
@@ -2931,8 +2947,8 @@ if
 label
 =
 =
-'
-'
+"
+"
 :
                 
 continue
@@ -2950,32 +2966,35 @@ results
                 
 print
 (
-'
+                    
+"
 {
 }
-'
+"
 .
 format
 (
-'
-'
+                        
+"
+"
 .
 join
 (
+                            
 result
 .
 test
 .
 jitflags
+                            
 +
-                                               
 result
 .
 test
 .
 options
+                            
 +
-                                               
 [
 result
 .
@@ -2983,8 +3002,11 @@ test
 .
 path
 ]
+                        
 )
+                    
 )
+                
 )
         
 if
@@ -3004,9 +3026,9 @@ self
 options
 .
 failure_file
-'
+"
 w
-'
+"
 )
             
 if
@@ -3019,9 +3041,9 @@ all_passed
 :
                 
 if
-'
+"
 REGRESSIONS
-'
+"
 in
 self
 .
@@ -3035,9 +3057,9 @@ self
 .
 groups
 [
-'
+"
 REGRESSIONS
-'
+"
 ]
 :
                         
@@ -3054,9 +3076,9 @@ failure_file
 )
                 
 if
-'
+"
 TIMEOUTS
-'
+"
 in
 self
 .
@@ -3070,9 +3092,9 @@ self
 .
 groups
 [
-'
+"
 TIMEOUTS
-'
+"
 ]
 :
                         
@@ -3096,12 +3118,12 @@ close
         
 suffix
 =
-'
-'
+"
+"
 if
 completed
 else
-'
+"
 (
 partial
 run
@@ -3111,7 +3133,7 @@ interrupted
 by
 user
 )
-'
+"
         
 if
 self
@@ -3123,9 +3145,9 @@ all_passed
             
 print
 (
-'
+"
 PASS
-'
+"
 +
 suffix
 )
@@ -3135,9 +3157,9 @@ else
             
 print
 (
-'
+"
 FAIL
-'
+"
 +
 suffix
 )
@@ -3160,7 +3182,7 @@ slow_test_threshold
             
 print
 (
-'
+"
 Slow
 tests
 (
@@ -3170,7 +3192,7 @@ duration
 }
 s
 )
-'
+"
 .
 format
 (
@@ -3210,7 +3232,7 @@ slow_tests
                 
 print
 (
-'
+"
 {
 :
 >
@@ -3218,7 +3240,7 @@ print
 }
 {
 }
-'
+"
 .
 format
 (
@@ -3246,9 +3268,9 @@ any
                 
 print
 (
-'
+"
 None
-'
+"
 )
     
 def
@@ -3259,18 +3281,18 @@ self
 :
         
 return
-'
+"
 REGRESSIONS
-'
+"
 not
 in
 self
 .
 groups
 and
-'
+"
 TIMEOUTS
-'
+"
 not
 in
 self
@@ -3280,6 +3302,7 @@ groups
 def
 print_automation_result
 (
+        
 self
 label
 test
@@ -3289,13 +3312,13 @@ None
 skip
 =
 False
-                                
 time
 =
 None
 extra
 =
 None
+    
 )
 :
         
@@ -3362,8 +3385,8 @@ args
 .
 format
 (
-'
-'
+"
+"
 .
 join
 (
@@ -3391,12 +3414,12 @@ skip
 result
 +
 =
-'
+"
 |
 (
 SKIP
 )
-'
+"
         
 if
 time
@@ -3411,17 +3434,17 @@ timeout
 result
 +
 =
-'
+"
 |
 (
 TIMEOUT
 )
-'
+"
         
 result
 +
 =
-'
+"
 [
 {
 :
@@ -3430,7 +3453,7 @@ result
 }
 s
 ]
-'
+"
 .
 format
 (
@@ -3445,9 +3468,9 @@ result
 details
 =
 {
-'
+"
 extra
-'
+"
 :
 extra
 .
@@ -3471,14 +3494,14 @@ shell_args
             
 details
 [
-'
+"
 extra
-'
+"
 ]
 [
-'
+"
 shell_args
-'
+"
 ]
 =
 self
@@ -3489,14 +3512,14 @@ shell_args
         
 details
 [
-'
+"
 extra
-'
+"
 ]
 [
-'
+"
 jitflags
-'
+"
 ]
 =
 test
@@ -3509,30 +3532,30 @@ message
             
 details
 [
-'
+"
 message
-'
+"
 ]
 =
 message
         
 status
 =
-'
+"
 FAIL
-'
+"
 if
-'
+"
 TEST
 -
 UNEXPECTED
-'
+"
 in
 label
 else
-'
+"
 PASS
-'
+"
         
 self
 .

@@ -29,11 +29,11 @@ MOCHITEST_MANIFESTS
 +
 =
 [
-'
+"
 child
 /
 mochitest
 .
 ini
-'
+"
 ]

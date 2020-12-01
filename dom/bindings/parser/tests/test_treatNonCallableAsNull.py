@@ -12,6 +12,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -53,6 +54,7 @@ onbar
 "
 "
 "
+    
 )
     
 results
@@ -147,6 +149,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -182,6 +185,7 @@ onfoo
 "
 "
 "
+        
 )
         
 results
@@ -231,6 +235,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -267,6 +272,7 @@ onfoo
 "
 "
 "
+        
 )
         
 results
@@ -316,6 +322,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -341,6 +348,7 @@ arguments
 "
 "
 "
+        
 )
         
 results

@@ -1,6 +1,6 @@
-'
-'
-'
+"
+"
+"
 This
 script
 downloads
@@ -23,9 +23,9 @@ Firefox
 build
 environment
 .
-'
-'
-'
+"
+"
+"
 from
 __future__
 import
@@ -70,12 +70,12 @@ msg
     
 print
 (
-'
+"
 repack
 :
 %
 s
-'
+"
 %
 msg
 )
@@ -86,9 +86,9 @@ url
 )
 :
     
-'
-'
-'
+"
+"
+"
 Download
 a
 file
@@ -119,9 +119,9 @@ the
 received
 file
 .
-'
-'
-'
+"
+"
+"
     
 filename
 =
@@ -161,9 +161,9 @@ with
 open
 (
 filename
-'
+"
 rb
-'
+"
 )
 as
 fd
@@ -203,13 +203,13 @@ block
         
 log
 (
-'
+"
 Could
 not
 calculate
 checksum
 !
-'
+"
 )
         
 return
@@ -237,9 +237,9 @@ with
 open
 (
 filename
-'
+"
 wb
-'
+"
 )
 as
 fd
@@ -284,9 +284,9 @@ input_data
 )
 :
     
-'
-'
-'
+"
+"
+"
 Invoke
 a
 command
@@ -313,9 +313,9 @@ to
 interactive
 commands
 .
-'
-'
-'
+"
+"
+"
     
 p
 =
@@ -362,9 +362,9 @@ setup_gpg
 )
 :
     
-'
-'
-'
+"
+"
+"
 Add
 the
 signing
@@ -408,19 +408,19 @@ or
 fail
 cleanly
 .
-'
-'
-'
+"
+"
+"
     
 keyid
 =
-'
+"
 0x85AB96E6FA1BE5FE
-'
+"
     
 log
 (
-'
+"
 Importing
 signing
 key
@@ -429,7 +429,7 @@ s
 .
 .
 .
-'
+"
 %
 keyid
 )
@@ -437,9 +437,9 @@ keyid
 key
 =
 b
-'
-'
-'
+"
+"
+"
 -
 -
 -
@@ -847,53 +847,53 @@ BLOCK
 -
 -
 -
-'
-'
-'
+"
+"
+"
     
 check_call_with_input
 (
 [
-'
+"
 gpg
-'
-'
+"
+"
 -
 -
 import
-'
+"
 ]
 key
 )
     
 check_call_with_input
 (
+        
 [
-'
+"
 gpg
-'
-'
+"
+"
 -
 -
 command
 -
 fd
-'
-'
+"
+"
 0
-'
-'
+"
+"
 -
 -
 edit
 -
 key
-'
+"
 keyid
 ]
-                          
 b
-'
+"
 trust
 \
 n5
@@ -901,7 +901,8 @@ n5
 ny
 \
 n
-'
+"
+    
 )
 def
 verify_sha
@@ -911,9 +912,9 @@ sha
 )
 :
     
-'
-'
-'
+"
+"
+"
 Verify
 that
 the
@@ -925,18 +926,18 @@ given
 sha
 digest
 .
-'
-'
-'
+"
+"
+"
     
 sha_filename
 =
 filename
 +
-'
+"
 .
 sha256
-'
+"
     
 with
 open
@@ -972,13 +973,13 @@ sha
 raise
 ValueError
 (
-'
+"
 Checksum
 mismatch
 in
 %
 s
-'
+"
 %
 filename
 )
@@ -988,7 +989,7 @@ True
     
 log
 (
-'
+"
 No
 checksum
 file
@@ -996,7 +997,7 @@ for
 %
 s
 !
-'
+"
 %
 filename
 )
@@ -1013,9 +1014,9 @@ True
 )
 :
     
-'
-'
-'
+"
+"
+"
 Download
 and
 verify
@@ -1023,9 +1024,9 @@ a
 package
 url
 .
-'
-'
-'
+"
+"
+"
     
 base
 =
@@ -1040,14 +1041,14 @@ url
     
 log
 (
-'
+"
 Fetching
 %
 s
 .
 .
 .
-'
+"
 %
 base
 )
@@ -1060,20 +1061,20 @@ fetch_file
 (
 url
 +
-'
+"
 .
 asc
-'
+"
 )
         
 fetch_file
 (
 url
 +
-'
+"
 .
 sha256
-'
+"
 )
     
 sha
@@ -1089,14 +1090,14 @@ validate
         
 log
 (
-'
+"
 Verifying
 %
 s
 .
 .
 .
-'
+"
 %
 base
 )
@@ -1111,34 +1112,35 @@ subprocess
 .
 check_call
 (
+            
 [
-'
+"
 gpg
-'
-'
+"
+"
 -
 -
 keyid
 -
 format
-'
-'
+"
+"
 0xlong
-'
-                               
-'
+"
+"
 -
 -
 verify
-'
+"
 base
 +
-'
+"
 .
 asc
-'
+"
 base
 ]
+        
 )
     
 return
@@ -1151,9 +1153,9 @@ target
 )
 :
     
-'
-'
-'
+"
+"
+"
 Run
 a
 package
@@ -1167,20 +1169,20 @@ given
 target
 directory
 .
-'
-'
-'
+"
+"
+"
     
 log
 (
-'
+"
 Unpacking
 %
 s
 .
 .
 .
-'
+"
 %
 filename
 )
@@ -1190,12 +1192,12 @@ subprocess
 check_call
 (
 [
-'
+"
 tar
-'
-'
+"
+"
 xf
-'
+"
 filename
 ]
 )
@@ -1206,10 +1208,10 @@ filename
 .
 split
 (
-'
+"
 .
 tar
-'
+"
 )
 [
 0
@@ -1217,14 +1219,14 @@ tar
     
 log
 (
-'
+"
 Installing
 %
 s
 .
 .
 .
-'
+"
 %
 basename
 )
@@ -1239,11 +1241,11 @@ path
 join
 (
 basename
-'
+"
 install
 .
 sh
-'
+"
 )
 ]
     
@@ -1251,12 +1253,12 @@ install_cmd
 +
 =
 [
-'
+"
 -
 -
 prefix
 =
-'
+"
 +
 os
 .
@@ -1272,13 +1274,13 @@ install_cmd
 +
 =
 [
-'
+"
 -
 -
 disable
 -
 ldconfig
-'
+"
 ]
     
 subprocess
@@ -1290,14 +1292,14 @@ install_cmd
     
 log
 (
-'
+"
 Cleaning
 %
 s
 .
 .
 .
-'
+"
 %
 basename
 )
@@ -1317,9 +1319,9 @@ target
 )
 :
     
-'
-'
-'
+"
+"
+"
 Pull
 out
 the
@@ -1337,25 +1339,25 @@ the
 given
 manifest
 .
-'
-'
-'
+"
+"
+"
     
 version
 =
 manifest
 [
-'
+"
 pkg
-'
+"
 ]
 [
 pkg
 ]
 [
-'
+"
 version
-'
+"
 ]
     
 if
@@ -1363,17 +1365,17 @@ target
 in
 manifest
 [
-'
+"
 pkg
-'
+"
 ]
 [
 pkg
 ]
 [
-'
+"
 target
-'
+"
 ]
 :
         
@@ -1381,17 +1383,17 @@ info
 =
 manifest
 [
-'
+"
 pkg
-'
+"
 ]
 [
 pkg
 ]
 [
-'
+"
 target
-'
+"
 ]
 [
 target
@@ -1404,62 +1406,62 @@ info
 =
 manifest
 [
-'
+"
 pkg
-'
+"
 ]
 [
 pkg
 ]
 [
-'
+"
 target
-'
+"
 ]
 [
-'
+"
 *
-'
+"
 ]
     
 if
-'
+"
 xz_url
-'
+"
 in
 info
 :
         
 info
 [
-'
+"
 url
-'
+"
 ]
 =
 info
 .
 pop
 (
-'
+"
 xz_url
-'
+"
 )
         
 info
 [
-'
+"
 hash
-'
+"
 ]
 =
 info
 .
 pop
 (
-'
+"
 xz_hash
-'
+"
 )
     
 return
@@ -1490,15 +1492,15 @@ if
 not
 info
 [
-'
+"
 available
-'
+"
 ]
 :
         
 log
 (
-'
+"
 %
 s
 marked
@@ -1506,7 +1508,7 @@ unavailable
 for
 %
 s
-'
+"
 %
 (
 pkg
@@ -1519,7 +1521,7 @@ KeyError
     
 log
 (
-'
+"
 %
 s
 %
@@ -1532,22 +1534,22 @@ s
 n
 %
 s
-'
+"
 %
 (
 pkg
 version
 info
 [
-'
+"
 url
-'
+"
 ]
 info
 [
-'
+"
 hash
-'
+"
 ]
 )
 )
@@ -1558,15 +1560,15 @@ fetch
 (
 info
 [
-'
+"
 url
-'
+"
 ]
 info
 [
-'
+"
 hash
-'
+"
 ]
 is
 not
@@ -1576,9 +1578,9 @@ None
 if
 info
 [
-'
+"
 hash
-'
+"
 ]
 and
 sha
@@ -1586,15 +1588,16 @@ sha
 =
 info
 [
-'
+"
 hash
-'
+"
 ]
 :
         
 log
 (
-'
+            
+"
 Checksum
 mismatch
 :
@@ -1604,16 +1607,17 @@ is
 different
 from
 manifest
-'
+"
             
-'
+"
 \
 n
 %
 s
-'
+"
 %
 sha
+        
 )
         
 raise
@@ -1647,11 +1651,11 @@ append
 fetch_package
 (
 manifest
-'
+"
 rust
 -
 std
-'
+"
 target
 )
 )
@@ -1678,11 +1682,11 @@ append
 fetch_package
 (
 manifest
-'
+"
 rust
 -
 analysis
-'
+"
 target
 )
 )
@@ -1800,7 +1804,7 @@ name
     
 log
 (
-'
+"
 tarring
 {
 }
@@ -1810,7 +1814,7 @@ from
 /
 {
 }
-'
+"
 .
 format
 (
@@ -1898,9 +1902,9 @@ fetch_manifest
 (
 channel
 =
-'
+"
 stable
-'
+"
 host
 =
 None
@@ -1916,10 +1920,10 @@ channel
 .
 startswith
 (
-'
+"
 bors
 -
-'
+"
 )
 :
         
@@ -1932,17 +1936,17 @@ channel
 [
 len
 (
-'
+"
 bors
 -
-'
+"
 )
 :
 ]
         
 base_url
 =
-'
+"
 https
 :
 /
@@ -1968,24 +1972,24 @@ ci2
 rustc
 -
 builds
-'
+"
         
 manifest
 =
 {
             
-'
+"
 date
-'
+"
 :
-'
+"
 some
 date
-'
+"
             
-'
+"
 pkg
-'
+"
 :
 {
 }
@@ -2002,21 +2006,21 @@ url
 return
 {
                 
-'
+"
 url
-'
+"
 :
 url
                 
-'
+"
 hash
-'
+"
 :
 None
                 
-'
+"
 available
-'
+"
 :
 requests
 .
@@ -2036,25 +2040,25 @@ for
 pkg
 in
 (
-'
+"
 cargo
-'
-'
+"
+"
 rustc
-'
-'
+"
+"
 rustfmt
 -
 preview
-'
+"
 )
 :
             
 manifest
 [
-'
+"
 pkg
-'
+"
 ]
 [
 pkg
@@ -2062,17 +2066,17 @@ pkg
 =
 {
                 
-'
+"
 version
-'
+"
 :
-'
+"
 bors
-'
+"
                 
-'
+"
 target
-'
+"
 :
 {
                     
@@ -2080,7 +2084,8 @@ host
 :
 target
 (
-'
+                        
+"
 {
 }
 /
@@ -2098,7 +2103,7 @@ nightly
 tar
 .
 xz
-'
+"
 .
 format
 (
@@ -2107,6 +2112,7 @@ rev
 pkg
 host
 )
+                    
 )
                 
 }
@@ -2115,41 +2121,41 @@ host
         
 manifest
 [
-'
+"
 pkg
-'
+"
 ]
 [
-'
+"
 rust
 -
 src
-'
+"
 ]
 =
 {
             
-'
+"
 version
-'
+"
 :
-'
+"
 bors
-'
+"
             
-'
+"
 target
-'
+"
 :
 {
                 
-'
+"
 *
-'
+"
 :
 target
 (
-'
+"
 {
 }
 /
@@ -2165,7 +2171,7 @@ nightly
 tar
 .
 xz
-'
+"
 .
 format
 (
@@ -2182,24 +2188,24 @@ for
 pkg
 in
 (
-'
+"
 rust
 -
 std
-'
-'
+"
+"
 rust
 -
 analysis
-'
+"
 )
 :
             
 manifest
 [
-'
+"
 pkg
-'
+"
 ]
 [
 pkg
@@ -2207,17 +2213,17 @@ pkg
 =
 {
                 
-'
+"
 version
-'
+"
 :
-'
+"
 bors
-'
+"
                 
-'
+"
 target
-'
+"
 :
 {
                     
@@ -2225,7 +2231,8 @@ t
 :
 target
 (
-'
+                        
+"
 {
 }
 /
@@ -2243,7 +2250,7 @@ nightly
 tar
 .
 xz
-'
+"
 .
 format
 (
@@ -2252,6 +2259,7 @@ rev
 pkg
 t
 )
+                    
 )
                     
 for
@@ -2280,9 +2288,9 @@ return
 manifest
     
 if
-'
+"
 -
-'
+"
 in
 channel
 :
@@ -2294,17 +2302,17 @@ channel
 .
 split
 (
-'
+"
 -
-'
+"
 1
 )
         
 prefix
 =
-'
+"
 /
-'
+"
 +
 date
     
@@ -2313,12 +2321,12 @@ else
         
 prefix
 =
-'
-'
+"
+"
     
 url
 =
-'
+"
 https
 :
 /
@@ -2343,10 +2351,9 @@ rust
 s
 .
 toml
-'
+"
 %
 (
-        
 prefix
 channel
 )
@@ -2380,40 +2387,41 @@ content
 if
 manifest
 [
-'
+"
 manifest
 -
 version
-'
+"
 ]
 !
 =
-'
+"
 2
-'
+"
 :
         
 raise
 NotImplementedError
 (
-'
+            
+"
 Unrecognized
 manifest
 version
 %
 s
 .
-'
+"
 %
-                                  
 manifest
 [
-'
+"
 manifest
 -
 version
-'
+"
 ]
+        
 )
     
 return
@@ -2421,13 +2429,14 @@ manifest
 def
 repack
 (
+    
 host
 targets
 channel
 =
-'
+"
 stable
-'
+"
 cargo_channel
 =
 None
@@ -2470,7 +2479,7 @@ targets
     
 log
 (
-'
+"
 Using
 manifest
 for
@@ -2482,15 +2491,15 @@ of
 %
 s
 .
-'
+"
 %
 (
 channel
 manifest
 [
-'
+"
 date
-'
+"
 ]
 )
 )
@@ -2520,7 +2529,8 @@ targets
         
 log
 (
-'
+            
+"
 Using
 manifest
 for
@@ -2532,29 +2542,30 @@ of
 %
 s
 .
-'
-%
+"
             
+%
 (
 cargo_channel
 cargo_manifest
 [
-'
+"
 date
-'
+"
 ]
 )
+        
 )
     
 log
 (
-'
+"
 Fetching
 packages
 .
 .
 .
-'
+"
 )
     
 rustc
@@ -2562,9 +2573,9 @@ rustc
 fetch_package
 (
 manifest
-'
+"
 rustc
-'
+"
 host
 )
     
@@ -2573,9 +2584,9 @@ cargo
 fetch_package
 (
 cargo_manifest
-'
+"
 cargo
-'
+"
 host
 )
     
@@ -2592,11 +2603,11 @@ rustsrc
 fetch_package
 (
 manifest
-'
+"
 rust
 -
 src
-'
+"
 host
 )
     
@@ -2605,30 +2616,30 @@ rustfmt
 fetch_optional
 (
 manifest
-'
+"
 rustfmt
 -
 preview
-'
+"
 host
 )
     
 log
 (
-'
+"
 Installing
 packages
 .
 .
 .
-'
+"
 )
     
 install_dir
 =
-'
+"
 rustc
-'
+"
     
 try
 :
@@ -2669,9 +2680,9 @@ basename
 (
 rustc
 [
-'
+"
 url
-'
+"
 ]
 )
 install_dir
@@ -2687,9 +2698,9 @@ basename
 (
 cargo
 [
-'
+"
 url
-'
+"
 ]
 )
 install_dir
@@ -2705,9 +2716,9 @@ basename
 (
 rustsrc
 [
-'
+"
 url
-'
+"
 ]
 )
 install_dir
@@ -2727,9 +2738,9 @@ basename
 (
 rustfmt
 [
-'
+"
 url
-'
+"
 ]
 )
 install_dir
@@ -2751,9 +2762,9 @@ basename
 (
 std
 [
-'
+"
 url
-'
+"
 ]
 )
 install_dir
@@ -2774,7 +2785,7 @@ hack_targets
 =
 (
             
-'
+"
 x86_64
 -
 unknown
@@ -2782,9 +2793,9 @@ unknown
 linux
 -
 gnu
-'
+"
             
-'
+"
 i686
 -
 unknown
@@ -2792,23 +2803,23 @@ unknown
 linux
 -
 gnu
-'
+"
             
-'
+"
 thumbv7neon
 -
 linux
 -
 androideabi
-'
+"
             
-'
+"
 aarch64
 -
 linux
 -
 android
-'
+"
         
 )
         
@@ -2824,16 +2835,16 @@ os
 .
 environ
 [
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 ]
-'
+"
 clang
-'
-'
+"
+"
 bin
-'
+"
 )
     
 for
@@ -2858,39 +2869,42 @@ glob
 .
 glob
 (
+            
 os
 .
 path
 .
 join
 (
+                
 install_dir
-'
+"
 lib
-'
-'
+"
+"
 rustlib
-'
+"
 t
-'
+"
 lib
-'
-                                          
-'
+"
+"
 libcompiler_builtins
 *
-'
+"
+            
 )
+        
 )
 :
             
 log
 (
-'
+"
 Postprocessing
 %
 s
-'
+"
 %
 lib
 )
@@ -2918,15 +2932,15 @@ path
 join
 (
 llvm_bin
-'
+"
 llvm
 -
 ar
-'
+"
 )
-'
+"
 x
-'
+"
 os
 .
 path
@@ -2936,9 +2950,11 @@ abspath
 lib
 )
 ]
+                    
 cwd
 =
 d
+                
 )
                 
 files
@@ -2962,10 +2978,10 @@ f
 .
 endswith
 (
-'
+"
 .
 o
-'
+"
 )
 :
                         
@@ -2977,6 +2993,7 @@ check_call
 (
                         
 [
+                            
 os
 .
 path
@@ -2984,35 +3001,41 @@ path
 join
 (
 llvm_bin
-'
+"
 llvm
 -
 objcopy
-'
+"
 )
-                         
-'
+                            
+"
 -
 R
-'
-'
+"
+                            
+"
 .
 llvmbc
-'
-'
+"
+                            
+"
 -
 R
-'
-'
+"
+                            
+"
 .
 llvmcmd
-'
+"
+                            
 f
+                        
 ]
                         
 cwd
 =
 d
+                    
 )
                 
 subprocess
@@ -3028,15 +3051,15 @@ path
 join
 (
 llvm_bin
-'
+"
 llvm
 -
 ar
-'
+"
 )
-'
+"
 crv
-'
+"
 os
 .
 path
@@ -3046,12 +3069,14 @@ abspath
 lib
 )
 ]
+                    
 +
 files
                     
 cwd
 =
 d
+                
 )
                 
 subprocess
@@ -3067,11 +3092,11 @@ path
 join
 (
 llvm_bin
-'
+"
 llvm
 -
 ranlib
-'
+"
 )
 os
 .
@@ -3085,17 +3110,18 @@ lib
 cwd
 =
 d
+                
 )
     
 log
 (
-'
+"
 Creating
 archive
 .
 .
 .
-'
+"
 )
     
 tar_file
@@ -3127,13 +3153,13 @@ install_dir
     
 log
 (
-'
+"
 %
 s
 is
 ready
 .
-'
+"
 %
 tar_file
 )
@@ -3146,9 +3172,9 @@ environ
 .
 get
 (
-'
+"
 UPLOAD_DIR
-'
+"
 )
     
 if
@@ -3160,7 +3186,7 @@ try
             
 log
 (
-'
+"
 Creating
 upload
 directory
@@ -3170,7 +3196,7 @@ s
 .
 .
 .
-'
+"
 %
 os
 .
@@ -3210,7 +3236,7 @@ raise
         
 log
 (
-'
+"
 Moving
 %
 s
@@ -3221,7 +3247,7 @@ directory
 .
 .
 .
-'
+"
 %
 tar_file
 )
@@ -3239,15 +3265,15 @@ repack_cargo
 host
 channel
 =
-'
+"
 nightly
-'
+"
 )
 :
     
 log
 (
-'
+"
 Repacking
 cargo
 for
@@ -3256,14 +3282,14 @@ s
 .
 .
 .
-'
+"
 %
 host
 )
     
 base_url
 =
-'
+"
 https
 :
 /
@@ -3280,7 +3306,7 @@ cargo
 -
 dist
 /
-'
+"
     
 req
 =
@@ -3295,12 +3321,12 @@ path
 join
 (
 base_url
-'
+"
 channel
 -
 cargo
 -
-'
+"
 +
 channel
 )
@@ -3314,8 +3340,8 @@ raise_for_status
     
 file
 =
-'
-'
+"
+"
     
 for
 line
@@ -3355,7 +3381,7 @@ file
         
 log
 (
-'
+"
 No
 manifest
 entry
@@ -3363,7 +3389,7 @@ for
 %
 s
 !
-'
+"
 %
 host
 )
@@ -3374,42 +3400,42 @@ manifest
 =
 {
         
-'
+"
 date
-'
+"
 :
 req
 .
 headers
 [
-'
+"
 Last
 -
 Modified
-'
+"
 ]
         
-'
+"
 pkg
-'
+"
 :
 {
             
-'
+"
 cargo
-'
+"
 :
 {
                 
-'
+"
 version
-'
+"
 :
 channel
                 
-'
+"
 target
-'
+"
 :
 {
                     
@@ -3417,9 +3443,9 @@ host
 :
 {
                         
-'
+"
 url
-'
+"
 :
 os
 .
@@ -3431,15 +3457,15 @@ base_url
 file
 )
                         
-'
+"
 hash
-'
+"
 :
 None
                         
-'
+"
 available
-'
+"
 :
 True
                     
@@ -3455,7 +3481,7 @@ True
     
 log
 (
-'
+"
 Using
 manifest
 for
@@ -3463,20 +3489,20 @@ cargo
 %
 s
 .
-'
+"
 %
 channel
 )
     
 log
 (
-'
+"
 Fetching
 packages
 .
 .
 .
-'
+"
 )
     
 cargo
@@ -3484,28 +3510,28 @@ cargo
 fetch_package
 (
 manifest
-'
+"
 cargo
-'
+"
 host
 )
     
 log
 (
-'
+"
 Installing
 packages
 .
 .
 .
-'
+"
 )
     
 install_dir
 =
-'
+"
 cargo
-'
+"
     
 shutil
 .
@@ -3524,9 +3550,9 @@ basename
 (
 cargo
 [
-'
+"
 url
-'
+"
 ]
 )
 install_dir
@@ -3534,27 +3560,27 @@ install_dir
     
 tar_basename
 =
-'
+"
 cargo
 -
 %
 s
 -
 repack
-'
+"
 %
 host
     
 log
 (
-'
+"
 Tarring
 %
 s
 .
 .
 .
-'
+"
 %
 tar_basename
 )
@@ -3592,9 +3618,9 @@ name
 )
 :
     
-'
-'
-'
+"
+"
+"
 Expand
 a
 shortcut
@@ -3606,17 +3632,17 @@ Rust
 platform
 string
 .
-'
-'
-'
+"
+"
+"
     
 platforms
 =
 {
         
-'
+"
 android
-'
+"
 :
 "
 armv7
@@ -3626,9 +3652,9 @@ linux
 androideabi
 "
         
-'
+"
 android_x86
-'
+"
 :
 "
 i686
@@ -3638,11 +3664,11 @@ linux
 android
 "
         
-'
+"
 android_x86
 -
 64
-'
+"
 :
 "
 x86_64
@@ -3652,9 +3678,9 @@ linux
 android
 "
         
-'
+"
 android_aarch64
-'
+"
 :
 "
 aarch64
@@ -3664,9 +3690,9 @@ linux
 android
 "
         
-'
+"
 linux64
-'
+"
 :
 "
 x86_64
@@ -3678,9 +3704,9 @@ linux
 gnu
 "
         
-'
+"
 linux32
-'
+"
 :
 "
 i686
@@ -3692,9 +3718,9 @@ linux
 gnu
 "
         
-'
+"
 mac
-'
+"
 :
 "
 x86_64
@@ -3704,9 +3730,9 @@ apple
 darwin
 "
         
-'
+"
 macos
-'
+"
 :
 "
 x86_64
@@ -3716,9 +3742,9 @@ apple
 darwin
 "
         
-'
+"
 mac64
-'
+"
 :
 "
 x86_64
@@ -3728,9 +3754,9 @@ apple
 darwin
 "
         
-'
+"
 mac32
-'
+"
 :
 "
 i686
@@ -3740,9 +3766,9 @@ apple
 darwin
 "
         
-'
+"
 win64
-'
+"
 :
 "
 x86_64
@@ -3754,9 +3780,9 @@ windows
 msvc
 "
         
-'
+"
 win32
-'
+"
 :
 "
 i686
@@ -3768,9 +3794,9 @@ windows
 msvc
 "
         
-'
+"
 mingw32
-'
+"
 :
 "
 i686
@@ -3799,9 +3825,9 @@ channel
 )
 :
     
-'
-'
-'
+"
+"
+"
 Require
 a
 specific
@@ -3831,22 +3857,22 @@ Reject
 such
 channels
 .
-'
-'
-'
+"
+"
+"
     
 channel_prefixes
 =
 (
-'
+"
 stable
-'
-'
+"
+"
 beta
-'
-'
+"
+"
 nightly
-'
+"
 )
     
 if
@@ -3868,9 +3894,9 @@ channel_prefixes
 :
         
 if
-'
+"
 -
-'
+"
 not
 in
 channel
@@ -3879,6 +3905,7 @@ channel
 raise
 ValueError
 (
+                
 '
 Generic
 channel
@@ -3889,8 +3916,8 @@ s
 specified
 !
 '
-                             
-'
+                
+"
 \
 nPlease
 give
@@ -3898,8 +3925,8 @@ a
 specific
 release
 version
-'
-                             
+"
+                
 '
 like
 "
@@ -3923,6 +3950,7 @@ beta
 '
 %
 channel
+            
 )
 def
 args
@@ -3930,9 +3958,9 @@ args
 )
 :
     
-'
-'
-'
+"
+"
+"
 Read
 command
 line
@@ -3941,9 +3969,9 @@ and
 return
 options
 .
-'
-'
-'
+"
+"
+"
     
 parser
 =
@@ -3957,23 +3985,24 @@ parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 channel
-'
-                        
+"
+        
 help
 =
-'
+"
 Release
 channel
 to
 use
 :
-'
-                             
-'
+"
+        
+"
 1
 .
 xx
@@ -3986,9 +4015,9 @@ yyyy
 mm
 -
 dd
-'
-                             
-'
+"
+        
+"
 or
 nightly
 -
@@ -3998,28 +4027,30 @@ mm
 -
 dd
 .
-'
-                             
+"
+        
 required
 =
 True
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 cargo
 -
 channel
-'
-                        
+"
+        
 help
 =
-'
+"
 Release
 channel
 version
@@ -4028,9 +4059,9 @@ use
 for
 cargo
 .
-'
-                             
-'
+"
+        
+"
 Defaults
 to
 the
@@ -4040,14 +4071,16 @@ as
 -
 channel
 .
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 compiler
@@ -4055,22 +4088,22 @@ compiler
 builtins
 -
 hack
-'
+"
+        
 action
 =
-'
+"
 store_true
-'
-                        
+"
+        
 help
 =
-'
+"
 Enable
 workaround
 for
-'
-                             
-'
+"
+"
 https
 :
 /
@@ -4089,22 +4122,24 @@ issues
 /
 74657
 .
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 host
-'
-                        
+"
+        
 help
 =
-'
+"
 Host
 platform
 for
@@ -4112,9 +4147,9 @@ the
 toolchain
 executable
 :
-'
-                             
-'
+"
+        
+"
 e
 .
 g
@@ -4127,52 +4162,57 @@ linux
 -
 android
 .
-'
-                             
-'
+"
+        
+"
 Defaults
 to
 linux64
 .
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 target
-'
+"
+        
 dest
 =
-'
+"
 targets
-'
+"
+        
 action
 =
-'
+"
 append
-'
+"
+        
 default
 =
 [
 ]
-                        
+        
 help
 =
-'
+"
 Additional
 target
 platform
 to
 support
 :
-'
-                             
-'
+"
+        
+"
 e
 .
 g
@@ -4187,9 +4227,9 @@ windows
 -
 gnu
 .
-'
-                             
-'
+"
+        
+"
 can
 be
 given
@@ -4197,7 +4237,8 @@ more
 than
 once
 .
-'
+"
+    
 )
     
 args
@@ -4248,9 +4289,9 @@ args
 .
 host
 =
-'
+"
 linux64
-'
+"
     
 args
 .
@@ -4286,9 +4327,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 args

@@ -417,10 +417,10 @@ urlparse
 .
 urljoin
 (
+            
 self
 .
 url_base
-                                
 "
 /
 "
@@ -440,6 +440,7 @@ path
 sep
 )
 )
+        
 )
 class
 DirectoryManifest
@@ -828,19 +829,21 @@ f
 return
 compile
 (
+                
 f
-                           
+                
 data_cls_getter
 =
 data_cls_getter
-                           
+                
 test_path
 =
 test_path
-                           
+                
 url_base
 =
 url_base
+            
 )
     
 except
@@ -969,13 +972,10 @@ base
 compile
 (
 Compiler
-                        
 stream
-                        
 data_cls_getter
 =
 data_cls_getter
-                        
 *
 *
 kwargs
@@ -1020,6 +1020,7 @@ parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -1036,13 +1037,13 @@ wpt
 -
 metadata
 "
-                        
 "
 checkout
 to
 update
 .
 "
+    
 )
     
 return
@@ -1537,9 +1538,7 @@ name
 add_metadata
 (
 target
-                         
 key
-                         
 subtest_metadata
 )
             
@@ -1563,30 +1562,35 @@ pop
 simple_props
 =
 [
+    
 "
 disabled
 "
+    
 "
 min
 -
 asserts
 "
+    
 "
 max
 -
 asserts
 "
+    
 "
 lsan
 -
 allowed
 "
-                
+    
 "
 leak
 -
 allowed
 "
+    
 "
 bug
 "
@@ -1804,6 +1808,7 @@ status
 ]
 =
 [
+                    
 serialize
 (
 item
@@ -1812,7 +1817,6 @@ if
 item
 else
 None
-                                                  
 for
 item
 in
@@ -1820,6 +1824,7 @@ by_status
 [
 status
 ]
+                
 ]
         
 if
@@ -1834,6 +1839,7 @@ intermittent
 ]
 =
 [
+                
 [
 serialize
 (
@@ -1845,12 +1851,13 @@ else
 None
 intermittent_statuses
 ]
-                                      
+                
 for
 cond
 intermittent_statuses
 in
 intermittent
+            
 ]
 def
 get_condition_value_list
@@ -2146,12 +2153,14 @@ iteritems
                     
 add_test_data
 (
+                        
 logger
 wpt_meta
 dir_path
 test
 subtest
 subtest_data
+                    
 )
 def
 add_test_data
@@ -2295,15 +2304,12 @@ meta
 set
 (
 test
-                             
 subtest
-                             
 product
 =
 "
 firefox
 "
-                             
 bug_url
 =
 bug_link
@@ -2854,6 +2860,7 @@ None
 target_link
 =
 {
+                
 "
 product
 "
@@ -2866,7 +2873,7 @@ encode
 utf8
 "
 )
-                           
+                
 "
 url
 "
@@ -2879,13 +2886,14 @@ encode
 utf8
 "
 )
-                           
+                
 "
 results
 "
 :
 [
 ]
+            
 }
             
 self
@@ -2925,6 +2933,7 @@ has_result
 =
 any
 (
+            
 (
 result
 [
@@ -2948,7 +2957,7 @@ subtest
 =
 subtest
 )
-                         
+            
 for
 result
 in
@@ -2958,6 +2967,7 @@ target_link
 results
 "
 ]
+        
 )
         
 if
@@ -3081,11 +3091,9 @@ self
 .
 data
 f
-                           
 default_flow_style
 =
 False
-                           
 allow_unicode
 =
 True

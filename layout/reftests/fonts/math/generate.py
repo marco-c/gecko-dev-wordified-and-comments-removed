@@ -397,7 +397,6 @@ p
 closePath
 (
 )
-;
 def
 createLLTriangleGlyph
 (
@@ -452,7 +451,6 @@ p
 closePath
 (
 )
-;
 def
 createURTriangleGlyph
 (
@@ -507,7 +505,6 @@ p
 closePath
 (
 )
-;
 def
 createDiamondGlyph
 (
@@ -578,7 +575,6 @@ p
 closePath
 (
 )
-;
 f
 =
 newMathFont
@@ -747,7 +743,6 @@ p
 closePath
 (
 )
-;
     
 g
 .
@@ -819,7 +814,6 @@ p
 closePath
 (
 )
-;
 g
 .
 width
@@ -883,7 +877,6 @@ p
 closePath
 (
 )
-;
 g
 .
 width
@@ -966,7 +959,6 @@ p
 closePath
 (
 )
-;
 g
 .
 width
@@ -1030,7 +1022,6 @@ p
 closePath
 (
 )
-;
 g
 .
 width
@@ -1096,7 +1087,6 @@ p
 closePath
 (
 )
-;
 g
 .
 width
@@ -1171,7 +1161,6 @@ p
 closePath
 (
 )
-;
 g
 .
 width
@@ -1372,7 +1361,6 @@ p
 closePath
 (
 )
-;
     
 g
 .
@@ -1415,6 +1403,7 @@ hstretchy
 horizontalComponents
 =
 (
+    
 (
 "
 left
@@ -1424,7 +1413,7 @@ False
 0
 s
 )
-\
+    
 (
 "
 h2
@@ -1434,6 +1423,7 @@ True
 0
 s
 )
+    
 (
 "
 hmid
@@ -1445,6 +1435,7 @@ False
 *
 s
 )
+    
 (
 "
 h2
@@ -1454,7 +1445,7 @@ True
 0
 s
 )
-\
+    
 (
 "
 right
@@ -1567,6 +1558,7 @@ vstretchy
 verticalComponents
 =
 (
+    
 (
 "
 bottom
@@ -1576,7 +1568,7 @@ False
 0
 s
 )
-\
+    
 (
 "
 v2
@@ -1586,6 +1578,7 @@ True
 0
 s
 )
+    
 (
 "
 vmid
@@ -1597,6 +1590,7 @@ False
 *
 s
 )
+    
 (
 "
 v2
@@ -1606,7 +1600,7 @@ True
 0
 s
 )
-\
+    
 (
 "
 top
@@ -1815,7 +1809,6 @@ p
 closePath
 (
 )
-;
     
 g
 .

@@ -164,9 +164,11 @@ self
 .
 assertEqual
 (
+            
 "
 test
 "
+            
 self
 .
 marionette
@@ -187,6 +189,7 @@ value
 input
 ]
 )
+        
 )
         
 input
@@ -199,6 +202,7 @@ self
 .
 assertEqual
 (
+            
 "
 "
 self
@@ -221,4 +225,5 @@ value
 input
 ]
 )
+        
 )

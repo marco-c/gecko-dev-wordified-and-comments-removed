@@ -47,34 +47,34 @@ data
 =
 {
     
-'
+"
 migration
-'
+"
 :
-'
+"
 python
 /
 l10n
 /
 fluent_migrations
-'
+"
     
-'
+"
 description
-'
+"
 :
-'
+"
 Migrate
 l10n
 strings
-'
+"
     
-'
+"
 prefix
-'
+"
 :
-'
-'
+"
+"
 }
 def
 parse_inputs
@@ -104,38 +104,37 @@ parser
 .
 add_argument
 (
-'
+"
 bug_id
-'
+"
 type
 =
 str
-                        
 help
 =
-'
+"
 Id
 number
 for
 bug
 tracking
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 xul
-'
+"
 type
 =
 str
-                        
 help
 =
-'
+"
 POSIX
 path
 from
@@ -148,23 +147,26 @@ XML
 to
 be
 updated
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 ftl
-'
+"
+        
 type
 =
 str
-                        
+        
 help
 =
-'
+"
 Case
 sensitive
 POSIX
@@ -177,23 +179,26 @@ to
 desired
 ftl
 file
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 mozilla_central
-'
+"
+        
 type
 =
 str
-                        
+        
 help
 =
-'
+"
 Case
 sensitive
 absolute
@@ -205,23 +210,26 @@ mozilla
 -
 central
 repo
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 dtd
-'
+"
+        
 type
 =
 str
-                        
+        
 help
 =
-'
+"
 comma
 delimited
 list
@@ -232,50 +240,50 @@ POSIX
 dtd
 file
 paths
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+"
 description
-'
+"
 type
 =
 str
-                        
 help
 =
-'
+"
 string
 enclosed
 in
 quotes
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 dry
 -
 run
-'
+"
 action
 =
-'
+"
 store_true
-'
-                        
+"
 help
 =
-'
+"
 Tell
 if
 running
@@ -283,25 +291,26 @@ dry
 run
 or
 not
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 prefix
-'
+"
 type
 =
 str
-                        
 help
 =
-'
+"
 a
 keyword
 string
@@ -312,7 +321,8 @@ to
 all
 l10n
 ids
-'
+"
+    
 )
     
 parsed_args
@@ -326,9 +336,9 @@ sys_args
     
 data
 [
-'
+"
 description
-'
+"
 ]
 =
 parsed_args
@@ -337,9 +347,9 @@ description
     
 data
 [
-'
+"
 bug_id
-'
+"
 ]
 =
 parsed_args
@@ -348,9 +358,9 @@ bug_id
     
 data
 [
-'
+"
 xul
-'
+"
 ]
 =
 parsed_args
@@ -359,9 +369,9 @@ xul
     
 data
 [
-'
+"
 ftl
-'
+"
 ]
 =
 parsed_args
@@ -370,11 +380,11 @@ ftl
     
 data
 [
-'
+"
 mozilla
 -
 central
-'
+"
 ]
 =
 parsed_args
@@ -383,9 +393,9 @@ mozilla_central
     
 data
 [
-'
+"
 dtd
-'
+"
 ]
 =
 parsed_args
@@ -394,17 +404,17 @@ dtd
 .
 split
 (
-'
-'
+"
+"
 )
     
 data
 [
-'
+"
 dry
 -
 run
-'
+"
 ]
 =
 parsed_args
@@ -413,9 +423,9 @@ dry_run
     
 data
 [
-'
+"
 prefix
-'
+"
 ]
 =
 parsed_args
@@ -424,9 +434,9 @@ prefix
     
 data
 [
-'
+"
 recipe
-'
+"
 ]
 =
 "
@@ -442,25 +452,25 @@ py
 .
 format
 (
+        
 data
 [
-'
+"
 bug_id
-'
+"
 ]
-                                           
 data
 [
-'
+"
 xul
-'
+"
 ]
 .
 split
 (
-'
+"
 /
-'
+"
 )
 [
 -
@@ -469,13 +479,14 @@ split
 .
 split
 (
-'
+"
 .
-'
+"
 )
 [
 0
 ]
+    
 )
     
 main
@@ -491,11 +502,11 @@ dry_run
 =
 data
 [
-'
+"
 dry
 -
 run
-'
+"
 ]
     
 dtds
@@ -504,23 +515,23 @@ get_dtds
 (
 data
 [
-'
+"
 dtd
-'
+"
 ]
 data
 [
-'
+"
 mozilla
 -
 central
-'
+"
 ]
 )
     
 print
 (
-'
+"
 =
 =
 =
@@ -538,7 +549,7 @@ DTDs
 =
 =
 =
-'
+"
 )
     
 print
@@ -563,23 +574,23 @@ read_file
 (
 data
 [
-'
+"
 xul
-'
+"
 ]
 data
 [
-'
+"
 mozilla
 -
 central
-'
+"
 ]
 )
     
 print
 (
-'
+"
 =
 =
 =
@@ -597,7 +608,7 @@ INPUT
 =
 =
 =
-'
+"
 )
     
 print
@@ -607,7 +618,7 @@ s
     
 print
 (
-'
+"
 =
 =
 =
@@ -625,7 +636,7 @@ OUTPUT
 =
 =
 =
-'
+"
 )
     
 (
@@ -638,9 +649,9 @@ collect_messages
 s
 data
 [
-'
+"
 prefix
-'
+"
 ]
 )
     
@@ -658,24 +669,24 @@ write_file
 (
 data
 [
-'
+"
 xul
-'
+"
 ]
 new_xul
 data
 [
-'
+"
 mozilla
 -
 central
-'
+"
 ]
 )
     
 print
 (
-'
+"
 =
 =
 =
@@ -693,7 +704,7 @@ L10N
 =
 =
 =
-'
+"
 )
     
 print
@@ -723,7 +734,7 @@ data
     
 print
 (
-'
+"
 =
 =
 =
@@ -741,7 +752,7 @@ MIGRATION
 =
 =
 =
-'
+"
 )
     
 print
@@ -763,15 +774,15 @@ format
 (
 data
 [
-'
+"
 migration
-'
+"
 ]
 data
 [
-'
+"
 recipe
-'
+"
 ]
 )
     
@@ -786,11 +797,11 @@ recipe_path
 migration
 data
 [
-'
+"
 mozilla
 -
 central
-'
+"
 ]
 )
     
@@ -805,7 +816,7 @@ data
     
 print
 (
-'
+"
 =
 =
 =
@@ -823,7 +834,7 @@ Fluent
 =
 =
 =
-'
+"
 )
     
 print
@@ -847,11 +858,12 @@ dry_run
         
 write_file
 (
+            
 data
 [
-'
+"
 ftl
-'
+"
 ]
 ftl
 .
@@ -865,23 +877,24 @@ utf
 )
 data
 [
-'
+"
 mozilla
 -
 central
-'
+"
 ]
 append
 =
 True
+        
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 parse_inputs

@@ -62,9 +62,14 @@ mozpath
 from
 mozversioncontrol
 import
+(
+    
 get_repository_object
+    
 MissingUpstreamRepo
+    
 InvalidRepoPath
+)
 from
 .
 errors
@@ -126,6 +131,7 @@ logging
 .
 Formatter
 (
+    
 "
 %
 (
@@ -157,7 +163,6 @@ message
 )
 s
 "
-                              
 "
 %
 H
@@ -198,9 +203,9 @@ logging
 .
 LoggerAdapter
 (
+        
 logger
 {
-        
 "
 lintname
 "
@@ -213,7 +218,6 @@ get
 name
 "
 )
-        
 "
 pid
 "
@@ -223,15 +227,15 @@ os
 getpid
 (
 )
-    
 }
+    
 )
     
 lintargs
 [
-'
+"
 log
-'
+"
 ]
 =
 log
@@ -242,9 +246,9 @@ ResultSummary
 (
 lintargs
 [
-'
+"
 root
-'
+"
 ]
 )
     
@@ -262,31 +266,31 @@ environ
 .
 get
 (
-'
+"
 CODE_REVIEW
-'
+"
 )
 =
 =
-'
+"
 1
-'
+"
 and
 config
 .
 get
 (
-'
+"
 code_review_warnings
-'
+"
 )
 :
         
 lintargs
 [
-'
+"
 show_warnings
-'
+"
 ]
 =
 True
@@ -297,9 +301,9 @@ supported_types
 [
 config
 [
-'
+"
 type
-'
+"
 ]
 ]
     
@@ -418,9 +422,9 @@ add
 (
 config
 [
-'
+"
 name
-'
+"
 ]
 )
     
@@ -439,9 +443,9 @@ lintargs
 .
 get
 (
-'
+"
 show_warnings
-'
+"
 )
 and
 r
@@ -449,9 +453,9 @@ r
 level
 =
 =
-'
+"
 warning
-'
+"
 :
                 
 result
@@ -553,9 +557,9 @@ kwargs
         
 kwargs
 [
-'
+"
 ctx
-'
+"
 ]
 =
 get_context
@@ -790,7 +794,11 @@ s
     
 MAX_PATHS_PER_JOB
 =
+(
+        
 50
+    
+)
     
 def
 __init__
@@ -854,9 +862,9 @@ self
 .
 lintargs
 [
-'
+"
 root
-'
+"
 ]
 =
 root
@@ -890,9 +898,9 @@ lintargs
 .
 get
 (
-'
+"
 show_verbose
-'
+"
 )
 :
             
@@ -999,9 +1007,9 @@ linter
 .
 setdefault
 (
-'
+"
 exclude
-'
+"
 [
 ]
 )
@@ -1060,9 +1068,9 @@ linters
 :
             
 if
-'
+"
 setup
-'
+"
 not
 in
 linter
@@ -1086,16 +1094,16 @@ lintargs
                 
 setupargs
 [
-'
+"
 name
-'
+"
 ]
 =
 linter
 [
-'
+"
 name
-'
+"
 ]
                 
 res
@@ -1104,9 +1112,9 @@ findobject
 (
 linter
 [
-'
+"
 setup
-'
+"
 ]
 )
 (
@@ -1143,9 +1151,9 @@ add
 (
 linter
 [
-'
+"
 name
-'
+"
 ]
 )
         
@@ -1159,6 +1167,7 @@ failed_setup
             
 print
 (
+                
 "
 error
 :
@@ -1174,8 +1183,8 @@ skipping
 format
 (
                     
-'
-'
+"
+"
 .
 join
 (
@@ -1188,7 +1197,9 @@ result
 failed_setup
 )
 )
+                
 )
+            
 )
             
 self
@@ -1196,6 +1207,7 @@ self
 linters
 =
 [
+                
 l
 for
 l
@@ -1206,9 +1218,9 @@ linters
 if
 l
 [
-'
+"
 name
-'
+"
 ]
 not
 in
@@ -1217,6 +1229,7 @@ self
 result
 .
 failed_setup
+            
 ]
             
 return
@@ -1305,6 +1318,7 @@ linters
 if
 any
 (
+                
 os
 .
 path
@@ -1321,7 +1335,7 @@ match
 p
 pattern
 )
-                    
+                
 for
 pattern
 in
@@ -1329,18 +1343,20 @@ linter
 .
 get
 (
-'
+"
 support
 -
 files
-'
+"
 [
 ]
 )
+                
 for
 p
 in
 vcs_paths
+            
 )
 :
                 
@@ -1352,6 +1368,7 @@ __get_current_paths
                 
 print
 (
+                    
 "
 warning
 :
@@ -1365,7 +1382,7 @@ linting
 entire
 tree
 "
-                      
+                    
 "
 (
 press
@@ -1381,11 +1398,12 @@ format
 (
 linter
 [
-'
+"
 name
-'
+"
 ]
 )
+                
 )
             
 else
@@ -1418,6 +1436,8 @@ getcwd
             
 chunk_size
 =
+(
+                
 min
 (
 self
@@ -1439,18 +1459,20 @@ num_procs
 or
 1
             
+)
+            
 if
 linter
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 global
-'
+"
 :
                 
 chunk_size
@@ -1525,7 +1547,6 @@ self
 paths
 =
 None
-             
 outgoing
 =
 None
@@ -1535,7 +1556,6 @@ None
 rev
 =
 None
-             
 num_procs
 =
 None
@@ -1716,6 +1736,7 @@ outgoing
             
 print
 (
+                
 "
 error
 :
@@ -1733,7 +1754,7 @@ can
 t
 use
 "
-                  
+                
 "
 -
 -
@@ -1750,11 +1771,12 @@ self
 .
 lintargs
 [
-'
+"
 root
-'
+"
 ]
 )
+            
 )
         
 vcs_paths
@@ -1780,9 +1802,9 @@ vcs
 .
 get_changed_files
 (
-'
+"
 AM
-'
+"
 mode
 =
 workdir
@@ -1803,9 +1825,9 @@ vcs
 .
 get_changed_files
 (
-'
+"
 AM
-'
+"
 rev
 =
 rev
@@ -1823,19 +1845,21 @@ vcs_paths
 .
 update
 (
+                        
 self
 .
 vcs
 .
 get_outgoing_files
 (
-'
+"
 AM
-'
+"
 upstream
 =
 outgoing
 )
+                    
 )
                 
 except
@@ -1844,6 +1868,7 @@ MissingUpstreamRepo
                     
 print
 (
+                        
 "
 warning
 :
@@ -1860,6 +1885,7 @@ for
 -
 outgoing
 "
+                    
 )
         
 except
@@ -1880,8 +1906,8 @@ running
 .
 format
 (
-'
-'
+"
+"
 .
 join
 (
@@ -1955,7 +1981,9 @@ vcs_paths
 =
 set
 (
+            
 [
+                
 os
 .
 path
@@ -1979,12 +2007,14 @@ p
 )
 else
 p
-                         
+                
 for
 p
 in
 vcs_paths
+            
 ]
+        
 )
         
 num_procs

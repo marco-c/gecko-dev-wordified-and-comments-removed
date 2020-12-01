@@ -87,6 +87,7 @@ self
 .
 assertNotEqual
 (
+            
 self
 .
 start_window
@@ -95,6 +96,7 @@ self
 marionette
 .
 current_chrome_window_handle
+        
 )
     
 def
@@ -131,6 +133,7 @@ self
 .
 assertIn
 (
+            
 "
 test
 .
@@ -149,6 +152,7 @@ navigation
 has
 failed
 "
+        
 )
         
 self
@@ -164,6 +168,7 @@ self
 .
 assertIn
 (
+            
 "
 test
 .
@@ -182,6 +187,7 @@ by
 index
 failed
 "
+        
 )
         
 self
@@ -210,6 +216,7 @@ self
 .
 assertIn
 (
+            
 "
 test
 .
@@ -228,6 +235,7 @@ by
 null
 failed
 "
+        
 )
         
 iframe
@@ -259,6 +267,7 @@ self
 .
 assertIn
 (
+            
 "
 test
 .
@@ -277,6 +286,7 @@ by
 element
 failed
 "
+        
 )
         
 self
@@ -304,6 +314,7 @@ self
 .
 assertIn
 (
+            
 "
 test
 .
@@ -322,6 +333,7 @@ navigation
 has
 failed
 "
+        
 )
         
 self

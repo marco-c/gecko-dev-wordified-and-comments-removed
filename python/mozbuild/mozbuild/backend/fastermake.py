@@ -205,10 +205,10 @@ target
 .
 endswith
 (
-'
+"
 .
 in
-'
+"
 )
 :
             
@@ -226,23 +226,23 @@ target
 .
 endswith
 (
-'
+"
 .
 css
-'
+"
 )
 :
             
 kwargs
 [
-'
+"
 marker
-'
+"
 ]
 =
-'
+"
 %
-'
+"
         
 depfile
 =
@@ -256,13 +256,15 @@ self
 environment
 .
 topobjdir
-'
+            
+"
 faster
-'
-'
+"
+            
+"
 .
 deps
-'
+"
             
 mozpath
 .
@@ -277,13 +279,14 @@ target
 .
 replace
 (
-'
+"
 /
-'
-'
+"
+"
 _
-'
+"
 )
+        
 )
         
 self
@@ -321,6 +324,7 @@ depfile
 *
 *
 kwargs
+        
 )
     
 def
@@ -338,19 +342,17 @@ obj
 JARManifest
 )
 and
-\
-                
 obj
 .
 install_target
 .
 startswith
 (
-'
+"
 dist
 /
 bin
-'
+"
 )
 :
             
@@ -364,27 +366,26 @@ obj
 elif
 isinstance
 (
+            
 obj
 (
 FinalTargetFiles
-                              
 FinalTargetPreprocessedFiles
 )
+        
 )
 and
-\
-                
 obj
 .
 install_target
 .
 startswith
 (
-'
+"
 dist
 /
 bin
-'
+"
 )
 :
             
@@ -396,9 +397,9 @@ environment
 .
 substs
 [
-'
+"
 MOZ_UI_LOCALE
-'
+"
 ]
 [
 0
@@ -454,7 +455,6 @@ files
 :
                     
 if
-(
 localized
 and
 not
@@ -467,12 +467,11 @@ and
 ab_cd
 !
 =
-'
+"
 en
 -
 US
-'
-)
+"
 :
                         
 src
@@ -489,21 +488,21 @@ f
                         
 dep_target
 =
-'
+"
 install
 -
 %
 s
-'
+"
 %
 obj
 .
 install_target
                         
 if
-'
+"
 *
-'
+"
 not
 in
 src
@@ -515,24 +514,30 @@ mozpath
 .
 abspath
 (
+                                
 mozpath
 .
 join
 (
+                                    
 self
 .
 environment
 .
 topobjdir
-                                                                 
-'
+                                    
+"
 l10n_merge
-'
+"
+                                    
 obj
 .
 relsrcdir
+                                    
 f
+                                
 )
+                            
 )
                             
 self
@@ -544,6 +549,7 @@ dep_target
 .
 append
 (
+                                
 (
 merge
 f
@@ -551,6 +557,7 @@ f
 full_path
 src
 )
+                            
 )
                             
 src
@@ -578,25 +585,25 @@ self
 .
 _add_preprocess
 (
+                            
 obj
 src
 path
-                                             
 target
 =
 f
 .
 target_basename
-                                             
 defines
 =
 defines
+                        
 )
                     
 elif
-'
+"
 *
-'
+"
 in
 f
 :
@@ -620,9 +627,9 @@ s
 :
                                 
 if
-'
+"
 *
-'
+"
 not
 in
 p
@@ -631,14 +638,14 @@ p
 yield
 p
 +
-'
+"
 /
-'
+"
                         
 prefix
 =
-'
-'
+"
+"
 .
 join
 (
@@ -649,9 +656,9 @@ src
 )
                         
 if
-'
+"
 *
-'
+"
 in
 f
 .
@@ -685,14 +692,11 @@ obj
 .
 install_target
 ]
-\
-                            
 .
 add_pattern_link
 (
-                                
+                            
 prefix
-                                
 src
 [
 len
@@ -701,8 +705,8 @@ prefix
 )
 :
 ]
-                                
 target
+                        
 )
                     
 else
@@ -721,7 +725,6 @@ add_link
 (
                             
 src
-                            
 mozpath
 .
 join
@@ -744,12 +747,12 @@ ObjDirPath
                         
 dep_target
 =
-'
+"
 install
 -
 %
 s
-'
+"
 %
 obj
 .
@@ -807,19 +810,19 @@ obj
 ChromeManifestEntry
 )
 and
-\
-                
 obj
 .
 install_target
 .
 startswith
 (
-'
+            
+"
 dist
 /
 bin
-'
+"
+        
 )
 :
             
@@ -832,11 +835,11 @@ join
 obj
 .
 install_target
-'
+"
 chrome
 .
 manifest
-'
+"
 )
             
 if
@@ -850,11 +853,11 @@ top_level
                 
 entry
 =
-'
+"
 manifest
 %
 s
-'
+"
 %
 mozpath
 .
@@ -863,7 +866,6 @@ relpath
 obj
 .
 path
-                                                        
 obj
 .
 install_target
@@ -920,11 +922,11 @@ mozpath
 .
 relpath
 (
+                    
 mozpath
 .
 join
 (
-                    
 obj
 .
 objdir
@@ -940,6 +942,7 @@ self
 environment
 .
 topobjdir
+                
 )
                 
 for
@@ -970,11 +973,11 @@ self
 .
 _generated_files_map
 [
+                        
 mozpath
 .
 relpath
 (
-                        
 fullpath
 self
 .
@@ -982,6 +985,7 @@ environment
 .
 topobjdir
 )
+                    
 ]
 =
 first_output
@@ -1042,9 +1046,9 @@ mk
 create_rule
 (
 [
-'
+"
 default
-'
+"
 ]
 )
         
@@ -1052,12 +1056,12 @@ mk
 .
 add_statement
 (
-'
+"
 TOPSRCDIR
 =
 %
 s
-'
+"
 %
 self
 .
@@ -1070,12 +1074,12 @@ mk
 .
 add_statement
 (
-'
+"
 TOPOBJDIR
 =
 %
 s
-'
+"
 %
 self
 .
@@ -1088,31 +1092,31 @@ mk
 .
 add_statement
 (
-'
+"
 MDDEPDIR
 =
 .
 deps
-'
+"
 )
         
 mk
 .
 add_statement
 (
-'
+"
 TOUCH
 ?
 =
 touch
-'
+"
 )
         
 mk
 .
 add_statement
 (
-'
+"
 include
 (
 TOPSRCDIR
@@ -1125,14 +1129,14 @@ makefiles
 functions
 .
 mk
-'
+"
 )
         
 mk
 .
 add_statement
 (
-'
+"
 include
 (
 TOPSRCDIR
@@ -1143,20 +1147,20 @@ config
 AB_rCD
 .
 mk
-'
+"
 )
         
 mk
 .
 add_statement
 (
-'
+"
 AB_CD
 =
 en
 -
 US
-'
+"
 )
         
 if
@@ -1170,11 +1174,11 @@ mk
 .
 add_statement
 (
-'
+"
 NO_XPIDL
 =
 1
-'
+"
 )
         
 for
@@ -1182,21 +1186,21 @@ var
 in
 (
             
-'
+"
 PYTHON3
-'
+"
             
-'
+"
 ACDEFINES
-'
+"
             
-'
+"
 MOZ_BUILD_APP
-'
+"
             
-'
+"
 MOZ_WIDGET_TOOLKIT
-'
+"
         
 )
 :
@@ -1225,13 +1229,13 @@ mk
 .
 add_statement
 (
-'
+"
 %
 s
 =
 %
 s
-'
+"
 %
 (
 var
@@ -1295,17 +1299,17 @@ install_target
 add_content
 (
                 
-'
-'
+"
+"
 .
 join
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 e
 for
@@ -1324,22 +1328,23 @@ relpath
 target
 install_target
 )
+            
 )
         
 mk
 .
 add_statement
 (
-'
+            
+"
 INSTALL_MANIFESTS
 =
 %
 s
-'
-                         
+"
 %
-'
-'
+"
+"
 .
 join
 (
@@ -1354,6 +1359,7 @@ keys
 )
 )
 )
+        
 )
         
 for
@@ -1385,14 +1391,14 @@ target
 add_dependencies
 (
                 
-'
+"
 (
 TOPOBJDIR
 )
 /
 %
 s
-'
+"
 %
 d
 for
@@ -1402,13 +1408,14 @@ sorted
 (
 deps
 )
+            
 )
         
 python_deps
 =
 [
             
-'
+"
 (
 TOPSRCDIR
 )
@@ -1424,9 +1431,9 @@ action
 l10n_merge
 .
 py
-'
+"
             
-'
+"
 (
 TOPSRCDIR
 )
@@ -1444,9 +1451,9 @@ compare_locales
 compare
 .
 py
-'
+"
             
-'
+"
 (
 TOPSRCDIR
 )
@@ -1464,7 +1471,7 @@ compare_locales
 paths
 .
 py
-'
+"
         
 ]
         
@@ -1497,10 +1504,10 @@ target
 add_dependencies
 (
                 
-'
+"
 %
 s
-'
+"
 %
 d
 [
@@ -1519,6 +1526,7 @@ itemgetter
 0
 )
 )
+            
 )
             
 for
@@ -1551,6 +1559,7 @@ l10n_file
 ]
 +
 python_deps
+                
 )
                 
 rule
@@ -1560,7 +1569,7 @@ add_commands
                     
 [
                         
-'
+"
 (
 PYTHON3
 )
@@ -1571,9 +1580,9 @@ mozbuild
 action
 .
 l10n_merge
-'
+"
                         
-'
+"
 -
 -
 output
@@ -1593,7 +1602,7 @@ l10n
 file
 {
 }
-'
+"
 .
 format
 (
@@ -1621,7 +1630,7 @@ mk
 .
 add_statement
 (
-'
+"
 include
 (
 TOPSRCDIR
@@ -1634,7 +1643,7 @@ faster
 rules
 .
 mk
-'
+"
 )
         
 for
@@ -1656,38 +1665,42 @@ self
 .
 _write_file
 (
-                    
+                
 mozpath
 .
 join
 (
+                    
 self
 .
 environment
 .
 topobjdir
-'
+                    
+"
 faster
-'
-                                 
-'
+"
+                    
+"
 install_
 %
 s
-'
+"
 %
 base
 .
 replace
 (
-'
+"
 /
-'
-'
+"
+"
 _
-'
+"
 )
+                
 )
+            
 )
 as
 fh
@@ -1735,11 +1748,11 @@ base
 .
 startswith
 (
-'
+"
 dist
 /
 bin
-'
+"
 )
                 
 base
@@ -1748,11 +1761,11 @@ base
 [
 len
 (
-'
+"
 dist
 /
 bin
-'
+"
 )
 :
 ]
@@ -1766,9 +1779,9 @@ base
 ]
 =
 =
-'
+"
 /
-'
+"
 :
                     
 base
@@ -1794,24 +1807,26 @@ self
 .
 _write_file
 (
-                    
+                
 mozpath
 .
 join
 (
+                    
 self
 .
 environment
 .
 topobjdir
-'
+"
 faster
-'
-                                 
-'
+"
+"
 unified_install_dist_bin
-'
+"
+                
 )
+            
 )
 as
 fh
@@ -1842,10 +1857,9 @@ self
 _format_statements_for_generated_file
 (
 obj
-                                                                   
-'
+"
 default
-'
+"
 )
 :
                 
@@ -1861,7 +1875,7 @@ self
 .
 _write_file
 (
-                
+            
 mozpath
 .
 join
@@ -1871,14 +1885,14 @@ self
 environment
 .
 topobjdir
-'
+"
 faster
-'
-                             
-'
+"
+"
 Makefile
-'
+"
 )
+        
 )
 as
 fh
@@ -1922,12 +1936,11 @@ mozpath
 join
 (
                 
-'
+"
 (
 TOPOBJDIR
 )
-'
-                
+"
 mozpath
 .
 relpath
@@ -1939,6 +1952,7 @@ environment
 .
 topobjdir
 )
+            
 )
         
 elif
@@ -1960,12 +1974,11 @@ mozpath
 join
 (
                 
-'
+"
 (
 TOPSRCDIR
 )
-'
-                
+"
 mozpath
 .
 relpath
@@ -1977,6 +1990,7 @@ environment
 .
 topsrcdir
 )
+            
 )
         
 else
@@ -2030,9 +2044,9 @@ ObjDirPath
 obj
 .
 _context
-'
+"
 !
-'
+"
 +
 path
 )

@@ -63,6 +63,7 @@ direction
 return
 inline
 (
+        
 "
 "
 "
@@ -152,8 +153,11 @@ div
 .
 format
 (
+            
 direction
+        
 )
+    
 )
 class
 TestVisibility
@@ -243,6 +247,7 @@ self
 .
 assertFalse
 (
+            
 self
 .
 marionette
@@ -252,7 +257,6 @@ find_element
 By
 .
 ID
-                                                      
 "
 suppressedParagraph
 "
@@ -261,6 +265,7 @@ suppressedParagraph
 is_displayed
 (
 )
+        
 )
         
 self
@@ -575,8 +580,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -638,7 +645,9 @@ div
 "
 "
 "
+            
 )
+        
 )
         
 element_x
@@ -652,9 +661,9 @@ find_element
 By
 .
 ID
-'
+"
 x
-'
+"
 )
         
 self
@@ -679,9 +688,9 @@ find_element
 By
 .
 ID
-'
+"
 y
-'
+"
 )
         
 self
@@ -708,8 +717,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -785,7 +796,9 @@ div
 "
 "
 "
+            
 )
+        
 )
         
 element_x
@@ -799,9 +812,9 @@ find_element
 By
 .
 ID
-'
+"
 x
-'
+"
 )
         
 self
@@ -826,9 +839,9 @@ find_element
 By
 .
 ID
-'
+"
 y
-'
+"
 )
         
 self
@@ -855,8 +868,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -886,7 +901,9 @@ div
 "
 "
 "
+            
 )
+        
 )
         
 element
@@ -900,9 +917,9 @@ find_element
 By
 .
 TAG_NAME
-'
+"
 div
-'
+"
 )
         
 self
@@ -929,8 +946,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -967,7 +986,9 @@ div
 "
 "
 "
+            
 )
+        
 )
         
 element
@@ -1068,8 +1089,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -1087,7 +1110,9 @@ p
 "
 "
 "
+            
 )
+        
 )
         
 singleHidden
@@ -1130,8 +1155,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -1158,7 +1185,9 @@ div
 "
 "
 "
+            
 )
+        
 )
         
 child
@@ -1220,10 +1249,10 @@ find_element
 By
 .
 CSS_SELECTOR
-'
+"
 .
 element
-'
+"
 )
 .
 click
@@ -1262,10 +1291,10 @@ find_element
 By
 .
 CSS_SELECTOR
-'
+"
 .
 element
-'
+"
 )
 .
 click
@@ -1304,10 +1333,10 @@ find_element
 By
 .
 CSS_SELECTOR
-'
+"
 .
 element
-'
+"
 )
 .
 click
@@ -1346,10 +1375,10 @@ find_element
 By
 .
 CSS_SELECTOR
-'
+"
 .
 element
-'
+"
 )
 .
 click

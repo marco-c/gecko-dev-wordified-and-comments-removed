@@ -17,6 +17,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -41,6 +42,7 @@ index
 "
 "
 "
+        
 )
         
 results
@@ -82,6 +84,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -106,6 +109,7 @@ index
 "
 "
 "
+        
 )
         
 results
@@ -147,6 +151,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -173,6 +178,7 @@ extraArg
 "
 "
 "
+        
 )
         
 results
@@ -214,6 +220,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -241,6 +248,7 @@ index
 "
 "
 "
+        
 )
         
 results
@@ -282,6 +290,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -307,6 +316,7 @@ index
 "
 "
 "
+        
 )
         
 results
@@ -348,6 +358,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -369,6 +380,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -410,6 +422,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -434,6 +447,7 @@ index
 "
 "
 "
+        
 )
         
 results
@@ -475,6 +489,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -501,6 +516,7 @@ extraArg
 "
 "
 "
+        
 )
         
 results
@@ -542,6 +558,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -569,6 +586,7 @@ index
 "
 "
 "
+        
 )
         
 results
@@ -610,6 +628,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -635,6 +654,7 @@ index
 "
 "
 "
+        
 )
         
 results
@@ -676,6 +696,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -697,6 +718,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -738,6 +760,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -765,6 +788,7 @@ value
 "
 "
 "
+        
 )
         
 results
@@ -806,6 +830,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -835,6 +860,7 @@ extraArg
 "
 "
 "
+        
 )
         
 results
@@ -876,6 +902,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -905,6 +932,7 @@ value
 "
 "
 "
+        
 )
         
 results
@@ -946,6 +974,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -973,6 +1002,7 @@ value
 "
 "
 "
+        
 )
         
 results
@@ -1014,6 +1044,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1035,6 +1066,7 @@ foo
 "
 "
 "
+        
 )
         
 results

@@ -18,6 +18,7 @@ path
 .
 abspath
 (
+    
 path
 .
 join
@@ -147,20 +148,22 @@ parse_histograms
 .
 Histogram
 (
-'
+            
+"
 USE_COUNTER2_TEST_HISTOGRAM
-'
-                                          
+"
+            
 histograms
 [
-'
+"
 USE_COUNTER2_TEST_HISTOGRAM
-'
+"
 ]
-                                          
+            
 strict_type_checks
 =
 True
+        
 )
         
 ParserError
@@ -273,20 +276,22 @@ parse_histograms
 .
 Histogram
 (
-'
+            
+"
 USE_COUNTER2_TEST_HISTOGRAM
-'
-                                          
+"
+            
 histograms
 [
-'
+"
 USE_COUNTER2_TEST_HISTOGRAM
-'
+"
 ]
-                                          
+            
 strict_type_checks
 =
 True
+        
 )
         
 ParserError
@@ -363,9 +368,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

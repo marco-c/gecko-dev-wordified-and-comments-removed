@@ -34,7 +34,7 @@ CONTENTS
 =
 {
     
-'
+"
 http
 :
 /
@@ -42,14 +42,14 @@ http
 server
 /
 foo
-'
+"
 :
 b
-'
+"
 foo
-'
+"
     
-'
+"
 http
 :
 /
@@ -57,16 +57,16 @@ http
 server
 /
 bar
-'
+"
 :
 b
-'
+"
 bar
-'
+"
 *
 400
     
-'
+"
 http
 :
 /
@@ -74,16 +74,16 @@ http
 server
 /
 qux
-'
+"
 :
 b
-'
+"
 qux
-'
+"
 *
 400
     
-'
+"
 http
 :
 /
@@ -91,16 +91,16 @@ http
 server
 /
 fuga
-'
+"
 :
 b
-'
+"
 fuga
-'
+"
 *
 300
     
-'
+"
 http
 :
 /
@@ -108,16 +108,16 @@ http
 server
 /
 hoge
-'
+"
 :
 b
-'
+"
 hoge
-'
+"
 *
 300
     
-'
+"
 http
 :
 /
@@ -125,12 +125,12 @@ http
 server
 /
 larger
-'
+"
 :
 b
-'
+"
 larger
-'
+"
 *
 3000
 }
@@ -166,12 +166,11 @@ self
         
 return
 {
-            
-'
+"
 Content
 -
 length
-'
+"
 :
 str
 (
@@ -182,7 +181,6 @@ self
 _content
 )
 )
-        
 }
     
 def
@@ -449,15 +447,14 @@ self
 .
 tmpdir
 )
-                
 if
 p
 !
 =
-'
+"
 .
 metadata_never_index
-'
+"
 ]
     
 def
@@ -492,7 +489,7 @@ cache
 .
 fetch
 (
-'
+"
 http
 :
 /
@@ -500,7 +497,7 @@ http
 server
 /
 foo
-'
+"
 )
         
 expected
@@ -534,7 +531,7 @@ cache
 .
 fetch
 (
-'
+"
 http
 :
 /
@@ -542,7 +539,7 @@ http
 server
 /
 bar
-'
+"
 )
         
 expected
@@ -583,7 +580,7 @@ cache
 .
 fetch
 (
-'
+"
 http
 :
 /
@@ -591,7 +588,7 @@ http
 server
 /
 qux
-'
+"
 )
         
 expected
@@ -632,7 +629,7 @@ cache
 .
 fetch
 (
-'
+"
 http
 :
 /
@@ -640,7 +637,7 @@ http
 server
 /
 fuga
-'
+"
 )
         
 expected
@@ -700,7 +697,7 @@ cache
 .
 fetch
 (
-'
+"
 http
 :
 /
@@ -708,7 +705,7 @@ http
 server
 /
 hoge
-'
+"
 )
         
 expected
@@ -776,7 +773,7 @@ cache
 .
 fetch
 (
-'
+"
 http
 :
 /
@@ -784,7 +781,7 @@ http
 server
 /
 qux
-'
+"
 )
         
 self
@@ -830,7 +827,7 @@ cache
 .
 fetch
 (
-'
+"
 http
 :
 /
@@ -838,7 +835,7 @@ http
 server
 /
 bar
-'
+"
 )
         
 expected
@@ -864,9 +861,9 @@ p
 in
 expected
 if
-'
+"
 fuga
-'
+"
 not
 in
 p
@@ -915,7 +912,7 @@ cache
 .
 fetch
 (
-'
+"
 http
 :
 /
@@ -923,7 +920,7 @@ http
 server
 /
 larger
-'
+"
 )
         
 expected
@@ -970,9 +967,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

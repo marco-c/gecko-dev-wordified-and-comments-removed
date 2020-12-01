@@ -225,7 +225,6 @@ as
 the
 option_class
 .
-    
 "
 "
 "
@@ -242,9 +241,9 @@ kwargs
         
 kwargs
 [
-'
+"
 option_class
-'
+"
 ]
 =
 ExtendOption
@@ -399,7 +398,6 @@ Option
 .
 take_action
 (
-                
 self
 action
 dest
@@ -915,6 +913,7 @@ configs
 def
 parse_config_file
 (
+    
 file_name
 quiet
 =
@@ -922,7 +921,6 @@ False
 search_path
 =
 None
-                      
 config_dict_name
 =
 "
@@ -943,7 +941,6 @@ return
 a
 dictionary
 .
-    
 "
 "
 "
@@ -978,9 +975,9 @@ search_path
 search_path
 =
 [
-'
+"
 .
-'
+"
 DEFAULT_CONFIG_PATH
 ]
         
@@ -1053,10 +1050,10 @@ file_name
 .
 endswith
 (
-'
+"
 .
 py
-'
+"
 )
 :
         
@@ -1075,12 +1072,9 @@ exec
             
 compile
 (
-                
 open
 (
-                    
 file_path
-                    
 "
 rb
 "
@@ -1089,17 +1083,16 @@ rb
 read
 (
 )
-                
 file_path
-                
-'
+"
 exec
-'
+"
 )
             
 global_dict
             
 local_dict
+        
 )
         
 config
@@ -1114,10 +1107,10 @@ file_name
 .
 endswith
 (
-'
+"
 .
 json
-'
+"
 )
 :
         
@@ -1183,9 +1176,10 @@ or
 py
 )
 "
-%
             
+%
 file_name
+        
 )
     
 return
@@ -1247,12 +1241,13 @@ quiting
 .
 .
 "
-%
                 
+%
 (
 url
 attempts
 )
+            
 )
             
 raise
@@ -1421,9 +1416,9 @@ f
 open
 (
 file_name
-'
+"
 w
-'
+"
 )
         
 f
@@ -1447,7 +1442,6 @@ e
         
 print
 (
-            
 "
 Error
 writing
@@ -1462,7 +1456,6 @@ s
 s
 "
 %
-            
 (
 file_name
 str
@@ -1494,7 +1487,6 @@ setting
 /
 getting
 .
-    
 "
 "
 "
@@ -1502,45 +1494,45 @@ getting
 def
 __init__
 (
-            
+        
 self
-            
+        
 config
 =
 None
-            
+        
 initial_config_file
 =
 None
-            
+        
 config_options
 =
 None
-            
+        
 all_actions
 =
 None
-            
+        
 default_actions
 =
 None
-            
+        
 volatile_config
 =
 None
-            
+        
 option_args
 =
 None
-            
+        
 require_config_file
 =
 False
-            
+        
 append_env_variables_from_configs
 =
 False
-            
+        
 usage
 =
 "
@@ -1552,6 +1544,7 @@ prog
 options
 ]
 "
+    
 )
 :
         
@@ -1615,12 +1608,12 @@ self
 all_actions
 =
 [
-'
+"
 clobber
-'
-'
+"
+"
 build
-'
+"
 ]
         
 if
@@ -1662,21 +1655,21 @@ volatile_config
 =
 {
                 
-'
+"
 actions
-'
+"
 :
 None
                 
-'
+"
 add_actions
-'
+"
 :
 None
                 
-'
+"
 no_actions
-'
+"
 :
 None
             
@@ -1722,12 +1715,10 @@ all_cfg_files_and_dicts
 .
 append
 (
-                
 (
 initial_config_file
 initial_config
 )
-            
 )
             
 self
@@ -1747,11 +1738,12 @@ option_args
 =
 [
                     
-'
+"
 dummy_mozharness_script_with_no_command_line_options
 .
 py
-'
+"
+                
 ]
         
 if
@@ -1831,11 +1823,13 @@ work
 -
 dir
 "
+            
 action
 =
 "
 store
 "
+            
 dest
 =
 "
@@ -1847,6 +1841,7 @@ type
 "
 string
 "
+            
 default
 =
 "
@@ -1926,6 +1921,7 @@ the
 working
 directory
 "
+        
 )
         
 self
@@ -1947,9 +1943,9 @@ path
             
 action
 =
-'
+"
 extend
-'
+"
             
 dest
 =
@@ -1990,6 +1986,7 @@ add_option
 -
 c
 "
+            
 "
 -
 -
@@ -1997,11 +1994,13 @@ config
 -
 file
 "
+            
 "
 -
 -
 cfg
 "
+            
 action
 =
 "
@@ -2013,10 +2012,12 @@ dest
 "
 config_files
 "
+            
 default
 =
 [
 ]
+            
 type
 =
 "
@@ -2122,6 +2123,7 @@ can
 be
 repeated
 "
+        
 )
         
 self
@@ -2138,6 +2140,7 @@ dump
 -
 config
 "
+            
 action
 =
 "
@@ -2164,7 +2167,6 @@ this
 run
 to
 "
-                 
 "
 a
 JSON
@@ -2190,6 +2192,7 @@ config
 -
 hierarchy
 "
+            
 action
 =
 "
@@ -2219,7 +2222,7 @@ dump
 which
 config
 "
-                 
+            
 "
 files
 were
@@ -2233,7 +2236,7 @@ specify
 their
 own
 "
-                 
+            
 "
 keys
 /
@@ -2248,7 +2251,7 @@ cfg
 -
 -
 "
-                 
+            
 "
 held
 the
@@ -2279,6 +2282,7 @@ from
 -
 configs
 "
+            
 action
 =
 "
@@ -2329,6 +2333,7 @@ log
 -
 level
 "
+            
 action
 =
 "
@@ -2340,11 +2345,13 @@ type
 "
 choice
 "
+            
 dest
 =
 "
 log_level
 "
+            
 default
 =
 INFO
@@ -2392,16 +2399,19 @@ add_option
 -
 q
 "
+            
 "
 -
 -
 quiet
 "
+            
 action
 =
 "
 store_false
 "
+            
 dest
 =
 "
@@ -2411,6 +2421,7 @@ log_to_console
 default
 =
 True
+            
 help
 =
 "
@@ -2439,6 +2450,7 @@ to
 -
 log
 "
+            
 action
 =
 "
@@ -2450,6 +2462,7 @@ dest
 "
 append_to_log
 "
+            
 default
 =
 False
@@ -2477,11 +2490,13 @@ multi
 -
 log
 "
+            
 action
 =
 "
 store_const
 "
+            
 const
 =
 "
@@ -2493,6 +2508,7 @@ dest
 "
 log_type
 "
+            
 help
 =
 "
@@ -2515,11 +2531,13 @@ simple
 -
 log
 "
+            
 action
 =
 "
 store_const
 "
+            
 const
 =
 "
@@ -2531,6 +2549,7 @@ dest
 "
 log_type
 "
+            
 help
 =
 "
@@ -2558,6 +2577,7 @@ OptionGroup
 self
 .
 config_parser
+            
 "
 Actions
 "
@@ -2590,6 +2610,7 @@ list
 -
 actions
 "
+            
 action
 =
 "
@@ -2627,6 +2648,7 @@ add
 -
 action
 "
+            
 action
 =
 "
@@ -2638,6 +2660,7 @@ dest
 "
 add_actions
 "
+            
 metavar
 =
 "
@@ -2676,6 +2699,7 @@ no
 -
 action
 "
+            
 action
 =
 "
@@ -2687,6 +2711,7 @@ dest
 "
 no_actions
 "
+            
 metavar
 =
 "
@@ -2726,6 +2751,7 @@ s
 "
 %
 action
+                
 action
 =
 "
@@ -2737,6 +2763,7 @@ dest
 "
 actions
 "
+                
 const
 =
 action
@@ -2774,6 +2801,7 @@ s
 "
 %
 action
+                
 action
 =
 "
@@ -2785,6 +2813,7 @@ dest
 "
 no_actions
 "
+                
 const
 =
 action
@@ -2854,9 +2883,9 @@ _config
 .
 get
 (
-'
+"
 config_options
-'
+"
 None
 )
         
@@ -3006,7 +3035,6 @@ s
 %
 (
 action
-                                                            
 self
 .
 all_actions
@@ -3085,6 +3113,7 @@ i
                     
 print
 (
+                        
 (
 "
 Action
@@ -3101,7 +3130,6 @@ s
 n
 "
 +
-                           
 "
 than
 in
@@ -3109,8 +3137,8 @@ in
 s
 "
 )
+                        
 %
-                          
 (
 action_list
 [
@@ -3121,6 +3149,7 @@ self
 .
 all_actions
 )
+                    
 )
                     
 raise
@@ -3383,9 +3412,9 @@ options
 config_paths
 or
 [
-'
+"
 .
-'
+"
 ]
         
 all_cfg_files_and_dicts
@@ -3403,11 +3432,11 @@ try
 :
                 
 if
-'
+"
 :
 /
 /
-'
+"
 in
 cf
 :
@@ -3476,12 +3505,13 @@ append
 (
                         
 (
+                            
 cf
+                            
 parse_config_file
 (
-                            
+                                
 cf
-                            
 search_path
 =
 config_paths
@@ -3489,8 +3519,9 @@ config_paths
 [
 DEFAULT_CONFIG_PATH
 ]
-                        
+                            
 )
+                        
 )
                     
 )
@@ -3509,7 +3540,6 @@ opt_config_files
                     
 print
 (
-                        
 "
 WARNING
 :
@@ -3523,7 +3553,6 @@ s
 "
 %
 cf
-                    
 )
                 
 else
@@ -3532,9 +3561,9 @@ else
 raise
         
 if
-'
+"
 EXTRA_MOZHARNESS_CONFIG
-'
+"
 in
 os
 .
@@ -3551,9 +3580,9 @@ os
 .
 environ
 [
-'
+"
 EXTRA_MOZHARNESS_CONFIG
-'
+"
 ]
 )
             
@@ -3561,7 +3590,6 @@ all_cfg_files_and_dicts
 .
 append
 (
-                
 (
 "
 [
@@ -3624,8 +3652,8 @@ self
 .
 command_line
 =
-'
-'
+"
+"
 .
 join
 (
@@ -3735,11 +3763,12 @@ all_cfg_files_and_dicts
 .
 extend
 (
+            
 self
 .
 get_cfgs_from_files
 (
-            
+                
 options
 .
 config_files
@@ -3747,11 +3776,13 @@ config_files
 options
 .
 opt_config_files
+                
 options
 =
 options
-        
+            
 )
+        
 )
         
 config
@@ -3761,14 +3792,16 @@ config
         
 if
 (
+            
 self
 .
 append_env_variables_from_configs
-                
+            
 or
 options
 .
 append_env_variables_from_configs
+        
 )
 :
             
@@ -3804,9 +3837,9 @@ if
 v
 =
 =
-'
+"
 env
-'
+"
 and
 v
 in
@@ -3975,14 +4008,12 @@ key
 ]
                 
 del
-(
 self
 .
 _config
 [
 key
 ]
-)
         
 self
 .
@@ -4006,9 +4037,9 @@ self
 .
 _config
 [
-'
+"
 volatile_config
-'
+"
 ]
 =
 self
@@ -4189,9 +4220,9 @@ _config
 .
 get
 (
-'
+"
 default_actions
-'
+"
 )
 :
             
@@ -4201,14 +4232,13 @@ self
 .
 verify_actions
 (
-                
 self
 .
 _config
 [
-'
+"
 default_actions
-'
+"
 ]
 )
             
@@ -4243,9 +4273,9 @@ self
 .
 volatile_config
 [
-'
+"
 actions
-'
+"
 ]
 :
             
@@ -4259,9 +4289,9 @@ self
 .
 volatile_config
 [
-'
+"
 actions
-'
+"
 ]
 )
             
@@ -4276,9 +4306,9 @@ self
 .
 volatile_config
 [
-'
+"
 add_actions
-'
+"
 ]
 :
             
@@ -4292,9 +4322,9 @@ self
 .
 volatile_config
 [
-'
+"
 add_actions
-'
+"
 ]
 )
             
@@ -4312,9 +4342,9 @@ self
 .
 volatile_config
 [
-'
+"
 no_actions
-'
+"
 ]
 :
             
@@ -4328,9 +4358,9 @@ self
 .
 volatile_config
 [
-'
+"
 no_actions
-'
+"
 ]
 )
             
@@ -4360,9 +4390,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 pass

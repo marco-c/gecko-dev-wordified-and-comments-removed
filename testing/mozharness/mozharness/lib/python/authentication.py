@@ -135,9 +135,9 @@ with
 open
 (
 CREDENTIALS_PATH
-'
+"
 r
-'
+"
 )
 as
 file_handler
@@ -204,7 +204,6 @@ https_username
 =
 input_method
 (
-            
 "
 Please
 enter

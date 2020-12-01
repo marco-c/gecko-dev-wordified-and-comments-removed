@@ -18,7 +18,9 @@ import
 six
 TASK_DURATION_URL
 =
-'
+(
+    
+"
 https
 :
 /
@@ -38,10 +40,13 @@ data
 task_duration_history
 .
 json
-'
+"
+)
 GRAPH_QUANTILES_URL
 =
-'
+(
+    
+"
 https
 :
 /
@@ -61,7 +66,8 @@ data
 machtry_quantiles
 .
 csv
-'
+"
+)
 from
 .
 estimates
@@ -120,15 +126,16 @@ datetime
 .
 strptime
 (
+            
 duration_tags
 .
 get
 (
-'
+"
 download_date
-'
+"
 )
-'
+"
 %
 Y
 -
@@ -137,7 +144,8 @@ M
 -
 %
 d
-'
+"
+        
 )
         
 if
@@ -292,9 +300,11 @@ GRAPH_QUANTILE_CACHE
 if
 check_downloaded_history
 (
+        
 task_duration_tag_file
 task_duration_cache
 graph_quantile_cache
+    
 )
 :
         
@@ -369,6 +379,7 @@ exc
         
 print
 (
+            
 "
 Error
 fetching
@@ -385,9 +396,12 @@ from
 .
 format
 (
+                
 TASK_DURATION_URL
 exc
+            
 )
+        
 )
         
 return
@@ -427,16 +441,16 @@ duration_data
 {
 d
 [
-'
+"
 name
-'
+"
 ]
 :
 d
 [
-'
+"
 mean_duration_seconds
-'
+"
 ]
 for
 d
@@ -448,9 +462,9 @@ with
 open
 (
 task_duration_cache
-'
+"
 w
-'
+"
 )
 as
 f
@@ -494,6 +508,7 @@ exc
         
 print
 (
+            
 "
 Error
 fetching
@@ -510,9 +525,12 @@ from
 .
 format
 (
+                
 GRAPH_QUANTILES_URL
 exc
+            
 )
+        
 )
         
 return
@@ -521,9 +539,9 @@ with
 open
 (
 graph_quantile_cache
-'
+"
 w
-'
+"
 )
 as
 f
@@ -547,9 +565,9 @@ with
 open
 (
 task_duration_tag_file
-'
+"
 w
-'
+"
 )
 as
 f
@@ -560,10 +578,9 @@ json
 dump
 (
 {
-            
-'
+"
 download_date
-'
+"
 :
 datetime
 .
@@ -573,7 +590,7 @@ now
 .
 strftime
 (
-'
+"
 %
 Y
 -
@@ -582,9 +599,8 @@ m
 -
 %
 d
-'
+"
 )
-            
 }
 f
 indent
@@ -718,9 +734,9 @@ list
 (
 defn
 [
-'
+"
 dependencies
-'
+"
 ]
 .
 values
@@ -749,9 +765,9 @@ with
 open
 (
 dep_cache
-'
+"
 w
-'
+"
 )
 as
 f

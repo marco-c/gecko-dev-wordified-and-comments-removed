@@ -35,6 +35,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -72,6 +73,7 @@ harness
 .
 ok
 (
+        
 "
 Multiple
 unresolvable
@@ -87,7 +89,7 @@ str
 (
 exception
 )
-               
+        
 "
 Should
 have
@@ -96,4 +98,5 @@ sane
 exception
 message
 "
+    
 )

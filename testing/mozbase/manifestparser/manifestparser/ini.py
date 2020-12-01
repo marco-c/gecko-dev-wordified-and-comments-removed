@@ -15,12 +15,12 @@ string_types
 __all__
 =
 [
-'
+"
 read_ini
-'
-'
+"
+"
 combine_fields
-'
+"
 ]
 class
 IniParseError
@@ -55,9 +55,9 @@ elif
 hasattr
 (
 fp
-'
+"
 name
-'
+"
 )
 :
             
@@ -75,12 +75,12 @@ path
 getattr
 (
 fp
-'
+"
 path
-'
-'
+"
+"
 unknown
-'
+"
 )
         
 msg
@@ -122,25 +122,31 @@ msg
 def
 read_ini
 (
+    
 fp
+    
 defaults
 =
 None
+    
 default
 =
-'
+"
 DEFAULT
-'
+"
+    
 comments
 =
 None
-             
+    
 separators
 =
 None
+    
 strict
 =
 True
+    
 handle_defaults
 =
 True
@@ -266,9 +272,9 @@ comments
 comments
 or
 (
-'
+"
 #
-'
+"
 )
     
 separators
@@ -276,12 +282,12 @@ separators
 separators
 or
 (
-'
+"
 =
-'
-'
+"
+"
 :
-'
+"
 )
     
 sections
@@ -318,11 +324,11 @@ open
 fp
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
     
 for
@@ -533,9 +539,9 @@ stripped
 ]
 =
 =
-'
+"
 [
-'
+"
 and
 stripped
 [
@@ -544,9 +550,9 @@ stripped
 ]
 =
 =
-'
+"
 ]
-'
+"
 :
             
 section
@@ -614,10 +620,14 @@ strict
 :
                 
 assert
+(
+                    
 section
 not
 in
 section_names
+                
+)
 "
 Section
 '
@@ -634,7 +644,6 @@ s
 "
 %
 (
-                    
 section
 section_names
 )
@@ -671,8 +680,11 @@ section_names
 raise
 IniParseError
 (
+                
 fp
+                
 linenum
+                
 "
 Expected
 a
@@ -680,7 +692,6 @@ comment
 or
 section
 "
-                                             
 "
 instead
 found
@@ -694,6 +705,7 @@ format
 (
 stripped
 )
+            
 )
         
 line_indent
@@ -709,8 +721,8 @@ line
 .
 lstrip
 (
-'
-'
+"
+"
 )
 )
         
@@ -724,14 +736,14 @@ key_indent
             
 value
 =
-'
+"
 %
 s
 %
 s
 %
 s
-'
+"
 %
 (
 value
@@ -945,24 +957,24 @@ field_patterns
 =
 {
         
-'
+"
 prefs
-'
+"
 :
-'
+"
 %
 s
 %
 s
-'
+"
         
-'
+"
 skip
 -
 if
-'
+"
 :
-'
+"
 (
 %
 s
@@ -973,20 +985,20 @@ s
 %
 s
 )
-'
+"
         
-'
+"
 support
 -
 files
-'
+"
 :
-'
+"
 %
 s
 %
 s
-'
+"
     
 }
     

@@ -12,6 +12,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -98,6 +99,7 @@ name
 "
 "
 "
+    
 )
     
 results
@@ -111,29 +113,37 @@ finish
 def
 checkMethod
 (
+        
 method
+        
 QName
+        
 name
-                    
+        
 static
 =
 False
+        
 getter
 =
 False
+        
 setter
 =
 False
-                    
+        
 deleter
 =
 False
+        
 legacycaller
 =
 False
+        
 stringifier
 =
 False
+    
 )
 :
         
@@ -148,7 +158,6 @@ WebIDL
 .
 IDLMethod
 )
-                   
 "
 Should
 be
@@ -261,6 +270,7 @@ harness
 .
 check
 (
+            
 method
 .
 isDeleter
@@ -275,18 +285,22 @@ correct
 deleter
 value
 "
+        
 )
         
 harness
 .
 check
 (
+            
 method
 .
 isLegacycaller
 (
 )
+            
 legacycaller
+            
 "
 Method
 has
@@ -295,18 +309,22 @@ correct
 legacycaller
 value
 "
+        
 )
         
 harness
 .
 check
 (
+            
 method
 .
 isStringifier
 (
 )
+            
 stringifier
+            
 "
 Method
 has
@@ -315,6 +333,7 @@ correct
 stringifier
 value
 "
+        
 )
     
 harness
@@ -360,12 +379,14 @@ members
     
 checkMethod
 (
+        
 iface
 .
 members
 [
 0
 ]
+        
 "
 :
 :
@@ -374,23 +395,27 @@ SpecialMethods
 :
 __indexedgetter
 "
+        
 "
 __indexedgetter
 "
-                
+        
 getter
 =
 True
+    
 )
     
 checkMethod
 (
+        
 iface
 .
 members
 [
 1
 ]
+        
 "
 :
 :
@@ -399,23 +424,27 @@ SpecialMethods
 :
 __indexedsetter
 "
+        
 "
 __indexedsetter
 "
-                
+        
 setter
 =
 True
+    
 )
     
 checkMethod
 (
+        
 iface
 .
 members
 [
 2
 ]
+        
 "
 :
 :
@@ -424,23 +453,27 @@ SpecialMethods
 :
 __namedgetter
 "
+        
 "
 __namedgetter
 "
-                
+        
 getter
 =
 True
+    
 )
     
 checkMethod
 (
+        
 iface
 .
 members
 [
 3
 ]
+        
 "
 :
 :
@@ -449,23 +482,27 @@ SpecialMethods
 :
 __namedsetter
 "
+        
 "
 __namedsetter
 "
-                
+        
 setter
 =
 True
+    
 )
     
 checkMethod
 (
+        
 iface
 .
 members
 [
 4
 ]
+        
 "
 :
 :
@@ -474,13 +511,15 @@ SpecialMethods
 :
 __nameddeleter
 "
+        
 "
 __nameddeleter
 "
-                
+        
 deleter
 =
 True
+    
 )
     
 iface
@@ -510,12 +549,14 @@ member
     
 checkMethod
 (
+        
 iface
 .
 members
 [
 0
 ]
+        
 "
 :
 :
@@ -524,16 +565,19 @@ SpecialMethodsCombination
 :
 __namedgetterdeleter
 "
-                
+        
 "
 __namedgetterdeleter
 "
+        
 getter
 =
 True
+        
 deleter
 =
 True
+    
 )
     
 parser
@@ -543,7 +587,6 @@ parser
 reset
 (
 )
-;
     
 threw
 =
@@ -580,6 +623,7 @@ index
 "
 "
 "
+        
 )
         
 parser

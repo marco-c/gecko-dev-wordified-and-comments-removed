@@ -22,12 +22,12 @@ __name__
 )
 pretty_printer
 (
-'
+"
 JS
 :
 :
 PropertyKey
-'
+"
 )
 class
 PropertyKey
@@ -108,9 +108,9 @@ self
 .
 value
 [
-'
+"
 asBits
-'
+"
 ]
         
 tag
@@ -184,7 +184,6 @@ TYPE_SYMBOL
 body
 =
 (
-(
 bits
 &
 ~
@@ -192,7 +191,6 @@ PropertyKey
 .
 TYPE_MASK
 )
-                    
 .
 cast
 (
@@ -201,7 +199,6 @@ self
 cache
 .
 JSSymbol_ptr_t
-)
 )
         
 elif
@@ -230,20 +227,20 @@ unrecognized
 "
         
 return
-'
+"
 jsid
 (
 %
 s
 )
-'
+"
 %
 (
 body
 )
 pretty_printer
 (
-'
+"
 JS
 :
 :
@@ -251,7 +248,7 @@ Rooted
 <
 long
 >
-'
+"
 )
 def
 RootedPropertyKey
@@ -274,7 +271,7 @@ PropertyKey
 )
 pretty_printer
 (
-'
+"
 JS
 :
 :
@@ -282,7 +279,7 @@ Handle
 <
 long
 >
-'
+"
 )
 def
 HandlePropertyKey
@@ -305,7 +302,7 @@ PropertyKey
 )
 pretty_printer
 (
-'
+"
 JS
 :
 :
@@ -313,7 +310,7 @@ MutableHandle
 <
 long
 >
-'
+"
 )
 def
 MutableHandlePropertyKey

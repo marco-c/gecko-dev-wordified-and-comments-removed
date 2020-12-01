@@ -84,7 +84,7 @@ re
 sub
 (
 quoted_pat
-'
+"
 \
 \
 1
@@ -98,7 +98,7 @@ code
 /
 code
 >
-'
+"
 text
 )
     
@@ -109,7 +109,7 @@ re
 sub
 (
 js_pat
-'
+"
 \
 \
 1
@@ -123,7 +123,7 @@ code
 /
 code
 >
-'
+"
 text
 )
     
@@ -135,7 +135,7 @@ re
 .
 compile
 (
-'
+"
 ^
 \
 s
@@ -143,7 +143,7 @@ s
 \
 *
 ?
-'
+"
 re
 .
 M
@@ -161,17 +161,17 @@ re
 sub
 (
 space_star_space_pat
-'
-'
+"
+"
 comment
 )
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 quote_pat
 =
@@ -197,7 +197,7 @@ re
 .
 compile
 (
-'
+"
 js_
 (
 [
@@ -207,7 +207,7 @@ _
 +
 )
 _str
-'
+"
 )
 def
 parse_name
@@ -266,9 +266,9 @@ re
 .
 compile
 (
-'
+"
 *
-'
+"
 )
 def
 parse_csv
@@ -301,8 +301,8 @@ a
 ]
 =
 =
-'
-'
+"
+"
 :
         
 return
@@ -322,19 +322,19 @@ if
 stack
 =
 =
-'
-'
+"
+"
 :
         
 return
 0
     
 if
-'
+"
 .
 .
 .
-'
+"
 in
 stack
 :
@@ -350,8 +350,8 @@ stack
 .
 split
 (
-'
-'
+"
+"
 )
 )
 def
@@ -372,8 +372,8 @@ None
     
 category_name
 =
-'
-'
+"
+"
     
 category_pat
 =
@@ -381,7 +381,7 @@ re
 .
 compile
 (
-'
+"
 \
 [
 (
@@ -394,7 +394,7 @@ compile
 )
 \
 ]
-'
+"
 )
     
 for
@@ -432,9 +432,9 @@ if
 category_name
 =
 =
-'
+"
 Index
-'
+"
 :
                 
 continue
@@ -502,43 +502,43 @@ self
 .
 desc
 =
-'
-'
+"
+"
         
 self
 .
 category_name
 =
-'
-'
+"
+"
         
 self
 .
 type_name
 =
-'
-'
+"
+"
         
 self
 .
 operands
 =
-'
-'
+"
+"
         
 self
 .
 stack_uses
 =
-'
-'
+"
+"
         
 self
 .
 stack_defs
 =
-'
-'
+"
+"
 class
 OpcodeInfo
 :
@@ -556,15 +556,15 @@ self
 .
 op
 =
-'
-'
+"
+"
         
 self
 .
 op_snake
 =
-'
-'
+"
+"
         
 self
 .
@@ -576,36 +576,36 @@ self
 .
 token
 =
-'
-'
+"
+"
         
 self
 .
 length
 =
-'
-'
+"
+"
         
 self
 .
 nuses
 =
-'
-'
+"
+"
         
 self
 .
 ndefs
 =
-'
-'
+"
+"
         
 self
 .
 format_
 =
-'
-'
+"
+"
         
 self
 .
@@ -711,8 +711,8 @@ self
 .
 sort_key
 =
-'
-'
+"
+"
 def
 find_by_name
 (
@@ -769,7 +769,8 @@ None
 raise
 Exception
 (
-'
+            
+"
 Category
 is
 not
@@ -777,13 +778,13 @@ listed
 in
 index
 :
-'
-                        
-'
+"
+            
+"
 {
 name
 }
-'
+"
 .
 format
 (
@@ -793,6 +794,7 @@ opcode
 .
 category_name
 )
+        
 )
     
 opcodes
@@ -820,7 +822,8 @@ type_name
 raise
 Exception
 (
-'
+                
+"
 Type
 is
 not
@@ -830,13 +833,13 @@ in
 category
 }
 :
-'
-                            
-'
+"
+                
+"
 {
 name
 }
-'
+"
 .
 format
 (
@@ -845,13 +848,13 @@ category
 opcode
 .
 category_name
-                                            
 name
 =
 opcode
 .
 type_name
 )
+            
 )
         
 types
@@ -882,7 +885,7 @@ re
 .
 compile
 (
-'
+"
 ^
 \
 s
@@ -903,7 +906,7 @@ s
 \
 s
 *
-'
+"
 )
 def
 get_tag_value
@@ -918,63 +921,77 @@ re
 sub
 (
 tag_pat
-'
-'
+"
+"
 line
 )
 RUST_OR_CPP_KEYWORDS
 =
 {
     
-'
+"
 and
-'
-'
-case
-'
-'
-default
-'
-'
-double
-'
-'
-false
-'
-'
-goto
-'
-'
-in
-'
-'
-new
-'
-'
-not
-'
-'
-or
-'
-'
-return
-'
+"
     
-'
+"
+case
+"
+    
+"
+default
+"
+    
+"
+double
+"
+    
+"
+false
+"
+    
+"
+goto
+"
+    
+"
+in
+"
+    
+"
+new
+"
+    
+"
+not
+"
+    
+"
+or
+"
+    
+"
+return
+"
+    
+"
 throw
-'
-'
+"
+    
+"
 true
-'
-'
+"
+    
+"
 try
-'
-'
+"
+    
+"
 typeof
-'
-'
+"
+    
+"
 void
-'
+"
 }
 def
 get_opcodes
@@ -989,6 +1006,7 @@ re
 .
 compile
 (
+        
 r
 "
 /
@@ -1003,19 +1021,19 @@ r
 *
 /
 "
-                          
+        
 r
 "
 |
 "
-                          
+        
 r
 "
 MACRO
 \
 (
 "
-                          
+        
 r
 "
 (
@@ -1033,7 +1051,7 @@ op
 s
 *
 "
-                          
+        
 r
 "
 (
@@ -1051,7 +1069,7 @@ op_snake
 s
 *
 "
-                          
+        
 r
 "
 (
@@ -1069,7 +1087,7 @@ token
 s
 *
 "
-                          
+        
 r
 "
 (
@@ -1091,7 +1109,7 @@ length
 s
 *
 "
-                          
+        
 r
 "
 (
@@ -1113,7 +1131,7 @@ nuses
 s
 *
 "
-                          
+        
 r
 "
 (
@@ -1135,7 +1153,7 @@ ndefs
 s
 *
 "
-                          
+        
 r
 "
 (
@@ -1152,15 +1170,17 @@ format
 +
 )
 "
-                          
+        
 r
 "
 \
 )
 "
+        
 re
 .
 S
+    
 )
     
 stack_pat
@@ -1183,7 +1203,6 @@ uses
 ?
 )
 "
-                           
 r
 "
 \
@@ -1195,7 +1214,6 @@ s
 s
 *
 "
-                           
 r
 "
 (
@@ -1225,7 +1243,7 @@ index
 with
 open
 (
-'
+"
 {
 dir
 }
@@ -1239,7 +1257,7 @@ vm
 Opcodes
 .
 h
-'
+"
 .
 format
 (
@@ -1247,16 +1265,16 @@ dir
 =
 dir
 )
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 f
@@ -1313,9 +1331,9 @@ m
 .
 group
 (
-'
+"
 op
-'
+"
 )
         
 if
@@ -1323,11 +1341,11 @@ comment
 :
             
 if
-'
+"
 [
 Index
 ]
-'
+"
 in
 comment
 :
@@ -1342,10 +1360,10 @@ comment
 continue
             
 if
-'
+"
 Operands
 :
-'
+"
 not
 in
 comment
@@ -1365,19 +1383,19 @@ CommentInfo
             
 state
 =
-'
+"
 desc
-'
+"
             
 stack
 =
-'
-'
+"
+"
             
 desc
 =
-'
-'
+"
+"
             
 for
 line
@@ -1393,18 +1411,18 @@ line
 .
 startswith
 (
-'
+"
 Category
 :
-'
+"
 )
 :
                     
 state
 =
-'
+"
 category
-'
+"
                     
 comment_info
 .
@@ -1420,18 +1438,18 @@ line
 .
 startswith
 (
-'
+"
 Type
 :
-'
+"
 )
 :
                     
 state
 =
-'
+"
 type
-'
+"
                     
 comment_info
 .
@@ -1447,18 +1465,18 @@ line
 .
 startswith
 (
-'
+"
 Operands
 :
-'
+"
 )
 :
                     
 state
 =
-'
+"
 operands
-'
+"
                     
 comment_info
 .
@@ -1474,18 +1492,18 @@ line
 .
 startswith
 (
-'
+"
 Stack
 :
-'
+"
 )
 :
                     
 state
 =
-'
+"
 stack
-'
+"
                     
 stack
 =
@@ -1498,9 +1516,9 @@ elif
 state
 =
 =
-'
+"
 desc
-'
+"
 :
                     
 desc
@@ -1518,8 +1536,8 @@ line
 .
 startswith
 (
-'
-'
+"
+"
 )
 :
                     
@@ -1537,9 +1555,9 @@ elif
 state
 =
 =
-'
+"
 operands
-'
+"
 :
                         
 comment_info
@@ -1547,8 +1565,8 @@ comment_info
 operands
 +
 =
-'
-'
+"
+"
 +
 line
 .
@@ -1560,16 +1578,16 @@ elif
 state
 =
 =
-'
+"
 stack
-'
+"
 :
                         
 stack
 +
 =
-'
-'
+"
+"
 +
 line
 .
@@ -1583,6 +1601,7 @@ else
 raise
 ValueError
 (
+                        
 "
 unrecognized
 line
@@ -1605,13 +1624,15 @@ n
 {
 }
 "
-                                     
 .
 format
 (
+                            
 line
 comment
+                        
 )
+                    
 )
             
 comment_info
@@ -1674,9 +1695,9 @@ m2
 .
 group
 (
-'
+"
 uses
-'
+"
 )
                 
 comment_info
@@ -1687,9 +1708,9 @@ m2
 .
 group
 (
-'
+"
 defs
-'
+"
 )
         
 else
@@ -1728,9 +1749,9 @@ m
 .
 group
 (
-'
+"
 op_snake
-'
+"
 )
             
 opcode
@@ -1743,9 +1764,9 @@ m
 .
 group
 (
-'
+"
 token
-'
+"
 )
 )
             
@@ -1757,9 +1778,9 @@ m
 .
 group
 (
-'
+"
 length
-'
+"
 )
             
 opcode
@@ -1770,9 +1791,9 @@ m
 .
 group
 (
-'
+"
 nuses
-'
+"
 )
             
 opcode
@@ -1783,9 +1804,9 @@ m
 .
 group
 (
-'
+"
 ndefs
-'
+"
 )
             
 opcode
@@ -1796,16 +1817,16 @@ m
 .
 group
 (
-'
+"
 format
-'
+"
 )
 .
 split
 (
-'
+"
 |
-'
+"
 )
             
 expected_snake
@@ -1815,7 +1836,7 @@ re
 sub
 (
 r
-'
+"
 (
 ?
 <
@@ -1831,10 +1852,10 @@ A
 Z
 ]
 )
-'
-'
+"
+"
 _
-'
+"
 opcode
 .
 op
@@ -1853,9 +1874,9 @@ RUST_OR_CPP_KEYWORDS
 expected_snake
 +
 =
-'
+"
 _
-'
+"
             
 if
 opcode
@@ -1891,10 +1912,10 @@ got
 r
 }
 "
-                    
 .
 format
 (
+                        
 opcode
 .
 op_camel
@@ -1902,7 +1923,9 @@ expected_snake
 opcode
 .
 op_snake
+                    
 )
+                
 )
             
 if
@@ -1928,26 +1951,26 @@ opcode
 category_name
 =
 =
-'
-'
+"
+"
 :
                     
 raise
 Exception
 (
-'
+                        
+"
 Category
 is
 not
 specified
 for
-'
-                                    
-'
+"
+"
 {
 op
 }
-'
+"
 .
 format
 (
@@ -1957,6 +1980,7 @@ opcode
 .
 op
 )
+                    
 )
                 
 add_to_index
@@ -1982,7 +2006,8 @@ length
 raise
 Exception
 (
-'
+                        
+"
 length
 should
 be
@@ -1991,15 +2016,15 @@ for
 opcodes
 of
 the
-'
-                                    
-'
+"
+                        
+"
 same
 group
 :
-'
-                                    
-'
+"
+                        
+"
 {
 value1
 }
@@ -2010,9 +2035,9 @@ op1
 )
 !
 =
-'
-                                    
-'
+"
+                        
+"
 {
 value2
 }
@@ -2021,35 +2046,37 @@ value2
 op2
 }
 )
-'
+"
 .
 format
 (
-                                        
+                            
 op1
 =
 group_head
 .
 op
-                                        
+                            
 value1
 =
 group_head
 .
 length
-                                        
+                            
 op2
 =
 opcode
 .
 op
-                                        
+                            
 value2
 =
 opcode
 .
 length
+                        
 )
+                    
 )
                 
 if
@@ -2066,7 +2093,8 @@ nuses
 raise
 Exception
 (
-'
+                        
+"
 nuses
 should
 be
@@ -2075,15 +2103,15 @@ for
 opcodes
 of
 the
-'
-                                    
-'
+"
+                        
+"
 same
 group
 :
-'
-                                    
-'
+"
+                        
+"
 {
 value1
 }
@@ -2094,9 +2122,9 @@ op1
 )
 !
 =
-'
-                                    
-'
+"
+                        
+"
 {
 value2
 }
@@ -2105,35 +2133,37 @@ value2
 op2
 }
 )
-'
+"
 .
 format
 (
-                                        
+                            
 op1
 =
 group_head
 .
 op
-                                        
+                            
 value1
 =
 group_head
 .
 nuses
-                                        
+                            
 op2
 =
 opcode
 .
 op
-                                        
+                            
 value2
 =
 opcode
 .
 nuses
+                        
 )
+                    
 )
                 
 if
@@ -2150,7 +2180,8 @@ ndefs
 raise
 Exception
 (
-'
+                        
+"
 ndefs
 should
 be
@@ -2159,15 +2190,15 @@ for
 opcodes
 of
 the
-'
-                                    
-'
+"
+                        
+"
 same
 group
 :
-'
-                                    
-'
+"
+                        
+"
 {
 value1
 }
@@ -2178,9 +2209,9 @@ op1
 )
 !
 =
-'
-                                    
-'
+"
+                        
+"
 {
 value2
 }
@@ -2189,35 +2220,37 @@ value2
 op2
 }
 )
-'
+"
 .
 format
 (
-                                        
+                            
 op1
 =
 group_head
 .
 op
-                                        
+                            
 value1
 =
 group_head
 .
 ndefs
-                                        
+                            
 op2
 =
 opcode
 .
 op
-                                        
+                            
 value2
 =
 opcode
 .
 ndefs
+                        
 )
+                    
 )
                 
 group_head
@@ -2312,7 +2345,8 @@ stack_nuses
 raise
 Exception
 (
-'
+                    
+"
 nuses
 should
 match
@@ -2323,9 +2357,9 @@ notation
 op
 }
 :
-'
-                                
-'
+"
+                    
+"
 {
 nuses
 }
@@ -2334,29 +2368,27 @@ nuses
 {
 stack_nuses
 }
-'
-                                
-'
+"
+                    
+"
 (
 stack_nuses
 )
-'
+"
 .
 format
 (
-                                    
 op
 =
 op
-                                    
 nuses
 =
 nuses
-                                    
 stack_nuses
 =
 stack_nuses
 )
+                
 )
             
 if
@@ -2381,7 +2413,8 @@ stack_ndefs
 raise
 Exception
 (
-'
+                    
+"
 ndefs
 should
 match
@@ -2392,9 +2425,9 @@ notation
 op
 }
 :
-'
-                                
-'
+"
+                    
+"
 {
 ndefs
 }
@@ -2403,29 +2436,27 @@ ndefs
 {
 stack_ndefs
 }
-'
-                                
-'
+"
+                    
+"
 (
 stack_ndefs
 )
-'
+"
 .
 format
 (
-                                    
 op
 =
 op
-                                    
 ndefs
 =
 ndefs
-                                    
 stack_ndefs
 =
 stack_ndefs
 )
+                
 )
     
 return

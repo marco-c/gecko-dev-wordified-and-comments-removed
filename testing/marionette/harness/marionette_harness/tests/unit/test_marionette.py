@@ -53,7 +53,7 @@ set
         
 expected_test_name
 =
-'
+"
 {
 module
 }
@@ -66,7 +66,7 @@ cls
 {
 func
 }
-'
+"
 .
 format
 (
@@ -246,6 +246,7 @@ marionette
 .
 _send_message
 (
+                
 "
 Marionette
 :
@@ -258,6 +259,7 @@ value
 :
 False
 }
+            
 )
             
 self
@@ -282,6 +284,7 @@ marionette
 =
 Marionette
 (
+                
 host
 =
 self
@@ -296,6 +299,7 @@ self
 marionette
 .
 port
+            
 )
             
 self
@@ -321,6 +325,7 @@ marionette
 .
 _send_message
 (
+                
 "
 Marionette
 :
@@ -333,6 +338,7 @@ value
 :
 True
 }
+            
 )
             
 marionette
@@ -355,6 +361,7 @@ marionette
 .
 _send_message
 (
+                
 "
 Marionette
 :
@@ -367,6 +374,7 @@ value
 :
 True
 }
+            
 )
     
 def
@@ -389,7 +397,6 @@ self
 assertEqual
 (
 current_socket_timeout
-                         
 self
 .
 marionette
@@ -403,8 +410,8 @@ self
 .
 assertEqual
 (
+            
 current_socket_timeout
-                         
 self
 .
 marionette
@@ -416,6 +423,7 @@ _sock
 gettimeout
 (
 )
+        
 )
     
 def
@@ -446,6 +454,7 @@ marionette
 .
 execute_script
 (
+                
 "
 "
 "
@@ -488,6 +497,7 @@ canCheckForUpdates
 "
 "
 "
+            
 )
         
 self

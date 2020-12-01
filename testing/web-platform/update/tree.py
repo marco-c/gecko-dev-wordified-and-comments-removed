@@ -999,6 +999,7 @@ name
 branches
 =
 [
+            
 ref
 [
 len
@@ -1012,6 +1013,7 @@ heads
 )
 :
 ]
+            
 for
 sha1
 ref
@@ -1021,7 +1023,7 @@ self
 list_refs
 (
 )
-                    
+            
 if
 ref
 .
@@ -1034,6 +1036,7 @@ heads
 /
 "
 )
+        
 ]
         
 return
@@ -1209,6 +1212,7 @@ re
 .
 compile
 (
+        
 "
 ^
 Bug
@@ -1259,10 +1263,10 @@ w
 )
 ?
 "
-                         
 re
 .
 IGNORECASE
+    
 )
     
 _backout_re
@@ -1271,6 +1275,7 @@ re
 .
 compile
 (
+        
 "
 ^
 (
@@ -1306,10 +1311,10 @@ ing
 )
 )
 "
-                             
 re
 .
 IGNORECASE
+    
 )
     
 _backout_sha1_re

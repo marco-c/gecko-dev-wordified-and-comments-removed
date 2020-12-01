@@ -10,7 +10,7 @@ HTMLFormatter
 __all__
 =
 [
-'
+"
 HTMLFormatter
-'
+"
 ]

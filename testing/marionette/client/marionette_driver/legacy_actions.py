@@ -235,9 +235,9 @@ None
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Sends
 a
@@ -350,9 +350,9 @@ the
 element
 .
         
-'
-'
-'
+"
+"
+"
         
 element
 =
@@ -367,9 +367,9 @@ action_chain
 append
 (
 [
-'
+"
 press
-'
+"
 element
 x
 y
@@ -386,9 +386,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Sends
 a
@@ -512,9 +512,9 @@ mouse
 events
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -523,9 +523,9 @@ action_chain
 append
 (
 [
-'
+"
 release
-'
+"
 ]
 )
         
@@ -540,9 +540,9 @@ element
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Sends
 a
@@ -584,9 +584,9 @@ be
 called
 .
         
-'
-'
-'
+"
+"
+"
         
 element
 =
@@ -601,9 +601,9 @@ action_chain
 append
 (
 [
-'
+"
 move
-'
+"
 element
 ]
 )
@@ -620,9 +620,9 @@ y
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Sends
 '
@@ -712,9 +712,9 @@ the
 element
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -723,9 +723,9 @@ action_chain
 append
 (
 [
-'
+"
 moveByOffset
-'
+"
 x
 y
 ]
@@ -744,9 +744,9 @@ None
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Waits
 for
@@ -816,9 +816,9 @@ to
 complete
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -827,9 +827,9 @@ action_chain
 append
 (
 [
-'
+"
 wait
-'
+"
 time
 ]
 )
@@ -844,9 +844,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Sends
 '
@@ -880,9 +880,9 @@ be
 called
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -891,9 +891,9 @@ action_chain
 append
 (
 [
-'
+"
 cancel
-'
+"
 ]
 )
         
@@ -914,9 +914,9 @@ None
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Performs
 a
@@ -1027,9 +1027,9 @@ release
 (
 )
         
-'
-'
-'
+"
+"
+"
         
 element
 =
@@ -1044,9 +1044,9 @@ action_chain
 append
 (
 [
-'
+"
 press
-'
+"
 element
 x
 y
@@ -1060,9 +1060,9 @@ action_chain
 append
 (
 [
-'
+"
 release
-'
+"
 ]
 )
         
@@ -1083,9 +1083,9 @@ None
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Performs
 a
@@ -1156,9 +1156,9 @@ the
 element
 .
         
-'
-'
-'
+"
+"
+"
         
 element
 =
@@ -1173,9 +1173,9 @@ action_chain
 append
 (
 [
-'
+"
 press
-'
+"
 element
 x
 y
@@ -1189,9 +1189,9 @@ action_chain
 append
 (
 [
-'
+"
 release
-'
+"
 ]
 )
         
@@ -1202,9 +1202,9 @@ action_chain
 append
 (
 [
-'
+"
 press
-'
+"
 element
 x
 y
@@ -1218,9 +1218,9 @@ action_chain
 append
 (
 [
-'
+"
 release
-'
+"
 ]
 )
         
@@ -1243,9 +1243,9 @@ count
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Performs
 a
@@ -1315,9 +1315,9 @@ events
 )
 .
         
-'
-'
-'
+"
+"
+"
         
 el
 =
@@ -1332,9 +1332,9 @@ action_chain
 append
 (
 [
-'
+"
 click
-'
+"
 el
 button
 count
@@ -1352,9 +1352,9 @@ element
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Performs
 a
@@ -1377,9 +1377,9 @@ context
 click
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
@@ -1402,9 +1402,9 @@ element
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Performs
 a
@@ -1427,9 +1427,9 @@ middle
 click
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
@@ -1452,9 +1452,9 @@ element
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Performs
 a
@@ -1477,9 +1477,9 @@ double
 click
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
@@ -1507,9 +1507,9 @@ duration
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Performs
 a
@@ -1642,9 +1642,9 @@ milliseconds
 )
 .
         
-'
-'
-'
+"
+"
+"
         
 element
 =
@@ -1710,9 +1710,9 @@ action_chain
 append
 (
 [
-'
+"
 press
-'
+"
 element
 x1
 y1
@@ -1737,9 +1737,9 @@ action_chain
 append
 (
 [
-'
+"
 moveByOffset
-'
+"
 move_x
 move_y
 ]
@@ -1752,9 +1752,9 @@ action_chain
 append
 (
 [
-'
+"
 wait
-'
+"
 time_increment
 /
 1000
@@ -1768,9 +1768,9 @@ action_chain
 append
 (
 [
-'
+"
 release
-'
+"
 ]
 )
         
@@ -1792,9 +1792,9 @@ None
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Performs
 a
@@ -1906,9 +1906,9 @@ release
 (
 )
         
-'
-'
-'
+"
+"
+"
         
 element
 =
@@ -1923,9 +1923,9 @@ action_chain
 append
 (
 [
-'
+"
 press
-'
+"
 element
 x
 y
@@ -1939,9 +1939,9 @@ action_chain
 append
 (
 [
-'
+"
 wait
-'
+"
 time_in_seconds
 ]
 )
@@ -1953,9 +1953,9 @@ action_chain
 append
 (
 [
-'
+"
 release
-'
+"
 ]
 )
         
@@ -2030,9 +2030,9 @@ action_chain
 append
 (
 [
-'
+"
 keyDown
-'
+"
 key_code
 ]
 )
@@ -2108,9 +2108,9 @@ action_chain
 append
 (
 [
-'
+"
 keyUp
-'
+"
 key_code
 ]
 )
@@ -2186,18 +2186,19 @@ marionette
 .
 _send_message
 (
+                
 "
 Marionette
 :
 ActionChain
 "
-                                                            
 body
 key
 =
 "
 value
 "
+            
 )
         
 except
@@ -2216,16 +2217,17 @@ marionette
 .
 _send_message
 (
+                
 "
 actionChain
 "
-                                                            
 body
 key
 =
 "
 value
 "
+            
 )
         
 self

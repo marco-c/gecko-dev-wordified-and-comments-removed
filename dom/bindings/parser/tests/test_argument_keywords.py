@@ -10,6 +10,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -32,6 +33,7 @@ constructor
 "
 "
 "
+    
 )
     
 results
@@ -58,7 +60,6 @@ an
 interface
 "
 )
-;
     
 iface
 =
@@ -66,7 +67,6 @@ results
 [
 0
 ]
-;
     
 harness
 .
@@ -86,7 +86,6 @@ an
 operation
 "
 )
-;
     
 operation
 =
@@ -96,7 +95,6 @@ members
 [
 0
 ]
-;
     
 harness
 .
@@ -118,7 +116,6 @@ one
 signature
 "
 )
-;
     
 (
 retval
@@ -133,7 +130,6 @@ signatures
 [
 0
 ]
-;
     
 harness
 .
@@ -151,12 +147,12 @@ an
 argument
 "
 )
-;
     
 harness
 .
 check
 (
+        
 args
 [
 0
@@ -165,10 +161,11 @@ args
 identifier
 .
 name
+        
 "
 constructor
 "
-                  
+        
 "
 Should
 have
@@ -179,5 +176,5 @@ named
 constructor
 '
 "
+    
 )
-;

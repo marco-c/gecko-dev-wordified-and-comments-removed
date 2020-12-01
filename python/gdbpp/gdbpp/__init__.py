@@ -23,9 +23,9 @@ printing
 .
 RegexpCollectionPrettyPrinter
 (
-'
+"
 GeckoPrettyPrinters
-'
+"
 )
     
 def

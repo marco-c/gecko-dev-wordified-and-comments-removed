@@ -46,9 +46,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 multi_locale_build

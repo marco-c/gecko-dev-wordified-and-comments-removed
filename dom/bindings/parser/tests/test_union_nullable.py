@@ -17,6 +17,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -45,6 +46,7 @@ arg
 "
 "
 "
+        
 )
         
 results
@@ -67,7 +69,6 @@ harness
 ok
 (
 threw
-               
 "
 Two
 nullable
@@ -100,6 +101,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -128,6 +130,7 @@ arg
 "
 "
 "
+        
 )
         
 results
@@ -149,8 +152,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 A
 nullable
@@ -164,11 +168,11 @@ type
 should
 have
 "
-               
 "
 thrown
 .
 "
+    
 )
     
 parser
@@ -188,6 +192,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -227,6 +232,7 @@ arg
 "
 "
 "
+        
 )
         
 results
@@ -248,8 +254,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 A
 nullable
@@ -263,9 +270,9 @@ type
 should
 have
 "
-               
 "
 thrown
 .
 "
+    
 )

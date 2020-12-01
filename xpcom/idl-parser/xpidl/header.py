@@ -233,13 +233,13 @@ s
 (
 getter
 and
-'
+"
 Get
-'
+"
 or
-'
+"
 Set
-'
+"
 binaryname
 )
 def
@@ -275,7 +275,6 @@ ret
     
 if
 (
-(
 a
 .
 explicit_getter_can_run_script
@@ -283,15 +282,15 @@ and
 getter
 )
 or
-        
 (
+        
 a
 .
 explicit_setter_can_run_script
 and
 not
 getter
-)
+    
 )
 :
         
@@ -341,9 +340,9 @@ realtype
 .
 nativeType
 (
-'
+"
 in
-'
+"
 )
 .
 strip
@@ -468,12 +467,14 @@ else
 l
 =
 [
+            
 "
 %
 s
 %
 s
 "
+            
 %
 (
 a
@@ -484,20 +485,20 @@ nativeType
 (
 getter
 and
-'
+"
 out
-'
+"
 or
-'
+"
 in
-'
+"
 )
-                       
 attributeParamName
 (
 a
 )
 )
+        
 ]
     
 if
@@ -533,18 +534,19 @@ a
 getter
 declType
 =
-'
+"
 NS_IMETHOD
-'
+"
 )
 :
     
 params
 =
 {
-'
+        
+"
 returntype
-'
+"
 :
 attributeReturnType
 (
@@ -552,26 +554,27 @@ a
 getter
 declType
 )
-              
-'
+        
+"
 binaryname
-'
+"
 :
 attributeNativeName
 (
 a
 getter
 )
-              
-'
+        
+"
 paramlist
-'
+"
 :
 attributeParamlist
 (
 a
 getter
 )
+    
 }
     
 return
@@ -702,9 +705,9 @@ realtype
 .
 nativeType
 (
-'
+"
 in
-'
+"
 )
 .
 strip
@@ -793,9 +796,9 @@ methodAsNative
 m
 declType
 =
-'
+"
 NS_IMETHOD
-'
+"
 )
 :
     
@@ -812,21 +815,23 @@ s
 "
 %
 (
+        
 methodReturnType
 (
 m
 declType
 )
-                          
+        
 methodNativeName
 (
 m
 )
-                          
+        
 paramlistAsNative
 (
 m
 )
+    
 )
 def
 paramlistAsNative
@@ -834,9 +839,9 @@ paramlistAsNative
 m
 empty
 =
-'
+"
 void
-'
+"
 return_param
 =
 True
@@ -885,10 +890,10 @@ l
 .
 append
 (
-'
+"
 uint8_t
 _argc
-'
+"
 )
     
 if
@@ -904,9 +909,9 @@ realtype
 name
 !
 =
-'
+"
 void
-'
+"
 and
 return_param
 :
@@ -915,41 +920,50 @@ l
 .
 append
 (
+            
 paramAsNative
 (
+                
 xpidl
 .
 Param
 (
-            
+                    
 paramtype
 =
-'
+"
 out
-'
+"
+                    
 type
 =
 None
+                    
 name
 =
-'
+"
 _retval
-'
+"
+                    
 attlist
 =
 [
 ]
-            
+                    
 location
 =
 None
+                    
 realtype
 =
 m
 .
 realtype
+                
 )
+            
 )
+        
 )
     
 if
@@ -980,10 +994,12 @@ params
         
 while
 (
+            
 paramIter
 >
 =
 0
+            
 and
 m
 .
@@ -993,8 +1009,8 @@ paramIter
 ]
 .
 optional
+            
 and
-                
 m
 .
 params
@@ -1008,6 +1024,7 @@ paramtype
 "
 out
 "
+        
 )
 :
             
@@ -1134,8 +1151,8 @@ p
     
 default_spec
 =
-'
-'
+"
+"
     
 if
 p
@@ -1169,11 +1186,9 @@ p
 nativeType
 (
 )
-                       
 p
 .
 name
-                       
 default_spec
 )
 def
@@ -1210,9 +1225,9 @@ names
 .
 append
 (
-'
+"
 cx
-'
+"
 )
     
 if
@@ -1225,9 +1240,9 @@ names
 .
 append
 (
-'
+"
 _argc
-'
+"
 )
     
 if
@@ -1243,9 +1258,9 @@ realtype
 name
 !
 =
-'
+"
 void
-'
+"
 and
 return_param
 :
@@ -1254,9 +1269,9 @@ names
 .
 append
 (
-'
+"
 _retval
-'
+"
 )
     
 if
@@ -1270,12 +1285,12 @@ names
 :
         
 return
-'
-'
+"
+"
     
 return
-'
-'
+"
+"
 .
 join
 (
@@ -1539,9 +1554,9 @@ f
 .
 rpartition
 (
-'
+"
 .
-'
+"
 )
 [
 0
@@ -1563,15 +1578,14 @@ write
 header
 %
 {
-'
+"
 relpath
-'
+"
 :
 relpath
-                       
-'
+"
 basename
-'
+"
 :
 idl_basename
 (
@@ -1607,10 +1621,10 @@ fd
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 fd
@@ -1620,9 +1634,9 @@ write
 include
 %
 {
-'
+"
 basename
-'
+"
 :
 idl_basename
 (
@@ -1664,9 +1678,9 @@ p
 kind
 =
 =
-'
+"
 interface
-'
+"
 ]
     
 wroteRunScriptIncludes
@@ -1704,10 +1718,12 @@ and
 not
 isinstance
 (
+                
 member
 xpidl
 .
 Method
+            
 )
 :
                 
@@ -1766,10 +1782,10 @@ fd
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
     
 fd
@@ -1793,9 +1809,9 @@ p
 kind
 =
 =
-'
+"
 include
-'
+"
 :
             
 continue
@@ -1806,9 +1822,9 @@ p
 kind
 =
 =
-'
+"
 cdata
-'
+"
 :
             
 fd
@@ -1828,9 +1844,9 @@ p
 kind
 =
 =
-'
+"
 webidl
-'
+"
 :
             
 write_webidl
@@ -1847,9 +1863,9 @@ p
 kind
 =
 =
-'
+"
 forward
-'
+"
 :
             
 fd
@@ -1859,9 +1875,9 @@ write
 forward_decl
 %
 {
-'
+"
 name
-'
+"
 :
 p
 .
@@ -1877,9 +1893,9 @@ p
 kind
 =
 =
-'
+"
 interface
-'
+"
 :
             
 write_interface
@@ -1896,9 +1912,9 @@ p
 kind
 =
 =
-'
+"
 typedef
-'
+"
 :
             
 printComments
@@ -1907,8 +1923,8 @@ fd
 p
 .
 doccomments
-'
-'
+"
+"
 )
             
 fd
@@ -1935,11 +1951,10 @@ realtype
 .
 nativeType
 (
-'
+"
 in
-'
+"
 )
-                                             
 p
 .
 name
@@ -1953,9 +1968,9 @@ write
 footer
 %
 {
-'
+"
 basename
-'
+"
 :
 idl_basename
 (
@@ -1979,10 +1994,10 @@ native
 .
 split
 (
-'
+"
 :
 :
-'
+"
 )
     
 for
@@ -2164,6 +2179,7 @@ re
 .
 compile
 (
+    
 r
 "
 "
@@ -2264,6 +2280,7 @@ f0
 "
 "
 "
+    
 re
 .
 X
@@ -2722,9 +2739,9 @@ realtype
 .
 nativeType
 (
-'
+"
 in
-'
+"
 )
     
 tmpl
@@ -2739,9 +2756,9 @@ realtype
 kind
 !
 =
-'
+"
 builtin
-'
+"
 and
 member
 .
@@ -2750,9 +2767,9 @@ realtype
 kind
 !
 =
-'
+"
 cenum
-'
+"
 :
         
 assert
@@ -2760,9 +2777,9 @@ realtype
 .
 endswith
 (
-'
+"
 *
-'
+"
 )
 "
 bad
@@ -2874,43 +2891,45 @@ return
 tmpl
 %
 {
-'
+        
+"
 attributes
-'
+"
 :
 attributes
-                   
-'
+        
+"
 realtype
-'
+"
 :
 realtype
-                   
-'
+        
+"
 nativename
-'
+"
 :
 nativename
-                   
-'
+        
+"
 args
-'
+"
 :
 args
-                   
-'
+        
+"
 argnames
-'
+"
 :
 argnames
 +
-'
-'
+"
+"
 if
 argnames
 else
-'
-'
+"
+"
+    
 }
 def
 write_interface
@@ -2962,6 +2981,7 @@ names
 raise
 Exception
 (
+                
 "
 Unexpected
 overloaded
@@ -2974,7 +2994,7 @@ interface
 %
 s
 "
-                            
+                
 %
 (
 name
@@ -2982,6 +3002,7 @@ iface
 .
 name
 )
+            
 )
         
 names
@@ -3096,8 +3117,8 @@ fd
 c
 .
 doccomments
-'
-'
+"
+"
 )
             
 basetype
@@ -3118,6 +3139,7 @@ enums
 .
 append
 (
+                
 "
 %
 (
@@ -3136,26 +3158,27 @@ signed
 )
 s
 "
+                
 %
 {
-                         
-'
+                    
+"
 name
-'
+"
 :
 c
 .
 name
-                         
-'
+                    
+"
 value
-'
+"
 :
 value
-                         
-'
+                    
+"
 signed
-'
+"
 :
 (
 not
@@ -3164,13 +3187,15 @@ basetype
 signed
 )
 and
-'
+"
 U
-'
+"
 or
-'
-'
+"
+"
+                
 }
+            
 )
         
 fd
@@ -3297,8 +3322,8 @@ fd
 m
 .
 doccomments
-'
-'
+"
+"
 )
         
 fd
@@ -3346,7 +3371,6 @@ runScriptAnnotation
 (
 m
 )
-                                      
 methodAsNative
 (
 m
@@ -3383,8 +3407,8 @@ fd
 a
 .
 doccomments
-'
-'
+"
+"
 )
         
 fd
@@ -3430,7 +3454,6 @@ runScriptAnnotation
 (
 a
 )
-                                    
 attributeAsNative
 (
 a
@@ -3466,6 +3489,7 @@ fd
 .
 write
 (
+                
 "
 %
 s
@@ -3483,13 +3507,13 @@ runScriptAnnotation
 (
 a
 )
-                                        
 attributeAsNative
 (
 a
 False
 )
 )
+            
 )
         
 fd
@@ -3523,16 +3547,16 @@ name
 ]
 =
 =
-'
+"
 ns
-'
+"
 :
         
 defname
 =
-'
+"
 NS_
-'
+"
 +
 defname
 [
@@ -3561,23 +3585,23 @@ m3str
 =
 names
 [
-'
+"
 m3
-'
+"
 ]
 +
 names
 [
-'
+"
 m4
-'
+"
 ]
     
 names
 [
-'
+"
 m3joined
-'
+"
 ]
 =
 "
@@ -3621,9 +3645,9 @@ name
 ]
 =
 =
-'
+"
 I
-'
+"
 :
         
 implclass
@@ -3649,24 +3673,26 @@ else
         
 implclass
 =
-'
+"
 _MYCLASS_
-'
+"
     
 names
 .
 update
 (
+        
 {
-'
+            
+"
 defname
-'
+"
 :
 defname
-                  
-'
+            
+"
 macroname
-'
+"
 :
 iface
 .
@@ -3675,31 +3701,33 @@ name
 upper
 (
 )
-                  
-'
+            
+"
 name
-'
+"
 :
 iface
 .
 name
-                  
-'
+            
+"
 iid
-'
+"
 :
 iface
 .
 attributes
 .
 uuid
-                  
-'
+            
+"
 implclass
-'
+"
 :
 implclass
+        
 }
+    
 )
     
 fd
@@ -3717,8 +3745,8 @@ fd
 iface
 .
 doccomments
-'
-'
+"
+"
 )
     
 fd
@@ -4019,6 +4047,7 @@ fd
 .
 write
 (
+                        
 "
 \
 \
@@ -4033,8 +4062,8 @@ s
 s
 ;
 "
+                        
 %
-                             
 (
 iface
 .
@@ -4045,12 +4074,14 @@ member
 True
 )
 )
+                    
 )
                 
 fd
 .
 write
 (
+                    
 "
 \
 \
@@ -4072,6 +4103,7 @@ declType
 )
 suffix
 )
+                
 )
                 
 if
@@ -4085,6 +4117,7 @@ fd
 .
 write
 (
+                        
 "
 \
 \
@@ -4096,6 +4129,7 @@ s
 s
 ;
 "
+                        
 %
 (
 attributeAsNative
@@ -4106,6 +4140,7 @@ declType
 )
 suffix
 )
+                    
 )
             
 elif
@@ -4160,7 +4195,7 @@ fd
 .
 write
 (
-'
+"
 \
 \
 \
@@ -4172,7 +4207,7 @@ methods
 !
 *
 /
-'
+"
 )
         
 elif
@@ -4182,12 +4217,12 @@ kind
 not
 in
 (
-'
+"
 attribute
-'
-'
+"
+"
 method
-'
+"
 )
 :
             
@@ -4195,10 +4230,10 @@ fd
 .
 write
 (
-'
+"
 \
 \
-'
+"
 )
     
 writeDeclaration
@@ -4284,6 +4319,7 @@ fd
 .
 write
 (
+                        
 "
 \
 \
@@ -4298,8 +4334,8 @@ s
 s
 ;
 "
+                        
 %
-                             
 (
 iface
 .
@@ -4310,6 +4346,7 @@ member
 True
 )
 )
+                    
 )
                 
 attr_tmpl
@@ -4326,39 +4363,44 @@ fd
 .
 write
 (
+                    
 attr_tmpl
+                    
 %
 {
-'
+                        
+"
 asNative
-'
+"
 :
 attributeAsNative
 (
 member
 True
 )
-                                      
-'
+                        
+"
 nativeName
-'
+"
 :
 attributeNativeName
 (
 member
 True
 )
-                                      
-'
+                        
+"
 paramList
-'
+"
 :
 attributeParamNames
 (
 member
 True
 )
+                    
 }
+                
 )
                 
 if
@@ -4372,39 +4414,44 @@ fd
 .
 write
 (
+                        
 attr_tmpl
+                        
 %
 {
-'
+                            
+"
 asNative
-'
+"
 :
 attributeAsNative
 (
 member
 False
 )
-                                          
-'
+                            
+"
 nativeName
-'
+"
 :
 attributeNativeName
 (
 member
 False
 )
-                                          
-'
+                            
+"
 paramList
-'
+"
 :
 attributeParamNames
 (
 member
 False
 )
+                        
 }
+                    
 )
             
 elif
@@ -4427,36 +4474,41 @@ fd
 .
 write
 (
+                        
 tmpl_notxpcom
+                        
 %
 {
-'
+                            
+"
 asNative
-'
+"
 :
 methodAsNative
 (
 member
 )
-                                              
-'
+                            
+"
 nativeName
-'
+"
 :
 methodNativeName
 (
 member
 )
-                                              
-'
+                            
+"
 paramList
-'
+"
 :
 paramlistNames
 (
 member
 )
+                        
 }
+                    
 )
                 
 else
@@ -4466,36 +4518,41 @@ fd
 .
 write
 (
+                        
 tmpl
+                        
 %
 {
-'
+                            
+"
 asNative
-'
+"
 :
 methodAsNative
 (
 member
 )
-                                     
-'
+                            
+"
 nativeName
-'
+"
 :
 methodNativeName
 (
 member
 )
-                                     
-'
+                            
+"
 paramList
-'
+"
 :
 paramlistNames
 (
 member
 )
+                        
 }
+                    
 )
         
 if
@@ -4514,7 +4571,7 @@ fd
 .
 write
 (
-'
+"
 \
 \
 \
@@ -4526,7 +4583,7 @@ methods
 !
 *
 /
-'
+"
 )
         
 elif
@@ -4536,12 +4593,12 @@ kind
 not
 in
 (
-'
+"
 attribute
-'
-'
+"
+"
 method
-'
+"
 )
 :
             
@@ -4549,16 +4606,17 @@ fd
 .
 write
 (
-'
+"
 \
 \
-'
+"
 )
     
 emitTemplate
 (
+        
 True
-                 
+        
 "
 \
 \
@@ -4588,6 +4646,7 @@ s
 ;
 }
 "
+    
 )
     
 fd
@@ -4601,8 +4660,9 @@ names
     
 emitTemplate
 (
+        
 False
-                 
+        
 "
 \
 \
@@ -4639,7 +4699,7 @@ s
 ;
 }
 "
-                 
+        
 "
 \
 \
@@ -4653,18 +4713,19 @@ s
 override
 ;
 "
+    
 )
     
 fd
 .
 write
 (
-'
+"
 \
 n
 \
 n
-'
+"
 )
 def
 main
@@ -4682,9 +4743,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

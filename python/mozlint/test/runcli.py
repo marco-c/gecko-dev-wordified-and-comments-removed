@@ -27,9 +27,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 parser
@@ -60,18 +60,18 @@ argv
     
 args
 [
-'
+"
 root
-'
+"
 ]
 =
 here
     
 args
 [
-'
+"
 config_paths
-'
+"
 ]
 =
 [
@@ -82,9 +82,9 @@ path
 join
 (
 here
-'
+"
 linters
-'
+"
 )
 ]
     

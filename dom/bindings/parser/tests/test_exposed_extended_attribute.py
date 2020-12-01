@@ -12,6 +12,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -120,6 +121,7 @@ method2
 "
 "
 "
+    
 )
     
 results
@@ -147,7 +149,6 @@ five
 things
 "
 )
-;
     
 iface
 =
@@ -167,7 +168,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 have
@@ -176,7 +176,6 @@ interface
 here
 "
 )
-;
     
 members
 =
@@ -205,6 +204,7 @@ harness
 .
 ok
 (
+        
 members
 [
 0
@@ -224,7 +224,7 @@ Bar
 "
 ]
 )
-               
+        
 "
 method1
 should
@@ -234,12 +234,14 @@ right
 exposure
 set
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 members
 [
 0
@@ -259,7 +261,7 @@ Bar1
 "
 ]
 )
-               
+        
 "
 method1
 should
@@ -270,12 +272,14 @@ exposure
 global
 names
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 members
 [
 1
@@ -292,7 +296,7 @@ Bar
 "
 ]
 )
-               
+        
 "
 attr
 should
@@ -302,12 +306,14 @@ right
 exposure
 set
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 members
 [
 1
@@ -324,7 +330,7 @@ Bar1
 "
 ]
 )
-               
+        
 "
 attr
 should
@@ -335,12 +341,14 @@ exposure
 global
 names
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 members
 [
 2
@@ -357,7 +365,7 @@ Foo
 "
 ]
 )
-               
+        
 "
 method2
 should
@@ -367,12 +375,14 @@ right
 exposure
 set
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 members
 [
 2
@@ -389,7 +399,7 @@ Foo
 "
 ]
 )
-               
+        
 "
 method2
 should
@@ -400,12 +410,14 @@ exposure
 global
 names
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 iface
 .
 exposureSet
@@ -422,7 +434,7 @@ Bar
 "
 ]
 )
-               
+        
 "
 Iface
 should
@@ -432,12 +444,14 @@ right
 exposure
 set
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 iface
 .
 _exposureGlobalNames
@@ -454,7 +468,7 @@ Bar1
 "
 ]
 )
-               
+        
 "
 Iface
 should
@@ -465,6 +479,7 @@ exposure
 global
 names
 "
+    
 )
     
 parser
@@ -479,6 +494,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -552,6 +568,7 @@ method3
 "
 "
 "
+    
 )
     
 results
@@ -579,7 +596,6 @@ four
 things
 "
 )
-;
     
 iface
 =
@@ -599,7 +615,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 have
@@ -608,7 +623,6 @@ interface
 here
 "
 )
-;
     
 members
 =
@@ -637,6 +651,7 @@ harness
 .
 ok
 (
+        
 members
 [
 0
@@ -653,7 +668,7 @@ Foo
 "
 ]
 )
-               
+        
 "
 method3
 should
@@ -663,12 +678,14 @@ right
 exposure
 set
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 members
 [
 0
@@ -685,7 +702,7 @@ Foo
 "
 ]
 )
-               
+        
 "
 method3
 should
@@ -696,12 +713,14 @@ exposure
 global
 names
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 iface
 .
 exposureSet
@@ -715,7 +734,6 @@ Foo
 "
 ]
 )
-               
 "
 Iface2
 should
@@ -725,12 +743,14 @@ right
 exposure
 set
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 iface
 .
 _exposureGlobalNames
@@ -744,7 +764,7 @@ Foo
 "
 ]
 )
-               
+        
 "
 Iface2
 should
@@ -755,6 +775,7 @@ exposure
 global
 names
 "
+    
 )
     
 parser
@@ -769,6 +790,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -870,6 +892,7 @@ Mixin
 "
 "
 "
+    
 )
     
 results
@@ -897,7 +920,6 @@ six
 things
 "
 )
-;
     
 iface
 =
@@ -917,7 +939,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 have
@@ -926,7 +947,6 @@ interface
 here
 "
 )
-;
     
 members
 =
@@ -955,6 +975,7 @@ harness
 .
 ok
 (
+        
 members
 [
 0
@@ -971,7 +992,7 @@ Foo
 "
 ]
 )
-               
+        
 "
 method4
 should
@@ -981,12 +1002,14 @@ right
 exposure
 set
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 members
 [
 0
@@ -1003,7 +1026,7 @@ Foo
 "
 ]
 )
-               
+        
 "
 method4
 should
@@ -1014,12 +1037,14 @@ exposure
 global
 names
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 members
 [
 1
@@ -1039,7 +1064,7 @@ Bar
 "
 ]
 )
-               
+        
 "
 method5
 should
@@ -1049,12 +1074,14 @@ right
 exposure
 set
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 members
 [
 1
@@ -1074,7 +1101,7 @@ Bar1
 "
 ]
 )
-               
+        
 "
 method5
 should
@@ -1085,6 +1112,7 @@ exposure
 global
 names
 "
+    
 )
     
 parser
@@ -1106,6 +1134,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1126,6 +1155,7 @@ Bar
 "
 "
 "
+        
 )
         
 results
@@ -1184,6 +1214,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1210,6 +1241,7 @@ attr
 "
 "
 "
+        
 )
         
 results
@@ -1268,6 +1300,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1294,6 +1327,7 @@ operation
 "
 "
 "
+        
 )
         
 results
@@ -1352,6 +1386,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1379,6 +1414,7 @@ constant
 "
 "
 "
+        
 )
         
 results
@@ -1437,6 +1473,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1493,6 +1530,7 @@ method
 "
 "
 "
+        
 )
         
 results
@@ -1517,6 +1555,7 @@ harness
 .
 ok
 (
+        
 threw
 "
 Should
@@ -1532,6 +1571,7 @@ is
 not
 .
 "
+    
 )
     
 parser
@@ -1546,6 +1586,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -1621,6 +1662,7 @@ Mixin
 "
 "
 "
+    
 )
     
 results
@@ -1648,7 +1690,6 @@ five
 things
 "
 )
-;
     
 iface
 =
@@ -1668,7 +1709,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 have
@@ -1677,7 +1717,6 @@ interface
 here
 "
 )
-;
     
 members
 =
@@ -1706,6 +1745,7 @@ harness
 .
 ok
 (
+        
 members
 [
 0
@@ -1722,7 +1762,7 @@ Foo
 "
 ]
 )
-               
+        
 "
 method
 should
@@ -1732,12 +1772,14 @@ right
 exposure
 set
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 members
 [
 0
@@ -1754,7 +1796,7 @@ Foo
 "
 ]
 )
-               
+        
 "
 method
 should
@@ -1765,12 +1807,14 @@ exposure
 global
 names
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 members
 [
 1
@@ -1787,7 +1831,7 @@ Bar
 "
 ]
 )
-               
+        
 "
 otherMethod
 should
@@ -1797,12 +1841,14 @@ right
 exposure
 set
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 members
 [
 1
@@ -1819,7 +1865,7 @@ Bar
 "
 ]
 )
-               
+        
 "
 otherMethod
 should
@@ -1830,4 +1876,5 @@ exposure
 global
 names
 "
+    
 )

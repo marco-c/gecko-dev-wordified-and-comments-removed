@@ -2,7 +2,7 @@ XPCSHELL_TESTS_MANIFESTS
 +
 =
 [
-'
+"
 test
 /
 xpcshell
@@ -10,13 +10,13 @@ xpcshell
 xpcshell
 .
 ini
-'
+"
 ]
 DevToolsModules
 (
-'
+"
 MDNCompatibility
 .
 js
-'
+"
 )

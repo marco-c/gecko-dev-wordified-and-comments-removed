@@ -157,10 +157,10 @@ replacement
 )
 print
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (

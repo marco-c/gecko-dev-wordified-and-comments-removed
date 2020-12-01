@@ -33,12 +33,12 @@ for
 var
 in
 (
-'
+"
 topsrcdir
-'
-'
+"
+"
 topobjdir
-'
+"
 )
 :
     
@@ -65,15 +65,15 @@ for
 var
 in
 (
-'
+"
 defines
-'
-'
+"
+"
 substs
-'
-'
+"
+"
 get_dependencies
-'
+"
 )
 :
     

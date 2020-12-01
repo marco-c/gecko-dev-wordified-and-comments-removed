@@ -11,7 +11,7 @@ sys
 executable
 PYTHON_DLL
 =
-'
+"
 c
 :
 /
@@ -24,7 +24,7 @@ python
 python27
 .
 dll
-'
+"
 VENV_PATH
 =
 os
@@ -38,9 +38,9 @@ os
 getcwd
 (
 )
-'
+"
 venv
-'
+"
 )
 config
 =
@@ -76,15 +76,15 @@ exes
 :
 {
         
-'
+"
 python
-'
+"
 :
 PYTHON
         
-'
+"
 hg
-'
+"
 :
 os
 .
@@ -96,16 +96,16 @@ os
 .
 environ
 [
-'
+"
 PROGRAMFILES
-'
+"
 ]
-'
+"
 Mercurial
-'
-'
+"
+"
 hg
-'
+"
 )
     
 }
@@ -122,9 +122,9 @@ gethostname
 .
 split
 (
-'
+"
 .
-'
+"
 )
 [
 0
@@ -170,16 +170,16 @@ path
 .
 join
 (
-'
+"
 Y
 :
 \
 \
-'
-'
+"
+"
 tooltool
 -
 cache
-'
+"
 )
 }

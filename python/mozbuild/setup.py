@@ -9,24 +9,24 @@ setup
 find_packages
 VERSION
 =
-'
+"
 0
 .
 2
-'
+"
 setup
 (
     
 author
 =
-'
+"
 Mozilla
 Foundation
-'
+"
     
 author_email
 =
-'
+"
 dev
 -
 builds
@@ -35,32 +35,32 @@ lists
 mozilla
 .
 org
-'
+"
     
 name
 =
-'
+"
 mozbuild
-'
+"
     
 description
 =
-'
+"
 Mozilla
 build
 system
 functionality
 .
-'
+"
     
 license
 =
-'
+"
 MPL
 2
 .
 0
-'
+"
     
 packages
 =
@@ -76,13 +76,13 @@ install_requires
 =
 [
         
-'
+"
 jsmin
-'
+"
         
-'
+"
 mozfile
-'
+"
     
 ]
     
@@ -90,7 +90,7 @@ classifiers
 =
 [
         
-'
+"
 Development
 Status
 :
@@ -98,9 +98,9 @@ Status
 3
 -
 Alpha
-'
+"
         
-'
+"
 Topic
 :
 :
@@ -110,9 +110,9 @@ Development
 :
 Build
 Tools
-'
+"
         
-'
+"
 License
 :
 :
@@ -132,9 +132,9 @@ MPL
 .
 0
 )
-'
+"
         
-'
+"
 Programming
 Language
 :
@@ -145,9 +145,9 @@ Python
 2
 .
 7
-'
+"
         
-'
+"
 Programming
 Language
 :
@@ -159,14 +159,14 @@ Implementation
 :
 :
 CPython
-'
+"
     
 ]
     
 keywords
 =
-'
+"
 mozilla
 build
-'
+"
 )

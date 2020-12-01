@@ -42,34 +42,35 @@ schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
-'
+"
 primary
 -
 dependency
-'
-'
+"
+"
 primary
 dependency
 task
-'
+"
 )
 :
 Task
-    
+        
 Required
 (
-        
-'
+            
+"
 dependent
 -
 tasks
-'
-        
-'
+"
+            
+"
 dictionary
 of
 dependent
@@ -77,8 +78,8 @@ tasks
 keyed
 by
 kind
-'
-    
+"
+        
 )
 :
 {
@@ -86,6 +87,7 @@ text_type
 :
 Task
 }
+    
 }
 )
 GROUP_BY_MAP
@@ -325,11 +327,11 @@ config
 .
 get
 (
-'
+"
 job
 -
 template
-'
+"
 )
     
 for
@@ -345,22 +347,22 @@ loaded_tasks
 job
 =
 {
-'
+"
 dependent
 -
 tasks
-'
+"
 :
 dep_tasks
 }
         
 job
 [
-'
+"
 primary
 -
 dependency
-'
+"
 ]
 =
 get_primary_dep
@@ -389,11 +391,11 @@ product
 =
 job
 [
-'
+"
 primary
 -
 dependency
-'
+"
 ]
 .
 attributes
@@ -401,28 +403,27 @@ attributes
 get
 (
             
-'
+"
 shipping_product
-'
-            
+"
 job
 [
-'
+"
 primary
 -
 dependency
-'
+"
 ]
 .
 task
 .
 get
 (
-'
+"
 shipping
 -
 product
-'
+"
 )
         
 )
@@ -435,11 +436,11 @@ job
 .
 setdefault
 (
-'
+"
 shipping
 -
 product
-'
+"
 product
 )
         
@@ -447,16 +448,16 @@ job
 .
 setdefault
 (
-'
+"
 attributes
-'
+"
 {
 }
 )
 [
-'
+"
 required_signoffs
-'
+"
 ]
 =
 sorted_unique_list
@@ -464,19 +465,20 @@ sorted_unique_list
             
 *
 [
+                
 task
 .
 attributes
 .
 get
 (
-'
+"
 required_signoffs
-'
+"
 [
 ]
 )
-              
+                
 for
 task
 in
@@ -485,7 +487,7 @@ dep_tasks
 values
 (
 )
-              
+            
 ]
         
 )
@@ -528,7 +530,7 @@ config
 .
 get
 (
-'
+"
 only
 -
 for
@@ -536,7 +538,7 @@ for
 build
 -
 platforms
-'
+"
 )
     
 not_platforms
@@ -545,7 +547,7 @@ config
 .
 get
 (
-'
+"
 not
 -
 for
@@ -553,7 +555,7 @@ for
 build
 -
 platforms
-'
+"
 )
     
 only_attributes
@@ -562,13 +564,13 @@ config
 .
 get
 (
-'
+"
 only
 -
 for
 -
 attributes
-'
+"
 )
     
 not_attributes
@@ -577,13 +579,13 @@ config
 .
 get
 (
-'
+"
 not
 -
 for
 -
 attributes
-'
+"
 )
     
 task_attrs
@@ -604,9 +606,9 @@ task_attrs
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
         
 build_type
@@ -615,9 +617,9 @@ task_attrs
 .
 get
 (
-'
+"
 build_type
-'
+"
 )
         
 if
@@ -725,11 +727,11 @@ GROUP_BY_MAP
 [
 config
 [
-'
+"
 group
 -
 by
-'
+"
 ]
 ]
     
@@ -766,11 +768,12 @@ combinations
         
 assert_unique_members
 (
+            
 kinds
+            
 error_msg
 =
 (
-            
 "
 Multi_dep
 .
@@ -786,6 +789,7 @@ per
 kind
 "
 )
+        
 )
         
 dependencies
@@ -811,9 +815,9 @@ yield
 dependencies
 group_by
 (
-'
+"
 platform
-'
+"
 )
 def
 platform_grouping
@@ -844,11 +848,11 @@ config
 .
 get
 (
-'
+"
 kind
 -
 dependencies
-'
+"
 [
 ]
 )
@@ -874,9 +878,9 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
         
 build_type
@@ -887,9 +891,9 @@ attributes
 .
 get
 (
-'
+"
 build_type
-'
+"
 )
         
 product
@@ -900,22 +904,23 @@ attributes
 .
 get
 (
-'
+            
+"
 shipping_product
-'
-                                      
+"
 task
 .
 task
 .
 get
 (
-'
+"
 shipping
 -
 product
-'
+"
 )
+        
 )
         
 groups
@@ -940,11 +945,11 @@ return
 groups
 group_by
 (
-'
+"
 single
 -
 locale
-'
+"
 )
 def
 single_locale_grouping
@@ -1073,11 +1078,11 @@ config
 .
 get
 (
-'
+"
 kind
 -
 dependencies
-'
+"
 [
 ]
 )
@@ -1103,9 +1108,9 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
         
 build_type
@@ -1116,9 +1121,9 @@ attributes
 .
 get
 (
-'
+"
 build_type
-'
+"
 )
         
 product
@@ -1129,22 +1134,23 @@ attributes
 .
 get
 (
-'
+            
+"
 shipping_product
-'
-                                      
+"
 task
 .
 task
 .
 get
 (
-'
+"
 shipping
 -
 product
-'
+"
 )
+        
 )
         
 task_locale
@@ -1155,9 +1161,9 @@ attributes
 .
 get
 (
-'
+"
 locale
-'
+"
 )
         
 chunk_locales
@@ -1168,9 +1174,9 @@ attributes
 .
 get
 (
-'
+"
 chunk_locales
-'
+"
 )
         
 locales
@@ -1229,11 +1235,11 @@ return
 groups
 group_by
 (
-'
+"
 chunk
 -
 locales
-'
+"
 )
 def
 chunk_locale_grouping
@@ -1304,11 +1310,11 @@ config
 .
 get
 (
-'
+"
 kind
 -
 dependencies
-'
+"
 [
 ]
 )
@@ -1334,9 +1340,9 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
         
 build_type
@@ -1347,9 +1353,9 @@ attributes
 .
 get
 (
-'
+"
 build_type
-'
+"
 )
         
 product
@@ -1360,22 +1366,23 @@ attributes
 .
 get
 (
-'
+            
+"
 shipping_product
-'
-                                      
+"
 task
 .
 task
 .
 get
 (
-'
+"
 shipping
 -
 product
-'
+"
 )
+        
 )
         
 chunk_locales
@@ -1390,9 +1397,9 @@ attributes
 .
 get
 (
-'
+"
 chunk_locales
-'
+"
 [
 ]
 )
@@ -1441,13 +1448,13 @@ return
 groups
 group_by
 (
-'
+"
 partner
 -
 repack
 -
 ids
-'
+"
 )
 def
 partner_repack_ids_grouping
@@ -1518,11 +1525,11 @@ config
 .
 get
 (
-'
+"
 kind
 -
 dependencies
-'
+"
 [
 ]
 )
@@ -1548,9 +1555,9 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
         
 build_type
@@ -1561,9 +1568,9 @@ attributes
 .
 get
 (
-'
+"
 build_type
-'
+"
 )
         
 product
@@ -1574,28 +1581,30 @@ attributes
 .
 get
 (
-'
+            
+"
 shipping_product
-'
-                                      
+"
 task
 .
 task
 .
 get
 (
-'
+"
 shipping
 -
 product
-'
+"
 )
+        
 )
         
 partner_repack_ids
 =
 tuple
 (
+            
 sorted
 (
 task
@@ -1604,22 +1613,23 @@ task
 .
 get
 (
-'
+"
 extra
-'
+"
 {
 }
 )
 .
 get
 (
-'
+"
 repack_ids
-'
+"
 [
 ]
 )
 )
+        
 )
         
 partner_repack_ids_key
@@ -1788,11 +1798,11 @@ config
 .
 get
 (
-'
+"
 primary
 -
 dependency
-'
+"
 )
     
 if
@@ -1869,11 +1879,13 @@ primary_kind
 :
                 
 assert
+(
+                    
 primary_dep
 is
 None
-\
-                    
+                
+)
 "
 Too
 many
@@ -1890,7 +1902,7 @@ dep_tasks
 .
 format
 (
-                        
+                    
 [
 t
 .
@@ -1900,7 +1912,7 @@ t
 in
 dep_tasks
 ]
-                    
+                
 )
                 
 primary_dep
@@ -1919,6 +1931,7 @@ None
 raise
 Exception
 (
+            
 "
 Can
 '
@@ -1935,18 +1948,19 @@ of
 .
 format
 (
-            
+                
 config
 [
-'
+"
 primary
 -
 dependency
-'
+"
 ]
 config
-        
+            
 )
+        
 )
     
 return

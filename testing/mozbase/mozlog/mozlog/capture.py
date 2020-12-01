@@ -555,6 +555,7 @@ logger
 .
 warning
 (
+                            
 "
 Dropping
 log
@@ -570,6 +571,7 @@ logging_queue
 get
 (
 )
+                        
 )
                     
 except

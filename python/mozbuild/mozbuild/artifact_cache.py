@@ -1,6 +1,6 @@
-'
-'
-'
+"
+"
+"
 Fetch
 and
 cache
@@ -115,9 +115,9 @@ future
 need
 perhaps
 .
-'
-'
-'
+"
+"
+"
 from
 __future__
 import
@@ -149,10 +149,7 @@ mozbuild
 .
 util
 import
-(
-    
 mkdir
-)
 import
 mozpack
 .
@@ -187,9 +184,9 @@ PersistLimit
 )
 :
     
-'
-'
-'
+"
+"
+"
 Handle
 persistence
 for
@@ -403,9 +400,9 @@ freshly
 used
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -429,10 +426,10 @@ __init__
 size_limit
 =
 MAX_CACHED_ARTIFACTS_SIZE
-            
 file_limit
 =
 MIN_CACHED_ARTIFACTS
+        
 )
         
 self
@@ -493,30 +490,30 @@ path
 :
         
 if
+(
+            
 path
 .
 endswith
 (
-'
+"
 .
 pickle
-'
+"
 )
+            
 or
-\
-                
 path
 .
 endswith
 (
-'
+"
 .
 checksum
-'
+"
 )
+            
 or
-\
-                
 os
 .
 path
@@ -527,10 +524,12 @@ path
 )
 =
 =
-'
+"
 .
 metadata_never_index
-'
+"
+        
+)
 :
             
 return
@@ -606,7 +605,6 @@ self
 .
 register_dir_content
 (
-            
 directory
 pattern
 )
@@ -663,8 +661,6 @@ self
 .
 file_limit
 and
-\
-                
 self
 .
 _files_size
@@ -737,27 +733,28 @@ logging
 .
 INFO
                 
-'
+"
 artifact
-'
+"
                 
 {
-'
+"
 filename
-'
+"
 :
 f
 .
 path
 }
                 
-'
+"
 Purged
 artifact
 {
 filename
 }
-'
+"
+            
 )
             
 self
@@ -827,9 +824,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
 Fetch
 artifacts
 from
@@ -843,9 +840,9 @@ artifacts
 from
 disk
 .
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -911,6 +908,7 @@ persist_limit
 self
 .
 _persist_limit
+        
 )
         
 self
@@ -1056,9 +1054,9 @@ fname
 =
 hash
 +
-'
+"
 -
-'
+"
 +
 basename
         
@@ -1105,19 +1103,19 @@ logging
 .
 INFO
                 
-'
+"
 artifact
-'
+"
                 
 {
-'
+"
 path
-'
+"
 :
 path
 }
                 
-'
+"
 Skipping
 cache
 :
@@ -1128,7 +1126,8 @@ artifact
 {
 path
 }
-'
+"
+            
 )
             
 os
@@ -1212,34 +1211,38 @@ self
 .
 log
 (
+                    
 logging
 .
 INFO
-'
+                    
+"
 artifact
-'
-                         
+"
+                    
 {
-'
+                        
+"
 bytes_so_far
-'
+"
 :
 bytes_so_far
-                          
-'
+                        
+"
 total_size
-'
+"
 :
 total_size
-                          
-'
+                        
+"
 percent
-'
+"
 :
 percent
+                    
 }
-                         
-'
+                    
+"
 Downloading
 .
 .
@@ -1252,7 +1255,8 @@ percent
 1f
 }
 %
-'
+"
+                
 )
             
 if
@@ -1268,19 +1272,19 @@ logging
 .
 INFO
                     
-'
+"
 artifact
-'
+"
                     
 {
-'
+"
 path
-'
+"
 :
 path
 }
                     
-'
+"
 Downloading
 artifact
 to
@@ -1290,7 +1294,8 @@ cache
 {
 path
 }
-'
+"
+                
 )
                 
 dl
@@ -1318,19 +1323,19 @@ logging
 .
 INFO
                     
-'
+"
 artifact
-'
+"
                     
 {
-'
+"
 path
-'
+"
 :
 path
 }
                     
-'
+"
 Using
 artifact
 from
@@ -1340,7 +1345,8 @@ cache
 {
 path
 }
-'
+"
+                
 )
                 
 path
@@ -1416,22 +1422,20 @@ log
 logging
 .
 INFO
-                
-'
+"
 artifact
-'
-                
+"
 {
 }
-                
-'
+"
 Skipping
 cache
 :
 ignoring
 clear_cache
 !
-'
+"
+            
 )
             
 return

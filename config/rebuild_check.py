@@ -174,8 +174,8 @@ limit
 :
             
 return
-'
-'
+"
+"
 .
 join
 (
@@ -197,7 +197,7 @@ length
 limit
         
 return
-'
+"
 %
 s
 (
@@ -207,11 +207,11 @@ d
 other
 files
 )
-'
+"
 %
 (
-'
-'
+"
+"
 .
 join
 (
@@ -242,7 +242,8 @@ removed
         
 print
 (
-'
+            
+"
 Rebuilding
 %
 s
@@ -255,14 +256,15 @@ and
 s
 was
 removed
-'
+"
+            
 %
 (
-            
 target
 newer
 removed
 )
+        
 )
     
 elif
@@ -271,7 +273,7 @@ newer
         
 print
 (
-'
+"
 Rebuilding
 %
 s
@@ -279,7 +281,7 @@ because
 %
 s
 changed
-'
+"
 %
 (
 target
@@ -293,7 +295,7 @@ removed
         
 print
 (
-'
+"
 Rebuilding
 %
 s
@@ -302,10 +304,9 @@ because
 s
 was
 removed
-'
+"
 %
 (
-            
 target
 removed
 )
@@ -316,7 +317,7 @@ else
         
 print
 (
-'
+"
 Rebuilding
 %
 s
@@ -324,7 +325,7 @@ for
 an
 unknown
 reason
-'
+"
 %
 target
 )
@@ -332,9 +333,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 import

@@ -91,11 +91,11 @@ ABCMeta
     
 last_test
 =
-'
+"
 mozrunner
 -
 startup
-'
+"
     
 process_handler
 =
@@ -112,36 +112,45 @@ None
 def
 __init__
 (
+        
 self
+        
 app_ctx
 =
 None
+        
 profile
 =
 None
+        
 clean_profile
 =
 True
+        
 env
 =
 None
-                 
+        
 process_class
 =
 None
+        
 process_args
 =
 None
+        
 symbols_path
 =
 None
-                 
+        
 dump_save_path
 =
 None
+        
 addons
 =
 None
+    
 )
 :
         
@@ -176,7 +185,6 @@ profile_class
 profile
 =
 profile
-                                                      
 addons
 =
 addons
@@ -197,6 +205,7 @@ app_ctx
 .
 profile_class
 (
+                
 *
 *
 getattr
@@ -204,13 +213,13 @@ getattr
 self
 .
 app_ctx
-                                                                           
-'
+"
 profile_args
-'
+"
 {
 }
 )
+            
 )
         
 self
@@ -420,6 +429,7 @@ started
 def
 start
 (
+        
 self
 debug_args
 =
@@ -433,6 +443,7 @@ None
 outputTimeout
 =
 None
+    
 )
 :
         
@@ -556,16 +567,16 @@ logger
 .
 info
 (
-'
+"
 Application
 command
 :
 %
 s
-'
+"
 %
-'
-'
+"
+"
 .
 join
 (
@@ -609,11 +620,11 @@ v
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
             
 if
@@ -630,11 +641,11 @@ k
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
             
 encoded_env
@@ -711,11 +722,11 @@ e
                 
 reraise
 (
+                    
 RunnerNotStartedError
-                        
+                    
 RunnerNotStartedError
 (
-                            
 "
 Failed
 to
@@ -732,7 +743,7 @@ format
 e
 )
 )
-                        
+                    
 sys
 .
 exc_info
@@ -741,6 +752,7 @@ exc_info
 [
 2
 ]
+                
 )
         
 self
@@ -1134,6 +1146,7 @@ None
 def
 check_for_crashes
 (
+        
 self
 dump_directory
 =
@@ -1141,13 +1154,13 @@ None
 dump_save_path
 =
 None
-                          
 test_name
 =
 None
 quiet
 =
 False
+    
 )
 :
         
@@ -1259,9 +1272,9 @@ self
 profile
 .
 profile
-'
+"
 minidumps
-'
+"
 )
         
 if
@@ -1325,6 +1338,7 @@ dump_save_path
 test
 =
 test_name
+                    
 )
                 
 else
@@ -1377,6 +1391,7 @@ test_name
 quiet
 =
 quiet
+                    
 )
             
 self

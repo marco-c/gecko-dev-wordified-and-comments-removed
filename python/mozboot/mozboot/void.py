@@ -25,9 +25,7 @@ LinuxBootstrapper
 class
 VoidBootstrapper
 (
-        
 LinuxBootstrapper
-        
 BaseBootstrapper
 )
 :
@@ -36,33 +34,33 @@ PACKAGES
 =
 [
         
-'
+"
 autoconf213
-'
+"
         
-'
+"
 clang
-'
+"
         
-'
+"
 make
-'
+"
         
-'
+"
 mercurial
-'
+"
         
-'
+"
 nodejs
-'
+"
         
-'
+"
 unzip
-'
+"
         
-'
+"
 zip
-'
+"
     
 ]
     
@@ -70,59 +68,59 @@ BROWSER_PACKAGES
 =
 [
         
-'
+"
 dbus
 -
 devel
-'
+"
         
-'
+"
 dbus
 -
 glib
 -
 devel
-'
+"
         
-'
+"
 gtk
 +
 3
 -
 devel
-'
+"
         
-'
+"
 pulseaudio
-'
+"
         
-'
+"
 pulseaudio
 -
 devel
-'
+"
         
-'
+"
 libcurl
 -
 devel
-'
+"
         
-'
+"
 libxcb
 -
 devel
-'
+"
         
-'
+"
 libXt
 -
 devel
-'
+"
         
-'
+"
 yasm
-'
+"
     
 ]
     
@@ -130,13 +128,13 @@ MOBILE_ANDROID_PACKAGES
 =
 [
         
-'
+"
 openjdk8
-'
+"
         
-'
+"
 wget
-'
+"
     
 ]
     
@@ -228,18 +226,18 @@ geteuid
 command
 =
 [
-'
+"
 su
-'
-'
+"
+"
 root
-'
-'
+"
+"
 -
 c
-'
-'
-'
+"
+"
+"
 .
 join
 (
@@ -249,12 +247,12 @@ command
         
 print
 (
-'
+"
 Executing
 as
 root
 :
-'
+"
 subprocess
 .
 list2cmdline
@@ -287,11 +285,11 @@ packages
 command
 =
 [
-'
+"
 xbps
 -
 install
-'
+"
 ]
         
 if
@@ -304,10 +302,10 @@ command
 .
 append
 (
-'
+"
 -
 y
-'
+"
 )
         
 command
@@ -334,15 +332,15 @@ self
 command
 =
 [
-'
+"
 xbps
 -
 install
-'
-'
+"
+"
 -
 Su
-'
+"
 ]
         
 if
@@ -355,10 +353,10 @@ command
 .
 append
 (
-'
+"
 -
 y
-'
+"
 )
         
 self
@@ -506,18 +504,19 @@ android
 .
 ensure_android
 (
-'
+            
+"
 linux
-'
+"
 artifact_mode
 =
 artifact_mode
-                               
 no_interactive
 =
 self
 .
 no_interactive
+        
 )
     
 def
@@ -540,9 +539,9 @@ android
 .
 generate_mozconfig
 (
-'
+"
 linux
-'
+"
 artifact_mode
 =
 artifact_mode
