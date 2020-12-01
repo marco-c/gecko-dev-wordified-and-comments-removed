@@ -22,7 +22,7 @@ gfx
 VRControllerType
 from
 "
-VRMessageUtils
+moz_external_vr
 .
 h
 "
@@ -65,13 +65,6 @@ PrefsTypes
 include
 protocol
 PVRGPU
-;
-include
-"
-VRMessageUtils
-.
-h
-"
 ;
 namespace
 mozilla
