@@ -1495,3 +1495,6 @@ nullptr
 ;
 }
 }
+#
+undef
+LOG
