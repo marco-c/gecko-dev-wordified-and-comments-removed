@@ -69061,6 +69061,7 @@ bug_numbers
 731025
 1584261
 1643431
+1665442
 ]
 "
 alert_emails
@@ -69160,6 +69161,10 @@ menu
 =
 Help
 menu
+8
+=
+Bookmarks
+toolbar
 "
 }
 "
