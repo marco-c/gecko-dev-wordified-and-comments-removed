@@ -697,13 +697,6 @@ n
 "
 race
 :
-ipv6_is_present
-\
-n
-"
-"
-race
-:
 nsSocketTransport
 :
 :
