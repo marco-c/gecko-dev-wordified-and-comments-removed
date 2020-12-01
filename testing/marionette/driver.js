@@ -229,7 +229,7 @@ content
 /
 actors
 /
-MarionetteFrameParent
+MarionetteCommandsParent
 .
 jsm
 "
