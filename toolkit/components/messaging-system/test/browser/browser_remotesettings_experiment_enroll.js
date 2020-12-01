@@ -289,9 +289,13 @@ ExperimentFakes
 waitForExperimentUpdate
 (
 ExperimentAPI
+{
+slug
+:
 recipe
 .
 slug
+}
 )
 ;
 RemoteSettingsExperimentLoader
@@ -347,9 +351,13 @@ ExperimentFakes
 waitForExperimentUpdate
 (
 ExperimentAPI
+{
+slug
+:
 recipe
 .
 slug
+}
 )
 ;
 ExperimentManager
