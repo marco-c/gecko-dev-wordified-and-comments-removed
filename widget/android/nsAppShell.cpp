@@ -396,6 +396,13 @@ h
 #
 include
 "
+GeckoEditableSupport
+.
+h
+"
+#
+include
+"
 GeckoNetworkManager
 .
 h
