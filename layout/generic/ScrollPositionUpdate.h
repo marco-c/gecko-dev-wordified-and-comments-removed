@@ -164,10 +164,6 @@ static
 ScrollPositionUpdate
 NewScrollframe
 (
-const
-ScrollGeneration
-&
-aGeneration
 nsPoint
 aInitialPosition
 )
@@ -176,10 +172,6 @@ static
 ScrollPositionUpdate
 NewScroll
 (
-const
-ScrollGeneration
-&
-aGeneration
 ScrollOrigin
 aOrigin
 nsPoint
@@ -190,10 +182,6 @@ static
 ScrollPositionUpdate
 NewRelativeScroll
 (
-const
-ScrollGeneration
-&
-aGeneration
 nsPoint
 aSource
 nsPoint
@@ -204,10 +192,6 @@ static
 ScrollPositionUpdate
 NewSmoothScroll
 (
-const
-ScrollGeneration
-&
-aGeneration
 ScrollOrigin
 aOrigin
 nsPoint
@@ -218,10 +202,6 @@ static
 ScrollPositionUpdate
 NewPureRelativeScroll
 (
-const
-ScrollGeneration
-&
-aGeneration
 ScrollOrigin
 aOrigin
 ScrollMode
