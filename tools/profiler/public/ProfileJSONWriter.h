@@ -68,5 +68,16 @@ baseprofiler
 :
 SpliceableJSONWriter
 ;
+using
+UniqueJSONStrings
+=
+mozilla
+:
+:
+baseprofiler
+:
+:
+UniqueJSONStrings
+;
 #
 endif

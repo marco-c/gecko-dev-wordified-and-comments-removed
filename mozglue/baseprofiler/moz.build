@@ -89,6 +89,13 @@ cpp
 "
 core
 /
+ProfileJSONWriter
+.
+cpp
+"
+"
+core
+/
 ProfilerBacktrace
 .
 cpp
