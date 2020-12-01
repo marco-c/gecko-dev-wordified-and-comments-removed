@@ -31,6 +31,9 @@ class
 MediaContainerType
 ;
 class
+MediaResult
+;
+class
 TrackInfo
 ;
 class
