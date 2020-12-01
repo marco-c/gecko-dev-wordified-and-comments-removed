@@ -4407,10 +4407,6 @@ MTG
 )
 ;
 }
-mStarted
-=
-false
-;
 }
 void
 AudioCallbackDriver
@@ -5859,6 +5855,10 @@ FallbackToSystemClockDriver
 (
 )
 ;
+mStarted
+=
+false
+;
 }
 }
 else
@@ -5877,6 +5877,10 @@ ThreadRunning
 (
 )
 )
+;
+mStarted
+=
+false
 ;
 }
 }
