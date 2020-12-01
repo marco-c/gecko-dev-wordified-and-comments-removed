@@ -12941,10 +12941,9 @@ new
 ThreadInfo
 (
 "
-AndroidUI
-(
-JVM
-)
+Java
+Main
+Thread
 "
 0
 false
