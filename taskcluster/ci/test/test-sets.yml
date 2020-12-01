@@ -1298,16 +1298,6 @@ test
 coverage
 -
 wpt
-marionette
--
-gpu
--
-tests
-:
--
-marionette
--
-gpu
 mochitest
 -
 headless

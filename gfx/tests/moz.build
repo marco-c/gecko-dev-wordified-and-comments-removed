@@ -34,15 +34,3 @@ chrome
 ini
 "
 ]
-MARIONETTE_GPU_MANIFESTS
-+
-=
-[
-"
-marionette
-/
-manifest
-.
-ini
-"
-]

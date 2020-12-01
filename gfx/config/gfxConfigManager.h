@@ -18,6 +18,9 @@ gfxTypes
 .
 h
 "
+class
+nsIGfxInfo
+;
 namespace
 mozilla
 {
@@ -82,10 +85,6 @@ mWrForceDisabled
 false
 )
 mWrCompositorForceEnabled
-(
-false
-)
-mWrQualified
 (
 false
 )
@@ -184,7 +183,7 @@ bool
 aValue
 )
 ;
-bool
+void
 ConfigureWebRenderQualified
 (
 )
@@ -254,15 +253,6 @@ mWrForceDisabled
 ;
 bool
 mWrCompositorForceEnabled
-;
-bool
-mWrQualified
-;
-Maybe
-<
-bool
->
-mWrQualifiedOverride
 ;
 bool
 mWrForceAngle

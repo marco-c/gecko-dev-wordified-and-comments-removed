@@ -659,18 +659,6 @@ tests
 .
 ini
 "
-                
-"
-gfx
-/
-tests
-/
-marionette
-/
-manifest
-.
-ini
-"
             
 ]
             
