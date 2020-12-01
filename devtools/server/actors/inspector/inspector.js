@@ -145,7 +145,9 @@ server
 /
 actors
 /
-styles
+page
+-
+style
 "
 true
 )

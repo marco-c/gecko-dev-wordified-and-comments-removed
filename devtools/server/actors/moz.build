@@ -160,6 +160,13 @@ object
 js
 "
 "
+page
+-
+style
+.
+js
+"
+"
 pause
 -
 scoped
@@ -224,7 +231,9 @@ string
 js
 "
 "
-styles
+style
+-
+rule
 .
 js
 "
