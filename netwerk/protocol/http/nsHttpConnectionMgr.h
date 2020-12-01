@@ -226,7 +226,7 @@ conn
 )
 ;
 bool
-MoveTransToHTTPSSVCConnEntry
+MoveTransToNewConnEntry
 (
 nsHttpTransaction
 *
@@ -234,6 +234,10 @@ aTrans
 nsHttpConnectionInfo
 *
 aNewCI
+bool
+aNoHttp3ForNewEntry
+=
+false
 )
 ;
 [
