@@ -1147,10 +1147,7 @@ get
 )
 nsPromiseFlatCString
 (
-GetLeafName
-(
 aSourceFile
-)
 )
 .
 get
