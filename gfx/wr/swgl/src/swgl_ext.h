@@ -1389,7 +1389,8 @@ coeffs
 \
 __VA_ARGS__
 )
-SI
+static
+ALWAYS_INLINE
 PackedRGBA8
 convertYUV
 (
