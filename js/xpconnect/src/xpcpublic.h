@@ -112,13 +112,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AlreadyAddRefed
@@ -234,6 +227,13 @@ h
 include
 "
 nsWrapperCache
+.
+h
+"
+#
+include
+"
+jsfriendapi
 .
 h
 "
