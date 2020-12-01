@@ -930,9 +930,16 @@ getGripLengthBubbleText
 (
 object
 .
-promiseState
+preview
 .
+ownProperties
+[
+"
+<
 value
+>
+"
+]
 {
 mode
 :
