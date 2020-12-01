@@ -663,7 +663,7 @@ aFrameBrowsingContextID
 bool
 aInitialSecurityCheckDone
 bool
-aIsThirdPartyRequest
+aIsThirdPartyContext
 bool
 aIsThirdPartyContextToTopWindow
 bool
@@ -705,7 +705,7 @@ nsTArray
 nsCString
 >
 &
-aUnsafeHeaders
+aCorsUnsafeHeaders
 bool
 aForcePreflight
 bool
@@ -716,8 +716,6 @@ bool
 aServiceWorkerTaintingSynthesized
 bool
 aDocumentHasUserInteracted
-bool
-aDocumentHasLoaded
 bool
 aAllowListFutureDocumentsCreatedFromThisRedirectChain
 const
@@ -733,7 +731,7 @@ aHasValidUserGestureActivation
 bool
 aAllowDeprecatedSystemRequests
 bool
-aIsDevToolsContext
+aIsInDevToolsContext
 bool
 aParserCreatedScript
 bool
@@ -1197,11 +1195,6 @@ false
 ;
 bool
 mDocumentHasUserInteracted
-=
-false
-;
-bool
-mDocumentHasLoaded
 =
 false
 ;

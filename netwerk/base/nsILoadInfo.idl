@@ -1982,13 +1982,6 @@ infallible
 ]
 attribute
 boolean
-documentHasLoaded
-;
-[
-infallible
-]
-attribute
-boolean
 allowListFutureDocumentsCreatedFromThisRedirectChain
 ;
 attribute
