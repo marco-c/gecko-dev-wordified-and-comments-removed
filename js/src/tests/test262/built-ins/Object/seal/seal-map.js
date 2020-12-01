@@ -1,0 +1,16 @@
+Object
+.
+seal
+(
+new
+Map
+(
+)
+)
+;
+reportCompare
+(
+0
+0
+)
+;

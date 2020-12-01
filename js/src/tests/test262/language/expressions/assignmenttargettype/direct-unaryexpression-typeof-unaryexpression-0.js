@@ -1,0 +1,15 @@
+DONOTEVALUATE
+(
+)
+;
+function
+_
+(
+)
+{
+typeof
+x
+=
+1
+;
+}

@@ -13,7 +13,9 @@ compareArray
 true
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Empty

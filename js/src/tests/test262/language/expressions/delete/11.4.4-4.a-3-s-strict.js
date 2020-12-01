@@ -23,9 +23,9 @@ Object
 defineProperty
 (
 o
-"
+'
 foo
-"
+'
 desc
 )
 ;

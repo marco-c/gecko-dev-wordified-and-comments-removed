@@ -164,6 +164,14 @@ this
 .
 agent
 .
+setTimeout
+=
+setTimeout
+;
+262
+.
+agent
+.
 getReportAsync
 =
 function

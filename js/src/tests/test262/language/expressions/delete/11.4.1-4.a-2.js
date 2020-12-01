@@ -15,6 +15,7 @@ return
 1
 ;
 }
+;
 var
 desc
 =
@@ -32,9 +33,9 @@ Object
 defineProperty
 (
 o
-"
+'
 foo
-"
+'
 desc
 )
 ;
@@ -65,9 +66,9 @@ o
 .
 hasOwnProperty
 (
-"
+'
 foo
-"
+'
 )
 false
 '

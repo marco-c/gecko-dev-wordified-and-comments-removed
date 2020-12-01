@@ -1,0 +1,16 @@
+Object
+.
+seal
+(
+new
+WeakSet
+(
+)
+)
+;
+reportCompare
+(
+0
+0
+)
+;

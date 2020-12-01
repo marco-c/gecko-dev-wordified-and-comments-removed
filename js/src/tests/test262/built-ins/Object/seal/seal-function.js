@@ -1,0 +1,16 @@
+Object
+.
+seal
+(
+new
+Function
+(
+)
+)
+;
+reportCompare
+(
+0
+0
+)
+;

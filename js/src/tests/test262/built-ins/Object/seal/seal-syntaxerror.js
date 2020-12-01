@@ -1,0 +1,16 @@
+Object
+.
+seal
+(
+new
+SyntaxError
+(
+)
+)
+;
+reportCompare
+(
+0
+0
+)
+;

@@ -14,9 +14,9 @@ Object
 defineProperty
 (
 obj
-"
+'
 prop
-"
+'
 {
 get
 :
@@ -25,9 +25,9 @@ function
 )
 {
 return
-"
+'
 abc
-"
+'
 ;
 }
 configurable
@@ -60,9 +60,9 @@ sameValue
 obj
 .
 prop
-"
+'
 abc
-"
+'
 '
 obj
 .

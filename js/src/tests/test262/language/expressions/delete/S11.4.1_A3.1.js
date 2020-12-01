@@ -80,7 +80,6 @@ MyFunction
 )
 {
 }
-;
 if
 (
 delete

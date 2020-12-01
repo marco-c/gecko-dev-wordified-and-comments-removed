@@ -1,0 +1,16 @@
+Object
+.
+seal
+(
+new
+URIError
+(
+)
+)
+;
+reportCompare
+(
+0
+0
+)
+;

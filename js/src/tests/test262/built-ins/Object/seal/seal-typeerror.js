@@ -1,0 +1,16 @@
+Object
+.
+seal
+(
+new
+TypeError
+(
+)
+)
+;
+reportCompare
+(
+0
+0
+)
+;

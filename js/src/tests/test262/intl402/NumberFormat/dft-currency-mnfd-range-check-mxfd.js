@@ -72,7 +72,7 @@ resolvedOptions
 (
 )
 .
-maximumSignificantDigits
+maximumFractionDigits
 3
 )
 ;

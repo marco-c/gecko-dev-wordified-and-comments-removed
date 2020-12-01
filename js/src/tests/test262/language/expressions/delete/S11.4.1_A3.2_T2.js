@@ -4,7 +4,6 @@ MyFunction
 )
 {
 }
-;
 MyFunction
 .
 prop

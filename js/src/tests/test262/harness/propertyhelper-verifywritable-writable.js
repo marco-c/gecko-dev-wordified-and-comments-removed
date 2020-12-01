@@ -41,7 +41,9 @@ a
 123
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 verifyWritable

@@ -1,0 +1,16 @@
+Object
+.
+seal
+(
+new
+Uint8Array
+(
+)
+)
+;
+reportCompare
+(
+0
+0
+)
+;

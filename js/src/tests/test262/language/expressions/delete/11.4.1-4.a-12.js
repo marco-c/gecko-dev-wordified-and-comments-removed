@@ -6,6 +6,7 @@ a
 2
 3
 ]
+;
 a
 .
 x
@@ -19,6 +20,7 @@ delete
 a
 .
 length
+;
 assert
 .
 sameValue

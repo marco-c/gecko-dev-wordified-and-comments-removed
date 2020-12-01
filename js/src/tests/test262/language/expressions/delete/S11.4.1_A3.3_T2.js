@@ -4,7 +4,6 @@ MyFunction
 )
 {
 }
-;
 MyFunction
 .
 prop
@@ -63,11 +62,9 @@ Actual
 :
 '
 +
-(
 MyFunction
 .
 prop
-)
 )
 ;
 }

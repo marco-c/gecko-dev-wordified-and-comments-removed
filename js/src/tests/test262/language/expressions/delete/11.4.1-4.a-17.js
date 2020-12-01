@@ -15,7 +15,6 @@ arguments
 ]
 ;
 return
-(
 d
 =
 =
@@ -31,7 +30,6 @@ arguments
 =
 =
 undefined
-)
 ;
 }
 assert

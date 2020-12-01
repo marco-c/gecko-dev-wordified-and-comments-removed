@@ -1,0 +1,16 @@
+Object
+.
+seal
+(
+new
+WeakMap
+(
+)
+)
+;
+reportCompare
+(
+0
+0
+)
+;

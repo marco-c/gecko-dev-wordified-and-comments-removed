@@ -4,7 +4,6 @@ Palette
 )
 {
 }
-;
 Palette
 .
 prototype
@@ -12,10 +11,10 @@ prototype
 {
 red
 :
-0xFF0000
+0xff0000
 green
 :
-0x00FF00
+0x00ff00
 }
 ;
 var
@@ -23,6 +22,8 @@ __palette
 =
 new
 Palette
+(
+)
 ;
 if
 (
@@ -32,7 +33,7 @@ red
 !
 =
 =
-0xFF0000
+0xff0000
 )
 {
 ERROR
@@ -78,11 +79,9 @@ Actual
 :
 '
 +
-(
 __palette
 .
 red
-)
 )
 ;
 }
@@ -141,12 +140,10 @@ Actual
 :
 '
 +
-(
 delete
 __palette
 .
 red
-)
 )
 ;
 }
@@ -158,7 +155,7 @@ red
 !
 =
 =
-0xFF0000
+0xff0000
 )
 {
 ERROR
@@ -204,11 +201,9 @@ Actual
 :
 '
 +
-(
 __palette
 .
 red
-)
 )
 ;
 }

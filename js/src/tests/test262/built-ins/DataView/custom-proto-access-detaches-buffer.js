@@ -57,9 +57,7 @@ get
 (
 )
 {
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 buffer
 )

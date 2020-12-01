@@ -1,8 +1,3 @@
-function
-testcase
-(
-)
-{
 var
 x
 =
@@ -13,10 +8,10 @@ d
 =
 eval
 (
-"
+'
 delete
 x
-"
+'
 )
 ;
 assert
@@ -39,11 +34,6 @@ x
 '
 x
 '
-)
-;
-}
-testcase
-(
 )
 ;
 reportCompare

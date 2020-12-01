@@ -1,0 +1,16 @@
+Object
+.
+seal
+(
+new
+Float32Array
+(
+)
+)
+;
+reportCompare
+(
+0
+0
+)
+;

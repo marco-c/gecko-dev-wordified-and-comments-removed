@@ -4,9 +4,12 @@ DONOTEVALUATE
 ;
 (
 {
-s
 \
-u0065t
+u0073
+\
+u0065
+\
+u0074
 m
 (
 v

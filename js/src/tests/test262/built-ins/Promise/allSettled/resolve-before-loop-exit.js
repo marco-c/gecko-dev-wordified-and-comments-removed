@@ -76,7 +76,9 @@ values
 executor
 (
 resolve
-ERROR
+Test262Error
+.
+thrower
 )
 ;
 }

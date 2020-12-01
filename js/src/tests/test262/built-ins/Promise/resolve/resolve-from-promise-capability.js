@@ -63,7 +63,9 @@ arguments
 executor
 (
 resolve
-ERROR
+Test262Error
+.
+thrower
 )
 ;
 assert

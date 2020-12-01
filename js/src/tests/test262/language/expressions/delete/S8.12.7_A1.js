@@ -29,16 +29,13 @@ Actual
 :
 '
 +
-(
 delete
 Math
 .
 E
 )
-)
 ;
 }
-;
 if
 (
 Math
@@ -72,7 +69,6 @@ undefined
 )
 ;
 }
-;
 reportCompare
 (
 0

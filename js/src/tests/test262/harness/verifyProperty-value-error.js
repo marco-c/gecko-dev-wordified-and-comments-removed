@@ -103,7 +103,9 @@ be
 '
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 The
@@ -130,7 +132,9 @@ threw
 false
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Expected

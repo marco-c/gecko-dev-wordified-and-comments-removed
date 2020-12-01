@@ -35,7 +35,7 @@ value
 8
 configurable
 :
-false
+true
 enumerable
 :
 true

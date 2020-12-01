@@ -1,0 +1,13 @@
+Object
+.
+seal
+(
+true
+)
+;
+reportCompare
+(
+0
+0
+)
+;

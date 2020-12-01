@@ -177,7 +177,9 @@ AggregateError
 }
 executor
 (
-ERROR
+Test262Error
+.
+thrower
 reject
 )
 ;

@@ -1,6 +1,3 @@
-var
-typedArray
-;
 testWithTypedArrayConstructors
 (
 function
@@ -8,6 +5,7 @@ function
 TA
 )
 {
+var
 typedArray
 =
 new
@@ -33,6 +31,16 @@ typedArray
 1n
 ;
 }
+'
+typedArray
+[
+0
+]
+=
+1n
+throws
+TypeError
+'
 )
 ;
 }

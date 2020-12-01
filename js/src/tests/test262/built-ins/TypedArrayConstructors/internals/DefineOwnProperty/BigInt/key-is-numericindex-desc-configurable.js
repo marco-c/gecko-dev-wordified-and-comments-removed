@@ -41,7 +41,7 @@ writable
 true
 }
 )
-false
+true
 "
 defineProperty
 '
@@ -58,7 +58,7 @@ sample
 [
 0
 ]
-0n
+42n
 "
 side
 effect

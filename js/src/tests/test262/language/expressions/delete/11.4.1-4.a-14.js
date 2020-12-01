@@ -6,6 +6,7 @@ a
 2
 3
 ]
+;
 a
 .
 x
@@ -20,6 +21,7 @@ a
 [
 1
 ]
+;
 assert
 .
 sameValue

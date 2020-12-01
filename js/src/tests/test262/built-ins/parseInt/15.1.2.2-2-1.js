@@ -14,6 +14,9 @@ parseInt
 "
 "
 )
+must
+return
+NaN
 '
 )
 ;

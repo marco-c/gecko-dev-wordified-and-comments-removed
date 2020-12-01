@@ -1,8 +1,3 @@
-function
-testcase
-(
-)
-{
 var
 o
 =
@@ -47,9 +42,7 @@ assert
 sameValue
 (
 typeof
-(
 o
-)
 '
 object
 '
@@ -74,11 +67,6 @@ o
 .
 x
 '
-)
-;
-}
-testcase
-(
 )
 ;
 reportCompare

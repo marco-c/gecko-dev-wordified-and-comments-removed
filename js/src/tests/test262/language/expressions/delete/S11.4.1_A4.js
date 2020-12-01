@@ -21,9 +21,9 @@ obj
 !
 =
 =
-"
+'
 object
-"
+'
 )
 {
 ERROR
@@ -59,10 +59,8 @@ Actual
 :
 '
 +
-(
 typeof
 obj
-)
 )
 ;
 }

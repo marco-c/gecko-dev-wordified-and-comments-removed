@@ -1,8 +1,3 @@
-function
-testcase
-(
-)
-{
 var
 a
 =
@@ -11,6 +6,7 @@ a
 2
 3
 ]
+;
 a
 .
 x
@@ -22,6 +18,7 @@ d
 =
 delete
 a
+;
 assert
 .
 sameValue
@@ -52,11 +49,6 @@ isArray
 a
 )
 '
-)
-;
-}
-testcase
-(
 )
 ;
 reportCompare

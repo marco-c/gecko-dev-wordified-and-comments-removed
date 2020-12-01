@@ -21,9 +21,9 @@ Object
 defineProperty
 (
 o
-"
+'
 foo
-"
+'
 desc
 )
 ;
@@ -54,9 +54,9 @@ o
 .
 hasOwnProperty
 (
-"
+'
 foo
-"
+'
 )
 true
 '

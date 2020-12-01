@@ -1,8 +1,3 @@
-function
-testcase
-(
-)
-{
 var
 foo
 =
@@ -42,11 +37,6 @@ function
 typeof
 foo
 '
-)
-;
-}
-testcase
-(
 )
 ;
 reportCompare

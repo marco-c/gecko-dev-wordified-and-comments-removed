@@ -1,8 +1,3 @@
-function
-testcase
-(
-)
-{
 var
 x
 =
@@ -52,11 +47,6 @@ delete
 delete
 z
 '
-)
-;
-}
-testcase
-(
 )
 ;
 reportCompare

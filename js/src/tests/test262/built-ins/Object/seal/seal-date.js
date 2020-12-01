@@ -1,0 +1,16 @@
+Object
+.
+seal
+(
+new
+Date
+(
+)
+)
+;
+reportCompare
+(
+0
+0
+)
+;

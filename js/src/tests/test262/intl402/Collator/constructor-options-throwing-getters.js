@@ -15,6 +15,9 @@ usage
 localeMatcher
 "
 "
+collation
+"
+"
 numeric
 "
 "

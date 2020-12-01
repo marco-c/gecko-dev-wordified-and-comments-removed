@@ -49,7 +49,9 @@ second
 false
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Arrays

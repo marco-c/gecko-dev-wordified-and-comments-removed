@@ -1,4 +1,4 @@
-var
+let
 buffer
 =
 new
@@ -7,8 +7,8 @@ ArrayBuffer
 1
 )
 ;
-var
-sample
+let
+dv
 =
 new
 DataView
@@ -27,11 +27,12 @@ assert
 throws
 (
 TypeError
-function
 (
 )
+=
+>
 {
-sample
+dv
 .
 byteLength
 ;

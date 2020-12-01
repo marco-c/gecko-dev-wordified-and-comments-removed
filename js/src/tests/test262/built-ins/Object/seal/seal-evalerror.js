@@ -1,0 +1,16 @@
+Object
+.
+seal
+(
+new
+EvalError
+(
+)
+)
+;
+reportCompare
+(
+0
+0
+)
+;

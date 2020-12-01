@@ -41,7 +41,7 @@ writable
 true
 }
 )
-false
+true
 "
 defineProperty
 '

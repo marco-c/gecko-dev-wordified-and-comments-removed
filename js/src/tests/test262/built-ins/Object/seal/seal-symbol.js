@@ -1,0 +1,15 @@
+Object
+.
+seal
+(
+Symbol
+(
+)
+)
+;
+reportCompare
+(
+0
+0
+)
+;

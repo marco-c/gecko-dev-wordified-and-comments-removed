@@ -1,5 +1,5 @@
+(
 function
-testcase
 (
 )
 {
@@ -11,12 +11,10 @@ b
 )
 {
 return
-(
 delete
 arguments
 .
 callee
-)
 ;
 }
 var
@@ -54,7 +52,7 @@ callee
 )
 ;
 }
-testcase
+)
 (
 )
 ;

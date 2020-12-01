@@ -1,0 +1,15 @@
+var
+await
+=
+0
+;
+await
+=
+1
+;
+reportCompare
+(
+0
+0
+)
+;

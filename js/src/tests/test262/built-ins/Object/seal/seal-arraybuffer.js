@@ -1,0 +1,16 @@
+Object
+.
+seal
+(
+new
+ArrayBuffer
+(
+)
+)
+;
+reportCompare
+(
+0
+0
+)
+;

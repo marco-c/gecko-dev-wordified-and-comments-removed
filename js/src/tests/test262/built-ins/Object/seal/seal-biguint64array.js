@@ -1,0 +1,16 @@
+Object
+.
+seal
+(
+new
+BigUint64Array
+(
+)
+)
+;
+reportCompare
+(
+0
+0
+)
+;

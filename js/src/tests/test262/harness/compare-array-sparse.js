@@ -13,7 +13,9 @@ compareArray
 true
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Sparse
@@ -44,7 +46,9 @@ compareArray
 false
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Sparse
@@ -75,7 +79,9 @@ compareArray
 false
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Sparse
@@ -106,7 +112,9 @@ compareArray
 false
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Sparse
@@ -137,7 +145,9 @@ compareArray
 false
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Sparse

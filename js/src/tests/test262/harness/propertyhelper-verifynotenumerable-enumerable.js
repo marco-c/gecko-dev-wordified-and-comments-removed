@@ -55,7 +55,9 @@ constructor
 Test262Error
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Expected

@@ -12,7 +12,6 @@ delete
 a
 ;
 return
-(
 d
 =
 =
@@ -25,7 +24,6 @@ a
 =
 =
 1
-)
 ;
 }
 assert

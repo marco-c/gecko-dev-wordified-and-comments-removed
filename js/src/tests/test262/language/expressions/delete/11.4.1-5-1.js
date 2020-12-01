@@ -1,8 +1,3 @@
-function
-testcase
-(
-)
-{
 var
 x
 =
@@ -34,11 +29,6 @@ x
 '
 x
 '
-)
-;
-}
-testcase
-(
 )
 ;
 reportCompare

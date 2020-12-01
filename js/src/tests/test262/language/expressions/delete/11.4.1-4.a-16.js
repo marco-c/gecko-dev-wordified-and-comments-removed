@@ -1,5 +1,5 @@
+(
 function
-testcase
 (
 )
 {
@@ -28,7 +28,7 @@ arguments
 )
 ;
 }
-testcase
+)
 (
 )
 ;

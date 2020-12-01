@@ -4,7 +4,6 @@ MyFunction
 )
 {
 }
-;
 var
 MyObjectVar
 =

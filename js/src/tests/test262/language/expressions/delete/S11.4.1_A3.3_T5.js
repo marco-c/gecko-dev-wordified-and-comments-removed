@@ -4,7 +4,6 @@ MyFunction
 )
 {
 }
-;
 MyObjectNotVar
 =
 new
@@ -77,11 +76,9 @@ Actual
 :
 '
 +
-(
 MyObjectNotVar
 .
 prop
-)
 )
 ;
 }
