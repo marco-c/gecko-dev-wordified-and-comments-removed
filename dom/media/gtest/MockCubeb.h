@@ -638,6 +638,8 @@ aUserPtr
 SmartMockCubebStream
 *
 aSelf
+TimeDuration
+aStartDelay
 )
 ;
 ~
@@ -774,6 +776,10 @@ mHasInput
 const
 bool
 mHasOutput
+;
+const
+TimeDuration
+mStartDelay
 ;
 SmartMockCubebStream
 *
@@ -965,6 +971,8 @@ aStateCallback
 void
 *
 aUserPtr
+TimeDuration
+aStartDelay
 )
 :
 MockCubebStream
@@ -978,6 +986,7 @@ aDataCallback
 aStateCallback
 aUserPtr
 this
+aStartDelay
 )
 {
 }
@@ -1061,6 +1070,13 @@ SetSupportDeviceChangeCallback
 (
 bool
 aSupports
+)
+;
+void
+SetStreamStartDelay
+(
+TimeDuration
+aDuration
 )
 ;
 int
@@ -1208,6 +1224,12 @@ bool
 mSupportsDeviceCollectionChangedCallback
 =
 true
+;
+Atomic
+<
+int32_t
+>
+mStreamStartDelayUs
 ;
 nsTArray
 <
