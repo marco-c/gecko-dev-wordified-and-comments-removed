@@ -2051,13 +2051,6 @@ CreateDCompSurfaceHandle
 (
 )
 {
-#
-if
-!
-defined
-(
-__MINGW32__
-)
 if
 (
 !
@@ -2099,13 +2092,6 @@ return
 return
 handle
 ;
-#
-else
-return
-0
-;
-#
-endif
 }
 void
 DeviceManagerDx
