@@ -214,11 +214,6 @@ metadata
 merge
 wpt
 -
-metadata
--
-summary
-wpt
--
 serve
 wpt
 -
