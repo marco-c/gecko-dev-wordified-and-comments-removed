@@ -73,7 +73,7 @@ TestWindow
 "
 )
 /
-NS_ERROR_NOT_AVAILABLE
+NotSupportedError
 /
 "
 Should
@@ -137,7 +137,7 @@ TestWindow
 "
 )
 /
-NS_ERROR_NOT_AVAILABLE
+NotSupportedError
 /
 "
 Should
@@ -575,7 +575,7 @@ TestWindow
 "
 )
 /
-NS_ERROR_NOT_AVAILABLE
+NotSupportedError
 /
 "
 Should
@@ -950,7 +950,7 @@ TestWindow
 "
 )
 /
-NS_ERROR_NOT_AVAILABLE
+NotSupportedError
 /
 "
 Should
@@ -1015,7 +1015,7 @@ TestWindow
 "
 )
 /
-NS_ERROR_NOT_AVAILABLE
+NotSupportedError
 /
 "
 Should
@@ -1204,7 +1204,7 @@ TestWindow
 "
 )
 /
-NS_ERROR_NOT_AVAILABLE
+NotSupportedError
 /
 "
 Should
@@ -1271,7 +1271,7 @@ TestWindow
 "
 )
 /
-NS_ERROR_NOT_AVAILABLE
+NotSupportedError
 /
 "
 Should
@@ -1393,7 +1393,7 @@ TestWindow
 "
 )
 /
-NS_ERROR_NOT_AVAILABLE
+NotSupportedError
 /
 "
 Should

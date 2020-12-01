@@ -166,7 +166,7 @@ TestProcessActor
 "
 )
 /
-NS_ERROR_NOT_AVAILABLE
+NotSupportedError
 /
 "
 Should
@@ -231,7 +231,7 @@ TestProcessActor
 "
 )
 /
-NS_ERROR_NOT_AVAILABLE
+NotSupportedError
 /
 "
 Should
