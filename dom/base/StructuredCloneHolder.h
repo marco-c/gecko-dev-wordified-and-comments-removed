@@ -1185,7 +1185,7 @@ JSStructuredCloneWriter
 *
 aWriter
 const
-nsString
+nsAString
 &
 aString
 )
