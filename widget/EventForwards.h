@@ -1432,6 +1432,14 @@ typename
 IntType
 >
 class
+StartAndEndOffsets
+;
+template
+<
+typename
+IntType
+>
+class
 OffsetAndData
 ;
 }
