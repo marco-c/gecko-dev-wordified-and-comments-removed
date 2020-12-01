@@ -1802,6 +1802,14 @@ Top
 (
 )
 ;
+int32_t
+IndexOf
+(
+BrowsingContext
+*
+aChild
+)
+;
 WindowContext
 *
 GetParentWindowContext
@@ -3297,8 +3305,6 @@ SessionHistoryInfo
 aInfo
 uint32_t
 aLoadType
-int32_t
-aChildOffset
 uint32_t
 aUpdatedCacheKey
 )
