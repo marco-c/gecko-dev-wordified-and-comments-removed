@@ -1290,7 +1290,7 @@ buffer
 setReservedSlot
 (
 LENGTH_SLOT
-PrivateUint32Value
+PrivateValue
 (
 length
 )
