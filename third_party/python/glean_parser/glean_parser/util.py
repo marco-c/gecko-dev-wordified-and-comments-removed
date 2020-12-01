@@ -548,6 +548,17 @@ yaml
 file
 .
     
+:
+raises
+FileNotFoundError
+:
+The
+file
+does
+not
+exist
+.
+    
 "
 "
 "
@@ -564,19 +575,6 @@ dict
         
 return
 path
-    
-if
-not
-path
-.
-is_file
-(
-)
-:
-        
-return
-{
-}
     
 if
 path
@@ -2551,15 +2549,18 @@ reason_codes
 ]
 extra_args
 =
-list
-(
-set
-(
 extra_metric_args
-)
-|
-set
-(
++
+[
+    
+v
+for
+v
+in
 extra_ping_args
-)
-)
+if
+v
+not
+in
+extra_metric_args
+]

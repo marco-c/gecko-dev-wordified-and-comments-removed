@@ -37,6 +37,7 @@ typing
 import
 Any
 Dict
+Optional
 Union
 from
 .
@@ -704,14 +705,16 @@ output_dir
 Path
 options
 :
+Optional
+[
 Dict
 [
 str
 Any
 ]
+]
 =
-{
-}
+None
 )
 -
 >
@@ -819,6 +822,17 @@ build
 "
 "
 "
+    
+if
+options
+is
+None
+:
+        
+options
+=
+{
+}
     
 template
 =
