@@ -45,9 +45,7 @@ display
 -
 moz
 -
-grid
--
-line
+box
 ;
 overflow
 :
