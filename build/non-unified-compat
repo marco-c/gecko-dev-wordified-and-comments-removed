@@ -94,6 +94,10 @@ filesystem
 /
 dom
 /
+flex
+/
+dom
+/
 indexedDB
 /
 dom
