@@ -493,8 +493,6 @@ test
 let
 style
 =
-getComputedStyle
-(
 document
 .
 getElementById
@@ -503,7 +501,8 @@ getElementById
 target
 '
 )
-)
+.
+style
 ;
 assert_not_equals
 (
