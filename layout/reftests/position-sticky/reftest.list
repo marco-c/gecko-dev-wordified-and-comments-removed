@@ -765,9 +765,6 @@ fuzzy
 -
 if
 (
-gtkWidget
-&
-&
 webrender
 &
 &

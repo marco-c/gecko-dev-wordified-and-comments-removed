@@ -525,6 +525,9 @@ webrender
 &
 &
 swgl
+&
+&
+gtkWidget
 49
 -
 49
