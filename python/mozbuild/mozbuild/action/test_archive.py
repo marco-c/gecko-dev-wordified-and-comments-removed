@@ -2130,8 +2130,6 @@ base
 :
 "
 testing
-/
-mozharness
 "
             
 "
@@ -2139,6 +2137,8 @@ pattern
 "
 :
 "
+mozharness
+/
 *
 *
 "
@@ -2157,13 +2157,6 @@ topsrcdir
             
 "
 base
-"
-:
-"
-"
-            
-"
-pattern
 "
 :
 "
@@ -2172,7 +2165,27 @@ third_party
 python
 /
 virtualenv
+"
+            
+"
+dest
+"
+:
+"
+mozharness
 /
+third_party
+/
+python
+/
+virtualenv
+"
+            
+"
+pattern
+"
+:
+"
 *
 *
 "
@@ -2211,6 +2224,14 @@ manifestparser
 *
 *
 "
+            
+"
+dest
+"
+:
+"
+mozharness
+"
         
 }
         
@@ -2245,6 +2266,14 @@ mozfile
 /
 *
 *
+"
+            
+"
+dest
+"
+:
+"
+mozharness
 "
         
 }
@@ -2281,6 +2310,14 @@ mozinfo
 *
 *
 "
+            
+"
+dest
+"
+:
+"
+mozharness
+"
         
 }
         
@@ -2316,6 +2353,14 @@ mozprocess
 *
 *
 "
+            
+"
+dest
+"
+:
+"
+mozharness
+"
         
 }
         
@@ -2350,6 +2395,14 @@ six
 .
 py
 "
+            
+"
+dest
+"
+:
+"
+mozharness
+"
         
 }
         
@@ -2383,6 +2436,14 @@ pattern
 distro
 .
 py
+"
+            
+"
+dest
+"
+:
+"
+mozharness
 "
         
 }
@@ -5002,6 +5063,8 @@ dest
 "
 :
 "
+mozharness
+/
 configs
 "
     
