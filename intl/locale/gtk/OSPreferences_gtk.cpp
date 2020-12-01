@@ -504,12 +504,12 @@ const
 nsACString
 &
 aLocale
-nsAString
+nsACString
 &
 aRetVal
 )
 {
-nsAutoString
+nsAutoCString
 skeleton
 ;
 if

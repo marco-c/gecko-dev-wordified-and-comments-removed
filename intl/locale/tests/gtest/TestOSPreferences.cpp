@@ -122,7 +122,7 @@ Intl_Locale_OSPreferences
 GetDateTimePattern
 )
 {
-nsAutoString
+nsAutoCString
 pattern
 ;
 OSPreferences
@@ -279,9 +279,6 @@ tests
 [
 i
 ]
-;
-nsAutoString
-pattern
 ;
 if
 (
