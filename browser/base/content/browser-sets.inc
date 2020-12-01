@@ -1250,6 +1250,13 @@ FullZoom
 reset
 (
 )
+;
+FullZoom
+.
+resetScalingZoom
+(
+)
+;
 "
 /
 >

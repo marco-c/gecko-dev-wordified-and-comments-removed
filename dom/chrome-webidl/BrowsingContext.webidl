@@ -1262,6 +1262,11 @@ MediaController
 ?
 mediaController
 ;
+void
+resetScalingZoom
+(
+)
+;
 }
 ;
 [
