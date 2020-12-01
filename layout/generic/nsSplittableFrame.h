@@ -226,11 +226,6 @@ nullptr
 nscoord
 CalcAndCacheConsumedBSize
 (
-mozilla
-:
-:
-WritingMode
-aWM
 )
 ;
 nscoord
