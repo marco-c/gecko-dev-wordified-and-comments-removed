@@ -4099,6 +4099,8 @@ classMembers
 FunctionNodeType
 privateMethodInitializer
 (
+TokenPos
+propNamePos
 const
 ParserAtom
 *
