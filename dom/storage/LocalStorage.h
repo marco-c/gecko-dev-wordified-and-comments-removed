@@ -247,16 +247,6 @@ aRv
 )
 override
 ;
-bool
-IsPrivate
-(
-)
-const
-{
-return
-mIsPrivate
-;
-}
 void
 ApplyEvent
 (
