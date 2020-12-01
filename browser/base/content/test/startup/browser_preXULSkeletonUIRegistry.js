@@ -428,6 +428,12 @@ screenX
 screenY
 "
 "
+urlbarHorizontalOffsetCSS
+"
+"
+urlbarWidthCSS
+"
+"
 cssToDevPixelScaling
 "
 ]
