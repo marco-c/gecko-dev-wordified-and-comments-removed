@@ -653,6 +653,8 @@ js
 SyntaxError
 :
 illegal
+"
+"
 character
 U
 +

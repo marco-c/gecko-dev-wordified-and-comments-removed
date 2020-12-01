@@ -575,10 +575,12 @@ DECLARE_KNOWN_MONOCHROME_SETTING
 key_
 value_
 )
+\
 {
 key_
 value_
 }
+\
 static
 const
 KnownMonochromeSetting
