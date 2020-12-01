@@ -90,8 +90,6 @@ final
 :
 public
 PWebGPUChild
-public
-SupportsWeakPtr
 {
 public
 :
