@@ -71,6 +71,13 @@ from_environment
 cwd
 =
 here
+virtualenv_name
+=
+"
+python
+-
+test
+"
 )
 lintdir
 =
@@ -698,6 +705,11 @@ func
 build
 .
 topsrcdir
+virtualenv_manager
+=
+build
+.
+virtualenv_manager
 )
 pytest
 .

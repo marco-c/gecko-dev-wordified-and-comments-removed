@@ -1749,6 +1749,10 @@ num_procs
 =
 None
     
+virtualenv_manager
+=
+None
+    
 *
 *
 lintargs
@@ -1897,6 +1901,9 @@ lint
 .
 setup
 (
+virtualenv_manager
+=
+virtualenv_manager
 )
     
 if

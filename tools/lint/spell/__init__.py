@@ -2,6 +2,8 @@ import
 os
 import
 re
+import
+subprocess
 try
 :
     
@@ -26,12 +28,6 @@ from
 mozlint
 import
 result
-from
-mozlint
-.
-util
-import
-pip
 from
 mozlint
 .
@@ -462,14 +458,34 @@ lintargs
 )
 :
     
-if
-not
-pip
+virtualenv_manager
+=
+lintargs
+[
+"
+virtualenv_manager
+"
+]
+    
+try
+:
+        
+virtualenv_manager
 .
-reinstall_program
+install_pip_requirements
 (
+            
 CODESPELL_REQUIREMENTS_PATH
+quiet
+=
+True
+        
 )
+    
+except
+subprocess
+.
+CalledProcessError
 :
         
 print
