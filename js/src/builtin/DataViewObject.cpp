@@ -5018,12 +5018,11 @@ rval
 .
 set
 (
-DataViewObject
-:
-:
+thisView
+-
+>
 bufferValue
 (
-thisView
 )
 )
 ;

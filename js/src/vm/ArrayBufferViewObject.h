@@ -366,20 +366,13 @@ dataPointerEither_
 )
 ;
 }
-static
 Value
 bufferValue
 (
-const
-ArrayBufferViewObject
-*
-view
 )
+const
 {
 return
-view
--
->
 getFixedSlot
 (
 BUFFER_SLOT
@@ -395,7 +388,6 @@ const
 return
 bufferValue
 (
-this
 )
 .
 isObject
@@ -507,7 +499,6 @@ obj
 =
 bufferValue
 (
-this
 )
 .
 toObjectOrNull
