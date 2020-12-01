@@ -224,7 +224,7 @@ nullptr
 {
 }
 nscoord
-ConsumedBSize
+CalcAndCacheConsumedBSize
 (
 mozilla
 :
@@ -232,7 +232,6 @@ mozilla
 WritingMode
 aWM
 )
-const
 ;
 nscoord
 GetEffectiveComputedBSize
@@ -243,8 +242,6 @@ ReflowInput
 aReflowInput
 nscoord
 aConsumed
-=
-NS_UNCONSTRAINEDSIZE
 )
 const
 ;
