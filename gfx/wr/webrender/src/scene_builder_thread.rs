@@ -43,7 +43,6 @@ api
 :
 :
 {
-DocumentLayer
 GlyphDimensionRequest
 GlyphIndexRequest
 }
@@ -640,7 +639,6 @@ AddDocument
 (
 DocumentId
 DeviceIntSize
-DocumentLayer
 )
 DeleteDocument
 (
@@ -1210,9 +1208,6 @@ new
 device_rect
 :
 DeviceIntRect
-layer
-:
-DocumentLayer
 device_pixel_ratio
 :
 f32
@@ -1252,7 +1247,6 @@ view
 SceneView
 {
 device_rect
-layer
 device_pixel_ratio
 page_zoom_factor
 :
@@ -1733,7 +1727,6 @@ AddDocument
 (
 document_id
 initial_size
-layer
 )
 )
 =
@@ -1759,7 +1752,6 @@ initial_size
 into
 (
 )
-layer
 self
 .
 default_device_pixel_ratio

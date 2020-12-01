@@ -1218,9 +1218,6 @@ ApiHitTester
 size
 :
 DeviceIntSize
-layer
-:
-i8
 id
 :
 u32
@@ -1237,7 +1234,6 @@ api
 add_document_with_id
 (
 size
-layer
 id
 )
 ;
@@ -8188,11 +8184,6 @@ get_max_texture_size
 )
 ;
 }
-let
-layer
-=
-0
-;
 *
 out_handle
 =
@@ -8221,7 +8212,6 @@ next_namespace_id
 )
 None
 window_size
-layer
 document_id
 )
 )

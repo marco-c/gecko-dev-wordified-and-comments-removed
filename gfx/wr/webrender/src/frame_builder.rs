@@ -5,7 +5,6 @@ api
 {
 ColorF
 DebugFlags
-DocumentLayer
 FontRenderMode
 PremultipliedColorF
 }
@@ -2133,9 +2132,6 @@ FrameStamp
 global_device_pixel_scale
 :
 DevicePixelScale
-layer
-:
-DocumentLayer
 device_origin
 :
 DeviceIntPoint
@@ -2765,13 +2761,6 @@ composite_state
 ;
 Frame
 {
-content_origin
-:
-scene
-.
-output_rect
-.
-origin
 device_rect
 :
 DeviceIntRect
@@ -2786,7 +2775,6 @@ output_rect
 .
 size
 )
-layer
 passes
 transform_palette
 :
@@ -4159,17 +4147,9 @@ struct
 Frame
 {
 pub
-content_origin
-:
-DeviceIntPoint
-pub
 device_rect
 :
 DeviceIntRect
-pub
-layer
-:
-DocumentLayer
 pub
 passes
 :

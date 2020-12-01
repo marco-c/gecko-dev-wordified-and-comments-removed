@@ -330,12 +330,6 @@ TileSize
 =
 u16
 ;
-pub
-type
-DocumentLayer
-=
-i8
-;
 #
 [
 derive

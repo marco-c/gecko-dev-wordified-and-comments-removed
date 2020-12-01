@@ -5195,9 +5195,6 @@ Option
 <
 DeviceIntRect
 >
-content_origin
-:
-DeviceIntPoint
 )
 -
 >
@@ -5243,16 +5240,6 @@ self
 to_framebuffer_rect
 (
 scissor_rect
-.
-translate
-(
--
-content_origin
-.
-to_vector
-(
-)
-)
 )
 .
 intersection

@@ -135,8 +135,6 @@ PipelineId
 1
 0
 )
--
-2
 ColorF
 :
 :
@@ -170,8 +168,6 @@ PipelineId
 2
 0
 )
--
-1
 ColorF
 :
 :
@@ -205,7 +201,6 @@ PipelineId
 3
 0
 )
-0
 ColorF
 :
 :
@@ -239,7 +234,6 @@ PipelineId
 4
 0
 )
-1
 ColorF
 :
 :
@@ -272,7 +266,6 @@ new
 for
 (
 pipeline_id
-layer
 color
 offset
 )
@@ -311,7 +304,6 @@ api
 add_document
 (
 size
-layer
 )
 ;
 let

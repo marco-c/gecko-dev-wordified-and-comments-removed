@@ -1845,7 +1845,6 @@ api
 add_document
 (
 device_size
-0
 )
 ;
 let
