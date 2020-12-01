@@ -756,6 +756,9 @@ readerSem
 CrossProcessSemaphoreHandle
 writerSem
 ;
+if
+(
+!
 mRecorder
 -
 >
@@ -778,7 +781,15 @@ RingBufferWriterServices
 this
 )
 )
+)
+{
+mRecorder
+=
+nullptr
 ;
+return
+;
+}
 if
 (
 CanSend
