@@ -2825,7 +2825,10 @@ mDiscoveredClearance
 ;
 }
 static
-void
+mozilla
+:
+:
+LogicalMargin
 ComputeRelativeOffsets
 (
 mozilla
@@ -2843,9 +2846,6 @@ mozilla
 LogicalSize
 &
 aCBSize
-nsMargin
-&
-aComputedOffsets
 )
 ;
 static
