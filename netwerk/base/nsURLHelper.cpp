@@ -5848,7 +5848,7 @@ aValue
 ;
 }
 }
-nsresult
+void
 URLParams
 :
 :
@@ -5886,9 +5886,6 @@ mKey
 ;
 }
 )
-;
-return
-NS_OK
 ;
 }
 }

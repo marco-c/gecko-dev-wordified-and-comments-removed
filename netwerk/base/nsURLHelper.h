@@ -718,7 +718,7 @@ aIndex
 mValue
 ;
 }
-nsresult
+void
 Sort
 (
 )
