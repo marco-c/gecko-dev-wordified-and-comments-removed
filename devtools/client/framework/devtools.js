@@ -2617,14 +2617,6 @@ values
 )
 ;
 }
-isFissionContentToolboxEnabled
-(
-)
-{
-return
-true
-;
-}
 }
 ;
 const

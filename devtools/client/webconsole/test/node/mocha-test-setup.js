@@ -1419,13 +1419,6 @@ exports
 gDevTools
 :
 {
-isFissionContentToolboxEnabled
-:
-(
-)
-=
->
-false
 }
 }
 ;
