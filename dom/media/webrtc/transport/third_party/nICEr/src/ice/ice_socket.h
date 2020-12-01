@@ -245,6 +245,14 @@ void
 handle
 )
 ;
+void
+nr_ice_socket_failed
+(
+nr_ice_socket
+*
+sock
+)
+;
 #
 ifdef
 __cplusplus
