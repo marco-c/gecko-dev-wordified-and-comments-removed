@@ -3503,6 +3503,13 @@ into
 )
 )
 .
+stack_size
+(
+32
+*
+1024
+)
+.
 spawn
 (
 move
