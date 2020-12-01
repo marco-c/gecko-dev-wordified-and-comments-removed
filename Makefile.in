@@ -902,6 +902,9 @@ binaries
 recurse_artifact
 :
 (
+PYTHON3
+)
+(
 topsrcdir
 )
 /
@@ -963,6 +966,9 @@ DIST
 )
 /
 i686
+(
+PYTHON3
+)
 (
 topsrcdir
 )

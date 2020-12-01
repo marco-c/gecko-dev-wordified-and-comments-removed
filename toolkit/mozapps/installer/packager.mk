@@ -612,6 +612,9 @@ data
 .
 '
 (
+PYTHON3
+)
+(
 topsrcdir
 )
 /

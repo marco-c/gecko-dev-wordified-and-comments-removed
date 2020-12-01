@@ -395,6 +395,9 @@ PKG_INST_PATH
 )
 '
 (
+PYTHON3
+)
+(
 MOZILLA_DIR
 )
 /
@@ -483,6 +486,9 @@ USE_UPX
 )
 ifdef
 MOZ_STUB_INSTALLER
+(
+PYTHON3
+)
 (
 MOZILLA_DIR
 )
