@@ -38,6 +38,9 @@ class
 MediaContainerType
 ;
 class
+MediaResult
+;
+class
 DecoderDoctorDiagnostics
 ;
 class
