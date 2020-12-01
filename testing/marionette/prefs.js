@@ -666,7 +666,11 @@ actors
 .
 enabled
 "
-false
+Services
+.
+appinfo
+.
+fissionAutostart
 )
 ;
 }
