@@ -479,13 +479,6 @@ highlighterSettings
 )
 .
 isRequired
-onHideBoxModelHighlighter
-:
-PropTypes
-.
-func
-.
-isRequired
 onSetFlexboxOverlayColor
 :
 PropTypes
@@ -501,13 +494,6 @@ func
 .
 isRequired
 onShowBoxModelEditor
-:
-PropTypes
-.
-func
-.
-isRequired
-onShowBoxModelHighlighter
 :
 PropTypes
 .
