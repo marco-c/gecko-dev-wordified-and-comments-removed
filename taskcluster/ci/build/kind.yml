@@ -158,6 +158,12 @@ macosx
 .
 yml
 -
+macosx
+-
+native
+.
+yml
+-
 windows
 .
 yml
