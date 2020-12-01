@@ -332,9 +332,12 @@ hasBuffer
 setFixedSlot
 (
 LENGTH_SLOT
-Int32Value
+PrivateValue
+(
+size_t
 (
 0
+)
 )
 )
 ;
@@ -549,7 +552,7 @@ byteOffset
 initFixedSlot
 (
 LENGTH_SLOT
-Int32Value
+PrivateValue
 (
 length
 )
