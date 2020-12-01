@@ -211,14 +211,6 @@ Intl
 .
 DateTimeFormat
 -
-fractionalSecondDigits
-"
-        
-"
-Intl
-.
-DateTimeFormat
--
 dayPeriod
 "
         

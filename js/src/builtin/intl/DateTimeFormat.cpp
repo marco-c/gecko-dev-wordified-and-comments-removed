@@ -6036,9 +6036,6 @@ timeZoneName
 case
 UDAT_FRACTIONAL_SECOND_FIELD
 :
-#
-ifdef
-NIGHTLY_BUILD
 return
 &
 JSAtomState
@@ -6046,17 +6043,6 @@ JSAtomState
 :
 fractionalSecond
 ;
-#
-else
-return
-&
-JSAtomState
-:
-:
-unknown
-;
-#
-endif
 case
 UDAT_FLEXIBLE_DAY_PERIOD_FIELD
 :
