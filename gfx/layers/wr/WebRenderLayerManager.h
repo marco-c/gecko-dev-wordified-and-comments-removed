@@ -655,12 +655,6 @@ ScheduleComposite
 override
 ;
 void
-ForceComposite
-(
-)
-override
-;
-void
 SetNeedsComposite
 (
 bool

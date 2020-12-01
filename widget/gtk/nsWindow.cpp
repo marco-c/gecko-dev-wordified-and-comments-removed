@@ -15335,7 +15335,7 @@ GetLayerManager
 )
 -
 >
-ForceComposite
+FlushRendering
 (
 )
 ;
