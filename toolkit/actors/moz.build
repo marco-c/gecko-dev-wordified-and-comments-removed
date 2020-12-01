@@ -256,11 +256,6 @@ PrintingChild
 jsm
 "
 "
-PrintingParent
-.
-jsm
-"
-"
 PurgeSessionHistoryChild
 .
 jsm
