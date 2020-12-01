@@ -436,16 +436,7 @@ PresContext
 (
 )
 const
-{
-return
-mPresShell
--
->
-GetPresContext
-(
-)
 ;
-}
 bool
 IsContentLoaded
 (

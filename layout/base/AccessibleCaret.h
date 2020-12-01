@@ -441,16 +441,7 @@ RootFrame
 (
 )
 const
-{
-return
-mPresShell
--
->
-GetRootFrame
-(
-)
 ;
-}
 nsIFrame
 *
 CustomContentContainerFrame
