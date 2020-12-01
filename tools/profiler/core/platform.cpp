@@ -24023,6 +24023,14 @@ IsThreadSafeAndLockedOnCurrentThread
 )
 |
 |
+ProfilerParent
+:
+:
+IsLockedOnCurrentThread
+(
+)
+|
+|
 ProfilerChild
 :
 :

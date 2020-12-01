@@ -145,6 +145,12 @@ MakeFinalUpdate
 (
 )
 ;
+static
+bool
+IsLockedOnCurrentThread
+(
+)
+;
 private
 :
 friend
