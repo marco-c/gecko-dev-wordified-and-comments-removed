@@ -29778,6 +29778,9 @@ Noto
 Sans
 CJK
 JP
+SEC
+CJK
+JP
 Droid
 Sans
 Japanese
@@ -29802,6 +29805,10 @@ MotoyaLMaru
 MotoyaLCedar
 Noto
 Sans
+Mono
+CJK
+JP
+SEC
 Mono
 CJK
 JP
@@ -29868,6 +29875,9 @@ Noto
 Sans
 CJK
 KR
+SEC
+CJK
+KR
 DroidSansFallback
 Droid
 Sans
@@ -29894,6 +29904,10 @@ Sans
 Mono
 Noto
 Sans
+Mono
+CJK
+KR
+SEC
 Mono
 CJK
 KR
@@ -30930,6 +30944,9 @@ Noto
 Sans
 CJK
 SC
+SEC
+CJK
+SC
 Droid
 Sans
 Fallback
@@ -30960,6 +30977,10 @@ Sans
 Mono
 CJK
 SC
+SEC
+Mono
+CJK
+SC
 Droid
 Sans
 Fallback
@@ -31032,6 +31053,9 @@ Noto
 Sans
 CJK
 TC
+SEC
+CJK
+TC
 Droid
 Sans
 Fallback
@@ -31059,6 +31083,10 @@ Sans
 Mono
 Noto
 Sans
+Mono
+CJK
+TC
+SEC
 Mono
 CJK
 TC
@@ -31134,6 +31162,9 @@ Noto
 Sans
 CJK
 TC
+SEC
+CJK
+TC
 Droid
 Sans
 Fallback
@@ -31161,6 +31192,10 @@ Sans
 Mono
 Noto
 Sans
+Mono
+CJK
+TC
+SEC
 Mono
 CJK
 TC
