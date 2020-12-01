@@ -69,6 +69,17 @@ include
 "
 mozilla
 /
+ipc
+/
+Endpoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h

@@ -83,6 +83,17 @@ PRemoteLazyInputStream
 include
 ClientIPCTypes
 ;
+include
+"
+mozilla
+/
+ipc
+/
+ProtocolMessageUtils
+.
+h
+"
+;
 namespace
 mozilla
 {

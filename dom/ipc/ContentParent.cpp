@@ -1204,6 +1204,17 @@ mozilla
 /
 ipc
 /
+Endpoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 FileDescriptorSetParent
 .
 h

@@ -60,6 +60,17 @@ include
 protocol
 PFileDescriptorSet
 ;
+include
+"
+mozilla
+/
+ipc
+/
+ProtocolMessageUtils
+.
+h
+"
+;
 using
 struct
 mozilla

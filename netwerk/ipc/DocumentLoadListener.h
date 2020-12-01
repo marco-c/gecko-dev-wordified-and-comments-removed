@@ -38,7 +38,7 @@ mozilla
 /
 ipc
 /
-ProtocolUtils
+Endpoint
 .
 h
 "

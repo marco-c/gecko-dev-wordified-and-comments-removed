@@ -216,6 +216,17 @@ mozilla
 /
 ipc
 /
+Endpoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 ProtocolUtils
 .
 h

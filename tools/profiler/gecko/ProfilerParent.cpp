@@ -53,6 +53,17 @@ include
 "
 mozilla
 /
+ipc
+/
+Endpoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h

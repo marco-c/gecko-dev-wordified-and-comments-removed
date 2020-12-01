@@ -82,7 +82,7 @@ mozilla
 /
 ipc
 /
-MessageChannel
+Endpoint
 .
 h
 "
@@ -93,7 +93,7 @@ mozilla
 /
 ipc
 /
-ProtocolUtils
+MessageChannel
 .
 h
 "

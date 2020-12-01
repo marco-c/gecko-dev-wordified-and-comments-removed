@@ -102,6 +102,17 @@ ContentParent
 h
 "
 #
+include
+"
+mozilla
+/
+ipc
+/
+Endpoint
+.
+h
+"
+#
 if
 defined
 (

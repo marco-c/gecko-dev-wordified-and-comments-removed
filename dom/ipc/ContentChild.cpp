@@ -787,6 +787,17 @@ mozilla
 /
 ipc
 /
+Endpoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 FileDescriptorSetChild
 .
 h

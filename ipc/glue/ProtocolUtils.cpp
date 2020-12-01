@@ -49,6 +49,17 @@ mozilla
 /
 ipc
 /
+ProtocolMessageUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 ProtocolUtils
 .
 h

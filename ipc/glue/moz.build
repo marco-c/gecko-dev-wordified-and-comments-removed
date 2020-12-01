@@ -89,6 +89,11 @@ CrossProcessSemaphore
 h
 "
 "
+Endpoint
+.
+h
+"
+"
 EnvironmentMap
 .
 h
@@ -195,6 +200,11 @@ h
 "
 "
 ProcessChild
+.
+h
+"
+"
+ProtocolMessageUtils
 .
 h
 "

@@ -91,6 +91,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+Endpoint
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
