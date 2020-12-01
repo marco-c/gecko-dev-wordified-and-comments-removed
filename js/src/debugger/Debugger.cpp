@@ -26544,6 +26544,7 @@ GetScriptLineExtent
 compiledScript
 )
 <
+=
 line
 )
 {
@@ -27548,6 +27549,7 @@ asJSScript
 )
 )
 <
+=
 line
 )
 {
