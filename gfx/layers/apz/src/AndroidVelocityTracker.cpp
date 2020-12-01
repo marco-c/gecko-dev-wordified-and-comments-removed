@@ -261,9 +261,9 @@ Length
 1
 ]
 ;
-return
-Some
-(
+auto
+velocity
+=
 (
 end
 .
@@ -287,6 +287,12 @@ first
 ToMilliseconds
 (
 )
+;
+return
+Some
+(
+-
+velocity
 )
 ;
 }
