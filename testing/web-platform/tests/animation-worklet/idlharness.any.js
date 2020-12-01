@@ -16,9 +16,6 @@ worklet
 ]
 [
 '
-worklets
-'
-'
 web
 -
 animations
