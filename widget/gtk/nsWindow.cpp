@@ -2032,6 +2032,11 @@ int
 aY
 )
 {
+if
+(
+aWindow
+)
+{
 gdk_window_get_origin
 (
 aWindow
@@ -2039,6 +2044,7 @@ aX
 aY
 )
 ;
+}
 #
 if
 0
