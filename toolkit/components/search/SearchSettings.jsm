@@ -745,16 +745,6 @@ locale
 ;
 settings
 .
-builtInEngineList
-=
-this
-.
-_searchService
-.
-_searchOrder
-;
-settings
-.
 engines
 =
 [
