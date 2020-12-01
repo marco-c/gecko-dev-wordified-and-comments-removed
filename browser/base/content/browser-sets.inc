@@ -1250,13 +1250,6 @@ FullZoom
 reset
 (
 )
-;
-FullZoom
-.
-resetScalingZoom
-(
-)
-;
 "
 /
 >

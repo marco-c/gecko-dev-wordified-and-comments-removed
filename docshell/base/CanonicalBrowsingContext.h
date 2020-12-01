@@ -888,11 +888,6 @@ HistoryCommitIndexAndLength
 (
 )
 ;
-void
-ResetScalingZoom
-(
-)
-;
 protected
 :
 void
