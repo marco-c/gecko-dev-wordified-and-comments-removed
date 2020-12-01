@@ -15,6 +15,11 @@ premultiplied
 aligned
 .
 png
+fuzzy
+(
+1
+500
+)
 platform
 (
 linux
@@ -1011,7 +1016,7 @@ yaml
 fuzzy
 (
 1
-3
+7
 )
 =
 =
@@ -1209,7 +1214,7 @@ png
 fuzzy
 (
 255
-166
+302
 )
 =
 =
