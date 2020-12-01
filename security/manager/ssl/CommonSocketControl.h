@@ -65,6 +65,11 @@ mSSLVersionUsed
 version
 ;
 }
+void
+RebuildCertificateInfoFromSSLTokenCache
+(
+)
+;
 protected
 :
 ~
