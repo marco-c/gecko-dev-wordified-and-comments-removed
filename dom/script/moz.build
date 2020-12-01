@@ -105,6 +105,11 @@ ModuleLoadRequest
 cpp
 "
 "
+nsIScriptElement
+.
+cpp
+"
+"
 ScriptElement
 .
 cpp
