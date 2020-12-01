@@ -610,7 +610,6 @@ processNetworkUpdates
 action
 .
 data
-request
 )
 }
 ;

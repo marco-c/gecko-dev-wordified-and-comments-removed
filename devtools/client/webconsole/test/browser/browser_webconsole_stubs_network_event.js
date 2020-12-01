@@ -959,6 +959,11 @@ securityState
 resource
 .
 securityState
+isRacing
+:
+resource
+.
+isRacing
 }
 ;
 }

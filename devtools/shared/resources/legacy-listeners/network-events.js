@@ -608,6 +608,14 @@ packet
 .
 state
 ;
+resourceUpdates
+.
+isRacing
+=
+packet
+.
+isRacing
+;
 break
 ;
 case
