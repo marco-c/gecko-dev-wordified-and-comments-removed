@@ -487,7 +487,7 @@ optional
 (
 Document
 or
-BodyInit
+XMLHttpRequestBodyInit
 )
 ?
 body
