@@ -42,6 +42,7 @@ regalloc
 allocate_registers_with_opts
 Algorithm
 Options
+PrettyPrint
 }
 ;
 pub
@@ -78,6 +79,19 @@ B
 MInst
 >
 >
+emit_info
+:
+<
+B
+:
+:
+MInst
+as
+MachInstEmit
+>
+:
+:
+Info
 )
 -
 >
@@ -97,7 +111,7 @@ B
 :
 MInst
 :
-ShowWithRRU
+PrettyPrint
 {
 let
 block_order
@@ -120,6 +134,7 @@ new
 (
 f
 abi
+emit_info
 block_order
 )
 ?

@@ -14,6 +14,15 @@ isa
 test_utils
 ;
 use
+crate
+:
+:
+isa
+:
+:
+x64
+;
+use
 alloc
 :
 :
@@ -904,7 +913,6 @@ imm_reg
 rax
 )
 w_rdi
-None
 )
 "
 488B38
@@ -941,7 +949,6 @@ imm_reg
 rbx
 )
 w_rdi
-None
 )
 "
 488B3B
@@ -978,7 +985,6 @@ imm_reg
 rcx
 )
 w_rdi
-None
 )
 "
 488B39
@@ -1015,7 +1021,6 @@ imm_reg
 rdx
 )
 w_rdi
-None
 )
 "
 488B3A
@@ -1052,7 +1057,6 @@ imm_reg
 rbp
 )
 w_rdi
-None
 )
 "
 488B7D00
@@ -1089,7 +1093,6 @@ imm_reg
 rsp
 )
 w_rdi
-None
 )
 "
 488B3C24
@@ -1126,7 +1129,6 @@ imm_reg
 rsi
 )
 w_rdi
-None
 )
 "
 488B3E
@@ -1163,7 +1165,6 @@ imm_reg
 rdi
 )
 w_rdi
-None
 )
 "
 488B3F
@@ -1200,7 +1201,6 @@ imm_reg
 r8
 )
 w_rdi
-None
 )
 "
 498B38
@@ -1237,7 +1237,6 @@ imm_reg
 r9
 )
 w_rdi
-None
 )
 "
 498B39
@@ -1274,7 +1273,6 @@ imm_reg
 r10
 )
 w_rdi
-None
 )
 "
 498B3A
@@ -1311,7 +1309,6 @@ imm_reg
 r11
 )
 w_rdi
-None
 )
 "
 498B3B
@@ -1348,7 +1345,6 @@ imm_reg
 r12
 )
 w_rdi
-None
 )
 "
 498B3C24
@@ -1385,7 +1381,6 @@ imm_reg
 r13
 )
 w_rdi
-None
 )
 "
 498B7D00
@@ -1422,7 +1417,6 @@ imm_reg
 r14
 )
 w_rdi
-None
 )
 "
 498B3E
@@ -1459,7 +1453,6 @@ imm_reg
 r15
 )
 w_rdi
-None
 )
 "
 498B3F
@@ -1496,7 +1489,6 @@ imm_reg
 rax
 )
 w_rdi
-None
 )
 "
 488B787F
@@ -1533,7 +1525,6 @@ imm_reg
 rbx
 )
 w_rdi
-None
 )
 "
 488B7B7F
@@ -1570,7 +1561,6 @@ imm_reg
 rcx
 )
 w_rdi
-None
 )
 "
 488B797F
@@ -1607,7 +1597,6 @@ imm_reg
 rdx
 )
 w_rdi
-None
 )
 "
 488B7A7F
@@ -1644,7 +1633,6 @@ imm_reg
 rbp
 )
 w_rdi
-None
 )
 "
 488B7D7F
@@ -1681,7 +1669,6 @@ imm_reg
 rsp
 )
 w_rdi
-None
 )
 "
 488B7C247F
@@ -1718,7 +1705,6 @@ imm_reg
 rsi
 )
 w_rdi
-None
 )
 "
 488B7E7F
@@ -1755,7 +1741,6 @@ imm_reg
 rdi
 )
 w_rdi
-None
 )
 "
 488B7F7F
@@ -1792,7 +1777,6 @@ imm_reg
 r8
 )
 w_rdi
-None
 )
 "
 498B787F
@@ -1829,7 +1813,6 @@ imm_reg
 r9
 )
 w_rdi
-None
 )
 "
 498B797F
@@ -1866,7 +1849,6 @@ imm_reg
 r10
 )
 w_rdi
-None
 )
 "
 498B7A7F
@@ -1903,7 +1885,6 @@ imm_reg
 r11
 )
 w_rdi
-None
 )
 "
 498B7B7F
@@ -1940,7 +1921,6 @@ imm_reg
 r12
 )
 w_rdi
-None
 )
 "
 498B7C247F
@@ -1977,7 +1957,6 @@ imm_reg
 r13
 )
 w_rdi
-None
 )
 "
 498B7D7F
@@ -2014,7 +1993,6 @@ imm_reg
 r14
 )
 w_rdi
-None
 )
 "
 498B7E7F
@@ -2051,7 +2029,6 @@ imm_reg
 r15
 )
 w_rdi
-None
 )
 "
 498B7F7F
@@ -2091,7 +2068,6 @@ u32
 rax
 )
 w_rdi
-None
 )
 "
 488B7880
@@ -2132,7 +2108,6 @@ u32
 rbx
 )
 w_rdi
-None
 )
 "
 488B7B80
@@ -2173,7 +2148,6 @@ u32
 rcx
 )
 w_rdi
-None
 )
 "
 488B7980
@@ -2214,7 +2188,6 @@ u32
 rdx
 )
 w_rdi
-None
 )
 "
 488B7A80
@@ -2255,7 +2228,6 @@ u32
 rbp
 )
 w_rdi
-None
 )
 "
 488B7D80
@@ -2296,7 +2268,6 @@ u32
 rsp
 )
 w_rdi
-None
 )
 "
 488B7C2480
@@ -2337,7 +2308,6 @@ u32
 rsi
 )
 w_rdi
-None
 )
 "
 488B7E80
@@ -2378,7 +2348,6 @@ u32
 rdi
 )
 w_rdi
-None
 )
 "
 488B7F80
@@ -2419,7 +2388,6 @@ u32
 r8
 )
 w_rdi
-None
 )
 "
 498B7880
@@ -2460,7 +2428,6 @@ u32
 r9
 )
 w_rdi
-None
 )
 "
 498B7980
@@ -2501,7 +2468,6 @@ u32
 r10
 )
 w_rdi
-None
 )
 "
 498B7A80
@@ -2542,7 +2508,6 @@ u32
 r11
 )
 w_rdi
-None
 )
 "
 498B7B80
@@ -2583,7 +2548,6 @@ u32
 r12
 )
 w_rdi
-None
 )
 "
 498B7C2480
@@ -2624,7 +2588,6 @@ u32
 r13
 )
 w_rdi
-None
 )
 "
 498B7D80
@@ -2665,7 +2628,6 @@ u32
 r14
 )
 w_rdi
-None
 )
 "
 498B7E80
@@ -2706,7 +2668,6 @@ u32
 r15
 )
 w_rdi
-None
 )
 "
 498B7F80
@@ -2744,7 +2705,6 @@ imm_reg
 rax
 )
 w_rdi
-None
 )
 "
 488BB880000000
@@ -2781,7 +2741,6 @@ imm_reg
 rbx
 )
 w_rdi
-None
 )
 "
 488BBB80000000
@@ -2818,7 +2777,6 @@ imm_reg
 rcx
 )
 w_rdi
-None
 )
 "
 488BB980000000
@@ -2855,7 +2813,6 @@ imm_reg
 rdx
 )
 w_rdi
-None
 )
 "
 488BBA80000000
@@ -2892,7 +2849,6 @@ imm_reg
 rbp
 )
 w_rdi
-None
 )
 "
 488BBD80000000
@@ -2929,7 +2885,6 @@ imm_reg
 rsp
 )
 w_rdi
-None
 )
 "
 488BBC2480000000
@@ -2966,7 +2921,6 @@ imm_reg
 rsi
 )
 w_rdi
-None
 )
 "
 488BBE80000000
@@ -3003,7 +2957,6 @@ imm_reg
 rdi
 )
 w_rdi
-None
 )
 "
 488BBF80000000
@@ -3040,7 +2993,6 @@ imm_reg
 r8
 )
 w_rdi
-None
 )
 "
 498BB880000000
@@ -3077,7 +3029,6 @@ imm_reg
 r9
 )
 w_rdi
-None
 )
 "
 498BB980000000
@@ -3114,7 +3065,6 @@ imm_reg
 r10
 )
 w_rdi
-None
 )
 "
 498BBA80000000
@@ -3151,7 +3101,6 @@ imm_reg
 r11
 )
 w_rdi
-None
 )
 "
 498BBB80000000
@@ -3188,7 +3137,6 @@ imm_reg
 r12
 )
 w_rdi
-None
 )
 "
 498BBC2480000000
@@ -3225,7 +3173,6 @@ imm_reg
 r13
 )
 w_rdi
-None
 )
 "
 498BBD80000000
@@ -3262,7 +3209,6 @@ imm_reg
 r14
 )
 w_rdi
-None
 )
 "
 498BBE80000000
@@ -3299,7 +3245,6 @@ imm_reg
 r15
 )
 w_rdi
-None
 )
 "
 498BBF80000000
@@ -3339,7 +3284,6 @@ u32
 rax
 )
 w_rdi
-None
 )
 "
 488BB87FFFFFFF
@@ -3380,7 +3324,6 @@ u32
 rbx
 )
 w_rdi
-None
 )
 "
 488BBB7FFFFFFF
@@ -3421,7 +3364,6 @@ u32
 rcx
 )
 w_rdi
-None
 )
 "
 488BB97FFFFFFF
@@ -3462,7 +3404,6 @@ u32
 rdx
 )
 w_rdi
-None
 )
 "
 488BBA7FFFFFFF
@@ -3503,7 +3444,6 @@ u32
 rbp
 )
 w_rdi
-None
 )
 "
 488BBD7FFFFFFF
@@ -3544,7 +3484,6 @@ u32
 rsp
 )
 w_rdi
-None
 )
 "
 488BBC247FFFFFFF
@@ -3585,7 +3524,6 @@ u32
 rsi
 )
 w_rdi
-None
 )
 "
 488BBE7FFFFFFF
@@ -3626,7 +3564,6 @@ u32
 rdi
 )
 w_rdi
-None
 )
 "
 488BBF7FFFFFFF
@@ -3667,7 +3604,6 @@ u32
 r8
 )
 w_rdi
-None
 )
 "
 498BB87FFFFFFF
@@ -3708,7 +3644,6 @@ u32
 r9
 )
 w_rdi
-None
 )
 "
 498BB97FFFFFFF
@@ -3749,7 +3684,6 @@ u32
 r10
 )
 w_rdi
-None
 )
 "
 498BBA7FFFFFFF
@@ -3790,7 +3724,6 @@ u32
 r11
 )
 w_rdi
-None
 )
 "
 498BBB7FFFFFFF
@@ -3831,7 +3764,6 @@ u32
 r12
 )
 w_rdi
-None
 )
 "
 498BBC247FFFFFFF
@@ -3872,7 +3804,6 @@ u32
 r13
 )
 w_rdi
-None
 )
 "
 498BBD7FFFFFFF
@@ -3913,7 +3844,6 @@ u32
 r14
 )
 w_rdi
-None
 )
 "
 498BBE7FFFFFFF
@@ -3954,7 +3884,6 @@ u32
 r15
 )
 w_rdi
-None
 )
 "
 498BBF7FFFFFFF
@@ -3992,7 +3921,6 @@ imm_reg
 rax
 )
 w_rdi
-None
 )
 "
 488BB877207317
@@ -4029,7 +3957,6 @@ imm_reg
 rbx
 )
 w_rdi
-None
 )
 "
 488BBB77207317
@@ -4066,7 +3993,6 @@ imm_reg
 rcx
 )
 w_rdi
-None
 )
 "
 488BB977207317
@@ -4103,7 +4029,6 @@ imm_reg
 rdx
 )
 w_rdi
-None
 )
 "
 488BBA77207317
@@ -4140,7 +4065,6 @@ imm_reg
 rbp
 )
 w_rdi
-None
 )
 "
 488BBD77207317
@@ -4177,7 +4101,6 @@ imm_reg
 rsp
 )
 w_rdi
-None
 )
 "
 488BBC2477207317
@@ -4214,7 +4137,6 @@ imm_reg
 rsi
 )
 w_rdi
-None
 )
 "
 488BBE77207317
@@ -4251,7 +4173,6 @@ imm_reg
 rdi
 )
 w_rdi
-None
 )
 "
 488BBF77207317
@@ -4288,7 +4209,6 @@ imm_reg
 r8
 )
 w_rdi
-None
 )
 "
 498BB877207317
@@ -4325,7 +4245,6 @@ imm_reg
 r9
 )
 w_rdi
-None
 )
 "
 498BB977207317
@@ -4362,7 +4281,6 @@ imm_reg
 r10
 )
 w_rdi
-None
 )
 "
 498BBA77207317
@@ -4399,7 +4317,6 @@ imm_reg
 r11
 )
 w_rdi
-None
 )
 "
 498BBB77207317
@@ -4436,7 +4353,6 @@ imm_reg
 r12
 )
 w_rdi
-None
 )
 "
 498BBC2477207317
@@ -4473,7 +4389,6 @@ imm_reg
 r13
 )
 w_rdi
-None
 )
 "
 498BBD77207317
@@ -4510,7 +4425,6 @@ imm_reg
 r14
 )
 w_rdi
-None
 )
 "
 498BBE77207317
@@ -4547,7 +4461,6 @@ imm_reg
 r15
 )
 w_rdi
-None
 )
 "
 498BBF77207317
@@ -4587,7 +4500,6 @@ u32
 rax
 )
 w_rdi
-None
 )
 "
 488BB8D9A6BECE
@@ -4628,7 +4540,6 @@ u32
 rbx
 )
 w_rdi
-None
 )
 "
 488BBBD9A6BECE
@@ -4669,7 +4580,6 @@ u32
 rcx
 )
 w_rdi
-None
 )
 "
 488BB9D9A6BECE
@@ -4710,7 +4620,6 @@ u32
 rdx
 )
 w_rdi
-None
 )
 "
 488BBAD9A6BECE
@@ -4751,7 +4660,6 @@ u32
 rbp
 )
 w_rdi
-None
 )
 "
 488BBDD9A6BECE
@@ -4792,7 +4700,6 @@ u32
 rsp
 )
 w_rdi
-None
 )
 "
 488BBC24D9A6BECE
@@ -4833,7 +4740,6 @@ u32
 rsi
 )
 w_rdi
-None
 )
 "
 488BBED9A6BECE
@@ -4874,7 +4780,6 @@ u32
 rdi
 )
 w_rdi
-None
 )
 "
 488BBFD9A6BECE
@@ -4915,7 +4820,6 @@ u32
 r8
 )
 w_rdi
-None
 )
 "
 498BB8D9A6BECE
@@ -4956,7 +4860,6 @@ u32
 r9
 )
 w_rdi
-None
 )
 "
 498BB9D9A6BECE
@@ -4997,7 +4900,6 @@ u32
 r10
 )
 w_rdi
-None
 )
 "
 498BBAD9A6BECE
@@ -5038,7 +4940,6 @@ u32
 r11
 )
 w_rdi
-None
 )
 "
 498BBBD9A6BECE
@@ -5079,7 +4980,6 @@ u32
 r12
 )
 w_rdi
-None
 )
 "
 498BBC24D9A6BECE
@@ -5120,7 +5020,6 @@ u32
 r13
 )
 w_rdi
-None
 )
 "
 498BBDD9A6BECE
@@ -5161,7 +5060,6 @@ u32
 r14
 )
 w_rdi
-None
 )
 "
 498BBED9A6BECE
@@ -5202,7 +5100,6 @@ u32
 r15
 )
 w_rdi
-None
 )
 "
 498BBFD9A6BECE
@@ -5242,7 +5139,6 @@ rax
 0
 )
 w_r11
-None
 )
 "
 4C8B5C007F
@@ -5284,7 +5180,6 @@ rax
 1
 )
 w_r11
-None
 )
 "
 4C8B5C477F
@@ -5326,7 +5221,6 @@ rax
 2
 )
 w_r11
-None
 )
 "
 4D8B5C807F
@@ -5368,7 +5262,6 @@ rax
 3
 )
 w_r11
-None
 )
 "
 4D8B5CC77F
@@ -5410,7 +5303,6 @@ rdi
 3
 )
 w_r11
-None
 )
 "
 4C8B5CF87F
@@ -5452,7 +5344,6 @@ rdi
 2
 )
 w_r11
-None
 )
 "
 4C8B5CBF7F
@@ -5494,7 +5385,6 @@ rdi
 1
 )
 w_r11
-None
 )
 "
 4D8B5C787F
@@ -5536,7 +5426,6 @@ rdi
 0
 )
 w_r11
-None
 )
 "
 4D8B5C3F7F
@@ -5581,7 +5470,6 @@ r8
 2
 )
 w_r11
-None
 )
 "
 4E8B5C8080
@@ -5627,7 +5515,6 @@ r8
 3
 )
 w_r11
-None
 )
 "
 4E8B5CC780
@@ -5673,7 +5560,6 @@ r8
 0
 )
 w_r11
-None
 )
 "
 4F8B5C0080
@@ -5719,7 +5605,6 @@ r8
 1
 )
 w_r11
-None
 )
 "
 4F8B5C4780
@@ -5765,7 +5650,6 @@ r15
 1
 )
 w_r11
-None
 )
 "
 4E8B5C7880
@@ -5811,7 +5695,6 @@ r15
 0
 )
 w_r11
-None
 )
 "
 4E8B5C3F80
@@ -5857,7 +5740,6 @@ r15
 3
 )
 w_r11
-None
 )
 "
 4F8B5CF880
@@ -5903,7 +5785,6 @@ r15
 2
 )
 w_r11
-None
 )
 "
 4F8B5CBF80
@@ -5946,7 +5827,6 @@ rax
 0
 )
 w_r11
-None
 )
 "
 4C8B9C00BE25664F
@@ -5988,7 +5868,6 @@ rax
 1
 )
 w_r11
-None
 )
 "
 4C8B9C47BE25664F
@@ -6030,7 +5909,6 @@ rax
 2
 )
 w_r11
-None
 )
 "
 4D8B9C80BE25664F
@@ -6072,7 +5950,6 @@ rax
 3
 )
 w_r11
-None
 )
 "
 4D8B9CC7BE25664F
@@ -6114,7 +5991,6 @@ rdi
 3
 )
 w_r11
-None
 )
 "
 4C8B9CF8BE25664F
@@ -6156,7 +6032,6 @@ rdi
 2
 )
 w_r11
-None
 )
 "
 4C8B9CBFBE25664F
@@ -6198,7 +6073,6 @@ rdi
 1
 )
 w_r11
-None
 )
 "
 4D8B9C78BE25664F
@@ -6240,7 +6114,6 @@ rdi
 0
 )
 w_r11
-None
 )
 "
 4D8B9C3FBE25664F
@@ -6285,7 +6158,6 @@ r8
 2
 )
 w_r11
-None
 )
 "
 4E8B9C8070E9B2D9
@@ -6331,7 +6203,6 @@ r8
 3
 )
 w_r11
-None
 )
 "
 4E8B9CC770E9B2D9
@@ -6377,7 +6248,6 @@ r8
 0
 )
 w_r11
-None
 )
 "
 4F8B9C0070E9B2D9
@@ -6423,7 +6293,6 @@ r8
 1
 )
 w_r11
-None
 )
 "
 4F8B9C4770E9B2D9
@@ -6469,7 +6338,6 @@ r15
 1
 )
 w_r11
-None
 )
 "
 4E8B9C7870E9B2D9
@@ -6515,7 +6383,6 @@ r15
 0
 )
 w_r11
-None
 )
 "
 4E8B9C3F70E9B2D9
@@ -6561,7 +6428,6 @@ r15
 3
 )
 w_r11
-None
 )
 "
 4F8B9CF870E9B2D9
@@ -6607,7 +6473,6 @@ r15
 2
 )
 w_r11
-None
 )
 "
 4F8B9CBF70E9B2D9
@@ -8363,12 +8228,6 @@ rsi
 (
 )
 )
-SourceLoc
-:
-:
-default
-(
-)
 )
 "
 F7FE
@@ -8404,12 +8263,6 @@ regs
 r15
 (
 )
-)
-SourceLoc
-:
-:
-default
-(
 )
 )
 "
@@ -8447,12 +8300,6 @@ r14
 (
 )
 )
-SourceLoc
-:
-:
-default
-(
-)
 )
 "
 41F7F6
@@ -8488,12 +8335,6 @@ regs
 rdi
 (
 )
-)
-SourceLoc
-:
-:
-default
-(
 )
 )
 "
@@ -9221,7 +9062,6 @@ reg
 rdi
 )
 w_rdi
-None
 )
 "
 400FB6FF
@@ -9258,7 +9098,6 @@ reg
 rax
 )
 w_rsi
-None
 )
 "
 0FB6F0
@@ -9295,7 +9134,6 @@ reg
 r15
 )
 w_rsi
-None
 )
 "
 410FB6F7
@@ -9342,7 +9180,6 @@ rcx
 )
 )
 w_rsi
-None
 )
 "
 0FB671F9
@@ -9393,7 +9230,6 @@ r8
 )
 )
 w_rbx
-None
 )
 "
 410FB658F9
@@ -9444,7 +9280,6 @@ r10
 )
 )
 w_r9
-None
 )
 "
 450FB64AF9
@@ -9495,7 +9330,6 @@ r11
 )
 )
 w_rdx
-None
 )
 "
 410FB653F9
@@ -9536,7 +9370,6 @@ reg
 rax
 )
 w_rsi
-None
 )
 "
 480FB6F0
@@ -9573,7 +9406,6 @@ reg
 r10
 )
 w_rsi
-None
 )
 "
 490FB6F2
@@ -9620,7 +9452,6 @@ rcx
 )
 )
 w_rsi
-None
 )
 "
 480FB671F9
@@ -9671,7 +9502,6 @@ r8
 )
 )
 w_rbx
-None
 )
 "
 490FB658F9
@@ -9722,7 +9552,6 @@ r10
 )
 )
 w_r9
-None
 )
 "
 4D0FB64AF9
@@ -9773,7 +9602,6 @@ r11
 )
 )
 w_rdx
-None
 )
 "
 490FB653F9
@@ -9814,7 +9642,6 @@ reg
 rcx
 )
 w_rsi
-None
 )
 "
 0FB7F1
@@ -9851,7 +9678,6 @@ reg
 r10
 )
 w_rsi
-None
 )
 "
 410FB7F2
@@ -9898,7 +9724,6 @@ rcx
 )
 )
 w_rsi
-None
 )
 "
 0FB771F9
@@ -9949,7 +9774,6 @@ r8
 )
 )
 w_rbx
-None
 )
 "
 410FB758F9
@@ -10000,7 +9824,6 @@ r10
 )
 )
 w_r9
-None
 )
 "
 450FB74AF9
@@ -10051,7 +9874,6 @@ r11
 )
 )
 w_rdx
-None
 )
 "
 410FB753F9
@@ -10092,7 +9914,6 @@ reg
 rcx
 )
 w_rsi
-None
 )
 "
 480FB7F1
@@ -10129,7 +9950,6 @@ reg
 r11
 )
 w_rsi
-None
 )
 "
 490FB7F3
@@ -10176,7 +9996,6 @@ rcx
 )
 )
 w_rsi
-None
 )
 "
 480FB771F9
@@ -10227,7 +10046,6 @@ r8
 )
 )
 w_rbx
-None
 )
 "
 490FB758F9
@@ -10278,7 +10096,6 @@ r10
 )
 )
 w_r9
-None
 )
 "
 4D0FB74AF9
@@ -10329,7 +10146,6 @@ r11
 )
 )
 w_rdx
-None
 )
 "
 490FB753F9
@@ -10370,7 +10186,6 @@ reg
 rcx
 )
 w_rsi
-None
 )
 "
 8BF1
@@ -10417,7 +10232,6 @@ rcx
 )
 )
 w_rsi
-None
 )
 "
 8B71F9
@@ -10468,7 +10282,6 @@ r8
 )
 )
 w_rbx
-None
 )
 "
 418B58F9
@@ -10519,7 +10332,6 @@ r10
 )
 )
 w_r9
-None
 )
 "
 458B4AF9
@@ -10570,7 +10382,6 @@ r11
 )
 )
 w_rdx
-None
 )
 "
 418B53F9
@@ -10610,7 +10421,6 @@ rbx
 0
 )
 w_rcx
-None
 )
 "
 488B8C18B3000000
@@ -10652,7 +10462,6 @@ rbx
 0
 )
 w_r8
-None
 )
 "
 4C8B8418B3000000
@@ -10694,7 +10503,6 @@ r9
 0
 )
 w_rcx
-None
 )
 "
 4A8B8C08B3000000
@@ -10736,7 +10544,6 @@ r9
 0
 )
 w_r8
-None
 )
 "
 4E8B8408B3000000
@@ -10778,7 +10585,6 @@ rbx
 0
 )
 w_rcx
-None
 )
 "
 498B8C1AB3000000
@@ -10820,7 +10626,6 @@ rbx
 0
 )
 w_r8
-None
 )
 "
 4D8B841AB3000000
@@ -10862,7 +10667,6 @@ r9
 0
 )
 w_rcx
-None
 )
 "
 4B8B8C0AB3000000
@@ -10904,7 +10708,6 @@ r9
 0
 )
 w_r8
-None
 )
 "
 4F8B840AB3000000
@@ -11053,10 +10856,10 @@ Amode
 :
 rip_relative
 (
-BranchTarget
+MachLabel
 :
 :
-ResolvedOffset
+from_block
 (
 0
 )
@@ -11068,54 +10871,13 @@ w_rdi
 "
 "
 lea
-0
+label0
 (
 %
 rip
 )
 %
 rdi
-"
-)
-)
-;
-insns
-.
-push
-(
-(
-Inst
-:
-:
-lea
-(
-Amode
-:
-:
-rip_relative
-(
-BranchTarget
-:
-:
-ResolvedOffset
-(
-1337
-)
-)
-w_r15
-)
-"
-4C8D3D39050000
-"
-"
-lea
-1337
-(
-%
-rip
-)
-%
-r15
 "
 )
 )
@@ -11142,7 +10904,6 @@ reg
 rdi
 )
 w_rdi
-None
 )
 "
 400FBEFF
@@ -11179,7 +10940,6 @@ reg
 rcx
 )
 w_rsi
-None
 )
 "
 0FBEF1
@@ -11216,7 +10976,6 @@ reg
 r14
 )
 w_rsi
-None
 )
 "
 410FBEF6
@@ -11263,7 +11022,6 @@ rcx
 )
 )
 w_rsi
-None
 )
 "
 0FBE71F9
@@ -11314,7 +11072,6 @@ r8
 )
 )
 w_rbx
-None
 )
 "
 410FBE58F9
@@ -11365,7 +11122,6 @@ r10
 )
 )
 w_r9
-None
 )
 "
 450FBE4AF9
@@ -11416,7 +11172,6 @@ r11
 )
 )
 w_rdx
-None
 )
 "
 410FBE53F9
@@ -11457,7 +11212,6 @@ reg
 rcx
 )
 w_rsi
-None
 )
 "
 480FBEF1
@@ -11494,7 +11248,6 @@ reg
 r15
 )
 w_rsi
-None
 )
 "
 490FBEF7
@@ -11541,7 +11294,6 @@ rcx
 )
 )
 w_rsi
-None
 )
 "
 480FBE71F9
@@ -11592,7 +11344,6 @@ r8
 )
 )
 w_rbx
-None
 )
 "
 490FBE58F9
@@ -11643,7 +11394,6 @@ r10
 )
 )
 w_r9
-None
 )
 "
 4D0FBE4AF9
@@ -11694,7 +11444,6 @@ r11
 )
 )
 w_rdx
-None
 )
 "
 490FBE53F9
@@ -11735,7 +11484,6 @@ reg
 rcx
 )
 w_rsi
-None
 )
 "
 0FBFF1
@@ -11772,7 +11520,6 @@ reg
 r14
 )
 w_rsi
-None
 )
 "
 410FBFF6
@@ -11819,7 +11566,6 @@ rcx
 )
 )
 w_rsi
-None
 )
 "
 0FBF71F9
@@ -11870,7 +11616,6 @@ r8
 )
 )
 w_rbx
-None
 )
 "
 410FBF58F9
@@ -11921,7 +11666,6 @@ r10
 )
 )
 w_r9
-None
 )
 "
 450FBF4AF9
@@ -11972,7 +11716,6 @@ r11
 )
 )
 w_rdx
-None
 )
 "
 410FBF53F9
@@ -12013,7 +11756,6 @@ reg
 rcx
 )
 w_rsi
-None
 )
 "
 480FBFF1
@@ -12050,7 +11792,6 @@ reg
 r13
 )
 w_rsi
-None
 )
 "
 490FBFF5
@@ -12097,7 +11838,6 @@ rcx
 )
 )
 w_rsi
-None
 )
 "
 480FBF71F9
@@ -12148,7 +11888,6 @@ r8
 )
 )
 w_rbx
-None
 )
 "
 490FBF58F9
@@ -12199,7 +11938,6 @@ r10
 )
 )
 w_r9
-None
 )
 "
 4D0FBF4AF9
@@ -12250,7 +11988,6 @@ r11
 )
 )
 w_rdx
-None
 )
 "
 490FBF53F9
@@ -12291,7 +12028,6 @@ reg
 rcx
 )
 w_rsi
-None
 )
 "
 4863F1
@@ -12328,7 +12064,6 @@ reg
 r15
 )
 w_rsi
-None
 )
 "
 4963F7
@@ -12375,7 +12110,6 @@ rcx
 )
 )
 w_rsi
-None
 )
 "
 486371F9
@@ -12426,7 +12160,6 @@ r8
 )
 )
 w_rbx
-None
 )
 "
 496358F9
@@ -12477,7 +12210,6 @@ r10
 )
 )
 w_r9
-None
 )
 "
 4D634AF9
@@ -12528,7 +12260,6 @@ r11
 )
 )
 w_rdx
-None
 )
 "
 496353F9
@@ -12567,7 +12298,6 @@ imm_reg
 99
 rdi
 )
-None
 )
 "
 48894763
@@ -12605,7 +12335,6 @@ imm_reg
 99
 r8
 )
-None
 )
 "
 49895863
@@ -12643,7 +12372,6 @@ imm_reg
 99
 rsi
 )
-None
 )
 "
 48894E63
@@ -12681,7 +12409,6 @@ imm_reg
 99
 r9
 )
-None
 )
 "
 49895163
@@ -12719,7 +12446,6 @@ imm_reg
 99
 rax
 )
-None
 )
 "
 48897063
@@ -12757,7 +12483,6 @@ imm_reg
 99
 r15
 )
-None
 )
 "
 49897F63
@@ -12795,7 +12520,6 @@ imm_reg
 99
 rcx
 )
-None
 )
 "
 48896163
@@ -12833,7 +12557,6 @@ imm_reg
 99
 r14
 )
-None
 )
 "
 49896E63
@@ -12871,7 +12594,6 @@ imm_reg
 99
 rdi
 )
-None
 )
 "
 4C894763
@@ -12909,7 +12631,6 @@ imm_reg
 99
 r8
 )
-None
 )
 "
 4D894863
@@ -12947,7 +12668,6 @@ imm_reg
 99
 rsi
 )
-None
 )
 "
 4C895663
@@ -12985,7 +12705,6 @@ imm_reg
 99
 r9
 )
-None
 )
 "
 4D895963
@@ -13023,7 +12742,6 @@ imm_reg
 99
 rax
 )
-None
 )
 "
 4C896063
@@ -13061,7 +12779,6 @@ imm_reg
 99
 r15
 )
-None
 )
 "
 4D896F63
@@ -13099,7 +12816,6 @@ imm_reg
 99
 rcx
 )
-None
 )
 "
 4C897163
@@ -13137,7 +12853,6 @@ imm_reg
 99
 r14
 )
-None
 )
 "
 4D897E63
@@ -13175,7 +12890,6 @@ imm_reg
 99
 rdi
 )
-None
 )
 "
 894763
@@ -13213,7 +12927,6 @@ imm_reg
 99
 r8
 )
-None
 )
 "
 41895863
@@ -13251,7 +12964,6 @@ imm_reg
 99
 rsi
 )
-None
 )
 "
 894E63
@@ -13289,7 +13001,6 @@ imm_reg
 99
 r9
 )
-None
 )
 "
 41895163
@@ -13327,7 +13038,6 @@ imm_reg
 99
 rax
 )
-None
 )
 "
 897063
@@ -13365,7 +13075,6 @@ imm_reg
 99
 r15
 )
-None
 )
 "
 41897F63
@@ -13403,7 +13112,6 @@ imm_reg
 99
 rcx
 )
-None
 )
 "
 896163
@@ -13441,7 +13149,6 @@ imm_reg
 99
 r14
 )
-None
 )
 "
 41896E63
@@ -13479,7 +13186,6 @@ imm_reg
 99
 rdi
 )
-None
 )
 "
 44894763
@@ -13517,7 +13223,6 @@ imm_reg
 99
 r8
 )
-None
 )
 "
 45894863
@@ -13555,7 +13260,6 @@ imm_reg
 99
 rsi
 )
-None
 )
 "
 44895663
@@ -13593,7 +13297,6 @@ imm_reg
 99
 r9
 )
-None
 )
 "
 45895963
@@ -13631,7 +13334,6 @@ imm_reg
 99
 rax
 )
-None
 )
 "
 44896063
@@ -13669,7 +13371,6 @@ imm_reg
 99
 r15
 )
-None
 )
 "
 45896F63
@@ -13707,7 +13408,6 @@ imm_reg
 99
 rcx
 )
-None
 )
 "
 44897163
@@ -13745,7 +13445,6 @@ imm_reg
 99
 r14
 )
-None
 )
 "
 45897E63
@@ -13783,7 +13482,6 @@ imm_reg
 99
 rdi
 )
-None
 )
 "
 66894763
@@ -13821,7 +13519,6 @@ imm_reg
 99
 r8
 )
-None
 )
 "
 6641895863
@@ -13859,7 +13556,6 @@ imm_reg
 99
 rsi
 )
-None
 )
 "
 66894E63
@@ -13897,7 +13593,6 @@ imm_reg
 99
 r9
 )
-None
 )
 "
 6641895163
@@ -13935,7 +13630,6 @@ imm_reg
 99
 rax
 )
-None
 )
 "
 66897063
@@ -13973,7 +13667,6 @@ imm_reg
 99
 r15
 )
-None
 )
 "
 6641897F63
@@ -14011,7 +13704,6 @@ imm_reg
 99
 rcx
 )
-None
 )
 "
 66896163
@@ -14049,7 +13741,6 @@ imm_reg
 99
 r14
 )
-None
 )
 "
 6641896E63
@@ -14087,7 +13778,6 @@ imm_reg
 99
 rdi
 )
-None
 )
 "
 6644894763
@@ -14125,7 +13815,6 @@ imm_reg
 99
 r8
 )
-None
 )
 "
 6645894863
@@ -14163,7 +13852,6 @@ imm_reg
 99
 rsi
 )
-None
 )
 "
 6644895663
@@ -14201,7 +13889,6 @@ imm_reg
 99
 r9
 )
-None
 )
 "
 6645895963
@@ -14239,7 +13926,6 @@ imm_reg
 99
 rax
 )
-None
 )
 "
 6644896063
@@ -14277,7 +13963,6 @@ imm_reg
 99
 r15
 )
-None
 )
 "
 6645896F63
@@ -14315,7 +14000,6 @@ imm_reg
 99
 rcx
 )
-None
 )
 "
 6644897163
@@ -14353,7 +14037,6 @@ imm_reg
 99
 r14
 )
-None
 )
 "
 6645897E63
@@ -14391,7 +14074,6 @@ imm_reg
 99
 rdi
 )
-None
 )
 "
 884763
@@ -14429,7 +14111,6 @@ imm_reg
 99
 r8
 )
-None
 )
 "
 41885863
@@ -14467,7 +14148,6 @@ imm_reg
 99
 rsi
 )
-None
 )
 "
 884E63
@@ -14505,7 +14185,6 @@ imm_reg
 99
 r9
 )
-None
 )
 "
 41885163
@@ -14543,7 +14222,6 @@ imm_reg
 99
 rax
 )
-None
 )
 "
 40887063
@@ -14581,7 +14259,6 @@ imm_reg
 99
 r15
 )
-None
 )
 "
 41887F63
@@ -14619,7 +14296,6 @@ imm_reg
 99
 rcx
 )
-None
 )
 "
 40886163
@@ -14657,7 +14333,6 @@ imm_reg
 99
 r14
 )
-None
 )
 "
 41886E63
@@ -14695,7 +14370,6 @@ imm_reg
 99
 rdi
 )
-None
 )
 "
 44884763
@@ -14733,7 +14407,6 @@ imm_reg
 99
 r8
 )
-None
 )
 "
 45884863
@@ -14771,7 +14444,6 @@ imm_reg
 99
 rsi
 )
-None
 )
 "
 44885663
@@ -14809,7 +14481,6 @@ imm_reg
 99
 r9
 )
-None
 )
 "
 45885963
@@ -14847,7 +14518,6 @@ imm_reg
 99
 rax
 )
-None
 )
 "
 44886063
@@ -14885,7 +14555,6 @@ imm_reg
 99
 r15
 )
-None
 )
 "
 45886F63
@@ -14923,7 +14592,6 @@ imm_reg
 99
 rcx
 )
-None
 )
 "
 44887163
@@ -14961,7 +14629,6 @@ imm_reg
 99
 r14
 )
-None
 )
 "
 45887E63
@@ -18717,12 +18384,6 @@ Vec
 new
 (
 )
-SourceLoc
-:
-:
-default
-(
-)
 Opcode
 :
 :
@@ -18773,12 +18434,6 @@ Vec
 :
 :
 new
-(
-)
-SourceLoc
-:
-:
-default
 (
 )
 Opcode
@@ -20146,6 +19801,150 @@ xmm_rm_r
 SseOpcode
 :
 :
+Psubsb
+RegMem
+:
+:
+reg
+(
+xmm9
+)
+w_xmm5
+)
+"
+66410FE8E9
+"
+"
+psubsb
+%
+xmm9
+%
+xmm5
+"
+)
+)
+;
+insns
+.
+push
+(
+(
+Inst
+:
+:
+xmm_rm_r
+(
+SseOpcode
+:
+:
+Psubsw
+RegMem
+:
+:
+reg
+(
+xmm7
+)
+w_xmm6
+)
+"
+660FE9F7
+"
+"
+psubsw
+%
+xmm7
+%
+xmm6
+"
+)
+)
+;
+insns
+.
+push
+(
+(
+Inst
+:
+:
+xmm_rm_r
+(
+SseOpcode
+:
+:
+Psubusb
+RegMem
+:
+:
+reg
+(
+xmm12
+)
+w_xmm13
+)
+"
+66450FD8EC
+"
+"
+psubusb
+%
+xmm12
+%
+xmm13
+"
+)
+)
+;
+insns
+.
+push
+(
+(
+Inst
+:
+:
+xmm_rm_r
+(
+SseOpcode
+:
+:
+Psubusw
+RegMem
+:
+:
+reg
+(
+xmm1
+)
+w_xmm8
+)
+"
+66440FD9C1
+"
+"
+psubusw
+%
+xmm1
+%
+xmm8
+"
+)
+)
+;
+insns
+.
+push
+(
+(
+Inst
+:
+:
+xmm_rm_r
+(
+SseOpcode
+:
+:
 Pavgb
 RegMem
 :
@@ -20969,6 +20768,114 @@ push
 Inst
 :
 :
+xmm_rm_r
+(
+SseOpcode
+:
+:
+Packsswb
+RegMem
+:
+:
+reg
+(
+xmm11
+)
+w_xmm2
+)
+"
+66410F63D3
+"
+"
+packsswb
+%
+xmm11
+%
+xmm2
+"
+)
+)
+;
+insns
+.
+push
+(
+(
+Inst
+:
+:
+xmm_rm_r
+(
+SseOpcode
+:
+:
+Cvtdq2ps
+RegMem
+:
+:
+reg
+(
+xmm1
+)
+w_xmm8
+)
+"
+440F5BC1
+"
+"
+cvtdq2ps
+%
+xmm1
+%
+xmm8
+"
+)
+)
+;
+insns
+.
+push
+(
+(
+Inst
+:
+:
+xmm_rm_r
+(
+SseOpcode
+:
+:
+Cvttps2dq
+RegMem
+:
+:
+reg
+(
+xmm9
+)
+w_xmm8
+)
+"
+F3450F5BC1
+"
+"
+cvttps2dq
+%
+xmm9
+%
+xmm8
+"
+)
+)
+;
+insns
+.
+push
+(
+(
+Inst
+:
+:
 xmm_mov_r_m
 (
 SseOpcode
@@ -20984,7 +20891,6 @@ imm_reg
 128
 r12
 )
-None
 )
 "
 F3450F11BC2480000000
@@ -21025,7 +20931,6 @@ imm_reg
 0
 rsi
 )
-None
 )
 "
 F20F110E
@@ -21697,6 +21602,108 @@ push
 Inst
 :
 :
+xmm_to_gpr
+(
+SseOpcode
+:
+:
+Pmovmskb
+xmm10
+w_rax
+OperandSize
+:
+:
+Size32
+)
+"
+66410FD7C2
+"
+"
+pmovmskb
+%
+xmm10
+%
+eax
+"
+)
+)
+;
+insns
+.
+push
+(
+(
+Inst
+:
+:
+xmm_to_gpr
+(
+SseOpcode
+:
+:
+Movmskps
+xmm2
+w_rax
+OperandSize
+:
+:
+Size32
+)
+"
+0F50C2
+"
+"
+movmskps
+%
+xmm2
+%
+eax
+"
+)
+)
+;
+insns
+.
+push
+(
+(
+Inst
+:
+:
+xmm_to_gpr
+(
+SseOpcode
+:
+:
+Movmskpd
+xmm0
+w_rcx
+OperandSize
+:
+:
+Size32
+)
+"
+660F50C8
+"
+"
+movmskpd
+%
+xmm0
+%
+ecx
+"
+)
+)
+;
+insns
+.
+push
+(
+(
+Inst
+:
+:
 gpr_to_xmm
 (
 SseOpcode
@@ -22188,9 +22195,6 @@ rbx
 dst
 :
 am1
-srcloc
-:
-None
 }
 "
 F0410FB09C9241010000
@@ -22238,9 +22242,6 @@ am2
 clone
 (
 )
-srcloc
-:
-None
 }
 "
 F00FB094F1C7CFFFFF
@@ -22289,9 +22290,6 @@ am2
 clone
 (
 )
-srcloc
-:
-None
 }
 "
 F0400FB0B4F1C7CFFFFF
@@ -22340,9 +22338,6 @@ am2
 clone
 (
 )
-srcloc
-:
-None
 }
 "
 F0440FB094F1C7CFFFFF
@@ -22391,9 +22386,6 @@ am2
 clone
 (
 )
-srcloc
-:
-None
 }
 "
 F0440FB0BCF1C7CFFFFF
@@ -22442,9 +22434,6 @@ am2
 clone
 (
 )
-srcloc
-:
-None
 }
 "
 66F00FB1B4F1C7CFFFFF
@@ -22493,9 +22482,6 @@ am2
 clone
 (
 )
-srcloc
-:
-None
 }
 "
 66F0440FB194F1C7CFFFFF
@@ -22544,9 +22530,6 @@ am2
 clone
 (
 )
-srcloc
-:
-None
 }
 "
 F00FB1B4F1C7CFFFFF
@@ -22595,9 +22578,6 @@ am2
 clone
 (
 )
-srcloc
-:
-None
 }
 "
 F0440FB194F1C7CFFFFF
@@ -22646,9 +22626,6 @@ am2
 clone
 (
 )
-srcloc
-:
-None
 }
 "
 F0480FB1B4F1C7CFFFFF
@@ -22697,9 +22674,6 @@ am2
 clone
 (
 )
-srcloc
-:
-None
 }
 "
 F04C0FB194F1C7CFFFFF
@@ -22747,9 +22721,6 @@ AtomicRmwOp
 :
 :
 Or
-srcloc
-:
-None
 }
 "
 490FB6014989C34D09D3F0450FB0190F85EFFFFFFF
@@ -22813,9 +22784,6 @@ AtomicRmwOp
 :
 :
 And
-srcloc
-:
-None
 }
 "
 490FB7014989C34D21D366F0450FB1190F85EEFFFFFF
@@ -22879,9 +22847,6 @@ AtomicRmwOp
 :
 :
 Xchg
-srcloc
-:
-None
 }
 "
 418B014989C34D89D3F0450FB1190F85EFFFFFFF
@@ -22945,9 +22910,6 @@ AtomicRmwOp
 :
 :
 Add
-srcloc
-:
-None
 }
 "
 498B014989C34D01D3F04D0FB1190F85EFFFFFFF
@@ -23083,20 +23045,12 @@ hlt
 )
 ;
 let
-trap_info
+trap_code
 =
-(
-SourceLoc
-:
-:
-default
-(
-)
 TrapCode
 :
 :
 UnreachableCodeReached
-)
 ;
 insns
 .
@@ -23108,7 +23062,7 @@ Inst
 :
 Ud2
 {
-trap_info
+trap_code
 }
 "
 0F0B
@@ -23139,6 +23093,74 @@ builder
 )
 )
 ;
+use
+crate
+:
+:
+settings
+:
+:
+Configurable
+;
+let
+mut
+isa_flag_builder
+=
+x64
+:
+:
+settings
+:
+:
+builder
+(
+)
+;
+isa_flag_builder
+.
+enable
+(
+"
+has_ssse3
+"
+)
+.
+unwrap
+(
+)
+;
+isa_flag_builder
+.
+enable
+(
+"
+has_sse41
+"
+)
+.
+unwrap
+(
+)
+;
+let
+isa_flags
+=
+x64
+:
+:
+settings
+:
+:
+Flags
+:
+:
+new
+(
+&
+flags
+isa_flag_builder
+)
+;
 let
 rru
 =
@@ -23149,6 +23171,18 @@ create_reg_universe_systemv
 (
 &
 flags
+)
+;
+let
+emit_info
+=
+EmitInfo
+:
+:
+new
+(
+flags
+isa_flags
 )
 ;
 for
@@ -23214,7 +23248,7 @@ emit
 mut
 buffer
 &
-flags
+emit_info
 &
 mut
 Default
@@ -23223,6 +23257,22 @@ Default
 default
 (
 )
+)
+;
+let
+label
+=
+buffer
+.
+get_label
+(
+)
+;
+buffer
+.
+bind_label
+(
+label
 )
 ;
 let

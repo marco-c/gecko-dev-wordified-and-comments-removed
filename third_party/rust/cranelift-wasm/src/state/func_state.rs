@@ -22,8 +22,8 @@ translation_utils
 FuncIndex
 GlobalIndex
 MemoryIndex
-SignatureIndex
 TableIndex
+TypeIndex
 }
 ;
 use
@@ -754,7 +754,7 @@ signatures
 :
 HashMap
 <
-SignatureIndex
+TypeIndex
 (
 ir
 :
@@ -2135,7 +2135,7 @@ usize
 let
 index
 =
-SignatureIndex
+TypeIndex
 :
 :
 from_u32

@@ -272,7 +272,10 @@ epilogues_start
 :
 Vec
 <
+(
 Inst
+Block
+)
 >
 pub
 stack_limit

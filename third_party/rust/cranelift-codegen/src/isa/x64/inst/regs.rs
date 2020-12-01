@@ -2,16 +2,7 @@ use
 crate
 :
 :
-{
-machinst
-:
-:
-pretty_print
-:
-:
-ShowWithRRU
 settings
-}
 ;
 use
 alloc
@@ -27,6 +18,7 @@ regalloc
 :
 :
 {
+PrettyPrint
 RealReg
 RealRegUniverse
 Reg

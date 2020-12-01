@@ -731,6 +731,9 @@ M64
 limits
 :
 ResizableLimits64
+shared
+:
+bool
 }
 }
 impl
@@ -2284,6 +2287,7 @@ I32x4MinS
 I32x4MinU
 I32x4MaxS
 I32x4MaxU
+I32x4DotI16x8S
 I64x2Neg
 I64x2Shl
 I64x2ShrS
@@ -2354,7 +2358,19 @@ memarg
 :
 MemoryImmediate
 }
+V128Load32Zero
+{
+memarg
+:
+MemoryImmediate
+}
 V128Load64Splat
+{
+memarg
+:
+MemoryImmediate
+}
+V128Load64Zero
 {
 memarg
 :

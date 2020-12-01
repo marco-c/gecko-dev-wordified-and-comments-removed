@@ -18,6 +18,7 @@ regalloc
 :
 :
 {
+PrettyPrint
 RealRegUniverse
 Reg
 }
@@ -1034,7 +1035,7 @@ u32
 }
 }
 impl
-ShowWithRRU
+PrettyPrint
 for
 ShiftOpAndAmt
 {
@@ -1127,7 +1128,7 @@ value
 }
 }
 impl
-ShowWithRRU
+PrettyPrint
 for
 UImm8
 {
@@ -1163,7 +1164,7 @@ value
 }
 }
 impl
-ShowWithRRU
+PrettyPrint
 for
 UImm12
 {
@@ -1199,7 +1200,7 @@ value
 }
 }
 impl
-ShowWithRRU
+PrettyPrint
 for
 AMode
 {
@@ -1409,7 +1410,7 @@ mode
 }
 }
 impl
-ShowWithRRU
+PrettyPrint
 for
 Cond
 {
@@ -1456,7 +1457,7 @@ s
 }
 }
 impl
-ShowWithRRU
+PrettyPrint
 for
 BranchTarget
 {

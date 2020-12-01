@@ -82,11 +82,10 @@ nonminimal_bool
 clippy
 :
 :
-option_map_unwrap_or
+map_unwrap_or
 clippy
 :
 :
-option_map_unwrap_or_else
 clippy
 :
 :

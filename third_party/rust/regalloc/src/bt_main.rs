@@ -7313,6 +7313,14 @@ in
 &
 final_insns
 {
+if
+func
+.
+is_included_in_clobbers
+(
+insn
+)
+{
 add_raw_reg_vecs_for_insn
 :
 :
@@ -7329,6 +7337,7 @@ mut
 dummy_bounds
 )
 ;
+}
 }
 for
 reg
