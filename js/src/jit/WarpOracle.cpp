@@ -177,6 +177,17 @@ h
 #
 include
 "
+jit
+/
+InlineScriptTree
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 BytecodeIterator

@@ -98,6 +98,7 @@ nullptr
 {
 }
 static
+inline
 InlineScriptTree
 *
 New
@@ -116,6 +117,7 @@ JSScript
 script
 )
 ;
+inline
 InlineScriptTree
 *
 addCallee
@@ -131,6 +133,7 @@ JSScript
 calleeScript
 )
 ;
+inline
 void
 removeCallee
 (
