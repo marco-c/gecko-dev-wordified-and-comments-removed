@@ -1021,9 +1021,7 @@ moz
 .
 configure
 /
-lto
--
-pgo
+flags
 .
 configure
 "
@@ -1048,7 +1046,9 @@ moz
 .
 configure
 /
-flags
+lto
+-
+pgo
 .
 configure
 "
