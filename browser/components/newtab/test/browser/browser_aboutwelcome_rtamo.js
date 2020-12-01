@@ -252,6 +252,15 @@ removeTab
 tab
 )
 ;
+pushPrefs
+(
+[
+ABOUT_WELCOME_OVERRIDE_CONTENT_PREF
+"
+"
+]
+)
+;
 }
 )
 ;
