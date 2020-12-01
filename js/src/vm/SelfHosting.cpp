@@ -7032,6 +7032,10 @@ T
 byteLength
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 args
 .
@@ -7139,6 +7143,10 @@ obj
 -
 >
 byteLength
+(
+)
+.
+deprecatedGetUint32
 (
 )
 ;

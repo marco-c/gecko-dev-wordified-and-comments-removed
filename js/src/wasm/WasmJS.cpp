@@ -1966,6 +1966,10 @@ buffer
 byteLength
 (
 )
+.
+get
+(
+)
 ;
 MOZ_ASSERT
 (
@@ -2005,6 +2009,10 @@ len
 buffer
 .
 byteLength
+(
+)
+.
+get
 (
 )
 ;
@@ -2088,6 +2096,10 @@ len
 buffer
 .
 byteLength
+(
+)
+.
+get
 (
 )
 ;

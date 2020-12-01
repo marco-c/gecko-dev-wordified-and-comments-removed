@@ -519,6 +519,10 @@ buffer
 byteLength
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 if
 (

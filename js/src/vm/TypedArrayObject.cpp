@@ -3902,6 +3902,10 @@ bufferMaybeUnwrapped
 byteLength
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 uint32_t
 len
@@ -11105,6 +11109,10 @@ buffer
 byteLength
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 return
 true
@@ -11152,6 +11160,10 @@ byteLength
 buffer
 .
 byteLength
+(
+)
+.
+deprecatedGetUint32
 (
 )
 ;
