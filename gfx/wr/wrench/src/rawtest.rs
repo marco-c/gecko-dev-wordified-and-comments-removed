@@ -7951,6 +7951,11 @@ NotifierEvent
 :
 :
 WakeUp
+{
+composite_needed
+:
+true
+}
 )
 ;
 }

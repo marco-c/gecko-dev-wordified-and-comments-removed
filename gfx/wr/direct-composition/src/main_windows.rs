@@ -1287,6 +1287,9 @@ wake_up
 (
 &
 self
+_composite_needed
+:
+bool
 )
 {
 self
@@ -1329,7 +1332,7 @@ DocumentId
 _
 :
 bool
-_
+composite_needed
 :
 bool
 _
@@ -1344,6 +1347,7 @@ self
 .
 wake_up
 (
+composite_needed
 )
 ;
 }

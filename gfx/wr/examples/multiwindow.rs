@@ -169,6 +169,9 @@ wake_up
 (
 &
 self
+_composite_needed
+:
+bool
 )
 {
 #
@@ -208,7 +211,7 @@ DocumentId
 _scrolled
 :
 bool
-_composite_needed
+composite_needed
 :
 bool
 _render_time
@@ -223,6 +226,7 @@ self
 .
 wake_up
 (
+composite_needed
 )
 ;
 }
