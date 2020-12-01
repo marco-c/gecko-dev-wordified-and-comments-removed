@@ -1110,10 +1110,6 @@ const
 nscoord
 aContentBoxCrossSize
 const
-nsSize
-&
-aContainerSize
-const
 mozilla
 :
 :
