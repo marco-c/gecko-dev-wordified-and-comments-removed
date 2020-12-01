@@ -1489,12 +1489,9 @@ int64_t
 {
 CACHE_TRY_RETURN
 (
-ToResultInvoke
-<
-int64_t
->
-(
 LockedDirectoryPaddingGet
+(
+*
 dir
 )
 .
