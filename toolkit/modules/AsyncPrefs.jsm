@@ -111,6 +111,15 @@ contentblocking
 .
 report
 .
+hide_lockwise_app
+"
+"
+browser
+.
+contentblocking
+.
+report
+.
 hide_vpn_banner
 "
 "
