@@ -2515,7 +2515,7 @@ selection_only_toggle
 aNSSettingsGTK
 -
 >
-SetForcePrintSelectionOnly
+SetPrintSelectionOnly
 (
 printSelectionOnly
 )
