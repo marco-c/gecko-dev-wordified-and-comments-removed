@@ -314,7 +314,13 @@ aManagerId
 ;
 static
 void
-ShutdownAll
+InitiateShutdown
+(
+)
+;
+static
+bool
+IsShutdownAllComplete
 (
 )
 ;
