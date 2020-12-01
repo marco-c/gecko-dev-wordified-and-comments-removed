@@ -1372,6 +1372,9 @@ featureId
 "
 aboutwelcome
 "
+sendExposurePing
+:
+false
 }
 )
 ;
