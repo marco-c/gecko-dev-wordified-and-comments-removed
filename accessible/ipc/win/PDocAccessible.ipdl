@@ -6,6 +6,15 @@ include
 protocol
 PBrowser
 ;
+include
+"
+mozilla
+/
+GfxMessageUtils
+.
+h
+"
+;
 using
 mozilla
 :

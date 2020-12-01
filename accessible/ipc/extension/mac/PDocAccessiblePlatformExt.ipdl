@@ -2,6 +2,15 @@ include
 protocol
 PDocAccessible
 ;
+include
+"
+mozilla
+/
+GfxMessageUtils
+.
+h
+"
+;
 using
 mozilla
 :
