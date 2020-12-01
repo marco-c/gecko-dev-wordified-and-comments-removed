@@ -2270,6 +2270,17 @@ SymLoadStruct
 symbols
 )
 {
+const
+bool
+shouldWarn
+=
+gfxEnv
+:
+:
+GlSpew
+(
+)
+;
 if
 (
 pfnLoader
@@ -2277,6 +2288,7 @@ pfnLoader
 LoadSymbols
 (
 symbols
+shouldWarn
 )
 )
 return
