@@ -987,6 +987,16 @@ GetBufferSize
 (
 )
 ;
+auto
+bufferAge
+=
+mCompositor
+-
+>
+GetBufferAge
+(
+)
+;
 wr_renderer_update
 (
 mRenderer
@@ -1066,6 +1076,7 @@ width
 size
 .
 height
+bufferAge
 aOutStats
 &
 dirtyRects
