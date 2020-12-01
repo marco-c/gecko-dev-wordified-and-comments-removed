@@ -1902,14 +1902,6 @@ test_iframe_followLink
 (
 )
 {
-if
-(
-gFissionBrowser
-)
-{
-return
-;
-}
 await
 runIframeTest
 (

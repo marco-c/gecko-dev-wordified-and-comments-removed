@@ -1108,6 +1108,11 @@ mCrossGroupOpenerId
 =
 0
 ;
+void
+ResetSHEntryHasUserInteractionCache
+(
+)
+;
 RefPtr
 <
 PendingRemotenessChange
