@@ -24162,6 +24162,8 @@ Hiragino
 Kaku
 Gothic
 Pro
+Hiragino
+Sans
 "
 )
 ;
