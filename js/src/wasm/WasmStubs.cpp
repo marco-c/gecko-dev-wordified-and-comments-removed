@@ -13726,7 +13726,7 @@ offsetToCoerceArgv
 =
 AlignBytes
 (
-StackArgBytesForWasmABI
+StackArgBytesForNativeABI
 (
 coerceArgTypes
 )
