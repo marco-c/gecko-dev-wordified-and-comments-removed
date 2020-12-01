@@ -830,10 +830,11 @@ IOError
 >
 RemoveSync
 (
-const
-nsAString
-&
-aPath
+already_AddRefed
+<
+nsIFile
+>
+aFile
 bool
 aIgnoreAbsent
 bool
