@@ -8,6 +8,13 @@ h
 #
 include
 "
+UDPSocket
+.
+h
+"
+#
+include
+"
 nsComponentManagerUtils
 .
 h

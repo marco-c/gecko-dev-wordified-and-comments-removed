@@ -102,6 +102,13 @@ nsNetUtil
 .
 h
 "
+#
+include
+"
+TCPSocket
+.
+h
+"
 namespace
 IPC
 {
