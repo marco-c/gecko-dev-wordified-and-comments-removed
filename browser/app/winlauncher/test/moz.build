@@ -5,6 +5,9 @@ GeckoCppUnitTests
 (
 [
 "
+TestCrossProcessWin
+"
+"
 TestSafeThreadLocal
 "
 "
