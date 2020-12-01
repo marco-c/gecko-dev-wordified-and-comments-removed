@@ -2874,14 +2874,9 @@ aKidReflowInput
 .
 SetComputedLogicalOffsets
 (
-aOffsets
--
->
-ConvertTo
-(
-wm
 outerWM
-)
+*
+aOffsets
 )
 ;
 }
