@@ -2789,11 +2789,6 @@ onEndUpdateBatch
 )
 {
 }
-onPageChanged
-(
-)
-{
-}
 onDeleteVisits
 (
 )
