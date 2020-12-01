@@ -21,13 +21,9 @@ Content
 Type
 "
 "
-application
+image
 /
-x
--
-Second
--
-Test
+pNG
 "
 false
 )
