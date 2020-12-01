@@ -112,6 +112,10 @@ PYTHON3
 =
 python3
 }
+status
+=
+0
+(
 #
 Build
 the
@@ -120,7 +124,7 @@ extracted
 packaged
 SpiderMonkey
 .
-pushd
+cd
 .
 /
 mozjs
@@ -171,7 +175,12 @@ tests
 =
 checks
 SPIDERMONKEY_VARIANT
-popd
+)
+|
+|
+status
+=
+?
 #
 Copy
 artifacts
@@ -210,3 +219,5 @@ libmozjs
 *
 }
 UPLOAD_DIR
+exit
+status
