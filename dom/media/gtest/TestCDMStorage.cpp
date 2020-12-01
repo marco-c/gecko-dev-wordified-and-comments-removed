@@ -63,6 +63,15 @@ h
 #
 include
 "
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h

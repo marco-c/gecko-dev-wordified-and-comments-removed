@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
 nsIOService
 .
 h

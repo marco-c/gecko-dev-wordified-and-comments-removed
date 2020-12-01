@@ -24,6 +24,15 @@ h
 #
 include
 "
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
 nsComponentManagerUtils
 .
 h

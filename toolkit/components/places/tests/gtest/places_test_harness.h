@@ -82,6 +82,15 @@ h
 #
 include
 "
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
 mozIStorageConnection
 .
 h

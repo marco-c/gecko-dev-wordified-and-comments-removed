@@ -27,6 +27,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
 class
 WaitForCondition
 final

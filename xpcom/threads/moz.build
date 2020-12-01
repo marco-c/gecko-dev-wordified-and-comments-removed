@@ -265,6 +265,11 @@ SharedThreadPool
 h
 "
 "
+SpinEventLoopUntil
+.
+h
+"
+"
 StateMirroring
 .
 h

@@ -68,6 +68,15 @@ h
 #
 include
 "
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

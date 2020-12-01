@@ -107,6 +107,15 @@ include
 "
 mozilla
 /
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h

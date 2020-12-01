@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

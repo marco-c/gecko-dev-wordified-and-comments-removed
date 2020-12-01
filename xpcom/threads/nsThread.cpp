@@ -179,6 +179,15 @@ include
 "
 mozilla
 /
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_threads
 .
 h

@@ -45,6 +45,15 @@ h
 #
 include
 "
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
 MP3Demuxer
 .
 h

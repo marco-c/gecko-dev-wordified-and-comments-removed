@@ -328,6 +328,15 @@ include
 "
 mozilla
 /
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WeakPtr
 .
 h

@@ -60,6 +60,15 @@ include
 "
 mozilla
 /
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
