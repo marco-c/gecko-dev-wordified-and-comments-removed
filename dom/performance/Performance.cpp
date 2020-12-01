@@ -356,10 +356,17 @@ Performance
 :
 Performance
 (
+nsIGlobalObject
+*
+aGlobal
 bool
 aSystemPrincipal
 )
 :
+DOMEventTargetHelper
+(
+aGlobal
+)
 mResourceTimingBufferSize
 (
 kDefaultResourceTimingBufferSize
