@@ -2964,8 +2964,10 @@ inputTrack
 }
 )
 ;
-MockCubebStream
-*
+RefPtr
+<
+SmartMockCubebStream
+>
 stream
 =
 WaitFor
