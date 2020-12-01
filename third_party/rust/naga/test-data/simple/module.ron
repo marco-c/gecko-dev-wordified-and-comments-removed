@@ -136,6 +136,9 @@ Location
 ty
 :
 1
+init
+:
+None
 interpolation
 :
 None
@@ -171,6 +174,9 @@ Location
 ty
 :
 2
+init
+:
+None
 interpolation
 :
 None
@@ -219,7 +225,7 @@ Some
 main
 "
 )
-parameter_types
+arguments
 :
 [
 ]
@@ -259,7 +265,7 @@ init
 :
 Some
 (
-3
+1
 )
 )
 ]

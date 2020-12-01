@@ -197,6 +197,10 @@ WGPUOption_PipelineLayoutId
 ;
 typedef
 uint64_t
+WGPUOption_BindGroupLayoutId
+;
+typedef
+uint64_t
 WGPUOption_SamplerId
 ;
 typedef
@@ -253,6 +257,9 @@ Option_BufferId
 "
 "
 Option_PipelineLayoutId
+"
+"
+Option_BindGroupLayoutId
 "
 "
 Option_SamplerId

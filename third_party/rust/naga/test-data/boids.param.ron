@@ -1,8 +1,15 @@
 (
+spv_flow_dump_prefix
+:
+"
+"
 metal_bindings
 :
 {
 (
+stage
+:
+Compute
 group
 :
 0
@@ -23,6 +30,9 @@ mutable
 false
 )
 (
+stage
+:
+Compute
 group
 :
 0
@@ -43,6 +53,9 @@ mutable
 true
 )
 (
+stage
+:
+Compute
 group
 :
 0

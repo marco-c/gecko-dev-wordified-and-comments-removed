@@ -591,7 +591,7 @@ binding
 ]
 var
 <
-storage_buffer
+storage
 >
 particlesA
 :
@@ -611,7 +611,7 @@ binding
 ]
 var
 <
-storage_buffer
+storage
 >
 particlesB
 :

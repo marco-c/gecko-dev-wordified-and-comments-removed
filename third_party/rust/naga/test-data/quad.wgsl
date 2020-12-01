@@ -160,9 +160,6 @@ binding
 ]
 ]
 var
-<
-uniform
->
 u_texture
 :
 texture_sampled_2d
@@ -183,9 +180,6 @@ binding
 ]
 ]
 var
-<
-uniform
->
 u_sampler
 :
 sampler

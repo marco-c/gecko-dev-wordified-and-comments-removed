@@ -3,6 +3,9 @@ metal_bindings
 :
 {
 (
+stage
+:
+Fragment
 group
 :
 0
@@ -20,6 +23,9 @@ Some
 )
 )
 (
+stage
+:
+Fragment
 group
 :
 0

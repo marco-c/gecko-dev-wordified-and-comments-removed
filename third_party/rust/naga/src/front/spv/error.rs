@@ -333,7 +333,7 @@ spirv
 :
 Word
 )
-WrongFunctionParameterType
+WrongFunctionArgumentType
 (
 spirv
 :
@@ -350,4 +350,15 @@ Decoration
 BadString
 IncompleteData
 InvalidTerminator
+InvalidEdgeClassification
+UnexpectedComparisonType
+(
+Handle
+<
+crate
+:
+:
+Type
+>
+)
 }

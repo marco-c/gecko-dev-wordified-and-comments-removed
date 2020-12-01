@@ -79,6 +79,13 @@ parse_u8_slice
 (
 &
 input
+&
+Default
+:
+:
+default
+(
+)
 )
 .
 unwrap
