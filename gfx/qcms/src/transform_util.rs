@@ -448,7 +448,7 @@ mut
 table
 :
 *
-mut
+const
 u16
 mut
 length
@@ -670,7 +670,7 @@ mut
 table
 :
 *
-mut
+const
 f32
 mut
 length
