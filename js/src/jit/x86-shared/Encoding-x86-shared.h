@@ -678,6 +678,9 @@ OP2_BSF_GvEv
 OP2_BSR_GvEv
 =
 0xBD
+OP2_LZCNT_GvEv
+=
+0xBD
 OP2_MOVSX_GvEb
 =
 0xBE
