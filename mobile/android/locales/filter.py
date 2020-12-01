@@ -142,6 +142,16 @@ css
 "
 chrome
 /
+pluginproblem
+/
+pluginproblem
+.
+dtd
+"
+            
+"
+chrome
+/
 global
 /
 aboutWebrtc

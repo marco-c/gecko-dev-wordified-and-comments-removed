@@ -11598,11 +11598,6 @@ MozHandlerVulnerableNoUpdate
 NonTSPseudoClass
 :
 :
-MozHandlerNoPlugins
-|
-NonTSPseudoClass
-:
-:
 MozMathIncrementScriptLevel
 |
 NonTSPseudoClass

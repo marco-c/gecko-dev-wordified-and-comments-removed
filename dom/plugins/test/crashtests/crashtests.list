@@ -59,13 +59,6 @@ script
 1
 .
 html
-skip
--
-if
-(
-!
-haveTestPlugin
-)
 HTTP
 load
 570884
@@ -145,13 +138,6 @@ load
 598862
 .
 html
-skip
--
-if
-(
-!
-haveTestPlugin
-)
 HTTP
 load
 626602
