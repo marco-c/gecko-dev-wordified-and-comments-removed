@@ -52,6 +52,13 @@ h
 #
 include
 "
+nsDocShellLoadState
+.
+h
+"
+#
+include
+"
 nsFocusManager
 .
 h

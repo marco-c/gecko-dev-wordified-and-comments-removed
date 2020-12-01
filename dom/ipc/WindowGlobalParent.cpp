@@ -281,6 +281,13 @@ h
 #
 include
 "
+nsDocShellLoadState
+.
+h
+"
+#
+include
+"
 nsError
 .
 h

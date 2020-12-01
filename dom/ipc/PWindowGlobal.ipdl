@@ -123,11 +123,7 @@ dom
 XPCOMPermitUnloadAction
 from
 "
-mozilla
-/
-dom
-/
-DocShellMessageUtils
+nsIContentViewer
 .
 h
 "
