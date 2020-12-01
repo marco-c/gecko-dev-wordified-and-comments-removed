@@ -340,6 +340,7 @@ False
 def
 add_header
 (
+log
 filename
 header
 )
@@ -386,6 +387,9 @@ as
 f
 :
         
+try
+:
+            
 lines
 =
 f
@@ -393,6 +397,52 @@ f
 readlines
 (
 )
+        
+except
+UnicodeDecodeError
+as
+e
+:
+            
+log
+.
+debug
+(
+"
+Could
+not
+read
+file
+'
+{
+}
+'
+"
+.
+format
+(
+f
+)
+)
+            
+log
+.
+debug
+(
+"
+Error
+:
+{
+}
+"
+.
+format
+(
+e
+)
+)
+            
+return
         
 i
 =
@@ -626,6 +676,7 @@ f
 def
 fix_me
 (
+log
 filename
 )
 :
@@ -840,6 +891,7 @@ n
         
 add_header
 (
+log
 filename
 license
 )
@@ -905,6 +957,7 @@ n
         
 add_header
 (
+log
 filename
 license
 )
@@ -1046,6 +1099,7 @@ n
         
 add_header
 (
+log
 filename
 license
 )
@@ -1064,6 +1118,15 @@ None
 lintargs
 )
 :
+    
+log
+=
+lintargs
+[
+"
+log
+"
+]
     
 files
 =
@@ -1177,6 +1240,7 @@ fix
                 
 fix_me
 (
+log
 f
 )
     
