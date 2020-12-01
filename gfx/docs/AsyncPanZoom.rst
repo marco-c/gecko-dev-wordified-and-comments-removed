@@ -5605,7 +5605,7 @@ messages
 *
 *
 in
-PComposiorBridge
+PCompositorBridge
 .
 ipdl
 :
