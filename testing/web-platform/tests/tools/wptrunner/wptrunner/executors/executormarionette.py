@@ -6532,6 +6532,13 @@ extra
 {
 }
             
+if
+assertion_count
+is
+not
+None
+:
+                
 result
 [
 "
