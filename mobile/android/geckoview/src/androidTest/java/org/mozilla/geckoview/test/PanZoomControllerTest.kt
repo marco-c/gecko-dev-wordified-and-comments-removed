@@ -1853,7 +1853,7 @@ height
 )
 Test
 fun
-touchEventForResult
+touchEventForResultWithStaticToolbar
 (
 )
 {
