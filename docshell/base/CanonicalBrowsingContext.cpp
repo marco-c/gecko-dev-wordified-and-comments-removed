@@ -7029,9 +7029,8 @@ embedderBrowser
 &
 &
 aRemoteType
-.
-Equals
-(
+=
+=
 embedderBrowser
 -
 >
@@ -7042,7 +7041,6 @@ Manager
 >
 GetRemoteType
 (
-)
 )
 )
 {
