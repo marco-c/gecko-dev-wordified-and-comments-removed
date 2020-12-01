@@ -526,7 +526,7 @@ self
 >
 mInitPromise
 .
-Reject
+RejectIfExists
 (
 aError
 __func__
