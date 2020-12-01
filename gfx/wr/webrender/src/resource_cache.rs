@@ -6552,11 +6552,6 @@ gpu_cache
 &
 mut
 GpuCache
-render_tasks
-:
-&
-mut
-RenderTaskGraph
 profile
 :
 &
@@ -6610,12 +6605,6 @@ self
 .
 texture_cache
 gpu_cache
-&
-mut
-self
-.
-cached_render_tasks
-render_tasks
 profile
 )
 ;
