@@ -3998,10 +3998,7 @@ rhs
 FloatRegister
 output
 )
-DEFINED_ON
-(
-x86_shared
-)
+PER_SHARED_ARCH
 ;
 void
 copySignFloat32
