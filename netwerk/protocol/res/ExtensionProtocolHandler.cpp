@@ -3479,14 +3479,11 @@ nsIInputStream
 >
 inputStream
 ;
-MOZ_TRY
-(
-NS_NewLocalFileInputStream
-(
-getter_AddRefs
+MOZ_TRY_VAR
 (
 inputStream
-)
+NS_NewLocalFileInputStream
+(
 requestedFile
 PR_RDONLY
 -
