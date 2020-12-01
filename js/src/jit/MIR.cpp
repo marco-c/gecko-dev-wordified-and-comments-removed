@@ -18094,6 +18094,16 @@ type
 mul
 -
 >
+setBailoutKind
+(
+bailoutKind
+(
+)
+)
+;
+mul
+-
+>
 setCanBeNegativeZero
 (
 lhs
