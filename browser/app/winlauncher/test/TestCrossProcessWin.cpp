@@ -44,6 +44,13 @@ L
 child
 "
 ;
+#
+if
+!
+defined
+(
+__MINGW32__
+)
 typedef
 struct
 FILE_BASIC_INFORMATION
@@ -68,6 +75,8 @@ FILE_BASIC_INFORMATION
 *
 PFILE_BASIC_INFORMATION
 ;
+#
+endif
 extern
 "
 C
