@@ -1492,6 +1492,9 @@ atom
 AtomizeChars
 (
 cx
+hash
+(
+)
 latin1Chars
 (
 )
@@ -1508,6 +1511,9 @@ atom
 AtomizeChars
 (
 cx
+hash
+(
+)
 twoByteChars
 (
 )
