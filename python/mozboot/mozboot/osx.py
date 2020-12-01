@@ -2685,10 +2685,6 @@ packages
 [
             
 '
-nasm
-'
-            
-'
 yasm
 '
         
@@ -3165,10 +3161,6 @@ False
 packages
 =
 [
-            
-'
-nasm
-'
             
 '
 yasm
@@ -3821,7 +3813,21 @@ checkout_root
 )
 :
         
-pass
+from
+mozboot
+import
+nasm
+        
+self
+.
+install_toolchain_artifact
+(
+state_dir
+checkout_root
+nasm
+.
+MACOS_NASM
+)
     
 def
 ensure_node_packages
