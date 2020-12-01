@@ -23,3 +23,14 @@ mochi
 test
 :
 8888
+http
+:
+/
+/
+mochi
+.
+xorigin
+-
+test
+:
+8888
