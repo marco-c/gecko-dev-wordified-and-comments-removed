@@ -41,6 +41,17 @@ ClientIPCTypes
 include
 NeckoChannelParams
 ;
+include
+"
+mozilla
+/
+layers
+/
+LayersMessageUtils
+.
+h
+"
+;
 using
 JSActorMessageKind
 from
