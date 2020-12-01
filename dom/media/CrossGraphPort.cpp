@@ -56,7 +56,7 @@ LOG_TEST
 endif
 extern
 LazyLogModule
-gForwardedInputTrackLog
+gMediaTrackGraphLog
 ;
 #
 define
@@ -67,7 +67,7 @@ msg
 )
 MOZ_LOG
 (
-gForwardedInputTrackLog
+gMediaTrackGraphLog
 type
 msg
 )
@@ -79,7 +79,7 @@ type
 )
 MOZ_LOG_TEST
 (
-gForwardedInputTrackLog
+gMediaTrackGraphLog
 type
 )
 UniquePtr
