@@ -26,6 +26,7 @@ UnavailableNoGpuProcess
 UnavailableNoHwCompositing
 UnavailableNotBuilt
 UnavailableNoAngle
+UnavailableNoWebRender
 CrashedInHandler
 Blocked
 BlockedDeviceUnknown
