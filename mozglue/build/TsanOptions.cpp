@@ -823,16 +823,6 @@ traverse_subtree
 n
 "
 "
-deadlock
-:
-ScriptPreloader
-:
-:
-OffThreadDecodeCallback
-\
-n
-"
-"
 race
 :
 CacheFileMetadata
