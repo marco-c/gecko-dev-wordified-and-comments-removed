@@ -540,16 +540,6 @@ n
 "
 race
 :
-nsThread
-:
-:
-SizeOfEventQueues
-\
-n
-"
-"
-race
-:
 setFlagBit
 \
 n
