@@ -1054,6 +1054,11 @@ TextEventDispatcher
 cpp
 "
 "
+TouchResampler
+.
+cpp
+"
+"
 VsyncDispatcher
 .
 cpp
