@@ -591,9 +591,6 @@ POINTL
 aPT
 )
 {
-nsEventStatus
-status
-;
 WidgetDragEvent
 event
 (
@@ -718,11 +715,10 @@ GetInputSource
 mWidget
 -
 >
-DispatchEvent
+DispatchInputEvent
 (
 &
 event
-status
 )
 ;
 }
