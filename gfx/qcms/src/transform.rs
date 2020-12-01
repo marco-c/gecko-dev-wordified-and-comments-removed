@@ -10907,6 +10907,14 @@ is_some
 )
 ;
 }
+else
+{
+return
+null_mut
+(
+)
+;
+}
 }
 return
 Box
