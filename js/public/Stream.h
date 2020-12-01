@@ -552,12 +552,12 @@ signal
 extern
 JS_PUBLIC_API
 void
-InitAbortSignalHandling
+InitPipeToHandling
 (
 const
 JSClass
 *
-clasp
+abortSignalClass
 AbortSignalIsAborted
 isAborted
 JSContext
