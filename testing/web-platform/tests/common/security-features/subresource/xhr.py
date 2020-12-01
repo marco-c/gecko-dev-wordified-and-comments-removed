@@ -100,4 +100,13 @@ application
 /
 json
 "
+                        
+cache_control
+=
+b
+"
+no
+-
+store
+"
 )
