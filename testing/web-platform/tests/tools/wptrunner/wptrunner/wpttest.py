@@ -1026,6 +1026,10 @@ protocol
 "
 http
 "
+subdomain
+=
+False
+                 
 quic
 =
 False
@@ -1082,6 +1086,12 @@ self
 path
 =
 path
+        
+self
+.
+subdomain
+=
+subdomain
         
 self
 .
@@ -1263,6 +1273,12 @@ server_protocol
 (
 manifest_item
 )
+                   
+subdomain
+=
+manifest_item
+.
+subdomain
 )
     
 property
@@ -2352,6 +2368,9 @@ False
 scripts
 =
 None
+subdomain
+=
+False
 quic
 =
 False
@@ -2372,6 +2391,7 @@ timeout
                       
 path
 protocol
+subdomain
 quic
 )
         
@@ -2563,6 +2583,12 @@ jsshell
 scripts
 =
 scripts
+                   
+subdomain
+=
+manifest_item
+.
+subdomain
                    
 quic
 =
@@ -2765,12 +2791,12 @@ None
 fuzzy
 =
 None
+                 
 protocol
 =
 "
 http
 "
-                 
 quic
 =
 False
