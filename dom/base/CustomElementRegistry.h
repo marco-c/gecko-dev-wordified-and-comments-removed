@@ -156,6 +156,17 @@ DocGroup
 class
 Promise
 ;
+enum
+class
+ElementCallbackType
+{
+eConnected
+eDisconnected
+eAdopted
+eAttributeChanged
+eGetCustomInterface
+}
+;
 struct
 LifecycleCallbackArgs
 {
@@ -208,9 +219,6 @@ CustomElementCallback
 Element
 *
 aThisObject
-Document
-:
-:
 ElementCallbackType
 aCallbackType
 CallbackFunction
@@ -253,7 +261,7 @@ MOZ_ASSERT
 mType
 =
 =
-Document
+ElementCallbackType
 :
 :
 eAttributeChanged
@@ -288,7 +296,7 @@ MOZ_ASSERT
 mType
 =
 =
-Document
+ElementCallbackType
 :
 :
 eAdopted
@@ -323,9 +331,6 @@ CallbackFunction
 >
 mCallback
 ;
-Document
-:
-:
 ElementCallbackType
 mType
 ;
@@ -1213,9 +1218,6 @@ static
 void
 EnqueueLifecycleCallback
 (
-Document
-:
-:
 ElementCallbackType
 aType
 Element
@@ -1443,9 +1445,6 @@ CustomElementCallback
 >
 CreateCustomElementCallback
 (
-Document
-:
-:
 ElementCallbackType
 aType
 Element

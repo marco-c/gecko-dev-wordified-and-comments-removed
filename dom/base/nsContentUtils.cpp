@@ -48846,9 +48846,6 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-Document
-:
-:
 ElementCallbackType
 aType
 Element

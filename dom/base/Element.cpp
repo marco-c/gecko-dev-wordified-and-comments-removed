@@ -8961,7 +8961,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-Document
+ElementCallbackType
 :
 :
 eConnected
@@ -10062,7 +10062,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-Document
+ElementCallbackType
 :
 :
 eDisconnected
@@ -12705,7 +12705,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-Document
+ElementCallbackType
 :
 :
 eAttributeChanged
@@ -13595,7 +13595,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-Document
+ElementCallbackType
 :
 :
 eAttributeChanged
@@ -14204,7 +14204,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-Document
+ElementCallbackType
 :
 :
 eAttributeChanged

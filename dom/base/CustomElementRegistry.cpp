@@ -502,7 +502,7 @@ mType
 )
 {
 case
-Document
+ElementCallbackType
 :
 :
 eConnected
@@ -529,7 +529,7 @@ mThisObject
 break
 ;
 case
-Document
+ElementCallbackType
 :
 :
 eDisconnected
@@ -556,7 +556,7 @@ mThisObject
 break
 ;
 case
-Document
+ElementCallbackType
 :
 :
 eAdopted
@@ -589,7 +589,7 @@ mNewDocument
 break
 ;
 case
-Document
+ElementCallbackType
 :
 :
 eAttributeChanged
@@ -628,7 +628,7 @@ namespaceURI
 break
 ;
 case
-Document
+ElementCallbackType
 :
 :
 eGetCustomInterface
@@ -742,9 +742,6 @@ CustomElementCallback
 Element
 *
 aThisObject
-Document
-:
-:
 ElementCallbackType
 aCallbackType
 mozilla
@@ -2066,9 +2063,6 @@ CustomElementRegistry
 :
 CreateCustomElementCallback
 (
-Document
-:
-:
 ElementCallbackType
 aType
 Element
@@ -2124,7 +2118,7 @@ aType
 )
 {
 case
-Document
+ElementCallbackType
 :
 :
 eConnected
@@ -2162,7 +2156,7 @@ Value
 break
 ;
 case
-Document
+ElementCallbackType
 :
 :
 eDisconnected
@@ -2200,7 +2194,7 @@ Value
 break
 ;
 case
-Document
+ElementCallbackType
 :
 :
 eAdopted
@@ -2238,7 +2232,7 @@ Value
 break
 ;
 case
-Document
+ElementCallbackType
 :
 :
 eAttributeChanged
@@ -2276,7 +2270,7 @@ Value
 break
 ;
 case
-Document
+ElementCallbackType
 :
 :
 eGetCustomInterface
@@ -2360,9 +2354,6 @@ CustomElementRegistry
 :
 EnqueueLifecycleCallback
 (
-Document
-:
-:
 ElementCallbackType
 aType
 Element
@@ -2492,7 +2483,7 @@ if
 aType
 =
 =
-Document
+ElementCallbackType
 :
 :
 eAttributeChanged
@@ -5520,7 +5511,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-Document
+ElementCallbackType
 :
 :
 eAttributeChanged
@@ -5549,7 +5540,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-Document
+ElementCallbackType
 :
 :
 eConnected

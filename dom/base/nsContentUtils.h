@@ -704,6 +704,10 @@ Selection
 class
 WorkerPrivate
 ;
+enum
+class
+ElementCallbackType
+;
 }
 namespace
 intl
@@ -6693,7 +6697,10 @@ static
 void
 EnqueueLifecycleCallback
 (
-Document
+mozilla
+:
+:
+dom
 :
 :
 ElementCallbackType
