@@ -31255,14 +31255,14 @@ parameters
 argument_count
 )
 ;
-MOZ_ASSERT
+if
 (
 argument_count
 >
 =
 1
 )
-;
+{
 set_register
 (
 r0
@@ -31273,6 +31273,7 @@ int32_t
 )
 )
 ;
+}
 if
 (
 argument_count
