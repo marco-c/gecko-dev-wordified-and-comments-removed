@@ -229,6 +229,7 @@ RenderCompositorD3D11SWGL
 AsRenderCompositorD3D11SWGL
 (
 )
+override
 {
 return
 this
@@ -254,12 +255,14 @@ void
 CompositorBeginFrame
 (
 )
+override
 {
 }
 void
 CompositorEndFrame
 (
 )
+override
 ;
 void
 Bind
@@ -453,6 +456,7 @@ EnableNativeCompositor
 bool
 aEnable
 )
+override
 {
 }
 void
