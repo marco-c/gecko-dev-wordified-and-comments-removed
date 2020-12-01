@@ -46,6 +46,12 @@ display
 :
 flex
 ;
+user
+-
+select
+:
+none
+;
 }
 .
 datetime
@@ -129,12 +135,6 @@ field
 display
 :
 inline
-;
-user
--
-select
-:
-none
 ;
 text
 -
