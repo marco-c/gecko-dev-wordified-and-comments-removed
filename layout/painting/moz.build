@@ -150,11 +150,6 @@ DisplayItemClipChain
 cpp
 "
 "
-DisplayListChecker
-.
-cpp
-"
-"
 DisplayListClipState
 .
 cpp

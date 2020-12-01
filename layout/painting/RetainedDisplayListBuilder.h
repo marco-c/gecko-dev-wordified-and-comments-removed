@@ -32,13 +32,6 @@ h
 class
 nsWindowSizes
 ;
-namespace
-mozilla
-{
-class
-DisplayListChecker
-;
-}
 struct
 RetainedDisplayListData
 {
@@ -608,12 +601,6 @@ AttemptPartialUpdate
 (
 nscolor
 aBackstop
-mozilla
-:
-:
-DisplayListChecker
-*
-aChecker
 )
 ;
 void
