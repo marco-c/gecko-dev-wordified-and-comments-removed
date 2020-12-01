@@ -1184,6 +1184,13 @@ browserUpgradeInsecureRequests
 [
 infallible
 ]
+attribute
+boolean
+browserDidUpgradeInsecureRequests
+;
+[
+infallible
+]
 readonly
 attribute
 boolean

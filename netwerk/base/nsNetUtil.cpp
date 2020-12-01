@@ -13913,6 +13913,14 @@ innerWindowId
 aURI
 )
 ;
+aLoadInfo
+-
+>
+SetBrowserDidUpgradeInsecureRequests
+(
+true
+)
+;
 Telemetry
 :
 :
