@@ -24,7 +24,7 @@ version
 .
 4
 .
-2
+3
 "
 authors
 =
@@ -83,15 +83,6 @@ log
 0
 .
 4
-"
-env_logger
-=
-"
-0
-.
-7
-.
-1
 "
 [
 dev

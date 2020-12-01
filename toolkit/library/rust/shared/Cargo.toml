@@ -1012,14 +1012,10 @@ mapped_hyph
 .
 git
 "
-tag
+rev
 =
 "
-v0
-.
-4
-.
-2
+578d7058a638c955a597f035ce1a11049c3021d7
 "
 }
 remote
