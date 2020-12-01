@@ -530,25 +530,7 @@ return
         
 "
 /
-tests
-/
-"
-in
-f
-        
-or
-"
-/
 test
-/
-"
-in
-f
-        
-or
-"
-/
-test_
 "
 in
 f
