@@ -129,7 +129,7 @@ WindowsClassic
 WindowsGlass
 TouchEnabled
 MacGraphiteTheme
-MacYosemiteTheme
+MacBigSurTheme
 AlertNotificationOrigin
 ScrollToClick
 IMERawInputUnderlineStyle

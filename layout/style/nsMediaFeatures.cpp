@@ -1906,7 +1906,7 @@ LookAndFeel
 IntID
 :
 :
-MacYosemiteTheme
+MacBigSurTheme
 &
 metricResult
 )
@@ -1934,7 +1934,7 @@ nsStaticAtom
 nsGkAtoms
 :
 :
-_moz_mac_yosemite_theme
+_moz_mac_big_sur_theme
 )
 ;
 }
