@@ -3843,13 +3843,11 @@ record
 event
 {
 selIndex
-numChars
+searchString
 :
 this
 .
 _lastSearchString
-.
-length
 selType
 :
 this
