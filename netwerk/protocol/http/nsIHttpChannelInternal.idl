@@ -773,5 +773,13 @@ setWaitForHTTPSSVCRecord
 (
 )
 ;
+[
+must_use
+]
+readonly
+attribute
+boolean
+supportsHTTP3
+;
 }
 ;
