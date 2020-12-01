@@ -90,8 +90,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 File
@@ -1075,6 +1075,5 @@ forget
 (
 )
 ;
-}
 }
 }

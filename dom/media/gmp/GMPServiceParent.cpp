@@ -262,6 +262,9 @@ Transport
 ;
 namespace
 mozilla
+:
+:
+gmp
 {
 #
 ifdef
@@ -277,9 +280,6 @@ __CLASS__
 "
 GMPServiceParent
 "
-namespace
-gmp
-{
 static
 const
 uint32_t
@@ -9388,7 +9388,6 @@ false
 return
 true
 ;
-}
 }
 }
 #

@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 AnimationTimeline
@@ -245,6 +245,5 @@ RemoveEntry
 aAnimation
 )
 ;
-}
 }
 }

@@ -18,8 +18,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 MIDIMessageQueue
@@ -348,7 +348,6 @@ RemoveElementsAt
 i
 )
 ;
-}
 }
 }
 }

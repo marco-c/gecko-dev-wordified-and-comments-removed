@@ -29,8 +29,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 FileCreatorChild
@@ -287,5 +287,4 @@ nullptr
 }
 }
 ;
-}
 }

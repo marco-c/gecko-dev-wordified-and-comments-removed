@@ -260,6 +260,9 @@ GetIDFromMinidump
 ;
 namespace
 mozilla
+:
+:
+gmp
 {
 #
 define
@@ -306,9 +309,6 @@ __CLASS__
 "
 GMPParent
 "
-namespace
-gmp
-{
 GMPParent
 :
 :
@@ -5106,7 +5106,6 @@ _ns
 +
 mName
 ;
-}
 }
 }
 #

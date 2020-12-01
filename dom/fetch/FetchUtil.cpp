@@ -108,8 +108,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 nsresult
@@ -2669,6 +2669,5 @@ aCx
 value
 )
 ;
-}
 }
 }

@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 media
 {
 MediaSystemResourceManagerChild
@@ -142,6 +142,5 @@ SendRemoveResourceManager
 (
 )
 ;
-}
 }
 }

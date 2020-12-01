@@ -145,11 +145,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 using
@@ -4603,7 +4603,5 @@ rv
 return
 rv
 ;
-}
-}
 }
 }

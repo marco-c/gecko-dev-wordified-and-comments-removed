@@ -31,8 +31,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -180,6 +180,5 @@ mDoc
 )
 )
 ;
-}
 }
 }

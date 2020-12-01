@@ -345,8 +345,8 @@ MAX_AUDIO_BITRATE_BPS
 512kbps
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -9395,7 +9395,6 @@ MediaRecorderReporter
 :
 sUniqueInstance
 ;
-}
 }
 #
 undef

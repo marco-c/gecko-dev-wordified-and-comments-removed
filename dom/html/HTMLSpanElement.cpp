@@ -56,8 +56,8 @@ Span
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLSpanElement
@@ -106,6 +106,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

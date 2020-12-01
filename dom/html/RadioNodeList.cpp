@@ -49,8 +49,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -305,5 +305,4 @@ RadioNodeList
 nsSimpleContentList
 RadioNodeList
 )
-}
 }

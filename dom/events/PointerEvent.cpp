@@ -56,8 +56,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 PointerEvent
@@ -1359,7 +1359,6 @@ IsChromeDoc
 doc
 )
 ;
-}
 }
 }
 using

@@ -33,8 +33,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -673,6 +673,5 @@ GetCuesArray
 return
 mList
 ;
-}
 }
 }

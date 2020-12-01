@@ -308,8 +308,8 @@ NETWORK_EMPTY
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
@@ -8040,6 +8040,5 @@ mGlobalObject
 =
 nullptr
 ;
-}
 }
 }

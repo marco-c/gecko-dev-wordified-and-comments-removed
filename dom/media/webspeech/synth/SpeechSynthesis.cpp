@@ -127,8 +127,8 @@ msg
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_CLASS
@@ -1526,6 +1526,5 @@ AdvanceQueue
 return
 NS_OK
 ;
-}
 }
 }

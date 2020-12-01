@@ -148,8 +148,8 @@ NS_OK
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 plugins
 {
 NPRemoteWindow
@@ -620,6 +620,5 @@ VOID_TO_NPVARIANT
 v
 )
 ;
-}
 }
 }

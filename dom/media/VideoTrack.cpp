@@ -55,8 +55,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 VideoTrack
@@ -395,7 +395,6 @@ CreateAndDispatchChangeEvent
 (
 )
 ;
-}
 }
 }
 }

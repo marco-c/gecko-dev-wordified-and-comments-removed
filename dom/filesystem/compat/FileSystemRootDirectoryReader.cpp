@@ -43,8 +43,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -369,6 +369,5 @@ forget
 )
 )
 ;
-}
 }
 }

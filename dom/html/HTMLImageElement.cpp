@@ -399,8 +399,8 @@ false
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -5903,6 +5903,5 @@ StartLoadingIfNeeded
 (
 )
 ;
-}
 }
 }

@@ -114,8 +114,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 already_AddRefed
@@ -1228,6 +1228,5 @@ GetPath
 aPath
 )
 ;
-}
 }
 }

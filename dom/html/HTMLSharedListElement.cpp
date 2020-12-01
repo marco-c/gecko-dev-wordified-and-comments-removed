@@ -92,8 +92,8 @@ SharedList
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLSharedListElement
@@ -934,6 +934,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

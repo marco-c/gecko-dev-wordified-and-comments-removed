@@ -44338,8 +44338,8 @@ false
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 nsINode
@@ -80684,6 +80684,5 @@ mPictureInPictureChildElementCount
 0
 )
 ;
-}
 }
 }

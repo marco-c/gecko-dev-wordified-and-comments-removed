@@ -912,8 +912,8 @@ ifdef
 MOZILLA_MAY_SUPPORT_SSE2
 namespace
 mozilla
-{
-namespace
+:
+:
 SSE2
 {
 int32_t
@@ -929,7 +929,6 @@ char16_t
 end
 )
 ;
-}
 }
 #
 endif

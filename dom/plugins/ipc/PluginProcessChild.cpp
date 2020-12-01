@@ -199,8 +199,8 @@ algorithm
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 plugins
 {
 #
@@ -926,6 +926,5 @@ Shutdown
 (
 )
 ;
-}
 }
 }

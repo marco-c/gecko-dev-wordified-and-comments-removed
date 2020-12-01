@@ -145,11 +145,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 using
@@ -1351,7 +1351,5 @@ aConnOut
 return
 rv
 ;
-}
-}
 }
 }

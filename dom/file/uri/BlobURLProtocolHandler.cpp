@@ -4961,8 +4961,8 @@ NS_OK
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -5116,6 +5116,5 @@ DataInfo
 eMediaSource
 )
 ;
-}
 }
 }

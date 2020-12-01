@@ -136,8 +136,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -3152,7 +3152,6 @@ aStack
 return
 nullptr
 ;
-}
 }
 }
 }

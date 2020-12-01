@@ -29,8 +29,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -854,6 +854,5 @@ Some
 aPreloadCSPInfo
 )
 ;
-}
 }
 }

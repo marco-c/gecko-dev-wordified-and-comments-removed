@@ -140,8 +140,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 DocumentOrShadowRoot
@@ -4700,6 +4700,5 @@ Clear
 (
 )
 ;
-}
 }
 }

@@ -52,8 +52,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 TemporaryIPCBlobParent
@@ -459,6 +459,5 @@ IPC_OK
 (
 )
 ;
-}
 }
 }

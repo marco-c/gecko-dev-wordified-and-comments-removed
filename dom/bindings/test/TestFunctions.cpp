@@ -83,8 +83,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 TestFunctions
@@ -1568,6 +1568,5 @@ aGivenProto
 aWrapper
 )
 ;
-}
 }
 }

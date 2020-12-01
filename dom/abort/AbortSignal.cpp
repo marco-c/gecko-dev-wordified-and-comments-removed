@@ -38,8 +38,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 AbortSignalImpl
@@ -527,6 +527,5 @@ mFollowingSignal
 0
 )
 ;
-}
 }
 }

@@ -7,8 +7,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SpeechRecognitionError
@@ -209,6 +209,5 @@ mMessage
 =
 aMessage
 ;
-}
 }
 }

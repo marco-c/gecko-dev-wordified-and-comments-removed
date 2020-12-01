@@ -328,8 +328,8 @@ idbThreadLocal
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -4730,7 +4730,6 @@ SendCommit
 true
 )
 ;
-}
 }
 }
 }

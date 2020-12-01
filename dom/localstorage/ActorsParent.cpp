@@ -1138,8 +1138,8 @@ LS_MOBILE
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -41464,6 +41464,5 @@ reset
 return
 NS_OK
 ;
-}
 }
 }

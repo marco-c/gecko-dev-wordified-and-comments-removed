@@ -328,8 +328,8 @@ current
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 AudioTimelineEvent
@@ -1931,6 +1931,5 @@ next
 return
 previous
 ;
-}
 }
 }

@@ -18,8 +18,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_INHERITED
@@ -631,7 +631,6 @@ DeviceRotationRate
 =
 default
 ;
-}
 }
 using
 namespace

@@ -30,8 +30,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 template
@@ -2116,6 +2116,5 @@ gCallingListeners
 =
 false
 ;
-}
 }
 }

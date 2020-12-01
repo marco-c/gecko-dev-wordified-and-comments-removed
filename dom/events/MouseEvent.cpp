@@ -41,8 +41,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 MouseEvent
@@ -1622,7 +1622,6 @@ AsMouseEventBase
 >
 mInputSource
 ;
-}
 }
 }
 using

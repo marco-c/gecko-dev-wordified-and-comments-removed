@@ -110,8 +110,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -4717,5 +4717,4 @@ IDBCursorType
 IndexKey
 >
 ;
-}
 }

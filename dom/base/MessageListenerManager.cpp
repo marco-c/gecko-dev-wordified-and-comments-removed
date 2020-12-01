@@ -22,8 +22,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 MessageListenerManager
@@ -150,6 +150,5 @@ mParentManager
 =
 nullptr
 ;
-}
 }
 }

@@ -77,8 +77,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -912,6 +912,5 @@ __func__
 return
 mDetachPromise
 ;
-}
 }
 }

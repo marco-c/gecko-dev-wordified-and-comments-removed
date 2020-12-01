@@ -81,8 +81,8 @@ Table
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -4873,6 +4873,5 @@ aSubjectPrincipal
 aNotify
 )
 ;
-}
 }
 }

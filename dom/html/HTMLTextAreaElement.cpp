@@ -299,8 +299,8 @@ TextArea
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLTextAreaElement
@@ -5279,6 +5279,5 @@ aValue
 mAutocompleteAttrState
 )
 ;
-}
 }
 }

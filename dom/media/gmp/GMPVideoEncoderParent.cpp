@@ -104,6 +104,9 @@ h
 "
 namespace
 mozilla
+:
+:
+gmp
 {
 #
 ifdef
@@ -119,9 +122,6 @@ __CLASS__
 "
 GMPVideoEncoderParent
 "
-namespace
-gmp
-{
 GMPVideoEncoderParent
 :
 :
@@ -1430,7 +1430,6 @@ IPC_OK
 (
 )
 ;
-}
 }
 }
 #

@@ -22,8 +22,8 @@ DataList
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLDataListElement
@@ -135,6 +135,5 @@ nsGkAtoms
 disabled
 )
 ;
-}
 }
 }

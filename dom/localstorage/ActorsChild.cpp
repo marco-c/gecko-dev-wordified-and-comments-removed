@@ -113,8 +113,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 LSDatabaseChild
@@ -1129,6 +1129,5 @@ IPC_OK
 (
 )
 ;
-}
 }
 }

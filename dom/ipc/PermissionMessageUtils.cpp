@@ -47,8 +47,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 void
@@ -244,6 +244,5 @@ principal
 return
 true
 ;
-}
 }
 }

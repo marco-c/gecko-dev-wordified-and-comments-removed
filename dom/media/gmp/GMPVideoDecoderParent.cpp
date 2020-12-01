@@ -90,8 +90,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 GMPVideoDecoderParent
@@ -2159,6 +2159,5 @@ CancelResetCompleteTimeout
 (
 )
 ;
-}
 }
 }

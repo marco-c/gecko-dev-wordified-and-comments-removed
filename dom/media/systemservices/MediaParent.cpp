@@ -165,8 +165,8 @@ ORIGINKEYS_VERSION
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 media
 {
 StaticMutex
@@ -2678,7 +2678,6 @@ Release
 return
 true
 ;
-}
 }
 }
 template

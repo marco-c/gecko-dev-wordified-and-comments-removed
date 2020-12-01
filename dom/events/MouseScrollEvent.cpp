@@ -38,8 +38,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 MouseScrollEvent
@@ -269,7 +269,6 @@ MouseScrollEvent_Binding
 :
 VERTICAL_AXIS
 ;
-}
 }
 }
 using

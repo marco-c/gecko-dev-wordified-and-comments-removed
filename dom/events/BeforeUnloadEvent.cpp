@@ -11,8 +11,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 void
@@ -47,7 +47,6 @@ aReturnValue
 =
 mText
 ;
-}
 }
 }
 using

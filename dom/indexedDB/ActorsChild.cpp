@@ -456,8 +456,8 @@ PrincipalInfo
 ;
 namespace
 dom
-{
-namespace
+:
+:
 indexedDB
 {
 namespace
@@ -16903,7 +16903,6 @@ nullptr
 ;
 #
 endif
-}
 }
 }
 }

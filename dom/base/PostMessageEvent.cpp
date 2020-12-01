@@ -251,8 +251,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 PostMessageEvent
@@ -1668,6 +1668,5 @@ forget
 )
 )
 ;
-}
 }
 }

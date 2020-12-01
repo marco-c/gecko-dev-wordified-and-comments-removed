@@ -105,8 +105,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SDBResult
@@ -266,6 +266,5 @@ arrayBuffer
 return
 NS_OK
 ;
-}
 }
 }

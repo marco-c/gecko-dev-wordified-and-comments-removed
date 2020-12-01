@@ -465,8 +465,8 @@ nsIDirectTaskDispatcher
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 AutoTArray
@@ -1877,6 +1877,5 @@ true
 return
 false
 ;
-}
 }
 }

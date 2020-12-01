@@ -152,8 +152,8 @@ Shared
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 extern
@@ -1592,6 +1592,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

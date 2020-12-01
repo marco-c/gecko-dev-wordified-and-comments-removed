@@ -383,8 +383,8 @@ quota
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -3355,6 +3355,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

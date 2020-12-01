@@ -158,8 +158,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_ADDREF_INHERITED
@@ -2621,6 +2621,5 @@ Headers
 return
 mHeaders
 ;
-}
 }
 }

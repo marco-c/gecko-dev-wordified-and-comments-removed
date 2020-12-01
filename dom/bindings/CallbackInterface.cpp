@@ -45,8 +45,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -199,6 +199,5 @@ false
 return
 true
 ;
-}
 }
 }

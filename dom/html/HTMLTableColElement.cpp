@@ -49,8 +49,8 @@ TableCol
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -452,6 +452,5 @@ return
 &
 MapAttributesIntoRule
 ;
-}
 }
 }

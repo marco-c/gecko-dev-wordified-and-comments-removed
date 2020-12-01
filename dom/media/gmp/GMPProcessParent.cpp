@@ -167,8 +167,8 @@ kInvalidFd
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 #
@@ -1447,5 +1447,4 @@ NS_OK
 }
 #
 endif
-}
 }

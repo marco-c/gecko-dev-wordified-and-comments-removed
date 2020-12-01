@@ -374,8 +374,8 @@ actor
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -3997,7 +3997,6 @@ DispatchError
 0
 )
 ;
-}
 }
 }
 }

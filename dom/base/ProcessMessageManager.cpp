@@ -40,8 +40,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 ProcessMessageManager
@@ -172,6 +172,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

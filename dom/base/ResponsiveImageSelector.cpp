@@ -108,8 +108,8 @@ dom
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION
@@ -3418,6 +3418,5 @@ return
 .
 0
 ;
-}
 }
 }

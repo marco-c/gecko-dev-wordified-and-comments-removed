@@ -1276,11 +1276,11 @@ GB
 MB
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 quota
 {
 using
@@ -52291,7 +52291,5 @@ rv
 return
 NS_OK
 ;
-}
-}
 }
 }

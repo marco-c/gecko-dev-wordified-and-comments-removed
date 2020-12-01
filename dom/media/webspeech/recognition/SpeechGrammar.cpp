@@ -18,8 +18,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
@@ -240,6 +240,5 @@ Throw
 NS_ERROR_NOT_IMPLEMENTED
 )
 ;
-}
 }
 }

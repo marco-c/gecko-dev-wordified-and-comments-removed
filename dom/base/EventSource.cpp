@@ -357,8 +357,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -8779,5 +8779,4 @@ NS_IMPL_RELEASE_INHERITED
 EventSource
 DOMEventTargetHelper
 )
-}
 }

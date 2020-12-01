@@ -94,8 +94,8 @@ deque
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -2245,6 +2245,5 @@ NotifyNodeIsConnected
 isConnected
 )
 ;
-}
 }
 }

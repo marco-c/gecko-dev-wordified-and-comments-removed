@@ -39,8 +39,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 ClientSource
@@ -513,6 +513,5 @@ DisconnectIfExists
 (
 )
 ;
-}
 }
 }

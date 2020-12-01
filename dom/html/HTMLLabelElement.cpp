@@ -90,8 +90,8 @@ Label
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLLabelElement
@@ -1126,6 +1126,5 @@ element
 return
 nullptr
 ;
-}
 }
 }

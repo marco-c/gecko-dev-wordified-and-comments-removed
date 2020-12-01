@@ -48,11 +48,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 namespace
@@ -744,7 +744,5 @@ IsEmpty
 )
 )
 ;
-}
-}
 }
 }

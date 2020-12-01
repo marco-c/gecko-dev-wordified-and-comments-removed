@@ -127,8 +127,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -3741,6 +3741,5 @@ mWriteOffset
 return
 count
 ;
-}
 }
 }

@@ -143,8 +143,8 @@ __VA_ARGS__
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -2169,6 +2169,5 @@ GetMediaElement
 :
 nullptr
 ;
-}
 }
 }

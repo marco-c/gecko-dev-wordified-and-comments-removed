@@ -18,8 +18,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 TimeoutBudgetManager
@@ -104,6 +104,5 @@ aNow
 -
 mStart
 ;
-}
 }
 }

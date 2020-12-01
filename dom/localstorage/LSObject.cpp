@@ -381,8 +381,8 @@ FAILSAFE_CANCEL_SYNC_OP_MS
 50000
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -5428,6 +5428,5 @@ NS_DISPATCH_NORMAL
 )
 )
 ;
-}
 }
 }

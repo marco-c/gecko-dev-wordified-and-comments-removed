@@ -227,8 +227,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 Location
@@ -3130,6 +3130,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

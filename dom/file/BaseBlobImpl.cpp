@@ -25,8 +25,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 void
@@ -326,6 +326,5 @@ aCrossOriginIsolated
 )
 )
 ;
-}
 }
 }

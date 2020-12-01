@@ -55,8 +55,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 AudioTrack
@@ -310,7 +310,6 @@ CreateAndDispatchChangeEvent
 (
 )
 ;
-}
 }
 }
 }

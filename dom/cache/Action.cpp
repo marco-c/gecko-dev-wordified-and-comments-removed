@@ -13,11 +13,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 void
@@ -73,7 +73,5 @@ const
 return
 mCanceled
 ;
-}
-}
 }
 }

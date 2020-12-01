@@ -80,8 +80,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -4017,6 +4017,5 @@ aMethodName
 methodDetails
 )
 ;
-}
 }
 }

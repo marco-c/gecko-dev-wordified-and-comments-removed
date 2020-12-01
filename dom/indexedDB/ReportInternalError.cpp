@@ -30,11 +30,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 indexedDB
 {
 void
@@ -128,7 +128,5 @@ false
 true
 )
 ;
-}
-}
 }
 }

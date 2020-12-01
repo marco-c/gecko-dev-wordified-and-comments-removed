@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SpeechSynthesisParent
@@ -858,6 +858,5 @@ NS_ERROR_FAILURE
 return
 NS_OK
 ;
-}
 }
 }

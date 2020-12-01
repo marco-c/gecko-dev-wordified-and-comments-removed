@@ -16,11 +16,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 quota
 {
 namespace
@@ -1089,7 +1089,5 @@ type
 return
 true
 ;
-}
-}
 }
 }

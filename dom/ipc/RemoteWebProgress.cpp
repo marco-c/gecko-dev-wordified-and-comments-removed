@@ -7,8 +7,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_ADDREF
@@ -185,6 +185,5 @@ aTarget
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;
-}
 }
 }

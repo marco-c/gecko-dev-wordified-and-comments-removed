@@ -98,11 +98,11 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 power
 {
 using
@@ -653,8 +653,6 @@ forget
 (
 )
 ;
-}
-}
 }
 }
 NS_DEFINE_NAMED_CID

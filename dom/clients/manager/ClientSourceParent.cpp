@@ -119,8 +119,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -1325,6 +1325,5 @@ Args
 return
 promise
 ;
-}
 }
 }
