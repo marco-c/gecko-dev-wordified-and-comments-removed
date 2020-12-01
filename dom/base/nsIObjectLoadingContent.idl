@@ -188,6 +188,13 @@ PLUGIN_CLICK_TO_PLAY_QUIET
 const
 unsigned
 long
+PLUGIN_BLOCK_ALL
+=
+12
+;
+const
+unsigned
+long
 PLUGIN_PERMISSION_PROMPT_ACTION_QUIET
 =
 8

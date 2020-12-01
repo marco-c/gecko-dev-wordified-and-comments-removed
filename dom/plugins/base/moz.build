@@ -78,11 +78,6 @@ nsNPAPIPluginInstance
 h
 "
 "
-nsPluginDirServiceProvider
-.
-h
-"
-"
 nsPluginHost
 .
 h
@@ -152,11 +147,6 @@ nsPluginTags
 .
 cpp
 "
-"
-PluginFinder
-.
-cpp
-"
 ]
 SOURCES
 +
@@ -190,11 +180,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-nsPluginDirServiceProvider
-.
-cpp
-"
 "
 nsPluginNativeWindowWin
 .
