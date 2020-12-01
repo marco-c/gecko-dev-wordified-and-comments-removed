@@ -464,7 +464,8 @@ Ci
 nsIWindowMediator
 )
 ;
-gChromeWindow
+let
+chromeWindow
 =
 wm
 .
@@ -591,7 +592,7 @@ opt
 y
 event
 .
-gChromeWindow
+chromeWindow
 .
 addEventListener
 (
@@ -599,7 +600,6 @@ addEventListener
 keypress
 "
 onKeyPress
-false
 )
 ;
 }
@@ -733,7 +733,6 @@ addEventListener
 click
 "
 onFirstTabButtonClicked
-false
 )
 ;
 button
@@ -958,7 +957,6 @@ addEventListener
 click
 "
 onSecondTabButtonClicked
-false
 )
 ;
 button

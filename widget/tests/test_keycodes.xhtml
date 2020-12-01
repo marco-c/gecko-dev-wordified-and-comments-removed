@@ -1597,7 +1597,7 @@ keydown
 "
 )
 {
-var
+let
 oldValue
 =
 keyDownFlags
@@ -1628,7 +1628,7 @@ keyup
 "
 )
 {
-var
+let
 oldValue
 =
 keyUpFlags
@@ -1662,6 +1662,7 @@ line
 no
 -
 shadow
+complexity
 *
 /
 function
@@ -3402,11 +3403,6 @@ preventDefault
 ;
 }
 const
-SHOULD_DELIVER_NONE
-=
-0x0
-;
-const
 SHOULD_DELIVER_KEYDOWN
 =
 0x1
@@ -3794,6 +3790,16 @@ Starting
 currentTestName
 )
 ;
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+complexity
 return
 synthesizeKey
 (
@@ -3844,7 +3850,7 @@ keypress
 ;
 for
 (
-var
+let
 i
 =
 1
@@ -3927,7 +3933,7 @@ keypressCount
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -4036,6 +4042,20 @@ firedEventType
 var
 expectedKeyValue
 =
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+no
+-
+nested
+-
+ternary
 typeof
 aExpectedKeyValues
 =
@@ -4540,8 +4560,6 @@ if
 aExpectGeckoChar
 .
 length
->
-0
 &
 &
 e
@@ -4704,7 +4722,6 @@ addEventListener
 keydown
 "
 onKeyEvent
-false
 )
 ;
 document
@@ -4715,7 +4732,6 @@ addEventListener
 keypress
 "
 onKeyEvent
-false
 )
 ;
 document
@@ -4726,7 +4742,6 @@ addEventListener
 keyup
 "
 onKeyEvent
-false
 )
 ;
 /
@@ -4763,7 +4778,6 @@ removeEventListener
 keydown
 "
 onKeyEvent
-false
 )
 ;
 document
@@ -4774,7 +4788,6 @@ removeEventListener
 keypress
 "
 onKeyEvent
-false
 )
 ;
 document
@@ -4785,7 +4798,6 @@ removeEventListener
 keyup
 "
 onKeyEvent
-false
 )
 ;
 SpecialPowers
@@ -68066,7 +68078,6 @@ addEventListener
 click
 "
 onClick
-false
 )
 ;
 /
@@ -69124,7 +69135,6 @@ removeEventListener
 click
 "
 onClick
-false
 )
 ;
 }
@@ -69348,7 +69358,6 @@ addEventListener
 keydown
 "
 onKeyInDefaultEventGroup
-false
 )
 ;
 buttonParent
@@ -69359,7 +69368,6 @@ addEventListener
 keypress
 "
 onKeyInDefaultEventGroup
-false
 )
 ;
 SpecialPowers
@@ -69445,7 +69453,6 @@ removeEventListener
 keydown
 "
 onKeyInDefaultEventGroup
-false
 )
 ;
 buttonParent
@@ -69456,7 +69463,6 @@ removeEventListener
 keypress
 "
 onKeyInDefaultEventGroup
-false
 )
 ;
 SpecialPowers
@@ -69651,11 +69657,8 @@ keyElement
 is
 (
 commandElements
-[
-"
+.
 expectedCommand
-"
-]
 .
 activeCount
 1
@@ -69684,11 +69687,8 @@ else
 is
 (
 commandElements
-[
-"
+.
 expectedCommand
-"
-]
 .
 activeCount
 0
@@ -69717,11 +69717,8 @@ preformed
 is
 (
 commandElements
-[
-"
+.
 unexpectedCommand
-"
-]
 .
 activeCount
 0
@@ -69749,11 +69746,8 @@ preformed
 is
 (
 commandElements
-[
-"
+.
 expectedReservedCommand
-"
-]
 .
 activeCount
 0
@@ -70407,11 +70401,8 @@ function
 is
 (
 commandElements
-[
-"
+.
 expectedCommand
-"
-]
 .
 activeCount
 0
@@ -70439,11 +70430,8 @@ preformed
 is
 (
 commandElements
-[
-"
+.
 unexpectedCommand
-"
-]
 .
 activeCount
 0
@@ -70471,11 +70459,8 @@ preformed
 is
 (
 commandElements
-[
-"
+.
 expectedReservedCommand
-"
-]
 .
 activeCount
 1
@@ -71751,7 +71736,6 @@ addEventListener
 keydown
 "
 onKeyInDefaultEventGroup
-false
 )
 ;
 contents
@@ -71765,7 +71749,6 @@ addEventListener
 keypress
 "
 onKeyInDefaultEventGroup
-false
 )
 ;
 SpecialPowers
@@ -72056,7 +72039,6 @@ removeEventListener
 keydown
 "
 onKeyInDefaultEventGroup
-false
 )
 ;
 contents
@@ -72070,7 +72052,6 @@ removeEventListener
 keypress
 "
 onKeyInDefaultEventGroup
-false
 )
 ;
 SpecialPowers
@@ -72157,6 +72138,7 @@ function
 (
 )
 {
+let
 testName
 =
 "
@@ -74743,8 +74725,6 @@ layout
 :
 KEYBOARD_LAYOUT_RUSSIAN_MNEMONIC
 canTestIt
-:
-function
 (
 )
 {

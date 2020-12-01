@@ -202,9 +202,7 @@ nsILoadContext
 var
 clipboard
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -221,9 +219,7 @@ clipboard
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIClipboard
 )
@@ -231,9 +227,7 @@ nsIClipboard
 var
 transferable
 =
-Components
-.
-classes
+Cc
 [
 '
 mozilla
@@ -250,9 +244,7 @@ transferable
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsITransferable
 )
@@ -296,9 +288,7 @@ setData
 (
 transferable
 null
-Components
-.
-interfaces
+Ci
 .
 nsIClipboard
 .
