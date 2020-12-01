@@ -10,8 +10,6 @@ OptionParser
 import
 os
 import
-plistlib
-import
 shutil
 import
 subprocess
@@ -51,6 +49,16 @@ ImportError
 has_pefile
 =
 False
+if
+mozinfo
+.
+isMac
+:
+    
+from
+plistlib
+import
+readPlist
 TIMEOUT_UNINSTALL
 =
 60
@@ -292,18 +300,6 @@ found
 path
 )
         
-with
-open
-(
-plist
-"
-rb
-"
-)
-as
-fp
-:
-            
 binary
 =
 os
@@ -312,7 +308,7 @@ path
 .
 join
 (
-                
+            
 path
 "
 Contents
@@ -320,18 +316,16 @@ Contents
 MacOS
 /
 "
-plistlib
-.
-load
+readPlist
 (
-fp
+plist
 )
 [
 "
 CFBundleExecutable
 "
 ]
-            
+        
 )
     
 else
