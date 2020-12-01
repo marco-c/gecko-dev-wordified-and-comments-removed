@@ -125,7 +125,6 @@ InvalidStateError
 NotAllowedError
 NotFoundError
 NotReadableError
-NotSupportedError
 OverconstrainedError
 SecurityError
 TypeError
