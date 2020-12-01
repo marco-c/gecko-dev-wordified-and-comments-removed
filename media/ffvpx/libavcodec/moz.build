@@ -509,6 +509,14 @@ vaapi_vp9
 c
 '
 ]
+USE_LIBS
++
+=
+[
+'
+mozva
+'
+]
 if
 CONFIG
 [

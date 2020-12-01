@@ -309,6 +309,14 @@ hwcontext_vaapi
 c
 '
 ]
+USE_LIBS
++
+=
+[
+'
+mozva
+'
+]
 SYMBOLS_FILE
 =
 '
