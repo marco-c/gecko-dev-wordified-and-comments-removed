@@ -521,6 +521,12 @@ defined
 (
 ANDROID
 )
+|
+|
+defined
+(
+MOZ_WAYLAND
+)
 typedef
 intptr_t
 NativeWindowHandle
