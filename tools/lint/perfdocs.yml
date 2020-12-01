@@ -32,6 +32,11 @@ python
 /
 mozperftest
 '
+'
+testing
+/
+talos
+'
 ]
 exclude
 :
