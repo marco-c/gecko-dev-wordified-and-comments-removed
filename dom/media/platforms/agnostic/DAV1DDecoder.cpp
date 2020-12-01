@@ -8,6 +8,13 @@ h
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 TaskQueue
@@ -29,6 +36,13 @@ h
 include
 "
 nsThreadUtils
+.
+h
+"
+#
+include
+"
+VideoUtils
 .
 h
 "
@@ -1110,6 +1124,9 @@ b
 .
 mColorDepth
 =
+gfx
+:
+:
 ColorDepth
 :
 :
@@ -1133,6 +1150,9 @@ b
 .
 mColorDepth
 =
+gfx
+:
+:
 ColorDepth
 :
 :
@@ -1169,6 +1189,9 @@ b
 .
 mYUVColorSpace
 =
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -1183,6 +1206,9 @@ b
 .
 mYUVColorSpace
 =
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -1197,6 +1223,9 @@ b
 .
 mYUVColorSpace
 =
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -1352,6 +1381,9 @@ b
 mYUVColorSpace
 =
 =
+gfx
+:
+:
 YUVColorSpace
 :
 :

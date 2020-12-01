@@ -63,6 +63,13 @@ VPXDecoder
 .
 h
 "
+#
+include
+"
+VideoUtils
+.
+h
+"
 namespace
 mozilla
 {

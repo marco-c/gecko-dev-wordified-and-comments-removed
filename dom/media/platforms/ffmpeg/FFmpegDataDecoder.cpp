@@ -47,6 +47,13 @@ prsystem
 .
 h
 "
+#
+include
+"
+VideoUtils
+.
+h
+"
 namespace
 mozilla
 {

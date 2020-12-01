@@ -59,6 +59,13 @@ StaticPrefs_media
 h
 "
 #
+include
+"
+VideoUtils
+.
+h
+"
+#
 ifdef
 MOZ_AV1
 #
