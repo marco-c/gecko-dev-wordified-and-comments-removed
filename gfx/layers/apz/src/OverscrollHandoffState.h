@@ -210,6 +210,16 @@ aOutAllowedScrollDirections
 )
 const
 ;
+bool
+ScrollingDownWillMoveDynamicToolbar
+(
+const
+AsyncPanZoomController
+*
+aApzc
+)
+const
+;
 private
 :
 std

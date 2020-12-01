@@ -1109,6 +1109,12 @@ CanScrollDownwardsWithDynamicToolbar
 )
 const
 ;
+bool
+CanScrollDownwards
+(
+)
+const
+;
 CSSCoord
 ConvertScrollbarPoint
 (
