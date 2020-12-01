@@ -308,11 +308,6 @@ struct
 MenuItemParams
 {
 bool
-backgroundIsVibrant
-=
-false
-;
-bool
 checked
 =
 false
