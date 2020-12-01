@@ -505,6 +505,15 @@ button
 "
 )
 ;
+if
+(
+!
+appMenuZoomReset
+)
+{
+return
+;
+}
 let
 customizableZoomControls
 =
