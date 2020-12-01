@@ -219,7 +219,7 @@ DisplayPortMargins
 DisplayPortMargins
 :
 :
-WithAdjustment
+FromAPZ
 (
 const
 ScreenMargin
@@ -5517,7 +5517,7 @@ presShell
 DisplayPortMargins
 :
 :
-WithAdjustment
+FromAPZ
 (
 aMetrics
 .

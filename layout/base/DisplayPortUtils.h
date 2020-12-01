@@ -235,7 +235,7 @@ mScale
 ;
 static
 DisplayPortMargins
-WithAdjustment
+FromAPZ
 (
 const
 ScreenMargin

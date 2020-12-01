@@ -931,7 +931,7 @@ displayPortMargins
 DisplayPortMargins
 :
 :
-WithAdjustment
+FromAPZ
 (
 aRequest
 .
@@ -974,7 +974,7 @@ displayPortMargins
 DisplayPortMargins
 :
 :
-WithAdjustment
+FromAPZ
 (
 aRequest
 .
