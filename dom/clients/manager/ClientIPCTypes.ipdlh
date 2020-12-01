@@ -72,6 +72,17 @@ IPCServiceWorkerDescriptor
 include
 ProtocolTypes
 ;
+include
+"
+mozilla
+/
+dom
+/
+ClientIPCUtils
+.
+h
+"
+;
 using
 class
 mozilla
@@ -95,7 +106,7 @@ mozilla
 /
 dom
 /
-ClientIPCUtils
+ClientsBinding
 .
 h
 "
@@ -108,7 +119,7 @@ mozilla
 /
 dom
 /
-ClientIPCUtils
+ClientBinding
 .
 h
 "
@@ -122,9 +133,7 @@ from
 "
 mozilla
 /
-dom
-/
-ClientIPCUtils
+StorageAccess
 .
 h
 "
@@ -137,7 +146,7 @@ mozilla
 /
 dom
 /
-ClientIPCUtils
+DocumentBinding
 .
 h
 "
