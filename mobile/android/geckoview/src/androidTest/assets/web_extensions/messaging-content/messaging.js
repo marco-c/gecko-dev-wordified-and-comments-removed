@@ -11,11 +11,6 @@ badNativeApi
 errorerrorerror
 "
 )
-.
-catch
-(
-runTest
-)
 ;
 async
 function
@@ -158,3 +153,7 @@ testContentPortMessage
 )
 ;
 }
+runTest
+(
+)
+;
