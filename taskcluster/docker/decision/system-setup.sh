@@ -59,14 +59,6 @@ python3
 python3
 -
 yaml
-\
-python
--
-psutil
-\
-python3
--
-psutil
 BUILD
 =
 /
