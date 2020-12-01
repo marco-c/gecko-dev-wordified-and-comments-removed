@@ -4133,10 +4133,6 @@ webrender
 &
 &
 winWidget
-&
-&
-!
-swgl
 )
 =
 =
@@ -4177,10 +4173,6 @@ fails
 if
 (
 webrender
-&
-&
-!
-swgl
 &
 &
 !

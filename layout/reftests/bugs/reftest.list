@@ -32812,6 +32812,9 @@ fuzzy
 -
 if
 (
+gtkWidget
+&
+&
 webrender
 &
 &
@@ -38213,9 +38216,6 @@ gtkWidget
 |
 |
 geckoview
-|
-|
-swgl
 )
 )
 1
