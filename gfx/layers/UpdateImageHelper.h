@@ -7,7 +7,11 @@ GFX_UPDATEIMAGEHELPER_H
 #
 include
 "
-Layers
+mozilla
+/
+layers
+/
+CompositorTypes
 .
 h
 "

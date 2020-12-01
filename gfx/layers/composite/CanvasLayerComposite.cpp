@@ -88,6 +88,17 @@ include
 "
 mozilla
 /
+layers
+/
+LayerManagerCompositeUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h

@@ -222,6 +222,17 @@ mozilla
 /
 layers
 /
+LayerManagerCompositeUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 LayerMetricsWrapper
 .
 h

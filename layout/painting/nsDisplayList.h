@@ -358,6 +358,13 @@ include
 <
 unordered_set
 >
+#
+include
+"
+gfxPlatform
+.
+h
+"
 class
 gfxContext
 ;
