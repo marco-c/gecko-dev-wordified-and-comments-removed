@@ -223,6 +223,9 @@ aChannelIndex
 void
 *
 aContext
+RenderCompositor
+*
+aCompositor
 wr
 :
 :
