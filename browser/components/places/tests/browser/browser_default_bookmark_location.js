@@ -27,6 +27,9 @@ let
 bookmarkPanel
 ;
 let
+folders
+;
+let
 win
 ;
 add_task
