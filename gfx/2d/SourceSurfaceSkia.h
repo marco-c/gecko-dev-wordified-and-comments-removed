@@ -254,8 +254,11 @@ mSize
 int32_t
 mStride
 ;
+Atomic
+<
 DrawTargetSkia
 *
+>
 mDrawTarget
 ;
 Mutex

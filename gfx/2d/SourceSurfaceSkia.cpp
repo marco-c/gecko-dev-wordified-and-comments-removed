@@ -815,6 +815,11 @@ mChangeMutex
 if
 (
 mDrawTarget
+.
+exchange
+(
+nullptr
+)
 )
 {
 SkPixmap
@@ -870,10 +875,6 @@ snapshot
 ;
 }
 }
-mDrawTarget
-=
-nullptr
-;
 }
 }
 }
