@@ -155,6 +155,9 @@ isMarkerPseudoElement
 isNativeAnonymous
 "
 "
+isRemoteFrame
+"
+"
 isShadowHost
 "
 "
@@ -2950,6 +2953,12 @@ children
 length
 >
 0
+|
+|
+isRemoteFrame
+(
+rawNode
+)
 )
 {
 return
