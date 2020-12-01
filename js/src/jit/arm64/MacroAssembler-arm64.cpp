@@ -1844,6 +1844,16 @@ MaxOffsetGuardLimit
 ;
 MOZ_ASSERT
 (
+!
+access
+.
+isSplatSimd128Load
+(
+)
+)
+;
+MOZ_ASSERT
+(
 ptr_
 =
 =
