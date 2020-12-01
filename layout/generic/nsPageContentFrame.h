@@ -195,6 +195,11 @@ mPD
 =
 nullptr
 ;
+nscoord
+mRemainingOverflow
+=
+0
+;
 }
 ;
 #
