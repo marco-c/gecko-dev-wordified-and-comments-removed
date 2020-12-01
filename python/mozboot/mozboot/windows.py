@@ -188,12 +188,6 @@ diffutils
 '
         
 '
-autoconf2
-.
-13
-'
-        
-'
 tar
 '
         

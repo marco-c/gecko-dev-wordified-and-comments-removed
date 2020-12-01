@@ -2625,13 +2625,6 @@ packages
 [
             
 '
-autoconf
-2
-.
-13
-'
-            
-'
 git
 '
             
@@ -3009,10 +3002,6 @@ install_mercurial
 packages
 =
 [
-            
-'
-autoconf213
-'
             
 '
 gnutar
