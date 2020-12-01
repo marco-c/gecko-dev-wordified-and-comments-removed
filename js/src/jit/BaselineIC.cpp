@@ -6476,7 +6476,7 @@ else
 if
 (
 !
-SetObjectElement
+SetObjectElementWithReceiver
 (
 cx
 obj
@@ -6494,8 +6494,6 @@ JSOp
 :
 :
 StrictSetElem
-script
-pc
 )
 )
 {
@@ -8303,17 +8301,6 @@ return
 false
 ;
 }
-JitScript
-:
-:
-MonitorBytecodeType
-(
-cx
-script
-pc
-res
-)
-;
 TryAttachStub
 <
 GetIntrinsicIRGenerator

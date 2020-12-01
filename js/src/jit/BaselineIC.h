@@ -196,9 +196,6 @@ JSTracer
 namespace
 js
 {
-class
-StackTypeSet
-;
 MOZ_COLD
 void
 ReportOutOfMemory
