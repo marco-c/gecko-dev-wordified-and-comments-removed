@@ -36,6 +36,7 @@ C
 2009
 2016
 2018
+2020
 D
 .
 R
@@ -158,10 +159,9 @@ This
 file
 contains
 a
-slow
--
+slower
 but
--
+more
 accurate
 integer
 implementation
@@ -1332,7 +1332,7 @@ place
 8x8x16
 -
 bit
-slow
+accurate
 integer
 forward
 DCT

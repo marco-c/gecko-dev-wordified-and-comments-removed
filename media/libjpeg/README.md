@@ -33,7 +33,7 @@ x86
 x86
 -
 64
-ARM
+Arm
 PowerPC
 and
 MIPS
@@ -1707,9 +1707,8 @@ of
 quality
 improvement
 .
-The
-reader
-is
+Readers
+are
 invited
 to
 peruse
@@ -1735,9 +1734,7 @@ SmartScale
 >
 and
 draw
-his
-/
-her
+their
 own
 conclusions
 but
@@ -2882,7 +2879,7 @@ the
 accuracy
 of
 the
-slow
+accurate
 integer
 IDCT
 .
@@ -2908,7 +2905,7 @@ more
 accuracy
 than
 the
-slow
+accurate
 integer
 algorithms
 (
@@ -3437,7 +3434,7 @@ that
 you
 use
 the
-slow
+accurate
 integer
 forward
 DCT

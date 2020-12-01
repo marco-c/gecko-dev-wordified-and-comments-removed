@@ -1,8 +1,8 @@
 /
 *
 *
-ARMv7
-NEON
+Armv7
+Neon
 optimizations
 for
 libjpeg
@@ -1613,7 +1613,7 @@ and
 dequantize
 coefficients
 into
-NEON
+Neon
 registers
 *
 with
@@ -1928,7 +1928,7 @@ d15
 /
 *
 save
-NEON
+Neon
 registers
 *
 /
@@ -3854,7 +3854,7 @@ d15
 /
 *
 restore
-NEON
+Neon
 registers
 *
 /
@@ -5110,8 +5110,8 @@ additions
 *
 But
 in
-ARM
-NEON
+Arm
+Neon
 case
 some
 extra
@@ -5329,7 +5329,7 @@ and
 dequantize
 coefficients
 into
-NEON
+Neon
 registers
 *
 with
@@ -5636,7 +5636,7 @@ d13
 /
 *
 save
-NEON
+Neon
 registers
 *
 /
@@ -6188,7 +6188,7 @@ d13
 /
 *
 restore
-NEON
+Neon
 registers
 *
 /
@@ -6696,7 +6696,7 @@ purpose
 of
 this
 particular
-NEON
+Neon
 optimized
 function
 is
@@ -7487,7 +7487,7 @@ Load
 all
 COEF_BLOCK
 into
-NEON
+Neon
 registers
 with
 the
@@ -8391,7 +8391,7 @@ purpose
 of
 this
 particular
-NEON
+Neon
 optimized
 function
 is
@@ -8644,7 +8644,7 @@ Load
 all
 COEF_BLOCK
 into
-NEON
+Neon
 registers
 with
 the
@@ -11341,7 +11341,7 @@ ip
 /
 *
 Save
-ARM
+Arm
 registers
 and
 handle
@@ -11396,7 +11396,7 @@ INPUT_BUF
 /
 *
 Save
-NEON
+Neon
 registers
 *
 /
@@ -13528,7 +13528,7 @@ ip
 /
 *
 Save
-ARM
+Arm
 registers
 and
 handle
@@ -13583,7 +13583,7 @@ OUTPUT_BUF
 /
 *
 Save
-NEON
+Neon
 registers
 *
 /
@@ -14639,7 +14639,7 @@ Load
 all
 DATA
 into
-NEON
+Neon
 registers
 with
 the
@@ -15310,13 +15310,13 @@ this
 function
 on
 both
-ARM
+Arm
 Cortex
 -
 A8
 and
 *
-ARM
+Arm
 Cortex
 -
 A9

@@ -15,6 +15,13 @@ jpeglib
 .
 h
 "
+#
+include
+"
+jpegcomp
+.
+h
+"
 LOCAL
 (
 void

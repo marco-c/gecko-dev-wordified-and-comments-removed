@@ -15,11 +15,11 @@ JSAMPARRAY
 output_buf
 )
 {
-my_upsample_ptr
+my_merged_upsample_ptr
 upsample
 =
 (
-my_upsample_ptr
+my_merged_upsample_ptr
 )
 cinfo
 -
@@ -468,11 +468,11 @@ JSAMPARRAY
 output_buf
 )
 {
-my_upsample_ptr
+my_merged_upsample_ptr
 upsample
 =
 (
-my_upsample_ptr
+my_merged_upsample_ptr
 )
 cinfo
 -

@@ -1,8 +1,8 @@
 /
 *
 *
-ARMv8
-NEON
+Armv8
+Neon
 optimizations
 for
 libjpeg
@@ -83,6 +83,7 @@ C
 2014
 -
 2016
+2020
 D
 .
 R
@@ -333,6 +334,16 @@ __APPLE__
 section
 __DATA
 __const
+#
+elif
+defined
+(
+_WIN32
+)
+.
+section
+.
+rdata
 #
 else
 .
@@ -6900,7 +6911,7 @@ dual
 -
 issue
 with
-NEON
+Neon
 instructions
 )
 *
@@ -13226,8 +13237,8 @@ additions
 *
 But
 in
-ARM
-NEON
+Arm
+Neon
 case
 some
 extra
@@ -13447,7 +13458,7 @@ and
 dequantize
 coefficients
 into
-NEON
+Neon
 registers
 *
 with
@@ -13577,7 +13588,7 @@ v23
 /
 *
 Save
-NEON
+Neon
 registers
 used
 in
@@ -14627,7 +14638,7 @@ dual
 -
 issue
 with
-NEON
+Neon
 instructions
 )
 *
@@ -15254,7 +15265,7 @@ purpose
 of
 this
 particular
-NEON
+Neon
 optimized
 function
 is
@@ -15729,7 +15740,7 @@ w3
 Save
 all
 used
-NEON
+Neon
 registers
 *
 /
@@ -15821,7 +15832,7 @@ Load
 all
 COEF_BLOCK
 into
-NEON
+Neon
 registers
 with
 the
@@ -16958,9 +16969,10 @@ v15
 .
 4h
 }
-;
+(
 not
 available
+)
 *
 /
 ld1
@@ -17205,7 +17217,7 @@ purpose
 of
 this
 particular
-NEON
+Neon
 optimized
 function
 is
@@ -17454,9 +17466,10 @@ v15
 .
 4h
 }
-;
+(
 not
 available
+)
 *
 /
 sub
@@ -17528,7 +17541,7 @@ Load
 all
 COEF_BLOCK
 into
-NEON
+Neon
 registers
 with
 the
@@ -21145,7 +21158,7 @@ Ljsimd_ycc_rgb_neon_consts
 /
 *
 Save
-NEON
+Neon
 registers
 *
 /
@@ -23522,7 +23535,7 @@ in
 -
 order
 *
-ARM64
+AArch64
 processor
 actually
 can
@@ -23718,7 +23731,7 @@ OUTPUT_BUF
 /
 *
 Save
-NEON
+Neon
 registers
 *
 /
@@ -24775,10 +24788,9 @@ This
 file
 contains
 a
-slow
--
+slower
 but
--
+more
 accurate
 integer
 implementation
@@ -25012,7 +25024,7 @@ TMP
 /
 *
 Save
-NEON
+Neon
 registers
 *
 /
@@ -25068,7 +25080,7 @@ Load
 all
 DATA
 into
-NEON
+Neon
 registers
 with
 the
@@ -28210,7 +28222,7 @@ DATA
 /
 *
 Restore
-NEON
+Neon
 registers
 *
 /
@@ -28526,7 +28538,7 @@ Load
 all
 DATA
 into
-NEON
+Neon
 registers
 with
 the
@@ -31064,7 +31076,7 @@ buffer
 /
 *
 Save
-ARM
+Arm
 registers
 *
 /

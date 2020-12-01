@@ -31,6 +31,7 @@ Copyright
 C
 )
 2016
+2020
 D
 .
 R
@@ -153,10 +154,9 @@ This
 file
 contains
 a
-slow
--
+slower
 but
--
+more
 accurate
 integer
 implementation
