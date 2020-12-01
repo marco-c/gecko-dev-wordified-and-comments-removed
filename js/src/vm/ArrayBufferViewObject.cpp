@@ -487,7 +487,9 @@ get
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -502,7 +504,9 @@ get
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -523,7 +527,9 @@ get
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 )
 ;
 MOZ_ASSERT_IF

@@ -41866,7 +41866,9 @@ value
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 )
 {
 return

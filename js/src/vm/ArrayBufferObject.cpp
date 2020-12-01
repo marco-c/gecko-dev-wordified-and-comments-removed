@@ -683,7 +683,9 @@ nbytes
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 )
 )
 {
@@ -4031,7 +4033,9 @@ initial
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 )
 ;
 if
@@ -4890,7 +4894,9 @@ get
 )
 <
 =
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 )
 ;
 setFixedSlot
@@ -5256,7 +5262,9 @@ get
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 )
 {
 return
@@ -5440,7 +5448,9 @@ get
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 )
 {
 return
@@ -6203,7 +6213,9 @@ get
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 "
 caller
 must
