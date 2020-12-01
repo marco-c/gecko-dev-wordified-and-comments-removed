@@ -16,10 +16,10 @@ ServerTimestamp
 }
 ;
 use
-anyhow
+failure
 :
 :
-Result
+Error
 ;
 #
 [
@@ -109,6 +109,7 @@ Result
 <
 (
 )
+Error
 >
 {
 Ok
@@ -142,6 +143,7 @@ Engine
 Result
 <
 OutgoingChangeset
+Error
 >
 ;
 fn
@@ -165,6 +167,7 @@ Result
 <
 (
 )
+Error
 >
 ;
 fn
@@ -184,6 +187,7 @@ Vec
 <
 CollectionRequest
 >
+Error
 >
 ;
 fn
@@ -197,6 +201,7 @@ self
 Result
 <
 StoreSyncAssociation
+Error
 >
 ;
 fn
@@ -215,6 +220,7 @@ Result
 <
 (
 )
+Error
 >
 ;
 fn
@@ -229,6 +235,7 @@ Result
 <
 (
 )
+Error
 >
 ;
 }

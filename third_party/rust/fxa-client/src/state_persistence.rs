@@ -402,16 +402,6 @@ Option
 <
 MigrationData
 >
-pub
-(
-crate
-)
-ecosystem_user_id
-:
-Option
-<
-String
->
 }
 impl
 StateV2
@@ -495,9 +485,6 @@ session_token
 :
 None
 in_flight_migration
-:
-None
-ecosystem_user_id
 :
 None
 }
@@ -871,9 +858,6 @@ HashMap
 new
 (
 )
-ecosystem_user_id
-:
-None
 }
 )
 }

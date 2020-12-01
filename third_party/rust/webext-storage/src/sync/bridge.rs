@@ -1194,9 +1194,7 @@ ext
 -
 a
 '
-'
-3
-'
+null
 )
 "
 rusqlite

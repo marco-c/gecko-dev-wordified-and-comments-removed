@@ -15,10 +15,6 @@ Debug
 PartialEq
 )
 ]
-#
-[
-non_exhaustive
-]
 pub
 struct
 Settings
@@ -45,6 +41,10 @@ pub
 use_caches
 :
 bool
+_priv
+:
+(
+)
 }
 #
 [
@@ -125,5 +125,9 @@ true
 use_caches
 :
 false
+_priv
+:
+(
+)
 }
 ;

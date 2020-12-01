@@ -245,9 +245,6 @@ AUTF8String
 >
 scopes
 in
-AUTF8String
-entryPoint
-in
 mozIFirefoxAccountsBridgeCallback
 callback
 )

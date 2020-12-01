@@ -38,10 +38,6 @@ error
 ;
 pub
 mod
-pbkdf2
-;
-pub
-mod
 pk11
 ;
 pub

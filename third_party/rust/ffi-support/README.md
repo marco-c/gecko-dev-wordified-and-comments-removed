@@ -315,7 +315,7 @@ services
 /
 blob
 /
-main
+master
 /
 components
 /
@@ -350,7 +350,7 @@ services
 /
 blob
 /
-main
+master
 /
 components
 /
