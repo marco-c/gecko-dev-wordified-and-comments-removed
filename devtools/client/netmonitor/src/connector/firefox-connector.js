@@ -1679,9 +1679,9 @@ resource
 sendHTTPRequest
 (
 data
-callback
 )
 {
+return
 this
 .
 webConsoleFront
@@ -1689,11 +1689,6 @@ webConsoleFront
 sendHTTPRequest
 (
 data
-)
-.
-then
-(
-callback
 )
 ;
 }

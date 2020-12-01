@@ -372,7 +372,6 @@ type
 sendHTTPRequest
 (
 data
-callback
 )
 {
 }
