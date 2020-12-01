@@ -1,5 +1,12 @@
 #
 [
+cfg
+(
+has_std
+)
+]
+#
+[
 macro_export
 ]
 macro_rules
@@ -47,6 +54,9 @@ len
 &
 [
 (
+crate
+:
+:
 indexmap
 !
 (
@@ -75,6 +85,9 @@ expr
 =
 >
 {
+crate
+:
+:
 indexmap
 !
 (
@@ -108,6 +121,9 @@ expr
 let
 _cap
 =
+crate
+:
+:
 indexmap
 !
 (
@@ -149,6 +165,13 @@ _map
 }
 ;
 }
+#
+[
+cfg
+(
+has_std
+)
+]
 #
 [
 macro_export
@@ -198,6 +221,9 @@ len
 &
 [
 (
+crate
+:
+:
 indexset
 !
 (
@@ -221,6 +247,9 @@ expr
 =
 >
 {
+crate
+:
+:
 indexset
 !
 (
@@ -246,6 +275,9 @@ expr
 let
 _cap
 =
+crate
+:
+:
 indexset
 !
 (
@@ -483,6 +515,7 @@ collect
 )
 }
 }
+;
 }
 macro_rules
 !
@@ -527,4 +560,5 @@ map_elt
 )
 }
 }
+;
 }
