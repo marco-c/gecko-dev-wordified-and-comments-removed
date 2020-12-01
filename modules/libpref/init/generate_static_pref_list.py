@@ -237,7 +237,7 @@ float
 f32
 "
 }
-HEADER_LINE
+FIRST_LINE
 =
 "
 /
@@ -250,10 +250,6 @@ by
 generate_static_pref_list
 .
 py
-from
-{
-input_filename
-}
 .
 DO
 NOT
@@ -1367,24 +1363,12 @@ def
 generate_code
 (
 pref_list
-input_filename
 )
 :
     
 check_pref_list
 (
 pref_list
-)
-    
-first_line
-=
-HEADER_LINE
-.
-format
-(
-input_filename
-=
-input_filename
 )
     
 includes
@@ -1401,7 +1385,7 @@ defaultdict
 lambda
 :
 [
-first_line
+FIRST_LINE
 "
 "
 ]
@@ -1410,7 +1394,7 @@ first_line
 static_prefs_c_getters_cpp
 =
 [
-first_line
+FIRST_LINE
 "
 "
 ]
@@ -1821,7 +1805,7 @@ group
 static_pref_list_all_h
 =
 [
-first_line
+FIRST_LINE
 "
 "
 ]
@@ -1871,7 +1855,7 @@ append
 static_prefs_all_h
 =
 [
-first_line
+FIRST_LINE
 "
 "
 ]
@@ -1940,7 +1924,7 @@ group
 ]
 =
 [
-first_line
+FIRST_LINE
 ]
         
 static_prefs_group_h
@@ -2033,7 +2017,7 @@ group
 static_prefs_rs
 =
 [
-first_line
+FIRST_LINE
 "
 "
 '
@@ -2328,31 +2312,11 @@ getvalue
 )
 )
         
-input_file
-=
-os
-.
-path
-.
-relpath
-(
-pref_list_filename
-os
-.
-environ
-[
-"
-TOPSRCDIR
-"
-]
-)
-        
 code
 =
 generate_code
 (
 pref_list
-input_file
 )
     
 except
