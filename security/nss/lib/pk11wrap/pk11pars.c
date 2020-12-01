@@ -4502,6 +4502,8 @@ rv
 SECSuccess
 )
 {
+rv
+=
 NSS_OptionSet
 (
 NSS_DEFAULT_LOCKS
@@ -4509,6 +4511,18 @@ locks
 |
 NSS_DEFAULT_SSL_LOCK
 )
+;
+}
+if
+(
+rv
+!
+=
+SECSuccess
+)
+{
+return
+rv
 ;
 }
 }
