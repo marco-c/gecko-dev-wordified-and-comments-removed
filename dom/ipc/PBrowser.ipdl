@@ -141,6 +141,17 @@ mozilla
 /
 dom
 /
+ReferrerInfoUtils
+.
+h
+"
+;
+include
+"
+mozilla
+/
+dom
+/
 TabMessageUtils
 .
 h

@@ -27,6 +27,17 @@ include
 "
 mozilla
 /
+dom
+/
+ReferrerInfoUtils
+.
+h
+"
+;
+include
+"
+mozilla
+/
 net
 /
 NeckoMessageUtils

@@ -91,6 +91,17 @@ ClientIPCUtils
 h
 "
 ;
+include
+"
+mozilla
+/
+dom
+/
+ReferrerInfoUtils
+.
+h
+"
+;
 using
 struct
 mozilla
