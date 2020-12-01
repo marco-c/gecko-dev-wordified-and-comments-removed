@@ -44140,7 +44140,7 @@ always
 ifdef
 MOZ_WAYLAND
 #
-Use
+Disable
 DMABuf
 for
 ffmpeg
@@ -44159,7 +44159,7 @@ dmabuf
 -
 textures
 .
-enabled
+disabled
 type
 :
 RelaxedAtomicBool
