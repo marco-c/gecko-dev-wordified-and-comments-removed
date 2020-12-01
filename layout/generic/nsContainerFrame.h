@@ -56,7 +56,7 @@ ifdef
 DEBUG
 #
 define
-CRAZY_COORD
+ABSURD_COORD
 (
 10000000
 *
@@ -64,7 +64,7 @@ CRAZY_COORD
 )
 #
 define
-CRAZY_SIZE
+ABSURD_SIZE
 (
 _x
 )
@@ -75,7 +75,7 @@ _x
 )
 <
 -
-CRAZY_COORD
+ABSURD_COORD
 )
 |
 |
@@ -84,7 +84,7 @@ CRAZY_COORD
 _x
 )
 >
-CRAZY_COORD
+ABSURD_COORD
 )
 )
 #
@@ -995,7 +995,7 @@ DebugReflowingWithInfiniteISize
 bool
 )
 bool
-IsCrazySizeAssertSuppressed
+IsAbsurdSizeAssertSuppressed
 (
 )
 const
