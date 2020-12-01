@@ -50,6 +50,15 @@ MPL
 dependencies
 ]
 glean
+=
+"
+33
+.
+1
+.
+2
+"
+glean
 -
 core
 =
