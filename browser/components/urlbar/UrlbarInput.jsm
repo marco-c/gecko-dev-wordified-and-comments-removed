@@ -2906,7 +2906,7 @@ false
 }
 ;
 let
-urlResultWillPromoteSearchMode
+urlResultWillConfirmSearchMode
 =
 this
 .
@@ -2956,7 +2956,7 @@ keywordOffer
 &
 &
 !
-urlResultWillPromoteSearchMode
+urlResultWillConfirmSearchMode
 )
 {
 this
@@ -3095,12 +3095,12 @@ URL
 {
 if
 (
-urlResultWillPromoteSearchMode
+urlResultWillConfirmSearchMode
 )
 {
 this
 .
-promoteSearchMode
+confirmSearchMode
 (
 )
 ;
@@ -4403,7 +4403,7 @@ enteredSearchMode
 =
 this
 .
-maybePromoteResultToSearchMode
+maybeConfirmSearchModeFromResult
 (
 {
 result
@@ -4709,7 +4709,7 @@ keywordOffer
 &
 this
 .
-maybePromoteResultToSearchMode
+maybeConfirmSearchModeFromResult
 (
 {
 result
@@ -5033,7 +5033,7 @@ searchMode
 {
 this
 .
-promoteSearchMode
+confirmSearchMode
 (
 )
 ;
@@ -5476,7 +5476,7 @@ startLayoutExtend
 getSearchMode
 (
 browser
-nonPreviewOnly
+confirmedOnly
 =
 false
 )
@@ -5496,7 +5496,7 @@ browser
 if
 (
 !
-nonPreviewOnly
+confirmedOnly
 &
 &
 modes
@@ -5521,7 +5521,7 @@ if
 modes
 ?
 .
-nonPreview
+confirmed
 )
 {
 return
@@ -5531,7 +5531,7 @@ return
 .
 modes
 .
-nonPreview
+confirmed
 }
 ;
 }
@@ -5824,7 +5824,7 @@ set
 (
 browser
 {
-nonPreview
+confirmed
 :
 searchMode
 }
@@ -5970,7 +5970,7 @@ searchMode
 modes
 ?
 .
-nonPreview
+confirmed
 ;
 }
 searchModeShortcut
@@ -6041,7 +6041,7 @@ SEARCH
 ;
 }
 }
-promoteSearchMode
+confirmSearchMode
 (
 )
 {
@@ -6764,7 +6764,7 @@ _afterTabSelectAndFocusChange
 )
 ;
 }
-maybePromoteResultToSearchMode
+maybeConfirmSearchModeFromResult
 (
 {
 entry
