@@ -107,7 +107,7 @@ IsRunningUnderWayland
 )
 {
 return
-WindowCapturerPipeWire
+BaseCapturerPipeWire
 :
 :
 CreateRawWindowCapturer
