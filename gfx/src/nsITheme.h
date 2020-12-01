@@ -458,6 +458,16 @@ ThemeNeedsComboboxDropmarker
 =
 0
 ;
+virtual
+bool
+ThemeSupportsScrollbarButtons
+(
+)
+{
+return
+true
+;
+}
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
