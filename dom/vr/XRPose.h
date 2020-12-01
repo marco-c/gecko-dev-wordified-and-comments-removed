@@ -27,6 +27,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+XRRigidTransform
+.
+h
+"
+#
+include
+"
 gfxVR
 .
 h

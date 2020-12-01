@@ -5,6 +5,13 @@ XRNativeOriginViewer
 .
 h
 "
+#
+include
+"
+VRDisplayClient
+.
+h
+"
 namespace
 mozilla
 {
@@ -16,6 +23,9 @@ XRNativeOriginViewer
 :
 XRNativeOriginViewer
 (
+gfx
+:
+:
 VRDisplayClient
 *
 aDisplay

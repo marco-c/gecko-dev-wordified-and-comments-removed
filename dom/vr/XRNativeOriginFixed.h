@@ -11,6 +11,13 @@ gfxVR
 .
 h
 "
+#
+include
+"
+XRNativeOrigin
+.
+h
+"
 namespace
 mozilla
 {
