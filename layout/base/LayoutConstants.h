@@ -58,6 +58,7 @@ ComputeSizeFlag
 uint8_t
 {
 ShrinkWrap
+UseAutoISize
 UseAutoBSize
 IClampMarginBoxMinSize
 BClampMarginBoxMinSize
