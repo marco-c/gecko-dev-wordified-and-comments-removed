@@ -5094,6 +5094,17 @@ in
 try_name
 :
                     
+if
+'
+linux
+'
+in
+platform
+:
+                        
+return
+True
+                    
 return
 False
                 
@@ -5104,6 +5115,17 @@ chromium
 in
 try_name
 :
+                    
+if
+'
+linux
+'
+in
+platform
+:
+                        
+return
+True
                     
 return
 False
@@ -5150,26 +5172,26 @@ try_name
                         
 return
 True
-                    
+            
+else
+:
+                
 if
+'
+linux
+'
+in
+platform
+and
 '
 tp6
 '
 in
 try_name
-and
-'
-amazon
-'
-in
-try_name
 :
-                        
+                    
 return
-True
-            
-else
-:
+False
                 
 if
 '
