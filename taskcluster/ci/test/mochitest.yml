@@ -1176,9 +1176,6 @@ windows7
 ?
 :
 -
-pgo
-|
--
 shippable
 )
 (
@@ -1204,9 +1201,6 @@ windows10
 (
 ?
 :
--
-pgo
-|
 -
 shippable
 )
@@ -1268,8 +1262,6 @@ linux1804
 (
 ?
 :
-pgo
-|
 shippable
 )
 (
@@ -2260,8 +2252,6 @@ qr
 ?
 :
 debug
-|
-pgo
 )
 ?
 :

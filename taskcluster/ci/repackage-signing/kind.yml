@@ -122,12 +122,6 @@ opt
 -
 win32
 -
-pgo
-/
-opt
--
-win32
--
 shippable
 /
 opt
@@ -135,12 +129,6 @@ opt
 win64
 -
 devedition
-/
-opt
--
-win64
--
-pgo
 /
 opt
 -
