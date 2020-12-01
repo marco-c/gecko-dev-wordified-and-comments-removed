@@ -1232,6 +1232,12 @@ mMessage
 =
 =
 eEditorInput
+|
+|
+mMessage
+=
+=
+eFormSelect
 )
 {
 mFlags

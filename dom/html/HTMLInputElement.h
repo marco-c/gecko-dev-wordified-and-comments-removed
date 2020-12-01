@@ -3834,7 +3834,7 @@ aResult
 )
 override
 ;
-bool
+void
 DispatchSelectEvent
 (
 nsPresContext
