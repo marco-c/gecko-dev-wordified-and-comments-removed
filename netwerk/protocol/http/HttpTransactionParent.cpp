@@ -2120,6 +2120,10 @@ uint32_t
 &
 &
 aHTTPSSVCReceivedStage
+const
+bool
+&
+aSupportsHttp3
 )
 {
 mEventQ
@@ -2172,6 +2176,7 @@ move
 aHTTPSSVCReceivedStage
 )
 }
+aSupportsHttp3
 ]
 (
 )
@@ -2205,6 +2210,7 @@ move
 (
 aHTTPSSVCReceivedStage
 )
+aSupportsHttp3
 )
 ;
 }
@@ -2404,6 +2410,10 @@ uint32_t
 &
 &
 aHTTPSSVCReceivedStage
+const
+bool
+&
+aSupportsHttp3
 )
 {
 LOG
@@ -2471,6 +2481,10 @@ move
 (
 aHTTPSSVCReceivedStage
 )
+;
+mSupportsHTTP3
+=
+aSupportsHttp3
 ;
 if
 (
@@ -4495,6 +4509,18 @@ return
 DoNotifyListener
 (
 )
+;
+}
+bool
+HttpTransactionParent
+:
+:
+GetSupportsHTTP3
+(
+)
+{
+return
+mSupportsHTTP3
 ;
 }
 }

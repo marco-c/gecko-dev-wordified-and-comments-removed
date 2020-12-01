@@ -142,6 +142,8 @@ restarted
 uint32_t
 ?
 HTTPSSVCReceivedStage
+bool
+supportsHttp3
 )
 ;
 async

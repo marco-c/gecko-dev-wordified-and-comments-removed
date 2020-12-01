@@ -2619,6 +2619,12 @@ TakeRestartedState
 (
 )
 stage
+mTransaction
+-
+>
+GetSupportsHTTP3
+(
+)
 )
 ;
 return

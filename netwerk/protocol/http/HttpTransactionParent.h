@@ -228,6 +228,10 @@ uint32_t
 &
 &
 aHTTPSSVCReceivedStage
+const
+bool
+&
+aSupportsHttp3
 )
 ;
 mozilla
@@ -491,6 +495,10 @@ uint32_t
 &
 &
 aHTTPSSVCReceivedStage
+const
+bool
+&
+aSupportsHttp3
 )
 ;
 void
@@ -750,6 +758,11 @@ RefPtr
 nsHttpConnectionInfo
 >
 mConnInfo
+;
+bool
+mSupportsHTTP3
+=
+false
 ;
 }
 ;
