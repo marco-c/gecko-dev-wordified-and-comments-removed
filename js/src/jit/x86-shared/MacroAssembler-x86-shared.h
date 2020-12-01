@@ -2451,8 +2451,6 @@ FloatRegister
 rhs
 FloatRegister
 output
-FloatRegister
-temp
 const
 uint8_t
 lanes

@@ -18338,15 +18338,6 @@ asInt8x16
 )
 rhs
 lhsDest
-ToFloatRegister
-(
-ins
--
->
-temp
-(
-)
-)
 )
 ;
 break

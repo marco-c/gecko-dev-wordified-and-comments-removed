@@ -10391,12 +10391,6 @@ case
 LWasmShuffleSimd128
 :
 :
-SHUFFLE_BLEND_8x16
-:
-case
-LWasmShuffleSimd128
-:
-:
 BLEND_8x16
 :
 temp

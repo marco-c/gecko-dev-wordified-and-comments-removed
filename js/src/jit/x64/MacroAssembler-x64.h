@@ -6078,6 +6078,17 @@ srcDest
 )
 ;
 void
+vpshufbSimd128
+(
+const
+SimdConstant
+&
+v
+FloatRegister
+srcDest
+)
+;
+void
 loadWasmGlobalPtr
 (
 uint32_t

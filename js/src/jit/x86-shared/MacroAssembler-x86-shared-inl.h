@@ -6057,8 +6057,6 @@ FloatRegister
 rhs
 FloatRegister
 lhsDest
-FloatRegister
-temp
 )
 {
 MacroAssemblerX86Shared
@@ -6069,7 +6067,6 @@ shuffleInt8x16
 lhsDest
 rhs
 lhsDest
-temp
 lanes
 )
 ;
