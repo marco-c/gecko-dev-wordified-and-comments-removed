@@ -129,6 +129,13 @@ scale
 var
 apzEnabled
 =
+Services
+.
+appinfo
+.
+fissionAutostart
+|
+|
 Preferences
 .
 get

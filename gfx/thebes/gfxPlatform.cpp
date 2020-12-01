@@ -16756,6 +16756,17 @@ true
 ;
 #
 else
+if
+(
+FissionAutostart
+(
+)
+)
+{
+return
+true
+;
+}
 return
 StaticPrefs
 :
