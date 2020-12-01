@@ -23,15 +23,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPtr
 .
 h

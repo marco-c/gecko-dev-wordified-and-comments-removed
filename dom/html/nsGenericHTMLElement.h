@@ -62,15 +62,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingDeclarations
@@ -131,6 +122,9 @@ nsSize
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 class
 EventChainPostVisitor
 ;

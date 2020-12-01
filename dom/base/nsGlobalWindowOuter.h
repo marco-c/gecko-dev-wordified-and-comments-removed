@@ -219,15 +219,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Attributes
 .
 h
@@ -412,6 +403,9 @@ AbstractThread
 ;
 class
 DOMEventTargetHelper
+;
+class
+ErrorResult
 ;
 class
 ThrottledEventQueue

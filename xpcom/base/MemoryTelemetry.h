@@ -25,13 +25,6 @@ h
 #
 include
 "
-nsIEventTarget
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -62,6 +55,9 @@ include
 <
 functional
 >
+class
+nsIEventTarget
+;
 namespace
 mozilla
 {
@@ -184,8 +180,9 @@ NS_DECL_NSITIMERCALLBACK
 TotalMemoryGatherer
 (
 )
-{
-}
+=
+default
+;
 void
 CollectParentSize
 (

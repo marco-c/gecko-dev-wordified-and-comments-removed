@@ -79,15 +79,6 @@ include
 "
 mozilla
 /
-WeakPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingDeclarations

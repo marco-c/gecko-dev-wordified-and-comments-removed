@@ -71,15 +71,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingDeclarations
@@ -131,6 +122,9 @@ mozilla
 {
 class
 AsyncEventDispatcher
+;
+class
+ErrorResult
 ;
 namespace
 dom

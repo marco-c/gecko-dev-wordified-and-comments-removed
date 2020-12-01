@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MemoryReporting
 .
 h
@@ -61,6 +52,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 class
 StyleSheet
 ;

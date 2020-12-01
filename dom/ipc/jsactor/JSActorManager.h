@@ -27,15 +27,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsRefPtrHashtable
 .
 h
@@ -50,6 +41,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 ipc
 {

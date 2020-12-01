@@ -23,7 +23,7 @@ h
 #
 include
 "
-nsCRT
+nsCRTGlue
 .
 h
 "

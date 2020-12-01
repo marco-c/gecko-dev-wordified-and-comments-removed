@@ -60,15 +60,6 @@ Attributes
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ErrorResult
-.
-h
-"
 class
 nsIGlobalObject
 ;
@@ -78,6 +69,9 @@ nsQueryActorChild
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

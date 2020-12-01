@@ -83,13 +83,6 @@ LayersMessages
 .
 h
 "
-#
-include
-"
-LayersTypes
-.
-h
-"
 namespace
 mozilla
 {

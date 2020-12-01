@@ -29,17 +29,6 @@ mozilla
 /
 dom
 /
-BrowsingContext
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 MaybeDiscarded
 .
 h
@@ -100,6 +89,9 @@ WindowGlobalParent
 ;
 class
 WindowGlobalInit
+;
+class
+BrowsingContext
 ;
 class
 BrowsingContextGroup

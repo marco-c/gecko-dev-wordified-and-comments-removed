@@ -27,15 +27,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingDeclarations
@@ -88,6 +79,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

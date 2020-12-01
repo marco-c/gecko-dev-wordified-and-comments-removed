@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingDeclarations
@@ -60,6 +51,9 @@ nsIGlobalObject
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

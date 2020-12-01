@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsPoint
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx

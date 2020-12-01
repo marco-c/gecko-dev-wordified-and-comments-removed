@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h

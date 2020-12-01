@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DecryptorProxyCallback
 .
 h
@@ -36,6 +27,9 @@ mozilla
 {
 class
 CDMProxy
+;
+class
+ErrorResult
 ;
 class
 MediaDrmCDMCallbackProxy

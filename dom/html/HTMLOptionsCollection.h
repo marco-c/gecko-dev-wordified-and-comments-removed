@@ -41,15 +41,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -78,6 +69,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

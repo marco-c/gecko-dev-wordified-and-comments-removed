@@ -48,15 +48,6 @@ WorkerPrivate
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ErrorResult
-.
-h
-"
 class
 nsIGlobalObject
 ;

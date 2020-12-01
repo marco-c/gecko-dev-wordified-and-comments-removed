@@ -16,15 +16,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -69,6 +60,9 @@ nsTreeColumns
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

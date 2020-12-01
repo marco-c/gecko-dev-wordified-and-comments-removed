@@ -23,15 +23,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 File
@@ -52,6 +43,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

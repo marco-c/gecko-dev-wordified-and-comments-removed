@@ -15,15 +15,6 @@ PClientHandleParent
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ErrorResult
-.
-h
-"
 namespace
 mozilla
 {

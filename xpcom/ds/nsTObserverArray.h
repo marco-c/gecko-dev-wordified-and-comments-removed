@@ -36,11 +36,6 @@ nsCycleCollectionNoteChild
 .
 h
 "
-#
-include
-<
-functional
->
 class
 nsTObserverArray_base
 {

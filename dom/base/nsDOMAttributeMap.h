@@ -16,15 +16,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -59,6 +50,9 @@ nsINode
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

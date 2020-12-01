@@ -63,15 +63,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsCheapSets
 .
 h
@@ -123,6 +114,9 @@ nsISelectControlFrame
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 class
 EventChainPostVisitor
 ;

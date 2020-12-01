@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 devtools
 /
 DeserializedNode
@@ -163,6 +154,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 devtools
 {

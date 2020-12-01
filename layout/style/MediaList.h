@@ -20,15 +20,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoBindingTypes
 .
 h
@@ -55,6 +46,9 @@ nsMediaQueryResultCacheKey
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 class
 StyleSheet
 ;

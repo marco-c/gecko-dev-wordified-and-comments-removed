@@ -12,7 +12,17 @@ algorithm
 #
 include
 <
+iosfwd
+>
+#
+include
+<
 iterator
+>
+#
+include
+<
+type_traits
 >
 #
 include

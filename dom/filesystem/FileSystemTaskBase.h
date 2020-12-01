@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 FileSystemRequestParent
@@ -52,6 +43,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

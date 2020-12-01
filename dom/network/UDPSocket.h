@@ -27,15 +27,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Promise
@@ -80,6 +71,9 @@ JSContext
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 class
 LazyLogModule
 ;

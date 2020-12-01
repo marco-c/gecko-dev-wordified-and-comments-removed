@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h
@@ -54,9 +45,7 @@ include
 "
 mozilla
 /
-dom
-/
-DOMParser
+Result
 .
 h
 "
@@ -88,6 +77,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

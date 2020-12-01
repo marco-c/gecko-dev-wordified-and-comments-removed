@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 CDMProxy
 .
 h
@@ -41,6 +32,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 class
 MediaRawData
 ;

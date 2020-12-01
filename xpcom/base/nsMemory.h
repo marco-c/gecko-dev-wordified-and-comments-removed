@@ -7,7 +7,7 @@ nsMemory_h__
 #
 include
 "
-nsXPCOM
+nsError
 .
 h
 "

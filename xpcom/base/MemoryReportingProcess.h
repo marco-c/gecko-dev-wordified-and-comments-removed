@@ -28,6 +28,14 @@ class
 FileDescriptor
 ;
 }
+template
+<
+class
+T
+>
+class
+Maybe
+;
 class
 MemoryReportingProcess
 {
@@ -58,8 +66,9 @@ virtual
 MemoryReportingProcess
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 IsAlive

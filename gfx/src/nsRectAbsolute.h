@@ -25,7 +25,7 @@ h
 #
 include
 "
-nsPoint
+nsMargin
 .
 h
 "

@@ -49,15 +49,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsDOMNavigationTiming
 .
 h
@@ -79,6 +70,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 devtools
 {

@@ -243,15 +243,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Attributes
 .
 h
@@ -490,6 +481,9 @@ mozilla
 {
 class
 AbstractThread
+;
+class
+ErrorResult
 ;
 namespace
 dom

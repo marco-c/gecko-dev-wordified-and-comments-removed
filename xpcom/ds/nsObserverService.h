@@ -65,9 +65,6 @@ NS_OBSERVERSERVICE_CID
 \
 }
 class
-nsIMemoryReporter
-;
-class
 nsObserverService
 final
 :

@@ -27,15 +27,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Observer
 .
 h
@@ -60,6 +51,9 @@ JSContext
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 struct
 void_t
 ;

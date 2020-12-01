@@ -136,6 +136,15 @@ h
 #
 include
 "
+js
+/
+SliceBudget
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes

@@ -46,13 +46,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h

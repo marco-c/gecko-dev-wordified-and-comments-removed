@@ -16,15 +16,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -56,6 +47,9 @@ JSContext
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

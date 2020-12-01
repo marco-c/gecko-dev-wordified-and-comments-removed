@@ -60,15 +60,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Unused
 .
 h
@@ -99,6 +90,9 @@ MOZILLA_DOMSVGLENGTHLIST_IID
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

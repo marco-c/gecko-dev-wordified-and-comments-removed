@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingDeclarations
@@ -92,6 +83,9 @@ nsIInputStream
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

@@ -50,6 +50,17 @@ mozilla
 /
 gfx
 /
+Point
+.
+h
+"
+#
+include
+"
+mozilla
+/
+gfx
+/
 Rect
 .
 h
@@ -61,7 +72,7 @@ mozilla
 /
 gfx
 /
-2D
+Types
 .
 h
 "

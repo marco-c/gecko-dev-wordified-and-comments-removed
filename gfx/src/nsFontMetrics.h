@@ -76,6 +76,13 @@ h
 #
 include
 "
+nsStyleConsts
+.
+h
+"
+#
+include
+"
 nscore
 .
 h

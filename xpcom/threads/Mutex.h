@@ -22,6 +22,13 @@ PlatformMutex
 .
 h
 "
+#
+include
+"
+nsISupports
+.
+h
+"
 namespace
 mozilla
 {

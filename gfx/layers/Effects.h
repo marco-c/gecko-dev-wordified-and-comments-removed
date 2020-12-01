@@ -84,17 +84,6 @@ mozilla
 /
 layers
 /
-LayersTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 TextureHost
 .
 h

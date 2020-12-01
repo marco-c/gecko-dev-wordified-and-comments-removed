@@ -28,15 +28,6 @@ MozPromise
 h
 "
 #
-include
-"
-mozilla
-/
-LazyIdleThread
-.
-h
-"
-#
 ifdef
 MOZ_WIDGET_ANDROID
 #
@@ -52,6 +43,9 @@ h
 "
 #
 endif
+class
+nsISerialEventTarget
+;
 struct
 FolderDiskInfo
 {

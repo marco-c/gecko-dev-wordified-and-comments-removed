@@ -7,6 +7,11 @@ mozilla_LinkedList_h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 utility
 >
 #

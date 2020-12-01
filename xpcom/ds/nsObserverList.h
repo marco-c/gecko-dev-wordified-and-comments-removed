@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h

@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsRefPtrHashtable
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -49,7 +42,7 @@ h
 #
 include
 "
-gfxFont
+gfxFontEntry
 .
 h
 "
@@ -74,7 +67,7 @@ h
 #
 include
 "
-nsISupportsImpl
+nsISupports
 .
 h
 "

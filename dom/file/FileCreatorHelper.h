@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RefPtr
 .
 h
@@ -55,6 +46,9 @@ nsIGlobalObject
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

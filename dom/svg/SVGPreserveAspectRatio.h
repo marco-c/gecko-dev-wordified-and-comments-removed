@@ -43,15 +43,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 SVGElement
@@ -61,6 +52,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 const
 uint16_t
 SVG_ALIGN_MIN_VALID

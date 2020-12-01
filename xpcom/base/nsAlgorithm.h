@@ -6,8 +6,15 @@ define
 nsAlgorithm_h___
 #
 include
+<
+cstdint
+>
+#
+include
 "
-nsCharTraits
+mozilla
+/
+Assertions
 .
 h
 "

@@ -14,15 +14,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsINetworkInfoService
 .
 h

@@ -57,15 +57,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -79,6 +70,9 @@ nsIPrincipal
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 css
 {

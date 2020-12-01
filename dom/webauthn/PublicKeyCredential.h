@@ -47,15 +47,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

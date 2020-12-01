@@ -44,7 +44,12 @@ atomic
 #
 include
 <
-cstdint
+cstddef
+>
+#
+include
+<
+limits
 >
 #
 include
@@ -55,6 +60,11 @@ memory
 include
 <
 thread
+>
+#
+include
+<
+type_traits
 >
 namespace
 mozilla

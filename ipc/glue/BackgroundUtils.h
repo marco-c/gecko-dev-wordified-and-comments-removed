@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-BasePrincipal
+OriginAttributes
 .
 h
 "
@@ -179,6 +179,13 @@ OriginAttributes
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+Document
+;
+}
 namespace
 net
 {

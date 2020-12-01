@@ -6,6 +6,11 @@ define
 CountingAllocatorBase_h
 #
 include
+<
+cstdlib
+>
+#
+include
 "
 mozilla
 /

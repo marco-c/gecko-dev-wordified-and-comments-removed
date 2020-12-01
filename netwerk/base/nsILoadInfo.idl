@@ -75,7 +75,7 @@ include
 "
 mozilla
 /
-BasePrincipal
+LoadTainting
 .
 h
 "
@@ -84,7 +84,7 @@ include
 "
 mozilla
 /
-LoadTainting
+OriginAttributes
 .
 h
 "

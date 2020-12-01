@@ -53,15 +53,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RefPtr
 .
 h
@@ -92,6 +83,9 @@ MOZILLA_DOMSVGPOINTLIST_IID
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 class
 SVGAnimatedPointList
 ;
