@@ -314,6 +314,10 @@ const
 nsACString
 &
 aOriginNoSuffix
+const
+nsACString
+&
+aQuotaKey
 nsIPrincipal
 *
 aPrincipal
