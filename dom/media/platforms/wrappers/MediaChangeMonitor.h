@@ -41,9 +41,6 @@ h
 namespace
 mozilla
 {
-class
-DecoderDoctorDiagnostics
-;
 DDLoggedTypeDeclNameAndBase
 (
 MediaChangeMonitor
@@ -344,9 +341,6 @@ const
 MediaResult
 CreateDecoder
 (
-DecoderDoctorDiagnostics
-*
-aDiagnostics
 )
 ;
 MediaResult
