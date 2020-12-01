@@ -1296,7 +1296,8 @@ pop
 "
 arguments
 "
-None
+"
+"
 )
     
 if
