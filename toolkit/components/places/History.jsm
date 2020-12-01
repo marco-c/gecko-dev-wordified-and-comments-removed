@@ -181,6 +181,17 @@ ex
 {
 if
 (
+ex
+.
+result
+!
+=
+Cr
+.
+NS_ERROR_XPC_JSOBJECT_HAS_NO_FUNCTION_NAMED
+&
+&
+(
 AppConstants
 .
 DEBUG
@@ -189,6 +200,7 @@ DEBUG
 Cu
 .
 isInAutomation
+)
 )
 {
 Cu
