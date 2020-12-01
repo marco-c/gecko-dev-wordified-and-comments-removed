@@ -16515,6 +16515,15 @@ currentURI
 .
 spec
 ;
+let
+principal
+=
+tab
+.
+linkedBrowser
+.
+contentPrincipal
+;
 if
 (
 gBrowser
@@ -16537,6 +16546,7 @@ loadBrowserURI
 (
 browser
 url
+principal
 )
 ;
 }
@@ -16557,6 +16567,7 @@ loadBrowserURI
 (
 browser
 url
+principal
 )
 {
 once
@@ -16695,6 +16706,7 @@ loadBrowserURI
 (
 browser
 url
+principal
 )
 {
 browser
@@ -16708,9 +16720,7 @@ flags
 reloadFlags
 triggeringPrincipal
 :
-browser
-.
-contentPrincipal
+principal
 }
 )
 ;
