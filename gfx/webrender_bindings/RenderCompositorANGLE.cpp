@@ -2751,6 +2751,9 @@ mUsePartialPresent
 &
 !
 mUseAlpha
+&
+&
+mSwapChain1
 )
 {
 mFullRender
