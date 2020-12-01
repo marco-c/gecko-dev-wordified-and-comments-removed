@@ -962,6 +962,15 @@ OP3_PMULLD_VdqWdq
 OP3_VBLENDVPS_VdqWdq
 =
 0x4A
+OP3_SHLX_GyEyBy
+=
+0xF7
+OP3_SARX_GyEyBy
+=
+0xF7
+OP3_SHRX_GyEyBy
+=
+0xF7
 }
 ;
 inline
