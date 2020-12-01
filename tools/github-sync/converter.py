@@ -1175,6 +1175,28 @@ parent_pruned
             
 continue
         
+hg_commits
+[
+rev
+]
+.
+parents
+=
+list
+(
+dict
+.
+fromkeys
+(
+hg_commits
+[
+rev
+]
+.
+parents
+)
+)
+        
 if
 len
 (
