@@ -81,13 +81,6 @@ AsRenderDXGITextureHost
 )
 override
 ;
-RenderDXGIYCbCrTextureHost
-*
-AsRenderDXGIYCbCrTextureHost
-(
-)
-override
-;
 size_t
 GetPlaneCount
 (
@@ -128,9 +121,6 @@ override
 bool
 MapPlane
 (
-RenderCompositor
-*
-aCompositor
 uint8_t
 aChannelIndex
 PlaneInfo
