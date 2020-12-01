@@ -530,6 +530,7 @@ loadURI
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

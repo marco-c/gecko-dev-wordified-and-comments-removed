@@ -427,6 +427,7 @@ registerListener
 on_new_message
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

@@ -793,6 +793,8 @@ for
 use
 in
 *
+createFixupURI
+or
 getFixupURIInfo
 .
 *

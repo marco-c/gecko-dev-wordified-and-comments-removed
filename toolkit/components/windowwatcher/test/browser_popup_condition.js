@@ -877,6 +877,7 @@ waitForNewWindow
 (
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -1036,6 +1037,7 @@ gBrowser
 OPEN_PAGE
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -1096,6 +1098,7 @@ false
 OPEN_PAGE
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

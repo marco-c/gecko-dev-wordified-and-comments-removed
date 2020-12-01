@@ -266,6 +266,7 @@ function
 browser
 )
 {
+await
 BrowserTestUtils
 .
 loadURI
@@ -344,6 +345,7 @@ state
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

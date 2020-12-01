@@ -2000,6 +2000,7 @@ popuphidden
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

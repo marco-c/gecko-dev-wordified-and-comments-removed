@@ -415,6 +415,7 @@ checkOpensOnFocus
 (
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

@@ -320,6 +320,7 @@ awaitAndCloseBeforeUnloadDialog
 false
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -628,6 +629,7 @@ awaitAndCloseBeforeUnloadDialog
 false
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

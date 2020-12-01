@@ -133,6 +133,7 @@ process
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -472,6 +473,7 @@ tab
 linkedBrowser
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

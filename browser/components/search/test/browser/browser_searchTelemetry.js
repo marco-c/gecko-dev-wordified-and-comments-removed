@@ -1201,6 +1201,7 @@ true
 )
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

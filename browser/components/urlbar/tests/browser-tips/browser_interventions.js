@@ -967,6 +967,7 @@ helpButton
 }
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

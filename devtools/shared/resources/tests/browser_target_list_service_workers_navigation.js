@@ -156,6 +156,7 @@ called
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -302,6 +303,7 @@ page
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -485,6 +487,7 @@ called
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -620,6 +623,7 @@ called
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -823,6 +827,7 @@ page
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -952,6 +957,7 @@ called
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

@@ -2480,6 +2480,7 @@ hidden
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

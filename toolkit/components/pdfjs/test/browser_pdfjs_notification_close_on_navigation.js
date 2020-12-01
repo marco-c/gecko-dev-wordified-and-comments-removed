@@ -173,6 +173,7 @@ fallback
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

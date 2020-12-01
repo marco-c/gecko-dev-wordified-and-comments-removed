@@ -147,6 +147,7 @@ browserLoaded
 newBrowser
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

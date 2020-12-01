@@ -230,6 +230,7 @@ process
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -265,6 +266,7 @@ again
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

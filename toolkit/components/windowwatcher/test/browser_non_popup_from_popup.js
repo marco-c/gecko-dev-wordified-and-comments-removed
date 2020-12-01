@@ -164,6 +164,7 @@ gBrowser
 OPEN_PAGE
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

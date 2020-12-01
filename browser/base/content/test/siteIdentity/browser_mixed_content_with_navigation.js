@@ -176,6 +176,7 @@ browser
 =
 >
 {
+await
 BrowserTestUtils
 .
 loadURI
@@ -256,6 +257,7 @@ expectedIdentityMode
 }
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -432,6 +434,7 @@ secure
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

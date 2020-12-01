@@ -243,6 +243,7 @@ textContent
 }
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

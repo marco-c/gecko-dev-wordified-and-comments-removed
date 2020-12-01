@@ -465,6 +465,7 @@ inactive
 }
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -1040,6 +1041,7 @@ ctx
 tab1
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

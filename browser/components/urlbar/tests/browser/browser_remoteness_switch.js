@@ -185,6 +185,7 @@ config
 }
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

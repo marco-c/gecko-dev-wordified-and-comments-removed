@@ -186,6 +186,7 @@ tab
 .
 linkedBrowser
 ;
+await
 BrowserTestUtils
 .
 loadURI
