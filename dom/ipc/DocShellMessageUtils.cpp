@@ -12,6 +12,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+DOMTypes
+.
+h
+"
+#
+include
+"
 nsSerializationHelper
 .
 h
@@ -95,6 +106,9 @@ nsDocShellLoadState
 aResult
 )
 {
+dom
+:
+:
 DocShellLoadStateInit
 loadState
 ;

@@ -36,6 +36,17 @@ mozilla
 /
 dom
 /
+ContentParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WindowGlobalParent
 .
 h

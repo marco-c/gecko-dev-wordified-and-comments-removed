@@ -126,6 +126,10 @@ interfaces
 /
 dom
 /
+ipc
+/
+dom
+/
 localstorage
 /
 dom

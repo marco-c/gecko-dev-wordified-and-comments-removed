@@ -48,6 +48,13 @@ h
 #
 include
 "
+nsRefPtrHashtable
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

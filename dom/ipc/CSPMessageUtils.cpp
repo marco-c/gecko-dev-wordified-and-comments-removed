@@ -12,6 +12,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+PBackgroundSharedTypes
+.
+h
+"
+#
+include
+"
 nsSerializationHelper
 .
 h
@@ -74,6 +85,9 @@ return
 CSPInfo
 csp
 ;
+mozilla
+:
+:
 Unused
 <
 <
