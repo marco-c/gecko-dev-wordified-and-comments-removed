@@ -27,6 +27,12 @@ namespace
 dom
 {
 class
+ArrayBufferBuilder
+;
+class
+BlobImpl
+;
+class
 DOMString
 ;
 class
@@ -177,6 +183,11 @@ XMLHttpRequestStringWriterHelper
 XMLHttpRequestString
 &
 aString
+)
+;
+~
+XMLHttpRequestStringWriterHelper
+(
 )
 ;
 uint32_t
@@ -408,6 +419,11 @@ XMLHttpRequestStringSnapshotReaderHelper
 XMLHttpRequestStringSnapshot
 &
 aSnapshot
+)
+;
+~
+XMLHttpRequestStringSnapshotReaderHelper
+(
 )
 ;
 const
