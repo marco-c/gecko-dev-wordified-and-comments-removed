@@ -13,6 +13,9 @@ include
 .
 exclude
 :
+-
+.
+hg
 #
 These
 paths

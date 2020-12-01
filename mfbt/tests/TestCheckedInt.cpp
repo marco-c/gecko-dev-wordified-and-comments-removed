@@ -3196,7 +3196,6 @@ isTSigned
 \
 VERIFY_IS_VALID_IF
 (
-\
 CheckedInt
 <
 T
@@ -3220,7 +3219,6 @@ isUSigned
 =
 =
 false
-\
 ?
 1
 \
@@ -3234,6 +3232,7 @@ isTSigned
 false
 ?
 0
+\
 :
 sizeof
 (
