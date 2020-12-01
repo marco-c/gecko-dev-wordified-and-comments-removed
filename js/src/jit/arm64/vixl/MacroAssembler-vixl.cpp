@@ -3275,6 +3275,14 @@ V2D
 lo
 )
 ;
+if
+(
+hi
+!
+=
+lo
+)
+{
 Register
 temp
 =
@@ -3301,6 +3309,7 @@ V2D
 temp
 )
 ;
+}
 }
 void
 MacroAssembler
