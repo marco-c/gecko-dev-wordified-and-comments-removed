@@ -399,11 +399,6 @@ cx
 s
 len
 )
-.
-unwrapOr
-(
-nullptr
-)
 ;
 if
 (
@@ -1716,11 +1711,6 @@ internUtf8
 cx
 sUtf8
 len
-)
-.
-unwrapOr
-(
-nullptr
 )
 ;
 if

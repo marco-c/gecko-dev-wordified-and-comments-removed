@@ -6703,11 +6703,6 @@ length
 )
 )
 )
-.
-unwrapOr
-(
-nullptr
-)
 ;
 if
 (
