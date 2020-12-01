@@ -24021,6 +24021,14 @@ CoreBuffer
 IsThreadSafeAndLockedOnCurrentThread
 (
 )
+|
+|
+ProfilerChild
+:
+:
+IsLockedOnCurrentThread
+(
+)
 ;
 }
 static
