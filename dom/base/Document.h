@@ -746,7 +746,7 @@ include
 "
 mozilla
 /
-ServoStyleConsts
+ServoBindingTypes
 .
 h
 "
@@ -1035,6 +1035,12 @@ class
 StylePrefersColorScheme
 :
 uint8_t
+;
+enum
+class
+StyleRuleChangeKind
+:
+uint32_t
 ;
 template
 <

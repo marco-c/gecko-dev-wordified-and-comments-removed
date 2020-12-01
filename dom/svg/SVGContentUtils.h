@@ -45,15 +45,6 @@ h
 #
 include
 "
-mozilla
-/
-ServoStyleConsts
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -112,6 +103,9 @@ SVGContextPaint
 ;
 class
 SVGPreserveAspectRatio
+;
+union
+StyleLengthPercentageUnion
 ;
 namespace
 dom
@@ -880,7 +874,7 @@ SVGElement
 *
 aContent
 const
-LengthPercentage
+StyleLengthPercentageUnion
 &
 uint8_t
 aCtxType
