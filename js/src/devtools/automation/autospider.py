@@ -5439,16 +5439,11 @@ exit
 (
 max
 (
-(
 st
 for
 _
 st
 in
 results
-)
-key
-=
-abs
 )
 )
