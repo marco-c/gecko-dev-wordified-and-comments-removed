@@ -1098,6 +1098,8 @@ dom
 /
 media
 /
+autoplay
+/
 AutoplayPolicy
 .
 cpp
