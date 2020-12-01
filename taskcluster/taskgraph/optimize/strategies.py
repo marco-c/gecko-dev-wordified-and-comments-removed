@@ -43,6 +43,7 @@ util
 taskcluster
 import
 find_task_id
+status_task
 logger
 =
 logging
@@ -106,6 +107,27 @@ find_task_id
 index_path
 )
                 
+status
+=
+status_task
+(
+task_id
+)
+                
+if
+status
+not
+in
+(
+"
+exception
+"
+"
+failed
+"
+)
+:
+                    
 return
 task_id
             
