@@ -843,7 +843,7 @@ CSSRect
 0
 0
 100
-200
+800
 )
 )
 ;
@@ -2814,12 +2814,6 @@ TestFlingAcceleration
 )
 ;
 }
-#
-ifndef
-MOZ_WIDGET_ANDROID
-#
-if
-0
 TEST_F
 (
 APZScrollHandoffTester
@@ -2865,10 +2859,6 @@ TestFlingAcceleration
 )
 ;
 }
-#
-endif
-#
-endif
 TEST_F
 (
 APZScrollHandoffTester
