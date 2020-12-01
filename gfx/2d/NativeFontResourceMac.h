@@ -94,6 +94,12 @@ mFontRef
 )
 ;
 }
+static
+void
+RegisterMemoryReporter
+(
+)
+;
 private
 :
 explicit
