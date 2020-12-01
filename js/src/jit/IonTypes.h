@@ -212,6 +212,7 @@ BailoutKind
 uint8_t
 {
 Unknown
+TranspiledCacheIR
 Inevitable
 DuringVMCall
 TooManyArguments
@@ -294,6 +295,17 @@ Unknown
 return
 "
 Unknown
+"
+;
+case
+BailoutKind
+:
+:
+TranspiledCacheIR
+:
+return
+"
+TranspiledCacheIR
 "
 ;
 case

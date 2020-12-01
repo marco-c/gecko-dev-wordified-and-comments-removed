@@ -10029,6 +10029,14 @@ case
 BailoutKind
 :
 :
+TranspiledCacheIR
+:
+break
+;
+case
+BailoutKind
+:
+:
 Inevitable
 :
 case
