@@ -419,12 +419,6 @@ actor
 this
 .
 actorID
-discardRequestBody
-:
-true
-discardResponseBody
-:
-true
 startedDateTime
 :
 this
@@ -1015,11 +1009,6 @@ requestPostData
 "
 {
 dataSize
-discardRequestBody
-:
-this
-.
-_discardRequestBody
 }
 )
 ;
@@ -1397,7 +1386,6 @@ transferredSize
 content
 .
 transferredSize
-discardResponseBody
 blockedReason
 blockingExtension
 }
