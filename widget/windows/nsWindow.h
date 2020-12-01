@@ -3120,7 +3120,7 @@ bool
 mIsEarlyBlankWindow
 ;
 bool
-mWasPreXulSkeletonUI
+mIsShowingPreXULSkeletonUI
 ;
 bool
 mResizable
