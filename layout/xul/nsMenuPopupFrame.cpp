@@ -9946,8 +9946,6 @@ return
 nullptr
 ;
 }
-else
-{
 #
 ifdef
 XP_WIN
@@ -9984,13 +9982,10 @@ Beep
 #
 endif
 }
-}
 return
 nullptr
 ;
 }
-else
-{
 char16_t
 uniChar
 =
@@ -10038,7 +10033,6 @@ mIncrementalString
 =
 uniChar
 ;
-}
 }
 nsAutoString
 incrementalString
