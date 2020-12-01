@@ -183,6 +183,11 @@ Exposed
 =
 Window
 SecureContext
+]
+interface
+Sanitizer
+{
+[
 Pref
 =
 "
@@ -194,11 +199,6 @@ sanitizer
 .
 enabled
 "
-]
-interface
-Sanitizer
-{
-[
 Throws
 ]
 constructor
