@@ -17007,8 +17007,8 @@ masm
 .
 pseudoMaxFloat32x4
 (
-lhsDest
 rhs
+lhsDest
 )
 ;
 break
@@ -17026,8 +17026,8 @@ masm
 .
 pseudoMinFloat32x4
 (
-lhsDest
 rhs
+lhsDest
 )
 ;
 break
@@ -17045,8 +17045,8 @@ masm
 .
 pseudoMaxFloat64x2
 (
-lhsDest
 rhs
+lhsDest
 )
 ;
 break
@@ -17064,8 +17064,8 @@ masm
 .
 pseudoMinFloat64x2
 (
-lhsDest
 rhs
+lhsDest
 )
 ;
 break
@@ -18338,6 +18338,15 @@ asInt8x16
 )
 rhs
 lhsDest
+ToFloatRegister
+(
+ins
+-
+>
+temp
+(
+)
+)
 )
 ;
 break
