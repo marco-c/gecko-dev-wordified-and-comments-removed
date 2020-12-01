@@ -3444,6 +3444,12 @@ false
 ;
 }
 }
+constexpr
+char16_t
+kOghamSpaceMark
+=
+0x1680
+;
 static
 bool
 IsTrimmableSpace
@@ -3483,7 +3489,14 @@ ch
 =
 '
 '
+|
+|
+ch
+=
+=
+kOghamSpaceMark
 )
+{
 return
 !
 nsTextFrameUtils
@@ -3499,6 +3512,7 @@ aLength
 1
 )
 ;
+}
 return
 ch
 =
@@ -3641,6 +3655,9 @@ aPos
 case
 '
 '
+:
+case
+kOghamSpaceMark
 :
 return
 (
