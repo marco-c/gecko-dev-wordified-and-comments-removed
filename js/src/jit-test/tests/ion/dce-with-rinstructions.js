@@ -42,16 +42,7 @@ i
 var
 warp
 =
-getJitCompilerOptions
-(
-)
-[
-"
-warp
-.
-enable
-"
-]
+true
 ;
 gczeal
 (
