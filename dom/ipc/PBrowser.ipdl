@@ -56,10 +56,6 @@ protocol
 PBrowserBridge
 ;
 include
-protocol
-PVsync
-;
-include
 DOMTypes
 ;
 include
@@ -1410,9 +1406,6 @@ PWindowGlobal
 manages
 PBrowserBridge
 ;
-manages
-PVsync
-;
 both
 :
 async
@@ -1452,11 +1445,6 @@ PPluginWidget
 ;
 async
 PPaymentRequest
-(
-)
-;
-async
-PVsync
 (
 )
 ;
