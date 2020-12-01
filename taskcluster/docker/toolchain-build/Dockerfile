@@ -129,6 +129,10 @@ p7zip
 -
 full
 \
+pkg
+-
+config
+\
 procps
 \
 python
