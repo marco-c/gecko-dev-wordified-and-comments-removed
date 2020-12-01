@@ -30414,13 +30414,6 @@ input
 options
 buffer
 cursorIndex
-compilationInfos
-.
-initial
-.
-stencil
-.
-parserAtoms
 )
 ;
 if
