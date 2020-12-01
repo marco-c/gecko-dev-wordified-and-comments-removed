@@ -7,7 +7,9 @@ mozilla_dom_workers_chromeworkerscope_h__
 #
 include
 "
-WorkerCommon
+js
+/
+TypeDecls
 .
 h
 "

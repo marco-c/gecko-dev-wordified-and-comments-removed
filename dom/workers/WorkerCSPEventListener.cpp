@@ -22,6 +22,13 @@ h
 #
 include
 "
+WorkerRunnable
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

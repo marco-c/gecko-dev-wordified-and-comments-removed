@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsXPCOM
-.
-h
-"
-#
-include
-"
 nsNativeCharsetUtils
 .
 h
@@ -50,13 +43,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-WorkerPrivate
 .
 h
 "

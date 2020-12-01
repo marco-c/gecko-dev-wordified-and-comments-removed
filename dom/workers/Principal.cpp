@@ -8,6 +8,13 @@ h
 #
 include
 "
+JSSettings
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
