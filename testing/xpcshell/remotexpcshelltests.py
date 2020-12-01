@@ -2595,19 +2595,6 @@ self
 .
 remoteBinDir
         
-self
-.
-env
-[
-"
-MOZ_FORCE_DISABLE_E10S
-"
-]
-=
-"
-1
-"
-        
 abilistprop
 =
 None
@@ -2991,26 +2978,6 @@ MOZ_ANDROID_CPU_ABI
 ]
 =
 abi
-        
-self
-.
-log
-.
-info
-(
-"
-Using
-env
-%
-r
-"
-%
-(
-self
-.
-env
-)
-)
     
 def
 setupUtilities

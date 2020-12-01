@@ -460,6 +460,19 @@ allow
 -
 downgrade
 "
+                
+"
+use_multiprocess
+"
+                
+self
+.
+config
+[
+"
+e10s
+"
+]
             
 ]
             
