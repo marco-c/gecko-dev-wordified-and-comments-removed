@@ -4043,9 +4043,15 @@ shortcut
 oncommand
 =
 "
-toggleBookmarksToolbarViaKeyboardShortcut
+BookmarkingUI
+.
+toggleBookmarksToolbar
 (
+'
+shortcut
+'
 )
+;
 "
 modifiers
 =
