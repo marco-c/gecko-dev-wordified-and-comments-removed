@@ -3422,6 +3422,11 @@ MaybeNotifyAutoplayBlocked
 )
 ;
 void
+DispatchBlockEventForVideoControl
+(
+)
+;
+void
 NotifyMediaControlPlaybackStateChanged
 (
 )
