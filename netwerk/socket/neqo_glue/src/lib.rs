@@ -2920,6 +2920,7 @@ error
 }
 =
 >
+{
 Http3Event
 :
 :
@@ -2927,6 +2928,7 @@ PushReset
 {
 push_id
 error
+}
 }
 Http3ClientEvent
 :
