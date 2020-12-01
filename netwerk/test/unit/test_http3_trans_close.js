@@ -24,6 +24,7 @@ setup
 await
 http3_setup_tests
 (
+false
 )
 ;
 }
