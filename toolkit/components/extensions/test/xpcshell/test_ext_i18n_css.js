@@ -919,7 +919,9 @@ DIR
 "
 intl
 .
-uidirection
+l10n
+.
+pseudo
 "
 ;
 const
@@ -948,7 +950,9 @@ Preferences
 set
 (
 DIR
-1
+"
+bidi
+"
 )
 ;
 css
