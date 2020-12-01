@@ -2483,13 +2483,6 @@ height
 )
 ;
 async
-ParentActivated
-(
-bool
-aActivated
-)
-;
-async
 SetKeyboardIndicators
 (
 UIStateChangeType
