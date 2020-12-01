@@ -111,7 +111,7 @@ style
 .
 visibility
 "
-visible
+inherit
 "
 "
 The
