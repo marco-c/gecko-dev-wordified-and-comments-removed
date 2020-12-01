@@ -674,6 +674,9 @@ open
 cls
 .
 filename
+"
+rb
+"
 )
 as
 f
@@ -782,7 +785,7 @@ self
 .
 filename
 "
-w
+wb
 "
 )
 as
