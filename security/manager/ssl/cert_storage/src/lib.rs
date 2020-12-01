@@ -7786,6 +7786,16 @@ return
 NS_ERROR_NO_AGGREGATION
 ;
 }
+if
+!
+is_main_thread
+(
+)
+{
+return
+NS_ERROR_NOT_SAME_THREAD
+;
+}
 match
 do_construct_cert_storage
 (
