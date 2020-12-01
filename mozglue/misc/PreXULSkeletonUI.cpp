@@ -89,13 +89,6 @@ WindowsVersion
 .
 h
 "
-#
-include
-"
-prthread
-.
-h
-"
 namespace
 mozilla
 {
