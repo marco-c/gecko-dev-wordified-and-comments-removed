@@ -369,12 +369,9 @@ nsACString
 &
 aName
 const
-Optional
-<
-DOMHighResTimeStamp
->
+ProfilerMarkerOptionsOrDouble
 &
-aStartTime
+aOptions
 const
 Optional
 <
