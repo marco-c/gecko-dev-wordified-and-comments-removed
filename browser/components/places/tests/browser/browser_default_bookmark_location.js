@@ -815,6 +815,13 @@ itemGuid
 ;
 let
 prefChangedPromise
+;
+if
+(
+gBookmarksToolbar2h2020
+)
+{
+prefChangedPromise
 =
 TestUtils
 .
@@ -823,6 +830,7 @@ waitForPrefChange
 LOCATION_PREF
 )
 ;
+}
 EventUtils
 .
 synthesizeMouseAtCenter
