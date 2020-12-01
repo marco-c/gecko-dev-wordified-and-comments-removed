@@ -6130,7 +6130,10 @@ mDirtyRoots
 #
 ifdef
 MOZ_GECKO_PROFILER
-UniqueProfilerBacktrace
+UniquePtr
+<
+ProfileChunkedBuffer
+>
 mStyleCause
 ;
 UniqueProfilerBacktrace
