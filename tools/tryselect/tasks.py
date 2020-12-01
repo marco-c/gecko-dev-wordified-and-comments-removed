@@ -968,6 +968,18 @@ startswith
 (
 path
 )
+or
+test
+.
+get
+(
+"
+manifest_relpath
+"
+)
+=
+=
+path
 :
                 
 found_path
