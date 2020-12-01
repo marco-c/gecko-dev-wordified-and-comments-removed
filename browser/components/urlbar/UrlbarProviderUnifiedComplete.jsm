@@ -220,6 +220,14 @@ update2
 )
 &
 &
+queryContext
+.
+searchMode
+?
+.
+engineName
+&
+&
 UrlbarPrefs
 .
 get
