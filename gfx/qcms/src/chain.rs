@@ -245,7 +245,7 @@ fn
 _
 :
 *
-mut
+const
 qcms_modular_transform
 _
 :
@@ -805,7 +805,7 @@ mut
 transform
 :
 *
-mut
+const
 qcms_modular_transform
 mut
 src
@@ -1364,7 +1364,7 @@ mut
 transform
 :
 *
-mut
+const
 qcms_modular_transform
 mut
 src
@@ -1962,7 +1962,7 @@ mut
 transform
 :
 *
-mut
+const
 qcms_modular_transform
 mut
 src
@@ -2966,7 +2966,7 @@ mut
 transform
 :
 *
-mut
+const
 qcms_modular_transform
 mut
 src
@@ -4165,7 +4165,7 @@ mut
 transform
 :
 *
-mut
+const
 qcms_modular_transform
 mut
 src
@@ -4448,7 +4448,7 @@ mut
 transform
 :
 *
-mut
+const
 qcms_modular_transform
 mut
 src
@@ -4725,7 +4725,7 @@ mut
 transform
 :
 *
-mut
+const
 qcms_modular_transform
 mut
 src
@@ -5309,7 +5309,7 @@ mut
 transform
 :
 *
-mut
+const
 qcms_modular_transform
 mut
 src
