@@ -128,10 +128,6 @@ libxml2
 \
 patch
 \
-python3
--
-dev
-\
 p7zip
 -
 full
