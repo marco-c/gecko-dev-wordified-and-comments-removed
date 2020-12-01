@@ -3708,7 +3708,11 @@ addEventListener
 keydown
 "
 this
+{
+mozSystemGroup
+:
 true
+}
 )
 ;
 this
@@ -3763,7 +3767,11 @@ removeEventListener
 keydown
 "
 this
+{
+mozSystemGroup
+:
 true
+}
 )
 ;
 this
