@@ -8211,10 +8211,6 @@ nsIFrame
 :
 GetSkipSides
 (
-const
-ReflowInput
-*
-aReflowInput
 )
 const
 {
@@ -8262,7 +8258,6 @@ logicalSkip
 =
 GetLogicalSkipSides
 (
-aReflowInput
 )
 ;
 Sides
