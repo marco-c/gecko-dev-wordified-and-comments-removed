@@ -455,7 +455,7 @@ start
 )
 ;
 await
-waitForReceivedFrames
+waitForReceivedFramesOrPackets
 (
 t
 remotePc
@@ -516,13 +516,17 @@ VP9
 "
 )
 ;
+await
+Promise
+.
+all
+(
+[
 exchangeOfferAnswer
 (
 localPc
 remotePc
 )
-;
-await
 waitForReceivedCodec
 (
 t
@@ -530,6 +534,8 @@ remotePc
 "
 VP9
 "
+)
+]
 )
 ;
 }
