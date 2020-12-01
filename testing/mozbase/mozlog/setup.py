@@ -18,6 +18,8 @@ PACKAGE_VERSION
 7
 .
 0
+.
+1
 "
 DEPS
 =
@@ -34,6 +36,10 @@ blessings
     
 "
 mozterm
+"
+    
+"
+mozfile
 "
     
 "
