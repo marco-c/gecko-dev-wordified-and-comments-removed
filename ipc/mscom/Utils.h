@@ -265,6 +265,16 @@ nsAString
 aOutString
 )
 ;
+void
+DiagnosticNameForIID
+(
+REFIID
+aIid
+nsACString
+&
+aOutString
+)
+;
 #
 else
 void
