@@ -47,6 +47,7 @@ Callable
 Dict
 Iterable
 List
+Optional
 from
 .
 import
@@ -178,16 +179,29 @@ None
         
 clear_patterns
 :
+Optional
+[
 List
 [
 str
 ]
-=
-[
 ]
+=
+None
     
 )
 :
+        
+if
+clear_patterns
+is
+None
+:
+            
+clear_patterns
+=
+[
+]
         
 self
 .
@@ -249,6 +263,8 @@ Outputter
 markdown
 .
 output_markdown
+[
+]
 )
     
 "
@@ -304,35 +320,41 @@ None
     
 clear_patterns
 :
+Optional
+[
 List
 [
 str
 ]
-=
-[
 ]
+=
+None
     
 options
 :
+Optional
+[
 Dict
 [
 str
 Any
 ]
+]
 =
-{
-}
+None
     
 parser_config
 :
+Optional
+[
 Dict
 [
 str
 Any
 ]
+]
 =
-{
-}
+None
 )
 :
     
@@ -558,6 +580,39 @@ info
 "
 "
 "
+    
+if
+clear_patterns
+is
+None
+:
+        
+clear_patterns
+=
+[
+]
+    
+if
+options
+is
+None
+:
+        
+options
+=
+{
+}
+    
+if
+parser_config
+is
+None
+:
+        
+parser_config
+=
+{
+}
     
 input_filepaths
 =
@@ -793,25 +848,29 @@ Path
     
 options
 :
+Optional
+[
 Dict
 [
 str
 Any
 ]
+]
 =
-{
-}
+None
     
 parser_config
 :
+Optional
+[
 Dict
 [
 str
 Any
 ]
+]
 =
-{
-}
+None
 )
 :
     
@@ -917,6 +976,28 @@ info
 "
 "
 "
+    
+if
+options
+is
+None
+:
+        
+options
+=
+{
+}
+    
+if
+parser_config
+is
+None
+:
+        
+parser_config
+=
+{
+}
     
 format_desc
 =
