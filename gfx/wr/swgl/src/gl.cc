@@ -17192,6 +17192,13 @@ zmask
 #
 include
 "
+composite
+.
+h
+"
+#
+include
+"
 swgl_ext
 .
 h
@@ -23587,10 +23594,3 @@ c
 ;
 }
 }
-#
-include
-"
-composite
-.
-h
-"
