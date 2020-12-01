@@ -309,6 +309,11 @@ aState
 )
 ;
 void
+NotifyPlaybackStateUpdated
+(
+)
+;
+void
 NotifyMetadataUpdated
 (
 )
