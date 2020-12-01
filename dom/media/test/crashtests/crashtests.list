@@ -503,10 +503,6 @@ load
 .
 html
 load
-882549
-.
-html
-load
 882956
 .
 html
@@ -528,10 +524,6 @@ gtkWidget
 )
 load
 889042
-.
-html
-load
-894104
 .
 html
 load
@@ -894,14 +886,6 @@ load
 html
 load
 1270303
-.
-html
-load
-1304948
-.
-html
-load
-1319486
 .
 html
 skip
@@ -1367,10 +1351,6 @@ Bug
 1533625
 bug
 1588967
-load
-1533909
-.
-html
 load
 1538727
 .
