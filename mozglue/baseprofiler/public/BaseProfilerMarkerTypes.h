@@ -658,7 +658,7 @@ schema
 }
 ;
 struct
-MediaSample
+MediaSampleMarker
 {
 static
 constexpr
