@@ -12951,6 +12951,17 @@ selectedTabs
 removeTabs
 (
 tabs
+{
+animate
+=
+true
+suppressWarnAboutClosingWindow
+=
+false
+}
+=
+{
+}
 )
 {
 if
@@ -12988,6 +12999,10 @@ window
 closeWindow
 (
 true
+suppressWarnAboutClosingWindow
+?
+null
+:
 window
 .
 warnAboutClosingWindow
@@ -13025,8 +13040,6 @@ aParams
 =
 {
 animate
-:
-true
 prewarmed
 :
 true
