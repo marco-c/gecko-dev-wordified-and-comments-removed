@@ -335,9 +335,7 @@ string
 >
 identifier
 "
-%
 MOZ_MACBUNDLE_ID
-%
 "
 and
 (

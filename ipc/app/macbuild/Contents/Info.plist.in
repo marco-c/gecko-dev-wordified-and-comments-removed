@@ -101,9 +101,7 @@ key
 <
 string
 >
-%
 PROGRAM
-%
 <
 /
 string
@@ -262,9 +260,7 @@ key
 <
 string
 >
-%
 MOZ_DEVELOPER_REPO_PATH
-%
 <
 /
 string
@@ -280,9 +276,7 @@ key
 <
 string
 >
-%
 MOZ_DEVELOPER_OBJ_PATH
-%
 <
 /
 string

@@ -1168,9 +1168,7 @@ key
 <
 string
 >
-%
 MOZ_APP_NAME
-%
 <
 /
 string
@@ -1186,12 +1184,8 @@ key
 <
 string
 >
-%
 MAC_APP_NAME
-%
-%
 APP_VERSION
-%
 <
 /
 string
@@ -1225,9 +1219,7 @@ key
 <
 string
 >
-%
 MOZ_MACBUNDLE_ID
-%
 <
 /
 string
@@ -1261,9 +1253,7 @@ key
 <
 string
 >
-%
 MAC_APP_NAME
-%
 <
 /
 string
@@ -1295,9 +1285,7 @@ key
 <
 string
 >
-%
 APP_VERSION
-%
 <
 /
 string
@@ -1568,9 +1556,7 @@ key
 <
 string
 >
-%
 MAC_BUNDLE_VERSION
-%
 <
 /
 string
@@ -1880,9 +1866,7 @@ key
 <
 string
 >
-%
 MOZ_DEVELOPER_REPO_PATH
-%
 <
 /
 string
@@ -1898,9 +1882,7 @@ key
 <
 string
 >
-%
 MOZ_DEVELOPER_OBJ_PATH
-%
 <
 /
 string
@@ -1921,9 +1903,7 @@ sites
 you
 allow
 within
-%
 MAC_APP_NAME
-%
 will
 be
 able
@@ -1952,9 +1932,7 @@ sites
 you
 allow
 within
-%
 MAC_APP_NAME
-%
 will
 be
 able
