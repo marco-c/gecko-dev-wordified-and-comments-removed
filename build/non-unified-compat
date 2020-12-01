@@ -194,6 +194,10 @@ plugins
 /
 dom
 /
+power
+/
+dom
+/
 quota
 /
 dom
