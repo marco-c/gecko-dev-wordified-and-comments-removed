@@ -2272,14 +2272,6 @@ shape
 )
 ;
 void
-setLastPropertyShrinkFixedSlots
-(
-Shape
-*
-shape
-)
-;
-void
 setIsSharedMemory
 (
 )

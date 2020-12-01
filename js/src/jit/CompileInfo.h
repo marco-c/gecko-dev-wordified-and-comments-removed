@@ -145,7 +145,6 @@ enum
 AnalysisMode
 {
 Analysis_None
-Analysis_DefiniteProperties
 Analysis_ArgumentsUsage
 }
 ;
