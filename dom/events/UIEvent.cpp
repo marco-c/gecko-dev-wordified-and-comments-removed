@@ -139,8 +139,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 UIEvent
@@ -1705,7 +1705,6 @@ MODIFIER_SYMBOLLOCK
 #
 undef
 SET_MODIFIER
-}
 }
 }
 using

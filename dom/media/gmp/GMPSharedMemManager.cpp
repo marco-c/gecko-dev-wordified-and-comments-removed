@@ -43,8 +43,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 bool
@@ -538,6 +538,5 @@ Length
 (
 )
 ;
-}
 }
 }

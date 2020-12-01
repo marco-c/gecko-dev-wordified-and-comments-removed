@@ -83,8 +83,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 static
@@ -1039,5 +1039,4 @@ StunAddrsRequestParent
 :
 MDNSServiceWrapper
 )
-}
 }

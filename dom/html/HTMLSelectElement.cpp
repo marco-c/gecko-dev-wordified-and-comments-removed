@@ -258,8 +258,8 @@ Select
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SafeOptionListMutation
@@ -6882,6 +6882,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

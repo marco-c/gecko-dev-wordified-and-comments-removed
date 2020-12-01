@@ -538,8 +538,8 @@ function
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 StaticRefPtr
@@ -2385,7 +2385,6 @@ Remove
 aMsgId
 )
 ;
-}
 }
 }
 }

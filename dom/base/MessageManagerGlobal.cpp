@@ -60,8 +60,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 void
@@ -218,6 +218,5 @@ aBase64Data
 aAsciiString
 )
 ;
-}
 }
 }

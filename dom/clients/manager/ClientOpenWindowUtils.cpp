@@ -245,8 +245,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -2209,6 +2209,5 @@ __func__
 return
 promise
 ;
-}
 }
 }

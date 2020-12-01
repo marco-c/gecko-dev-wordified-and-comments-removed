@@ -90,8 +90,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -1865,7 +1865,6 @@ GetOpenPopupSpamCount
 return
 sOpenPopupSpamCount
 ;
-}
 }
 }
 AutoPopupStatePusherInternal

@@ -66,8 +66,8 @@ indexedDB
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -496,6 +496,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

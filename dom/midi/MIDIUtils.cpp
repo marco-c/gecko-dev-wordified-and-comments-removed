@@ -101,11 +101,11 @@ kSystemLengths
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 MIDIUtils
 {
 bool
@@ -702,7 +702,5 @@ true
 return
 false
 ;
-}
-}
 }
 }

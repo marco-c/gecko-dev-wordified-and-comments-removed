@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 ImageTracker
@@ -735,7 +735,6 @@ MediaFeatureValuesChangedAllDocuments
 aChange
 )
 ;
-}
 }
 }
 }

@@ -57,8 +57,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 mozilla
@@ -541,6 +541,5 @@ aUseTls
 proxyConfig
 )
 ;
-}
 }
 }

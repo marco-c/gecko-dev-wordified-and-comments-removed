@@ -107,8 +107,8 @@ forget
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLPictureElement
@@ -543,6 +543,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

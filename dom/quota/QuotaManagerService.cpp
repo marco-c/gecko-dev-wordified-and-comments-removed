@@ -353,11 +353,11 @@ qm
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 quota
 {
 using
@@ -4201,7 +4201,5 @@ NS_ERROR_FAILURE
 return
 NS_OK
 ;
-}
-}
 }
 }

@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 TransitionEvent
@@ -303,7 +303,6 @@ AsTransitionEvent
 >
 mPseudoElement
 ;
-}
 }
 }
 using

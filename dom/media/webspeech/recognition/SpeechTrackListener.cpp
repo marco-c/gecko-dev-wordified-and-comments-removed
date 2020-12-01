@@ -21,8 +21,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SpeechTrackListener
@@ -470,6 +470,5 @@ true
 __func__
 )
 ;
-}
 }
 }

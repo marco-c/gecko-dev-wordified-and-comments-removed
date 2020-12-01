@@ -81,8 +81,8 @@ limits
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 void
@@ -898,6 +898,5 @@ mDOMResizeObserverControllerSize
 =
 size
 ;
-}
 }
 }

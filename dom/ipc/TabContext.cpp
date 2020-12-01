@@ -77,8 +77,8 @@ layout
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 TabContext
@@ -647,6 +647,5 @@ IsValid
 return
 mTabContext
 ;
-}
 }
 }

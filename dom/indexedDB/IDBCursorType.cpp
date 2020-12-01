@@ -7,8 +7,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 CommonCursorDataBase
@@ -199,6 +199,5 @@ aCloneInfo
 )
 }
 {
-}
 }
 }

@@ -81,11 +81,11 @@ Runnable
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 quota
 {
 RequestBase
@@ -1003,8 +1003,6 @@ mCallback
 =
 nullptr
 ;
-}
-}
 }
 }
 }

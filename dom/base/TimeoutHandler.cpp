@@ -23,8 +23,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 TimeoutHandler
@@ -914,6 +914,5 @@ GetDescription
 aOutString
 )
 ;
-}
 }
 }

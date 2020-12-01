@@ -1178,8 +1178,8 @@ Matrix4x4
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -1360,7 +1360,6 @@ ASSERT_NODE_SIZE
 undef
 EXTRA_DOM_NODE_BYTES
 }
-}
 nsAtom
 *
 nsIContent
@@ -1479,8 +1478,8 @@ GetPrimaryFrame
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 const
@@ -1793,7 +1792,6 @@ changedStates
 }
 }
 }
-}
 void
 nsIContent
 :
@@ -1858,8 +1856,8 @@ NODE_IS_EDITABLE
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 void
@@ -22112,6 +22110,5 @@ onwebkitTransitionEnd
 return
 aAttr
 ;
-}
 }
 }

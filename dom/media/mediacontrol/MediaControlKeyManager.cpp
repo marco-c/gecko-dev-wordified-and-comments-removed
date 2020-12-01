@@ -164,8 +164,8 @@ enabled
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -1273,6 +1273,5 @@ OnPreferenceChange
 return
 NS_OK
 ;
-}
 }
 }

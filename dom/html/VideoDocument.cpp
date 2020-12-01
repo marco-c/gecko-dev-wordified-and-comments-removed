@@ -64,8 +64,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -686,7 +686,6 @@ fileName
 ignored
 )
 ;
-}
 }
 }
 nsresult

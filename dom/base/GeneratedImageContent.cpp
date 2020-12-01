@@ -65,8 +65,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_ELEMENT_CLONE
@@ -200,6 +200,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

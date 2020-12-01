@@ -120,8 +120,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -706,7 +706,6 @@ Clear
 (
 )
 ;
-}
 }
 }
 }

@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
@@ -65,6 +65,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

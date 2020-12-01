@@ -356,8 +356,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -7584,5 +7584,4 @@ RunAbortAlgorithm
 (
 )
 ;
-}
 }

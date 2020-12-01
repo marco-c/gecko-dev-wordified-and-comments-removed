@@ -11,8 +11,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 BorrowedAttrInfo
@@ -76,6 +76,5 @@ mName
 mValue
 )
 ;
-}
 }
 }

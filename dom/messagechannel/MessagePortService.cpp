@@ -94,8 +94,8 @@ AssertIsOnBackgroundThread
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -141,7 +141,6 @@ mParent
 }
 ;
 }
-}
 MOZ_DECLARE_RELOCATE_USING_MOVE_CONSTRUCTOR
 (
 mozilla
@@ -158,8 +157,8 @@ NextParent
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -1891,6 +1890,5 @@ true
 return
 true
 ;
-}
 }
 }

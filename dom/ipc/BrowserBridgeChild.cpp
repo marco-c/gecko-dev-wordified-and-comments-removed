@@ -158,8 +158,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 BrowserBridgeChild
@@ -1382,6 +1382,5 @@ IPC_OK
 (
 )
 ;
-}
 }
 }

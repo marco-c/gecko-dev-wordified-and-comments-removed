@@ -63,8 +63,8 @@ Pre
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLPreElement
@@ -360,6 +360,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

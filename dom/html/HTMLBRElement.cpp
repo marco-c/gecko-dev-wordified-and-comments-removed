@@ -56,8 +56,8 @@ BR
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLBRElement
@@ -411,6 +411,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

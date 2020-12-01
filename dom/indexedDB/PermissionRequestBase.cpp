@@ -71,11 +71,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 indexedDB
 {
 using
@@ -901,7 +901,5 @@ permission
 return
 NS_OK
 ;
-}
-}
 }
 }

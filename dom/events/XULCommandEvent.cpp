@@ -18,8 +18,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 XULCommandEvent
@@ -299,7 +299,6 @@ mInputSource
 =
 aInputSource
 ;
-}
 }
 }
 using

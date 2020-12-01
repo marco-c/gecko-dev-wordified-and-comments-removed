@@ -90,8 +90,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 static
@@ -2190,6 +2190,5 @@ forget
 (
 )
 ;
-}
 }
 }

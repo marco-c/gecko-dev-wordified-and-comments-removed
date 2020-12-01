@@ -36,8 +36,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 Result
@@ -194,6 +194,5 @@ Ok
 (
 )
 ;
-}
 }
 }

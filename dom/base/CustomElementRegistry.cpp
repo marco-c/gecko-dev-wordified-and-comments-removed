@@ -196,8 +196,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -7111,6 +7111,5 @@ mDisableShadow
 aDisableShadow
 )
 {
-}
 }
 }

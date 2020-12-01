@@ -152,8 +152,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 MediaKeySystemAccessManager
@@ -3508,7 +3508,6 @@ mAddedObservers
 =
 false
 ;
-}
 }
 }
 }

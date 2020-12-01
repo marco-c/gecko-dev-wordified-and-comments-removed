@@ -56,8 +56,8 @@ FrameSet
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLFrameSetElement
@@ -1607,5 +1607,4 @@ WINDOW_EVENT_HELPER
 #
 undef
 EVENT
-}
 }

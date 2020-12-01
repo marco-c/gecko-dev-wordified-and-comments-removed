@@ -377,8 +377,8 @@ mReason
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 const
@@ -3034,7 +3034,6 @@ activeMediaBlockStart
 )
 )
 ;
-}
 }
 }
 }

@@ -81,8 +81,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 IdleRequest
@@ -297,6 +297,5 @@ handler
 "
 )
 ;
-}
 }
 }

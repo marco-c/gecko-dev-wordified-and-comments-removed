@@ -62,8 +62,8 @@ gTimeoutLog
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_ISUPPORTS
@@ -1010,6 +1010,5 @@ Runnable
 return
 NS_OK
 ;
-}
 }
 }

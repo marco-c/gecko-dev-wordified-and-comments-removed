@@ -46,8 +46,8 @@ dom
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 Comment
@@ -371,6 +371,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

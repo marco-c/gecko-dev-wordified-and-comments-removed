@@ -28,8 +28,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 RemoteBrowser
@@ -115,6 +115,5 @@ GetFrom
 frameLoader
 )
 ;
-}
 }
 }

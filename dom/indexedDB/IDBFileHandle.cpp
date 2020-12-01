@@ -136,8 +136,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -2805,6 +2805,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

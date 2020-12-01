@@ -201,8 +201,8 @@ CreateFile
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -3375,5 +3375,4 @@ BodyConsumer
 nsIObserver
 nsISupportsWeakReference
 )
-}
 }

@@ -51,8 +51,8 @@ Legend
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLLegendElement
@@ -532,6 +532,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

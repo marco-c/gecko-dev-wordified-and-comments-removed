@@ -130,8 +130,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 MediaDocumentStreamListener
@@ -1869,7 +1869,6 @@ IgnoreErrors
 )
 )
 ;
-}
 }
 }
 }

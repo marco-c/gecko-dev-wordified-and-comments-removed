@@ -296,8 +296,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -1865,6 +1865,5 @@ Get
 aName
 )
 ;
-}
 }
 }

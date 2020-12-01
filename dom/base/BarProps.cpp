@@ -50,8 +50,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 BarProp
@@ -884,6 +884,5 @@ ErrorResult
 &
 )
 {
-}
 }
 }

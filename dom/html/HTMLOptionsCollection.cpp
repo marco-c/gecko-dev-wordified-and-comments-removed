@@ -181,8 +181,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLOptionsCollection
@@ -1056,6 +1056,5 @@ Remove
 aIndex
 )
 ;
-}
 }
 }

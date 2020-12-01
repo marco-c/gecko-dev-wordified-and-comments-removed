@@ -57,8 +57,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -507,6 +507,5 @@ principal
 return
 NS_OK
 ;
-}
 }
 }

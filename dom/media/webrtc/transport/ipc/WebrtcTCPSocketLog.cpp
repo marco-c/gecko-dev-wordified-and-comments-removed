@@ -7,8 +7,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 LazyLogModule
@@ -19,5 +19,4 @@ webrtcProxy
 "
 )
 ;
-}
 }

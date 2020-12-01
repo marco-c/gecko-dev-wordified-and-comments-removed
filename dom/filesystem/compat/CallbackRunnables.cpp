@@ -157,8 +157,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 EntryCallbackRunnable
@@ -1386,7 +1386,6 @@ forget
 )
 )
 ;
-}
 }
 }
 }

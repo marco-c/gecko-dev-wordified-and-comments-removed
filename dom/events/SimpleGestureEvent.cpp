@@ -38,8 +38,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SimpleGestureEvent
@@ -375,7 +375,6 @@ mClickCount
 =
 aClickCountArg
 ;
-}
 }
 }
 using

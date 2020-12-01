@@ -953,8 +953,8 @@ layers
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 const
@@ -29734,6 +29734,5 @@ value
 (
 )
 ;
-}
 }
 }

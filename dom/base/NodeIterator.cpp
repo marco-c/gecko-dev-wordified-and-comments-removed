@@ -72,8 +72,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NodeIterator
@@ -860,6 +860,5 @@ aGivenProto
 aReflector
 )
 ;
-}
 }
 }

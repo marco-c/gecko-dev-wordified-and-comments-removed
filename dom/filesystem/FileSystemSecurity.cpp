@@ -43,8 +43,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -540,6 +540,5 @@ true
 return
 false
 ;
-}
 }
 }

@@ -7,8 +7,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 const
@@ -24,5 +24,4 @@ simpleDB
 enabled
 "
 ;
-}
 }

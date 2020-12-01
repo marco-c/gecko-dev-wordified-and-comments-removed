@@ -14,8 +14,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_ISUPPORTS_INHERITED
@@ -244,6 +244,5 @@ string
 return
 NS_OK
 ;
-}
 }
 }

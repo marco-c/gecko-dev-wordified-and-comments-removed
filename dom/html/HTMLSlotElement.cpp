@@ -153,8 +153,8 @@ forget
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLSlotElement
@@ -1182,6 +1182,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

@@ -29,8 +29,8 @@ Data
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLDataElement
@@ -111,6 +111,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

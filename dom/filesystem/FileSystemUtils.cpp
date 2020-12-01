@@ -32,8 +32,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -339,6 +339,5 @@ rv
 return
 NS_OK
 ;
-}
 }
 }

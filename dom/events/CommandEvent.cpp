@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 CommandEvent
@@ -135,7 +135,6 @@ Truncate
 (
 )
 ;
-}
 }
 }
 }

@@ -20,8 +20,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -358,6 +358,5 @@ StopHandlingUserInput
 mMessage
 )
 ;
-}
 }
 }

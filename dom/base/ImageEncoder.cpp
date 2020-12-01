@@ -153,8 +153,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -2362,6 +2362,5 @@ forget
 (
 )
 ;
-}
 }
 }

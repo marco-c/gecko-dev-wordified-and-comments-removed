@@ -27,8 +27,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 AnimationEvent
@@ -301,7 +301,6 @@ AsAnimationEvent
 >
 mPseudoElement
 ;
-}
 }
 }
 using

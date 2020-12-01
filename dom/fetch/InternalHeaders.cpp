@@ -66,8 +66,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 InternalHeaders
@@ -3251,7 +3251,6 @@ mName
 ;
 break
 ;
-}
 }
 }
 }

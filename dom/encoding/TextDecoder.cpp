@@ -54,8 +54,8 @@ h
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 void
@@ -702,6 +702,5 @@ ASCIIToLower
 aEncoding
 )
 ;
-}
 }
 }

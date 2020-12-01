@@ -392,8 +392,8 @@ data
 }
 namespace
 testing
-{
-namespace
+:
+:
 internal
 {
 template
@@ -502,7 +502,6 @@ end
 }
 }
 ;
-}
 }
 class
 MockContainerWriter

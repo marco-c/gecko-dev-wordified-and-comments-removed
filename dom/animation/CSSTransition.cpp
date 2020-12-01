@@ -65,8 +65,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -1640,7 +1640,6 @@ shape
 "
 )
 ;
-}
 }
 }
 }

@@ -30,8 +30,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 WebGLChild
@@ -507,6 +507,5 @@ IPC_OK
 (
 )
 ;
-}
 }
 }

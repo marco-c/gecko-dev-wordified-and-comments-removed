@@ -110,8 +110,8 @@ NS_STREAMTRANSPORTSERVICE_CID
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_CLASS
@@ -2313,6 +2313,5 @@ Close
 return
 NS_OK
 ;
-}
 }
 }

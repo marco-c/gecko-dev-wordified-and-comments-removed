@@ -120,8 +120,8 @@ gNeckoChild
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_ISUPPORTS
@@ -1306,6 +1306,5 @@ IPC_OK
 (
 )
 ;
-}
 }
 }

@@ -68,11 +68,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 PCacheChild
@@ -562,7 +562,5 @@ MaybeFlushDelayedDestroy
 (
 )
 ;
-}
-}
 }
 }

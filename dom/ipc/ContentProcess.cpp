@@ -141,8 +141,8 @@ IOThreadChild
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -1174,6 +1174,5 @@ Stop
 (
 )
 ;
-}
 }
 }

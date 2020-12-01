@@ -70,8 +70,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SDBRequest
@@ -435,6 +435,5 @@ aCallback
 return
 NS_OK
 ;
-}
 }
 }

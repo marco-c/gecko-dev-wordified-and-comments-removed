@@ -128,8 +128,8 @@ Script
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -1171,6 +1171,5 @@ HasNonEmptyTextContent
 this
 )
 ;
-}
 }
 }

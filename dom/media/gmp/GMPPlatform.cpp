@@ -78,8 +78,8 @@ ctime
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 static
@@ -1281,6 +1281,5 @@ aFunction
 )
 )
 ;
-}
 }
 }

@@ -18,8 +18,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 ClientWindowState
@@ -940,6 +940,5 @@ ToIPC
 )
 )
 ;
-}
 }
 }

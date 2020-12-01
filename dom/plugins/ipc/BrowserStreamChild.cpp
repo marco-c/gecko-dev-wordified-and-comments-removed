@@ -42,8 +42,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 plugins
 {
 BrowserStreamChild
@@ -1209,6 +1209,5 @@ Stop
 (
 )
 ;
-}
 }
 }

@@ -159,8 +159,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -3061,6 +3061,5 @@ false
 return
 true
 ;
-}
 }
 }

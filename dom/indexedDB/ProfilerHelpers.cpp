@@ -70,11 +70,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 indexedDB
 {
 namespace
@@ -1577,8 +1577,6 @@ va_end
 args
 )
 ;
-}
-}
 }
 }
 }

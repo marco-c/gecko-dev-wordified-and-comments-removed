@@ -310,8 +310,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 typedef
@@ -3799,5 +3799,4 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 WindowGlobalChild
 )
-}
 }

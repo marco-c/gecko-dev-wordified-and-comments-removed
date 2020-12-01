@@ -67,8 +67,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NotifyPaintEvent
@@ -673,7 +673,6 @@ SystemCallerGuarantee
 return
 mTimeStamp
 ;
-}
 }
 }
 using

@@ -654,8 +654,8 @@ move
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -6945,6 +6945,5 @@ reached
 return
 nullptr
 ;
-}
 }
 }

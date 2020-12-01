@@ -139,8 +139,8 @@ Embed
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLEmbedElement
@@ -1308,6 +1308,5 @@ nsIContentPolicy
 :
 TYPE_INTERNAL_EMBED
 ;
-}
 }
 }

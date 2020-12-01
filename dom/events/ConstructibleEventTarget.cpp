@@ -22,8 +22,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 JSObject
@@ -58,6 +58,5 @@ this
 aGivenProto
 )
 ;
-}
 }
 }

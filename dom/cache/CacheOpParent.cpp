@@ -116,11 +116,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
-{
-namespace
+:
+:
 cache
 {
 using
@@ -1671,8 +1671,6 @@ site
 ;
 return
 ;
-}
-}
 }
 }
 }

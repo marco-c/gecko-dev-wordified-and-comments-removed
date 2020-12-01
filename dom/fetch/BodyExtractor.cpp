@@ -120,8 +120,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -999,6 +999,5 @@ aContentTypeWithCharset
 aCharset
 )
 ;
-}
 }
 }

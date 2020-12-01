@@ -61,8 +61,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 TreeWalker
@@ -1304,6 +1304,5 @@ aGivenProto
 aReflector
 )
 ;
-}
 }
 }

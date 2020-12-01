@@ -776,8 +776,8 @@ Input
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -31767,7 +31767,6 @@ Labels
 (
 )
 ;
-}
 }
 }
 #

@@ -38,8 +38,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 already_AddRefed
@@ -767,6 +767,5 @@ IPC_FAIL_NO_REASON
 this
 )
 ;
-}
 }
 }

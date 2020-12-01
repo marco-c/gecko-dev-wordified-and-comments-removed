@@ -54,8 +54,8 @@ GVAutoplay
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -1240,6 +1240,5 @@ aContext
 aType
 )
 ;
-}
 }
 }

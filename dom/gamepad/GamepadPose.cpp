@@ -38,8 +38,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 GamepadPose
@@ -645,6 +645,5 @@ GetPoseState
 return
 mPoseState
 ;
-}
 }
 }

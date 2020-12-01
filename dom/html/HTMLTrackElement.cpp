@@ -330,8 +330,8 @@ forget
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -2629,6 +2629,5 @@ DispatchTrustedEvent
 aName
 )
 ;
-}
 }
 }

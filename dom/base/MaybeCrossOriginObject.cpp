@@ -157,8 +157,8 @@ Location
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -2552,5 +2552,4 @@ MaybeCrossOriginObject
 DOMProxyHandler
 >
 ;
-}
 }

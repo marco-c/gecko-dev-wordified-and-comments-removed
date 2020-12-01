@@ -151,8 +151,8 @@ ipc
 ;
 namespace
 dom
-{
-namespace
+:
+:
 IPCBlobUtils
 {
 already_AddRefed
@@ -1060,7 +1060,6 @@ serialize
 "
 )
 ;
-}
 }
 }
 }

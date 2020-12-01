@@ -194,8 +194,8 @@ JSObject
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SourceBufferList
@@ -1065,5 +1065,4 @@ MSE_API
 #
 undef
 MSE_DEBUG
-}
 }

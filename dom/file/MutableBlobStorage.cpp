@@ -124,8 +124,8 @@ BLOB_MEMORY_TEMPORARY_FILE
 1048576
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 namespace
@@ -2752,6 +2752,5 @@ mFD
 =
 nullptr
 ;
-}
 }
 }

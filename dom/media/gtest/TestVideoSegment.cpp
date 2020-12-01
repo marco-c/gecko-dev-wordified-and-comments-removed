@@ -20,14 +20,13 @@ mozilla
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 layer
 {
 class
 Image
 ;
-}
 }
 TEST
 (

@@ -38,8 +38,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -111,6 +111,5 @@ aMsg
 aIter
 )
 ;
-}
 }
 }

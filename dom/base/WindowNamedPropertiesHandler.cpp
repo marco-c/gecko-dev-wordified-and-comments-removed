@@ -75,8 +75,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -1293,6 +1293,5 @@ succeeded
 return
 gsp
 ;
-}
 }
 }

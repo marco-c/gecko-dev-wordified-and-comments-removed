@@ -38,8 +38,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 WheelEvent
@@ -574,7 +574,6 @@ forget
 (
 )
 ;
-}
 }
 }
 using
