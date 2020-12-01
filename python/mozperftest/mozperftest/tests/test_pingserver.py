@@ -8,6 +8,8 @@ from
 pathlib
 import
 Path
+import
+sys
 from
 mozperftest
 .
@@ -30,11 +32,27 @@ mozperftest
 utils
 import
 temp_dir
+ON_TRY
 def
 test_ping_server
 (
 )
 :
+    
+if
+ON_TRY
+and
+sys
+.
+platform
+=
+=
+"
+darwin
+"
+:
+        
+return
     
 ping_data
 =

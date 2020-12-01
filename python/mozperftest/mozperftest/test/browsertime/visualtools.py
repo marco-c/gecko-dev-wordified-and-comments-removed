@@ -1109,5 +1109,27 @@ s
 "
 %
 _PYSSIM_VERSION
+        
+"
+influxdb
+=
+=
+5
+.
+3
+.
+0
+"
+        
+"
+grafana_api
+=
+=
+1
+.
+0
+.
+3
+"
     
 )

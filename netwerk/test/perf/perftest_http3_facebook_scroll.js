@@ -768,6 +768,11 @@ owner
 Network
 Team
 "
+component
+:
+"
+netwerk
+"
 name
 :
 "
