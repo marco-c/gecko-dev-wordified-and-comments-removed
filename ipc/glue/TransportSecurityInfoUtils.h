@@ -23,6 +23,13 @@ IPC
 {
 template
 <
+typename
+>
+struct
+ParamTraits
+;
+template
+<
 >
 struct
 ParamTraits
