@@ -4522,12 +4522,6 @@ InitColorPicker
 (
 )
 ;
-bool
-IsPopupBlocked
-(
-)
-const
-;
 GetFilesHelper
 *
 GetOrCreateGetFilesHelper
