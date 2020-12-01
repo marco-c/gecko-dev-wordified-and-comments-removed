@@ -1,8 +1,6 @@
 import
 abc
 import
-json
-import
 os
 import
 stat
@@ -23,6 +21,10 @@ moves
 collections_abc
 import
 MutableMapping
+from
+.
+import
+jsonlib
 from
 .
 utils
@@ -74,6 +76,20 @@ stat_result
 os
 .
 stat_result
+    
+GitIgnoreCacheType
+=
+MutableMapping
+[
+bytes
+bool
+]
+else
+:
+    
+GitIgnoreCacheType
+=
+MutableMapping
 def
 get_tree
 (
@@ -883,17 +899,14 @@ as
 f
 :
             
-json
+jsonlib
 .
-dump
+dump_local
 (
 self
 .
 data
 f
-indent
-=
-1
 )
     
 def
@@ -938,7 +951,7 @@ try
                         
 data
 =
-json
+jsonlib
 .
 load
 (
@@ -1363,14 +1376,14 @@ class
 GitIgnoreCache
 (
 CacheFile
-MutableMapping
+GitIgnoreCacheType
 )
 :
     
 file_name
 =
 "
-gitignore
+gitignore2
 .
 json
 "
@@ -1466,6 +1479,29 @@ key
 )
 :
         
+try
+:
+            
+key
+=
+key
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
+        
+except
+Exception
+:
+            
+return
+False
+        
 return
 key
 in
@@ -1481,13 +1517,26 @@ key
 )
 :
         
+real_key
+=
+key
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
+        
 v
 =
 self
 .
 data
 [
-key
+real_key
 ]
         
 assert
@@ -1509,6 +1558,19 @@ value
 )
 :
         
+real_key
+=
+key
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
+        
 if
 self
 .
@@ -1516,7 +1578,7 @@ data
 .
 get
 (
-key
+real_key
 )
 !
 =
@@ -1533,7 +1595,7 @@ self
 .
 data
 [
-key
+real_key
 ]
 =
 value
@@ -1546,12 +1608,25 @@ key
 )
 :
         
+real_key
+=
+key
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
+        
 del
 self
 .
 data
 [
-key
+real_key
 ]
     
 def
@@ -1562,8 +1637,20 @@ self
 :
         
 return
-iter
 (
+key
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
+for
+key
+in
 self
 .
 data

@@ -1030,14 +1030,22 @@ patterns_dir
 [
 ]
         
+if
+cache
+is
+None
+:
+            
+cache
+=
+{
+}
+        
 self
 .
 cache
 =
 cache
-or
-{
-}
         
 if
 extras
@@ -1639,6 +1647,18 @@ in
 [
 None
 dirpath
+if
+dirpath
+!
+=
+b
+"
+.
+"
+else
+b
+"
+"
 ]
 :
                         

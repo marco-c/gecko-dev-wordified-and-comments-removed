@@ -3,8 +3,6 @@ io
 import
 itertools
 import
-json
-import
 os
 from
 atomicwrites
@@ -34,6 +32,10 @@ itervalues
     
 string_types
 )
+from
+.
+import
+jsonlib
 from
 .
 import
@@ -149,22 +151,6 @@ from
 typing
 import
 Union
-try
-:
-    
-import
-ujson
-    
-fast_json
-=
-ujson
-except
-ImportError
-:
-    
-fast_json
-=
-json
 CURRENT_VERSION
 =
 8
@@ -1806,7 +1792,7 @@ from_json
 (
 tests_root
                                         
-fast_json
+jsonlib
 .
 load
 (
@@ -1861,7 +1847,7 @@ from_json
 (
 tests_root
                                 
-fast_json
+jsonlib
 .
 load
 (
@@ -2334,9 +2320,9 @@ as
 f
 :
         
-json
+jsonlib
 .
-dump
+dump_dist
 (
 manifest
 .
@@ -2347,22 +2333,6 @@ caller_owns_obj
 True
 )
 f
-                  
-sort_keys
-=
-True
-indent
-=
-1
-separators
-=
-(
-'
-'
-'
-:
-'
-)
 )
         
 f
