@@ -336,7 +336,7 @@ targetFront
 ;
 }
 get
-hasWatcherSupport
+hasResourceWatcherSupport
 (
 )
 {
@@ -347,7 +347,7 @@ toolbox
 .
 resourceWatcher
 .
-hasWatcherSupport
+hasResourceWatcherSupport
 (
 this
 .
@@ -1738,7 +1738,7 @@ if
 (
 this
 .
-hasWatcherSupport
+hasResourceWatcherSupport
 &
 &
 this
@@ -1803,7 +1803,7 @@ if
 (
 this
 .
-hasWatcherSupport
+hasResourceWatcherSupport
 &
 &
 this
