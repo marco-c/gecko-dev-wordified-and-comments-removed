@@ -456,11 +456,11 @@ origin
 ;
 request
 =
-initStorageAndChromeOrigin
+initPersistentOrigin
 (
-"
-persistent
-"
+getCurrentPrincipal
+(
+)
 continueToNextStepSync
 )
 ;

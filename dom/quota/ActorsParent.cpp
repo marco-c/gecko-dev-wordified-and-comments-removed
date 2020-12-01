@@ -29568,7 +29568,7 @@ AssertIsOnIOThread
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mStorageConnection
 )
@@ -29847,12 +29847,12 @@ aPersistenceType
 PERSISTENCE_TYPE_PERSISTENT
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mStorageConnection
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mTemporaryStorageInitialized
 )
@@ -30032,7 +30032,7 @@ AssertIsOnIOThread
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mStorageConnection
 )
