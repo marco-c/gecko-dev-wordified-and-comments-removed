@@ -4423,11 +4423,6 @@ Navigator
 webidl
 "
 "
-NetDashboard
-.
-webidl
-"
-"
 NetErrorInfo
 .
 webidl
