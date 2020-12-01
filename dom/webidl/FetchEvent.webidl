@@ -169,14 +169,6 @@ attribute
 DOMString
 resultingClientId
 ;
-readonly
-attribute
-Promise
-<
-void
->
-handled
-;
 [
 Throws
 ]
