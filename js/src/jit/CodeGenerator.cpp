@@ -70678,9 +70678,6 @@ link
 JSContext
 *
 cx
-CompilerConstraintList
-*
-constraints
 const
 WarpSnapshot
 *

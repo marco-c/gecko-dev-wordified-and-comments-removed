@@ -1641,7 +1641,7 @@ ins
 MConstant
 :
 :
-NewConstraintlessObject
+NewObject
 (
 alloc
 (
@@ -15081,7 +15081,6 @@ New
 alloc
 (
 )
-nullptr
 str
 separator
 group
@@ -16097,7 +16096,6 @@ New
 alloc
 (
 )
-nullptr
 templateConst
 type
 )
@@ -16234,7 +16232,6 @@ New
 alloc
 (
 )
-nullptr
 templateConst
 heap
 MNewObject
@@ -16422,7 +16419,6 @@ NewVM
 alloc
 (
 )
-nullptr
 len
 templateConst
 heap
@@ -16446,7 +16442,6 @@ New
 alloc
 (
 )
-nullptr
 len
 templateConst
 heap
@@ -16485,7 +16480,6 @@ New
 alloc
 (
 )
-nullptr
 templateObj
 heap
 length
@@ -16631,7 +16625,6 @@ New
 alloc
 (
 )
-nullptr
 templateConst
 heap
 )
@@ -16663,7 +16656,6 @@ New
 alloc
 (
 )
-nullptr
 templateObj
 heap
 length
@@ -16761,7 +16753,6 @@ New
 alloc
 (
 )
-nullptr
 templateObj
 heap
 buffer
@@ -16839,7 +16830,6 @@ New
 alloc
 (
 )
-nullptr
 templateObj
 heap
 array
@@ -21674,7 +21664,6 @@ New
 alloc
 (
 )
-nullptr
 templateConst
 heap
 )

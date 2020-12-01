@@ -4742,7 +4742,6 @@ New
 alloc
 (
 )
-nullptr
 reObj
 snapshot
 -
@@ -8094,7 +8093,6 @@ alloc
 (
 )
 value
-nullptr
 )
 ;
 current
@@ -13128,7 +13126,6 @@ NewVM
 alloc
 (
 )
-nullptr
 length
 templateConst
 heap
@@ -13152,7 +13149,6 @@ New
 alloc
 (
 )
-nullptr
 length
 templateConst
 heap
@@ -13248,7 +13244,7 @@ templateConst
 MConstant
 :
 :
-NewConstraintlessObject
+NewObject
 (
 alloc
 (
@@ -13276,7 +13272,6 @@ New
 alloc
 (
 )
-nullptr
 templateConst
 heap
 )
@@ -13370,7 +13365,6 @@ New
 alloc
 (
 )
-nullptr
 templateConst
 heap
 MNewObject
@@ -13403,7 +13397,6 @@ NewVM
 alloc
 (
 )
-nullptr
 templateConst
 heap
 MNewObject
@@ -15264,7 +15257,6 @@ New
 alloc
 (
 )
-nullptr
 env
 funConst
 LambdaInfoFromSnapshot
@@ -15385,7 +15377,6 @@ New
 alloc
 (
 )
-nullptr
 env
 newTarget
 funConst
@@ -16362,7 +16353,6 @@ NewVM
 alloc
 (
 )
-nullptr
 numRest
 templateConst
 heap
@@ -16386,7 +16376,6 @@ New
 alloc
 (
 )
-nullptr
 numRest
 templateConst
 heap
@@ -16673,7 +16662,6 @@ New
 alloc
 (
 )
-nullptr
 numActuals
 numFormals
 templateObject
