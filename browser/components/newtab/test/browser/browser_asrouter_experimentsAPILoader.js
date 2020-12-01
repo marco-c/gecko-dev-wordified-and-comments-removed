@@ -159,9 +159,14 @@ ExperimentFakes
 .
 recipe
 (
-"
-test_xman_cfr
-"
+test_xman_cfr_
+{
+Date
+.
+now
+(
+)
+}
 {
 id
 :
