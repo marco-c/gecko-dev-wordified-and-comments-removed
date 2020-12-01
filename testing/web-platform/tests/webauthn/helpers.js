@@ -1391,6 +1391,16 @@ key
 )
 )
 {
+dst
+[
+key
+]
+|
+|
+=
+{
+}
+;
 extendObject
 (
 dst
