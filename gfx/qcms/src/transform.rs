@@ -163,6 +163,7 @@ atomic
 Ordering
 }
 ;
+pub
 const
 PRECACHE_OUTPUT_SIZE
 :
@@ -170,6 +171,7 @@ usize
 =
 8192
 ;
+pub
 const
 PRECACHE_OUTPUT_MAX
 :
