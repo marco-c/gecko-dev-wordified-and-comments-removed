@@ -32,6 +32,8 @@ stat
 import
 subprocess
 import
+sys
+import
 tempfile
 import
 threading
@@ -1179,6 +1181,33 @@ check_call
 git
 '
 '
+checkout
+'
+'
+-
+b
+'
+'
+master
+'
+]
+            
+cwd
+=
+directory
+        
+)
+        
+subprocess
+.
+check_call
+(
+            
+[
+'
+git
+'
+'
 config
 '
 '
@@ -1493,9 +1522,9 @@ Popen
             
 [
                 
-'
-python
-'
+sys
+.
+executable
                 
 subject
                 
@@ -1808,9 +1837,9 @@ Popen
             
 [
                 
-'
-python
-'
+sys
+.
+executable
                 
 subject
                 
