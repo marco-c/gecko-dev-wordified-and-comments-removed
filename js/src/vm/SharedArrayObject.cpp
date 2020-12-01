@@ -983,7 +983,10 @@ if
 (
 byteLength
 >
-INT32_MAX
+ArrayBufferObject
+:
+:
+MaxBufferByteLength
 )
 {
 JS_ReportErrorNumberASCII
