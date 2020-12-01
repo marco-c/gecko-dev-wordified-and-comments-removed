@@ -822,6 +822,7 @@ startListeningForAccessibilityEvents
 stopListeningForAccessibilityEvents
 audit
 simulate
+toggleDisplayTabbingOrder
 enableAccessibility
 resetAccessiblity
 startListeningForLifecycleEvents
@@ -860,6 +861,7 @@ startListeningForAccessibilityEvents
 stopListeningForAccessibilityEvents
 audit
 simulate
+toggleDisplayTabbingOrder
 enableAccessibility
 resetAccessiblity
 startListeningForLifecycleEvents

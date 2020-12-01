@@ -141,6 +141,11 @@ Description
 js
 "
 "
+DisplayTabbingOrder
+.
+js
+"
+"
 KeyboardBadge
 .
 js
