@@ -171,13 +171,6 @@ getNewestFrame
 ;
 if
 (
-this
-.
-thread
-.
-skipBreakpoints
-|
-|
 !
 this
 .
@@ -188,6 +181,13 @@ hasMoved
 frame
 type
 )
+|
+|
+this
+.
+threadActor
+.
+skipBreakpointsOption
 |
 |
 this
