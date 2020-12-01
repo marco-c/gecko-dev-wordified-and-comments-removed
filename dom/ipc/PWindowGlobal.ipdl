@@ -32,6 +32,17 @@ h
 "
 ;
 include
+"
+mozilla
+/
+ipc
+/
+URIUtils
+.
+h
+"
+;
+include
 protocol
 PBrowser
 ;
