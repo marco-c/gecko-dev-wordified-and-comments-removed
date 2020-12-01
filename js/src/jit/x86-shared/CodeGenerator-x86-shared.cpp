@@ -17007,8 +17007,8 @@ masm
 .
 pseudoMaxFloat32x4
 (
-rhs
 lhsDest
+rhs
 )
 ;
 break
@@ -17026,8 +17026,8 @@ masm
 .
 pseudoMinFloat32x4
 (
-rhs
 lhsDest
+rhs
 )
 ;
 break
@@ -17045,8 +17045,8 @@ masm
 .
 pseudoMaxFloat64x2
 (
-rhs
 lhsDest
+rhs
 )
 ;
 break
@@ -17064,8 +17064,8 @@ masm
 .
 pseudoMinFloat64x2
 (
-rhs
 lhsDest
+rhs
 )
 ;
 break

@@ -11606,9 +11606,9 @@ void
 pseudoMinFloat32x4
 (
 FloatRegister
-rhs
+rhsOrRhsDest
 FloatRegister
-lhsDest
+lhsOrLhsDest
 )
 DEFINED_ON
 (
@@ -11621,9 +11621,9 @@ void
 pseudoMinFloat64x2
 (
 FloatRegister
-rhs
+rhsOrRhsDest
 FloatRegister
-lhsDest
+lhsOrLhsDest
 )
 DEFINED_ON
 (
@@ -11636,9 +11636,9 @@ void
 pseudoMaxFloat32x4
 (
 FloatRegister
-rhs
+rhsOrRhsDest
 FloatRegister
-lhsDest
+lhsOrLhsDest
 )
 DEFINED_ON
 (
@@ -11651,9 +11651,9 @@ void
 pseudoMaxFloat64x2
 (
 FloatRegister
-rhs
+rhsOrRhsDest
 FloatRegister
-lhsDest
+lhsOrLhsDest
 )
 DEFINED_ON
 (
