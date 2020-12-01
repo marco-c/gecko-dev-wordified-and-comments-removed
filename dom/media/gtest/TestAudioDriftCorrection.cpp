@@ -48,6 +48,10 @@ gtest
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 float
 RunUntilCorrectionUpdate

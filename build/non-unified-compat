@@ -220,6 +220,12 @@ openh264
 /
 dom
 /
+media
+/
+gtest
+/
+dom
+/
 quota
 /
 dom
