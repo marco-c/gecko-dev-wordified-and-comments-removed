@@ -2665,17 +2665,6 @@ state
 ;
 }
 void
-trackNotAttached
-(
-JSContext
-*
-cx
-JSScript
-*
-script
-)
-;
-void
 maybeInvalidateWarp
 (
 JSContext
