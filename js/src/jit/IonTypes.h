@@ -217,6 +217,7 @@ SpeculativePhi
 TypePolicy
 LICM
 HoistBoundsCheck
+GenericIon
 Inevitable
 DuringVMCall
 TooManyArguments
@@ -354,6 +355,17 @@ HoistBoundsCheck
 return
 "
 HoistBoundsCheck
+"
+;
+case
+BailoutKind
+:
+:
+GenericIon
+:
+return
+"
+GenericIon
 "
 ;
 case
