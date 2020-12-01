@@ -812,14 +812,6 @@ layout
 /
 xul
 /
-grid
-/
-crashtests
--
-layout
-/
-xul
-/
 reftest
 -
 layout

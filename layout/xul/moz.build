@@ -279,9 +279,6 @@ DIRS
 "
 tree
 "
-"
-grid
-"
 ]
 CFLAGS
 +
