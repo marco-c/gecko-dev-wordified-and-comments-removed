@@ -232,10 +232,15 @@ return
 &
 mDefaultFantasyFont
 ;
+case
+StyleGenericFontFamily
+:
+:
+MozEmoji
+:
 break
 ;
-default
-:
+}
 MOZ_ASSERT_UNREACHABLE
 (
 "
@@ -248,7 +253,6 @@ id
 return
 nullptr
 ;
-}
 }
 nsStaticAtom
 *
