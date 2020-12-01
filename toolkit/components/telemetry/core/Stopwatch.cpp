@@ -1125,6 +1125,12 @@ Timers
 (
 )
 {
+mBHRAnnotationTimers
+.
+clear
+(
+)
+;
 BackgroundHangMonitor
 :
 :
