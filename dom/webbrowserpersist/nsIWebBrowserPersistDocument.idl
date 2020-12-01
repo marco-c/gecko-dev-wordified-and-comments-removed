@@ -121,6 +121,9 @@ nsIReferrerInfo
 interface
 nsISHEntry
 ;
+interface
+nsICookieJarSettings
+;
 webidl
 BrowsingContext
 ;
@@ -398,6 +401,11 @@ readonly
 attribute
 nsIReferrerInfo
 referrerInfo
+;
+readonly
+attribute
+nsICookieJarSettings
+cookieJarSettings
 ;
 readonly
 attribute
