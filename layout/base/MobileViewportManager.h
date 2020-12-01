@@ -235,6 +235,15 @@ GetIntrinsicCompositionSize
 )
 const
 ;
+mozilla
+:
+:
+ParentLayerSize
+GetCompositionSizeWithoutDynamicToolbar
+(
+)
+const
+;
 private
 :
 ~
