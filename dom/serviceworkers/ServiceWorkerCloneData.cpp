@@ -8,6 +8,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+DOMTypes
+.
+h
+"
+#
+include
+"
 nsProxyRelease
 .
 h

@@ -27,6 +27,13 @@ RemoteServiceWorkerContainerImpl
 .
 h
 "
+#
+include
+"
+ServiceWorkerContainerChild
+.
+h
+"
 namespace
 mozilla
 {

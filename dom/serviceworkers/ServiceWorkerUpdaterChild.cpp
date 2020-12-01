@@ -8,6 +8,13 @@ h
 #
 include
 "
+ServiceWorkerUtils
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

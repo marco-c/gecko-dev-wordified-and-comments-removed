@@ -12,6 +12,13 @@ ServiceWorkerInfo
 .
 h
 "
+#
+include
+"
+ServiceWorkerRegistrationInfo
+.
+h
+"
 namespace
 mozilla
 {

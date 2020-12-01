@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+Telemetry
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h

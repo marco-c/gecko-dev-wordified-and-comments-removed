@@ -218,5 +218,9 @@ security
 /
 dom
 /
+serviceworkers
+/
+dom
+/
 simpledb
 /
