@@ -302,15 +302,6 @@ browser
 child
 .
 js
-content
-/
-global
-/
-browser
--
-content
-.
-js
 *
 content
 /

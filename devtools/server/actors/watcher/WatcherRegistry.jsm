@@ -844,12 +844,6 @@ addJSWindowActors
 JSWindowActorsConfig
 )
 ;
-ActorManagerParent
-.
-flush
-(
-)
-;
 }
 function
 unregisterJSWindowActor
