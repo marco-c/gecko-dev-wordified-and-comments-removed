@@ -1972,7 +1972,7 @@ byteLen
 memory
 -
 >
-volatileMemoryLength
+volatileMemoryLength32
 (
 )
 ;

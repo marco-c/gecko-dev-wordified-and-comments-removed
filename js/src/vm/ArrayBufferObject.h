@@ -1823,6 +1823,11 @@ CreateWasmBuffer
 JSContext
 *
 cx
+wasm
+:
+:
+MemoryKind
+memKind
 const
 wasm
 :

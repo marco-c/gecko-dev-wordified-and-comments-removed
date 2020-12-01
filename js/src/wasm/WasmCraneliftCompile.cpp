@@ -1667,13 +1667,14 @@ static_assert
 offsetof
 (
 TlsData
-boundsCheckLimit
+boundsCheckLimit32
 )
 =
 =
 sizeof
 (
-size_t
+void
+*
 )
 "
 fix
