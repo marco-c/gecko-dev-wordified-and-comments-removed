@@ -705,10 +705,10 @@ NoStack
 (
 )
 MarkerThreadId
+:
+:
+MainThread
 (
-profiler_main_thread_id
-(
-)
 )
 )
 FileIOMarker
@@ -857,10 +857,10 @@ NoStack
 (
 )
 MarkerThreadId
+:
+:
+MainThread
 (
-profiler_main_thread_id
-(
-)
 )
 )
 FileIOMarker
