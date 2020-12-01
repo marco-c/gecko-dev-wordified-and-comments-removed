@@ -1204,6 +1204,9 @@ mDiagnostics
 LayoutDeviceIntSize
 mSize
 ;
+LayoutDeviceIntSize
+mBufferSize
+;
 HWND
 mHwnd
 ;
