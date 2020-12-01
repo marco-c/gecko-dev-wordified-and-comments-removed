@@ -1098,8 +1098,6 @@ dom
 /
 media
 /
-autoplay
-/
 AutoplayPolicy
 .
 cpp
@@ -1192,11 +1190,7 @@ dom
 /
 media
 /
-autoplay
-/
 test
-/
-mochitest
 /
 file_autoplay_policy_key_blacklist
 .
@@ -1206,11 +1200,7 @@ dom
 /
 media
 /
-autoplay
-/
 test
-/
-mochitest
 /
 test_autoplay_policy_key_blacklist
 .
@@ -1220,11 +1210,7 @@ dom
 /
 media
 /
-autoplay
-/
 test
-/
-mochitest
 /
 test_autoplay_policy_permission
 .
