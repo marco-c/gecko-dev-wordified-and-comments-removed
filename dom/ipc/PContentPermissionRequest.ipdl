@@ -83,13 +83,6 @@ prompt
 )
 ;
 async
-NotifyVisibility
-(
-bool
-visibility
-)
-;
-async
 Destroy
 (
 )
