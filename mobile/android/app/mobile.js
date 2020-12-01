@@ -3071,16 +3071,6 @@ pref
 "
 apz
 .
-fling_accel_interval_ms
-"
-750
-)
-;
-pref
-(
-"
-apz
-.
 fling_curve_function_x1
 "
 "
