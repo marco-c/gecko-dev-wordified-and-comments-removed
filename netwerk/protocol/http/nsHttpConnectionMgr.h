@@ -464,6 +464,16 @@ nsAHttpTransaction
 aTrans
 )
 ;
+void
+IncrementNumIdleConns
+(
+)
+;
+void
+DecrementNumIdleConns
+(
+)
+;
 private
 :
 virtual
