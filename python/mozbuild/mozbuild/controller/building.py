@@ -7181,6 +7181,24 @@ CXX_IS_ICECREAM
 )
 )
             
+mozbuild_metrics
+.
+project
+.
+set
+(
+substs
+.
+get
+(
+"
+MOZ_BUILD_APP
+"
+"
+"
+)
+)
+            
 all_backends
 =
 config
