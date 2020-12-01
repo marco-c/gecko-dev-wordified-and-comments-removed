@@ -26,12 +26,6 @@ nullable
 PRemotePrintJob
 remotePrintJob
 ;
-int32_t
-startPageRange
-;
-int32_t
-endPageRange
-;
 double
 edgeTop
 ;
@@ -89,8 +83,10 @@ isPrintSelectionRBEnabled
 bool
 printSelectionOnly
 ;
-short
-printRange
+int32_t
+[
+]
+pageRanges
 ;
 nsString
 title
