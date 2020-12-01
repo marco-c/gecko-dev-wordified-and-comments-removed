@@ -864,14 +864,6 @@ JSOp
 op
 )
 ;
-MOZ_MUST_USE
-bool
-emitDefLexical
-(
-JSOp
-op
-)
-;
 bool
 tryOptimizeGetGlobalName
 (

@@ -1206,14 +1206,6 @@ loc
 ;
 MOZ_MUST_USE
 bool
-buildDefLexicalOp
-(
-BytecodeLocation
-loc
-)
-;
-MOZ_MUST_USE
-bool
 buildCallOp
 (
 BytecodeLocation
