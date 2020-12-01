@@ -2991,8 +2991,10 @@ zero
 sized
 source
 rectangle
-throws
-INDEX_SIZE_ERR
+draws
+nothing
+without
+exception
 testing
 :
 -
@@ -3123,9 +3125,6 @@ bitmap
 =
 >
 {
-assert
-throws
-INDEX_SIZE_ERR
 ctx
 .
 drawImage
@@ -3141,9 +3140,6 @@ bitmap
 50
 )
 ;
-assert
-throws
-INDEX_SIZE_ERR
 ctx
 .
 drawImage
@@ -3159,9 +3155,6 @@ bitmap
 50
 )
 ;
-assert
-throws
-INDEX_SIZE_ERR
 ctx
 .
 drawImage
@@ -3223,8 +3216,10 @@ source
 rectangle
 from
 image
-throws
-INDEX_SIZE_ERR
+draws
+nothing
+without
+exception
 testing
 :
 -
@@ -3371,9 +3366,6 @@ bitmap
 =
 >
 {
-assert
-throws
-INDEX_SIZE_ERR
 ctx
 .
 drawImage
@@ -3385,9 +3377,6 @@ bitmap
 50
 )
 ;
-assert
-throws
-INDEX_SIZE_ERR
 ctx
 .
 drawImage
@@ -3399,9 +3388,6 @@ bitmap
 50
 )
 ;
-assert
-throws
-INDEX_SIZE_ERR
 ctx
 .
 drawImage
