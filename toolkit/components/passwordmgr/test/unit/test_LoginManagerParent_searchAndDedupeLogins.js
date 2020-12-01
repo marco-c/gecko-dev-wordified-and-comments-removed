@@ -931,7 +931,7 @@ Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllLogins
 (
 )
 ;

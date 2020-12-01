@@ -883,7 +883,7 @@ Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllLogins
 (
 )
 ;

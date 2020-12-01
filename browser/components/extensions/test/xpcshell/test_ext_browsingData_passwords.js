@@ -223,7 +223,7 @@ setupPasswords
 {
 loginManager
 .
-removeAllUserFacingLogins
+removeAllLogins
 (
 )
 ;

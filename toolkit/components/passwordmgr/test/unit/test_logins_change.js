@@ -810,7 +810,7 @@ logins
 add_task
 (
 function
-test_removeAllUserFacingLogins
+test_removeAllLogins
 (
 )
 {
@@ -840,7 +840,7 @@ Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllLogins
 (
 )
 ;
@@ -856,7 +856,7 @@ Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllLogins
 (
 )
 ;
@@ -1892,7 +1892,7 @@ Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllLogins
 (
 )
 ;
@@ -1966,7 +1966,7 @@ Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllLogins
 (
 )
 ;
@@ -2043,7 +2043,7 @@ Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllLogins
 (
 )
 ;
@@ -2273,7 +2273,7 @@ Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllLogins
 (
 )
 ;
