@@ -77,21 +77,13 @@ path
         
 if
 basename
-in
-(
+=
+=
 "
 mozinfo
 .
 json
 "
-"
-wptrunner
-.
-local
-.
-ini
-"
-)
 :
             
 assert
