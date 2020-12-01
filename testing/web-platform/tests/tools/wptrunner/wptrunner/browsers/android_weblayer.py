@@ -331,26 +331,6 @@ prefs
 "
 ]
     
-del
-executor_kwargs
-[
-"
-capabilities
-"
-]
-[
-"
-goog
-:
-chromeOptions
-"
-]
-[
-"
-useAutomationExtension
-"
-]
-    
 capabilities
 =
 executor_kwargs
