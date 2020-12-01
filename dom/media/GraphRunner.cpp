@@ -656,6 +656,7 @@ GraphRunner
 OnThread
 (
 )
+const
 {
 return
 mThread
@@ -680,10 +681,12 @@ GraphRunner
 :
 InDriverIteration
 (
+const
 GraphDriver
 *
 aDriver
 )
+const
 {
 if
 (
