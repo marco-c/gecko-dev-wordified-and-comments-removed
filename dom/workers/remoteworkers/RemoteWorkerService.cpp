@@ -622,11 +622,11 @@ IsOnCurrentThread
 )
 )
 ;
-MOZ_ASSERT
+if
 (
 mActor
 )
-;
+{
 mActor
 -
 >
@@ -639,6 +639,7 @@ mActor
 =
 nullptr
 ;
+}
 RefPtr
 <
 RemoteWorkerService
