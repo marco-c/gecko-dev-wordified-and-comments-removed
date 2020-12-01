@@ -25266,11 +25266,6 @@ servo_arc
 smallvec
 "
 "
-thin
--
-slice
-"
-"
 to_shmem
 "
 "
