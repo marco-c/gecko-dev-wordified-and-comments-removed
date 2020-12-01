@@ -571,7 +571,14 @@ python
 .
 7
 .
-15
+10
++
+and
+Python
+3
+.
+6
++
 "
 )
 class
