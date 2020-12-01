@@ -1134,12 +1134,6 @@ defined
 (
 ANDROID
 )
-|
-|
-defined
-(
-MOZ_WAYLAND
-)
 int
 id
 ;
