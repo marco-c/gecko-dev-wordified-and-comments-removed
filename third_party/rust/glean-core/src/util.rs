@@ -405,7 +405,7 @@ meta
 ErrorType
 :
 :
-InvalidOverflow
+InvalidValue
 msg
 None
 )

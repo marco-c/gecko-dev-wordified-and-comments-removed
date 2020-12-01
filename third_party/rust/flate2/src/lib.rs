@@ -695,7 +695,6 @@ impl
 Compression
 {
 pub
-const
 fn
 new
 (
@@ -713,7 +712,6 @@ level
 )
 }
 pub
-const
 fn
 none
 (
@@ -728,7 +726,6 @@ Compression
 )
 }
 pub
-const
 fn
 fast
 (
@@ -743,7 +740,6 @@ Compression
 )
 }
 pub
-const
 fn
 best
 (
