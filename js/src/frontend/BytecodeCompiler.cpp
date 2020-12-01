@@ -6380,7 +6380,7 @@ JSTracer
 trc
 )
 {
-atoms
+atoms_
 .
 trace
 (
