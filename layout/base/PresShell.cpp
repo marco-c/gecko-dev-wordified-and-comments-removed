@@ -26243,6 +26243,7 @@ PresShell
 GetCumulativeResolution
 (
 )
+const
 {
 float
 resolution

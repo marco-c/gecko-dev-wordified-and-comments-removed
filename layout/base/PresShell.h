@@ -2111,6 +2111,7 @@ float
 GetCumulativeResolution
 (
 )
+const
 ;
 bool
 IsResolutionUpdated
