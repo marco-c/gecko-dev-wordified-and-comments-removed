@@ -2044,10 +2044,6 @@ alloc
 def
 group
 false
-BailoutKind
-:
-:
-ObjectIdentityOrTypeGuard
 )
 ;
 add
