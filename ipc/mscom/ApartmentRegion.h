@@ -38,9 +38,11 @@ mscom
 class
 MOZ_NON_TEMPORARY_CLASS
 ApartmentRegion
+final
 {
 public
 :
+constexpr
 ApartmentRegion
 (
 )
@@ -241,6 +243,7 @@ T
 class
 MOZ_NON_TEMPORARY_CLASS
 ApartmentRegionT
+final
 {
 public
 :
