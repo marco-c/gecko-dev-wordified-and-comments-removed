@@ -1483,12 +1483,6 @@ html
 }
 if
 (
-!
-AppConstants
-.
-NIGHTLY_BUILD
-|
-|
 AppConstants
 .
 platform
