@@ -2138,7 +2138,7 @@ prefix
 {
 front
 .
-purgeRequestsForDestroy
+baseFrontClassDestroy
 (
 )
 ;
