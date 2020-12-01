@@ -676,12 +676,6 @@ mReadyForWrite
 ;
 nsTArray
 <
-uint64_t
->
-mReadyForWriteButBlocked
-;
-nsTArray
-<
 RefPtr
 <
 Http3Stream

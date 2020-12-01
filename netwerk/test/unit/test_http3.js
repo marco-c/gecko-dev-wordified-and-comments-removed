@@ -78,7 +78,7 @@ generateContent
 let
 number_of_parallel_requests
 =
-10
+120
 ;
 let
 h1Server

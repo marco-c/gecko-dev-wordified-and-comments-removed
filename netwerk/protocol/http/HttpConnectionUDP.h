@@ -327,9 +327,6 @@ mLastWriteTime
 int64_t
 mTotalBytesRead
 ;
-int64_t
-mContentBytesWritten
-;
 RefPtr
 <
 nsIAsyncInputStream
