@@ -144,7 +144,7 @@ NodeName
 }
 StyleSheet
 *
-GetSheet
+GetSheetForBindings
 (
 )
 const
