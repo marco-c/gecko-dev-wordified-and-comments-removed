@@ -1220,6 +1220,14 @@ catch
 e
 )
 {
+if
+(
+!
+dbg
+.
+isClosed
+)
+{
 dbg
 .
 setDebuggerReady
@@ -1227,6 +1235,7 @@ setDebuggerReady
 true
 )
 ;
+}
 return
 ;
 }
