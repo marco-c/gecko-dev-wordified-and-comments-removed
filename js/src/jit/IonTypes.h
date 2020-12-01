@@ -214,6 +214,7 @@ uint8_t
 Unknown
 TranspiledCacheIR
 SpeculativePhi
+TypePolicy
 Inevitable
 DuringVMCall
 TooManyArguments
@@ -318,6 +319,17 @@ SpeculativePhi
 return
 "
 SpeculativePhi
+"
+;
+case
+BailoutKind
+:
+:
+TypePolicy
+:
+return
+"
+TypePolicy
 "
 ;
 case

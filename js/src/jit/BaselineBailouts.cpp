@@ -10074,6 +10074,14 @@ case
 BailoutKind
 :
 :
+TypePolicy
+:
+break
+;
+case
+BailoutKind
+:
+:
 Inevitable
 :
 case
