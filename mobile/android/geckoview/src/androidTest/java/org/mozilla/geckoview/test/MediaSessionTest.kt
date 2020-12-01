@@ -2658,11 +2658,6 @@ true
 )
 }
 AssertCalled
-(
-count
-=
-1
-)
 override
 fun
 onMetadata
