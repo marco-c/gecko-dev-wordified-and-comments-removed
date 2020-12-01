@@ -69,6 +69,11 @@ web
 platform
 -
 tests
+force
+-
+py2
+:
+true
 instance
 -
 size

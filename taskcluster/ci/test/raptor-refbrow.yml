@@ -56,6 +56,11 @@ time
 suite
 :
 raptor
+force
+-
+py2
+:
+true
 webrender
 -
 run
