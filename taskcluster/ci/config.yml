@@ -2475,14 +2475,6 @@ bindings
 -
 linux64
 '
--
-'
-sm
--
-nowarp
--
-linux64
-'
 '
 win32
 '
