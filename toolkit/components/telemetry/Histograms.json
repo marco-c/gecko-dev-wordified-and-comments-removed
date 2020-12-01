@@ -112492,6 +112492,9 @@ CertificateRevoked
 "
 LibraryFailure
 "
+"
+CertRevokedByStash
+"
 ]
 "
 description
@@ -112521,6 +112524,7 @@ bug_numbers
 [
 1586855
 1607765
+1670984
 ]
 "
 releaseChannelCollection

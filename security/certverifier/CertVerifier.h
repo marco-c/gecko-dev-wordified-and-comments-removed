@@ -463,6 +463,9 @@ CertificateRevoked
 LibraryFailure
 =
 6
+CertRevokedByStash
+=
+7
 }
 ;
 class
