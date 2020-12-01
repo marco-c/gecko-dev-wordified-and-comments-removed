@@ -1472,12 +1472,12 @@ case
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 :
 name
 =
 "
-MediaController
+MediaSupervisor
 "
 ;
 break

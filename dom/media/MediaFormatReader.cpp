@@ -4623,7 +4623,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 "
 MediaFormatReader
