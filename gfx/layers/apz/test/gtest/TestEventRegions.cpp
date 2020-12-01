@@ -2076,10 +2076,13 @@ EXPECT_EQ
 (
 result
 .
-mHandledByRootApzc
+mHandledResult
 Some
 (
-true
+APZHandledResult
+:
+:
+HandledByRoot
 )
 )
 ;
@@ -2121,7 +2124,7 @@ EXPECT_EQ
 (
 result
 .
-mHandledByRootApzc
+mHandledResult
 Nothing
 (
 )
@@ -2257,7 +2260,7 @@ EXPECT_EQ
 (
 result
 .
-mHandledByRootApzc
+mHandledResult
 Nothing
 (
 )
@@ -2419,7 +2422,7 @@ EXPECT_EQ
 (
 result
 .
-mHandledByRootApzc
+mHandledResult
 Nothing
 (
 )

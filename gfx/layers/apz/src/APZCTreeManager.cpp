@@ -7600,7 +7600,7 @@ mTargetGuid
 ;
 result
 .
-mHandledByRootApzc
+mHandledResult
 =
 hit
 .
@@ -7927,7 +7927,7 @@ mTargetGuid
 ;
 result
 .
-mHandledByRootApzc
+mHandledResult
 =
 hit
 .
@@ -8158,7 +8158,7 @@ mTargetGuid
 ;
 result
 .
-mHandledByRootApzc
+mHandledResult
 =
 hit
 .
@@ -8402,7 +8402,7 @@ mTargetGuid
 ;
 result
 .
-mHandledByRootApzc
+mHandledResult
 =
 hit
 .
@@ -8553,7 +8553,7 @@ mTargetGuid
 ;
 result
 .
-mHandledByRootApzc
+mHandledResult
 =
 hit
 .
@@ -9846,7 +9846,7 @@ mTargetGuid
 ;
 result
 .
-mHandledByRootApzc
+mHandledResult
 =
 mTouchBlockHitResult
 .
@@ -9880,7 +9880,7 @@ mInputBlockId
 &
 result
 .
-mHandledByRootApzc
+mHandledResult
 touchBehaviors
 .
 IsEmpty
@@ -10329,7 +10329,7 @@ mTargetGuid
 ;
 result
 .
-mHandledByRootApzc
+mHandledResult
 =
 mTouchBlockHitResult
 .
@@ -18241,7 +18241,7 @@ GetStickyScrollRangeOuter
 }
 Maybe
 <
-bool
+APZHandledResult
 >
 APZCTreeManager
 :
@@ -18268,7 +18268,10 @@ IsRootContent
 return
 Some
 (
-false
+APZHandledResult
+:
+:
+HandledByContent
 )
 ;
 }
@@ -18289,7 +18292,10 @@ isEmpty
 return
 Some
 (
-true
+APZHandledResult
+:
+:
+HandledByRoot
 )
 ;
 }

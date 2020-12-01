@@ -84,9 +84,9 @@ mTargetGuid
 ;
 Maybe
 <
-bool
+APZHandledResult
 >
-mHandledByRootApzc
+mHandledResult
 ;
 uint64_t
 mInputBlockId

@@ -964,7 +964,7 @@ default
 ;
 Maybe
 <
-bool
+APZHandledResult
 >
 HandledByRoot
 (
