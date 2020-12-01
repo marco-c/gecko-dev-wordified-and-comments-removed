@@ -592,6 +592,13 @@ fi
 (
 cd
 "
+JS_SRCDIR
+"
+autoconf2
+.
+13
+cd
+"
 analysis_dir
 "
 PYTHON

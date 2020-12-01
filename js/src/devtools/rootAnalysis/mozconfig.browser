@@ -121,6 +121,8 @@ TOPSRCDIR
 obj
 -
 analyzed
+-
+browser
 #
 The
 configuration
