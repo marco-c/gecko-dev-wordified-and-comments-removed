@@ -4687,6 +4687,12 @@ get
 endif
 FocusActivate
 (
+nsFocusManager
+:
+:
+GenerateFocusActionId
+(
+)
 )
 ;
 }
@@ -4764,6 +4770,12 @@ get
 endif
 FocusDeactivate
 (
+nsFocusManager
+:
+:
+GenerateFocusActionId
+(
+)
 )
 ;
 }
@@ -4884,6 +4896,8 @@ nsWebBrowser
 :
 FocusActivate
 (
+uint64_t
+aActionId
 )
 {
 nsFocusManager
@@ -4921,6 +4935,7 @@ fm
 WindowRaised
 (
 window
+aActionId
 )
 ;
 }
@@ -4931,6 +4946,8 @@ nsWebBrowser
 :
 FocusDeactivate
 (
+uint64_t
+aActionId
 )
 {
 nsFocusManager
@@ -4968,6 +4985,7 @@ fm
 WindowLowered
 (
 window
+aActionId
 )
 ;
 }

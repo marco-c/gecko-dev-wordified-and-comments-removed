@@ -13601,6 +13601,12 @@ fm
 WindowRaised
 (
 window
+nsFocusManager
+:
+:
+GenerateFocusActionId
+(
+)
 )
 ;
 }
@@ -13692,6 +13698,12 @@ fm
 WindowLowered
 (
 window
+nsFocusManager
+:
+:
+GenerateFocusActionId
+(
+)
 )
 ;
 }

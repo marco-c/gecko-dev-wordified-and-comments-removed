@@ -314,11 +314,15 @@ aAllowPrefetch
 void
 FocusActivate
 (
+uint64_t
+aActionId
 )
 ;
 void
 FocusDeactivate
 (
+uint64_t
+aActionId
 )
 ;
 void

@@ -5984,6 +5984,8 @@ BrowserParent
 :
 Activate
 (
+uint64_t
+aActionId
 )
 {
 LOGBROWSERFOCUS
@@ -6014,6 +6016,7 @@ Unused
 <
 SendActivate
 (
+aActionId
 )
 ;
 }
@@ -6026,6 +6029,8 @@ Deactivate
 (
 bool
 aWindowLowering
+uint64_t
+aActionId
 )
 {
 LOGBROWSERFOCUS
@@ -6063,6 +6068,7 @@ Unused
 <
 SendDeactivate
 (
+aActionId
 )
 ;
 }

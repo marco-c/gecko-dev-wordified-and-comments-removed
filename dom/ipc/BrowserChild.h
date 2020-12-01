@@ -1236,6 +1236,8 @@ ipc
 IPCResult
 RecvActivate
 (
+uint64_t
+aActionId
 )
 ;
 mozilla
@@ -1247,6 +1249,8 @@ ipc
 IPCResult
 RecvDeactivate
 (
+uint64_t
+aActionId
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY

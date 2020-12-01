@@ -428,6 +428,8 @@ BrowserBridgeChild
 :
 Activate
 (
+uint64_t
+aActionId
 )
 {
 Unused
@@ -435,6 +437,7 @@ Unused
 <
 SendActivate
 (
+aActionId
 )
 ;
 }
@@ -446,6 +449,8 @@ Deactivate
 (
 bool
 aWindowLowering
+uint64_t
+aActionId
 )
 {
 Unused
@@ -454,6 +459,7 @@ Unused
 SendDeactivate
 (
 aWindowLowering
+aActionId
 )
 ;
 }
