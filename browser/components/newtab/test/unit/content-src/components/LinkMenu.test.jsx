@@ -3136,13 +3136,7 @@ pin
 {
 site
 :
-{
-url
-:
 FAKE_SITE
-.
-url
-}
 index
 :
 FAKE_INDEX
@@ -4040,7 +4034,7 @@ const
 pinSpocTopSite
 =
 "
-PinSpocTopSite
+PinTopSite
 "
 ;
 const

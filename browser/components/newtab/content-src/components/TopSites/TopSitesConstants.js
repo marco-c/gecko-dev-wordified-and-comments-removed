@@ -43,7 +43,7 @@ TOP_SITES_SPOC_CONTEXT_MENU_OPTIONS
 =
 [
 "
-PinSpocTopSite
+PinTopSite
 "
 "
 Separator
@@ -71,7 +71,7 @@ TOP_SITES_SPONSORED_POSITION_CONTEXT_MENU_OPTIONS
 =
 [
 "
-PinSpocTopSite
+PinTopSite
 "
 "
 Separator
