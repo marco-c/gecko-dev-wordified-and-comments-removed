@@ -717,13 +717,6 @@ n
 "
 race
 :
-gXPCOMThreadsShutDown
-\
-n
-"
-"
-race
-:
 nsJARChannel
 :
 :
