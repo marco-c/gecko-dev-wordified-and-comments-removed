@@ -91,6 +91,15 @@ Cocoa
 .
 h
 >
+#
+include
+<
+sys
+/
+sysctl
+.
+h
+>
 int32_t
 nsCocoaFeatures
 :

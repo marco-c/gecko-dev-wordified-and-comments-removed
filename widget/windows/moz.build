@@ -456,11 +456,6 @@ nsWinGesture
 cpp
 "
 "
-ProcInfo
-.
-cpp
-"
-"
 RemoteBackbuffer
 .
 cpp
