@@ -3421,6 +3421,12 @@ return
 }
 if
 (
+!
+this
+.
+searchMode
+&
+&
 result
 .
 heuristic
