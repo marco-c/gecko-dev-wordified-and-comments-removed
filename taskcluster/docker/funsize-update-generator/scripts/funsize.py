@@ -280,6 +280,17 @@ aarch64
 :
 [
 ]
+    
+"
+macos
+-
+x86_64
+-
+aarch64
+"
+:
+[
+]
 }
 def
 verify_signature
