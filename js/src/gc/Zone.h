@@ -1776,11 +1776,6 @@ args
 )
 ;
 }
-void
-beginSweepTypes
-(
-)
-;
 bool
 hasMarkedRealms
 (

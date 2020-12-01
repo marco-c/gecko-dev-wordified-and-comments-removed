@@ -89,7 +89,7 @@ NotActive
 ;
 gczeal
 (
-20
+21
 )
 ;
 startgc

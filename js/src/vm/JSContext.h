@@ -1638,16 +1638,6 @@ inline
 js
 :
 :
-LifoAlloc
-&
-typeLifoAlloc
-(
-)
-;
-inline
-js
-:
-:
 Handle
 <
 js
