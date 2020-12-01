@@ -385,7 +385,7 @@ onboard
 .
 maxShown
 "
-10
+60
 ]
 [
 "
@@ -395,7 +395,7 @@ onboard
 .
 maxShownPerSession
 "
-2
+20
 ]
 [
 "
