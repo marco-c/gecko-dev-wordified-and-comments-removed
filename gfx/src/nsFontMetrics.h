@@ -510,6 +510,16 @@ return
 mTextOrientation
 ;
 }
+bool
+ExplicitLanguage
+(
+)
+const
+{
+return
+mExplicitLanguage
+;
+}
 gfxFontGroup
 *
 GetThebesFontGroup
@@ -570,6 +580,9 @@ mP2A
 ;
 FontOrientation
 mOrientation
+;
+bool
+mExplicitLanguage
 ;
 bool
 mTextRunRTL

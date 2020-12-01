@@ -203,6 +203,9 @@ uint32_t
 aLength
 Script
 aScript
+nsAtom
+*
+aLanguage
 bool
 aVertical
 RoundingFlags
@@ -225,6 +228,7 @@ aText
 aOffset
 aLength
 aScript
+aLanguage
 aVertical
 aRounding
 aShapedText

@@ -821,6 +821,11 @@ const
 gfxFontStyle
 *
 aStyle
+nsAtom
+*
+aLanguage
+=
+nullptr
 )
 override
 ;

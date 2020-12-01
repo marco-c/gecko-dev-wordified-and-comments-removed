@@ -9732,6 +9732,9 @@ const
 gfxFontStyle
 *
 aStyle
+nsAtom
+*
+aLanguage
 )
 {
 FontFamily

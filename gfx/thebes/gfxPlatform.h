@@ -1385,6 +1385,11 @@ const
 gfxFontStyle
 *
 aStyle
+nsAtom
+*
+aLanguage
+bool
+aExplicitLanguage
 gfxTextPerfMetrics
 *
 aTextPerf

@@ -298,6 +298,9 @@ uint32_t
 aLength
 Script
 aScript
+nsAtom
+*
+aLanguage
 bool
 aVertical
 RoundingFlags
