@@ -314,9 +314,10 @@ KIND
 undef
 KIND
 LEGACY_LIMIT
-Marker
+MarkerData
 =
 LEGACY_LIMIT
+Marker
 UnresponsiveDurationMs
 CompactStack
 MODERN_LIMIT
