@@ -4995,6 +4995,8 @@ endString
 (
 )
 ;
+return
+;
 }
 MOZ_ASSERT
 (
