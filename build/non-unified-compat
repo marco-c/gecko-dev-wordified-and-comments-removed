@@ -204,6 +204,12 @@ fuzz
 /
 dom
 /
+media
+/
+gmp
+/
+dom
+/
 quota
 /
 dom
