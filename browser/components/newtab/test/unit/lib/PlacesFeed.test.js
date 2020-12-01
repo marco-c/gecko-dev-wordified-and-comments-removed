@@ -7253,12 +7253,6 @@ onEndUpdateBatch
 ;
 observer
 .
-onItemVisited
-(
-)
-;
-observer
-.
 onItemMoved
 (
 )
