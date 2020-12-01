@@ -2231,7 +2231,6 @@ None
 Pending
 Running
 Stopping
-Errored
 }
 ;
 Atomic
