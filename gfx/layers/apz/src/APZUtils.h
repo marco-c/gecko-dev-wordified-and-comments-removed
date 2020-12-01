@@ -156,13 +156,6 @@ b
 )
 ;
 }
-typedef
-EnumSet
-<
-ScrollDirection
->
-ScrollDirections
-;
 enum
 class
 ScrollSource

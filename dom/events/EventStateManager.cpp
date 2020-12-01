@@ -25932,10 +25932,10 @@ presShell
 >
 GetScrollableFrameToScroll
 (
-ScrollableDirection
+layers
 :
 :
-Either
+EitherScrollDirection
 )
 ;
 aEvent
