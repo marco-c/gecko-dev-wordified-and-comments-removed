@@ -1167,14 +1167,6 @@ aParams
 .
 mConfig
 ;
-DecoderDoctorDiagnostics
-*
-diagnostics
-=
-aParams
-.
-mDiagnostics
-;
 RefPtr
 <
 layers
@@ -1358,7 +1350,6 @@ params
 {
 *
 config
-diagnostics
 imageContainer
 &
 result

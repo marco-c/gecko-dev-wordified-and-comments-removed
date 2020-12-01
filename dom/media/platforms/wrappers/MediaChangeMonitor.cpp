@@ -15,13 +15,6 @@ h
 #
 include
 "
-DecoderDoctorDiagnostics
-.
-h
-"
-#
-include
-"
 H264
 .
 h
@@ -1411,9 +1404,6 @@ mLastError
 =
 CreateDecoder
 (
-aParams
-.
-mDiagnostics
 )
 ;
 mInConstructor
@@ -2265,9 +2255,6 @@ MediaChangeMonitor
 :
 CreateDecoder
 (
-DecoderDoctorDiagnostics
-*
-aDiagnostics
 )
 {
 MOZ_ASSERT
@@ -2331,7 +2318,6 @@ CreateVideoDecoder
 (
 {
 mCurrentConfig
-aDiagnostics
 mImageContainer
 mKnowsCompositor
 mGMPCrashHelper
@@ -2370,7 +2356,6 @@ CreateDecoder
 (
 {
 mCurrentConfig
-aDiagnostics
 mImageContainer
 mKnowsCompositor
 mGMPCrashHelper
@@ -2494,7 +2479,6 @@ rv
 =
 CreateDecoder
 (
-nullptr
 )
 ;
 if
