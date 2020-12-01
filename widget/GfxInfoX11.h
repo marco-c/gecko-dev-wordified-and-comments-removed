@@ -460,6 +460,12 @@ nsAutoCStringN
 >
 mDesktopEnvironment
 ;
+nsCString
+mSecondaryVendorId
+;
+nsCString
+mSecondaryDeviceId
+;
 struct
 ScreenInfo
 {
@@ -502,6 +508,9 @@ mIsWaylandDRM
 ;
 bool
 mIsXWayland
+;
+bool
+mHasMultipleGPUs
 ;
 void
 AddCrashReportAnnotations
