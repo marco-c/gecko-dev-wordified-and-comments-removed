@@ -1219,11 +1219,6 @@ horizontal
 "
 scrollbar
 -
-small
-"
-"
-scrollbar
--
 vertical
 "
 "
@@ -6671,11 +6666,6 @@ scrollbar
 scrollbar
 -
 horizontal
-"
-"
-scrollbar
--
-small
 "
 "
 scrollbar
@@ -15037,11 +15027,6 @@ scrollbar
 scrollbar
 -
 horizontal
-"
-"
-scrollbar
--
-small
 "
 "
 scrollbar

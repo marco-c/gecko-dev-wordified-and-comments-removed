@@ -7951,12 +7951,6 @@ case
 StyleAppearance
 :
 :
-ScrollbarSmall
-:
-case
-StyleAppearance
-:
-:
 ScrollbarVertical
 :
 case
