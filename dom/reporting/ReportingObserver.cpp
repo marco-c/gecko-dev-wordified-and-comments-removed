@@ -16,6 +16,17 @@ mozilla
 /
 dom
 /
+Report
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ReportingBinding
 .
 h

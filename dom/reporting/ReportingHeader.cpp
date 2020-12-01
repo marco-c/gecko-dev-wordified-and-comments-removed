@@ -65,6 +65,17 @@ include
 "
 mozilla
 /
+ipc
+/
+BackgroundUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 OriginAttributes
 .
 h
