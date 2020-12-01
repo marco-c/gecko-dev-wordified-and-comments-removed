@@ -295,17 +295,12 @@ NPEvent
 aPluginEvent
 )
 ;
-#
-ifdef
-NS_ENABLE_TSF
 static
 void
 OnKeyboardLayoutChanged
 (
 )
 ;
-#
-endif
 #
 ifdef
 DEBUG
@@ -392,9 +387,6 @@ nsWindow
 aWindow
 )
 ;
-#
-ifdef
-NS_ENABLE_TSF
 static
 decltype
 (
@@ -567,8 +559,6 @@ GetOnScreenKeyboardWindow
 (
 )
 ;
-#
-endif
 }
 ;
 }
