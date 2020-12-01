@@ -16,6 +16,14 @@ u32
 ;
 pub
 const
+SHA384_LENGTH
+:
+u32
+=
+48
+;
+pub
+const
 HASH_LENGTH_MAX
 :
 u32

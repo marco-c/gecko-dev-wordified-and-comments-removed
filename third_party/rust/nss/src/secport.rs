@@ -11,11 +11,6 @@ use
 std
 :
 :
-{
-convert
-:
-:
-TryInto
 os
 :
 :
@@ -23,7 +18,6 @@ raw
 :
 :
 c_void
-}
 ;
 pub
 fn
@@ -99,14 +93,6 @@ c_void
 a
 .
 len
-(
-)
-.
-try_into
-(
-)
-.
-unwrap
 (
 )
 )
