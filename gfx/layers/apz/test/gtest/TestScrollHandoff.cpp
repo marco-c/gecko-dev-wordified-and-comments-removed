@@ -2466,9 +2466,6 @@ AssertStateIsFling
 }
 #
 endif
-#
-ifndef
-MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZScrollHandoffTester
@@ -2629,8 +2626,6 @@ AssertStateIsFling
 ;
 }
 #
-endif
-#
 ifndef
 MOZ_WIDGET_ANDROID
 TEST_F
@@ -2711,9 +2706,6 @@ y
 }
 #
 endif
-#
-ifndef
-MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZScrollHandoffTester
@@ -2782,11 +2774,6 @@ AssertStateIsReset
 )
 ;
 }
-#
-endif
-#
-ifndef
-MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZScrollHandoffTester
@@ -2833,10 +2820,11 @@ TestFlingAcceleration
 ;
 }
 #
-endif
-#
 ifndef
 MOZ_WIDGET_ANDROID
+#
+if
+0
 TEST_F
 (
 APZScrollHandoffTester
@@ -2882,6 +2870,8 @@ TestFlingAcceleration
 )
 ;
 }
+#
+endif
 #
 endif
 TEST_F
@@ -2995,9 +2985,6 @@ y
 )
 ;
 }
-#
-ifndef
-MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZScrollHandoffTester
@@ -3150,8 +3137,6 @@ y
 )
 ;
 }
-#
-endif
 TEST_F
 (
 APZScrollHandoffTester

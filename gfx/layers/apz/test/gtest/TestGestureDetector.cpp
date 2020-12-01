@@ -1779,9 +1779,6 @@ AssertStateIsReset
 }
 }
 ;
-#
-ifndef
-MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZCFlingStopTester
@@ -1806,8 +1803,6 @@ false
 )
 ;
 }
-#
-endif
 TEST_F
 (
 APZCFlingStopTester
@@ -1832,9 +1827,6 @@ true
 )
 ;
 }
-#
-ifndef
-MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZCFlingStopTester
@@ -1859,11 +1851,6 @@ false
 )
 ;
 }
-#
-endif
-#
-ifndef
-MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZCFlingStopTester
@@ -1888,8 +1875,6 @@ true
 )
 ;
 }
-#
-endif
 TEST_F
 (
 APZCGestureDetectorTester
