@@ -1139,7 +1139,7 @@ build
 -
 platform
 :
-win64
+win32
 /
 debug
 test
@@ -1174,7 +1174,7 @@ build
 -
 platform
 :
-win64
+win32
 /
 opt
 test
