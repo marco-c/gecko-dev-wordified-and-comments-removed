@@ -1581,7 +1581,10 @@ aOriginStack
 void
 SetSource
 (
-UniqueProfilerBacktrace
+UniquePtr
+<
+ProfileChunkedBuffer
+>
 aSource
 )
 ;

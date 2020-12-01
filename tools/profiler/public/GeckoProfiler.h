@@ -3177,7 +3177,16 @@ nsIURI
 aRedirectURI
 =
 nullptr
-UniqueProfilerBacktrace
+mozilla
+:
+:
+UniquePtr
+<
+mozilla
+:
+:
+ProfileChunkedBuffer
+>
 aSource
 =
 nullptr
