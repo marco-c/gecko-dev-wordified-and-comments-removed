@@ -229,13 +229,13 @@ minute
 "
 second
 "
-"
-timeZoneName
-"
 .
 .
 .
 fractionalSecondDigits
+"
+timeZoneName
+"
 "
 formatMatcher
 "
