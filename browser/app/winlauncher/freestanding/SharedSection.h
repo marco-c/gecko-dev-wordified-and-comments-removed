@@ -172,6 +172,15 @@ final
 Kernel32ExportsSolver
 mK32Exports
 ;
+uint32_t
+mModulePathArrayLength
+;
+uint32_t
+mModulePathArray
+[
+1
+]
+;
 Layout
 (
 )
