@@ -7,6 +7,13 @@ __MOZ_WAYLAND_DISPLAY_H__
 #
 include
 "
+DMABufLibWrapper
+.
+h
+"
+#
+include
+"
 base
 /
 message_loop

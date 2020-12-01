@@ -1046,6 +1046,10 @@ WaylandDisplayGetWLDisplay
 ;
 mRegistry
 =
+(
+void
+*
+)
 wl_display_get_registry
 (
 display
@@ -1053,6 +1057,10 @@ display
 ;
 wl_registry_add_listener
 (
+(
+wl_registry
+*
+)
 mRegistry
 &
 registry_listener
@@ -1086,6 +1094,10 @@ mRegistry
 {
 wl_registry_destroy
 (
+(
+wl_registry
+*
+)
 mRegistry
 )
 ;
