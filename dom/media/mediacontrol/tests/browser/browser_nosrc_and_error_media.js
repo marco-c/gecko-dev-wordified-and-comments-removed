@@ -285,6 +285,14 @@ close
 (
 )
 ;
+await
+SimpleTest
+.
+promiseFocus
+(
+window
+)
+;
 }
 }
 )
