@@ -1910,7 +1910,7 @@ Register
 scratch
 )
 {
-setupABICall
+setupNativeABICall
 (
 )
 ;

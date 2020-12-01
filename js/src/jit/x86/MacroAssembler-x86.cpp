@@ -1913,7 +1913,7 @@ Register
 scratch
 )
 {
-setupABICall
+setupNativeABICall
 (
 )
 ;
