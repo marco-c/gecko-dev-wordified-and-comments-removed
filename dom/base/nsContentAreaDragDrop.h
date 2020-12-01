@@ -26,9 +26,6 @@ nsIContentSecurityPolicy
 h
 "
 class
-nsICookieJarSettings
-;
-class
 nsPIDOMWindowOuter
 ;
 class
@@ -108,10 +105,6 @@ nsIContentSecurityPolicy
 *
 *
 aCsp
-nsICookieJarSettings
-*
-*
-aCookieJarSettings
 )
 ;
 }
@@ -143,9 +136,6 @@ inSourceURI
 nsIPrincipal
 *
 inTriggeringPrincipal
-nsICookieJarSettings
-*
-inCookieJarSettings
 nsIFile
 *
 inDestFile

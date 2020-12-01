@@ -5,18 +5,10 @@ nsISupports
 .
 idl
 "
-#
-include
-"
-nsISerializable
-.
-idl
-"
 interface
 nsIPrincipal
 ;
 [
-scriptable
 builtinclass
 uuid
 (
@@ -34,7 +26,7 @@ ba2a
 interface
 nsICookieJarSettings
 :
-nsISerializable
+nsISupports
 {
 [
 infallible

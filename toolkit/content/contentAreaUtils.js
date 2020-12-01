@@ -303,7 +303,6 @@ aShouldBypassCache
 aFilePickerTitleKey
 null
 aReferrerInfo
-null
 aSourceDocument
 aSkipPrompt
 null
@@ -465,9 +464,6 @@ null
 document
 .
 referrerInfo
-document
-.
-cookieJarSettings
 document
 aSkipPrompt
 document
@@ -723,7 +719,6 @@ aShouldBypassCache
 aFilePickerTitleKey
 aChosenData
 aReferrerInfo
-aCookieJarSettings
 aInitiatingDocument
 aSkipPrompt
 aCacheKey
@@ -1110,9 +1105,6 @@ bypassCache
 :
 aShouldBypassCache
 contentPolicyType
-cookieJarSettings
-:
-aCookieJarSettings
 isPrivate
 }
 ;
@@ -1419,9 +1411,6 @@ sourceCacheKey
 persistArgs
 .
 sourceReferrerInfo
-persistArgs
-.
-cookieJarSettings
 persistArgs
 .
 sourcePostData

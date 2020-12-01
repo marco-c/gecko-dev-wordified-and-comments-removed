@@ -210,9 +210,6 @@ aCacheKey
 nsIReferrerInfo
 *
 aReferrerInfo
-nsICookieJarSettings
-*
-aCookieJarSettings
 nsIInputStream
 *
 aPostData

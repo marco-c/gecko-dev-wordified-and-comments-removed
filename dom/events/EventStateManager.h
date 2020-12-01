@@ -89,9 +89,6 @@ class
 nsIContent
 ;
 class
-nsICookieJarSettings
-;
-class
 nsIDocShell
 ;
 class
@@ -1960,10 +1957,6 @@ nsIContentSecurityPolicy
 *
 *
 aCsp
-nsICookieJarSettings
-*
-*
-aCookieJarSettings
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -2005,9 +1998,6 @@ aPrincipal
 nsIContentSecurityPolicy
 *
 aCsp
-nsICookieJarSettings
-*
-aCookieJarSettings
 )
 ;
 bool

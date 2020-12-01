@@ -135,9 +135,6 @@ PBackgroundSharedTypes
 include
 IPCStream
 ;
-include
-NeckoChannelParams
-;
 using
 refcounted
 class
@@ -223,9 +220,6 @@ title
 ;
 nsIReferrerInfo
 referrerInfo
-;
-CookieJarSettingsArgs
-cookieJarSettings
 ;
 nsString
 contentDisposition

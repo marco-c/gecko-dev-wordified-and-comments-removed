@@ -542,12 +542,6 @@ attribute
 DOMString
 documentTitle
 ;
-readonly
-attribute
-nsICookieJarSettings
-?
-cookieJarSettings
-;
 /
 /
 Bit

@@ -126,9 +126,6 @@ Node
 webidl
 Selection
 ;
-interface
-nsICookieJarSettings
-;
 %
 {
 C
@@ -404,9 +401,6 @@ aPrincipal
 in
 nsIContentSecurityPolicy
 aCsp
-in
-nsICookieJarSettings
-aCookieJarSettings
 in
 nsIArray
 aTransferables
@@ -721,9 +715,6 @@ in
 nsIContentSecurityPolicy
 aCsp
 in
-nsICookieJarSettings
-aCookieJarSettings
-in
 nsIArray
 aTransferableArray
 in
@@ -791,9 +782,6 @@ aPrincipal
 in
 nsIContentSecurityPolicy
 aCsp
-in
-nsICookieJarSettings
-aCookieJarSettings
 in
 nsIArray
 aTransferableArray
@@ -883,9 +871,6 @@ aPrincipal
 in
 nsIContentSecurityPolicy
 aCsp
-in
-nsICookieJarSettings
-aCookieJarSettings
 in
 nsIArray
 aTransferableArray

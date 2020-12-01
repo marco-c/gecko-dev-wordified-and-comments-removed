@@ -51,9 +51,6 @@ DataSurfaceHelpers
 .
 h
 "
-class
-nsICookieJarSettings
-;
 namespace
 mozilla
 {
@@ -97,9 +94,6 @@ aPrincipal
 nsIContentSecurityPolicy
 *
 aCsp
-nsICookieJarSettings
-*
-aCookieJarSettings
 )
 ;
 void
@@ -164,10 +158,6 @@ nsIContentSecurityPolicy
 *
 *
 aCsp
-nsICookieJarSettings
-*
-*
-aCookieJarSettings
 )
 ;
 private
@@ -205,12 +195,6 @@ nsCOMPtr
 nsIContentSecurityPolicy
 >
 mCsp
-;
-nsCOMPtr
-<
-nsICookieJarSettings
->
-mCookieJarSettings
 ;
 RefPtr
 <
