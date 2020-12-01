@@ -2944,13 +2944,7 @@ return
 return
 IntrinsicSize
 (
-CSSPixel
-:
-:
-ToAppUnits
-(
-kFallbackIntrinsicSizeInPixels
-)
+kFallbackIntrinsicSize
 )
 ;
 }
