@@ -258,6 +258,10 @@ Shutdown
 {
 MOZ_ASSERT
 (
+!
+mThread
+|
+|
 mThread
 -
 >

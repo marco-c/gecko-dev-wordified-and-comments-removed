@@ -32,6 +32,13 @@ RemoteDecoderParent
 RemoteDecoderManagerParent
 *
 aParent
+const
+CreateDecoderParams
+:
+:
+OptionSet
+&
+aOptions
 nsISerialEventTarget
 *
 aManagerThread
@@ -47,6 +54,10 @@ this
 mParent
 (
 aParent
+)
+mOptions
+(
+aOptions
 )
 mDecodeTaskQueue
 (
