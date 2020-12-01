@@ -406,7 +406,7 @@ bool
 gfxFT2FontEntryBase
 :
 :
-HasFontTable
+FaceHasTable
 (
 SharedFTFace
 *
@@ -429,7 +429,7 @@ nsresult
 gfxFT2FontEntryBase
 :
 :
-CopyFontTable
+CopyFaceTable
 (
 SharedFTFace
 *

@@ -2344,7 +2344,7 @@ return
 gfxFT2FontEntryBase
 :
 :
-HasFontTable
+FaceHasTable
 (
 GetFTFace
 (
@@ -4513,7 +4513,7 @@ return
 gfxFT2FontEntryBase
 :
 :
-CopyFontTable
+CopyFaceTable
 (
 GetFTFace
 (
