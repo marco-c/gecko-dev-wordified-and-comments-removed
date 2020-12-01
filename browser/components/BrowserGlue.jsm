@@ -13140,6 +13140,13 @@ task
 =
 >
 {
+if
+(
+AppConstants
+.
+MOZ_GLEAN
+)
+{
 let
 FOG
 =
@@ -13171,6 +13178,7 @@ initializeFOG
 (
 )
 ;
+}
 }
 }
 {

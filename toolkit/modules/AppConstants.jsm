@@ -889,6 +889,17 @@ else
 true
 #
 endif
+MOZ_GLEAN
+:
+#
+ifdef
+MOZ_GLEAN
+true
+#
+else
+false
+#
+endif
 }
 )
 ;
