@@ -199,6 +199,7 @@ h
 "
 ;
 using
+struct
 mozilla
 :
 :

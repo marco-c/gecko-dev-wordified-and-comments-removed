@@ -336,10 +336,6 @@ VariantTag
 namespace
 mozilla
 {
-typedef
-uintptr_t
-WindowsHandle
-;
 struct
 void_t
 {

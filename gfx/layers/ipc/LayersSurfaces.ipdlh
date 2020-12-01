@@ -127,9 +127,11 @@ mozilla
 WindowsHandle
 from
 "
+mozilla
+/
 ipc
 /
-IPCMessageUtils
+IPCTypes
 .
 h
 "

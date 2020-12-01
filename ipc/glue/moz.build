@@ -159,6 +159,11 @@ IPCStreamUtils
 h
 "
 "
+IPCTypes
+.
+h
+"
+"
 IPDLParamTraits
 .
 h
