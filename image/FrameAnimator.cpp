@@ -1280,6 +1280,14 @@ Reset
 (
 )
 ;
+aState
+.
+UpdateStateInternal
+(
+result
+mSize
+)
+;
 }
 RefreshResult
 FrameAnimator
