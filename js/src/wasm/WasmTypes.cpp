@@ -236,10 +236,7 @@ static_assert
 (
 HugeMappedSize
 >
-ArrayBufferObject
-:
-:
-MaxBufferByteLength
+MaxMemory32Bytes
 "
 Normal
 array

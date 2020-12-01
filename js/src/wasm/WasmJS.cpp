@@ -13033,10 +13033,7 @@ ifdef
 WASM_SUPPORTS_HUGE_MEMORY
 static_assert
 (
-ArrayBufferObject
-:
-:
-MaxBufferByteLength
+MaxMemory32Bytes
 <
 HugeMappedSize
 "
