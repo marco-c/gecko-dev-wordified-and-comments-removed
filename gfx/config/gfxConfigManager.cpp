@@ -235,9 +235,6 @@ gfx_webrender_force_angle_AtStartup
 (
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 mWrForceAngleNoGPUProcess
 =
 StaticPrefs
@@ -247,8 +244,6 @@ gfx_webrender_enabled_no_gpu_process_with_angle_win_AtStartup
 (
 )
 ;
-#
-endif
 mWrDCompWinEnabled
 =
 Preferences
