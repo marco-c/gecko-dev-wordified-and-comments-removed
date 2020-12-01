@@ -178,6 +178,8 @@ windows10
 64
 -
 ccov
+-
+qr
 /
 opt
 :
@@ -3655,6 +3657,18 @@ webrender
 -
 sw
 '
+]
+windows10
+-
+64
+-
+ccov
+-
+qr
+/
+opt
+:
+[
 ]
 default
 :

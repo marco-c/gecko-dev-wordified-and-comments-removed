@@ -636,6 +636,8 @@ windows10
 64
 -
 ccov
+-
+qr
 /
 opt
 :
@@ -1037,6 +1039,8 @@ windows10
 64
 -
 ccov
+-
+qr
 /
 opt
 :
