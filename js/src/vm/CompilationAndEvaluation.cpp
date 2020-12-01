@@ -1130,6 +1130,15 @@ compilationState
 cx
 allocScope
 options
+compilationInfo
+.
+get
+(
+)
+.
+stencil
+.
+parserAtoms
 )
 ;
 JS

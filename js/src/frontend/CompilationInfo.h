@@ -749,6 +749,10 @@ LifoAllocScope
 &
 allocScope
 ;
+ParserAtomsTable
+&
+parserAtoms
+;
 CompilationState
 (
 JSContext
@@ -764,6 +768,9 @@ JS
 ReadOnlyCompileOptions
 &
 options
+ParserAtomsTable
+&
+parserAtoms
 Scope
 *
 enclosingScope
@@ -797,6 +804,10 @@ cx
 allocScope
 (
 alloc
+)
+parserAtoms
+(
+parserAtoms
 )
 {
 }
