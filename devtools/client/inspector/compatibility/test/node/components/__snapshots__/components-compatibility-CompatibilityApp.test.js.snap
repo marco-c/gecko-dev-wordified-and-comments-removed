@@ -129,6 +129,13 @@ Array
 [
 <
 IssuePane
+dispatch
+=
+{
+[
+Function
+]
+}
 issues
 =
 {
@@ -321,6 +328,13 @@ Array
 [
 <
 IssuePane
+dispatch
+=
+{
+[
+Function
+]
+}
 issues
 =
 {
