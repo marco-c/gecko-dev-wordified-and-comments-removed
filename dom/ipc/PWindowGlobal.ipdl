@@ -349,6 +349,11 @@ MaybeDiscardedBrowsingContext
 aNode
 )
 ;
+async
+ResetScalingZoom
+(
+)
+;
 both
 :
 async
