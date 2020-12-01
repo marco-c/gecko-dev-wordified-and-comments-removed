@@ -7,8 +7,7 @@ const
 {
 pmmIsProfilerActive
 pmmStartProfiler
-pmmLoadFrameScripts
-pmmClearFrameScripts
+pmmInitWithBrowser
 }
 =
 require
@@ -39,7 +38,7 @@ function
 (
 )
 {
-pmmLoadFrameScripts
+pmmInitWithBrowser
 (
 gBrowser
 )
@@ -222,10 +221,6 @@ automatically
 stopped
 .
 "
-)
-;
-pmmClearFrameScripts
-(
 )
 ;
 gBrowser

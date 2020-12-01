@@ -164,10 +164,6 @@ addTab
 url
 )
 ;
-loadFrameScriptUtils
-(
-)
-;
 const
 panel
 =

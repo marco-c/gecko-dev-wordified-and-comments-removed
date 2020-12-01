@@ -49,9 +49,8 @@ prefs
 ;
 const
 {
-pmmLoadFrameScripts
+pmmInitWithBrowser
 pmmStopProfiler
-pmmClearFrameScripts
 }
 =
 require
@@ -178,7 +177,7 @@ function
 (
 )
 {
-pmmLoadFrameScripts
+pmmInitWithBrowser
 (
 gBrowser
 )
@@ -432,10 +431,6 @@ await
 teardownToolboxAndRemoveTab
 (
 panel
-)
-;
-pmmClearFrameScripts
-(
 )
 ;
 }
