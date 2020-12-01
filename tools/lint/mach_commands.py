@@ -454,6 +454,19 @@ insert
 here
 )
         
+lintargs
+[
+"
+virtualenv_bin_path
+"
+]
+=
+self
+.
+virtualenv_manager
+.
+bin_path
+        
 for
 path
 in
