@@ -94,9 +94,6 @@ asrouter
 docs
 /
 index
-search
-/
-index
 base
 /
 sslerrorreport
