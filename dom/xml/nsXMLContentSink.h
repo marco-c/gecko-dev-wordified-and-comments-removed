@@ -413,6 +413,12 @@ char16_t
 *
 *
 aNode
+mozilla
+:
+:
+dom
+:
+:
 Element
 *
 aElement

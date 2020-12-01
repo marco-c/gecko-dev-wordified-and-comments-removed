@@ -109,6 +109,13 @@ h
 #
 include
 "
+nsIDocShell
+.
+h
+"
+#
+include
+"
 nsIScriptContext
 .
 h
