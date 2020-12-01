@@ -178,6 +178,9 @@ GL_APPLE_vertex_array_object
 GL_ARB_blend_func_extended
 "
 "
+GL_ARB_buffer_storage
+"
+"
 GL_ARB_copy_image
 "
 "
@@ -263,6 +266,9 @@ let
 gles_extensions
 =
 [
+"
+GL_EXT_buffer_storage
+"
 "
 GL_EXT_copy_image
 "
