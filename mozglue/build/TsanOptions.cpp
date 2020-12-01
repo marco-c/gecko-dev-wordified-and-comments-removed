@@ -737,16 +737,6 @@ n
 "
 race
 :
-TemporaryIPCBlobParent
-:
-:
-CreateAndShareFile
-\
-n
-"
-"
-race
-:
 makeOwnBaseShape
 \
 n
