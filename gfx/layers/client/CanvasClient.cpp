@@ -448,6 +448,8 @@ BackendSelector
 :
 :
 Canvas
+mTextureFlags
+|
 aFlags
 )
 ;
@@ -461,6 +463,8 @@ BackendSelector
 :
 :
 Canvas
+mTextureFlags
+|
 aFlags
 )
 ;
