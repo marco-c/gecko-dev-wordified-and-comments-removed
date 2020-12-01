@@ -1,15 +1,14 @@
 import
-datetime
-import
-json
-import
 mimetypes
 import
 os
+from
+wptserve
+.
+utils
 import
-sys
-import
-time
+isomorphic_decode
+isomorphic_encode
 def
 main
 (
@@ -140,6 +139,7 @@ None
 )
 !
 =
+b
 "
 True
 "
@@ -153,6 +153,8 @@ lock
             
 address_key
 =
+isomorphic_encode
+(
 str
 (
 request
@@ -160,6 +162,7 @@ request
 client_address
 )
 +
+u
 "
 |
 "
@@ -172,6 +175,7 @@ url_parts
 .
 port
 )
+)
             
 server_state
 =
@@ -183,6 +187,7 @@ uuid
 )
 or
 {
+b
 "
 test_failed
 "
@@ -206,6 +211,7 @@ partition_id
                 
 server_state
 [
+b
 "
 test_failed
 "
@@ -224,6 +230,7 @@ test_failed
 =
 server_state
 [
+b
 "
 test_failed
 "
@@ -319,7 +326,7 @@ if
 dispatch
 =
 =
-u
+b
 "
 fetch_file
 "
@@ -338,7 +345,7 @@ if
 dispatch
 =
 =
-u
+b
 "
 check_partition
 "
@@ -390,7 +397,7 @@ if
 dispatch
 =
 =
-u
+b
 "
 clean_up
 "
@@ -406,7 +413,7 @@ uuid
 if
 test_failed
 :
-          
+            
 return
 simple_response
 (
@@ -574,6 +581,7 @@ status_message
 body
 content_type
 =
+b
 "
 text
 /
@@ -701,7 +709,10 @@ path
 .
 realpath
 (
+isomorphic_decode
+(
 __file__
+)
 )
     
 base_path
@@ -753,7 +764,10 @@ path
 join
 (
 base_path
+isomorphic_decode
+(
 rel_path
+)
 )
 )
     
@@ -804,6 +818,7 @@ if
 sandbox
 =
 =
+b
 "
 true
 "
@@ -823,6 +838,7 @@ Security
 -
 Policy
 "
+b
 "
 sandbox
 allow
@@ -839,7 +855,7 @@ path
 mode
 =
 "
-r
+rb
 "
 )
     
@@ -859,26 +875,35 @@ close
     
 subresource_path
 =
+b
 "
 /
 "
 +
+isomorphic_encode
+(
 os
 .
 path
 .
 relpath
 (
+isomorphic_decode
+(
 __file__
+)
 base_path
+)
 )
 .
 replace
 (
+b
 '
 \
 \
 '
+b
 '
 /
 '
@@ -886,6 +911,7 @@ replace
     
 subresource_params
 =
+b
 "
 ?
 partition_id
@@ -894,6 +920,7 @@ partition_id
 +
 partition_id
 +
+b
 "
 &
 uuid
@@ -902,6 +929,7 @@ uuid
 +
 uuid
 +
+b
 "
 &
 subresource_origin
@@ -910,6 +938,7 @@ subresource_origin
 +
 subresource_origin
 +
+b
 "
 &
 include_credentials
@@ -924,6 +953,7 @@ body
 .
 replace
 (
+b
 "
 SUBRESOURCE_PREFIX
 :
@@ -960,6 +990,7 @@ body
 .
 replace
 (
+b
 "
 OTHER_PREFIX
 :
