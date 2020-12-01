@@ -3410,17 +3410,6 @@ ipc
 :
 :
 IPCResult
-RecvNotifyCompositorTransaction
-(
-)
-;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
 RecvRemoteIsReadyToHandleInputEvents
 (
 )

@@ -2166,11 +2166,6 @@ nscolor
 aColor
 )
 ;
-void
-NotifyPainted
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 mozilla
@@ -3796,9 +3791,6 @@ mEffectsInfo
 ;
 bool
 mDidFakeShow
-;
-bool
-mNotified
 ;
 bool
 mTriedBrowserInit

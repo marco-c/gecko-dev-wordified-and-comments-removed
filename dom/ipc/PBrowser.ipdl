@@ -2197,11 +2197,6 @@ RemotePaintIsReady
 )
 ;
 async
-NotifyCompositorTransaction
-(
-)
-;
-async
 RemoteIsReadyToHandleInputEvents
 (
 )
