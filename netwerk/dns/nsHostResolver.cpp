@@ -4634,6 +4634,17 @@ addresses
 PRNetAddr
 prAddr
 ;
+memset
+(
+&
+prAddr
+0
+sizeof
+(
+prAddr
+)
+)
+;
 if
 (
 key
