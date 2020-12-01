@@ -18361,8 +18361,6 @@ s
 "
 %
 (
-self
-.
 descriptor
 .
 name
