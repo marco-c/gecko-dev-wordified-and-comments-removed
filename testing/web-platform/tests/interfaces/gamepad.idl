@@ -54,6 +54,7 @@ gamepad
 Exposed
 =
 Window
+SecureContext
 ]
 interface
 Gamepad
@@ -105,6 +106,7 @@ buttons
 Exposed
 =
 Window
+SecureContext
 ]
 interface
 GamepadButton
@@ -160,6 +162,7 @@ getGamepads
 Exposed
 =
 Window
+SecureContext
 ]
 interface
 GamepadEvent
