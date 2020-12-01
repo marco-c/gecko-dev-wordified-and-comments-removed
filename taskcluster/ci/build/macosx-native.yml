@@ -388,7 +388,7 @@ macosx64
 -
 rust
 -
-nightly
+beta
 optimization
 :
 skip

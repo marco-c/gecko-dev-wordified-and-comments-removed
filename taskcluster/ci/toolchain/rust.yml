@@ -1238,7 +1238,7 @@ macosx64
 -
 rust
 -
-nightly
+beta
 :
 treeherder
 :
@@ -1248,7 +1248,7 @@ TM
 (
 rust
 -
-nightly
+beta
 )
 run
 :
@@ -1261,13 +1261,13 @@ arguments
 channel
 '
 '
-nightly
+beta
 -
 2020
 -
 11
 -
-09
+18
 '
 '
 -
