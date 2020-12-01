@@ -215,6 +215,7 @@ Unknown
 TranspiledCacheIR
 SpeculativePhi
 TypePolicy
+LICM
 Inevitable
 DuringVMCall
 TooManyArguments
@@ -330,6 +331,17 @@ TypePolicy
 return
 "
 TypePolicy
+"
+;
+case
+BailoutKind
+:
+:
+LICM
+:
+return
+"
+LICM
 "
 ;
 case

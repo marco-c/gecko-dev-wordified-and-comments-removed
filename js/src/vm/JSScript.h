@@ -6911,8 +6911,8 @@ FailedShapeGuard
 )
 MUTABLE_FLAG_GETTER_SETTER
 (
-hadFrequentBailouts
-HadFrequentBailouts
+hadLICMBailout
+HadLICMBailout
 )
 MUTABLE_FLAG_GETTER_SETTER
 (

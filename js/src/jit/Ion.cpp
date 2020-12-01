@@ -6723,7 +6723,7 @@ outerInfo
 (
 )
 .
-hadFrequentBailouts
+hadLICMBailout
 (
 )
 )
