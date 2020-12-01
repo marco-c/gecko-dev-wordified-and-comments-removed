@@ -188,16 +188,6 @@ PRemoteDecoderManager
 parent
 :
 async
-Construct
-(
-)
-returns
-(
-MediaResult
-result
-)
-;
-async
 Init
 (
 )

@@ -12,6 +12,13 @@ functional
 #
 include
 "
+IRemoteDecoderChild
+.
+h
+"
+#
+include
+"
 mozilla
 /
 PRemoteDecoderChild
@@ -58,6 +65,8 @@ RemoteDecoderChild
 >
 public
 PRemoteDecoderChild
+public
+IRemoteDecoderChild
 {
 friend
 class
@@ -65,11 +74,6 @@ PRemoteDecoderChild
 ;
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-RemoteDecoderChild
-)
-;
 explicit
 RemoteDecoderChild
 (
@@ -97,6 +101,7 @@ InitPromise
 Init
 (
 )
+override
 ;
 RefPtr
 <
@@ -118,6 +123,7 @@ MediaRawData
 &
 aSamples
 )
+override
 ;
 RefPtr
 <
@@ -129,6 +135,7 @@ DecodePromise
 Drain
 (
 )
+override
 ;
 RefPtr
 <
@@ -140,6 +147,7 @@ FlushPromise
 Flush
 (
 )
+override
 ;
 RefPtr
 <
@@ -151,6 +159,7 @@ ShutdownPromise
 Shutdown
 (
 )
+override
 ;
 bool
 IsHardwareAccelerated
@@ -160,12 +169,14 @@ nsACString
 aFailureReason
 )
 const
+override
 ;
 nsCString
 GetDescriptionName
 (
 )
 const
+override
 ;
 void
 SetSeekThreshold
@@ -178,6 +189,7 @@ TimeUnit
 &
 aTime
 )
+override
 ;
 MediaDataDecoder
 :
@@ -187,11 +199,13 @@ NeedsConversion
 (
 )
 const
+override
 ;
 void
 DestroyIPDL
 (
 )
+override
 ;
 void
 IPDLActorDestroyed
@@ -211,6 +225,8 @@ virtual
 RemoteDecoderChild
 (
 )
+=
+default
 ;
 void
 AssertOnManagerThread

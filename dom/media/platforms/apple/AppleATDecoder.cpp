@@ -578,10 +578,6 @@ Shutdown
 {
 MOZ_ASSERT
 (
-!
-mThread
-|
-|
 mThread
 -
 >
@@ -615,10 +611,6 @@ ProcessShutdown
 {
 MOZ_ASSERT
 (
-!
-mThread
-|
-|
 mThread
 -
 >

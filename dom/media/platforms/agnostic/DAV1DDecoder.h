@@ -192,6 +192,7 @@ nullptr
 ;
 const
 VideoInfo
+&
 mInfo
 ;
 const

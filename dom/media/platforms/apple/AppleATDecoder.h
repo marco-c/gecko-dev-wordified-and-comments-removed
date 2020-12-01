@@ -141,6 +141,7 @@ _ns
 }
 const
 AudioInfo
+&
 mConfig
 ;
 nsTArray

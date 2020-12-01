@@ -30,6 +30,11 @@ mozilla
 =
 [
 "
+IRemoteDecoderChild
+.
+h
+"
+"
 RDDChild
 .
 h

@@ -72,16 +72,6 @@ thread
 )
 ;
 }
-RemoteDecoderChild
-:
-:
-~
-RemoteDecoderChild
-(
-)
-=
-default
-;
 void
 RemoteDecoderChild
 :

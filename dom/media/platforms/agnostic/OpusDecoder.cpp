@@ -211,6 +211,16 @@ OpusDataDecoder
 (
 )
 {
+MOZ_ASSERT
+(
+mThread
+-
+>
+IsOnCurrentThread
+(
+)
+)
+;
 if
 (
 mOpusDecoder
@@ -240,10 +250,6 @@ Shutdown
 {
 MOZ_ASSERT
 (
-!
-mThread
-|
-|
 mThread
 -
 >

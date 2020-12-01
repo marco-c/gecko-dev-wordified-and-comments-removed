@@ -258,10 +258,6 @@ const
 {
 MOZ_ASSERT
 (
-!
-mThread
-|
-|
 mThread
 -
 >

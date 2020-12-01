@@ -174,6 +174,7 @@ aLength
 ;
 const
 AudioInfo
+&
 mInfo
 ;
 nsCOMPtr
