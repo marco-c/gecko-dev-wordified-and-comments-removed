@@ -137,6 +137,17 @@ include
 "
 mozilla
 /
+ipc
+/
+ProtocolUtilsFwd
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LinkedList
 .
 h

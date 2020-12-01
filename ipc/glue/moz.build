@@ -199,6 +199,11 @@ ProtocolUtils
 h
 "
 "
+ProtocolUtilsFwd
+.
+h
+"
+"
 ScopedXREEmbed
 .
 h
