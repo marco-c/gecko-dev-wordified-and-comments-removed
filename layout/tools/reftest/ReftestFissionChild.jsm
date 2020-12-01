@@ -797,6 +797,13 @@ e
 }
 }
 }
+if
+(
+this
+.
+contentWindow
+)
+{
 flushWindow
 (
 this
@@ -804,6 +811,7 @@ this
 contentWindow
 )
 ;
+}
 if
 (
 anyPendingPaintsGeneratedInDescendants
