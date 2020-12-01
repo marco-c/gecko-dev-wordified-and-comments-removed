@@ -2354,13 +2354,6 @@ get_target_rect
 )
 .
 0
-.
-inner_rect
-(
-task_info
-.
-padding
-)
 ;
 self
 .
@@ -3666,13 +3659,6 @@ target_rect
 target_rect
 .
 0
-.
-inner_rect
-(
-task_info
-.
-padding
-)
 }
 )
 ;
