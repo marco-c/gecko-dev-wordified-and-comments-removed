@@ -308,12 +308,10 @@ DEBUG
 bool
 InDriverIteration
 (
-const
 GraphDriver
 *
 aDriver
 )
-const
 override
 ;
 #
@@ -428,7 +426,7 @@ IterationResult
 OneIteration
 (
 GraphTime
-aStateTime
+aStateEnd
 GraphTime
 aIterationEnd
 AudioMixer
@@ -441,7 +439,7 @@ IterationResult
 OneIterationImpl
 (
 GraphTime
-aStateTime
+aStateEnd
 GraphTime
 aIterationEnd
 AudioMixer
