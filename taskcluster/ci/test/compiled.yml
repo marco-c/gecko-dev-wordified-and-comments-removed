@@ -562,15 +562,6 @@ windows10
 -
 ccov
 /
-debug
-:
-8
-windows10
--
-64
--
-ccov
-/
 opt
 :
 8
