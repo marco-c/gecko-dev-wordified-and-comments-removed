@@ -2468,6 +2468,14 @@ rv
 rv
 )
 ;
+if
+(
+mPrivateBrowsingId
+=
+=
+0
+)
+{
 rv
 =
 TryJournalMode
@@ -2480,6 +2488,7 @@ rv
 rv
 )
 ;
+}
 return
 NS_OK
 ;
