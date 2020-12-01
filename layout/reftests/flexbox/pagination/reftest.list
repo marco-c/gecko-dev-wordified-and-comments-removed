@@ -2079,7 +2079,6 @@ rl
 ref
 .
 html
-fails
 =
 =
 flexbox
@@ -2110,9 +2109,6 @@ rl
 ref
 .
 html
-#
-Bug
-1674774
 =
 =
 flexbox
@@ -4145,7 +4141,6 @@ rl
 ref
 .
 html
-fails
 =
 =
 flexbox
@@ -4176,9 +4171,6 @@ rl
 ref
 .
 html
-#
-Bug
-1674774
 #
 Tests
 for
