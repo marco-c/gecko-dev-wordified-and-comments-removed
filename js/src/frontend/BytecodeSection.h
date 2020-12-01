@@ -303,6 +303,13 @@ length
 )
 )
 ;
+atom
+-
+>
+markUsedByStencil
+(
+)
+;
 if
 (
 !

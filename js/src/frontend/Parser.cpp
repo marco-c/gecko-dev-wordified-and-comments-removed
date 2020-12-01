@@ -9798,6 +9798,13 @@ if
 binding
 )
 {
+binding
+-
+>
+markUsedByStencil
+(
+)
+;
 gcthings
 .
 infallibleAppend
