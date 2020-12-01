@@ -792,6 +792,11 @@ FrameSurface
 >
 mFrameSurfaces
 ;
+bool
+mInFrame
+=
+false
+;
 }
 ;
 static
