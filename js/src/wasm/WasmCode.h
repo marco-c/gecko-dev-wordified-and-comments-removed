@@ -18,6 +18,15 @@ include
 "
 jit
 /
+JitOptions
+.
+h
+"
+#
+include
+"
+jit
+/
 shared
 /
 Assembler
