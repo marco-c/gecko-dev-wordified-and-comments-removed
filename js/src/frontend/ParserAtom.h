@@ -3868,6 +3868,17 @@ hasMore
 )
 ;
 }
+JSAtom
+*
+GetWellKnownAtom
+(
+JSContext
+*
+cx
+WellKnownAtomId
+atomId
+)
+;
 }
 }
 #
