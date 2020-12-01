@@ -304,15 +304,6 @@ final
 public
 CodeGeneratorSpecific
 {
-void
-generateArgumentsChecks
-(
-bool
-assert
-=
-false
-)
-;
 MOZ_MUST_USE
 bool
 generateBody

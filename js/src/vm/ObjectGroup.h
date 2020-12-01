@@ -1138,17 +1138,6 @@ shouldPreTenureDontCheckGeneration
 (
 )
 ;
-gc
-:
-:
-InitialHeap
-initialHeap
-(
-CompilerConstraintList
-*
-constraints
-)
-;
 inline
 bool
 canPreTenure
