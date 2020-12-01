@@ -2281,11 +2281,6 @@ uint32_t
 aOutFrames
 )
 {
-MOZ_ASSERT
-(
-aOutFrames
-)
-;
 AudioSegment
 segment
 ;
