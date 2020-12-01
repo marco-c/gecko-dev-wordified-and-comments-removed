@@ -1093,8 +1093,6 @@ This
 is
 why
 configure
-on
-Windows
 can
 run
 over
