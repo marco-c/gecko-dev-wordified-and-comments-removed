@@ -12926,9 +12926,7 @@ if
 NameFunctions
 (
 cx
-compilationInfo
-.
-stencil
+compilationState
 .
 parserAtoms
 body
@@ -13360,9 +13358,7 @@ if
 NameFunctions
 (
 cx
-compilationInfo
-.
-stencil
+compilationState
 .
 parserAtoms
 funNode
@@ -39867,9 +39863,7 @@ NumericLiteral
 toAtom
 (
 cx
-compilationInfo
-.
-stencil
+compilationState
 .
 parserAtoms
 )
@@ -43101,9 +43095,7 @@ storedMethodName
 .
 finishParserAtom
 (
-compilationInfo
-.
-stencil
+compilationState
 .
 parserAtoms
 )
@@ -48210,9 +48202,7 @@ RealmInstrumentation
 getInstrumentationKindName
 (
 cx
-compilationInfo
-.
-stencil
+compilationState
 .
 parserAtoms
 kind

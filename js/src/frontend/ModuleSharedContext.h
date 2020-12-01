@@ -67,6 +67,9 @@ ModuleBuilder
 namespace
 frontend
 {
+struct
+CompilationInfo
+;
 class
 MOZ_STACK_CLASS
 ModuleSharedContext

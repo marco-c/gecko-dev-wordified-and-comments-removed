@@ -1149,9 +1149,6 @@ extent
 CompilationInfo
 &
 compilationInfo
-CompilationState
-&
-compilationState
 Directives
 directives
 GeneratorKind
