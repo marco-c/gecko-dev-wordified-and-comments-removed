@@ -7588,3 +7588,11 @@ gn_target
 gn_dir_attrs
 .
 gn_target
+        
+self
+.
+write_mozbuild_variables
+=
+gn_dir_attrs
+.
+write_mozbuild_vars

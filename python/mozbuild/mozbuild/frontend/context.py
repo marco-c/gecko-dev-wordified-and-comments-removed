@@ -15955,6 +15955,12 @@ gn_target
 six
 .
 text_type
+                
+"
+write_mozbuild_vars
+"
+:
+dict
             
 }
         
@@ -16078,6 +16084,24 @@ the
 target
 to
 build
+.
+            
+-
+write_mozbuild_vars
+a
+dictionary
+containing
+variables
+to
+control
+              
+code
+generation
+of
+moz
+.
+build
+files
 .
         
 "
