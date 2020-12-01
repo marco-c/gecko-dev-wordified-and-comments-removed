@@ -465,8 +465,10 @@ aTrans
 )
 ;
 void
-IncrementNumIdleConns
+NewIdleConnectionAdded
 (
+uint32_t
+timeToLive
 )
 ;
 void
