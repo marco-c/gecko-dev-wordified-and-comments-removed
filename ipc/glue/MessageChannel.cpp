@@ -13147,6 +13147,12 @@ pid
 !
 =
 kInvalidProcessId
+&
+&
+!
+profiler_is_locked_on_current_thread
+(
+)
 )
 {
 const

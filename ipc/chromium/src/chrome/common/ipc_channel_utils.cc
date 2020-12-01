@@ -105,6 +105,16 @@ set
 return
 ;
 }
+if
+(
+profiler_is_locked_on_current_thread
+(
+)
+)
+{
+return
+;
+}
 const
 mozilla
 :
