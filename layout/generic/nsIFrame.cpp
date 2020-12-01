@@ -28674,7 +28674,9 @@ if
 !
 aspectRatio
 .
-auto_
+BehavesAsAuto
+(
+)
 )
 {
 return
