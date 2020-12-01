@@ -74,18 +74,7 @@ self
 .
 actors_enabled
 =
-self
-.
-marionette
-.
-get_pref
-(
-"
-fission
-.
-autostart
-"
-)
+True
         
 self
 .
