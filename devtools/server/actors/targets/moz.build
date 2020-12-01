@@ -43,6 +43,15 @@ target
 -
 actor
 -
+mixin
+.
+js
+"
+"
+target
+-
+actor
+-
 registry
 .
 jsm
