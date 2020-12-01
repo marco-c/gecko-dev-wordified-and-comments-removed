@@ -70,6 +70,11 @@ PerformanceObserverEntryList
 .
 h
 "
+'
+PerformancePaintTiming
+.
+h
+'
 "
 PerformanceResourceTiming
 .
@@ -150,6 +155,11 @@ PerformanceObserverEntryList
 .
 cpp
 "
+'
+PerformancePaintTiming
+.
+cpp
+'
 "
 PerformanceResourceTiming
 .
