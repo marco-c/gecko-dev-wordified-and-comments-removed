@@ -233,7 +233,7 @@ has
 (
 resource
 .
-channelId
+resourceId
 )
 "
 The
@@ -249,12 +249,12 @@ is
 (
 resource
 .
-stacktrace
+stacktraceAvailable
 requestStub
 .
 expected
 .
-stacktrace
+stacktraceAvailable
 "
 The
 stacktrace
@@ -301,7 +301,7 @@ set
 (
 resource
 .
-channelId
+resourceId
 true
 )
 ;
@@ -331,12 +331,13 @@ has
 (
 resource
 .
-resourceId
+stacktraceResourceId
 )
 "
 The
 stack
 trace
+does
 exists
 "
 )
