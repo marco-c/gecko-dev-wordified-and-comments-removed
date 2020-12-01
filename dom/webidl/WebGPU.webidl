@@ -1487,6 +1487,8 @@ QUERY_RESOLVE
 ;
 dictionary
 GPUBufferDescriptor
+:
+GPUObjectDescriptorBase
 {
 required
 GPUSize64
@@ -1861,6 +1863,8 @@ OUTPUT_ATTACHMENT
 ;
 dictionary
 GPUTextureDescriptor
+:
+GPUObjectDescriptorBase
 {
 required
 GPUExtent3D
@@ -2545,17 +2549,9 @@ type
 ;
 GPUTextureViewDimension
 viewDimension
-=
-"
-2d
-"
 ;
 GPUTextureComponentType
 textureComponentType
-=
-"
-float
-"
 ;
 boolean
 multisampled

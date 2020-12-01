@@ -457,7 +457,7 @@ u64
 pub
 type_mask
 :
-u64
+u32
 }
 #
 [
