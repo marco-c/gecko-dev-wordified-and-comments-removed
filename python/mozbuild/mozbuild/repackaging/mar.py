@@ -76,6 +76,17 @@ aarch64
 :
 [
 ]
+    
+"
+macos
+-
+x86_64
+-
+aarch64
+"
+:
+[
+]
 }
 def
 repackage_mar
