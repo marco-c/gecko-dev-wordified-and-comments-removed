@@ -64,6 +64,11 @@ listener
 js
 "
 "
+network
+.
+js
+"
+"
 stack
 -
 trace
