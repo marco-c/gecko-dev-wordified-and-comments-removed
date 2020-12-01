@@ -274,6 +274,17 @@ mozilla
 /
 dom
 /
+BindingIPCUtils
+.
+h
+"
+;
+include
+"
+mozilla
+/
+dom
+/
 DocShellMessageUtils
 .
 h

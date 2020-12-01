@@ -78,6 +78,17 @@ mozilla
 /
 dom
 /
+BindingIPCUtils
+.
+h
+"
+;
+include
+"
+mozilla
+/
+dom
+/
 ClientIPCUtils
 .
 h
@@ -168,7 +179,7 @@ mozilla
 /
 dom
 /
-BindingIPCUtils
+BindingDeclarations
 .
 h
 "
