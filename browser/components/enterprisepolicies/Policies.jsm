@@ -9969,6 +9969,11 @@ addon
 addon
 .
 sourceURI
+&
+&
+addon
+.
+sourceURI
 .
 spec
 =
