@@ -209,6 +209,8 @@ private
 WebRequestService
 (
 )
+=
+default
 ;
 friend
 ChannelEntry
