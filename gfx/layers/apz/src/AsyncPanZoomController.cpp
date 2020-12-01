@@ -2413,6 +2413,7 @@ eHorizontal
 bool
 pannableY
 =
+(
 aBlock
 -
 >
@@ -2421,6 +2422,7 @@ TouchActionAllowsPanningY
 )
 &
 &
+(
 aBlock
 -
 >
@@ -2436,6 +2438,20 @@ ScrollDirection
 :
 :
 eVertical
+)
+|
+|
+(
+IsRootContent
+(
+)
+&
+&
+CanScrollDownwardsWithDynamicToolbar
+(
+)
+)
+)
 )
 ;
 bool
