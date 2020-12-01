@@ -777,6 +777,10 @@ ShutdownRunnable
 public
 Runnable
 {
+const
+uint32_t
+mPrivateBrowsingId
+;
 bool
 &
 mDone
@@ -786,6 +790,9 @@ public
 explicit
 ShutdownRunnable
 (
+const
+uint32_t
+aPrivateBrowsingId
 bool
 &
 aDone
@@ -802,6 +809,10 @@ StorageDBThread
 :
 ShutdownRunnable
 "
+)
+mPrivateBrowsingId
+(
+aPrivateBrowsingId
 )
 mDone
 (
@@ -830,8 +841,11 @@ NS_DECL_NSIRUNNABLE
 ;
 public
 :
+explicit
 StorageDBThread
 (
+uint32_t
+aPrivateBrowsingId
 )
 ;
 virtual
@@ -847,6 +861,8 @@ StorageDBThread
 *
 Get
 (
+uint32_t
+aPrivateBrowsingId
 )
 ;
 static
@@ -858,6 +874,8 @@ const
 nsString
 &
 aProfilePath
+uint32_t
+aPrivateBrowsingId
 )
 ;
 static
@@ -1243,6 +1261,10 @@ mPreloads
 ;
 PendingOperations
 mPendingTasks
+;
+const
+uint32_t
+mPrivateBrowsingId
 ;
 int32_t
 mPriorityCounter

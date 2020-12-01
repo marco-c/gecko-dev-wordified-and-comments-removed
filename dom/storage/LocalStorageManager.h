@@ -137,6 +137,8 @@ const
 nsACString
 &
 aOriginNoSuffix
+uint32_t
+aPrivateBrowsingId
 )
 ;
 static

@@ -1448,6 +1448,10 @@ const
 nsString
 &
 aProfilePath
+const
+uint32_t
+&
+aPrivateBrowsingId
 )
 {
 MOZ_CRASH

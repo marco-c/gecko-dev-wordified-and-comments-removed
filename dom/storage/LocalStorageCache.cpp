@@ -513,6 +513,15 @@ CreateSuffix
 mOriginSuffix
 )
 ;
+mPrivateBrowsingId
+=
+aPrincipal
+-
+>
+GetPrivateBrowsingId
+(
+)
+;
 mPersistent
 =
 aPersistent
@@ -590,6 +599,7 @@ aManager
 GetOriginUsage
 (
 mQuotaOriginScope
+mPrivateBrowsingId
 )
 ;
 }
@@ -879,6 +889,7 @@ StorageDBChild
 :
 GetOrCreate
 (
+mPrivateBrowsingId
 )
 ;
 if
@@ -980,6 +991,7 @@ StorageDBChild
 :
 Get
 (
+mPrivateBrowsingId
 )
 -
 >
@@ -1564,6 +1576,7 @@ StorageDBChild
 :
 Get
 (
+mPrivateBrowsingId
 )
 ;
 if
@@ -1818,6 +1831,7 @@ StorageDBChild
 :
 Get
 (
+mPrivateBrowsingId
 )
 ;
 if
@@ -2039,6 +2053,7 @@ StorageDBChild
 :
 Get
 (
+mPrivateBrowsingId
 )
 ;
 if

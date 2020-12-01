@@ -736,6 +736,9 @@ mLoaded
 nsresult
 mLoadResult
 ;
+uint32_t
+mPrivateBrowsingId
+;
 bool
 mInitialized
 :
