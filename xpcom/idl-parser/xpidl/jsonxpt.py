@@ -29,234 +29,234 @@ TypeMap
 =
 {
     
-'
+"
 boolean
-'
+"
 :
-'
+"
 TD_BOOL
-'
+"
     
-'
+"
 void
-'
+"
 :
-'
+"
 TD_VOID
-'
+"
     
-'
+"
 int16_t
-'
+"
 :
-'
+"
 TD_INT16
-'
+"
     
-'
+"
 int32_t
-'
+"
 :
-'
+"
 TD_INT32
-'
+"
     
-'
+"
 int64_t
-'
+"
 :
-'
+"
 TD_INT64
-'
+"
     
-'
+"
 uint8_t
-'
+"
 :
-'
+"
 TD_UINT8
-'
+"
     
-'
+"
 uint16_t
-'
+"
 :
-'
+"
 TD_UINT16
-'
+"
     
-'
+"
 uint32_t
-'
+"
 :
-'
+"
 TD_UINT32
-'
+"
     
-'
+"
 uint64_t
-'
+"
 :
-'
+"
 TD_UINT64
-'
+"
     
-'
+"
 octet
-'
+"
 :
-'
+"
 TD_UINT8
-'
+"
     
-'
+"
 short
-'
+"
 :
-'
+"
 TD_INT16
-'
+"
     
-'
+"
 long
-'
+"
 :
-'
+"
 TD_INT32
-'
+"
     
-'
+"
 long
 long
-'
+"
 :
-'
+"
 TD_INT64
-'
+"
     
-'
+"
 unsigned
 short
-'
+"
 :
-'
+"
 TD_UINT16
-'
+"
     
-'
+"
 unsigned
 long
-'
+"
 :
-'
+"
 TD_UINT32
-'
+"
     
-'
+"
 unsigned
 long
 long
-'
+"
 :
-'
+"
 TD_UINT64
-'
+"
     
-'
+"
 float
-'
+"
 :
-'
+"
 TD_FLOAT
-'
+"
     
-'
+"
 double
-'
+"
 :
-'
+"
 TD_DOUBLE
-'
+"
     
-'
+"
 char
-'
+"
 :
-'
+"
 TD_CHAR
-'
+"
     
-'
+"
 string
-'
+"
 :
-'
+"
 TD_PSTRING
-'
+"
     
-'
+"
 wchar
-'
+"
 :
-'
+"
 TD_WCHAR
-'
+"
     
-'
+"
 wstring
-'
+"
 :
-'
+"
 TD_PWSTRING
-'
+"
     
-'
+"
 nsid
-'
+"
 :
-'
+"
 TD_NSID
-'
+"
     
-'
+"
 astring
-'
+"
 :
-'
+"
 TD_ASTRING
-'
+"
     
-'
+"
 utf8string
-'
+"
 :
-'
+"
 TD_UTF8STRING
-'
+"
     
-'
+"
 cstring
-'
+"
 :
-'
+"
 TD_CSTRING
-'
+"
     
-'
+"
 jsval
-'
+"
 :
-'
+"
 TD_JSVAL
-'
+"
     
-'
+"
 promise
-'
+"
 :
-'
+"
 TD_PROMISE
-'
+"
 }
 def
 flags
@@ -320,9 +320,9 @@ Builtin
 ret
 =
 {
-'
+"
 tag
-'
+"
 :
 TypeMap
 [
@@ -338,12 +338,12 @@ type
 name
 in
 [
-'
+"
 string
-'
-'
+"
+"
 wstring
-'
+"
 ]
 and
 size_is
@@ -354,21 +354,21 @@ None
             
 ret
 [
-'
+"
 tag
-'
+"
 ]
 +
 =
-'
+"
 _SIZE_IS
-'
+"
             
 ret
 [
-'
+"
 size_is
-'
+"
 ]
 =
 size_is
@@ -389,17 +389,17 @@ Array
 return
 {
             
-'
+"
 tag
-'
+"
 :
-'
+"
 TD_ARRAY
-'
+"
             
-'
+"
 element
-'
+"
 :
 get_type
 (
@@ -425,23 +425,23 @@ LegacyArray
 return
 {
             
-'
+"
 tag
-'
+"
 :
-'
+"
 TD_LEGACY_ARRAY
-'
+"
             
-'
+"
 size_is
-'
+"
 :
 size_is
             
-'
+"
 element
-'
+"
 :
 get_type
 (
@@ -475,17 +475,17 @@ Forward
 return
 {
             
-'
+"
 tag
-'
+"
 :
-'
+"
 TD_INTERFACE_TYPE
-'
+"
             
-'
+"
 name
-'
+"
 :
 type
 .
@@ -506,33 +506,33 @@ WebIDL
 return
 {
             
-'
+"
 tag
-'
+"
 :
-'
+"
 TD_DOMOBJECT
-'
+"
             
-'
+"
 name
-'
+"
 :
 type
 .
 name
             
-'
+"
 native
-'
+"
 :
 type
 .
 native
             
-'
+"
 headerFile
-'
+"
 :
 type
 .
@@ -556,9 +556,9 @@ type
 specialtype
 =
 =
-'
+"
 nsid
-'
+"
 and
 type
 .
@@ -570,13 +570,13 @@ calltype
             
 return
 {
-'
+"
 tag
-'
+"
 :
-'
+"
 TD_NSIDPTR
-'
+"
 }
         
 elif
@@ -587,10 +587,9 @@ specialtype
             
 return
 {
-                
-'
+"
 tag
-'
+"
 :
 TypeMap
 [
@@ -598,7 +597,6 @@ type
 .
 specialtype
 ]
-            
 }
         
 elif
@@ -611,17 +609,17 @@ None
 return
 {
                 
-'
+"
 tag
-'
+"
 :
-'
+"
 TD_INTERFACE_IS_TYPE
-'
+"
                 
-'
+"
 iid_is
-'
+"
 :
 iid_is
             
@@ -632,13 +630,13 @@ else
             
 return
 {
-'
+"
 tag
-'
+"
 :
-'
+"
 TD_VOID
-'
+"
 }
     
 if
@@ -653,15 +651,15 @@ CEnum
         
 return
 {
-'
+"
 tag
-'
+"
 :
-'
+"
 TD_UINT
 %
 d
-'
+"
 %
 type
 .
@@ -696,37 +694,37 @@ optional
 return
 {
         
-'
+"
 type
-'
+"
 :
 type
         
-'
+"
 flags
-'
+"
 :
 flags
 (
             
 (
-'
+"
 in
-'
+"
 in_
 )
             
 (
-'
+"
 out
-'
+"
 out
 )
             
 (
-'
+"
 optional
-'
+"
 optional
 )
         
@@ -759,45 +757,45 @@ symbol
 return
 {
         
-'
+"
 name
-'
+"
 :
 method
 .
 name
         
-'
+"
 params
-'
+"
 :
 params
         
-'
+"
 flags
-'
+"
 :
 flags
 (
             
 (
-'
+"
 getter
-'
+"
 getter
 )
             
 (
-'
+"
 setter
-'
+"
 setter
 )
             
 (
-'
+"
 hidden
-'
+"
 method
 .
 noscript
@@ -808,32 +806,32 @@ notxpcom
 )
             
 (
-'
+"
 optargc
-'
+"
 optargc
 )
             
 (
-'
+"
 jscontext
-'
+"
 method
 .
 implicit_jscontext
 )
             
 (
-'
+"
 hasretval
-'
+"
 hasretval
 )
             
 (
-'
+"
 symbol
-'
+"
 method
 .
 symbol
@@ -923,11 +921,15 @@ resolved
 )
     
 assert
+(
+        
 iface
 .
 attributes
 .
 scriptable
+    
+)
 "
 Don
 '
@@ -963,40 +965,42 @@ consts
 .
 append
 (
-{
             
-'
+{
+                
+"
 name
-'
+"
 :
 c
 .
 name
-            
-'
+                
+"
 type
-'
+"
 :
 get_type
 (
 c
 .
 basetype
-'
-'
+"
+"
 )
-            
-'
+                
+"
 value
-'
+"
 :
 c
 .
 getValue
 (
 )
-        
+            
 }
+        
 )
     
 def
@@ -1018,37 +1022,39 @@ consts
 .
 append
 (
-{
                 
-'
+{
+                    
+"
 name
-'
+"
 :
 var
 .
 name
-                
-'
+                    
+"
 type
-'
+"
 :
 get_type
 (
 b
-'
+"
 in
-'
+"
 )
-                
-'
+                    
+"
 value
-'
+"
 :
 var
 .
 value
-            
+                
 }
+            
 )
     
 def
@@ -1075,42 +1081,45 @@ params
 .
 append
 (
+                
 mk_param
 (
-                
+                    
 get_type
 (
-                    
+                        
 p
 .
 realtype
+                        
 p
 .
 paramtype
-                    
+                        
 iid_is
 =
 attr_param_idx
 (
 p
 m
-'
+"
 iid_is
-'
+"
 )
-                    
+                        
 size_is
 =
 attr_param_idx
 (
 p
 m
-'
+"
 size_is
-'
+"
 )
+                    
 )
-                
+                    
 in_
 =
 p
@@ -1123,7 +1132,7 @@ count
 in
 "
 )
-                
+                    
 out
 =
 p
@@ -1136,14 +1145,15 @@ count
 out
 "
 )
-                
+                    
 optional
 =
 p
 .
 optional
-            
+                
 )
+            
 )
         
 hasretval
@@ -1180,9 +1190,9 @@ realtype
 name
 !
 =
-'
+"
 void
-'
+"
 :
             
 hasretval
@@ -1200,9 +1210,9 @@ get_type
 m
 .
 realtype
-'
+"
 out
-'
+"
 )
 out
 =
@@ -1214,6 +1224,7 @@ methods
 .
 append
 (
+            
 mk_method
 (
 m
@@ -1223,11 +1234,11 @@ optargc
 m
 .
 optional_argc
-                                 
 hasretval
 =
 hasretval
 )
+        
 )
     
 def
@@ -1245,9 +1256,9 @@ realtype
 name
 !
 =
-'
+"
 void
-'
+"
         
 getter_params
 =
@@ -1272,9 +1283,9 @@ get_type
 a
 .
 realtype
-'
+"
 out
-'
+"
 )
 out
 =
@@ -1315,9 +1326,9 @@ get_type
 a
 .
 realtype
-'
+"
 in
-'
+"
 )
 in_
 =
@@ -1441,17 +1452,17 @@ member
 return
 {
         
-'
+"
 name
-'
+"
 :
 iface
 .
 name
         
-'
+"
 uuid
-'
+"
 :
 iface
 .
@@ -1459,37 +1470,37 @@ attributes
 .
 uuid
         
-'
+"
 methods
-'
+"
 :
 methods
         
-'
+"
 consts
-'
+"
 :
 consts
         
-'
+"
 parent
-'
+"
 :
 iface
 .
 base
         
-'
+"
 flags
-'
+"
 :
 flags
 (
             
 (
-'
+"
 function
-'
+"
 iface
 .
 attributes
@@ -1498,9 +1509,9 @@ function
 )
             
 (
-'
+"
 builtinclass
-'
+"
 iface
 .
 attributes
@@ -1509,9 +1520,9 @@ builtinclass
 )
             
 (
-'
+"
 main_process_only
-'
+"
 iface
 .
 attributes
@@ -1548,32 +1559,35 @@ typelib
     
 return
 [
+        
 build_interface
 (
 p
 )
+        
 for
 p
 in
 idl
 .
 productions
-            
+        
 if
 p
 .
 kind
 =
 =
-'
+"
 interface
-'
+"
 and
 p
 .
 attributes
 .
 scriptable
+    
 ]
 def
 link
@@ -1620,9 +1634,9 @@ set
 (
 iface
 [
-'
+"
 name
-'
+"
 ]
 for
 iface
@@ -1634,10 +1648,10 @@ linked
 =
 len
 (
-linked
-)
-\
         
+linked
+    
+)
 "
 Multiple
 typelibs

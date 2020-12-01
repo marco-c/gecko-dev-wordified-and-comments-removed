@@ -432,6 +432,7 @@ py
 -
 product
 "
+            
 task
 [
 "
@@ -451,6 +452,7 @@ stage
 -
 product
 "
+            
 task
 [
 "
@@ -467,6 +469,7 @@ app
 -
 name
 "
+            
 task
 [
 "
@@ -488,6 +491,7 @@ branch
 -
 prefix
 "
+            
 task
 [
 "
@@ -507,6 +511,7 @@ prefix
 -
 platform
 "
+            
 task
 [
 "
@@ -526,6 +531,7 @@ to
 -
 version
 "
+            
 release_config
 [
 "
@@ -542,6 +548,7 @@ app
 -
 version
 "
+            
 release_config
 [
 "
@@ -558,6 +565,7 @@ build
 -
 number
 "
+            
 str
 (
 release_config
@@ -575,6 +583,7 @@ to
 -
 buildid
 "
+            
 config
 .
 params
@@ -591,6 +600,7 @@ to
 -
 revision
 "
+            
 get_branch_rev
 (
 config
@@ -603,6 +613,7 @@ output
 -
 file
 "
+            
 "
 update
 -
@@ -780,55 +791,56 @@ resolve_keyed_by
 (
                 
 task
+                
 thing
                 
 item_name
 =
 task
 [
-'
+"
 name
-'
+"
 ]
                 
 platform
 =
 task
 [
-'
+"
 attributes
-'
+"
 ]
 [
-'
+"
 build_platform
-'
+"
 ]
                 
 *
 *
 {
                     
-'
+"
 release
 -
 type
-'
+"
 :
 config
 .
 params
 [
-'
+"
 release_type
-'
+"
 ]
                     
-'
+"
 release
 -
 level
-'
+"
 :
 config
 .
@@ -965,26 +977,27 @@ arg
         
 task
 [
-'
+"
 run
-'
+"
 ]
 .
 update
 (
+            
 {
-            
-'
+                
+"
 using
-'
+"
 :
-'
+"
 mach
-'
-            
-'
+"
+                
+"
 mach
-'
+"
 :
 "
 "
@@ -993,8 +1006,9 @@ join
 (
 command
 )
-        
+            
 }
+        
 )
         
 yield

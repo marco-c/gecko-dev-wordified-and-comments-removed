@@ -17,181 +17,181 @@ SEARCH_PATHS
 =
 [
     
-'
+"
 gtest
-'
+"
     
-'
+"
 marionette
 /
 client
-'
+"
     
-'
+"
 marionette
 /
 harness
-'
+"
     
-'
+"
 mochitest
-'
+"
     
-'
+"
 mozbase
 /
 manifestparser
-'
+"
     
-'
+"
 mozbase
 /
 mozcrash
-'
+"
     
-'
+"
 mozbase
 /
 mozdebug
-'
+"
     
-'
+"
 mozbase
 /
 mozdevice
-'
+"
     
-'
+"
 mozbase
 /
 mozfile
-'
+"
     
-'
+"
 mozbase
 /
 mozgeckoprofile
-'
+"
     
-'
+"
 mozbase
 /
 mozhttpd
-'
+"
     
-'
+"
 mozbase
 /
 mozinfo
-'
+"
     
-'
+"
 mozbase
 /
 mozinstall
-'
+"
     
-'
+"
 mozbase
 /
 mozleak
-'
+"
     
-'
+"
 mozbase
 /
 mozlog
-'
+"
     
-'
+"
 mozbase
 /
 moznetwork
-'
+"
     
-'
+"
 mozbase
 /
 mozpower
-'
+"
     
-'
+"
 mozbase
 /
 mozprocess
-'
+"
     
-'
+"
 mozbase
 /
 mozprofile
-'
+"
     
-'
+"
 mozbase
 /
 mozrunner
-'
+"
     
-'
+"
 mozbase
 /
 mozscreenshot
-'
+"
     
-'
+"
 mozbase
 /
 mozsystemmonitor
-'
+"
     
-'
+"
 mozbase
 /
 moztest
-'
+"
     
-'
+"
 mozbase
 /
 mozversion
-'
+"
     
-'
+"
 reftest
-'
+"
     
-'
+"
 tools
 /
 mach
-'
+"
     
-'
+"
 tools
 /
 mozterm
-'
+"
     
-'
+"
 tools
 /
 six
-'
+"
     
-'
+"
 tools
 /
 wptserve
-'
+"
     
-'
+"
 web
 -
 platform
-'
+"
     
-'
+"
 web
 -
 platform
@@ -201,49 +201,49 @@ tests
 tools
 /
 wptrunner
-'
+"
     
-'
+"
 xpcshell
-'
+"
 ]
 MACH_MODULES
 =
 [
     
-'
+"
 gtest
 /
 mach_test_package_commands
 .
 py
-'
+"
     
-'
+"
 marionette
 /
 mach_test_package_commands
 .
 py
-'
+"
     
-'
+"
 mochitest
 /
 mach_test_package_commands
 .
 py
-'
+"
     
-'
+"
 reftest
 /
 mach_test_package_commands
 .
 py
-'
+"
     
-'
+"
 tools
 /
 mach
@@ -255,9 +255,9 @@ commands
 commandinfo
 .
 py
-'
+"
     
-'
+"
 web
 -
 platform
@@ -265,72 +265,72 @@ platform
 mach_test_package_commands
 .
 py
-'
+"
     
-'
+"
 xpcshell
 /
 mach_test_package_commands
 .
 py
-'
+"
 ]
 CATEGORIES
 =
 {
     
-'
+"
 testing
-'
+"
 :
 {
         
-'
+"
 short
-'
+"
 :
-'
+"
 Testing
-'
+"
         
-'
+"
 long
-'
+"
 :
-'
+"
 Run
 tests
 .
-'
+"
         
-'
+"
 priority
-'
+"
 :
 30
     
 }
     
-'
+"
 devenv
-'
+"
 :
 {
         
-'
+"
 short
-'
+"
 :
-'
+"
 Development
 Environment
-'
+"
         
-'
+"
 long
-'
+"
 :
-'
+"
 Set
 up
 and
@@ -339,70 +339,70 @@ your
 development
 environment
 .
-'
+"
         
-'
+"
 priority
-'
+"
 :
 20
     
 }
     
-'
+"
 misc
-'
+"
 :
 {
         
-'
+"
 short
-'
+"
 :
-'
+"
 Potpourri
-'
+"
         
-'
+"
 long
-'
+"
 :
-'
+"
 Potent
 potables
 and
 assorted
 snacks
 .
-'
+"
         
-'
+"
 priority
-'
+"
 :
 10
     
 }
     
-'
+"
 disabled
-'
+"
 :
 {
         
-'
+"
 short
-'
+"
 :
-'
+"
 Disabled
-'
+"
         
-'
+"
 long
-'
+"
 :
-'
+"
 The
 disabled
 commands
@@ -418,9 +418,9 @@ to
 display
 them
 .
-'
-                
-'
+"
+        
+"
 These
 commands
 are
@@ -429,8 +429,8 @@ for
 your
 current
 context
-'
-                
+"
+        
 '
 run
 "
@@ -445,9 +445,9 @@ why
 .
 '
         
-'
+"
 priority
-'
+"
 :
 0
     
@@ -460,12 +460,12 @@ sys
 platform
 in
 (
-'
+"
 win32
-'
-'
+"
+"
 cygwin
-'
+"
 )
 PY3
 =
@@ -590,23 +590,25 @@ path
 .
 join
 (
+        
 context
 .
 mozharness_workdir
-                        
+        
 context
 .
 mozharness_config
 .
 get
 (
-'
+"
 virtualenv_path
-'
-'
+"
+"
 venv
-'
+"
 )
+    
 )
     
 if
@@ -654,15 +656,15 @@ path
 join
 (
 venv
-'
+"
 Scripts
-'
+"
 if
 IS_WIN
 else
-'
+"
 bin
-'
+"
 )
     
 activate_path
@@ -674,11 +676,11 @@ path
 join
 (
 venv_bin
-'
+"
 activate_this
 .
 py
-'
+"
 )
     
 exec
@@ -706,9 +708,9 @@ os
 .
 environ
 [
-'
+"
 PATH
-'
+"
 ]
 text_type
 )
@@ -718,34 +720,34 @@ os
 .
 environ
 [
-'
+"
 PATH
-'
+"
 ]
 =
 os
 .
 environ
 [
-'
+"
 PATH
-'
+"
 ]
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 binary
 =
-'
+"
 python
-'
+"
     
 if
 IS_WIN
@@ -754,10 +756,10 @@ IS_WIN
 binary
 +
 =
-'
+"
 .
 exe
-'
+"
     
 sys
 .
@@ -811,9 +813,9 @@ mozharness_config
 if
 config
 and
-'
+"
 binary_path
-'
+"
 in
 config
 :
@@ -821,9 +823,9 @@ config
 return
 config
 [
-'
+"
 binary_path
-'
+"
 ]
     
 elif
@@ -843,9 +845,9 @@ join
 context
 .
 mozharness_workdir
-'
+"
 application
-'
+"
 )
 )
     
@@ -867,9 +869,9 @@ context
 .
 package_root
 )
-'
+"
 bin
-'
+"
 )
     
 if
@@ -905,9 +907,9 @@ mozinstall
 get_binary
 (
 path
-'
+"
 firefox
-'
+"
 )
         
 except
@@ -939,9 +941,9 @@ path
 join
 (
 workdir
-'
+"
 hostutils
-'
+"
 )
     
 for
@@ -981,11 +983,11 @@ fname
 .
 startswith
 (
-'
+"
 host
 -
 utils
-'
+"
 )
 :
             
@@ -1128,7 +1130,7 @@ version_info
         
 print
 (
-'
+"
 Python
 2
 .
@@ -1147,17 +1149,17 @@ to
 run
 mach
 .
-'
+"
 )
         
 print
 (
-'
+"
 You
 are
 running
 Python
-'
+"
 platform
 .
 python_version
@@ -1241,9 +1243,9 @@ path
 join
 (
 test_package_root
-'
+"
 bin
-'
+"
 )
         
 if
@@ -1263,9 +1265,9 @@ path
 join
 (
 test_package_root
-'
+"
 certs
-'
+"
 )
         
 if
@@ -1285,9 +1287,9 @@ path
 join
 (
 test_package_root
-'
+"
 modules
-'
+"
 )
         
 if
@@ -1318,9 +1320,9 @@ if
 key
 =
 =
-'
+"
 firefox_bin
-'
+"
 :
             
 return
@@ -1333,9 +1335,9 @@ if
 key
 =
 =
-'
+"
 hostutils
-'
+"
 :
             
 return
@@ -1348,9 +1350,9 @@ if
 key
 =
 =
-'
+"
 mozharness_config
-'
+"
 :
             
 for
@@ -1373,14 +1375,14 @@ path
 join
 (
 dir_path
-'
+"
 logs
-'
-'
+"
+"
 localconfig
 .
 json
-'
+"
 )
                 
 if
@@ -1398,9 +1400,9 @@ with
 open
 (
 mozharness_config
-'
+"
 rb
-'
+"
 )
 as
 f
@@ -1422,9 +1424,9 @@ if
 key
 =
 =
-'
+"
 mozharness_workdir
-'
+"
 :
             
 config
@@ -1446,15 +1448,15 @@ join
 (
 config
 [
-'
+"
 base_work_dir
-'
+"
 ]
 config
 [
-'
+"
 work_dir
-'
+"
 ]
 )
         
@@ -1462,9 +1464,9 @@ if
 key
 =
 =
-'
+"
 activate_mozharness_venv
-'
+"
 :
             
 return
@@ -1515,22 +1517,21 @@ define_category
 category
 meta
 [
-'
+"
 short
-'
+"
 ]
 meta
 [
-'
+"
 long
-'
+"
 ]
-                             
 meta
 [
-'
+"
 priority
-'
+"
 ]
 )
     

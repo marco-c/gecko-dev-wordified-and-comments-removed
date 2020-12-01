@@ -12,9 +12,9 @@ SETUP
 =
 {
     
-'
+"
 hg
-'
+"
 :
 [
         
@@ -85,9 +85,9 @@ hgrc
     
 ]
     
-'
+"
 git
-'
+"
 :
 [
         
@@ -183,12 +183,12 @@ yield_fixture
 params
 =
 [
-'
+"
 git
-'
-'
+"
+"
 hg
-'
+"
 ]
 )
 def
@@ -218,9 +218,9 @@ hasattr
 request
 .
 module
-'
+"
 STEPS
-'
+"
 )
 :
         
@@ -244,9 +244,9 @@ tmpdir
 .
 mkdir
 (
-'
+"
 repo
-'
+"
 )
     
 repo
@@ -302,9 +302,9 @@ tmpdir
 .
 join
 (
-'
+"
 remoterepo
-'
+"
 )
 )
     

@@ -2,19 +2,19 @@ config
 =
 {
     
-'
+"
 balrog_servers
-'
+"
 :
 [
         
 {
             
-'
+"
 balrog_api_root
-'
+"
 :
-'
+"
 https
 :
 /
@@ -28,22 +28,23 @@ mozilla
 org
 /
 api
-'
+"
             
-'
+"
 ignore_failures
-'
+"
 :
 False
             
-'
+"
 url_replacements
-'
+"
 :
 [
                 
 (
-'
+                    
+"
 http
 :
 /
@@ -55,8 +56,9 @@ mozilla
 org
 /
 pub
-'
-'
+"
+                    
+"
 http
 :
 /
@@ -70,56 +72,57 @@ mozilla
 net
 /
 pub
-'
+"
+                
 )
             
 ]
             
-'
+"
 balrog_usernames
-'
+"
 :
 {
                 
-'
+"
 firefox
-'
+"
 :
-'
+"
 balrog
 -
 ffxbld
-'
+"
                 
-'
+"
 thunderbird
-'
+"
 :
-'
+"
 balrog
 -
 tbirdbld
-'
+"
                 
-'
+"
 mobile
-'
+"
 :
-'
+"
 balrog
 -
 ffxbld
-'
+"
                 
-'
+"
 Fennec
-'
+"
 :
-'
+"
 balrog
 -
 ffxbld
-'
+"
             
 }
         

@@ -108,8 +108,10 @@ xml
 .
 format
 (
+            
 quote
 (
+                
 r
 "
 "
@@ -237,9 +239,13 @@ html
 .
 format
 (
+                    
 doc
+                
 )
+            
 )
+        
 )
 id_html
 =
@@ -323,6 +329,7 @@ parent_child_xhtml
 =
 inline
 (
+    
 '
 <
 div
@@ -858,6 +865,7 @@ marionette
 .
 execute_script
 (
+            
 "
 return
 document
@@ -873,6 +881,7 @@ foo
 '
 )
 "
+        
 )
         
 found
@@ -1102,42 +1111,53 @@ self
 .
 assertRaises
 (
+            
 NoSuchElementException
+            
 self
 .
 marionette
 .
 find_element
+            
 By
 .
 CLASS_NAME
+            
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
+            
 self
 .
 marionette
 .
 find_element
+            
 By
 .
 CSS_SELECTOR
+            
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
 self
 .
@@ -1150,12 +1170,14 @@ ID
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
 self
 .
@@ -1168,12 +1190,14 @@ LINK_TEXT
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
 self
 .
@@ -1186,30 +1210,37 @@ NAME
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
+            
 self
 .
 marionette
 .
 find_element
+            
 By
 .
 PARTIAL_LINK_TEXT
+            
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
 self
 .
@@ -1222,12 +1253,14 @@ TAG_NAME
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
 self
 .
@@ -1240,6 +1273,7 @@ XPATH
 "
 cheese
 "
+        
 )
     
 def
@@ -1265,42 +1299,53 @@ self
 .
 assertRaises
 (
+            
 NoSuchElementException
+            
 self
 .
 marionette
 .
 find_element
+            
 By
 .
 CLASS_NAME
+            
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
+            
 self
 .
 marionette
 .
 find_element
+            
 By
 .
 CSS_SELECTOR
+            
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
 self
 .
@@ -1313,12 +1358,14 @@ ID
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
 self
 .
@@ -1331,12 +1378,14 @@ LINK_TEXT
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
 self
 .
@@ -1349,30 +1398,37 @@ NAME
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
+            
 self
 .
 marionette
 .
 find_element
+            
 By
 .
 PARTIAL_LINK_TEXT
+            
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
 self
 .
@@ -1385,12 +1441,14 @@ TAG_NAME
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
 self
 .
@@ -1403,6 +1461,7 @@ XPATH
 "
 cheese
 "
+        
 )
     
 def
@@ -1451,6 +1510,7 @@ self
 .
 assertRaises
 (
+            
 NoSuchElementException
 el
 .
@@ -1461,12 +1521,14 @@ CLASS_NAME
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
 el
 .
@@ -1477,6 +1539,7 @@ CSS_SELECTOR
 "
 cheese
 "
+        
 )
         
 self
@@ -1499,6 +1562,7 @@ self
 .
 assertRaises
 (
+            
 NoSuchElementException
 el
 .
@@ -1509,6 +1573,7 @@ LINK_TEXT
 "
 cheese
 "
+        
 )
         
 self
@@ -1531,6 +1596,7 @@ self
 .
 assertRaises
 (
+            
 NoSuchElementException
 el
 .
@@ -1541,12 +1607,14 @@ PARTIAL_LINK_TEXT
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
 el
 .
@@ -1557,6 +1625,7 @@ TAG_NAME
 "
 cheese
 "
+        
 )
         
 self
@@ -1623,6 +1692,7 @@ self
 .
 assertRaises
 (
+            
 NoSuchElementException
 el
 .
@@ -1633,12 +1703,14 @@ CLASS_NAME
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
 el
 .
@@ -1649,6 +1721,7 @@ CSS_SELECTOR
 "
 cheese
 "
+        
 )
         
 self
@@ -1671,6 +1744,7 @@ self
 .
 assertRaises
 (
+            
 NoSuchElementException
 el
 .
@@ -1681,6 +1755,7 @@ LINK_TEXT
 "
 cheese
 "
+        
 )
         
 self
@@ -1703,6 +1778,7 @@ self
 .
 assertRaises
 (
+            
 NoSuchElementException
 el
 .
@@ -1713,12 +1789,14 @@ PARTIAL_LINK_TEXT
 "
 cheese
 "
+        
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
 el
 .
@@ -1729,6 +1807,7 @@ TAG_NAME
 "
 cheese
 "
+        
 )
         
 self
@@ -1885,7 +1964,8 @@ re
 .
 compile
 (
-'
+            
+"
 ^
 [
 0
@@ -1944,13 +2024,15 @@ f
 {
 12
 }
-'
+"
+        
 )
         
 self
 .
 assertIsNotNone
 (
+            
 re
 .
 search
@@ -1960,8 +2042,8 @@ el
 .
 id
 )
-                             
-'
+            
+"
 UUID
 for
 the
@@ -1974,9 +2056,7 @@ ID
 is
 {
 }
-'
-\
-                             
+"
 .
 format
 (
@@ -1984,6 +2064,7 @@ el
 .
 id
 )
+        
 )
     
 def
@@ -2526,6 +2607,7 @@ marionette
 .
 execute_script
 (
+            
 "
 return
 document
@@ -2541,6 +2623,7 @@ foo
 '
 )
 "
+        
 )
         
 found
@@ -3129,6 +3212,7 @@ marionette
 .
 execute_script
 (
+            
 "
 return
 document
@@ -3144,6 +3228,7 @@ foo
 '
 )
 "
+        
 )
         
 found
@@ -3487,7 +3572,8 @@ re
 .
 compile
 (
-'
+            
+"
 ^
 [
 0
@@ -3546,13 +3632,15 @@ f
 {
 12
 }
-'
+"
+        
 )
         
 self
 .
 assertIsNotNone
 (
+            
 re
 .
 search
@@ -3565,8 +3653,8 @@ els
 .
 id
 )
-                             
-'
+            
+"
 UUID
 for
 the
@@ -3579,9 +3667,7 @@ ID
 is
 {
 }
-'
-\
-                             
+"
 .
 format
 (
@@ -3592,6 +3678,7 @@ els
 .
 id
 )
+        
 )
     
 def
@@ -4030,6 +4117,7 @@ marionette
 .
 execute_script
 (
+            
 "
 return
 document
@@ -4045,6 +4133,7 @@ foo
 '
 )
 "
+        
 )
         
 found

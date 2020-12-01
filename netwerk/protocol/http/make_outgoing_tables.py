@@ -6,9 +6,10 @@ stdout
 .
 write
 (
-'
-'
-'
+    
+"
+"
+"
 /
 *
  
@@ -60,9 +61,9 @@ HuffmanOutgoing
 ]
 =
 {
-'
-'
-'
+"
+"
+"
 )
 entries
 =
@@ -90,9 +91,9 @@ line
 .
 rfind
 (
-'
+"
 [
-'
+"
 )
     
 nbits
@@ -116,9 +117,9 @@ line
 .
 rfind
 (
-'
+"
 |
-'
+"
 )
     
 space
@@ -127,8 +128,8 @@ line
 .
 find
 (
-'
-'
+"
+"
 lastbar
 )
     
@@ -138,8 +139,8 @@ line
 .
 rfind
 (
-'
-'
+"
+"
 0
 obracket
 )
@@ -170,14 +171,14 @@ entries
 append
 (
 {
-'
+"
 length
-'
+"
 :
 nbits
-'
+"
 value
-'
+"
 :
 val
 }
@@ -202,7 +203,7 @@ stdout
 .
 write
 (
-'
+"
 {
 0x
 %
@@ -210,21 +211,20 @@ write
 %
 s
 }
-'
+"
 %
-                     
 (
 e
 [
-'
+"
 value
-'
+"
 ]
 e
 [
-'
+"
 length
-'
+"
 ]
 )
 )
@@ -248,8 +248,8 @@ stdout
 .
 write
 (
-'
-'
+"
+"
 )
     
 sys
@@ -258,10 +258,10 @@ stdout
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
 sys
 .
@@ -269,9 +269,10 @@ stdout
 .
 write
 (
-'
-'
-'
+    
+"
+"
+"
 }
 ;
 }
@@ -289,7 +290,7 @@ endif
 /
 /
 mozilla__net__Http2HuffmanOutgoing_h
-'
-'
-'
+"
+"
+"
 )

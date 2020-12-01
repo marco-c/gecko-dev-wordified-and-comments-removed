@@ -57,18 +57,20 @@ commands
     
 Command
 (
-'
+        
+"
 compileflags
-'
+"
+        
 category
 =
-'
+"
 devenv
-'
-             
+"
+        
 description
 =
-'
+"
 Display
 the
 compilation
@@ -78,21 +80,22 @@ a
 given
 source
 file
-'
+"
+    
 )
     
 CommandArgument
 (
-'
+        
+"
 what
-'
+"
 default
 =
 None
-                     
 help
 =
-'
+"
 Source
 file
 to
@@ -100,7 +103,8 @@ display
 compilation
 flags
 for
-'
+"
+    
 )
     
 def
@@ -154,15 +158,16 @@ make_target
 =
 resolve_target_to_make
 (
+            
 self
 .
 topobjdir
-                                                       
 path_arg
 .
 relpath
 (
 )
+        
 )
         
 if
@@ -193,39 +198,39 @@ what
 .
 endswith
 (
-'
+"
 .
 c
-'
+"
 )
 :
             
 cc
 =
-'
+"
 CC
-'
+"
             
 name
 =
-'
+"
 COMPILE_CFLAGS
-'
+"
         
 else
 :
             
 cc
 =
-'
+"
 CXX
-'
+"
             
 name
 =
-'
+"
 COMPILE_CXXFLAGS
-'
+"
         
 if
 name
@@ -262,8 +267,8 @@ name
         
 print
 (
-'
-'
+"
+"
 .
 join
 (
@@ -271,7 +276,6 @@ shell_quote
 (
 arg
 )
-                       
 for
 arg
 in

@@ -40,9 +40,9 @@ import
 ensure_subprocess_env
 MOZCONFIG_BAD_EXIT_CODE
 =
-'
-'
-'
+"
+"
+"
 Evaluation
 of
 your
@@ -81,18 +81,18 @@ in
 executed
 commands
 .
-'
-'
-'
+"
+"
+"
 .
 strip
 (
 )
 MOZCONFIG_BAD_OUTPUT
 =
-'
-'
-'
+"
+"
+"
 Evaluation
 of
 your
@@ -137,9 +137,9 @@ in
 executed
 commands
 .
-'
-'
-'
+"
+"
+"
 .
 strip
 (
@@ -206,8 +206,11 @@ output
         
 message
 =
+(
+            
 dedent
 (
+                
 "
 "
 "
@@ -227,7 +230,9 @@ message
 "
 "
 "
+            
 )
+            
 .
 format
 (
@@ -240,9 +245,12 @@ message
 =
 message
 )
+            
 .
 lstrip
 (
+)
+        
 )
         
 if
@@ -256,6 +264,7 @@ message
 =
 dedent
 (
+                
 "
 "
 "
@@ -271,6 +280,7 @@ output
 "
 "
 "
+            
 )
 .
 format
@@ -284,7 +294,6 @@ n
 .
 join
 (
-                
 [
 six
 .
@@ -337,9 +346,10 @@ re
 .
 compile
 (
-'
-'
-'
+        
+"
+"
+"
         
 ^
 \
@@ -401,54 +411,60 @@ value
 .
 *
 )
-'
-'
-'
-                                  
+"
+"
+"
+        
 re
 .
 VERBOSE
+    
 )
     
 IGNORE_SHELL_VARIABLES
 =
 {
-'
+"
 _
-'
-'
+"
+"
 BASH_ARGV
-'
-'
+"
+"
 BASH_ARGV0
-'
-'
+"
+"
 BASH_ARGC
-'
+"
 }
     
 ENVIRONMENT_VARIABLES
 =
 {
         
-'
+"
 CC
-'
-'
+"
+        
+"
 CXX
-'
-'
+"
+        
+"
 CFLAGS
-'
-'
+"
+        
+"
 CXXFLAGS
-'
-'
+"
+        
+"
 LDFLAGS
-'
-'
+"
+        
+"
 MOZ_OBJDIR
-'
+"
     
 }
     
@@ -507,9 +523,9 @@ path
 join
 (
 our_dir
-'
+"
 mozconfig_loader
-'
+"
 )
     
 def
@@ -645,45 +661,45 @@ result
 =
 {
             
-'
+"
 path
-'
+"
 :
 path
             
-'
+"
 topobjdir
-'
+"
 :
 None
             
-'
+"
 configure_args
-'
+"
 :
 None
             
-'
+"
 make_flags
-'
+"
 :
 None
             
-'
+"
 make_extra
-'
+"
 :
 None
             
-'
+"
 env
-'
+"
 :
 None
             
-'
+"
 vars
-'
+"
 :
 None
         
@@ -696,9 +712,9 @@ None
 :
             
 if
-'
+"
 MOZ_OBJDIR
-'
+"
 in
 os
 .
@@ -707,18 +723,18 @@ environ
                 
 result
 [
-'
+"
 topobjdir
-'
+"
 ]
 =
 os
 .
 environ
 [
-'
+"
 MOZ_OBJDIR
-'
+"
 ]
             
 return
@@ -735,9 +751,9 @@ path
         
 result
 [
-'
+"
 configure_args
-'
+"
 ]
 =
 [
@@ -745,9 +761,9 @@ configure_args
         
 result
 [
-'
+"
 make_extra
-'
+"
 ]
 =
 [
@@ -755,9 +771,9 @@ make_extra
         
 result
 [
-'
+"
 make_flags
-'
+"
 ]
 =
 [
@@ -765,14 +781,14 @@ make_flags
         
 shell
 =
-'
+"
 sh
-'
+"
         
 if
-'
+"
 MOZILLABUILD
-'
+"
 in
 os
 .
@@ -785,19 +801,19 @@ os
 .
 environ
 [
-'
+"
 MOZILLABUILD
-'
+"
 ]
 +
-'
+"
 /
 msys
 /
 bin
 /
 sh
-'
+"
         
 if
 sys
@@ -805,24 +821,26 @@ sys
 platform
 =
 =
-'
+"
 win32
-'
+"
 :
             
 shell
 =
 shell
 +
-'
+"
 .
 exe
-'
+"
         
 command
 =
 [
+            
 shell
+            
 mozpath
 .
 normsep
@@ -831,7 +849,7 @@ self
 .
 _loader_script
 )
-                   
+            
 mozpath
 .
 normsep
@@ -840,11 +858,13 @@ self
 .
 topsrcdir
 )
+            
 path
+            
 sys
 .
 executable
-                   
+            
 mozpath
 .
 join
@@ -857,16 +877,16 @@ self
 .
 _loader_script
 )
-                                
-'
+"
 action
-'
-'
+"
+"
 dump_env
 .
 py
-'
+"
 )
+        
 ]
         
 try
@@ -883,16 +903,16 @@ environ
             
 env
 [
-'
+"
 PYTHONIOENCODING
-'
+"
 ]
 =
-'
+"
 utf
 -
 8
-'
+"
             
 output
 =
@@ -900,33 +920,39 @@ six
 .
 ensure_text
 (
+                
 subprocess
 .
 check_output
 (
-                
+                    
 command
+                    
 stderr
 =
 subprocess
 .
 STDOUT
+                    
 cwd
 =
 self
 .
 topsrcdir
-                
+                    
 env
 =
 ensure_subprocess_env
 (
 env
 )
+                    
 universal_newlines
 =
 True
+                
 )
+            
 )
         
 except
@@ -956,7 +982,7 @@ lines
 .
 index
 (
-'
+"
 -
 -
 -
@@ -964,7 +990,7 @@ index
 -
 -
 END_BEFORE_SOURCE
-'
+"
 )
                 
 lines
@@ -1009,13 +1035,13 @@ AssertionError
             
 print
 (
-'
+"
 Assertion
 failed
 in
 _parse_loader_output
 :
-'
+"
 )
             
 traceback
@@ -1027,14 +1053,15 @@ print_exc
 raise
 MozconfigLoadException
 (
+                
 path
 MOZCONFIG_BAD_OUTPUT
-                                         
 output
 .
 splitlines
 (
 )
+            
 )
         
 def
@@ -1097,30 +1124,30 @@ changed
 =
 {
                 
-'
+"
 added
-'
+"
 :
 {
 }
                 
-'
+"
 removed
-'
+"
 :
 {
 }
                 
-'
+"
 modified
-'
+"
 :
 {
 }
                 
-'
+"
 unmodified
-'
+"
 :
 {
 }
@@ -1135,9 +1162,9 @@ added
                 
 changed
 [
-'
+"
 added
-'
+"
 ]
 [
 key
@@ -1156,9 +1183,9 @@ removed
                 
 changed
 [
-'
+"
 removed
-'
+"
 ]
 [
 key
@@ -1190,16 +1217,15 @@ key
                     
 changed
 [
-'
+"
 modified
-'
+"
 ]
 [
 key
 ]
 =
 (
-                        
 vars_before
 [
 key
@@ -1220,9 +1246,9 @@ ENVIRONMENT_VARIABLES
                     
 changed
 [
-'
+"
 unmodified
-'
+"
 ]
 [
 key
@@ -1238,24 +1264,24 @@ changed
         
 result
 [
-'
+"
 env
-'
+"
 ]
 =
 diff_vars
 (
 parsed
 [
-'
+"
 env_before
-'
+"
 ]
 parsed
 [
-'
+"
 env_after
-'
+"
 ]
 )
         
@@ -1266,6 +1292,7 @@ x
 y
 )
 :
+            
 return
 {
 k
@@ -1289,9 +1316,9 @@ y
         
 result
 [
-'
+"
 vars
-'
+"
 ]
 =
 diff_vars
@@ -1301,15 +1328,15 @@ filt
 (
 parsed
 [
-'
+"
 vars_before
-'
+"
 ]
 parsed
 [
-'
+"
 env_before
-'
+"
 ]
 )
             
@@ -1317,15 +1344,15 @@ filt
 (
 parsed
 [
-'
+"
 vars_after
-'
+"
 ]
 parsed
 [
-'
+"
 env_after
-'
+"
 ]
 )
         
@@ -1333,9 +1360,9 @@ env_after
         
 result
 [
-'
+"
 configure_args
-'
+"
 ]
 =
 [
@@ -1350,42 +1377,42 @@ o
 in
 parsed
 [
-'
+"
 ac
-'
+"
 ]
 ]
         
 if
-'
+"
 MOZ_OBJDIR
-'
+"
 in
 parsed
 [
-'
+"
 env_before
-'
+"
 ]
 :
             
 result
 [
-'
+"
 topobjdir
-'
+"
 ]
 =
 parsed
 [
-'
+"
 env_before
-'
+"
 ]
 [
-'
+"
 MOZ_OBJDIR
-'
+"
 ]
         
 mk
@@ -1402,9 +1429,9 @@ o
 in
 parsed
 [
-'
+"
 mk
-'
+"
 ]
 ]
         
@@ -1433,9 +1460,9 @@ None
                 
 result
 [
-'
+"
 make_extra
-'
+"
 ]
 .
 append
@@ -1452,33 +1479,33 @@ match
 .
 group
 (
-'
+"
 var
-'
+"
 )
 match
 .
 group
 (
-'
+"
 value
-'
+"
 )
             
 if
 name
 =
 =
-'
+"
 MOZ_MAKE_FLAGS
-'
+"
 :
                 
 result
 [
-'
+"
 make_flags
-'
+"
 ]
 =
 value
@@ -1493,16 +1520,16 @@ if
 name
 =
 =
-'
+"
 MOZ_OBJDIR
-'
+"
 :
                 
 result
 [
-'
+"
 topobjdir
-'
+"
 ]
 =
 value
@@ -1510,53 +1537,55 @@ value
 if
 parsed
 [
-'
+"
 env_before
-'
+"
 ]
 .
 get
 (
-'
+"
 MOZ_PROFILE_GENERATE
-'
+"
 )
 =
 =
-'
+"
 1
-'
+"
 :
                     
 result
 [
-'
+"
 topobjdir
-'
+"
 ]
 =
 mozpath
 .
 join
 (
+                        
 result
 [
-'
+"
 topobjdir
-'
+"
 ]
-'
+"
 instrumented
-'
+"
+                    
 )
                 
 continue
             
 result
 [
-'
+"
 make_extra
-'
+"
 ]
 .
 append
@@ -1639,7 +1668,7 @@ line
 .
 startswith
 (
-'
+"
 -
 -
 -
@@ -1647,7 +1676,7 @@ startswith
 -
 -
 BEGIN_
-'
+"
 )
 :
                 
@@ -1671,7 +1700,7 @@ line
 [
 len
 (
-'
+"
 -
 -
 -
@@ -1679,7 +1708,7 @@ len
 -
 -
 BEGIN_
-'
+"
 )
 :
 ]
@@ -1696,7 +1725,7 @@ line
 .
 startswith
 (
-'
+"
 -
 -
 -
@@ -1704,7 +1733,7 @@ startswith
 -
 -
 END_
-'
+"
 )
 :
                 
@@ -1718,7 +1747,7 @@ line
 [
 len
 (
-'
+"
 -
 -
 -
@@ -1726,7 +1755,7 @@ len
 -
 -
 END_
-'
+"
 )
 :
 ]
@@ -1741,19 +1770,19 @@ if
 current_type
 =
 =
-'
+"
 AC_OPTION
-'
+"
 :
                     
 ac_options
 .
 append
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1765,19 +1794,19 @@ elif
 current_type
 =
 =
-'
+"
 MK_OPTION
-'
+"
 :
                     
 mk_options
 .
 append
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1805,27 +1834,27 @@ vars_mapping
 =
 {
                 
-'
+"
 BEFORE_SOURCE
-'
+"
 :
 before_source
                 
-'
+"
 AFTER_SOURCE
-'
+"
 :
 after_source
                 
-'
+"
 ENV_BEFORE_SOURCE
-'
+"
 :
 env_before_source
                 
-'
+"
 ENV_AFTER_SOURCE
-'
+"
 :
 env_after_source
             
@@ -1886,10 +1915,10 @@ line
                         
 value
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1921,9 +1950,9 @@ line
 .
 find
 (
-'
+"
 =
-'
+"
 )
                     
 if
@@ -2060,39 +2089,39 @@ line
 return
 {
             
-'
+"
 mk
-'
+"
 :
 mk_options
             
-'
+"
 ac
-'
+"
 :
 ac_options
             
-'
+"
 vars_before
-'
+"
 :
 before_source
             
-'
+"
 vars_after
-'
+"
 :
 after_source
             
-'
+"
 env_before
-'
+"
 :
 env_before_source
             
-'
+"
 env_after
-'
+"
 :
 env_after_source
         
@@ -2111,9 +2140,9 @@ s
 .
 replace
 (
-'
+"
 TOPSRCDIR
-'
+"
 self
 .
 topsrcdir

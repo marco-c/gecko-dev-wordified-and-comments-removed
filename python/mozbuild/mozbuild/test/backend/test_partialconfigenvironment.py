@@ -39,59 +39,59 @@ config
 =
 {
     
-'
+"
 defines
-'
+"
 :
 {
         
-'
+"
 MOZ_FOO
-'
+"
 :
-'
+"
 1
-'
+"
         
-'
+"
 MOZ_BAR
-'
+"
 :
-'
+"
 2
-'
+"
     
 }
     
-'
+"
 substs
-'
+"
 :
 {
         
-'
+"
 MOZ_SUBST_1
-'
+"
 :
-'
+"
 1
-'
+"
         
-'
+"
 MOZ_SUBST_2
-'
+"
 :
-'
+"
 2
-'
+"
         
-'
+"
 CPP
-'
+"
 :
-'
+"
 cpp
-'
+"
     
 }
 }
@@ -184,9 +184,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Test
 the
 automatically
@@ -196,10 +196,9 @@ of
 ACDEFINES
 and
 ALLDEFINES
-        
-'
-'
-'
+"
+"
+"
         
 env
 =
@@ -227,11 +226,11 @@ env
 .
 substs
 [
-'
+"
 ACDEFINES
-'
+"
 ]
-'
+"
 -
 DMOZ_BAR
 =
@@ -240,40 +239,43 @@ DMOZ_BAR
 DMOZ_FOO
 =
 1
-'
+"
 )
         
 self
 .
 assertEqual
 (
+            
 env
 .
 defines
 [
-'
+"
 ALLDEFINES
-'
+"
 ]
+            
 {
-            
-'
+                
+"
 MOZ_BAR
-'
+"
 :
-'
+"
 2
-'
-            
-'
+"
+                
+"
 MOZ_FOO
-'
+"
 :
-'
+"
 1
-'
-        
+"
+            
 }
+        
 )
     
 def
@@ -283,9 +285,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Test
 removing
 a
@@ -303,10 +305,9 @@ with
 '
 None
 '
-        
-'
-'
-'
+"
+"
+"
         
 env
 =
@@ -328,17 +329,17 @@ join
 env
 .
 topobjdir
-'
+"
 config
 .
 statusd
-'
-'
+"
+"
 substs
-'
-'
+"
+"
 MYSUBST
-'
+"
 )
         
 myconfig
@@ -371,9 +372,9 @@ env
 .
 substs
 [
-'
+"
 MYSUBST
-'
+"
 ]
         
 self
@@ -392,19 +393,19 @@ path
         
 myconfig
 [
-'
+"
 substs
-'
+"
 ]
 [
-'
+"
 MYSUBST
-'
+"
 ]
 =
-'
+"
 new
-'
+"
         
 env
 .
@@ -421,13 +422,13 @@ env
 .
 substs
 [
-'
+"
 MYSUBST
-'
+"
 ]
-'
+"
 new
-'
+"
 )
         
 self
@@ -447,14 +448,14 @@ path
 del
 myconfig
 [
-'
+"
 substs
-'
+"
 ]
 [
-'
+"
 MYSUBST
-'
+"
 ]
         
 env
@@ -479,9 +480,9 @@ env
 .
 substs
 [
-'
+"
 MYSUBST
-'
+"
 ]
         
 self
@@ -511,16 +512,17 @@ deps
 =
 sorted
 (
+            
 [
-'
+                
+"
 (
 wildcard
 %
 s
 )
-'
+"
 %
-                       
 (
 mozpath
 .
@@ -529,19 +531,22 @@ join
 env
 .
 topobjdir
-'
+"
 config
 .
 statusd
-'
+"
 d
 )
 )
+                
 for
 d
 in
 deps
+            
 ]
+        
 )
         
 self
@@ -566,9 +571,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Test
 getting
 dependencies
@@ -577,10 +582,9 @@ defines
 and
 substs
 .
-        
-'
-'
-'
+"
+"
+"
         
 env
 =
@@ -617,13 +621,13 @@ env
 .
 defines
 [
-'
+"
 MOZ_FOO
-'
+"
 ]
-'
+"
 1
-'
+"
 )
         
 self
@@ -632,11 +636,11 @@ _assert_deps
 (
 env
 [
-'
+"
 defines
 /
 MOZ_FOO
-'
+"
 ]
 )
         
@@ -648,13 +652,13 @@ env
 .
 defines
 [
-'
+"
 MOZ_BAR
-'
+"
 ]
-'
+"
 2
-'
+"
 )
         
 self
@@ -663,16 +667,16 @@ _assert_deps
 (
 env
 [
-'
+"
 defines
 /
 MOZ_FOO
-'
-'
+"
+"
 defines
 /
 MOZ_BAR
-'
+"
 ]
 )
         
@@ -684,13 +688,13 @@ env
 .
 defines
 [
-'
+"
 MOZ_FOO
-'
+"
 ]
-'
+"
 1
-'
+"
 )
         
 self
@@ -699,16 +703,16 @@ _assert_deps
 (
 env
 [
-'
+"
 defines
 /
 MOZ_FOO
-'
-'
+"
+"
 defines
 /
 MOZ_BAR
-'
+"
 ]
 )
         
@@ -720,37 +724,39 @@ env
 .
 substs
 [
-'
+"
 MOZ_SUBST_1
-'
+"
 ]
-'
+"
 1
-'
+"
 )
         
 self
 .
 _assert_deps
 (
+            
 env
 [
-'
+"
 defines
 /
 MOZ_FOO
-'
-'
+"
+"
 defines
 /
 MOZ_BAR
-'
-'
+"
+"
 substs
 /
 MOZ_SUBST_1
-'
+"
 ]
+        
 )
         
 with
@@ -768,39 +774,46 @@ env
 .
 substs
 [
-'
+"
 NON_EXISTENT
-'
+"
 ]
         
 self
 .
 _assert_deps
 (
+            
 env
+            
 [
-'
+                
+"
 defines
 /
 MOZ_FOO
-'
-'
+"
+                
+"
 defines
 /
 MOZ_BAR
-'
-                                
-'
+"
+                
+"
 substs
 /
 MOZ_SUBST_1
-'
-'
+"
+                
+"
 substs
 /
 NON_EXISTENT
-'
+"
+            
 ]
+        
 )
         
 self
@@ -813,9 +826,9 @@ substs
 .
 get
 (
-'
+"
 NON_EXISTENT
-'
+"
 )
 None
 )
@@ -827,17 +840,16 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Test
 setting
 a
 subst
-        
-'
-'
-'
+"
+"
+"
         
 env
 =
@@ -865,27 +877,27 @@ env
 .
 substs
 [
-'
+"
 MOZ_SUBST_1
-'
+"
 ]
-'
+"
 1
-'
+"
 )
         
 env
 .
 substs
 [
-'
+"
 MOZ_SUBST_1
-'
+"
 ]
 =
-'
+"
 updated
-'
+"
         
 self
 .
@@ -895,13 +907,13 @@ env
 .
 substs
 [
-'
+"
 MOZ_SUBST_1
-'
+"
 ]
-'
+"
 updated
-'
+"
 )
         
 newenv
@@ -921,13 +933,13 @@ newenv
 .
 substs
 [
-'
+"
 MOZ_SUBST_1
-'
+"
 ]
-'
+"
 1
-'
+"
 )
     
 def
@@ -937,9 +949,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Test
 overriding
 a
@@ -948,10 +960,9 @@ with
 an
 environment
 variable
-        
-'
-'
-'
+"
+"
+"
         
 env
 =
@@ -979,13 +990,13 @@ env
 .
 substs
 [
-'
+"
 MOZ_SUBST_1
-'
+"
 ]
-'
+"
 1
-'
+"
 )
         
 self
@@ -996,13 +1007,13 @@ env
 .
 substs
 [
-'
+"
 CPP
-'
+"
 ]
-'
+"
 cpp
-'
+"
 )
         
 env
@@ -1018,30 +1029,30 @@ os
 .
 environ
 [
-'
+"
 MOZ_SUBST_1
-'
+"
 ]
 =
-'
+"
 subst
 1
 environ
-'
+"
         
 os
 .
 environ
 [
-'
+"
 CPP
-'
+"
 ]
 =
-'
+"
 cpp
 environ
-'
+"
         
 self
 .
@@ -1051,15 +1062,15 @@ env
 .
 substs
 [
-'
+"
 MOZ_SUBST_1
-'
+"
 ]
-'
+"
 subst
 1
 environ
-'
+"
 )
         
 self
@@ -1070,13 +1081,13 @@ env
 .
 substs
 [
-'
+"
 CPP
-'
+"
 ]
-'
+"
 cpp
-'
+"
 )
     
 def
@@ -1086,9 +1097,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Test
 calling
 update
@@ -1099,10 +1110,9 @@ or
 defines
 pseudo
 dicts
-        
-'
-'
-'
+"
+"
+"
         
 env
 =
@@ -1125,13 +1135,13 @@ config
 mysubsts
 =
 {
-'
+"
 NEW
-'
+"
 :
-'
+"
 new
-'
+"
 }
         
 mysubsts
@@ -1153,13 +1163,13 @@ assertEqual
 (
 mysubsts
 [
-'
+"
 NEW
-'
+"
 ]
-'
+"
 new
-'
+"
 )
         
 self
@@ -1168,25 +1178,25 @@ assertEqual
 (
 mysubsts
 [
-'
+"
 CPP
-'
+"
 ]
-'
+"
 cpp
-'
+"
 )
         
 mydefines
 =
 {
-'
+"
 DEBUG
-'
+"
 :
-'
+"
 1
-'
+"
 }
         
 mydefines
@@ -1208,13 +1218,13 @@ assertEqual
 (
 mydefines
 [
-'
+"
 DEBUG
-'
+"
 ]
-'
+"
 1
-'
+"
 )
         
 self
@@ -1223,13 +1233,13 @@ assertEqual
 (
 mydefines
 [
-'
+"
 MOZ_FOO
-'
+"
 ]
-'
+"
 1
-'
+"
 )
 if
 __name__

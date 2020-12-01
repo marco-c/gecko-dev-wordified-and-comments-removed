@@ -12,9 +12,7 @@ import
 six
 TARGET_CACHE_INDEX
 =
-(
-    
-'
+"
 {
 trust_domain
 }
@@ -40,13 +38,12 @@ hash
 {
 digest
 }
-'
-)
+"
 EXTRA_CACHE_INDEXES
 =
 [
     
-'
+"
 {
 trust_domain
 }
@@ -68,9 +65,9 @@ name
 }
 .
 latest
-'
+"
     
-'
+"
 {
 trust_domain
 }
@@ -96,11 +93,12 @@ pushdate
 {
 build_date_long
 }
-'
+"
 ]
 def
 add_optimization
 (
+    
 config
 taskdesc
 cache_type
@@ -351,15 +349,14 @@ hashlib
 .
 sha256
 (
-            
 six
 .
 ensure_binary
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -376,36 +373,36 @@ subs
 =
 {
         
-'
+"
 trust_domain
-'
+"
 :
 config
 .
 graph_config
 [
-'
+"
 trust
 -
 domain
-'
+"
 ]
         
-'
+"
 type
-'
+"
 :
 cache_type
         
-'
+"
 name
-'
+"
 :
 cache_name
         
-'
+"
 digest
-'
+"
 :
 digest
     
@@ -429,9 +426,9 @@ config
 .
 params
 [
-'
+"
 level
-'
+"
 ]
 )
 4
@@ -441,9 +438,9 @@ level
         
 subs
 [
-'
+"
 level
-'
+"
 ]
 =
 level
@@ -464,17 +461,17 @@ subs
     
 taskdesc
 [
-'
+"
 optimization
-'
+"
 ]
 =
 {
-'
+"
 index
 -
 search
-'
+"
 :
 index_routes
 }
@@ -483,9 +480,9 @@ taskdesc
 .
 setdefault
 (
-'
+"
 routes
-'
+"
 [
 ]
 )
@@ -493,12 +490,12 @@ routes
 append
 (
         
-'
+"
 index
 .
 {
 }
-'
+"
 .
 format
 (
@@ -511,19 +508,21 @@ format
 subs
 )
 )
+    
 )
     
 subs
 [
-'
+"
 build_date_long
-'
+"
 ]
 =
 time
 .
 strftime
 (
+        
 "
 %
 Y
@@ -547,7 +546,6 @@ M
 %
 S
 "
-                                            
 time
 .
 gmtime
@@ -556,30 +554,31 @@ config
 .
 params
 [
-'
+"
 build_date
-'
+"
 ]
 )
+    
 )
     
 taskdesc
 [
-'
+"
 routes
-'
+"
 ]
 .
 extend
 (
-[
         
-'
+[
+"
 index
 .
 {
 }
-'
+"
 .
 format
 (
@@ -592,44 +591,43 @@ format
 subs
 )
 )
-        
 for
 route
 in
 EXTRA_CACHE_INDEXES
-    
 ]
+    
 )
     
 taskdesc
 [
-'
+"
 attributes
-'
+"
 ]
 [
-'
+"
 cached_task
-'
+"
 ]
 =
 {
         
-'
+"
 type
-'
+"
 :
 cache_type
         
-'
+"
 name
-'
+"
 :
 cache_name
         
-'
+"
 digest
-'
+"
 :
 digest
     
@@ -637,14 +635,14 @@ digest
     
 taskdesc
 [
-'
+"
 attributes
-'
+"
 ]
 [
-'
+"
 eager_indexes
-'
+"
 ]
 =
 [

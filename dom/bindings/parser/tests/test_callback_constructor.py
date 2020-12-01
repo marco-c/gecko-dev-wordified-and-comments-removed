@@ -12,6 +12,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -44,6 +45,7 @@ arg
 "
 "
 "
+    
 )
     
 results
@@ -105,7 +107,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 be
@@ -118,6 +119,7 @@ harness
 .
 check
 (
+        
 iface
 .
 identifier
@@ -125,11 +127,13 @@ identifier
 QName
 (
 )
+        
 "
 :
 :
 TestCallbackConstructor
 "
+        
 "
 Interface
 has
@@ -137,12 +141,14 @@ the
 right
 QName
 "
+    
 )
     
 harness
 .
 check
 (
+        
 iface
 .
 identifier
@@ -158,6 +164,7 @@ the
 right
 name
 "
+    
 )
     
 harness
@@ -201,7 +208,6 @@ WebIDL
 .
 IDLAttribute
 )
-               
 "
 Should
 be
@@ -269,6 +275,7 @@ harness
 .
 check
 (
+        
 attr
 .
 identifier
@@ -276,6 +283,7 @@ identifier
 QName
 (
 )
+        
 "
 :
 :
@@ -284,6 +292,7 @@ TestCallbackConstructor
 :
 constructorAttribute
 "
+        
 "
 Attr
 has
@@ -291,12 +300,14 @@ the
 right
 QName
 "
+    
 )
     
 harness
 .
 check
 (
+        
 attr
 .
 identifier
@@ -312,6 +323,7 @@ the
 right
 name
 "
+    
 )
     
 t
@@ -419,6 +431,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -439,6 +452,7 @@ object
 "
 "
 "
+        
 )
         
 results
@@ -488,6 +502,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -508,6 +523,7 @@ object
 "
 "
 "
+        
 )
         
 results
@@ -529,6 +545,7 @@ harness
 .
 ok
 (
+        
 threw
 "
 Should
@@ -538,4 +555,5 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 callback
 constructors
 "
+    
 )

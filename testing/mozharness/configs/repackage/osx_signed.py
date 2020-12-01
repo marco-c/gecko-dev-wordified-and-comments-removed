@@ -35,9 +35,9 @@ LOCALE
 "
 )
     
-'
+"
 tooltool_cache
-'
+"
 :
 os
 .
@@ -45,8 +45,8 @@ environ
 .
 get
 (
-'
+"
 TOOLTOOL_CACHE
-'
+"
 )
 }

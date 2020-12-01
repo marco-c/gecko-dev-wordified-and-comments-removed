@@ -8,13 +8,13 @@ import
 GeckoPrettyPrinter
 GeckoPrettyPrinter
 (
-'
+"
 mozilla
 :
 :
 LinkedList
-'
-'
+"
+"
 ^
 mozilla
 :
@@ -24,7 +24,7 @@ LinkedList
 .
 *
 >
-'
+"
 )
 class
 linkedlist_printer
@@ -77,9 +77,9 @@ self
 .
 value
 [
-'
+"
 sentinel
-'
+"
 ]
         
 pSentinel
@@ -92,9 +92,9 @@ pNext
 =
 sentinel
 [
-'
+"
 mNext
-'
+"
 ]
         
 i
@@ -129,10 +129,10 @@ t_ptr_type
             
 yield
 (
-'
+"
 %
 d
-'
+"
 %
 i
 list_value
@@ -142,9 +142,9 @@ pNext
 =
 list_elem
 [
-'
+"
 mNext
-'
+"
 ]
             
 i
@@ -177,6 +177,6 @@ self
 :
         
 return
-'
+"
 array
-'
+"

@@ -1,11 +1,11 @@
 DevToolsModules
 (
-'
+"
 addons
 .
 js
-'
-'
+"
+"
 webextension
 -
 inspected
@@ -13,5 +13,5 @@ inspected
 window
 .
 js
-'
+"
 )

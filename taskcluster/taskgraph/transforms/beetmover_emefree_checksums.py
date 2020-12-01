@@ -78,61 +78,63 @@ schema
 .
 extend
 (
-{
     
+{
+        
 Optional
 (
-'
+"
 label
-'
+"
 )
 :
 text_type
-    
+        
 Optional
 (
-'
+"
 extra
-'
+"
 )
 :
 object
-    
+        
 Optional
 (
-'
+"
 shipping
 -
 phase
-'
+"
 )
 :
 task_description_schema
 [
-'
+"
 shipping
 -
 phase
-'
+"
 ]
-    
+        
 Optional
 (
-'
+"
 shipping
 -
 product
-'
+"
 )
 :
 task_description_schema
 [
-'
+"
 shipping
 -
 product
-'
+"
 ]
+    
 }
 )
 transforms
@@ -167,11 +169,11 @@ dep_job
 =
 job
 [
-'
+"
 primary
 -
 dependency
-'
+"
 ]
         
 attributes
@@ -216,18 +218,18 @@ task
 .
 get
 (
-'
+"
 extra
-'
+"
 {
 }
 )
 .
 get
 (
-'
+"
 repack_id
-'
+"
 )
         
 if
@@ -314,9 +316,9 @@ attributes
 .
 get
 (
-'
+"
 build_type
-'
+"
 )
             
 )
@@ -330,38 +332,40 @@ extra
         
 extra
 [
-'
+"
 partner_path
-'
+"
 ]
 =
 dep_job
 .
 task
 [
-'
+"
 payload
-'
+"
 ]
 [
-'
+"
 upstreamArtifacts
-'
+"
 ]
 [
 0
 ]
 [
-'
+            
+"
 locale
-'
+"
+        
 ]
         
 extra
 [
-'
+"
 repack_id
-'
+"
 ]
 =
 repack_id
@@ -396,9 +400,9 @@ k
 .
 startswith
 (
-'
+"
 beetmover
-'
+"
 )
 :
                 
@@ -420,31 +424,31 @@ task
 =
 {
             
-'
+"
 label
-'
+"
 :
 label
             
-'
+"
 description
-'
+"
 :
 description
             
-'
+"
 worker
 -
 type
-'
+"
 :
-'
+"
 {
 }
 /
 {
 }
-'
+"
 .
 format
 (
@@ -453,54 +457,54 @@ dep_job
 .
 task
 [
-'
+"
 provisionerId
-'
+"
 ]
                 
 dep_job
 .
 task
 [
-'
+"
 workerType
-'
+"
 ]
             
 )
             
-'
+"
 scopes
-'
+"
 :
 dep_job
 .
 task
 [
-'
+"
 scopes
-'
+"
 ]
             
-'
+"
 dependencies
-'
+"
 :
 dependencies
             
-'
+"
 attributes
-'
+"
 :
 attributes
             
-'
+"
 run
 -
 on
 -
 projects
-'
+"
 :
 dep_job
 .
@@ -508,73 +512,73 @@ attributes
 .
 get
 (
-'
+"
 run_on_projects
-'
+"
 )
             
-'
+"
 extra
-'
+"
 :
 extra
         
 }
         
 if
-'
+"
 shipping
 -
 phase
-'
+"
 in
 job
 :
             
 task
 [
-'
+"
 shipping
 -
 phase
-'
+"
 ]
 =
 job
 [
-'
+"
 shipping
 -
 phase
-'
+"
 ]
         
 if
-'
+"
 shipping
 -
 product
-'
+"
 in
 job
 :
             
 task
 [
-'
+"
 shipping
 -
 product
-'
+"
 ]
 =
 job
 [
-'
+"
 shipping
 -
 product
-'
+"
 ]
         
 yield
@@ -604,8 +608,9 @@ checksums
 upstream_artifacts
 =
 [
-{
         
+{
+            
 "
 taskId
 "
@@ -624,7 +629,7 @@ beetmover
 "
 ]
 }
-        
+            
 "
 taskType
 "
@@ -632,13 +637,13 @@ taskType
 "
 signing
 "
-        
+            
 "
 paths
 "
 :
 common_paths
-        
+            
 "
 locale
 "
@@ -656,8 +661,9 @@ format
 (
 partner_path
 )
-    
+        
 }
+    
 ]
     
 return
@@ -681,7 +687,6 @@ jobs
         
 valid_beetmover_job
 =
-(
 len
 (
 job
@@ -694,7 +699,6 @@ dependencies
 =
 =
 1
-)
         
 if
 not
@@ -755,9 +759,9 @@ beetmover
                 
 refs
 [
-'
+"
 beetmover
-'
+"
 ]
 =
 "
@@ -796,25 +800,26 @@ beetmover
 dependency
 !
 "
+            
 )
         
 worker
 =
 {
             
-'
+"
 implementation
-'
+"
 :
-'
+"
 beetmover
-'
+"
             
-'
+"
 release
 -
 properties
-'
+"
 :
 craft_release_properties
 (
@@ -822,35 +827,36 @@ config
 job
 )
             
-'
+"
 upstream
 -
 artifacts
-'
+"
 :
 generate_upstream_artifacts
 (
                 
 refs
+                
 job
 [
-'
+"
 extra
-'
+"
 ]
 [
-'
+"
 partner_path
-'
+"
 ]
             
 )
             
-'
+"
 partner
 -
 public
-'
+"
 :
 True
         

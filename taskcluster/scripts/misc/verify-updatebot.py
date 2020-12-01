@@ -290,17 +290,21 @@ check_output
 (
     
 [
+        
 "
 hg
 "
+        
 "
 log
 "
+        
 "
 -
 -
 template
 "
+        
 "
 {
 node
@@ -318,16 +322,19 @@ firstline
 \
 n
 "
+        
 "
 -
 r
 "
+        
 "
 !
 public
 (
 )
 "
+    
 ]
 )
 revisions
@@ -456,6 +463,7 @@ bug
 raise
 Exception
 (
+                
 "
 Could
 not
@@ -473,8 +481,8 @@ Description
 s
 )
 "
+                
 %
-                            
 (
 revision
 .
@@ -483,6 +491,7 @@ revision
 .
 desc
 )
+            
 )
 overall_failure
 =
@@ -655,6 +664,8 @@ moz_yaml_file
                     
 msg
 =
+(
+                        
 "
 Already
 had
@@ -678,11 +689,13 @@ another
 s
 )
 "
+                        
 %
 (
-                        
 moz_yaml_file
 f
+)
+                    
 )
                     
 raise
@@ -720,6 +733,7 @@ bug
         
 print
 (
+            
 "
 Found
 %
@@ -731,15 +745,19 @@ this
 bug
 .
 "
+            
 %
 len
 (
 all_commits_for_this_update
 )
+        
 )
         
 commitdiff
 =
+(
+            
 subprocess
 .
 check_output
@@ -756,6 +774,7 @@ u
 node
 ]
 )
+            
 .
 decode
 (
@@ -765,6 +784,7 @@ utf
 8
 "
 )
+            
 .
 split
 (
@@ -772,6 +792,8 @@ split
 \
 n
 "
+)
+        
 )
         
 start_index
@@ -873,16 +895,19 @@ subprocess
 .
 check_output
 (
+                
 [
+                    
 "
 hg
 "
+                    
 "
 -
 -
 config
 "
-                                     
+                    
 "
 ui
 .
@@ -897,14 +922,16 @@ mozilla
 com
 >
 "
-                                     
+                    
 "
 commit
 "
+                    
 "
 -
 m
 "
+                    
 "
 Backed
 out
@@ -916,7 +943,9 @@ s
 c
 .
 node
+                
 ]
+            
 )
         
 print
@@ -933,6 +962,7 @@ subprocess
 .
 call
 (
+            
 [
 "
 .
@@ -950,6 +980,7 @@ revision
 target_revision
 moz_yaml_file
 ]
+        
 )
         
 if
@@ -981,6 +1012,8 @@ ret
         
 recreated_diff
 =
+(
+            
 subprocess
 .
 check_output
@@ -1012,6 +1045,8 @@ n
 "
 )
         
+)
+        
 this_failure
 =
 False
@@ -1031,6 +1066,7 @@ patch_diff
             
 print
 (
+                
 "
 The
 recreated
@@ -1051,8 +1087,8 @@ lines
 long
 .
 "
+                
 %
-                  
 (
 len
 (
@@ -1063,6 +1099,7 @@ len
 patch_diff
 )
 )
+            
 )
             
 this_failure
@@ -1108,6 +1145,7 @@ this_failure
                     
 print
 (
+                        
 "
 Identified
 a
@@ -1121,8 +1159,10 @@ line
 i
 .
 "
+                        
 %
 i
+                    
 )
                 
 this_failure
@@ -1150,25 +1190,30 @@ subprocess
 .
 check_output
 (
+            
 [
+                
 "
 hg
 "
+                
 "
 -
 -
 config
 "
+                
 "
 extensions
 .
 strip
 =
 "
-                                 
+                
 "
 strip
 "
+                
 "
 tip
 ~
@@ -1183,7 +1228,9 @@ all_commits_for_this_update
 -
 1
 )
+            
 ]
+        
 )
         
 if

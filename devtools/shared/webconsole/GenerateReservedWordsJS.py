@@ -66,9 +66,9 @@ with
 open
 (
 filename
-'
+"
 r
-'
+"
 )
 as
 f
@@ -106,7 +106,6 @@ group
 )
     
 assert
-(
 len
 (
 reserved_word_list
@@ -114,7 +113,6 @@ reserved_word_list
 !
 =
 0
-)
     
 return
 reserved_word_list
@@ -128,19 +126,19 @@ s
     
 opt
 [
-'
+"
 output
-'
+"
 ]
 .
 write
 (
-'
+"
 {
 }
 \
 n
-'
+"
 .
 format
 (
@@ -165,26 +163,23 @@ reserved_words_h
 opt
 =
 {
-        
-'
+"
 output
-'
+"
 :
 output
-    
 }
     
 line
 (
 opt
-'
+"
 const
 JS_RESERVED_WORDS
 =
 [
-'
+"
 )
-;
     
 for
 word
@@ -211,33 +206,31 @@ word
 line
 (
 opt
-'
+"
 ]
 ;
-'
+"
 )
-;
     
 line
 (
 opt
-'
+"
 module
 .
 exports
 =
 JS_RESERVED_WORDS
 ;
-'
+"
 )
-;
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

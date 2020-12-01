@@ -83,20 +83,20 @@ config
 .
 params
 [
-'
+"
 try_task_config
-'
+"
 ]
 .
 get
 (
-'
+"
 visual
 -
 metrics
 -
 jobs
-'
+"
 )
     
 if
@@ -124,21 +124,21 @@ vismet_jobs
             
 job
 [
-'
+"
 task
-'
+"
 ]
 [
-'
+"
 payload
-'
+"
 ]
 .
 setdefault
 (
-'
+"
 env
-'
+"
 {
 }
 )
@@ -149,6 +149,7 @@ update
 VISUAL_METRICS_JOBS_JSON
 =
 vismet_jobs
+            
 )
         
 yield

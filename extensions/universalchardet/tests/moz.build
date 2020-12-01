@@ -2,9 +2,9 @@ MOCHITEST_CHROME_MANIFESTS
 +
 =
 [
-'
+"
 chrome
 .
 ini
-'
+"
 ]

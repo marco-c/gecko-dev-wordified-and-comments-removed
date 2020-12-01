@@ -293,82 +293,84 @@ harness
 types
 =
 [
+        
 "
 float
 "
-             
+        
 "
 double
 "
-             
+        
 "
 short
 "
-             
+        
 "
 unsigned
 short
 "
-             
+        
 "
 long
 "
-             
+        
 "
 unsigned
 long
 "
-             
+        
 "
 long
 long
 "
-             
+        
 "
 unsigned
 long
 long
 "
-             
+        
 "
 boolean
 "
-             
+        
 "
 byte
 "
-             
+        
 "
 octet
 "
-             
+        
 "
 DOMString
 "
-             
+        
 "
 ByteString
 "
-             
+        
 "
 USVString
 "
-             
+        
 "
 object
 "
-             
+        
 "
 ArrayBuffer
 "
-             
+        
 "
 TestInterface1
 "
-             
+        
 "
 TestInterface2
 "
+    
 ]
     
 testPre
@@ -397,7 +399,10 @@ TestInterface2
     
 interface
 =
+(
+        
 testPre
+        
 +
 "
 "
@@ -410,6 +415,8 @@ PrepareForTest
 "
 "
 "
+    
+)
     
 for
 (
@@ -430,6 +437,7 @@ string
 .
 Template
 (
+            
 "
 "
 "
@@ -448,6 +456,7 @@ i
 "
 "
 "
+        
 )
 .
 substitute
@@ -680,6 +689,7 @@ typeCombinations
             
 if
 (
+                
 typesAreNotDistinguishable
 (
 (
@@ -699,8 +709,8 @@ c
 ]
 )
 )
-and
                 
+and
 typesAreDistinguishable
 (
 (
@@ -720,8 +730,8 @@ c
 ]
 )
 )
-and
                 
+and
 typesAreDistinguishable
 (
 (
@@ -741,6 +751,7 @@ c
 ]
 )
 )
+            
 )
 :
                 
@@ -781,6 +792,7 @@ validUnionTypes
 =
 chain
 (
+        
 unionTypes
 (
 combinations
@@ -790,7 +802,7 @@ types
 )
 typesAreDistinguishable
 )
-                            
+        
 unionTypes
 (
 combinations
@@ -800,12 +812,14 @@ types
 )
 typesAreDistinguishable
 )
+    
 )
     
 invalidUnionTypes
 =
 chain
 (
+        
 unionTypes
 (
 combinations_with_replacement
@@ -815,7 +829,7 @@ types
 )
 typesAreNotDistinguishable
 )
-                              
+        
 invalidUnionWithUnion
 (
 combinations
@@ -824,11 +838,15 @@ types
 3
 )
 )
+    
 )
     
 interface
 =
+(
+        
 testPre
+        
 +
 "
 "
@@ -841,6 +859,8 @@ TestUnion
 "
 "
 "
+    
+)
     
 for
 (
@@ -861,6 +881,7 @@ string
 .
 Template
 (
+            
 "
 "
 "
@@ -916,6 +937,7 @@ arg
 "
 "
 "
+        
 )
 .
 substitute
@@ -973,12 +995,16 @@ invalidUnionTypes
         
 interface
 =
+(
+            
 testPre
+            
 +
 string
 .
 Template
 (
+                
 "
 "
 "
@@ -1003,6 +1029,7 @@ arg
 "
 "
 "
+            
 )
 .
 substitute
@@ -1010,6 +1037,8 @@ substitute
 type
 =
 invalid
+)
+        
 )
         
 threw

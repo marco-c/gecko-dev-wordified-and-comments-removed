@@ -11,9 +11,9 @@ sys
 import
 signal
 if
-'
+"
 deadlock
-'
+"
 in
 sys
 .

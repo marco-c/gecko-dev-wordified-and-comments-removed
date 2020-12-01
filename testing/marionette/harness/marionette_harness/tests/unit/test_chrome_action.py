@@ -90,6 +90,7 @@ pointerType
 mouse
 "
 }
+        
 )
         
 self
@@ -104,7 +105,6 @@ actions
 .
 sequence
 (
-            
 "
 key
 "
@@ -276,13 +276,14 @@ self
 .
 assertFalse
 (
+                
 self
 .
 marionette
 .
 execute_script
 (
-                
+                    
 "
 return
 document
@@ -296,7 +297,9 @@ testBox
 .
 checked
 "
+                
 )
+            
 )
             
 self
@@ -318,13 +321,14 @@ self
 .
 assertTrue
 (
+                
 self
 .
 marionette
 .
 execute_script
 (
-                
+                    
 "
 return
 document
@@ -338,7 +342,9 @@ testBox
 .
 checked
 "
+                
 )
+            
 )
         
 else
@@ -420,13 +426,14 @@ self
 .
 assertEqual
 (
+                
 self
 .
 marionette
 .
 execute_script
 (
-                
+                    
 "
 return
 document
@@ -440,10 +447,13 @@ textInput
 .
 value
 "
+                
 )
+                
 "
 testx
 "
+            
 )
         
 else

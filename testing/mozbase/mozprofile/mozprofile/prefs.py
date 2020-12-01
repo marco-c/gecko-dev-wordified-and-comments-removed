@@ -37,12 +37,12 @@ string_types
 __all__
 =
 (
-'
+"
 PreferencesReadError
-'
-'
+"
+"
 Preferences
-'
+"
 )
 class
 PreferencesReadError
@@ -376,9 +376,9 @@ if
 value
 =
 =
-'
+"
 true
-'
+"
 :
             
 return
@@ -388,9 +388,9 @@ if
 value
 =
 =
-'
+"
 false
-'
+"
 :
             
 return
@@ -478,9 +478,9 @@ path
 )
         
 if
-'
+"
 :
-'
+"
 in
 basename
 :
@@ -492,9 +492,9 @@ path
 .
 rsplit
 (
-'
+"
 :
-'
+"
 1
 )
         
@@ -993,9 +993,9 @@ cls
 path
 pref_setter
 =
-'
+"
 user_pref
-'
+"
 interpolation
 =
 None
@@ -1082,12 +1082,12 @@ values
         
 marker
 =
-'
+"
 #
 #
 /
 /
-'
+"
         
 lines
 =
@@ -1152,10 +1152,10 @@ pref_setter
 continue
             
 if
-'
+"
 /
 /
-'
+"
 in
 line
 :
@@ -1166,10 +1166,10 @@ line
 .
 replace
 (
-'
+"
 /
 /
-'
+"
 marker
 )
             
@@ -1182,10 +1182,10 @@ line
         
 string
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1235,11 +1235,13 @@ processed_tokens
 .
 append
 (
+                
 token
 [
 :
 2
 ]
+            
 )
         
 string
@@ -1306,9 +1308,9 @@ strip
 .
 rstrip
 (
-'
+"
 ;
-'
+"
 )
 for
 i
@@ -1317,10 +1319,10 @@ string
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 if
 i
@@ -1333,19 +1335,19 @@ strip
 _globals
 =
 {
-'
+"
 retval
-'
+"
 :
 retval
-'
+"
 true
-'
+"
 :
 True
-'
+"
 false
-'
+"
 :
 False
 }
@@ -1422,10 +1424,10 @@ value
 replace
 (
 marker
-'
+"
 /
 /
-'
+"
 )
 )
         
@@ -1442,7 +1444,7 @@ _file
 prefs
 pref_string
 =
-'
+"
 user_pref
 (
 %
@@ -1451,7 +1453,7 @@ s
 s
 )
 ;
-'
+"
 )
 :
         
@@ -1480,9 +1482,9 @@ f
 open
 (
 _file
-'
+"
 a
-'
+"
 )
         
 else
@@ -1525,7 +1527,6 @@ dumps
 v
 )
 )
-                  
 for
 k
 v

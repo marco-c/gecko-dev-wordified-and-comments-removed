@@ -67,9 +67,9 @@ dirname
 (
 here
 )
-'
+"
 util
-'
+"
 )
 )
 from
@@ -105,23 +105,26 @@ argparser
 .
 add_argument
 (
-'
+        
+"
 -
 s
-'
-'
+"
+        
+"
 -
 -
 show
 -
 estimates
-'
+"
+        
 action
 =
 "
 store_true
 "
-                           
+        
 help
 =
 "
@@ -135,30 +138,35 @@ default
 False
 )
 "
+    
 )
     
 argparser
 .
 add_argument
 (
-'
+        
+"
 -
 g
-'
-'
+"
+        
+"
 -
 -
 graph
 -
 cache
-'
+"
+        
 type
 =
 str
+        
 default
 =
 None
-                           
+        
 help
 =
 "
@@ -168,28 +176,33 @@ task
 graph
 dependencies
 "
+    
 )
     
 argparser
 .
 add_argument
 (
-'
+        
+"
 -
 c
-'
-'
+"
+        
+"
 -
 -
 cache_dir
-'
+"
+        
 type
 =
 str
+        
 default
 =
 None
-                           
+        
 help
 =
 "
@@ -201,28 +214,33 @@ containing
 task
 durations
 "
+    
 )
     
 argparser
 .
 add_argument
 (
-'
+        
+"
 -
 t
-'
-'
+"
+        
+"
 -
 -
 tasklist
-'
+"
+        
 type
 =
 str
+        
 default
 =
 None
-                           
+        
 help
 =
 "
@@ -235,6 +253,7 @@ the
 selected
 tasks
 "
+    
 )
     
 return
@@ -376,9 +395,9 @@ os
 .
 environ
 [
-'
+"
 FZF_PREVIEW_COLUMNS
-'
+"
 ]
 )
     
@@ -444,6 +463,7 @@ durations
 dependency_duration
 "
 ]
+    
 )
     
 if
@@ -508,7 +528,6 @@ durations
 wall_duration_seconds
 "
 ]
-        
 durations
 [
 "
@@ -526,6 +545,7 @@ H
 M
 "
 )
+    
 )
     
 duration_width
@@ -616,9 +636,9 @@ duration
             
 align
 =
-'
+"
 <
-'
+"
             
 width
 =
@@ -632,9 +652,9 @@ duration_width
             
 nalign
 =
-'
+"
 >
-'
+"
             
 nwidth
 =

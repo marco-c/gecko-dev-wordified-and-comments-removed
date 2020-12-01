@@ -21,9 +21,9 @@ monkeypatch
 .
 delenv
 (
-'
+"
 MACH_STDOUT_ISATTY
-'
+"
 raising
 =
 False
@@ -34,9 +34,9 @@ monkeypatch
 setattr
 (
 os
-'
+"
 isatty
-'
+"
 lambda
 fd
 :
@@ -75,9 +75,9 @@ env_is_set
 .
 append
 (
-'
+"
 MACH_STDOUT_ISATTY
-'
+"
 in
 os
 .
@@ -99,9 +99,9 @@ monkeypatch
 setattr
 (
 m
-'
+"
 _run
-'
+"
 wrap_run
 )
     
@@ -130,9 +130,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

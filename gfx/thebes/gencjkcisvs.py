@@ -30,11 +30,11 @@ argv
 >
 1
 else
-'
+"
 StandardizedVariants
 .
 txt
-'
+"
 )
 line
 =
@@ -49,7 +49,7 @@ re
 .
 compile
 (
-'
+"
 ^
 #
 (
@@ -73,7 +73,7 @@ d
 .
 txt
 )
-'
+"
 )
 .
 search
@@ -98,7 +98,8 @@ re
 .
 compile
 (
-'
+    
+"
 ^
 (
 [
@@ -142,7 +143,7 @@ F
 }
 )
 ;
-'
+"
 )
 while
 True
@@ -164,12 +165,12 @@ line
 break
     
 if
-'
+"
 CJK
 COMPATIBILITY
 IDEOGRAPH
 -
-'
+"
 not
 in
 line
@@ -320,19 +321,20 @@ argv
 >
 2
 else
-'
+"
 CJKCompatSVS
 .
 cpp
-'
-'
+"
+"
 wb
-'
+"
 )
 f
 .
 write
 (
+    
 "
 "
 "
@@ -592,6 +594,7 @@ sCJKCompatSVSTable
 "
 "
 "
+    
 %
 (
 os
@@ -614,7 +617,7 @@ f
 .
 write
 (
-'
+"
 U16
 (
 14
@@ -624,13 +627,13 @@ U16
 format
 \
 n
-'
+"
 )
 f
 .
 write
 (
-'
+"
 U32
 (
 %
@@ -641,7 +644,7 @@ d
 length
 \
 n
-'
+"
 %
 length
 )
@@ -649,7 +652,7 @@ f
 .
 write
 (
-'
+"
 U32
 (
 %
@@ -660,7 +663,7 @@ d
 numVarSelectorRecords
 \
 n
-'
+"
 %
 len
 (
@@ -688,7 +691,8 @@ f
 .
 write
 (
-'
+        
+"
 U24
 (
 0x
@@ -713,7 +717,8 @@ d
 ]
 \
 n
-'
+"
+        
 %
 (
 k
@@ -723,6 +728,7 @@ i
 ]
 i
 )
+    
 )
 for
 (
@@ -744,7 +750,7 @@ f
 .
 write
 (
-'
+"
 /
 /
 0x
@@ -752,7 +758,7 @@ write
 04X
 \
 n
-'
+"
 %
 k
 )
@@ -761,7 +767,7 @@ f
 .
 write
 (
-'
+"
 U32
 (
 %
@@ -772,7 +778,7 @@ d
 numUVSMappings
 \
 n
-'
+"
 %
 len
 (
@@ -800,7 +806,7 @@ f
 .
 write
 (
-'
+"
 U24
 (
 0x
@@ -815,7 +821,7 @@ GLYPH
 )
 \
 n
-'
+"
 %
 (
 unified
@@ -826,6 +832,7 @@ f
 .
 write
 (
+    
 "
 "
 "
@@ -864,6 +871,7 @@ bug
 "
 "
 "
+    
 %
 length
 )

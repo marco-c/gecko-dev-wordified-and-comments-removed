@@ -12,99 +12,99 @@ INTEGRATION_PROJECTS
 =
 {
     
-'
+"
 autoland
-'
+"
 }
 TRUNK_PROJECTS
 =
 INTEGRATION_PROJECTS
 |
 {
-'
+"
 mozilla
 -
 central
-'
-'
+"
+"
 comm
 -
 central
-'
+"
 }
 RELEASE_PROJECTS
 =
 {
     
-'
+"
 mozilla
 -
 central
-'
+"
     
-'
+"
 mozilla
 -
 beta
-'
+"
     
-'
+"
 mozilla
 -
 release
-'
+"
     
-'
+"
 mozilla
 -
 esr78
-'
+"
     
-'
+"
 comm
 -
 central
-'
+"
     
-'
+"
 comm
 -
 beta
-'
+"
     
-'
+"
 comm
 -
 esr78
-'
+"
     
-'
+"
 oak
-'
+"
 }
 RELEASE_PROMOTION_PROJECTS
 =
 {
     
-'
+"
 jamun
-'
+"
     
-'
+"
 maple
-'
+"
     
-'
+"
 try
-'
+"
     
-'
+"
 try
 -
 comm
 -
 central
-'
+"
 }
 |
 RELEASE_PROJECTS
@@ -112,7 +112,9 @@ TEMPORARY_PROJECTS
 =
 set
 (
+    
 {
+    
 }
 )
 ALL_PROJECTS
@@ -126,18 +128,18 @@ RUN_ON_PROJECT_ALIASES
 =
 {
     
-'
+"
 all
-'
+"
 :
 lambda
 project
 :
 True
     
-'
+"
 integration
-'
+"
 :
 lambda
 project
@@ -146,9 +148,9 @@ project
 in
 INTEGRATION_PROJECTS
     
-'
+"
 release
-'
+"
 :
 lambda
 project
@@ -157,9 +159,9 @@ project
 in
 RELEASE_PROJECTS
     
-'
+"
 trunk
-'
+"
 :
 lambda
 project
@@ -172,7 +174,7 @@ _COPYABLE_ATTRIBUTES
 =
 (
     
-'
+"
 accepted
 -
 mar
@@ -180,75 +182,75 @@ mar
 channel
 -
 ids
-'
+"
     
-'
+"
 artifact_map
-'
+"
     
-'
+"
 artifact_prefix
-'
+"
     
-'
+"
 build_platform
-'
+"
     
-'
+"
 build_type
-'
+"
     
-'
+"
 l10n_chunk
-'
+"
     
-'
+"
 locale
-'
+"
     
-'
+"
 mar
 -
 channel
 -
 id
-'
+"
     
-'
+"
 nightly
-'
+"
     
-'
+"
 required_signoffs
-'
+"
     
-'
+"
 shippable
-'
+"
     
-'
+"
 shipping_phase
-'
+"
     
-'
+"
 shipping_product
-'
+"
     
-'
+"
 signed
-'
+"
     
-'
+"
 stub
 -
 installer
-'
+"
     
-'
+"
 update
 -
 channel
-'
+"
 )
 def
 attrmatch
@@ -528,8 +530,8 @@ match
 (
 k
 +
-'
-'
+"
+"
 target
 )
 ]
@@ -542,9 +544,9 @@ return
 matches
     
 if
-'
+"
 default
-'
+"
 in
 attributes
 :
@@ -553,9 +555,9 @@ return
 [
 attributes
 [
-'
+"
 default
-'
+"
 ]
 ]
     
@@ -635,7 +637,6 @@ run_aliases
 if
 any
 (
-            
 RUN_ON_PROJECT_ALIASES
 [
 alias
@@ -643,12 +644,10 @@ alias
 (
 project
 )
-            
 for
 alias
 in
 run_aliases
-        
 )
 :
             
@@ -699,9 +698,9 @@ all
 "
     
 if
-'
+"
 all
-'
+"
 in
 run_on_hg_branches
 :
@@ -757,6 +756,7 @@ for
 attr
 in
 _COPYABLE_ATTRIBUTES
+        
 if
 attr
 in
@@ -858,14 +858,14 @@ staging
 "
     
 return
-'
+"
 production
-'
+"
 if
 project
 in
 RELEASE_PROJECTS
 else
-'
+"
 staging
-'
+"

@@ -90,6 +90,7 @@ config_options
 [
         
 [
+            
 [
 "
 -
@@ -99,8 +100,9 @@ stage
 product
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -108,7 +110,7 @@ dest
 "
 stage_product
 "
-            
+                
 "
 help
 "
@@ -126,7 +128,7 @@ s
 directory
 structure
 "
-                    
+                
 "
 e
 .
@@ -136,11 +138,13 @@ g
 firefox
 mobile
 "
-        
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -148,8 +152,9 @@ mobile
 version
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -157,7 +162,7 @@ dest
 "
 version
 "
-            
+                
 "
 help
 "
@@ -175,11 +180,13 @@ g
 .
 0b5
 "
-        
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -189,8 +196,9 @@ build
 number
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -198,7 +206,7 @@ dest
 "
 build_number
 "
-            
+                
 "
 help
 "
@@ -215,11 +223,13 @@ g
 :
 2
 "
-        
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -229,8 +239,9 @@ bucket
 name
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -238,7 +249,7 @@ dest
 "
 bucket_name
 "
-            
+                
 "
 help
 "
@@ -266,11 +277,13 @@ archive
 }
 .
 "
-        
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -282,8 +295,9 @@ j
 parallelization
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -291,19 +305,19 @@ dest
 "
 parallelization
 "
-            
+                
 "
 default
 "
 :
 20
-            
+                
 "
 type
 "
 :
 int
-            
+                
 "
 help
 "
@@ -317,11 +331,13 @@ to
 download
 concurrently
 "
-        
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -329,8 +345,9 @@ concurrently
 branch
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -338,7 +355,7 @@ dest
 "
 branch
 "
-            
+                
 "
 help
 "
@@ -347,11 +364,13 @@ help
 dummy
 option
 "
-        
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -361,8 +380,9 @@ build
 pool
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -370,7 +390,7 @@ dest
 "
 build_pool
 "
-            
+                
 "
 help
 "
@@ -379,8 +399,9 @@ help
 dummy
 option
 "
-        
+            
 }
+        
 ]
     
 ]
@@ -398,34 +419,35 @@ BaseScript
 .
 __init__
 (
+            
 self
-                            
+            
 config_options
 =
 self
 .
 config_options
-                            
+            
 require_config_file
 =
 False
-                            
+            
 config
 =
 {
-                                
+                
 "
 virtualenv_modules
 "
 :
 [
-                                    
+                    
 "
 boto
 "
-                                
+                
 ]
-                                
+                
 "
 virtualenv_path
 "
@@ -433,19 +455,19 @@ virtualenv_path
 "
 venv
 "
-                            
+            
 }
-                            
+            
 all_actions
 =
 [
-                                
+                
 "
 create
 -
 virtualenv
 "
-                                
+                
 "
 collect
 -
@@ -453,7 +475,7 @@ individual
 -
 checksums
 "
-                                
+                
 "
 create
 -
@@ -461,25 +483,25 @@ big
 -
 checksums
 "
-                                
+                
 "
 create
 -
 summary
 "
-                            
+            
 ]
-                            
+            
 default_actions
 =
 [
-                                
+                
 "
 create
 -
 virtualenv
 "
-                                
+                
 "
 collect
 -
@@ -487,7 +509,7 @@ individual
 -
 checksums
 "
-                                
+                
 "
 create
 -
@@ -495,15 +517,15 @@ big
 -
 checksums
 "
-                                
+                
 "
 create
 -
 summary
 "
-                            
+            
 ]
-                            
+        
 )
         
 self
@@ -783,6 +805,7 @@ config
 stage_product
 "
 ]
+            
 self
 .
 config
@@ -791,6 +814,7 @@ config
 version
 "
 ]
+            
 self
 .
 config
@@ -1431,6 +1455,7 @@ self
 .
 debug
 (
+                                    
 "
 Duplicate
 checksum
@@ -1439,7 +1464,7 @@ file
 {
 }
 "
-                                           
+                                    
 "
 but
 the
@@ -1447,7 +1472,7 @@ data
 matches
 ;
 "
-                                           
+                                    
 "
 continuing
 .
@@ -1459,6 +1484,7 @@ format
 (
 f
 )
+                                
 )
                                 
 continue
@@ -1467,6 +1493,7 @@ self
 .
 fatal
 (
+                                
 "
 Found
 duplicate
@@ -1476,7 +1503,7 @@ for
 {
 }
 "
-                                       
+                                
 "
 don
 '
@@ -1493,6 +1520,7 @@ format
 (
 f
 )
+                            
 )
                         
 if
@@ -1726,6 +1754,7 @@ head
 proofs
 =
 [
+                
 binascii
 .
 hexlify
@@ -1741,7 +1770,7 @@ to_rfc6962_bis
 (
 )
 )
-                      
+                
 for
 i
 in
@@ -1752,6 +1781,7 @@ len
 files
 )
 )
+            
 ]
             
 summary
@@ -1798,9 +1828,9 @@ head
 .
 decode
 (
-'
+"
 ascii
-'
+"
 )
 )
             
@@ -1837,9 +1867,9 @@ i
 .
 decode
 (
-'
+"
 ascii
-'
+"
 )
 files
 [

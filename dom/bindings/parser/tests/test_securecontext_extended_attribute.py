@@ -12,6 +12,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -80,6 +81,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -94,6 +96,7 @@ harness
 .
 check
 (
+        
 len
 (
 results
@@ -103,7 +106,9 @@ results
 .
 members
 )
+        
 6
+        
 "
 TestSecureContextOnInterface
 should
@@ -111,12 +116,14 @@ have
 six
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -128,7 +135,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 Interface
 should
@@ -139,12 +146,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -161,7 +170,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 [
 SecureContext
@@ -174,12 +183,14 @@ to
 constant
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -196,7 +207,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 [
 SecureContext
@@ -209,12 +220,14 @@ to
 attribute
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -231,7 +244,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 [
 SecureContext
@@ -244,12 +257,14 @@ to
 method
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -266,7 +281,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 [
 SecureContext
@@ -282,12 +297,14 @@ from
 partial
 interface
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -304,7 +321,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 [
 SecureContext
@@ -320,12 +337,14 @@ from
 partial
 interface
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -342,7 +361,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 [
 SecureContext
@@ -358,6 +377,7 @@ from
 partial
 interface
 "
+    
 )
     
 parser
@@ -372,6 +392,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -440,6 +461,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -454,6 +476,7 @@ harness
 .
 check
 (
+        
 len
 (
 results
@@ -463,7 +486,9 @@ results
 .
 members
 )
+        
 6
+        
 "
 TestSecureContextOnInterfaceAfterPartialInterface
 should
@@ -471,12 +496,14 @@ have
 six
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 1
@@ -488,7 +515,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 Interface
 should
@@ -499,12 +526,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 1
@@ -521,7 +550,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 [
 SecureContext
@@ -534,12 +563,14 @@ to
 constant
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 1
@@ -556,7 +587,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 [
 SecureContext
@@ -569,12 +600,14 @@ to
 attribute
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 1
@@ -591,7 +624,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 [
 SecureContext
@@ -604,12 +637,14 @@ to
 method
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 1
@@ -626,7 +661,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 [
 SecureContext
@@ -642,12 +677,14 @@ from
 partial
 interface
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 1
@@ -664,7 +701,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 [
 SecureContext
@@ -680,12 +717,14 @@ from
 partial
 interface
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 1
@@ -702,7 +741,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 [
 SecureContext
@@ -718,6 +757,7 @@ from
 partial
 interface
 "
+    
 )
     
 parser
@@ -732,6 +772,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -800,6 +841,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -814,6 +856,7 @@ harness
 .
 check
 (
+        
 len
 (
 results
@@ -823,7 +866,9 @@ results
 .
 members
 )
+        
 6
+        
 "
 TestSecureContextOnPartialInterface
 should
@@ -831,12 +876,14 @@ have
 six
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -850,7 +897,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 [
 SecureContext
@@ -866,12 +913,14 @@ to
 the
 interface
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -890,7 +939,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 [
 SecureContext
@@ -910,12 +959,14 @@ s
 constant
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -934,7 +985,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 [
 SecureContext
@@ -954,12 +1005,14 @@ s
 attribute
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -978,7 +1031,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 [
 SecureContext
@@ -998,12 +1051,14 @@ s
 method
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1020,7 +1075,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 Constant
 members
@@ -1036,12 +1091,14 @@ be
 SecureContext
 ]
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1058,7 +1115,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 Attribute
 members
@@ -1074,12 +1131,14 @@ be
 SecureContext
 ]
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1096,7 +1155,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 Method
 members
@@ -1112,6 +1171,7 @@ be
 SecureContext
 ]
 "
+    
 )
     
 parser
@@ -1126,6 +1186,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -1215,6 +1276,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -1229,6 +1291,7 @@ harness
 .
 check
 (
+        
 len
 (
 results
@@ -1238,7 +1301,9 @@ results
 .
 members
 )
+        
 9
+        
 "
 TestSecureContextOnInterfaceMembers
 should
@@ -1246,12 +1311,14 @@ have
 nine
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1265,7 +1332,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 [
 SecureContext
@@ -1280,12 +1347,14 @@ to
 the
 interface
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1304,7 +1373,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Constant
 should
@@ -1316,12 +1385,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1338,7 +1409,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 Constant
 should
@@ -1349,12 +1420,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1373,7 +1446,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Constant
 should
@@ -1385,12 +1458,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1409,7 +1484,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Attribute
 should
@@ -1421,12 +1496,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1443,7 +1520,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 Attribute
 should
@@ -1454,12 +1531,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1478,7 +1557,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Attribute
 should
@@ -1490,12 +1569,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1514,7 +1595,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Method
 should
@@ -1526,12 +1607,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1548,7 +1631,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 Method
 should
@@ -1559,12 +1642,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1583,7 +1668,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Method
 should
@@ -1595,6 +1680,7 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 parser
@@ -1609,6 +1695,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -1706,6 +1793,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -1720,6 +1808,7 @@ harness
 .
 check
 (
+        
 len
 (
 results
@@ -1729,7 +1818,9 @@ results
 .
 members
 )
+        
 9
+        
 "
 TestSecureContextOnPartialInterfaceMembers
 should
@@ -1737,12 +1828,14 @@ have
 nine
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1761,7 +1854,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Constant
 from
@@ -1776,12 +1869,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1798,7 +1893,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 Constant
 from
@@ -1812,12 +1907,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1836,7 +1933,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Constant
 from
@@ -1851,12 +1948,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1875,7 +1974,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Attribute
 from
@@ -1890,12 +1989,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1912,7 +2013,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 Attribute
 from
@@ -1926,12 +2027,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1950,7 +2053,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Attribute
 from
@@ -1965,12 +2068,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -1989,7 +2094,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Method
 from
@@ -2004,12 +2109,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -2026,7 +2133,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 Method
 from
@@ -2040,12 +2147,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -2064,7 +2173,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Method
 from
@@ -2079,6 +2188,7 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 parser
@@ -2100,6 +2210,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2127,6 +2238,7 @@ TEST_SECURE_CONSTANT
 "
 "
 "
+        
 )
         
 results
@@ -2184,6 +2296,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2228,6 +2341,7 @@ bar
 "
 "
 "
+        
 )
         
 results
@@ -2249,7 +2363,9 @@ harness
 .
 ok
 (
+        
 threw
+        
 "
 If
 [
@@ -2268,6 +2384,7 @@ on
 all
 overloads
 "
+    
 )
     
 parser
@@ -2289,6 +2406,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2337,6 +2455,7 @@ bar
 "
 "
 "
+        
 )
         
 results
@@ -2358,8 +2477,10 @@ harness
 .
 ok
 (
+        
 not
 threw
+        
 "
 [
 SecureContext
@@ -2377,6 +2498,7 @@ on
 all
 overloads
 "
+    
 )
     
 parser
@@ -2398,6 +2520,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2428,6 +2551,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -2449,6 +2573,7 @@ harness
 .
 ok
 (
+        
 threw
 "
 [
@@ -2464,6 +2589,7 @@ and
 interface
 member
 "
+    
 )
     
 parser
@@ -2485,6 +2611,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2523,6 +2650,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -2544,7 +2672,9 @@ harness
 .
 ok
 (
+        
 threw
+        
 "
 [
 SecureContext
@@ -2568,6 +2698,7 @@ member
 '
 s
 "
+    
 )
     
 parser
@@ -2589,6 +2720,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2627,6 +2759,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -2648,7 +2781,9 @@ harness
 .
 ok
 (
+        
 threw
+        
 "
 [
 SecureContext
@@ -2671,6 +2806,7 @@ member
 '
 s
 "
+    
 )
     
 parser
@@ -2692,6 +2828,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2727,6 +2864,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -2748,7 +2886,9 @@ harness
 .
 ok
 (
+        
 threw
+        
 "
 [
 SecureContext
@@ -2766,6 +2906,7 @@ SecureContext
 ]
 interface
 "
+    
 )
     
 parser
@@ -2780,6 +2921,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -2839,6 +2981,7 @@ TestNonSecureContextMixin
 "
 "
 "
+    
 )
     
 results
@@ -2853,6 +2996,7 @@ harness
 .
 check
 (
+        
 len
 (
 results
@@ -2862,7 +3006,9 @@ results
 .
 members
 )
+        
 4
+        
 "
 TestSecureContextInterfaceThatImplementsNonSecureContextInterface
 should
@@ -2870,12 +3016,14 @@ have
 four
 members
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -2887,7 +3035,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 Interface
 should
@@ -2898,12 +3046,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -2920,7 +3070,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-               
+        
 "
 [
 SecureContext
@@ -2947,12 +3097,14 @@ SecureContext
 ]
 interface
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -2971,7 +3123,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Constants
 copied
@@ -2989,12 +3141,14 @@ be
 SecureContext
 ]
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -3013,7 +3167,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Attributes
 copied
@@ -3031,12 +3185,14 @@ be
 SecureContext
 ]
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -3055,7 +3211,7 @@ SecureContext
 )
 is
 None
-               
+        
 "
 Methods
 copied
@@ -3073,6 +3229,7 @@ be
 SecureContext
 ]
 "
+    
 )
     
 parser
@@ -3087,6 +3244,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -3114,6 +3272,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -3128,6 +3287,7 @@ harness
 .
 check
 (
+        
 len
 (
 results
@@ -3137,7 +3297,9 @@ results
 .
 members
 )
+        
 1
+        
 "
 TestSecureContextNoInterfaceObject
 should
@@ -3146,12 +3308,14 @@ only
 one
 member
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -3163,7 +3327,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-      
+        
 "
 Interface
 should
@@ -3174,12 +3338,14 @@ SecureContext
 extended
 attribute
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 results
 [
 0
@@ -3196,7 +3362,7 @@ getExtendedAttribute
 SecureContext
 "
 )
-      
+        
 "
 Interface
 member
@@ -3208,4 +3374,5 @@ SecureContext
 extended
 attribute
 "
+    
 )

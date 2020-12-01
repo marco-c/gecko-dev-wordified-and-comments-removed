@@ -56,20 +56,20 @@ sys
             
 exec_
 (
-'
+"
 from
 sys
 import
 *
-'
+"
 sys
 )
             
 sys
 [
-'
+"
 platform
-'
+"
 ]
 =
 platform
@@ -104,9 +104,9 @@ env
 :
         
 if
-'
+"
 linux
-'
+"
 in
 self
 .
@@ -115,14 +115,14 @@ HOST
             
 platform
 =
-'
+"
 linux2
-'
+"
         
 elif
-'
+"
 mingw
-'
+"
 in
 self
 .
@@ -131,14 +131,14 @@ HOST
             
 platform
 =
-'
+"
 win32
-'
+"
         
 elif
-'
+"
 openbsd6
-'
+"
 in
 self
 .
@@ -147,9 +147,9 @@ HOST
             
 platform
 =
-'
+"
 openbsd6
-'
+"
         
 else
 :
@@ -157,14 +157,14 @@ else
 raise
 Exception
 (
-'
+"
 Missing
 platform
 for
 HOST
 {
 }
-'
+"
 .
 format
 (
@@ -201,9 +201,9 @@ _value_for
 (
 sandbox
 [
-'
+"
 target
-'
+"
 ]
 )
 .
@@ -242,23 +242,21 @@ self
 .
 assertEqual
 (
-            
 self
 .
 get_target
 (
 [
-'
+"
 -
 -
 target
 =
 i686
-'
+"
 ]
 )
-            
-'
+"
 i686
 -
 pc
@@ -266,7 +264,7 @@ pc
 linux
 -
 gnu
-'
+"
 )
         
 self
@@ -279,7 +277,7 @@ self
 get_target
 (
 [
-'
+"
 -
 -
 target
@@ -291,11 +289,11 @@ unknown
 linux
 -
 gnu
-'
+"
 ]
 )
             
-'
+"
 i686
 -
 unknown
@@ -303,7 +301,8 @@ unknown
 linux
 -
 gnu
-'
+"
+        
 )
         
 self
@@ -316,7 +315,7 @@ self
 get_target
 (
 [
-'
+"
 -
 -
 target
@@ -326,17 +325,17 @@ i686
 pc
 -
 mingw32
-'
+"
 ]
 )
-            
-'
+"
 i686
 -
 pc
 -
 mingw32
-'
+"
+        
 )
 class
 TestTargetWindows
@@ -347,13 +346,13 @@ TargetTest
     
 HOST
 =
-'
+"
 i686
 -
 pc
 -
 mingw32
-'
+"
     
 def
 test_target
@@ -388,7 +387,7 @@ self
 get_target
 (
 [
-'
+"
 -
 -
 target
@@ -398,67 +397,65 @@ x86_64
 pc
 -
 mingw32
-'
+"
 ]
 )
-            
-'
+"
 x86_64
 -
 pc
 -
 mingw32
-'
+"
+        
 )
         
 self
 .
 assertEqual
 (
-            
 self
 .
 get_target
 (
 [
-'
+"
 -
 -
 target
 =
 x86_64
-'
+"
 ]
 )
-            
-'
+"
 x86_64
 -
 pc
 -
 mingw32
-'
+"
 )
         
 env
 =
 {
             
-'
+"
 PROCESSOR_ARCHITECTURE
-'
+"
 :
-'
+"
 x86
-'
+"
             
-'
+"
 PROCESSOR_ARCHITEW6432
-'
+"
 :
-'
+"
 AMD64
-'
+"
         
 }
         
@@ -474,13 +471,13 @@ get_target
 ]
 env
 )
-'
+"
 x86_64
 -
 pc
 -
 mingw32
-'
+"
 )
         
 self
@@ -493,7 +490,7 @@ self
 get_target
 (
 [
-'
+"
 -
 -
 target
@@ -503,59 +500,57 @@ i686
 pc
 -
 mingw32
-'
+"
 ]
 )
-            
-'
+"
 i686
 -
 pc
 -
 mingw32
-'
+"
+        
 )
         
 self
 .
 assertEqual
 (
-            
 self
 .
 get_target
 (
 [
-'
+"
 -
 -
 target
 =
 i686
-'
+"
 ]
 )
-            
-'
+"
 i686
 -
 pc
 -
 mingw32
-'
+"
 )
         
 env
 =
 {
             
-'
+"
 PROCESSOR_ARCHITECTURE
-'
+"
 :
-'
+"
 AMD64
-'
+"
         
 }
         
@@ -571,13 +566,13 @@ get_target
 ]
 env
 )
-'
+"
 x86_64
 -
 pc
 -
 mingw32
-'
+"
 )
         
 self
@@ -590,7 +585,7 @@ self
 get_target
 (
 [
-'
+"
 -
 -
 target
@@ -600,59 +595,57 @@ i686
 pc
 -
 mingw32
-'
+"
 ]
 )
-            
-'
+"
 i686
 -
 pc
 -
 mingw32
-'
+"
+        
 )
         
 self
 .
 assertEqual
 (
-            
 self
 .
 get_target
 (
 [
-'
+"
 -
 -
 target
 =
 i686
-'
+"
 ]
 )
-            
-'
+"
 i686
 -
 pc
 -
 mingw32
-'
+"
 )
         
 env
 =
 {
             
-'
+"
 PROCESSOR_ARCHITECTURE
-'
+"
 :
-'
+"
 x86
-'
+"
         
 }
         
@@ -668,13 +661,13 @@ get_target
 ]
 env
 )
-'
+"
 i686
 -
 pc
 -
 mingw32
-'
+"
 )
         
 self
@@ -687,7 +680,7 @@ self
 get_target
 (
 [
-'
+"
 -
 -
 target
@@ -697,46 +690,44 @@ x86_64
 pc
 -
 mingw32
-'
+"
 ]
 )
-            
-'
+"
 x86_64
 -
 pc
 -
 mingw32
-'
+"
+        
 )
         
 self
 .
 assertEqual
 (
-            
 self
 .
 get_target
 (
 [
-'
+"
 -
 -
 target
 =
 x86_64
-'
+"
 ]
 )
-            
-'
+"
 x86_64
 -
 pc
 -
 mingw32
-'
+"
 )
 class
 TestTargetAndroid
@@ -747,7 +738,7 @@ TargetTest
     
 HOST
 =
-'
+"
 x86_64
 -
 pc
@@ -755,7 +746,7 @@ pc
 linux
 -
 gnu
-'
+"
     
 def
 test_target
@@ -774,7 +765,7 @@ self
 get_target
 (
 [
-'
+"
 -
 -
 enable
@@ -784,11 +775,11 @@ project
 mobile
 /
 android
-'
+"
 ]
 )
             
-'
+"
 arm
 -
 unknown
@@ -796,7 +787,8 @@ unknown
 linux
 -
 androideabi
-'
+"
+        
 )
         
 self
@@ -809,7 +801,7 @@ self
 get_target
 (
 [
-'
+"
 -
 -
 enable
@@ -819,18 +811,18 @@ project
 mobile
 /
 android
-'
-'
+"
+"
 -
 -
 target
 =
 i686
-'
+"
 ]
 )
             
-'
+"
 i686
 -
 unknown
@@ -838,7 +830,8 @@ unknown
 linux
 -
 android
-'
+"
+        
 )
         
 self
@@ -851,7 +844,7 @@ self
 get_target
 (
 [
-'
+"
 -
 -
 enable
@@ -861,18 +854,18 @@ project
 mobile
 /
 android
-'
-'
+"
+"
 -
 -
 target
 =
 x86_64
-'
+"
 ]
 )
             
-'
+"
 x86_64
 -
 unknown
@@ -880,7 +873,8 @@ unknown
 linux
 -
 android
-'
+"
+        
 )
         
 self
@@ -893,7 +887,7 @@ self
 get_target
 (
 [
-'
+"
 -
 -
 enable
@@ -903,18 +897,18 @@ project
 mobile
 /
 android
-'
-'
+"
+"
 -
 -
 target
 =
 aarch64
-'
+"
 ]
 )
             
-'
+"
 aarch64
 -
 unknown
@@ -922,7 +916,8 @@ unknown
 linux
 -
 android
-'
+"
+        
 )
         
 self
@@ -935,7 +930,7 @@ self
 get_target
 (
 [
-'
+"
 -
 -
 enable
@@ -945,18 +940,18 @@ project
 mobile
 /
 android
-'
-'
+"
+"
 -
 -
 target
 =
 arm
-'
+"
 ]
 )
             
-'
+"
 arm
 -
 unknown
@@ -964,7 +959,8 @@ unknown
 linux
 -
 androideabi
-'
+"
+        
 )
 class
 TestTargetOpenBSD
@@ -975,7 +971,7 @@ TargetTest
     
 HOST
 =
-'
+"
 amd64
 -
 unknown
@@ -983,7 +979,7 @@ unknown
 openbsd6
 .
 4
-'
+"
     
 def
 test_target
@@ -1003,7 +999,7 @@ get_target
 [
 ]
 )
-'
+"
 x86_64
 -
 unknown
@@ -1011,7 +1007,7 @@ unknown
 openbsd6
 .
 4
-'
+"
 )
     
 def
@@ -1030,7 +1026,7 @@ args
 ]
 =
 =
-'
+"
 amd64
 -
 unknown
@@ -1038,12 +1034,12 @@ unknown
 openbsd6
 .
 4
-'
+"
 :
             
 return
 0
-'
+"
 x86_64
 -
 unknown
@@ -1051,9 +1047,9 @@ unknown
 openbsd6
 .
 4
-'
-'
-'
+"
+"
+"
         
 return
 super
@@ -1121,10 +1117,10 @@ assertEquals
 (
 args
 (
-'
+"
 -
 version
-'
+"
 )
 )
                 
@@ -1133,8 +1129,8 @@ return
 self
 .
 version
-'
-'
+"
+"
         
 def
 check_nsis_version
@@ -1151,49 +1147,52 @@ get_sandbox
 (
                 
 {
-'
+"
 /
 usr
 /
 bin
 /
 makensis
-'
+"
 :
 FakeNSIS
 (
 version
 )
 }
+                
 {
 }
+                
 [
 ]
                 
 {
-'
+"
 PATH
-'
+"
 :
-'
+"
 /
 usr
 /
 bin
-'
-'
+"
+"
 MAKENSISU
-'
+"
 :
-'
+"
 /
 usr
 /
 bin
 /
 makensis
-'
+"
 }
+            
 )
             
 return
@@ -1203,9 +1202,9 @@ _value_for
 (
 sandbox
 [
-'
+"
 nsis_version
-'
+"
 ]
 )
         
@@ -1220,11 +1219,11 @@ SystemExit
             
 check_nsis_version
 (
-'
+"
 v2
 .
 5
-'
+"
 )
         
 with
@@ -1238,11 +1237,11 @@ SystemExit
             
 check_nsis_version
 (
-'
+"
 v3
 .
 0a2
-'
+"
 )
         
 self
@@ -1251,17 +1250,17 @@ assertEquals
 (
 check_nsis_version
 (
-'
+"
 v3
 .
 0b1
-'
+"
 )
-'
+"
 3
 .
 0b1
-'
+"
 )
         
 self
@@ -1270,17 +1269,17 @@ assertEquals
 (
 check_nsis_version
 (
-'
+"
 v3
 .
 0b2
-'
+"
 )
-'
+"
 3
 .
 0b2
-'
+"
 )
         
 self
@@ -1289,17 +1288,17 @@ assertEquals
 (
 check_nsis_version
 (
-'
+"
 v3
 .
 0rc1
-'
+"
 )
-'
+"
 3
 .
 0rc1
-'
+"
 )
         
 self
@@ -1308,17 +1307,17 @@ assertEquals
 (
 check_nsis_version
 (
-'
+"
 v3
 .
 0
-'
+"
 )
-'
+"
 3
 .
 0
-'
+"
 )
         
 self
@@ -1327,19 +1326,19 @@ assertEquals
 (
 check_nsis_version
 (
-'
+"
 v3
 .
 0
 -
 2
-'
+"
 )
-'
+"
 3
 .
 0
-'
+"
 )
         
 self
@@ -1348,19 +1347,19 @@ assertEquals
 (
 check_nsis_version
 (
-'
+"
 v3
 .
 0
 .
 1
-'
+"
 )
-'
+"
 3
 .
 0
-'
+"
 )
         
 self
@@ -1369,25 +1368,25 @@ assertEquals
 (
 check_nsis_version
 (
-'
+"
 v3
 .
 1
-'
+"
 )
-'
+"
 3
 .
 1
-'
+"
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

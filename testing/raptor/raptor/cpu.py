@@ -18,11 +18,11 @@ RaptorLogger
 (
 component
 =
-'
+"
 raptor
 -
 cpu
-'
+"
 )
 class
 AndroidCPUProfiler
@@ -274,9 +274,9 @@ android_version
 .
 split
 (
-'
+"
 .
-'
+"
 )
 [
 0
@@ -330,7 +330,6 @@ polling
 CPU
 usage
 .
-        
 "
 "
 "
@@ -358,7 +357,6 @@ CPU
 usage
 polling
 .
-        
 "
 "
 "
@@ -499,9 +497,9 @@ raptor
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
         
 verbose
@@ -686,9 +684,9 @@ data
 .
 strip
 (
-'
+"
 %
-'
+"
 )
 )
         
@@ -821,48 +819,47 @@ avg_cpuinfo_data
 {
             
 u
-'
+"
 type
-'
+"
 :
 u
-'
+"
 cpu
-'
+"
             
 u
-'
+"
 test
-'
+"
 :
 test_name
 +
-'
+"
 -
 avg
-'
+"
             
 u
-'
+"
 unit
-'
+"
 :
 u
-'
+"
 %
-'
+"
             
 u
-'
+"
 values
-'
+"
 :
 {
-                
 u
-'
+"
 avg
-'
+"
 :
 sum
 (
@@ -877,7 +874,6 @@ self
 .
 polls
 )
-            
 }
         
 }
@@ -898,48 +894,47 @@ min_cpuinfo_data
 {
             
 u
-'
+"
 type
-'
+"
 :
 u
-'
+"
 cpu
-'
+"
             
 u
-'
+"
 test
-'
+"
 :
 test_name
 +
-'
+"
 -
 min
-'
+"
             
 u
-'
+"
 unit
-'
+"
 :
 u
-'
+"
 %
-'
+"
             
 u
-'
+"
 values
-'
+"
 :
 {
-                
 u
-'
+"
 min
-'
+"
 :
 min
 (
@@ -947,7 +942,6 @@ self
 .
 polls
 )
-            
 }
         
 }
@@ -968,48 +962,47 @@ max_cpuinfo_data
 {
             
 u
-'
+"
 type
-'
+"
 :
 u
-'
+"
 cpu
-'
+"
             
 u
-'
+"
 test
-'
+"
 :
 test_name
 +
-'
+"
 -
 max
-'
+"
             
 u
-'
+"
 unit
-'
+"
 :
 u
-'
+"
 %
-'
+"
             
 u
-'
+"
 values
-'
+"
 :
 {
-                
 u
-'
+"
 max
-'
+"
 :
 max
 (
@@ -1017,7 +1010,6 @@ self
 .
 polls
 )
-            
 }
         
 }

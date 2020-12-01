@@ -19,6 +19,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -45,6 +46,7 @@ constructor
 "
 "
 "
+        
 )
         
 results
@@ -94,6 +96,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -119,6 +122,7 @@ TestNamedConstructorGlobal
 "
 "
 "
+        
 )
         
 results
@@ -168,6 +172,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -193,6 +198,7 @@ TestNamedConstructorGlobal
 "
 "
 "
+        
 )
         
 results
@@ -242,6 +248,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -271,6 +278,7 @@ constructor
 "
 "
 "
+        
 )
         
 results

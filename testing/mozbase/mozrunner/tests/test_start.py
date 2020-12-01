@@ -233,13 +233,13 @@ runner
 with
 patch
 (
-'
+"
 mozprocess
 .
 ProcessHandler
 .
 __init__
-'
+"
 )
 as
 ph_mock
@@ -251,10 +251,10 @@ side_effect
 =
 Exception
 (
-'
+"
 Boom
 !
-'
+"
 )
         
 with
@@ -283,9 +283,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

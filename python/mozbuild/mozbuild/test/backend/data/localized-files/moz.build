@@ -2,7 +2,7 @@ LOCALIZED_FILES
 +
 =
 [
-'
+"
 en
 -
 US
@@ -12,8 +12,8 @@ abc
 *
 .
 abc
-'
-'
+"
+"
 en
 -
 US
@@ -21,8 +21,8 @@ US
 bar
 .
 ini
-'
-'
+"
+"
 en
 -
 US
@@ -30,5 +30,5 @@ US
 foo
 .
 js
-'
+"
 ]

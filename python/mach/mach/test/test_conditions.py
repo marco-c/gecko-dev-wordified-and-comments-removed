@@ -71,9 +71,9 @@ attributes
 =
 {
             
-'
+"
 topdir
-'
+"
 :
 topsrcdir
         
@@ -85,18 +85,18 @@ include_extra_attributes
             
 attributes
 [
-'
+"
 foo
-'
+"
 ]
 =
 True
             
 attributes
 [
-'
+"
 bar
-'
+"
 ]
 =
 False
@@ -171,11 +171,11 @@ self
 _run_mach
 (
 args
-'
+"
 conditions
 .
 py
-'
+"
 context_handler
 =
 context_handler
@@ -212,19 +212,19 @@ assertEquals
 (
 (
 0
-'
-'
-'
-'
+"
+"
+"
+"
 )
 self
 .
 _run
 (
 [
-'
+"
 cmd_foo
-'
+"
 ]
 )
 )
@@ -235,19 +235,19 @@ assertEquals
 (
 (
 0
-'
-'
-'
-'
+"
+"
+"
+"
 )
 self
 .
 _run
 (
 [
-'
+"
 cmd_foo_ctx
-'
+"
 ]
 _populate_context
 )
@@ -311,12 +311,12 @@ for
 name
 in
 (
-'
+"
 cmd_bar
-'
-'
+"
+"
 cmd_foobar
-'
+"
 )
 :
             
@@ -371,12 +371,12 @@ for
 name
 in
 (
-'
+"
 cmd_bar_ctx
-'
-'
+"
+"
 cmd_foobar_ctx
-'
+"
 )
 :
             
@@ -469,19 +469,19 @@ m
 .
 define_category
 (
-'
+"
 testing
-'
-'
+"
+"
 Mach
 unittest
-'
-'
+"
+"
 Testing
 for
 mach
 core
-'
+"
 10
 )
         
@@ -489,11 +489,13 @@ self
 .
 assertRaises
 (
+            
 MachError
+            
 m
 .
 load_commands_from_file
-                          
+            
 os
 .
 path
@@ -501,12 +503,13 @@ path
 join
 (
 PROVIDER_DIR
-'
+"
 conditions_invalid
 .
 py
-'
+"
 )
+        
 )
     
 def
@@ -546,9 +549,9 @@ self
 _run
 (
 [
-'
+"
 help
-'
+"
 ]
 _populate_context
 )
@@ -557,9 +560,9 @@ self
 .
 assertIn
 (
-'
+"
 cmd_foo
-'
+"
 stdout
 )
         
@@ -567,9 +570,9 @@ self
 .
 assertNotIn
 (
-'
+"
 cmd_bar
-'
+"
 stdout
 )
         
@@ -577,9 +580,9 @@ self
 .
 assertNotIn
 (
-'
+"
 cmd_foobar
-'
+"
 stdout
 )
         
@@ -587,9 +590,9 @@ self
 .
 assertIn
 (
-'
+"
 cmd_foo_ctx
-'
+"
 stdout
 )
         
@@ -597,9 +600,9 @@ self
 .
 assertNotIn
 (
-'
+"
 cmd_bar_ctx
-'
+"
 stdout
 )
         
@@ -607,18 +610,18 @@ self
 .
 assertNotIn
 (
-'
+"
 cmd_foobar_ctx
-'
+"
 stdout
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

@@ -62,6 +62,7 @@ self
 .
 assertRaises
 (
+            
 ImportError
 python_path
 .
@@ -71,6 +72,7 @@ no_such_module
 :
 someobj
 "
+        
 )
     
 def
@@ -98,11 +100,13 @@ self
 .
 assertRaises
 (
+            
 AttributeError
+            
 python_path
 .
 find_object
-                          
+            
 "
 taskgraph
 .
@@ -112,6 +116,7 @@ test_util_python_path
 :
 NoSuchObject
 "
+        
 )
     
 def
@@ -160,6 +165,7 @@ TestObject
 .
 testClassProperty
 "
+        
 )
         
 self
@@ -175,9 +181,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

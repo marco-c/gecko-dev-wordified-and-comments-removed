@@ -24,37 +24,37 @@ TASKS
     
 {
         
-'
+"
 kind
-'
+"
 :
-'
+"
 build
-'
+"
         
-'
+"
 label
-'
+"
 :
-'
+"
 build
 -
 windows
-'
+"
         
-'
+"
 attributes
-'
+"
 :
 {
             
-'
+"
 build_platform
-'
+"
 :
-'
+"
 windows
-'
+"
         
 }
     
@@ -62,19 +62,19 @@ windows
     
 {
         
-'
+"
 kind
-'
+"
 :
-'
+"
 test
-'
+"
         
-'
+"
 label
-'
+"
 :
-'
+"
 test
 -
 windows
@@ -82,37 +82,37 @@ windows
 mochitest
 -
 e10s
-'
+"
         
-'
+"
 attributes
-'
+"
 :
 {
             
-'
+"
 unittest_suite
-'
+"
 :
-'
+"
 mochitest
 -
 browser
 -
 chrome
-'
+"
             
-'
+"
 mochitest_try_name
-'
+"
 :
-'
+"
 mochitest
 -
 browser
 -
 chrome
-'
+"
         
 }
     
@@ -139,9 +139,9 @@ app
 .
 config
 [
-'
+"
 TESTING
-'
+"
 ]
 =
 True
@@ -189,9 +189,9 @@ client
 .
 get
 (
-'
+"
 /
-'
+"
 )
     
 assert
@@ -379,19 +379,19 @@ client
 .
 post
 (
-'
+"
 /
-'
+"
 data
 =
 {
-'
+"
 action
-'
+"
 :
-'
+"
 Cancel
-'
+"
 }
 )
     
@@ -433,27 +433,27 @@ client
 .
 post
 (
-'
+"
 /
-'
+"
 data
 =
 {
-'
+"
 action
-'
+"
 :
-'
+"
 Push
-'
-'
+"
+"
 selected
 -
 tasks
-'
+"
 :
-'
-'
+"
+"
 }
 )
     
@@ -495,28 +495,30 @@ client
 .
 post
 (
-'
+        
+"
 /
-'
+"
+        
 data
 =
 {
-        
-'
+            
+"
 action
-'
+"
 :
-'
+"
 Push
-'
-        
-'
+"
+            
+"
 selected
 -
 tasks
-'
+"
 :
-'
+"
 build
 -
 windows
@@ -528,9 +530,10 @@ windows
 mochitest
 -
 e10s
-'
-    
+"
+        
 }
+    
 )
     
 assert
@@ -568,12 +571,12 @@ tasks
 set
 (
 [
-'
+"
 build
 -
 windows
-'
-'
+"
+"
 test
 -
 windows
@@ -581,16 +584,16 @@ windows
 mochitest
 -
 e10s
-'
+"
 ]
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

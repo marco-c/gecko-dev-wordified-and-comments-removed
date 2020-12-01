@@ -34,10 +34,10 @@ LSANLeaks
 __all__
 =
 [
-'
+"
 process_leak_log
-'
-'
+"
+"
 LSANLeaks
-'
+"
 ]

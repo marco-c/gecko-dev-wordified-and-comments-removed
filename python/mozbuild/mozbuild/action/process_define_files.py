@@ -39,9 +39,9 @@ input
 )
 :
     
-'
-'
-'
+"
+"
+"
 Creates
 the
 given
@@ -160,9 +160,9 @@ defined
 variables
 .
     
-'
-'
-'
+"
+"
+"
     
 path
 =
@@ -187,25 +187,24 @@ mozpath
 .
 basedir
 (
+        
 path
-                       
 [
 mozpath
 .
 join
 (
 topsrcdir
-'
+"
 js
 /
 src
-'
+"
 )
 ]
+    
 )
 and
-\
-            
 not
 config
 .
@@ -213,9 +212,9 @@ substs
 .
 get
 (
-'
+"
 JS_STANDALONE
-'
+"
 )
 :
         
@@ -228,12 +227,12 @@ mozpath
 join
 (
 topobjdir
-'
+"
 js
-'
-'
+"
+"
 src
-'
+"
 )
 )
     
@@ -241,9 +240,9 @@ with
 open
 (
 path
-'
+"
 rU
-'
+"
 )
 as
 input
@@ -255,7 +254,8 @@ re
 .
 compile
 (
-'
+            
+"
 ^
 \
 s
@@ -313,10 +313,11 @@ S
 ?
 )
 ?
-'
+"
 re
 .
 U
+        
 )
         
 for
@@ -344,9 +345,9 @@ m
 .
 group
 (
-'
+"
 cmd
-'
+"
 )
                 
 name
@@ -355,9 +356,9 @@ m
 .
 group
 (
-'
+"
 name
-'
+"
 )
                 
 value
@@ -366,9 +367,9 @@ m
 .
 group
 (
-'
+"
 value
-'
+"
 )
                 
 if
@@ -379,25 +380,25 @@ if
 name
 =
 =
-'
+"
 ALLDEFINES
-'
+"
 :
                         
 if
 cmd
 =
 =
-'
+"
 define
-'
+"
 :
                             
 raise
 Exception
 (
                                 
-'
+"
 #
 define
 ALLDEFINES
@@ -406,11 +407,12 @@ not
 allowed
 in
 a
-'
+"
                                 
-'
+"
 CONFIGURE_DEFINE_FILE
-'
+"
+                            
 )
                         
 def
@@ -486,17 +488,17 @@ if
 name
 in
 (
-'
+"
 WINVER
-'
-'
+"
+"
 _WIN32_WINNT
-'
+"
 )
 :
                                 
 return
-'
+"
 #
 if
 !
@@ -515,18 +517,18 @@ define
 n
 #
 endif
-'
-\
-                                    
+"
 .
 format
 (
+                                    
 name
 =
 name
 define
 =
 define
+                                
 )
                             
 return
@@ -534,22 +536,23 @@ define
                         
 defines
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
+                            
 sorted
 (
-                            
+                                
 define_for_name
 (
 name
 val
 )
-                            
+                                
 for
 name
 val
@@ -558,15 +561,17 @@ config
 .
 defines
 [
-'
+"
 ALLDEFINES
-'
+"
 ]
 .
 items
 (
 )
+                            
 )
+                        
 )
                         
 l
@@ -578,15 +583,13 @@ m
 .
 start
 (
-'
+"
 cmd
-'
+"
 )
 -
 1
 ]
-\
-                            
 +
 defines
 +
@@ -596,9 +599,9 @@ m
 .
 end
 (
-'
+"
 name
-'
+"
 )
 :
 ]
@@ -607,9 +610,9 @@ elif
 cmd
 =
 =
-'
+"
 define
-'
+"
 :
                         
 if
@@ -624,6 +627,8 @@ defines
                             
 l
 =
+(
+                                
 l
 [
 :
@@ -631,12 +636,11 @@ m
 .
 start
 (
-'
+"
 value
-'
+"
 )
 ]
-\
                                 
 +
 str
@@ -648,7 +652,6 @@ defines
 name
 ]
 )
-\
                                 
 +
 l
@@ -657,20 +660,22 @@ m
 .
 end
 (
-'
+"
 value
-'
+"
 )
 :
 ]
+                            
+)
                     
 elif
 cmd
 =
 =
-'
+"
 undef
-'
+"
 :
                         
 if
@@ -683,6 +688,8 @@ defines
                             
 l
 =
+(
+                                
 l
 [
 :
@@ -690,18 +697,16 @@ m
 .
 start
 (
-'
+"
 cmd
-'
+"
 )
 ]
-\
                                 
 +
-'
+"
 define
-'
-\
+"
                                 
 +
 l
@@ -710,26 +715,24 @@ m
 .
 end
 (
-'
+"
 cmd
-'
+"
 )
 :
 m
 .
 end
 (
-'
+"
 name
-'
+"
 )
 ]
-\
                                 
 +
-'
-'
-\
+"
+"
                                 
 +
 str
@@ -741,7 +744,6 @@ defines
 name
 ]
 )
-\
                                 
 +
 l
@@ -750,22 +752,24 @@ m
 .
 end
 (
-'
+"
 name
-'
+"
 )
 :
 ]
+                            
+)
                         
 else
 :
                             
 l
 =
-'
+"
 /
 *
-'
+"
 +
 l
 [
@@ -774,16 +778,16 @@ m
 .
 end
 (
-'
+"
 name
-'
+"
 )
 ]
 +
-'
+"
 *
 /
-'
+"
 +
 l
 [
@@ -791,9 +795,9 @@ m
 .
 end
 (
-'
+"
 name
-'
+"
 )
 :
 ]
@@ -837,32 +841,31 @@ argparse
 .
 ArgumentParser
 (
-        
 description
 =
-'
+"
 Process
 define
 files
 .
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 input
-'
+"
 help
 =
-'
+"
 Input
 define
 file
 .
-'
+"
 )
     
 args
@@ -888,9 +891,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 sys

@@ -310,8 +310,8 @@ stream
 .
 write
 (
-'
-'
+"
+"
 .
 join
 (

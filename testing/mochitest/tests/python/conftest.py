@@ -60,18 +60,18 @@ path
 join
 (
 here
-'
+"
 files
-'
+"
 )
-'
+"
 mochitest
-'
-'
+"
+"
 testing
 /
 mochitest
-'
+"
 ]
 pytest
 .
@@ -79,9 +79,9 @@ fixture
 (
 scope
 =
-'
+"
 function
-'
+"
 )
 def
 parser
@@ -96,9 +96,9 @@ pytest
 .
 importorskip
 (
-'
+"
 mochitest_options
-'
+"
 )
     
 app
@@ -108,12 +108,12 @@ getattr
 request
 .
 module
-'
+"
 APP
-'
-'
+"
+"
 generic
-'
+"
 )
     
 return
@@ -131,9 +131,9 @@ fixture
 (
 scope
 =
-'
+"
 function
-'
+"
 )
 def
 runtests
@@ -228,9 +228,9 @@ pytest
 .
 importorskip
 (
-'
+"
 runtests
-'
+"
 )
     
 mochitest_root
@@ -248,12 +248,12 @@ path
 join
 (
 mochitest_root
-'
+"
 tests
-'
-'
+"
+"
 selftests
-'
+"
 )
     
 buf
@@ -279,29 +279,31 @@ options
 .
 update
 (
-{
         
-'
+{
+            
+"
 app
-'
+"
 :
 binary
-        
-'
+            
+"
 keep_open
-'
+"
 :
 False
-        
-'
+            
+"
 log_raw
-'
+"
 :
 [
 buf
 ]
-    
+        
 }
+    
 )
     
 if
@@ -335,11 +337,12 @@ options
 .
 update
 (
+            
 {
-            
-'
+                
+"
 certPath
-'
+"
 :
 os
 .
@@ -348,39 +351,41 @@ path
 join
 (
 package_root
-'
+"
 certs
-'
+"
+)
+                
+"
+utilityPath
+"
+:
+os
+.
+path
+.
+join
+(
+package_root
+"
+bin
+"
 )
             
-'
-utilityPath
-'
-:
-os
-.
-path
-.
-join
-(
-package_root
-'
-bin
-'
-)
-        
 }
+        
 )
         
 options
 [
-'
+"
 extraProfileFiles
-'
+"
 ]
 .
 append
 (
+            
 os
 .
 path
@@ -388,13 +393,14 @@ path
 join
 (
 package_root
-'
+"
 bin
-'
-'
+"
+"
 plugins
-'
+"
 )
+        
 )
     
 options
@@ -406,9 +412,9 @@ getattr
 request
 .
 module
-'
+"
 OPTIONS
-'
+"
 {
 }
 )
@@ -424,21 +430,21 @@ test
 return
 {
             
-'
+"
 name
-'
+"
 :
 test
             
-'
+"
 relpath
-'
+"
 :
 test
             
-'
+"
 path
-'
+"
 :
 os
 .
@@ -450,9 +456,9 @@ test_root
 test
 )
             
-'
+"
 manifest
-'
+"
 :
 os
 .
@@ -461,22 +467,22 @@ path
 join
 (
 test_root
-'
+"
 mochitest
 .
 ini
-'
+"
 )
             
-'
+"
 manifest_relpath
-'
+"
 :
-'
+"
 mochitest
 .
 ini
-'
+"
         
 }
     
@@ -520,9 +526,9 @@ tests
         
 options
 [
-'
+"
 manifestFile
-'
+"
 ]
 =
 manifest
@@ -555,12 +561,12 @@ json
 .
 loads
 (
-'
+"
 [
-'
+"
 +
-'
-'
+"
+"
 .
 join
 (
@@ -575,9 +581,9 @@ splitlines
 )
 )
 +
-'
+"
 ]
-'
+"
 )
         
 buf
@@ -614,9 +620,9 @@ pytest
 .
 importorskip
 (
-'
+"
 mochitest_options
-'
+"
 )
     
 return
@@ -702,9 +708,9 @@ pytest
 .
 importorskip
 (
-'
+"
 runtests
-'
+"
 )
     
 runtests
@@ -721,9 +727,9 @@ node
 .
 get_marker
 (
-'
+"
 skip_mozinfo
-'
+"
 )
     
 if

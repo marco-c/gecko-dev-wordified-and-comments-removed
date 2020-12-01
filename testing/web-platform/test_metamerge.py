@@ -943,11 +943,11 @@ str_data
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
         
@@ -957,7 +957,6 @@ metamerge
 compile
 (
 bytes_io
-                                 
 metamerge
 .
 data_cls_getter
@@ -991,9 +990,7 @@ metamerge
 make_changes
 (
 ancestor_manifest
-                                    
 current_manifest
-                                    
 new_manifest
 )
     
@@ -1006,9 +1003,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

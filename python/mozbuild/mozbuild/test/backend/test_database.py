@@ -151,7 +151,9 @@ c
 .
 format
 (
+                    
 topsrcdir
+                
 )
                 
 "
@@ -212,7 +214,9 @@ c
 .
 format
 (
+                    
 topsrcdir
+                
 )
                 
 "
@@ -275,7 +279,9 @@ cpp
 .
 format
 (
+                    
 topsrcdir
+                
 )
                 
 "
@@ -338,7 +344,9 @@ cpp
 .
 format
 (
+                    
 topsrcdir
+                
 )
                 
 "
@@ -497,6 +505,7 @@ path
 .
 join
 (
+            
 env
 .
 topobjdir
@@ -508,6 +517,7 @@ compile_commands
 .
 json
 "
+        
 )
         
 self

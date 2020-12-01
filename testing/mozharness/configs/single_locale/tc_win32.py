@@ -69,9 +69,9 @@ L10NBASEDIR
 l10n
 "
         
-'
+"
 TOOLTOOL_CACHE
-'
+"
 :
 os
 .
@@ -79,26 +79,26 @@ environ
 .
 get
 (
-'
+"
 TOOLTOOL_CACHE
-'
+"
 )
         
-'
+"
 EN_US_PACKAGE_NAME
-'
+"
 :
-'
+"
 target
 .
 zip
-'
+"
     
 }
     
-'
+"
 tooltool_manifest_src
-'
+"
 :
 "
 browser

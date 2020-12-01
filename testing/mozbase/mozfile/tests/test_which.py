@@ -47,12 +47,12 @@ path
 join
 (
 here
-'
+"
 files
-'
-'
+"
+"
 which
-'
+"
 )
     
 monkeypatch
@@ -119,9 +119,9 @@ monkeypatch
 setattr
 (
 winreg
-'
+"
 QueryValue
-'
+"
 (
 lambda
 k
@@ -196,6 +196,8 @@ lower
 )
         
 assert
+(
+            
 which
 (
 "
@@ -218,6 +220,7 @@ BAR
 lower
 (
 )
+            
 =
 =
 os
@@ -234,6 +237,8 @@ foo
 .
 lower
 (
+)
+        
 )
         
 assert
@@ -397,6 +402,7 @@ quux
 .
 exe
 "
+            
 )
             
 return
@@ -407,9 +413,9 @@ monkeypatch
 setattr
 (
 winreg
-'
+"
 QueryValue
-'
+"
 mock_registry
 )
         
@@ -544,9 +550,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

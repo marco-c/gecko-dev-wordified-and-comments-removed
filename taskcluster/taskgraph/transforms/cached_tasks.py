@@ -64,9 +64,9 @@ config
 .
 kind
 +
-'
+"
 -
-'
+"
     
 pending
 =
@@ -80,9 +80,9 @@ task_labels
 {
 task
 [
-'
+"
 label
-'
+"
 ]
 for
 task
@@ -122,6 +122,7 @@ parents
 {
             
 task
+            
 for
 task
 in
@@ -129,9 +130,9 @@ task
 .
 get
 (
-'
+"
 dependencies
-'
+"
 {
 }
 )
@@ -179,9 +180,9 @@ add
 (
 task
 [
-'
+"
 label
-'
+"
 ]
 )
         
@@ -201,30 +202,32 @@ return
 .
 join
 (
-[
         
+[
+            
 cached_task
 [
-'
+"
 type
-'
+"
 ]
-        
+            
 cached_task
 [
-'
+"
 name
-'
+"
 ]
-        
+            
 cached_task
 [
-'
+"
 digest
-'
+"
+]
+        
 ]
     
-]
 )
 transforms
 .
@@ -272,9 +275,9 @@ values
 :
         
 if
-'
+"
 cached_task
-'
+"
 in
 task
 .
@@ -294,9 +297,9 @@ task
 .
 attributes
 [
-'
+"
 cached_task
-'
+"
 ]
 )
     
@@ -316,9 +319,9 @@ task
 .
 pop
 (
-'
+"
 cache
-'
+"
 None
 )
         
@@ -345,9 +348,9 @@ task
 .
 get
 (
-'
+"
 dependencies
-'
+"
 {
 }
 )
@@ -379,7 +382,8 @@ else
 raise
 Exception
 (
-'
+                    
+"
 Cached
 task
 {
@@ -391,30 +395,32 @@ task
 :
 {
 }
-'
+"
 .
 format
 (
-                    
+                        
 task
 [
-'
+"
 label
-'
+"
 ]
 p
+                    
 )
+                
 )
         
 digest_data
 =
 cache
 [
-'
+"
 digest
 -
 data
-'
+"
 ]
 +
 sorted
@@ -424,37 +430,42 @@ dependency_digests
         
 add_optimization
 (
+            
 config
+            
 task
+            
 cache_type
 =
 cache
 [
-'
+"
 type
-'
+"
 ]
-                         
+            
 cache_name
 =
 cache
 [
-'
+"
 name
-'
+"
 ]
+            
 digest_data
 =
 digest_data
+        
 )
         
 digests
 [
 task
 [
-'
+"
 label
-'
+"
 ]
 ]
 =
@@ -462,14 +473,14 @@ format_task_digest
 (
 task
 [
-'
+"
 attributes
-'
+"
 ]
 [
-'
+"
 cached_task
-'
+"
 ]
 )
         

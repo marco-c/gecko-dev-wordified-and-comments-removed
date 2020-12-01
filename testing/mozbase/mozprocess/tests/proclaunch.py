@@ -23,16 +23,16 @@ collections
 .
 namedtuple
 (
-'
+"
 ProcessNode
-'
+"
 [
-'
+"
 maxtime
-'
-'
+"
+"
 children
-'
+"
 ]
 )
 class
@@ -58,7 +58,7 @@ a
 ini
 '
 file
-        
+    
 Typical
 .
 ini
@@ -68,11 +68,11 @@ by
 this
 class
 :
-        
+    
 [
 main
 ]
-        
+    
 children
 =
 c1
@@ -82,48 +82,48 @@ c2
 4
 *
 c3
-        
+    
 maxtime
 =
 10
-        
+    
 [
 c1
 ]
-        
+    
 children
 =
 2
 *
 c2
 c3
-        
+    
 maxtime
 =
 20
-        
+    
 [
 c2
 ]
-        
+    
 children
 =
 3
 *
 c3
-        
+    
 maxtime
 =
 5
-        
+    
 [
 c3
 ]
-        
+    
 maxtime
 =
 3
-        
+    
 This
 generates
 a
@@ -133,11 +133,11 @@ of
 the
 form
 :
-            
+        
 [
 main
 ]
-                
+            
 |
 -
 -
@@ -145,7 +145,7 @@ main
 [
 c1
 ]
-                
+            
 |
 |
 -
@@ -154,7 +154,7 @@ c1
 [
 c2
 ]
-                
+            
 |
 |
 |
@@ -164,7 +164,7 @@ c2
 [
 c3
 ]
-                
+            
 |
 |
 |
@@ -174,7 +174,7 @@ c3
 [
 c3
 ]
-                
+            
 |
 |
 |
@@ -184,10 +184,10 @@ c3
 [
 c3
 ]
-                
+            
 |
 |
-                
+            
 |
 |
 -
@@ -196,7 +196,7 @@ c3
 [
 c2
 ]
-                
+            
 |
 |
 |
@@ -206,7 +206,7 @@ c2
 [
 c3
 ]
-                
+            
 |
 |
 |
@@ -216,7 +216,7 @@ c3
 [
 c3
 ]
-                
+            
 |
 |
 |
@@ -226,10 +226,10 @@ c3
 [
 c3
 ]
-                
+            
 |
 |
-                
+            
 |
 |
 -
@@ -238,9 +238,9 @@ c3
 [
 c3
 ]
-                
+            
 |
-                
+            
 |
 -
 -
@@ -248,7 +248,7 @@ c3
 [
 c2
 ]
-                
+            
 |
 |
 -
@@ -257,7 +257,7 @@ c2
 [
 c3
 ]
-                
+            
 |
 |
 -
@@ -266,7 +266,7 @@ c3
 [
 c3
 ]
-                
+            
 |
 |
 -
@@ -275,17 +275,9 @@ c3
 [
 c3
 ]
-                
+            
 |
-                
-|
--
--
--
-[
-c3
-]
-                
+            
 |
 -
 -
@@ -293,7 +285,7 @@ c3
 [
 c3
 ]
-                
+            
 |
 -
 -
@@ -301,7 +293,15 @@ c3
 [
 c3
 ]
-        
+            
+|
+-
+-
+-
+[
+c3
+]
+    
 Caveat
 :
 The
@@ -323,7 +323,7 @@ a
 (
 comma
 )
-        
+    
 character
 as
 these
@@ -507,7 +507,7 @@ manifest
 raise
 IOError
 (
-'
+"
 The
 manifest
 %
@@ -518,7 +518,7 @@ be
 found
 /
 opened
-'
+"
 manifest
 )
         
@@ -537,14 +537,14 @@ sections
 :
             
 if
-'
+"
 *
-'
+"
 in
 section
 or
-'
-'
+"
+"
 in
 section
 :
@@ -583,6 +583,7 @@ or
 "
 %
 section
+                
 )
             
 m_time
@@ -592,9 +593,9 @@ cfgparser
 get
 (
 section
-'
+"
 maxtime
-'
+"
 )
             
 try
@@ -614,7 +615,8 @@ ValueError
 raise
 ValueError
 (
-'
+                    
+"
 Expected
 maxtime
 to
@@ -624,9 +626,10 @@ integer
 specified
 %
 s
-'
+"
 %
 m_time
+                
 )
             
 try
@@ -639,9 +642,9 @@ cfgparser
 get
 (
 section
-'
+"
 children
-'
+"
 )
                 
 if
@@ -659,6 +662,7 @@ else
 children
 =
 [
+                        
 [
 y
 .
@@ -676,13 +680,13 @@ strip
 .
 split
 (
-'
+"
 *
-'
+"
 1
 )
 ]
-                                
+                        
 for
 x
 in
@@ -690,11 +694,13 @@ c
 .
 split
 (
-'
-'
+"
+"
 )
+                        
 if
 x
+                    
 ]
                     
 try
@@ -771,7 +777,7 @@ configparser
 ParsingError
 (
                                     
-'
+"
 No
 section
 corresponding
@@ -779,12 +785,13 @@ to
 child
 %
 s
-'
+"
 %
 child
 [
 1
 ]
+                                
 )
                     
 except
@@ -795,7 +802,7 @@ raise
 ValueError
 (
                             
-'
+"
 Expected
 process
 count
@@ -806,12 +813,14 @@ integer
 specified
 %
 s
-'
+"
+                            
 %
 child
 [
 0
 ]
+                        
 )
             
 except
@@ -831,7 +840,6 @@ ProcessNode
 maxtime
 =
 m_time
-                             
 children
 =
 children
@@ -873,9 +881,9 @@ self
 .
 _run
 (
-'
+"
 main
-'
+"
 0
 )
     
@@ -999,6 +1007,7 @@ verbose
             
 print
 (
+                
 "
 %
 sLaunching
@@ -1012,21 +1021,20 @@ d
 d
 seconds
 "
+                
 %
 (
 "
 "
 *
 level
-                                                        
 proc_name
-                                                        
 maxtime
-                                                        
 self
 .
 UNIT_TIME
 )
+            
 )
         
 while
@@ -1075,6 +1083,7 @@ multiprocessing
 .
 Process
 (
+                    
 target
 =
 self
@@ -1091,6 +1100,7 @@ level
 +
 1
 )
+                
 )
                 
 p
@@ -1203,9 +1213,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 parser

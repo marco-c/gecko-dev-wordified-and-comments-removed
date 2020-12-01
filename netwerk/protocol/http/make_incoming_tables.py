@@ -14,15 +14,15 @@ cmp
 (
 x
 [
-'
+"
 nbits
-'
+"
 ]
 y
 [
-'
+"
 nbits
-'
+"
 ]
 )
     
@@ -37,15 +37,15 @@ cmp
 (
 x
 [
-'
+"
 bpat
-'
+"
 ]
 y
 [
-'
+"
 bpat
-'
+"
 ]
 )
     
@@ -60,15 +60,15 @@ cmp
 (
 x
 [
-'
+"
 ascii
-'
+"
 ]
 y
 [
-'
+"
 ascii
-'
+"
 ]
 )
     
@@ -100,9 +100,9 @@ line
 .
 rfind
 (
-'
+"
 [
-'
+"
 )
     
 nbits
@@ -126,9 +126,9 @@ line
 .
 find
 (
-'
+"
 (
-'
+"
 )
     
 ascii
@@ -157,9 +157,9 @@ line
 .
 find
 (
-'
+"
 |
-'
+"
 oparen
 )
     
@@ -169,8 +169,8 @@ line
 .
 find
 (
-'
-'
+"
+"
 bar
 )
     
@@ -191,9 +191,9 @@ strip
 .
 rstrip
 (
-'
+"
 |
-'
+"
 )
     
 characters
@@ -201,19 +201,19 @@ characters
 append
 (
 {
-'
+"
 ascii
-'
+"
 :
 ascii
-'
+"
 nbits
-'
+"
 :
 nbits
-'
+"
 bpat
-'
+"
 :
 bpat
 }
@@ -243,15 +243,15 @@ append
 (
 c
 [
-'
+"
 ascii
-'
+"
 ]
 c
 [
-'
+"
 bpat
-'
+"
 ]
 )
 )
@@ -385,9 +385,9 @@ bstr
 bstr
 +
 =
-'
+"
 0
-'
+"
     
 return
 int
@@ -424,9 +424,9 @@ bpat
 .
 split
 (
-'
+"
 |
-'
+"
 )
     
 curr_table
@@ -500,9 +500,10 @@ idx
 ]
 =
 {
-'
+        
+"
 prefix_len
-'
+"
 :
 len
 (
@@ -511,10 +512,10 @@ bstrs
 0
 ]
 )
-                        
-'
+        
+"
 mask
-'
+"
 :
 int
 (
@@ -524,12 +525,13 @@ bstrs
 ]
 2
 )
-                        
-'
+        
+"
 value
-'
+"
 :
 ascii
+    
 }
 def
 output_table
@@ -537,8 +539,8 @@ output_table
 table
 name_suffix
 =
-'
-'
+"
+"
 )
 :
     
@@ -567,9 +569,9 @@ dict
 if
 t
 [
-'
+"
 prefix_len
-'
+"
 ]
 >
 max_prefix_len
@@ -579,9 +581,9 @@ max_prefix_len
 =
 t
 [
-'
+"
 prefix_len
-'
+"
 ]
         
 elif
@@ -594,12 +596,12 @@ None
 output_table
 (
 t
-'
+"
 %
 s_
 %
 s
-'
+"
 %
 (
 name_suffix
@@ -609,20 +611,20 @@ i
     
 tablename
 =
-'
+"
 HuffmanIncoming
 %
 s
-'
+"
 %
 (
 name_suffix
 if
 name_suffix
 else
-'
+"
 Root
-'
+"
 )
     
 entriestable
@@ -631,12 +633,12 @@ tablename
 .
 replace
 (
-'
+"
 HuffmanIncoming
-'
-'
+"
+"
 HuffmanIncomingEntries
-'
+"
 )
     
 nexttable
@@ -645,12 +647,12 @@ tablename
 .
 replace
 (
-'
+"
 HuffmanIncoming
-'
-'
+"
+"
 HuffmanIncomingNextTables
-'
+"
 )
     
 sys
@@ -659,7 +661,7 @@ stdout
 .
 write
 (
-'
+"
 static
 const
 HuffmanIncomingEntry
@@ -671,9 +673,8 @@ s
 {
 \
 n
-'
+"
 %
-                     
 (
 entriestable
 )
@@ -716,18 +717,18 @@ value
 =
 t
 [
-'
+"
 value
-'
+"
 ]
             
 prefix_len
 =
 t
 [
-'
+"
 prefix_len
-'
+"
 ]
         
 elif
@@ -745,16 +746,15 @@ stdout
 .
 write
 (
-'
+"
 {
 %
 s
 %
 s
 }
-'
+"
 %
-                         
 (
 value
 prefix_len
@@ -767,10 +767,10 @@ stdout
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 i
@@ -794,12 +794,12 @@ stdout
 .
 write
 (
-'
+"
 }
 ;
 \
 n
-'
+"
 )
         
 sys
@@ -808,10 +808,10 @@ stdout
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 sys
@@ -820,7 +820,7 @@ stdout
 .
 write
 (
-'
+"
 static
 const
 HuffmanIncomingTable
@@ -833,9 +833,8 @@ s
 {
 \
 n
-'
+"
 %
-                         
 (
 nexttable
 )
@@ -849,12 +848,12 @@ i
             
 subtable
 =
-'
+"
 %
 s_
 %
 s
-'
+"
 %
 (
 name_suffix
@@ -863,12 +862,12 @@ i
             
 ptr
 =
-'
+"
 &
 HuffmanIncoming
 %
 s
-'
+"
 %
 (
 subtable
@@ -880,12 +879,11 @@ stdout
 .
 write
 (
-'
+"
 %
 s
-'
+"
 %
-                             
 (
 ptr
 )
@@ -897,10 +895,10 @@ stdout
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 i
@@ -913,9 +911,9 @@ else
         
 nexttable
 =
-'
+"
 nullptr
-'
+"
     
 sys
 .
@@ -923,12 +921,12 @@ stdout
 .
 write
 (
-'
+"
 }
 ;
 \
 n
-'
+"
 )
     
 sys
@@ -937,10 +935,10 @@ stdout
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
     
 sys
@@ -949,7 +947,7 @@ stdout
 .
 write
 (
-'
+"
 static
 const
 HuffmanIncomingTable
@@ -959,7 +957,7 @@ s
 {
 \
 n
-'
+"
 %
 (
 tablename
@@ -972,12 +970,12 @@ stdout
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 (
 entriestable
@@ -990,12 +988,12 @@ stdout
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 (
 nexttable
@@ -1008,12 +1006,12 @@ stdout
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 (
 indexOfFirstNextTable
@@ -1026,12 +1024,12 @@ stdout
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 (
 max_prefix_len
@@ -1044,12 +1042,12 @@ stdout
 .
 write
 (
-'
+"
 }
 ;
 \
 n
-'
+"
 )
     
 sys
@@ -1058,10 +1056,10 @@ stdout
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
 sys
 .
@@ -1069,9 +1067,10 @@ stdout
 .
 write
 (
-'
-'
-'
+    
+"
+"
+"
 /
 *
  
@@ -1383,9 +1382,9 @@ mIndexOfFirstNextTable
 }
 }
 ;
-'
-'
-'
+"
+"
+"
 )
 output_table
 (
@@ -1397,9 +1396,10 @@ stdout
 .
 write
 (
-'
-'
-'
+    
+"
+"
+"
 }
 /
 /
@@ -1415,7 +1415,7 @@ endif
 /
 /
 mozilla__net__Http2HuffmanIncoming_h
-'
-'
-'
+"
+"
+"
 )

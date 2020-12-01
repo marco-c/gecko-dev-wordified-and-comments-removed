@@ -133,7 +133,6 @@ the
 right
 Playback
 class
-    
 "
 "
 "

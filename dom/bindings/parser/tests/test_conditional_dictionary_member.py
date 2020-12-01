@@ -10,6 +10,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -35,6 +36,7 @@ bar
 "
 "
 "
+    
 )
     
 results
@@ -70,7 +72,6 @@ results
 ]
 .
 members
-;
     
 harness
 .
@@ -93,6 +94,7 @@ harness
 .
 ok
 (
+        
 members
 [
 0
@@ -104,7 +106,6 @@ getExtendedAttribute
 ChromeOnly
 "
 )
-               
 "
 First
 member
@@ -112,12 +113,14 @@ is
 not
 ChromeOnly
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 not
 members
 [
@@ -130,13 +133,13 @@ getExtendedAttribute
 ChromeOnly
 "
 )
-               
 "
 Second
 member
 is
 ChromeOnly
 "
+    
 )
     
 parser
@@ -151,6 +154,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -190,6 +194,7 @@ dict
 "
 "
 "
+    
 )
     
 results
@@ -234,11 +239,12 @@ None
     
 try
 :
-      
+        
 parser
 .
 parse
 (
+            
 "
 "
 "
@@ -281,8 +287,9 @@ dict
 "
 "
 "
+        
 )
-      
+        
 results
 =
 parser
@@ -296,7 +303,7 @@ Exception
 as
 e
 :
-      
+        
 exception
 =
 e
@@ -318,10 +325,11 @@ harness
 .
 check
 (
+        
 exception
 .
 message
-                  
+        
 "
 [
 Cached
@@ -338,7 +346,7 @@ on
 an
 attribute
 "
-                  
+        
 "
 whose
 type
@@ -350,7 +358,7 @@ ChromeOnly
 dictionary
 member
 "
-                  
+        
 "
 Should
 have
@@ -359,6 +367,7 @@ the
 right
 exception
 "
+    
 )
     
 parser
@@ -375,11 +384,12 @@ None
     
 try
 :
-      
+        
 parser
 .
 parse
 (
+            
 "
 "
 "
@@ -431,8 +441,9 @@ dict
 "
 "
 "
+        
 )
-      
+        
 results
 =
 parser
@@ -446,7 +457,7 @@ Exception
 as
 e
 :
-      
+        
 exception
 =
 e
@@ -471,10 +482,11 @@ harness
 .
 check
 (
+        
 exception
 .
 message
-                  
+        
 "
 [
 Cached
@@ -491,7 +503,7 @@ on
 an
 attribute
 "
-                  
+        
 "
 whose
 type
@@ -503,7 +515,7 @@ ChromeOnly
 dictionary
 member
 "
-                  
+        
 "
 Should
 have
@@ -515,6 +527,7 @@ exception
 2
 )
 "
+    
 )
     
 parser
@@ -531,11 +544,12 @@ None
     
 try
 :
-      
+        
 parser
 .
 parse
 (
+            
 "
 "
 "
@@ -600,8 +614,9 @@ dict
 "
 "
 "
+        
 )
-      
+        
 results
 =
 parser
@@ -615,7 +630,7 @@ Exception
 as
 e
 :
-      
+        
 exception
 =
 e
@@ -640,10 +655,11 @@ harness
 .
 check
 (
+        
 exception
 .
 message
-                  
+        
 "
 [
 Cached
@@ -660,7 +676,7 @@ on
 an
 attribute
 "
-                  
+        
 "
 whose
 type
@@ -672,7 +688,7 @@ ChromeOnly
 dictionary
 member
 "
-                  
+        
 "
 Should
 have
@@ -684,4 +700,5 @@ exception
 3
 )
 "
+    
 )

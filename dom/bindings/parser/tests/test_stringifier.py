@@ -12,6 +12,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -29,6 +30,7 @@ stringifier
 "
 "
 "
+    
 )
     
 results
@@ -43,6 +45,7 @@ harness
 .
 ok
 (
+        
 isinstance
 (
 results
@@ -58,13 +61,14 @@ WebIDL
 .
 IDLMethod
 )
-               
+        
 "
 Stringifer
 should
 be
 method
 "
+    
 )
     
 parser
@@ -86,6 +90,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -106,6 +111,7 @@ stringifier
 "
 "
 "
+        
 )
         
 results
@@ -159,6 +165,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -183,6 +190,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -236,6 +244,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -256,6 +265,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -270,6 +280,7 @@ harness
 .
 ok
 (
+        
 isinstance
 (
 results
@@ -285,7 +296,7 @@ WebIDL
 .
 IDLAttribute
 )
-               
+        
 "
 Stringifier
 attribute
@@ -294,6 +305,7 @@ be
 an
 attribute
 "
+    
 )
     
 stringifier
@@ -312,6 +324,7 @@ harness
 .
 ok
 (
+        
 isinstance
 (
 stringifier
@@ -319,7 +332,7 @@ WebIDL
 .
 IDLMethod
 )
-               
+        
 "
 Stringifier
 attribute
@@ -328,6 +341,7 @@ insert
 a
 method
 "
+    
 )
     
 harness
@@ -339,7 +353,6 @@ stringifier
 isStringifier
 (
 )
-               
 "
 Inserted
 method
@@ -362,6 +375,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -394,6 +408,7 @@ TestStringifierMixin
 "
 "
 "
+    
 )
     
 results
@@ -408,6 +423,7 @@ harness
 .
 ok
 (
+        
 isinstance
 (
 results
@@ -423,7 +439,7 @@ WebIDL
 .
 IDLAttribute
 )
-               
+        
 "
 Stringifier
 attribute
@@ -432,6 +448,7 @@ be
 an
 attribute
 "
+    
 )
     
 stringifier
@@ -450,6 +467,7 @@ harness
 .
 ok
 (
+        
 isinstance
 (
 stringifier
@@ -457,7 +475,7 @@ WebIDL
 .
 IDLMethod
 )
-               
+        
 "
 Stringifier
 attribute
@@ -466,6 +484,7 @@ insert
 a
 method
 "
+    
 )
     
 harness
@@ -477,7 +496,6 @@ stringifier
 isStringifier
 (
 )
-               
 "
 Inserted
 method
@@ -500,6 +518,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -520,6 +539,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -546,6 +566,7 @@ harness
 .
 ok
 (
+        
 stringifier
 .
 signatures
@@ -561,7 +582,7 @@ signatures
 isUSVString
 (
 )
-               
+        
 "
 Stringifier
 attributes
@@ -569,6 +590,7 @@ should
 allow
 USVString
 "
+    
 )
     
 parser
@@ -583,6 +605,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -608,6 +631,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -634,6 +658,7 @@ harness
 .
 ok
 (
+        
 stringifier
 .
 getExtendedAttribute
@@ -642,7 +667,7 @@ getExtendedAttribute
 Throws
 "
 )
-               
+        
 "
 Stringifier
 attributes
@@ -652,12 +677,14 @@ support
 Throws
 ]
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 stringifier
 .
 getExtendedAttribute
@@ -666,7 +693,7 @@ getExtendedAttribute
 NeedsSubjectPrincipal
 "
 )
-               
+        
 "
 Stringifier
 attributes
@@ -676,6 +703,7 @@ support
 NeedsSubjectPrincipal
 ]
 "
+    
 )
     
 parser
@@ -697,6 +725,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -717,6 +746,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -766,6 +796,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -789,6 +820,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -846,6 +878,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -872,6 +905,7 @@ bar
 "
 "
 "
+        
 )
         
 results

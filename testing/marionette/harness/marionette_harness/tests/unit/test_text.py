@@ -131,6 +131,7 @@ self
 .
 assertEqual
 (
+            
 "
 asdf
 "
@@ -154,6 +155,7 @@ value
 l
 ]
 )
+        
 )
         
 l
@@ -166,6 +168,7 @@ self
 .
 assertEqual
 (
+            
 "
 "
 self
@@ -188,4 +191,5 @@ value
 l
 ]
 )
+        
 )

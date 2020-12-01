@@ -282,7 +282,6 @@ format
 (
 x
 )
-                           
 for
 x
 in
@@ -547,8 +546,9 @@ visible
 def
 __init__
 (
+        
 self
-                 
+        
 message
 =
 "
@@ -563,13 +563,15 @@ not
 be
 manipulated
 "
-                 
+        
 stacktrace
 =
 None
+        
 cause
 =
 None
+    
 )
 :
         
@@ -589,6 +591,7 @@ cause
 stacktrace
 =
 stacktrace
+        
 )
 class
 ElementNotAccessibleException
@@ -810,7 +813,9 @@ pass
 es_
 =
 [
+    
 e
+    
 for
 e
 in
@@ -821,6 +826,7 @@ locals
 values
 (
 )
+    
 if
 type
 (

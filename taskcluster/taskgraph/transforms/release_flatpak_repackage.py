@@ -59,7 +59,6 @@ worker
 .
 command
 .
-    
 "
 "
 "
@@ -68,18 +67,18 @@ format_params
 =
 {
         
-'
+"
 release_config
-'
+"
 :
 get_release_config
 (
 config
 )
         
-'
+"
 config_params
-'
+"
 :
 config
 .
@@ -95,9 +94,9 @@ tasks
         
 format_params
 [
-'
+"
 task
-'
+"
 ]
 =
 task
@@ -108,32 +107,32 @@ task
 .
 get
 (
-'
+"
 worker
-'
+"
 {
 }
 )
 .
 get
 (
-'
+"
 command
-'
+"
 [
 ]
 )
         
 task
 [
-'
+"
 worker
-'
+"
 ]
 [
-'
+"
 command
-'
+"
 ]
 =
 [
@@ -157,18 +156,18 @@ task
 .
 get
 (
-'
+"
 worker
-'
+"
 {
 }
 )
 .
 get
 (
-'
+"
 env
-'
+"
 {
 }
 )
@@ -187,21 +186,23 @@ resolve_keyed_by
 (
                 
 env
+                
 k
-'
+                
+"
 flatpak
 envs
-'
+"
                 
 *
 *
 {
                     
-'
+"
 release
 -
 level
-'
+"
 :
 config
 .
@@ -211,17 +212,17 @@ release_level
 (
 )
                     
-'
+"
 project
-'
+"
 :
 config
 .
 params
 [
-'
+"
 project
-'
+"
 ]
                 
 }
@@ -230,14 +231,14 @@ project
             
 task
 [
-'
+"
 worker
-'
+"
 ]
 [
-'
+"
 env
-'
+"
 ]
 [
 k

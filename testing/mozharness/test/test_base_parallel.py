@@ -75,6 +75,7 @@ self
 .
 assertEquals
 (
+            
 self
 .
 c
@@ -97,6 +98,7 @@ True
 2
 3
 ]
+        
 )
     
 def

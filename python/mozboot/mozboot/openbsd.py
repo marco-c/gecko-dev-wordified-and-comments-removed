@@ -44,29 +44,29 @@ packages
 =
 [
             
-'
+"
 gmake
-'
+"
             
-'
+"
 gtar
-'
+"
             
-'
+"
 rust
-'
+"
             
-'
+"
 wget
-'
+"
             
-'
+"
 unzip
-'
+"
             
-'
+"
 zip
-'
+"
         
 ]
         
@@ -76,39 +76,39 @@ browser_packages
 =
 [
             
-'
+"
 llvm
-'
+"
             
-'
+"
 nasm
-'
+"
             
-'
+"
 yasm
-'
+"
             
-'
+"
 gtk
 +
 2
-'
+"
             
-'
+"
 gtk
 +
 3
-'
+"
             
-'
+"
 dbus
 -
 glib
-'
+"
             
-'
+"
 pulseaudio
-'
+"
         
 ]
     
@@ -124,13 +124,13 @@ self
 run_as_root
 (
 [
-'
+"
 pkg_add
-'
-'
+"
+"
 -
 z
-'
+"
 ]
 +
 self
@@ -184,13 +184,13 @@ self
 run_as_root
 (
 [
-'
+"
 pkg_add
-'
-'
+"
+"
 -
 z
-'
+"
 ]
 +
 self
@@ -223,12 +223,12 @@ self
 run_as_root
 (
 [
-'
+"
 pkg_add
-'
-'
+"
+"
 cbindgen
-'
+"
 ]
 )
     
@@ -257,11 +257,11 @@ self
 run_as_root
 (
 [
-'
+"
 pkg_add
-'
-'
+"
+"
 node
-'
+"
 ]
 )

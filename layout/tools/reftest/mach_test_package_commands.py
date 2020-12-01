@@ -79,29 +79,29 @@ kwargs
 .
 get
 (
-'
+"
 log
-'
+"
 )
 :
         
 kwargs
 [
-'
+"
 log
-'
+"
 ]
 =
 setup_logging
 (
-'
+"
 reftest
-'
+"
 kwargs
 {
-'
+"
 mach
-'
+"
 :
 sys
 .
@@ -116,9 +116,9 @@ logger
 =
 kwargs
 [
-'
+"
 log
-'
+"
 ]
     
 args
@@ -140,9 +140,9 @@ mozharness_config
 .
 get
 (
-'
+"
 e10s
-'
+"
 args
 .
 e10s
@@ -166,17 +166,17 @@ path
 .
 join
 (
-'
+"
 layout
-'
-'
+"
+"
 reftests
-'
-'
+"
+"
 reftest
 .
 list
-'
+"
 )
 ]
     
@@ -191,12 +191,12 @@ join
 context
 .
 package_root
-'
+"
 reftest
-'
-'
+"
+"
 tests
-'
+"
 )
     
 normalize
@@ -226,9 +226,9 @@ kwargs
 .
 get
 (
-'
+"
 allow_software_gl_layers
-'
+"
 )
 :
         
@@ -236,14 +236,14 @@ os
 .
 environ
 [
-'
+"
 MOZ_LAYERS_ALLOW_SOFTWARE_GL
-'
+"
 ]
 =
-'
+"
 1
-'
+"
     
 if
 mozinfo
@@ -252,17 +252,17 @@ info
 .
 get
 (
-'
+"
 buildapp
-'
+"
 )
 =
 =
-'
+"
 mobile
 /
 android
-'
+"
 :
         
 return
@@ -318,9 +318,9 @@ join
 context
 .
 bin_dir
-'
+"
 plugins
-'
+"
 )
 )
     
@@ -349,7 +349,7 @@ extraPrefs
 .
 append
 (
-'
+"
 layers
 .
 acceleration
@@ -359,7 +359,7 @@ force
 enabled
 =
 true
-'
+"
 )
     
 logger
@@ -408,7 +408,7 @@ args
 .
 app
 or
-'
+"
 org
 .
 mozilla
@@ -416,7 +416,7 @@ mozilla
 geckoview
 .
 test
-'
+"
     
 args
 .
@@ -494,9 +494,9 @@ config
 .
 get
 (
-'
+"
 remote_webserver
-'
+"
 host
 )
         
@@ -508,9 +508,9 @@ config
 .
 get
 (
-'
+"
 http_port
-'
+"
 8854
 )
         
@@ -522,9 +522,9 @@ config
 .
 get
 (
-'
+"
 ssl_port
-'
+"
 4454
 )
         
@@ -534,24 +534,26 @@ adb_path
 =
 config
 [
-'
+"
 exes
-'
+"
 ]
 [
-'
+"
 adb
-'
+"
 ]
 %
 {
-'
+            
+"
 abs_work_dir
-'
+"
 :
 context
 .
 mozharness_workdir
+        
 }
         
 args
@@ -564,14 +566,14 @@ environ
 .
 get
 (
-'
+"
 DEVICE_SERIAL
-'
-'
+"
+"
 emulator
 -
 5554
-'
+"
 )
     
 logger
@@ -610,46 +612,46 @@ parser
 .
 add_argument
 (
-'
+"
 -
 -
 test
 -
 suite
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 -
 -
 reftest
 -
 suite
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 -
 -
 download
 -
 symbols
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 -
 -
 allow
@@ -659,19 +661,19 @@ software
 gl
 -
 layers
-'
+"
 action
 =
-'
+"
 store_true
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 -
 -
 no
@@ -679,12 +681,12 @@ no
 run
 -
 tests
-'
+"
 action
 =
-'
+"
 store_true
-'
+"
 )
 def
 setup_argument_parser
@@ -715,17 +717,17 @@ info
 .
 get
 (
-'
+"
 buildapp
-'
+"
 )
 =
 =
-'
+"
 mobile
 /
 android
-'
+"
 :
         
 parser
@@ -764,28 +766,31 @@ MachCommandBase
     
 Command
 (
-'
+        
+"
 reftest
-'
+"
+        
 category
 =
-'
+"
 testing
-'
-             
+"
+        
 description
 =
-'
+"
 Run
 the
 reftest
 harness
 .
-'
-             
+"
+        
 parser
 =
 setup_argument_parser
+    
 )
     
 def
@@ -808,14 +813,14 @@ activate_mozharness_venv
         
 kwargs
 [
-'
+"
 suite
-'
+"
 ]
 =
-'
+"
 reftest
-'
+"
         
 return
 run_reftest

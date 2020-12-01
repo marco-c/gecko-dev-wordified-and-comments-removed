@@ -379,7 +379,6 @@ prompts
 /
 src
 "
- 
 ]
 root_for_relative_js_paths
 =
@@ -433,6 +432,7 @@ path
 .
 join
 (
+    
 topsrcdir
 "
 browser

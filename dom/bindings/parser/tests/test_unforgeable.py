@@ -10,6 +10,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -42,6 +43,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -56,12 +58,14 @@ harness
 .
 check
 (
+        
 len
 (
 results
 )
+        
 2
-                  
+        
 "
 Should
 be
@@ -73,7 +77,6 @@ an
 interface
 with
 "
-                  
 "
 [
 Unforgeable
@@ -81,6 +84,7 @@ Unforgeable
 properties
 .
 "
+    
 )
     
 parser
@@ -90,12 +94,12 @@ parser
 reset
 (
 )
-;
     
 parser
 .
 parse
 (
+        
 "
 "
 "
@@ -135,6 +139,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -149,12 +154,14 @@ harness
 .
 check
 (
+        
 len
 (
 results
 )
+        
 2
-                  
+        
 "
 Should
 be
@@ -166,7 +173,7 @@ an
 interface
 with
 "
-                  
+        
 "
 [
 Unforgeable
@@ -180,13 +187,14 @@ a
 constant
 with
 "
-                  
+        
 "
 the
 same
 name
 .
 "
+    
 )
     
 parser
@@ -196,12 +204,12 @@ parser
 reset
 (
 )
-;
     
 parser
 .
 parse
 (
+        
 "
 "
 "
@@ -240,6 +248,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -254,12 +263,14 @@ harness
 .
 check
 (
+        
 len
 (
 results
 )
+        
 2
-                  
+        
 "
 Should
 be
@@ -271,7 +282,7 @@ an
 interface
 with
 "
-                  
+        
 "
 [
 Unforgeable
@@ -285,7 +296,7 @@ a
 static
 attribute
 "
-                  
+        
 "
 with
 the
@@ -293,6 +304,7 @@ same
 name
 .
 "
+    
 )
     
 parser
@@ -302,12 +314,12 @@ parser
 reset
 (
 )
-;
     
 parser
 .
 parse
 (
+        
 "
 "
 "
@@ -347,6 +359,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -361,12 +374,14 @@ harness
 .
 check
 (
+        
 len
 (
 results
 )
+        
 2
-                  
+        
 "
 Should
 be
@@ -378,7 +393,7 @@ an
 interface
 with
 "
-                  
+        
 "
 [
 Unforgeable
@@ -392,7 +407,7 @@ a
 static
 operation
 "
-                  
+        
 "
 with
 the
@@ -400,6 +415,7 @@ same
 name
 .
 "
+    
 )
     
 parser
@@ -409,7 +425,6 @@ parser
 reset
 (
 )
-;
     
 threw
 =
@@ -422,6 +437,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -460,6 +476,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -481,8 +498,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Should
 have
@@ -493,13 +511,14 @@ unforgeable
 attribute
 on
 "
-               
+        
 "
 parent
 with
 operation
 .
 "
+    
 )
     
 parser
@@ -509,7 +528,6 @@ parser
 reset
 (
 )
-;
     
 threw
 =
@@ -522,6 +540,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -560,6 +579,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -581,8 +601,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Should
 have
@@ -593,13 +614,14 @@ unforgeable
 operation
 on
 "
-               
+        
 "
 parent
 with
 operation
 .
 "
+    
 )
     
 parser
@@ -609,7 +631,6 @@ parser
 reset
 (
 )
-;
     
 threw
 =
@@ -622,6 +643,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -659,6 +681,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -683,8 +706,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Should
 have
@@ -695,13 +719,14 @@ unforgeable
 attribute
 on
 "
-               
+        
 "
 parent
 with
 attribute
 .
 "
+    
 )
     
 parser
@@ -711,7 +736,6 @@ parser
 reset
 (
 )
-;
     
 threw
 =
@@ -724,6 +748,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -761,6 +786,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -785,8 +811,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Should
 have
@@ -797,13 +824,14 @@ unforgeable
 operation
 on
 "
-               
+        
 "
 parent
 with
 attribute
 .
 "
+    
 )
     
 parser
@@ -813,12 +841,12 @@ parser
 reset
 (
 )
-;
     
 parser
 .
 parse
 (
+        
 "
 "
 "
@@ -863,6 +891,7 @@ Mixin
 "
 "
 "
+    
 )
     
 results
@@ -877,12 +906,14 @@ harness
 .
 check
 (
+        
 len
 (
 results
 )
+        
 4
-                  
+        
 "
 Should
 be
@@ -895,7 +926,7 @@ interface
 with
 a
 "
-                  
+        
 "
 mixin
 with
@@ -905,6 +936,7 @@ Unforgeable
 properties
 .
 "
+    
 )
     
 parser
@@ -914,7 +946,6 @@ parser
 reset
 (
 )
-;
     
 threw
 =
@@ -927,6 +958,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -977,6 +1009,7 @@ Mixin
 "
 "
 "
+        
 )
         
 results
@@ -998,8 +1031,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Should
 have
@@ -1009,7 +1043,7 @@ shadowing
 unforgeable
 attribute
 "
-               
+        
 "
 of
 parent
@@ -1019,6 +1053,7 @@ consequential
 interface
 .
 "
+    
 )
     
 parser
@@ -1028,7 +1063,6 @@ parser
 reset
 (
 )
-;
     
 threw
 =
@@ -1041,6 +1075,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1112,6 +1147,7 @@ ChildMixin
 "
 "
 "
+        
 )
         
 results
@@ -1133,8 +1169,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Should
 have
@@ -1147,7 +1184,7 @@ shadows
 unforgeable
 attribute
 "
-               
+        
 "
 of
 ancestor
@@ -1157,6 +1194,7 @@ consequential
 interface
 .
 "
+    
 )
     
 parser
@@ -1166,7 +1204,6 @@ parser
 reset
 (
 )
-;
     
 threw
 =
@@ -1179,6 +1216,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1250,6 +1288,7 @@ ChildMixin
 "
 "
 "
+        
 )
         
 results
@@ -1271,8 +1310,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Should
 have
@@ -1285,7 +1325,7 @@ shadows
 unforgeable
 operation
 "
-               
+        
 "
 of
 ancestor
@@ -1295,6 +1335,7 @@ consequential
 interface
 .
 "
+    
 )
     
 parser
@@ -1304,12 +1345,12 @@ parser
 reset
 (
 )
-;
     
 parser
 .
 parse
 (
+        
 "
 "
 "
@@ -1332,6 +1373,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -1351,7 +1393,6 @@ len
 results
 )
 1
-                  
 "
 Should
 allow
@@ -1371,7 +1412,6 @@ parser
 reset
 (
 )
-;
     
 threw
 =
@@ -1384,6 +1424,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1408,6 +1449,7 @@ foo
 "
 "
 "
+        
 )
         
 results

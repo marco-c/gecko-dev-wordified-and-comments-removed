@@ -30,12 +30,12 @@ isabs
 exe
 )
 else
-'
+"
 .
 /
 %
 s
-'
+"
 %
 exe
     
@@ -81,9 +81,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

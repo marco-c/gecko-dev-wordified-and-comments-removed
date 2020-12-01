@@ -2,23 +2,23 @@ config
 =
 {
     
-'
+"
 stage_platform
-'
+"
 :
-'
+"
 android
 -
 x86_64
 -
 debug
-'
+"
     
-'
+"
 src_mozconfig
-'
+"
 :
-'
+"
 mobile
 /
 android
@@ -32,11 +32,11 @@ android
 x86_64
 /
 debug
-'
+"
     
-'
+"
 debug_build
-'
+"
 :
 True
 }

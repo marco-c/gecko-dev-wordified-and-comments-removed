@@ -55,9 +55,9 @@ version
 .
 split
 (
-'
+"
 .
-'
+"
 )
 [
 0
@@ -80,19 +80,19 @@ packages
 =
 [
             
-'
+"
 gmake
-'
+"
             
-'
+"
 gtar
-'
+"
             
-'
+"
 pkgconf
-'
+"
             
-'
+"
 py
 %
 s
@@ -100,7 +100,7 @@ s
 s
 -
 sqlite3
-'
+"
 %
 sys
 .
@@ -111,17 +111,17 @@ version_info
 2
 ]
             
-'
+"
 rust
-'
+"
             
-'
+"
 watchman
-'
+"
             
-'
+"
 zip
-'
+"
         
 ]
         
@@ -131,45 +131,45 @@ browser_packages
 =
 [
             
-'
+"
 dbus
 -
 glib
-'
+"
             
-'
+"
 gtk2
-'
+"
             
-'
+"
 gtk3
-'
+"
             
-'
+"
 libXt
-'
+"
             
-'
+"
 mesa
 -
 dri
-'
+"
             
-'
+"
 nasm
-'
+"
             
-'
+"
 pulseaudio
-'
+"
             
-'
+"
 v4l_compat
-'
+"
             
-'
+"
 yasm
-'
+"
         
 ]
         
@@ -177,9 +177,9 @@ if
 not
 which
 (
-'
+"
 as
-'
+"
 )
 :
             
@@ -189,18 +189,18 @@ packages
 .
 append
 (
-'
+"
 binutils
-'
+"
 )
         
 if
 not
 which
 (
-'
+"
 unzip
-'
+"
 )
 :
             
@@ -210,9 +210,9 @@ packages
 .
 append
 (
-'
+"
 unzip
-'
+"
 )
     
 def
@@ -227,12 +227,12 @@ packages
 command
 =
 [
-'
+"
 pkg
-'
-'
+"
+"
 install
-'
+"
 ]
         
 if
@@ -245,10 +245,10 @@ command
 .
 append
 (
-'
+"
 -
 y
-'
+"
 )
         
 command
@@ -357,11 +357,11 @@ self
 .
 pkg_install
 (
-'
+"
 rust
 -
 cbindgen
-'
+"
 )
     
 def
@@ -388,9 +388,9 @@ self
 .
 pkg_install
 (
-'
+"
 npm
-'
+"
 )
     
 def
@@ -405,7 +405,7 @@ self
 .
 pkg_install
 (
-'
+"
 mercurial
-'
+"
 )

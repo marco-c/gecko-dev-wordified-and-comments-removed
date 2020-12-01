@@ -143,8 +143,6 @@ registeredCounters
 counter
 ]
 =
-\
-                    
 [
 self
 .

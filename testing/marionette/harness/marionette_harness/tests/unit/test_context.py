@@ -535,9 +535,9 @@ self
         
 using_context
 (
-'
+"
 content
-'
+"
 )
         
 def
@@ -556,16 +556,16 @@ self
 get_context
 (
 )
-'
+"
 content
-'
+"
 )
         
 using_context
 (
-'
+"
 chrome
-'
+"
 )
         
 def
@@ -584,9 +584,9 @@ self
 get_context
 (
 )
-'
+"
 chrome
-'
+"
 )
         
 inner_content

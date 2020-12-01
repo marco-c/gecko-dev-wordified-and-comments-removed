@@ -48,6 +48,7 @@ get_proxy_logger
 TC_LINK
 =
 (
+    
 "
 https
 :
@@ -68,7 +69,7 @@ garbage
 heavyprofile
 /
 "
-           
+    
 "
 artifacts
 /
@@ -283,9 +284,9 @@ page
 .
 headers
 [
-'
+"
 Location
-'
+"
 ]
         
 page
@@ -329,11 +330,11 @@ headers
 .
 get
 (
-'
+"
 Last
 -
 Modified
-'
+"
 None
 )
     
@@ -516,18 +517,17 @@ path
 .
 expanduser
 (
-'
+"
 ~
-'
+"
 )
-'
+"
 .
 mozilla
-'
-                                    
-'
+"
+"
 profiles
-'
+"
 )
     
 profiles_dir
@@ -587,10 +587,10 @@ path
 join
 (
 profiles_dir
-'
+"
 .
 cache
-'
+"
 )
     
 if
@@ -621,14 +621,14 @@ path
 join
 (
 cache_dir
-'
+"
 today
 -
 %
 s
 .
 tgz
-'
+"
 %
 name
 )
@@ -727,12 +727,12 @@ session
 .
 mount
 (
-'
+"
 https
 :
 /
 /
-'
+"
 HTTPAdapter
 (
 max_retries
@@ -772,32 +772,32 @@ headers
 .
 get
 (
-'
+"
 content
 -
 length
-'
+"
 )
 )
     
 template
 =
-'
+"
 Download
 progress
 %
 d
 %
 %
-'
+"
     
 with
 open
 (
 archive_file
-'
+"
 wb
-'
+"
 )
 as
 f
@@ -876,14 +876,14 @@ target
     
 template
 =
-'
+"
 Extraction
 progress
 %
 d
 %
 %
-'
+"
     
 with
 tarfile

@@ -63,9 +63,9 @@ MPL
 .
 DevToolsModules
 (
-'
+"
 generateActorSpec
 .
 js
-'
+"
 )

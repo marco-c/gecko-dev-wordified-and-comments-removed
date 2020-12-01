@@ -25,7 +25,6 @@ Chunking
 helper
 methods
 .
-    
 "
 "
 "
@@ -37,7 +36,6 @@ self
 possible_list
 this_chunk
 total_chunks
-                           
 sort
 =
 False

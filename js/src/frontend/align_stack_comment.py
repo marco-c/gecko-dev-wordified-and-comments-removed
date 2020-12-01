@@ -65,7 +65,7 @@ re
 .
 compile
 (
-'
+"
 ^
 (
 *
@@ -82,7 +82,7 @@ stack
 .
 *
 )
-'
+"
 )
 def
 align_stack_comment
@@ -138,10 +138,10 @@ line
 .
 rstrip
 (
-'
+"
 \
 n
-'
+"
 )
             
 m
@@ -166,8 +166,8 @@ group
 1
 )
 +
-'
-'
+"
+"
                 
 head_len
 =
@@ -200,7 +200,8 @@ ALIGNMENT_COLUMN
                     
 print
 (
-'
+                        
+"
 Warning
 :
 line
@@ -215,20 +216,23 @@ column
 :
 {
 }
-'
+"
 .
 format
 (
-                        
+                            
 line_num
 ALIGNMENT_COLUMN
 head_len
+                        
 )
+                        
 file
 =
 sys
 .
 stderr
+                    
 )
                 
 line_len
@@ -249,7 +253,8 @@ MAX_CHARS_PER_LINE
                     
 print
 (
-'
+                        
+"
 Warning
 :
 line
@@ -263,20 +268,23 @@ chars
 :
 {
 }
-'
+"
 .
 format
 (
-                        
+                            
 line_num
 MAX_CHARS_PER_LINE
 line_len
+                        
 )
+                        
 file
 =
 sys
 .
 stderr
+                    
 )
                 
 max_head_len
@@ -309,8 +317,8 @@ formatted
 =
 head
 +
-'
-'
+"
+"
 *
 spaces
 +
@@ -346,7 +354,8 @@ line
         
 print
 (
-'
+            
+"
 Info
 :
 Minimum
@@ -359,23 +368,25 @@ stack
 :
 {
 }
-'
+"
 .
 format
 (
-            
 max_head_len
 )
+            
 file
 =
 sys
 .
 stderr
+        
 )
         
 print
 (
-'
+            
+"
 Info
 :
 Alignment
@@ -388,23 +399,25 @@ stack
 :
 {
 }
-'
+"
 .
 format
 (
-            
 ALIGNMENT_COLUMN
 )
+            
 file
 =
 sys
 .
 stderr
+        
 )
         
 print
 (
-'
+            
+"
 Info
 :
 Max
@@ -416,18 +429,19 @@ comments
 :
 {
 }
-'
+"
 .
 format
 (
-            
 max_comment_len
 )
+            
 file
 =
 sys
 .
 stderr
+        
 )
     
 if
@@ -438,9 +452,9 @@ with
 open
 (
 path
-'
+"
 w
-'
+"
 )
 as
 f
@@ -475,9 +489,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 if
@@ -493,15 +507,14 @@ argv
         
 print
 (
-'
+"
 Usage
 :
 align_stack_comment
 .
 py
 FILE
-'
-              
+"
 file
 =
 sys

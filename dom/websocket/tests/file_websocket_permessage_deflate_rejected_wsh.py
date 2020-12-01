@@ -69,13 +69,13 @@ False
 raise
 ValueError
 (
-'
+"
 deflate
 extension
 processor
 not
 found
-'
+"
 )
 def
 web_socket_transfer_data
@@ -108,14 +108,12 @@ get_last_received_opcode
 )
         
 if
-(
 opcode
 =
 =
 common
 .
 OPCODE_BINARY
-)
 :
             
 msgutil
@@ -130,14 +128,12 @@ True
 )
         
 elif
-(
 opcode
 =
 =
 common
 .
 OPCODE_TEXT
-)
 :
             
 msgutil

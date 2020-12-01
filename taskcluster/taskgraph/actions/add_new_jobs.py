@@ -38,29 +38,29 @@ register_callback_action
     
 name
 =
-'
+"
 add
 -
 new
 -
 jobs
-'
+"
     
 title
 =
-'
+"
 Add
 new
 jobs
-'
+"
     
 symbol
 =
-'
+"
 add
 -
 new
-'
+"
     
 description
 =
@@ -87,109 +87,107 @@ schema
 =
 {
         
-'
+"
 type
-'
+"
 :
-'
+"
 object
-'
+"
         
-'
+"
 properties
-'
+"
 :
 {
             
-'
+"
 tasks
-'
+"
 :
 {
                 
-'
+"
 type
-'
+"
 :
-'
+"
 array
-'
+"
                 
-'
+"
 description
-'
+"
 :
-'
+"
 An
 array
 of
 task
 labels
-'
+"
                 
-'
+"
 items
-'
+"
 :
 {
-                    
-'
+"
 type
-'
+"
 :
-'
+"
 string
-'
-                
+"
 }
             
 }
             
-'
+"
 times
-'
+"
 :
 {
                 
-'
+"
 type
-'
+"
 :
-'
+"
 integer
-'
+"
                 
-'
+"
 default
-'
+"
 :
 1
                 
-'
+"
 minimum
-'
+"
 :
 1
                 
-'
+"
 maximum
-'
+"
 :
 100
                 
-'
+"
 title
-'
+"
 :
-'
+"
 Times
-'
+"
                 
-'
+"
 description
-'
+"
 :
-'
+"
 How
 many
 times
@@ -198,7 +196,7 @@ run
 each
 task
 .
-'
+"
             
 }
         
@@ -226,6 +224,7 @@ fetch_graph_and_labels
         
 parameters
 graph_config
+    
 )
     
 to_run
@@ -238,9 +237,9 @@ elem
 in
 input
 [
-'
+"
 tasks
-'
+"
 ]
 :
         
@@ -265,7 +264,7 @@ else
 raise
 Exception
 (
-'
+"
 {
 }
 was
@@ -276,7 +275,7 @@ the
 task
 -
 graph
-'
+"
 .
 format
 (
@@ -290,9 +289,9 @@ input
 .
 get
 (
-'
+"
 times
-'
+"
 1
 )
     

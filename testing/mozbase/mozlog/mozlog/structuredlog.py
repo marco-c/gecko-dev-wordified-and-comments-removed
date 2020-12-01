@@ -26,18 +26,29 @@ from
 logtypes
 import
 (
+    
 Unicode
+    
 TestId
+    
 TestList
+    
 Status
+    
 SubStatus
+    
 Dict
+    
 List
+    
 Int
+    
 Any
+    
 Tuple
-                       
+    
 Boolean
+    
 Nullable
 )
 from
@@ -764,6 +775,7 @@ log_levels
 =
 dict
 (
+    
 (
 k
 .
@@ -772,11 +784,11 @@ upper
 )
 v
 )
+    
 for
 v
 k
 in
-                  
 enumerate
 (
 [
@@ -1236,9 +1248,11 @@ _state
 .
 component_states
 [
+            
 self
 .
 component
+        
 ]
 =
 ComponentState
@@ -1518,12 +1532,13 @@ raw_data
             
 if
 (
+                
 k
 not
 in
 converted_data
+                
 and
-                    
 k
 not
 in
@@ -1533,6 +1548,7 @@ action
 ]
 .
 optional_args
+            
 )
 :
                 
@@ -1568,6 +1584,7 @@ test_end
             
 if
 (
+                
 data
 [
 "
@@ -1582,8 +1599,8 @@ data
 status
 "
 ]
-or
                 
+or
 data
 [
 "
@@ -1595,14 +1612,15 @@ status
 "
 SKIP
 "
+                
 or
-                    
 "
 expected
 "
 not
 in
 raw_data
+            
 )
 :
                 
@@ -1692,6 +1710,7 @@ has_shutdown
 raise
 LoggerShutdownError
 (
+                
 "
 {
 }
@@ -1706,11 +1725,12 @@ format
 (
 data
 [
-'
+"
 action
-'
+"
 ]
 )
+            
 )
         
 with
@@ -1764,7 +1784,8 @@ Exception
                     
 print
 (
-'
+                        
+"
 %
 s
 :
@@ -1773,14 +1794,16 @@ calling
 log
 handler
 :
-'
+"
 %
 __name__
+                        
 file
 =
 sys
 .
 __stderr__
+                    
 )
                     
 print
@@ -1809,12 +1832,13 @@ data
 all_data
 =
 {
+            
 "
 action
 "
 :
 action
-                    
+            
 "
 time
 "
@@ -1829,7 +1853,7 @@ time
 *
 1000
 )
-                    
+            
 "
 thread
 "
@@ -1839,7 +1863,7 @@ current_thread
 )
 .
 name
-                    
+            
 "
 pid
 "
@@ -1849,7 +1873,7 @@ current_process
 )
 .
 pid
-                    
+            
 "
 source
 "
@@ -1857,6 +1881,7 @@ source
 self
 .
 name
+        
 }
         
 if
@@ -1867,9 +1892,9 @@ component
             
 all_data
 [
-'
+"
 component
-'
+"
 ]
 =
 self
@@ -1899,9 +1924,9 @@ if
 action
 =
 =
-'
+"
 suite_start
-'
+"
 :
             
 if
@@ -1916,6 +1941,7 @@ self
 .
 error
 (
+                    
 "
 Got
 second
@@ -1925,8 +1951,8 @@ before
 suite_end
 .
 "
+                    
 +
-                           
 "
 Logged
 with
@@ -1949,6 +1975,7 @@ data
 100
 ]
 )
+                
 )
                 
 return
@@ -1966,9 +1993,9 @@ elif
 action
 =
 =
-'
+"
 suite_end
-'
+"
 :
             
 if
@@ -1984,6 +2011,7 @@ self
 .
 error
 (
+                    
 "
 Got
 suite_end
@@ -1992,8 +2020,8 @@ before
 suite_start
 .
 "
+                    
 +
-                           
 "
 Logged
 with
@@ -2012,6 +2040,7 @@ dumps
 data
 )
 )
+                
 )
                 
 return
@@ -2030,13 +2059,14 @@ True
     
 log_action
 (
+        
 TestList
 (
 "
 tests
 "
 )
-                
+        
 Unicode
 (
 "
@@ -2049,7 +2079,7 @@ optional
 =
 True
 )
-                
+        
 Dict
 (
 Any
@@ -2063,7 +2093,7 @@ optional
 =
 True
 )
-                
+        
 Dict
 (
 Any
@@ -2077,7 +2107,7 @@ optional
 =
 True
 )
-                
+        
 Dict
 (
 Any
@@ -2091,7 +2121,7 @@ optional
 =
 True
 )
-                
+        
 Dict
 (
 Any
@@ -2105,6 +2135,7 @@ optional
 =
 True
 )
+    
 )
     
 def
@@ -2209,9 +2240,9 @@ self
 .
 _ensure_suite_state
 (
-'
+"
 suite_start
-'
+"
 data
 )
 :
@@ -2270,9 +2301,9 @@ self
 .
 _ensure_suite_state
 (
-'
+"
 suite_end
-'
+"
 data
 )
 :
@@ -2297,7 +2328,6 @@ TestId
 test
 "
 )
-                
 Unicode
 (
 "
@@ -2381,6 +2411,7 @@ self
 .
 error
 (
+                
 "
 Got
 test_start
@@ -2393,13 +2424,13 @@ test
 s
 "
 %
-                       
 data
 [
 "
 test
 "
 ]
+            
 )
             
 return
@@ -2435,7 +2466,6 @@ progress
 .
 "
 %
-                       
 data
 [
 "
@@ -2474,27 +2504,28 @@ data
     
 log_action
 (
+        
 TestId
 (
 "
 test
 "
 )
-                
+        
 Unicode
 (
 "
 subtest
 "
 )
-                
+        
 SubStatus
 (
 "
 status
 "
 )
-                
+        
 SubStatus
 (
 "
@@ -2506,7 +2537,7 @@ default
 PASS
 "
 )
-                
+        
 Unicode
 (
 "
@@ -2519,7 +2550,7 @@ optional
 =
 True
 )
-                
+        
 Unicode
 (
 "
@@ -2532,7 +2563,7 @@ optional
 =
 True
 )
-                
+        
 Dict
 (
 Any
@@ -2546,7 +2577,7 @@ optional
 =
 True
 )
-                
+        
 List
 (
 SubStatus
@@ -2556,11 +2587,11 @@ known_intermittent
 default
 =
 None
-                     
 optional
 =
 True
 )
+    
 )
     
 def
@@ -2695,7 +2726,6 @@ result
 "
         
 if
-(
 data
 [
 "
@@ -2711,7 +2741,6 @@ status
 "
 ]
 or
-                
 data
 [
 "
@@ -2723,7 +2752,6 @@ status
 "
 SKIP
 "
-)
 :
             
 del
@@ -2754,6 +2782,7 @@ self
 .
 error
 (
+                
 "
 test_status
 for
@@ -2766,7 +2795,7 @@ in
 progress
 .
 "
-                       
+                
 "
 Logged
 with
@@ -2790,6 +2819,7 @@ dumps
 data
 )
 )
+            
 )
             
 return
@@ -2806,20 +2836,21 @@ data
     
 log_action
 (
+        
 TestId
 (
 "
 test
 "
 )
-                
+        
 Status
 (
 "
 status
 "
 )
-                
+        
 Status
 (
 "
@@ -2831,7 +2862,7 @@ default
 OK
 "
 )
-                
+        
 Unicode
 (
 "
@@ -2844,7 +2875,7 @@ optional
 =
 True
 )
-                
+        
 Unicode
 (
 "
@@ -2857,7 +2888,7 @@ optional
 =
 True
 )
-                
+        
 Dict
 (
 Any
@@ -2871,7 +2902,7 @@ optional
 =
 True
 )
-                
+        
 List
 (
 Status
@@ -2881,11 +2912,11 @@ known_intermittent
 default
 =
 None
-                     
 optional
 =
 True
 )
+    
 )
     
 def
@@ -3024,7 +3055,6 @@ result
 "
         
 if
-(
 data
 [
 "
@@ -3040,7 +3070,6 @@ status
 "
 ]
 or
-                
 data
 [
 "
@@ -3052,7 +3081,6 @@ status
 "
 SKIP
 "
-)
 :
             
 del
@@ -3083,6 +3111,7 @@ self
 .
 error
 (
+                
 "
 test_end
 for
@@ -3095,7 +3124,7 @@ in
 progress
 .
 "
-                       
+                
 "
 Logged
 with
@@ -3119,6 +3148,7 @@ dumps
 data
 )
 )
+            
 )
         
 else
@@ -3152,20 +3182,21 @@ data
     
 log_action
 (
+        
 Unicode
 (
 "
 process
 "
 )
-                
+        
 Unicode
 (
 "
 data
 "
 )
-                
+        
 Unicode
 (
 "
@@ -3178,6 +3209,7 @@ optional
 =
 True
 )
+    
 )
     
 def
@@ -3263,6 +3295,7 @@ data
     
 log_action
 (
+        
 Unicode
 (
 "
@@ -3272,7 +3305,7 @@ default
 =
 None
 )
-                
+        
 Unicode
 (
 "
@@ -3286,7 +3319,7 @@ Unknown
 ]
 "
 )
-                
+        
 TestId
 (
 "
@@ -3299,7 +3332,7 @@ optional
 =
 True
 )
-                
+        
 Unicode
 (
 "
@@ -3312,7 +3345,7 @@ optional
 =
 True
 )
-                
+        
 Unicode
 (
 "
@@ -3325,7 +3358,7 @@ optional
 =
 True
 )
-                
+        
 Int
 (
 "
@@ -3338,7 +3371,7 @@ optional
 =
 True
 )
-                
+        
 Unicode
 (
 "
@@ -3351,7 +3384,7 @@ optional
 =
 True
 )
-                
+        
 Unicode
 (
 "
@@ -3364,7 +3397,7 @@ optional
 =
 True
 )
-                
+        
 Unicode
 (
 "
@@ -3377,7 +3410,7 @@ optional
 =
 True
 )
-                
+        
 Unicode
 (
 "
@@ -3390,7 +3423,7 @@ optional
 =
 True
 )
-                
+        
 List
 (
 Unicode
@@ -3401,6 +3434,7 @@ default
 =
 None
 )
+    
 )
     
 def
@@ -3444,6 +3478,7 @@ data
     
 log_action
 (
+        
 Unicode
 (
 "
@@ -3453,7 +3488,6 @@ default
 =
 None
 )
-                
 List
 (
 Unicode
@@ -3464,6 +3498,7 @@ default
 =
 None
 )
+    
 )
     
 def
@@ -3492,7 +3527,6 @@ Unicode
 process
 "
 )
-                
 Unicode
 (
 "
@@ -3581,20 +3615,21 @@ data
     
 log_action
 (
+        
 Unicode
 (
 "
 process
 "
 )
-                
+        
 Int
 (
 "
 exitcode
 "
 )
-                
+        
 Unicode
 (
 "
@@ -3607,6 +3642,7 @@ optional
 =
 True
 )
+    
 )
     
 def
@@ -3697,21 +3733,18 @@ TestId
 test
 "
 )
-                
 Int
 (
 "
 count
 "
 )
-                
 Int
 (
 "
 min_expected
 "
 )
-                
 Int
 (
 "
@@ -3790,6 +3823,7 @@ data
     
 log_action
 (
+        
 List
 (
 Unicode
@@ -3797,7 +3831,7 @@ Unicode
 frames
 "
 )
-                
+        
 Unicode
 (
 "
@@ -3810,7 +3844,7 @@ default
 =
 None
 )
-                
+        
 Unicode
 (
 "
@@ -3823,6 +3857,7 @@ default
 =
 None
 )
+    
 )
     
 def
@@ -3845,20 +3880,21 @@ data
     
 log_action
 (
+        
 Int
 (
 "
 bytes
 "
 )
-                
+        
 Int
 (
 "
 allocations
 "
 )
-                
+        
 Boolean
 (
 "
@@ -3871,6 +3907,7 @@ default
 =
 False
 )
+    
 )
     
 def
@@ -3893,27 +3930,28 @@ data
     
 log_action
 (
+        
 Unicode
 (
 "
 process
 "
 )
-                
+        
 Int
 (
 "
 bytes
 "
 )
-                
+        
 Unicode
 (
 "
 name
 "
 )
-                
+        
 Unicode
 (
 "
@@ -3926,7 +3964,7 @@ default
 =
 None
 )
-                
+        
 Boolean
 (
 "
@@ -3939,6 +3977,7 @@ default
 =
 False
 )
+    
 )
     
 def
@@ -3961,13 +4000,14 @@ data
     
 log_action
 (
+        
 Unicode
 (
 "
 process
 "
 )
-                
+        
 Nullable
 (
 Int
@@ -3975,14 +4015,14 @@ Int
 bytes
 "
 )
-                
+        
 Int
 (
 "
 threshold
 "
 )
-                
+        
 List
 (
 Unicode
@@ -3990,7 +4030,7 @@ Unicode
 objects
 "
 )
-                
+        
 Unicode
 (
 "
@@ -4003,7 +4043,7 @@ default
 =
 None
 )
-                
+        
 Boolean
 (
 "
@@ -4016,7 +4056,7 @@ default
 =
 False
 )
-                
+        
 Boolean
 (
 "
@@ -4029,6 +4069,7 @@ default
 =
 False
 )
+    
 )
     
 def
@@ -4120,9 +4161,9 @@ self
 .
 _log_data
 (
-'
+"
 shutdown
-'
+"
 data
 )
         
@@ -4174,7 +4215,6 @@ Unicode
 message
 "
 )
-                
 Any
 (
 "
@@ -4255,7 +4295,6 @@ stack
 "
 ]
 =
-u
 "
 \
 n
@@ -4289,6 +4328,8 @@ log
 .
 __doc__
 =
+(
+        
 "
 "
 "
@@ -4356,8 +4397,11 @@ log
 "
 "
 "
+        
 %
 level_name
+    
+)
     
 log
 .
@@ -4383,13 +4427,14 @@ level_name
     
 log_action
 (
+        
 Unicode
 (
 "
 path
 "
 )
-                
+        
 Unicode
 (
 "
@@ -4400,7 +4445,7 @@ default
 "
 "
 )
-                
+        
 Int
 (
 "
@@ -4410,7 +4455,7 @@ default
 =
 0
 )
-                
+        
 Int
 (
 "
@@ -4423,7 +4468,7 @@ optional
 =
 True
 )
-                
+        
 Unicode
 (
 "
@@ -4436,7 +4481,7 @@ optional
 =
 True
 )
-                
+        
 Unicode
 (
 "
@@ -4449,7 +4494,7 @@ optional
 =
 True
 )
-                
+        
 Unicode
 (
 "
@@ -4462,7 +4507,7 @@ optional
 =
 True
 )
-                
+        
 Tuple
 (
 (
@@ -4479,7 +4524,7 @@ optional
 =
 True
 )
-                
+        
 Unicode
 (
 "
@@ -4492,6 +4537,7 @@ optional
 =
 True
 )
+    
 )
     
 def

@@ -52,7 +52,7 @@ assertTrue
 (
 is_url
 (
-'
+"
 http
 :
 /
@@ -60,7 +60,7 @@ http
 mozilla
 .
 org
-'
+"
 )
 )
         
@@ -70,7 +70,7 @@ assertFalse
 (
 is_url
 (
-'
+"
 /
 usr
 /
@@ -79,7 +79,7 @@ bin
 mozilla
 .
 org
-'
+"
 )
 )
         
@@ -89,7 +89,7 @@ assertTrue
 (
 is_url
 (
-'
+"
 file
 :
 /
@@ -102,7 +102,7 @@ bin
 mozilla
 .
 org
-'
+"
 )
 )
         
@@ -112,23 +112,23 @@ assertFalse
 (
 is_url
 (
-'
+"
 c
 :
 \
 foo
 \
 bar
-'
+"
 )
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

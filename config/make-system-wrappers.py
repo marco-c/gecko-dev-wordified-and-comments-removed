@@ -16,9 +16,9 @@ import
 FileAvoidWrite
 header_template
 =
-'
-'
-'
+"
+"
+"
 #
 pragma
 GCC
@@ -39,12 +39,12 @@ pragma
 GCC
 visibility
 pop
-'
-'
-'
+"
+"
+"
 include_next_template
 =
-'
+"
 #
 include_next
 <
@@ -52,7 +52,7 @@ include_next
 header
 }
 >
-'
+"
 def
 gen_wrappers
 (
@@ -101,18 +101,18 @@ if
 header
 =
 =
-'
+"
 wayland
 -
 util
 .
 h
-'
+"
 :
                 
 includes
 =
-'
+"
 #
 include
 <
@@ -122,7 +122,7 @@ h
 >
 \
 n
-'
+"
 +
 includes
             
@@ -130,13 +130,13 @@ elif
 header
 =
 =
-'
+"
 wayland
 -
 client
 .
 h
-'
+"
 :
                 
 includes

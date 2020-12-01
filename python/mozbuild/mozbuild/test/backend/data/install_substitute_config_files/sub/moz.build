@@ -1,11 +1,11 @@
 CONFIGURE_SUBST_FILES
 =
 [
-'
+"
 foo
 .
 h
-'
+"
 ]
 EXPORTS
 .
@@ -13,10 +13,10 @@ out
 +
 =
 [
-'
+"
 !
 foo
 .
 h
-'
+"
 ]

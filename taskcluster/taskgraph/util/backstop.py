@@ -129,9 +129,9 @@ params
 .
 get
 (
-'
+"
 backstop
-'
+"
 False
 )
 :
@@ -273,18 +273,20 @@ last_pushdate
 get_artifact
 (
 last_backstop_id
-'
+"
 public
 /
 parameters
 .
 yml
-'
+"
 )
 [
+            
 "
 pushdate
 "
+        
 ]
     
 except

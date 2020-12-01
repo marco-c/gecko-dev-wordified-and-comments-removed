@@ -65,7 +65,9 @@ _recording_zip_path
 )
 )
 [
+            
 0
+        
 ]
         
 if
@@ -111,14 +113,16 @@ file
 %
 s
 "
-%
                 
+%
 path_to_zip_file
+            
 )
             
 raise
 Exception
 (
+                
 "
 Wrong
 file
@@ -134,6 +138,7 @@ zip
 file
 .
 "
+            
 )
         
 self
@@ -184,6 +189,7 @@ LOG
 .
 info
 (
+                
 "
 The
 recording
@@ -199,6 +205,7 @@ and
 data
 .
 "
+            
 )
             
 shutil
@@ -264,9 +271,9 @@ with
 ZipFile
 (
 path_to_zip_file
-'
+"
 r
-'
+"
 )
 as
 zipObj
@@ -395,14 +402,12 @@ self
 _metadata
 =
 {
-                
 "
 content
 "
 :
 [
 ]
-                
 "
 recording_date
 "
@@ -415,7 +420,6 @@ now
 (
 )
 )
-            
 }
     
 def
@@ -492,7 +496,6 @@ _get_temp_path
 (
 tmp_file
 )
-                          
 self
 .
 _get_temp_path
@@ -550,6 +553,7 @@ os
 .
 rename
 (
+                        
 self
 .
 _get_temp_path
@@ -573,7 +577,7 @@ tmp_file
 0
 ]
 )
-                              
+                        
 self
 .
 _get_temp_path
@@ -584,6 +588,7 @@ netlocs
 json
 "
 )
+                    
 )
                 
 else
@@ -611,6 +616,7 @@ os
 .
 rename
 (
+                        
 self
 .
 _get_temp_path
@@ -634,7 +640,7 @@ tmp_file
 0
 ]
 )
-                              
+                        
 self
 .
 _get_temp_path
@@ -645,6 +651,7 @@ metadata
 json
 "
 )
+                    
 )
             
 elif
@@ -681,6 +688,7 @@ os
 .
 rename
 (
+                    
 self
 .
 _get_temp_path
@@ -704,7 +712,7 @@ tmp_file
 0
 ]
 )
-                          
+                    
 self
 .
 _get_temp_path
@@ -715,6 +723,7 @@ screenshot
 png
 "
 )
+                
 )
     
 def

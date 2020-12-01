@@ -136,14 +136,14 @@ read
 )
 )
 [
-'
+"
 secret
-'
+"
 ]
 [
-'
+"
 content
-'
+"
 ]
     
 def
@@ -358,9 +358,9 @@ config
 .
 get
 (
-'
+"
 secret_files
-'
+"
 [
 ]
 )
@@ -375,12 +375,12 @@ environ
 .
 get
 (
-'
+"
 MOZ_SCM_LEVEL
-'
-'
+"
+"
 1
-'
+"
 )
 )
         
@@ -388,11 +388,11 @@ subst
 =
 {
             
-'
+"
 scm
 -
 level
-'
+"
 :
 scm_level
         
@@ -414,9 +414,9 @@ abspath
 (
 sf
 [
-'
+"
 filename
-'
+"
 ]
 )
             
@@ -424,9 +424,9 @@ secret_name
 =
 sf
 [
-'
+"
 secret_name
-'
+"
 ]
 %
 subst
@@ -437,9 +437,9 @@ sf
 .
 get
 (
-'
+"
 min_scm_level
-'
+"
 0
 )
             
@@ -450,9 +450,9 @@ min_scm_level
 :
                 
 if
-'
+"
 default
-'
+"
 in
 sf
 :
@@ -475,17 +475,17 @@ secret
 =
 sf
 [
-'
+"
 default
-'
+"
 ]
                 
 elif
-'
+"
 default
 -
 file
-'
+"
 in
 sf
 :
@@ -494,11 +494,11 @@ default_path
 =
 sf
 [
-'
+"
 default
 -
 file
-'
+"
 ]
 .
 format
@@ -512,9 +512,9 @@ with
 open
 (
 default_path
-'
+"
 r
-'
+"
 )
 as
 f
@@ -580,9 +580,9 @@ sf
 .
 get
 (
-'
+"
 mode
-'
+"
 )
 :
                 
@@ -593,8 +593,8 @@ chmod
 filename
 sf
 [
-'
+"
 mode
-'
+"
 ]
 )

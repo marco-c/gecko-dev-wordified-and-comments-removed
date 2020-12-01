@@ -46,17 +46,19 @@ logging
 .
 basicConfig
 (
+    
 stream
 =
 sys
 .
 stdout
+    
 level
 =
 logging
 .
 INFO
-                    
+    
 format
 =
 "
@@ -94,24 +96,24 @@ path
 .
 join
 (
-'
+"
 .
 .
-'
-'
+"
+"
 .
 .
-'
-'
+"
+"
 workspace
-'
-'
+"
+"
 partners
-'
+"
 )
 DEFAULT_OUTPUT_DIR
 =
-'
+"
 %
 (
 partner
@@ -129,7 +131,7 @@ s
 locale
 )
 s
-'
+"
 TASKCLUSTER_ARTIFACTS
 =
 (
@@ -140,10 +142,10 @@ environ
 .
 get
 (
-'
+"
 TASKCLUSTER_ROOT_URL
-'
-'
+"
+"
 https
 :
 /
@@ -159,11 +161,11 @@ services
 mozilla
 .
 com
-'
+"
 )
     
 +
-'
+"
 /
 api
 /
@@ -178,11 +180,11 @@ taskId
 }
 /
 artifacts
-'
+"
 )
 UPSTREAM_ENUS_PATH
 =
-'
+"
 public
 /
 build
@@ -190,10 +192,10 @@ build
 {
 filename
 }
-'
+"
 UPSTREAM_L10N_PATH
 =
-'
+"
 public
 /
 build
@@ -205,30 +207,32 @@ locale
 {
 filename
 }
-'
+"
 WINDOWS_DEST_DIR
 =
-'
+"
 firefox
-'
+"
 MAC_DEST_DIR
 =
-'
+"
 {
 }
 /
 Contents
 /
 Resources
-'
+"
 LINUX_DEST_DIR
 =
-'
+"
 firefox
-'
+"
 BOUNCER_PRODUCT_TEMPLATE
 =
-'
+(
+    
+"
 partner
 -
 firefox
@@ -246,7 +250,8 @@ partner_distro
 }
 -
 latest
-'
+"
+)
 class
 StrictFancyURLopener
 (
@@ -309,13 +314,14 @@ URLopener
 .
 http_error_default
 (
+            
 self
 url
 fp
 errcode
 errmsg
-                                                    
 headers
+        
 )
 def
 which
@@ -557,9 +563,9 @@ os
 name
 =
 =
-'
+"
 nt
-'
+"
 :
             
 if
@@ -705,11 +711,11 @@ log
 .
 debug
 (
-'
+"
 Executing
 %
 s
-'
+"
 %
 cmd
 )
@@ -718,11 +724,11 @@ log
 .
 debug
 (
-'
+"
 in
 %
 s
-'
+"
 %
 os
 .
@@ -786,7 +792,7 @@ log
 .
 error
 (
-'
+"
 Error
 :
 shellCommand
@@ -799,9 +805,8 @@ status
 :
 %
 d
-'
+"
 %
-                  
 ret_real
 )
         
@@ -809,12 +814,12 @@ log
 .
 error
 (
-'
+"
 Command
 :
 %
 s
-'
+"
 %
 cmd
 exc_info
@@ -870,9 +875,9 @@ platform
 :
     
 return
-'
+"
 linux
-'
+"
 in
 platform
 def
@@ -883,29 +888,26 @@ platform
 :
     
 return
-(
-'
+"
 linux32
-'
+"
 in
 platform
 or
-'
+"
 linux
 -
 i686
-'
+"
 in
 platform
 or
-            
 platform
 =
 =
-'
+"
 linux
-'
-)
+"
 def
 isLinux64
 (
@@ -914,21 +916,19 @@ platform
 :
     
 return
-(
-'
+"
 linux64
-'
+"
 in
 platform
 or
-'
+"
 linux
 -
 x86_64
-'
+"
 in
 platform
-)
 def
 isMac
 (
@@ -937,9 +937,9 @@ platform
 :
     
 return
-'
+"
 mac
-'
+"
 in
 platform
 def
@@ -950,9 +950,9 @@ platform
 :
     
 return
-'
+"
 win
-'
+"
 in
 platform
 def
@@ -963,9 +963,9 @@ platform
 :
     
 return
-'
+"
 win32
-'
+"
 in
 platform
 def
@@ -979,9 +979,9 @@ return
 platform
 =
 =
-'
+"
 win64
-'
+"
 def
 isWin64Aarch64
 (
@@ -993,11 +993,11 @@ return
 platform
 =
 =
-'
+"
 win64
 -
 aarch64
-'
+"
 def
 isValidPlatform
 (
@@ -1007,36 +1007,42 @@ platform
     
 return
 (
+        
 isLinux64
 (
 platform
 )
+        
 or
 isLinux32
 (
 platform
 )
+        
 or
 isMac
 (
 platform
 )
+        
 or
-            
 isWin64
 (
 platform
 )
+        
 or
 isWin64Aarch64
 (
 platform
 )
+        
 or
 isWin32
 (
 platform
 )
+    
 )
 def
 parseRepackConfig
@@ -1076,9 +1082,9 @@ config
     
 config
 [
-'
+"
 platforms
-'
+"
 ]
 =
 [
@@ -1089,9 +1095,9 @@ f
 open
 (
 filename
-'
+"
 r
-'
+"
 )
     
 for
@@ -1148,9 +1154,9 @@ line
 .
 split
 (
-'
+"
 =
-'
+"
 2
 )
         
@@ -1169,12 +1175,12 @@ if
 key
 in
 (
-'
+"
 dist_id
-'
-'
+"
+"
 replacement_setup_exe
-'
+"
 )
 :
             
@@ -1191,15 +1197,15 @@ if
 key
 in
 (
-'
+"
 migrationWizardDisabled
-'
-'
+"
+"
 oem
-'
-'
+"
+"
 repack_stub_installer
-'
+"
 )
 :
             
@@ -1211,9 +1217,9 @@ lower
 )
 =
 =
-'
+"
 true
-'
+"
 :
                 
 config
@@ -1229,24 +1235,24 @@ if
 key
 =
 =
-'
+"
 locales
-'
+"
 :
             
 config
 [
-'
+"
 locales
-'
+"
 ]
 =
 value
 .
 split
 (
-'
-'
+"
+"
 )
             
 continue
@@ -1276,29 +1282,29 @@ if
 key
 =
 =
-'
+"
 deb_section
-'
+"
 :
             
 config
 [
-'
+"
 deb_section
-'
+"
 ]
 =
 re
 .
 sub
 (
-'
+"
 /
-'
-'
+"
+"
 \
 /
-'
+"
 value
 )
             
@@ -1326,8 +1332,6 @@ getFtpPlatform
 (
 platform
 )
-\
-               
 and
 value
 .
@@ -1336,16 +1340,16 @@ lower
 )
 =
 =
-'
+"
 true
-'
+"
 :
                 
 config
 [
-'
+"
 platforms
-'
+"
 ]
 .
 append
@@ -1360,9 +1364,9 @@ config
 .
 get
 (
-'
+"
 replacement_setup_exe
-'
+"
 )
 and
 len
@@ -1371,9 +1375,9 @@ config
 .
 get
 (
-'
+"
 locales
-'
+"
 [
 ]
 )
@@ -1386,6 +1390,7 @@ log
 .
 error
 (
+            
 "
 Error
 :
@@ -1400,14 +1405,15 @@ got
 %
 s
 "
+            
 %
-                  
 config
 [
-'
+"
 locales
-'
+"
 ]
+        
 )
         
 sys
@@ -1420,9 +1426,9 @@ exit
 if
 config
 [
-'
+"
 platforms
-'
+"
 ]
 :
         
@@ -1435,9 +1441,9 @@ platform
 )
 :
     
-'
-'
-'
+"
+"
+"
 Returns
 the
 platform
@@ -1450,7 +1456,7 @@ building
 package
 names
 .
-       
+    
 Note
 :
 we
@@ -1460,7 +1466,7 @@ this
 code
 being
 idempotent
-       
+    
 i
 .
 e
@@ -1475,9 +1481,9 @@ foo
 should
 work
     
-'
-'
-'
+"
+"
+"
     
 if
 isLinux64
@@ -1563,9 +1569,9 @@ platform
 )
 :
     
-'
-'
-'
+"
+"
+"
 The
 extension
 for
@@ -1582,10 +1588,9 @@ internal
 -
 signing
 task
-    
-'
-'
-'
+"
+"
+"
     
 if
 isLinux
@@ -1633,9 +1638,9 @@ platform
 )
 :
     
-'
-'
-'
+"
+"
+"
 Returns
 the
 filename
@@ -1645,10 +1650,9 @@ repacked
 for
 the
 platform
-    
-'
-'
-'
+"
+"
+"
     
 return
 "
@@ -1670,9 +1674,9 @@ repack_stub_installer
 )
 :
     
-'
-'
-'
+"
+"
+"
 Returns
 the
 full
@@ -1686,10 +1690,9 @@ downlaod
 for
 each
 platform
-    
-'
-'
-'
+"
+"
+"
     
 files
 =
@@ -1711,11 +1714,11 @@ files
 .
 append
 (
-'
+"
 setup
 .
 exe
-'
+"
 )
         
 if
@@ -1731,13 +1734,13 @@ files
 .
 append
 (
-'
+"
 setup
 -
 stub
 .
 exe
-'
+"
 )
     
 return
@@ -1765,11 +1768,11 @@ taskId
 =
 taskId
 )
-'
+"
 tc_artifacts
 .
 json
-'
+"
 )
         
 tc_index
@@ -1780,20 +1783,20 @@ load
 (
 open
 (
-'
+"
 tc_artifacts
 .
 json
-'
+"
 )
 )
         
 return
 tc_index
 [
-'
+"
 artifacts
-'
+"
 ]
     
 except
@@ -1807,7 +1810,7 @@ log
 .
 error
 (
-'
+"
 Failed
 to
 get
@@ -1815,7 +1818,7 @@ task
 artifacts
 from
 TaskCluster
-'
+"
 )
         
 raise
@@ -1861,9 +1864,9 @@ name
 =
 artifact
 [
-'
+"
 name
-'
+"
 ]
             
 if
@@ -1888,7 +1891,8 @@ log
 .
 error
 (
-'
+                    
+"
 Duplicated
 artifact
 %
@@ -1900,14 +1904,17 @@ s
 &
 %
 s
-'
-                          
+"
+                    
 name
+                    
 taskId
+                    
 artifacts
 [
 name
 ]
+                
 )
                 
 sys
@@ -1931,13 +1938,14 @@ log
 .
 debug
 (
-'
+        
+"
 Found
 artifacts
 :
 %
 s
-'
+"
 %
 json
 .
@@ -1951,6 +1959,7 @@ sort_keys
 =
 True
 )
+    
 )
     
 return
@@ -1976,11 +1985,11 @@ if
 locale
 =
 =
-'
+"
 en
 -
 US
-'
+"
 :
         
 names
@@ -2048,22 +2057,22 @@ quote
 url
 safe
 =
-'
+"
 :
 /
-'
+"
 )
     
 log
 .
 info
 (
-'
+"
 Downloading
 from
 %
 s
-'
+"
 %
 url
 )
@@ -2072,12 +2081,12 @@ log
 .
 info
 (
-'
+"
 To
 :
 %
 s
-'
+"
 file_path
 )
     
@@ -2085,12 +2094,12 @@ log
 .
 info
 (
-'
+"
 CWD
 :
 %
 s
-'
+"
 %
 os
 .
@@ -2109,7 +2118,6 @@ StrictFancyURLopener
 )
 .
 retrieve
-              
 kwargs
 =
 dict
@@ -2190,9 +2198,9 @@ partner_distro
 :
     
 if
-'
+"
 RELEASE_TYPE
-'
+"
 not
 in
 os
@@ -2204,7 +2212,7 @@ log
 .
 fatal
 (
-'
+"
 RELEASE_TYPE
 must
 be
@@ -2212,7 +2220,7 @@ set
 in
 the
 environment
-'
+"
 )
         
 sys
@@ -2228,27 +2236,27 @@ os
 .
 environ
 [
-'
+"
 RELEASE_TYPE
-'
+"
 ]
     
 if
 release_type
 =
 =
-'
+"
 release
 -
 rc
-'
+"
 :
         
 release_type
 =
-'
+"
 release
-'
+"
     
 return
 BOUNCER_PRODUCT_TEMPLATE
@@ -2279,27 +2287,37 @@ object
 def
 __init__
 (
+        
 self
+        
 build
+        
 partner_dir
+        
 build_dir
+        
 final_dir
-                 
+        
 ftp_platform
+        
 repack_info
+        
 file_mode
 =
 0o644
-                 
+        
 quiet
 =
 False
+        
 source_locale
 =
 None
+        
 locale
 =
 None
+    
 )
 :
         
@@ -2356,7 +2374,6 @@ join
 self
 .
 base_dir
-                                             
 self
 .
 full_build_path
@@ -2471,7 +2488,8 @@ log
 .
 info
 (
-'
+            
+"
 Repacking
 %
 s
@@ -2480,7 +2498,7 @@ s
 build
 %
 s
-'
+"
 %
 (
 self
@@ -2493,6 +2511,7 @@ self
 .
 build
 )
+        
 )
     
 def
@@ -2506,7 +2525,8 @@ log
 .
 info
 (
-'
+            
+"
 Done
 repacking
 %
@@ -2516,7 +2536,8 @@ s
 build
 %
 s
-'
+"
+            
 %
 (
 self
@@ -2529,6 +2550,7 @@ self
 .
 build
 )
+        
 )
     
 def
@@ -2543,9 +2565,9 @@ copy
 self
 .
 full_build_path
-'
+"
 .
-'
+"
 )
     
 def
@@ -2556,9 +2578,9 @@ partner_path
 )
 :
         
-'
-'
-'
+"
+"
+"
 If
 this
 is
@@ -2574,7 +2596,7 @@ HK
 )
 set
 the
-            
+        
 distribution
 .
 ini
@@ -2588,9 +2610,9 @@ default
 locale
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 self
@@ -2610,14 +2632,14 @@ path
 join
 (
 partner_path
-'
+"
 distribution
-'
-'
+"
+"
 distribution
 .
 ini
-'
+"
 )
             
 f
@@ -2632,45 +2654,45 @@ isfile
 filename
 )
 and
-'
+"
 a
-'
+"
 or
-'
+"
 w
-'
+"
 )
             
 f
 .
 write
 (
-'
+"
 [
 Locale
 ]
 \
 n
-'
+"
 )
             
 f
 .
 write
 (
-'
+"
 locale
 =
-'
+"
 +
 self
 .
 locale
 +
-'
+"
 \
 n
-'
+"
 )
             
 f
@@ -2679,9 +2701,9 @@ close
 (
 )
         
-'
-'
-'
+"
+"
+"
 Some
 partners
 need
@@ -2709,9 +2731,9 @@ install
 dir
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 int
@@ -2722,9 +2744,9 @@ version
 .
 split
 (
-'
+"
 .
-'
+"
 )
 [
 0
@@ -2742,14 +2764,14 @@ path
 join
 (
 partner_path
-'
+"
 distribution
-'
-'
+"
+"
 distribution
 .
 ini
-'
+"
 )
             
 f
@@ -2757,9 +2779,9 @@ f
 open
 (
 filename
-'
+"
 r
-'
+"
 )
             
 ini
@@ -2781,9 +2803,9 @@ ini
 .
 find
 (
-'
+"
 EnableProfileMigrator
-'
+"
 )
 >
 =
@@ -2829,17 +2851,17 @@ path
 join
 (
 browserDir
-'
+"
 override
 .
 ini
-'
+"
 )
         
 if
-'
+"
 migrationWizardDisabled
-'
+"
 in
 self
 .
@@ -2875,39 +2897,39 @@ isfile
 filename
 )
 and
-'
+"
 a
-'
+"
 or
-'
+"
 w
-'
+"
 )
             
 f
 .
 write
 (
-'
+"
 [
 XRE
 ]
 \
 n
-'
+"
 )
             
 f
 .
 write
 (
-'
+"
 EnableProfileMigrator
 =
 0
 \
 n
-'
+"
 )
             
 f
@@ -2928,13 +2950,13 @@ log
 .
 info
 (
-'
+"
 Copying
 files
 into
 %
 s
-'
+"
 %
 platform_dir
 )
@@ -2958,15 +2980,15 @@ for
 i
 in
 [
-'
+"
 distribution
-'
-'
+"
+"
 extensions
-'
-'
+"
+"
 searchplugins
-'
+"
 ]
 :
                 
@@ -3141,17 +3163,25 @@ RepackBase
 def
 __init__
 (
+        
 self
+        
 build
+        
 partner_dir
+        
 build_dir
+        
 final_dir
-                 
+        
 ftp_platform
+        
 repack_info
+        
 *
 *
 kwargs
+    
 )
 :
         
@@ -3163,18 +3193,23 @@ self
 .
 __init__
 (
+            
 build
+            
 partner_dir
+            
 build_dir
-                                          
+            
 final_dir
-                                          
+            
 ftp_platform
+            
 repack_info
-                                          
+            
 *
 *
 kwargs
+        
 )
         
 self
@@ -3185,12 +3220,12 @@ build
 .
 replace
 (
-'
+"
 .
 bz2
-'
-'
-'
+"
+"
+"
 )
     
 def
@@ -3363,17 +3398,25 @@ RepackBase
 def
 __init__
 (
+        
 self
+        
 build
+        
 partner_dir
+        
 build_dir
+        
 final_dir
-                 
+        
 ftp_platform
+        
 repack_info
+        
 *
 *
 kwargs
+    
 )
 :
         
@@ -3385,18 +3428,23 @@ self
 .
 __init__
 (
+            
 build
+            
 partner_dir
+            
 build_dir
-                                        
+            
 final_dir
-                                        
+            
 ftp_platform
+            
 repack_info
-                                        
+            
 *
 *
 kwargs
+        
 )
         
 self
@@ -3407,12 +3455,12 @@ build
 .
 replace
 (
-'
+"
 .
 gz
-'
-'
-'
+"
+"
+"
 )
     
 def
@@ -3517,9 +3565,9 @@ build
 .
 rsplit
 (
-'
+"
 .
-'
+"
 1
 )
 [
@@ -3542,10 +3590,10 @@ name
 .
 endswith
 (
-'
+"
 .
 app
-'
+"
 )
 :
                 
@@ -3613,20 +3661,20 @@ tar
 s
 %
 s
-\
 '
 %
 s
-\
 '
 "
 %
 (
             
 tar_flags
+            
 self
 .
 uncompressed_build
+            
 MAC_DEST_DIR
 .
 format
@@ -3635,6 +3683,7 @@ self
 .
 appName
 )
+        
 )
         
 shellCommand
@@ -3668,17 +3717,25 @@ RepackBase
 def
 __init__
 (
+        
 self
+        
 build
+        
 partner_dir
+        
 build_dir
+        
 final_dir
-                 
+        
 ftp_platform
+        
 repack_info
+        
 *
 *
 kwargs
+    
 )
 :
         
@@ -3690,18 +3747,23 @@ self
 .
 __init__
 (
+            
 build
+            
 partner_dir
+            
 build_dir
-                                        
+            
 final_dir
-                                        
+            
 ftp_platform
+            
 repack_info
-                                        
+            
 *
 *
 kwargs
+        
 )
     
 def
@@ -3766,11 +3828,9 @@ s
 %
 (
 zip_flags
-                                    
 self
 .
 build
-                                    
 WINDOWS_DEST_DIR
 )
         
@@ -3793,9 +3853,9 @@ repack_info
 .
 get
 (
-'
+"
 repack_stub_installer
-'
+"
 )
 :
             
@@ -3825,18 +3885,18 @@ final_build
 .
 replace
 (
-'
+"
 target
 .
 zip
-'
-'
+"
+"
 target
 -
 stub
 .
 zip
-'
+"
 )
             
 z
@@ -3846,9 +3906,9 @@ zipfile
 ZipFile
 (
 dest
-'
+"
 w
-'
+"
 )
             
 with
@@ -3861,14 +3921,14 @@ join
 self
 .
 full_partner_path
-'
+"
 stub
-'
-'
+"
+"
 partner
 .
 ini
-'
+"
 )
 )
 as
@@ -3900,11 +3960,11 @@ l
 .
 replace
 (
-'
+"
 %
 LOCALE
 %
-'
+"
 self
 .
 locale
@@ -3916,18 +3976,18 @@ l
 .
 replace
 (
-'
+"
 %
 BOUNCER_PRODUCT
 %
-'
+"
 self
 .
 repack_info
 [
-'
+"
 bouncer_product
-'
+"
 ]
 )
                 
@@ -3940,11 +4000,11 @@ z
 .
 writestr
 (
-'
+"
 partner
 .
 ini
-'
+"
 partner_ini
 )
             
@@ -3954,10 +4014,10 @@ zipfile
 .
 ZipInfo
 (
-'
+"
 firefox
 /
-'
+"
 )
             
 d
@@ -4006,22 +4066,22 @@ final_build
 .
 replace
 (
-'
+"
 target
 .
 zip
-'
-'
+"
+"
 setup
 .
 exe
-'
+"
 )
         
 if
-'
+"
 replacement_setup_exe
-'
+"
 in
 self
 .
@@ -4049,9 +4109,9 @@ self
 .
 repack_info
 [
-'
+"
 replacement_setup_exe
-'
+"
 ]
 setup_dest
 )
@@ -4084,16 +4144,16 @@ full_build_path
 .
 replace
 (
-'
+"
 target
 .
 zip
-'
-'
+"
+"
 setup
 .
 exe
-'
+"
 )
             
 copy
@@ -4126,9 +4186,9 @@ repack_info
 .
 get
 (
-'
+"
 repack_stub_installer
-'
+"
 )
 :
             
@@ -4136,6 +4196,7 @@ log
 .
 info
 (
+                
 "
 Copying
 vanilla
@@ -4150,6 +4211,7 @@ stub
 installer
 creation
 "
+            
 )
             
 setup_dest
@@ -4160,18 +4222,18 @@ final_build
 .
 replace
 (
-'
+"
 target
 .
 zip
-'
-'
+"
+"
 setup
 -
 stub
 .
 exe
-'
+"
 )
             
 setup_source
@@ -4182,18 +4244,18 @@ full_build_path
 .
 replace
 (
-'
+"
 target
 .
 zip
-'
-'
+"
+"
 setup
 -
 stub
 .
 exe
-'
+"
 )
             
 copy
@@ -4215,9 +4277,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 error
@@ -4233,45 +4295,45 @@ repack_build
 =
 {
         
-'
+"
 linux
 -
 i686
-'
+"
 :
 RepackLinux
         
-'
+"
 linux
 -
 x86_64
-'
+"
 :
 RepackLinux
         
-'
+"
 mac
-'
+"
 :
 RepackMac
         
-'
+"
 win32
-'
+"
 :
 RepackWin
         
-'
+"
 win64
-'
+"
 :
 RepackWin
         
-'
+"
 win64
 -
 aarch64
-'
+"
 :
 RepackWin
     
@@ -4303,6 +4365,7 @@ add_option
 -
 d
 "
+        
 "
 -
 -
@@ -4310,11 +4373,13 @@ partners
 -
 dir
 "
+        
 dest
 =
 "
 partners_dir
 "
+        
 default
 =
 PARTNERS_DIR
@@ -4345,11 +4410,13 @@ add_option
 -
 p
 "
+        
 "
 -
 -
 partner
 "
+        
 dest
 =
 "
@@ -4390,7 +4457,6 @@ dest
 "
 version
 "
-        
 help
 =
 "
@@ -4413,6 +4479,7 @@ add_option
 -
 n
 "
+        
 "
 -
 -
@@ -4420,11 +4487,13 @@ build
 -
 number
 "
+        
 dest
 =
 "
 build_number
 "
+        
 default
 =
 1
@@ -4446,7 +4515,6 @@ parser
 .
 add_option
 (
-        
 "
 -
 -
@@ -4457,7 +4525,6 @@ dest
 "
 platform
 "
-        
 help
 =
 "
@@ -4467,7 +4534,6 @@ platform
 to
 repack
 "
-    
 )
     
 parser
@@ -4482,16 +4548,19 @@ include
 -
 oem
 "
+        
 action
 =
 "
 store_true
 "
+        
 dest
 =
 "
 include_oem
 "
+        
 default
 =
 False
@@ -4525,16 +4594,19 @@ add_option
 -
 q
 "
+        
 "
 -
 -
 quiet
 "
+        
 action
 =
 "
 store_true
 "
+        
 dest
 =
 "
@@ -4569,11 +4641,13 @@ add_option
 -
 taskid
 "
+        
 action
 =
 "
 append
 "
+        
 dest
 =
 "
@@ -4597,7 +4671,7 @@ tasks
 .
 Multiples
 "
-             
+        
 "
 expected
 e
@@ -4621,7 +4695,7 @@ space
 separated
 list
 "
-             
+        
 "
 stored
 in
@@ -4643,6 +4717,7 @@ add_option
 -
 l
 "
+        
 "
 -
 -
@@ -4650,16 +4725,19 @@ limit
 -
 locale
 "
+        
 action
 =
 "
 append
 "
+        
 dest
 =
 "
 limit_locales
 "
+        
 default
 =
 [
@@ -4751,7 +4829,6 @@ directory
 .
 "
 %
-                  
 options
 .
 partners_dir
@@ -4800,12 +4877,12 @@ log
 .
 error
 (
-'
+"
 No
 platform
 specified
 .
-'
+"
 )
         
 error
@@ -4826,13 +4903,13 @@ log
 .
 error
 (
-'
+"
 Invalid
 platform
 %
 s
 .
-'
+"
 %
 options
 .
@@ -4853,9 +4930,9 @@ os
 .
 getenv
 (
-'
+"
 UPSTREAM_TASKIDS
-'
+"
 )
     
 if
@@ -4867,7 +4944,8 @@ log
 .
 error
 (
-'
+            
+"
 upstream
 tasks
 should
@@ -4879,14 +4957,15 @@ using
 taskid
 args
 or
-'
-                  
-'
+"
+            
+"
 UPSTREAM_TASKIDS
 in
 env
 .
-'
+"
+        
 )
         
 error
@@ -4897,24 +4976,24 @@ for
 tool
 in
 (
-'
+"
 tar
-'
-'
+"
+"
 bunzip2
-'
-'
+"
+"
 bzip2
-'
-'
+"
+"
 gunzip
-'
-'
+"
+"
 gzip
-'
-'
+"
+"
 zip
-'
+"
 )
 :
         
@@ -4946,7 +5025,6 @@ PATH
 .
 "
 %
-                      
 tool
 )
             
@@ -4992,15 +5070,17 @@ path
 .
 join
 (
+        
 script_directory
+        
 "
 original_builds
 "
-                                    
+        
 options
 .
 version
-                                    
+        
 "
 build
 %
@@ -5010,6 +5090,7 @@ s
 options
 .
 build_number
+    
 )
     
 repack_version
@@ -5023,12 +5104,15 @@ s
 "
 %
 (
+        
 options
 .
 version
+        
 options
 .
 build_number
+    
 )
     
 if
@@ -5036,22 +5120,22 @@ os
 .
 getenv
 (
-'
+"
 MOZ_AUTOMATION
-'
+"
 )
 :
         
 repacked_builds_dir
 =
-'
+"
 /
 builds
 /
 worker
 /
 artifacts
-'
+"
     
 else
 :
@@ -5112,9 +5196,9 @@ root
 .
 lstrip
 (
-'
+"
 /
-'
+"
 )
         
 partner
@@ -5164,15 +5248,16 @@ partner
 :
             
 if
+(
+                
 options
 .
 partner
 !
 =
 partner
+                
 and
-\
-                    
 options
 .
 partner
@@ -5188,6 +5273,8 @@ options
 partner
 )
 ]
+            
+)
 :
                 
 continue
@@ -5202,17 +5289,18 @@ if
 f
 =
 =
-'
+"
 repack
 .
 cfg
-'
+"
 :
                 
 log
 .
 debug
 (
+                    
 "
 Found
 partner
@@ -5244,6 +5332,7 @@ _
 )
 f
 )
+                
 )
                 
 repack_cfg
@@ -5277,6 +5366,7 @@ log
 .
 debug
 (
+                        
 "
 no
 repack_info
@@ -5289,14 +5379,15 @@ in
 s
 skipping
 "
+                        
 %
-                              
 (
 options
 .
 platform
 repack_cfg
 )
+                    
 )
                     
 continue
@@ -5306,9 +5397,9 @@ repack_info
 .
 get
 (
-'
+"
 repack_stub_installer
-'
+"
 )
 :
                     
@@ -5318,15 +5409,17 @@ True
                     
 repack_info
 [
-'
+"
 bouncer_product
-'
+"
 ]
 =
 getBouncerProduct
 (
+                        
 partner
 partner_distro
+                    
 )
                 
 partner_dirs
@@ -5345,14 +5438,14 @@ log
 .
 info
 (
-'
+"
 Retrieving
 artifact
 lists
 from
 upstream
 tasks
-'
+"
 )
     
 artifact_ids
@@ -5401,6 +5494,7 @@ log
 .
 info
 (
+            
 "
 Starting
 repack
@@ -5419,12 +5513,13 @@ s
 partner
 partner_distro
 )
+        
 )
         
 if
-'
+"
 oem
-'
+"
 in
 repack_info
 and
@@ -5439,6 +5534,7 @@ log
 .
 info
 (
+                
 "
 Skipping
 partner
@@ -5459,9 +5555,10 @@ was
 not
 set
 "
+                
 %
-                     
 partner
+            
 )
             
 continue
@@ -5472,9 +5569,9 @@ repack_info
 .
 get
 (
-'
+"
 repack_stub_installer
-'
+"
 )
         
 partner_repack_dir
@@ -5492,9 +5589,9 @@ locale
 in
 repack_info
 [
-'
+"
 locales
-'
+"
 ]
 :
             
@@ -5537,10 +5634,10 @@ source_locale
 locale
             
 if
-'
+"
 locale
 .
-'
+"
 +
 locale
 in
@@ -5551,10 +5648,10 @@ source_locale
 =
 repack_info
 [
-'
+"
 locale
 .
-'
+"
 +
 locale
 ]
@@ -5564,9 +5661,9 @@ platform
 in
 repack_info
 [
-'
+"
 platforms
-'
+"
 ]
 :
                 
@@ -5575,9 +5672,9 @@ if
 source_locale
 =
 =
-'
+"
 ja
-'
+"
 and
 isMac
 (
@@ -5585,25 +5682,25 @@ platform
 )
 )
 or
-\
-                   
 (
+                    
 source_locale
 =
 =
-'
+"
 ja
 -
 JP
 -
 mac
-'
+"
 and
 not
 isMac
 (
 platform
 )
+                
 )
 :
                     
@@ -5624,7 +5721,6 @@ join
 (
 original_builds_dir
 ftp_platform
-                                           
 locale
 )
                 
@@ -5713,6 +5809,7 @@ path
 .
 join
 (
+                        
 local_filepath
 os
 .
@@ -5722,6 +5819,7 @@ basename
 (
 artifact
 )
+                    
 )
                     
 if
@@ -5765,6 +5863,7 @@ log
 .
 fatal
 (
+                            
 "
 Can
 '
@@ -5779,6 +5878,7 @@ s
 from
 "
 artifact
+                        
 )
                         
 sys
@@ -5790,13 +5890,13 @@ exit
                     
 original_build_url
 =
-'
+"
 %
 s
 /
 %
 s
-'
+"
 %
 (
                         
@@ -5867,10 +5967,13 @@ ftp_platform
 (
                     
 filename
+                    
 full_partner_dir
+                    
 local_filepath
                     
 final_dir
+                    
 ftp_platform
                     
 repack_info

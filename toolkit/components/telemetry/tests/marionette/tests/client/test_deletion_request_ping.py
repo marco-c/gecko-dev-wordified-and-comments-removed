@@ -9,9 +9,14 @@ telemetry_harness
 .
 ping_filters
 import
+(
+    
 ANY_PING
+    
 DELETION_REQUEST_PING
+    
 MAIN_SHUTDOWN_PING
+)
 class
 TestDeletionRequestPing
 (

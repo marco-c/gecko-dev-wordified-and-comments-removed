@@ -8,17 +8,17 @@ import
 GeckoPrettyPrinter
 GeckoPrettyPrinter
 (
-'
+"
 nsString
-'
-'
+"
+"
 ^
 nsTString
 <
 .
 *
 >
-'
+"
 )
 class
 string_printer
@@ -53,9 +53,9 @@ self
 .
 value
 [
-'
+"
 mData
-'
+"
 ]
     
 def
@@ -66,6 +66,6 @@ self
 :
         
 return
-'
+"
 string
-'
+"

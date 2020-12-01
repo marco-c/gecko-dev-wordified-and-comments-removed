@@ -68,12 +68,12 @@ path
 join
 (
 base_dir
-'
+"
 python
-'
-'
+"
+"
 mozboot
-'
+"
 )
 )
 sys
@@ -90,12 +90,12 @@ path
 join
 (
 base_dir
-'
+"
 python
-'
-'
+"
+"
 mozbuild
-'
+"
 )
 )
 sys
@@ -112,15 +112,15 @@ path
 join
 (
 base_dir
-'
+"
 third_party
-'
-'
+"
+"
 python
-'
-'
+"
+"
 six
-'
+"
 )
 )
 from
@@ -153,10 +153,7 @@ mozbuild
 .
 util
 import
-(
-    
 write_indented_repr
-)
 import
 mozpack
 .
@@ -178,9 +175,9 @@ config
 }
     
 if
-'
+"
 OLD_CONFIGURE
-'
+"
 not
 in
 os
@@ -192,9 +189,9 @@ os
 .
 environ
 [
-'
+"
 OLD_CONFIGURE
-'
+"
 ]
 =
 os
@@ -204,11 +201,11 @@ path
 join
 (
 base_dir
-'
+"
 old
 -
 configure
-'
+"
 )
     
 sandbox
@@ -224,9 +221,9 @@ argv
     
 clobber_file
 =
-'
+"
 CLOBBER
-'
+"
     
 if
 not
@@ -244,9 +241,9 @@ with
 open
 (
 clobber_file
-'
+"
 a
-'
+"
 )
 :
             
@@ -259,9 +256,9 @@ environ
 .
 get
 (
-'
+"
 MOZ_CONFIGURE_TRACE
-'
+"
 )
 :
         
@@ -292,11 +289,11 @@ dirname
 (
 __file__
 )
-'
+"
 moz
 .
 configure
-'
+"
 )
 )
     
@@ -313,21 +310,21 @@ logging
 .
 getLogger
 (
-'
+"
 moz
 .
 configure
-'
+"
 )
 .
 info
 (
-'
+"
 Creating
 config
 .
 status
-'
+"
 )
     
 old_js_configure_substs
@@ -336,9 +333,9 @@ config
 .
 pop
 (
-'
+"
 OLD_JS_CONFIGURE_SUBSTS
-'
+"
 None
 )
     
@@ -348,9 +345,9 @@ config
 .
 pop
 (
-'
+"
 OLD_JS_CONFIGURE_DEFINES
-'
+"
 None
 )
     
@@ -386,11 +383,11 @@ os
 .
 makedirs
 (
-'
+"
 js
 /
 src
-'
+"
 )
             
 except
@@ -416,45 +413,45 @@ os
 .
 chdir
 (
-'
+"
 js
 /
 src
-'
+"
 )
             
 js_config
 [
-'
+"
 OLD_CONFIGURE_SUBSTS
-'
+"
 ]
 =
 old_js_configure_substs
             
 js_config
 [
-'
+"
 OLD_CONFIGURE_DEFINES
-'
+"
 ]
 =
 old_js_configure_defines
             
 js_config
 [
-'
+"
 TOPOBJDIR
-'
+"
 ]
 +
 =
-'
+"
 /
 js
 /
 src
-'
+"
             
 config_status
 (
@@ -486,9 +483,9 @@ obj
 )
 :
     
-'
-'
-'
+"
+"
+"
 Recursively
 check
 that
@@ -501,9 +498,9 @@ are
 unicode
 strings
 .
-'
-'
-'
+"
+"
+"
     
 if
 isinstance
@@ -667,9 +664,9 @@ True
 :
             
 return
-'
+"
 1
-'
+"
         
 if
 v
@@ -678,8 +675,8 @@ False
 :
             
 return
-'
-'
+"
+"
         
 if
 not
@@ -718,9 +715,9 @@ sanitized_config
     
 sanitized_config
 [
-'
+"
 substs
-'
+"
 ]
 =
 {
@@ -731,6 +728,7 @@ sanitize_config
 (
 v
 )
+        
 for
 k
 v
@@ -744,28 +742,35 @@ config
         
 if
 k
+        
 not
 in
 (
-'
+            
+"
 DEFINES
-'
-'
+"
+            
+"
 TOPSRCDIR
-'
-'
+"
+            
+"
 TOPOBJDIR
-'
-'
+"
+            
+"
 CONFIG_STATUS_DEPS
-'
-                     
-'
+"
+            
+"
 OLD_CONFIGURE_SUBSTS
-'
-'
+"
+            
+"
 OLD_CONFIGURE_DEFINES
-'
+"
+        
 )
     
 }
@@ -776,17 +781,17 @@ v
 in
 config
 [
-'
+"
 OLD_CONFIGURE_SUBSTS
-'
+"
 ]
 :
         
 sanitized_config
 [
-'
+"
 substs
-'
+"
 ]
 [
 k
@@ -799,9 +804,9 @@ v
     
 sanitized_config
 [
-'
+"
 defines
-'
+"
 ]
 =
 {
@@ -822,9 +827,9 @@ iteritems
 (
 config
 [
-'
+"
 DEFINES
-'
+"
 ]
 )
     
@@ -836,17 +841,17 @@ v
 in
 config
 [
-'
+"
 OLD_CONFIGURE_DEFINES
-'
+"
 ]
 :
         
 sanitized_config
 [
-'
+"
 defines
-'
+"
 ]
 [
 k
@@ -859,46 +864,46 @@ v
     
 sanitized_config
 [
-'
+"
 topsrcdir
-'
+"
 ]
 =
 config
 [
-'
+"
 TOPSRCDIR
-'
+"
 ]
     
 sanitized_config
 [
-'
+"
 topobjdir
-'
+"
 ]
 =
 config
 [
-'
+"
 TOPOBJDIR
-'
+"
 ]
     
 sanitized_config
 [
-'
+"
 mozconfig
-'
+"
 ]
 =
 config
 .
 get
 (
-'
+"
 MOZCONFIG
-'
+"
 )
     
 if
@@ -969,14 +974,12 @@ dict
             
 return
 {
-                
 k
 :
 normalize
 (
 v
 )
-                
 for
 k
 v
@@ -987,7 +990,6 @@ iteritems
 (
 obj
 )
-            
 }
         
 if
@@ -1043,19 +1045,19 @@ codecs
 .
 open
 (
-'
+"
 config
 .
 status
-'
-'
+"
+"
 w
-'
-'
+"
+"
 utf
 -
 8
-'
+"
 )
 as
 fh
@@ -1065,13 +1067,15 @@ fh
 .
 write
 (
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 #
@@ -1094,23 +1098,26 @@ __future__
 import
 unicode_literals
         
-'
-'
-'
+"
+"
+"
+            
 )
+            
 %
 {
-'
+"
 python
-'
+"
 :
 config
 [
-'
+"
 PYTHON3
-'
+"
 ]
 }
+        
 )
         
 for
@@ -1132,11 +1139,11 @@ fh
 .
 write
 (
-'
+"
 %
 s
 =
-'
+"
 %
 k
 )
@@ -1151,6 +1158,7 @@ fh
 .
 write
 (
+            
 "
 __all__
 =
@@ -1165,7 +1173,6 @@ topsrcdir
 defines
 '
 "
-                 
 "
 '
 substs
@@ -1175,6 +1182,7 @@ mozconfig
 '
 ]
 "
+        
 )
         
 if
@@ -1185,13 +1193,15 @@ fh
 .
 write
 (
+                
 textwrap
 .
 dedent
 (
-'
-'
-'
+                    
+"
+"
+"
                 
 if
 __name__
@@ -1248,10 +1258,12 @@ config_status
 args
 )
             
-'
-'
-'
+"
+"
+"
+                
 )
+            
 )
     
 partial_config
@@ -1260,9 +1272,9 @@ PartialConfigEnvironment
 (
 config
 [
-'
+"
 TOPOBJDIR
-'
+"
 ]
 )
     
@@ -1278,28 +1290,27 @@ io
 .
 open
 (
-'
+"
 config_status_deps
 .
 in
-'
-'
+"
+"
 w
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
-                 
+"
 newline
 =
-'
+"
 \
 n
-'
+"
 )
 as
 fh
@@ -1310,35 +1321,37 @@ f
 in
 sorted
 (
-                
+            
 itertools
 .
 chain
 (
+                
 config
 [
-'
+"
 CONFIG_STATUS_DEPS
-'
+"
 ]
-                                
+                
 iter_modules_in_path
 (
 config
 [
-'
+"
 TOPOBJDIR
-'
+"
 ]
-                                                     
 config
 [
-'
+"
 TOPSRCDIR
-'
+"
 ]
 )
+            
 )
+        
 )
 :
             
@@ -1346,12 +1359,12 @@ fh
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 mozpath
 .
@@ -1365,11 +1378,11 @@ os
 .
 chmod
 (
-'
+"
 config
 .
 status
-'
+"
 0o755
 )
     
@@ -1402,9 +1415,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 sys

@@ -101,8 +101,9 @@ formatter
 .
 suite_start
 (
-{
             
+{
+                
 "
 time
 "
@@ -110,15 +111,16 @@ time
 time
 (
 )
-            
+                
 "
 run_info
 "
 :
 {
 }
-        
+            
 }
+        
 )
     
 def
@@ -169,8 +171,9 @@ formatter
 .
 suite_end
 (
-{
             
+{
+                
 "
 time
 "
@@ -178,8 +181,9 @@ time
 time
 (
 )
-        
+            
 }
+        
 )
         
 with
@@ -364,21 +368,23 @@ formatter
 .
 test_start
 (
-{
             
+{
+                
 "
 test
 "
 :
 testname
-            
+                
 "
 time
 "
 :
 start_time
-        
+            
 }
+        
 )
         
 for
@@ -407,20 +413,21 @@ formatter
 .
 test_end
 (
-{
             
+{
+                
 "
 test
 "
 :
 testname
-            
+                
 "
 time
 "
 :
 end_time
-            
+                
 "
 status
 "
@@ -431,7 +438,7 @@ result
 status
 "
 ]
-            
+                
 "
 expected
 "
@@ -442,6 +449,7 @@ result
 expected
 "
 ]
-        
+            
 }
+        
 )

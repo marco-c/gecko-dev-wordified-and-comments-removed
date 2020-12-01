@@ -16,6 +16,7 @@ mark
 .
 parametrize
 (
+    
 (
 "
 input_
@@ -24,9 +25,11 @@ input_
 expected
 "
 )
-                         
+    
 [
+        
 (
+            
 "
 alloc_system
 :
@@ -45,7 +48,7 @@ alloc
 .
 .
 "
-                           
+            
 "
 GlobalAlloc
 u20
@@ -59,14 +62,14 @@ GT
 :
 :
 "
-                           
+            
 "
 alloc
 :
 :
 h5a1f0db41e296502
 "
-                           
+            
 "
 alloc_system
 :
@@ -85,7 +88,7 @@ alloc
 .
 .
 "
-                           
+            
 "
 GlobalAlloc
 u20
@@ -100,9 +103,11 @@ GT
 :
 alloc
 "
+        
 )
-                          
+        
 (
+            
 "
 alloc_system
 :
@@ -121,7 +126,7 @@ alloc
 .
 .
 "
-                           
+            
 "
 GlobalAlloc
 u20
@@ -136,7 +141,7 @@ GT
 :
 alloc
 "
-                           
+            
 "
 alloc_system
 :
@@ -155,7 +160,7 @@ alloc
 .
 .
 "
-                           
+            
 "
 GlobalAlloc
 u20
@@ -170,7 +175,9 @@ GT
 :
 alloc
 "
+        
 )
+    
 ]
 )
 def
@@ -204,9 +211,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

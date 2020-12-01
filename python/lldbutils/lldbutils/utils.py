@@ -51,7 +51,7 @@ elif
 c
 =
 =
-0x0c
+0x0C
 :
         
 return
@@ -65,7 +65,7 @@ elif
 c
 =
 =
-0x0a
+0x0A
 :
         
 return
@@ -79,7 +79,7 @@ elif
 c
 =
 =
-0x0d
+0x0D
 :
         
 return
@@ -107,7 +107,7 @@ elif
 c
 =
 =
-0x0b
+0x0B
 :
         
 return
@@ -121,7 +121,7 @@ elif
 c
 =
 =
-0x5c
+0x5C
 :
         
 return
@@ -138,12 +138,11 @@ c
 :
         
 return
-"
+'
 \
 \
-\
 "
-"
+'
     
 elif
 c
@@ -172,7 +171,7 @@ and
 c
 <
 =
-0xff
+0xFF
 :
         
 return
@@ -256,10 +255,9 @@ GetByteSize
         
 s
 =
+'
 "
-\
-"
-"
+'
         
 size
 =
@@ -267,7 +265,7 @@ size
         
 mask
 =
-0xff
+0xFF
     
 elif
 char_type
@@ -282,11 +280,10 @@ GetByteSize
         
 s
 =
-"
+'
 u
-\
 "
-"
+'
         
 size
 =
@@ -294,7 +291,7 @@ size
         
 mask
 =
-0xffff
+0xFFFF
     
 else
 :
@@ -341,6 +338,7 @@ lldb_value
 .
 CreateValueFromAddress
 (
+                
 "
 x
 "
@@ -350,6 +348,7 @@ i
 *
 size
 char_type
+            
 )
 .
 GetValueAsUnsigned
@@ -392,10 +391,9 @@ i
 s
 +
 =
+'
 "
-\
-"
-"
+'
     
 if
 not
@@ -457,6 +455,8 @@ GetName
 )
     
 if
+(
+        
 name
 .
 startswith
@@ -466,6 +466,7 @@ nsCOMPtr
 <
 "
 )
+        
 or
 name
 .
@@ -476,9 +477,8 @@ RefPtr
 <
 "
 )
+        
 or
-\
-       
 name
 .
 startswith
@@ -488,6 +488,7 @@ nsAutoPtr
 <
 "
 )
+        
 or
 name
 .
@@ -497,6 +498,8 @@ startswith
 already_AddRefed
 <
 "
+)
+    
 )
 :
         

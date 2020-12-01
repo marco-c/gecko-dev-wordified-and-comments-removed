@@ -47,12 +47,11 @@ test_data
 [
             
 {
-                
-'
+"
 unsafe_page
-'
+"
 :
-'
+"
 https
 :
 /
@@ -68,17 +67,15 @@ firefox
 unwanted
 .
 html
-'
-            
+"
 }
             
 {
-                
-'
+"
 unsafe_page
-'
+"
 :
-'
+"
 https
 :
 /
@@ -98,17 +95,15 @@ a
 trap
 .
 html
-'
-            
+"
 }
             
 {
-                
-'
+"
 unsafe_page
-'
+"
 :
-'
+"
 https
 :
 /
@@ -128,8 +123,7 @@ an
 attack
 .
 html
-'
-            
+"
 }
         
 ]
@@ -144,13 +138,13 @@ marionette
 .
 get_pref
 (
-'
+"
 browser
 .
 startup
 .
 homepage
-'
+"
 )
         
 self
@@ -159,7 +153,7 @@ marionette
 .
 set_pref
 (
-'
+"
 browser
 .
 safebrowsing
@@ -167,7 +161,7 @@ safebrowsing
 phishing
 .
 enabled
-'
+"
 True
 )
         
@@ -177,7 +171,7 @@ marionette
 .
 set_pref
 (
-'
+"
 browser
 .
 safebrowsing
@@ -185,7 +179,7 @@ safebrowsing
 malware
 .
 enabled
-'
+"
 True
 )
         
@@ -229,7 +223,7 @@ marionette
 .
 clear_pref
 (
-'
+"
 browser
 .
 safebrowsing
@@ -237,7 +231,7 @@ safebrowsing
 phishing
 .
 enabled
-'
+"
 )
             
 self
@@ -246,7 +240,7 @@ marionette
 .
 clear_pref
 (
-'
+"
 browser
 .
 safebrowsing
@@ -254,14 +248,14 @@ safebrowsing
 malware
 .
 enabled
-'
+"
 )
             
 self
 .
 remove_permission
 (
-'
+"
 https
 :
 /
@@ -271,12 +265,12 @@ www
 itisatrap
 .
 org
-'
-'
+"
+"
 safe
 -
 browsing
-'
+"
 )
             
 self
@@ -317,9 +311,9 @@ unsafe_page
 =
 item
 [
-'
+"
 unsafe_page
-'
+"
 ]
             
 self
@@ -422,9 +416,9 @@ marionette
 .
 using_context
 (
-'
+"
 chrome
-'
+"
 )
 :
             
@@ -434,6 +428,7 @@ marionette
 .
 execute_script
 (
+                
 "
 "
 "
@@ -510,12 +505,14 @@ arguments
 "
 "
 "
+                
 script_args
 =
 [
 host
 permission
 ]
+            
 )
     
 def
@@ -537,9 +534,9 @@ find_element
 By
 .
 ID
-'
+"
 seeDetailsButton
-'
+"
 )
         
 button
@@ -566,9 +563,9 @@ find_element
 By
 .
 ID
-'
+"
 ignore_warning_link
-'
+"
 )
         
 link
@@ -603,11 +600,11 @@ element_present
 By
 .
 ID
-'
+"
 main
 -
 feature
-'
+"
 )
             
 message
@@ -653,7 +650,7 @@ self
 .
 remove_permission
 (
-'
+"
 https
 :
 /
@@ -663,12 +660,12 @@ www
 itisatrap
 .
 org
-'
-'
+"
+"
 safe
 -
 browsing
-'
+"
 )
     
 def
@@ -685,31 +682,31 @@ marionette
 .
 using_context
 (
-'
+"
 chrome
-'
+"
 )
 :
             
 button
 =
-(
 self
 .
 marionette
 .
 find_element
 (
+                
 By
 .
 ID
-'
+"
 tabbrowser
 -
 tabbox
-'
+"
+            
 )
-                      
 .
 find_element
 (
@@ -731,7 +728,6 @@ here
 "
 ]
 '
-)
 )
             
 button
@@ -774,7 +770,7 @@ get_url
             
 message
 =
-'
+"
 The
 default
 home
@@ -783,7 +779,7 @@ has
 not
 been
 loaded
-'
+"
         
 )
     
@@ -801,15 +797,16 @@ marionette
 .
 using_context
 (
-'
+"
 chrome
-'
+"
 )
 :
             
 button
 =
 (
+                
 self
 .
 marionette
@@ -819,20 +816,21 @@ find_element
 By
 .
 ID
-'
+"
 tabbrowser
 -
 tabbox
-'
+"
 )
-                      
+                
 .
 find_element
 (
+                    
 By
 .
 CSS_SELECTOR
-'
+"
 notification
 [
 value
@@ -843,20 +841,22 @@ badware
 -
 page
 ]
-'
+"
+                
 )
-                      
+                
 .
 find_element
 (
 By
 .
 CSS_SELECTOR
-'
+"
 .
 messageCloseButton
-'
+"
 )
+            
 )
             
 button
@@ -893,7 +893,7 @@ button
                 
 message
 =
-'
+"
 The
 notification
 bar
@@ -901,6 +901,6 @@ has
 not
 been
 closed
-'
+"
             
 )

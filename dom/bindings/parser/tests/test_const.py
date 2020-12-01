@@ -370,6 +370,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -538,6 +539,7 @@ udbi
 "
 "
 "
+    
 )
     
 results
@@ -599,7 +601,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 be
@@ -612,6 +613,7 @@ harness
 .
 check
 (
+        
 iface
 .
 identifier
@@ -631,6 +633,7 @@ the
 right
 QName
 "
+    
 )
     
 harness
@@ -658,6 +661,7 @@ harness
 .
 check
 (
+        
 len
 (
 iface
@@ -679,6 +683,7 @@ len
 (
 expected
 )
+    
 )
     
 for
@@ -712,7 +717,6 @@ WebIDL
 .
 IDLConst
 )
-                   
 "
 Should
 be
@@ -860,6 +864,7 @@ harness
 .
 check
 (
+            
 str
 (
 const
@@ -868,13 +873,14 @@ value
 .
 type
 )
+            
 str
 (
 const
 .
 type
 )
-                      
+            
 "
 Const
 '
@@ -888,6 +894,7 @@ as
 the
 type
 "
+        
 )
         
 harness
@@ -930,6 +937,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -952,6 +960,7 @@ zero
 "
 "
 "
+        
 )
         
 parser

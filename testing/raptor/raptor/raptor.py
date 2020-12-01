@@ -873,6 +873,7 @@ LOG
 .
 warning
 (
+                        
 "
 page
 cycle
@@ -888,20 +889,20 @@ metrics
 .
 format
 (
-                        
+                            
 _page
 [
 "
 page_cycle
 "
 ]
-                        
 _page
 [
 "
 pending_metrics
 "
 ]
+                        
 )
                     
 )

@@ -157,7 +157,6 @@ FAIL
 "
 F
 "
-                    
 "
 PRECONDITION_FAILED
 "
@@ -165,7 +164,6 @@ PRECONDITION_FAILED
 "
 F
 "
-                    
 "
 ERROR
 "
@@ -173,7 +171,6 @@ ERROR
 "
 E
 "
-                    
 "
 PASS
 "
@@ -183,7 +180,9 @@ X
 "
 }
 [
+                
 status
+            
 ]
             
 if
@@ -310,7 +309,9 @@ fails
 .
 append
 (
+                
 {
+                    
 "
 test
 "
@@ -321,12 +322,13 @@ data
 test
 "
 ]
-                               
+                    
 "
 message
 "
 :
 (
+                        
 "
 assertion
 count
@@ -338,8 +340,8 @@ than
 %
 i
 "
+                        
 %
-                                           
 (
 data
 [
@@ -354,8 +356,11 @@ max_expected
 "
 ]
 )
+                    
 )
+                
 }
+            
 )
         
 elif
@@ -415,25 +420,25 @@ n
 .
 join
 (
+            
 [
 self
 .
 output_fails
 (
 )
-                             
 self
 .
 output_errors
 (
 )
-                             
 self
 .
 output_summary
 (
 )
 ]
+        
 )
         
 return
@@ -482,7 +487,6 @@ n
 "
 %
 data
-                         
 for
 data
 in
@@ -523,7 +527,6 @@ s
 "
 %
 data
-                         
 for
 data
 in
@@ -540,7 +543,6 @@ self
 :
         
 return
-(
 "
 Ran
 %
@@ -553,10 +555,11 @@ in
 "
 %
 (
+            
 self
 .
 tests_run
-                                           
+            
 (
 self
 .
@@ -568,5 +571,5 @@ start_time
 )
 /
 1000
-)
+        
 )

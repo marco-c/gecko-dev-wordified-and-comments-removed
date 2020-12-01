@@ -74,9 +74,9 @@ self
 config
 =
 {
-'
+"
 log_level
-'
+"
 :
 ERROR
 }
@@ -102,18 +102,18 @@ for
 f
 in
 (
-'
+"
 test_logs
-'
-'
+"
+"
 test_dir
-'
-'
+"
+"
 tmpfile_stdout
-'
-'
+"
+"
 tmpfile_stderr
-'
+"
 )
 :
         
@@ -192,9 +192,9 @@ if
 hasattr
 (
 self
-'
+"
 s
-'
+"
 )
 and
 isinstance
@@ -207,11 +207,9 @@ object
 :
             
 del
-(
 self
 .
 s
-)
         
 cleanup
 (
@@ -220,9 +218,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 unittest

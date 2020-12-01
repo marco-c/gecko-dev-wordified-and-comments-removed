@@ -84,6 +84,7 @@ self
 .
 log
 (
+            
 "
 Attempting
 to
@@ -101,10 +102,10 @@ i
 url
 timeout
 )
-                 
 level
 =
 log_level
+        
 )
         
 try

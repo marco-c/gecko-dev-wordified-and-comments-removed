@@ -136,9 +136,9 @@ environ
 .
 pop
 (
-'
+"
 MOZCONFIG
-'
+"
 None
 )
         
@@ -148,9 +148,9 @@ environ
 .
 pop
 (
-'
+"
 MOZ_OBJDIR
-'
+"
 None
 )
     
@@ -230,9 +230,9 @@ NamedTemporaryFile
 (
 mode
 =
-'
+"
 wt
-'
+"
 )
 as
 mozconfig
@@ -242,9 +242,9 @@ os
 .
 environ
 [
-'
+"
 MOZCONFIG
-'
+"
 ]
 =
 mozconfig
@@ -366,9 +366,9 @@ NamedTemporaryFile
 (
 mode
 =
-'
+"
 wt
-'
+"
 )
 as
 mozconfig
@@ -378,7 +378,7 @@ mozconfig
 .
 write
 (
-'
+"
 mk_add_options
 MOZ_OBJDIR
 =
@@ -386,7 +386,7 @@ TOPSRCDIR
 /
 foo
 /
-'
+"
 )
             
 mozconfig
@@ -399,9 +399,9 @@ os
 .
 environ
 [
-'
+"
 MOZCONFIG
-'
+"
 ]
 =
 mozconfig
@@ -422,10 +422,9 @@ join
 base
 .
 topsrcdir
-                                                          
-'
+"
 foo
-'
+"
 )
 )
             
@@ -439,9 +438,9 @@ topobjdir
 .
 endswith
 (
-'
+"
 foo
-'
+"
 )
 )
     
@@ -510,18 +509,18 @@ path
 join
 (
 d
-'
+"
 mozconfig
-'
+"
 )
             
 with
 open
 (
 mozconfig
-'
+"
 wt
-'
+"
 )
 as
 fh
@@ -531,7 +530,7 @@ fh
 .
 write
 (
-'
+"
 mk_add_options
 MOZ_OBJDIR
 =
@@ -540,17 +539,17 @@ TOPSRCDIR
 foo
 /
 CONFIG_GUESS
-'
+"
 )
             
 print
 (
-'
+"
 Wrote
 mozconfig
 %
 s
-'
+"
 %
 mozconfig
 )
@@ -564,9 +563,9 @@ path
 join
 (
 d
-'
+"
 foo
-'
+"
 guess
 )
             
@@ -591,20 +590,20 @@ path
 join
 (
 topobjdir
-'
+"
 mozinfo
 .
 json
-'
+"
 )
             
 with
 open
 (
 mozinfo
-'
+"
 wt
-'
+"
 )
 as
 fh
@@ -614,28 +613,31 @@ json
 .
 dump
 (
+                    
 dict
 (
-                    
+                        
 topsrcdir
 =
 d
-                    
+                        
 mozconfig
 =
 mozconfig
-                
+                    
 )
+                    
 fh
+                
 )
             
 os
 .
 environ
 [
-'
+"
 MOZCONFIG
-'
+"
 ]
 =
 mozconfig
@@ -653,7 +655,6 @@ MozbuildObject
 .
 from_environment
 (
-                
 detect_virtualenv_mozinfo
 =
 False
@@ -741,18 +742,18 @@ path
 join
 (
 d
-'
+"
 mozconfig
-'
+"
 )
             
 with
 open
 (
 mozconfig
-'
+"
 wt
-'
+"
 )
 as
 fh
@@ -762,14 +763,14 @@ fh
 .
 write
 (
-'
+"
 mk_add_options
 MOZ_OBJDIR
 =
 .
 /
 objdir
-'
+"
 )
             
 topobjdir
@@ -779,9 +780,9 @@ mozpath
 join
 (
 d
-'
+"
 objdir
-'
+"
 )
             
 os
@@ -800,20 +801,20 @@ path
 join
 (
 topobjdir
-'
+"
 mozinfo
 .
 json
-'
+"
 )
             
 with
 open
 (
 mozinfo
-'
+"
 wt
-'
+"
 )
 as
 fh
@@ -823,28 +824,31 @@ json
 .
 dump
 (
+                    
 dict
 (
-                    
+                        
 topsrcdir
 =
 d
-                    
+                        
 mozconfig
 =
 mozconfig
-                
+                    
 )
+                    
 fh
+                
 )
             
 os
 .
 environ
 [
-'
+"
 MOZCONFIG
-'
+"
 ]
 =
 mozconfig
@@ -858,12 +862,12 @@ path
 join
 (
 topobjdir
-'
+"
 foo
-'
-'
+"
+"
 bar
-'
+"
 )
             
 os
@@ -886,7 +890,6 @@ MozbuildObject
 .
 from_environment
 (
-                
 detect_virtualenv_mozinfo
 =
 False
@@ -925,13 +928,14 @@ unittest
 .
 skipIf
 (
+        
 not
 hasattr
 (
 os
-'
+"
 symlink
-'
+"
 )
 or
 os
@@ -939,16 +943,16 @@ os
 name
 =
 =
-'
+"
 nt
-'
-                     
-'
+"
+"
 symlinks
 not
 available
 .
-'
+"
+    
 )
     
 def
@@ -1001,9 +1005,9 @@ path
 join
 (
 d
-'
+"
 objdir
-'
+"
 )
             
 topobjdir_link
@@ -1015,9 +1019,9 @@ path
 join
 (
 d
-'
+"
 objlink
-'
+"
 )
             
 os
@@ -1044,18 +1048,18 @@ path
 join
 (
 d
-'
+"
 mozconfig
-'
+"
 )
             
 with
 open
 (
 mozconfig
-'
+"
 wt
-'
+"
 )
 as
 fh
@@ -1065,13 +1069,13 @@ fh
 .
 write
 (
-'
+"
 mk_add_options
 MOZ_OBJDIR
 =
 %
 s
-'
+"
 %
 topobjdir_link
 )
@@ -1085,20 +1089,20 @@ path
 join
 (
 topobjdir_real
-'
+"
 mozinfo
 .
 json
-'
+"
 )
             
 with
 open
 (
 mozinfo
-'
+"
 wt
-'
+"
 )
 as
 fh
@@ -1108,19 +1112,22 @@ json
 .
 dump
 (
+                    
 dict
 (
-                    
+                        
 topsrcdir
 =
 d
-                    
+                        
 mozconfig
 =
 mozconfig
-                
+                    
 )
+                    
 fh
+                
 )
             
 os
@@ -1249,9 +1256,9 @@ path
 join
 (
 d
-'
+"
 objdir
-'
+"
 )
             
 os
@@ -1270,9 +1277,9 @@ path
 join
 (
 d
-'
+"
 srcdir
-'
+"
 )
             
 prepare_tmp_topsrcdir
@@ -1289,20 +1296,20 @@ path
 join
 (
 topobjdir
-'
+"
 mozinfo
 .
 json
-'
+"
 )
             
 with
 open
 (
 mozinfo
-'
+"
 wt
-'
+"
 )
 as
 fh
@@ -1312,15 +1319,18 @@ json
 .
 dump
 (
+                    
 dict
 (
-                    
+                        
 topsrcdir
 =
 topsrcdir
-                
+                    
 )
+                    
 fh
+                
 )
             
 os
@@ -1480,20 +1490,20 @@ path
 join
 (
 d
-'
+"
 mozinfo
 .
 json
-'
+"
 )
             
 with
 open
 (
 mozinfo
-'
+"
 wt
-'
+"
 )
 as
 fh
@@ -1504,9 +1514,9 @@ json
 dump
 (
 {
-'
+"
 topsrcdir
-'
+"
 :
 d
 }
@@ -1605,11 +1615,11 @@ path
 join
 (
 d
-'
+"
 real
 -
 objdir
-'
+"
 )
             
 os
@@ -1628,9 +1638,9 @@ path
 join
 (
 d
-'
+"
 objdir
-'
+"
 )
             
 os
@@ -1649,9 +1659,9 @@ path
 join
 (
 d
-'
+"
 srcdir
-'
+"
 )
             
 prepare_tmp_topsrcdir
@@ -1668,18 +1678,18 @@ path
 join
 (
 d
-'
+"
 mozconfig
-'
+"
 )
             
 with
 open
 (
 mozconfig
-'
+"
 wt
-'
+"
 )
 as
 fh
@@ -1689,13 +1699,13 @@ fh
 .
 write
 (
-'
+"
 mk_add_options
 MOZ_OBJDIR
 =
 %
 s
-'
+"
 %
 real_topobjdir
 )
@@ -1709,20 +1719,20 @@ path
 join
 (
 topobjdir
-'
+"
 mozinfo
 .
 json
-'
+"
 )
             
 with
 open
 (
 mozinfo
-'
+"
 wt
-'
+"
 )
 as
 fh
@@ -1732,19 +1742,22 @@ json
 .
 dump
 (
+                    
 dict
 (
-                    
+                        
 topsrcdir
 =
 topsrcdir
-                    
+                        
 mozconfig
 =
 mozconfig
-                
+                    
 )
+                    
 fh
+                
 )
             
 os
@@ -1835,6 +1848,7 @@ self
 .
 assertTrue
 (
+                    
 sys
 .
 stdout
@@ -1845,15 +1859,17 @@ getvalue
 .
 startswith
 (
-                    
-'
+                        
+"
 Ambiguous
 object
 directory
 detected
 .
-'
+"
+                    
 )
+                
 )
             
 finally
@@ -1919,15 +1935,15 @@ path
 join
 (
 d
-'
+"
 config
 .
 status
-'
+"
 )
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -1937,7 +1953,7 @@ fh
 .
 write
 (
-'
+"
 #
 coding
 =
@@ -1946,21 +1962,21 @@ utf
 8
 \
 n
-'
+"
 )
                 
 fh
 .
 write
 (
-'
+"
 from
 __future__
 import
 unicode_literals
 \
 n
-'
+"
 )
                 
 fh
@@ -2063,6 +2079,7 @@ fh
 .
 write
 (
+                    
 "
 __all__
 =
@@ -2077,7 +2094,7 @@ topsrcdir
 defines
 '
 "
-                         
+                    
 "
 '
 substs
@@ -2087,6 +2104,7 @@ mozconfig
 '
 ]
 "
+                
 )
             
 base
@@ -2146,13 +2164,13 @@ base
 .
 defines
 {
-'
+"
 FOO
-'
+"
 :
-'
+"
 foo
-'
+"
 }
 )
             
@@ -2160,34 +2178,36 @@ self
 .
 assertEqual
 (
+                
 base
 .
 substs
-{
                 
-'
+{
+                    
+"
 ACDEFINES
-'
+"
 :
-'
+"
 -
 DFOO
 =
 foo
-'
-                
-'
+"
+                    
+"
 ALLEMPTYSUBSTS
-'
+"
 :
-'
-'
-                
-'
+"
+"
+                    
+"
 ALLSUBSTS
-'
+"
 :
-'
+"
 ACDEFINES
 =
 -
@@ -2198,17 +2218,18 @@ foo
 nQUX
 =
 qux
-'
-                
-'
+"
+                    
+"
 QUX
-'
+"
 :
-'
+"
 qux
-'
-            
+"
+                
 }
+            
 )
         
 finally
@@ -2250,21 +2271,21 @@ substs
 [
             
 (
-'
+"
 MOZ_APP_NAME
-'
-'
+"
+"
 awesomeapp
-'
+"
 )
             
 (
-'
+"
 MOZ_BUILD_APP
-'
-'
+"
+"
 awesomeapp
-'
+"
 )
         
 ]
@@ -2276,9 +2297,9 @@ platform
 .
 startswith
 (
-'
+"
 darwin
-'
+"
 )
 :
             
@@ -2287,12 +2308,12 @@ substs
 append
 (
 (
-'
+"
 OS_ARCH
-'
-'
+"
+"
 Darwin
-'
+"
 )
 )
             
@@ -2301,11 +2322,11 @@ substs
 append
 (
 (
-'
+"
 BIN_SUFFIX
-'
-'
-'
+"
+"
+"
 )
 )
             
@@ -2314,14 +2335,14 @@ substs
 append
 (
 (
-'
+"
 MOZ_MACBUNDLE_NAME
-'
-'
+"
+"
 Nightly
 .
 app
-'
+"
 )
 )
         
@@ -2333,12 +2354,12 @@ platform
 startswith
 (
 (
-'
+"
 win32
-'
-'
+"
+"
 cygwin
-'
+"
 )
 )
 :
@@ -2348,12 +2369,12 @@ substs
 append
 (
 (
-'
+"
 OS_ARCH
-'
-'
+"
+"
 WINNT
-'
+"
 )
 )
             
@@ -2362,13 +2383,13 @@ substs
 append
 (
 (
-'
+"
 BIN_SUFFIX
-'
-'
+"
+"
 .
 exe
-'
+"
 )
 )
         
@@ -2380,12 +2401,12 @@ substs
 append
 (
 (
-'
+"
 OS_ARCH
-'
-'
+"
+"
 something
-'
+"
 )
 )
             
@@ -2394,11 +2415,11 @@ substs
 append
 (
 (
-'
+"
 BIN_SUFFIX
-'
-'
-'
+"
+"
+"
 )
 )
         
@@ -2408,16 +2429,17 @@ _config_environment
 =
 ConfigEnvironment
 (
+            
 base
 .
 topsrcdir
-                                                     
 base
 .
 topobjdir
 substs
 =
 substs
+        
 )
         
 p
@@ -2426,9 +2448,9 @@ base
 .
 get_binary_path
 (
-'
+"
 xpcshell
-'
+"
 False
 )
         
@@ -2437,9 +2459,9 @@ platform
 .
 startswith
 (
-'
+"
 darwin
-'
+"
 )
 :
             
@@ -2451,13 +2473,13 @@ p
 .
 endswith
 (
-'
+"
 Contents
 /
 MacOS
 /
 xpcshell
-'
+"
 )
 )
         
@@ -2467,12 +2489,12 @@ platform
 startswith
 (
 (
-'
+"
 win32
-'
-'
+"
+"
 cygwin
-'
+"
 )
 )
 :
@@ -2485,11 +2507,11 @@ p
 .
 endswith
 (
-'
+"
 xpcshell
 .
 exe
-'
+"
 )
 )
         
@@ -2504,13 +2526,13 @@ p
 .
 endswith
 (
-'
+"
 dist
 /
 bin
 /
 xpcshell
-'
+"
 )
 )
         
@@ -2530,9 +2552,9 @@ platform
 .
 startswith
 (
-'
+"
 darwin
-'
+"
 )
 :
             
@@ -2544,13 +2566,13 @@ p
 .
 endswith
 (
-'
+"
 Contents
 /
 MacOS
 /
 awesomeapp
-'
+"
 )
 )
         
@@ -2560,12 +2582,12 @@ platform
 startswith
 (
 (
-'
+"
 win32
-'
-'
+"
+"
 cygwin
-'
+"
 )
 )
 :
@@ -2578,11 +2600,11 @@ p
 .
 endswith
 (
-'
+"
 awesomeapp
 .
 exe
-'
+"
 )
 )
         
@@ -2597,13 +2619,13 @@ p
 .
 endswith
 (
-'
+"
 dist
 /
 bin
 /
 awesomeapp
-'
+"
 )
 )
         
@@ -2630,9 +2652,9 @@ platform
 .
 startswith
 (
-'
+"
 darwin
-'
+"
 )
 :
             
@@ -2640,11 +2662,12 @@ self
 .
 assertTrue
 (
+                
 p
 .
 endswith
 (
-'
+"
 awesomeapp
 /
 Nightly
@@ -2656,8 +2679,9 @@ Contents
 MacOS
 /
 awesomeapp
-'
+"
 )
+            
 )
         
 elif
@@ -2666,12 +2690,12 @@ platform
 startswith
 (
 (
-'
+"
 win32
-'
-'
+"
+"
 cygwin
-'
+"
 )
 )
 :
@@ -2684,14 +2708,14 @@ p
 .
 endswith
 (
-'
+"
 awesomeapp
 \
 \
 awesomeapp
 .
 exe
-'
+"
 )
 )
         
@@ -2706,11 +2730,11 @@ p
 .
 endswith
 (
-'
+"
 awesomeapp
 /
 awesomeapp
-'
+"
 )
 )
         
@@ -2735,9 +2759,9 @@ base
 .
 get_binary_path
 (
-'
+"
 foobar
-'
+"
 validate_exists
 =
 False
@@ -2748,9 +2772,9 @@ platform
 .
 startswith
 (
-'
+"
 win32
-'
+"
 )
 :
             
@@ -2762,11 +2786,11 @@ p
 .
 endswith
 (
-'
+"
 foobar
 .
 exe
-'
+"
 )
 )
         
@@ -2781,9 +2805,9 @@ p
 .
 endswith
 (
-'
+"
 foobar
-'
+"
 )
 )
 class
@@ -3246,9 +3270,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

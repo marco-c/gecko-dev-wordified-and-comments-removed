@@ -36,6 +36,7 @@ bar
 "
 "
 "
+    
 )
     
 results
@@ -85,7 +86,6 @@ a
 namespace
 "
 )
-;
     
 harness
 .
@@ -101,7 +101,6 @@ results
 members
 )
 2
-                  
 "
 Should
 have
@@ -259,6 +258,7 @@ bar
 "
 "
 "
+    
 )
     
 results
@@ -307,7 +307,6 @@ a
 namespace
 "
 )
-;
     
 harness
 .
@@ -323,7 +322,6 @@ results
 members
 )
 2
-                  
 "
 Should
 have
@@ -384,7 +382,6 @@ be
 static
 "
 )
-;
     
 harness
 .
@@ -435,7 +432,6 @@ be
 static
 "
 )
-;
     
 parser
 =
@@ -483,6 +479,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -531,7 +528,6 @@ a
 namespace
 "
 )
-;
     
 harness
 .
@@ -547,7 +543,6 @@ results
 members
 )
 2
-                  
 "
 Should
 have
@@ -608,7 +603,6 @@ be
 static
 "
 )
-;
     
 harness
 .
@@ -659,7 +653,6 @@ be
 static
 "
 )
-;
     
 parser
 =
@@ -701,6 +694,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -775,6 +769,7 @@ bar
 "
 "
 "
+        
 )
         
 results
@@ -861,6 +856,7 @@ baz
 "
 "
 "
+        
 )
         
 results
@@ -947,6 +943,7 @@ bar
 "
 "
 "
+        
 )
         
 results
@@ -1033,6 +1030,7 @@ bar
 "
 "
 "
+        
 )
         
 results
@@ -1120,6 +1118,7 @@ bar
 "
 "
 "
+        
 )
         
 results
@@ -1207,6 +1206,7 @@ baz
 "
 "
 "
+        
 )
         
 results
@@ -1294,6 +1294,7 @@ bar
 "
 "
 "
+        
 )
         
 results
@@ -1381,6 +1382,7 @@ baz
 "
 "
 "
+        
 )
         
 results

@@ -73,8 +73,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -146,7 +148,9 @@ div
 "
 "
 "
+            
 )
+        
 )
         
 parent

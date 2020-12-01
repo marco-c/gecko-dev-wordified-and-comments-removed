@@ -35,7 +35,7 @@ verify_statedir
 )
 BUILD_TELEMETRY_URL
 =
-'
+"
 https
 :
 /
@@ -51,10 +51,10 @@ org
 {
 endpoint
 }
-'
+"
 SUBMIT_ENDPOINT
 =
-'
+"
 submit
 /
 eng
@@ -68,12 +68,12 @@ build
 {
 ping_uuid
 }
-'
+"
 STATUS_ENDPOINT
 =
-'
+"
 status
-'
+"
 def
 delete_expired_files
 (
@@ -84,9 +84,9 @@ days
 )
 :
     
-'
-'
-'
+"
+"
+"
 Discards
 files
 in
@@ -101,9 +101,9 @@ number
 of
 days
     
-'
-'
-'
+"
+"
+"
     
 now
 =
@@ -192,9 +192,9 @@ session
 )
 :
     
-'
-'
-'
+"
+"
+"
 Returns
 True
 if
@@ -209,9 +209,9 @@ to
 accept
 data
     
-'
-'
-'
+"
+"
+"
     
 status_url
 =
@@ -256,9 +256,9 @@ ping_uuid
 )
 :
     
-'
-'
-'
+"
+"
+"
 Sends
 a
 single
@@ -275,9 +275,9 @@ the
 response
 object
     
-'
-'
-'
+"
+"
+"
     
 resource_url
 =
@@ -326,9 +326,9 @@ submitted
 )
 :
     
-'
-'
-'
+"
+"
+"
 Sends
 information
 about
@@ -343,9 +343,9 @@ the
 Telemetry
 pipeline
     
-'
-'
-'
+"
+"
+"
     
 with
 requests
@@ -427,10 +427,10 @@ path
 .
 endswith
 (
-'
+"
 .
 json
-'
+"
 )
 :
                 
@@ -438,12 +438,12 @@ logging
 .
 info
 (
-'
+"
 skipping
 item
 {
 }
-'
+"
 .
 format
 (
@@ -474,9 +474,9 @@ with
 open
 (
 path
-'
+"
 r
-'
+"
 )
 as
 f
@@ -523,7 +523,7 @@ status_code
                     
 msg
 =
-'
+"
 response
 code
 {
@@ -539,7 +539,7 @@ telemetry
 {
 body
 }
-'
+"
 .
 format
 (
@@ -575,6 +575,7 @@ os
 .
 rename
 (
+                    
 os
 .
 path
@@ -584,7 +585,6 @@ join
 outgoing
 filename
 )
-                          
 os
 .
 path
@@ -594,20 +594,21 @@ join
 submitted
 filename
 )
+                
 )
                 
 logging
 .
 info
 (
-'
+"
 successfully
 posted
 {
 }
 to
 telemetry
-'
+"
 .
 format
 (
@@ -625,7 +626,7 @@ logging
 .
 exception
 (
-'
+"
 exception
 parsing
 JSON
@@ -635,8 +636,7 @@ s
 :
 %
 s
-'
-                                  
+"
 %
 (
 path
@@ -666,7 +666,7 @@ logging
 .
 exception
 (
-'
+"
 invalid
 data
 found
@@ -676,8 +676,7 @@ s
 :
 %
 s
-'
-                                  
+"
 %
 (
 path
@@ -704,19 +703,18 @@ logging
 .
 error
 (
-'
+"
 exception
 posting
 to
 telemetry
-'
-                              
-'
+"
+"
 server
 :
 %
 s
-'
+"
 %
 str
 (
@@ -737,9 +735,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 if
@@ -756,7 +754,7 @@ argv
         
 print
 (
-'
+"
 usage
 :
 python
@@ -766,7 +764,7 @@ py
 <
 statedir
 >
-'
+"
 )
         
 sys
@@ -801,13 +799,14 @@ logging
 .
 basicConfig
 (
+            
 filename
 =
 telemetry_log
-                            
+            
 format
 =
-'
+"
 %
 (
 asctime
@@ -818,13 +817,14 @@ s
 message
 )
 s
-'
-                            
+"
+            
 level
 =
 logging
 .
 DEBUG
+        
 )
         
 sys

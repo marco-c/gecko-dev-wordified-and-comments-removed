@@ -84,8 +84,10 @@ self
 .
 _get_compiler_args
 (
+            
 cenv
 canonical_suffix
+        
 )
         
 if
@@ -234,6 +236,7 @@ self
 .
 _build_db_line
 (
+                
 obj
 .
 objdir
@@ -247,4 +250,5 @@ f
 obj
 .
 canonical_suffix
+            
 )

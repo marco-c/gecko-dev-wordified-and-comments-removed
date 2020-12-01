@@ -39,12 +39,9 @@ mozbuild
 .
 shellutil
 import
-(
-    
 quote
 as
 shell_quote
-)
 from
 mozbuild
 .

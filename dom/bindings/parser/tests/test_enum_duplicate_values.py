@@ -15,6 +15,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -35,6 +36,7 @@ TestEnumDuplicateValue
 "
 "
 "
+        
 )
         
 harness

@@ -45,21 +45,21 @@ not
 None
 and
 (
-'
+"
 http
 :
 /
 /
-'
+"
 in
 binary
 or
-'
+"
 ftp
 :
 /
 /
-'
+"
 in
 binary
 )
@@ -148,9 +148,9 @@ h
 request
 (
 url
-'
+"
 GET
-'
+"
 )
         
 if
@@ -175,9 +175,9 @@ local
 open
 (
 dest
-'
+"
 wb
-'
+"
 )
         
 local
@@ -202,14 +202,14 @@ download_build
 self
 installdir
 =
-'
+"
 downloadedbuild
-'
+"
 appname
 =
-'
+"
 firefox
-'
+"
 )
 :
         
@@ -247,6 +247,7 @@ path
 .
 join
 (
+            
 os
 .
 path
@@ -262,8 +263,8 @@ abspath
 __file__
 )
 )
-                                   
 buildName
+        
 )
         
 if
@@ -287,10 +288,10 @@ pathToBuild
         
 print
 (
-'
+"
 downloading
 build
-'
+"
 )
         
 self
@@ -305,11 +306,11 @@ pathToBuild
         
 print
 (
-'
+"
 installing
 {
 }
-'
+"
 .
 format
 (
@@ -384,7 +385,7 @@ the
 given
 Profile
 waits
-           
+        
 for
 completion
 then
@@ -442,6 +443,7 @@ runner
 =
 FirefoxRunner
 (
+            
 profile
 =
 self
@@ -452,13 +454,13 @@ binary
 self
 .
 binary
-                               
 env
 =
 env
 cmdargs
 =
 args
+        
 )
         
 runner

@@ -35,69 +35,69 @@ VALID_KEYS
 =
 {
     
-'
+"
 name
-'
+"
     
-'
+"
 type
-'
+"
     
-'
+"
 value
-'
+"
     
-'
+"
 mirror
-'
+"
     
-'
+"
 do_not_use_directly
-'
+"
     
-'
+"
 include
-'
+"
     
-'
+"
 rust
-'
+"
 }
 VALID_BOOL_TYPES
 =
 {
     
-'
+"
 bool
-'
+"
 :
-'
+"
 bool
-'
+"
     
-'
+"
 RelaxedAtomicBool
-'
+"
 :
-'
+"
 bool
-'
+"
     
-'
+"
 ReleaseAcquireAtomicBool
-'
+"
 :
-'
+"
 bool
-'
+"
     
-'
+"
 SequentiallyConsistentAtomicBool
-'
+"
 :
-'
+"
 bool
-'
+"
 }
 VALID_TYPES
 =
@@ -110,134 +110,136 @@ VALID_TYPES
 .
 update
 (
+    
 {
-    
-'
+        
+"
 int32_t
-'
+"
 :
-'
+"
 int32_t
-'
-    
-'
+"
+        
+"
 uint32_t
-'
+"
 :
-'
+"
 uint32_t
-'
-    
-'
+"
+        
+"
 float
-'
+"
 :
-'
+"
 float
-'
-    
-'
+"
+        
+"
 RelaxedAtomicInt32
-'
+"
 :
-'
+"
 int32_t
-'
-    
-'
+"
+        
+"
 RelaxedAtomicUint32
-'
+"
 :
-'
+"
 uint32_t
-'
-    
-'
+"
+        
+"
 ReleaseAcquireAtomicInt32
-'
+"
 :
-'
+"
 int32_t
-'
-    
-'
+"
+        
+"
 ReleaseAcquireAtomicUint32
-'
+"
 :
-'
+"
 uint32_t
-'
-    
-'
+"
+        
+"
 SequentiallyConsistentAtomicInt32
-'
+"
 :
-'
+"
 int32_t
-'
-    
-'
+"
+        
+"
 SequentiallyConsistentAtomicUint32
-'
+"
 :
-'
+"
 uint32_t
-'
-    
-'
+"
+        
+"
 AtomicFloat
-'
+"
 :
-'
+"
 float
-'
-    
-'
+"
+        
+"
 String
-'
+"
 :
 None
+    
 }
 )
 RUST_TYPES
 =
 {
     
-'
+"
 bool
-'
+"
 :
-'
+"
 bool
-'
+"
     
-'
+"
 int32_t
-'
+"
 :
-'
+"
 i32
-'
+"
     
-'
+"
 uint32_t
-'
+"
 :
-'
+"
 u32
-'
+"
     
-'
+"
 float
-'
+"
 :
-'
+"
 f32
-'
+"
 }
 FIRST_LINE
 =
-'
+"
 /
 /
 This
@@ -253,18 +255,18 @@ DO
 NOT
 EDIT
 .
-'
+"
 MIRROR_TEMPLATES
 =
 {
     
-'
+"
 never
-'
+"
 :
-'
-'
-'
+"
+"
+"
 \
 NEVER_PREF
 (
@@ -280,17 +282,17 @@ typ
 value
 }
 )
-'
-'
-'
+"
+"
+"
     
-'
+"
 once
-'
+"
 :
-'
-'
-'
+"
+"
+"
 \
 ONCE_PREF
 (
@@ -316,17 +318,17 @@ typ
 value
 }
 )
-'
-'
-'
+"
+"
+"
     
-'
+"
 always
-'
+"
 :
-'
-'
-'
+"
+"
+"
 \
 ALWAYS_PREF
 (
@@ -352,15 +354,15 @@ typ
 value
 }
 )
-'
-'
-'
+"
+"
+"
 }
 STATIC_PREFS_GROUP_H_TEMPLATE1
 =
-'
-'
-'
+"
+"
+"
 \
 /
 /
@@ -393,14 +395,14 @@ mozilla_StaticPrefs_
 group
 }
 _h
-'
-'
-'
+"
+"
+"
 STATIC_PREFS_GROUP_H_TEMPLATE2
 =
-'
-'
-'
+"
+"
+"
 \
 #
 include
@@ -441,14 +443,14 @@ mozilla_StaticPrefs_
 group
 }
 _h
-'
-'
-'
+"
+"
+"
 STATIC_PREFS_C_GETTERS_TEMPLATE
 =
-'
-'
-'
+"
+"
+"
 \
 extern
 "
@@ -481,9 +483,9 @@ full_id
 ;
 }
 }
-'
-'
-'
+"
+"
+"
 def
 error
 (
@@ -539,22 +541,22 @@ name
 .
 replace
 (
-'
+"
 .
-'
-'
+"
+"
 _
-'
+"
 )
 .
 replace
 (
-'
+"
 -
-'
-'
+"
+"
 _
-'
+"
 )
 def
 mk_group
@@ -567,9 +569,9 @@ name
 =
 pref
 [
-'
+"
 name
-'
+"
 ]
     
 return
@@ -579,9 +581,9 @@ name
 .
 split
 (
-'
+"
 .
-'
+"
 1
 )
 [
@@ -626,12 +628,12 @@ VALID_KEYS
                 
 error
 (
-'
+"
 invalid
 key
 {
 }
-'
+"
 .
 format
 (
@@ -640,9 +642,9 @@ key
 )
         
 if
-'
+"
 name
-'
+"
 not
 in
 pref
@@ -650,20 +652,20 @@ pref
             
 error
 (
-'
+"
 missing
 name
 key
-'
+"
 )
         
 name
 =
 pref
 [
-'
+"
 name
-'
+"
 ]
         
 if
@@ -678,7 +680,7 @@ str
             
 error
 (
-'
+"
 non
 -
 string
@@ -686,7 +688,7 @@ name
 value
 {
 }
-'
+"
 .
 format
 (
@@ -695,9 +697,9 @@ name
 )
         
 if
-'
+"
 .
-'
+"
 not
 in
 name
@@ -705,19 +707,17 @@ name
             
 error
 (
-'
+"
 name
 value
 {
 }
 lacks
 a
-\
 '
 .
-\
 '
-'
+"
 .
 format
 (
@@ -733,7 +733,7 @@ seen_names
             
 error
 (
-'
+"
 {
 }
 pref
@@ -742,7 +742,7 @@ defined
 more
 than
 once
-'
+"
 .
 format
 (
@@ -775,7 +775,8 @@ pref
                 
 error
 (
-'
+                    
+"
 {
 }
 pref
@@ -785,25 +786,27 @@ before
 {
 }
 pref
-'
-                      
+"
 .
 format
 (
+                        
 name
 prev_pref
 [
-'
+"
 name
-'
+"
 ]
+                    
 )
+                
 )
         
 if
-'
+"
 type
-'
+"
 not
 in
 pref
@@ -811,7 +814,7 @@ pref
             
 error
 (
-'
+"
 missing
 type
 key
@@ -819,7 +822,7 @@ for
 pref
 {
 }
-'
+"
 .
 format
 (
@@ -831,9 +834,9 @@ typ
 =
 pref
 [
-'
+"
 type
-'
+"
 ]
         
 if
@@ -845,7 +848,7 @@ VALID_TYPES
             
 error
 (
-'
+"
 invalid
 type
 value
@@ -855,7 +858,7 @@ for
 pref
 {
 }
-'
+"
 .
 format
 (
@@ -865,9 +868,9 @@ name
 )
         
 if
-'
+"
 value
-'
+"
 not
 in
 pref
@@ -875,7 +878,7 @@ pref
             
 error
 (
-'
+"
 missing
 value
 key
@@ -883,7 +886,7 @@ for
 pref
 {
 }
-'
+"
 .
 format
 (
@@ -895,18 +898,18 @@ value
 =
 pref
 [
-'
+"
 value
-'
+"
 ]
         
 if
 typ
 =
 =
-'
+"
 String
-'
+"
 :
             
 if
@@ -921,7 +924,8 @@ str
                 
 error
 (
-'
+                    
+"
 non
 -
 string
@@ -935,20 +939,20 @@ pref
 {
 }
 ;
-'
-                      
-'
+"
+                    
+"
 add
 double
 quotes
-'
-                      
+"
 .
 format
 (
 value
 name
 )
+                
 )
         
 elif
@@ -969,7 +973,7 @@ False
                 
 error
 (
-'
+"
 invalid
 boolean
 value
@@ -979,8 +983,7 @@ for
 pref
 {
 }
-'
-                      
+"
 .
 format
 (
@@ -990,9 +993,9 @@ name
 )
         
 if
-'
+"
 mirror
-'
+"
 not
 in
 pref
@@ -1000,7 +1003,7 @@ pref
             
 error
 (
-'
+"
 missing
 mirror
 key
@@ -1008,7 +1011,7 @@ for
 pref
 {
 }
-'
+"
 .
 format
 (
@@ -1020,9 +1023,9 @@ mirror
 =
 pref
 [
-'
+"
 mirror
-'
+"
 ]
         
 if
@@ -1034,7 +1037,7 @@ MIRROR_TEMPLATES
             
 error
 (
-'
+"
 invalid
 mirror
 value
@@ -1044,8 +1047,7 @@ for
 pref
 {
 }
-'
-                  
+"
 .
 format
 (
@@ -1055,9 +1057,9 @@ name
 )
         
 if
-'
+"
 do_not_use_directly
-'
+"
 in
 pref
 :
@@ -1066,9 +1068,9 @@ do_not_use_directly
 =
 pref
 [
-'
+"
 do_not_use_directly
-'
+"
 ]
             
 if
@@ -1083,7 +1085,8 @@ bool
                 
 error
 (
-'
+                    
+"
 non
 -
 boolean
@@ -1093,18 +1096,19 @@ value
 }
 for
 pref
-'
-                      
-'
+"
+                    
+"
 {
 }
-'
+"
 .
 format
 (
 do_not_use_directly
 name
 )
+                
 )
             
 if
@@ -1113,45 +1117,47 @@ and
 mirror
 =
 =
-'
+"
 never
-'
+"
 :
                 
 error
 (
-'
+                    
+"
 do_not_use_directly
 uselessly
 set
 with
 mirror
 value
-'
-                      
-'
+"
+                    
+"
 never
 for
 pref
 {
 }
-'
+"
 .
 format
 (
 pref
 [
-'
+"
 name
-'
+"
 ]
 )
+                
 )
         
 if
-'
+"
 include
-'
+"
 in
 pref
 :
@@ -1160,9 +1166,9 @@ include
 =
 pref
 [
-'
+"
 include
-'
+"
 ]
             
 if
@@ -1177,7 +1183,8 @@ str
                 
 error
 (
-'
+                    
+"
 non
 -
 string
@@ -1189,14 +1196,16 @@ for
 pref
 {
 }
-'
-                      
+"
 .
 format
 (
+                        
 include
 name
+                    
 )
+                
 )
             
 if
@@ -1204,9 +1213,9 @@ include
 .
 startswith
 (
-'
+"
 <
-'
+"
 )
 and
 not
@@ -1214,15 +1223,16 @@ include
 .
 endswith
 (
-'
+"
 >
-'
+"
 )
 :
                 
 error
 (
-'
+                    
+"
 include
 value
 {
@@ -1233,9 +1243,9 @@ with
 but
 does
 not
-'
-                      
-'
+"
+                    
+"
 end
 with
 >
@@ -1243,19 +1253,20 @@ for
 pref
 {
 }
-'
+"
 .
 format
 (
 include
 name
 )
+                
 )
         
 if
-'
+"
 rust
-'
+"
 in
 pref
 :
@@ -1264,9 +1275,9 @@ rust
 =
 pref
 [
-'
+"
 rust
-'
+"
 ]
             
 if
@@ -1281,7 +1292,7 @@ bool
                 
 error
 (
-'
+"
 non
 -
 boolean
@@ -1293,8 +1304,7 @@ for
 pref
 {
 }
-'
-                      
+"
 .
 format
 (
@@ -1309,14 +1319,15 @@ and
 mirror
 =
 =
-'
+"
 never
-'
+"
 :
                 
 error
 (
-'
+                    
+"
 rust
 uselessly
 set
@@ -1325,23 +1336,24 @@ mirror
 value
 never
 for
-'
-                      
-'
+"
+                    
+"
 pref
 {
 }
-'
+"
 .
 format
 (
 pref
 [
-'
+"
 name
-'
+"
 ]
 )
+                
 )
         
 prev_pref
@@ -1374,8 +1386,8 @@ lambda
 :
 [
 FIRST_LINE
-'
-'
+"
+"
 ]
 )
     
@@ -1383,8 +1395,8 @@ static_prefs_c_getters_cpp
 =
 [
 FIRST_LINE
-'
-'
+"
+"
 ]
     
 static_prefs_rs_decls
@@ -1407,36 +1419,36 @@ name
 =
 pref
 [
-'
+"
 name
-'
+"
 ]
         
 typ
 =
 pref
 [
-'
+"
 type
-'
+"
 ]
         
 value
 =
 pref
 [
-'
+"
 value
-'
+"
 ]
         
 mirror
 =
 pref
 [
-'
+"
 mirror
-'
+"
 ]
         
 do_not_use_directly
@@ -1445,9 +1457,9 @@ pref
 .
 get
 (
-'
+"
 do_not_use_directly
-'
+"
 )
         
 include
@@ -1456,9 +1468,9 @@ pref
 .
 get
 (
-'
+"
 include
-'
+"
 )
         
 rust
@@ -1467,9 +1479,9 @@ pref
 .
 get
 (
-'
+"
 rust
-'
+"
 )
         
 base_id
@@ -1478,9 +1490,9 @@ mk_id
 (
 pref
 [
-'
+"
 name
-'
+"
 ]
 )
         
@@ -1492,17 +1504,17 @@ if
 mirror
 =
 =
-'
+"
 once
-'
+"
 :
             
 full_id
 +
 =
-'
+"
 _AtStartup
-'
+"
         
 if
 do_not_use_directly
@@ -1511,9 +1523,9 @@ do_not_use_directly
 full_id
 +
 =
-'
+"
 _DoNotUseDirectly
-'
+"
         
 group
 =
@@ -1532,9 +1544,9 @@ include
 .
 startswith
 (
-'
+"
 <
-'
+"
 )
 :
                 
@@ -1566,9 +1578,9 @@ if
 typ
 =
 =
-'
+"
 String
-'
+"
 :
             
 value
@@ -1611,9 +1623,9 @@ True
                 
 value
 =
-'
+"
 true
-'
+"
             
 elif
 value
@@ -1623,9 +1635,9 @@ False
                 
 value
 =
-'
+"
 false
-'
+"
         
 static_pref_list_group_h
 [
@@ -1634,6 +1646,7 @@ group
 .
 append
 (
+            
 MIRROR_TEMPLATES
 [
 mirror
@@ -1641,28 +1654,29 @@ mirror
 .
 format
 (
-            
+                
 name
 =
 name
-            
+                
 base_id
 =
 base_id
-            
+                
 full_id
 =
 full_id
-            
+                
 typ
 =
 typ
-            
+                
 value
 =
 value
-        
+            
 )
+        
 )
         
 if
@@ -1678,6 +1692,7 @@ STATIC_PREFS_C_GETTERS_TEMPLATE
 .
 format
 (
+                    
 typ
 =
 VALID_TYPES
@@ -1687,12 +1702,14 @@ typ
 full_id
 =
 full_id
+                
 )
+            
 )
             
 decl
 =
-'
+"
 pub
 fn
 StaticPrefs_
@@ -1707,7 +1724,7 @@ full_id
 typ
 }
 ;
-'
+"
             
 static_prefs_rs_decls
 .
@@ -1731,6 +1748,7 @@ typ
 ]
 ]
 )
+            
 )
             
 macro
@@ -1788,8 +1806,8 @@ static_pref_list_all_h
 =
 [
 FIRST_LINE
-'
-'
+"
+"
 ]
     
 static_pref_list_all_h
@@ -1830,16 +1848,16 @@ static_pref_list_all_h
 .
 append
 (
-'
-'
+"
+"
 )
     
 static_prefs_all_h
 =
 [
 FIRST_LINE
-'
-'
+"
+"
 ]
     
 static_prefs_all_h
@@ -1880,8 +1898,8 @@ static_prefs_all_h
 .
 append
 (
-'
-'
+"
+"
 )
     
 static_prefs_group_h
@@ -1916,6 +1934,7 @@ group
 .
 append
 (
+            
 STATIC_PREFS_GROUP_H_TEMPLATE1
 .
 format
@@ -1924,6 +1943,7 @@ group
 =
 group
 )
+        
 )
         
 if
@@ -1951,12 +1971,12 @@ group
 .
 append
 (
-'
+"
 #
 include
 {
 }
-'
+"
 .
 format
 (
@@ -1971,8 +1991,8 @@ group
 .
 append
 (
-'
-'
+"
+"
 )
         
 static_prefs_group_h
@@ -1982,6 +2002,7 @@ group
 .
 append
 (
+            
 STATIC_PREFS_GROUP_H_TEMPLATE2
 .
 format
@@ -1990,14 +2011,15 @@ group
 =
 group
 )
+        
 )
     
 static_prefs_rs
 =
 [
 FIRST_LINE
-'
-'
+"
+"
 '
 extern
 "
@@ -2019,23 +2041,23 @@ static_prefs_rs
 extend
 (
 [
-'
+"
 }
-'
-'
-'
-'
+"
+"
+"
+"
 #
 [
 macro_export
 ]
-'
-'
+"
+"
 macro_rules
 !
 pref
 {
-'
+"
 ]
 )
     
@@ -2051,11 +2073,11 @@ static_prefs_rs
 extend
 (
 [
-'
+"
 }
-'
-'
-'
+"
+"
+"
 ]
 )
     
@@ -2067,10 +2089,10 @@ lines
 :
         
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -2080,29 +2102,30 @@ lines
 return
 {
         
-'
+"
 static_pref_list_all_h
-'
+"
 :
 fold
 (
 static_pref_list_all_h
 )
         
-'
+"
 static_prefs_all_h
-'
+"
 :
 fold
 (
 static_prefs_all_h
 )
         
-'
+"
 static_pref_list_group_h
-'
+"
 :
 {
+            
 k
 :
 fold
@@ -2118,11 +2141,12 @@ static_pref_list_group_h
 items
 (
 )
+        
 }
         
-'
+"
 static_prefs_group_h
-'
+"
 :
 {
 k
@@ -2142,18 +2166,18 @@ items
 )
 }
         
-'
+"
 static_prefs_c_getters_cpp
-'
+"
 :
 fold
 (
 static_prefs_c_getters_cpp
 )
         
-'
+"
 static_prefs_rs
-'
+"
 :
 fold
 (
@@ -2185,9 +2209,9 @@ buildconfig
 .
 defines
 [
-'
+"
 ALLDEFINES
-'
+"
 ]
 )
     
@@ -2198,9 +2222,9 @@ substs
 .
 get
 (
-'
+"
 MOZ_DEBUG
-'
+"
 )
 :
         
@@ -2208,14 +2232,14 @@ pp
 .
 context
 [
-'
+"
 DEBUG
-'
+"
 ]
 =
-'
+"
 1
-'
+"
     
 pp
 .
@@ -2229,9 +2253,9 @@ pp
 .
 do_filter
 (
-'
+"
 substitution
-'
+"
 )
     
 pp
@@ -2277,7 +2301,7 @@ e
         
 print
 (
-'
+"
 {
 }
 :
@@ -2289,8 +2313,7 @@ n
 }
 \
 n
-'
-              
+"
 .
 format
 (
@@ -2312,9 +2335,9 @@ write
 (
 code
 [
-'
+"
 static_pref_list_all_h
-'
+"
 ]
 )
     
@@ -2341,11 +2364,11 @@ name
 with
 FileAvoidWrite
 (
-'
+"
 StaticPrefsAll
 .
 h
-'
+"
 )
 as
 fd
@@ -2357,9 +2380,9 @@ write
 (
 code
 [
-'
+"
 static_prefs_all_h
-'
+"
 ]
 )
     
@@ -2371,9 +2394,9 @@ sorted
 (
 code
 [
-'
+"
 static_pref_list_group_h
-'
+"
 ]
 .
 items
@@ -2384,13 +2407,13 @@ items
         
 filename
 =
-'
+"
 StaticPrefList_
 {
 }
 .
 h
-'
+"
 .
 format
 (
@@ -2429,9 +2452,9 @@ sorted
 (
 code
 [
-'
+"
 static_prefs_group_h
-'
+"
 ]
 .
 items
@@ -2442,13 +2465,13 @@ items
         
 filename
 =
-'
+"
 StaticPrefs_
 {
 }
 .
 h
-'
+"
 .
 format
 (
@@ -2481,11 +2504,11 @@ path
 join
 (
 init_dirname
-'
+"
 StaticPrefsCGetters
 .
 cpp
-'
+"
 )
 )
 as
@@ -2498,20 +2521,20 @@ write
 (
 code
 [
-'
+"
 static_prefs_c_getters_cpp
-'
+"
 ]
 )
     
 with
 FileAvoidWrite
 (
-'
+"
 static_prefs
 .
 rs
-'
+"
 )
 as
 fd
@@ -2523,8 +2546,8 @@ write
 (
 code
 [
-'
+"
 static_prefs_rs
-'
+"
 ]
 )

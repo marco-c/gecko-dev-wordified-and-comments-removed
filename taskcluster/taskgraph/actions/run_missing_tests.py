@@ -50,27 +50,27 @@ register_callback_action
     
 name
 =
-'
+"
 run
 -
 missing
 -
 tests
-'
+"
     
 title
 =
-'
+"
 Run
 Missing
 Tests
-'
+"
     
 symbol
 =
-'
+"
 rmt
-'
+"
     
 description
 =
@@ -160,6 +160,7 @@ fetch_graph_and_labels
         
 parameters
 graph_config
+    
 )
     
 target_tasks
@@ -208,9 +209,9 @@ task
 kind
 !
 =
-'
+"
 test
-'
+"
 :
             
 continue
@@ -256,7 +257,8 @@ logger
 .
 info
 (
-'
+        
+"
 Out
 of
 {
@@ -273,11 +275,11 @@ action
 created
 {
 }
-'
+"
 .
 format
 (
-        
+            
 already_run
 +
 len
@@ -289,5 +291,7 @@ len
 (
 to_run
 )
+        
 )
+    
 )

@@ -20,20 +20,20 @@ subprocess
 check_call
 (
 [
-'
+"
 zip
-'
-'
+"
+"
 -
 r9D
-'
+"
 package
 source
-'
+"
 -
 x
-'
-'
+"
+"
 \
 *
 /
@@ -41,7 +41,7 @@ x
 mkdir
 .
 done
-'
+"
 ]
 )
 def
@@ -63,7 +63,7 @@ args
         
 print
 (
-'
+"
 Usage
 :
 make_zip
@@ -75,8 +75,7 @@ source
 <
 package
 >
-'
-              
+"
 file
 =
 sys
@@ -108,9 +107,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 sys

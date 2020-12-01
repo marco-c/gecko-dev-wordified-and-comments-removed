@@ -49,7 +49,7 @@ import
 which
 HOMEBREW_BOOTSTRAP
 =
-'
+"
 https
 :
 /
@@ -67,10 +67,10 @@ install
 master
 /
 install
-'
+"
 XCODE_APP_STORE
 =
-'
+"
 macappstore
 :
 /
@@ -88,11 +88,12 @@ id497799835
 mt
 =
 12
-'
+"
 XCODE_LEGACY
 =
 (
-'
+    
+"
 https
 :
 /
@@ -113,9 +114,9 @@ path
 =
 Developer_Tools
 /
-'
-                
-'
+"
+    
+"
 xcode_3
 .
 2
@@ -133,11 +134,11 @@ xcode_3
 3
 .
 dmg
-'
+"
 )
 JAVA_PATH
 =
-'
+"
 /
 Library
 /
@@ -156,16 +157,16 @@ Contents
 Home
 /
 bin
-'
+"
 MACPORTS_URL
 =
 {
     
-'
+"
 14
-'
+"
 :
-'
+"
 https
 :
 /
@@ -193,13 +194,13 @@ MacPorts
 Mojave
 .
 pkg
-'
+"
     
-'
+"
 13
-'
+"
 :
-'
+"
 https
 :
 /
@@ -227,13 +228,13 @@ MacPorts
 HighSierra
 .
 pkg
-'
+"
     
-'
+"
 12
-'
+"
 :
-'
+"
 https
 :
 /
@@ -261,13 +262,13 @@ MacPorts
 Sierra
 .
 pkg
-'
+"
     
-'
+"
 11
-'
+"
 :
-'
+"
 https
 :
 /
@@ -295,13 +296,13 @@ MacPorts
 ElCapitan
 .
 pkg
-'
+"
     
-'
+"
 10
-'
+"
 :
-'
+"
 https
 :
 /
@@ -329,13 +330,13 @@ MacPorts
 Yosemite
 .
 pkg
-'
+"
     
-'
+"
 9
-'
+"
 :
-'
+"
 https
 :
 /
@@ -363,13 +364,13 @@ MacPorts
 Mavericks
 .
 pkg
-'
+"
     
-'
+"
 8
-'
+"
 :
-'
+"
 https
 :
 /
@@ -397,13 +398,13 @@ MacPorts
 MountainLion
 .
 pkg
-'
+"
     
-'
+"
 7
-'
+"
 :
-'
+"
 https
 :
 /
@@ -431,13 +432,13 @@ MacPorts
 Lion
 .
 pkg
-'
+"
     
-'
+"
 6
-'
+"
 :
-'
+"
 https
 :
 /
@@ -465,7 +466,7 @@ MacPorts
 SnowLeopard
 .
 pkg
-'
+"
 }
 RE_CLANG_VERSION
 =
@@ -473,7 +474,7 @@ re
 .
 compile
 (
-'
+"
 Apple
 (
 ?
@@ -493,23 +494,23 @@ d
 d
 +
 )
-'
+"
 )
 APPLE_CLANG_MINIMUM_VERSION
 =
 StrictVersion
 (
-'
+"
 4
 .
 2
-'
+"
 )
 XCODE_REQUIRED
 =
-'
-'
-'
+"
+"
+"
 Xcode
 is
 required
@@ -599,14 +600,14 @@ Xcode
 .
 app
 .
-'
-'
-'
+"
+"
+"
 XCODE_REQUIRED_LEGACY
 =
-'
-'
-'
+"
+"
+"
 You
 will
 need
@@ -630,14 +631,14 @@ relaunch
 this
 script
 .
-'
-'
-'
+"
+"
+"
 XCODE_NO_DEVELOPER_DIRECTORY
 =
-'
-'
-'
+"
+"
+"
 xcode
 -
 select
@@ -709,14 +710,14 @@ run
 this
 script
 .
-'
-'
-'
+"
+"
+"
 XCODE_COMMAND_LINE_TOOLS_MISSING
 =
-'
-'
-'
+"
+"
+"
 The
 Xcode
 command
@@ -728,14 +729,14 @@ to
 build
 Firefox
 .
-'
-'
-'
+"
+"
+"
 INSTALL_XCODE_COMMAND_LINE_TOOLS_STEPS
 =
-'
-'
-'
+"
+"
+"
 Perform
 the
 following
@@ -811,14 +812,14 @@ relaunch
 this
 script
 .
-'
-'
-'
+"
+"
+"
 UPGRADE_XCODE_COMMAND_LINE_TOOLS
 =
-'
-'
-'
+"
+"
+"
 An
 old
 version
@@ -881,14 +882,14 @@ update
 Xcode
 first
 .
-'
-'
-'
+"
+"
+"
 PACKAGE_MANAGER_INSTALL
 =
-'
-'
-'
+"
+"
+"
 We
 will
 install
@@ -944,14 +945,14 @@ and
 relaunch
 bootstrap
 .
-'
-'
-'
+"
+"
+"
 PACKAGE_MANAGER_PACKAGES
 =
-'
-'
-'
+"
+"
+"
 We
 are
 now
@@ -975,14 +976,14 @@ packages
 are
 built
 .
-'
-'
-'
+"
+"
+"
 PACKAGE_MANAGER_OLD_CLANG
 =
-'
-'
-'
+"
+"
+"
 We
 require
 a
@@ -1010,14 +1011,14 @@ through
 %
 s
 .
-'
-'
-'
+"
+"
+"
 PACKAGE_MANAGER_CHOICE
 =
-'
-'
-'
+"
+"
+"
 Please
 choose
 a
@@ -1052,14 +1053,14 @@ Android
 Your
 choice
 :
-'
-'
-'
+"
+"
+"
 NO_PACKAGE_MANAGER_WARNING
 =
-'
-'
-'
+"
+"
+"
 It
 seems
 you
@@ -1073,14 +1074,14 @@ package
 manager
 installed
 .
-'
-'
-'
+"
+"
+"
 PACKAGE_MANAGER_EXISTS
 =
-'
-'
-'
+"
+"
+"
 Looks
 like
 you
@@ -1099,14 +1100,14 @@ via
 %
 s
 .
-'
-'
-'
+"
+"
+"
 MULTI_PACKAGE_MANAGER_EXISTS
 =
-'
-'
-'
+"
+"
+"
 It
 looks
 like
@@ -1117,43 +1118,42 @@ package
 managers
 installed
 .
-'
-'
-'
+"
+"
+"
 PACKAGE_MANAGER
 =
 {
-'
+"
 Homebrew
-'
+"
 :
-'
+"
 brew
-'
-                   
-'
+"
+"
 MacPorts
-'
+"
 :
-'
+"
 port
-'
+"
 }
 PACKAGE_MANAGER_CHOICES
 =
 [
-'
+"
 Homebrew
-'
-'
+"
+"
 MacPorts
-'
+"
 ]
 PACKAGE_MANAGER_BIN_MISSING
 =
-'
-'
-'
+"
+"
+"
 A
 package
 manager
@@ -1284,14 +1284,14 @@ local
 bin
 :
 PATH
-'
-'
-'
+"
+"
+"
 BAD_PATH_ORDER
 =
-'
-'
-'
+"
+"
+"
 Your
 environment
 '
@@ -1403,9 +1403,9 @@ this
 bootstrap
 again
 .
-'
-'
-'
+"
+"
+"
 class
 OSXBootstrapper
 (
@@ -1417,7 +1417,7 @@ INSTALL_PYTHON_GUIDANCE
 =
 (
         
-'
+"
 See
 https
 :
@@ -1438,9 +1438,9 @@ setup
 macos_build
 .
 html
-'
+"
         
-'
+"
 #
 install
 -
@@ -1456,12 +1456,13 @@ install
 Python
 on
 your
-'
+"
         
-'
+"
 system
 .
-'
+"
+    
 )
     
 def
@@ -1501,18 +1502,18 @@ os_version
 <
 StrictVersion
 (
-'
+"
 10
 .
 6
-'
+"
 )
 :
             
 raise
 Exception
 (
-'
+"
 OS
 X
 10
@@ -1523,7 +1524,7 @@ above
 is
 required
 .
-'
+"
 )
         
 self
@@ -1534,9 +1535,9 @@ version
 .
 split
 (
-'
+"
 .
-'
+"
 )
 [
 1
@@ -1586,6 +1587,7 @@ hg_modern
             
 print
 (
+                
 "
 Mercurial
 wasn
@@ -1599,7 +1601,7 @@ sufficiently
 modern
 .
 "
-                  
+                
 "
 It
 will
@@ -1613,16 +1615,17 @@ s
 self
 .
 package_manager
+            
 )
         
 getattr
 (
 self
-'
+"
 ensure_
 %
 s_system_packages
-'
+"
 %
 self
 .
@@ -1644,11 +1647,11 @@ mozconfig_builder
 getattr
 (
 self
-'
+"
 ensure_
 %
 s_browser_packages
-'
+"
 %
 self
 .
@@ -1668,20 +1671,22 @@ mozconfig_builder
 getattr
 (
 self
-'
+"
 ensure_
 %
 s_browser_packages
-'
+"
 %
 self
 .
 package_manager
 )
 (
+            
 artifact_mode
 =
 True
+        
 )
     
 def
@@ -1695,19 +1700,20 @@ mozconfig_builder
 getattr
 (
 self
-'
+"
 ensure_
 %
 s_mobile_android_packages
-'
+"
 %
-                
 self
 .
 package_manager
 )
 (
+            
 mozconfig_builder
+        
 )
     
 def
@@ -1721,22 +1727,23 @@ mozconfig_builder
 getattr
 (
 self
-'
+"
 ensure_
 %
 s_mobile_android_packages
-'
+"
 %
-                
 self
 .
 package_manager
 )
 (
+            
 mozconfig_builder
 artifact_mode
 =
 True
+        
 )
     
 def
@@ -1749,17 +1756,18 @@ self
 return
 getattr
 (
+            
 self
-'
+"
 generate_
 %
 s_mobile_android_mozconfig
-'
+"
 %
-                       
 self
 .
 package_manager
+        
 )
 (
 )
@@ -1774,17 +1782,18 @@ self
 return
 getattr
 (
+            
 self
-'
+"
 generate_
 %
 s_mobile_android_mozconfig
-'
+"
 %
-                       
 self
 .
 package_manager
+        
 )
 (
 artifact_mode
@@ -1806,11 +1815,11 @@ os_version
 <
 StrictVersion
 (
-'
+"
 10
 .
 7
-'
+"
 )
 :
             
@@ -1822,7 +1831,7 @@ path
 .
 exists
 (
-'
+"
 /
 Developer
 /
@@ -1831,7 +1840,7 @@ Applications
 Xcode
 .
 app
-'
+"
 )
 :
                 
@@ -1845,9 +1854,9 @@ subprocess
 check_call
 (
 [
-'
+"
 open
-'
+"
 XCODE_LEGACY
 ]
 )
@@ -1867,11 +1876,11 @@ os_version
 =
 StrictVersion
 (
-'
+"
 10
 .
 7
-'
+"
 )
 :
             
@@ -1879,11 +1888,11 @@ select
 =
 which
 (
-'
+"
 xcode
 -
 select
-'
+"
 )
             
 try
@@ -1895,22 +1904,23 @@ subprocess
 .
 check_output
 (
+                    
 [
 select
-'
+"
 -
 -
 print
 -
 path
-'
+"
 ]
-                                                 
 stderr
 =
 subprocess
 .
 STDOUT
+                
 )
             
 except
@@ -1923,14 +1933,14 @@ e
                 
 if
 b
-'
+"
 unable
 to
 get
 active
 developer
 directory
-'
+"
 in
 e
 .
@@ -1959,11 +1969,11 @@ output
             
 if
 b
-'
+"
 .
 app
 /
-'
+"
 not
 in
 output
@@ -1992,25 +2002,26 @@ subprocess
 .
 check_output
 (
+                
 [
-'
+"
 /
 usr
 /
 bin
 /
 xcrun
-'
-'
+"
+"
 clang
-'
+"
 ]
-                                             
 stderr
 =
 subprocess
 .
 STDOUT
+            
 )
         
 except
@@ -2023,9 +2034,9 @@ e
             
 if
 b
-'
+"
 license
-'
+"
 in
 e
 .
@@ -2036,9 +2047,9 @@ xcodebuild
 =
 which
 (
-'
+"
 xcodebuild
-'
+"
 )
                 
 try
@@ -2048,19 +2059,20 @@ subprocess
 .
 check_output
 (
+                        
 [
 xcodebuild
-'
+"
 -
 license
-'
+"
 ]
-                                            
 stderr
 =
 subprocess
 .
 STDOUT
+                    
 )
                 
 except
@@ -2073,11 +2085,11 @@ e
                     
 if
 b
-'
+"
 requires
 admin
 privileges
-'
+"
 in
 e
 .
@@ -2090,10 +2102,10 @@ run_as_root
 (
 [
 xcodebuild
-'
+"
 -
 license
-'
+"
 ]
 )
         
@@ -2105,11 +2117,11 @@ os_version
 =
 StrictVersion
 (
-'
+"
 10
 .
 7
-'
+"
 )
 :
             
@@ -2121,14 +2133,14 @@ path
 .
 exists
 (
-'
+"
 /
 usr
 /
 bin
 /
 clang
-'
+"
 )
 :
                 
@@ -2155,25 +2167,26 @@ subprocess
 .
 check_output
 (
+                
 [
-'
+"
 /
 usr
 /
 bin
 /
 clang
-'
-'
+"
+"
 -
 -
 version
-'
+"
 ]
-                                             
 universal_newlines
 =
 True
+            
 )
             
 match
@@ -2194,14 +2207,14 @@ None
 raise
 Exception
 (
-'
+"
 Could
 not
 determine
 Clang
 version
 .
-'
+"
 )
             
 version
@@ -2251,16 +2264,16 @@ subprocess
 check_call
 (
 [
-'
+"
 open
-'
+"
 XCODE_APP_STORE
 ]
 )
         
 print
 (
-'
+"
 Once
 the
 install
@@ -2271,7 +2284,7 @@ relaunch
 this
 script
 .
-'
+"
 )
         
 sys
@@ -2293,9 +2306,9 @@ not
 hasattr
 (
 self
-'
+"
 brew
-'
+"
 )
 :
             
@@ -2305,9 +2318,9 @@ brew
 =
 which
 (
-'
+"
 brew
-'
+"
 )
         
 assert
@@ -2356,17 +2369,17 @@ installed
 =
 set
 (
+            
 subprocess
 .
 check_output
 (
-            
 cmd
 +
 [
-'
+"
 list
-'
+"
 ]
 universal_newlines
 =
@@ -2376,13 +2389,13 @@ True
 split
 (
 )
+        
 )
         
 to_install
 =
 set
 (
-            
 package
 for
 package
@@ -2399,31 +2412,34 @@ outdated
 =
 set
 (
+            
 subprocess
 .
 check_output
 (
+                
 cmd
 +
 [
-'
+"
 outdated
-'
-'
+"
+"
 -
 -
 quiet
-'
+"
 ]
-                                               
 universal_newlines
 =
 True
+            
 )
 .
 split
 (
 )
+        
 )
         
 to_upgrade
@@ -2452,9 +2468,9 @@ print
 PACKAGE_MANAGER_PACKAGES
 %
 (
-'
+"
 Homebrew
-'
+"
 )
 )
         
@@ -2469,9 +2485,9 @@ check_call
 cmd
 +
 [
-'
+"
 install
-'
+"
 ]
 +
 list
@@ -2491,9 +2507,9 @@ check_call
 cmd
 +
 [
-'
+"
 upgrade
-'
+"
 ]
 +
 list
@@ -2526,21 +2542,21 @@ check_output
 self
 .
 brew
-'
+"
 tap
-'
+"
 ]
 )
         
 if
 b
-'
+"
 homebrew
 /
 cask
 -
 versions
-'
+"
 not
 in
 known_taps
@@ -2554,27 +2570,26 @@ check_output
 self
 .
 brew
-'
+"
 tap
-'
-                                     
-'
+"
+"
 homebrew
 /
 cask
 -
 versions
-'
+"
 ]
 )
         
 if
 b
-'
+"
 caskroom
 /
 versions
-'
+"
 in
 known_taps
 :
@@ -2587,14 +2602,14 @@ check_output
 self
 .
 brew
-'
+"
 untap
-'
-'
+"
+"
 caskroom
 /
 versions
-'
+"
 ]
 )
         
@@ -2606,9 +2621,9 @@ casks
 extra_brew_args
 =
 [
-'
+"
 cask
-'
+"
 ]
 )
     
@@ -2624,29 +2639,29 @@ packages
 =
 [
             
-'
+"
 git
-'
+"
             
-'
+"
 gnu
 -
 tar
-'
+"
             
-'
+"
 node
-'
+"
             
-'
+"
 terminal
 -
 notifier
-'
+"
             
-'
+"
 watchman
-'
+"
         
 ]
         
@@ -2658,9 +2673,9 @@ packages
 .
 append
 (
-'
+"
 mercurial
-'
+"
 )
         
 self
@@ -2684,9 +2699,9 @@ packages
 =
 [
             
-'
+"
 yasm
-'
+"
         
 ]
         
@@ -2700,11 +2715,13 @@ packages
 def
 ensure_homebrew_mobile_android_packages
 (
+        
 self
 mozconfig_builder
 artifact_mode
 =
 False
+    
 )
 :
         
@@ -2712,9 +2729,9 @@ packages
 =
 [
             
-'
+"
 wget
-'
+"
         
 ]
         
@@ -2729,9 +2746,9 @@ casks
 =
 [
             
-'
+"
 adoptopenjdk8
-'
+"
         
 ]
         
@@ -2761,7 +2778,8 @@ is_64bits
 raise
 Exception
 (
-'
+                
+"
 You
 need
 a
@@ -2775,37 +2793,36 @@ OS
 X
 to
 build
-'
-                            
-'
+"
+                
+"
 GeckoView
 /
 Firefox
 for
 Android
 .
-'
+"
+            
 )
         
 os
 .
 environ
 [
-'
+"
 PATH
-'
+"
 ]
 =
-\
-            
-'
+"
 {
 }
 {
 }
 {
 }
-'
+"
 .
 format
 (
@@ -2817,9 +2834,9 @@ os
 .
 environ
 [
-'
+"
 PATH
-'
+"
 ]
 )
         
@@ -2839,18 +2856,19 @@ android
 .
 ensure_android
 (
-'
+            
+"
 macosx
-'
+"
 artifact_mode
 =
 artifact_mode
-                               
 no_interactive
 =
 self
 .
 no_interactive
+        
 )
     
 def
@@ -2873,9 +2891,9 @@ android
 .
 generate_mozconfig
 (
-'
+"
 macosx
-'
+"
 artifact_mode
 =
 artifact_mode
@@ -2895,9 +2913,9 @@ port
 =
 which
 (
-'
+"
 port
-'
+"
 )
         
 assert
@@ -2922,19 +2940,20 @@ check_output
 self
 .
 port
-'
+"
 installed
-'
+"
 ]
-                
 universal_newlines
 =
 True
+            
 )
 .
 split
 (
 )
+        
 )
         
 missing
@@ -2961,9 +2980,9 @@ print
 PACKAGE_MANAGER_PACKAGES
 %
 (
-'
+"
 MacPorts
-'
+"
 )
 )
             
@@ -2975,13 +2994,13 @@ run_as_root
 self
 .
 port
-'
+"
 -
 v
-'
-'
+"
+"
 install
-'
+"
 ]
 +
 missing
@@ -2998,19 +3017,15 @@ install_mercurial
 packages
 =
 [
-            
-'
+"
 gnutar
-'
-            
-'
+"
+"
 watchman
-'
-            
-'
+"
+"
 nodejs8
-'
-        
+"
 ]
         
 if
@@ -3021,9 +3036,9 @@ packages
 .
 append
 (
-'
+"
 mercurial
-'
+"
 )
         
 self
@@ -3047,37 +3062,38 @@ check_output
 self
 .
 port
-'
+"
 select
-'
-'
+"
+"
 -
 -
 list
-'
-'
+"
+"
 python
-'
+"
 ]
-                
 universal_newlines
 =
 True
+            
 )
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
+        
 )
         
 active
 =
-'
-'
+"
+"
         
 for
 python
@@ -3086,9 +3102,9 @@ pythons
 :
             
 if
-'
+"
 active
-'
+"
 in
 python
 :
@@ -3098,9 +3114,9 @@ active
 python
         
 if
-'
+"
 python27
-'
+"
 not
 in
 active
@@ -3114,20 +3130,20 @@ run_as_root
 self
 .
 port
-'
+"
 select
-'
-'
+"
+"
 -
 -
 set
-'
-'
+"
+"
 python
-'
-'
+"
+"
 python27
-'
+"
 ]
 )
         
@@ -3136,7 +3152,7 @@ else
             
 print
 (
-'
+"
 The
 right
 python
@@ -3145,7 +3161,7 @@ is
 already
 active
 .
-'
+"
 )
     
 def
@@ -3162,9 +3178,9 @@ packages
 =
 [
             
-'
+"
 yasm
-'
+"
         
 ]
         
@@ -3178,11 +3194,13 @@ packages
 def
 ensure_macports_mobile_android_packages
 (
+        
 self
 mozconfig_builder
 artifact_mode
 =
 False
+    
 )
 :
         
@@ -3190,9 +3208,9 @@ packages
 =
 [
             
-'
+"
 wget
-'
+"
         
 ]
         
@@ -3222,7 +3240,8 @@ is_64bits
 raise
 Exception
 (
-'
+                
+"
 You
 need
 a
@@ -3236,16 +3255,17 @@ OS
 X
 to
 build
-'
-                            
-'
+"
+                
+"
 GeckoView
 /
 Firefox
 for
 Android
 .
-'
+"
+            
 )
         
 self
@@ -3264,18 +3284,19 @@ android
 .
 ensure_android
 (
-'
+            
+"
 macosx
-'
+"
 artifact_mode
 =
 artifact_mode
-                               
 no_interactive
 =
 self
 .
 no_interactive
+        
 )
     
 def
@@ -3298,9 +3319,9 @@ android
 .
 generate_mozconfig
 (
-'
+"
 macosx
-'
+"
 artifact_mode
 =
 artifact_mode
@@ -3313,9 +3334,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Search
 package
@@ -3358,9 +3379,9 @@ choose
 one
 .
         
-'
-'
-'
+"
+"
+"
         
 installed
 =
@@ -3447,11 +3468,11 @@ active_name
 getattr
 (
 self
-'
+"
 install_
 %
 s
-'
+"
 %
 active_name
 .
@@ -3587,9 +3608,9 @@ os
 .
 environ
 [
-'
+"
 PATH
-'
+"
 ]
 .
 split
@@ -3613,16 +3634,16 @@ for
 check
 in
 (
-'
+"
 /
 bin
-'
-'
+"
+"
 /
 usr
 /
 bin
-'
+"
 )
 :
                 
@@ -3684,6 +3705,7 @@ checkout_root
 static_analysis
 .
 MACOS_CLANG_TIDY
+        
 )
     
 def
@@ -3715,32 +3737,32 @@ self
 .
 install_toolchain_artifact
 (
+            
 state_dir
 checkout_root
-                                        
 sccache
 .
 RUSTC_DIST_TOOLCHAIN
-                                        
 no_unpack
 =
 True
+        
 )
         
 self
 .
 install_toolchain_artifact
 (
+            
 state_dir
 checkout_root
-                                        
 sccache
 .
 CLANG_DIST_TOOLCHAIN
-                                        
 no_unpack
 =
 True
+        
 )
     
 def
@@ -3761,11 +3783,13 @@ self
 .
 install_toolchain_artifact
 (
+            
 state_dir
 checkout_root
 fix_stacks
 .
 MACOS_FIX_STACKS
+        
 )
     
 def
@@ -3872,12 +3896,13 @@ self
 .
 install_toolchain_artifact
 (
+            
 state_dir
 checkout_root
-                                        
 minidump_stackwalk
 .
 MACOS_MINIDUMP_STACKWALK
+        
 )
     
 def
@@ -3898,12 +3923,13 @@ self
 .
 install_toolchain_artifact
 (
+            
 state_dir
 checkout_root
-                                        
 dump_syms
 .
 MACOS_DUMP_SYMS
+        
 )
     
 def
@@ -3918,18 +3944,18 @@ print
 PACKAGE_MANAGER_INSTALL
 %
 (
-'
+"
 Homebrew
-'
-'
+"
+"
 Homebrew
-'
-'
+"
+"
 Homebrew
-'
-'
+"
+"
 brew
-'
+"
 )
 )
         
@@ -3977,9 +4003,9 @@ subprocess
 check_call
 (
 [
-'
+"
 ruby
-'
+"
 tf
 .
 name
@@ -4013,7 +4039,8 @@ url
 raise
 Exception
 (
-'
+                
+"
 We
 do
 not
@@ -4024,9 +4051,9 @@ install
 URL
 for
 your
-'
-                            
-'
+"
+                
+"
 OS
 X
 version
@@ -4039,7 +4066,8 @@ install
 MacPorts
 manually
 .
-'
+"
+            
 )
         
 print
@@ -4047,18 +4075,18 @@ print
 PACKAGE_MANAGER_INSTALL
 %
 (
-'
+"
 MacPorts
-'
-'
+"
+"
 MacPorts
-'
-'
+"
+"
 MacPorts
-'
-'
+"
+"
 port
-'
+"
 )
 )
         
@@ -4085,10 +4113,10 @@ NamedTemporaryFile
 (
 suffix
 =
-'
+"
 .
 pkg
-'
+"
 )
 as
 tf
@@ -4112,23 +4140,23 @@ self
 run_as_root
 (
 [
-'
+"
 installer
-'
-'
+"
+"
 -
 pkg
-'
+"
 tf
 .
 name
-'
+"
 -
 target
-'
-'
+"
+"
 /
-'
+"
 ]
 )
     
@@ -4145,9 +4173,9 @@ self
 package_manager
 =
 =
-'
+"
 homebrew
-'
+"
 :
             
 subprocess
@@ -4158,13 +4186,13 @@ check_call
 self
 .
 brew
-'
+"
 -
 v
-'
-'
+"
+"
 update
-'
+"
 ]
 )
         
@@ -4177,9 +4205,9 @@ self
 package_manager
 =
 =
-'
+"
 macports
-'
+"
             
 self
 .
@@ -4189,9 +4217,9 @@ run_as_root
 self
 .
 port
-'
+"
 selfupdate
-'
+"
 ]
 )
     
@@ -4215,9 +4243,9 @@ self
 package_manager
 =
 =
-'
+"
 homebrew
-'
+"
 :
             
 try
@@ -4227,25 +4255,26 @@ subprocess
 .
 check_output
 (
+                    
 [
 self
 .
 brew
-'
+"
 -
 v
-'
-'
+"
+"
 upgrade
-'
+"
 package
 ]
-                                        
 stderr
 =
 subprocess
 .
 STDOUT
+                
 )
             
 except
@@ -4258,10 +4287,10 @@ e
                 
 if
 b
-'
+"
 already
 installed
-'
+"
 not
 in
 e
@@ -4280,9 +4309,9 @@ self
 package_manager
 =
 =
-'
+"
 macports
-'
+"
             
 self
 .
@@ -4292,9 +4321,9 @@ run_as_root
 self
 .
 port
-'
+"
 upgrade
-'
+"
 package
 ]
 )
@@ -4311,7 +4340,7 @@ self
 .
 _upgrade_package
 (
-'
+"
 mercurial
-'
+"
 )

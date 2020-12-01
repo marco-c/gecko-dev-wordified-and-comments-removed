@@ -35,6 +35,7 @@ send
 "
 POST
 "
+        
 "
 session
 /
@@ -64,6 +65,7 @@ text
 :
 text
 }
+    
 )
 def
 test_basic_auth_unsupported_operation

@@ -68,9 +68,9 @@ DIRS
 ]
 CompiledModules
 (
-'
+"
 index
 .
 js
-'
+"
 )

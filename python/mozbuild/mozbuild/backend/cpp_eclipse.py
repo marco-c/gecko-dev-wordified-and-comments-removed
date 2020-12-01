@@ -33,10 +33,7 @@ frontend
 .
 data
 import
-(
-    
 ComputedFlags
-)
 from
 mozbuild
 .
@@ -61,7 +58,6 @@ Eclipse
 project
 files
 .
-    
 "
 "
 "
@@ -80,15 +76,16 @@ os
 name
 =
 =
-'
+"
 nt
-'
+"
 :
             
 raise
 Exception
 (
-'
+                
+"
 Eclipse
 is
 not
@@ -96,16 +93,17 @@ supported
 on
 Windows
 .
-'
-                            
-'
+"
+                
+"
 Consider
 using
 Visual
 Studio
 instead
 .
-'
+"
+            
 )
         
 super
@@ -144,9 +142,9 @@ self
 .
 _project_name
 =
-'
+"
 Gecko
-'
+"
         
 self
 .
@@ -168,10 +166,11 @@ path
 .
 join
 (
+            
 self
 .
 _workspace_dir
-'
+"
 .
 metadata
 /
@@ -185,7 +184,8 @@ eclipse
 cdt
 .
 core
-'
+"
+        
 )
         
 self
@@ -231,9 +231,9 @@ environment
 .
 substs
 [
-'
+"
 MOZ_MACBUNDLE_NAME
-'
+"
 ]
         
 self
@@ -246,9 +246,9 @@ environment
 .
 substs
 [
-'
+"
 MOZ_APP_NAME
-'
+"
 ]
         
 self
@@ -261,9 +261,9 @@ environment
 .
 substs
 [
-'
+"
 BIN_SUFFIX
-'
+"
 ]
         
 self
@@ -276,9 +276,9 @@ environment
 .
 substs
 [
-'
+"
 CXX
-'
+"
 ]
         
 self
@@ -293,11 +293,11 @@ substs
 .
 get
 (
-'
+"
 CPPFLAGS
-'
-'
-'
+"
+"
+"
 )
     
 def
@@ -311,7 +311,7 @@ return
 ExecutionSummary
 (
             
-'
+"
 CppEclipse
 backend
 executed
@@ -325,7 +325,7 @@ execution_time
 s
 \
 n
-'
+"
             
 '
 Generated
@@ -345,7 +345,7 @@ s
 n
 '
             
-'
+"
 If
 missing
 import
@@ -364,14 +364,14 @@ into
 workspace
 \
 n
-'
+"
             
-'
+"
 \
 n
-'
+"
             
-'
+"
 Run
 with
 :
@@ -385,7 +385,7 @@ s
 }
 \
 n
-'
+"
             
 execution_time
 =
@@ -398,6 +398,7 @@ workspace
 self
 .
 _workspace_dir
+        
 )
     
 def
@@ -412,6 +413,7 @@ CppEclipseBackend
 .
 get_workspace_path
 (
+            
 self
 .
 environment
@@ -422,6 +424,7 @@ self
 environment
 .
 topobjdir
+        
 )
     
 staticmethod
@@ -484,9 +487,9 @@ reldir
 getattr
 (
 obj
-'
+"
 relsrcdir
-'
+"
 None
 )
         
@@ -507,37 +510,38 @@ _args_for_dirs
 setdefault
 (
                 
-'
+"
 tree
 /
-'
+"
 +
 reldir
 {
-'
+"
 includes
-'
+"
 :
 [
 ]
-'
+"
 defines
-'
+"
 :
 [
 ]
 }
+            
 )
             
 if
 reldir
 =
 =
-'
+"
 dom
 /
 bindings
-'
+"
 :
                 
 self
@@ -546,11 +550,11 @@ _args_for_dirs
 .
 setdefault
 (
-'
+"
 generated
 -
 webidl
-'
+"
 args
 )
             
@@ -558,11 +562,11 @@ if
 reldir
 =
 =
-'
+"
 ipc
 /
 ipdl
-'
+"
 :
                 
 self
@@ -571,11 +575,11 @@ _args_for_dirs
 .
 setdefault
 (
-'
+"
 generated
 -
 ipdl
-'
+"
 args
 )
             
@@ -742,10 +746,10 @@ join
 self
 .
 _project_dir
-'
+"
 .
 settings
-'
+"
 )
         
 launch_dir
@@ -759,9 +763,9 @@ join
 self
 .
 _project_dir
-'
+"
 RunConfigurations
-'
+"
 )
         
 workspace_settings_dir
@@ -776,7 +780,7 @@ join
 self
 .
 _workspace_dir
-'
+"
 .
 metadata
 /
@@ -793,22 +797,29 @@ runtime
 /
 .
 settings
-'
+"
+        
 )
         
 for
 dir_name
 in
 [
+            
 self
 .
 _project_dir
+            
 settings_dir
+            
 launch_dir
+            
 workspace_settings_dir
+            
 self
 .
 _workspace_lang_dir
+        
 ]
 :
             
@@ -852,19 +863,19 @@ join
 self
 .
 _project_dir
-'
+"
 .
 project
-'
+"
 )
         
 with
 open
 (
 project_path
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -888,19 +899,19 @@ join
 self
 .
 _project_dir
-'
+"
 .
 cproject
-'
+"
 )
         
 with
 open
 (
 cproject_path
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -922,22 +933,22 @@ path
 join
 (
 settings_dir
-'
+"
 language
 .
 settings
 .
 xml
-'
+"
 )
         
 with
 open
 (
 language_path
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -958,25 +969,27 @@ path
 .
 join
 (
+            
 self
 .
 _workspace_lang_dir
-'
+"
 language
 .
 settings
 .
 xml
-'
+"
+        
 )
         
 with
 open
 (
 workspace_language_path
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -1006,6 +1019,7 @@ _cxx
 self
 .
 _cppflags
+            
 )
             
 fh
@@ -1032,7 +1046,7 @@ join
 (
             
 workspace_settings_dir
-'
+"
 org
 .
 eclipse
@@ -1042,16 +1056,17 @@ core
 resources
 .
 prefs
-'
+"
+        
 )
         
 with
 open
 (
 core_resources_prefs_path
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -1074,7 +1089,7 @@ join
 (
             
 workspace_settings_dir
-'
+"
 org
 .
 eclipse
@@ -1084,16 +1099,17 @@ core
 runtime
 .
 prefs
-'
+"
+        
 )
         
 with
 open
 (
 core_runtime_prefs_path
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -1115,7 +1131,7 @@ path
 join
 (
 workspace_settings_dir
-'
+"
 org
 .
 eclipse
@@ -1123,16 +1139,16 @@ eclipse
 ui
 .
 prefs
-'
+"
 )
         
 with
 open
 (
 ui_prefs_path
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -1153,8 +1169,9 @@ path
 .
 join
 (
+            
 workspace_settings_dir
-'
+"
 org
 .
 eclipse
@@ -1164,7 +1181,8 @@ cdt
 ui
 .
 prefs
-'
+"
+        
 )
         
 cdt_ui_prefs
@@ -1319,16 +1337,17 @@ replace
 "
 PREF_NAME
 "
-                                                      
 pref
 )
 .
 replace
 (
+                
 "
 PREF_VAL
 "
 val
+            
 )
         
 cdt_ui_prefs
@@ -1355,9 +1374,9 @@ with
 open
 (
 cdt_ui_prefs_path
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -1378,8 +1397,9 @@ path
 .
 join
 (
+            
 workspace_settings_dir
-'
+"
 org
 .
 eclipse
@@ -1389,16 +1409,17 @@ cdt
 core
 .
 prefs
-'
+"
+        
 )
         
 with
 open
 (
 cdt_core_prefs_path
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -1428,6 +1449,7 @@ path
 .
 join
 (
+            
 workspace_settings_dir
 "
 org
@@ -1440,15 +1462,16 @@ editors
 .
 prefs
 "
+        
 )
         
 with
 open
 (
 editor_prefs_path
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -1495,20 +1518,23 @@ subprocess
 .
 check_call
 (
-                             
+                
 [
+                    
 "
 eclipse
 "
+                    
 "
 -
 application
 "
+                    
 "
 -
 nosplash
 "
-                              
+                    
 "
 org
 .
@@ -1522,22 +1548,27 @@ core
 .
 headlessbuild
 "
-                              
+                    
 "
 -
 data
 "
+                    
 self
 .
 _workspace_dir
+                    
 "
 -
 importAll
 "
+                    
 self
 .
 _project_dir
+                
 ]
+            
 )
         
 except
@@ -1569,6 +1600,7 @@ ENOENT
 raise
 Exception
 (
+                    
 "
 Failed
 to
@@ -1579,7 +1611,7 @@ import
 project
 .
 "
-                                
+                    
 "
 Ensure
 '
@@ -1593,6 +1625,7 @@ and
 try
 again
 "
+                
 )
             
 else
@@ -1624,10 +1657,11 @@ path
 .
 join
 (
+            
 self
 .
 _project_dir
-'
+"
 .
 settings
 /
@@ -1640,16 +1674,17 @@ cdt
 core
 .
 prefs
-'
+"
+        
 )
         
 with
 open
 (
 noindex_path
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -1711,10 +1746,11 @@ path
 .
 join
 (
+            
 self
 .
 _project_dir
-'
+"
 .
 settings
 /
@@ -1727,7 +1763,8 @@ cdt
 core
 .
 prefs
-'
+"
+        
 )
         
 try
@@ -1775,7 +1812,6 @@ absinclude
 :
             
 assert
-(
 absinclude
 [
 :
@@ -1788,13 +1824,13 @@ absinclude
 I
 /
 "
-)
             
 return
 LANGUAGE_SETTINGS_TEMPLATE_DIR_INCLUDE
 .
 replace
 (
+                
 "
 INCLUDE_PATH
 "
@@ -1803,6 +1839,7 @@ absinclude
 2
 :
 ]
+            
 )
         
 def
@@ -1898,22 +1935,23 @@ dirsettings_template
 .
 replace
 (
-'
+            
+"
 PREINCLUDE_FILE_PATH
-'
+"
+            
 os
 .
 path
 .
 join
 (
-            
 self
 .
 environment
 .
 topobjdir
-'
+"
 dist
 /
 include
@@ -1923,8 +1961,9 @@ mozilla
 config
 .
 h
-'
+"
 )
+        
 )
         
 dirsettings_template
@@ -1932,12 +1971,12 @@ dirsettings_template
 =
 add_define
 (
-'
+"
 MOZILLA_CLIENT
-'
-'
+"
+"
 1
-'
+"
 )
         
 dirsettings_template
@@ -1945,11 +1984,11 @@ dirsettings_template
 =
 add_objdir_include_path
 (
-'
+"
 dist
 /
 include
-'
+"
 )
         
 dirsettings_template
@@ -1957,13 +1996,13 @@ dirsettings_template
 =
 add_objdir_include_path
 (
-'
+"
 dist
 /
 include
 /
 nspr
-'
+"
 )
         
 dirsettings_template
@@ -1971,13 +2010,13 @@ dirsettings_template
 =
 add_objdir_include_path
 (
-'
+"
 dist
 /
 include
 /
 nss
-'
+"
 )
         
 dirsettings_template
@@ -1985,13 +2024,13 @@ dirsettings_template
 =
 add_objdir_include_path
 (
-'
+"
 ipc
 /
 ipdl
 /
 _ipdlheaders
-'
+"
 )
         
 dirsettings_template
@@ -1999,12 +2038,12 @@ dirsettings_template
 =
 add_define
 (
-'
+"
 MOZILLA_INTERNAL_API
-'
-'
+"
+"
 1
-'
+"
 )
         
 for
@@ -2030,9 +2069,9 @@ dirsettings
 .
 replace
 (
-'
+"
 RELATIVE_PATH
-'
+"
 path
 )
             
@@ -2067,7 +2106,6 @@ defines
 :
                 
 assert
-(
 d
 [
 :
@@ -2093,7 +2131,6 @@ u
 -
 U
 "
-)
                 
 if
 d
@@ -2189,11 +2226,12 @@ fh
 .
 write
 (
+            
 LANGUAGE_SETTINGS_TEMPLATE_FOOTER
 .
 replace
 (
-            
+                
 "
 COMPILER_FLAGS
 "
@@ -2207,7 +2245,9 @@ _cxx
 self
 .
 _cppflags
+            
 )
+        
 )
     
 def
@@ -2231,9 +2271,9 @@ self
 environment
 .
 topobjdir
-'
+"
 dist
-'
+"
 )
         
 if
@@ -2254,11 +2294,11 @@ bin_dir
 self
 .
 _macbundle
-'
+"
 Contents
 /
 MacOS
-'
+"
 )
         
 else
@@ -2273,9 +2313,9 @@ path
 join
 (
 bin_dir
-'
+"
 bin
-'
+"
 )
         
 exe_path
@@ -2305,20 +2345,20 @@ path
 join
 (
 launch_dir
-'
+"
 gecko
 .
 launch
-'
+"
 )
         
 with
 open
 (
 main_gecko_launch
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -2334,9 +2374,9 @@ launch
 .
 replace
 (
-'
+"
 LAUNCH_PROGRAM
-'
+"
 exe_path
 )
             
@@ -2346,17 +2386,17 @@ launch
 .
 replace
 (
-'
+"
 LAUNCH_ARGS
-'
-'
+"
+"
 -
 P
 -
 no
 -
 remote
-'
+"
 )
             
 fh
@@ -2384,9 +2424,9 @@ project
 .
 replace
 (
-'
+"
 PROJECT_NAME
-'
+"
 self
 .
 _project_name
@@ -2398,9 +2438,9 @@ project
 .
 replace
 (
-'
+"
 PROJECT_TOPSRCDIR
-'
+"
 self
 .
 environment
@@ -2414,16 +2454,17 @@ project
 .
 replace
 (
-'
+            
+"
 GENERATED_IPDL_FILES
-'
+"
+            
 os
 .
 path
 .
 join
 (
-            
 self
 .
 environment
@@ -2436,6 +2477,7 @@ ipc
 ipdl
 "
 )
+        
 )
         
 project
@@ -2444,16 +2486,17 @@ project
 .
 replace
 (
-'
+            
+"
 GENERATED_WEBIDL_FILES
-'
+"
+            
 os
 .
 path
 .
 join
 (
-            
 self
 .
 environment
@@ -2466,6 +2509,7 @@ dom
 bindings
 "
 )
+        
 )
         
 fh
@@ -2494,14 +2538,15 @@ cproject_header
 replace
 (
             
-'
+"
 PROJECT_TOPSRCDIR
-'
+"
 self
 .
 environment
 .
 topobjdir
+        
 )
         
 cproject_header
@@ -2511,9 +2556,9 @@ cproject_header
 replace
 (
             
-'
+"
 MACH_COMMAND
-'
+"
 os
 .
 path
@@ -2525,10 +2570,11 @@ self
 environment
 .
 topsrcdir
-'
+"
 mach
-'
+"
 )
+        
 )
         
 fh
