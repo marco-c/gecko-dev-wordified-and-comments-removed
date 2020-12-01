@@ -1805,20 +1805,12 @@ get_outgoing_files
             
 source
 =
-[
-os
+self
 .
-path
-.
-abspath
+get_abspath_files
 (
-f
-)
-for
-f
-in
 files
-]
+)
         
 compile_db
 =
@@ -2743,20 +2735,12 @@ get_outgoing_files
             
 source
 =
-[
-os
+self
 .
-path
-.
-abspath
+get_abspath_files
 (
-f
-)
-for
-f
-in
 files
-]
+)
         
 if
 len
@@ -3642,6 +3626,31 @@ cov_result
 source
 output
 )
+    
+def
+get_abspath_files
+(
+self
+files
+)
+:
+        
+return
+[
+mozpath
+.
+join
+(
+self
+.
+topsrcdir
+f
+)
+for
+f
+in
+files
+]
     
 def
 run_cov_command
