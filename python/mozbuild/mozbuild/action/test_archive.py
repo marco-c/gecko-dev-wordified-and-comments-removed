@@ -4985,7 +4985,7 @@ base
 "
 :
 "
-mozharness
+testing
 "
         
 "
@@ -4993,16 +4993,10 @@ pattern
 "
 :
 "
+mozharness
+/
 *
 *
-"
-        
-"
-dest
-"
-:
-"
-configs
 "
     
 }
