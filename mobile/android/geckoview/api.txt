@@ -381,6 +381,13 @@ java
 .
 lang
 .
+SafeVarargs
+;
+import
+java
+.
+lang
+.
 String
 ;
 import
@@ -1186,8 +1193,8 @@ Autocomplete
 LoginStorageDelegate
 {
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -3256,8 +3263,8 @@ GeckoSession
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoResult
 <
@@ -3278,8 +3285,8 @@ clearExceptionList
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoResult
 <
@@ -3347,8 +3354,8 @@ ContentBlockingException
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoResult
 <
@@ -3820,8 +3827,8 @@ GeckoSession
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoResult
 <
@@ -3854,8 +3861,8 @@ int
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoDisplay
 .
@@ -3959,8 +3966,8 @@ Bitmap
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoResult
 <
@@ -4100,6 +4107,7 @@ Throwable
 ;
 method
 NonNull
+SafeVarargs
 public
 static
 <
@@ -4506,8 +4514,8 @@ Configuration
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 static
 GeckoRuntime
@@ -4518,8 +4526,8 @@ Context
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 static
 GeckoRuntime
@@ -4532,8 +4540,8 @@ GeckoRuntimeSettings
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 public
 GeckoRuntime
 .
@@ -4543,8 +4551,8 @@ getActivityDelegate
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 ContentBlockingController
 getContentBlockingController
@@ -4552,8 +4560,8 @@ getContentBlockingController
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 static
 synchronized
@@ -4565,8 +4573,8 @@ Context
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 public
 GeckoRuntime
 .
@@ -4576,8 +4584,8 @@ getDelegate
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 public
 Autocomplete
 .
@@ -4587,8 +4595,8 @@ getLoginStorageDelegate
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 public
 File
 getProfileDir
@@ -4596,8 +4604,8 @@ getProfileDir
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 ProfilerController
 getProfilerController
@@ -4614,8 +4622,8 @@ getSettings
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 StorageController
 getStorageController
@@ -4623,8 +4631,8 @@ getStorageController
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 WebExtensionController
 getWebExtensionController
@@ -4632,8 +4640,8 @@ getWebExtensionController
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 public
 WebNotificationDelegate
 getWebNotificationDelegate
@@ -4641,8 +4649,8 @@ getWebNotificationDelegate
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 WebPushController
 getWebPushController
@@ -4813,8 +4821,8 @@ GeckoRuntime
 ActivityDelegate
 {
 method
-UiThread
 Nullable
+UiThread
 public
 GeckoResult
 <
@@ -4852,8 +4860,8 @@ GeckoRuntime
 ServiceWorkerDelegate
 {
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoResult
 <
@@ -5655,8 +5663,8 @@ GeckoSessionSettings
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoDisplay
 acquireDisplay
@@ -5725,8 +5733,8 @@ exitFullScreen
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 SessionAccessibility
 getAccessibility
@@ -5734,8 +5742,8 @@ getAccessibility
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 public
 Autofill
 .
@@ -5745,8 +5753,8 @@ getAutofillDelegate
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 Autofill
 .
@@ -5786,8 +5794,8 @@ Matrix
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 CompositorController
 getCompositorController
@@ -5806,8 +5814,8 @@ getContentBlockingDelegate
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 public
 GeckoSession
 .
@@ -5869,8 +5877,8 @@ getMediaSessionDelegate
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 public
 GeckoSession
 .
@@ -5880,8 +5888,8 @@ getNavigationDelegate
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 OverscrollEdgeEffect
 getOverscrollEdgeEffect
@@ -5909,8 +5917,8 @@ Matrix
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 PanZoomController
 getPanZoomController
@@ -5918,8 +5926,8 @@ getPanZoomController
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 public
 GeckoSession
 .
@@ -5929,8 +5937,8 @@ getPermissionDelegate
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 public
 GeckoSession
 .
@@ -5951,8 +5959,8 @@ getPromptDelegate
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 public
 GeckoSession
 .
@@ -6013,8 +6021,8 @@ getUserAgent
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 WebExtension
 .
@@ -6833,8 +6841,8 @@ GeckoSession
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -7055,8 +7063,8 @@ GeckoSession
 HistoryDelegate
 {
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -7093,8 +7101,8 @@ HistoryList
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -7546,8 +7554,8 @@ boolean
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -7565,8 +7573,8 @@ WebRequestError
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -7599,8 +7607,8 @@ String
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -7616,8 +7624,8 @@ String
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8273,8 +8281,8 @@ GeckoSession
 PromptDelegate
 {
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8298,8 +8306,8 @@ AlertPrompt
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8323,8 +8331,8 @@ AuthPrompt
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8348,8 +8356,8 @@ BeforeUnloadPrompt
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8373,8 +8381,8 @@ ButtonPrompt
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8398,8 +8406,8 @@ ChoicePrompt
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8423,8 +8431,8 @@ ColorPrompt
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8448,8 +8456,8 @@ DateTimePrompt
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8473,8 +8481,8 @@ FilePrompt
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8503,8 +8511,8 @@ LoginSaveOption
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8533,8 +8541,8 @@ LoginSelectOption
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8558,8 +8566,8 @@ PopupPrompt
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8583,8 +8591,8 @@ RepostConfirmPrompt
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8608,8 +8616,8 @@ SharePrompt
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -8700,8 +8708,8 @@ AuthOptions
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -8715,8 +8723,8 @@ String
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -8951,8 +8959,8 @@ T
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -8990,8 +8998,8 @@ PromptDelegate
 BasePrompt
 {
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -9011,8 +9019,8 @@ isComplete
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 protected
 GeckoSession
 .
@@ -9053,8 +9061,8 @@ BeforeUnloadPrompt
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -9094,8 +9102,8 @@ String
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -9188,8 +9196,8 @@ Choice
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -9203,8 +9211,8 @@ String
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -9220,8 +9228,8 @@ String
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -9241,8 +9249,8 @@ Choice
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -9435,8 +9443,8 @@ String
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -9488,8 +9496,8 @@ String
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -9623,8 +9631,8 @@ String
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -9640,8 +9648,8 @@ Uri
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -9794,8 +9802,8 @@ String
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -9848,8 +9856,8 @@ RepostConfirmPrompt
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -9891,8 +9899,8 @@ String
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -9992,8 +10000,8 @@ String
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -11145,8 +11153,8 @@ AttributeSet
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoResult
 <
@@ -11202,8 +11210,8 @@ MotionEvent
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 public
 GeckoSession
 releaseSession
@@ -12980,8 +12988,8 @@ class
 ScreenLength
 {
 method
-NonNull
 AnyThread
+NonNull
 public
 static
 ScreenLength
@@ -12990,8 +12998,8 @@ bottom
 )
 ;
 method
-NonNull
 AnyThread
+NonNull
 public
 static
 ScreenLength
@@ -13001,8 +13009,8 @@ double
 )
 ;
 method
-NonNull
 AnyThread
+NonNull
 public
 static
 ScreenLength
@@ -13012,8 +13020,8 @@ double
 )
 ;
 method
-NonNull
 AnyThread
+NonNull
 public
 static
 ScreenLength
@@ -13039,8 +13047,8 @@ getValue
 )
 ;
 method
-NonNull
 AnyThread
+NonNull
 public
 static
 ScreenLength
@@ -13049,8 +13057,8 @@ top
 )
 ;
 method
-NonNull
 AnyThread
+NonNull
 public
 static
 ScreenLength
@@ -13188,8 +13196,8 @@ class
 SessionTextInput
 {
 method
-UiThread
 NonNull
+UiThread
 public
 GeckoSession
 .
@@ -13211,8 +13219,8 @@ Handler
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 public
 View
 getView
@@ -13510,8 +13518,8 @@ class
 WebExtension
 {
 method
-UiThread
 Nullable
+UiThread
 public
 WebExtension
 .
@@ -13698,8 +13706,8 @@ Action
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -13734,8 +13742,8 @@ Action
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -14531,8 +14539,8 @@ WebExtension
 SessionTabDelegate
 {
 method
-UiThread
 NonNull
+UiThread
 default
 public
 GeckoResult
@@ -14548,8 +14556,8 @@ GeckoSession
 )
 ;
 method
-UiThread
 NonNull
+UiThread
 default
 public
 GeckoResult
@@ -14646,8 +14654,8 @@ WebExtension
 TabDelegate
 {
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -14767,8 +14775,8 @@ int
 )
 ;
 method
-NonNull
 AnyThread
+NonNull
 public
 GeckoResult
 <
@@ -14783,8 +14791,8 @@ String
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 public
 WebExtensionController
 .
@@ -14794,8 +14802,8 @@ getPromptDelegate
 )
 ;
 method
-NonNull
 AnyThread
+NonNull
 public
 GeckoResult
 <
@@ -14808,8 +14816,8 @@ String
 )
 ;
 method
-NonNull
 AnyThread
+NonNull
 public
 GeckoResult
 <
@@ -14837,8 +14845,8 @@ list
 )
 ;
 method
-NonNull
 AnyThread
+NonNull
 public
 GeckoResult
 <
@@ -14887,8 +14895,8 @@ boolean
 )
 ;
 method
-NonNull
 AnyThread
+NonNull
 public
 GeckoResult
 <
@@ -15254,8 +15262,8 @@ interface
 WebPushDelegate
 {
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -15269,8 +15277,8 @@ String
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
@@ -15288,8 +15296,8 @@ byte
 )
 ;
 method
-UiThread
 Nullable
+UiThread
 default
 public
 GeckoResult
