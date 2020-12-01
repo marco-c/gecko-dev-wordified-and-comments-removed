@@ -5975,11 +5975,6 @@ return
 specifiedSizeSuggestion
 ;
 }
-nscoord
-transferredSizeSuggestion
-=
-nscoord_MAX
-;
 if
 (
 aFlexItem
@@ -5997,6 +5992,7 @@ aItemReflowInput
 )
 )
 {
+nscoord
 transferredSizeSuggestion
 =
 MainSizeFromAspectRatio
@@ -6023,7 +6019,6 @@ aFlexItem
 aAxisTracker
 )
 ;
-}
 FLEX_LOGV
 (
 "
@@ -6039,6 +6034,10 @@ transferredSizeSuggestion
 ;
 return
 transferredSizeSuggestion
+;
+}
+return
+nscoord_MAX
 ;
 }
 void
