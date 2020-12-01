@@ -29758,10 +29758,13 @@ return
 false
 ;
 }
+Rooted
+<
 frontend
 :
 :
 CompilationGCOutput
+>
 output
 (
 cx
@@ -29780,6 +29783,10 @@ instantiateStencils
 (
 cx
 output
+.
+get
+(
+)
 )
 )
 {
@@ -29792,6 +29799,10 @@ script
 (
 cx
 output
+.
+get
+(
+)
 .
 script
 )

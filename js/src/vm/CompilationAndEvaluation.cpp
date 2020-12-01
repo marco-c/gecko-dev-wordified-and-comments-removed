@@ -648,10 +648,13 @@ nullptr
 ;
 }
 }
+Rooted
+<
 frontend
 :
 :
 CompilationGCOutput
+>
 gcOutput
 (
 cx
@@ -672,6 +675,10 @@ get
 (
 )
 gcOutput
+.
+get
+(
+)
 )
 )
 {
@@ -682,6 +689,10 @@ nullptr
 MOZ_ASSERT
 (
 gcOutput
+.
+get
+(
+)
 .
 script
 )
@@ -698,6 +709,10 @@ UseOffThreadParseGlobal
 )
 {
 gcOutput
+.
+get
+(
+)
 .
 script
 -
@@ -726,6 +741,10 @@ script
 (
 cx
 gcOutput
+.
+get
+(
+)
 .
 script
 )
