@@ -1895,6 +1895,8 @@ try_entry
 (
 atom
 .
+0
+.
 clone
 (
 )

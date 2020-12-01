@@ -553,7 +553,7 @@ SelectorImpl
 >
 :
 :
-ClassName
+Identifier
 case_sensitivity
 :
 CaseSensitivity
@@ -580,7 +580,7 @@ SelectorImpl
 >
 :
 :
-PartName
+Identifier
 )
 -
 >
@@ -596,7 +596,7 @@ SelectorImpl
 >
 :
 :
-PartName
+Identifier
 >
 ;
 fn
@@ -617,7 +617,7 @@ SelectorImpl
 >
 :
 :
-PartName
+Identifier
 )
 -
 >

@@ -132,6 +132,15 @@ use
 crate
 :
 :
+values
+:
+:
+AtomIdent
+;
+use
+crate
+:
+:
 Atom
 ;
 use
@@ -200,11 +209,11 @@ Invalidation
 {
 ID
 (
-Atom
+AtomIdent
 )
 Class
 (
-Atom
+AtomIdent
 )
 LocalName
 {
@@ -2177,6 +2186,8 @@ classes
 try_entry
 (
 c
+.
+0
 quirks_mode
 )
 {
@@ -2234,6 +2245,8 @@ ids
 try_entry
 (
 i
+.
+0
 quirks_mode
 )
 {

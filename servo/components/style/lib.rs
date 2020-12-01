@@ -542,10 +542,10 @@ Prefix
 crate
 :
 :
-gecko_string_cache
+values
 :
 :
-Atom
+AtomIdent
 ;
 #
 [
@@ -565,10 +565,10 @@ LocalName
 crate
 :
 :
-gecko_string_cache
+values
 :
 :
-Atom
+AtomIdent
 ;
 #
 [

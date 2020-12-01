@@ -98,12 +98,6 @@ Stylist
 }
 ;
 use
-crate
-:
-:
-Atom
-;
-use
 selectors
 :
 :
@@ -202,6 +196,7 @@ local_name
 =
 =
 &
+*
 *
 local_name
 !
@@ -1608,7 +1603,10 @@ part_rules
 .
 get
 (
+&
 part
+.
+0
 )
 {
 collector
@@ -1863,7 +1861,7 @@ SmallVec
 :
 <
 [
-Atom
+_
 ;
 3
 ]
@@ -2047,7 +2045,10 @@ part_rules
 .
 get
 (
+&
 p
+.
+0
 )
 {
 collector

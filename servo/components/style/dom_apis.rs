@@ -76,7 +76,10 @@ use
 crate
 :
 :
-Atom
+values
+:
+:
+AtomIdent
 ;
 use
 selectors
@@ -1312,7 +1315,7 @@ N
 id
 :
 &
-Atom
+AtomIdent
 quirks_mode
 :
 QuirksMode
@@ -1466,7 +1469,7 @@ ConcreteNode
 id
 :
 &
-Atom
+AtomIdent
 results
 :
 &
@@ -1932,7 +1935,7 @@ Class
 &
 '
 a
-Atom
+AtomIdent
 )
 LocalName
 (

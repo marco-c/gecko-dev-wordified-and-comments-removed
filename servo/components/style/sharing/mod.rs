@@ -93,7 +93,10 @@ use
 crate
 :
 :
-Atom
+values
+:
+:
+AtomIdent
 ;
 use
 atomic_refcell
@@ -334,7 +337,7 @@ Option
 SmallVec
 <
 [
-Atom
+AtomIdent
 ;
 5
 ]
@@ -347,7 +350,7 @@ Option
 SmallVec
 <
 [
-Atom
+AtomIdent
 ;
 5
 ]
@@ -488,7 +491,7 @@ E
 >
 &
 [
-Atom
+AtomIdent
 ]
 where
 E
@@ -527,7 +530,7 @@ SmallVec
 :
 <
 [
-Atom
+_
 ;
 5
 ]
@@ -602,7 +605,7 @@ E
 >
 &
 [
-Atom
+AtomIdent
 ]
 where
 E
@@ -627,7 +630,7 @@ SmallVec
 :
 <
 [
-Atom
+_
 ;
 5
 ]
@@ -996,7 +999,7 @@ self
 >
 &
 [
-Atom
+AtomIdent
 ]
 {
 self
@@ -1021,7 +1024,7 @@ self
 >
 &
 [
-Atom
+AtomIdent
 ]
 {
 self
@@ -1280,7 +1283,7 @@ self
 >
 &
 [
-Atom
+AtomIdent
 ]
 {
 self
@@ -1305,7 +1308,7 @@ self
 >
 &
 [
-Atom
+AtomIdent
 ]
 {
 self

@@ -152,8 +152,16 @@ use
 crate
 :
 :
+values
+:
+:
+AtomIdent
+;
+use
+crate
+:
+:
 {
-Atom
 LocalName
 Namespace
 WeakAtom
@@ -595,7 +603,7 @@ self
 _id
 :
 &
-Atom
+AtomIdent
 )
 -
 >
@@ -1848,7 +1856,7 @@ self
 _id
 :
 &
-Atom
+AtomIdent
 )
 -
 >
@@ -2441,7 +2449,7 @@ F
 FnMut
 (
 &
-Atom
+AtomIdent
 )
 ;
 fn
@@ -2462,7 +2470,7 @@ F
 FnMut
 (
 &
-Atom
+AtomIdent
 )
 {
 }
@@ -2477,7 +2485,7 @@ self
 _name
 :
 &
-Atom
+AtomIdent
 _callback
 :
 F
@@ -2488,7 +2496,7 @@ F
 FnMut
 (
 &
-Atom
+AtomIdent
 )
 {
 }
