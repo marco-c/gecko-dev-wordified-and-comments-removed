@@ -77,6 +77,19 @@ ChannelInfo
 include
 PBackgroundSharedTypes
 ;
+include
+"
+mozilla
+/
+dom
+/
+cache
+/
+IPCUtils
+.
+h
+"
+;
 using
 HeadersGuardEnum
 from
@@ -100,7 +113,7 @@ dom
 /
 cache
 /
-IPCUtils
+Types
 .
 h
 "
@@ -115,7 +128,7 @@ dom
 /
 cache
 /
-IPCUtils
+Types
 .
 h
 "
