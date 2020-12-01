@@ -4523,6 +4523,16 @@ displayport_expiry_ms
 "
 0
 ]
+[
+"
+android
+.
+touch_resampling
+.
+enabled
+"
+false
+]
 ]
 ;
 case
