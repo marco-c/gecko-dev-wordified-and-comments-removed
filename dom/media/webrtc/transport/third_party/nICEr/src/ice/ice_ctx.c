@@ -2858,6 +2858,7 @@ label
 ;
 }
 }
+}
 if
 (
 nr_ice_media_stream_is_done_gathering
@@ -2887,7 +2888,6 @@ component_id
 NULL
 )
 ;
-}
 }
 if
 (
