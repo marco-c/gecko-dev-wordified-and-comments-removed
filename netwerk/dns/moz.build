@@ -250,6 +250,11 @@ DNSListenerProxy
 cpp
 "
 "
+DNSPacket
+.
+cpp
+"
+"
 DNSRequestChild
 .
 cpp
