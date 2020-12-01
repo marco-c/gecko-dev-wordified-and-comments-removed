@@ -1503,7 +1503,7 @@ ExperimentAPI
 getExperiment
 (
 {
-group
+featureId
 :
 "
 cfr
