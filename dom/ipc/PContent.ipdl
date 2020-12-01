@@ -279,6 +279,15 @@ DocShellMessageUtils
 h
 "
 ;
+include
+"
+mozilla
+/
+PermissionDelegateIPCUtils
+.
+h
+"
+;
 using
 refcounted
 class
@@ -1245,7 +1254,7 @@ from
 "
 mozilla
 /
-PermissionDelegateIPCUtils
+PermissionDelegateHandler
 .
 h
 "
