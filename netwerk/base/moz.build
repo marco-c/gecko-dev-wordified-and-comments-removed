@@ -879,11 +879,6 @@ NetworkConnectivityService
 cpp
 "
 "
-NetworkDataCountLayer
-.
-cpp
-"
-"
 nsAsyncRedirectVerifyHelper
 .
 cpp
