@@ -328,6 +328,19 @@ Python
 .
 8
 "
+        
+"
+Programming
+Language
+:
+:
+Python
+:
+:
+3
+.
+9
+"
     
 ]
     
@@ -361,7 +374,7 @@ glean_parser
 .
 __main__
 :
-main
+main_wrapper
 "
         
 ]
