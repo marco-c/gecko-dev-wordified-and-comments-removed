@@ -54891,6 +54891,19 @@ eTouchActionDoubleTapZoomDisabled
 }
 else
 {
+if
+(
+!
+(
+touchAction
+&
+StyleTouchAction
+:
+:
+PINCH_ZOOM
+)
+)
+{
 result
 +
 =
@@ -54899,6 +54912,7 @@ CompositorHitTestFlags
 :
 eTouchActionPinchZoomDisabled
 ;
+}
 result
 +
 =
