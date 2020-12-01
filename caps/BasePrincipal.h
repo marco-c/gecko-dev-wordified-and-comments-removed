@@ -23,7 +23,7 @@ include
 "
 js
 /
-RootingAPI
+TypeDecls
 .
 h
 "
