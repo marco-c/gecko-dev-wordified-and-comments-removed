@@ -1390,9 +1390,6 @@ _getTraits
 {
 return
 {
-hasSupportsTraits
-:
-true
 supportsAddItem
 :
 typeof
