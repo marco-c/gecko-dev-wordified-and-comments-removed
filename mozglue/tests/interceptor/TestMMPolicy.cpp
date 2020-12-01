@@ -468,10 +468,17 @@ uint8_t
 *
 >
 (
+std
+:
+:
+max
+(
 gPolicy
 .
 GetAllocGranularity
 (
+)
+0x1000000ul
 )
 )
 ;
