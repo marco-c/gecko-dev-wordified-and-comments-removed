@@ -764,6 +764,10 @@ PAltSvcTransactionChild
 *
 >
 aTrans
+const
+bool
+&
+aFetchHTTPSRR
 )
 {
 RefPtr
@@ -808,7 +812,7 @@ nullptr
 ;
 RefPtr
 <
-NullHttpTransaction
+SpeculativeTransaction
 >
 trans
 ;
@@ -847,6 +851,7 @@ cinfo
 overrider
 aCaps
 trans
+aFetchHTTPSRR
 )
 ;
 return

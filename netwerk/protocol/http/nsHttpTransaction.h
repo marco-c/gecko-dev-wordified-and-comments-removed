@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsIAsyncOutputStream
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

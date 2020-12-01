@@ -207,6 +207,10 @@ PAltSvcTransactionChild
 *
 >
 aTrans
+const
+bool
+&
+aFetchHTTPSRR
 )
 ;
 private

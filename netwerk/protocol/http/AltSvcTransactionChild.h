@@ -25,7 +25,7 @@ class
 nsHttpConnectionInfo
 ;
 class
-NullHttpTransaction
+SpeculativeTransaction
 ;
 class
 AltSvcTransactionChild
@@ -67,7 +67,7 @@ aValidateResult
 ;
 already_AddRefed
 <
-NullHttpTransaction
+SpeculativeTransaction
 >
 CreateTransaction
 (

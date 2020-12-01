@@ -304,7 +304,7 @@ task
 }
 already_AddRefed
 <
-NullHttpTransaction
+SpeculativeTransaction
 >
 AltSvcTransactionChild
 :
@@ -315,9 +315,9 @@ CreateTransaction
 {
 RefPtr
 <
-NullHttpTransaction
+SpeculativeTransaction
 >
-nullTransaction
+transaction
 =
 new
 AltSvcTransaction
@@ -338,7 +338,7 @@ IsHttp3
 )
 ;
 return
-nullTransaction
+transaction
 .
 forget
 (

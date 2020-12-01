@@ -22,7 +22,7 @@ mozilla
 /
 net
 /
-NullHttpTransaction
+SpeculativeTransaction
 .
 h
 "
@@ -65,7 +65,7 @@ final
 public
 PAltSvcTransactionParent
 public
-NullHttpTransaction
+SpeculativeTransaction
 {
 public
 :

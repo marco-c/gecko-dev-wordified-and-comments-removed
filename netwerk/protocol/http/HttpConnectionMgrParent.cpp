@@ -782,9 +782,11 @@ nsIInterfaceRequestor
 aCallbacks
 uint32_t
 aCaps
-NullHttpTransaction
+SpeculativeTransaction
 *
 aTransaction
+bool
+aFetchHTTPSRR
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -944,6 +946,7 @@ move
 trans
 )
 }
+aFetchHTTPSRR
 ]
 (
 )
@@ -984,6 +987,7 @@ connInfo
 overriderArgs
 aCaps
 maybeTrans
+aFetchHTTPSRR
 )
 ;
 }

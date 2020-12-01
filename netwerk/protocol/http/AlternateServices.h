@@ -60,7 +60,7 @@ h
 #
 include
 "
-NullHttpTransaction
+SpeculativeTransaction
 .
 h
 "
@@ -933,7 +933,7 @@ AltSvcTransaction
 final
 :
 public
-NullHttpTransaction
+SpeculativeTransaction
 {
 public
 :
@@ -960,6 +960,17 @@ AltSvcTransaction
 )
 override
 ;
+virtual
+nsresult
+FetchHTTPSRR
+(
+)
+override
+{
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+}
 private
 :
 bool

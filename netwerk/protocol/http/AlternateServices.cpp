@@ -3113,7 +3113,7 @@ bool
 aIsHttp3
 )
 :
-NullHttpTransaction
+SpeculativeTransaction
 (
 ci
 callbacks
@@ -6680,9 +6680,9 @@ map
 ;
 RefPtr
 <
-NullHttpTransaction
+SpeculativeTransaction
 >
-nullTransaction
+transaction
 ;
 if
 (
@@ -6723,14 +6723,14 @@ Init
 return
 ;
 }
-nullTransaction
+transaction
 =
 parent
 ;
 }
 else
 {
-nullTransaction
+transaction
 =
 new
 AltSvcTransaction
@@ -6762,7 +6762,7 @@ SpeculativeConnect
 ci
 callbacks
 caps
-nullTransaction
+transaction
 )
 ;
 if
