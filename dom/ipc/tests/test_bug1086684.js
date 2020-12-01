@@ -329,6 +329,14 @@ focus
 (
 )
 ;
+content
+.
+document
+.
+notifyUserGestureActivation
+(
+)
+;
 input
 .
 click

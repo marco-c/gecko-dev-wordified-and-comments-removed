@@ -84,15 +84,6 @@ PopupStatePusherDestroyed
 )
 ;
 static
-bool
-CanShowPopupByPermission
-(
-nsIPrincipal
-*
-aPrincipal
-)
-;
-static
 uint32_t
 GetPopupPermission
 (
