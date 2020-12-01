@@ -145,6 +145,11 @@ DevToolsUtils
 js
 "
 "
+environment
+.
+js
+"
+"
 expressions
 .
 js

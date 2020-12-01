@@ -55,13 +55,5 @@ fixtures
 /
 *
 *
-packages
-/
-devtools
--
-environment
-/
-*
-*
 node_modules
 out
