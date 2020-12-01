@@ -79,6 +79,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsJSUtils
 .
 h

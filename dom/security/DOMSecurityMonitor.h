@@ -4,6 +4,13 @@ mozilla_dom_DOMSecurityMonitor_h
 #
 define
 mozilla_dom_DOMSecurityMonitor_h
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsIChannel
 ;

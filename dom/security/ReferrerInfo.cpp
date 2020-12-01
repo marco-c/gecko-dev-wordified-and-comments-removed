@@ -162,6 +162,13 @@ StyleSheet
 .
 h
 "
+#
+include
+"
+nsIWebProgressListener
+.
+h
+"
 static
 mozilla
 :
