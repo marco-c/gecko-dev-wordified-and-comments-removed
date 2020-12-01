@@ -1542,7 +1542,7 @@ OrIf
 IsNativeARM64
 }
 SetRegView
-lastUsed
+lastused
 {
 EndIf
 }
