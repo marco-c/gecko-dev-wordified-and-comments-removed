@@ -3264,7 +3264,7 @@ directory
 "
 :
 "
-.
+mozharness
 "
             
 "
