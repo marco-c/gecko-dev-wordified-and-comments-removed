@@ -2718,7 +2718,7 @@ wasm
 -
 misc
 -
-ion
+optimizing
 -
 firefox
 :
@@ -2731,8 +2731,8 @@ Misc
 on
 Firefox
 with
-ION
-Monkey
+optimizing
+JIT
 "
 variants
 :
@@ -2751,7 +2751,7 @@ wasm
 -
 misc
 -
-ion
+optimizing
 -
 firefox
 treeherder
@@ -2781,7 +2781,7 @@ wasm
 -
 misc
 -
-ion
+optimizing
 fetches
 :
 fetch
@@ -2796,7 +2796,7 @@ wasm
 -
 misc
 -
-ion
+optimizing
 -
 firefox
 -
@@ -2811,8 +2811,8 @@ Misc
 on
 Firefox
 with
-ION
-Monkey
+optimizing
+JIT
 and
 Gecko
 Profiling
@@ -2827,7 +2827,7 @@ wasm
 -
 misc
 -
-ion
+optimizing
 -
 firefox
 -
@@ -2868,7 +2868,7 @@ wasm
 -
 misc
 -
-ion
+optimizing
 -
 -
 -
@@ -3439,7 +3439,7 @@ wasm
 -
 godot
 -
-ion
+optimizing
 -
 firefox
 :
@@ -3452,8 +3452,8 @@ godot
 on
 Firefox
 with
-ION
-Monkey
+optimizing
+JIT
 "
 variants
 :
@@ -3472,7 +3472,7 @@ wasm
 -
 godot
 -
-ion
+optimizing
 -
 firefox
 treeherder
@@ -3539,14 +3539,14 @@ wasm
 -
 godot
 -
-ion
+optimizing
 raptor
 -
 wasm
 -
 godot
 -
-ion
+optimizing
 -
 firefox
 -
@@ -3561,8 +3561,8 @@ godot
 on
 Firefox
 with
-ION
-Monkey
+optimizing
+JIT
 and
 Gecko
 Profiling
@@ -3577,7 +3577,7 @@ wasm
 -
 godot
 -
-ion
+optimizing
 -
 firefox
 -
@@ -3618,7 +3618,7 @@ wasm
 -
 godot
 -
-ion
+optimizing
 -
 -
 -
