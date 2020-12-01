@@ -1880,6 +1880,10 @@ focusNode
 IsContent
 (
 )
+|
+|
+!
+aSelection
 )
 {
 return
