@@ -1631,7 +1631,7 @@ releaseLock
 (
 )
 on
-ReadableStreamReader
+ReadableStreamDefaultReader
 with
 pending
 read
