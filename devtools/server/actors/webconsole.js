@@ -1692,7 +1692,7 @@ createValueGrip
 (
 v
 )
-sources
+getSourcesManager
 :
 (
 )
@@ -1708,7 +1708,7 @@ WebConsoleActor
 Error
 (
 "
-sources
+getSourcesManager
 not
 yet
 implemented
@@ -5431,7 +5431,7 @@ this
 .
 parentActor
 .
-sources
+sourcesManager
 .
 getSourceActorByInternalSourceId
 (

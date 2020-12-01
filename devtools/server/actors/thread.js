@@ -1258,7 +1258,7 @@ this
 .
 _parent
 .
-sources
+sourcesManager
 ;
 }
 get
@@ -7176,7 +7176,7 @@ objectGrip
 )
 ;
 }
-sources
+getSourcesManager
 :
 (
 )

@@ -290,7 +290,7 @@ actor
 =
 targetActor
 .
-sources
+sourcesManager
 .
 getSourceActorByInternalSourceId
 (

@@ -916,7 +916,7 @@ __name
 ;
 }
 get
-sources
+sourcesManager
 (
 )
 {
@@ -925,12 +925,12 @@ if
 !
 this
 .
-_sources
+_sourcesManager
 )
 {
 this
 .
-_sources
+_sourcesManager
 =
 new
 SourcesManager
@@ -944,7 +944,7 @@ threadActor
 return
 this
 .
-_sources
+_sourcesManager
 ;
 }
 form
@@ -1112,7 +1112,7 @@ request
 {
 this
 .
-sources
+sourcesManager
 .
 reset
 (

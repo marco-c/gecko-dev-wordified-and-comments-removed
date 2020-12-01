@@ -621,7 +621,7 @@ false
 ;
 this
 .
-_sources
+_sourcesManager
 =
 null
 ;
@@ -1195,7 +1195,7 @@ null
 ;
 }
 get
-sources
+sourcesManager
 (
 )
 {
@@ -1204,12 +1204,12 @@ if
 !
 this
 .
-_sources
+_sourcesManager
 )
 {
 this
 .
-_sources
+_sourcesManager
 =
 new
 SourcesManager
@@ -1226,7 +1226,7 @@ _allowSource
 return
 this
 .
-_sources
+_sourcesManager
 ;
 }
 _createExtraActors
@@ -2871,12 +2871,12 @@ if
 (
 this
 .
-_sources
+_sourcesManager
 )
 {
 this
 .
-_sources
+_sourcesManager
 .
 destroy
 (
@@ -2884,7 +2884,7 @@ destroy
 ;
 this
 .
-_sources
+_sourcesManager
 =
 null
 ;

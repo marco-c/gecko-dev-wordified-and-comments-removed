@@ -3231,7 +3231,7 @@ this
 .
 targetActor
 .
-sources
+sourcesManager
 .
 getOrCreateSourceActor
 (

@@ -1570,7 +1570,7 @@ createEnvironmentActor
 env
 targetActor
 )
-sources
+getSourcesManager
 :
 (
 )
@@ -1586,7 +1586,7 @@ WebConsoleActor
 Error
 (
 "
-sources
+getSourcesManager
 not
 yet
 implemented

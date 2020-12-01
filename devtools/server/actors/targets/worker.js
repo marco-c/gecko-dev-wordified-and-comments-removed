@@ -205,7 +205,7 @@ workerDebuggerData
 ;
 this
 .
-_sources
+_sourcesManager
 =
 null
 ;
@@ -388,7 +388,7 @@ _dbg
 ;
 }
 get
-sources
+sourcesManager
 (
 )
 {
@@ -396,7 +396,7 @@ if
 (
 this
 .
-_sources
+_sourcesManager
 =
 =
 =
@@ -405,7 +405,7 @@ null
 {
 this
 .
-_sources
+_sourcesManager
 =
 new
 SourcesManager
@@ -419,7 +419,7 @@ threadActor
 return
 this
 .
-_sources
+_sourcesManager
 ;
 }
 onThreadAttached
@@ -459,12 +459,12 @@ if
 (
 this
 .
-_sources
+_sourcesManager
 )
 {
 this
 .
-_sources
+_sourcesManager
 .
 destroy
 (
@@ -472,7 +472,7 @@ destroy
 ;
 this
 .
-_sources
+_sourcesManager
 =
 null
 ;
