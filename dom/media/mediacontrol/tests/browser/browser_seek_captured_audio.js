@@ -92,7 +92,7 @@ const
 tab
 =
 await
-createTabAndLoad
+createLoadedTabWrapper
 (
 PAGE_NON_AUTOPLAY_MEDIA
 )
@@ -174,11 +174,10 @@ tab
 )
 ;
 await
-BrowserTestUtils
-.
-removeTab
-(
 tab
+.
+close
+(
 )
 ;
 }

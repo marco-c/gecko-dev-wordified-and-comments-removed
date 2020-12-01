@@ -147,7 +147,7 @@ const
 tab
 =
 await
-createTabAndLoad
+createLoadedTabWrapper
 (
 PAGE_NON_AUTOPLAY
 )
@@ -193,11 +193,10 @@ tab
 )
 ;
 await
-BrowserTestUtils
-.
-removeTab
-(
 tab
+.
+close
+(
 )
 ;
 }
@@ -222,7 +221,7 @@ const
 tab
 =
 await
-createTabAndLoad
+createLoadedTabWrapper
 (
 PAGE_NON_AUTOPLAY
 )
@@ -325,11 +324,10 @@ winPIP
 )
 ;
 await
-BrowserTestUtils
-.
-removeTab
-(
 tab
+.
+close
+(
 )
 ;
 }
