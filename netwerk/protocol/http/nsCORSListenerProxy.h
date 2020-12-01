@@ -258,6 +258,13 @@ aURI
 nsIPrincipal
 *
 aRequestingPrincipal
+const
+mozilla
+:
+:
+OriginAttributes
+&
+aOriginAttributes
 )
 ;
 [

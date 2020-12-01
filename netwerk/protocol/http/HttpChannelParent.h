@@ -863,6 +863,10 @@ ipc
 PrincipalInfo
 &
 requestingPrincipal
+const
+OriginAttributes
+&
+originAttributes
 )
 override
 ;

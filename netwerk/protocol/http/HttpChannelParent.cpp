@@ -5636,6 +5636,10 @@ ipc
 PrincipalInfo
 &
 requestingPrincipal
+const
+OriginAttributes
+&
+originAttributes
 )
 {
 nsCOMPtr
@@ -5708,6 +5712,7 @@ RemoveFromCorsPreflightCache
 (
 deserializedURI
 principal
+originAttributes
 )
 ;
 return

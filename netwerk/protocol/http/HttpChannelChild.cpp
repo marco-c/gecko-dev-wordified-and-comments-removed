@@ -12468,6 +12468,10 @@ aURI
 nsIPrincipal
 *
 aPrincipal
+const
+OriginAttributes
+&
+aOriginAttributes
 )
 {
 URIParams
@@ -12525,6 +12529,7 @@ SendRemoveCorsPreflightCacheEntry
 (
 uri
 principalInfo
+aOriginAttributes
 )
 ;
 }

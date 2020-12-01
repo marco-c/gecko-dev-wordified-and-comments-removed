@@ -733,6 +733,10 @@ nsIURI
 aURI
 bool
 aWithCredentials
+const
+OriginAttributes
+&
+aOriginAttributes
 nsACString
 &
 _retval

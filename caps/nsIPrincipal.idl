@@ -574,6 +574,9 @@ nsIURI
 aURI
 )
 ;
+[
+noscript
+]
 ACString
 getPrefLightCacheKey
 (
@@ -583,6 +586,9 @@ aURI
 in
 bool
 aWithCredentials
+in
+const_OriginAttributes
+aOriginAttributes
 )
 ;
 bool
