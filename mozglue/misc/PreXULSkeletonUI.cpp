@@ -5959,7 +5959,7 @@ return
 }
 sPreXULSkeletonUIEnabled
 =
-true
+value
 ;
 }
 MFBT_API
