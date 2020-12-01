@@ -175,6 +175,9 @@ certificate_required
 no_application_protocol
 =
 120
+ech_required
+=
+121
 no_alert
 =
 256

@@ -203,8 +203,8 @@ ssl_tls13_ticket_early_data_info_xtn
 ssl_tls13_certificate_authorities_xtn
 ssl_next_proto_nego_xtn
 ssl_renegotiation_info_xtn
-ssl_tls13_short_header_xtn
 ssl_record_size_limit_xtn
+ssl_tls13_encrypted_client_hello_xtn
 1
 0xffff
 }

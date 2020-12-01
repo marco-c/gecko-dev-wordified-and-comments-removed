@@ -87,6 +87,9 @@ sslNamedGroupDef
 *
 *
 previousGroup
+PRBool
+*
+previousEchOffered
 )
 ;
 #

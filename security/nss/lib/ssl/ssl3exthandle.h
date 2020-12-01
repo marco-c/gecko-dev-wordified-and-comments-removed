@@ -479,6 +479,9 @@ const
 char
 *
 url
+unsigned
+int
+len
 TLSExtensionData
 *
 xtnData

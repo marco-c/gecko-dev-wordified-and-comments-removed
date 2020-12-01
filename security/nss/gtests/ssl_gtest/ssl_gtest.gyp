@@ -329,7 +329,7 @@ tls_hkdf_unittest
 cc
 '
 '
-tls_esni_unittest
+tls_ech_unittest
 .
 cc
 '
