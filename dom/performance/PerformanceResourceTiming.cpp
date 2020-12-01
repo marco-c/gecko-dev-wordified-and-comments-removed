@@ -117,12 +117,6 @@ mPerformance
 (
 aPerformance
 )
-mStartTime
-(
-CalculateStartTime
-(
-)
-)
 {
 MOZ_ASSERT
 (
@@ -169,7 +163,7 @@ DOMHighResTimeStamp
 PerformanceResourceTiming
 :
 :
-CalculateStartTime
+StartTime
 (
 )
 const
