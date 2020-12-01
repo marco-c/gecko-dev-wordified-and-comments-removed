@@ -18251,11 +18251,6 @@ NS_NewMenuFrame
 )
 SIMPLE_XUL_CREATE
 (
-menubutton
-NS_NewMenuFrame
-)
-SIMPLE_XUL_CREATE
-(
 menulist
 NS_NewMenuFrame
 )
