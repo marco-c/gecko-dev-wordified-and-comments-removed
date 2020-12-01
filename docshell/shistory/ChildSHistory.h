@@ -200,6 +200,8 @@ int32_t
 aIndex
 int32_t
 aOffset
+bool
+aRequireUserInteraction
 ErrorResult
 &
 aRv

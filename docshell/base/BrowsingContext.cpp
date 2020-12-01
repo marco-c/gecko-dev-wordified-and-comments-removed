@@ -14317,6 +14317,8 @@ int32_t
 aOffset
 uint64_t
 aHistoryEpoch
+bool
+aRequireUserInteraction
 std
 :
 :
@@ -14354,6 +14356,7 @@ SendHistoryGo
 this
 aOffset
 aHistoryEpoch
+aRequireUserInteraction
 std
 :
 :
@@ -14388,6 +14391,7 @@ HistoryGo
 (
 aOffset
 aHistoryEpoch
+aRequireUserInteraction
 Canonical
 (
 )

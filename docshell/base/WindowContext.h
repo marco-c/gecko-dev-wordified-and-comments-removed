@@ -1203,6 +1203,17 @@ bool
 aOldValue
 )
 ;
+void
+DidSet
+(
+FieldIndex
+<
+IDX_SHEntryHasUserInteraction
+>
+bool
+aOldValue
+)
+;
 template
 <
 size_t
