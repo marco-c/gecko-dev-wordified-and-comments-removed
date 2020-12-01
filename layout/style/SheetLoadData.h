@@ -438,6 +438,12 @@ mIsNonDocumentSheet
 :
 1
 ;
+const
+bool
+mIsChildSheet
+:
+1
+;
 bool
 mIsLoading
 :
