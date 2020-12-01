@@ -68,6 +68,11 @@ IServiceProvider
 {
 public
 :
+[
+[
+nodiscard
+]
+]
 static
 already_AddRefed
 <
