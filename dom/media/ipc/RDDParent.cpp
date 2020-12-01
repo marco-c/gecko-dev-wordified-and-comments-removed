@@ -858,6 +858,10 @@ PVideoBridgeChild
 &
 aEndpoint
 const
+bool
+&
+aCreateHardwareDevice
+const
 ContentDeviceData
 &
 aContentDeviceData
@@ -971,6 +975,11 @@ d3d11
 )
 )
 ;
+if
+(
+aCreateHardwareDevice
+)
+{
 devmgr
 -
 >
@@ -978,6 +987,7 @@ CreateContentDevices
 (
 )
 ;
+}
 }
 }
 #

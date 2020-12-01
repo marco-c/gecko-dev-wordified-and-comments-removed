@@ -187,6 +187,10 @@ PVideoBridgeChild
 &
 aEndpoint
 const
+bool
+&
+aCreateHardwareDevice
+const
 ContentDeviceData
 &
 aContentDeviceData
