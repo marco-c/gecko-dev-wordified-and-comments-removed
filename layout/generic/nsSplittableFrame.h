@@ -224,7 +224,7 @@ nullptr
 {
 }
 nscoord
-CalcAndCacheConsumedBSize
+ConsumedBSize
 (
 mozilla
 :
@@ -232,6 +232,7 @@ mozilla
 WritingMode
 aWM
 )
+const
 ;
 nscoord
 GetEffectiveComputedBSize
@@ -242,6 +243,8 @@ ReflowInput
 aReflowInput
 nscoord
 aConsumed
+=
+NS_UNCONSTRAINEDSIZE
 )
 const
 ;
@@ -249,15 +252,11 @@ LogicalSides
 GetLogicalSkipSides
 (
 const
-Maybe
-<
-SkipSidesDuringReflow
->
-&
+ReflowInput
+*
+aReflowInput
 =
-Nothing
-(
-)
+nullptr
 )
 const
 override

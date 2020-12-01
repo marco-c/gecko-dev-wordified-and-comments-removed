@@ -48248,7 +48248,7 @@ else
 {
 consumedBSize
 =
-CalcAndCacheConsumedBSize
+ConsumedBSize
 (
 wm
 )
