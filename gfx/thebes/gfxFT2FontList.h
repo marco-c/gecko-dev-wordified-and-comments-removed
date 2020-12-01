@@ -214,6 +214,14 @@ aTableTag
 )
 override
 ;
+bool
+HasFontTable
+(
+uint32_t
+aTableTag
+)
+override
+;
 nsresult
 CopyFontTable
 (
@@ -224,7 +232,6 @@ nsTArray
 uint8_t
 >
 &
-aBuffer
 )
 override
 ;
