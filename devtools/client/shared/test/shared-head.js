@@ -1588,12 +1588,6 @@ close
 ;
 }
 }
-gDevTools
-.
-clearIsFissionContentToolboxEnabledReferenceForTest
-(
-)
-;
 }
 )
 ;
