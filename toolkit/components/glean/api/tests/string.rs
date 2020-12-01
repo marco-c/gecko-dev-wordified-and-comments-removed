@@ -172,6 +172,14 @@ lock_test
 )
 ;
 let
+_t
+=
+setup_glean
+(
+None
+)
+;
+let
 store_names
 :
 Vec
@@ -215,8 +223,7 @@ CommonMetricData
 name
 :
 "
-string
-metric
+string_metric
 "
 .
 into
