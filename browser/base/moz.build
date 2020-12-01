@@ -436,7 +436,7 @@ browser
 .
 ini
 "
-'
+"
 content
 /
 test
@@ -446,7 +446,7 @@ startup
 browser
 .
 ini
-'
+"
 "
 content
 /
