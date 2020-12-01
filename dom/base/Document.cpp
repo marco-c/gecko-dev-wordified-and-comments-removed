@@ -19328,6 +19328,7 @@ SetPrincipals
 (
 principal
 principal
+false
 )
 ;
 }
@@ -20791,6 +20792,8 @@ aNewPrincipal
 nsIPrincipal
 *
 aNewPartitionedPrincipal
+bool
+aSetContentBlockingAllowListPrincipal
 )
 {
 MOZ_ASSERT
@@ -20866,6 +20869,11 @@ RegisterInSheetCache
 (
 )
 ;
+if
+(
+aSetContentBlockingAllowListPrincipal
+)
+{
 ContentBlockingAllowList
 :
 :
@@ -20878,6 +20886,7 @@ mContentBlockingAllowListPrincipal
 )
 )
 ;
+}
 #
 ifdef
 DEBUG

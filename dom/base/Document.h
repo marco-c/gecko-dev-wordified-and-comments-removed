@@ -3183,6 +3183,10 @@ aPrincipal
 nsIPrincipal
 *
 aPartitionedPrincipal
+bool
+aSetContentBlockingAllowListPrincipal
+=
+true
 )
 ;
 uint32_t
