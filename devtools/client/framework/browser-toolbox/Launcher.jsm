@@ -1198,6 +1198,9 @@ this
 .
 port
 )
+MOZ_HEADLESS
+:
+null
 }
 ;
 if
@@ -1348,6 +1351,10 @@ data
 {
 dump
 (
+"
+>
+"
++
 data
 )
 ;
