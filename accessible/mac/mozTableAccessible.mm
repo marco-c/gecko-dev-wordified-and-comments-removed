@@ -2694,16 +2694,7 @@ nsCocoaUtils
 :
 ToNSString
 (
-Substring
-(
 title
-1
-title
-.
-Length
-(
-)
-)
 )
 ;
 }
