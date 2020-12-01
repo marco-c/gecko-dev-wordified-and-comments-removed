@@ -325,6 +325,12 @@ IsShutdownAllComplete
 )
 ;
 static
+nsCString
+GetShutdownStatus
+(
+)
+;
+static
 void
 Abort
 (
