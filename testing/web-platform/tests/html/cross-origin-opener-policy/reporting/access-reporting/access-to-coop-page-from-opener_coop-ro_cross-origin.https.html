@@ -283,11 +283,15 @@ test
 window
 .
 const
-opener_url
+opener_origin
 =
 location
 .
-href
+origin
++
+'
+/
+'
 ;
 const
 reportTo
@@ -591,7 +595,7 @@ report
 body
 .
 referrer
-opener_url
+opener_origin
 )
 ;
 assert_equals
