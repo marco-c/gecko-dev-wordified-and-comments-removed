@@ -829,6 +829,12 @@ Wall
 Wextra
 -
 Wshadow
+-
+Wno
+-
+deprecated
+-
+declarations
 )
 if
 (
@@ -2418,7 +2424,7 @@ cross
 abi
 -
 minor
-33
+37
 )
 set
 (
