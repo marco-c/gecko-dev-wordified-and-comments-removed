@@ -1,9 +1,9 @@
 FROM
 ubuntu
 :
-17
+18
 .
-10
+04
 RUN
 apt
 -

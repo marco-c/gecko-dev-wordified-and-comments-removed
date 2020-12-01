@@ -13,7 +13,7 @@ version
 .
 3
 .
-3
+4
 "
 authors
 =
@@ -263,12 +263,11 @@ cfg
 if
 =
 "
-^
 0
 .
 1
 .
-6
+10
 "
 core_arch
 =
@@ -276,12 +275,11 @@ core_arch
 version
 =
 "
-^
 0
 .
 1
 .
-3
+5
 "
 optional
 =
@@ -326,7 +324,7 @@ version
 ^
 0
 .
-4
+5
 "
 default
 -
@@ -357,7 +355,6 @@ sys
 version
 =
 "
-^
 0
 .
 1
@@ -390,7 +387,7 @@ bindgen
 .
 2
 .
-19
+52
 "
 wasm
 -
@@ -402,7 +399,7 @@ test
 =
 0
 .
-2
+3
 .
-19
+2
 "

@@ -85,7 +85,7 @@ D
 clippy
 :
 :
-pedantic
+perf
 }
 CMD
 =

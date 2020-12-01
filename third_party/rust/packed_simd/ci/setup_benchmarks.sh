@@ -50,15 +50,3 @@ ispc
 TARGET
 }
 ispc
-#
-Rust
--
-bindgen
-requires
-RUSTFMT
-rustup
-component
-add
-rustfmt
--
-preview

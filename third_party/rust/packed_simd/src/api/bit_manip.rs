@@ -266,6 +266,14 @@ _bit_manip
 >
 ]
 {
+#
+!
+[
+allow
+(
+const_item_mutation
+)
+]
 use
 super
 :
