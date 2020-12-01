@@ -20,8 +20,6 @@ mediacontrol
 /
 tests
 /
-browser
-/
 file_multiple_audible_media
 .
 html

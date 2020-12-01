@@ -20,8 +20,6 @@ mediacontrol
 /
 tests
 /
-browser
-/
 file_non_autoplay
 .
 html
@@ -48,8 +46,6 @@ media
 mediacontrol
 /
 tests
-/
-browser
 /
 file_main_frame_with_multiple_child_session_frames
 .
@@ -78,8 +74,6 @@ mediacontrol
 /
 tests
 /
-browser
-/
 file_iframe_media
 .
 html
@@ -106,8 +100,6 @@ media
 mediacontrol
 /
 tests
-/
-browser
 /
 file_iframe_media
 .
@@ -137,8 +129,6 @@ media
 mediacontrol
 /
 tests
-/
-browser
 /
 file_iframe_media
 .

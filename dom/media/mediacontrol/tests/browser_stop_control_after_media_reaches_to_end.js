@@ -20,8 +20,6 @@ mediacontrol
 /
 tests
 /
-browser
-/
 file_non_looping_media
 .
 html

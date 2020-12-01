@@ -20,8 +20,6 @@ mediacontrol
 /
 tests
 /
-browser
-/
 file_main_frame_with_multiple_child_session_frames
 .
 html
@@ -48,8 +46,6 @@ media
 mediacontrol
 /
 tests
-/
-browser
 /
 file_iframe_media
 .

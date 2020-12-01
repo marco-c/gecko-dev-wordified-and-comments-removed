@@ -52,8 +52,6 @@ mediacontrol
 /
 tests
 /
-browser
-/
 file_non_autoplay
 .
 html
