@@ -27238,7 +27238,10 @@ aBuffer
 mozilla
 :
 :
-JSONWriter
+baseprofiler
+:
+:
+SpliceableJSONWriter
 &
 aWriter
 )
@@ -28433,7 +28436,10 @@ StreamJSONMarkerData
 mozilla
 :
 :
-JSONWriter
+baseprofiler
+:
+:
+SpliceableJSONWriter
 &
 aWriter
 const

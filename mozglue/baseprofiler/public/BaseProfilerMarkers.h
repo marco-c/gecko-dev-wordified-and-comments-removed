@@ -586,7 +586,10 @@ static
 void
 StreamJSONMarkerData
 (
-JSONWriter
+baseprofiler
+:
+:
+SpliceableJSONWriter
 &
 aWriter
 const
@@ -607,9 +610,6 @@ aText
 ;
 }
 static
-mozilla
-:
-:
 MarkerSchema
 MarkerTypeDisplay
 (
@@ -618,9 +618,6 @@ MarkerTypeDisplay
 using
 MS
 =
-mozilla
-:
-:
 MarkerSchema
 ;
 MS
@@ -694,9 +691,6 @@ name
 "
 Details
 "
-mozilla
-:
-:
 MarkerSchema
 :
 :

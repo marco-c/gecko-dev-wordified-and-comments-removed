@@ -52,7 +52,7 @@ static
 void
 StreamJSONMarkerData
 (
-JSONWriter
+SpliceableJSONWriter
 &
 aWriter
 const
@@ -174,7 +174,7 @@ static
 void
 StreamJSONMarkerData
 (
-JSONWriter
+SpliceableJSONWriter
 &
 aWriter
 const
@@ -377,7 +377,7 @@ static
 void
 StreamJSONMarkerData
 (
-JSONWriter
+SpliceableJSONWriter
 &
 aWriter
 const
@@ -687,7 +687,7 @@ static
 void
 StreamJSONMarkerData
 (
-JSONWriter
+SpliceableJSONWriter
 &
 aWriter
 )
@@ -763,7 +763,7 @@ static
 void
 StreamJSONMarkerData
 (
-JSONWriter
+SpliceableJSONWriter
 &
 aWriter
 )
@@ -863,7 +863,7 @@ static
 void
 StreamJSONMarkerData
 (
-JSONWriter
+SpliceableJSONWriter
 &
 aWriter
 const
@@ -1015,7 +1015,7 @@ static
 void
 StreamJSONMarkerData
 (
-JSONWriter
+SpliceableJSONWriter
 &
 aWriter
 int64_t

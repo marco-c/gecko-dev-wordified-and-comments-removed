@@ -49,7 +49,10 @@ static
 void
 StreamJSONMarkerData
 (
-JSONWriter
+baseprofiler
+:
+:
+SpliceableJSONWriter
 &
 aWriter
 const
