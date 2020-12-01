@@ -548,6 +548,7 @@ store
 =
 createStore
 (
+this
 )
 ;
 this
