@@ -192,6 +192,17 @@ DirectComposition
 \
 _
 (
+WEBRENDER_SOFTWARE
+Feature
+"
+WebRender
+software
+fallback
+"
+)
+\
+_
+(
 OMTP
 Feature
 "
