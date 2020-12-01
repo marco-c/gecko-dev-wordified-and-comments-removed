@@ -849,6 +849,8 @@ strip_prefix_and_userinfo
 (
 url
 )
+COLLATE
+NOCASE
 BETWEEN
 :
 strippedURL
@@ -874,6 +876,8 @@ strip_prefix_and_userinfo
 (
 url
 )
+COLLATE
+NOCASE
 BETWEEN
 '
 www
@@ -915,6 +919,8 @@ frecency
 )
 AND
 url
+COLLATE
+NOCASE
 BETWEEN
 :
 prefix
@@ -945,6 +951,8 @@ frecency
 )
 AND
 url
+COLLATE
+NOCASE
 BETWEEN
 :
 prefix
@@ -1000,6 +1008,8 @@ strip_prefix_and_userinfo
 (
 url
 )
+COLLATE
+NOCASE
 BETWEEN
 :
 strippedURL
@@ -1028,6 +1038,8 @@ strip_prefix_and_userinfo
 (
 url
 )
+COLLATE
+NOCASE
 BETWEEN
 '
 www
@@ -1072,6 +1084,8 @@ frecency
 20
 AND
 url
+COLLATE
+NOCASE
 BETWEEN
 :
 prefix
@@ -1105,6 +1119,8 @@ frecency
 20
 AND
 url
+COLLATE
+NOCASE
 BETWEEN
 :
 prefix
@@ -1151,6 +1167,8 @@ strip_prefix_and_userinfo
 (
 url
 )
+COLLATE
+NOCASE
 BETWEEN
 :
 strippedURL
@@ -1170,6 +1188,8 @@ strip_prefix_and_userinfo
 (
 url
 )
+COLLATE
+NOCASE
 BETWEEN
 '
 www
@@ -1205,6 +1225,8 @@ AND
 bookmarked
 AND
 url
+COLLATE
+NOCASE
 BETWEEN
 :
 prefix
@@ -1229,6 +1251,8 @@ AND
 bookmarked
 AND
 url
+COLLATE
+NOCASE
 BETWEEN
 :
 prefix
@@ -2751,9 +2775,17 @@ strippedURLIndex
 =
 url
 .
+toLowerCase
+(
+)
+.
 indexOf
 (
 strippedURL
+.
+toLowerCase
+(
+)
 )
 ;
 let
