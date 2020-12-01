@@ -127,7 +127,9 @@ XPCSHELL_TESTS_MANIFESTS
 =
 [
 "
-tests
+test
+/
+xpcshell
 /
 xpcshell
 .
