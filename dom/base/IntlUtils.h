@@ -164,6 +164,11 @@ ErrorResult
 aError
 )
 ;
+bool
+IsAppLocaleRTL
+(
+)
+;
 private
 :
 ~
