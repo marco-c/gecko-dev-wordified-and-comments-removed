@@ -4174,6 +4174,10 @@ code
 byteLength
 (
 )
+.
+get
+(
+)
 )
 )
 {

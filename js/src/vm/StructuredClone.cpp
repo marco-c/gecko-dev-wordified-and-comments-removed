@@ -6228,6 +6228,10 @@ view
 byteLength
 (
 )
+.
+deprecatedGetUint32
+(
+)
 )
 )
 {

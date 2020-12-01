@@ -8940,6 +8940,10 @@ tarray
 byteLength
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 MOZ_ASSERT
 (

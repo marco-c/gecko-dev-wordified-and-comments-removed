@@ -22171,6 +22171,10 @@ TypedArrayObject
 byteLength
 (
 )
+.
+get
+(
+)
 ;
 allocKind
 =

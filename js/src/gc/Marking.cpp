@@ -17688,6 +17688,10 @@ tarray
 byteLength
 (
 )
+.
+get
+(
+)
 ;
 }
 }
