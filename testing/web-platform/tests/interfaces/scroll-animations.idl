@@ -104,8 +104,6 @@ ScrollTimelineOptions
 Element
 ?
 source
-=
-null
 ;
 ScrollDirection
 orientation
