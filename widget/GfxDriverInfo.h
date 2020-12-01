@@ -869,6 +869,8 @@ MesaSWRast
 MesaNouveau
 MesaUnknown
 NonMesaAll
+HardwareMesaAll
+SoftwareMesaAll
 Max
 }
 ;
