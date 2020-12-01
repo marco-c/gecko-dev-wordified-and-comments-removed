@@ -90,6 +90,8 @@ state
 >
 "
 ]
+.
+value
 "
 rejected
 "
@@ -109,6 +111,8 @@ reason
 >
 "
 ]
+.
+value
 .
 actorID
 packet

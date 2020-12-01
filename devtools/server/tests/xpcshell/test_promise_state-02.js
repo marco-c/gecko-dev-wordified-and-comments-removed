@@ -90,6 +90,8 @@ state
 >
 "
 ]
+.
+value
 "
 fulfilled
 "
@@ -109,6 +111,8 @@ value
 >
 "
 ]
+.
+value
 .
 actorID
 packet

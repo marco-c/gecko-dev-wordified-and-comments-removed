@@ -940,6 +940,8 @@ value
 >
 "
 ]
+.
+value
 {
 mode
 :

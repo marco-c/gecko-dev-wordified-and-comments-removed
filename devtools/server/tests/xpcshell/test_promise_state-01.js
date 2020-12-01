@@ -90,6 +90,8 @@ state
 >
 "
 ]
+.
+value
 "
 pending
 "
