@@ -82,6 +82,9 @@ namespace
 wr
 {
 class
+RenderCompositorD3D11SWGL
+;
+class
 RenderCompositor
 {
 public
@@ -321,6 +324,17 @@ WebRenderCompositor
 :
 :
 DRAW
+;
+}
+virtual
+RenderCompositorD3D11SWGL
+*
+AsRenderCompositorD3D11SWGL
+(
+)
+{
+return
+nullptr
 ;
 }
 virtual

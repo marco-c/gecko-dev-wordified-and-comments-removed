@@ -24,6 +24,9 @@ RenderTextureHostSWGL
 :
 UpdatePlanes
 (
+RenderCompositor
+*
+aCompositor
 wr
 :
 :
@@ -149,6 +152,7 @@ if
 !
 MapPlane
 (
+aCompositor
 i
 plane
 )
@@ -523,6 +527,9 @@ aChannelIndex
 void
 *
 aContext
+RenderCompositor
+*
+aCompositor
 wr
 :
 :
@@ -556,6 +563,7 @@ if
 !
 UpdatePlanes
 (
+aCompositor
 aRendering
 )
 )
@@ -765,6 +773,7 @@ if
 !
 UpdatePlanes
 (
+nullptr
 mCachedRendering
 )
 )
