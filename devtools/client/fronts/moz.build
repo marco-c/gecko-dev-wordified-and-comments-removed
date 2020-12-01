@@ -122,6 +122,13 @@ object
 js
 "
 "
+page
+-
+style
+.
+js
+"
+"
 perf
 .
 js
@@ -191,7 +198,9 @@ string
 js
 "
 "
-styles
+style
+-
+rule
 .
 js
 "

@@ -983,7 +983,9 @@ client
 /
 fronts
 /
-styles
+page
+-
+style
 "
 }
 {
@@ -1467,7 +1469,9 @@ client
 /
 fronts
 /
-styles
+style
+-
+rule
 "
 }
 {
