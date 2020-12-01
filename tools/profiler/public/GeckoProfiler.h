@@ -3062,12 +3062,10 @@ info
 bool
 profiler_add_native_allocation_marker
 (
-int
-aMainThreadId
 int64_t
 aSize
 uintptr_t
-aMemorySize
+aMemoryAddress
 )
 ;
 bool
