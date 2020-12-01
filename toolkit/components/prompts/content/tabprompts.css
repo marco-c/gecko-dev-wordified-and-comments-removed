@@ -258,6 +258,12 @@ items
 :
 baseline
 ;
+align
+-
+content
+:
+center
+;
 max
 -
 width
@@ -351,11 +357,11 @@ min
 -
 height
 :
-3em
+0
 ;
-text
+justify
 -
-align
+self
 :
 center
 ;
