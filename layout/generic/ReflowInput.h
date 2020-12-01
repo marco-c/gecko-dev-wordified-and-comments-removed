@@ -684,7 +684,7 @@ mozilla
 :
 :
 WritingMode
-aWM
+aCBWM
 nscoord
 aPercentBasis
 )
@@ -696,7 +696,7 @@ mozilla
 :
 :
 WritingMode
-aWM
+aCBWM
 nscoord
 aPercentBasis
 mozilla
@@ -715,7 +715,7 @@ mozilla
 :
 :
 WritingMode
-aWM
+aCBWM
 nscoord
 aPercentBasis
 mozilla
