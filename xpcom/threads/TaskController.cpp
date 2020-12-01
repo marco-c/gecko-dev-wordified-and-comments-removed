@@ -39,6 +39,13 @@ initializer_list
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EventQueue
@@ -126,6 +133,13 @@ h
 include
 "
 nsThread
+.
+h
+"
+#
+include
+"
+prenv
 .
 h
 "

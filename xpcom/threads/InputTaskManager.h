@@ -11,6 +11,15 @@ TaskController
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPtr
+.
+h
+"
 namespace
 mozilla
 {
