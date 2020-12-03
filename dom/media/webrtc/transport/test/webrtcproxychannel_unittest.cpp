@@ -792,11 +792,11 @@ NS_OK
 ;
 }
 NS_IMETHOD
-GetEchConfigUsed
+GetEsniUsed
 (
 bool
 *
-aEchConfigUsed
+aEsniUsed
 )
 override
 {

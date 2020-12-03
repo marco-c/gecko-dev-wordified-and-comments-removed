@@ -10132,11 +10132,11 @@ NS_IMETHODIMP
 SocketTransportShim
 :
 :
-GetEchConfigUsed
+GetEsniUsed
 (
 bool
 *
-aEchConfigUsed
+aEsniUsed
 )
 {
 if
@@ -10153,7 +10153,7 @@ WARNING
 SocketTransportShim
 :
 :
-GetEchConfigUsed
+GetEsniUsed
 %
 p
 "
