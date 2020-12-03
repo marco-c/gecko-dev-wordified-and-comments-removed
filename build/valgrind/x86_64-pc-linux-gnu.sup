@@ -1117,7 +1117,7 @@ Leak
 .
 fun
 :
-glxtest
+childgltest
 .
 .
 .

@@ -512,6 +512,9 @@ mIsXWayland
 bool
 mHasMultipleGPUs
 ;
+bool
+mGlxTestError
+;
 void
 AddCrashReportAnnotations
 (
