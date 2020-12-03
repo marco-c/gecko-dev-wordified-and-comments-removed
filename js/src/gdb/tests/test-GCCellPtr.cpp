@@ -251,13 +251,11 @@ ObjectGroup
 rootedObjGroup
 (
 cx
-JSObject
-:
-:
-getGroup
-(
-cx
 glob
+-
+>
+group
+(
 )
 )
 ;

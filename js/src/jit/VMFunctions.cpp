@@ -9046,15 +9046,8 @@ runtime
 )
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-!
-obj
--
->
-hasLazyGroup
-(
-)
 obj
 -
 >

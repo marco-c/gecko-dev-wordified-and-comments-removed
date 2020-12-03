@@ -228,17 +228,6 @@ group
 )
 const
 {
-MOZ_ASSERT
-(
-!
-obj_
--
->
-hasLazyGroup
-(
-)
-)
-;
 return
 obj_
 -

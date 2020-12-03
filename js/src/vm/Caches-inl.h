@@ -252,7 +252,7 @@ group
 templateObj
 -
 >
-groupRaw
+group
 (
 )
 ;
