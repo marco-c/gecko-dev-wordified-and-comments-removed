@@ -1116,6 +1116,15 @@ Opcode
 :
 GuardArgumentsObjectNotOverriddenIterator
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+GuardIsExtensible
+:
 object
 =
 ins
