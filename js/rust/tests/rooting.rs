@@ -47,9 +47,9 @@ rust
 :
 :
 {
+define_methods
 Runtime
 SIMPLE_GLOBAL_CLASS
-define_methods
 }
 ;
 use
@@ -206,7 +206,7 @@ cx
 let
 proto
 =
-JS_NewObjectWithUniqueType
+JS_NewObjectWithGivenProto
 (
 cx
 &
