@@ -5372,6 +5372,9 @@ Shape
 ;
 }
 }
+#
+ifdef
+DEBUG
 void
 GCMarker
 :
@@ -5395,6 +5398,8 @@ checkAtomMarking
 check
 ;
 }
+#
+endif
 template
 <
 typename

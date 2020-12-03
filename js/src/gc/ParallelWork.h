@@ -468,13 +468,10 @@ AutoRunParallelWork
 (
 )
 {
-MOZ_ASSERT
-(
 gHelperThreadLock
 .
-ownedByCurrentThread
+assertOwnedByCurrentThread
 (
-)
 )
 ;
 for

@@ -788,13 +788,10 @@ usingInternalDispatchQueue
 )
 )
 ;
-MOZ_ASSERT
-(
 gHelperThreadLock
 .
-ownedByCurrentThread
+assertOwnedByCurrentThread
 (
-)
 )
 ;
 if
