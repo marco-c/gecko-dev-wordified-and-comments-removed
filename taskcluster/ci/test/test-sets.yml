@@ -3208,6 +3208,12 @@ tests
 -
 mochitest
 -
+browser
+-
+chrome
+-
+mochitest
+-
 media
 -
 mochitest
