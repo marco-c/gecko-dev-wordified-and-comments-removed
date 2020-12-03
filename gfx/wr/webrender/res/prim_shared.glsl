@@ -102,6 +102,10 @@ uniform
 sampler2DArray
 sPrevPassColor
 ;
+uniform
+sampler2DArray
+sClipMask
+;
 vec2
 clamp_rect
 (
@@ -1719,7 +1723,7 @@ z
 return
 texelFetch
 (
-sPrevPassAlpha
+sClipMask
 tc
 0
 )

@@ -4388,7 +4388,7 @@ textures
 BatchTextures
 :
 :
-no_texture
+empty
 (
 )
 ;

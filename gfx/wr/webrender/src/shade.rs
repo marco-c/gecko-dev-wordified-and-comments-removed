@@ -1508,6 +1508,15 @@ TextureSampler
 :
 PrimitiveHeadersI
 )
+(
+"
+sClipMask
+"
+TextureSampler
+:
+:
+ClipMask
+)
 ]
 )
 ;
