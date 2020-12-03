@@ -1055,14 +1055,6 @@ mozilla
 CSSPoint
 ;
 using
-CSSIntCoord
-=
-mozilla
-:
-:
-CSSIntCoord
-;
-using
 ComputedStyle
 =
 mozilla
@@ -1187,7 +1179,7 @@ override
 nodiscard
 ]
 ]
-LayoutDeviceIntMargin
+LayoutDeviceMargin
 GetWidgetBorder
 (
 nsDeviceContext
@@ -1212,7 +1204,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceIntMargin
+LayoutDeviceMargin
 *
 aResult
 )
@@ -1249,7 +1241,7 @@ aAppearance
 mozilla
 :
 :
-LayoutDeviceIntSize
+LayoutDeviceSize
 *
 aResult
 bool

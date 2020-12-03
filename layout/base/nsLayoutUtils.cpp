@@ -24311,7 +24311,7 @@ disp
 )
 )
 {
-LayoutDeviceIntSize
+LayoutDeviceSize
 devSize
 ;
 bool

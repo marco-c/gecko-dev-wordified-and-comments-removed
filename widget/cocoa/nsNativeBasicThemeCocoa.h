@@ -65,10 +65,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-mozilla
-:
-:
-LayoutDeviceIntSize
+LayoutDeviceSize
 *
 aResult
 bool

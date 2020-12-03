@@ -8003,7 +8003,7 @@ PresContext
 (
 )
 ;
-LayoutDeviceIntMargin
+LayoutDeviceMargin
 widgetBorder
 =
 pc
@@ -8180,7 +8180,7 @@ PresContext
 (
 )
 ;
-LayoutDeviceIntMargin
+LayoutDeviceMargin
 widgetPadding
 ;
 if
@@ -28568,7 +28568,7 @@ PresContext
 (
 )
 ;
-LayoutDeviceIntMargin
+LayoutDeviceMargin
 border
 =
 presContext
@@ -28620,7 +28620,7 @@ LeftRight
 )
 )
 ;
-LayoutDeviceIntMargin
+LayoutDeviceMargin
 padding
 ;
 if
@@ -30924,7 +30924,7 @@ disp
 )
 )
 {
-LayoutDeviceIntSize
+LayoutDeviceSize
 widget
 ;
 bool

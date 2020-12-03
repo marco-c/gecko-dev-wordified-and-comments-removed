@@ -7165,7 +7165,7 @@ ScrollbarNonDisappearing
 )
 )
 {
-LayoutDeviceIntSize
+LayoutDeviceSize
 size
 ;
 bool
