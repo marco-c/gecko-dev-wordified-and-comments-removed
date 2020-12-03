@@ -1525,7 +1525,7 @@ ArrayObject
 (
 )
 .
-setLengthInt32
+setLength
 (
 count
 )
@@ -2707,7 +2707,7 @@ ArrayObject
 (
 )
 .
-setLengthInt32
+setLength
 (
 start
 +
