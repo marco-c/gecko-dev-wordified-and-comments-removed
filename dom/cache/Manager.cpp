@@ -1367,8 +1367,7 @@ manager
 {
 return
 manager
--
->
+.
 mManagerId
 -
 >
@@ -2070,8 +2069,9 @@ true
 ;
 for
 (
+const
 auto
-*
+&
 manager
 :
 sFactory
@@ -2084,10 +2084,16 @@ ForwardRange
 )
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+manager
+)
+;
 if
 (
 aCondition
 (
+*
 manager
 )
 )
