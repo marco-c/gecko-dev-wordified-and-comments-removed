@@ -17336,6 +17336,10 @@ needsNegativeIntCheck_
 =
 false
 ;
+setNotGuard
+(
+)
+;
 }
 }
 void
