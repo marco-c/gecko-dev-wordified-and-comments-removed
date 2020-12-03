@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 Units
 .
 h
@@ -70,6 +77,7 @@ mozilla
 :
 WidgetQueryContentEvent
 &
+&
 aEvent
 )
 ;
@@ -111,7 +119,7 @@ mozilla
 LayoutDeviceIntRect
 mRect
 ;
-nsTArray
+CopyableTArray
 <
 mozilla
 :
