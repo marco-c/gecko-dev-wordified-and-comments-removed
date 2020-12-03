@@ -2266,9 +2266,6 @@ tenuredCells
 PreviousGC
 previousGC
 ;
-#
-ifndef
-JS_MORE_DETERMINISTIC
 mozilla
 :
 :
@@ -2278,8 +2275,6 @@ lastResizeTime
 double
 smoothedGrowthFactor
 ;
-#
-endif
 double
 calcPromotionRate
 (
