@@ -249,17 +249,6 @@ bailoutInfo
 ;
 MOZ_ASSERT
 (
-!
-cx
--
->
-hasIonReturnOverride
-(
-)
-)
-;
-MOZ_ASSERT
-(
 IsInRange
 (
 FAKE_EXITFP_FOR_BAILOUT

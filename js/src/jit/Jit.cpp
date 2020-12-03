@@ -617,17 +617,6 @@ address
 )
 ;
 }
-MOZ_ASSERT
-(
-!
-cx
--
->
-hasIonReturnOverride
-(
-)
-)
-;
 cx
 -
 >

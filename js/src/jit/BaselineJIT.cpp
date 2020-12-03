@@ -787,17 +787,6 @@ clearRunningInJit
 )
 ;
 }
-MOZ_ASSERT
-(
-!
-cx
--
->
-hasIonReturnOverride
-(
-)
-)
-;
 if
 (
 !
