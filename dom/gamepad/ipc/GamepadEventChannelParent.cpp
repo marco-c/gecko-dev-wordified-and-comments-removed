@@ -242,10 +242,10 @@ RecvVibrateHaptic
 const
 Tainted
 <
-uint32_t
+GamepadHandle
 >
 &
-aControllerIdx
+aHandle
 const
 Tainted
 <
@@ -335,10 +335,10 @@ RecvStopVibrateHaptic
 const
 Tainted
 <
-uint32_t
+GamepadHandle
 >
 &
-aControllerIdx
+aHandle
 )
 {
 return
@@ -362,10 +362,10 @@ RecvLightIndicatorColor
 const
 Tainted
 <
-uint32_t
+GamepadHandle
 >
 &
-aControllerIdx
+aHandle
 const
 Tainted
 <
@@ -405,7 +405,7 @@ aPromiseID
 {
 SetGamepadLightIndicatorColor
 (
-aControllerIdx
+aHandle
 aLightColorIndex
 aRed
 aGreen

@@ -312,8 +312,8 @@ virtual
 void
 ProcessTouchData
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 void
 *
 aInput
@@ -324,8 +324,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -339,8 +339,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool

@@ -197,8 +197,8 @@ aValue
 void
 FetchDpadFromAxis
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 double
 dir
 )
@@ -345,7 +345,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_DPAD_UP
 up
 )
@@ -355,7 +355,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_DPAD_RIGHT
 right
 )
@@ -365,7 +365,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_DPAD_DOWN
 down
 )
@@ -375,7 +375,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_DPAD_LEFT
 left
 )
@@ -461,8 +461,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -540,7 +540,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 aAxis
 aValue
 )
@@ -550,8 +550,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -629,7 +629,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -682,8 +682,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -727,7 +727,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -742,7 +742,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -757,7 +757,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -782,7 +782,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -811,7 +811,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -830,7 +830,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -842,7 +842,7 @@ case
 :
 FetchDpadFromAxis
 (
-aIndex
+aHandle
 aValue
 )
 ;
@@ -887,8 +887,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -1030,7 +1030,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -1046,7 +1046,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -1094,8 +1094,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -1139,7 +1139,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_DPAD_LEFT
 AxisNegativeAsButton
 (
@@ -1152,7 +1152,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_DPAD_RIGHT
 AxisPositiveAsButton
 (
@@ -1170,7 +1170,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_DPAD_UP
 AxisNegativeAsButton
 (
@@ -1183,7 +1183,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_DPAD_DOWN
 AxisPositiveAsButton
 (
@@ -1232,8 +1232,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -1359,7 +1359,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -1375,7 +1375,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -1421,8 +1421,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -1466,7 +1466,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -1481,7 +1481,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -1496,7 +1496,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -1511,7 +1511,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -1536,7 +1536,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -1565,7 +1565,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -1615,8 +1615,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -1692,7 +1692,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -1752,8 +1752,8 @@ BUTTON_INDEX_COUNT
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -1797,7 +1797,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -1812,7 +1812,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -1827,7 +1827,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -1842,7 +1842,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -1887,8 +1887,8 @@ break
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -1998,7 +1998,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 buttonMapping
 [
 aButton
@@ -2238,8 +2238,8 @@ virtual
 void
 ProcessTouchData
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 void
 *
 aInput
@@ -2737,7 +2737,7 @@ service
 >
 NewMultiTouchEvent
 (
-aIndex
+aHandle
 0
 touches
 [
@@ -2767,7 +2767,7 @@ service
 >
 NewMultiTouchEvent
 (
-aIndex
+aHandle
 1
 touches
 [
@@ -2795,8 +2795,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -2840,7 +2840,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -2855,7 +2855,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -2870,7 +2870,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -2895,7 +2895,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -2924,7 +2924,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -2943,7 +2943,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -2955,7 +2955,7 @@ case
 :
 FetchDpadFromAxis
 (
-aIndex
+aHandle
 aValue
 )
 ;
@@ -3000,8 +3000,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -3108,7 +3108,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 buttonMapping
 [
 aButton
@@ -3207,8 +3207,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -3252,7 +3252,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -3267,7 +3267,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -3292,7 +3292,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -3311,7 +3311,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -3326,7 +3326,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -3351,7 +3351,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -3401,8 +3401,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -3552,7 +3552,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -3568,7 +3568,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -3614,8 +3614,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -3659,7 +3659,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -3674,7 +3674,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -3699,7 +3699,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -3718,7 +3718,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -3733,7 +3733,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -3758,7 +3758,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -3774,7 +3774,7 @@ case
 :
 FetchDpadFromAxis
 (
-aIndex
+aHandle
 aValue
 )
 ;
@@ -3819,8 +3819,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -3954,7 +3954,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -3970,7 +3970,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -4016,8 +4016,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -4061,7 +4061,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -4076,7 +4076,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -4091,7 +4091,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -4116,7 +4116,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -4145,7 +4145,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -4164,7 +4164,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -4176,7 +4176,7 @@ case
 :
 FetchDpadFromAxis
 (
-aIndex
+aHandle
 aValue
 )
 ;
@@ -4223,8 +4223,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -4388,7 +4388,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -4404,7 +4404,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -4450,8 +4450,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -4495,7 +4495,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -4510,7 +4510,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -4525,7 +4525,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -4540,7 +4540,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -4552,7 +4552,7 @@ case
 :
 FetchDpadFromAxis
 (
-aIndex
+aHandle
 aValue
 )
 ;
@@ -4576,7 +4576,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -4605,7 +4605,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -4655,8 +4655,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -4814,7 +4814,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -4830,7 +4830,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -4878,8 +4878,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -4923,7 +4923,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -4938,7 +4938,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -4953,7 +4953,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -4968,7 +4968,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -4980,7 +4980,7 @@ case
 :
 FetchDpadFromAxis
 (
-aIndex
+aHandle
 aValue
 )
 ;
@@ -5025,8 +5025,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -5152,7 +5152,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -5168,7 +5168,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -5214,8 +5214,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -5293,7 +5293,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -5303,8 +5303,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -5340,7 +5340,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -5385,8 +5385,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -5464,7 +5464,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -5474,8 +5474,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -5511,7 +5511,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -5567,8 +5567,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -5612,7 +5612,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -5627,7 +5627,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -5642,7 +5642,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -5667,7 +5667,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -5696,7 +5696,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -5715,7 +5715,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -5727,7 +5727,7 @@ case
 :
 FetchDpadFromAxis
 (
-aIndex
+aHandle
 aValue
 )
 ;
@@ -5772,8 +5772,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -5927,7 +5927,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -5943,7 +5943,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -6000,8 +6000,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -6045,7 +6045,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -6060,7 +6060,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -6075,7 +6075,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -6100,7 +6100,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -6129,7 +6129,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -6148,7 +6148,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -6160,7 +6160,7 @@ case
 :
 FetchDpadFromAxis
 (
-aIndex
+aHandle
 aValue
 )
 ;
@@ -6205,8 +6205,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -6360,7 +6360,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -6376,7 +6376,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -6435,8 +6435,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -6480,7 +6480,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -6490,7 +6490,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_DPAD_LEFT
 AxisNegativeAsButton
 (
@@ -6503,7 +6503,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_DPAD_RIGHT
 AxisPositiveAsButton
 (
@@ -6521,7 +6521,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -6531,7 +6531,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_DPAD_UP
 AxisNegativeAsButton
 (
@@ -6544,7 +6544,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_DPAD_DOWN
 AxisPositiveAsButton
 (
@@ -6593,8 +6593,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -6736,7 +6736,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -6752,7 +6752,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -6798,8 +6798,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -6843,7 +6843,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -6858,7 +6858,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -6873,7 +6873,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -6898,7 +6898,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -6927,7 +6927,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -6946,7 +6946,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -6992,8 +6992,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -7031,7 +7031,7 @@ GetButtonCount
 )
 <
 =
-aIndex
+aButton
 )
 {
 NS_WARNING
@@ -7155,7 +7155,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -7171,7 +7171,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -7231,8 +7231,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -7276,7 +7276,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -7291,7 +7291,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -7306,7 +7306,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -7321,7 +7321,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -7367,8 +7367,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -7477,7 +7477,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 buttonMapping
 [
 aButton
@@ -7537,8 +7537,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -7582,7 +7582,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -7597,7 +7597,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -7612,7 +7612,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -7637,7 +7637,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -7666,7 +7666,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -7685,7 +7685,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -7697,7 +7697,7 @@ case
 :
 FetchDpadFromAxis
 (
-aIndex
+aHandle
 aValue
 )
 ;
@@ -7742,8 +7742,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -7901,7 +7901,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -7917,7 +7917,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -7977,8 +7977,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -8022,7 +8022,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -8037,7 +8037,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -8052,7 +8052,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -8077,7 +8077,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -8106,7 +8106,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -8125,7 +8125,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -8137,7 +8137,7 @@ case
 :
 FetchDpadFromAxis
 (
-aIndex
+aHandle
 aValue
 )
 ;
@@ -8182,8 +8182,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -8333,7 +8333,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -8349,7 +8349,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -8397,8 +8397,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -8442,7 +8442,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -8457,7 +8457,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -8472,7 +8472,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -8497,7 +8497,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -8526,7 +8526,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -8545,7 +8545,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -8557,7 +8557,7 @@ case
 :
 FetchDpadFromAxis
 (
-aIndex
+aHandle
 aValue
 )
 ;
@@ -8602,8 +8602,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -8745,7 +8745,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -8761,7 +8761,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -8807,8 +8807,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -8852,7 +8852,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -8867,7 +8867,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -8892,7 +8892,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -8911,7 +8911,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -8926,7 +8926,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -8951,7 +8951,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -8967,7 +8967,7 @@ case
 :
 FetchDpadFromAxis
 (
-aIndex
+aHandle
 aValue
 )
 ;
@@ -9012,8 +9012,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -9155,7 +9155,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -9171,7 +9171,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )
@@ -9217,8 +9217,8 @@ virtual
 void
 RemapAxisMoveEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aAxis
 double
@@ -9262,7 +9262,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_X
 aValue
 )
@@ -9277,7 +9277,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_LEFT_STICK_Y
 aValue
 )
@@ -9302,7 +9302,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_LEFT_TRIGGER
 value
 >
@@ -9321,7 +9321,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_X
 aValue
 )
@@ -9336,7 +9336,7 @@ service
 >
 NewAxisMoveEvent
 (
-aIndex
+aHandle
 AXIS_INDEX_RIGHT_STICK_Y
 aValue
 )
@@ -9361,7 +9361,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 BUTTON_INDEX_RIGHT_TRIGGER
 value
 >
@@ -9411,8 +9411,8 @@ virtual
 void
 RemapButtonEvent
 (
-uint32_t
-aIndex
+GamepadHandle
+aHandle
 uint32_t
 aButton
 bool
@@ -9566,7 +9566,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 find
 -
 >
@@ -9582,7 +9582,7 @@ service
 >
 NewButtonEvent
 (
-aIndex
+aHandle
 aButton
 aPressed
 )

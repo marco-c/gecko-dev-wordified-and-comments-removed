@@ -77,8 +77,8 @@ GamepadLightIndicator
 nsISupports
 *
 aParent
-uint32_t
-aGamepadId
+GamepadHandle
+aGamepadHandle
 uint32_t
 aIndex
 )
@@ -93,9 +93,9 @@ DefaultType
 (
 )
 )
-mGamepadId
+mGamepadHandle
 (
-aGamepadId
+aGamepadHandle
 )
 mIndex
 (
@@ -233,7 +233,7 @@ gamepadManager
 >
 SetLightIndicatorColor
 (
-mGamepadId
+mGamepadHandle
 mIndex
 color
 .
@@ -296,12 +296,12 @@ MOZ_ASSERT
 aOther
 )
 ;
-mGamepadId
+mGamepadHandle
 =
 aOther
 -
 >
-mGamepadId
+mGamepadHandle
 ;
 mType
 =

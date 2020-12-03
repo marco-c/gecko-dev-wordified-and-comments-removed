@@ -359,8 +359,8 @@ userIndex
 XINPUT_STATE
 state
 ;
-int
-id
+GamepadHandle
+gamepadHandle
 ;
 unsigned
 numAxes
@@ -1382,10 +1382,10 @@ SetLightIndicatorColor
 const
 Tainted
 <
-uint32_t
+GamepadHandle
 >
 &
-aControllerIdx
+aGamepadHandle
 const
 Tainted
 <
@@ -1992,7 +1992,7 @@ state
 ;
 gamepad
 .
-id
+gamepadHandle
 =
 service
 -
@@ -2201,7 +2201,7 @@ mGamepads
 i
 ]
 .
-id
+gamepadHandle
 )
 ;
 mGamepads
@@ -2412,7 +2412,7 @@ NewButtonEvent
 (
 gamepad
 .
-id
+gamepadHandle
 kXIButtonMap
 [
 b
@@ -2466,7 +2466,7 @@ NewButtonEvent
 (
 gamepad
 .
-id
+gamepadHandle
 kXIButtonMap
 [
 b
@@ -2516,7 +2516,7 @@ NewButtonEvent
 (
 gamepad
 .
-id
+gamepadHandle
 kButtonLeftTrigger
 pressed
 state
@@ -2569,7 +2569,7 @@ NewButtonEvent
 (
 gamepad
 .
-id
+gamepadHandle
 kButtonRightTrigger
 pressed
 state
@@ -2629,7 +2629,7 @@ NewAxisMoveEvent
 (
 gamepad
 .
-id
+gamepadHandle
 kLeftStickXAxis
 state
 .
@@ -2686,7 +2686,7 @@ NewAxisMoveEvent
 (
 gamepad
 .
-id
+gamepadHandle
 kLeftStickYAxis
 -
 1
@@ -2748,7 +2748,7 @@ NewAxisMoveEvent
 (
 gamepad
 .
-id
+gamepadHandle
 kRightStickXAxis
 state
 .
@@ -2805,7 +2805,7 @@ NewAxisMoveEvent
 (
 gamepad
 .
-id
+gamepadHandle
 kRightStickYAxis
 -
 1
@@ -3811,7 +3811,7 @@ forget
 ;
 gamepad
 .
-id
+gamepadHandle
 =
 service
 -
@@ -3925,7 +3925,7 @@ NewLightIndicatorTypeEvent
 (
 gamepad
 .
-id
+gamepadHandle
 i
 lightTypes
 [
@@ -4406,7 +4406,7 @@ RemapButtonEvent
 gamepad
 -
 >
-id
+gamepadHandle
 i
 buttons
 [
@@ -4689,7 +4689,7 @@ RemapAxisMoveEvent
 gamepad
 -
 >
-id
+gamepadHandle
 i
 new_value
 )
@@ -4732,7 +4732,7 @@ ProcessTouchData
 gamepad
 -
 >
-id
+gamepadHandle
 rawData
 )
 ;
@@ -4749,10 +4749,10 @@ SetLightIndicatorColor
 const
 Tainted
 <
-uint32_t
+GamepadHandle
 >
 &
-aControllerIdx
+aGamepadHandle
 const
 Tainted
 <
@@ -4791,13 +4791,13 @@ gamepad
 (
 MOZ_FIND_AND_VALIDATE
 (
-aControllerIdx
+aGamepadHandle
 list_item
 .
-id
+gamepadHandle
 =
 =
-aControllerIdx
+aGamepadHandle
 mGamepads
 )
 )
@@ -5913,10 +5913,10 @@ SetGamepadLightIndicatorColor
 const
 Tainted
 <
-uint32_t
+GamepadHandle
 >
 &
-aControllerIdx
+aGamepadHandle
 const
 Tainted
 <
@@ -5966,7 +5966,7 @@ gService
 >
 SetLightIndicatorColor
 (
-aControllerIdx
+aGamepadHandle
 aLightColorIndex
 aRed
 aGreen
