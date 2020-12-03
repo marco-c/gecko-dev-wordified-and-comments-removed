@@ -1,3 +1,12 @@
+use
+crate
+:
+:
+error
+:
+:
+Result
+;
 pub
 trait
 Ping
@@ -15,5 +24,11 @@ Option
 str
 >
 )
+-
+>
+Result
+<
+bool
+>
 ;
 }

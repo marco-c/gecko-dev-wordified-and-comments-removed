@@ -746,10 +746,6 @@ metrics
 [
 test
 ]
-#
-[
-ignore
-]
 fn
 sets_datetime_value
 (
@@ -848,10 +844,6 @@ unwrap
 [
 test
 ]
-#
-[
-ignore
-]
 fn
 sets_datetime_value_with_details
 (
@@ -928,10 +920,6 @@ unwrap
 #
 [
 test
-]
-#
-[
-ignore
 ]
 fn
 datetime_ipc

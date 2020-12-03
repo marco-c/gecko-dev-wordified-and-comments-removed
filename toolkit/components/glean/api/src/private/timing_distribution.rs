@@ -1171,10 +1171,6 @@ metrics
 [
 test
 ]
-#
-[
-ignore
-]
 fn
 smoke_test_timing_distribution
 (
@@ -1233,10 +1229,6 @@ store1
 #
 [
 test
-]
-#
-[
-ignore
 ]
 fn
 timing_distribution_child

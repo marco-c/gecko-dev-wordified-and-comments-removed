@@ -816,10 +816,6 @@ metrics
 [
 test
 ]
-#
-[
-ignore
-]
 fn
 smoke_test_timespan
 (
@@ -926,10 +922,6 @@ store1
 #
 [
 test
-]
-#
-[
-ignore
 ]
 fn
 timespan_ipc

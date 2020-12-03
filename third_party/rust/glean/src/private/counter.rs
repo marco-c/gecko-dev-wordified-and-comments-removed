@@ -290,13 +290,6 @@ S
 >
 i32
 {
-dispatcher
-:
-:
-block_on_queue
-(
-)
-;
 crate
 :
 :

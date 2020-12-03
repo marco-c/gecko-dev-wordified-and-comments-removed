@@ -9174,9 +9174,6 @@ glean
 core
 "
 "
-inherent
-"
-"
 log
 "
 "
@@ -11892,7 +11889,7 @@ version
 "
 33
 .
-5
+4
 .
 0
 "
@@ -11922,7 +11919,7 @@ index
 checksum
 =
 "
-b1d5556ec294a763121f57384cf09be9b7f8eebbfc075040f9120b84f6a1160b
+8f52254ae2baf857eec45b424a0d2dfe6ac63f353b594cfa4bee033f8386b25c
 "
 dependencies
 =
@@ -11955,9 +11952,6 @@ serde_json
 "
 thiserror
 "
-"
-uuid
-"
 ]
 [
 [
@@ -11976,7 +11970,7 @@ version
 "
 33
 .
-5
+4
 .
 0
 "
@@ -12006,7 +12000,7 @@ index
 checksum
 =
 "
-657786648aaf8df52b059cb5cedff3be250df149bd8f6364919166e9d02a398d
+82e3c82289c1ce270c1accc086f9cac083c15ddc01d167e9c6e0b8ed32a4b47c
 "
 dependencies
 =
