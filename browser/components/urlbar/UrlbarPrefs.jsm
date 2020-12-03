@@ -229,6 +229,14 @@ false
 ]
 [
 "
+extension
+.
+timeout
+"
+200
+]
+[
+"
 filter
 .
 javascript
