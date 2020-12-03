@@ -4046,6 +4046,12 @@ tag
 )
 :
         
+self
+.
+_ensure_zstd
+(
+)
+        
 from
 taskgraph
 .
