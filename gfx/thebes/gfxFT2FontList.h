@@ -313,6 +313,13 @@ GetMMVar
 )
 override
 ;
+hb_face_t
+*
+CreateHBFace
+(
+)
+const
+;
 void
 AppendToFaceList
 (
@@ -403,6 +410,12 @@ gfx
 UnscaledFontFreeType
 >
 mUnscaledFont
+;
+nsTHashtable
+<
+nsUint32HashKey
+>
+mAvailableTables
 ;
 bool
 mHasVariations
