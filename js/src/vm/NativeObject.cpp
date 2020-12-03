@@ -3589,7 +3589,6 @@ obj
 >
 ensureDenseInitializedLength
 (
-cx
 newInitializedLength
 0
 )
@@ -6588,7 +6587,6 @@ obj
 >
 setDenseElementHole
 (
-cx
 index
 )
 ;
@@ -7161,9 +7159,8 @@ Success
 obj
 -
 >
-setDenseElementWithType
+setDenseElement
 (
-cx
 index
 desc
 .
@@ -7423,7 +7420,6 @@ obj
 >
 removeDenseElementForSparseIndex
 (
-cx
 index
 )
 ;
@@ -13284,9 +13280,8 @@ false
 obj
 -
 >
-setDenseElementWithType
+setDenseElement
 (
-cx
 index
 v
 )
@@ -14128,7 +14123,6 @@ obj
 >
 setDenseElementHole
 (
-cx
 prop
 .
 denseElementIndex

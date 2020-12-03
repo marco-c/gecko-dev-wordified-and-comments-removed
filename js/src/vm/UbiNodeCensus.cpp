@@ -888,7 +888,6 @@ arr
 >
 ensureDenseInitializedLength
 (
-cx
 0
 length
 )
