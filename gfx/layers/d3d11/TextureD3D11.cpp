@@ -5770,11 +5770,6 @@ length
 2
 )
 ;
-bool
-supportsExternalCompositing
-=
-false
-;
 if
 (
 GetFormat
