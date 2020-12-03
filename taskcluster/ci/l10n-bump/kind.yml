@@ -106,17 +106,6 @@ bump
 false
 dontbuild
 :
-by
--
-project
-:
-mozilla
--
-beta
-:
-false
-default
-:
 true
 ignore
 -
