@@ -506,7 +506,7 @@ baseprofiler
 markers
 {
 struct
-Text
+TextMarker
 {
 static
 constexpr
@@ -831,7 +831,7 @@ baseprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 text
@@ -1000,7 +1000,7 @@ mOptions
 markers
 :
 :
-Text
+TextMarker
 {
 }
 mText

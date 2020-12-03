@@ -12246,7 +12246,7 @@ geckoprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 text
