@@ -153,7 +153,7 @@ MOZ_FETCHES_DIR
 /
 MacOSX10
 .
-11
+12
 .
 sdk
 "

@@ -4,7 +4,7 @@
 size
 "
 :
-34094283
+31991917
 "
 visibility
 "
@@ -17,7 +17,7 @@ digest
 "
 :
 "
-8811050fe375bcc566c8b85173d86b8a87aa2148edfed93023735c2de44b66a5a28cbaa1cfd396032447fd803e03f308ed941a200c0e2a1ad9fbe16b5606ee7c
+c5c0be09972b56b5980dc9d06b61ff49cf58c4572913437256a79b202e19e936af3c0ab0924df72b9f648d518c257597f84800a84bb80e68af4eabdaf1df5f24
 "
 "
 algorithm
@@ -38,13 +38,13 @@ filename
 "
 MacOSX10
 .
-11
+12
 .
 sdk
 .
 tar
 .
-xz
+bz2
 "
 }
 ]
