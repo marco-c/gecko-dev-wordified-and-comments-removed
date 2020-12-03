@@ -183,6 +183,10 @@ clang
 linux64
 -
 rust
+-
+1
+.
+47
 macosx64
 -
 fix
@@ -295,6 +299,10 @@ linux64
 rust
 -
 macos
+-
+1
+.
+47
 win32
 -
 fix
@@ -403,3 +411,7 @@ linux64
 rust
 -
 windows
+-
+1
+.
+47
