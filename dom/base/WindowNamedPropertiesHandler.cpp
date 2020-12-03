@@ -1212,7 +1212,7 @@ aCx
 js
 :
 :
-NewSingletonProxyObject
+NewProxyObject
 (
 aCx
 WindowNamedPropertiesHandler

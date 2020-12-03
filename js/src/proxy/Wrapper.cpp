@@ -2001,7 +2001,7 @@ obj
 )
 ;
 return
-NewSingletonProxyObject
+NewProxyObject
 (
 cx
 handler
