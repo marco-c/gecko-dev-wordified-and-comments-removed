@@ -61,12 +61,6 @@ sleep
     
 response
 .
-explicit_flush
-=
-True
-    
-response
-.
 writer
 .
 write
@@ -83,12 +77,4 @@ r
 \
 n
 "
-)
-    
-response
-.
-writer
-.
-flush
-(
 )

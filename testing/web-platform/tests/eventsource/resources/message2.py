@@ -52,12 +52,6 @@ cache
     
 response
 .
-explicit_flush
-=
-True
-    
-response
-.
 write_status_headers
 (
 )
@@ -286,14 +280,6 @@ n
 \
 n
 "
-)
-        
-response
-.
-writer
-.
-flush
-(
 )
         
 time

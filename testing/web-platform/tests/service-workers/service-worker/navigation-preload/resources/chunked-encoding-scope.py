@@ -166,14 +166,6 @@ idx
 )
 )
         
-response
-.
-writer
-.
-flush
-(
-)
-        
 time
 .
 sleep

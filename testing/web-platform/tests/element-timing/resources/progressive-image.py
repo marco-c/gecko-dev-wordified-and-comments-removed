@@ -187,14 +187,6 @@ write_content
 first
 )
     
-response
-.
-writer
-.
-flush
-(
-)
-    
 time
 .
 sleep
