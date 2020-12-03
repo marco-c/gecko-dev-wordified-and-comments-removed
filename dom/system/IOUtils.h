@@ -1057,6 +1057,12 @@ mSize
 uint64_t
 mLastModified
 ;
+Maybe
+<
+uint64_t
+>
+mCreationTime
+;
 }
 ;
 struct
