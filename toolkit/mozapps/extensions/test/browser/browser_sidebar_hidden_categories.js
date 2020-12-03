@@ -885,7 +885,9 @@ win
 .
 managerWindow
 .
-gViewDefault
+gViewController
+.
+defaultViewId
 "
 default
 view
