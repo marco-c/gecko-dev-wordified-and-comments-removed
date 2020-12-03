@@ -7443,6 +7443,8 @@ on
 new
 -
 tab
+-
+2
 "
 "
 newtab
@@ -7464,6 +7466,8 @@ toolbar
 always
 -
 show
+-
+2
 "
 "
 always
@@ -7485,6 +7489,8 @@ toolbar
 never
 -
 show
+-
+2
 "
 "
 never
