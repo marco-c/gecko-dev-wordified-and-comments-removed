@@ -897,10 +897,6 @@ arenas
 (
 this
 )
-types
-(
-this
-)
 data
 (
 this

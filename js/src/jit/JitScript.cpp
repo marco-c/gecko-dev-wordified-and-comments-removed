@@ -787,9 +787,14 @@ zone
 )
 -
 >
-types
-.
+jitZone
+(
+)
+-
+>
 keepJitScripts
+(
+)
 |
 |
 jitScript

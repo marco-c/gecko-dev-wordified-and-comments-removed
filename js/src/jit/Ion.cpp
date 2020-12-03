@@ -3129,8 +3129,11 @@ zone
 )
 -
 >
-types
-.
+jitZone
+(
+)
+-
+>
 currentCompilationId
 (
 )
@@ -3142,8 +3145,11 @@ zone
 )
 -
 >
-types
-.
+jitZone
+(
+)
+-
+>
 currentCompilationId
 (
 )

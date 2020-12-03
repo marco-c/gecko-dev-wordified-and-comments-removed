@@ -84,6 +84,9 @@ js
 namespace
 jit
 {
+class
+JitZone
+;
 struct
 IonBytecodeInfo
 {
@@ -1868,8 +1871,11 @@ class
 MOZ_RAII
 AutoKeepJitScripts
 {
-TypeZone
-&
+jit
+:
+:
+JitZone
+*
 zone_
 ;
 bool
