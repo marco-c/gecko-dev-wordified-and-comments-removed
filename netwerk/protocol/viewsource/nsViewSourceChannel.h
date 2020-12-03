@@ -256,6 +256,11 @@ nsViewSourceChannel
 =
 default
 ;
+void
+ReleaseListeners
+(
+)
+;
 nsTArray
 <
 mozilla
