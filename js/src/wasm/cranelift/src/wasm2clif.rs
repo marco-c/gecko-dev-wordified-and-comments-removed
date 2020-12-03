@@ -116,9 +116,9 @@ MemoryIndex
 ReturnMode
 TableIndex
 TargetEnvironment
+TypeIndex
 WasmError
 WasmResult
-TypeIndex
 }
 ;
 use
