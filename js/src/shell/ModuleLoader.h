@@ -146,7 +146,8 @@ Value
 vp
 )
 ;
-bool
+JSObject
+*
 loadAndExecute
 (
 JSContext
@@ -209,7 +210,8 @@ HandleObject
 promise
 )
 ;
-bool
+JSObject
+*
 tryDynamicImport
 (
 JSContext
