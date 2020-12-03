@@ -2778,13 +2778,6 @@ cx
 nullptr
 0
 TenuredObject
-ObjectGroup
-:
-:
-NewArrayKind
-:
-:
-UnknownIndex
 )
 ;
 if
@@ -13313,13 +13306,6 @@ cx
 rest
 numRest
 GenericObject
-ObjectGroup
-:
-:
-NewArrayKind
-:
-:
-UnknownIndex
 )
 ;
 if

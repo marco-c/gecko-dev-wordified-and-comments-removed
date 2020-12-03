@@ -471,7 +471,7 @@ asNative
 (
 )
 .
-getDenseElementsAllowCopyOnWrite
+getDenseElements
 (
 )
 ;
