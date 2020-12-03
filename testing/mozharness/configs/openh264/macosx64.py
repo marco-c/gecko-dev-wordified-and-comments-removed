@@ -161,18 +161,6 @@ darwin
             
 "
 -
-B
-{
-MOZ_FETCHES_DIR
-}
-/
-cctools
-/
-bin
-"
-            
-"
--
 isysroot
 %
 (
@@ -199,22 +187,6 @@ min
 .
 11
 "
-.
-format
-(
-                
-MOZ_FETCHES_DIR
-=
-os
-.
-environ
-[
-"
-MOZ_FETCHES_DIR
-"
-]
-            
-)
         
 )
         
@@ -236,18 +208,6 @@ darwin
             
 "
 -
-B
-{
-MOZ_FETCHES_DIR
-}
-/
-cctools
-/
-bin
-"
-            
-"
--
 isysroot
 %
 (
@@ -274,22 +234,6 @@ min
 .
 11
 "
-.
-format
-(
-                
-MOZ_FETCHES_DIR
-=
-os
-.
-environ
-[
-"
-MOZ_FETCHES_DIR
-"
-]
-            
-)
         
 )
         
@@ -305,6 +249,15 @@ MOZ_FETCHES_DIR
 }
 /
 clang
+/
+bin
+/
+:
+{
+MOZ_FETCHES_DIR
+}
+/
+cctools
 /
 bin
 /
