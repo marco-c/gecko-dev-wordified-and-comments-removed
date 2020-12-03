@@ -8430,7 +8430,7 @@ Windows7
 DeviceFamily
 :
 :
-IntelSandybridge
+IntelSandyBridge
 nsIGfxInfo
 :
 :
