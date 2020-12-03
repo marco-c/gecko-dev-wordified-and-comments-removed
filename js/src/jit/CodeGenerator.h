@@ -1197,10 +1197,8 @@ const
 ConstantOrRegister
 &
 id
-TypedOrValueRegister
+ValueOperand
 output
-Register
-maybeTemp
 )
 ;
 void
