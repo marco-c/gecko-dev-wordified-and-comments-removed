@@ -3,6 +3,10 @@ protocol
 PBackground
 ;
 include
+protocol
+PBrowser
+;
+include
 "
 mozilla
 /
@@ -46,7 +50,7 @@ namespace
 mozilla
 {
 namespace
-layout
+dom
 {
 async
 protocol
@@ -54,6 +58,8 @@ PVsync
 {
 manager
 PBackground
+or
+PBrowser
 ;
 child
 :
@@ -66,15 +72,10 @@ Notify
 (
 VsyncEvent
 aVsync
-)
-compress
-;
-async
-VsyncRate
-(
 float
 aVsyncRate
 )
+compress
 ;
 parent
 :
@@ -85,11 +86,6 @@ Observe
 ;
 async
 Unobserve
-(
-)
-;
-async
-RequestVsyncRate
 (
 )
 ;
