@@ -1140,8 +1140,7 @@ backward
 -
 compat
 {
-added
-in
+version
 XX
 }
 Detailed
@@ -1179,8 +1178,7 @@ backward
 -
 compat
 {
-added
-in
+version
 85
 }
 For
