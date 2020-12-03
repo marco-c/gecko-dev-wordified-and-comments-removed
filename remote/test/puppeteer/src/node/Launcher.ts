@@ -2954,6 +2954,13 @@ dummy
 /
 discoveryURL
 '
+fission
+.
+autostart
+'
+:
+false
+'
 focusmanager
 .
 testmode
