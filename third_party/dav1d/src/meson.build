@@ -303,6 +303,11 @@ log
 c
 '
 '
+mem
+.
+c
+'
+'
 msac
 .
 c
@@ -913,6 +918,15 @@ libdav1d_sources_asm
 =
 files
 (
+'
+arm
+/
+32
+/
+cdef16
+.
+S
+'
 '
 arm
 /

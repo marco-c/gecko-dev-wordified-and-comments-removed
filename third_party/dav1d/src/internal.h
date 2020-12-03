@@ -270,6 +270,9 @@ n_tile_data
 int
 n_tiles
 ;
+Dav1dMemPool
+seq_hdr_pool
+;
 Dav1dRef
 *
 seq_hdr_ref
@@ -277,6 +280,9 @@ seq_hdr_ref
 Dav1dSequenceHeader
 *
 seq_hdr
+;
+Dav1dMemPool
+frame_hdr_pool
 ;
 Dav1dRef
 *
@@ -333,6 +339,12 @@ flush
 }
 frame_thread
 ;
+Dav1dMemPool
+segmap_pool
+;
+Dav1dMemPool
+refmvs_pool
+;
 struct
 {
 Dav1dThreadPicture
@@ -357,6 +369,9 @@ refs
 [
 8
 ]
+;
+Dav1dMemPool
+cdf_pool
 ;
 CdfThreadContext
 cdf
@@ -439,6 +454,12 @@ drain
 ;
 Dav1dLogger
 logger
+;
+Dav1dMemPool
+picture_pool
+;
+int
+mem_pools_inited
 ;
 }
 ;

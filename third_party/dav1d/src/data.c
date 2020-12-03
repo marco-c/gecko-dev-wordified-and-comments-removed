@@ -100,6 +100,17 @@ NULL
 NULL
 )
 ;
+if
+(
+sz
+>
+SIZE_MAX
+/
+2
+)
+return
+NULL
+;
 buf
 -
 >

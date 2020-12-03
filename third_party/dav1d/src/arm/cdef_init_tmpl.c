@@ -16,15 +16,6 @@ cdef
 .
 h
 "
-#
-if
-BITDEPTH
-=
-=
-8
-|
-|
-ARCH_AARCH64
 decl_cdef_dir_fn
 (
 BF
@@ -330,8 +321,6 @@ DEFINE_FILTER
 4
 8
 )
-#
-endif
 COLD
 void
 bitfn
@@ -364,15 +353,6 @@ DAV1D_ARM_CPU_FLAG_NEON
 )
 return
 ;
-#
-if
-BITDEPTH
-=
-=
-8
-|
-|
-ARCH_AARCH64
 c
 -
 >
@@ -414,6 +394,4 @@ fb
 =
 cdef_filter_4x4_neon
 ;
-#
-endif
 }

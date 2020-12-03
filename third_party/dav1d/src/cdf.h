@@ -1186,6 +1186,9 @@ qidx
 int
 dav1d_cdf_thread_alloc
 (
+Dav1dContext
+*
+c
 CdfThreadContext
 *
 cdf

@@ -4,11 +4,11 @@ DAV1D_VERSION
 "
 0
 .
-7
+8
 .
-1
+0
 -
-81
+0
 -
-g0243c3f
+g2ca1bfc
 "
