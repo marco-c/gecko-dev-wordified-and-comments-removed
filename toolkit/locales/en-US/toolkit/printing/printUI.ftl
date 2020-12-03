@@ -629,6 +629,17 @@ label
 =
 Print
 Preview
+printui
+-
+pages
+-
+per
+-
+sheet
+=
+Pages
+per
+sheet
 #
 #
 Paper
