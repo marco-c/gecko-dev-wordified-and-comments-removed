@@ -5683,7 +5683,7 @@ proto
 )
 {
 return
-CloneFunctionObjectIfNotSingleton
+CloneFunctionObject
 (
 cx
 fun
@@ -26137,7 +26137,7 @@ else
 {
 clone
 =
-CloneFunctionObjectIfNotSingleton
+CloneFunctionObject
 (
 cx
 fun
@@ -26209,7 +26209,7 @@ JSFunction
 *
 clone
 =
-CloneFunctionObjectIfNotSingleton
+CloneFunctionObject
 (
 cx
 fun

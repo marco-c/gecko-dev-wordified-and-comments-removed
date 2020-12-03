@@ -1298,17 +1298,6 @@ HAS_INFERRED_NAME
 ;
 }
 void
-clearInferredName
-(
-)
-{
-clearFlags
-(
-HAS_INFERRED_NAME
-)
-;
-}
-void
 setGuessedAtom
 (
 )
