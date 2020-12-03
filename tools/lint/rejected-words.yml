@@ -2452,7 +2452,7 @@ test
 /
 unit_ipc
 /
-test_esni_dns_fetch_wrap
+test_dns_by_type_resolve_wrap
 .
 js
 -
@@ -2522,7 +2522,7 @@ test
 /
 unit
 /
-test_esni_dns_fetch
+test_dns_by_type_resolve
 .
 js
 -
