@@ -10492,7 +10492,7 @@ AllocKind
 :
 :
 FUNCTION_EXTENDED
-SingletonObject
+TenuredObject
 FunctionFlags
 :
 :
@@ -10559,7 +10559,7 @@ AllocKind
 :
 :
 FUNCTION_EXTENDED
-SingletonObject
+TenuredObject
 FunctionFlags
 :
 :

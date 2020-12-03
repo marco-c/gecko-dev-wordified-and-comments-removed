@@ -2334,7 +2334,7 @@ AllocKind
 :
 :
 FUNCTION
-SingletonObject
+TenuredObject
 )
 ;
 }

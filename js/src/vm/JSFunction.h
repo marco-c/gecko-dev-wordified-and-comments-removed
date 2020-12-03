@@ -3505,7 +3505,7 @@ FUNCTION
 NewObjectKind
 newKind
 =
-SingletonObject
+TenuredObject
 FunctionFlags
 flags
 =
@@ -3565,7 +3565,7 @@ FUNCTION
 NewObjectKind
 newKind
 =
-SingletonObject
+TenuredObject
 FunctionFlags
 flags
 =

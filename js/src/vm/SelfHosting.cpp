@@ -19256,7 +19256,7 @@ asTenured
 getAllocKind
 (
 )
-SingletonObject
+TenuredObject
 )
 ;
 }

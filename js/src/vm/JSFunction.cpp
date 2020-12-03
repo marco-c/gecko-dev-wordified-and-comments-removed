@@ -3986,7 +3986,7 @@ AllocKind
 :
 :
 FUNCTION
-SingletonObject
+TenuredObject
 )
 )
 ;
@@ -4117,7 +4117,7 @@ AllocKind
 :
 :
 FUNCTION
-SingletonObject
+TenuredObject
 )
 ;
 }
@@ -11232,7 +11232,7 @@ NewFunctionClone
 (
 cx
 fun
-SingletonObject
+TenuredObject
 allocKind
 proto
 )
@@ -11627,7 +11627,7 @@ NewFunctionClone
 (
 cx
 fun
-SingletonObject
+TenuredObject
 gc
 :
 :
