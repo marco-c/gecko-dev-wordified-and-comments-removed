@@ -2159,6 +2159,11 @@ ignoreExisting
 aOptions
 .
 mIgnoreExisting
+permissions
+=
+aOptions
+.
+mPermissions
 ]
 (
 )
@@ -2169,7 +2174,7 @@ MakeDirectorySync
 file
 createAncestors
 ignoreExisting
-0777
+permissions
 )
 ;
 }
