@@ -6976,10 +6976,7 @@ SingletonObject
 TenuredObject
 ;
 return
-ObjectGroup
-:
-:
-newPlainObject
+NewPlainObjectWithProperties
 (
 cx
 properties
@@ -8208,10 +8205,7 @@ obj
 .
 set
 (
-ObjectGroup
-:
-:
-newPlainObject
+NewPlainObjectWithProperties
 (
 cx
 properties

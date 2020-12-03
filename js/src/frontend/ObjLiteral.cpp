@@ -533,10 +533,7 @@ specificGroup
 )
 {
 return
-ObjectGroup
-:
-:
-newPlainObject
+NewPlainObjectWithProperties
 (
 cx
 properties
