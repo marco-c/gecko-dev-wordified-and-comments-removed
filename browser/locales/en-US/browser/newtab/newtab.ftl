@@ -1566,9 +1566,12 @@ section
 -
 header
 -
-highlights
+recent
+-
+activity
 =
-Highlights
+Recent
+activity
 #
 Variables
 :

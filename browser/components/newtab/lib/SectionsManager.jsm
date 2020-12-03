@@ -508,7 +508,9 @@ home
 -
 prefs
 -
-highlights
+recent
+-
+activity
 -
 header
 "
@@ -682,7 +684,9 @@ section
 -
 header
 -
-highlights
+recent
+-
+activity
 "
 }
 compactCards
