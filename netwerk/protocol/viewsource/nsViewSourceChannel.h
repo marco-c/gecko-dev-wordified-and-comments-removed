@@ -197,10 +197,6 @@ mIsSrcdocChannel
 (
 false
 )
-mReplaceRequest
-(
-true
-)
 {
 }
 [
@@ -374,9 +370,6 @@ mOpened
 ;
 bool
 mIsSrcdocChannel
-;
-bool
-mReplaceRequest
 ;
 }
 ;
