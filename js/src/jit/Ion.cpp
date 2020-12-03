@@ -2364,8 +2364,11 @@ task
 ;
 }
 {
-AutoEnterAnalysis
-enterTypes
+gc
+:
+:
+AutoSuppressGC
+suppressGC
 (
 cx
 )
@@ -9861,8 +9864,11 @@ succeeded
 false
 ;
 {
-AutoEnterAnalysis
-enter
+gc
+:
+:
+AutoSuppressGC
+suppressGC
 (
 cx
 )

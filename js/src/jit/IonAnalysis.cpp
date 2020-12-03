@@ -20887,8 +20887,11 @@ cx
 scriptArg
 )
 ;
-AutoEnterAnalysis
-enter
+gc
+:
+:
+AutoSuppressGC
+suppressGC
 (
 cx
 )

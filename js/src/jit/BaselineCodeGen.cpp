@@ -1257,8 +1257,11 @@ Method_Error
 ;
 }
 }
-AutoEnterAnalysis
-autoEnterAnalysis
+gc
+:
+:
+AutoSuppressGC
+suppressGC
 (
 cx
 )
