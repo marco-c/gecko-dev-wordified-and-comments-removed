@@ -570,10 +570,6 @@ extern
 C
 "
 {
-#
-[
-no_mangle
-]
 static
 gWinEventLogSourceName
 :
