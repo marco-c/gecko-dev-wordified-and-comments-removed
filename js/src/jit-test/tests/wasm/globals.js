@@ -2792,8 +2792,8 @@ assertEq
 (
 s
 "
-valueOf
 type
+valueOf
 value
 "
 )
