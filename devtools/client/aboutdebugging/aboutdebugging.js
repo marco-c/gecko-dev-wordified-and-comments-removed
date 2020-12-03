@@ -746,13 +746,6 @@ onAdbProcessReady
 (
 )
 ;
-await
-adbAddon
-.
-uninstallUnsupportedExtensions
-(
-)
-;
 }
 onAdbAddonUpdated
 (
