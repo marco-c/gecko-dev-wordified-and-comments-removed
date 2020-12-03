@@ -1102,6 +1102,12 @@ isEvalFrame
 const
 ;
 bool
+isModuleFrame
+(
+)
+const
+;
+bool
 isFunctionFrame
 (
 )
