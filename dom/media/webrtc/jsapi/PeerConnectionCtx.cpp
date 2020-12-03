@@ -1836,11 +1836,8 @@ mGMPService
 nullptr
 ;
 mTransportHandler
--
->
-Destroy
-(
-)
+=
+nullptr
 ;
 return
 NS_OK
