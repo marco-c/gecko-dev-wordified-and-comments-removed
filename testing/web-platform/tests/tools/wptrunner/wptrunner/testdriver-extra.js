@@ -260,7 +260,7 @@ cmd_id
 ;
 pending
 .
-clear
+delete
 (
 cmd_id
 )
