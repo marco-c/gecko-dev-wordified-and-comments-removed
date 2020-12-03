@@ -10608,7 +10608,7 @@ RootedPlainObject
 objectProto
 (
 cx
-NewSingletonObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 <
 PlainObject
 >

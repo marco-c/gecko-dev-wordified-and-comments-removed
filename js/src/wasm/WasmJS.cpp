@@ -24243,7 +24243,7 @@ nullptr
 ;
 }
 return
-NewSingletonObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 (
 cx
 &

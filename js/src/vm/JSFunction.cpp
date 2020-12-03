@@ -2042,7 +2042,7 @@ RootedPlainObject
 proto
 (
 cx
-NewSingletonObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 <
 PlainObject
 >

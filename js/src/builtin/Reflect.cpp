@@ -1113,7 +1113,7 @@ nullptr
 ;
 }
 return
-NewSingletonObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 <
 PlainObject
 >

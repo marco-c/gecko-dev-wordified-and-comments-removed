@@ -208,7 +208,7 @@ key
 )
 {
 return
-NewSingletonObjectWithFunctionPrototype
+NewTenuredObjectWithFunctionPrototype
 (
 cx
 cx
