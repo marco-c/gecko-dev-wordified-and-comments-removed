@@ -6790,7 +6790,7 @@ LogicalSize
 aTentativeComputedSize
 )
 {
-MOZ_ASSERT
+NS_WARNING_ASSERTION
 (
 aAutoBSize
 !
@@ -6808,7 +6808,7 @@ size
 "
 )
 ;
-MOZ_ASSERT
+NS_WARNING_ASSERTION
 (
 !
 mFrame
@@ -6828,7 +6828,6 @@ shouldn
 '
 t
 have
-the
 unconstrained
 block
 size
