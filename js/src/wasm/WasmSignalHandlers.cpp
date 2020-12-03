@@ -2946,7 +2946,7 @@ macos_aarch64_context
 arm_thread_state64_t
 thread
 ;
-arm_neon_state_t
+arm_neon_state64_t
 float_
 ;
 }
