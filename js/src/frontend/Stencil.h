@@ -1652,11 +1652,6 @@ starExportEntries
 FunctionDeclarationVector
 functionDecls
 ;
-bool
-isAsync
-=
-false
-;
 StencilModuleMetadata
 (
 )

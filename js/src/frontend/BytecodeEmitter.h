@@ -895,11 +895,6 @@ EmitterScope
 target
 )
 ;
-template
-<
-typename
-T
->
 mozilla
 :
 :
@@ -907,7 +902,7 @@ Maybe
 <
 NameLocation
 >
-locationOfNameBoundInScopeType
+locationOfNameBoundInFunctionScope
 (
 const
 ParserAtom
@@ -934,10 +929,7 @@ name
 )
 {
 return
-locationOfNameBoundInScopeType
-<
-FunctionScope
->
+locationOfNameBoundInFunctionScope
 (
 name
 innermostEmitterScope

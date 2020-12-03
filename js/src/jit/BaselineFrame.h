@@ -1793,12 +1793,6 @@ calleeToken
 (
 )
 )
-&
-&
-!
-isModuleFrame
-(
-)
 ;
 }
 bool
