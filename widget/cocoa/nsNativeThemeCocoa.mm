@@ -16558,7 +16558,7 @@ true
 ;
 }
 }
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 nsNativeThemeCocoa
 :
 :
@@ -16609,7 +16609,7 @@ wm
 )
 ;
 return
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 (
 m
 .
@@ -16670,7 +16670,7 @@ kAquaSearchfieldBorderBigSur
 26
 )
 ;
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 nsNativeThemeCocoa
 :
 :
@@ -16686,7 +16686,7 @@ StyleAppearance
 aAppearance
 )
 {
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 result
 ;
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
@@ -17121,7 +17121,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 *
 aResult
 )
@@ -17477,7 +17477,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceSize
+LayoutDeviceIntSize
 *
 aResult
 bool

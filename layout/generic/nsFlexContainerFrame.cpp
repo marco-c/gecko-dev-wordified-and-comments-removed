@@ -1077,11 +1077,11 @@ mWM
 )
 ;
 }
-LayoutDeviceCoord
+int32_t
 MainComponent
 (
 const
-LayoutDeviceSize
+LayoutDeviceIntSize
 &
 aIntSize
 )
@@ -1131,11 +1131,11 @@ mWM
 )
 ;
 }
-LayoutDeviceCoord
+int32_t
 CrossComponent
 (
 const
-LayoutDeviceSize
+LayoutDeviceIntSize
 &
 aIntSize
 )
@@ -5107,7 +5107,7 @@ disp
 )
 )
 {
-LayoutDeviceSize
+LayoutDeviceIntSize
 widgetMinSize
 ;
 bool

@@ -40005,7 +40005,7 @@ layout_animation_prerender_viewport_ratio_limit
 (
 )
 ;
-int32_t
+uint32_t
 absoluteLimitX
 =
 StaticPrefs
@@ -40015,7 +40015,7 @@ layout_animation_prerender_absolute_limit_x
 (
 )
 ;
-int32_t
+uint32_t
 absoluteLimitY
 =
 StaticPrefs

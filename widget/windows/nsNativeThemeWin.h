@@ -150,7 +150,7 @@ override
 nodiscard
 ]
 ]
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 GetWidgetBorder
 (
 nsDeviceContext
@@ -175,7 +175,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 *
 aResult
 )
@@ -210,7 +210,10 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceSize
+mozilla
+:
+:
+LayoutDeviceIntSize
 *
 aResult
 bool
@@ -422,7 +425,7 @@ aClipRect
 nodiscard
 ]
 ]
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 ClassicGetWidgetBorder
 (
 nsDeviceContext
@@ -446,7 +449,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 *
 aResult
 )
@@ -459,7 +462,10 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceSize
+mozilla
+:
+:
+LayoutDeviceIntSize
 *
 aResult
 bool
@@ -590,7 +596,7 @@ aClipRect
 nodiscard
 ]
 ]
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 GetCachedWidgetBorder
 (
 HANDLE
@@ -626,7 +632,7 @@ aSizeReq
 mozilla
 :
 :
-LayoutDeviceSize
+LayoutDeviceIntSize
 *
 aResult
 )
@@ -660,7 +666,7 @@ THEME_PART_DISTINCT_VALUE_COUNT
 8
 ]
 ;
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 mBorderCache
 [
 eUXNumClasses
@@ -682,7 +688,10 @@ THEME_PART_DISTINCT_VALUE_COUNT
 8
 ]
 ;
-LayoutDeviceSize
+mozilla
+:
+:
+LayoutDeviceIntSize
 mMinimumWidgetSizeCache
 [
 eUXNumClasses

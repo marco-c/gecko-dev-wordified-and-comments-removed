@@ -156,7 +156,7 @@ override
 nodiscard
 ]
 ]
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 GetWidgetBorder
 (
 nsDeviceContext
@@ -181,7 +181,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 *
 aResult
 )
@@ -219,7 +219,7 @@ aAppearance
 mozilla
 :
 :
-LayoutDeviceSize
+LayoutDeviceIntSize
 *
 aResult
 bool
@@ -471,7 +471,7 @@ StyleAppearance
 aAppearance
 GtkTextDirection
 aDirection
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 *
 aResult
 )
@@ -488,7 +488,7 @@ MOZ_GTK_WIDGET_NODE_COUNT
 8
 ]
 ;
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 mBorderCache
 [
 MOZ_GTK_WIDGET_NODE_COUNT

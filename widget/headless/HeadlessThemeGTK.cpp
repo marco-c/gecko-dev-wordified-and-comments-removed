@@ -68,7 +68,7 @@ return
 NS_OK
 ;
 }
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 HeadlessThemeGTK
 :
 :
@@ -84,7 +84,7 @@ StyleAppearance
 aAppearance
 )
 {
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 result
 ;
 switch
@@ -516,7 +516,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 *
 aResult
 )
@@ -726,7 +726,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceSize
+LayoutDeviceIntSize
 *
 aResult
 bool

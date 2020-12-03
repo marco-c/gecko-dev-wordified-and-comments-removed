@@ -156,7 +156,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceSize
+LayoutDeviceIntSize
 *
 aResult
 bool
