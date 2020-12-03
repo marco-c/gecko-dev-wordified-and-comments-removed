@@ -819,16 +819,6 @@ ShaderFeatureFlags
 DITHERING
 )
 ;
-flags
-.
-remove
-(
-ShaderFeatureFlags
-:
-:
-PIXEL_LOCAL_STORAGE
-)
-;
 for
 (
 shader_name

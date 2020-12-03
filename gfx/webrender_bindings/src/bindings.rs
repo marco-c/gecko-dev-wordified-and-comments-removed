@@ -6098,7 +6098,6 @@ resource_override_path
 use_optimized_shaders
 upload_method
 cached_programs
-false
 true
 true
 None
@@ -7956,9 +7955,6 @@ precache_flags
 namespace_alloc_by_client
 :
 true
-allow_pixel_local_storage_support
-:
-false
 clear_caches_with_quads
 :
 !
@@ -18916,9 +18912,6 @@ opts
 RendererOptions
 {
 precache_flags
-allow_pixel_local_storage_support
-:
-false
 .
 .
 Default
