@@ -1054,6 +1054,7 @@ enable
 lto
 "
 c_compiler
+select_linker
 "
 MOZ_AUTOMATION
 "
@@ -1083,6 +1084,7 @@ lto
 (
 value
 c_compiler
+select_linker
 automation
 ld64_known_good
 target
@@ -1712,13 +1714,13 @@ multiplier
 "
 )
 elif
-target
+select_linker
 .
-os
+KIND
 !
 =
 "
-OSX
+ld64
 "
 and
 c_compiler
