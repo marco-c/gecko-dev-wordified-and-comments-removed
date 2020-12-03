@@ -1182,6 +1182,16 @@ aBuffers
 )
 )
 ;
+MOZ_ASSERT
+(
+mSegment
+<
+=
+aTarget
+.
+mSegment
+)
+;
 char
 *
 data
