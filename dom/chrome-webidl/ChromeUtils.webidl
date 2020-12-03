@@ -3002,14 +3002,6 @@ getPopupControlState
 (
 )
 ;
-[
-ChromeOnly
-]
-boolean
-isPopupTokenUnused
-(
-)
-;
 /
 *
 *
