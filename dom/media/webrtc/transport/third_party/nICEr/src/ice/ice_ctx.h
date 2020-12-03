@@ -549,7 +549,7 @@ UINT4
 flags
 )
 ;
-int
+void
 nr_ice_ctx_destroy
 (
 nr_ice_ctx
