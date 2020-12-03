@@ -2133,6 +2133,17 @@ self
 .
 state_dir
         
+env
+[
+"
+XGILL_NO_SOURCE
+"
+]
+=
+"
+1
+"
+        
 self
 .
 setup_env_for_tools
