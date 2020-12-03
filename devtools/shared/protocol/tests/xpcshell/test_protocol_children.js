@@ -334,6 +334,9 @@ number
 }
 response
 :
+{
+intArray
+:
 RetVal
 (
 "
@@ -342,6 +345,7 @@ array
 number
 "
 )
+}
 }
 getSibling
 :

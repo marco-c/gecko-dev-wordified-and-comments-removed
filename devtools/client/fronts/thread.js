@@ -620,17 +620,13 @@ sources
 ;
 try
 {
-(
-{
 sources
-}
 =
 await
 super
 .
 sources
 (
-)
 )
 ;
 }

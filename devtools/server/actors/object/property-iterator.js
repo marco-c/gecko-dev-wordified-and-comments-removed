@@ -414,11 +414,7 @@ idx
 ;
 }
 return
-{
-names
-:
 indexes
-}
 ;
 }
 slice

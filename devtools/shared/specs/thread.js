@@ -395,6 +395,9 @@ sources
 {
 response
 :
+{
+sources
+:
 RetVal
 (
 "
@@ -403,6 +406,7 @@ array
 json
 "
 )
+}
 }
 skipBreakpoints
 :

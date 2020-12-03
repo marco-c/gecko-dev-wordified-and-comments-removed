@@ -6172,9 +6172,6 @@ addAllSources
 )
 ;
 return
-{
-sources
-:
 this
 .
 sourcesManager
@@ -6194,7 +6191,6 @@ form
 (
 )
 )
-}
 ;
 }
 disableAllBreakpoints

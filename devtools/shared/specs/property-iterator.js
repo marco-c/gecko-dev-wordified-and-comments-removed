@@ -76,6 +76,9 @@ number
 }
 response
 :
+{
+names
+:
 RetVal
 (
 "
@@ -84,6 +87,7 @@ array
 string
 "
 )
+}
 }
 slice
 :
