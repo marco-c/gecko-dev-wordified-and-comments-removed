@@ -3644,10 +3644,11 @@ aCleanupWork
 {
 }
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 mCleanupWork
 -
