@@ -608,7 +608,7 @@ PeerConnectionImpl
 PeerConnectionCtx
 :
 :
-mGetPeerConnections
+GetPeerConnections
 (
 )
 {
