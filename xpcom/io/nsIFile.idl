@@ -361,6 +361,16 @@ attribute
 PRTime
 lastModifiedTimeOfLink
 ;
+readonly
+attribute
+PRTime
+creationTime
+;
+readonly
+attribute
+PRTime
+creationTimeOfLink
+;
 attribute
 int64_t
 fileSize

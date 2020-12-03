@@ -309,6 +309,16 @@ bool
 aFollowLinks
 )
 ;
+nsresult
+GetCreationTimeImpl
+(
+PRTime
+*
+aCreationTime
+bool
+aFollowLinks
+)
+;
 }
 ;
 #
