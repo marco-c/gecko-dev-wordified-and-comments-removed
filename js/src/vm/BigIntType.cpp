@@ -12081,6 +12081,17 @@ if
 bitsShift
 )
 {
+result
+-
+>
+setDigit
+(
+resultLength
+-
+1
+0
+)
+;
 for
 (
 int
