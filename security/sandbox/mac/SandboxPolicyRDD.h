@@ -1480,6 +1480,14 @@ iokit
 -
 property
 "
+IOAVDHEVCDecodeCapabilities
+"
+)
+(
+iokit
+-
+property
+"
 IOGVAHEVCEncode
 "
 )
