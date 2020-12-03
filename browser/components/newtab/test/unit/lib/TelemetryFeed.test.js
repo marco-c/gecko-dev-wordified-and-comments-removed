@@ -6324,7 +6324,7 @@ ping
 "
 client_id
 "
-FAKE_TELEMETRY_ID
+FAKE_UUID
 )
 ;
 assert

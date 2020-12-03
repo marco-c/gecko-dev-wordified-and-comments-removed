@@ -2804,7 +2804,6 @@ moments
 }
 ;
 }
-async
 applySnippetsPolicy
 (
 ping
@@ -2814,10 +2813,9 @@ ping
 .
 client_id
 =
-await
 this
 .
-telemetryClientId
+_impressionId
 ;
 delete
 ping

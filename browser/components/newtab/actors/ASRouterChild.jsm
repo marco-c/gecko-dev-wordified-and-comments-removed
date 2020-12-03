@@ -467,7 +467,10 @@ telemetry
 .
 sendTelemetry
 (
+{
+type
 data
+}
 )
 ;
 }
