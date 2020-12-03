@@ -11,6 +11,15 @@ byte
 )
 :
     
+byte
+=
+bytes
+(
+[
+byte
+]
+)
+    
 if
 b
 "
