@@ -356,7 +356,7 @@ eSetValue_MoveCursorToEndIfValueChanged
 <
 <
 4
-eSetValue_PreserveHistory
+eSetValue_ForXUL
 =
 1
 <
