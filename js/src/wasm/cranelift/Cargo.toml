@@ -185,17 +185,6 @@ smallvec
 .
 0
 "
-wasmparser
-=
-{
-version
-=
-"
-0
-.
-67
-"
-}
 [
 build
 -
