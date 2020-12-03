@@ -24,17 +24,6 @@ inl
 .
 h
 "
-#
-include
-"
-vm
-/
-TypeInference
--
-inl
-.
-h
-"
 namespace
 js
 {

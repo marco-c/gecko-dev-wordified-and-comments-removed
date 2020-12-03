@@ -158,15 +158,6 @@ JSScript
 .
 h
 "
-#
-include
-"
-vm
-/
-TypeInference
-.
-h
-"
 namespace
 js
 {
