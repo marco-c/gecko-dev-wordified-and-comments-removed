@@ -75,7 +75,7 @@ MOZ_STACK_CLASS
 ModuleSharedContext
 :
 public
-SharedContext
+SuspendableContext
 {
 public
 :
