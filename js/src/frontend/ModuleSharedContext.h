@@ -58,6 +58,15 @@ Scope
 .
 h
 "
+#
+include
+"
+vm
+/
+StencilEnums
+.
+h
+"
 namespace
 js
 {

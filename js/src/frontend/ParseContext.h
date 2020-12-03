@@ -45,6 +45,15 @@ include
 "
 frontend
 /
+ModuleSharedContext
+.
+h
+"
+#
+include
+"
+frontend
+/
 NameAnalysisTypes
 .
 h
@@ -1836,7 +1845,7 @@ return
 sc_
 -
 >
-isFunctionBox
+isSuspendableContext
 (
 )
 &
@@ -1844,7 +1853,7 @@ isFunctionBox
 sc_
 -
 >
-asFunctionBox
+asSuspendableContext
 (
 )
 -

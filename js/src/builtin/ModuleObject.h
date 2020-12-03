@@ -1171,6 +1171,7 @@ ImportBindingsSlot
 FunctionDeclarationsSlot
 DFSIndexSlot
 DFSAncestorIndexSlot
+AsyncSlot
 SlotCount
 }
 ;
@@ -1400,6 +1401,12 @@ status
 const
 ;
 bool
+isAsync
+(
+)
+const
+;
+bool
 hadEvaluationError
 (
 )
@@ -1576,6 +1583,16 @@ FunctionDeclarationVector
 &
 &
 decls
+)
+;
+void
+initAsyncSlots
+(
+JSContext
+*
+cx
+bool
+isAsync
 )
 ;
 private
