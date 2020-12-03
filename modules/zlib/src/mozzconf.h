@@ -5,6 +5,12 @@ MOZZCONF_H
 define
 MOZZCONF_H
 #
+if
+defined
+(
+ZLIB_IN_MOZGLUE
+)
+#
 include
 "
 mozilla
@@ -13,12 +19,6 @@ Types
 .
 h
 "
-#
-if
-defined
-(
-ZLIB_IN_MOZGLUE
-)
 #
 define
 ZEXTERN

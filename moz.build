@@ -1367,14 +1367,6 @@ py
 :
 source_repo_header
 "
-DIRS
-+
-=
-[
-"
-mfbt
-"
-]
 if
 CONFIG
 [

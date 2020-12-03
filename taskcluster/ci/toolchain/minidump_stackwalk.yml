@@ -126,10 +126,6 @@ zlib
 '
 -
 '
-mfbt
-'
--
-'
 moz
 .
 configure
