@@ -340,6 +340,12 @@ nsACString
 aOrigin
 )
 ;
+static
+void
+AbortAll
+(
+)
+;
 void
 RemoveListener
 (

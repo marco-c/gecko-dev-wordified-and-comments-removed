@@ -506,6 +506,14 @@ aContentParentId
 ;
 virtual
 void
+AbortAllOperations
+(
+)
+=
+0
+;
+virtual
+void
 StartIdleMaintenance
 (
 )

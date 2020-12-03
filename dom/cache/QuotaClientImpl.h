@@ -199,6 +199,13 @@ override
 ;
 virtual
 void
+AbortAllOperations
+(
+)
+override
+;
+virtual
+void
 StartIdleMaintenance
 (
 )

@@ -33664,11 +33664,8 @@ mClients
 client
 -
 >
-AbortOperations
+AbortAllOperations
 (
-VoidCString
-(
-)
 )
 ;
 }
