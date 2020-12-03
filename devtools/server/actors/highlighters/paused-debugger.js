@@ -835,11 +835,7 @@ id
 }
 show
 (
-node
-options
-=
-{
-}
+reason
 )
 {
 if
@@ -852,8 +848,6 @@ isXUL
 |
 |
 !
-options
-.
 reason
 )
 {
@@ -861,9 +855,6 @@ return
 false
 ;
 }
-let
-reason
-;
 try
 {
 reason
@@ -875,8 +866,6 @@ getStr
 whyPaused
 .
 {
-options
-.
 reason
 }
 )

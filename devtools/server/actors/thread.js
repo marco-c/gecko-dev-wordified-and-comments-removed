@@ -2264,10 +2264,7 @@ pauseOverlay
 .
 show
 (
-null
-{
 reason
-}
 )
 ;
 }
