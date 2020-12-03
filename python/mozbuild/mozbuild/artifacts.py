@@ -2540,14 +2540,6 @@ not
 None
 :
             
-self
-.
-_mozbuild
-.
-_ensure_zstd
-(
-)
-            
 import
 zstandard
             
