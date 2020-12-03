@@ -90,6 +90,7 @@ ELiveAttrRule
 eNoLiveAttr
 eOffLiveAttr
 ePoliteLiveAttr
+eAssertiveLiveAttr
 }
 ;
 const

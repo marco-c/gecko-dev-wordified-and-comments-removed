@@ -301,6 +301,15 @@ liveAttRule
 =
 =
 ePoliteLiveAttr
+|
+|
+roleMap
+-
+>
+liveAttRule
+=
+=
+eAssertiveLiveAttr
 )
 {
 doc

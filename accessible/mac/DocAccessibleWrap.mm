@@ -336,6 +336,15 @@ liveAttRule
 =
 =
 ePoliteLiveAttr
+|
+|
+roleMap
+-
+>
+liveAttRule
+=
+=
+eAssertiveLiveAttr
 )
 {
 FireDelayedEvent
