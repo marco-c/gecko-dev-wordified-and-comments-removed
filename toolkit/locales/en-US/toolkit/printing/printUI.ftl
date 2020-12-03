@@ -586,6 +586,13 @@ button
 Cancel
 printui
 -
+close
+-
+button
+=
+Close
+printui
+-
 loading
 =
 Preparing
