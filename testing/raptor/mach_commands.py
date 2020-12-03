@@ -1914,32 +1914,49 @@ True
 return
 1
         
-debug_command
+argv
 =
-"
--
--
-debug
--
-command
-"
+[
+]
         
-if
-debug_command
+in_mach
+=
+True
+        
+for
+arg
 in
 sys
 .
 argv
 :
             
-sys
-.
+if
+not
+in_mach
+:
+                
 argv
 .
-remove
+append
 (
-debug_command
+arg
 )
+            
+if
+arg
+.
+startswith
+(
+"
+raptor
+"
+)
+:
+                
+in_mach
+=
+False
         
 raptor
 =
@@ -1987,13 +2004,7 @@ raptor
 .
 run_test
 (
-sys
-.
 argv
-[
-2
-:
-]
 kwargs
 )
         
