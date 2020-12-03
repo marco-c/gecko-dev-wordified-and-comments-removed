@@ -42,7 +42,7 @@ IdleTaskRunner
 final
 :
 public
-IdleRunnable
+CancelableIdleRunnable
 {
 public
 :

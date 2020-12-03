@@ -123,7 +123,7 @@ MayStopProcessingCallbackType
 aMayStopProcessing
 )
 :
-IdleRunnable
+CancelableIdleRunnable
 (
 aRunnableName
 )

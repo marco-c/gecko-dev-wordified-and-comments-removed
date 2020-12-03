@@ -103,6 +103,11 @@ nsICancelableRunnable
 h
 "
 "
+nsIDiscardableRunnable
+.
+h
+"
+"
 nsIIdleRunnable
 .
 h
