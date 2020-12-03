@@ -165,6 +165,10 @@ clang
 linux64
 -
 rust
+-
+1
+.
+47
 macosx64
 -
 dump
@@ -266,6 +270,10 @@ linux64
 rust
 -
 macos
+-
+1
+.
+47
 -
 linux64
 -
@@ -378,3 +386,7 @@ toolchain
 win64
 -
 rust
+-
+1
+.
+47
