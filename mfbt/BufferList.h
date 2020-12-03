@@ -1201,9 +1201,6 @@ aTarget
 .
 mSegment
 ;
-segment
-+
-+
 )
 {
 offset
@@ -1228,6 +1225,8 @@ aBuffers
 .
 mSegments
 [
++
++
 segment
 ]
 .
