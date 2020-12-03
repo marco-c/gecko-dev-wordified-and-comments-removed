@@ -11,12 +11,8 @@ description
 "
 :
 "
-Bing
-.
-Search
-by
 Microsoft
-.
+Bing
 "
 "
 manifest_version
@@ -30,7 +26,7 @@ version
 "
 1
 .
-2
+3
 "
 "
 applications
