@@ -934,6 +934,10 @@ sheet
 "
 )
 ;
+mNumPages
+=
+numPagesOnThisSheet
+;
 aReflowOutput
 .
 ISize

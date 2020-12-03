@@ -289,6 +289,12 @@ GetRawNumPages
 )
 const
 ;
+bool
+GetIsEmpty
+(
+)
+const
+;
 int32_t
 GetPrintPreviewNumSheets
 (
