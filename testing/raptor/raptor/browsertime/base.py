@@ -1379,6 +1379,16 @@ none
 "
 -
 -
+webdriverPageload
+"
+            
+"
+true
+"
+            
+"
+-
+-
 firefox
 .
 disableBrowsertimeExtension
@@ -1625,6 +1635,18 @@ windowRecorder
                         
 "
 false
+"
+                        
+"
+-
+-
+xvfbParams
+.
+display
+"
+                        
+"
+0
 "
                     
 ]
