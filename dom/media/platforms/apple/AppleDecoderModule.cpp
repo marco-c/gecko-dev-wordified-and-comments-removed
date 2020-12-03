@@ -750,9 +750,6 @@ nullptr
 nullptr
 )
 ;
-nsAutoCString
-reason
-;
 MediaResult
 rv
 =
@@ -761,17 +758,6 @@ decoder
 >
 InitializeSession
 (
-)
-;
-bool
-isHardwareAccelerated
-=
-decoder
--
->
-IsHardwareAccelerated
-(
-reason
 )
 ;
 decoder
@@ -786,9 +772,6 @@ NS_SUCCEEDED
 (
 rv
 )
-&
-&
-isHardwareAccelerated
 ;
 }
 return
