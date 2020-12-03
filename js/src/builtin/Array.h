@@ -370,13 +370,6 @@ NewObjectKind
 newKind
 =
 GenericObject
-ShouldUpdateTypes
-updateTypes
-=
-ShouldUpdateTypes
-:
-:
-Update
 )
 ;
 extern
