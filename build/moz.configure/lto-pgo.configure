@@ -1666,8 +1666,8 @@ os
 "
 WINNT
 "
-and
-(
+:
+if
 automation
 or
 c_compiler
@@ -1682,7 +1682,6 @@ version
 .
 0
 "
-)
 :
 ldflags
 .
