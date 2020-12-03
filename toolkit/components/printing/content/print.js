@@ -2553,6 +2553,13 @@ customMarginBottom
 =
 marginBottom
 ;
+delete
+this
+.
+_userChangedSettings
+.
+customMargins
+;
 }
 if
 (
@@ -2642,6 +2649,13 @@ changedSettings
 customMarginRight
 =
 marginRight
+;
+delete
+this
+.
+_userChangedSettings
+.
+customMargins
 ;
 }
 }
