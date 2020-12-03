@@ -88,17 +88,6 @@ thisFirefoxClient
 .
 client
 .
-getFrontByID
-=
-id
-=
->
-null
-;
-thisFirefoxClient
-.
-client
-.
 mainRoot
 =
 {

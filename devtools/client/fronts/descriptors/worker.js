@@ -146,11 +146,6 @@ id
 json
 .
 id
-|
-|
-this
-.
-actorID
 ;
 this
 .
