@@ -76,17 +76,6 @@ idl_array
 add_objects
 (
 {
-NDEFWriter
-:
-[
-'
-new
-NDEFWriter
-(
-)
-;
-'
-]
 NDEFReader
 :
 [
