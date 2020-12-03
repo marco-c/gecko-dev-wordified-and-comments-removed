@@ -677,11 +677,11 @@ use
 crate
 :
 :
-texture_allocator
+guillotine_allocator
 :
 :
 {
-ArrayAllocationTracker
+GuillotineAllocator
 FreeRectSlice
 }
 ;
@@ -18935,7 +18935,7 @@ or_insert_with
 |
 |
 (
-ArrayAllocationTracker
+GuillotineAllocator
 :
 :
 new

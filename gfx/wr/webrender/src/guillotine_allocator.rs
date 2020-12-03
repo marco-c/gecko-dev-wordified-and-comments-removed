@@ -276,7 +276,7 @@ Deserialize
 ]
 pub
 struct
-ArrayAllocationTracker
+GuillotineAllocator
 {
 bins
 :
@@ -290,7 +290,7 @@ NUM_BINS
 ]
 }
 impl
-ArrayAllocationTracker
+GuillotineAllocator
 {
 pub
 fn
@@ -311,7 +311,7 @@ let
 mut
 allocator
 =
-ArrayAllocationTracker
+GuillotineAllocator
 {
 bins
 :
@@ -1134,7 +1134,7 @@ let
 mut
 allocator
 =
-ArrayAllocationTracker
+GuillotineAllocator
 :
 :
 new
