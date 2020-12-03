@@ -324,8 +324,12 @@ dom
 :
 ContentParent
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 RefPtr
 <
 StorageAccessPermissionGrantPromise
