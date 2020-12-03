@@ -18,6 +18,11 @@ true
 }
 )
 ;
+gczeal
+(
+0
+)
+;
 function
 getScriptSourceExtent
 (
