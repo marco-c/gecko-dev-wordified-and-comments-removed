@@ -441,3 +441,17 @@ private_fields
 true
 )
 ;
+user_pref
+(
+"
+javascript
+.
+options
+.
+experimental
+.
+top_level_await
+"
+true
+)
+;
