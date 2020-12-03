@@ -330,8 +330,6 @@ uint32_t
 length
 HandleObjectGroup
 group
-bool
-convertDoubleElements
 )
 ;
 extern

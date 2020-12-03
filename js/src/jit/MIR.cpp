@@ -26880,10 +26880,6 @@ initialHeap_
 (
 initialHeap
 )
-convertDoubleElements_
-(
-false
-)
 pc_
 (
 pc
