@@ -1134,6 +1134,15 @@ Opcode
 :
 GuardIndexGreaterThanDenseInitLength
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+GuardIndexIsValidUpdateOrAdd
+:
 object
 =
 ins
