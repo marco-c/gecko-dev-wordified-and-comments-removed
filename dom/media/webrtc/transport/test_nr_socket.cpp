@@ -1199,7 +1199,10 @@ to
 )
 {
 return
-0
+nat_
+-
+>
+error_code_for_drop_
 ;
 }
 UCHAR
@@ -1238,7 +1241,10 @@ len
 )
 {
 return
-0
+nat_
+-
+>
+error_code_for_drop_
 ;
 }
 if
@@ -1335,7 +1341,10 @@ block_udp_
 )
 {
 return
-0
+nat_
+-
+>
+error_code_for_drop_
 ;
 }
 PortMapping

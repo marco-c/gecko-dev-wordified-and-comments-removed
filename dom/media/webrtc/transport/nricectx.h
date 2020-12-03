@@ -671,6 +671,11 @@ mBlockUdp
 =
 false
 ;
+int
+mErrorCodeForDrop
+=
+0
+;
 nsCString
 mMappingType
 =
