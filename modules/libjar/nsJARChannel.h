@@ -139,6 +139,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h
@@ -363,7 +372,10 @@ struct
 bool
 isCanceled
 ;
+Atomic
+<
 uint32_t
+>
 suspendCount
 ;
 }
