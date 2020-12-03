@@ -111,15 +111,6 @@ aPrincipal
 )
 ;
 static
-bool
-TryUsePopupOpeningToken
-(
-nsIPrincipal
-*
-aPrincipal
-)
-;
-static
 PopupBlocker
 :
 :
