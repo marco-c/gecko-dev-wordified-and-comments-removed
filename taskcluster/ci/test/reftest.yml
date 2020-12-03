@@ -65,11 +65,6 @@ suite
 category
 :
 reftest
-force
--
-py2
-:
-true
 target
 :
 by

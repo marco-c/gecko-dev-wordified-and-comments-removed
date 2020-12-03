@@ -60,11 +60,6 @@ job
 -
 defaults
 :
-force
--
-py2
-:
-true
 test
 -
 manifest

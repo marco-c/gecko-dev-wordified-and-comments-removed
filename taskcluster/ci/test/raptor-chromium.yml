@@ -96,11 +96,6 @@ default
 suite
 :
 raptor
-force
--
-py2
-:
-true
 run
 -
 on
