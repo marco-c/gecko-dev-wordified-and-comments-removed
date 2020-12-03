@@ -354,6 +354,17 @@ include
 "
 vm
 /
+JSScript
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 ObjectOperations
 -
 inl

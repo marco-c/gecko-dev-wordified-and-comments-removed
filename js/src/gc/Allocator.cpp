@@ -114,6 +114,15 @@ h
 #
 include
 "
+vm
+/
+TraceLogging
+.
+h
+"
+#
+include
+"
 gc
 /
 ArenaList
