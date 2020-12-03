@@ -338,9 +338,9 @@ Cache
 origin
 :
 DeviceIntPoint
-region_index
+alloc_id
 :
-usize
+AllocId
 }
 }
 impl
@@ -4116,7 +4116,7 @@ EntryDetails
 Cache
 {
 origin
-region_index
+alloc_id
 .
 .
 }
@@ -4208,8 +4208,7 @@ allocator
 .
 deallocate
 (
-origin
-region_index
+alloc_id
 )
 ;
 self
@@ -4317,7 +4316,7 @@ shader
 let
 (
 texture_id
-region_index
+alloc_id
 allocated_rect
 )
 =
@@ -4458,9 +4457,7 @@ origin
 allocated_rect
 .
 origin
-region_index
-:
-region_index
+alloc_id
 }
 uv_rect_handle
 :
@@ -5375,7 +5372,7 @@ CacheTextureId
 >
 (
 CacheTextureId
-usize
+AllocId
 DeviceIntRect
 )
 {
@@ -5399,7 +5396,7 @@ let
 Some
 (
 (
-region
+alloc_id
 rect
 )
 )
@@ -5421,7 +5418,7 @@ Some
 unit
 .
 texture_id
-region
+alloc_id
 rect
 )
 )
@@ -5507,7 +5504,7 @@ texture_id
 ;
 let
 (
-region_index
+alloc_id
 rect
 )
 =
@@ -5531,7 +5528,7 @@ unwrap
 ;
 (
 texture_id
-region_index
+alloc_id
 rect
 )
 }
