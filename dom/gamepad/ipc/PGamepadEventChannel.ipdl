@@ -97,6 +97,7 @@ aDuration
 uint32_t
 aPromiseID
 )
+tainted
 ;
 async
 StopVibrateHaptic
@@ -104,6 +105,7 @@ StopVibrateHaptic
 uint32_t
 aControllerIdx
 )
+tainted
 ;
 async
 LightIndicatorColor
@@ -121,6 +123,7 @@ aBlue
 uint32_t
 aPromiseID
 )
+tainted
 ;
 child
 :
