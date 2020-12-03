@@ -304,7 +304,8 @@ aModule
 )
 ;
 static
-nsresult
+JSObject
+*
 ModuleEvaluate
 (
 JSContext
