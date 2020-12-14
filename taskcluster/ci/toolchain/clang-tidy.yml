@@ -661,8 +661,6 @@ symbol
 :
 TL
 (
-linux66
--
 clang
 -
 tidy
