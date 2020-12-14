@@ -17896,17 +17896,6 @@ Size
 )
 )
 ;
-if
-(
-!
-ret
-)
-{
-errno
-=
-ENOMEM
-;
-}
 }
 else
 {
@@ -17950,6 +17939,7 @@ false
 )
 ;
 }
+}
 if
 (
 !
@@ -17960,7 +17950,6 @@ errno
 =
 ENOMEM
 ;
-}
 }
 return
 ret
