@@ -9655,6 +9655,14 @@ copyFunctionFields
 script
 )
 ;
+funbox
+-
+>
+copyScriptFields
+(
+script
+)
+;
 return
 true
 ;

@@ -2119,14 +2119,6 @@ functionStencil
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-isAsmJSModule
-(
-)
-)
-;
 SharedContext
 :
 :
