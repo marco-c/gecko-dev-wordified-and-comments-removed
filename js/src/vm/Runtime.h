@@ -1525,7 +1525,13 @@ JS
 :
 PersistentRooted
 <
-void
+JS
+:
+:
+detail
+:
+:
+RootListEntry
 *
 >
 >
