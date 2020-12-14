@@ -44,17 +44,6 @@ mozilla
 /
 glean
 /
-Event
-.
-h
-"
-#
-include
-"
-mozilla
-/
-glean
-/
 Timespan
 .
 h

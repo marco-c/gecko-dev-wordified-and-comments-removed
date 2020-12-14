@@ -9044,6 +9044,11 @@ crossbeam
 channel
 "
 "
+ffi
+-
+support
+"
+"
 glean
 "
 "
@@ -9068,11 +9073,6 @@ serde
 "
 "
 tempfile
-"
-"
-thin
--
-vec
 "
 "
 thiserror
