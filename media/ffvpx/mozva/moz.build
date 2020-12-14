@@ -5,7 +5,7 @@ SOURCES
 '
 mozva
 .
-cpp
+c
 '
 ]
 LOCAL_INCLUDES
