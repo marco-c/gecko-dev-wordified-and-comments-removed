@@ -716,6 +716,11 @@ ListFormat
 readonly
 attribute
 jsval
+Locale
+;
+readonly
+attribute
+jsval
 NumberFormat
 ;
 readonly
