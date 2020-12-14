@@ -11,6 +11,17 @@ mozilla
 /
 glean
 /
+Boolean
+.
+h
+"
+#
+include
+"
+mozilla
+/
+glean
+/
 Counter
 .
 h
