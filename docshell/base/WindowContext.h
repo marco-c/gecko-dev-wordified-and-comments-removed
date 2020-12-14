@@ -611,6 +611,12 @@ TopWindowContext
 )
 ;
 bool
+SameOriginWithTop
+(
+)
+const
+;
+bool
 IsTop
 (
 )
