@@ -74,6 +74,15 @@ patches
 :
 [
 "
+unpoison
+-
+thread
+-
+stacks_clang_10
+.
+patch
+"
+"
 bug47258
 -
 extract
