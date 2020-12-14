@@ -4003,6 +4003,17 @@ return
 this
 .
 signedState
+=
+=
+AddonManager
+.
+SIGNEDSTATE_PRIVILEGED
+|
+|
+(
+this
+.
+signedState
 >
 =
 AddonManager
@@ -4015,6 +4026,7 @@ this
 recommendationStates
 .
 length
+)
 )
 ;
 }
