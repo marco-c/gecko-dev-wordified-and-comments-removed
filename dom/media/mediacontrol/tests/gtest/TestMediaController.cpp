@@ -475,7 +475,7 @@ GetActiveControllersNum
 )
 =
 =
-0
+1
 )
 ;
 fakeMedia

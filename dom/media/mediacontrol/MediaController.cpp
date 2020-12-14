@@ -1690,7 +1690,7 @@ IsAnyMediaBeingControlled
 &
 &
 (
-IsAudible
+IsPlaying
 (
 )
 |
