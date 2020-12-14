@@ -509,9 +509,9 @@ UrlbarPrefs
 get
 (
 "
-update2
+suggest
 .
-tabToComplete
+engines
 "
 )
 )
