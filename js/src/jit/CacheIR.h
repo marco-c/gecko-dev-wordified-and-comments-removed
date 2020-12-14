@@ -8368,13 +8368,6 @@ tryAttachStub
 (
 )
 ;
-AttachDecision
-tryAttachDeferredStub
-(
-HandleValue
-result
-)
-;
 }
 ;
 class
