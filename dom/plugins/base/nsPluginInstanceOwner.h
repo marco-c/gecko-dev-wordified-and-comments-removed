@@ -370,6 +370,7 @@ aResult
 )
 ;
 NS_DECL_NSIDOMEVENTLISTENER
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 ProcessMouseDown
 (

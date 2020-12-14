@@ -11029,8 +11029,10 @@ if
 owner
 )
 {
+RefPtr
+<
 nsFocusManager
-*
+>
 fm
 =
 nsFocusManager
