@@ -2890,7 +2890,10 @@ MACOSX_DEPLOYMENT_TARGET
 "
 ]
 =
+str
+(
 sysconfig_target
+)
             
 old_env_variables
 =
