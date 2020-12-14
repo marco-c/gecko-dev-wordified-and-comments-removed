@@ -2117,6 +2117,7 @@ x
 y
 z
 |
+{
 *
 table
 .
@@ -2142,6 +2143,7 @@ xy_len
 as
 isize
 )
+}
 ;
 while
 i
@@ -3164,6 +3166,7 @@ x
 y
 z
 |
+{
 *
 table
 .
@@ -3189,6 +3192,7 @@ xy_len
 as
 isize
 )
+}
 ;
 let
 mut
@@ -5953,6 +5957,7 @@ default
 )
 )
 )
+;
 }
 fn
 qcms_modular_transform_release
