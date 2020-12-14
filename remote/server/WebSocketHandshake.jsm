@@ -382,6 +382,10 @@ upgrade
 |
 |
 upgrade
+.
+toLowerCase
+(
+)
 !
 =
 =
@@ -394,7 +398,6 @@ throw
 new
 Error
 (
-"
 The
 handshake
 request
@@ -402,7 +405,10 @@ has
 incorrect
 Upgrade
 header
-"
+:
+{
+upgrade
+}
 )
 ;
 }
