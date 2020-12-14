@@ -1797,9 +1797,6 @@ BadCertAndPinningServer
 DelegatedCredentialsServer
 *
 \
-EncryptedClientHelloServer
-*
-\
 OCSPStaplingServer
 *
 \

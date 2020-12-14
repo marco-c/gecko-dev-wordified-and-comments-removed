@@ -429,9 +429,6 @@ nsCString
 mSignatureSchemeName
 ;
 bool
-mIsAcceptedEch
-;
-bool
 mIsDelegatedCredential
 ;
 bool
