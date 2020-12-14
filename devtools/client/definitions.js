@@ -1879,17 +1879,6 @@ target
 )
 {
 return
-(
-target
-.
-getTrait
-(
-"
-heapSnapshots
-"
-)
-&
-&
 !
 target
 .
@@ -1900,7 +1889,6 @@ isAddon
 target
 .
 isWorkerTarget
-)
 ;
 }
 build

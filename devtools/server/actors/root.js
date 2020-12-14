@@ -316,9 +316,6 @@ DevToolsServer
 allowChromeProcess
 ;
 }
-heapSnapshots
-:
-true
 perfActorVersion
 :
 1
