@@ -4648,7 +4648,7 @@ jsonFileName
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 storePath
 JSON
