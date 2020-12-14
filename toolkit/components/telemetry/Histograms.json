@@ -62771,6 +62771,7 @@ bug_numbers
 [
 893505
 1521427
+1553982
 ]
 "
 releaseChannelCollection
@@ -62814,6 +62815,9 @@ manual
 "
 "
 unsupported
+"
+"
+otherinstance
 "
 ]
 }
@@ -62889,6 +62893,7 @@ bug_numbers
 893505
 1365204
 1521427
+1553982
 ]
 "
 releaseChannelCollection
@@ -62932,6 +62937,9 @@ manual
 "
 "
 unsupported
+"
+"
+otherinstance
 "
 ]
 }
@@ -63006,6 +63014,7 @@ bug_numbers
 [
 893505
 1521427
+1553982
 ]
 "
 releaseChannelCollection
@@ -63052,6 +63061,9 @@ manual
 "
 "
 unsupported
+"
+"
+otherinstance
 "
 ]
 }
@@ -63126,6 +63138,7 @@ bug_numbers
 [
 893505
 1521427
+1553982
 ]
 "
 releaseChannelCollection
@@ -63173,6 +63186,9 @@ manual
 "
 "
 unsupported
+"
+"
+otherinstance
 "
 ]
 }
@@ -63247,6 +63263,7 @@ bug_numbers
 [
 893505
 1521427
+1553982
 ]
 "
 releaseChannelCollection
@@ -63294,6 +63311,9 @@ manual
 "
 "
 unsupported
+"
+"
+otherinstance
 "
 ]
 }
