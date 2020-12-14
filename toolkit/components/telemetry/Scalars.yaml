@@ -7947,7 +7947,7 @@ menu
 expires
 :
 "
-87
+92
 "
 kind
 :
@@ -7959,11 +7959,6 @@ notification_emails
 :
 -
 mconley
-mozilla
-.
-com
--
-astevenson
 mozilla
 .
 com
@@ -8033,7 +8028,7 @@ etc
 expires
 :
 "
-87
+92
 "
 kind
 :
@@ -8045,11 +8040,6 @@ notification_emails
 :
 -
 mconley
-mozilla
-.
-com
--
-astevenson
 mozilla
 .
 com
@@ -8106,7 +8096,7 @@ pointer
 expires
 :
 "
-87
+92
 "
 kind
 :
@@ -8115,11 +8105,6 @@ notification_emails
 :
 -
 mconley
-mozilla
-.
-com
--
-astevenson
 mozilla
 .
 com
