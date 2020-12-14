@@ -507,6 +507,12 @@ KeymapWrapper
 aKeymapWrapper
 )
 ;
+gulong
+mOnKeysChangedSignalHandle
+;
+gulong
+mOnDirectionChangedSignalHandle
+;
 static
 uint32_t
 GetCharCodeFor
