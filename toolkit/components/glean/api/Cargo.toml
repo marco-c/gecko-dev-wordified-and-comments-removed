@@ -59,15 +59,6 @@ chrono
 .
 10
 "
-ffi
--
-support
-=
-"
-0
-.
-4
-"
 glean
 =
 "
