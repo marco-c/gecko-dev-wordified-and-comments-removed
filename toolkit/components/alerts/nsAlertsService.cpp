@@ -1091,9 +1091,6 @@ const
 nsAString
 &
 aAlertName
-nsIPrincipal
-*
-aPrincipal
 )
 {
 if
@@ -1123,13 +1120,6 @@ nsAutoString
 (
 aAlertName
 )
-IPC
-:
-:
-Principal
-(
-aPrincipal
-)
 )
 ;
 return
@@ -1154,7 +1144,6 @@ mBackend
 CloseAlert
 (
 aAlertName
-aPrincipal
 )
 ;
 if
@@ -1204,7 +1193,6 @@ xulBackend
 CloseAlert
 (
 aAlertName
-aPrincipal
 )
 ;
 }

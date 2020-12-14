@@ -8897,9 +8897,6 @@ alertService
 CloseAlert
 (
 alertName
-GetPrincipal
-(
-)
 )
 ;
 }

@@ -1367,12 +1367,6 @@ optional
 in
 AString
 aName
-[
-optional
-]
-in
-nsIPrincipal
-aPrincipal
 )
 ;
 }

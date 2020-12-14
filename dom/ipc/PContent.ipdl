@@ -3663,8 +3663,6 @@ CloseAlert
 (
 nsString
 name
-Principal
-principal
 )
 ;
 async
