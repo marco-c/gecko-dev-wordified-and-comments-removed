@@ -14,7 +14,7 @@ utf
 <
 title
 >
-NDEFReader
+NDEFWriter
 .
 scan
 with
@@ -121,7 +121,7 @@ mockNFC
 >
 {
 const
-ndef
+reader
 =
 new
 NDEFReader
@@ -137,13 +137,13 @@ AbortController
 )
 ;
 const
-ndefWatcher
+readerWatcher
 =
 new
 EventWatcher
 (
 t
-ndef
+reader
 [
 "
 reading
@@ -157,7 +157,7 @@ readingerror
 const
 promise
 =
-ndefWatcher
+readerWatcher
 .
 wait_for
 (
@@ -189,7 +189,7 @@ abort
 )
 ;
 await
-ndef
+reader
 .
 scan
 (
@@ -394,7 +394,7 @@ iframe
 '
 Test
 that
-NDEFReader
+NDEFWriter
 .
 scan
 is

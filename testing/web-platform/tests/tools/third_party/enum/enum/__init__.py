@@ -27,7 +27,7 @@ version
 =
 1
 1
-10
+6
 pyver
 =
 float
@@ -1135,14 +1135,6 @@ pyver
 0
 :
                 
-if
-isinstance
-(
-_order_
-basestring
-)
-:
-                    
 _order_
 =
 _order_
@@ -2844,7 +2836,13 @@ _order_
 '
 ]
 =
+'
+'
+.
+join
+(
 _order_
+)
         
 enum_class
 =

@@ -442,9 +442,6 @@ once
 =
 false
 ;
-AbortSignal
-signal
-;
 }
 ;
 [

@@ -159,7 +159,7 @@ SerialPort
 {
 Promise
 <
-undefined
+void
 >
 open
 (
