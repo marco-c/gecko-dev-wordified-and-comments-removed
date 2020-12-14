@@ -2964,6 +2964,13 @@ mut
 g
 )
 ;
+thread
+:
+:
+yield_now
+(
+)
+;
 }
 drop
 (
