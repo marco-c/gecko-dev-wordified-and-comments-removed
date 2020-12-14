@@ -331,6 +331,14 @@ funcImportGlobalDataOffsets
 GlobalDescVector
 globals
 ;
+#
+ifdef
+ENABLE_WASM_EXCEPTIONS
+EventDescVector
+events
+;
+#
+endif
 TableDescVector
 tables
 ;
