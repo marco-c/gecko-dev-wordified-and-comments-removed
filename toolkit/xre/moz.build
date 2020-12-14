@@ -190,6 +190,11 @@ CmdLineAndEnvUtils
 h
 "
 "
+GlobalSemaphore
+.
+h
+"
+"
 SafeMode
 .
 h
@@ -645,6 +650,11 @@ cpp
 "
 "
 CreateAppData
+.
+cpp
+"
+"
+GlobalSemaphore
 .
 cpp
 "
