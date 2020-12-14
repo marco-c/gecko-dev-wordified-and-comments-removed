@@ -1325,6 +1325,9 @@ f32
 }
 }
 pub
+(
+crate
+)
 fn
 build_input_gamma_table
 (
@@ -2595,6 +2598,9 @@ v
 }
 }
 pub
+(
+crate
+)
 fn
 compute_precache
 (
@@ -3053,6 +3059,9 @@ output
 ;
 }
 pub
+(
+crate
+)
 fn
 build_output_lut
 (
