@@ -184,7 +184,7 @@ include
 "
 builtin
 /
-Promise
+HandlerFunction
 -
 inl
 .
@@ -195,9 +195,7 @@ include
 "
 builtin
 /
-streams
-/
-HandlerFunction
+Promise
 -
 inl
 .
