@@ -24040,9 +24040,6 @@ dependencies
 =
 [
 "
-failure
-"
-"
 http
 "
 "
@@ -24056,6 +24053,9 @@ nserror
 "
 "
 nsstring
+"
+"
+thiserror
 "
 "
 xpcom

@@ -1,9 +1,5 @@
 extern
 crate
-failure
-;
-extern
-crate
 http
 ;
 extern
@@ -21,6 +17,10 @@ nserror
 extern
 crate
 nsstring
+;
+extern
+crate
+thiserror
 ;
 extern
 crate
