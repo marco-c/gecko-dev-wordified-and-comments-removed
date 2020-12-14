@@ -753,7 +753,7 @@ props
 notification
 )
 )
-div
+button
 (
 {
 className
