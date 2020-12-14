@@ -265,7 +265,7 @@ ifdef
 __COVERITY__
 #
 define
-MOZ_ATOMIC_BITFIELDS_SET_GUARD
+MOZ_ATOMIC_BITFIELDS_STORE_GUARD
 (
 aValue
 aFieldSize
@@ -274,7 +274,7 @@ aFieldSize
 else
 #
 define
-MOZ_ATOMIC_BITFIELDS_SET_GUARD
+MOZ_ATOMIC_BITFIELDS_STORE_GUARD
 (
 aValue
 aFieldSize
@@ -369,7 +369,7 @@ payloads
 aFieldType
 MOZ_CONCAT
 (
-Get
+Load
 aFieldName
 )
 (
@@ -453,7 +453,7 @@ value
 void
 MOZ_CONCAT
 (
-Set
+Store
 aFieldName
 )
 (
@@ -462,7 +462,7 @@ aValue
 )
 {
 \
-MOZ_ATOMIC_BITFIELDS_SET_GUARD
+MOZ_ATOMIC_BITFIELDS_STORE_GUARD
 (
 aValue
 aFieldSize

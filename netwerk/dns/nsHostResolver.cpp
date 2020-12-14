@@ -1968,7 +1968,7 @@ false
 }
 if
 (
-GetNative
+LoadNative
 (
 )
 )
@@ -1981,7 +1981,7 @@ onQueue
 )
 )
 {
-SetResolveAgain
+StoreResolveAgain
 (
 true
 )
@@ -2005,7 +2005,7 @@ ResolveComplete
 {
 if
 (
-GetNativeUsed
+LoadNativeUsed
 (
 )
 )
@@ -7598,7 +7598,7 @@ mPendingCount
 addrRec
 -
 >
-SetNative
+StoreNative
 (
 true
 )
@@ -7606,7 +7606,7 @@ true
 addrRec
 -
 >
-SetNativeUsed
+StoreNativeUsed
 (
 true
 )
@@ -8233,7 +8233,7 @@ addrRec
 addrRec
 -
 >
-SetNativeUsed
+StoreNativeUsed
 (
 false
 )
@@ -8840,7 +8840,7 @@ var
 )
 -
 >
-SetGetTtl
+StoreGetTtl
 (
 sGetTtlEnabled
 &
@@ -8909,7 +8909,7 @@ result
 )
 -
 >
-SetUsingAnyThread
+StoreUsingAnyThread
 (
 true
 )
@@ -8951,7 +8951,7 @@ result
 )
 -
 >
-SetUsingAnyThread
+StoreUsingAnyThread
 (
 true
 )
@@ -9952,7 +9952,7 @@ if
 addrRec
 -
 >
-GetResolveAgain
+LoadResolveAgain
 (
 )
 &
@@ -9996,7 +9996,7 @@ get
 addrRec
 -
 >
-SetResolveAgain
+StoreResolveAgain
 (
 false
 )
@@ -10273,7 +10273,7 @@ if
 addrRec
 -
 >
-GetUsingAnyThread
+LoadUsingAnyThread
 (
 )
 )
@@ -10285,7 +10285,7 @@ mActiveAnyThreadCount
 addrRec
 -
 >
-SetUsingAnyThread
+StoreUsingAnyThread
 (
 false
 )
@@ -10334,7 +10334,7 @@ mNativeStart
 addrRec
 -
 >
-SetNative
+StoreNative
 (
 false
 )
@@ -10859,7 +10859,7 @@ mShutdown
 addrRec
 -
 >
-GetGetTtl
+LoadGetTtl
 (
 )
 &
@@ -11867,7 +11867,7 @@ getTtl
 rec
 -
 >
-GetGetTtl
+LoadGetTtl
 (
 )
 ;
