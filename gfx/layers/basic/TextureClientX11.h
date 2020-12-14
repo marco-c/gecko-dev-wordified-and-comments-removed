@@ -22,17 +22,6 @@ ISurfaceAllocator
 .
 h
 "
-#
-include
-"
-mozilla
-/
-layers
-/
-ShadowLayerUtilsX11
-.
-h
-"
 namespace
 mozilla
 {

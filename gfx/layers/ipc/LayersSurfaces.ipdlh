@@ -56,6 +56,15 @@ MPL
 .
 *
 /
+include
+"
+gfxipc
+/
+ShadowLayerUtils
+.
+h
+"
+;
 using
 struct
 gfxPoint
@@ -88,7 +97,7 @@ from
 "
 gfxipc
 /
-ShadowLayerUtils
+SurfaceDescriptor
 .
 h
 "
