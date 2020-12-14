@@ -713,11 +713,14 @@ metric
 )
 =
 >
+{
 metric
 .
 generate_and_set
 (
 )
+;
+}
 None
 =
 >
