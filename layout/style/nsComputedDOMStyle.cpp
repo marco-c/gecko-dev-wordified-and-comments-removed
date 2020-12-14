@@ -1605,10 +1605,13 @@ nsAString
 aReturn
 )
 {
+MOZ_ASSERT
+(
 aReturn
 .
-Truncate
+IsEmpty
 (
+)
 )
 ;
 nsCSSPropertyID
