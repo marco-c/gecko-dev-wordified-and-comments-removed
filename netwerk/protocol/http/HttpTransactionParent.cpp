@@ -1772,8 +1772,10 @@ return
 mDataSentToChildProcess
 ;
 }
+already_AddRefed
+<
 nsISupports
-*
+>
 HttpTransactionParent
 :
 :
@@ -1782,7 +1784,10 @@ SecurityInfo
 )
 {
 return
+do_AddRef
+(
 mSecurityInfo
+)
 ;
 }
 bool
