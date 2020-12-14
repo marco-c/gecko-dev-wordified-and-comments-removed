@@ -392,6 +392,9 @@ MAR_CHANNEL_ID
 "
 MOZ_APP_REMOTINGNAME
 "
+"
+MOZ_CRASHREPORTER_URL
+"
 )
 :
 appini_defines
