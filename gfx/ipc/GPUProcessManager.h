@@ -145,6 +145,10 @@ h
 class
 nsBaseWidget
 ;
+enum
+class
+DeviceResetReason
+;
 namespace
 mozilla
 {
@@ -574,6 +578,14 @@ aOutCompositorOptions
 void
 ResetCompositors
 (
+)
+;
+static
+void
+RecordDeviceReset
+(
+DeviceResetReason
+aReason
 )
 ;
 void
