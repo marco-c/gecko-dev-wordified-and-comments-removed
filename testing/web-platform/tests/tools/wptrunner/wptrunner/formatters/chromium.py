@@ -1258,7 +1258,7 @@ exist
 they
 will
 be
-appended
+added
 to
         
 the
@@ -1343,19 +1343,9 @@ known_intermittent
 )
 :
             
-expected_statuses
-+
+all_statsues
 =
-"
-"
-+
-"
-"
-.
-join
-(
-                
-[
+{
 self
 .
 _map_status_name
@@ -1371,7 +1361,26 @@ data
 known_intermittent
 "
 ]
-]
+}
+            
+all_statsues
+.
+add
+(
+expected_statuses
+)
+            
+expected_statuses
+=
+"
+"
+.
+join
+(
+sorted
+(
+all_statsues
+)
 )
         
 return
