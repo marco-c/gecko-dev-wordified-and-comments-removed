@@ -29665,6 +29665,14 @@ isAsync
 )
 |
 |
+(
+options
+(
+)
+.
+topLevelAwait
+&
+&
 pc_
 -
 >
@@ -29675,6 +29683,7 @@ sc
 >
 isModuleContext
 (
+)
 )
 )
 {
