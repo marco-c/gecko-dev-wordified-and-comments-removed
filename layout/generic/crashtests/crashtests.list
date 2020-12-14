@@ -2114,7 +2114,7 @@ Bug
 575011
 asserts
 (
-60
+20
 )
 load
 480345
@@ -2481,17 +2481,10 @@ load
 1
 .
 html
-asserts
-(
-2
-)
 load
 570160
 .
 html
-#
-bug
-1655630
 load
 570289
 -
@@ -2525,7 +2518,7 @@ load
 xhtml
 asserts
 (
-3
+1
 )
 load
 574958
