@@ -285,6 +285,7 @@ thread
 /
 [
 scriptable
+builtinclass
 uuid
 (
 79221831
