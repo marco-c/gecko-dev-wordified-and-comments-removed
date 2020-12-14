@@ -1350,9 +1350,8 @@ Client
 aClosure
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+if
 (
-!
 quotaClient
 -
 >
@@ -1360,7 +1359,10 @@ IsShutdownCompleted
 (
 )
 )
+{
+return
 ;
+}
 const
 auto
 type
