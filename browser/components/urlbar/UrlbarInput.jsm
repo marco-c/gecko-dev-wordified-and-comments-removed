@@ -12357,6 +12357,12 @@ selectionEnd
 0
 ;
 }
+this
+.
+_keyDownEnterDeferred
+=
+null
+;
 }
 catch
 (
@@ -12364,12 +12370,6 @@ ex
 )
 {
 }
-this
-.
-_keyDownEnterDeferred
-=
-null
-;
 return
 ;
 }
