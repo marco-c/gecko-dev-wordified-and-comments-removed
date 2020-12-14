@@ -1426,8 +1426,12 @@ IgnoreErrors
 )
 )
 ;
+if
+(
+RefPtr
+<
 nsFocusManager
-*
+>
 fm
 =
 nsFocusManager
@@ -1436,10 +1440,6 @@ nsFocusManager
 GetFocusManager
 (
 )
-;
-if
-(
-fm
 )
 {
 if
@@ -3405,8 +3405,10 @@ lastFocusedWindow
 }
 if
 (
+RefPtr
+<
 nsFocusManager
-*
+>
 fm
 =
 nsFocusManager
