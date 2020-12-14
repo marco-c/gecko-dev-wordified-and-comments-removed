@@ -5389,9 +5389,6 @@ masm
 frameSize
 )
 ;
-#
-ifdef
-ENABLE_WASM_SIMD
 if
 (
 fe
@@ -5400,7 +5397,7 @@ funcType
 (
 )
 .
-hasV128ArgOrRet
+hasUnexposableArgOrRet
 (
 )
 )
@@ -5434,8 +5431,6 @@ offsets
 )
 ;
 }
-#
-endif
 FloatRegister
 scratchF
 =
@@ -7262,11 +7257,15 @@ TypeIndex
 MOZ_CRASH
 (
 "
-returning
-reference
-in
-jitentry
-NYI
+unexpected
+return
+type
+when
+calling
+from
+ion
+to
+wasm
 "
 )
 ;
@@ -15944,9 +15943,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_WASM_SIMD
 if
 (
 fe
@@ -15955,7 +15951,7 @@ funcType
 (
 )
 .
-hasV128ArgOrRet
+hasUnexposableArgOrRet
 (
 )
 )
@@ -15964,8 +15960,6 @@ return
 true
 ;
 }
-#
-endif
 if
 (
 fe
@@ -16179,9 +16173,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_WASM_SIMD
 if
 (
 fi
@@ -16190,7 +16181,7 @@ funcType
 (
 )
 .
-hasV128ArgOrRet
+hasUnexposableArgOrRet
 (
 )
 )
@@ -16198,8 +16189,6 @@ hasV128ArgOrRet
 continue
 ;
 }
-#
-endif
 if
 (
 fi
