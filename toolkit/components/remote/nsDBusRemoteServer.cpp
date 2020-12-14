@@ -159,7 +159,6 @@ introspect
 dtd
 \
 "
-;
 >
 \
 n
