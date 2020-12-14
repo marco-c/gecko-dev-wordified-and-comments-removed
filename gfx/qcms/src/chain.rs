@@ -776,7 +776,7 @@ result
 }
 unsafe
 fn
-qcms_transform_module_LAB_to_XYZ
+transform_module_LAB_to_XYZ
 (
 mut
 transform
@@ -1331,7 +1331,7 @@ i
 }
 unsafe
 fn
-qcms_transform_module_XYZ_to_LAB
+transform_module_XYZ_to_LAB
 (
 mut
 transform
@@ -1925,7 +1925,7 @@ i
 }
 unsafe
 fn
-qcms_transform_module_clut_only
+transform_module_clut_only
 (
 mut
 transform
@@ -2978,7 +2978,7 @@ i
 }
 unsafe
 fn
-qcms_transform_module_clut
+transform_module_clut
 (
 mut
 transform
@@ -4202,7 +4202,7 @@ i
 }
 unsafe
 fn
-qcms_transform_module_gamma_table
+transform_module_gamma_table
 (
 mut
 transform
@@ -4481,7 +4481,7 @@ i
 }
 unsafe
 fn
-qcms_transform_module_gamma_lut
+transform_module_gamma_lut
 (
 mut
 transform
@@ -4754,7 +4754,7 @@ i
 }
 unsafe
 fn
-qcms_transform_module_matrix_translate
+transform_module_matrix_translate
 (
 mut
 transform
@@ -5334,7 +5334,7 @@ i
 }
 unsafe
 fn
-qcms_transform_module_matrix
+transform_module_matrix
 (
 mut
 transform
@@ -5892,7 +5892,7 @@ i
 }
 }
 fn
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 -
@@ -5924,7 +5924,7 @@ default
 ;
 }
 fn
-qcms_modular_transform_release
+modular_transform_release
 (
 mut
 t
@@ -6126,7 +6126,7 @@ prev_transform
 ;
 }
 fn
-qcms_modular_transform_create_mAB
+modular_transform_create_mAB
 (
 mut
 lut
@@ -6202,7 +6202,7 @@ None
 }
 transform
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -6318,7 +6318,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_gamma_table
+transform_module_gamma_table
 )
 ;
 next_transform
@@ -6387,7 +6387,7 @@ None
 }
 transform
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -6504,7 +6504,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_clut_only
+transform_module_clut_only
 )
 ;
 next_transform
@@ -6534,7 +6534,7 @@ is_none
 {
 transform
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -6650,7 +6650,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_gamma_table
+transform_module_gamma_table
 )
 ;
 next_transform
@@ -6663,7 +6663,7 @@ next_transform
 ;
 transform
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -6794,7 +6794,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_matrix_translate
+transform_module_matrix_translate
 )
 ;
 next_transform
@@ -6824,7 +6824,7 @@ is_none
 {
 transform
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -6940,7 +6940,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_gamma_table
+transform_module_gamma_table
 )
 ;
 append_transform
@@ -6976,7 +6976,7 @@ first_transform
 ;
 }
 fn
-qcms_modular_transform_create_lut
+modular_transform_create_lut
 (
 mut
 lut
@@ -7046,7 +7046,7 @@ let
 mut
 transform
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -7108,7 +7108,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_matrix
+transform_module_matrix
 )
 ;
 next_transform
@@ -7121,7 +7121,7 @@ next_transform
 ;
 transform
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -7548,7 +7548,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_clut
+transform_module_clut
 )
 ;
 append_transform
@@ -7566,7 +7566,7 @@ first_transform
 }
 }
 }
-qcms_modular_transform_release
+modular_transform_release
 (
 first_transform
 )
@@ -7576,7 +7576,7 @@ None
 ;
 }
 fn
-qcms_modular_transform_create_input
+modular_transform_create_input
 (
 mut
 in_0
@@ -7625,7 +7625,7 @@ let
 mut
 lut_transform
 =
-qcms_modular_transform_create_lut
+modular_transform_create_lut
 (
 (
 *
@@ -7734,7 +7734,7 @@ let
 mut
 mAB_transform
 =
-qcms_modular_transform_create_mAB
+modular_transform_create_mAB
 (
 (
 *
@@ -7779,7 +7779,7 @@ let
 mut
 transform
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -7888,7 +7888,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_gamma_table
+transform_module_gamma_table
 )
 ;
 if
@@ -7964,7 +7964,7 @@ next_transform
 ;
 transform
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -8236,7 +8236,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_matrix
+transform_module_matrix
 )
 ;
 next_transform
@@ -8249,7 +8249,7 @@ next_transform
 ;
 transform
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -8297,7 +8297,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_matrix
+transform_module_matrix
 )
 ;
 append_transform
@@ -8314,7 +8314,7 @@ next_transform
 first_transform
 }
 fn
-qcms_modular_transform_create_output
+modular_transform_create_output
 (
 mut
 out
@@ -8363,7 +8363,7 @@ let
 mut
 lut_transform
 =
-qcms_modular_transform_create_lut
+modular_transform_create_lut
 (
 (
 *
@@ -8472,7 +8472,7 @@ let
 mut
 lut_transform_0
 =
-qcms_modular_transform_create_mAB
+modular_transform_create_mAB
 (
 (
 *
@@ -8555,7 +8555,7 @@ let
 mut
 transform
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -8606,7 +8606,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_matrix
+transform_module_matrix
 )
 ;
 next_transform
@@ -8619,7 +8619,7 @@ next_transform
 ;
 transform
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -8882,7 +8882,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_matrix
+transform_module_matrix
 )
 ;
 next_transform
@@ -8895,7 +8895,7 @@ next_transform
 ;
 transform
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -9025,7 +9025,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_gamma_lut
+transform_module_gamma_lut
 )
 ;
 if
@@ -9118,7 +9118,7 @@ None
 first_transform
 }
 fn
-qcms_modular_transform_create
+modular_transform_create
 (
 mut
 in_0
@@ -9170,7 +9170,7 @@ let
 mut
 rgb_to_pcs
 =
-qcms_modular_transform_create_input
+modular_transform_create_input
 (
 in_0
 )
@@ -9240,7 +9240,7 @@ let
 mut
 lab_to_pcs
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -9269,7 +9269,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_LAB_to_XYZ
+transform_module_LAB_to_XYZ
 )
 ;
 next_transform
@@ -9307,7 +9307,7 @@ let
 mut
 pcs_to_lab
 =
-qcms_modular_transform_alloc
+modular_transform_alloc
 (
 )
 ;
@@ -9336,7 +9336,7 @@ transform_module_fn
 =
 Some
 (
-qcms_transform_module_XYZ_to_LAB
+transform_module_XYZ_to_LAB
 )
 ;
 next_transform
@@ -9363,7 +9363,7 @@ let
 mut
 pcs_to_rgb
 =
-qcms_modular_transform_create_output
+modular_transform_create_output
 (
 out
 )
@@ -9408,7 +9408,7 @@ first_transform
 }
 unsafe
 fn
-qcms_modular_transform_data
+modular_transform_data
 (
 mut
 transform
@@ -9474,7 +9474,7 @@ transform_fn
 =
 Some
 (
-qcms_transform_module_gamma_table
+transform_module_gamma_table
 )
 &
 &
@@ -9483,7 +9483,7 @@ transform_fn
 =
 Some
 (
-qcms_transform_module_gamma_lut
+transform_module_gamma_lut
 )
 &
 &
@@ -9492,7 +9492,7 @@ transform_fn
 =
 Some
 (
-qcms_transform_module_clut
+transform_module_clut
 )
 &
 &
@@ -9501,7 +9501,7 @@ transform_fn
 =
 Some
 (
-qcms_transform_module_clut_only
+transform_module_clut_only
 )
 &
 &
@@ -9510,7 +9510,7 @@ transform_fn
 =
 Some
 (
-qcms_transform_module_matrix
+transform_module_matrix
 )
 &
 &
@@ -9519,7 +9519,7 @@ transform_fn
 =
 Some
 (
-qcms_transform_module_matrix_translate
+transform_module_matrix_translate
 )
 &
 &
@@ -9528,7 +9528,7 @@ transform_fn
 =
 Some
 (
-qcms_transform_module_LAB_to_XYZ
+transform_module_LAB_to_XYZ
 )
 &
 &
@@ -9537,7 +9537,7 @@ transform_fn
 =
 Some
 (
-qcms_transform_module_XYZ_to_LAB
+transform_module_XYZ_to_LAB
 )
 {
 debug_assert
@@ -9576,7 +9576,7 @@ transform_fn
 =
 Some
 (
-qcms_transform_module_clut
+transform_module_clut
 )
 |
 |
@@ -9585,7 +9585,7 @@ transform_fn
 =
 Some
 (
-qcms_transform_module_clut_only
+transform_module_clut_only
 )
 )
 {
@@ -9689,7 +9689,7 @@ src
 pub
 unsafe
 fn
-qcms_chain_transform
+chain_transform
 (
 mut
 in_0
@@ -9734,7 +9734,7 @@ let
 mut
 transform_list
 =
-qcms_modular_transform_create
+modular_transform_create
 (
 in_0
 out
@@ -9752,7 +9752,7 @@ let
 mut
 lut
 =
-qcms_modular_transform_data
+modular_transform_data
 (
 transform_list
 .
@@ -9766,7 +9766,7 @@ lutSize
 3
 )
 ;
-qcms_modular_transform_release
+modular_transform_release
 (
 transform_list
 )
