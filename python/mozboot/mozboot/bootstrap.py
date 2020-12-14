@@ -2453,6 +2453,14 @@ _validate_python_environment
 (
 )
         
+if
+self
+.
+instance
+.
+no_system_changes
+:
+            
 self
 .
 instance
@@ -2461,14 +2469,6 @@ ensure_mach_environment
 (
 checkout_root
 )
-        
-if
-self
-.
-instance
-.
-no_system_changes
-:
             
 self
 .
@@ -2506,6 +2506,15 @@ instance
 .
 install_system_packages
 (
+)
+        
+self
+.
+instance
+.
+ensure_mach_environment
+(
+checkout_root
 )
         
 getattr
