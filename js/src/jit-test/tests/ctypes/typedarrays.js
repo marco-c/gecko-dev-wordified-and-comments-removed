@@ -346,7 +346,7 @@ true
 )
 ;
 const
-shortU8cs
+unsignedCharArray
 =
 ctypes
 .
@@ -367,6 +367,11 @@ abc
 0
 "
 )
+;
+const
+shortU8cs
+=
+unsignedCharArray
 .
 addressOfElement
 (
@@ -412,7 +417,7 @@ true
 )
 ;
 const
-shortI8cs
+signedCharArray
 =
 ctypes
 .
@@ -433,6 +438,11 @@ abc
 0
 "
 )
+;
+const
+shortI8cs
+=
+signedCharArray
 .
 addressOfElement
 (
@@ -478,7 +488,7 @@ true
 )
 ;
 const
-shortU16cs
+char16Array
 =
 ctypes
 .
@@ -494,6 +504,11 @@ array
 0
 "
 )
+;
+const
+shortU16cs
+=
+char16Array
 .
 addressOfElement
 (
