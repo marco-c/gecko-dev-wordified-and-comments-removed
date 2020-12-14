@@ -6973,8 +6973,6 @@ tryAttachStub
 AttachDecision
 tryAttachAddSlotStub
 (
-HandleObjectGroup
-oldGroup
 HandleShape
 oldShape
 )

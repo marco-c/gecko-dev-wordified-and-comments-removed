@@ -215,10 +215,6 @@ uint32_t
 offsetOffset
 ValOperandId
 rhsId
-bool
-changeGroup
-uint32_t
-newGroupOffset
 uint32_t
 newShapeOffset
 mozilla

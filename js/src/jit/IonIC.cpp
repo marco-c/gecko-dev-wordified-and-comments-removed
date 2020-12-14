@@ -1353,12 +1353,6 @@ oldShape
 cx
 )
 ;
-RootedObjectGroup
-oldGroup
-(
-cx
-)
-;
 IonScript
 *
 ionScript
@@ -1432,15 +1426,6 @@ obj
 -
 >
 shape
-(
-)
-;
-oldGroup
-=
-obj
--
->
-group
 (
 )
 ;
@@ -2043,7 +2028,6 @@ gen
 .
 tryAttachAddSlotStub
 (
-oldGroup
 oldShape
 )
 ;
