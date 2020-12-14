@@ -2636,16 +2636,6 @@ true
 name
 :
 "
-HTMLMenuItemElement
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 HTMLMetaElement
 "
 insecureContext

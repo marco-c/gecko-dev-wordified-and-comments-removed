@@ -194,6 +194,15 @@ element
 Exposed
 =
 Window
+Pref
+=
+"
+dom
+.
+menuitem
+.
+enabled
+"
 ]
 interface
 HTMLMenuItemElement

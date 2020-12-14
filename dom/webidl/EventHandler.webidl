@@ -514,6 +514,17 @@ attribute
 EventHandler
 onselect
 ;
+[
+Pref
+=
+"
+dom
+.
+menuitem
+.
+enabled
+"
+]
 attribute
 EventHandler
 onshow
