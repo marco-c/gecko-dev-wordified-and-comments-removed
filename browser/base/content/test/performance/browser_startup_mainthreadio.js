@@ -1578,13 +1578,7 @@ of
 d3d11layers
 "
 "
-d3d9video
-"
-"
 glcontext
-"
-"
-d3d11video
 "
 "
 wmfvpxvideo
