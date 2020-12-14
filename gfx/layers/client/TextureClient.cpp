@@ -26,6 +26,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 IPDLActor
 .
 h

@@ -10,6 +10,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 gfxUserFontSet
 .
 h

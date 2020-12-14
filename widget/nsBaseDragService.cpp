@@ -334,6 +334,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 nsIMutableArray
 .
 h

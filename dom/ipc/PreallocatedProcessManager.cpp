@@ -30,6 +30,15 @@ include
 "
 mozilla
 /
+ProfilerMarkers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h

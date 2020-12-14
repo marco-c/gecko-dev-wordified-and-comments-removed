@@ -22,6 +22,13 @@ algorithm
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h
