@@ -12934,7 +12934,7 @@ js
 gc
 :
 :
-TenuredHeap
+DefaultHeap
 )
 ;
 }
@@ -12967,7 +12967,7 @@ js
 gc
 :
 :
-TenuredHeap
+DefaultHeap
 )
 ;
 }
