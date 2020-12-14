@@ -498,16 +498,6 @@ nsAString
 aPath
 )
 ;
-static
-bool
-IsAbsolutePath
-(
-const
-nsAString
-&
-aPath
-)
-;
 private
 :
 ~
