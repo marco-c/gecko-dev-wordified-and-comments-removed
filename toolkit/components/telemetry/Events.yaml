@@ -13877,6 +13877,8 @@ bug_numbers
 1650468
 -
 1661756
+-
+1678201
 description
 :
 >
@@ -13929,7 +13931,7 @@ seen
 expiry_version
 :
 "
-86
+97
 "
 record_in_processes
 :
@@ -13947,11 +13949,6 @@ notification_emails
 :
 -
 ewright
-mozilla
-.
-com
--
-chsiang
 mozilla
 .
 com
@@ -14002,6 +13999,8 @@ bug_numbers
 1612091
 -
 1643428
+-
+1678201
 description
 :
 >
@@ -14015,7 +14014,7 @@ report
 expiry_version
 :
 "
-86
+97
 "
 record_in_processes
 :
@@ -14033,11 +14032,6 @@ notification_emails
 :
 -
 ewright
-mozilla
-.
-com
--
-chsiang
 mozilla
 .
 com
@@ -14089,6 +14083,8 @@ bug_numbers
 1643428
 -
 1661756
+-
+1678201
 description
 :
 >
@@ -14151,7 +14147,7 @@ vpn_app_link_ios
 expiry_version
 :
 "
-86
+97
 "
 record_in_processes
 :
@@ -14169,11 +14165,6 @@ notification_emails
 :
 -
 ewright
-mozilla
-.
-com
--
-chsiang
 mozilla
 .
 com
