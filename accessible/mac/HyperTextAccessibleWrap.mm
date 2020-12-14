@@ -2403,14 +2403,6 @@ int32_t
 innerOffset
 =
 aOffset
->
-0
-?
-aOffset
--
-1
-:
-aOffset
 ;
 do
 {
