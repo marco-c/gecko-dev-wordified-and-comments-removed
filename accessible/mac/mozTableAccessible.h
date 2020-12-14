@@ -287,6 +287,13 @@ NSArray
 )
 moxSelectedRows
 ;
+-
+(
+NSString
+*
+)
+moxOrientation
+;
 end
 interface
 mozOutlineRowAccessible
@@ -304,6 +311,13 @@ NSNumber
 *
 )
 moxDisclosing
+;
+-
+(
+NSNumber
+*
+)
+moxExpanded
 ;
 -
 (
