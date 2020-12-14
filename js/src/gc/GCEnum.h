@@ -54,11 +54,6 @@ NotActive
 \
 D
 (
-Prepare
-)
-\
-D
-(
 MarkRoots
 )
 \
@@ -134,12 +129,6 @@ D
 (
 VerifierPre
 4
-)
-\
-D
-(
-YieldBeforeRootMarking
-6
 )
 \
 D

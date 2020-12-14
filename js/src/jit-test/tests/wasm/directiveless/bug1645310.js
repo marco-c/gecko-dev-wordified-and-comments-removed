@@ -21,9 +21,6 @@ g7
 eval
 (
 "
-var
-dbg
-=
 Debugger
 (
 parent

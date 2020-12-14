@@ -101,11 +101,6 @@ GCAllocation
 \
 _
 (
-GCUnmarking
-)
-\
-_
-(
 GCSweeping
 )
 \

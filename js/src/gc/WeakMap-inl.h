@@ -548,14 +548,9 @@ zone
 )
 -
 >
-gcState
+wasGCStarted
 (
 )
->
-Zone
-:
-:
-Prepare
 )
 {
 mapColor

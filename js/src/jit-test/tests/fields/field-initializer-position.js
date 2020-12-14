@@ -1,8 +1,3 @@
-gczeal
-(
-0
-)
-;
 let
 d
 =
