@@ -7521,7 +7521,6 @@ class
 ScriptedThisResult
 {
 NoAction
-TemporarilyUnoptimizable
 UninitializedThis
 TemplateObject
 }
