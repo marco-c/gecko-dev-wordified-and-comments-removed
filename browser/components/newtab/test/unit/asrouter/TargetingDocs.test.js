@@ -43,9 +43,6 @@ MESSAGE_CONTEXT_ATTRIBUTES
 "
 previousSessionEnd
 "
-"
-trailheadTriplet
-"
 ]
 ;
 function
