@@ -661,9 +661,6 @@ actorID
 traits
 :
 {
-getFavicon
-:
-true
 }
 selected
 :

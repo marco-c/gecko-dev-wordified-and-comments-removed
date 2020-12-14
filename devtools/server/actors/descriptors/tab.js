@@ -237,9 +237,6 @@ _getTitle
 traits
 :
 {
-getFavicon
-:
-true
 watcher
 :
 true

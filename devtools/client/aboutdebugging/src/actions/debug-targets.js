@@ -844,7 +844,7 @@ descriptorFront
 >
 descriptorFront
 .
-retrieveAsyncFormData
+retrieveFavicon
 (
 )
 )

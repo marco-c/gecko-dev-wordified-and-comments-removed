@@ -464,7 +464,7 @@ const
 mockAboutDebuggingTab
 =
 {
-retrieveAsyncFormData
+retrieveFavicon
 :
 (
 )
@@ -478,9 +478,6 @@ outerWindowID
 traits
 :
 {
-getFavicon
-:
-true
 }
 url
 :

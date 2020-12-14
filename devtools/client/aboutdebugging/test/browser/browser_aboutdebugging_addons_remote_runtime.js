@@ -613,7 +613,7 @@ const
 testTab
 =
 {
-retrieveAsyncFormData
+retrieveFavicon
 :
 (
 )
@@ -627,9 +627,6 @@ outerWindowID
 traits
 :
 {
-getFavicon
-:
-true
 }
 url
 :
