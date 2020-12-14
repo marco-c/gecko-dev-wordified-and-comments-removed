@@ -14212,6 +14212,8 @@ bug_numbers
 1616229
 -
 1643428
+-
+1678201
 description
 :
 >
@@ -14234,7 +14236,7 @@ open_full_report
 expiry_version
 :
 "
-86
+97
 "
 record_in_processes
 :
@@ -14247,11 +14249,6 @@ opt
 out
 notification_emails
 :
--
-chsiang
-mozilla
-.
-com
 -
 ewright
 mozilla
@@ -14291,6 +14288,8 @@ bug_numbers
 1607488
 -
 1643428
+-
+1678201
 description
 :
 >
@@ -14306,7 +14305,7 @@ opened
 expiry_version
 :
 "
-86
+97
 "
 notification_emails
 :
@@ -14322,11 +14321,6 @@ mozilla
 com
 -
 jhofmann
-mozilla
-.
-com
--
-chsiang
 mozilla
 .
 com
@@ -14408,6 +14402,8 @@ bug_numbers
 1607488
 -
 1643428
+-
+1678201
 description
 :
 >
@@ -14424,7 +14420,7 @@ panel
 expiry_version
 :
 "
-86
+97
 "
 notification_emails
 :
@@ -14440,11 +14436,6 @@ mozilla
 com
 -
 jhofmann
-mozilla
-.
-com
--
-chsiang
 mozilla
 .
 com
