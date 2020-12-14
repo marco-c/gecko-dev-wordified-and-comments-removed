@@ -224,6 +224,14 @@ must_use
 readonly
 attribute
 boolean
+isAcceptedEch
+;
+[
+must_use
+]
+readonly
+attribute
+boolean
 isDelegatedCredential
 ;
 [
