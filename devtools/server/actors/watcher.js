@@ -607,6 +607,15 @@ enableServerWatcher
 &
 &
 hasBrowserElement
+[
+Resources
+.
+TYPES
+.
+SOURCE
+]
+:
+hasBrowserElement
 }
 }
 }
