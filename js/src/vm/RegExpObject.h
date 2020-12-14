@@ -1068,7 +1068,7 @@ re
 )
 ;
 extern
-JSLinearString
+JSAtom
 *
 EscapeRegExpPattern
 (
