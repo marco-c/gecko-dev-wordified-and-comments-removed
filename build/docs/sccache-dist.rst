@@ -1676,6 +1676,9 @@ run
 SCCACHE_NO_DAEMON
 =
 1
+SCCACHE_START_SERVER
+=
+1
 SCCACHE_LOG
 =
 sccache
@@ -1686,11 +1689,6 @@ path
 to
 /
 sccache
--
--
-start
--
-server
 in
 a
 terminal
