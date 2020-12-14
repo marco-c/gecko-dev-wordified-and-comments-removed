@@ -305,6 +305,15 @@ txt
 "
 ;
 const
+CERT_OVERRIDE_FILE_NAME
+=
+"
+cert_override
+.
+txt
+"
+;
+const
 SEC_ERROR_BASE
 =
 Ci
@@ -4078,6 +4087,8 @@ rememberValidityOverride
 (
 aHost
 8443
+{
+}
 cert
 aExpectedBits
 true
@@ -4293,6 +4304,8 @@ rememberValidityOverride
 (
 aHost
 8443
+{
+}
 cert
 aExpectedBits
 true

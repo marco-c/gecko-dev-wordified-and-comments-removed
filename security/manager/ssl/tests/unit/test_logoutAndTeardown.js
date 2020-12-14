@@ -855,6 +855,8 @@ rememberValidityOverride
 (
 hostname
 port
+{
+}
 cert
 overrideBits
 true

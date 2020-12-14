@@ -654,6 +654,8 @@ localhost
 server
 .
 port
+{
+}
 cert
 overrideBits
 true
@@ -676,6 +678,8 @@ localhost
 server
 .
 port
+{
+}
 )
 ;
 server
@@ -707,6 +711,17 @@ TLS_HANDSHAKE_FAILURE_URI
 =
 https
 :
+/
+/
+localhost
+:
+{
+server
+.
+port
+}
+/
+;
 BrowserTestUtils
 .
 loadURI

@@ -692,10 +692,8 @@ value
 )
 ;
 }
-removeCertOverride
+removeAllCertOverrides
 (
-host
-port
 )
 {
 const
@@ -725,10 +723,8 @@ nsICertOverrideService
 ;
 overrideService
 .
-clearValidityOverride
+clearAllOverrides
 (
-host
-port
 )
 ;
 }
