@@ -947,6 +947,8 @@ dialog
 confirm
 -
 button
+-
+label
 "
 ;
 options
