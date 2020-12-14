@@ -180,6 +180,8 @@ processID
 gCurrentPidStr
 =
 "
+browser
+.
 0x
 "
 +
