@@ -247,6 +247,11 @@ icon
 -
 info
 "
+eventSource
+:
+"
+POCKET_SPOCS
+"
 }
 ]
 :
