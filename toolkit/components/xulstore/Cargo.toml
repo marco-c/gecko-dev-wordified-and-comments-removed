@@ -157,6 +157,17 @@ default
 features
 =
 false
+features
+=
+[
+"
+no
+-
+canonicalize
+-
+path
+"
+]
 }
 serde_json
 =
