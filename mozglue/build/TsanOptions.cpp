@@ -432,13 +432,6 @@ n
 "
 race
 :
-currentNameHasEscapes
-\
-n
-"
-"
-race
-:
 SkARGB32_Blitter
 \
 n
