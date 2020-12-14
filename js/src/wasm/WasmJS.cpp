@@ -9686,6 +9686,10 @@ SharedTableVector
 &
 &
 tables
+StructTypePtrVector
+&
+&
+structTypes
 StructTypeDescrVector
 &
 &
@@ -10112,6 +10116,13 @@ std
 move
 (
 tables
+)
+std
+:
+:
+move
+(
+structTypes
 )
 std
 :

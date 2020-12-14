@@ -1365,6 +1365,13 @@ SystemAllocPolicy
 &
 &
 tables
+wasm
+:
+:
+StructTypePtrVector
+&
+&
+structTypes
 GCVector
 <
 HeapPtr

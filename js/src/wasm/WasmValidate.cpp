@@ -12020,10 +12020,6 @@ move
 (
 fields
 )
-env
--
->
-numStructTypes
 isInline
 )
 )
@@ -12040,13 +12036,6 @@ TypeState
 :
 :
 Struct
-;
-env
--
->
-numStructTypes
-+
-+
 ;
 return
 true
