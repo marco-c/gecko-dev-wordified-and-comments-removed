@@ -3402,6 +3402,8 @@ CtypesKernelHelpers
 ;
 try
 {
+try
+{
 typedURLKey
 .
 open
@@ -3425,6 +3427,16 @@ nsIWindowsRegKey
 ACCESS_READ
 )
 ;
+}
+catch
+(
+ex
+)
+{
+return
+typedURLs
+;
+}
 try
 {
 typedURLTimeKey
