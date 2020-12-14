@@ -414,16 +414,6 @@ n
 "
 race
 :
-WalkDiskCacheRunnable
-:
-:
-Run
-\
-n
-"
-"
-race
-:
 nsHttpChannel
 :
 :
