@@ -1295,6 +1295,15 @@ BranchTable
 .
 .
 }
+|
+Self
+:
+:
+IndirectJump
+{
+.
+.
+}
 =
 >
 None

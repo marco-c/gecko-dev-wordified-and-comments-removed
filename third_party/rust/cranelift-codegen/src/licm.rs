@@ -503,15 +503,15 @@ layout
 {
 func
 .
-change_branch_destination
+rewrite_branch_destination
 (
 last_inst
+header
 pre_header
 )
 ;
 }
 }
-{
 let
 mut
 pos
@@ -560,7 +560,6 @@ pool
 )
 )
 ;
-}
 pre_header
 }
 fn
