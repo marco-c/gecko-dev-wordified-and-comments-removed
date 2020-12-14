@@ -268,7 +268,7 @@ mozilla
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -306,7 +306,7 @@ test
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -1464,7 +1464,7 @@ txt
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -1501,7 +1501,7 @@ mozilla
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -1543,7 +1543,7 @@ test
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -1584,7 +1584,7 @@ test
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -1685,7 +1685,7 @@ mozilla
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -1725,7 +1725,7 @@ mozilla
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -1811,7 +1811,7 @@ mozilla
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -1855,7 +1855,7 @@ mozilla
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -1903,7 +1903,7 @@ mozfirefoxos
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -1985,7 +1985,7 @@ whitelisted
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2019,7 +2019,7 @@ whitelisted
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2058,7 +2058,7 @@ whitelisted
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2098,7 +2098,7 @@ test
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2170,7 +2170,7 @@ domain
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2219,7 +2219,7 @@ com
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2262,7 +2262,7 @@ nonexistent
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2306,7 +2306,7 @@ com
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2496,7 +2496,7 @@ http
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2602,7 +2602,7 @@ search
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2652,7 +2652,7 @@ search
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2753,7 +2753,7 @@ search
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2821,7 +2821,7 @@ http
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2868,7 +2868,7 @@ com
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2955,7 +2955,7 @@ mozilla
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -2989,7 +2989,7 @@ mozilla
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -3032,7 +3032,7 @@ mozilla5
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -3076,7 +3076,7 @@ foo
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -3119,7 +3119,7 @@ mozilla
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -3294,7 +3294,7 @@ plonk
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -3394,7 +3394,7 @@ node
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -3445,7 +3445,7 @@ org
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -3496,7 +3496,7 @@ mozilla
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -3538,7 +3538,7 @@ mozilla
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -3618,7 +3618,7 @@ mozilla
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -3705,7 +3705,7 @@ org
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -3850,7 +3850,7 @@ mozilla
 alternateURI
 :
 "
-https
+http
 :
 /
 /
@@ -3891,7 +3891,7 @@ a
 alternateURI
 :
 "
-https
+http
 :
 /
 /

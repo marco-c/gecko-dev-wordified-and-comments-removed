@@ -656,7 +656,7 @@ await
 testPressEnterOnSuggestion
 (
 "
-https
+http
 :
 /
 /
