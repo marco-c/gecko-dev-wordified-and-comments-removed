@@ -365,6 +365,7 @@ true
 false
 null
 null
+null
 PrivateBrowsingUtils
 .
 isBrowserPrivate

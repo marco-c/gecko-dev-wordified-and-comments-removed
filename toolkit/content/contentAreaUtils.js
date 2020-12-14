@@ -287,6 +287,7 @@ aFilePickerTitleKey
 aShouldBypassCache
 aSkipPrompt
 aReferrerInfo
+aCookieJarSettings
 aSourceDocument
 aIsContentWindowPrivate
 aPrincipal
@@ -303,7 +304,7 @@ aShouldBypassCache
 aFilePickerTitleKey
 null
 aReferrerInfo
-null
+aCookieJarSettings
 aSourceDocument
 aSkipPrompt
 null
