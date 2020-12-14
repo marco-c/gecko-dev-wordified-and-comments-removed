@@ -16785,6 +16785,10 @@ this
 if
 (
 usingMask
+&
+&
+!
+usingFilter
 )
 {
 clipForMask
