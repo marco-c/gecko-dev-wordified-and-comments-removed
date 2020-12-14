@@ -299,9 +299,6 @@ true
 networkMonitor
 :
 true
-storageInspector
-:
-true
 bulk
 :
 true
