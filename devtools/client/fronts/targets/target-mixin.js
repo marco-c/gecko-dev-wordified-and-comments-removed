@@ -446,7 +446,6 @@ null
 }
 if
 (
-!
 this
 .
 parentFront
@@ -455,10 +454,6 @@ getParentTarget
 )
 {
 return
-null
-;
-}
-return
 this
 .
 parentFront
@@ -466,6 +461,10 @@ parentFront
 getParentTarget
 (
 )
+;
+}
+return
+null
 ;
 }
 async
