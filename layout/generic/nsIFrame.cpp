@@ -29480,11 +29480,10 @@ maxContStyleCoord
 else
 if
 (
-!
 flexBasis
 -
 >
-IsAuto
+IsSize
 (
 )
 )
@@ -29499,6 +29498,9 @@ AsSize
 (
 )
 ;
+}
+else
+{
 }
 }
 }
