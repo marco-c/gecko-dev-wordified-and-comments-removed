@@ -14802,6 +14802,12 @@ postponeAddon
 install
 )
 {
+install
+.
+ownsTempFile
+=
+true
+;
 let
 resumeFn
 ;
