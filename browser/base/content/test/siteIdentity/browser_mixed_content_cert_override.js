@@ -143,11 +143,9 @@ chrome
 :
 /
 /
-global
+browser
 /
 skin
-/
-icons
 /
 {
 icon

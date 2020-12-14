@@ -31,8 +31,6 @@ Telemetry
 nsresult
 GetUntrustedModuleLoadEvents
 (
-uint32_t
-aFlags
 JSContext
 *
 cx

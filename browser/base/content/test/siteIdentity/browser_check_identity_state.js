@@ -3227,11 +3227,9 @@ chrome
 :
 /
 /
-global
+browser
 /
 skin
-/
-icons
 /
 connection
 -
