@@ -27,6 +27,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+ScrollableLayerGuid
+.
+h
+"
+#
+include
+"
 Units
 .
 h
