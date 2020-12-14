@@ -3302,14 +3302,6 @@ case
 JSOp
 :
 :
-InitElemArray
-:
-break
-;
-case
-JSOp
-:
-:
 Nop
 :
 case
@@ -3821,6 +3813,12 @@ JSOp
 :
 :
 SuperFun
+:
+case
+JSOp
+:
+:
+InitElemArray
 :
 case
 JSOp
