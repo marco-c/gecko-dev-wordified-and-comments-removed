@@ -4777,6 +4777,7 @@ CurlyBracketBlock
 )
 =
 >
+{
 self
 .
 parse_nested_block
@@ -4784,6 +4785,7 @@ parse_nested_block
 |
 input
 |
+{
 input
 .
 expect_no_error_token
@@ -4797,6 +4799,7 @@ Into
 :
 into
 )
+}
 )
 .
 map_err
@@ -4813,6 +4816,7 @@ ParseError
 basic
 )
 ?
+}
 Ok
 (
 t
@@ -4846,7 +4850,6 @@ new_basic_unexpected_token_error
 token
 )
 )
-;
 }
 }
 Err

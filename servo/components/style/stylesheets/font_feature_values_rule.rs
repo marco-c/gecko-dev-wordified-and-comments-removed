@@ -158,7 +158,6 @@ cssparser
 QualifiedRuleParser
 RuleListParser
 SourceLocation
-ParserState
 Token
 }
 ;
@@ -2657,10 +2656,9 @@ self
 prelude
 :
 BlockType
-_
+_location
 :
-&
-ParserState
+SourceLocation
 input
 :
 &
