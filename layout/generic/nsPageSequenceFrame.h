@@ -155,6 +155,16 @@ mShrinkToFitRatio
 .
 0f
 ;
+float
+mPagesPerSheetScale
+=
+1
+.
+0f
+;
+nsPoint
+mPagesPerSheetGridOrigin
+;
 const
 nsPagesPerSheetInfo
 *

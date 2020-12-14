@@ -165,6 +165,11 @@ PrintedSheetFrame
 =
 default
 ;
+void
+ComputePagesPerSheetOriginAndScale
+(
+)
+;
 nsSharedPageData
 *
 mPD
