@@ -721,7 +721,7 @@ here
 .
 *
 /
-ACString
+AUTF8String
 getDateTimePattern
 (
 in
