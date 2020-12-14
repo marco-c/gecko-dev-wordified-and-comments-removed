@@ -993,6 +993,11 @@ objs_by_type
 {
 }
     
+events_by_id
+=
+{
+}
+    
 if
 len
 (
@@ -1049,19 +1054,6 @@ values
 )
 :
                 
-if
-metric
-.
-type
-=
-=
-"
-event
-"
-:
-                    
-continue
-                
 const_name
 =
 util
@@ -1094,21 +1086,6 @@ key
 const_name
 typ
 )
-                
-if
-key
-not
-in
-objs_by_type
-:
-                    
-objs_by_type
-[
-key
-]
-=
-[
-]
                 
 metric_name
 =
@@ -1143,6 +1120,44 @@ category_name
 metric_name
 }
 "
+                
+if
+metric
+.
+type
+=
+=
+"
+event
+"
+:
+                    
+events_by_id
+[
+get_metric_id
+(
+metric
+)
+]
+=
+full_path
+                    
+continue
+                
+if
+key
+not
+in
+objs_by_type
+:
+                    
+objs_by_type
+[
+key
+]
+=
+[
+]
                 
 objs_by_type
 [
@@ -1278,6 +1293,10 @@ extra_args
 util
 .
 extra_args
+            
+events_by_id
+=
+events_by_id
         
 )
     
