@@ -96,6 +96,14 @@ RASTER_SCREEN
 1
 uniform
 sampler2DArray
+sPrevPassAlpha
+;
+uniform
+sampler2DArray
+sPrevPassColor
+;
+uniform
+sampler2DArray
 sClipMask
 ;
 vec2

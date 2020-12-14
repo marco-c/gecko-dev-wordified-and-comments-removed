@@ -495,7 +495,7 @@ vec2
 (
 textureSize
 (
-sColor0
+sPrevPassColor
 0
 )
 )
@@ -699,7 +699,7 @@ alpha
 *
 textureLod
 (
-sColor0
+sPrevPassColor
 vec3
 (
 uv
