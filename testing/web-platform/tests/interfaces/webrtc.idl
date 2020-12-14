@@ -562,12 +562,8 @@ undefined
 >
 setLocalDescription
 (
-optional
 RTCLocalSessionDescriptionInit
 description
-=
-{
-}
 VoidFunction
 successCallback
 RTCPeerConnectionErrorCallback
