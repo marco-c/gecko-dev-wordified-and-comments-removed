@@ -6508,17 +6508,6 @@ label
 )
 ;
 void
-copyObjGroupNoPreBarrier
-(
-Register
-sourceObj
-Register
-destObj
-Register
-scratch
-)
-;
-void
 maybeBranchTestType
 (
 MIRType

@@ -65131,15 +65131,6 @@ fail
 ;
 masm
 .
-copyObjGroupNoPreBarrier
-(
-object
-temp1
-temp2
-)
-;
-masm
-.
 jump
 (
 &
