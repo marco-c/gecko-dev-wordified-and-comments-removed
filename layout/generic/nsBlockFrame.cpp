@@ -7872,6 +7872,12 @@ containerSize
 )
 ;
 }
+fcBounds
+.
+Clear
+(
+)
+;
 for
 (
 nsIFrame
@@ -7887,6 +7893,12 @@ f
 MovePositionBy
 (
 physicalDelta
+)
+;
+ConsiderChildOverflow
+(
+fcBounds
+f
 )
 ;
 }
