@@ -999,9 +999,6 @@ _hasEventListeners
 traits
 :
 {
-supportsIsTopLevelDocument
-:
-true
 }
 }
 ;
