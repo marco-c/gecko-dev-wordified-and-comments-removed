@@ -2107,7 +2107,7 @@ aFrame
 ;
 static
 bool
-TitlebarCanUseShapeMask
+TitlebarUseShapeMask
 (
 )
 ;
