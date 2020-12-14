@@ -494,6 +494,7 @@ setup
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
@@ -889,6 +890,7 @@ if
 trrServer
 )
 {
+await
 trrServer
 .
 stop

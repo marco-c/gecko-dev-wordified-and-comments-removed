@@ -529,6 +529,7 @@ setup
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
@@ -813,12 +814,19 @@ fallback_to_origin
 "
 )
 ;
+if
+(
+trrServer
+)
+{
+await
 trrServer
 .
 stop
 (
 )
 ;
+}
 }
 )
 ;

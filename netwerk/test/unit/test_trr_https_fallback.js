@@ -502,6 +502,7 @@ setup
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
@@ -831,12 +832,19 @@ http3_fast_fallback_timeout
 "
 )
 ;
+if
+(
+trrServer
+)
+{
+await
 trrServer
 .
 stop
 (
 )
 ;
+}
 }
 )
 ;
