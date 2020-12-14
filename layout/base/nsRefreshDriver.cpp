@@ -5337,9 +5337,14 @@ Now
 (
 )
 innerWindowID
+#
+ifdef
+MOZ_GECKO_PROFILER
 profiler_capture_backtrace
 (
 )
+#
+endif
 aFlushType
 }
 )
@@ -6358,10 +6363,15 @@ mActiveTimer
 =
 nullptr
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 mRefreshTimerStartedCause
 =
 nullptr
 ;
+#
+endif
 }
 uint32_t
 nsRefreshDriver
@@ -9098,7 +9108,7 @@ nsAutoCString
 profilerStr
 ;
 #
-if
+ifdef
 MOZ_GECKO_PROFILER
 if
 (
@@ -9125,8 +9135,6 @@ profilerStr
 )
 ;
 }
-#
-endif
 AUTO_PROFILER_MARKER_TEXT
 (
 "
@@ -9159,6 +9167,8 @@ mPresContext
 profilerStr
 )
 ;
+#
+endif
 mResizeSuppressed
 =
 false
@@ -10299,7 +10309,7 @@ nsCString
 transactionId
 ;
 #
-if
+ifdef
 MOZ_GECKO_PROFILER
 if
 (
@@ -11991,6 +12001,9 @@ mViewManagerFlushIsPending
 =
 true
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 !
@@ -12004,6 +12017,8 @@ profiler_capture_backtrace
 )
 ;
 }
+#
+endif
 mHasScheduleFlush
 =
 true
