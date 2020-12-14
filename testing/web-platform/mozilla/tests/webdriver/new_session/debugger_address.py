@@ -127,7 +127,7 @@ True
 }
 )
 def
-test_debugger_address_true
+test_debugger_address_true_fission_disabled
 (
 session
 )
