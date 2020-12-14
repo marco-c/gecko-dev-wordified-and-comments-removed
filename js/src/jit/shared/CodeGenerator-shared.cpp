@@ -357,10 +357,6 @@ nativeToBytecodeScriptListLength_
 (
 0
 )
-skipArgCheckEntryOffset_
-(
-0
-)
 #
 ifdef
 CHECK_OSIPOINT_REGISTERS
