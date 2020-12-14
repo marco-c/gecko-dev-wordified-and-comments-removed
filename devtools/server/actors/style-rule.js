@@ -1370,9 +1370,6 @@ canSetRuleText
 this
 .
 canSetRuleText
-emitsRuleUpdatedEvent
-:
-true
 }
 }
 ;
