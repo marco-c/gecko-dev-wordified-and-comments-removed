@@ -31686,7 +31686,6 @@ wasmLoadI64
 access
 HeapReg
 ptr
-ptr
 dest
 .
 i64
@@ -31704,7 +31703,6 @@ wasmLoad
 *
 access
 HeapReg
-ptr
 ptr
 dest
 .
@@ -32586,7 +32584,6 @@ i64
 )
 HeapReg
 ptr
-ptr
 )
 ;
 }
@@ -32604,7 +32601,6 @@ any
 (
 )
 HeapReg
-ptr
 ptr
 )
 ;
