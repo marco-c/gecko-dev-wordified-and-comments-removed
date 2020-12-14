@@ -8238,12 +8238,6 @@ case
 JSOp
 :
 :
-IterNext
-:
-case
-JSOp
-:
-:
 Lambda
 :
 case

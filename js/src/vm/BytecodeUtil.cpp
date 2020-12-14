@@ -3545,12 +3545,6 @@ case
 JSOp
 :
 :
-IterNext
-:
-case
-JSOp
-:
-:
 CheckLexical
 :
 case
