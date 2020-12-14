@@ -44367,7 +44367,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NIGHTLY_BUILD
+true
 mirror
 :
 always
@@ -44438,7 +44438,7 @@ XP_WIN
 )
 value
 :
-IS_NIGHTLY_BUILD
+true
 #
 elif
 defined
@@ -44447,7 +44447,7 @@ XP_MACOSX
 )
 value
 :
-IS_NIGHTLY_BUILD
+true
 #
 elif
 defined
@@ -44463,7 +44463,7 @@ ANDROID
 )
 value
 :
-IS_NIGHTLY_BUILD
+true
 #
 else
 value
@@ -44492,22 +44492,9 @@ enabled
 type
 :
 RelaxedAtomicBool
-#
-if
-defined
-(
-XP_WIN
-)
 value
 :
-IS_NIGHTLY_BUILD
-#
-else
-value
-:
-false
-#
-endif
+true
 mirror
 :
 always
@@ -44531,7 +44518,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NIGHTLY_BUILD
+true
 mirror
 :
 always
@@ -44558,7 +44545,7 @@ XP_WIN
 )
 value
 :
-IS_NIGHTLY_BUILD
+true
 #
 elif
 defined
@@ -44567,7 +44554,7 @@ XP_MACOSX
 )
 value
 :
-IS_NIGHTLY_BUILD
+true
 #
 elif
 defined
@@ -44583,7 +44570,7 @@ ANDROID
 )
 value
 :
-IS_NIGHTLY_BUILD
+true
 #
 else
 value
@@ -44672,7 +44659,7 @@ XP_WIN
 )
 value
 :
-IS_NIGHTLY_BUILD
+true
 #
 elif
 defined
@@ -44681,7 +44668,7 @@ XP_MACOSX
 )
 value
 :
-IS_NIGHTLY_BUILD
+true
 #
 elif
 defined
@@ -44697,7 +44684,7 @@ ANDROID
 )
 value
 :
-IS_NIGHTLY_BUILD
+true
 #
 else
 value
