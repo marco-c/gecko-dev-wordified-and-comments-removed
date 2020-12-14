@@ -9718,6 +9718,16 @@ if
 outerScript
 -
 >
+hasIonScript
+(
+)
+)
+{
+if
+(
+outerScript
+-
+>
 ionScript
 (
 )
@@ -9760,6 +9770,7 @@ setHadLICMBailout
 (
 )
 ;
+}
 }
 break
 ;
