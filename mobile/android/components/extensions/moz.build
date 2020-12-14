@@ -8,6 +8,16 @@ jar
 mn
 "
 ]
+EXTRA_JS_MODULES
++
+=
+[
+"
+ExtensionBrowsingData
+.
+jsm
+"
+]
 EXTRA_COMPONENTS
 +
 =
