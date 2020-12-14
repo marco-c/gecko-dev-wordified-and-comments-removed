@@ -5992,6 +5992,8 @@ bug_numbers
 1617241
 -
 1645089
+-
+1678210
 description
 :
 >
@@ -6011,9 +6013,7 @@ pref
 .
 expires
 :
-"
-86
-"
+never
 kind
 :
 uint
@@ -6056,6 +6056,8 @@ bug_numbers
 1617241
 -
 1645089
+-
+1678210
 description
 :
 >
@@ -6075,9 +6077,7 @@ pref
 .
 expires
 :
-"
-86
-"
+never
 kind
 :
 boolean
@@ -6120,6 +6120,8 @@ bug_numbers
 1617241
 -
 1645089
+-
+1678210
 description
 :
 >
@@ -6139,9 +6141,7 @@ pref
 .
 expires
 :
-"
-86
-"
+never
 kind
 :
 boolean
@@ -6184,6 +6184,8 @@ bug_numbers
 1617241
 -
 1645089
+-
+1678210
 description
 :
 >
@@ -6203,9 +6205,7 @@ pref
 .
 expires
 :
-"
-86
-"
+never
 kind
 :
 boolean
@@ -6248,6 +6248,8 @@ bug_numbers
 1617241
 -
 1645089
+-
+1678210
 description
 :
 >
@@ -6267,9 +6269,7 @@ pref
 .
 expires
 :
-"
-86
-"
+never
 kind
 :
 boolean
@@ -6312,6 +6312,8 @@ bug_numbers
 1617241
 -
 1645089
+-
+1678210
 description
 :
 >
@@ -6331,9 +6333,7 @@ pref
 .
 expires
 :
-"
-86
-"
+never
 kind
 :
 boolean
@@ -6376,6 +6376,8 @@ bug_numbers
 1617241
 -
 1645089
+-
+1678210
 description
 :
 >
@@ -6395,9 +6397,7 @@ pref
 .
 expires
 :
-"
-86
-"
+never
 kind
 :
 boolean
@@ -6440,6 +6440,8 @@ bug_numbers
 1617241
 -
 1645089
+-
+1678210
 description
 :
 >
@@ -6459,9 +6461,7 @@ pref
 .
 expires
 :
-"
-86
-"
+never
 kind
 :
 boolean
@@ -6504,6 +6504,8 @@ bug_numbers
 1617241
 -
 1645089
+-
+1678210
 description
 :
 >
@@ -6523,9 +6525,7 @@ pref
 .
 expires
 :
-"
-86
-"
+never
 kind
 :
 boolean
@@ -6568,6 +6568,8 @@ bug_numbers
 1617241
 -
 1645089
+-
+1678210
 description
 :
 >
@@ -6587,9 +6589,7 @@ pref
 .
 expires
 :
-"
-86
-"
+never
 kind
 :
 boolean
@@ -6632,6 +6632,8 @@ bug_numbers
 1617241
 -
 1645089
+-
+1678210
 description
 :
 >
@@ -6651,9 +6653,7 @@ pref
 .
 expires
 :
-"
-86
-"
+never
 kind
 :
 boolean
@@ -6696,6 +6696,8 @@ bug_numbers
 1617241
 -
 1645089
+-
+1678210
 description
 :
 >
@@ -6716,9 +6718,7 @@ set
 .
 expires
 :
-"
-86
-"
+never
 kind
 :
 uint
