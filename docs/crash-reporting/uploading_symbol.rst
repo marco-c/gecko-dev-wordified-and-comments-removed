@@ -112,7 +112,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 >
 __

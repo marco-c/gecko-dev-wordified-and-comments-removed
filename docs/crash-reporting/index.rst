@@ -154,7 +154,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 >
 __
@@ -403,7 +403,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 >
 __

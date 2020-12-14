@@ -80,7 +80,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 >
 __
@@ -254,7 +254,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 search
 /
@@ -426,7 +426,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 search
 /
@@ -789,7 +789,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 search
 /
@@ -1162,7 +1162,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 search
 /
@@ -1703,7 +1703,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 search
 /
@@ -1913,7 +1913,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 search
 /
@@ -2151,7 +2151,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 search
 /
@@ -2430,7 +2430,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 documentation
 /
@@ -2473,7 +2473,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 documentation
 /
