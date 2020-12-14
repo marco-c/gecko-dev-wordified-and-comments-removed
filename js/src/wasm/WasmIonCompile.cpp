@@ -5021,7 +5021,7 @@ inDeadCode
 uint32_t
 offsetGuardLimit
 =
-GetOffsetGuardLimit
+GetMaxOffsetGuardLimit
 (
 moduleEnv_
 .
@@ -34072,6 +34072,7 @@ WasmMacroAssembler
 masm
 (
 alloc
+moduleEnv
 )
 ;
 MOZ_ASSERT

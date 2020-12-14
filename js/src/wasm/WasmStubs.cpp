@@ -11301,6 +11301,7 @@ WasmMacroAssembler
 masm
 (
 alloc
+env
 )
 ;
 for
@@ -16069,6 +16070,7 @@ WasmMacroAssembler
 masm
 (
 alloc
+env
 )
 ;
 if
