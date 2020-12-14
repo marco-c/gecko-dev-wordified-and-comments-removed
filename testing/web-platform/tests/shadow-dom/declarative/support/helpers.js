@@ -39,7 +39,17 @@ true
 }
 )
 ;
+(
 el
+instanceof
+HTMLTemplateElement
+?
+el
+.
+content
+:
+el
+)
 .
 replaceChildren
 (
