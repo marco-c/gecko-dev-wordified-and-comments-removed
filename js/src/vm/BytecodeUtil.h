@@ -2754,15 +2754,6 @@ op
 JSOp
 :
 :
-Length
-|
-|
-op
-=
-=
-JSOp
-:
-:
 GetProp
 ;
 }

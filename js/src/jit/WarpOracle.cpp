@@ -2925,12 +2925,6 @@ case
 JSOp
 :
 :
-Length
-:
-case
-JSOp
-:
-:
 GetElem
 :
 case

@@ -96,11 +96,6 @@ objKind_
 GCThingIndex
 propAtomIndex_
 ;
-bool
-isLength_
-=
-false
-;
 #
 ifdef
 DEBUG
