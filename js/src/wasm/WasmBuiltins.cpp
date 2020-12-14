@@ -1141,7 +1141,7 @@ _FailOnNullPtr
 2
 {
 _PTR
-_I32
+_RoN
 _END
 }
 }
@@ -1160,7 +1160,7 @@ _Infallible
 3
 {
 _PTR
-_I32
+_RoN
 _RoN
 _END
 }
@@ -6116,7 +6116,7 @@ MakeABIFunctionType
 ArgType_General
 {
 ArgType_General
-ArgType_Int32
+ArgType_General
 }
 )
 ;
@@ -6157,7 +6157,7 @@ MakeABIFunctionType
 ArgType_General
 {
 ArgType_General
-ArgType_Int32
+ArgType_General
 ArgType_General
 }
 )
