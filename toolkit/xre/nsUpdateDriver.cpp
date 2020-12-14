@@ -333,6 +333,14 @@ updatedriver
 )
 ;
 #
+ifdef
+LOG
+#
+undef
+LOG
+#
+endif
+#
 define
 LOG
 (
