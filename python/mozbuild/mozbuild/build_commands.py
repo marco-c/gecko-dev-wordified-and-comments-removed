@@ -762,6 +762,32 @@ copy
 (
 )
             
+if
+instr
+.
+config_environment
+.
+substs
+.
+get
+(
+"
+CC_TYPE
+"
+)
+in
+(
+"
+clang
+"
+"
+clang
+-
+cl
+"
+)
+:
+                
 pgo_env
 [
 "
@@ -777,11 +803,11 @@ substs
 .
 get
 (
-                
+                    
 "
 LLVM_PROFDATA
 "
-            
+                
 )
             
 pgo_env
