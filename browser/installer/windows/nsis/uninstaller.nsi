@@ -4250,6 +4250,9 @@ uninstall
 AppUserModelID
 '
 {
+RemoveDefaultBrowserAgentShortcut
+}
+{
 un
 .
 RemovePrecompleteEntries
