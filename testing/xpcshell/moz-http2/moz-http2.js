@@ -6725,7 +6725,7 @@ pathname
 =
 "
 /
-esni
+txt
 -
 dns
 -

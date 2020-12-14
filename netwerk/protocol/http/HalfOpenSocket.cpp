@@ -943,7 +943,7 @@ tmpFlags
 nsISocketTransport
 :
 :
-DONT_TRY_ESNI_OR_ECH
+DONT_TRY_ECH
 ;
 }
 if
