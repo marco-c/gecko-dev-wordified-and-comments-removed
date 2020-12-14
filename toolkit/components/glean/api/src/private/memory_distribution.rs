@@ -592,6 +592,10 @@ metrics
 [
 test
 ]
+#
+[
+ignore
+]
 fn
 smoke_test_memory_distribution
 (
@@ -730,6 +734,10 @@ sum
 #
 [
 test
+]
+#
+[
+ignore
 ]
 fn
 memory_distribution_child

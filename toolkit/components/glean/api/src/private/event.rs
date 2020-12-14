@@ -951,6 +951,10 @@ metrics
 [
 test
 ]
+#
+[
+ignore
+]
 fn
 smoke_test_event
 (
@@ -1080,6 +1084,10 @@ event_metric
 #
 [
 test
+]
+#
+[
+ignore
 ]
 fn
 smoke_test_event_with_extra
@@ -1387,6 +1395,10 @@ value
 #
 [
 test
+]
+#
+[
+ignore
 ]
 fn
 event_ipc

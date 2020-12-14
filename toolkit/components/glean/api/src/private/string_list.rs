@@ -755,6 +755,10 @@ metrics
 [
 test
 ]
+#
+[
+ignore
+]
 fn
 sets_string_list_value
 (
@@ -840,6 +844,10 @@ unwrap
 #
 [
 test
+]
+#
+[
+ignore
 ]
 fn
 string_list_ipc
