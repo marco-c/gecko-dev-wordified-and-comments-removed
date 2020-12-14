@@ -255,9 +255,6 @@ return
 traits
 :
 {
-isFileNameSupported
-:
-true
 }
 }
 ;
