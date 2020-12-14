@@ -542,7 +542,7 @@ add_task
 (
 async
 function
-testWritesSizeValuesOnChange
+testPersistsNecessaryValuesOnChange
 (
 )
 {
