@@ -8397,6 +8397,17 @@ mResponseHead
 &
 &
 docListener
+&
+&
+docListener
+-
+>
+GetChannel
+(
+)
+=
+=
+this
 )
 {
 nsAutoCString

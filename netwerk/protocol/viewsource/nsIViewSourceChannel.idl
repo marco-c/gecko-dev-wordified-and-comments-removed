@@ -46,9 +46,14 @@ attribute
 nsIURI
 baseURI
 ;
-attribute
-boolean
-replaceRequest
+[
+notxpcom
+nostdcall
+]
+nsIChannel
+getInnerChannel
+(
+)
 ;
 }
 ;
