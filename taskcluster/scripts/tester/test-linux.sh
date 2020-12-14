@@ -1612,9 +1612,9 @@ mach
 python
 =
 "
-{
-PYTHON
-}
+python2
+.
+7
 {
 GECKO_PATH
 }
@@ -1627,9 +1627,9 @@ python
 python
 =
 "
-{
-PYTHON
-}
+python2
+.
+7
 "
 #
 Save
