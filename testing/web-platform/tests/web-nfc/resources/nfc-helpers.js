@@ -1237,7 +1237,7 @@ mockNFC
 >
 {
 const
-reader1
+ndef1
 =
 new
 NDEFReader
@@ -1245,7 +1245,7 @@ NDEFReader
 )
 ;
 const
-reader2
+ndef2
 =
 new
 NDEFReader
@@ -1260,7 +1260,7 @@ AbortController
 (
 )
 ;
-reader1
+ndef1
 .
 onreading
 =
@@ -1288,7 +1288,7 @@ controller
 signal
 ;
 await
-reader1
+ndef1
 .
 scan
 (
@@ -1296,13 +1296,13 @@ unmatchedScanOptions
 )
 ;
 const
-readerWatcher
+ndefWatcher
 =
 new
 EventWatcher
 (
 t
-reader2
+ndef2
 [
 "
 reading
@@ -1316,7 +1316,7 @@ readingerror
 const
 promise
 =
-readerWatcher
+ndefWatcher
 .
 wait_for
 (
@@ -1361,7 +1361,7 @@ controller
 signal
 ;
 await
-reader2
+ndef2
 .
 scan
 (
@@ -1403,7 +1403,7 @@ mockNFC
 >
 {
 const
-reader
+ndef
 =
 new
 NDEFReader
@@ -1419,13 +1419,13 @@ AbortController
 )
 ;
 const
-readerWatcher
+ndefWatcher
 =
 new
 EventWatcher
 (
 t
-reader
+ndef
 [
 "
 reading
@@ -1439,7 +1439,7 @@ readingerror
 const
 promise
 =
-readerWatcher
+ndefWatcher
 .
 wait_for
 (
@@ -1484,7 +1484,7 @@ controller
 signal
 ;
 await
-reader
+ndef
 .
 scan
 (
