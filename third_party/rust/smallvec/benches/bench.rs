@@ -7,14 +7,6 @@ test
 )
 ]
 #
-!
-[
-allow
-(
-deprecated
-)
-]
-#
 [
 macro_use
 ]
