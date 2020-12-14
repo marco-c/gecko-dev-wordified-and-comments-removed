@@ -401,7 +401,7 @@ SetupNeckoTarget
 (
 )
 ;
-void
+bool
 RecvOnMessageAvailableInternal
 (
 const
@@ -412,6 +412,11 @@ bool
 aMoreData
 bool
 aBinary
+)
+;
+void
+OnError
+(
 )
 ;
 RefPtr
@@ -463,6 +468,10 @@ ServerCloseEvent
 friend
 class
 AsyncOpenFailedEvent
+;
+friend
+class
+ErrorEvent
 ;
 }
 ;

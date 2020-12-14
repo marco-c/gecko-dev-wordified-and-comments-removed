@@ -110,5 +110,13 @@ AUTF8String
 aReason
 )
 ;
+[
+must_use
+]
+void
+OnError
+(
+)
+;
 }
 ;
