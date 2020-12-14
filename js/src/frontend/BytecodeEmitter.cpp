@@ -25415,7 +25415,7 @@ Async
 sc
 -
 >
-asFunctionBox
+isSuspendableContext
 (
 )
 )
@@ -25432,7 +25432,7 @@ Async
 sc
 -
 >
-asFunctionBox
+asSuspendableContext
 (
 )
 -
@@ -28111,7 +28111,7 @@ if
 sc
 -
 >
-asFunctionBox
+asSuspendableContext
 (
 )
 -
@@ -28124,7 +28124,7 @@ isAsync
 sc
 -
 >
-asFunctionBox
+asSuspendableContext
 (
 )
 -
@@ -28848,7 +28848,7 @@ if
 sc
 -
 >
-asFunctionBox
+asSuspendableContext
 (
 )
 -
@@ -28960,7 +28960,7 @@ MOZ_ASSERT
 sc
 -
 >
-isFunctionBox
+isSuspendableContext
 (
 )
 )
@@ -29071,7 +29071,7 @@ if
 sc
 -
 >
-asFunctionBox
+asSuspendableContext
 (
 )
 -
@@ -29202,7 +29202,7 @@ MOZ_ASSERT
 sc
 -
 >
-isFunctionBox
+isSuspendableContext
 (
 )
 )
@@ -29212,7 +29212,7 @@ MOZ_ASSERT
 sc
 -
 >
-asFunctionBox
+asSuspendableContext
 (
 )
 -
@@ -29228,7 +29228,7 @@ iterKind
 sc
 -
 >
-asFunctionBox
+asSuspendableContext
 (
 )
 -
@@ -29253,7 +29253,7 @@ needsIteratorResult
 sc
 -
 >
-asFunctionBox
+asSuspendableContext
 (
 )
 -
