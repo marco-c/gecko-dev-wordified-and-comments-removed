@@ -663,6 +663,8 @@ ComputeInterSliceGCBudget
 (
 TimeStamp
 aDeadline
+TimeStamp
+aNow
 )
 const
 {
@@ -681,12 +683,7 @@ mActiveIntersliceGCBudget
 :
 aDeadline
 -
-TimeStamp
-:
-:
-Now
-(
-)
+aNow
 ;
 if
 (
@@ -701,12 +698,7 @@ budget
 TimeDuration
 blockedTime
 =
-TimeStamp
-:
-:
-Now
-(
-)
+aNow
 -
 mCCBlockStart
 ;
