@@ -307,9 +307,6 @@ DevToolsServer
 allowChromeProcess
 ;
 }
-watchpoints
-:
-true
 workerConsoleApiMessagesDispatchedToMainThread
 :
 Services
