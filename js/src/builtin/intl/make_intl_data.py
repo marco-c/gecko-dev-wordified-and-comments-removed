@@ -447,7 +447,6 @@ description
         
 println
 (
-u
 "
 /
 /
@@ -464,7 +463,6 @@ desc
     
 println
 (
-u
 "
 /
 /
@@ -484,7 +482,6 @@ source
     
 println
 (
-u
 "
 /
 /
@@ -560,7 +557,6 @@ URL
     
 println
 (
-u
 "
 "
 )
@@ -575,7 +571,6 @@ url
     
 println
 (
-u
 "
 var
 {
@@ -616,7 +611,6 @@ itemgetter
         
 println
 (
-u
 '
 "
 {
@@ -640,7 +634,6 @@ value
     
 println
 (
-u
 "
 }
 ;
@@ -723,7 +716,6 @@ replacements
     
 println
 (
-u
 "
 "
 )
@@ -739,7 +731,6 @@ url
 println
 (
         
-u
 "
 "
 "
@@ -838,7 +829,6 @@ fixed
 println
 (
                 
-u
 "
 static
 const
@@ -879,7 +869,6 @@ else
             
 println
 (
-u
 "
 static
 const
@@ -920,7 +909,6 @@ entries
 =
 (
                 
-u
 '
 "
 {
@@ -955,7 +943,6 @@ None
             
 println
 (
-u
 "
 {
 }
@@ -963,7 +950,6 @@ u
 .
 format
 (
-u
 "
 "
 .
@@ -976,7 +962,6 @@ entries
         
 println
 (
-u
 "
 }
 ;
@@ -1034,7 +1019,6 @@ tag_maxlength
 println
 (
                 
-u
 "
 "
 "
@@ -1088,7 +1072,6 @@ False
 println
 (
                 
-u
 "
 "
 "
@@ -1125,7 +1108,6 @@ subtag
 :
             
 return
-u
 "
 "
 "
@@ -1172,7 +1154,6 @@ dict
 println
 (
                     
-u
 "
 "
 "
@@ -1250,7 +1231,6 @@ else
 println
 (
                     
-u
 "
 "
 "
@@ -1317,7 +1297,6 @@ subtags
 println
 (
                         
-u
 "
 "
 "
@@ -1382,7 +1361,6 @@ n
 println
 (
                     
-u
 "
 "
 "
@@ -1425,7 +1403,6 @@ subtags
 cond
 =
 (
-u
 "
 |
 |
@@ -1433,7 +1410,6 @@ u
 n
 "
 +
-u
 "
 "
 *
@@ -1457,7 +1433,6 @@ cond
 println
 (
                     
-u
 "
 "
 "
@@ -1526,7 +1501,6 @@ k
 in
 subtags
 ]
-u
 "
 aliases
 "
@@ -1537,7 +1511,6 @@ False
 println
 (
                     
-u
 "
 "
 "
@@ -1613,7 +1586,6 @@ else
 println
 (
                     
-u
 "
 "
 "
@@ -1650,7 +1622,6 @@ rstrip
 println
 (
             
-u
 "
 "
 "
@@ -1679,7 +1650,6 @@ trailing_return
 println
 (
             
-u
 "
 "
 "
@@ -1696,7 +1666,6 @@ false
 println
 (
         
-u
 "
 "
 "
@@ -1730,7 +1699,6 @@ url
     
 println
 (
-u
 "
 "
 )
@@ -1746,7 +1714,6 @@ url
 println
 (
         
-u
 "
 "
 "
@@ -1926,14 +1893,12 @@ continue
         
 if_kind
 =
-u
 "
 if
 "
 if
 first_language
 else
-u
 "
 else
 if
@@ -1947,7 +1912,6 @@ cond
 =
 (
             
-u
 '
 language
 (
@@ -1984,7 +1948,6 @@ key
 cond
 =
 (
-u
 "
 |
 |
@@ -1992,7 +1955,6 @@ u
 n
 "
 +
-u
 "
 "
 *
@@ -2016,7 +1978,6 @@ cond
 println
 (
             
-u
 "
 "
 "
@@ -2056,7 +2017,6 @@ n
 println
 (
             
-u
 "
 "
 "
@@ -2102,7 +2062,6 @@ None
 println
 (
                 
-u
 "
 "
 "
@@ -2164,7 +2123,6 @@ None
 println
 (
                 
-u
 "
 "
 "
@@ -2219,7 +2177,6 @@ n
 println
 (
             
-u
 "
 "
 "
@@ -2244,7 +2201,6 @@ n
 println
 (
         
-u
 "
 "
 "
@@ -2278,7 +2234,6 @@ url
     
 println
 (
-u
 "
 "
 )
@@ -2294,7 +2249,6 @@ url
 println
 (
         
-u
 "
 "
 "
@@ -2529,14 +2483,12 @@ continue
         
 if_kind
 =
-u
 "
 if
 "
 if
 first_region
 else
-u
 "
 else
 if
@@ -2550,7 +2502,6 @@ cond
 =
 (
             
-u
 '
 region
 (
@@ -2587,7 +2538,6 @@ key
 cond
 =
 (
-u
 "
 |
 |
@@ -2595,7 +2545,6 @@ u
 n
 "
 +
-u
 "
 "
 *
@@ -2619,7 +2568,6 @@ cond
 println
 (
             
-u
 "
 "
 "
@@ -2716,14 +2664,12 @@ replacement_region
             
 if_kind
 =
-u
 "
 if
 "
 if
 first_case
 else
-u
 "
 else
 if
@@ -2748,7 +2694,6 @@ None
 :
                     
 return
-u
 '
 language
 (
@@ -2769,7 +2714,6 @@ language
 )
                 
 return
-u
 '
 (
 language
@@ -2830,7 +2774,6 @@ replacement_language_script
 cond
 =
 (
-u
 "
 |
 |
@@ -2838,7 +2781,6 @@ u
 n
 "
 +
-u
 "
 "
 *
@@ -2862,7 +2804,6 @@ cond
 println
 (
                 
-u
 "
 "
 "
@@ -2919,7 +2860,6 @@ n
 println
 (
             
-u
 "
 "
 "
@@ -2972,7 +2912,6 @@ n
 println
 (
         
-u
 "
 "
 "
@@ -3022,7 +2961,6 @@ subtags
 println
 (
         
-u
 "
 "
 "
@@ -3124,7 +3062,6 @@ url
 println
 (
         
-u
 "
 "
 "
@@ -3436,14 +3373,12 @@ itemgetter
         
 if_kind
 =
-u
 "
 if
 "
 if
 first_variant
 else
-u
 "
 else
 if
@@ -3456,7 +3391,6 @@ False
 println
 (
             
-u
 "
 "
 "
@@ -3532,7 +3466,6 @@ language
 println
 (
                 
-u
 "
 "
 "
@@ -3580,7 +3513,6 @@ region
 println
 (
                 
-u
 "
 "
 "
@@ -3630,7 +3562,6 @@ variant
 println
 (
                 
-u
 "
 "
 "
@@ -3681,7 +3612,6 @@ n
 println
 (
             
-u
 "
 "
 "
@@ -3706,7 +3636,6 @@ n
 println
 (
         
-u
 "
 "
 "
@@ -3773,7 +3702,6 @@ tags
     
 println
 (
-u
 "
 "
 )
@@ -3789,7 +3717,6 @@ url
 println
 (
         
-u
 "
 "
 "
@@ -4837,7 +4764,6 @@ privateuse
 println
 (
             
-u
 "
 "
 "
@@ -4871,7 +4797,6 @@ rstrip
 println
 (
             
-u
 "
 "
 "
@@ -4947,7 +4872,6 @@ False
 println
 (
             
-u
 "
 "
 "
@@ -4998,7 +4922,6 @@ None
 println
 (
                 
-u
 "
 "
 "
@@ -5049,7 +4972,6 @@ None
 println
 (
                 
-u
 "
 "
 "
@@ -5116,7 +5038,6 @@ subtags
 println
 (
             
-u
 "
 "
 "
@@ -5156,7 +5077,6 @@ None
 println
 (
                 
-u
 "
 "
 "
@@ -5231,7 +5151,6 @@ n
 println
 (
             
-u
 "
 "
 "
@@ -5264,7 +5183,6 @@ n
 println
 (
         
-u
 "
 "
 "
@@ -7868,7 +7786,6 @@ generatedFileWarning
     
 println
 (
-u
 "
 /
 /
@@ -7893,7 +7810,6 @@ version
     
 println
 (
-u
 "
 /
 /
@@ -7912,7 +7828,6 @@ url
 println
 (
         
-u
 "
 "
 "
@@ -8803,7 +8718,6 @@ rstrip
     
 source
 =
-u
 "
 CLDR
 Supplemental
@@ -9234,7 +9148,6 @@ generatedFileWarning
     
 source
 =
-u
 "
 CLDR
 Supplemental
@@ -9870,7 +9783,6 @@ url
 println
 (
         
-u
 "
 "
 "
@@ -9921,7 +9833,6 @@ maximal
 println
 (
         
-u
 "
 "
 "
@@ -9972,7 +9883,6 @@ minimal
 println
 (
         
-u
 "
 "
 "
@@ -10623,7 +10533,6 @@ f
         
 println
 (
-u
 "
 /
 /
@@ -12738,35 +12647,6 @@ typeAliasTimeZoneKey
 =
 value
     
-zones
-.
-remove
-(
-Zone
-(
-"
-Etc
-/
-Unknown
-"
-)
-)
-    
-del
-links
-[
-Zone
-(
-"
-Canada
-/
-East
--
-Saskatchewan
-"
-)
-]
-    
 validateTimeZones
 (
 zones
@@ -12782,7 +12662,6 @@ def
 readICUTimeZonesFromZoneInfo
 (
 icuTzDir
-ignoreFactory
 )
 :
     
@@ -12999,51 +12878,6 @@ in
 links
 }
     
-zones
-.
-remove
-(
-Zone
-(
-"
-Etc
-/
-Unknown
-"
-)
-)
-    
-del
-links
-[
-Zone
-(
-"
-Canada
-/
-East
--
-Saskatchewan
-"
-)
-]
-    
-if
-ignoreFactory
-:
-        
-zones
-.
-remove
-(
-Zone
-(
-"
-Factory
-"
-)
-)
-    
 validateTimeZones
 (
 zones
@@ -13071,10 +12905,7 @@ zoneinfoLinks
 =
 readICUTimeZonesFromZoneInfo
 (
-        
 icuTzDir
-ignoreFactory
-    
 )
     
 (
@@ -13086,6 +12917,101 @@ readICUTimeZonesFromTimezoneTypes
 (
 icuTzDir
 )
+    
+if
+ignoreFactory
+:
+        
+zoneinfoZones
+.
+remove
+(
+Zone
+(
+"
+Factory
+"
+)
+)
+    
+for
+zones
+in
+(
+zoneinfoZones
+typesZones
+)
+:
+        
+zones
+.
+remove
+(
+Zone
+(
+"
+Etc
+/
+Unknown
+"
+)
+)
+    
+for
+links
+in
+(
+zoneinfoLinks
+typesLinks
+)
+:
+        
+for
+zone
+in
+otherICULegacyLinks
+(
+)
+.
+keys
+(
+)
+:
+            
+if
+zone
+not
+in
+links
+:
+                
+raise
+KeyError
+(
+f
+"
+Can
+'
+t
+remove
+non
+-
+existent
+link
+from
+'
+{
+zone
+}
+'
+"
+)
+            
+del
+links
+[
+zone
+]
     
 def
 inZoneInfo64
@@ -13102,59 +13028,6 @@ or
 zone
 in
 zoneinfoLinks
-    
-(
-legacyZones
-legacyLinks
-)
-=
-readICULegacyZones
-(
-icuDir
-)
-    
-zoneinfoZones
-=
-{
-zone
-for
-zone
-in
-zoneinfoZones
-if
-zone
-not
-in
-legacyZones
-}
-    
-zoneinfoLinks
-=
-{
-        
-zone
-:
-target
-        
-for
-(
-zone
-target
-)
-in
-zoneinfoLinks
-.
-items
-(
-)
-        
-if
-zone
-not
-in
-legacyLinks
-    
-}
     
 notFoundInZoneInfo64
 =
@@ -13426,31 +13299,263 @@ Unknown
 )
 )
     
+for
+(
+zone
+target
+)
+in
+otherICULegacyLinks
+(
+)
+.
+items
+(
+)
+:
+        
+if
+zone
+in
+links
+:
+            
+if
 links
 [
-Zone
+zone
+]
+!
+=
+target
+:
+                
+raise
+KeyError
 (
+                    
+f
 "
-Canada
-/
-East
+Can
+'
+t
+overwrite
+link
+'
+{
+zone
+}
 -
-Saskatchewan
+>
+{
+links
+[
+zone
+]
+}
+'
+with
+'
+{
+target
+}
+'
 "
+                
 )
+            
+else
+:
+                
+print
+(
+                    
+f
+"
+Info
+:
+Link
+'
+{
+zone
+}
+-
+>
+{
+target
+}
+'
+can
+be
+removed
+from
+otherICULegacyLinks
+(
+)
+"
+                
+)
+        
+links
+[
+zone
 ]
 =
-"
-America
-/
-Regina
-"
+target
     
 return
 (
 zones
 links
 )
+def
+otherICULegacyLinks
+(
+)
+:
+    
+"
+"
+"
+The
+file
+icuTzDir
+/
+tools
+/
+tzcode
+/
+icuzones
+contains
+all
+ICU
+legacy
+time
+    
+zones
+with
+the
+exception
+of
+time
+zones
+which
+are
+removed
+by
+IANA
+after
+an
+    
+ICU
+release
+.
+    
+For
+example
+ICU
+67
+uses
+tzdata2018i
+but
+tzdata2020b
+removed
+the
+link
+from
+    
+"
+US
+/
+Pacific
+-
+New
+"
+to
+"
+America
+/
+Los_Angeles
+"
+.
+ICU
+standalone
+tzdata
+updates
+    
+don
+'
+t
+include
+modified
+icuzones
+files
+so
+we
+must
+manually
+record
+any
+IANA
+    
+modifications
+here
+.
+    
+After
+an
+ICU
+update
+we
+can
+remove
+any
+no
+longer
+needed
+entries
+from
+this
+    
+function
+by
+checking
+if
+the
+relevant
+entries
+are
+now
+included
+in
+icuzones
+.
+    
+"
+"
+"
+    
+return
+{
+        
+Zone
+(
+"
+US
+/
+Pacific
+-
+New
+"
+)
+:
+"
+America
+/
+Los_Angeles
+"
+    
+}
 def
 icuTzDataVersion
 (
@@ -14255,7 +14360,6 @@ itemgetter
 )
 generatedFileWarning
 =
-u
 "
 /
 /
@@ -14272,7 +14376,6 @@ EDIT
 "
 tzdataVersionComment
 =
-u
 "
 /
 /
@@ -14363,6 +14466,47 @@ readICULegacyZones
 (
 icuDir
 )
+    
+icuZones
+=
+{
+zone
+for
+zone
+in
+icuZones
+if
+zone
+not
+in
+legacyZones
+}
+    
+icuLinks
+=
+{
+        
+zone
+:
+target
+for
+(
+zone
+target
+)
+in
+icuLinks
+.
+items
+(
+)
+if
+zone
+not
+in
+legacyLinks
+    
+}
     
 incorrectZones
 =
@@ -14579,14 +14723,12 @@ version
         
 println
 (
-u
 "
 "
 )
         
 println
 (
-u
 "
 #
 ifndef
@@ -14596,7 +14738,6 @@ builtin_intl_TimeZoneDataGenerated_h
         
 println
 (
-u
 "
 #
 define
@@ -14606,14 +14747,12 @@ builtin_intl_TimeZoneDataGenerated_h
         
 println
 (
-u
 "
 "
 )
         
 println
 (
-u
 "
 namespace
 js
@@ -14623,7 +14762,6 @@ js
         
 println
 (
-u
 "
 namespace
 timezone
@@ -14633,14 +14771,12 @@ timezone
         
 println
 (
-u
 "
 "
 )
         
 println
 (
-u
 "
 /
 /
@@ -14651,7 +14787,6 @@ Format
         
 println
 (
-u
 '
 /
 /
@@ -14673,7 +14808,6 @@ file
         
 println
 (
-u
 "
 const
 char
@@ -14698,7 +14832,6 @@ incorrectZones
             
 println
 (
-u
 '
 "
 %
@@ -14725,7 +14858,6 @@ filename
         
 println
 (
-u
 "
 }
 ;
@@ -14734,14 +14866,12 @@ u
         
 println
 (
-u
 "
 "
 )
         
 println
 (
-u
 "
 /
 /
@@ -14752,7 +14882,6 @@ Format
         
 println
 (
-u
 '
 /
 /
@@ -14777,7 +14906,6 @@ file
         
 println
 (
-u
 "
 struct
 LinkAndTarget
@@ -14786,7 +14914,6 @@ LinkAndTarget
         
 println
 (
-u
 "
 {
 "
@@ -14794,7 +14921,6 @@ u
         
 println
 (
-u
 "
 const
 char
@@ -14807,7 +14933,6 @@ link
         
 println
 (
-u
 "
 const
 char
@@ -14820,7 +14945,6 @@ target
         
 println
 (
-u
 "
 }
 ;
@@ -14829,14 +14953,12 @@ u
         
 println
 (
-u
 "
 "
 )
         
 println
 (
-u
 "
 const
 LinkAndTarget
@@ -14861,7 +14983,6 @@ incorrectLinks
 println
 (
                 
-u
 '
 {
 "
@@ -14897,7 +15018,6 @@ filename
         
 println
 (
-u
 "
 }
 ;
@@ -14906,7 +15026,6 @@ u
         
 println
 (
-u
 "
 "
 )
@@ -14914,7 +15033,6 @@ u
 println
 (
             
-u
 "
 /
 /
@@ -14939,7 +15057,6 @@ also
         
 println
 (
-u
 "
 /
 /
@@ -14959,7 +15076,6 @@ zones
 println
 (
             
-u
 "
 /
 /
@@ -14996,7 +15112,6 @@ icuzones
         
 println
 (
-u
 "
 const
 char
@@ -15032,7 +15147,6 @@ legacyZones
             
 println
 (
-u
 '
 "
 %
@@ -15045,7 +15159,6 @@ zone
         
 println
 (
-u
 "
 }
 ;
@@ -15054,14 +15167,12 @@ u
         
 println
 (
-u
 "
 "
 )
         
 println
 (
-u
 "
 }
 /
@@ -15073,7 +15184,6 @@ timezone
         
 println
 (
-u
 "
 }
 /
@@ -15085,14 +15195,12 @@ js
         
 println
 (
-u
 "
 "
 )
         
 println
 (
-u
 "
 #
 endif
@@ -15278,7 +15386,6 @@ f
         
 println
 (
-u
 '
 /
 /
@@ -15304,7 +15411,6 @@ Intl
         
 println
 (
-u
 "
 "
 )
@@ -15327,7 +15433,6 @@ version
 println
 (
             
-u
 "
 "
 "
@@ -15373,7 +15478,6 @@ description
         
 println
 (
-u
 "
 const
 links
@@ -15402,7 +15506,6 @@ itemgetter
             
 println
 (
-u
 '
 "
 %
@@ -15423,7 +15526,6 @@ target
         
 println
 (
-u
 "
 }
 ;
@@ -15433,7 +15535,6 @@ u
 println
 (
             
-u
 "
 "
 "
@@ -15552,7 +15653,6 @@ target
 println
 (
             
-u
 "
 "
 "
@@ -15642,7 +15742,6 @@ timeZone_backward_links
 js
 "
         
-u
 "
 /
 /
@@ -15735,7 +15834,6 @@ timeZone_notbackward_links
 js
 "
         
-u
 "
 /
 /
@@ -15823,7 +15921,6 @@ ignoreBackzone
         
 comment
 =
-u
 "
 "
 "
@@ -15882,7 +15979,6 @@ else
         
 comment
 =
-u
 "
 "
 "
@@ -15943,7 +16039,6 @@ js
         
 comment
 +
-u
 "
 /
 /
@@ -16049,7 +16144,6 @@ ignoreBackzone
         
 comment
 =
-u
 "
 "
 "
@@ -16113,7 +16207,6 @@ else
         
 comment
 =
-u
 "
 "
 "
@@ -16178,7 +16271,6 @@ js
         
 comment
 +
-u
 "
 /
 /
@@ -16289,7 +16381,6 @@ f
         
 println
 (
-u
 '
 /
 /
@@ -16315,7 +16406,6 @@ Intl
         
 println
 (
-u
 "
 "
 )
@@ -16337,7 +16427,6 @@ version
         
 println
 (
-u
 "
 "
 "
@@ -16363,7 +16452,6 @@ version
 println
 (
             
-u
 "
 "
 "
@@ -17325,7 +17413,6 @@ generatedFileWarning
         
 println
 (
-u
 "
 /
 /
@@ -17344,7 +17431,6 @@ published
 println
 (
             
-u
 "
 "
 "
@@ -17424,7 +17510,6 @@ html
         
 println
 (
-u
 "
 var
 currencyDigits
@@ -17473,7 +17558,6 @@ entries
                 
 println
 (
-u
 "
 /
 /
@@ -17494,7 +17578,6 @@ countryName
             
 println
 (
-u
 "
 {
 }
@@ -17512,7 +17595,6 @@ minorUnits
         
 println
 (
-u
 "
 }
 ;
@@ -17911,7 +17993,6 @@ extension
 println
 (
         
-u
 "
 "
 "
@@ -18155,7 +18236,6 @@ needs_binary_search
 println
 (
             
-u
 "
 "
 "
@@ -18597,7 +18677,6 @@ n
 println
 (
         
-u
 "
 "
 "
@@ -18834,7 +18913,6 @@ len
         
 println
 (
-u
 "
 static
 const
@@ -18875,7 +18953,6 @@ entries
 =
 (
                 
-u
 '
 "
 {
@@ -18910,7 +18987,6 @@ None
             
 println
 (
-u
 "
 {
 }
@@ -18918,7 +18994,6 @@ u
 .
 format
 (
-u
 "
 "
 .
@@ -18931,7 +19006,6 @@ entries
         
 println
 (
-u
 "
 }
 ;
@@ -19048,7 +19122,6 @@ cond
 =
 (
             
-u
 '
 Is
 {
@@ -19085,14 +19158,12 @@ hash_key
         
 if_kind
 =
-u
 "
 if
 "
 if
 first_key
 else
-u
 "
 else
 if
@@ -19101,7 +19172,6 @@ if
 cond
 =
 (
-u
 "
 |
 |
@@ -19109,7 +19179,6 @@ u
 n
 "
 +
-u
 "
 "
 *
@@ -19133,7 +19202,6 @@ cond
 println
 (
             
-u
 "
 "
 "
@@ -19263,7 +19331,6 @@ max_len
 println
 (
                 
-u
 "
 "
 "
@@ -19317,7 +19384,6 @@ replacements
 println
 (
                     
-u
 "
 "
 "
@@ -19376,7 +19442,6 @@ n
 println
 (
             
-u
 "
 "
 "
@@ -19401,7 +19466,6 @@ n
 println
 (
         
-u
 "
 "
 "
@@ -20524,7 +20588,6 @@ generatedFileWarning
 println
 (
             
-u
 "
 "
 "
@@ -20564,7 +20627,6 @@ Proposal
 println
 (
             
-u
 "
 var
 sanctionedSimpleUnitIdentifiers
@@ -20644,7 +20706,6 @@ generatedFileWarning
 println
 (
             
-u
 "
 "
 "
@@ -20733,7 +20794,6 @@ sanctioned_units
             
 println
 (
-u
 '
 {
 {
@@ -20762,7 +20822,6 @@ unit_name
 println
 (
             
-u
 "
 "
 "
@@ -20927,7 +20986,6 @@ f
             
 println
 (
-u
 '
 /
 /
@@ -20953,7 +21011,6 @@ Intl
             
 println
 (
-u
 "
 "
 )
@@ -20965,7 +21022,6 @@ generatedFileWarning
             
 println
 (
-u
 "
 "
 )
@@ -21007,7 +21063,6 @@ separators
 println
 (
                 
-u
 "
 const
 sanctionedSimpleUnitIdentifiers
@@ -21034,7 +21089,6 @@ test_content
 println
 (
                 
-u
 "
 "
 "
@@ -21086,7 +21140,6 @@ combinations
 js
 "
         
-u
 "
 "
 "
@@ -21248,7 +21301,6 @@ formed
 js
 "
         
-u
 "
 "
 "
@@ -21270,7 +21322,6 @@ all_units_array
 )
         
 +
-u
 "
 "
 "
@@ -21517,7 +21568,6 @@ field
 js
 "
         
-u
 "
 "
 "
@@ -22805,7 +22855,6 @@ generatedFileWarning
 println
 (
             
-u
 "
 "
 "
@@ -22871,7 +22920,6 @@ algorithmic
         
 println
 (
-u
 "
 /
 /
@@ -22884,7 +22932,6 @@ off
         
 println
 (
-u
 "
 #
 define
@@ -22897,7 +22944,6 @@ NUMBERING_SYSTEMS_WITH_SIMPLE_DIGIT_MAPPINGS
 println
 (
             
-u
 "
 {
 }
@@ -22916,7 +22962,6 @@ n
 join
 (
                     
-u
 '
 "
 {
@@ -22941,7 +22986,6 @@ simple_numbering_systems
         
 println
 (
-u
 "
 /
 /
@@ -22954,14 +22998,12 @@ on
         
 println
 (
-u
 "
 "
 )
         
 println
 (
-u
 "
 #
 endif
@@ -23074,7 +23116,6 @@ generatedFileWarning
 println
 (
             
-u
 "
 "
 "
@@ -23205,7 +23246,6 @@ False
         
 println
 (
-u
 "
 const
 numberingSystems
