@@ -3419,7 +3419,7 @@ markAtom
 src
 )
 ;
-JSAtom
+JSString
 *
 escaped
 =

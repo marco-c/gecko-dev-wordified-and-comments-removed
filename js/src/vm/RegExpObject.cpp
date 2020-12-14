@@ -2276,7 +2276,7 @@ return
 true
 ;
 }
-JSAtom
+JSLinearString
 *
 js
 :
@@ -2314,7 +2314,7 @@ names
 emptyRegExp
 ;
 }
-StringBuffer
+JSStringBuilder
 sb
 (
 cx
@@ -2413,7 +2413,7 @@ src
 :
 sb
 .
-finishAtom
+finishString
 (
 )
 ;
@@ -2450,7 +2450,7 @@ return
 nullptr
 ;
 }
-RootedAtom
+RootedLinearString
 escapedSrc
 (
 cx
