@@ -352,7 +352,7 @@ isActive
 )
 {
 const
-docShell
+win
 =
 SpecialPowers
 .
@@ -360,8 +360,20 @@ wrap
 (
 window
 )
+;
+const
+docShell
+=
+win
 .
 docShell
+;
+const
+browsingContext
+=
+win
+.
+browsingContext
 ;
 /
 /
@@ -379,8 +391,6 @@ docShell
 is
 inactive
 .
-docShell
-.
 browsingContext
 .
 top
@@ -389,7 +399,7 @@ suspendMediaWhenInactive
 =
 true
 ;
-docShell
+browsingContext
 .
 isActive
 =

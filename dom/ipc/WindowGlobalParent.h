@@ -377,10 +377,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
-<
 BrowserParent
->
+*
 GetBrowserParent
 (
 )

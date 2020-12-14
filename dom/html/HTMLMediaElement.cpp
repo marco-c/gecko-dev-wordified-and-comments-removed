@@ -30522,7 +30522,7 @@ bc
 bc
 -
 >
-GetIsActive
+IsActive
 (
 )
 &

@@ -184,9 +184,12 @@ static
 PaintFragment
 Record
 (
-nsIDocShell
+dom
+:
+:
+BrowsingContext
 *
-aDocShell
+aBc
 const
 Maybe
 <

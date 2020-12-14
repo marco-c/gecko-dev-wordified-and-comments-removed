@@ -2974,13 +2974,6 @@ Destroy
 )
 ;
 async
-SetDocShellIsActive
-(
-bool
-aIsActive
-)
-;
-async
 RenderLayers
 (
 bool

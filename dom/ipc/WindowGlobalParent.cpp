@@ -1366,10 +1366,8 @@ otherSide
 )
 ;
 }
-already_AddRefed
-<
 BrowserParent
->
+*
 WindowGlobalParent
 :
 :
@@ -1395,8 +1393,6 @@ nullptr
 ;
 }
 return
-do_AddRef
-(
 static_cast
 <
 BrowserParent
@@ -1405,7 +1401,6 @@ BrowserParent
 (
 Manager
 (
-)
 )
 )
 ;

@@ -776,6 +776,13 @@ uint32_t
 aStopFlags
 )
 ;
+BrowserParent
+*
+GetBrowserParent
+(
+)
+const
+;
 using
 RemotenessPromise
 =

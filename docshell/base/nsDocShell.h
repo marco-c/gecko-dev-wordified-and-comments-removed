@@ -3083,6 +3083,11 @@ MoveLoadingToActiveEntry
 (
 )
 ;
+void
+ActivenessMaybeChanged
+(
+)
+;
 private
 :
 nsString

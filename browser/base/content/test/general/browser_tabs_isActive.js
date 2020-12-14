@@ -101,7 +101,9 @@ null
 )
 =
 >
-docShell
+content
+.
+browsingContext
 .
 isActive
 )

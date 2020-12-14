@@ -286,14 +286,6 @@ handler
 }
 )
 ;
-content
-.
-docShell
-.
-isActive
-=
-true
-;
 frameDoc
 .
 getElementById

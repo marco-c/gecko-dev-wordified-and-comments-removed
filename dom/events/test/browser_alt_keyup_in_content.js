@@ -848,7 +848,9 @@ waitForCondition
 {
 if
 (
-docShell
+content
+.
+browsingContext
 .
 isActive
 &

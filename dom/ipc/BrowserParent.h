@@ -4033,11 +4033,6 @@ mActiveSupressDisplayportCount
 #
 endif
 bool
-mDocShellIsActive
-:
-1
-;
-bool
 mMarkedDestroying
 :
 1

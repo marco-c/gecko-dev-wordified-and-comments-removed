@@ -574,6 +574,13 @@ unsigned
 long
 sandboxFlags
 ;
+[
+SetterThrows
+]
+attribute
+boolean
+isActive
+;
 /
 /
 The

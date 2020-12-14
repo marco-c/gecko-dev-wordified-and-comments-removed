@@ -73,7 +73,7 @@ aEvent
 return
 content
 .
-docShell
+browsingContext
 .
 isActive
 ;
