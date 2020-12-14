@@ -202,6 +202,15 @@ emitter
 .
 emit
 scope_data_map
+self
+.
+top_level_functions
+.
+len
+(
+)
+as
+u32
 )
 ;
 for
