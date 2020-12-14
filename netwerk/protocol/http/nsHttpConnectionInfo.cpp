@@ -2843,6 +2843,13 @@ Clone
 )
 ;
 clone
+-
+>
+mIsHttp3
+=
+false
+;
+clone
 .
 forget
 (
