@@ -258,9 +258,6 @@ traits
 isFileNameSupported
 :
 true
-supportResourceRequests
-:
-true
 }
 }
 ;
