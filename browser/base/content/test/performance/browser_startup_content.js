@@ -179,7 +179,7 @@ resource
 /
 actors
 /
-SearchTelemetryChild
+SearchSERPTelemetryChild
 .
 jsm
 "

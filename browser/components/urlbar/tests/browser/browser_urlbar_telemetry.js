@@ -48,7 +48,7 @@ defineLazyModuleGetters
 (
 this
 {
-SearchTelemetry
+SearchSERPTelemetry
 :
 "
 resource
@@ -58,7 +58,7 @@ resource
 /
 modules
 /
-SearchTelemetry
+SearchSERPTelemetry
 .
 jsm
 "
@@ -6408,7 +6408,7 @@ test_privateWindow
 (
 )
 {
-SearchTelemetry
+SearchSERPTelemetry
 .
 overrideSearchTelemetryForTests
 (
@@ -7314,7 +7314,7 @@ closeWindow
 win
 )
 ;
-SearchTelemetry
+SearchSERPTelemetry
 .
 overrideSearchTelemetryForTests
 (

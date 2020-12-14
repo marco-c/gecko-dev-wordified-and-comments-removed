@@ -431,12 +431,12 @@ RFPHelperParent
 jsm
 "
 "
-SearchTelemetryChild
+SearchSERPTelemetryChild
 .
 jsm
 "
 "
-SearchTelemetryParent
+SearchSERPTelemetryParent
 .
 jsm
 "

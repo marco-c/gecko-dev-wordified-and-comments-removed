@@ -139,7 +139,7 @@ PrivateBrowsingUtils
 .
 jsm
 "
-SearchTelemetry
+SearchSERPTelemetry
 :
 "
 resource
@@ -149,7 +149,7 @@ resource
 /
 modules
 /
-SearchTelemetry
+SearchSERPTelemetry
 .
 jsm
 "
@@ -1297,7 +1297,7 @@ LOCATION_CHANGE_SAME_DOCUMENT
 )
 )
 {
-SearchTelemetry
+SearchSERPTelemetry
 .
 stopTrackingBrowser
 (
@@ -1510,7 +1510,7 @@ LOCATION_CHANGE_SAME_DOCUMENT
 )
 )
 {
-SearchTelemetry
+SearchSERPTelemetry
 .
 updateTrackingStatus
 (

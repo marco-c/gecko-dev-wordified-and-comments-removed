@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-SearchTelemetry
+SearchSERPTelemetry
 }
 =
 ChromeUtils
@@ -20,7 +20,7 @@ resource
 /
 modules
 /
-SearchTelemetry
+SearchSERPTelemetry
 .
 jsm
 "
@@ -43,7 +43,7 @@ resource
 /
 actors
 /
-SearchTelemetryChild
+SearchSERPTelemetryChild
 .
 jsm
 "
@@ -690,7 +690,7 @@ setup
 (
 )
 {
-SearchTelemetry
+SearchSERPTelemetry
 .
 overrideSearchTelemetryForTests
 (
@@ -758,7 +758,7 @@ log
 "
 )
 ;
-SearchTelemetry
+SearchSERPTelemetry
 .
 overrideSearchTelemetryForTests
 (

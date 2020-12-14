@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-SearchTelemetry
+SearchSERPTelemetry
 "
 ]
 ;
@@ -2629,7 +2629,7 @@ type
 }
 }
 var
-SearchTelemetry
+SearchSERPTelemetry
 =
 new
 TelemetryHandler
