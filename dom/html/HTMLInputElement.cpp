@@ -14234,7 +14234,7 @@ nsITextControlFrame
 SelectionDirection
 :
 :
-eNone
+eForward
 IgnoredErrorResult
 (
 )
