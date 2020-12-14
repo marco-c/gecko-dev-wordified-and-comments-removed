@@ -98,6 +98,10 @@ DelegatedCredentialsServer
 "
     
 "
+EncryptedClientHelloServer
+"
+    
+"
 GenerateOCSPResponse
 "
     

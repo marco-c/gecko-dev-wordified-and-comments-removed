@@ -434,6 +434,14 @@ sqlite_libs
 "
 sqlite
 "
+gyp_vars
+[
+"
+enable_draft_hpke
+"
+]
+=
+1
 if
 CONFIG
 [
