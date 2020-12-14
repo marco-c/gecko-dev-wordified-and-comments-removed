@@ -12543,6 +12543,15 @@ flexBasis
 IsSize
 (
 )
+&
+&
+!
+flexBasis
+-
+>
+IsAuto
+(
+)
 )
 {
 mainAxisCoord
