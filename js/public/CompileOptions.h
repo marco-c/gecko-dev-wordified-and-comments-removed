@@ -204,6 +204,11 @@ privateClassMethods
 false
 ;
 bool
+topLevelAwait
+=
+false
+;
+bool
 useStencilXDR
 =
 false
