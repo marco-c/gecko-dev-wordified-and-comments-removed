@@ -3460,7 +3460,7 @@ IMAGES
 const
 GLYPHS
 =
-0b01
+0b10
 ;
 /
 /
@@ -3468,7 +3468,7 @@ GLYPHS
 const
 GLYPH_DIMENSIONS
 =
-0b001
+0b100
 ;
 /
 /
@@ -3476,7 +3476,7 @@ GLYPH_DIMENSIONS
 const
 RENDER_TASKS
 =
-0b0001
+0b1000
 ;
 /
 /
@@ -3484,7 +3484,7 @@ RENDER_TASKS
 const
 TEXTURE_CACHE
 =
-0b00001
+0b10000
 ;
 /
 /
@@ -3496,7 +3496,7 @@ pool
 const
 RENDER_TARGETS
 =
-0b000001
+0b100000
 ;
 }
 }
