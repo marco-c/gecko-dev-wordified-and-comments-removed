@@ -46,7 +46,6 @@ FunctionPointer
 FunctionSpec
 ModuleData
 ModuleFeatures
-ModuleSignature
 SerializedModule
 Signature
 LUCET_MODULE_SYM

@@ -1082,8 +1082,11 @@ use
 the
 whole
 archive
+and
+the
+rdynamic
 linker
-option
+options
 )
 .
 For
@@ -1155,6 +1158,10 @@ no
 whole
 -
 archive
+-
+Wl
+-
+rdynamic
 #
 #
 Contributing
