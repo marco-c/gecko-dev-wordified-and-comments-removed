@@ -11071,6 +11071,15 @@ kernel
 "
 WINNT
 "
+and
+target
+.
+cpu
+!
+=
+"
+aarch64
+"
 :
 opts
 .
