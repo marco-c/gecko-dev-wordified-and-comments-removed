@@ -334,7 +334,7 @@ class
 AppendAppNotesRunnable
 :
 public
-CancelableRunnable
+Runnable
 {
 public
 :
@@ -347,7 +347,7 @@ nsACString
 aFeatureStr
 )
 :
-CancelableRunnable
+Runnable
 (
 "
 AppendAppNotesRunnable

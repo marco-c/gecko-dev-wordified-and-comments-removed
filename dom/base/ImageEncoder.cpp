@@ -400,7 +400,7 @@ class
 EncodingCompleteEvent
 :
 public
-CancelableRunnable
+Runnable
 {
 virtual
 ~
@@ -420,7 +420,7 @@ EncodeCompleteCallback
 aEncodeCompleteCallback
 )
 :
-CancelableRunnable
+Runnable
 (
 "
 EncodingCompleteEvent
