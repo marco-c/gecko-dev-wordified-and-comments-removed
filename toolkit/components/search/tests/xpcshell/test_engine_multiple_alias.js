@@ -94,6 +94,7 @@ settingsFileWritten
 let
 engine
 =
+await
 Services
 .
 search
@@ -126,6 +127,7 @@ alias
 ;
 engine
 =
+await
 Services
 .
 search

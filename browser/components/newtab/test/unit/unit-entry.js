@@ -1766,6 +1766,7 @@ bing
 }
 getEngineByAlias
 :
+async
 (
 )
 =

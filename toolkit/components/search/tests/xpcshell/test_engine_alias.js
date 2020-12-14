@@ -99,6 +99,7 @@ settingsFileWritten
 let
 engine
 =
+await
 Services
 .
 search
@@ -150,6 +151,7 @@ init
 ;
 engine
 =
+await
 Services
 .
 search

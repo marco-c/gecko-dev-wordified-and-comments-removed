@@ -5531,14 +5531,16 @@ engineName
 null
 ;
 }
+async
 getEngineByAlias
 (
 alias
 )
 {
+await
 this
 .
-_ensureInitialized
+init
 (
 )
 ;

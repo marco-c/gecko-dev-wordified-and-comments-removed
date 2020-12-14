@@ -1236,6 +1236,7 @@ trim
 )
 ;
 }
+async
 after
 (
 searchTopSiteTag
@@ -1308,8 +1309,9 @@ clicked
 else
 {
 let
-engineName
+engine
 =
+await
 Services
 .
 search
@@ -1318,12 +1320,8 @@ getEngineByAlias
 (
 searchTopSiteTag
 )
-.
-name
 ;
-ok
-(
-ObjectUtils
+Assert
 .
 deepEqual
 (
@@ -1332,6 +1330,10 @@ gURLBar
 searchMode
 {
 engineName
+:
+engine
+.
+name
 entry
 :
 "
@@ -1350,7 +1352,6 @@ search
 mode
 .
 "
-)
 )
 ;
 ok

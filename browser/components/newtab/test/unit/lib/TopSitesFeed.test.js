@@ -14815,7 +14815,7 @@ getEngineByAlias
 "
 )
 .
-returns
+resolves
 (
 {
 wrappedJSObject
@@ -14856,6 +14856,7 @@ com
 "
 }
 ;
+await
 feed
 .
 _attachTippyTopIconForSearchShortcut
@@ -14952,7 +14953,7 @@ getEngineByAlias
 "
 )
 .
-returns
+resolves
 (
 {
 wrappedJSObject
@@ -14993,6 +14994,7 @@ com
 "
 }
 ;
+await
 feed
 .
 _attachTippyTopIconForSearchShortcut
@@ -15091,7 +15093,7 @@ getEngineByAlias
 "
 )
 .
-returns
+resolves
 (
 null
 )
@@ -15113,6 +15115,7 @@ com
 "
 }
 ;
+await
 feed
 .
 _attachTippyTopIconForSearchShortcut
@@ -15208,7 +15211,7 @@ getEngineByAlias
 "
 )
 .
-returns
+resolves
 (
 {
 wrappedJSObject
@@ -15249,6 +15252,7 @@ com
 "
 }
 ;
+await
 feed
 .
 _attachTippyTopIconForSearchShortcut

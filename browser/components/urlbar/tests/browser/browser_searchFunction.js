@@ -1406,6 +1406,9 @@ ALIAS
 }
 test
 {
+searchEngine
+:
+aliasEngine
 searchModeEntry
 :
 "

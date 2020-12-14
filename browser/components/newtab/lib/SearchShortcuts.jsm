@@ -343,6 +343,7 @@ getSearchProvider
 =
 getSearchProvider
 ;
+async
 function
 getSearchFormURL
 (
@@ -352,6 +353,7 @@ keyword
 const
 engine
 =
+await
 Services
 .
 search
