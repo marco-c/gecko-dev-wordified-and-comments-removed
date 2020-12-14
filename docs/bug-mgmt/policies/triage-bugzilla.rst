@@ -103,9 +103,7 @@ not
 UNTRIAGED
 and
 a
-non
--
-default
+severity
 value
 not
 equal
