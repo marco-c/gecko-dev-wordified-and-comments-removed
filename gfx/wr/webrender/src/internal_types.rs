@@ -1766,8 +1766,6 @@ External
 DeferredResolveIndex
 ImageBufferKind
 )
-PrevPassAlpha
-PrevPassColor
 Dummy
 }
 impl
@@ -1811,16 +1809,6 @@ image_buffer_kind
 =
 >
 image_buffer_kind
-TextureSource
-:
-:
-PrevPassAlpha
-|
-TextureSource
-:
-:
-PrevPassColor
-|
 TextureSource
 :
 :
