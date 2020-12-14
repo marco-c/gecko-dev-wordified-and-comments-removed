@@ -41,7 +41,6 @@ uint8_t
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 204ee610
