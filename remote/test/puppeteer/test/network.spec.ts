@@ -19,6 +19,8 @@ from
 .
 /
 utils
+.
+js
 '
 ;
 import

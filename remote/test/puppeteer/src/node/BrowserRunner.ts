@@ -10,6 +10,8 @@ from
 common
 /
 Debug
+.
+js
 '
 ;
 import
@@ -40,6 +42,8 @@ from
 common
 /
 assert
+.
+js
 '
 ;
 import
@@ -55,6 +59,8 @@ from
 common
 /
 helper
+.
+js
 '
 ;
 import
@@ -66,6 +72,8 @@ from
 .
 /
 LaunchOptions
+.
+js
 '
 ;
 import
@@ -80,10 +88,14 @@ from
 common
 /
 Connection
+.
+js
 '
 ;
 import
 {
+NodeWebSocketTransport
+as
 WebSocketTransport
 }
 from
@@ -91,9 +103,11 @@ from
 .
 .
 /
-common
+node
 /
-WebSocketTransport
+NodeWebSocketTransport
+.
+js
 '
 ;
 import
@@ -105,6 +119,8 @@ from
 .
 /
 PipeTransport
+.
+js
 '
 ;
 import
@@ -128,6 +144,8 @@ from
 common
 /
 Errors
+.
+js
 '
 ;
 import

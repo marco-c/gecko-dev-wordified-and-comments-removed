@@ -1,0 +1,14 @@
+export
+function
+getWebSocketEndpoint
+(
+)
+{
+return
+window
+.
+__ENV__
+.
+wsEndpoint
+;
+}

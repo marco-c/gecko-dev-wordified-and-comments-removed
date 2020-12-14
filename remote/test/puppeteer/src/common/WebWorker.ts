@@ -7,6 +7,8 @@ from
 .
 /
 EventEmitter
+.
+js
 '
 ;
 import
@@ -18,6 +20,8 @@ from
 .
 /
 helper
+.
+js
 '
 ;
 import
@@ -29,6 +33,8 @@ from
 .
 /
 ExecutionContext
+.
+js
 '
 ;
 import
@@ -40,6 +46,8 @@ from
 .
 /
 JSHandle
+.
+js
 '
 ;
 import
@@ -51,15 +59,18 @@ from
 .
 /
 Connection
+.
+js
 '
 ;
 import
+{
 Protocol
+}
 from
 '
-.
-.
-/
+devtools
+-
 protocol
 '
 ;
@@ -73,6 +84,8 @@ from
 .
 /
 EvalTypes
+.
+js
 '
 ;
 type
@@ -291,8 +304,6 @@ Runtime
 .
 enable
 '
-{
-}
 )
 .
 catch

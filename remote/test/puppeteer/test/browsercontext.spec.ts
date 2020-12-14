@@ -9,7 +9,6 @@ import
 {
 getTestState
 setupTestBrowserHooks
-itFailsFirefox
 }
 from
 '
@@ -27,6 +26,8 @@ from
 .
 /
 utils
+.
+js
 '
 ;
 describe
@@ -507,6 +508,16 @@ targetcreated
 page
 .
 evaluate
+<
+(
+url
+:
+string
+)
+=
+>
+void
+>
 (
 (
 url

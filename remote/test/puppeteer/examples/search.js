@@ -67,7 +67,9 @@ page
 type
 (
 '
-#
+.
+devsite
+-
 searchbox
 input
 '

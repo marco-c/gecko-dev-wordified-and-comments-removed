@@ -201,6 +201,13 @@ local
 -
 firefox
 /
+linux
+-
+*
+/
+firefox
+/
+firefox
 #
 Again
 for

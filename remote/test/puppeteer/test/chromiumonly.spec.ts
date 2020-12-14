@@ -528,7 +528,7 @@ to
 fetch
 browser
 webSocket
-url
+URL
 from
 '
 )

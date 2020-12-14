@@ -5,6 +5,8 @@ from
 .
 /
 utils
+.
+js
 '
 ;
 const
@@ -45,11 +47,17 @@ from
 .
 .
 /
-src
+lib
+/
+cjs
+/
+puppeteer
 /
 common
 /
 Target
+.
+js
 '
 ;
 describe
@@ -538,6 +546,8 @@ evaluate
 (
 (
 url
+:
+string
 )
 =
 >
@@ -1718,6 +1728,8 @@ evaluate
 (
 (
 url
+:
+string
 )
 =
 >

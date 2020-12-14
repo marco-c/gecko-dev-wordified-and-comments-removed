@@ -7,6 +7,8 @@ from
 .
 /
 assert
+.
+js
 '
 ;
 import
@@ -18,6 +20,8 @@ from
 .
 /
 helper
+.
+js
 '
 ;
 import
@@ -31,6 +35,8 @@ from
 .
 /
 JSHandle
+.
+js
 '
 ;
 import
@@ -42,6 +48,8 @@ from
 .
 /
 Connection
+.
+js
 '
 ;
 import
@@ -53,6 +61,8 @@ from
 .
 /
 DOMWorld
+.
+js
 '
 ;
 import
@@ -64,15 +74,18 @@ from
 .
 /
 FrameManager
+.
+js
 '
 ;
 import
+{
 Protocol
+}
 from
 '
-.
-.
-/
+devtools
+-
 protocol
 '
 ;
@@ -86,6 +99,8 @@ from
 .
 /
 EvalTypes
+.
+js
 '
 ;
 export
@@ -144,7 +159,6 @@ _world
 :
 DOMWorld
 ;
-private
 _contextId
 :
 number
@@ -1036,7 +1050,7 @@ Protocol
 .
 Runtime
 .
-evaluateReturnValue
+EvaluateResponse
 {
 if
 (

@@ -154,6 +154,8 @@ evaluate
 (
 (
 e
+:
+HTMLElement
 )
 =
 >
@@ -234,6 +236,8 @@ evaluate
 (
 (
 e
+:
+HTMLInputElement
 )
 =
 >
@@ -271,6 +275,8 @@ evaluate
 (
 (
 e
+:
+HTMLInputElement
 )
 =
 >
@@ -333,6 +339,8 @@ evaluate
 (
 (
 e
+:
+HTMLInputElement
 )
 =
 >

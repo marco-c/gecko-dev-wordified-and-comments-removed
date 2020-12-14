@@ -19,6 +19,8 @@ from
 .
 /
 utils
+.
+js
 '
 ;
 import
@@ -3586,6 +3588,8 @@ evaluate
 (
 (
 url
+:
+string
 )
 =
 >
@@ -3670,7 +3674,6 @@ to
 URL
 with
 hash
-and
 and
 fire
 requests

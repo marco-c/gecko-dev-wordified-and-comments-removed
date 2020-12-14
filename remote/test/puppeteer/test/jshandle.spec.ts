@@ -147,6 +147,8 @@ evaluate
 (
 (
 e
+:
+Navigator
 )
 =
 >
@@ -489,6 +491,12 @@ evaluate
 (
 (
 e
+:
+{
+FOO
+:
+number
+}
 )
 =
 >
@@ -564,6 +572,12 @@ evaluate
 (
 (
 e
+:
+{
+FOO
+:
+number
+}
 )
 =
 >
@@ -1443,6 +1457,8 @@ evaluate
 (
 (
 e
+:
+HTMLElement
 )
 =
 >
