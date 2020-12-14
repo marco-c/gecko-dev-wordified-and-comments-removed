@@ -547,7 +547,7 @@ Error
 "
 bad
 contour
-indeces
+indices
 :
 %
 u

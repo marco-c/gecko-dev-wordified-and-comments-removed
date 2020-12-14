@@ -908,7 +908,7 @@ OTS_FAILURE_MSG
 (
 "
 Bad
-subsitution
+substitution
 (
 %
 d

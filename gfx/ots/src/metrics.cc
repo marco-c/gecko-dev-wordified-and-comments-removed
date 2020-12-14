@@ -373,7 +373,7 @@ Error
 Failed
 to
 read
-reserverd
+reserved
 bytes
 "
 )
