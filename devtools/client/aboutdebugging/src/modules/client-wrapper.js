@@ -639,7 +639,6 @@ prefName
 async
 listTabs
 (
-options
 )
 {
 return
@@ -651,7 +650,6 @@ mainRoot
 .
 listTabs
 (
-options
 )
 ;
 }

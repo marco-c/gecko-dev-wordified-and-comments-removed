@@ -825,11 +825,6 @@ clientWrapper
 .
 listTabs
 (
-{
-favicons
-:
-true
-}
 )
 :
 [
