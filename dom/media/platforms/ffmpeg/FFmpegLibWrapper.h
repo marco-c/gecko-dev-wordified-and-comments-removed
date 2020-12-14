@@ -115,6 +115,11 @@ IsVAAPIAvailable
 (
 )
 ;
+void
+LinkVAAPILibs
+(
+)
+;
 #
 endif
 int
