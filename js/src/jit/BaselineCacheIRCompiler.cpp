@@ -11849,14 +11849,10 @@ size_t
 ;
 AllocatableGeneralRegisterSet
 available
-(
-ICStubCompilerBase
-:
-:
-availableGeneralRegs
+=
+BaselineICAvailableGeneralRegs
 (
 numInputsInRegs
-)
 )
 ;
 switch

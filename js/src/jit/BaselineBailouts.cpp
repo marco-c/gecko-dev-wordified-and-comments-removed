@@ -175,6 +175,15 @@ h
 #
 include
 "
+jit
+/
+SharedICRegisters
+.
+h
+"
+#
+include
+"
 js
 /
 friend
