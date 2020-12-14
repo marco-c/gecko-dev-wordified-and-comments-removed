@@ -7,6 +7,15 @@ WEBGLIPDL_H_
 #
 include
 "
+ipc
+/
+EnumSerializer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers

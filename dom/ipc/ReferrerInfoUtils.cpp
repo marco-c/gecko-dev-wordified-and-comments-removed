@@ -14,7 +14,7 @@ include
 "
 ipc
 /
-IPCMessageUtils
+IPCMessageUtilsSpecializations
 .
 h
 "

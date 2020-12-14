@@ -28,6 +28,15 @@ unordered_map
 #
 include
 "
+ipc
+/
+IPCMessageUtilsSpecializations
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

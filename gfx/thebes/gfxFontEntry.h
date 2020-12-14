@@ -68,6 +68,15 @@ h
 #
 include
 "
+ipc
+/
+EnumSerializer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AlreadyAddRefed

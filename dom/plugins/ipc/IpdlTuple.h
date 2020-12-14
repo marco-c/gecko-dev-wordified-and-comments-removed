@@ -7,6 +7,15 @@ dom_plugins_ipc_ipdltuple_h
 #
 include
 "
+ipc
+/
+IPCMessageUtilsSpecializations
+.
+h
+"
+#
+include
+"
 mozilla
 /
 plugins

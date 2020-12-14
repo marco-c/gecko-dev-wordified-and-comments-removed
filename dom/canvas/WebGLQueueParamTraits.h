@@ -12,6 +12,15 @@ type_traits
 #
 include
 "
+ipc
+/
+EnumSerializer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

@@ -18,6 +18,15 @@ include
 "
 ipc
 /
+EnumSerializer
+.
+h
+"
+#
+include
+"
+ipc
+/
 IPCMessageUtils
 .
 h
