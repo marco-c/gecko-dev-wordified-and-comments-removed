@@ -6403,6 +6403,13 @@ changed
 -
 sideload
 "
+changedPref
+:
+"
+fake
+.
+preference
+"
 }
 ]
 "
@@ -8242,6 +8249,13 @@ mockExperiments
 ]
 .
 enrollmentId
+changedPref
+:
+"
+fake
+.
+preference
+"
 }
 ]
 ]
