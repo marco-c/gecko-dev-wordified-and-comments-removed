@@ -92,8 +92,6 @@ Arg
 (
 4
 "
-nullable
-:
 number
 "
 )
