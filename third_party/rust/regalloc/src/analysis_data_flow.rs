@@ -4638,9 +4638,12 @@ num_mentions
 =
 plus1
 (
+plus1
+(
 pf
 .
 num_mentions
+)
 )
 ;
 let
