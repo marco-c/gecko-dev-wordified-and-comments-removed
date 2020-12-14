@@ -51,6 +51,9 @@ namespace
 js
 {
 class
+WithScope
+;
+class
 EnvironmentIter
 ;
 class
