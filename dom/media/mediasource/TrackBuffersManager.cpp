@@ -6124,7 +6124,6 @@ mInfo
 info
 ;
 }
-}
 mInitData
 =
 mParser
@@ -6134,6 +6133,7 @@ InitData
 (
 )
 ;
+}
 mChangeTypeReceived
 =
 false
