@@ -335,6 +335,9 @@ mIdleRequestId
 ;
 RefPtr
 <
+mozilla
+:
+:
 ipc
 :
 :
