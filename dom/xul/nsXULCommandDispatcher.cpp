@@ -615,8 +615,10 @@ Element
 aElement
 )
 {
+RefPtr
+<
 nsFocusManager
-*
+>
 fm
 =
 nsFocusManager
@@ -709,8 +711,10 @@ window
 NS_ERROR_FAILURE
 )
 ;
+RefPtr
+<
 nsFocusManager
-*
+>
 fm
 =
 nsFocusManager

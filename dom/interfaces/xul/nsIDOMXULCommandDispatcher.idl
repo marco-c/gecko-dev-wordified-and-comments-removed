@@ -130,10 +130,16 @@ nsIDOMXULCommandDispatcher
 :
 nsISupports
 {
+[
+setter_can_run_script
+]
 attribute
 Element
 focusedElement
 ;
+[
+setter_can_run_script
+]
 attribute
 mozIDOMWindowProxy
 focusedWindow

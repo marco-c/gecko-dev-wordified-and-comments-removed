@@ -106,6 +106,7 @@ private
 #
 ifndef
 NS_CONTEXT_MENU_IS_MOUSEUP
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 FireFocusOnTargetContent
 (
