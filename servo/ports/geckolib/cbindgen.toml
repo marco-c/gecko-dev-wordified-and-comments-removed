@@ -485,7 +485,7 @@ true
 cast_assert_name
 =
 "
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 "
 [
 export
