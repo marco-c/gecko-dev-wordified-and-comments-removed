@@ -1495,9 +1495,6 @@ form
 traits
 :
 {
-supportsOverflowDebugging2
-:
-true
 }
 }
 ;
