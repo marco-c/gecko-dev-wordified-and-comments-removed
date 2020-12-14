@@ -16268,6 +16268,7 @@ promises
 }
 refreshUpdateStatus
 :
+async
 function
 UM_refreshUpdateStatus
 (
@@ -23177,9 +23178,9 @@ then
 LOG
 (
 "
-UpdateManager
+Downloader
 :
-refreshUpdateStatus
+onStopRequest
 -
 Notifying
 observers
