@@ -146,8 +146,7 @@ Value
 vp
 )
 ;
-JSObject
-*
+bool
 loadAndExecute
 (
 JSContext
@@ -155,6 +154,7 @@ JSContext
 cx
 HandleString
 path
+MutableHandleValue
 )
 ;
 JSObject
@@ -210,8 +210,7 @@ HandleObject
 promise
 )
 ;
-JSObject
-*
+bool
 tryDynamicImport
 (
 JSContext
@@ -223,6 +222,8 @@ HandleString
 specifier
 HandleObject
 promise
+MutableHandleValue
+rval
 )
 ;
 JSObject
