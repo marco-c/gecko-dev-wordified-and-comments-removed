@@ -276,17 +276,6 @@ sLinkStatus
 =
 LinkStatus_FAILED
 ;
-#
-ifdef
-MOZ_WAYLAND
-sFFVPXLib
-.
-LinkVAAPILibs
-(
-)
-;
-#
-endif
 PathString
 lgpllibsname
 =
