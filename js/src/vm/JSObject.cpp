@@ -8925,6 +8925,9 @@ HandleObject
 a
 HandleObject
 b
+AutoEnterOOMUnsafeRegion
+&
+oomUnsafe
 )
 {
 MOZ_ASSERT
@@ -8994,9 +8997,6 @@ compartment
 (
 )
 )
-;
-AutoEnterOOMUnsafeRegion
-oomUnsafe
 ;
 MOZ_RELEASE_ASSERT
 (

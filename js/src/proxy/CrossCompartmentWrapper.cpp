@@ -3234,6 +3234,7 @@ swap
 cx
 wobj
 tobj
+oomUnsafe
 )
 ;
 }
