@@ -7089,12 +7089,6 @@ sample
 (
 document_id
 generated_frame_id
-&
-doc
-.
-scene
-.
-pipeline_epochs
 )
 )
 ;

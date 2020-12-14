@@ -456,13 +456,6 @@ const
 SampleTime
 &
 aSampleTime
-const
-wr
-:
-:
-WrPipelineIdEpochs
-*
-aEpochsBeingRendered
 )
 ;
 bool
