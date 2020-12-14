@@ -138,6 +138,13 @@ cpp
 "
 core
 /
+ProfilerMarkers
+.
+cpp
+"
+"
+core
+/
 RegisteredThread
 .
 cpp
