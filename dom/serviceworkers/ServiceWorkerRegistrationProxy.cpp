@@ -28,6 +28,15 @@ h
 #
 include
 "
+mozilla
+/
+ScopeExit
+.
+h
+"
+#
+include
+"
 ServiceWorkerManager
 .
 h

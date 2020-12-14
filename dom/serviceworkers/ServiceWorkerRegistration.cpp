@@ -96,6 +96,15 @@ h
 #
 include
 "
+mozilla
+/
+ScopeExit
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h

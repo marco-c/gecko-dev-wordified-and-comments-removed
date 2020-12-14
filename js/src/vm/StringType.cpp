@@ -95,15 +95,6 @@ include
 "
 mozilla
 /
-ScopeExit
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TextUtils
 .
 h

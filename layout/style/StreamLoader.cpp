@@ -21,15 +21,6 @@ h
 #
 include
 "
-mozilla
-/
-ScopeExit
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

@@ -97,6 +97,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WinDllServices
 .
 h

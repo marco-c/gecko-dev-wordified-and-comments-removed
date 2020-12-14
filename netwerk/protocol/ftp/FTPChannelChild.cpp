@@ -151,6 +151,15 @@ nsContentSecurityManager
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ScopeExit
+.
+h
+"
 using
 mozilla
 :

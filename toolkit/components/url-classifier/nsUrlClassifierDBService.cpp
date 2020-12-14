@@ -206,6 +206,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h

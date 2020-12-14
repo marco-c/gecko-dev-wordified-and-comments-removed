@@ -94,15 +94,6 @@ include
 "
 mozilla
 /
-ScopeExit
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StackWalk_windows
 .
 h

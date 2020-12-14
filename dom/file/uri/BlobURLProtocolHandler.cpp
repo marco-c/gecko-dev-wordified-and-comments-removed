@@ -177,6 +177,15 @@ h
 #
 include
 "
+mozilla
+/
+ScopeExit
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h

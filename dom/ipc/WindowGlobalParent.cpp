@@ -217,6 +217,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoCSSParser
 .
 h
