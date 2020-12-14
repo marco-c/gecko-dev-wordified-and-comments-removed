@@ -253,6 +253,12 @@ true
 ]
 [
 "
+imeCompositionClosesPanel
+"
+true
+]
+[
+"
 matchBuckets
 "
 "
