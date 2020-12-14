@@ -1609,6 +1609,7 @@ bool
 aOpenFlag
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 bool
 PerformAccesskey
