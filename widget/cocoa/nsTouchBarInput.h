@@ -27,6 +27,13 @@ nsTouchBarNativeAPIDefines
 .
 h
 "
+#
+include
+"
+nsCOMPtr
+.
+h
+"
 using
 namespace
 mozilla
