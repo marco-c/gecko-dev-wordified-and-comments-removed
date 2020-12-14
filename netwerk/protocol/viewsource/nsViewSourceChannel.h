@@ -281,6 +281,11 @@ nsIURI
 aResult
 )
 ;
+void
+UpdateChannelInterfaces
+(
+)
+;
 nsCOMPtr
 <
 nsIInterfaceRequestor
