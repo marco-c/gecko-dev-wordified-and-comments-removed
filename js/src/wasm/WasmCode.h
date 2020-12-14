@@ -1386,6 +1386,14 @@ globals
 TableDescVector
 tables
 ;
+#
+ifdef
+ENABLE_WASM_EXCEPTIONS
+EventDescVector
+events
+;
+#
+endif
 CacheableChars
 filename
 ;
