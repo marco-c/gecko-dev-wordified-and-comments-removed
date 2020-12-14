@@ -37706,10 +37706,8 @@ XDG_SESSION_TYPE
 if
 (
 sessionType
-)
-{
-return
-(
+&
+&
 strstr
 (
 sessionType
@@ -37717,10 +37715,13 @@ sessionType
 x11
 "
 )
-=
+!
 =
 nullptr
 )
+{
+return
+false
 ;
 }
 }
