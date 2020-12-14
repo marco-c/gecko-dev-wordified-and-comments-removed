@@ -744,12 +744,7 @@ wasmtime
 rev
 =
 "
-dcc52ba3f69d3de7cdbd787b936825d9c61e3c27
-"
-branch
-=
-"
-firefox85
+ac58a436ed84d1a88b4ff24367c5972cf8d3d405
 "
 [
 patch
@@ -782,10 +777,5 @@ wasmtime
 rev
 =
 "
-dcc52ba3f69d3de7cdbd787b936825d9c61e3c27
-"
-branch
-=
-"
-firefox85
+ac58a436ed84d1a88b4ff24367c5972cf8d3d405
 "
