@@ -34,6 +34,8 @@ import
 subprocess
 import
 shlex
+import
+functools
 from
 redo
 import
@@ -2717,6 +2719,11 @@ mozilla
 .
 com
 "
+functools
+.
+lru_cache
+(
+)
 def
 get_tc_secret
 (

@@ -2157,12 +2157,19 @@ metadata
 .
 run_hook
 (
+                
 "
 before_cycle
 "
+metadata
+self
+.
+env
 cycle
-=
-cycle
+self
+.
+_test_script
+            
 )
             
 try
@@ -2185,12 +2192,19 @@ metadata
 .
 run_hook
 (
+                    
 "
 after_cycle
 "
+metadata
+self
+.
+env
 cycle
-=
-cycle
+self
+.
+_test_script
+                
 )
         
 return

@@ -166,7 +166,7 @@ communicate
 (
 timeout
 =
-15
+45
 )
         
 if
@@ -219,6 +219,24 @@ tempfile
 mkdtemp
 (
 )
+)
+        
+if
+not
+Path
+(
+dmg
+)
+.
+exists
+(
+)
+:
+            
+raise
+FileNotFoundError
+(
+dmg
 )
         
 cmd

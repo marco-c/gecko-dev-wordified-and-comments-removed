@@ -86,6 +86,8 @@ run_hook
 self
 name
 *
+args
+*
 *
 kw
 )
@@ -101,6 +103,8 @@ hooks
 run
 (
 name
+*
+args
 *
 *
 kw
