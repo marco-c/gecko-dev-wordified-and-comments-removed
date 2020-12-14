@@ -120,6 +120,12 @@ function
 {
 return
 {
+overflowDebuggingPref
+:
+true
+targetBrowsersPref
+:
+true
 }
 ;
 }

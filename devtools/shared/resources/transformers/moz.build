@@ -77,6 +77,13 @@ events
 js
 "
 "
+root
+-
+node
+.
+js
+"
+"
 storage
 -
 local

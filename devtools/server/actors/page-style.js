@@ -906,6 +906,9 @@ stretch
 %
 "
 )
+getAttributesInOwnerDocument
+:
+true
 }
 }
 ;

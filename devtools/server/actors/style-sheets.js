@@ -255,6 +255,12 @@ return
 traits
 :
 {
+isFileNameSupported
+:
+true
+supportResourceRequests
+:
+true
 }
 }
 ;
