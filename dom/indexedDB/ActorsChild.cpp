@@ -2920,14 +2920,8 @@ autoTransaction
 AutoSetCurrentTransaction
 {
 aTransaction
-?
-SomeRef
-(
-*
-aTransaction
-)
-:
-Nothing
+.
+maybeDeref
 (
 )
 }

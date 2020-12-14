@@ -1343,16 +1343,9 @@ maybeDeref
 const
 {
 return
-mRawPtr
-?
-SomeRef
+ToMaybeRef
 (
-*
 mRawPtr
-)
-:
-Nothing
-(
 )
 ;
 }

@@ -739,14 +739,8 @@ AssertIsOnOwningThread
 ;
 return
 mTransaction
-?
-SomeRef
-(
-*
-mTransaction
-)
-:
-Nothing
+.
+maybeDeref
 (
 )
 ;

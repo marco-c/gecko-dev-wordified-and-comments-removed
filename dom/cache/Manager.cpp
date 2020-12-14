@@ -1217,14 +1217,8 @@ ref
 Init
 (
 oldManager
-?
-SomeRef
-(
-*
-oldManager
-)
-:
-Nothing
+.
+maybeDeref
 (
 )
 )
