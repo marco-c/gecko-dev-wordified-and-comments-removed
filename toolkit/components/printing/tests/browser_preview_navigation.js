@@ -1242,10 +1242,6 @@ html
 ;
 }
 )
-.
-skip
-(
-)
 ;
 add_task
 (
