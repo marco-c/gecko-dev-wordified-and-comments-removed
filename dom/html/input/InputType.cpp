@@ -709,8 +709,10 @@ const
 nsAString
 &
 aValue
-uint32_t
-aFlags
+const
+ValueSetterOptions
+&
+aOptions
 )
 {
 RefPtr
@@ -729,7 +731,7 @@ inputElement
 SetValueInternal
 (
 aValue
-aFlags
+aOptions
 )
 ;
 }

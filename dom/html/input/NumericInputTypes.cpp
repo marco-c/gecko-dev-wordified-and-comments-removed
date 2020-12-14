@@ -882,7 +882,10 @@ value
 TextControlState
 :
 :
-eSetValue_Internal
+ValueSetterOption
+:
+:
+ByInternalAPI
 )
 ;
 }
