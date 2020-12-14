@@ -11171,6 +11171,14 @@ aAddonState
 .
 mtime
 ;
+XPIProvider
+.
+persistStartupData
+(
+aNewAddon
+aAddonState
+)
+;
 return
 XPIDatabase
 .
