@@ -550,6 +550,15 @@ enableWasmSimd
 ;
 #
 endif
+#
+ifdef
+ENABLE_WASM_EXCEPTIONS
+extern
+bool
+enableWasmExceptions
+;
+#
+endif
 extern
 bool
 enableWasmVerbose
