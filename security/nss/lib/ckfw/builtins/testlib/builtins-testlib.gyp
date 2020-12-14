@@ -342,10 +342,9 @@ mapfile
 '
 :
 '
-.
-.
-/
 nssckbi
+-
+testlib
 .
 def
 '

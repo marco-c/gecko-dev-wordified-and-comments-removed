@@ -1082,6 +1082,12 @@ mozpkix_only
 :
 0
 '
+mozilla_central
+%
+'
+:
+0
+'
 coverage
 %
 '
