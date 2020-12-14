@@ -1589,6 +1589,15 @@ section
 -
 header
 -
+highlights
+=
+Highlights
+newtab
+-
+section
+-
+header
+-
 recent
 -
 activity
