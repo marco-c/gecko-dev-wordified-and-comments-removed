@@ -11344,6 +11344,7 @@ GenerateImportFunction
 (
 masm
 fi
+*
 env
 .
 funcs
@@ -11351,10 +11352,7 @@ funcs
 funcIndex
 ]
 .
-type
--
->
-id
+typeId
 &
 offsets
 )

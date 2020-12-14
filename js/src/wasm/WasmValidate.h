@@ -319,6 +319,9 @@ numStructTypes
 TypeDefVector
 types
 ;
+FuncTypeIdDescVector
+typeIds
+;
 FuncDescVector
 funcs
 ;
