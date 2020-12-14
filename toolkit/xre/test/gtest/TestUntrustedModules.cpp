@@ -897,17 +897,6 @@ GetModuleCount
 0
 )
 ;
-EXPECT_TRUE
-(
-aData
-.
-mXULLoadDurationMS
-.
-isNothing
-(
-)
-)
-;
 EXPECT_EQ
 (
 aData
