@@ -7860,12 +7860,6 @@ case
 JSOp
 :
 :
-NewObjectWithGroup
-:
-case
-JSOp
-:
-:
 InitElem
 :
 case

@@ -11194,12 +11194,6 @@ case
 JSOp
 :
 :
-NewObjectWithGroup
-:
-case
-JSOp
-:
-:
 ObjWithProto
 :
 return
