@@ -30,7 +30,7 @@ document
 getElementById
 (
 "
-PlacesToolbar
+PersonalToolbar
 "
 )
 ;
