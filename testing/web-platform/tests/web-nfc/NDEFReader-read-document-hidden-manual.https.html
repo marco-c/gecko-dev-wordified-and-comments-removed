@@ -136,7 +136,7 @@ mockNFC
 >
 {
 const
-reader
+ndef
 =
 new
 NDEFReader
@@ -144,7 +144,7 @@ NDEFReader
 )
 ;
 const
-readerWatcher
+ndefWatcher
 =
 new
 EventWatcher
@@ -174,7 +174,7 @@ reject
 =
 >
 {
-readerWatcher
+ndefWatcher
 .
 wait_for
 (
@@ -211,7 +211,7 @@ resolve
 )
 ;
 await
-reader
+ndef
 .
 scan
 (
