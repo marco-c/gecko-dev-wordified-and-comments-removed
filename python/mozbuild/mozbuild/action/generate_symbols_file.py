@@ -389,6 +389,20 @@ get
 GCC_USE_GNU_LD
 "
 )
+or
+buildconfig
+.
+substs
+[
+"
+OS_TARGET
+"
+]
+=
+=
+"
+SunOS
+"
 :
         
 output
