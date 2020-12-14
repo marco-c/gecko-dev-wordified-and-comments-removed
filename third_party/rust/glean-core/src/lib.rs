@@ -475,7 +475,7 @@ is_err
 log
 :
 :
-error
+warn
 !
 (
 "
@@ -1545,7 +1545,7 @@ get_data_path
 log
 :
 :
-error
+warn
 !
 (
 "
@@ -1600,7 +1600,7 @@ clear_all
 log
 :
 :
-error
+warn
 !
 (
 "
@@ -2528,7 +2528,7 @@ self
 log
 :
 :
-debug
+trace
 !
 (
 "

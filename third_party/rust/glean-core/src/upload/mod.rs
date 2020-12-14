@@ -997,7 +997,7 @@ e
 log
 :
 :
-error
+warn
 !
 (
 "
@@ -1141,7 +1141,7 @@ document_id
 log
 :
 :
-trace
+warn
 !
 (
 "
@@ -2443,7 +2443,7 @@ HttpStatus
 log
 :
 :
-error
+warn
 !
 (
 "
@@ -2491,7 +2491,7 @@ _
 log
 :
 :
-info
+warn
 !
 (
 "

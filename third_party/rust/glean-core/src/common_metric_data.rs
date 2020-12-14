@@ -19,6 +19,13 @@ Error
 ErrorKind
 }
 ;
+#
+[
+allow
+(
+unused_imports
+)
+]
 use
 crate
 :
@@ -26,7 +33,10 @@ crate
 metrics
 :
 :
+{
 dynamic_label
+LabeledMetric
+}
 ;
 use
 crate

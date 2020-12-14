@@ -490,7 +490,7 @@ None
 log
 :
 :
-error
+warn
 !
 (
 "
@@ -532,7 +532,7 @@ e
 log
 :
 :
-error
+warn
 !
 (
 "
@@ -626,7 +626,7 @@ None
 log
 :
 :
-error
+warn
 !
 (
 "
@@ -678,7 +678,7 @@ e
 log
 :
 :
-error
+warn
 !
 (
 "
@@ -926,7 +926,7 @@ PingPayload
 log
 :
 :
-info
+trace
 !
 (
 "

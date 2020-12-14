@@ -481,7 +481,7 @@ store_name
 log
 :
 :
-error
+warn
 !
 (
 "

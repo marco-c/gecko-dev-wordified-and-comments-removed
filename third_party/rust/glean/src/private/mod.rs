@@ -11,6 +11,9 @@ mod
 labeled
 ;
 mod
+memory_distribution
+;
+mod
 ping
 ;
 mod
@@ -68,6 +71,13 @@ labeled
 AllowLabeled
 LabeledMetric
 }
+;
+pub
+use
+memory_distribution
+:
+:
+MemoryDistributionMetric
 ;
 pub
 use
