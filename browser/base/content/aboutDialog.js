@@ -436,6 +436,8 @@ getPrefType
 app
 .
 releaseNotesURL
+.
+aboutDialog
 "
 )
 ;
@@ -464,6 +466,8 @@ formatURLPref
 app
 .
 releaseNotesURL
+.
+aboutDialog
 "
 )
 ;
