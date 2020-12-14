@@ -8494,7 +8494,7 @@ mWaitVBlankMonitor
 (
 NULL
 )
-mIsWindows10OrLater
+mIsWindows8OrLater
 (
 false
 )
@@ -8536,9 +8536,9 @@ SetVsyncRate
 (
 )
 ;
-mIsWindows10OrLater
+mIsWindows8OrLater
 =
-IsWin10OrLater
+IsWin8OrLater
 (
 )
 ;
@@ -9273,7 +9273,7 @@ E_FAIL
 ;
 if
 (
-mIsWindows10OrLater
+mIsWindows8OrLater
 &
 &
 !
@@ -9659,7 +9659,7 @@ IDXGIOutput
 mWaitVBlankOutput
 ;
 bool
-mIsWindows10OrLater
+mIsWindows8OrLater
 ;
 }
 ;
