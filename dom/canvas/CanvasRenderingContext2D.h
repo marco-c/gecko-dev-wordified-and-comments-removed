@@ -3002,7 +3002,7 @@ JSObject
 aRetval
 )
 ;
-nsresult
+void
 PutImageData_explicit
 (
 int32_t
@@ -3029,6 +3029,8 @@ int32_t
 aDirtyWidth
 int32_t
 aDirtyHeight
+ErrorResult
+&
 )
 ;
 bool
