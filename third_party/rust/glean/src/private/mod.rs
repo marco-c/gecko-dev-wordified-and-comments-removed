@@ -5,6 +5,9 @@ mod
 counter
 ;
 mod
+event
+;
+mod
 labeled
 ;
 mod
@@ -18,6 +21,9 @@ recorded_experiment_data
 ;
 mod
 string
+;
+mod
+timespan
 ;
 mod
 uuid
@@ -45,6 +51,13 @@ counter
 :
 :
 CounterMetric
+;
+pub
+use
+event
+:
+:
+EventMetric
 ;
 pub
 use
@@ -83,4 +96,11 @@ string
 :
 :
 StringMetric
+;
+pub
+use
+timespan
+:
+:
+TimespanMetric
 ;
