@@ -112,7 +112,7 @@ aSuggestions
 sync
 SetDictionary
 (
-nsString
+nsCString
 aDictionary
 )
 returns
@@ -181,7 +181,7 @@ method
 async
 SetDictionaryFromList
 (
-nsString
+nsCString
 [
 ]
 aList
@@ -190,7 +190,7 @@ returns
 (
 bool
 aSuccess
-nsString
+nsCString
 aDictionary
 )
 ;

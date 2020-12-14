@@ -9309,7 +9309,7 @@ GetAvailableDictionaries
 (
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aDictionaries
@@ -12665,7 +12665,7 @@ RecvUpdateDictionaryList
 (
 nsTArray
 <
-nsString
+nsCString
 >
 &
 &

@@ -164,7 +164,7 @@ nsString
 >
 mDictionaryList
 ;
-nsString
+nsCString
 mPreferredLang
 ;
 uint32_t
@@ -191,13 +191,13 @@ void
 BuildDictionaryList
 (
 const
-nsAString
+nsACString
 &
 aDictName
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aDictList
@@ -206,10 +206,10 @@ dictCompare
 aCompareType
 nsTArray
 <
-nsString
+nsCString
 >
 &
-aTryList
+aOutList
 )
 ;
 nsresult

@@ -1812,7 +1812,7 @@ RecvUpdateDictionaryList
 (
 nsTArray
 <
-nsString
+nsCString
 >
 &
 &
@@ -2703,7 +2703,7 @@ GetAvailableDictionaries
 (
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aDictionaries
@@ -4685,7 +4685,7 @@ mIdleObservers
 ;
 nsTArray
 <
-nsString
+nsCString
 >
 mAvailableDictionaries
 ;

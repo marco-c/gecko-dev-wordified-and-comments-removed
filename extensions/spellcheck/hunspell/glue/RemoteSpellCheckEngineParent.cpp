@@ -72,7 +72,7 @@ RemoteSpellcheckEngineParent
 RecvSetDictionary
 (
 const
-nsString
+nsCString
 &
 aDictionary
 bool
@@ -119,7 +119,7 @@ RecvSetDictionaryFromList
 (
 nsTArray
 <
-nsString
+nsCString
 >
 &
 &
@@ -166,7 +166,7 @@ const
 bool
 &
 const
-nsString
+nsCString
 &
 >
 (
@@ -190,12 +190,11 @@ const
 bool
 &
 const
-nsString
+nsCString
 &
 >
 (
 false
-u
 "
 "
 _ns

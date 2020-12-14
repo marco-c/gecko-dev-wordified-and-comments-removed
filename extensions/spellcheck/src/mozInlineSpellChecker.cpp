@@ -5681,7 +5681,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsAutoString
+nsAutoCString
 currentDictionary
 ;
 rv
