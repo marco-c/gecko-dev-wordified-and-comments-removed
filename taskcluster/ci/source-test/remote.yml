@@ -231,6 +231,15 @@ worker
 pup_raw
 .
 log
+optimization
+:
+skip
+-
+unless
+-
+expanded
+:
+null
 puppeteer
 :
 description
