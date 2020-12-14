@@ -9596,6 +9596,14 @@ IonExceptionDebugMode
 return
 false
 ;
+case
+BailoutKind
+:
+:
+OnStackInvalidation
+:
+break
+;
 default
 :
 MOZ_CRASH

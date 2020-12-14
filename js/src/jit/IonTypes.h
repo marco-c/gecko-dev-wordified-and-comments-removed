@@ -226,6 +226,7 @@ FirstExecution
 NotOptimizedArgumentsGuard
 UninitializedLexical
 IonExceptionDebugMode
+OnStackInvalidation
 Limit
 }
 ;
@@ -407,6 +408,17 @@ IonExceptionDebugMode
 return
 "
 IonExceptionDebugMode
+"
+;
+case
+BailoutKind
+:
+:
+OnStackInvalidation
+:
+return
+"
+OnStackInvalidation
 "
 ;
 case
