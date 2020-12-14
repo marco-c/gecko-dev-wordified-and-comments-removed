@@ -55397,7 +55397,7 @@ type
 RelaxedAtomicBool
 value
 :
-true
+IS_EARLY_BETA_OR_EARLIER
 mirror
 :
 always
@@ -55425,7 +55425,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+true
 mirror
 :
 always
