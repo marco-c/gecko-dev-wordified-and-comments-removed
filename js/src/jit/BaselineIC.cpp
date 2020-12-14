@@ -1205,7 +1205,7 @@ isFallback
 stub
 -
 >
-toCacheIR_Regular
+toCacheIRStub
 (
 )
 -
@@ -3407,7 +3407,7 @@ isFallback
 )
 {
 return
-toCacheIR_Regular
+toCacheIRStub
 (
 )
 -
@@ -3497,7 +3497,7 @@ enteredCount
 ;
 }
 return
-toCacheIR_Regular
+toCacheIRStub
 (
 )
 -
@@ -3601,7 +3601,7 @@ script
 }
 }
 void
-ICCacheIR_Regular
+ICCacheIRStub
 :
 :
 trace
@@ -4209,7 +4209,7 @@ needsIncrementalBarrier
 stub
 -
 >
-toCacheIR_Regular
+toCacheIRStub
 (
 )
 -
@@ -14964,7 +14964,7 @@ cacheIRStubInfo
 const
 {
 return
-toCacheIR_Regular
+toCacheIRStub
 (
 )
 -
@@ -14985,7 +14985,7 @@ cacheIRStubData
 )
 {
 return
-toCacheIR_Regular
+toCacheIRStub
 (
 )
 -

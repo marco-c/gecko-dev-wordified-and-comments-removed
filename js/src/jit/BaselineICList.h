@@ -149,12 +149,6 @@ _
 (
 GetProp_Fallback
 )
-\
-\
-_
-(
-CacheIR_Regular
-)
 #
 define
 IC_BASELINE_FALLBACK_CODE_KIND_LIST
