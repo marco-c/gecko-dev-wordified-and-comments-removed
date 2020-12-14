@@ -18530,7 +18530,7 @@ WasmTable
 wasm
 :
 :
-FuncTypeIdDesc
+TypeIdDesc
 funcTypeId
 =
 callee
@@ -18552,7 +18552,7 @@ case
 wasm
 :
 :
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 Global
@@ -18573,7 +18573,7 @@ case
 wasm
 :
 :
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 Immediate
@@ -18597,7 +18597,7 @@ case
 wasm
 :
 :
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 None

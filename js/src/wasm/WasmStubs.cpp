@@ -10933,7 +10933,7 @@ const
 FuncImport
 &
 fi
-FuncTypeIdDesc
+TypeIdDesc
 funcTypeId
 FuncOffsets
 *

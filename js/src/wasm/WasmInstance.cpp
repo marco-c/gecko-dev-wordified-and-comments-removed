@@ -444,7 +444,7 @@ uintptr_t
 funcTypeId
 )
 &
-FuncTypeIdDesc
+TypeIdDesc
 :
 :
 ImmediateBit
@@ -570,7 +570,7 @@ Instance
 addressOfFuncTypeId
 (
 const
-FuncTypeIdDesc
+TypeIdDesc
 &
 funcTypeId
 )

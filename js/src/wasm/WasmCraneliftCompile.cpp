@@ -569,7 +569,7 @@ FuncType
 &
 funcType
 const
-FuncTypeIdDesc
+TypeIdDesc
 &
 funcTypeId
 uint32_t
@@ -2248,7 +2248,7 @@ type
 ;
 }
 const
-FuncTypeIdDesc
+TypeIdDesc
 *
 env_func_sig_id
 (
@@ -2410,7 +2410,7 @@ funcType
 ;
 }
 const
-FuncTypeIdDesc
+TypeIdDesc
 *
 env_signature_id
 (
@@ -2954,7 +2954,7 @@ index
 type
 ;
 const
-FuncTypeIdDesc
+TypeIdDesc
 &
 funcTypeId
 =
@@ -3939,11 +3939,11 @@ begin
 )
 ;
 }
-FuncTypeIdDescKind
+TypeIdDescKind
 funcType_idKind
 (
 const
-FuncTypeIdDesc
+TypeIdDesc
 *
 funcTypeId
 )
@@ -3961,7 +3961,7 @@ size_t
 funcType_idImmediate
 (
 const
-FuncTypeIdDesc
+TypeIdDesc
 *
 funcTypeId
 )
@@ -3979,7 +3979,7 @@ size_t
 funcType_idTlsOffset
 (
 const
-FuncTypeIdDesc
+TypeIdDesc
 *
 funcTypeId
 )

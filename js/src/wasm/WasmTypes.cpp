@@ -1541,7 +1541,7 @@ ValType
 ;
 }
 bool
-FuncTypeIdDesc
+TypeIdDesc
 :
 :
 isGlobal
@@ -1658,8 +1658,8 @@ return
 false
 ;
 }
-FuncTypeIdDesc
-FuncTypeIdDesc
+TypeIdDesc
+TypeIdDesc
 :
 :
 global
@@ -1681,9 +1681,9 @@ funcType
 )
 ;
 return
-FuncTypeIdDesc
+TypeIdDesc
 (
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 Global
@@ -1731,8 +1731,8 @@ return
 length
 ;
 }
-FuncTypeIdDesc
-FuncTypeIdDesc
+TypeIdDesc
+TypeIdDesc
 :
 :
 immediate
@@ -1893,9 +1893,9 @@ sTotalBits
 )
 ;
 return
-FuncTypeIdDesc
+TypeIdDesc
 (
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 Immediate

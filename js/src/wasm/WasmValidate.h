@@ -319,7 +319,7 @@ numStructTypes
 TypeDefVector
 types
 ;
-FuncTypeIdDescVector
+TypeIdDescVector
 typeIds
 ;
 FuncDescVector

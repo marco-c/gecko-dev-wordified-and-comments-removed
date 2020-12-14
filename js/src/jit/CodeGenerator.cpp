@@ -67106,7 +67106,7 @@ generateWasm
 wasm
 :
 :
-FuncTypeIdDesc
+TypeIdDesc
 funcTypeId
 wasm
 :

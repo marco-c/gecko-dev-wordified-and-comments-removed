@@ -157,7 +157,7 @@ void
 addressOfFuncTypeId
 (
 const
-FuncTypeIdDesc
+TypeIdDesc
 &
 funcTypeId
 )

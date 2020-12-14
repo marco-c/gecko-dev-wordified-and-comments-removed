@@ -5096,7 +5096,7 @@ id_kind
 bindings
 :
 :
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 None
@@ -5485,7 +5485,7 @@ id_kind
 bindings
 :
 :
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 None
@@ -5495,7 +5495,7 @@ None
 bindings
 :
 :
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 Immediate
@@ -5531,7 +5531,7 @@ imm
 bindings
 :
 :
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 Global

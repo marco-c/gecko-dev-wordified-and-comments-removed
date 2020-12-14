@@ -9919,7 +9919,7 @@ typeIds
 .
 append
 (
-FuncTypeIdDesc
+TypeIdDesc
 (
 )
 )

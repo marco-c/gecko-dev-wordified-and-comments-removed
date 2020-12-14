@@ -2673,7 +2673,7 @@ MacroAssembler
 &
 masm
 const
-FuncTypeIdDesc
+TypeIdDesc
 &
 funcTypeId
 const
@@ -2796,7 +2796,7 @@ kind
 )
 {
 case
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 Global
@@ -2854,7 +2854,7 @@ break
 ;
 }
 case
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 Immediate
@@ -2902,7 +2902,7 @@ break
 ;
 }
 case
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 None

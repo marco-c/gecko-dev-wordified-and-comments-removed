@@ -8072,7 +8072,7 @@ funcType
 )
 ;
 const
-FuncTypeIdDesc
+TypeIdDesc
 &
 funcTypeId
 =
@@ -8112,7 +8112,7 @@ kind
 )
 =
 =
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 None
@@ -8229,7 +8229,7 @@ kind
 )
 !
 =
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 None
@@ -34251,7 +34251,7 @@ index
 type
 ;
 const
-FuncTypeIdDesc
+TypeIdDesc
 &
 funcTypeId
 =

@@ -1354,7 +1354,7 @@ funcType
 (
 )
 ;
-FuncTypeIdDesc
+TypeIdDesc
 &
 funcTypeId
 =
@@ -1368,7 +1368,7 @@ typeIndex
 ;
 if
 (
-FuncTypeIdDesc
+TypeIdDesc
 :
 :
 isGlobal
@@ -1406,7 +1406,7 @@ false
 }
 funcTypeId
 =
-FuncTypeIdDesc
+TypeIdDesc
 :
 :
 global
@@ -1463,7 +1463,7 @@ else
 {
 funcTypeId
 =
-FuncTypeIdDesc
+TypeIdDesc
 :
 :
 immediate
