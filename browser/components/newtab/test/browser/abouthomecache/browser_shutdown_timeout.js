@@ -93,6 +93,11 @@ await
 simulateRestart
 (
 browser
+{
+expectTimeout
+:
+true
+}
 )
 ;
 Assert
@@ -114,6 +119,11 @@ block
 forever
 .
 "
+)
+;
+await
+clearCache
+(
 )
 ;
 }
