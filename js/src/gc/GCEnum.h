@@ -563,6 +563,16 @@ WasmTableTable
 \
 _
 (
+WasmExceptionTag
+)
+\
+_
+(
+WasmExceptionType
+)
+\
+_
+(
 FileObjectFile
 )
 \
