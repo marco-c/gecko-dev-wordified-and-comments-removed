@@ -13408,10 +13408,6 @@ nsAutoSyncOperation
 sync
 (
 mSuspendedDoc
-SyncOperationBehavior
-:
-:
-eSuspendInput
 )
 ;
 if
