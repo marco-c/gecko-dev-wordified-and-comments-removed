@@ -1073,7 +1073,7 @@ is
 buttons
 .
 length
-buttonCount
+2
 "
 proper
 number
