@@ -917,6 +917,16 @@ nurseryAllocatedStrings
 this
 0
 )
+markedStrings
+(
+this
+0
+)
+finalizedStrings
+(
+this
+0
+)
 allocNurseryStrings
 (
 this

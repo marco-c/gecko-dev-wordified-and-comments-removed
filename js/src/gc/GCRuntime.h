@@ -4413,6 +4413,11 @@ finishCollection
 (
 )
 ;
+void
+maybeStopStringPretenuring
+(
+)
+;
 IncrementalProgress
 joinSweepMarkTask
 (
