@@ -2306,6 +2306,9 @@ mWindowScaleFactorChanged
 int
 mWindowScaleFactor
 ;
+bool
+mCompositedScreen
+;
 private
 :
 void
