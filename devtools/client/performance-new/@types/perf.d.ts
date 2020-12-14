@@ -239,6 +239,7 @@ destroy
 =
 >
 void
+;
 getSupportedFeatures
 :
 (
@@ -251,6 +252,7 @@ string
 [
 ]
 >
+;
 }
 export
 interface
@@ -517,6 +519,7 @@ promptEnvRestart
 null
 |
 string
+;
 }
 export
 type
@@ -675,6 +678,7 @@ Array
 debugName
 :
 string
+;
 breakpadId
 :
 string
@@ -896,6 +900,7 @@ supportedFeatures
 string
 [
 ]
+;
 openAboutProfiling
 ?
 :
@@ -904,6 +909,7 @@ openAboutProfiling
 =
 >
 void
+;
 openRemoteDevTools
 ?
 :
@@ -912,6 +918,7 @@ openRemoteDevTools
 =
 >
 void
+;
 }
 export
 type
@@ -1006,6 +1013,7 @@ promptEnvRestart
 string
 |
 null
+;
 }
 |
 {
@@ -1073,6 +1081,7 @@ openAboutProfiling
 =
 >
 void
+;
 openRemoteDevTools
 ?
 :
@@ -1081,6 +1090,7 @@ openRemoteDevTools
 =
 >
 void
+;
 recordingSettingsFromPreferences
 :
 RecordingStateFromPreferences
@@ -1482,12 +1492,15 @@ ScaleFunctions
 fromFractionToValue
 :
 NumberScaler
+;
 fromValueToFraction
 :
 NumberScaler
+;
 fromFractionToSingleDigitValue
 :
 NumberScaler
+;
 }
 export
 interface
@@ -1604,6 +1617,7 @@ requestId
 number
 ;
 }
+;
 export
 class
 ProfilerWebChannel
@@ -1670,22 +1684,28 @@ FeatureDescription
 name
 :
 string
+;
 value
 :
 string
+;
 title
 :
 string
+;
 recommended
 ?
 :
 boolean
+;
 experimental
 ?
 :
 boolean
+;
 disabledReason
 ?
 :
 string
+;
 }
