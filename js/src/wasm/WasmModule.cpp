@@ -5704,11 +5704,11 @@ MOZ_CRASH
 globalObj
 -
 >
-setVal
+val
 (
-cx
-globalVal
 )
+=
+globalVal
 ;
 return
 true
