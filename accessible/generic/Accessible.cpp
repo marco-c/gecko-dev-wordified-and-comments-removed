@@ -3951,8 +3951,12 @@ this
 }
 }
 }
+if
+(
+RefPtr
+<
 nsFocusManager
-*
+>
 fm
 =
 nsFocusManager
@@ -3961,10 +3965,6 @@ nsFocusManager
 GetFocusManager
 (
 )
-;
-if
-(
-fm
 )
 {
 dom
