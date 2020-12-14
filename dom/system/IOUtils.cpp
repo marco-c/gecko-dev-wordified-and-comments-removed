@@ -391,8 +391,8 @@ while
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -8533,7 +8533,6 @@ mCompress
 return
 opts
 ;
-}
 }
 }
 #
