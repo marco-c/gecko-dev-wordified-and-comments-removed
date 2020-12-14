@@ -304,8 +304,7 @@ aModule
 )
 ;
 static
-JSObject
-*
+nsresult
 ModuleEvaluate
 (
 JSContext
@@ -320,6 +319,17 @@ JSObject
 *
 >
 aModule
+JS
+:
+:
+MutableHandle
+<
+JS
+:
+:
+Value
+>
+aResult
 )
 ;
 static
