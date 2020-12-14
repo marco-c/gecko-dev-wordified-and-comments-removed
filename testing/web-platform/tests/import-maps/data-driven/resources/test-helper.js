@@ -541,7 +541,7 @@ event
 .
 data
 .
-result
+message
 )
 )
 ;
