@@ -83,8 +83,8 @@ int32_t
 TestGetValue
 (
 const
-char
-*
+nsACString
+&
 aStorageName
 )
 const
@@ -95,6 +95,7 @@ if
 fog_counter_test_has_value
 (
 mId
+&
 aStorageName
 )
 )
@@ -111,6 +112,7 @@ Some
 fog_counter_test_get_value
 (
 mId
+&
 aStorageName
 )
 )

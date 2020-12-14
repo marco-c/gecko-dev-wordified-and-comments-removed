@@ -43,7 +43,7 @@ bool
 testHasValue
 (
 in
-ACString
+AUTF8String
 aStorageName
 )
 ;
@@ -54,7 +54,7 @@ bool
 testGetValue
 (
 in
-ACString
+AUTF8String
 aStorageName
 )
 ;
@@ -101,7 +101,7 @@ jsval
 testGetValue
 (
 in
-ACString
+AUTF8String
 aStorageName
 )
 ;
@@ -139,7 +139,7 @@ jsval
 testGetValue
 (
 in
-ACString
+AUTF8String
 aStorageName
 )
 ;
@@ -169,7 +169,7 @@ void
 set
 (
 in
-ACString
+AUTF8String
 value
 )
 ;
@@ -180,7 +180,7 @@ jsval
 testGetValue
 (
 in
-ACString
+AUTF8String
 aStorageName
 )
 ;
@@ -220,7 +220,7 @@ jsval
 testGetValue
 (
 in
-ACString
+AUTF8String
 aStorageName
 )
 ;
@@ -250,7 +250,7 @@ void
 set
 (
 in
-ACString
+AUTF8String
 aValue
 )
 ;
@@ -266,7 +266,7 @@ jsval
 testGetValue
 (
 in
-ACString
+AUTF8String
 aStorageName
 )
 ;

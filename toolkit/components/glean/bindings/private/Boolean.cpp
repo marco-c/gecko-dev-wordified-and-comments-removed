@@ -65,9 +65,6 @@ JSContext
 cx
 )
 {
-this
--
->
 mBoolean
 .
 Set
@@ -100,9 +97,6 @@ result
 *
 result
 =
-this
--
->
 mBoolean
 .
 TestHasValue
@@ -142,9 +136,6 @@ result
 *
 result
 =
-this
--
->
 mBoolean
 .
 TestGetValue
