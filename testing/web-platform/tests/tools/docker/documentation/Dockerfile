@@ -1,9 +1,11 @@
 FROM
 python
 :
-2
+3
+.
+8
 -
-stretch
+buster
 RUN
 apt
 -
@@ -19,3 +21,4 @@ install
 -
 yes
 git
+virtualenv

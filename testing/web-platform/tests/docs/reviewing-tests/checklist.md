@@ -71,7 +71,11 @@ reviewing
 tests
 ]
 (
+.
+/
 index
+.
+md
 )
 page
 nits

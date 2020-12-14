@@ -23,6 +23,10 @@ import
 importlib
 import
 textwrap
+from
+six
+import
+iteritems
 class
 WPTLintRules
 (
@@ -220,12 +224,11 @@ for
 binding_name
 value
 in
+iteritems
+(
 module
 .
 __dict__
-.
-iteritems
-(
 )
 :
             
