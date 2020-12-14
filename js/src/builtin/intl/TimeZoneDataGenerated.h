@@ -729,6 +729,13 @@ PST
 SST
 "
 "
+US
+/
+Pacific
+-
+New
+"
+"
 VST
 "
 "
