@@ -3892,6 +3892,10 @@ render_frame
 txn
 .
 generate_frame
+.
+as_bool
+(
+)
 invalidate_rendered_frame
 :
 txn

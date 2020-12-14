@@ -3507,6 +3507,13 @@ APZCTreeManager
 :
 SampleForWebRender
 (
+const
+Maybe
+<
+VsyncId
+>
+&
+aVsyncId
 wr
 :
 :

@@ -426,6 +426,10 @@ wr
 :
 WrWindowId
 aWindowId
+const
+uint64_t
+*
+aGeneratedFrameId
 mozilla
 :
 :

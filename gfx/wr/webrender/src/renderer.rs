@@ -32418,6 +32418,12 @@ self
 document_id
 :
 DocumentId
+generated_frame_id
+:
+Option
+<
+u64
+>
 doc
 :
 &
