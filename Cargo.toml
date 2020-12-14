@@ -744,7 +744,7 @@ wasmtime
 rev
 =
 "
-3bbadf8a2152984cf3d327d0c5a2677f37a93801
+3b01b4b850bafb981a04383198c0b50d041dc5ef
 "
 [
 patch
@@ -777,5 +777,5 @@ wasmtime
 rev
 =
 "
-3bbadf8a2152984cf3d327d0c5a2677f37a93801
+3b01b4b850bafb981a04383198c0b50d041dc5ef
 "
