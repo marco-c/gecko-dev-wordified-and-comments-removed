@@ -82,9 +82,8 @@ querySelector
 (
 "
 .
-prefs
+personalize
 -
-button
 button
 "
 )
@@ -145,9 +144,8 @@ querySelector
 (
 "
 .
-prefs
+personalize
 -
-button
 button
 "
 )
@@ -321,9 +319,8 @@ querySelector
 (
 "
 .
-prefs
+personalize
 -
-button
 button
 "
 )
@@ -384,9 +381,8 @@ querySelector
 (
 "
 .
-prefs
+personalize
 -
-button
 button
 "
 )
@@ -560,9 +556,8 @@ querySelector
 (
 "
 .
-prefs
+personalize
 -
-button
 button
 "
 )
@@ -623,9 +618,8 @@ querySelector
 (
 "
 .
-prefs
+personalize
 -
-button
 button
 "
 )
