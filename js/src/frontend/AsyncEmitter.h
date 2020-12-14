@@ -59,6 +59,7 @@ State
 {
 Start
 Parameters
+ModulePrologue
 PostParams
 Body
 End
@@ -112,6 +113,12 @@ prepareForParamsWithoutExpression
 MOZ_MUST_USE
 bool
 prepareForParamsWithExpression
+(
+)
+;
+MOZ_MUST_USE
+bool
+prepareForModule
 (
 )
 ;
