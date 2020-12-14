@@ -3052,6 +3052,9 @@ InitSharedFontListForPlatform
 if
 (
 mSharedFontList
+&
+&
+mSharedFontList
 -
 >
 Initialized
