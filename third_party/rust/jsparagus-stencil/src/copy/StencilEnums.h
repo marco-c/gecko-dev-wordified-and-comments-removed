@@ -203,12 +203,6 @@ HasMappedArgsObj
 <
 <
 27
-IsLikelyConstructorWrapper
-=
-1
-<
-<
-28
 }
 ;
 enum
@@ -292,7 +286,7 @@ FailedShapeGuard
 <
 <
 19
-HadFrequentBailouts
+HadLICMInvalidation
 =
 1
 <
@@ -322,6 +316,12 @@ FailedLexicalCheck
 <
 <
 24
+HadSpeculativePhiBailout
+=
+1
+<
+<
+25
 }
 ;
 }

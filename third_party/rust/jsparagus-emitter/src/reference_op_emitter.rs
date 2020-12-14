@@ -2422,7 +2422,7 @@ emitter
 .
 emit
 .
-call_prop
+get_prop
 (
 key_index
 )
@@ -2740,7 +2740,7 @@ emitter
 .
 emit
 .
-call_elem
+get_elem
 (
 )
 ;
