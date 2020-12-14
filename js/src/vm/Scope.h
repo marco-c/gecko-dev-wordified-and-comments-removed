@@ -239,6 +239,15 @@ Xdr
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmJS
+.
+h
+"
 class
 JSAtom
 ;
@@ -269,9 +278,6 @@ js
 {
 class
 GenericPrinter
-;
-class
-WasmInstanceObject
 ;
 namespace
 frontend
