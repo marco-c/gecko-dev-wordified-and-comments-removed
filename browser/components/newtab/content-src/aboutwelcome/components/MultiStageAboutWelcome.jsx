@@ -60,7 +60,6 @@ import
 React
 {
 useState
-useCallback
 useEffect
 }
 from
@@ -442,9 +441,9 @@ props
 screens
 .
 length
+-
+1
 ?
-useCallback
-(
 (
 )
 =
@@ -458,10 +457,11 @@ prevState
 +
 1
 )
-[
-]
-)
 :
+(
+)
+=
+>
 AboutWelcomeUtils
 .
 handleUserAction
