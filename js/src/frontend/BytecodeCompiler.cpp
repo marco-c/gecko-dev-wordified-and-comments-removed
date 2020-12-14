@@ -552,9 +552,9 @@ JS
 ReadOnlyCompileOptions
 &
 options
-CompilationStencil
+CompilationInfo
 &
-stencil
+compilationInfo
 SourceText
 <
 Unit
@@ -585,7 +585,7 @@ compilationState_
 cx
 allocScope
 options
-stencil
+compilationInfo
 enclosingScope
 enclosingEnv
 )
@@ -839,9 +839,9 @@ JS
 ReadOnlyCompileOptions
 &
 options
-CompilationStencil
+CompilationInfo
 &
-stencil
+compilationInfo
 SourceText
 <
 Unit
@@ -868,7 +868,7 @@ Base
 cx
 allocScope
 options
-stencil
+compilationInfo
 sourceBuffer
 enclosingScope
 enclosingEnv
@@ -1267,8 +1267,6 @@ input
 .
 options
 compilationInfo
-.
-stencil
 srcBuf
 )
 ;
@@ -2347,8 +2345,6 @@ compilationInfo
 get
 (
 )
-.
-stencil
 srcBuf
 enclosingScope
 enclosingEnv
@@ -2644,9 +2640,9 @@ JS
 ReadOnlyCompileOptions
 &
 options
-CompilationStencil
+CompilationInfo
 &
-stencil
+compilationInfo
 SourceText
 <
 Unit
@@ -2673,7 +2669,7 @@ Base
 cx
 allocScope
 options
-stencil
+compilationInfo
 sourceBuffer
 enclosingScope
 enclosingEnv
@@ -2787,9 +2783,9 @@ JS
 ReadOnlyCompileOptions
 &
 options
-CompilationStencil
+CompilationInfo
 &
-stencil
+compilationInfo
 SourceText
 <
 Unit
@@ -2816,7 +2812,7 @@ Base
 cx
 allocScope
 options
-stencil
+compilationInfo
 sourceBuffer
 enclosingScope
 enclosingEnv
@@ -4578,8 +4574,6 @@ input
 .
 options
 compilationInfo
-.
-stencil
 srcBuf
 )
 ;
@@ -5279,8 +5273,6 @@ input
 .
 options
 compilationInfo
-.
-stencil
 fun
 -
 >
@@ -5879,8 +5871,6 @@ compilationInfo
 get
 (
 )
-.
-stencil
 srcBuf
 enclosingScope
 )

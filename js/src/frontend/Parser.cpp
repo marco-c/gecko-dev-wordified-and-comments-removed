@@ -9877,8 +9877,6 @@ NewScriptThingSpanUninitialized
 cx_
 compilationInfo_
 .
-stencil
-.
 alloc
 ngcthings
 .

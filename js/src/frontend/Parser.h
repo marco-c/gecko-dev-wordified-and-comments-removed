@@ -413,8 +413,6 @@ stencilAlloc
 return
 compilationInfo_
 .
-stencil
-.
 alloc
 ;
 }

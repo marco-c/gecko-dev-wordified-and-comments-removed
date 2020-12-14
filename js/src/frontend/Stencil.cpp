@@ -4589,9 +4589,9 @@ JS
 ReadOnlyCompileOptions
 &
 options
-CompilationStencil
+CompilationInfo
 &
-stencil
+compilationInfo
 Scope
 *
 enclosingScope
@@ -4630,9 +4630,11 @@ cx
 runtime
 (
 )
-stencil
+compilationInfo
 .
 alloc
+compilationInfo
+.
 stencil
 .
 parserAtomData

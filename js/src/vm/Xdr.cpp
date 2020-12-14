@@ -4360,8 +4360,6 @@ compilationInfos
 .
 initial
 .
-stencil
-.
 alloc
 compilationInfos
 .
@@ -4383,8 +4381,6 @@ stencilAlloc_
 compilationInfos
 .
 initial
-.
-stencil
 .
 alloc
 ;
@@ -4430,6 +4426,13 @@ TranscodeResult_Throw
 )
 ;
 }
+stencilAlloc_
+=
+&
+compilationInfos
+.
+allocForDelazifications
+;
 for
 (
 size_t
@@ -4485,9 +4488,9 @@ cx
 runtime
 (
 )
-delazification
+compilationInfos
 .
-alloc
+allocForDelazifications
 delazification
 .
 parserAtomData
@@ -4497,13 +4500,6 @@ parserAtomBuilder_
 =
 &
 parserAtomBuilder
-;
-stencilAlloc_
-=
-&
-delazification
-.
-alloc
 ;
 MOZ_TRY
 (

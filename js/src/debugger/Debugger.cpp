@@ -30513,8 +30513,6 @@ compilationInfo
 get
 (
 )
-.
-stencil
 )
 ;
 JS
