@@ -359,6 +359,13 @@ role
 )
 newRole
 ;
+-
+(
+nsStaticAtom
+*
+)
+ARIARole
+;
 #
 pragma
 mark
