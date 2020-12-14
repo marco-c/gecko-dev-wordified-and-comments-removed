@@ -101,6 +101,15 @@ schemas
 browser_settings
 .
 json
+content
+/
+extensions
+/
+schemas
+/
+browsing_data
+.
+json
 #
 ifndef
 ANDROID

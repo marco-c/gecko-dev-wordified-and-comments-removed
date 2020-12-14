@@ -72,15 +72,6 @@ browser
 /
 schemas
 /
-browsing_data
-.
-json
-content
-/
-browser
-/
-schemas
-/
 chrome_settings_overrides
 .
 json
