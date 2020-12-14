@@ -307,9 +307,6 @@ DevToolsServer
 allowChromeProcess
 ;
 }
-perfActorVersion
-:
-1
 watchpoints
 :
 true
