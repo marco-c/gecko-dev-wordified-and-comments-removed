@@ -2925,12 +2925,6 @@ case
 JSOp
 :
 :
-CallProp
-:
-case
-JSOp
-:
-:
 Length
 :
 case

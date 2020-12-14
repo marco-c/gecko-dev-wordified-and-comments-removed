@@ -15277,7 +15277,7 @@ emitAtomOp
 JSOp
 :
 :
-CallProp
+GetProp
 cx
 -
 >
@@ -29920,7 +29920,7 @@ emitAtomOp
 JSOp
 :
 :
-CallProp
+GetProp
 cx
 -
 >
@@ -30216,7 +30216,7 @@ emitAtomOp
 JSOp
 :
 :
-CallProp
+GetProp
 cx
 -
 >
@@ -48775,12 +48775,6 @@ JSOp
 :
 :
 GetProp
-:
-case
-JSOp
-:
-:
-CallProp
 :
 case
 JSOp

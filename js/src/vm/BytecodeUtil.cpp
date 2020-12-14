@@ -9417,12 +9417,6 @@ JSOp
 :
 GetBoundName
 :
-case
-JSOp
-:
-:
-CallProp
-:
 {
 bool
 hasDelete
