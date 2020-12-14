@@ -69,6 +69,13 @@ declarationInstantiation
 (
 )
 ;
+(
+async
+(
+)
+=
+>
+{
 let
 count
 =
@@ -76,6 +83,7 @@ count
 ;
 try
 {
+await
 b
 .
 evaluation
@@ -94,6 +102,7 @@ count
 }
 try
 {
+await
 c
 .
 evaluation
@@ -114,5 +123,14 @@ assertEq
 (
 count
 2
+)
+;
+}
+)
+(
+)
+;
+drainJobQueue
+(
 )
 ;
