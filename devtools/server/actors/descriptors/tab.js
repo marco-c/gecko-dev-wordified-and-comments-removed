@@ -240,9 +240,6 @@ traits
 getFavicon
 :
 true
-hasTabInfo
-:
-true
 watcher
 :
 true
