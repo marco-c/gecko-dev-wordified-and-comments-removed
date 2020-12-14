@@ -1495,9 +1495,6 @@ form
 traits
 :
 {
-supportsNodePicker
-:
-true
 supportsOverflowDebugging2
 :
 true
