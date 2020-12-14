@@ -1816,7 +1816,7 @@ data
 >
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 path
 data
