@@ -5703,8 +5703,17 @@ GetClientOffset
 LayoutDeviceIntPoint
 chromeOffset
 =
+!
+GetBrowserBridgeParent
+(
+)
+?
 -
 GetChildProcessOffset
+(
+)
+:
+LayoutDeviceIntPoint
 (
 )
 ;
