@@ -340,6 +340,9 @@ compilationInfos
 CompilationGCOutput
 &
 gcOutput
+CompilationGCOutput
+&
+gcOutputForDelazification
 )
 ;
 extern
@@ -370,6 +373,9 @@ compilationInfos
 CompilationGCOutput
 &
 gcOutput
+CompilationGCOutput
+&
+gcOutputForDelazification
 )
 ;
 extern

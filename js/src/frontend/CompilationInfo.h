@@ -1985,6 +1985,9 @@ cx
 CompilationGCOutput
 &
 gcOutput
+CompilationGCOutput
+&
+gcOutputForDelazification
 )
 ;
 MOZ_MUST_USE
@@ -1997,6 +2000,9 @@ cx
 CompilationGCOutput
 &
 gcOutput
+CompilationGCOutput
+&
+gcOutputForDelazification
 )
 ;
 MOZ_MUST_USE
@@ -2009,6 +2015,9 @@ cx
 CompilationGCOutput
 &
 gcOutput
+CompilationGCOutput
+&
+gcOutputForDelazification
 )
 ;
 MOZ_MUST_USE
