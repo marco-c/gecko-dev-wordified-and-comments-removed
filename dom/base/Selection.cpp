@@ -14440,8 +14440,10 @@ GetCommonEditingHost
 (
 )
 ;
+RefPtr
+<
 nsFocusManager
-*
+>
 fm
 =
 nsFocusManager

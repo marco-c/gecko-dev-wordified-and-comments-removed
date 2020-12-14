@@ -3777,6 +3777,7 @@ aDefaultAction
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 void
 RequestFrameFocus

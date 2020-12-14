@@ -547,6 +547,7 @@ nsIContent
 aNextContent
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 SetFocusedWindowWithCallerType
 (
@@ -646,6 +647,7 @@ Document
 aDocument
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 FocusPlugin
 (
@@ -800,7 +802,7 @@ bool
 aActive
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 SetFocusInner
 (
