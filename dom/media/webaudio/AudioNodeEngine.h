@@ -1129,7 +1129,7 @@ false
 }
 virtual
 void
-NotifyForcedShutdown
+OnGraphThreadDone
 (
 )
 {

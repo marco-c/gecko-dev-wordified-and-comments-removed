@@ -544,7 +544,7 @@ aFinished
 override
 ;
 void
-NotifyForcedShutdown
+OnGraphThreadDone
 (
 )
 override

@@ -552,7 +552,7 @@ class
 CheckForInactiveMessage
 ;
 void
-NotifyForcedShutdown
+OnGraphThreadDone
 (
 )
 override

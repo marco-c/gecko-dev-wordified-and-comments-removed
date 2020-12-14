@@ -1338,7 +1338,7 @@ protected
 :
 virtual
 void
-NotifyForcedShutdown
+OnGraphThreadDone
 (
 )
 {
@@ -1726,7 +1726,7 @@ bool
 mPullingEnabled
 ;
 bool
-mInForcedShutdown
+mGraphThreadDone
 ;
 }
 ;
@@ -1772,7 +1772,7 @@ aSegment
 )
 ;
 void
-NotifyForcedShutdown
+OnGraphThreadDone
 (
 )
 override
@@ -1795,7 +1795,7 @@ return
 mUpdateTrack
 -
 >
-mInForcedShutdown
+mGraphThreadDone
 =
 true
 ;
