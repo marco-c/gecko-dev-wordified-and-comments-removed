@@ -156,6 +156,11 @@ mWidget
 aWidget
 )
 {
+MOZ_RELEASE_ASSERT
+(
+mWidget
+)
+;
 }
 bool
 InProcessCompositorWidget
