@@ -129,7 +129,7 @@ Fluent
 __
 .
 /
-fluent_tutorial
+tutorial
 .
 html
 Herald
