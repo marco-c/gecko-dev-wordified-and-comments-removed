@@ -42,16 +42,6 @@ method
 *
 ;
 mod
-promise
-;
-pub
-use
-promise
-:
-:
-*
-;
-mod
 refptr
 ;
 pub

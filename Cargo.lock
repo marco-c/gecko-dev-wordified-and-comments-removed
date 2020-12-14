@@ -34309,9 +34309,6 @@ dependencies
 =
 [
 "
-cstr
-"
-"
 libc
 "
 "

@@ -37,13 +37,6 @@ edition
 [
 dependencies
 ]
-cstr
-=
-"
-0
-.
-1
-"
 libc
 =
 "
