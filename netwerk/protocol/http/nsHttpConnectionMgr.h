@@ -234,10 +234,6 @@ aTrans
 nsHttpConnectionInfo
 *
 aNewCI
-bool
-aNoHttp3ForNewEntry
-=
-false
 )
 ;
 [

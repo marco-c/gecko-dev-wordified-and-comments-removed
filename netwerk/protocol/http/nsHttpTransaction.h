@@ -974,6 +974,16 @@ bool
 aEchConfigUsed
 )
 ;
+void
+MaybeReportFailedSVCDomain
+(
+nsresult
+aReason
+nsHttpConnectionInfo
+*
+aFailedConnInfo
+)
+;
 already_AddRefed
 <
 Http2PushedStreamWrapper

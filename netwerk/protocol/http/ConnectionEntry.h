@@ -614,6 +614,14 @@ nsHttpTransaction
 aTrans
 )
 ;
+void
+MaybeUpdateEchConfig
+(
+nsHttpConnectionInfo
+*
+aConnInfo
+)
+;
 private
 :
 void
