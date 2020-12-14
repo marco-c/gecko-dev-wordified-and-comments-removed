@@ -107,6 +107,11 @@ AbstractScopePtr
 cpp
 "
 "
+AsyncEmitter
+.
+cpp
+"
+"
 BytecodeCompiler
 .
 cpp
