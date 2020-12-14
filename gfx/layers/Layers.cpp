@@ -13219,6 +13219,10 @@ void
 RecordCompositionPayloadsPresented
 (
 const
+TimeStamp
+&
+aCompositionEndTime
+const
 nsTArray
 <
 CompositionPayload
@@ -13239,12 +13243,7 @@ Length
 TimeStamp
 presented
 =
-TimeStamp
-:
-:
-Now
-(
-)
+aCompositionEndTime
 ;
 for
 (

@@ -11772,6 +11772,7 @@ NotifyFirstPaint
 }
 RecordCompositionPayloadsPresented
 (
+aEndTime
 transactionId
 .
 mPayloads

@@ -11784,6 +11784,7 @@ IsEmpty
 {
 RecordCompositionPayloadsPresented
 (
+aCompositeEnd
 payload
 )
 ;

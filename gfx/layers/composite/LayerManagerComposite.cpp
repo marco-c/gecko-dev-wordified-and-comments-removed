@@ -6674,6 +6674,12 @@ RecordFrame
 ;
 PayloadPresented
 (
+TimeStamp
+:
+:
+Now
+(
+)
 )
 ;
 mPayload

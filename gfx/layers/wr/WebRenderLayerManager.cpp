@@ -887,6 +887,10 @@ WebRenderLayerManager
 :
 PayloadPresented
 (
+const
+TimeStamp
+&
+aTimeStamp
 )
 {
 MOZ_CRASH

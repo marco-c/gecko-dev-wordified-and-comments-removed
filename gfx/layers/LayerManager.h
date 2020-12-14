@@ -1816,6 +1816,10 @@ virtual
 void
 PayloadPresented
 (
+const
+TimeStamp
+&
+aTimeStamp
 )
 ;
 void

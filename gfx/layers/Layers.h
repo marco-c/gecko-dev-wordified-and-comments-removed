@@ -6445,6 +6445,10 @@ void
 RecordCompositionPayloadsPresented
 (
 const
+TimeStamp
+&
+aCompositionEndTime
+const
 nsTArray
 <
 CompositionPayload
