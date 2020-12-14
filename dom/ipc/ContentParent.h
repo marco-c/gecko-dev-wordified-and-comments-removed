@@ -4522,13 +4522,6 @@ IPCResult
 RecvAddGeolocationListener
 (
 const
-IPC
-:
-:
-Principal
-&
-aPrincipal
-const
 bool
 &
 aHighAccuracy
