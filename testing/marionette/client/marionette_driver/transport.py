@@ -1883,6 +1883,12 @@ in
                     
 raise
             
+if
+self
+.
+_sock
+:
+                
 self
 .
 _sock
@@ -1890,7 +1896,7 @@ _sock
 close
 (
 )
-            
+                
 self
 .
 _sock
