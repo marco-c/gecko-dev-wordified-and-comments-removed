@@ -3992,7 +3992,11 @@ MOZ_RELEASE_ASSERT
 cx
 -
 >
-wasmHaveSignalHandlers
+wasm
+(
+)
+.
+haveSignalHandlers
 )
 ;
 MOZ_RELEASE_ASSERT
