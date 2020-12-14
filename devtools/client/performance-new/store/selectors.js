@@ -124,6 +124,16 @@ state
 presetName
 ;
 const
+getProfilerViewMode
+=
+state
+=
+>
+state
+.
+profilerViewMode
+;
+const
 getOpenRemoteDevTools
 =
 state
@@ -448,6 +458,7 @@ getThreadsString
 getObjdirs
 getPresets
 getPresetName
+getProfilerViewMode
 getOpenRemoteDevTools
 getOpenAboutProfiling
 getRecordingSettings
