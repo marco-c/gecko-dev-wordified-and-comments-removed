@@ -24436,13 +24436,6 @@ nsIURI
 *
 aNewURI
 const
-IPC
-:
-:
-Principal
-&
-aLoadingPrincipal
-const
 bool
 &
 aInPrivateBrowsing
@@ -24495,7 +24488,6 @@ CopyFavicon
 (
 aOldURI
 aNewURI
-aLoadingPrincipal
 aInPrivateBrowsing
 )
 ;
