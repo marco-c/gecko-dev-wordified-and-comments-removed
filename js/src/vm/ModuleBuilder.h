@@ -324,6 +324,17 @@ StencilModuleMetadata
 metadata
 )
 ;
+void
+noteAsync
+(
+frontend
+:
+:
+StencilModuleMetadata
+&
+metadata
+)
+;
 private
 :
 using
