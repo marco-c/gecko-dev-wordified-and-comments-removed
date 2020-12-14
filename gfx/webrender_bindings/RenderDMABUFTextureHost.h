@@ -91,6 +91,12 @@ Unlock
 )
 override
 ;
+void
+ClearCachedResources
+(
+)
+override
+;
 private
 :
 virtual
