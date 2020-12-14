@@ -3465,7 +3465,7 @@ screen
 nsWindow
 :
 :
-GetToplevelWindowDecoration
+GetSystemCSDSupportLevel
 (
 )
 !
@@ -3473,7 +3473,7 @@ GetToplevelWindowDecoration
 nsWindow
 :
 :
-GTK_DECORATION_NONE
+CSD_SUPPORT_NONE
 )
 :
 false
@@ -6186,7 +6186,7 @@ mCSDAvailable
 nsWindow
 :
 :
-GetToplevelWindowDecoration
+GetSystemCSDSupportLevel
 (
 )
 !
@@ -6194,7 +6194,7 @@ GetToplevelWindowDecoration
 nsWindow
 :
 :
-GTK_DECORATION_NONE
+CSD_SUPPORT_NONE
 ;
 mCSDHideTitlebarByDefault
 =
