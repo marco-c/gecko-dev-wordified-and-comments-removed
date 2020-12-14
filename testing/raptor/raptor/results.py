@@ -4439,31 +4439,6 @@ ms
                     
 )
                     
-if
-self
-.
-app
-!
-=
-"
-firefox
-"
-:
-                        
-new_result
-[
-"
-extra_options
-"
-]
-.
-append
-(
-self
-.
-app
-)
-                    
 LOG
 .
 info
