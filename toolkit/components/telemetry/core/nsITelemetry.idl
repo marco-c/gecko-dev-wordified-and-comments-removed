@@ -300,6 +300,16 @@ KEEP_LOADEVENTS_NEW
 <
 1
 ;
+const
+unsigned
+long
+INCLUDE_PRIVATE_FIELDS_IN_LOADEVENTS
+=
+1
+<
+<
+2
+;
 [
 implicit_jscontext
 ]

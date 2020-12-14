@@ -100,6 +100,10 @@ mMaxModulesArrayLen
 uint32_t
 mCurModulesArrayIdx
 ;
+const
+uint32_t
+mFlags
+;
 static
 bool
 SerializeEvent
@@ -154,6 +158,10 @@ JSContext
 aCx
 uint32_t
 aMaxModulesArrayLen
+uint32_t
+aFlags
+=
+0
 )
 ;
 explicit
