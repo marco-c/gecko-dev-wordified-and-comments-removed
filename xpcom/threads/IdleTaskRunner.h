@@ -92,9 +92,9 @@ char
 *
 aRunnableName
 uint32_t
-aDelay
+aMaxDelay
 int64_t
-aBudget
+aNonIdleBudget
 bool
 aRepeating
 const
@@ -131,6 +131,13 @@ aTarget
 )
 override
 ;
+void
+SetBudget
+(
+int64_t
+aBudget
+)
+;
 nsresult
 Cancel
 (
@@ -158,9 +165,9 @@ char
 *
 aRunnableName
 uint32_t
-aDelay
+aMaxDelay
 int64_t
-aBudget
+aNonIdleBudget
 bool
 aRepeating
 const
