@@ -296,9 +296,6 @@ traits
 networkMonitor
 :
 true
-bulk
-:
-true
 get
 allowChromeProcess
 (
