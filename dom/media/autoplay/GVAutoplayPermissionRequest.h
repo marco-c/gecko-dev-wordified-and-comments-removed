@@ -18,6 +18,9 @@ nsContentPermissionHelper
 .
 h
 "
+class
+nsGlobalWindowInner
+;
 namespace
 mozilla
 {
