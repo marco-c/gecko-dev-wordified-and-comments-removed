@@ -260,6 +260,13 @@ rs
 n
 "
 "
+deadlock
+:
+EncryptedClientHelloServer
+\
+n
+"
+"
 race
 :
 init_simd
