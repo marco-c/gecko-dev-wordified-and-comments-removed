@@ -6817,8 +6817,8 @@ HadLICMInvalidation
 )
 MUTABLE_FLAG_GETTER_SETTER
 (
-hadOverflowBailout
-HadOverflowBailout
+hadEagerTruncationBailout
+HadEagerTruncationBailout
 )
 MUTABLE_FLAG_GETTER_SETTER
 (
