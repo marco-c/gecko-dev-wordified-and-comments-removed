@@ -706,7 +706,7 @@ nsAString
 >
 (
 )
-IgnoredErrorResult
+IgnoreErrors
 (
 )
 )
