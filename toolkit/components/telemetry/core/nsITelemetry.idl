@@ -310,6 +310,16 @@ INCLUDE_PRIVATE_FIELDS_IN_LOADEVENTS
 <
 2
 ;
+const
+unsigned
+long
+EXCLUDE_STACKINFO_FROM_LOADEVENTS
+=
+1
+<
+<
+3
+;
 [
 implicit_jscontext
 ]
