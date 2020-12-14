@@ -1048,7 +1048,8 @@ InterpretObjLiteral
 (
 cx
 atomCache
-writer_
+code_
+flags_
 )
 ;
 }
