@@ -449,15 +449,6 @@ ping
 ;
 add_task
 (
-{
-skip_if
-:
-(
-)
-=
->
-true
-}
 async
 function
 test_fog_timespan_works
