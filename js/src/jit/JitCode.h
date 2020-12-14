@@ -99,10 +99,6 @@ JitCode
 jitCode_
 ;
 void
-*
-nops_
-;
-void
 init
 (
 JitCode
