@@ -2109,15 +2109,6 @@ MallocSizeOf
 mallocSizeOf
 size_t
 *
-allocationSiteTables
-size_t
-*
-arrayObjectGroupTables
-size_t
-*
-plainObjectGroupTables
-size_t
-*
 realmTables
 )
 {

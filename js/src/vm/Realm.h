@@ -1783,15 +1783,6 @@ MallocSizeOf
 mallocSizeOf
 size_t
 *
-tiAllocationSiteTables
-size_t
-*
-tiArrayTypeTables
-size_t
-*
-tiObjectTypeTables
-size_t
-*
 realmObject
 size_t
 *
