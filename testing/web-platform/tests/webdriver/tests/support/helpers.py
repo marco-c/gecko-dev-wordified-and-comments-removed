@@ -8,6 +8,10 @@ import
 math
 import
 sys
+from
+six
+import
+iteritems
 import
 webdriver
 from
@@ -659,10 +663,9 @@ for
 key
 value
 in
-overrides
-.
 iteritems
 (
+overrides
 )
 :
         
