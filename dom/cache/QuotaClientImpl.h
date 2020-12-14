@@ -177,14 +177,13 @@ ReleaseIOThreadObjects
 )
 override
 ;
-virtual
 void
-AbortOperations
+AbortOperationsForLocks
 (
 const
-nsACString
+DirectoryLockIdTable
 &
-aOrigin
+aDirectoryLockIds
 )
 override
 ;

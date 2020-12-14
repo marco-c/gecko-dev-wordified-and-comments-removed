@@ -276,6 +276,16 @@ Action
 aAction
 )
 ;
+Maybe
+<
+DirectoryLock
+&
+>
+MaybeDirectoryLockRef
+(
+)
+const
+;
 void
 CancelAll
 (
