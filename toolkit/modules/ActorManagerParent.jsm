@@ -1061,6 +1061,11 @@ messageManagerGroups
 browsers
 "
 "
+webext
+-
+browsers
+"
+"
 "
 ]
 }
