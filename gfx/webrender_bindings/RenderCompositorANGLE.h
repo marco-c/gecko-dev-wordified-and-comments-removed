@@ -304,9 +304,11 @@ GetBufferSize
 )
 override
 ;
-bool
+GLenum
 IsContextLost
 (
+bool
+aForce
 )
 override
 ;

@@ -351,6 +351,12 @@ Resume
 void
 CheckGraphicsResetStatus
 (
+const
+char
+*
+aCaller
+bool
+aForce
 )
 ;
 layers
