@@ -3651,6 +3651,10 @@ DeclaredNameInfo
 :
 :
 npos
+ClosedOver
+:
+:
+Yes
 )
 ;
 }
