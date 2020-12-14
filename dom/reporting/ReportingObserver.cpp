@@ -385,7 +385,7 @@ ReportRunnable
 final
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 public
 :
@@ -397,7 +397,7 @@ nsIGlobalObject
 aGlobal
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 ReportRunnable

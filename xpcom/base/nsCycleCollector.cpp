@@ -5109,7 +5109,7 @@ class
 LogStringMessageAsync
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 public
 :
@@ -5125,7 +5125,7 @@ aMsg
 mozilla
 :
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 LogStringMessageAsync

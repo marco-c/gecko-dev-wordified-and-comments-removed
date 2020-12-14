@@ -2102,7 +2102,7 @@ SendInitBackgroundRunnable
 final
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 nsCOMPtr
 <
@@ -2252,7 +2252,7 @@ int
 aThreadLocalIndex
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 Background

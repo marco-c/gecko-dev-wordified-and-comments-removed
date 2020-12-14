@@ -3609,7 +3609,7 @@ FinalizationRegistryCleanup
 CleanupRunnable
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 public
 :
@@ -3621,7 +3621,7 @@ FinalizationRegistryCleanup
 aCleanupWork
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 CleanupRunnable
