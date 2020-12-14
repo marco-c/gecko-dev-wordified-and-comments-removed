@@ -1445,7 +1445,8 @@ compilationInfo
 stencil
 .
 moduleMetadata
-.
+-
+>
 initModule
 (
 cx
@@ -8682,7 +8683,8 @@ moduleMetadata
 )
 ;
 moduleMetadata
-.
+-
+>
 dumpFields
 (
 json

@@ -895,7 +895,13 @@ SystemAllocPolicy
 >
 scopeData
 ;
+mozilla
+:
+:
+Maybe
+<
 StencilModuleMetadata
+>
 moduleMetadata
 ;
 HashMap
