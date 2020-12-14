@@ -1745,9 +1745,12 @@ false
 ;
 BrowserSearchTelemetry
 .
-recordSearchbarSelectedResultMethod
+recordSearchSuggestionSelectionMethod
 (
 aEvent
+"
+searchbar
+"
 selection
 ?
 selection

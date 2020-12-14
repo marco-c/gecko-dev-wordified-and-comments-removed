@@ -788,11 +788,14 @@ if
 popupForSearchBar
 )
 {
-BrowserUsageTelemetry
+BrowserSearchTelemetry
 .
-recordSearchbarSelectedResultMethod
+recordSearchSuggestionSelectionMethod
 (
 aEvent
+"
+searchbar
+"
 this
 .
 selectedIndex
