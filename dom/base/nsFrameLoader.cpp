@@ -15033,6 +15033,16 @@ hasSelection
 ;
 info
 .
+mHasSelfSelection
+=
+aInfo
+.
+hasSelfSelection
+(
+)
+;
+info
+.
 mIsEmpty
 =
 aInfo
