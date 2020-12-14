@@ -600,6 +600,9 @@ SearchbarCSSSpan
 "
 Theme
 "
+"
+MenubarShown
+"
 ]
 ;
 for
@@ -693,9 +696,13 @@ key
 }
 )
 ;
-ok
+isnot
 (
+typeof
 value
+"
+undefined
+"
 Skeleton
 UI
 registry
@@ -703,9 +710,7 @@ values
 should
 have
 a
-non
--
-zero
+defined
 value
 for
 {
