@@ -587,6 +587,7 @@ powershell
 command
 "
                 
+r
 "
 \
 "

@@ -533,6 +533,7 @@ powershell
 command
 "
                 
+r
 "
 \
 "
