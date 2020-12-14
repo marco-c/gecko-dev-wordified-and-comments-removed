@@ -665,8 +665,10 @@ aEntry
 ;
 nsTObserverArray
 <
+RefPtr
+<
 PerformanceObserver
-*
+>
 >
 mObservers
 ;
