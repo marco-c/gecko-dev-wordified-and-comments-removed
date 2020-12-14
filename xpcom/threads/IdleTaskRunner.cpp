@@ -381,6 +381,16 @@ NS_IsMainThread
 )
 )
 ;
+MOZ_ASSERT
+(
+aTarget
+-
+>
+IsOnCurrentThread
+(
+)
+)
+;
 SetTimerInternal
 (
 aDelay
