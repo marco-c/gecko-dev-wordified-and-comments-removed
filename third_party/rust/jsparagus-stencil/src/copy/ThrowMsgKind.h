@@ -14,11 +14,7 @@ h
 #
 include
 "
-js
-/
-friend
-/
-ErrorMessages
+jsfriendapi
 .
 h
 "
