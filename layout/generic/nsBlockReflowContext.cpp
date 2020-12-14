@@ -1674,6 +1674,14 @@ IsInlineBreakBefore
 )
 &
 &
+!
+aFrameRI
+.
+WillReflowAgainForClearance
+(
+)
+&
+&
 aFrameReflowStatus
 .
 IsFullyComplete
