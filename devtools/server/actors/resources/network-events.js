@@ -207,7 +207,7 @@ this
 .
 networkEvents
 .
-get
+has
 (
 channelId
 )

@@ -343,7 +343,10 @@ text
 ;
 }
 const
-response
+{
+channelId
+actor
+}
 =
 await
 connector
@@ -361,10 +364,9 @@ type
 SEND_CUSTOM_REQUEST
 id
 :
-response
-.
-eventActor
-.
+channelId
+|
+|
 actor
 }
 )
