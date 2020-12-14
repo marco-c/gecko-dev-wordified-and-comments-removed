@@ -135,6 +135,7 @@ event
 :
 {
 EventMetric
+EventRecordingError
 ExtraKeys
 NoExtraKeys
 }
