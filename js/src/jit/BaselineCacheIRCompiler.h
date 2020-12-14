@@ -52,13 +52,6 @@ ICFallbackStub
 class
 ICStub
 ;
-enum
-class
-BaselineCacheIRStubKind
-{
-Regular
-}
-;
 ICStub
 *
 AttachBaselineCacheIRStub
@@ -72,8 +65,6 @@ CacheIRWriter
 writer
 CacheKind
 kind
-BaselineCacheIRStubKind
-stubKind
 JSScript
 *
 outerScript
@@ -97,9 +88,6 @@ CacheIRCompiler
 {
 bool
 makesGCCalls_
-;
-BaselineCacheIRStubKind
-kind_
 ;
 void
 tailCallVMInternal
@@ -418,8 +406,6 @@ CacheIRWriter
 writer
 uint32_t
 stubDataOffset
-BaselineCacheIRStubKind
-stubKind
 )
 ;
 MOZ_MUST_USE
