@@ -11,13 +11,6 @@ nsIAppStartupNotifier
 .
 h
 "
-#
-include
-"
-nsError
-.
-h
-"
 class
 nsAppStartupNotifier
 final

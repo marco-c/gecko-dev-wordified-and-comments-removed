@@ -190,11 +190,6 @@ CmdLineAndEnvUtils
 h
 "
 "
-GlobalSemaphore
-.
-h
-"
-"
 SafeMode
 .
 h
@@ -654,11 +649,6 @@ CreateAppData
 cpp
 "
 "
-GlobalSemaphore
-.
-cpp
-"
-"
 nsAppStartupNotifier
 .
 cpp
@@ -795,11 +785,6 @@ UNIFIED_SOURCES
 [
 "
 nsUpdateDriver
-.
-cpp
-"
-"
-nsUpdateSyncManager
 .
 cpp
 "
