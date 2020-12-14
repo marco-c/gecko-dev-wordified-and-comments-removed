@@ -187,10 +187,6 @@ BufferRecycleBin
 >
 mBufferRecycleBin
 ;
-const
-RemoteDecodeIn
-mLocation
-;
 }
 ;
 class
