@@ -229,9 +229,6 @@ getWalker
 (
 {
 showAllAnonymousContent
-showUserAgentShadowRoots
-:
-showAllAnonymousContent
 }
 )
 ;
