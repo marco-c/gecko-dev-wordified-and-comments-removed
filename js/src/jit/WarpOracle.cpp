@@ -2943,12 +2943,6 @@ case
 JSOp
 :
 :
-CallElem
-:
-case
-JSOp
-:
-:
 SetProp
 :
 case

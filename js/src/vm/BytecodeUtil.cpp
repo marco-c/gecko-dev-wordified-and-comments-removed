@@ -9665,12 +9665,6 @@ JSOp
 :
 GetElem
 :
-case
-JSOp
-:
-:
-CallElem
-:
 {
 bool
 hasDelete

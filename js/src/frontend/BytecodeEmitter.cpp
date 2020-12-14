@@ -24113,7 +24113,7 @@ emitElemOpBase
 JSOp
 :
 :
-CallElem
+GetElem
 )
 )
 {
@@ -24288,7 +24288,7 @@ emitElemOpBase
 JSOp
 :
 :
-CallElem
+GetElem
 )
 )
 {
@@ -24410,7 +24410,7 @@ emitElemOpBase
 JSOp
 :
 :
-CallElem
+GetElem
 )
 )
 {
@@ -48883,12 +48883,6 @@ JSOp
 :
 :
 GetElem
-:
-case
-JSOp
-:
-:
-CallElem
 :
 return
 emitInstrumentationSlow

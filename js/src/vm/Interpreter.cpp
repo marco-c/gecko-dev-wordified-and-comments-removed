@@ -17164,10 +17164,6 @@ CASE
 (
 GetElem
 )
-CASE
-(
-CallElem
-)
 {
 int
 lvalIndex
@@ -17247,13 +17243,6 @@ if
 GetElementOperationWithStackIndex
 (
 cx
-JSOp
-(
-*
-REGS
-.
-pc
-)
 lval
 lvalIndex
 rval

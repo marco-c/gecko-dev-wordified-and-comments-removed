@@ -1253,16 +1253,6 @@ if
 GetElementOperation
 (
 cx
-JSOp
-(
-*
-ic
--
->
-pc
-(
-)
-)
 val
 idVal
 res
