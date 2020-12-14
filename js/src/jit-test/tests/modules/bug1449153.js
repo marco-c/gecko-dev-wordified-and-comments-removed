@@ -2,7 +2,6 @@ class
 MyError
 {
 }
-async
 function
 assertThrowsMyError
 (
@@ -16,7 +15,6 @@ false
 ;
 try
 {
-await
 f
 (
 )
@@ -139,9 +137,5 @@ evaluation
 (
 b
 )
-)
-;
-drainJobQueue
-(
 )
 ;

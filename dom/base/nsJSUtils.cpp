@@ -1079,17 +1079,6 @@ JSObject
 *
 >
 aModule
-JS
-:
-:
-MutableHandle
-<
-JS
-:
-:
-Value
->
-aResult
 )
 {
 AUTO_PROFILER_LABEL
@@ -1175,7 +1164,6 @@ ModuleEvaluate
 (
 aCx
 aModule
-aResult
 )
 )
 {

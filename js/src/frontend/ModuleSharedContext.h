@@ -58,15 +58,6 @@ Scope
 .
 h
 "
-#
-include
-"
-vm
-/
-StencilEnums
-.
-h
-"
 namespace
 js
 {
@@ -84,7 +75,7 @@ MOZ_STACK_CLASS
 ModuleSharedContext
 :
 public
-SuspendableContext
+SharedContext
 {
 public
 :

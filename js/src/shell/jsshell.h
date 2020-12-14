@@ -618,10 +618,6 @@ extern
 bool
 enablePrivateClassMethods
 ;
-extern
-bool
-enableTopLevelAwait
-;
 #
 ifdef
 JS_GC_ZEAL

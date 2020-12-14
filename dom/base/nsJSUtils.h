@@ -319,17 +319,6 @@ JSObject
 *
 >
 aModule
-JS
-:
-:
-MutableHandle
-<
-JS
-:
-:
-Value
->
-aResult
 )
 ;
 static

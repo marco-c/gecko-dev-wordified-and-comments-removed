@@ -3804,13 +3804,6 @@ ASMJS_MODULE_SLOT
 0
 ;
 static
-const
-unsigned
-MODULE_SLOT
-=
-0
-;
-static
 inline
 size_t
 offsetOfExtendedSlot

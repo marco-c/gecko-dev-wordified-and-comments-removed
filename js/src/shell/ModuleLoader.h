@@ -154,7 +154,6 @@ JSContext
 cx
 HandleString
 path
-MutableHandleValue
 )
 ;
 JSObject
@@ -222,8 +221,6 @@ HandleString
 specifier
 HandleObject
 promise
-MutableHandleValue
-rval
 )
 ;
 JSObject
