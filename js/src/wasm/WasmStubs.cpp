@@ -11346,10 +11346,12 @@ masm
 fi
 env
 .
-funcTypes
+funcs
 [
 funcIndex
 ]
+.
+type
 -
 >
 id

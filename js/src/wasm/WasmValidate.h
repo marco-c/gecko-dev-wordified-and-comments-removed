@@ -319,11 +319,8 @@ numStructTypes
 TypeDefVector
 types
 ;
-FuncTypeWithIdPtrVector
-funcTypes
-;
-Uint32Vector
-funcTypeIndices
+FuncDescVector
+funcs
 ;
 Uint32Vector
 funcImportGlobalDataOffsets
@@ -461,7 +458,7 @@ numFuncs
 const
 {
 return
-funcTypes
+funcs
 .
 length
 (
@@ -489,7 +486,7 @@ numFuncDefs
 const
 {
 return
-funcTypes
+funcs
 .
 length
 (
