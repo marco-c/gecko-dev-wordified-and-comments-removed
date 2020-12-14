@@ -627,12 +627,8 @@ static
 void
 RejectJSPromise
 (
-const
-RefPtr
-<
 Promise
->
-&
+*
 aPromise
 const
 IOError
