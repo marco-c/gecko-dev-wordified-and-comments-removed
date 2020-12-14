@@ -1361,10 +1361,6 @@ capture
 :
 true
 }
-scroll
-:
-{
-}
 }
 }
 }
