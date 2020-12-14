@@ -5,6 +5,17 @@ stdint
 .
 h
 >
+#
+include
+"
+mozilla
+/
+dom
+/
+GamepadHandle
+.
+h
+"
 namespace
 mozilla
 {
@@ -29,7 +40,7 @@ SetGamepadLightIndicatorColor
 const
 Tainted
 <
-uint32_t
+GamepadHandle
 >
 &
 const
