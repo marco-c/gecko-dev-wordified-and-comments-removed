@@ -25405,10 +25405,6 @@ AppendElement
 SafeRefPtr
 {
 database
-.
-get
-(
-)
 AcquireStrongRefFromRawPtr
 {
 }
