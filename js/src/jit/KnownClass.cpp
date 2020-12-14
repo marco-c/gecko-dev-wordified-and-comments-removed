@@ -126,7 +126,7 @@ MDefinition
 Opcode
 :
 :
-NewArrayCopyOnWrite
+NewArrayDynamicLength
 :
 return
 KnownClass

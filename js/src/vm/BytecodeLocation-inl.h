@@ -255,15 +255,6 @@ JSOp
 :
 Object
 )
-|
-|
-is
-(
-JSOp
-:
-:
-NewArrayCopyOnWrite
-)
 )
 ;
 return
