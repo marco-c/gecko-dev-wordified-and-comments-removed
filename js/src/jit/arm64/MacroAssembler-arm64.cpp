@@ -549,9 +549,9 @@ bo
 =
 movePatchablePtr
 (
-ImmPtr
+ImmWord
 (
-nullptr
+0
 )
 dest
 )
