@@ -1743,7 +1743,7 @@ oneOffRecorded
 =
 false
 ;
-BrowserUsageTelemetry
+BrowserSearchTelemetry
 .
 recordSearchbarSelectedResultMethod
 (

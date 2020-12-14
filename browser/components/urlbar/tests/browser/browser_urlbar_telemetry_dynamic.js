@@ -194,7 +194,7 @@ gTestPath
 )
 +
 "
-usageTelemetryUrlbarDynamic
+urlbarTelemetryUrlbarDynamic
 .
 css
 "

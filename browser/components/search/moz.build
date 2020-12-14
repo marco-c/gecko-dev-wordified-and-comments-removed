@@ -3,6 +3,11 @@ EXTRA_JS_MODULES
 =
 [
 "
+BrowserSearchTelemetry
+.
+jsm
+"
+"
 SearchOneOffs
 .
 jsm

@@ -258,7 +258,7 @@ gTestPath
 )
 +
 "
-usageTelemetrySearchSuggestions
+urlbarTelemetrySearchSuggestions
 .
 xml
 "

@@ -57,7 +57,7 @@ AppConstants
 .
 jsm
 "
-BrowserUsageTelemetry
+BrowserSearchTelemetry
 :
 "
 resource
@@ -67,7 +67,7 @@ resource
 /
 modules
 /
-BrowserUsageTelemetry
+BrowserSearchTelemetry
 .
 jsm
 "
@@ -5944,7 +5944,7 @@ areSearchModesSame
 {
 try
 {
-BrowserUsageTelemetry
+BrowserSearchTelemetry
 .
 recordSearchMode
 (

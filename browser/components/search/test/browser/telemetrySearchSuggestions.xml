@@ -86,13 +86,15 @@ browser
 /
 browser
 /
-modules
+components
+/
+search
 /
 test
 /
 browser
 /
-usageTelemetrySearchSuggestions
+telemetrySearchSuggestions
 .
 sjs
 ?
