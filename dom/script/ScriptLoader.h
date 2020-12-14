@@ -919,7 +919,7 @@ aRequest
 )
 ;
 void
-FinishDynamicImport
+FinishDynamicImportAndReject
 (
 ModuleLoadRequest
 *
@@ -939,6 +939,15 @@ ModuleLoadRequest
 aRequest
 nsresult
 aResult
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aEvaluationPromise
 )
 ;
 static
