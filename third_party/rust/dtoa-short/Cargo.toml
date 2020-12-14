@@ -124,7 +124,7 @@ version
 .
 3
 .
-1
+3
 "
 authors
 =
@@ -154,6 +154,9 @@ rs
 Cargo
 .
 toml
+"
+"
+LICENSE
 "
 ]
 description
@@ -238,9 +241,7 @@ version
 "
 0
 .
-2
-.
-3
+4
 "
 [
 badges
