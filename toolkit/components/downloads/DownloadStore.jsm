@@ -460,7 +460,7 @@ storeData
 await
 IOUtils
 .
-write
+writeAtomic
 (
 this
 .

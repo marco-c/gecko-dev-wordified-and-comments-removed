@@ -1100,7 +1100,7 @@ object
 return
 IOUtils
 .
-write
+writeAtomic
 (
 this
 .

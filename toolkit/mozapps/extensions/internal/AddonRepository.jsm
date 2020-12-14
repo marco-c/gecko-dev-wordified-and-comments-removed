@@ -3408,7 +3408,7 @@ values
 await
 IOUtils
 .
-writeUTF8
+writeAtomicUTF8
 (
 this
 .

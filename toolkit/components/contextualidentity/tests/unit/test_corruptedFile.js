@@ -408,7 +408,7 @@ identity
 await
 IOUtils
 .
-writeUTF8
+writeAtomicUTF8
 (
 TEST_STORE_FILE_PATH
 "
