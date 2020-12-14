@@ -99,6 +99,13 @@ registerCleanupFunction
 )
 =
 >
+{
+CustomizableUI
+.
+reset
+(
+)
+;
 Services
 .
 prefs
@@ -113,6 +120,8 @@ uiCustomization
 skipSourceNodeCheck
 "
 )
+;
+}
 )
 ;
 function
