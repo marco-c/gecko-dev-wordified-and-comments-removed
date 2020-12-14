@@ -99,6 +99,10 @@ hugeMemory
 (
 false
 )
+exceptions
+(
+false
+)
 {
 }
 static
@@ -154,6 +158,9 @@ v128
 ;
 bool
 hugeMemory
+;
+bool
+exceptions
 ;
 }
 ;
