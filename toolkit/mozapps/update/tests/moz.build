@@ -488,6 +488,13 @@ replace_log_success
 "
 data
 /
+semaphoreTestChildScript
+.
+js
+"
+"
+data
+/
 simple
 .
 mar
