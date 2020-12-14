@@ -105,8 +105,6 @@ as_str
 is_some
 (
 )
-as
-u8
 }
 }
 ;
