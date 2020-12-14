@@ -7,6 +7,13 @@ LAYOUT_SVG_SVGFILTERPAINTCALLBACK_H_
 #
 include
 "
+gfxMatrix
+.
+h
+"
+#
+include
+"
 nsRect
 .
 h
@@ -20,6 +27,13 @@ gfxContext
 namespace
 mozilla
 {
+namespace
+image
+{
+struct
+imgDrawingParams
+;
+}
 class
 SVGFilterPaintCallback
 {
