@@ -134,6 +134,9 @@ IMPLEMENTED_CPP_TYPES
 =
 [
 "
+boolean
+"
+"
 counter
 "
 "
