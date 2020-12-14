@@ -98,8 +98,6 @@ NetscapeStepUpPolicy
 netscapeStepUpPolicy
 CertificateTransparencyMode
 ctMode
-DistrustedCAPolicy
-distrustedCAPolicy
 CRLiteMode
 crliteMode
 uint64_t
@@ -131,7 +129,6 @@ sha1Mode
 nameMatchingMode
 netscapeStepUpPolicy
 ctMode
-distrustedCAPolicy
 crliteMode
 crliteCTMergeDelaySeconds
 thirdPartyCerts

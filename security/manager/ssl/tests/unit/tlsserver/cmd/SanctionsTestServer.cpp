@@ -49,7 +49,7 @@ sSanctionsCertHosts
 "
 symantec
 -
-whitelist
+allowlist
 -
 after
 -
@@ -66,7 +66,7 @@ ee
 -
 from
 -
-whitelist
+allowlist
 -
 after
 -
@@ -77,7 +77,7 @@ cutoff
 "
 symantec
 -
-whitelist
+allowlist
 -
 before
 -
@@ -94,7 +94,7 @@ ee
 -
 from
 -
-whitelist
+allowlist
 -
 before
 -
@@ -107,7 +107,7 @@ symantec
 -
 not
 -
-whitelisted
+allowlisted
 -
 after
 -
@@ -124,7 +124,7 @@ ee
 -
 not
 -
-whitelisted
+allowlisted
 -
 after
 -
@@ -137,7 +137,7 @@ symantec
 -
 not
 -
-whitelisted
+allowlisted
 -
 before
 -
@@ -154,7 +154,7 @@ ee
 -
 not
 -
-whitelisted
+allowlisted
 -
 before
 -
