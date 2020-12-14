@@ -2501,6 +2501,7 @@ shared
 mem
 "
 "
+MB
 "
 TEXTURE_CACHE_SHARED_MEM
 expected
