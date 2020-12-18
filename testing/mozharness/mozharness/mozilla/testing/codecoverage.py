@@ -721,6 +721,8 @@ strip_count
 =
 len
 (
+list
+(
 filter
 (
 None
@@ -733,6 +735,7 @@ split
 "
 /
 "
+)
 )
 )
 )
