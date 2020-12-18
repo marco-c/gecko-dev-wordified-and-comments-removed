@@ -244,7 +244,12 @@ Await
 \
 _
 (
-TrySkipAwait
+CanSkipAwait
+)
+\
+_
+(
+MaybeExtractAwaitValue
 )
 \
 _

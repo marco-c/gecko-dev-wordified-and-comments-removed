@@ -8562,7 +8562,13 @@ case
 JSOp
 :
 :
-TrySkipAwait
+CanSkipAwait
+:
+case
+JSOp
+:
+:
+MaybeExtractAwaitValue
 :
 case
 JSOp
