@@ -3,6 +3,8 @@ __future__
 import
 absolute_import
 import
+six
+import
 argparse
 import
 os
@@ -1119,12 +1121,13 @@ opts
 _
 )
 in
-self
-.
-known_try_arguments
+six
 .
 iteritems
 (
+self
+.
+known_try_arguments
 )
 :
             
@@ -1283,13 +1286,14 @@ for
 arg
 value
 in
+six
+.
+iteritems
+(
 vars
 (
 args
 )
-.
-iteritems
-(
 )
 :
             

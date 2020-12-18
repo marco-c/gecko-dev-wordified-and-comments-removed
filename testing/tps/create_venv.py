@@ -51,6 +51,8 @@ import
 absolute_import
 print_function
 import
+six
+import
 optparse
 import
 os
@@ -705,10 +707,11 @@ for
 source_string
 target_string
 in
-replacements
+six
 .
 iteritems
 (
+replacements
 )
 :
                 

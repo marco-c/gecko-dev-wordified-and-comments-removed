@@ -4,6 +4,8 @@ import
 absolute_import
 unicode_literals
 import
+six
+import
 logging
 import
 os
@@ -379,10 +381,11 @@ for
 k
 v
 in
-kwargs
+six
 .
 iteritems
 (
+kwargs
 )
 :
         

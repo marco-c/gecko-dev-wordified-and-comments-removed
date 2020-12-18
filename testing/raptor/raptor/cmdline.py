@@ -1,63 +1,10 @@
-#
-This
-Source
-Code
-Form
-is
-subject
-to
-the
-terms
-of
-the
-Mozilla
-Public
-#
-License
-v
-.
-2
-.
-0
-.
-If
-a
-copy
-of
-the
-MPL
-was
-not
-distributed
-with
-this
-file
-#
-You
-can
-obtain
-one
-at
-http
-:
-/
-/
-mozilla
-.
-org
-/
-MPL
-/
-2
-.
-0
-/
-.
 from
 __future__
 import
 absolute_import
 print_function
+import
+six
 import
 argparse
 import
@@ -2486,26 +2433,6 @@ scenario
     
 )
     
-#
-for
-browsertime
-jobs
-cold
-page
-load
-is
-determined
-by
-a
-'
--
--
-cold
-'
-cmd
-line
-argument
-    
 add_arg
 (
         
@@ -2541,13 +2468,6 @@ tp6
 "
     
 )
-    
-#
-Arguments
-for
-invoking
-browsertime
-.
     
 add_arg
 (
@@ -2975,19 +2895,6 @@ required
 "
 )
     
-#
-make
-sure
-that
-browsertime_video
-is
-set
-if
-visual
-metrics
-are
-requested
-    
 if
 args
 .
@@ -3004,29 +2911,6 @@ args
 browsertime_video
 =
 True
-    
-#
-if
-running
-chrome
-android
-tests
-make
-sure
-it
-'
-s
-on
-browsertime
-and
-    
-#
-that
-the
-chromedriver
-path
-was
-provided
     
 if
 args
@@ -3173,15 +3057,6 @@ mode
             
 )
         
-#
-Force
-cold
-pageloads
-with
-2
-page
-cycles
-        
 args
 .
 cold
@@ -3193,19 +3068,6 @@ args
 page_cycles
 =
 2
-    
-#
-if
-running
-on
-a
-desktop
-browser
-make
-sure
-the
-binary
-exists
     
 if
 args
@@ -3250,22 +3112,6 @@ format
 ctx
 )
 )
-    
-#
-if
-geckoProfile
-specified
-but
-running
-on
-Chrom
-[
-e
-|
-ium
-]
-not
-supported
     
 if
 args
@@ -3509,26 +3355,6 @@ browsers
             
 )
     
-#
-if
--
--
-enable
--
-webrender
-specified
-must
-be
-on
-desktop
-firefox
-or
-geckoview
--
-based
-browser
-.
-    
 if
 args
 .
@@ -3615,22 +3441,6 @@ browsers
             
 )
     
-#
-if
-running
-on
-geckoview
-/
-refbrow
-/
-fenix
-we
-need
-an
-activity
-and
-intent
-    
 if
 args
 .
@@ -3655,20 +3465,6 @@ args
 .
 activity
 :
-            
-#
-if
-we
-have
-a
-default
-activity
-specified
-in
-APPS
-above
-use
-that
             
 if
 APPS
@@ -3708,11 +3504,6 @@ default_activity
             
 else
 :
-                
-#
-otherwise
-fail
-out
                 
 parser
 .
@@ -3739,20 +3530,6 @@ args
 intent
 :
             
-#
-if
-we
-have
-a
-default
-intent
-specified
-in
-APPS
-above
-use
-that
-            
 if
 APPS
 [
@@ -3791,11 +3568,6 @@ default_intent
             
 else
 :
-                
-#
-otherwise
-fail
-out
                 
 parser
 .
@@ -4097,23 +3869,7 @@ available_tests
 0
 :
                 
-#
-none
-for
-that
-app
-;
-skip
-to
-next
-                
 continue
-            
-#
-print
-in
-readable
-format
             
 if
 _app
@@ -4206,16 +3962,6 @@ title
 )
 )
             
-#
-build
-the
-list
-of
-tests
-for
-this
-app
-            
 test_list
 =
 {
@@ -4240,14 +3986,6 @@ None
 is
 None
 :
-                    
-#
-no
-test
-name
-;
-skip
-it
                     
 continue
                 
@@ -4297,35 +4035,6 @@ subtests
 [
 ]
 }
-                
-#
-for
-page
--
-load
-tests
-we
-want
-to
-list
-every
-subtest
-so
-we
-                
-#
-can
-see
-which
-pages
-are
-available
-in
-which
-tp6
--
-*
-sets
                 
 if
 next_test
@@ -4434,25 +4143,16 @@ append
 subtest
 )
             
-#
-print
-the
-list
-in
-a
-nice
-readable
-format
-            
 for
 key
 in
 sorted
 (
-test_list
+six
 .
 iterkeys
 (
+test_list
 )
 )
 :
@@ -4550,10 +4250,6 @@ nDone
 .
 "
 )
-        
-#
-exit
-Raptor
         
 parser
 .

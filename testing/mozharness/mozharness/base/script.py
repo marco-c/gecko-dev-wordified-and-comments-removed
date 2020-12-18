@@ -9919,10 +9919,11 @@ for
 name
 path
 in
-exe
+six
 .
 iteritems
 (
+exe
 )
 :
                 
