@@ -412,6 +412,13 @@ truncate
 (
 0
 )
+        
+buf
+.
+seek
+(
+0
+)
     
 return
 inner
