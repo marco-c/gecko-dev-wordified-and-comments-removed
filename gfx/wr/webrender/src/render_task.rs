@@ -473,7 +473,6 @@ Option
 (
 DeviceIntPoint
 CacheTextureId
-RenderTargetIndex
 )
 >
 DeviceIntSize
@@ -643,7 +642,6 @@ Some
 (
 origin
 _
-layer
 )
 )
 size
@@ -659,11 +657,7 @@ new
 origin
 size
 )
-layer
-.
 0
-as
-LayerIndex
 )
 RenderTaskLocation
 :
@@ -6207,7 +6201,6 @@ Some
 (
 _
 texture_id
-_
 )
 )
 _
@@ -6293,7 +6286,6 @@ Some
 (
 origin
 _
-target_index
 )
 )
 size
@@ -6310,7 +6302,10 @@ new
 origin
 size
 )
-target_index
+RenderTargetIndex
+(
+0
+)
 )
 }
 RenderTaskLocation

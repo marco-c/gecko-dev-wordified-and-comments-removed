@@ -7047,7 +7047,7 @@ Image
 ImageBufferKind
 :
 :
-Texture2DArray
+Texture2D
 )
 )
 ;
@@ -7208,7 +7208,7 @@ Image
 ImageBufferKind
 :
 :
-Texture2DArray
+Texture2D
 )
 )
 ;
@@ -7257,10 +7257,6 @@ TextureSource
 TextureCache
 (
 texture_id
-ImageBufferKind
-:
-:
-Texture2DArray
 Swizzle
 :
 :
@@ -8378,7 +8374,7 @@ Image
 ImageBufferKind
 :
 :
-Texture2DArray
+Texture2D
 )
 )
 BlendMode
@@ -8616,10 +8612,6 @@ TextureSource
 TextureCache
 (
 color0
-ImageBufferKind
-:
-:
-Texture2DArray
 Swizzle
 :
 :
@@ -8633,10 +8625,6 @@ TextureSource
 TextureCache
 (
 color1
-ImageBufferKind
-:
-:
-Texture2DArray
 Swizzle
 :
 :
@@ -8809,10 +8797,6 @@ TextureSource
 TextureCache
 (
 texture_id
-ImageBufferKind
-:
-:
-Texture2DArray
 Swizzle
 :
 :
@@ -8847,7 +8831,7 @@ Image
 ImageBufferKind
 :
 :
-Texture2DArray
+Texture2D
 )
 textures
 ImageBrushData
@@ -9109,7 +9093,7 @@ Image
 ImageBufferKind
 :
 :
-Texture2DArray
+Texture2D
 )
 )
 ;
@@ -12471,7 +12455,7 @@ Image
 ImageBufferKind
 :
 :
-Texture2DArray
+Texture2D
 )
 )
 BlendMode
@@ -13614,10 +13598,6 @@ task
 get_target_texture
 (
 )
-ImageBufferKind
-:
-:
-Texture2DArray
 Swizzle
 :
 :
@@ -15609,10 +15589,6 @@ task_id
 get_target_texture
 (
 )
-ImageBufferKind
-:
-:
-Texture2DArray
 Swizzle
 :
 :

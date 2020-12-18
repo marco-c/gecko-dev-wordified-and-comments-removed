@@ -797,6 +797,7 @@ vec
 !
 [
 "
+TEXTURE_2D_ARRAY
 "
 "
 TEXTURE_2D
