@@ -444,11 +444,6 @@ nsACString
 aQuery
 )
 ;
-uint32_t
-MaxUrlLength
-(
-)
-;
 int64_t
 GetRootFolderId
 (
