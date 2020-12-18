@@ -43,7 +43,7 @@ namespace
 gmp
 {
 struct
-NodeIdData
+NodeIdParts
 {
 nsString
 mOrigin
@@ -53,6 +53,15 @@ mTopLevelOrigin
 ;
 nsString
 mGMPName
+;
+}
+;
+union
+NodeIdVariant
+{
+nsCString
+;
+NodeIdParts
 ;
 }
 ;
