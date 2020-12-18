@@ -2759,6 +2759,13 @@ OwnerDoc
 )
 :
 nullptr
+dom
+:
+:
+SyncOperationBehavior
+:
+:
+eSuspendInput
 )
 ;
 nsCOMPtr
