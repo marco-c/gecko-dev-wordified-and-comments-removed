@@ -981,6 +981,8 @@ seconds
 format
 (
                 
+float
+(
 round
 (
 (
@@ -993,6 +995,7 @@ now
 start
 )
 1
+)
 )
 message
 if

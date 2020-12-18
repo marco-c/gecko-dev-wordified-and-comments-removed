@@ -5160,10 +5160,13 @@ item
 label
 ]
 =
+float
+(
 round
 (
 new_value
 2
+)
 )
         
 if
@@ -5239,6 +5242,8 @@ test
                         
 seconds
 =
+float
+(
 round
 (
 result
@@ -5251,6 +5256,7 @@ duration
 0
 )
 2
+)
 )
                         
 update_item

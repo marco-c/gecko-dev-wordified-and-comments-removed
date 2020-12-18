@@ -3696,17 +3696,22 @@ replicates
 .
 extend
 (
+                    
 [
+float
+(
 round
 (
 x
 3
+)
 )
 for
 x
 in
 replicates
 ]
+                
 )
         
 vals
@@ -4432,6 +4437,8 @@ value
 round
 (
                 
+float
+(
 filters
 .
 median
@@ -4445,6 +4452,7 @@ name
 replicates
 "
 ]
+)
 )
 2
             
@@ -7339,17 +7347,22 @@ replicates
 .
 extend
 (
+                    
 [
+float
+(
 round
 (
 x
 3
+)
 )
 for
 x
 in
 replicates
 ]
+                
 )
         
 vals
@@ -8228,17 +8241,22 @@ replicates
 .
 extend
 (
+                    
 [
+float
+(
 round
 (
 x
 3
+)
 )
 for
 x
 in
 replicates
 ]
+                
 )
         
 vals
@@ -8768,17 +8786,22 @@ replicates
 .
 extend
 (
+                    
 [
+float
+(
 round
 (
 x
 3
+)
 )
 for
 x
 in
 replicates
 ]
+                
 )
         
 subtests
@@ -9043,9 +9066,11 @@ value
 "
 ]
 =
-round
+float
 (
                 
+round
+(
 filters
 .
 median
@@ -9061,6 +9086,7 @@ replicates
 ]
 )
 2
+)
             
 )
             
