@@ -198,6 +198,16 @@ mSize
 mFormat
 )
 ;
+if
+(
+!
+mDT
+)
+{
+return
+false
+;
+}
 mCanvasChild
 -
 >

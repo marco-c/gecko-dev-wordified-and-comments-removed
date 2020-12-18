@@ -1176,11 +1176,16 @@ SurfaceFormat
 aFormat
 )
 {
-MOZ_ASSERT
+if
 (
+!
 mRecorder
 )
+{
+return
+nullptr
 ;
+}
 RefPtr
 <
 gfx
