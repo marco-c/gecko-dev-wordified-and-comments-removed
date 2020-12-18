@@ -3522,6 +3522,8 @@ linux64
 -
 rust
 -
+nightly
+-
 linux64
 -
 rust
@@ -4165,6 +4167,8 @@ clang
 linux64
 -
 rust
+-
+nightly
 -
 linux64
 -
@@ -5114,6 +5118,8 @@ clang
 linux64
 -
 rust
+-
+nightly
 -
 linux64
 -
