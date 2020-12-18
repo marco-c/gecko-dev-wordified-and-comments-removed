@@ -805,6 +805,7 @@ MicrosoftAll
 ParallelsAll
 QualcommAll
 AppleAll
+AmazonAll
 IntelGMA500
 IntelGMA900
 IntelGMA950
@@ -855,6 +856,7 @@ Qualcomm
 MicrosoftBasic
 MicrosoftHyperV
 Apple
+Amazon
 Max
 }
 ;
