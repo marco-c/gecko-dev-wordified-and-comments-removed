@@ -1122,6 +1122,15 @@ Top
 (
 )
 ;
+if
+(
+!
+top
+)
+{
+continue
+;
+}
 isTopLevel
 =
 context
