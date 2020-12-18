@@ -2587,7 +2587,7 @@ return
 nullptr
 ;
 }
-ConvertYCbCrAToARGB
+ConvertI420AlphaToARGB
 (
 aBuffer
 .
