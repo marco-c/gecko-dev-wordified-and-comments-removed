@@ -11464,11 +11464,6 @@ pseudo_class
 NonTSPseudoClass
 :
 :
-Autofill
-|
-NonTSPseudoClass
-:
-:
 Defined
 |
 NonTSPseudoClass
@@ -11690,6 +11685,11 @@ NonTSPseudoClass
 :
 :
 MozDirAttrLikeAuto
+|
+NonTSPseudoClass
+:
+:
+MozAutofill
 |
 NonTSPseudoClass
 :
