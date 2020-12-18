@@ -10569,16 +10569,6 @@ this
 )
 ;
 }
-if
-(
-mWorker
--
->
-IsDBOpened
-(
-)
-)
-{
 using
 Worker
 =
@@ -10615,7 +10605,6 @@ gDbBackgroundThread
 r
 )
 ;
-}
 DebugOnly
 <
 nsresult
