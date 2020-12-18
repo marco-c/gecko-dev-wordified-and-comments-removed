@@ -79,6 +79,12 @@ Unlock
 )
 override
 ;
+size_t
+Bytes
+(
+)
+override
+;
 private
 :
 virtual

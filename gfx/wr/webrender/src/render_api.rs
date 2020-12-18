@@ -6623,4 +6623,8 @@ pub
 swap_chain
 :
 usize
+pub
+render_texture_hosts
+:
+usize
 }
