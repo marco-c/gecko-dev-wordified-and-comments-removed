@@ -17,14 +17,6 @@ image
 import
 png_dimensions
 from
-tests
-.
-support
-.
-inline
-import
-inline
-from
 .
 import
 document_dimensions
@@ -102,6 +94,7 @@ def
 test_html_document
 (
 session
+inline
 )
 :
     
@@ -152,6 +145,7 @@ def
 test_xhtml_document
 (
 session
+inline
 )
 :
     
@@ -213,6 +207,7 @@ def
 test_document_extends_beyond_viewport
 (
 session
+inline
 )
 :
     
