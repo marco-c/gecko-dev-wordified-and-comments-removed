@@ -2135,6 +2135,10 @@ nsContentUtils
 :
 :
 IsHTMLWhitespace
+nsTokenizerFlags
+:
+:
+SeparatorOptional
 >
 tokenizer
 (
@@ -2145,10 +2149,6 @@ nextToken
 )
 '
 '
-nsCharSeparatedTokenizer
-:
-:
-SEPARATOR_OPTIONAL
 )
 ;
 double
