@@ -433,6 +433,15 @@ slug
 experiment
 )
 ;
+if
+(
+experiment
+.
+branch
+.
+feature
+)
+{
 this
 .
 emit
@@ -451,6 +460,7 @@ featureId
 experiment
 )
 ;
+}
 }
 _emitExperimentExposure
 (
@@ -484,6 +494,7 @@ experiment
 branch
 .
 feature
+?
 .
 featureId
 )

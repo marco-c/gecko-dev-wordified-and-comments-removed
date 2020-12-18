@@ -1337,11 +1337,15 @@ ExperimentAPI
 .
 getFeatureValue
 (
+{
+featureId
+:
 "
 password
 -
 autocomplete
 "
+}
 )
 ?
 .
