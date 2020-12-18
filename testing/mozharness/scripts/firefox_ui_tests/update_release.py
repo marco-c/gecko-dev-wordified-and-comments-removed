@@ -10,8 +10,16 @@ import
 pprint
 import
 sys
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+quote
 sys
 .
 path
@@ -1745,8 +1753,6 @@ ftp_server_from
                     
 fragment
 =
-urllib
-.
 quote
 (
 rel_info
