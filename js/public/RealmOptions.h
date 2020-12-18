@@ -64,6 +64,7 @@ NewCompartmentInSystemZone
 NewCompartmentInExistingZone
 NewCompartmentAndZone
 ExistingCompartment
+NewCompartmentInSelfHostingZone
 }
 ;
 enum
@@ -209,6 +210,12 @@ setExistingCompartment
 Compartment
 *
 compartment
+)
+;
+RealmCreationOptions
+&
+setNewCompartmentInSelfHostingZone
+(
 )
 ;
 bool

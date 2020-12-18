@@ -17348,7 +17348,7 @@ creationOptions
 (
 )
 .
-setNewCompartmentAndZone
+setNewCompartmentInSelfHostingZone
 (
 )
 ;
@@ -17480,6 +17480,8 @@ selfHostingGlobal_
 =
 shg
 ;
+MOZ_ASSERT
+(
 realm
 -
 >
@@ -17488,8 +17490,9 @@ zone
 )
 -
 >
-setIsSelfHostingZone
+isSelfHostingZone
 (
+)
 )
 ;
 realm
