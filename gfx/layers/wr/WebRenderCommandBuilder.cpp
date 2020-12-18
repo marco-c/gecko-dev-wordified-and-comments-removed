@@ -6565,9 +6565,7 @@ nsDisplayListBuilder
 *
 aDisplayListBuilder
 bool
-aParentActive
-=
-true
+aSiblingActive
 )
 ;
 static
@@ -6715,7 +6713,7 @@ nsDisplayListBuilder
 *
 aDisplayListBuilder
 bool
-aParentActive
+aHasActivePrecedingSibling
 )
 {
 switch
@@ -6950,7 +6948,7 @@ TYPE_BLEND_MODE
 :
 {
 return
-aParentActive
+aHasActivePrecedingSibling
 |
 |
 HasActiveChildren
@@ -7136,6 +7134,11 @@ GetRenderRootStateManager
 (
 )
 ;
+bool
+encounteredActiveItem
+=
+false
+;
 while
 (
 item
@@ -7151,9 +7154,14 @@ aResources
 aSc
 manager
 mDisplayListBuilder
+encounteredActiveItem
 )
 )
 {
+encounteredActiveItem
+=
+true
+;
 RefPtr
 <
 WebRenderGroupData
