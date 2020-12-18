@@ -26,13 +26,6 @@ h
 #
 include
 "
-nsCharSeparatedTokenizer
-.
-h
-"
-#
-include
-"
 nsDOMString
 .
 h

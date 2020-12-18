@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsCharSeparatedTokenizer
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h
