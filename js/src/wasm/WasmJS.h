@@ -369,14 +369,6 @@ JSContext
 cx
 )
 ;
-bool
-SimdWormholeAvailable
-(
-JSContext
-*
-cx
-)
-;
 #
 if
 defined
