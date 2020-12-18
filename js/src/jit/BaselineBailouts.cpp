@@ -2715,13 +2715,6 @@ nextCallee_
 =
 nextCallee
 ;
-if
-(
-JitOptions
-.
-warpBuilder
-)
-{
 const
 uint32_t
 pcOff
@@ -2744,7 +2737,6 @@ findInlinedChild
 pcOff
 )
 ;
-}
 }
 bool
 BaselineStackBuilder

@@ -99,13 +99,6 @@ BaselineFrame
 frame
 )
 {
-MOZ_ASSERT
-(
-JitOptions
-.
-warpBuilder
-)
-;
 RootedScript
 script
 (

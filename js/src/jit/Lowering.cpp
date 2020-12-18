@@ -20562,13 +20562,6 @@ elements
 )
 )
 ;
-if
-(
-JitOptions
-.
-warpBuilder
-)
-{
 assignSnapshot
 (
 lir
@@ -20580,7 +20573,6 @@ bailoutKind
 )
 )
 ;
-}
 define
 (
 lir
@@ -24675,13 +24667,6 @@ CallTempReg1
 )
 )
 ;
-if
-(
-JitOptions
-.
-warpBuilder
-)
-{
 assignSnapshot
 (
 lir
@@ -24693,7 +24678,6 @@ bailoutKind
 )
 )
 ;
-}
 defineReturn
 (
 lir
