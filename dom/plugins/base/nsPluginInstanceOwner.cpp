@@ -13949,12 +13949,6 @@ eWindowType_plugin
 ;
 initData
 .
-mUnicode
-=
-false
-;
-initData
-.
 clipChildren
 =
 true
