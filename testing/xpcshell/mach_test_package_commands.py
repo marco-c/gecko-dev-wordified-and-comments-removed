@@ -244,12 +244,15 @@ args
 .
 testPaths
 =
+list
+(
 map
 (
 normalize
 args
 .
 testPaths
+)
 )
     
 import

@@ -5183,12 +5183,15 @@ pop
         
 lines
 =
+list
+(
 map
 (
 string
 .
 strip
 lines
+)
 )
         
 certbase64

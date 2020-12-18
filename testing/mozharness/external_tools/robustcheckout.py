@@ -5076,16 +5076,19 @@ config
                 
 fcounts
 =
-map
+list
 (
                     
+map
+(
+                        
 len
-                    
+                        
 sparsemod
 .
 _updateconfigandrefreshwdir
 (
-                        
+                            
 repo
 [
 ]
@@ -5097,6 +5100,8 @@ sparse_profile
 force
 =
 True
+                        
+)
                     
 )
                 

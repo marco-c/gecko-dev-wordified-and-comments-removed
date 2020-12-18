@@ -518,10 +518,13 @@ tests
 .
 extend
 (
+list
+(
 map
 (
 normalize
 tests
+)
 )
 )
         

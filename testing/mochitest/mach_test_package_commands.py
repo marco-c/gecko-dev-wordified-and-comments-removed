@@ -676,12 +676,15 @@ args
 .
 test_paths
 =
+list
+(
 map
 (
 normalize
 args
 .
 test_paths
+)
 )
     
 import

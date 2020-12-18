@@ -722,6 +722,8 @@ application
 "
         
 return
+list
+(
 map
 (
 os
@@ -734,6 +736,7 @@ self
 options
 .
 appArgs
+)
 )
     
 def

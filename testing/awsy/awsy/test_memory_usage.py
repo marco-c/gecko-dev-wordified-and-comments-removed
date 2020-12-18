@@ -302,6 +302,8 @@ readlines
         
 urls
 =
+list
+(
 map
 (
 lambda
@@ -322,6 +324,7 @@ localhost
 "
 )
 urls
+)
 )
         
 to_load

@@ -590,10 +590,13 @@ lines
     
 changelog
 =
+list
+(
 map
 (
 prettify
 changelog
+)
 )
     
 print
