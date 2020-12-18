@@ -3,6 +3,8 @@ __future__
 import
 absolute_import
 import
+six
+import
 json
 import
 os
@@ -78,16 +80,18 @@ ThunderbirdProfile
 create_profile
 "
 ]
+six
+.
+add_metaclass
+(
+ABCMeta
+)
 class
 BaseProfile
 (
 object
 )
 :
-    
-__metaclass__
-=
-ABCMeta
     
 def
 __init__

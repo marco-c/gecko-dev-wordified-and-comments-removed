@@ -3,6 +3,8 @@ __future__
 import
 absolute_import
 print_function
+import
+six
 from
 abc
 import
@@ -595,13 +597,15 @@ sup
     
 return
 rv
+six
+.
+add_metaclass
+(
+ABCMeta
+)
 class
 ArgumentContainer
 :
-    
-__metaclass__
-=
-ABCMeta
     
 abstractproperty
     

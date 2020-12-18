@@ -3,6 +3,8 @@ __future__
 import
 absolute_import
 import
+six
+import
 json
 import
 os
@@ -223,6 +225,12 @@ POST_DELAY_DEBUG
 POST_DELAY_DEFAULT
 =
 30000
+six
+.
+add_metaclass
+(
+ABCMeta
+)
 class
 Perftest
 (
@@ -252,10 +260,6 @@ browsertime
 "
 "
 "
-    
-__metaclass__
-=
-ABCMeta
     
 def
 __init__

@@ -45,6 +45,12 @@ perftest
 output
 "
 )
+six
+.
+add_metaclass
+(
+ABCMeta
+)
 class
 PerftestOutput
 (
@@ -67,10 +73,6 @@ results
 "
 "
 "
-    
-__metaclass__
-=
-ABCMeta
     
 def
 __init__

@@ -64,6 +64,12 @@ BROWSERTIME_BENCHMARK_OUTPUT_TIMEOUT
     
 None
 )
+six
+.
+add_metaclass
+(
+ABCMeta
+)
 class
 Browsertime
 (
@@ -82,10 +88,6 @@ Browsertime
 "
 "
 "
-    
-__metaclass__
-=
-ABCMeta
     
 property
     

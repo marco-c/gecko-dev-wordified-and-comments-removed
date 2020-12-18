@@ -66,6 +66,12 @@ cold
 webrender
 "
 ]
+six
+.
+add_metaclass
+(
+ABCMeta
+)
 class
 PerftestResultsHandler
 (
@@ -86,10 +92,6 @@ results
 "
 "
 "
-    
-__metaclass__
-=
-ABCMeta
     
 def
 __init__

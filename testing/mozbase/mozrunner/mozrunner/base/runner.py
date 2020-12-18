@@ -3,6 +3,8 @@ __future__
 import
 absolute_import
 import
+six
+import
 os
 import
 subprocess
@@ -56,6 +58,12 @@ from
 errors
 import
 RunnerNotStartedError
+six
+.
+add_metaclass
+(
+ABCMeta
+)
 class
 BaseRunner
 (
@@ -84,10 +92,6 @@ remote
 "
 "
 "
-    
-__metaclass__
-=
-ABCMeta
     
 last_test
 =
