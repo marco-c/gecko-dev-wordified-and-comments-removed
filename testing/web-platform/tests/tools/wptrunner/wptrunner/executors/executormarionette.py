@@ -4838,12 +4838,8 @@ except
 IOError
 :
             
-self
-.
-logger
-.
-error
-(
+msg
+=
 "
 Lost
 marionette
@@ -4852,10 +4848,25 @@ before
 starting
 test
 "
+            
+self
+.
+logger
+.
+error
+(
+msg
 )
             
 return
-Stop
+(
+"
+INTERNAL
+-
+ERROR
+"
+msg
+)
     
 def
 before_run
