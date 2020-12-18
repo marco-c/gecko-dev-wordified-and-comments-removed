@@ -36279,7 +36279,7 @@ GetCurrentDocChannel
 )
 ;
 }
-uint32_t
+nsContentPolicyType
 nsDocShell
 :
 :
@@ -43325,7 +43325,7 @@ NS_ERROR_UNEXPECTED
 nsresult
 rv
 ;
-uint32_t
+nsContentPolicyType
 contentPolicyType
 =
 DetermineContentType

@@ -498,7 +498,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-uint32_t
+nsContentPolicyType
 contentType
 =
 aLoadInfo
@@ -858,7 +858,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-uint32_t
+nsContentPolicyType
 contentType
 =
 aLoadInfo

@@ -864,7 +864,7 @@ ServiceWorkerDescriptor
 aController
 uint32_t
 aSecurityFlags
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 uint32_t
 aSandboxFlags

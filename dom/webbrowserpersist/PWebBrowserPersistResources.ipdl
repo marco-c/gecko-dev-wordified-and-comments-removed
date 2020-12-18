@@ -114,6 +114,15 @@ BrowsingContext
 h
 "
 ;
+using
+nsContentPolicyType
+from
+"
+nsIContentPolicy
+.
+h
+"
+;
 namespace
 mozilla
 {
@@ -135,7 +144,7 @@ VisitResource
 (
 nsCString
 aURI
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 )
 ;

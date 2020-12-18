@@ -726,7 +726,7 @@ nsILoadInfo
 SEC_FORCE_INHERIT_PRINCIPAL
 ;
 }
-uint32_t
+nsContentPolicyType
 externalType
 =
 nsContentUtils

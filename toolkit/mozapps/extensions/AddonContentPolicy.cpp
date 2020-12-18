@@ -445,7 +445,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-uint32_t
+nsContentPolicyType
 contentType
 =
 aLoadInfo
@@ -701,7 +701,7 @@ aShouldProcess
 #
 ifdef
 DEBUG
-uint32_t
+nsContentPolicyType
 contentType
 =
 aLoadInfo

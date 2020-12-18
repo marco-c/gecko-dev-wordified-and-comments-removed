@@ -66,7 +66,7 @@ int16_t
 aDecision
 )
 {
-uint32_t
+nsContentPolicyType
 contentType
 =
 aLoadInfo

@@ -2946,7 +2946,7 @@ bool
 aIsPrivateData
 nsIPrincipal
 aRequestingPrincipal
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 )
 ;

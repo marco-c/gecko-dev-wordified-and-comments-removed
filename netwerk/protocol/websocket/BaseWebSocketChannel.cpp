@@ -909,7 +909,7 @@ nsICookieJarSettings
 aCookieJarSettings
 uint32_t
 aSecurityFlags
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 uint32_t
 aSandboxFlags
@@ -987,7 +987,7 @@ nsIPrincipal
 aTriggeringPrincipal
 uint32_t
 aSecurityFlags
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 )
 {

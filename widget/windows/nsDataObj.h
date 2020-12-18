@@ -861,7 +861,7 @@ Init
 nsIURI
 *
 pSourceURI
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 nsIPrincipal
 *

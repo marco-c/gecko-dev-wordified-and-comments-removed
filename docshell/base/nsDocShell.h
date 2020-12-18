@@ -2963,7 +2963,7 @@ nsDocShellLoadState
 aLoadState
 )
 ;
-uint32_t
+nsContentPolicyType
 DetermineContentType
 (
 )

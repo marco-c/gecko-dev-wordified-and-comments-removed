@@ -2471,7 +2471,7 @@ imgRequestProxy
 *
 *
 aRequest
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 =
 nsIContentPolicy

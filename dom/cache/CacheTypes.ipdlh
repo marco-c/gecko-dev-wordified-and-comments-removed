@@ -240,6 +240,15 @@ h
 "
 ;
 using
+nsContentPolicyType
+from
+"
+nsIContentPolicy
+.
+h
+"
+;
+using
 struct
 nsID
 from
@@ -356,7 +365,7 @@ CacheReadStream
 ?
 body
 ;
-uint32_t
+nsContentPolicyType
 contentPolicyType
 ;
 RequestCache

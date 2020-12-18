@@ -72,7 +72,7 @@ int16_t
 aShouldLoad
 )
 {
-uint32_t
+nsContentPolicyType
 contentType
 =
 aLoadInfo
@@ -248,7 +248,7 @@ aShouldProcess
 #
 ifdef
 DEBUG
-uint32_t
+nsContentPolicyType
 contentType
 =
 aLoadInfo
