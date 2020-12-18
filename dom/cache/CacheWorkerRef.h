@@ -103,7 +103,7 @@ void
 AddActor
 (
 ActorChild
-*
+&
 aActor
 )
 ;
@@ -111,7 +111,7 @@ void
 RemoveActor
 (
 ActorChild
-*
+&
 aActor
 )
 ;
@@ -135,8 +135,11 @@ Notify
 ;
 nsTArray
 <
+NotNull
+<
 ActorChild
 *
+>
 >
 mActorList
 ;

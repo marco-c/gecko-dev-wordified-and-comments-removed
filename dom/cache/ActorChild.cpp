@@ -89,6 +89,7 @@ mWorkerRef
 >
 AddActor
 (
+*
 this
 )
 ;
@@ -121,6 +122,7 @@ mWorkerRef
 >
 RemoveActor
 (
+*
 this
 )
 ;
