@@ -280,7 +280,15 @@ PrincipalInfo
 ;
 }
 }
-BEGIN_QUOTA_NAMESPACE
+namespace
+mozilla
+:
+:
+dom
+:
+:
+quota
+{
 class
 ClientUsageArray
 ;
@@ -2273,6 +2281,6 @@ mCacheUsable
 ;
 }
 ;
-END_QUOTA_NAMESPACE
+}
 #
 endif

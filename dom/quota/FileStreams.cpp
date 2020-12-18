@@ -72,7 +72,15 @@ prio
 .
 h
 "
-BEGIN_QUOTA_NAMESPACE
+namespace
+mozilla
+:
+:
+dom
+:
+:
+quota
+{
 template
 <
 class
@@ -602,4 +610,4 @@ forget
 )
 ;
 }
-END_QUOTA_NAMESPACE
+}
