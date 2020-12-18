@@ -3671,7 +3671,7 @@ Services
 .
 search
 .
-getDefaultEngines
+getAppProvidedEngines
 (
 )
 )

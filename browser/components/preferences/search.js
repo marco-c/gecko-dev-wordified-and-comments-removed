@@ -3366,7 +3366,7 @@ Services
 .
 search
 .
-getDefaultEngines
+getAppProvidedEngines
 (
 )
 ]

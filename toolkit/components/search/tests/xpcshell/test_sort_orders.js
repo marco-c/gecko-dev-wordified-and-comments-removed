@@ -206,7 +206,7 @@ await
 checkOrder
 (
 "
-getDefaultEngines
+getAppProvidedEngines
 "
 EXPECTED_ORDER
 )
@@ -288,7 +288,7 @@ await
 checkOrder
 (
 "
-getDefaultEngines
+getAppProvidedEngines
 "
 EXPECTED_ORDER
 )
@@ -388,7 +388,7 @@ await
 checkOrder
 (
 "
-getDefaultEngines
+getAppProvidedEngines
 "
 expected
 )
