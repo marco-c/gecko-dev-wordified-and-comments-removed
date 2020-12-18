@@ -1047,6 +1047,9 @@ self
 _conn
 :
             
+try
+:
+                
 self
 .
 _conn
@@ -1054,6 +1057,18 @@ _conn
 close
 (
 )
+            
+except
+OSError
+:
+                
+pass
+        
+self
+.
+_conn
+=
+None
     
 property
     
