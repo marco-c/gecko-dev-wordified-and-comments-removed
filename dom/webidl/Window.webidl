@@ -4313,6 +4313,14 @@ attribute
 GleanImpl
 Glean
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+GleanPingsImpl
+GleanPings
+;
 #
 endif
 }

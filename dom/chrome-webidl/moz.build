@@ -460,6 +460,11 @@ Glean
 .
 webidl
 "
+"
+GleanPings
+.
+webidl
+"
 ]
 WEBIDL_FILES
 +

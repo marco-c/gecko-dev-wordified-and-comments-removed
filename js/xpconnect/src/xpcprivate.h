@@ -8813,6 +8813,11 @@ glean
 :
 1
 ;
+bool
+gleanPings
+:
+1
+;
 #
 endif
 private

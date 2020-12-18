@@ -41,4 +41,16 @@ pings
 .
 yaml
 "
+    
+"
+toolkit
+/
+components
+/
+glean
+/
+test_pings
+.
+yaml
+"
 ]

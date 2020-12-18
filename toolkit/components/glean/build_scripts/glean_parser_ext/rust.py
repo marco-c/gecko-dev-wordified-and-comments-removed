@@ -34,6 +34,7 @@ from
 util
 import
 generate_metric_ids
+generate_ping_ids
 from
 glean_parser
 import
@@ -988,6 +989,13 @@ generate_metric_ids
 objs
 )
     
+get_ping_id
+=
+generate_ping_ids
+(
+objs
+)
+    
 objs_by_type
 =
 {
@@ -1230,6 +1238,13 @@ extra_keys
 metric_id
 "
 get_metric_id
+)
+            
+(
+"
+ping_id
+"
+get_ping_id
 )
         
 )

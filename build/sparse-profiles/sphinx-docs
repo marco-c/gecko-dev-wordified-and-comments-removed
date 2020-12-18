@@ -266,3 +266,14 @@ glean
 test_metrics
 .
 yaml
+path
+:
+toolkit
+/
+components
+/
+glean
+/
+test_pings
+.
+yaml
