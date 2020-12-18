@@ -57,9 +57,6 @@ MPL
 *
 /
 #
-define
-WR_FEATURE_TEXTURE_2D
-#
 include
 shared
 shared_other
@@ -149,7 +146,15 @@ alpha
 texture
 (
 sColor0
+vec3
+(
 vColorTexCoord
+.
+xy
+0
+.
+0
+)
 )
 .
 r
