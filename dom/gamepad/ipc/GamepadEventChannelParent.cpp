@@ -218,6 +218,12 @@ AssertIsOnBackgroundThread
 (
 )
 ;
+if
+(
+!
+mShutdown
+)
+{
 GamepadPlatformService
 :
 :
@@ -226,6 +232,11 @@ RemoveChannelParent
 this
 )
 ;
+mShutdown
+=
+true
+;
+}
 }
 mozilla
 :
