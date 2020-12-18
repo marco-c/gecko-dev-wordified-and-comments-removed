@@ -388,6 +388,12 @@ embed
 font
 "
 "
+frame
+"
+"
+iframe
+"
+"
 image
 "
 "
