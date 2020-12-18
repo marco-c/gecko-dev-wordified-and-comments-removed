@@ -244,6 +244,11 @@ assert_worker_is_loaded
 (
 url
 description
+expected_message
+=
+"
+ping
+"
 )
 {
 async_test
@@ -299,9 +304,7 @@ assert_equals
 e
 .
 data
-"
-ping
-"
+expected_message
 )
 ;
 }
@@ -318,6 +321,11 @@ assert_shared_worker_is_loaded
 (
 url
 description
+expected_message
+=
+"
+ping
+"
 )
 {
 async_test
@@ -375,9 +383,7 @@ assert_equals
 e
 .
 data
-"
-ping
-"
+expected_message
 )
 ;
 }
