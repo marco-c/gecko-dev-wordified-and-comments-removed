@@ -33,12 +33,9 @@ GMPCrashHelper
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_DESTROY
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_DELETE_ON_MAIN_THREAD
 (
 GMPCrashHelper
-Destroy
-(
-)
 )
 ;
 virtual
@@ -68,11 +65,6 @@ NS_IsMainThread
 )
 ;
 }
-void
-Destroy
-(
-)
-;
 }
 ;
 }

@@ -461,11 +461,6 @@ GMPContentParent
 cpp
 "
 "
-GMPCrashHelper
-.
-cpp
-"
-"
 GMPCrashHelperHolder
 .
 cpp
