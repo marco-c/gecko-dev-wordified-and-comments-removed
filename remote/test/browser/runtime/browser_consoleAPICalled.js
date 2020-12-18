@@ -1153,15 +1153,6 @@ Runtime
 client
 ;
 const
-{
-timeout
-=
-250
-}
-=
-options
-;
-const
 EVENT_CONSOLE_API_CALLED
 =
 "
@@ -1232,7 +1223,6 @@ history
 .
 record
 (
-timeout
 )
 ;
 is
