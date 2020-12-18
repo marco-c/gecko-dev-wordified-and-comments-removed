@@ -1245,7 +1245,7 @@ SurfaceFormat
 :
 :
 B8G8R8X8
-srcData
+aData
 .
 mPicSize
 )
