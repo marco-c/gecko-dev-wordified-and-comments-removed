@@ -1141,7 +1141,7 @@ if
 (
 maxRefreshRate
 >
-60
+75
 )
 {
 mFeatureWrQualified
