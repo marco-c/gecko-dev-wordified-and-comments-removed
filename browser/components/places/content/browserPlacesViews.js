@@ -6128,14 +6128,14 @@ dispatchEvent
 event
 )
 ;
-}
-)
-;
 this
 .
 _updatingNodesVisibility
 =
 false
+;
+}
+)
 ;
 }
 nodeInserted
