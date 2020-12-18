@@ -2139,6 +2139,10 @@ aCurrentURI
 nsIReferrerInfo
 *
 aReferrerInfo
+bool
+aNotifiedBeforeUnloadListeners
+=
+false
 )
 ;
 nsresult
