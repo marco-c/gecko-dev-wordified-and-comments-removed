@@ -73,6 +73,10 @@ const
 nsACString
 &
 aReason
+=
+nsCString
+(
+)
 )
 const
 {

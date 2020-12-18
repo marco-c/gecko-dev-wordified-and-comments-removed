@@ -244,7 +244,11 @@ TestGetValue
 const
 nsACString
 &
-aStorageName
+aPingName
+=
+nsCString
+(
+)
 )
 const
 {
@@ -255,7 +259,7 @@ fog_event_test_has_value
 (
 mId
 &
-aStorageName
+aPingName
 )
 )
 {

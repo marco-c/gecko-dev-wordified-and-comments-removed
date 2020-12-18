@@ -92,7 +92,11 @@ TestGetValue
 const
 nsACString
 &
-aStorageName
+aPingName
+=
+nsCString
+(
+)
 )
 const
 {
@@ -103,7 +107,7 @@ fog_timespan_test_has_value
 (
 mId
 &
-aStorageName
+aPingName
 )
 )
 {
@@ -120,7 +124,7 @@ fog_timespan_test_get_value
 (
 mId
 &
-aStorageName
+aPingName
 )
 )
 ;

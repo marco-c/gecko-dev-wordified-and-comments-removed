@@ -114,6 +114,10 @@ const
 nsACString
 &
 aPingName
+=
+nsCString
+(
+)
 )
 const
 {

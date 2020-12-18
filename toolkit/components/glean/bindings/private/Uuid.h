@@ -105,7 +105,11 @@ TestGetValue
 const
 nsACString
 &
-aStorageName
+aPingName
+=
+nsCString
+(
+)
 )
 const
 {
@@ -116,7 +120,7 @@ fog_uuid_test_has_value
 (
 mId
 &
-aStorageName
+aPingName
 )
 )
 {
@@ -133,7 +137,7 @@ fog_uuid_test_get_value
 (
 mId
 &
-aStorageName
+aPingName
 &
 ret
 )
