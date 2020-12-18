@@ -167,7 +167,7 @@ CSSRule
 SetterThrows
 ]
 attribute
-DOMString
+UTF8String
 fontFamily
 ;
 /
@@ -232,7 +232,7 @@ addition
 SetterThrows
 ]
 attribute
-DOMString
+UTF8String
 valueText
 ;
 }

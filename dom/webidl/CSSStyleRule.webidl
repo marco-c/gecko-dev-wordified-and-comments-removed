@@ -150,7 +150,7 @@ CSSStyleRule
 CSSRule
 {
 attribute
-DOMString
+UTF8String
 selectorText
 ;
 [

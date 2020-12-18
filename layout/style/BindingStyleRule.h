@@ -155,7 +155,7 @@ GetSelectorText
 (
 uint32_t
 aSelectorIndex
-nsAString
+nsACString
 &
 aText
 )
@@ -217,7 +217,7 @@ virtual
 void
 GetSelectorText
 (
-nsAString
+nsACString
 &
 aSelectorText
 )
@@ -229,7 +229,7 @@ void
 SetSelectorText
 (
 const
-nsAString
+nsACString
 &
 aSelectorText
 )

@@ -236,7 +236,7 @@ GetSelectorText
 (
 uint32_t
 aSelectorIndex
-nsAString
+nsACString
 &
 aText
 )
@@ -307,7 +307,7 @@ STYLE_RULE
 void
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )
@@ -317,7 +317,7 @@ final
 void
 GetSelectorText
 (
-nsAString
+nsACString
 &
 aSelectorText
 )
@@ -327,7 +327,7 @@ void
 SetSelectorText
 (
 const
-nsAString
+nsACString
 &
 aSelectorText
 )

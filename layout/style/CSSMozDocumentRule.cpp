@@ -586,7 +586,7 @@ CSSMozDocumentRule
 :
 GetConditionText
 (
-nsAString
+nsACString
 &
 aConditionText
 )
@@ -606,7 +606,7 @@ CSSMozDocumentRule
 SetConditionText
 (
 const
-nsAString
+nsACString
 &
 aConditionText
 ErrorResult
@@ -638,7 +638,7 @@ CSSMozDocumentRule
 :
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )

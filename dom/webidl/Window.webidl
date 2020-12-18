@@ -1626,7 +1626,7 @@ MediaQueryList
 ?
 matchMedia
 (
-DOMString
+UTF8String
 query
 )
 ;

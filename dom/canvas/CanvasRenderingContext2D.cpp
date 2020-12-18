@@ -5395,7 +5395,7 @@ CanvasRenderingContext2D
 SetStyleFromString
 (
 const
-nsAString
+nsACString
 &
 aStr
 Style
@@ -5420,10 +5420,7 @@ if
 !
 ParseColor
 (
-NS_ConvertUTF16toUTF8
-(
 aStr
-)
 &
 color
 )
@@ -5449,7 +5446,7 @@ CanvasRenderingContext2D
 :
 GetStyleAsUnion
 (
-OwningStringOrCanvasGradientOrCanvasPattern
+OwningUTF8StringOrCanvasGradientOrCanvasPattern
 &
 aValue
 Style
@@ -5526,7 +5523,7 @@ aWhichStyle
 ]
 aValue
 .
-SetAsString
+SetAsUTF8String
 (
 )
 )
@@ -5543,11 +5540,17 @@ const
 nscolor
 &
 aColor
-nsAString
+nsACString
 &
 aStr
 )
 {
+aStr
+.
+Truncate
+(
+)
+;
 if
 (
 NS_GET_A
@@ -5559,9 +5562,9 @@ aColor
 255
 )
 {
-CopyUTF8toUTF16
-(
-nsPrintfCString
+aStr
+.
+AppendPrintf
 (
 "
 #
@@ -5585,15 +5588,13 @@ NS_GET_B
 aColor
 )
 )
-aStr
-)
 ;
 }
 else
 {
-CopyUTF8toUTF16
-(
-nsPrintfCString
+aStr
+.
+AppendPrintf
 (
 "
 rgba
@@ -5617,8 +5618,6 @@ NS_GET_B
 (
 aColor
 )
-)
-aStr
 )
 ;
 aStr
@@ -9742,7 +9741,7 @@ CanvasRenderingContext2D
 SetStyleFromUnion
 (
 const
-StringOrCanvasGradientOrCanvasPattern
+UTF8StringOrCanvasGradientOrCanvasPattern
 &
 aValue
 Style
@@ -9753,7 +9752,7 @@ if
 (
 aValue
 .
-IsString
+IsUTF8String
 (
 )
 )
@@ -9762,7 +9761,7 @@ SetStyleFromString
 (
 aValue
 .
-GetAsString
+GetAsUTF8String
 (
 )
 aWhichStyle
@@ -10837,7 +10836,7 @@ CanvasRenderingContext2D
 SetShadowColor
 (
 const
-nsAString
+nsACString
 &
 aShadowColor
 )
@@ -10850,10 +10849,7 @@ if
 !
 ParseColor
 (
-NS_ConvertUTF16toUTF8
-(
 aShadowColor
-)
 &
 color
 )
@@ -10881,7 +10877,7 @@ CreateDeclarationForServo
 nsCSSPropertyID
 aProperty
 const
-nsAString
+nsACString
 &
 aPropertyValue
 Document
@@ -11002,7 +10998,7 @@ RawServoDeclarationBlock
 CreateFontDeclarationForServo
 (
 const
-nsAString
+nsACString
 &
 aFont
 Document
@@ -11030,13 +11026,13 @@ Element
 *
 aElement
 const
-nsAString
+nsACString
 &
 aFont
 PresShell
 *
 aPresShell
-nsAString
+nsACString
 &
 aOutUsedFont
 ErrorResult
@@ -11153,7 +11149,6 @@ declarations
 =
 CreateFontDeclarationForServo
 (
-u
 "
 10px
 sans
@@ -11271,7 +11266,7 @@ RawServoDeclarationBlock
 CreateFilterDeclarationForServo
 (
 const
-nsAString
+nsACString
 &
 aFilter
 Document
@@ -11296,7 +11291,7 @@ ComputedStyle
 ResolveFilterStyleForServo
 (
 const
-nsAString
+nsACString
 &
 aFilterString
 const
@@ -11392,7 +11387,7 @@ CanvasRenderingContext2D
 ParseFilter
 (
 const
-nsAString
+nsACString
 &
 aString
 StyleOwnedSlice
@@ -11476,7 +11471,7 @@ return
 false
 ;
 }
-nsAutoString
+nsAutoCString
 usedFont
 ;
 RefPtr
@@ -11553,7 +11548,7 @@ CanvasRenderingContext2D
 SetFilter
 (
 const
-nsAString
+nsACString
 &
 aFilter
 ErrorResult
@@ -16036,7 +16031,7 @@ CanvasRenderingContext2D
 SetFont
 (
 const
-nsAString
+nsACString
 &
 aFont
 ErrorResult
@@ -16058,7 +16053,7 @@ CanvasRenderingContext2D
 SetFontInternal
 (
 const
-nsAString
+nsACString
 &
 aFont
 ErrorResult
@@ -16136,7 +16131,7 @@ return
 false
 ;
 }
-nsString
+nsCString
 usedFont
 ;
 RefPtr
@@ -20413,7 +20408,6 @@ constexpr
 auto
 kDefaultFontStyle
 =
-u
 "
 10px
 sans

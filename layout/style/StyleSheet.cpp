@@ -792,7 +792,7 @@ aOptions
 .
 mMedia
 .
-IsString
+IsUTF8String
 (
 )
 )
@@ -811,7 +811,7 @@ aOptions
 .
 mMedia
 .
-GetAsString
+GetAsUTF8String
 (
 )
 )
@@ -3040,7 +3040,7 @@ StyleSheet
 InsertRule
 (
 const
-nsAString
+nsACString
 &
 aRule
 uint32_t
@@ -3190,11 +3190,11 @@ StyleSheet
 AddRule
 (
 const
-nsAString
+nsACString
 &
 aSelector
 const
-nsAString
+nsACString
 &
 aBlock
 const
@@ -3232,7 +3232,7 @@ return
 1
 ;
 }
-nsAutoString
+nsAutoCString
 rule
 ;
 rule
@@ -4246,7 +4246,7 @@ StyleSheet
 InsertRuleIntoGroup
 (
 const
-nsAString
+nsACString
 &
 aRule
 css
@@ -5117,7 +5117,7 @@ if
 mMedia
 )
 {
-nsString
+nsAutoCString
 buffer
 ;
 mMedia
@@ -5146,10 +5146,11 @@ AppendLiteral
 "
 )
 ;
-AppendUTF16toUTF8
+line
+.
+Append
 (
 buffer
-line
 )
 ;
 }
@@ -5253,9 +5254,6 @@ len
 i
 )
 {
-nsString
-cssText
-;
 css
 :
 :
@@ -5271,6 +5269,9 @@ GetRule
 i
 )
 ;
+nsAutoCString
+cssText
+;
 rule
 -
 >
@@ -5279,13 +5280,7 @@ GetCssText
 cssText
 )
 ;
-NS_ConvertUTF16toUTF8
-s
-(
 cssText
-)
-;
-s
 .
 ReplaceSubstring
 (
@@ -5306,7 +5301,7 @@ s
 \
 n
 "
-s
+cssText
 .
 get
 (
@@ -5430,7 +5425,7 @@ MediaList
 :
 Create
 (
-nsString
+EmptyCString
 (
 )
 )
@@ -6855,7 +6850,7 @@ StyleSheet
 InsertRuleInternal
 (
 const
-nsAString
+nsACString
 &
 aRule
 uint32_t
@@ -7071,7 +7066,7 @@ StyleSheet
 InsertRuleIntoGroupInternal
 (
 const
-nsAString
+nsACString
 &
 aRule
 css

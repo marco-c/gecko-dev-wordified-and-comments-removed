@@ -162,7 +162,7 @@ CSSNamespaceRule
 :
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )

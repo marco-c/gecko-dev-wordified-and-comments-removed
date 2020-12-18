@@ -1393,19 +1393,11 @@ GetPropertyValue
 const
 nsCSSPropertyID
 aPropID
-nsAString
+nsACString
 &
 aValue
 )
 {
-MOZ_ASSERT
-(
-aPropID
-!
-=
-eCSSPropertyExtra_variable
-)
-;
 return
 GetPropertyValue
 (
@@ -1484,7 +1476,7 @@ nsComputedDOMStyle
 :
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )
@@ -1503,7 +1495,7 @@ nsComputedDOMStyle
 SetCssText
 (
 const
-nsAString
+nsACString
 &
 aCssText
 nsIPrincipal
@@ -1605,7 +1597,7 @@ const
 nsACString
 &
 aPropertyName
-nsAString
+nsACString
 &
 aReturn
 )
@@ -1642,7 +1634,7 @@ const
 nsACString
 &
 aMaybeCustomPropertyName
-nsAString
+nsACString
 &
 aReturn
 )
@@ -1908,7 +1900,7 @@ mGetter
 ErrorResult
 rv
 ;
-nsString
+nsAutoString
 text
 ;
 value
@@ -1920,11 +1912,10 @@ text
 rv
 )
 ;
-aReturn
-.
-Assign
+CopyUTF16toUTF8
 (
 text
+aReturn
 )
 ;
 return
@@ -4810,7 +4801,7 @@ const
 nsACString
 &
 aPropertyName
-nsAString
+nsACString
 &
 aReturn
 ErrorResult
@@ -4854,7 +4845,7 @@ const
 nsACString
 &
 aPropertyName
-nsAString
+nsACString
 &
 aReturn
 )
@@ -4881,7 +4872,7 @@ nsACString
 &
 aValue
 const
-nsAString
+nsACString
 &
 aPriority
 nsIPrincipal
@@ -5908,7 +5899,7 @@ return
 nullptr
 ;
 }
-nsAutoString
+nsAutoCString
 result
 ;
 mComputedStyle
@@ -6267,7 +6258,7 @@ static
 void
 AppendGridLineNames
 (
-nsAString
+nsACString
 &
 aResult
 Span
@@ -6354,6 +6345,9 @@ i
 ;
 )
 {
+nsAutoString
+name
+;
 nsStyleUtil
 :
 :
@@ -6370,6 +6364,12 @@ AsAtom
 (
 )
 )
+name
+)
+;
+AppendUTF16toUTF8
+(
+name
 aResult
 )
 ;
@@ -6460,7 +6460,7 @@ val
 new
 nsROCSSPrimitiveValue
 ;
-nsAutoString
+nsAutoCString
 lineNamesString
 ;
 AppendGridLineNames
@@ -6543,7 +6543,7 @@ val
 new
 nsROCSSPrimitiveValue
 ;
-nsAutoString
+nsAutoCString
 lineNamesString
 ;
 lineNamesString
@@ -8215,7 +8215,7 @@ if
 gridFrame
 )
 {
-nsAutoString
+nsAutoCString
 string
 ;
 mComputedStyle
@@ -8307,7 +8307,7 @@ if
 gridFrame
 )
 {
-nsAutoString
+nsAutoCString
 string
 ;
 mComputedStyle
@@ -8885,7 +8885,7 @@ value
 new
 nsROCSSPrimitiveValue
 ;
-nsAutoString
+nsAutoCString
 string
 ;
 mComputedStyle
@@ -11483,7 +11483,7 @@ result
 )
 ;
 }
-nsAutoString
+nsAutoCString
 result
 ;
 Servo_LengthPercentage_ToCss

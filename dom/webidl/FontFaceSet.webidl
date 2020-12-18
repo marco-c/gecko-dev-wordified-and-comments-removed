@@ -420,7 +420,7 @@ FontFace
 >
 load
 (
-DOMString
+UTF8String
 font
 optional
 DOMString
@@ -458,7 +458,7 @@ Throws
 boolean
 check
 (
-DOMString
+UTF8String
 font
 optional
 DOMString

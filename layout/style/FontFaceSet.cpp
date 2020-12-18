@@ -1167,7 +1167,7 @@ FontFaceSet
 ParseFontShorthandForMatching
 (
 const
-nsAString
+nsACString
 &
 aFont
 RefPtr
@@ -1464,7 +1464,7 @@ FontFaceSet
 FindMatchingFontFaces
 (
 const
-nsAString
+nsACString
 &
 aFont
 const
@@ -1817,7 +1817,7 @@ JSContext
 *
 aCx
 const
-nsAString
+nsACString
 &
 aFont
 const
@@ -1949,7 +1949,7 @@ FontFaceSet
 Check
 (
 const
-nsAString
+nsACString
 &
 aFont
 const
@@ -6525,7 +6525,7 @@ aUserFontEntry
 nsString
 href
 ;
-nsString
+nsAutoCString
 text
 ;
 uint32_t
@@ -6673,7 +6673,10 @@ NS_ConvertUTF8toUTF16
 message
 )
 href
+NS_ConvertUTF8toUTF16
+(
 text
+)
 line
 column
 aFlags

@@ -5075,7 +5075,7 @@ p
 mSegments
 )
 {
-nsString
+nsAutoCString
 fromValue
 toValue
 ;
@@ -5130,18 +5130,12 @@ mFromKey
 s
 .
 mToKey
-NS_ConvertUTF16toUTF8
-(
 fromValue
-)
 .
 get
 (
 )
-NS_ConvertUTF16toUTF8
-(
 toValue
-)
 .
 get
 (
@@ -5543,7 +5537,7 @@ IsNull
 )
 )
 {
-nsString
+nsAutoCString
 stringValue
 ;
 aValue
@@ -5601,7 +5595,6 @@ mEasing
 .
 Construct
 (
-u
 "
 linear
 "
@@ -6306,7 +6299,7 @@ keyframe
 mPropertyValues
 )
 {
-nsAutoString
+nsAutoCString
 stringValue
 ;
 if
@@ -6448,7 +6441,7 @@ aCx
 if
 (
 !
-ToJSValue
+NonVoidUTF8StringToJsval
 (
 aCx
 stringValue

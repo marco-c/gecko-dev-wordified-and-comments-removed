@@ -371,7 +371,7 @@ virtual
 void
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )
@@ -383,7 +383,7 @@ void
 SetCssText
 (
 const
-nsAString
+nsACString
 &
 aCssText
 )

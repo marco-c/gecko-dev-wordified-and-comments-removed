@@ -145,7 +145,7 @@ get
 void
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )

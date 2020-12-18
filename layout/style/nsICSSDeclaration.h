@@ -153,7 +153,7 @@ const
 nsACString
 &
 aPropName
-nsAString
+nsACString
 &
 aValue
 )
@@ -168,7 +168,7 @@ const
 nsACString
 &
 aPropertyName
-nsAString
+nsACString
 &
 aReturn
 mozilla
@@ -194,7 +194,7 @@ nsACString
 &
 aValue
 const
-nsAString
+nsACString
 &
 aPriority
 nsIPrincipal
@@ -222,7 +222,7 @@ nsACString
 &
 aValue
 const
-nsAString
+nsACString
 &
 aPriority
 mozilla
@@ -312,7 +312,7 @@ void
 SetCssText
 (
 const
-nsAString
+nsACString
 &
 aString
 nsIPrincipal
@@ -332,7 +332,7 @@ virtual
 void
 GetCssText
 (
-nsAString
+nsACString
 &
 aString
 )
@@ -370,7 +370,7 @@ const
 nsACString
 &
 aPropName
-nsString
+nsACString
 &
 aValue
 mozilla
@@ -398,7 +398,7 @@ const
 nsACString
 &
 aPropName
-nsAString
+nsACString
 &
 aPriority
 )
@@ -441,7 +441,7 @@ NS_DECL_NSIDOMCSSSTYLEDECLARATION_HELPER
 void
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )
@@ -452,7 +452,7 @@ void
 SetCssText
 (
 const
-nsAString
+nsACString
 &
 aCssText
 nsIPrincipal
@@ -477,7 +477,7 @@ nsACString
 &
 propertyName
 \
-nsAString
+nsACString
 &
 _retval
 )
@@ -491,7 +491,7 @@ const
 nsACString
 &
 propertyName
-nsAString
+nsACString
 &
 _retval
 \
@@ -513,7 +513,7 @@ nsACString
 &
 propertyName
 \
-nsAString
+nsACString
 &
 aPriority
 )
@@ -533,13 +533,13 @@ nsACString
 value
 \
 const
-nsAString
+nsACString
 &
 priority
+\
 nsIPrincipal
 *
 aSubjectPrincipal
-\
 mozilla
 :
 :
@@ -547,6 +547,7 @@ ErrorResult
 &
 aRv
 )
+\
 override
 ;
 \

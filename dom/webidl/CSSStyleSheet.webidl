@@ -150,7 +150,7 @@ CSSStyleSheetInit
 (
 MediaList
 or
-DOMString
+UTF8String
 )
 media
 =
@@ -247,7 +247,7 @@ unsigned
 long
 insertRule
 (
-DOMString
+UTF8String
 rule
 optional
 unsigned
@@ -368,14 +368,14 @@ long
 addRule
 (
 optional
-DOMString
+UTF8String
 selector
 =
 "
 undefined
 "
 optional
-DOMString
+UTF8String
 style
 =
 "

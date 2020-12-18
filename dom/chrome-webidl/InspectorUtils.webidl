@@ -231,7 +231,7 @@ rule
 [
 Throws
 ]
-DOMString
+UTF8String
 getSelectorText
 (
 CSSStyleRule

@@ -288,7 +288,7 @@ virtual
 void
 GetStrokeStyle
 (
-OwningStringOrCanvasGradientOrCanvasPattern
+OwningUTF8StringOrCanvasGradientOrCanvasPattern
 &
 aValue
 )
@@ -300,7 +300,7 @@ void
 SetStrokeStyle
 (
 const
-StringOrCanvasGradientOrCanvasPattern
+UTF8StringOrCanvasGradientOrCanvasPattern
 &
 aValue
 )
@@ -311,7 +311,7 @@ virtual
 void
 GetFillStyle
 (
-OwningStringOrCanvasGradientOrCanvasPattern
+OwningUTF8StringOrCanvasGradientOrCanvasPattern
 &
 aValue
 )
@@ -323,7 +323,7 @@ void
 SetFillStyle
 (
 const
-StringOrCanvasGradientOrCanvasPattern
+UTF8StringOrCanvasGradientOrCanvasPattern
 &
 aValue
 )
@@ -455,7 +455,7 @@ virtual
 void
 GetShadowColor
 (
-nsAString
+nsACString
 &
 aShadowColor
 )
@@ -467,7 +467,7 @@ void
 SetShadowColor
 (
 const
-nsAString
+nsACString
 &
 aShadowColor
 )

@@ -1435,7 +1435,7 @@ BindingStyleRule
 aRule
 uint32_t
 aSelectorIndex
-nsString
+nsACString
 &
 aText
 ErrorResult

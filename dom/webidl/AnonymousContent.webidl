@@ -518,7 +518,7 @@ content
 [
 Throws
 ]
-DOMString
+UTF8String
 ?
 getComputedStylePropertyValue
 (

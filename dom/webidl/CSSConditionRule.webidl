@@ -157,7 +157,7 @@ CSSGroupingRule
 SetterThrows
 ]
 attribute
-DOMString
+UTF8String
 conditionText
 ;
 }

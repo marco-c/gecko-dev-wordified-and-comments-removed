@@ -371,11 +371,11 @@ offset
 ]
 ;
 (
-DOMString
+UTF8String
 or
 sequence
 <
-DOMString
+UTF8String
 >
 )
 easing
@@ -410,7 +410,7 @@ offset
 =
 null
 ;
-DOMString
+UTF8String
 easing
 =
 "

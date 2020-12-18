@@ -185,7 +185,7 @@ aResizerDirection
 struct
 SizeInfo
 {
-nsString
+nsCString
 width
 height
 ;

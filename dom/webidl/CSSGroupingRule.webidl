@@ -156,7 +156,7 @@ unsigned
 long
 insertRule
 (
-DOMString
+UTF8String
 rule
 optional
 unsigned

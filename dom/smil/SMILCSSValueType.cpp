@@ -2260,7 +2260,10 @@ ServoCSSParser
 ParseProperty
 (
 aPropID
+NS_ConvertUTF16toUTF8
+(
 aString
+)
 env
 ParsingMode
 :

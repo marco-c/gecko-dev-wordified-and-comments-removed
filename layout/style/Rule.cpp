@@ -337,7 +337,7 @@ Rule
 SetCssText
 (
 const
-nsAString
+nsACString
 &
 aCssText
 )

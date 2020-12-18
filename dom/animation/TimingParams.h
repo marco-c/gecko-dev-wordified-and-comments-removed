@@ -605,7 +605,7 @@ ComputedTimingFunction
 ParseEasing
 (
 const
-nsAString
+nsACString
 &
 aEasing
 ErrorResult

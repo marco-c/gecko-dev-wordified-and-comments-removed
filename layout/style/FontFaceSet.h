@@ -620,7 +620,7 @@ JSContext
 *
 aCx
 const
-nsAString
+nsACString
 &
 aFont
 const
@@ -636,7 +636,7 @@ bool
 Check
 (
 const
-nsAString
+nsACString
 &
 aFont
 const
@@ -1028,7 +1028,7 @@ void
 ParseFontShorthandForMatching
 (
 const
-nsAString
+nsACString
 &
 aFont
 RefPtr
@@ -1055,7 +1055,7 @@ void
 FindMatchingFontFaces
 (
 const
-nsAString
+nsACString
 &
 aFont
 const

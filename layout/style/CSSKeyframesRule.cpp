@@ -1324,7 +1324,7 @@ CSSKeyframesRule
 :
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )

@@ -346,7 +346,7 @@ mozCurrentTransformInverse
 SetterThrows
 ]
 attribute
-DOMString
+UTF8String
 mozTextStyle
 ;
 /
@@ -1221,7 +1221,7 @@ interface
 )
 attribute
 (
-DOMString
+UTF8String
 or
 CanvasGradient
 or
@@ -1237,7 +1237,7 @@ black
 )
 attribute
 (
-DOMString
+UTF8String
 or
 CanvasGradient
 or
@@ -1353,7 +1353,7 @@ default
 0
 )
 attribute
-DOMString
+UTF8String
 shadowColor
 ;
 /
@@ -1382,7 +1382,7 @@ enabled
 SetterThrows
 ]
 attribute
-DOMString
+UTF8String
 filter
 ;
 /
@@ -2038,7 +2038,7 @@ text
 SetterThrows
 ]
 attribute
-DOMString
+UTF8String
 font
 ;
 /

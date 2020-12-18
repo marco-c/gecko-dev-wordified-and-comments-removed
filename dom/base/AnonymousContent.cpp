@@ -917,7 +917,7 @@ const
 nsACString
 &
 aPropertyName
-DOMString
+nsACString
 &
 aResult
 ErrorResult
@@ -1163,7 +1163,6 @@ SetProperty
 (
 aProperty
 aValue
-u
 "
 "
 _ns

@@ -126,7 +126,7 @@ TreatNullAs
 =
 EmptyString
 ]
-DOMString
+UTF8String
 mediaText
 ;
 readonly
@@ -136,7 +136,7 @@ long
 length
 ;
 getter
-DOMString
+UTF8String
 ?
 item
 (
@@ -151,7 +151,7 @@ Throws
 void
 deleteMedium
 (
-DOMString
+UTF8String
 oldMedium
 )
 ;
@@ -161,7 +161,7 @@ Throws
 void
 appendMedium
 (
-DOMString
+UTF8String
 newMedium
 )
 ;

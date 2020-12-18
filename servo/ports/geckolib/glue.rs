@@ -4353,7 +4353,7 @@ buffer
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 let
@@ -4456,7 +4456,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 let
@@ -12588,7 +12588,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 let
@@ -13544,7 +13544,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 read_locked_arc
@@ -13596,7 +13596,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 read_locked_arc
@@ -14083,7 +14083,7 @@ RawServoStyleRule
 text
 :
 &
-nsAString
+nsACString
 )
 -
 >
@@ -14092,11 +14092,14 @@ bool
 let
 value_str
 =
+unsafe
+{
 text
 .
-to_string
+as_str_unchecked
 (
 )
+}
 ;
 write_locked_arc
 (
@@ -14876,6 +14879,7 @@ DomStyleSheet
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -14905,20 +14909,6 @@ mut
 ImportRule
 |
 {
-let
-sheet
-=
-unsafe
-{
-GeckoStyleSheet
-:
-:
-new
-(
-sheet
-)
-}
-;
 rule
 .
 stylesheet
@@ -14928,7 +14918,13 @@ ImportSheet
 :
 new
 (
+GeckoStyleSheet
+:
+:
+new
+(
 sheet
+)
 )
 ;
 }
@@ -14954,7 +14950,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 read_locked_arc
@@ -16046,7 +16042,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 read_locked_arc
@@ -16103,7 +16099,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 read_locked_arc
@@ -16160,7 +16156,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 read_locked_arc
@@ -16214,7 +16210,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 read_locked_arc
@@ -16780,7 +16776,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 read_locked_arc
@@ -17821,7 +17817,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 read_locked_arc
@@ -20001,7 +19997,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 let
@@ -22431,7 +22427,7 @@ let
 mut
 s
 =
-nsString
+nsCString
 :
 :
 new
@@ -23162,7 +23158,7 @@ Servo_ParseEasing
 easing
 :
 &
-nsAString
+nsACString
 output
 :
 &
@@ -23336,7 +23332,7 @@ output
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 easing
@@ -24224,7 +24220,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 read_locked_arc
@@ -24273,7 +24269,7 @@ buffer
 :
 &
 mut
-nsAString
+nsACString
 computed_values
 :
 Option
@@ -24451,7 +24447,7 @@ buffer
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 use
@@ -24758,7 +24754,7 @@ value
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 read_locked_arc_unchecked
@@ -24812,7 +24808,7 @@ value
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 get_property_value
@@ -24852,7 +24848,7 @@ value
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 get_property_value
@@ -25913,7 +25909,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 read_locked_arc
@@ -26167,7 +26163,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 -
 >
@@ -29787,6 +29783,7 @@ Normal
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -29801,7 +29798,7 @@ RawServoDeclarationBlock
 value
 :
 &
-nsAString
+nsACString
 )
 {
 use
@@ -29835,7 +29832,7 @@ string
 =
 value
 .
-to_string
+as_str_unchecked
 (
 )
 ;
@@ -29938,6 +29935,7 @@ Normal
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -29952,7 +29950,7 @@ RawServoDeclarationBlock
 value
 :
 &
-nsAString
+nsACString
 raw_extra_data
 :
 *
@@ -30028,8 +30026,6 @@ SpecifiedImageUrl
 let
 url_data
 =
-unsafe
-{
 UrlExtraData
 :
 :
@@ -30038,14 +30034,13 @@ from_ptr_ref
 &
 raw_extra_data
 )
-}
 ;
 let
 string
 =
 value
 .
-to_string
+as_str_unchecked
 (
 )
 ;
@@ -35383,7 +35378,7 @@ value
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 if
@@ -35590,7 +35585,7 @@ value
 :
 &
 mut
-nsAString
+nsACString
 )
 -
 >
@@ -37008,7 +37003,7 @@ Servo_IntersectionObserverRootMargin_Parse
 value
 :
 &
-nsAString
+nsACString
 result
 :
 *
@@ -37024,7 +37019,7 @@ value
 =
 value
 .
-to_string
+as_str_unchecked
 (
 )
 ;
@@ -37175,7 +37170,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 let
@@ -37430,7 +37425,7 @@ Servo_ParseFontShorthandForMatching
 value
 :
 &
-nsAString
+nsACString
 data
 :
 *
@@ -37557,7 +37552,7 @@ string
 =
 value
 .
-to_string
+as_str_unchecked
 (
 )
 ;
@@ -39323,7 +39318,7 @@ result
 :
 &
 mut
-nsAString
+nsACString
 )
 {
 lp

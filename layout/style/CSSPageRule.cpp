@@ -626,7 +626,7 @@ CSSPageRule
 :
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )

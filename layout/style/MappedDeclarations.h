@@ -771,7 +771,7 @@ void
 SetFontFamily
 (
 const
-nsString
+nsACString
 &
 aValue
 )

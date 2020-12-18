@@ -238,7 +238,7 @@ direction
 normal
 "
 ;
-DOMString
+UTF8String
 easing
 =
 "
@@ -277,7 +277,7 @@ duration
 PlaybackDirection
 direction
 ;
-DOMString
+UTF8String
 easing
 ;
 }

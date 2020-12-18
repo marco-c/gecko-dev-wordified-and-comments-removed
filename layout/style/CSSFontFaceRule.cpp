@@ -132,7 +132,7 @@ GetPropertyValue
 (
 nsCSSFontDesc
 aFontDescID
-nsAString
+nsACString
 &
 aResult
 )
@@ -162,15 +162,18 @@ CSSFontFaceRuleDecl
 :
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )
 {
+MOZ_ASSERT
+(
 aCssText
 .
-Truncate
+IsEmpty
 (
+)
 )
 ;
 Servo_FontFaceRule_GetDeclCssText
@@ -188,7 +191,7 @@ CSSFontFaceRuleDecl
 SetCssText
 (
 const
-nsAString
+nsACString
 &
 aCssText
 nsIPrincipal
@@ -241,7 +244,7 @@ const
 nsACString
 &
 aPropName
-nsAString
+nsACString
 &
 aResult
 )
@@ -292,7 +295,7 @@ const
 nsACString
 &
 aPropName
-nsAString
+nsACString
 &
 aResult
 ErrorResult
@@ -385,7 +388,7 @@ const
 nsACString
 &
 aPropName
-nsAString
+nsACString
 &
 aResult
 )
@@ -412,7 +415,7 @@ nsACString
 &
 aValue
 const
-nsAString
+nsACString
 &
 aPriority
 nsIPrincipal
@@ -803,7 +806,7 @@ CSSFontFaceRule
 :
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )

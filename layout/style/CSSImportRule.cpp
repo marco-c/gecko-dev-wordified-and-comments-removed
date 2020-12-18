@@ -459,7 +459,7 @@ CSSImportRule
 :
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )

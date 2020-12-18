@@ -148,7 +148,7 @@ NonSystem
 SetterThrows
 ]
 attribute
-DOMString
+UTF8String
 cssText
 ;
 readonly
@@ -183,14 +183,14 @@ property
 [
 Throws
 ]
-DOMString
+UTF8String
 getPropertyValue
 (
 UTF8String
 property
 )
 ;
-DOMString
+UTF8String
 getPropertyPriority
 (
 UTF8String
@@ -222,7 +222,7 @@ TreatNullAs
 =
 EmptyString
 ]
-DOMString
+UTF8String
 priority
 =
 "
@@ -233,7 +233,7 @@ priority
 CEReactions
 Throws
 ]
-DOMString
+UTF8String
 removeProperty
 (
 UTF8String

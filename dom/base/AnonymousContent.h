@@ -302,7 +302,7 @@ const
 nsACString
 &
 aPropertyName
-DOMString
+nsACString
 &
 aResult
 ErrorResult

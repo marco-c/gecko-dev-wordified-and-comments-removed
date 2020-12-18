@@ -329,7 +329,7 @@ short
 type
 ;
 attribute
-DOMString
+UTF8String
 cssText
 ;
 readonly

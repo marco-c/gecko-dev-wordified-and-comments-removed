@@ -879,7 +879,7 @@ ServoCSSRuleList
 InsertRule
 (
 const
-nsAString
+nsACString
 &
 aRule
 uint32_t
@@ -917,12 +917,6 @@ return
 NS_OK
 ;
 }
-NS_ConvertUTF16toUTF8
-rule
-(
-aRule
-)
-;
 bool
 nested
 =
@@ -999,7 +993,7 @@ RawContents
 (
 )
 &
-rule
+aRule
 aIndex
 nested
 loader

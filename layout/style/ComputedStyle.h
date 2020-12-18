@@ -181,7 +181,7 @@ GetComputedPropertyValue
 (
 nsCSSPropertyID
 aId
-nsAString
+nsACString
 &
 aOut
 )

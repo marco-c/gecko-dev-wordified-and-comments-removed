@@ -295,7 +295,7 @@ MOZ_ASSERT
 aComputedStyle
 )
 ;
-nsAutoString
+nsAutoCString
 value
 ;
 nsresult

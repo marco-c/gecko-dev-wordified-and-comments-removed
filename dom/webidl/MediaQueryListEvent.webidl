@@ -133,7 +133,7 @@ eventInitDict
 ;
 readonly
 attribute
-DOMString
+UTF8String
 media
 ;
 readonly
@@ -148,7 +148,7 @@ MediaQueryListEventInit
 :
 EventInit
 {
-DOMString
+UTF8String
 media
 =
 "

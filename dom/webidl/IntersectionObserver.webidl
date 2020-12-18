@@ -236,7 +236,7 @@ Constant
 ]
 readonly
 attribute
-DOMString
+UTF8String
 rootMargin
 ;
 [
@@ -332,7 +332,7 @@ root
 =
 null
 ;
-DOMString
+UTF8String
 rootMargin
 =
 "

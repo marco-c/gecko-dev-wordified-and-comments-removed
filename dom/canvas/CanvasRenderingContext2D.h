@@ -199,10 +199,10 @@ class
 ImageData
 ;
 class
-StringOrCanvasGradientOrCanvasPattern
+UTF8StringOrCanvasGradientOrCanvasPattern
 ;
 class
-OwningStringOrCanvasGradientOrCanvasPattern
+OwningUTF8StringOrCanvasGradientOrCanvasPattern
 ;
 class
 TextMetrics
@@ -625,7 +625,7 @@ override
 void
 GetStrokeStyle
 (
-OwningStringOrCanvasGradientOrCanvasPattern
+OwningUTF8StringOrCanvasGradientOrCanvasPattern
 &
 aValue
 )
@@ -645,7 +645,7 @@ void
 SetStrokeStyle
 (
 const
-StringOrCanvasGradientOrCanvasPattern
+UTF8StringOrCanvasGradientOrCanvasPattern
 &
 aValue
 )
@@ -664,7 +664,7 @@ STROKE
 void
 GetFillStyle
 (
-OwningStringOrCanvasGradientOrCanvasPattern
+OwningUTF8StringOrCanvasGradientOrCanvasPattern
 &
 aValue
 )
@@ -684,7 +684,7 @@ void
 SetFillStyle
 (
 const
-StringOrCanvasGradientOrCanvasPattern
+UTF8StringOrCanvasGradientOrCanvasPattern
 &
 aValue
 )
@@ -885,7 +885,7 @@ aShadowBlur
 void
 GetShadowColor
 (
-nsAString
+nsACString
 &
 aShadowColor
 )
@@ -905,7 +905,7 @@ aShadowColor
 void
 GetFilter
 (
-nsAString
+nsACString
 &
 aFilter
 )
@@ -923,7 +923,7 @@ void
 SetShadowColor
 (
 const
-nsAString
+nsACString
 &
 aShadowColor
 )
@@ -933,7 +933,7 @@ void
 SetFilter
 (
 const
-nsAString
+nsACString
 &
 aFilter
 mozilla
@@ -1643,7 +1643,7 @@ aMiter
 void
 GetFont
 (
-nsAString
+nsACString
 &
 aFont
 )
@@ -1659,7 +1659,7 @@ void
 SetFont
 (
 const
-nsAString
+nsACString
 &
 aFont
 mozilla
@@ -2314,7 +2314,7 @@ override
 void
 GetMozTextStyle
 (
-nsAString
+nsACString
 &
 aMozTextStyle
 )
@@ -2329,7 +2329,7 @@ void
 SetMozTextStyle
 (
 const
-nsAString
+nsACString
 &
 aMozTextStyle
 mozilla
@@ -3116,7 +3116,7 @@ void
 SetStyleFromUnion
 (
 const
-StringOrCanvasGradientOrCanvasPattern
+UTF8StringOrCanvasGradientOrCanvasPattern
 &
 aValue
 Style
@@ -3127,7 +3127,7 @@ void
 SetStyleFromString
 (
 const
-nsAString
+nsACString
 &
 aStr
 Style
@@ -3181,7 +3181,7 @@ aPattern
 void
 GetStyleAsUnion
 (
-OwningStringOrCanvasGradientOrCanvasPattern
+OwningUTF8StringOrCanvasGradientOrCanvasPattern
 &
 aValue
 Style
@@ -3208,7 +3208,7 @@ const
 nscolor
 &
 aColor
-nsAString
+nsACString
 &
 aStr
 )
@@ -3217,7 +3217,7 @@ bool
 ParseFilter
 (
 const
-nsAString
+nsACString
 &
 aString
 StyleOwnedSlice
@@ -3235,7 +3235,7 @@ bool
 SetFontInternal
 (
 const
-nsAString
+nsACString
 &
 aFont
 mozilla
@@ -3527,7 +3527,7 @@ IntSize
 aImgSize
 )
 ;
-nsString
+nsCString
 &
 GetFont
 (
@@ -4287,7 +4287,7 @@ nscolor
 >
 colorStyles
 ;
-nsString
+nsCString
 font
 ;
 TextAlign
@@ -4486,16 +4486,13 @@ JoinStyle
 :
 MITER_OR_BEVEL
 ;
-nsString
+nsCString
 filterString
-=
-nsString
-(
-u
+{
 "
 none
 "
-)
+}
 ;
 StyleOwnedSlice
 <

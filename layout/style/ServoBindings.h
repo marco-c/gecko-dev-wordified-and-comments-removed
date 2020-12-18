@@ -89,7 +89,7 @@ RawServo
 #
 type_
 *
-nsAString
+nsACString
 *
 result
 )
@@ -374,7 +374,7 @@ RawServoCounterStyleRule
 rule
 nsCSSCounterDesc
 desc
-nsAString
+nsACString
 *
 result
 )

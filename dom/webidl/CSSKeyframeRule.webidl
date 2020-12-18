@@ -150,7 +150,7 @@ CSSKeyframeRule
 CSSRule
 {
 attribute
-DOMString
+UTF8String
 keyText
 ;
 [

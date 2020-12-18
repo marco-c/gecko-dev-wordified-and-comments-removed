@@ -128,7 +128,7 @@ MEDIA_RULE
 void
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )
@@ -138,7 +138,7 @@ final
 void
 GetConditionText
 (
-nsAString
+nsACString
 &
 aConditionText
 )
@@ -148,7 +148,7 @@ void
 SetConditionText
 (
 const
-nsAString
+nsACString
 &
 aConditionText
 ErrorResult

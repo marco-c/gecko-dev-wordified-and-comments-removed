@@ -38824,7 +38824,7 @@ rawRule
 rawRuleList
 )
 {
-nsString
+nsAutoCString
 ruleText
 ;
 Servo_StyleRule_GetCssText
@@ -38846,10 +38846,7 @@ s
 n
 "
 aPrefix
-NS_ConvertUTF16toUTF8
-(
 ruleText
-)
 .
 get
 (
@@ -63399,7 +63396,7 @@ float
 )
 ;
 {
-nsAutoString
+nsAutoCString
 result
 ;
 aFrame
@@ -63424,10 +63421,7 @@ display
 %
 s
 "
-NS_ConvertUTF16toUTF8
-(
 result
-)
 .
 get
 (

@@ -375,10 +375,10 @@ required
 double
 offset
 ;
-DOMString
+UTF8String
 value
 ;
-DOMString
+UTF8String
 easing
 ;
 required

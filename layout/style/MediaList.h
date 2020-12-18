@@ -98,7 +98,7 @@ MediaList
 Create
 (
 const
-nsAString
+nsACString
 &
 aMedia
 CallerType
@@ -147,7 +147,7 @@ const
 void
 GetText
 (
-nsAString
+nsACString
 &
 aMediaText
 )
@@ -156,7 +156,7 @@ void
 SetText
 (
 const
-nsAString
+nsACString
 &
 aMediaText
 )
@@ -181,7 +181,7 @@ aSheet
 void
 GetMediaText
 (
-nsAString
+nsACString
 &
 aMediaText
 )
@@ -190,7 +190,7 @@ void
 SetMediaText
 (
 const
-nsAString
+nsACString
 &
 aMediaText
 )
@@ -208,7 +208,7 @@ aIndex
 bool
 &
 aFound
-nsAString
+nsACString
 &
 aReturn
 )
@@ -218,7 +218,7 @@ Item
 (
 uint32_t
 aIndex
-nsAString
+nsACString
 &
 aResult
 )
@@ -227,7 +227,7 @@ void
 DeleteMedium
 (
 const
-nsAString
+nsACString
 &
 aMedium
 ErrorResult
@@ -239,7 +239,7 @@ void
 AppendMedium
 (
 const
-nsAString
+nsACString
 &
 aMedium
 ErrorResult
@@ -280,7 +280,7 @@ protected
 MediaList
 (
 const
-nsAString
+nsACString
 &
 aMedia
 CallerType
@@ -294,7 +294,7 @@ void
 SetTextInternal
 (
 const
-nsAString
+nsACString
 &
 aMediaText
 CallerType
@@ -304,7 +304,7 @@ void
 Delete
 (
 const
-nsAString
+nsACString
 &
 aOldMedium
 ErrorResult
@@ -316,7 +316,7 @@ void
 Append
 (
 const
-nsAString
+nsACString
 &
 aNewMedium
 ErrorResult

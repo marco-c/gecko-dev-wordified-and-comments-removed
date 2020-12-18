@@ -660,7 +660,7 @@ CSSStyleRule
 :
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )
@@ -694,7 +694,7 @@ CSSStyleRule
 :
 GetSelectorText
 (
-nsAString
+nsACString
 &
 aSelectorText
 )
@@ -714,7 +714,7 @@ CSSStyleRule
 SetSelectorText
 (
 const
-nsAString
+nsACString
 &
 aSelectorText
 )
@@ -824,7 +824,7 @@ GetSelectorText
 (
 uint32_t
 aSelectorIndex
-nsAString
+nsACString
 &
 aText
 )

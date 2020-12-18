@@ -605,7 +605,7 @@ const
 void
 AppendToString
 (
-nsAString
+nsACString
 &
 aResult
 )

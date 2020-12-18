@@ -106,7 +106,7 @@ Document
 *
 aDocument
 const
-nsAString
+nsACString
 &
 aMediaQueryList
 CallerType
@@ -172,7 +172,7 @@ override
 void
 GetMedia
 (
-nsAString
+nsACString
 &
 aMedia
 )

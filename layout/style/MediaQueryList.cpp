@@ -94,7 +94,7 @@ Document
 *
 aDocument
 const
-nsAString
+nsACString
 &
 aMediaQueryList
 CallerType
@@ -232,7 +232,7 @@ MediaQueryList
 :
 GetMedia
 (
-nsAString
+nsACString
 &
 aMedia
 )
