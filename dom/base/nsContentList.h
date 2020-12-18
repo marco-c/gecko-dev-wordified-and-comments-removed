@@ -199,6 +199,11 @@ nsIContent
 aContent
 )
 {
+MOZ_ASSERT
+(
+aContent
+)
+;
 mElements
 .
 AppendElement
@@ -219,11 +224,13 @@ if
 (
 aContent
 )
+{
 AppendElement
 (
 aContent
 )
 ;
+}
 }
 void
 InsertElementAt

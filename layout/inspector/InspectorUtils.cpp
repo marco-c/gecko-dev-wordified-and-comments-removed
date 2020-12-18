@@ -3660,7 +3660,7 @@ aRect
 {
 aList
 .
-AppendElement
+MaybeAppendElement
 (
 child
 -
@@ -3712,7 +3712,7 @@ aRect
 {
 aList
 .
-AppendElement
+MaybeAppendElement
 (
 child
 -
