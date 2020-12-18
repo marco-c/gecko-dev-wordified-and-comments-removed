@@ -363,9 +363,12 @@ yield
 test
             
 elif
-filter
+list
 (
                 
+filter
+(
+                    
 lambda
 name
 :
@@ -380,7 +383,10 @@ startswith
 (
 name
 )
+                    
 whitelist_live_site_tests
+                
+)
             
 )
 :
@@ -1667,9 +1673,11 @@ gecko_profile_threads
             
 test_threads
 =
-filter
+list
 (
                 
+filter
+(
 None
 test_details
 [
@@ -1682,6 +1690,7 @@ split
 (
 "
 "
+)
 )
             
 )
@@ -2721,9 +2730,11 @@ None
                 
 threads
 =
-filter
+list
 (
                     
+filter
+(
 None
 next_test
 .
@@ -2740,6 +2751,7 @@ split
 (
 "
 "
+)
 )
                 
 )

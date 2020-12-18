@@ -272,6 +272,8 @@ actions
 )
     
 return
+list
+(
 filter
 (
 lambda
@@ -286,4 +288,5 @@ action
 in
 actions
 lines
+)
 )

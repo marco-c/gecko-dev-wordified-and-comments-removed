@@ -264,6 +264,9 @@ split
             
 base_names
 =
+list
+(
+                
 filter
 (
 lambda
@@ -280,6 +283,8 @@ moztest
 "
 )
 base_names
+)
+            
 )
             
 for
