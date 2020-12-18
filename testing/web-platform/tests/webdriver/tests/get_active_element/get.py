@@ -8,14 +8,6 @@ import
 assert_error
 assert_is_active_element
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 read_global
 (
@@ -130,6 +122,7 @@ def
 test_success_document
 (
 session
+inline
 )
 :
     
@@ -220,6 +213,7 @@ def
 test_sucess_input
 (
 session
+inline
 )
 :
     
@@ -306,6 +300,7 @@ def
 test_sucess_input_non_interactable
 (
 session
+inline
 )
 :
     
@@ -392,6 +387,7 @@ def
 test_success_explicit_focus
 (
 session
+inline
 )
 :
     
@@ -726,6 +722,7 @@ def
 test_success_iframe_content
 (
 session
+inline
 )
 :
     
@@ -839,6 +836,7 @@ def
 test_missing_document_element
 (
 session
+inline
 )
 :
     

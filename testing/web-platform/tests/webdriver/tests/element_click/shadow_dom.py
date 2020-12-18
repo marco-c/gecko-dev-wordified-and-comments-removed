@@ -1,3 +1,5 @@
+import
+pytest
 from
 tests
 .
@@ -7,16 +9,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
-import
-pytest
 def
 element_click
 (
@@ -68,9 +60,13 @@ element
 id
 )
 )
+pytest
+.
+fixture
 def
 get_checkbox_dom
 (
+inline
 )
 :
     
@@ -230,6 +226,7 @@ def
 test_shadow_element_click
 (
 session
+get_checkbox_dom
 click_on
 )
 :
@@ -239,8 +236,6 @@ session
 url
 =
 get_checkbox_dom
-(
-)
     
 custom_element
 =
@@ -367,9 +362,13 @@ is_post_checked
 =
 =
 True
+pytest
+.
+fixture
 def
 get_nested_shadow_checkbox_dom
 (
+inline
 )
 :
     
@@ -637,6 +636,7 @@ def
 test_nested_shadow_element_click
 (
 session
+get_nested_shadow_checkbox_dom
 click_on
 )
 :
@@ -646,8 +646,6 @@ session
 url
 =
 get_nested_shadow_checkbox_dom
-(
-)
     
 outer_element
 =

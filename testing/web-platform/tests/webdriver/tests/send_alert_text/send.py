@@ -26,14 +26,6 @@ tests
 .
 support
 .
-inline
-import
-inline
-from
-tests
-.
-support
-.
 sync
 import
 Poll
@@ -44,6 +36,7 @@ def
 page
 (
 session
+inline
 )
 :
     
@@ -372,6 +365,7 @@ def
 test_alert_element_not_interactable
 (
 session
+inline
 dialog_type
 )
 :

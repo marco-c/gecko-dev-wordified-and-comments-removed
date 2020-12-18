@@ -15,14 +15,6 @@ support
 helpers
 import
 element_rect
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 get_element_rect
 (
@@ -210,6 +202,7 @@ def
 test_element_stale
 (
 session
+inline
 )
 :
     
@@ -271,6 +264,7 @@ def
 test_basic
 (
 session
+inline
 )
 :
     

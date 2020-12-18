@@ -13,14 +13,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 decodebytes
 (
@@ -217,6 +209,7 @@ def
 test_html_document
 (
 session
+inline
 )
 :
     

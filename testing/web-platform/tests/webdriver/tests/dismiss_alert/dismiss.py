@@ -18,14 +18,6 @@ tests
 .
 support
 .
-inline
-import
-inline
-from
-tests
-.
-support
-.
 sync
 import
 Poll
@@ -73,7 +65,7 @@ def
 test_null_response_value
 (
 session
-url
+inline
 )
 :
     
@@ -196,6 +188,7 @@ def
 test_dismiss_alert
 (
 session
+inline
 )
 :
     
@@ -240,6 +233,7 @@ def
 test_dismiss_confirm
 (
 session
+inline
 )
 :
     
@@ -304,6 +298,7 @@ def
 test_dismiss_prompt
 (
 session
+inline
 )
 :
     

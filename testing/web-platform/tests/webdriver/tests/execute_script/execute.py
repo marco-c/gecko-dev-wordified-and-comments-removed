@@ -20,14 +20,6 @@ tests
 .
 support
 .
-inline
-import
-inline
-from
-tests
-.
-support
-.
 sync
 import
 Poll
@@ -224,6 +216,7 @@ def
 test_opening_new_window_keeps_current_window_handle
 (
 session
+inline
 )
 :
     
@@ -396,6 +389,7 @@ def
 test_override_listeners
 (
 session
+inline
 )
 :
     

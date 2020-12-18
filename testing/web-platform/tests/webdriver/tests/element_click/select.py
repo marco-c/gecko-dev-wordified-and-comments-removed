@@ -1,15 +1,8 @@
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 test_click_option
 (
 session
+inline
 )
 :
     
@@ -105,6 +98,7 @@ def
 test_click_multiple_option
 (
 session
+inline
 )
 :
     
@@ -202,6 +196,7 @@ def
 test_click_preselected_option
 (
 session
+inline
 )
 :
     
@@ -324,6 +319,7 @@ def
 test_click_preselected_multiple_option
 (
 session
+inline
 )
 :
     
@@ -448,6 +444,7 @@ def
 test_click_deselects_others
 (
 session
+inline
 )
 :
     
@@ -573,6 +570,7 @@ def
 test_click_multiple_does_not_deselect_others
 (
 session
+inline
 )
 :
     
@@ -706,6 +704,7 @@ def
 test_click_selected_option
 (
 session
+inline
 )
 :
     
@@ -809,6 +808,7 @@ def
 test_click_selected_multiple_option
 (
 session
+inline
 )
 :
     
@@ -933,6 +933,7 @@ def
 test_out_of_view_dropdown
 (
 session
+inline
 )
 :
     
@@ -1092,6 +1093,7 @@ def
 test_out_of_view_multiple
 (
 session
+inline
 )
 :
     
@@ -1254,6 +1256,7 @@ def
 test_option_disabled
 (
 session
+inline
 )
 :
     

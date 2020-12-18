@@ -19,14 +19,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 element_send_keys
 (
@@ -93,6 +85,7 @@ test_null_parameter_value
 (
 session
 http
+inline
 )
 :
     
@@ -188,6 +181,7 @@ def
 test_null_response_value
 (
 session
+inline
 )
 :
     
@@ -394,6 +388,7 @@ def
 test_invalid_text_type
 (
 session
+inline
 value
 )
 :
@@ -448,6 +443,7 @@ def
 test_stale_element
 (
 session
+inline
 )
 :
     

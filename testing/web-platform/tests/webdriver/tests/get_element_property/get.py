@@ -9,14 +9,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 get_element_property
 (
@@ -225,6 +217,7 @@ def
 test_element_stale
 (
 session
+inline
 )
 :
     
@@ -292,6 +285,7 @@ def
 test_property_non_existent
 (
 session
+inline
 )
 :
     
@@ -369,6 +363,7 @@ def
 test_content_attribute
 (
 session
+inline
 )
 :
     
@@ -428,6 +423,7 @@ def
 test_idl_attribute
 (
 session
+inline
 )
 :
     
@@ -574,6 +570,7 @@ def
 test_primitives
 (
 session
+inline
 js_primitive
 py_primitive
 )
@@ -733,6 +730,7 @@ def
 test_primitives_set_by_execute_script
 (
 session
+inline
 js_primitive
 py_primitive
 )
@@ -816,6 +814,7 @@ def
 test_mutated_element
 (
 session
+inline
 )
 :
     

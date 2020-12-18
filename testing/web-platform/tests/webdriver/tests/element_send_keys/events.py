@@ -16,14 +16,6 @@ assert_events_equal
 assert_success
 )
 from
-tests
-.
-support
-.
-inline
-import
-inline
-from
 .
 import
 map_files_to_multiline_text
@@ -136,6 +128,7 @@ session
 create_files
 add_event_listeners
 tracked_events
+inline
 )
 :
     
@@ -252,6 +245,7 @@ test_form_control_send_text
 session
 add_event_listeners
 tracked_events
+inline
 tag
 )
 :
@@ -393,6 +387,7 @@ def
 test_not_blurred
 (
 session
+inline
 tag
 )
 :

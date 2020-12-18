@@ -7,14 +7,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 get_element_text
 (
@@ -173,6 +165,7 @@ def
 test_getting_text_of_a_non_existant_element_is_an_error
 (
 session
+inline
 )
 :
     
@@ -222,6 +215,7 @@ def
 test_read_element_text
 (
 session
+inline
 )
 :
     

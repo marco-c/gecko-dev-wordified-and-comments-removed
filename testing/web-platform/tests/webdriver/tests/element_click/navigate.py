@@ -19,15 +19,6 @@ tests
 .
 support
 .
-inline
-import
-iframe
-inline
-from
-tests
-.
-support
-.
 sync
 import
 Poll
@@ -91,6 +82,7 @@ test_numbers_link
 (
 session
 server_config
+inline
 )
 :
     
@@ -236,6 +228,7 @@ test_multi_line_link
 (
 session
 server_config
+inline
 )
 :
     
@@ -410,6 +403,7 @@ test_link_unload_event
 (
 session
 server_config
+inline
 )
 :
     
@@ -681,6 +675,7 @@ def
 test_link_hash
 (
 session
+inline
 )
 :
     
@@ -979,6 +974,7 @@ def
 test_link_from_toplevel_context_with_target
 (
 session
+inline
 target
 )
 :
@@ -1175,6 +1171,8 @@ def
 test_link_from_nested_context_with_target
 (
 session
+inline
+iframe
 target
 )
 :
@@ -1405,6 +1403,7 @@ def
 test_link_closes_window
 (
 session
+inline
 )
 :
     

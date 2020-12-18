@@ -11,14 +11,6 @@ assert_error
 assert_files_uploaded
 assert_success
 from
-tests
-.
-support
-.
-inline
-import
-inline
-from
 .
 import
 map_files_to_multiline_text
@@ -87,6 +79,7 @@ def
 test_empty_text
 (
 session
+inline
 )
 :
     
@@ -145,6 +138,7 @@ test_multiple_files
 (
 session
 create_files
+inline
 )
 :
     
@@ -224,6 +218,7 @@ test_multiple_files_last_path_not_found
 (
 session
 create_files
+inline
 )
 :
     
@@ -318,6 +313,7 @@ test_multiple_files_without_multiple_attribute
 (
 session
 create_files
+inline
 )
 :
     
@@ -401,6 +397,7 @@ test_multiple_files_send_twice
 (
 session
 create_files
+inline
 )
 :
     
@@ -514,6 +511,7 @@ test_multiple_files_reset_with_element_clear
 (
 session
 create_files
+inline
 )
 :
     
@@ -639,6 +637,7 @@ test_single_file
 (
 session
 create_files
+inline
 )
 :
     
@@ -716,6 +715,7 @@ test_single_file_replaces_without_multiple_attribute
 (
 session
 create_files
+inline
 )
 :
     
@@ -821,6 +821,7 @@ test_single_file_appends_with_multiple_attribute
 (
 session
 create_files
+inline
 )
 :
     
@@ -922,6 +923,7 @@ test_transparent
 (
 session
 create_files
+inline
 )
 :
     
@@ -1010,6 +1012,7 @@ test_obscured
 (
 session
 create_files
+inline
 )
 :
     
@@ -1145,6 +1148,7 @@ test_outside_viewport
 (
 session
 create_files
+inline
 )
 :
     
@@ -1236,6 +1240,7 @@ test_hidden
 (
 session
 create_files
+inline
 )
 :
     
@@ -1314,6 +1319,7 @@ test_display_none
 (
 session
 create_files
+inline
 )
 :
     
@@ -1416,6 +1422,7 @@ test_strict_hidden
 (
 session
 create_files
+inline
 )
 :
     
@@ -1506,6 +1513,7 @@ test_strict_display_none
 (
 session
 create_files
+inline
 )
 :
     

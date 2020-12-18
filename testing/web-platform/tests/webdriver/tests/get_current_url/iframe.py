@@ -8,15 +8,6 @@ support
 asserts
 import
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-iframe
-inline
 "
 "
 "
@@ -75,8 +66,17 @@ implementations
 "
 "
 "
+pytest
+.
+fixture
+def
 frame_doc
-=
+(
+inline
+)
+:
+    
+return
 inline
 (
 "
@@ -86,8 +86,18 @@ p
 frame
 "
 )
+pytest
+.
+fixture
+def
 one_frame_doc
-=
+(
+inline
+frame_doc
+)
+:
+    
+return
 inline
 (
 "
@@ -108,8 +118,18 @@ iframe
 %
 frame_doc
 )
+pytest
+.
+fixture
+def
 nested_frames_doc
-=
+(
+inline
+one_frame_doc
+)
+:
+    
+return
 inline
 (
 "
@@ -172,6 +192,7 @@ def
 test_iframe
 (
 session
+one_frame_doc
 )
 :
     
@@ -238,6 +259,7 @@ def
 test_nested_iframe
 (
 session
+nested_frames_doc
 )
 :
     
@@ -356,8 +378,9 @@ def
 test_origin
 (
 session
+inline
+iframe
 domain
-url
 )
 :
     

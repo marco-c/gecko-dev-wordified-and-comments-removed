@@ -17,18 +17,8 @@ image
 import
 png_dimensions
 from
-tests
-.
-support
-.
-inline
-import
-iframe
-inline
-from
 .
 import
-element_dimensions
 viewport_dimensions
 DEFAULT_CONTENT
 =
@@ -310,6 +300,8 @@ def
 test_always_captures_top_browsing_context
 (
 session
+inline
+iframe
 )
 :
     
@@ -470,6 +462,8 @@ def
 test_source_origin
 (
 session
+inline
+iframe
 domain
 )
 :

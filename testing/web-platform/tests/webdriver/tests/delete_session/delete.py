@@ -12,14 +12,6 @@ support
 asserts
 import
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 delete_session
 (
@@ -90,6 +82,7 @@ def
 test_dismissed_beforeunload_prompt
 (
 session
+inline
 )
 :
     

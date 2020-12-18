@@ -7,14 +7,6 @@ asserts
 import
 assert_success
 from
-tests
-.
-support
-.
-inline
-import
-inline
-from
 .
 import
 opener
@@ -211,6 +203,7 @@ def
 test_opens_about_blank_in_new_tab
 (
 session
+inline
 )
 :
     

@@ -21,15 +21,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-iframe
-inline
 def
 switch_to_window
 (
@@ -365,6 +356,8 @@ def
 test_switch_to_window_sets_top_level_context
 (
 session
+inline
+iframe
 )
 :
     
@@ -454,6 +447,7 @@ def
 test_element_not_found_after_tab_switch
 (
 session
+inline
 )
 :
     

@@ -22,14 +22,6 @@ tests
 .
 support
 .
-inline
-import
-inline
-from
-tests
-.
-support
-.
 sync
 import
 Poll
@@ -148,6 +140,7 @@ def
 test_get_alert_text
 (
 session
+inline
 )
 :
     
@@ -236,6 +229,7 @@ def
 test_get_confirm_text
 (
 session
+inline
 )
 :
     
@@ -324,6 +318,7 @@ def
 test_get_prompt_text
 (
 session
+inline
 )
 :
     

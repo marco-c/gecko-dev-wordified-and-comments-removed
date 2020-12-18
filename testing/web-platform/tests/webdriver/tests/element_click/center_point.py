@@ -17,14 +17,6 @@ support
 helpers
 import
 center_point
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 element_click
 (
@@ -79,6 +71,7 @@ id
 def
 square
 (
+inline
 size
 )
 :
@@ -281,6 +274,7 @@ def
 test_entirely_in_view
 (
 session
+inline
 )
 :
     
@@ -290,6 +284,7 @@ url
 =
 square
 (
+inline
 444
 )
     
@@ -357,6 +352,7 @@ def
 test_css_pixel_rounding
 (
 session
+inline
 size
 )
 :
@@ -367,6 +363,7 @@ url
 =
 square
 (
+inline
 size
 )
     

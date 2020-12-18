@@ -13,14 +13,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 close
 (
@@ -278,6 +270,7 @@ def
 test_close_browsing_context_with_dismissed_beforeunload_prompt
 (
 session
+inline
 )
 :
     
@@ -465,6 +458,7 @@ def
 test_element_usage_after_closing_browsing_context
 (
 session
+inline
 )
 :
     

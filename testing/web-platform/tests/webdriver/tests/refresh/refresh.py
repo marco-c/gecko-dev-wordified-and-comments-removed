@@ -12,14 +12,6 @@ tests
 .
 support
 .
-inline
-import
-inline
-from
-tests
-.
-support
-.
 asserts
 import
 assert_error
@@ -66,6 +58,7 @@ def
 test_null_response_value
 (
 session
+inline
 )
 :
     
@@ -129,6 +122,7 @@ test_no_browsing_context
 (
 session
 closed_frame
+inline
 )
 :
     
@@ -226,6 +220,7 @@ def
 test_basic
 (
 session
+inline
 )
 :
     
@@ -323,6 +318,7 @@ def
 test_dismissed_beforeunload
 (
 session
+inline
 )
 :
     
@@ -459,7 +455,7 @@ def
 test_history_pushstate
 (
 session
-url
+inline
 )
 :
     
@@ -732,6 +728,7 @@ test_refresh_switches_to_parent_browsing_context
 (
 session
 create_frame
+inline
 )
 :
     

@@ -1,17 +1,8 @@
-import
-pytest
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 test_sets_insertion_point_to_end
 (
 session
+inline
 )
 :
     
@@ -101,6 +92,7 @@ def
 test_sets_insertion_point_to_after_last_text_node
 (
 session
+inline
 )
 :
     

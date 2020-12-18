@@ -8,14 +8,6 @@ import
 assert_error
 assert_same_element
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 execute_script
 (
@@ -291,6 +283,7 @@ def
 test_element_in_collection
 (
 session
+inline
 )
 :
     
@@ -392,6 +385,7 @@ def
 test_element_in_object
 (
 session
+inline
 )
 :
     

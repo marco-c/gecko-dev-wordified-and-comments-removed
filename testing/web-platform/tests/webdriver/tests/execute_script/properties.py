@@ -7,14 +7,6 @@ asserts
 import
 assert_same_element
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 execute_script
 (
@@ -92,6 +84,7 @@ def
 test_content_attribute
 (
 session
+inline
 )
 :
     
@@ -155,6 +148,7 @@ def
 test_idl_attribute
 (
 session
+inline
 )
 :
     
@@ -252,6 +246,7 @@ def
 test_idl_attribute_element
 (
 session
+inline
 )
 :
     
@@ -391,6 +386,7 @@ def
 test_script_defining_property
 (
 session
+inline
 )
 :
     

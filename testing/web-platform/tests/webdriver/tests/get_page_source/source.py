@@ -7,14 +7,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 get_page_source
 (
@@ -105,6 +97,7 @@ def
 test_source_matches_outer_html
 (
 session
+inline
 )
 :
     

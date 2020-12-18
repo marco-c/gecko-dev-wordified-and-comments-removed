@@ -6,14 +6,6 @@ support
 asserts
 import
 assert_element_has_focus
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 element_send_keys
 (
@@ -79,6 +71,7 @@ def
 test_input
 (
 session
+inline
 )
 :
     
@@ -157,6 +150,7 @@ def
 test_textarea
 (
 session
+inline
 )
 :
     
@@ -235,6 +229,7 @@ def
 test_input_append
 (
 session
+inline
 )
 :
     
@@ -336,6 +331,7 @@ def
 test_textarea_append
 (
 session
+inline
 )
 :
     

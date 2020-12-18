@@ -1,3 +1,5 @@
+import
+pytest
 from
 six
 import
@@ -13,20 +15,21 @@ tests
 .
 support
 .
-inline
-import
-inline
-from
-tests
-.
-support
-.
 asserts
 import
 assert_error
 assert_success
+pytest
+.
+fixture
+def
 doc
-=
+(
+inline
+)
+:
+    
+return
 inline
 (
 "
@@ -34,25 +37,6 @@ inline
 p
 >
 frame
-"
-)
-alert_doc
-=
-inline
-(
-"
-<
-script
->
-window
-.
-alert
-(
-)
-<
-/
-script
->
 "
 )
 def
@@ -122,6 +106,7 @@ test_no_browsing_context
 (
 session
 closed_frame
+doc
 )
 :
     
@@ -147,6 +132,7 @@ def
 test_get_current_url_matches_location
 (
 session
+doc
 )
 :
     
@@ -406,6 +392,7 @@ def
 test_get_current_url_after_modified_location
 (
 session
+doc
 )
 :
     

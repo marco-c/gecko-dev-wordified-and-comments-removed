@@ -15,14 +15,16 @@ mouse
 import
 get_inview_center
 get_viewport_rect
-from
-tests
+pytest
 .
-support
-.
+fixture
+def
+origin_doc
+(
 inline
-import
-inline
+)
+:
+    
 def
 origin_doc
 (
@@ -33,14 +35,14 @@ outer_style
 "
 )
 :
-    
+        
 return
 inline
 (
 "
 "
 "
-      
+          
 <
 div
 id
@@ -55,7 +57,7 @@ style
 1
 }
 "
-           
+               
 onmousemove
 =
 "
@@ -79,7 +81,7 @@ clientY
 }
 "
 >
-        
+            
 <
 div
 id
@@ -99,12 +101,12 @@ style
 /
 div
 >
-      
+          
 <
 /
 div
 >
-    
+        
 "
 "
 "
@@ -115,6 +117,9 @@ inner_style
 outer_style
 )
 )
+    
+return
+origin_doc
 def
 get_click_coordinates
 (
@@ -140,6 +145,7 @@ test_viewport_inside
 (
 session
 mouse_chain
+origin_doc
 )
 :
     
@@ -321,6 +327,7 @@ test_pointer_inside
 (
 session
 mouse_chain
+origin_doc
 )
 :
     
@@ -549,6 +556,7 @@ test_element_center_point
 (
 session
 mouse_chain
+origin_doc
 )
 :
     
@@ -686,6 +694,7 @@ test_element_center_point_with_offset
 (
 session
 mouse_chain
+origin_doc
 )
 :
     
@@ -827,6 +836,7 @@ test_element_in_view_center_point_partly_visible
 (
 session
 mouse_chain
+origin_doc
 )
 :
     
@@ -983,6 +993,7 @@ test_element_larger_than_viewport
 (
 session
 mouse_chain
+origin_doc
 )
 :
     
@@ -1120,6 +1131,7 @@ test_element_outside_of_view_port
 (
 session
 mouse_chain
+origin_doc
 )
 :
     

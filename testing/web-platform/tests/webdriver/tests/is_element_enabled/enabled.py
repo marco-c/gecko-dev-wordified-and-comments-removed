@@ -9,14 +9,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 is_element_enabled
 (
@@ -178,6 +170,7 @@ def
 test_element_stale
 (
 session
+inline
 )
 :
     
@@ -263,6 +256,7 @@ def
 test_form_control_disabled
 (
 session
+inline
 element
 )
 :
@@ -345,6 +339,7 @@ def
 test_form_control_enabled
 (
 session
+inline
 element
 )
 :
@@ -426,6 +421,7 @@ def
 test_fieldset_disabled_descendant
 (
 session
+inline
 element
 )
 :
@@ -515,6 +511,7 @@ def
 test_fieldset_enabled_descendant
 (
 session
+inline
 element
 )
 :
@@ -603,6 +600,7 @@ def
 test_fieldset_disabled_descendant_legend
 (
 session
+inline
 element
 )
 :
@@ -699,6 +697,7 @@ def
 test_fieldset_enabled_descendant_legend
 (
 session
+inline
 element
 )
 :
@@ -794,6 +793,7 @@ def
 test_xhtml_form_control_disabled
 (
 session
+inline
 element
 )
 :
@@ -890,6 +890,7 @@ def
 test_xhtml_form_control_enabled
 (
 session
+inline
 element
 )
 :
@@ -956,6 +957,7 @@ def
 test_xml_always_not_enabled
 (
 session
+inline
 )
 :
     

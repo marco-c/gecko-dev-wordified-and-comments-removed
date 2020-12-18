@@ -7,14 +7,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 get_element_css_value
 (
@@ -226,6 +218,7 @@ def
 test_element_stale
 (
 session
+inline
 )
 :
     
@@ -290,6 +283,7 @@ def
 test_property_name_value
 (
 session
+inline
 )
 :
     
@@ -357,6 +351,7 @@ def
 test_property_name_not_existent
 (
 session
+inline
 )
 :
     

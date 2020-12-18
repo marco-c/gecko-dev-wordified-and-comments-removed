@@ -17,15 +17,6 @@ image
 import
 png_dimensions
 from
-tests
-.
-support
-.
-inline
-import
-iframe
-inline
-from
 .
 import
 element_dimensions
@@ -323,6 +314,8 @@ def
 test_frame_element
 (
 session
+inline
+iframe
 )
 :
     
@@ -551,7 +544,8 @@ def
 test_source_origin
 (
 session
-url
+inline
+iframe
 domain
 )
 :

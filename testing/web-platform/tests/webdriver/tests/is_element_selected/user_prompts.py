@@ -10,14 +10,6 @@ import
 assert_error
 assert_dialog_handled
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 is_element_selected
 (
@@ -75,6 +67,7 @@ check_user_prompt_closed_without_exception
 (
 session
 create_dialog
+inline
 )
 :
     
@@ -177,6 +170,7 @@ check_user_prompt_closed_with_exception
 (
 session
 create_dialog
+inline
 )
 :
     
@@ -274,6 +268,7 @@ check_user_prompt_not_closed_but_exception
 (
 session
 create_dialog
+inline
 )
 :
     

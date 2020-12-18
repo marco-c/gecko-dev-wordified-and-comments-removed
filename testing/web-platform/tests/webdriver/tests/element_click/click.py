@@ -11,14 +11,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 element_click
 (
@@ -74,6 +66,7 @@ def
 test_null_response_value
 (
 session
+inline
 )
 :
     

@@ -23,14 +23,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 navigate_to
 (
@@ -138,6 +130,7 @@ def
 test_null_response_value
 (
 session
+inline
 )
 :
     
@@ -200,6 +193,7 @@ test_no_browsing_context
 (
 session
 closed_frame
+inline
 )
 :
     

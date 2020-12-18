@@ -17,14 +17,6 @@ image
 import
 png_dimensions
 from
-tests
-.
-support
-.
-inline
-import
-inline
-from
 .
 import
 viewport_dimensions
@@ -95,6 +87,7 @@ test_no_browsing_context
 (
 session
 closed_frame
+inline
 )
 :
     
@@ -145,6 +138,7 @@ def
 test_format_and_dimensions
 (
 session
+inline
 )
 :
     

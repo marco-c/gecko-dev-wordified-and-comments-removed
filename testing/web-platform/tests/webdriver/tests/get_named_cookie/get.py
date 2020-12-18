@@ -27,14 +27,6 @@ support
 helpers
 import
 clear_all_cookies
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 get_named_cookie
 (
@@ -633,6 +625,7 @@ test_duplicated_cookie
 session
 url
 server_config
+inline
 )
 :
     

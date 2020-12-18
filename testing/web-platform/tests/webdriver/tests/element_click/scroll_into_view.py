@@ -17,14 +17,6 @@ support
 helpers
 import
 center_point
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 element_click
 (
@@ -136,6 +128,7 @@ def
 test_scroll_into_view
 (
 session
+inline
 )
 :
     
@@ -337,6 +330,7 @@ test_partially_visible_does_not_scroll
 (
 session
 offset
+inline
 )
 :
     

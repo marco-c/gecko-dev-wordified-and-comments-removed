@@ -15,15 +15,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
-iframe
 def
 switch_to_frame
 (
@@ -146,6 +137,8 @@ def
 test_frame_id_number_index_out_of_bounds
 (
 session
+inline
+iframe
 index
 )
 :
@@ -213,6 +206,8 @@ def
 test_frame_id_number_index
 (
 session
+inline
+iframe
 index
 value
 )
@@ -294,6 +289,8 @@ def
 test_frame_id_number_index_nested
 (
 session
+inline
+iframe
 )
 :
     

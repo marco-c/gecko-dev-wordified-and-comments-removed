@@ -17,14 +17,6 @@ support
 asserts
 import
 assert_move_to_coordinates
-from
-tests
-.
-support
-.
-inline
-import
-inline
 lots_of_text
 =
 "
@@ -80,6 +72,7 @@ test_tripleclick_at_coordinates
 (
 session
 mouse_chain
+inline
 )
 :
     

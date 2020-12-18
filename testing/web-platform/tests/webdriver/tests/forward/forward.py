@@ -7,14 +7,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 forward
 (
@@ -57,6 +49,7 @@ def
 test_null_response_value
 (
 session
+inline
 )
 :
     
@@ -157,6 +150,7 @@ def
 test_no_browsing_history
 (
 session
+inline
 )
 :
     
@@ -235,6 +229,7 @@ def
 test_data_urls
 (
 session
+inline
 )
 :
     
@@ -323,6 +318,7 @@ def
 test_dismissed_beforeunload
 (
 session
+inline
 )
 :
     
@@ -602,7 +598,7 @@ def
 test_history_pushstate
 (
 session
-url
+inline
 )
 :
     
@@ -831,6 +827,7 @@ test_removed_iframe
 (
 session
 url
+inline
 )
 :
     

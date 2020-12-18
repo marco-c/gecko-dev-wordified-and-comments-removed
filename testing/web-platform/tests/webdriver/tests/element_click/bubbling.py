@@ -6,14 +6,6 @@ support
 asserts
 import
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 element_click
 (
@@ -70,6 +62,7 @@ def
 test_click_event_bubbles_to_parents
 (
 session
+inline
 )
 :
     
@@ -294,6 +287,7 @@ def
 test_spin_event_loop
 (
 session
+inline
 )
 :
     
@@ -564,6 +558,7 @@ def
 test_element_disappears_during_click
 (
 session
+inline
 )
 :
     

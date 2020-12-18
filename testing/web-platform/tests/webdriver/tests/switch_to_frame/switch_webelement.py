@@ -15,15 +15,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
-iframe
 def
 switch_to_frame
 (
@@ -89,6 +80,7 @@ session
 def
 frameset
 (
+inline
 *
 docs
 )
@@ -200,6 +192,7 @@ def
 test_frame_id_webelement_frame
 (
 session
+inline
 index
 value
 )
@@ -213,6 +206,7 @@ inline
 (
 frameset
 (
+inline
 "
 <
 p
@@ -318,6 +312,8 @@ def
 test_frame_id_webelement_iframe
 (
 session
+inline
+iframe
 index
 value
 )
@@ -424,6 +420,8 @@ def
 test_frame_id_webelement_nested
 (
 session
+inline
+iframe
 )
 :
     
@@ -542,6 +540,8 @@ def
 test_frame_id_webelement_no_element_reference
 (
 session
+inline
+iframe
 )
 :
     
@@ -607,6 +607,8 @@ def
 test_frame_id_webelement_stale_reference
 (
 session
+inline
+iframe
 )
 :
     
@@ -670,6 +672,7 @@ def
 test_frame_id_webelement_no_frame_element
 (
 session
+inline
 )
 :
     

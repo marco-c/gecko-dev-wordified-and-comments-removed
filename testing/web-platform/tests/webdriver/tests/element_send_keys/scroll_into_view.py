@@ -14,14 +14,6 @@ support
 helpers
 import
 is_element_in_viewport
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 element_send_keys
 (
@@ -87,6 +79,7 @@ def
 test_element_outside_of_not_scrollable_viewport
 (
 session
+inline
 )
 :
     
@@ -161,6 +154,7 @@ def
 test_element_outside_of_scrollable_viewport
 (
 session
+inline
 )
 :
     
@@ -231,6 +225,7 @@ def
 test_option_select_container_outside_of_scrollable_viewport
 (
 session
+inline
 )
 :
     
@@ -368,6 +363,7 @@ def
 test_option_stays_outside_of_scrollable_viewport
 (
 session
+inline
 )
 :
     
@@ -559,6 +555,7 @@ def
 test_contenteditable_element_outside_of_scrollable_viewport
 (
 session
+inline
 )
 :
     

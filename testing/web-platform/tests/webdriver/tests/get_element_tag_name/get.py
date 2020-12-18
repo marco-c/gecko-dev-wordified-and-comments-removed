@@ -7,14 +7,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 get_element_tag_name
 (
@@ -199,6 +191,7 @@ def
 test_element_stale
 (
 session
+inline
 )
 :
     
@@ -263,6 +256,7 @@ def
 test_get_element_tag_name
 (
 session
+inline
 )
 :
     

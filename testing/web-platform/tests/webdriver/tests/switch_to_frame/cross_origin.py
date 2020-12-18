@@ -30,15 +30,6 @@ support
 helpers
 import
 document_location
-from
-tests
-.
-support
-.
-inline
-import
-iframe
-inline
 "
 "
 "
@@ -165,6 +156,8 @@ test_cross_origin_iframe
 (
 session
 server_config
+inline
+iframe
 )
 :
     
@@ -242,6 +235,8 @@ test_nested_cross_origin_iframe
 (
 session
 server_config
+inline
+iframe
 )
 :
     

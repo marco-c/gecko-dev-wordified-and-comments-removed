@@ -7,15 +7,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-iframe
-inline
 def
 element_send_keys
 (
@@ -81,6 +72,7 @@ def
 test_body_is_interactable
 (
 session
+inline
 )
 :
     
@@ -213,6 +205,7 @@ def
 test_document_element_is_interactable
 (
 session
+inline
 )
 :
     
@@ -362,6 +355,8 @@ def
 test_iframe_is_interactable
 (
 session
+inline
+iframe
 )
 :
     
@@ -520,6 +515,7 @@ def
 test_transparent_element
 (
 session
+inline
 )
 :
     
@@ -597,6 +593,7 @@ def
 test_readonly_element
 (
 session
+inline
 )
 :
     
@@ -663,6 +660,7 @@ def
 test_obscured_element
 (
 session
+inline
 )
 :
     
@@ -764,6 +762,7 @@ def
 test_not_a_focusable_element
 (
 session
+inline
 )
 :
     
@@ -825,6 +824,7 @@ def
 test_display_none
 (
 session
+inline
 )
 :
     
@@ -892,6 +892,7 @@ def
 test_visibility_hidden
 (
 session
+inline
 )
 :
     
@@ -959,6 +960,7 @@ def
 test_hidden
 (
 session
+inline
 )
 :
     
@@ -1016,6 +1018,7 @@ def
 test_disabled
 (
 session
+inline
 )
 :
     

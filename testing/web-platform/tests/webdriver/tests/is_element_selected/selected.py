@@ -1,3 +1,5 @@
+import
+pytest
 from
 tests
 .
@@ -7,16 +9,17 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
+pytest
 .
-support
-.
-inline
-import
-inline
+fixture
+def
 check_doc
-=
+(
+inline
+)
+:
+    
+return
 inline
 (
 "
@@ -48,8 +51,17 @@ checkbox
 "
 "
 )
+pytest
+.
+fixture
+def
 option_doc
-=
+(
+inline
+)
+:
+    
+return
 inline
 (
 "
@@ -246,6 +258,7 @@ def
 test_element_stale
 (
 session
+check_doc
 )
 :
     
@@ -301,6 +314,7 @@ def
 test_element_checked
 (
 session
+check_doc
 )
 :
     
@@ -346,6 +360,7 @@ def
 test_checkbox_not_selected
 (
 session
+check_doc
 )
 :
     
@@ -391,6 +406,7 @@ def
 test_element_selected
 (
 session
+option_doc
 )
 :
     
@@ -436,6 +452,7 @@ def
 test_element_not_selected
 (
 session
+option_doc
 )
 :
     

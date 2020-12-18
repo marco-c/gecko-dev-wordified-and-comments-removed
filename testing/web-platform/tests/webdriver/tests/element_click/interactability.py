@@ -9,14 +9,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 element_click
 (
@@ -72,6 +64,7 @@ def
 test_display_none
 (
 session
+inline
 )
 :
     
@@ -141,6 +134,7 @@ def
 test_visibility_hidden
 (
 session
+inline
 )
 :
     
@@ -210,6 +204,7 @@ def
 test_hidden
 (
 session
+inline
 )
 :
     
@@ -269,6 +264,7 @@ def
 test_disabled
 (
 session
+inline
 )
 :
     
@@ -354,6 +350,7 @@ def
 test_element_not_interactable_css_transform
 (
 session
+inline
 transform
 )
 :
@@ -457,6 +454,7 @@ def
 test_element_not_interactable_out_of_view
 (
 session
+inline
 )
 :
     
@@ -566,6 +564,7 @@ def
 test_zero_sized_element
 (
 session
+inline
 tag_name
 )
 :
@@ -631,6 +630,7 @@ def
 test_element_intercepted
 (
 session
+inline
 )
 :
     
@@ -748,6 +748,7 @@ def
 test_element_intercepted_no_pointer_events
 (
 session
+inline
 )
 :
     
@@ -820,6 +821,7 @@ def
 test_element_not_visible_overflow_hidden
 (
 session
+inline
 )
 :
     

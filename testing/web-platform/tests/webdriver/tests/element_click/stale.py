@@ -6,14 +6,6 @@ support
 asserts
 import
 assert_error
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 element_click
 (
@@ -70,6 +62,7 @@ def
 test_is_stale
 (
 session
+inline
 )
 :
     

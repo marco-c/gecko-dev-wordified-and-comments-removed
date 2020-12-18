@@ -11,14 +11,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 get_title
 (
@@ -119,6 +111,7 @@ test_no_browsing_context
 (
 session
 closed_frame
+inline
 )
 :
     
@@ -158,6 +151,7 @@ def
 test_with_duplicated_title
 (
 session
+inline
 )
 :
     
@@ -205,6 +199,7 @@ def
 test_without_title
 (
 session
+inline
 )
 :
     
@@ -243,6 +238,7 @@ def
 test_after_modification
 (
 session
+inline
 )
 :
     
@@ -305,6 +301,7 @@ def
 test_strip_and_collapse
 (
 session
+inline
 )
 :
     
