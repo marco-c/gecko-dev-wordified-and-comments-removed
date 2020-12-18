@@ -118,13 +118,6 @@ geckodriver
 "
 toolkit
 /
-components
-/
-updateagent
-"
-"
-toolkit
-/
 crashreporter
 /
 rust
