@@ -6021,6 +6021,12 @@ nsIGfxInfo
 :
 FEATURE_DIRECT3D_11_ANGLE
 :
+case
+nsIGfxInfo
+:
+:
+FEATURE_WEBRENDER_SOFTWARE
+:
 return
 false
 ;
