@@ -2168,6 +2168,14 @@ WebRenderEnvvarDisabled
 (
 )
 ;
+static
+const
+char
+*
+WebRenderResourcePathOverride
+(
+)
+;
 void
 NotifyFrameStats
 (
