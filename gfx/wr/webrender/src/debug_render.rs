@@ -614,7 +614,7 @@ create_texture
 ImageBufferKind
 :
 :
-Texture2D
+Texture2DArray
 ImageFormat
 :
 :
