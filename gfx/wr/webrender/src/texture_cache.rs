@@ -3581,10 +3581,6 @@ TextureSource
 TextureCache
 (
 texture_id
-ImageBufferKind
-:
-:
-Texture2D
 swizzle
 )
 uv_rect
@@ -4814,9 +4810,6 @@ self
 size
 :
 DeviceIntSize
-num_layers
-:
-usize
 format
 :
 ImageFormat
@@ -4851,7 +4844,7 @@ target
 ImageBufferKind
 :
 :
-Texture2DArray
+Texture2D
 width
 :
 size
@@ -4871,9 +4864,7 @@ TextureFilter
 Linear
 layer_count
 :
-num_layers
-as
-i32
+1
 is_shared_cache
 :
 false
