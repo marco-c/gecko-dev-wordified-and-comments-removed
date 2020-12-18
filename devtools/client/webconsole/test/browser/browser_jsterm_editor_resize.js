@@ -421,8 +421,6 @@ clientX
 ;
 resizer
 .
-ownerDocument
-.
 dispatchEvent
 (
 event
