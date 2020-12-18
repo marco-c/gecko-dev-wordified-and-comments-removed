@@ -26,9 +26,9 @@ XP_DARWIN
 #
 include
 <
-libkern
+os
 /
-OSAtomic
+lock
 .
 h
 >
@@ -70,7 +70,7 @@ defined
 (
 XP_DARWIN
 )
-OSSpinLock
+os_unfair_lock
 mMutex
 ;
 #
@@ -115,7 +115,7 @@ XP_DARWIN
 )
 mMutex
 =
-OS_SPINLOCK_INIT
+OS_UNFAIR_LOCK_INIT
 ;
 #
 elif
@@ -235,7 +235,7 @@ defined
 (
 XP_DARWIN
 )
-OSSpinLockLock
+os_unfair_lock_lock
 (
 &
 mMutex
@@ -276,7 +276,7 @@ defined
 (
 XP_DARWIN
 )
-OSSpinLockUnlock
+os_unfair_lock_unlock
 (
 &
 mMutex
