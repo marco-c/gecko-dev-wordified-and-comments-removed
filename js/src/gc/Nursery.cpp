@@ -6191,7 +6191,7 @@ previousGC
 nurseryUsedBytes
 >
 =
-4
+3
 *
 1024
 *
