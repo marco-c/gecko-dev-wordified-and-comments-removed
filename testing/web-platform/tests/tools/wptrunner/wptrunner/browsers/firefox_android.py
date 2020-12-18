@@ -1593,6 +1593,10 @@ adb_path
 self
 .
 adb_binary
+                                           
+explicit_cleanup
+=
+True
 )
         
 self
@@ -1862,7 +1866,7 @@ self
 .
 runner
 .
-stop
+cleanup
 (
 )
         
