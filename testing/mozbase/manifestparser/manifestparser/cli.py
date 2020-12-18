@@ -419,9 +419,10 @@ _parser
 .
 error
 (
+str
+(
 e
-.
-message
+)
 )
         
 if
@@ -853,9 +854,10 @@ _parser
 .
 error
 (
+str
+(
 e
-.
-message
+)
 )
         
 if
@@ -1130,9 +1132,10 @@ _parser
 .
 error
 (
+str
+(
 e
-.
-message
+)
 )
         
 if

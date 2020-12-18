@@ -1931,11 +1931,12 @@ not
 exist
 "
 in
+str
+(
 io_exc
 .
 value
-.
-message
+)
     
 with
 patch
@@ -2001,11 +2002,12 @@ properly
 formatted
 "
 in
+str
+(
 json_exc
 .
 value
-.
-message
+)
 def
 _check_crash_counts
 (
@@ -3782,11 +3784,12 @@ bad_tests
     
 msg
 =
+str
+(
 exc
 .
 value
-.
-message
+)
     
 assert
 "
