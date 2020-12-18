@@ -570,16 +570,6 @@ gXPCOMThreadsShutDown
 n
 "
 "
-deadlock
-:
-ScriptPreloader
-:
-:
-OffThreadDecodeCallback
-\
-n
-"
-"
 race
 :
 CacheFileMetadata
