@@ -6107,6 +6107,10 @@ const
 bool
 &
 aPersist
+const
+bool
+&
+aCloneEntryChildren
 )
 ;
 mozilla

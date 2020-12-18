@@ -2641,6 +2641,8 @@ uint32_t
 aLoadType
 bool
 aPersist
+bool
+aCloneEntryChildren
 )
 {
 MOZ_LOG
@@ -3018,7 +3020,7 @@ newActiveEntry
 Top
 (
 )
-true
+aCloneEntryChildren
 )
 ;
 mActiveEntry

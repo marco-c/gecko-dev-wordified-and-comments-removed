@@ -37869,6 +37869,10 @@ const
 bool
 &
 aPersist
+const
+bool
+&
+aCloneEntryChildren
 )
 {
 if
@@ -37894,6 +37898,7 @@ aLoadID
 aChangeID
 aLoadType
 aPersist
+aCloneEntryChildren
 )
 ;
 }
