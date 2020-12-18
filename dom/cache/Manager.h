@@ -466,7 +466,7 @@ void
 AddStreamList
 (
 StreamList
-*
+&
 aStreamList
 )
 ;
@@ -474,7 +474,7 @@ void
 RemoveStreamList
 (
 StreamList
-*
+&
 aStreamList
 )
 ;
@@ -836,8 +836,11 @@ sNextListenerId
 ;
 nsTArray
 <
+NotNull
+<
 StreamList
 *
+>
 >
 mStreamLists
 ;
