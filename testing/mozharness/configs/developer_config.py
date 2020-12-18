@@ -83,6 +83,10 @@ appropiate
 "
 "
 "
+from
+__future__
+import
+absolute_import
 import
 os
 LOCAL_WORKDIR
