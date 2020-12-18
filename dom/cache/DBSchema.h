@@ -124,9 +124,10 @@ aCacheId
 ;
 Result
 <
-nsTArray
+AutoTArray
 <
 CacheId
+8
 >
 nsresult
 >
