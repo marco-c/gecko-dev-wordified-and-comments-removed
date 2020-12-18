@@ -23979,6 +23979,13 @@ GetCapturingContent
 (
 )
 ;
+PresShell
+:
+:
+ReleaseCapturingContent
+(
+)
+;
 bool
 selectionOff
 =
