@@ -41,6 +41,10 @@ rfc6455
 "
 "
 from
+__future__
+import
+division
+from
 collections
 import
 deque
