@@ -166,7 +166,7 @@ postMessage
 (
 self
 .
-originIsolated
+originAgentCluster
 "
 *
 "

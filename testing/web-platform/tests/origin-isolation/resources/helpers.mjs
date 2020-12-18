@@ -2227,7 +2227,7 @@ assert_equals
 (
 self
 .
-originIsolated
+originAgentCluster
 expected
 )
 ;
