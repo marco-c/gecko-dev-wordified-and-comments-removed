@@ -93,7 +93,6 @@ RefPtr
 SharedMessageBody
 >
 >
-&
 aMessages
 )
 ;
@@ -118,7 +117,6 @@ RefPtr
 SharedMessageBody
 >
 >
-&
 aMessages
 )
 ;
