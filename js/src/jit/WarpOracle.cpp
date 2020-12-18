@@ -355,7 +355,7 @@ WarpOpSnapshotList
 snapshots
 BytecodeLocation
 loc
-ICStub
+ICCacheIRStub
 *
 stub
 ICFallbackStub
@@ -370,7 +370,7 @@ MOZ_MUST_USE
 bool
 replaceNurseryPointers
 (
-ICStub
+ICCacheIRStub
 *
 stub
 const
@@ -4236,7 +4236,7 @@ loc
 ;
 ICStub
 *
-stub
+firstStub
 =
 entry
 .
@@ -4273,7 +4273,7 @@ clearUsedByTranspiler
 ;
 if
 (
-stub
+firstStub
 =
 =
 fallbackStub
@@ -4402,6 +4402,17 @@ Ok
 )
 ;
 }
+ICCacheIRStub
+*
+stub
+=
+firstStub
+-
+>
+toCacheIRStub
+(
+)
+;
 for
 (
 ICStub
@@ -4516,7 +4527,7 @@ stubInfo
 stub
 -
 >
-cacheIRStubInfo
+stubInfo
 (
 )
 ;
@@ -4528,7 +4539,7 @@ stubData
 stub
 -
 >
-cacheIRStubData
+stubDataStart
 (
 )
 ;
@@ -5076,7 +5087,7 @@ WarpOpSnapshotList
 snapshots
 BytecodeLocation
 loc
-ICStub
+ICCacheIRStub
 *
 stub
 ICFallbackStub
@@ -5301,7 +5312,7 @@ stubInfo
 stub
 -
 >
-cacheIRStubInfo
+stubInfo
 (
 )
 ;
@@ -5573,7 +5584,7 @@ WarpScriptOracle
 :
 replaceNurseryPointers
 (
-ICStub
+ICCacheIRStub
 *
 stub
 const
@@ -5810,7 +5821,7 @@ stubInfo
 >
 getStubField
 <
-ICStub
+ICCacheIRStub
 JSObject
 *
 >
@@ -5915,7 +5926,7 @@ stubInfo
 >
 getStubField
 <
-ICStub
+ICCacheIRStub
 JSString
 *
 >
@@ -5959,7 +5970,7 @@ stubInfo
 >
 getStubField
 <
-ICStub
+ICCacheIRStub
 jsid
 >
 (
@@ -6015,7 +6026,7 @@ stubInfo
 >
 getStubField
 <
-ICStub
+ICCacheIRStub
 JS
 :
 :

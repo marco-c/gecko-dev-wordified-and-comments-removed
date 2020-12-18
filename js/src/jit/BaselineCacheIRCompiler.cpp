@@ -11898,7 +11898,7 @@ optimizedStubSpace
 )
 ;
 }
-ICStub
+ICCacheIRStub
 *
 js
 :

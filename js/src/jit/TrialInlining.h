@@ -309,7 +309,7 @@ InlinableOpData
 >
 FindInlinableOpData
 (
-ICStub
+ICCacheIRStub
 *
 stub
 BytecodeLocation
@@ -325,7 +325,7 @@ InlinableCallData
 >
 FindInlinableCallData
 (
-ICStub
+ICCacheIRStub
 *
 stub
 )
@@ -339,7 +339,7 @@ InlinableGetterData
 >
 FindInlinableGetterData
 (
-ICStub
+ICCacheIRStub
 *
 stub
 )
@@ -353,7 +353,7 @@ InlinableSetterData
 >
 FindInlinableSetterData
 (
-ICStub
+ICCacheIRStub
 *
 stub
 )
@@ -462,7 +462,7 @@ caller
 ;
 private
 :
-ICStub
+ICCacheIRStub
 *
 maybeSingleStub
 (
@@ -475,7 +475,7 @@ entry
 void
 cloneSharedPrefix
 (
-ICStub
+ICCacheIRStub
 *
 stub
 const
@@ -519,7 +519,7 @@ shouldInline
 JSFunction
 *
 target
-ICStub
+ICCacheIRStub
 *
 stub
 BytecodeLocation

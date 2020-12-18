@@ -47,12 +47,12 @@ namespace
 jit
 {
 class
-ICFallbackStub
+ICCacheIRStub
 ;
 class
-ICStub
+ICFallbackStub
 ;
-ICStub
+ICCacheIRStub
 *
 AttachBaselineCacheIRStub
 (

@@ -63,7 +63,7 @@ spewStubHealth
 AutoStructuredSpewer
 &
 spew
-ICStub
+ICCacheIRStub
 *
 stub
 )
