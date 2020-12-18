@@ -184,14 +184,8 @@ web
 platform
 -
 tests
-web
--
-platform
--
-tests
 -
 update
-wpt
 wpt
 -
 metadata
