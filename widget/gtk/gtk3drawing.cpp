@@ -1946,11 +1946,8 @@ GtkSettings
 *
 settings
 =
-gtk_settings_get_for_screen
+gtk_settings_get_default
 (
-gdk_screen_get_default
-(
-)
 )
 ;
 g_object_get
