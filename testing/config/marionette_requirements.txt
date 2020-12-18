@@ -58,6 +58,14 @@ hpack
 .
 .
 /
+tools
+/
+wpt_third_party
+/
+pywebsocket3
+.
+.
+/
 marionette
 /
 client
