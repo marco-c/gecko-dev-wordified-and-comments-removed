@@ -629,12 +629,11 @@ pref
 =
 1
                 
+list
+(
 self
 .
 prefs_provider_update_time
-.
-keys
-(
 )
                 
 True

@@ -271,10 +271,9 @@ test
         
 format_choices
 =
-log_formatters
-.
-keys
+list
 (
+log_formatters
 )
         
 level_desc

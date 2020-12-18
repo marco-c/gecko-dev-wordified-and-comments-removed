@@ -1311,7 +1311,7 @@ installed
 "
 "
         
-packages
+package_versions
 =
 self
 .
@@ -1320,10 +1320,6 @@ package_versions
 error_level
 =
 error_level
-)
-.
-keys
-(
 )
         
 return
@@ -1342,7 +1338,7 @@ lower
 for
 package
 in
-packages
+package_versions
 ]
     
 def

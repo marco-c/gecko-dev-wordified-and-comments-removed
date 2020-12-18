@@ -3398,12 +3398,11 @@ platform
                 
 suites
 =
+list
+(
 self
 .
 suites
-.
-keys
-(
 )
                 
 self

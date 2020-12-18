@@ -1280,10 +1280,6 @@ str
 len
 (
 symbolMap
-.
-keys
-(
-)
 )
 )
 +

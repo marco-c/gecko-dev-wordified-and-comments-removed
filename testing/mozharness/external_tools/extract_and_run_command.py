@@ -529,10 +529,6 @@ ext
 not
 in
 EXTRACTORS
-.
-keys
-(
-)
 :
         
 return
