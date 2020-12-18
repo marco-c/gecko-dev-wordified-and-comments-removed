@@ -4281,6 +4281,7 @@ protoKey
 {
 JSProto_Collator
 JSProto_DateTimeFormat
+JSProto_DisplayNames
 JSProto_ListFormat
 JSProto_Locale
 JSProto_NumberFormat
