@@ -48,7 +48,7 @@ specification
 .
 For
 example
-The
+the
 URL
 of
 "
@@ -227,6 +227,15 @@ workers
 (
 /
 workers
+)
+*
+[
+/
+worklets
+]
+(
+/
+worklets
 )
 *
 [
