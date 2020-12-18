@@ -527,6 +527,8 @@ nsID
 aChangeID
 uint32_t
 aLoadType
+bool
+aPersist
 )
 ;
 void

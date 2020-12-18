@@ -25348,6 +25348,8 @@ WindowGlobalChild
 aWindowActor
 bool
 aIsTransientAboutBlank
+bool
+aPersist
 )
 {
 PersistLayoutHistoryState
@@ -25473,6 +25475,7 @@ this
 ;
 MoveLoadingToActiveEntry
 (
+aPersist
 )
 ;
 }
@@ -29719,6 +29722,7 @@ Embed
 viewer
 aActor
 true
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -34832,6 +34836,13 @@ NS_ENSURE_SUCCESS
 Embed
 (
 viewer
+nullptr
+false
+ShouldAddToSessionHistory
+(
+finalURI
+aOpenedChannel
+)
 )
 NS_ERROR_FAILURE
 )
@@ -38741,6 +38752,7 @@ mLoadingEntry
 mLoadId
 changeID
 mLoadType
+true
 )
 ;
 }
@@ -38807,6 +38819,7 @@ mLoadingEntry
 mLoadId
 changeID
 mLoadType
+true
 )
 ;
 }
@@ -57402,6 +57415,8 @@ nsDocShell
 :
 MoveLoadingToActiveEntry
 (
+bool
+aPersist
 )
 {
 MOZ_ASSERT
@@ -57593,6 +57608,7 @@ loadingEntry
 mLoadId
 changeID
 loadType
+aPersist
 )
 ;
 }
@@ -57717,6 +57733,7 @@ loadingEntry
 mLoadId
 changeID
 loadType
+aPersist
 )
 ;
 }

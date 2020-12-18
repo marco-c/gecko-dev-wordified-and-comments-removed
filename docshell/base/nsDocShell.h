@@ -2814,12 +2814,10 @@ dom
 WindowGlobalChild
 *
 aWindowActor
-=
-nullptr
 bool
 aIsTransientAboutBlank
-=
-false
+bool
+aPersist
 )
 ;
 nsPresContext
@@ -3081,6 +3079,8 @@ aContinueHandlingSubframeHistory
 void
 MoveLoadingToActiveEntry
 (
+bool
+aPersist
 )
 ;
 void
