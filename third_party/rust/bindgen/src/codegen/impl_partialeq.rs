@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 ir
 :
 :
@@ -13,6 +16,9 @@ FieldMethods
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -22,6 +28,9 @@ context
 BindgenContext
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -34,6 +43,9 @@ Item
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :

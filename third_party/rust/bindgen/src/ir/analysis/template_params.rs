@@ -8,6 +8,9 @@ MonotoneFramework
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -20,6 +23,9 @@ ItemId
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -32,6 +38,9 @@ ItemSet
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -44,6 +53,9 @@ TemplateParameters
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -56,6 +68,9 @@ Trace
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -65,6 +80,9 @@ ty
 TypeKind
 ;
 use
+crate
+:
+:
 {
 HashMap
 HashSet

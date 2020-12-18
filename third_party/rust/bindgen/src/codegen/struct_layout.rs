@@ -5,6 +5,9 @@ super
 helpers
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -14,6 +17,9 @@ comp
 CompInfo
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -23,6 +29,9 @@ context
 BindgenContext
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -32,6 +41,9 @@ layout
 Layout
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -1259,7 +1271,7 @@ self
 .
 latest_offset
 {
-error
+warn
 !
 (
 "

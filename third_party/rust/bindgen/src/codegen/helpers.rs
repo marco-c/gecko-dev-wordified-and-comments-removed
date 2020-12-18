@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 ir
 :
 :
@@ -8,6 +11,9 @@ context
 BindgenContext
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -677,6 +683,9 @@ mod
 ast_ty
 {
 use
+crate
+:
+:
 ir
 :
 :
@@ -686,6 +695,9 @@ context
 BindgenContext
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -695,6 +707,9 @@ function
 FunctionSig
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -704,6 +719,9 @@ layout
 Layout
 ;
 use
+crate
+:
+:
 ir
 :
 :
