@@ -271,6 +271,11 @@ return
 mDocument
 ;
 }
+void
+UpdateLastRefreshDriverTime
+(
+)
+;
 protected
 :
 TimeStamp
@@ -318,7 +323,6 @@ Document
 >
 mDocument
 ;
-mutable
 TimeStamp
 mLastRefreshDriverTime
 ;
