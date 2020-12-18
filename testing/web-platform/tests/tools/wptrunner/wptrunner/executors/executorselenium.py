@@ -58,6 +58,8 @@ SelectorProtocolPart
                        
 ClickProtocolPart
                        
+CookiesProtocolPart
+                       
 SendKeysProtocolPart
                        
 ActionSequenceProtocolPart
@@ -1126,6 +1128,58 @@ click
 (
 )
 class
+SeleniumCookiesProtocolPart
+(
+CookiesProtocolPart
+)
+:
+    
+def
+setup
+(
+self
+)
+:
+        
+self
+.
+webdriver
+=
+self
+.
+parent
+.
+webdriver
+    
+def
+delete_all_cookies
+(
+self
+)
+:
+        
+self
+.
+logger
+.
+info
+(
+"
+Deleting
+all
+cookies
+"
+)
+        
+return
+self
+.
+webdriver
+.
+delete_all_cookies
+(
+)
+class
 SeleniumSendKeysProtocolPart
 (
 SendKeysProtocolPart
@@ -1347,6 +1401,8 @@ SeleniumTestharnessProtocolPart
 SeleniumSelectorProtocolPart
                   
 SeleniumClickProtocolPart
+                  
+SeleniumCookiesProtocolPart
                   
 SeleniumSendKeysProtocolPart
                   
