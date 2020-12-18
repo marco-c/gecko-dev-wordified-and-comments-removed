@@ -406,11 +406,9 @@ NS_HTTPS_DEFAULT_PORT
 443
 #
 define
-NS_HTTP_HEADER_SEPS
-"
-\
-t
-"
+NS_HTTP_HEADER_SEP
+'
+'
 struct
 nsHttpAtom
 {
