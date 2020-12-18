@@ -28,8 +28,6 @@ mjs
 importScripts
 (
 "
-module
-/
 evaluation
 -
 order
@@ -38,7 +36,7 @@ order
 -
 worker
 .
-mjs
+js
 "
 )
 ;
