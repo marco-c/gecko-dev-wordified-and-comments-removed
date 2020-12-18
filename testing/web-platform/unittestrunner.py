@@ -31,6 +31,7 @@ local_requirements
 =
 {
     
+b
 "
 mozinfo
 "
@@ -43,6 +44,7 @@ mozbase
 mozinfo
 "
     
+b
 "
 mozlog
 "
@@ -55,6 +57,7 @@ mozbase
 mozlog
 "
     
+b
 "
 mozdebug
 "
@@ -67,6 +70,7 @@ mozbase
 mozdebug
 "
     
+b
 "
 marionette_driver
 "
@@ -80,6 +84,7 @@ client
 /
 "
     
+b
 "
 mozprofile
 "
@@ -92,6 +97,7 @@ mozbase
 mozprofile
 "
     
+b
 "
 mozprocess
 "
@@ -104,6 +110,7 @@ mozbase
 mozprocess
 "
     
+b
 "
 mozcrash
 "
@@ -116,6 +123,7 @@ mozbase
 mozcrash
 "
     
+b
 "
 mozrunner
 "
@@ -128,6 +136,7 @@ mozbase
 mozrunner
 "
     
+b
 "
 mozleak
 "
@@ -140,6 +149,7 @@ mozbase
 mozleak
 "
     
+b
 "
 mozversion
 "
@@ -158,7 +168,7 @@ re
 .
 compile
 (
-r
+rb
 "
 (
 %
@@ -171,6 +181,7 @@ w
 ]
 "
 %
+b
 "
 |
 "
@@ -274,7 +285,7 @@ self
 .
 file_cache
 .
-iteritems
+items
 (
 )
 :
@@ -538,6 +549,8 @@ lines
 .
 append
 (
+                        
+b
 "
 -
 e
@@ -546,6 +559,7 @@ s
 \
 n
 "
+                        
 %
 (
 os
@@ -559,7 +573,15 @@ self
 top_src_path
 path
 )
+.
+encode
+(
+"
+utf8
+"
 )
+)
+                    
 )
         
 with
@@ -585,13 +607,6 @@ f
 write
 (
 line
-.
-encode
-(
-"
-utf8
-"
-)
 )
         
 with
