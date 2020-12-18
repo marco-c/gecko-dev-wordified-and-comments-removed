@@ -74,9 +74,12 @@ coded
 HEAD
 request
 to
-http2bin
+nghttp2
 .
 org
+/
+httpbin
+/
 and
 prints
 out

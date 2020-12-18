@@ -55,7 +55,7 @@ test
 it
 try
 installing
-httpin
+httpbin
 from
 pip
 (

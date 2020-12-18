@@ -446,3 +446,17 @@ fredthomsen
 Added
 logging
 .
+-
+Enhance
+equality
+testing
+of
+h2
+.
+settings
+.
+Settings
+objects
+with
+hypothesis
+.

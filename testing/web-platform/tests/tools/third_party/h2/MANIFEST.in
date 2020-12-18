@@ -25,6 +25,9 @@ test
 *
 .
 py
+*
+.
+sh
 graft
 docs
 prune
@@ -56,6 +59,13 @@ recursive
 -
 include
 utils
+*
+.
+sh
+recursive
+-
+include
+_travis
 *
 .
 sh

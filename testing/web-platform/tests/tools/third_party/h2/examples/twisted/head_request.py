@@ -132,13 +132,15 @@ AUTHORITY
 =
 u
 '
-http2bin
+nghttp2
 .
 org
 '
 PATH
 =
 '
+/
+httpbin
 /
 '
 SIZE

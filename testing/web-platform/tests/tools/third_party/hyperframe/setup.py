@@ -246,15 +246,22 @@ uk
 url
 =
 '
-http
+https
 :
 /
 /
+python
+-
 hyper
 .
-rtfd
-.
 org
+/
+hyperframe
+/
+en
+/
+latest
+/
 '
     
 packages
@@ -401,19 +408,6 @@ Python
 :
 3
 .
-3
-'
-        
-'
-Programming
-Language
-:
-:
-Python
-:
-:
-3
-.
 4
 '
         
@@ -441,6 +435,19 @@ Python
 3
 .
 6
+'
+        
+'
+Programming
+Language
+:
+:
+Python
+:
+:
+3
+.
+7
 '
         
 '

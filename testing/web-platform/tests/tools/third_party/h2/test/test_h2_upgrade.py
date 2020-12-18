@@ -1699,7 +1699,7 @@ serialize
 )
 )
         
-expected_frame
+expected
 =
 frame_factory
 .
@@ -1721,6 +1721,10 @@ ErrorCodes
 STREAM_CLOSED
         
 )
+.
+serialize
+(
+)
         
 assert
 c
@@ -1730,11 +1734,7 @@ data_to_send
 )
 =
 =
-expected_frame
-.
-serialize
-(
-)
+expected
     
 def
 test_client_settings_are_applied
@@ -1799,15 +1799,11 @@ assert
 client
 .
 local_settings
-.
-_settings
 !
 =
 server
 .
 remote_settings
-.
-_settings
         
 )
         
@@ -1859,14 +1855,10 @@ assert
 client
 .
 local_settings
-.
-_settings
 =
 =
 server
 .
 remote_settings
-.
-_settings
         
 )

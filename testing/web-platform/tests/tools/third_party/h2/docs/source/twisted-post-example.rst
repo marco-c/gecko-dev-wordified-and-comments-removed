@@ -74,9 +74,13 @@ coded
 POST
 request
 to
-http2bin
+nghttp2
 .
 org
+/
+httpbin
+/
+post
 and
 prints
 out

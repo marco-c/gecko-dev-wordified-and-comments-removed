@@ -108,6 +108,7 @@ TARGET_BRANCH
 "
 exit
 2
+fi
 if
 !
 git

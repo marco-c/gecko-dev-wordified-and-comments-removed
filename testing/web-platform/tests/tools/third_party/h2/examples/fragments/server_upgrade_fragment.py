@@ -373,7 +373,6 @@ data
 if
 match
 is
-not
 None
 :
         
@@ -420,7 +419,6 @@ data
 if
 match
 is
-not
 None
 :
         

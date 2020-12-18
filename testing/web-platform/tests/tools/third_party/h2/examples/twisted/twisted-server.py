@@ -115,6 +115,12 @@ RequestReceived
 DataReceived
 WindowUpdated
 )
+from
+h2
+.
+exceptions
+import
+ProtocolError
 def
 close_file
 (
@@ -236,6 +242,9 @@ known_proto
 =
 True
         
+try
+:
+            
 events
 =
 self
@@ -247,6 +256,10 @@ receive_data
 data
 )
         
+except
+ProtocolError
+:
+            
 if
 self
 .
@@ -254,7 +267,7 @@ conn
 .
 data_to_send
 :
-            
+                
 self
 .
 transport
@@ -269,13 +282,24 @@ data_to_send
 (
 )
 )
+            
+self
+.
+transport
+.
+loseConnection
+(
+)
         
+else
+:
+            
 for
 event
 in
 events
 :
-            
+                
 if
 isinstance
 (
@@ -283,7 +307,7 @@ event
 RequestReceived
 )
 :
-                
+                    
 self
 .
 requestReceived
@@ -295,7 +319,7 @@ event
 .
 stream_id
 )
-            
+                
 elif
 isinstance
 (
@@ -303,7 +327,7 @@ event
 DataReceived
 )
 :
-                
+                    
 self
 .
 dataFrameReceived
@@ -312,7 +336,7 @@ event
 .
 stream_id
 )
-            
+                
 elif
 isinstance
 (
@@ -320,12 +344,35 @@ event
 WindowUpdated
 )
 :
-                
+                    
 self
 .
 windowUpdated
 (
 event
+)
+            
+if
+self
+.
+conn
+.
+data_to_send
+:
+                
+self
+.
+transport
+.
+write
+(
+self
+.
+conn
+.
+data_to_send
+(
+)
 )
     
 def
@@ -545,7 +592,18 @@ mimetypes
 .
 guess_type
 (
+            
 file_path
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
+        
 )
         
 response_headers
@@ -995,6 +1053,11 @@ addr
 )
 :
         
+print
+(
+H2Protocol
+)
+        
 return
 H2Protocol
 (
@@ -1010,6 +1073,15 @@ argv
 [
 1
 ]
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
 with
 open
 (
