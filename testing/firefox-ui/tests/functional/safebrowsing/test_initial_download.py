@@ -5,6 +5,10 @@ absolute_import
 import
 os
 from
+functools
+import
+reduce
+from
 marionette_driver
 import
 Wait
