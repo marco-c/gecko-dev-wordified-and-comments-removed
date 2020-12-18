@@ -42060,6 +42060,14 @@ GetRect
 (
 )
 ;
+contentBounds
+.
+MoveTo
+(
+0
+0
+)
+;
 }
 return
 contentBounds
