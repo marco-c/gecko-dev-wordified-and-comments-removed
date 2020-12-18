@@ -381,12 +381,6 @@ aBrowser
 ;
 aBrowser
 .
-docShellIsActive
-=
-true
-;
-aBrowser
-.
 preserveLayers
 (
 true
