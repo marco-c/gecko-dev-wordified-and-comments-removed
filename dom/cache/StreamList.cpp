@@ -165,6 +165,7 @@ mContext
 >
 AddActivity
 (
+*
 this
 )
 ;
@@ -848,6 +849,7 @@ mContext
 >
 RemoveActivity
 (
+*
 this
 )
 ;

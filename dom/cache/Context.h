@@ -318,7 +318,7 @@ void
 AddActivity
 (
 Activity
-*
+&
 aActivity
 )
 ;
@@ -326,7 +326,7 @@ void
 RemoveActivity
 (
 Activity
-*
+&
 aActivity
 )
 ;
@@ -500,8 +500,11 @@ mPendingActions
 ;
 nsTObserverArray
 <
+NotNull
+<
 Activity
 *
+>
 >
 mActivityList
 ;
