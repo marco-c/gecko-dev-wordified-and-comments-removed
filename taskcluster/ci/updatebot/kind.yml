@@ -253,9 +253,6 @@ on
 projects
 :
 [
-'
-holly
-'
 ]
 treeherder
 :
