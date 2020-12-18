@@ -153,6 +153,9 @@ aDocument
 nsIURI
 *
 aURI
+uint32_t
+&
+aRejectedReason
 )
 ;
 bool

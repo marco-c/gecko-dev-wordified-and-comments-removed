@@ -1356,10 +1356,12 @@ aDocument
 nsIURI
 *
 aURI
+uint32_t
+&
+aRejectedReason
 )
 {
-uint32_t
-rejectedReason
+aRejectedReason
 =
 0
 ;
@@ -1385,7 +1387,7 @@ NodePrincipal
 (
 )
 aURI
-rejectedReason
+aRejectedReason
 )
 ;
 }
