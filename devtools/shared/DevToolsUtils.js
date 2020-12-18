@@ -1823,6 +1823,15 @@ charset
 let
 sourceMapURL
 ;
+if
+(
+request
+instanceof
+Ci
+.
+nsIHttpChannel
+)
+{
 try
 {
 sourceMapURL
@@ -1870,6 +1879,7 @@ catch
 e
 )
 {
+}
 }
 }
 resolve
