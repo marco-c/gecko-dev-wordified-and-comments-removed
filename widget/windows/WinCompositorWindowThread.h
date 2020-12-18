@@ -22,13 +22,6 @@ message_loop
 .
 h
 "
-#
-include
-"
-ThreadSafeRefcountingWithMainThreadDestruction
-.
-h
-"
 namespace
 mozilla
 {
@@ -75,7 +68,7 @@ class
 WinCompositorWindowThread
 final
 {
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_MAIN_THREAD_DESTRUCTION
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_DELETE_ON_MAIN_THREAD
 (
 WinCompositorWindowThread
 )

@@ -7,7 +7,7 @@ GFX_VR_THREAD_H
 #
 include
 "
-ThreadSafeRefcountingWithMainThreadDestruction
+nsISupportsImpl
 .
 h
 "

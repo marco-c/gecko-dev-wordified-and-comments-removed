@@ -176,13 +176,6 @@ IMFYCbCrImage
 h
 "
 "
-ipc
-/
-ThreadSafeRefcountingWithMainThreadDestruction
-.
-h
-"
-"
 Layers
 .
 h

@@ -7,6 +7,13 @@ MOZILLA_GFX_VR_VRMANAGERCHILD_H
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -65,13 +72,6 @@ mozilla
 ipc
 /
 SharedMemory
-.
-h
-"
-#
-include
-"
-ThreadSafeRefcountingWithMainThreadDestruction
 .
 h
 "
