@@ -28,12 +28,6 @@ glean_core
 :
 ErrorType
 ;
-use
-crate
-:
-:
-dispatcher
-;
 mod
 private
 {
@@ -567,10 +561,10 @@ S
 >
 i32
 {
-dispatcher
+crate
 :
 :
-block_on_queue
+block_on_dispatcher
 (
 )
 ;

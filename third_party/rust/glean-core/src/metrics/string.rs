@@ -249,6 +249,11 @@ identifier
 (
 glean
 )
+self
+.
+meta
+.
+lifetime
 )
 {
 Some

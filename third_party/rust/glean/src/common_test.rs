@@ -253,13 +253,6 @@ None
 crate
 :
 :
-shutdown
-(
-)
-;
-crate
-:
-:
 test_reset_glean
 (
 cfg
