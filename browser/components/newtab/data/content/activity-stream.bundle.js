@@ -4370,6 +4370,9 @@ null
 )
 )
 )
+canShowCustomizationMenu
+&
+&
 react__WEBPACK_IMPORTED_MODULE_8___default
 .
 a
@@ -4385,7 +4388,7 @@ CSSTransition
 {
 timeout
 :
-250
+0
 classNames
 :
 "
@@ -4397,9 +4400,6 @@ in
 :
 showCustomizationMenu
 appear
-:
-true
-unmountOnExit
 :
 true
 }
