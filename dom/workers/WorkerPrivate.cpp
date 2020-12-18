@@ -21662,6 +21662,13 @@ aCx
 if
 (
 aShrinking
+&
+&
+mSyncLoopStack
+.
+IsEmpty
+(
+)
 )
 {
 JS
