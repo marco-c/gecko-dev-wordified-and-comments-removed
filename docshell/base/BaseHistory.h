@@ -68,6 +68,14 @@ VisitedStatus
 )
 final
 ;
+static
+bool
+CanStore
+(
+nsIURI
+*
+)
+;
 protected
 :
 void
