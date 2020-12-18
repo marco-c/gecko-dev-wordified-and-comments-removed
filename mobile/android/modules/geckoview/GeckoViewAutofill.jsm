@@ -1101,9 +1101,6 @@ const
 AUTOFILL_STATE
 =
 "
--
-moz
--
 autofill
 "
 ;
