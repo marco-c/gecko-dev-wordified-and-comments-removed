@@ -312,13 +312,6 @@ PropTypes
 func
 .
 isRequired
-onToggleFlexboxHighlighter
-:
-PropTypes
-.
-func
-.
-isRequired
 scrollToTop
 :
 PropTypes
@@ -473,7 +466,6 @@ flexbox
 flexContainer
 getSwatchColorPickerTooltip
 onSetFlexboxOverlayColor
-onToggleFlexboxHighlighter
 setSelectedNode
 }
 =
@@ -558,7 +550,6 @@ flexContainer
 getSwatchColorPickerTooltip
 highlighted
 onSetFlexboxOverlayColor
-onToggleFlexboxHighlighter
 setSelectedNode
 }
 )

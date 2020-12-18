@@ -273,7 +273,6 @@ panelWin
 const
 {
 onSetFlexboxOverlayColor
-onToggleFlexboxHighlighter
 }
 =
 this
@@ -339,7 +338,6 @@ onSetGridOverlayColor
 onShowBoxModelEditor
 onShowRulePreviewTooltip
 onShowGridOutlineHighlight
-onToggleFlexboxHighlighter
 onToggleGeometryEditor
 onToggleGridHighlighter
 onToggleShowGridAreas
