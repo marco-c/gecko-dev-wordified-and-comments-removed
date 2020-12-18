@@ -23527,7 +23527,7 @@ obj
 AbstractGeneratorObject
 :
 :
-create
+createFromFrame
 (
 cx
 REGS

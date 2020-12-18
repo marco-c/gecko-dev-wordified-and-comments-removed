@@ -28856,7 +28856,7 @@ Fn
 jit
 :
 :
-CreateGenerator
+CreateGeneratorFromFrame
 >
 (
 )
