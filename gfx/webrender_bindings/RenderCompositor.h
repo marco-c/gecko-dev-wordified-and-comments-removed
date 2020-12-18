@@ -776,6 +776,15 @@ false
 ;
 }
 virtual
+void
+MaybeRequestAllowFrameRecording
+(
+bool
+aWillRecord
+)
+{
+}
+virtual
 bool
 MaybeRecordFrame
 (
