@@ -45,10 +45,13 @@ HeadlessLookAndFeel
 :
 HeadlessLookAndFeel
 (
+const
+LookAndFeelCache
+*
+aCache
 )
-=
-default
-;
+{
+}
 HeadlessLookAndFeel
 :
 :

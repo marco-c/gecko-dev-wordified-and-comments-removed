@@ -74,6 +74,9 @@ namespace
 widget
 {
 class
+FullLookAndFeel
+;
+class
 LookAndFeelCache
 ;
 }
@@ -253,6 +256,7 @@ FloatID
 IMEUnderlineRelativeSize
 SpellCheckerUnderlineRelativeSize
 CaretAspectRatio
+End
 }
 ;
 enum
@@ -568,6 +572,19 @@ widget
 LookAndFeelCache
 &
 aCache
+)
+;
+static
+void
+SetData
+(
+widget
+:
+:
+FullLookAndFeel
+&
+&
+aTables
 )
 ;
 static

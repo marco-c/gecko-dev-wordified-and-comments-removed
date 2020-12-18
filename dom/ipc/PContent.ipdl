@@ -2436,8 +2436,8 @@ uri
 async
 ThemeChanged
 (
-LookAndFeelCache
-aCache
+LookAndFeelData
+lookAndFeelData
 ThemeChangeKind
 aKind
 )
@@ -2740,8 +2740,8 @@ XPCOMInitData
 xpcomInit
 StructuredCloneData
 initialData
-LookAndFeelCache
-lookAndFeelCache
+LookAndFeelData
+lookAndFeeldata
 SystemFontListEntry
 [
 ]
