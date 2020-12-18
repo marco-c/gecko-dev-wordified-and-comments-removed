@@ -335,10 +335,24 @@ android_device
 import
 (
                 
+get_adb_path
+                
 verify_android_device
                 
 InstallIntent
             
+)
+            
+kwargs
+[
+"
+adb_binary
+"
+]
+=
+get_adb_path
+(
+self
 )
             
 install
