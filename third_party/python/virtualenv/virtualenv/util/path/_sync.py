@@ -354,7 +354,7 @@ os
 .
 path
 .
-isdir
+exists
 (
 dest_dir
 )
@@ -532,7 +532,6 @@ is_dir
 else
 "
 "
-            
 ensure_text
 (
 str
@@ -542,7 +541,6 @@ self
 src
 )
 )
-            
 ensure_text
 (
 str

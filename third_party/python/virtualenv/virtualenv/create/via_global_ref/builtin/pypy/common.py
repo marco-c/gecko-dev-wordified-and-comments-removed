@@ -21,8 +21,6 @@ builtin
 ref
 import
 PathRefToDest
-RefMust
-RefWhen
 from
 virtualenv
 .
@@ -129,32 +127,9 @@ interpreter
 )
 )
         
-must
-=
-RefMust
-.
-COPY
-if
-interpreter
-.
-version_info
-.
-major
-=
-=
-2
-else
-RefMust
-.
-NA
-        
 yield
 host
 targets
-must
-RefWhen
-.
-ANY
     
 classmethod
     

@@ -6,15 +6,13 @@ unicode_literals
 import
 logging
 from
-functools
-import
-partial
-from
 .
 .
 app_data
 import
-make_app_data
+AppDataAction
+AppDataDisabled
+TempAppData
 from
 .
 .
@@ -647,6 +645,14 @@ options
 )
 :
     
+default_app_data
+=
+AppDataAction
+.
+default
+(
+)
+    
 parser
 .
 add_argument
@@ -655,70 +661,37 @@ add_argument
 "
 -
 -
-read
--
-only
--
 app
 -
 data
+"
+        
+dest
+=
+"
+app_data
 "
         
 action
 =
-"
-store_true
-"
+AppDataAction
         
-help
+default
 =
 "
-use
-app
-data
+<
+temp
 folder
-in
-read
--
-only
-mode
-(
-write
-operations
-will
-fail
-with
-error
-)
+>
 "
-    
-)
-    
-options
-_
-=
-parser
-.
-parse_known_args
+if
+isinstance
 (
-args
-namespace
-=
-options
+default_app_data
+AppDataDisabled
 )
-    
-parser
-.
-add_argument
-(
-        
-"
--
--
-app
--
-data
-"
+else
+default_app_data
         
 help
 =
@@ -733,30 +706,6 @@ by
 the
 virtualenv
 "
-        
-type
-=
-partial
-(
-make_app_data
-read_only
-=
-options
-.
-read_only_app_data
-)
-        
-default
-=
-make_app_data
-(
-None
-read_only
-=
-options
-.
-read_only_app_data
-)
     
 )
     
@@ -775,6 +724,12 @@ app
 data
 "
         
+dest
+=
+"
+reset_app_data
+"
+        
 action
 =
 "
@@ -791,6 +746,10 @@ app
 data
 folder
 "
+        
+default
+=
+False
     
 )
     
@@ -807,6 +766,12 @@ upgrade
 embed
 -
 wheels
+"
+        
+dest
+=
+"
+upgrade_embed_wheels
 "
         
 action
@@ -827,6 +792,10 @@ the
 embedded
 wheels
 "
+        
+default
+=
+False
     
 )
     
@@ -841,6 +810,28 @@ args
 namespace
 =
 options
+)
+    
+if
+options
+.
+app_data
+=
+=
+"
+<
+temp
+folder
+>
+"
+:
+        
+options
+.
+app_data
+=
+TempAppData
+(
 )
     
 if
@@ -1008,7 +999,6 @@ title
 "
 verbosity
 "
-        
 description
 =
 msg
