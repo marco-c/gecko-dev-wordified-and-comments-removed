@@ -36,9 +36,9 @@ for
 server
 in
 [
-server
+s
 for
-server
+s
 in
 iter_proc
 (
@@ -47,7 +47,7 @@ serve
 servers
 )
 if
-server
+s
 .
 is_alive
 ]

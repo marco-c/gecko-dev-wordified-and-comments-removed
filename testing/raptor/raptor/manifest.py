@@ -3619,7 +3619,7 @@ _measures
 ]
             
 for
-m
+measure
 in
 [
 m
@@ -3649,7 +3649,7 @@ _measures
 .
 append
 (
-m
+measure
 )
             
 next_test
