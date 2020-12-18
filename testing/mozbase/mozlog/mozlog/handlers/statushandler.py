@@ -489,14 +489,21 @@ mozleak_total
             
 if
 data
-.
-get
-(
+[
 "
 bytes
 "
-0
-)
+]
+is
+not
+None
+and
+data
+[
+"
+bytes
+"
+]
 >
 data
 .
