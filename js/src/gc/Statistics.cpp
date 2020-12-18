@@ -6805,6 +6805,16 @@ length
 ;
 }
 }
+if
+(
+!
+lastSlice
+.
+wasReset
+(
+)
+)
+{
 size_t
 bytesSurvived
 =
@@ -6958,6 +6968,7 @@ effectiveness
 )
 )
 ;
+}
 }
 }
 void
