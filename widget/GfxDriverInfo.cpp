@@ -3531,9 +3531,6 @@ APPEND_RANGE
 0x9877
 )
 ;
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 APPEND_RANGE
 (
 0x1304
@@ -3558,8 +3555,6 @@ APPEND_RANGE
 0x955f
 )
 ;
-#
-endif
 break
 ;
 case
