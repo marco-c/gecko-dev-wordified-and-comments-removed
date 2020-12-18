@@ -48,6 +48,7 @@ flush
 (
 )
 ;
+await
 op
 .
 assertRejection
