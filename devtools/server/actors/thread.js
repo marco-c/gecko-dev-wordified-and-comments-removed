@@ -2183,11 +2183,18 @@ _canShowOverlay
 )
 {
 return
+(
 this
 .
 _parent
 .
 window
+?
+.
+document
+?
+.
+documentElement
 &
 &
 !
@@ -2198,6 +2205,7 @@ _parent
 window
 .
 isChromeWindow
+)
 ;
 }
 async
