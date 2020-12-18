@@ -7100,9 +7100,6 @@ name
 }
 }
 ;
-template
-<
->
 void
 AbstractBindingName
 <
