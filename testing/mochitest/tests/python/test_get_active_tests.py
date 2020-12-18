@@ -5,6 +5,8 @@ absolute_import
 print_function
 unicode_literals
 import
+six
+import
 os
 from
 argparse
@@ -242,7 +244,9 @@ True
         
 path
 =
-unicode
+six
+.
+text_type
 (
 manifest
 )
