@@ -4433,7 +4433,7 @@ next
 next
 -
 >
-next
+maybeNext
 (
 )
 )
@@ -4443,7 +4443,7 @@ if
 next
 -
 >
-getEnteredCount
+enteredCount
 (
 )
 =

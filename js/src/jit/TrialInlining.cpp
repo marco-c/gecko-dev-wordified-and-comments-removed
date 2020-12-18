@@ -617,6 +617,11 @@ next
 stub
 -
 >
+toCacheIRStub
+(
+)
+-
+>
 next
 (
 )
@@ -626,7 +631,7 @@ if
 next
 -
 >
-getEnteredCount
+enteredCount
 (
 )
 !
@@ -673,6 +678,11 @@ nextNext
 next
 -
 >
+toCacheIRStub
+(
+)
+-
+>
 next
 (
 )
@@ -691,7 +701,7 @@ isFallback
 nextNext
 -
 >
-getEnteredCount
+enteredCount
 (
 )
 !
@@ -2616,7 +2626,7 @@ entryCount
 stub
 -
 >
-getEnteredCount
+enteredCount
 (
 )
 ;
