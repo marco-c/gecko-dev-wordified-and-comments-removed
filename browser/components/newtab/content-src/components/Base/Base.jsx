@@ -1799,7 +1799,7 @@ CSSTransition
 timeout
 =
 {
-250
+0
 }
 classNames
 =
@@ -1814,11 +1814,6 @@ in
 showCustomizationMenu
 }
 appear
-=
-{
-true
-}
-unmountOnExit
 =
 {
 true
