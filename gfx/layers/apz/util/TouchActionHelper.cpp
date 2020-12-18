@@ -92,6 +92,17 @@ StyleTouchAction
 :
 :
 MANIPULATION
+&
+&
+!
+(
+aTouchActionValue
+&
+StyleTouchAction
+:
+:
+PINCH_ZOOM
+)
 )
 {
 aOutBehavior
