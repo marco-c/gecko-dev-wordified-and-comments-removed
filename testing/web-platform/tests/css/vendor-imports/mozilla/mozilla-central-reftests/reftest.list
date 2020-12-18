@@ -106,17 +106,6 @@ reftest
 .
 list
 #
-Conditional
-Rules
-Level
-3
-include
-conditional3
-/
-reftest
-.
-list
-#
 Containment
 include
 contain
