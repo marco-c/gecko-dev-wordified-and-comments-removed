@@ -1844,10 +1844,6 @@ gtk_widget_get_screen
 )
 STUB
 (
-gtk_widget_get_settings
-)
-STUB
-(
 gtk_widget_get_style
 )
 STUB
