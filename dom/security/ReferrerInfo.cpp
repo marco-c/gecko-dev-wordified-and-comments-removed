@@ -4638,7 +4638,7 @@ referrer
 aOther
 -
 >
-GetComputedReferrer
+GetOriginalReferrer
 (
 )
 ;
