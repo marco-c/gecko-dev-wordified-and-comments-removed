@@ -314,19 +314,33 @@ fix_stacks
 )
 :
             
+for
+fn
+in
+[
 fix_stacks
 .
 stdin
 .
 close
-(
-)
-            
 fix_stacks
 .
 terminate
+]
+:
+                
+try
+:
+                    
+fn
 (
 )
+                
+except
+OSError
+:
+                    
+pass
         
 atexit
 .
