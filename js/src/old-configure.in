@@ -7773,7 +7773,7 @@ availability
 (
 os
 strict
-__VA_ARGS__
+__VA_ARGS
 )
 #
 include
