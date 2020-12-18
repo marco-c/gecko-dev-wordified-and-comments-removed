@@ -59,6 +59,8 @@ git
 &
 cd
 fathom
+/
+fathom
 make
 bundle
 export
