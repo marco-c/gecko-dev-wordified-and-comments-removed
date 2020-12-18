@@ -3493,9 +3493,12 @@ session_id
 )
         
 except
+(
+OSError
 error
 .
 InvalidSessionIdException
+)
 :
             
 pass
