@@ -1158,7 +1158,7 @@ HasTwoByteCharsFlag
 )
 {
 }
-protected
+public
 :
 constexpr
 ParserAtomEntry
@@ -1167,8 +1167,6 @@ ParserAtomEntry
 =
 default
 ;
-public
-:
 ParserAtomEntry
 (
 const
