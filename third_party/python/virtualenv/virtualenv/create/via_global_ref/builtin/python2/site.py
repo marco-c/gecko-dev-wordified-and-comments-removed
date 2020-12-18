@@ -272,6 +272,15 @@ utf
 )
 )
         
+if
+full_path
+not
+in
+sys
+.
+path
+:
+            
 add_site_dir
 (
 full_path

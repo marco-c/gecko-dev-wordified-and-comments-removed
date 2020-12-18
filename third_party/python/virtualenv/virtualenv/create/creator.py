@@ -244,14 +244,6 @@ clear
         
 self
 .
-no_vcs_ignore
-=
-options
-.
-no_vcs_ignore
-        
-self
-.
 pyenv_cfg
 =
 PyEnvCfg
@@ -374,15 +366,6 @@ clear
 self
 .
 clear
-)
-            
-(
-"
-no_vcs_ignore
-"
-self
-.
-no_vcs_ignore
 )
         
 ]
@@ -534,7 +517,6 @@ add_argument
 "
 dest
 "
-            
 help
 =
 "
@@ -544,7 +526,6 @@ create
 virtualenv
 at
 "
-            
 type
 =
 cls
@@ -593,55 +574,6 @@ overwrite
 files
 otherwise
 )
-"
-            
-default
-=
-False
-        
-)
-        
-parser
-.
-add_argument
-(
-            
-"
--
--
-no
--
-vcs
--
-ignore
-"
-            
-dest
-=
-"
-no_vcs_ignore
-"
-            
-action
-=
-"
-store_true
-"
-            
-help
-=
-"
-don
-'
-t
-create
-VCS
-ignore
-directive
-in
-the
-destination
-directory
 "
             
 default
@@ -894,7 +826,6 @@ format
 (
                     
 encoding
-                    
 "
 "
 .
@@ -906,7 +837,6 @@ keys
 (
 )
 )
-                    
 raw_value
                 
 )
@@ -1194,13 +1124,6 @@ set_pyenv_cfg
 (
 )
         
-if
-not
-self
-.
-no_vcs_ignore
-:
-            
 self
 .
 setup_ignore_vcs

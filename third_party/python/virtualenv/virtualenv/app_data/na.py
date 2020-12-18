@@ -43,14 +43,6 @@ permissions
 "
 "
     
-transient
-=
-True
-    
-can_update
-=
-False
-    
 def
 __init__
 (
@@ -201,6 +193,18 @@ raise
 self
 .
 error
+    
+property
+    
+def
+transient
+(
+self
+)
+:
+        
+return
+True
     
 def
 py_info_clear

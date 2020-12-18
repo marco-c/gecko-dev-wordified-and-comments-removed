@@ -27,19 +27,6 @@ WindowsSupports
 from
 virtualenv
 .
-create
-.
-via_global_ref
-.
-builtin
-.
-ref
-import
-RefMust
-RefWhen
-from
-virtualenv
-.
 util
 .
 path
@@ -213,25 +200,6 @@ name
         
 )
         
-must
-=
-RefMust
-.
-COPY
-if
-interpreter
-.
-version_info
-.
-major
-=
-=
-2
-else
-RefMust
-.
-NA
-        
 yield
 host_exe
 list
@@ -242,10 +210,6 @@ keys
 (
 )
 )
-must
-RefWhen
-.
-ANY
 add_metaclass
 (
 ABCMeta
@@ -270,11 +234,11 @@ interpreter
         
 host
 =
-cls
-.
-host_python
+Path
 (
 interpreter
+.
+system_executable
 )
         
 for
@@ -309,12 +273,6 @@ path
 .
 name
 ]
-RefMust
-.
-COPY
-RefWhen
-.
-ANY
         
 python_w
 =
@@ -335,30 +293,6 @@ python_w
 .
 name
 ]
-RefMust
-.
-COPY
-RefWhen
-.
-ANY
-    
-classmethod
-    
-def
-host_python
-(
-cls
-interpreter
-)
-:
-        
-return
-Path
-(
-interpreter
-.
-system_executable
-)
 def
 is_mac_os_framework
 (
