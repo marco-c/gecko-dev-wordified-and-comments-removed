@@ -976,14 +976,6 @@ NSString
 )
 attribute
 {
-NSLog
-(
-"
-Checking
-a11y
-"
-)
-;
 if
 (
 [
