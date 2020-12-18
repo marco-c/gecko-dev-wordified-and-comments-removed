@@ -19898,14 +19898,6 @@ StyleTextDecorationLine
 :
 :
 LINE_THROUGH
-&
-&
-StaticPrefs
-:
-:
-layout_css_text_decoration_skip_ink_enabled
-(
-)
 ;
 if
 (
