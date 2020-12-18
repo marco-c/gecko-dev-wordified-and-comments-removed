@@ -5,11 +5,23 @@ absolute_import
 import
 mozhttpd
 import
-urllib2
-import
 os
 import
 re
+from
+six
+.
+moves
+.
+urllib
+.
+request
+import
+urlopen
+from
+six
+import
+ensure_str
 import
 pytest
 import
@@ -182,8 +194,6 @@ path
     
 f
 =
-urllib2
-.
 urlopen
 (
         
@@ -289,6 +299,8 @@ _
 (
 \
 )
+:
+;
 ]
 *
 \
@@ -314,7 +326,10 @@ sub
 pattern
 "
 "
+ensure_str
+(
 line
+)
 .
 strip
 (
@@ -347,7 +362,10 @@ strip
 )
         
 if
+(
+            
 webline
+            
 and
 not
 webline
@@ -359,6 +377,21 @@ Directory
 listing
 for
 "
+)
+            
+and
+not
+webline
+.
+startswith
+(
+"
+<
+!
+DOCTYPE
+"
+)
+        
 )
 :
             

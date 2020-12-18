@@ -34,6 +34,7 @@ from
 six
 import
 iteritems
+ensure_binary
 from
 six
 .
@@ -572,7 +573,10 @@ wfile
 .
 write
 (
+ensure_binary
+(
 data
+)
 )
                 
 return

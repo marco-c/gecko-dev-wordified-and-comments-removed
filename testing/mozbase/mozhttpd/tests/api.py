@@ -12,6 +12,11 @@ import
 pytest
 from
 six
+import
+ensure_binary
+ensure_str
+from
+six
 .
 moves
 .
@@ -431,11 +436,14 @@ querystr
             
 data
 =
+ensure_binary
+(
 json
 .
 dumps
 (
 postdata
+)
 )
         
 )
@@ -1476,6 +1484,7 @@ excinfo
         
 urlopen
 (
+            
 httpd_url
 (
 httpd_no_urlhandlers
@@ -1487,8 +1496,11 @@ resource
 /
 "
 )
+            
 data
 =
+ensure_binary
+(
 json
 .
 dumps
@@ -1496,6 +1508,8 @@ dumps
 {
 }
 )
+)
+        
 )
     
 assert
@@ -1607,10 +1621,13 @@ listing
 for
 "
 in
+ensure_str
+(
 f
 .
 read
 (
+)
 )
     
 try_get
@@ -1974,11 +1991,14 @@ read
 )
 =
 =
+ensure_binary
+(
 index_contents
 (
 "
 *
 "
+)
 )
 pytest
 .
@@ -2185,9 +2205,12 @@ read
 )
 =
 =
+ensure_binary
+(
 index_contents
 (
 host
+)
 )
     
 unproxied_host
