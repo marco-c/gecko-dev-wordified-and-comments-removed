@@ -66,6 +66,9 @@ namespace
 dom
 {
 class
+Document
+;
+class
 WakeLock
 final
 :
@@ -150,6 +153,16 @@ void
 DetachEventListener
 (
 )
+;
+bool
+IsDocumentInvisible
+(
+const
+Document
+&
+aDocument
+)
+const
 ;
 bool
 mLocked
