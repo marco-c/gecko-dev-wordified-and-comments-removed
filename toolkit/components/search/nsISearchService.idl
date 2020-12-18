@@ -2004,7 +2004,7 @@ of
 engines
 returned
 by
-getDefaultEngines
+getAppProvidedEngines
 .
 *
 /
@@ -2259,7 +2259,7 @@ objects
 *
 /
 Promise
-getDefaultEngines
+getAppProvidedEngines
 (
 )
 ;
