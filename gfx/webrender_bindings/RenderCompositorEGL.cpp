@@ -1504,6 +1504,14 @@ gle
 HasKhrPartialUpdate
 (
 )
+&
+&
+StaticPrefs
+:
+:
+gfx_webrender_allow_partial_present_buffer_age_AtStartup
+(
+)
 )
 {
 std
