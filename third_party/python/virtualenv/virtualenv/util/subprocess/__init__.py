@@ -42,9 +42,9 @@ Popen
 subprocess
 .
 Popen
-DETACHED_PROCESS
+CREATE_NO_WINDOW
 =
-0x00000008
+0x80000000
 def
 run_cmd
 (
@@ -61,19 +61,23 @@ Popen
 (
             
 cmd
+            
 universal_newlines
 =
 True
+            
 stdin
 =
 subprocess
 .
 PIPE
+            
 stderr
 =
 subprocess
 .
 PIPE
+            
 stdout
 =
 subprocess
@@ -137,6 +141,6 @@ run_cmd
 "
     
 "
-DETACHED_PROCESS
+CREATE_NO_WINDOW
 "
 )
