@@ -3208,6 +3208,10 @@ tests
 -
 mochitest
 -
+a11y
+-
+mochitest
+-
 browser
 -
 chrome
