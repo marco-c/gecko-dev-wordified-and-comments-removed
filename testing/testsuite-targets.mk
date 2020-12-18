@@ -942,6 +942,8 @@ jittest
 \
 perftests
 \
+fuzztest
+\
 (
 NULL
 )

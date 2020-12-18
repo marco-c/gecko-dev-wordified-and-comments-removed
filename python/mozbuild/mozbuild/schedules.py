@@ -160,6 +160,10 @@ ui
 "
     
 "
+fuzztest
+"
+    
+"
 geckoview
 -
 junit

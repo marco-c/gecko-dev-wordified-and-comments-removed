@@ -75,6 +75,10 @@ jsreftest
 "
 perftests
 "
+    
+"
+fuzztest
+"
 ]
 PACKAGE_SPECIFIED_HARNESSES
 =
@@ -134,6 +138,10 @@ jsreftest
     
 "
 perftests
+"
+    
+"
+fuzztest
 "
 ]
 OPTIONAL_PACKAGES
