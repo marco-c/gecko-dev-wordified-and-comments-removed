@@ -12055,6 +12055,16 @@ js
 MISSING
 DEPENDENCY
 :
+serial
+/
+resources
+/
+automation
+.
+js
+MISSING
+DEPENDENCY
+:
 shape
 -
 detection
