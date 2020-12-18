@@ -9403,6 +9403,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 iter
 .
 Get

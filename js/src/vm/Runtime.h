@@ -1325,6 +1325,15 @@ js
 :
 MainThreadData
 <
+JSDestroyZoneCallback
+>
+destroyZoneCallback
+;
+js
+:
+:
+MainThreadData
+<
 JSDestroyCompartmentCallback
 >
 destroyCompartmentCallback

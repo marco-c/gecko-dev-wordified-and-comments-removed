@@ -2876,6 +2876,14 @@ TraceKind
 traceKind
 )
 ;
+bool
+hasZone
+(
+Zone
+*
+target
+)
+;
 #
 endif
 void

@@ -1489,6 +1489,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 zone
 )
 ;

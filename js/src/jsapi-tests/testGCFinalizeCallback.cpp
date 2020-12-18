@@ -273,6 +273,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 global1
 -
 >
@@ -338,6 +339,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 global1
 -
 >
@@ -351,6 +353,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 global2
 -
 >
@@ -364,6 +367,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 global3
 -
 >
@@ -429,6 +433,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 global1
 -
 >
@@ -476,6 +481,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 global1
 -
 >
@@ -560,6 +566,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 global1
 -
 >
@@ -573,6 +580,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 global2
 -
 >
@@ -586,6 +594,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 global3
 -
 >
@@ -633,6 +642,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 global1
 -
 >
@@ -646,6 +656,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 global2
 -
 >
@@ -659,6 +670,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 global3
 -
 >
