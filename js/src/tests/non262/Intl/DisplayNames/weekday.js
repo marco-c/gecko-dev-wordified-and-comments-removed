@@ -1,3 +1,8 @@
+addMozIntlDisplayNames
+(
+this
+)
+;
 const
 tests
 =

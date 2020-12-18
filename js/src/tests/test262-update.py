@@ -2722,32 +2722,6 @@ js
     
 ]
     
-localIncludesMap
-[
-os
-.
-path
-.
-join
-(
-"
-intl402
-"
-)
-]
-=
-[
-"
-test262
--
-intl
--
-displaynames
-.
-js
-"
-]
-    
 for
 (
 dirPath
