@@ -43,6 +43,11 @@ AbortController
 h
 "
 "
+AbortFollower
+.
+h
+"
+"
 AbortSignal
 .
 h
