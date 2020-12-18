@@ -1183,6 +1183,13 @@ open
 openee_url
 )
 ;
+const
+uuid
+=
+token
+(
+)
+;
 t
 .
 add_cleanup
@@ -1193,7 +1200,7 @@ add_cleanup
 >
 send
 (
-5
+uuid
 "
 window
 .
