@@ -272,6 +272,21 @@ return
 1
     
 def
+__hash__
+(
+self
+)
+:
+        
+return
+hash
+(
+self
+.
+version
+)
+    
+def
 __eq__
 (
 self
