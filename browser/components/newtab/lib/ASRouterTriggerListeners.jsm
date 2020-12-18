@@ -2426,7 +2426,7 @@ _sessionPageLoad
 param
 :
 {
-type
+host
 :
 aSubject
 .
