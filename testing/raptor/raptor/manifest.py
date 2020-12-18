@@ -2458,6 +2458,8 @@ name
         
 max_page_cycles
 =
+int
+(
 next_test
 .
 get
@@ -2467,9 +2469,12 @@ page_cycles
 "
 1
 )
+)
         
 max_browser_cycles
 =
+int
+(
 next_test
 .
 get
@@ -2478,6 +2483,7 @@ get
 browser_cycles
 "
 1
+)
 )
         
 if
@@ -2912,10 +2918,7 @@ page_cycles
 )
 )
 >
-int
-(
 max_page_cycles
-)
 :
                 
 next_test
