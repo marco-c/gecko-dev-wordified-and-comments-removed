@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -22,6 +28,8 @@ b
 "
 Location
 "
+isomorphic_encode
+(
 request
 .
 url
@@ -32,6 +40,7 @@ url
 .
 find
 (
+u
 '
 ?
 '
@@ -40,4 +49,5 @@ find
 1
 :
 ]
+)
 )
