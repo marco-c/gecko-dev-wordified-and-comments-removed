@@ -742,6 +742,16 @@ n
 "
 race
 :
+DocumentTimeline
+:
+:
+GetCurrentTimeAsDuration
+\
+n
+"
+"
+race
+:
 nsHttpTransaction
 :
 :
