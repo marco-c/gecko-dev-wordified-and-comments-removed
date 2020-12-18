@@ -3036,7 +3036,7 @@ mozilla
 :
 LogicalSize
 &
-aContainingBlockSize
+aCBSize
 )
 ;
 void
