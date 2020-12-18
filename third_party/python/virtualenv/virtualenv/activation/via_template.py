@@ -46,14 +46,14 @@ importlib
 .
 resources
 import
-read_text
+read_binary
 else
 :
     
 from
 importlib_resources
 import
-read_text
+read_binary
 add_metaclass
 (
 ABCMeta
@@ -273,16 +273,18 @@ template
             
 dest
 .
-write_text
+write_bytes
 (
 text
-encoding
-=
+.
+encode
+(
 "
 utf
 -
 8
 "
+)
 )
             
 generated
@@ -318,9 +320,9 @@ creator
 )
 :
         
-text
+binary
 =
-read_text
+read_binary
 (
 self
 .
@@ -329,8 +331,14 @@ str
 (
 template
 )
-encoding
+)
+        
+text
 =
+binary
+.
+decode
+(
 "
 utf
 -

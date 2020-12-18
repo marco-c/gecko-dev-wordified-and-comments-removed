@@ -129,7 +129,7 @@ OrderedDict
 None
 None
         
-errored
+errors
 =
 defaultdict
 (
@@ -197,7 +197,7 @@ meta
 error
 :
                     
-errored
+errors
 [
 meta
 .
@@ -292,21 +292,12 @@ key_to_meta
 :
             
 if
-errored
+errors
 :
                 
-raise
-RuntimeError
-(
-                    
-"
-\
-n
-"
-.
-join
-(
-                        
+rows
+=
+[
 "
 {
 }
@@ -337,14 +328,25 @@ for
 k
 v
 in
-errored
+errors
 .
 items
 (
 )
-                    
-)
+]
                 
+raise
+RuntimeError
+(
+"
+\
+n
+"
+.
+join
+(
+rows
+)
 )
             
 else
@@ -375,12 +377,15 @@ CreatorInfo
 key_to_class
 =
 key_to_class
+            
 key_to_meta
 =
 key_to_meta
+            
 describe
 =
 describe
+            
 builtin_key
 =
 builtin_key
