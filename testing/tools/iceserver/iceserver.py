@@ -5187,7 +5187,7 @@ list
 (
 map
 (
-string
+str
 .
 strip
 lines
@@ -5196,13 +5196,12 @@ lines
         
 certbase64
 =
-string
+"
+"
 .
 join
 (
 lines
-"
-"
 )
         
 turns_url
