@@ -8205,7 +8205,7 @@ MOZ_TRY
 xdr
 -
 >
-peekData
+readData
 (
 &
 ptr
@@ -8265,7 +8265,7 @@ MOZ_TRY
 xdr
 -
 >
-peekData
+readData
 (
 &
 twoByteCharsLE
