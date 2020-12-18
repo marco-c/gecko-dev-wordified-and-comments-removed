@@ -9,8 +9,6 @@ import
 json
 import
 hashlib
-import
-urllib
 from
 collections
 import
@@ -22,9 +20,11 @@ signal
 import
 typing
 from
-urllib
+six
+.
+moves
 import
-parse
+urllib
 from
 mitmproxy
 import
@@ -1110,6 +1110,8 @@ parse
 .
 urlparse
 (
+urllib
+.
 parse
 .
 unquote
@@ -1777,6 +1779,9 @@ parse
 .
 urlparse
 (
+                        
+urllib
+.
 parse
 .
 unquote
@@ -1787,6 +1792,7 @@ request
 .
 url
 )
+                    
 )
                     
 self
