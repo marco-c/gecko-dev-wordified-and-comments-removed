@@ -1970,6 +1970,16 @@ bool
 aReparentSiblings
 )
 ;
+bool
+TryRemoveFrame
+(
+FrameListPropertyDescriptor
+aProp
+nsIFrame
+*
+aChildToRemove
+)
+;
 struct
 ContinuationTraversingState
 {
