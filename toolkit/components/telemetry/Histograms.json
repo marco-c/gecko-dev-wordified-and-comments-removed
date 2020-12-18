@@ -93044,7 +93044,7 @@ pulse_rust
 sndio
 "
 "
-sun
+sunaudio
 "
 ]
 "
@@ -93064,6 +93064,7 @@ bug_numbers
 :
 [
 1671714
+1679745
 ]
 }
 "

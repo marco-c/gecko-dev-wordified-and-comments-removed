@@ -798,7 +798,7 @@ sun
 LABELS_MEDIA_AUDIO_BACKEND
 :
 :
-sun
+sunaudio
 }
 }
 ;
