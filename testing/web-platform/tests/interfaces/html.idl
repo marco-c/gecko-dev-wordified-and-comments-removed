@@ -8907,7 +8907,7 @@ navigator
 readonly
 attribute
 boolean
-originIsolated
+originAgentCluster
 ;
 /
 /
