@@ -2506,9 +2506,6 @@ PropertyNameField
 rhs
 :
 ValId
-needsTypeBarrier
-:
-BoolImm
 -
 name
 :

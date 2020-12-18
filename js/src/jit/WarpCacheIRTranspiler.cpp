@@ -3432,8 +3432,6 @@ uint32_t
 nameOffset
 ValOperandId
 rhsId
-bool
-needsTypeBarrier
 )
 {
 MDefinition
@@ -3470,12 +3468,6 @@ rhs
 getOperand
 (
 rhsId
-)
-;
-MOZ_ASSERT
-(
-!
-needsTypeBarrier
 )
 ;
 auto
