@@ -3,8 +3,6 @@ json
 import
 os
 import
-multiprocessing
-import
 signal
 import
 socket
@@ -22,6 +20,10 @@ import
 get_default_logger
 handlers
 proxy
+from
+.
+import
+mpcontext
 from
 .
 wptlogging
@@ -340,11 +342,19 @@ else
 {
 }
         
+mp_context
+=
+mpcontext
+.
+get_context
+(
+)
+        
 self
 .
 cache_manager
 =
-multiprocessing
+mp_context
 .
 Manager
 (
@@ -360,6 +370,9 @@ stash
 .
 StashServer
 (
+mp_context
+=
+mp_context
 )
         
 self
@@ -518,6 +531,14 @@ config
 self
 .
 get_routes
+(
+)
+                                   
+mp_context
+=
+mpcontext
+.
+get_context
 (
 )
 )
@@ -1015,6 +1036,12 @@ proxy
 QueuedProxyLogger
 (
 server_logger
+                                                
+mpcontext
+.
+get_context
+(
+)
 )
         
 try

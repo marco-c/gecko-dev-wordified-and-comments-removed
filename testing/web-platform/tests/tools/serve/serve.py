@@ -59,11 +59,6 @@ import
 chain
 product
 from
-multiprocessing
-import
-Process
-Event
-from
 localpaths
 import
 repo_root
@@ -3227,6 +3222,7 @@ def
 __init__
 (
 self
+mp_context
 scheme
 =
 None
@@ -3247,8 +3243,16 @@ None
         
 self
 .
+mp_context
+=
+mp_context
+        
+self
+.
 stop
 =
+mp_context
+.
 Event
 (
 )
@@ -3280,6 +3284,10 @@ self
 .
 proc
 =
+self
+.
+mp_context
+.
 Process
 (
 target
@@ -3287,7 +3295,7 @@ target
 self
 .
 create_daemon
-                            
+                                            
 args
 =
 (
@@ -3297,10 +3305,10 @@ port
 paths
 routes
 bind_address
-                                  
+                                                  
 config
 )
-                            
+                                            
 name
 =
 '
@@ -3318,7 +3326,7 @@ self
 scheme
 port
 )
-                            
+                                            
 kwargs
 =
 kwargs
@@ -3640,6 +3648,7 @@ check_subdomains
 (
 config
 routes
+mp_context
 )
 :
     
@@ -3690,6 +3699,7 @@ wrapper
 =
 ServerProc
 (
+mp_context
 )
     
 wrapper
@@ -4003,6 +4013,8 @@ paths
 routes
 bind_address
 config
+                  
+mp_context
 *
 *
 kwargs
@@ -4180,6 +4192,7 @@ server_proc
 =
 ServerProc
 (
+mp_context
 scheme
 =
 scheme
@@ -5525,6 +5538,7 @@ start
 (
 config
 routes
+mp_context
 *
 *
 kwargs
@@ -5586,6 +5600,7 @@ paths
 routes
 bind_address
 config
+mp_context
 *
 *
 kwargs
@@ -6975,6 +6990,9 @@ ConfigBuilder
 route_builder
 =
 None
+mp_context
+=
+None
 *
 *
 kwargs
@@ -6988,6 +7006,17 @@ threading
 Event
 (
 )
+    
+if
+mp_context
+is
+None
+:
+        
+import
+multiprocessing
+as
+mp_context
     
 with
 build_config
@@ -7276,6 +7305,7 @@ start
 (
 config
 routes
+mp_context
 *
 *
 kwargs

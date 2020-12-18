@@ -10,10 +10,6 @@ from
 io
 import
 BytesIO
-from
-multiprocessing
-import
-Queue
 class
 LogThread
 (
@@ -333,8 +329,22 @@ __init__
 self
 logger
 do_capture
+mp_context
+=
+None
 )
 :
+        
+if
+mp_context
+is
+None
+:
+            
+import
+multiprocessing
+as
+mp_context
         
 self
 .
@@ -365,6 +375,12 @@ self
 original_stdio
 =
 None
+        
+self
+.
+mp_context
+=
+mp_context
     
 def
 __enter__
@@ -396,6 +412,10 @@ self
 .
 logging_queue
 =
+self
+.
+mp_context
+.
 Queue
 (
 )

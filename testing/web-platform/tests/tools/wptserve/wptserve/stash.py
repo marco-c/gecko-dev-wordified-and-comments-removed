@@ -5,9 +5,11 @@ json
 import
 os
 import
-uuid
+six
 import
 threading
+import
+uuid
 from
 multiprocessing
 .
@@ -116,6 +118,9 @@ None
 authkey
 =
 None
+mp_context
+=
+None
 )
 :
         
@@ -136,6 +141,12 @@ self
 manager
 =
 None
+        
+self
+.
+mp_context
+=
+mp_context
     
 def
 __enter__
@@ -159,9 +170,14 @@ start_server
 self
 .
 address
+                                                                
 self
 .
 authkey
+                                                                
+self
+.
+mp_context
 )
         
 store_env_config
@@ -313,6 +329,9 @@ None
 authkey
 =
 None
+mp_context
+=
+None
 )
 :
     
@@ -335,12 +354,40 @@ ascii
 "
 )
     
+kwargs
+=
+{
+}
+    
+if
+six
+.
+PY3
+and
+mp_context
+is
+not
+None
+:
+        
+kwargs
+[
+"
+ctx
+"
+]
+=
+mp_context
+    
 manager
 =
 ServerDictManager
 (
 address
 authkey
+*
+*
+kwargs
 )
     
 manager

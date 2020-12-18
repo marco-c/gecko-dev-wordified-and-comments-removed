@@ -33,6 +33,10 @@ instruments
 from
 .
 import
+mpcontext
+from
+.
+import
 products
 from
 .
@@ -1014,6 +1018,14 @@ tests
 "
 "
     
+mp
+=
+mpcontext
+.
+get_context
+(
+)
+    
 if
 kwargs
 [
@@ -1059,6 +1071,7 @@ capture
 CaptureIO
 (
 logger
+                                                  
 not
 kwargs
 [
@@ -1066,6 +1079,10 @@ kwargs
 no_capture_stdio
 "
 ]
+                                                  
+mp_context
+=
+mp
 )
 :
         

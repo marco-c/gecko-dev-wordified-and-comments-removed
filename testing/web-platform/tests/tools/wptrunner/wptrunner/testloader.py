@@ -33,10 +33,6 @@ import
 defaultdict
 deque
 from
-multiprocessing
-import
-Queue
-from
 six
 import
 ensure_binary
@@ -55,6 +51,10 @@ from
 .
 import
 manifestexpected
+from
+.
+import
+mpcontext
 from
 .
 import
@@ -2465,8 +2465,18 @@ kwargs
 )
 :
         
+mp
+=
+mpcontext
+.
+get_context
+(
+)
+        
 test_queue
 =
+mp
+.
 Queue
 (
 )
@@ -2656,8 +2666,18 @@ kwargs
 )
 :
         
+mp
+=
+mpcontext
+.
+get_context
+(
+)
+        
 test_queue
 =
+mp
+.
 Queue
 (
 )
@@ -2991,8 +3011,18 @@ in
 tests
 }
         
+mp
+=
+mpcontext
+.
+get_context
+(
+)
+        
 test_queue
 =
+mp
+.
 Queue
 (
 )
