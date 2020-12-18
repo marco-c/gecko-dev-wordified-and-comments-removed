@@ -5,6 +5,8 @@ mozilla
 /
 glean
 /
+bindings
+/
 String
 .
 h

@@ -5,6 +5,8 @@ mozilla
 /
 glean
 /
+bindings
+/
 Uuid
 .
 h

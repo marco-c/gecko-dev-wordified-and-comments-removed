@@ -661,6 +661,8 @@ mozilla
 /
 glean
 /
+bindings
+/
 Glean
 .
 h

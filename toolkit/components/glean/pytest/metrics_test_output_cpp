@@ -11,6 +11,8 @@ mozilla
 /
 glean
 /
+bindings
+/
 MetricTypes
 .
 h
