@@ -677,10 +677,13 @@ None
 for
 k
 in
+list
+(
 totals
 .
 keys
 (
+)
 )
 :
             

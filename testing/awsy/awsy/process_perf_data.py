@@ -1202,10 +1202,13 @@ unique
             
 value
 =
+list
+(
 totals_rss
 .
 values
 (
+)
 )
 [
 0
