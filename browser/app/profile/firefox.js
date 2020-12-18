@@ -15304,6 +15304,7 @@ supportedCountries
 "
 "
 US
+CA
 "
 )
 ;
