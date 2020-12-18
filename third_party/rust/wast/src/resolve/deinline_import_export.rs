@@ -529,6 +529,9 @@ pages
 )
 )
 }
+shared
+:
+false
 }
 }
 )
@@ -636,9 +639,6 @@ Box
 new
 (
 [
-if
-is_32
-{
 Instruction
 :
 :
@@ -646,17 +646,6 @@ I32Const
 (
 0
 )
-}
-else
-{
-Instruction
-:
-:
-I64Const
-(
-0
-)
-}
 ]
 )
 }

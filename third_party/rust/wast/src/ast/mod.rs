@@ -1092,6 +1092,12 @@ catch
 custom_keyword
 !
 (
+catch_all
+)
+;
+custom_keyword
+!
+(
 code
 )
 ;
@@ -1591,6 +1597,12 @@ try
 "
 try
 "
+)
+;
+custom_keyword
+!
+(
+unwind
 )
 ;
 custom_keyword
