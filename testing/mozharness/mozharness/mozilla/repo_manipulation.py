@@ -4,6 +4,21 @@ import
 absolute_import
 import
 six
+if
+six
+.
+PY2
+:
+    
+from
+ConfigParser
+import
+ConfigParser
+else
+:
+    
+from
+configparser
 import
 ConfigParser
 import
@@ -1589,8 +1604,6 @@ cwd
         
 hg_rc
 =
-ConfigParser
-.
 ConfigParser
 (
 )

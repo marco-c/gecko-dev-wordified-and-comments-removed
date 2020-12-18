@@ -5,6 +5,8 @@ absolute_import
 print_function
 unicode_literals
 import
+six
+import
 json
 import
 os
@@ -12,10 +14,6 @@ from
 argparse
 import
 Namespace
-from
-cStringIO
-import
-StringIO
 import
 pytest
 import
@@ -259,6 +257,8 @@ selftests
     
 buf
 =
+six
+.
 StringIO
 (
 )

@@ -4,15 +4,13 @@ import
 absolute_import
 print_function
 import
+six
+import
 json
 import
 time
 import
 types
-from
-StringIO
-import
-StringIO
 import
 mozunit
 import
@@ -65,6 +63,8 @@ mochitest_message_logger
     
 buf
 =
+six
+.
 StringIO
 (
 )
