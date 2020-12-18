@@ -159,6 +159,7 @@ Texture2DArray
 =
 >
 "
+TEXTURE_2D_ARRAY
 "
 ImageBufferKind
 :

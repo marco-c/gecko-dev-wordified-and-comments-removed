@@ -1887,7 +1887,9 @@ samplerExternalOES
 sColor2
 ;
 #
-else
+elif
+defined
+WR_FEATURE_TEXTURE_2D_ARRAY
 uniform
 sampler2DArray
 sColor0
