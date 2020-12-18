@@ -11615,7 +11615,7 @@ Services
 .
 search
 .
-getAppProvidedEngines
+getDefaultEngines
 =
 async
 (
@@ -13413,7 +13413,7 @@ Services
 .
 search
 .
-getAppProvidedEngines
+getDefaultEngines
 =
 async
 (
