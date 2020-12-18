@@ -474,16 +474,6 @@ n
 "
 race
 :
-ScriptPreloader
-:
-:
-DoFinishOffThreadDecode
-\
-n
-"
-"
-race
-:
 nsPluginTag
 :
 :
