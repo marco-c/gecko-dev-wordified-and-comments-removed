@@ -57,6 +57,12 @@ tools
 third_party
 /
 enum
+;
+python_version
+<
+'
+3
+'
 .
 .
 /
