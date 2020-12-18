@@ -55,6 +55,17 @@ mozilla
 /
 glean
 /
+MemoryDistribution
+.
+h
+"
+#
+include
+"
+mozilla
+/
+glean
+/
 Timespan
 .
 h
