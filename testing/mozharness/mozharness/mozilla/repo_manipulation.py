@@ -3,6 +3,8 @@ __future__
 import
 absolute_import
 import
+six
+import
 ConfigParser
 import
 json
@@ -967,7 +969,9 @@ if
 isinstance
 (
 tags
-basestring
+six
+.
+string_types
 )
 :
             

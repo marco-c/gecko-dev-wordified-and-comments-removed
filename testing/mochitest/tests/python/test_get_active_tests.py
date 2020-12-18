@@ -130,7 +130,9 @@ if
 isinstance
 (
 manifest
-basestring
+six
+.
+string_types
 )
 :
             

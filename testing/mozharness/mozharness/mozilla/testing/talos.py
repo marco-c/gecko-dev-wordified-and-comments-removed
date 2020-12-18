@@ -15,6 +15,8 @@ __future__
 import
 absolute_import
 import
+six
+import
 io
 import
 os
@@ -3327,7 +3329,9 @@ not
 isinstance
 (
 tests
-basestring
+six
+.
+string_types
 )
 :
             

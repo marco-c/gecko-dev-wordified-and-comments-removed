@@ -1811,7 +1811,9 @@ not
 isinstance
 (
 path
-basestring
+six
+.
+string_types
 )
 :
             
