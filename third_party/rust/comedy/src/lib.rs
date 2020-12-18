@@ -8,14 +8,6 @@ windows
 ]
 extern
 crate
-failure
-;
-extern
-crate
-failure_derive
-;
-extern
-crate
 winapi
 ;
 pub
