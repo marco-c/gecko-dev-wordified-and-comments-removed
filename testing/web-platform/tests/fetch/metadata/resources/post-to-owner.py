@@ -71,6 +71,26 @@ key
 None
 )
     
+if
+key
+is
+not
+None
+:
+      
+key
+=
+key
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
+    
 body
 =
 u

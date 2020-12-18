@@ -148,12 +148,20 @@ request
 auth
 .
 username
+or
+b
+'
+'
                             
 request
 .
 auth
 .
 password
+or
+b
+'
+'
 )
     
 return
