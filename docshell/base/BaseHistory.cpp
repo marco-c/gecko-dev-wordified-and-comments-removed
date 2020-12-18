@@ -490,7 +490,11 @@ aURI
 )
 )
 {
-return
+if
+(
+aLink
+)
+{
 aLink
 -
 >
@@ -498,6 +502,9 @@ VisitedQueryFinished
 (
 false
 )
+;
+}
+return
 ;
 }
 auto
