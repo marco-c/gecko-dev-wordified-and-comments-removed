@@ -93,6 +93,8 @@ gcc
 -
 multilib
 \
+git
+\
 gnupg
 \
 jq
@@ -124,6 +126,10 @@ dev
 ninja
 -
 build
+\
+openssh
+-
+client
 \
 p7zip
 -
