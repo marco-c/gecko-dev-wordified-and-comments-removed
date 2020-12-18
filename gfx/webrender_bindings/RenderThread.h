@@ -551,16 +551,6 @@ aRender
 )
 ;
 void
-WakeUp
-(
-wr
-:
-:
-WindowId
-aWindowId
-)
-;
-void
 SetClearColor
 (
 wr
