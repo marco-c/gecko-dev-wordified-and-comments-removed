@@ -2136,13 +2136,6 @@ Location
 :
 :
 markerTable
-MS
-:
-:
-Location
-:
-:
-timelineOverview
 }
 ;
 return
