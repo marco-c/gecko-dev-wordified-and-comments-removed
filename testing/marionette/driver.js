@@ -3597,6 +3597,11 @@ getTabBrowser
 win
 )
 ;
+if
+(
+tabBrowser
+)
+{
 for
 (
 const
@@ -3624,6 +3629,7 @@ registerBrowser
 contentBrowser
 )
 ;
+}
 }
 }
 }
