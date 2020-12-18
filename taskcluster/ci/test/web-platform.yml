@@ -394,6 +394,11 @@ apk
 default
 :
 null
+python
+-
+3
+:
+true
 web
 -
 platform
