@@ -10127,6 +10127,12 @@ script
 isGenerator
 (
 )
+&
+&
+!
+JitOptions
+.
+warpGenerator
 )
 {
 *
@@ -10149,6 +10155,12 @@ script
 isAsync
 (
 )
+&
+&
+!
+JitOptions
+.
+warpAsync
 )
 {
 *
