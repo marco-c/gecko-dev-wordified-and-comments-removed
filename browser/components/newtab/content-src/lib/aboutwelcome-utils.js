@@ -547,7 +547,10 @@ content
 zap
 :
 true
-disclaimer
+help_text
+:
+{
+text
 :
 {
 string_id
@@ -561,6 +564,7 @@ sites
 -
 disclaimer
 "
+}
 }
 title
 :
