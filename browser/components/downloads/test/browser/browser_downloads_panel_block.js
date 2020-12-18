@@ -213,7 +213,7 @@ DownloadsBlockedSubview
 .
 elements
 .
-unblockButton
+openButton
 10
 10
 {
