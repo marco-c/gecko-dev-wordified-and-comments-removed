@@ -345,6 +345,9 @@ mod
 storage
 ;
 mod
+atlas_allocator
+;
+mod
 guillotine_allocator
 ;
 mod
