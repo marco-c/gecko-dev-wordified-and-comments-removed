@@ -3875,16 +3875,6 @@ aContent
 )
 const
 ;
-Element
-*
-FindContentForSubDocument
-(
-Document
-*
-aDocument
-)
-const
-;
 DocumentType
 *
 GetDoctype
