@@ -48,6 +48,10 @@ WalkTheStack
 FILE
 *
 aStream
+uint32_t
+aMaxFrames
+=
+0
 )
 ;
 #

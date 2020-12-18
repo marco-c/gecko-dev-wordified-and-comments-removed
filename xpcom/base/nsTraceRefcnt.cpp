@@ -4426,13 +4426,15 @@ WalkTheStack
 FILE
 *
 aStream
+uint32_t
+aMaxFrames
 )
 {
 MozStackWalk
 (
 PrintStackFrame
 2
-0
+aMaxFrames
 aStream
 )
 ;
