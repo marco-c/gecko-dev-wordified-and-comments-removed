@@ -1129,6 +1129,17 @@ IsEmpty
 )
 )
 {
+nsCOMPtr
+<
+EventTarget
+>
+owner
+=
+do_QueryInterface
+(
+mOwner
+)
+;
 for
 (
 WidgetPointerEvent
@@ -1152,7 +1163,7 @@ domEvent
 =
 NS_NewDOMPointerEvent
 (
-nullptr
+owner
 nullptr
 &
 event
