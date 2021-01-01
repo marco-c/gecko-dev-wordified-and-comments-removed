@@ -3681,8 +3681,12 @@ return
 true
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 UpdateGotoSuccessor
 (
@@ -3778,8 +3782,12 @@ existingPred
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 UpdateTestSuccessors
 (

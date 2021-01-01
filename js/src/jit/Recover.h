@@ -511,8 +511,12 @@ const
 =
 0
 ;
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 bool
 recover
 (

@@ -4002,8 +4002,12 @@ NativeToBytecode
 end
 )
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 WriteRun
 (
@@ -5082,8 +5086,12 @@ regionOffset
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 WriteIonTable
 (

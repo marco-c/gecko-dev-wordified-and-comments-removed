@@ -146,8 +146,12 @@ LocalThreadOnly
 AllThreads
 }
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 ReprotectRegion
 (
@@ -162,8 +166,12 @@ MustFlushICache
 flushICache
 )
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 InitProcessExecutableMemory
 (

@@ -1766,8 +1766,12 @@ pcOffset
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 resumeAfter
 (
