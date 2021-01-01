@@ -3597,7 +3597,7 @@ mDefer
 define
 OTHERNAMES_TIMEOUT
 200
-void
+bool
 gfxPlatformFontList
 :
 :
@@ -3613,6 +3613,7 @@ mOtherFamilyNamesInitialized
 )
 {
 return
+true
 ;
 }
 if
@@ -3675,6 +3676,7 @@ aDeferOtherFamilyNamesLoading
 ;
 }
 return
+mOtherFamilyNamesInitialized
 ;
 }
 if
@@ -3739,6 +3741,9 @@ false
 )
 ;
 }
+return
+mOtherFamilyNamesInitialized
+;
 }
 #
 define
@@ -14142,7 +14147,7 @@ list
 )
 ;
 }
-void
+bool
 gfxPlatformFontList
 :
 :
@@ -14173,6 +14178,7 @@ list
 )
 {
 return
+false
 ;
 }
 if
@@ -14189,8 +14195,10 @@ aGeneration
 )
 {
 return
+false
 ;
 }
+return
 InitOtherFamilyNames
 (
 aDefer

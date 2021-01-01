@@ -1097,14 +1097,14 @@ return
 false
 ;
 }
-void
+bool
 InitOtherFamilyNames
 (
 bool
 aDeferOtherFamilyNamesLoading
 )
 ;
-void
+bool
 InitOtherFamilyNames
 (
 uint32_t
