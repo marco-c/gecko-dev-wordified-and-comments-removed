@@ -8606,7 +8606,6 @@ return
 first_transform
 ;
 }
-unsafe
 fn
 modular_transform_data
 (
@@ -8742,7 +8741,6 @@ src
 ;
 }
 pub
-unsafe
 fn
 chain_transform
 (
