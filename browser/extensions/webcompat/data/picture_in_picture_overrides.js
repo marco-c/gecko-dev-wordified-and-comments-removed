@@ -266,7 +266,7 @@ visibilityThreshold
 :
 0
 .
-9
+7
 }
 }
 }
