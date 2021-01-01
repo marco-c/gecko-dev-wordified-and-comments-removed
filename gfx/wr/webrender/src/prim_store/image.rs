@@ -144,15 +144,6 @@ use
 crate
 :
 :
-render_task_graph
-:
-:
-RenderTaskId
-;
-use
-crate
-:
-:
 resource_cache
 :
 :
@@ -662,9 +653,6 @@ common
 &
 mut
 PrimTemplateCommonData
-parent_render_task_id
-:
-RenderTaskId
 frame_state
 :
 &
@@ -1009,7 +997,6 @@ descriptor
 is_opaque
 (
 )
-parent_render_task_id
 |
 rg_builder
 |
@@ -1038,6 +1025,14 @@ size
 padding
 )
 ;
+rg_builder
+.
+add
+(
+)
+.
+init
+(
 RenderTask
 :
 :
@@ -1054,7 +1049,7 @@ task_id
 :
 cache_to_target_task_id
 }
-rg_builder
+)
 )
 }
 )
