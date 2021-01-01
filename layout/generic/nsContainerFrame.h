@@ -2089,7 +2089,7 @@ mozilla
 :
 AspectRatio
 &
-aIntrinsicRatio
+aAspectRatio
 const
 mozilla
 :
