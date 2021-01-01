@@ -209,6 +209,9 @@ style
 applied
 "
 (
+kind
+styleSheetFront
+cause
 )
 =
 >
@@ -234,6 +237,12 @@ style
 -
 applied
 "
+event
+:
+{
+cause
+kind
+}
 }
 ]
 )

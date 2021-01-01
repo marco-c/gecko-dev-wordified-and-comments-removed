@@ -5428,6 +5428,7 @@ editor
 .
 onStyleApplied
 (
+update
 )
 ;
 break

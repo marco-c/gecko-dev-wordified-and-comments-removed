@@ -1715,6 +1715,7 @@ transition
 kind
 =
 UPDATE_GENERAL
+cause
 )
 {
 InspectorUtils
@@ -1771,6 +1772,7 @@ this
 _startTransition
 (
 kind
+cause
 )
 ;
 }
@@ -1787,6 +1789,7 @@ applied
 "
 kind
 this
+cause
 )
 ;
 }
@@ -1825,6 +1828,7 @@ _startTransition
 function
 (
 kind
+cause
 )
 {
 if
@@ -1889,6 +1893,7 @@ bind
 (
 this
 kind
+cause
 )
 TRANSITION_DURATION_MS
 +
@@ -1901,6 +1906,7 @@ _onTransitionEnd
 function
 (
 kind
+cause
 )
 {
 this
@@ -1930,6 +1936,7 @@ applied
 "
 kind
 this
+cause
 )
 ;
 }

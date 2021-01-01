@@ -859,6 +859,10 @@ transition
 kind
 =
 UPDATE_GENERAL
+cause
+=
+"
+"
 )
 {
 const
@@ -927,6 +931,7 @@ _startTransition
 (
 resourceId
 kind
+cause
 )
 ;
 }
@@ -947,6 +952,7 @@ event
 :
 {
 kind
+cause
 }
 }
 )
@@ -1007,6 +1013,7 @@ _startTransition
 (
 resourceId
 kind
+cause
 )
 {
 const
@@ -1096,6 +1103,7 @@ bind
 this
 resourceId
 kind
+cause
 )
 TRANSITION_DURATION_MS
 +
@@ -1107,6 +1115,7 @@ _onTransitionEnd
 (
 resourceId
 kind
+cause
 )
 {
 const
@@ -1161,6 +1170,7 @@ event
 :
 {
 kind
+cause
 }
 }
 )

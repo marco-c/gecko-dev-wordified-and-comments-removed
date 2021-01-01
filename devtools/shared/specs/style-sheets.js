@@ -271,6 +271,17 @@ Arg
 boolean
 "
 )
+cause
+:
+Arg
+(
+3
+"
+nullable
+:
+string
+"
+)
 }
 response
 :
