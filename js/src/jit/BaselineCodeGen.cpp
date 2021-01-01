@@ -1235,7 +1235,7 @@ realm
 )
 -
 >
-collectCoverage
+collectCoverageForDebug
 (
 )
 )
