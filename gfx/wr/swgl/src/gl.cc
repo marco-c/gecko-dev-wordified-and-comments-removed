@@ -2060,6 +2060,12 @@ bool
 val
 )
 {
+assert
+(
+!
+buf
+)
+;
 set_flag
 (
 SHOULD_FREE
@@ -2497,8 +2503,10 @@ locked
 if
 (
 buf
-&
-&
+)
+{
+if
+(
 should_free
 (
 )
@@ -2509,6 +2517,7 @@ free
 buf
 )
 ;
+}
 buf
 =
 nullptr
