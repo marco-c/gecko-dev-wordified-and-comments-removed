@@ -158,7 +158,6 @@ ui
 -
 functional
 geckodriver
-geckodriver
 -
 test
 jsshell
