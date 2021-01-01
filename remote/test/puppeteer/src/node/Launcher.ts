@@ -2548,6 +2548,17 @@ cookieBehavior
 '
 network
 .
+cookie
+.
+sameSite
+.
+laxByDefault
+'
+:
+false
+'
+network
+.
 http
 .
 prompt
