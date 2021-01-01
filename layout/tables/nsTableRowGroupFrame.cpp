@@ -6819,8 +6819,6 @@ lastRowThisPage
 break
 ;
 }
-else
-{
 aDesiredSize
 .
 Height
@@ -6883,7 +6881,6 @@ SetIncomplete
 ;
 break
 ;
-}
 }
 isTopOfPage
 =
