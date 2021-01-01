@@ -16,7 +16,6 @@ h
 GTEST_DISABLE_MSC_WARNINGS_PUSH_
 (
 4251
-\
 )
 namespace
 testing
@@ -54,13 +53,12 @@ TestPartResultArray
 result
 )
 ;
-virtual
 ~
 ScopedFakeTestPartResultReporter
 (
 )
+override
 ;
-virtual
 void
 ReportTestPartResult
 (
@@ -69,6 +67,7 @@ TestPartResult
 &
 result
 )
+override
 ;
 private
 :
@@ -255,6 +254,7 @@ ScopedFakeTestPartResultReporter
 :
 \
 INTERCEPT_ONLY_CURRENT_THREAD
+\
 &
 gtest_failures
 )
@@ -373,8 +373,8 @@ testing
 ScopedFakeTestPartResultReporter
 :
 :
-\
 INTERCEPT_ALL_THREADS
+\
 &
 gtest_failures
 )
@@ -476,6 +476,7 @@ ScopedFakeTestPartResultReporter
 :
 \
 INTERCEPT_ONLY_CURRENT_THREAD
+\
 &
 gtest_failures
 )
@@ -496,8 +497,10 @@ AlwaysTrue
 )
 )
 {
+\
 statement
 ;
+\
 }
 \
 }
@@ -608,8 +611,10 @@ AlwaysTrue
 )
 )
 {
+\
 statement
 ;
+\
 }
 \
 }

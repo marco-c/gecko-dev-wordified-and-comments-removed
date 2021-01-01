@@ -1396,7 +1396,7 @@ GetParam
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Wycheproof2048RsaSignatureSha224Test
 Pkcs11RsaPkcs1WycheproofTest
@@ -1411,7 +1411,7 @@ kRsaSignature2048Sha224WycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Wycheproof2048RsaSignatureSha256Test
 Pkcs11RsaPkcs1WycheproofTest
@@ -1426,7 +1426,7 @@ kRsaSignature2048Sha256WycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Wycheproof2048RsaSignatureSha512Test
 Pkcs11RsaPkcs1WycheproofTest
@@ -1441,7 +1441,7 @@ kRsaSignature2048Sha512WycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Wycheproof3072RsaSignatureSha256Test
 Pkcs11RsaPkcs1WycheproofTest
@@ -1456,7 +1456,7 @@ kRsaSignature3072Sha256WycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Wycheproof3072RsaSignatureSha384Test
 Pkcs11RsaPkcs1WycheproofTest
@@ -1471,7 +1471,7 @@ kRsaSignature3072Sha384WycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Wycheproof3072RsaSignatureSha512Test
 Pkcs11RsaPkcs1WycheproofTest
@@ -1486,7 +1486,7 @@ kRsaSignature3072Sha512WycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Wycheproof4096RsaSignatureSha384Test
 Pkcs11RsaPkcs1WycheproofTest
@@ -1501,7 +1501,7 @@ kRsaSignature4096Sha384WycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Wycheproof4096RsaSignatureSha512Test
 Pkcs11RsaPkcs1WycheproofTest
@@ -1516,7 +1516,7 @@ kRsaSignature4096Sha512WycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 WycheproofRsaSignatureTest
 Pkcs11RsaPkcs1WycheproofTest

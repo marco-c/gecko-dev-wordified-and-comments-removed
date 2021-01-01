@@ -127,7 +127,7 @@ if
 premature_exit_file_path_
 =
 =
-NULL
+nullptr
 )
 {
 premature_exit_file_path_
@@ -300,7 +300,7 @@ if
 filepath
 !
 =
-NULL
+nullptr
 &
 &
 *

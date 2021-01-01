@@ -29,11 +29,11 @@ Test
 {
 protected
 :
-virtual
 void
 SetUp
 (
 )
+override
 {
 q1_
 .
@@ -145,7 +145,7 @@ Head
 n1
 !
 =
-NULL
+nullptr
 ;
 n1
 =
@@ -246,7 +246,7 @@ EXPECT_TRUE
 n
 =
 =
-NULL
+nullptr
 )
 ;
 n
@@ -262,7 +262,7 @@ ASSERT_TRUE
 n
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -298,7 +298,7 @@ ASSERT_TRUE
 n
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ

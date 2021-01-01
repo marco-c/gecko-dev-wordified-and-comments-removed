@@ -716,7 +716,7 @@ public
 :
 static
 void
-SetUpTestCase
+SetUpTestSuite
 (
 )
 {
@@ -2261,7 +2261,7 @@ nullptr
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixbuild_IssuerNameCheck
 pkixbuild_IssuerNameCheck

@@ -65,17 +65,6 @@ testing
 :
 UnitTest
 ;
-using
-:
-:
-testing
-:
-:
-internal
-:
-:
-scoped_ptr
-;
 class
 A
 :
@@ -225,7 +214,6 @@ EmptyTestEventListener
 {
 public
 :
-virtual
 void
 OnTestIterationStart
 (
@@ -234,6 +222,7 @@ UnitTest
 &
 int
 )
+override
 {
 printf
 (
@@ -248,7 +237,6 @@ n
 )
 ;
 }
-virtual
 void
 OnTestStart
 (
@@ -257,6 +245,7 @@ TestInfo
 &
 test_info
 )
+override
 {
 printf
 (

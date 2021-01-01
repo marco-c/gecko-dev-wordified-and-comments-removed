@@ -95,11 +95,11 @@ T
 )
 {
 }
-virtual
 ~
 PrimeTableTest
 (
 )
+override
 {
 delete
 table_
@@ -129,7 +129,7 @@ PreCalculatedPrimeTable
 >
 Implementations
 ;
-TYPED_TEST_CASE
+TYPED_TEST_SUITE
 (
 PrimeTableTest
 Implementations
@@ -442,7 +442,7 @@ T
 {
 }
 ;
-TYPED_TEST_CASE_P
+TYPED_TEST_SUITE_P
 (
 PrimeTableTest2
 )
@@ -727,7 +727,7 @@ GetNextPrime
 )
 ;
 }
-REGISTER_TYPED_TEST_CASE_P
+REGISTER_TYPED_TEST_SUITE_P
 (
 PrimeTableTest2
 ReturnsFalseForNonPrimes
@@ -743,7 +743,7 @@ PreCalculatedPrimeTable
 >
 PrimeTableImplementations
 ;
-INSTANTIATE_TYPED_TEST_CASE_P
+INSTANTIATE_TYPED_TEST_SUITE_P
 (
 OnTheFlyAndPreCalculated
 PrimeTableTest2

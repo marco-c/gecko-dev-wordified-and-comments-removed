@@ -2649,7 +2649,7 @@ ssl_hash_sha256
 ssl_hash_sha384
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 AllHashFuncs
 TlsHkdfTest

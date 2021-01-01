@@ -495,7 +495,7 @@ GetParam
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 WycheproofP256EcdhTest
 Pkcs11EcdhTest
@@ -510,7 +510,7 @@ kP256EcdhWycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 WycheproofP384EcdhTest
 Pkcs11EcdhTest
@@ -525,7 +525,7 @@ kP384EcdhWycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 WycheproofP521EcdhTest
 Pkcs11EcdhTest

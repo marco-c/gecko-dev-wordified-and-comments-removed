@@ -53,7 +53,7 @@ MyString
 :
 c_string_
 (
-NULL
+nullptr
 )
 {
 }
@@ -68,7 +68,7 @@ a_c_string
 :
 c_string_
 (
-NULL
+nullptr
 )
 {
 Set
@@ -87,7 +87,7 @@ string
 :
 c_string_
 (
-NULL
+nullptr
 )
 {
 Set
@@ -131,7 +131,7 @@ return
 c_string_
 =
 =
-NULL
+nullptr
 ?
 0
 :

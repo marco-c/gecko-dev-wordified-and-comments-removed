@@ -665,7 +665,7 @@ GetParam
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NSSTestVector
 Pkcs11Curve25519Test
@@ -680,7 +680,7 @@ kCurve25519Vectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 WycheproofTestVector
 Pkcs11Curve25519Test

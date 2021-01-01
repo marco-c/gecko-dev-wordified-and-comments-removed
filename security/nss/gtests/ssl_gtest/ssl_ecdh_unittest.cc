@@ -3450,7 +3450,7 @@ ssl_sig_rsa_pkcs1_sha384
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 KeyExchangeTest
 TlsKeyExchangeTest
@@ -3475,7 +3475,7 @@ kTlsV11Plus
 #
 ifndef
 NSS_DISABLE_TLS_1_3
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 KeyExchangeTest
 TlsKeyExchangeTest13

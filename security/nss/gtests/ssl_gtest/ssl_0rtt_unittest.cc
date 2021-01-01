@@ -6073,7 +6073,7 @@ SendReceive
 #
 ifndef
 NSS_DISABLE_TLS_1_3
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Tls13ZeroRttReplayTest
 TlsZeroRttReplayTest

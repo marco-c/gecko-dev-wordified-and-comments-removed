@@ -1062,7 +1062,7 @@ suite
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 FuzzStream
 TlsFuzzTest
@@ -1084,7 +1084,7 @@ kTlsVAll
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 FuzzDatagram
 TlsFuzzTest

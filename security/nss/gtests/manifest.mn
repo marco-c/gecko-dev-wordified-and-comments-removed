@@ -119,6 +119,8 @@ cryptohi_gtest
 \
 der_gtest
 \
+freebl_gtest
+\
 pk11_gtest
 \
 smime_gtest

@@ -43,6 +43,7 @@ u
 tests
 '
 :
+        
 1
     
 u
@@ -50,6 +51,7 @@ u
 failures
 '
 :
+        
 0
     
 u
@@ -57,6 +59,7 @@ u
 disabled
 '
 :
+        
 0
     
 u
@@ -64,6 +67,7 @@ u
 errors
 '
 :
+        
 0
     
 u
@@ -71,6 +75,7 @@ u
 time
 '
 :
+        
 u
 '
 *
@@ -81,6 +86,7 @@ u
 timestamp
 '
 :
+        
 u
 '
 *
@@ -91,6 +97,7 @@ u
 name
 '
 :
+        
 u
 '
 AllTests
@@ -109,6 +116,7 @@ u
 name
 '
 :
+            
 u
 '
 PropertyOne
@@ -119,6 +127,7 @@ u
 tests
 '
 :
+            
 1
         
 u
@@ -126,6 +135,7 @@ u
 failures
 '
 :
+            
 0
         
 u
@@ -133,6 +143,7 @@ u
 disabled
 '
 :
+            
 0
         
 u
@@ -140,6 +151,7 @@ u
 errors
 '
 :
+            
 0
         
 u
@@ -147,6 +159,18 @@ u
 time
 '
 :
+            
+u
+'
+*
+'
+        
+u
+'
+timestamp
+'
+:
+            
 u
 '
 *
@@ -182,7 +206,27 @@ RUN
             
 u
 '
+result
+'
+:
+u
+'
+COMPLETED
+'
+            
+u
+'
 time
+'
+:
+u
+'
+*
+'
+            
+u
+'
+timestamp
 '
 :
 u
@@ -245,6 +289,7 @@ u
 tests
 '
 :
+        
 1
     
 u
@@ -252,6 +297,7 @@ u
 failures
 '
 :
+        
 0
     
 u
@@ -259,6 +305,7 @@ u
 disabled
 '
 :
+        
 0
     
 u
@@ -266,6 +313,7 @@ u
 errors
 '
 :
+        
 0
     
 u
@@ -273,6 +321,7 @@ u
 time
 '
 :
+        
 u
 '
 *
@@ -283,6 +332,7 @@ u
 timestamp
 '
 :
+        
 u
 '
 *
@@ -293,6 +343,7 @@ u
 name
 '
 :
+        
 u
 '
 AllTests
@@ -311,6 +362,7 @@ u
 name
 '
 :
+            
 u
 '
 PropertyTwo
@@ -321,6 +373,7 @@ u
 tests
 '
 :
+            
 1
         
 u
@@ -328,6 +381,7 @@ u
 failures
 '
 :
+            
 0
         
 u
@@ -335,6 +389,7 @@ u
 disabled
 '
 :
+            
 0
         
 u
@@ -342,6 +397,7 @@ u
 errors
 '
 :
+            
 0
         
 u
@@ -349,6 +405,18 @@ u
 time
 '
 :
+            
+u
+'
+*
+'
+        
+u
+'
+timestamp
+'
+:
+            
 u
 '
 *
@@ -380,6 +448,26 @@ status
 u
 '
 RUN
+'
+            
+u
+'
+result
+'
+:
+u
+'
+COMPLETED
+'
+            
+u
+'
+timestamp
+'
+:
+u
+'
+*
 '
             
 u

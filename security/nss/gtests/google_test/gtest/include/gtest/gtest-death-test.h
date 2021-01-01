@@ -238,7 +238,6 @@ EXPECT_DEBUG_DEATH
 statement
 regex
 )
-\
 EXPECT_DEATH
 (
 statement
@@ -251,7 +250,6 @@ ASSERT_DEBUG_DEATH
 statement
 regex
 )
-\
 ASSERT_DEATH
 (
 statement
@@ -292,7 +290,6 @@ GTEST_LOG_
 (
 WARNING
 )
-\
 <
 <
 "

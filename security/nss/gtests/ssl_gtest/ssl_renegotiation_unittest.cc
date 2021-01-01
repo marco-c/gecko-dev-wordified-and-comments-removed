@@ -291,7 +291,9 @@ version_
 SSL_LIBRARY_VERSION_TLS_1_0
 )
 {
-return
+GTEST_SKIP
+(
+)
 ;
 }
 client_
@@ -442,7 +444,9 @@ version_
 SSL_LIBRARY_VERSION_TLS_1_0
 )
 {
-return
+GTEST_SKIP
+(
+)
 ;
 }
 client_
@@ -593,7 +597,9 @@ version_
 SSL_LIBRARY_VERSION_TLS_1_0
 )
 {
-return
+GTEST_SKIP
+(
+)
 ;
 }
 Connect
@@ -717,7 +723,9 @@ version_
 SSL_LIBRARY_VERSION_TLS_1_0
 )
 {
-return
+GTEST_SKIP
+(
+)
 ;
 }
 Connect
@@ -793,7 +801,9 @@ version_
 SSL_LIBRARY_VERSION_TLS_1_0
 )
 {
-return
+GTEST_SKIP
+(
+)
 ;
 }
 Connect

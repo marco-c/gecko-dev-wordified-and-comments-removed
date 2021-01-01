@@ -4222,7 +4222,7 @@ password2
 }
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SoftokenPasswordChangeTests
 SoftokenPasswordChangeTest
@@ -5480,7 +5480,7 @@ break
 ;
 }
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 DhValidateCases
 SoftokenDhValidate
@@ -6697,7 +6697,7 @@ break
 ;
 }
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 FipsPasswordCases
 SoftokenFipsPasswordTest
@@ -6712,7 +6712,7 @@ kFipsPasswordCases
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 BadFipsPasswordCases
 SoftokenFipsBadPasswordTest
@@ -6727,7 +6727,7 @@ kFipsPasswordBadCases
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 FipsDhCases
 SoftokenFipsDhValidate

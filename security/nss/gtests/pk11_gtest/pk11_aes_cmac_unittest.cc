@@ -639,7 +639,7 @@ GetParam
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 WycheproofTestVector
 Pkcs11AesCmacTest

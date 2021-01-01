@@ -183,6 +183,7 @@ t
 "
   
 print
+(
 '
 Running
 "
@@ -200,6 +201,7 @@ s
 join
 (
 command
+)
 )
   
 p
@@ -336,7 +338,10 @@ present
 should_fail
 :
 True
-iff
+if
+and
+only
+if
 the
 program
 is

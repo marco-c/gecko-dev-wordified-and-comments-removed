@@ -239,7 +239,7 @@ failure
 )
 !
 =
-NULL
+nullptr
 )
 throw
 ;

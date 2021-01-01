@@ -3307,7 +3307,9 @@ version_
 case
 SSL_LIBRARY_VERSION_TLS_1_0
 :
-return
+GTEST_SKIP
+(
+)
 ;
 case
 SSL_LIBRARY_VERSION_TLS_1_1
@@ -3365,7 +3367,9 @@ SSL_LIBRARY_VERSION_TLS_1_1
 version_
 )
 ;
-return
+GTEST_SKIP
+(
+)
 ;
 }
 }

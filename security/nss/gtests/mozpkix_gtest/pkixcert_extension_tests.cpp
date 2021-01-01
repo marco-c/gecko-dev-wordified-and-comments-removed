@@ -838,7 +838,7 @@ nullptr
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixcert_extension
 pkixcert_extension

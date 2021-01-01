@@ -88,7 +88,6 @@ EmptyTestEventListener
 {
 private
 :
-virtual
 void
 OnTestProgramStart
 (
@@ -96,9 +95,9 @@ const
 UnitTest
 &
 )
+override
 {
 }
-virtual
 void
 OnTestProgramEnd
 (
@@ -107,6 +106,7 @@ UnitTest
 &
 unit_test
 )
+override
 {
 fprintf
 (
@@ -139,7 +139,6 @@ stdout
 )
 ;
 }
-virtual
 void
 OnTestStart
 (
@@ -148,6 +147,7 @@ TestInfo
 &
 test_info
 )
+override
 {
 fprintf
 (
@@ -185,7 +185,6 @@ stdout
 )
 ;
 }
-virtual
 void
 OnTestPartResult
 (
@@ -194,6 +193,7 @@ TestPartResult
 &
 test_part_result
 )
+override
 {
 fprintf
 (
@@ -253,7 +253,6 @@ stdout
 )
 ;
 }
-virtual
 void
 OnTestEnd
 (
@@ -262,6 +261,7 @@ TestInfo
 &
 test_info
 )
+override
 {
 fprintf
 (
@@ -528,7 +528,7 @@ i
 <
 unit_test
 .
-total_test_case_count
+total_test_suite_count
 (
 )
 ;
@@ -538,14 +538,17 @@ i
 )
 {
 const
-TestCase
+testing
+:
+:
+TestSuite
 &
-test_case
+test_suite
 =
 *
 unit_test
 .
-GetTestCase
+GetTestSuite
 (
 i
 )
@@ -559,7 +562,7 @@ j
 ;
 j
 <
-test_case
+test_suite
 .
 total_test_count
 (
@@ -576,7 +579,7 @@ TestInfo
 test_info
 =
 *
-test_case
+test_suite
 .
 GetTestInfo
 (

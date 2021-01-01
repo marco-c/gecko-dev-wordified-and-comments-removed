@@ -30,7 +30,7 @@ int
 }
 ;
 class
-InstantiationInMultipleTranslaionUnitsTest
+InstantiationInMultipleTranslationUnitsTest
 :
 public
 :

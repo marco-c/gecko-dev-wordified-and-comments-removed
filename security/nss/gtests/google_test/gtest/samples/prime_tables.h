@@ -53,7 +53,6 @@ PrimeTable
 {
 public
 :
-virtual
 bool
 IsPrime
 (
@@ -61,6 +60,7 @@ int
 n
 )
 const
+override
 {
 if
 (
@@ -110,7 +110,6 @@ return
 true
 ;
 }
-virtual
 int
 GetNextPrime
 (
@@ -118,6 +117,7 @@ int
 p
 )
 const
+override
 {
 for
 (
@@ -193,11 +193,11 @@ max
 )
 ;
 }
-virtual
 ~
 PreCalculatedPrimeTable
 (
 )
+override
 {
 delete
 [
@@ -205,7 +205,6 @@ delete
 is_prime_
 ;
 }
-virtual
 bool
 IsPrime
 (
@@ -213,6 +212,7 @@ int
 n
 )
 const
+override
 {
 return
 0
@@ -232,7 +232,6 @@ n
 ]
 ;
 }
-virtual
 int
 GetNextPrime
 (
@@ -240,6 +239,7 @@ int
 p
 )
 const
+override
 {
 for
 (

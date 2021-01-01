@@ -1076,7 +1076,7 @@ reader
 ;
 }
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixder_DigestAlgorithmIdentifier_Valid
 pkixder_DigestAlgorithmIdentifier_Valid
@@ -1214,7 +1214,7 @@ alg
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixder_DigestAlgorithmIdentifier_Invalid
 pkixder_DigestAlgorithmIdentifier_Invalid
@@ -1681,7 +1681,7 @@ reader
 ;
 }
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixder_SignatureAlgorithmIdentifierValue_Valid
 pkixder_SignatureAlgorithmIdentifierValue_Valid
@@ -1854,7 +1854,7 @@ digestAlg
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixder_SignatureAlgorithmIdentifier_Invalid
 pkixder_SignatureAlgorithmIdentifier_Invalid

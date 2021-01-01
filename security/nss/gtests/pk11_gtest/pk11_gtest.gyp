@@ -204,6 +204,11 @@ pk11_hpke_unittest
 cc
 '
 '
+pk11_ike_unittest
+.
+cc
+'
+'
 pk11_import_unittest
 .
 cc

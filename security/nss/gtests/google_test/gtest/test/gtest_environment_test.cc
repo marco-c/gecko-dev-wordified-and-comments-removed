@@ -73,11 +73,11 @@ Reset
 )
 ;
 }
-virtual
 void
 SetUp
 (
 )
+override
 {
 set_up_was_run_
 =
@@ -140,11 +140,11 @@ break
 ;
 }
 }
-virtual
 void
 TearDown
 (
 )
+override
 {
 tear_down_was_run_
 =

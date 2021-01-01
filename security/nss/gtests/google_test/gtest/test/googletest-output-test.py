@@ -1743,6 +1743,10 @@ golden_file
 read
 (
 )
+.
+decode
+(
+)
 )
     
 golden_file

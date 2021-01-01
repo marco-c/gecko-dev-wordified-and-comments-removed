@@ -101,7 +101,7 @@ for
 src
 !
 =
-NULL
+nullptr
 ;
 src
 =
@@ -132,7 +132,7 @@ name_vec
 const
 char
 *
-TypedTestCasePState
+TypedTestSuitePState
 :
 :
 VerifyRegisteredTestNames
@@ -362,7 +362,7 @@ found
 in
 this
 test
-case
+suite
 .
 \
 n

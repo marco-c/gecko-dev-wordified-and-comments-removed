@@ -206,6 +206,17 @@ std
 :
 :
 string
+FormatHexUInt32
+(
+UInt32
+value
+)
+;
+static
+std
+:
+:
+string
 FormatByte
 (
 unsigned

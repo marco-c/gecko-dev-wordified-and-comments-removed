@@ -3119,7 +3119,7 @@ GetParam
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 NSSTestVector
 Pkcs11ChaCha20Poly1305Test
@@ -3134,7 +3134,7 @@ kChaCha20Vectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 WycheproofTestVector
 Pkcs11ChaCha20Poly1305Test

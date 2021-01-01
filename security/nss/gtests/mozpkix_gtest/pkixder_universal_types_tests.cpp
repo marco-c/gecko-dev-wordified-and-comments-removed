@@ -6141,7 +6141,7 @@ AtEnd
 #
 undef
 INVALID
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixder_universal_types_tests_Integer
 pkixder_universal_types_tests_Integer

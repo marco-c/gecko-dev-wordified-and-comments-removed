@@ -134,6 +134,11 @@ time
 "
 *
 "
+timestamp
+=
+"
+*
+"
 >
     
 <
@@ -148,7 +153,17 @@ status
 "
 run
 "
+result
+=
+"
+completed
+"
 time
+=
+"
+*
+"
+timestamp
 =
 "
 *
@@ -325,6 +340,11 @@ time
 "
 *
 "
+timestamp
+=
+"
+*
+"
 >
     
 <
@@ -339,7 +359,17 @@ status
 "
 run
 "
+result
+=
+"
+completed
+"
 time
+=
+"
+*
+"
+timestamp
 =
 "
 *

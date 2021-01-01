@@ -1754,7 +1754,7 @@ error_code
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VersionsStream10Pre13
 SSLv2ClientHelloTest
@@ -1764,7 +1764,7 @@ TlsConnectTestBase
 kTlsV10
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 VersionsStreamPre13
 SSLv2ClientHelloTest

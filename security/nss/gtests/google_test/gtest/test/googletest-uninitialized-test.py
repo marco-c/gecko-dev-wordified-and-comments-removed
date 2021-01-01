@@ -62,6 +62,7 @@ actual
 :
     
 print
+(
 '
 Expected
 :
@@ -72,8 +73,10 @@ s
 (
 expected
 )
+)
     
 print
+(
 '
 Actual
 :
@@ -83,6 +86,7 @@ s
 %
 (
 actual
+)
 )
     
 raise

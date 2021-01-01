@@ -6658,7 +6658,7 @@ SSL_ERROR_PROTOCOL_VERSION_ALERT
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 HelloRetryRequestAgentTests
 HelloRetryRequestAgentTest
@@ -6683,7 +6683,7 @@ kTlsV13
 #
 ifndef
 NSS_DISABLE_TLS_1_3
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 HelloRetryRequestKeyExchangeTests
 TlsKeyExchange13

@@ -50,7 +50,7 @@ Values
 33
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MultiplesOf33
 ExternalInstantiationTest
@@ -61,10 +61,10 @@ Values
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Sequence2
-InstantiationInMultipleTranslaionUnitsTest
+InstantiationInMultipleTranslationUnitsTest
 Values
 (
 42

@@ -226,6 +226,9 @@ c_str
 #
 if
 GTEST_OS_WINDOWS
+|
+|
+GTEST_OS_OS2
 const
 char
 *
@@ -2600,11 +2603,11 @@ Test
 {
 protected
 :
-virtual
 void
 SetUp
 (
 )
+override
 {
 testdata_path_
 .
@@ -2732,11 +2735,11 @@ c_str
 )
 ;
 }
-virtual
 void
 TearDown
 (
 )
+override
 {
 remove
 (

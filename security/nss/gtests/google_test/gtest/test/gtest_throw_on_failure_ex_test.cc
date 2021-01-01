@@ -152,7 +152,7 @@ failure
 )
 !
 =
-NULL
+nullptr
 )
 return
 ;

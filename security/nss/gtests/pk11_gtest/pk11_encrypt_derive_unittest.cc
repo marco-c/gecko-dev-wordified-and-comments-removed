@@ -998,7 +998,7 @@ CKM_SEED_CBC
 endif
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 EncryptDeriveTests
 EncryptDeriveTest
@@ -1057,7 +1057,7 @@ CKM_DES3_ECB
 CKM_DES3_CBC
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Encrypt3DeriveTests
 EncryptDerive3Test

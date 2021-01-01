@@ -158,7 +158,6 @@ EmptyTestEventListener
 {
 private
 :
-virtual
 void
 OnTestStart
 (
@@ -166,6 +165,7 @@ const
 TestInfo
 &
 )
+override
 {
 initially_allocated_
 =
@@ -177,7 +177,6 @@ allocated
 )
 ;
 }
-virtual
 void
 OnTestEnd
 (
@@ -185,6 +184,7 @@ const
 TestInfo
 &
 )
+override
 {
 int
 difference
@@ -264,7 +264,7 @@ EXPECT_TRUE
 water
 !
 =
-NULL
+nullptr
 )
 ;
 }

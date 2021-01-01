@@ -28,7 +28,7 @@ s
 ;
 EXPECT_STREQ
 (
-NULL
+nullptr
 s
 .
 c_string
@@ -203,12 +203,12 @@ s
 .
 Set
 (
-NULL
+nullptr
 )
 ;
 EXPECT_STREQ
 (
-NULL
+nullptr
 s
 .
 c_string

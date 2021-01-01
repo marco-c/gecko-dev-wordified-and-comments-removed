@@ -6,8 +6,6 @@ from
 various
 build
 systems
-#
-#
 GoogleTest
 comes
 with
@@ -124,9 +122,6 @@ cc
 #
 #
 CMake
-#
-#
-#
 Using
 pkg
 -
@@ -137,6 +132,7 @@ is
 fairly
 easy
 :
+cmake
 cmake_minimum_required
 (
 VERSION
@@ -312,9 +308,6 @@ pthread
 #
 #
 Autotools
-#
-#
-#
 Finding
 GoogleTest
 in
@@ -428,9 +421,6 @@ GTEST_LIBS
 #
 #
 Meson
-#
-#
-#
 Meson
 natively
 uses
@@ -503,9 +493,6 @@ testapp
 #
 Plain
 Makefiles
-#
-#
-#
 Since
 pkg
 -
@@ -528,6 +515,7 @@ Makefile
 s
 too
 :
+makefile
 GTEST_CFLAGS
 =
 pkg
@@ -620,9 +608,6 @@ t
 find
 GoogleTest
 !
-#
-#
-#
 Let
 '
 s

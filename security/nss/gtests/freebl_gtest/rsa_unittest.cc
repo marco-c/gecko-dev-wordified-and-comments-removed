@@ -428,14 +428,14 @@ in
 ;
 EXPECT_EQ
 (
-SECFailure
+SECSuccess
 rv
 )
 ;
-EXPECT_EQ
+EXPECT_LE
 (
-maxOutputLen
 outputLen
+245u
 )
 ;
 uint8_t
@@ -477,7 +477,7 @@ in
 ;
 EXPECT_EQ
 (
-SECFailure
+SECSuccess
 rv
 )
 ;

@@ -310,7 +310,7 @@ int
 *
 p
 =
-NULL
+nullptr
 ;
 EXPECT_EQ
 (
@@ -372,7 +372,7 @@ char
 *
 p
 =
-NULL
+nullptr
 ;
 EXPECT_EQ
 (

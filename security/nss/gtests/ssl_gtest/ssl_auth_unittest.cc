@@ -9673,7 +9673,7 @@ signature_scheme_
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SignatureSchemeRsa
 TlsSignatureSchemeConfiguration
@@ -9729,7 +9729,7 @@ ssl_sig_rsa_pss_rsae_sha384
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SignatureSchemeRsaTls13
 TlsSignatureSchemeConfiguration
@@ -9782,7 +9782,7 @@ ssl_sig_rsa_pss_rsae_sha384
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SignatureSchemeBigRsa
 TlsSignatureSchemeConfiguration
@@ -9834,7 +9834,7 @@ ssl_sig_rsa_pss_rsae_sha512
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SignatureSchemeRsaSha1
 TlsSignatureSchemeConfiguration
@@ -9886,7 +9886,7 @@ ssl_sig_rsa_pkcs1_sha1
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SignatureSchemeEcdsaP256
 TlsSignatureSchemeConfiguration
@@ -9938,7 +9938,7 @@ ssl_sig_ecdsa_secp256r1_sha256
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SignatureSchemeEcdsaP384
 TlsSignatureSchemeConfiguration
@@ -9990,7 +9990,7 @@ ssl_sig_ecdsa_secp384r1_sha384
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SignatureSchemeEcdsaP521
 TlsSignatureSchemeConfiguration
@@ -10042,7 +10042,7 @@ ssl_sig_ecdsa_secp521r1_sha512
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SignatureSchemeEcdsaSha1
 TlsSignatureSchemeConfiguration
