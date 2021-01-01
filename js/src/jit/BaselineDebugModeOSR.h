@@ -39,7 +39,11 @@ js
 namespace
 jit
 {
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 RecompileOnStackBaselineScriptsForDebugMode
 (

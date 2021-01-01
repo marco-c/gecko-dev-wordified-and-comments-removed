@@ -45,7 +45,11 @@ graph
 )
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 analyze
 (

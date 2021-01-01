@@ -39,7 +39,11 @@ WarpBuilder
 class
 WarpCacheIR
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 TranspileCacheIRToMIR
 (

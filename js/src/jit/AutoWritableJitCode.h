@@ -188,7 +188,11 @@ bufferSize
 )
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 makeWritable
 (

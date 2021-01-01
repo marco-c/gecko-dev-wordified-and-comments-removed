@@ -512,7 +512,11 @@ false
 endif
 }
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 InitializeJit
 (

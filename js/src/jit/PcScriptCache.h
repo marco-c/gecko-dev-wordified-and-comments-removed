@@ -126,7 +126,11 @@ gcNumber
 gcNumber
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 get
 (

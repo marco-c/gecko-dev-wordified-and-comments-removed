@@ -366,7 +366,11 @@ uint8_t
 stubDataCopy
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 replaceNurseryPointers
 (

@@ -524,7 +524,11 @@ enclosingEnvironment
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 initFunctionEnvironmentObjects
 (
@@ -533,7 +537,11 @@ JSContext
 cx
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 pushVarEnvironment
 (

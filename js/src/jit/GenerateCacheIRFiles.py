@@ -2023,7 +2023,11 @@ readexpr
 code
 =
 "
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 {
 }
@@ -2054,7 +2058,11 @@ code
 +
 =
 "
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 {
 }
