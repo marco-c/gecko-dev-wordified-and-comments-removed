@@ -5944,6 +5944,17 @@ label
 ;
 inline
 void
+branchIfBigIntIsNonNegative
+(
+Register
+bigInt
+Label
+*
+label
+)
+;
+inline
+void
 branchTestFunctionFlags
 (
 Register
@@ -16228,8 +16239,6 @@ CharEncoding
 encoding
 )
 ;
-private
-:
 void
 loadBigIntDigits
 (
@@ -16239,8 +16248,6 @@ Register
 digits
 )
 ;
-public
-:
 void
 loadBigInt64
 (

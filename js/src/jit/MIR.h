@@ -14339,6 +14339,7 @@ Compare_String
 Compare_Symbol
 Compare_StrictString
 Compare_Object
+Compare_BigInt
 Compare_RefOrNull
 Compare_Unknown
 }
