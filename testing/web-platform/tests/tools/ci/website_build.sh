@@ -133,6 +133,7 @@ json
 sys
 ;
 print
+(
 json
 .
 load
@@ -155,6 +156,7 @@ get
 "
 \
 "
+)
 )
 "
 }
