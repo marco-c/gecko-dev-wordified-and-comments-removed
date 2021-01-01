@@ -1381,6 +1381,9 @@ jsm
 "
 FormAutofillHeuristics
 "
+"
+LabelUtils
+"
 ]
 "
 FormAutofillStorage
@@ -1419,9 +1422,6 @@ FormAutofillUtils
 "
 "
 AddressDataLoader
-"
-"
-LabelUtils
 "
 ]
 "
