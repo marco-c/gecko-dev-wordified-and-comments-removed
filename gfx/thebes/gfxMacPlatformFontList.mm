@@ -7209,6 +7209,9 @@ gfxFontStyle
 aFontStyle
 )
 {
+nsAutoreleasePool
+localPool
+;
 NSFont
 *
 font
