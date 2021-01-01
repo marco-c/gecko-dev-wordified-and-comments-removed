@@ -4625,13 +4625,6 @@ source
 null
 ;
 let
-type
-=
-"
-unknown
-"
-;
-let
 engine
 =
 null
@@ -4650,12 +4643,6 @@ instanceof
 KeyboardEvent
 )
 {
-type
-=
-"
-key
-"
-;
 if
 (
 this
@@ -4687,12 +4674,6 @@ instanceof
 MouseEvent
 )
 {
-type
-=
-"
-mouse
-"
-;
 if
 (
 target
@@ -4823,7 +4804,6 @@ gBrowser
 engine
 source
 {
-type
 isOneOff
 :
 true
