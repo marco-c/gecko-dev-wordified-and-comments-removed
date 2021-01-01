@@ -182,13 +182,6 @@ aTabIndex
 override
 ;
 virtual
-IMEState
-GetDesiredIMEState
-(
-)
-override
-;
-virtual
 bool
 ParseAttribute
 (

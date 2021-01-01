@@ -218,13 +218,6 @@ aTabIndex
 )
 override
 ;
-virtual
-IMEState
-GetDesiredIMEState
-(
-)
-override
-;
 NS_IMETHOD
 Reset
 (
