@@ -1479,8 +1479,12 @@ DefineTypedArrayElement
 JSContext
 *
 cx
-HandleObject
-arr
+Handle
+<
+TypedArrayObject
+*
+>
+obj
 uint64_t
 index
 Handle
