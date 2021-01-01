@@ -102,6 +102,13 @@ Cocoa
 h
 >
 #
+include
+"
+jsapi
+.
+h
+"
+#
 define
 NS_CRASHREPORTER_CONTRACTID
 "
