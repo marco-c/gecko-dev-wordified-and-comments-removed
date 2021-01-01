@@ -1595,21 +1595,32 @@ except
 IOError
 :
                 
+msg
+=
+"
+Lost
+webdriver
+connection
+"
+                
 self
 .
 logger
 .
 error
 (
-"
-Lost
-webdriver
-connection
-"
+msg
 )
                 
 return
-Stop
+(
+"
+INTERNAL
+-
+ERROR
+"
+msg
+)
         
 return
 ServoWebDriverRun

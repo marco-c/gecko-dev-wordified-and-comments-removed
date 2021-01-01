@@ -115,12 +115,6 @@ PrintProtocolPart
 from
 .
 .
-testrunner
-import
-Stop
-from
-.
-.
 webdriver_server
 import
 GeckoDriverServer
