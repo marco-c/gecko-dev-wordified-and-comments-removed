@@ -1303,13 +1303,10 @@ aFontList
 )
 {
 }
+virtual
 nsresult
 UpdateFontList
 (
-bool
-aFullRebuild
-=
-true
 )
 ;
 virtual
