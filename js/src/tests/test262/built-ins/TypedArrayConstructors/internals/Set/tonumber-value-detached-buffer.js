@@ -47,7 +47,7 @@ assert
 sameValue
 (
 result
-false
+true
 )
 ;
 assert

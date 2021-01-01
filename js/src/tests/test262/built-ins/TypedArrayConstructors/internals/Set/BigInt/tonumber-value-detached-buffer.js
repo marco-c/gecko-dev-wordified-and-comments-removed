@@ -15,6 +15,11 @@ TA
 )
 ;
 let
+isDetached
+=
+false
+;
+let
 result
 =
 Reflect
@@ -35,6 +40,10 @@ ta
 buffer
 )
 ;
+isDetached
+=
+true
+;
 return
 42n
 ;
@@ -47,7 +56,7 @@ assert
 sameValue
 (
 result
-false
+true
 )
 ;
 assert
@@ -59,6 +68,14 @@ ta
 0
 ]
 undefined
+)
+;
+assert
+.
+sameValue
+(
+isDetached
+true
 )
 ;
 }

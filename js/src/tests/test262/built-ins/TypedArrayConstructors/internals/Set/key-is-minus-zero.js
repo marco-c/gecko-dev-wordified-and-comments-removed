@@ -31,7 +31,7 @@ sample
 "
 1
 )
-false
+true
 '
 Reflect
 .
@@ -46,7 +46,7 @@ sample
 )
 must
 return
-false
+true
 '
 )
 ;

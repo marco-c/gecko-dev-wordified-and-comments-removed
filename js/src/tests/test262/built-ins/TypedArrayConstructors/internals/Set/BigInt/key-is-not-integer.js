@@ -32,7 +32,7 @@ sample
 '
 1n
 )
-false
+true
 '
 Reflect
 .
@@ -56,7 +56,7 @@ TA
 )
 must
 return
-false
+true
 '
 )
 ;
@@ -76,7 +76,7 @@ sample
 '
 1n
 )
-false
+true
 '
 Reflect
 .
@@ -100,7 +100,7 @@ TA
 )
 must
 return
-false
+true
 '
 )
 ;
