@@ -52,6 +52,13 @@ important
 }
 media
 print
+(
+prefers
+-
+reduced
+-
+motion
+)
 {
 .
 innerDiv
