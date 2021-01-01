@@ -600,15 +600,6 @@ shravanrn
 nix
 /
 "
-branch
-=
-"
-r0
-.
-13
-.
-1
-"
 rev
 =
 "
@@ -637,11 +628,6 @@ branch
 =
 "
 wgpu4
-"
-rev
-=
-"
-e9eff10f964957e7a001c5f712effe17ce09aa99
 "
 }
 #
