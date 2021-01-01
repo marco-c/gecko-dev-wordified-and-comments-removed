@@ -147,7 +147,7 @@ handle
 ;
 :
 :
-SendMessage
+SendMessageW
 (
 handle
 WM_COPYDATA
