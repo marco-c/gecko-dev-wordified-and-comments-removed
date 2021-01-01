@@ -4748,16 +4748,6 @@ alias
 ;
 if
 (
-UrlbarPrefs
-.
-get
-(
-"
-update2
-"
-)
-&
-&
 !
 UrlbarTokenizer
 .
