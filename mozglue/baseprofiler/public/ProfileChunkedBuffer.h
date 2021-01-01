@@ -6305,6 +6305,10 @@ aBlockCount
 }
 else
 {
+currentChunkFilled
+=
+true
+;
 if
 (
 ProfileBufferChunk
@@ -6414,10 +6418,6 @@ RemainingBytes
 =
 0
 )
-;
-currentChunkFilled
-=
-true
 ;
 nextChunkInitialized
 =
