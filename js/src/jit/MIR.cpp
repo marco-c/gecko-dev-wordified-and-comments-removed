@@ -17583,9 +17583,6 @@ Object
 case
 Compare_Unknown
 :
-case
-Compare_Bitwise
-:
 return
 MIRType
 :
@@ -21541,12 +21538,6 @@ compareType_
 =
 =
 Compare_Object
-|
-|
-compareType_
-=
-=
-Compare_Bitwise
 |
 |
 compareType_

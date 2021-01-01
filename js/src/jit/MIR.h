@@ -14342,7 +14342,6 @@ Compare_Symbol
 Compare_StrictString
 Compare_Object
 Compare_RefOrNull
-Compare_Bitwise
 Compare_Unknown
 }
 ;
@@ -14788,7 +14787,7 @@ MOZ_ASSERT
 compareType_
 <
 =
-Compare_Bitwise
+Compare_RefOrNull
 )
 ;
 return
