@@ -54,7 +54,6 @@ u16
 >
 f32
 {
-return
 (
 x
 as
@@ -68,7 +67,6 @@ f64
 )
 as
 f32
-;
 }
 #
 [
@@ -93,10 +91,8 @@ a
 1
 .
 {
-return
 1
 .
-;
 }
 else
 if
@@ -106,16 +102,12 @@ a
 0
 .
 {
-return
 a
-;
 }
 else
 {
-return
 0
 .
-;
 }
 }
 pub
@@ -139,9 +131,8 @@ u16
 f32
 {
 input_value
-=
-input_value
 *
+=
 (
 table
 .
@@ -235,7 +226,6 @@ input_value
 as
 f32
 ;
-return
 value
 *
 (
@@ -247,7 +237,6 @@ value
 .
 0
 )
-;
 }
 #
 [
@@ -365,11 +354,9 @@ interp
 /
 65535
 ;
-return
 value
 as
 u16
-;
 }
 fn
 lut_interp_linear_precache_output
@@ -509,9 +496,8 @@ interp
 )
 ;
 value
-=
-value
 +
+=
 (
 PRECACHE_OUTPUT_MAX
 *
@@ -528,9 +514,8 @@ libc
 c_uint
 ;
 value
-=
-value
 /
+=
 (
 PRECACHE_OUTPUT_MAX
 *
@@ -544,11 +529,9 @@ libc
 :
 c_uint
 ;
-return
 value
 as
 u8
-;
 }
 pub
 fn
@@ -571,9 +554,8 @@ f32
 f32
 {
 value
-=
-value
 *
+=
 (
 table
 .
@@ -664,9 +646,7 @@ f64
 as
 f32
 ;
-return
 value
-;
 }
 fn
 compute_curve_gamma_table_type1
@@ -1423,12 +1403,10 @@ data
 )
 }
 }
-return
 Some
 (
 gamma_table
 )
-;
 }
 pub
 fn
@@ -1646,9 +1624,7 @@ invalid
 =
 false
 ;
-return
 result
-;
 }
 #
 [
@@ -2216,7 +2192,6 @@ return
 0xffffu16
 ;
 }
-return
 (
 f
 +
@@ -2230,7 +2205,6 @@ floor
 )
 as
 uint16_fract_t
-;
 }
 fn
 invert_lut
@@ -2330,9 +2304,7 @@ table
 )
 ;
 }
-return
 output
-;
 }
 fn
 compute_precache_pow
@@ -2400,9 +2372,8 @@ as
 u8
 ;
 v
-=
-v
 +
+=
 1
 }
 }
@@ -2458,9 +2429,8 @@ table
 )
 ;
 v
-=
-v
 +
+=
 1
 }
 }
@@ -2520,9 +2490,8 @@ as
 u8
 ;
 v
-=
-v
 +
+=
 1
 }
 }
@@ -2648,9 +2617,8 @@ as
 u16
 ;
 i
-=
-i
 +
+=
 1
 }
 if
@@ -2768,9 +2736,7 @@ inverted
 }
 }
 }
-return
 true
-;
 }
 fn
 build_linear_table
@@ -2859,9 +2825,7 @@ input
 )
 ;
 }
-return
 output
-;
 }
 fn
 build_pow_table
@@ -2965,9 +2929,7 @@ result
 )
 ;
 }
-return
 output
-;
 }
 pub
 (
@@ -3061,9 +3023,7 @@ u16
 )
 ;
 }
-return
 output
-;
 }
 curveType
 :
@@ -3075,7 +3035,6 @@ data
 =
 >
 {
-return
 match
 data
 .
@@ -3147,7 +3106,6 @@ i32
 )
 }
 }
-;
 }
 }
 }
