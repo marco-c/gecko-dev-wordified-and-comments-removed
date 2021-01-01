@@ -82,7 +82,10 @@ virtualenv_modules
 :
 [
 "
-pywin32
+pypiwin32
+=
+=
+219
 "
 "
 raptor
