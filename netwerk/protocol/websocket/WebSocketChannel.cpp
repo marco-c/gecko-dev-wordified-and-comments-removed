@@ -4019,6 +4019,9 @@ inflated
 0
 )
 {
+if
+(
+!
 _retval
 .
 Append
@@ -4032,8 +4035,14 @@ char
 mBuffer
 )
 inflated
+fallible
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 }
 mInflater
 .
