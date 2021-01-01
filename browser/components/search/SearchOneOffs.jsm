@@ -995,6 +995,12 @@ changed
 true
 )
 ;
+this
+.
+disableOneOffsHorizontalKeyNavigation
+=
+false
+;
 }
 addEventListener
 (
