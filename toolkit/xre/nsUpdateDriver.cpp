@@ -2471,7 +2471,6 @@ argv
 return
 ;
 }
-else
 if
 (
 *
