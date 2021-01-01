@@ -1025,13 +1025,6 @@ aLength
 )
 ;
 async
-SetCandidateWindow
-(
-CandidateWindowPosition
-aPosition
-)
-;
-async
 RequestCommitOrCancel
 (
 bool

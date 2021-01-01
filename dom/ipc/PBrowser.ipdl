@@ -1694,13 +1694,6 @@ aFocused
 )
 ;
 async
-SetCandidateWindowForPlugin
-(
-CandidateWindowPosition
-aPosition
-)
-;
-async
 EnableIMEForPlugin
 (
 bool
