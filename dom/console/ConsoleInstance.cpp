@@ -88,6 +88,9 @@ const
 nsAString
 &
 aPref
+const
+ConsoleLogLevel
+aLevel
 )
 {
 if
@@ -199,10 +202,7 @@ true
 )
 ;
 return
-ConsoleLogLevel
-:
-:
-All
+aLevel
 ;
 }
 int
@@ -277,10 +277,7 @@ true
 )
 ;
 return
-ConsoleLogLevel
-:
-:
-All
+aLevel
 ;
 }
 MOZ_ASSERT
@@ -503,6 +500,10 @@ PrefToValue
 aOptions
 .
 mMaxLogLevelPref
+mConsole
+-
+>
+mMaxLogLevel
 )
 ;
 }
