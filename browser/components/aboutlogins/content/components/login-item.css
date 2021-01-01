@@ -1459,6 +1459,12 @@ currentColor
 !
 important
 ;
+color
+:
+inherit
+!
+important
+;
 opacity
 :
 var
