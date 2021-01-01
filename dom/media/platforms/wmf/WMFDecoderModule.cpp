@@ -247,7 +247,7 @@ MOZ_FORMAT_PRINTF
 2
 3
 )
-WmfDeocderModuleMarkerAndLog
+WmfDecoderModuleMarkerAndLog
 (
 const
 ProfilerString8View
@@ -680,7 +680,7 @@ Crashed
 )
 )
 {
-WmfDeocderModuleMarkerAndLog
+WmfDecoderModuleMarkerAndLog
 (
 "
 WMFInit
@@ -705,7 +705,7 @@ CanCreateMFTDecoder
 CLSID_WebmMfVpxDec
 )
 ;
-WmfDeocderModuleMarkerAndLog
+WmfDecoderModuleMarkerAndLog
 (
 "
 WMFInit
@@ -734,7 +734,7 @@ false
 }
 else
 {
-WmfDeocderModuleMarkerAndLog
+WmfDecoderModuleMarkerAndLog
 (
 "
 WMFInit
@@ -759,7 +759,7 @@ crash
 ;
 }
 }
-WmfDeocderModuleMarkerAndLog
+WmfDecoderModuleMarkerAndLog
 (
 "
 WMFInit
@@ -972,7 +972,7 @@ mError
 result
 ;
 }
-WmfDeocderModuleMarkerAndLog
+WmfDecoderModuleMarkerAndLog
 (
 "
 WMFVDecoderCreation
@@ -1023,7 +1023,7 @@ return
 nullptr
 ;
 }
-WmfDeocderModuleMarkerAndLog
+WmfDecoderModuleMarkerAndLog
 (
 "
 WMFVDecoderCreation
@@ -1123,7 +1123,7 @@ Init
 )
 )
 {
-WmfDeocderModuleMarkerAndLog
+WmfDecoderModuleMarkerAndLog
 (
 "
 WMFADecoderCreation
@@ -1160,7 +1160,7 @@ return
 nullptr
 ;
 }
-WmfDeocderModuleMarkerAndLog
+WmfDecoderModuleMarkerAndLog
 (
 "
 WMFADecoderCreation
