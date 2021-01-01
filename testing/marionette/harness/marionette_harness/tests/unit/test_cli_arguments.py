@@ -98,46 +98,6 @@ self
 )
 :
         
-with
-self
-.
-marionette
-.
-using_context
-(
-self
-.
-marionette
-.
-CONTEXT_CHROME
-)
-:
-            
-is_nightly_build
-=
-self
-.
-marionette
-.
-execute_script
-(
-                
-"
-"
-"
-                
-return
-AppConstants
-.
-NIGHTLY_BUILD
-;
-            
-"
-"
-"
-            
-)
-        
 debugger_address
 =
 self
@@ -219,10 +179,6 @@ debuggerAddress
         
 )
         
-if
-is_nightly_build
-:
-            
 self
 .
 assertEqual
@@ -234,7 +190,7 @@ localhost
 9222
 "
 )
-            
+        
 result
 =
 requests
@@ -261,7 +217,7 @@ format
 debugger_address
 )
 )
-            
+        
 self
 .
 assertTrue
@@ -269,16 +225,6 @@ assertTrue
 result
 .
 ok
-)
-        
-else
-:
-            
-self
-.
-assertIsNone
-(
-debugger_address
 )
     
 def
