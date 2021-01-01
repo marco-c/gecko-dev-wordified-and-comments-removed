@@ -2157,6 +2157,9 @@ r
 ;
 }
 pub
+(
+crate
+)
 fn
 set_rgb_colorants
 (
@@ -2402,6 +2405,9 @@ true
 ;
 }
 pub
+(
+crate
+)
 fn
 get_rgb_colorants
 (
@@ -11997,7 +12003,6 @@ length
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -12052,7 +12057,6 @@ false
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -12079,7 +12083,6 @@ Relaxed
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
