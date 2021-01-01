@@ -4890,6 +4890,7 @@ remote_default
 (
 target
 project
+milestone
 )
 :
 if
@@ -4911,6 +4912,10 @@ project
 "
 browser
 "
+and
+milestone
+.
+is_nightly
 option
 (
 "
