@@ -124,6 +124,9 @@ GetHardwareVsync
 if
 (
 mObservingVsync
+&
+&
+mVsyncDispatcher
 )
 {
 mVsyncDispatcher
@@ -310,6 +313,11 @@ if
 mObservingVsync
 )
 {
+if
+(
+mVsyncDispatcher
+)
+{
 mVsyncDispatcher
 -
 >
@@ -318,6 +326,7 @@ AddChildRefreshTimer
 this
 )
 ;
+}
 mObservingVsync
 =
 true
@@ -358,6 +367,11 @@ if
 mObservingVsync
 )
 {
+if
+(
+mVsyncDispatcher
+)
+{
 mVsyncDispatcher
 -
 >
@@ -366,6 +380,7 @@ RemoveChildRefreshTimer
 this
 )
 ;
+}
 mObservingVsync
 =
 false
@@ -406,6 +421,9 @@ AssertIsOnInitialThread
 if
 (
 mObservingVsync
+&
+&
+mVsyncDispatcher
 )
 {
 mVsyncDispatcher
