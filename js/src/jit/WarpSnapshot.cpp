@@ -128,6 +128,8 @@ const
 WarpBailoutInfo
 &
 bailoutInfo
+bool
+needsFinalWarmUpCount
 )
 :
 scriptSnapshots_
@@ -173,6 +175,15 @@ nurseryObjects_
 alloc
 )
 {
+#
+ifdef
+JS_CACHEIR_SPEW
+needsFinalWarmUpCount_
+=
+needsFinalWarmUpCount
+;
+#
+endif
 }
 WarpScriptSnapshot
 :
