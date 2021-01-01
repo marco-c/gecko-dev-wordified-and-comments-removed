@@ -3486,6 +3486,13 @@ end
 )
 ;
 }
+mUnicodeRange
+-
+>
+Compact
+(
+)
+;
 }
 else
 {
