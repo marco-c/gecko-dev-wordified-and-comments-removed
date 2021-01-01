@@ -56,11 +56,9 @@ Content
 Type
 "
 "
-application
+image
 /
-octet
--
-stream
+png
 "
 )
 ;
