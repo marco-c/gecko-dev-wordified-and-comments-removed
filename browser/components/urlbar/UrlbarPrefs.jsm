@@ -471,14 +471,6 @@ true
 "
 update2
 .
-disableOneOffsHorizontalKeyNavigation
-"
-true
-]
-[
-"
-update2
-.
 emptySearchBehavior
 "
 0
