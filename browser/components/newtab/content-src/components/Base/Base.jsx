@@ -322,16 +322,6 @@ onClick
 >
 (
 <
-div
-className
-=
-"
-button
--
-wrapper
-"
->
-<
 button
 className
 =
@@ -361,10 +351,6 @@ button
 label
 "
 /
->
-<
-/
-div
 >
 )
 ;
