@@ -2218,6 +2218,10 @@ webrender
 &
 &
 gtkWidget
+&
+&
+!
+swgl
 1
 -
 1
@@ -2807,7 +2811,7 @@ gtkWidget
 28
 -
 28
-56
+30
 -
 60
 )
@@ -2885,7 +2889,7 @@ gtkWidget
 28
 -
 28
-56
+30
 -
 60
 )
@@ -3287,6 +3291,10 @@ webrender
 &
 &
 gtkWidget
+&
+&
+!
+swgl
 4
 -
 5
