@@ -2185,6 +2185,11 @@ eventSource
 value
 :
 {
+menu_source
+:
+"
+ABOUT_PREFERENCES
+"
 status
 :
 true

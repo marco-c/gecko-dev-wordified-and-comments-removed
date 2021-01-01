@@ -245,6 +245,15 @@ props
 .
 mayHaveSponsoredTopSites
 }
+dispatch
+=
+{
+this
+.
+props
+.
+dispatch
+}
 /
 >
 <

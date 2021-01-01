@@ -1848,6 +1848,15 @@ mayHaveSponsoredTopSites
 {
 mayHaveSponsoredTopSites
 }
+dispatch
+=
+{
+this
+.
+props
+.
+dispatch
+}
 /
 >
 <
