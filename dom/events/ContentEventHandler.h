@@ -1028,14 +1028,6 @@ GetFocusedContent
 (
 )
 ;
-bool
-IsPlugin
-(
-nsIContent
-*
-aContent
-)
-;
 nsresult
 QueryContentRect
 (
