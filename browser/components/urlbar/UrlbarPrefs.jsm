@@ -475,14 +475,6 @@ emptySearchBehavior
 "
 0
 ]
-[
-"
-update2
-.
-oneOffsRefresh
-"
-true
-]
 ]
 )
 ;
