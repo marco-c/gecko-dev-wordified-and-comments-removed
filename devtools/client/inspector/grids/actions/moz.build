@@ -1,6 +1,13 @@
 DevToolsModules
 (
 "
+grid
+-
+highlighter
+.
+js
+"
+"
 grids
 .
 js
