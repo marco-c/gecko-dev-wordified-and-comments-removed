@@ -10071,12 +10071,6 @@ as
 usize
 ]
 ;
-if
-true
-&
-&
-true
-{
 for
 x
 in
@@ -10284,7 +10278,6 @@ else
 return
 None
 ;
-}
 }
 return
 Some

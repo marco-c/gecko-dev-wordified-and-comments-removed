@@ -6277,9 +6277,6 @@ is_none
 (
 )
 {
-if
-true
-{
 transform
 .
 as_mut
@@ -6456,9 +6453,6 @@ pow
 *
 3
 ;
-if
-true
-{
 assert_eq
 !
 (
@@ -6519,9 +6513,6 @@ num_clut_grid_points
 as
 u16
 ;
-if
-true
-{
 transform
 .
 as_mut
@@ -6704,9 +6695,6 @@ next_transform
 return
 first_transform
 ;
-}
-}
-}
 }
 }
 }
