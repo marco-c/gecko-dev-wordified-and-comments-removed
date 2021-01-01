@@ -367,6 +367,8 @@ src_bytes_per_pixel
 }
 qcms_transform_data
 (
+&
+*
 transform
 src
 .
