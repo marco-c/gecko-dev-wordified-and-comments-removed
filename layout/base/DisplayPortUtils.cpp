@@ -4804,7 +4804,7 @@ frame
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetParentOrPlaceholderForCrossDoc
 (
 frame
 )

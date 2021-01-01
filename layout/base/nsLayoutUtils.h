@@ -1524,6 +1524,9 @@ SCROLLABLE_FIXEDPOS_FINDS_ROOT
 SCROLLABLE_STOP_AT_PAGE
 =
 0x20
+SCROLLABLE_FOLLOW_OOF_TO_PLACEHOLDER
+=
+0x40
 }
 ;
 static
@@ -2930,6 +2933,7 @@ nsIFrame
 *
 GetParentOrPlaceholderForCrossDoc
 (
+const
 nsIFrame
 *
 aFrame
