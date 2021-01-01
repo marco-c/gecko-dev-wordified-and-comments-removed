@@ -9220,8 +9220,6 @@ gfxPlatform
 :
 UpdateFontList
 (
-bool
-aFullRebuild
 )
 {
 gfxPlatformFontList
@@ -9234,7 +9232,6 @@ PlatformFontList
 >
 UpdateFontList
 (
-aFullRebuild
 )
 ;
 return
