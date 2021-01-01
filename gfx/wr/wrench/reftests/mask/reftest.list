@@ -1,3 +1,8 @@
+fuzzy
+(
+1
+10
+)
 =
 =
 mask
@@ -8,6 +13,11 @@ mask
 ref
 .
 yaml
+fuzzy
+(
+1
+10
+)
 =
 =
 mask
@@ -20,6 +30,11 @@ mask
 ref
 .
 yaml
+fuzzy
+(
+1
+10
+)
 =
 =
 nested

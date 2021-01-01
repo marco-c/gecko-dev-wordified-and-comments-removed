@@ -124,6 +124,11 @@ patch
 png
 =
 =
+fuzzy
+(
+1
+10
+)
 border
 -
 radii
@@ -651,6 +656,11 @@ dotted
 border
 .
 png
+fuzzy
+(
+1
+30
+)
 =
 =
 discontinued
@@ -709,7 +719,7 @@ yaml
 fuzzy
 (
 1
-16
+90
 )
 =
 =
