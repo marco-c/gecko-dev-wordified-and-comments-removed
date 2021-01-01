@@ -697,6 +697,9 @@ AsRenderDXGITextureHost
 )
 )
 {
+if
+(
+!
 host
 -
 >
@@ -709,7 +712,11 @@ GetDevice
 (
 )
 )
+)
+{
+continue
 ;
+}
 layer
 =
 new
@@ -894,6 +901,9 @@ AsRenderDXGIYCbCrTextureHost
 )
 )
 {
+if
+(
+!
 host
 -
 >
@@ -906,7 +916,11 @@ GetDevice
 (
 )
 )
+)
+{
+continue
 ;
+}
 layer
 =
 new
