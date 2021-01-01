@@ -4463,7 +4463,7 @@ texture2D
 texture
 -
 >
-GetD3D11Texture2D
+GetD3D11Texture2DWithGL
 (
 )
 ;
