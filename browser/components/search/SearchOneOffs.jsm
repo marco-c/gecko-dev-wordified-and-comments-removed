@@ -995,12 +995,6 @@ changed
 true
 )
 ;
-this
-.
-disableOneOffsHorizontalKeyNavigation
-=
-false
-;
 }
 addEventListener
 (
@@ -3505,8 +3499,6 @@ _whereToOpen
 (
 aEvent
 aForceNewTab
-=
-false
 )
 {
 let

@@ -460,6 +460,16 @@ input
 let
 resultIndex
 =
+UrlbarPrefs
+.
+get
+(
+"
+update2
+"
+)
+&
+&
 context
 .
 searchMode
