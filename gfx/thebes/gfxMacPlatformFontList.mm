@@ -4580,6 +4580,9 @@ InitSharedFontListForPlatform
 (
 )
 {
+nsAutoreleasePool
+localPool
+;
 InitSystemFontNames
 (
 )
