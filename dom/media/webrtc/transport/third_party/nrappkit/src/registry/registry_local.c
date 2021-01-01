@@ -814,8 +814,7 @@ static
 int
 nr_reg_local_iter
 (
-char
-*
+NR_registry
 prefix
 int
 (
@@ -5255,8 +5254,7 @@ _status
 int
 nr_reg_local_get_child_count
 (
-char
-*
+NR_registry
 parent
 size_t
 *

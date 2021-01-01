@@ -794,8 +794,7 @@ name
 int
 NR_reg_get_child_count
 (
-char
-*
+NR_registry
 parent
 unsigned
 int
@@ -838,8 +837,7 @@ count
 int
 NR_reg_get_child_registry
 (
-char
-*
+NR_registry
 parent
 unsigned
 int
