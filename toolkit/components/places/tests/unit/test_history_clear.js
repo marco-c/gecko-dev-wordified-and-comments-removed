@@ -342,7 +342,9 @@ PlacesTestUtils
 waitForNotification
 (
 "
-onClearHistory
+history
+-
+cleared
 "
 (
 )
@@ -350,7 +352,7 @@ onClearHistory
 >
 true
 "
-history
+places
 "
 )
 ;

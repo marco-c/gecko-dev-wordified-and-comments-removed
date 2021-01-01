@@ -2644,7 +2644,7 @@ notify
 (
 observers
 "
-onClearHistory
+onManyFrecenciesChanged
 "
 )
 ;
@@ -2658,14 +2658,6 @@ PlacesHistoryCleared
 (
 )
 ]
-)
-;
-notify
-(
-observers
-"
-onManyFrecenciesChanged
-"
 )
 ;
 await
