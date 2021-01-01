@@ -1197,6 +1197,17 @@ isPrivate
 |
 !
 entry
+|
+|
+entry
+.
+value
+.
+length
+>
+SearchSuggestionController
+.
+SEARCH_HISTORY_MAX_VALUE_LENGTH
 )
 {
 return
