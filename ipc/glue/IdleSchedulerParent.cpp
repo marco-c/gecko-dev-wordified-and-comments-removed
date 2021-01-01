@@ -811,14 +811,14 @@ IsDoingIdleTask
 )
 )
 ;
-if
+MOZ_ASSERT
 (
 mCurrentRequestId
 =
 =
 aId
 )
-{
+;
 if
 (
 IsWaitingForIdle
@@ -837,7 +837,6 @@ TimeDuration
 (
 )
 ;
-}
 Schedule
 (
 nullptr
