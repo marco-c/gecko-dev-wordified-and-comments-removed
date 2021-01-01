@@ -30,8 +30,6 @@ expected
     
 geckoinstance
     
-gestures
-    
 keys
     
 localization
@@ -52,13 +50,6 @@ marionette_driver
 date_time_value
 import
 DateTimeValue
-from
-marionette_driver
-.
-gestures
-import
-smooth_scroll
-pinch
 from
 marionette_driver
 .
