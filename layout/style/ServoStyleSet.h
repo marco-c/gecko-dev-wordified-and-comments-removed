@@ -664,6 +664,7 @@ ComputedStyle
 >
 ResolveStyleLazily
 (
+const
 dom
 :
 :

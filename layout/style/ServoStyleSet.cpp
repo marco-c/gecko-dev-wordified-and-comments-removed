@@ -5330,6 +5330,7 @@ ServoStyleSet
 :
 ResolveStyleLazily
 (
+const
 Element
 &
 aElement
@@ -5375,6 +5376,7 @@ guard
 this
 )
 ;
+const
 Element
 *
 elementForStyleResolution
