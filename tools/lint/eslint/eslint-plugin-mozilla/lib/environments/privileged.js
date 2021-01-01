@@ -1265,6 +1265,9 @@ false
 PlacesVisit
 :
 false
+PlacesVisitTitle
+:
+false
 PlacesWeakCallbackWrapper
 :
 false

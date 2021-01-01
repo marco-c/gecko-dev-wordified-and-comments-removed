@@ -1067,6 +1067,11 @@ PlacesVisit
 h
 "
 "
+PlacesVisitTitle
+.
+h
+"
+"
 PlacesWeakCallbackWrapper
 .
 h
