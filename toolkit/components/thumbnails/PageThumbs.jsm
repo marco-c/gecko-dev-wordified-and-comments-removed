@@ -2774,11 +2774,6 @@ wipe
 )
 ;
 }
-onTitleChanged
-(
-)
-{
-}
 onBeginUpdateBatch
 (
 )

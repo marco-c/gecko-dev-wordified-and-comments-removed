@@ -284,11 +284,6 @@ onEndUpdateBatch
 )
 {
 }
-onTitleChanged
-(
-)
-{
-}
 onFrecencyChanged
 (
 )

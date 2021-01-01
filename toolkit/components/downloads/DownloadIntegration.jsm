@@ -3961,11 +3961,6 @@ removeFinished
 )
 ;
 }
-onTitleChanged
-(
-)
-{
-}
 onBeginUpdateBatch
 (
 )
