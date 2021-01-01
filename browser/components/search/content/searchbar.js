@@ -1746,7 +1746,7 @@ this
 telemetrySelectedIndex
 ;
 let
-oneOffRecorded
+isOneOff
 =
 false
 ;
@@ -1770,7 +1770,7 @@ selectedIndex
 1
 )
 {
-oneOffRecorded
+isOneOff
 =
 this
 .
@@ -1780,7 +1780,7 @@ popup
 .
 oneOffButtons
 .
-maybeRecordTelemetry
+eventTargetIsAOneOff
 (
 aEvent
 )
@@ -1855,7 +1855,7 @@ textValue
 aWhere
 aEngine
 aParams
-oneOffRecorded
+isOneOff
 )
 ;
 }
@@ -1865,7 +1865,9 @@ aData
 aWhere
 aEngine
 aParams
-aOneOff
+isOneOff
+=
+false
 )
 {
 let
@@ -1986,12 +1988,10 @@ details
 =
 {
 isOneOff
-:
-aOneOff
 isSuggestion
 :
 !
-aOneOff
+isOneOff
 &
 &
 this

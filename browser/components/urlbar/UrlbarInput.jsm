@@ -8443,7 +8443,7 @@ view
 .
 oneOffSearchButtons
 .
-maybeRecordTelemetry
+eventTargetIsAOneOff
 (
 event
 )
