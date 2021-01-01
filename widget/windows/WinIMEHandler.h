@@ -343,10 +343,6 @@ sForceDisableCurrentIMM_IME
 ;
 static
 bool
-sPluginHasFocus
-;
-static
-bool
 sNativeCaretIsCreated
 ;
 static
@@ -408,13 +404,7 @@ IsTSFAvailable
 )
 {
 return
-(
 sIsInTSFMode
-&
-&
-!
-sPluginHasFocus
-)
 ;
 }
 static
