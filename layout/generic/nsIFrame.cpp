@@ -28817,6 +28817,10 @@ AsRatio
 .
 ToLayoutRatio
 (
+UseBoxSizing
+:
+:
+Yes
 )
 ;
 }
@@ -28854,6 +28858,10 @@ AsRatio
 .
 ToLayoutRatio
 (
+UseBoxSizing
+:
+:
+No
 )
 ;
 }

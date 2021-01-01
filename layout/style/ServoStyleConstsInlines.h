@@ -5692,6 +5692,8 @@ StyleNonNegativeNumber
 :
 ToLayoutRatio
 (
+UseBoxSizing
+aUseBoxSizing
 )
 const
 {
@@ -5703,6 +5705,7 @@ FromSize
 (
 _0
 _1
+aUseBoxSizing
 )
 ;
 }
@@ -5732,6 +5735,17 @@ AsRatio
 .
 ToLayoutRatio
 (
+auto_
+?
+UseBoxSizing
+:
+:
+No
+:
+UseBoxSizing
+:
+:
+Yes
 )
 :
 AspectRatio
