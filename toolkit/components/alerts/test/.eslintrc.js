@@ -20,6 +20,15 @@ mochitest
 -
 test
 "
+"
+plugin
+:
+mozilla
+/
+browser
+-
+test
+"
 ]
 }
 ;

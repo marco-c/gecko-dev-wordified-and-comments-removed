@@ -1601,13 +1601,6 @@ override
 *
 aPriority
 =
-mReadyToDelete
-?
-nsIRunnablePriority
-:
-:
-PRIORITY_INPUT_HIGH
-:
 nsIRunnablePriority
 :
 :
