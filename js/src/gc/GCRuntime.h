@@ -4711,6 +4711,12 @@ ref
 )
 ;
 }
+js
+:
+:
+StringStats
+stringStats
+;
 GCMarker
 marker
 ;
