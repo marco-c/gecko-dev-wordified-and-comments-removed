@@ -849,6 +849,11 @@ SdpMediaSection
 msection
 )
 ;
+uint16_t
+GetNeverUsedExtmapEntry
+(
+)
+;
 nsresult
 SetupIds
 (
@@ -1413,6 +1418,15 @@ vector
 JsepExtmapMediaType
 >
 mRtpExtensions
+;
+std
+:
+:
+set
+<
+uint16_t
+>
+mExtmapEntriesEverUsed
 ;
 UniquePtr
 <

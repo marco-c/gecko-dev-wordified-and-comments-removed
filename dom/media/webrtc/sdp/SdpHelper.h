@@ -583,13 +583,12 @@ ptOutparam
 )
 ;
 void
-AddCommonExtmaps
+NegotiateAndAddExtmaps
 (
 const
 SdpMediaSection
 &
 remoteMsection
-const
 std
 :
 :
