@@ -8,25 +8,21 @@ fixture
 params
 =
 [
-        
 lambda
 spec
 :
 spec
-        
 lambda
 spec
 :
 spec
 (
 )
-    
 ]
     
 ids
 =
 [
-        
 "
 spec
 -
@@ -34,7 +30,6 @@ is
 -
 class
 "
-        
 "
 spec
 -
@@ -42,7 +37,6 @@ is
 -
 instance
 "
-    
 ]
 )
 def

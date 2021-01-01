@@ -1,12 +1,30 @@
-import
-py
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 import
 os
+import
+py
 from
 .
 exceptions
 import
 UsageError
+from
+_pytest
+.
+outcomes
+import
+fail
 def
 exists
 (
@@ -37,7 +55,7 @@ def
 getcfg
 (
 args
-warnfunc
+config
 =
 None
 )
@@ -77,40 +95,19 @@ dict
     
 note
 :
-warnfunc
+config
 is
-an
 optional
-function
+and
 used
+only
 to
-warn
-        
-about
-ini
--
-files
-that
-use
-deprecated
-features
-.
-        
-This
-parameter
-should
-be
-removed
-when
-pytest
-        
-adopts
-standard
-deprecation
+issue
 warnings
+explicitly
 (
 #
-1804
+2891
 )
 .
     
@@ -237,6 +234,9 @@ p
 )
 :
                     
+try
+:
+                        
 iniconfig
 =
 py
@@ -248,7 +248,64 @@ IniConfig
 p
 )
                     
+except
+py
+.
+iniconfig
+.
+ParseError
+as
+exc
+:
+                        
+raise
+UsageError
+(
+str
+(
+exc
+)
+)
+                    
 if
+(
+                        
+inibasename
+=
+=
+"
+setup
+.
+cfg
+"
+                        
+and
+"
+tool
+:
+pytest
+"
+in
+iniconfig
+.
+sections
+                    
+)
+:
+                        
+return
+base
+p
+iniconfig
+[
+"
+tool
+:
+pytest
+"
+]
+                    
+elif
 "
 pytest
 "
@@ -268,15 +325,15 @@ setup
 cfg
 "
 and
-warnfunc
+config
+is
+not
+None
 :
                             
-warnfunc
+fail
 (
                                 
-"
-C1
-"
 CFG_PYTEST_SECTION
 .
 format
@@ -285,6 +342,10 @@ filename
 =
 inibasename
 )
+                                
+pytrace
+=
+False
                             
 )
                         
@@ -294,44 +355,6 @@ p
 iniconfig
 [
 "
-pytest
-"
-]
-                    
-if
-(
-                        
-inibasename
-=
-=
-"
-setup
-.
-cfg
-"
-                        
-and
-"
-tool
-:
-pytest
-"
-in
-iniconfig
-.
-sections
-                    
-)
-:
-                        
-return
-base
-p
-iniconfig
-[
-"
-tool
-:
 pytest
 "
 ]
@@ -617,10 +640,10 @@ determine_setup
 (
 inifile
 args
-warnfunc
+rootdir_cmd_arg
 =
 None
-rootdir_cmd_arg
+config
 =
 None
 )
@@ -710,7 +733,10 @@ section
 pytest
 "
 and
-warnfunc
+config
+is
+not
+None
 :
                     
 from
@@ -720,11 +746,9 @@ deprecated
 import
 CFG_PYTEST_SECTION
                     
-warnfunc
+fail
 (
-"
-C1
-"
+                        
 CFG_PYTEST_SECTION
 .
 format
@@ -736,6 +760,10 @@ str
 inifile
 )
 )
+pytrace
+=
+False
+                    
 )
                 
 break
@@ -748,6 +776,12 @@ inicfg
 =
 None
         
+if
+rootdir_cmd_arg
+is
+None
+:
+            
 rootdir
 =
 get_common_ancestor
@@ -774,19 +808,23 @@ getcfg
 [
 ancestor
 ]
-warnfunc
+config
 =
-warnfunc
+config
 )
         
 if
 rootdir
 is
 None
+and
+rootdir_cmd_arg
+is
+None
 :
             
 for
-rootdir
+possible_rootdir
 in
 ancestor
 .
@@ -799,7 +837,7 @@ True
 :
                 
 if
-rootdir
+possible_rootdir
 .
 join
 (
@@ -815,11 +853,24 @@ exists
 )
 :
                     
+rootdir
+=
+possible_rootdir
+                    
 break
             
 else
 :
                 
+if
+dirs
+!
+=
+[
+ancestor
+]
+:
+                    
 rootdir
 inifile
 inicfg
@@ -827,9 +878,9 @@ inicfg
 getcfg
 (
 dirs
-warnfunc
+config
 =
-warnfunc
+config
 )
                 
 if
@@ -838,11 +889,24 @@ is
 None
 :
                     
-rootdir
+if
+config
+is
+not
+None
+:
+                        
+cwd
 =
-get_common_ancestor
-(
-[
+config
+.
+invocation_dir
+                    
+else
+:
+                        
+cwd
+=
 py
 .
 path
@@ -850,6 +914,13 @@ path
 local
 (
 )
+                    
+rootdir
+=
+get_common_ancestor
+(
+[
+cwd
 ancestor
 ]
 )
@@ -888,7 +959,7 @@ if
 rootdir_cmd_arg
 :
         
-rootdir_abs_path
+rootdir
 =
 py
 .
@@ -908,16 +979,10 @@ rootdir_cmd_arg
         
 if
 not
-os
-.
-path
+rootdir
 .
 isdir
 (
-str
-(
-rootdir_abs_path
-)
 )
 :
             
@@ -948,15 +1013,11 @@ option
 format
 (
                     
-rootdir_abs_path
+rootdir
                 
 )
             
 )
-        
-rootdir
-=
-rootdir_abs_path
     
 return
 rootdir

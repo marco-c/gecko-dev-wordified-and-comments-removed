@@ -121,6 +121,7 @@ writing_plugins
 logging
 reference
 goodpractices
+flaky
 pythonpath
 customize
 example
@@ -132,6 +133,12 @@ completion
 backwards
 -
 compatibility
+deprecations
+py27
+-
+py34
+-
+deprecation
 historical
 -
 notes
@@ -142,6 +149,7 @@ talks
 projects
 faq
 contact
+tidelift
 .
 .
 only

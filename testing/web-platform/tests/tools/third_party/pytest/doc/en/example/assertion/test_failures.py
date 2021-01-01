@@ -1,3 +1,15 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 import
 py
 failure_demo
@@ -21,9 +33,11 @@ py
 )
 pytest_plugins
 =
+(
 "
 pytester
 "
+)
 def
 test_failure_demo_fails_properly
 (
@@ -88,7 +102,7 @@ fnmatch_lines
 [
 "
 *
-42
+44
 failed
 *
 "

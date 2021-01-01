@@ -16,4 +16,5 @@ ZeroDivisionError
 e
 :
         
-pass
+assert
+e

@@ -204,6 +204,7 @@ def
 run
 (
 self
+*
 cmd
 )
 :
@@ -231,13 +232,15 @@ chdir
 (
 )
 return
-py
+subprocess
 .
-process
-.
-cmdexec
+check_output
 (
 cmd
+)
+.
+decode
+(
 )
 and
 the
@@ -276,6 +279,8 @@ run
 (
 "
 ls
+"
+"
 -
 la
 "

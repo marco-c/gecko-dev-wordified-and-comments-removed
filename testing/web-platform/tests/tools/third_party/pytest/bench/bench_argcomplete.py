@@ -1,3 +1,15 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 import
 timeit
 imports
@@ -84,7 +96,6 @@ count
     
 print
 (
-(
 timeit
 .
 timeit
@@ -101,6 +112,5 @@ imports
 number
 =
 count
-)
 )
 )

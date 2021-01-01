@@ -1,19 +1,36 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 import
 os
 import
-six
+platform
 import
 sys
 import
-platform
-import
 traceback
+import
+six
 from
 .
 .
 outcomes
 import
 fail
+from
+.
+.
+outcomes
+import
 TEST_OUTCOME
 def
 cached_eval
@@ -592,6 +609,8 @@ kwargs
                             
 msg
 =
+(
+                                
 "
 you
 need
@@ -601,6 +620,7 @@ reason
 =
 STRING
 "
+                                
 "
 when
 using
@@ -609,6 +629,8 @@ as
 conditions
 .
 "
+                            
+)
                             
 fail
 (

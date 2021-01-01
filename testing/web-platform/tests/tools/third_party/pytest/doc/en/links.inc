@@ -116,6 +116,13 @@ https
 .
 .
 _
+venv
+:
+https
+:
+.
+.
+_
 virtualenv
 :
 https

@@ -1,5 +1,15 @@
-import
-py
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 for
 i
 in
@@ -9,11 +19,7 @@ range
 )
 :
     
-py
-.
-builtin
-.
-exec_
+exec
 (
 "
 def

@@ -414,9 +414,7 @@ are
 involved
 due
 to
-it
-'
-s
+its
 dynamic
 nature
 *

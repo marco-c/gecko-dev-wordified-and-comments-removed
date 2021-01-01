@@ -91,7 +91,14 @@ ref
 installation
 type
 :
+.
+.
+code
+-
+block
 :
+:
+bash
 python
 setup
 .

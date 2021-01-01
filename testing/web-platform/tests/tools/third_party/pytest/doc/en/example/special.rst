@@ -371,7 +371,14 @@ without
 output
 capturing
 :
+.
+.
+code
+-
+block
 :
+:
+pytest
 pytest
 -
 q

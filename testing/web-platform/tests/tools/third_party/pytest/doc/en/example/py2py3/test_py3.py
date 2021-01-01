@@ -1,3 +1,15 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 def
 test_exception_syntax
 (
@@ -17,4 +29,5 @@ as
 e
 :
         
-pass
+assert
+e

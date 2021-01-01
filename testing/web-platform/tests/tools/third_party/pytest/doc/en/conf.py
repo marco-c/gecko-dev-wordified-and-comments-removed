@@ -11,11 +11,11 @@ utf
 *
 -
 import
+datetime
+import
 os
 import
 sys
-import
-datetime
 from
 _pytest
 import
@@ -56,11 +56,7 @@ extensions
 [
     
 "
-sphinx
-.
-ext
-.
-autodoc
+pygments_pytest
 "
     
 "
@@ -68,7 +64,7 @@ sphinx
 .
 ext
 .
-todo
+autodoc
 "
     
 "
@@ -92,7 +88,19 @@ sphinx
 .
 ext
 .
+todo
+"
+    
+"
+sphinx
+.
+ext
+.
 viewcode
+"
+    
+"
+sphinx_removed_in
 "
     
 "
@@ -139,8 +147,7 @@ copyright
 u
 "
 2015
-{
-}
+2020
 holger
 krekel
 and
@@ -149,11 +156,6 @@ pytest
 dev
 team
 "
-.
-format
-(
-year
-)
 exclude_patterns
 =
 [
@@ -508,6 +510,8 @@ epub_copyright
 u
 "
 2013
+-
+2020
 holger
 krekel
 et
@@ -582,7 +586,7 @@ python
 :
 (
 "
-http
+https
 :
 /
 /
@@ -606,7 +610,7 @@ app
     
 app
 .
-add_description_unit
+add_object_type
 (
         
 "
