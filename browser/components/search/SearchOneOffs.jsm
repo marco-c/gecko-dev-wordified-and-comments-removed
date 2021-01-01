@@ -3505,6 +3505,8 @@ _whereToOpen
 (
 aEvent
 aForceNewTab
+=
+false
 )
 {
 let

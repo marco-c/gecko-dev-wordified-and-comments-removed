@@ -1443,7 +1443,7 @@ add_task
 (
 async
 function
-update2
+shortcut_buttons_with_tip
 (
 )
 {

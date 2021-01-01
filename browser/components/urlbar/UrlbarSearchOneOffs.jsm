@@ -509,9 +509,6 @@ handleSearchCommand
 (
 event
 searchMode
-forceNewTab
-=
-false
 )
 {
 if
@@ -629,7 +626,6 @@ this
 _whereToOpen
 (
 event
-forceNewTab
 )
 ;
 if
