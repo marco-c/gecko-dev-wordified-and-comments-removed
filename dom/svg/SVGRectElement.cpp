@@ -913,7 +913,7 @@ ok
 SVGGeometryProperty
 :
 :
-ResolveAllAllowFallback
+ResolveAll
 <
 SVGT
 :
@@ -963,7 +963,7 @@ ok
 SVGGeometryProperty
 :
 :
-ResolveAllAllowFallback
+ResolveAll
 failed
 "
 )
@@ -1082,7 +1082,7 @@ if
 SVGGeometryProperty
 :
 :
-ResolveAllAllowFallback
+ResolveAll
 <
 SVGT
 :

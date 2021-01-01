@@ -805,7 +805,7 @@ if
 SVGGeometryProperty
 :
 :
-ResolveAllAllowFallback
+ResolveAll
 <
 SVGT
 :
