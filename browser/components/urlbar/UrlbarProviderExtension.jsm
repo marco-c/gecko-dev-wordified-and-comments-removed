@@ -388,6 +388,7 @@ async
 getViewUpdate
 (
 result
+idsByName
 )
 {
 return
@@ -399,6 +400,7 @@ _notifyListener
 getViewUpdate
 "
 result
+idsByName
 )
 ;
 }

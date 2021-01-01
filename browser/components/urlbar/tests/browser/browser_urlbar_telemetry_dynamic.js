@@ -133,6 +133,7 @@ true
 getViewUpdate
 (
 result
+idsByName
 )
 {
 return

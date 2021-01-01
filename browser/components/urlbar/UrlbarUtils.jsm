@@ -5179,6 +5179,7 @@ element
 getViewUpdate
 (
 result
+idsByName
 )
 {
 return

@@ -286,7 +286,10 @@ setEventListener
 "
 getViewUpdate
 "
+(
 result
+idsByName
+)
 =
 >
 {
@@ -298,6 +301,7 @@ async
 result
 .
 payload
+idsByName
 )
 .
 catch

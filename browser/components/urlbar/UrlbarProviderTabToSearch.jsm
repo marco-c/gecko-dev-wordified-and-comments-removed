@@ -519,6 +519,7 @@ return
 getViewUpdate
 (
 result
+idsByName
 )
 {
 return
