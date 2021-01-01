@@ -1466,17 +1466,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-virtual
-void
-SetPluginFocused
-(
-bool
-&
-aFocused
-)
-override
-{
-}
 [
 [
 nodiscard

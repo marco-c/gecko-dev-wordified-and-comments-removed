@@ -8408,16 +8408,6 @@ false
 ;
 if
 (
-!
-widget
--
->
-IsPluginFocused
-(
-)
-&
-&
-(
 IsIMEEnabled
 (
 )
@@ -8425,7 +8415,6 @@ IsIMEEnabled
 |
 IsASCIICapableOnly
 (
-)
 )
 )
 {

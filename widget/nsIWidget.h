@@ -3745,17 +3745,6 @@ aCommitted
 ;
 virtual
 void
-SetPluginFocused
-(
-bool
-&
-aFocused
-)
-=
-0
-;
-virtual
-void
 MaybeDispatchInitialFocusEvent
 (
 )

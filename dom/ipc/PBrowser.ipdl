@@ -1687,17 +1687,6 @@ nested
 inside_cpow
 )
 async
-SetPluginFocused
-(
-bool
-aFocused
-)
-;
-nested
-(
-inside_cpow
-)
-async
 OnWindowedPluginKeyEvent
 (
 NativeEventData
