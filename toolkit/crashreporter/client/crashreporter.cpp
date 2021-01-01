@@ -743,6 +743,7 @@ string
 :
 npos
 )
+{
 return
 file
 .
@@ -753,7 +754,7 @@ slashIndex
 1
 )
 ;
-else
+}
 return
 file
 ;
@@ -3018,13 +3019,10 @@ str
 )
 ;
 }
-else
-{
 return
 "
 "
 ;
-}
 }
 }
 using
