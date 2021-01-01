@@ -914,11 +914,10 @@ getHitTestConfig
 (
 )
 ;
+async
 function
-*
 test
 (
-testDriver
 )
 {
 for
@@ -961,10 +960,9 @@ scroller
 )
 ;
 }
-yield
-waitForApzFlushedRepaints
+await
+promiseApzFlushedRepaints
 (
-testDriver
 )
 ;
 var
@@ -2201,10 +2199,7 @@ waitUntilApzStable
 .
 then
 (
-runContinuation
-(
 test
-)
 )
 .
 then
