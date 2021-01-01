@@ -225,6 +225,14 @@ SentPacket
 )
 ;
 }
+#
+[
+derive
+(
+Copy
+Clone
+)
+]
 pub
 enum
 CongestionControlAlgorithm

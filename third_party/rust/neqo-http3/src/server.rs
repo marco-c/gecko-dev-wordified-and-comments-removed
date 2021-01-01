@@ -107,6 +107,7 @@ neqo_transport
 :
 {
 ConnectionIdManager
+ConnectionParameters
 Output
 }
 ;
@@ -341,6 +342,12 @@ qpack_settings
 )
 )
 cid_manager
+ConnectionParameters
+:
+:
+default
+(
+)
 )
 ?
 qpack_settings
