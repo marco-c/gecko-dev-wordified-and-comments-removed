@@ -5153,10 +5153,6 @@ Mode
 Megamorphic
 )
 ;
-handleMissing
-=
-true
-;
 if
 (
 cacheKind_
@@ -5191,7 +5187,6 @@ id
 asPropertyName
 (
 )
-handleMissing
 )
 ;
 }
@@ -5225,7 +5220,6 @@ objId
 getElemKeyValueId
 (
 )
-handleMissing
 )
 ;
 }
@@ -5237,12 +5231,6 @@ returnFromIC
 ;
 trackAttached
 (
-handleMissing
-?
-"
-MegamorphicMissingNativeSlot
-"
-:
 "
 MegamorphicNativeSlot
 "

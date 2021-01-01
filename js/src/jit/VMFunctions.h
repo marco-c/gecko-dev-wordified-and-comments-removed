@@ -2105,11 +2105,6 @@ BaselineFrame
 frame
 )
 ;
-template
-<
-bool
-HandleMissing
->
 bool
 GetNativeDataPropertyPure
 (
@@ -2127,11 +2122,6 @@ Value
 vp
 )
 ;
-template
-<
-bool
-HandleMissing
->
 bool
 GetNativeDataPropertyByValuePure
 (

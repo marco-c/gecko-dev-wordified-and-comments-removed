@@ -2437,9 +2437,6 @@ ObjId
 name
 :
 PropertyNameField
-handleMissing
-:
-BoolImm
 -
 name
 :
@@ -2461,9 +2458,6 @@ ObjId
 id
 :
 ValId
-handleMissing
-:
-BoolImm
 -
 name
 :

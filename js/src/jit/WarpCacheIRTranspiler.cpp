@@ -3278,8 +3278,6 @@ ObjOperandId
 objId
 uint32_t
 nameOffset
-bool
-handleMissing
 )
 {
 MDefinition
@@ -3307,11 +3305,6 @@ asAtom
 .
 asPropertyName
 (
-)
-;
-MOZ_ASSERT
-(
-handleMissing
 )
 ;
 auto
@@ -3354,8 +3347,6 @@ ObjOperandId
 objId
 ValOperandId
 idId
-bool
-handleMissing
 )
 {
 MDefinition
@@ -3374,11 +3365,6 @@ id
 getOperand
 (
 idId
-)
-;
-MOZ_ASSERT
-(
-handleMissing
 )
 ;
 auto
