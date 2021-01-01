@@ -73,7 +73,7 @@ ProfileBufferChunk
 Length
 scExpectedMaximumStackSize
 =
-64
+128
 *
 1024
 ;
