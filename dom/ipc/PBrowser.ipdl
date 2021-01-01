@@ -1712,13 +1712,6 @@ aKeyEventData
 )
 ;
 async
-DefaultProcOfPluginEvent
-(
-WidgetPluginEvent
-aEvent
-)
-;
-async
 RequestFocus
 (
 bool
