@@ -4017,6 +4017,8 @@ nullptr
 auto
 err
 =
+mSymbols
+.
 fGetError
 (
 )

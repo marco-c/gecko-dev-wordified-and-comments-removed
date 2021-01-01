@@ -907,6 +907,14 @@ RenderedFrameId
 }
 if
 (
+mThread
+-
+>
+IsHandlingDeviceReset
+(
+)
+|
+|
 !
 mCompositor
 -
