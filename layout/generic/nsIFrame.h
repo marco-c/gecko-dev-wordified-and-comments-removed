@@ -9931,7 +9931,6 @@ aSize
 )
 const
 ;
-virtual
 bool
 IsFocusable
 (
