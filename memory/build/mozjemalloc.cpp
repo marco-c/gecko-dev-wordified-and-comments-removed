@@ -5357,11 +5357,7 @@ XP_DARWIN
 #
 define
 VM_COPY_MIN
-(
-gPageSize
-*
-32
-)
+kChunkSize
 static
 inline
 void
