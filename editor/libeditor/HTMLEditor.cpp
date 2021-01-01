@@ -30856,10 +30856,10 @@ aState
 >
 mEnabled
 =
-IMEState
+IMEEnabled
 :
 :
-DISABLED
+Disabled
 ;
 }
 else
@@ -30869,10 +30869,10 @@ aState
 >
 mEnabled
 =
-IMEState
+IMEEnabled
 :
 :
-ENABLED
+Enabled
 ;
 }
 return

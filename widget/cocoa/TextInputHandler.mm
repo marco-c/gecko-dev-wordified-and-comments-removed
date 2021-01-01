@@ -10959,10 +10959,10 @@ mIMEState
 mEnabled
 =
 =
-IMEState
+IMEEnabled
 :
 :
-ENABLED
+Enabled
 |
 |
 context
@@ -10972,10 +10972,10 @@ mIMEState
 mEnabled
 =
 =
-IMEState
+IMEEnabled
 :
 :
-PASSWORD
+Password
 )
 ;
 NSRange

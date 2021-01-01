@@ -34331,10 +34331,10 @@ mIMEState
 .
 mEnabled
 =
-IMEState
+IMEEnabled
 :
 :
-DISABLED
+Disabled
 ;
 context
 .
