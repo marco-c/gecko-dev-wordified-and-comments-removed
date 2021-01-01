@@ -400,11 +400,6 @@ onDeleteURI
 )
 {
 }
-onClearHistory
-(
-)
-{
-}
 onDeleteVisits
 (
 )

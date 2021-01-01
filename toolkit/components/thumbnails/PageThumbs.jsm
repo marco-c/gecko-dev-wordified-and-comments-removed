@@ -2836,17 +2836,6 @@ spec
 )
 ;
 }
-onClearHistory
-(
-)
-{
-PageThumbsStorage
-.
-wipe
-(
-)
-;
-}
 onBeginUpdateBatch
 (
 )

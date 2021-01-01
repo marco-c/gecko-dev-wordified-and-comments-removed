@@ -24,11 +24,6 @@ onDeleteURI
 )
 {
 }
-onClearHistory
-(
-)
-{
-}
 onDeleteVisits
 (
 )

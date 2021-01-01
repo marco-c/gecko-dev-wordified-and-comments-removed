@@ -3181,11 +3181,6 @@ spec
 )
 ;
 }
-onClearHistory
-(
-)
-{
-}
 onDeleteVisits
 (
 )
