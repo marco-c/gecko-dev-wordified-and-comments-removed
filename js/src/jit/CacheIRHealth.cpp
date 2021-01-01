@@ -754,6 +754,13 @@ spew
 return
 ;
 }
+script
+-
+>
+setNeedsFinalWarmUpCount
+(
+)
+;
 spew
 -
 >
@@ -868,6 +875,13 @@ spew
 return
 ;
 }
+script
+-
+>
+setNeedsFinalWarmUpCount
+(
+)
+;
 spew
 -
 >
