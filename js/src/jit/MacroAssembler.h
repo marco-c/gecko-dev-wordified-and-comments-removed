@@ -2663,6 +2663,15 @@ PER_SHARED_ARCH
 ;
 inline
 void
+notPtr
+(
+Register
+reg
+)
+PER_ARCH
+;
+inline
+void
 and32
 (
 Register
