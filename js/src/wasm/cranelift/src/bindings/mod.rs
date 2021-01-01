@@ -195,7 +195,7 @@ self
 low_level
 :
 :
-TypeIdDescKind
+Trap
 ;
 pub
 use
@@ -205,7 +205,7 @@ self
 low_level
 :
 :
-Trap
+TypeIdDescKind
 ;
 mod
 low_level

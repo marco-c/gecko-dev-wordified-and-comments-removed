@@ -332,11 +332,11 @@ RendererStats
 SceneBuilderHooks
 ShaderPrecacheFlags
 Shaders
+TextureCacheConfig
 ThreadListener
 UploadMethod
 WrShaders
 ONE_TIME_USAGE_HINT
-TextureCacheConfig
 }
 ;
 use
