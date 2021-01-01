@@ -8001,6 +8001,12 @@ scriptStencil
 js
 :
 :
+SharedImmutableScriptData
+*
+sharedData
+js
+:
+:
 HandleFunction
 function
 )
@@ -8050,6 +8056,12 @@ frontend
 ScriptStencil
 &
 scriptStencil
+js
+:
+:
+SharedImmutableScriptData
+*
+sharedData
 js
 :
 :

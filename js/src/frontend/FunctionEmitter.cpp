@@ -2646,6 +2646,12 @@ funbox_
 functionStencil
 (
 )
+funbox_
+-
+>
+index
+(
+)
 )
 )
 {

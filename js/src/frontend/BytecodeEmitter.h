@@ -1313,6 +1313,8 @@ intoScriptStencil
 ScriptStencil
 *
 script
+FunctionIndex
+index
 )
 ;
 MOZ_MUST_USE

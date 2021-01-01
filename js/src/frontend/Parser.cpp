@@ -9510,6 +9510,15 @@ emitBytecode
 =
 true
 ;
+this
+-
+>
+compilationState_
+.
+nonLazyFunctionCount
++
++
+;
 }
 bool
 hasParameterExprs
