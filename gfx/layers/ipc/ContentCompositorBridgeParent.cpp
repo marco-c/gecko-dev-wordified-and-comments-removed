@@ -1155,6 +1155,10 @@ const
 LayoutDeviceIntSize
 &
 aSize
+const
+WindowKind
+&
+aWindowKind
 )
 {
 LayersId

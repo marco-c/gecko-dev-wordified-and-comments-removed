@@ -1064,6 +1064,11 @@ WrWindowId
 aWindowId
 LayoutDeviceIntSize
 aSize
+layers
+:
+:
+WindowKind
+aWindowKind
 nsACString
 &
 aError

@@ -5592,6 +5592,9 @@ aPipelineId
 const
 LayoutDeviceIntSize
 &
+const
+WindowKind
+&
 )
 {
 WebRenderBridgeChild

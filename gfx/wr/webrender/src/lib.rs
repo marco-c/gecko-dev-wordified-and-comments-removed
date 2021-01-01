@@ -1024,6 +1024,16 @@ WrShaders
 ;
 pub
 use
+crate
+:
+:
+texture_cache
+:
+:
+TextureCacheConfig
+;
+pub
+use
 api
 as
 webrender_api

@@ -10672,6 +10672,15 @@ path
 Path
 }
 ;
+use
+crate
+:
+:
+texture_cache
+:
+:
+TextureCacheConfig
+;
 info
 !
 (
@@ -10836,6 +10845,11 @@ texture_cache
 swizzle_settings
 (
 )
+&
+TextureCacheConfig
+:
+:
+DEFAULT
 )
 ;
 }
