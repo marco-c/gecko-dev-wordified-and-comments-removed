@@ -1533,6 +1533,11 @@ OS_LIBS
 weak_framework
 Metal
 "
+"
+-
+weak_framework
+MediaPlayer
+"
 ]
 if
 CONFIG

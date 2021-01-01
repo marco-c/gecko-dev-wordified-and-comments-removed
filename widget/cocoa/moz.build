@@ -94,11 +94,6 @@ MediaHardwareKeysEventSourceMacMediaCenter
 h
 "
 "
-MediaPlayerWrapper
-.
-h
-"
-"
 mozView
 .
 h
@@ -392,11 +387,6 @@ mm
 MediaKeysEventSourceFactory
 .
 cpp
-"
-"
-MediaPlayerWrapper
-.
-mm
 "
 "
 nsChildView
