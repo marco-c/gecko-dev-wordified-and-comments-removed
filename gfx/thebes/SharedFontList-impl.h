@@ -238,6 +238,10 @@ const
 nsCString
 &
 aName
+bool
+aPrimaryNameOnly
+=
+false
 )
 ;
 LocalFaceRec

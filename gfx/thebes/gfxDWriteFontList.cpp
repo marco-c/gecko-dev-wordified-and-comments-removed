@@ -10073,6 +10073,7 @@ SharedFontList
 FindFamily
 (
 substituteName
+true
 )
 )
 {
@@ -10089,6 +10090,7 @@ SharedFontList
 FindFamily
 (
 actualFontName
+true
 )
 )
 {
@@ -10354,6 +10356,7 @@ SharedFontList
 FindFamily
 (
 substituteName
+true
 )
 )
 {
@@ -10383,6 +10386,7 @@ SharedFontList
 FindFamily
 (
 actualFontName
+true
 )
 )
 {

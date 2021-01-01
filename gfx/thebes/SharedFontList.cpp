@@ -5326,6 +5326,7 @@ FindFamily
 rec
 .
 mFamilyName
+true
 )
 ;
 if
@@ -5674,6 +5675,8 @@ const
 nsCString
 &
 aName
+bool
+aPrimaryNameOnly
 )
 {
 struct
@@ -5790,6 +5793,15 @@ families
 [
 match
 ]
+;
+}
+if
+(
+aPrimaryNameOnly
+)
+{
+return
+nullptr
 ;
 }
 if
