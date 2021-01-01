@@ -11152,7 +11152,6 @@ ContentParent
 :
 NotifyUpdatedFonts
 (
-true
 )
 ;
 }
