@@ -17615,6 +17615,17 @@ the
 error
 occured
 .
+result
+:
+Optionally
+the
+name
+of
+the
+error
+that
+occurred
+.
 source_file
 :
 The
