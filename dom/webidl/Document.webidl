@@ -2591,7 +2591,7 @@ Element
 ?
 querySelector
 (
-DOMString
+UTF8String
 selectors
 )
 ;
@@ -2602,7 +2602,7 @@ Pure
 NodeList
 querySelectorAll
 (
-DOMString
+UTF8String
 selectors
 )
 ;

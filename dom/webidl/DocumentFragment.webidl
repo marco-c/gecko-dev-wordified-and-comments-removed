@@ -242,7 +242,7 @@ Element
 ?
 querySelector
 (
-DOMString
+UTF8String
 selectors
 )
 ;
@@ -252,7 +252,7 @@ Throws
 NodeList
 querySelectorAll
 (
-DOMString
+UTF8String
 selectors
 )
 ;

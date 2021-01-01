@@ -4286,7 +4286,7 @@ Element
 QuerySelector
 (
 const
-nsAString
+nsACString
 &
 aSelector
 mozilla
@@ -4304,7 +4304,7 @@ nsINodeList
 QuerySelectorAll
 (
 const
-nsAString
+nsACString
 &
 aSelector
 mozilla
@@ -7149,7 +7149,7 @@ RawServoSelectorList
 ParseSelectorList
 (
 const
-nsAString
+nsACString
 &
 aSelectorString
 mozilla

@@ -467,7 +467,7 @@ Element
 ?
 closest
 (
-DOMString
+UTF8String
 selector
 )
 ;
@@ -478,7 +478,7 @@ Pure
 boolean
 matches
 (
-DOMString
+UTF8String
 selector
 )
 ;
@@ -494,7 +494,7 @@ matches
 boolean
 webkitMatchesSelector
 (
-DOMString
+UTF8String
 selector
 )
 ;
@@ -790,7 +790,7 @@ matches
 boolean
 mozMatchesSelector
 (
-DOMString
+UTF8String
 selector
 )
 ;
@@ -1750,7 +1750,7 @@ Element
 ?
 querySelector
 (
-DOMString
+UTF8String
 selectors
 )
 ;
@@ -1761,7 +1761,7 @@ Pure
 NodeList
 querySelectorAll
 (
-DOMString
+UTF8String
 selectors
 )
 ;
