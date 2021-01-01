@@ -1693,13 +1693,6 @@ bool
 aFocused
 )
 ;
-async
-EnableIMEForPlugin
-(
-bool
-aEnable
-)
-;
 nested
 (
 inside_cpow

@@ -3756,15 +3756,6 @@ aFocused
 ;
 virtual
 void
-EnableIMEForPlugin
-(
-bool
-aEnable
-)
-{
-}
-virtual
-void
 MaybeDispatchInitialFocusEvent
 (
 )

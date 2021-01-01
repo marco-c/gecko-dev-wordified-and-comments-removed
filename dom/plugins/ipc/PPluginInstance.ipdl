@@ -1032,13 +1032,6 @@ aCommitted
 )
 ;
 async
-EnableIME
-(
-bool
-aEnable
-)
-;
-async
 OnWindowedPluginKeyEvent
 (
 NativeEventData
