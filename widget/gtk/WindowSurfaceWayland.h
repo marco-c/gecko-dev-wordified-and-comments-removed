@@ -788,9 +788,6 @@ mBufferNeedsClear
 bool
 mSmoothRendering
 ;
-bool
-mIsMainThread
-;
 gint
 mSurfaceReadyTimerID
 ;
