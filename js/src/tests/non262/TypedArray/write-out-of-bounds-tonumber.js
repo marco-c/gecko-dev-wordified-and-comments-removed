@@ -224,7 +224,7 @@ enumerable
 true
 configurable
 :
-false
+true
 }
 ;
 var
