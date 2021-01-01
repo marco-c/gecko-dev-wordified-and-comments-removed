@@ -5598,8 +5598,6 @@ return
 false
 ;
 }
-if
-(
 auto
 entry
 =
@@ -5613,14 +5611,16 @@ Value
 (
 )
 )
+;
+if
+(
+entry
 )
 {
 return
 false
 ;
 }
-else
-{
 entry
 .
 OrInsert
@@ -5638,7 +5638,6 @@ aLayer
 }
 )
 ;
-}
 return
 true
 ;
