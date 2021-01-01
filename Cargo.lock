@@ -33307,6 +33307,9 @@ nsstring
 num_cpus
 "
 "
+objc
+"
+"
 rayon
 "
 "

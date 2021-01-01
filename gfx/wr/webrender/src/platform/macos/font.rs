@@ -3757,6 +3757,17 @@ GlyphKey
 >
 GlyphRasterResult
 {
+objc
+:
+:
+rc
+:
+:
+autoreleasepool
+(
+|
+|
+{
 let
 (
 x_scale
@@ -4912,6 +4923,8 @@ get_glyph_format
 bytes
 :
 rasterized_pixels
+}
+)
 }
 )
 }
