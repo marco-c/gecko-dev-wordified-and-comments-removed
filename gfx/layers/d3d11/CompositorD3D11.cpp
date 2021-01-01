@@ -601,6 +601,10 @@ mUseMutexOnPresent
 (
 false
 )
+mUseForSoftwareWebRender
+(
+false
+)
 {
 mUseMutexOnPresent
 =
@@ -6623,6 +6627,10 @@ if
 XRE_IsGPUProcess
 (
 )
+&
+&
+!
+mUseForSoftwareWebRender
 )
 {
 GPUParent

@@ -184,6 +184,14 @@ GetBufferSize
 )
 override
 ;
+GLenum
+IsContextLost
+(
+bool
+aForce
+)
+override
+;
 bool
 SupportsExternalBufferTextures
 (
