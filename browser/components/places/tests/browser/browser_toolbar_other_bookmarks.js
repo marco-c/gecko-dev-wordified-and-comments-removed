@@ -1686,6 +1686,9 @@ OtherBookmarks
 )
 ;
 return
+otherBookmarks
+&
+&
 !
 otherBookmarks
 .
@@ -1752,6 +1755,10 @@ OtherBookmarks
 )
 ;
 return
+!
+otherBookmarks
+|
+|
 otherBookmarks
 .
 hidden
@@ -1834,6 +1841,9 @@ OtherBookmarks
 )
 ;
 return
+otherBookmarks
+&
+&
 !
 otherBookmarks
 .
