@@ -411,6 +411,15 @@ Print
 backgrounds
 printui
 -
+selection
+-
+checkbox
+=
+Print
+selection
+only
+printui
+-
 color
 -
 mode
