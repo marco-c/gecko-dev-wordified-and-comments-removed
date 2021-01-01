@@ -1217,7 +1217,6 @@ k
 )
 ;
 }
-;
 }
 fn
 read_u16
@@ -1306,7 +1305,6 @@ k
 )
 ;
 }
-;
 }
 fn
 read_u8
@@ -1381,7 +1379,6 @@ u8
 }
 ;
 }
-;
 }
 fn
 read_s15Fixed16Number
@@ -6401,7 +6398,6 @@ as
 u16
 ;
 }
-;
 }
 fn
 curve_from_gamma

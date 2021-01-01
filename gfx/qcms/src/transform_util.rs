@@ -117,7 +117,6 @@ return
 .
 ;
 }
-;
 }
 pub
 fn

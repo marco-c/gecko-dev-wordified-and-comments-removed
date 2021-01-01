@@ -854,7 +854,6 @@ as
 u8
 ;
 }
-;
 }
 fn
 build_RGB_to_XYZ_transfer_matrix
