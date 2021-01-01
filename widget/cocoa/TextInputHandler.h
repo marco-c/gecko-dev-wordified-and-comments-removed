@@ -2521,10 +2521,9 @@ static
 bool
 IsNormalCharInputtingEvent
 (
-const
-WidgetKeyboardEvent
-&
-aKeyEvent
+NSEvent
+*
+aNativeEvent
 )
 ;
 static
