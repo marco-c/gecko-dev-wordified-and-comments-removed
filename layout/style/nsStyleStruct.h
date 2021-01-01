@@ -2990,14 +2990,6 @@ mozilla
 StyleMaxSize
 ;
 using
-StyleFlexBasis
-=
-mozilla
-:
-:
-StyleFlexBasis
-;
-using
 WritingMode
 =
 mozilla
@@ -3266,6 +3258,9 @@ mMinHeight
 StyleMaxSize
 mMaxHeight
 ;
+mozilla
+:
+:
 StyleFlexBasis
 mFlexBasis
 ;

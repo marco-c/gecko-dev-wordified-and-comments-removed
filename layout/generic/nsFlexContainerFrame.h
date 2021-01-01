@@ -655,10 +655,16 @@ bool
 IsUsedFlexBasisContent
 (
 const
+mozilla
+:
+:
 StyleFlexBasis
 &
 aFlexBasis
 const
+mozilla
+:
+:
 StyleSize
 &
 aMainSize
