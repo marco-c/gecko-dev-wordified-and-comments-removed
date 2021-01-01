@@ -124,7 +124,7 @@ version
 .
 3
 .
-0
+2
 "
 authors
 =
@@ -189,4 +189,17 @@ types
 "
 [
 dependencies
+.
+foreign
+-
+types
+-
+shared
 ]
+version
+=
+"
+0
+.
+1
+"

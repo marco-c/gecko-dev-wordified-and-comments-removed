@@ -235,6 +235,8 @@ RecvCommandEncoderFinish
 (
 RawId
 aSelfId
+RawId
+aDeviceId
 const
 dom
 :
@@ -477,6 +479,8 @@ RecvTextureAction
 (
 RawId
 aSelf
+RawId
+aDevice
 const
 ipc
 :
@@ -494,6 +498,8 @@ RecvCommandEncoderAction
 (
 RawId
 aSelf
+RawId
+aDevice
 const
 ipc
 :
@@ -510,11 +516,13 @@ IPCResult
 RecvBumpImplicitBindGroupLayout
 (
 RawId
-pipelineId
+aPipelineId
 bool
-isCompute
+aIsCompute
 uint32_t
-index
+aIndex
+RawId
+aAssignId
 )
 ;
 ipc

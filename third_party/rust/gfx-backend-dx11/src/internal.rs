@@ -25,6 +25,13 @@ winapi
 shared
 :
 :
+minwindef
+:
+:
+UINT
+shared
+:
+:
 {
 dxgiformat
 minwindef
@@ -43,13 +50,6 @@ um
 d3d11
 d3dcommon
 }
-shared
-:
-:
-minwindef
-:
-:
-UINT
 }
 ;
 use

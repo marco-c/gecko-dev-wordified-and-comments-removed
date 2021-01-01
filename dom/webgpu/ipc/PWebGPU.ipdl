@@ -254,6 +254,8 @@ TextureAction
 (
 RawId
 selfId
+RawId
+aDeviceId
 ByteBuf
 buf
 )
@@ -263,6 +265,8 @@ CommandEncoderAction
 (
 RawId
 selfId
+RawId
+aDeviceId
 ByteBuf
 buf
 )
@@ -276,6 +280,8 @@ bool
 isCompute
 uint32_t
 index
+RawId
+assignId
 )
 ;
 async
@@ -390,6 +396,8 @@ CommandEncoderFinish
 (
 RawId
 selfId
+RawId
+deviceId
 GPUCommandBufferDescriptor
 desc
 )
@@ -531,6 +539,15 @@ Shutdown
 ;
 child
 :
+async
+Error
+(
+RawId
+aDeviceId
+nsCString
+message
+)
+;
 async
 DropAction
 (

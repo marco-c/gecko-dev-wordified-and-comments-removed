@@ -131,7 +131,7 @@ version
 .
 3
 .
-0
+3
 "
 authors
 =
@@ -191,7 +191,7 @@ windowing
 license
 =
 "
-Unlicense
+MIT
 "
 repository
 =

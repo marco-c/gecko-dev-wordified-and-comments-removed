@@ -384,13 +384,13 @@ RenderPipelineId
 error
 (
 "
-render
+Render
 pipeline
 is
 incompatible
-{
-0
-}
+with
+render
+pass
 "
 )
 ]

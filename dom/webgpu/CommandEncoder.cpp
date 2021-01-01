@@ -841,6 +841,10 @@ mBridge
 SendCommandEncoderAction
 (
 mId
+mParent
+-
+>
+mId
 std
 :
 :
@@ -921,6 +925,10 @@ mBridge
 >
 SendCommandEncoderAction
 (
+mId
+mParent
+-
+>
 mId
 std
 :
@@ -1003,6 +1011,10 @@ mBridge
 SendCommandEncoderAction
 (
 mId
+mParent
+-
+>
+mId
 std
 :
 :
@@ -1083,6 +1095,10 @@ mBridge
 >
 SendCommandEncoderAction
 (
+mId
+mParent
+-
+>
 mId
 std
 :
@@ -1295,6 +1311,10 @@ mBridge
 SendCommandEncoderAction
 (
 mId
+mParent
+-
+>
+mId
 std
 :
 :
@@ -1369,6 +1389,10 @@ mBridge
 SendCommandEncoderAction
 (
 mId
+mParent
+-
+>
+mId
 std
 :
 :
@@ -1418,6 +1442,10 @@ mBridge
 >
 CommandEncoderFinish
 (
+mId
+mParent
+-
+>
 mId
 aDesc
 )

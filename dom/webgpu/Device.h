@@ -242,6 +242,10 @@ GPU_DECL_JS_WRAP
 (
 Device
 )
+const
+RawId
+mId
+;
 explicit
 Device
 (
@@ -366,10 +370,6 @@ RefPtr
 WebGPUChild
 >
 mBridge
-;
-const
-RawId
-mId
 ;
 bool
 mValid

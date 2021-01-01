@@ -1152,16 +1152,12 @@ Window
 interface
 GPUValidationError
 {
-/
-/
 constructor
 (
 DOMString
 message
 )
 ;
-/
-/
 readonly
 attribute
 DOMString

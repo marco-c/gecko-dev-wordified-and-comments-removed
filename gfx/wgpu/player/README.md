@@ -3,6 +3,7 @@ wgpu
 player
 This
 is
+an
 application
 that
 allows
@@ -13,11 +14,12 @@ workloads
 recorded
 elsewhere
 .
-You
-must
-use
+It
+requires
 the
 player
+to
+be
 built
 from
 the
