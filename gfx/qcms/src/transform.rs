@@ -72,6 +72,7 @@ iccread
 qcms_CIE_xyY
 qcms_CIE_xyYTRIPLE
 qcms_profile
+GRAY_SIGNATURE
 RGB_SIGNATURE
 }
 transform_util
@@ -11580,7 +11581,7 @@ in_0
 color_space
 =
 =
-0x47524159
+GRAY_SIGNATURE
 {
 transform
 .
