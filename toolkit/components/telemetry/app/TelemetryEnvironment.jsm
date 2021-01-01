@@ -8361,6 +8361,9 @@ hasARMv7
 "
 hasNEON
 "
+"
+hasUserCET
+"
 ]
 ;
 let
