@@ -281,8 +281,6 @@ use
 iccread
 :
 :
-qcms_profile
-as
 Profile
 ;
 pub

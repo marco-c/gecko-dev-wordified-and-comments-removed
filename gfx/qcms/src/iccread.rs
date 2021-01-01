@@ -39,7 +39,7 @@ crate
 matrix
 :
 :
-matrix
+Matrix
 s15Fixed16Number
 s15Fixed16Number_to_float
 Intent
@@ -325,7 +325,7 @@ Default
 ]
 pub
 struct
-qcms_profile
+Profile
 {
 pub
 (
@@ -486,7 +486,7 @@ crate
 )
 chromaticAdaption
 :
-matrix
+Matrix
 pub
 (
 crate
@@ -1758,7 +1758,7 @@ profile
 :
 &
 mut
-qcms_profile
+Profile
 mut
 mem
 :
@@ -1822,7 +1822,7 @@ profile
 :
 &
 mut
-qcms_profile
+Profile
 mut
 mem
 :
@@ -1878,7 +1878,7 @@ profile
 :
 &
 mut
-qcms_profile
+Profile
 mut
 mem
 :
@@ -1934,7 +1934,7 @@ profile
 :
 &
 mut
-qcms_profile
+Profile
 mut
 mem
 :
@@ -2096,7 +2096,7 @@ profile
 :
 &
 mut
-qcms_profile
+Profile
 )
 -
 >
@@ -2835,7 +2835,7 @@ u32
 )
 -
 >
-matrix
+Matrix
 {
 let
 mut
@@ -2851,9 +2851,9 @@ let
 mut
 matrix
 :
-matrix
+Matrix
 =
-matrix
+Matrix
 {
 m
 :
@@ -5816,7 +5816,7 @@ profile
 :
 &
 mut
-qcms_profile
+Profile
 mut
 src
 :
@@ -5917,7 +5917,7 @@ profile_create
 >
 Box
 <
-qcms_profile
+Profile
 >
 {
 Box
@@ -5925,7 +5925,7 @@ Box
 :
 new
 (
-qcms_profile
+Profile
 :
 :
 default
@@ -6593,7 +6593,7 @@ white_point_from_temp
 )
 }
 impl
-qcms_profile
+Profile
 {
 pub
 fn
@@ -6620,7 +6620,7 @@ Option
 <
 Box
 <
-qcms_profile
+Profile
 >
 >
 {
@@ -6721,7 +6721,7 @@ new_sRGB
 >
 Box
 <
-qcms_profile
+Profile
 >
 {
 let
@@ -6812,7 +6812,7 @@ build_sRGB_gamma_table
 1024
 )
 ;
-qcms_profile
+Profile
 :
 :
 new_rgb_with_table
@@ -6839,7 +6839,7 @@ f32
 >
 Box
 <
-qcms_profile
+Profile
 >
 {
 let
@@ -6919,7 +6919,7 @@ Option
 <
 Box
 <
-qcms_profile
+Profile
 >
 >
 {
@@ -7028,7 +7028,7 @@ Option
 <
 Box
 <
-qcms_profile
+Profile
 >
 >
 {
