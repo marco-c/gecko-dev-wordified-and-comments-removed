@@ -14081,15 +14081,12 @@ state
 .
 pipeline_id
 )
-Some
-(
 ExternalScrollId
 (
 external_scroll_id
 state
 .
 pipeline_id
-)
 )
 content_rect
 clip_rect

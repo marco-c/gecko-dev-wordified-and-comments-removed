@@ -9281,13 +9281,10 @@ di
 SpaceAndClipInfo
 external_id
 :
-Option
-<
 di
 :
 :
 ExternalScrollId
->
 content_rect
 :
 LayoutRect

@@ -885,10 +885,7 @@ define_scroll_frame
 (
 &
 fixed_space_info
-Some
-(
 scroll_id
-)
 LayoutRect
 :
 :
