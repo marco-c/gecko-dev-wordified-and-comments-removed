@@ -461,7 +461,6 @@ null_mut
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -469,11 +468,9 @@ C
 fn
 qcms_profile_get_rendering_intent
 (
-mut
 profile
 :
-*
-mut
+&
 qcms_profile
 )
 -
@@ -481,10 +478,7 @@ qcms_profile
 Intent
 {
 return
-(
-*
 profile
-)
 .
 rendering_intent
 ;
@@ -494,7 +488,6 @@ rendering_intent
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -502,11 +495,9 @@ C
 fn
 qcms_profile_get_color_space
 (
-mut
 profile
 :
-*
-mut
+&
 qcms_profile
 )
 -
@@ -514,10 +505,7 @@ qcms_profile
 icColorSpaceSignature
 {
 return
-(
-*
 profile
-)
 .
 color_space
 ;

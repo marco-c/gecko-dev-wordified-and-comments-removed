@@ -94,6 +94,8 @@ src_color_space
 =
 qcms_profile_get_color_space
 (
+&
+*
 src_profile
 )
 ;
@@ -159,6 +161,8 @@ dst_color_space
 =
 qcms_profile_get_color_space
 (
+&
+*
 dst_profile
 )
 ;
@@ -196,6 +200,8 @@ intent
 =
 qcms_profile_get_rendering_intent
 (
+&
+*
 src_profile
 )
 ;
