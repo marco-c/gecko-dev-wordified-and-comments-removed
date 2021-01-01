@@ -115,6 +115,15 @@ ini
 "
 browser
 /
+log
+/
+browser
+.
+ini
+"
+"
+browser
+/
 network
 /
 browser
