@@ -70,6 +70,7 @@ text
 def
 test_basic_auth_unsupported_operation
 (
+url
 session
 )
 :
@@ -138,6 +139,7 @@ url
 =
 basic_authentication
 (
+url
 )
     
 response

@@ -11,6 +11,7 @@ urlencode
 def
 basic_authentication
 (
+url
 username
 =
 None
@@ -25,29 +26,13 @@ http
 )
 :
     
-from
-.
-fixtures
-import
-server_config
-url
-    
-build_url
-=
-url
-(
-server_config
-(
-)
-)
-    
 query
 =
 {
 }
     
 return
-build_url
+url
 (
 "
 /
@@ -61,14 +46,14 @@ authentication
 .
 py
 "
-                     
+               
 query
 =
 urlencode
 (
 query
 )
-                     
+               
 protocol
 =
 protocol
