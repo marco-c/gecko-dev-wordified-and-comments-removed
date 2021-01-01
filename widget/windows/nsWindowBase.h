@@ -187,11 +187,6 @@ MSG
 aMsg
 )
 ;
-bool
-ShouldDispatchPluginEvent
-(
-)
-;
 virtual
 nsresult
 SynthesizeNativeTouchPoint

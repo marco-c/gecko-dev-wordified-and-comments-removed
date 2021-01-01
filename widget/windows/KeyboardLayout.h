@@ -2598,12 +2598,6 @@ DispatchKeyPressEventsWithoutCharMessage
 const
 ;
 bool
-MaybeDispatchPluginEventsForRemovedCharMessages
-(
-)
-const
-;
-bool
 NeedsToHandleWithoutFollowingCharMessages
 (
 )
