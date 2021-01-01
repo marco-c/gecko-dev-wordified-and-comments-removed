@@ -362,18 +362,18 @@ message
 }
 }
 function
-checkImageDataColorSettings
+checkImageDataSettings
 (
 expectColorSetting
 imageData
 )
 {
 var
-imageDataColorSettings
+imageDataSettings
 =
 imageData
 .
-getColorSettings
+getSettings
 (
 )
 ;
@@ -382,7 +382,7 @@ assert_equals
 expectColorSetting
 .
 colorSpace
-imageDataColorSettings
+imageDataSettings
 .
 colorSpace
 )
@@ -392,7 +392,7 @@ assert_equals
 expectColorSetting
 .
 storageFormat
-imageDataColorSettings
+imageDataSettings
 .
 storageFormat
 )
@@ -969,7 +969,7 @@ PreparePredefinedImageDataObjects
 )
 ;
 var
-imageDataColorSettingsSet
+imageDataSettingsSet
 =
 [
 {
@@ -1201,7 +1201,7 @@ xHeight
 imageSetting
 )
 ;
-checkImageDataColorSettings
+checkImageDataSettings
 (
 imageSetting
 imageData
@@ -1496,7 +1496,7 @@ xHeight
 imageSetting
 )
 ;
-checkImageDataColorSettings
+checkImageDataSettings
 (
 imageSetting
 imageData
@@ -1848,7 +1848,7 @@ xHeight
 imageSetting
 )
 ;
-checkImageDataColorSettings
+checkImageDataSettings
 (
 imageSetting
 ctxImageData
@@ -1902,7 +1902,7 @@ j
 ;
 j
 <
-imageDataColorSettingsSet
+imageDataSettingsSet
 .
 length
 ;
@@ -1936,7 +1936,7 @@ name
 canvas
 "
 +
-imageDataColorSettingsSet
+imageDataSettingsSet
 [
 j
 ]
@@ -1959,7 +1959,7 @@ i
 ]
 .
 colorSettings
-imageDataColorSettingsSet
+imageDataSettingsSet
 [
 j
 ]
@@ -2235,11 +2235,11 @@ createImageData
 imageData
 )
 ;
-checkImageDataColorSettings
+checkImageDataSettings
 (
 imageData
 .
-getColorSettings
+getSettings
 (
 )
 ctxImageData
@@ -2288,7 +2288,7 @@ j
 ;
 j
 <
-imageDataColorSettingsSet
+imageDataSettingsSet
 .
 length
 ;
@@ -2320,7 +2320,7 @@ name
 canvas
 "
 +
-imageDataColorSettingsSet
+imageDataSettingsSet
 [
 j
 ]
@@ -2343,7 +2343,7 @@ i
 ]
 .
 colorSettings
-imageDataColorSettingsSet
+imageDataSettingsSet
 [
 j
 ]
@@ -2516,7 +2516,7 @@ createImageData
 (
 width
 height
-imageDataColorSettings
+imageDataSettings
 )
 ;
 /
@@ -2541,13 +2541,13 @@ be
 created
 based
 on
-imageDataColorSettings
+imageDataSettings
 .
 function
 runTestCreateImageDataWHC
 (
 canvasColorSettings
-imageDataColorSettings
+imageDataSettings
 )
 {
 var
@@ -2585,7 +2585,7 @@ createImageData
 (
 width
 height
-imageDataColorSettings
+imageDataSettings
 )
 ;
 var
@@ -2593,7 +2593,7 @@ colorSettings
 =
 imageData
 .
-getColorSettings
+getSettings
 (
 )
 ;
@@ -2602,7 +2602,7 @@ assert_equals
 colorSettings
 .
 colorSpace
-imageDataColorSettings
+imageDataSettings
 .
 colorSpace
 "
@@ -2617,7 +2617,7 @@ assert_equals
 colorSettings
 .
 storageFormat
-imageDataColorSettings
+imageDataSettings
 .
 storageFormat
 "
@@ -2694,7 +2694,7 @@ j
 ;
 j
 <
-imageDataColorSettingsSet
+imageDataSettingsSet
 .
 length
 ;
@@ -2711,7 +2711,7 @@ createImageData
 (
 width
 height
-imageDataColorSettings
+imageDataSettings
 )
 :
 "
@@ -2727,7 +2727,7 @@ name
 canvas
 "
 +
-imageDataColorSettingsSet
+imageDataSettingsSet
 [
 j
 ]
@@ -2750,7 +2750,7 @@ i
 ]
 .
 colorSettings
-imageDataColorSettingsSet
+imageDataSettingsSet
 [
 j
 ]
@@ -2918,7 +2918,7 @@ createImageData
 data
 width
 height
-imageDataColorSettings
+imageDataSettings
 )
 ;
 /
@@ -2960,7 +2960,7 @@ which
 is
 given
 in
-imageDataColorSettings
+imageDataSettings
 .
 function
 runTestCreateImageDataDWHC
@@ -2989,7 +2989,7 @@ colorSettings
 =
 imageData
 .
-getColorSettings
+getSettings
 (
 )
 ;
@@ -3031,7 +3031,7 @@ newColorSettings
 =
 newImageData
 .
-getColorSettings
+getSettings
 (
 )
 ;
