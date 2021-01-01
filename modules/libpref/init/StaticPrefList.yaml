@@ -64665,7 +64665,7 @@ ifdef
 MOZ_WIDGET_GTK
 value
 :
-true
+false
 #
 else
 value
