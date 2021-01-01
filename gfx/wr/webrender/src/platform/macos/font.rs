@@ -2565,6 +2565,17 @@ CTFontSymbolicTraits
 )
 >
 {
+objc
+:
+:
+rc
+:
+:
+autoreleasepool
+(
+|
+|
+{
 match
 self
 .
@@ -2679,6 +2690,8 @@ traits
 )
 }
 }
+}
+)
 }
 pub
 fn
