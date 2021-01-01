@@ -33,10 +33,6 @@ not
 [
 disabled
 ]
-)
-:
-not
-(
 [
 tabindex
 =
@@ -70,10 +66,6 @@ not
 [
 disabled
 ]
-)
-:
-not
-(
 [
 tabindex
 =
@@ -92,10 +84,6 @@ not
 [
 disabled
 ]
-)
-:
-not
-(
 [
 tabindex
 =
@@ -114,10 +102,6 @@ not
 [
 disabled
 ]
-)
-:
-not
-(
 [
 tabindex
 =

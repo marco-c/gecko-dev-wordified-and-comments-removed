@@ -169,10 +169,6 @@ not
 (
 :
 hover
-)
-:
-not
-(
 [
 checked
 =
@@ -180,10 +176,6 @@ checked
 true
 "
 ]
-)
-:
-not
-(
 [
 open
 =
@@ -191,10 +183,6 @@ open
 true
 "
 ]
-)
-:
-not
-(
 [
 disabled
 =

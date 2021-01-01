@@ -2392,10 +2392,6 @@ not
 [
 disabled
 ]
-)
-:
-not
-(
 [
 aria
 -
@@ -2403,6 +2399,7 @@ hidden
 =
 true
 ]
+)
 "
 )
 .

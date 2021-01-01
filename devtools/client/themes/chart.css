@@ -334,10 +334,6 @@ not
 (
 :
 hover
-)
-:
-not
-(
 [
 focused
 ]
@@ -353,10 +349,6 @@ not
 (
 :
 hover
-)
-:
-not
-(
 [
 focused
 ]
