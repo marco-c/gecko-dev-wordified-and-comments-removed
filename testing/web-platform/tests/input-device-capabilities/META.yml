@@ -10,7 +10,11 @@ github
 .
 io
 /
-InputDeviceCapabilities
+input
+-
+device
+-
+capabilities
 /
 suggested_reviewers
 :

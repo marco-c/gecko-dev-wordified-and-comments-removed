@@ -10,7 +10,9 @@ github
 .
 io
 /
-BackgroundSync
+background
+-
+sync
 /
 spec
 /
