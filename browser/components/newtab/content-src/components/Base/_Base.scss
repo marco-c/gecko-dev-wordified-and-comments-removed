@@ -757,7 +757,9 @@ size
 ;
 border
 :
-0
+1px
+solid
+transparent
 ;
 border
 -
@@ -871,9 +873,9 @@ focus
 visible
 {
 border
+-
+color
 :
-1px
-solid
 var
 (
 -
@@ -884,12 +886,6 @@ focus
 -
 border
 )
-;
-border
--
-radius
-:
-4px
 ;
 outline
 :
