@@ -1399,6 +1399,11 @@ eStart
 scale
 )
 ;
+MOZ_ASSERT
+(
+updateLastScale
+)
+;
 mShouldSendPinchStart
 =
 false
