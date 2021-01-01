@@ -195,7 +195,7 @@ BitrateMode
 audioBitrateMode
 =
 "
-vbr
+variable
 "
 ;
 }
@@ -204,10 +204,10 @@ enum
 BitrateMode
 {
 "
-cbr
+constant
 "
 "
-vbr
+variable
 "
 }
 ;
