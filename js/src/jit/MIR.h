@@ -14340,6 +14340,7 @@ Compare_Symbol
 Compare_StrictString
 Compare_Object
 Compare_BigInt
+Compare_BigInt_Int32
 Compare_RefOrNull
 Compare_Unknown
 }
