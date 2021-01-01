@@ -280,6 +280,11 @@ import
 globals
 -
 from
+.
+.
+/
+browser
+/
 testConstants
 .
 js
@@ -308,11 +313,6 @@ import
 globals
 -
 from
-.
-.
-/
-data
-/
 sharedUpdateXML
 .
 js

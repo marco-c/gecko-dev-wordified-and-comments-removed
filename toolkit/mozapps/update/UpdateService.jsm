@@ -12410,6 +12410,7 @@ AUS_checkForBackgroundUpdates
 (
 )
 {
+return
 this
 .
 _checkForBackgroundUpdates
@@ -12505,6 +12506,7 @@ CHK_DISABLED_BY_POLICY
 )
 ;
 return
+false
 ;
 }
 this
@@ -12769,6 +12771,7 @@ CHK_IS_DOWNLOADING
 )
 ;
 return
+false
 ;
 }
 var
@@ -12839,6 +12842,7 @@ CHK_IS_DOWNLOADED
 )
 ;
 return
+false
 ;
 }
 if
@@ -12859,6 +12863,7 @@ CHK_IS_DOWNLOADED
 )
 ;
 return
+false
 ;
 }
 let
@@ -13035,6 +13040,9 @@ false
 ;
 }
 )
+;
+return
+true
 ;
 }
 selectUpdate
