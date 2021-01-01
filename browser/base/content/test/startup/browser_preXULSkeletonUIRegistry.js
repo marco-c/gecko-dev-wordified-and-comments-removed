@@ -603,6 +603,9 @@ Theme
 "
 MenubarShown
 "
+"
+RTLEnabled
+"
 ]
 ;
 for
