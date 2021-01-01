@@ -1667,7 +1667,7 @@ HeadlessWidgetTypes
 ipdlh
 "
 ]
-IPDL_SOURCES
+PREPROCESSED_IPDL_SOURCES
 +
 =
 [

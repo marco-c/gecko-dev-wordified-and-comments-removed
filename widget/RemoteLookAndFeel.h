@@ -148,7 +148,7 @@ ClearCachedData
 ;
 private
 :
-FullLookAndFeel
+LookAndFeelTables
 mTables
 ;
 static
@@ -156,7 +156,7 @@ StaticAutoPtr
 <
 FullLookAndFeel
 >
-sCachedTables
+sCachedLookAndFeelData
 ;
 }
 ;
