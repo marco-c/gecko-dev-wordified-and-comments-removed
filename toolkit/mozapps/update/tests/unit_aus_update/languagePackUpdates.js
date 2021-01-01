@@ -545,6 +545,11 @@ time
 "
 )
 ;
+reloadUpdateManagerData
+(
+true
+)
+;
 }
 )
 ;
@@ -683,6 +688,11 @@ reject
 ;
 await
 notified
+;
+reloadUpdateManagerData
+(
+true
+)
 ;
 }
 )
@@ -865,6 +875,11 @@ resolve
 ;
 await
 notified
+;
+reloadUpdateManagerData
+(
+true
+)
 ;
 }
 )
@@ -1210,6 +1225,11 @@ recorded
 a
 time
 "
+)
+;
+reloadUpdateManagerData
+(
+true
 )
 ;
 }
