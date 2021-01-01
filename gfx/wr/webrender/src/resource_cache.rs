@@ -314,8 +314,8 @@ render_task_graph
 :
 :
 {
+RenderTaskGraph
 RenderTaskId
-RenderTaskGraphBuilder
 }
 ;
 use
@@ -2889,11 +2889,11 @@ gpu_cache
 &
 mut
 GpuCache
-rg_builder
+render_tasks
 :
 &
 mut
-RenderTaskGraphBuilder
+RenderTaskGraph
 user_data
 :
 Option
@@ -2921,7 +2921,7 @@ FnOnce
 (
 &
 mut
-RenderTaskGraphBuilder
+RenderTaskGraph
 )
 -
 >
@@ -2940,7 +2940,7 @@ self
 .
 texture_cache
 gpu_cache
-rg_builder
+render_tasks
 user_data
 is_opaque
 |
@@ -5678,6 +5678,11 @@ gpu_cache
 &
 mut
 GpuCache
+render_task_tree
+:
+&
+mut
+RenderTaskGraph
 )
 {
 debug_assert_eq
@@ -5722,6 +5727,12 @@ self
 .
 texture_cache
 gpu_cache
+&
+mut
+self
+.
+cached_render_tasks
+render_task_tree
 )
 ;
 }

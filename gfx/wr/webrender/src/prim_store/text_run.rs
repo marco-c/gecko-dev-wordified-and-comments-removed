@@ -123,6 +123,15 @@ use
 crate
 :
 :
+render_task_graph
+:
+:
+RenderTaskGraph
+;
+use
+crate
+:
+:
 renderer
 :
 :
@@ -1747,6 +1756,11 @@ gpu_cache
 &
 mut
 GpuCache
+render_tasks
+:
+&
+mut
+RenderTaskGraph
 spatial_tree
 :
 &
@@ -1942,6 +1956,7 @@ self
 glyph_keys_range
 ]
 gpu_cache
+render_tasks
 )
 ;
 }

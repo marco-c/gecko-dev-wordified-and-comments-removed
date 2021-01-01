@@ -988,7 +988,7 @@ frame_state
 gpu_cache
 frame_state
 .
-rg_builder
+render_tasks
 None
 image_properties
 .
@@ -998,7 +998,7 @@ is_opaque
 (
 )
 |
-rg_builder
+render_tasks
 |
 {
 let
@@ -1018,14 +1018,14 @@ key
 :
 image_cache_key
 }
-rg_builder
+render_tasks
 target_kind
 *
 size
 padding
 )
 ;
-rg_builder
+render_tasks
 .
 add
 (
