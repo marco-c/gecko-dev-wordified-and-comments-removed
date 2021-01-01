@@ -1189,6 +1189,14 @@ str
 =
 str
 .
+substring
+(
+0
+UrlbarUtils
+.
+MAX_TEXT_LENGTH
+)
+.
 toLocaleLowerCase
 (
 )
