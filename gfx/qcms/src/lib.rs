@@ -41,14 +41,6 @@ unused_mut
 #
 !
 [
-allow
-(
-unused_variables
-)
-]
-#
-!
-[
 feature
 (
 stdsimd
