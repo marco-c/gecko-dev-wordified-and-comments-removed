@@ -229,7 +229,7 @@ ContentTaskUtils
 .
 waitForEvent
 (
-newFrameWin
+newFrame
 "
 load
 "
