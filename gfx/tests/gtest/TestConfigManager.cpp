@@ -2253,6 +2253,16 @@ mSafeMode
 =
 true
 ;
+mMockGfxInfo
+-
+>
+mStatusWrSoftware
+=
+nsIGfxInfo
+:
+:
+FEATURE_ALLOW_ALWAYS
+;
 ConfigureWebRender
 (
 )
@@ -4673,6 +4683,16 @@ mXRenderEnabled
 =
 true
 ;
+mMockGfxInfo
+-
+>
+mStatusWrSoftware
+=
+nsIGfxInfo
+:
+:
+FEATURE_ALLOW_ALWAYS
+;
 ConfigureWebRender
 (
 )
@@ -4907,7 +4927,7 @@ IsEnabled
 )
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 mFeatures
 .
@@ -4960,7 +4980,7 @@ IsEnabled
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 mFeatures
 .
@@ -4971,7 +4991,7 @@ IsEnabled
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 mFeatures
 .
@@ -4982,7 +5002,7 @@ IsEnabled
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 mFeatures
 .
@@ -4993,7 +5013,7 @@ IsEnabled
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 mFeatures
 .
@@ -5004,7 +5024,7 @@ IsEnabled
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 mFeatures
 .
