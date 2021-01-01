@@ -283,6 +283,11 @@ suite
 blur
 .
 png
+fuzzy
+(
+1
+8
+)
 =
 =
 box
@@ -732,6 +737,11 @@ platform
 (
 linux
 mac
+)
+fuzzy
+(
+1
+8
 )
 =
 =

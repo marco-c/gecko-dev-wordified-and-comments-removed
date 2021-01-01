@@ -208,6 +208,11 @@ platform
 linux
 mac
 )
+fuzzy
+(
+3
+80
+)
 =
 =
 border
@@ -228,7 +233,7 @@ mac
 fuzzy
 (
 8
-80
+90
 )
 =
 =
@@ -250,6 +255,11 @@ platform
 (
 linux
 mac
+)
+fuzzy
+(
+1
+10
 )
 =
 =
@@ -565,6 +575,11 @@ platform
 (
 linux
 mac
+)
+fuzzy
+(
+1
+130
 )
 =
 =

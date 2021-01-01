@@ -107,7 +107,7 @@ mac
 fuzzy
 (
 1
-4
+6
 )
 =
 =
@@ -226,7 +226,7 @@ mac
 fuzzy
 (
 1
-5
+15
 )
 zoom
 (
@@ -367,6 +367,11 @@ platform
 linux
 mac
 )
+fuzzy
+(
+1
+25
+)
 =
 =
 nested
@@ -411,6 +416,11 @@ platform
 linux
 mac
 )
+fuzzy
+(
+1
+25
+)
 =
 =
 nested
@@ -435,6 +445,11 @@ platform
 (
 linux
 mac
+)
+fuzzy
+(
+1
+25
 )
 =
 =
