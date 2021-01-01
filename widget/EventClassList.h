@@ -140,11 +140,6 @@ ContentCommandEvent
 )
 NS_EVENT_CLASS
 (
-Widget
-PluginEvent
-)
-NS_EVENT_CLASS
-(
 Internal
 MutationEvent
 )

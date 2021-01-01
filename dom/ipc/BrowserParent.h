@@ -2641,14 +2641,6 @@ WidgetTouchEvent
 aEvent
 )
 ;
-void
-SendPluginEvent
-(
-WidgetPluginEvent
-&
-aEvent
-)
-;
 bool
 SendCompositionEvent
 (
