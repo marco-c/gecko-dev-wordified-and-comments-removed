@@ -262,7 +262,11 @@ Replaceable
 ]
 readonly
 attribute
-any
+(
+Event
+or
+undefined
+)
 event
 ;
 /
