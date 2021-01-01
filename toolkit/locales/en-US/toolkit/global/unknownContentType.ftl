@@ -103,7 +103,6 @@ short
 -
 name
 }
-'
 s
 Options
 .
@@ -124,7 +123,6 @@ short
 -
 name
 }
-'
 s
 Preferences
 .
