@@ -2691,11 +2691,11 @@ nsMargin
 0
 margin
 .
-left
+right
 0
 margin
 .
-right
+left
 )
 )
 ;
