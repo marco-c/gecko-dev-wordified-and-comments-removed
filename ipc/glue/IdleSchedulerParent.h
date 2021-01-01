@@ -253,16 +253,6 @@ IdleSchedulerParent
 sIdle
 ;
 static
-AutoTArray
-<
-IdleSchedulerParent
-*
-8
->
-*
-sPrioritized
-;
-static
 Atomic
 <
 int32_t
