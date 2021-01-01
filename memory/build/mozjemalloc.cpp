@@ -15290,6 +15290,10 @@ arena_stats_t
 )
 )
 ;
+mId
+=
+0
+;
 mChunksDirty
 .
 Init
