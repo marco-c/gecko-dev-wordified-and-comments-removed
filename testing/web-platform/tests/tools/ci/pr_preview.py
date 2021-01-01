@@ -244,6 +244,26 @@ resp
 status_code
 )
     
+if
+resp
+.
+status_code
+=
+=
+422
+:
+        
+logger
+.
+error
+(
+resp
+.
+json
+(
+)
+)
+    
 resp
 .
 raise_for_status
