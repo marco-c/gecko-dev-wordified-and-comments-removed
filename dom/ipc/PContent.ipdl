@@ -2553,6 +2553,8 @@ fontList
 async
 RebuildFontList
 (
+bool
+aFulLRebuild
 )
 ;
 async
@@ -4131,6 +4133,15 @@ returns
 (
 bool
 aLoaded
+)
+;
+async
+StartCmapLoading
+(
+uint32_t
+aGeneration
+uint32_t
+aStartIndex
 )
 ;
 sync
