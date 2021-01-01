@@ -4883,14 +4883,12 @@ depends
 (
 target
 build_project
-milestone
 )
 def
 remote_default
 (
 target
 project
-milestone
 )
 :
 if
@@ -4912,10 +4910,6 @@ project
 "
 browser
 "
-and
-milestone
-.
-is_nightly
 option
 (
 "
