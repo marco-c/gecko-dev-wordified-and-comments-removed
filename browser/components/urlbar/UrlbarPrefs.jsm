@@ -483,14 +483,6 @@ oneOffsRefresh
 "
 true
 ]
-[
-"
-update2
-.
-restyleBrowsingHistoryAsSearch
-"
-true
-]
 ]
 )
 ;
