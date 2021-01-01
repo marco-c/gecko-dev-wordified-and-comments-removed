@@ -110,7 +110,7 @@ isSealed
 (
 ta
 )
-true
+false
 )
 ;
 assertEq
@@ -230,7 +230,7 @@ isSealed
 (
 ta
 )
-true
+false
 )
 ;
 assertEq
@@ -342,7 +342,7 @@ isSealed
 (
 ta
 )
-true
+false
 )
 ;
 assertEq

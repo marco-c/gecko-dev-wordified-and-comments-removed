@@ -1491,8 +1491,6 @@ isTypedArrayElement
 {
 return
 JSPROP_ENUMERATE
-|
-JSPROP_PERMANENT
 ;
 }
 return

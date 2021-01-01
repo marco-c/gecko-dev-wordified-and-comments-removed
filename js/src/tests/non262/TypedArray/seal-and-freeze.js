@@ -117,7 +117,7 @@ isSealed
 (
 array
 )
-true
+false
 )
 ;
 array
@@ -151,7 +151,7 @@ isSealed
 (
 array
 )
-true
+false
 )
 ;
 assertThrowsInstanceOf

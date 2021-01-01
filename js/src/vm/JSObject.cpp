@@ -3715,15 +3715,6 @@ get
 )
 >
 0
-&
-&
-level
-=
-=
-IntegrityLevel
-:
-:
-Frozen
 )
 {
 *
