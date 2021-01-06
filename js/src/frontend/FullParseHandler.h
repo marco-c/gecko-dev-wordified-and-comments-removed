@@ -4688,10 +4688,7 @@ pos
 LexicalScopeNodeType
 newLexicalScope
 (
-LexicalScope
-:
-:
-ParserData
+ParserLexicalScopeData
 *
 bindings
 Node

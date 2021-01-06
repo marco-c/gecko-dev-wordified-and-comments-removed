@@ -591,10 +591,7 @@ SwitchEmitter
 :
 emitLexical
 (
-LexicalScope
-:
-:
-ParserData
+ParserLexicalScopeData
 *
 bindings
 )
