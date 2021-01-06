@@ -194,6 +194,15 @@ include
 "
 frontend
 /
+ScriptIndex
+.
+h
+"
+#
+include
+"
+frontend
+/
 TokenStream
 .
 h
@@ -1451,10 +1460,10 @@ MOZ_ASSERT
 funNode
 )
 ;
-FunctionIndex
+ScriptIndex
 index
 =
-FunctionIndex
+ScriptIndex
 (
 compilationInfo_
 .
@@ -9977,7 +9986,7 @@ begin
 for
 (
 const
-FunctionIndex
+ScriptIndex
 &
 index
 :
@@ -53757,7 +53766,7 @@ asmJS
 .
 remove
 (
-FunctionIndex
+ScriptIndex
 (
 i
 )

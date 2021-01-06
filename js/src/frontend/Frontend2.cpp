@@ -123,6 +123,15 @@ include
 "
 frontend
 /
+ScriptIndex
+.
+h
+"
+#
+include
+"
+frontend
+/
 smoosh_generated
 .
 h
@@ -1306,10 +1315,10 @@ function
 .
 non_positional_formal_start
 ;
-FunctionIndex
+ScriptIndex
 functionIndex
 =
-FunctionIndex
+ScriptIndex
 (
 function
 .
@@ -2230,7 +2239,7 @@ raw
 )
 TaggedScriptThingIndex
 (
-FunctionIndex
+ScriptIndex
 (
 item
 .
@@ -2341,8 +2350,8 @@ compilationInfo
 ScriptStencil
 &
 script
-FunctionIndex
-functionIndex
+ScriptIndex
+scriptIndex
 )
 {
 using
@@ -2574,7 +2583,7 @@ sharedData
 addAndShare
 (
 cx
-functionIndex
+scriptIndex
 sharedData
 )
 )
@@ -3409,7 +3418,7 @@ scriptData
 [
 i
 ]
-FunctionIndex
+ScriptIndex
 (
 i
 )

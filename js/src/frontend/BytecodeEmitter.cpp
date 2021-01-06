@@ -52051,8 +52051,8 @@ intoScriptStencil
 ScriptStencil
 *
 script
-FunctionIndex
-index
+ScriptIndex
+scriptIndex
 )
 {
 js
@@ -52228,7 +52228,7 @@ sharedData
 addAndShare
 (
 cx
-index
+scriptIndex
 sharedData
 )
 )

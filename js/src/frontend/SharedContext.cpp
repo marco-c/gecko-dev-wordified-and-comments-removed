@@ -1212,7 +1212,7 @@ ParserAtom
 atom
 FunctionFlags
 flags
-FunctionIndex
+ScriptIndex
 index
 )
 :

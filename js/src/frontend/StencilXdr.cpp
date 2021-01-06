@@ -43,6 +43,15 @@ utility
 #
 include
 "
+frontend
+/
+ScriptIndex
+.
+h
+"
+#
+include
+"
 vm
 /
 JSScript
@@ -2625,7 +2634,7 @@ mozilla
 :
 Some
 (
-FunctionIndex
+ScriptIndex
 (
 )
 )
@@ -4088,7 +4097,7 @@ i
 +
 )
 {
-FunctionIndex
+ScriptIndex
 index
 ;
 MOZ_TRY

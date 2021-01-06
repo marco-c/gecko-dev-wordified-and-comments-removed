@@ -206,6 +206,15 @@ include
 "
 frontend
 /
+ScriptIndex
+.
+h
+"
+#
+include
+"
+frontend
+/
 SharedContext
 .
 h
@@ -1313,8 +1322,8 @@ intoScriptStencil
 ScriptStencil
 *
 script
-FunctionIndex
-index
+ScriptIndex
+scriptIndex
 )
 ;
 MOZ_MUST_USE
