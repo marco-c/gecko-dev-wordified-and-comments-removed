@@ -138,6 +138,11 @@ DecodedStream
 MediaDecoderStateMachine
 *
 aStateMachine
+nsMainThreadPtrHandle
+<
+SharedDummyTrack
+>
+aDummyTrack
 CopyableTArray
 <
 RefPtr
@@ -437,6 +442,13 @@ RefPtr
 AbstractThread
 >
 mOwnerThread
+;
+const
+nsMainThreadPtrHandle
+<
+SharedDummyTrack
+>
+mDummyTrack
 ;
 WatchManager
 <
