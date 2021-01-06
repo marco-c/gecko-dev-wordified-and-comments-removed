@@ -1121,6 +1121,8 @@ mozilla
 :
 EventStates
 aOldState
+FallbackType
+aOldFallbackType
 bool
 aSync
 bool
