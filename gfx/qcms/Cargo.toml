@@ -98,9 +98,6 @@ features
 default
 =
 [
-"
-c_bindings
-"
 ]
 c_bindings
 =

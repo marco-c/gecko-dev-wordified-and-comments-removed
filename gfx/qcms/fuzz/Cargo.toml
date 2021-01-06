@@ -73,6 +73,13 @@ path
 .
 .
 "
+features
+=
+[
+"
+c_bindings
+"
+]
 #
 Prevent
 this
