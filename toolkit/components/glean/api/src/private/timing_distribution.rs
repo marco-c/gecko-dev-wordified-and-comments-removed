@@ -11,6 +11,15 @@ use
 std
 :
 :
+convert
+:
+:
+TryInto
+;
+use
+std
+:
+:
 sync
 :
 :
@@ -19,7 +28,7 @@ atomic
 :
 :
 {
-AtomicU64
+AtomicUsize
 Ordering
 }
 Arc
@@ -145,7 +154,7 @@ metric_id
 MetricId
 next_timer_id
 :
-AtomicU64
+AtomicUsize
 instants
 :
 RwLock
@@ -201,7 +210,7 @@ metric_id
 id
 next_timer_id
 :
-AtomicU64
+AtomicUsize
 :
 :
 new
@@ -304,7 +313,7 @@ metric_id
 id
 next_timer_id
 :
-AtomicU64
+AtomicUsize
 :
 :
 new
@@ -414,6 +423,14 @@ Ordering
 :
 :
 SeqCst
+)
+.
+try_into
+(
+)
+.
+unwrap
+(
 )
 ;
 let
