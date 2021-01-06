@@ -47,7 +47,7 @@ lut_inverse_interp16
 Intent
 :
 :
-QCMS_INTENT_PERCEPTUAL
+Perceptual
 }
 ;
 use
@@ -934,7 +934,7 @@ mut
 *
 other
 DATA_RGB_8
-QCMS_INTENT_PERCEPTUAL
+Perceptual
 )
 }
 ;
@@ -1071,7 +1071,7 @@ mut
 *
 sRGB_profile
 DATA_RGBA_8
-QCMS_INTENT_PERCEPTUAL
+Perceptual
 )
 }
 ;
@@ -3060,7 +3060,7 @@ self
 .
 out_profile
 ty
-QCMS_INTENT_PERCEPTUAL
+Perceptual
 )
 )
 }
@@ -4709,7 +4709,7 @@ DATA_RGB_8
 *
 output
 DATA_RGB_8
-QCMS_INTENT_PERCEPTUAL
+Perceptual
 )
 }
 ;
