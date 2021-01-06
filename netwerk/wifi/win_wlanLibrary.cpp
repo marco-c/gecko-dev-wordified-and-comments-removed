@@ -256,8 +256,9 @@ Initialize
 {
 mWlanLibrary
 =
-LoadLibrary
+LoadLibraryW
 (
+L
 "
 Wlanapi
 .

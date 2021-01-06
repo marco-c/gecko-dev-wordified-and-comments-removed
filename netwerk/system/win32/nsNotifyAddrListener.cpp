@@ -1638,7 +1638,7 @@ rv
 ;
 mCheckEvent
 =
-CreateEvent
+CreateEventW
 (
 nullptr
 FALSE
