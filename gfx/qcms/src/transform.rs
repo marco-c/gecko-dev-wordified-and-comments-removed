@@ -463,8 +463,7 @@ fn
 (
 _
 :
-*
-const
+&
 qcms_transform
 _
 :
@@ -2465,8 +2464,7 @@ Format
 (
 transform
 :
-*
-const
+&
 qcms_transform
 mut
 src
@@ -2801,8 +2799,7 @@ qcms_transform_data_gray_out_lut
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -2844,8 +2841,7 @@ qcms_transform_data_gray_rgba_out_lut
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -2887,8 +2883,7 @@ qcms_transform_data_gray_bgra_out_lut
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -2930,8 +2925,7 @@ qcms_transform_data_graya_rgba_out_lut
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -2973,8 +2967,7 @@ qcms_transform_data_graya_bgra_out_lut
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -3366,8 +3359,7 @@ qcms_transform_data_gray_out_precache
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -3409,8 +3401,7 @@ qcms_transform_data_gray_rgba_out_precache
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -3452,8 +3443,7 @@ qcms_transform_data_gray_bgra_out_precache
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -3495,8 +3485,7 @@ qcms_transform_data_graya_rgba_out_precache
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -3538,8 +3527,7 @@ qcms_transform_data_graya_bgra_out_precache
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -3586,8 +3574,7 @@ Format
 (
 transform
 :
-*
-const
+&
 qcms_transform
 mut
 src
@@ -4267,8 +4254,7 @@ qcms_transform_data_rgb_out_lut_precache
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -4314,8 +4300,7 @@ qcms_transform_data_rgba_out_lut_precache
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -4361,8 +4346,7 @@ qcms_transform_data_bgra_out_lut_precache
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -7796,8 +7780,7 @@ qcms_transform_data_tetra_clut_rgb
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -7838,8 +7821,7 @@ qcms_transform_data_tetra_clut_rgba
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -7880,8 +7862,7 @@ qcms_transform_data_tetra_clut_bgra
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -7927,8 +7908,7 @@ Format
 (
 transform
 :
-*
-const
+&
 qcms_transform
 mut
 src
@@ -8570,8 +8550,7 @@ qcms_transform_data_rgb_out_lut
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -8617,8 +8596,7 @@ qcms_transform_data_rgba_out_lut
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -8664,8 +8642,7 @@ qcms_transform_data_bgra_out_lut
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
