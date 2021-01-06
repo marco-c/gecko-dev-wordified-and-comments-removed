@@ -136,12 +136,9 @@ uint8_t
 Array
 =
 1
-Singleton
-=
-2
 NoValues
 =
-3
+2
 }
 ;
 using
