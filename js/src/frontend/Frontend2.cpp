@@ -855,6 +855,8 @@ start
 data
 -
 >
+slotInfo
+.
 letStart
 =
 global
@@ -864,6 +866,8 @@ let_start
 data
 -
 >
+slotInfo
+.
 constStart
 =
 global
@@ -873,6 +877,8 @@ const_start
 data
 -
 >
+slotInfo
+.
 length
 =
 numBindings
@@ -975,6 +981,8 @@ start
 data
 -
 >
+slotInfo
+.
 length
 =
 numBindings
@@ -1102,6 +1110,8 @@ start
 data
 -
 >
+slotInfo
+.
 constStart
 =
 lexical
@@ -1111,6 +1121,8 @@ const_start
 data
 -
 >
+slotInfo
+.
 length
 =
 numBindings
@@ -1235,6 +1247,8 @@ start
 data
 -
 >
+slotInfo
+.
 hasParameterExprs
 =
 function
@@ -1244,6 +1258,8 @@ has_parameter_exprs
 data
 -
 >
+slotInfo
+.
 nonPositionalFormalStart
 =
 function
@@ -1253,6 +1269,8 @@ non_positional_formal_start
 data
 -
 >
+slotInfo
+.
 varStart
 =
 function
@@ -1262,6 +1280,8 @@ var_start
 data
 -
 >
+slotInfo
+.
 length
 =
 numBindings

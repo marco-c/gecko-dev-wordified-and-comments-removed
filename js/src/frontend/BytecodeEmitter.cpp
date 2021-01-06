@@ -34443,6 +34443,8 @@ if
 bindings
 -
 >
+slotInfo
+.
 nonPositionalFormalStart
 >
 0
@@ -34459,6 +34461,8 @@ trailingNames
 bindings
 -
 >
+slotInfo
+.
 nonPositionalFormalStart
 -
 1
@@ -47526,6 +47530,8 @@ scopeBindings
 )
 -
 >
+slotInfo
+.
 length
 =
 =

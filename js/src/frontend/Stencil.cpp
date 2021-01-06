@@ -6302,6 +6302,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 )
 ;
@@ -6315,6 +6317,8 @@ hasParameterExprs
 data
 -
 >
+slotInfo
+.
 hasParameterExprs
 )
 ;
@@ -6328,6 +6332,8 @@ nonPositionalFormalStart
 data
 -
 >
+slotInfo
+.
 nonPositionalFormalStart
 )
 ;
@@ -6341,6 +6347,8 @@ varStart
 data
 -
 >
+slotInfo
+.
 varStart
 )
 ;
@@ -6357,6 +6365,8 @@ length
 data
 -
 >
+slotInfo
+.
 length
 ;
 break
@@ -6392,6 +6402,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 )
 ;
@@ -6408,6 +6420,8 @@ length
 data
 -
 >
+slotInfo
+.
 length
 ;
 break
@@ -6479,6 +6493,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 )
 ;
@@ -6492,6 +6508,8 @@ constStart
 data
 -
 >
+slotInfo
+.
 constStart
 )
 ;
@@ -6508,6 +6526,8 @@ length
 data
 -
 >
+slotInfo
+.
 length
 ;
 break
@@ -6559,6 +6579,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 )
 ;
@@ -6575,6 +6597,8 @@ length
 data
 -
 >
+slotInfo
+.
 length
 ;
 break
@@ -6616,6 +6640,8 @@ letStart
 data
 -
 >
+slotInfo
+.
 letStart
 )
 ;
@@ -6629,6 +6655,8 @@ constStart
 data
 -
 >
+slotInfo
+.
 constStart
 )
 ;
@@ -6645,6 +6673,8 @@ length
 data
 -
 >
+slotInfo
+.
 length
 ;
 break
@@ -6680,6 +6710,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 )
 ;
@@ -6693,6 +6725,8 @@ varStart
 data
 -
 >
+slotInfo
+.
 varStart
 )
 ;
@@ -6706,6 +6740,8 @@ letStart
 data
 -
 >
+slotInfo
+.
 letStart
 )
 ;
@@ -6719,6 +6755,8 @@ constStart
 data
 -
 >
+slotInfo
+.
 constStart
 )
 ;
@@ -6735,6 +6773,8 @@ length
 data
 -
 >
+slotInfo
+.
 length
 ;
 break
@@ -6774,6 +6814,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 )
 ;
@@ -6787,6 +6829,8 @@ globalsStart
 data
 -
 >
+slotInfo
+.
 globalsStart
 )
 ;
@@ -6803,6 +6847,8 @@ length
 data
 -
 >
+slotInfo
+.
 length
 ;
 break
@@ -6842,6 +6888,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 )
 ;
@@ -6858,6 +6906,8 @@ length
 data
 -
 >
+slotInfo
+.
 length
 ;
 break
