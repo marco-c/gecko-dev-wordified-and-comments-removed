@@ -4,7 +4,7 @@ strict
 "
 ;
 const
-loaders
+BaseLoader
 =
 ChromeUtils
 .
@@ -434,9 +434,9 @@ BrowserLoaderBuilder
 (
 {
 baseURI
-window
-useOnlyShared
 commonLibRequire
+useOnlyShared
+window
 }
 )
 {
@@ -912,7 +912,7 @@ this
 const
 mainModule
 =
-loaders
+BaseLoader
 .
 Module
 (
@@ -932,7 +932,7 @@ this
 .
 loader
 =
-loaders
+BaseLoader
 .
 Loader
 (
@@ -961,7 +961,7 @@ this
 .
 require
 =
-loaders
+BaseLoader
 .
 Require
 (
