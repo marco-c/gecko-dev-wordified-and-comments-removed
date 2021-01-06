@@ -708,8 +708,8 @@ LayoutDeviceIntRegion
 aWaylandBufferDamage
 )
 ;
-void
-FlushPendingCommitsInternal
+bool
+FlushPendingCommitsLocked
 (
 )
 ;
