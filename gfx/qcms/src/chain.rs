@@ -6070,7 +6070,7 @@ None
 fn
 modular_transform_create_input
 (
-in_0
+input
 :
 &
 Profile
@@ -6100,7 +6100,7 @@ mut
 first_transform
 ;
 if
-in_0
+input
 .
 A2B0
 .
@@ -6113,7 +6113,7 @@ lut_transform
 =
 modular_transform_create_lut
 (
-in_0
+input
 .
 A2B0
 .
@@ -6149,7 +6149,7 @@ next_transform
 }
 else
 if
-in_0
+input
 .
 mAB
 .
@@ -6160,7 +6160,7 @@ is_some
 &
 (
 *
-in_0
+input
 .
 mAB
 .
@@ -6181,7 +6181,7 @@ num_in_channels
 &
 (
 *
-in_0
+input
 .
 mAB
 .
@@ -6204,7 +6204,7 @@ mAB_transform
 =
 modular_transform_create_mAB
 (
-in_0
+input
 .
 mAB
 .
@@ -6275,7 +6275,7 @@ input_clut_table_r
 =
 build_input_gamma_table
 (
-in_0
+input
 .
 redTRC
 .
@@ -6298,7 +6298,7 @@ input_clut_table_g
 =
 build_input_gamma_table
 (
-in_0
+input
 .
 greenTRC
 .
@@ -6321,7 +6321,7 @@ input_clut_table_b
 =
 build_input_gamma_table
 (
-in_0
+input
 .
 blueTRC
 .
@@ -6736,7 +6736,7 @@ matrix
 =
 build_colorant_matrix
 (
-in_0
+input
 )
 ;
 transform
@@ -7528,11 +7528,11 @@ first_transform
 fn
 modular_transform_create
 (
-in_0
+input
 :
 &
 Profile
-out
+output
 :
 &
 Profile
@@ -7562,7 +7562,7 @@ mut
 first_transform
 ;
 if
-in_0
+input
 .
 color_space
 =
@@ -7574,7 +7574,7 @@ rgb_to_pcs
 =
 modular_transform_create_input
 (
-in_0
+input
 )
 ;
 rgb_to_pcs
@@ -7613,7 +7613,7 @@ None
 ;
 }
 if
-in_0
+input
 .
 pcs
 =
@@ -7621,7 +7621,7 @@ pcs
 LAB_SIGNATURE
 &
 &
-out
+output
 .
 pcs
 =
@@ -7670,7 +7670,7 @@ next_transform
 ;
 }
 if
-in_0
+input
 .
 pcs
 =
@@ -7678,7 +7678,7 @@ pcs
 XYZ_SIGNATURE
 &
 &
-out
+output
 .
 pcs
 =
@@ -7727,7 +7727,7 @@ next_transform
 ;
 }
 if
-out
+output
 .
 color_space
 =
@@ -7739,7 +7739,7 @@ pcs_to_rgb
 =
 modular_transform_create_output
 (
-out
+output
 )
 ;
 pcs_to_rgb
@@ -7908,11 +7908,11 @@ pub
 fn
 chain_transform
 (
-in_0
+input
 :
 &
 Profile
-out
+output
 :
 &
 Profile
@@ -7947,8 +7947,8 @@ transform_list
 =
 modular_transform_create
 (
-in_0
-out
+input
+output
 )
 ;
 if

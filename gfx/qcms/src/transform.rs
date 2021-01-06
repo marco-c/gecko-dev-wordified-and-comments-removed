@@ -9445,11 +9445,11 @@ Box
 <
 qcms_transform
 >
-in_0
+input
 :
 &
 Profile
-out
+output
 :
 &
 Profile
@@ -9598,8 +9598,8 @@ lut
 =
 chain_transform
 (
-in_0
-out
+input
+output
 src
 dest
 lutSize
@@ -9726,14 +9726,14 @@ pub
 fn
 transform_create
 (
-in_0
+input
 :
 &
 Profile
 in_type
 :
 qcms_data_type
-out
+output
 :
 &
 Profile
@@ -9871,7 +9871,7 @@ bool
 false
 ;
 if
-out
+output
 .
 output_table_r
 .
@@ -9880,7 +9880,7 @@ is_some
 )
 &
 &
-out
+output
 .
 output_table_g
 .
@@ -9889,7 +9889,7 @@ is_some
 )
 &
 &
-out
+output
 .
 output_table_b
 .
@@ -9934,7 +9934,7 @@ DATA_BGRA_8
 &
 &
 (
-in_0
+input
 .
 A2B0
 .
@@ -9943,7 +9943,7 @@ is_some
 )
 |
 |
-out
+output
 .
 B2A0
 .
@@ -9952,7 +9952,7 @@ is_some
 )
 |
 |
-in_0
+input
 .
 mAB
 .
@@ -9961,7 +9961,7 @@ is_some
 )
 |
 |
-out
+output
 .
 mAB
 .
@@ -9976,8 +9976,8 @@ result
 transform_precacheLUT_float
 (
 transform
-in_0
-out
+input
+output
 33
 in_type
 )
@@ -10014,7 +10014,7 @@ Arc
 :
 clone
 (
-out
+output
 .
 output_table_r
 .
@@ -10039,7 +10039,7 @@ Arc
 :
 clone
 (
-out
+output
 .
 output_table_g
 .
@@ -10064,7 +10064,7 @@ Arc
 :
 clone
 (
-out
+output
 .
 output_table_b
 .
@@ -10082,7 +10082,7 @@ unwrap
 else
 {
 if
-out
+output
 .
 redTRC
 .
@@ -10091,7 +10091,7 @@ is_none
 )
 |
 |
-out
+output
 .
 greenTRC
 .
@@ -10100,7 +10100,7 @@ is_none
 )
 |
 |
-out
+output
 .
 blueTRC
 .
@@ -10120,7 +10120,7 @@ Some
 (
 build_output_lut
 (
-out
+output
 .
 redTRC
 .
@@ -10142,7 +10142,7 @@ Some
 (
 build_output_lut
 (
-out
+output
 .
 greenTRC
 .
@@ -10164,7 +10164,7 @@ Some
 (
 build_output_lut
 (
-out
+output
 .
 blueTRC
 .
@@ -10211,7 +10211,7 @@ None
 }
 }
 if
-in_0
+input
 .
 color_space
 =
@@ -10591,7 +10591,7 @@ input_gamma_table_r
 =
 build_input_gamma_table
 (
-in_0
+input
 .
 redTRC
 .
@@ -10606,7 +10606,7 @@ input_gamma_table_g
 =
 build_input_gamma_table
 (
-in_0
+input
 .
 greenTRC
 .
@@ -10621,7 +10621,7 @@ input_gamma_table_b
 =
 build_input_gamma_table
 (
-in_0
+input
 .
 blueTRC
 .
@@ -10668,7 +10668,7 @@ Matrix
 =
 build_colorant_matrix
 (
-in_0
+input
 )
 ;
 let
@@ -10679,7 +10679,7 @@ Matrix
 =
 build_colorant_matrix
 (
-out
+output
 )
 ;
 out_matrix
@@ -10961,7 +10961,7 @@ m
 }
 else
 if
-in_0
+input
 .
 color_space
 =
@@ -10974,7 +10974,7 @@ input_gamma_table_gray
 =
 build_input_gamma_table
 (
-in_0
+input
 .
 grayTRC
 .
