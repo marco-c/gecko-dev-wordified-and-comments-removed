@@ -54,7 +54,6 @@ title
 "
 discovery
 "
-        
 description
 =
 "

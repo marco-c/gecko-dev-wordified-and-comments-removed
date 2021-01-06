@@ -29,14 +29,6 @@ AppDataDiskFolder
 )
 :
     
-transient
-=
-True
-    
-can_update
-=
-False
-    
 def
 __init__
 (
@@ -149,5 +141,17 @@ for_py_version
 )
 :
         
-raise
-NotImplementedError
+return
+None
+    
+property
+    
+def
+transient
+(
+self
+)
+:
+        
+return
+True

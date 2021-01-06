@@ -122,7 +122,6 @@ no
 -
 seed
 "
-            
 "
 -
 -
@@ -130,7 +129,6 @@ without
 -
 pip
 "
-            
 help
 =
 "
@@ -140,13 +138,11 @@ install
 seed
 packages
 "
-            
 action
 =
 "
 store_true
 "
-            
 dest
 =
 "

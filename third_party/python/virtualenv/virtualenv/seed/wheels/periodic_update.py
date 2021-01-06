@@ -94,7 +94,7 @@ util
 .
 subprocess
 import
-CREATE_NO_WINDOW
+DETACHED_PROCESS
 Popen
 from
 .
@@ -650,15 +650,12 @@ self
 __class__
 .
 __name__
-            
 self
 .
 filename
-            
 self
 .
 found_date
-            
 self
 .
 release_date
@@ -1269,7 +1266,7 @@ creationflags
 "
 ]
 =
-CREATE_NO_WINDOW
+DETACHED_PROCESS
     
 process
 =

@@ -272,12 +272,7 @@ install_pip_requirements
 (
             
 PYLINT_REQUIREMENTS_PATH
-            
 quiet
-=
-True
-            
-legacy_resolver
 =
 True
         

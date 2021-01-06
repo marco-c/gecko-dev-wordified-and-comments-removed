@@ -295,17 +295,14 @@ system_site_packages
 self
 .
 enable_system_site_package
-            
 clear
 =
 False
-            
 symlinks
 =
 self
 .
 symlinks
-            
 with_pip
 =
 False
