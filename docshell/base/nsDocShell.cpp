@@ -130,6 +130,15 @@ include
 "
 mozilla
 /
+InputTaskManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LoadInfo
 .
 h

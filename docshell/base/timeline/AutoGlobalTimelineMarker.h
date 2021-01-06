@@ -7,6 +7,15 @@ mozilla_AutoGlobalTimelineMarker_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 TimelineMarkerEnums
 .
 h

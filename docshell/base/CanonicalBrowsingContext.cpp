@@ -253,6 +253,13 @@ h
 #
 include
 "
+nsIXULRuntime
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

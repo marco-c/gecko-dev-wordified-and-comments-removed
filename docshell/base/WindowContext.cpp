@@ -80,6 +80,17 @@ include
 "
 mozilla
 /
+dom
+/
+UserActivationIPCUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PermissionDelegateIPCUtils
 .
 h
