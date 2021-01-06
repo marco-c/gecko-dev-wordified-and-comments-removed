@@ -2109,7 +2109,7 @@ NS_OK
 }
 mWatchEvent
 =
-CreateEvent
+CreateEventW
 (
 nullptr
 TRUE
