@@ -1322,7 +1322,8 @@ DEBUG
 :
 foo
 :
-Trying
+Looking
+for
 unknown
             
 ERROR
@@ -1420,14 +1421,16 @@ DEBUG
 :
 foo
 :
-Trying
+Looking
+for
 unknown
             
 DEBUG
 :
 foo
 :
-Trying
+Looking
+for
 unknown
 -
 2
@@ -1436,7 +1439,8 @@ DEBUG
 :
 foo
 :
-Trying
+Looking
+for
 '
 unknown
 3
@@ -2060,7 +2064,8 @@ DEBUG
 :
 foo
 :
-Trying
+Looking
+for
 %
 s
             
@@ -2267,7 +2272,8 @@ DEBUG
 :
 foo
 :
-Trying
+Looking
+for
 unknown
             
 ERROR
@@ -2473,14 +2479,16 @@ DEBUG
 :
 cc
 :
-Trying
+Looking
+for
 unknown
             
 DEBUG
 :
 cc
 :
-Trying
+Looking
+for
 unknown
 -
 2
@@ -2489,7 +2497,8 @@ DEBUG
 :
 cc
 :
-Trying
+Looking
+for
 '
 unknown
 3
@@ -3222,14 +3231,16 @@ DEBUG
 :
 cc
 :
-Trying
+Looking
+for
 gcc
             
 DEBUG
 :
 cc
 :
-Trying
+Looking
+for
 clang
             
 ERROR
@@ -3311,14 +3322,16 @@ DEBUG
 :
 cc
 :
-Trying
+Looking
+for
 gcc
             
 DEBUG
 :
 cc
 :
-Trying
+Looking
+for
 clang
             
 ERROR
@@ -3400,14 +3413,16 @@ DEBUG
 :
 cc
 :
-Trying
+Looking
+for
 cl
             
 DEBUG
 :
 cc
 :
-Trying
+Looking
+for
 clang
 -
 cl
@@ -3960,7 +3975,8 @@ DEBUG
 :
 a
 :
-Trying
+Looking
+for
 known
 -
 a
@@ -4472,7 +4488,8 @@ DEBUG
 :
 a
 :
-Trying
+Looking
+for
 known
 -
 a
