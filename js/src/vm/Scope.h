@@ -1530,7 +1530,7 @@ typename
 ConcreteScope
 :
 :
-Data
+RuntimeData
 *
 >
 data
@@ -1561,7 +1561,7 @@ typename
 ConcreteScope
 :
 :
-Data
+RuntimeData
 >
 >
 data
@@ -1653,7 +1653,7 @@ typename
 ConcreteScope
 :
 :
-Data
+RuntimeData
 >
 >
 data
@@ -2075,7 +2075,7 @@ endif
 template
 <
 class
-Data
+DataT
 >
 inline
 size_t
@@ -2085,10 +2085,45 @@ uint32_t
 numBindings
 )
 {
+static_assert
+(
+sizeof
+(
+DataT
+)
+=
+=
+offsetof
+(
+DataT
+trailingNames
+)
++
+sizeof
+(
+AbstractBindingName
+<
+typename
+DataT
+:
+:
+NameType
+>
+)
+"
+Unexpected
+default
+number
+of
+inlined
+elements
+"
+)
+;
 return
 sizeof
 (
-Data
+DataT
 )
 +
 (
@@ -2107,7 +2142,7 @@ sizeof
 AbstractBindingName
 <
 typename
-Data
+DataT
 :
 :
 NameType
@@ -2167,7 +2202,7 @@ typename
 ScopeT
 :
 :
-Data
+RuntimeData
 >
 AllowGC
 :
@@ -2244,7 +2279,7 @@ alignas
 (
 ScopeDataAlignBytes
 )
-Data
+RuntimeData
 :
 public
 AbstractBaseScopeData
@@ -2262,7 +2297,7 @@ JSAtom
 trailingNames
 ;
 explicit
-Data
+RuntimeData
 (
 size_t
 nameCount
@@ -2274,7 +2309,7 @@ nameCount
 )
 {
 }
-Data
+RuntimeData
 (
 )
 =
@@ -2360,7 +2395,7 @@ JSAtom
 :
 :
 value
-Data
+RuntimeData
 ParserData
 >
 ;
@@ -2403,7 +2438,7 @@ MutableHandle
 <
 UniquePtr
 <
-Data
+RuntimeData
 >
 >
 data
@@ -2445,7 +2480,7 @@ ShapeT
 envShape
 )
 ;
-Data
+RuntimeData
 &
 data
 (
@@ -2455,7 +2490,7 @@ return
 *
 static_cast
 <
-Data
+RuntimeData
 *
 >
 (
@@ -2466,7 +2501,7 @@ rawData
 ;
 }
 const
-Data
+RuntimeData
 &
 data
 (
@@ -2478,7 +2513,7 @@ return
 static_cast
 <
 const
-Data
+RuntimeData
 *
 >
 (
@@ -2714,7 +2749,7 @@ alignas
 (
 ScopeDataAlignBytes
 )
-Data
+RuntimeData
 :
 public
 AbstractBaseScopeData
@@ -2742,7 +2777,7 @@ JSAtom
 trailingNames
 ;
 explicit
-Data
+RuntimeData
 (
 size_t
 nameCount
@@ -2754,7 +2789,7 @@ nameCount
 )
 {
 }
-Data
+RuntimeData
 (
 )
 =
@@ -2840,7 +2875,7 @@ JSAtom
 :
 :
 value
-Data
+RuntimeData
 ParserData
 >
 ;
@@ -2935,7 +2970,7 @@ MutableHandle
 <
 UniquePtr
 <
-Data
+RuntimeData
 >
 >
 data
@@ -2949,7 +2984,7 @@ HandleScope
 enclosing
 )
 ;
-Data
+RuntimeData
 &
 data
 (
@@ -2959,7 +2994,7 @@ return
 *
 static_cast
 <
-Data
+RuntimeData
 *
 >
 (
@@ -2970,7 +3005,7 @@ rawData
 ;
 }
 const
-Data
+RuntimeData
 &
 data
 (
@@ -2982,7 +3017,7 @@ return
 static_cast
 <
 const
-Data
+RuntimeData
 *
 >
 (
@@ -3144,7 +3179,7 @@ alignas
 (
 ScopeDataAlignBytes
 )
-Data
+RuntimeData
 :
 public
 AbstractBaseScopeData
@@ -3162,7 +3197,7 @@ JSAtom
 trailingNames
 ;
 explicit
-Data
+RuntimeData
 (
 size_t
 nameCount
@@ -3174,7 +3209,7 @@ nameCount
 )
 {
 }
-Data
+RuntimeData
 (
 )
 =
@@ -3260,7 +3295,7 @@ JSAtom
 :
 :
 value
-Data
+RuntimeData
 ParserData
 >
 ;
@@ -3303,7 +3338,7 @@ MutableHandle
 <
 UniquePtr
 <
-Data
+RuntimeData
 >
 >
 data
@@ -3349,7 +3384,7 @@ ShapeT
 envShape
 )
 ;
-Data
+RuntimeData
 &
 data
 (
@@ -3359,7 +3394,7 @@ return
 *
 static_cast
 <
-Data
+RuntimeData
 *
 >
 (
@@ -3370,7 +3405,7 @@ rawData
 ;
 }
 const
-Data
+RuntimeData
 &
 data
 (
@@ -3382,7 +3417,7 @@ return
 static_cast
 <
 const
-Data
+RuntimeData
 *
 >
 (
@@ -3486,7 +3521,7 @@ alignas
 (
 ScopeDataAlignBytes
 )
-Data
+RuntimeData
 :
 public
 AbstractBaseScopeData
@@ -3504,7 +3539,7 @@ JSAtom
 trailingNames
 ;
 explicit
-Data
+RuntimeData
 (
 size_t
 nameCount
@@ -3516,7 +3551,7 @@ nameCount
 )
 {
 }
-Data
+RuntimeData
 (
 )
 =
@@ -3602,7 +3637,7 @@ JSAtom
 :
 :
 value
-Data
+RuntimeData
 ParserData
 >
 ;
@@ -3618,7 +3653,7 @@ ScopeKind
 kind
 Handle
 <
-Data
+RuntimeData
 *
 >
 data
@@ -3700,13 +3735,13 @@ MutableHandle
 <
 UniquePtr
 <
-Data
+RuntimeData
 >
 >
 data
 )
 ;
-Data
+RuntimeData
 &
 data
 (
@@ -3716,7 +3751,7 @@ return
 *
 static_cast
 <
-Data
+RuntimeData
 *
 >
 (
@@ -3727,7 +3762,7 @@ rawData
 ;
 }
 const
-Data
+RuntimeData
 &
 data
 (
@@ -3739,7 +3774,7 @@ return
 static_cast
 <
 const
-Data
+RuntimeData
 *
 >
 (
@@ -3935,7 +3970,7 @@ alignas
 (
 ScopeDataAlignBytes
 )
-Data
+RuntimeData
 :
 public
 AbstractBaseScopeData
@@ -3953,7 +3988,7 @@ JSAtom
 trailingNames
 ;
 explicit
-Data
+RuntimeData
 (
 size_t
 nameCount
@@ -3965,7 +4000,7 @@ nameCount
 )
 {
 }
-Data
+RuntimeData
 (
 )
 =
@@ -4051,7 +4086,7 @@ JSAtom
 :
 :
 value
-Data
+RuntimeData
 ParserData
 >
 ;
@@ -4094,7 +4129,7 @@ MutableHandle
 <
 UniquePtr
 <
-Data
+RuntimeData
 >
 >
 data
@@ -4132,7 +4167,7 @@ ShapeT
 envShape
 )
 ;
-Data
+RuntimeData
 &
 data
 (
@@ -4142,7 +4177,7 @@ return
 *
 static_cast
 <
-Data
+RuntimeData
 *
 >
 (
@@ -4153,7 +4188,7 @@ rawData
 ;
 }
 const
-Data
+RuntimeData
 &
 data
 (
@@ -4165,7 +4200,7 @@ return
 static_cast
 <
 const
-Data
+RuntimeData
 *
 >
 (
@@ -4390,7 +4425,7 @@ alignas
 (
 ScopeDataAlignBytes
 )
-Data
+RuntimeData
 :
 public
 AbstractBaseScopeData
@@ -4418,13 +4453,13 @@ JSAtom
 trailingNames
 ;
 explicit
-Data
+RuntimeData
 (
 size_t
 nameCount
 )
 ;
-Data
+RuntimeData
 (
 )
 =
@@ -4510,7 +4545,7 @@ JSAtom
 :
 :
 value
-Data
+RuntimeData
 ParserData
 >
 ;
@@ -4551,7 +4586,7 @@ MutableHandle
 <
 UniquePtr
 <
-Data
+RuntimeData
 >
 >
 data
@@ -4595,7 +4630,7 @@ ShapeT
 envShape
 )
 ;
-Data
+RuntimeData
 &
 data
 (
@@ -4605,7 +4640,7 @@ return
 *
 static_cast
 <
-Data
+RuntimeData
 *
 >
 (
@@ -4616,7 +4651,7 @@ rawData
 ;
 }
 const
-Data
+RuntimeData
 &
 data
 (
@@ -4628,7 +4663,7 @@ return
 static_cast
 <
 const
-Data
+RuntimeData
 *
 >
 (
@@ -4742,7 +4777,7 @@ alignas
 (
 ScopeDataAlignBytes
 )
-Data
+RuntimeData
 :
 public
 AbstractBaseScopeData
@@ -4770,13 +4805,13 @@ JSAtom
 trailingNames
 ;
 explicit
-Data
+RuntimeData
 (
 size_t
 nameCount
 )
 ;
-Data
+RuntimeData
 (
 )
 =
@@ -4862,7 +4897,7 @@ JSAtom
 :
 :
 value
-Data
+RuntimeData
 ParserData
 >
 ;
@@ -4881,7 +4916,7 @@ instance
 ;
 private
 :
-Data
+RuntimeData
 &
 data
 (
@@ -4891,7 +4926,7 @@ return
 *
 static_cast
 <
-Data
+RuntimeData
 *
 >
 (
@@ -4902,7 +4937,7 @@ rawData
 ;
 }
 const
-Data
+RuntimeData
 &
 data
 (
@@ -4914,7 +4949,7 @@ return
 static_cast
 <
 const
-Data
+RuntimeData
 *
 >
 (
@@ -5042,7 +5077,7 @@ alignas
 (
 ScopeDataAlignBytes
 )
-Data
+RuntimeData
 :
 public
 AbstractBaseScopeData
@@ -5060,7 +5095,7 @@ JSAtom
 trailingNames
 ;
 explicit
-Data
+RuntimeData
 (
 size_t
 nameCount
@@ -5072,7 +5107,7 @@ nameCount
 )
 {
 }
-Data
+RuntimeData
 (
 )
 =
@@ -5158,7 +5193,7 @@ JSAtom
 :
 :
 value
-Data
+RuntimeData
 ParserData
 >
 ;
@@ -5178,7 +5213,7 @@ funcIndex
 ;
 private
 :
-Data
+RuntimeData
 &
 data
 (
@@ -5188,7 +5223,7 @@ return
 *
 static_cast
 <
-Data
+RuntimeData
 *
 >
 (
@@ -5199,7 +5234,7 @@ rawData
 ;
 }
 const
-Data
+RuntimeData
 &
 data
 (
@@ -5211,7 +5246,7 @@ return
 static_cast
 <
 const
-Data
+RuntimeData
 *
 >
 (
@@ -7910,7 +7945,7 @@ js
 LexicalScope
 :
 :
-Data
+RuntimeData
 )
 ;
 DEFINE_SCOPE_DATA_GCPOLICY
@@ -7921,7 +7956,7 @@ js
 FunctionScope
 :
 :
-Data
+RuntimeData
 )
 ;
 DEFINE_SCOPE_DATA_GCPOLICY
@@ -7932,7 +7967,7 @@ js
 VarScope
 :
 :
-Data
+RuntimeData
 )
 ;
 DEFINE_SCOPE_DATA_GCPOLICY
@@ -7943,7 +7978,7 @@ js
 GlobalScope
 :
 :
-Data
+RuntimeData
 )
 ;
 DEFINE_SCOPE_DATA_GCPOLICY
@@ -7954,7 +7989,7 @@ js
 EvalScope
 :
 :
-Data
+RuntimeData
 )
 ;
 DEFINE_SCOPE_DATA_GCPOLICY
@@ -7965,7 +8000,7 @@ js
 ModuleScope
 :
 :
-Data
+RuntimeData
 )
 ;
 DEFINE_SCOPE_DATA_GCPOLICY
@@ -7976,7 +8011,7 @@ js
 WasmFunctionScope
 :
 :
-Data
+RuntimeData
 )
 ;
 #

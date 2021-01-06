@@ -7161,7 +7161,7 @@ void
 LexicalScope
 :
 :
-Data
+RuntimeData
 :
 :
 trace
@@ -7189,7 +7189,7 @@ void
 FunctionScope
 :
 :
-Data
+RuntimeData
 :
 :
 trace
@@ -7229,7 +7229,7 @@ void
 VarScope
 :
 :
-Data
+RuntimeData
 :
 :
 trace
@@ -7257,7 +7257,7 @@ void
 GlobalScope
 :
 :
-Data
+RuntimeData
 :
 :
 trace
@@ -7285,7 +7285,7 @@ void
 EvalScope
 :
 :
-Data
+RuntimeData
 :
 :
 trace
@@ -7313,7 +7313,7 @@ void
 ModuleScope
 :
 :
-Data
+RuntimeData
 :
 :
 trace
@@ -7352,7 +7352,7 @@ void
 WasmInstanceScope
 :
 :
-Data
+RuntimeData
 :
 :
 trace
@@ -7391,7 +7391,7 @@ void
 WasmFunctionScope
 :
 :
-Data
+RuntimeData
 :
 :
 trace
@@ -7544,7 +7544,7 @@ Function
 FunctionScope
 :
 :
-Data
+RuntimeData
 &
 data
 =
@@ -7606,7 +7606,7 @@ FunctionBodyVar
 VarScope
 :
 :
-Data
+RuntimeData
 &
 data
 =
@@ -7688,7 +7688,7 @@ ClassBody
 LexicalScope
 :
 :
-Data
+RuntimeData
 &
 data
 =
@@ -7740,7 +7740,7 @@ NonSyntactic
 GlobalScope
 :
 :
-Data
+RuntimeData
 &
 data
 =
@@ -7792,7 +7792,7 @@ StrictEval
 EvalScope
 :
 :
-Data
+RuntimeData
 &
 data
 =
@@ -7838,7 +7838,7 @@ Module
 ModuleScope
 :
 :
-Data
+RuntimeData
 &
 data
 =
@@ -7908,7 +7908,7 @@ WasmInstance
 WasmInstanceScope
 :
 :
-Data
+RuntimeData
 &
 data
 =
@@ -7962,7 +7962,7 @@ WasmFunction
 WasmFunctionScope
 :
 :
-Data
+RuntimeData
 &
 data
 =
