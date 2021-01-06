@@ -5728,8 +5728,6 @@ HasAnyStateBits
 NS_FRAME_IS_DIRTY
 |
 NS_FRAME_HAS_DIRTY_CHILDREN
-|
-NS_FRAME_FIRST_REFLOW
 )
 ;
 }
@@ -6707,12 +6705,6 @@ frame
 >
 FrameMaintainsOverflow
 (
-)
-|
-|
-CanSkipOverflowUpdates
-(
-frame
 )
 )
 {
