@@ -1547,13 +1547,6 @@ if
 (
 !
 cand
-|
-|
-!
-cand
--
->
-done_cb
 )
 {
 assert
@@ -1708,6 +1701,11 @@ state
 =
 state
 ;
+if
+(
+done_cb
+)
+{
 done_cb
 (
 0
@@ -1718,6 +1716,7 @@ cand
 cb_arg
 )
 ;
+}
 }
 int
 nr_ice_candidate_destroy
