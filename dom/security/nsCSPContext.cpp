@@ -674,10 +674,6 @@ aCSPEventListener
 nsIURI
 *
 aContentLocation
-const
-nsACString
-&
-aMimeTypeGuess
 nsIURI
 *
 aOriginalURIIfRedirect

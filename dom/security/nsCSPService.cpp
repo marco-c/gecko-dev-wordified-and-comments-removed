@@ -682,7 +682,6 @@ ShouldLoad
 contentType
 cspEventListener
 aContentLocation
-aMimeTypeGuess
 nullptr
 aLoadInfo
 -
@@ -753,7 +752,6 @@ ShouldLoad
 contentType
 cspEventListener
 aContentLocation
-aMimeTypeGuess
 nullptr
 aLoadInfo
 -
@@ -1423,9 +1421,6 @@ ShouldLoad
 policyType
 cspEventListener
 aNewURI
-"
-"
-_ns
 aOriginalURI
 true
 cspNonce
@@ -1481,9 +1476,6 @@ ShouldLoad
 policyType
 cspEventListener
 aNewURI
-"
-"
-_ns
 aOriginalURI
 true
 cspNonce
