@@ -3292,8 +3292,6 @@ DecodedStream
 :
 SendAudio
 (
-double
-aVolume
 const
 PrincipalHandle
 &
@@ -4746,7 +4744,6 @@ SendData
 ;
 SendAudio
 (
-mVolume
 mPrincipalHandle
 )
 ;
