@@ -1753,7 +1753,7 @@ cx
 input
 stencil
 gcOutput
-scriptStencil
+index
 sharedData
 fun
 )
@@ -1998,7 +1998,10 @@ input
 stencil
 gcOutput
 script
-scriptStencil
+CompilationInfo
+:
+:
+TopLevelIndex
 sharedData
 fun
 )
@@ -2054,7 +2057,10 @@ cx
 input
 stencil
 gcOutput
-scriptStencil
+CompilationInfo
+:
+:
+TopLevelIndex
 sharedData
 fun
 )
