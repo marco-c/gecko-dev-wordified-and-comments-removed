@@ -43,7 +43,7 @@ double_to_s15Fixed16Number
 iccread
 :
 :
-qcms_supports_iccv4
+SUPPORTS_ICCV4
 matrix
 :
 :
@@ -9185,7 +9185,7 @@ return
 ;
 }
 if
-qcms_supports_iccv4
+SUPPORTS_ICCV4
 .
 load
 (
@@ -9908,7 +9908,7 @@ precache
 true
 }
 if
-qcms_supports_iccv4
+SUPPORTS_ICCV4
 .
 load
 (
@@ -11380,7 +11380,7 @@ qcms_enable_iccv4
 (
 )
 {
-qcms_supports_iccv4
+SUPPORTS_ICCV4
 .
 store
 (

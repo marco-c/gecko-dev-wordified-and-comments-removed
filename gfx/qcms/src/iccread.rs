@@ -51,7 +51,7 @@ Intent
 ;
 pub
 static
-qcms_supports_iccv4
+SUPPORTS_ICCV4
 :
 AtomicBool
 =
@@ -7325,7 +7325,7 @@ is_some
 |
 |
 !
-qcms_supports_iccv4
+SUPPORTS_ICCV4
 .
 load
 (
@@ -7395,7 +7395,7 @@ is_some
 |
 |
 !
-qcms_supports_iccv4
+SUPPORTS_ICCV4
 .
 load
 (
