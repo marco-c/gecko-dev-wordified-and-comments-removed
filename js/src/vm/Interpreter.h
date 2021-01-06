@@ -2335,17 +2335,6 @@ newKind
 GenericObject
 )
 ;
-ArrayObject
-*
-NewArrayOperationWithTemplate
-(
-JSContext
-*
-cx
-HandleObject
-templateObject
-)
-;
 MOZ_MUST_USE
 bool
 GetImportOperation
