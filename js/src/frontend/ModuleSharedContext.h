@@ -88,7 +88,10 @@ SuspendableContext
 {
 public
 :
-ParserModuleScopeData
+ModuleScope
+:
+:
+ParserData
 *
 bindings
 ;
