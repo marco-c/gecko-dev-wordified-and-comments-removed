@@ -253,15 +253,12 @@ inline
 fn
 lerp
 (
-mut
 a
 :
 f32
-mut
 b
 :
 f32
-mut
 t
 :
 f32
@@ -287,7 +284,6 @@ t
 fn
 build_lut_matrix
 (
-mut
 lut
 :
 Option
@@ -846,7 +842,6 @@ src
 [
 f32
 ]
-mut
 dest
 :
 &
@@ -857,7 +852,6 @@ f32
 )
 {
 let
-mut
 WhitePointX
 :
 f32
@@ -867,7 +861,6 @@ f32
 9642
 ;
 let
-mut
 WhitePointY
 :
 f32
@@ -877,7 +870,6 @@ f32
 0
 ;
 let
-mut
 WhitePointZ
 :
 f32
@@ -910,7 +902,6 @@ chunks_exact
 )
 {
 let
-mut
 device_L
 :
 f32
@@ -925,7 +916,6 @@ src
 0
 ;
 let
-mut
 device_a
 :
 f32
@@ -944,7 +934,6 @@ src
 0
 ;
 let
-mut
 device_b
 :
 f32
@@ -963,7 +952,6 @@ src
 0
 ;
 let
-mut
 y
 :
 f32
@@ -981,7 +969,6 @@ device_L
 0
 ;
 let
-mut
 X
 =
 f_1
@@ -998,7 +985,6 @@ device_a
 WhitePointX
 ;
 let
-mut
 Y
 =
 f_1
@@ -1009,7 +995,6 @@ y
 WhitePointY
 ;
 let
-mut
 Z
 =
 f_1
@@ -1115,14 +1100,12 @@ _transform
 :
 &
 qcms_modular_transform
-mut
 src
 :
 &
 [
 f32
 ]
-mut
 dest
 :
 &
@@ -1133,7 +1116,6 @@ f32
 )
 {
 let
-mut
 WhitePointX
 :
 f32
@@ -1143,7 +1125,6 @@ f32
 9642
 ;
 let
-mut
 WhitePointY
 :
 f32
@@ -1153,7 +1134,6 @@ f32
 0
 ;
 let
-mut
 WhitePointZ
 :
 f32
@@ -1186,7 +1166,6 @@ chunks_exact
 )
 {
 let
-mut
 device_x
 :
 f32
@@ -1221,7 +1200,6 @@ as
 f32
 ;
 let
-mut
 device_y
 :
 f32
@@ -1256,7 +1234,6 @@ as
 f32
 ;
 let
-mut
 device_z
 :
 f32
@@ -1291,7 +1268,6 @@ as
 f32
 ;
 let
-mut
 fx
 =
 f
@@ -1300,7 +1276,6 @@ device_x
 )
 ;
 let
-mut
 fy
 =
 f
@@ -1309,7 +1284,6 @@ device_y
 )
 ;
 let
-mut
 fz
 =
 f
@@ -1318,7 +1292,6 @@ device_z
 )
 ;
 let
-mut
 L
 :
 f32
@@ -1334,7 +1307,6 @@ fy
 0
 ;
 let
-mut
 a
 :
 f32
@@ -1350,7 +1322,6 @@ fy
 )
 ;
 let
-mut
 b
 :
 f32
@@ -1415,19 +1386,16 @@ b
 fn
 transform_module_clut_only
 (
-mut
 transform
 :
 &
 qcms_modular_transform
-mut
 src
 :
 &
 [
 f32
 ]
-mut
 dest
 :
 &
@@ -1438,7 +1406,6 @@ f32
 )
 {
 let
-mut
 xy_len
 :
 i32
@@ -1446,7 +1413,6 @@ i32
 1
 ;
 let
-mut
 x_len
 :
 i32
@@ -1458,7 +1424,6 @@ as
 i32
 ;
 let
-mut
 len
 :
 i32
@@ -1468,7 +1433,6 @@ x_len
 x_len
 ;
 let
-mut
 r_table
 =
 &
@@ -1490,7 +1454,6 @@ unwrap
 ]
 ;
 let
-mut
 g_table
 =
 &
@@ -1512,7 +1475,6 @@ unwrap
 ]
 ;
 let
-mut
 b_table
 =
 &
@@ -1607,7 +1569,6 @@ i32
 )
 ;
 let
-mut
 linear_r
 :
 f32
@@ -1618,7 +1579,6 @@ src
 ]
 ;
 let
-mut
 linear_g
 :
 f32
@@ -1629,7 +1589,6 @@ src
 ]
 ;
 let
-mut
 linear_b
 :
 f32
@@ -1640,7 +1599,6 @@ src
 ]
 ;
 let
-mut
 x
 :
 i32
@@ -1668,7 +1626,6 @@ as
 i32
 ;
 let
-mut
 y
 :
 i32
@@ -1696,7 +1653,6 @@ as
 i32
 ;
 let
-mut
 z
 :
 i32
@@ -1724,7 +1680,6 @@ as
 i32
 ;
 let
-mut
 x_n
 :
 i32
@@ -1752,7 +1707,6 @@ as
 i32
 ;
 let
-mut
 y_n
 :
 i32
@@ -1780,7 +1734,6 @@ as
 i32
 ;
 let
-mut
 z_n
 :
 i32
@@ -1808,7 +1761,6 @@ as
 i32
 ;
 let
-mut
 x_d
 :
 f32
@@ -1832,7 +1784,6 @@ as
 f32
 ;
 let
-mut
 y_d
 :
 f32
@@ -1856,7 +1807,6 @@ as
 f32
 ;
 let
-mut
 z_d
 :
 f32
@@ -1880,7 +1830,6 @@ as
 f32
 ;
 let
-mut
 r_x1
 :
 f32
@@ -1905,7 +1854,6 @@ x_d
 )
 ;
 let
-mut
 r_x2
 :
 f32
@@ -1930,7 +1878,6 @@ x_d
 )
 ;
 let
-mut
 r_y1
 :
 f32
@@ -1943,7 +1890,6 @@ y_d
 )
 ;
 let
-mut
 r_x3
 :
 f32
@@ -1968,7 +1914,6 @@ x_d
 )
 ;
 let
-mut
 r_x4
 :
 f32
@@ -1993,7 +1938,6 @@ x_d
 )
 ;
 let
-mut
 r_y2
 :
 f32
@@ -2006,7 +1950,6 @@ y_d
 )
 ;
 let
-mut
 clut_r
 :
 f32
@@ -2019,7 +1962,6 @@ z_d
 )
 ;
 let
-mut
 g_x1
 :
 f32
@@ -2044,7 +1986,6 @@ x_d
 )
 ;
 let
-mut
 g_x2
 :
 f32
@@ -2069,7 +2010,6 @@ x_d
 )
 ;
 let
-mut
 g_y1
 :
 f32
@@ -2082,7 +2022,6 @@ y_d
 )
 ;
 let
-mut
 g_x3
 :
 f32
@@ -2107,7 +2046,6 @@ x_d
 )
 ;
 let
-mut
 g_x4
 :
 f32
@@ -2132,7 +2070,6 @@ x_d
 )
 ;
 let
-mut
 g_y2
 :
 f32
@@ -2145,7 +2082,6 @@ y_d
 )
 ;
 let
-mut
 clut_g
 :
 f32
@@ -2158,7 +2094,6 @@ z_d
 )
 ;
 let
-mut
 b_x1
 :
 f32
@@ -2183,7 +2118,6 @@ x_d
 )
 ;
 let
-mut
 b_x2
 :
 f32
@@ -2208,7 +2142,6 @@ x_d
 )
 ;
 let
-mut
 b_y1
 :
 f32
@@ -2221,7 +2154,6 @@ y_d
 )
 ;
 let
-mut
 b_x3
 :
 f32
@@ -2246,7 +2178,6 @@ x_d
 )
 ;
 let
-mut
 b_x4
 :
 f32
@@ -2271,7 +2202,6 @@ x_d
 )
 ;
 let
-mut
 b_y2
 :
 f32
@@ -2284,7 +2214,6 @@ y_d
 )
 ;
 let
-mut
 clut_b
 :
 f32
@@ -2331,19 +2260,16 @@ clut_b
 fn
 transform_module_clut
 (
-mut
 transform
 :
 &
 qcms_modular_transform
-mut
 src
 :
 &
 [
 f32
 ]
-mut
 dest
 :
 &
@@ -2354,7 +2280,6 @@ f32
 )
 {
 let
-mut
 xy_len
 :
 i32
@@ -2362,7 +2287,6 @@ i32
 1
 ;
 let
-mut
 x_len
 :
 i32
@@ -2374,7 +2298,6 @@ as
 i32
 ;
 let
-mut
 len
 :
 i32
@@ -2384,7 +2307,6 @@ x_len
 x_len
 ;
 let
-mut
 r_table
 =
 &
@@ -2406,7 +2328,6 @@ unwrap
 ]
 ;
 let
-mut
 g_table
 =
 &
@@ -2428,7 +2349,6 @@ unwrap
 ]
 ;
 let
-mut
 b_table
 =
 &
@@ -2568,7 +2488,6 @@ i32
 )
 ;
 let
-mut
 device_r
 :
 f32
@@ -2579,7 +2498,6 @@ src
 ]
 ;
 let
-mut
 device_g
 :
 f32
@@ -2590,7 +2508,6 @@ src
 ]
 ;
 let
-mut
 device_b
 :
 f32
@@ -2601,7 +2518,6 @@ src
 ]
 ;
 let
-mut
 linear_r
 :
 f32
@@ -2614,7 +2530,6 @@ input_clut_table_r
 )
 ;
 let
-mut
 linear_g
 :
 f32
@@ -2627,7 +2542,6 @@ input_clut_table_g
 )
 ;
 let
-mut
 linear_b
 :
 f32
@@ -2640,7 +2554,6 @@ input_clut_table_b
 )
 ;
 let
-mut
 x
 :
 i32
@@ -2668,7 +2581,6 @@ as
 i32
 ;
 let
-mut
 y
 :
 i32
@@ -2696,7 +2608,6 @@ as
 i32
 ;
 let
-mut
 z
 :
 i32
@@ -2724,7 +2635,6 @@ as
 i32
 ;
 let
-mut
 x_n
 :
 i32
@@ -2752,7 +2662,6 @@ as
 i32
 ;
 let
-mut
 y_n
 :
 i32
@@ -2780,7 +2689,6 @@ as
 i32
 ;
 let
-mut
 z_n
 :
 i32
@@ -2808,7 +2716,6 @@ as
 i32
 ;
 let
-mut
 x_d
 :
 f32
@@ -2832,7 +2739,6 @@ as
 f32
 ;
 let
-mut
 y_d
 :
 f32
@@ -2856,7 +2762,6 @@ as
 f32
 ;
 let
-mut
 z_d
 :
 f32
@@ -2880,7 +2785,6 @@ as
 f32
 ;
 let
-mut
 r_x1
 :
 f32
@@ -2905,7 +2809,6 @@ x_d
 )
 ;
 let
-mut
 r_x2
 :
 f32
@@ -2930,7 +2833,6 @@ x_d
 )
 ;
 let
-mut
 r_y1
 :
 f32
@@ -2943,7 +2845,6 @@ y_d
 )
 ;
 let
-mut
 r_x3
 :
 f32
@@ -2968,7 +2869,6 @@ x_d
 )
 ;
 let
-mut
 r_x4
 :
 f32
@@ -2993,7 +2893,6 @@ x_d
 )
 ;
 let
-mut
 r_y2
 :
 f32
@@ -3006,7 +2905,6 @@ y_d
 )
 ;
 let
-mut
 clut_r
 :
 f32
@@ -3019,7 +2917,6 @@ z_d
 )
 ;
 let
-mut
 g_x1
 :
 f32
@@ -3044,7 +2941,6 @@ x_d
 )
 ;
 let
-mut
 g_x2
 :
 f32
@@ -3069,7 +2965,6 @@ x_d
 )
 ;
 let
-mut
 g_y1
 :
 f32
@@ -3082,7 +2977,6 @@ y_d
 )
 ;
 let
-mut
 g_x3
 :
 f32
@@ -3107,7 +3001,6 @@ x_d
 )
 ;
 let
-mut
 g_x4
 :
 f32
@@ -3132,7 +3025,6 @@ x_d
 )
 ;
 let
-mut
 g_y2
 :
 f32
@@ -3145,7 +3037,6 @@ y_d
 )
 ;
 let
-mut
 clut_g
 :
 f32
@@ -3158,7 +3049,6 @@ z_d
 )
 ;
 let
-mut
 b_x1
 :
 f32
@@ -3183,7 +3073,6 @@ x_d
 )
 ;
 let
-mut
 b_x2
 :
 f32
@@ -3208,7 +3097,6 @@ x_d
 )
 ;
 let
-mut
 b_y1
 :
 f32
@@ -3221,7 +3109,6 @@ y_d
 )
 ;
 let
-mut
 b_x3
 :
 f32
@@ -3246,7 +3133,6 @@ x_d
 )
 ;
 let
-mut
 b_x4
 :
 f32
@@ -3271,7 +3157,6 @@ x_d
 )
 ;
 let
-mut
 b_y2
 :
 f32
@@ -3284,7 +3169,6 @@ y_d
 )
 ;
 let
-mut
 clut_b
 :
 f32
@@ -3297,7 +3181,6 @@ z_d
 )
 ;
 let
-mut
 pcs_r
 :
 f32
@@ -3320,7 +3203,6 @@ unwrap
 )
 ;
 let
-mut
 pcs_g
 :
 f32
@@ -3343,7 +3225,6 @@ unwrap
 )
 ;
 let
-mut
 pcs_b
 :
 f32
@@ -3400,19 +3281,16 @@ pcs_b
 fn
 transform_module_gamma_table
 (
-mut
 transform
 :
 &
 qcms_modular_transform
-mut
 src
 :
 &
 [
 f32
 ]
-mut
 dest
 :
 &
@@ -3509,7 +3387,6 @@ chunks_exact
 )
 {
 let
-mut
 in_r
 :
 f32
@@ -3520,7 +3397,6 @@ src
 ]
 ;
 let
-mut
 in_g
 :
 f32
@@ -3531,7 +3407,6 @@ src
 ]
 ;
 let
-mut
 in_b
 :
 f32
@@ -3600,19 +3475,16 @@ out_b
 fn
 transform_module_gamma_lut
 (
-mut
 transform
 :
 &
 qcms_modular_transform
-mut
 src
 :
 &
 [
 f32
 ]
-mut
 dest
 :
 &
@@ -3664,7 +3536,6 @@ chunks_exact
 )
 {
 let
-mut
 in_r
 :
 f32
@@ -3675,7 +3546,6 @@ src
 ]
 ;
 let
-mut
 in_g
 :
 f32
@@ -3686,7 +3556,6 @@ src
 ]
 ;
 let
-mut
 in_b
 :
 f32
@@ -3794,19 +3663,16 @@ out_b
 fn
 transform_module_matrix_translate
 (
-mut
 transform
 :
 &
 qcms_modular_transform
-mut
 src
 :
 &
 [
 f32
 ]
-mut
 dest
 :
 &
@@ -4063,7 +3929,6 @@ chunks_exact
 )
 {
 let
-mut
 in_r
 :
 f32
@@ -4074,7 +3939,6 @@ src
 ]
 ;
 let
-mut
 in_g
 :
 f32
@@ -4085,7 +3949,6 @@ src
 ]
 ;
 let
-mut
 in_b
 :
 f32
@@ -4096,7 +3959,6 @@ src
 ]
 ;
 let
-mut
 out_r
 :
 f32
@@ -4142,7 +4004,6 @@ transform
 tx
 ;
 let
-mut
 out_g
 :
 f32
@@ -4188,7 +4049,6 @@ transform
 ty
 ;
 let
-mut
 out_b
 :
 f32
@@ -4268,19 +4128,16 @@ out_b
 fn
 transform_module_matrix
 (
-mut
 transform
 :
 &
 qcms_modular_transform
-mut
 src
 :
 &
 [
 f32
 ]
-mut
 dest
 :
 &
@@ -4537,7 +4394,6 @@ chunks_exact
 )
 {
 let
-mut
 in_r
 :
 f32
@@ -4548,7 +4404,6 @@ src
 ]
 ;
 let
-mut
 in_g
 :
 f32
@@ -4559,7 +4414,6 @@ src
 ]
 ;
 let
-mut
 in_b
 :
 f32
@@ -4570,7 +4424,6 @@ src
 ]
 ;
 let
-mut
 out_r
 :
 f32
@@ -4612,7 +4465,6 @@ m
 in_b
 ;
 let
-mut
 out_g
 :
 f32
@@ -4654,7 +4506,6 @@ m
 in_b
 ;
 let
-mut
 out_b
 :
 f32
@@ -4812,7 +4663,6 @@ next_transform
 fn
 append_transform
 (
-mut
 transform
 :
 Option
@@ -4916,7 +4766,6 @@ is_some
 )
 {
 let
-mut
 next_transform
 =
 std
@@ -4956,7 +4805,6 @@ prev_transform
 fn
 modular_transform_create_mAB
 (
-mut
 lut
 :
 &
@@ -5003,7 +4851,6 @@ is_some
 )
 {
 let
-mut
 clut_length
 :
 usize
@@ -5708,7 +5555,6 @@ first_transform
 fn
 modular_transform_create_lut
 (
-mut
 lut
 :
 &
@@ -5744,7 +5590,6 @@ _in_curve_len
 usize
 ;
 let
-mut
 clut_length
 :
 usize
@@ -6225,7 +6070,6 @@ None
 fn
 modular_transform_create_input
 (
-mut
 in_0
 :
 &
@@ -6265,7 +6109,6 @@ is_some
 )
 {
 let
-mut
 lut_transform
 =
 modular_transform_create_lut
@@ -6361,7 +6204,6 @@ i32
 3
 {
 let
-mut
 mAB_transform
 =
 modular_transform_create_mAB
@@ -6934,7 +6776,6 @@ first_transform
 fn
 modular_transform_create_output
 (
-mut
 out
 :
 &
@@ -6974,7 +6815,6 @@ is_some
 )
 {
 let
-mut
 lut_transform
 =
 modular_transform_create_lut
@@ -7070,7 +6910,6 @@ i32
 3
 {
 let
-mut
 lut_transform_0
 =
 modular_transform_create_mAB
@@ -7697,12 +7536,10 @@ first_transform
 fn
 modular_transform_create
 (
-mut
 in_0
 :
 &
 Profile
-mut
 out
 :
 &
@@ -7741,7 +7578,6 @@ color_space
 RGB_SIGNATURE
 {
 let
-mut
 rgb_to_pcs
 =
 modular_transform_create_input
@@ -7907,7 +7743,6 @@ color_space
 RGB_SIGNATURE
 {
 let
-mut
 pcs_to_rgb
 =
 modular_transform_create_output
@@ -8081,31 +7916,26 @@ pub
 fn
 chain_transform
 (
-mut
 in_0
 :
 &
 Profile
-mut
 out
 :
 &
 Profile
-mut
 src
 :
 Vec
 <
 f32
 >
-mut
 dest
 :
 Vec
 <
 f32
 >
-mut
 lutSize
 :
 usize
@@ -8121,7 +7951,6 @@ f32
 >
 {
 let
-mut
 transform_list
 =
 modular_transform_create
@@ -8138,7 +7967,6 @@ is_some
 )
 {
 let
-mut
 lut
 =
 modular_transform_data

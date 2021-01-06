@@ -33,14 +33,6 @@ non_upper_case_globals
 #
 !
 [
-allow
-(
-unused_mut
-)
-]
-#
-!
-[
 feature
 (
 stdsimd
@@ -164,7 +156,6 @@ inline
 fn
 s15Fixed16Number_to_float
 (
-mut
 a
 :
 s15Fixed16Number
@@ -188,7 +179,6 @@ inline
 fn
 double_to_s15Fixed16Number
 (
-mut
 v
 :
 f64
