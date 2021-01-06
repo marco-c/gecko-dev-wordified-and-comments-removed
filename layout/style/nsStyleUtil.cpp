@@ -1607,10 +1607,10 @@ csp
 >
 GetAllowsInline
 (
-nsIContentSecurityPolicy
+nsIContentPolicy
 :
 :
-STYLE_SRC_DIRECTIVE
+TYPE_STYLESHEET
 nonce
 false
 aElement

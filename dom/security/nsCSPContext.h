@@ -476,6 +476,8 @@ nsAString
 &
 aNonce
 bool
+aIsPreload
+bool
 aSpecific
 bool
 aSendViolationReports
@@ -488,8 +490,8 @@ aParserCreated
 void
 reportInlineViolation
 (
-CSPDirective
-aDirective
+nsContentPolicyType
+aContentType
 mozilla
 :
 :
