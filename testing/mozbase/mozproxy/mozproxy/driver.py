@@ -92,6 +92,9 @@ add_argument
 -
 record
 "
+default
+=
+False
 help
 =
 "
@@ -559,14 +562,6 @@ mozinfo
 os
                 
 "
-playback_record
-"
-:
-args
-.
-record
-                
-"
 playback_tool
 "
 :
@@ -589,6 +584,14 @@ playback_files
 args
 .
 playback
+                
+"
+record
+"
+:
+args
+.
+record
                 
 "
 app
