@@ -2313,23 +2313,30 @@ extract_tb
 exc_tb
 )
             
+sentry_event_id
+=
+sentry
+.
+report_exception
+(
+exc_value
+)
+            
 self
 .
 _print_exception
 (
+                
 sys
 .
 stdout
 exc_type
 exc_value
 stack
-)
+sentry_event_id
+=
+sentry_event_id
             
-sentry
-.
-report_exception
-(
-exc_value
 )
             
 return
@@ -2869,6 +2876,8 @@ exc_info
 (
 )
             
+sentry_event_id
+=
 sentry
 .
 report_exception
@@ -2914,14 +2923,21 @@ _print_exception
 sys
 .
 stdout
+                    
 exc_type
+                    
 exc_value
+                    
 traceback
 .
 extract_tb
 (
 exc_tb
 )
+                    
+sentry_event_id
+=
+sentry_event_id
                 
 )
                 
@@ -3023,12 +3039,17 @@ self
 .
 _print_exception
 (
+                
 sys
 .
 stdout
 exc_type
 exc_value
 stack
+sentry_event_id
+=
+sentry_event_id
+            
 )
             
 return
@@ -3148,6 +3169,9 @@ fh
 exc_type
 exc_value
 stack
+sentry_event_id
+=
+None
 )
 :
         
@@ -3213,6 +3237,35 @@ fh
 write
 (
 l
+)
+        
+if
+not
+sentry_event_id
+:
+            
+return
+        
+fh
+.
+write
+(
+"
+\
+nSentry
+event
+ID
+:
+{
+}
+\
+n
+"
+.
+format
+(
+sentry_event_id
+)
 )
     
 def
