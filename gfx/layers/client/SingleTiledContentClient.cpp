@@ -34,6 +34,13 @@ UniquePtr
 .
 h
 "
+#
+include
+"
+TiledLayerBuffer
+.
+h
+"
 namespace
 mozilla
 {

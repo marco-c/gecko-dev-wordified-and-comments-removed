@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsTString
+.
+h
+"
+#
+include
+"
 PLDHashTable
 .
 h

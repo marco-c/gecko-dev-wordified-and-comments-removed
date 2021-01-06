@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 APZThreadUtils

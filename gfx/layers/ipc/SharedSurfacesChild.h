@@ -138,6 +138,9 @@ namespace
 gfx
 {
 class
+SourceSurface
+;
+class
 SourceSurfaceSharedData
 ;
 }

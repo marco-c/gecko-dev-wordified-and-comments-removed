@@ -8,6 +8,17 @@ h
 #
 include
 "
+mozilla
+/
+gfx
+/
+Logging
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h

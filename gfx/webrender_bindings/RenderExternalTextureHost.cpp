@@ -321,6 +321,9 @@ get_YCbCrDescriptor
 )
 ;
 const
+gfx
+:
+:
 SurfaceFormat
 surfaceFormat
 =

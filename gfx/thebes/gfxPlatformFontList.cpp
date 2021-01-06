@@ -12,6 +12,17 @@ include
 "
 mozilla
 /
+gfx
+/
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
 intl
 /
 LocaleService

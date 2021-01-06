@@ -8,6 +8,13 @@ h
 #
 include
 "
+VRServiceHost
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc

@@ -45,6 +45,17 @@ include
 "
 mozilla
 /
+dom
+/
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IntegerPrintfMacros
 .
 h

@@ -131,6 +131,9 @@ aEndpoint
 )
 )
 ;
+layers
+:
+:
 CompositorThread
 (
 )
@@ -294,6 +297,9 @@ IsInCompositorThread
 )
 )
 {
+layers
+:
+:
 CompositorThread
 (
 )

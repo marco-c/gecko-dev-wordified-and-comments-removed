@@ -9,6 +9,17 @@ include
 "
 mozilla
 /
+gfx
+/
+2D
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webrender
 /
 RenderCompositor
@@ -222,6 +233,9 @@ nullptr
 ;
 RefPtr
 <
+gfx
+:
+:
 DrawTarget
 >
 mDT
@@ -231,6 +245,9 @@ mRegion
 ;
 RefPtr
 <
+gfx
+:
+:
 DataSourceSurface
 >
 mSurface

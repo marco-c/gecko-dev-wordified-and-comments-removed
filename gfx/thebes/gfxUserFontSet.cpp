@@ -130,6 +130,13 @@ nsIFontLoadCompleteCallback
 .
 h
 "
+#
+include
+"
+nsProxyRelease
+.
+h
+"
 using
 namespace
 mozilla

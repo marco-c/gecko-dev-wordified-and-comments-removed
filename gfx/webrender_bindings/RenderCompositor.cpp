@@ -35,6 +35,17 @@ mozilla
 /
 gfx
 /
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
+gfx
+/
 gfxVars
 .
 h
