@@ -1469,10 +1469,6 @@ EmitLineNumberNote
 emitLineNote
 =
 EMIT_LINENOTE
-bool
-isInner
-=
-false
 )
 ;
 MOZ_MUST_USE
@@ -1987,10 +1983,6 @@ ParseNode
 arrayHead
 uint32_t
 count
-bool
-isInner
-=
-false
 )
 ;
 MOZ_MUST_USE
@@ -2060,10 +2052,6 @@ emitObject
 ListNode
 *
 objNode
-bool
-isInner
-=
-false
 )
 ;
 MOZ_MUST_USE
@@ -2109,10 +2097,6 @@ PropertyEmitter
 pe
 PropListType
 type
-bool
-isInner
-=
-false
 )
 ;
 MOZ_MUST_USE

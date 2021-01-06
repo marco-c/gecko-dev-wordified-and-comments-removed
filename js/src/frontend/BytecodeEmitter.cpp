@@ -39672,8 +39672,6 @@ PropertyEmitter
 pe
 PropListType
 type
-bool
-isInner
 )
 {
 size_t
@@ -39832,7 +39830,6 @@ ValueUsage
 :
 WantValue
 EMIT_LINENOTE
-isInner
 )
 )
 {
@@ -44644,8 +44641,6 @@ emitObject
 ListNode
 *
 objNode
-bool
-isInner
 )
 {
 bool
@@ -44695,9 +44690,6 @@ if
 (
 !
 isSingletonContext
-|
-|
-isInner
 )
 {
 useObjLiteralValues
@@ -44738,10 +44730,6 @@ bool
 singleton
 =
 isSingletonContext
-&
-&
-!
-isInner
 ;
 if
 (
@@ -44786,7 +44774,6 @@ emitPropertyList
 objNode
 oe
 ObjectLiteral
-true
 )
 )
 {
@@ -44863,13 +44850,6 @@ ListNode
 array
 )
 {
-bool
-isSingleton
-=
-checkSingletonContext
-(
-)
-;
 return
 emitArray
 (
@@ -44885,7 +44865,6 @@ array
 count
 (
 )
-isSingleton
 )
 ;
 }
@@ -44900,8 +44879,6 @@ ParseNode
 arrayHead
 uint32_t
 count
-bool
-isInner
 )
 {
 uint32_t
@@ -45234,7 +45211,6 @@ ValueUsage
 :
 WantValue
 EMIT_LINENOTE
-isInner
 )
 )
 {
@@ -48606,8 +48582,6 @@ ValueUsage
 valueUsage
 EmitLineNumberNote
 emitLineNote
-bool
-isInner
 )
 {
 if
@@ -50898,7 +50872,6 @@ ListNode
 >
 (
 )
-isInner
 )
 )
 {
