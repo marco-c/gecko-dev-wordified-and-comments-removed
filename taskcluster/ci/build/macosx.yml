@@ -1083,7 +1083,9 @@ rust
 -
 macos
 -
-beta
+1
+.
+49
 :
 toolchain
 -
@@ -1093,7 +1095,9 @@ rust
 -
 macos
 -
-beta
+1
+.
+49
 fetches
 :
 toolchain
@@ -1185,7 +1189,9 @@ rust
 -
 macos
 -
-beta
+1
+.
+49
 :
 -
 artifact
@@ -1199,7 +1205,9 @@ dest
 :
 rustc
 -
-beta
+1
+.
+49
 macosx64
 -
 devedition
@@ -2787,7 +2795,9 @@ rust
 -
 macos
 -
-beta
+1
+.
+49
 :
 toolchain
 -
@@ -2797,7 +2807,9 @@ rust
 -
 macos
 -
-beta
+1
+.
+49
 fetches
 :
 toolchain
@@ -2889,7 +2901,9 @@ rust
 -
 macos
 -
-beta
+1
+.
+49
 :
 -
 artifact
@@ -2903,7 +2917,9 @@ dest
 :
 rustc
 -
-beta
+1
+.
+49
 macosx64
 -
 shippable

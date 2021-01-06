@@ -258,7 +258,9 @@ MOZ_FETCHES_DIR
 /
 rustc
 -
-beta
+1
+.
+49
 /
 rustc
 /
@@ -273,7 +275,9 @@ MOZ_FETCHES_DIR
 /
 rustc
 -
-beta
+1
+.
+49
 /
 rustc
 /
@@ -288,7 +292,9 @@ MOZ_FETCHES_DIR
 /
 rustc
 -
-beta
+1
+.
+49
 /
 rustc
 /
@@ -303,7 +309,9 @@ MOZ_FETCHES_DIR
 /
 rustc
 -
-beta
+1
+.
+49
 /
 rustc
 /
