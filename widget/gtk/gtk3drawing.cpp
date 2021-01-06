@@ -15479,7 +15479,6 @@ direction
 )
 ;
 }
-else
 {
 WidgetNodeType
 trough_widget
@@ -15505,9 +15504,9 @@ state
 direction
 )
 ;
-}
 break
 ;
+}
 case
 MOZ_GTK_SCROLLBAR_TROUGH_HORIZONTAL
 :
