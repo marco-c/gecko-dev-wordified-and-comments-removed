@@ -26,10 +26,7 @@ Profile
 matrix
 :
 :
-{
-matrix_invert
 Matrix
-}
 s15Fixed16Number_to_float
 transform_util
 :
@@ -7001,12 +6998,13 @@ unwrap
 .
 matrix
 =
-matrix_invert
-(
 build_colorant_matrix
 (
 out
 )
+.
+invert
+(
 )
 ;
 transform
