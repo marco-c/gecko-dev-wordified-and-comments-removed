@@ -109,6 +109,12 @@ c_bindings
 libc
 "
 ]
+iccv4
+-
+enabled
+=
+[
+]
 [
 dependencies
 ]
