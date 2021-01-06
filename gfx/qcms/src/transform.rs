@@ -202,7 +202,7 @@ C
 ]
 pub
 struct
-precache_output
+PrecacheOuput
 {
 pub
 data
@@ -216,7 +216,7 @@ PRECACHE_OUTPUT_SIZE
 impl
 Default
 for
-precache_output
+PrecacheOuput
 {
 fn
 default
@@ -224,9 +224,9 @@ default
 )
 -
 >
-precache_output
+PrecacheOuput
 {
-precache_output
+PrecacheOuput
 {
 data
 :
@@ -420,7 +420,7 @@ Option
 <
 Arc
 <
-precache_output
+PrecacheOuput
 >
 >
 pub
@@ -430,7 +430,7 @@ Option
 <
 Arc
 <
-precache_output
+PrecacheOuput
 >
 >
 pub
@@ -440,7 +440,7 @@ Option
 <
 Arc
 <
-precache_output
+PrecacheOuput
 >
 >
 pub
@@ -8681,7 +8681,7 @@ precache_create
 >
 Arc
 <
-precache_output
+PrecacheOuput
 >
 {
 Arc
@@ -8689,7 +8689,7 @@ Arc
 :
 new
 (
-precache_output
+PrecacheOuput
 :
 :
 default
