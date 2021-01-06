@@ -1315,11 +1315,7 @@ typename
 SpecificScopeType
 :
 :
-template
-AbstractData
-<
-TaggedParserAtomIndex
->
+ParserData
 &
 data
 (
@@ -1333,11 +1329,7 @@ typename
 SpecificScopeType
 :
 :
-template
-AbstractData
-<
-TaggedParserAtomIndex
->
+ParserData
 ;
 MOZ_ASSERT
 (
