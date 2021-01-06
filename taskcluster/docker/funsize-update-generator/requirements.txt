@@ -131,17 +131,15 @@ hash
 sha256
 :
 b778ce0c909a2653741cb4b1ac7015b5c130ab9c897611df43ae6a58523cb965
+\
 #
 via
-#
 -
 r
 requirements
 .
 in
-#
 scriptworker
-#
 taskcluster
 aiomemoizettl
 =
@@ -167,6 +165,7 @@ hash
 sha256
 :
 0a80d2dc765e545263f515363b6700ec8cf86fa3968b529f56390b28e34f743d
+\
 #
 via
 scriptworker
@@ -194,6 +193,7 @@ hash
 sha256
 :
 70729bcc831da496ca3cb4b7e89472c8e2d27d398908155e0796179f6d2d41ee
+\
 #
 via
 scriptworker
@@ -221,6 +221,7 @@ hash
 sha256
 :
 831d2710d3274c8a74befdddaf9f17fcbf6e350534565074818722d6d615b315
+\
 #
 via
 mar
@@ -250,11 +251,10 @@ hash
 sha256
 :
 4291ca197d287d274d0b6cb5d6f8f8f82d434ed288f962539ff18cc9012f9ea3
+\
 #
 via
-#
 aiohttp
-#
 taskcluster
 attrs
 =
@@ -280,11 +280,10 @@ hash
 sha256
 :
 f7b7ce16570fe9965acd6d30101a28f62fb4a7f9e926b3bbc9b61f8b04247e72
+\
 #
 via
-#
 aiohttp
-#
 jsonschema
 awscli
 =
@@ -310,6 +309,7 @@ hash
 sha256
 :
 d74c5b097fe9288147c6045974eca9dc369055aa6ccce05fb551b0b95e813213
+\
 #
 via
 -
@@ -335,6 +335,7 @@ hash
 sha256
 :
 16d8b68e4d3cd4e6c9ddb059850452946da3914c8a8e197a7f2b0954559f2df4
+\
 #
 via
 mar
@@ -362,11 +363,10 @@ hash
 sha256
 :
 2fce3cc8fae3bbf89984f3065d9eecf0a906b96bee491a4fb54ad7ec7f4261dc
+\
 #
 via
-#
 awscli
-#
 s3transfer
 certifi
 =
@@ -392,6 +392,7 @@ hash
 sha256
 :
 25b64c7da4cd7479594d035c08c2d809eb4aab3a26e5a990ea98cc450c320f1f
+\
 #
 via
 requests
@@ -627,6 +628,7 @@ hash
 sha256
 :
 f2b0fa0c01d8a0c7483afd9f31d7ecf2d71760ca24499c8697aeb5ca37dc090c
+\
 #
 via
 cryptography
@@ -654,11 +656,10 @@ hash
 sha256
 :
 fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691
+\
 #
 via
-#
 aiohttp
-#
 requests
 click
 =
@@ -682,6 +683,7 @@ hash
 sha256
 :
 5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7
+\
 #
 via
 mar
@@ -709,6 +711,7 @@ hash
 sha256
 :
 e96da0d330793e2cb9485e9ddfd918d456036c7149416295932478192f4436a1
+\
 #
 via
 awscli
@@ -728,6 +731,7 @@ hash
 sha256
 :
 97ba13edcd98546f10f7555af41c8ce7ae9d8221525ec4062c03f9adbf940661
+\
 #
 via
 mar
@@ -905,13 +909,11 @@ hash
 sha256
 :
 fb81c17e0ebe3358486cd8cc3ad78adbae58af12fc2bf2bc0bb84e8090fa5ce8
+\
 #
 via
-#
 jwcrypto
-#
 mar
-#
 scriptworker
 dictdiffer
 =
@@ -937,6 +939,7 @@ hash
 sha256
 :
 d79d9a39e459fe33497c858470ca0d2e93cb96621751de06d631856adfd9c390
+\
 #
 via
 scriptworker
@@ -972,11 +975,10 @@ hash
 sha256
 :
 a2aeea129088da402665e92e0b25b04b073c04b2dce4ab65caaa38b7ce2e1a99
+\
 #
 via
-#
 awscli
-#
 botocore
 github3
 .
@@ -1004,6 +1006,7 @@ hash
 sha256
 :
 50833b5da35546b8cced0e8d7ff4c50a9afc2c8e46cc4d07dc4b66d26467c708
+\
 #
 via
 scriptworker
@@ -1025,6 +1028,7 @@ hash
 sha256
 :
 a933e3bb13da54383f9e8f35dc4f9cb9eb9b3b78c6b36f311254d6d0d92c6c7c
+\
 #
 via
 aiohttp
@@ -1050,15 +1054,13 @@ hash
 sha256
 :
 a068a21ceac8a4d63dbfd964670474107f541babbd2250d61922f029858365fa
+\
 #
 via
-#
 idna
 -
 ssl
-#
 requests
-#
 yarl
 immutabledict
 =
@@ -1084,6 +1086,7 @@ hash
 sha256
 :
 7881e44098f13dd12d6fec00551d564433cb46776e8b2f3453128f715df4376a
+\
 #
 via
 scriptworker
@@ -1113,6 +1116,7 @@ hash
 sha256
 :
 b97607a1a18a5100839aec1dc26a1ea17ee0d93b20b0f008d80a5a050afb200b
+\
 #
 via
 jsonschema
@@ -1140,6 +1144,7 @@ hash
 sha256
 :
 cca55c8d153173e21baa59983015ad0daf603f9cb799904ff057bfb8ff8dc2d9
+\
 #
 via
 botocore
@@ -1161,6 +1166,7 @@ hash
 sha256
 :
 35dc96ce04f0caece560dc18266af7f0ffb780955273ffa20814be65447cad49
+\
 #
 via
 scriptworker
@@ -1188,6 +1194,7 @@ hash
 sha256
 :
 c8a85b28d377cc7737e46e2d9f2b4f44ee3c0e1deac6bf46ddefc7187d30797a
+\
 #
 via
 scriptworker
@@ -1213,6 +1220,7 @@ hash
 sha256
 :
 adbe1f6266cde35d40d5de6d1419612b3bd4c869b9332c88c9d7a9163d305100
+\
 #
 via
 github3
@@ -1242,6 +1250,7 @@ hash
 sha256
 :
 5d2904a063f0da625e37515fa9eb340082e69fa1c00fdbeb82d28b7ff3c51e28
+\
 #
 via
 -
@@ -1273,6 +1282,7 @@ hash
 sha256
 :
 d2a0e3ab10a209cc79e95e28f2dd54bd4a73fd1998ffe27b7ba0f962b6be9723
+\
 #
 via
 taskcluster
@@ -1420,11 +1430,10 @@ hash
 sha256
 :
 fc3b4adc2ee8474cb3cd2a155305d5f8eda0a9c91320f83e55748e1fcb68f8e3
+\
 #
 via
-#
 aiohttp
-#
 yarl
 pyasn1
 =
@@ -1450,6 +1459,7 @@ hash
 sha256
 :
 aef77c9fb94a3ac588e87841208bdec464471d9871bd5050a287cc9a475cd0ba
+\
 #
 via
 rsa
@@ -1467,6 +1477,7 @@ hash
 sha256
 :
 a988718abfad80b6b157acce7bf130a30876d27603738ac39f140993246b25b3
+\
 #
 via
 cffi
@@ -1486,6 +1497,7 @@ hash
 sha256
 :
 cdc7b5e3ed77bed61270a47d35434a30617b9becdf2478af76ad2c6ade307280
+\
 #
 via
 jsonschema
@@ -1515,13 +1527,11 @@ hash
 sha256
 :
 75bb3f31ea686f1197762692a9ee6a7550b59fc6ca3a1f4b5d7e32fb98e2da2a
+\
 #
 via
-#
 arrow
-#
 botocore
-#
 github3
 .
 py
@@ -1619,11 +1629,10 @@ hash
 sha256
 :
 e9f45bd5b92c7974e59bcd2dcc8631a6b6cc380a904725fce7bc08872e691615
+\
 #
 via
-#
 awscli
-#
 scriptworker
 redo
 =
@@ -1649,6 +1658,7 @@ hash
 sha256
 :
 71161cb0e928d824092a5f16203939bbc0867ce4c4685db263cf22c3ae7634a8
+\
 #
 via
 -
@@ -1680,19 +1690,17 @@ hash
 sha256
 :
 b3f43d496c6daba4493e7c431722aeb7dbc6288f52a6e04e7b6023b0247817e6
+\
 #
 via
-#
 -
 r
 requirements
 .
 in
-#
 github3
 .
 py
-#
 taskcluster
 rsa
 =
@@ -1718,6 +1726,7 @@ hash
 sha256
 :
 43f682fea81c452c98d09fc316aae12de6d30c4b5c84226642cf8f8fd1c93abd
+\
 #
 via
 awscli
@@ -1745,6 +1754,7 @@ hash
 sha256
 :
 921a37e2aefc64145e7b73d50c71bb4f26f46e4c9f414dc648c6245ff92cf7db
+\
 #
 via
 awscli
@@ -1772,6 +1782,7 @@ hash
 sha256
 :
 d60976a94ba86d0c4b9f23536ce3cb026281c726d00da12b6546a8dd80cb4d1b
+\
 #
 via
 -
@@ -1803,6 +1814,7 @@ hash
 sha256
 :
 b52bf5833ed01c7b5c5fb73a7f71b3d98d48e9b9b8764236237bdc7ecae850fc
+\
 #
 via
 -
@@ -1834,21 +1846,16 @@ hash
 sha256
 :
 8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c
+\
 #
 via
-#
 cryptography
-#
 jsonschema
-#
 mohawk
-#
 pyrsistent
-#
 python
 -
 dateutil
-#
 taskcluster
 slugid
 =
@@ -1874,6 +1881,7 @@ hash
 sha256
 :
 aec8b0e01c4ad32e38e12d609eab3ec912fd129aaf6b2ded0199b56a5f8fd67c
+\
 #
 via
 taskcluster
@@ -1903,6 +1911,7 @@ hash
 sha256
 :
 4a62c776aeba6d45044789a8845ec4d8521bc1bb6ebfc86d79ee759bcdd4f2f7
+\
 #
 via
 taskcluster
@@ -1938,6 +1947,7 @@ hash
 sha256
 :
 a9d10a794a065ea17a11fa8ee4861e57ea702362f70d00dc97d5a4f685a70d4f
+\
 #
 via
 scriptworker
@@ -1977,6 +1987,7 @@ hash
 sha256
 :
 cf8b63fedea4d89bab840ecbb93e75578af28f76f66c35889bd7065f5af88575
+\
 #
 via
 aiohttp
@@ -2004,6 +2015,7 @@ hash
 sha256
 :
 5af8ad10cec94f215e3f48112de2022e1d5a37ed427fbd88652fa908f2ab7cae
+\
 #
 via
 github3
@@ -2033,11 +2045,10 @@ hash
 sha256
 :
 87716c2d2a7121198ebcb7ce7cccf6ce5e9ba539041cfbaeecfb641dc0bf6acc
+\
 #
 via
-#
 botocore
-#
 requests
 yarl
 =
@@ -2183,6 +2194,7 @@ hash
 sha256
 :
 e15199cdb423316e15f108f51249e44eb156ae5dba232cb73be555324a1d49c2
+\
 #
 via
 aiohttp
@@ -2210,6 +2222,7 @@ hash
 sha256
 :
 c599e4d75c98f6798c509911d08a22e6c021d074469042177c8c86fb92eefd96
+\
 #
 via
 importlib
