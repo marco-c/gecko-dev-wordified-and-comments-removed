@@ -186,6 +186,9 @@ aData
 size_t
 aLength
 const
+gfx
+:
+:
 IntRect
 &
 aFrameRect
@@ -232,6 +235,9 @@ gfx
 SurfaceFormat
 mFormat
 ;
+gfx
+:
+:
 IntRect
 mFrameRect
 ;
