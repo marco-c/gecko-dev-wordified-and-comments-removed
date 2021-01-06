@@ -136,7 +136,7 @@ uint8_t
 Array
 =
 1
-NoValues
+Singleton
 =
 2
 }

@@ -329,7 +329,7 @@ flags
 )
 {
 bool
-noValues
+singleton
 =
 flags
 .
@@ -338,7 +338,7 @@ contains
 ObjLiteralFlag
 :
 :
-NoValues
+Singleton
 )
 ;
 ObjLiteralReader
@@ -458,8 +458,7 @@ propVal
 ;
 if
 (
-!
-noValues
+singleton
 )
 {
 InterpretObjLiteralValue
@@ -751,7 +750,7 @@ contains
 ObjLiteralFlag
 :
 :
-NoValues
+Singleton
 )
 )
 {
@@ -760,7 +759,7 @@ json
 value
 (
 "
-NoValues
+Singleton
 "
 )
 ;
@@ -770,7 +769,7 @@ flags
 ObjLiteralFlag
 :
 :
-NoValues
+Singleton
 ;
 }
 if

@@ -2108,8 +2108,6 @@ ListNode
 obj
 ObjLiteralFlags
 flags
-bool
-singleton
 )
 ;
 MOZ_MUST_USE
