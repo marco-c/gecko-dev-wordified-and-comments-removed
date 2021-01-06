@@ -8814,11 +8814,6 @@ needsHoleCheck
 =
 true
 ;
-bool
-loadDouble
-=
-false
-;
 auto
 *
 load
@@ -8834,7 +8829,6 @@ alloc
 elements
 index
 needsHoleCheck
-loadDouble
 )
 ;
 add
