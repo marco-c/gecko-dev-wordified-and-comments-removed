@@ -1774,6 +1774,15 @@ state
 .
 label
 }
+newNewtabExperienceEnabled
+=
+{
+this
+.
+props
+.
+newNewtabExperienceEnabled
+}
 /
 >
 <

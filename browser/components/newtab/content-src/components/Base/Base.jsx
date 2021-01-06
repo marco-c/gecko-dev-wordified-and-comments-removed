@@ -1531,6 +1531,14 @@ visible
 -
 logo
 "
+newNewtabExperienceEnabled
+&
+&
+"
+newtab
+-
+experience
+"
 ]
 .
 filter
