@@ -54,7 +54,7 @@ Default
 ]
 pub
 struct
-qcms_modular_transform
+ModularTransform
 {
 pub
 matrix
@@ -199,7 +199,7 @@ usize
 pub
 transform_module_fn
 :
-transform_module_fn_t
+TransformModuleFn
 pub
 next_transform
 :
@@ -207,13 +207,13 @@ Option
 <
 Box
 <
-qcms_modular_transform
+ModularTransform
 >
 >
 }
 pub
 type
-transform_module_fn_t
+TransformModuleFn
 =
 Option
 <
@@ -222,7 +222,7 @@ fn
 _
 :
 &
-qcms_modular_transform
+ModularTransform
 _
 :
 &
@@ -832,7 +832,7 @@ transform_module_LAB_to_XYZ
 _transform
 :
 &
-qcms_modular_transform
+ModularTransform
 src
 :
 &
@@ -1096,7 +1096,7 @@ transform_module_XYZ_to_LAB
 _transform
 :
 &
-qcms_modular_transform
+ModularTransform
 src
 :
 &
@@ -1386,7 +1386,7 @@ transform_module_clut_only
 transform
 :
 &
-qcms_modular_transform
+ModularTransform
 src
 :
 &
@@ -2260,7 +2260,7 @@ transform_module_clut
 transform
 :
 &
-qcms_modular_transform
+ModularTransform
 src
 :
 &
@@ -3281,7 +3281,7 @@ transform_module_gamma_table
 transform
 :
 &
-qcms_modular_transform
+ModularTransform
 src
 :
 &
@@ -3475,7 +3475,7 @@ transform_module_gamma_lut
 transform
 :
 &
-qcms_modular_transform
+ModularTransform
 src
 :
 &
@@ -3663,7 +3663,7 @@ transform_module_matrix_translate
 transform
 :
 &
-qcms_modular_transform
+ModularTransform
 src
 :
 &
@@ -4128,7 +4128,7 @@ transform_module_matrix
 transform
 :
 &
-qcms_modular_transform
+ModularTransform
 src
 :
 &
@@ -4585,7 +4585,7 @@ Option
 <
 Box
 <
-qcms_modular_transform
+ModularTransform
 >
 >
 {
@@ -4615,7 +4615,7 @@ Option
 <
 Box
 <
-qcms_modular_transform
+ModularTransform
 >
 >
 )
@@ -4666,7 +4666,7 @@ Option
 <
 Box
 <
-qcms_modular_transform
+ModularTransform
 >
 >
 mut
@@ -4678,7 +4678,7 @@ Option
 <
 Box
 <
-qcms_modular_transform
+ModularTransform
 >
 >
 )
@@ -4690,7 +4690,7 @@ Option
 <
 Box
 <
-qcms_modular_transform
+ModularTransform
 >
 >
 {
@@ -4735,7 +4735,7 @@ Option
 <
 Box
 <
-qcms_modular_transform
+ModularTransform
 >
 >
 )
@@ -4745,7 +4745,7 @@ Option
 <
 Box
 <
-qcms_modular_transform
+ModularTransform
 >
 >
 {
@@ -4813,7 +4813,7 @@ Option
 <
 Box
 <
-qcms_modular_transform
+ModularTransform
 >
 >
 {
@@ -5563,7 +5563,7 @@ Option
 <
 Box
 <
-qcms_modular_transform
+ModularTransform
 >
 >
 {
@@ -6078,7 +6078,7 @@ Option
 <
 Box
 <
-qcms_modular_transform
+ModularTransform
 >
 >
 {
@@ -6780,7 +6780,7 @@ Option
 <
 Box
 <
-qcms_modular_transform
+ModularTransform
 >
 >
 {
@@ -7541,7 +7541,7 @@ Option
 <
 Box
 <
-qcms_modular_transform
+ModularTransform
 >
 >
 {
@@ -7781,7 +7781,7 @@ transform
 Option
 <
 &
-qcms_modular_transform
+ModularTransform
 >
 mut
 src
@@ -7821,7 +7821,7 @@ is_some
 let
 _transform_fn
 :
-transform_module_fn_t
+TransformModuleFn
 =
 transform
 .
