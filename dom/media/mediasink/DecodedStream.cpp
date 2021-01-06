@@ -1952,16 +1952,6 @@ started
 "
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-!
-mOutputTracks
-.
-IsEmpty
-(
-)
-)
-;
 LOG_DS
 (
 LogLevel
