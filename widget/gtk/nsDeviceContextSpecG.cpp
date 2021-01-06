@@ -318,7 +318,7 @@ height
 mPrintSettings
 -
 >
-GetEffectivePageSize
+GetEffectiveSheetSize
 (
 &
 width
@@ -551,14 +551,12 @@ size
 }
 int32_t
 orientation
-;
+=
 mPrintSettings
 -
 >
-GetOrientation
+GetSheetOrientation
 (
-&
-orientation
 )
 ;
 return

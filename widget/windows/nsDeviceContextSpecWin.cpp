@@ -1530,7 +1530,7 @@ height
 mPrintSettings
 -
 >
-GetEffectivePageSize
+GetEffectiveSheetSize
 (
 &
 width
