@@ -66,6 +66,16 @@ constexpr
 impl
 :
 :
+StringListMetric
+string_list_metric
+(
+10
+)
+;
+constexpr
+impl
+:
+:
 TimespanMetric
 timespan_metric
 (
