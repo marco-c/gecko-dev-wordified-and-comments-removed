@@ -941,6 +941,12 @@ NS_ERROR_FAILURE
 }
 if
 (
+mozilla
+:
+:
+dom
+:
+:
 ShadowRoot
 :
 :

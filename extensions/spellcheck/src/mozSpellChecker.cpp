@@ -546,6 +546,9 @@ NS_OK
 }
 RefPtr
 <
+mozilla
+:
+:
 CheckWordPromise
 >
 mozSpellChecker
@@ -631,6 +634,9 @@ rv
 )
 {
 return
+mozilla
+:
+:
 CheckWordPromise
 :
 :
@@ -650,6 +656,9 @@ misspelled
 ;
 }
 return
+mozilla
+:
+:
 CheckWordPromise
 :
 :
