@@ -143,6 +143,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsEventShell
 .
 h

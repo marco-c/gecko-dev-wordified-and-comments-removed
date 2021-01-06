@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIAccessibleRelation
 .
 h

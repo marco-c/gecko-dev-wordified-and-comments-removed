@@ -44,6 +44,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 xpcAccessibleDocument
 .
 h

@@ -29,6 +29,13 @@ HashFunctions
 .
 h
 "
+#
+include
+"
+PLDHashTable
+.
+h
+"
 template
 <
 class
@@ -114,8 +121,9 @@ mKey
 nsPtrHashKey
 (
 )
-{
-}
+=
+default
+;
 KeyType
 GetKey
 (
