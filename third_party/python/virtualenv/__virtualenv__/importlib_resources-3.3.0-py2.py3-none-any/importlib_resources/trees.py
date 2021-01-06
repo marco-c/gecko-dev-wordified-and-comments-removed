@@ -1,0 +1,12 @@
+from
+.
+_common
+import
+as_file
+__all__
+=
+[
+'
+as_file
+'
+]
