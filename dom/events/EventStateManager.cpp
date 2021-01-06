@@ -14854,9 +14854,6 @@ nullptr
 break
 ;
 }
-int32_t
-tabIndexUnused
-;
 if
 (
 frame
@@ -14864,8 +14861,6 @@ frame
 >
 IsFocusable
 (
-&
-tabIndexUnused
 true
 )
 )
