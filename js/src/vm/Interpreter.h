@@ -2327,11 +2327,6 @@ NewArrayOperation
 JSContext
 *
 cx
-HandleScript
-script
-jsbytecode
-*
-pc
 uint32_t
 length
 NewObjectKind

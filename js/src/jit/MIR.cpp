@@ -26142,9 +26142,6 @@ MNewArray
 :
 MNewArray
 (
-TempAllocator
-&
-alloc
 uint32_t
 length
 MConstant
@@ -26155,9 +26152,6 @@ gc
 :
 InitialHeap
 initialHeap
-jsbytecode
-*
-pc
 bool
 vmCall
 )
@@ -26174,10 +26168,6 @@ length
 initialHeap_
 (
 initialHeap
-)
-pc_
-(
-pc
 )
 vmCall_
 (
