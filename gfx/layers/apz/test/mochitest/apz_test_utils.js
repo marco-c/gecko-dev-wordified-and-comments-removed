@@ -1203,7 +1203,7 @@ null
 ;
 }
 function
-waitForFrame
+promiseFrame
 (
 )
 {
