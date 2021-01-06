@@ -15027,6 +15027,12 @@ defined
 (
 GP_OS_windows
 )
+|
+|
+defined
+(
+GP_OS_darwin
+)
 EXPECT_TRUE
 (
 sampleUnits
@@ -15260,6 +15266,12 @@ if
 defined
 (
 GP_OS_windows
+)
+|
+|
+defined
+(
+GP_OS_darwin
 )
 EXPECT_GE
 (
