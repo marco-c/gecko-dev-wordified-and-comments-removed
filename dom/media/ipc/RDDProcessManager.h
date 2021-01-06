@@ -116,6 +116,14 @@ true
 ;
 RefPtr
 <
+GenericNonExclusivePromise
+>
+LaunchRDDProcess
+(
+)
+;
+RefPtr
+<
 EnsureRDDPromise
 >
 EnsureRDDProcessAndCreateBridge
@@ -346,6 +354,12 @@ dom
 Pref
 >
 mQueuedPrefs
+;
+RefPtr
+<
+GenericNonExclusivePromise
+>
+mLaunchRDDPromise
 ;
 }
 ;
