@@ -55,6 +55,9 @@ ProfileChunkedBuffer
 h
 "
 class
+RunningTimes
+;
+class
 ProfileBuffer
 final
 {
@@ -295,6 +298,10 @@ uint64_t
 >
 &
 aLastSample
+const
+RunningTimes
+&
+aRunningTimes
 )
 ;
 void

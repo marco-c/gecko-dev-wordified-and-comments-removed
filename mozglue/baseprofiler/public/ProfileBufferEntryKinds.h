@@ -317,6 +317,7 @@ LEGACY_LIMIT
 Marker
 =
 LEGACY_LIMIT
+RunningTimes
 UnresponsiveDurationMs
 CompactStack
 MODERN_LIMIT
