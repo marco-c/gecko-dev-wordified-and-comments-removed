@@ -145,9 +145,6 @@ ArrayCOW
 NoValues
 =
 4
-IsInnerSingleton
-=
-5
 }
 ;
 using
