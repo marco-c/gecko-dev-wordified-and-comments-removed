@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+ReverseIterator
+.
+h
+"
+#
+include
+"
 nsAString
 .
 h

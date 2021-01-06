@@ -57,6 +57,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h

@@ -140,6 +140,15 @@ include
 "
 mozilla
 /
+Preferences
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h

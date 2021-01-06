@@ -264,6 +264,17 @@ mozilla
 /
 dom
 /
+BrowsingContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Selection
 .
 h

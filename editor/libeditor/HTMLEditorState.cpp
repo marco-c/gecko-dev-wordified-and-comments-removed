@@ -422,6 +422,9 @@ li
 {
 if
 (
+dom
+:
+:
 Element
 *
 parent
@@ -1001,6 +1004,9 @@ return
 }
 OwningNonNull
 <
+dom
+:
+:
 Element
 >
 bodyOrDocumentElement
@@ -1374,6 +1380,9 @@ arrayOfContents
 }
 RefPtr
 <
+dom
+:
+:
 Element
 >
 blockElementAtEditTarget
@@ -2274,6 +2283,9 @@ content
 )
 ;
 }
+dom
+:
+:
 Element
 *
 bodyOrDocumentElement
@@ -2508,6 +2520,9 @@ nsIContent
 >
 &
 aArrayOfContents
+dom
+:
+:
 Element
 &
 aNonFormatBlockElement
