@@ -45,7 +45,7 @@ get_rgb_colorants
 transform
 :
 :
-qcms_data_type
+DataType
 transform
 :
 :
@@ -1435,14 +1435,14 @@ in_0
 Profile
 in_type
 :
-qcms_data_type
+DataType
 out
 :
 &
 Profile
 out_type
 :
-qcms_data_type
+DataType
 intent
 :
 Intent

@@ -270,7 +270,7 @@ use
 transform
 :
 :
-qcms_data_type
+DataType
 as
 DataType
 ;
