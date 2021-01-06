@@ -31,21 +31,6 @@ MOCHITESTS_DIR
 }
 )
 ;
-const
-AXTextStateChangeTypeEdit
-=
-1
-;
-const
-AXTextEditTypeDelete
-=
-1
-;
-const
-AXTextEditTypeTyping
-=
-3
-;
 function
 testValueChangedEventData
 (
@@ -203,6 +188,7 @@ function
 matchWebArea
 (
 expectedId
+expectedStateChangeType
 )
 {
 return
@@ -248,6 +234,14 @@ AXDOMIdentifier
 =
 =
 expectedId
+&
+&
+data
+.
+AXTextStateChangeType
+=
+=
+expectedStateChangeType
 )
 ;
 }
@@ -257,6 +251,7 @@ function
 matchInput
 (
 expectedId
+expectedStateChangeType
 )
 {
 return
@@ -282,6 +277,14 @@ expectedId
 !
 !
 data
+&
+&
+data
+.
+AXTextStateChangeType
+=
+=
+expectedStateChangeType
 ;
 }
 async
@@ -294,6 +297,15 @@ expectedId
 expectedSelectionString
 )
 {
+let
+expectedStateChangeType
+=
+expectedSelectionString
+?
+AXTextStateChangeTypeSelectionExtend
+:
+AXTextStateChangeTypeSelectionMove
+;
 let
 selectionChangedEvents
 =
@@ -310,6 +322,7 @@ AXSelectedTextChanged
 matchWebArea
 (
 expectedId
+expectedStateChangeType
 )
 )
 waitForMacEventWithInfo
@@ -320,6 +333,7 @@ AXSelectedTextChanged
 matchInput
 (
 expectedId
+expectedStateChangeType
 )
 )
 ]
@@ -490,6 +504,7 @@ AXSelectedTextChanged
 matchWebArea
 (
 expectedTextSelectionId
+AXTextStateChangeTypeSelectionMove
 )
 )
 waitForMacEventWithInfo
@@ -500,6 +515,7 @@ AXSelectedTextChanged
 matchInput
 (
 expectedTextSelectionId
+AXTextStateChangeTypeSelectionMove
 )
 )
 waitForMacEventWithInfo
@@ -510,6 +526,7 @@ AXValueChanged
 matchWebArea
 (
 expectedId
+1
 )
 )
 waitForMacEventWithInfo
@@ -520,6 +537,7 @@ AXValueChanged
 matchInput
 (
 expectedId
+1
 )
 )
 ]
@@ -670,6 +688,7 @@ AXSelectedTextChanged
 matchWebArea
 (
 selectionId
+AXTextStateChangeTypeSelectionMove
 )
 )
 waitForMacEventWithInfo
@@ -680,6 +699,7 @@ AXSelectedTextChanged
 matchInput
 (
 selectionId
+AXTextStateChangeTypeSelectionMove
 )
 )
 ]

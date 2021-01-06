@@ -167,6 +167,12 @@ selection
 ;
 -
 (
+BOOL
+)
+selectionIsCollapsed
+;
+-
+(
 id
 )
 moxStartTextMarker
