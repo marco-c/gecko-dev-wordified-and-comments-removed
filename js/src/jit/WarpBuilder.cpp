@@ -12166,7 +12166,7 @@ ins
 MStoreFixedSlot
 :
 :
-New
+NewBarriered
 (
 alloc
 (
@@ -13088,7 +13088,7 @@ add
 MStoreFixedSlot
 :
 :
-New
+NewBarriered
 (
 alloc
 (
