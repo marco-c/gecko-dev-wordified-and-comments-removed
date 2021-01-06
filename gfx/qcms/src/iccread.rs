@@ -670,15 +670,12 @@ qcms_CIE_xyY
 struct
 Tag
 {
-pub
 signature
 :
 u32
-pub
 offset
 :
 u32
-pub
 size
 :
 u32
@@ -709,7 +706,6 @@ MemSource
 a
 >
 {
-pub
 buf
 :
 &
@@ -718,11 +714,9 @@ a
 [
 u8
 ]
-pub
 valid
 :
 bool
-pub
 invalid_reason
 :
 Option
