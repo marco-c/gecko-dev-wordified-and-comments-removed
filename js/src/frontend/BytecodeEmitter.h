@@ -2142,8 +2142,6 @@ emitObjLiteralArray
 ParseNode
 *
 arrayHead
-bool
-isCow
 )
 ;
 MOZ_MUST_USE

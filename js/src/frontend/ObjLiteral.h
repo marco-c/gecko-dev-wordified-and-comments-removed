@@ -139,12 +139,9 @@ Array
 Singleton
 =
 2
-ArrayCOW
-=
-3
 NoValues
 =
-4
+3
 }
 ;
 using
