@@ -575,6 +575,7 @@ focus
 else
 if
 (
+(
 event
 .
 key
@@ -593,6 +594,15 @@ key
 "
 ArrowUp
 "
+)
+&
+&
+!
+this
+.
+_menu
+.
+hidden
 )
 {
 event
