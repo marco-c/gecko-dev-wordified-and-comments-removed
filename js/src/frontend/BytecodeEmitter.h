@@ -1319,9 +1319,6 @@ errorNumber
 bool
 intoScriptStencil
 (
-ScriptStencil
-*
-script
 ScriptIndex
 scriptIndex
 )

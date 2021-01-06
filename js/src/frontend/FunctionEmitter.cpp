@@ -2639,13 +2639,6 @@ bce_
 >
 intoScriptStencil
 (
-&
-funbox_
--
->
-functionStencil
-(
-)
 funbox_
 -
 >
