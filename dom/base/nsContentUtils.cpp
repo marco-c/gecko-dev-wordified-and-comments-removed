@@ -41228,7 +41228,7 @@ Some
 WidgetMouseEvent
 :
 :
-eChild
+ePlatformChild
 )
 ;
 }
@@ -41260,7 +41260,7 @@ XRE_IsParentProcess
 WidgetMouseEvent
 :
 :
-eTopLevel
+ePlatformTopLevel
 :
 WidgetMouseEvent
 :

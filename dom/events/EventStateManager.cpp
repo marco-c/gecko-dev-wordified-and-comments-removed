@@ -3247,7 +3247,7 @@ value
 WidgetMouseEvent
 :
 :
-eTopLevel
+ePlatformTopLevel
 &
 &
 mouseEvent
@@ -3304,7 +3304,7 @@ value
 WidgetMouseEvent
 :
 :
-eTopLevel
+ePlatformTopLevel
 )
 ;
 MOZ_ASSERT_IF

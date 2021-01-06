@@ -19629,12 +19629,12 @@ mWnd
 WidgetMouseEvent
 :
 :
-eTopLevel
+ePlatformTopLevel
 :
 WidgetMouseEvent
 :
 :
-eChild
+ePlatformChild
 )
 ;
 break

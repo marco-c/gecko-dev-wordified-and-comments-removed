@@ -16125,12 +16125,12 @@ aEvent
 WidgetMouseEvent
 :
 :
-eTopLevel
+ePlatformTopLevel
 :
 WidgetMouseEvent
 :
 :
-eChild
+ePlatformChild
 )
 ;
 LOG

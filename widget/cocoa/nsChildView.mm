@@ -22698,12 +22698,12 @@ window
 WidgetMouseEvent
 :
 :
-eChild
+ePlatformChild
 :
 WidgetMouseEvent
 :
 :
-eTopLevel
+ePlatformTopLevel
 ;
 [
 oldView
@@ -22726,7 +22726,7 @@ exitFrom
 WidgetMouseEvent
 :
 :
-eTopLevel
+ePlatformTopLevel
 )
 {
 [
