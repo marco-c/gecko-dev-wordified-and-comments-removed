@@ -253,6 +253,10 @@ canvas
 .
 width
 =
+Math
+.
+max
+(
 state
 .
 waterfallWidth
@@ -260,6 +264,8 @@ waterfallWidth
 REQUESTS_WATERFALL
 .
 LABEL_WIDTH
+1
+)
 )
 ;
 const
