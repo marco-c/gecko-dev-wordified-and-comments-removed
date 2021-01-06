@@ -9545,8 +9545,6 @@ push
 (
 x
 as
-i32
-as
 f32
 /
 (
@@ -9564,8 +9562,6 @@ push
 (
 y
 as
-i32
-as
 f32
 /
 (
@@ -9582,8 +9578,6 @@ src
 push
 (
 z
-as
-i32
 as
 f32
 /
@@ -9917,11 +9911,6 @@ Ordering
 :
 Relaxed
 )
-as
-i32
-!
-=
-0
 &
 &
 (
