@@ -233,6 +233,9 @@ GamepadEventChannelParent
 =
 default
 ;
+bool
+mIsShutdown
+;
 nsCOMPtr
 <
 nsIEventTarget
