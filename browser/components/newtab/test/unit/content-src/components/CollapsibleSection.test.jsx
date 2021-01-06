@@ -15,6 +15,8 @@ jsm
 ;
 import
 {
+_CollapsibleSection
+as
 CollapsibleSection
 }
 from
@@ -130,6 +132,14 @@ dispatch
 =
 >
 {
+}
+Prefs
+:
+{
+values
+:
+{
+}
 }
 }
 ;

@@ -54,6 +54,14 @@ const
 DEFAULT_PROPS
 =
 {
+Prefs
+:
+{
+values
+:
+{
+}
+}
 name
 :
 "
