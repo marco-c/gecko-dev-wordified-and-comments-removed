@@ -1947,7 +1947,7 @@ add
 MStoreFixedSlot
 :
 :
-New
+NewUnbarriered
 (
 alloc
 (
@@ -1966,7 +1966,7 @@ add
 MStoreFixedSlot
 :
 :
-New
+NewUnbarriered
 (
 alloc
 (
@@ -2063,7 +2063,7 @@ add
 MStoreFixedSlot
 :
 :
-New
+NewUnbarriered
 (
 alloc
 (
@@ -2082,7 +2082,7 @@ add
 MStoreFixedSlot
 :
 :
-New
+NewUnbarriered
 (
 alloc
 (
@@ -2271,7 +2271,7 @@ add
 MStoreDynamicSlot
 :
 :
-New
+NewUnbarriered
 (
 alloc
 (
@@ -2293,7 +2293,7 @@ add
 MStoreFixedSlot
 :
 :
-New
+NewUnbarriered
 (
 alloc
 (
@@ -13058,7 +13058,7 @@ add
 MStoreFixedSlot
 :
 :
-New
+NewUnbarriered
 (
 alloc
 (

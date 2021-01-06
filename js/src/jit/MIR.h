@@ -42490,7 +42490,7 @@ value
 static
 MStoreFixedSlot
 *
-New
+NewUnbarriered
 (
 TempAllocator
 &
@@ -49888,7 +49888,7 @@ value
 static
 MStoreDynamicSlot
 *
-New
+NewUnbarriered
 (
 TempAllocator
 &
