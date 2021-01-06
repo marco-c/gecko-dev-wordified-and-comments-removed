@@ -261,12 +261,6 @@ StringSplitString
 JSContext
 *
 cx
-Handle
-<
-ObjectGroup
-*
->
-group
 HandleString
 str
 HandleString

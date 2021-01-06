@@ -1371,9 +1371,6 @@ StringId
 separator
 :
 StringId
-group
-:
-GroupField
 -
 name
 :

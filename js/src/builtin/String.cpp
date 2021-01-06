@@ -17808,8 +17808,6 @@ StringSplitString
 JSContext
 *
 cx
-HandleObjectGroup
-group
 HandleString
 str
 HandleString

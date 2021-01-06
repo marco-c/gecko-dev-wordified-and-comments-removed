@@ -16447,8 +16447,6 @@ StringOperandId
 strId
 StringOperandId
 separatorId
-uint32_t
-groupOffset
 )
 {
 MDefinition
@@ -16469,15 +16467,6 @@ getOperand
 separatorId
 )
 ;
-ObjectGroup
-*
-group
-=
-groupStubField
-(
-groupOffset
-)
-;
 auto
 *
 split
@@ -16492,7 +16481,6 @@ alloc
 )
 str
 separator
-group
 )
 ;
 add
