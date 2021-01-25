@@ -4358,6 +4358,11 @@ tabbrowser
 addToMultiSelectedTabs
 (
 nativeTab
+{
+isLastMultiSelectChange
+:
+true
+}
 )
 ;
 if
@@ -4393,6 +4398,11 @@ tabbrowser
 removeFromMultiSelectedTabs
 (
 nativeTab
+{
+isLastMultiSelectChange
+:
+true
+}
 )
 ;
 }
