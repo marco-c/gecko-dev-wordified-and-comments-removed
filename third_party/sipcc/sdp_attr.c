@@ -18604,6 +18604,10 @@ tmp
 [
 SDP_MAX_STRING_LEN
 ]
+=
+{
+0
+}
 ;
 if
 (
@@ -18967,10 +18971,6 @@ Warning
 Invalid
 token
 type
-(
-%
-s
-)
 in
 %
 s
@@ -18985,7 +18985,6 @@ sdp_p
 -
 >
 debug_str
-tmp
 sdp_get_attr_name
 (
 attr_p
