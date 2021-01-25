@@ -373,12 +373,6 @@ nsACString
 aValue
 )
 {
-MutexAutoLock
-lock
-(
-mMutex
-)
-;
 mNegotiatedNPN
 =
 aValue
@@ -422,12 +416,6 @@ cipherInfo
 SECSuccess
 )
 {
-MutexAutoLock
-lock
-(
-mMutex
-)
-;
 mHaveCipherSuiteAndProtocol
 =
 true
