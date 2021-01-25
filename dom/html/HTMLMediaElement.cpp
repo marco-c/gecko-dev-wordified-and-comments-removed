@@ -34936,11 +34936,9 @@ mDecoder
 >
 NotifyOwnerActivityChanged
 (
-!
-IsHidden
+IsActuallyInvisible
 (
 )
-mVisibilityState
 IsInComposedDoc
 (
 )
