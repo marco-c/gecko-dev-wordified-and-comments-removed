@@ -373,11 +373,6 @@ contentPartitionedPrincipal
 ;
 readonly
 attribute
-nsIPrincipal
-contentBlockingAllowListPrincipal
-;
-readonly
-attribute
 nsIContentSecurityPolicy
 csp
 ;

@@ -82,9 +82,6 @@ context
 nsIPrincipal
 principal
 ;
-nsIPrincipal
-contentBlockingAllowListPrincipal
-;
 nsIURI
 documentURI
 ;

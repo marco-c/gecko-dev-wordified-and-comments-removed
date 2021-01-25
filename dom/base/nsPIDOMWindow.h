@@ -1651,13 +1651,6 @@ HasStorageAccessPermissionGranted
 (
 )
 ;
-nsIPrincipal
-*
-GetDocumentContentBlockingAllowListPrincipal
-(
-)
-const
-;
 protected
 :
 void
@@ -1730,12 +1723,6 @@ nsCOMPtr
 nsIURI
 >
 mDocBaseURI
-;
-nsCOMPtr
-<
-nsIPrincipal
->
-mDocContentBlockingAllowListPrincipal
 ;
 nsCOMPtr
 <
