@@ -741,16 +741,6 @@ aContentType
 )
 ;
 }
-aContentType
-=
-nsContentUtils
-:
-:
-InternalContentPolicyTypeToExternalOrWorker
-(
-aContentType
-)
-;
 *
 outDecision
 =
