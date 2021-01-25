@@ -254,15 +254,25 @@ all_objs
 .
 value
 options
+DEPS_LEN
+=
+13
 def
 main
 (
 output_fd
-_metrics_index
 *
 args
 )
 :
+    
+args
+=
+args
+[
+DEPS_LEN
+:
+]
     
 all_objs
 options
@@ -284,11 +294,18 @@ def
 cpp_metrics
 (
 output_fd
-_metrics_index
 *
 args
 )
 :
+    
+args
+=
+args
+[
+DEPS_LEN
+:
+]
     
 all_objs
 options
@@ -310,11 +327,18 @@ def
 js_metrics
 (
 output_fd
-_metrics_index
 *
 args
 )
 :
+    
+args
+=
+args
+[
+DEPS_LEN
+:
+]
     
 all_objs
 options
