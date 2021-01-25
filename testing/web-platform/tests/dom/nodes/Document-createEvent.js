@@ -129,13 +129,6 @@ TextEvent
 CompositionEvent
 "
 "
-TouchEvent
-"
-:
-"
-TouchEvent
-"
-"
 UIEvent
 "
 :
