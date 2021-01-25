@@ -726,6 +726,12 @@ zeroSize
 zeroSize
 0
 maxISize
+{
+ComputeSizeFlag
+:
+:
+SkipAspectRatio
+}
 )
 ;
 minCoord
@@ -899,6 +905,12 @@ zeroSize
 zeroSize
 0
 minISize
+{
+ComputeSizeFlag
+:
+:
+SkipAspectRatio
+}
 )
 ;
 minCoord
