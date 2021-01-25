@@ -4529,6 +4529,10 @@ y
 menubar
 .
 height
++
+topBorder
+.
+height
 ;
 tabBar
 .
@@ -4587,6 +4591,10 @@ tabLine
 y
 =
 menubar
+.
+height
++
+topBorder
 .
 height
 ;
