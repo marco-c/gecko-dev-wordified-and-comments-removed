@@ -531,12 +531,16 @@ resourceId
 )
 ;
 return
+{
+stacktrace
+:
 WebConsoleUtils
 .
 removeFramesAboveDebuggerEval
 (
 stacktrace
 )
+}
 ;
 }
 }

@@ -2415,8 +2415,6 @@ updates
 const
 request
 =
-newState
-.
 networkMessagesUpdateById
 [
 id
