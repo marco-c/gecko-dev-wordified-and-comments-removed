@@ -52205,9 +52205,9 @@ scriptIndex
 ;
 script
 .
-hasSharedData
-=
-true
+setHasSharedData
+(
+)
 ;
 if
 (

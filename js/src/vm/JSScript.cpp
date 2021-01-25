@@ -20543,6 +20543,8 @@ if
 scriptStencil
 .
 hasMemberInitializers
+(
+)
 )
 {
 script
@@ -21433,6 +21435,8 @@ MOZ_ASSERT
 scriptStencil
 .
 hasSharedData
+(
+)
 "
 Need
 generated
