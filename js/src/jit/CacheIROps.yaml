@@ -2769,7 +2769,7 @@ name
 StoreDenseElement
 shared
 :
-false
+true
 transpile
 :
 true
@@ -2793,7 +2793,7 @@ name
 StoreDenseElementHole
 shared
 :
-false
+true
 transpile
 :
 true
@@ -2820,7 +2820,7 @@ name
 ArrayPush
 shared
 :
-false
+true
 transpile
 :
 true
