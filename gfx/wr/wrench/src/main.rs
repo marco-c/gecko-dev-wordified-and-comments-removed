@@ -2036,6 +2036,8 @@ swgl
 .
 init_default_framebuffer
 (
+0
+0
 dim
 .
 width

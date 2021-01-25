@@ -1321,6 +1321,12 @@ GLenum
 fn
 InitDefaultFramebuffer
 (
+x
+:
+i32
+y
+:
+i32
 width
 :
 i32
@@ -1826,6 +1832,12 @@ init_default_framebuffer
 (
 &
 self
+x
+:
+i32
+y
+:
+i32
 width
 :
 i32
@@ -1846,6 +1858,8 @@ unsafe
 {
 InitDefaultFramebuffer
 (
+x
+y
 width
 height
 stride

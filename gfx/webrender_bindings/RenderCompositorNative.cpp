@@ -3242,6 +3242,12 @@ wr_swgl_init_default_framebuffer
 mContext
 aBounds
 .
+x
+aBounds
+.
+y
+aBounds
+.
 width
 aBounds
 .
