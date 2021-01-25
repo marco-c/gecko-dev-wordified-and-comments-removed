@@ -2984,8 +2984,6 @@ compilationInfo
 .
 input
 compilationInfo
-.
-stencil
 gcOutput
 )
 ;
@@ -3331,8 +3329,6 @@ MOZ_ASSERT
 !
 initial
 .
-stencil
-.
 scriptData
 [
 0
@@ -3485,8 +3481,6 @@ i
 <
 initial
 .
-stencil
-.
 scriptData
 .
 size
@@ -3507,8 +3501,6 @@ BaseCompilationStencil
 toFunctionKey
 (
 initial
-.
-stencil
 .
 scriptExtra
 [
@@ -3628,8 +3620,6 @@ initial
 .
 input
 initial
-.
-stencil
 gcOutput
 )
 )
@@ -3981,8 +3971,6 @@ auto
 stencil
 =
 compilationInfo
-.
-stencil
 ;
 if
 (
@@ -4425,8 +4413,6 @@ false
 MOZ_ASSERT
 (
 initial
-.
-stencil
 .
 parserAtomData
 .
@@ -5197,8 +5183,6 @@ compilationInfo
 alloc
 compilationInfo
 .
-stencil
-.
 regExpData
 regExpData
 )
@@ -5218,8 +5202,6 @@ compilationInfo
 .
 alloc
 compilationInfo
-.
-stencil
 .
 scriptData
 scriptData
@@ -5241,8 +5223,6 @@ compilationInfo
 alloc
 compilationInfo
 .
-stencil
-.
 scriptExtra
 scriptExtra
 )
@@ -5262,8 +5242,6 @@ compilationInfo
 .
 alloc
 compilationInfo
-.
-stencil
 .
 scopeData
 scopeData
@@ -5285,8 +5263,6 @@ compilationInfo
 alloc
 compilationInfo
 .
-stencil
-.
 scopeNames
 scopeNames
 )
@@ -5306,8 +5282,6 @@ compilationInfo
 .
 alloc
 compilationInfo
-.
-stencil
 .
 parserAtomData
 parserAtoms
@@ -5332,8 +5306,6 @@ compilationInfo
 .
 alloc
 compilationInfo
-.
-stencil
 .
 gcThingData
 gcThingData

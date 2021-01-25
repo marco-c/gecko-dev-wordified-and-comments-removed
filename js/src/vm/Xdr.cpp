@@ -2724,8 +2724,6 @@ ParserAtomTable
 (
 this
 compilationInfo
-.
-stencil
 )
 )
 ;
@@ -2742,8 +2740,6 @@ XDRBaseCompilationStencil
 (
 this
 compilationInfo
-.
-stencil
 )
 )
 ;
@@ -4403,8 +4399,6 @@ runtime
 stencilSet
 .
 initial
-.
-stencil
 .
 parserAtomData
 )

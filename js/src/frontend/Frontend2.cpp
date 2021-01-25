@@ -1500,8 +1500,6 @@ false
 }
 compilationInfo
 .
-stencil
-.
 regExpData
 =
 mozilla
@@ -1858,8 +1856,6 @@ mozilla
 KnownNotNull
 &
 compilationInfo
-.
-stencil
 .
 regExpData
 [
@@ -2424,8 +2420,6 @@ script
 =
 compilationInfo
 .
-stencil
-.
 scriptData
 [
 scriptIndex
@@ -2436,8 +2430,6 @@ ScriptStencilExtra
 scriptExtra
 =
 compilationInfo
-.
-stencil
 .
 scriptExtra
 [
@@ -2643,8 +2635,6 @@ if
 (
 !
 compilationInfo
-.
-stencil
 .
 sharedData
 .
@@ -3366,8 +3356,6 @@ false
 }
 compilationInfo
 .
-stencil
-.
 scriptData
 =
 mozilla
@@ -3414,8 +3402,6 @@ false
 ;
 }
 compilationInfo
-.
-stencil
 .
 scriptExtra
 =
@@ -3506,8 +3492,6 @@ nonLazyFunctionCount
 }
 compilationInfo
 .
-stencil
-.
 prepareStorageFor
 (
 cx
@@ -3538,8 +3522,6 @@ mozilla
 KnownNotNull
 &
 compilationInfo
-.
-stencil
 .
 scriptData
 [

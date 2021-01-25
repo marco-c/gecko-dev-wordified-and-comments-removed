@@ -8088,8 +8088,6 @@ compilationInfo
 get
 (
 )
-.
-stencil
 )
 )
 {

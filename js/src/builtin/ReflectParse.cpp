@@ -19074,8 +19074,6 @@ parser
 getCompilationInfo
 (
 )
-.
-stencil
 )
 ;
 if

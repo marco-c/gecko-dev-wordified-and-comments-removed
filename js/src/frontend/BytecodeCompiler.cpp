@@ -4152,8 +4152,6 @@ moduleMetadata
 *
 compilationInfo
 .
-stencil
-.
 moduleMetadata
 ;
 builder
@@ -4511,8 +4509,6 @@ isAsmJSModule
 MOZ_ASSERT
 (
 compilationInfo
-.
-stencil
 .
 asmJS
 .
@@ -5642,8 +5638,6 @@ false
 ;
 }
 compilationInfo
-.
-stencil
 .
 functionKey
 =

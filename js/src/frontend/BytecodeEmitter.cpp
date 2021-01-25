@@ -1026,8 +1026,6 @@ if
 !
 compilationInfo
 .
-stencil
-.
 prepareStorageFor
 (
 cx
@@ -8536,8 +8534,6 @@ objIndex
 (
 compilationInfo
 .
-stencil
-.
 objLiteralData
 .
 length
@@ -8572,8 +8568,6 @@ if
 (
 !
 compilationInfo
-.
-stencil
 .
 objLiteralData
 .
@@ -52176,8 +52170,6 @@ if
 (
 !
 compilationInfo
-.
-stencil
 .
 sharedData
 .
