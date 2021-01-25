@@ -387,7 +387,6 @@ teardown
 monitor
 )
 ;
-async
 function
 testCopyUrlParamsHidden
 (
@@ -395,7 +394,6 @@ index
 hidden
 )
 {
-await
 EventUtils
 .
 sendMouseEvent
@@ -425,7 +423,6 @@ index
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -523,7 +520,6 @@ index
 queryString
 )
 {
-await
 EventUtils
 .
 sendMouseEvent
@@ -553,7 +549,6 @@ index
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -637,7 +632,6 @@ correct
 )
 ;
 }
-async
 function
 testCopyPostDataHidden
 (
@@ -645,7 +639,6 @@ index
 hidden
 )
 {
-await
 EventUtils
 .
 sendMouseEvent
@@ -675,7 +668,6 @@ index
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -765,7 +757,6 @@ hidden
 )
 ;
 }
-async
 function
 testCopyRequestDataLabel
 (
@@ -773,7 +764,6 @@ index
 method
 )
 {
-await
 EventUtils
 .
 sendMouseEvent
@@ -803,7 +793,6 @@ index
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -945,7 +934,6 @@ requestPostData
 }
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -975,7 +963,6 @@ index
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

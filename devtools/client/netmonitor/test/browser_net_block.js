@@ -173,7 +173,6 @@ item
 0
 ]
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -275,7 +274,6 @@ request
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -435,7 +433,6 @@ item
 0
 ]
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -537,7 +534,6 @@ request
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -690,7 +686,6 @@ transferred
 .
 textContent
 ;
-await
 EventUtils
 .
 sendMouseEvent

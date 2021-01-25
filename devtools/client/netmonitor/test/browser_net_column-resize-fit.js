@@ -157,7 +157,6 @@ resizer
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -229,7 +228,6 @@ Content
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

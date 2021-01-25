@@ -99,7 +99,6 @@ url
 await
 wait
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -129,7 +128,6 @@ item
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

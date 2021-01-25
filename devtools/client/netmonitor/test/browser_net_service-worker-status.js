@@ -363,7 +363,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

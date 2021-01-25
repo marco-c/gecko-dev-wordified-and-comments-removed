@@ -353,7 +353,6 @@ front
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

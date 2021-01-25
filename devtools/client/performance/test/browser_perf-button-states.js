@@ -194,7 +194,6 @@ recording
 }
 )
 ;
-await
 click
 (
 recordButton
@@ -288,7 +287,6 @@ recorded
 }
 )
 ;
-await
 click
 (
 recordButton

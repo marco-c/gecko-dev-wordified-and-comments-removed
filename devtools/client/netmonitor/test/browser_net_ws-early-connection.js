@@ -224,7 +224,6 @@ request
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

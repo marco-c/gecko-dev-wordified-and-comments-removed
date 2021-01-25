@@ -393,7 +393,6 @@ doc
 =
 >
 {
-await
 selectRow
 (
 doc

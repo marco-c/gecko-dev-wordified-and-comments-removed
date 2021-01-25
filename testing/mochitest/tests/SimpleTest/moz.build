@@ -23,11 +23,6 @@ docshell_helpers
 js
 "
 "
-AccessibilityUtils
-.
-js
-"
-"
 ChromeTask
 .
 js

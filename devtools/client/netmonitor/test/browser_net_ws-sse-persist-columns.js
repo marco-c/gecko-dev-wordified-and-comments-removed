@@ -472,7 +472,6 @@ requests
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -546,13 +545,28 @@ finBit
 )
 )
 ;
-await
-clickOnSidebarTab
+EventUtils
+.
+sendMouseEvent
 (
+{
+type
+:
+"
+click
+"
+}
 document
+.
+querySelector
+(
 "
+#
 response
+-
+tab
 "
+)
 )
 ;
 const
@@ -782,7 +796,6 @@ order
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1022,7 +1035,6 @@ order
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1086,7 +1098,6 @@ switch
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1161,7 +1172,6 @@ resetMessageColumns
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1238,7 +1248,6 @@ resetMessageColumns
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1305,7 +1314,6 @@ switch
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

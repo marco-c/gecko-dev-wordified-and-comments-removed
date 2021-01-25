@@ -171,7 +171,6 @@ false
 }
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -215,7 +214,6 @@ store
 1
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -243,7 +241,6 @@ store
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

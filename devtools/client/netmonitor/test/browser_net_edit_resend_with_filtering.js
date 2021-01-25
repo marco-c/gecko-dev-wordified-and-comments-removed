@@ -142,7 +142,6 @@ item
 0
 ]
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -194,7 +193,6 @@ getState
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

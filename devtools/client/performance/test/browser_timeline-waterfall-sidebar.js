@@ -434,7 +434,6 @@ markers
 i
 ]
 ;
-await
 EventUtils
 .
 sendMouseEvent

@@ -1247,7 +1247,6 @@ REQUESTS_WITH_MEDIA_AND_FLASH_AND_WS
 await
 wait
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1388,7 +1387,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1448,7 +1446,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1479,7 +1476,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1539,7 +1535,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1570,7 +1565,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1630,7 +1624,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1661,7 +1654,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1721,7 +1713,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1752,7 +1743,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1812,7 +1802,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1843,7 +1832,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1903,7 +1891,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1934,7 +1921,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1994,7 +1980,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2025,7 +2010,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2085,7 +2069,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2145,7 +2128,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2204,7 +2186,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2263,7 +2244,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2322,7 +2302,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2382,7 +2361,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2439,7 +2417,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2496,7 +2473,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2556,7 +2532,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2622,7 +2597,6 @@ setFreetextFilter
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2653,7 +2627,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2820,7 +2793,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2880,7 +2852,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2940,7 +2911,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -2971,7 +2941,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -3002,7 +2971,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -3050,7 +3018,6 @@ monitor
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -3215,7 +3182,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

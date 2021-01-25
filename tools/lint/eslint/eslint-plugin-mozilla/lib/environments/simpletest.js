@@ -32,11 +32,6 @@ simpleTestFiles
 =
 [
 "
-AccessibilityUtils
-.
-js
-"
-"
 ExtensionTestUtils
 .
 js

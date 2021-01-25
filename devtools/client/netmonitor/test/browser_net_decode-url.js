@@ -115,7 +115,6 @@ preview
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

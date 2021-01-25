@@ -140,7 +140,6 @@ overview
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -169,7 +168,6 @@ requestHeaders
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

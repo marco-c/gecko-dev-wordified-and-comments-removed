@@ -200,7 +200,6 @@ message
 const
 click
 =
-async
 (
 node
 win
@@ -210,7 +209,6 @@ window
 =
 >
 {
-await
 EventUtils
 .
 sendMouseEvent
@@ -231,7 +229,6 @@ win
 const
 dblclick
 =
-async
 (
 node
 win
@@ -241,7 +238,6 @@ window
 =
 >
 {
-await
 EventUtils
 .
 sendMouseEvent
@@ -262,7 +258,6 @@ win
 const
 mousedown
 =
-async
 (
 node
 win
@@ -272,7 +267,6 @@ window
 =
 >
 {
-await
 EventUtils
 .
 sendMouseEvent
@@ -293,7 +287,6 @@ win
 const
 rightMousedown
 =
-async
 (
 node
 win
@@ -303,7 +296,6 @@ window
 =
 >
 {
-await
 EventUtils
 .
 sendMouseEvent
