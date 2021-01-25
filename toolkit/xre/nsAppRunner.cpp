@@ -16401,6 +16401,12 @@ return
 #
 ifdef
 XP_MACOSX
+mozilla
+:
+:
+MacAutoreleasePool
+pool
+;
 DisableAppNap
 (
 )
