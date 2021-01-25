@@ -23,6 +23,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -176,6 +185,9 @@ aEndOfStream
 nsresult
 MaybeDecodeSRI
 (
+uint32_t
+*
+sriLength
 )
 ;
 nsresult
