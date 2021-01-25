@@ -182,9 +182,6 @@ AllocKind
 :
 uint8_t
 ;
-struct
-Chunk
-;
 class
 StoreBuffer
 ;
@@ -1018,7 +1015,7 @@ address
 const
 ;
 inline
-Chunk
+TenuredChunk
 *
 chunk
 (
@@ -1744,7 +1741,7 @@ CellAlignBytes
 ;
 MOZ_ASSERT
 (
-Chunk
+TenuredChunk
 :
 :
 withinValidRange
@@ -1757,7 +1754,7 @@ return
 addr
 ;
 }
-Chunk
+TenuredChunk
 *
 Cell
 :
@@ -1794,7 +1791,7 @@ ChunkMask
 return
 reinterpret_cast
 <
-Chunk
+TenuredChunk
 *
 >
 (

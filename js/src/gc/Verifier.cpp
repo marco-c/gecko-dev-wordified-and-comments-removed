@@ -2172,7 +2172,7 @@ typedef
 gc
 :
 :
-Chunk
+TenuredChunk
 *
 Lookup
 ;
@@ -2183,7 +2183,7 @@ hash
 gc
 :
 :
-Chunk
+TenuredChunk
 *
 chunk
 )
@@ -2227,13 +2227,13 @@ match
 gc
 :
 :
-Chunk
+TenuredChunk
 *
 k
 gc
 :
 :
-Chunk
+TenuredChunk
 *
 l
 )
@@ -2325,7 +2325,7 @@ BitmapMap
 =
 HashMap
 <
-Chunk
+TenuredChunk
 *
 UniquePtr
 <

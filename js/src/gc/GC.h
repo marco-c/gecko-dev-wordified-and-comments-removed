@@ -68,8 +68,8 @@ gc
 class
 Arena
 ;
-struct
-Chunk
+class
+TenuredChunk
 ;
 struct
 Cell
@@ -216,7 +216,7 @@ void
 gc
 :
 :
-Chunk
+TenuredChunk
 *
 const
 JS

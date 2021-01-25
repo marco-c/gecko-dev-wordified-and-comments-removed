@@ -1106,7 +1106,7 @@ data
 gc
 :
 :
-Chunk
+TenuredChunk
 *
 chunk
 const
@@ -4069,7 +4069,7 @@ sizeof
 gc
 :
 :
-Chunk
+TenuredChunk
 )
 -
 (

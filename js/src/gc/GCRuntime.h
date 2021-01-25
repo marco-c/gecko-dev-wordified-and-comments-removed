@@ -292,7 +292,7 @@ false
 class
 ChunkPool
 {
-Chunk
+TenuredChunk
 *
 head_
 ;
@@ -439,7 +439,7 @@ return
 count_
 ;
 }
-Chunk
+TenuredChunk
 *
 head
 (
@@ -454,7 +454,7 @@ return
 head_
 ;
 }
-Chunk
+TenuredChunk
 *
 pop
 (
@@ -463,16 +463,16 @@ pop
 void
 push
 (
-Chunk
+TenuredChunk
 *
 chunk
 )
 ;
-Chunk
+TenuredChunk
 *
 remove
 (
-Chunk
+TenuredChunk
 *
 chunk
 )
@@ -484,11 +484,11 @@ sort
 ;
 private
 :
-Chunk
+TenuredChunk
 *
 mergeSort
 (
-Chunk
+TenuredChunk
 *
 list
 size_t
@@ -509,7 +509,7 @@ public
 bool
 contains
 (
-Chunk
+TenuredChunk
 *
 chunk
 )
@@ -562,7 +562,7 @@ next
 (
 )
 ;
-Chunk
+TenuredChunk
 *
 get
 (
@@ -574,7 +574,7 @@ current_
 ;
 }
 operator
-Chunk
+TenuredChunk
 *
 (
 )
@@ -586,7 +586,7 @@ get
 )
 ;
 }
-Chunk
+TenuredChunk
 *
 operator
 -
@@ -603,7 +603,7 @@ get
 }
 private
 :
-Chunk
+TenuredChunk
 *
 current_
 ;
@@ -2837,7 +2837,7 @@ lock
 )
 ;
 }
-Chunk
+TenuredChunk
 *
 getOrAllocChunk
 (
@@ -2849,7 +2849,7 @@ lock
 void
 recycleChunk
 (
-Chunk
+TenuredChunk
 *
 chunk
 const
@@ -3308,7 +3308,7 @@ friend
 class
 ArenaLists
 ;
-Chunk
+TenuredChunk
 *
 pickChunk
 (
@@ -3321,7 +3321,7 @@ Arena
 *
 allocateArena
 (
-Chunk
+TenuredChunk
 *
 chunk
 Zone

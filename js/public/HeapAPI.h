@@ -157,8 +157,8 @@ Arena
 struct
 Cell
 ;
-struct
-Chunk
+class
+TenuredChunk
 ;
 class
 StoreBuffer
@@ -375,11 +375,11 @@ friend
 class
 ChunkPool
 ;
-Chunk
+TenuredChunk
 *
 next
 ;
-Chunk
+TenuredChunk
 *
 prev
 ;
