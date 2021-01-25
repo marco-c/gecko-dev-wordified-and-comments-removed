@@ -518,6 +518,16 @@ HandleFunction
 callee
 )
 ;
+static
+CallObject
+*
+find
+(
+JSObject
+*
+env
+)
+;
 const
 Value
 &
