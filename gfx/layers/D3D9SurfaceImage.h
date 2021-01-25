@@ -372,14 +372,6 @@ IntRect
 aRegion
 )
 ;
-const
-D3DSURFACE_DESC
-&
-GetDesc
-(
-)
-const
-;
 gfx
 :
 :
