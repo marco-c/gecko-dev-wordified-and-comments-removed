@@ -113,6 +113,54 @@ util
 six
 import
 ensure_text
+class
+RefMust
+(
+object
+)
+:
+    
+NA
+=
+"
+NA
+"
+    
+COPY
+=
+"
+copy
+"
+    
+SYMLINK
+=
+"
+symlink
+"
+class
+RefWhen
+(
+object
+)
+:
+    
+ANY
+=
+"
+ANY
+"
+    
+COPY
+=
+"
+copy
+"
+    
+SYMLINK
+=
+"
+symlink
+"
 add_metaclass
 (
 ABCMeta
@@ -161,22 +209,30 @@ __init__
 (
 self
 src
-must_symlink
-must_copy
+must
+=
+RefMust
+.
+NA
+when
+=
+RefWhen
+.
+ANY
 )
 :
         
 self
 .
-must_symlink
+must
 =
-must_symlink
+must
         
 self
 .
-must_copy
+when
 =
-must_copy
+when
         
 self
 .
@@ -242,35 +298,6 @@ self
 exists
 else
 False
-        
-if
-self
-.
-must_copy
-is
-True
-and
-self
-.
-must_symlink
-is
-True
-:
-            
-raise
-ValueError
-(
-"
-can
-copy
-and
-symlink
-at
-the
-same
-time
-"
-)
     
 def
 __repr__
@@ -412,7 +439,12 @@ None
 if
 self
 .
-must_symlink
+must
+=
+=
+RefMust
+.
+SYMLINK
 :
                 
 self
@@ -459,7 +491,12 @@ None
 if
 self
 .
-must_copy
+must
+=
+=
+RefMust
+.
+COPY
 :
                 
 self
@@ -515,7 +552,12 @@ symlinks
 if
 self
 .
-must_symlink
+must
+=
+=
+RefMust
+.
+SYMLINK
 :
             
 return
@@ -524,7 +566,12 @@ symlink
 if
 self
 .
-must_copy
+must
+=
+=
+RefMust
+.
+COPY
 :
             
 return
@@ -573,8 +620,16 @@ __init__
 (
 self
 src
-must_symlink
-must_copy
+must
+=
+RefMust
+.
+NA
+when
+=
+RefWhen
+.
+ANY
 )
 :
         
@@ -587,8 +642,8 @@ self
 __init__
 (
 src
-must_symlink
-must_copy
+must
+when
 )
         
 self
@@ -713,12 +768,16 @@ __init__
 self
 src
 dest
-must_symlink
+must
 =
-False
-must_copy
+RefMust
+.
+NA
+when
 =
-False
+RefWhen
+.
+ANY
 )
 :
         
@@ -731,8 +790,8 @@ self
 __init__
 (
 src
-must_symlink
-must_copy
+must
+when
 )
         
 self
@@ -853,12 +912,16 @@ self
 src
 targets
 dest
-must_symlink
+must
 =
-False
-must_copy
+RefMust
+.
+NA
+when
 =
-False
+RefWhen
+.
+ANY
 )
 :
         
@@ -868,8 +931,8 @@ __init__
 (
 self
 src
-must_symlink
-must_copy
+must
+when
 )
         
 PathRefToDest
@@ -879,8 +942,8 @@ __init__
 self
 src
 dest
-must_symlink
-must_copy
+must
+when
 )
         
 if
@@ -939,12 +1002,6 @@ self
 dest
 =
 dest
-        
-self
-.
-must_copy
-=
-must_copy
     
 def
 run

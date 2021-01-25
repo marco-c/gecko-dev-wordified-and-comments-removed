@@ -130,6 +130,18 @@ self
 raise
 NotImplementedError
     
+property
+    
+def
+can_update
+(
+self
+)
+:
+        
+raise
+NotImplementedError
+    
 abstractmethod
     
 def

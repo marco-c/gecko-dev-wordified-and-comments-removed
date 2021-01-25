@@ -30,14 +30,10 @@ sys
 version_info
 [
 0
-:
-2
 ]
->
-(
+=
+=
 3
-4
-)
 class
 VersionPlatformSelect
 (
