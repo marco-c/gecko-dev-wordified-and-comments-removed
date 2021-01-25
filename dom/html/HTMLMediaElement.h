@@ -3783,7 +3783,7 @@ mPreloadAction
 PRELOAD_UNDEFINED
 ;
 TimeStamp
-mTimeUpdateTime
+mQueueTimeUpdateRunnerTime
 ;
 TimeStamp
 mProgressTime
@@ -4351,6 +4351,14 @@ mMediaControlKeyListener
 bool
 IsBeingUsedInPictureInPictureMode
 (
+)
+const
+;
+bool
+ShouldQueueTimeupdateAsyncTask
+(
+TimeupdateType
+aType
 )
 const
 ;
