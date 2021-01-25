@@ -48,6 +48,12 @@ nodejs
 "
 NODEJS
 "
+bootstrap_search_path
+(
+"
+node
+"
+)
 )
 checking
 (
@@ -119,8 +125,10 @@ nodejs
 (
 require
 env_node
+search_path
 )
 :
+search_path
 node_exe
 =
 env_node
