@@ -9516,11 +9516,6 @@ bincode
 chrono
 "
 "
-crossbeam
--
-channel
-"
-"
 glean
 "
 "
@@ -9550,9 +9545,6 @@ tempfile
 thin
 -
 vec
-"
-"
-thiserror
 "
 "
 uuid
