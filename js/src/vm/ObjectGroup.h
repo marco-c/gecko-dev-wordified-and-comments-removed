@@ -333,13 +333,6 @@ proto_
 ;
 }
 void
-setProto
-(
-TaggedProto
-proto
-)
-;
-void
 setProtoUnchecked
 (
 TaggedProto
