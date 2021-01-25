@@ -375,13 +375,6 @@ friend
 class
 ChunkPool
 ;
-friend
-class
-js
-:
-:
-NurseryDecommitTask
-;
 Chunk
 *
 next
