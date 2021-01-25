@@ -2444,7 +2444,7 @@ scriptExtra
 scriptIndex
 ]
 ;
-script
+scriptExtra
 .
 immutableFlags
 =
@@ -2452,7 +2452,7 @@ smooshScript
 .
 immutable_flags
 ;
-script
+scriptExtra
 .
 immutableFlags
 .
@@ -2467,7 +2467,7 @@ options
 selfHostingMode
 )
 ;
-script
+scriptExtra
 .
 immutableFlags
 .
@@ -2484,7 +2484,7 @@ forceStrictMode
 )
 )
 ;
-script
+scriptExtra
 .
 immutableFlags
 .
@@ -2516,7 +2516,7 @@ data
 ]
 )
 {
-script
+scriptExtra
 .
 immutableFlags
 .
@@ -2531,7 +2531,7 @@ options
 isRunOnce
 )
 ;
-script
+scriptExtra
 .
 immutableFlags
 .
@@ -2550,7 +2550,7 @@ noScriptRval
 bool
 isFunction
 =
-script
+scriptExtra
 .
 immutableFlags
 .

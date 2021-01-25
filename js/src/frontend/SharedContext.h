@@ -1678,6 +1678,12 @@ functionExtraStencil
 )
 const
 ;
+bool
+hasFunctionExtraStencil
+(
+)
+const
+;
 LexicalScope
 :
 :

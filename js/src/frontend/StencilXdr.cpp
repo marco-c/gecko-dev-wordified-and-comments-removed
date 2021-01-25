@@ -3179,7 +3179,14 @@ if
 (
 stencil
 .
-scriptData
+isInitialStencil
+(
+)
+&
+&
+stencil
+.
+scriptExtra
 [
 CompilationInfo
 :
