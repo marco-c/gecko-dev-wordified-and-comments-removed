@@ -180,10 +180,6 @@ flow
 /
 #
 define
-NS_CSS_FRAME_TYPE_ABSOLUTE
-4
-#
-define
 NS_FRAME_GET_TYPE
 (
 _ft
