@@ -6821,6 +6821,13 @@ MissingFontUser
 }
 }
 }
+mPresContext
+-
+>
+ClearOneShotPostRefreshObservers
+(
+)
+;
 }
 #
 ifdef
