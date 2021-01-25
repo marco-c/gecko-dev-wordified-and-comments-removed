@@ -26,6 +26,10 @@ US
 cookieStoreId
 :
 "
+firefox
+-
+container
+-
 1
 "
 }
