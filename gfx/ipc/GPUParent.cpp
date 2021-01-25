@@ -485,6 +485,13 @@ h
 #
 include
 "
+gfxWindowsPlatform
+.
+h
+"
+#
+include
+"
 mozilla
 /
 WindowsVersion
@@ -851,6 +858,13 @@ defined
 (
 XP_WIN
 )
+gfxWindowsPlatform
+:
+:
+InitMemoryReportersForGPUProcess
+(
+)
+;
 DeviceManagerDx
 :
 :

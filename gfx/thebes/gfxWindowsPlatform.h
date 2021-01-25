@@ -693,6 +693,12 @@ TelemetryDeviceCode
 aDevice
 )
 ;
+static
+void
+InitMemoryReportersForGPUProcess
+(
+)
+;
 protected
 :
 bool
