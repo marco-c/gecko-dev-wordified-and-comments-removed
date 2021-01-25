@@ -399,12 +399,6 @@ hasEnvironment
 )
 const
 ;
-uint32_t
-nextFrameSlot
-(
-)
-const
-;
 bool
 isArrow
 (
