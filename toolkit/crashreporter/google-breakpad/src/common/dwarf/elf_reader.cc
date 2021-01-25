@@ -132,9 +132,6 @@ endif
 #
 if
 __APPLE__
-|
-|
-__FreeBSD__
 #
 ifndef
 __LITTLE_ENDIAN
