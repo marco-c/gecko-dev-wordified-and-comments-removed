@@ -1353,24 +1353,6 @@ directory
             
 )
         
-objdir
-=
-self
-.
-topobjdir
-.
-encode
-(
-"
-utf
--
-8
-"
-"
-replace
-"
-)
-        
 print
 (
 "
@@ -1380,7 +1362,9 @@ clobbering
 s
 "
 %
-objdir
+self
+.
+topobjdir
 file
 =
 fh
