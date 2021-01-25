@@ -122,6 +122,13 @@ alias
 "
 bacon_addParam
 "
+encoding
+:
+"
+windows
+-
+1252
+"
 description
 :
 "
