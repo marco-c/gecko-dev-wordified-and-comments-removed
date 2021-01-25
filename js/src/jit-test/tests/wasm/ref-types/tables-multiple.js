@@ -3771,8 +3771,8 @@ const
 SyntaxError
 /
 expected
-an
-identifier
+keyword
+table
 /
 )
 ;
