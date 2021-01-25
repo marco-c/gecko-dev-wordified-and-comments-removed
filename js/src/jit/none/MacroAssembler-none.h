@@ -6,6 +6,11 @@ define
 jit_none_MacroAssembler_none_h
 #
 include
+<
+iterator
+>
+#
+include
 "
 jit
 /
@@ -320,10 +325,10 @@ const
 uint32_t
 NumCallTempNonArgRegs
 =
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 CallTempNonArgRegs
 )

@@ -15,6 +15,11 @@ h
 "
 #
 include
+<
+iterator
+>
+#
+include
 "
 gc
 /
@@ -209,10 +214,10 @@ unsigned
 entryIndex
 )
 <
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 entries
 )

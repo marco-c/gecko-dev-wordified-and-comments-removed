@@ -9,6 +9,11 @@ h
 "
 #
 include
+<
+iterator
+>
+#
+include
 "
 jsapi
 .
@@ -358,10 +363,10 @@ i
 ;
 i
 <
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 instrumentationNames
 )
@@ -464,10 +469,10 @@ i
 ;
 i
 <
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 instrumentationNames
 )

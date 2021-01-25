@@ -7,6 +7,11 @@ vm_Caches_h
 #
 include
 <
+iterator
+>
+#
+include
+<
 new
 >
 #
@@ -670,10 +675,10 @@ kind
 return
 hash
 %
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 entries
 )
@@ -774,10 +779,10 @@ unsigned
 entry_
 )
 <
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 entries
 )

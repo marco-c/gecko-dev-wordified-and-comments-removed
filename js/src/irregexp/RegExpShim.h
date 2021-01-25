@@ -79,6 +79,11 @@ cctype
 >
 #
 include
+<
+iterator
+>
+#
+include
 "
 irregexp
 /
@@ -593,10 +598,10 @@ endif
 #
 define
 arraysize
-mozilla
+std
 :
 :
-ArrayLength
+size
 #
 define
 DISALLOW_ASSIGN

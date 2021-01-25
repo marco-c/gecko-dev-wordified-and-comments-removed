@@ -6,6 +6,11 @@ define
 A64_ASSEMBLER_A64_H_
 #
 include
+<
+iterator
+>
+#
+include
 "
 jit
 /
@@ -1033,10 +1038,10 @@ const
 uint32_t
 NumCallTempNonArgRegs
 =
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 CallTempNonArgRegs
 )
