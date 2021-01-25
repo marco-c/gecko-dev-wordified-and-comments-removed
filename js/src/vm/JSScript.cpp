@@ -15512,8 +15512,6 @@ xdrEncodeInitialStencil
 (
 cx
 stencilSet
-.
-initial
 xdrEncoder
 )
 )

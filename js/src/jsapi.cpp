@@ -30481,8 +30481,6 @@ cx
 &
 stencilSet
 .
-initial
-.
 input
 .
 options
@@ -30494,8 +30492,6 @@ if
 (
 !
 stencilSet
-.
-initial
 .
 input
 .
@@ -31055,8 +31051,6 @@ stencilSet
 get
 (
 )
-.
-initial
 .
 input
 .

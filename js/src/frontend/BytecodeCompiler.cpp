@@ -1842,8 +1842,6 @@ if
 !
 stencilSet
 .
-initial
-.
 input
 .
 source
@@ -1879,8 +1877,6 @@ tellDebuggerAboutCompiledScript
 (
 cx
 stencilSet
-.
-initial
 .
 input
 .
@@ -6631,8 +6627,9 @@ JSTracer
 trc
 )
 {
-initial
-.
+CompilationInfo
+:
+:
 trace
 (
 trc

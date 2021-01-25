@@ -29972,8 +29972,6 @@ get
 (
 )
 .
-initial
-.
 input
 .
 initForGlobal

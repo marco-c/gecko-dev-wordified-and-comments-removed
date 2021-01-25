@@ -3327,8 +3327,6 @@ cx
 MOZ_ASSERT
 (
 !
-initial
-.
 scriptData
 [
 0
@@ -3479,8 +3477,6 @@ i
 ;
 i
 <
-initial
-.
 scriptData
 .
 size
@@ -3500,8 +3496,6 @@ BaseCompilationStencil
 :
 toFunctionKey
 (
-initial
-.
 scriptExtra
 [
 i
@@ -3616,10 +3610,9 @@ CompilationInfo
 instantiateStencilsAfterPreparation
 (
 cx
-initial
-.
 input
-initial
+*
+this
 gcOutput
 )
 )
@@ -3707,20 +3700,18 @@ Rooted
 <
 CompilationInput
 >
-input
+delazificationInput
 (
 cx
 CompilationInput
 (
-initial
-.
 input
 .
 options
 )
 )
 ;
-input
+delazificationInput
 .
 get
 (
@@ -3731,7 +3722,7 @@ initFromLazy
 lazy
 )
 ;
-input
+delazificationInput
 .
 get
 (
@@ -3771,7 +3762,7 @@ CompilationInfo
 instantiateStencilsAfterPreparation
 (
 cx
-input
+delazificationInput
 .
 get
 (
@@ -3801,7 +3792,7 @@ clear
 (
 )
 ;
-input
+delazificationInput
 .
 get
 (
@@ -4038,7 +4029,8 @@ CompilationInfo
 prepareForInstantiate
 (
 cx
-initial
+*
+this
 gcOutput
 )
 )
@@ -4412,8 +4404,6 @@ false
 }
 MOZ_ASSERT
 (
-initial
-.
 parserAtomData
 .
 empty
@@ -4426,8 +4416,6 @@ decoder
 (
 cx
 &
-initial
-.
 input
 .
 options

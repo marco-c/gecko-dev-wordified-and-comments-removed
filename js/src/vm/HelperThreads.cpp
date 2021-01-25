@@ -4301,8 +4301,6 @@ get
 )
 -
 >
-initial
-.
 input
 .
 options
@@ -4319,8 +4317,6 @@ get
 )
 -
 >
-initial
-.
 input
 .
 initForGlobal
@@ -10752,8 +10748,6 @@ if
 stencilSet
 -
 >
-initial
-.
 input
 .
 source

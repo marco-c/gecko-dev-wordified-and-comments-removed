@@ -2358,6 +2358,9 @@ trc
 ;
 struct
 CompilationStencilSet
+:
+public
+CompilationInfo
 {
 private
 :
@@ -2392,9 +2395,6 @@ LifoAllocChunkSize
 ;
 public
 :
-CompilationInfo
-initial
-;
 LifoAlloc
 allocForDelazifications
 ;
@@ -2432,7 +2432,7 @@ ReadOnlyCompileOptions
 options
 )
 :
-initial
+CompilationInfo
 (
 cx
 options
@@ -2452,7 +2452,7 @@ other
 )
 noexcept
 :
-initial
+CompilationInfo
 (
 std
 :
@@ -2460,8 +2460,6 @@ std
 move
 (
 other
-.
-initial
 )
 )
 allocForDelazifications
