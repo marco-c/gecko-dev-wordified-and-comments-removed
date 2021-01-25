@@ -264,6 +264,7 @@ rv
 RemoveNsIFile
 (
 aQuotaInfo
+*
 aDBFile
 )
 ;
@@ -287,6 +288,7 @@ rv
 BodyDeleteDir
 (
 aQuotaInfo
+*
 dbDir
 )
 ;
