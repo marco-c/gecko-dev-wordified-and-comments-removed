@@ -2864,6 +2864,15 @@ Now
 (
 )
 ;
+TextureSourceProvider
+:
+:
+AutoReadUnlockTextures
+unlock
+(
+mCompositor
+)
+;
 if
 (
 !
