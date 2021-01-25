@@ -23311,17 +23311,6 @@ droppedLinkHandler
 =
 oldDroppedLinkHandler
 ;
-browser
-.
-docShellIsActive
-=
-this
-.
-shouldActivateDocShell
-(
-browser
-)
-;
 let
 listener
 =
