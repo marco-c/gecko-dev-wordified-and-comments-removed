@@ -9208,6 +9208,11 @@ this
 actor
 .
 browsingContext
+{
+printFrameOnly
+:
+true
+}
 )
 ;
 }
@@ -9227,8 +9232,11 @@ this
 actor
 .
 browsingContext
-null
+{
+printSelectionOnly
+:
 true
+}
 )
 ;
 }

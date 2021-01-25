@@ -102,7 +102,11 @@ window_print
 aOpenWindowInfo
 .
 parent
+{
+openWindowInfo
+:
 aOpenWindowInfo
+}
 )
 ;
 }

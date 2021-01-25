@@ -312,8 +312,11 @@ startPrintWindow
 tests
 "
 frameBC
-null
+{
+printSelectionOnly
+:
 true
+}
 )
 ;
 await
