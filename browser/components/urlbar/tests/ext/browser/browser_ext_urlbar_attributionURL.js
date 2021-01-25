@@ -8,14 +8,12 @@ add_settings_tasks
 "
 browser
 .
-urlbar
+partnerlink
 .
-eventTelemetry
-.
-enabled
+attributionURL
 "
 "
-boolean
+string
 "
 (
 )
@@ -48,7 +46,7 @@ experiments
 .
 urlbar
 .
-engagementTelemetry
+attributionURL
 [
 method
 ]
