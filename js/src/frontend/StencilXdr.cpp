@@ -2705,7 +2705,7 @@ MOZ_TRY
 xdr
 -
 >
-codeUint64
+codeUint32
 (
 &
 stencil
