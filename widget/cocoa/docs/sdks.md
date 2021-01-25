@@ -153,7 +153,7 @@ SDKs
 /
 MacOSX10
 .
-11
+12
 .
 sdk
 #
@@ -204,7 +204,7 @@ use
 the
 10
 .
-11
+12
 SDK
 .
 [
@@ -243,7 +243,7 @@ SDKs
 from
 10
 .
-11
+12
 to
 10
 .
@@ -275,7 +275,7 @@ only
 the
 10
 .
-11
+12
 SDK
 is
 used

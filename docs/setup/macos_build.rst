@@ -664,7 +664,7 @@ archive
 /
 MacOSX10
 .
-11
+12
 .
 sdk
 "
@@ -1233,7 +1233,7 @@ of
 macOS
 10
 .
-11
+12
 SDK
 to
 build
@@ -1289,16 +1289,14 @@ get
 the
 10
 .
-11
+12
 SDK
 first
 download
 Xcode
-7
+8
 .
-3
-.
-1
+2
 from
 the
 More
@@ -1385,7 +1383,7 @@ SDKs
 /
 MacOSX10
 .
-11
+12
 .
 sdk
 HOME
@@ -1396,7 +1394,7 @@ archive
 /
 MacOSX10
 .
-11
+12
 .
 sdk
 2
@@ -2802,7 +2800,7 @@ archive
 /
 MacOSX10
 .
-11
+12
 .
 sdk
 Firefox
@@ -3191,7 +3189,7 @@ System
 macOS
 10
 .
-11
+12
 or
 later
 .
@@ -3526,7 +3524,7 @@ builds
 use
 MacOSX10
 .
-11
+12
 .
 sdk
 .
