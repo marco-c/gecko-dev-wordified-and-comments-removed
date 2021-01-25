@@ -267,6 +267,16 @@ EncryptedClientHelloServer
 n
 "
 "
+deadlock
+:
+nsDOMWindowUtils
+:
+:
+CompareCanvases
+\
+n
+"
+"
 race
 :
 init_simd
