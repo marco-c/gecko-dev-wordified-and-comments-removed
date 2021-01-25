@@ -49,6 +49,8 @@ const
 EventStates
 &
 aState
+StyleAppearance
+aAppearance
 )
 override
 ;

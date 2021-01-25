@@ -1514,6 +1514,8 @@ const
 EventStates
 &
 aState
+StyleAppearance
+aAppearance
 )
 ;
 virtual
