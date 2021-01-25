@@ -9743,7 +9743,10 @@ json
 formatProperty
 (
 "
+ScriptIndex
+(
 0
+)
 "
 "
 u8
@@ -9774,7 +9777,7 @@ vec
 char
 index
 [
-16
+64
 ]
 ;
 for
@@ -9801,8 +9804,11 @@ SprintfLiteral
 (
 index
 "
+ScriptIndex
+(
 %
 zu
+)
 "
 i
 )
@@ -9864,7 +9870,7 @@ map
 char
 index
 [
-16
+64
 ]
 ;
 for
@@ -9896,8 +9902,11 @@ SprintfLiteral
 (
 index
 "
+ScriptIndex
+(
 %
 u
+)
 "
 iter
 .
