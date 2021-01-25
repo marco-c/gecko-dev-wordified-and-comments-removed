@@ -236,6 +236,15 @@ include
 "
 mozilla
 /
+PreloaderBase
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 NeckoChannelParams
