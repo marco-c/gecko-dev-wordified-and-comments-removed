@@ -176,7 +176,14 @@ maxBytes
 testChangeParam
 (
 "
-mode
+incrementalGCEnabled
+"
+)
+;
+testChangeParam
+(
+"
+perZoneGCEnabled
 "
 )
 ;
