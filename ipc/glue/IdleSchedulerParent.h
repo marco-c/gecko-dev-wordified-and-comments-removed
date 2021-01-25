@@ -315,7 +315,7 @@ Atomic
 <
 int32_t
 >
-sCPUsForChildProcesses
+sMaxConcurrentIdleTasksInChildProcesses
 ;
 static
 uint32_t
