@@ -540,11 +540,6 @@ status
 ;
 }
 }
-udat_close
-(
-dateTimeFormat
-)
-;
 if
 (
 U_FAILURE

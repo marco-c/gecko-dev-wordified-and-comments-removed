@@ -266,6 +266,16 @@ onEndUpdateBatch
 )
 {
 }
+onFrecencyChanged
+(
+)
+{
+}
+onManyFrecenciesChanged
+(
+)
+{
+}
 onDeleteVisits
 (
 )
