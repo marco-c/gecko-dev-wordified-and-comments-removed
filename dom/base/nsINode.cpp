@@ -12729,7 +12729,7 @@ NS_ASSERTION
 child
 -
 >
-GetComposedDoc
+GetUncomposedDoc
 (
 )
 =
