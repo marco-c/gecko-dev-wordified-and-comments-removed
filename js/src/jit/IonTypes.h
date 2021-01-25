@@ -218,6 +218,7 @@ TypePolicy
 LICM
 HoistBoundsCheck
 EagerTruncation
+UnboxFolding
 Inevitable
 DuringVMCall
 TooManyArguments
@@ -320,6 +321,17 @@ EagerTruncation
 return
 "
 EagerTruncation
+"
+;
+case
+BailoutKind
+:
+:
+UnboxFolding
+:
+return
+"
+UnboxFolding
 "
 ;
 case

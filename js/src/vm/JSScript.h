@@ -6869,6 +6869,11 @@ HadEagerTruncationBailout
 )
 MUTABLE_FLAG_GETTER_SETTER
 (
+hadUnboxFoldingBailout
+HadUnboxFoldingBailout
+)
+MUTABLE_FLAG_GETTER_SETTER
+(
 uninlineable
 Uninlineable
 )
