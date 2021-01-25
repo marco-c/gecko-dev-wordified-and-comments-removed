@@ -1329,7 +1329,7 @@ if
 policyType
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -2456,7 +2456,7 @@ if
 policyType
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -3154,7 +3154,7 @@ GetExternalContentPolicyType
 )
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT

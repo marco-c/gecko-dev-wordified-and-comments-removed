@@ -1378,7 +1378,7 @@ if
 contentPolicy
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_OBJECT

@@ -505,7 +505,7 @@ nsIURI
 aProxyURI
 uint64_t
 aChannelId
-nsContentPolicyType
+ExtContentPolicyType
 aContentPolicyType
 )
 override

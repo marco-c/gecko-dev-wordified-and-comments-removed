@@ -266,7 +266,7 @@ GetExternalContentPolicyType
 )
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -558,7 +558,7 @@ GetExternalContentPolicyType
 )
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -1207,7 +1207,7 @@ isPrivateWin
 return
 ;
 }
-nsContentPolicyType
+ExtContentPolicyType
 type
 =
 loadInfo
@@ -1222,7 +1222,7 @@ if
 type
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
