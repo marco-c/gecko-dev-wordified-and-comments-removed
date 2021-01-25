@@ -3,7 +3,7 @@ pytest
 from
 webdriver
 import
-StaleElementReferenceException
+NoSuchElementException
 from
 tests
 .
@@ -440,7 +440,7 @@ switch_frame
 frame_element
 )
     
-stale_element
+element
 =
 session
 .
@@ -473,11 +473,11 @@ pytest
 .
 raises
 (
-StaleElementReferenceException
+NoSuchElementException
 )
 :
         
-stale_element
+element
 .
 text
 def
