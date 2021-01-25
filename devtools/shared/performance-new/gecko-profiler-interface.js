@@ -757,6 +757,11 @@ created
 :
 if
 (
+subject
+.
+isChromeWindow
+&
+&
 PrivateBrowsingUtils
 .
 isWindowPrivate
