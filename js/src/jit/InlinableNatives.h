@@ -114,17 +114,6 @@ AtomicsIsLockFree
 \
 _
 (
-BigIntAsIntN
-)
-\
-_
-(
-BigIntAsUintN
-)
-\
-\
-_
-(
 Boolean
 )
 \
