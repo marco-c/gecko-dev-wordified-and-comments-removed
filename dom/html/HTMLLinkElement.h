@@ -1078,6 +1078,17 @@ Document
 aDocument
 )
 ;
+static
+void
+WarnIgnoredPreload
+(
+const
+Document
+&
+nsIURI
+&
+)
+;
 protected
 :
 virtual
