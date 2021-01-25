@@ -3013,11 +3013,6 @@ dirtyRect
 true
 )
 ;
-MOZ_RELEASE_ASSERT
-(
-fbo
-)
-;
 *
 aFboId
 =
