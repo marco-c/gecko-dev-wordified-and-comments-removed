@@ -15,14 +15,6 @@ used
 ?
 #
 TOOLTOOL_DIR
-#
-DUMP_SYMS
--
-isn
-'
-t
-used
-.
 .
 "
 topsrcdir
@@ -35,8 +27,6 @@ win
 -
 common
 "
-unset
-DUMP_SYMS
 #
 Sets
 :
@@ -149,9 +139,6 @@ warnings
 as
 -
 errors
-MOZ_COPY_PDBS
-=
-1
 mk_add_options
 "
 export
