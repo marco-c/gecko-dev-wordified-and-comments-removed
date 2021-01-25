@@ -1535,7 +1535,7 @@ ChromeOnly
 readonly
 attribute
 boolean
-isVisible
+isInViewPort
 ;
 [
 ChromeOnly

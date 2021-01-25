@@ -374,7 +374,7 @@ if
 (
 videoChrome
 .
-isVisible
+isInViewPort
 )
 {
 return
@@ -409,7 +409,7 @@ if
 (
 videoChrome
 .
-isVisible
+isInViewPort
 )
 {
 ok
