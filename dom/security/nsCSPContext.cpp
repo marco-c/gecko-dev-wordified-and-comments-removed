@@ -741,17 +741,6 @@ aContentType
 )
 ;
 }
-bool
-isPreload
-=
-nsContentUtils
-:
-:
-IsPreloadType
-(
-aContentType
-)
-;
 aContentType
 =
 nsContentUtils
@@ -804,7 +793,6 @@ aCSPEventListener
 aContentLocation
 aOriginalURIIfRedirect
 aNonce
-isPreload
 false
 aSendViolationReports
 true
@@ -907,8 +895,6 @@ nsAString
 &
 aNonce
 bool
-aIsPreload
-bool
 aSpecific
 bool
 aSendViolationReports
@@ -1007,10 +993,6 @@ false
 }
 if
 (
-!
-aIsPreload
-&
-&
 aSendViolationReports
 )
 {
@@ -6920,7 +6902,6 @@ u
 "
 "
 _ns
-false
 true
 true
 okToSendAncestor
@@ -7047,7 +7028,6 @@ u
 "
 "
 _ns
-false
 aSpecific
 true
 true
