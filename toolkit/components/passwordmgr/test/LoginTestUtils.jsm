@@ -2331,6 +2331,11 @@ async
 setupCsvFileWithLines
 (
 csvLines
+extension
+=
+"
+csv
+"
 )
 {
 let
@@ -2340,11 +2345,11 @@ FileTestUtils
 .
 getTempFile
 (
-"
 firefox_logins
 .
-csv
-"
+{
+extension
+}
 )
 ;
 await
