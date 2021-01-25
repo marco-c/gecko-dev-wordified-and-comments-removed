@@ -16699,6 +16699,8 @@ mTracksCaptured
 =
 nullptr
 ;
+return
+;
 }
 }
 for
