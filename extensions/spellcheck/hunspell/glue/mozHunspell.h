@@ -6,11 +6,11 @@ define
 mozHunspell_h__
 #
 include
-<
-hunspell
+"
+RLBoxHunspell
 .
-hxx
->
+h
+"
 #
 include
 "
@@ -267,7 +267,7 @@ nsIURI
 >
 mDynamicDictionaries
 ;
-Hunspell
+RLBoxHunspell
 *
 mHunspell
 ;
