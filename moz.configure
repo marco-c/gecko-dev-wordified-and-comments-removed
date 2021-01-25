@@ -1710,6 +1710,8 @@ path_parts
 if
 bootstrap
 and
+tasks
+and
 os
 .
 path
