@@ -2850,7 +2850,7 @@ excluded_tests
 to
 create
 a
-blacklist
+denylist
 of
 selections
 *
@@ -2870,7 +2870,7 @@ check
 each
 against
 the
-blacklist
+denylist
 if
 not
 marked
