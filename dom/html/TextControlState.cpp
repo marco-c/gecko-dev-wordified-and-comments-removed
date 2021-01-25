@@ -8678,6 +8678,9 @@ ScrollAfterSelection
 :
 :
 Yes
+&
+&
+mBoundFrame
 )
 {
 mBoundFrame
