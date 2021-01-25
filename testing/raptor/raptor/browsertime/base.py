@@ -1342,6 +1342,15 @@ post_startup_delay
         
 )
         
+self
+.
+results_handler
+.
+remove_result_dir_for_test
+(
+test
+)
+        
 browsertime_options
 =
 [

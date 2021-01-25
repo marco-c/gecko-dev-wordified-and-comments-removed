@@ -92,7 +92,7 @@ join
 (
 here
 "
-geckoProfile
+geckoProfileTest
 .
 tar
 "
@@ -147,7 +147,17 @@ True
 browsertime_result_dir
 "
 :
+os
+.
+path
+.
+join
+(
 result_dir
+"
+amazon
+"
+)
     
 }
     
@@ -217,6 +227,20 @@ a
 +
 zip
 "
+    
+except
+Exception
+:
+        
+assert
+False
+"
+Symbolication
+failed
+!
+"
+        
+raise
     
 finally
 :

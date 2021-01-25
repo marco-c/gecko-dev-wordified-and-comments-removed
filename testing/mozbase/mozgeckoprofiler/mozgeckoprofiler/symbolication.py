@@ -396,7 +396,7 @@ open
 (
 output_filename
 "
-w
+wb
 "
 )
 as
@@ -593,7 +593,7 @@ open
 (
 output_filename
 "
-w
+wb
 "
 )
 as
