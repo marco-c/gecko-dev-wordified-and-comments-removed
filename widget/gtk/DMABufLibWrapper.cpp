@@ -1458,6 +1458,12 @@ gfxVars
 CanUseHardwareVideoDecoding
 (
 )
+&
+&
+!
+XRE_IsRDDProcess
+(
+)
 ;
 }
 bool
