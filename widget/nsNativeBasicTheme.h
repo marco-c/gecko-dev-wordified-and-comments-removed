@@ -1015,6 +1015,15 @@ kMeterHeight
 .
 0f
 ;
+static
+const
+CSSCoord
+kCheckboxRadioBorderWidth
+=
+2
+.
+0f
+;
 }
 }
 class
