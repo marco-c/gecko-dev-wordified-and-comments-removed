@@ -21194,6 +21194,12 @@ AssignmentNode
 node
 )
 {
+TDZCheckCache
+tdzCache
+(
+this
+)
+;
 JSOp
 op
 ;
