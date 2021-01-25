@@ -611,7 +611,7 @@ ImageLoader
 Flags
 :
 :
-RequiresReflowOnFirstFrameCompleteAndLoadEventBlocking
+RequiresReflowOnSizeAvailable
 )
 ;
 }
