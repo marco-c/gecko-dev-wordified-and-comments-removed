@@ -58,6 +58,11 @@ TimeStamp
 .
 h
 "
+"
+Uptime
+.
+h
+"
 ]
 EXPORTS
 .
@@ -144,6 +149,11 @@ cpp
 "
 "
 TimeStamp
+.
+cpp
+"
+"
+Uptime
 .
 cpp
 "
