@@ -3230,4 +3230,12 @@ platform
 -
 tests
 -
+web
+-
+platform
+-
+tests
+-
+reftest
+-
 xpcshell
