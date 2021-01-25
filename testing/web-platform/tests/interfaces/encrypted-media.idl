@@ -383,7 +383,11 @@ BufferSource
 keyId
 )
 ;
-any
+(
+MediaKeyStatus
+or
+undefined
+)
 get
 (
 BufferSource
