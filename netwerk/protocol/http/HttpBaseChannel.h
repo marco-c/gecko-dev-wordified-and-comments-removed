@@ -421,7 +421,7 @@ nsIURI
 aProxyURI
 uint64_t
 aChannelId
-ExtContentPolicyType
+nsContentPolicyType
 aContentPolicyType
 )
 ;

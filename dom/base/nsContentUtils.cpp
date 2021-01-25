@@ -42177,7 +42177,7 @@ nsContentUtils
 :
 IsUpgradableDisplayType
 (
-ExtContentPolicyType
+nsContentPolicyType
 aType
 )
 {
@@ -42193,7 +42193,7 @@ return
 aType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_IMAGE
@@ -42202,7 +42202,7 @@ TYPE_IMAGE
 aType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_MEDIA
