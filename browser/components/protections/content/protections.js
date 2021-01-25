@@ -2253,11 +2253,7 @@ querySelector
 "
 input
 :
-not
-(
-:
-disabled
-)
+enabled
 "
 )
 ;

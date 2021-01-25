@@ -5477,11 +5477,7 @@ checkbox
 "
 ]
 :
-not
-(
-:
-disabled
-)
+enabled
 :
 hover
 {
@@ -5675,11 +5671,7 @@ checkbox
 "
 ]
 :
-not
-(
-:
-disabled
-)
+enabled
 :
 checked
 :
