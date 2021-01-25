@@ -648,12 +648,6 @@ string
 A
 string
 to
-encode
-to
-UTF
--
-8
-and
 write
 to
 the
@@ -694,7 +688,7 @@ writeUTF8
 (
 DOMString
 path
-DOMString
+UTF8String
 string
 optional
 WriteOptions
