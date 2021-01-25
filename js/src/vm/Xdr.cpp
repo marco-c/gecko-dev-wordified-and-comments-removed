@@ -1763,7 +1763,7 @@ xdr
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -2738,7 +2738,7 @@ isMainBuf
 ;
 MOZ_TRY
 (
-XDRCompilationStencil
+XDRBaseCompilationStencil
 (
 this
 compilationInfo
@@ -2770,7 +2770,7 @@ codeFunctionStencil
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -2844,7 +2844,7 @@ stencil
 ;
 MOZ_TRY
 (
-XDRCompilationStencil
+XDRBaseCompilationStencil
 (
 this
 stencil
@@ -4627,7 +4627,7 @@ const
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -4642,7 +4642,7 @@ is_same_v
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 :
 :
 FunctionKey

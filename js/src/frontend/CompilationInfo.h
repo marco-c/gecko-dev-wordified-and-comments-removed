@@ -1199,7 +1199,7 @@ endif
 }
 ;
 struct
-CompilationStencil
+BaseCompilationStencil
 {
 mozilla
 :
@@ -1329,15 +1329,15 @@ functionKey
 {
 }
 ;
-CompilationStencil
+BaseCompilationStencil
 (
 )
 =
 default
 ;
-CompilationStencil
+BaseCompilationStencil
 (
-CompilationStencil
+BaseCompilationStencil
 &
 &
 other
@@ -1659,7 +1659,7 @@ index_
 0
 ;
 const
-CompilationStencil
+BaseCompilationStencil
 &
 stencil_
 ;
@@ -1670,7 +1670,7 @@ gcOutput_
 Iterator
 (
 const
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -1714,7 +1714,7 @@ explicit
 Iterator
 (
 const
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -1961,7 +1961,7 @@ Iterator
 end
 (
 const
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -1987,7 +1987,7 @@ size
 }
 ;
 const
-CompilationStencil
+BaseCompilationStencil
 &
 stencil_
 ;
@@ -1999,7 +1999,7 @@ explicit
 ScriptStencilIterable
 (
 const
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -2076,7 +2076,7 @@ LifoAllocChunkSize
 CompilationInput
 input
 ;
-CompilationStencil
+BaseCompilationStencil
 stencil
 ;
 bool
@@ -2154,7 +2154,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -2167,7 +2167,7 @@ prepareGCOutputForInstantiate
 JSContext
 *
 cx
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -2218,7 +2218,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -2332,7 +2332,7 @@ static
 ScriptStencilIterable
 functionScriptStencils
 (
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -2402,7 +2402,7 @@ allocForDelazifications
 ;
 Vector
 <
-CompilationStencil
+BaseCompilationStencil
 0
 js
 :

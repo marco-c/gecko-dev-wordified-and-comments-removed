@@ -15718,7 +15718,7 @@ cx
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -15767,7 +15767,7 @@ cx
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 UniquePtr
@@ -20419,7 +20419,7 @@ js
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 js
@@ -20963,7 +20963,7 @@ js
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 frontend
@@ -21409,7 +21409,7 @@ js
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 frontend

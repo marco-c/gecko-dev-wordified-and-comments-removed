@@ -121,7 +121,7 @@ struct
 CompilationInput
 ;
 struct
-CompilationStencil
+BaseCompilationStencil
 ;
 }
 class
@@ -1209,7 +1209,7 @@ const
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -2784,7 +2784,7 @@ codeFunctionStencil
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -3808,7 +3808,7 @@ const
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -3964,7 +3964,7 @@ XDRMode
 mode
 >
 XDRResult
-XDRCompilationStencil
+XDRBaseCompilationStencil
 (
 XDRState
 <
@@ -3975,7 +3975,7 @@ xdr
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )

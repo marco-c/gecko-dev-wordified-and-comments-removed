@@ -697,7 +697,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput

@@ -5647,7 +5647,7 @@ stencil
 .
 functionKey
 =
-CompilationStencil
+BaseCompilationStencil
 :
 :
 toFunctionKey

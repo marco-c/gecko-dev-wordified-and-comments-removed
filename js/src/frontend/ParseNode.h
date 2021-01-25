@@ -170,7 +170,7 @@ class
 ParserAtomsTable
 ;
 struct
-CompilationStencil
+BaseCompilationStencil
 ;
 class
 ParserSharedBase
@@ -5935,7 +5935,7 @@ BigIntLiteral
 public
 ParseNode
 {
-CompilationStencil
+BaseCompilationStencil
 &
 stencil_
 ;
@@ -5948,7 +5948,7 @@ BigIntLiteral
 (
 BigIntIndex
 index
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 const
@@ -7595,7 +7595,7 @@ cx
 CompilationAtomCache
 &
 atomCache
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )

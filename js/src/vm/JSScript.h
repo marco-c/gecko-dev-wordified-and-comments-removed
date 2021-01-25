@@ -393,7 +393,7 @@ struct
 CompilationInfo
 ;
 struct
-CompilationStencil
+BaseCompilationStencil
 ;
 struct
 CompilationGCOutput
@@ -4309,7 +4309,7 @@ cx
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -4325,7 +4325,7 @@ cx
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 UniquePtr
@@ -5820,7 +5820,7 @@ js
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 js
@@ -7878,7 +7878,7 @@ js
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 js
@@ -8014,7 +8014,7 @@ js
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 js
@@ -8065,7 +8065,7 @@ js
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 js

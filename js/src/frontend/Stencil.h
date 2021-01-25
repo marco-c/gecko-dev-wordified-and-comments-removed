@@ -280,7 +280,7 @@ struct
 CompilationAtomCache
 ;
 struct
-CompilationStencil
+BaseCompilationStencil
 ;
 struct
 CompilationGCOutput
@@ -524,7 +524,7 @@ cx
 CompilationAtomCache
 &
 atomCache
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -553,7 +553,7 @@ dump
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -564,7 +564,7 @@ dumpFields
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -1479,7 +1479,7 @@ json
 BaseParserScopeData
 *
 baseScopeData
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -1493,7 +1493,7 @@ json
 BaseParserScopeData
 *
 baseScopeData
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -2153,7 +2153,7 @@ dump
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -2164,7 +2164,7 @@ dumpFields
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -3117,7 +3117,7 @@ TaggedScriptThingIndex
 >
 gcthings
 (
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -3342,7 +3342,7 @@ dump
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -3353,7 +3353,7 @@ dumpFields
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -3467,7 +3467,7 @@ JSONPrinter
 json
 TaggedParserAtomIndex
 taggedIndex
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )

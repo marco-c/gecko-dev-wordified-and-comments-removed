@@ -2518,7 +2518,7 @@ cx
 CompilationAtomCache
 &
 atomCache
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -2594,7 +2594,7 @@ cx
 CompilationAtomCache
 &
 atomCache
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )

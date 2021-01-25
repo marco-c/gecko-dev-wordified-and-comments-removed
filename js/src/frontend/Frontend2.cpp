@@ -3546,7 +3546,7 @@ scriptData
 i
 ]
 )
-CompilationStencil
+BaseCompilationStencil
 (
 )
 ;

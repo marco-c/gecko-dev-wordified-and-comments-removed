@@ -2873,7 +2873,7 @@ XDRMode
 mode
 >
 XDRResult
-XDRCompilationStencil
+XDRBaseCompilationStencil
 (
 XDRState
 <
@@ -2881,7 +2881,7 @@ mode
 >
 *
 xdr
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -3205,7 +3205,7 @@ Ok
 }
 template
 XDRResult
-XDRCompilationStencil
+XDRBaseCompilationStencil
 (
 XDRState
 <
@@ -3213,14 +3213,14 @@ XDR_ENCODE
 >
 *
 xdr
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
 ;
 template
 XDRResult
-XDRCompilationStencil
+XDRBaseCompilationStencil
 (
 XDRState
 <
@@ -3228,7 +3228,7 @@ XDR_DECODE
 >
 *
 xdr
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
