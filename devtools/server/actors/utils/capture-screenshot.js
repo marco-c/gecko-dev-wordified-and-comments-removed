@@ -361,9 +361,7 @@ args
 .
 rawNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 (
 {

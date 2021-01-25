@@ -183,11 +183,13 @@ telemetry
 "
 devtools
 /
+client
+/
 shared
 /
-screenshot
-/
 save
+-
+screenshot
 "
 "
 devtools

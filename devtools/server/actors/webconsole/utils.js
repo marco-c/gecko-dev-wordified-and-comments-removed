@@ -34,11 +34,15 @@ captureScreenshot
 "
 devtools
 /
-shared
+server
 /
-screenshot
+actors
+/
+utils
 /
 capture
+-
+screenshot
 "
 true
 )

@@ -137,11 +137,13 @@ saveScreenshot
 "
 devtools
 /
+client
+/
 shared
 /
-screenshot
-/
 save
+-
+screenshot
 "
 )
 ;
