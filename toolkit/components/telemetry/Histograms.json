@@ -72829,7 +72829,7 @@ mozilla
 com
 "
 "
-astevenson
+rtestard
 mozilla
 .
 com
@@ -72841,13 +72841,14 @@ bug_numbers
 :
 [
 1560590
+1683100
 ]
 "
 expires_in_version
 "
 :
 "
-87
+93
 "
 "
 kind
