@@ -2123,10 +2123,6 @@ clang
 -
 11
 -
-macosx
--
-cross
--
 macosx64
 -
 sdk
