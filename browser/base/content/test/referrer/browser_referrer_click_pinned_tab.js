@@ -34,6 +34,7 @@ example
 .
 com
 /
+browser
 "
 }
 {
