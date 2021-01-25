@@ -623,6 +623,17 @@ validTestCasesAsync
 for
 await
 (
+async
+of
+[
+]
+)
+;
+"
+"
+for
+await
+(
 \
 \
 u0061sync
