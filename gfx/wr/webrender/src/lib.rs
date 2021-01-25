@@ -342,9 +342,6 @@ mod
 spatial_node
 ;
 mod
-storage
-;
-mod
 texture_pack
 ;
 mod
