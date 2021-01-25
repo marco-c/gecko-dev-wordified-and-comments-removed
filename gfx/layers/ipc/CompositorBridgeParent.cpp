@@ -9547,6 +9547,16 @@ false
 #
 ifdef
 XP_WIN
+if
+(
+mWidget
+-
+>
+AsWindows
+(
+)
+)
+{
 useCompositorWnd
 =
 !
@@ -9563,6 +9573,7 @@ GetCompositorHwnd
 (
 )
 ;
+}
 #
 endif
 mAsyncImageManager
