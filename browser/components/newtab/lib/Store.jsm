@@ -655,16 +655,6 @@ sectionPrefs
 snippets
 "
 ]
-telemetry
-:
-this
-.
-feeds
-.
-get
-(
-telemetryKey
-)
 }
 )
 ;
