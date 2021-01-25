@@ -120,13 +120,6 @@ toolkit
 /
 crashreporter
 /
-rust
-"
-"
-toolkit
-/
-crashreporter
-/
 rust_minidump_writer_linux
 "
 "
