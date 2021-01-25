@@ -163,12 +163,6 @@ canonical
 :
 "
 xtg
--
-x
--
-cel
--
-gaulish
 "
 }
 {
@@ -493,6 +487,7 @@ for
 const
 {
 tag
+canonical
 }
 of
 regularGrandfathered
@@ -516,7 +511,7 @@ Intl
 .
 Locale
 (
-tag
+canonical
 +
 priv
 )
@@ -546,7 +541,7 @@ Intl
 .
 Locale
 (
-tag
+canonical
 +
 priv
 )
@@ -594,9 +589,9 @@ extra
 )
 ;
 let
-canonical
+canonicalWithExtra
 =
-tag
+canonical
 +
 "
 -
@@ -736,11 +731,11 @@ join
 )
 )
 ;
-canonical
+canonicalWithExtra
 =
 sorted
 (
-canonical
+canonicalWithExtra
 )
 ;
 canonicalMax
@@ -767,7 +762,7 @@ loc
 toString
 (
 )
-canonical
+canonicalWithExtra
 )
 ;
 assert

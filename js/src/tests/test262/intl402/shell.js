@@ -1856,12 +1856,6 @@ gaulish
 :
 "
 xtg
--
-x
--
-cel
--
-gaulish
 "
 "
 zh

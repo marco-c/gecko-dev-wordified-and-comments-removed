@@ -171,9 +171,7 @@ GR
 "
 :
 "
-sgn
--
-GR
+gss
 "
 "
 ji
