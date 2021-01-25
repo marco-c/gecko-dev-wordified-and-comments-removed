@@ -3271,8 +3271,12 @@ aStatus
 void
 SetHTTPSSVCRecord
 (
+already_AddRefed
+<
 nsIDNSHTTPSSVCRecord
-*
+>
+&
+&
 aRecord
 )
 ;
@@ -3333,9 +3337,12 @@ mDNSBlockingThenable
 int32_t
 mProxyConnectResponseCode
 ;
+Maybe
+<
 nsCOMPtr
 <
 nsIDNSHTTPSSVCRecord
+>
 >
 mHTTPSSVCRecord
 ;
