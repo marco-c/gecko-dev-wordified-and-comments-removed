@@ -2255,12 +2255,6 @@ onEndUpdateBatch
 )
 {
 }
-onFrecencyChanged
-(
-aURI
-)
-{
-}
 onManyFrecenciesChanged
 (
 )
