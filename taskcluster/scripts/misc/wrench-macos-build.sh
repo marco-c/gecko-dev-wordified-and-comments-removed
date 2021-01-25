@@ -409,10 +409,9 @@ TARGET_TRIPLE
 #
 Copy
 the
-cross
--
-compiled
-LLVM
+native
+macOS
+libLLVM
 as
 dynamic
 dependency
@@ -421,6 +420,10 @@ cp
 {
 MOZ_FETCHES_DIR
 }
+/
+clang
+-
+mac
 /
 clang
 /
