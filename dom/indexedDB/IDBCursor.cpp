@@ -247,6 +247,7 @@ mTransaction
 >
 RegisterCursor
 (
+*
 this
 )
 ;
@@ -279,6 +280,7 @@ mTransaction
 >
 UnregisterCursor
 (
+*
 this
 )
 ;

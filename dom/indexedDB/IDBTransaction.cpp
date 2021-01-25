@@ -3919,9 +3919,9 @@ AssertIsOnOwningThread
 ;
 for
 (
-auto
-*
 const
+auto
+&
 cursor
 :
 mCursors
@@ -3943,8 +3943,7 @@ IDBTransaction
 RegisterCursor
 (
 IDBCursor
-*
-const
+&
 aCursor
 )
 {
@@ -3956,7 +3955,11 @@ mCursors
 .
 AppendElement
 (
+WrapNotNullUnchecked
+(
+&
 aCursor
+)
 )
 ;
 }
@@ -3967,8 +3970,7 @@ IDBTransaction
 UnregisterCursor
 (
 IDBCursor
-*
-const
+&
 aCursor
 )
 {
@@ -3986,6 +3988,7 @@ mCursors
 .
 RemoveElement
 (
+&
 aCursor
 )
 ;

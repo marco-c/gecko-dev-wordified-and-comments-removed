@@ -249,8 +249,11 @@ mWorkerRef
 ;
 nsTArray
 <
+NotNull
+<
 IDBCursor
 *
+>
 >
 mCursors
 ;
@@ -1125,7 +1128,7 @@ void
 RegisterCursor
 (
 IDBCursor
-*
+&
 aCursor
 )
 ;
@@ -1133,7 +1136,7 @@ void
 UnregisterCursor
 (
 IDBCursor
-*
+&
 aCursor
 )
 ;
