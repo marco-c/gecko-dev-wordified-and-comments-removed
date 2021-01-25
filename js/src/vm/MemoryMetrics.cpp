@@ -3580,14 +3580,6 @@ FinishGC
 cx
 )
 ;
-gc
-:
-:
-WaitForBackgroundTasks
-(
-cx
-)
-;
 JS
 :
 :
@@ -3595,6 +3587,10 @@ AutoAssertNoGC
 nogc
 (
 cx
+)
+;
+WaitForAllHelperThreads
+(
 )
 ;
 if
