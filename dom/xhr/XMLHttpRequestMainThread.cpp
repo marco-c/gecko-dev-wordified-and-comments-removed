@@ -293,6 +293,15 @@ include
 "
 mozilla
 /
+PreloaderBase
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SpinEventLoopUntil
 .
 h
