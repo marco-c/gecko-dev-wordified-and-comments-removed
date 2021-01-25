@@ -770,6 +770,14 @@ JSONPrinter
 json
 )
 ;
+void
+dumpCharsNoQuote
+(
+GenericPrinter
+&
+out
+)
+;
 #
 endif
 }
