@@ -337,7 +337,9 @@ getTabDialogBox
 contentBrowser
 )
 .
-_dialogManager
+getTabDialogManager
+(
+)
 ;
 let
 dialogs
