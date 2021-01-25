@@ -163,7 +163,7 @@ defaultValue
 {
 try
 {
-let
+const
 thePref
 =
 this
@@ -268,7 +268,7 @@ setBoolPref
 )
 ;
 }
-let
+const
 thePref
 =
 this
@@ -325,7 +325,7 @@ defaultValue
 {
 try
 {
-let
+const
 thePref
 =
 this
@@ -448,7 +448,7 @@ setCharPref
 )
 ;
 }
-let
+const
 thePref
 =
 this
@@ -523,7 +523,7 @@ defaultValue
 {
 try
 {
-let
+const
 thePref
 =
 this
@@ -628,7 +628,7 @@ setIntPref
 )
 ;
 }
-let
+const
 thePref
 =
 this
@@ -682,7 +682,7 @@ function
 prefName
 )
 {
-let
+const
 thePref
 =
 this
@@ -706,7 +706,7 @@ function
 prefName
 )
 {
-let
+const
 thePref
 =
 this
@@ -810,7 +810,7 @@ _observers
 return
 ;
 }
-let
+const
 index
 =
 this
@@ -1077,7 +1077,7 @@ function
 (
 )
 {
-let
+const
 store
 =
 {
@@ -1185,7 +1185,7 @@ function
 prefName
 )
 {
-let
+const
 branchNames
 =
 prefName
@@ -1204,7 +1204,7 @@ this
 ;
 for
 (
-let
+const
 branchName
 of
 branchNames
@@ -1243,7 +1243,7 @@ relativeName
 {
 for
 (
-let
+const
 domain
 in
 this
@@ -1288,7 +1288,7 @@ domain
 )
 )
 {
-let
+const
 localList
 =
 this
@@ -1304,7 +1304,7 @@ slice
 ;
 for
 (
-let
+const
 observer
 of
 localList
@@ -1398,7 +1398,7 @@ this
 ;
 for
 (
-let
+const
 branch
 of
 branchList
@@ -1415,7 +1415,7 @@ branch
 ]
 )
 {
-let
+const
 isParentRoot
 =
 !
@@ -1423,7 +1423,7 @@ parent
 .
 _parent
 ;
-let
+const
 branchName
 =
 (
@@ -1485,7 +1485,7 @@ init
 false
 )
 {
-let
+const
 branch
 =
 this
@@ -1508,16 +1508,12 @@ hasUserValue
 &
 &
 typeof
-(
 userValue
-)
 !
 =
 =
 typeof
-(
 defaultValue
-)
 )
 {
 throw
@@ -1540,9 +1536,7 @@ type
 switch
 (
 typeof
-(
 defaultValue
-)
 )
 {
 case
@@ -1590,9 +1584,7 @@ type
 :
 {
 typeof
-(
 defaultValue
-)
 }
 )
 ;
@@ -1740,7 +1732,7 @@ null
 return
 ;
 }
-let
+const
 {
 type
 userValue
@@ -1781,7 +1773,7 @@ defaultValue
 }
 else
 {
-let
+const
 thePref
 =
 this
@@ -1835,7 +1827,7 @@ length
 i
 )
 {
-let
+const
 keyName
 =
 localStorage
@@ -1855,7 +1847,7 @@ PREFIX
 )
 )
 {
-let
+const
 {
 userValue
 hasUserValue
@@ -1999,7 +1991,7 @@ name
 value
 )
 {
-let
+const
 thePref
 =
 Services
