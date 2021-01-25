@@ -408,11 +408,6 @@ attribute
 boolean
 isGPU2Active
 ;
-readonly
-attribute
-ACString
-drmRenderDevice
-;
 /
 *
 *
