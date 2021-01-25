@@ -18099,6 +18099,15 @@ return
 true
 ;
 }
+JS
+:
+:
+AutoDisableGenerationalGC
+disable
+(
+cx
+)
+;
 Rooted
 <
 GlobalObject
