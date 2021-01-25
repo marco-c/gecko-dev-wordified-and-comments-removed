@@ -2781,6 +2781,17 @@ PanGestureInput
 aInput
 )
 ;
+void
+DispatchPinchGestureInput
+(
+mozilla
+:
+:
+PinchGestureInput
+&
+aInput
+)
+;
 #
 if
 defined
