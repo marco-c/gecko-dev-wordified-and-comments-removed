@@ -86,6 +86,16 @@ constexpr
 impl
 :
 :
+TimingDistributionMetric
+timing_distribution_metric
+(
+12
+)
+;
+constexpr
+impl
+:
+:
 MemoryDistributionMetric
 memory_distribution_metric
 (
