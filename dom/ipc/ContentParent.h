@@ -2783,6 +2783,8 @@ BrowsingContext
 aContext
 CallerType
 aCallerType
+uint64_t
+aActionId
 )
 ;
 mozilla
