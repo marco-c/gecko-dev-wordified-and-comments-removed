@@ -280,6 +280,15 @@ return
 false
 ;
 }
+mWidget
+-
+>
+ClearBeforePaint
+(
+mDT
+mRegion
+)
+;
 uint8_t
 *
 data
