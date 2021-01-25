@@ -9282,6 +9282,9 @@ break
 endif
 if
 (
+isWidgetVisible
+&
+&
 !
 g_signal_handler_find
 (
