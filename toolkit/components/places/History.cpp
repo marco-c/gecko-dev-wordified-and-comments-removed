@@ -117,7 +117,7 @@ h
 #
 include
 "
-NotifyManyFrecenciesChanged
+NotifyRankingChanged
 .
 h
 "
@@ -3503,7 +3503,7 @@ mSuccessfulUpdatedCount
 NS_DispatchToMainThread
 (
 new
-NotifyManyFrecenciesChanged
+NotifyRankingChanged
 (
 )
 )

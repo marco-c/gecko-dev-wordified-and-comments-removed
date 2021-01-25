@@ -1042,11 +1042,6 @@ PRTime
 visitTime
 )
 ;
-void
-NotifyManyFrecenciesChanged
-(
-)
-;
 bool
 IsFrecencyDecaying
 (
@@ -1148,8 +1143,6 @@ aOptions
 void
 DecayFrecencyCompleted
 (
-uint16_t
-reason
 )
 ;
 private
