@@ -639,6 +639,15 @@ nsISelectionListener
 :
 :
 NO_REASON
+|
+|
+aReason
+=
+=
+nsISelectionListener
+:
+:
+JS_REASON
 )
 {
 auto
