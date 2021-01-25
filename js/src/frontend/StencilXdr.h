@@ -9,15 +9,6 @@ include
 "
 frontend
 /
-CompilationInfo
-.
-h
-"
-#
-include
-"
-frontend
-/
 ObjLiteral
 .
 h

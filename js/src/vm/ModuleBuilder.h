@@ -34,15 +34,6 @@ include
 "
 frontend
 /
-CompilationInfo
-.
-h
-"
-#
-include
-"
-frontend
-/
 EitherParser
 .
 h

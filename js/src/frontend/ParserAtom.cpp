@@ -2887,9 +2887,9 @@ internJSAtom
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 JSAtom
 *
 atom
@@ -2987,7 +2987,7 @@ auto
 &
 atomCache
 =
-compilationInfo
+stencil
 .
 input
 .
@@ -3031,7 +3031,7 @@ parserAtom
 toJSAtom
 (
 cx
-compilationInfo
+stencil
 .
 input
 .

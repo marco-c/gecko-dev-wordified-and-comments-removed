@@ -29377,9 +29377,9 @@ js
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 js
 :
 :
@@ -29418,7 +29418,7 @@ options
 units
 length
 false
-compilationInfo
+stencil
 compilationState
 nullptr
 nullptr
@@ -29449,7 +29449,7 @@ length
 )
 =
 =
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -29577,7 +29577,7 @@ ModuleSharedContext
 modulesc
 (
 cx
-compilationInfo
+stencil
 builder
 extent
 )
@@ -29672,10 +29672,10 @@ UniquePtr
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 >
 >
-compilationInfo
+stencil
 (
 cx
 )
@@ -29727,7 +29727,7 @@ ParseGoal
 Script
 )
 {
-compilationInfo
+stencil
 =
 frontend
 :
@@ -29746,7 +29746,7 @@ Global
 }
 else
 {
-compilationInfo
+stencil
 =
 frontend
 :
@@ -29762,7 +29762,7 @@ srcBuf
 if
 (
 !
-compilationInfo
+stencil
 )
 {
 return
@@ -29781,7 +29781,7 @@ defined
 (
 JS_JITSPEW
 )
-compilationInfo
+stencil
 -
 >
 dump
@@ -30760,10 +30760,10 @@ UniquePtr
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 >
 >
-compilationInfo
+stencil
 (
 cx
 Smoosh
@@ -30782,7 +30782,7 @@ unimplemented
 if
 (
 !
-compilationInfo
+stencil
 )
 {
 return
@@ -30792,7 +30792,7 @@ false
 #
 ifdef
 DEBUG
-compilationInfo
+stencil
 -
 >
 dump
@@ -30984,9 +30984,9 @@ Rooted
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 >
-compilationInfo
+stencil
 (
 cx
 js
@@ -30995,7 +30995,7 @@ js
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 (
 cx
 options
@@ -31019,7 +31019,7 @@ Script
 if
 (
 !
-compilationInfo
+stencil
 .
 get
 (
@@ -31043,7 +31043,7 @@ else
 if
 (
 !
-compilationInfo
+stencil
 .
 get
 (
@@ -31083,7 +31083,7 @@ compilationState
 cx
 allocScope
 options
-compilationInfo
+stencil
 .
 get
 (
@@ -31145,7 +31145,7 @@ cx
 options
 utf8
 length
-compilationInfo
+stencil
 .
 get
 (
@@ -31202,7 +31202,7 @@ cx
 options
 chars
 length
-compilationInfo
+stencil
 .
 get
 (
@@ -31513,9 +31513,9 @@ Rooted
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 >
-compilationInfo
+stencil
 (
 cx
 js
@@ -31524,7 +31524,7 @@ js
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 (
 cx
 options
@@ -31534,7 +31534,7 @@ options
 if
 (
 !
-compilationInfo
+stencil
 .
 get
 (
@@ -31573,7 +31573,7 @@ compilationState
 cx
 allocScope
 options
-compilationInfo
+stencil
 .
 get
 (
@@ -31595,7 +31595,7 @@ options
 chars
 length
 false
-compilationInfo
+stencil
 .
 get
 (

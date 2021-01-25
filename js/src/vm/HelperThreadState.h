@@ -2001,9 +2001,9 @@ UniquePtr
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 >
-compilationInfo_
+stencil_
 ;
 UniquePtr
 <

@@ -848,9 +848,9 @@ parserAtom
 )
 ;
 }
-CompilationInfo
+CompilationStencil
 &
-getCompilationInfo
+getCompilationStencil
 (
 )
 {
@@ -873,7 +873,7 @@ ParserSharedBaseMatcher
 return
 base
 .
-getCompilationInfo
+getCompilationStencil
 (
 )
 ;

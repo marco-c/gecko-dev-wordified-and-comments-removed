@@ -274,7 +274,7 @@ namespace
 frontend
 {
 struct
-CompilationInfo
+CompilationStencil
 ;
 struct
 CompilationAtomCache
@@ -555,7 +555,7 @@ JSONPrinter
 json
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 ;
 void
@@ -566,7 +566,7 @@ JSONPrinter
 json
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 ;
 #
@@ -1041,9 +1041,9 @@ createForFunctionScope
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -1081,9 +1081,9 @@ createForLexicalScope
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -1117,9 +1117,9 @@ createForVarScope
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -1155,9 +1155,9 @@ createForGlobalScope
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -1181,9 +1181,9 @@ createForEvalScope
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -1215,9 +1215,9 @@ createForModuleScope
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -1247,9 +1247,9 @@ createForWithScope
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -1481,7 +1481,7 @@ BaseParserScopeData
 baseScopeData
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 ;
 void
@@ -1495,7 +1495,7 @@ BaseParserScopeData
 baseScopeData
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 ;
 #
@@ -2155,7 +2155,7 @@ JSONPrinter
 json
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 ;
 void
@@ -2166,7 +2166,7 @@ JSONPrinter
 json
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 ;
 #
@@ -3344,7 +3344,7 @@ JSONPrinter
 json
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 ;
 void
@@ -3355,7 +3355,7 @@ JSONPrinter
 json
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 ;
 #
@@ -3469,7 +3469,7 @@ TaggedParserAtomIndex
 taggedIndex
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 ;
 #

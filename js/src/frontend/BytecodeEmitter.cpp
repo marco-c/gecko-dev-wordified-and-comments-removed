@@ -801,9 +801,9 @@ parent
 SharedContext
 *
 sc
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -849,12 +849,12 @@ column
 perScriptData_
 (
 cx
-compilationInfo
+stencil
 compilationState
 )
-compilationInfo
+stencil
 (
-compilationInfo
+stencil
 )
 compilationState
 (
@@ -880,9 +880,9 @@ handle
 SharedContext
 *
 sc
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -894,7 +894,7 @@ BytecodeEmitter
 (
 parent
 sc
-compilationInfo
+stencil
 compilationState
 emitterMode
 )
@@ -930,9 +930,9 @@ parser
 SharedContext
 *
 sc
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -944,7 +944,7 @@ BytecodeEmitter
 (
 parent
 sc
-compilationInfo
+stencil
 compilationState
 emitterMode
 )
@@ -1024,7 +1024,7 @@ parent
 if
 (
 !
-compilationInfo
+stencil
 .
 prepareStorageFor
 (
@@ -8484,7 +8484,7 @@ auto
 *
 code
 =
-compilationInfo
+stencil
 .
 alloc
 .
@@ -8532,7 +8532,7 @@ len
 ObjLiteralIndex
 objIndex
 (
-compilationInfo
+stencil
 .
 objLiteralData
 .
@@ -8567,7 +8567,7 @@ false
 if
 (
 !
-compilationInfo
+stencil
 .
 objLiteralData
 .
@@ -13362,7 +13362,7 @@ false
 return
 intoScriptStencil
 (
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -13756,7 +13756,7 @@ index
 )
 =
 =
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -27179,7 +27179,7 @@ bce2
 this
 parser
 funbox
-compilationInfo
+stencil
 compilationState
 emitterMode
 )
@@ -41567,7 +41567,7 @@ false
 MOZ_ASSERT_IF
 (
 singleton
-compilationInfo
+stencil
 .
 input
 .
@@ -43491,7 +43491,7 @@ bce2
 this
 parser
 funbox
-compilationInfo
+stencil
 compilationState
 emitterMode
 )
@@ -52169,7 +52169,7 @@ false
 if
 (
 !
-compilationInfo
+stencil
 .
 sharedData
 .

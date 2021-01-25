@@ -19,9 +19,6 @@ js
 namespace
 frontend
 {
-struct
-CompilationInfo
-;
 class
 FullParseHandler
 ;

@@ -1218,7 +1218,7 @@ frontend
 :
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 ;
 void
@@ -1232,7 +1232,7 @@ frontend
 :
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 ;
 #
@@ -2351,7 +2351,7 @@ frontend
 :
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 ;
 void
@@ -2365,7 +2365,7 @@ frontend
 :
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 ;
 #

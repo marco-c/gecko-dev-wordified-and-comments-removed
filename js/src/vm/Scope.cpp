@@ -11423,9 +11423,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 frontend
 :
 :
@@ -11509,7 +11509,7 @@ ScopeType
 >
 (
 cx
-compilationInfo
+stencil
 .
 alloc
 )
@@ -11609,9 +11609,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 frontend
 :
 :
@@ -11683,7 +11683,7 @@ ScopeType
 >
 (
 cx
-compilationInfo
+stencil
 .
 alloc
 )
@@ -11762,9 +11762,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 frontend
 :
 :
@@ -11838,7 +11838,7 @@ ScopeType
 >
 (
 cx
-compilationInfo
+stencil
 .
 alloc
 )
@@ -11918,9 +11918,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 frontend
 :
 :
@@ -11982,7 +11982,7 @@ ScopeType
 >
 (
 cx
-compilationInfo
+stencil
 .
 alloc
 )
@@ -12047,9 +12047,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 frontend
 :
 :
@@ -12119,7 +12119,7 @@ ScopeType
 >
 (
 cx
-compilationInfo
+stencil
 .
 alloc
 )
@@ -12202,9 +12202,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 frontend
 :
 :
@@ -12280,7 +12280,7 @@ ScopeType
 >
 (
 cx
-compilationInfo
+stencil
 .
 alloc
 )
@@ -12487,9 +12487,9 @@ createForWithScope
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState

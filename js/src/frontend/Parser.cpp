@@ -892,9 +892,9 @@ ParserSharedBase
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -916,9 +916,9 @@ alloc
 (
 )
 )
-compilationInfo_
+stencil_
 (
-compilationInfo
+stencil
 )
 compilationState_
 (
@@ -981,9 +981,9 @@ ReadOnlyCompileOptions
 options
 bool
 foldConstants
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -992,7 +992,7 @@ compilationState
 ParserSharedBase
 (
 cx
-compilationInfo
+stencil
 compilationState
 ParserSharedBase
 :
@@ -1100,9 +1100,9 @@ ReadOnlyCompileOptions
 options
 bool
 foldConstants
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -1119,7 +1119,7 @@ ParserBase
 cx
 options
 foldConstants
-compilationInfo
+stencil
 compilationState
 )
 handler_
@@ -1171,9 +1171,9 @@ size_t
 length
 bool
 foldConstants
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -1190,7 +1190,7 @@ Base
 cx
 options
 foldConstants
-compilationInfo
+stencil
 compilationState
 syntaxParser
 lazyOuterFunction
@@ -1578,7 +1578,7 @@ FunctionBox
 (
 cx_
 extent
-compilationInfo_
+stencil_
 compilationState_
 inheritedDirectives
 generatorKind
@@ -1869,7 +1869,7 @@ Global
 this
 -
 >
-getCompilationInfo
+getCompilationStencil
 (
 )
 directives
@@ -4283,7 +4283,7 @@ cx_
 this
 -
 >
-getCompilationInfo
+getCompilationStencil
 (
 )
 name
@@ -8013,7 +8013,7 @@ superScopeNeedsHomeObject
 this
 -
 >
-getCompilationInfo
+getCompilationStencil
 (
 )
 .
@@ -8028,7 +8028,7 @@ si
 this
 -
 >
-getCompilationInfo
+getCompilationStencil
 (
 )
 .
@@ -8584,7 +8584,7 @@ checkOptionsCalled_
 this
 -
 >
-compilationInfo_
+stencil_
 .
 moduleMetadata
 .
@@ -8862,7 +8862,7 @@ noteAsync
 this
 -
 >
-compilationInfo_
+stencil_
 .
 moduleMetadata
 )
@@ -8882,7 +8882,7 @@ buildTables
 this
 -
 >
-compilationInfo_
+stencil_
 .
 moduleMetadata
 )
@@ -8902,7 +8902,7 @@ moduleMetadata
 this
 -
 >
-compilationInfo_
+stencil_
 .
 moduleMetadata
 ;
@@ -10966,7 +10966,7 @@ index
 )
 =
 =
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -13525,7 +13525,7 @@ cx_
 this
 -
 >
-compilationInfo_
+stencil_
 fun
 -
 >
@@ -14367,7 +14367,7 @@ start
 tokenStream
 )
 ;
-CompilationInfo
+CompilationStencil
 :
 :
 RewindToken
@@ -14376,7 +14376,7 @@ startObj
 this
 -
 >
-compilationInfo_
+stencil_
 .
 getRewindToken
 (
@@ -14478,7 +14478,7 @@ start
 this
 -
 >
-compilationInfo_
+stencil_
 .
 rewind
 (
@@ -14697,7 +14697,7 @@ getRewindToken
 (
 )
 ;
-CompilationInfo
+CompilationStencil
 :
 :
 RewindToken
@@ -14706,7 +14706,7 @@ startObj
 this
 -
 >
-compilationInfo_
+stencil_
 .
 getRewindToken
 (
@@ -14833,7 +14833,7 @@ token
 this
 -
 >
-compilationInfo_
+stencil_
 .
 rewind
 (
@@ -15722,7 +15722,7 @@ cx_
 this
 -
 >
-compilationInfo_
+stencil_
 fun
 -
 >
@@ -48522,7 +48522,7 @@ index
 this
 -
 >
-getCompilationInfo
+getCompilationStencil
 (
 )
 .
@@ -48564,7 +48564,7 @@ if
 this
 -
 >
-getCompilationInfo
+getCompilationStencil
 (
 )
 .
@@ -48595,7 +48595,7 @@ if
 this
 -
 >
-getCompilationInfo
+getCompilationStencil
 (
 )
 .
@@ -48629,7 +48629,7 @@ index
 this
 -
 >
-getCompilationInfo
+getCompilationStencil
 (
 )
 pos
@@ -53806,11 +53806,11 @@ SyntaxParseHandler
 char16_t
 >
 ;
-CompilationInfo
+CompilationStencil
 :
 :
 RewindToken
-CompilationInfo
+CompilationStencil
 :
 :
 getRewindToken
@@ -53839,7 +53839,7 @@ count
 ;
 }
 void
-CompilationInfo
+CompilationStencil
 :
 :
 rewind
@@ -53848,7 +53848,7 @@ CompilationState
 &
 state
 const
-CompilationInfo
+CompilationStencil
 :
 :
 RewindToken

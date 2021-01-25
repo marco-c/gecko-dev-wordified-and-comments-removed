@@ -112,7 +112,7 @@ namespace
 frontend
 {
 struct
-CompilationInfo
+CompilationStencil
 ;
 struct
 CompilationStencilSet
@@ -2773,9 +2773,9 @@ codeStencil
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 )
 ;
 XDRResult

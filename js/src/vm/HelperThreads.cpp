@@ -3273,10 +3273,10 @@ trc
 ;
 if
 (
-compilationInfo_
+stencil_
 )
 {
-compilationInfo_
+stencil_
 -
 >
 trace
@@ -3760,7 +3760,7 @@ ScopeKind
 :
 Global
 ;
-compilationInfo_
+stencil_
 =
 frontend
 :
@@ -3775,7 +3775,7 @@ scopeKind
 ;
 if
 (
-compilationInfo_
+stencil_
 )
 {
 if
@@ -3788,12 +3788,12 @@ PrepareForInstantiate
 (
 cx
 *
-compilationInfo_
+stencil_
 gcOutput_
 )
 )
 {
-compilationInfo_
+stencil_
 =
 nullptr
 ;
@@ -3830,7 +3830,7 @@ cx
 if
 (
 !
-compilationInfo_
+stencil_
 &
 &
 !
@@ -3846,7 +3846,7 @@ result
 ;
 if
 (
-compilationInfo_
+stencil_
 )
 {
 result
@@ -3858,7 +3858,7 @@ InstantiateStencils
 (
 cx
 *
-compilationInfo_
+stencil_
 gcOutput_
 )
 ;
@@ -4090,7 +4090,7 @@ setModule
 (
 )
 ;
-compilationInfo_
+stencil_
 =
 frontend
 :
@@ -4104,7 +4104,7 @@ data
 ;
 if
 (
-compilationInfo_
+stencil_
 )
 {
 if
@@ -4117,12 +4117,12 @@ PrepareForInstantiate
 (
 cx
 *
-compilationInfo_
+stencil_
 gcOutput_
 )
 )
 {
-compilationInfo_
+stencil_
 =
 nullptr
 ;
@@ -10591,7 +10591,7 @@ MOZ_ASSERT
 parseTask
 -
 >
-compilationInfo_
+stencil_
 .
 get
 (
@@ -10682,7 +10682,7 @@ if
 parseTask
 -
 >
-compilationInfo_
+stencil_
 .
 get
 (
@@ -10690,12 +10690,13 @@ get
 )
 {
 auto
-compilationInfo
+*
+stencil
 =
 parseTask
 -
 >
-compilationInfo_
+stencil_
 .
 get
 (
@@ -10704,7 +10705,7 @@ get
 if
 (
 !
-compilationInfo
+stencil
 -
 >
 input
@@ -10718,7 +10719,7 @@ xdrEncodeInitialStencil
 (
 cx
 *
-compilationInfo
+stencil
 xdrEncoder
 )
 )
@@ -10731,6 +10732,7 @@ nullptr
 else
 {
 auto
+*
 stencilSet
 =
 parseTask

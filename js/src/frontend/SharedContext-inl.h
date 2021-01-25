@@ -88,7 +88,7 @@ atomId
 toJSAtom
 (
 cx
-compilationInfo_
+stencil_
 .
 input
 .

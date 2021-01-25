@@ -19061,7 +19061,7 @@ cx
 parser
 -
 >
-getCompilationInfo
+getCompilationStencil
 (
 )
 .
@@ -19071,7 +19071,7 @@ atomCache
 parser
 -
 >
-getCompilationInfo
+getCompilationStencil
 (
 )
 )
@@ -21887,12 +21887,12 @@ twoByteRange
 ;
 Rooted
 <
-CompilationInfo
+CompilationStencil
 >
-compilationInfo
+stencil
 (
 cx
-CompilationInfo
+CompilationStencil
 (
 cx
 options
@@ -21913,7 +21913,7 @@ Script
 if
 (
 !
-compilationInfo
+stencil
 .
 get
 (
@@ -21937,7 +21937,7 @@ else
 if
 (
 !
-compilationInfo
+stencil
 .
 get
 (
@@ -21977,7 +21977,7 @@ compilationState
 cx
 allocScope
 options
-compilationInfo
+stencil
 .
 get
 (
@@ -22008,7 +22008,7 @@ length
 (
 )
 false
-compilationInfo
+stencil
 .
 get
 (
@@ -22040,7 +22040,7 @@ compilationState
 finish
 (
 cx
-compilationInfo
+stencil
 .
 get
 (
@@ -22156,7 +22156,7 @@ ModuleSharedContext
 modulesc
 (
 cx
-compilationInfo
+stencil
 .
 get
 (
@@ -22210,7 +22210,7 @@ compilationState
 finish
 (
 cx
-compilationInfo
+stencil
 .
 get
 (

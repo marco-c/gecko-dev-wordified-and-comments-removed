@@ -817,7 +817,7 @@ frontend
 :
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 mozilla
 :
 :
@@ -955,7 +955,7 @@ DumpTaggedParserAtomIndex
 (
 json
 index
-compilationStencil
+stencil
 )
 ;
 json
@@ -1093,7 +1093,7 @@ DumpTaggedParserAtomIndex
 (
 json
 index
-compilationStencil
+stencil
 )
 ;
 json
@@ -1278,7 +1278,7 @@ frontend
 :
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 {
 json
@@ -1290,7 +1290,7 @@ beginObject
 dumpFields
 (
 json
-compilationStencil
+stencil
 )
 ;
 json
@@ -1317,13 +1317,13 @@ frontend
 :
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 {
 DumpObjLiteral
 (
 json
-compilationStencil
+stencil
 getCode
 (
 )
@@ -1381,7 +1381,7 @@ frontend
 :
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 {
 json
@@ -1393,7 +1393,7 @@ beginObject
 dumpFields
 (
 json
-compilationStencil
+stencil
 )
 ;
 json
@@ -1420,13 +1420,13 @@ frontend
 :
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 {
 DumpObjLiteral
 (
 json
-compilationStencil
+stencil
 code_
 flags_
 )

@@ -1355,7 +1355,7 @@ stencil
 .
 scriptExtra
 [
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -1453,7 +1453,7 @@ for
 auto
 item
 :
-CompilationInfo
+CompilationStencil
 :
 :
 functionScriptStencils
@@ -1690,7 +1690,7 @@ for
 auto
 item
 :
-CompilationInfo
+CompilationStencil
 :
 :
 functionScriptStencils
@@ -1895,7 +1895,7 @@ stencil
 .
 scriptData
 [
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -1933,7 +1933,7 @@ sharedData
 .
 get
 (
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -1987,7 +1987,7 @@ input
 stencil
 gcOutput
 script
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -2046,7 +2046,7 @@ cx
 input
 stencil
 gcOutput
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -2104,7 +2104,7 @@ stencil
 .
 scriptExtra
 [
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -2238,7 +2238,7 @@ for
 auto
 item
 :
-CompilationInfo
+CompilationStencil
 :
 :
 functionScriptStencils
@@ -2495,7 +2495,7 @@ for
 auto
 item
 :
-CompilationInfo
+CompilationStencil
 :
 :
 functionScriptStencils
@@ -2649,7 +2649,7 @@ for
 auto
 item
 :
-CompilationInfo
+CompilationStencil
 :
 :
 functionScriptStencils
@@ -2784,7 +2784,7 @@ item
 index
 =
 =
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -2801,7 +2801,7 @@ item
 .
 index
 >
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -2936,7 +2936,7 @@ length
 ;
 }
 bool
-CompilationInfo
+CompilationStencil
 :
 :
 instantiateStencils
@@ -2944,9 +2944,9 @@ instantiateStencils
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationGCOutput
 &
 gcOutput
@@ -2955,7 +2955,7 @@ gcOutput
 if
 (
 !
-compilationInfo
+stencil
 .
 preparationIsPerformed
 )
@@ -2966,7 +2966,7 @@ if
 prepareForInstantiate
 (
 cx
-compilationInfo
+stencil
 gcOutput
 )
 )
@@ -2980,16 +2980,16 @@ return
 instantiateStencilsAfterPreparation
 (
 cx
-compilationInfo
+stencil
 .
 input
-compilationInfo
+stencil
 gcOutput
 )
 ;
 }
 bool
-CompilationInfo
+CompilationStencil
 :
 :
 instantiateStencilsAfterPreparation
@@ -3064,7 +3064,7 @@ stencil
 .
 scriptData
 [
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -3124,7 +3124,7 @@ stencil
 .
 scriptExtra
 [
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -3604,7 +3604,7 @@ gcOutputForDelazification
 if
 (
 !
-CompilationInfo
+CompilationStencil
 :
 :
 instantiateStencilsAfterPreparation
@@ -3738,7 +3738,7 @@ delazificationAtomCache
 if
 (
 !
-CompilationInfo
+CompilationStencil
 :
 :
 prepareGCOutputForInstantiate
@@ -3756,7 +3756,7 @@ false
 if
 (
 !
-CompilationInfo
+CompilationStencil
 :
 :
 instantiateStencilsAfterPreparation
@@ -3811,7 +3811,7 @@ true
 ;
 }
 bool
-CompilationInfo
+CompilationStencil
 :
 :
 prepareInputAndStencilForInstantiate
@@ -3856,7 +3856,7 @@ true
 ;
 }
 bool
-CompilationInfo
+CompilationStencil
 :
 :
 prepareGCOutputForInstantiate
@@ -3933,7 +3933,7 @@ true
 ;
 }
 bool
-CompilationInfo
+CompilationStencil
 :
 :
 prepareForInstantiate
@@ -3941,9 +3941,9 @@ prepareForInstantiate
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationGCOutput
 &
 gcOutput
@@ -3953,15 +3953,9 @@ auto
 &
 input
 =
-compilationInfo
+stencil
 .
 input
-;
-auto
-&
-stencil
-=
-compilationInfo
 ;
 if
 (
@@ -3993,7 +3987,7 @@ return
 false
 ;
 }
-compilationInfo
+stencil
 .
 preparationIsPerformed
 =
@@ -4023,7 +4017,7 @@ gcOutputForDelazification
 if
 (
 !
-CompilationInfo
+CompilationStencil
 :
 :
 prepareForInstantiate
@@ -4218,7 +4212,7 @@ true
 ;
 }
 bool
-CompilationInfo
+CompilationStencil
 :
 :
 serializeStencils
@@ -4512,9 +4506,9 @@ JS
 ReadOnlyCompileOptions
 &
 options
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 InheritThis
 inheritThis
 Scope
@@ -4550,7 +4544,7 @@ frontendAllocScope
 )
 input
 (
-compilationInfo
+stencil
 .
 input
 )
@@ -4562,7 +4556,7 @@ cx
 runtime
 (
 )
-compilationInfo
+stencil
 .
 alloc
 )
@@ -4746,7 +4740,7 @@ if
 index
 =
 =
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -4908,7 +4902,7 @@ MOZ_ASSERT
 index
 =
 =
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex
@@ -5155,9 +5149,9 @@ finish
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 )
 {
 if
@@ -5166,10 +5160,10 @@ if
 CopyVectorToSpan
 (
 cx
-compilationInfo
+stencil
 .
 alloc
-compilationInfo
+stencil
 .
 regExpData
 regExpData
@@ -5186,10 +5180,10 @@ if
 CopyVectorToSpan
 (
 cx
-compilationInfo
+stencil
 .
 alloc
-compilationInfo
+stencil
 .
 scriptData
 scriptData
@@ -5206,10 +5200,10 @@ if
 CopyVectorToSpan
 (
 cx
-compilationInfo
+stencil
 .
 alloc
-compilationInfo
+stencil
 .
 scriptExtra
 scriptExtra
@@ -5226,10 +5220,10 @@ if
 CopyVectorToSpan
 (
 cx
-compilationInfo
+stencil
 .
 alloc
-compilationInfo
+stencil
 .
 scopeData
 scopeData
@@ -5246,10 +5240,10 @@ if
 CopyVectorToSpan
 (
 cx
-compilationInfo
+stencil
 .
 alloc
-compilationInfo
+stencil
 .
 scopeNames
 scopeNames
@@ -5266,10 +5260,10 @@ if
 CopyVectorToSpan
 (
 cx
-compilationInfo
+stencil
 .
 alloc
-compilationInfo
+stencil
 .
 parserAtomData
 parserAtoms
@@ -5290,10 +5284,10 @@ if
 CopyVectorToSpan
 (
 cx
-compilationInfo
+stencil
 .
 alloc
-compilationInfo
+stencil
 .
 gcThingData
 gcThingData
@@ -5366,7 +5360,7 @@ TaggedParserAtomIndex
 taggedIndex
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 {
 if
@@ -5401,10 +5395,10 @@ toParserAtomIndex
 ;
 if
 (
-compilationStencil
+stencil
 &
 &
-compilationStencil
+stencil
 -
 >
 parserAtomData
@@ -5426,7 +5420,7 @@ atom
 "
 )
 ;
-compilationStencil
+stencil
 -
 >
 parserAtomData
@@ -5865,7 +5859,7 @@ JSONPrinter
 json
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 {
 json
@@ -5877,7 +5871,7 @@ beginObject
 dumpFields
 (
 json
-compilationStencil
+stencil
 )
 ;
 json
@@ -5901,7 +5895,7 @@ JSONPrinter
 json
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 {
 json
@@ -5917,7 +5911,7 @@ DumpTaggedParserAtomIndex
 (
 json
 atom_
-compilationStencil
+stencil
 )
 ;
 json
@@ -6216,7 +6210,7 @@ BaseParserScopeData
 baseScopeData
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 {
 json
@@ -6229,7 +6223,7 @@ dumpFields
 (
 json
 baseScopeData
-compilationStencil
+stencil
 )
 ;
 json
@@ -6256,7 +6250,7 @@ BaseParserScopeData
 baseScopeData
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 {
 json
@@ -7235,7 +7229,7 @@ name
 name
 (
 )
-compilationStencil
+stencil
 )
 ;
 json
@@ -7284,7 +7278,7 @@ EntryVector
 entries
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 {
 for
@@ -7325,7 +7319,7 @@ json
 entry
 .
 specifier
-compilationStencil
+stencil
 )
 ;
 json
@@ -7357,7 +7351,7 @@ json
 entry
 .
 localName
-compilationStencil
+stencil
 )
 ;
 json
@@ -7389,7 +7383,7 @@ json
 entry
 .
 importName
-compilationStencil
+stencil
 )
 ;
 json
@@ -7421,7 +7415,7 @@ json
 entry
 .
 exportName
-compilationStencil
+stencil
 )
 ;
 json
@@ -7486,7 +7480,7 @@ JSONPrinter
 json
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 {
 json
@@ -7498,7 +7492,7 @@ beginObject
 dumpFields
 (
 json
-compilationStencil
+stencil
 )
 ;
 json
@@ -7522,7 +7516,7 @@ JSONPrinter
 json
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 {
 json
@@ -7538,7 +7532,7 @@ DumpModuleEntryVectorItems
 (
 json
 requestedModules
-compilationStencil
+stencil
 )
 ;
 json
@@ -7560,7 +7554,7 @@ DumpModuleEntryVectorItems
 (
 json
 importEntries
-compilationStencil
+stencil
 )
 ;
 json
@@ -7582,7 +7576,7 @@ DumpModuleEntryVectorItems
 (
 json
 localExportEntries
-compilationStencil
+stencil
 )
 ;
 json
@@ -7604,7 +7598,7 @@ DumpModuleEntryVectorItems
 (
 json
 indirectExportEntries
-compilationStencil
+stencil
 )
 ;
 json
@@ -7626,7 +7620,7 @@ DumpModuleEntryVectorItems
 (
 json
 starExportEntries
-compilationStencil
+stencil
 )
 ;
 json
@@ -8780,7 +8774,7 @@ JSONPrinter
 json
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 TaggedScriptThingIndex
 &
 thing
@@ -8839,7 +8833,7 @@ thing
 toAtom
 (
 )
-compilationStencil
+stencil
 )
 ;
 json
@@ -9096,7 +9090,7 @@ JSONPrinter
 json
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 {
 json
@@ -9108,7 +9102,7 @@ beginObject
 dumpFields
 (
 json
-compilationStencil
+stencil
 )
 ;
 json
@@ -9132,7 +9126,7 @@ JSONPrinter
 json
 BaseCompilationStencil
 *
-compilationStencil
+stencil
 )
 {
 if
@@ -9184,7 +9178,7 @@ gcThingsLength
 ;
 if
 (
-compilationStencil
+stencil
 )
 {
 json
@@ -9205,14 +9199,14 @@ thing
 gcthings
 (
 *
-compilationStencil
+stencil
 )
 )
 {
 DumpScriptThing
 (
 json
-compilationStencil
+stencil
 thing
 )
 ;
@@ -9344,7 +9338,7 @@ DumpTaggedParserAtomIndex
 (
 json
 functionAtom
-compilationStencil
+stencil
 )
 ;
 json
@@ -10215,7 +10209,7 @@ if
 (
 scriptExtra
 [
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex

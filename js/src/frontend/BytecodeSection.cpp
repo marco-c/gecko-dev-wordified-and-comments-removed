@@ -190,7 +190,7 @@ isEmptyGlobalScope
 {
 MOZ_ASSERT
 (
-compilationInfo
+stencil
 .
 input
 .
@@ -200,7 +200,7 @@ enclosingScope
 MOZ_ASSERT
 (
 !
-compilationInfo
+stencil
 .
 input
 .
@@ -222,7 +222,7 @@ hasBindings
 return
 AbstractScopePtr
 (
-compilationInfo
+stencil
 .
 input
 .
@@ -1174,9 +1174,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 frontend
 :
 :
@@ -1188,7 +1188,7 @@ compilationState
 gcThingList_
 (
 cx
-compilationInfo
+stencil
 compilationState
 )
 atomIndices_

@@ -122,7 +122,7 @@ struct
 CompilationAtomCache
 ;
 struct
-CompilationInfo
+CompilationStencil
 ;
 class
 ParserAtom
@@ -3483,9 +3483,9 @@ internJSAtom
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 JSAtom
 *
 atom

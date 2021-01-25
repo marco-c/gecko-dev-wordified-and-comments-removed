@@ -77,7 +77,7 @@ namespace
 frontend
 {
 struct
-CompilationInfo
+CompilationStencil
 ;
 class
 MOZ_STACK_CLASS
@@ -104,9 +104,9 @@ ModuleSharedContext
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 ModuleBuilder
 &
 builder
