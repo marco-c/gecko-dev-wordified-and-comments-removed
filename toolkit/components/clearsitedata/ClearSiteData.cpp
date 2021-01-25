@@ -650,7 +650,7 @@ rv
 ssm
 -
 >
-GetChannelResultPrincipal
+GetChannelResultStoragePrincipal
 (
 aChannel
 getter_AddRefs
