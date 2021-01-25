@@ -17280,6 +17280,13 @@ setForceStrictMode
 (
 )
 ;
+options
+.
+setIsRunOnce
+(
+true
+)
+;
 }
 GlobalObject
 *
@@ -18552,6 +18559,13 @@ return
 false
 ;
 }
+script
+.
+set
+(
+nullptr
+)
+;
 cx
 -
 >
