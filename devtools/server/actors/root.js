@@ -296,17 +296,6 @@ traits
 networkMonitor
 :
 true
-get
-allowChromeProcess
-(
-)
-{
-return
-DevToolsServer
-.
-allowChromeProcess
-;
-}
 workerConsoleApiMessagesDispatchedToMainThread
 :
 Services
