@@ -75,6 +75,10 @@ basicSweeping
 (
 )
 {
+gc
+(
+)
+;
 var
 wm1
 =
@@ -200,6 +204,10 @@ weakGraph
 (
 )
 {
+gc
+(
+)
+;
 var
 wm1
 =
@@ -398,6 +406,10 @@ deadWeakMap
 (
 )
 {
+gc
+(
+)
+;
 var
 wm1
 =
@@ -541,6 +553,10 @@ deadKeys
 (
 )
 {
+gc
+(
+)
+;
 var
 wm1
 =
@@ -646,6 +662,10 @@ weakKeysRealloc
 (
 )
 {
+gc
+(
+)
+;
 var
 wm1
 =
@@ -751,10 +771,6 @@ makeFinalizeObserver
 )
 )
 ;
-finishgc
-(
-)
-;
 wm2
 =
 undefined
@@ -798,6 +814,10 @@ deletedKeys
 (
 )
 {
+gc
+(
+)
+;
 var
 wm
 =
@@ -889,6 +909,10 @@ incrementalAdds
 (
 )
 {
+gc
+(
+)
+;
 var
 initialCount
 =
