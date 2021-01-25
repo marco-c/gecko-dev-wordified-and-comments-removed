@@ -1902,8 +1902,6 @@ const
 EventStates
 &
 aState
-DPIRatio
-aDpiRatio
 )
 ;
 void
@@ -1920,8 +1918,6 @@ const
 EventStates
 &
 aState
-DPIRatio
-aDpiRatio
 )
 ;
 void
@@ -2072,12 +2068,12 @@ LayoutDeviceRect
 &
 aRect
 const
-int32_t
+float
 aArrowPolygonX
 [
 ]
 const
-int32_t
+float
 aArrowPolygonY
 [
 ]
@@ -2085,13 +2081,8 @@ const
 int32_t
 aArrowNumPoints
 const
-int32_t
-aArrowSize
-const
 sRGBColor
 aFillColor
-DPIRatio
-aDpiRatio
 )
 ;
 void
@@ -2111,8 +2102,6 @@ const
 EventStates
 &
 aState
-DPIRatio
-aDpiRatio
 )
 ;
 void
