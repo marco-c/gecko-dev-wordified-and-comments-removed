@@ -189,9 +189,6 @@ EncoderStream
 DecoderStream
 ClosedCriticalStream
 InternalError
-(
-u16
-)
 NeedMoreData
 HeaderLookup
 HuffmanDecompressionFailed

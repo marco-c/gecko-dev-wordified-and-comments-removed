@@ -67,7 +67,7 @@ test_fixture
 :
 {
 self
-addr
+loopback
 now
 }
 ;
@@ -1334,10 +1334,10 @@ Datagram
 :
 new
 (
-addr
+loopback
 (
 )
-addr
+loopback
 (
 )
 vec
