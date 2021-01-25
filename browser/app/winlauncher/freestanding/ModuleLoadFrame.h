@@ -88,11 +88,6 @@ void
 aMapBaseAddr
 NTSTATUS
 aMapNtStatus
-ModuleLoadInfo
-:
-:
-Status
-aLoadStatus
 )
 ;
 static
@@ -169,11 +164,6 @@ void
 aMapBaseAddr
 NTSTATUS
 aNtStatus
-ModuleLoadInfo
-:
-:
-Status
-aLoadStatus
 )
 ;
 void
@@ -199,11 +189,6 @@ void
 aMapBaseAddr
 NTSTATUS
 aMapNtStatus
-ModuleLoadInfo
-:
-:
-Status
-aLoadStatus
 )
 ;
 static
@@ -223,11 +208,6 @@ void
 aMapBaseAddr
 NTSTATUS
 aMapNtStatus
-ModuleLoadInfo
-:
-:
-Status
-aLoadStatus
 )
 ;
 private
