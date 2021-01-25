@@ -128,7 +128,10 @@ crate
 picture
 :
 :
+{
 ResolvedSurfaceTexture
+SurfaceInfo
+}
 ;
 use
 crate
@@ -265,6 +268,7 @@ render_task_cache
 {
 RenderTaskCacheKey
 RenderTaskCacheKeyKind
+RenderTaskParent
 }
 ;
 use
@@ -2517,6 +2521,12 @@ fb_config
 :
 &
 FrameBuilderConfig
+surfaces
+:
+&
+[
+SurfaceInfo
+]
 )
 -
 >
@@ -2711,7 +2721,14 @@ gpu_cache
 rg_builder
 None
 false
+RenderTaskParent
+:
+:
+RenderTask
+(
 clip_task_id
+)
+surfaces
 |
 rg_builder
 |
