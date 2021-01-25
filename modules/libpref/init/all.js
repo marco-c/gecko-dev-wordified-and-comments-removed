@@ -6293,7 +6293,9 @@ change
 click
 dblclick
 auxclick
+mousedown
 mouseup
+pointerdown
 pointerup
 notificationclick
 reset
