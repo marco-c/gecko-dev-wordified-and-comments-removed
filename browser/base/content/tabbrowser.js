@@ -4126,6 +4126,10 @@ replace
 "
 CONTENTTITLE
 "
+(
+)
+=
+>
 title
 )
 ;
