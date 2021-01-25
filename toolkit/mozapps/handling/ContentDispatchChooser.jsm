@@ -1547,6 +1547,17 @@ return
 false
 ;
 }
+if
+(
+aPrincipal
+.
+isAddonOrExpandedAddonPrincipal
+)
+{
+return
+true
+;
+}
 let
 key
 =
