@@ -83,9 +83,6 @@ snapshot_
 =
 nullptr
 ;
-bool
-scriptHasIonScript_
-;
 public
 :
 explicit
@@ -94,8 +91,6 @@ IonCompileTask
 MIRGenerator
 &
 mirGen
-bool
-scriptHasIonScript
 WarpSnapshot
 *
 snapshot
@@ -141,16 +136,6 @@ mirGen_
 alloc
 (
 )
-;
-}
-bool
-scriptHasIonScript
-(
-)
-const
-{
-return
-scriptHasIonScript_
 ;
 }
 WarpSnapshot
