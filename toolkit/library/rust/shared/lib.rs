@@ -94,17 +94,6 @@ extern
 crate
 cascade_bloom_filter
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-new_cert_storage
-"
-)
-]
 extern
 crate
 cert_storage

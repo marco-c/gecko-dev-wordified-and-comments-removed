@@ -886,12 +886,6 @@ false
 ;
 #
 if
-defined
-(
-MOZ_NEW_CERT_STORAGE
-)
-&
-&
 !
 defined
 (
@@ -933,7 +927,7 @@ endif
 if
 defined
 (
-MOZ_NEW_CERT_STORAGE
+EARLY_BETA_OR_EARLIER
 )
 &
 &
@@ -941,12 +935,6 @@ MOZ_NEW_CERT_STORAGE
 defined
 (
 MOZ_WIDGET_ANDROID
-)
-&
-&
-defined
-(
-EARLY_BETA_OR_EARLIER
 )
 pref
 (

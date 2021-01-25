@@ -273,17 +273,6 @@ shared
 new_xulstore
 "
 ]
-new_cert_storage
-=
-[
-"
-gkrust
--
-shared
-/
-new_cert_storage
-"
-]
 libfuzzer
 =
 [

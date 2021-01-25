@@ -499,11 +499,6 @@ api
 key
 "
 "
-MOZ_NEW_CERT_STORAGE
-"
-:
-true
-"
 MOZ_NEW_NOTIFICATION_STORE
 "
 :
@@ -964,11 +959,6 @@ api
 -
 key
 "
-"
-MOZ_NEW_CERT_STORAGE
-"
-:
-true
 "
 MOZ_NEW_NOTIFICATION_STORE
 "

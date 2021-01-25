@@ -8,17 +8,6 @@ run_test
 (
 )
 {
-if
-(
-!
-AppConstants
-.
-MOZ_NEW_CERT_STORAGE
-)
-{
-return
-;
-}
 let
 certStorage
 =
