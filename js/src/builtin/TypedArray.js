@@ -3153,11 +3153,7 @@ TypedArrayBitwiseSlice
 O
 A
 k
-|
-0
 count
-|
-0
 )
 ;
 if
