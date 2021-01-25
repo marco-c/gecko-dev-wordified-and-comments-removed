@@ -22496,6 +22496,16 @@ initialBrowsingContextGroupId
 Atom
 (
 "
+initiallyactive
+"
+"
+initiallyactive
+"
+)
+    
+Atom
+(
+"
 windows_win7
 "
 "
