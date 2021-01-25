@@ -8691,6 +8691,10 @@ ScrollSelectionIntoViewAsync
 )
 ;
 }
+changed
+=
+true
+;
 }
 if
 (
