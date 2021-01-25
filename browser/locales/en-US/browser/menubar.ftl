@@ -1927,3 +1927,7 @@ label
 Check
 for
 Updates
+.
+accesskey
+=
+C
