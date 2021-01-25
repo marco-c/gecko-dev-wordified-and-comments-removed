@@ -1795,11 +1795,9 @@ update
 extension
 )
 .
-then
-(
+map
 (
 newExtension
-)
 -
 >
 {
@@ -1809,12 +1807,7 @@ newExtension
 )
 ;
 return
-GeckoResult
-.
-fromValue
-(
 newExtension
-)
 ;
 }
 )
