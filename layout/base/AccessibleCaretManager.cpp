@@ -1014,7 +1014,7 @@ aHint
 break
 ;
 }
-mDesiredAyncPanZoomState
+mDesiredAsyncPanZoomState
 .
 Update
 (
@@ -2507,7 +2507,7 @@ SetSelectionDragState
 false
 )
 ;
-mDesiredAyncPanZoomState
+mDesiredAsyncPanZoomState
 .
 Update
 (
@@ -3788,7 +3788,7 @@ ShouldDisableApz
 const
 {
 return
-mDesiredAyncPanZoomState
+mDesiredAsyncPanZoomState
 .
 Get
 (
