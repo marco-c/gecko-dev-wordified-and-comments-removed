@@ -204,6 +204,25 @@ get_parser_options
 moz_app_version
 )
     
+if
+lint
+.
+lint_yaml_files
+(
+input_files
+parser_config
+=
+options
+)
+:
+        
+sys
+.
+exit
+(
+1
+)
+    
 all_objs
 =
 parser
