@@ -155,6 +155,9 @@ uint32_t
 urlbarColor
 ;
 uint32_t
+urlbarBorderColor
+;
+uint32_t
 animationColor
 ;
 }
