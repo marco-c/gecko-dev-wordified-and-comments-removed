@@ -6118,7 +6118,7 @@ nsEventStatus
 aEventStatus
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SelectByTypeAtPoint
 (
@@ -6194,6 +6194,7 @@ nsEventStatus
 aEventStatus
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 HandleMultiplePress
 (

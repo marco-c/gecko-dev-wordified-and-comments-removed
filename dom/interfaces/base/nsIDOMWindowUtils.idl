@@ -8733,6 +8733,9 @@ window
 .
 *
 /
+[
+can_run_script
+]
 boolean
 selectAtPoint
 (
