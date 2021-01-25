@@ -140,17 +140,9 @@ aURI
 ;
 SessionHistoryInfo
 (
-const
-SessionHistoryInfo
-*
-aSharedStateFrom
 nsIURI
 *
 aURI
-const
-nsID
-&
-aDocShellID
 nsIPrincipal
 *
 aTriggeringPrincipal
