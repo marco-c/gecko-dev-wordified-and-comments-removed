@@ -12140,6 +12140,18 @@ nsILoadContext
 .
 useRemoteSubframes
 ;
+var
+oa
+=
+E10SUtils
+.
+predictOriginAttributes
+(
+{
+browser
+}
+)
+;
 let
 loadRemote
 =
@@ -12152,6 +12164,7 @@ remoteSubframes
 E10SUtils
 .
 EXTENSION_REMOTE_TYPE
+oa
 )
 ;
 if

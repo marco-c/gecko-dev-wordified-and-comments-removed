@@ -340,6 +340,18 @@ true
 "
 )
 ;
+let
+oa
+=
+E10SUtils
+.
+predictOriginAttributes
+(
+{
+browser
+}
+)
+;
 browser
 .
 setAttribute
@@ -359,6 +371,8 @@ false
 E10SUtils
 .
 EXTENSION_REMOTE_TYPE
+null
+oa
 )
 )
 ;
