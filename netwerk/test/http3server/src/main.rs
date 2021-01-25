@@ -63,7 +63,7 @@ neqo_transport
 {
 ConnectionEvent
 ConnectionParameters
-FixedConnectionIdManager
+RandomConnectionIdGenerator
 Output
 }
 ;
@@ -3000,7 +3000,7 @@ RefCell
 :
 new
 (
-FixedConnectionIdManager
+RandomConnectionIdGenerator
 :
 :
 new

@@ -67,7 +67,7 @@ ConnectionParameters
 Error
 as
 TransportError
-FixedConnectionIdManager
+RandomConnectionIdGenerator
 Output
 QuicVersion
 }
@@ -530,7 +530,7 @@ RefCell
 :
 new
 (
-FixedConnectionIdManager
+RandomConnectionIdGenerator
 :
 :
 new
@@ -541,7 +541,6 @@ new
 )
 local
 remote
-&
 ConnectionParameters
 :
 :
@@ -552,6 +551,10 @@ default
 quic_version
 (
 quic_version
+)
+.
+disable_preferred_address
+(
 )
 &
 http3_settings
@@ -2091,7 +2094,7 @@ From
 neqo_transport
 :
 :
-CloseError
+ConnectionError
 >
 for
 CloseError
@@ -2104,7 +2107,7 @@ error
 neqo_transport
 :
 :
-CloseError
+ConnectionError
 )
 -
 >
@@ -2116,7 +2119,7 @@ error
 neqo_transport
 :
 :
-CloseError
+ConnectionError
 :
 :
 Transport
@@ -2131,11 +2134,15 @@ CloseError
 QuicTransportError
 (
 c
+.
+code
+(
+)
 )
 neqo_transport
 :
 :
-CloseError
+ConnectionError
 :
 :
 Application
