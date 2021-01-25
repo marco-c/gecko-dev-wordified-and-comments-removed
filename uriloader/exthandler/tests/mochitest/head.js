@@ -659,9 +659,7 @@ dialogStack
 =
 tabDialogBox
 .
-getTabDialogManager
-(
-)
+_dialogManager
 .
 _dialogStack
 ;

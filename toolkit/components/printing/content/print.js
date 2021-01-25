@@ -1421,7 +1421,7 @@ getTabDialogBox
 sourceBrowser
 )
 .
-getTabDialogManager
+getManager
 (
 )
 ;
