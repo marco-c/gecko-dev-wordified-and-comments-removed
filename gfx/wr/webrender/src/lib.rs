@@ -213,7 +213,7 @@ mod
 debug_font_data
 ;
 mod
-debug_render
+debug_item
 ;
 #
 [

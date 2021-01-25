@@ -1393,6 +1393,13 @@ log_slice
 <
 T
 :
+Copy
++
+Default
++
+peek_poke
+:
+:
 Peek
 >
 (

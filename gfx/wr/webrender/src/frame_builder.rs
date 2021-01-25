@@ -73,7 +73,7 @@ use
 crate
 :
 :
-debug_render
+debug_item
 :
 :
 DebugItem
