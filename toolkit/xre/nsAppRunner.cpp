@@ -22082,6 +22082,13 @@ initialized
 "
 )
 ;
+nsCOMPtr
+<
+nsIAppStartup
+>
+appStartup
+;
+{
 #
 if
 defined
@@ -23041,12 +23048,8 @@ NotifyObservers
 APPSTARTUP_CATEGORY
 )
 ;
-nsCOMPtr
-<
-nsIAppStartup
->
 appStartup
-(
+=
 components
 :
 :
@@ -23055,7 +23058,6 @@ AppStartup
 :
 Service
 (
-)
 )
 ;
 NS_ENSURE_TRUE
@@ -24157,6 +24159,7 @@ CompleteStartup
 (
 )
 ;
+}
 {
 rv
 =
