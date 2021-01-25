@@ -19,15 +19,8 @@ support
 .
 refine
 import
-get_events
-from
-tests
-.
-support
-.
-helpers
-import
 filter_dict
+get_events
 pytest
 .
 mark

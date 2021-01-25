@@ -9,6 +9,7 @@ support
 .
 refine
 import
+filter_dict
 get_events
 from
 tests
@@ -18,14 +19,6 @@ support
 asserts
 import
 assert_move_to_coordinates
-from
-tests
-.
-support
-.
-helpers
-import
-filter_dict
 pytest
 .
 mark

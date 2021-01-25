@@ -7,16 +7,9 @@ support
 .
 refine
 import
+filter_dict
 get_events
 get_keys
-from
-tests
-.
-support
-.
-helpers
-import
-filter_dict
 def
 test_release_no_actions_sends_no_events
 (
