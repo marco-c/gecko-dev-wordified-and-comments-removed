@@ -459,6 +459,11 @@ otherPromises
 promiseAfterSettings
 (
 )
+.
+then
+(
+promiseAfterSettings
+)
 SearchTestUtils
 .
 promiseSearchNotification
