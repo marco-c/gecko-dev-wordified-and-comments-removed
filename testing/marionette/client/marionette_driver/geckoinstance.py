@@ -3456,6 +3456,14 @@ warnOnQuit
 False
         
 "
+prompts
+.
+contentPromptSubDialog
+"
+:
+False
+        
+"
 startup
 .
 homepage_welcome_url
