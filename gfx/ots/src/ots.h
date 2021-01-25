@@ -924,13 +924,6 @@ uint32_t
 tag_value
 )
 ;
-bool
-IsValidVersionTag
-(
-uint32_t
-tag
-)
-;
 #
 define
 OTS_TAG_CFF
