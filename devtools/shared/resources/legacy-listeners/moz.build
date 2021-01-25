@@ -56,11 +56,6 @@ MPL
 DevToolsModules
 (
 "
-breakpoint
-.
-js
-"
-"
 cache
 -
 storage
