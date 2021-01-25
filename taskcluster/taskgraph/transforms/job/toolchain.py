@@ -985,6 +985,19 @@ worker
 "
 ]
     
+worker
+[
+"
+chain
+-
+of
+-
+trust
+"
+]
+=
+True
+    
 artifacts
 =
 worker
@@ -1028,19 +1041,6 @@ os
 windows
 "
 :
-        
-worker
-[
-"
-chain
--
-of
--
-trust
-"
-]
-=
-True
         
 run
 [
