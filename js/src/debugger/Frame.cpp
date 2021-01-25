@@ -3445,6 +3445,14 @@ unwrappedGenerator
 (
 )
 ;
+AutoRealm
+ar
+(
+cx
+&
+genObj
+)
+;
 JSScript
 *
 script
