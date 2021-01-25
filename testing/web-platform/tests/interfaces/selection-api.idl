@@ -227,9 +227,6 @@ false
 )
 ;
 stringifier
-DOMString
-(
-)
 ;
 }
 ;
