@@ -3,7 +3,7 @@ Tests
 for
 performance
 .
-measureMemory
+measureUserAgentSpecificMemory
 API
 Tests
 in
@@ -14,7 +14,7 @@ for
 the
 performance
 .
-measureMemory
+measureUserAgentSpecificMemory
 API
 :
 -

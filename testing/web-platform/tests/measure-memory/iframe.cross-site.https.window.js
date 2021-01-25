@@ -86,7 +86,7 @@ result
 await
 performance
 .
-measureMemory
+measureUserAgentSpecificMemory
 (
 )
 ;
@@ -246,7 +246,7 @@ SecurityError
 '
 performance
 .
-measureMemory
+measureUserAgentSpecificMemory
 URLs
 within
 a

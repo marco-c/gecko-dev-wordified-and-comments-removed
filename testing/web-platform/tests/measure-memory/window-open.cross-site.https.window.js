@@ -90,7 +90,7 @@ result
 await
 performance
 .
-measureMemory
+measureUserAgentSpecificMemory
 (
 )
 ;
@@ -122,7 +122,7 @@ null
 '
 performance
 .
-measureMemory
+measureUserAgentSpecificMemory
 does
 not
 leak
