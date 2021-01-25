@@ -5939,7 +5939,7 @@ log_level
 "
 :
 "
-debug
+info
 "
         
 "
@@ -6551,6 +6551,25 @@ exist
 other_path
 )
     
+if
+kwargs
+.
+get
+(
+"
+verbose
+"
+)
+:
+        
+rv
+.
+log_level
+=
+"
+debug
+"
+    
 overriding_path_args
 =
 [
@@ -6969,6 +6988,29 @@ Exit
 after
 starting
 servers
+"
+)
+    
+parser
+.
+add_argument
+(
+"
+-
+-
+verbose
+"
+action
+=
+"
+store_true
+"
+help
+=
+"
+Enable
+verbose
+logging
 "
 )
     
