@@ -709,7 +709,7 @@ extensionName
 :
 null
 }
-isServiceWorker
+isWorkerTarget
 :
 false
 }
