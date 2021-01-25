@@ -135,14 +135,6 @@ rust
 1
 .
 47
--
-linux64
--
-clang
--
-linux64
--
-binutils
 macosx64
 -
 grcov
