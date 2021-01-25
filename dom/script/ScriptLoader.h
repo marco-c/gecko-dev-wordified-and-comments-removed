@@ -1132,6 +1132,9 @@ IsAboutPageLoadingChromeURI
 ScriptLoadRequest
 *
 aRequest
+Document
+*
+aDocument
 )
 ;
 nsresult
