@@ -243,6 +243,8 @@ Handle
 TaggedProto
 >
 proto
+HandleTypeDescr
+descr
 )
 {
 MOZ_ASSERT_IF
@@ -301,6 +303,7 @@ cx
 realm
 (
 )
+descr
 )
 ;
 return
@@ -324,6 +327,9 @@ JS
 Realm
 *
 realm
+TypeDescr
+*
+descr
 )
 :
 TenuredCellWithNonGCPointer
@@ -337,6 +343,10 @@ proto
 realm_
 (
 realm
+)
+typeDescr_
+(
+descr
 )
 {
 MOZ_ASSERT_IF
@@ -572,6 +582,7 @@ getClass
 (
 )
 proto
+nullptr
 )
 ;
 if
@@ -1314,8 +1325,11 @@ JSClass
 clasp
 TaggedProto
 proto
+Handle
+<
 TypeDescr
 *
+>
 descr
 )
 {
@@ -1599,6 +1613,7 @@ MakeGroup
 cx
 clasp
 protoRoot
+descr
 )
 ;
 if
@@ -1638,20 +1653,6 @@ cx
 ;
 return
 nullptr
-;
-}
-if
-(
-descr
-)
-{
-group
--
->
-setTypeDescr
-(
-descr
-)
 ;
 }
 groups
