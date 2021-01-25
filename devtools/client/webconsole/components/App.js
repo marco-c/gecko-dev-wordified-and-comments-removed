@@ -883,6 +883,12 @@ stopPropagation
 (
 )
 ;
+event
+.
+preventDefault
+(
+)
+;
 }
 if
 (
