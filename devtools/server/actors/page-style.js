@@ -3132,17 +3132,6 @@ range
 track
 "
 :
-case
-"
-:
--
-moz
--
-focus
--
-outer
-"
-:
 return
 node
 .
