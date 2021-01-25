@@ -4,12 +4,10 @@ operands
 ;
 #
 [
-cfg
+cfg_attr
 (
-not
-(
-tarpaulin_include
-)
+tarpaulin
+skip
 )
 ]
 mod

@@ -125,7 +125,7 @@ version
 "
 0
 .
-14
+13
 .
 1
 "
@@ -181,16 +181,6 @@ toml
 README
 .
 md
-"
-"
-LICENSE
--
-APACHE
-"
-"
-LICENSE
--
-MIT
 "
 ]
 description
@@ -304,9 +294,7 @@ version
 "
 0
 .
-14
-.
-1
+13
 "
 [
 dependencies
