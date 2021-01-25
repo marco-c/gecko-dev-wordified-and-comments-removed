@@ -20464,11 +20464,7 @@ ngcthings
 =
 scriptStencil
 .
-gcThings
-.
-size
-(
-)
+gcThingsLength
 ;
 MOZ_ASSERT
 (
@@ -20524,7 +20520,10 @@ stencil
 gcOutput
 scriptStencil
 .
-gcThings
+gcthings
+(
+stencil
+)
 data
 -
 >
@@ -21173,11 +21172,7 @@ MOZ_ASSERT
 (
 scriptStencil
 .
-gcThings
-.
-size
-(
-)
+gcThingsLength
 <
 =
 INDEX_LIMIT
