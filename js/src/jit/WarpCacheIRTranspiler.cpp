@@ -11339,7 +11339,7 @@ toSub
 >
 setTruncateKind
 (
-MDefinition
+TruncateKind
 :
 :
 Truncate
