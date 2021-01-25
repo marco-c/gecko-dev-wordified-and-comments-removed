@@ -265,16 +265,6 @@ aRetVal
 )
 ;
 void
-OverrideSkeletonHourCycle
-(
-bool
-aIs24Hour
-nsAutoCString
-&
-aSkeleton
-)
-;
-void
 RemoveObservers
 (
 )
