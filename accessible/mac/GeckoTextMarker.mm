@@ -347,6 +347,9 @@ opaqueMarker
 ;
 if
 (
+aTextMarker
+&
+&
 AXTextMarkerGetLength
 (
 aTextMarker
