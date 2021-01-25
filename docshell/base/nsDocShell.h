@@ -938,6 +938,15 @@ return
 mForcedCharset
 ;
 }
+bool
+GetForcedAutodetection
+(
+)
+{
+return
+mForcedAutodetection
+;
+}
 mozilla
 :
 :
@@ -3630,6 +3639,11 @@ mIsNavigating
 ;
 bool
 mSuspendMediaWhenInactive
+:
+1
+;
+bool
+mForcedAutodetection
 :
 1
 ;

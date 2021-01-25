@@ -128,6 +128,9 @@ Set
 (
 [
 "
+_autodetect_all
+"
+"
 UTF
 -
 8
@@ -258,6 +261,9 @@ const
 kPinned
 =
 [
+"
+_autodetect_all
+"
 "
 UTF
 -
