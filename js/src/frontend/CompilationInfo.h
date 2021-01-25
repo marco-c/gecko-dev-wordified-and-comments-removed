@@ -279,6 +279,11 @@ allowArguments
 =
 true
 ;
+uint32_t
+enclosingThisEnvironmentHops
+=
+0
+;
 mozilla
 :
 :
