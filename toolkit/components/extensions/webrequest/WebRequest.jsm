@@ -5013,7 +5013,6 @@ onSendHeaders
 size
 )
 {
-await
 this
 .
 runChannelListener
