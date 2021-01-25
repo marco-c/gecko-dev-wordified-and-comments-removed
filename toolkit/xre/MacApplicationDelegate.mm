@@ -330,7 +330,7 @@ event
 NSApp
 nextEventMatchingMask
 :
-NSAnyEventMask
+NSEventMaskAny
 untilDate
 :
 nil

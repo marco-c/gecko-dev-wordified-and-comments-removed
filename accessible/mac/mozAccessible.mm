@@ -4820,7 +4820,7 @@ widget
 SynthesizeNativeMouseEvent
 (
 p
-NSRightMouseDown
+NSEventTypeRightMouseDown
 0
 nullptr
 )

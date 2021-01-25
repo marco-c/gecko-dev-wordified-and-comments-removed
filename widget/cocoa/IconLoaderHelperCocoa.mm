@@ -460,7 +460,7 @@ height
 )
 operation
 :
-NSCompositeCopy
+NSCompositingOperationCopy
 fraction
 :
 1

@@ -1516,7 +1516,7 @@ withFrame
 aRect
 alignment
 :
-NSRightTextAlignment
+NSTextAlignmentRight
 ]
 ;
 }
@@ -1549,7 +1549,7 @@ withFrame
 aRect
 alignment
 :
-NSCenterTextAlignment
+NSTextAlignmentCenter
 ]
 ;
 }
@@ -1706,7 +1706,7 @@ cell
 ]
 setControlSize
 :
-NSSmallControlSize
+NSControlSizeSmall
 ]
 ;
 NSArray

@@ -501,7 +501,7 @@ knsMenuItemShiftModifier
 macModifiers
 |
 =
-NSShiftKeyMask
+NSEventModifierFlagShift
 ;
 if
 (
@@ -512,7 +512,7 @@ knsMenuItemAltModifier
 macModifiers
 |
 =
-NSAlternateKeyMask
+NSEventModifierFlagOption
 ;
 if
 (
@@ -523,7 +523,7 @@ knsMenuItemControlModifier
 macModifiers
 |
 =
-NSControlKeyMask
+NSEventModifierFlagControl
 ;
 if
 (
@@ -534,7 +534,7 @@ knsMenuItemCommandModifier
 macModifiers
 |
 =
-NSCommandKeyMask
+NSEventModifierFlagCommand
 ;
 return
 macModifiers

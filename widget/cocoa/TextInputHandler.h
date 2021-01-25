@@ -3269,7 +3269,7 @@ return
 flags
 &
 ~
-NSDeviceIndependentModifierFlagsMask
+NSEventModifierFlagDeviceIndependentFlagsMask
 )
 ;
 }
@@ -3283,7 +3283,7 @@ return
 (
 flags
 &
-NSDeviceIndependentModifierFlagsMask
+NSEventModifierFlagDeviceIndependentFlagsMask
 )
 ;
 }
