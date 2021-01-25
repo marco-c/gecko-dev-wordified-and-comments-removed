@@ -22460,12 +22460,6 @@ MIRType
 :
 Object
 :
-case
-MIRType
-:
-:
-ObjectOrNull
-:
 conversion
 =
 MWasmAnyRefFromJSObject

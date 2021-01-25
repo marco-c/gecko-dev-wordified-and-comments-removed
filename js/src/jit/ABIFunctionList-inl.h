@@ -556,17 +556,6 @@ js
 jit
 :
 :
-AssertValidObjectOrNullPtr
-)
-\
-_
-(
-js
-:
-:
-jit
-:
-:
 AssertValidObjectPtr
 )
 \
