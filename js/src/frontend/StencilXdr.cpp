@@ -3150,6 +3150,17 @@ scriptData
 )
 )
 ;
+MOZ_TRY
+(
+XDRSpanContent
+(
+xdr
+stencil
+.
+scriptExtent
+)
+)
+;
 if
 (
 stencil

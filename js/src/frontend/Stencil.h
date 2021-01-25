@@ -2989,12 +2989,6 @@ gcThingsLength
 =
 0
 ;
-SourceExtent
-extent
-=
-{
-}
-;
 TaggedParserAtomIndex
 functionAtom
 ;
