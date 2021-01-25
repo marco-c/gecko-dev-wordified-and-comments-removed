@@ -13252,15 +13252,6 @@ MDefinition
 Opcode
 :
 :
-FallibleStoreElement
-:
-case
-MDefinition
-:
-:
-Opcode
-:
-:
 StoreTypedArrayElementHole
 :
 case
