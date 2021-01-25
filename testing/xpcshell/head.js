@@ -2023,14 +2023,7 @@ devtools
 -
 thread
 -
-instantiated
-"
-"
-devtools
--
-thread
--
-resumed
+ready
 "
 "
 xpcshell
@@ -2064,7 +2057,7 @@ devtools
 -
 thread
 -
-instantiated
+ready
 "
 )
 {
@@ -2081,8 +2074,6 @@ setBreakpointOnLoad
 (
 breakpointFiles
 )
-;
-return
 ;
 }
 for
