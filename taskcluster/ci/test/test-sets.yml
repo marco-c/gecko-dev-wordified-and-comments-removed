@@ -3224,4 +3224,10 @@ mochitest
 -
 plain
 -
+web
+-
+platform
+-
+tests
+-
 xpcshell
