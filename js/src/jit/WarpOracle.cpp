@@ -5574,7 +5574,7 @@ Failure
 fallbackStub
 -
 >
-unlinkStubDontInvalidateWarp
+unlinkStub
 (
 cx_
 -
