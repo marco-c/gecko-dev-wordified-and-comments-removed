@@ -1416,12 +1416,6 @@ using
 mozilla
 :
 :
-ArrayLength
-;
-using
-mozilla
-:
-:
 AsVariant
 ;
 using

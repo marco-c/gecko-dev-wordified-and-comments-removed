@@ -2743,15 +2743,10 @@ constexpr
 size_t
 ZoneInfoPathLength
 =
-mozilla
-:
-:
-ArrayLength
+js_strlen
 (
 ZoneInfoPath
 )
--
-1
 ;
 constexpr
 uint32_t

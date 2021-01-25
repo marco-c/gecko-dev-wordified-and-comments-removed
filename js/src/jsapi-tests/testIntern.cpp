@@ -30,6 +30,15 @@ h
 #
 include
 "
+util
+/
+Text
+.
+h
+"
+#
+include
+"
 vm
 /
 JSAtom
@@ -45,12 +54,6 @@ StringType
 .
 h
 "
-using
-mozilla
-:
-:
-ArrayLength
-;
 BEGIN_TEST
 (
 testAtomizedIsNotPinned
@@ -91,7 +94,7 @@ Atomize
 (
 cx
 someChars
-ArrayLength
+js_strlen
 (
 someChars
 )
