@@ -1527,6 +1527,12 @@ case
 roles
 :
 :
+EDITCOMBOBOX
+:
+case
+roles
+:
+:
 PASSWORD_TEXT
 :
 return
