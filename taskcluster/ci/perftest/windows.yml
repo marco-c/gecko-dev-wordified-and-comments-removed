@@ -1107,6 +1107,15 @@ perftest
 (
 controlled
 )
+worker
+:
+max
+-
+run
+-
+time
+:
+14400
 attributes
 :
 batch
