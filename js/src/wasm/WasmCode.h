@@ -1294,6 +1294,9 @@ v128Enabled
 bool
 omitsBoundsChecks
 ;
+bool
+usesDuplicateImports
+;
 explicit
 MetadataCacheablePod
 (
@@ -1329,6 +1332,10 @@ v128Enabled
 false
 )
 omitsBoundsChecks
+(
+false
+)
+usesDuplicateImports
 (
 false
 )

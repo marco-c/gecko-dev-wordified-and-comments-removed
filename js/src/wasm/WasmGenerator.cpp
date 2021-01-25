@@ -5896,6 +5896,16 @@ v128Enabled
 (
 )
 ;
+metadata_
+-
+>
+usesDuplicateImports
+=
+moduleEnv_
+-
+>
+usesDuplicateImports
+;
 if
 (
 compilerEnv_

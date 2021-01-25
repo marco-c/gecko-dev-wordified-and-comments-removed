@@ -363,6 +363,9 @@ codeSection
 SparseBitmap
 validForRefFunc
 ;
+bool
+usesDuplicateImports
+;
 DataSegmentEnvVector
 dataSegments
 ;
@@ -423,6 +426,10 @@ features
 TypeDefVector
 (
 )
+)
+usesDuplicateImports
+(
+false
 )
 {
 }
