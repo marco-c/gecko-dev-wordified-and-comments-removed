@@ -4525,6 +4525,7 @@ last_used_filters
 def
 active_tests
 (
+        
 self
 exists
 =
@@ -4535,9 +4536,13 @@ True
 filters
 =
 None
+noDefaultFilters
+=
+False
 *
 *
 values
+    
 )
 :
         
@@ -4677,6 +4682,18 @@ pass
 "
 )
         
+if
+noDefaultFilters
+:
+            
+fltrs
+=
+[
+]
+        
+else
+:
+            
 fltrs
 =
 self
