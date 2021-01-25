@@ -8,14 +8,6 @@ mozconfig
 .
 common
 "
-TOOLTOOL_DIR
-=
-{
-TOOLTOOL_DIR
-:
--
-topsrcdir
-}
 if
 [
 -

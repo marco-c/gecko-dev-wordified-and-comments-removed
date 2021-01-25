@@ -12,14 +12,6 @@ export
 MOZ_STDCXX_COMPAT
 =
 1
-TOOLTOOL_DIR
-=
-{
-TOOLTOOL_DIR
-:
--
-topsrcdir
-}
 #
 Depending
 whether

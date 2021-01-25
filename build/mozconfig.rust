@@ -7,14 +7,6 @@ in
 automation
 builds
 .
-TOOLTOOL_DIR
-=
-{
-TOOLTOOL_DIR
-:
--
-topsrcdir
-}
 #
 Tell
 configure

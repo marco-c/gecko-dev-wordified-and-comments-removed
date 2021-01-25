@@ -12,14 +12,6 @@ linux64
 /
 nightly
 "
-TOOLTOOL_DIR
-=
-{
-TOOLTOOL_DIR
-:
--
-topsrcdir
-}
 ac_add_options
 -
 -

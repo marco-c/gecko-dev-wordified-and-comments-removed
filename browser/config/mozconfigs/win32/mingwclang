@@ -13,8 +13,6 @@ t
 be
 used
 ?
-#
-TOOLTOOL_DIR
 .
 "
 topsrcdir
@@ -79,8 +77,6 @@ build
 mozconfig
 .
 rust
-#
-TOOLTOOL_DIR
 #
 RUSTC
 #
