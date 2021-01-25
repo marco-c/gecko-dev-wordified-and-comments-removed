@@ -4011,11 +4011,11 @@ AccessibleCaretManager
 :
 GetEditingHostForFrame
 (
+const
 nsIFrame
 *
 aFrame
 )
-const
 {
 if
 (
