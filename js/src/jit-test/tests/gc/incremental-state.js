@@ -342,11 +342,6 @@ of
 ]
 )
 {
-print
-(
-mode
-)
-;
 gczeal
 (
 mode
@@ -402,11 +397,6 @@ of
 sweepingZealModes
 )
 {
-print
-(
-mode
-)
-;
 gczeal
 (
 mode

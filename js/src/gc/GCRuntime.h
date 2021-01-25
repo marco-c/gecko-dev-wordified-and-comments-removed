@@ -5028,6 +5028,12 @@ bool
 useZeal
 ;
 #
+else
+const
+bool
+useZeal
+;
+#
 endif
 MainThreadData
 <
