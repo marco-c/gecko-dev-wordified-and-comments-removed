@@ -7661,7 +7661,7 @@ ArrayBufferObject
 *
 >
 toBuffer
-uint32_t
+size_t
 toIndex
 Handle
 <
@@ -7669,9 +7669,9 @@ ArrayBufferObject
 *
 >
 fromBuffer
-uint32_t
+size_t
 fromIndex
-uint32_t
+size_t
 count
 )
 {

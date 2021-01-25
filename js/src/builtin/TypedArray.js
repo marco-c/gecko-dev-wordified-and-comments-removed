@@ -5667,11 +5667,7 @@ newBuffer
 0
 O
 first
-|
-0
 newLen
-|
-0
 isWrapped
 )
 ;
@@ -5984,11 +5980,7 @@ newObj
 0
 O
 first
-|
-0
 newLen
-|
-0
 isWrapped
 )
 ;

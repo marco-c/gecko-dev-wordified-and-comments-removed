@@ -1633,7 +1633,7 @@ SharedArrayBufferObject
 *
 >
 toBuffer
-uint32_t
+size_t
 toIndex
 Handle
 <
@@ -1641,9 +1641,9 @@ SharedArrayBufferObject
 *
 >
 fromBuffer
-uint32_t
+size_t
 fromIndex
-uint32_t
+size_t
 count
 )
 {
