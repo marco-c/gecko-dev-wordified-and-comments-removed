@@ -780,7 +780,7 @@ key
 *
 *
 Creates
-SAVE_SESSION_PERF_DATA
+TELEMETRY_UNDESIRED_EVENT
 with
 timestamp
 in
