@@ -743,8 +743,6 @@ PrintingSelection
 :
 HasSelection
 "
-{
-}
 )
 ;
 }
