@@ -314,6 +314,7 @@ IntDef
 INPUT_RESULT_UNHANDLED
 INPUT_RESULT_HANDLED
 INPUT_RESULT_HANDLED_CONTENT
+INPUT_RESULT_IGNORED
 }
 )
 interface
@@ -346,6 +347,15 @@ int
 INPUT_RESULT_HANDLED_CONTENT
 =
 2
+;
+WrapForJNI
+public
+static
+final
+int
+INPUT_RESULT_IGNORED
+=
+3
 ;
 private
 SynthesizedEventState

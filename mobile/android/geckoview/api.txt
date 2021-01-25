@@ -12547,6 +12547,15 @@ public
 static
 final
 int
+INPUT_RESULT_IGNORED
+=
+3
+;
+field
+public
+static
+final
+int
 INPUT_RESULT_UNHANDLED
 =
 0
