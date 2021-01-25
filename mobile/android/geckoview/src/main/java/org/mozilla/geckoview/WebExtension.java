@@ -163,6 +163,13 @@ util
 .
 List
 ;
+import
+java
+.
+util
+.
+Locale
+;
 public
 class
 WebExtension
@@ -7186,6 +7193,9 @@ conflictActionString
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 )
 {

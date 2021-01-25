@@ -69,6 +69,13 @@ annotation
 .
 RetentionPolicy
 ;
+import
+java
+.
+util
+.
+Locale
+;
 AnyThread
 public
 class
@@ -1232,6 +1239,9 @@ event
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 )
 {

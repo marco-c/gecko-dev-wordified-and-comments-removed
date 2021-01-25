@@ -107,6 +107,13 @@ util
 .
 HashSet
 ;
+import
+java
+.
+util
+.
+Locale
+;
 public
 class
 CodeGenerator
@@ -2451,6 +2458,9 @@ name
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 +
 "
@@ -2697,6 +2707,9 @@ name
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 +
 "
@@ -3475,6 +3488,9 @@ name
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 +
 "
@@ -4084,6 +4100,9 @@ name
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 +
 "
