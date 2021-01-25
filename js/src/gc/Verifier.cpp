@@ -3650,11 +3650,9 @@ chunk
 -
 >
 decommittedArenas
-.
-get
-(
+[
 i
-)
+]
 )
 {
 continue
