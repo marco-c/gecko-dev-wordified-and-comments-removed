@@ -2531,10 +2531,7 @@ int32_t
 mWordCacheMaxEntries
 ;
 uint64_t
-mTotalPhysicalMemory
-;
-uint64_t
-mTotalVirtualMemory
+mTotalSystemMemory
 ;
 RefPtr
 <
