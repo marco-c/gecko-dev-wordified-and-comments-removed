@@ -4608,13 +4608,6 @@ TranscodeResult_Throw
 )
 ;
 }
-stencilAlloc_
-=
-&
-stencilSet
-.
-allocForDelazifications
-;
 for
 (
 size_t
