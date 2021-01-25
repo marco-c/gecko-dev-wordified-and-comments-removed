@@ -3022,6 +3022,12 @@ IsAsyncZooming
 )
 const
 {
+RecursiveMutexAutoLock
+lock
+(
+mRecursiveMutex
+)
+;
 return
 mState
 =
