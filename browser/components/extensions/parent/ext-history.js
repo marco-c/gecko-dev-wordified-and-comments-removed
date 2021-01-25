@@ -483,6 +483,16 @@ onEndUpdateBatch
 )
 {
 }
+onFrecencyChanged
+(
+)
+{
+}
+onManyFrecenciesChanged
+(
+)
+{
+}
 onDeleteVisits
 (
 uri

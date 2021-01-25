@@ -1265,9 +1265,6 @@ false
 PlacesObservers
 :
 false
-PlacesRanking
-:
-false
 PlacesVisit
 :
 false
