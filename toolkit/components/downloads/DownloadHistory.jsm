@@ -1236,11 +1236,6 @@ onEndUpdateBatch
 )
 {
 }
-onManyFrecenciesChanged
-(
-)
-{
-}
 onDeleteVisits
 (
 )
