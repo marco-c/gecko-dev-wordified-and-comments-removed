@@ -42242,9 +42242,9 @@ void
 LIRGenerator
 :
 :
-visitGuardIndexIsNonNegative
+visitGuardInt32IsNonNegative
 (
-MGuardIndexIsNonNegative
+MGuardInt32IsNonNegative
 *
 ins
 )
@@ -42286,7 +42286,7 @@ alloc
 (
 )
 )
-LGuardIndexIsNonNegative
+LGuardInt32IsNonNegative
 (
 useRegister
 (

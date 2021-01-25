@@ -97682,9 +97682,9 @@ void
 CodeGenerator
 :
 :
-visitGuardIndexIsNonNegative
+visitGuardInt32IsNonNegative
 (
-LGuardIndexIsNonNegative
+LGuardInt32IsNonNegative
 *
 lir
 )
