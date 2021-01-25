@@ -150,6 +150,14 @@ MIRGraph
 graph
 )
 {
+JitSpew
+(
+JitSpew_Sink
+"
+Begin
+"
+)
+;
 TempAllocator
 &
 alloc

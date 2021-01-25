@@ -3930,6 +3930,10 @@ compilingWasm
 void
 dumpVregs
 (
+const
+char
+*
+who
 )
 ;
 }

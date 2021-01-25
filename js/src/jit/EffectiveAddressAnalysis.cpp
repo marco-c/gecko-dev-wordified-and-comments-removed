@@ -1221,6 +1221,14 @@ analyze
 (
 )
 {
+JitSpew
+(
+JitSpew_EAA
+"
+Begin
+"
+)
+;
 for
 (
 ReversePostorderIterator
