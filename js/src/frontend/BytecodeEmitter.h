@@ -2042,6 +2042,11 @@ bool
 needsProto
 =
 false
+ListNode
+*
+classContentsIfConstructor
+=
+nullptr
 )
 ;
 MOZ_NEVER_INLINE
