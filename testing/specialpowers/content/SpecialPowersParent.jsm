@@ -3567,7 +3567,13 @@ addProfilerMarker
 "
 SpecialPowers
 "
-undefined
+{
+category
+:
+"
+Test
+"
+}
 aMessage
 .
 name
