@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_a11y_RangeTypes_h__
+mozilla_a11y_PlatformExtTypes_h__
 #
 define
-mozilla_a11y_RangeTypes_h__
+mozilla_a11y_PlatformExtTypes_h__
 namespace
 mozilla
 {
@@ -21,6 +21,13 @@ eLeftLine
 eRightLine
 eParagraph
 eStyle
+}
+;
+enum
+class
+EWhichPostFilter
+{
+eContainsText
 }
 ;
 }
