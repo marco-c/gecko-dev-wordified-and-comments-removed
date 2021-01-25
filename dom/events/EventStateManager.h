@@ -60,6 +60,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -2469,6 +2478,7 @@ KillClickHoldTimer
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 FireContextClick
 (

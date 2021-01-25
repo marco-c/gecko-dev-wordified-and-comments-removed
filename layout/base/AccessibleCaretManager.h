@@ -16,6 +16,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 CaretStateChangedEvent
@@ -449,6 +458,7 @@ aPoint
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetSelectionDragState
 (
