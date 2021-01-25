@@ -718,6 +718,9 @@ allAtoms
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 )
 {
 LifoAlloc
@@ -905,6 +908,7 @@ createForGlobalScope
 (
 cx
 compilationInfo
+compilationState
 ScopeKind
 :
 :
@@ -1026,6 +1030,7 @@ createForVarScope
 (
 cx
 compilationInfo
+compilationState
 ScopeKind
 :
 :
@@ -1169,6 +1174,7 @@ createForLexicalScope
 (
 cx
 compilationInfo
+compilationState
 ScopeKind
 :
 :
@@ -1361,6 +1367,7 @@ createForFunctionScope
 (
 cx
 compilationInfo
+compilationState
 data
 hasParameterExprs
 needsEnvironment
@@ -3251,6 +3258,7 @@ cx
 result
 allAtoms
 compilationInfo
+compilationState
 )
 )
 {

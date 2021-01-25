@@ -90,9 +90,7 @@ Deferred
 return
 data
 .
-compilationInfo
-.
-stencil
+compilationState
 .
 scopeData
 [
@@ -104,12 +102,12 @@ index
 ]
 ;
 }
-CompilationInfo
+CompilationState
 &
 AbstractScopePtr
 :
 :
-compilationInfo
+compilationState
 (
 )
 const
@@ -131,7 +129,7 @@ Deferred
 return
 data
 .
-compilationInfo
+compilationState
 ;
 }
 ScopeKind
@@ -210,7 +208,7 @@ scopeData
 .
 enclosing
 (
-compilationInfo
+compilationState
 (
 )
 )

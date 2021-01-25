@@ -98,7 +98,7 @@ namespace
 frontend
 {
 struct
-CompilationInfo
+CompilationState
 ;
 struct
 CompilationGCOutput
@@ -141,9 +141,9 @@ index
 frontend
 :
 :
-CompilationInfo
+CompilationState
 &
-compilationInfo
+compilationState
 ;
 }
 ;
@@ -226,9 +226,9 @@ AbstractScopePtr
 frontend
 :
 :
-CompilationInfo
+CompilationState
 &
-compilationInfo
+compilationState
 ScopeIndex
 scope
 )
@@ -238,7 +238,7 @@ scope_
 Deferred
 {
 scope
-compilationInfo
+compilationState
 }
 )
 {
@@ -318,9 +318,9 @@ const
 frontend
 :
 :
-CompilationInfo
+CompilationState
 &
-compilationInfo
+compilationState
 (
 )
 const

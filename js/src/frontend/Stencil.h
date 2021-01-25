@@ -914,6 +914,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 FunctionScope
 :
 :
@@ -951,6 +954,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 ScopeKind
 kind
 LexicalScope
@@ -981,12 +987,12 @@ createForVarScope
 JSContext
 *
 cx
-frontend
-:
-:
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 ScopeKind
 kind
 VarScope
@@ -1022,6 +1028,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 ScopeKind
 kind
 GlobalScope
@@ -1045,6 +1054,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 ScopeKind
 kind
 EvalScope
@@ -1076,6 +1088,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 ModuleScope
 :
 :
@@ -1105,6 +1120,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 mozilla
 :
 :
@@ -1121,9 +1139,9 @@ index
 AbstractScopePtr
 enclosing
 (
-CompilationInfo
+CompilationState
 &
-compilationInfo
+compilationState
 )
 const
 ;

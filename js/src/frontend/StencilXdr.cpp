@@ -4229,7 +4229,7 @@ TranscodeResult_Failure_AsmJSNotSupported
 }
 MOZ_TRY
 (
-XDRVector
+XDRSpanInitialized
 (
 xdr
 stencil

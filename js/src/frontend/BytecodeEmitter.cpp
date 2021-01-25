@@ -850,6 +850,7 @@ perScriptData_
 (
 cx
 compilationInfo
+compilationState
 )
 compilationInfo
 (
