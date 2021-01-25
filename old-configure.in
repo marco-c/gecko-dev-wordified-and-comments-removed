@@ -1144,7 +1144,6 @@ sleep
 2
 esac
 AC_PROG_CXX
-AC_PROG_RANLIB
 MOZ_PATH_PROGS
 (
 AS
@@ -5221,12 +5220,6 @@ else
 TARGET_COMPILER_ABI
 =
 msvc
-RANLIB
-=
-'
-echo
-not_ranlib
-'
 STRIP
 =
 '

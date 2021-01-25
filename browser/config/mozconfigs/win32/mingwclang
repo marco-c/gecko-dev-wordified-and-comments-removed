@@ -320,11 +320,6 @@ fms
 -
 extensions
 "
-RANLIB
-=
-llvm
--
-ranlib
 CFLAGS
 =
 "

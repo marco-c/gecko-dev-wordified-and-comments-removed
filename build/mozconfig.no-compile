@@ -93,8 +93,6 @@ MOZ_NO_PIE_COMPAT
 unset
 NM
 unset
-RANLIB
-unset
 NASM
 #
 Don

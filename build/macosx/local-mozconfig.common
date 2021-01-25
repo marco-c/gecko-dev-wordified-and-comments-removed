@@ -142,16 +142,6 @@ cctools
 bin
 /
 ar
-export
-RANLIB
-=
-MOZ_FETCHES_DIR
-/
-cctools
-/
-bin
-/
-ranlib
 fi
 #
 Ensure
