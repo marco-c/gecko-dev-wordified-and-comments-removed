@@ -8,6 +8,9 @@ setup
 {
 useHttpServer
 (
+"
+opensearch
+"
 )
 ;
 await
@@ -147,7 +150,7 @@ addOpenSearchEngine
 gDataUrl
 +
 "
-engine
+simple
 .
 xml
 "
@@ -162,9 +165,7 @@ engine
 .
 name
 "
-Test
-search
-engine
+simple
 "
 "
 Should
@@ -190,7 +191,7 @@ addOpenSearchEngine
 gDataUrl
 +
 "
-engine
+simple
 .
 xml
 "
@@ -264,8 +265,6 @@ gDataUrl
 +
 "
 invalid
--
-engine
 .
 xml
 "
