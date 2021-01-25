@@ -14,6 +14,17 @@ crate
 uuid
 ;
 pub
+use
+private
+:
+:
+{
+DistributionData
+ErrorType
+RecordedEvent
+}
+;
+pub
 mod
 metrics
 ;
