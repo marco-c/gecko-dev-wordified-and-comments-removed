@@ -34,6 +34,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsDirection
+.
+h
+"
 class
 nsINode
 ;
@@ -135,6 +142,9 @@ nsTArray
 RawRangeData
 >
 mOldRanges
+;
+nsDirection
+mOldDirection
 ;
 ~
 SelectionChangeEventDispatcher
