@@ -58,10 +58,6 @@ mozilla
 namespace
 widget
 {
-using
-namespace
-gfx
-;
 GtkCompositorWidget
 :
 :
