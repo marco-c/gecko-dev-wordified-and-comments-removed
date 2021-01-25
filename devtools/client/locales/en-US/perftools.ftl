@@ -710,7 +710,7 @@ worker
 title
 =
 This
-handle
+handles
 both
 web
 workers
