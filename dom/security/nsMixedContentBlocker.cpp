@@ -1932,17 +1932,6 @@ NS_OK
 case
 TYPE_SAVEAS_DOWNLOAD
 :
-if
-(
-!
-StaticPrefs
-:
-:
-dom_block_download_insecure
-(
-)
-)
-{
 *
 aDecision
 =
@@ -1951,7 +1940,6 @@ ACCEPT
 return
 NS_OK
 ;
-}
 break
 ;
 case
