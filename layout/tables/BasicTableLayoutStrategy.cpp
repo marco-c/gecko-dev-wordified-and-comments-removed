@@ -733,6 +733,8 @@ ComputeSizeFlag
 SkipAspectRatio
 }
 )
+.
+mISize
 ;
 minCoord
 =
@@ -912,6 +914,8 @@ ComputeSizeFlag
 SkipAspectRatio
 }
 )
+.
+mISize
 ;
 minCoord
 =

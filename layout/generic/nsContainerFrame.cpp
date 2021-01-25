@@ -12830,6 +12830,8 @@ boxSizingToMarginEdgeISize
 inlineStyleCoord
 aFlags
 )
+.
+mISize
 ;
 }
 else
@@ -13059,6 +13061,8 @@ boxSizingToMarginEdgeISize
 maxISizeCoord
 aFlags
 )
+.
+mISize
 ;
 }
 else
@@ -13115,6 +13119,8 @@ boxSizingToMarginEdgeISize
 minISizeCoord
 aFlags
 )
+.
+mISize
 ;
 }
 else
