@@ -9180,14 +9180,6 @@ mTransaction
 &
 &
 mTLSFilter
-&
-&
-gHttpHandler
--
->
-Bug1556491
-(
-)
 )
 {
 if
