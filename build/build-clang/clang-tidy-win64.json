@@ -98,14 +98,5 @@ errors
 .
 patch
 "
-"
-clang
--
-format
--
-11
-.
-patch
-"
 ]
 }
