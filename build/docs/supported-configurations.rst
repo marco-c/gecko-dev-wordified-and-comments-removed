@@ -297,7 +297,7 @@ and
 clang
 )
 -
-OSX
+macOS
 10
 .
 12
@@ -307,6 +307,8 @@ on
 x86
 -
 64
+and
+AArch64
 (
 clang
 )
