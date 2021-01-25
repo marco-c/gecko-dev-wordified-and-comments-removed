@@ -897,6 +897,17 @@ else
 {
 try
 {
+const
+isExternal
+=
+navFlags
+&
+Ci
+.
+nsIWebNavigation
+.
+LOAD_FLAGS_FROM_EXTERNAL
+;
 parsedUri
 =
 Services
@@ -909,6 +920,11 @@ uri
 )
 ;
 if
+(
+!
+isExternal
+&
+&
 (
 parsedUri
 .
@@ -959,6 +975,7 @@ moz
 -
 extension
 "
+)
 )
 )
 {
