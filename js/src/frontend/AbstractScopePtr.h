@@ -673,12 +673,6 @@ enclosing
 )
 ;
 }
-bool
-hasSyntacticEnvironment
-(
-)
-const
-;
 void
 trace
 (
