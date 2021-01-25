@@ -2880,6 +2880,11 @@ label
 )
 ;
 }
+template
+<
+typename
+T
+>
 void
 MacroAssembler
 :
@@ -2888,7 +2893,7 @@ branchAddPtr
 (
 Condition
 cond
-Register
+T
 src
 Register
 dest
@@ -2905,6 +2910,11 @@ NYI
 )
 ;
 }
+template
+<
+typename
+T
+>
 void
 MacroAssembler
 :
@@ -2913,7 +2923,7 @@ branchSubPtr
 (
 Condition
 cond
-Register
+T
 src
 Register
 dest
