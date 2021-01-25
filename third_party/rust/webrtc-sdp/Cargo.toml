@@ -124,7 +124,7 @@ version
 .
 3
 .
-6
+8
 "
 authors
 =
@@ -311,6 +311,13 @@ version
 features
 ]
 default
+=
+[
+"
+enhanced_debug
+"
+]
+enhanced_debug
 =
 [
 ]
