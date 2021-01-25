@@ -68,6 +68,9 @@ nsIFrame
 class
 nsIContent
 ;
+class
+nsPresContext
+;
 namespace
 mozilla
 {
@@ -662,6 +665,15 @@ valueOr
 )
 ;
 }
+static
+void
+NotifyDestroyPresContext
+(
+nsPresContext
+*
+aPresContext
+)
+;
 private
 :
 static

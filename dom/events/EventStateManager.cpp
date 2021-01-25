@@ -16887,6 +16887,14 @@ Clear
 (
 )
 ;
+PointerEventHandler
+:
+:
+NotifyDestroyPresContext
+(
+aPresContext
+)
+;
 }
 void
 EventStateManager
