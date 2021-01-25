@@ -423,12 +423,6 @@ a
 )
 "
 "
-cd
-(
-document
-)
-"
-"
 undefined
 "
 ]
