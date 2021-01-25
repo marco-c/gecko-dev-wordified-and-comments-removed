@@ -524,13 +524,9 @@ getResultDomain
 (
 )
 )
-keywordOffer
+providesSearchMode
 :
-UrlbarUtils
-.
-KEYWORD_OFFER
-.
-SHOW
+true
 query
 :
 "

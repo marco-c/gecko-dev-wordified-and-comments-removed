@@ -1129,13 +1129,9 @@ query
 "
 moz
 "
-keywordOffer
+providesSearchMode
 :
-UrlbarUtils
-.
-KEYWORD_OFFER
-.
-SHOW
+true
 keyword
 :
 "

@@ -904,13 +904,9 @@ keyword
 site
 .
 title
-keywordOffer
+providesSearchMode
 :
-UrlbarUtils
-.
-KEYWORD_OFFER
-.
-SHOW
+true
 engine
 :
 engine

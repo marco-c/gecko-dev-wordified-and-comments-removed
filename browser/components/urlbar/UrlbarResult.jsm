@@ -462,7 +462,7 @@ this
 .
 payload
 .
-keywordOffer
+providesSearchMode
 )
 {
 return
