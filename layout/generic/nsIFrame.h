@@ -6118,6 +6118,7 @@ nsEventStatus
 aEventStatus
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 SelectByTypeAtPoint
 (
@@ -6136,7 +6137,7 @@ uint32_t
 aSelectFlags
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PeekBackwardAndForward
 (
