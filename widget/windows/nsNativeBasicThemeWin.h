@@ -218,14 +218,9 @@ sRGBColor
 ComputeMeterchunkColors
 (
 const
-double
-aValue
-const
-double
-aOptimum
-const
-double
-aLow
+EventStates
+&
+aMeterState
 )
 override
 ;
