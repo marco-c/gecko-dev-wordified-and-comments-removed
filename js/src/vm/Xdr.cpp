@@ -2697,6 +2697,13 @@ nchunks
 )
 )
 ;
+MOZ_TRY
+(
+align32
+(
+)
+)
+;
 }
 if
 (
@@ -4212,6 +4219,13 @@ XDRChunkCount
 this
 &
 nchunks
+)
+)
+;
+MOZ_TRY
+(
+align32
+(
 )
 )
 ;
