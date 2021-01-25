@@ -553,7 +553,7 @@ UrlbarUtils
 .
 HIGHLIGHT
 .
-TYPED
+NONE
 ]
 url
 :
@@ -563,7 +563,7 @@ UrlbarUtils
 .
 HIGHLIGHT
 .
-TYPED
+NONE
 ]
 }
 )
@@ -787,7 +787,7 @@ UrlbarUtils
 .
 HIGHLIGHT
 .
-TYPED
+NONE
 ]
 url
 :
@@ -797,7 +797,7 @@ UrlbarUtils
 .
 HIGHLIGHT
 .
-TYPED
+NONE
 ]
 icon
 :
