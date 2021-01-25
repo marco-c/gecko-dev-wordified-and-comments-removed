@@ -2951,8 +2951,6 @@ JS
 OffThreadToken
 *
 token
-=
-nullptr
 ;
 options
 .
@@ -2962,6 +2960,8 @@ true
 ;
 CHECK
 (
+token
+=
 JS
 :
 :
@@ -2973,8 +2973,6 @@ source
 callback
 &
 monitor
-&
-token
 )
 )
 ;
