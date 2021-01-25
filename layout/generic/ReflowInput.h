@@ -2083,17 +2083,6 @@ Nothing
 )
 ;
 nscoord
-GetContainingBlockContentISize
-(
-mozilla
-:
-:
-WritingMode
-aWritingMode
-)
-const
-;
-nscoord
 CalcLineHeight
 (
 )
