@@ -98,6 +98,12 @@ nodejs
 "
             
 "
+python
+-
+devel
+"
+            
+"
 which
 "
         
