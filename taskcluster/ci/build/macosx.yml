@@ -1098,8 +1098,6 @@ clang
 -
 macosx
 -
-aarch64
--
 cross
 -
 macosx64
@@ -2704,8 +2702,6 @@ linux64
 clang
 -
 macosx
--
-aarch64
 -
 cross
 -
