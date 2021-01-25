@@ -1021,6 +1021,15 @@ subtitle
 "
 /
 >
+{
+this
+.
+props
+.
+mayHaveSponsoredStories
+&
+&
+(
 <
 div
 className
@@ -1175,6 +1184,8 @@ div
 /
 div
 >
+)
+}
 <
 /
 div
