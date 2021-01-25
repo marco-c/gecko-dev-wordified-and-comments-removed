@@ -227,3 +227,12 @@ name
 =
 Mozilla
 VPN
+-
+profiler
+-
+brand
+-
+name
+=
+Firefox
+Profiler
