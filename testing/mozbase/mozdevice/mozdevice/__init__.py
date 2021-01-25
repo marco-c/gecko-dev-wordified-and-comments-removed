@@ -1220,6 +1220,11 @@ from
 adb_android
 import
 ADBAndroid
+from
+.
+remote_process_monitor
+import
+RemoteProcessMonitor
 __all__
 =
 [
@@ -1258,5 +1263,9 @@ ADBAndroid
     
 "
 ADBDeviceFactory
+"
+    
+"
+RemoteProcessMonitor
 "
 ]

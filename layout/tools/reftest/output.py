@@ -1360,6 +1360,22 @@ data
 ]
     
 def
+write
+(
+self
+data
+)
+:
+        
+return
+self
+.
+__call__
+(
+data
+)
+    
+def
 verbatim
 (
 self

@@ -461,16 +461,6 @@ mochitest
 /
 build
 /
-mobile
-/
-remoteautomation
-.
-py
-"
-"
-/
-build
-/
 pgo
 /
 server
