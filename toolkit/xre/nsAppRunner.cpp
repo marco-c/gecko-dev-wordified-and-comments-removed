@@ -22090,6 +22090,17 @@ appStartup
 ;
 {
 #
+ifdef
+XP_MACOSX
+mozilla
+:
+:
+MacAutoreleasePool
+pool
+;
+#
+endif
+#
 if
 defined
 (
