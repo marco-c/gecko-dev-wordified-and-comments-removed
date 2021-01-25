@@ -751,6 +751,10 @@ makeFinalizeObserver
 )
 )
 ;
+finishgc
+(
+)
+;
 wm2
 =
 undefined
