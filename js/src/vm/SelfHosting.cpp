@@ -17918,9 +17918,9 @@ options
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 &
-ciVec
+stencilSet
 MutableHandle
 <
 JSScript
@@ -17969,7 +17969,7 @@ false
 if
 (
 !
-ciVec
+stencilSet
 .
 deserializeStencils
 (
@@ -18018,7 +18018,7 @@ CompilationInfo
 instantiateStencils
 (
 cx
-ciVec
+stencilSet
 .
 initial
 output
@@ -18172,15 +18172,15 @@ Rooted
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 >
-ciVec
+stencilSet
 (
 cx
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 (
 cx
 options
@@ -18190,7 +18190,7 @@ options
 if
 (
 !
-ciVec
+stencilSet
 .
 get
 (
@@ -18217,7 +18217,7 @@ initSelfHostingFromXDR
 (
 cx
 options
-ciVec
+stencilSet
 .
 get
 (

@@ -29948,15 +29948,15 @@ Rooted
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 >
-compilationInfos
+stencilSet
 (
 cx
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 (
 cx
 options
@@ -29966,7 +29966,7 @@ options
 if
 (
 !
-compilationInfos
+stencilSet
 .
 get
 (
@@ -30018,7 +30018,7 @@ false
 if
 (
 !
-compilationInfos
+stencilSet
 .
 get
 (
@@ -30083,7 +30083,7 @@ cx
 if
 (
 !
-compilationInfos
+stencilSet
 .
 get
 (

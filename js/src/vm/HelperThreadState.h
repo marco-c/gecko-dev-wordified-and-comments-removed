@@ -2010,9 +2010,9 @@ UniquePtr
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 >
-compilationInfos_
+stencilSet_
 ;
 frontend
 :

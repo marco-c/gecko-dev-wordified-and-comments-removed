@@ -2625,9 +2625,9 @@ js
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 &
-ciVec
+stencilSet
 js
 :
 :

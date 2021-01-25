@@ -115,7 +115,7 @@ struct
 CompilationInfo
 ;
 struct
-CompilationInfoVector
+CompilationStencilSet
 ;
 struct
 CompilationInput
@@ -1519,9 +1519,9 @@ codeDelazificationStencils
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 &
-compilationInfos
+stencilSet
 )
 {
 MOZ_CRASH
@@ -3229,9 +3229,9 @@ codeStencils
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 &
-compilationInfos
+stencilSet
 )
 ;
 private
@@ -3843,9 +3843,9 @@ codeStencils
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 &
-compilationInfos
+stencilSet
 )
 ;
 }

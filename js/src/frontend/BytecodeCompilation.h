@@ -334,9 +334,9 @@ PrepareForInstantiate
 JSContext
 *
 cx
-CompilationInfoVector
+CompilationStencilSet
 &
-compilationInfos
+stencilSet
 CompilationGCOutput
 &
 gcOutput
@@ -367,9 +367,9 @@ InstantiateStencils
 JSContext
 *
 cx
-CompilationInfoVector
+CompilationStencilSet
 &
-compilationInfos
+stencilSet
 CompilationGCOutput
 &
 gcOutput

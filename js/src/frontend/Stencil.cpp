@@ -3316,7 +3316,7 @@ true
 ;
 }
 bool
-CompilationInfoVector
+CompilationStencilSet
 :
 :
 buildDelazificationIndices
@@ -3558,7 +3558,7 @@ true
 ;
 }
 bool
-CompilationInfoVector
+CompilationStencilSet
 :
 :
 instantiateStencils
@@ -3599,7 +3599,7 @@ gcOutputForDelazification
 ;
 }
 bool
-CompilationInfoVector
+CompilationStencilSet
 :
 :
 instantiateStencilsAfterPreparation
@@ -4025,7 +4025,7 @@ true
 ;
 }
 bool
-CompilationInfoVector
+CompilationStencilSet
 :
 :
 prepareForInstantiate
@@ -4391,7 +4391,7 @@ true
 ;
 }
 bool
-CompilationInfoVector
+CompilationStencilSet
 :
 :
 deserializeStencils
