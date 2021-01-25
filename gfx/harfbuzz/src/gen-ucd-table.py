@@ -60,9 +60,6 @@ zip
 "
 "
 import
-os
-.
-path
 sys
 re
 import

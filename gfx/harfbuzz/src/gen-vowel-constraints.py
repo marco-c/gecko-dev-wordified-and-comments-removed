@@ -89,12 +89,6 @@ txt
 "
 import
 collections
-from
-html
-.
-parser
-import
-HTMLParser
 def
 write
 (
@@ -129,8 +123,6 @@ utf
 '
 )
 )
-import
-itertools
 import
 sys
 if

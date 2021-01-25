@@ -1002,7 +1002,6 @@ y_offset
 )
 )
 {
-unsigned
 int
 correction
 =

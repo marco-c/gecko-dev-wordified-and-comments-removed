@@ -21,9 +21,7 @@ builddir
 =
 os
 .
-environ
-.
-get
+getenv
 (
 '
 builddir
@@ -41,9 +39,7 @@ libs
 =
 os
 .
-environ
-.
-get
+getenv
 (
 '
 libs
@@ -115,6 +111,9 @@ flush_fn_list
 '
 '
 writeout_fn_list
+'
+'
+mangle_path
 '
 ]
 )

@@ -2967,10 +2967,6 @@ if
 (
 !
 index_iter
-.
-len
-(
-)
 )
 return_trace
 (

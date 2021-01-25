@@ -46,9 +46,7 @@ pwd
 cd
 srcdir
 #
-echo
--
-n
+printf
 "
 checking
 for
@@ -93,9 +91,7 @@ exit
 1
 #
 }
-echo
--
-n
+printf
 "
 checking
 for
@@ -133,9 +129,7 @@ it
 exit
 1
 }
-echo
--
-n
+printf
 "
 checking
 for
@@ -174,9 +168,7 @@ it
 exit
 1
 }
-echo
--
-n
+printf
 "
 checking
 for
@@ -230,9 +222,7 @@ doc
 .
 make
 fi
-echo
--
-n
+printf
 "
 checking
 for

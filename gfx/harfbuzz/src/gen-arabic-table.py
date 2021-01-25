@@ -1534,8 +1534,6 @@ shape
 ]
 =
 c
-			
-pass
 		
 else
 :

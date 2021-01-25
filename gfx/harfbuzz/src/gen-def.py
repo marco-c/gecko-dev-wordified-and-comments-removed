@@ -228,9 +228,7 @@ symbols
 if
 os
 .
-environ
-.
-get
+getenv
 (
 '
 PLAIN_LIST

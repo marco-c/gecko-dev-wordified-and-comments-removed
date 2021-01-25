@@ -321,6 +321,8 @@ b
 nullptr
 ;
 }
+private
+:
 hb_nonnull_ptr_t
 <
 hb_blob_t

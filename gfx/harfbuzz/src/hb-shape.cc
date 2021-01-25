@@ -328,17 +328,6 @@ hb_shape_plan_destroy
 shape_plan
 )
 ;
-if
-(
-res
-)
-buffer
--
->
-content_type
-=
-HB_BUFFER_CONTENT_TYPE_GLYPHS
-;
 return
 res
 ;

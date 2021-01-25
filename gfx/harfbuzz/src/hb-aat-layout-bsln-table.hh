@@ -221,6 +221,8 @@ this
 ;
 return_trace
 (
+likely
+(
 c
 -
 >
@@ -235,6 +237,7 @@ lookupTable
 sanitize
 (
 c
+)
 )
 )
 ;

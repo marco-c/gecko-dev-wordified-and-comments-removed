@@ -162,7 +162,9 @@ operator
 =
 =
 (
+const
 K
+&
 o
 )
 {

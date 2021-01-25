@@ -9,9 +9,7 @@ chdir
 (
 os
 .
-environ
-.
-get
+getenv
 (
 '
 srcdir
@@ -30,9 +28,7 @@ libs
 =
 os
 .
-environ
-.
-get
+getenv
 (
 '
 libs
