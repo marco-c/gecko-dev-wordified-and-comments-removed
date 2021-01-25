@@ -413,7 +413,7 @@ DOMException
 /
 Promise
 <
-UTF8String
+DOMString
 >
 readUTF8
 (
@@ -648,6 +648,12 @@ string
 A
 string
 to
+encode
+to
+UTF
+-
+8
+and
 write
 to
 the
@@ -688,7 +694,7 @@ writeUTF8
 (
 DOMString
 path
-UTF8String
+DOMString
 string
 optional
 WriteOptions
