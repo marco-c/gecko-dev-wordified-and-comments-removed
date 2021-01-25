@@ -106,6 +106,12 @@ Resume
 )
 override
 ;
+bool
+IsPaused
+(
+)
+override
+;
 gl
 :
 :

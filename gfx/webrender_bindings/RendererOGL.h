@@ -348,6 +348,11 @@ Resume
 (
 )
 ;
+bool
+IsPaused
+(
+)
+;
 void
 CheckGraphicsResetStatus
 (

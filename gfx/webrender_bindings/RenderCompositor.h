@@ -852,6 +852,16 @@ FileDescriptor
 )
 ;
 }
+virtual
+bool
+IsPaused
+(
+)
+{
+return
+false
+;
+}
 protected
 :
 RenderedFrameId
