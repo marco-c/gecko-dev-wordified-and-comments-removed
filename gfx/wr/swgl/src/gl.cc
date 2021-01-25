@@ -17730,6 +17730,7 @@ x1
 float
 y1
 ;
+explicit
 ClipRect
 (
 const
@@ -17764,6 +17765,7 @@ y1
 )
 {
 }
+explicit
 ClipRect
 (
 const
