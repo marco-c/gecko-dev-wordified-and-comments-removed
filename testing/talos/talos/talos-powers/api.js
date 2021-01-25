@@ -567,6 +567,9 @@ stackwalk
 "
 threads
 "
+"
+cpu
+"
 ]
 data
 .
