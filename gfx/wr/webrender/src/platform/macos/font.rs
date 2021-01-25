@@ -534,6 +534,17 @@ set_rgb_fill_color
 0
 )
 ;
+objc
+:
+:
+rc
+:
+:
+autoreleasepool
+(
+|
+|
+{
 let
 ct_font
 =
@@ -617,6 +628,9 @@ gray_context
 clone
 (
 )
+)
+;
+}
 )
 ;
 let
