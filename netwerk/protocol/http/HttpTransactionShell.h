@@ -311,6 +311,9 @@ peer
 bool
 &
 aResolvedByTRR
+bool
+&
+aEchConfigUsed
 )
 =
 0
@@ -573,10 +576,7 @@ TakeRestartedState
 0
 ;
 virtual
-Maybe
-<
 uint32_t
->
 HTTPSSVCReceivedStage
 (
 )
@@ -779,7 +779,11 @@ peer
 bool
 &
 aResolvedByTRR
+bool
+&
+aEchConfigUsed
 )
+\
 override
 ;
 \
@@ -1043,10 +1047,7 @@ override
 ;
 \
 virtual
-Maybe
-<
 uint32_t
->
 HTTPSSVCReceivedStage
 (
 )

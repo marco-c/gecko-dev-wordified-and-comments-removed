@@ -101,6 +101,9 @@ peerAddr
 bool
 resolvedByTRR
 ;
+bool
+echConfigUsed
+;
 }
 ;
 refcounted
@@ -140,7 +143,6 @@ dataToChildProcess
 bool
 restarted
 uint32_t
-?
 HTTPSSVCReceivedStage
 bool
 supportsHttp3
