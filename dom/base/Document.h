@@ -5205,6 +5205,12 @@ nsIGlobalObject
 aGlobal
 )
 ;
+bool
+CrossOriginIsolated
+(
+)
+const
+;
 nsPIDOMWindowOuter
 *
 GetWindow
