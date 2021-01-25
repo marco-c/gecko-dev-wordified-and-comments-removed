@@ -97,10 +97,8 @@ UpdateReadyState
 ;
 virtual
 void
-FireTimeUpdate
+MaybeQueueTimeupdateEvent
 (
-bool
-aPeriodic
 )
 =
 0
