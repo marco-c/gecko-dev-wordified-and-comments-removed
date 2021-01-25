@@ -2089,6 +2089,9 @@ Ok
 (
 Self
 {
+selected_index
+:
+0
 items
 :
 items
