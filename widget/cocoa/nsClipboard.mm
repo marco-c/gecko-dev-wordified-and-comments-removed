@@ -1118,6 +1118,9 @@ stringData
 getBytes
 :
 clipboardDataPtr
+length
+:
+dataLength
 ]
 ;
 int32_t
@@ -1337,6 +1340,9 @@ pasteboardData
 getBytes
 :
 clipboardDataPtr
+length
+:
+dataLength
 ]
 ;
 nsCOMPtr

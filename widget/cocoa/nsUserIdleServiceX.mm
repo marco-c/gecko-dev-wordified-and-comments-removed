@@ -260,6 +260,12 @@ getBytes
 :
 &
 time
+length
+:
+sizeof
+(
+time
+)
 ]
 ;
 else
