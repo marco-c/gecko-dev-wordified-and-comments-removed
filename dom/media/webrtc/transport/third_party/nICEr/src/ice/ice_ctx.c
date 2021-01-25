@@ -425,6 +425,8 @@ servers
 i
 ]
 .
+u
+.
 addr
 )
 )
@@ -432,6 +434,15 @@ ABORT
 (
 r
 )
+;
+servers
+[
+i
+]
+.
+type
+=
+NR_ICE_STUN_SERVER_TYPE_ADDR
 ;
 RFREE
 (
@@ -1291,6 +1302,8 @@ i
 ]
 .
 turn_server
+.
+u
 .
 addr
 )
