@@ -326,6 +326,10 @@ mRefreshTimerNeedsVsync
 (
 false
 )
+mHasGenericObservers
+(
+false
+)
 {
 MOZ_ASSERT
 (
@@ -433,6 +437,9 @@ return
 bool
 dispatchToMainThread
 =
+mHasGenericObservers
+&
+&
 (
 mLastVsyncIdSentToMainThread
 =
@@ -1132,6 +1139,15 @@ IsEmpty
 mRefreshTimerNeedsVsync
 |
 |
+!
+mGenericObservers
+.
+IsEmpty
+(
+)
+;
+mHasGenericObservers
+=
 !
 mGenericObservers
 .

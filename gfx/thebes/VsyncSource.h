@@ -322,6 +322,9 @@ mLastVsyncIdSentToMainThread
 VsyncId
 mLastMainThreadProcessedVsyncId
 ;
+bool
+mHasGenericObservers
+;
 }
 ;
 void
