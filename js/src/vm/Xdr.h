@@ -3793,7 +3793,7 @@ XDRIncrementalEncoderBase
 using
 FunctionKey
 =
-uint64_t
+uint32_t
 ;
 HashSet
 <
