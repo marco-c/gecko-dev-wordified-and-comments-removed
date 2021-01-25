@@ -4604,6 +4604,7 @@ Deserialize
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -4667,6 +4668,14 @@ Deserialize
 repr
 (
 C
+)
+]
+#
+[
+derive
+(
+Clone
+Debug
 )
 ]
 pub
