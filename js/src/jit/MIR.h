@@ -42369,6 +42369,10 @@ MIRType
 Value
 )
 ;
+setGuard
+(
+)
+;
 }
 public
 :
@@ -42539,6 +42543,10 @@ MIRType
 :
 :
 Value
+)
+;
+setGuard
+(
 )
 ;
 }
@@ -42852,6 +42860,10 @@ MIRType
 :
 :
 Boolean
+)
+;
+setGuard
+(
 )
 ;
 }
