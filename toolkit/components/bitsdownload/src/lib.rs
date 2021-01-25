@@ -24,10 +24,6 @@ crossbeam_utils
 ;
 extern
 crate
-failure
-;
-extern
-crate
 libc
 ;
 extern

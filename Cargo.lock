@@ -1968,12 +1968,6 @@ bits
 comedy
 "
 "
-failure
-"
-"
-failure_derive
-"
-"
 guid_win
 "
 "
@@ -1987,6 +1981,9 @@ regex
 "
 "
 tempfile
+"
+"
+thiserror
 "
 ]
 [
@@ -2026,12 +2023,6 @@ utils
 6
 .
 5
-"
-"
-failure
-"
-"
-failure_derive
 "
 "
 libc
