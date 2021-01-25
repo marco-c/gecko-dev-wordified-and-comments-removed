@@ -11343,15 +11343,6 @@ file
 "
 |
 |
-(
-StaticPrefs
-:
-:
-extensions_backgroundServiceWorker_enabled_AtStartup
-(
-)
-&
-&
 scheme
 =
 =
@@ -11360,7 +11351,6 @@ moz
 -
 extension
 "
-)
 )
 ;
 #
