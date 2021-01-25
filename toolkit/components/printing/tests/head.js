@@ -1500,7 +1500,7 @@ this
 .
 _tabDialogBox
 .
-getTabDialogManager
+getManager
 (
 )
 ;
@@ -1515,9 +1515,7 @@ this
 .
 _tabDialogBox
 .
-getTabDialogManager
-(
-)
+_dialogManager
 .
 _dialogs
 ;
