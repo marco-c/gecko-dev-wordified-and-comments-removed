@@ -433,6 +433,7 @@ nsIGlobalObject
 >
 mGlobal
 ;
+const
 UniquePtr
 <
 mozilla
