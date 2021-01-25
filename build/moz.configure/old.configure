@@ -1303,6 +1303,16 @@ old_configure
 in
 "
 ]
+cwd
+=
+os
+.
+path
+.
+dirname
+(
+old_configure
+)
 env
 =
 env
