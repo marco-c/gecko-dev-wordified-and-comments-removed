@@ -45956,6 +45956,7 @@ nsLayoutUtils
 :
 GetSelectionBoundingRect
 (
+const
 Selection
 *
 aSel

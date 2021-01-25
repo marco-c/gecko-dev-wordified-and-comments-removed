@@ -6012,6 +6012,7 @@ static
 nsRect
 GetSelectionBoundingRect
 (
+const
 mozilla
 :
 :
