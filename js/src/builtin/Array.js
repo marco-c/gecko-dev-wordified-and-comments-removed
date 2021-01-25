@@ -4032,3 +4032,8 @@ k
 ]
 ;
 }
+_SetIsInlinableLargeFunction
+(
+ArrayAt
+)
+;

@@ -328,6 +328,12 @@ HadSpeculativePhiBailout
 <
 <
 26
+IsInlinableLargeFunction
+=
+1
+<
+<
+27
 }
 ;
 }
