@@ -129,6 +129,12 @@ nsIInterfaceRequestor
 aCallbacks
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 *
 aCallbacks
 =
@@ -155,6 +161,12 @@ nsIInterfaceRequestor
 aCallbacks
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 mCallbacks
 =
 aCallbacks
@@ -341,6 +353,13 @@ GetPort
 return
 NS_OK
 ;
+{
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 if
 (
 !
@@ -358,6 +377,7 @@ npnProtocol
 return
 NS_OK
 ;
+}
 IsAcceptableForHost
 (
 hostname
@@ -837,6 +857,7 @@ Now
 enforceTestMode
 GetOriginAttributes
 (
+lock
 )
 chainHasValidPins
 nullptr
