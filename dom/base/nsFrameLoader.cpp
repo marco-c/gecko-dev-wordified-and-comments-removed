@@ -17906,6 +17906,14 @@ if
 isContent
 &
 &
+mPendingBrowsingContext
+-
+>
+IsTop
+(
+)
+&
+&
 mOwnerContent
 -
 >
