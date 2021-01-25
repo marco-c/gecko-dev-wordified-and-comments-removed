@@ -1452,11 +1452,6 @@ message_id
 message
 .
 id
-bucket_id
-:
-message
-.
-id
 event
 }
 )
