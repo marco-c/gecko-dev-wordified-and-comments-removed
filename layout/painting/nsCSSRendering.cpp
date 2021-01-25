@@ -9388,6 +9388,10 @@ aLayer
 ]
 .
 mImage
+.
+FinalImage
+(
+)
 ;
 if
 (
