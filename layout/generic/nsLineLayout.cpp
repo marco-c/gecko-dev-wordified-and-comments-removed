@@ -10267,9 +10267,9 @@ mPresContext
 CompatibilityMode
 (
 )
+!
 =
-=
-eCompatibility_NavQuirks
+eCompatibility_FullStandards
 )
 {
 pfd
