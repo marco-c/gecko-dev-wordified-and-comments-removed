@@ -255,7 +255,7 @@ XRE_IsContentProcess
 StaticPrefs
 :
 :
-dom_input_events_canSuspendInBCG_enabled_AtStartup
+dom_input_events_canSuspendInBCG_enabled
 (
 )
 &
