@@ -2265,6 +2265,8 @@ dom
 :
 CallerType
 aCallerType
+uint64_t
+aActionId
 )
 ;
 nsresult
@@ -4583,13 +4585,6 @@ TaskCategory
 aCategory
 )
 override
-;
-private
-:
-bool
-IsPopupAllowed
-(
-)
 ;
 protected
 :
