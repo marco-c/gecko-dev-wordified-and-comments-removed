@@ -38,6 +38,14 @@ allow
 ellipsis_inclusive_range_patterns
 )
 ]
+#
+!
+[
+allow
+(
+warnings
+)
+]
 use
 std
 :
