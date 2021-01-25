@@ -1,3 +1,10 @@
+parameters
+:
+pyflag
+:
+-
+-
+py3
 steps
 :
 #
@@ -21,9 +28,13 @@ script
 :
 python
 wpt
--
--
-py2
+{
+{
+parameters
+.
+pyflag
+}
+}
 manifest
 displayName
 :

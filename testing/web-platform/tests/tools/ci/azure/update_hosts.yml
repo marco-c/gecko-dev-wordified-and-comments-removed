@@ -1,3 +1,10 @@
+parameters
+:
+pyflag
+:
+-
+-
+py3
 steps
 :
 -
@@ -87,9 +94,13 @@ back
 Force
 python
 wpt
--
--
-py2
+{
+{
+parameters
+.
+pyflag
+}
+}
 make
 -
 hosts
