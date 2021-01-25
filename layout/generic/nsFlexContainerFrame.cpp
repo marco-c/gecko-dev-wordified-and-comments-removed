@@ -6100,6 +6100,8 @@ Size
 itemWM
 )
 {
+}
+{
 ComputeSizeFlag
 :
 :
