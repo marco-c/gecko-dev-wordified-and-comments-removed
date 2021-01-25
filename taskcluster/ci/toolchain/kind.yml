@@ -194,12 +194,6 @@ grcov
 .
 yml
 -
-llvm
--
-symbolizer
-.
-yml
--
 mingw
 .
 yml

@@ -78,9 +78,9 @@ LLVM_SYMBOLIZER
 MOZ_FETCHES_DIR
 }
 /
-llvm
--
-symbolizer
+clang
+/
+bin
 /
 llvm
 -

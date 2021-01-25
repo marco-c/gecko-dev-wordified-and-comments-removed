@@ -579,12 +579,6 @@ linux64
 -
 sccache
 -
-macosx64
--
-llvm
--
-symbolizer
--
 wasi
 -
 sysroot
@@ -1097,6 +1091,8 @@ linux64
 clang
 -
 macosx
+-
+aarch64
 -
 cross
 -
@@ -2702,6 +2698,8 @@ linux64
 clang
 -
 macosx
+-
+aarch64
 -
 cross
 -
