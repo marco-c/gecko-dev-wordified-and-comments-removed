@@ -31473,7 +31473,7 @@ argumentId
 ;
 writer
 .
-indirectTruncateInt32Result
+loadInt32Result
 (
 intId
 )
@@ -31661,7 +31661,7 @@ argumentId
 ;
 writer
 .
-indirectTruncateInt32Result
+loadInt32Result
 (
 intId
 )
@@ -31849,7 +31849,7 @@ argumentId
 ;
 writer
 .
-indirectTruncateInt32Result
+loadInt32Result
 (
 intId
 )
