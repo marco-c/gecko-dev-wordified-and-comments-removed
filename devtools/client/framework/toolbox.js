@@ -12445,6 +12445,13 @@ _onWillNavigate
 {
 this
 .
+setErrorCount
+(
+0
+)
+;
+this
+.
 updateToolboxButtons
 (
 )
