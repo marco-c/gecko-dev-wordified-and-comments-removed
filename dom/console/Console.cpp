@@ -8045,6 +8045,9 @@ MethodGroup
 case
 MethodGroupCollapsed
 :
+case
+MethodTrace
+:
 event
 .
 mArguments
