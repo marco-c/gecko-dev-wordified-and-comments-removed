@@ -44555,6 +44555,9 @@ plugins
 :
 [
 "
+classProperties
+"
+"
 objectRestSpread
 "
 "

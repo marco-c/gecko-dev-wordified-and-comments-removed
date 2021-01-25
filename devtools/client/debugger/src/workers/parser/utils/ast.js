@@ -123,6 +123,9 @@ plugins
 :
 [
 "
+classProperties
+"
+"
 objectRestSpread
 "
 "
