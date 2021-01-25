@@ -2423,6 +2423,16 @@ GetFrameStatistics
 const
 override
 ;
+void
+DispatchAsyncTestingEvent
+(
+const
+nsAString
+&
+aName
+)
+override
+;
 AbstractThread
 *
 AbstractMainThread
