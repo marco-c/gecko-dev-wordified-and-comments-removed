@@ -2179,6 +2179,13 @@ uint8_t
 aAttrEnum
 )
 ;
+void
+SetUnknownValue
+(
+uint8_t
+aAttrEnum
+)
+;
 }
 ;
 struct
