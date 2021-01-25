@@ -306,6 +306,16 @@ mForms
 ;
 }
 bool
+IsPlainText
+(
+)
+const
+{
+return
+mIsPlainText
+;
+}
+bool
 ResolveName
 (
 JSContext
