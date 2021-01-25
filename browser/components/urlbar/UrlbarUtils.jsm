@@ -4451,6 +4451,15 @@ type
 string
 "
 }
+shouldNavigate
+:
+{
+type
+:
+"
+boolean
+"
+}
 }
 }
 }
