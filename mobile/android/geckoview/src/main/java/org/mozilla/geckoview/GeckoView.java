@@ -915,6 +915,11 @@ mDynamicToolbarMaxHeight
 =
 height
 ;
+setVerticalClipping
+(
+0
+)
+;
 if
 (
 mDisplay
