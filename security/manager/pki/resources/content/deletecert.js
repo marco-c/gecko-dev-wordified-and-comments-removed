@@ -4,9 +4,9 @@ strict
 "
 ;
 function
-getLabelForCertTreeItem
+getLabelForCertToDelete
 (
-certTreeItem
+certToDelete
 )
 {
 let
@@ -24,7 +24,7 @@ label
 let
 cert
 =
-certTreeItem
+certToDelete
 .
 cert
 ;
@@ -41,7 +41,7 @@ setAttribute
 "
 value
 "
-certTreeItem
+certToDelete
 .
 hostPort
 )
@@ -324,7 +324,7 @@ certlist
 )
 ;
 let
-certTreeItems
+certsToDelete
 =
 window
 .
@@ -336,9 +336,9 @@ arguments
 for
 (
 let
-certTreeItem
+certToDelete
 of
-certTreeItems
+certsToDelete
 )
 {
 let
@@ -356,9 +356,9 @@ richlistitem
 let
 label
 =
-getLabelForCertTreeItem
+getLabelForCertToDelete
 (
-certTreeItem
+certToDelete
 )
 ;
 listItem
