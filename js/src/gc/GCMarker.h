@@ -963,6 +963,7 @@ IterativeMarking
 ;
 class
 GCMarker
+final
 :
 public
 JSTracer

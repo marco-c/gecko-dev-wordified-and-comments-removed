@@ -87,8 +87,8 @@ class
 TracerKind
 {
 Marking
-Tenuring
 Generic
+Tenuring
 Moving
 GrayBuffering
 ClearEdges
