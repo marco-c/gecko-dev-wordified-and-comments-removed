@@ -5848,9 +5848,9 @@ JSContext
 cx
 HandleObject
 buffer
-uint32_t
+size_t
 byteOffset
-int32_t
+size_t
 byteLength
 )
 {
@@ -5918,7 +5918,7 @@ cargs
 2
 ]
 .
-setInt32
+setNumber
 (
 byteLength
 )
