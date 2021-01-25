@@ -689,6 +689,13 @@ MaxContent
 ;
 }
 }
+const
+LogicalSize
+zeroSize
+(
+aWM
+)
+;
 if
 (
 maxISize
@@ -714,8 +721,9 @@ aFrame
 ComputeISizeValue
 (
 aRenderingContext
-0
-0
+aWM
+zeroSize
+zeroSize
 0
 maxISize
 )
@@ -886,8 +894,9 @@ aFrame
 ComputeISizeValue
 (
 aRenderingContext
-0
-0
+aWM
+zeroSize
+zeroSize
 0
 minISize
 )
