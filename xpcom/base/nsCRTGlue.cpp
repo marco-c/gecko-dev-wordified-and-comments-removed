@@ -1661,10 +1661,7 @@ _fdopen
 (
 _dup
 (
-_fileno
-(
-stderr
-)
+2
 )
 "
 a
