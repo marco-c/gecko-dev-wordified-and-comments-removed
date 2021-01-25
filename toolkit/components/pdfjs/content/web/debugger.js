@@ -672,7 +672,6 @@ url
 (
 [
 ^
-\
 )
 "
 '
@@ -2477,15 +2476,6 @@ fnArray
 length
 )
 {
-line
-=
-c
-(
-"
-tr
-"
-)
-;
 var
 lastCell
 =

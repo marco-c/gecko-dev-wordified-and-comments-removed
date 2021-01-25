@@ -47,6 +47,11 @@ enablePrintAutoRotate
 :
 false
 "
+enableScripting
+"
+:
+false
+"
 enableWebGL
 "
 :
@@ -111,6 +116,11 @@ useOnlyCssZoom
 "
 :
 false
+"
+viewerCssTheme
+"
+:
+0
 "
 viewOnLoad
 "
