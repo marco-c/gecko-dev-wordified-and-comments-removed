@@ -766,6 +766,17 @@ mDT
 return
 ;
 }
+wr_swgl_init_default_framebuffer
+(
+mContext
+0
+0
+0
+0
+0
+nullptr
+)
+;
 MOZ_ASSERT
 (
 mMappedData
