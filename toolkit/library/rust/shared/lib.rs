@@ -438,10 +438,10 @@ gecko_logger
 [
 cfg
 (
-target_os
+feature
 =
 "
-linux
+oxidized_breakpad
 "
 )
 ]

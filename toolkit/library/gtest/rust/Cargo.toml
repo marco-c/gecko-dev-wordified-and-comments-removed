@@ -402,6 +402,17 @@ shared
 thread_sanitizer
 "
 ]
+oxidized_breakpad
+=
+[
+"
+gkrust
+-
+shared
+/
+oxidized_breakpad
+"
+]
 [
 dependencies
 ]
