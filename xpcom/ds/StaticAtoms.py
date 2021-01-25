@@ -14760,6 +14760,16 @@ lighten
 Atom
 (
 "
+lighter
+"
+"
+lighter
+"
+)
+    
+Atom
+(
+"
 lighting_color
 "
 "

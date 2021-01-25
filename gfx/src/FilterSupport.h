@@ -492,6 +492,13 @@ SVG_FECOMPOSITE_OPERATOR_ARITHMETIC
 =
 6
 ;
+const
+unsigned
+short
+SVG_FECOMPOSITE_OPERATOR_LIGHTER
+=
+7
+;
 struct
 FilterAttribute
 ;
