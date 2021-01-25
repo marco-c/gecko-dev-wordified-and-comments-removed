@@ -659,6 +659,16 @@ client_info
 fog
 :
 :
+pings
+:
+:
+register_pings
+(
+)
+;
+fog
+:
+:
 metrics
 :
 :
