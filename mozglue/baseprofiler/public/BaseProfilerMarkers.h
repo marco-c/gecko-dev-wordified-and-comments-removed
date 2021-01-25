@@ -593,12 +593,6 @@ SetChartLabel
 {
 marker
 .
-name
-}
--
-{
-marker
-.
 data
 .
 name
