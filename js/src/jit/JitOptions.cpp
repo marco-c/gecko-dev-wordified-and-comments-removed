@@ -437,6 +437,12 @@ true
 ;
 SET_DEFAULT
 (
+disableBailoutLoopCheck
+false
+)
+;
+SET_DEFAULT
+(
 baselineInterpreter
 true
 )
