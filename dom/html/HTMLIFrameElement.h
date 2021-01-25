@@ -16,6 +16,13 @@ h
 #
 include
 "
+nsGenericHTMLElement
+.
+h
+"
+#
+include
+"
 nsGenericHTMLFrameElement
 .
 h
@@ -33,6 +40,9 @@ mozilla
 namespace
 dom
 {
+class
+FeaturePolicy
+;
 class
 HTMLIFrameElement
 final
