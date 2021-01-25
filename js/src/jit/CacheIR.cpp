@@ -11471,6 +11471,12 @@ toNumber
 &
 indexInt32
 )
+&
+&
+indexInt32
+>
+=
+0
 )
 {
 uint32_t
