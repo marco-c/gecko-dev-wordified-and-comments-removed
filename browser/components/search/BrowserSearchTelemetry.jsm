@@ -71,6 +71,20 @@ PrivateBrowsingUtils
 .
 jsm
 "
+SearchSERPTelemetry
+:
+"
+resource
+:
+/
+/
+/
+modules
+/
+SearchSERPTelemetry
+.
+jsm
+"
 Services
 :
 "
@@ -182,6 +196,10 @@ webextension
 class
 BrowserSearchTelemetryHandler
 {
+KNOWN_SEARCH_SOURCES
+=
+KNOWN_SEARCH_SOURCES
+;
 shouldRecordSearchCount
 (
 browser
@@ -740,6 +758,7 @@ this
 .
 _handleSearchAndUrlbar
 (
+browser
 engine
 source
 details
@@ -761,6 +780,7 @@ this
 .
 _recordSearch
 (
+browser
 engine
 details
 .
@@ -779,6 +799,7 @@ this
 .
 _recordSearch
 (
+browser
 engine
 details
 .
@@ -806,6 +827,7 @@ ex
 }
 _handleSearchAndUrlbar
 (
+browser
 engine
 source
 details
@@ -888,6 +910,7 @@ this
 .
 _recordSearch
 (
+browser
 engine
 details
 .
@@ -899,6 +922,7 @@ action
 }
 _recordSearch
 (
+browser
 engine
 url
 source
@@ -936,6 +960,14 @@ KNOWN_SEARCH_SOURCES
 get
 (
 source
+)
+;
+SearchSERPTelemetry
+.
+recordBrowserSource
+(
+browser
+scalarSource
 )
 ;
 let

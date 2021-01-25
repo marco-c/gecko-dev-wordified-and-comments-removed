@@ -2945,6 +2945,14 @@ contextmenu
 webextension
 -
 system
+Indicates
+a
+search
+from
+the
+command
+line
+.
 Recorded
 actions
 may
