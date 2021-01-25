@@ -306,7 +306,7 @@ eNoLiveAttr
 eTableCell
 kNoReqStates
 eARIASelectableIfDefined
-eARIAReadonlyOrEditableIfDefined
+eARIAReadonly
 }
 {
 nsGkAtoms
@@ -1206,7 +1206,7 @@ eSelect
 eTable
 kNoReqStates
 eARIAMultiSelectable
-eARIAReadonlyOrEditable
+eARIAReadonly
 eFocusableUntilDisabled
 }
 {
@@ -1225,7 +1225,7 @@ eNoLiveAttr
 eTableCell
 kNoReqStates
 eARIASelectable
-eARIAReadonlyOrEditableIfDefined
+eARIAReadonly
 }
 {
 nsGkAtoms
@@ -1777,7 +1777,7 @@ eNoLiveAttr
 eTableCell
 kNoReqStates
 eARIASelectableIfDefined
-eARIAReadonlyOrEditableIfDefined
+eARIAReadonly
 }
 {
 nsGkAtoms
@@ -2142,7 +2142,7 @@ eSelect
 |
 eTable
 kNoReqStates
-eARIAReadonlyOrEditable
+eARIAReadonly
 eARIAMultiSelectable
 eFocusableUntilDisabled
 eARIAOrientation
