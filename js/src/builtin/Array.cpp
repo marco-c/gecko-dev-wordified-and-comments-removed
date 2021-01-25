@@ -19752,14 +19752,6 @@ proto
 )
 ;
 }
-MOZ_ASSERT
-(
-newKind
-!
-=
-SingletonObject
-)
-;
 if
 (
 isCachable

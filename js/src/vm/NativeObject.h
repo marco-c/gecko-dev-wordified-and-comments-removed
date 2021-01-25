@@ -3750,17 +3750,6 @@ jsid
 id
 )
 ;
-static
-void
-clear
-(
-JSContext
-*
-cx
-HandleNativeObject
-obj
-)
-;
 protected
 :
 static

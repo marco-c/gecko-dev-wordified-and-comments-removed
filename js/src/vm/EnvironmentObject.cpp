@@ -749,17 +749,6 @@ HandleObjectGroup
 group
 )
 {
-MOZ_ASSERT
-(
-!
-group
--
->
-singleton
-(
-)
-)
-;
 gc
 :
 :

@@ -2297,17 +2297,6 @@ lambda
 )
 ;
 }
-MOZ_ASSERT
-(
-!
-fun
--
->
-isSingleton
-(
-)
-)
-;
 if
 (
 !
