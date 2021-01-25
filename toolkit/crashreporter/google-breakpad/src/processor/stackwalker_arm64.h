@@ -175,6 +175,15 @@ StackFrameARM64
 last_frame
 )
 ;
+bool
+ValidInstructionPointerInFrame
+(
+const
+StackFrameARM64
+&
+frame
+)
+;
 const
 MDRawContextARM64
 *
