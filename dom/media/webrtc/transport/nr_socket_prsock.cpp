@@ -2598,7 +2598,7 @@ if
 (
 my_addr_
 .
-tls_host
+fqdn
 [
 0
 ]
