@@ -400,10 +400,6 @@ HeadersGuardEnum
 Response
 )
 ;
-SetMimeType
-(
-)
-;
 mozilla
 :
 :
@@ -2024,13 +2020,6 @@ nullptr
 ;
 }
 }
-r
--
->
-SetMimeType
-(
-)
-;
 return
 r
 .

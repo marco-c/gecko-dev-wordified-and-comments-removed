@@ -366,10 +366,6 @@ HeadersGuardEnum
 Request_no_cors
 )
 ;
-SetMimeType
-(
-)
-;
 if
 (
 aSignal
@@ -3416,13 +3412,6 @@ move
 request
 )
 signal
-)
-;
-domRequest
--
->
-SetMimeType
-(
 )
 ;
 if
