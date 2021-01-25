@@ -33469,9 +33469,6 @@ flags
 uint16_t
 nargs
 ;
-bool
-singletonType
-;
 LambdaFunctionInfo
 (
 JSFunction
@@ -33484,8 +33481,6 @@ FunctionFlags
 flags
 uint16_t
 nargs
-bool
-singletonType
 )
 :
 fun_
@@ -33503,10 +33498,6 @@ flags
 nargs
 (
 nargs
-)
-singletonType
-(
-singletonType
 )
 {
 }
@@ -33548,12 +33539,6 @@ nargs
 other
 .
 nargs
-)
-singletonType
-(
-other
-.
-singletonType
 )
 {
 }
