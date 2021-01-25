@@ -283,14 +283,6 @@ must_use
 ]
 readonly
 attribute
-boolean
-isSelfSigned
-;
-[
-must_use
-]
-readonly
-attribute
 AString
 keyUsages
 ;

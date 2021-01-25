@@ -244,13 +244,6 @@ certB
 )
 )
 ;
-ok
-(
-certA
-.
-isSelfSigned
-)
-;
 equal
 (
 certA
