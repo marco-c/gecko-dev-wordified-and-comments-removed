@@ -355,7 +355,7 @@ runtime
 }
 ;
 struct
-ChunkInfo
+TenuredChunkInfo
 {
 void
 init
@@ -428,7 +428,7 @@ ChunkHeader
 -
 sizeof
 (
-ChunkInfo
+TenuredChunkInfo
 )
 )
 *
@@ -453,7 +453,7 @@ ChunkHeader
 +
 sizeof
 (
-ChunkInfo
+TenuredChunkInfo
 )
 +
 RoundUp
@@ -605,7 +605,7 @@ Black
 }
 ;
 struct
-ChunkBitmap
+MarkBitmap
 {
 static
 constexpr
@@ -757,12 +757,12 @@ ArenasPerChunk
 =
 sizeof
 (
-ChunkBitmap
+MarkBitmap
 )
 "
 Ensure
 our
-ChunkBitmap
+MarkBitmap
 actually
 covers
 all
@@ -772,7 +772,7 @@ arenas
 )
 ;
 using
-PerArenaBitmap
+DecommitBitmap
 =
 mozilla
 :
@@ -784,20 +784,20 @@ uint32_t
 >
 ;
 class
-ChunkBase
+TenuredChunkBase
 {
 public
 :
 ChunkHeader
 header
 ;
-ChunkInfo
+TenuredChunkInfo
 info
 ;
-ChunkBitmap
-bitmap
+MarkBitmap
+markBits
 ;
-PerArenaBitmap
+DecommitBitmap
 decommittedArenas
 ;
 }
@@ -838,7 +838,7 @@ sizeof
 gc
 :
 :
-ChunkBase
+TenuredChunkBase
 )
 ArenaSize
 )
@@ -874,7 +874,7 @@ ChunkRuntimeOffset
 =
 offsetof
 (
-ChunkBase
+TenuredChunkBase
 header
 )
 +
@@ -890,7 +890,7 @@ ChunkStoreBufferOffset
 =
 offsetof
 (
-ChunkBase
+TenuredChunkBase
 header
 )
 +
@@ -906,8 +906,8 @@ ChunkMarkBitmapOffset
 =
 offsetof
 (
-ChunkBase
-bitmap
+TenuredChunkBase
+markBits
 )
 ;
 const
@@ -2060,7 +2060,7 @@ gc
 {
 MOZ_ALWAYS_INLINE
 void
-ChunkBitmap
+MarkBitmap
 :
 :
 getMarkWordAndMask
@@ -2193,7 +2193,7 @@ ChunkMask
 }
 static
 MOZ_ALWAYS_INLINE
-ChunkBase
+TenuredChunkBase
 *
 GetCellChunkBase
 (
@@ -2211,7 +2211,7 @@ cell
 return
 reinterpret_cast
 <
-ChunkBase
+TenuredChunkBase
 *
 >
 (
@@ -2311,7 +2311,7 @@ grayWord
 uintptr_t
 grayMask
 ;
-ChunkBase
+TenuredChunkBase
 *
 chunk
 =
@@ -2323,7 +2323,7 @@ cell
 chunk
 -
 >
-bitmap
+markBits
 .
 getMarkWordAndMask
 (
@@ -2369,7 +2369,7 @@ blackMask
 chunk
 -
 >
-bitmap
+markBits
 .
 getMarkWordAndMask
 (

@@ -2677,7 +2677,7 @@ void
 updateOnFreeArenaAlloc
 (
 const
-ChunkInfo
+TenuredChunkInfo
 &
 info
 )
@@ -3441,7 +3441,7 @@ lock
 void
 prepareToFreeChunk
 (
-ChunkInfo
+TenuredChunkInfo
 &
 info
 )

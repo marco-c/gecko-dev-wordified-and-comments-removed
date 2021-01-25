@@ -919,7 +919,7 @@ next
 chunk
 -
 >
-bitmap
+markBits
 .
 clear
 (
@@ -2329,7 +2329,7 @@ Chunk
 *
 UniquePtr
 <
-ChunkBitmap
+MarkBitmap
 >
 GCChunkHasher
 SystemAllocPolicy
@@ -2465,7 +2465,7 @@ next
 )
 )
 {
-ChunkBitmap
+MarkBitmap
 *
 bitmap
 =
@@ -2473,14 +2473,14 @@ bitmap
 chunk
 -
 >
-bitmap
+markBits
 ;
 auto
 entry
 =
 MakeUnique
 <
-ChunkBitmap
+MarkBitmap
 >
 (
 )
@@ -2910,7 +2910,7 @@ next
 chunk
 -
 >
-bitmap
+markBits
 .
 clear
 (
@@ -3207,7 +3207,7 @@ next
 )
 )
 {
-ChunkBitmap
+MarkBitmap
 *
 bitmap
 =
@@ -3215,7 +3215,7 @@ bitmap
 chunk
 -
 >
-bitmap
+markBits
 ;
 auto
 ptr
@@ -3239,7 +3239,7 @@ map
 "
 )
 ;
-ChunkBitmap
+MarkBitmap
 *
 entry
 =
@@ -3263,7 +3263,7 @@ i
 ;
 i
 <
-ChunkBitmap
+MarkBitmap
 :
 :
 WordCount
@@ -3603,7 +3603,7 @@ ptr
 continue
 ;
 }
-ChunkBitmap
+MarkBitmap
 *
 bitmap
 =
@@ -3618,7 +3618,7 @@ get
 (
 )
 ;
-ChunkBitmap
+MarkBitmap
 *
 incBitmap
 =
@@ -3626,7 +3626,7 @@ incBitmap
 chunk
 -
 >
-bitmap
+markBits
 ;
 for
 (

@@ -4063,7 +4063,7 @@ GCRuntime
 updateOnFreeArenaAlloc
 (
 const
-ChunkInfo
+TenuredChunkInfo
 &
 info
 )
@@ -4826,7 +4826,7 @@ init
 (
 )
 ;
-bitmap
+markBits
 .
 clear
 (

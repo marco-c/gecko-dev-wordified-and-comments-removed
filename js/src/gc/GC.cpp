@@ -1504,7 +1504,7 @@ chunk
 )
 -
 >
-bitmap
+markBits
 .
 arenaBits
 (
@@ -3696,7 +3696,7 @@ GCRuntime
 :
 prepareToFreeChunk
 (
-ChunkInfo
+TenuredChunkInfo
 &
 info
 )

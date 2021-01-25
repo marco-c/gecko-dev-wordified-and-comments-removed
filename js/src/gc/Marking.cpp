@@ -22161,7 +22161,7 @@ wordp
 uintptr_t
 mask
 ;
-ChunkBase
+TenuredChunkBase
 *
 chunk
 =
@@ -22185,7 +22185,7 @@ asTenured
 chunk
 -
 >
-bitmap
+markBits
 .
 getMarkWordAndMask
 (
@@ -22281,7 +22281,7 @@ wordp
 uintptr_t
 mask
 ;
-ChunkBase
+TenuredChunkBase
 *
 chunk
 =
@@ -22305,7 +22305,7 @@ asTenured
 chunk
 -
 >
-bitmap
+markBits
 .
 getMarkWordAndMask
 (
