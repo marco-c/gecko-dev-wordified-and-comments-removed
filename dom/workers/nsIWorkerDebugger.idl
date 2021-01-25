@@ -174,14 +174,6 @@ window
 ;
 readonly
 attribute
-Array
-<
-uint64_t
->
-windowIDs
-;
-readonly
-attribute
 nsIPrincipal
 principal
 ;
