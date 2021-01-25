@@ -5190,9 +5190,6 @@ args
 obj
 :
 ObjId
-getter
-:
-ObjectField
 -
 name
 :

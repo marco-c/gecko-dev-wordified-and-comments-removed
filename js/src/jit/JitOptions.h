@@ -135,9 +135,6 @@ bool
 runExtraChecks
 ;
 bool
-disableInlineBacktracking
-;
-bool
 disableAma
 ;
 bool

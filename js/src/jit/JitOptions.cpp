@@ -359,12 +359,6 @@ false
 ;
 SET_DEFAULT
 (
-disableInlineBacktracking
-false
-)
-;
-SET_DEFAULT
-(
 disableAma
 false
 )

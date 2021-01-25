@@ -397,11 +397,6 @@ GenerateCode
 \
 _
 (
-IonBuilderRestartLoop
-)
-\
-_
-(
 VMSpecific
 )
 #

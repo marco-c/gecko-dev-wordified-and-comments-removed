@@ -1901,7 +1901,8 @@ jitRuntime_
 for
 (
 auto
-builder
+*
+task
 :
 jitRuntime_
 -
@@ -1918,7 +1919,7 @@ rtSizes
 jitLazyLink
 +
 =
-builder
+task
 -
 >
 sizeOfExcludingThis

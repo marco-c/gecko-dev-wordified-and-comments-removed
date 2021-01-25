@@ -8654,8 +8654,6 @@ writer
 loadTypedArrayLengthResult
 (
 objId
-&
-fun
 )
 ;
 writer
@@ -37966,7 +37964,6 @@ writer
 loadTypedArrayLengthResult
 (
 objArgId
-callee
 )
 ;
 writer

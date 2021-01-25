@@ -1209,13 +1209,6 @@ TraceLogger_Scripts
 =
 true
 ;
-enabledTextIds
-[
-TraceLogger_IonBuilderRestartLoop
-]
-=
-true
-;
 }
 void
 TraceLoggerThreadState
@@ -6110,7 +6103,6 @@ n
 "
 GenerateCode
 Scripts
-IonBuilderRestartLoop
 \
 n
 "
