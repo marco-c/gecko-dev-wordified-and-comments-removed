@@ -826,8 +826,8 @@ boolean
 getAllowsInline
 (
 in
-nsContentPolicyType
-aContentPolicyType
+nsIContentSecurityPolicy_CSPDirective
+aDirective
 in
 AString
 aNonce
