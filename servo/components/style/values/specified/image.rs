@@ -937,6 +937,7 @@ CorsMode
 :
 :
 None
+true
 )
 }
 }
@@ -970,6 +971,9 @@ t
 cors_mode
 :
 CorsMode
+allow_none
+:
+bool
 )
 -
 >
@@ -984,6 +988,9 @@ i
 >
 {
 if
+allow_none
+&
+&
 input
 .
 try_parse
@@ -1607,6 +1614,7 @@ CorsMode
 :
 :
 Anonymous
+true
 )
 }
 }
@@ -1886,6 +1894,7 @@ parse_with_cors_mode
 context
 input
 cors_mode
+false
 )
 )
 {
@@ -2203,10 +2212,12 @@ Err
 Image
 :
 :
-parse
+parse_with_cors_mode
 (
 context
 input
+cors_mode
+false
 )
 ?
 }
