@@ -1579,9 +1579,14 @@ length
 int32_t
 newLen
 =
+nsHtml5Portability
+:
+:
+checkedAdd
+(
 strBufLen
-+
 length
+)
 ;
 MOZ_ASSERT
 (

@@ -2790,6 +2790,8 @@ handleCharInAttributeValue
 int
 c
 )
+throws
+SAXException
 {
 if
 (
@@ -2916,6 +2918,8 @@ addToBuffer
 int
 c
 )
+throws
+SAXException
 {
 if
 (
@@ -2935,10 +2939,13 @@ newBuf
 new
 char
 [
+Portability
+.
+checkedAdd
+(
 strBuf
 .
 length
-+
 (
 strBuf
 .
@@ -2946,6 +2953,7 @@ length
 <
 <
 1
+)
 )
 ]
 ;

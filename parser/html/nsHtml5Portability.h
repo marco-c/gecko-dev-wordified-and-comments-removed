@@ -132,6 +132,16 @@ nsHtml5Portability
 public
 :
 static
+int32_t
+checkedAdd
+(
+int32_t
+a
+int32_t
+b
+)
+;
+static
 nsAtom
 *
 newLocalNameFromBuffer

@@ -7,15 +7,6 @@ nsHtml5MetaScanner_h
 #
 include
 "
-mozilla
-/
-Encoding
-.
-h
-"
-#
-include
-"
 nsAtom
 .
 h

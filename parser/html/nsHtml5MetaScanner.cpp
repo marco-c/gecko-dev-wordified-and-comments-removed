@@ -3263,10 +3263,14 @@ int32_t
 :
 newJArray
 (
+nsHtml5Portability
+:
+:
+checkedAdd
+(
 strBuf
 .
 length
-+
 (
 strBuf
 .
@@ -3274,6 +3278,7 @@ length
 <
 <
 1
+)
 )
 )
 ;
