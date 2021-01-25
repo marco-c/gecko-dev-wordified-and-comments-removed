@@ -1201,6 +1201,12 @@ mQuery
 ;
 RefPtr
 <
+ID3D11Query
+>
+mRecycledQuery
+;
+RefPtr
+<
 DeviceAttachmentsD3D11
 >
 mAttachments
