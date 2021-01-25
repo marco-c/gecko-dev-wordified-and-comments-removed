@@ -642,6 +642,9 @@ csvColumnToFieldMap
 }
 )
 ;
+let
+summary
+=
 await
 LoginHelper
 .
@@ -727,5 +730,8 @@ ex
 )
 ;
 }
+return
+summary
+;
 }
 }
