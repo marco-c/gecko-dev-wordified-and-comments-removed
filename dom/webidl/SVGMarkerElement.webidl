@@ -201,6 +201,13 @@ SVG_MARKER_ORIENT_ANGLE
 =
 2
 ;
+const
+unsigned
+short
+SVG_MARKER_ORIENT_AUTO_START_REVERSE
+=
+3
+;
 [
 Constant
 ]
