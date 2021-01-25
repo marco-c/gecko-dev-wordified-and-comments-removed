@@ -2392,6 +2392,13 @@ gridClass
 ruleview
 -
 grid
+js
+-
+toggle
+-
+grid
+-
+highlighter
 "
 shapeClass
 :
