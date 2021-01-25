@@ -165,10 +165,11 @@ else
 raise
 elif
 (
-not
 args
 .
-py2
+py3
+or
+py3only
 )
 and
 sys

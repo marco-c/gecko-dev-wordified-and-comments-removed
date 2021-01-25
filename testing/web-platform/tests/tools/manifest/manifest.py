@@ -1117,10 +1117,6 @@ changed
 =
 True
         
-pool
-=
-None
-        
 if
 parallel
 and
@@ -1296,19 +1292,6 @@ rel_path_parts
 ]
 =
 file_hash
-        
-if
-pool
-is
-not
-None
-:
-            
-pool
-.
-terminate
-(
-)
         
 if
 remaining_manifest_paths

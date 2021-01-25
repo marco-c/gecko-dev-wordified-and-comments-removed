@@ -1053,15 +1053,6 @@ sha
 =
 output
 .
-decode
-(
-"
-utf
--
-8
-"
-)
-.
 split
 (
 )

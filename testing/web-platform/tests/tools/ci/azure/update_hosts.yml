@@ -87,9 +87,6 @@ back
 Force
 python
 wpt
--
--
-py2
 make
 -
 hosts

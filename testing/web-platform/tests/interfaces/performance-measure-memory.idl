@@ -90,7 +90,7 @@ sequence
 <
 DOMString
 >
-types
+userAgentSpecificTypes
 ;
 }
 ;
@@ -130,7 +130,7 @@ Promise
 <
 MemoryMeasurement
 >
-measureUserAgentSpecificMemory
+measureMemory
 (
 )
 ;

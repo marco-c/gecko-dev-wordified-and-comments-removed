@@ -21,9 +21,6 @@ script
 :
 python
 wpt
--
--
-py2
 manifest
 displayName
 :

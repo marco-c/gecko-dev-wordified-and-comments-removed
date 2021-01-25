@@ -2846,7 +2846,6 @@ if
 method
 !
 =
-b
 "
 CONNECT
 "
@@ -2899,7 +2898,6 @@ if
 protocol
 !
 =
-b
 "
 websocket
 "

@@ -2645,9 +2645,6 @@ ci
 ci_wptrunner_infrastructure
 .
 sh
--
--
-py2
 install
 :
 -
@@ -2723,10 +2720,6 @@ base
 trigger
 -
 pr
--
-browser
--
-firefox
 command
 :
 .
@@ -2738,6 +2731,9 @@ ci
 ci_wptrunner_infrastructure
 .
 sh
+-
+-
+py3
 install
 :
 -
@@ -2763,8 +2759,6 @@ killer
 true
 browser
 :
--
-firefox
 -
 chrome
 channel
