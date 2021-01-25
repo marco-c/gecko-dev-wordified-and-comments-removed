@@ -491,7 +491,7 @@ kCollapseToNewPoint
 kMultiRangeSelection
 }
 ;
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 HandleClick
 (
@@ -633,7 +633,7 @@ aSlowCheck
 )
 const
 ;
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 SetDragState
 (
@@ -1121,7 +1121,6 @@ bool
 HasDelayedCaretData
 (
 )
-const
 {
 return
 mDelayedMouseEvent
@@ -1133,7 +1132,6 @@ bool
 IsShiftDownInDelayedCaretData
 (
 )
-const
 {
 NS_ASSERTION
 (
@@ -1159,7 +1157,6 @@ uint32_t
 GetClickCountInDelayedCaretData
 (
 )
-const
 {
 NS_ASSERTION
 (
@@ -1185,7 +1182,6 @@ bool
 MouseDownRecorded
 (
 )
-const
 {
 return
 !
