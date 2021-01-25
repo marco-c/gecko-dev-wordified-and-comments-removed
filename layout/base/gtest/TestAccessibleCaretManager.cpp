@@ -253,7 +253,7 @@ using
 AccessibleCaretManager
 :
 :
-HideCarets
+HideCaretsAndDispatchCaretStateChangedEvent
 ;
 using
 AccessibleCaretManager
@@ -3665,7 +3665,7 @@ updatecarets
 ;
 mManager
 .
-HideCarets
+HideCaretsAndDispatchCaretStateChangedEvent
 (
 )
 ;

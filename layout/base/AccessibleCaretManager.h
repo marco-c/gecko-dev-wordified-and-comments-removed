@@ -386,7 +386,7 @@ Default
 ;
 MOZ_CAN_RUN_SCRIPT
 void
-HideCarets
+HideCaretsAndDispatchCaretStateChangedEvent
 (
 )
 ;
