@@ -142,9 +142,7 @@ dialogs
 =
 dialogBox
 .
-getTabDialogManager
-(
-)
+_dialogManager
 .
 _dialogs
 ;
@@ -316,9 +314,7 @@ dialogs
 =
 dialogBox
 .
-getTabDialogManager
-(
-)
+_dialogManager
 .
 _dialogs
 ;
