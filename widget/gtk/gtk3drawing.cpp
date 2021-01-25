@@ -15324,8 +15324,6 @@ MOZ_GTK_BUTTON
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_HEADER_BAR_BUTTON_CLOSE
 :
@@ -15351,8 +15349,6 @@ flags
 widget
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_CHECKBUTTON
@@ -15389,8 +15385,6 @@ MOZ_GTK_RADIOBUTTON
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_SCROLLBAR_BUTTON
 :
@@ -15407,14 +15401,13 @@ flags
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_SCROLLBAR_HORIZONTAL
 :
 case
 MOZ_GTK_SCROLLBAR_VERTICAL
 :
+{
 if
 (
 flags
@@ -15479,7 +15472,6 @@ direction
 )
 ;
 }
-{
 WidgetNodeType
 trough_widget
 =
@@ -15503,8 +15495,6 @@ rect
 state
 direction
 )
-;
-break
 ;
 }
 case
@@ -15555,8 +15545,6 @@ state
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_SCALE_HORIZONTAL
 :
@@ -15575,8 +15563,6 @@ GtkOrientation
 flags
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_SCALE_THUMB_HORIZONTAL
@@ -15597,8 +15583,6 @@ flags
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_INNER_SPIN_BUTTON
 :
@@ -15611,8 +15595,6 @@ state
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_SPINBUTTON
 :
@@ -15624,8 +15606,6 @@ rect
 state
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_SPINBUTTON_UP
@@ -15647,8 +15627,6 @@ MOZ_GTK_SPINBUTTON_DOWN
 state
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_SPINBUTTON_ENTRY
@@ -15672,9 +15650,7 @@ state
 )
 )
 ;
-gint
-ret
-=
+return
 moz_gtk_entry_paint
 (
 cr
@@ -15684,12 +15660,7 @@ style
 widget
 )
 ;
-return
-ret
-;
 }
-break
-;
 case
 MOZ_GTK_GRIPPER
 :
@@ -15701,8 +15672,6 @@ rect
 state
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_TREEVIEW
@@ -15716,8 +15685,6 @@ state
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_TREE_HEADER_CELL
 :
@@ -15730,8 +15697,6 @@ state
 flags
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_TREE_HEADER_SORTARROW
@@ -15749,8 +15714,6 @@ flags
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_TREEVIEW_EXPANDER
 :
@@ -15766,8 +15729,6 @@ GtkExpanderStyle
 flags
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_ENTRY
@@ -15822,8 +15783,6 @@ state
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_DROPDOWN
 :
@@ -15835,8 +15794,6 @@ rect
 state
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_DROPDOWN_ARROW
@@ -15850,8 +15807,6 @@ state
 flags
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_CHECKBUTTON_CONTAINER
@@ -15868,8 +15823,6 @@ state
 widget
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_CHECKBUTTON_LABEL
@@ -15892,8 +15845,6 @@ MOZ_GTK_RADIOBUTTON_LABEL
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_TOOLBAR
 :
@@ -15905,8 +15856,6 @@ rect
 state
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_TOOLBAR_SEPARATOR
@@ -15920,8 +15869,6 @@ state
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_TOOLTIP
 :
@@ -15933,8 +15880,6 @@ rect
 state
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_FRAME
@@ -15948,8 +15893,6 @@ state
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_RESIZER
 :
@@ -15962,8 +15905,6 @@ state
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_PROGRESSBAR
 :
@@ -15975,8 +15916,6 @@ rect
 state
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_PROGRESS_CHUNK
@@ -15996,8 +15935,6 @@ state
 direction
 widget
 )
-;
-break
 ;
 case
 MOZ_GTK_TAB_TOP
@@ -16019,8 +15956,6 @@ direction
 widget
 )
 ;
-break
-;
 case
 MOZ_GTK_TABPANELS
 :
@@ -16032,8 +15967,6 @@ rect
 state
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_TAB_SCROLLARROW
@@ -16051,8 +15984,6 @@ flags
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_MENUBAR
 :
@@ -16064,8 +15995,6 @@ rect
 state
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_MENUPOPUP
@@ -16079,8 +16008,6 @@ state
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_MENUSEPARATOR
 :
@@ -16092,8 +16019,6 @@ rect
 state
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_MENUBARITEM
@@ -16111,8 +16036,6 @@ state
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_MENUARROW
 :
@@ -16124,8 +16047,6 @@ rect
 state
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_TOOLBARBUTTON_ARROW
@@ -16142,8 +16063,6 @@ GtkArrowType
 flags
 direction
 )
-;
-break
 ;
 case
 MOZ_GTK_CHECKMENUITEM
@@ -16165,8 +16084,6 @@ flags
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_SPLITTER_HORIZONTAL
 :
@@ -16177,8 +16094,6 @@ cr
 rect
 state
 )
-;
-break
 ;
 case
 MOZ_GTK_SPLITTER_VERTICAL
@@ -16191,8 +16106,6 @@ rect
 state
 )
 ;
-break
-;
 case
 MOZ_GTK_WINDOW
 :
@@ -16204,8 +16117,6 @@ rect
 direction
 )
 ;
-break
-;
 case
 MOZ_GTK_INFO_BAR
 :
@@ -16216,8 +16127,6 @@ cr
 rect
 state
 )
-;
-break
 ;
 case
 MOZ_GTK_HEADER_BAR
@@ -16233,8 +16142,6 @@ cr
 rect
 state
 )
-;
-break
 ;
 default
 :
