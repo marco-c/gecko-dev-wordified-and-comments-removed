@@ -5110,12 +5110,9 @@ device
 }
 }
 pub
-struct
-WrShaders
-{
-pub
-shaders
-:
+type
+SharedShaders
+=
 Rc
 <
 RefCell
@@ -5123,4 +5120,4 @@ RefCell
 Shaders
 >
 >
-}
+;
