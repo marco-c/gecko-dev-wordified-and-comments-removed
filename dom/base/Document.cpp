@@ -70841,7 +70841,6 @@ EnumerateActivityObservers
 NotifyActivityChanged
 )
 ;
-}
 if
 (
 mVisibilityState
@@ -70860,6 +70859,7 @@ MaybeActiveMediaComponents
 (
 )
 ;
+}
 }
 }
 VisibilityState
