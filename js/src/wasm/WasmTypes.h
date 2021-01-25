@@ -978,7 +978,7 @@ const
 uint8_t
 *
 start
-uint32_t
+size_t
 len
 )
 {
