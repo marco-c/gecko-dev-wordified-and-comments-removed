@@ -3136,6 +3136,13 @@ aMFR
 )
 ;
 }
+aTextRun
+-
+>
+ResetGlyphRuns
+(
+)
+;
 if
 (
 mergeNeeded
@@ -3204,13 +3211,6 @@ Elements
 }
 else
 {
-aTextRun
--
->
-ResetGlyphRuns
-(
-)
-;
 aTextRun
 -
 >
