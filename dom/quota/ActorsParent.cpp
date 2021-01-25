@@ -15498,8 +15498,11 @@ GetPersistenceType
 ;
 nsTArray
 <
+NotNull
+<
 DirectoryLockImpl
 *
+>
 >
 *
 array
@@ -15526,8 +15529,11 @@ array
 new
 nsTArray
 <
+NotNull
+<
 DirectoryLockImpl
 *
+>
 >
 (
 )
@@ -15573,8 +15579,11 @@ array
 >
 AppendElement
 (
+WrapNotNullUnchecked
+(
 &
 aLock
+)
 )
 ;
 }
@@ -15677,8 +15686,11 @@ GetPersistenceType
 ;
 nsTArray
 <
+NotNull
+<
 DirectoryLockImpl
 *
+>
 >
 *
 array

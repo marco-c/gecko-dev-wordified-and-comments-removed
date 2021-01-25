@@ -534,8 +534,11 @@ nsClassHashtable
 nsCStringHashKey
 nsTArray
 <
+NotNull
+<
 DirectoryLockImpl
 *
+>
 >
 >
 DirectoryLockTable
