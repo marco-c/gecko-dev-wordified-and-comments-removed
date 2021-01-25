@@ -579,6 +579,12 @@ linux64
 -
 sccache
 -
+macosx64
+-
+llvm
+-
+symbolizer
+-
 wasi
 -
 sysroot
