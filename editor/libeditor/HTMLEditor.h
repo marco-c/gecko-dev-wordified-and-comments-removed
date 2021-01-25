@@ -520,6 +520,13 @@ MouseEvent
 aMouseUpEvent
 )
 ;
+void
+PreHandleSelectionChangeCommand
+(
+Command
+aCommand
+)
+;
 MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult

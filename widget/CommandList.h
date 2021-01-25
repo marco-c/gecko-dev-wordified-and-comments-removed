@@ -115,6 +115,11 @@ cmd_scrollBottom
 )
 NS_DEFINE_COMMAND
 (
+ScrollLeft
+cmd_scrollLeft
+)
+NS_DEFINE_COMMAND
+(
 ScrollLineDown
 cmd_scrollLineDown
 )
@@ -132,6 +137,11 @@ NS_DEFINE_COMMAND
 (
 ScrollPageUp
 cmd_scrollPageUp
+)
+NS_DEFINE_COMMAND
+(
+ScrollRight
+cmd_scrollRight
 )
 NS_DEFINE_COMMAND
 (
