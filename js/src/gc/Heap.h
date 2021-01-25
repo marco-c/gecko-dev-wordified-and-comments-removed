@@ -2027,7 +2027,7 @@ word
 uintptr_t
 mask
 ;
-GetMarkWordAndMask
+getMarkWordAndMask
 (
 cell
 colorBit
@@ -2159,7 +2159,7 @@ word
 uintptr_t
 mask
 ;
-GetMarkWordAndMask
+getMarkWordAndMask
 (
 cell
 ColorBit
@@ -2204,7 +2204,7 @@ mask
 }
 else
 {
-GetMarkWordAndMask
+getMarkWordAndMask
 (
 cell
 ColorBit
@@ -2260,7 +2260,7 @@ word
 uintptr_t
 mask
 ;
-GetMarkWordAndMask
+getMarkWordAndMask
 (
 cell
 ColorBit
@@ -2298,6 +2298,18 @@ ColorBit
 colorBit
 )
 {
+ChunkBase
+*
+srcChunk
+=
+detail
+:
+:
+GetCellChunkBase
+(
+src
+)
+;
 MarkBitmapWord
 *
 srcWord
@@ -2305,7 +2317,12 @@ srcWord
 uintptr_t
 srcMask
 ;
-GetMarkWordAndMask
+srcChunk
+-
+>
+bitmap
+.
+getMarkWordAndMask
 (
 src
 colorBit
@@ -2322,7 +2339,7 @@ dstWord
 uintptr_t
 dstMask
 ;
-GetMarkWordAndMask
+getMarkWordAndMask
 (
 dst
 colorBit
@@ -2375,7 +2392,7 @@ word
 uintptr_t
 mask
 ;
-GetMarkWordAndMask
+getMarkWordAndMask
 (
 cell
 ColorBit
@@ -2395,7 +2412,7 @@ word
 ~
 mask
 ;
-GetMarkWordAndMask
+getMarkWordAndMask
 (
 cell
 ColorBit
@@ -2524,7 +2541,7 @@ word
 uintptr_t
 unused
 ;
-GetMarkWordAndMask
+getMarkWordAndMask
 (
 reinterpret_cast
 <
