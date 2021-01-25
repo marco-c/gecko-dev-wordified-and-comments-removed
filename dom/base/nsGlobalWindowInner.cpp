@@ -17234,12 +17234,6 @@ FORWARD_TO_OUTER_OR_THROW
 FocusOuter
 (
 aCallerType
-nsFocusManager
-:
-:
-GenerateFocusActionId
-(
-)
 )
 aError
 )
