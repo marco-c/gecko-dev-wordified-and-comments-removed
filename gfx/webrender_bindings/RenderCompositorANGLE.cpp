@@ -1438,11 +1438,6 @@ mSwapChain
 &
 &
 dxgiFactory2
-&
-&
-IsWin8OrLater
-(
-)
 )
 {
 RefPtr
