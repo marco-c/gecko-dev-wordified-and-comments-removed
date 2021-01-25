@@ -388,6 +388,11 @@ build_platform
 macosx64
 -
 shippable
+extra
+:
+chunks
+:
+30
 devedition
 -
 linux64
@@ -520,3 +525,8 @@ build_platform
 macosx64
 -
 devedition
+extra
+:
+chunks
+:
+30
