@@ -23348,7 +23348,7 @@ getTemp
 }
 ;
 class
-LArrayPushV
+LArrayPush
 :
 public
 LInstructionHelper
@@ -23364,9 +23364,9 @@ public
 :
 LIR_HEADER
 (
-ArrayPushV
+ArrayPush
 )
-LArrayPushV
+LArrayPush
 (
 const
 LAllocation
