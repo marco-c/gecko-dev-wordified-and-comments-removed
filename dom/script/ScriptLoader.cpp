@@ -11957,6 +11957,12 @@ IsBytecode
 )
 )
 ;
+options
+.
+useOffThreadParseGlobal
+=
+true
+;
 size_t
 length
 =
