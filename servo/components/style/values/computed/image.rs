@@ -98,6 +98,7 @@ LengthPercentage
 NonNegativeLength
 NonNegativeLengthPercentage
 ToComputedValue
+Resolution
 }
 ;
 use
@@ -202,6 +203,7 @@ MozImageRect
 ComputedImageUrl
 Color
 Percentage
+Resolution
 >
 ;
 pub

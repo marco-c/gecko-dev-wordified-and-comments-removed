@@ -47,6 +47,7 @@ MallocSizeOf
 PartialEq
 ToCss
 ToShmem
+SpecifiedValueInfo
 )
 ]
 pub
