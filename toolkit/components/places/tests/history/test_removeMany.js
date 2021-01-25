@@ -567,11 +567,6 @@ length
 )
 ;
 }
-onManyFrecenciesChanged
-(
-)
-{
-}
 onDeleteURI
 (
 aURI
