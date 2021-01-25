@@ -333,7 +333,8 @@ FluentBundle
 :
 new
 (
-&
+vec
+!
 [
 langid_en
 ]

@@ -705,6 +705,7 @@ impl
 FluentNumber
 {
 pub
+const
 fn
 new
 (

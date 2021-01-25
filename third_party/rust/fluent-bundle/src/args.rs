@@ -25,6 +25,14 @@ types
 :
 FluentValue
 ;
+#
+[
+derive
+(
+Debug
+Default
+)
+]
 pub
 struct
 FluentArgs

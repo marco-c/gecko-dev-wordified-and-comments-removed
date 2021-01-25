@@ -617,16 +617,10 @@ self
 .
 add_error
 (
-ResolverError
-:
-:
-Reference
-(
 exp
 .
-resolve_error
+into
 (
-)
 )
 )
 ;

@@ -122,16 +122,6 @@ Borrow
 FluentResource
 >
 ;
-fn
-resolve_error
-(
-&
-self
-)
--
->
-String
-;
 }
 pub
 (

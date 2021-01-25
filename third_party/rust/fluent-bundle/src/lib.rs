@@ -1,11 +1,3 @@
-#
-[
-macro_use
-]
-extern
-crate
-rental
-;
 use
 intl_memoizer
 :
