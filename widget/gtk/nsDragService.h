@@ -379,6 +379,16 @@ GdkDragContext
 >
 mPendingDragContext
 ;
+nsDataHashtable
+<
+nsCStringHashKey
+nsTArray
+<
+uint8_t
+>
+>
+mCachedData
+;
 #
 ifdef
 MOZ_WAYLAND
