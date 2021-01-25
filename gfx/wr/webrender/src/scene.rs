@@ -1463,6 +1463,9 @@ max_depth_ids
 max_target_size
 :
 0
+force_invalidation
+:
+false
 }
 }
 }
