@@ -10934,9 +10934,6 @@ exe
 allow_missing
 =
 True
-paths
-=
-toolchain_search_path
 when
 =
 compile_environment
@@ -10994,9 +10991,6 @@ exe
 winchecksec
 "
 ]
-paths
-=
-toolchain_search_path
 allow_missing
 =
 allow_missing_winchecksec
