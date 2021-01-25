@@ -9589,9 +9589,9 @@ if
 (
 aReflowInput
 .
-ComputedBSizeIsSetByAspectRatio
-(
-)
+mFlags
+.
+mIsBSizeSetByAspectRatio
 &
 &
 ShouldApplyAutomaticMinimumOnBlockAxis

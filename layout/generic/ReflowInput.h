@@ -1453,18 +1453,6 @@ TopBottom
 )
 ;
 }
-bool
-ComputedBSizeIsSetByAspectRatio
-(
-)
-const
-{
-return
-mFlags
-.
-mBSizeIsSetByAspectRatio
-;
-}
 LogicalSize
 mContainingBlockSize
 {
@@ -1674,7 +1662,7 @@ mMovedBlockFragments
 1
 ;
 bool
-mBSizeIsSetByAspectRatio
+mIsBSizeSetByAspectRatio
 :
 1
 ;
