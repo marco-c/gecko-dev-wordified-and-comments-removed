@@ -1940,6 +1940,9 @@ local_clip_rect
 cluster
 .
 spatial_node_index
+map_local_to_surface
+.
+ref_spatial_node_index
 frame_state
 .
 clip_chain_stack
