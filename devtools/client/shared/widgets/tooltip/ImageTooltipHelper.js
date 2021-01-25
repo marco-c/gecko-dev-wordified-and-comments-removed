@@ -121,8 +121,8 @@ null
 ;
 const
 {
-width
-height
+naturalWidth
+naturalHeight
 }
 =
 imgObj
@@ -130,8 +130,8 @@ imgObj
 resolve
 (
 {
-width
-height
+naturalWidth
+naturalHeight
 }
 )
 ;
