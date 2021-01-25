@@ -421,7 +421,7 @@ if
 keyStillInUse
 )
 {
-RegDeleteKeyW
+RegDeleteTreeW
 (
 HKEY_CURRENT_USER
 AGENT_REGKEY_NAME
