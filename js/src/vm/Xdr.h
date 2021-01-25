@@ -3411,16 +3411,6 @@ FunctionKey
 =
 uint64_t
 ;
-static
-FunctionKey
-toFunctionKey
-(
-const
-SourceExtent
-&
-extent
-)
-;
 HashSet
 <
 FunctionKey
