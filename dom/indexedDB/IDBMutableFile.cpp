@@ -277,6 +277,7 @@ mDatabase
 >
 NoteLiveMutableFile
 (
+*
 this
 )
 ;
@@ -298,6 +299,7 @@ mDatabase
 >
 NoteFinishedMutableFile
 (
+*
 this
 )
 ;

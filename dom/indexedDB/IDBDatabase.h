@@ -283,8 +283,11 @@ mObserver
 ;
 nsTArray
 <
+NotNull
+<
 IDBMutableFile
 *
+>
 >
 mLiveMutableFiles
 ;
@@ -564,7 +567,7 @@ void
 NoteLiveMutableFile
 (
 IDBMutableFile
-*
+&
 aMutableFile
 )
 ;
@@ -572,7 +575,7 @@ void
 NoteFinishedMutableFile
 (
 IDBMutableFile
-*
+&
 aMutableFile
 )
 ;
