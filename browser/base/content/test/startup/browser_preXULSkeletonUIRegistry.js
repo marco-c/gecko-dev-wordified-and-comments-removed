@@ -601,10 +601,7 @@ SearchbarCSSSpan
 Theme
 "
 "
-MenubarShown
-"
-"
-RTLEnabled
+Flags
 "
 ]
 ;
