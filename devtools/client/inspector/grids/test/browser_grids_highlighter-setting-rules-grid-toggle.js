@@ -286,9 +286,13 @@ querySelector
 (
 "
 .
-ruleview
+js
+-
+toggle
 -
 grid
+-
+highlighter
 "
 )
 ;
