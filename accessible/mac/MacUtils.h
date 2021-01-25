@@ -14,6 +14,9 @@ h
 class
 NSString
 ;
+class
+mozAccessible
+;
 namespace
 mozilla
 {
@@ -23,7 +26,11 @@ a11y
 namespace
 utils
 {
-NSMutableArray
+NSArray
+<
+mozAccessible
+*
+>
 *
 ConvertToNSArray
 (
@@ -36,7 +43,11 @@ Accessible
 aArray
 )
 ;
-NSMutableArray
+NSArray
+<
+mozAccessible
+*
+>
 *
 ConvertToNSArray
 (
