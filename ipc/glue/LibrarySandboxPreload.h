@@ -20,6 +20,11 @@ GetSandboxedOggPath
 (
 )
 ;
+nsAutoCString
+GetSandboxedHunspellPath
+(
+)
+;
 void
 PreloadSandboxedDynamicLibraries
 (
