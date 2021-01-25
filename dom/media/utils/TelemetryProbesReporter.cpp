@@ -733,7 +733,7 @@ totalPlayTimeS
 =
 mTotalPlayTime
 .
-Total
+GetAndClearTotal
 (
 )
 ;
@@ -743,7 +743,7 @@ invisiblePlayTimeS
 =
 mInvisibleVideoPlayTime
 .
-Total
+GetAndClearTotal
 (
 )
 ;
@@ -753,7 +753,7 @@ videoDecodeSuspendTimeS
 =
 mVideoDecodeSuspendedTime
 .
-Total
+GetAndClearTotal
 (
 )
 ;
