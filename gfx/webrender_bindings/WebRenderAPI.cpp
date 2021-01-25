@@ -6485,8 +6485,10 @@ aBounds
 size
 .
 width
-/
-2
+*
+0
+.
+6f
 ;
 float
 v
@@ -6496,8 +6498,10 @@ aBounds
 size
 .
 height
-/
-2
+*
+0
+.
+6f
 ;
 wr
 :
