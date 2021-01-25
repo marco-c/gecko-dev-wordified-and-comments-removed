@@ -375,6 +375,11 @@ shortcuts
 -
 subtitle
 "
+eventSource
+=
+"
+TOP_SITES
+"
 /
 >
 <
@@ -816,6 +821,11 @@ preference
 "
 showSponsoredTopSites
 "
+eventSource
+=
+"
+SPONSORED_TOP_SITES
+"
 /
 >
 <
@@ -959,6 +969,11 @@ custom
 pocket
 -
 subtitle
+"
+eventSource
+=
+"
+TOP_STORIES
 "
 /
 >
@@ -1523,6 +1538,11 @@ custom
 snippets
 -
 subtitle
+"
+eventSource
+=
+"
+SNIPPETS
 "
 /
 >
