@@ -78,12 +78,3 @@ GenericUrlOrNone
 ComputedUrl
 >
 ;
-pub
-type
-ImageUrlOrNone
-=
-GenericUrlOrNone
-<
-ComputedImageUrl
->
-;

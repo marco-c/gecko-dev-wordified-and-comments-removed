@@ -76,12 +76,3 @@ GenericUrlOrNone
 SpecifiedUrl
 >
 ;
-pub
-type
-ImageUrlOrNone
-=
-GenericUrlOrNone
-<
-SpecifiedImageUrl
->
-;

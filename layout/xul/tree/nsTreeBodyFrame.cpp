@@ -9222,7 +9222,9 @@ StyleList
 )
 -
 >
-GetListStyleImage
+mListStyleImage
+.
+GetImageRequest
 (
 )
 ;
