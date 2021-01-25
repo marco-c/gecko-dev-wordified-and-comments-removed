@@ -50,6 +50,13 @@ Deserialize
 )
 )
 ]
+#
+[
+derive
+(
+MallocSizeOf
+)
+]
 struct
 LRUCacheEntry
 <
@@ -94,6 +101,13 @@ derive
 (
 Deserialize
 )
+)
+]
+#
+[
+derive
+(
+MallocSizeOf
 )
 ]
 pub
@@ -835,6 +849,7 @@ Clone
 PartialEq
 Eq
 Hash
+MallocSizeOf
 )
 ]
 struct
@@ -905,6 +920,7 @@ Deserialize
 derive
 (
 Debug
+MallocSizeOf
 )
 ]
 struct
@@ -960,6 +976,13 @@ derive
 (
 Deserialize
 )
+)
+]
+#
+[
+derive
+(
+MallocSizeOf
 )
 ]
 struct

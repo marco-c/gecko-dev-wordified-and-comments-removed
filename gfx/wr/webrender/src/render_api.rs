@@ -6612,6 +6612,10 @@ texture_cache_textures
 :
 usize
 pub
+texture_cache_structures
+:
+usize
+pub
 depth_target_textures
 :
 usize
