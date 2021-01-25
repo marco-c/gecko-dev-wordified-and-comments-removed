@@ -55,6 +55,7 @@ tab
 CONTENT_TYPE_WITHOUT_CACHE_REQUESTS
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -84,6 +85,7 @@ item
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

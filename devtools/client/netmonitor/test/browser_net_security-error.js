@@ -182,6 +182,7 @@ tab
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

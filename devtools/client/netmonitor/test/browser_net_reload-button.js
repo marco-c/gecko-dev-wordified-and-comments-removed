@@ -55,6 +55,7 @@ monitor
 1
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

@@ -165,6 +165,7 @@ objectRow
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -253,6 +254,7 @@ clipboard
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -561,6 +563,7 @@ value
 1
 ]
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -630,6 +633,7 @@ clipboard
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -868,6 +872,7 @@ toggleNetworkDetails
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -942,6 +947,7 @@ stringRow
 0
 ]
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1028,6 +1034,7 @@ clipboard
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1090,6 +1097,7 @@ clipboard
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1284,6 +1292,7 @@ overview
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1316,6 +1325,7 @@ item
 await
 wait
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1345,6 +1355,7 @@ item
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1484,6 +1495,7 @@ objectRows
 i
 ]
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1595,6 +1607,7 @@ length
 i
 ]
 ;
+await
 EventUtils
 .
 sendMouseEvent

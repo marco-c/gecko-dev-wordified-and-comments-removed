@@ -206,6 +206,7 @@ request
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -250,6 +251,7 @@ item
 1
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -561,6 +563,7 @@ waitForTick
 (
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

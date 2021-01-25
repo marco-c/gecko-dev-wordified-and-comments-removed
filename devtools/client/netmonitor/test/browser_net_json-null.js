@@ -167,6 +167,7 @@ toggleNetworkDetails
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

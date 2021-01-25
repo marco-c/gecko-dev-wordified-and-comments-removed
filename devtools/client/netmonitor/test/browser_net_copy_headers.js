@@ -92,6 +92,7 @@ reload
 await
 wait
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -146,6 +147,7 @@ statusText
 =
 requestItem
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -513,6 +515,7 @@ n
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

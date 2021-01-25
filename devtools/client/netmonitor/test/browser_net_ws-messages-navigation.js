@@ -227,6 +227,7 @@ item
 10
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -244,6 +245,7 @@ requests
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -343,6 +345,7 @@ child
 selected
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

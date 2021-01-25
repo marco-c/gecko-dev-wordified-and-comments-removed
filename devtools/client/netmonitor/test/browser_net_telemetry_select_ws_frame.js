@@ -208,6 +208,7 @@ request
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -252,6 +253,7 @@ item
 2
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -342,6 +344,7 @@ TEST_EVENTS
 LONGSTRING_RESOLVED
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

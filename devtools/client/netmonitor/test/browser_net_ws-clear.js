@@ -216,6 +216,7 @@ item
 4
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -233,6 +234,7 @@ requests
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -384,6 +386,7 @@ item
 2
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

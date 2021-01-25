@@ -180,6 +180,7 @@ code
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -447,6 +448,7 @@ toggleNetworkDetails
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -578,6 +580,7 @@ item
 2
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

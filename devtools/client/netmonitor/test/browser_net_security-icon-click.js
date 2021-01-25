@@ -163,6 +163,7 @@ again
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -199,6 +200,7 @@ filename
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

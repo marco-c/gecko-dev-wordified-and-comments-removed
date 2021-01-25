@@ -262,11 +262,15 @@ doc
 )
 =
 >
+{
+await
 selectRow
 (
 doc
 1
 )
+;
+}
 expected
 :
 {
@@ -384,6 +388,7 @@ relations
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -423,6 +428,7 @@ document
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
