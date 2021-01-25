@@ -402,7 +402,7 @@ GetWaylandDisplay
 private
 :
 void
-ReleaseShmSurface
+ReleaseWLBuffer
 (
 )
 ;
