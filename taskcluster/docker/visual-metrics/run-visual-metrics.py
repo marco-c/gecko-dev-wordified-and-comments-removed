@@ -569,12 +569,12 @@ error
 (
             
 "
-[
 TEST
 -
 UNEXPECTED
+-
 FAIL
-]
+|
 Timed
 out
 waiting
@@ -745,12 +745,12 @@ log
 error
 (
 "
-[
 TEST
 -
 UNEXPECTED
+-
 FAIL
-]
+|
 "
 +
 newline
@@ -2408,13 +2408,12 @@ error
 (
                 
 "
-[
 TEST
 -
 UNEXPECTED
 -
 FAIL
-]
+|
 Some
 visual
 metrics
