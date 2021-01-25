@@ -403,11 +403,10 @@ manager
 _address
     
 if
-not
 isinstance
 (
 address
-str
+bytes
 )
 :
         
