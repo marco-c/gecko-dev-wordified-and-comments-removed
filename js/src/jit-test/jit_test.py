@@ -3079,10 +3079,17 @@ repeat
 def
 repeat_copy
 (
-job_list
+job_list_generator
 repeat
 )
 :
+            
+job_list
+=
+list
+(
+job_list_generator
+)
             
 for
 i
