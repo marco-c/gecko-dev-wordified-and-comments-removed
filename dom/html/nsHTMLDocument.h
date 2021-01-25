@@ -316,6 +316,16 @@ mIsPlainText
 ;
 }
 bool
+IsViewSource
+(
+)
+const
+{
+return
+mViewSource
+;
+}
+bool
 ResolveName
 (
 JSContext
@@ -884,6 +894,9 @@ mWarnedWidthHeight
 ;
 bool
 mIsPlainText
+;
+bool
+mViewSource
 ;
 }
 ;

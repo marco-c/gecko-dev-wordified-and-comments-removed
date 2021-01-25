@@ -898,6 +898,13 @@ ReDecodeLocalFile
 (
 )
 ;
+int32_t
+MaybeRollBackSource
+(
+int32_t
+aSource
+)
+;
 void
 GuessEncoding
 (
@@ -1256,6 +1263,12 @@ mInitialEncodingWasFromParentFrame
 ;
 bool
 mHasHadErrors
+;
+bool
+mDetectorHasSeenNonAscii
+;
+bool
+mDetectorHadOnlySeenAsciiWhenFirstGuessing
 ;
 bool
 mDecodingLocalFileWithoutTokenizing

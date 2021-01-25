@@ -69,6 +69,17 @@ detector
 )
 ;
 bool
+chardetng_encoding_detector_tld_may_affect_guess
+(
+char
+const
+*
+tld
+size_t
+tld_len
+)
+;
+bool
 chardetng_encoding_detector_feed
 (
 CHARDETNG_ENCODING_DETECTOR
