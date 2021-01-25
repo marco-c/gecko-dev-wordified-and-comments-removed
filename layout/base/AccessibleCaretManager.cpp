@@ -4246,6 +4246,15 @@ aPoint
 )
 const
 {
+AC_LOGV
+(
+"
+%
+s
+"
+__FUNCTION__
+)
+;
 SetSelectionDragState
 (
 true
