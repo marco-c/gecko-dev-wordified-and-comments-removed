@@ -709,17 +709,6 @@ progress
 indicator
 =
 Printing
-printui
--
-print
--
-progress
--
-indicator
--
-saving
-=
-Saving
 #
 #
 Paper
