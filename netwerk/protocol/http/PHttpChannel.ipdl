@@ -84,13 +84,6 @@ cos
 )
 ;
 async
-SetCacheTokenCachedCharset
-(
-nsCString
-charset
-)
-;
-async
 Suspend
 (
 )
