@@ -99,5 +99,16 @@ NotificationAction
 action
 )
 ;
+void
+EnsureValidNotificationAction
+(
+std
+:
+:
+string
+&
+actionString
+)
+;
 #
 endif
