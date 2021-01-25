@@ -3703,7 +3703,7 @@ if
 !
 compilationState_
 .
-scriptExtent
+scriptExtra
 .
 emplaceBack
 (
@@ -3983,7 +3983,7 @@ if
 !
 compilationState_
 .
-scriptExtent
+scriptExtra
 .
 emplaceBack
 (
@@ -4413,13 +4413,15 @@ false
 }
 compilationState_
 .
-scriptExtent
+scriptExtra
 [
 CompilationInfo
 :
 :
 TopLevelIndex
 ]
+.
+extent
 =
 SourceExtent
 {

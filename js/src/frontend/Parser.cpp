@@ -1536,7 +1536,7 @@ if
 !
 compilationState_
 .
-scriptExtent
+scriptExtra
 .
 emplaceBack
 (

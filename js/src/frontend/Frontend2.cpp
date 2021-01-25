@@ -2439,10 +2439,12 @@ compilationInfo
 .
 stencil
 .
-scriptExtent
+scriptExtra
 [
 scriptIndex
 ]
+.
+extent
 ;
 script
 .
@@ -3369,7 +3371,7 @@ len
 ;
 auto
 *
-pextent
+pextra
 =
 compilationInfo
 .
@@ -3377,7 +3379,7 @@ alloc
 .
 newArrayUninitialized
 <
-SourceExtent
+ScriptStencilExtra
 >
 (
 len
@@ -3386,7 +3388,7 @@ len
 if
 (
 !
-pextent
+pextra
 )
 {
 js
@@ -3405,14 +3407,14 @@ compilationInfo
 .
 stencil
 .
-scriptExtent
+scriptExtra
 =
 mozilla
 :
 :
 Span
 (
-pextent
+pextra
 len
 )
 ;

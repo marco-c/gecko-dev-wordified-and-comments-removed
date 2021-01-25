@@ -52276,10 +52276,12 @@ extent
 =
 compilationState
 .
-scriptExtent
+scriptExtra
 [
 scriptIndex
 ]
+.
+extent
 ;
 sc
 -
