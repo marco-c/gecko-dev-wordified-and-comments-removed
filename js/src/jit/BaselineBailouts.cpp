@@ -9562,6 +9562,17 @@ BailoutKind
 :
 EagerTruncation
 :
+MOZ_ASSERT
+(
+!
+outerScript
+-
+>
+hadEagerTruncationBailout
+(
+)
+)
+;
 outerScript
 -
 >
