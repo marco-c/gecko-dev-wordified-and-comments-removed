@@ -569,13 +569,6 @@ n
 "
 race
 :
-gXPCOMThreadsShutDown
-\
-n
-"
-"
-race
-:
 CacheFileMetadata
 :
 :
