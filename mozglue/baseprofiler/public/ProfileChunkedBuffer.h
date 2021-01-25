@@ -6579,7 +6579,7 @@ MarkDone
 mChunkManager
 -
 >
-ReleaseChunks
+ReleaseChunk
 (
 std
 :

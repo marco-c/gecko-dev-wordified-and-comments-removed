@@ -141,13 +141,13 @@ FulfillChunkRequests
 ;
 virtual
 void
-ReleaseChunks
+ReleaseChunk
 (
 UniquePtr
 <
 ProfileBufferChunk
 >
-aChunks
+aChunk
 )
 =
 0
