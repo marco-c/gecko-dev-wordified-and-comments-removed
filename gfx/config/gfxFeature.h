@@ -546,6 +546,12 @@ GetFailureId
 )
 const
 ;
+nsCString
+GetStatusAndFailureIdString
+(
+)
+const
+;
 bool
 DisabledByDefault
 (
