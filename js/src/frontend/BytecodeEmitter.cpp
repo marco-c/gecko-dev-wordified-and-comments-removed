@@ -1031,8 +1031,6 @@ prepareStorageFor
 (
 cx
 compilationState
-.
-nonLazyFunctionCount
 )
 )
 {
@@ -52194,9 +52192,7 @@ ScriptStencil
 &
 script
 =
-compilationInfo
-.
-stencil
+compilationState
 .
 scriptData
 [

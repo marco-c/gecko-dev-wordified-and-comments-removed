@@ -1490,6 +1490,10 @@ friend
 struct
 GCThingList
 ;
+CompilationState
+&
+compilationState_
+;
 mozilla
 :
 :
@@ -1633,6 +1637,9 @@ extent
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 Directives
 directives
 GeneratorKind

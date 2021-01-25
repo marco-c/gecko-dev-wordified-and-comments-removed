@@ -3573,6 +3573,7 @@ compilationInfo
 .
 rewind
 (
+compilationState_
 startObj
 )
 ;
@@ -3661,9 +3662,7 @@ tokenStream
 ;
 MOZ_ASSERT
 (
-compilationInfo
-.
-stencil
+compilationState_
 .
 scriptData
 .
@@ -3681,9 +3680,7 @@ TopLevelIndex
 if
 (
 !
-compilationInfo
-.
-stencil
+compilationState_
 .
 scriptData
 .
@@ -3924,9 +3921,7 @@ false
 }
 MOZ_ASSERT
 (
-compilationInfo
-.
-stencil
+compilationState_
 .
 scriptData
 .
@@ -3944,9 +3939,7 @@ TopLevelIndex
 if
 (
 !
-compilationInfo
-.
-stencil
+compilationState_
 .
 scriptData
 .
@@ -4215,6 +4208,7 @@ compilationInfo
 .
 getRewindToken
 (
+compilationState_
 )
 ;
 FunctionNode
@@ -4375,9 +4369,7 @@ return
 false
 ;
 }
-compilationInfo
-.
-stencil
+compilationState_
 .
 scriptData
 [
@@ -4495,9 +4487,7 @@ index
 ;
 MOZ_ASSERT
 (
-compilationInfo
-.
-stencil
+compilationState_
 .
 scriptData
 [
@@ -5569,9 +5559,7 @@ isRelazifiableAfterDelazify
 (
 )
 ;
-compilationInfo
-.
-stencil
+compilationState
 .
 scriptData
 [
