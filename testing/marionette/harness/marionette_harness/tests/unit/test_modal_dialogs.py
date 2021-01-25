@@ -81,6 +81,20 @@ self
 .
 new_tab
 )
+        
+self
+.
+marionette
+.
+set_pref
+(
+"
+prompts
+.
+contentPromptSubDialog
+"
+False
+)
     
 def
 tearDown
@@ -103,6 +117,19 @@ self
 .
 tearDown
 (
+)
+        
+self
+.
+marionette
+.
+clear_pref
+(
+"
+prompts
+.
+contentPromptSubDialog
+"
 )
     
 property
