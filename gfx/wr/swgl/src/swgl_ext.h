@@ -2563,13 +2563,14 @@ chunk
 int
 n
 =
-min
+clamp
 (
 maxX
 +
 1
 -
 curX
+0
 span
 )
 ;
