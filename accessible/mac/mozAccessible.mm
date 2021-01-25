@@ -418,7 +418,13 @@ mozAccessible
 child
 {
 return
-NO
+nsAccUtils
+:
+:
+MustPrune
+(
+mGeckoAccessible
+)
 ;
 }
 -
