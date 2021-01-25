@@ -14,15 +14,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MathAlgorithms
 .
 h
