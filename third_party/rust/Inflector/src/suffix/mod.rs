@@ -1,0 +1,12 @@
+#
+!
+[
+deny
+(
+warnings
+)
+]
+pub
+mod
+foreignkey
+;

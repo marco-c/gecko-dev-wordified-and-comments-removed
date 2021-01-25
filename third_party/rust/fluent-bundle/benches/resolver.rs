@@ -674,7 +674,8 @@ res
 let
 lids
 =
-&
+vec
+!
 [
 langid
 !

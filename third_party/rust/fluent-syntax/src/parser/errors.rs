@@ -17,6 +17,7 @@ derive
 (
 Debug
 PartialEq
+Clone
 )
 ]
 pub
@@ -179,6 +180,7 @@ derive
 (
 Debug
 PartialEq
+Clone
 )
 ]
 pub

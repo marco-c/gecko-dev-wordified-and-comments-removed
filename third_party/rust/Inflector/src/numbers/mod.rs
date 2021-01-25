@@ -1,0 +1,16 @@
+#
+!
+[
+deny
+(
+warnings
+)
+]
+pub
+mod
+ordinalize
+;
+pub
+mod
+deordinalize
+;
