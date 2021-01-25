@@ -780,9 +780,9 @@ addObserver
 (
 this
 "
-region
+browser
 -
-updated
+region
 "
 )
 ;
@@ -854,9 +854,9 @@ removeObserver
 (
 this
 "
-region
+browser
 -
-updated
+region
 "
 )
 ;
@@ -972,9 +972,9 @@ break
 ;
 case
 "
-region
+browser
 -
-updated
+region
 "
 :
 this
