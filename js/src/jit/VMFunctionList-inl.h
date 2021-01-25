@@ -2506,15 +2506,6 @@ ToBigInt
 \
 _
 (
-ToObjectSlow
-js
-:
-:
-ToObjectSlow
-)
-\
-_
-(
 ToStringSlow
 js
 :
