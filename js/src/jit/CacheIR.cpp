@@ -1413,8 +1413,6 @@ HandleValue
 val
 HandleValue
 idVal
-HandleValue
-receiver
 )
 :
 IRGenerator
@@ -1432,10 +1430,6 @@ val
 idVal_
 (
 idVal
-)
-receiver_
-(
-receiver
 )
 {
 }

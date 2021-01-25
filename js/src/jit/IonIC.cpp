@@ -1008,7 +1008,6 @@ kind
 )
 val
 idVal
-val
 )
 ;
 if
@@ -1194,7 +1193,6 @@ kind
 )
 val
 idVal
-receiver
 )
 ;
 if

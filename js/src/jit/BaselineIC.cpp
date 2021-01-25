@@ -4994,7 +4994,6 @@ CacheKind
 GetElem
 lhs
 rhs
-lhs
 )
 ;
 if
@@ -5141,7 +5140,6 @@ CacheKind
 GetElemSuper
 lhs
 rhs
-receiver
 )
 ;
 RootedObject
@@ -8174,7 +8172,6 @@ CacheKind
 GetProp
 val
 idVal
-val
 )
 ;
 return
@@ -8321,7 +8318,6 @@ CacheKind
 GetPropSuper
 val
 idVal
-receiver
 )
 ;
 RootedObject
