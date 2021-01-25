@@ -208,6 +208,9 @@ PresShell
 class
 AppWindowTimerCallback
 ;
+class
+L10nReadyPromiseHandler
+;
 }
 #
 define
