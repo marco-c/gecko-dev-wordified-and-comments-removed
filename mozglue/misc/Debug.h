@@ -147,7 +147,10 @@ _fdopen
 (
 _dup
 (
-2
+_fileno
+(
+stderr
+)
 )
 "
 a
