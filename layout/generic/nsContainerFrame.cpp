@@ -87,6 +87,13 @@ h
 #
 include
 "
+nsFrameSelection
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
