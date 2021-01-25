@@ -1065,22 +1065,30 @@ f
 expected_modules
 =
 sections
-[
+.
+get
+(
 "
 dependencies
 "
-]
+{
+}
+)
         
 expected_modules
 .
 update
 (
 sections
-[
+.
+get
+(
 "
 devDependencies
 "
-]
+{
+}
+)
 )
     
 mozilla_json_path
@@ -1139,11 +1147,15 @@ load
 (
 f
 )
-[
+.
+get
+(
 "
 dependencies
 "
-]
+{
+}
+)
 )
     
 mozilla_json_path
@@ -1204,11 +1216,15 @@ load
 (
 f
 )
-[
+.
+get
+(
 "
 dependencies
 "
-]
+{
+}
+)
 )
     
 return
