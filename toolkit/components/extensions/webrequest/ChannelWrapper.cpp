@@ -4430,12 +4430,6 @@ case
 ExtContentPolicy
 :
 :
-TYPE_REFRESH
-:
-case
-ExtContentPolicy
-:
-:
 TYPE_SAVEAS_DOWNLOAD
 :
 break

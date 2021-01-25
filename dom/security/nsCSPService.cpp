@@ -221,15 +221,6 @@ contentType
 ExtContentPolicy
 :
 :
-TYPE_REFRESH
-|
-|
-contentType
-=
-=
-ExtContentPolicy
-:
-:
 TYPE_DOCUMENT
 )
 {

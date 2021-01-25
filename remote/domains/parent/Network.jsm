@@ -202,17 +202,6 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_REFRESH
-]
-:
-"
-Refresh
-"
-[
-Ci
-.
-nsIContentPolicy
-.
 TYPE_PING
 ]
 :

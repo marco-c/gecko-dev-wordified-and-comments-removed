@@ -240,7 +240,7 @@ char
 *
 NS_CP_ContentTypeName
 (
-uint32_t
+nsContentPolicyType
 contentType
 )
 {
@@ -282,11 +282,6 @@ TYPE_DOCUMENT
 CASE_RETURN
 (
 TYPE_SUBDOCUMENT
-)
-;
-CASE_RETURN
-(
-TYPE_REFRESH
 )
 ;
 CASE_RETURN
@@ -514,8 +509,15 @@ CASE_RETURN
 TYPE_INTERNAL_FETCH_PRELOAD
 )
 ;
-default
+case
+nsIContentPolicy
 :
+:
+TYPE_INVALID
+:
+break
+;
+}
 return
 "
 <
@@ -524,7 +526,6 @@ Type
 >
 "
 ;
-}
 }
 #
 undef

@@ -1632,12 +1632,6 @@ nsIContentPolicy
 :
 TYPE_INVALID
 :
-case
-nsIContentPolicy
-:
-:
-TYPE_REFRESH
-:
 MOZ_ASSERT
 (
 false
