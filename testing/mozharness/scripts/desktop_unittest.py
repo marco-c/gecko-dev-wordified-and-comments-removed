@@ -2760,17 +2760,15 @@ simplejson
 "
 )
         
-requirements_files
+marionette_requirements_file
 =
-[
-            
 os
 .
 path
 .
 join
 (
-                
+            
 dirs
 [
 "
@@ -2785,9 +2783,33 @@ marionette_requirements
 .
 txt
 "
-            
+        
 )
         
+self
+.
+register_virtualenv_module
+(
+            
+requirements
+=
+[
+marionette_requirements_file
+]
+            
+two_pass
+=
+True
+            
+legacy_resolver
+=
+True
+        
+)
+        
+requirements_files
+=
+[
 ]
         
 if
