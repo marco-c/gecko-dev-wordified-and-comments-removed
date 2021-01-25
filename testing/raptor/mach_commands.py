@@ -359,6 +359,17 @@ device_name
 "
 ]
         
+self
+.
+enable_marionette_trace
+=
+kwargs
+[
+"
+enable_marionette_trace
+"
+]
+        
 if
 Conditions
 .
@@ -1228,6 +1239,14 @@ device_name
 self
 .
 device_name
+            
+"
+enable_marionette_trace
+"
+:
+self
+.
+enable_marionette_trace
         
 }
         
