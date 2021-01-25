@@ -41,6 +41,9 @@ fuzzy
 if
 (
 gtkWidget
+&
+&
+nativeThemePref
 255
 -
 255
