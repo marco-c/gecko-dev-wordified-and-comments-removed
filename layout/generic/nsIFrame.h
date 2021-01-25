@@ -6136,6 +6136,7 @@ uint32_t
 aSelectFlags
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 PeekBackwardAndForward
 (
