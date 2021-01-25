@@ -2691,6 +2691,12 @@ progress
 lastReportFromChild
 :
 now
+waitCount
+:
+0
+deselectCount
+:
+0
 }
 )
 ;
