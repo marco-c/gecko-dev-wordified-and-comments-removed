@@ -231,15 +231,6 @@ mCert
 uint32_t
 mCertType
 ;
-std
-:
-:
-vector
-<
-nsString
->
-mSubjectAltNames
-;
 nsresult
 GetSortableDate
 (
@@ -268,11 +259,6 @@ nsAString
 aFingerprint
 SECOidTag
 aHashAlg
-)
-;
-void
-GetSubjectAltNames
-(
 )
 ;
 }

@@ -151,12 +151,6 @@ validNotAfter
 0
 ;
 DOMString
-subjectAltNames
-=
-"
-"
-;
-DOMString
 issuerCommonName
 =
 "
