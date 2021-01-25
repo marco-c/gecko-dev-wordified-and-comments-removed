@@ -98,6 +98,15 @@ include
 "
 frontend
 /
+IteratorKind
+.
+h
+"
+#
+include
+"
+frontend
+/
 NameAnalysisTypes
 .
 h
@@ -3267,6 +3276,8 @@ forHeadStart
 (
 YieldHandling
 yieldHandling
+IteratorKind
+iterKind
 ParseNodeKind
 *
 forHeadKind
