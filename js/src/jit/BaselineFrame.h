@@ -1383,7 +1383,7 @@ icScript
 }
 JSScript
 *
-outerScript
+invalidationScript
 (
 )
 const

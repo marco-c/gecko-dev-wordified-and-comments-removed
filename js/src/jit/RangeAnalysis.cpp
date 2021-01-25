@@ -17896,7 +17896,7 @@ canBeNegativeZero
 )
 )
 {
-needsNegativeZeroCheck_
+canBeNegativeZero_
 =
 false
 ;

@@ -614,6 +614,12 @@ discardStubs
 cx
 (
 )
+root_
+-
+>
+owningScript
+(
+)
 )
 ;
 bool

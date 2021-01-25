@@ -6434,14 +6434,6 @@ IntConversionInputKind
 NumbersOnly
 )
 ;
-ins
--
->
-setNeedsNegativeZeroCheck
-(
-false
-)
-;
 add
 (
 ins
