@@ -429,6 +429,16 @@ msSinceProcessStart
 )
 ;
 double
+msSinceProcessStartIncludingSuspend
+(
+)
+;
+double
+msSinceProcessStartExcludingSuspend
+(
+)
+;
+double
 msSystemNow
 (
 )
