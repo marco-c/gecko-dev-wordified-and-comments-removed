@@ -608,7 +608,10 @@ css
 ImageLoader
 :
 :
-REQUEST_REQUIRES_REFLOW
+Flags
+:
+:
+RequiresReflowOnFirstFrameCompleteAndLoadEventBlocking
 )
 ;
 }

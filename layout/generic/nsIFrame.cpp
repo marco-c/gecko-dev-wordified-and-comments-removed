@@ -4926,7 +4926,6 @@ AssociateRequestToFrame
 (
 aReq
 aFrame
-0
 )
 ;
 }
@@ -6768,7 +6767,6 @@ AssociateRequestToFrame
 (
 newBorderImage
 this
-0
 )
 ;
 }
@@ -6903,7 +6901,10 @@ this
 ImageLoader
 :
 :
-REQUEST_REQUIRES_REFLOW
+Flags
+:
+:
+RequiresReflowOnFirstFrameCompleteAndLoadEventBlocking
 )
 ;
 }
@@ -26814,7 +26815,6 @@ AssociateRequestToFrame
 (
 req
 this
-0
 )
 ;
 return
