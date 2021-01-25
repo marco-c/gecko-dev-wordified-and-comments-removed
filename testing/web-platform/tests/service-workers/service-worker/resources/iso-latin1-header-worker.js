@@ -26,7 +26,7 @@ url
 indexOf
 (
 '
-dummy
+sample
 ?
 test
 '

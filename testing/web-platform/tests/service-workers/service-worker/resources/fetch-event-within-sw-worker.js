@@ -47,7 +47,7 @@ endsWith
 (
 '
 /
-dummy
+sample
 .
 txt
 '
@@ -80,7 +80,7 @@ endsWith
 (
 '
 /
-dummy
+sample
 .
 txt
 -
@@ -98,7 +98,7 @@ respondWith
 fetch
 (
 '
-dummy
+sample
 .
 txt
 '
@@ -118,7 +118,7 @@ endsWith
 (
 '
 /
-dummy
+sample
 .
 txt
 -
@@ -156,7 +156,7 @@ cache
 add
 (
 '
-dummy
+sample
 .
 txt
 '
@@ -173,7 +173,7 @@ cache
 match
 (
 '
-dummy
+sample
 .
 txt
 '

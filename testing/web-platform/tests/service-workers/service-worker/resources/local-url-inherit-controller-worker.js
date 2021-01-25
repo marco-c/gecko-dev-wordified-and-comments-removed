@@ -18,7 +18,7 @@ url
 includes
 (
 '
-dummy
+sample
 '
 )
 )

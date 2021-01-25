@@ -51,7 +51,7 @@ url
 indexOf
 (
 '
-dummy
+sample
 -
 dir
 '
@@ -101,7 +101,7 @@ HTTPS_ORIGIN
 +
 '
 /
-dummy
+sample
 -
 dir
 /
@@ -149,7 +149,7 @@ HTTPS_ORIGIN
 +
 '
 /
-dummy
+sample
 -
 dir
 /
@@ -191,7 +191,7 @@ HTTPS_REMOTE_ORIGIN
 +
 '
 /
-dummy
+sample
 -
 dir
 /
@@ -219,7 +219,7 @@ HTTPS_REMOTE_ORIGIN
 +
 '
 /
-dummy
+sample
 -
 dir
 /
@@ -267,7 +267,7 @@ HTTPS_ORIGIN
 +
 '
 /
-dummy
+sample
 -
 dir
 /
@@ -309,7 +309,7 @@ HTTPS_REMOTE_ORIGIN
 +
 '
 /
-dummy
+sample
 -
 dir
 /
