@@ -556,7 +556,7 @@ JSScript
 BaselineFrame
 :
 :
-invalidationScript
+outerScript
 (
 )
 const
