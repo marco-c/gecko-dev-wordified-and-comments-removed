@@ -95,7 +95,7 @@ displayHeight
 ;
 frame
 .
-destroy
+close
 (
 )
 ;
@@ -186,7 +186,7 @@ displayHeight
 ;
 frame
 .
-destroy
+close
 (
 )
 ;
@@ -416,7 +416,7 @@ at
 ;
 frame
 .
-destroy
+close
 (
 )
 ;
@@ -514,7 +514,7 @@ length
 ;
 frame
 .
-destroy
+close
 (
 )
 ;
@@ -563,7 +563,7 @@ planar
 data
 from
 a
-destroyed
+closed
 VideoFrame
 .
 '

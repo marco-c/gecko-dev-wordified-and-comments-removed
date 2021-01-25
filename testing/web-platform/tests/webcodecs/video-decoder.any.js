@@ -1011,7 +1011,7 @@ timestamp
 ;
 frame
 .
-destroy
+close
 (
 )
 ;

@@ -1204,7 +1204,7 @@ Test
 encoder
 consumes
 (
-destroys
+closes
 )
 frames
 .
@@ -1338,7 +1338,7 @@ createVideoFrame
 ;
 frame
 .
-destroy
+close
 (
 )
 ;
@@ -1347,12 +1347,6 @@ encoder
 configure
 (
 defaultConfig
-)
-;
-frame
-.
-destroy
-(
 )
 ;
 assert_throws_dom
@@ -1378,7 +1372,7 @@ frame
 '
 Verify
 encoding
-destroyed
+closed
 frames
 throws
 .
