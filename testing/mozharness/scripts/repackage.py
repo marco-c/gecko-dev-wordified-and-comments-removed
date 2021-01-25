@@ -754,19 +754,6 @@ query_abs_dirs
 (
 )
         
-toolchains
-=
-os
-.
-environ
-.
-get
-(
-"
-MOZ_TOOLCHAINS
-"
-)
-        
 manifest_src
 =
 os
@@ -799,9 +786,6 @@ tooltool_manifest_src
 if
 not
 manifest_src
-and
-not
-toolchains
 :
             
 return
@@ -955,21 +939,6 @@ dir
 "
 cache
 ]
-)
-        
-if
-toolchains
-:
-            
-cmd
-.
-extend
-(
-toolchains
-.
-split
-(
-)
 )
         
 self
