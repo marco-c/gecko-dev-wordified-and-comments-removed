@@ -6823,7 +6823,7 @@ when
 check_for_llvm_dlltool
 paths
 =
-toolchain_search_path
+clang_search_path
 )
 depends
 (
@@ -9811,7 +9811,12 @@ lucetc
 ]
 paths
 =
-toolchain_search_path
+bootstrap_search_path
+(
+"
+lucetc
+"
+)
 )
 option
 (
@@ -10165,7 +10170,7 @@ provided_wasm_cc
 program
 paths
 =
-toolchain_search_path
+clang_search_path
 allow_missing
 =
 True
@@ -10265,7 +10270,7 @@ provided_wasm_cxx
 program
 paths
 =
-toolchain_search_path
+clang_search_path
 allow_missing
 =
 True
@@ -10914,7 +10919,12 @@ allow_missing
 True
 paths
 =
-toolchain_search_path
+bootstrap_search_path
+(
+"
+dump_syms
+"
+)
 when
 =
 compile_environment

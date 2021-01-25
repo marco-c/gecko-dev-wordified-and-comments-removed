@@ -17,7 +17,7 @@ allow_missing
 True
 paths
 =
-toolchain_search_path
+clang_search_path
 )
 option
 (
