@@ -12468,6 +12468,9 @@ IsXULElement
 MaybeNotifyCrashed
 (
 nullptr
+ContentParentId
+(
+)
 nullptr
 )
 ;
@@ -17275,6 +17278,8 @@ MaybeNotifyCrashed
 BrowsingContext
 *
 aBrowsingContext
+ContentParentId
+aChildID
 mozilla
 :
 :
@@ -17503,6 +17508,12 @@ aBrowsingContext
 IsTop
 (
 )
+;
+init
+.
+mChildID
+=
+aChildID
 ;
 }
 RefPtr

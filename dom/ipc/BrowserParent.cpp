@@ -3926,6 +3926,14 @@ frameLoader
 MaybeNotifyCrashed
 (
 mBrowsingContext
+Manager
+(
+)
+-
+>
+ChildID
+(
+)
 GetIPCChannel
 (
 )
