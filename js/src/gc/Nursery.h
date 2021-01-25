@@ -2193,10 +2193,13 @@ gc
 :
 ChunkSize
 -
+sizeof
+(
 gc
 :
 :
-ChunkTrailerSize
+ChunkHeader
+)
 ;
 void
 joinDecommitTask
@@ -2949,7 +2952,10 @@ poisonAndInitCurrentChunk
 size_t
 extent
 =
-NurseryChunkUsableSize
+gc
+:
+:
+ChunkSize
 )
 ;
 void
