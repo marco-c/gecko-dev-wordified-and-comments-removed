@@ -2304,6 +2304,12 @@ return
 enabled_
 ;
 }
+bool
+isEmpty
+(
+)
+const
+;
 void
 clear
 (
