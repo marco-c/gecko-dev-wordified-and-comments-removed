@@ -4,11 +4,12 @@ import
 time
 MESSAGE_SIZE
 =
+1024
+*
+1024
+MESSAGE_COUNT
+=
 16
-*
-1024
-*
-1024
 def
 web_socket_do_extra_handshake
 (
@@ -51,6 +52,15 @@ time
 (
 )
     
+for
+i
+in
+range
+(
+MESSAGE_COUNT
+)
+:
+        
 request
 .
 ws_stream
@@ -85,6 +95,7 @@ time
 -
 start_time
 )
+                                   
 binary
 =
 False
