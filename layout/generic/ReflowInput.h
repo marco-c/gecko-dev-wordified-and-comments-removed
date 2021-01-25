@@ -180,10 +180,6 @@ flow
 /
 #
 define
-NS_CSS_FRAME_TYPE_FLOATING
-3
-#
-define
 NS_CSS_FRAME_TYPE_ABSOLUTE
 4
 #
