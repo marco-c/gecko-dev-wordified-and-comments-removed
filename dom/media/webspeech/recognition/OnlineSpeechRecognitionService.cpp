@@ -1765,16 +1765,10 @@ LOAD_BYPASS_SERVICE_WORKER
 nsContentPolicyType
 contentPolicy
 =
-nsContentUtils
-:
-:
-InternalContentPolicyTypeToExternal
-(
 nsIContentPolicy
 :
 :
 TYPE_OTHER
-)
 ;
 nsPIDOMWindowInner
 *

@@ -1214,7 +1214,7 @@ GetExternalContentPolicyType
 )
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_STYLESHEET
@@ -2346,7 +2346,7 @@ nsIURI
 proxyURI
 uint64_t
 channelId
-nsContentPolicyType
+ExtContentPolicyType
 aContentPolicyType
 )
 {
@@ -2912,7 +2912,7 @@ HandleAsyncAPIRedirect
 )
 ;
 }
-nsContentPolicyType
+ExtContentPolicyType
 type
 =
 mLoadInfo
@@ -2927,7 +2927,7 @@ if
 type
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -2936,7 +2936,7 @@ TYPE_DOCUMENT
 type
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
@@ -7528,7 +7528,7 @@ GetExternalContentPolicyType
 )
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_SCRIPT
@@ -7815,7 +7815,7 @@ GetExternalContentPolicyType
 )
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_STYLESHEET
@@ -46145,7 +46145,7 @@ mChannelCreationTimestamp
 mAsyncOpenTime
 )
 ;
-nsContentPolicyType
+ExtContentPolicyType
 type
 =
 mLoadInfo

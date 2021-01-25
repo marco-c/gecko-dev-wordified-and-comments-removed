@@ -726,7 +726,7 @@ nsILoadInfo
 SEC_FORCE_INHERIT_PRINCIPAL
 ;
 }
-nsContentPolicyType
+ExtContentPolicyType
 externalType
 =
 nsContentUtils
@@ -894,7 +894,7 @@ if
 externalType
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
@@ -3395,7 +3395,7 @@ nsPIDOMWindowOuter
 aOuterWindow
 )
 {
-nsContentPolicyType
+ExtContentPolicyType
 type
 =
 nsContentUtils
@@ -3411,7 +3411,7 @@ if
 type
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -3484,7 +3484,7 @@ GetExternalContentPolicyType
 )
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -5011,12 +5011,18 @@ aResult
 *
 aResult
 =
+static_cast
+<
+nsContentPolicyType
+>
+(
 nsContentUtils
 :
 :
 InternalContentPolicyTypeToExternal
 (
 mInternalContentPolicyType
+)
 )
 ;
 return
@@ -5451,7 +5457,7 @@ GetExternalContentPolicyType
 )
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
@@ -7565,7 +7571,7 @@ GetExternalContentPolicyType
 )
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
