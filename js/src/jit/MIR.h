@@ -3797,14 +3797,6 @@ MDefinition
 dom
 )
 ;
-void
-justReplaceAllUsesWithExcept
-(
-MDefinition
-*
-dom
-)
-;
 [
 [
 nodiscard
