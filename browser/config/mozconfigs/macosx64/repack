@@ -51,16 +51,6 @@ MOZ_FETCHES_DIR
 dmg
 /
 hfsplus
-export
-NODEJS
-=
-MOZ_FETCHES_DIR
-/
-node
-/
-bin
-/
-node
 ac_add_options
 -
 -
