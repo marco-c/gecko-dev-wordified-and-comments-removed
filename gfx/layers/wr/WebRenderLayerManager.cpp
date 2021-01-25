@@ -344,9 +344,9 @@ mWidget
 WindowType
 (
 )
+!
 =
-=
-eWindowType_toplevel
+eWindowType_popup
 )
 {
 windowKind
