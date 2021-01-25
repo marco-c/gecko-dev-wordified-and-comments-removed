@@ -3389,8 +3389,17 @@ GetContentPolicy
 ;
 static
 inline
-ExtContentPolicyType
+nsContentPolicyType
 InternalContentPolicyTypeToExternal
+(
+nsContentPolicyType
+aType
+)
+;
+static
+inline
+nsContentPolicyType
+InternalContentPolicyTypeToExternalOrPreload
 (
 nsContentPolicyType
 aType
@@ -3408,7 +3417,7 @@ static
 bool
 IsUpgradableDisplayType
 (
-ExtContentPolicyType
+nsContentPolicyType
 aType
 )
 ;
@@ -7802,7 +7811,7 @@ sInnerOrOuterWindowSerialCounter
 }
 ;
 inline
-ExtContentPolicyType
+nsContentPolicyType
 nsContentUtils
 :
 :
@@ -7890,7 +7899,7 @@ nsIContentPolicy
 TYPE_INTERNAL_FRAME_MESSAGEMANAGER_SCRIPT
 :
 return
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SCRIPT
@@ -7908,7 +7917,7 @@ nsIContentPolicy
 TYPE_INTERNAL_OBJECT
 :
 return
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_OBJECT
@@ -7926,7 +7935,7 @@ nsIContentPolicy
 TYPE_INTERNAL_IFRAME
 :
 return
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
@@ -7950,7 +7959,7 @@ nsIContentPolicy
 TYPE_INTERNAL_TRACK
 :
 return
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_MEDIA
@@ -7968,7 +7977,7 @@ nsIContentPolicy
 TYPE_INTERNAL_EVENTSOURCE
 :
 return
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_XMLHTTPREQUEST
@@ -7992,7 +8001,7 @@ nsIContentPolicy
 TYPE_INTERNAL_IMAGE_FAVICON
 :
 return
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_IMAGE
@@ -8010,7 +8019,7 @@ nsIContentPolicy
 TYPE_INTERNAL_STYLESHEET_PRELOAD
 :
 return
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_STYLESHEET
@@ -8028,7 +8037,7 @@ nsIContentPolicy
 TYPE_INTERNAL_FORCE_ALLOWED_DTD
 :
 return
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DTD
@@ -8040,7 +8049,7 @@ nsIContentPolicy
 TYPE_INTERNAL_FONT_PRELOAD
 :
 return
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_FONT
@@ -8052,7 +8061,7 @@ nsIContentPolicy
 TYPE_INTERNAL_FETCH_PRELOAD
 :
 return
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_FETCH
@@ -8060,13 +8069,7 @@ TYPE_FETCH
 default
 :
 return
-static_cast
-<
-ExtContentPolicyType
->
-(
 aType
-)
 ;
 }
 }

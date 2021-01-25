@@ -2536,7 +2536,7 @@ if
 loadType
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -2545,7 +2545,7 @@ TYPE_DOCUMENT
 loadType
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SUBDOCUMENT

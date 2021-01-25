@@ -2105,7 +2105,7 @@ GetExternalContentPolicyType
 )
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -2119,7 +2119,7 @@ GetExternalContentPolicyType
 )
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SAVEAS_DOWNLOAD
@@ -2248,7 +2248,7 @@ GetExternalContentPolicyType
 )
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -2262,7 +2262,7 @@ GetExternalContentPolicyType
 )
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SAVEAS_DOWNLOAD
@@ -2343,7 +2343,7 @@ GetExternalContentPolicyType
 )
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SUBDOCUMENT

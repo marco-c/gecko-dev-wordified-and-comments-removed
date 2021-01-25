@@ -1897,7 +1897,7 @@ GetExternalContentPolicyType
 )
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_IMAGE
@@ -1911,7 +1911,7 @@ GetExternalContentPolicyType
 )
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_OTHER

@@ -1101,7 +1101,7 @@ C
 +
 +
 inline
-ExtContentPolicyType
+nsContentPolicyType
 GetExternalContentPolicyType
 (
 )
@@ -1133,13 +1133,7 @@ rv
 )
 ;
 return
-static_cast
-<
-ExtContentPolicyType
->
-(
 result
-)
 ;
 }
 %

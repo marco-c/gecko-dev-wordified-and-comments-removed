@@ -1255,7 +1255,7 @@ GetSecurityMode
 (
 )
 ;
-ExtContentPolicyType
+nsContentPolicyType
 externalType
 =
 loadInfo
@@ -1348,7 +1348,7 @@ if
 externalType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -1357,7 +1357,7 @@ TYPE_DOCUMENT
 externalType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
@@ -1366,7 +1366,7 @@ TYPE_SUBDOCUMENT
 externalType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_REFRESH
@@ -1375,7 +1375,7 @@ TYPE_REFRESH
 externalType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_OBJECT
@@ -1395,7 +1395,7 @@ if
 externalType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_WEBSOCKET
@@ -1602,7 +1602,7 @@ LoadInfo
 (
 )
 ;
-ExtContentPolicyType
+nsContentPolicyType
 externalType
 =
 loadInfo
@@ -1617,7 +1617,7 @@ if
 externalType
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -1626,7 +1626,7 @@ TYPE_DOCUMENT
 externalType
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SUBDOCUMENT

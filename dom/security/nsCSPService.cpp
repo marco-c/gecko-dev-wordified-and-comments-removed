@@ -193,7 +193,7 @@ nsContentPolicyType
 aContentType
 )
 {
-ExtContentPolicyType
+nsContentPolicyType
 contentType
 =
 nsContentUtils
@@ -209,7 +209,7 @@ if
 contentType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_CSP_REPORT
@@ -218,7 +218,7 @@ TYPE_CSP_REPORT
 contentType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_REFRESH
@@ -227,7 +227,7 @@ TYPE_REFRESH
 contentType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -310,7 +310,7 @@ isImgOrStyleOrDTD
 contentType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_IMAGE
@@ -319,7 +319,7 @@ TYPE_IMAGE
 contentType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_STYLESHEET
@@ -328,7 +328,7 @@ TYPE_STYLESHEET
 contentType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DTD
@@ -909,7 +909,7 @@ get
 )
 ;
 }
-ExtContentPolicyType
+uint32_t
 policyType
 =
 nsContentUtils
@@ -925,7 +925,7 @@ if
 policyType
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_OBJECT
