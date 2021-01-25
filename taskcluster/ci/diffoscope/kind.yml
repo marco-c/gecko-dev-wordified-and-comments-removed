@@ -718,9 +718,6 @@ generated
 -
 files
 :
-tier
-:
-1
 symbol
 :
 Linux32g
@@ -861,9 +858,6 @@ generated
 -
 files
 :
-tier
-:
-1
 symbol
 :
 Linux64g
