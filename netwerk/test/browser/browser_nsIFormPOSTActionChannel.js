@@ -1467,7 +1467,6 @@ function
 var
 [
 hasUploadStream
-postData
 ]
 =
 await
@@ -1511,7 +1510,6 @@ function
 var
 [
 hasUploadStream
-postData
 ]
 =
 await

@@ -8,9 +8,6 @@ run_test
 (
 )
 {
-var
-storage
-=
 getCacheStorage
 (
 "

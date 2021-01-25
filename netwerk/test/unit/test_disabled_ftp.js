@@ -71,11 +71,6 @@ ftp
 false
 )
 ;
-let
-chan
-=
-null
-;
 Assert
 .
 throws
@@ -85,8 +80,6 @@ throws
 =
 >
 {
-chan
-=
 NetUtil
 .
 newChannel

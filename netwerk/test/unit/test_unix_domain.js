@@ -1258,9 +1258,6 @@ use
 "
 )
 ;
-let
-server
-=
 new
 UnixServerSocket
 (

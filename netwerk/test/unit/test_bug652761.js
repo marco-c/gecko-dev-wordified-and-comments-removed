@@ -17,9 +17,6 @@ throws
 =
 >
 {
-var
-chan
-=
 NetUtil
 .
 newChannel

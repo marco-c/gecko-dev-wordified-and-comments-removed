@@ -253,8 +253,15 @@ URI
 =
 http
 :
-let
-response
+/
+/
+localhost
+:
+{
+PORT
+}
+/
+testdir
 ;
 await
 get_response

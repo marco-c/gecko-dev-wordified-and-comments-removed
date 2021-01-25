@@ -11397,11 +11397,6 @@ mozinfo
 .
 socketprocess_networking
 ;
-let
-[
-_
-]
-=
 await
 new
 DNSListener
@@ -13403,9 +13398,7 @@ resolve
 }
 let
 [
-inRequest
 inRecord
-inStatus
 ]
 =
 await
@@ -16119,11 +16112,6 @@ TRR_DEFAULT_MODE
 )
 ;
 let
-resolutions
-=
-0
-;
-let
 statusCounter
 =
 {
@@ -16205,9 +16193,6 @@ notificationCallbacks
 =
 statusCounter
 ;
-let
-req
-=
 await
 new
 Promise

@@ -981,17 +981,6 @@ literal
 "
 off
 "
-"
-no
--
-unused
--
-vars
-"
-:
-"
-off
-"
 }
 }
 {

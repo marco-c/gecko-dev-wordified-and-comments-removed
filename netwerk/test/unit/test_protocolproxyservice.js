@@ -782,9 +782,6 @@ nextFunction
 =
 filter_test0_1
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -887,9 +884,6 @@ true
 }
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -987,9 +981,6 @@ true
 }
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -1087,9 +1078,6 @@ true
 }
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -1174,9 +1162,6 @@ true
 }
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -1680,9 +1665,6 @@ true
 }
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -1780,9 +1762,6 @@ true
 }
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -1863,9 +1842,6 @@ true
 }
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -1969,9 +1945,6 @@ nextFunction
 =
 filter_test3_1
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -2076,9 +2049,6 @@ nextFunction
 =
 pref_test1_1
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -2159,9 +2129,6 @@ true
 }
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -2258,9 +2225,6 @@ true
 }
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -2394,9 +2358,6 @@ true
 }
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -2759,9 +2720,6 @@ autoconfig_url
 pac
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -2893,9 +2851,6 @@ proxy_over_tls
 true
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -3012,9 +2967,6 @@ proxy_over_tls
 false
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -3319,9 +3271,6 @@ autoconfig_url
 pac
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -3583,9 +3532,6 @@ autoconfig_url
 pac
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -3780,9 +3726,6 @@ autoconfig_url
 pac
 )
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -4171,9 +4114,6 @@ check_host_filter
 i
 )
 {
-var
-uri
-;
 dump
 (
 "
@@ -4236,9 +4176,6 @@ nextFunction
 =
 host_filter_cb
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -4423,9 +4360,6 @@ no_proxies_on
 )
 hostFilterList
 )
-;
-var
-rv
 ;
 uriStrFilterList
 =
@@ -4842,9 +4776,6 @@ nextFunction
 =
 myipaddress_callback
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -5073,9 +5004,6 @@ nextFunction
 =
 myipaddress2_callback
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -5264,9 +5192,6 @@ nextFunction
 =
 failed_script_callback
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -5773,9 +5698,6 @@ nextFunction
 =
 isresolvable_callback
 ;
-var
-req
-=
 pps
 .
 asyncResolve
@@ -5965,9 +5887,6 @@ nextFunction
 =
 localhost_callback
 ;
-var
-req
-=
 pps
 .
 asyncResolve

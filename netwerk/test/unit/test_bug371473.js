@@ -58,9 +58,6 @@ jar
 ;
 try
 {
-var
-newURI
-=
 ios
 .
 newURI
@@ -214,9 +211,6 @@ suffix
 ;
 try
 {
-var
-newURI
-=
 ios
 .
 newURI

@@ -393,9 +393,6 @@ do_close_profile
 generator
 )
 {
-let
-obs
-=
 new
 _observer
 (
@@ -662,9 +659,6 @@ do_load_profile
 generator
 )
 {
-let
-obs
-=
 new
 _observer
 (

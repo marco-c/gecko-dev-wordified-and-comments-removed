@@ -951,7 +951,6 @@ com
 let
 [
 req
-resp
 ]
 =
 await
@@ -1189,7 +1188,6 @@ listener
 let
 [
 req
-resp
 ]
 =
 await
@@ -1261,7 +1259,6 @@ listener
 ;
 [
 req
-resp
 ]
 =
 await
@@ -1385,7 +1382,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -1448,7 +1444,6 @@ com
 let
 [
 req
-resp
 ]
 =
 await
@@ -1846,7 +1841,6 @@ h2Port
 let
 [
 req
-resp
 ]
 =
 await

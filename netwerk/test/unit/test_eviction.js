@@ -129,9 +129,6 @@ do_run_test
 (
 )
 {
-let
-profile
-=
 do_get_profile
 (
 )

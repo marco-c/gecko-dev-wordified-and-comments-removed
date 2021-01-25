@@ -142,9 +142,6 @@ TYPE_DOCUMENT
 }
 )
 ;
-const
-principal
-=
 Services
 .
 scriptSecurityManager

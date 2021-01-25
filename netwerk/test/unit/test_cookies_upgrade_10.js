@@ -191,9 +191,6 @@ moz_basedomain
 )
 )
 ;
-let
-cookies
-=
 Services
 .
 cookies

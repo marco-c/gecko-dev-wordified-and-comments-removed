@@ -138,8 +138,6 @@ false
 try
 {
 newURI
-=
-newURI
 .
 mutate
 (

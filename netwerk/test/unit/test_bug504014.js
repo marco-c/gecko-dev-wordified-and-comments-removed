@@ -966,9 +966,6 @@ i
 {
 try
 {
-var
-uri
-=
 ios
 .
 newURI
@@ -1022,9 +1019,6 @@ i
 {
 try
 {
-var
-uri
-=
 ios
 .
 newURI

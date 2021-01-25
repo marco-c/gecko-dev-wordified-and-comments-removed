@@ -350,7 +350,6 @@ some
 ;
 let
 [
-req
 resp
 ]
 =

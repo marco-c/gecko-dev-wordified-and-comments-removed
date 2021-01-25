@@ -60,9 +60,6 @@ async
 =
 >
 {
-let
-profile
-=
 do_get_profile
 (
 )

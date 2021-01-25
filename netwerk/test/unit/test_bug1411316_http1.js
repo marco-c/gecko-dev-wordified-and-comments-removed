@@ -439,11 +439,6 @@ server
 "
 )
 ;
-var
-allDummyHttpRequestReceived
-=
-false
-;
 server
 .
 registerPathHandler

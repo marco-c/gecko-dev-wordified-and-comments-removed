@@ -197,9 +197,6 @@ throws
 =
 >
 {
-var
-etag
-=
 metadata
 .
 getHeader

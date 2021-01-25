@@ -243,15 +243,11 @@ i
 )
 {
 let
-acceptedLanguage
 qualityValue
-unused
 ;
 try
 {
 [
-unused
-acceptedLanguage
 qualityValue
 ]
 =

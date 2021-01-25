@@ -1049,7 +1049,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -1123,7 +1122,6 @@ listener
 let
 [
 req
-resp
 ]
 =
 await
@@ -1198,7 +1196,6 @@ listener
 ;
 [
 req
-resp
 ]
 =
 await
@@ -1283,7 +1280,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -1343,7 +1339,6 @@ timing
 let
 [
 req
-resp
 ]
 =
 await
@@ -1405,7 +1400,6 @@ timing
 let
 [
 req
-resp
 ]
 =
 await

@@ -1479,7 +1479,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -1541,7 +1540,6 @@ timing
 let
 [
 req
-resp
 ]
 =
 await
@@ -1981,7 +1979,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -2043,7 +2040,6 @@ timing
 let
 [
 req
-resp
 ]
 =
 await
@@ -2449,7 +2445,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -2771,7 +2766,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -3302,7 +3296,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -3677,7 +3670,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -4163,7 +4155,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -4217,7 +4208,6 @@ com
 let
 [
 req
-resp
 ]
 =
 await
@@ -4644,7 +4634,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -4702,7 +4691,6 @@ timing
 let
 [
 req
-resp
 ]
 =
 await
@@ -4784,7 +4772,6 @@ timing
 ;
 [
 req
-resp
 ]
 =
 await
@@ -5086,7 +5073,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -5522,7 +5508,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -5575,7 +5560,6 @@ org
 let
 [
 req
-resp
 ]
 =
 await
@@ -5862,7 +5846,6 @@ timing
 let
 [
 req
-resp
 ]
 =
 await
@@ -6196,7 +6179,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -6332,7 +6314,6 @@ org
 ;
 [
 req
-resp
 ]
 =
 await

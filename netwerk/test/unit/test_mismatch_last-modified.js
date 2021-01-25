@@ -244,9 +244,6 @@ request
 status
 )
 {
-var
-channel
-=
 request
 .
 QueryInterface
@@ -395,9 +392,6 @@ request
 status
 )
 {
-var
-channel
-=
 request
 .
 QueryInterface

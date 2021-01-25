@@ -529,9 +529,6 @@ throws
 =
 >
 {
-let
-result
-=
 stringToURL
 (
 "

@@ -11,9 +11,6 @@ async
 =
 >
 {
-let
-profile
-=
 do_get_profile
 (
 )
@@ -111,9 +108,6 @@ TYPE_DOCUMENT
 }
 )
 ;
-let
-principal
-=
 Services
 .
 scriptSecurityManager

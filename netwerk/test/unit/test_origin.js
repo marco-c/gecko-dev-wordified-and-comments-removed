@@ -1689,9 +1689,6 @@ offset
 cnt
 )
 {
-var
-data
-=
 read_stream
 (
 stream

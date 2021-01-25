@@ -237,9 +237,6 @@ n
 "
 )
 ;
-var
-data
-=
 binstream
 .
 readByteArray
