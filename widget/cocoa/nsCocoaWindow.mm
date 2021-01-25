@@ -4128,6 +4128,14 @@ eWindowType_popup
 )
 &
 &
+(
+mPopupType
+!
+=
+ePopupTypeTooltip
+)
+&
+&
 mWasShown
 &
 &
