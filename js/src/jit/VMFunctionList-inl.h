@@ -1019,15 +1019,6 @@ DeleteNameOperation
 \
 _
 (
-DirectEvalStringFromIon
-js
-:
-:
-DirectEvalStringFromIon
-)
-\
-_
-(
 DoCallFallback
 js
 :
