@@ -725,6 +725,7 @@ event
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

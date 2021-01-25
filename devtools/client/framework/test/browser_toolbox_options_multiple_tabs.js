@@ -443,6 +443,7 @@ registered
 }
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

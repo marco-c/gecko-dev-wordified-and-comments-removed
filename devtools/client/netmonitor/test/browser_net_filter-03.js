@@ -351,6 +351,7 @@ requests
 await
 wait
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -501,6 +502,7 @@ ascending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -562,6 +564,7 @@ filtering
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -657,6 +660,7 @@ again
 "
 )
 ;
+await
 resetSorting
 (
 )
@@ -733,6 +737,7 @@ again
 "
 )
 ;
+await
 resetSorting
 (
 )
@@ -780,11 +785,13 @@ teardown
 monitor
 )
 ;
+async
 function
 resetSorting
 (
 )
 {
+await
 EventUtils
 .
 sendMouseEvent
@@ -813,6 +820,7 @@ button
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

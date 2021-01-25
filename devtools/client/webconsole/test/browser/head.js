@@ -1738,6 +1738,7 @@ opened
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

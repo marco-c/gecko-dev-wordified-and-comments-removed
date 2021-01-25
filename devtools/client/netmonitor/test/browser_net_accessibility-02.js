@@ -789,6 +789,7 @@ check
 true
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

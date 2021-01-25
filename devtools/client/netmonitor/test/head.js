@@ -6004,6 +6004,7 @@ column
 }
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -6130,6 +6131,7 @@ column
 }
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -6258,6 +6260,7 @@ TEST_EVENTS
 RECEIVED_RESPONSE_CONTENT
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -7408,6 +7411,7 @@ block
 "
 )
 {
+await
 EventUtils
 .
 sendMouseEvent

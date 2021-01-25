@@ -238,6 +238,7 @@ item
 6
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -255,6 +256,7 @@ requests
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -451,6 +453,7 @@ frames
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

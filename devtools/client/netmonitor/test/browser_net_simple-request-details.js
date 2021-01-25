@@ -1912,6 +1912,7 @@ tabName
 panel
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

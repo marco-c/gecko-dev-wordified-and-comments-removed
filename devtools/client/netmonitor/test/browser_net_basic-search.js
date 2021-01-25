@@ -226,6 +226,7 @@ resourceRow
 2
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

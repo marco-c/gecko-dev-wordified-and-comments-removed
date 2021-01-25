@@ -425,6 +425,7 @@ ascending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -486,6 +487,7 @@ descending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -552,6 +554,7 @@ correctly
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -613,6 +616,7 @@ ascending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -674,6 +678,7 @@ descending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -740,6 +745,7 @@ correctly
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -801,6 +807,7 @@ ascending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -862,6 +869,7 @@ descending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -928,6 +936,7 @@ correctly
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -989,6 +998,7 @@ ascending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1050,6 +1060,7 @@ descending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1116,6 +1127,7 @@ correctly
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1177,6 +1189,7 @@ ascending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1238,6 +1251,7 @@ descending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1304,6 +1318,7 @@ correctly
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1365,6 +1380,7 @@ ascending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1426,6 +1442,7 @@ descending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1492,6 +1509,7 @@ correctly
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1553,6 +1571,7 @@ ascending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1614,6 +1633,7 @@ descending
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1680,6 +1700,7 @@ correctly
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1753,6 +1774,7 @@ toggleNetworkDetails
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1838,6 +1860,7 @@ toggleNetworkDetails
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1929,6 +1952,7 @@ toggleNetworkDetails
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -2589,6 +2613,7 @@ code
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

@@ -158,6 +158,7 @@ sidebar
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -460,6 +461,7 @@ node
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
