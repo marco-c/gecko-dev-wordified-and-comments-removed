@@ -9998,7 +9998,7 @@ MOZ_JPROF
 unsetenv
 (
 "
-JPROF_SLAVE
+JPROF_ISCHILD
 "
 )
 ;
