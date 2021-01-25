@@ -22348,10 +22348,6 @@ dnl
 =
 =
 =
-AC_SUBST
-(
-NM
-)
 AC_SUBST_LIST
 (
 ASFLAGS
