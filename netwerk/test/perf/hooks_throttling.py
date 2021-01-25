@@ -182,6 +182,22 @@ throttler_key
 "
 :
     
+if
+TASK_CLUSTER
+:
+        
+raise
+Exception
+(
+"
+throttler_key
+not
+found
+in
+secret
+"
+)
+    
 raise
 Exception
 (
