@@ -476,6 +476,15 @@ UseEGL
 bool
 false
 )
+\
+_
+(
+DrmRenderDevice
+nsCString
+nsCString
+(
+)
+)
 class
 gfxVars
 final
