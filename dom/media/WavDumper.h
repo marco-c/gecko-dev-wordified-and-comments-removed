@@ -269,8 +269,14 @@ riffHeader
 >
 header
 ;
+mozilla
+:
+:
 ByteWriter
 <
+mozilla
+:
+:
 LittleEndian
 >
 writer
@@ -299,6 +305,9 @@ BLOCK_ALIGN_OFFSET
 =
 32
 ;
+mozilla
+:
+:
 DebugOnly
 <
 bool
@@ -435,6 +444,9 @@ i
 written
 ;
 }
+mozilla
+:
+:
 Unused
 <
 <
@@ -547,6 +559,9 @@ uint8_t
 >
 buf
 ;
+mozilla
+:
+:
 ByteWriter
 <
 mozilla
@@ -575,6 +590,9 @@ aSamples
 i
 )
 {
+mozilla
+:
+:
 DebugOnly
 <
 bool
