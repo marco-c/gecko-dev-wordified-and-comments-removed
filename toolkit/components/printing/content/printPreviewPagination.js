@@ -1117,8 +1117,8 @@ sheetCount
 data
 .
 sheetCount
-&
-&
+|
+|
 this
 .
 currentSheet
