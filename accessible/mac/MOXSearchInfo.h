@@ -45,6 +45,10 @@ mSearchForward
 BOOL
 mImmediateDescendantsOnly
 ;
+NSString
+*
+mSearchText
+;
 }
 -
 (
