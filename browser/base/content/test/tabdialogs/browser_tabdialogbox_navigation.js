@@ -83,7 +83,9 @@ dialogs
 =
 dialogBox
 .
-_dialogManager
+getTabDialogManager
+(
+)
 .
 _dialogs
 ;
@@ -237,7 +239,9 @@ dialog
 =
 dialogBox
 .
-_dialogManager
+getTabDialogManager
+(
+)
 .
 _topDialog
 ;
@@ -245,7 +249,9 @@ is
 (
 dialogBox
 .
-_dialogManager
+getTabDialogManager
+(
+)
 .
 _dialogs
 .
@@ -590,7 +596,7 @@ dialogBoxManager
 =
 dialogBox
 .
-getManager
+getTabDialogManager
 (
 )
 ;
@@ -617,7 +623,9 @@ dialogs
 =
 dialogBox
 .
-_dialogManager
+getTabDialogManager
+(
+)
 .
 _dialogs
 ;
@@ -625,7 +633,9 @@ is
 (
 dialogBox
 .
-_dialogManager
+getTabDialogManager
+(
+)
 .
 _dialogs
 .
