@@ -417,6 +417,15 @@ aSecondaryContainer
 )
 {
 }
+virtual
+bool
+IsActuallyInvisible
+(
+)
+const
+=
+0
+;
 }
 ;
 }

@@ -580,12 +580,6 @@ MozHasAudio
 )
 const
 ;
-FrameStatistics
-*
-GetFrameStatistics
-(
-)
-;
 already_AddRefed
 <
 VideoPlaybackQuality
