@@ -812,6 +812,15 @@ return
 ;
 #
 endif
+if
+(
+!
+mRemoteServer
+)
+{
+return
+;
+}
 nsresult
 rv
 =
