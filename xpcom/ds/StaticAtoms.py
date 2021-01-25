@@ -678,11 +678,9 @@ presentation
     
 Atom
 (
-        
 "
 allowstorageaccessbyuseractivatetion
 "
-        
 "
 allow
 -
@@ -696,7 +694,6 @@ user
 -
 activation
 "
-    
 )
     
 Atom
@@ -751,7 +748,6 @@ navigation
     
 Atom
 (
-        
 "
 allowtopnavigationbyuseractivation
 "
@@ -768,7 +764,6 @@ user
 -
 activation
 "
-    
 )
     
 Atom
@@ -21650,14 +21645,12 @@ AnimationsProperty
     
 Atom
 (
-        
 "
 animationsOfBeforeProperty
 "
 "
 AnimationsOfBeforeProperty
 "
-    
 )
     
 Atom
@@ -21672,14 +21665,12 @@ AnimationsOfAfterProperty
     
 Atom
 (
-        
 "
 animationsOfMarkerProperty
 "
 "
 AnimationsOfMarkerProperty
 "
-    
 )
     
 Atom
@@ -21694,38 +21685,32 @@ AnimationEffectsProperty
     
 Atom
 (
-        
 "
 animationEffectsForBeforeProperty
 "
 "
 AnimationsEffectsForBeforeProperty
 "
-    
 )
     
 Atom
 (
-        
 "
 animationEffectsForAfterProperty
 "
 "
 AnimationsEffectsForAfterProperty
 "
-    
 )
     
 Atom
 (
-        
 "
 animationEffectsForMarkerProperty
 "
 "
 AnimationsEffectsForMarkerProperty
 "
-    
 )
     
 Atom
@@ -21740,38 +21725,32 @@ beforePseudoProperty
     
 Atom
 (
-        
 "
 cssPseudoElementBeforeProperty
 "
 "
 CSSPseudoElementBeforeProperty
 "
-    
 )
     
 Atom
 (
-        
 "
 cssPseudoElementAfterProperty
 "
 "
 CSSPseudoElementAfterProperty
 "
-    
 )
     
 Atom
 (
-        
 "
 cssPseudoElementMarkerProperty
 "
 "
 CSSPseudoElementMarkerProperty
 "
-    
 )
     
 Atom
@@ -21786,38 +21765,32 @@ TransitionsProperty
     
 Atom
 (
-        
 "
 transitionsOfBeforeProperty
 "
 "
 TransitionsOfBeforeProperty
 "
-    
 )
     
 Atom
 (
-        
 "
 transitionsOfAfterProperty
 "
 "
 TransitionsOfAfterProperty
 "
-    
 )
     
 Atom
 (
-        
 "
 transitionsOfMarkerProperty
 "
 "
 TransitionsOfMarkerProperty
 "
-    
 )
     
 Atom
@@ -22631,7 +22604,6 @@ scrollbars
     
 Atom
 (
-        
 "
 _moz_windows_accent_color_in_titlebar
 "
@@ -22649,7 +22621,6 @@ in
 -
 titlebar
 "
-    
 )
     
 Atom
@@ -22865,7 +22836,6 @@ available
     
 Atom
 (
-        
 "
 _moz_gtk_csd_hide_titlebar_by_default
 "
@@ -22885,7 +22855,6 @@ by
 -
 default
 "
-    
 )
     
 Atom
@@ -25164,7 +25133,6 @@ inner
     
 PseudoElementAtom
 (
-        
 "
 PseudoElement_mozComplexControlWrapper
 "
@@ -25179,7 +25147,6 @@ control
 -
 wrapper
 "
-    
 )
     
 PseudoElementAtom
@@ -25238,7 +25205,6 @@ down
     
 PseudoElementAtom
 (
-        
 "
 PseudoElement_mozSearchClearButton
 "
@@ -25253,7 +25219,6 @@ clear
 -
 button
 "
-    
 )
     
 PseudoElementAtom
@@ -25365,7 +25330,6 @@ swatch
     
 PseudoElementAtom
 (
-        
 "
 PseudoElement_mozTextControlEditingRoot
 "
@@ -25382,12 +25346,10 @@ editing
 -
 root
 "
-    
 )
     
 PseudoElementAtom
 (
-        
 "
 PseudoElement_mozTextControlPreview
 "
@@ -25402,7 +25364,6 @@ control
 -
 preview
 "
-    
 )
     
 PseudoElementAtom
@@ -25438,7 +25399,6 @@ placeholder
     
 NonInheritingAnonBoxAtom
 (
-        
 "
 AnonBox_horizontalFramesetBorder
 "
@@ -25451,12 +25411,10 @@ hframeset
 -
 border
 "
-    
 )
     
 NonInheritingAnonBoxAtom
 (
-        
 "
 AnonBox_verticalFramesetBorder
 "
@@ -25469,7 +25427,6 @@ vframeset
 -
 border
 "
-    
 )
     
 NonInheritingAnonBoxAtom
@@ -25570,7 +25527,6 @@ text
     
 InheritingAnonBoxAtom
 (
-        
 "
 AnonBox_firstLetterContinuation
 "
@@ -25585,12 +25541,10 @@ letter
 -
 continuation
 "
-    
 )
     
 InheritingAnonBoxAtom
 (
-        
 "
 AnonBox_mozBlockInsideInlineWrapper
 "
@@ -25607,12 +25561,10 @@ inline
 -
 wrapper
 "
-    
 )
     
 InheritingAnonBoxAtom
 (
-        
 "
 AnonBox_mozMathMLAnonymousBlock
 "
@@ -25627,7 +25579,6 @@ anonymous
 -
 block
 "
-    
 )
     
 InheritingAnonBoxAtom
@@ -25730,7 +25681,6 @@ content
     
 InheritingAnonBoxAtom
 (
-        
 "
 AnonBox_mozDisplayComboboxControlFrame
 "
@@ -25745,7 +25695,6 @@ comboboxcontrol
 -
 frame
 "
-    
 )
     
 InheritingAnonBoxAtom
@@ -25970,7 +25919,6 @@ canvas
     
 InheritingAnonBoxAtom
 (
-        
 "
 AnonBox_scrolledPageSequence
 "
@@ -25985,7 +25933,6 @@ page
 -
 sequence
 "
-    
 )
     
 InheritingAnonBoxAtom
@@ -26368,7 +26315,6 @@ feedback
     
 InheritingAnonBoxAtom
 (
-        
 "
 AnonBox_mozSVGMarkerAnonChild
 "
@@ -26385,12 +26331,10 @@ anon
 -
 child
 "
-    
 )
     
 InheritingAnonBoxAtom
 (
-        
 "
 AnonBox_mozSVGOuterSVGAnonChild
 "
@@ -26409,7 +26353,6 @@ anon
 -
 child
 "
-    
 )
     
 InheritingAnonBoxAtom
