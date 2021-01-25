@@ -1650,6 +1650,13 @@ failed
 true
 ;
 }
+}
+if
+(
+!
+failed
+)
+{
 interfaceName
 =
 PropertyKey
@@ -1660,13 +1667,6 @@ fromPinnedString
 str
 )
 ;
-}
-if
-(
-!
-failed
-)
-{
 int
 size
 =
