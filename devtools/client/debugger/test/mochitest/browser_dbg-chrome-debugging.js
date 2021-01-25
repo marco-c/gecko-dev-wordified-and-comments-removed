@@ -249,13 +249,6 @@ url
 )
 ;
 await
-threadFront
-.
-resume
-(
-)
-;
-await
 client
 .
 close

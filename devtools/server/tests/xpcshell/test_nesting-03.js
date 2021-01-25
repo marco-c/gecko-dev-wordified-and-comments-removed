@@ -67,6 +67,13 @@ firstClient
 GLOBAL_NAME
 )
 ;
+await
+firstThreadFront
+.
+interrupt
+(
+)
+;
 const
 secondClient
 =
@@ -99,6 +106,13 @@ attachTestThread
 (
 secondClient
 GLOBAL_NAME
+)
+;
+await
+secondThreadFront
+.
+interrupt
+(
 )
 ;
 let

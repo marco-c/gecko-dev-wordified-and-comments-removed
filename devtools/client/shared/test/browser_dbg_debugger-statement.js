@@ -446,13 +446,6 @@ attachThread
 (
 )
 ;
-await
-threadFront
-.
-resume
-(
-)
-;
 ok
 (
 true

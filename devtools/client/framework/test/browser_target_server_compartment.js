@@ -219,13 +219,6 @@ attachThread
 (
 )
 ;
-await
-threadFront
-.
-resume
-(
-)
-;
 const
 {
 sources
@@ -649,13 +642,6 @@ await
 target
 .
 attachThread
-(
-)
-;
-await
-threadFront
-.
-resume
 (
 )
 ;
