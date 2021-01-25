@@ -22200,7 +22200,7 @@ return
 RejectWithErrorNumber
 (
 cx
-JSMSG_BAD_RESPONSE_VALUE
+JSMSG_WASM_BAD_RESPONSE_VALUE
 promise
 )
 ;
