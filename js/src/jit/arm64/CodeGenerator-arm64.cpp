@@ -4125,7 +4125,7 @@ LSR
 ;
 masm
 .
-Asr
+Lsr
 (
 output64
 output64
@@ -4139,7 +4139,7 @@ else
 {
 masm
 .
-Asr
+Lsr
 (
 output64
 output64
