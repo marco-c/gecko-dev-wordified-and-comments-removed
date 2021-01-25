@@ -2403,7 +2403,7 @@ alias
 uri
 query
 engineIconUri
-keywordOffer
+providesSearchMode
 providerName
 inPrivateWindow
 isPrivateEngine
@@ -2504,14 +2504,7 @@ keyword
 :
 [
 alias
-keywordOffer
-=
-=
-UrlbarUtils
-.
-KEYWORD_OFFER
-.
-SHOW
+providesSearchMode
 ?
 UrlbarUtils
 .
@@ -2550,7 +2543,7 @@ TYPED
 icon
 :
 engineIconUri
-keywordOffer
+providesSearchMode
 inPrivateWindow
 isPrivateEngine
 }

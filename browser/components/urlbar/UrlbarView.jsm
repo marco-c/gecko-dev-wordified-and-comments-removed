@@ -2478,14 +2478,7 @@ firstResult
 .
 payload
 .
-keywordOffer
-=
-=
-UrlbarUtils
-.
-KEYWORD_OFFER
-.
-SHOW
+providesSearchMode
 &
 &
 queryContext
@@ -4915,7 +4908,7 @@ result
 .
 payload
 .
-keywordOffer
+providesSearchMode
 &
 &
 !
@@ -5774,7 +5767,7 @@ result
 .
 payload
 .
-keywordOffer
+providesSearchMode
 )
 {
 actionSetter
@@ -8311,7 +8304,7 @@ result
 .
 payload
 .
-keywordOffer
+providesSearchMode
 )
 {
 this
