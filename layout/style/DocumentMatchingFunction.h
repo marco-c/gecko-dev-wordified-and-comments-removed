@@ -21,6 +21,8 @@ URLPrefix
 Domain
 RegExp
 MediaDocument
+PlainTextDocument
+UnobservableDocument
 }
 ;
 }
