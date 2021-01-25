@@ -8324,6 +8324,14 @@ EnvHasValue
 MOZ_RESET_PROFILE_RESTART
 "
 )
+|
+|
+EnvHasValue
+(
+"
+MOZ_HEADLESS
+"
+)
 )
 {
 sPreXULSkeletonUIDisallowed
