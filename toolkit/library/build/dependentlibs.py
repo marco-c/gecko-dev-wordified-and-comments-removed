@@ -255,6 +255,10 @@ tmp
 =
 line
 .
+strip
+(
+)
+.
 split
 (
 "
@@ -276,7 +280,7 @@ NEEDED
 in
 tmp
 [
-2
+1
 ]
 :
             
