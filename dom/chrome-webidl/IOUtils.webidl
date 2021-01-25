@@ -413,7 +413,7 @@ DOMException
 /
 Promise
 <
-DOMString
+UTF8String
 >
 readUTF8
 (
