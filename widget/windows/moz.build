@@ -466,6 +466,11 @@ ScreenHelperWin
 cpp
 "
 "
+ScrollbarUtil
+.
+cpp
+"
+"
 SystemStatusBar
 .
 cpp
