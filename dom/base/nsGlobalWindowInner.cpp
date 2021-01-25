@@ -7583,7 +7583,7 @@ wrapper
 JS
 :
 :
-RealmBehaviorsRef
+SetRealmNonLive
 (
 js
 :
@@ -7592,10 +7592,6 @@ GetNonCCWObjectRealm
 (
 wrapper
 )
-)
-.
-setNonLive
-(
 )
 ;
 }
