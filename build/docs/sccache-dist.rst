@@ -624,7 +624,8 @@ at
 /
 Library
 /
-Preferences
+Application
+Support
 /
 Mozilla
 .
