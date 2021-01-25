@@ -1533,10 +1533,7 @@ startTime
 {
 AUTO_PROFILER_STATS
 (
-ChromeUtils
-:
-:
-AddProfilerMarker
+ChromeUtils_AddProfilerMarker
 )
 ;
 if
