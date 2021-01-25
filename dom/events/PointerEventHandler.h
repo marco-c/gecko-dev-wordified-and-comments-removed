@@ -257,6 +257,8 @@ aEvent
 nsIContent
 *
 aTargetContent
+=
+nullptr
 )
 ;
 static
