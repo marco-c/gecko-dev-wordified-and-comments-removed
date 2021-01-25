@@ -1285,7 +1285,7 @@ js
 bool
 gUseOffThreadParseGlobal
 =
-true
+false
 ;
 }
 JS_PUBLIC_API
