@@ -2599,15 +2599,6 @@ decltype
 &
 :
 :
-GetModuleHandleW
-)
-mGetModuleHandleW
-;
-decltype
-(
-&
-:
-:
 GetSystemInfo
 )
 mGetSystemInfo

@@ -90,12 +90,6 @@ NTSTATUS
 aMapNtStatus
 )
 ;
-static
-bool
-ExistsTopFrame
-(
-)
-;
 NTSTATUS
 SetLoadStatus
 (
