@@ -2508,8 +2508,17 @@ inflation
 const
 auto
 &
-iSizeCoord
+styleISize
 =
+aSizeOverrides
+.
+mStyleISize
+?
+*
+aSizeOverrides
+.
+mStyleISize
+:
 StylePosition
 (
 )
@@ -2522,7 +2531,7 @@ aWM
 ;
 if
 (
-iSizeCoord
+styleISize
 .
 IsAuto
 (
