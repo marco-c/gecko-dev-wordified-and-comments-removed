@@ -648,17 +648,17 @@ SPFontsDataType
 try
 :
             
-readPlistFromBytes
+load_plist
 =
 plistlib
 .
-readPlistFromBytes
+loads
         
 except
 AttributeError
 :
             
-readPlistFromBytes
+load_plist
 =
 plistlib
 .
@@ -666,7 +666,7 @@ readPlistFromString
         
 fonts
 =
-readPlistFromBytes
+load_plist
 (
 fonts
 )
