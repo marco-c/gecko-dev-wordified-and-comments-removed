@@ -5901,6 +5901,8 @@ recordSearch
 win
 .
 gBrowser
+.
+selectedBrowser
 engine
 "
 urlbar

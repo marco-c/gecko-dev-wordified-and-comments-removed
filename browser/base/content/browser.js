@@ -19029,6 +19029,8 @@ BrowserSearchTelemetry
 recordSearch
 (
 gBrowser
+.
+selectedBrowser
 engine
 "
 contextmenu
@@ -19082,6 +19084,8 @@ BrowserSearchTelemetry
 recordSearch
 (
 gBrowser
+.
+selectedBrowser
 engine
 "
 system
@@ -19140,6 +19144,8 @@ BrowserSearchTelemetry
 recordSearch
 (
 gBrowser
+.
+selectedBrowser
 result
 .
 engine

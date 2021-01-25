@@ -2059,6 +2059,8 @@ BrowserSearchTelemetry
 recordSearch
 (
 gBrowser
+.
+selectedBrowser
 engine
 "
 searchbar

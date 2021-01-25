@@ -140,7 +140,7 @@ BrowserSearchTelemetryHandler
 {
 shouldRecordSearchCount
 (
-tabbrowser
+browser
 )
 {
 return
@@ -150,7 +150,7 @@ PrivateBrowsingUtils
 .
 isWindowPrivate
 (
-tabbrowser
+browser
 .
 ownerGlobal
 )
@@ -540,7 +540,7 @@ scalarKey
 }
 recordSearch
 (
-tabbrowser
+browser
 engine
 source
 details
@@ -558,7 +558,7 @@ this
 .
 shouldRecordSearchCount
 (
-tabbrowser
+browser
 )
 )
 {
