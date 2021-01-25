@@ -36643,9 +36643,6 @@ TestPolicy
 Data
 {
 bool
-operandMightEmulateUndefined_
-;
-bool
 operandIsNeverNaN_
 ;
 explicit
@@ -36660,10 +36657,6 @@ MUnaryInstruction
 (
 classOpcode
 input
-)
-operandMightEmulateUndefined_
-(
-true
 )
 operandIsNeverNaN_
 (
@@ -36771,16 +36764,6 @@ alloc
 )
 override
 ;
-bool
-operandMightEmulateUndefined
-(
-)
-const
-{
-return
-operandMightEmulateUndefined_
-;
-}
 bool
 operandIsNeverNaN
 (
