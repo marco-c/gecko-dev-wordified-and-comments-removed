@@ -13928,11 +13928,6 @@ false
 {
 if
 (
-IsWin10OrLater
-(
-)
-&
-&
 UseWebRender
 (
 )
