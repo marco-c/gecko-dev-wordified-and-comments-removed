@@ -596,6 +596,8 @@ cors
 /
 resource
 .
+cors
+.
 json
 \
 -
