@@ -3581,11 +3581,6 @@ types
 )
 const
 ;
-bool
-maybeEmulatesUndefined
-(
-)
-;
 virtual
 bool
 isFloat32Commutative
