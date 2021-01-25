@@ -638,13 +638,7 @@ private
 :
 WindowBackBuffer
 *
-GetWaylandBufferWithSwitch
-(
-)
-;
-WindowBackBuffer
-*
-GetWaylandBufferRecent
+GetWaylandBuffer
 (
 )
 ;
