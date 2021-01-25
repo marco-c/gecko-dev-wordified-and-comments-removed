@@ -64,6 +64,15 @@ test
 /
 metrics
 /
+browser_metrics
+.
+ini
+"
+"
+test
+/
+metrics
+/
 browser_metrics_debugger
 .
 ini
