@@ -6920,6 +6920,16 @@ DisplayItemType
 TYPE_SVG_GEOMETRY
 :
 {
+if
+(
+StaticPrefs
+:
+:
+gfx_webrender_svg_images
+(
+)
+)
+{
 auto
 *
 svgItem
@@ -6945,6 +6955,10 @@ aSc
 aManager
 aDisplayListBuilder
 )
+;
+}
+return
+false
 ;
 }
 case
