@@ -10853,7 +10853,7 @@ shouldSplicePrototype
 if
 (
 !
-JSObject
+GlobalObject
 :
 :
 splicePrototype

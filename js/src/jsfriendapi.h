@@ -215,7 +215,7 @@ JS
 :
 :
 HandleObject
-obj
+global
 JS
 :
 :
