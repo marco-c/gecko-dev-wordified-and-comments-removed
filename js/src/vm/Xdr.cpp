@@ -4014,6 +4014,9 @@ JS
 TranscodeBuffer
 &
 buffer
+ScriptSource
+*
+ss
 )
 {
 if
@@ -4340,6 +4343,9 @@ JS
 TranscodeBuffer
 &
 buffer
+ScriptSource
+*
+ss
 )
 {
 MOZ_ASSERT_IF

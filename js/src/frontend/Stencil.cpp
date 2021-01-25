@@ -4361,6 +4361,11 @@ encoder
 linearize
 (
 buf
+input
+.
+source
+(
+)
 )
 ;
 if
