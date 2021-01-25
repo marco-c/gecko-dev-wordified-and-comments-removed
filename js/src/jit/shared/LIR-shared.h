@@ -46498,7 +46498,7 @@ getTemp
 }
 ;
 class
-LGuardIndexIsNonNegative
+LGuardInt32IsNonNegative
 :
 public
 LInstructionHelper
@@ -46512,10 +46512,10 @@ public
 :
 LIR_HEADER
 (
-GuardIndexIsNonNegative
+GuardInt32IsNonNegative
 )
 explicit
-LGuardIndexIsNonNegative
+LGuardInt32IsNonNegative
 (
 const
 LAllocation
