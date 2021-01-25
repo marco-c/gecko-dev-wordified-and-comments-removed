@@ -542,7 +542,6 @@ defaultNewGroup
 cx
 clasp
 proto
-nullptr
 )
 ;
 if
