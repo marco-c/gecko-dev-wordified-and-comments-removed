@@ -1,7 +1,3 @@
-extern
-crate
-crossbeam_channel
-;
 use
 std
 :

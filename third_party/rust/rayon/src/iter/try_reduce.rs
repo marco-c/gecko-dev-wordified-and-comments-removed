@@ -152,13 +152,7 @@ TryReduceConsumer
 '
 r
 R
-:
-'
-r
 ID
-:
-'
-r
 >
 {
 identity
@@ -605,9 +599,6 @@ TryReduceFolder
 '
 r
 R
-:
-'
-r
 T
 :
 Try

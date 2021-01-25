@@ -1,7 +1,3 @@
-extern
-crate
-rayon_core
-;
 fn
 pseudo_join
 <

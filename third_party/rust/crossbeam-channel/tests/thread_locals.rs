@@ -1,15 +1,3 @@
-#
-[
-macro_use
-]
-extern
-crate
-crossbeam_channel
-;
-extern
-crate
-crossbeam_utils
-;
 use
 std
 :
@@ -29,7 +17,10 @@ use
 crossbeam_channel
 :
 :
+{
+select
 unbounded
+}
 ;
 use
 crossbeam_utils

@@ -1635,12 +1635,8 @@ iter
 (
 )
 .
-flat_map
+flatten
 (
-|
-vec
-|
-vec
 )
 .
 map

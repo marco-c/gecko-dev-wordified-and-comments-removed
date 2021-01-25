@@ -1,11 +1,5 @@
-extern
-crate
-crossbeam_deque
-as
-deque
-;
 use
-deque
+crossbeam_deque
 :
 :
 Steal
@@ -14,7 +8,7 @@ Steal
 Success
 ;
 use
-deque
+crossbeam_deque
 :
 :
 {

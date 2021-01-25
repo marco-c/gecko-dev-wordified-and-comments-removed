@@ -8,10 +8,6 @@ test
 ]
 extern
 crate
-crossbeam_utils
-;
-extern
-crate
 test
 ;
 use

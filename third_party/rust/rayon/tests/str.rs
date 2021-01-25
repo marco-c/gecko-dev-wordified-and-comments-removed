@@ -1,15 +1,3 @@
-extern
-crate
-rand
-;
-extern
-crate
-rand_xorshift
-;
-extern
-crate
-rayon
-;
 use
 rand
 :
@@ -117,7 +105,6 @@ execute_strings
 )
 {
 let
-mut
 rng
 =
 seeded_rng

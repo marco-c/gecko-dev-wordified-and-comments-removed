@@ -335,7 +335,6 @@ u8
 >
 >
 }
-;
 impl
 glean
 :
@@ -771,10 +770,9 @@ _
 (
 )
 ;
-assert
+panic
 !
 (
-false
 "
 Data
 :

@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 iter
 :
 :
@@ -20,9 +23,6 @@ SplitProducer
 '
 p
 P
-:
-'
-p
 V
 >
 {

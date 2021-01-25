@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 iter
 :
 :
@@ -8,13 +11,13 @@ plumbing
 *
 ;
 use
+crate
+:
+:
 iter
 :
 :
 *
-;
-use
-std
 ;
 use
 std

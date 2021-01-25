@@ -274,9 +274,6 @@ FilterConsumer
 p
 C
 P
-:
-'
-p
 >
 {
 base
@@ -609,9 +606,6 @@ FilterFolder
 p
 C
 P
-:
-'
-p
 >
 {
 base

@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 iter
 :
 :
@@ -8,12 +11,18 @@ plumbing
 *
 ;
 use
+crate
+:
+:
 iter
 :
 :
 *
 ;
 use
+crate
+:
+:
 split_producer
 :
 :
@@ -520,6 +529,9 @@ mod
 private
 {
 use
+crate
+:
+:
 iter
 :
 :
@@ -2588,9 +2600,6 @@ sep
 P
 :
 Pattern
-+
-'
-sep
 >
 {
 splitter
@@ -3240,9 +3249,6 @@ pat
 P
 :
 Pattern
-+
-'
-pat
 >
 {
 chars
@@ -3506,9 +3512,6 @@ pat
 P
 :
 Pattern
-+
-'
-pat
 >
 {
 index

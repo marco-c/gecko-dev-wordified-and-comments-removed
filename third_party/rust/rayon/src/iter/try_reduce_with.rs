@@ -134,9 +134,6 @@ TryReduceWithConsumer
 '
 r
 R
-:
-'
-r
 >
 {
 reduce_op
@@ -587,9 +584,6 @@ TryReduceWithFolder
 '
 r
 R
-:
-'
-r
 T
 :
 Try

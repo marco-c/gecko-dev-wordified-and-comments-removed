@@ -1,19 +1,3 @@
-#
-[
-macro_use
-]
-extern
-crate
-crossbeam_channel
-;
-extern
-crate
-crossbeam_utils
-;
-extern
-crate
-rand
-;
 use
 std
 :
@@ -62,6 +46,7 @@ crossbeam_channel
 :
 {
 after
+select
 Select
 TryRecvError
 }

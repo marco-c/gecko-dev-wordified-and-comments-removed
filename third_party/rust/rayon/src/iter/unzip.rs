@@ -987,9 +987,6 @@ b
 I
 OP
 FromB
-:
-'
-b
 >
 {
 base
@@ -1406,9 +1403,6 @@ UnzipConsumer
 '
 a
 OP
-:
-'
-a
 CA
 CB
 >
@@ -1806,9 +1800,6 @@ UnzipFolder
 '
 a
 OP
-:
-'
-a
 FA
 FB
 >

@@ -339,13 +339,7 @@ FoldConsumer
 c
 C
 ID
-:
-'
-c
 F
-:
-'
-c
 >
 {
 base
@@ -679,9 +673,6 @@ r
 C
 ID
 F
-:
-'
-r
 >
 {
 base
@@ -1256,9 +1247,6 @@ c
 C
 U
 F
-:
-'
-c
 >
 {
 base

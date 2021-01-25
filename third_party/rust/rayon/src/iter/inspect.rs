@@ -553,9 +553,6 @@ InspectProducer
 f
 P
 F
-:
-'
-f
 >
 {
 base
@@ -804,9 +801,6 @@ InspectConsumer
 f
 C
 F
-:
-'
-f
 >
 {
 base
@@ -1127,9 +1121,6 @@ InspectFolder
 f
 C
 F
-:
-'
-f
 >
 {
 base

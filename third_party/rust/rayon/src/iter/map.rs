@@ -571,9 +571,6 @@ MapProducer
 f
 P
 F
-:
-'
-f
 >
 {
 base
@@ -828,9 +825,6 @@ MapConsumer
 f
 C
 F
-:
-'
-f
 >
 {
 base
@@ -1169,9 +1163,6 @@ MapFolder
 f
 C
 F
-:
-'
-f
 >
 {
 base

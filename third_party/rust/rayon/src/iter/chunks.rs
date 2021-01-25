@@ -23,6 +23,9 @@ super
 *
 ;
 use
+crate
+:
+:
 math
 :
 :

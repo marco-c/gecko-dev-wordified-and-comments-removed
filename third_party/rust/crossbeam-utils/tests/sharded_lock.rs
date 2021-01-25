@@ -1,11 +1,3 @@
-extern
-crate
-crossbeam_utils
-;
-extern
-crate
-rand
-;
 use
 std
 :

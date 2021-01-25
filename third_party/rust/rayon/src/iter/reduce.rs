@@ -102,13 +102,7 @@ ReduceConsumer
 '
 r
 R
-:
-'
-r
 ID
-:
-'
-r
 >
 {
 identity
@@ -449,9 +443,6 @@ ReduceFolder
 '
 r
 R
-:
-'
-r
 T
 >
 {

@@ -57,6 +57,7 @@ self
 )
 -
 >
+crate
 :
 :
 private
@@ -65,6 +66,7 @@ private
 PrivateMarker
 ;
 }
+;
 }
 macro_rules
 !
@@ -83,6 +85,7 @@ self
 )
 -
 >
+crate
 :
 :
 private
@@ -90,6 +93,7 @@ private
 :
 PrivateMarker
 {
+crate
 :
 :
 private
@@ -98,4 +102,5 @@ private
 PrivateMarker
 }
 }
+;
 }

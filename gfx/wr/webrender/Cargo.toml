@@ -225,7 +225,7 @@ parallel
 .
 1
 .
-1
+2
 "
 glslopt
 =
@@ -437,6 +437,8 @@ rayon
 =
 "
 1
+.
+5
 "
 ron
 =

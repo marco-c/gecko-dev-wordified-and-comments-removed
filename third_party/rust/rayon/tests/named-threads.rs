@@ -1,7 +1,3 @@
-extern
-crate
-rayon
-;
 use
 std
 :

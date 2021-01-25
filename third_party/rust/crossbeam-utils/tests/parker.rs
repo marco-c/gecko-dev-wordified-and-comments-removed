@@ -1,7 +1,3 @@
-extern
-crate
-crossbeam_utils
-;
 use
 std
 :

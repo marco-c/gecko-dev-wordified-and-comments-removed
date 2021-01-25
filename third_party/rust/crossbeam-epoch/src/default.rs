@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 collector
 :
 :
@@ -8,10 +11,19 @@ LocalHandle
 }
 ;
 use
+crate
+:
+:
 guard
 :
 :
 Guard
+;
+use
+lazy_static
+:
+:
+lazy_static
 ;
 lazy_static
 !

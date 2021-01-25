@@ -552,9 +552,6 @@ UpdateProducer
 f
 P
 F
-:
-'
-f
 >
 {
 base
@@ -806,9 +803,6 @@ UpdateConsumer
 f
 C
 F
-:
-'
-f
 >
 {
 base
@@ -1135,9 +1129,6 @@ UpdateFolder
 f
 C
 F
-:
-'
-f
 >
 {
 base

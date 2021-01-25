@@ -84,9 +84,6 @@ ForEachConsumer
 '
 f
 F
-:
-'
-f
 >
 {
 op
