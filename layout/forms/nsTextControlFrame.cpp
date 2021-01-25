@@ -2476,10 +2476,6 @@ const
 LogicalSize
 &
 aBorderPadding
-const
-StyleSizeOverrides
-&
-aSizeOverrides
 ComputeSizeFlags
 aFlags
 )
@@ -2508,17 +2504,8 @@ inflation
 const
 auto
 &
-styleISize
+iSizeCoord
 =
-aSizeOverrides
-.
-mStyleISize
-?
-*
-aSizeOverrides
-.
-mStyleISize
-:
 StylePosition
 (
 )
@@ -2531,7 +2518,7 @@ aWM
 ;
 if
 (
-styleISize
+iSizeCoord
 .
 IsAuto
 (
@@ -2569,7 +2556,6 @@ aCBSize
 aAvailableISize
 aMargin
 aBorderPadding
-aSizeOverrides
 aFlags
 )
 .
@@ -2598,7 +2584,6 @@ aCBSize
 aAvailableISize
 aMargin
 aBorderPadding
-aSizeOverrides
 aFlags
 )
 ;
