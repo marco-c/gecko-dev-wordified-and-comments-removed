@@ -1337,7 +1337,12 @@ test
 requirements
 "
 ]
+                    
 quiet
+=
+True
+                    
+legacy_resolver
 =
 True
                 
