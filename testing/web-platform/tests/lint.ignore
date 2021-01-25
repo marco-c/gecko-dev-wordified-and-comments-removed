@@ -3808,7 +3808,9 @@ atob
 /
 base64
 .
-html
+any
+.
+js
 GENERATE_TESTS
 :
 mediacapture
