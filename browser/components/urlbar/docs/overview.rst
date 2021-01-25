@@ -2977,7 +2977,7 @@ icon
 suggestion
 keyword
 query
-providesSearchMode
+keywordOffer
 inPrivateWindow
 isPrivateEngine
 }

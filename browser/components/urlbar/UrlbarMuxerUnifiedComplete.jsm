@@ -2058,7 +2058,7 @@ result
 .
 payload
 .
-providesSearchMode
+keywordOffer
 |
 |
 (
