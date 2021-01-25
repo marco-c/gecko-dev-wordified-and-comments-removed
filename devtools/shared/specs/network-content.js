@@ -75,12 +75,16 @@ Arg
 }
 response
 :
+{
+stacktrace
+:
 RetVal
 (
 "
 json
 "
 )
+}
 }
 }
 }
