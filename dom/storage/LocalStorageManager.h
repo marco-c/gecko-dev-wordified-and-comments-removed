@@ -109,13 +109,7 @@ LocalStorageManager
 ;
 static
 uint32_t
-GetOriginQuota
-(
-)
-;
-static
-uint32_t
-GetSiteQuota
+GetQuota
 (
 )
 ;
