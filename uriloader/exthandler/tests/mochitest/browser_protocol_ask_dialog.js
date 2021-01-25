@@ -685,7 +685,9 @@ dialogs
 =
 tabDialogBox
 .
-_dialogManager
+getTabDialogManager
+(
+)
 .
 _dialogs
 .
