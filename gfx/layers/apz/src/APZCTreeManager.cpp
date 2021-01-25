@@ -1358,6 +1358,8 @@ APZCTreeManager
 (
 LayersId
 aRootLayersId
+bool
+aIsUsingWebRender
 )
 :
 mTestSampleTime
@@ -1441,6 +1443,10 @@ mDPI
 160
 .
 0
+)
+mIsUsingWebRender
+(
+aIsUsingWebRender
 )
 {
 RefPtr
@@ -12923,15 +12929,7 @@ mTreeLock
 ;
 if
 (
-gfx
-:
-:
-gfxVars
-:
-:
-UseWebRender
-(
-)
+mIsUsingWebRender
 )
 {
 return

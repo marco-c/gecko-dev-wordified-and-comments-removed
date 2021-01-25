@@ -1372,6 +1372,15 @@ LayersId
 {
 0
 }
+gfx
+:
+:
+gfxVars
+:
+:
+UseWebRender
+(
+)
 )
 mcc
 (
