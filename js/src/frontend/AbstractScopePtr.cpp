@@ -97,8 +97,6 @@ scopeData
 data
 .
 index
-.
-index
 ]
 ;
 }

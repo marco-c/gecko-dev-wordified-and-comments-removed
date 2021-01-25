@@ -156,6 +156,10 @@ xdr
 ScopeStencil
 &
 stencil
+BaseParserScopeData
+*
+&
+baseScopeData
 )
 ;
 template
@@ -175,9 +179,10 @@ mode
 >
 *
 xdr
-ScopeStencil
+BaseParserScopeData
+*
 &
-stencil
+baseScopeData
 )
 ;
 template
