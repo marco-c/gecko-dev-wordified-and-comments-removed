@@ -741,6 +741,17 @@ Atlantic
 St_Helena
 "
 "
+Australia
+/
+Currie
+"
+:
+"
+Australia
+/
+Currie
+"
+"
 Europe
 /
 Belfast
