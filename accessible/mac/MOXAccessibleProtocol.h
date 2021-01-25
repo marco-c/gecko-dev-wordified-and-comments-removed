@@ -295,6 +295,14 @@ moxRequired
 ;
 -
 (
+NSNumber
+*
+_Nullable
+)
+moxElementBusy
+;
+-
+(
 NSString
 *
 _Nullable

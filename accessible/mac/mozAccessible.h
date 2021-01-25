@@ -597,6 +597,13 @@ moxRequired
 ;
 -
 (
+NSNumber
+*
+)
+moxElementBusy
+;
+-
+(
 id
 )
 moxEditableAncestor
