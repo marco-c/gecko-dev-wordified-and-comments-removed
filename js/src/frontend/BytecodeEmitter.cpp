@@ -41337,6 +41337,8 @@ ListNode
 obj
 ObjLiteralFlags
 flags
+bool
+useObjLiteralValues
 )
 {
 ObjLiteralWriter
@@ -41498,9 +41500,14 @@ i
 }
 if
 (
-singleton
+useObjLiteralValues
 )
 {
+MOZ_ASSERT
+(
+singleton
+)
+;
 ParseNode
 *
 value
@@ -44753,9 +44760,6 @@ checkSingletonContext
 )
 &
 &
-useObjLiteralValues
-&
-&
 !
 objNode
 -
@@ -44789,6 +44793,13 @@ ObjLiteralFlag
 Singleton
 ;
 }
+else
+{
+useObjLiteralValues
+=
+false
+;
+}
 if
 (
 !
@@ -44796,6 +44807,7 @@ emitPropertyListObjLiteral
 (
 objNode
 flags
+useObjLiteralValues
 )
 )
 {
@@ -44820,7 +44832,7 @@ false
 if
 (
 !
-singleton
+useObjLiteralValues
 )
 {
 if

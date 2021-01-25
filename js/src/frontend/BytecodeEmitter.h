@@ -2113,6 +2113,8 @@ ListNode
 obj
 ObjLiteralFlags
 flags
+bool
+useObjLiteralValues
 )
 ;
 MOZ_MUST_USE
