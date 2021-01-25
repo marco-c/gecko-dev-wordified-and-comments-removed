@@ -40921,7 +40921,7 @@ MouseButtonsFlag
 eSecondaryFlag
 ;
 case
-4
+3
 :
 return
 MouseButtonsFlag
@@ -40930,7 +40930,7 @@ MouseButtonsFlag
 e4thFlag
 ;
 case
-5
+4
 :
 return
 MouseButtonsFlag
