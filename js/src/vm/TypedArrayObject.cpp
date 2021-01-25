@@ -7958,7 +7958,7 @@ TypedArrayObject
 *
 >
 source
-uint32_t
+size_t
 offset
 )
 {
@@ -8033,9 +8033,9 @@ TypedArrayObject
 target
 HandleObject
 source
-uint32_t
+size_t
 len
-uint32_t
+size_t
 offset
 )
 {
@@ -8353,7 +8353,7 @@ return
 false
 ;
 }
-uint32_t
+size_t
 targetLength
 =
 target
@@ -8363,7 +8363,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
@@ -8386,10 +8386,10 @@ return
 false
 ;
 }
-uint32_t
+size_t
 offset
 =
-uint32_t
+size_t
 (
 targetOffset
 )
@@ -8403,7 +8403,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 >
@@ -8550,7 +8550,7 @@ type
 }
 else
 {
-uint32_t
+size_t
 targetLength
 =
 target
@@ -8560,7 +8560,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
@@ -8602,10 +8602,10 @@ return
 false
 ;
 }
-uint32_t
+size_t
 offset
 =
-uint32_t
+size_t
 (
 targetOffset
 )
