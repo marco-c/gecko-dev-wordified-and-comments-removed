@@ -4347,9 +4347,6 @@ mHiddenPlayTime
 TimeDurationAccumulator
 mVideoDecodeSuspendTime
 ;
-TimeDurationAccumulator
-mCurrentLoadPlayTime
-;
 bool
 mInitialized
 =
