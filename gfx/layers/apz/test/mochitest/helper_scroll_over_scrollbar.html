@@ -109,11 +109,10 @@ application
 javascript
 "
 >
+async
 function
-*
 test
 (
-testDriver
 )
 {
 var
@@ -222,8 +221,8 @@ clientWidth
 /
 2
 ;
-yield
-synthesizeNativeWheelAndWaitForScrollEvent
+await
+promiseNativeWheelAndWaitForScrollEvent
 (
 subframe
 scrollbarX
@@ -231,7 +230,6 @@ scrollbarX
 0
 -
 10
-testDriver
 )
 ;
 ok
@@ -258,10 +256,7 @@ waitUntilApzStable
 .
 then
 (
-runContinuation
-(
 test
-)
 )
 .
 then
