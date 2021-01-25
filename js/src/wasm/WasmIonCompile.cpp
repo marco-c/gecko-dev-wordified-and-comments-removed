@@ -3332,7 +3332,7 @@ ins
 MCompare
 :
 :
-New
+NewWasm
 (
 alloc
 (
