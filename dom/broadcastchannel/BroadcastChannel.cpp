@@ -1716,6 +1716,10 @@ CheckCurrentGlobalCorrectness
 )
 )
 {
+RemoveDocFromBFCache
+(
+)
+;
 return
 ;
 }
