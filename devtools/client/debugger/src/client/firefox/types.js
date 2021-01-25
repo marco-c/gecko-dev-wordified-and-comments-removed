@@ -520,7 +520,7 @@ URL
 isParentProcess
 :
 boolean
-isWorkerTarget
+isServiceWorker
 :
 boolean
 targetForm

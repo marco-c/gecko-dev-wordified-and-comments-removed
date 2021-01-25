@@ -60,7 +60,7 @@ GeneratedSourceData
 {
 const
 {
-isWorkerTarget
+isServiceWorker
 }
 =
 threadFront
@@ -77,7 +77,7 @@ actor
 makeSourceId
 (
 source
-isWorkerTarget
+isServiceWorker
 )
 )
 ;
@@ -157,7 +157,7 @@ thread
 threadFront
 .
 actor
-isWorkerTarget
+isServiceWorker
 source
 }
 ;
@@ -275,7 +275,7 @@ makeSourceId
 source
 :
 SourcePayload
-isWorkerTarget
+isServiceWorker
 :
 boolean
 )
@@ -287,7 +287,7 @@ url
 &
 &
 !
-isWorkerTarget
+isServiceWorker
 ?
 sourceURL
 -

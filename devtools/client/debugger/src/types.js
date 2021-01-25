@@ -214,7 +214,7 @@ ThreadId
 source
 :
 SourcePayload
-isWorkerTarget
+isServiceWorker
 :
 boolean
 id
