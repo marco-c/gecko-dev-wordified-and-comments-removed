@@ -1907,6 +1907,9 @@ it
 ?
 *
 /
+[
+can_run_script
+]
 void
 completeMove
 (
