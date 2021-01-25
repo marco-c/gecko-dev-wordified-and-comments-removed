@@ -151,7 +151,10 @@ nativeIdentifier
 ]
 isEqualToString
 :
-ShareScrubberIdentifier
+[
+TouchBarInput
+shareScrubberIdentifier
+]
 ]
 )
 {
