@@ -5003,6 +5003,16 @@ mState
 LOADING
 )
 ;
+{
+mozilla
+:
+:
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 if
 (
 mPinned
@@ -5016,6 +5026,7 @@ true
 return
 NS_OK
 ;
+}
 }
 nsAutoCString
 key
