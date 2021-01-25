@@ -250,9 +250,6 @@ indent
 updates
 :
 null
-openedOnce
-:
-false
 securityState
 :
 null

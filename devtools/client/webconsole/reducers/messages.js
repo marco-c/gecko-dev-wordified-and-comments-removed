@@ -1998,9 +1998,6 @@ id
 .
 .
 currMessage
-openedOnce
-:
-true
 }
 )
 ;
