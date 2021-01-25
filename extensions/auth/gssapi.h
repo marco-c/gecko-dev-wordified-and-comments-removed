@@ -163,6 +163,13 @@ defined
 (
 XP_MACOSX
 )
+&
+&
+!
+defined
+(
+__aarch64__
+)
 #
 pragma
 pack
@@ -1674,6 +1681,13 @@ if
 defined
 (
 XP_MACOSX
+)
+&
+&
+!
+defined
+(
+__aarch64__
 )
 #
 pragma
