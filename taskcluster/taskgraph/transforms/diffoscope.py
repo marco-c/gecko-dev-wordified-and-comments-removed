@@ -111,6 +111,15 @@ text_type
 Required
 (
 "
+tier
+"
+)
+:
+int
+        
+Required
+(
+"
 symbol
 "
 )
@@ -721,7 +730,12 @@ other
 tier
 "
 :
-2
+task
+[
+"
+tier
+"
+]
             
 }
             
