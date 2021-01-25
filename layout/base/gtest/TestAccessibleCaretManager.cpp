@@ -431,7 +431,7 @@ Right
 ;
 }
 }
-bool
+Terminated
 IsTerminated
 (
 )
@@ -439,7 +439,10 @@ const
 override
 {
 return
-false
+Terminated
+:
+:
+No
 ;
 }
 bool
