@@ -3801,7 +3801,7 @@ oa
 nsHTMLDNSPrefetch
 :
 :
-PrefetchLow
+Prefetch
 (
 hostname
 isHttps
@@ -3817,6 +3817,13 @@ GetChannel
 GetTRRMode
 (
 )
+nsHTMLDNSPrefetch
+:
+:
+Priority
+:
+:
+Low
 )
 ;
 }
