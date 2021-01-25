@@ -7634,6 +7634,17 @@ droppedLinkHandler
 =
 oldDroppedLinkHandler
 ;
+aBrowser
+.
+docShellIsActive
+=
+this
+.
+shouldActivateDocShell
+(
+aBrowser
+)
+;
 listener
 =
 new
