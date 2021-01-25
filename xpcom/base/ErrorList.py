@@ -554,6 +554,17 @@ Mod
 modules
 [
 "
+WIN32
+"
+]
+=
+Mod
+(
+44
+)
+modules
+[
+"
 GENERAL
 "
 ]
