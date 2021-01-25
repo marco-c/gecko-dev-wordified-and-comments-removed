@@ -686,7 +686,7 @@ nonincrementalReason_
 =
 reason
 ;
-writeLogMessage
+log
 (
 "
 Non
@@ -1247,7 +1247,7 @@ const
 ifdef
 DEBUG
 void
-writeLogMessage
+log
 (
 const
 char
@@ -1261,7 +1261,7 @@ fmt
 #
 else
 void
-writeLogMessage
+log
 (
 const
 char
