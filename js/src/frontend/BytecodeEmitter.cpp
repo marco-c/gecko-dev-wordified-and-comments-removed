@@ -34554,9 +34554,7 @@ ParserAtom
 *
 paramName
 =
-compilationInfo
-.
-stencil
+compilationState
 .
 getParserAtomAt
 (

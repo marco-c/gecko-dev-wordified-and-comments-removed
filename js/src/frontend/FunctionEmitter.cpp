@@ -1943,9 +1943,7 @@ name
 bce_
 -
 >
-compilationInfo
-.
-stencil
+compilationState
 .
 getParserAtomAt
 (

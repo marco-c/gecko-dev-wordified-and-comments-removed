@@ -1783,7 +1783,7 @@ stencil
 .
 parserAtomData
 .
-length
+size
 (
 )
 ;
@@ -1942,12 +1942,18 @@ frontendAtoms
 (
 )
 .
-resize
+allocate
 (
 xdr
 -
 >
 cx
+(
+)
+xdr
+-
+>
+stencilAlloc
 (
 )
 atomVectorLength
@@ -4333,7 +4339,7 @@ length
 frontend
 :
 :
-ParserAtomVectorBuilder
+ParserAtomSpanBuilder
 parserAtomBuilder
 (
 cx
@@ -4460,7 +4466,7 @@ false
 frontend
 :
 :
-ParserAtomVectorBuilder
+ParserAtomSpanBuilder
 parserAtomBuilder
 (
 cx
