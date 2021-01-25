@@ -518,12 +518,12 @@ params
 }
 )
             
-{
-{
-            
 #
 ifdef
 UNICODE
+            
+{
+{
               
 return
 {
@@ -537,26 +537,18 @@ args
 )
 ;
             
+}
+}
+            
 #
 else
-              
-return
-{
-name
-}
-A
-(
-{
-args
-}
-)
+            
+=
+delete
 ;
             
 #
 endif
-            
-}
-}
             
 #
 endif
