@@ -114,10 +114,15 @@ mozRadioButtonAccessible
 mozCheckboxAccessible
 -
 (
-NSArray
+id
+)
+accessibilityAttributeValue
+:
+(
+NSString
 *
 )
-moxLinkedUIElements
+attribute
 ;
 end
 interface

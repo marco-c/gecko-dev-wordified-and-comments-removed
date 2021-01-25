@@ -46,11 +46,7 @@ a11y
 namespace
 utils
 {
-NSArray
-<
-mozAccessible
-*
->
+NSMutableArray
 *
 ConvertToNSArray
 (
@@ -139,11 +135,7 @@ return
 nativeArray
 ;
 }
-NSArray
-<
-mozAccessible
-*
->
+NSMutableArray
 *
 ConvertToNSArray
 (
