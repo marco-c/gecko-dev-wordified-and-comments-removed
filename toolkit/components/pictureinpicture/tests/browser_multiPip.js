@@ -95,9 +95,7 @@ allow
 -
 multiple
 "
-"
 true
-"
 ]
 ]
 }

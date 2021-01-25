@@ -2170,7 +2170,7 @@ allow
 -
 multiple
 "
-false
+true
 )
 ;
 pref
