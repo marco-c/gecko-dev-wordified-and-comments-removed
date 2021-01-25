@@ -20091,7 +20091,7 @@ this
 )
 )
 {
-setNeedsNegativeZeroCheck
+setCanBeNegativeZero
 (
 false
 )
