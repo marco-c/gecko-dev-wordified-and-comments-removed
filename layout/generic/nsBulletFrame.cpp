@@ -614,6 +614,17 @@ Flags
 RequiresReflowOnSizeAvailable
 )
 ;
+newListImage
+-
+>
+BoostPriority
+(
+imgIRequest
+:
+:
+CATEGORY_SIZE_QUERY
+)
+;
 }
 }
 #
