@@ -301,6 +301,12 @@ aFlags
 )
 override
 ;
+bool
+SupportsExternalCompositing
+(
+)
+override
+;
 void
 UnbindTextureSource
 (
