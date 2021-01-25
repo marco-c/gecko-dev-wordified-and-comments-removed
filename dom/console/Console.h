@@ -1548,6 +1548,9 @@ mChromeInstance
 ConsoleLogLevel
 mMaxLogLevel
 ;
+nsString
+mMaxLogLevelPref
+;
 enum
 {
 eUnknown
