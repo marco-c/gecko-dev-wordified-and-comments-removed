@@ -345,8 +345,11 @@ AssertIsOnOwningThread
 ;
 nsTArray
 <
+NotNull
+<
 WriteInfo
 *
+>
 >
 writeInfos
 ;
