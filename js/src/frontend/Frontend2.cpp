@@ -2795,12 +2795,7 @@ IsSome
 {
 script
 .
-lazyFunctionEnclosingScopeIndex_
-=
-mozilla
-:
-:
-Some
+setLazyFunctionEnclosingScopeIndex
 (
 ScopeIndex
 (
