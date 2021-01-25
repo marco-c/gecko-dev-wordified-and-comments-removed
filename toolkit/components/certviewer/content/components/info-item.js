@@ -139,7 +139,7 @@ infoElement
 .
 textContent
 =
-localTime
+UTCTime
 ;
 infoElement
 .
@@ -148,7 +148,7 @@ setAttribute
 "
 title
 "
-UTCTime
+localTime
 )
 ;
 }
