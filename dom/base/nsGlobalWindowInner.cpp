@@ -28568,7 +28568,7 @@ AUTO_PROFILER_MARKER_TEXT
 setTimeout
 callback
 "
-JS
+DOM
 MarkerOptions
 (
 MarkerStack
