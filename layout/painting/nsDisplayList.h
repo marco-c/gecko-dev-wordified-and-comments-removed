@@ -2852,6 +2852,12 @@ GetBackgroundPaintFlags
 )
 ;
 uint32_t
+GetImageRendererFlags
+(
+)
+const
+;
+uint32_t
 GetImageDecodeFlags
 (
 )
