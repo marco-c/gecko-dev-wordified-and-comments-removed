@@ -1673,8 +1673,6 @@ chunk
 )
 -
 >
-header
-.
 runtime
 ;
 MOZ_ASSERT
@@ -1706,8 +1704,6 @@ chunk
 )
 -
 >
-header
-.
 runtime
 ;
 }
@@ -1816,8 +1812,6 @@ chunk
 )
 -
 >
-header
-.
 storeBuffer
 ;
 }
