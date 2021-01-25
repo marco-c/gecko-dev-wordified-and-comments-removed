@@ -15,7 +15,7 @@ commands
 import
 {
 setupEvents
-ensureSourceActor
+waitForSourceActorToBeRegisteredInStore
 }
 from
 "
@@ -724,7 +724,7 @@ frame
 )
 {
 await
-ensureSourceActor
+waitForSourceActorToBeRegisteredInStore
 (
 resource
 .

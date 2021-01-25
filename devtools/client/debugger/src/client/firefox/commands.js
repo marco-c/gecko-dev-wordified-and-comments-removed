@@ -12,7 +12,7 @@ create
 ;
 import
 {
-ensureSourceActor
+waitForSourceActorToBeRegisteredInStore
 }
 from
 "
@@ -1713,7 +1713,7 @@ map
 frame
 =
 >
-ensureSourceActor
+waitForSourceActorToBeRegisteredInStore
 (
 frame
 .
