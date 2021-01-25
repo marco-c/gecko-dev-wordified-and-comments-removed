@@ -8368,11 +8368,9 @@ newEngine
 Name
 encoding
 :
-"
-windows
--
-1252
-"
+newEngine
+.
+Encoding
 search_url
 :
 encodeURI
