@@ -169,14 +169,16 @@ source
 FREEDESKTOP_VERSION
 =
 "
-19
+20
 .
 08
 "
 FIREFOX_BASEAPP_CHANNEL
 =
 "
-stable
+20
+.
+08
 "
 #
 XXX
@@ -699,7 +701,7 @@ org
 .
 mozilla
 .
-Firefox
+firefox
 .
 BaseApp
 /
@@ -770,7 +772,7 @@ org
 .
 mozilla
 .
-Firefox
+firefox
 .
 BaseApp
 /
@@ -848,7 +850,7 @@ org
 .
 mozilla
 .
-Firefox
+firefox
 .
 BaseApp
 /
