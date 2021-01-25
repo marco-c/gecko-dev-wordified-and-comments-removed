@@ -3599,7 +3599,6 @@ and
 performance
 standards
 .
-.
 aria
 -
 label
