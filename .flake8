@@ -35,9 +35,6 @@ base
 dom
 /
 bindings
-dom
-/
-encoding
 gfx
 /
 tests
