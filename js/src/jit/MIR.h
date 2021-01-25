@@ -9661,9 +9661,6 @@ TestPolicy
 :
 Data
 {
-bool
-operandMightEmulateUndefined_
-;
 MTest
 (
 MDefinition
@@ -9680,10 +9677,6 @@ falseBranch
 MAryControlInstruction
 (
 classOpcode
-)
-operandMightEmulateUndefined_
-(
-true
 )
 {
 initOperand
@@ -9877,16 +9870,6 @@ bool
 filtersNull
 )
 ;
-bool
-operandMightEmulateUndefined
-(
-)
-const
-{
-return
-operandMightEmulateUndefined_
-;
-}
 #
 ifdef
 DEBUG
