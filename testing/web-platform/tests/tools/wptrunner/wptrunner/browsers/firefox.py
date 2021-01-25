@@ -291,6 +291,15 @@ get
 asan
 "
 )
+or
+run_info_data
+.
+get
+(
+"
+tsan
+"
+)
 :
             
 return
@@ -316,6 +325,15 @@ get
 (
 "
 asan
+"
+)
+or
+run_info_data
+.
+get
+(
+"
+tsan
 "
 )
 :
