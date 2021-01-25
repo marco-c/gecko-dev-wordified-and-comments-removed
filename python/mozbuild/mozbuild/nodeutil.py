@@ -36,7 +36,7 @@ StrictVersion
 "
 10
 .
-22
+23
 .
 1
 "
@@ -50,7 +50,7 @@ StrictVersion
 .
 14
 .
-6
+10
 "
 )
 def
