@@ -7,7 +7,10 @@ unconditional_recursion
 )
 ]
 use
-super
+crate
+:
+:
+atlas_allocator
 :
 :
 {

@@ -233,6 +233,7 @@ Deserialize
 )
 )
 ]
+pub
 struct
 FreeRect
 {
