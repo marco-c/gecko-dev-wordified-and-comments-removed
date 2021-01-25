@@ -1139,12 +1139,7 @@ return
 ProfilerFeature
 :
 :
-MainThreadIO
-|
-ProfilerFeature
-:
-:
-FileIO
+CPUUtilization
 |
 ProfilerFeature
 :

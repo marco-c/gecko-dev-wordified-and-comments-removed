@@ -876,6 +876,11 @@ return
 ProfilerFeature
 :
 :
+CPUUtilization
+|
+ProfilerFeature
+:
+:
 MainThreadIO
 ;
 }
