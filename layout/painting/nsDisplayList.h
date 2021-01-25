@@ -16660,6 +16660,10 @@ IsSizeAvailable
 &
 styleImage
 .
+FinalImage
+(
+)
+.
 IsUrl
 (
 )
