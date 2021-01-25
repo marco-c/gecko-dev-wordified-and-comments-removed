@@ -503,6 +503,14 @@ moxIdentifier
 ;
 -
 (
+NSArray
+*
+_Nullable
+)
+moxVisibleChildren
+;
+-
+(
 NSNumber
 *
 _Nullable
