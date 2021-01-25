@@ -866,6 +866,12 @@ promptAborted
 =
 false
 ;
+args
+.
+openedWithTabDialog
+=
+true
+;
 let
 bag
 =
