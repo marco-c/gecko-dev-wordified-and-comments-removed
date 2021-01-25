@@ -514,7 +514,7 @@ ObjectGroup
 *
 group_
 ;
-JSObject
+TypeDescr
 *
 associated_
 ;
@@ -550,7 +550,7 @@ put
 ObjectGroup
 *
 group
-JSObject
+TypeDescr
 *
 associated
 )
@@ -575,7 +575,7 @@ JSClass
 clasp
 TaggedProto
 proto
-JSObject
+TypeDescr
 *
 associated
 )

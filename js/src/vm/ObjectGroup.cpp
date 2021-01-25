@@ -616,7 +616,7 @@ NewEntry
 WeakHeapPtrObjectGroup
 group
 ;
-JSObject
+TypeDescr
 *
 associated
 ;
@@ -625,7 +625,7 @@ NewEntry
 ObjectGroup
 *
 group
-JSObject
+TypeDescr
 *
 associated
 )
@@ -651,7 +651,7 @@ clasp
 TaggedProto
 proto
 ;
-JSObject
+TypeDescr
 *
 associated
 ;
@@ -663,7 +663,7 @@ JSClass
 clasp
 TaggedProto
 proto
-JSObject
+TypeDescr
 *
 associated
 )
@@ -1263,7 +1263,7 @@ JSClass
 clasp
 TaggedProto
 proto
-JSObject
+TypeDescr
 *
 associated
 )
