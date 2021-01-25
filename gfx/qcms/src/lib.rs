@@ -271,8 +271,6 @@ transform
 :
 :
 DataType
-as
-DataType
 ;
 pub
 use
