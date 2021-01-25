@@ -58,7 +58,7 @@ rustc
 "
 paths
 =
-toolchain_search_path
+rust_search_path
 input
 =
 "
@@ -87,7 +87,7 @@ cargo
 "
 paths
 =
-toolchain_search_path
+rust_search_path
 input
 =
 "
@@ -2650,7 +2650,7 @@ rustdoc
 ]
 paths
 =
-toolchain_search_path
+rust_search_path
 input
 =
 "
