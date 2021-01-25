@@ -14,9 +14,6 @@ eventTelemetry
 .
 enabled
 "
-"
-boolean
-"
 (
 )
 =
