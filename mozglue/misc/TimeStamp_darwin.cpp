@@ -48,6 +48,15 @@ TimeStamp
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Uptime
+.
+h
+"
 static
 uint64_t
 sResolution
