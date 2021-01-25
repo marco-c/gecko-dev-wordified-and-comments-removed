@@ -1221,7 +1221,7 @@ value
 )
 {
 return
-NodeGeneric
+NodeUnparenthesizedUnary
 ;
 }
 UnaryNodeType
