@@ -314,6 +314,9 @@ _load_kinds
 (
 self
 graph_config
+target_kind
+=
+None
 )
 :
         
