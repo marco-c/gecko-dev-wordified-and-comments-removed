@@ -449,6 +449,14 @@ Function
 DerivedConstructor
 }
 ;
+enum
+class
+InheritThis
+{
+No
+Yes
+}
+;
 class
 GlobalSharedContext
 ;
