@@ -396,7 +396,9 @@ cacheQuotaClient
 >
 MaybeUpdatePaddingFileInternal
 (
+*
 aBaseDir
+*
 aConn
 aIncreaseSize
 aDecreaseSize
