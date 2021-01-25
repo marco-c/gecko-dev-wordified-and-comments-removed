@@ -20820,7 +20820,7 @@ void
 MacroAssembler
 :
 :
-spectreMaskIndex
+spectreMaskIndex32
 (
 Register
 index
@@ -20879,7 +20879,7 @@ void
 MacroAssembler
 :
 :
-spectreMaskIndex
+spectreMaskIndex32
 (
 Register
 index

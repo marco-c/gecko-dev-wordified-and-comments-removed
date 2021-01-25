@@ -63166,7 +63166,7 @@ isRegister
 {
 masm
 .
-spectreMaskIndex
+spectreMaskIndex32
 (
 index
 ToRegister
@@ -63181,7 +63181,7 @@ else
 {
 masm
 .
-spectreMaskIndex
+spectreMaskIndex32
 (
 index
 ToAddress
