@@ -52645,7 +52645,7 @@ the
 caller
 .
     
-isFallible
+needsErrorResult
 is
 a
 boolean
@@ -52655,7 +52655,13 @@ the
 call
 should
 be
+    
 fallible
+and
+thus
+needs
+ErrorResult
+parameter
 .
     
 resultVar
@@ -52735,7 +52741,7 @@ __init__
         
 self
         
-isFallible
+needsErrorResult
         
 needsCallerType
         
@@ -53555,7 +53561,7 @@ in
 extendedAttributes
         
 if
-isFallible
+needsErrorResult
 :
             
 args
@@ -54000,7 +54006,7 @@ call
 )
         
 if
-isFallible
+needsErrorResult
 or
 canOOM
 :
@@ -57083,7 +57089,7 @@ CGCallGenerator
                     
 self
 .
-isFallible
+needsErrorResult
 (
 )
                     
@@ -57348,7 +57354,7 @@ arguments
 ]
     
 def
-isFallible
+needsErrorResult
 (
 self
 )
@@ -57356,9 +57362,8 @@ self
         
 return
 "
-infallible
+needsErrorResult
 "
-not
 in
 self
 .
@@ -65780,12 +65785,21 @@ Types
 object
 ]
                 
+if
+"
+needsErrorResult
+"
+not
+in
+extendedAttributes
+:
+                    
 extendedAttributes
 .
-remove
+append
 (
 "
-infallible
+needsErrorResult
 "
 )
             
@@ -66455,9 +66469,8 @@ True
 canFail
 =
 "
-infallible
+needsErrorResult
 "
-not
 in
 extendedAttrs
 or
@@ -69275,8 +69288,9 @@ True
 getterinfal
 =
 "
-infallible
+needsErrorResult
 "
+not
 in
 extendedAttrs
             
@@ -69744,8 +69758,9 @@ member
 hasInfallibleImpl
 =
 "
-infallible
+needsErrorResult
 "
+not
 in
 extendedAttrs
                 
@@ -112532,9 +112547,8 @@ aCallerType
         
 if
 "
-infallible
+needsErrorResult
 "
-not
 in
 self
 .
@@ -114845,13 +114859,8 @@ unsigned_long
 ]
 )
                         
-{
-"
-infallible
-"
-:
-True
-}
+[
+]
                     
 )
                 
@@ -114907,13 +114916,8 @@ domstring
                     
 )
                     
-{
-"
-infallible
-"
-:
-True
-}
+[
+]
                 
 )
             
@@ -122325,8 +122329,11 @@ args
             
 extendedAttrs
 =
-{
-}
+[
+"
+needsErrorResult
+"
+]
             
 passJSBitsAsNeeded
 =
@@ -133873,9 +133880,8 @@ argList
         
 if
 "
-infallible
+needsErrorResult
 "
-not
 in
 self
 .

@@ -4054,22 +4054,7 @@ CanOOM
 )
         
 def
-ensureValidNeedsSubjectPrincipalExtendedAttribute
-(
-attr
-)
-:
-            
-ensureValidBoolExtendedAttribute
-(
-attr
-"
-NeedsSubjectPrincipal
-"
-)
-        
-def
-maybeAppendInfallibleToAttrs
+maybeAppendNeedsErrorResultToAttrs
 (
 attrs
 throws
@@ -4084,6 +4069,7 @@ throws
 if
 throws
 is
+not
 None
 :
                 
@@ -4092,7 +4078,7 @@ attrs
 append
 (
 "
-infallible
+needsErrorResult
 "
 )
         
@@ -4335,7 +4321,7 @@ canOOM
 =
 True
             
-maybeAppendInfallibleToAttrs
+maybeAppendNeedsErrorResultToAttrs
 (
 attrs
 throws
@@ -4402,7 +4388,7 @@ getExtendedAttribute
 throwsAttr
 )
         
-maybeAppendInfallibleToAttrs
+maybeAppendNeedsErrorResultToAttrs
 (
 attrs
 throws
