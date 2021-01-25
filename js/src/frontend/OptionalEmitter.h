@@ -22,6 +22,15 @@ IfEmitter
 .
 h
 "
+#
+include
+"
+frontend
+/
+TDZCheckCache
+.
+h
+"
 namespace
 js
 {
@@ -51,6 +60,9 @@ private
 BytecodeEmitter
 *
 bce_
+;
+TDZCheckCache
+tdzCache_
 ;
 JumpList
 jumpShortCircuit_
