@@ -637,7 +637,11 @@ objectUnbarriered
 )
 const
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 callExport
 (
@@ -684,7 +688,11 @@ Table
 theTable
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 initElems
 (

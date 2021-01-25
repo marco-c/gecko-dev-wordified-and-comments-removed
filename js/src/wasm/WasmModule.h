@@ -969,7 +969,11 @@ const
 Module
 >
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 GetOptimizedEncodingBuildId
 (
