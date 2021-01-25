@@ -1497,6 +1497,7 @@ false
 )
 {
 }
+IMPLICIT
 constexpr
 bvec2_scalar
 (
@@ -1548,6 +1549,7 @@ bvec2
 )
 {
 }
+IMPLICIT
 bvec2
 (
 Bool
@@ -1766,6 +1768,7 @@ vec2_scalar
 )
 {
 }
+IMPLICIT
 constexpr
 vec2_scalar
 (
@@ -1783,6 +1786,7 @@ a
 )
 {
 }
+IMPLICIT
 constexpr
 vec2_scalar
 (
@@ -2488,6 +2492,7 @@ Float
 )
 {
 }
+IMPLICIT
 constexpr
 vec2
 (
@@ -2523,6 +2528,7 @@ y
 )
 {
 }
+IMPLICIT
 constexpr
 vec2
 (
@@ -4869,6 +4875,7 @@ ivec2_scalar
 )
 {
 }
+IMPLICIT
 constexpr
 ivec2_scalar
 (
@@ -5221,6 +5228,7 @@ I32
 )
 {
 }
+IMPLICIT
 ivec2
 (
 I32
@@ -5255,6 +5263,7 @@ y
 )
 {
 }
+IMPLICIT
 ivec2
 (
 vec2
@@ -5307,6 +5316,7 @@ I32
 )
 {
 }
+IMPLICIT
 constexpr
 ivec2
 (
@@ -5924,6 +5934,7 @@ ivec3_scalar
 )
 {
 }
+IMPLICIT
 constexpr
 ivec3_scalar
 (
@@ -6060,6 +6071,7 @@ ivec3
 )
 {
 }
+IMPLICIT
 ivec3
 (
 I32
@@ -6412,6 +6424,7 @@ ivec4_scalar
 )
 {
 }
+IMPLICIT
 constexpr
 ivec4_scalar
 (
@@ -6608,6 +6621,7 @@ I32
 )
 {
 }
+IMPLICIT
 ivec4
 (
 I32
@@ -6694,6 +6708,7 @@ c
 )
 {
 }
+IMPLICIT
 constexpr
 ivec4
 (
@@ -7372,6 +7387,7 @@ false
 )
 {
 }
+IMPLICIT
 constexpr
 bvec3_scalar
 (
@@ -7433,6 +7449,7 @@ bvec3
 )
 {
 }
+IMPLICIT
 bvec3
 (
 Bool
@@ -7580,6 +7597,7 @@ false
 )
 {
 }
+IMPLICIT
 constexpr
 bvec4_scalar
 (
@@ -7651,6 +7669,7 @@ bvec4
 )
 {
 }
+IMPLICIT
 bvec4
 (
 Bool
@@ -8219,6 +8238,7 @@ vec3_scalar
 )
 {
 }
+IMPLICIT
 constexpr
 vec3_scalar
 (
@@ -8827,6 +8847,7 @@ Float
 )
 {
 }
+IMPLICIT
 constexpr
 vec3
 (
@@ -8899,6 +8920,7 @@ z
 )
 {
 }
+IMPLICIT
 constexpr
 vec3
 (
@@ -10238,6 +10260,7 @@ vec4_scalar
 )
 {
 }
+IMPLICIT
 constexpr
 vec4_scalar
 (
@@ -11009,6 +11032,7 @@ Float
 )
 {
 }
+IMPLICIT
 constexpr
 vec4
 (
@@ -11194,6 +11218,7 @@ y
 )
 {
 }
+IMPLICIT
 constexpr
 vec4
 (
@@ -13483,6 +13508,7 @@ mat2_scalar
 =
 default
 ;
+IMPLICIT
 constexpr
 mat2_scalar
 (
@@ -13535,6 +13561,7 @@ data
 b
 ;
 }
+IMPLICIT
 mat2_scalar
 (
 const
@@ -13835,6 +13862,7 @@ mat2
 =
 default
 ;
+IMPLICIT
 mat2
 (
 Float
@@ -13885,6 +13913,7 @@ data
 b
 ;
 }
+IMPLICIT
 mat2
 (
 const
@@ -13893,6 +13922,7 @@ mat4
 mat
 )
 ;
+IMPLICIT
 constexpr
 mat2
 (
@@ -14277,6 +14307,7 @@ data
 c
 ;
 }
+IMPLICIT
 mat3_scalar
 (
 const
@@ -14664,6 +14695,7 @@ data
 c
 ;
 }
+IMPLICIT
 constexpr
 mat3
 (
@@ -14890,6 +14922,7 @@ d9
 )
 ;
 }
+IMPLICIT
 mat3
 (
 const
@@ -15860,6 +15893,7 @@ mat4
 =
 default
 ;
+IMPLICIT
 constexpr
 mat4
 (
@@ -16296,6 +16330,7 @@ z
 )
 {
 }
+IMPLICIT
 mat3_scalar
 :
 :
@@ -16375,6 +16410,7 @@ z
 )
 {
 }
+IMPLICIT
 mat2
 :
 :
@@ -16421,6 +16457,7 @@ y
 )
 {
 }
+IMPLICIT
 mat2_scalar
 :
 :
