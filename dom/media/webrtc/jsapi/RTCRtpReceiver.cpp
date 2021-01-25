@@ -763,6 +763,16 @@ GetTransport
 )
 const
 {
+if
+(
+!
+mTransceiverImpl
+)
+{
+return
+nullptr
+;
+}
 return
 mTransceiverImpl
 -
