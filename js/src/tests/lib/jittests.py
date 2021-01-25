@@ -80,6 +80,16 @@ from
 structuredlog
 import
 TestLogger
+from
+.
+adaptor
+import
+xdr_annotate
+from
+.
+tempfile
+import
+TemporaryDirectory
 TESTS_LIB_DIR
 =
 os
@@ -208,6 +218,13 @@ JS_DIR
 tests
 "
 )
+SHELL_XDR
+=
+"
+shell
+.
+xdr
+"
 def
 _relpath
 (
@@ -868,6 +885,20 @@ None
         
 self
 .
+selfhosted_xdr_path
+=
+None
+        
+self
+.
+selfhosted_xdr_mode
+=
+"
+off
+"
+        
+self
+.
 skip_if_cond
 =
 "
@@ -1030,6 +1061,22 @@ test_reflect_stringify
 self
 .
 test_reflect_stringify
+        
+t
+.
+selfhosted_xdr_path
+=
+self
+.
+selfhosted_xdr_path
+        
+t
+.
+selfhosted_xdr_mode
+=
+self
+.
+selfhosted_xdr_mode
         
 t
 .
@@ -2162,6 +2209,7 @@ self
 prefix
 libdir
 moduledir
+tempdir
 remote_prefix
 =
 None
@@ -2219,6 +2267,20 @@ scriptdir_var
 "
 /
 "
+        
+self
+.
+selfhosted_xdr_path
+=
+os
+.
+path
+.
+join
+(
+tempdir
+SHELL_XDR
+)
         
 if
 remote_prefix
@@ -2317,6 +2379,52 @@ self
 jitflags
 )
 )
+        
+if
+self
+.
+selfhosted_xdr_mode
+!
+=
+"
+off
+"
+:
+            
+cmd
++
+=
+[
+                
+"
+-
+-
+selfhosted
+-
+xdr
+-
+path
+"
+                
+self
+.
+selfhosted_xdr_path
+                
+"
+-
+-
+selfhosted
+-
+xdr
+-
+mode
+"
+                
+self
+.
+selfhosted_xdr_mode
+            
+]
         
 for
 expr
@@ -2542,6 +2650,7 @@ get_command
 (
 self
 prefix
+tempdir
 )
 :
         
@@ -2566,6 +2675,7 @@ command
 prefix
 LIB_DIR
 MODULE_DIR
+tempdir
 )
 def
 find_tests
@@ -2702,6 +2812,7 @@ run_test_remote
 test
 device
 prefix
+tempdir
 options
 )
 :
@@ -2768,6 +2879,8 @@ modules
 /
 "
 )
+        
+tempdir
         
 posixpath
 .
@@ -4926,6 +5039,10 @@ run_skipped
 "
 show_cmd
 "
+            
+"
+use_xdr
+"
         
 ]
     
@@ -4957,6 +5074,10 @@ True
 options
 .
 show_cmd
+        
+options
+.
+use_xdr
     
 )
     
@@ -4966,6 +5087,14 @@ js_cmd_prefix
 =
 prefix
     
+with
+TemporaryDirectory
+(
+)
+as
+tempdir
+:
+        
 pb
 =
 create_progressbar
@@ -4973,17 +5102,18 @@ create_progressbar
 num_tests
 options
 )
-    
+        
 gen
 =
 run_all_tests
 (
 tests
 prefix
+tempdir
 pb
 shim_options
 )
-    
+        
 ok
 =
 process_test_results
@@ -5003,6 +5133,7 @@ get_remote_results
 tests
 device
 prefix
+tempdir
 options
 )
 :
@@ -5010,30 +5141,40 @@ options
 try
 :
         
-for
-i
-in
-range
-(
-0
+if
 options
 .
-repeat
-)
+use_xdr
 :
             
+tests
+=
+xdr_annotate
+(
+tests
+options
+)
+        
+tests
+=
+list
+(
+tests
+)
+        
 for
 test
 in
 tests
 :
-                
+            
 yield
 run_test_remote
 (
 test
 device
 prefix
+tempdir
 options
 )
     
@@ -5110,6 +5251,20 @@ bin
 "
 "
 js
+"
+)
+        
+tempdir
+=
+posixpath
+.
+join
+(
+options
+.
+remote_test_root
+"
+tmp
 "
 )
         
@@ -5260,6 +5415,7 @@ get_remote_results
 tests
 device
 prefix
+tempdir
 options
 )
         

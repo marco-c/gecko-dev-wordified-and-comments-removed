@@ -300,6 +300,20 @@ tests
 "
 )
         
+temp_dir
+=
+posixpath
+.
+join
+(
+options
+.
+remote_test_root
+"
+tmp
+"
+)
+        
 init_remote_dir
 (
 DEVICE
@@ -310,6 +324,12 @@ init_remote_dir
 (
 DEVICE
 bin_dir
+)
+        
+init_remote_dir
+(
+DEVICE
+temp_dir
 )
         
 push_libs

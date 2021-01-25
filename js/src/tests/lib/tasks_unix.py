@@ -30,6 +30,11 @@ TestOutput
     
 escape_cmdline
 )
+from
+.
+adaptor
+import
+xdr_annotate
 PY2
 =
 sys
@@ -53,6 +58,7 @@ __init__
 self
 test
 prefix
+tempdir
 pid
 stdout
 stderr
@@ -74,6 +80,7 @@ test
 get_command
 (
 prefix
+tempdir
 )
         
 self
@@ -122,6 +129,7 @@ spawn_test
 (
 test
 prefix
+tempdir
 passthrough
 run_skipped
 show_cmd
@@ -163,6 +171,7 @@ test
 get_command
 (
 prefix
+tempdir
 )
     
 if
@@ -235,6 +244,7 @@ Task
 (
 test
 prefix
+tempdir
 rv
 rout
 rerr
@@ -1299,6 +1309,7 @@ run_all_tests
 (
 tests
 prefix
+tempdir
 pb
 options
 )
@@ -1329,6 +1340,64 @@ tasks
 [
 ]
     
+wait_for_encoding
+=
+False
+    
+worker_count
+=
+options
+.
+worker_count
+    
+if
+options
+.
+use_xdr
+and
+len
+(
+tests
+)
+>
+1
+:
+        
+tests
+=
+list
+(
+xdr_annotate
+(
+reversed
+(
+tests
+)
+options
+)
+)
+        
+tests
+=
+tests
+[
+:
+]
+        
+tests
+.
+reverse
+(
+)
+        
+wait_for_encoding
+=
+True
+        
+worker_count
+=
+1
+    
 while
 len
 (
@@ -1352,8 +1421,6 @@ len
 tasks
 )
 <
-options
-.
 worker_count
 :
             
@@ -1371,13 +1438,19 @@ spawn_test
 (
                 
 test
+                
 prefix
+                
+tempdir
+                
 options
 .
 passthrough
+                
 options
 .
 run_skipped
+                
 options
 .
 show_cmd
@@ -1447,6 +1520,37 @@ finished
             
 yield
 out
+            
+if
+wait_for_encoding
+and
+out
+.
+test
+=
+=
+test
+:
+                
+assert
+test
+.
+selfhosted_xdr_mode
+=
+=
+"
+encode
+"
+                
+wait_for_encoding
+=
+False
+                
+worker_count
+=
+options
+.
+worker_count
         
 if
 len
