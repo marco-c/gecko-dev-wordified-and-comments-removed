@@ -71,16 +71,6 @@ automation
 #
 MOZ_AUTOMATION_
 flags
-#
-build
-/
-mozconfig
-.
-rust
-#
-RUSTC
-#
-CARGO
 .
 "
 topsrcdir

@@ -195,16 +195,6 @@ build
 /
 mozconfig
 .
-nasm
-"
-.
-"
-topsrcdir
-/
-build
-/
-mozconfig
-.
 automation
 "
 .

@@ -816,10 +816,6 @@ export
 CCACHE
 =
 "
-MOZ_FETCHES_DIR
-/
-sccache
-/
 sccache
 "
 export
