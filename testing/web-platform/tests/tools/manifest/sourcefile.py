@@ -1050,7 +1050,7 @@ cast
 (
 ElementTree
 .
-ElementTree
+Element
 doc
 )
     
@@ -1072,6 +1072,10 @@ ElementTree
 parse
 (
 f
+)
+.
+getroot
+(
 )
     
 except
@@ -1101,6 +1105,10 @@ XMLParser
 XMLParser
 (
 )
+)
+.
+getroot
+(
 )
 class
 SourceFile
@@ -3020,33 +3028,8 @@ Exception
 return
 None
         
-if
-hasattr
-(
-tree
-"
-getroot
-"
-)
-:
-            
-root
-=
-tree
-.
-getroot
-(
-)
-        
-else
-:
-            
-root
-=
-tree
-        
 return
-root
+tree
     
 cached_property
     
