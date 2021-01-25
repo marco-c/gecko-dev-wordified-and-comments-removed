@@ -18,8 +18,15 @@ support
 .
 refine
 import
-filter_dict
 get_events
+from
+tests
+.
+support
+.
+helpers
+import
+filter_dict
 _DBLCLICK_INTERVAL
 =
 640
