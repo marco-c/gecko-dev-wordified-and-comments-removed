@@ -2583,6 +2583,16 @@ swizzle
 )
 #
 define
+zwxy
+swizzle
+(
+2
+3
+0
+1
+)
+#
+define
 zyxw
 swizzle
 (

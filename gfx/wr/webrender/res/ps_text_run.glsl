@@ -1807,6 +1807,7 @@ vi
 .
 world_pos
 clip_area
+task
 )
 ;
 switch

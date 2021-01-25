@@ -1521,6 +1521,7 @@ vi
 .
 world_pos
 clip_area
+pic_task
 )
 ;
 #

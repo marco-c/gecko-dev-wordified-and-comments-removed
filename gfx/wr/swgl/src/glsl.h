@@ -4492,12 +4492,10 @@ return
 vec2
 (
 d
-.
-xyxy
 +
 d
 .
-zwzw
+zwxy
 )
 ;
 }
