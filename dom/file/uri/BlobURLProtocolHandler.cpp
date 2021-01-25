@@ -3819,10 +3819,12 @@ false
 }
 if
 (
+(
 NS_WARN_IF
 (
 !
 aLoadingPrincipal
+)
 |
 |
 !
@@ -3869,6 +3871,8 @@ false
 }
 if
 (
+NS_WARN_IF
+(
 !
 aTriggeringPrincipal
 -
@@ -3879,6 +3883,7 @@ info
 -
 >
 mPrincipal
+)
 )
 )
 {
@@ -3913,13 +3918,12 @@ isSome
 )
 &
 &
+NS_WARN_IF
+(
 !
 aAgentClusterId
-.
-value
-(
-)
-.
+-
+>
 Equals
 (
 info
@@ -3929,6 +3933,7 @@ mAgentClusterId
 .
 value
 (
+)
 )
 )
 )
