@@ -4619,8 +4619,12 @@ false
 }
 #
 endif
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 HandleTrap
 (
