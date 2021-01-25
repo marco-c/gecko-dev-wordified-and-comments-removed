@@ -494,7 +494,7 @@ LoadInfo
 (
 )
 ;
-nsContentPolicyType
+ExtContentPolicyType
 contentPolicyType
 =
 loadInfo
@@ -509,7 +509,7 @@ if
 contentPolicyType
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -518,7 +518,7 @@ TYPE_DOCUMENT
 contentPolicyType
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
@@ -590,7 +590,7 @@ mSubdocumentOnly
 contentPolicyType
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_SUBDOCUMENT

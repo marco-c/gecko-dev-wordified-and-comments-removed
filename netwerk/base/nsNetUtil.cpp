@@ -15335,7 +15335,7 @@ LoadInfo
 (
 )
 ;
-nsContentPolicyType
+ExtContentPolicyType
 type
 =
 loadInfo
@@ -15360,7 +15360,7 @@ IsSystemPrincipal
 )
 &
 &
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
