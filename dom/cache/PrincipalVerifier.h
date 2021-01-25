@@ -103,7 +103,7 @@ PrincipalVerifier
 CreateAndDispatch
 (
 Listener
-*
+&
 aListener
 mozilla
 :
@@ -130,7 +130,7 @@ void
 AddListener
 (
 Listener
-*
+&
 aListener
 )
 ;
@@ -138,7 +138,7 @@ void
 RemoveListener
 (
 Listener
-*
+&
 aListener
 )
 ;
@@ -147,7 +147,7 @@ private
 PrincipalVerifier
 (
 Listener
-*
+&
 aListener
 mozilla
 :
@@ -195,8 +195,11 @@ aRv
 ;
 nsTObserverArray
 <
+NotNull
+<
 Listener
 *
+>
 >
 mListenerList
 ;

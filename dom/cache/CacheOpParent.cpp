@@ -610,6 +610,7 @@ mVerifier
 >
 AddListener
 (
+*
 this
 )
 ;
@@ -639,6 +640,7 @@ mVerifier
 >
 RemoveListener
 (
+*
 this
 )
 ;
@@ -697,6 +699,7 @@ mVerifier
 >
 RemoveListener
 (
+*
 this
 )
 ;
