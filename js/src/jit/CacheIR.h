@@ -8284,6 +8284,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachObjectToString
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachBigIntAsIntN
 (
 HandleFunction
