@@ -2087,17 +2087,17 @@ mTreatBSizeAsIndefinite
 const
 AspectRatio
 &
-IntrinsicRatio
+GetAspectRatio
 (
 )
 const
 {
 return
-mIntrinsicRatio
+mAspectRatio
 ;
 }
 bool
-HasIntrinsicRatio
+HasAspectRatio
 (
 )
 const
@@ -2105,7 +2105,7 @@ const
 return
 !
 !
-mIntrinsicRatio
+mAspectRatio
 ;
 }
 LogicalMargin
@@ -3060,7 +3060,7 @@ mFlexShrink
 0f
 ;
 AspectRatio
-mIntrinsicRatio
+mAspectRatio
 ;
 WritingMode
 mWM
@@ -5510,7 +5510,7 @@ aCrossSize
 const
 AspectRatio
 &
-aIntrinsicRatio
+aAspectRatio
 const
 FlexboxAxisTracker
 &
@@ -5519,7 +5519,7 @@ aAxisTracker
 {
 MOZ_ASSERT
 (
-aIntrinsicRatio
+aAspectRatio
 "
 Invalid
 ratio
@@ -5549,9 +5549,9 @@ IsMainAxisHorizontal
 (
 )
 ?
-aIntrinsicRatio
+aAspectRatio
 :
-aIntrinsicRatio
+aAspectRatio
 .
 Inverted
 (
@@ -5586,7 +5586,7 @@ MOZ_ASSERT
 (
 aFlexItem
 .
-HasIntrinsicRatio
+HasAspectRatio
 (
 )
 "
@@ -5610,7 +5610,7 @@ aspectRatio
 =
 aFlexItem
 .
-IntrinsicRatio
+GetAspectRatio
 (
 )
 ;
@@ -5983,7 +5983,7 @@ if
 (
 aFlexItem
 .
-HasIntrinsicRatio
+HasAspectRatio
 (
 )
 &
@@ -6008,7 +6008,7 @@ CrossSize
 )
 aFlexItem
 .
-IntrinsicRatio
+GetAspectRatio
 (
 )
 aAxisTracker
@@ -6411,7 +6411,7 @@ if
 (
 aFlexItem
 .
-IntrinsicRatio
+HasAspectRatio
 (
 )
 )
@@ -7596,7 +7596,7 @@ mFlexShrink
 (
 aFlexShrink
 )
-mIntrinsicRatio
+mAspectRatio
 (
 mFrame
 -
@@ -8646,7 +8646,7 @@ aAxisTracker
 {
 if
 (
-HasIntrinsicRatio
+HasAspectRatio
 (
 )
 &
@@ -8692,7 +8692,7 @@ MainSizeFromAspectRatio
 CrossSize
 (
 )
-IntrinsicRatio
+GetAspectRatio
 (
 )
 aAxisTracker
@@ -8843,7 +8843,7 @@ false
 }
 if
 (
-HasIntrinsicRatio
+HasAspectRatio
 (
 )
 )
@@ -18485,7 +18485,7 @@ NS_ASSERTION
 (
 aItem
 .
-HasIntrinsicRatio
+HasAspectRatio
 (
 )
 "
@@ -20164,7 +20164,7 @@ if
 (
 item
 .
-HasIntrinsicRatio
+HasAspectRatio
 (
 )
 )
@@ -22024,7 +22024,7 @@ IsStretched
 |
 aItem
 .
-HasIntrinsicRatio
+HasAspectRatio
 (
 )
 )
