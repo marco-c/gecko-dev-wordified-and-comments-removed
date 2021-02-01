@@ -37,7 +37,7 @@ defineModuleGetter
 (
 this
 "
-BrowserUtils
+LayoutUtils
 "
 "
 resource
@@ -48,7 +48,7 @@ gre
 /
 modules
 /
-BrowserUtils
+LayoutUtils
 .
 jsm
 "
@@ -480,7 +480,7 @@ return
 let
 rect
 =
-BrowserUtils
+LayoutUtils
 .
 getElementBoundingScreenRect
 (
