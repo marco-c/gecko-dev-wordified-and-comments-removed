@@ -5,7 +5,7 @@ prefix
 )
 {
 let
-scopes
+scope
 =
 evalReturningScope
 (
@@ -21,9 +21,7 @@ x
 ;
 assertEq
 (
-scopes
-.
-vars
+scope
 .
 x
 1
@@ -48,7 +46,7 @@ strict
 )
 ;
 let
-scopes
+scope
 =
 evalReturningScope
 (
@@ -61,9 +59,7 @@ x
 ;
 assertEq
 (
-scopes
-.
-vars
+scope
 .
 x
 1
