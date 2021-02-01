@@ -1,7 +1,7 @@
 const
 url
 =
-BrowserUtils
+BrowserUIUtils
 .
 trimURLProtocol
 +

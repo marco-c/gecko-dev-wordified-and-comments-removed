@@ -71,6 +71,20 @@ BrowserSearchTelemetry
 .
 jsm
 "
+BrowserUIUtils
+:
+"
+resource
+:
+/
+/
+/
+modules
+/
+BrowserUIUtils
+.
+jsm
+"
 BrowserUtils
 :
 "
@@ -1657,7 +1671,7 @@ uri
 )
 &
 &
-BrowserUtils
+BrowserUIUtils
 .
 checkEmptyPageOrigin
 (
@@ -1745,7 +1759,7 @@ value
 )
 &
 &
-BrowserUtils
+BrowserUIUtils
 .
 checkEmptyPageOrigin
 (
@@ -4452,7 +4466,7 @@ url
 .
 startsWith
 (
-BrowserUtils
+BrowserUIUtils
 .
 trimURLProtocol
 )
@@ -4465,7 +4479,7 @@ this
 .
 _getURIFixupInfo
 (
-BrowserUtils
+BrowserUIUtils
 .
 trimURL
 (
@@ -8263,7 +8277,7 @@ selectedVal
 .
 startsWith
 (
-BrowserUtils
+BrowserUIUtils
 .
 trimURLProtocol
 )
@@ -8285,7 +8299,7 @@ displaySpec
 {
 selectedVal
 =
-BrowserUtils
+BrowserUIUtils
 .
 trimURLProtocol
 +
@@ -8543,7 +8557,7 @@ trimURLs
 "
 )
 ?
-BrowserUtils
+BrowserUIUtils
 .
 trimURL
 (
