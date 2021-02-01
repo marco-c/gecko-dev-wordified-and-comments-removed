@@ -130,6 +130,15 @@ include
 "
 vm
 /
+ErrorReporting
+.
+h
+"
+#
+include
+"
+vm
+/
 JSScript
 .
 h
@@ -10679,6 +10688,11 @@ if
 bytes
 )
 {
+MaybePrintAndClearPendingException
+(
+cx
+)
+;
 return
 ;
 }
