@@ -303,7 +303,7 @@ fun
 }
 inline
 DynFn
-JitMarkFunction
+JitPreWriteBarrier
 (
 MIRType
 type
@@ -343,7 +343,7 @@ DynamicFunction
 Fn
 >
 (
-MarkValueFromJit
+JitValuePreWriteBarrier
 )
 ;
 }
@@ -377,7 +377,7 @@ DynamicFunction
 Fn
 >
 (
-MarkStringFromJit
+JitStringPreWriteBarrier
 )
 ;
 }
@@ -411,7 +411,7 @@ DynamicFunction
 Fn
 >
 (
-MarkObjectFromJit
+JitObjectPreWriteBarrier
 )
 ;
 }
@@ -445,7 +445,7 @@ DynamicFunction
 Fn
 >
 (
-MarkShapeFromJit
+JitShapePreWriteBarrier
 )
 ;
 }
@@ -479,7 +479,7 @@ DynamicFunction
 Fn
 >
 (
-MarkObjectGroupFromJit
+JitObjectGroupPreWriteBarrier
 )
 ;
 }
