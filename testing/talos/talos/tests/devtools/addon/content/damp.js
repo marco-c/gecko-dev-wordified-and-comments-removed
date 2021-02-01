@@ -21,7 +21,6 @@ const
 {
 gBrowser
 MozillaFileLogger
-performance
 requestIdleCallback
 }
 =
@@ -210,7 +209,7 @@ n
 let
 start
 =
-performance
+Cu
 .
 now
 (
@@ -572,7 +571,7 @@ flushAllocations
 let
 start
 =
-performance
+Cu
 .
 now
 (
@@ -590,7 +589,7 @@ done
 let
 end
 =
-performance
+Cu
 .
 now
 (
@@ -804,7 +803,7 @@ windowUtils
 let
 startTime
 =
-performance
+Cu
 .
 now
 (
@@ -1019,7 +1018,7 @@ Math
 .
 round
 (
-performance
+Cu
 .
 now
 (
@@ -1135,7 +1134,7 @@ this
 .
 _startTime
 =
-performance
+Cu
 .
 now
 (
@@ -2138,7 +2137,7 @@ this
 .
 _startTimestamp
 =
-performance
+Cu
 .
 now
 (
