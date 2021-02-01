@@ -600,13 +600,6 @@ serviceWorker
 )
 )
 ;
-if
-(
-ServiceWorkerParentInterceptEnabled
-(
-)
-)
-{
 nsCOMPtr
 <
 nsIRunnable
@@ -685,7 +678,6 @@ forget
 )
 )
 ;
-}
 return
 IPC_OK
 (
@@ -705,11 +697,6 @@ if
 mController
 .
 isSome
-(
-)
-&
-&
-ServiceWorkerParentInterceptEnabled
 (
 )
 )
