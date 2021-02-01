@@ -33,7 +33,7 @@ const
 int
 kMaxFixedDigitsBeforePoint
 =
-60
+308
 ;
 static
 const
