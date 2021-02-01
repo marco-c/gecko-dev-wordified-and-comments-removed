@@ -2906,8 +2906,6 @@ const
 void
 CalculateBlockSideMargins
 (
-LayoutFrameType
-aFrameType
 )
 ;
 bool
