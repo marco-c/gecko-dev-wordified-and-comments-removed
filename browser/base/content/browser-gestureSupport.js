@@ -1840,6 +1840,11 @@ _currentRotation
 360
 ;
 }
+return
+this
+.
+_currentRotation
+;
 }
 restoreRotationState
 (

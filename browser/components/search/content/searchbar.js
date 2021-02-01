@@ -939,6 +939,9 @@ defaultEngine
 val
 ;
 }
+return
+val
+;
 }
 get
 currentEngine
@@ -1010,6 +1013,8 @@ value
 val
 )
 {
+return
+(
 this
 .
 _textbox
@@ -1017,6 +1022,7 @@ _textbox
 value
 =
 val
+)
 ;
 }
 get
@@ -3009,6 +3015,9 @@ autocompletesearchparam
 val
 )
 ;
+return
+val
+;
 }
 }
 )
@@ -3043,6 +3052,8 @@ set
 val
 )
 {
+return
+(
 this
 .
 popup
@@ -3052,6 +3063,7 @@ oneOffButtons
 selectedButton
 =
 val
+)
 ;
 }
 }

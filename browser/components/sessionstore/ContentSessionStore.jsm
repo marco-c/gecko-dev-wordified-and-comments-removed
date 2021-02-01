@@ -1026,6 +1026,9 @@ _timeout
 null
 ;
 }
+return
+val
+;
 }
 uninit
 (

@@ -226,6 +226,9 @@ openMenu
 val
 )
 ;
+return
+val
+;
 }
 get
 open

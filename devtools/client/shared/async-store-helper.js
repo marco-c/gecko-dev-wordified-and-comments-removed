@@ -150,6 +150,7 @@ set
 value
 )
 {
+return
 asyncStorage
 .
 setItem

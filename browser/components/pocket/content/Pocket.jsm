@@ -369,11 +369,14 @@ pageAction
 pageAction
 )
 {
+return
+(
 this
 .
 _pageAction
 =
 pageAction
+)
 ;
 }
 _pageAction

@@ -438,11 +438,14 @@ initialize
 )
 ;
 }
+return
+(
 super
 .
 hidden
 =
 v
+)
 ;
 }
 removeAttribute

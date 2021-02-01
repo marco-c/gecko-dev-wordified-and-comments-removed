@@ -1114,6 +1114,7 @@ true
 )
 {
 return
+val
 ;
 }
 if
@@ -1157,6 +1158,9 @@ visuallyselected
 "
 ]
 )
+;
+return
+val
 ;
 }
 set
@@ -1223,6 +1227,9 @@ _visuallySelected
 val
 ;
 }
+return
+val
+;
 }
 get
 pinned

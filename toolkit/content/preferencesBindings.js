@@ -2299,6 +2299,9 @@ change
 )
 ;
 }
+return
+val
+;
 }
 get
 locked
@@ -2705,6 +2708,7 @@ val
 )
 {
 return
+val
 ;
 }
 if
@@ -2728,6 +2732,7 @@ id
 )
 ;
 return
+val
 ;
 }
 switch
@@ -2994,6 +2999,9 @@ null
 )
 ;
 }
+return
+val
+;
 }
 }
 return

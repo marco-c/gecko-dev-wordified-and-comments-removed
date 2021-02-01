@@ -46,6 +46,9 @@ popupOpen
 val
 )
 {
+return
+val
+;
 }
 get
 popupOpen
@@ -122,6 +125,9 @@ selectedIndex
 val
 )
 {
+return
+val
+;
 }
 get
 selectedIndex

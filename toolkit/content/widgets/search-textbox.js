@@ -146,6 +146,8 @@ set
 val
 )
 {
+return
+(
 this
 .
 inputField
@@ -154,6 +156,7 @@ property
 ]
 =
 val
+)
 ;
 }
 }
@@ -642,6 +645,9 @@ timeout
 val
 )
 ;
+return
+val
+;
 }
 get
 timeout
@@ -754,6 +760,9 @@ none
 )
 ;
 }
+return
+val
+;
 }
 get
 searchButton
@@ -836,6 +845,9 @@ _timer
 )
 ;
 }
+return
+val
+;
 }
 get
 value
@@ -907,6 +919,9 @@ disabled
 )
 ;
 }
+return
+val
+;
 }
 get
 disabled

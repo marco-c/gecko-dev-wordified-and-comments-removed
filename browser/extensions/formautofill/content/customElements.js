@@ -627,6 +627,9 @@ PreviewProfile
 "
 )
 ;
+return
+val
+;
 }
 get
 selected
@@ -1718,6 +1721,9 @@ selected
 val
 )
 {
+return
+false
+;
 }
 get
 selected

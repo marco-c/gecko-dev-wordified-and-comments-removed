@@ -1937,6 +1937,11 @@ onPinToUrlbarToggled
 )
 ;
 }
+return
+this
+.
+pinnedToUrlbar
+;
 }
 getDisabled
 (

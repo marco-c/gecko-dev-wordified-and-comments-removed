@@ -497,6 +497,9 @@ type
 val
 )
 ;
+return
+val
+;
 }
 get
 type
@@ -550,6 +553,9 @@ disabled
 )
 ;
 }
+return
+val
+;
 }
 get
 disabled
@@ -587,6 +593,9 @@ group
 "
 val
 )
+;
+return
+val
 ;
 }
 get
@@ -659,6 +668,9 @@ open
 )
 ;
 }
+return
+val
+;
 }
 get
 open
@@ -776,6 +788,9 @@ checked
 )
 ;
 }
+return
+val
+;
 }
 get
 checked

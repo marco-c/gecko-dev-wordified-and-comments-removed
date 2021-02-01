@@ -558,6 +558,7 @@ name
 prop
 )
 ;
+return
 prop
 .
 set
@@ -566,8 +567,6 @@ call
 (
 object
 )
-;
-return
 ;
 }
 prop
@@ -584,6 +583,9 @@ object
 name
 prop
 )
+;
+return
+newVal
 ;
 }
 configurable

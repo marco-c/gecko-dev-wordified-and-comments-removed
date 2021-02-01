@@ -1134,9 +1134,12 @@ gCurrentTask
 null
 ;
 }
+return
+(
 gMaintainStack
 =
 x
+)
 ;
 }
 generateReadableStack

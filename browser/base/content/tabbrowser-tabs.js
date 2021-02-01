@@ -4648,6 +4648,9 @@ px
 "
 )
 ;
+return
+val
+;
 }
 get
 _isCustomizing
