@@ -413,17 +413,6 @@ DeclaredNameMap
 >
 declared_
 ;
-using
-FunctionBoxVector
-=
-Vector
-<
-FunctionBox
-*
-24
-SystemAllocPolicy
->
-;
 PooledVectorPtr
 <
 FunctionBoxVector
