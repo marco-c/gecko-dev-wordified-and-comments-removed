@@ -2148,10 +2148,6 @@ static
 CSDSupportLevel
 GetSystemCSDSupportLevel
 (
-bool
-aIsPopup
-=
-false
 )
 ;
 static
@@ -2531,6 +2527,16 @@ aPosition
 GdkRectangle
 *
 aSize
+)
+;
+bool
+CheckResizerEdge
+(
+LayoutDeviceIntPoint
+aPoint
+GdkWindowEdge
+&
+aOutEdge
 )
 ;
 GtkTextDirection
