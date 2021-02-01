@@ -8749,7 +8749,6 @@ example
 .
 org
 /
-foo
 "
 sessionRule
 .
