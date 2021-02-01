@@ -295,11 +295,6 @@ WinModifierKeyState
 .
 h
 "
-"
-WinNativeEventData
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +
