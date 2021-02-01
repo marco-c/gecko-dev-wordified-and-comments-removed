@@ -240,16 +240,7 @@ if
 (
 addr
 .
-tls_host
-[
-0
-]
-!
-=
-'
-\
-0
-'
+tls
 )
 {
 out
