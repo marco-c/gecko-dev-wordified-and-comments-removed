@@ -3543,6 +3543,12 @@ valueReg
 #
 endif
 }
+#
+ifdef
+JS_NUNBOX32
+MOZ_NEVER_INLINE
+#
+endif
 ValueOperand
 CacheRegisterAllocator
 :
