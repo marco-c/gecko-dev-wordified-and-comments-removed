@@ -4614,6 +4614,14 @@ RebuildLocalFonts
 }
 else
 {
+if
+(
+mStartedLoadingCmapsFrom
+!
+=
+0xffffffffu
+)
+{
 InitializeCodepointsWithNoFonts
 (
 )
@@ -4629,6 +4637,7 @@ ForceGlobalReflow
 (
 )
 ;
+}
 }
 }
 bool
