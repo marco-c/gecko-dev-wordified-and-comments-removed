@@ -1896,8 +1896,6 @@ d
 d
 %
 d
-%
-d
 \
 n
 "
@@ -1908,12 +1906,6 @@ aApzResponse
 =
 =
 nsEventStatus_eConsumeDoDefault
-StaticPrefs
-:
-:
-dom_w3c_pointer_events_enabled
-(
-)
 MainThreadAgreesEventsAreConsumableByAPZ
 (
 )
@@ -1932,14 +1924,6 @@ aApzResponse
 =
 =
 nsEventStatus_eConsumeDoDefault
-&
-&
-StaticPrefs
-:
-:
-dom_w3c_pointer_events_enabled
-(
-)
 &
 &
 MainThreadAgreesEventsAreConsumableByAPZ

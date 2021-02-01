@@ -19107,14 +19107,6 @@ eWindowType_toplevel
 mWindowType
 &
 &
-StaticPrefs
-:
-:
-dom_w3c_pointer_events_enabled
-(
-)
-&
-&
 InkCollector
 :
 :

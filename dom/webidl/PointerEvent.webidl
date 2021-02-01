@@ -115,15 +115,6 @@ interface
 WindowProxy
 ;
 [
-Pref
-=
-"
-dom
-.
-w3c_pointer_events
-.
-enabled
-"
 Exposed
 =
 Window
