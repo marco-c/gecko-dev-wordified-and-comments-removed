@@ -13590,6 +13590,17 @@ fail
 }
 if
 (
+conversion
+=
+=
+IntConversionInputKind
+:
+:
+Any
+)
+{
+if
+(
 isNull
 .
 used
@@ -13619,6 +13630,7 @@ jump
 done
 )
 ;
+}
 bool
 handleStringIndices
 =
