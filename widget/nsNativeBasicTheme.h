@@ -981,15 +981,6 @@ kTextFieldBorderWidth
 static
 const
 CSSCoord
-kSpinnerBorderWidth
-=
-1
-.
-0f
-;
-static
-const
-CSSCoord
 kRangeHeight
 =
 6
