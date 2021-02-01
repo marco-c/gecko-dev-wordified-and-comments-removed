@@ -147,9 +147,7 @@ LabelControl
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 label
 BytecodeOffset
 startOffset

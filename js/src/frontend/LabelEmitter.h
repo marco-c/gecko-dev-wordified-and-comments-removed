@@ -52,6 +52,15 @@ h
 #
 include
 "
+frontend
+/
+ParserAtom
+.
+h
+"
+#
+include
+"
 js
 /
 TypeDecls
