@@ -72082,7 +72082,11 @@ GetDocShell
 const
 {
 return
+mVisible
+?
 mDocumentContainer
+:
+nullptr
 ;
 }
 void
