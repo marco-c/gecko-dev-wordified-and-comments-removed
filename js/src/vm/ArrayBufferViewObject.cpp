@@ -1324,7 +1324,7 @@ buffer
 ;
 }
 JS_FRIEND_API
-uint32_t
+size_t
 JS_GetArrayBufferViewByteLength
 (
 JSObject
@@ -1398,13 +1398,13 @@ byteLength
 return
 length
 .
-deprecatedGetUint32
+get
 (
 )
 ;
 }
 JS_FRIEND_API
-uint32_t
+size_t
 JS_GetArrayBufferViewByteOffset
 (
 JSObject
@@ -1478,7 +1478,7 @@ byteOffset
 return
 offset
 .
-deprecatedGetUint32
+get
 (
 )
 ;
