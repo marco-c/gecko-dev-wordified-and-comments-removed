@@ -609,6 +609,17 @@ Document
 &
 )
 ;
+static
+already_AddRefed
+<
+DOMIntersectionObserver
+>
+CreateLazyLoadObserverViewport
+(
+Document
+&
+)
+;
 protected
 :
 void
