@@ -1678,7 +1678,7 @@ TransactionBuilder
 aUpdates
 )
 ;
-bool
+void
 AddPrivateExternalImage
 (
 wr
@@ -1704,7 +1704,7 @@ TransactionBuilder
 aResources
 )
 ;
-bool
+void
 UpdatePrivateExternalImage
 (
 wr
