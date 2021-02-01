@@ -99,6 +99,15 @@ Scope
 .
 h
 "
+#
+include
+"
+vm
+/
+ScopeKind
+.
+h
+"
 namespace
 js
 {
@@ -1805,8 +1814,6 @@ HandleObjectVector
 envChain
 MutableHandleObject
 env
-MutableHandleScope
-scope
 )
 ;
 class
