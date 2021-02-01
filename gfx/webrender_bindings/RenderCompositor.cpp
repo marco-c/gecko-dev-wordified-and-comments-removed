@@ -569,6 +569,15 @@ DeviceIntRect
 aDirtyRects
 size_t
 aNumDirtyRects
+const
+wr
+:
+:
+DeviceIntRect
+*
+aOpaqueRects
+size_t
+aNumOpaqueRects
 )
 {
 RenderCompositor
@@ -591,6 +600,8 @@ StartCompositing
 (
 aDirtyRects
 aNumDirtyRects
+aOpaqueRects
+aNumOpaqueRects
 )
 ;
 }
