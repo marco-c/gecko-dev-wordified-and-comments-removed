@@ -1051,6 +1051,14 @@ isSuper
 if
 (
 !
+isCompoundAssignment
+(
+)
+)
+{
+if
+(
+!
 emitPrivateGuardForAssignment
 (
 )
@@ -1059,6 +1067,7 @@ emitPrivateGuardForAssignment
 return
 false
 ;
+}
 }
 JSOp
 setOp
