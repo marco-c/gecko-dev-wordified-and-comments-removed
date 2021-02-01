@@ -82,3 +82,6 @@ patch
 lower_SDK_version_requirement
 .
 patch
+add_CET_STRICT_MODE
+.
+patch
