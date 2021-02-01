@@ -5052,9 +5052,6 @@ CompilationStencil
 stencil
 InheritThis
 inheritThis
-Scope
-*
-enclosingScope
 JSObject
 *
 enclosingEnv
@@ -5072,7 +5069,13 @@ scopeContext
 (
 cx
 inheritThis
-enclosingScope
+stencil
+.
+input
+.
+maybeNonDefaultEnclosingScope
+(
+)
 enclosingEnv
 )
 usedNames

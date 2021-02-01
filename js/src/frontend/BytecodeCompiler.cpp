@@ -568,14 +568,6 @@ InheritThis
 :
 :
 No
-js
-:
-:
-Scope
-*
-enclosingScope
-=
-nullptr
 JSObject
 *
 enclosingEnv
@@ -594,7 +586,6 @@ allocScope
 options
 stencil
 inheritThis
-enclosingScope
 enclosingEnv
 )
 {
@@ -863,14 +854,6 @@ InheritThis
 :
 :
 No
-js
-:
-:
-Scope
-*
-enclosingScope
-=
-nullptr
 JSObject
 *
 enclosingEnv
@@ -886,7 +869,6 @@ options
 stencil
 sourceBuffer
 inheritThis
-enclosingScope
 enclosingEnv
 )
 {
@@ -2333,7 +2315,6 @@ InheritThis
 :
 :
 Yes
-enclosingScope
 enclosingEnv
 )
 ;
@@ -2775,14 +2756,6 @@ InheritThis
 :
 :
 No
-js
-:
-:
-Scope
-*
-enclosingScope
-=
-nullptr
 )
 :
 Base
@@ -2793,7 +2766,6 @@ options
 stencil
 sourceBuffer
 inheritThis
-enclosingScope
 )
 {
 }
@@ -5333,12 +5305,6 @@ input
 options
 stencil
 inheritThis
-fun
--
->
-enclosingScope
-(
-)
 )
 ;
 Parser
@@ -5976,7 +5942,6 @@ get
 )
 srcBuf
 inheritThis
-enclosingScope
 )
 ;
 if
