@@ -17569,14 +17569,8 @@ const
 nsACString
 &
 aUsername
-const
-nsACString
-&
-aTopWindowOrigin
 bool
 aPrivateBrowsing
-bool
-aIsolated
 nsIInterfaceRequestor
 *
 aCallbacks
@@ -17733,9 +17727,7 @@ https
 originHost
 originPort
 aUsername
-aTopWindowOrigin
 aPrivateBrowsing
-aIsolated
 aCallbacks
 nullptr
 0
