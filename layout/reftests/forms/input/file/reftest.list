@@ -255,6 +255,9 @@ cocoaWidget
 |
 |
 geckoview
+|
+|
+nativeThemePref
 )
 )
 =

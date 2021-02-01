@@ -680,6 +680,10 @@ if
 (
 !
 cocoaWidget
+|
+|
+!
+nativeThemePref
 )
 =
 =
@@ -733,6 +737,10 @@ if
 (
 !
 cocoaWidget
+|
+|
+!
+nativeThemePref
 |
 |
 debug
@@ -789,6 +797,10 @@ if
 (
 !
 cocoaWidget
+|
+|
+!
+nativeThemePref
 )
 =
 =
