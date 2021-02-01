@@ -2096,14 +2096,6 @@ mPrivate
 )
 ;
 ci
--
->
-SetIsolated
-(
-mIsolated
-)
-;
-ci
 .
 forget
 (
