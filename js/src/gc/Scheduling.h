@@ -237,10 +237,7 @@ const
 int64_t
 DefaultTimeBudgetMS
 =
-SliceBudget
-:
-:
-UnlimitedTimeBudget
+0
 ;
 static
 const

@@ -705,16 +705,6 @@ PRMJ_NowInit
 (
 )
 ;
-js
-:
-:
-SliceBudget
-:
-:
-Init
-(
-)
-;
 mozilla
 :
 :

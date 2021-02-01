@@ -8691,7 +8691,7 @@ kStep
 SliceBudget
 :
 :
-CounterReset
+StepsPerTimeCheck
 /
 kNumNodesBetweenTimeChecks
 ;
@@ -15686,7 +15686,7 @@ step
 SliceBudget
 :
 :
-CounterReset
+StepsPerTimeCheck
 )
 ;
 continueSlice

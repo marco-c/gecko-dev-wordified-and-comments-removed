@@ -3548,7 +3548,9 @@ collect
 (
 bool
 nonincrementalByAPI
+const
 SliceBudget
+&
 budget
 const
 MaybeInvocationKind
@@ -3568,8 +3570,10 @@ gcCycle
 (
 bool
 nonincrementalByAPI
+const
 SliceBudget
-budget
+&
+budgetArg
 const
 MaybeInvocationKind
 &
