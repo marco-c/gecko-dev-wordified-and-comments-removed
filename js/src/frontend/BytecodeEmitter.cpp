@@ -839,7 +839,6 @@ column
 perScriptData_
 (
 cx
-stencil
 compilationState
 )
 stencil
@@ -51882,12 +51881,8 @@ outermostScope
 (
 )
 .
-hasOnChain
+hasNonSyntacticScopeOnChain
 (
-ScopeKind
-:
-:
-NonSyntactic
 )
 =
 =

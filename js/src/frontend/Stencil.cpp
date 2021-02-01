@@ -339,12 +339,11 @@ enclosing
 }
 return
 AbstractScopePtr
+:
+:
+compilationEnclosingScope
 (
 compilationState
-.
-input
-.
-enclosingScope
 )
 ;
 }
