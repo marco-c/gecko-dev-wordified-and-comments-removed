@@ -61356,6 +61356,13 @@ defined
 (
 MOZ_PROFILE_GENERATE
 )
+&
+&
+!
+defined
+(
+JS_STRUCTURED_SPEW
+)
 #
 ifdef
 NIGHTLY_BUILD
