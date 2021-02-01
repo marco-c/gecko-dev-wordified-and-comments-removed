@@ -50093,9 +50093,7 @@ TokenKind
 Number
 :
 {
-const
-ParserAtom
-*
+auto
 numAtom
 =
 NumberToParserAtom
@@ -50134,11 +50132,6 @@ null
 propAtomOut
 =
 numAtom
--
->
-toIndex
-(
-)
 ;
 return
 newNumber
