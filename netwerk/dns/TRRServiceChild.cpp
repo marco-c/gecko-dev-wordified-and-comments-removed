@@ -44,6 +44,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 TRRService
 .
 h
