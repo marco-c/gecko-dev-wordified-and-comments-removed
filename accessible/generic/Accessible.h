@@ -2513,7 +2513,7 @@ eNoKidsFromDOM
 ;
 }
 bool
-HasNameDependentParent
+HasNameDependent
 (
 )
 const
@@ -2521,7 +2521,7 @@ const
 return
 mContextFlags
 &
-eHasNameDependentParent
+eHasNameDependent
 ;
 }
 bool
@@ -2774,7 +2774,7 @@ eHasTextKids
 enum
 ContextFlags
 {
-eHasNameDependentParent
+eHasNameDependent
 =
 1
 <
