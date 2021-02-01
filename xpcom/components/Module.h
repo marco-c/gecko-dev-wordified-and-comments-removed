@@ -189,6 +189,17 @@ ProcessSelector
 ALLOW_IN_GPU_RDD_VR_AND_SOCKET_PROCESS
 )
 ;
+enum
+BackgroundTasksSelector
+{
+NO_TASKS
+=
+0x0
+ALL_TASKS
+=
+0xFFFF
+}
+;
 struct
 CIDEntry
 {
