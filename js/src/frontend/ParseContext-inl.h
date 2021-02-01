@@ -402,9 +402,7 @@ ParseContext
 :
 checkBreakStatement
 (
-const
-ParserName
-*
+TaggedParserAtomIndex
 label
 )
 {
@@ -557,9 +555,7 @@ ParseContext
 :
 checkContinueStatement
 (
-const
-ParserName
-*
+TaggedParserAtomIndex
 label
 )
 {
