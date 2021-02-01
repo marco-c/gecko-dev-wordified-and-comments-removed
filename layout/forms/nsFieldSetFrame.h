@@ -197,9 +197,6 @@ nsRect
 aDirtyRect
 )
 ;
-#
-ifdef
-DEBUG
 virtual
 void
 SetInitialChildList
@@ -224,6 +221,9 @@ aFrameList
 )
 override
 ;
+#
+ifdef
+DEBUG
 virtual
 void
 InsertFrames
