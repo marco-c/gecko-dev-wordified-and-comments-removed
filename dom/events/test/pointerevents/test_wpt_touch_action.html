@@ -464,6 +464,7 @@ name
 )
 {
 return
+async
 function
 (
 childWin
@@ -475,6 +476,7 @@ _ACTIVE_TEST_NAME
 =
 name
 ;
+await
 injectScript
 (
 '
@@ -489,11 +491,8 @@ js
 '
 childWin
 )
-(
-)
-.
-then
-(
+;
+await
 injectScript
 (
 '
@@ -506,10 +505,8 @@ js
 '
 childWin
 )
-)
-.
-then
-(
+;
+await
 injectScript
 (
 '
@@ -522,10 +519,8 @@ js
 '
 childWin
 )
-)
-.
-then
-(
+;
+await
 injectScript
 (
 '
@@ -537,7 +532,6 @@ touch_action_helpers
 js
 '
 childWin
-)
 )
 ;
 }
