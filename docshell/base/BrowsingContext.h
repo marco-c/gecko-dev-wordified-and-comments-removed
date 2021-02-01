@@ -4563,7 +4563,7 @@ IDX_AuthorStyleDisabledDefault
 )
 ;
 bool
-CheckOnlyOwningProcessCanSet
+LegacyCheckOnlyOwningProcessCanSet
 (
 ContentParent
 *
