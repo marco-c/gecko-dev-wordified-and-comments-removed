@@ -335,6 +335,11 @@ textoverflow
 )
 ;
 "
+align
+=
+"
+start
+"
 flex
 =
 "
