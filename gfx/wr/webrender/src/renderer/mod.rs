@@ -14874,6 +14874,10 @@ features
 self
 .
 debug_flags
+&
+self
+.
+device
 )
 .
 bind
@@ -15098,6 +15102,10 @@ ALPHA_PASS
 self
 .
 debug_flags
+&
+self
+.
+device
 )
 ;
 if

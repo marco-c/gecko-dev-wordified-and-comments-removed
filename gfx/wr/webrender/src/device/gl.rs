@@ -4454,6 +4454,10 @@ prefers_batched_texture_uploads
 :
 bool
 pub
+uses_native_clip_mask
+:
+bool
+pub
 renderer_name
 :
 String
@@ -7048,6 +7052,11 @@ gl_version
 }
 ;
 let
+uses_native_clip_mask
+=
+is_software_webrender
+;
+let
 prefers_batched_texture_uploads
 =
 is_mali_g
@@ -7084,6 +7093,7 @@ supports_texture_usage
 supports_render_target_partial_update
 supports_shader_storage_object
 prefers_batched_texture_uploads
+uses_native_clip_mask
 renderer_name
 }
 color_formats
