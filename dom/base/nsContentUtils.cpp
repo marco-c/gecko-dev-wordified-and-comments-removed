@@ -31409,7 +31409,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-int32_t
+size_t
 dataLen
 =
 aData

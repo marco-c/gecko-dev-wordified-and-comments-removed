@@ -531,7 +531,7 @@ Create
 (
 JSContext
 *
-uint32_t
+size_t
 )
 typename
 Element
