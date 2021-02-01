@@ -239,13 +239,6 @@ mozilla
 LogicalSize
 &
 aBorderPadding
-const
-mozilla
-:
-:
-StyleSizeOverrides
-&
-aSizeOverrides
 mozilla
 :
 :

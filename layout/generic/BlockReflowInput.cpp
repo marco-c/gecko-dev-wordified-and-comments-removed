@@ -3036,8 +3036,6 @@ Size
 (
 wm
 )
-{
-}
 ComputeSizeFlag
 :
 :

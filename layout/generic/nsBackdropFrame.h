@@ -86,6 +86,7 @@ aLists
 )
 override
 ;
+virtual
 mozilla
 :
 :
@@ -123,13 +124,6 @@ mozilla
 LogicalSize
 &
 aBorderPadding
-const
-mozilla
-:
-:
-StyleSizeOverrides
-&
-aSizeOverrides
 mozilla
 :
 :
