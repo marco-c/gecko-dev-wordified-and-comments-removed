@@ -1095,6 +1095,11 @@ gcThingList
 append
 (
 atom
+-
+>
+toIndex
+(
+)
 &
 index
 )
