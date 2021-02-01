@@ -3416,6 +3416,10 @@ findMessage
 (
 hud
 urlInConsole
+"
+.
+network
+"
 )
 )
 ;
