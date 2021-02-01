@@ -2274,6 +2274,7 @@ get
 (
 )
 <
+=
 maxByteLength
 (
 )
@@ -2818,7 +2819,6 @@ size_t
 len
 )
 >
-=
 maxByteLength
 (
 )
@@ -3808,7 +3808,6 @@ if
 (
 len
 >
-=
 maxByteLength
 (
 )
@@ -4277,7 +4276,6 @@ if
 (
 count
 >
-=
 maxByteLength
 (
 )
@@ -4315,6 +4313,7 @@ get
 (
 )
 <
+=
 maxByteLength
 (
 )

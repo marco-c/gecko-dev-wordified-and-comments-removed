@@ -546,6 +546,7 @@ get
 (
 )
 <
+=
 TypedArrayObject
 :
 :
