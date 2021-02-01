@@ -95,7 +95,7 @@ await
 loaded
 ;
 let
-identityBox
+identityPermissionBox
 =
 document
 .
@@ -103,6 +103,8 @@ getElementById
 (
 "
 identity
+-
+permission
 -
 box
 "
@@ -149,7 +151,7 @@ document
 getElementById
 (
 "
-identity
+permission
 -
 popup
 "
@@ -165,7 +167,7 @@ browser
 false
 )
 ;
-identityBox
+identityPermissionBox
 .
 click
 (
@@ -179,7 +181,7 @@ for
 fullscreen
 exit
 and
-identity
+permission
 popup
 to
 show
@@ -205,7 +207,7 @@ document
 getElementById
 (
 "
-identity
+permission
 -
 popup
 "
