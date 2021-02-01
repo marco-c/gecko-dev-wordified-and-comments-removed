@@ -3259,7 +3259,6 @@ false
 stencil
 compilationState_
 nullptr
-nullptr
 )
 ;
 if
@@ -3307,7 +3306,6 @@ ptrOr
 (
 nullptr
 )
-nullptr
 )
 ;
 parser
@@ -5373,7 +5371,6 @@ true
 stencil
 compilationState
 nullptr
-lazy
 )
 ;
 if
