@@ -6750,6 +6750,12 @@ AssertAlive
 (
 )
 ;
+static
+void
+DidLaunchSubprocess
+(
+)
+;
 private
 :
 RefPtr
@@ -7080,6 +7086,10 @@ ipc
 SharedPreferenceSerializer
 >
 mPrefSerializer
+;
+static
+uint32_t
+sMaxContentProcesses
 ;
 }
 ;
