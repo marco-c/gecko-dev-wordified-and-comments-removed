@@ -31234,6 +31234,15 @@ false
 }
 if
 (
+!
+mConnectionInfo
+-
+>
+IsHttp3
+(
+)
+&
+&
 gHttpHandler
 -
 >
