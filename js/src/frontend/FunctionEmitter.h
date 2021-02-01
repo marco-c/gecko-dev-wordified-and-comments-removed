@@ -161,9 +161,7 @@ FunctionBox
 *
 funbox_
 ;
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name_
 ;
 FunctionSyntaxKind
@@ -539,9 +537,7 @@ MOZ_MUST_USE
 bool
 emitSimple
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 paramName
 )
 ;
@@ -555,9 +551,7 @@ MOZ_MUST_USE
 bool
 emitDefaultEnd
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 paramName
 )
 ;
@@ -595,9 +589,7 @@ MOZ_MUST_USE
 bool
 emitRest
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 paramName
 )
 ;
@@ -637,9 +629,7 @@ MOZ_MUST_USE
 bool
 emitAssignment
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 paramName
 )
 ;

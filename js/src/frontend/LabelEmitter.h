@@ -134,9 +134,7 @@ bce
 void
 emitLabel
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 )
 ;

@@ -1045,9 +1045,7 @@ emitInit
 (
 AccessorType
 accessorType
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 key
 )
 {
@@ -1238,9 +1236,7 @@ emitInit
 (
 JSOp
 op
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 key
 )
 {
@@ -1330,11 +1326,6 @@ emitAtomOp
 (
 op
 key
--
->
-toIndex
-(
-)
 )
 )
 {
