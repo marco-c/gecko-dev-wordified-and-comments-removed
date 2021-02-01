@@ -254,6 +254,9 @@ fails
 if
 (
 Android
+&
+&
+nativeThemePref
 )
 =
 =
