@@ -111,6 +111,7 @@ info
 {
 return
 (
+!
 info
 .
 AXTextStateSync
@@ -286,6 +287,7 @@ info
 {
 return
 (
+!
 info
 .
 AXTextStateSync
@@ -829,6 +831,7 @@ info
 {
 return
 (
+!
 info
 .
 AXTextStateSync
