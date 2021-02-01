@@ -214,6 +214,13 @@ BackgroundTask_backgroundtask_specific_pref
 .
 jsm
 "
+"
+tests
+/
+BackgroundTask_wait
+.
+jsm
+"
 ]
 FINAL_TARGET_FILES
 .
