@@ -43069,11 +43069,6 @@ compilationState
 .
 parserAtoms
 )
--
->
-toIndex
-(
-)
 ;
 if
 (
