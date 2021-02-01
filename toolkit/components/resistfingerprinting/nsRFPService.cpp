@@ -1186,9 +1186,9 @@ cacheEntry
 .
 accessTime
 =
-PR_Now
-(
-)
++
++
+mTimeCounter
 ;
 MOZ_LOG
 (
@@ -1377,9 +1377,9 @@ lowestKey
 >
 accessTime
 =
-PR_Now
-(
-)
++
++
+mTimeCounter
 ;
 MOZ_LOG
 (
@@ -1433,7 +1433,7 @@ Relaxed
 >
 keyPart2
 ;
-PRTime
+uint64_t
 accessTime
 =
 0
@@ -1539,6 +1539,11 @@ mozilla
 :
 Mutex
 mLock
+;
+uint64_t
+mTimeCounter
+=
+0
 ;
 }
 ;
