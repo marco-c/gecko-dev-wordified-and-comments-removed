@@ -215,11 +215,6 @@ NonOwningImage
 ;
 }
 void
-ClearCurrentFrame
-(
-)
-;
-void
 ClearFutureFrames
 (
 TimeStamp
