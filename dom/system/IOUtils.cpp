@@ -6552,6 +6552,11 @@ destDir
 )
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+destDir
+)
+;
 rv
 =
 (
@@ -6918,6 +6923,11 @@ parent
 )
 )
 ;
+if
+(
+parent
+)
+{
 bool
 parentExists
 =
@@ -6984,6 +6994,7 @@ get
 )
 )
 ;
+}
 }
 }
 nsresult
