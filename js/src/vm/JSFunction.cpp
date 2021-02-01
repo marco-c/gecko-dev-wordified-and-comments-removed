@@ -7815,6 +7815,17 @@ get
 (
 )
 .
+setFunctionKey
+(
+lazy
+)
+;
+stencil
+.
+get
+(
+)
+.
 input
 .
 initFromLazy
