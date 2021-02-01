@@ -128,6 +128,7 @@ UniquePtr
 <
 PerformanceTimingData
 >
+aPerformanceTimingData
 const
 nsAString
 &

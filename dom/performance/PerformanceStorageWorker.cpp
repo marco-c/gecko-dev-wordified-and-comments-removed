@@ -108,6 +108,11 @@ mEntryName
 aEntryName
 )
 {
+MOZ_RELEASE_ASSERT
+(
+mData
+)
+;
 }
 UniquePtr
 <
