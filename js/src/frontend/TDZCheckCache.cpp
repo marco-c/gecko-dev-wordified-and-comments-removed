@@ -118,9 +118,7 @@ needsTDZCheck
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 )
 {
@@ -285,9 +283,7 @@ noteTDZCheck
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 MaybeCheckTDZ
 check

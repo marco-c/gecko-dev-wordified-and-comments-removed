@@ -43,6 +43,15 @@ h
 #
 include
 "
+frontend
+/
+ParserAtom
+.
+h
+"
+#
+include
+"
 js
 /
 TypeDecls
@@ -121,9 +130,7 @@ needsTDZCheck
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 )
 ;
@@ -134,9 +141,7 @@ noteTDZCheck
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 MaybeCheckTDZ
 check

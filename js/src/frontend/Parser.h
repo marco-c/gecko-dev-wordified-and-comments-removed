@@ -134,6 +134,15 @@ include
 "
 frontend
 /
+ParserAtom
+.
+h
+"
+#
+include
+"
+frontend
+/
 SharedContext
 .
 h
@@ -1120,9 +1129,7 @@ next
 bool
 noteUsedNameInternal
 (
-const
-ParserName
-*
+TaggedParserAtomIndex
 name
 NameVisibility
 visibility
@@ -1367,9 +1374,7 @@ destruct
 bool
 noteUsedName
 (
-const
-ParserName
-*
+TaggedParserAtomIndex
 name
 NameVisibility
 visibility
