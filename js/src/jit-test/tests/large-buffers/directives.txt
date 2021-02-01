@@ -32,4 +32,11 @@ size
 =
 =
 4
+|
+|
+getBuildConfiguration
+(
+)
+.
+tsan
 )
