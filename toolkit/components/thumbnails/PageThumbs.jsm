@@ -1029,13 +1029,12 @@ return
 aCanvas
 ;
 }
+await
 PageThumbUtils
 .
 createSnapshotThumbnail
 (
 aBrowser
-.
-contentWindow
 aCanvas
 aArgs
 )
