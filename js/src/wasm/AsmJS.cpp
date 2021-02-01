@@ -34274,9 +34274,7 @@ return
 false
 ;
 }
-const
-ParserName
-*
+TaggedParserAtomIndex
 name
 =
 m
