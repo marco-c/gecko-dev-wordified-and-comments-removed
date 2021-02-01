@@ -1156,9 +1156,7 @@ let
 stat
 =
 await
-OS
-.
-File
+IOUtils
 .
 stat
 (
@@ -1189,12 +1187,12 @@ equal
 (
 stat
 .
-winAttributes
-.
-readOnly
-!
-!
+permissions
 isTemporary
+?
+0o444
+:
+0o666
 )
 ;
 }
@@ -1206,7 +1204,7 @@ equal
 (
 stat
 .
-unixMode
+permissions
 isTemporary
 ?
 0o400
@@ -1638,7 +1636,6 @@ example
 .
 com
 /
-abc
 \
 r
 \
