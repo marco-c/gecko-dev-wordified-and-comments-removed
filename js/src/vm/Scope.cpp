@@ -5672,6 +5672,9 @@ frontend
 TaggedParserAtomIndex
 :
 :
+WellKnown
+:
+:
 arguments
 (
 )
@@ -5686,6 +5689,9 @@ frontend
 TaggedParserAtomIndex
 :
 :
+WellKnown
+:
+:
 dotThis
 (
 )
@@ -5698,6 +5704,9 @@ frontend
 :
 :
 TaggedParserAtomIndex
+:
+:
+WellKnown
 :
 :
 dotGenerator

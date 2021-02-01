@@ -7452,6 +7452,9 @@ frontend
 TaggedParserAtomIndex
 :
 :
+WellKnown
+:
+:
 star
 (
 )
@@ -7555,6 +7558,9 @@ frontend
 :
 :
 TaggedParserAtomIndex
+:
+:
+WellKnown
 :
 :
 star

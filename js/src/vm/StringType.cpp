@@ -7669,13 +7669,13 @@ fromSmallChar
 i
 >
 >
-6
+SMALL_CHAR_BITS
 )
 fromSmallChar
 (
 i
 &
-0x3F
+SMALL_CHAR_MASK
 )
 }
 ;
@@ -7803,7 +7803,7 @@ i
 )
 <
 <
-6
+SMALL_CHAR_BITS
 )
 +
 toSmallChar
