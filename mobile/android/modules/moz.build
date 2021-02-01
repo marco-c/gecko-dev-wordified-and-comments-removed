@@ -24,9 +24,6 @@ DIRS
 "
 geckoview
 "
-"
-test
-"
 ]
 EXTRA_JS_MODULES
 +
