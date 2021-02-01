@@ -859,6 +859,11 @@ markdown_file
 "
 r
 "
+encoding
+=
+"
+utf_8
+"
 )
 as
 f

@@ -1746,6 +1746,11 @@ p
 "
 r
 "
+encoding
+=
+"
+utf_8
+"
 )
 as
 file
@@ -1822,6 +1827,11 @@ open
 p
 "
 w
+"
+encoding
+=
+"
+utf_8
 "
 )
 as
