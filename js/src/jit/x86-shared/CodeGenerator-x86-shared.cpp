@@ -794,6 +794,15 @@ MCompare
 :
 :
 Compare_Symbol
+|
+|
+type
+=
+=
+MCompare
+:
+:
+Compare_UIntPtr
 )
 {
 masm

@@ -13423,6 +13423,7 @@ Compare_Int32
 Compare_UInt32
 Compare_Int64
 Compare_UInt64
+Compare_UIntPtr
 Compare_Double
 Compare_Float32
 Compare_String
@@ -14173,6 +14174,15 @@ MCompare
 :
 :
 Compare_UInt32
+&
+&
+compareType
+!
+=
+MCompare
+:
+:
+Compare_UIntPtr
 )
 ;
 return
