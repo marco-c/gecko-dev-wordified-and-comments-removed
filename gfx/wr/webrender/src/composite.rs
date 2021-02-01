@@ -3802,9 +3802,6 @@ self
 _id
 :
 NativeTileId
-_valid_rect
-:
-DeviceIntRect
 )
 {
 }
@@ -3871,12 +3868,6 @@ start_compositing
 mut
 self
 _dirty_rects
-:
-&
-[
-DeviceIntRect
-]
-_opaque_rects
 :
 &
 [
