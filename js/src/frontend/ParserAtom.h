@@ -1534,12 +1534,6 @@ index
 ;
 }
 bool
-isPrivateName
-(
-)
-const
-;
-bool
 isAscii
 (
 )

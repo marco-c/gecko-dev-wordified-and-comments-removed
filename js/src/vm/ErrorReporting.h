@@ -492,15 +492,6 @@ va_list
 ap
 )
 ;
-extern
-void
-MaybePrintAndClearPendingException
-(
-JSContext
-*
-cx
-)
-;
 }
 #
 endif
