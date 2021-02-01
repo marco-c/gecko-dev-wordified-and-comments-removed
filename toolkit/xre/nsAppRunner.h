@@ -465,14 +465,4 @@ IsWaylandDisabled
 #
 endif
 #
-ifdef
-MOZ_X11
-bool
-IsX11EGLEnabled
-(
-)
-;
-#
-endif
-#
 endif
