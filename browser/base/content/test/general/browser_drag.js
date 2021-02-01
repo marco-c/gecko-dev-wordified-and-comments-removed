@@ -193,8 +193,6 @@ getElementById
 "
 identity
 -
-icon
--
 box
 "
 )

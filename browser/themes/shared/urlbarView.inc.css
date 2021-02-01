@@ -74,7 +74,7 @@ urlbarViewIconMarginEnd
 (
 identityBoxPaddingInline
 +
-identityBoxMarginInline
+identityBoxMarginInlineEnd
 )
 %
 define
@@ -1328,7 +1328,7 @@ calc
 (
 urlbarViewItemInlinePadding
 +
-identityBoxMarginInline
+identityBoxMarginInlineEnd
 +
 urlbarViewFaviconWidth
 )
@@ -1382,7 +1382,7 @@ calc
 (
 urlbarViewItemInlinePadding
 +
-identityBoxMarginInline
+identityBoxMarginInlineEnd
 +
 urlbarViewFaviconWidth
 )
@@ -1698,7 +1698,7 @@ calc
 (
 urlbarViewItemInlinePadding
 +
-identityBoxMarginInline
+identityBoxMarginInlineEnd
 +
 urlbarViewFaviconWidth
 )

@@ -245,7 +245,7 @@ selectedBrowser
 ;
 ok
 (
-permissionPopupHidden
+identityPopupHidden
 (
 win
 )
@@ -288,9 +288,9 @@ popup
 =
 win
 .
-gPermissionPanel
+gIdentityHandler
 .
-_permissionPopup
+_identityPopup
 ;
 let
 hiddenEvent
@@ -347,9 +347,9 @@ popup
 ;
 win
 .
-gPermissionPanel
+gIdentityHandler
 .
-_permissionPopup
+_identityPopup
 .
 hidePopup
 (
@@ -357,7 +357,7 @@ hidePopup
 ;
 ok
 (
-permissionPopupHidden
+identityPopupHidden
 (
 window
 )

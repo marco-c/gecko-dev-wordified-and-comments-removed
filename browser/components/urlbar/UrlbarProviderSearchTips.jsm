@@ -2133,15 +2133,6 @@ container
 "
 identity
 -
-icon
--
-box
-"
-"
-identity
--
-permission
--
 box
 "
 ]

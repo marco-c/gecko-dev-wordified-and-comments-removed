@@ -367,7 +367,7 @@ el
 }
 async
 function
-testPermissionPopupGeoContainer
+testIdentityPopupGeoContainer
 (
 containerVisible
 timestampVisible
@@ -400,9 +400,9 @@ container
 if
 (
 !
-gPermissionPanel
+gIdentityHandler
 .
-_identityPermissionBox
+_identityBox
 .
 hasAttribute
 (
@@ -413,7 +413,7 @@ open
 )
 {
 await
-openPermissionPopup
+openIdentityPopup
 (
 )
 ;
@@ -425,7 +425,7 @@ checkForDOMElement
 (
 containerVisible
 "
-permission
+identity
 -
 popup
 -
@@ -465,7 +465,7 @@ childElementCount
 =
 2
 "
-permission
+identity
 -
 popup
 -
@@ -494,7 +494,7 @@ classList
 0
 ]
 "
-permission
+identity
 -
 popup
 -
@@ -1184,7 +1184,7 @@ testGeoSharingIconVisible
 (
 true
 )
-testPermissionPopupGeoContainer
+testIdentityPopupGeoContainer
 (
 true
 true
@@ -1305,7 +1305,7 @@ testGeoSharingIconVisible
 (
 true
 )
-testPermissionPopupGeoContainer
+testIdentityPopupGeoContainer
 (
 true
 true
@@ -1364,7 +1364,7 @@ add_task
 (
 async
 function
-test_permission_popup_permission_scope_permanent
+test_identity_popup_permission_scope_permanent
 (
 )
 {
@@ -1397,7 +1397,7 @@ openExamplePage
 )
 ;
 await
-testPermissionPopupGeoContainer
+testIdentityPopupGeoContainer
 (
 true
 false
@@ -1416,7 +1416,7 @@ add_task
 (
 async
 function
-test_permission_popup_permission_sharing_state
+test_identity_popup_permission_sharing_state
 (
 )
 {
@@ -1443,7 +1443,7 @@ true
 )
 ;
 await
-testPermissionPopupGeoContainer
+testIdentityPopupGeoContainer
 (
 true
 false
@@ -1462,7 +1462,7 @@ add_task
 (
 async
 function
-test_permission_popup_permission_sharing_state_timestamp
+test_identity_popup_permission_sharing_state_timestamp
 (
 )
 {
@@ -1498,7 +1498,7 @@ true
 )
 ;
 await
-testPermissionPopupGeoContainer
+testIdentityPopupGeoContainer
 (
 true
 true
@@ -1517,7 +1517,7 @@ add_task
 (
 async
 function
-test_permission_popup_permission_clear
+test_identity_popup_permission_clear
 (
 )
 {
@@ -1564,7 +1564,7 @@ true
 )
 ;
 await
-openPermissionPopup
+openIdentityPopup
 (
 )
 ;
@@ -1577,7 +1577,7 @@ querySelector
 (
 "
 #
-permission
+identity
 -
 popup
 -
@@ -1615,7 +1615,7 @@ testGeoSharingIconVisible
 (
 false
 )
-testPermissionPopupGeoContainer
+testIdentityPopupGeoContainer
 (
 false
 false
@@ -1688,7 +1688,7 @@ add_task
 (
 async
 function
-test_permission_no_duplicate_last_access_label
+test_identity_no_duplicate_last_access_label
 (
 )
 {
@@ -1710,7 +1710,7 @@ true
 )
 ;
 await
-openPermissionPopup
+openIdentityPopup
 (
 )
 ;
@@ -1743,7 +1743,7 @@ true
 )
 ;
 await
-testPermissionPopupGeoContainer
+testIdentityPopupGeoContainer
 (
 true
 true

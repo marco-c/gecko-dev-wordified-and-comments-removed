@@ -5036,7 +5036,7 @@ updateUserContextUIIndicator
 (
 )
 ;
-gPermissionPanel
+gIdentityHandler
 .
 updateSharingIndicator
 (
@@ -5697,7 +5697,7 @@ this
 selectedBrowser
 )
 {
-gPermissionPanel
+gIdentityHandler
 .
 updateSharingIndicator
 (
@@ -5865,7 +5865,7 @@ this
 selectedBrowser
 )
 {
-gPermissionPanel
+gIdentityHandler
 .
 updateSharingIndicator
 (
@@ -16713,12 +16713,6 @@ browser
 authPromptAbuseCounter
 ;
 gIdentityHandler
-.
-hidePopup
-(
-)
-;
-gPermissionPanel
 .
 hidePopup
 (
