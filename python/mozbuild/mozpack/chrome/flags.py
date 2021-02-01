@@ -1747,6 +1747,12 @@ process
 "
 :
 StringFlag
+        
+"
+backgroundtask
+"
+:
+StringFlag
     
 }
     
