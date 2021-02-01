@@ -314,14 +314,6 @@ mCanvasTM
 =
 nullptr
 ;
-SVGObserverUtils
-:
-:
-InvalidateRenderingObservers
-(
-this
-)
-;
 SVGUtils
 :
 :
