@@ -54,7 +54,7 @@ Register64
 dest
 )
 {
-movq
+mov
 (
 ImmWord
 (
