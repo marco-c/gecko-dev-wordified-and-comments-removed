@@ -6858,9 +6858,7 @@ AsmJSMathBuiltinFunction
 func
 )
 {
-const
-ParserAtom
-*
+auto
 atom
 =
 parserAtoms_
@@ -6900,11 +6898,6 @@ standardLibraryMathNames_
 putNew
 (
 atom
--
->
-toIndex
-(
-)
 builtin
 )
 ;
@@ -7022,9 +7015,7 @@ double
 cst
 )
 {
-const
-ParserAtom
-*
+auto
 atom
 =
 parserAtoms_
@@ -7064,11 +7055,6 @@ standardLibraryMathNames_
 putNew
 (
 atom
--
->
-toIndex
-(
-)
 builtin
 )
 ;

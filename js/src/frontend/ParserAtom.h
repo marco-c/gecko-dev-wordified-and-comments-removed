@@ -3673,9 +3673,7 @@ default
 ;
 private
 :
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 addEntry
 (
 JSContext
@@ -3699,9 +3697,7 @@ AtomCharT
 typename
 SeqCharT
 >
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 internChar16Seq
 (
 JSContext
@@ -3726,9 +3722,7 @@ length
 ;
 public
 :
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 internAscii
 (
 JSContext
@@ -3742,9 +3736,7 @@ uint32_t
 length
 )
 ;
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 internLatin1
 (
 JSContext
@@ -3761,9 +3753,7 @@ uint32_t
 length
 )
 ;
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 internUtf8
 (
 JSContext
@@ -3780,9 +3770,7 @@ uint32_t
 nbyte
 )
 ;
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 internChar16
 (
 JSContext
@@ -3796,9 +3784,7 @@ uint32_t
 length
 )
 ;
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 internJSAtom
 (
 JSContext
