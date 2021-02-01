@@ -380,10 +380,6 @@ of
 false
 .
 *
-deprecated
-use
-asyncPromptAuth
-*
 /
 boolean
 promptAuth
