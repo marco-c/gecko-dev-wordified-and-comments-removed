@@ -3050,16 +3050,6 @@ AsyncResumePending
 )
 (
 uint32_t
-HasBeenIsolatedChecked
-1
-)
-(
-uint32_t
-IsIsolated
-1
-)
-(
-uint32_t
 TopWindowOriginComputed
 1
 )
