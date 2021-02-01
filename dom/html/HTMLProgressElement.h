@@ -177,6 +177,12 @@ Position
 )
 const
 ;
+NS_IMPL_FROMNODE_HTML_WITH_TAG
+(
+HTMLProgressElement
+progress
+)
+;
 protected
 :
 virtual
