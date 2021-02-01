@@ -26253,7 +26253,7 @@ NS_FORM_INPUT_HIDDEN
 &
 name
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 "
 _charset_
