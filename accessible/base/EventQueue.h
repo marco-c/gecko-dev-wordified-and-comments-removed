@@ -48,7 +48,7 @@ aEvent
 )
 ;
 bool
-PushNameChange
+PushNameOrDescriptionChange
 (
 Accessible
 *
