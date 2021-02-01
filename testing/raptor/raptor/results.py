@@ -1481,15 +1481,21 @@ RaptorOutput
 self
 .
 results
+            
 self
 .
 supporting_data
+            
 test_config
 [
 "
 subtest_alert_on
 "
 ]
+            
+self
+.
+app
         
 )
         
@@ -4775,15 +4781,21 @@ BrowsertimeOutput
 self
 .
 results
+            
 self
 .
 supporting_data
+            
 test_config
 [
 "
 subtest_alert_on
 "
 ]
+            
+self
+.
+app
         
 )
         
