@@ -356,6 +356,12 @@ connect
 (
 )
 ;
+target
+.
+isBrowserConsoleTarget
+=
+true
+;
 await
 target
 .
