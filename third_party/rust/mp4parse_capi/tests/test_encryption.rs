@@ -130,6 +130,16 @@ _
 [
 test
 ]
+#
+[
+allow
+(
+clippy
+:
+:
+cognitive_complexity
+)
+]
 fn
 parse_cenc
 (
