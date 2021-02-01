@@ -1230,9 +1230,6 @@ defined
 (
 MOZ_OXIDIZED_BREAKPAD
 )
-if
-(
-!
 write_minidump_linux_with_context
 (
 minidump_filename
@@ -1243,17 +1240,7 @@ c_str
 crashing_pid
 crash_context
 )
-)
-{
-close
-(
-signal_fd
-)
 ;
-return
-true
-;
-}
 #
 else
 if
