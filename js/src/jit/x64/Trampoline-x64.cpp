@@ -4115,7 +4115,7 @@ masm
 .
 callWithABI
 (
-JitPreWriteBarrier
+JitMarkFunction
 (
 type
 )

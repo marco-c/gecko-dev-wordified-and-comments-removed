@@ -20807,7 +20807,7 @@ argType
 }
 inline
 DynFn
-JitPreWriteBarrier
+JitMarkFunction
 (
 MIRType
 type
