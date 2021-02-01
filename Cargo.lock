@@ -11995,7 +11995,7 @@ version
 .
 10
 .
-2
+3
 "
 source
 =
@@ -12023,7 +12023,7 @@ index
 checksum
 =
 "
-71de6b7b89292c8b80a4706600aa6d3ceeaac43fb7c91f7bd10c63bc4079252a
+28d73a3c2543c7c54a7e6b8a376b72e94f43892065691093168557473d4194f8
 "
 dependencies
 =
@@ -12085,7 +12085,7 @@ version
 .
 10
 .
-2
+3
 "
 source
 =
@@ -12113,7 +12113,7 @@ index
 checksum
 =
 "
-c1d724cc540f6ee8b8f4a7e2cdf357dd409fe585e453e2e6750c10bd92d5b64f
+470ffc8413e0b28b1f1e093af664aec05bf36303c4cefdeffa38f445385c8d41
 "
 dependencies
 =
@@ -15599,9 +15599,6 @@ utils
 cstr
 "
 "
-failure
-"
-"
 lazy_static
 "
 "
@@ -15632,6 +15629,9 @@ tempfile
 thin
 -
 vec
+"
+"
+thiserror
 "
 "
 xpcom
@@ -25021,9 +25021,9 @@ version
 "
 0
 .
-16
+17
 .
-1
+0
 "
 source
 =
@@ -25051,7 +25051,7 @@ index
 checksum
 =
 "
-917d7a01f8c1ae46226e9d8dd24314279be7b04dfd0b24340d420e6927c2e687
+28e2e15d3fff125cfc4fb3f1b226ff83af057c4715061ded16193b7142beefc9
 "
 dependencies
 =
@@ -25067,9 +25067,6 @@ bitflags
 "
 "
 byteorder
-"
-"
-failure
 "
 "
 id
@@ -25100,6 +25097,9 @@ serde
 "
 "
 serde_derive
+"
+"
+thiserror
 "
 "
 url
@@ -35045,9 +35045,6 @@ utils
 cstr
 "
 "
-failure
-"
-"
 libc
 "
 "
@@ -35073,6 +35070,9 @@ serde_json
 "
 "
 tempfile
+"
+"
+thiserror
 "
 "
 xpcom

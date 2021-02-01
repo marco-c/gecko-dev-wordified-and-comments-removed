@@ -10,14 +10,6 @@ extern
 crate
 cstr
 ;
-#
-[
-macro_use
-]
-extern
-crate
-failure
-;
 extern
 crate
 libc
@@ -57,6 +49,10 @@ serde_json
 extern
 crate
 tempfile
+;
+extern
+crate
+thiserror
 ;
 #
 [
