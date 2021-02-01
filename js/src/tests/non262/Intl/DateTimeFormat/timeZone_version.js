@@ -2,7 +2,7 @@ const
 tzdata
 =
 "
-2020f
+2021a
 "
 ;
 if
