@@ -492,6 +492,8 @@ C
 LOCAL_CLONE
 "
 show
+-
+s
 >
 .
 /
