@@ -4489,7 +4489,6 @@ set
 h
 )
 {
-return
 this
 .
 setEH
@@ -4549,7 +4548,6 @@ deprecated
 msg
 )
 ;
-return
 this
 .
 setEH
