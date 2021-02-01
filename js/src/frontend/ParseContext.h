@@ -731,6 +731,9 @@ propagateAndMarkAnnexBFunctionBoxes
 ParseContext
 *
 pc
+ParserBase
+*
+parser
 )
 ;
 bool
@@ -2053,6 +2056,9 @@ computeAnnexBAppliesToLexicalFunctionInInnermostScope
 FunctionBox
 *
 funbox
+ParserBase
+*
+parser
 bool
 *
 annexBApplies
