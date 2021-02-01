@@ -48065,9 +48065,7 @@ return
 false
 ;
 }
-const
-ParserAtom
-*
+auto
 atom
 =
 RealmInstrumentation
@@ -48102,11 +48100,6 @@ JSOp
 :
 String
 atom
--
->
-toIndex
-(
-)
 )
 )
 {
