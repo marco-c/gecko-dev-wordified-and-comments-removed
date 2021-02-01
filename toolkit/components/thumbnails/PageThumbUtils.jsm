@@ -1283,12 +1283,9 @@ if
 (
 BrowserUtils
 .
-isToolbarVisible
+isFindbarVisible
 (
 aDocShell
-"
-findbar
-"
 )
 )
 {
