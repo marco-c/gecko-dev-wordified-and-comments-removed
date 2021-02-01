@@ -3164,6 +3164,10 @@ static
 bool
 sIsRestoringSession
 ;
+static
+bool
+sFirstTopLevelWindowCreated
+;
 PlatformCompositorWidgetDelegate
 *
 mCompositorWidgetDelegate
