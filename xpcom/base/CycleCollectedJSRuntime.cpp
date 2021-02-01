@@ -1881,6 +1881,15 @@ GCCellPtr
 aThing
 )
 {
+JS
+:
+:
+AutoClearTracingContext
+actc
+(
+this
+)
+;
 if
 (
 aThing
