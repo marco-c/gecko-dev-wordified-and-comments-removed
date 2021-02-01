@@ -40179,9 +40179,7 @@ AccessorType
 None
 )
 ;
-const
-ParserAtom
-*
+auto
 keyAtom
 =
 key
@@ -40219,11 +40217,6 @@ emitAnonymousFunctionWithName
 (
 propVal
 keyAtom
--
->
-toIndex
-(
-)
 )
 )
 {

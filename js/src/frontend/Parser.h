@@ -1664,6 +1664,11 @@ handler_
 newPropertyName
 (
 key
+-
+>
+toIndex
+(
+)
 pos
 )
 ;
