@@ -179,6 +179,15 @@ if
 (
 !
 actor
+|
+|
+!
+actor
+-
+>
+CanSend
+(
+)
 )
 {
 NS_WARNING

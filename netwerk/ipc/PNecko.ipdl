@@ -592,6 +592,11 @@ endpoint
 )
 ;
 async
+ResetSocketProcessBridge
+(
+)
+;
+async
 EnsureHSTSData
 (
 )
