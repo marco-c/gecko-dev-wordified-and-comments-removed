@@ -2158,10 +2158,6 @@ script
 CloneGlobalScript
 (
 cx
-ScopeKind
-:
-:
-NonSyntactic
 script
 )
 ;
