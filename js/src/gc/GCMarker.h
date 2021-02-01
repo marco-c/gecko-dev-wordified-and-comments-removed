@@ -1240,6 +1240,17 @@ IterativeMarking
 ;
 }
 void
+delayMarkingChildrenOnOOM
+(
+gc
+:
+:
+Cell
+*
+cell
+)
+;
+void
 delayMarkingChildren
 (
 gc
