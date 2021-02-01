@@ -657,14 +657,11 @@ val
 null
 )
 {
-return
-(
 this
 .
 selectedItem
 =
 val
-)
 ;
 }
 var
@@ -739,9 +736,6 @@ val
 )
 ;
 }
-return
-val
-;
 }
 get
 value
@@ -808,9 +802,6 @@ image
 val
 )
 ;
-return
-val
-;
 }
 get
 image
@@ -859,9 +850,6 @@ description
 "
 val
 )
-;
-return
-val
 ;
 }
 get
@@ -892,9 +880,6 @@ openMenu
 (
 val
 )
-;
-return
-val
 ;
 }
 get
@@ -1029,9 +1014,6 @@ selectedItem
 null
 ;
 }
-return
-val
-;
 }
 get
 selectedIndex
@@ -1139,7 +1121,6 @@ val
 )
 {
 return
-val
 ;
 }
 if
@@ -1157,7 +1138,6 @@ val
 )
 {
 return
-val
 ;
 }
 if
@@ -1374,9 +1354,6 @@ dispatchEvent
 (
 event
 )
-;
-return
-val
 ;
 }
 get

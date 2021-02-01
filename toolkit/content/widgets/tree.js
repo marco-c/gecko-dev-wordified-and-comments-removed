@@ -2087,9 +2087,6 @@ ordinal
 val
 )
 ;
-return
-val
-;
 }
 get
 ordinal
@@ -5445,9 +5442,6 @@ editable
 )
 ;
 }
-return
-val
-;
 }
 get
 editable
@@ -5486,9 +5480,6 @@ seltype
 val
 )
 ;
-return
-val
-;
 }
 get
 selType
@@ -5519,8 +5510,6 @@ this
 view
 )
 {
-return
-(
 this
 .
 view
@@ -5530,12 +5519,8 @@ selection
 currentIndex
 =
 val
-)
 ;
 }
-return
-val
-;
 }
 get
 currentIndex
@@ -5607,9 +5592,6 @@ keepcurrentinview
 )
 ;
 }
-return
-val
-;
 }
 get
 keepCurrentInView
@@ -5668,9 +5650,6 @@ enableColumnDrag
 )
 ;
 }
-return
-val
-;
 }
 get
 enableColumnDrag
@@ -5783,9 +5762,6 @@ disableKeyNavigation
 )
 ;
 }
-return
-val
-;
 }
 get
 disableKeyNavigation

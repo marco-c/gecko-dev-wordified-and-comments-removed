@@ -1096,9 +1096,6 @@ smoothscroll
 val
 )
 ;
-return
-val
-;
 }
 get
 smoothScroll

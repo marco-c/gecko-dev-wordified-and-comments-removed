@@ -5097,7 +5097,6 @@ _appDisabled
 )
 {
 return
-val
 ;
 }
 AddonManagerPrivate
@@ -5142,9 +5141,6 @@ _updateActiveState
 currentActive
 newActive
 )
-;
-return
-val
 ;
 }
 get
@@ -5349,14 +5345,11 @@ permissions
 val
 )
 {
-return
-(
 this
 .
 _permissions
 =
 val
-)
 ;
 }
 get

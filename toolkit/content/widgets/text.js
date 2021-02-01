@@ -1397,9 +1397,6 @@ href
 val
 )
 ;
-return
-val
-;
 }
 get
 href

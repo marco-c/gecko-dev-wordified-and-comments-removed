@@ -615,9 +615,6 @@ firstElementChild
 )
 ;
 }
-return
-val
-;
 }
 get
 selectedIndex
@@ -710,9 +707,6 @@ view
 val
 )
 {
-return
-val
-;
 }
 get
 view
