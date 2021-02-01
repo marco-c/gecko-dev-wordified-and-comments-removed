@@ -1371,6 +1371,14 @@ node
 -
 http2
 /
+testing
+/
+xpcshell
+/
+odoh
+-
+wasm
+/
 third_party
 /
 toolkit
