@@ -422,6 +422,16 @@ return
 stencil_
 ;
 }
+CompilationState
+&
+getCompilationState
+(
+)
+{
+return
+compilationState_
+;
+}
 LifoAlloc
 &
 stencilAlloc
