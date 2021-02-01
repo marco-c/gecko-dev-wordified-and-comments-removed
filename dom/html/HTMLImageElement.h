@@ -1256,13 +1256,6 @@ aResult
 void
 StopLazyLoadingAndStartLoadIfNeeded
 (
-bool
-aFromIntersectionObserver
-)
-;
-void
-LazyLoadImageReachedViewport
-(
 )
 ;
 protected
