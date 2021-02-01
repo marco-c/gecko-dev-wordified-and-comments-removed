@@ -982,8 +982,6 @@ set
 val
 )
 {
-return
-(
 this
 .
 inputField
@@ -992,7 +990,6 @@ property
 ]
 =
 val
-)
 ;
 }
 }
@@ -6085,7 +6082,6 @@ value
 val
 )
 {
-return
 this
 .
 _setValue

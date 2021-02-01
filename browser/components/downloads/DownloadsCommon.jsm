@@ -3681,9 +3681,6 @@ shown
 aValue
 )
 ;
-return
-aValue
-;
 }
 _notifyDownloadEvent
 (
@@ -4660,9 +4657,6 @@ _updateViews
 (
 )
 ;
-return
-aValue
-;
 }
 _attention
 :
@@ -4694,9 +4688,6 @@ this
 _updateViews
 (
 )
-;
-return
-aValue
 ;
 }
 _attentionSuppressed

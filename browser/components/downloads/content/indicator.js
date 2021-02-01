@@ -1366,9 +1366,6 @@ checkForAutoHide
 ;
 }
 }
-return
-aValue
-;
 }
 get
 hasDownloads
@@ -1399,9 +1396,6 @@ _operational
 )
 {
 return
-this
-.
-_percentComplete
 ;
 }
 if
@@ -1496,9 +1490,6 @@ animationDelay
 ;
 }
 }
-return
-aValue
-;
 }
 _percentComplete
 :
@@ -1518,9 +1509,6 @@ _operational
 )
 {
 return
-this
-.
-_attention
 ;
 }
 if
@@ -1546,11 +1534,6 @@ _refreshAttention
 )
 ;
 }
-return
-this
-.
-_attention
-;
 }
 _refreshAttention
 (

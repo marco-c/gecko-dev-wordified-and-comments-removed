@@ -999,11 +999,6 @@ true
 )
 ;
 }
-return
-this
-.
-_active
-;
 }
 _ensureVisibleElementsAreActive
 (
@@ -1484,14 +1479,11 @@ _ensureVisibleElementsAreActive
 )
 ;
 }
-return
-(
 this
 .
 _searchTerm
 =
 aValue
-)
 ;
 }
 _ensureInitialSelection
