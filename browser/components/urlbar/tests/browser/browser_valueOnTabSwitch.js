@@ -172,7 +172,7 @@ loaded3
 ;
 testURL
 =
-BrowserUIUtils
+BrowserUtils
 .
 trimURL
 (

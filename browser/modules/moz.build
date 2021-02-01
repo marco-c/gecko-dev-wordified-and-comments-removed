@@ -885,11 +885,6 @@ AsyncTabSwitcher
 jsm
 "
 "
-BrowserUIUtils
-.
-jsm
-"
-"
 BrowserUsageTelemetry
 .
 jsm

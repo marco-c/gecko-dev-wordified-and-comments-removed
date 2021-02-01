@@ -140,7 +140,7 @@ defineLazyModuleGetters
 (
 this
 {
-BrowserTelemetryUtils
+BrowserUtils
 :
 "
 resource
@@ -151,7 +151,7 @@ gre
 /
 modules
 /
-BrowserTelemetryUtils
+BrowserUtils
 .
 jsm
 "
@@ -1813,7 +1813,7 @@ aIsSuccess
 }
 )
 ;
-BrowserTelemetryUtils
+BrowserUtils
 .
 recordSiteOriginTelemetry
 (
