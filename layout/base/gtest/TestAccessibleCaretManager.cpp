@@ -270,7 +270,9 @@ AccessibleCaretManager
 nullptr
 )
 {
-mFirstCaret
+mCarets
+.
+mFirst
 =
 MakeUnique
 <
@@ -279,7 +281,9 @@ MockAccessibleCaret
 (
 )
 ;
-mSecondCaret
+mCarets
+.
+mSecond
 =
 MakeUnique
 <
@@ -303,7 +307,9 @@ MockAccessibleCaret
 >
 (
 *
-mFirstCaret
+mCarets
+.
+mFirst
 )
 ;
 }
@@ -321,7 +327,9 @@ MockAccessibleCaret
 >
 (
 *
-mSecondCaret
+mCarets
+.
+mSecond
 )
 ;
 }
@@ -390,7 +398,9 @@ override
 {
 if
 (
-mFirstCaret
+mCarets
+.
+mFirst
 -
 >
 IsVisuallyVisible
@@ -398,7 +408,9 @@ IsVisuallyVisible
 )
 )
 {
-mFirstCaret
+mCarets
+.
+mFirst
 -
 >
 SetAppearance
@@ -412,7 +424,9 @@ Left
 }
 if
 (
-mSecondCaret
+mCarets
+.
+mSecond
 -
 >
 IsVisuallyVisible
@@ -420,7 +434,9 @@ IsVisuallyVisible
 )
 )
 {
-mSecondCaret
+mCarets
+.
+mSecond
 -
 >
 SetAppearance
