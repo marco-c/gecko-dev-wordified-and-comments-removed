@@ -103,16 +103,6 @@ LOCAL_PATCHES
 =
 "
 LOCAL_PATCHES
-ToPrecision
--
-exponential
-.
-patch
-"
-LOCAL_PATCHES
-=
-"
-LOCAL_PATCHES
 debug
 -
 only
