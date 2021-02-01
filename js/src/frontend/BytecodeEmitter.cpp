@@ -42911,9 +42911,10 @@ prop
 =
 compilationState
 .
-getParserAtomAt
+parserAtoms
+.
+getParserAtom
 (
-cx
 propName
 -
 >

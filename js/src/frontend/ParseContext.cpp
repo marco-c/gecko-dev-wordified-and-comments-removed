@@ -985,9 +985,10 @@ parser
 >
 compilationState_
 .
-getParserAtomAt
+parserAtoms
+.
+getParserAtom
 (
-cx
 index
 )
 ;
