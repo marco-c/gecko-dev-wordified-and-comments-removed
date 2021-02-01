@@ -84,15 +84,6 @@ DAV1D_ARM_CPU_FLAG_NEON
 )
 return
 ;
-#
-if
-BITDEPTH
-=
-=
-8
-|
-|
-ARCH_AARCH64
 c
 -
 >
@@ -161,6 +152,4 @@ dav1d_lpf_v_sb_uv
 neon
 )
 ;
-#
-endif
 }

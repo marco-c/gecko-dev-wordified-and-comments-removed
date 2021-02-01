@@ -151,7 +151,7 @@ src
 /
 x86
 /
-looprestoration_ssse3
+looprestoration_sse
 .
 asm
 '

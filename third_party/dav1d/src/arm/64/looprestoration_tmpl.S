@@ -3918,6 +3918,9 @@ wt
 [
 2
 ]
+const
+int
+bitdepth_max
 )
 ;
 function

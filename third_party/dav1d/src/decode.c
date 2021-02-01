@@ -34579,7 +34579,6 @@ mvs_ref
 =
 dav1d_ref_create_using_pool
 (
-&
 c
 -
 >
@@ -35182,7 +35181,6 @@ cur_segmap_ref
 =
 dav1d_ref_create_using_pool
 (
-&
 c
 -
 >
@@ -35327,7 +35325,6 @@ cur_segmap_ref
 =
 dav1d_ref_create_using_pool
 (
-&
 c
 -
 >

@@ -60,13 +60,13 @@ enum
 Dav1dRestorationType
 type
 ;
-int16_t
+int8_t
 filter_h
 [
 3
 ]
 ;
-int16_t
+int8_t
 filter_v
 [
 3
