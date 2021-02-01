@@ -37,7 +37,7 @@ waitForEvent
 (
 gIdentityHandler
 .
-_identityIconBox
+_identityBox
 "
 focus
 "
@@ -149,7 +149,7 @@ synthesizeMouseAtCenter
 (
 gIdentityHandler
 .
-_identityIconBox
+_identityBox
 {
 }
 )

@@ -2612,9 +2612,9 @@ aFrameBC
 ;
 aWindow
 .
-gPermissionPanel
+gIdentityHandler
 .
-_identityPermissionBox
+_identityBox
 .
 click
 (
@@ -2625,9 +2625,9 @@ popup
 =
 aWindow
 .
-gPermissionPanel
+gIdentityHandler
 .
-_permissionPopup
+_identityPopup
 ;
 let
 hiddenEvent
@@ -2681,7 +2681,7 @@ doc
 getElementById
 (
 "
-permission
+identity
 -
 popup
 -
@@ -2700,7 +2700,7 @@ querySelector
 (
 "
 .
-permission
+identity
 -
 popup
 -
@@ -2720,7 +2720,7 @@ icon
 +
 "
 .
-permission
+identity
 -
 popup
 -
@@ -3519,7 +3519,7 @@ aWin
 document
 ;
 let
-permissionBox
+identityBox
 =
 doc
 .
@@ -3527,8 +3527,6 @@ getElementById
 (
 "
 identity
--
-permission
 -
 box
 "
@@ -3757,7 +3755,7 @@ paused
 "
 )
 ;
-permissionBox
+identityBox
 .
 click
 (
@@ -3768,9 +3766,9 @@ popup
 =
 aWin
 .
-gPermissionPanel
+gIdentityHandler
 .
-_permissionPopup
+_identityPopup
 ;
 let
 hiddenEvent
@@ -3817,7 +3815,7 @@ doc
 getElementById
 (
 "
-permission
+identity
 -
 popup
 -
@@ -3906,7 +3904,7 @@ is
 !
 aWin
 .
-gPermissionPanel
+gIdentityHandler
 .
 _sharingState
 .
@@ -3940,7 +3938,7 @@ querySelectorAll
 (
 "
 .
-permission
+identity
 -
 popup
 -
@@ -3979,7 +3977,8 @@ id
 "
 icon
 in
-permission
+control
+center
 panel
 "
 )
@@ -4048,7 +4047,8 @@ id
 icon
 in
 the
-permission
+control
+center
 panel
 "
 )
@@ -4121,9 +4121,9 @@ icon
 }
 aWin
 .
-gPermissionPanel
+gIdentityHandler
 .
-_permissionPopup
+_identityPopup
 .
 hidePopup
 (
@@ -4138,7 +4138,7 @@ waitForCondition
 )
 =
 >
-permissionPopupHidden
+identityPopupHidden
 (
 aWin
 )
@@ -4631,7 +4631,7 @@ reason
 }
 }
 function
-permissionPopupHidden
+identityPopupHidden
 (
 win
 =
@@ -4643,9 +4643,9 @@ popup
 =
 win
 .
-gPermissionPanel
+gIdentityHandler
 .
-_permissionPopup
+_identityPopup
 ;
 return
 !
@@ -4707,7 +4707,7 @@ notification
 ;
 ok
 (
-permissionPopupHidden
+identityPopupHidden
 (
 )
 "
@@ -4717,8 +4717,8 @@ the
 test
 with
 the
-permission
-panel
+control
+center
 hidden
 "
 )
