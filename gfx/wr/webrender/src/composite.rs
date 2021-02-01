@@ -3873,6 +3873,12 @@ _dirty_rects
 [
 DeviceIntRect
 ]
+_opaque_rects
+:
+&
+[
+DeviceIntRect
+]
 )
 {
 }
