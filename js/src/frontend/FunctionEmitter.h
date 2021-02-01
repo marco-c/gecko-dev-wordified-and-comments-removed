@@ -61,6 +61,15 @@ include
 "
 frontend
 /
+ParserAtom
+.
+h
+"
+#
+include
+"
+frontend
+/
 SharedContext
 .
 h
