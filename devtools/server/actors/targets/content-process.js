@@ -742,6 +742,13 @@ Services
 appinfo
 .
 processID
+remoteType
+:
+Services
+.
+appinfo
+.
+remoteType
 traits
 :
 {
