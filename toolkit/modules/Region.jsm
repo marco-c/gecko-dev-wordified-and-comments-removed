@@ -489,12 +489,6 @@ REGION_TOPIC
 browser
 -
 region
-"
-;
-REGION_UPDATED
-=
-"
-region
 -
 updated
 "
@@ -1542,9 +1536,6 @@ region
 this
 .
 REGION_TOPIC
-this
-.
-REGION_UPDATED
 )
 ;
 }

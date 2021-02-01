@@ -1223,11 +1223,6 @@ REGION_TOPIC
 browser
 -
 region
-"
-REGION_UPDATED
-:
-"
-region
 -
 updated
 "
