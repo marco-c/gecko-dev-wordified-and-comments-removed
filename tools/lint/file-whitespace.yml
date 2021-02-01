@@ -603,16 +603,6 @@ nsFxrCommandLineHandler
 .
 cpp
 -
-gfx
-/
-vr
-/
-vrhost
-/
-vrhostapi
-.
-cpp
--
 image
 /
 test
