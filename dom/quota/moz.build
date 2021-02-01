@@ -88,6 +88,11 @@ ActorsParent
 h
 "
 "
+CachingDatabaseConnection
+.
+h
+"
+"
 CheckedUnsafePtr
 .
 h
@@ -219,6 +224,11 @@ cpp
 "
 "
 ActorsParent
+.
+cpp
+"
+"
+CachingDatabaseConnection
 .
 cpp
 "

@@ -7,6 +7,13 @@ MOZSTORAGEHELPER_H
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
