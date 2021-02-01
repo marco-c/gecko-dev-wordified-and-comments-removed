@@ -52066,14 +52066,6 @@ scriptIndex
 sc
 -
 >
-copyScriptFields
-(
-script
-)
-;
-sc
--
->
 copyScriptExtraFields
 (
 scriptExtra
