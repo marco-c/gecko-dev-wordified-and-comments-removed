@@ -202,11 +202,6 @@ attribute
 AString
 desktopEnvironment
 ;
-readonly
-attribute
-AString
-testType
-;
 /
 *
 *

@@ -100,15 +100,6 @@ aDesktopEnvironment
 override
 ;
 NS_IMETHOD
-GetTestType
-(
-nsAString
-&
-aTestType
-)
-override
-;
-NS_IMETHOD
 GetCleartypeParameters
 (
 nsAString
