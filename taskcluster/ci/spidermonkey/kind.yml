@@ -386,8 +386,6 @@ win64
 -
 clang
 -
-cl
--
 win64
 -
 rust

@@ -1448,8 +1448,6 @@ win64
 -
 clang
 -
-cl
--
 11
 -
 2stage
@@ -1459,8 +1457,6 @@ toolchain
 win64
 -
 clang
--
-cl
 -
 11
 -
@@ -1478,8 +1474,6 @@ clang
 win64
 -
 clang
--
-cl
 -
 11
 -
@@ -1728,8 +1722,6 @@ win64
 -
 clang
 -
-cl
--
 11
 :
 description
@@ -1756,8 +1748,6 @@ symbol
 TW64
 (
 clang
--
-cl
 -
 11
 )
@@ -1870,8 +1860,6 @@ alias
 win64
 -
 clang
--
-cl
 toolchain
 -
 artifact
@@ -1906,8 +1894,6 @@ win64
 -
 clang
 -
-cl
--
 11
 -
 2stage
@@ -1933,8 +1919,6 @@ symbol
 TW64
 (
 clang
--
-cl
 -
 11
 -
@@ -2038,8 +2022,6 @@ alias
 win64
 -
 clang
--
-cl
 -
 2stage
 toolchain

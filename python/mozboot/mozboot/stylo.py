@@ -10,8 +10,6 @@ WINDOWS_CLANG
 win64
 -
 clang
--
-cl
 "
 WINDOWS_CBINDGEN
 =

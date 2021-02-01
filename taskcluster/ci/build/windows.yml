@@ -1461,8 +1461,6 @@ win64
 -
 clang
 -
-cl
--
 win64
 -
 rust
@@ -1998,8 +1996,6 @@ toolchain
 win64
 -
 clang
--
-cl
 -
 win64
 -
@@ -4147,8 +4143,6 @@ win64
 -
 clang
 -
-cl
--
 win64
 -
 rust
@@ -4378,8 +4372,6 @@ win64
 -
 clang
 -
-cl
--
 win64
 -
 rust
@@ -4588,8 +4580,6 @@ win64
 -
 clang
 -
-cl
--
 win64
 -
 rust
@@ -4797,8 +4787,6 @@ toolchain
 win64
 -
 clang
--
-cl
 -
 win64
 -
@@ -5049,8 +5037,6 @@ toolchain
 win64
 -
 clang
--
-cl
 -
 win64
 -

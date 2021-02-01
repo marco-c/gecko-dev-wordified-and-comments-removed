@@ -674,8 +674,6 @@ win64
 -
 clang
 -
-cl
--
 win64
 -
 dump
@@ -770,8 +768,6 @@ win64
 -
 clang
 -
-cl
--
 win64
 -
 dump
@@ -873,8 +869,6 @@ toolchain
 win64
 -
 clang
--
-cl
 -
 win64
 -

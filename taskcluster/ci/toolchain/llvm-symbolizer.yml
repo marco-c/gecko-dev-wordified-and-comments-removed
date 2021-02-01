@@ -201,5 +201,3 @@ toolchain
 win64
 -
 clang
--
-cl

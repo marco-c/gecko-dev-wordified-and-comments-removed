@@ -843,8 +843,6 @@ win64
 -
 clang
 -
-cl
--
 2stage
 -
 win32
@@ -991,8 +989,6 @@ toolchain
 win64
 -
 clang
--
-cl
 -
 2stage
 -
