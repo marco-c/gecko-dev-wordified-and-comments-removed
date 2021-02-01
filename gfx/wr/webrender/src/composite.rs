@@ -3802,6 +3802,9 @@ self
 _id
 :
 NativeTileId
+_valid_rect
+:
+DeviceIntRect
 )
 {
 }
