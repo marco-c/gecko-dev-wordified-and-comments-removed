@@ -10372,6 +10372,15 @@ items
 )
 ;
 }
+if
+(
+this
+.
+placesEvents
+.
+length
+)
+{
 PlacesObservers
 .
 notifyListeners
@@ -10381,6 +10390,7 @@ this
 placesEvents
 )
 ;
+}
 await
 Async
 .
