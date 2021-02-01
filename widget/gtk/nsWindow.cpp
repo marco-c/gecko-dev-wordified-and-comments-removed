@@ -1727,7 +1727,7 @@ nsWindow
 :
 sCSDSupportLevel
 =
-CSD_SUPPORT_UNKNOWN
+GTK_DECORATION_UNKNOWN
 ;
 bool
 nsWindow
@@ -2609,7 +2609,7 @@ mPendingConfigures
 ;
 mCSDSupportLevel
 =
-CSD_SUPPORT_NONE
+GTK_DECORATION_NONE
 ;
 mDrawToContainer
 =
@@ -5043,7 +5043,7 @@ if
 mCSDSupportLevel
 =
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 &
 &
 mDrawInTitlebar
@@ -11778,7 +11778,7 @@ if
 mCSDSupportLevel
 =
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 &
 &
 mDrawInTitlebar
@@ -15755,7 +15755,7 @@ if
 mCSDSupportLevel
 =
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 )
 {
 if
@@ -20405,7 +20405,7 @@ if
 mCSDSupportLevel
 =
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 )
 {
 if
@@ -21307,7 +21307,7 @@ GetSystemCSDSupportLevel
 )
 !
 =
-CSD_SUPPORT_NONE
+GTK_DECORATION_NONE
 ;
 }
 }
@@ -22796,7 +22796,7 @@ mIsX11Display
 mCSDSupportLevel
 =
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 )
 |
 |
@@ -36501,7 +36501,7 @@ mShell
 mCSDSupportLevel
 =
 =
-CSD_SUPPORT_NONE
+GTK_DECORATION_NONE
 |
 |
 aState
@@ -36518,7 +36518,7 @@ if
 mCSDSupportLevel
 =
 =
-CSD_SUPPORT_SYSTEM
+GTK_DECORATION_SYSTEM
 )
 {
 SetWindowDecoration
@@ -36537,7 +36537,7 @@ if
 mCSDSupportLevel
 =
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 )
 {
 LOG
@@ -38185,7 +38185,7 @@ if
 sCSDSupportLevel
 !
 =
-CSD_SUPPORT_UNKNOWN
+GTK_DECORATION_UNKNOWN
 )
 {
 return
@@ -38225,7 +38225,7 @@ none
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_NONE
+GTK_DECORATION_NONE
 ;
 }
 else
@@ -38245,7 +38245,7 @@ client
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 ;
 }
 else
@@ -38265,7 +38265,7 @@ system
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_SYSTEM
+GTK_DECORATION_SYSTEM
 ;
 }
 return
@@ -38285,7 +38285,7 @@ gdk_display_get_default
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 ;
 return
 sCSDSupportLevel
@@ -38328,7 +38328,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_SYSTEM
+GTK_DECORATION_SYSTEM
 ;
 }
 else
@@ -38350,7 +38350,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 ;
 }
 else
@@ -38370,7 +38370,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_SYSTEM
+GTK_DECORATION_SYSTEM
 ;
 }
 else
@@ -38390,7 +38390,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 ;
 }
 else
@@ -38412,7 +38412,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_SYSTEM
+GTK_DECORATION_SYSTEM
 ;
 }
 else
@@ -38432,7 +38432,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 ;
 }
 else
@@ -38452,7 +38452,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 ;
 }
 else
@@ -38472,7 +38472,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 ;
 }
 else
@@ -38492,7 +38492,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 ;
 }
 else
@@ -38512,7 +38512,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_NONE
+GTK_DECORATION_NONE
 ;
 }
 else
@@ -38532,7 +38532,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 ;
 }
 else
@@ -38552,7 +38552,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_SYSTEM
+GTK_DECORATION_SYSTEM
 ;
 }
 else
@@ -38572,7 +38572,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_SYSTEM
+GTK_DECORATION_SYSTEM
 ;
 }
 else
@@ -38592,7 +38592,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_SYSTEM
+GTK_DECORATION_SYSTEM
 ;
 }
 else
@@ -38612,7 +38612,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 ;
 }
 else
@@ -38625,13 +38625,13 @@ RELEASE_OR_BETA
 )
 sCSDSupportLevel
 =
-CSD_SUPPORT_NONE
+GTK_DECORATION_NONE
 ;
 #
 else
 sCSDSupportLevel
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 ;
 #
 endif
@@ -38641,7 +38641,7 @@ else
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_NONE
+GTK_DECORATION_NONE
 ;
 }
 if
@@ -38649,7 +38649,7 @@ if
 sCSDSupportLevel
 =
 =
-CSD_SUPPORT_SYSTEM
+GTK_DECORATION_SYSTEM
 )
 {
 const
@@ -38683,7 +38683,7 @@ csdOverride
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_CLIENT
+GTK_DECORATION_CLIENT
 ;
 }
 }
@@ -38902,7 +38902,7 @@ GetSystemCSDSupportLevel
 )
 =
 =
-CSD_SUPPORT_NONE
+GTK_DECORATION_NONE
 )
 {
 return

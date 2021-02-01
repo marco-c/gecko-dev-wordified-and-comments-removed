@@ -3464,7 +3464,7 @@ GetSystemCSDSupportLevel
 nsWindow
 :
 :
-CSD_SUPPORT_NONE
+GTK_DECORATION_NONE
 )
 :
 false
@@ -6539,7 +6539,7 @@ GetSystemCSDSupportLevel
 nsWindow
 :
 :
-CSD_SUPPORT_NONE
+GTK_DECORATION_NONE
 ;
 mCSDHideTitlebarByDefault
 =
