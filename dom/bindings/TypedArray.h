@@ -245,12 +245,6 @@ mutable
 bool
 mComputed
 ;
-JS
-:
-:
-AutoCheckCannotGC
-mNoGC
-;
 public
 :
 inline
