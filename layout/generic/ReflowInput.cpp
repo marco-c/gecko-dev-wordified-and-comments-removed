@@ -730,6 +730,10 @@ LogicalSize
 aContainingBlockSize
 InitFlags
 aFlags
+const
+StyleSizeOverrides
+&
+aSizeOverrides
 ComputeSizeFlags
 aComputeSizeFlags
 )
@@ -802,6 +806,10 @@ mFlags
 aParentReflowInput
 .
 mFlags
+)
+mStyleSizeOverrides
+(
+aSizeOverrides
 )
 mComputeSizeFlags
 (
@@ -7525,6 +7533,8 @@ Size
 (
 wm
 )
+{
+}
 mComputeSizeFlags
 )
 ;
@@ -11096,6 +11106,7 @@ Size
 (
 wm
 )
+mStyleSizeOverrides
 mComputeSizeFlags
 )
 ;
