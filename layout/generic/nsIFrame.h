@@ -6692,12 +6692,6 @@ IsPrimaryFrameOfRootOrBodyElement
 )
 const
 ;
-bool
-IsRenderedLegend
-(
-)
-const
-;
 virtual
 nsresult
 CharacterDataChanged

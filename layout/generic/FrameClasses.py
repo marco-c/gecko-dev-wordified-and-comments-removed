@@ -442,6 +442,17 @@ LEAF
 Frame
 (
 "
+nsLegendFrame
+"
+"
+Legend
+"
+NOT_LEAF
+)
+    
+Frame
+(
+"
 nsListControlFrame
 "
 "

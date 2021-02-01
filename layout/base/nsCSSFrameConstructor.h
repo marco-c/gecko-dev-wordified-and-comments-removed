@@ -813,7 +813,6 @@ IsGeneratedContent
 IsWithinSVGText
 AllowTextPathChild
 IsAnonymousContentCreatorContent
-IsForRenderedLegend
 }
 ;
 using
@@ -2905,10 +2904,6 @@ mIsLineParticipant
 (
 false
 )
-mIsRenderedLegend
-(
-false
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -3096,11 +3091,6 @@ mIsPopup
 ;
 bool
 mIsLineParticipant
-:
-1
-;
-bool
-mIsRenderedLegend
 :
 1
 ;
