@@ -3090,7 +3090,7 @@ ObjId
 -
 name
 :
-TypedArrayByteOffsetResult
+TypedArrayByteOffsetInt32Result
 shared
 :
 true
