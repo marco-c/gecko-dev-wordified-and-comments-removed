@@ -1850,6 +1850,17 @@ WORKSPACE
 /
 build
 /
+venv
+/
+bin
+/
+python
+'
+'
+WORKSPACE
+/
+build
+/
 tests
 /
 mach
