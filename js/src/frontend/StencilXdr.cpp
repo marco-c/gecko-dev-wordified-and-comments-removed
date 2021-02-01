@@ -3188,7 +3188,7 @@ stencil
 .
 objLiteralData
 .
-length
+size
 (
 )
 ;
@@ -3347,7 +3347,7 @@ entry
 }
 MOZ_TRY
 (
-XDRVectorInitialized
+XDRSpanInitialized
 (
 xdr
 stencil
