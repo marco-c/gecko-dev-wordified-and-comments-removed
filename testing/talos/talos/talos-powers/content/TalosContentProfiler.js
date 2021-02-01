@@ -699,6 +699,9 @@ marker
 inittedInParent
 =
 false
+startTime
+=
+undefined
 )
 {
 if
@@ -719,6 +722,7 @@ Pause
 "
 {
 marker
+startTime
 }
 )
 ;
@@ -734,11 +738,20 @@ resolve
 mark
 (
 marker
+inittedInParent
+=
+false
+startTime
+=
+undefined
 )
 {
 if
 (
 initted
+|
+|
+inittedInParent
 )
 {
 if
@@ -762,6 +775,7 @@ Marker
 "
 {
 marker
+startTime
 }
 )
 ;

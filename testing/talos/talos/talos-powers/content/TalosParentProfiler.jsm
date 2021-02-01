@@ -594,6 +594,9 @@ marker
 =
 "
 "
+startTime
+=
+undefined
 )
 {
 if
@@ -610,6 +613,7 @@ TalosPowers
 profilerPause
 (
 marker
+startTime
 )
 ;
 }
@@ -617,6 +621,9 @@ marker
 mark
 (
 marker
+startTime
+=
+undefined
 )
 {
 if
@@ -643,9 +650,10 @@ this
 .
 TalosPowers
 .
-profilerMarker
+addIntervalMarker
 (
 marker
+startTime
 )
 ;
 }
