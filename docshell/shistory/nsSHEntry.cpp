@@ -3721,7 +3721,7 @@ baseURI
 loadState
 -
 >
-SetLoadFlags
+SetInternalLoadFlags
 (
 flags
 )

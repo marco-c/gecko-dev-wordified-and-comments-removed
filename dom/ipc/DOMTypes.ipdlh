@@ -811,6 +811,9 @@ BaseURI
 uint32_t
 LoadFlags
 ;
+uint32_t
+InternalLoadFlags
+;
 bool
 FirstParty
 ;

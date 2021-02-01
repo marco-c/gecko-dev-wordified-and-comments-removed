@@ -4455,11 +4455,10 @@ if
 aLoadState
 -
 >
-LoadFlags
+HasLoadFlags
 (
-)
-&
 LOAD_FLAGS_ALLOW_POPUPS
+)
 )
 {
 popupState
@@ -4541,11 +4540,10 @@ if
 aLoadState
 -
 >
-LoadFlags
+HasLoadFlags
 (
-)
-&
 LOAD_FLAGS_FORCE_TRR
+)
 )
 {
 defaultLoadFlags
@@ -4563,11 +4561,10 @@ if
 aLoadState
 -
 >
-LoadFlags
+HasLoadFlags
 (
-)
-&
 LOAD_FLAGS_DISABLE_TRR
+)
 )
 {
 defaultLoadFlags
@@ -20233,7 +20230,7 @@ csp
 loadState
 -
 >
-SetLoadFlags
+SetInternalLoadFlags
 (
 flags
 )
@@ -37127,7 +37124,7 @@ allowNamedTarget
 aLoadState
 -
 >
-HasLoadFlags
+HasInternalLoadFlags
 (
 INTERNAL_LOAD_FLAGS_NO_OPENER
 )
@@ -37136,7 +37133,7 @@ INTERNAL_LOAD_FLAGS_NO_OPENER
 aLoadState
 -
 >
-HasLoadFlags
+HasInternalLoadFlags
 (
 INTERNAL_LOAD_FLAGS_DONT_SEND_REFERRER
 )
@@ -37374,7 +37371,7 @@ NS_ERROR_CONTENT_BLOCKED
 aLoadState
 -
 >
-UnsetLoadFlag
+UnsetInternalLoadFlag
 (
 INTERNAL_LOAD_FLAGS_INHERIT_PRINCIPAL
 )
@@ -37472,7 +37469,7 @@ if
 aLoadState
 -
 >
-HasLoadFlags
+HasInternalLoadFlags
 (
 INTERNAL_LOAD_FLAGS_NO_OPENER
 )
@@ -37512,7 +37509,7 @@ MOZ_ASSERT
 aLoadState
 -
 >
-LoadFlags
+InternalLoadFlags
 (
 )
 =
@@ -37523,7 +37520,7 @@ INTERNAL_LOAD_FLAGS_NO_OPENER
 aLoadState
 -
 >
-LoadFlags
+InternalLoadFlags
 (
 )
 =
@@ -37730,7 +37727,7 @@ SetInheritPrincipal
 aLoadState
 -
 >
-HasLoadFlags
+HasInternalLoadFlags
 (
 INTERNAL_LOAD_FLAGS_INHERIT_PRINCIPAL
 )
@@ -37760,7 +37757,7 @@ SetForceAllowDataURI
 aLoadState
 -
 >
-HasLoadFlags
+HasInternalLoadFlags
 (
 INTERNAL_LOAD_FLAGS_FORCE_ALLOW_DATA_URI
 )
@@ -37897,7 +37894,7 @@ IsInitialDocument
 aLoadState
 -
 >
-SetLoadFlag
+SetInternalLoadFlag
 (
 INTERNAL_LOAD_FLAGS_FIRST_LOAD
 )
@@ -40540,7 +40537,7 @@ PrincipalToInherit
 aLoadState
 -
 >
-HasLoadFlags
+HasInternalLoadFlags
 (
 INTERNAL_LOAD_FLAGS_INHERIT_PRINCIPAL
 )
@@ -40711,7 +40708,7 @@ mAllowKeywordFixup
 aLoadState
 -
 >
-HasLoadFlags
+HasInternalLoadFlags
 (
 INTERNAL_LOAD_FLAGS_ALLOW_THIRD_PARTY_FIXUP
 )
@@ -42441,7 +42438,7 @@ isSrcdoc
 aLoadState
 -
 >
-HasLoadFlags
+HasInternalLoadFlags
 (
 INTERNAL_LOAD_FLAGS_IS_SRCDOC
 )
@@ -42509,7 +42506,7 @@ SetForceAllowDataURI
 aLoadState
 -
 >
-HasLoadFlags
+HasInternalLoadFlags
 (
 INTERNAL_LOAD_FLAGS_FORCE_ALLOW_DATA_URI
 )
@@ -42523,7 +42520,7 @@ SetOriginalFrameSrcLoad
 aLoadState
 -
 >
-HasLoadFlags
+HasInternalLoadFlags
 (
 INTERNAL_LOAD_FLAGS_ORIGINAL_FRAME_SRC
 )
@@ -42935,7 +42932,7 @@ if
 aLoadState
 -
 >
-HasLoadFlags
+HasInternalLoadFlags
 (
 INTERNAL_LOAD_FLAGS_FORCE_ALLOW_COOKIES
 )
@@ -43334,7 +43331,7 @@ if
 aLoadState
 -
 >
-HasLoadFlags
+HasInternalLoadFlags
 (
 INTERNAL_LOAD_FLAGS_FIRST_LOAD
 )
@@ -44878,7 +44875,7 @@ isSrcdoc
 aLoadState
 -
 >
-HasLoadFlags
+HasInternalLoadFlags
 (
 INTERNAL_LOAD_FLAGS_IS_SRCDOC
 )
@@ -55462,7 +55459,7 @@ referrerInfo
 aLoadState
 -
 >
-SetLoadFlags
+SetInternalLoadFlags
 (
 flags
 )

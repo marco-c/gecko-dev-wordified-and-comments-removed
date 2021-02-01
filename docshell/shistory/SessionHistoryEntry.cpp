@@ -1272,7 +1272,7 @@ baseURI
 ;
 aLoadState
 .
-SetLoadFlags
+SetInternalLoadFlags
 (
 flags
 )

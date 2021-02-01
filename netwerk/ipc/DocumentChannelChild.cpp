@@ -930,7 +930,7 @@ MOZ_ASSERT
 (
 aArgs
 .
-loadStateLoadFlags
+loadStateInternalLoadFlags
 (
 )
 &
