@@ -5752,7 +5752,7 @@ type
 MIRType
 :
 :
-Int32
+IntPtr
 )
 ;
 const
@@ -5975,7 +5975,7 @@ type
 MIRType
 :
 :
-Int32
+IntPtr
 )
 ;
 const
@@ -6225,7 +6225,7 @@ type
 MIRType
 :
 :
-Int32
+IntPtr
 )
 ;
 const

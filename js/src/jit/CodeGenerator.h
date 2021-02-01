@@ -292,7 +292,7 @@ class
 OutOfLineZeroIfNaN
 ;
 class
-OutOfLineTypedArrayIndexToInt32
+OutOfLineGuardNumberToIntPtrIndex
 ;
 class
 OutOfLineBoxNonStrictThis
@@ -746,9 +746,9 @@ ool
 )
 ;
 void
-visitOutOfLineTypedArrayIndexToInt32
+visitOutOfLineGuardNumberToIntPtrIndex
 (
-OutOfLineTypedArrayIndexToInt32
+OutOfLineGuardNumberToIntPtrIndex
 *
 ool
 )
