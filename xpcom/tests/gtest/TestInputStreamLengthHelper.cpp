@@ -333,11 +333,6 @@ aEventTarget
 )
 override
 {
-if
-(
-aCallback
-)
-{
 aCallback
 -
 >
@@ -347,7 +342,6 @@ this
 mLength
 )
 ;
-}
 return
 NS_OK
 ;
