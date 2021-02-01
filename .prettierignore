@@ -611,16 +611,3 @@ mangled
 function
 .
 *
-#
-Ignore
-backgroundtasks
-preferences
-files
-.
-toolkit
-/
-components
-/
-backgroundtasks
-/
-defaults

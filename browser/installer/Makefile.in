@@ -416,16 +416,6 @@ DMOZ_DEFAULT_BROWSER_AGENT
 =
 1
 endif
-ifdef
-MOZ_BACKGROUNDTASKS
-DEFINES
-+
-=
--
-DMOZ_BACKGROUNDTASKS
-=
-1
-endif
 ifeq
 (
 cocoa
