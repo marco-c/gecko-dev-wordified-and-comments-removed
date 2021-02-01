@@ -91,6 +91,7 @@ server
 mod
 stats
 ;
+pub
 mod
 stream_id
 ;
@@ -121,7 +122,11 @@ cid
 :
 {
 ConnectionId
-ConnectionIdManager
+ConnectionIdDecoder
+ConnectionIdGenerator
+ConnectionIdRef
+EmptyConnectionIdGenerator
+RandomConnectionIdGenerator
 }
 ;
 pub
@@ -138,12 +143,9 @@ params
 :
 ConnectionParameters
 Connection
-FixedConnectionIdManager
 Output
 State
 ZeroRttState
-LOCAL_STREAM_LIMIT_BIDI
-LOCAL_STREAM_LIMIT_UNI
 }
 ;
 pub
@@ -167,10 +169,7 @@ self
 frame
 :
 :
-{
 CloseError
-StreamType
-}
 ;
 pub
 use
@@ -210,7 +209,10 @@ self
 stream_id
 :
 :
+{
 StreamId
+StreamType
+}
 ;
 pub
 use
@@ -280,6 +282,9 @@ Error
 {
 NoError
 InternalError
+(
+u16
+)
 ConnectionRefused
 FlowControlError
 StreamLimitError
@@ -303,6 +308,8 @@ CryptoAlert
 u8
 )
 AckedUnsentPacket
+ConnectionIdLimitExceeded
+ConnectionIdsExhausted
 ConnectionState
 DecodingFrame
 DecryptError
@@ -325,6 +332,7 @@ crypto
 CryptoSpace
 )
 KeyUpdateBlocked
+NoAvailablePath
 NoMoreData
 NotConnected
 PacketNumberOverlap
@@ -339,6 +347,7 @@ TransportError
 StatelessReset
 TooMuchData
 UnexpectedMessage
+UnknownConnectionId
 UnknownFrameType
 VersionNegotiation
 WrongRole
@@ -465,6 +474,13 @@ ApplicationError
 =
 >
 ERROR_APPLICATION_CLOSE
+Self
+:
+:
+NoAvailablePath
+=
+>
+16
 Self
 :
 :
