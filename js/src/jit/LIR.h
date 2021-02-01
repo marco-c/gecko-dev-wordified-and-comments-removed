@@ -3352,6 +3352,12 @@ MIRType
 :
 Pointer
 :
+case
+MIRType
+:
+:
+IntPtr
+:
 return
 LDefinition
 :

@@ -15065,6 +15065,12 @@ MIRType
 :
 StackResults
 :
+case
+MIRType
+:
+:
+IntPtr
+:
 return
 false
 ;
