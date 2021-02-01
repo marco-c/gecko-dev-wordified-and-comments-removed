@@ -1792,6 +1792,9 @@ mScrollGeneration
 CSSSize
 mRootCompositionSize
 ;
+ScreenMargin
+mDisplayPortMargins
+;
 uint32_t
 mPresShellId
 ;
