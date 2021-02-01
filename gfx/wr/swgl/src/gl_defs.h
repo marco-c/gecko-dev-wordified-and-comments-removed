@@ -136,10 +136,6 @@ GL_FLOAT
 0x1406
 #
 define
-GL_DOUBLE
-0x1408
-#
-define
 GL_RED
 0x1903
 #
