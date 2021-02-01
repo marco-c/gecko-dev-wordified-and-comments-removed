@@ -63828,12 +63828,13 @@ buffers
 )
 )
 {
-ArrayBufferObject
+JS
 :
 :
-supportLargeBuffers
-=
+SetLargeArrayBuffersEnabled
+(
 true
+)
 ;
 }
 if
