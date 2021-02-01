@@ -23,6 +23,15 @@ include
 "
 mozilla
 /
+RemoteDecoderManagerChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ShmemRecycleAllocator
 .
 h
