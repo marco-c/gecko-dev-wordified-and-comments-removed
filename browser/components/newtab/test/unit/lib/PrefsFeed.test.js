@@ -1865,11 +1865,6 @@ global
 Region
 .
 REGION_TOPIC
-global
-.
-Region
-.
-REGION_UPDATED
 )
 ;
 assert

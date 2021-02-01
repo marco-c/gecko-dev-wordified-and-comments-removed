@@ -869,17 +869,6 @@ Region
 .
 REGION_TOPIC
 :
-if
-(
-aData
-=
-=
-=
-Region
-.
-REGION_UPDATED
-)
-{
 Services
 .
 obs
@@ -909,7 +898,6 @@ regionHomeDeferred
 =
 null
 ;
-}
 break
 ;
 }
