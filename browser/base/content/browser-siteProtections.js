@@ -4715,7 +4715,7 @@ removeException
 className
 =
 "
-identity
+permission
 -
 popup
 -
