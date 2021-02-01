@@ -1625,6 +1625,11 @@ isFunctionFieldCopiedToStencil
 :
 1
 ;
+bool
+isInitialCompilation
+:
+1
+;
 FunctionBox
 (
 JSContext
@@ -1664,12 +1669,6 @@ const
 ScriptStencilExtra
 &
 functionExtraStencil
-(
-)
-const
-;
-bool
-hasFunctionExtraStencil
 (
 )
 const
