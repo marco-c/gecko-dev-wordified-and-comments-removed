@@ -1263,6 +1263,7 @@ SingleSharedDataPtr
 asSingle
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1301,6 +1302,7 @@ SharedDataVectorPtr
 asVector
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1326,6 +1328,7 @@ SharedDataMapPtr
 asMap
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1369,6 +1372,7 @@ get
 ScriptIndex
 index
 )
+const
 ;
 bool
 addAndShare
@@ -2423,6 +2427,7 @@ cx
 CompilationInput
 &
 input
+const
 BaseCompilationStencil
 &
 stencil
@@ -2535,6 +2540,7 @@ static
 ScriptStencilIterable
 functionScriptStencils
 (
+const
 BaseCompilationStencil
 &
 stencil

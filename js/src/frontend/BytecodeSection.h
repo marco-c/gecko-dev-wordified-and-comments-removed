@@ -697,6 +697,7 @@ cx
 CompilationInput
 &
 input
+const
 BaseCompilationStencil
 &
 stencil
