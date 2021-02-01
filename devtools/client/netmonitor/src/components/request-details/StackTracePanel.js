@@ -174,6 +174,14 @@ this
 .
 props
 ;
+if
+(
+!
+request
+.
+stacktrace
+)
+{
 fetchNetworkUpdatePacket
 (
 connector
@@ -187,6 +195,7 @@ stackTrace
 ]
 )
 ;
+}
 }
 componentWillReceiveProps
 (
