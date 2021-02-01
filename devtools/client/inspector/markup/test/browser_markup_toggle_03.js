@@ -75,7 +75,7 @@ children
 )
 ;
 await
-expandContainerByClick
+toggleContainerByClick
 (
 inspector
 container
@@ -183,7 +183,7 @@ children
 )
 ;
 await
-collapseContainerByClick
+toggleContainerByClick
 (
 inspector
 container
