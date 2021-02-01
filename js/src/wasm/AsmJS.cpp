@@ -9320,11 +9320,7 @@ ParserAtomToPrintableString
 (
 cx_
 parserAtoms_
-.
-getParserAtom
-(
 name
-)
 )
 )
 {
