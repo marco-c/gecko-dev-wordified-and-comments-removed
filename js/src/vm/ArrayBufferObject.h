@@ -450,6 +450,13 @@ bool
 supportLargeBuffers
 ;
 static
+constexpr
+size_t
+MaxByteLengthForSmallBuffer
+=
+INT32_MAX
+;
+static
 size_t
 maxBufferByteLength
 (
@@ -479,7 +486,7 @@ size_t
 #
 endif
 return
-INT32_MAX
+MaxByteLengthForSmallBuffer
 ;
 }
 static
