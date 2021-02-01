@@ -2581,7 +2581,19 @@ remoteProfile
 /
 "
         
+args
+=
+[
+]
+        
+args
+.
+extend
+(
 extraArgs
+)
+        
+args
 .
 extend
 (
@@ -2613,7 +2625,7 @@ debuggerInfo
             
 testUrl
             
-extraArgs
+args
             
 env
 =
