@@ -1147,12 +1147,6 @@ misc
 /
 decimal
 /
-mozglue
-/
-tests
-/
-glibc_printf_tests
-/
 netwerk
 /
 dns
