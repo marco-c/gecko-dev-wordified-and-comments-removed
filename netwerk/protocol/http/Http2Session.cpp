@@ -13701,12 +13701,7 @@ mCI
 GetPrivate
 (
 )
-mCI
--
->
-GetIsolated
-(
-)
+false
 mCallbacks
 mCI
 -
@@ -13754,12 +13749,7 @@ mCI
 GetPrivate
 (
 )
-mCI
--
->
-GetIsolated
-(
-)
+false
 nullptr
 mCI
 -

@@ -2632,16 +2632,6 @@ mPrivateBrowsing
 mConnectionInfo
 -
 >
-SetIsolated
-(
-IsIsolated
-(
-)
-)
-;
-mConnectionInfo
--
->
 SetNoSpdy
 (
 mCaps
