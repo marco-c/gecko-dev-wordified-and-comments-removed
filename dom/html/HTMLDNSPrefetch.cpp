@@ -1,7 +1,7 @@
 #
 include
 "
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 .
 h
 "
@@ -229,21 +229,16 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
-;
-using
-namespace
-mozilla
 :
 :
 net
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
 class
 NoOpDNSListener
 final
@@ -467,7 +462,7 @@ sDNSListener
 nullptr
 ;
 nsresult
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 :
 :
 Initialize
@@ -547,7 +542,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 :
 :
 Shutdown
@@ -646,7 +641,7 @@ sDNSService
 ;
 }
 bool
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 :
 :
 IsAllowed
@@ -759,7 +754,7 @@ mode
 ;
 }
 uint32_t
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 :
 :
 PriorityToDNSServiceFlags
@@ -826,7 +821,7 @@ return
 ;
 }
 nsresult
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 :
 :
 Prefetch
@@ -882,7 +877,7 @@ aElement
 ;
 }
 nsresult
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 :
 :
 Prefetch
@@ -1080,7 +1075,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 :
 :
 Prefetch
@@ -1126,7 +1121,7 @@ aPriority
 ;
 }
 nsresult
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 :
 :
 CancelPrefetch
@@ -1268,7 +1263,7 @@ aReason
 ;
 }
 nsresult
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 :
 :
 CancelPrefetch
@@ -1443,7 +1438,7 @@ rv
 ;
 }
 nsresult
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 :
 :
 CancelPrefetch
@@ -1492,7 +1487,7 @@ aReason
 ;
 }
 void
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 :
 :
 LinkDestroyed
@@ -1775,7 +1770,7 @@ nsITimer
 :
 TYPE_ONE_SHOT
 "
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 :
 :
 DeferredDNSPrefetches
@@ -2670,4 +2665,6 @@ Flush
 return
 NS_OK
 ;
+}
+}
 }

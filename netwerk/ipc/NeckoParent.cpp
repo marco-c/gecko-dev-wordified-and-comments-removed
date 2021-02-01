@@ -401,7 +401,11 @@ h
 #
 include
 "
-nsHTMLDNSPrefetch
+mozilla
+/
+dom
+/
+HTMLDNSPrefetch
 .
 h
 "
@@ -3129,7 +3133,7 @@ uint32_t
 flags
 )
 {
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 :
 :
 Prefetch
@@ -3180,7 +3184,7 @@ nsresult
 reason
 )
 {
-nsHTMLDNSPrefetch
+HTMLDNSPrefetch
 :
 :
 CancelPrefetch

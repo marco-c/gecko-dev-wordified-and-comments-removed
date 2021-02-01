@@ -127,11 +127,6 @@ nsGenericHTMLFrameElement
 h
 "
 "
-nsHTMLDNSPrefetch
-.
-h
-"
-"
 nsHTMLDocument
 .
 h
@@ -264,6 +259,11 @@ h
 "
 "
 HTMLDivElement
+.
+h
+"
+"
+HTMLDNSPrefetch
 .
 h
 "
@@ -663,6 +663,11 @@ HTMLDivElement
 cpp
 "
 "
+HTMLDNSPrefetch
+.
+cpp
+"
+"
 HTMLElement
 .
 cpp
@@ -984,11 +989,6 @@ cpp
 "
 "
 nsHTMLContentSink
-.
-cpp
-"
-"
-nsHTMLDNSPrefetch
 .
 cpp
 "
