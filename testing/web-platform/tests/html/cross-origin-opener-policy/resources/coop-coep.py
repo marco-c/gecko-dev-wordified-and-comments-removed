@@ -1,3 +1,5 @@
+import
+json
 def
 main
 (
@@ -6,11 +8,33 @@ response
 )
 :
     
-coop
+requestData
 =
 request
 .
 GET
+    
+if
+request
+.
+method
+=
+=
+u
+"
+POST
+"
+:
+        
+requestData
+=
+request
+.
+POST
+    
+coop
+=
+requestData
 .
 first
 (
@@ -22,9 +46,7 @@ coop
     
 coopReportOnly
 =
-request
-.
-GET
+requestData
 .
 first
 (
@@ -41,9 +63,7 @@ None
     
 coep
 =
-request
-.
-GET
+requestData
 .
 first
 (
@@ -55,9 +75,7 @@ coep
     
 coepReportOnly
 =
-request
-.
-GET
+requestData
 .
 first
 (
@@ -74,9 +92,7 @@ None
     
 redirect
 =
-request
-.
-GET
+requestData
 .
 first
 (
@@ -209,9 +225,7 @@ b
 cache
 '
 in
-request
-.
-GET
+requestData
 :
         
 response
@@ -272,6 +286,61 @@ redirect
 )
         
 return
+    
+params
+=
+{
+}
+    
+for
+key
+in
+(
+b
+"
+navHistory
+"
+b
+"
+avoidBackAndForth
+"
+b
+"
+navigate
+"
+b
+"
+channel
+"
+)
+:
+        
+value
+=
+requestData
+.
+first
+(
+key
+None
+)
+        
+params
+[
+key
+.
+decode
+(
+)
+]
+=
+value
+and
+value
+.
+decode
+(
+)
     
 response
 .
@@ -354,13 +423,8 @@ script
 const
 params
 =
-new
-URL
-(
-location
-)
-.
-searchParams
+%
+s
 ;
   
 const
@@ -368,12 +432,7 @@ navHistory
 =
 params
 .
-get
-(
-"
 navHistory
-"
-)
 ;
   
 const
@@ -381,12 +440,7 @@ avoidBackAndForth
 =
 params
 .
-get
-(
-"
 avoidBackAndForth
-"
-)
 ;
   
 const
@@ -394,12 +448,7 @@ navigate
 =
 params
 .
-get
-(
-"
 navigate
-"
-)
 ;
   
 if
@@ -641,20 +690,9 @@ payload
 const
 channelName
 =
-new
-URL
-(
-location
-)
+params
 .
-searchParams
-.
-get
-(
-"
 channel
-"
-)
 ;
     
 iframe
@@ -717,3 +755,19 @@ body
 "
 "
 "
+%
+json
+.
+dumps
+(
+params
+)
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
