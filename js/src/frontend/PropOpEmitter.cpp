@@ -110,6 +110,11 @@ bce_
 makeAtomIndex
 (
 prop
+-
+>
+toIndex
+(
+)
 &
 propAtomIndex_
 )

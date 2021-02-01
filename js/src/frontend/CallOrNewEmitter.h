@@ -52,6 +52,15 @@ include
 "
 frontend
 /
+ParserAtom
+.
+h
+"
+#
+include
+"
+frontend
+/
 PropOpEmitter
 .
 h
