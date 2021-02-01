@@ -1888,9 +1888,6 @@ about
 blank
 "
 )
-waitUntilDisplayedMetadataChanged
-(
-)
 ]
 )
 ;
