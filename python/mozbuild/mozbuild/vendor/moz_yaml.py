@@ -256,6 +256,10 @@ Khronos
 "
     
 "
+libpng
+"
+    
+"
 Unicode
 "
 ]
