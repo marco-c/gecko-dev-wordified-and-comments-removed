@@ -3101,6 +3101,11 @@ ActivenessMaybeChanged
 (
 )
 ;
+bool
+NoopenerForceEnabled
+(
+)
+;
 private
 :
 nsString
