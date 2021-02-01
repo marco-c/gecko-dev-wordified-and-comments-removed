@@ -692,9 +692,10 @@ IsOnBackgroundThread
 )
 ;
 }
-NS_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_DELETE_ON_MAIN_THREAD
 (
 ParentImpl
+override
 )
 void
 Destroy
@@ -1793,6 +1794,7 @@ endif
 NS_INLINE_DECL_REFCOUNTING
 (
 ChildImpl
+override
 )
 private
 :

@@ -352,6 +352,7 @@ namespace
 ipc
 {
 sync
+refcounted
 protocol
 PBackground
 {
