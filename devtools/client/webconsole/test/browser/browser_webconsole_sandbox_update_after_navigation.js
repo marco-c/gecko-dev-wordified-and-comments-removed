@@ -212,11 +212,6 @@ if
 isFissionEnabled
 (
 )
-&
-&
-isTargetSwitchingEnabled
-(
-)
 )
 {
 promises
