@@ -1532,10 +1532,6 @@ HasResizer
 {
 return
 mResizerBox
-&
-&
-!
-mCollapsedResizer
 ;
 }
 void
@@ -2507,11 +2503,6 @@ mHasBeenScrolledRecently
 1
 ;
 bool
-mCollapsedResizer
-:
-1
-;
-bool
 mWillBuildScrollableLayer
 :
 1
@@ -2727,11 +2718,6 @@ ScrollOrigin
 :
 :
 NotSpecified
-)
-;
-bool
-HasPluginFrames
-(
 )
 ;
 bool
