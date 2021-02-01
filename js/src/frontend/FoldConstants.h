@@ -30,6 +30,9 @@ ParseHandler
 class
 PerHandlerParser
 ;
+class
+ParserAtomsTable
+;
 extern
 MOZ_MUST_USE
 bool
