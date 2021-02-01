@@ -12,6 +12,10 @@ mul_add
 ;
 pub
 mod
+overflowing
+;
+pub
+mod
 saturating
 ;
 pub
