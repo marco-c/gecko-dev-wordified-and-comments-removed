@@ -188,9 +188,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
+/
+icons
 /
 search
 -

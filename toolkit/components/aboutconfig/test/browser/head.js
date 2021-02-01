@@ -325,7 +325,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 content
 /
