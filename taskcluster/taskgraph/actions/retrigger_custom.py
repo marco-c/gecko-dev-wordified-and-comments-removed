@@ -883,6 +883,8 @@ label
 pre_task
 .
 task
+task_id
+decision_task_id
 dependencies
     
 )
