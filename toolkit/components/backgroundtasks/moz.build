@@ -224,6 +224,13 @@ jsm
 "
 tests
 /
+BackgroundTask_policies
+.
+jsm
+"
+"
+tests
+/
 BackgroundTask_wait
 .
 jsm
