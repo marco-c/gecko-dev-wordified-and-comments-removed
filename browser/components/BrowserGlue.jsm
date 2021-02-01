@@ -1464,6 +1464,13 @@ wantUntrusted
 :
 true
 }
+AboutLoginsImportReportInit
+:
+{
+wantUntrusted
+:
+true
+}
 AboutLoginsInit
 :
 {
@@ -1557,6 +1564,11 @@ about
 logins
 ?
 *
+"
+"
+about
+:
+loginsimportreport
 "
 ]
 }
