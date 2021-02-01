@@ -13505,7 +13505,7 @@ if
 node
 -
 >
-labelIndex
+label
 (
 )
 )
@@ -13522,7 +13522,7 @@ liftParserAtomToJSAtom
 node
 -
 >
-labelIndex
+label
 (
 )
 )
@@ -13660,7 +13660,7 @@ liftParserAtomToJSAtom
 labelNode
 -
 >
-labelIndex
+label
 (
 )
 )
@@ -16577,7 +16577,7 @@ key
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -17016,7 +17016,7 @@ liftParserAtomToJSAtom
 rawItem
 -
 >
-atomIndex
+atom
 (
 )
 )
@@ -17173,7 +17173,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -19009,7 +19009,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -20032,7 +20032,7 @@ LOCAL_ASSERT
 id
 -
 >
-atomIndex
+atom
 (
 )
 )
@@ -20049,7 +20049,7 @@ liftParserAtomToJSAtom
 id
 -
 >
-atomIndex
+atom
 (
 )
 )

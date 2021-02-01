@@ -2779,7 +2779,7 @@ LoopControlStatement
 (
 )
 .
-labelIndex
+label
 (
 )
 ;
@@ -2805,7 +2805,7 @@ LabeledStatement
 (
 )
 .
-labelIndex
+label
 (
 )
 ;
@@ -2937,7 +2937,7 @@ PropertyAccess
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -3246,7 +3246,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 ;
@@ -3383,7 +3383,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -11640,7 +11640,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 )
@@ -14621,7 +14621,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -16083,7 +16083,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -16592,7 +16592,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -16876,7 +16876,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -17817,7 +17817,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 )
@@ -18065,7 +18065,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 )
@@ -18143,7 +18143,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -18682,7 +18682,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -19127,7 +19127,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 )
@@ -20625,7 +20625,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -23208,7 +23208,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -23724,7 +23724,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -25841,7 +25841,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -35352,7 +35352,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -35525,7 +35525,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 std
@@ -35818,7 +35818,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
