@@ -82,6 +82,9 @@ aProofOfLock
 void
 SetCurrentThread
 (
+PRThread
+*
+aThread
 )
 ;
 void
@@ -137,8 +140,9 @@ private
 ThreadEventTarget
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 ThreadTargetSink
