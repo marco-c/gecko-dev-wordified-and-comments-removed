@@ -473,6 +473,7 @@ atom
 toJSAtom
 (
 cx_
+index
 stencil_
 .
 input

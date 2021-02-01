@@ -2767,6 +2767,7 @@ parserAtom
 toJSAtom
 (
 cx
+atom_
 atomCache
 )
 )
