@@ -152,6 +152,15 @@ node
 js
 "
 "
+server
+-
+sent
+-
+events
+.
+js
+"
+"
 session
 -
 storage
