@@ -396,7 +396,6 @@ onResourceUpdated
 }
 )
 ;
-await
 targetList
 .
 destroy

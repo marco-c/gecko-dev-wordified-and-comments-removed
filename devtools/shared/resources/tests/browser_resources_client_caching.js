@@ -223,7 +223,6 @@ cachedResources2
 cachedResources1
 )
 ;
-await
 targetList
 .
 destroy
@@ -510,7 +509,6 @@ cachedResources
 availableResources
 )
 ;
-await
 targetList
 .
 destroy
@@ -730,7 +728,6 @@ cleared
 "
 )
 ;
-await
 targetList
 .
 destroy
@@ -1052,7 +1049,6 @@ cachedResources
 availableResources
 )
 ;
-await
 targetList
 .
 destroy
@@ -1428,7 +1424,6 @@ cachedResourcesWithoutFlag
 allMessages
 )
 ;
-await
 targetList
 .
 destroy
@@ -1713,7 +1708,6 @@ onAvailable
 }
 )
 ;
-await
 targetList
 .
 destroy

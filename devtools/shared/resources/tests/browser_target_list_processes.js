@@ -165,7 +165,6 @@ targetList
 mainProcess
 )
 ;
-await
 targetList
 .
 destroy

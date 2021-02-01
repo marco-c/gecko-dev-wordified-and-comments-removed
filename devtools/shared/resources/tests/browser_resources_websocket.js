@@ -641,7 +641,6 @@ correct
 )
 ;
 }
-await
 targetList
 .
 destroy

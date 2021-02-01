@@ -771,7 +771,6 @@ expected
 )
 ;
 }
-await
 targetList
 .
 destroy

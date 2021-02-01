@@ -748,7 +748,6 @@ reset
 (
 )
 ;
-await
 targetList
 .
 destroy

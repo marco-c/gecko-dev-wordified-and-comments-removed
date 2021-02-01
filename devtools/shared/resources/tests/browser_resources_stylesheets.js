@@ -890,7 +890,6 @@ length
 ADDITIONAL_FROM_ACTOR_RESOURCE
 )
 ;
-await
 targetList
 .
 destroy
@@ -1504,7 +1503,6 @@ mediaRules
 expectedMediaRules
 )
 ;
-await
 targetList
 .
 destroy
@@ -2111,7 +2109,6 @@ originalWindowWidth
 originalWindowHeight
 )
 ;
-await
 targetList
 .
 destroy
