@@ -3796,6 +3796,11 @@ break
 ;
 default
 :
+assert
+(
+0
+)
+;
 ABORT
 (
 R_BAD_ARGS
