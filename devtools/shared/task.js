@@ -1097,9 +1097,6 @@ gMaintainStack
 =
 x
 ;
-return
-x
-;
 }
 generateReadableStack
 :
