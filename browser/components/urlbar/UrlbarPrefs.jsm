@@ -245,9 +245,9 @@ true
 ]
 [
 "
-imeCompositionClosesPanel
+keepPanelOpenDuringImeComposition
 "
-true
+false
 ]
 [
 "

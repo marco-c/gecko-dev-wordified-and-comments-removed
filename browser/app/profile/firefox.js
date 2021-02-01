@@ -2341,9 +2341,9 @@ browser
 .
 urlbar
 .
-imeCompositionClosesPanel
+keepPanelOpenDuringImeComposition
 "
-true
+false
 )
 ;
 pref
