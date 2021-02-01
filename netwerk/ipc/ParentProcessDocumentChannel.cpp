@@ -408,6 +408,14 @@ SessionHistoryInParent
 GetDocShell
 (
 )
+&
+&
+mDocumentLoadListener
+-
+>
+GetLoadingSessionHistoryInfo
+(
+)
 )
 {
 GetDocShell
