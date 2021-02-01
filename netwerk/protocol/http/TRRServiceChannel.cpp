@@ -1822,9 +1822,6 @@ port
 "
 _ns
 mUsername
-GetTopWindowOrigin
-(
-)
 proxyInfo
 OriginAttributes
 (

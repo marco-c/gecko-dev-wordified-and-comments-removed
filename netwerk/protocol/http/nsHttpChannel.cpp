@@ -30522,9 +30522,6 @@ port
 "
 _ns
 mUsername
-GetTopWindowOrigin
-(
-)
 proxyInfo
 originAttributes
 isHttps

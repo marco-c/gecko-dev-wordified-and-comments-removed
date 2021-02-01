@@ -355,12 +355,9 @@ ci
 GetOriginAttributes
 (
 )
-ci
--
->
-GetTopWindowOrigin
-(
-)
+"
+"
+_ns
 )
 ;
 }
