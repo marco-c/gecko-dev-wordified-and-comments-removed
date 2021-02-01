@@ -6692,9 +6692,7 @@ length
 1
 )
 {
-const
-ParserAtom
-*
+auto
 combination
 =
 info
@@ -6767,11 +6765,6 @@ NameNode
 setAtom
 (
 combination
--
->
-toIndex
-(
-)
 )
 ;
 }
