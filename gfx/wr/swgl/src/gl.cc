@@ -15868,7 +15868,7 @@ src
 }
 }
 static
-inline
+ALWAYS_INLINE
 HalfRGBA8
 packRGBA8
 (
@@ -15921,7 +15921,7 @@ HalfRGBA8
 endif
 }
 static
-inline
+ALWAYS_INLINE
 WideRGBA8
 pack_pixels_RGBA8
 (
@@ -16011,7 +16011,7 @@ hi
 }
 UNUSED
 static
-inline
+ALWAYS_INLINE
 WideRGBA8
 pack_pixels_RGBA8
 (
@@ -16063,7 +16063,7 @@ c
 ;
 }
 static
-inline
+ALWAYS_INLINE
 WideRGBA8
 pack_pixels_RGBA8
 (
@@ -16368,7 +16368,7 @@ typename
 T
 >
 static
-inline
+ALWAYS_INLINE
 T
 muldiv255
 (
@@ -16397,7 +16397,7 @@ typename
 T
 >
 static
-inline
+ALWAYS_INLINE
 T
 addlow
 (
@@ -16443,7 +16443,7 @@ y
 ;
 }
 static
-inline
+ALWAYS_INLINE
 WideRGBA8
 alphas
 (
@@ -16596,7 +16596,7 @@ span
 ;
 }
 static
-inline
+ALWAYS_INLINE
 WideRGBA8
 blend_pixels
 (
@@ -17276,7 +17276,7 @@ SPAN
 }
 }
 static
-inline
+ALWAYS_INLINE
 WideR8
 packR8
 (
@@ -17328,7 +17328,7 @@ WideR8
 endif
 }
 static
-inline
+ALWAYS_INLINE
 WideR8
 pack_pixels_R8
 (
@@ -17347,7 +17347,7 @@ c
 ;
 }
 static
-inline
+ALWAYS_INLINE
 WideR8
 pack_pixels_R8
 (
@@ -17366,7 +17366,7 @@ x
 ;
 }
 static
-inline
+ALWAYS_INLINE
 WideR8
 blend_pixels
 (
@@ -17489,7 +17489,7 @@ int
 SPAN
 >
 static
-inline
+ALWAYS_INLINE
 void
 discard_output
 (
@@ -17581,7 +17581,7 @@ int
 SPAN
 >
 static
-inline
+ALWAYS_INLINE
 void
 discard_output
 (
