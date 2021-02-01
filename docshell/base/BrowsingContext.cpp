@@ -12406,10 +12406,7 @@ aSource
 )
 {
 return
-CheckOnlyOwningProcessCanSet
-(
-aSource
-)
+true
 ;
 }
 bool
