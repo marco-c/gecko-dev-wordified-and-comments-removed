@@ -59,10 +59,6 @@ TRR
 pushedTRR
 =
 nullptr
-bool
-aUseODoHProxy
-=
-false
 )
 ;
 void

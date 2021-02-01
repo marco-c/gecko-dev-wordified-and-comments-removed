@@ -300,16 +300,6 @@ nsIDNService
 cpp
 "
 "
-ODoH
-.
-cpp
-"
-"
-ODoHService
-.
-cpp
-"
-"
 punycode
 .
 c
