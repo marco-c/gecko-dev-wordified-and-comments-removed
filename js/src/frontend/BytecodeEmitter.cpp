@@ -27034,7 +27034,7 @@ if
 funbox
 -
 >
-wasEmitted
+wasEmittedByEnclosingScript
 (
 )
 )

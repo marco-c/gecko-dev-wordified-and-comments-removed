@@ -279,7 +279,7 @@ MOZ_ASSERT
 funbox_
 -
 >
-wasEmitted
+wasEmittedByEnclosingScript
 (
 )
 )
@@ -287,7 +287,7 @@ wasEmitted
 funbox_
 -
 >
-setWasEmitted
+setWasEmittedByEnclosingScript
 (
 true
 )
@@ -399,7 +399,7 @@ MOZ_ASSERT
 funbox_
 -
 >
-wasEmitted
+wasEmittedByEnclosingScript
 (
 )
 )
@@ -407,7 +407,7 @@ wasEmitted
 funbox_
 -
 >
-setWasEmitted
+setWasEmittedByEnclosingScript
 (
 true
 )
@@ -477,7 +477,7 @@ MOZ_ASSERT
 funbox_
 -
 >
-wasEmitted
+wasEmittedByEnclosingScript
 (
 )
 )
@@ -780,7 +780,7 @@ MOZ_ASSERT
 funbox_
 -
 >
-wasEmitted
+wasEmittedByEnclosingScript
 (
 )
 )
@@ -798,7 +798,7 @@ isAsmJSModule
 funbox_
 -
 >
-setWasEmitted
+setWasEmittedByEnclosingScript
 (
 true
 )

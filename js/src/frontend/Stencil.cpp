@@ -2202,7 +2202,7 @@ if
 !
 scriptStencil
 .
-wasFunctionEmitted
+wasEmittedByEnclosingScript
 (
 )
 )
@@ -2746,7 +2746,7 @@ if
 !
 scriptStencil
 .
-wasFunctionEmitted
+wasEmittedByEnclosingScript
 (
 )
 )
@@ -10090,7 +10090,7 @@ if
 (
 flags_
 &
-WasFunctionEmittedFlag
+WasEmittedByEnclosingScriptFlag
 )
 {
 json
@@ -10098,7 +10098,7 @@ json
 value
 (
 "
-WasFunctionEmittedFlag
+WasEmittedByEnclosingScriptFlag
 "
 )
 ;
