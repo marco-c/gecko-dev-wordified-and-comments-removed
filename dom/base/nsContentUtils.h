@@ -5895,6 +5895,15 @@ aLoadGroup
 )
 ;
 static
+void
+MaybeFixIPv6Host
+(
+nsACString
+&
+aHost
+)
+;
+static
 nsresult
 GetHostOrIPv6WithBrackets
 (
