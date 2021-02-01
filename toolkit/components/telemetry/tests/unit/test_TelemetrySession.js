@@ -3471,7 +3471,7 @@ platform
 !
 =
 "
-windows
+win
 "
 |
 |
