@@ -739,7 +739,7 @@ AboutPagesUtils
 .
 jsm
 "
-BrowserUtils
+KeywordUtils
 :
 "
 resource
@@ -750,7 +750,7 @@ gre
 /
 modules
 /
-BrowserUtils
+KeywordUtils
 .
 jsm
 "
@@ -4566,7 +4566,7 @@ postData
 ]
 =
 await
-BrowserUtils
+KeywordUtils
 .
 parseUrlAndPostData
 (
