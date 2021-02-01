@@ -84,6 +84,9 @@ ThrowMsgKind
 :
 MissingPrivateOnGet
 :
+return
+JSMSG_GET_MISSING_PRIVATE
+;
 case
 ThrowMsgKind
 :
@@ -91,7 +94,7 @@ ThrowMsgKind
 MissingPrivateOnSet
 :
 return
-JSMSG_UNDECLARED_PRIVATE
+JSMSG_SET_MISSING_PRIVATE
 ;
 }
 MOZ_CRASH
