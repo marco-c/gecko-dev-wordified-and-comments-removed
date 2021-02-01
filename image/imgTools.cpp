@@ -1357,7 +1357,7 @@ bufferData
 =
 nullptr
 ;
-uint32_t
+size_t
 bufferLength
 =
 0
@@ -1381,6 +1381,17 @@ isSharedMemory
 bufferData
 )
 ;
+if
+(
+bufferLength
+>
+INT32_MAX
+)
+{
+return
+NS_ERROR_ILLEGAL_VALUE
+;
+}
 return
 DecodeImageFromBuffer
 (

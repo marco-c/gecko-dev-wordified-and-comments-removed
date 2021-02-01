@@ -155,7 +155,7 @@ T
 :
 :
 Element
-u32
+usize
 )
 >
 }
@@ -303,7 +303,7 @@ T
 :
 :
 Element
-u32
+usize
 )
 {
 if
@@ -747,7 +747,7 @@ Self
 :
 :
 Element
-u32
+usize
 )
 ;
 }
@@ -880,7 +880,7 @@ Self
 :
 :
 Element
-u32
+usize
 )
 {
 let

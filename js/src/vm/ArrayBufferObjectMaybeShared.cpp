@@ -129,7 +129,7 @@ GetArrayBufferMaybeSharedLengthAndData
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 bool
@@ -192,7 +192,7 @@ byteLength
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
@@ -243,7 +243,7 @@ byteLength
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
