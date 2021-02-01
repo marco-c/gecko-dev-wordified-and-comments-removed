@@ -13476,7 +13476,6 @@ Compare_BigInt_Int32
 Compare_BigInt_Double
 Compare_BigInt_String
 Compare_RefOrNull
-Compare_Unknown
 }
 ;
 private
