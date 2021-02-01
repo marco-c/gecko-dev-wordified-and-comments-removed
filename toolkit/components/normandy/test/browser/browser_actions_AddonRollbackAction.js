@@ -177,7 +177,7 @@ TelemetryEnvironment
 setExperimentInactive
 "
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 simple_recipe_unenrollment
@@ -567,7 +567,7 @@ AddonRollouts
 withTestMock
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 async
 function
 addon_already_uninstalled
@@ -927,7 +927,7 @@ AddonRollouts
 withTestMock
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 async
 function
 already_rolled_back

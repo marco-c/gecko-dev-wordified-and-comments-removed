@@ -225,6 +225,12 @@ CLICK_PRIVACY_INFO
 CLOSE_NEWTAB_PREFS
 "
 "
+SHOW_PERSONALIZE
+"
+"
+HIDE_PERSONALIZE
+"
+"
 DELETE
 "
 "
@@ -5031,6 +5037,13 @@ all
 related
 Telemetry
 .
+reason
+:
+The
+reason
+the
+rollout
+graduated
 expose
 :
 objects

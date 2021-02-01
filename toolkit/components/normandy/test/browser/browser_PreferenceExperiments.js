@@ -1443,7 +1443,7 @@ test
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 (
@@ -1586,7 +1586,7 @@ preferenceinteger
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 (
@@ -1731,7 +1731,7 @@ decorate_task
 withMockExperiments
 (
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 (
@@ -1861,7 +1861,7 @@ PreferenceExperiments
 startObserver
 "
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 testStart
@@ -2644,7 +2644,7 @@ preference
 decorate_task
 (
 withMockPreferences
-withSendEventStub
+withSendEventSpy
 async
 function
 (
@@ -3893,7 +3893,7 @@ decorate_task
 withMockExperiments
 (
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 (
@@ -3990,7 +3990,7 @@ true
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 (
@@ -4125,7 +4125,7 @@ PreferenceExperiments
 stopObserver
 "
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 testStop
@@ -4823,7 +4823,7 @@ PreferenceExperiments
 stopObserver
 "
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 testStopReset
@@ -5748,7 +5748,7 @@ TelemetryEnvironment
 setExperimentInactive
 "
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 testStartAndStopTelemetry
@@ -6003,7 +6003,7 @@ TelemetryEnvironment
 setExperimentInactive
 "
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 testInitTelemetryExperimentType
@@ -7699,7 +7699,7 @@ PreferenceExperiments
 stopObserver
 "
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 testStopUnknownReason
@@ -7856,7 +7856,7 @@ PreferenceExperiments
 stopObserver
 "
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 testStopResetValue
@@ -8025,7 +8025,7 @@ didResetValue
 decorate_task
 (
 withMockPreferences
-withSendEventStub
+withSendEventSpy
 withMockExperiments
 (
 [
