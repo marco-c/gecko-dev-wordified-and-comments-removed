@@ -20377,6 +20377,7 @@ js
 :
 HandleScript
 script
+const
 js
 :
 :
@@ -20900,6 +20901,7 @@ fullyInitFromStencil
 JSContext
 *
 cx
+const
 js
 :
 :
@@ -21413,15 +21415,6 @@ fromStencil
 JSContext
 *
 cx
-js
-:
-:
-frontend
-:
-:
-CompilationInput
-&
-input
 const
 js
 :
@@ -21581,6 +21574,8 @@ if
 fullyInitFromStencil
 (
 cx
+stencil
+.
 input
 stencil
 gcOutput

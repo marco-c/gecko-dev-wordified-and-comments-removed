@@ -694,6 +694,7 @@ EmitScriptThingsVector
 JSContext
 *
 cx
+const
 CompilationInput
 &
 input

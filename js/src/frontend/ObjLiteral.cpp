@@ -131,6 +131,7 @@ InterpretObjLiteralValue
 JSContext
 *
 cx
+const
 frontend
 :
 :
@@ -308,6 +309,7 @@ InterpretObjLiteralObj
 JSContext
 *
 cx
+const
 frontend
 :
 :
@@ -514,6 +516,7 @@ InterpretObjLiteralArray
 JSContext
 *
 cx
+const
 frontend
 :
 :
@@ -636,6 +639,7 @@ InterpretObjLiteral
 JSContext
 *
 cx
+const
 frontend
 :
 :

@@ -508,6 +508,7 @@ createRegExp
 JSContext
 *
 cx
+const
 CompilationAtomCache
 &
 atomCache

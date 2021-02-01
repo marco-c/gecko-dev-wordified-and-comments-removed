@@ -316,6 +316,7 @@ EmitScriptThingsVector
 JSContext
 *
 cx
+const
 CompilationInput
 &
 input
@@ -376,6 +377,7 @@ size
 )
 )
 ;
+const
 auto
 &
 atomCache
@@ -1033,6 +1035,7 @@ create
 JSContext
 *
 cx
+const
 CompilationAtomCache
 &
 atomCache
