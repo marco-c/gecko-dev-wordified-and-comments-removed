@@ -5235,7 +5235,7 @@ ObjId
 -
 name
 :
-LoadTypedArrayLengthResult
+LoadTypedArrayLengthInt32Result
 shared
 :
 true

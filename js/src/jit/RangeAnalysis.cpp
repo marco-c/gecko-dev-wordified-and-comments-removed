@@ -10282,6 +10282,19 @@ TempAllocator
 alloc
 )
 {
+if
+(
+ArrayBufferObject
+:
+:
+maxBufferByteLength
+(
+)
+<
+=
+INT32_MAX
+)
+{
 setRange
 (
 Range
@@ -10295,6 +10308,7 @@ INT32_MAX
 )
 )
 ;
+}
 }
 void
 MArrayBufferViewByteOffset
