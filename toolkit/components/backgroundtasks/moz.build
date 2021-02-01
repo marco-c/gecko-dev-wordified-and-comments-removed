@@ -217,6 +217,13 @@ jsm
 "
 tests
 /
+BackgroundTask_crash
+.
+jsm
+"
+"
+tests
+/
 BackgroundTask_wait
 .
 jsm
