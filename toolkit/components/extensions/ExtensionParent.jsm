@@ -3245,9 +3245,6 @@ _devToolsToolbox
 =
 toolbox
 ;
-return
-toolbox
-;
 }
 get
 devToolsToolbox

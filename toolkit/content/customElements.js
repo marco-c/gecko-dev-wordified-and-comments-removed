@@ -2852,9 +2852,6 @@ label
 val
 )
 ;
-return
-val
-;
 }
 get
 label
@@ -2888,9 +2885,6 @@ crop
 val
 )
 ;
-return
-val
-;
 }
 get
 crop
@@ -2924,9 +2918,6 @@ image
 val
 )
 ;
-return
-val
-;
 }
 get
 image
@@ -2959,9 +2950,6 @@ command
 "
 val
 )
-;
-return
-val
 ;
 }
 get
@@ -3012,9 +3000,6 @@ accessKey
 val
 ;
 }
-return
-val
-;
 }
 get
 accessKey

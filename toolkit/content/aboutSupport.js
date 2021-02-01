@@ -9971,8 +9971,6 @@ _currentLine
 val
 )
 {
-return
-(
 this
 .
 _lines
@@ -9987,7 +9985,6 @@ length
 ]
 =
 val
-)
 ;
 }
 _serializeElement

@@ -1327,7 +1327,6 @@ previousVal
 )
 {
 return
-val
 ;
 }
 let
@@ -1522,9 +1521,6 @@ userDisabled
 )
 ;
 }
-return
-val
-;
 }
 async
 enable
