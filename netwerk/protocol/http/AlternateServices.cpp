@@ -2060,7 +2060,6 @@ mOriginHost
 mOriginPort
 mNPNToken
 mUsername
-mTopWindowOrigin
 pi
 originAttributes
 mAlternateHost
@@ -7824,12 +7823,9 @@ ci
 GetOriginAttributes
 (
 )
-ci
--
->
-GetTopWindowOrigin
-(
-)
+"
+"
+_ns
 )
 ;
 }

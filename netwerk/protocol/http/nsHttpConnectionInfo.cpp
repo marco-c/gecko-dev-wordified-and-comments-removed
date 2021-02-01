@@ -251,10 +251,6 @@ const
 nsACString
 &
 username
-const
-nsACString
-&
-topWindowOrigin
 nsProxyInfo
 *
 proxyInfo
@@ -283,7 +279,6 @@ originHost
 originPort
 npnToken
 username
-topWindowOrigin
 proxyInfo
 originAttributes
 endToEndSSL
@@ -310,10 +305,6 @@ const
 nsACString
 &
 username
-const
-nsACString
-&
-topWindowOrigin
 nsProxyInfo
 *
 proxyInfo
@@ -384,7 +375,6 @@ originHost
 originPort
 npnToken
 username
-topWindowOrigin
 proxyInfo
 originAttributes
 true
@@ -412,10 +402,6 @@ const
 nsACString
 &
 username
-const
-nsACString
-&
-topWindowOrigin
 nsProxyInfo
 *
 proxyInfo
@@ -447,10 +433,6 @@ this
 mUsername
 =
 username
-;
-mTopWindowOrigin
-=
-topWindowOrigin
 ;
 mProxyInfo
 =
@@ -1364,7 +1346,6 @@ mOrigin
 mOriginPort
 mNPNToken
 mUsername
-mTopWindowOrigin
 mProxyInfo
 mOriginAttributes
 mEndToEndSSL
@@ -1388,7 +1369,6 @@ mOrigin
 mOriginPort
 mNPNToken
 mUsername
-mTopWindowOrigin
 mProxyInfo
 mOriginAttributes
 mRoutedHost
@@ -1698,7 +1678,6 @@ EmptyCString
 (
 )
 mUsername
-mTopWindowOrigin
 mProxyInfo
 mOriginAttributes
 mEndToEndSSL
@@ -1735,7 +1714,6 @@ EmptyCString
 (
 )
 mUsername
-mTopWindowOrigin
 mProxyInfo
 mOriginAttributes
 name
@@ -2160,19 +2138,6 @@ GetIPv6Disabled
 ;
 aArgs
 .
-topWindowOrigin
-(
-)
-=
-aInfo
--
->
-GetTopWindowOrigin
-(
-)
-;
-aArgs
-.
 isHttp3
 (
 )
@@ -2334,11 +2299,6 @@ aInfoArgs
 username
 (
 )
-aInfoArgs
-.
-topWindowOrigin
-(
-)
 pi
 aInfoArgs
 .
@@ -2392,11 +2352,6 @@ npnToken
 aInfoArgs
 .
 username
-(
-)
-aInfoArgs
-.
-topWindowOrigin
 (
 )
 pi
@@ -2647,7 +2602,6 @@ mOriginPort
 "
 _ns
 mUsername
-mTopWindowOrigin
 mProxyInfo
 mOriginAttributes
 mEndToEndSSL
@@ -2826,7 +2780,6 @@ _ns
 0
 mNPNToken
 mUsername
-mTopWindowOrigin
 mProxyInfo
 mOriginAttributes
 true
