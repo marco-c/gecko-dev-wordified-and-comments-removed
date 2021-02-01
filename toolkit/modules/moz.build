@@ -1135,6 +1135,11 @@ BinarySearch
 jsm
 "
 "
+BrowserTelemetryUtils
+.
+jsm
+"
+"
 BrowserUtils
 .
 jsm
