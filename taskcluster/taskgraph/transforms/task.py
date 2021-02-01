@@ -5276,6 +5276,17 @@ formats
 [
 text_type
 ]
+                
+Optional
+(
+"
+singleFileGlobs
+"
+)
+:
+[
+text_type
+]
             
 }
         
@@ -5307,6 +5318,10 @@ mac_sign_and_pkg
             
 "
 mac_geckodriver
+"
+            
+"
+mac_single_file
 "
         
 )
