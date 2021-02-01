@@ -284,7 +284,6 @@ atomIndex
 return
 ObjLiteralKey
 (
-*
 atomIndex
 .
 rawData
@@ -786,7 +785,6 @@ return
 pushRawData
 (
 cx
-*
 atomIndex
 .
 rawData
@@ -1637,7 +1635,7 @@ readRawData
 atomIndex
 -
 >
-rawData
+rawDataRef
 (
 )
 )
