@@ -81,7 +81,7 @@ ClientID
 .
 jsm
 "
-BrowserUtils
+BrowserTelemetryUtils
 :
 "
 resource
@@ -92,7 +92,7 @@ gre
 /
 modules
 /
-BrowserUtils
+BrowserTelemetryUtils
 .
 jsm
 "
@@ -5145,7 +5145,7 @@ getOpenTabsAndWinsCounts
 const
 siteOrigins
 =
-BrowserUtils
+BrowserTelemetryUtils
 .
 computeSiteOriginCount
 (
