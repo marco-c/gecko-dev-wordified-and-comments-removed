@@ -80,6 +80,11 @@ time
 -
 s
 -
+-
+show
+-
+error
+-
 D
 "
 {
