@@ -581,6 +581,11 @@ IdentifierMapEntry
 h
 "
 "
+PointerLockManager
+.
+h
+"
+"
 RangeBoundary
 .
 h
@@ -1900,6 +1905,11 @@ cpp
 "
 "
 ParentProcessMessageManager
+.
+cpp
+"
+"
+PointerLockManager
 .
 cpp
 "
