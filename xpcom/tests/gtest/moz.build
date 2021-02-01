@@ -178,6 +178,11 @@ TestRWLock
 cpp
 "
 "
+TestSeekableStreamWrapper
+.
+cpp
+"
+"
 TestSegmentedBuffer
 .
 cpp
