@@ -33,6 +33,7 @@ Poll
 derive
 (
 Debug
+Clone
 )
 ]
 #

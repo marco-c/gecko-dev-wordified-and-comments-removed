@@ -11,6 +11,12 @@ use
 futures_core
 :
 :
+ready
+;
+use
+futures_core
+:
+:
 task
 :
 :
@@ -164,7 +170,7 @@ u8
 >
 Self
 {
-WriteAll
+Self
 {
 writer
 buf
@@ -346,6 +352,7 @@ into
 )
 )
 )
+;
 }
 }
 Poll

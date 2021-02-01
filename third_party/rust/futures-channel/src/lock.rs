@@ -147,12 +147,9 @@ T
 )
 -
 >
-Lock
-<
-T
->
+Self
 {
-Lock
+Self
 {
 locked
 :

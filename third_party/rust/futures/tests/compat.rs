@@ -1,15 +1,3 @@
-#
-!
-[
-cfg
-(
-feature
-=
-"
-compat
-"
-)
-]
 use
 tokio
 :

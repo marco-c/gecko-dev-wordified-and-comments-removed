@@ -184,11 +184,6 @@ originates
 in
 a
 macro
-outside
-of
-the
-current
-crate
 (
 in
 Nightly
@@ -197,8 +192,6 @@ run
 with
 -
 Z
-external
--
 macro
 -
 backtrace
@@ -375,11 +368,6 @@ originates
 in
 a
 macro
-outside
-of
-the
-current
-crate
 (
 in
 Nightly
@@ -388,8 +376,6 @@ run
 with
 -
 Z
-external
--
 macro
 -
 backtrace
@@ -582,11 +568,6 @@ originates
 in
 a
 macro
-outside
-of
-the
-current
-crate
 (
 in
 Nightly
@@ -595,8 +576,6 @@ run
 with
 -
 Z
-external
--
 macro
 -
 backtrace

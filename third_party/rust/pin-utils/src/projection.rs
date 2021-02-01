@@ -18,6 +18,13 @@ ty
 =
 >
 (
+#
+[
+allow
+(
+unsafe_code
+)
+]
 fn
 f
 <
@@ -115,6 +122,13 @@ ty
 =
 >
 (
+#
+[
+allow
+(
+unsafe_code
+)
+]
 fn
 f
 <

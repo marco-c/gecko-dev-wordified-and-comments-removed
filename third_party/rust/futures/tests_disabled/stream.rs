@@ -568,9 +568,9 @@ u32
 )
 -
 >
-FromErrTest
+Self
 {
-FromErrTest
+Self
 (
 i
 )

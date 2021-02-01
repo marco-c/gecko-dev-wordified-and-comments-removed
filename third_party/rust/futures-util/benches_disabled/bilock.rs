@@ -161,9 +161,9 @@ u32
 )
 -
 >
-LockStream
+Self
 {
-LockStream
+Self
 {
 lock
 :

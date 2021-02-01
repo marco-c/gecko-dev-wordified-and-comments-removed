@@ -210,8 +210,14 @@ take
 (
 )
 .
-unwrap
+expect
 (
+"
+Ready
+polled
+after
+completion
+"
 )
 )
 }

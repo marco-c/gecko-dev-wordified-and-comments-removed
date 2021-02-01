@@ -11,6 +11,12 @@ use
 futures_core
 :
 :
+ready
+;
+use
+futures_core
+:
+:
 stream
 :
 :
@@ -128,7 +134,7 @@ St
 >
 Self
 {
-SelectNextSome
+Self
 {
 stream
 }

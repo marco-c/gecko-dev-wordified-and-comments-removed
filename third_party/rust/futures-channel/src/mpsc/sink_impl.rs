@@ -337,7 +337,7 @@ Error
 >
 >
 {
-UnboundedSender
+Self
 :
 :
 poll_ready
@@ -376,7 +376,7 @@ Self
 Error
 >
 {
-UnboundedSender
+Self
 :
 :
 start_send

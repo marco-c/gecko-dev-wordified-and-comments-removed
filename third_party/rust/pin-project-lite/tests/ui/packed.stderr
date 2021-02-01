@@ -96,8 +96,10 @@ _
 |
 note
 :
+the
 lint
 level
+is
 defined
 here
 -
@@ -267,11 +269,6 @@ originates
 in
 a
 macro
-outside
-of
-the
-current
-crate
 (
 in
 Nightly
@@ -280,8 +277,6 @@ run
 with
 -
 Z
-external
--
 macro
 -
 backtrace
@@ -389,8 +384,10 @@ _
 |
 note
 :
+the
 lint
 level
+is
 defined
 here
 -
@@ -562,11 +559,6 @@ originates
 in
 a
 macro
-outside
-of
-the
-current
-crate
 (
 in
 Nightly
@@ -575,8 +567,6 @@ run
 with
 -
 Z
-external
--
 macro
 -
 backtrace

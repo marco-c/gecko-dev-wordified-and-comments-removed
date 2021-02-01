@@ -147,7 +147,7 @@ waker
 }
 )
 ;
-WakerRef
+Self
 {
 waker
 _marker
@@ -170,7 +170,7 @@ Waker
 >
 Self
 {
-WakerRef
+Self
 {
 waker
 _marker

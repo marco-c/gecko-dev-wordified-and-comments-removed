@@ -162,7 +162,7 @@ Si
 >
 Self
 {
-Flush
+Self
 {
 sink
 _phantom
