@@ -224,6 +224,16 @@ py
 -
 taskcluster
 /
+taskgraph
+/
+actions
+/
+isolate_test
+.
+py
+-
+taskcluster
+/
 test
 -
 testing
