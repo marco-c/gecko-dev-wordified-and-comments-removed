@@ -1699,9 +1699,6 @@ DownloadsPanel
 DownloadsOverlayLoader
 "
 "
-DownloadsSubview
-"
-"
 DownloadsView
 "
 "
