@@ -15721,6 +15721,9 @@ port
 "
 _ns
 username
+"
+"
+_ns
 nullptr
 originAttributes
 aURI
@@ -17569,8 +17572,14 @@ const
 nsACString
 &
 aUsername
+const
+nsACString
+&
+aTopWindowOrigin
 bool
 aPrivateBrowsing
+bool
+aIsolated
 nsIInterfaceRequestor
 *
 aCallbacks
@@ -17727,7 +17736,9 @@ https
 originHost
 originPort
 aUsername
+aTopWindowOrigin
 aPrivateBrowsing
+aIsolated
 aCallbacks
 nullptr
 0

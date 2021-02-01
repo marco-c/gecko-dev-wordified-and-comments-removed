@@ -355,6 +355,12 @@ ci
 GetOriginAttributes
 (
 )
+ci
+-
+>
+GetTopWindowOrigin
+(
+)
 )
 ;
 }
@@ -420,8 +426,14 @@ const
 nsCString
 &
 aUsername
+const
+nsCString
+&
+aTopWindowOrigin
 bool
 aPrivateBrowsing
+bool
+aIsolated
 nsIInterfaceRequestor
 *
 aCallbacks
@@ -514,7 +526,9 @@ aOriginScheme
 aOriginHost
 aOriginPort
 aUsername
+aTopWindowOrigin
 aPrivateBrowsing
+aIsolated
 proxyInfoArray
 aCaps
 aOriginAttributes

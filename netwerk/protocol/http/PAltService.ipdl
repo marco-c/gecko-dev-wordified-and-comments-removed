@@ -45,6 +45,8 @@ int32_t
 port
 OriginAttributes
 originAttributes
+nsCString
+topWindowOrigin
 )
 ;
 async
@@ -60,8 +62,12 @@ int32_t
 originPort
 nsCString
 username
+nsCString
+topWindowOrigin
 bool
 privateBrowsing
+bool
+isolated
 ProxyInfoCloneArgs
 [
 ]
