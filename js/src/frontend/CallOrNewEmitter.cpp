@@ -885,7 +885,7 @@ State
 WantSpreadOperand
 ;
 return
-isSingleSpreadRest
+isSingleSpread
 (
 )
 ;
@@ -918,7 +918,7 @@ isSpread
 ;
 if
 (
-isSingleSpreadRest
+isSingleSpread
 (
 )
 )
@@ -1032,7 +1032,7 @@ Arguments
 ;
 if
 (
-isSingleSpreadRest
+isSingleSpread
 (
 )
 )

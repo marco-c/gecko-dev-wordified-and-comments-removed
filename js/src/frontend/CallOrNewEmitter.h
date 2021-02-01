@@ -112,7 +112,7 @@ class
 ArgumentsKind
 {
 Other
-SingleSpreadRest
+SingleSpread
 }
 ;
 private
@@ -395,7 +395,7 @@ JOF_BYTE
 }
 MOZ_MUST_USE
 bool
-isSingleSpreadRest
+isSingleSpread
 (
 )
 const
@@ -407,7 +407,7 @@ argumentsKind_
 ArgumentsKind
 :
 :
-SingleSpreadRest
+SingleSpread
 ;
 }
 public
