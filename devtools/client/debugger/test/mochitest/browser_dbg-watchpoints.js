@@ -500,6 +500,12 @@ statement
 "
 )
 ;
+await
+waitForRequestsToSettle
+(
+dbg
+)
+;
 resume
 (
 dbg

@@ -150,6 +150,12 @@ ObjectFront
 (
 grip
 )
+getFrontByID
+:
+_id
+=
+>
+null
 }
 ;
 function

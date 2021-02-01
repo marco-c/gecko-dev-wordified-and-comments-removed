@@ -637,6 +637,7 @@ client
 loadObjectProperties
 (
 root
+thread
 )
 ;
 if
