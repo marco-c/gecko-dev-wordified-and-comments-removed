@@ -8,6 +8,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ClearOnShutdown
@@ -281,6 +288,11 @@ IsOnCurrentThread
 )
 )
 {
+AUTO_PROFILE_FOLLOWING_RUNNABLE
+(
+task
+)
+;
 task
 -
 >
