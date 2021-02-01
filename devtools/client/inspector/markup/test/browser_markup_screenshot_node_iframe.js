@@ -3,15 +3,6 @@ use
 strict
 "
 ;
-loadHelperScript
-(
-"
-helper_screenshot_node
-.
-js
-"
-)
-;
 const
 exampleNetDocument
 =
