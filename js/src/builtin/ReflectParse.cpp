@@ -20165,7 +20165,7 @@ if
 funbox
 -
 >
-explicitNameIndex
+explicitName
 (
 )
 )
@@ -20182,7 +20182,7 @@ liftParserAtomToJSAtom
 funbox
 -
 >
-explicitNameIndex
+explicitName
 (
 )
 )

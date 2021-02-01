@@ -2209,7 +2209,7 @@ isNamedLambda
 (
 !
 !
-explicitNameIndex
+explicitName
 (
 )
 )
@@ -2330,7 +2330,7 @@ hasGuessedAtom
 ;
 }
 TaggedParserAtomIndex
-displayAtomIndex
+displayAtom
 (
 )
 const
@@ -2340,7 +2340,7 @@ atom_
 ;
 }
 TaggedParserAtomIndex
-explicitNameIndex
+explicitName
 (
 )
 const

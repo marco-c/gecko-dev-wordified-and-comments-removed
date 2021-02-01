@@ -16133,7 +16133,7 @@ MOZ_ASSERT
 funbox
 -
 >
-displayAtomIndex
+displayAtom
 (
 )
 =

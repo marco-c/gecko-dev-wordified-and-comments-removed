@@ -994,7 +994,7 @@ if
 funbox
 -
 >
-displayAtomIndex
+displayAtom
 (
 )
 )
@@ -1015,7 +1015,7 @@ getParserAtom
 funbox
 -
 >
-displayAtomIndex
+displayAtom
 (
 )
 )
@@ -1058,7 +1058,7 @@ getParserAtom
 funbox
 -
 >
-displayAtomIndex
+displayAtom
 (
 )
 )
