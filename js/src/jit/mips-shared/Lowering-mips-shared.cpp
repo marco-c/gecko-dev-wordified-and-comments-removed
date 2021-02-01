@@ -4182,7 +4182,7 @@ const
 LAllocation
 index
 =
-useRegisterOrConstant
+useRegisterOrInt32Constant
 (
 ins
 -
@@ -4447,7 +4447,7 @@ const
 LAllocation
 index
 =
-useRegisterOrConstant
+useRegisterOrInt32Constant
 (
 ins
 -
@@ -5434,7 +5434,7 @@ const
 LAllocation
 index
 =
-useRegisterOrConstant
+useRegisterOrInt32Constant
 (
 ins
 -
