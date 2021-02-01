@@ -1944,7 +1944,7 @@ v
 )
 ;
 void
-MarkValueFromJit
+JitValuePreWriteBarrier
 (
 JSRuntime
 *
@@ -1955,7 +1955,7 @@ vp
 )
 ;
 void
-MarkStringFromJit
+JitStringPreWriteBarrier
 (
 JSRuntime
 *
@@ -1967,7 +1967,7 @@ stringp
 )
 ;
 void
-MarkObjectFromJit
+JitObjectPreWriteBarrier
 (
 JSRuntime
 *
@@ -1979,7 +1979,7 @@ objp
 )
 ;
 void
-MarkShapeFromJit
+JitShapePreWriteBarrier
 (
 JSRuntime
 *
@@ -1991,7 +1991,7 @@ shapep
 )
 ;
 void
-MarkObjectGroupFromJit
+JitObjectGroupPreWriteBarrier
 (
 JSRuntime
 *
