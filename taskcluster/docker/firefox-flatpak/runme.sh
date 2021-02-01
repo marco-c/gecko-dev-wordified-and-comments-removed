@@ -1599,6 +1599,17 @@ rw
 \
 -
 -
+filesystem
+=
+/
+etc
+/
+firefox
+/
+policies
+\
+-
+-
 device
 =
 all
