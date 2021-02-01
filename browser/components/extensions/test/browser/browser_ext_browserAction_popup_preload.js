@@ -326,9 +326,7 @@ is
 (
 browserAction
 .
-action
-.
-activeTabForPreload
+tabToRevokeDuringClearPopup
 tab
 "
 Tab
@@ -412,9 +410,7 @@ is
 (
 browserAction
 .
-action
-.
-activeTabForPreload
+tabToRevokeDuringClearPopup
 null
 "
 Tab
