@@ -2518,11 +2518,10 @@ aID
 )
 returns
 (
-nullable
-PDocAccessible
-aResultDoc
 uint64_t
-aResultID
+aChild
+bool
+aOk
 )
 ;
 nested
