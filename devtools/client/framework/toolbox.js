@@ -3379,6 +3379,7 @@ this
 _onInspectObject
 )
 ;
+}
 targetFront
 .
 watchFronts
@@ -3404,7 +3405,6 @@ walker
 }
 )
 ;
-}
 const
 {
 threadFront
