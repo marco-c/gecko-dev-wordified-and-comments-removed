@@ -296,9 +296,6 @@ DataType
 class
 nsDataHashtable
 ;
-class
-LRUCache
-;
 namespace
 mozilla
 {
