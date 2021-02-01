@@ -225,6 +225,11 @@ SvcFieldValue
 field
 uint16_t
 length
+const
+unsigned
+char
+*
+aBuffer
 )
 {
 switch
@@ -262,7 +267,7 @@ mandatoryKey
 =
 get16bit
 (
-mResponse
+aBuffer
 svcbIndex
 )
 ;
@@ -357,7 +362,7 @@ length
 uint8_t
 alpnIdLength
 =
-mResponse
+aBuffer
 [
 svcbIndex
 +
@@ -392,7 +397,7 @@ char
 *
 )
 &
-mResponse
+aBuffer
 [
 svcbIndex
 ]
@@ -473,7 +478,7 @@ mValue
 =
 get16bit
 (
-mResponse
+aBuffer
 svcbIndex
 )
 }
@@ -564,7 +569,7 @@ ntohl
 (
 get32bit
 (
-mResponse
+aBuffer
 svcbIndex
 )
 )
@@ -614,7 +619,7 @@ char
 )
 (
 &
-mResponse
+aBuffer
 [
 svcbIndex
 ]
@@ -745,7 +750,7 @@ u8
 i
 ]
 =
-mResponse
+aBuffer
 [
 svcbIndex
 ]
@@ -791,7 +796,7 @@ char
 )
 (
 &
-mResponse
+aBuffer
 [
 svcbIndex
 ]
@@ -828,6 +833,11 @@ unsigned
 int
 &
 index
+const
+unsigned
+char
+*
+aBuffer
 )
 {
 uint8_t
@@ -880,7 +890,7 @@ static_cast
 uint8_t
 >
 (
-mResponse
+aBuffer
 [
 index
 ]
@@ -1028,6 +1038,11 @@ unsigned
 int
 &
 aIndex
+const
+unsigned
+char
+*
+aBuffer
 )
 {
 uint8_t
@@ -1089,7 +1104,7 @@ static_cast
 uint8_t
 >
 (
-mResponse
+aBuffer
 [
 cindex
 ]
@@ -1135,7 +1150,7 @@ clength
 <
 8
 |
-mResponse
+aBuffer
 [
 cindex
 +
@@ -1243,7 +1258,7 @@ char
 )
 (
 &
-mResponse
+aBuffer
 [
 cindex
 ]
@@ -2100,7 +2115,7 @@ nsresult
 DNSPacket
 :
 :
-Decode
+DecodeInternal
 (
 nsCString
 &
@@ -2135,6 +2150,13 @@ aAdditionalRecords
 uint32_t
 &
 aTTL
+const
+unsigned
+char
+*
+aBuffer
+uint32_t
+aLen
 )
 {
 unsigned
@@ -2176,7 +2198,7 @@ aHost
 get
 (
 )
-mBodySize
+aLen
 )
 )
 ;
@@ -2188,18 +2210,18 @@ Truncate
 ;
 if
 (
-mBodySize
+aLen
 <
 12
 |
 |
-mResponse
+aBuffer
 [
 0
 ]
 |
 |
-mResponse
+aBuffer
 [
 1
 ]
@@ -2228,7 +2250,7 @@ NS_ERROR_ILLEGAL_VALUE
 uint8_t
 rcode
 =
-mResponse
+aBuffer
 [
 3
 ]
@@ -2288,7 +2310,7 @@ questionRecords
 =
 get16bit
 (
-mResponse
+aBuffer
 4
 )
 ;
@@ -2301,7 +2323,7 @@ do
 {
 if
 (
-mBodySize
+aLen
 <
 (
 index
@@ -2327,7 +2349,7 @@ size
 u
 "
 index
-mBodySize
+aLen
 )
 )
 ;
@@ -2342,7 +2364,7 @@ static_cast
 uint8_t
 >
 (
-mResponse
+aBuffer
 [
 index
 ]
@@ -2374,7 +2396,7 @@ Append
 }
 if
 (
-mBodySize
+aLen
 <
 (
 index
@@ -2406,7 +2428,7 @@ len
 u
 "
 index
-mBodySize
+aLen
 length
 )
 )
@@ -2424,7 +2446,7 @@ Append
 char
 *
 )
-mResponse
+aBuffer
 )
 +
 index
@@ -2449,7 +2471,7 @@ length
 ;
 if
 (
-mBodySize
+aLen
 <
 (
 index
@@ -2475,7 +2497,7 @@ size
 u
 "
 index
-mBodySize
+aLen
 )
 )
 ;
@@ -2498,7 +2520,7 @@ answerRecords
 =
 get16bit
 (
-mResponse
+aBuffer
 6
 )
 ;
@@ -2529,7 +2551,7 @@ u
 n
 "
 answerRecords
-mBodySize
+aLen
 host
 .
 get
@@ -2553,6 +2575,7 @@ GetQname
 (
 qname
 index
+aBuffer
 )
 ;
 if
@@ -2569,7 +2592,7 @@ rv
 }
 if
 (
-mBodySize
+aLen
 <
 (
 index
@@ -2612,7 +2635,7 @@ TYPE
 =
 get16bit
 (
-mResponse
+aBuffer
 index
 )
 ;
@@ -2686,7 +2709,7 @@ index
 ;
 if
 (
-mBodySize
+aLen
 <
 (
 index
@@ -2729,7 +2752,7 @@ CLASS
 =
 get16bit
 (
-mResponse
+aBuffer
 index
 )
 ;
@@ -2775,7 +2798,7 @@ index
 ;
 if
 (
-mBodySize
+aLen
 <
 (
 index
@@ -2816,7 +2839,7 @@ TTL
 =
 get32bit
 (
-mResponse
+aBuffer
 index
 )
 ;
@@ -2827,7 +2850,7 @@ index
 ;
 if
 (
-mBodySize
+aLen
 <
 (
 index
@@ -2868,7 +2891,7 @@ RDLENGTH
 =
 get16bit
 (
-mResponse
+aBuffer
 index
 )
 ;
@@ -2879,7 +2902,7 @@ index
 ;
 if
 (
-mBodySize
+aLen
 <
 (
 index
@@ -3041,7 +3064,7 @@ aResp
 Add
 (
 TTL
-mResponse
+aBuffer
 index
 RDLENGTH
 aAllowRFC1918
@@ -3127,7 +3150,7 @@ aResp
 Add
 (
 TTL
-mResponse
+aBuffer
 index
 RDLENGTH
 aAllowRFC1918
@@ -3197,6 +3220,7 @@ GetQname
 (
 qname
 qnameindex
+aBuffer
 )
 ;
 if
@@ -3345,7 +3369,7 @@ available
 uint8_t
 characterStringLen
 =
-mResponse
+aBuffer
 [
 txtIndex
 +
@@ -3394,7 +3418,7 @@ char
 )
 (
 &
-mResponse
+aBuffer
 [
 txtIndex
 ]
@@ -3557,7 +3581,7 @@ mSvcFieldPriority
 =
 get16bit
 (
-mResponse
+aBuffer
 svcbIndex
 )
 ;
@@ -3574,6 +3598,7 @@ parsed
 .
 mSvcDomainName
 svcbIndex
+aBuffer
 )
 ;
 if
@@ -3663,7 +3688,7 @@ key
 =
 get16bit
 (
-mResponse
+aBuffer
 svcbIndex
 )
 ;
@@ -3706,7 +3731,7 @@ len
 =
 get16bit
 (
-mResponse
+aBuffer
 svcbIndex
 )
 ;
@@ -3744,6 +3769,7 @@ svcbIndex
 key
 value
 len
+aBuffer
 )
 ;
 if
@@ -4130,7 +4156,7 @@ n
 TYPE
 RDLENGTH
 index
-mBodySize
+aLen
 )
 )
 ;
@@ -4144,7 +4170,7 @@ nsRecords
 =
 get16bit
 (
-mResponse
+aBuffer
 8
 )
 ;
@@ -4169,7 +4195,7 @@ body
 n
 "
 nsRecords
-mBodySize
+aLen
 )
 )
 ;
@@ -4183,6 +4209,7 @@ rv
 PassQName
 (
 index
+aBuffer
 )
 ;
 if
@@ -4199,7 +4226,7 @@ rv
 }
 if
 (
-mBodySize
+aLen
 <
 (
 index
@@ -4229,7 +4256,7 @@ index
 ;
 if
 (
-mBodySize
+aLen
 <
 (
 index
@@ -4247,7 +4274,7 @@ RDLENGTH
 =
 get16bit
 (
-mResponse
+aBuffer
 index
 )
 ;
@@ -4258,7 +4285,7 @@ index
 ;
 if
 (
-mBodySize
+aLen
 <
 (
 index
@@ -4293,7 +4320,7 @@ u
 n
 "
 index
-mBodySize
+aLen
 )
 )
 ;
@@ -4307,7 +4334,7 @@ arRecords
 =
 get16bit
 (
-mResponse
+aBuffer
 10
 )
 ;
@@ -4333,7 +4360,7 @@ body
 n
 "
 arRecords
-mBodySize
+aLen
 )
 )
 ;
@@ -4351,6 +4378,7 @@ GetQname
 (
 qname
 index
+aBuffer
 )
 ;
 if
@@ -4380,7 +4408,7 @@ rv
 }
 if
 (
-mBodySize
+aLen
 <
 (
 index
@@ -4398,7 +4426,7 @@ type
 =
 get16bit
 (
-mResponse
+aBuffer
 index
 )
 ;
@@ -4412,7 +4440,7 @@ cls
 =
 get16bit
 (
-mResponse
+aBuffer
 index
 )
 ;
@@ -4426,7 +4454,7 @@ ttl
 =
 get32bit
 (
-mResponse
+aBuffer
 index
 )
 ;
@@ -4437,7 +4465,7 @@ index
 ;
 if
 (
-mBodySize
+aLen
 <
 (
 index
@@ -4466,7 +4494,7 @@ rdlength
 =
 get16bit
 (
-mResponse
+aBuffer
 index
 )
 ;
@@ -4477,7 +4505,7 @@ index
 ;
 if
 (
-mBodySize
+aLen
 <
 (
 index
@@ -4624,7 +4652,7 @@ entry
 Add
 (
 ttl
-mResponse
+aBuffer
 index
 rdlength
 aAllowRFC1918
@@ -4732,7 +4760,7 @@ entry
 Add
 (
 ttl
-mResponse
+aBuffer
 index
 rdlength
 aAllowRFC1918
@@ -4809,7 +4837,7 @@ optCode
 =
 get16bit
 (
-mResponse
+aBuffer
 index
 +
 offset
@@ -4850,7 +4878,7 @@ optLen
 =
 get16bit
 (
-mResponse
+aBuffer
 index
 +
 offset
@@ -4966,7 +4994,7 @@ extendedError
 =
 get16bit
 (
-mResponse
+aBuffer
 index
 +
 offset
@@ -4994,7 +5022,7 @@ nsAutoCString
 char
 *
 )
-mResponse
+aBuffer
 +
 index
 +
@@ -5055,7 +5083,7 @@ u
 n
 "
 index
-mBodySize
+aLen
 )
 )
 ;
@@ -5069,7 +5097,7 @@ if
 index
 !
 =
-mBodySize
+aLen
 )
 {
 LOG
@@ -5094,7 +5122,7 @@ bytes
 n
 "
 index
-mBodySize
+aLen
 )
 )
 ;
@@ -5211,6 +5239,64 @@ Sort
 }
 return
 NS_OK
+;
+}
+nsresult
+DNSPacket
+:
+:
+Decode
+(
+nsCString
+&
+aHost
+enum
+TrrType
+aType
+nsCString
+&
+aCname
+bool
+aAllowRFC1918
+nsHostRecord
+:
+:
+TRRSkippedReason
+&
+aReason
+DOHresp
+&
+aResp
+TypeRecordResultType
+&
+aTypeResult
+nsClassHashtable
+<
+nsCStringHashKey
+DOHresp
+>
+&
+aAdditionalRecords
+uint32_t
+&
+aTTL
+)
+{
+return
+DecodeInternal
+(
+aHost
+aType
+aCname
+aAllowRFC1918
+aReason
+aResp
+aTypeResult
+aAdditionalRecords
+aTTL
+mResponse
+mBodySize
+)
 ;
 }
 bool
