@@ -1079,16 +1079,6 @@ gc
 :
 ChunkShift
 ;
-static
-const
-size_t
-SubChunkStep
-=
-gc
-:
-:
-ArenaSize
-;
 using
 BufferRelocationOverlay
 =

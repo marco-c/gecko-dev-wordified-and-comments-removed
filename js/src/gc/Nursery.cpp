@@ -8756,7 +8756,9 @@ ChunkSize
 ?
 ChunkSize
 :
-SubChunkStep
+SystemPageSize
+(
+)
 ;
 size
 =
@@ -8771,7 +8773,9 @@ MOZ_ASSERT
 size
 >
 =
-ArenaSize
+SystemPageSize
+(
+)
 )
 ;
 return
