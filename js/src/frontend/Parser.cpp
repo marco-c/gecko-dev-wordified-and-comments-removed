@@ -1885,9 +1885,7 @@ Global
 this
 -
 >
-getCompilationStencil
-(
-)
+stencil_
 directives
 extent
 )
@@ -4299,9 +4297,7 @@ cx_
 this
 -
 >
-getCompilationStencil
-(
-)
+stencil_
 name
 )
 ;
@@ -8033,9 +8029,7 @@ superScopeNeedsHomeObject
 this
 -
 >
-getCompilationStencil
-(
-)
+stencil_
 .
 input
 .
@@ -8048,9 +8042,7 @@ si
 this
 -
 >
-getCompilationStencil
-(
-)
+stencil_
 .
 input
 .
@@ -48671,9 +48663,7 @@ index
 this
 -
 >
-getCompilationStencil
-(
-)
+stencil_
 .
 bigIntData
 .
@@ -48713,9 +48703,7 @@ if
 this
 -
 >
-getCompilationStencil
-(
-)
+stencil_
 .
 bigIntData
 .
@@ -48744,9 +48732,7 @@ if
 this
 -
 >
-getCompilationStencil
-(
-)
+stencil_
 .
 bigIntData
 [
@@ -48778,9 +48764,7 @@ index
 this
 -
 >
-getCompilationStencil
-(
-)
+stencil_
 pos
 (
 )
