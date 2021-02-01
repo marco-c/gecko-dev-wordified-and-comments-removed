@@ -22,6 +22,13 @@ h
 #
 include
 "
+PointerLockManager
+.
+h
+"
+#
+include
+"
 mozilla
 /
 PresShell
@@ -863,10 +870,10 @@ aBrowserParent
 ;
 if
 (
-BrowserParent
+PointerLockManager
 :
 :
-GetPointerLockedRemoteTarget
+GetLockedRemoteTarget
 (
 )
 )
