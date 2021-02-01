@@ -333,6 +333,12 @@ case
 StyleAppearance
 :
 :
+ScrollbarHorizontal
+:
+case
+StyleAppearance
+:
+:
 ScrollbarthumbHorizontal
 :
 aResult
@@ -346,6 +352,12 @@ dpiRatio
 ;
 break
 ;
+case
+StyleAppearance
+:
+:
+ScrollbarVertical
+:
 case
 StyleAppearance
 :
