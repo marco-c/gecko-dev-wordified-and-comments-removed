@@ -91,16 +91,6 @@ AutoRequireNoGC
 &
 )
 ;
-extern
-JS_FRIEND_API
-bool
-IsLargeArrayBufferMaybeShared
-(
-JSObject
-*
-obj
-)
-;
 }
 #
 endif

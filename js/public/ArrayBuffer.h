@@ -349,15 +349,6 @@ JSObject
 obj
 )
 ;
-extern
-JS_PUBLIC_API
-void
-SetLargeArrayBuffersEnabled
-(
-bool
-enable
-)
-;
 }
 #
 endif
