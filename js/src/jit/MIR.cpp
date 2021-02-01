@@ -16491,6 +16491,15 @@ rhs
 )
 )
 {
+lhs
+(
+)
+-
+>
+setGuardRangeBailoutsUnchecked
+(
+)
+;
 return
 MConstant
 :
