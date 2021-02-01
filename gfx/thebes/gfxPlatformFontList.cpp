@@ -9863,12 +9863,6 @@ StyleGenericFontFamily
 :
 :
 MozEmoji
-|
-|
-aPrefLang
-=
-=
-eFontPrefLang_Emoji
 )
 {
 PrefFontList
