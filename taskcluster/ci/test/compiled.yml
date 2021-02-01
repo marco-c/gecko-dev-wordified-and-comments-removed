@@ -210,11 +210,6 @@ unittests
 win_unittest
 .
 py
-python
--
-3
-:
-true
 cppunit
 :
 description
