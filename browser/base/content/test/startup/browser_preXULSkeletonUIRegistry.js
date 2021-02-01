@@ -603,6 +603,9 @@ Theme
 "
 Flags
 "
+"
+Progress
+"
 ]
 ;
 for
