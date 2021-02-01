@@ -773,6 +773,14 @@ n
 ;
 if
 (
+AbnormalShutdown
+=
+=
+aWhy
+)
+{
+if
+(
 gNeckoChild
 )
 {
@@ -849,6 +857,7 @@ CloseForCurrentThread
 )
 )
 ;
+}
 }
 nsCOMPtr
 <
