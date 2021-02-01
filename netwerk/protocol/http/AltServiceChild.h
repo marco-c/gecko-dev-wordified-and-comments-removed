@@ -81,14 +81,8 @@ const
 nsCString
 &
 aUsername
-const
-nsCString
-&
-aTopWindowOrigin
 bool
 aPrivateBrowsing
-bool
-aIsolated
 nsIInterfaceRequestor
 *
 aCallbacks
