@@ -65,7 +65,6 @@ kMaxPrecisionDigits
 ;
 static
 const
-MFBT_DATA
 int
 kBase10MaximalLength
 =
