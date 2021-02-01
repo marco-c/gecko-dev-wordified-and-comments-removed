@@ -331,5 +331,13 @@ size_t
 len
 )
 ;
+SECStatus
+SSLInt_ZeroEchConfigIds
+(
+PRFileDesc
+*
+fd
+)
+;
 #
 endif

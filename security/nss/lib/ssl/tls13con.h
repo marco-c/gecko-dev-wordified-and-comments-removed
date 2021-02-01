@@ -353,6 +353,12 @@ tls13_HandleServerHelloPart2
 sslSocket
 *
 ss
+const
+PRUint8
+*
+savedMsg
+PRUint32
+savedLength
 )
 ;
 SECStatus

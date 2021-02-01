@@ -25,7 +25,7 @@ NSS_ENABLE_DRAFT_HPKE
 #
 define
 HPKE_DRAFT_VERSION
-5
+7
 #
 define
 CLEANUP
@@ -151,6 +151,12 @@ enum
 HpkeKdfHkdfSha256
 =
 1
+HpkeKdfHkdfSha384
+=
+2
+HpkeKdfHkdfSha512
+=
+3
 }
 HpkeKdfId
 ;
