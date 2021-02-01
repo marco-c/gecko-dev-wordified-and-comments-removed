@@ -119,11 +119,6 @@ nsImageControlFrame
 cpp
 "
 "
-nsLegendFrame
-.
-cpp
-"
-"
 nsListControlFrame
 .
 cpp

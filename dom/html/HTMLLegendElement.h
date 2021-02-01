@@ -245,6 +245,17 @@ InlineStart
 InlineEnd
 }
 ;
+LegendAlignValue
+LogicalAlign
+(
+mozilla
+:
+:
+WritingMode
+aCBWM
+)
+const
+;
 already_AddRefed
 <
 HTMLFormElement
