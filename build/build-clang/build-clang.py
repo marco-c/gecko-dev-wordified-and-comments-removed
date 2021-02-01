@@ -4322,27 +4322,22 @@ add_argument
 -
 skip
 -
-checkout
+patch
 "
-        
 required
 =
 False
-        
 action
 =
 "
 store_true
 "
-        
 help
 =
 "
 Do
 not
-checkout
-/
-revert
+patch
 source
 "
     
@@ -5566,6 +5561,13 @@ makedirs
 source_dir
 )
     
+if
+not
+args
+.
+skip_patch
+:
+        
 for
 p
 in
@@ -5580,7 +5582,7 @@ patches
 ]
 )
 :
-        
+            
 patch
 (
 os
@@ -5762,11 +5764,20 @@ clang
 tidy
 "
         
+if
+not
+args
+.
+skip_patch
+:
+            
 import_clang_tidy
 (
+                
 source_dir
 build_clang_tidy_alpha
 build_clang_tidy_external
+            
 )
     
 if
