@@ -1585,7 +1585,7 @@ is
 gURLBar
 .
 value
-BrowserUtils
+BrowserUIUtils
 .
 trimURL
 (

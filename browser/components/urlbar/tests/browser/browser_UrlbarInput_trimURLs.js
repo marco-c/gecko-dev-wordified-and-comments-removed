@@ -1134,7 +1134,7 @@ trimURLs
 "
 )
 ?
-BrowserUtils
+BrowserUIUtils
 .
 trimURL
 (
