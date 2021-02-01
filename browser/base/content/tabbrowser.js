@@ -1126,11 +1126,6 @@ _allowTabChange
 )
 {
 return
-this
-.
-tabbox
-.
-selectedTab
 ;
 }
 this
@@ -1139,9 +1134,6 @@ tabbox
 .
 selectedTab
 =
-val
-;
-return
 val
 ;
 }
@@ -26128,9 +26120,6 @@ this
 )
 ;
 }
-return
-val
-;
 }
 getMouseTargetRect
 (

@@ -3493,9 +3493,6 @@ _engines
 =
 val
 ;
-return
-val
-;
 }
 _getIndexForEngine
 (
