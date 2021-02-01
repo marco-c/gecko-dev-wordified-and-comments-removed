@@ -35,6 +35,15 @@ browser
 .
 ini
 "
+"
+browser
+/
+manual_app_update_only
+/
+browser
+.
+ini
+"
 ]
 if
 CONFIG
