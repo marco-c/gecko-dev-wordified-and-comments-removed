@@ -2630,6 +2630,7 @@ MakeRefPtr
 HoldIPCStream
 >
 (
+true
 )
 ;
 bool

@@ -339,6 +339,12 @@ NS_INLINE_DECL_REFCOUNTING
 (
 HoldIPCStream
 )
+using
+AutoIPCStream
+:
+:
+AutoIPCStream
+;
 private
 :
 ~
