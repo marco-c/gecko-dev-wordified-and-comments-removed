@@ -263,6 +263,13 @@ promiseStartupManager
 (
 )
 ;
+let
+settingsFileWritten
+=
+promiseAfterSettings
+(
+)
+;
 await
 Services
 .
@@ -282,6 +289,9 @@ wrappedJSObject
 _removeObservers
 (
 )
+;
+await
+settingsFileWritten
 ;
 }
 )
