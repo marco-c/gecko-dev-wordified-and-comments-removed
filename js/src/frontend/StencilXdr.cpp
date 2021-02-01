@@ -3178,7 +3178,7 @@ stencil
 .
 bigIntData
 .
-length
+size
 (
 )
 ;
@@ -3311,7 +3311,7 @@ regExpSize
 ;
 MOZ_TRY
 (
-XDRVectorInitialized
+XDRSpanInitialized
 (
 xdr
 stencil
