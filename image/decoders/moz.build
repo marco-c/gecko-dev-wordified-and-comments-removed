@@ -192,6 +192,16 @@ gfx
 /
 image
 "
+"
+/
+media
+/
+libyuv
+/
+libyuv
+/
+include
+"
 ]
 LOCAL_INCLUDES
 +
