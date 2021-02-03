@@ -16,6 +16,8 @@ ready
 to
 be
 used
+without
+assistance
 so
 you
 probably
@@ -400,9 +402,7 @@ to
 the
 others
 for
-firefox
-.
-desktop
+firefox_desktop
 .
 If
 you
