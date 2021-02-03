@@ -1947,6 +1947,12 @@ isEmpty
 )
 )
 ;
+decommitTask
+.
+join
+(
+)
+;
 AutoEnterOOMUnsafeRegion
 oomUnsafe
 ;
@@ -1957,12 +1963,6 @@ isSubChunkMode
 )
 )
 {
-decommitTask
-.
-join
-(
-)
-;
 {
 if
 (
