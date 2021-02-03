@@ -1,7 +1,0 @@
-document
-.
-write
-(
-plugincode
-)
-;
