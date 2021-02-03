@@ -5197,6 +5197,7 @@ m
 m
 .
 trigger
+?
 .
 patterns
 )

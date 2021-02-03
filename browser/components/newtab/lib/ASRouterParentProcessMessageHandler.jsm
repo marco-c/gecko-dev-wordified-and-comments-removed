@@ -128,6 +128,11 @@ type
 case
 msg
 .
+INFOBAR_TELEMETRY
+:
+case
+msg
+.
 TOOLBAR_BADGE_TELEMETRY
 :
 case
