@@ -3851,6 +3851,7 @@ TakeFocus
 (
 MOZ_KnownLive
 (
+*
 pos
 .
 mResultContent
@@ -5632,6 +5633,7 @@ kMultiRangeSelection
 return
 TakeFocus
 (
+*
 aNewFocus
 aContentOffset
 aContentEndOffset
@@ -6106,8 +6108,7 @@ nsFrameSelection
 TakeFocus
 (
 nsIContent
-*
-const
+&
 aNewFocus
 uint32_t
 aContentOffset
@@ -6120,16 +6121,6 @@ FocusMode
 aFocusMode
 )
 {
-if
-(
-!
-aNewFocus
-)
-{
-return
-NS_ERROR_NULL_POINTER
-;
-}
 NS_ENSURE_STATE
 (
 mPresShell
@@ -6140,6 +6131,7 @@ if
 !
 IsValidSelectionPoint
 (
+&
 aNewFocus
 )
 )
@@ -6183,6 +6175,7 @@ focusMode
 i
 "
 __FUNCTION__
+&
 aNewFocus
 aContentOffset
 aContentEndOffset
@@ -6371,8 +6364,10 @@ nsRange
 :
 Create
 (
+&
 aNewFocus
 aContentOffset
+&
 aNewFocus
 aContentOffset
 error
@@ -6454,6 +6449,7 @@ selection
 >
 CollapseInLimiter
 (
+&
 aNewFocus
 aContentOffset
 )
@@ -6485,6 +6481,7 @@ index
 >
 Extend
 (
+&
 aNewFocus
 aContentEndOffset
 )
@@ -6526,6 +6523,7 @@ TableSelection
 IsContentInActivelyEditableTableCell
 (
 context
+&
 aNewFocus
 )
 )
@@ -6574,6 +6572,7 @@ inclusiveTableCellAncestor
 =
 GetClosestInclusiveTableCellAncestor
 (
+&
 aNewFocus
 )
 ;
@@ -6777,6 +6776,7 @@ index
 >
 Extend
 (
+&
 aNewFocus
 aContentEndOffset
 )
@@ -6791,6 +6791,7 @@ index
 >
 Extend
 (
+&
 aNewFocus
 aContentOffset
 )
@@ -13806,6 +13807,7 @@ rv
 =
 TakeFocus
 (
+*
 limiter
 0
 0

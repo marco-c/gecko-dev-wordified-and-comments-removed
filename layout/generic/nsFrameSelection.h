@@ -1386,7 +1386,7 @@ nsresult
 TakeFocus
 (
 nsIContent
-*
+&
 aNewFocus
 uint32_t
 aContentOffset
