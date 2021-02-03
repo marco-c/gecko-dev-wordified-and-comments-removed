@@ -433,6 +433,14 @@ isFeatureEnabled
 (
 featureId
 defaultValue
+{
+sendExposurePing
+=
+true
+}
+=
+{
+}
 )
 {
 const
@@ -444,6 +452,7 @@ getFeatureBranch
 (
 {
 featureId
+sendExposurePing
 }
 )
 ;
