@@ -389,6 +389,7 @@ wheelAndPaintDone
 =
 false
 ;
+async
 function
 doneScroll
 (
@@ -466,13 +467,11 @@ event
 then
 send
 it
-waitForApzFlushedRepaints
-(
+await
+promiseApzFlushedRepaints
 (
 )
-=
->
-{
+;
 /
 /
 Wait
@@ -515,9 +514,6 @@ true
 ;
 doneTest
 (
-)
-;
-}
 )
 ;
 }
