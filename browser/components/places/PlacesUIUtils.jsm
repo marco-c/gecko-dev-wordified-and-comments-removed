@@ -5681,11 +5681,6 @@ toISupportsString
 (
 data
 )
-data
-.
-length
-*
-2
 )
 ;
 }

@@ -2044,8 +2044,6 @@ image
 png
 "
 imgPtr
--
-1
 )
 ;
 Services

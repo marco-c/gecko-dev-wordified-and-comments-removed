@@ -198,7 +198,6 @@ setTransferData
 (
 kNativeImageMime
 img
-1
 )
 ;
 Services

@@ -1302,11 +1302,6 @@ toISupportsString
 (
 data
 )
-data
-.
-length
-*
-2
 )
 ;
 Services
@@ -1577,11 +1572,6 @@ toISupportsString
 (
 data
 )
-data
-.
-length
-*
-2
 )
 ;
 Services

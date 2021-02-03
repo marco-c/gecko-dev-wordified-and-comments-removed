@@ -857,8 +857,6 @@ image
 png
 "
 img
--
-1
 )
 ;
 Services
