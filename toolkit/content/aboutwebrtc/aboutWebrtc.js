@@ -5876,12 +5876,6 @@ iceDiv
 .
 append
 (
-renderElement
-(
-"
-br
-"
-)
 renderIceMetric
 (
 "
