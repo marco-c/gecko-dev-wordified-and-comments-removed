@@ -35602,7 +35602,7 @@ ensureDenseInitializedLength
 2
 )
 ;
-uint32_t
+size_t
 length
 ;
 bool

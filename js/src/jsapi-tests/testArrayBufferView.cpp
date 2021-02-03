@@ -589,7 +589,7 @@ GetObjectAs
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 bool
@@ -709,7 +709,7 @@ data2
 bool
 shared2
 ;
-uint32_t
+size_t
 len
 ;
 CHECK

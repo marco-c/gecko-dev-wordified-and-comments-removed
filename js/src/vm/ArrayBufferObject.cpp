@@ -9760,7 +9760,7 @@ GetObjectAsArrayBuffer
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 uint8_t
@@ -9803,7 +9803,7 @@ byteLength
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;

@@ -4147,7 +4147,7 @@ uint8_t
 *
 bufferData
 ;
-uint32_t
+size_t
 bufferLength
 ;
 if

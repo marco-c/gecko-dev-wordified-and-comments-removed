@@ -351,7 +351,7 @@ uint8_t
 *
 data
 ;
-uint32_t
+size_t
 length
 ;
 bool
@@ -387,6 +387,17 @@ length
 &
 data
 )
+;
+}
+if
+(
+length
+>
+INT32_MAX
+)
+{
+return
+NS_ERROR_ILLEGAL_VALUE
 ;
 }
 if
