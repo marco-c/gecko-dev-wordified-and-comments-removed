@@ -231,6 +231,13 @@ jsm
 "
 tests
 /
+BackgroundTask_update_sync_manager
+.
+jsm
+"
+"
+tests
+/
 BackgroundTask_wait
 .
 jsm
