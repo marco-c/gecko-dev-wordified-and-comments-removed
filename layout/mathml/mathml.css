@@ -917,12 +917,10 @@ none
 important
 ;
 }
-*
 :
+focus
 -
-moz
--
-focusring
+visible
 {
 /
 *
