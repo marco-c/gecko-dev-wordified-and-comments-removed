@@ -99,6 +99,13 @@ stylesheets
 .
 js
 "
+"
+thread
+-
+states
+.
+js
+"
 )
 with
 Files

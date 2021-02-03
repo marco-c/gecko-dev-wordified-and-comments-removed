@@ -639,6 +639,15 @@ SOURCE
 ]
 :
 hasBrowserElement
+[
+Resources
+.
+TYPES
+.
+THREAD_STATE
+]
+:
+hasBrowserElement
 }
 "
 set
