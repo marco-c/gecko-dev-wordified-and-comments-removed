@@ -1395,7 +1395,7 @@ v
 char
 buffer
 [
-10
+11
 ]
 ;
 SprintfLiteral
