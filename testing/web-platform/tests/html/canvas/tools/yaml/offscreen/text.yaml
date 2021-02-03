@@ -2197,6 +2197,9 @@ done
 expected
 :
 green
+timeout
+:
+long
 -
 name
 :
