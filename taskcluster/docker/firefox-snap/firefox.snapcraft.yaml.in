@@ -70,9 +70,6 @@ gnome
 ]
 environment
 :
-DISABLE_WAYLAND
-:
-1
 HOME
 :
 "
