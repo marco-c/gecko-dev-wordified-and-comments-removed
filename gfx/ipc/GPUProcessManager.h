@@ -939,6 +939,17 @@ char
 aMessage
 )
 ;
+bool
+MaybeDisableGPUProcess
+(
+const
+char
+*
+aMessage
+bool
+aAllowRestart
+)
+;
 void
 CleanShutdown
 (
