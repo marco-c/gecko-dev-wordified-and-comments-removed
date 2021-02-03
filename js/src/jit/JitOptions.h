@@ -204,6 +204,9 @@ bool
 forceInlineCaches
 ;
 bool
+forceMegamorphicICs
+;
+bool
 fullDebugChecks
 ;
 bool

@@ -497,6 +497,12 @@ false
 ;
 SET_DEFAULT
 (
+forceMegamorphicICs
+false
+)
+;
+SET_DEFAULT
+(
 limitScriptSize
 true
 )
