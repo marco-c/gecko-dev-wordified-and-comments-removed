@@ -6135,7 +6135,6 @@ createdContinuation
 break
 ;
 }
-else
 if
 (
 next
