@@ -275,15 +275,6 @@ aValue
 )
 override
 ;
-static
-nsRect
-GetUsableScreenRect
-(
-nsPresContext
-*
-aPresContext
-)
-;
 protected
 :
 virtual
