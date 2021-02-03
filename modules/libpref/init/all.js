@@ -2310,7 +2310,7 @@ all
 -
 controls
 "
-false
+true
 )
 ;
 #
