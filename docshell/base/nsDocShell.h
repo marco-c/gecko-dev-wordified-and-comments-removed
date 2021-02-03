@@ -3078,6 +3078,14 @@ aCacheKey
 )
 ;
 nsresult
+CheckDisallowedJavascriptLoad
+(
+nsDocShellLoadState
+*
+aLoadState
+)
+;
+nsresult
 LoadURI
 (
 nsDocShellLoadState
