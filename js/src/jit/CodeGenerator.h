@@ -1415,6 +1415,8 @@ snapshot
 void
 emitAssertRangeI
 (
+MIRType
+type
 const
 Range
 *

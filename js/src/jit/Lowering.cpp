@@ -30963,6 +30963,12 @@ MIRType
 :
 Int32
 :
+case
+MIRType
+:
+:
+IntPtr
+:
 lir
 =
 new
