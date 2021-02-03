@@ -285,9 +285,9 @@ v_gradient_repeat
 float
 (
 extend_mode
-!
 =
-EXTEND_MODE_CLAMP
+=
+EXTEND_MODE_REPEAT
 )
 ;
 #
