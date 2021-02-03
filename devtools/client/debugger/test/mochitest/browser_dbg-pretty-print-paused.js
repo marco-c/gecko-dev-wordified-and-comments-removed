@@ -159,11 +159,10 @@ formatted
 )
 ;
 await
-assertEditorBreakpoint
+assertBreakpoint
 (
 dbg
 18
-true
 )
 ;
 await
