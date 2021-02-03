@@ -546,6 +546,12 @@ features
 <
 <
 7
+showSponsoredTopSites
+:
+1
+<
+<
+8
 }
 ;
 const
