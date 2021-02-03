@@ -6286,7 +6286,6 @@ nsIFrame
 *
 aFrame
 )
-const
 {
 nsRect
 unionRect
@@ -6535,6 +6534,9 @@ editingHostFrame
 nsRect
 boundary
 =
+AccessibleCaretManager
+:
+:
 GetAllChildFrameRectsUnion
 (
 editingHostFrame

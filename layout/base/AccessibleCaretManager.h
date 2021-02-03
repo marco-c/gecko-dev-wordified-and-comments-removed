@@ -640,6 +640,7 @@ StringifiedSelection
 )
 const
 ;
+static
 nsRect
 GetAllChildFrameRectsUnion
 (
@@ -647,7 +648,6 @@ nsIFrame
 *
 aFrame
 )
-const
 ;
 bool
 RestrictCaretDraggingOffsets
