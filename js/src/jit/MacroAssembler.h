@@ -13357,6 +13357,16 @@ BytecodeOffset
 bytecodeOffset
 )
 ;
+#
+ifdef
+ENABLE_WASM_EXCEPTIONS
+size_t
+wasmStartTry
+(
+)
+;
+#
+endif
 std
 :
 :
