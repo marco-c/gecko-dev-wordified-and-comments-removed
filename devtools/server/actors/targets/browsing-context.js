@@ -4114,7 +4114,7 @@ _setPrintSimulationEnabled
 enabled
 )
 {
-let
+const
 value
 =
 enabled
@@ -4153,7 +4153,7 @@ _setColorSchemeSimulation
 override
 )
 {
-let
+const
 value
 =
 override
