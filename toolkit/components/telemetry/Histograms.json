@@ -123369,7 +123369,7 @@ alert_emails
 :
 [
 "
-jya
+alwu
 mozilla
 .
 com
@@ -123386,7 +123386,7 @@ expires_in_version
 "
 :
 "
-88
+100
 "
 "
 description
@@ -123487,6 +123487,7 @@ bug_numbers
 1294349
 1570634
 1606206
+1689267
 ]
 }
 "
@@ -123518,7 +123519,7 @@ alert_emails
 :
 [
 "
-jya
+alwu
 mozilla
 .
 com
@@ -123535,7 +123536,7 @@ expires_in_version
 "
 :
 "
-88
+100
 "
 "
 bug_numbers
@@ -123545,6 +123546,7 @@ bug_numbers
 1230265
 1570634
 1606206
+1689267
 ]
 "
 kind
@@ -133539,7 +133541,7 @@ expires_in_version
 "
 :
 "
-88
+100
 "
 "
 kind
@@ -133561,6 +133563,7 @@ bug_numbers
 1280644
 1570634
 1606206
+1689267
 ]
 "
 description
@@ -148385,7 +148388,7 @@ expires_in_version
 "
 :
 "
-88
+100
 "
 "
 kind
@@ -148416,6 +148419,7 @@ bug_numbers
 [
 1567302
 1606206
+1689267
 ]
 "
 description
