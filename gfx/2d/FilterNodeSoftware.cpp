@@ -6054,7 +6054,7 @@ CreateDrawTargetForData
 BackendType
 :
 :
-CAIRO
+SKIA
 targetMap
 .
 GetData
@@ -6783,7 +6783,7 @@ CreateDrawTargetForData
 BackendType
 :
 :
-CAIRO
+SKIA
 mapping
 .
 mData
