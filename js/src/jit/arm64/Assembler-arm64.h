@@ -2564,6 +2564,13 @@ WasmJitEntryReturnScratch
 r9
 ;
 static
+constexpr
+Register
+WasmExceptionReg
+=
+ABINonArgReg2
+;
+static
 inline
 bool
 GetIntArgReg

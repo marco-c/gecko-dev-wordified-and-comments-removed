@@ -295,6 +295,13 @@ t1
 static
 constexpr
 Register
+WasmExceptionReg
+=
+ABINonArgReg0
+;
+static
+constexpr
+Register
 InterpreterPCReg
 =
 t5

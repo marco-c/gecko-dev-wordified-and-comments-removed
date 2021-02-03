@@ -733,6 +733,17 @@ invalid_reg
 ;
 static
 constexpr
+Register
+WasmExceptionReg
+{
+Registers
+:
+:
+invalid_reg
+}
+;
+static
+constexpr
 uint32_t
 ABIStackAlignment
 =

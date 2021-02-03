@@ -1338,6 +1338,13 @@ rbx
 static
 constexpr
 Register
+WasmExceptionReg
+=
+ABINonArgReg0
+;
+static
+constexpr
+Register
 OsrFrameReg
 =
 IntArgReg3
