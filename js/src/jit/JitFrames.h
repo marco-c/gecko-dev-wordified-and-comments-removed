@@ -390,6 +390,13 @@ RESUME_WASM
 =
 5
 ;
+static
+const
+uint32_t
+RESUME_WASM_CATCH
+=
+6
+;
 uint8_t
 *
 framePointer
