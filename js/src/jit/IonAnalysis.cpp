@@ -20369,17 +20369,6 @@ true
 ;
 if
 (
-JitOptions
-.
-scalarReplaceArguments
-)
-{
-return
-true
-;
-}
-if
-(
 scriptArg
 -
 >
