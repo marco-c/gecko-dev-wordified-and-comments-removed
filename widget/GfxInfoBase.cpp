@@ -5152,7 +5152,7 @@ ANDROID
 |
 defined
 (
-MOZ_X11
+MOZ_WIDGET_GTK
 )
 uint64_t
 driverVersion
@@ -5668,7 +5668,7 @@ ANDROID
 |
 defined
 (
-MOZ_X11
+MOZ_WIDGET_GTK
 )
 switch
 (

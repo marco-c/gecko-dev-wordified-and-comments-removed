@@ -1766,7 +1766,7 @@ XP_WIN
 |
 defined
 (
-MOZ_X11
+MOZ_WIDGET_GTK
 )
 int
 a
