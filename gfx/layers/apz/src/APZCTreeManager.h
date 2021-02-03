@@ -1193,6 +1193,16 @@ HitTestingTreeNode
 aNode
 )
 ;
+AsyncPanZoomController
+*
+FindHandoffParent
+(
+const
+AsyncPanZoomController
+*
+aApzc
+)
+;
 HitTestResult
 GetAPZCAtPoint
 (
