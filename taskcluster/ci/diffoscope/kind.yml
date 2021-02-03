@@ -663,6 +663,9 @@ linux32
 symbol
 :
 Linux32
+tier
+:
+3
 new
 :
 build
@@ -786,6 +789,9 @@ linux64
 symbol
 :
 Linux64
+tier
+:
+3
 new
 :
 build
