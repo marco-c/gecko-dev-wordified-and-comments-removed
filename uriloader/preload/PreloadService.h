@@ -379,6 +379,8 @@ const
 nsAString
 &
 aReferrerPolicy
+bool
+aFromHeader
 )
 ;
 private

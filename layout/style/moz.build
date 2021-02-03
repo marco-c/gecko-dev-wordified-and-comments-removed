@@ -804,6 +804,11 @@ StreamLoader
 .
 h
 "
+"
+StylePreloadKind
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
