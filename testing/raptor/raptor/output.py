@@ -148,12 +148,6 @@ subtest_alert_on
         
 self
 .
-mozproxy_data
-=
-False
-        
-self
-.
 browser_name
 =
 None
@@ -544,39 +538,6 @@ data
 "
 %
 data_type
-)
-            
-if
-"
-mozproxy
-"
-in
-data_type
-:
-                
-self
-.
-mozproxy_data
-=
-True
-                
-LOG
-.
-info
-(
-"
-data
-:
-{
-}
-"
-.
-format
-(
-self
-.
-supporting_data
-)
 )
             
 if
@@ -1695,10 +1656,6 @@ summarized_supporting_data
 =
 =
 0
-or
-self
-.
-mozproxy_data
 :
                 
 LOG
