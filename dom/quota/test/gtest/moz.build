@@ -12,11 +12,6 @@ TestEncryptedStream
 cpp
 "
 "
-TestFlatten
-.
-cpp
-"
-"
 TestQuotaCommon
 .
 cpp
