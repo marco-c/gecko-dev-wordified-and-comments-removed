@@ -3144,6 +3144,14 @@ button
 .
 clickToPlay
 {
+appearance
+:
+none
+;
+border
+:
+none
+;
 min
 -
 width
