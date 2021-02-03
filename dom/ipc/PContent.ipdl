@@ -4799,6 +4799,8 @@ RemoveFromSessionHistory
 (
 MaybeDiscardedBrowsingContext
 aContext
+nsID
+changeID
 )
 ;
 both
