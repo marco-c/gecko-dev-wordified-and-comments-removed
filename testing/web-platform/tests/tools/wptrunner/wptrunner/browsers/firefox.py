@@ -713,6 +713,25 @@ kwargs
 preload_browser
 "
 ]
+and
+not
+kwargs
+[
+"
+pause_after_test
+"
+]
+and
+not
+kwargs
+[
+"
+num_test_groups
+"
+]
+=
+=
+1
             
 "
 specialpowers_path

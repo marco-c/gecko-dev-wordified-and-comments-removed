@@ -1926,6 +1926,13 @@ test_environment
 .
 config
                                                                 
+num_test_groups
+=
+len
+(
+test_groups
+)
+                                                                
 *
 *
 kwargs
