@@ -11589,6 +11589,11 @@ MozStyleeditorTransitioning
 NonTSPseudoClass
 :
 :
+MozFocusRing
+|
+NonTSPseudoClass
+:
+:
 MozMathIncrementScriptLevel
 |
 NonTSPseudoClass
