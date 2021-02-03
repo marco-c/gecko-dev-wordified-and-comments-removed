@@ -292,8 +292,6 @@ const
 EventStates
 &
 aDocumentState
-bool
-aIsRoot
 )
 override
 ;

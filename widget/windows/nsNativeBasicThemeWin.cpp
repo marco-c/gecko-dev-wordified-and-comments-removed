@@ -1607,8 +1607,6 @@ const
 EventStates
 &
 aDocumentState
-bool
-aIsRoot
 )
 {
 if

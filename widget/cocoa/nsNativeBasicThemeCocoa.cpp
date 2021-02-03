@@ -373,8 +373,6 @@ EventStates
 aDocumentState
 DPIRatio
 aDpiRatio
-bool
-aIsRoot
 )
 {
 ScrollbarParams
@@ -514,8 +512,6 @@ EventStates
 aDocumentState
 DPIRatio
 aDpiRatio
-bool
-aIsRoot
 )
 {
 }
@@ -545,8 +541,6 @@ EventStates
 aDocumentState
 DPIRatio
 aDpiRatio
-bool
-aIsRoot
 )
 {
 ScrollbarParams
