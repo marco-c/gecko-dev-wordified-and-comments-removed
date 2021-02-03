@@ -439,8 +439,6 @@ python
 .
 org
 /
-2
-/
 library
 /
 fnmatch

@@ -1079,14 +1079,6 @@ requires
 you
 to
 have
-Python
-2
-.
-7
-.
-10
-+
-and
 OpenSSL
 1
 .

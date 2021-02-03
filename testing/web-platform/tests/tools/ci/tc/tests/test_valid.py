@@ -1317,16 +1317,6 @@ tools
 unittests
 (
 Python
-2
-)
-'
-      
-'
-tools
-/
-unittests
-(
-Python
 3
 .
 6
@@ -1342,17 +1332,6 @@ Python
 3
 .
 8
-)
-'
-      
-'
-tools
-/
-integration
-tests
-(
-Python
-2
 )
 '
       
@@ -1379,16 +1358,6 @@ Python
 3
 .
 8
-)
-'
-      
-'
-resources
-/
-tests
-(
-Python
-2
 )
 '
       
@@ -1422,12 +1391,6 @@ download
 firefox
 -
 nightly
-'
-      
-'
-infrastructure
-/
-tests
 '
       
 '
