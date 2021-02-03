@@ -391,7 +391,7 @@ OpenDirectoryListener
 aOpenListener
 )
 ;
-already_AddRefed
+RefPtr
 <
 DirectoryLock
 >
@@ -1103,7 +1103,7 @@ bool
 aPersistent
 )
 ;
-already_AddRefed
+RefPtr
 <
 DirectoryLock
 >
@@ -1124,7 +1124,7 @@ bool
 aExclusive
 )
 ;
-already_AddRefed
+RefPtr
 <
 DirectoryLock
 >
@@ -1768,7 +1768,7 @@ Shutdown
 (
 )
 ;
-already_AddRefed
+RefPtr
 <
 DirectoryLockImpl
 >
@@ -1805,7 +1805,7 @@ bool
 aInternal
 )
 ;
-already_AddRefed
+RefPtr
 <
 DirectoryLockImpl
 >
