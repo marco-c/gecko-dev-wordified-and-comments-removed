@@ -13340,6 +13340,13 @@ output
 settings
 .
 output
+&
+&
+'
+document
+'
+in
+global_scope
 ;
 this
 .
