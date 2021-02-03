@@ -8,6 +8,7 @@ response
     
 output
 =
+b
 "
 HTTP
 /
@@ -25,6 +26,7 @@ GET
 .
 first
 (
+b
 "
 input
 "
@@ -33,21 +35,15 @@ input
 output
 +
 =
+b
 "
 \
-n
-"
-+
-"
-header
+nheader
 -
 parsing
 :
 is
 sad
-"
-+
-"
 \
 n
 "
