@@ -133,6 +133,7 @@ TextInputProcessor
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSITEXTINPUTPROCESSOR
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 NotifyIME
 (
@@ -220,6 +221,7 @@ bool
 aSucceeded
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 Keydown
 (
@@ -318,6 +320,7 @@ bool
 aSucceeded
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 CommitCompositionInternal
 (
@@ -344,6 +347,7 @@ aSucceeded
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 CancelCompositionInternal
 (
@@ -359,6 +363,7 @@ aKeyFlags
 0
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 KeydownInternal
 (
@@ -409,6 +414,7 @@ uint32_t
 aKeyFlags
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InitEditCommands
 (
@@ -480,6 +486,7 @@ true
 }
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 EventDispatcherResult
 MaybeDispatchKeydownForComposition
 (

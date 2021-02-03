@@ -1420,9 +1420,12 @@ textInputProcessor
 event
 .
 mModifiers
+MOZ_KnownLive
+(
 event
 .
 mWidget
+)
 aRv
 )
 ;
@@ -1497,9 +1500,12 @@ InactivateModifiers
 (
 textInputProcessor
 activatedModifiers
+MOZ_KnownLive
+(
 event
 .
 mWidget
+)
 aRv
 )
 ;

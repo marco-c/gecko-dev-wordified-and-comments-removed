@@ -2300,6 +2300,7 @@ GetLayoutDeviceToCSSScale
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -2581,6 +2582,7 @@ WidgetWheelEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 SendRealKeyEvent
 (

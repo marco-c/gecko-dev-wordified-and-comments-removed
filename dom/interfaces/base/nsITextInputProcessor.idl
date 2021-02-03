@@ -3049,6 +3049,7 @@ application
 *
 /
 [
+can_run_script
 optional_argc
 ]
 boolean
@@ -3771,6 +3772,7 @@ false
 *
 /
 [
+can_run_script
 optional_argc
 ]
 boolean
@@ -3900,6 +3902,7 @@ constants
 *
 /
 [
+can_run_script
 optional_argc
 ]
 void
@@ -4085,6 +4088,7 @@ false
 *
 /
 [
+can_run_script
 optional_argc
 ]
 boolean
@@ -4262,6 +4266,7 @@ constants
 *
 /
 [
+can_run_script
 optional_argc
 ]
 void
@@ -5271,6 +5276,7 @@ taken
 *
 /
 [
+can_run_script
 optional_argc
 ]
 unsigned

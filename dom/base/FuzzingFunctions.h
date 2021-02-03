@@ -88,6 +88,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 void
 SynthesizeKeyboardEvents
@@ -111,6 +112,7 @@ aRv
 ;
 private
 :
+MOZ_CAN_RUN_SCRIPT
 static
 Modifiers
 ActivateModifiers
@@ -128,6 +130,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 Modifiers
 InactivateModifiers
