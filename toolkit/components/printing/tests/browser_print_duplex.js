@@ -114,7 +114,7 @@ Ci
 .
 nsIPrintSettings
 .
-kSimplex
+kDuplexNone
 }
 )
 ;
@@ -288,7 +288,7 @@ Ci
 .
 nsIPrintSettings
 .
-kSimplex
+kDuplexNone
 }
 )
 ;
@@ -327,7 +327,7 @@ Ci
 .
 nsIPrintSettings
 .
-kDuplexHorizontal
+kDuplexFlipOnSideEdge
 }
 )
 ;
@@ -366,7 +366,7 @@ Ci
 .
 nsIPrintSettings
 .
-kSimplex
+kDuplexNone
 }
 )
 ;
@@ -541,7 +541,7 @@ Ci
 .
 nsIPrintSettings
 .
-kSimplex
+kDuplexNone
 }
 )
 ;
@@ -583,7 +583,7 @@ Ci
 .
 nsIPrintSettings
 .
-kSimplex
+kDuplexNone
 }
 )
 ;
@@ -623,7 +623,7 @@ Ci
 .
 nsIPrintSettings
 .
-kDuplexHorizontal
+kDuplexFlipOnSideEdge
 }
 )
 ;
@@ -663,7 +663,7 @@ Ci
 .
 nsIPrintSettings
 .
-kSimplex
+kDuplexNone
 }
 )
 ;
@@ -838,7 +838,7 @@ Ci
 .
 nsIPrintSettings
 .
-kSimplex
+kDuplexNone
 }
 )
 ;
@@ -878,7 +878,7 @@ Ci
 .
 nsIPrintSettings
 .
-kDuplexHorizontal
+kDuplexFlipOnSideEdge
 }
 )
 ;
@@ -920,7 +920,7 @@ Ci
 .
 nsIPrintSettings
 .
-kDuplexHorizontal
+kDuplexFlipOnSideEdge
 }
 )
 ;
@@ -962,7 +962,7 @@ Ci
 .
 nsIPrintSettings
 .
-kDuplexHorizontal
+kDuplexFlipOnSideEdge
 }
 )
 ;
