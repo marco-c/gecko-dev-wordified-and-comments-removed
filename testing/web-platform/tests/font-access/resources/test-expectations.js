@@ -1221,7 +1221,7 @@ async
 function
 filterEnumeration
 (
-iterator
+fonts
 expectedFonts
 )
 {
@@ -1258,12 +1258,11 @@ output
 ]
 ;
 for
-await
 (
 const
 f
 of
-iterator
+fonts
 )
 {
 if
