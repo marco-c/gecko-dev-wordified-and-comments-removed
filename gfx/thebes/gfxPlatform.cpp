@@ -17215,6 +17215,14 @@ gfx_webrender_fallback_software_d3d11_AtStartup
 )
 &
 &
+StaticPrefs
+:
+:
+gfx_webrender_software_d3d11_AtStartup
+(
+)
+&
+&
 gfxConfig
 :
 :
