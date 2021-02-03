@@ -410,6 +410,11 @@ NonBlockingAsyncInputStream
 h
 "
 "
+SeekableStreamWrapper
+.
+h
+"
+"
 SlicedInputStream
 .
 h
@@ -566,6 +571,11 @@ cpp
 "
 "
 nsWildCard
+.
+cpp
+"
+"
+SeekableStreamWrapper
 .
 cpp
 "
