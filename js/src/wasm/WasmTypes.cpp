@@ -22,6 +22,15 @@ h
 #
 include
 "
+jit
+/
+JitFrames
+.
+h
+"
+#
+include
+"
 js
 /
 friend

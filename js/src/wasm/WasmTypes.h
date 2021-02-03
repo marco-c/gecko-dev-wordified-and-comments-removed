@@ -14612,6 +14612,17 @@ StructNarrow
 if
 defined
 (
+ENABLE_WASM_EXCEPTIONS
+)
+ExceptionNew
+ThrowException
+GetLocalExceptionIndex
+#
+endif
+#
+if
+defined
+(
 JS_CODEGEN_MIPS32
 )
 js_jit_gAtomic64Lock
