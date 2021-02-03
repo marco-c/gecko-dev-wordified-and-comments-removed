@@ -1353,11 +1353,6 @@ nullptr
 nullptr
 )
 ;
-MOZ_ASSERT
-(
-scrollAncestor
-)
-;
 if
 (
 !
