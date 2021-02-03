@@ -15113,10 +15113,6 @@ MIRType
 Object
 )
 ;
-setGuard
-(
-)
-;
 }
 public
 :
