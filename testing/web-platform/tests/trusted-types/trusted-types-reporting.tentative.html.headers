@@ -46,12 +46,12 @@ Security
 -
 Policy
 :
-plugin
+object
 -
-types
-bla
-/
-blubb
+src
+'
+none
+'
 Content
 -
 Security
