@@ -863,6 +863,9 @@ JSProto_WasmGlobal
 case
 JSProto_WasmException
 :
+case
+JSProto_WasmRuntimeException
+:
 return
 false
 ;
