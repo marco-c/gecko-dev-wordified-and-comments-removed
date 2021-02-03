@@ -143,11 +143,6 @@ char
 aName
 )
 ;
-uint32_t
-GetHighestNumberOfThreads
-(
-)
-;
 ~
 nsThreadManager
 (

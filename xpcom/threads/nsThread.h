@@ -787,12 +787,6 @@ Enumerate
 (
 )
 ;
-static
-uint32_t
-MaxActiveThreads
-(
-)
-;
 nsLocalExecutionRecord
 EnterLocalExecution
 (
@@ -926,14 +920,6 @@ void
 ClearThreadList
 (
 )
-;
-static
-uint32_t
-sActiveThreads
-;
-static
-uint32_t
-sMaxActiveThreads
 ;
 void
 AddToThreadList
