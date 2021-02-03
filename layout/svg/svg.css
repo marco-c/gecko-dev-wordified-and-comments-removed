@@ -339,17 +339,6 @@ opacity
 inherit
 ;
 }
-:
-focus
--
-visible
-{
-outline
-:
-1px
-dotted
-;
-}
 circle
 ellipse
 line
