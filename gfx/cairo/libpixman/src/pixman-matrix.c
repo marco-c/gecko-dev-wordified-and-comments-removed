@@ -54,7 +54,7 @@ x
 {
 #
 ifdef
-__GNUC__
+HAVE_BUILTIN_CLZ
 return
 __builtin_clz
 (
@@ -1377,6 +1377,9 @@ int64_t
 div
 =
 (
+(
+uint64_t
+)
 divint
 <
 <
