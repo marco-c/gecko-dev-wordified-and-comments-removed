@@ -592,17 +592,6 @@ Refused0RTT
 nodiscard
 ]
 ]
-bool
-CanDo0RTT
-(
-)
-override
-;
-[
-[
-nodiscard
-]
-]
 nsresult
 RestartOnFastOpenError
 (
