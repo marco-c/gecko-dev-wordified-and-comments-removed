@@ -16077,12 +16077,6 @@ identifiers
 =
 >
 {
-if
-!
-state
-.
-output_cxx
-{
 show_type_qualifier
 (
 state
@@ -16159,7 +16153,6 @@ n
 "
 )
 ;
-}
 }
 hir
 :

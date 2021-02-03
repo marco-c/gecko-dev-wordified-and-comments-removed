@@ -1005,11 +1005,6 @@ DUAL_SOURCE_BLENDING
 ShaderFeatureFlags
 :
 :
-ADVANCED_BLEND_EQUATION
-|
-ShaderFeatureFlags
-:
-:
 DEBUG
 ;
 let

@@ -8207,9 +8207,6 @@ software
 &
 !
 allow_scissored_cache_clears
-allow_advanced_blend_equation
-:
-software
 start_debug_server
 surface_origin_is_top_left
 compositor_config
