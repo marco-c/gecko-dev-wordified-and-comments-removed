@@ -597,17 +597,6 @@ is
 None
 :
             
-if
-os
-.
-name
-!
-=
-"
-nt
-"
-:
-                
 self
 .
 options
@@ -618,24 +607,6 @@ moznetwork
 .
 get_ip
 (
-)
-            
-else
-:
-                
-raise
-UserError
-(
-"
--
--
-remote
--
-webserver
-must
-be
-specified
-"
 )
         
 self
