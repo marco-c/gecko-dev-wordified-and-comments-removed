@@ -174,7 +174,8 @@ aExecutor
 PreloadImage
 (
 mUrlOrSizes
-mCrossOriginOrMedia
+mCrossOrigin
+mMedia
 mCharsetOrSrcset
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mReferrerPolicyOrIntegrity
@@ -218,7 +219,7 @@ PreloadPictureSource
 mCharsetOrSrcset
 mUrlOrSizes
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
-mCrossOriginOrMedia
+mMedia
 )
 ;
 break
@@ -234,7 +235,8 @@ PreloadScript
 mUrlOrSizes
 mCharsetOrSrcset
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
-mCrossOriginOrMedia
+mCrossOrigin
+mMedia
 mReferrerPolicyOrIntegrity
 mScriptReferrerPolicy
 false
@@ -257,7 +259,8 @@ PreloadScript
 mUrlOrSizes
 mCharsetOrSrcset
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
-mCrossOriginOrMedia
+mCrossOrigin
+mMedia
 mReferrerPolicyOrIntegrity
 mScriptReferrerPolicy
 true
@@ -280,7 +283,8 @@ PreloadScript
 mUrlOrSizes
 mCharsetOrSrcset
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
-mCrossOriginOrMedia
+mCrossOrigin
+mMedia
 mReferrerPolicyOrIntegrity
 mScriptReferrerPolicy
 false
@@ -303,7 +307,8 @@ PreloadScript
 mUrlOrSizes
 mCharsetOrSrcset
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
-mCrossOriginOrMedia
+mCrossOrigin
+mMedia
 mReferrerPolicyOrIntegrity
 mScriptReferrerPolicy
 true
@@ -325,7 +330,8 @@ PreloadStyle
 (
 mUrlOrSizes
 mCharsetOrSrcset
-mCrossOriginOrMedia
+mCrossOrigin
+mMedia
 mReferrerPolicyOrIntegrity
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mIsLinkPreload
@@ -449,7 +455,7 @@ aExecutor
 Preconnect
 (
 mUrlOrSizes
-mCrossOriginOrMedia
+mCrossOrigin
 )
 ;
 break
@@ -463,7 +469,8 @@ aExecutor
 PreloadFont
 (
 mUrlOrSizes
-mCrossOriginOrMedia
+mCrossOrigin
+mMedia
 mReferrerPolicyOrIntegrity
 )
 ;
@@ -478,7 +485,8 @@ aExecutor
 PreloadFetch
 (
 mUrlOrSizes
-mCrossOriginOrMedia
+mCrossOrigin
+mMedia
 mReferrerPolicyOrIntegrity
 )
 ;

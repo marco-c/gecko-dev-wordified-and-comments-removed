@@ -949,6 +949,7 @@ InitImage
 (
 url
 crossOrigin
+nullptr
 referrerPolicy
 srcset
 sizes
@@ -1261,6 +1262,7 @@ url
 charset
 type
 crossOrigin
+nullptr
 integrity
 referrerPolicy
 mode
@@ -1403,6 +1405,20 @@ nsHtml5AttributeName
 ATTR_REFERRERPOLICY
 )
 ;
+nsHtml5String
+media
+=
+aAttributes
+-
+>
+getValue
+(
+nsHtml5AttributeName
+:
+:
+ATTR_MEDIA
+)
+;
 mSpeculativeLoadQueue
 .
 AppendElement
@@ -1415,6 +1431,7 @@ InitStyle
 url
 charset
 crossOrigin
+media
 referrerPolicy
 integrity
 false
@@ -1593,6 +1610,20 @@ nsHtml5AttributeName
 ATTR_REFERRERPOLICY
 )
 ;
+nsHtml5String
+media
+=
+aAttributes
+-
+>
+getValue
+(
+nsHtml5AttributeName
+:
+:
+ATTR_MEDIA
+)
+;
 if
 (
 as
@@ -1632,6 +1663,7 @@ url
 charset
 type
 crossOrigin
+media
 integrity
 referrerPolicy
 mode
@@ -1673,6 +1705,7 @@ InitStyle
 url
 charset
 crossOrigin
+media
 referrerPolicy
 integrity
 true
@@ -1731,6 +1764,7 @@ InitImage
 (
 url
 crossOrigin
+media
 referrerPolicy
 srcset
 sizes
@@ -1762,6 +1796,7 @@ InitFont
 (
 url
 crossOrigin
+media
 referrerPolicy
 )
 ;
@@ -1790,6 +1825,7 @@ InitFetch
 (
 url
 crossOrigin
+media
 referrerPolicy
 )
 ;
@@ -1839,6 +1875,7 @@ AppendElement
 InitImage
 (
 url
+nullptr
 nullptr
 nullptr
 nullptr
@@ -2208,6 +2245,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 false
 )
 ;
@@ -2391,6 +2429,7 @@ url
 nullptr
 type
 crossOrigin
+nullptr
 integrity
 referrerPolicy
 mode
