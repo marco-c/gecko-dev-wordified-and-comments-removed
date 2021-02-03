@@ -6867,6 +6867,18 @@ reftest_screenshot
 "
 unexpected
 "
+if
+not
+kwargs
+[
+"
+debug_test
+"
+]
+else
+"
+always
+"
     
 if
 kwargs
