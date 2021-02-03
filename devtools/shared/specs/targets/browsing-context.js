@@ -204,6 +204,13 @@ nullable
 :
 boolean
 "
+colorSchemeSimulation
+:
+"
+nullable
+:
+string
+"
 serviceWorkersTestingEnabled
 :
 "
@@ -212,6 +219,13 @@ nullable
 boolean
 "
 performReload
+:
+"
+nullable
+:
+boolean
+"
+printSimulationEnabled
 :
 "
 nullable
