@@ -165,6 +165,13 @@ nsIAccessibleEvent
 EVENT_LIVE_REGION_REMOVED
 ;
 const
+EVENT_OBJECT_ATTRIBUTE_CHANGED
+=
+nsIAccessibleEvent
+.
+EVENT_OBJECT_ATTRIBUTE_CHANGED
+;
+const
 EventsLogger
 =
 {
