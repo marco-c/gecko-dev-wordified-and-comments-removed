@@ -8,6 +8,13 @@ output
 output
 )
 d
+debug
+:
+%
+(
+debug
+)
+s
 }
 )
 ;

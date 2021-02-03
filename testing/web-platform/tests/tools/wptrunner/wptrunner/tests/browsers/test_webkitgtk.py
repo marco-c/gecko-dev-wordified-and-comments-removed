@@ -373,6 +373,15 @@ pause_on_unexpected
 =
 False
     
+kwargs
+[
+"
+debug_test
+"
+]
+=
+False
+    
 with
 ConfigBuilder
 (

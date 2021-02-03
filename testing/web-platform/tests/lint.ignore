@@ -1054,6 +1054,13 @@ chromium
 *
 CONSOLE
 :
+resources
+/
+testharness
+.
+js
+CONSOLE
+:
 streams
 /
 resources

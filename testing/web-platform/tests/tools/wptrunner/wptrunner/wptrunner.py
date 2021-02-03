@@ -892,6 +892,18 @@ headless
 return
 False
         
+if
+kwargs
+[
+"
+debug_test
+"
+]
+:
+            
+return
+True
+        
 tests
 =
 test_loader
@@ -1567,6 +1579,13 @@ kwargs
 [
 "
 pause_after_test
+"
+]
+                                 
+kwargs
+[
+"
+debug_test
 "
 ]
                                  
