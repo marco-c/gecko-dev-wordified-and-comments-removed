@@ -4842,10 +4842,6 @@ html
 ref
 .
 html
-asserts
-(
-4
-)
 =
 =
 243519
@@ -4860,9 +4856,6 @@ html
 ref
 .
 html
-#
-bug
-1655630
 =
 =
 243519
