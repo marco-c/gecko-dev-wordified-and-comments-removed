@@ -13619,6 +13619,15 @@ search
 checkWebExtensionEngines
 (
 )
+(
+)
+=
+>
+BrowserUsageTelemetry
+.
+reportInstallationTelemetry
+(
+)
 ]
 ;
 for
