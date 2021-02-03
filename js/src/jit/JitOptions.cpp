@@ -443,6 +443,12 @@ false
 ;
 SET_DEFAULT
 (
+scalarReplaceArguments
+false
+)
+;
+SET_DEFAULT
+(
 baselineInterpreter
 true
 )
