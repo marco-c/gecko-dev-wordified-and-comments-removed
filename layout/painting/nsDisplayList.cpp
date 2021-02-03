@@ -12986,6 +12986,16 @@ height
 )
 )
 ;
+rect
+-
+=
+view
+-
+>
+ViewToWidgetOffset
+(
+)
+;
 if
 (
 shouldInvalidate
