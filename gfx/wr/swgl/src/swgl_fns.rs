@@ -9455,11 +9455,6 @@ blend_barrier_khr
 self
 )
 {
-panic
-!
-(
-)
-;
 }
 fn
 copy_texture_chromium
