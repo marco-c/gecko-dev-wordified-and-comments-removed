@@ -4282,8 +4282,6 @@ RecvInternalLoad
 nsDocShellLoadState
 *
 aLoadState
-bool
-aTakeFocus
 )
 ;
 mozilla
