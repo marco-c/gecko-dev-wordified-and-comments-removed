@@ -7615,7 +7615,7 @@ double
 endAngle
 optional
 boolean
-anticlockwise
+counterclockwise
 =
 false
 )
@@ -7646,7 +7646,7 @@ double
 endAngle
 optional
 boolean
-anticlockwise
+counterclockwise
 =
 false
 )
