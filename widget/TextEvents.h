@@ -1234,9 +1234,6 @@ aType
 )
 ;
 }
-#
-ifdef
-DEBUG
 bool
 AreAllEditCommandsInitialized
 (
@@ -1253,8 +1250,6 @@ mEditCommandsForMultiLineEditorInitialized
 mEditCommandsForRichTextEditorInitialized
 ;
 }
-#
-endif
 typedef
 void
 (

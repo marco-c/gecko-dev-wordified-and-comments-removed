@@ -2647,6 +2647,16 @@ CommandInt
 aCommands
 )
 {
+MOZ_ASSERT
+(
+!
+aEvent
+.
+mFlags
+.
+mIsSynthesizedForTests
+)
+;
 if
 (
 NS_WARN_IF

@@ -409,6 +409,15 @@ uint32_t
 aKeyFlags
 )
 ;
+nsresult
+InitEditCommands
+(
+WidgetKeyboardEvent
+&
+aKeyboardEvent
+)
+const
+;
 bool
 IsValidEventTypeForComposition
 (
