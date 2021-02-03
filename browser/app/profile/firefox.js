@@ -10781,11 +10781,6 @@ fxa
 aboutwelcome
 \
 "
-\
-"
-infobar
-\
-"
 ]
 \
 "
