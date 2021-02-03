@@ -12720,6 +12720,13 @@ record
 .
 test
 =
+assert
+.
+test
+!
+=
+null
+?
 this
 .
 tests
@@ -12730,6 +12737,8 @@ test
 .
 index
 ]
+:
+null
 ;
 record
 .
