@@ -4545,6 +4545,12 @@ contentsGravity
 =
 kCAGravityTopLeft
 ;
+mWrappingCALayer
+.
+edgeAntialiasingMask
+=
+0
+;
 mContentCALayer
 =
 [
@@ -4594,6 +4600,12 @@ aSize
 .
 height
 )
+;
+mContentCALayer
+.
+edgeAntialiasingMask
+=
+0
 ;
 mContentCALayer
 .
