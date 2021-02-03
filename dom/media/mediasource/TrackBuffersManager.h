@@ -944,6 +944,16 @@ MediaByteBuffer
 >
 mInitData
 ;
+bool
+IsRepeatInitData
+(
+const
+MediaInfo
+&
+aNewMediaInfo
+)
+const
+;
 Maybe
 <
 MediaSpan
