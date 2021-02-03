@@ -17346,12 +17346,6 @@ mImageFlags
 (
 0
 )
-mOpacity
-(
-1
-.
-0f
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -20495,7 +20489,6 @@ CompositionOp
 :
 :
 OP_OVER
-mOpacity
 )
 ;
 params
@@ -20834,14 +20827,6 @@ if
 (
 !
 mBackgroundStyle
-|
-|
-mOpacity
-!
-=
-1
-.
-0f
 )
 {
 return
