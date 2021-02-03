@@ -103,6 +103,11 @@ TestLogCommandLineHandler
 cpp
 "
 "
+TestLogging
+.
+cpp
+"
+"
 TestMoveString
 .
 cpp
