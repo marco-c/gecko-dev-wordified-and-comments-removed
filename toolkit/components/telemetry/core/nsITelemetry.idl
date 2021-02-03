@@ -275,11 +275,6 @@ attribute
 jsval
 debugSlowSQL
 ;
-readonly
-attribute
-uint32_t
-maximalNumberOfConcurrentThreads
-;
 const
 unsigned
 long
