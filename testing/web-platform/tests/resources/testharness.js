@@ -5640,6 +5640,7 @@ args
 )
 ;
 }
+const
 rv
 =
 f
@@ -19053,6 +19054,7 @@ Error
 prototype
 )
 ;
+const
 get_stack
 =
 function
