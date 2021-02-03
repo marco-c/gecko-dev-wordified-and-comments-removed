@@ -240,7 +240,7 @@ onsourceended
 ;
 attribute
 EventHandler
-onsourceclosed
+onsourceclose
 ;
 [
 NewObject

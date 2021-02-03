@@ -376,7 +376,7 @@ sourceended
 ;
 IMPL_EVENT_HANDLER
 (
-sourceclosed
+sourceclose
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
