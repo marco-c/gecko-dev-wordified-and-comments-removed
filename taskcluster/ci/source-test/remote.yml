@@ -311,6 +311,9 @@ puppeteer
 -
 test
 -
+-
+ci
+-
 vv
 -
 -
@@ -430,6 +433,9 @@ mach
 puppeteer
 -
 test
+-
+-
+ci
 -
 vv
 -
