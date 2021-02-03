@@ -105,7 +105,7 @@ vprint
 const
 char
 *
-format
+fmt
 va_list
 )
 MOZ_FORMAT_PRINTF
@@ -280,7 +280,7 @@ flags
 const
 char
 *
-hxp
+hexp
 )
 ;
 bool
