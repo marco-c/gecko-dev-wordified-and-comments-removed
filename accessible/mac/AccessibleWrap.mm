@@ -1287,6 +1287,12 @@ nsIAccessibleEvent
 :
 EVENT_NAME_CHANGE
 :
+case
+nsIAccessibleEvent
+:
+:
+EVENT_OBJECT_ATTRIBUTE_CHANGED
+:
 [
 nativeAcc
 handleAccessibleEvent
