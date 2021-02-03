@@ -1488,6 +1488,9 @@ __init__
 self
 logger
 sauce_config
+*
+*
+kwargs
 )
 :
         

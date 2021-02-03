@@ -409,12 +409,16 @@ __init__
 self
 logger
 webdriver_binary
+            
 timeout_multiplier
 =
 None
 webdriver_args
 =
 None
+*
+*
+kwargs
 )
 :
         
