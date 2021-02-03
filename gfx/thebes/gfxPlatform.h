@@ -2013,7 +2013,7 @@ PerfWarnings
 ;
 static
 void
-DisableGPUProcess
+NotifyGPUProcessDisabled
 (
 )
 ;
@@ -2187,8 +2187,8 @@ WebRenderResourcePathOverride
 )
 ;
 static
-bool
-FallbackFromAcceleration
+void
+DisableWebRender
 (
 mozilla
 :
