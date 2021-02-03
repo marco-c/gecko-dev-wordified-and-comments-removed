@@ -8562,6 +8562,11 @@ writer
 getFlags
 (
 )
+writer
+.
+getPropertyCount
+(
+)
 )
 )
 {
