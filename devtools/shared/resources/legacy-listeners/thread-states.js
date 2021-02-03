@@ -188,7 +188,7 @@ ResourceWatcher
 .
 TYPES
 .
-BREAKPOINT
+THREAD_STATE
 state
 :
 "
@@ -249,7 +249,7 @@ ResourceWatcher
 .
 TYPES
 .
-BREAKPOINT
+THREAD_STATE
 state
 :
 "

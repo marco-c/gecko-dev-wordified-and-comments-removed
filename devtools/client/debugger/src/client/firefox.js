@@ -241,7 +241,7 @@ resourceWatcher
 .
 TYPES
 .
-BREAKPOINT
+THREAD_STATE
 ]
 {
 onAvailable
@@ -295,7 +295,7 @@ resourceWatcher
 .
 TYPES
 .
-BREAKPOINT
+THREAD_STATE
 ]
 {
 onAvailable

@@ -215,7 +215,7 @@ ResourceWatcher
 .
 TYPES
 .
-BREAKPOINT
+THREAD_STATE
 ]
 {
 onAvailable
@@ -244,7 +244,9 @@ length
 "
 Got
 the
-breakpoint
+THREAD_STATE
+'
+s
 related
 to
 the
@@ -254,7 +256,7 @@ statement
 )
 ;
 const
-breakpoint
+threadState
 =
 availableResources
 .
@@ -264,7 +266,7 @@ pop
 ;
 assertPausedResource
 (
-breakpoint
+threadState
 {
 state
 :
@@ -443,7 +445,7 @@ ResourceWatcher
 .
 TYPES
 .
-BREAKPOINT
+THREAD_STATE
 ]
 {
 onAvailable
@@ -472,7 +474,7 @@ length
 "
 Got
 no
-breakpoint
+THREAD_STATE
 when
 calling
 watchResources
@@ -533,7 +535,7 @@ length
 "
 Got
 the
-breakpoint
+THREAD_STATE
 related
 to
 the
@@ -543,7 +545,7 @@ statement
 )
 ;
 const
-breakpoint
+threadState
 =
 availableResources
 .
@@ -553,7 +555,7 @@ pop
 ;
 assertPausedResource
 (
-breakpoint
+threadState
 {
 state
 :
@@ -749,7 +751,7 @@ ResourceWatcher
 .
 TYPES
 .
-BREAKPOINT
+THREAD_STATE
 ]
 {
 onAvailable
@@ -778,7 +780,7 @@ length
 "
 Got
 no
-breakpoint
+THREAD_STATE
 when
 calling
 watchResources
@@ -875,7 +877,7 @@ length
 "
 Got
 the
-breakpoint
+THREAD_STATE
 related
 to
 the
@@ -885,7 +887,7 @@ statement
 )
 ;
 const
-breakpoint
+threadState
 =
 availableResources
 .
@@ -895,7 +897,7 @@ pop
 ;
 assertPausedResource
 (
-breakpoint
+threadState
 {
 state
 :
@@ -1103,7 +1105,7 @@ ResourceWatcher
 .
 TYPES
 .
-BREAKPOINT
+THREAD_STATE
 ]
 {
 onAvailable
@@ -1132,7 +1134,7 @@ length
 "
 Got
 no
-breakpoint
+THREAD_STATE
 when
 calling
 watchResources
@@ -1212,7 +1214,7 @@ length
 "
 Got
 the
-breakpoint
+THREAD_STATE
 related
 to
 the
@@ -1222,7 +1224,7 @@ statement
 )
 ;
 const
-breakpoint
+threadState
 =
 availableResources
 .
@@ -1232,7 +1234,7 @@ pop
 ;
 assertPausedResource
 (
-breakpoint
+threadState
 {
 state
 :
@@ -1380,7 +1382,7 @@ ResourceWatcher
 .
 TYPES
 .
-BREAKPOINT
+THREAD_STATE
 "
 Resource
 type
@@ -1588,7 +1590,7 @@ ResourceWatcher
 .
 TYPES
 .
-BREAKPOINT
+THREAD_STATE
 "
 Resource
 type
