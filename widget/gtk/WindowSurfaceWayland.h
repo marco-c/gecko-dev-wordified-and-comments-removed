@@ -220,17 +220,6 @@ mAttached
 ;
 }
 void
-SetAttached
-(
-)
-{
-mAttached
-=
-true
-;
-}
-;
-void
 Clear
 (
 )
