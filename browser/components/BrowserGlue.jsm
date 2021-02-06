@@ -13650,7 +13650,7 @@ Services
 .
 search
 .
-checkWebExtensionEngines
+runBackgroundChecks
 (
 )
 (
