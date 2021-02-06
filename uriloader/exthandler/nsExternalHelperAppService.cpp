@@ -6490,6 +6490,7 @@ break
 ;
 }
 }
+}
 if
 (
 !
@@ -6499,7 +6500,6 @@ canForce
 return
 false
 ;
-}
 }
 bool
 knownExtension
