@@ -1737,6 +1737,14 @@ Shutdown
 (
 )
 ;
+enum
+class
+ShouldUpdateLockIdTableFlag
+{
+No
+Yes
+}
+;
 RefPtr
 <
 DirectoryLockImpl
@@ -1772,6 +1780,8 @@ bool
 aExclusive
 bool
 aInternal
+ShouldUpdateLockIdTableFlag
+aShouldUpdateLockIdTableFlag
 )
 ;
 RefPtr
