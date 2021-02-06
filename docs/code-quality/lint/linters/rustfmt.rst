@@ -217,7 +217,7 @@ tools
 /
 lint
 /
-rustfmt
+rust
 /
 __init__
 .
