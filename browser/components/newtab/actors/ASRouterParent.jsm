@@ -312,7 +312,7 @@ embedderElement
 getAttribute
 (
 "
-preloaded
+preloadedState
 "
 )
 )
@@ -554,11 +554,6 @@ name
 =
 =
 BLOCK_MESSAGE_BY_ID
-&
-&
-data
-.
-preloadedOnly
 )
 {
 return
@@ -583,7 +578,7 @@ ASRouterParent
 .
 tabs
 .
-messagePreloaded
+messageAll
 (
 "
 ClearMessages
@@ -591,7 +586,7 @@ ClearMessages
 [
 data
 .
-id
+campaign
 ]
 )
 ]
@@ -600,10 +595,13 @@ id
 then
 (
 (
+[
+handleMessageResult
+]
 )
 =
 >
-false
+handleMessageResult
 )
 ;
 }
