@@ -1689,10 +1689,6 @@ RenderTaskKind
 :
 :
 Readback
-(
-.
-.
-)
 =
 >
 {
@@ -2235,10 +2231,6 @@ RenderTaskKind
 :
 :
 Readback
-(
-.
-.
-)
 |
 RenderTaskKind
 :
@@ -3417,10 +3409,6 @@ RenderTaskKind
 :
 :
 Readback
-(
-.
-.
-)
 |
 RenderTaskKind
 :
