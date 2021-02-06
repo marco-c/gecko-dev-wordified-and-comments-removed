@@ -214,9 +214,6 @@ ThreadId
 source
 :
 SourcePayload
-isServiceWorker
-:
-boolean
 id
 ?
 :

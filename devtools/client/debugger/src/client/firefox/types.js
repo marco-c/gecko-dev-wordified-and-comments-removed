@@ -520,9 +520,6 @@ URL
 isParentProcess
 :
 boolean
-isServiceWorker
-:
-boolean
 targetForm
 :
 Object

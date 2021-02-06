@@ -709,9 +709,6 @@ extensionName
 :
 null
 }
-isServiceWorker
-:
-false
 }
 ;
 }
