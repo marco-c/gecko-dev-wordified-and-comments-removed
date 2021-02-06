@@ -6886,7 +6886,7 @@ result
             
 self
 .
-parent
+protocol
 .
 base
 .
@@ -6894,7 +6894,7 @@ set_window
 (
 self
 .
-parent
+protocol
 .
 base
 .
