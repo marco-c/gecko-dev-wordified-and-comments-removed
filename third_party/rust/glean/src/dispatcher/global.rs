@@ -26,6 +26,7 @@ DispatchGuard
 Dispatcher
 }
 ;
+pub
 const
 GLOBAL_DISPATCHER_LIMIT
 :
@@ -228,8 +229,7 @@ flush_init
 >
 Result
 <
-(
-)
+usize
 DispatchError
 >
 {
