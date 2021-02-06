@@ -244,7 +244,7 @@ version
 let
 item
 =
-get_addon_element
+getAddonCard
 (
 gManagerWindow
 ID
@@ -417,7 +417,7 @@ add
 const
 item
 =
-get_addon_element
+getAddonCard
 (
 gManagerWindow
 addonId
@@ -468,7 +468,7 @@ remove
 const
 item
 =
-get_addon_element
+getAddonCard
 (
 gManagerWindow
 addonId
@@ -504,7 +504,7 @@ BrowserTestUtils
 .
 waitForEvent
 (
-get_addon_element
+getAddonCard
 (
 gManagerWindow
 addonId
@@ -889,7 +889,7 @@ disabled
 let
 item
 =
-get_addon_element
+getAddonCard
 (
 gManagerWindow
 ID
@@ -1117,7 +1117,7 @@ disabled
 let
 item
 =
-get_addon_element
+getAddonCard
 (
 gManagerWindow
 ID

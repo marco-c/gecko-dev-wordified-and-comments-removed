@@ -383,7 +383,7 @@ doc
 >
 {
 return
-get_addon_element
+getAddonCard
 (
 doc
 .
@@ -428,7 +428,7 @@ doc
 >
 {
 return
-get_addon_element
+getAddonCard
 (
 doc
 .

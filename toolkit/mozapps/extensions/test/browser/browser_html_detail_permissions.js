@@ -2454,7 +2454,7 @@ BrowserTestUtils
 .
 waitForEvent
 (
-get_addon_element
+getAddonCard
 (
 view
 addonId

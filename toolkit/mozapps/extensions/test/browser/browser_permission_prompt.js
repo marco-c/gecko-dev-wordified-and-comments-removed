@@ -432,7 +432,7 @@ theme
 let
 customTheme
 =
-get_addon_element
+getAddonCard
 (
 manager
 CUSTOM_THEME_ID
@@ -446,7 +446,7 @@ customTheme
 let
 defaultTheme
 =
-get_addon_element
+getAddonCard
 (
 manager
 DEFAULT_THEME_ID
@@ -658,7 +658,7 @@ extension
 let
 addon
 =
-get_addon_element
+getAddonCard
 (
 manager
 ADDON_ID
@@ -782,7 +782,7 @@ refused
 ;
 addon
 =
-get_addon_element
+getAddonCard
 (
 manager
 ADDON_ID
