@@ -41514,6 +41514,15 @@ nsGkAtoms
 :
 fieldset
 )
+&
+&
+!
+aParentFrame
+-
+>
+IsTableColGroupFrame
+(
+)
 )
 {
 DebugOnly
