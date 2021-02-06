@@ -557,9 +557,7 @@ length
 bool
 IsKeyword
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 atom
 )
 ;

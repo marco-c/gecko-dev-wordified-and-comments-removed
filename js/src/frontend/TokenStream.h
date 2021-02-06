@@ -331,9 +331,7 @@ extern
 TokenKind
 ReservedWordTokenKind
 (
-const
-ParserName
-*
+TaggedParserAtomIndex
 name
 )
 ;
@@ -343,9 +341,7 @@ char
 *
 ReservedWordToCharZ
 (
-const
-ParserName
-*
+TaggedParserAtomIndex
 name
 )
 ;
