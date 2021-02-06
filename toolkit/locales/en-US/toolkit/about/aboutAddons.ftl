@@ -55,17 +55,6 @@ MPL
 .
 addons
 -
-window
-=
-.
-title
-=
-Add
--
-ons
-Manager
-addons
--
 page
 -
 title
