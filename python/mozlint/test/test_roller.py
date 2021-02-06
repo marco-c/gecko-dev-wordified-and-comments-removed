@@ -20,6 +20,7 @@ mozlint
 errors
 import
 LintersNotConfigured
+NoValidLinter
 from
 mozlint
 .
@@ -2199,7 +2200,7 @@ pytest
 .
 raises
 (
-LintersNotConfigured
+NoValidLinter
 )
 :
         

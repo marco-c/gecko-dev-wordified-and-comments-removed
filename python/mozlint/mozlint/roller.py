@@ -75,6 +75,7 @@ from
 errors
 import
 LintersNotConfigured
+NoValidLinter
 from
 .
 parser
@@ -1091,7 +1092,7 @@ linters
 :
             
 raise
-LintersNotConfigured
+NoValidLinter
         
 for
 linter
