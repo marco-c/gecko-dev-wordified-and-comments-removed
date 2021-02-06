@@ -438,6 +438,17 @@ resource
 /
 specialpowers
 /
+AppTestDelegateChild
+.
+jsm
+"
+"
+resource
+:
+/
+/
+specialpowers
+/
 SpecialPowersChild
 .
 jsm
