@@ -653,7 +653,6 @@ Option
 bool
 >
 }
-;
 #
 [
 derive
@@ -682,7 +681,6 @@ Option
 bool
 >
 }
-;
 #
 [
 derive
@@ -710,7 +708,6 @@ Path
 Path
 )
 }
-;
 let
 params
 =
