@@ -1293,6 +1293,12 @@ nsIAccessibleEvent
 :
 EVENT_OBJECT_ATTRIBUTE_CHANGED
 :
+case
+nsIAccessibleEvent
+:
+:
+EVENT_TABLE_STYLING_CHANGED
+:
 [
 nativeAcc
 handleAccessibleEvent
