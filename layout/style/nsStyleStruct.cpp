@@ -10770,6 +10770,7 @@ nsStyleBackground
 :
 BackgroundColor
 (
+const
 ComputedStyle
 *
 aStyle
