@@ -297,7 +297,7 @@ this
 .
 connector
 .
-connectFirefox
+connect
 (
 connection
 this
@@ -701,7 +701,7 @@ this
 .
 harExportConnector
 .
-connectFirefox
+connect
 (
 connection
 )
