@@ -172,6 +172,13 @@ nsIAccessibleEvent
 EVENT_OBJECT_ATTRIBUTE_CHANGED
 ;
 const
+EVENT_TABLE_STYLING_CHANGED
+=
+nsIAccessibleEvent
+.
+EVENT_TABLE_STYLING_CHANGED
+;
+const
 EventsLogger
 =
 {

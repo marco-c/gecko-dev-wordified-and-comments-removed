@@ -690,9 +690,16 @@ EVENT_LIVE_REGION_REMOVED
 const
 unsigned
 long
-EVENT_LAST_ENTRY
+EVENT_TABLE_STYLING_CHANGED
 =
 0x005C
+;
+const
+unsigned
+long
+EVENT_LAST_ENTRY
+=
+0x005D
 ;
 readonly
 attribute
