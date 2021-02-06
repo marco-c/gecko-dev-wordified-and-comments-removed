@@ -396,12 +396,6 @@ array
 )
 override
 ;
-NS_IMETHOD
-RefreshMonitors
-(
-)
-override
-;
 #
 ifdef
 DEBUG

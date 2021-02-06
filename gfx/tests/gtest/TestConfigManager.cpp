@@ -338,17 +338,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHOD
-RefreshMonitors
-(
-void
-)
-override
-{
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-}
-NS_IMETHOD
 GetFailures
 (
 nsTArray

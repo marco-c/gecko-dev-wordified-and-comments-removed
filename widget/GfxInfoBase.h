@@ -208,12 +208,6 @@ _retval
 override
 ;
 NS_IMETHOD
-RefreshMonitors
-(
-)
-override
-;
-NS_IMETHOD
 GetFailures
 (
 nsTArray

@@ -519,11 +519,6 @@ getMonitors
 (
 )
 ;
-void
-refreshMonitors
-(
-)
-;
 Array
 <
 ACString
