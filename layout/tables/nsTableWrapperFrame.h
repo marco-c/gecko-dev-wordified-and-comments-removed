@@ -1017,7 +1017,7 @@ aAvailISize
 const
 ;
 void
-OuterDoReflowChild
+ReflowChild
 (
 nsPresContext
 *

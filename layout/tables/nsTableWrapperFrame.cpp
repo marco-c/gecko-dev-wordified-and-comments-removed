@@ -3415,7 +3415,7 @@ void
 nsTableWrapperFrame
 :
 :
-OuterDoReflowChild
+ReflowChild
 (
 nsPresContext
 *
@@ -3487,6 +3487,9 @@ ReflowChildFlags
 NoDeleteNextInFlowChild
 ;
 }
+nsContainerFrame
+:
+:
 ReflowChild
 (
 aChildFrame
@@ -4000,7 +4003,7 @@ wm
 nsReflowStatus
 capStatus
 ;
-OuterDoReflowChild
+ReflowChild
 (
 aPresContext
 mCaptionFrames
@@ -4289,7 +4292,7 @@ GetWritingMode
 )
 )
 ;
-OuterDoReflowChild
+ReflowChild
 (
 aPresContext
 InnerTableFrame
