@@ -240,6 +240,9 @@ menus
 overrideContext
 "
 "
+nativeMessaging
+"
+"
 search
 "
 "
