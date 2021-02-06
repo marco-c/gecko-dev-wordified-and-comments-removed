@@ -211,6 +211,10 @@ leak_checks
 =
 [
 ]
+gecko
+=
+[
+]
 [
 build
 -
