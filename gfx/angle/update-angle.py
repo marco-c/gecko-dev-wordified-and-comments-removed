@@ -1752,7 +1752,7 @@ re
 .
 compile
 (
-'
+"
 /
 /
 (
@@ -1764,7 +1764,7 @@ compile
 .
 +
 )
-'
+"
 )
 def
 export_target
@@ -2797,9 +2797,9 @@ dep_full_name
 .
 split
 (
-'
+"
 :
-'
+"
 )
         
 dep_libs
