@@ -5434,7 +5434,7 @@ if
 DisplayPortUtils
 :
 :
-HasDisplayPort
+HasNonMinimalDisplayPort
 (
 scrollableContent
 )

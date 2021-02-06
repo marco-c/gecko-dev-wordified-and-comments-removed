@@ -17951,7 +17951,7 @@ if
 DisplayPortUtils
 :
 :
-HasDisplayPort
+HasNonMinimalDisplayPort
 (
 element
 )

@@ -1912,7 +1912,7 @@ aBuilder
 scrollFrame
 -
 >
-IsScrollingActive
+IsScrollingActiveNotMinimalDisplayPort
 (
 aBuilder
 )

@@ -468,6 +468,15 @@ nullptr
 ;
 static
 bool
+HasNonMinimalDisplayPort
+(
+nsIContent
+*
+aContent
+)
+;
+static
+bool
 IsMissingDisplayPortBaseRect
 (
 nsIContent
