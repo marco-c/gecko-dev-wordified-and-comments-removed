@@ -691,7 +691,7 @@ querySelector
 #
 context
 -
-viewimageinfo
+copyimage
 "
 )
 ;
