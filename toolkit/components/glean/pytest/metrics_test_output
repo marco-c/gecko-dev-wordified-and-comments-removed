@@ -12,7 +12,7 @@ private
 *
 ;
 use
-glean_core
+glean
 :
 :
 CommonMetricData
@@ -1294,7 +1294,7 @@ private
 *
 ;
 use
-glean_core
+glean
 :
 :
 CommonMetricData

@@ -5,7 +5,7 @@ inherent
 inherent
 ;
 use
-glean_core
+glean
 :
 :
 traits

@@ -37,7 +37,7 @@ with_ipc_payload
 }
 ;
 use
-glean_core
+glean
 :
 :
 traits
@@ -47,7 +47,7 @@ Event
 ;
 pub
 use
-glean_core
+glean
 :
 :
 traits

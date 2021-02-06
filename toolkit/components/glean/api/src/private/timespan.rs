@@ -15,7 +15,7 @@ TimeUnit
 }
 ;
 use
-glean_core
+glean
 :
 :
 traits

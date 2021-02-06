@@ -189,7 +189,7 @@ pub
 )
 ]
 impl
-glean_core
+glean
 :
 :
 traits
@@ -222,7 +222,7 @@ p
 =
 >
 {
-glean_core
+glean
 :
 :
 traits
@@ -300,7 +300,7 @@ p
 )
 =
 >
-glean_core
+glean
 :
 :
 traits

@@ -38,7 +38,7 @@ TimeZone
 }
 ;
 use
-glean_core
+glean
 :
 :
 traits
@@ -458,10 +458,7 @@ value
 :
 Option
 <
-glean_core
-:
-:
-metrics
+glean
 :
 :
 Datetime
@@ -559,10 +556,7 @@ S
 >
 Option
 <
-glean_core
-:
-:
-metrics
+glean
 :
 :
 Datetime
