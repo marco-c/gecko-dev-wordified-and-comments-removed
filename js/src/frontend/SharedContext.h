@@ -1626,11 +1626,6 @@ isStandalone
 :
 1
 ;
-bool
-hasNonSyntacticEnclosingScopeForStandalone
-:
-1
-;
 FunctionBox
 (
 JSContext
