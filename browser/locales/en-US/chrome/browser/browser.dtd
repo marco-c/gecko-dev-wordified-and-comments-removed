@@ -172,17 +172,6 @@ Print
 <
 !
 ENTITY
-taskManagerCmd
-.
-label
-"
-Task
-Manager
-"
->
-<
-!
-ENTITY
 menubarCmd
 .
 label

@@ -742,6 +742,17 @@ appmenu
 -
 help
 -
+taskmanager
+=
+.
+label
+=
+Task
+Manager
+appmenu
+-
+help
+-
 feedback
 -
 page
