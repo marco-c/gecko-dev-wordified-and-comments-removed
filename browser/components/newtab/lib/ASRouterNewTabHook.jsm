@@ -239,6 +239,16 @@ destroy
 (
 )
 {
+if
+(
+this
+.
+_router
+?
+.
+initialized
+)
+{
 this
 .
 disconnect
@@ -253,6 +263,7 @@ uninit
 (
 )
 ;
+}
 }
 connect
 (
