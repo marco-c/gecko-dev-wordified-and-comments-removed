@@ -803,11 +803,13 @@ uint8_t
 GetCaptionSide
 (
 )
+const
 ;
 bool
 HasSideCaption
 (
 )
+const
 {
 uint8_t
 captionSide
