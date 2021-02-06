@@ -531,8 +531,6 @@ client
 /
 shared
 /
-save
--
 screenshot
 "
 "
