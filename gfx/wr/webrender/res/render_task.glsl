@@ -379,7 +379,7 @@ area
 if
 (
 index
-=
+>
 =
 CLIP_TASK_EMPTY
 )
