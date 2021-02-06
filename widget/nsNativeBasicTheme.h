@@ -1360,6 +1360,14 @@ Overlay
 )
 override
 ;
+static
+nscolor
+AdjustUnthemedScrollbarThumbColor
+(
+nscolor
+EventStates
+)
+;
 protected
 :
 nsNativeBasicTheme
