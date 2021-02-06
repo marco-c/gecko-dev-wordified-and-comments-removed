@@ -326,8 +326,6 @@ win
 ;
 win
 .
-managerWindow
-.
 gViewController
 .
 loadView
@@ -374,8 +372,6 @@ win
 ;
 win
 .
-managerWindow
-.
 history
 .
 go
@@ -389,8 +385,6 @@ loaded
 is
 (
 win
-.
-managerWindow
 .
 gViewController
 .

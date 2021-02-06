@@ -103,11 +103,7 @@ item
 of
 gManagerWindow
 .
-getHtmlBrowser
-(
-)
-.
-contentDocument
+document
 .
 querySelectorAll
 (
@@ -149,11 +145,7 @@ selector
 return
 gManagerWindow
 .
-getHtmlBrowser
-(
-)
-.
-contentDocument
+document
 .
 querySelector
 (

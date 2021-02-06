@@ -444,8 +444,6 @@ new
 CategoryUtilities
 (
 win
-.
-managerWindow
 )
 ;
 const

@@ -129,9 +129,9 @@ content
 /
 extensions
 /
-extensions
+aboutaddons
 .
-xhtml
+html
 "
 ;
 const

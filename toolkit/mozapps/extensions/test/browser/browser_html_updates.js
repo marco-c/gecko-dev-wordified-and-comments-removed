@@ -3906,8 +3906,6 @@ new
 CategoryUtilities
 (
 win
-.
-managerWindow
 )
 ;
 let
@@ -4665,8 +4663,6 @@ new
 CategoryUtilities
 (
 win
-.
-managerWindow
 )
 ;
 let
@@ -4870,8 +4866,6 @@ new
 CategoryUtilities
 (
 win
-.
-managerWindow
 )
 ;
 updatesButton

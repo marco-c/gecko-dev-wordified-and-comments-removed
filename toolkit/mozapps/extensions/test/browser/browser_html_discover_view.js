@@ -785,8 +785,6 @@ win
 {
 win
 .
-managerWindow
-.
 gViewController
 .
 loadView
@@ -806,8 +804,6 @@ await
 wait_for_view_load
 (
 win
-.
-managerWindow
 )
 ;
 ok
@@ -866,8 +862,6 @@ shown
 ;
 win
 .
-managerWindow
-.
 gViewController
 .
 loadView
@@ -886,8 +880,6 @@ await
 wait_for_view_load
 (
 win
-.
-managerWindow
 )
 ;
 await

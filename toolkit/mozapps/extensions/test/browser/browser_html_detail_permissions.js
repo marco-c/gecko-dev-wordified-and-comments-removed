@@ -2457,8 +2457,6 @@ waitForEvent
 get_addon_element
 (
 view
-.
-managerWindow
 addonId
 )
 "
