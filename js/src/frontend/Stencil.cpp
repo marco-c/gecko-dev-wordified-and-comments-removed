@@ -924,6 +924,15 @@ enclosingScope
 return
 ;
 }
+enclosingScopeEnvironmentChainLength
+=
+enclosingScope
+-
+>
+environmentChainLength
+(
+)
+;
 enclosingScopeKind
 =
 enclosingScope

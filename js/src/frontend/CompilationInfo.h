@@ -334,6 +334,11 @@ EnclosingLexicalBindingCache
 enclosingLexicalBindingCache_
 ;
 uint32_t
+enclosingScopeEnvironmentChainLength
+=
+0
+;
+uint32_t
 enclosingThisEnvironmentHops
 =
 0
