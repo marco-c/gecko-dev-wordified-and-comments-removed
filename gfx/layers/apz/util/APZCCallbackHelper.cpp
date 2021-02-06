@@ -3195,7 +3195,14 @@ frame
 )
 ;
 return
-true
+!
+DisplayPortUtils
+:
+:
+HasPaintedDisplayPort
+(
+dpElement
+)
 ;
 }
 static
