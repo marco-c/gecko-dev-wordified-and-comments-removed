@@ -3245,13 +3245,6 @@ targetFront
 {
 return
 (
-!
-targetFront
-.
-isParentProcess
-&
-&
-(
 targetFront
 .
 hasActor
@@ -3269,7 +3262,6 @@ hasActor
 "
 screenshot
 "
-)
 )
 )
 ;

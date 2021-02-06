@@ -463,16 +463,8 @@ init
 ;
 DevToolsServer
 .
-registerActors
+registerAllActors
 (
-{
-root
-:
-true
-target
-:
-true
-}
 )
 ;
 DevToolsServer
