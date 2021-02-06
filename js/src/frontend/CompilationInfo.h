@@ -407,6 +407,11 @@ hasNonSyntacticScopeOnChain
 =
 false
 ;
+bool
+hasFunctionNeedsHomeObjectOnChain
+=
+false
+;
 #
 endif
 explicit
