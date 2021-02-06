@@ -1361,6 +1361,15 @@ Number
 parseFloat
 (
 extractedDeltaTotal
+.
+replace
+(
+/
+/
+g
+"
+"
+)
 )
 ;
 Assert
@@ -1430,7 +1439,7 @@ extractedDeltaUnit
 extractedDeltaSign
 )
 *
-extractedDeltaTotal
+deltaTotalNumber
 ;
 Assert
 .
