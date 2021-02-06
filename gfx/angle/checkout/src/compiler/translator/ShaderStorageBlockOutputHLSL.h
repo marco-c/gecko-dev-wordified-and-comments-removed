@@ -164,6 +164,7 @@ shaderStorageBlocks
 ShaderStorageBlockOutputHLSL
 (
 )
+override
 ;
 void
 outputStoreFunctionCallPrefix

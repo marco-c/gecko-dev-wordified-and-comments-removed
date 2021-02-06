@@ -106,7 +106,6 @@ FindDiscard
 {
 public
 :
-virtual
 bool
 visitBranch
 (
@@ -116,6 +115,7 @@ TIntermBranch
 *
 node
 )
+override
 {
 switch
 (

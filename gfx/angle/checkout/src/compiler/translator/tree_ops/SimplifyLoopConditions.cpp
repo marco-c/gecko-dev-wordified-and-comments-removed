@@ -1092,9 +1092,12 @@ this
 ;
 }
 }
-void
+bool
 SimplifyLoopConditions
 (
+TCompiler
+*
+compiler
 TIntermNode
 *
 root
@@ -1122,10 +1125,13 @@ traverse
 traverser
 )
 ;
+return
 traverser
 .
 updateTree
 (
+compiler
+root
 )
 ;
 }

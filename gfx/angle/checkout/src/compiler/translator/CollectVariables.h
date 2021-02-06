@@ -44,7 +44,7 @@ std
 :
 vector
 <
-Attribute
+ShaderVariable
 >
 *
 attributes
@@ -53,7 +53,7 @@ std
 :
 vector
 <
-OutputVariable
+ShaderVariable
 >
 *
 outputVariables
@@ -62,7 +62,7 @@ std
 :
 vector
 <
-Uniform
+ShaderVariable
 >
 *
 uniforms
@@ -71,7 +71,7 @@ std
 :
 vector
 <
-Varying
+ShaderVariable
 >
 *
 inputVaryings
@@ -80,10 +80,19 @@ std
 :
 vector
 <
-Varying
+ShaderVariable
 >
 *
 outputVaryings
+std
+:
+:
+vector
+<
+ShaderVariable
+>
+*
+sharedVariables
 std
 :
 :

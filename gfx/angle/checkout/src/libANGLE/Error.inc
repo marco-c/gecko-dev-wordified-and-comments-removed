@@ -170,7 +170,7 @@ else
 {
 mMessage
 .
-release
+reset
 (
 )
 ;

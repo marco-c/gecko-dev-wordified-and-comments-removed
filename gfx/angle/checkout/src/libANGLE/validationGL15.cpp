@@ -13,6 +13,7 @@ gl
 bool
 ValidateGetBufferSubData
 (
+const
 Context
 *
 context
@@ -22,6 +23,7 @@ GLintptr
 offset
 GLsizeiptr
 size
+const
 void
 *
 data
@@ -34,13 +36,15 @@ true
 bool
 ValidateGetQueryObjectiv
 (
+const
 Context
 *
 context
-GLuint
+QueryID
 id
 GLenum
 pname
+const
 GLint
 *
 params
@@ -53,6 +57,7 @@ true
 bool
 ValidateMapBuffer
 (
+const
 Context
 *
 context

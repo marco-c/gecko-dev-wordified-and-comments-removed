@@ -22,6 +22,7 @@ Context
 bool
 ValidateAreTexturesResident
 (
+const
 Context
 *
 context
@@ -31,6 +32,7 @@ const
 GLuint
 *
 textures
+const
 GLboolean
 *
 residences
@@ -39,6 +41,7 @@ residences
 bool
 ValidateArrayElement
 (
+const
 Context
 *
 context
@@ -49,6 +52,7 @@ i
 bool
 ValidateCopyTexImage1D
 (
+const
 Context
 *
 context
@@ -71,6 +75,7 @@ border
 bool
 ValidateCopyTexSubImage1D
 (
+const
 Context
 *
 context
@@ -91,6 +96,7 @@ width
 bool
 ValidateEdgeFlagPointer
 (
+const
 Context
 *
 context
@@ -105,6 +111,7 @@ pointer
 bool
 ValidateIndexPointer
 (
+const
 Context
 *
 context
@@ -121,6 +128,7 @@ pointer
 bool
 ValidateIndexub
 (
+const
 Context
 *
 context
@@ -131,6 +139,7 @@ c
 bool
 ValidateIndexubv
 (
+const
 Context
 *
 context
@@ -143,6 +152,7 @@ c
 bool
 ValidateInterleavedArrays
 (
+const
 Context
 *
 context
@@ -159,6 +169,7 @@ pointer
 bool
 ValidatePopClientAttrib
 (
+const
 Context
 *
 context
@@ -167,6 +178,7 @@ context
 bool
 ValidatePrioritizeTextures
 (
+const
 Context
 *
 context
@@ -185,6 +197,7 @@ priorities
 bool
 ValidatePushClientAttrib
 (
+const
 Context
 *
 context
@@ -195,6 +208,7 @@ mask
 bool
 ValidateTexSubImage1D
 (
+const
 Context
 *
 context

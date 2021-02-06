@@ -730,7 +730,6 @@ D3DPRESENT_PARAMETERS
 presentParameters
 =
 {
-0
 }
 ;
 presentParameters

@@ -52,7 +52,8 @@ compileOptions
 )
 override
 ;
-void
+ANGLE_NO_DISCARD
+bool
 translate
 (
 TIntermBlock

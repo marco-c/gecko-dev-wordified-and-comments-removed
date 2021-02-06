@@ -28,6 +28,7 @@ gl
 bool
 ValidateES3TexImageParametersBase
 (
+const
 Context
 *
 context

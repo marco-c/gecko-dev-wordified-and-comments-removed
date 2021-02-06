@@ -495,6 +495,17 @@ EGL_BAD_NATIVE_WINDOW
 >
 ;
 using
+EglBadNativePixmap
+=
+priv
+:
+:
+ErrorStream
+<
+EGL_BAD_NATIVE_PIXMAP
+>
+;
+using
 EglBadParameter
 =
 priv

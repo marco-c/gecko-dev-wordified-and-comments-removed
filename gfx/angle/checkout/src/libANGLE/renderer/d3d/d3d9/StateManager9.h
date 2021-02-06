@@ -571,6 +571,9 @@ DIRTY_BIT_MAX
 bool
 mUsingZeroColorMaskWorkaround
 ;
+bool
+mCurSampleAlphaToCoverage
+;
 gl
 :
 :

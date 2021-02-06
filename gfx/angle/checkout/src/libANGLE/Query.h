@@ -60,6 +60,9 @@ namespace
 rx
 {
 class
+GLImplFactory
+;
+class
 QueryImpl
 ;
 }
@@ -72,6 +75,9 @@ final
 :
 public
 RefCountObject
+<
+QueryID
+>
 public
 LabeledObject
 {
@@ -82,10 +88,12 @@ Query
 rx
 :
 :
-QueryImpl
+GLImplFactory
 *
-impl
-GLuint
+factory
+QueryType
+type
+QueryID
 id
 )
 ;

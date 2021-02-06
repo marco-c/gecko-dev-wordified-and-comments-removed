@@ -13,6 +13,7 @@ gl
 bool
 ValidateBindBuffersBase
 (
+const
 Context
 *
 context
@@ -23,7 +24,7 @@ first
 GLsizei
 count
 const
-GLuint
+BufferID
 *
 buffers
 )
@@ -35,6 +36,7 @@ true
 bool
 ValidateBindBuffersRange
 (
+const
 Context
 *
 context
@@ -45,7 +47,7 @@ first
 GLsizei
 count
 const
-GLuint
+BufferID
 *
 buffers
 const
@@ -65,6 +67,7 @@ true
 bool
 ValidateBindImageTextures
 (
+const
 Context
 *
 context
@@ -85,6 +88,7 @@ true
 bool
 ValidateBindSamplers
 (
+const
 Context
 *
 context
@@ -105,6 +109,7 @@ true
 bool
 ValidateBindTextures
 (
+const
 Context
 *
 context
@@ -125,6 +130,7 @@ true
 bool
 ValidateBindVertexBuffers
 (
+const
 Context
 *
 context
@@ -133,7 +139,7 @@ first
 GLsizei
 count
 const
-GLuint
+BufferID
 *
 buffers
 const
@@ -153,11 +159,12 @@ true
 bool
 ValidateBufferStorage
 (
+const
 Context
 *
 context
-GLenum
-target
+BufferBinding
+targetPacked
 GLsizeiptr
 size
 const
@@ -175,10 +182,11 @@ true
 bool
 ValidateClearTexImage
 (
+const
 Context
 *
 context
-GLuint
+TextureID
 texture
 GLint
 level
@@ -199,10 +207,11 @@ true
 bool
 ValidateClearTexSubImage
 (
+const
 Context
 *
 context
-GLuint
+TextureID
 texture
 GLint
 level

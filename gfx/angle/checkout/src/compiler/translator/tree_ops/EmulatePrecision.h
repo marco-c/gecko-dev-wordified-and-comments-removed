@@ -118,11 +118,11 @@ node
 override
 ;
 bool
-visitInvariantDeclaration
+visitGlobalQualifierDeclaration
 (
 Visit
 visit
-TIntermInvariantDeclaration
+TIntermGlobalQualifierDeclaration
 *
 node
 )

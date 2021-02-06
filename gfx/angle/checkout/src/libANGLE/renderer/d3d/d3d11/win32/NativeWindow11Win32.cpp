@@ -462,7 +462,6 @@ DXGI_SWAP_CHAIN_DESC1
 swapChainDesc
 =
 {
-0
 }
 ;
 swapChainDesc
@@ -644,7 +643,6 @@ DXGI_SWAP_CHAIN_DESC1
 swapChainDesc
 =
 {
-0
 }
 ;
 swapChainDesc

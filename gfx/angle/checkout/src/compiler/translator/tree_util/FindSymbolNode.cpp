@@ -90,6 +90,7 @@ TIntermSymbol
 *
 node
 )
+override
 {
 if
 (

@@ -198,7 +198,7 @@ vector
 sh
 :
 :
-Attribute
+ShaderVariable
 >
 &
 shaderAttributes
@@ -212,7 +212,7 @@ const
 sh
 :
 :
-Attribute
+ShaderVariable
 &
 attrib
 :
@@ -313,7 +313,7 @@ uint8_t
 vertexFormatType
 ;
 uint8_t
-dummyPadding
+unusedPadding
 ;
 uint32_t
 divisor
@@ -431,7 +431,7 @@ vertexFormatID
 ;
 packedAttrib
 .
-dummyPadding
+unusedPadding
 =
 0u
 ;
@@ -895,7 +895,11 @@ for
 size_t
 attribIndex
 :
-program
+state
+.
+getProgramExecutable
+(
+)
 -
 >
 getActiveAttribLocationsMask

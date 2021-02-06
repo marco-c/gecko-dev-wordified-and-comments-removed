@@ -263,9 +263,12 @@ false
 ;
 }
 }
-void
+bool
 SeparateArrayConstructorStatements
 (
+TCompiler
+*
+compiler
 TIntermBlock
 *
 root
@@ -283,10 +286,13 @@ traverse
 traverser
 )
 ;
+return
 traverser
 .
 updateTree
 (
+compiler
+root
 )
 ;
 }

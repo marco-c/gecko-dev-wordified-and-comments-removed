@@ -409,6 +409,7 @@ QueryT
 void
 CastStateValues
 (
+const
 Context
 *
 context

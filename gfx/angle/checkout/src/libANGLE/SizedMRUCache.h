@@ -299,7 +299,7 @@ mCurrentSize
 0
 ;
 }
-bool
+void
 eraseByKey
 (
 const
@@ -347,13 +347,7 @@ Erase
 existing
 )
 ;
-return
-true
-;
 }
-return
-false
-;
 }
 size_t
 entryCount

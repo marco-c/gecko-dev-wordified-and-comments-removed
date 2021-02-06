@@ -19,6 +19,10 @@ initializer
 int
 shaderVersion
 bool
+isWebGL
+bool
+hasExtNonConstGlobalInitializers
+bool
 *
 warning
 )

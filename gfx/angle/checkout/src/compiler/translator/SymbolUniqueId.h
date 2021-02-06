@@ -120,6 +120,8 @@ mId
 enum
 class
 SymbolType
+:
+uint8_t
 {
 BuiltIn
 UserDefined
@@ -130,6 +132,8 @@ Empty
 enum
 class
 SymbolClass
+:
+uint8_t
 {
 Function
 Variable

@@ -79,6 +79,10 @@ const
 ImmutableString
 &
 name
+const
+ShCompileOptions
+&
+option
 )
 override
 ;

@@ -353,6 +353,8 @@ bool
 useHLSLRowMajorPacking
 bool
 useStd140Packing
+bool
+forcePackingEnd
 )
 ;
 const

@@ -172,6 +172,10 @@ GLsizei
 instances
 GLint
 baseVertex
+GLuint
+baseInstance
+bool
+promoteDynamic
 )
 ;
 bool
@@ -323,6 +327,10 @@ GLsizei
 instances
 GLint
 baseVertex
+GLuint
+baseInstance
+bool
+promoteDynamic
 const
 gl
 :

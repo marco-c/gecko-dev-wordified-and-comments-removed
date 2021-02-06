@@ -411,6 +411,8 @@ size_t
 count
 GLsizei
 instances
+GLuint
+baseInstance
 )
 ;
 static
@@ -546,6 +548,8 @@ size_t
 count
 GLsizei
 instances
+GLuint
+baseInstance
 )
 ;
 angle
@@ -570,6 +574,8 @@ size_t
 count
 GLsizei
 instances
+GLuint
+baseInstance
 )
 ;
 BufferFactoryD3D

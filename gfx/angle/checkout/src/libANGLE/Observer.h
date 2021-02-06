@@ -87,6 +87,7 @@ DirtyBitsFlagged
 SubjectChanged
 SubjectMapped
 SubjectUnmapped
+SurfaceChanged
 }
 ;
 class

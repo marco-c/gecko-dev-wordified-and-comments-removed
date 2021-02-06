@@ -216,12 +216,18 @@ static_cast
 NativeT
 >
 (
+static_cast
+<
+GLint64
+>
+(
 std
 :
 :
 round
 (
 value
+)
 )
 )
 ;
@@ -1007,6 +1013,7 @@ QueryT
 void
 CastStateValues
 (
+const
 Context
 *
 context
@@ -1275,7 +1282,7 @@ numParams
 context
 -
 >
-getInteger64v
+getInteger64vImpl
 (
 pname
 int64Params
@@ -1334,6 +1341,7 @@ CastStateValues
 GLboolean
 >
 (
+const
 Context
 *
 GLenum
@@ -1351,6 +1359,7 @@ CastStateValues
 GLint
 >
 (
+const
 Context
 *
 GLenum
@@ -1368,6 +1377,7 @@ CastStateValues
 GLuint
 >
 (
+const
 Context
 *
 GLenum
@@ -1385,6 +1395,7 @@ CastStateValues
 GLfloat
 >
 (
+const
 Context
 *
 GLenum
@@ -1402,6 +1413,7 @@ CastStateValues
 GLint64
 >
 (
+const
 Context
 *
 GLenum

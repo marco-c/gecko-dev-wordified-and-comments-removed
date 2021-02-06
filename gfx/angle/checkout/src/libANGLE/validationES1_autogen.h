@@ -22,6 +22,7 @@ Context
 bool
 ValidateAlphaFunc
 (
+const
 Context
 *
 context
@@ -34,6 +35,7 @@ ref
 bool
 ValidateAlphaFuncx
 (
+const
 Context
 *
 context
@@ -46,6 +48,7 @@ ref
 bool
 ValidateClearColorx
 (
+const
 Context
 *
 context
@@ -62,6 +65,7 @@ alpha
 bool
 ValidateClearDepthx
 (
+const
 Context
 *
 context
@@ -72,6 +76,7 @@ depth
 bool
 ValidateClientActiveTexture
 (
+const
 Context
 *
 context
@@ -82,6 +87,7 @@ texture
 bool
 ValidateClipPlanef
 (
+const
 Context
 *
 context
@@ -96,6 +102,7 @@ eqn
 bool
 ValidateClipPlanex
 (
+const
 Context
 *
 context
@@ -110,6 +117,7 @@ equation
 bool
 ValidateColor4f
 (
+const
 Context
 *
 context
@@ -126,6 +134,7 @@ alpha
 bool
 ValidateColor4ub
 (
+const
 Context
 *
 context
@@ -142,6 +151,7 @@ alpha
 bool
 ValidateColor4x
 (
+const
 Context
 *
 context
@@ -158,6 +168,7 @@ alpha
 bool
 ValidateColorPointer
 (
+const
 Context
 *
 context
@@ -176,6 +187,7 @@ pointer
 bool
 ValidateDepthRangex
 (
+const
 Context
 *
 context
@@ -188,6 +200,7 @@ f
 bool
 ValidateDisableClientState
 (
+const
 Context
 *
 context
@@ -198,6 +211,7 @@ arrayPacked
 bool
 ValidateEnableClientState
 (
+const
 Context
 *
 context
@@ -208,6 +222,7 @@ arrayPacked
 bool
 ValidateFogf
 (
+const
 Context
 *
 context
@@ -220,6 +235,7 @@ param
 bool
 ValidateFogfv
 (
+const
 Context
 *
 context
@@ -234,6 +250,7 @@ params
 bool
 ValidateFogx
 (
+const
 Context
 *
 context
@@ -246,6 +263,7 @@ param
 bool
 ValidateFogxv
 (
+const
 Context
 *
 context
@@ -260,6 +278,7 @@ param
 bool
 ValidateFrustumf
 (
+const
 Context
 *
 context
@@ -280,6 +299,7 @@ f
 bool
 ValidateFrustumx
 (
+const
 Context
 *
 context
@@ -300,11 +320,13 @@ f
 bool
 ValidateGetClipPlanef
 (
+const
 Context
 *
 context
 GLenum
 plane
+const
 GLfloat
 *
 equation
@@ -313,11 +335,13 @@ equation
 bool
 ValidateGetClipPlanex
 (
+const
 Context
 *
 context
 GLenum
 plane
+const
 GLfixed
 *
 equation
@@ -326,11 +350,13 @@ equation
 bool
 ValidateGetFixedv
 (
+const
 Context
 *
 context
 GLenum
 pname
+const
 GLfixed
 *
 params
@@ -339,6 +365,7 @@ params
 bool
 ValidateGetLightfv
 (
+const
 Context
 *
 context
@@ -346,6 +373,7 @@ GLenum
 light
 LightParameter
 pnamePacked
+const
 GLfloat
 *
 params
@@ -354,6 +382,7 @@ params
 bool
 ValidateGetLightxv
 (
+const
 Context
 *
 context
@@ -361,6 +390,7 @@ GLenum
 light
 LightParameter
 pnamePacked
+const
 GLfixed
 *
 params
@@ -369,6 +399,7 @@ params
 bool
 ValidateGetMaterialfv
 (
+const
 Context
 *
 context
@@ -376,6 +407,7 @@ GLenum
 face
 MaterialParameter
 pnamePacked
+const
 GLfloat
 *
 params
@@ -384,6 +416,7 @@ params
 bool
 ValidateGetMaterialxv
 (
+const
 Context
 *
 context
@@ -391,21 +424,8 @@ GLenum
 face
 MaterialParameter
 pnamePacked
+const
 GLfixed
-*
-params
-)
-;
-bool
-ValidateGetPointerv
-(
-Context
-*
-context
-GLenum
-pname
-void
-*
 *
 params
 )
@@ -413,6 +433,7 @@ params
 bool
 ValidateGetTexEnvfv
 (
+const
 Context
 *
 context
@@ -420,6 +441,7 @@ TextureEnvTarget
 targetPacked
 TextureEnvParameter
 pnamePacked
+const
 GLfloat
 *
 params
@@ -428,6 +450,7 @@ params
 bool
 ValidateGetTexEnviv
 (
+const
 Context
 *
 context
@@ -435,6 +458,7 @@ TextureEnvTarget
 targetPacked
 TextureEnvParameter
 pnamePacked
+const
 GLint
 *
 params
@@ -443,6 +467,7 @@ params
 bool
 ValidateGetTexEnvxv
 (
+const
 Context
 *
 context
@@ -450,6 +475,7 @@ TextureEnvTarget
 targetPacked
 TextureEnvParameter
 pnamePacked
+const
 GLfixed
 *
 params
@@ -458,6 +484,7 @@ params
 bool
 ValidateGetTexParameterxv
 (
+const
 Context
 *
 context
@@ -465,6 +492,7 @@ TextureType
 targetPacked
 GLenum
 pname
+const
 GLfixed
 *
 params
@@ -473,6 +501,7 @@ params
 bool
 ValidateLightModelf
 (
+const
 Context
 *
 context
@@ -485,6 +514,7 @@ param
 bool
 ValidateLightModelfv
 (
+const
 Context
 *
 context
@@ -499,6 +529,7 @@ params
 bool
 ValidateLightModelx
 (
+const
 Context
 *
 context
@@ -511,6 +542,7 @@ param
 bool
 ValidateLightModelxv
 (
+const
 Context
 *
 context
@@ -525,6 +557,7 @@ param
 bool
 ValidateLightf
 (
+const
 Context
 *
 context
@@ -539,6 +572,7 @@ param
 bool
 ValidateLightfv
 (
+const
 Context
 *
 context
@@ -555,6 +589,7 @@ params
 bool
 ValidateLightx
 (
+const
 Context
 *
 context
@@ -569,6 +604,7 @@ param
 bool
 ValidateLightxv
 (
+const
 Context
 *
 context
@@ -585,6 +621,7 @@ params
 bool
 ValidateLineWidthx
 (
+const
 Context
 *
 context
@@ -595,6 +632,7 @@ width
 bool
 ValidateLoadIdentity
 (
+const
 Context
 *
 context
@@ -603,6 +641,7 @@ context
 bool
 ValidateLoadMatrixf
 (
+const
 Context
 *
 context
@@ -615,6 +654,7 @@ m
 bool
 ValidateLoadMatrixx
 (
+const
 Context
 *
 context
@@ -627,6 +667,7 @@ m
 bool
 ValidateLogicOp
 (
+const
 Context
 *
 context
@@ -637,6 +678,7 @@ opcodePacked
 bool
 ValidateMaterialf
 (
+const
 Context
 *
 context
@@ -651,6 +693,7 @@ param
 bool
 ValidateMaterialfv
 (
+const
 Context
 *
 context
@@ -667,6 +710,7 @@ params
 bool
 ValidateMaterialx
 (
+const
 Context
 *
 context
@@ -681,6 +725,7 @@ param
 bool
 ValidateMaterialxv
 (
+const
 Context
 *
 context
@@ -697,6 +742,7 @@ param
 bool
 ValidateMatrixMode
 (
+const
 Context
 *
 context
@@ -707,6 +753,7 @@ modePacked
 bool
 ValidateMultMatrixf
 (
+const
 Context
 *
 context
@@ -719,6 +766,7 @@ m
 bool
 ValidateMultMatrixx
 (
+const
 Context
 *
 context
@@ -731,6 +779,7 @@ m
 bool
 ValidateMultiTexCoord4f
 (
+const
 Context
 *
 context
@@ -749,6 +798,7 @@ q
 bool
 ValidateMultiTexCoord4x
 (
+const
 Context
 *
 context
@@ -767,6 +817,7 @@ q
 bool
 ValidateNormal3f
 (
+const
 Context
 *
 context
@@ -781,6 +832,7 @@ nz
 bool
 ValidateNormal3x
 (
+const
 Context
 *
 context
@@ -795,6 +847,7 @@ nz
 bool
 ValidateNormalPointer
 (
+const
 Context
 *
 context
@@ -811,6 +864,7 @@ pointer
 bool
 ValidateOrthof
 (
+const
 Context
 *
 context
@@ -831,6 +885,7 @@ f
 bool
 ValidateOrthox
 (
+const
 Context
 *
 context
@@ -851,6 +906,7 @@ f
 bool
 ValidatePointParameterf
 (
+const
 Context
 *
 context
@@ -863,6 +919,7 @@ param
 bool
 ValidatePointParameterfv
 (
+const
 Context
 *
 context
@@ -877,6 +934,7 @@ params
 bool
 ValidatePointParameterx
 (
+const
 Context
 *
 context
@@ -889,6 +947,7 @@ param
 bool
 ValidatePointParameterxv
 (
+const
 Context
 *
 context
@@ -903,6 +962,7 @@ params
 bool
 ValidatePointSize
 (
+const
 Context
 *
 context
@@ -913,6 +973,7 @@ size
 bool
 ValidatePointSizex
 (
+const
 Context
 *
 context
@@ -923,6 +984,7 @@ size
 bool
 ValidatePolygonOffsetx
 (
+const
 Context
 *
 context
@@ -935,6 +997,7 @@ units
 bool
 ValidatePopMatrix
 (
+const
 Context
 *
 context
@@ -943,6 +1006,7 @@ context
 bool
 ValidatePushMatrix
 (
+const
 Context
 *
 context
@@ -951,6 +1015,7 @@ context
 bool
 ValidateRotatef
 (
+const
 Context
 *
 context
@@ -967,6 +1032,7 @@ z
 bool
 ValidateRotatex
 (
+const
 Context
 *
 context
@@ -983,6 +1049,7 @@ z
 bool
 ValidateSampleCoveragex
 (
+const
 Context
 *
 context
@@ -995,6 +1062,7 @@ invert
 bool
 ValidateScalef
 (
+const
 Context
 *
 context
@@ -1009,6 +1077,7 @@ z
 bool
 ValidateScalex
 (
+const
 Context
 *
 context
@@ -1023,6 +1092,7 @@ z
 bool
 ValidateShadeModel
 (
+const
 Context
 *
 context
@@ -1033,6 +1103,7 @@ modePacked
 bool
 ValidateTexCoordPointer
 (
+const
 Context
 *
 context
@@ -1051,6 +1122,7 @@ pointer
 bool
 ValidateTexEnvf
 (
+const
 Context
 *
 context
@@ -1065,6 +1137,7 @@ param
 bool
 ValidateTexEnvfv
 (
+const
 Context
 *
 context
@@ -1081,6 +1154,7 @@ params
 bool
 ValidateTexEnvi
 (
+const
 Context
 *
 context
@@ -1095,6 +1169,7 @@ param
 bool
 ValidateTexEnviv
 (
+const
 Context
 *
 context
@@ -1111,6 +1186,7 @@ params
 bool
 ValidateTexEnvx
 (
+const
 Context
 *
 context
@@ -1125,6 +1201,7 @@ param
 bool
 ValidateTexEnvxv
 (
+const
 Context
 *
 context
@@ -1141,6 +1218,7 @@ params
 bool
 ValidateTexParameterx
 (
+const
 Context
 *
 context
@@ -1155,6 +1233,7 @@ param
 bool
 ValidateTexParameterxv
 (
+const
 Context
 *
 context
@@ -1171,6 +1250,7 @@ params
 bool
 ValidateTranslatef
 (
+const
 Context
 *
 context
@@ -1185,6 +1265,7 @@ z
 bool
 ValidateTranslatex
 (
+const
 Context
 *
 context
@@ -1199,6 +1280,7 @@ z
 bool
 ValidateVertexPointer
 (
+const
 Context
 *
 context

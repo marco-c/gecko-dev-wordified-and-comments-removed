@@ -698,6 +698,12 @@ mangledNameHash
 )
 const
 ;
+uint32_t
+unmangledNameHash
+(
+)
+const
+;
 private
 :
 const

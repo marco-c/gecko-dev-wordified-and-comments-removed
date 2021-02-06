@@ -674,6 +674,14 @@ isinf
 "
 ;
 case
+EOpFma
+:
+return
+"
+fma
+"
+;
+case
 EOpFloatBitsToInt
 :
 return

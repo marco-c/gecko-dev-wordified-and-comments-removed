@@ -651,7 +651,7 @@ int
 HLSLVariableRegisterCount
 (
 const
-Uniform
+ShaderVariable
 &
 variable
 ShShaderOutput

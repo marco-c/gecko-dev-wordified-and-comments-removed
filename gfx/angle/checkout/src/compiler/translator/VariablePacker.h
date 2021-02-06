@@ -41,11 +41,6 @@ GLenum
 type
 )
 ;
-template
-<
-typename
-T
->
 bool
 CheckVariablesInPackingLimits
 (
@@ -58,7 +53,7 @@ std
 :
 vector
 <
-T
+ShaderVariable
 >
 &
 variables

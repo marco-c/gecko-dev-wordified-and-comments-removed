@@ -893,7 +893,13 @@ isAtomicCounterFunction
 const
 ;
 bool
-hasSamplerInStructParams
+hasSamplerInStructOrArrayParams
+(
+)
+const
+;
+bool
+hasSamplerInStructOrArrayOfArrayParams
 (
 )
 const

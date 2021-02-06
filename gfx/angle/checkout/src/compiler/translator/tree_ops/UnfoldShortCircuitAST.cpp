@@ -235,9 +235,12 @@ true
 ;
 }
 }
-void
+bool
 UnfoldShortCircuitAST
 (
+TCompiler
+*
+compiler
 TIntermBlock
 *
 root
@@ -255,10 +258,13 @@ traverse
 traverser
 )
 ;
+return
 traverser
 .
 updateTree
 (
+compiler
+root
 )
 ;
 }

@@ -287,9 +287,11 @@ const
 gl
 :
 :
-BlendState
+BlendStateExt
 &
-blendState
+blendStateExt
+bool
+sampleAlphaToCoverage
 )
 ;
 angle

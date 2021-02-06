@@ -441,7 +441,6 @@ D3D11_BUFFER_DESC
 desc
 =
 {
-0
 }
 ;
 desc

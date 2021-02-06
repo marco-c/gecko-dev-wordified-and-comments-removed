@@ -118,6 +118,9 @@ EGLBoolean
 bindToTextureRGBA
 ;
 EGLenum
+bindToTextureTarget
+;
+EGLenum
 colorBufferType
 ;
 EGLenum
@@ -197,6 +200,12 @@ colorComponentType
 ;
 EGLBoolean
 recordable
+;
+EGLBoolean
+framebufferTarget
+;
+EGLBoolean
+yInverted
 ;
 }
 ;

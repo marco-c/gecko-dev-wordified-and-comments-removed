@@ -35,7 +35,7 @@ h
 if
 defined
 (
-ANGLE_ENABLE_WINDOWS_STORE
+ANGLE_ENABLE_WINDOWS_UWP
 )
 #
 include
@@ -85,7 +85,7 @@ mRenderer
 if
 defined
 (
-ANGLE_ENABLE_WINDOWS_STORE
+ANGLE_ENABLE_WINDOWS_UWP
 )
 EventRegistrationToken
 mApplicationSuspendedEventToken

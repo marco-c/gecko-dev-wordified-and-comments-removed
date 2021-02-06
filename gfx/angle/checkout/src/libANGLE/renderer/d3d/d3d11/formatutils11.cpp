@@ -86,7 +86,7 @@ d3d
 /
 d3d11
 /
-dxgi_support_table
+renderer11_utils
 .
 h
 "
@@ -97,11 +97,7 @@ libANGLE
 /
 renderer
 /
-d3d
-/
-d3d11
-/
-renderer11_utils
+dxgi_support_table
 .
 h
 "

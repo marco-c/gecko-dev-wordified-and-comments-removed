@@ -589,7 +589,6 @@ DXGI_SWAP_CHAIN_DESC1
 swapChainDesc
 =
 {
-0
 }
 ;
 swapChainDesc
@@ -1454,6 +1453,8 @@ hr
 )
 {
 return
+!
+!
 isSupported
 ;
 }
@@ -1515,6 +1516,8 @@ hr
 )
 {
 return
+!
+!
 isSupported
 ;
 }
@@ -1545,6 +1548,8 @@ hr
 )
 {
 return
+!
+!
 isSupported
 ;
 }
@@ -1560,6 +1565,8 @@ isSupported
 )
 ;
 return
+!
+!
 isSupported
 ;
 }

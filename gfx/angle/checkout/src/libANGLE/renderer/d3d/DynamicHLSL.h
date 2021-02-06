@@ -96,9 +96,6 @@ namespace
 sh
 {
 struct
-Attribute
-;
-struct
 ShaderVariable
 ;
 }
@@ -642,7 +639,7 @@ vector
 sh
 :
 :
-Attribute
+ShaderVariable
 >
 &
 shaderAttributes
@@ -718,7 +715,7 @@ vector
 sh
 :
 :
-Uniform
+ShaderVariable
 >
 &
 image2DUniforms

@@ -892,7 +892,6 @@ D3D11_TEXTURE2D_DESC
 offscreenTextureDesc
 =
 {
-0
 }
 ;
 if
@@ -1616,7 +1615,6 @@ D3D11_BOX
 sourceBox
 =
 {
-0
 }
 ;
 sourceBox
@@ -1870,7 +1868,6 @@ D3D11_TEXTURE2D_DESC
 offscreenTextureDesc
 =
 {
-0
 }
 ;
 mOffscreenTexture

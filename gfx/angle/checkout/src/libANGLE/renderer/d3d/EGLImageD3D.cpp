@@ -334,6 +334,7 @@ GL_NONE
 mState
 .
 imageIndex
+0
 &
 rt
 )

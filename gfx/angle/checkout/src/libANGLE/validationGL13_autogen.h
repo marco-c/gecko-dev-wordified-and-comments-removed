@@ -22,6 +22,7 @@ Context
 bool
 ValidateCompressedTexImage1D
 (
+const
 Context
 *
 context
@@ -46,6 +47,7 @@ data
 bool
 ValidateCompressedTexSubImage1D
 (
+const
 Context
 *
 context
@@ -70,6 +72,7 @@ data
 bool
 ValidateGetCompressedTexImage
 (
+const
 Context
 *
 context
@@ -77,6 +80,7 @@ GLenum
 target
 GLint
 level
+const
 void
 *
 img
@@ -85,6 +89,7 @@ img
 bool
 ValidateLoadTransposeMatrixd
 (
+const
 Context
 *
 context
@@ -97,6 +102,7 @@ m
 bool
 ValidateLoadTransposeMatrixf
 (
+const
 Context
 *
 context
@@ -109,6 +115,7 @@ m
 bool
 ValidateMultTransposeMatrixd
 (
+const
 Context
 *
 context
@@ -121,6 +128,7 @@ m
 bool
 ValidateMultTransposeMatrixf
 (
+const
 Context
 *
 context
@@ -133,6 +141,7 @@ m
 bool
 ValidateMultiTexCoord1d
 (
+const
 Context
 *
 context
@@ -145,6 +154,7 @@ s
 bool
 ValidateMultiTexCoord1dv
 (
+const
 Context
 *
 context
@@ -159,6 +169,7 @@ v
 bool
 ValidateMultiTexCoord1f
 (
+const
 Context
 *
 context
@@ -171,6 +182,7 @@ s
 bool
 ValidateMultiTexCoord1fv
 (
+const
 Context
 *
 context
@@ -185,6 +197,7 @@ v
 bool
 ValidateMultiTexCoord1i
 (
+const
 Context
 *
 context
@@ -197,6 +210,7 @@ s
 bool
 ValidateMultiTexCoord1iv
 (
+const
 Context
 *
 context
@@ -211,6 +225,7 @@ v
 bool
 ValidateMultiTexCoord1s
 (
+const
 Context
 *
 context
@@ -223,6 +238,7 @@ s
 bool
 ValidateMultiTexCoord1sv
 (
+const
 Context
 *
 context
@@ -237,6 +253,7 @@ v
 bool
 ValidateMultiTexCoord2d
 (
+const
 Context
 *
 context
@@ -251,6 +268,7 @@ t
 bool
 ValidateMultiTexCoord2dv
 (
+const
 Context
 *
 context
@@ -265,6 +283,7 @@ v
 bool
 ValidateMultiTexCoord2f
 (
+const
 Context
 *
 context
@@ -279,6 +298,7 @@ t
 bool
 ValidateMultiTexCoord2fv
 (
+const
 Context
 *
 context
@@ -293,6 +313,7 @@ v
 bool
 ValidateMultiTexCoord2i
 (
+const
 Context
 *
 context
@@ -307,6 +328,7 @@ t
 bool
 ValidateMultiTexCoord2iv
 (
+const
 Context
 *
 context
@@ -321,6 +343,7 @@ v
 bool
 ValidateMultiTexCoord2s
 (
+const
 Context
 *
 context
@@ -335,6 +358,7 @@ t
 bool
 ValidateMultiTexCoord2sv
 (
+const
 Context
 *
 context
@@ -349,6 +373,7 @@ v
 bool
 ValidateMultiTexCoord3d
 (
+const
 Context
 *
 context
@@ -365,6 +390,7 @@ r
 bool
 ValidateMultiTexCoord3dv
 (
+const
 Context
 *
 context
@@ -379,6 +405,7 @@ v
 bool
 ValidateMultiTexCoord3f
 (
+const
 Context
 *
 context
@@ -395,6 +422,7 @@ r
 bool
 ValidateMultiTexCoord3fv
 (
+const
 Context
 *
 context
@@ -409,6 +437,7 @@ v
 bool
 ValidateMultiTexCoord3i
 (
+const
 Context
 *
 context
@@ -425,6 +454,7 @@ r
 bool
 ValidateMultiTexCoord3iv
 (
+const
 Context
 *
 context
@@ -439,6 +469,7 @@ v
 bool
 ValidateMultiTexCoord3s
 (
+const
 Context
 *
 context
@@ -455,6 +486,7 @@ r
 bool
 ValidateMultiTexCoord3sv
 (
+const
 Context
 *
 context
@@ -469,6 +501,7 @@ v
 bool
 ValidateMultiTexCoord4d
 (
+const
 Context
 *
 context
@@ -487,6 +520,7 @@ q
 bool
 ValidateMultiTexCoord4dv
 (
+const
 Context
 *
 context
@@ -501,6 +535,7 @@ v
 bool
 ValidateMultiTexCoord4fv
 (
+const
 Context
 *
 context
@@ -515,6 +550,7 @@ v
 bool
 ValidateMultiTexCoord4i
 (
+const
 Context
 *
 context
@@ -533,6 +569,7 @@ q
 bool
 ValidateMultiTexCoord4iv
 (
+const
 Context
 *
 context
@@ -547,6 +584,7 @@ v
 bool
 ValidateMultiTexCoord4s
 (
+const
 Context
 *
 context
@@ -565,6 +603,7 @@ q
 bool
 ValidateMultiTexCoord4sv
 (
+const
 Context
 *
 context

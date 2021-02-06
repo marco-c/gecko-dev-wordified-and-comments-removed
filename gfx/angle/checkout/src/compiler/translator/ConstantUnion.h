@@ -6,13 +6,6 @@ define
 COMPILER_TRANSLATOR_CONSTANTUNION_H_
 #
 include
-<
-assert
-.
-h
->
-#
-include
 "
 compiler
 /
@@ -162,6 +155,12 @@ const
 ;
 bool
 getBConst
+(
+)
+const
+;
+bool
+isZero
 (
 )
 const

@@ -4,8 +4,15 @@ COMPILER_TRANSLATOR_OPERATOR_H_
 #
 define
 COMPILER_TRANSLATOR_OPERATOR_H_
+#
+include
+<
+cstdint
+>
 enum
 TOperator
+:
+uint8_t
 {
 EOpNull
 EOpCallFunctionInAST
@@ -94,6 +101,7 @@ EOpStep
 EOpSmoothstep
 EOpIsnan
 EOpIsinf
+EOpFma
 EOpFloatBitsToInt
 EOpFloatBitsToUint
 EOpIntBitsToFloat
@@ -177,6 +185,9 @@ EOpAtomicExchange
 EOpAtomicCompSwap
 EOpEmitVertex
 EOpEndPrimitive
+EOpFTransform
+EOpPackDouble2x32
+EOpUnpackDouble2x32
 }
 ;
 const

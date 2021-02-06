@@ -197,7 +197,7 @@ getNativeExtensions
 (
 )
 .
-elementIndexUint
+elementIndexUintOES
 )
 ;
 format
@@ -559,7 +559,7 @@ mIndexBuffer
 ;
 void
 *
-dummy
+mock
 ;
 HRESULT
 result
@@ -586,7 +586,7 @@ Lock
 0
 1
 &
-dummy
+mock
 D3DLOCK_DISCARD
 )
 ;

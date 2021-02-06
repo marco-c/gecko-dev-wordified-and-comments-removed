@@ -124,6 +124,9 @@ BlobCache
 Value
 *
 programOut
+size_t
+*
+programSizeOut
 )
 ;
 bool
@@ -168,7 +171,10 @@ Key
 programHash
 )
 ;
-void
+angle
+:
+:
+Result
 putProgram
 (
 const
@@ -191,7 +197,10 @@ Program
 program
 )
 ;
-void
+angle
+:
+:
+Result
 updateProgram
 (
 const
@@ -204,7 +213,8 @@ Program
 program
 )
 ;
-void
+ANGLE_NO_DISCARD
+bool
 putBinary
 (
 const

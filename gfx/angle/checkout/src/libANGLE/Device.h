@@ -94,8 +94,10 @@ const
 override
 ;
 Error
-getDevice
+getAttribute
 (
+EGLint
+attribute
 EGLAttrib
 *
 value

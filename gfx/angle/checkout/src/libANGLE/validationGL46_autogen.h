@@ -22,6 +22,7 @@ Context
 bool
 ValidateMultiDrawArraysIndirectCount
 (
+const
 Context
 *
 context
@@ -42,6 +43,7 @@ stride
 bool
 ValidateMultiDrawElementsIndirectCount
 (
+const
 Context
 *
 context
@@ -64,6 +66,7 @@ stride
 bool
 ValidatePolygonOffsetClamp
 (
+const
 Context
 *
 context
@@ -78,6 +81,7 @@ clamp
 bool
 ValidateSpecializeShader
 (
+const
 Context
 *
 context

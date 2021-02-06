@@ -64,6 +64,9 @@ class
 SurfaceImpl
 ;
 class
+ShareGroupImpl
+;
+class
 EGLImplFactory
 :
 angle
@@ -322,6 +325,15 @@ AttributeMap
 &
 attribs
 )
+;
+virtual
+ShareGroupImpl
+*
+createShareGroup
+(
+)
+=
+0
 ;
 }
 ;

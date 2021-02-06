@@ -647,9 +647,12 @@ true
 ;
 }
 }
-void
+bool
 RewriteAtomicFunctionExpressions
 (
+TCompiler
+*
+compiler
 TIntermNode
 *
 root
@@ -674,10 +677,13 @@ traverse
 root
 )
 ;
+return
 traverser
 .
 updateTree
 (
+compiler
+root
 )
 ;
 }

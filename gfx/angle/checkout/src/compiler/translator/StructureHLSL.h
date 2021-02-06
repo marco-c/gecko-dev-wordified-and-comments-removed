@@ -101,6 +101,8 @@ const
 TType
 &
 type
+bool
+forcePadding
 )
 ;
 TString
@@ -110,6 +112,8 @@ const
 TType
 &
 type
+bool
+forcePadding
 )
 ;
 TString
@@ -121,6 +125,8 @@ TType
 type
 bool
 useHLSLRowMajorPacking
+bool
+forcePadding
 )
 ;
 private
@@ -318,6 +324,8 @@ bool
 useHLSLRowMajorPacking
 bool
 useStd140Packing
+bool
+forcePackingEnd
 )
 ;
 DefinedStructs

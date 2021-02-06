@@ -48,6 +48,15 @@ TIntermBinary
 node
 )
 ;
+static
+bool
+IsDynamicIndexingOfSwizzledVector
+(
+TIntermBinary
+*
+node
+)
+;
 enum
 PatternType
 {

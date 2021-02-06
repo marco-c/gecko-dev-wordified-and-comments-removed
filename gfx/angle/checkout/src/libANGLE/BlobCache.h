@@ -377,6 +377,9 @@ BlobCache
 Value
 *
 valueOut
+size_t
+*
+bufferSizeOut
 )
 ;
 ANGLE_NO_DISCARD

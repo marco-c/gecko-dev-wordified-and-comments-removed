@@ -92,7 +92,7 @@ const
 sh
 :
 :
-Uniform
+ShaderVariable
 &
 uniform
 )
@@ -3642,7 +3642,7 @@ vector
 sh
 :
 :
-Uniform
+ShaderVariable
 >
 &
 group
@@ -3705,7 +3705,7 @@ const
 sh
 :
 :
-Uniform
+ShaderVariable
 &
 uniform
 :
@@ -4220,7 +4220,7 @@ const
 sh
 :
 :
-Uniform
+ShaderVariable
 &
 uniform
 :
@@ -4638,7 +4638,7 @@ vector
 sh
 :
 :
-Uniform
+ShaderVariable
 >
 &
 image2DUniforms
@@ -4664,7 +4664,7 @@ vector
 sh
 :
 :
-Uniform
+ShaderVariable
 >
 >
 groupedImage2DUniforms
@@ -4691,7 +4691,7 @@ for
 sh
 :
 :
-Uniform
+ShaderVariable
 &
 image2D
 :

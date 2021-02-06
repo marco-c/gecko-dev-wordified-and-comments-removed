@@ -55,9 +55,16 @@ extensionBehavior
 void
 ResetExtensionBehavior
 (
+const
+ShBuiltInResources
+&
+resources
 TExtensionBehavior
 &
 extensionBehavior
+const
+ShCompileOptions
+compileOptions
 )
 ;
 }
