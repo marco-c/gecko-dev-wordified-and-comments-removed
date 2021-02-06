@@ -2581,6 +2581,14 @@ linux
 '
 sm
 -
+plain
+-
+linux32
+'
+-
+'
+sm
+-
 arm
 -
 sim
