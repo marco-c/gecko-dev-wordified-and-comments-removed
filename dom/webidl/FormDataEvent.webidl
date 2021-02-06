@@ -132,17 +132,6 @@ interface
 Exposed
 =
 Window
-Pref
-=
-"
-dom
-.
-formdata
-.
-event
-.
-enabled
-"
 ]
 interface
 FormDataEvent
