@@ -230,16 +230,6 @@ ThemeNeedsComboboxDropmarker
 )
 override
 ;
-bool
-ThemeSupportsScrollbarButtons
-(
-)
-override
-{
-return
-false
-;
-}
 ScrollbarSizes
 GetScrollbarSizes
 (

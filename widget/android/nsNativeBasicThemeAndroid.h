@@ -25,16 +25,6 @@ nsNativeBasicThemeAndroid
 =
 default
 ;
-bool
-ThemeSupportsScrollbarButtons
-(
-)
-override
-{
-return
-false
-;
-}
 protected
 :
 virtual
