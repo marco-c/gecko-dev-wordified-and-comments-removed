@@ -83,7 +83,7 @@ Reset
 void
 SwitchItem
 (
-nsPaintedDisplayItem
+nsDisplayItem
 *
 aItem
 wr
