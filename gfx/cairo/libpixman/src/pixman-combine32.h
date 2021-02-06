@@ -53,7 +53,7 @@ RB_ONE_HALF
 #
 define
 RB_MASK_PLUS_ONE
-0x10000100
+0x1000100
 #
 define
 ALPHA_8
