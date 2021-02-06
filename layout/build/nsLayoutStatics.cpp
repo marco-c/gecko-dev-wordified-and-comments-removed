@@ -397,13 +397,6 @@ h
 #
 include
 "
-HitTestInfo
-.
-h
-"
-#
-include
-"
 ActiveLayerTracker
 .
 h
@@ -2113,13 +2106,6 @@ ShutDown
 )
 ;
 DisplayItemClip
-:
-:
-Shutdown
-(
-)
-;
-HitTestInfo
 :
 :
 Shutdown
