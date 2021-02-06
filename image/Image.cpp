@@ -981,14 +981,11 @@ break
 else
 if
 (
+!
 entry
 -
 >
 mContainer
-.
-IsDead
-(
-)
 )
 {
 mImageContainers
