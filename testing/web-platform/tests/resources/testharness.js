@@ -5615,6 +5615,11 @@ name
 tests
 .
 current_test
+&
+&
+tests
+.
+current_test
 .
 name
 args
@@ -13802,6 +13807,10 @@ file_is_test
 =
 true
 ;
+tests
+.
+current_test
+=
 async_test
 (
 )
