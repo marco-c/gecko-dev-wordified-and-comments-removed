@@ -2052,6 +2052,15 @@ UrlbarTestUtils
 promisePopupClose
 (
 window
+(
+)
+=
+>
+gURLBar
+.
+blur
+(
+)
 )
 ;
 await
