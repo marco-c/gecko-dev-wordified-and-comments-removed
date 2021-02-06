@@ -1020,6 +1020,15 @@ const
 ;
 virtual
 void
+InvalidateVerticalScrollbar
+(
+)
+const
+=
+0
+;
+virtual
+void
 UpdateScrollbarPosition
 (
 )
