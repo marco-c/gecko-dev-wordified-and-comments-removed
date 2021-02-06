@@ -34,9 +34,12 @@ event
 {
 assert_equals
 (
-event
+Object
 .
-__proto__
+getPrototypeOf
+(
+event
+)
 MessageEvent
 .
 prototype

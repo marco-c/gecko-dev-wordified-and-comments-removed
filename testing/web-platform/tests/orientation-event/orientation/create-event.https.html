@@ -111,9 +111,12 @@ object
 ;
 assert_equals
 (
-event
+Object
 .
-__proto__
+getPrototypeOf
+(
+event
+)
 DeviceOrientationEvent
 .
 prototype

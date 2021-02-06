@@ -60,11 +60,13 @@ code
 "
 )
 ;
-WorkerLocation
+Object
 .
-__proto__
-=
+setPrototypeOf
+(
+WorkerLocation
 proto
+)
 ;
 assert_equals
 (

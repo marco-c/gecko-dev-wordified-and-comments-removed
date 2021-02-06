@@ -370,9 +370,12 @@ value
 ;
 assert_equals
 (
-params
+Object
 .
-__proto__
+getPrototypeOf
+(
+params
+)
 URLSearchParams
 .
 prototype

@@ -197,9 +197,12 @@ target
 ;
 assert_equals
 (
-e
+Object
 .
-__proto__
+getPrototypeOf
+(
+e
+)
 SVGUnknownElement
 .
 prototype
