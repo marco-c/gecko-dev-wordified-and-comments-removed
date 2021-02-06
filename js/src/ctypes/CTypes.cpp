@@ -17793,7 +17793,7 @@ ESClass
 :
 SharedArrayBuffer
 ;
-uint32_t
+size_t
 sourceLength
 =
 bufferShared
@@ -17837,10 +17837,7 @@ if
 arraySize
 !
 =
-size_t
-(
 sourceLength
-)
 )
 {
 MOZ_ASSERT
@@ -17855,10 +17852,7 @@ ArrayLengthMismatch
 cx
 arraySize
 targetType
-size_t
-(
 sourceLength
-)
 val
 convType
 )
