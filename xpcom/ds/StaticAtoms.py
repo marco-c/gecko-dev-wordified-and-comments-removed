@@ -22419,6 +22419,16 @@ _displayportbase
 Atom
 (
 "
+MinimalDisplayPort
+"
+"
+_minimaldisplayport
+"
+)
+    
+Atom
+(
+"
 forcemessagemanager
 "
 "

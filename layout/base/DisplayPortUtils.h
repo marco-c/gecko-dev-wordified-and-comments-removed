@@ -529,6 +529,14 @@ RepaintMode
 Repaint
 )
 ;
+enum
+class
+ClearMinimalDisplayPortProperty
+{
+No
+Yes
+}
+;
 static
 bool
 SetDisplayPortMargins
@@ -543,6 +551,8 @@ const
 DisplayPortMargins
 &
 aMargins
+ClearMinimalDisplayPortProperty
+aClearMinimalDisplayPortProperty
 uint32_t
 aPriority
 =

@@ -1712,6 +1712,12 @@ aDestination
 )
 const
 ;
+static
+bool
+ShouldActivateAllScrollFrames
+(
+)
+;
 nsRect
 RestrictToRootDisplayPort
 (
