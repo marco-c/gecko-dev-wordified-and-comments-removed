@@ -1766,12 +1766,12 @@ webrender
 &
 !
 layersGPUAccelerated
-4
+0
 -
-4
-2209
+0
+0
 -
-2209
+0
 )
 fuzzy
 -
@@ -1828,7 +1828,7 @@ no
 -
 accel
 is
-2209
+0
 qr
 passes
 with
