@@ -150,6 +150,8 @@ aName
 void
 OnODoHPrefsChange
 (
+bool
+aInit
 )
 ;
 void
