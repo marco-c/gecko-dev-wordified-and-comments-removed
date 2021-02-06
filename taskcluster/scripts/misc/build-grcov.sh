@@ -55,6 +55,13 @@ clang
 +
 +
 export
+CXXFLAGS
+=
+-
+D_GLIBCXX_USE_CXX11_ABI
+=
+0
+export
 PATH
 =
 "
