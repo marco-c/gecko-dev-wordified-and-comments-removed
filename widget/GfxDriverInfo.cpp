@@ -4844,6 +4844,16 @@ unknown
 ;
 DECLARE_DRIVER_VENDOR_ID
 (
+MesaR600
+"
+mesa
+/
+r600
+"
+)
+;
+DECLARE_DRIVER_VENDOR_ID
+(
 MesaNouveau
 "
 mesa
