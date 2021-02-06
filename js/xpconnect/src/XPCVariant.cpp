@@ -349,12 +349,10 @@ cb
 .
 NoteJSChild
 (
-JS
-:
-:
-GCCellPtr
-(
 val
+.
+toGCCellPtr
+(
 )
 )
 ;
