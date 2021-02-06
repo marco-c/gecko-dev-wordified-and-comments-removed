@@ -49,7 +49,7 @@ e
 .
 g
 .
-py27
+py38
 )
 #
 run
@@ -65,13 +65,13 @@ e
 .
 g
 .
-py27
+py38
 -
 firefox
 as
 well
 as
-py27
+py38
 )
 local
 OLD_TOXENV
