@@ -809,11 +809,6 @@ SSLTokensCache
 h
 "
 "
-TCPFastOpen
-.
-h
-"
-"
 ThrottleQueue
 .
 h
@@ -1140,11 +1135,6 @@ cpp
 "
 "
 SSLTokensCache
-.
-cpp
-"
-"
-TCPFastOpenLayer
 .
 cpp
 "
