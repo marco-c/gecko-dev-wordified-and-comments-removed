@@ -1378,6 +1378,16 @@ return
 isSameRealm_
 ;
 }
+void
+setIsSameRealm
+(
+)
+{
+isSameRealm_
+=
+true
+;
+}
 bool
 needsUninitializedThis
 (
@@ -5579,10 +5589,6 @@ MOZ_ASSERT
 (
 !
 isConstructing
-&
-&
-!
-isSameRealm
 )
 ;
 return
