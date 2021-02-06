@@ -318,17 +318,6 @@ submit
 )
 ;
 [
-Pref
-=
-"
-dom
-.
-forms
-.
-requestsubmit
-.
-enabled
-"
 Throws
 ]
 void
