@@ -190,6 +190,9 @@ GeckoWebExecutor
 HardwareCodecCapabilityUtils
 "
 "
+Image
+"
+"
 ImageDecoder
 "
 "
