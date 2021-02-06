@@ -8678,8 +8678,12 @@ gTRRService
 gTRRService
 -
 >
-IsConfirmed
+Enabled
 (
+rec
+-
+>
+mEffectiveTRRMode
 )
 ;
 if

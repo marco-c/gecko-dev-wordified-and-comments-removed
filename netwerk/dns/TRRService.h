@@ -119,12 +119,12 @@ nsIRequest
 :
 :
 TRRMode
-aMode
+aRequestMode
 =
 nsIRequest
 :
 :
-TRR_FIRST_MODE
+TRR_DEFAULT_MODE
 )
 ;
 bool
