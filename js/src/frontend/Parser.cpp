@@ -4330,6 +4330,10 @@ this
 getCompilationStencil
 (
 )
+.
+input
+.
+atomCache
 name
 )
 ;
@@ -13528,6 +13532,10 @@ this
 -
 >
 stencil_
+.
+input
+.
+atomCache
 fun
 -
 >
@@ -15687,6 +15695,10 @@ this
 -
 >
 stencil_
+.
+input
+.
+atomCache
 fun
 -
 >

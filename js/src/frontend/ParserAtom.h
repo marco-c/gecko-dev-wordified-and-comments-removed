@@ -3841,9 +3841,9 @@ internJSAtom
 JSContext
 *
 cx
-CompilationStencil
+CompilationAtomCache
 &
-stencil
+atomCache
 JSAtom
 *
 atom
