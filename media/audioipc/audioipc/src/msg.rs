@@ -11,9 +11,6 @@ iovec
 IoVec
 ;
 use
-libc
-;
-use
 std
 :
 :
