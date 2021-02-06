@@ -147,6 +147,10 @@ dom
 Document
 *
 aDOMDocument
+bool
+aAllowServiceShutdown
+=
+true
 )
 ;
 void
@@ -155,6 +159,10 @@ RemoveFromXPCDocumentCache
 DocAccessible
 *
 aDocument
+bool
+aAllowServiceShutdown
+=
+true
 )
 ;
 xpcAccessibleDocument
