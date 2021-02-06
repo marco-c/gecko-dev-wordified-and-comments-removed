@@ -197,13 +197,6 @@ h
 #
 include
 "
-TCPFastOpenLayer
-.
-h
-"
-#
-include
-"
 Http3Session
 .
 h

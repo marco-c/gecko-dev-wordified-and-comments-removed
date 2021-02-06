@@ -1034,14 +1034,6 @@ aAlpnChanged
 final
 ;
 void
-SetFastOpenStatus
-(
-uint8_t
-aStatus
-)
-final
-;
-void
 Received421
 (
 nsHttpConnectionInfo
@@ -1762,12 +1754,6 @@ mFirstHttpTransaction
 ;
 bool
 mTlsHandshakeFinished
-;
-bool
-mCheckNetworkStallsWithTFO
-;
-PRIntervalTime
-mLastRequestBytesSentTime
 ;
 bool
 mPeerFailedHandshake

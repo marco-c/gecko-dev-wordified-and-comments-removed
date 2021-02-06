@@ -350,9 +350,6 @@ net
 struct
 HttpHandlerInitArgs
 {
-bool
-mFastOpenSupported
-;
 nsCString
 mLegacyAppName
 ;

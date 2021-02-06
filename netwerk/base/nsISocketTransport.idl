@@ -2110,11 +2110,6 @@ long
 keepaliveRetryInterval
 )
 ;
-readonly
-attribute
-nsresult
-firstRetryError
-;
 /
 *
 *
