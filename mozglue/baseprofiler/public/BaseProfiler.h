@@ -157,6 +157,8 @@ profiler_capture_backtrace_into
 ProfileChunkedBuffer
 &
 aChunkedBuffer
+StackCaptureOptions
+aCaptureOptions
 )
 {
 return
@@ -294,6 +296,10 @@ MallocAllocPolicy
 ;
 class
 ProfileChunkedBuffer
+;
+enum
+class
+StackCaptureOptions
 ;
 template
 <
@@ -1756,6 +1762,8 @@ profiler_capture_backtrace_into
 ProfileChunkedBuffer
 &
 aChunkedBuffer
+StackCaptureOptions
+aCaptureOptions
 )
 ;
 MFBT_API
