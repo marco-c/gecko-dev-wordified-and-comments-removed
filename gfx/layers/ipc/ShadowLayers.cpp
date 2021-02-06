@@ -5445,11 +5445,6 @@ const
 SurfaceDescriptor
 &
 aDescriptor
-gfx
-:
-:
-BackendType
-aBackend
 )
 {
 uint8_t
@@ -5504,7 +5499,7 @@ gfx
 BackendType
 :
 :
-CAIRO
+SKIA
 data
 rgb
 .

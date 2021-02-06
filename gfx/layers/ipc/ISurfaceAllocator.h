@@ -627,11 +627,6 @@ const
 SurfaceDescriptor
 &
 aDescriptor
-gfx
-:
-:
-BackendType
-aBackend
 )
 ;
 already_AddRefed
