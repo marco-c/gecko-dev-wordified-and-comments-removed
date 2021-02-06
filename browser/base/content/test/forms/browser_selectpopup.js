@@ -4212,6 +4212,9 @@ type
 "
 mousemove
 "
+buttons
+:
+1
 }
 win
 )
@@ -4255,6 +4258,9 @@ type
 "
 mousemove
 "
+buttons
+:
+1
 }
 win
 )
@@ -4304,6 +4310,9 @@ type
 "
 mousemove
 "
+buttons
+:
+1
 }
 win
 )
@@ -4373,6 +4382,9 @@ type
 "
 mousemove
 "
+buttons
+:
+1
 }
 win
 )
@@ -4564,6 +4576,9 @@ type
 "
 mousemove
 "
+buttons
+:
+1
 }
 win
 )
@@ -4629,6 +4644,9 @@ type
 "
 mousemove
 "
+buttons
+:
+1
 }
 win
 )
@@ -6167,6 +6185,9 @@ type
 "
 mousemove
 "
+buttons
+:
+1
 }
 )
 ;
