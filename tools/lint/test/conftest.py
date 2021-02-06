@@ -1340,7 +1340,7 @@ as
 tmpdir
 :
         
-suitedir
+suite_dir
 =
 os
 .
@@ -1379,7 +1379,7 @@ os
 .
 mkdir
 (
-suitedir
+suite_dir
 )
         
 with
@@ -1393,7 +1393,7 @@ ini
 "
 tempdir
 =
-suitedir
+suite_dir
 content
 =
 "
@@ -1417,7 +1417,7 @@ js
 "
 tempdir
 =
-suitedir
+suite_dir
 content
 =
 SAMPLE_TEST
