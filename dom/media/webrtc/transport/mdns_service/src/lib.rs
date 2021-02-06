@@ -76,12 +76,6 @@ use
 std
 :
 :
-panic
-;
-use
-std
-:
-:
 sync
 :
 :
