@@ -166,6 +166,12 @@ clang
 .
 yml
 -
+compiler
+-
+rt
+.
+yml
+-
 dump
 -
 syms
