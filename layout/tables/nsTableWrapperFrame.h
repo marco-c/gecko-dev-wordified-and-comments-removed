@@ -1170,11 +1170,6 @@ mozilla
 StyleSizeOverrides
 &
 aSizeOverrides
-nscoord
-*
-aMarginResult
-=
-nullptr
 )
 const
 ;
