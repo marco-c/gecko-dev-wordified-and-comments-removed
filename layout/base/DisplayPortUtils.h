@@ -477,6 +477,15 @@ aContent
 ;
 static
 bool
+HasNonMinimalNonZeroDisplayPort
+(
+nsIContent
+*
+aContent
+)
+;
+static
+bool
 IsMissingDisplayPortBaseRect
 (
 nsIContent
