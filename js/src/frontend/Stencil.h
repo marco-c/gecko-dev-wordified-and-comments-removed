@@ -3437,6 +3437,7 @@ JSONPrinter
 json
 TaggedParserAtomIndex
 taggedIndex
+const
 BaseCompilationStencil
 *
 stencil
