@@ -5246,24 +5246,6 @@ child
         
 (
 "
-PGIOChannel
-"
-"
-child
-"
-)
-        
-(
-"
-PGIOChannel
-"
-"
-parent
-"
-)
-        
-(
-"
 PFileChannel
 "
 "
