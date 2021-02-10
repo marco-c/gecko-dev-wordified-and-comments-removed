@@ -420,10 +420,6 @@ type
 CONNECT
 "
 +
-traits
-:
-Object
-+
 isWebExtension
 :
 boolean

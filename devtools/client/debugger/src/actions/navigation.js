@@ -188,9 +188,6 @@ URL
 actor
 :
 ActorId
-traits
-:
-Object
 isWebExtension
 :
 boolean
@@ -218,7 +215,6 @@ type
 "
 CONNECT
 "
-traits
 mainThreadActorID
 :
 actor
