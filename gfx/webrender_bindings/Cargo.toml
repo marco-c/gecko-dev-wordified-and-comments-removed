@@ -266,6 +266,9 @@ serialize_program
 "
 gecko
 "
+"
+sw_compositor
+"
 ]
 [
 target
