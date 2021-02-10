@@ -2288,6 +2288,14 @@ override
 void
 BlurOuter
 (
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 mozilla
