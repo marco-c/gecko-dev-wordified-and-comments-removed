@@ -5676,6 +5676,13 @@ fallbackConnInfo
 =
 mOrigConnInfo
 ;
+return
+fallbackConnInfo
+.
+forget
+(
+)
+;
 }
 fallbackConnInfo
 =
