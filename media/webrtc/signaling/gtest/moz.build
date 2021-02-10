@@ -243,9 +243,9 @@ webrtc
 "
 "
 /
-netwerk
+third_party
 /
-srtp
+libsrtp
 /
 src
 /

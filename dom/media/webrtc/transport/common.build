@@ -423,9 +423,9 @@ libekr
 "
 "
 /
-netwerk
+third_party
 /
-srtp
+libsrtp
 /
 src
 /
@@ -435,9 +435,9 @@ include
 "
 "
 /
-netwerk
+third_party
 /
-srtp
+libsrtp
 /
 src
 /
