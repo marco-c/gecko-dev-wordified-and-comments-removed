@@ -2984,14 +2984,6 @@ Blur
 mozilla
 :
 :
-dom
-:
-:
-CallerType
-aCallerType
-mozilla
-:
-:
 ErrorResult
 &
 aError
