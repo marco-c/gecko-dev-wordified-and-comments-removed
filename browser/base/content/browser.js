@@ -3146,6 +3146,16 @@ aNewVal
 {
 if
 (
+window
+.
+closed
+)
+{
+return
+;
+}
+if
+(
 aNewVal
 )
 {
