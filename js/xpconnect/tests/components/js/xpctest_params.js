@@ -283,6 +283,17 @@ f_is
 testStringArray
 :
 f_is
+testByteArrayOptionalLength
+(
+arr
+)
+{
+return
+arr
+.
+length
+;
+}
 testWstringArray
 :
 f_is
