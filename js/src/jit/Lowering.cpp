@@ -15804,7 +15804,7 @@ alloc
 )
 LInt32ToIntPtr
 (
-useRegisterAtStart
+useAnyAtStart
 (
 input
 )
