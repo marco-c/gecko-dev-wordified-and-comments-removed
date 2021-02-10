@@ -117,3 +117,8 @@ xz
 wasi
 -
 sysroot
+/
+{
+lib
+share
+}
