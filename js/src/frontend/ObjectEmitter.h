@@ -705,16 +705,6 @@ needsHomeObject
 ;
 MOZ_MUST_USE
 bool
-emitInitDefaultConstructor
-(
-uint32_t
-classStart
-uint32_t
-classEnd
-)
-;
-MOZ_MUST_USE
-bool
 prepareForMemberInitializers
 (
 size_t

@@ -8208,12 +8208,6 @@ case
 JSOp
 :
 :
-ClassConstructor
-:
-case
-JSOp
-:
-:
 Typeof
 :
 case
@@ -8461,12 +8455,6 @@ JSOp
 :
 :
 BuiltinObject
-:
-case
-JSOp
-:
-:
-DerivedConstructor
 :
 case
 JSOp
