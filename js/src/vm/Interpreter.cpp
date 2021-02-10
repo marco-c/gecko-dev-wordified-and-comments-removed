@@ -7874,7 +7874,7 @@ static_assert
 JSOpLength_IfNe
 =
 =
-JSOpLength_IfEq
+JSOpLength_JumpIfFalse
 )
 ;
 static_assert
@@ -7893,7 +7893,7 @@ uint8_t
 JSOp
 :
 :
-IfEq
+JumpIfFalse
 )
 +
 1
@@ -12792,7 +12792,7 @@ pc
 }
 CASE
 (
-IfEq
+JumpIfFalse
 )
 {
 bool
@@ -12835,7 +12835,7 @@ pc
 }
 END_CASE
 (
-IfEq
+JumpIfFalse
 )
 CASE
 (
@@ -13071,6 +13071,7 @@ pc
 unsigned
 diff_
 =
+\
 (
 unsigned
 )
@@ -13087,7 +13088,7 @@ unsigned
 JSOp
 :
 :
-IfEq
+JumpIfFalse
 ;
 \
 if
@@ -13149,7 +13150,7 @@ ADVANCE_AND_DISPATCH
 (
 1
 +
-JSOpLength_IfEq
+JSOpLength_JumpIfFalse
 )
 ;
 \

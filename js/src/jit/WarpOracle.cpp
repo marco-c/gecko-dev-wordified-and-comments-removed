@@ -3639,7 +3639,7 @@ case
 JSOp
 :
 :
-IfEq
+JumpIfFalse
 :
 case
 JSOp

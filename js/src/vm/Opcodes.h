@@ -2220,8 +2220,8 @@ JOF_JUMP
 \
 MACRO
 (
-IfEq
-if_eq
+JumpIfFalse
+jump_if_false
 NULL
 5
 1
