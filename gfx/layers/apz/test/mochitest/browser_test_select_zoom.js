@@ -175,14 +175,6 @@ fling_min_velocity_threshold
 10000
 "
 ]
-[
-"
-apz
-.
-allow_zooming
-"
-true
-]
 ]
 }
 )
