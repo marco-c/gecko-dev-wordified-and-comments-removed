@@ -40,8 +40,6 @@ remote
 /
 content
 /
-shared
-/
 Sync
 .
 jsm
@@ -388,8 +386,6 @@ chrome
 remote
 /
 content
-/
-shared
 /
 Sync
 .

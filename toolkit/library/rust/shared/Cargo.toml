@@ -1034,10 +1034,6 @@ path
 .
 /
 remote
-/
-components
-/
-rust
 "
 optional
 =
