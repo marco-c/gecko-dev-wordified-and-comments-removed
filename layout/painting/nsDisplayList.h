@@ -18439,6 +18439,12 @@ IsThemedOutline
 )
 const
 ;
+bool
+HasRadius
+(
+)
+const
+;
 }
 ;
 class
