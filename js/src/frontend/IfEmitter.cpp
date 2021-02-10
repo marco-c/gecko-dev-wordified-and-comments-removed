@@ -150,7 +150,7 @@ JumpIfFalse
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 ;
 if
 (

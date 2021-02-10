@@ -24835,7 +24835,7 @@ emitJump
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 &
 loopInfo
 .
@@ -30721,7 +30721,7 @@ emitJump
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 &
 loopInfo
 .

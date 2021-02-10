@@ -1676,7 +1676,7 @@ case
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 :
 {
 auto

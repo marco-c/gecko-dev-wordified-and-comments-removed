@@ -1226,7 +1226,7 @@ case
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 :
 return
 GET_JUMP_OFFSET

@@ -6116,7 +6116,7 @@ case
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 :
 case
 JSOp
@@ -7506,7 +7506,7 @@ op
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 )
 ;
 MOZ_ASSERT
@@ -7647,7 +7647,7 @@ bool
 WarpBuilder
 :
 :
-build_IfNe
+build_JumpIfTrue
 (
 BytecodeLocation
 loc

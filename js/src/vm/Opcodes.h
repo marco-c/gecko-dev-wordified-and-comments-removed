@@ -2234,8 +2234,8 @@ JOF_IC
 \
 MACRO
 (
-IfNe
-if_ne
+JumpIfTrue
+jump_if_true
 NULL
 5
 1

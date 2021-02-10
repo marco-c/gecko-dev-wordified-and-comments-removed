@@ -283,7 +283,7 @@ bce_
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 TryNoteKind
 :
 :

@@ -273,7 +273,7 @@ emitJump
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 &
 loopInfo_
 -
