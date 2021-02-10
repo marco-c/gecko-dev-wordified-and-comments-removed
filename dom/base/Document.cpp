@@ -60911,6 +60911,17 @@ IsInComposedDoc
 )
 )
 ;
+if
+(
+MOZ_UNLIKELY
+(
+mIsStaticDocument
+)
+)
+{
+return
+;
+}
 mSVGUseElementsNeedingShadowTreeUpdate
 .
 PutEntry
