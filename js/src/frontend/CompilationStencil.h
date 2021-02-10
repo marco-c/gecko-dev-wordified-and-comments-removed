@@ -1,9 +1,9 @@
 #
 ifndef
-frontend_CompilationInfo_h
+frontend_CompilationStencil_h
 #
 define
-frontend_CompilationInfo_h
+frontend_CompilationStencil_h
 #
 include
 "
