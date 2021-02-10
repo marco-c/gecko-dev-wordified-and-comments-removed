@@ -1747,6 +1747,7 @@ void
 dump
 (
 )
+const
 ;
 void
 dump
@@ -1758,6 +1759,7 @@ JSONPrinter
 &
 json
 )
+const
 ;
 void
 dumpFields
@@ -1769,6 +1771,7 @@ JSONPrinter
 &
 json
 )
+const
 ;
 #
 endif
@@ -2025,6 +2028,7 @@ void
 dump
 (
 )
+const
 ;
 void
 dump
@@ -2036,6 +2040,7 @@ JSONPrinter
 &
 json
 )
+const
 ;
 void
 dumpFields
@@ -2047,6 +2052,7 @@ JSONPrinter
 &
 json
 )
+const
 ;
 void
 dumpAtom
@@ -2922,6 +2928,7 @@ void
 dump
 (
 )
+const
 ;
 void
 dump
@@ -2933,6 +2940,7 @@ JSONPrinter
 &
 json
 )
+const
 ;
 void
 dumpFields
@@ -2944,6 +2952,7 @@ JSONPrinter
 &
 json
 )
+const
 ;
 #
 endif

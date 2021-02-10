@@ -1366,6 +1366,7 @@ void
 dump
 (
 )
+const
 ;
 void
 dump
@@ -1373,6 +1374,7 @@ dump
 JSONPrinter
 &
 json
+const
 frontend
 :
 :
@@ -1380,6 +1382,7 @@ BaseCompilationStencil
 *
 stencil
 )
+const
 ;
 void
 dumpFields
@@ -1387,6 +1390,7 @@ dumpFields
 JSONPrinter
 &
 json
+const
 frontend
 :
 :
@@ -1394,6 +1398,7 @@ BaseCompilationStencil
 *
 stencil
 )
+const
 ;
 #
 endif
@@ -2505,6 +2510,7 @@ void
 dump
 (
 )
+const
 ;
 void
 dump
@@ -2512,6 +2518,7 @@ dump
 JSONPrinter
 &
 json
+const
 frontend
 :
 :
@@ -2519,6 +2526,7 @@ BaseCompilationStencil
 *
 stencil
 )
+const
 ;
 void
 dumpFields
@@ -2526,6 +2534,7 @@ dumpFields
 JSONPrinter
 &
 json
+const
 frontend
 :
 :
@@ -2533,6 +2542,7 @@ BaseCompilationStencil
 *
 stencil
 )
+const
 ;
 #
 endif
