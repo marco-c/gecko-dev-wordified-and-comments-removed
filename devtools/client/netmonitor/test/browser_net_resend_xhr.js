@@ -98,7 +98,6 @@ item
 0
 ]
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -156,7 +155,6 @@ monitor
 1
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

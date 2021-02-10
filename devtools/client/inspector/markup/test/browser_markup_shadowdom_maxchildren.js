@@ -716,7 +716,6 @@ container
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

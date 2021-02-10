@@ -173,7 +173,6 @@ focus
 "
 )
 ;
-await
 dblclick
 (
 treeRoot

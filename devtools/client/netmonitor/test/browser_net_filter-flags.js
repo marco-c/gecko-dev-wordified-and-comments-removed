@@ -2830,7 +2830,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

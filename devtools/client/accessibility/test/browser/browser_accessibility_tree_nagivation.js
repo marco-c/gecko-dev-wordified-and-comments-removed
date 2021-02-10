@@ -397,7 +397,6 @@ node
 "
 setup
 :
-async
 (
 {
 doc
@@ -405,15 +404,11 @@ doc
 )
 =
 >
-{
-await
 selectRow
 (
 doc
 2
 )
-;
-}
 expected
 :
 {

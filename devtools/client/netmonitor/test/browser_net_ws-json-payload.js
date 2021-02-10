@@ -250,7 +250,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -348,7 +347,6 @@ requestFrame
 =
 frames
 ;
-await
 EventUtils
 .
 sendMouseEvent

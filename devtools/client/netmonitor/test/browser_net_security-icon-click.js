@@ -163,7 +163,6 @@ again
 "
 )
 ;
-await
 clickOnSidebarTab
 (
 document
@@ -184,7 +183,6 @@ filename
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

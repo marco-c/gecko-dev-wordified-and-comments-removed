@@ -230,7 +230,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -248,7 +247,6 @@ requests
 ]
 )
 ;
-await
 clickOnSidebarTab
 (
 document
@@ -307,7 +305,6 @@ waitForTick
 (
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

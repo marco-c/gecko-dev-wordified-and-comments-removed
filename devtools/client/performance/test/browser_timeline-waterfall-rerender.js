@@ -444,7 +444,6 @@ EVENTS
 UI_WATERFALL_RENDERED
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

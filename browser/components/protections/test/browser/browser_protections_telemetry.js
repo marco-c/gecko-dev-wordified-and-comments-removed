@@ -5878,7 +5878,6 @@ visible
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -6117,7 +6116,6 @@ card
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -6332,7 +6330,6 @@ card
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -6850,7 +6847,6 @@ visible
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -7052,7 +7048,6 @@ visible
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

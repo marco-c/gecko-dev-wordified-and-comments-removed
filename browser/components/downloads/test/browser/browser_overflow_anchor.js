@@ -137,7 +137,6 @@ promisePanelOpened
 (
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -239,7 +238,6 @@ promisePanelOpened
 (
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

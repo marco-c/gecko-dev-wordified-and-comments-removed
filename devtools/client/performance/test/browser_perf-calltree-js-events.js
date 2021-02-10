@@ -314,7 +314,6 @@ focus
 onFocus
 )
 ;
-await
 click
 (
 firstTreeItem

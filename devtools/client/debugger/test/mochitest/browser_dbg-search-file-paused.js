@@ -243,7 +243,6 @@ frames
 "
 )
 ;
-await
 pressMouseDown
 (
 dbg
@@ -320,7 +319,6 @@ waitForSearchState
 dbg
 )
 ;
-await
 pressMouseDown
 (
 dbg
@@ -445,7 +443,6 @@ doc
 activeElement
 ;
 }
-async
 function
 pressMouseDown
 (
@@ -453,7 +450,6 @@ dbg
 node
 )
 {
-await
 EventUtils
 .
 sendMouseEvent

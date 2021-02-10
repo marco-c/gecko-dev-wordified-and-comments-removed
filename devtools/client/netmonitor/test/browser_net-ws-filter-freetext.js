@@ -238,7 +238,6 @@ item
 6
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -256,7 +255,6 @@ requests
 ]
 )
 ;
-await
 clickOnSidebarTab
 (
 document
@@ -437,7 +435,6 @@ frames
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

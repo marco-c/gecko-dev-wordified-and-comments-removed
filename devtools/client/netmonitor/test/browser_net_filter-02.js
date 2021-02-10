@@ -758,7 +758,6 @@ REQUESTS_WITH_MEDIA_AND_FLASH_AND_WS
 await
 wait
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -909,7 +908,6 @@ filtering
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1134,7 +1132,6 @@ filters
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1312,7 +1309,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
