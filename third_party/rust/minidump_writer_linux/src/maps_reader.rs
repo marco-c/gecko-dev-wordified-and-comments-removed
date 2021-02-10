@@ -1908,6 +1908,17 @@ cfg
 test
 )
 ]
+#
+[
+cfg
+(
+target_pointer_width
+=
+"
+64
+"
+)
+]
 mod
 tests
 {

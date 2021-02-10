@@ -39,7 +39,6 @@ libc
 :
 :
 {
-greg_t
 REG_CSGSFS
 REG_EFL
 REG_R10
@@ -73,7 +72,7 @@ self
 )
 -
 >
-greg_t
+usize
 {
 self
 .
@@ -87,6 +86,8 @@ REG_RIP
 as
 usize
 ]
+as
+usize
 }
 pub
 fn
@@ -97,7 +98,7 @@ self
 )
 -
 >
-greg_t
+usize
 {
 self
 .
@@ -111,6 +112,8 @@ REG_RSP
 as
 usize
 ]
+as
+usize
 }
 pub
 fn

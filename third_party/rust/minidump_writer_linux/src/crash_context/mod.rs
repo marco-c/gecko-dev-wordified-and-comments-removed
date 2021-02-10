@@ -285,8 +285,6 @@ target_arch
 =
 "
 arm
--
-eabi
 "
 )
 )

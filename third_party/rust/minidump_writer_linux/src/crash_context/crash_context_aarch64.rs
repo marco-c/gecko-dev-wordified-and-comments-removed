@@ -4,12 +4,6 @@ super
 :
 CrashContext
 ;
-use
-libc
-:
-:
-greg_t
-;
 impl
 CrashContext
 {
@@ -22,7 +16,7 @@ self
 )
 -
 >
-greg_t
+usize
 {
 self
 .
@@ -31,6 +25,8 @@ context
 uc_mcontext
 .
 sp
+as
+usize
 }
 pub
 fn
@@ -41,7 +37,7 @@ self
 )
 -
 >
-greg_t
+usize
 {
 self
 .
@@ -50,5 +46,7 @@ context
 uc_mcontext
 .
 pc
+as
+usize
 }
 }

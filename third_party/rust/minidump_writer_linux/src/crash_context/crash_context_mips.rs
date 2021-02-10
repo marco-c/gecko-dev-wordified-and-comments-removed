@@ -8,10 +8,7 @@ use
 libc
 :
 :
-{
-greg_t
 MD_CONTEXT_MIPS_REG_SP
-}
 ;
 impl
 CrashContext
@@ -25,7 +22,7 @@ self
 )
 -
 >
-greg_t
+usize
 {
 self
 .
@@ -34,6 +31,8 @@ context
 uc_mcontext
 .
 pc
+as
+usize
 }
 pub
 fn
@@ -44,7 +43,7 @@ self
 )
 -
 >
-greg_t
+usize
 {
 self
 .
@@ -58,5 +57,7 @@ MD_CONTEXT_MIPS_REG_SP
 as
 usize
 ]
+as
+usize
 }
 }
