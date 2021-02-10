@@ -58,12 +58,12 @@ CFLAGS
 =
 "
 -
-L
+-
+sysroot
+=
 MOZ_FETCHES_DIR
 /
-clang
-/
-lib
+sysroot
 "
 export
 CXXFLAGS
