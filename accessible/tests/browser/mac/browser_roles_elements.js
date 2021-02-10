@@ -1738,7 +1738,7 @@ accDoc
 textbox_singleline
 "
 "
-AXTextArea
+AXTextField
 "
 )
 ;
