@@ -248,6 +248,11 @@ DecryptingInputStream
 cpp
 "
 "
+DirectoryLockImpl
+.
+cpp
+"
+"
 EncryptingOutputStream
 .
 cpp
