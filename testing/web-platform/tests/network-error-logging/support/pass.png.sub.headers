@@ -100,13 +100,9 @@ https
 }
 }
 /
-network
--
-error
--
-logging
+reporting
 /
-support
+resources
 /
 report
 .
