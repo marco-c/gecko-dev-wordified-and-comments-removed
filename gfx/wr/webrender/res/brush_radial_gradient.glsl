@@ -531,6 +531,14 @@ alias
 the
 result
 .
+float
+aa_range
+=
+compute_aa_range
+(
+v_local_pos
+)
+;
 while
 (
 swgl_SpanLength
@@ -541,9 +549,10 @@ swgl_SpanLength
 float
 alpha
 =
-init_transform_fs
+init_transform_fs_noperspective
 (
 v_local_pos
+aa_range
 )
 ;
 v_local_pos
