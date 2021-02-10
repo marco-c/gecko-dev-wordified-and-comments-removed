@@ -60,6 +60,8 @@ copy
 .
 mojom
 .
+m
+.
 js
 into
 this
