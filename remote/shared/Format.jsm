@@ -33,6 +33,8 @@ remote
 /
 content
 /
+shared
+/
 Log
 .
 jsm
