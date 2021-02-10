@@ -3261,8 +3261,11 @@ else
 ErrorResult
 error
 ;
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >
@@ -7873,8 +7876,11 @@ StealNSResult
 ErrorResult
 error
 ;
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >

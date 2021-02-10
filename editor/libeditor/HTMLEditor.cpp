@@ -18785,8 +18785,11 @@ rv
 ErrorResult
 error
 ;
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >
@@ -18928,8 +18931,10 @@ AsContent
 (
 )
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 rootContent
 ;
 if
@@ -19094,8 +19099,11 @@ SelectionRefPtr
 ErrorResult
 error
 ;
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >
