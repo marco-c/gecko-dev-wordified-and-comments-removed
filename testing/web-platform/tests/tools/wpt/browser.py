@@ -29,10 +29,6 @@ spawn
 import
 find_executable
 from
-six
-.
-moves
-.
 urllib
 .
 parse

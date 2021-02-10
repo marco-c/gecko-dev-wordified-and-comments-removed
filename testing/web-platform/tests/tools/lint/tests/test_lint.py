@@ -1,15 +1,11 @@
-from
-__future__
 import
-unicode_literals
+io
 import
 os
 import
 sys
 import
 mock
-import
-six
 here
 =
 os
@@ -469,7 +465,7 @@ test_parse_ignorelist
     
 input_buffer
 =
-six
+io
 .
 StringIO
 (

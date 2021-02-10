@@ -17,10 +17,6 @@ from
 tools
 import
 localpaths
-from
-six
-import
-iteritems
 wpt_root
 =
 os
@@ -773,9 +769,10 @@ for
 key
 value
 in
-iteritems
-(
 job_path_map
+.
+items
+(
 )
 :
         
@@ -862,9 +859,10 @@ for
 job
 path_re
 in
-iteritems
-(
 job_path_map
+.
+items
+(
 )
 :
             

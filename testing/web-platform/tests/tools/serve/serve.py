@@ -19,6 +19,8 @@ abc
 import
 argparse
 import
+importlib
+import
 json
 import
 logging
@@ -42,10 +44,6 @@ import
 time
 import
 traceback
-from
-six
-.
-moves
 import
 urllib
 import
@@ -64,12 +62,6 @@ from
 localpaths
 import
 repo_root
-from
-six
-.
-moves
-import
-reload_module
 from
 manifest
 .
@@ -5063,7 +5055,9 @@ kwargs
 )
 :
     
-reload_module
+importlib
+.
+reload
 (
 logging
 )
@@ -5128,7 +5122,9 @@ kwargs
 )
 :
     
-reload_module
+importlib
+.
+reload
 (
 logging
 )
@@ -5486,7 +5482,9 @@ kwargs
 )
 :
     
-reload_module
+importlib
+.
+reload
 (
 logging
 )

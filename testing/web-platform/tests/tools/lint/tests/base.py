@@ -2,11 +2,6 @@ from
 __future__
 import
 unicode_literals
-from
-six
-import
-integer_types
-text_type
 def
 check_errors
 (
@@ -31,21 +26,21 @@ assert
 isinstance
 (
 error_type
-text_type
+str
 )
         
 assert
 isinstance
 (
 description
-text_type
+str
 )
         
 assert
 isinstance
 (
 path
-text_type
+str
 )
         
 assert
@@ -56,5 +51,5 @@ or
 isinstance
 (
 line_number
-integer_types
+int
 )

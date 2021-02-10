@@ -6,10 +6,6 @@ import
 os
 import
 sys
-from
-six
-import
-iteritems
 here
 =
 os
@@ -678,9 +674,10 @@ key
 value
 )
 in
-iteritems
-(
 obj
+.
+items
+(
 )
 }
         

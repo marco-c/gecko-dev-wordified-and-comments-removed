@@ -10,8 +10,6 @@ import
 os
 import
 re
-import
-six
 MYPY
 =
 False
@@ -73,14 +71,11 @@ n
 class
 Rule
 (
-six
-.
-with_metaclass
-(
+metaclass
+=
 abc
 .
 ABCMeta
-)
 )
 :
     
@@ -2416,14 +2411,11 @@ tentative
 class
 Regexp
 (
-six
-.
-with_metaclass
-(
+metaclass
+=
 abc
 .
 ABCMeta
-)
 )
 :
     

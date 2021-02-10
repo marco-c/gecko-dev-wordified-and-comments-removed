@@ -27,10 +27,6 @@ error
 as
 SocketError
 from
-six
-.
-moves
-.
 urllib
 .
 request
