@@ -339,6 +339,20 @@ return
 mFocusedBrowsingContextInContent
 ;
 }
+bool
+IsInActiveWindow
+(
+mozilla
+:
+:
+dom
+:
+:
+BrowsingContext
+*
+)
+const
+;
 nsPIDOMWindowOuter
 *
 GetActiveWindow
@@ -836,6 +850,7 @@ nsPIDOMWindowOuter
 *
 aWindow
 )
+const
 ;
 bool
 IsSameOrAncestor
@@ -853,6 +868,7 @@ BrowsingContext
 *
 aContext
 )
+const
 ;
 bool
 IsSameOrAncestor
@@ -870,6 +886,7 @@ nsPIDOMWindowOuter
 *
 aWindow
 )
+const
 ;
 bool
 IsSameOrAncestor
@@ -893,6 +910,7 @@ BrowsingContext
 *
 aContext
 )
+const
 ;
 mozilla
 :
