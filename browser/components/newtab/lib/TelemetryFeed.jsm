@@ -1494,8 +1494,6 @@ isInCFRCohort
 (
 )
 {
-try
-{
 const
 experimentData
 =
@@ -1525,13 +1523,6 @@ slug
 return
 true
 ;
-}
-}
-catch
-(
-e
-)
-{
 }
 return
 false

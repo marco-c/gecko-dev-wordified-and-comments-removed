@@ -18849,12 +18849,6 @@ jsm
 let
 isFeatureEnabled
 =
-false
-;
-try
-{
-isFeatureEnabled
-=
 ExperimentAPI
 .
 getExperiment
@@ -18878,13 +18872,6 @@ feature
 .
 enabled
 ;
-}
-catch
-(
-e
-)
-{
-}
 if
 (
 willPrompt
