@@ -13685,7 +13685,7 @@ TypedArrayObject
 ;
 }
 JS_FRIEND_API
-uint32_t
+size_t
 JS_GetTypedArrayLength
 (
 JSObject
@@ -13725,7 +13725,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
