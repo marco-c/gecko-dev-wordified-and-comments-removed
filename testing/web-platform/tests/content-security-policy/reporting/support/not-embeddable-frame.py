@@ -114,13 +114,10 @@ none
 report
 -
 uri
-.
-.
 /
-.
-.
+reporting
 /
-support
+resources
 /
 report
 .

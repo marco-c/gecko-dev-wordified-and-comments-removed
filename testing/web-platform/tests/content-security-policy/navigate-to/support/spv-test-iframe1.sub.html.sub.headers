@@ -79,13 +79,9 @@ report
 -
 uri
 /
-content
--
-security
--
-policy
+reporting
 /
-support
+resources
 /
 report
 .
