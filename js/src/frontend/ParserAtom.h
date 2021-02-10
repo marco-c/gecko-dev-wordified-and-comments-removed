@@ -3994,6 +3994,14 @@ entries_
 ;
 }
 bool
+isIdentifier
+(
+TaggedParserAtomIndex
+index
+)
+const
+;
+bool
 isPrivateName
 (
 TaggedParserAtomIndex
