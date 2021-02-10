@@ -17230,6 +17230,7 @@ FORWARD_TO_OUTER_OR_THROW
 FocusOuter
 (
 aCallerType
+false
 nsFocusManager
 :
 :
