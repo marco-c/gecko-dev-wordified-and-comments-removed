@@ -81,8 +81,6 @@ ThreadFront
 return
 dbg
 .
-connection
-.
 targetList
 .
 targetFront
