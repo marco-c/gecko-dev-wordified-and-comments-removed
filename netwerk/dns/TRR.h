@@ -448,6 +448,8 @@ override
 void
 Cancel
 (
+nsresult
+aStatus
 )
 ;
 enum
