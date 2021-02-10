@@ -640,6 +640,9 @@ engines
 "
 gecko
 "
+needs_context
+=
+False
 initial_specified_value
 =
 "

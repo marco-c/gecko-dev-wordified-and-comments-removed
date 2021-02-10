@@ -554,6 +554,9 @@ word
 -
 wrap
 "
+needs_context
+=
+False
 servo_restyle_damage
 =
 "
@@ -632,6 +635,9 @@ word
 -
 break
 "
+needs_context
+=
+False
 servo_restyle_damage
 =
 "
@@ -938,6 +944,9 @@ TextAlignLast
 :
 Auto
 "
+needs_context
+=
+False
 engines
 =
 "
@@ -1897,6 +1906,9 @@ break
 -
 property
 "
+needs_context
+=
+False
 )
 }
 {
@@ -2615,6 +2627,9 @@ engines
 "
 gecko
 "
+needs_context
+=
+False
 animation_value_type
 =
 "
