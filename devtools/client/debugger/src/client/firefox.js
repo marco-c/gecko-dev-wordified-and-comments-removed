@@ -309,6 +309,12 @@ onBreakpointAvailable
 }
 )
 ;
+sourceQueue
+.
+clear
+(
+)
+;
 }
 async
 function
