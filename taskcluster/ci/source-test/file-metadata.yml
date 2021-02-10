@@ -146,6 +146,9 @@ treeherder
 symbol
 :
 Bugzilla
+tier
+:
+2
 index
 :
 product
