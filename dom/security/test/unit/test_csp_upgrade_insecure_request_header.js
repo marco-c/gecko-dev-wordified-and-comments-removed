@@ -467,6 +467,10 @@ run_test
 (
 )
 {
+do_get_profile
+(
+)
+;
 httpserver
 =
 new
