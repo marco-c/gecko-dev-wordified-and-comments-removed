@@ -9379,6 +9379,8 @@ Registers
 aRegs
 uint64_t
 aSamplePos
+uint64_t
+aBufferRangeStart
 ProfileBuffer
 &
 aBuffer
@@ -9427,6 +9429,7 @@ collector
 (
 aBuffer
 aSamplePos
+aBufferRangeStart
 )
 ;
 NativeStack
@@ -9606,6 +9609,17 @@ needed
 "
 )
 ;
+const
+uint64_t
+bufferRangeStart
+=
+aBuffer
+.
+BufferRangeStart
+(
+)
+;
+const
 uint64_t
 samplePos
 =
@@ -9661,6 +9675,7 @@ true
 aRegisteredThread
 aRegs
 samplePos
+bufferRangeStart
 aBuffer
 aCaptureOptions
 )
@@ -9682,6 +9697,8 @@ Registers
 aRegs
 uint64_t
 aSamplePos
+uint64_t
+aBufferRangeStart
 ProfileBuffer
 &
 aBuffer
@@ -9694,6 +9711,7 @@ false
 aRegisteredThread
 aRegs
 aSamplePos
+aBufferRangeStart
 aBuffer
 )
 ;
@@ -15551,6 +15569,17 @@ AUTO_PROFILER_STATS
 gecko_SamplerThread_Run_DoPeriodicSample
 )
 ;
+const
+uint64_t
+bufferRangeStart
+=
+buffer
+.
+BufferRangeStart
+(
+)
+;
+const
 uint64_t
 samplePos
 =
@@ -15666,6 +15695,7 @@ lock
 registeredThread
 aRegs
 samplePos
+bufferRangeStart
 localProfileBuffer
 )
 ;
