@@ -509,11 +509,8 @@ keys
 )
 :
                     
-documentation
-.
-extend
-(
-                        
+gatherer
+=
 self
 .
 _verifier
@@ -522,28 +519,37 @@ _gatherer
 .
 framework_gatherers
 [
-                            
+                        
 yaml_content
 [
 "
 name
 "
 ]
-                        
+                    
 ]
+                    
+test_description
+=
+gatherer
 .
 build_test_description
 (
-                            
+                        
 test_name
 tests
 [
 test_name
 ]
 suite_name
-                        
+                    
 )
                     
+documentation
+.
+extend
+(
+test_description
 )
                 
 documentation
