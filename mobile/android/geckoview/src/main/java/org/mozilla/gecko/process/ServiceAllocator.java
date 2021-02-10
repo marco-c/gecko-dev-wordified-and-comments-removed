@@ -153,7 +153,9 @@ final
 int
 MAX_NUM_ISOLATED_CONTENT_SERVICES
 =
-50
+GeckoChildProcessServices
+.
+MAX_NUM_ISOLATED_CONTENT_SERVICES
 ;
 private
 static
