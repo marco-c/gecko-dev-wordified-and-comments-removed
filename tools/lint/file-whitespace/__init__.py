@@ -52,6 +52,10 @@ log
 "
 ]
     
+fixed
+=
+0
+    
 for
 f
 in
@@ -135,6 +139,11 @@ seek
 if
 fix
 :
+                        
+fixed
++
+=
+1
                         
 for
 i
@@ -377,6 +386,11 @@ if
 fix
 :
                     
+fixed
++
+=
+1
+                    
 with
 open
 (
@@ -533,6 +547,11 @@ n
 "
 )
                         
+fixed
++
+=
+1
+                        
 hasFix
 =
 True
@@ -667,6 +686,11 @@ if
 fix
 :
                     
+fixed
++
+=
+1
+                    
 content
 =
 content
@@ -755,4 +779,15 @@ res
 )
     
 return
+{
+"
 results
+"
+:
+results
+"
+fixed
+"
+:
+fixed
+}

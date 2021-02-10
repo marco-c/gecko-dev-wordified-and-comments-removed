@@ -1145,6 +1145,10 @@ root
 )
 )
     
+fixed
+=
+0
+    
 licenses
 =
 load_valid_license
@@ -1243,6 +1247,22 @@ fix_me
 log
 f
 )
+                
+fixed
++
+=
+1
     
 return
+{
+"
 results
+"
+:
+results
+"
+fixed
+"
+:
+fixed
+}

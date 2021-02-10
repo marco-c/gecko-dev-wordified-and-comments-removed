@@ -53,11 +53,6 @@ collapse_results
 True
 )
     
-print
-(
-results
-)
-    
 assert
 results
 .
@@ -179,11 +174,6 @@ maybe
 shebang
 "
 )
-)
-    
-print
-(
-results
 )
     
 assert
