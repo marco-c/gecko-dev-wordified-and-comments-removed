@@ -403,6 +403,13 @@ dead_code
 )
 ]
 VectorCover
+#
+[
+allow
+(
+dead_code
+)
+]
 Resolve
 Composite
 Clear

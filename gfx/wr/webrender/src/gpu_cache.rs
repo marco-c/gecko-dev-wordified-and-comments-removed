@@ -2859,6 +2859,13 @@ GpuDataRequest
 a
 >
 {
+#
+[
+allow
+(
+dead_code
+)
+]
 handle
 :
 &
