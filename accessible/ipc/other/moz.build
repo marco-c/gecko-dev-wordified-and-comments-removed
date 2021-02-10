@@ -11,6 +11,11 @@ IPDL_SOURCES
 =
 [
 "
+DocAccessibleTypes
+.
+ipdlh
+"
+"
 PDocAccessible
 .
 ipdl

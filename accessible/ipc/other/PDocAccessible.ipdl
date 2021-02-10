@@ -11,6 +11,9 @@ protocol
 PDocAccessiblePlatformExt
 ;
 include
+DocAccessibleTypes
+;
+include
 "
 mozilla
 /
@@ -180,17 +183,6 @@ NewTree
 ;
 bool
 EventSuppressed
-;
-}
-;
-struct
-Attribute
-{
-nsCString
-Name
-;
-nsString
-Value
 ;
 }
 ;
