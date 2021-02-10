@@ -329,6 +329,13 @@ Text
 )
 const
 ;
+NSAttributedString
+*
+AttributedText
+(
+)
+const
+;
 int32_t
 Length
 (
