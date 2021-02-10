@@ -403,7 +403,7 @@ gfx
 IntSize
 :
 :
-Truncate
+Ceil
 (
 width
 height

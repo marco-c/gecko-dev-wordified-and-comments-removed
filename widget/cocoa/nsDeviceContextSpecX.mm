@@ -1405,7 +1405,7 @@ size
 IntSize
 :
 :
-Floor
+Ceil
 (
 width
 height

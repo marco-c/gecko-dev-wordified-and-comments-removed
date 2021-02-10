@@ -1341,7 +1341,7 @@ size
 IntSize
 :
 :
-Truncate
+Ceil
 (
 width
 height
@@ -1707,7 +1707,7 @@ stream
 IntSize
 :
 :
-Truncate
+Ceil
 (
 width
 height

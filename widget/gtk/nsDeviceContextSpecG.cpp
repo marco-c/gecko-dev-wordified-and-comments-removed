@@ -521,7 +521,7 @@ size
 IntSize
 :
 :
-Truncate
+Ceil
 (
 width
 height
