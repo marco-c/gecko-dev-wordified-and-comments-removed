@@ -362,7 +362,7 @@ synthesizeKeyAndWaitForFocus
 (
 gIdentityHandler
 .
-_identityBox
+_identityIconBox
 "
 ArrowRight
 "
@@ -375,7 +375,7 @@ document
 activeElement
 gIdentityHandler
 .
-_identityBox
+_identityIconBox
 "
 identity
 block

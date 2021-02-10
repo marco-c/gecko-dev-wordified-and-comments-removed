@@ -220,9 +220,9 @@ browser
 let
 blockedIcon
 =
-gIdentityHandler
+gPermissionPanel
 .
-_identityBox
+_identityPermissionBox
 .
 querySelector
 (
