@@ -24860,7 +24860,7 @@ write
 (
 "
 static
-void
+int
 draw_span_RGBA8
 (
 Self
@@ -24903,7 +24903,7 @@ write
 (
 "
 static
-void
+int
 draw_span_R8
 (
 Self
