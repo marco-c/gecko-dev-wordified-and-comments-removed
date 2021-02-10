@@ -271,7 +271,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-uint32_t
+size_t
 GetArrayBufferByteLength
 (
 JSObject

@@ -8637,7 +8637,7 @@ SharedArrayBufferObject
 ;
 }
 JS_FRIEND_API
-uint32_t
+size_t
 JS
 :
 :
@@ -8672,7 +8672,7 @@ byteLength
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 :
