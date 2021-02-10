@@ -49,16 +49,6 @@ false
 )
 ;
 }
-let
-genConstructor
-=
-constructor_
-(
-"
-C
-"
-)
-;
 assertExpr
 (
 "
@@ -96,7 +86,6 @@ lit
 2
 )
 )
-genConstructor
 ]
 )
 )
@@ -140,7 +129,6 @@ x
 "
 )
 )
-genConstructor
 ]
 )
 )
@@ -176,7 +164,6 @@ x
 )
 null
 )
-genConstructor
 ]
 )
 )
@@ -229,7 +216,6 @@ lit
 2
 )
 )
-genConstructor
 ]
 )
 )
@@ -275,7 +261,12 @@ lit
 2
 )
 )
-genConstructor
+constructor_
+(
+"
+C
+"
+)
 ]
 )
 )
@@ -327,7 +318,6 @@ lit
 2
 )
 )
-genConstructor
 ]
 )
 )
@@ -366,7 +356,6 @@ x
 )
 null
 )
-genConstructor
 ]
 )
 )
@@ -423,7 +412,6 @@ lit
 2
 )
 )
-genConstructor
 ]
 )
 )

@@ -2085,6 +2085,12 @@ case
 ParseNodeKind
 :
 :
+DefaultConstructor
+:
+case
+ParseNodeKind
+:
+:
 ClassMethod
 :
 case
