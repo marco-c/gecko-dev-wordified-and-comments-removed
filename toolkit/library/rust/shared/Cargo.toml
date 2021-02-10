@@ -1833,6 +1833,15 @@ glean
 fog_control
 "
 ]
+glean_disable_upload
+=
+[
+"
+fog_control
+/
+disable_upload
+"
+]
 glean_with_gecko
 =
 [

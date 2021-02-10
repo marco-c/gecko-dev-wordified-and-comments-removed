@@ -342,6 +342,17 @@ fog
 gtest
 "
 ]
+glean_disable_upload
+=
+[
+"
+gkrust
+-
+shared
+/
+glean_disable_upload
+"
+]
 glean_with_gecko
 =
 [
