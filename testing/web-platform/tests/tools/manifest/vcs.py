@@ -9,16 +9,9 @@ collections
 import
 deque
 from
-six
-import
-with_metaclass
-PY2
-from
-six
+collections
 .
-moves
-.
-collections_abc
+abc
 import
 MutableMapping
 from
@@ -60,17 +53,6 @@ manifest
 import
 Manifest
     
-if
-PY2
-:
-        
-stat_result
-=
-Any
-    
-else
-:
-        
 stat_result
 =
 os
@@ -777,12 +759,11 @@ dump
 class
 CacheFile
 (
-with_metaclass
-(
+metaclass
+=
 abc
 .
 ABCMeta
-)
 )
 :
     

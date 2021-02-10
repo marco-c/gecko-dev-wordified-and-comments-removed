@@ -14,10 +14,6 @@ hypothesis
 strategies
 as
 hs
-from
-six
-import
-iteritems
 here
 =
 os
@@ -742,9 +738,10 @@ for
 k
 v
 in
-iteritems
-(
 generated_root
+.
+items
+(
 )
 ]
     
@@ -785,9 +782,10 @@ for
 k
 v
 in
-iteritems
-(
 node
+.
+items
+(
 )
 )
         

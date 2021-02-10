@@ -20,10 +20,6 @@ import
 datetime
 timedelta
 from
-six
-.
-moves
-.
 urllib
 .
 request

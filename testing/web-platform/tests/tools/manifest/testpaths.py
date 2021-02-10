@@ -9,10 +9,6 @@ collections
 import
 defaultdict
 from
-six
-import
-iteritems
-from
 .
 manifest
 import
@@ -715,9 +711,10 @@ test_ids
 in
 sorted
 (
-iteritems
-(
 path_id_map
+.
+items
+(
 )
 )
 :

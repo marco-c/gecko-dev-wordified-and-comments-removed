@@ -11,14 +11,6 @@ from
 import
 transport
 from
-six
-import
-string_types
-from
-six
-.
-moves
-.
 urllib
 import
 parse
@@ -3073,7 +3065,7 @@ if
 isinstance
 (
 name
-string_types
+str
 )
 :
             

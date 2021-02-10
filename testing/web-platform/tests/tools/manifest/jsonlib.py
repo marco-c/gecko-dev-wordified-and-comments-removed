@@ -2,10 +2,6 @@ import
 re
 import
 json
-from
-six
-import
-PY3
 MYPY
 =
 False
@@ -114,19 +110,13 @@ indent
 '
 :
 1
-}
-if
-PY3
-:
     
-_ujson_dump_local_kwargs
-[
 '
 reject_bytes
 '
-]
-=
+:
 True
+}
 _json_dump_local_kwargs
 =
 {
@@ -256,19 +246,13 @@ indent
 '
 :
 1
-}
-if
-PY3
-:
     
-_ujson_dump_dist_kwargs
-[
 '
 reject_bytes
 '
-]
-=
+:
 True
+}
 _json_dump_dist_kwargs
 =
 {

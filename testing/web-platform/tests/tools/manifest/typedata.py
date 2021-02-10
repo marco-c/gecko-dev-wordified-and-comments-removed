@@ -1,14 +1,7 @@
 from
-six
-import
-itervalues
-iteritems
-from
-six
+collections
 .
-moves
-.
-collections_abc
+abc
 import
 MutableMapping
 MYPY
@@ -1117,9 +1110,10 @@ stack
 .
 extend
 (
-itervalues
-(
 v
+.
+values
+(
 )
 )
         
@@ -1163,9 +1157,10 @@ stack
 .
 extend
 (
-itervalues
-(
 v
+.
+values
+(
 )
 )
         
@@ -1592,9 +1587,10 @@ for
 k
 v
 in
-iteritems
-(
 data_node
+.
+items
+(
 )
 :
                 

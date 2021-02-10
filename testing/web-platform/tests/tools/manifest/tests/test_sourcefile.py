@@ -3,7 +3,7 @@ os
 import
 pytest
 from
-six
+io
 import
 BytesIO
 from

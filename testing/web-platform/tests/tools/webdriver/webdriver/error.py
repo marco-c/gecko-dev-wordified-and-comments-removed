@@ -2,10 +2,6 @@ import
 collections
 import
 json
-from
-six
-import
-itervalues
 class
 WebDriverException
 (
@@ -975,11 +971,12 @@ item
 in
 list
 (
-itervalues
-(
 locals
 (
 )
+.
+values
+(
 )
 )
 :

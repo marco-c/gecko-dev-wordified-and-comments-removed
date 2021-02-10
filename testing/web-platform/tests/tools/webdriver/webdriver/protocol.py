@@ -2,10 +2,6 @@ import
 json
 import
 webdriver
-from
-six
-import
-iteritems
 "
 "
 "
@@ -424,9 +420,10 @@ for
 k
 v
 in
-iteritems
-(
 payload
+.
+items
+(
 )
 }
         

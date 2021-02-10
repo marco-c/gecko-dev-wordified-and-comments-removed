@@ -7,15 +7,6 @@ inspect
 import
 isabstract
 from
-six
-import
-iteritems
-with_metaclass
-from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -235,10 +226,9 @@ rv
 class
 ManifestItem
 (
-with_metaclass
-(
+metaclass
+=
 ManifestItemMeta
-)
 )
 :
     
@@ -1555,11 +1545,12 @@ fuzzy
 =
 list
 (
-iteritems
-(
 self
 .
 fuzzy
+.
+items
+(
 )
 )
         

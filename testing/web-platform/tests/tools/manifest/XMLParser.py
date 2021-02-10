@@ -25,10 +25,6 @@ etree
 ElementTree
 as
 etree
-from
-six
-import
-text_type
 MYPY
 =
 False
@@ -461,7 +457,7 @@ assert
 isinstance
 (
 tag
-text_type
+str
 )
         
 self

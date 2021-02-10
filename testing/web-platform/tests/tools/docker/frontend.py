@@ -10,10 +10,6 @@ import
 subprocess
 import
 sys
-from
-six
-import
-iteritems
 here
 =
 os
@@ -245,9 +241,10 @@ for
 key
 value
 in
-iteritems
-(
 root
+.
+items
+(
 )
 :
             
