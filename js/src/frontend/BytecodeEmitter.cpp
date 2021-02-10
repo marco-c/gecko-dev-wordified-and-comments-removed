@@ -9144,14 +9144,9 @@ compilationState
 .
 parserAtoms
 .
-getParserAtom
-(
-name
-)
--
->
 isPrivateName
 (
+name
 )
 )
 {
