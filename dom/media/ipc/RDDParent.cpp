@@ -1030,10 +1030,6 @@ OPENGL_COMPOSITING
 Feature
 :
 :
-ADVANCED_LAYERS
-Feature
-:
-:
 DIRECT2D
 Feature
 :

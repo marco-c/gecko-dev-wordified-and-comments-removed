@@ -920,11 +920,6 @@ InitializeDirectDrawConfig
 )
 ;
 void
-InitializeAdvancedLayersConfig
-(
-)
-;
-void
 RecordStartupTelemetry
 (
 )
