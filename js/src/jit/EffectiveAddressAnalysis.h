@@ -4,15 +4,6 @@ jit_EffectiveAddressAnalysis_h
 #
 define
 jit_EffectiveAddressAnalysis_h
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 namespace
 js
 {

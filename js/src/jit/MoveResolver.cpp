@@ -12,15 +12,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ScopeExit
 .
 h

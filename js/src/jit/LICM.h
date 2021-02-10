@@ -4,15 +4,6 @@ jit_LICM_h
 #
 define
 jit_LICM_h
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 namespace
 js
 {

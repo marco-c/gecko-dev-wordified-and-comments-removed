@@ -7,15 +7,6 @@ jit_ProcessExecutableMemory_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 util
 /
 Poison

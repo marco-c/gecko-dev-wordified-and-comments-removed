@@ -6,15 +6,6 @@ define
 jit_IonAnalysis_h
 #
 include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
 <
 stddef
 .
