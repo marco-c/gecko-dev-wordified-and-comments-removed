@@ -1554,6 +1554,12 @@ float
 aZoom
 )
 ;
+void
+SetOverrideDPPX
+(
+float
+)
+;
 public
 :
 float
@@ -1582,12 +1588,6 @@ mMediaEmulationData
 mDPPX
 ;
 }
-void
-SetOverrideDPPX
-(
-float
-)
-;
 void
 RecomputeBrowsingContextDependentData
 (

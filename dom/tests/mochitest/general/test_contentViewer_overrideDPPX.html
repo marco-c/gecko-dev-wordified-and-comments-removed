@@ -324,15 +324,31 @@ value
 )
 ;
 }
+return
 SpecialPowers
 .
-setOverrideDPPX
+spawnChrome
 (
-window
+[
 value
+]
+dppx
+=
+>
+{
+browsingContext
+.
+top
+.
+overrideDPPX
+=
+dppx
+;
+}
 )
 ;
 }
+;
 const
 setFullZoom
 =
@@ -708,6 +724,7 @@ with
 devicePixelRatio
 "
 :
+async
 (
 done
 )
@@ -718,6 +735,7 @@ assertValuesAreInitial
 (
 )
 ;
+await
 setOverrideDPPX
 (
 dppx
@@ -752,6 +770,7 @@ overridden
 "
 )
 ;
+await
 setOverrideDPPX
 (
 0
@@ -804,6 +823,7 @@ and
 fullZoom
 "
 :
+async
 (
 done
 )
@@ -819,6 +839,7 @@ setFullZoom
 zoom
 )
 ;
+await
 setOverrideDPPX
 (
 dppx
@@ -857,6 +878,7 @@ ignored
 "
 )
 ;
+await
 setOverrideDPPX
 (
 0
@@ -971,6 +993,7 @@ media
 queries
 "
 :
+async
 (
 done
 )
@@ -1075,6 +1098,7 @@ yet
 "
 )
 ;
+await
 setOverrideDPPX
 (
 dppx
@@ -1160,6 +1184,7 @@ value
 "
 )
 ;
+await
 setOverrideDPPX
 (
 0
@@ -1236,6 +1261,7 @@ and
 fullZoom
 "
 :
+async
 (
 done
 )
@@ -1367,6 +1393,7 @@ setFullZoom
 zoom
 )
 ;
+await
 setOverrideDPPX
 (
 dppx
@@ -1431,6 +1458,7 @@ ignored
 "
 )
 ;
+await
 setOverrideDPPX
 (
 0
@@ -1663,6 +1691,7 @@ and
 fullZoom
 "
 :
+async
 (
 done
 )
@@ -1713,6 +1742,7 @@ dppx
 )
 ]
 ;
+await
 setOverrideDPPX
 (
 dppx
@@ -1783,6 +1813,7 @@ document
 navigation
 "
 :
+async
 (
 done
 )
@@ -1840,6 +1871,7 @@ yet
 "
 )
 ;
+await
 setOverrideDPPX
 (
 dppx
@@ -1913,6 +1945,7 @@ addEventListener
 "
 load
 "
+async
 function
 (
 )
@@ -1999,6 +2032,7 @@ remove
 (
 )
 ;
+await
 setOverrideDPPX
 (
 0
@@ -2216,6 +2250,7 @@ onload
 resolve
 )
 ;
+await
 setOverrideDPPX
 (
 8
@@ -2261,6 +2296,7 @@ onload
 resolve
 )
 ;
+await
 setOverrideDPPX
 (
 1
@@ -2307,6 +2343,7 @@ onload
 resolve
 )
 ;
+await
 setOverrideDPPX
 (
 1
@@ -2359,6 +2396,7 @@ onload
 resolve
 )
 ;
+await
 setOverrideDPPX
 (
 2
@@ -2450,6 +2488,7 @@ onload
 resolve
 )
 ;
+await
 setOverrideDPPX
 (
 8
@@ -2495,6 +2534,7 @@ onload
 resolve
 )
 ;
+await
 setOverrideDPPX
 (
 0

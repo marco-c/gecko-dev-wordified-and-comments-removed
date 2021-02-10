@@ -431,7 +431,7 @@ this
 .
 docShell
 .
-contentViewer
+browsingContext
 .
 overrideDPPX
 =
@@ -450,7 +450,7 @@ this
 .
 docShell
 .
-contentViewer
+browsingContext
 .
 overrideDPPX
 ;
