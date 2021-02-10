@@ -15846,11 +15846,6 @@ parserAtomData
 [
 index
 ]
--
->
-asAtom
-(
-)
 ;
 }
 return

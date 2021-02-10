@@ -1824,7 +1824,7 @@ i
 ;
 MOZ_TRY
 (
-XDRParserAtomEntry
+XDRParserAtom
 (
 xdr
 &
@@ -1937,7 +1937,7 @@ i
 frontend
 :
 :
-ParserAtomEntry
+ParserAtom
 *
 entry
 =
@@ -1960,7 +1960,7 @@ index
 ;
 MOZ_TRY
 (
-XDRParserAtomEntry
+XDRParserAtom
 (
 xdr
 &
