@@ -1304,8 +1304,13 @@ const
 frontend
 :
 :
-ParserAtom
-*
+ParserAtomsTable
+&
+parserAtoms
+frontend
+:
+:
+TaggedParserAtomIndex
 atom
 )
 ;
