@@ -715,7 +715,6 @@ trc
 )
 ;
 }
-JS_HAZ_GC_POINTER
 ;
 struct
 CompilationInput
@@ -1160,7 +1159,6 @@ trc
 )
 ;
 }
-JS_HAZ_GC_POINTER
 ;
 struct
 MOZ_RAII
@@ -2828,7 +2826,6 @@ trc
 )
 ;
 }
-JS_HAZ_GC_POINTER
 ;
 class
 ScriptStencilIterable
