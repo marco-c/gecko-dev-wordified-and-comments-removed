@@ -70,6 +70,13 @@ h
 #
 include
 "
+nsITimer
+.
+h
+"
+#
+include
+"
 prio
 .
 h
@@ -143,6 +150,8 @@ public
 nsIProtocolProxyService2
 public
 nsIObserver
+public
+nsITimerCallback
 {
 public
 :
@@ -150,6 +159,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIPROTOCOLPROXYSERVICE2
 NS_DECL_NSIPROTOCOLPROXYSERVICE
 NS_DECL_NSIOBSERVER
+NS_DECL_NSITIMERCALLBACK
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_PROTOCOL_PROXY_SERVICE_IMPL_CID
@@ -791,9 +801,9 @@ mIsShutdown
 ;
 nsCOMPtr
 <
-nsISerialEventTarget
+nsITimer
 >
-mProxySettingTarget
+mReloadPACTimer
 ;
 }
 ;
