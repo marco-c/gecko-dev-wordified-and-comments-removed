@@ -487,8 +487,6 @@ focusTarget
 async
 UpdateResources
 (
-IdNamespace
-aIdNamespace
 OpUpdateResource
 [
 ]
