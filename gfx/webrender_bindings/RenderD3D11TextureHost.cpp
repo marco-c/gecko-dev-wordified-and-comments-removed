@@ -366,6 +366,16 @@ D3D11_MAPPED_SUBRESOURCE
 aMappedSubresource
 )
 {
+if
+(
+!
+aCompositor
+)
+{
+return
+false
+;
+}
 RenderCompositorD3D11SWGL
 *
 compositor
