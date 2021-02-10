@@ -2116,7 +2116,7 @@ sourceMapURL_
 ;
 UniquePtr
 <
-XDRIncrementalEncoderBase
+XDRIncrementalStencilEncoder
 >
 xdrEncoder_
 =
@@ -4235,7 +4235,7 @@ CompilationStencil
 stencil
 UniquePtr
 <
-XDRIncrementalEncoderBase
+XDRIncrementalStencilEncoder
 >
 &
 xdrEncoder
@@ -4255,7 +4255,7 @@ CompilationStencilSet
 stencilSet
 UniquePtr
 <
-XDRIncrementalEncoderBase
+XDRIncrementalStencilEncoder
 >
 &
 xdrEncoder
@@ -4264,7 +4264,7 @@ xdrEncoder
 void
 setIncrementalEncoder
 (
-XDRIncrementalEncoderBase
+XDRIncrementalStencilEncoder
 *
 xdrEncoder
 )
@@ -4299,7 +4299,7 @@ BaseCompilationStencil
 stencil
 UniquePtr
 <
-XDRIncrementalEncoderBase
+XDRIncrementalStencilEncoder
 >
 &
 xdrEncoder
