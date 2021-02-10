@@ -19871,8 +19871,11 @@ IsEditActionDataAvailable
 ErrorResult
 error
 ;
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >

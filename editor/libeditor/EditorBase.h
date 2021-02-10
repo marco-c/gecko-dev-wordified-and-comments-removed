@@ -6077,6 +6077,7 @@ nsINode
 aNode
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 ClearSelection
 (

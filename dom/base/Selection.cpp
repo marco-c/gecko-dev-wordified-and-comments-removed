@@ -2614,6 +2614,7 @@ NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 Selection
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 Selection
@@ -2649,7 +2650,10 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mSelectionListeners
 )
+MOZ_KnownLive
+(
 tmp
+)
 -
 >
 RemoveAllRanges

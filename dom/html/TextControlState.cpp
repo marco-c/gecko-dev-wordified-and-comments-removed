@@ -11590,7 +11590,10 @@ selection
 IgnoredErrorResult
 ignoredError
 ;
+MOZ_KnownLive
+(
 selection
+)
 -
 >
 RemoveAllRanges

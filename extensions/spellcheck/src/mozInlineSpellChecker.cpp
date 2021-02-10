@@ -1870,6 +1870,7 @@ return
 NS_OK
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 mozInlineSpellChecker
 :

@@ -1353,6 +1353,7 @@ DisconnectFromPresShell
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 ClearNormalSelection
 (
@@ -2071,6 +2072,7 @@ const
 nodiscard
 ]
 ]
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 HandleDragSelecting
 (

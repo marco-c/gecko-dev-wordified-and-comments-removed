@@ -21543,9 +21543,12 @@ mSelection
 previousSelection
 )
 {
+MOZ_KnownLive
+(
 range
 .
 mSelection
+)
 -
 >
 RemoveAllRanges
@@ -22993,9 +22996,12 @@ previousSelection
 ErrorResult
 error
 ;
+MOZ_KnownLive
+(
 range
 .
 mSelection
+)
 -
 >
 RemoveAllRanges
