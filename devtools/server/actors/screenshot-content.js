@@ -85,9 +85,14 @@ loader
 lazyRequireGetter
 (
 this
+[
+"
+getCurrentZoom
+"
 "
 getRect
 "
+]
 "
 devtools
 /
@@ -189,6 +194,14 @@ window
 devicePixelRatio
 ;
 const
+windowZoom
+=
+getCurrentZoom
+(
+window
+)
+;
+const
 messages
 =
 [
@@ -215,6 +228,7 @@ rect
 null
 messages
 windowDpr
+windowZoom
 }
 ;
 }
@@ -486,6 +500,7 @@ rawNode
 return
 {
 windowDpr
+windowZoom
 rect
 :
 {
