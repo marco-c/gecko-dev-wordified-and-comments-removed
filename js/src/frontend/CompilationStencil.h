@@ -189,6 +189,15 @@ include
 "
 js
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+js
+/
 Vector
 .
 h
@@ -2126,10 +2135,7 @@ alloc
 CompilationInput
 input
 ;
-mozilla
-:
-:
-Maybe
+UniquePtr
 <
 StencilModuleMetadata
 >
