@@ -40422,6 +40422,15 @@ IsActive
 &
 &
 !
+mBrowsingContext
+-
+>
+IsActive
+(
+)
+&
+&
+!
 Preferences
 :
 :
