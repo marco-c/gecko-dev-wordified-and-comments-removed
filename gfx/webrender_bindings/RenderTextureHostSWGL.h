@@ -210,7 +210,7 @@ aContext
 wr
 :
 :
-WrSWGLCompositeSurfaceInfo
+SWGLCompositeSurfaceInfo
 *
 aInfo
 )

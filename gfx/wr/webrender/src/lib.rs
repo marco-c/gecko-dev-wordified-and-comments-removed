@@ -881,6 +881,7 @@ composite
 {
 MappableCompositor
 MappedTileInfo
+SWGLCompositeSurfaceInfo
 }
 ;
 pub
