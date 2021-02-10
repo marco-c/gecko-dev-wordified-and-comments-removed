@@ -566,6 +566,12 @@ aStatus
 =
 =
 NS_ERROR_NET_TIMEOUT
+|
+|
+aStatus
+=
+=
+NS_ERROR_NET_TIMEOUT_EXTERNAL
 )
 {
 category
