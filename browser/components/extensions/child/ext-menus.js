@@ -545,6 +545,15 @@ createProperties
 callback
 )
 {
+let
+caller
+=
+context
+.
+getCaller
+(
+)
+;
 if
 (
 createProperties
@@ -643,7 +652,7 @@ context
 withLastError
 (
 error
-null
+caller
 (
 )
 =
