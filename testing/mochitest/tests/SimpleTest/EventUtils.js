@@ -959,7 +959,6 @@ utils
 MOUSE_BUTTONS_NOT_SPECIFIED
 ;
 }
-async
 function
 sendMouseEvent
 (
@@ -1081,7 +1080,6 @@ this
 AccessibilityUtils
 )
 {
-await
 this
 .
 AccessibilityUtils
