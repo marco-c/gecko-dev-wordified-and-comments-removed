@@ -439,7 +439,9 @@ const
 return
 mAudioGenerator
 .
-mChannels
+ChannelCount
+(
+)
 ;
 }
 uint32_t
