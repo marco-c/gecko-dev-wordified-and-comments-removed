@@ -49,9 +49,6 @@ WasmTable
 .
 h
 "
-struct
-JSTelemetrySender
-;
 namespace
 js
 {
@@ -771,8 +768,6 @@ JS
 OptimizedEncodingListener
 *
 listener
-JSTelemetrySender
-telemetrySender
 )
 ;
 bool
