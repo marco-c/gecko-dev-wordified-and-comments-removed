@@ -206,6 +206,7 @@ message
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -223,6 +224,7 @@ requests
 ]
 )
 ;
+await
 clickOnSidebarTab
 (
 document

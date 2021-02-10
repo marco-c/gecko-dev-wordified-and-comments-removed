@@ -317,6 +317,7 @@ button
 button
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

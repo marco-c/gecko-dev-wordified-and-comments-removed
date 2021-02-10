@@ -141,6 +141,7 @@ toggleNetworkDetails
 )
 )
 ;
+await
 clickOnSidebarTab
 (
 document
@@ -440,6 +441,7 @@ item
 2
 )
 ;
+await
 clickOnSidebarTab
 (
 document

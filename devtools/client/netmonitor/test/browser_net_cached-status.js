@@ -534,6 +534,7 @@ code
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

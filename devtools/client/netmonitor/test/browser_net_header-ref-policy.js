@@ -116,6 +116,7 @@ label
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

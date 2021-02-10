@@ -199,6 +199,7 @@ tabs
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -281,6 +282,7 @@ view
 "
 )
 ;
+await
 clickOnSidebarTab
 (
 document

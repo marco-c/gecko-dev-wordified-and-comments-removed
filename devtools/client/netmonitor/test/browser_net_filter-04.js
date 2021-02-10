@@ -440,6 +440,7 @@ consideration
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

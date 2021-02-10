@@ -307,6 +307,7 @@ opened
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

@@ -153,6 +153,7 @@ scrollIntoView
 (
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -256,6 +257,7 @@ panel
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -305,6 +307,7 @@ code
 "
 )
 ;
+await
 clickOnSidebarTab
 (
 document

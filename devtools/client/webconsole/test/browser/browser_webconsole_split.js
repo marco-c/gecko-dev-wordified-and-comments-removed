@@ -649,6 +649,7 @@ false
 }
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

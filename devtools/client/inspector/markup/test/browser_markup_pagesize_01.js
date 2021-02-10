@@ -485,6 +485,7 @@ ownerDocument
 .
 defaultView
 ;
+await
 EventUtils
 .
 sendMouseEvent

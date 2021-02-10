@@ -227,6 +227,7 @@ item
 10
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -244,6 +245,7 @@ requests
 ]
 )
 ;
+await
 clickOnSidebarTab
 (
 document
@@ -327,6 +329,7 @@ child
 selected
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

@@ -240,6 +240,7 @@ visible
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

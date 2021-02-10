@@ -976,6 +976,7 @@ length
 -
 1
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -993,6 +994,7 @@ itemIndex
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

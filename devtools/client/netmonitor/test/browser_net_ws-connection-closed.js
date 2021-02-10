@@ -164,6 +164,7 @@ item
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -181,6 +182,7 @@ requests
 ]
 )
 ;
+await
 clickOnSidebarTab
 (
 document

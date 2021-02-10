@@ -114,6 +114,7 @@ overview
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -146,6 +147,7 @@ item
 await
 wait
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -175,6 +177,7 @@ item
 ]
 )
 ;
+await
 clickOnSidebarTab
 (
 document

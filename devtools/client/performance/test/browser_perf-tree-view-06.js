@@ -218,6 +218,7 @@ link
 handler
 )
 ;
+await
 rightMousedown
 (
 A
@@ -260,6 +261,7 @@ click
 "
 )
 ;
+await
 mousedown
 (
 A

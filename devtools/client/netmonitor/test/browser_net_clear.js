@@ -128,6 +128,7 @@ assertSingleRequestState
 (
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -224,6 +225,7 @@ visible
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

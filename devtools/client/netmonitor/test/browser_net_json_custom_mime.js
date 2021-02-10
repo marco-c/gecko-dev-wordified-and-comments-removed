@@ -166,6 +166,7 @@ code
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -348,6 +349,7 @@ toggleNetworkDetails
 )
 )
 ;
+await
 clickOnSidebarTab
 (
 document

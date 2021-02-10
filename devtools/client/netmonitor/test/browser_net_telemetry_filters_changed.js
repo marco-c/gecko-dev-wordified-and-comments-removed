@@ -182,6 +182,7 @@ filter
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -261,6 +262,7 @@ filter
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

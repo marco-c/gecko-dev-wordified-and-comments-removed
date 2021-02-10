@@ -503,6 +503,7 @@ badge
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

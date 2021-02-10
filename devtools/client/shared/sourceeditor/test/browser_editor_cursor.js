@@ -399,6 +399,7 @@ gutters
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
