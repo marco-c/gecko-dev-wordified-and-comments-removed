@@ -2831,17 +2831,6 @@ const
 endif
 virtual
 bool
-neverHoist
-(
-)
-const
-{
-return
-false
-;
-}
-virtual
-bool
 possiblyCalls
 (
 )
