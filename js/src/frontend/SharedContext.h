@@ -2518,7 +2518,7 @@ IsDerivedClassConstructor
 ;
 }
 bool
-isFieldInitializer
+isSyntheticFunction
 (
 )
 const
@@ -2529,12 +2529,12 @@ hasFlag
 ImmutableFlags
 :
 :
-IsFieldInitializer
+IsSyntheticFunction
 )
 ;
 }
 void
-setFieldInitializer
+setSyntheticFunction
 (
 )
 {
@@ -2552,7 +2552,7 @@ setFlag
 ImmutableFlags
 :
 :
-IsFieldInitializer
+IsSyntheticFunction
 )
 ;
 }
