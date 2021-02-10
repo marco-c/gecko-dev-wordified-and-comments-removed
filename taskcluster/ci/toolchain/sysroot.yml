@@ -284,6 +284,10 @@ amd64
 For
 clang
 -
+gcc
+-
+multilib
+-
 libxml2
 -
 dev
