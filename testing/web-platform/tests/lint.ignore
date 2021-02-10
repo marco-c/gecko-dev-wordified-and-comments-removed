@@ -517,6 +517,17 @@ PLATFORM
 .
 TEST
 :
+*
+/
+README
+.
+md
+WEB
+-
+PLATFORM
+.
+TEST
+:
 docs
 /
 *

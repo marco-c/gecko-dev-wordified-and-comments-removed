@@ -37,7 +37,7 @@ fetch
 endpoint
 }
 ?
-id
+reportID
 =
 {
 id
