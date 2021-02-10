@@ -1389,7 +1389,6 @@ margin
 auto
 -
 8px
-auto
 ;
 position
 :
@@ -1454,7 +1453,6 @@ margin
 0
 auto
 10px
-auto
 ;
 border
 :
@@ -5503,13 +5501,9 @@ padding
 :
 0
 4px
-0
-4px
 ;
 margin
 :
-4px
-2px
 4px
 2px
 ;
@@ -6193,7 +6187,6 @@ padding
 6px
 0
 10px
-0
 ;
 height
 :
@@ -8986,7 +8979,6 @@ padding
 0
 0
 1px
-0
 ;
 height
 :
@@ -9513,7 +9505,6 @@ margin
 6px
 0
 5px
-0
 ;
 height
 :
@@ -9552,8 +9543,6 @@ padding
 ;
 margin
 :
-3px
-0
 3px
 0
 ;
@@ -9989,7 +9978,6 @@ margin
 0
 10px
 5px
-10px
 ;
 }
 html
@@ -10105,7 +10093,6 @@ margin
 1px
 9px
 4px
-9px
 ;
 }
 .
@@ -11168,14 +11155,11 @@ margin
 3px
 4px
 2px
-4px
 !
 important
 ;
 padding
 :
-2px
-11px
 2px
 11px
 ;
@@ -11408,8 +11392,6 @@ block
 ;
 margin
 :
-4px
-0
 4px
 0
 ;
