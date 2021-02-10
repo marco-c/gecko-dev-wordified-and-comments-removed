@@ -5,6 +5,7 @@ api
 {
 ColorF
 ColorU
+RasterSpace
 LineOrientation
 LineStyle
 PremultipliedColorF
@@ -678,6 +679,12 @@ shadow
 :
 &
 Shadow
+_
+:
+bool
+_
+:
+RasterSpace
 )
 -
 >
