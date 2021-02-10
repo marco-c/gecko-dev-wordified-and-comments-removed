@@ -2,9 +2,6 @@
 Added
 functions
 :
-[
-A
-]
 '
 function
 SECStatus
@@ -26,9 +23,6 @@ NSS_3
 .
 62
 }
-[
-A
-]
 '
 function
 HpkeContext

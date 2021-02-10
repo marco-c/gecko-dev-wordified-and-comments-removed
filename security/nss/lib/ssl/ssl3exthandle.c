@@ -4119,6 +4119,8 @@ sizeof
 SSLAuthType
 )
 )
+-
+1
 ;
 #
 endif

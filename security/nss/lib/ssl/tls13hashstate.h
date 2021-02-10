@@ -104,7 +104,7 @@ HpkeContext
 *
 previousEchHpkeCtx
 PRBool
-recoverHashState
+recoverState
 )
 ;
 #
