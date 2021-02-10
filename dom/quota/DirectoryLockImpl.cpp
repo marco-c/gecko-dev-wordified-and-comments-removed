@@ -546,7 +546,14 @@ mOpenListener
 >
 DirectoryLockAcquired
 (
+static_cast
+<
+UniversalDirectoryLock
+*
+>
+(
 this
+)
 )
 ;
 }
@@ -816,7 +823,7 @@ void
 DirectoryLockImpl
 :
 :
-Acquire
+AcquireImmediately
 (
 )
 {
@@ -866,7 +873,7 @@ this
 }
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 DirectoryLockImpl
 :

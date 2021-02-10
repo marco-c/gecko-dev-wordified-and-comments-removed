@@ -302,7 +302,7 @@ class
 ClientUsageArray
 ;
 class
-DirectoryLock
+ClientDirectoryLock
 ;
 class
 DirectoryLockImpl
@@ -314,6 +314,9 @@ class
 GroupInfoPair
 ;
 class
+OriginDirectoryLock
+;
+class
 OriginInfo
 ;
 class
@@ -321,6 +324,9 @@ OriginScope
 ;
 class
 QuotaObject
+;
+class
+UniversalDirectoryLock
 ;
 class
 QuotaManager
@@ -911,7 +917,7 @@ aPersistent
 ;
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 CreateDirectoryLock
 (
@@ -932,7 +938,7 @@ aExclusive
 ;
 RefPtr
 <
-DirectoryLock
+UniversalDirectoryLock
 >
 CreateDirectoryLockInternal
 (
@@ -970,7 +976,7 @@ nsTArray
 <
 RefPtr
 <
-DirectoryLockImpl
+OriginDirectoryLock
 >
 >
 &
@@ -1603,7 +1609,7 @@ nsTArray
 <
 RefPtr
 <
-DirectoryLockImpl
+OriginDirectoryLock
 >
 >
 &
@@ -1923,7 +1929,7 @@ nsTArray
 <
 RefPtr
 <
-DirectoryLockImpl
+OriginDirectoryLock
 >
 >
 &
