@@ -2036,6 +2036,11 @@ from
 )
 ;
 }
+_SetIsInlinableLargeFunction
+(
+String_substring
+)
+;
 function
 String_substr
 (
@@ -2162,6 +2167,11 @@ resultLength
 )
 ;
 }
+_SetIsInlinableLargeFunction
+(
+String_substr
+)
+;
 function
 String_concat
 (
@@ -2453,6 +2463,11 @@ span
 )
 ;
 }
+_SetIsInlinableLargeFunction
+(
+String_slice
+)
+;
 function
 String_codePointAt
 (
