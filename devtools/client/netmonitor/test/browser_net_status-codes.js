@@ -593,7 +593,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -772,7 +771,6 @@ data
 index
 )
 {
-await
 EventUtils
 .
 sendMouseEvent
@@ -872,7 +870,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

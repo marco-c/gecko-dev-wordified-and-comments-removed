@@ -629,7 +629,6 @@ stack
 continue
 ;
 }
-await
 EventUtils
 .
 sendMouseEvent
@@ -737,7 +736,6 @@ EXPECTED_REQUESTS
 monitor
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

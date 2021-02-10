@@ -164,7 +164,6 @@ toggleNetworkDetails
 )
 )
 ;
-await
 clickOnSidebarTab
 (
 document

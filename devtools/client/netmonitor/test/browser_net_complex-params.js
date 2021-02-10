@@ -130,7 +130,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -160,7 +159,6 @@ item
 ]
 )
 ;
-await
 clickOnSidebarTab
 (
 document
@@ -207,7 +205,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -275,7 +272,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -357,7 +353,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -450,7 +445,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -545,7 +539,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -599,7 +592,6 @@ text
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -651,7 +643,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -719,7 +710,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

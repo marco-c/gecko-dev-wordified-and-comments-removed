@@ -221,7 +221,6 @@ frame
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

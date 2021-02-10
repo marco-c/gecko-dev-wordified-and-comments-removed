@@ -162,7 +162,6 @@ item
 3
 ]
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -211,7 +210,6 @@ panel
 "
 )
 ;
-await
 clickOnSidebarTab
 (
 document

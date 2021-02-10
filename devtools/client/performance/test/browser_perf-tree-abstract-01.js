@@ -373,7 +373,6 @@ focus
 "
 )
 ;
-await
 mousedown
 (
 treeRoot
@@ -857,7 +856,6 @@ true
 }
 )
 ;
-await
 mousedown
 (
 fooItem
@@ -940,7 +938,6 @@ focus
 "
 )
 ;
-await
 dblclick
 (
 barItem

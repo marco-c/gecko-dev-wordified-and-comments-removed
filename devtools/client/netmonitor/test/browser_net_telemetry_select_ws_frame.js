@@ -208,7 +208,6 @@ request
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -253,7 +252,6 @@ item
 2
 )
 ;
-await
 clickOnSidebarTab
 (
 document
@@ -328,7 +326,6 @@ TEST_EVENTS
 LONGSTRING_RESOLVED
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
