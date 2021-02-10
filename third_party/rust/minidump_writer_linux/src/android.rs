@@ -406,8 +406,6 @@ copy_from_process
 pid
 addr
 SIZEOF_DYN
-as
-isize
 )
 ?
 ;
@@ -634,8 +632,6 @@ isize
 ehdr
 .
 e_phnum
-as
-isize
 )
 ;
 if
@@ -823,8 +819,6 @@ elf_header
 :
 :
 SIZEOF_EHDR
-as
-isize
 )
 .
 ok

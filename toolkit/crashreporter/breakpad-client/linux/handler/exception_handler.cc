@@ -265,6 +265,13 @@ MOZ_OXIDIZED_BREAKPAD
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 mozilla
 /
 toolkit
@@ -3851,6 +3858,9 @@ defined
 (
 MOZ_OXIDIZED_BREAKPAD
 )
+nsCString
+error_msg
+;
 if
 (
 !
@@ -3863,6 +3873,8 @@ path
 )
 child
 child_blamed_thread
+&
+error_msg
 )
 )
 return
