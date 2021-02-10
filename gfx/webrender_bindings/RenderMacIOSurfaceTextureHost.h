@@ -121,6 +121,12 @@ return
 this
 ;
 }
+size_t
+Bytes
+(
+)
+override
+;
 MacIOSurface
 *
 GetSurface

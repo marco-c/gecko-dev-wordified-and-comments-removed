@@ -501,6 +501,12 @@ plane
 )
 const
 ;
+size_t
+GetAllocSize
+(
+)
+const
+;
 void
 Lock
 (
