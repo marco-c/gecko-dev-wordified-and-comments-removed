@@ -257,10 +257,6 @@ firefox
 "
     
 "
-jianshu
-"
-    
-"
 medium
 -
 article
