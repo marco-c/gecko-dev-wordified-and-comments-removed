@@ -217,7 +217,7 @@ namespace
 frontend
 {
 class
-ParserAtom
+ParserAtomsTable
 ;
 class
 TaggedParserAtomIndex
@@ -5712,7 +5712,7 @@ js
 frontend
 :
 :
-ParserAtom
+ParserAtomsTable
 ;
 friend
 class
