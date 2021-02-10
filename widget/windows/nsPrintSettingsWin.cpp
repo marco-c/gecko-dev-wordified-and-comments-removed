@@ -1410,9 +1410,9 @@ int32_t
 (
 arePagesPortraitMode
 ?
-kLandscapeOrientation
-:
 kPortraitOrientation
+:
+kLandscapeOrientation
 )
 ;
 }
