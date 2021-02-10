@@ -35,6 +35,17 @@ clip
 mode
 .
 png
+fuzzy
+-
+if
+(
+platform
+(
+swgl
+)
+1
+80
+)
 =
 =
 clip
