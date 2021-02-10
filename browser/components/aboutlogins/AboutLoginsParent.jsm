@@ -3156,7 +3156,7 @@ messageSubscribers
 "
 AboutLogins
 :
-AllLogins
+RemoveAllLogins
 "
 [
 ]
