@@ -56,10 +56,13 @@ for
 key
 current_result
 in
+iter
+(
 current
 .
-iteritems
+items
 (
+)
 )
 :
         
