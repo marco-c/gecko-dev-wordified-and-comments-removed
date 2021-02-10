@@ -1,9 +1,12 @@
 #
+if
+defined
+(
+XP_WIN
+)
+#
 include
 "
-.
-.
-/
 ShortcutKeys
 .
 h
@@ -23,9 +26,6 @@ sInputHandlers
 #
 include
 "
-.
-.
-/
 ShortcutKeyDefinitionsForInputCommon
 .
 h
@@ -527,9 +527,6 @@ sTextAreaHandlers
 #
 include
 "
-.
-.
-/
 ShortcutKeyDefinitionsForTextAreaCommon
 .
 h
@@ -1101,9 +1098,6 @@ sBrowserHandlers
 #
 include
 "
-.
-.
-/
 ShortcutKeyDefinitionsForBrowserCommon
 .
 h
@@ -1655,9 +1649,6 @@ sEditorHandlers
 #
 include
 "
-.
-.
-/
 ShortcutKeyDefinitionsForEditorCommon
 .
 h
@@ -2218,3 +2209,5 @@ nullptr
 }
 ;
 }
+#
+endif

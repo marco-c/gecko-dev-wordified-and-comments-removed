@@ -61,9 +61,6 @@ DIRS
 +
 =
 [
-"
-win
-"
 ]
 elif
 CONFIG
@@ -757,6 +754,11 @@ cpp
 "
 "
 ScrollAreaEvent
+.
+cpp
+"
+"
+ShortcutKeyDefinitions
 .
 cpp
 "
