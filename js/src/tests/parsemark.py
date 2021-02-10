@@ -487,6 +487,10 @@ val
 in
 stdout
 .
+decode
+(
+)
+.
 split
 (
 "
@@ -683,10 +687,13 @@ stddev
 in
 enumerate
 (
+iter
+(
 bench_map
 .
-iteritems
+items
 (
+)
 )
 )
 :
@@ -808,10 +815,13 @@ avg
 stddev
 )
 in
+iter
+(
 bench_map
 .
-iteritems
+items
 (
+)
 )
     
 )
