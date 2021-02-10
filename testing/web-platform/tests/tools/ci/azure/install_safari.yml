@@ -78,6 +78,9 @@ preview
 script
 :
 |
+set
+-
+eux
 HOMEBREW_NO_AUTO_UPDATE
 =
 1
@@ -207,6 +210,9 @@ stable
 script
 :
 |
+set
+-
+eux
 sudo
 safaridriver
 -
