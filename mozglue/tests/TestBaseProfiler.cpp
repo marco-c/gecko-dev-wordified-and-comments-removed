@@ -31616,6 +31616,13 @@ baseprofiler
 profiler_capture_backtrace_into
 (
 buffer
+mozilla
+:
+:
+StackCaptureOptions
+:
+:
+Full
 )
 "
 profiler_capture_backtrace_into
