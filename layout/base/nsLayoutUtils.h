@@ -5580,7 +5580,7 @@ nullptr
 ;
 static
 CSSSize
-CalculateRootCompositionSize
+CalculateBoundingCompositionSize
 (
 const
 nsIFrame

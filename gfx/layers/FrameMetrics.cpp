@@ -213,7 +213,7 @@ rcs
 <
 aMetrics
 .
-GetRootCompositionSize
+GetBoundingCompositionSize
 (
 )
 <

@@ -20483,11 +20483,11 @@ Metrics
 (
 )
 .
-SetRootCompositionSize
+SetBoundingCompositionSize
 (
 aLayerMetrics
 .
-GetRootCompositionSize
+GetBoundingCompositionSize
 (
 )
 )
