@@ -522,12 +522,12 @@ createRegExpAndEnsureAtom
 JSContext
 *
 cx
+ParserAtomsTable
+&
+parserAtoms
 CompilationAtomCache
 &
 atomCache
-BaseCompilationStencil
-&
-stencil
 )
 const
 ;
