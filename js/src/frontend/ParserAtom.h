@@ -2618,7 +2618,6 @@ _
 NAME
 TEXT
 )
-\
 init
 (
 NAME
@@ -2631,10 +2630,6 @@ u
 "
 "
 TEXT
-WellKnownAtomId
-:
-:
-NAME
 )
 ;
 FOR_EACH_NONTINY_COMMON_PROPERTYNAME
@@ -2651,7 +2646,6 @@ PROPERTYNAME_FIELD_
 NAME
 _
 )
-\
 init
 (
 NAME
@@ -2664,10 +2658,6 @@ u
 "
 "
 #
-NAME
-WellKnownAtomId
-:
-:
 NAME
 )
 ;
@@ -2859,8 +2849,6 @@ const
 char16_t
 *
 text
-WellKnownAtomId
-id
 )
 {
 size_t
