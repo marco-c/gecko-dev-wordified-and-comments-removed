@@ -320,6 +320,12 @@ sym
 ;
 void
 *
+ProvisionalJitEntryStub
+(
+)
+;
+void
+*
 MaybeGetBuiltinThunk
 (
 JSFunction
