@@ -2768,15 +2768,11 @@ const
 {
 return
 trackedSite_
-?
-trackedSite_
 -
 >
 tree
 (
 )
-:
-nullptr
 ;
 }
 private
