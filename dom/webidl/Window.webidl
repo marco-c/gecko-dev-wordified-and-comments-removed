@@ -847,6 +847,7 @@ focus
 [
 Throws
 CrossOriginCallable
+NeedsCallerType
 ]
 void
 blur
