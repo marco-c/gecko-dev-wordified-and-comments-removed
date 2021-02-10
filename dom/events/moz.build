@@ -125,9 +125,6 @@ DIRS
 +
 =
 [
-"
-emacs
-"
 ]
 BROWSER_CHROME_MANIFESTS
 +
