@@ -105,6 +105,15 @@ TESTING_JS_MODULES
 "
 schemas
 /
+ExperimentFeatureManifest
+.
+schema
+.
+json
+"
+"
+schemas
+/
 NimbusExperiment
 .
 schema
