@@ -219,6 +219,8 @@ task
 -
 {
 }
+-
+label
 "
 .
 format
@@ -727,16 +729,22 @@ None
 task
 -
 0
+-
+label
 "
 "
 task
 -
 1
+-
+label
 "
 "
 task
 -
 2
+-
+label
 "
 ]
         
@@ -797,11 +805,15 @@ low
 task
 -
 0
+-
+label
 "
 "
 task
 -
 2
+-
+label
 "
 ]
         
@@ -837,16 +849,22 @@ medium
 task
 -
 0
+-
+label
 "
 "
 task
 -
 1
+-
+label
 "
 "
 task
 -
 2
+-
+label
 "
 ]
         
@@ -882,21 +900,29 @@ high
 task
 -
 0
+-
+label
 "
 "
 task
 -
 1
+-
+label
 "
 "
 task
 -
 2
+-
+label
 "
 "
 task
 -
 3
+-
+label
 "
 ]
         
@@ -1008,6 +1034,8 @@ tasks
 task
 -
 1
+-
+label
 "
 :
 0
@@ -1017,6 +1045,8 @@ task
 task
 -
 2
+-
+label
 "
 :
 0
@@ -1026,6 +1056,8 @@ task
 task
 -
 3
+-
+label
 "
 :
 0
@@ -1039,6 +1071,8 @@ task
 task
 -
 2
+-
+label
 "
 ]
         
@@ -1066,6 +1100,8 @@ tasks
 task
 -
 1
+-
+label
 "
 :
 0
@@ -1075,6 +1111,8 @@ task
 task
 -
 3
+-
+label
 "
 :
 0
@@ -1091,16 +1129,22 @@ known_tasks
 task
 -
 1
+-
+label
 "
 "
 task
 -
 3
+-
+label
 "
 "
 task
 -
 4
+-
+label
 "
 ]
             
@@ -1111,6 +1155,8 @@ task
 task
 -
 2
+-
+label
 "
 ]
         
@@ -1152,6 +1198,8 @@ ini
 task
 -
 0
+-
+label
 "
 ]
         
@@ -1179,6 +1227,8 @@ tasks
 task
 -
 2
+-
+label
 "
 :
 0
@@ -1222,16 +1272,22 @@ ini
 task
 -
 0
+-
+label
 "
 "
 task
 -
 1
+-
+label
 "
 "
 task
 -
 2
+-
+label
 "
 ]
         
@@ -1259,6 +1315,8 @@ tasks
 task
 -
 2
+-
+label
 "
 :
 0
@@ -1268,6 +1326,8 @@ task
 task
 -
 4
+-
+label
 "
 :
 0
@@ -1311,11 +1371,15 @@ ini
 task
 -
 0
+-
+label
 "
 "
 task
 -
 4
+-
+label
 "
 ]
         
@@ -1345,6 +1409,8 @@ tasks
 task
 -
 2
+-
+label
 "
 :
 0
@@ -1354,6 +1420,8 @@ task
 task
 -
 4
+-
+label
 "
 :
 0
@@ -1370,6 +1438,8 @@ reduced_tasks
 task
 -
 4
+-
+label
 "
 :
 0
@@ -1413,6 +1483,8 @@ ini
 task
 -
 4
+-
+label
 "
 ]
         
@@ -1445,6 +1517,8 @@ tasks
 task
 -
 2
+-
+label
 "
 :
 0
@@ -1500,11 +1574,15 @@ ini
 task
 -
 1
+-
+label
 "
 "
 task
 -
 0
+-
+label
 "
 ]
                     
@@ -1521,6 +1599,8 @@ ini
 task
 -
 0
+-
+label
 "
 ]
                 
@@ -1533,11 +1613,15 @@ task
 task
 -
 0
+-
+label
 "
 "
 task
 -
 2
+-
+label
 "
 ]
         
@@ -1570,6 +1654,8 @@ tasks
 task
 -
 2
+-
+label
 "
 :
 0
@@ -1625,11 +1711,15 @@ ini
 task
 -
 1
+-
+label
 "
 "
 task
 -
 0
+-
+label
 "
 ]
                     
@@ -1646,6 +1736,8 @@ ini
 task
 -
 1
+-
+label
 "
 ]
                 
@@ -1658,16 +1750,22 @@ task
 task
 -
 0
+-
+label
 "
 "
 task
 -
 1
+-
+label
 "
 "
 task
 -
 2
+-
+label
 "
 ]
         
@@ -1700,6 +1798,8 @@ tasks
 task
 -
 2
+-
+label
 "
 :
 0
@@ -1755,6 +1855,8 @@ ini
 task
 -
 1
+-
+label
 "
 ]
                     
@@ -1771,6 +1873,8 @@ ini
 task
 -
 0
+-
+label
 "
 ]
                 
@@ -1783,11 +1887,15 @@ task
 task
 -
 0
+-
+label
 "
 "
 task
 -
 2
+-
+label
 "
 ]
         
@@ -1820,6 +1928,8 @@ tasks
 task
 -
 2
+-
+label
 "
 :
 0
@@ -1875,6 +1985,8 @@ ini
 task
 -
 1
+-
+label
 "
 ]
                     
@@ -1891,6 +2003,8 @@ ini
 task
 -
 3
+-
+label
 "
 ]
                 
@@ -1903,6 +2017,8 @@ task
 task
 -
 2
+-
+label
 "
 ]
         
@@ -2168,6 +2284,8 @@ tasks
 task
 -
 2
+-
+label
 "
 :
 0
@@ -2177,6 +2295,8 @@ task
 task
 -
 4
+-
+label
 "
 :
 0
@@ -2259,6 +2379,8 @@ known_tasks
 task
 -
 4
+-
+label
 "
 ]
         
@@ -2316,6 +2438,8 @@ tasks
 task
 -
 2
+-
+label
 "
 :
 0
@@ -2325,6 +2449,8 @@ task
 task
 -
 4
+-
+label
 "
 :
 0
@@ -2410,11 +2536,15 @@ known_tasks
 task
 -
 1
+-
+label
 "
 "
 task
 -
 3
+-
+label
 "
 ]
         
@@ -2487,16 +2617,22 @@ sorted
 task
 -
 0
+-
+label
 "
 "
 task
 -
 2
+-
+label
 "
 "
 task
 -
 4
+-
+label
 "
 ]
 )
@@ -2554,16 +2690,22 @@ sorted
 task
 -
 0
+-
+label
 "
 "
 task
 -
 2
+-
+label
 "
 "
 task
 -
 4
+-
+label
 "
 ]
 )
@@ -2616,28 +2758,38 @@ labels
 =
 sorted
 (
+        
 [
 "
 task
 -
 0
+-
+label
 "
 "
 task
 -
 1
+-
+label
 "
 "
 task
 -
 2
+-
+label
 "
 "
 task
 -
 4
+-
+label
 "
 ]
+    
 )
 def
 test_bugbug_timeout
@@ -3377,6 +3529,8 @@ label
 task
 -
 4
+-
+label
 "
         
 return
@@ -3389,16 +3543,22 @@ in
 task
 -
 2
+-
+label
 "
 "
 task
 -
 3
+-
+label
 "
 "
 task
 -
 4
+-
+label
 "
 )
     
@@ -3526,21 +3686,29 @@ scheduled
 task
 -
 0
+-
+label
 "
 "
 task
 -
 1
+-
+label
 "
 "
 task
 -
 2
+-
+label
 "
 "
 task
 -
 3
+-
+label
 "
 }
     
@@ -3587,11 +3755,15 @@ scheduled
 task
 -
 0
+-
+label
 "
 "
 task
 -
 1
+-
+label
 "
 }
 if
