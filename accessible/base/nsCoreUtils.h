@@ -671,6 +671,16 @@ nsIContent
 aContent
 )
 ;
+static
+bool
+IsDocumentVisibleConsideringInProcessAncestors
+(
+const
+Document
+*
+aDocument
+)
+;
 }
 ;
 #

@@ -2099,11 +2099,12 @@ aDocument
 if
 (
 !
-aDocument
--
->
-IsVisibleConsideringAncestors
+nsCoreUtils
+:
+:
+IsDocumentVisibleConsideringInProcessAncestors
 (
+aDocument
 )
 |
 |

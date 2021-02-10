@@ -7186,12 +7186,6 @@ return
 mVisible
 ;
 }
-bool
-IsVisibleConsideringAncestors
-(
-)
-const
-;
 void
 SetSuppressedEventListener
 (
