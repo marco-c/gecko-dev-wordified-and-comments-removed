@@ -5411,16 +5411,6 @@ aPrincipal
 ;
 static
 bool
-IsPDFJS
-(
-JSContext
-*
-JSObject
-*
-)
-;
-static
-bool
 IsSWFPlayerEnabled
 (
 )
