@@ -464,9 +464,6 @@ animation_value_type
 "
 discrete
 "
-needs_context
-=
-False
 servo_restyle_damage
 =
 "
@@ -512,9 +509,6 @@ animation_value_type
 "
 discrete
 "
-needs_context
-=
-False
 gecko_ffi_name
 =
 "
@@ -755,9 +749,6 @@ enabled_in
 "
 ua
 "
-needs_context
-=
-False
 gecko_pref
 =
 "
@@ -918,9 +909,6 @@ format
 (
 full_name
 )
-needs_context
-=
-False
 servo_restyle_damage
 =
 "
@@ -985,9 +973,6 @@ OverflowAnchor
 :
 Auto
 "
-needs_context
-=
-False
 gecko_pref
 =
 "
@@ -3089,9 +3074,6 @@ engines
 "
 gecko
 "
-needs_context
-=
-False
 logical_group
 =
 "
@@ -3227,9 +3209,6 @@ engines
 "
 gecko
 "
-needs_context
-=
-False
 spec
 =
 "
@@ -3288,9 +3267,6 @@ engines
 "
 gecko
 "
-needs_context
-=
-False
 spec
 =
 "
@@ -3349,9 +3325,6 @@ engines
 "
 gecko
 "
-needs_context
-=
-False
 alias
 =
 "
@@ -3422,9 +3395,6 @@ animation_value_type
 "
 discrete
 "
-needs_context
-=
-False
 gecko_ffi_name
 =
 "
@@ -3803,9 +3773,6 @@ style
 -
 property
 "
-needs_context
-=
-False
 extra_prefixes
 =
 transform_extra_prefixes
