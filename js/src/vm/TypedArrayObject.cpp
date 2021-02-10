@@ -1727,14 +1727,6 @@ None
 ArrayBuffer
 }
 ;
-enum
-class
-CreateSingleton
-{
-No
-Yes
-}
-;
 template
 <
 typename
