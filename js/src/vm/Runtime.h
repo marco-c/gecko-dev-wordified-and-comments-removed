@@ -2634,9 +2634,9 @@ js
 frontend
 :
 :
-CompilationStencilSet
+CompilationStencil
 &
-stencilSet
+stencil
 js
 :
 :

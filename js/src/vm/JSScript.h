@@ -4250,9 +4250,9 @@ cx
 frontend
 :
 :
-CompilationStencilSet
+CompilationStencil
 &
-stencilSet
+stencil
 UniquePtr
 <
 XDRIncrementalStencilEncoder

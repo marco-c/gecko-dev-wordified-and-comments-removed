@@ -115,9 +115,6 @@ struct
 CompilationStencil
 ;
 struct
-CompilationStencilSet
-;
-struct
 CompilationInput
 ;
 struct
@@ -1245,9 +1242,9 @@ codeDelazificationStencils
 frontend
 :
 :
-CompilationStencilSet
+CompilationStencil
 &
-stencilSet
+stencil
 )
 {
 MOZ_CRASH
@@ -2941,9 +2938,9 @@ codeStencils
 frontend
 :
 :
-CompilationStencilSet
+CompilationStencil
 &
-stencilSet
+stencil
 )
 ;
 private
@@ -3204,9 +3201,9 @@ codeStencils
 frontend
 :
 :
-CompilationStencilSet
+CompilationStencil
 &
-stencilSet
+stencil
 )
 ;
 private

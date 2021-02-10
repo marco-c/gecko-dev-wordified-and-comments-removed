@@ -2005,15 +2005,6 @@ CompilationStencil
 >
 stencil_
 ;
-UniquePtr
-<
-frontend
-:
-:
-CompilationStencilSet
->
-stencilSet_
-;
 frontend
 :
 :
