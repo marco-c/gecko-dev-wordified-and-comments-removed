@@ -1099,7 +1099,6 @@ false
 }
 )
 ;
-}
 this
 .
 props
@@ -1120,6 +1119,7 @@ HIDE_PERSONALIZE
 )
 )
 ;
+}
 }
 handleOnKeyDown
 (
