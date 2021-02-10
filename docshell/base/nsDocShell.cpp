@@ -40422,15 +40422,6 @@ IsActive
 &
 &
 !
-mBrowsingContext
--
->
-IsActive
-(
-)
-&
-&
-!
 Preferences
 :
 :
