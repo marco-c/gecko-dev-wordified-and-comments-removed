@@ -1655,7 +1655,7 @@ this
 .
 extension
 .
-baseURI
+rootURI
 .
 resolve
 (
