@@ -980,6 +980,24 @@ missing
 )
 )
     
+if
+"
+visual
+"
+not
+in
+extra_options
+:
+        
+extra_options
+.
+append
+(
+"
+visual
+"
+)
+    
 subtests
 =
 suites
