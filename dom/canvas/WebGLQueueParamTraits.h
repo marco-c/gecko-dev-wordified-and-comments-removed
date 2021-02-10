@@ -21,17 +21,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-ProducerConsumerQueue
-.
-h
-"
-#
-include
-"
 TexUnpackBlob
 .
 h
