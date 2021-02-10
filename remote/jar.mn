@@ -65,10 +65,14 @@ content
 /
 content
 /
+components
+/
 RemoteAgent
 .
 jsm
 (
+components
+/
 RemoteAgent
 .
 jsm

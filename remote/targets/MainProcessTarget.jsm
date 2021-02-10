@@ -82,6 +82,8 @@ remote
 /
 content
 /
+components
+/
 RemoteAgent
 .
 jsm
