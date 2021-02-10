@@ -121,9 +121,6 @@ DIRS
 +
 =
 [
-"
-unix
-"
 ]
 else
 :
