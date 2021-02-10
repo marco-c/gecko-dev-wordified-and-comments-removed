@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsIProxyInfo
-.
-h
-"
-#
-include
-"
 nsITransport
 .
 h
@@ -88,13 +81,6 @@ h
 include
 "
 nsITCPSocketCallback
-.
-h
-"
-#
-include
-"
-nsIProtocolProxyCallback
 .
 h
 "
@@ -273,8 +259,6 @@ public
 nsSupportsWeakReference
 public
 nsITCPSocketCallback
-public
-nsIProtocolProxyCallback
 {
 public
 :
@@ -307,7 +291,6 @@ NS_DECL_NSITRANSPORTEVENTSINK
 NS_DECL_NSIINPUTSTREAMCALLBACK
 NS_DECL_NSIOBSERVER
 NS_DECL_NSITCPSOCKETCALLBACK
-NS_DECL_NSIPROTOCOLPROXYCALLBACK
 virtual
 JSObject
 *
@@ -497,7 +480,7 @@ nsIGlobalObject
 aGlobal
 TCPSocketChild
 *
-aBridge
+aSocketBridge
 bool
 aUseArrayBuffers
 )
@@ -544,9 +527,6 @@ close
 nsresult
 Init
 (
-nsIProxyInfo
-*
-aProxyInfo
 )
 ;
 void
@@ -576,7 +556,7 @@ InitWithSocketChild
 (
 TCPSocketChild
 *
-aSocketBridge
+aBridge
 )
 ;
 nsresult
@@ -654,11 +634,6 @@ bool
 waitForUnsentData
 )
 ;
-nsresult
-ResolveProxy
-(
-)
-;
 TCPReadyState
 mReadyState
 ;
@@ -703,12 +678,6 @@ nsCOMPtr
 nsIOutputStream
 >
 mSocketOutputStream
-;
-nsCOMPtr
-<
-nsICancelable
->
-mProxyRequest
 ;
 nsCOMPtr
 <
