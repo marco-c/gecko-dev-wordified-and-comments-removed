@@ -9054,6 +9054,11 @@ mHasSelectableFrame
 =
 false
 ;
+bool
+mIgnoredBrFrame
+=
+false
+;
 FrameSearchResult
 PeekOffsetNoAmount
 (

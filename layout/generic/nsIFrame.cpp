@@ -42604,6 +42604,12 @@ mFrame
 HasSignificantTerminalNewline
 (
 )
+&
+&
+!
+current
+.
+mIgnoredBrFrame
 )
 {
 -
@@ -45109,11 +45115,6 @@ IsBrFrame
 )
 )
 {
-bool
-canSkipBr
-=
-false
-;
 for
 (
 nsIFrame
@@ -45167,7 +45168,9 @@ IsBrFrame
 )
 )
 {
-canSkipBr
+result
+.
+mIgnoredBrFrame
 =
 true
 ;
@@ -45178,7 +45181,9 @@ break
 }
 if
 (
-canSkipBr
+result
+.
+mIgnoredBrFrame
 )
 {
 continue
