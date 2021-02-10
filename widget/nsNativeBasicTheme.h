@@ -1755,6 +1755,10 @@ CSSCoord
 aRadius
 CSSCoord
 aOffset
+bool
+aInnerOnly
+=
+false
 )
 ;
 void

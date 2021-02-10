@@ -2581,6 +2581,8 @@ CSSCoord
 aRadius
 CSSCoord
 aOffset
+bool
+aInnerOnly
 )
 {
 auto
@@ -2667,6 +2669,14 @@ strokeWidth
 )
 )
 ;
+if
+(
+aInnerOnly
+)
+{
+return
+;
+}
 offset
 =
 CSSCoord
@@ -7586,6 +7596,7 @@ dpiRatio
 0
 .
 0f
+true
 )
 ;
 break
@@ -7879,10 +7890,10 @@ overflow
 .
 SizeTo
 (
-5
-5
-5
-5
+2
+2
+2
+2
 )
 ;
 break
