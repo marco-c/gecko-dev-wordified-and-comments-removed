@@ -118,6 +118,11 @@ DecryptingInputStream_impl
 h
 "
 "
+DirectoryLock
+.
+h
+"
+"
 DummyCipherStrategy
 .
 h
