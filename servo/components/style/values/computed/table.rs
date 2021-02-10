@@ -1,0 +1,13 @@
+pub
+use
+super
+:
+:
+specified
+:
+:
+table
+:
+:
+CaptionSide
+;

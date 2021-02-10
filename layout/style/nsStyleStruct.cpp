@@ -6905,7 +6905,10 @@ Separate
 )
 mCaptionSide
 (
-NS_STYLE_CAPTION_SIDE_TOP
+StyleCaptionSide
+:
+:
+Top
 )
 mEmptyCells
 (

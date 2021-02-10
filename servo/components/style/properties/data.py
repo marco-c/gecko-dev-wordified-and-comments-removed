@@ -2611,6 +2611,13 @@ BorderStyle
 "
                 
 "
+table
+:
+:
+CaptionSide
+"
+                
+"
 Clear
 "
                 

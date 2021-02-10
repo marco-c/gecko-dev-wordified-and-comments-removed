@@ -7882,7 +7882,10 @@ mozilla
 StyleBorderCollapse
 mBorderCollapse
 ;
-uint8_t
+mozilla
+:
+:
+StyleCaptionSide
 mCaptionSide
 ;
 mozilla
