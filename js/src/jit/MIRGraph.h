@@ -4260,9 +4260,10 @@ hasLastIns
 ins
 -
 >
-setBlock
+setInstructionBlock
 (
 this
+trackedSite_
 )
 ;
 graph
@@ -4279,14 +4280,6 @@ instructions_
 pushBack
 (
 ins
-)
-;
-ins
--
->
-setTrackedSite
-(
-trackedSite_
 )
 ;
 }
