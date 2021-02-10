@@ -1170,6 +1170,11 @@ mozilla
 StyleSizeOverrides
 &
 aSizeOverrides
+mozilla
+:
+:
+ComputeSizeFlags
+aFlag
 )
 const
 ;
