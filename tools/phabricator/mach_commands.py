@@ -517,6 +517,7 @@ re
 .
 compile
 (
+            
 r
 "
 (
@@ -539,6 +540,10 @@ exe
 ?
 )
 "
+re
+.
+MULTILINE
+        
 )
 .
 findall
