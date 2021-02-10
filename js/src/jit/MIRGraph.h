@@ -1337,7 +1337,12 @@ pc
 const
 {
 return
-pc_
+trackedSite_
+-
+>
+pc
+(
+)
 ;
 }
 uint32_t
@@ -2824,10 +2829,6 @@ domIndex_
 ;
 uint32_t
 numDominated_
-;
-jsbytecode
-*
-pc_
 ;
 LBlock
 *
