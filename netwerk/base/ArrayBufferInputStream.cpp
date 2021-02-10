@@ -118,9 +118,9 @@ JS
 Value
 >
 aBuffer
-uint32_t
+uint64_t
 aByteOffset
-uint32_t
+uint64_t
 aLength
 )
 {
@@ -180,7 +180,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-uint32_t
+uint64_t
 buflen
 =
 JS
@@ -191,7 +191,7 @@ GetArrayBufferByteLength
 arrayBuffer
 )
 ;
-uint32_t
+uint64_t
 offset
 =
 std
@@ -203,7 +203,7 @@ buflen
 aByteOffset
 )
 ;
-uint32_t
+uint64_t
 bufferLength
 =
 std
@@ -217,6 +217,17 @@ offset
 aLength
 )
 ;
+if
+(
+bufferLength
+>
+UINT32_MAX
+)
+{
+return
+NS_ERROR_INVALID_ARG
+;
+}
 mArrayBuffer
 =
 mozilla
