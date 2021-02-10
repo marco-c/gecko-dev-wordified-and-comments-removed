@@ -98,3 +98,14 @@ DIRS
 sync
 "
 ]
+SPHINX_TREES
+[
+"
+/
+services
+"
+]
+=
+"
+docs
+"

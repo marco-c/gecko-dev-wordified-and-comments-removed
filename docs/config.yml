@@ -72,10 +72,6 @@ libpref
 remote
 -
 services
-/
-common
-/
-services
 -
 uriloader
 -
