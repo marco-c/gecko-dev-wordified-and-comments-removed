@@ -714,14 +714,14 @@ this
 .
 _router
 .
-sendMessage
+routeCFRMessage
 (
 data
 .
 content
+browser
 data
 true
-browser
 )
 ;
 }
