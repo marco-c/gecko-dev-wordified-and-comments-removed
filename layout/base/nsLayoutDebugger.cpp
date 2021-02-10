@@ -1002,9 +1002,15 @@ if
 aItem
 -
 >
-HasHitTestInfo
+GetType
 (
 )
+=
+=
+DisplayItemType
+:
+:
+TYPE_COMPOSITOR_HITTEST_INFO
 )
 {
 auto
@@ -1013,7 +1019,7 @@ hitTestInfoItem
 =
 static_cast
 <
-nsDisplayHitTestInfoBase
+nsDisplayCompositorHitTestInfo
 *
 >
 (
