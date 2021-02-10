@@ -196,17 +196,7 @@ DecodeScript
 \
 _
 (
-DecodeFunction
-)
-\
-_
-(
 EncodeScript
-)
-\
-_
-(
-EncodeFunction
 )
 \
 _
