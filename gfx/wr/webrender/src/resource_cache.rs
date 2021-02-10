@@ -6655,6 +6655,11 @@ self
 stamp
 :
 FrameStamp
+profile
+:
+&
+mut
+TransactionProfile
 )
 {
 profile_scope
@@ -6693,6 +6698,7 @@ texture_cache
 begin_frame
 (
 stamp
+profile
 )
 ;
 self

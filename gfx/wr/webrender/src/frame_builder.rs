@@ -2380,6 +2380,7 @@ resource_cache
 begin_frame
 (
 stamp
+profile
 )
 ;
 gpu_cache
