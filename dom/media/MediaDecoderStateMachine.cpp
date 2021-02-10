@@ -2194,6 +2194,17 @@ __func__
 mMaster
 -
 >
+ResetDecode
+(
+TrackInfo
+:
+:
+kVideoTrack
+)
+;
+mMaster
+-
+>
 mAudioWaitRequest
 .
 DisconnectIfExists
