@@ -54,6 +54,8 @@ remote
 /
 content
 /
+shared
+/
 Format
 .
 jsm
@@ -77,6 +79,8 @@ chrome
 remote
 /
 content
+/
+shared
 /
 Log
 .

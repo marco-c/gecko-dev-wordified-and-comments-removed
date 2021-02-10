@@ -154,6 +154,8 @@ remote
 /
 content
 /
+shared
+/
 TabManager
 .
 jsm
@@ -203,6 +205,8 @@ chrome
 remote
 /
 content
+/
+shared
 /
 WindowManager
 .
