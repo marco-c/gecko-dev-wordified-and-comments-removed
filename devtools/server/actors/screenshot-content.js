@@ -154,7 +154,11 @@ node
 return
 getRect
 (
-null
+node
+.
+ownerGlobal
+.
+top
 node
 node
 .
