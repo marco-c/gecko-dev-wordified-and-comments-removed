@@ -248,16 +248,6 @@ reftest
 .
 list
 #
-Variables
-Level
-1
-include
-variables
-/
-reftest
-.
-list
-#
 CSS
 will
 -
