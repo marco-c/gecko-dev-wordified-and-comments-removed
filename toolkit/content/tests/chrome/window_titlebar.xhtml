@@ -969,7 +969,7 @@ mouseup
 /
 /
 with
-allowEvents
+allowevents
 set
 to
 true
@@ -989,9 +989,15 @@ the
 window
 titlebar
 .
-allowEvents
-=
+setAttribute
+(
+"
+allowevents
+"
+"
 true
+"
+)
 ;
 synthesizeMouse
 (

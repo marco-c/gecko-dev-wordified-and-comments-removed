@@ -272,10 +272,6 @@ attribute
 DOMString
 src
 ;
-attribute
-boolean
-allowEvents
-;
 [
 Throws
 ChromeOnly
