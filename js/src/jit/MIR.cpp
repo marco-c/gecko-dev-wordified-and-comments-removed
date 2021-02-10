@@ -2483,15 +2483,6 @@ MIRType
 :
 :
 Object
-&
-&
-type
-!
-=
-MIRType
-:
-:
-Int64
 ;
 }
 ;
