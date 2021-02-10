@@ -7828,6 +7828,12 @@ case
 ParseNodeKind
 :
 :
+ImportNamespaceSpec
+:
+case
+ParseNodeKind
+:
+:
 ExportBatchSpecStmt
 :
 case
@@ -7841,6 +7847,12 @@ ParseNodeKind
 :
 :
 ExportSpec
+:
+case
+ParseNodeKind
+:
+:
+ExportNamespaceSpec
 :
 case
 ParseNodeKind
@@ -35955,7 +35967,7 @@ ListNode
 bool
 isSpread
 =
-JOF_OPTYPE
+IsSpreadOp
 (
 callNode
 -
@@ -35964,9 +35976,6 @@ callOp
 (
 )
 )
-=
-=
-JOF_BYTE
 ;
 JSOp
 op
@@ -36221,7 +36230,7 @@ ListNode
 bool
 isSpread
 =
-JOF_OPTYPE
+IsSpreadOp
 (
 callNode
 -
@@ -36230,9 +36239,6 @@ callOp
 (
 )
 )
-=
-=
-JOF_BYTE
 ;
 if
 (
