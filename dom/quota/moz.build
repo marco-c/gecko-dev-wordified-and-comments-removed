@@ -118,11 +118,6 @@ DecryptingInputStream_impl
 h
 "
 "
-DirectoryLock
-.
-h
-"
-"
 DummyCipherStrategy
 .
 h
@@ -244,11 +239,6 @@ cpp
 "
 "
 DecryptingInputStream
-.
-cpp
-"
-"
-DirectoryLockImpl
 .
 cpp
 "
