@@ -3482,7 +3482,7 @@ nsBinaryInputStream
 :
 ReadArrayBuffer
 (
-uint32_t
+uint64_t
 aLength
 JS
 :
@@ -3498,7 +3498,7 @@ aBuffer
 JSContext
 *
 aCx
-uint32_t
+uint64_t
 *
 aReadLength
 )
@@ -3552,7 +3552,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-uint32_t
+size_t
 bufferLength
 =
 JS
@@ -3582,7 +3582,7 @@ std
 :
 min
 <
-uint32_t
+uint64_t
 >
 (
 aLength
@@ -3607,7 +3607,7 @@ char
 bufSize
 )
 ;
-uint32_t
+uint64_t
 pos
 =
 0
@@ -3629,6 +3629,9 @@ std
 :
 :
 min
+<
+uint64_t
+>
 (
 aLength
 -
