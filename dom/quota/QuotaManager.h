@@ -600,11 +600,6 @@ GetOrCreate
 nsIRunnable
 *
 aCallback
-nsIEventTarget
-*
-aMainEventTarget
-=
-nullptr
 )
 ;
 static

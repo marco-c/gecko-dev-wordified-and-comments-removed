@@ -15336,9 +15336,6 @@ GetOrCreate
 nsIRunnable
 *
 aCallback
-nsIEventTarget
-*
-aMainEventTarget
 )
 {
 AssertIsOnBackgroundThread

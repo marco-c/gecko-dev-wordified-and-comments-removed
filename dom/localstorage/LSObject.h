@@ -271,15 +271,6 @@ aObject
 )
 ;
 static
-already_AddRefed
-<
-nsISerialEventTarget
->
-GetSyncLoopEventTarget
-(
-)
-;
-static
 void
 OnSyncMessageReceived
 (
