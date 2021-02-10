@@ -32067,7 +32067,7 @@ advertisement
 "
 }
 "
-HTTP3_CONNECTTION_CLOSE_CODE
+HTTP3_CONNECTION_CLOSE_CODE
 "
 :
 {
@@ -32116,6 +32116,7 @@ bug_numbers
 :
 [
 1605099
+1688091
 ]
 "
 expires_in_version
