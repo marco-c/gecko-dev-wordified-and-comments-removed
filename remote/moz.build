@@ -61,9 +61,6 @@ DIRS
 components
 "
 "
-startup
-"
-"
 test
 "
 ]
