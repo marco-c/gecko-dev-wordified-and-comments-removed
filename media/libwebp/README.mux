@@ -75,7 +75,7 @@ ___
 /
 v1
 .
-1
+2
 .
 0
 Description
@@ -354,6 +354,12 @@ profile
 /
 metadata
 :
+loop
+LOOP_COUNT
+set
+the
+loop
+count
 icc
 file
 .

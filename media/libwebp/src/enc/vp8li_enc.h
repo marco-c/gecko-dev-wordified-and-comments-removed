@@ -182,7 +182,7 @@ struct
 VP8LBackwardRefs
 refs_
 [
-3
+4
 ]
 ;
 VP8LHashChain

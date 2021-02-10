@@ -94,7 +94,7 @@ ENC_MAJ_VERSION
 #
 define
 ENC_MIN_VERSION
-1
+2
 #
 define
 ENC_REV_VERSION
@@ -1846,12 +1846,14 @@ height
 )
 ;
 void
-WebPCleanupTransparentAreaLossless
+WebPReplaceTransparentPixels
 (
 WebPPicture
 *
 const
 pic
+uint32_t
+color
 )
 ;
 #

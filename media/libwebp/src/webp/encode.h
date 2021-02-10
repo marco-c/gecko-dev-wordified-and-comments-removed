@@ -331,11 +331,11 @@ use_delta_palette
 int
 use_sharp_yuv
 ;
-uint32_t
-pad
-[
-2
-]
+int
+qmin
+;
+int
+qmax
 ;
 }
 ;
