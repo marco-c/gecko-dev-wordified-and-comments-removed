@@ -190,12 +190,6 @@ mPrefersReducedMotionCached
 =
 false
 ;
-int32_t
-mUseAccessibilityTheme
-;
-bool
-mUseAccessibilityThemeCached
-;
 nscolor
 mColorTextSelectBackground
 ;
