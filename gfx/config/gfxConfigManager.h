@@ -67,6 +67,10 @@ mFeatureWrPartial
 (
 nullptr
 )
+mFeatureWrOptimizedShaders
+(
+nullptr
+)
 mFeatureWrSoftware
 (
 nullptr
@@ -116,6 +120,10 @@ mWrCompositorDCompRequired
 false
 )
 mWrPartialPresent
+(
+false
+)
+mWrOptimizedShaders
 (
 false
 )
@@ -236,6 +244,10 @@ mFeatureWrPartial
 ;
 FeatureState
 *
+mFeatureWrOptimizedShaders
+;
+FeatureState
+*
 mFeatureWrSoftware
 ;
 FeatureState
@@ -282,6 +294,9 @@ mWrCompositorDCompRequired
 ;
 bool
 mWrPartialPresent
+;
+bool
+mWrOptimizedShaders
 ;
 bool
 mGPUProcessAllowSoftware
