@@ -3195,7 +3195,10 @@ if
 mCMSMode
 !
 =
-eCMSMode_Off
+CMSMode
+:
+:
+Off
 )
 {
 switch
