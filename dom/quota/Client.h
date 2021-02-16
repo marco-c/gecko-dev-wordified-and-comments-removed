@@ -151,6 +151,9 @@ dom
 :
 quota
 {
+struct
+OriginMetadata
+;
 class
 OriginScope
 ;
@@ -159,9 +162,6 @@ QuotaManager
 ;
 class
 UsageInfo
-;
-struct
-GroupAndOrigin
 ;
 class
 Client
@@ -464,9 +464,9 @@ InitOrigin
 PersistenceType
 aPersistenceType
 const
-GroupAndOrigin
+OriginMetadata
 &
-aGroupAndOrigin
+aOriginMetadata
 const
 AtomicBool
 &
@@ -482,9 +482,9 @@ InitOriginWithoutTracking
 PersistenceType
 aPersistenceType
 const
-GroupAndOrigin
+OriginMetadata
 &
-aGroupAndOrigin
+aOriginMetadata
 const
 AtomicBool
 &
@@ -504,9 +504,9 @@ GetUsageForOrigin
 PersistenceType
 aPersistenceType
 const
-GroupAndOrigin
+OriginMetadata
 &
-aGroupAndOrigin
+aOriginMetadata
 const
 AtomicBool
 &

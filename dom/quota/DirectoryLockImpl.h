@@ -254,9 +254,9 @@ const
 quota
 :
 :
-GroupAndOrigin
+OriginMetadata
 &
-aGroupAndOrigin
+aOriginMetadata
 Client
 :
 :
@@ -283,7 +283,7 @@ PersistenceType
 (
 aPersistenceType
 )
-aGroupAndOrigin
+aOriginMetadata
 .
 mGroup
 OriginScope
@@ -291,7 +291,7 @@ OriginScope
 :
 FromOrigin
 (
-aGroupAndOrigin
+aOriginMetadata
 .
 mOrigin
 )
@@ -335,9 +335,9 @@ const
 quota
 :
 :
-GroupAndOrigin
+OriginMetadata
 &
-aGroupAndOrigin
+aOriginMetadata
 )
 {
 MOZ_ASSERT
@@ -351,7 +351,7 @@ PERSISTENCE_TYPE_INVALID
 MOZ_ASSERT
 (
 !
-aGroupAndOrigin
+aOriginMetadata
 .
 mOrigin
 .
@@ -377,7 +377,7 @@ PersistenceType
 (
 aPersistenceType
 )
-aGroupAndOrigin
+aOriginMetadata
 .
 mGroup
 OriginScope
@@ -385,7 +385,7 @@ OriginScope
 :
 FromOrigin
 (
-aGroupAndOrigin
+aOriginMetadata
 .
 mOrigin
 )
@@ -736,9 +736,9 @@ const
 quota
 :
 :
-GroupAndOrigin
+OriginMetadata
 &
-aGroupAndOrigin
+aOriginMetadata
 Client
 :
 :
@@ -783,8 +783,8 @@ Value
 quota
 :
 :
-GroupAndOrigin
-GroupAndOrigin
+OriginMetadata
+OriginMetadata
 (
 )
 const
@@ -804,7 +804,7 @@ return
 quota
 :
 :
-GroupAndOrigin
+OriginMetadata
 {
 mGroup
 nsCString

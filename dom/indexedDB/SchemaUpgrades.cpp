@@ -13882,7 +13882,7 @@ PERSISTENCE_TYPE_INVALID
 quota
 :
 :
-GroupAndOrigin
+OriginMetadata
 {
 }
 u
