@@ -111,10 +111,6 @@ OnComplete
 imgIContainer
 *
 aImage
-const
-nsIntRect
-&
-aRect
 )
 override
 ;
