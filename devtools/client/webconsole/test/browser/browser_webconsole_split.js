@@ -497,12 +497,7 @@ splitterVisibility
 !
 splitter
 .
-getAttribute
-(
-"
 hidden
-"
-)
 ;
 const
 splitterHeight
