@@ -64314,11 +64314,9 @@ op
 getBoolOption
 (
 "
-enable
--
 large
 -
-buffers
+arraybuffers
 "
 )
 )
@@ -68913,11 +68911,9 @@ addBoolOption
 0
 '
 "
-enable
--
 large
 -
-buffers
+arraybuffers
 "
 "
 Allow

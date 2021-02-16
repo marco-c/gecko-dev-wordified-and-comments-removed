@@ -5,11 +5,9 @@ test
 |
 -
 -
-enable
--
 large
 -
-buffers
+arraybuffers
 ;
 skip
 -
