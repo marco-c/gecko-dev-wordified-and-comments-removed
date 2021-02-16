@@ -206,6 +206,12 @@ symbolizer
 .
 yml
 -
+macos
+-
+sdk
+.
+yml
+-
 mingw
 .
 yml
