@@ -64,6 +64,15 @@ Cocoa
 .
 h
 >
+#
+import
+<
+Carbon
+/
+Carbon
+.
+h
+>
 namespace
 mozilla
 {
@@ -1286,10 +1295,7 @@ windowNumber
 ]
 context
 :
-[
-originalEvent
-context
-]
+nil
 characters
 :
 chars
