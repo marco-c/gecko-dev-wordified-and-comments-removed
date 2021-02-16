@@ -442,6 +442,11 @@ Runnable
 aRunnable
 )
 ;
+void
+MaybeShutdown
+(
+)
+;
 RefPtr
 <
 GenericNonExclusivePromise
@@ -539,6 +544,12 @@ MediaEncoderListener
 >
 >
 mListeners
+;
+MediaEventListener
+mAudioFinishListener
+;
+MediaEventListener
+mVideoFinishListener
 ;
 RefPtr
 <
