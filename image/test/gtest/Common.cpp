@@ -239,13 +239,6 @@ GetPlatform
 gfxPlatform
 :
 :
-GetCMSMode
-(
-)
-;
-gfxPlatform
-:
-:
 SetCMSModeOverride
 (
 CMSMode
