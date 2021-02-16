@@ -409,7 +409,6 @@ new
 IconLoader
 (
 mIconLoaderHelper
-mDocument
 mImageRegionRect
 )
 ;
@@ -476,6 +475,7 @@ mIconLoader
 LoadIcon
 (
 aIconURI
+mDocument
 true
 )
 ;
@@ -527,19 +527,6 @@ ReleaseJSObjects
 (
 )
 {
-if
-(
-mIconLoader
-)
-{
-mIconLoader
--
->
-ReleaseJSObjects
-(
-)
-;
-}
 mDocument
 =
 nil
