@@ -95,6 +95,8 @@ cctools
 port
 -
 libtapi
+-
+ldid
 linux64
 -
 cctools
