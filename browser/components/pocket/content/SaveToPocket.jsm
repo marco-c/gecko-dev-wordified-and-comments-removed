@@ -835,15 +835,9 @@ button
 ;
 pocketButton
 .
-setAttribute
-(
-"
 hidden
-"
-"
+=
 true
-"
-)
 ;
 }
 this
