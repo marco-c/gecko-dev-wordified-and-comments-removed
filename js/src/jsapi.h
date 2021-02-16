@@ -6414,7 +6414,11 @@ template
 size_t
 N
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 JS_StringEqualsLiteral
 (
@@ -6895,7 +6899,11 @@ JSString
 str
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 JS_PUBLIC_API
 bool
 JS_EncodeStringToBuffer

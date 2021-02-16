@@ -144,7 +144,11 @@ ThrowOnNonIterable
 AllowNonIterable
 }
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 init
 (
@@ -159,7 +163,11 @@ nonIterableBehavior
 ThrowOnNonIterable
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 next
 (

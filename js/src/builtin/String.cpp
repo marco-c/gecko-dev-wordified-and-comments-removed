@@ -10715,7 +10715,11 @@ cx
 )
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 init
 (
@@ -10775,7 +10779,11 @@ return
 cur
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 popFront
 (

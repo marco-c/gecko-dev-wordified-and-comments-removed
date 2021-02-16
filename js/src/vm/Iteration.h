@@ -1458,7 +1458,11 @@ JSContext
 cx
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 EnumerateProperties
 (

@@ -696,7 +696,11 @@ ImmutableFlags
 =
 ImmutableScriptFlagsEnum
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 hasFlag
 (
@@ -1864,7 +1868,11 @@ copyUpdatedWasEmitted
 ;
 }
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 setAsmJSModule
 (

@@ -222,7 +222,11 @@ js
 :
 UnwrapAndTypeCheckThis
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 ReadableStreamDefaultReader
 *
 js

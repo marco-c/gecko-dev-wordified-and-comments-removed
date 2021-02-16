@@ -144,7 +144,11 @@ return
 data_
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 allocateUninitialized
 (
@@ -197,7 +201,11 @@ return
 true
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 allocate
 (

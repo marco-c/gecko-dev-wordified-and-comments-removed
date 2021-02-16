@@ -564,7 +564,11 @@ PluralRules
 RelativeTimeFormat
 }
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 isSupportedLocale
 (

@@ -99,7 +99,11 @@ ValueUsage
 valueUsage
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 prepareForExpr
 (
@@ -115,7 +119,11 @@ uint32_t
 beginPos
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 emitEnd
 (

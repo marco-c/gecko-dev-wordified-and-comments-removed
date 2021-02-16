@@ -2193,7 +2193,11 @@ markReturnValue
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 inline
 bool
 saveGeneratorSlots

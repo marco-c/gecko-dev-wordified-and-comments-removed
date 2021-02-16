@@ -2014,7 +2014,11 @@ length
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 computeRetainedSizes
 (
@@ -3027,7 +3031,11 @@ idx
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 getRetainedSize
 (

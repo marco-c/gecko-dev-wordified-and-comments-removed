@@ -331,7 +331,11 @@ js
 :
 WritableStreamDefaultWriterWrite
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 WritableStreamDefaultWriter
 *
 js

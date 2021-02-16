@@ -301,7 +301,11 @@ typename
 .
 Args
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 init
 (
@@ -481,7 +485,11 @@ id_
 Options
 options_
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 create
 (

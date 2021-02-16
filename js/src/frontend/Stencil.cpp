@@ -8873,7 +8873,11 @@ gcThingsLength
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 BigIntStencil
 :

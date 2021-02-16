@@ -2903,7 +2903,11 @@ destArenaId
 )
 const
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 hash
 (

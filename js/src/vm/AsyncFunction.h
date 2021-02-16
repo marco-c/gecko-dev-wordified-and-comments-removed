@@ -69,7 +69,11 @@ const
 JSClass
 AsyncFunctionClass
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 AsyncFunctionAwaitedFulfilled
 (
@@ -86,7 +90,11 @@ HandleValue
 value
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 AsyncFunctionAwaitedRejected
 (

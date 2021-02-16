@@ -53,7 +53,11 @@ JS
 :
 Handle
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 JSObject
 *
 js

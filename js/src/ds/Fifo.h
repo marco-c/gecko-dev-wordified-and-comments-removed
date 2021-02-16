@@ -505,7 +505,11 @@ template
 typename
 U
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 pushBack
 (
@@ -555,7 +559,11 @@ typename
 .
 Args
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 emplaceBack
 (

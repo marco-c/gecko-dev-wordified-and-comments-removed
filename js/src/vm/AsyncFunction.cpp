@@ -768,7 +768,11 @@ return
 true
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 js
 :
@@ -801,7 +805,11 @@ value
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 js
 :

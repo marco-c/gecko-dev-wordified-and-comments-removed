@@ -88,7 +88,11 @@ ap
 )
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 reserve
 (
@@ -182,7 +186,11 @@ return
 highest
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 insert
 (

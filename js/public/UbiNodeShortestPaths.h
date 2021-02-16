@@ -107,7 +107,11 @@ nullptr
 )
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 init
 (
@@ -1156,7 +1160,11 @@ template
 class
 Func
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 forEachPath
 (

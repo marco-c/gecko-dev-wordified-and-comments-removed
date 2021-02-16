@@ -199,7 +199,11 @@ InitSmoosh
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 SmooshParseScript
 (
@@ -214,7 +218,11 @@ size_t
 length
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 SmooshParseModule
 (

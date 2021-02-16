@@ -246,7 +246,11 @@ inlineDataStart
 reservedSlots
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 initExternalValueArrayAfterSwap
 (

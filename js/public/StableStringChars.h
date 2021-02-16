@@ -185,7 +185,11 @@ Uninitialized
 )
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 init
 (
@@ -197,7 +201,11 @@ JSString
 s
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 initTwoByte
 (

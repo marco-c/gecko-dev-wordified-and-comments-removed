@@ -644,7 +644,11 @@ allocationTime
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 dependentPromises
 (
@@ -669,7 +673,11 @@ getID
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 forEachReactionRecord
 (

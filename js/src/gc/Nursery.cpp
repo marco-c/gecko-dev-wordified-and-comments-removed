@@ -425,7 +425,11 @@ size_t
 from
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 markPagesInUseHard
 (

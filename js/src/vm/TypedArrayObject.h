@@ -914,7 +914,11 @@ args
 ;
 }
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 TypedArray_bufferGetter
 (

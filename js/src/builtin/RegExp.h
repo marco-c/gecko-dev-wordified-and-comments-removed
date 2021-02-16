@@ -27,7 +27,11 @@ HandleObject
 obj
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ExecuteRegExpLegacy
 (
@@ -54,7 +58,11 @@ MutableHandleValue
 rval
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 CreateRegExpMatchResult
 (

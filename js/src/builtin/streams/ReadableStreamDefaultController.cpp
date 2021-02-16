@@ -768,7 +768,11 @@ return
 true
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 js
 :
@@ -1214,7 +1218,11 @@ DontDefineConstructor
 JS_NULL_CLASS_OPS
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 JSObject
 *
 js

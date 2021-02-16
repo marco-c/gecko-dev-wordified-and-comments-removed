@@ -463,7 +463,11 @@ ownership
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 init
 (
@@ -537,7 +541,11 @@ Unit
 >
 >
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 init
 (

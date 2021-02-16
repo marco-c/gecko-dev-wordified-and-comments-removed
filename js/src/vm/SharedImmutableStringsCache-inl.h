@@ -21,7 +21,11 @@ template
 typename
 IntoOwnedChars
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 mozilla
 :
 :
@@ -237,7 +241,11 @@ template
 typename
 IntoOwnedTwoByteChars
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 mozilla
 :
 :

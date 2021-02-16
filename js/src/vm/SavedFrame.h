@@ -885,7 +885,11 @@ refcount
 1
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 write
 (
@@ -1328,7 +1332,11 @@ isSystem
 const
 override
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 constructSavedFrameStack
 (

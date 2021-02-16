@@ -210,7 +210,11 @@ DATA_SLOT
 }
 public
 :
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 init
 (

@@ -5626,7 +5626,11 @@ cx
 )
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 append
 (
@@ -5638,7 +5642,11 @@ int32_t
 end
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 ArrayObject
 *
 toArray

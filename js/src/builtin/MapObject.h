@@ -179,7 +179,11 @@ UndefinedValue
 )
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 setValue
 (
@@ -338,7 +342,11 @@ Wrapper
 {
 public
 :
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 setValue
 (

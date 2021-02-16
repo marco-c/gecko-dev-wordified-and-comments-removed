@@ -1032,7 +1032,11 @@ return
 true
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 js
 :
@@ -1074,7 +1078,11 @@ error
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 js
 :

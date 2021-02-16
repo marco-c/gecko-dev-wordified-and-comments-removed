@@ -2539,7 +2539,11 @@ setIsDetached
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 WasmArrayRawBuffer
 :

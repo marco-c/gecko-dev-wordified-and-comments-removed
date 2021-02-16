@@ -21994,7 +21994,11 @@ this
 ;
 }
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 JSObject
 *
 js
@@ -22303,7 +22307,11 @@ return
 nullptr
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 JSObject
 *
 js

@@ -491,7 +491,11 @@ return
 refcount_
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 addReference
 (
@@ -828,7 +832,11 @@ mappedSize
 }
 private
 :
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 acceptRawBuffer
 (
