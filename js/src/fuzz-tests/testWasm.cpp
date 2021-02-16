@@ -1003,6 +1003,9 @@ moduleLen
 ScriptedCaller
 scriptedCaller
 ;
+FeatureOptions
+options
+;
 SharedCompileArgs
 compileArgs
 =
@@ -1019,6 +1022,7 @@ move
 (
 scriptedCaller
 )
+options
 )
 ;
 if

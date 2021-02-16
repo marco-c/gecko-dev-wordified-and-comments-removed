@@ -47,6 +47,9 @@ return
 true
 ;
 }
+FeatureOptions
+options
+;
 typeContext
 =
 js
@@ -63,6 +66,7 @@ FeatureArgs
 build
 (
 cx
+options
 )
 TypeDefVector
 (

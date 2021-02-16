@@ -5178,6 +5178,10 @@ const
 ShareableBytes
 &
 bytecode
+const
+FeatureOptions
+&
+options
 UniqueChars
 *
 error

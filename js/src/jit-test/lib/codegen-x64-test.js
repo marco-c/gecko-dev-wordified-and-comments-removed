@@ -615,6 +615,11 @@ ins
 wasmEvalText
 (
 module_text
+{
+}
+options
+.
+features
 )
 ;
 if

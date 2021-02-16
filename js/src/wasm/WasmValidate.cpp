@@ -21682,6 +21682,10 @@ const
 ShareableBytes
 &
 bytecode
+const
+FeatureOptions
+&
+options
 UniqueChars
 *
 error
@@ -21706,6 +21710,7 @@ FeatureArgs
 build
 (
 cx
+options
 )
 ;
 ModuleEnvironment

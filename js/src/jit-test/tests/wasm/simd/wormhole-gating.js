@@ -125,6 +125,13 @@ i32x4
 )
 )
 )
+{
+}
+{
+simdWormhole
+:
+true
+}
 )
 ;
 ins

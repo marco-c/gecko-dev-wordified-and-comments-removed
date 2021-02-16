@@ -47025,6 +47025,12 @@ instanceObj
 cx
 )
 ;
+RootedValue
+maybeOptions
+(
+cx
+)
+;
 if
 (
 !
@@ -47036,6 +47042,7 @@ Eval
 cx
 typedArray
 importObj
+maybeOptions
 &
 instanceObj
 )
