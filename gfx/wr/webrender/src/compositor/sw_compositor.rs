@@ -3748,11 +3748,14 @@ band
 )
 ;
 }
+let
+_
+=
 self
 .
 current_job
 .
-compare_and_swap
+compare_exchange
 (
 current_job_ptr
 ptr
@@ -3761,6 +3764,10 @@ ptr
 null_mut
 (
 )
+Ordering
+:
+:
+Relaxed
 Ordering
 :
 :
