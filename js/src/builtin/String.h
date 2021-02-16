@@ -7,15 +7,6 @@ builtin_String_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 NamespaceImports
 .
 h

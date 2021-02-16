@@ -6,15 +6,6 @@ define
 builtin_intl_Collator_h
 #
 include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
 <
 stdint
 .

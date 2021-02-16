@@ -7,15 +7,6 @@ builtin_intl_PluralRules_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 builtin
 /
 SelfHostingDefines

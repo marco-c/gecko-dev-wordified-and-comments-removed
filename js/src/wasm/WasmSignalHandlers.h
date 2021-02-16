@@ -7,15 +7,6 @@ wasm_signal_handlers_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 js
 /
 ProfilingFrameIterator

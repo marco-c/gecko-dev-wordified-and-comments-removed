@@ -7,15 +7,6 @@ builtin_intl_DateTimeFormat_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 builtin
 /
 intl

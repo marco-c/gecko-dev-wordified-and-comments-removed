@@ -6,15 +6,6 @@ define
 gc_Memory_h
 #
 include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
 <
 stddef
 .

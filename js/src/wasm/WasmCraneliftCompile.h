@@ -7,15 +7,6 @@ wasm_cranelift_compile_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 wasm
 /
 WasmGenerator
