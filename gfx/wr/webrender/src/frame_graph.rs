@@ -2253,8 +2253,6 @@ get_target_rect
 ;
 task
 .
-kind
-.
 write_gpu_blocks
 (
 target_rect
