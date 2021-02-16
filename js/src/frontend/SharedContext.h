@@ -153,9 +153,6 @@ namespace
 frontend
 {
 struct
-CompilationStencil
-;
-struct
 CompilationState
 ;
 class
@@ -608,10 +605,6 @@ cx_
 ;
 protected
 :
-CompilationStencil
-&
-stencil_
-;
 ImmutableScriptFlags
 immutableFlags_
 =
@@ -760,9 +753,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-CompilationStencil
-&
-stencil
 Directives
 directives
 SourceExtent
@@ -970,17 +960,6 @@ return
 isFunction
 (
 )
-;
-}
-CompilationStencil
-&
-stencil
-(
-)
-const
-{
-return
-stencil_
 ;
 }
 ThisBinding
@@ -1248,9 +1227,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-CompilationStencil
-&
-stencil
 Directives
 directives
 SourceExtent
@@ -1318,9 +1294,6 @@ EvalSharedContext
 JSContext
 *
 cx
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1388,9 +1361,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-CompilationStencil
-&
-stencil
 Directives
 directives
 SourceExtent
@@ -1658,9 +1628,6 @@ JSContext
 cx
 SourceExtent
 extent
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1670,6 +1637,8 @@ GeneratorKind
 generatorKind
 FunctionAsyncKind
 asyncKind
+bool
+isInitialCompilation
 TaggedParserAtomIndex
 atom
 FunctionFlags

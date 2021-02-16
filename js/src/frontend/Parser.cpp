@@ -1577,8 +1577,9 @@ return
 nullptr
 ;
 }
-if
-(
+bool
+isInitialStencil
+=
 this
 -
 >
@@ -1587,6 +1588,10 @@ stencil_
 isInitialStencil
 (
 )
+;
+if
+(
+isInitialStencil
 )
 {
 if
@@ -1636,11 +1641,11 @@ FunctionBox
 (
 cx_
 extent
-stencil_
 compilationState_
 inheritedDirectives
 generatorKind
 asyncKind
+isInitialStencil
 explicitName
 flags
 index
@@ -1927,10 +1932,6 @@ Global
 options
 (
 )
-this
--
->
-stencil_
 directives
 extent
 )

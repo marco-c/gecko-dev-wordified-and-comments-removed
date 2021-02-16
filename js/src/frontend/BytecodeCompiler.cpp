@@ -1355,8 +1355,6 @@ scopeKind
 input
 .
 options
-*
-stencil
 compiler
 .
 compilationState
@@ -2055,7 +2053,6 @@ EvalSharedContext
 evalsc
 (
 cx
-stencil
 compiler
 .
 compilationState
@@ -3593,7 +3590,6 @@ modulesc
 (
 cx
 options
-stencil
 builder
 extent
 )
