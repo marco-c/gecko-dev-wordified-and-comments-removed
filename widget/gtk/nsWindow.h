@@ -1468,6 +1468,17 @@ UpdateClientOffsetFromCSDWindow
 (
 )
 ;
+bool
+GetCSDDecorationOffset
+(
+int
+*
+aDx
+int
+*
+aDy
+)
+;
 void
 DispatchContextMenuEventFromMouseEvent
 (

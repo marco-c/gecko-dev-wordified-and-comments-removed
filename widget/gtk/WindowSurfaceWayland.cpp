@@ -5243,14 +5243,7 @@ LOGWAYLAND
 (
 (
 "
-[
-%
-p
-]
-mWindow
--
->
-GetWaylandSurface
+moz_container_wayland_surface_lock
 (
 )
 failed
