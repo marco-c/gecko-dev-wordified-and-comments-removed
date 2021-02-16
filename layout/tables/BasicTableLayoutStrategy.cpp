@@ -726,12 +726,6 @@ zeroSize
 zeroSize
 0
 maxISize
-{
-ComputeSizeFlag
-:
-:
-SkipAspectRatio
-}
 )
 .
 mISize
@@ -907,12 +901,6 @@ zeroSize
 zeroSize
 0
 minISize
-{
-ComputeSizeFlag
-:
-:
-SkipAspectRatio
-}
 )
 .
 mISize

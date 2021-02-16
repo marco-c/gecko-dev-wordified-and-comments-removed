@@ -62,7 +62,6 @@ UseAutoBSize
 IClampMarginBoxMinSize
 BClampMarginBoxMinSize
 IApplyAutoMinSize
-SkipAspectRatio
 }
 ;
 using

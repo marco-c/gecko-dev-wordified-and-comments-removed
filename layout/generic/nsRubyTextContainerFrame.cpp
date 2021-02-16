@@ -152,6 +152,8 @@ aFlags
 eSupportsCSSTransforms
 |
 eSupportsContainLayoutAndPaint
+|
+eSupportsAspectRatio
 )
 )
 {

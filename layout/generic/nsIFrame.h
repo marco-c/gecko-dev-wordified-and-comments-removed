@@ -8258,6 +8258,12 @@ eSupportsContainLayoutAndPaint
 <
 <
 12
+eSupportsAspectRatio
+=
+1
+<
+<
+13
 eDEBUGAllFrames
 =
 1
@@ -8307,6 +8313,11 @@ nsIFrame
 :
 :
 eSupportsContainLayoutAndPaint
+|
+nsIFrame
+:
+:
+eSupportsAspectRatio
 )
 )
 ;
