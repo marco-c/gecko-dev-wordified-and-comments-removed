@@ -1,9 +1,3 @@
-#
-coding
-:
-utf
--
-8
 from
 __future__
 import
@@ -15,6 +9,10 @@ unittest
 import
 mozfile
 from
+mozunit
+import
+main
+from
 mozbuild
 .
 vendor
@@ -22,13 +20,7 @@ vendor
 moz_yaml
 import
 load_moz_yaml
-VerifyError
-from
-nose
-.
-tools
-import
-raises
+MozYamlVerifyError
 class
 TestManifest
 (
@@ -114,6 +106,14 @@ version
 "
                 
 "
+revision
+"
+:
+"
+AA001122334455
+"
+                
+"
 url
 "
 :
@@ -173,6 +173,7 @@ tf
 write
 (
                 
+b
 "
 "
 "
@@ -233,6 +234,10 @@ LGPL
 2
 .
 1
+  
+revision
+:
+AA001122334455
 bugzilla
 :
   
@@ -293,6 +298,7 @@ tf
 write
 (
                 
+b
 "
 "
 "
@@ -350,6 +356,10 @@ LGPL
 2
 .
 1
+  
+revision
+:
+AA001122334455
 bugzilla
 :
   
@@ -393,11 +403,6 @@ False
 )
 simple_dict
             
-)
-    
-raises
-(
-VerifyError
 )
     
 def
@@ -421,6 +426,7 @@ tf
 .
 write
 (
+b
 "
 blah
 "
@@ -432,6 +438,15 @@ flush
 (
 )
             
+with
+self
+.
+assertRaises
+(
+MozYamlVerifyError
+)
+:
+                
 load_moz_yaml
 (
 tf
@@ -440,11 +455,6 @@ name
 require_license_file
 =
 False
-)
-    
-raises
-(
-VerifyError
 )
     
 def
@@ -468,6 +478,7 @@ tf
 .
 write
 (
+b
 "
 schema
 :
@@ -481,6 +492,15 @@ flush
 (
 )
             
+with
+self
+.
+assertRaises
+(
+MozYamlVerifyError
+)
+:
+                
 load_moz_yaml
 (
 tf
@@ -489,11 +509,6 @@ name
 require_license_file
 =
 False
-)
-    
-raises
-(
-VerifyError
 )
     
 def
@@ -518,6 +533,7 @@ tf
 write
 (
                 
+b
 '
 {
 "
@@ -549,6 +565,7 @@ https
 w
 '
                 
+b
 '
 ww
 .
@@ -567,6 +584,7 @@ Graphics
 Libra
 '
                 
+b
 '
 ry
 "
@@ -600,6 +618,7 @@ cairo
 }
 '
                 
+b
 '
 "
 bugzilla
@@ -622,6 +641,7 @@ Graphics
 "
 '
                 
+b
 '
 }
 "
@@ -640,6 +660,15 @@ flush
 (
 )
             
+with
+self
+.
+assertRaises
+(
+MozYamlVerifyError
+)
+:
+                
 load_moz_yaml
 (
 tf
@@ -648,4 +677,16 @@ name
 require_license_file
 =
 False
+)
+if
+__name__
+=
+=
+"
+__main__
+"
+:
+    
+main
+(
 )
