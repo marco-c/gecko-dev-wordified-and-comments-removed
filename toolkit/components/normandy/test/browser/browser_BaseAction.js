@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+BaseAction
+}
+=
 ChromeUtils
 .
 import
@@ -20,9 +25,13 @@ BaseAction
 .
 jsm
 "
-this
 )
 ;
+const
+{
+Uptake
+}
+=
 ChromeUtils
 .
 import
@@ -40,7 +49,6 @@ Uptake
 .
 jsm
 "
-this
 )
 ;
 class

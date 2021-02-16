@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+AddonTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -20,7 +25,6 @@ AddonTestUtils
 .
 jsm
 "
-this
 )
 ;
 AddonTestUtils

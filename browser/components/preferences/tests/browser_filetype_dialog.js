@@ -4,6 +4,11 @@ requestCompleteLog
 (
 )
 ;
+const
+{
+HandlerServiceTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -21,7 +26,6 @@ HandlerServiceTestUtils
 .
 jsm
 "
-this
 )
 ;
 let

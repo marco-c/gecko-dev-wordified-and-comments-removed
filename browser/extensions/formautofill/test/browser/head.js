@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+OSKeyStore
+}
+=
 ChromeUtils
 .
 import
@@ -20,9 +25,13 @@ OSKeyStore
 .
 jsm
 "
-this
 )
 ;
+const
+{
+OSKeyStoreTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -40,7 +49,6 @@ OSKeyStoreTestUtils
 .
 jsm
 "
-this
 )
 ;
 const

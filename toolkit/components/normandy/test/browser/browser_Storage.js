@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+Storage
+}
+=
 ChromeUtils
 .
 import
@@ -20,7 +25,6 @@ Storage
 .
 jsm
 "
-this
 )
 ;
 add_task

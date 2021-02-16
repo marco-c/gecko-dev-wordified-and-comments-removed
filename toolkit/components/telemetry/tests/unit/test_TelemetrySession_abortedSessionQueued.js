@@ -1,3 +1,8 @@
+const
+{
+CommonUtils
+}
+=
 ChromeUtils
 .
 import
@@ -15,9 +20,13 @@ utils
 .
 js
 "
-this
 )
 ;
+const
+{
+TelemetryStorage
+}
+=
 ChromeUtils
 .
 import
@@ -35,9 +44,13 @@ TelemetryStorage
 .
 jsm
 "
-this
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -55,7 +68,6 @@ Services
 .
 jsm
 "
-this
 )
 ;
 const

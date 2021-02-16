@@ -27,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+Integration
+}
+=
 ChromeUtils
 .
 import
@@ -44,7 +49,6 @@ Integration
 .
 jsm
 "
-this
 )
 ;
 XPCOMUtils

@@ -96,6 +96,11 @@ block_cookies
 enabled
 "
 ;
+const
+{
+CustomizableUITestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -113,7 +118,6 @@ CustomizableUITestUtils
 .
 jsm
 "
-this
 )
 ;
 registerCleanupFunction

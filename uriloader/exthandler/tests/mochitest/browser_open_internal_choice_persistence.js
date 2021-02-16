@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+Downloads
+}
+=
 ChromeUtils
 .
 import
@@ -20,7 +25,6 @@ Downloads
 .
 jsm
 "
-this
 )
 ;
 const

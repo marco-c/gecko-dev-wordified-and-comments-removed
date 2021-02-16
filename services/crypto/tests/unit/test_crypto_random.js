@@ -1,3 +1,8 @@
+const
+{
+WeaveCrypto
+}
+=
 ChromeUtils
 .
 import
@@ -15,7 +20,6 @@ WeaveCrypto
 .
 js
 "
-this
 )
 ;
 var

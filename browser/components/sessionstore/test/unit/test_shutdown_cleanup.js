@@ -118,6 +118,11 @@ com
 #
 "
 ;
+const
+{
+updateAppInfo
+}
+=
 ChromeUtils
 .
 import
@@ -135,7 +140,6 @@ AppInfo
 .
 jsm
 "
-this
 )
 ;
 updateAppInfo

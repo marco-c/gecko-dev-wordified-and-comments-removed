@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+LoginTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -20,9 +25,13 @@ LoginTestUtils
 .
 jsm
 "
-this
 )
 ;
+const
+{
+TelemetryTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -40,7 +49,6 @@ TelemetryTestUtils
 .
 jsm
 "
-this
 )
 ;
 var

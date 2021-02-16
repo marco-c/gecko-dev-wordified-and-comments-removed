@@ -1,3 +1,8 @@
+const
+{
+SitePermissions
+}
+=
 ChromeUtils
 .
 import
@@ -14,7 +19,6 @@ SitePermissions
 .
 jsm
 "
-this
 )
 ;
 const

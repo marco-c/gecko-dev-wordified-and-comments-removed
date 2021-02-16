@@ -1,3 +1,8 @@
+const
+{
+TelemetryController
+}
+=
 ChromeUtils
 .
 import
@@ -15,9 +20,13 @@ TelemetryController
 .
 jsm
 "
-this
 )
 ;
+const
+{
+TelemetrySession
+}
+=
 ChromeUtils
 .
 import
@@ -35,7 +44,6 @@ TelemetrySession
 .
 jsm
 "
-this
 )
 ;
 function

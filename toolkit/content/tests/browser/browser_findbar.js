@@ -1,3 +1,8 @@
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import
@@ -15,7 +20,6 @@ Timer
 .
 jsm
 "
-this
 )
 ;
 const

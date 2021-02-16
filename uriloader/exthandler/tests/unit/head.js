@@ -148,6 +148,11 @@ jsm
 "
 )
 ;
+const
+{
+HandlerServiceTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -165,7 +170,6 @@ HandlerServiceTestUtils
 .
 jsm
 "
-this
 )
 ;
 var

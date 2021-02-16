@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import
@@ -20,9 +25,13 @@ Timer
 .
 jsm
 "
-this
 )
 ;
+const
+{
+PromiseTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -40,7 +49,6 @@ PromiseTestUtils
 .
 jsm
 "
-this
 )
 ;
 PromiseTestUtils

@@ -23,6 +23,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -40,9 +45,13 @@ Services
 .
 jsm
 "
-this
 )
 ;
+const
+{
+makeFakeAppDir
+}
+=
 ChromeUtils
 .
 import
@@ -60,7 +69,6 @@ AppData
 .
 jsm
 "
-this
 )
 ;
 var

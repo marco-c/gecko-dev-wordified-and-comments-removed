@@ -89,6 +89,11 @@ mdump
 extra
 )
 {
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -106,7 +111,6 @@ AppConstants
 .
 jsm
 "
-this
 )
 ;
 Assert

@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import
@@ -20,9 +25,13 @@ Log
 .
 jsm
 "
-this
 )
 ;
+const
+{
+LogManager
+}
+=
 ChromeUtils
 .
 import
@@ -40,7 +49,6 @@ LogManager
 .
 jsm
 "
-this
 )
 ;
 add_task

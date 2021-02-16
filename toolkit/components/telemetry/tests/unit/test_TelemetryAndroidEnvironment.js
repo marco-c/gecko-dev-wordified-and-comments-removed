@@ -1,3 +1,8 @@
+const
+{
+TelemetryEnvironment
+}
+=
 ChromeUtils
 .
 import
@@ -15,7 +20,6 @@ TelemetryEnvironment
 .
 jsm
 "
-this
 )
 ;
 function

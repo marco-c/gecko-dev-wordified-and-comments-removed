@@ -12,6 +12,11 @@ js
 "
 )
 ;
+const
+{
+HiddenFrame
+}
+=
 ChromeUtils
 .
 import
@@ -29,7 +34,6 @@ HiddenFrame
 .
 jsm
 "
-this
 )
 ;
 const

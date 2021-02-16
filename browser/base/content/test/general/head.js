@@ -1,3 +1,8 @@
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -15,7 +20,6 @@ XPCOMUtils
 .
 jsm
 "
-this
 )
 ;
 ChromeUtils

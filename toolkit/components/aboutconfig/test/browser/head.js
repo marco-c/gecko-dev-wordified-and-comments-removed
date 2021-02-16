@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import
@@ -20,7 +25,6 @@ Preferences
 .
 jsm
 "
-this
 )
 ;
 const

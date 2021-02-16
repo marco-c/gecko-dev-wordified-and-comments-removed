@@ -1,3 +1,8 @@
+const
+{
+NormandyMigrations
+}
+=
 ChromeUtils
 .
 import
@@ -13,7 +18,6 @@ NormandyMigrations
 .
 jsm
 "
-this
 )
 ;
 decorate_task

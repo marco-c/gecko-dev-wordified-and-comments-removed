@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+CleanupManager
+}
+=
 ChromeUtils
 .
 import
@@ -20,7 +25,6 @@ CleanupManager
 .
 jsm
 "
-this
 )
 ;
 add_task

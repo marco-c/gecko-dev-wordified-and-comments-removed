@@ -1,3 +1,8 @@
+const
+{
+ContentTaskUtils
+}
+=
 ChromeUtils
 .
 import
@@ -15,7 +20,6 @@ ContentTaskUtils
 .
 jsm
 "
-this
 )
 ;
 var

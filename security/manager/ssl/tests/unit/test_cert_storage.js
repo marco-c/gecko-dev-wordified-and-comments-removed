@@ -92,6 +92,11 @@ platformVersion
 2
 "
 ;
+const
+{
+updateAppInfo
+}
+=
 ChromeUtils
 .
 import
@@ -109,7 +114,6 @@ AppInfo
 .
 jsm
 "
-this
 )
 ;
 updateAppInfo

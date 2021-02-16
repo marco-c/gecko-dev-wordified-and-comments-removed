@@ -1,3 +1,8 @@
+const
+{
+AddonTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -15,7 +20,6 @@ AddonTestUtils
 .
 jsm
 "
-this
 )
 ;
 var

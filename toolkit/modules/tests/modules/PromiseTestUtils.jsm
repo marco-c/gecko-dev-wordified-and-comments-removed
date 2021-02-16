@@ -12,6 +12,11 @@ PromiseTestUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -29,9 +34,13 @@ Services
 .
 jsm
 "
-this
 )
 ;
+const
+{
+Assert
+}
+=
 ChromeUtils
 .
 import
@@ -49,7 +58,6 @@ Assert
 .
 jsm
 "
-this
 )
 ;
 let

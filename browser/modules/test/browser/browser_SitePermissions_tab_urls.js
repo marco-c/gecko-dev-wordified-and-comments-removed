@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+SitePermissions
+}
+=
 ChromeUtils
 .
 import
@@ -19,7 +24,6 @@ SitePermissions
 .
 jsm
 "
-this
 )
 ;
 function

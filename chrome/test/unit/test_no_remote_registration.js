@@ -292,6 +292,11 @@ run_test
 (
 )
 {
+const
+{
+newAppInfo
+}
+=
 ChromeUtils
 .
 import
@@ -309,7 +314,6 @@ AppInfo
 .
 jsm
 "
-this
 )
 ;
 let

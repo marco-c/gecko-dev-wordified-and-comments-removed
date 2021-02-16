@@ -1,3 +1,8 @@
+const
+{
+PromiseTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -15,7 +20,6 @@ PromiseTestUtils
 .
 jsm
 "
-this
 )
 ;
 PromiseTestUtils
@@ -31,6 +35,11 @@ agent
 /
 )
 ;
+const
+{
+BrowserWindowTracker
+}
+=
 ChromeUtils
 .
 import
@@ -47,7 +56,6 @@ BrowserWindowTracker
 .
 jsm
 "
-this
 )
 ;
 const

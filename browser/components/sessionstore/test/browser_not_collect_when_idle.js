@@ -1,3 +1,8 @@
+const
+{
+MockRegistrar
+}
+=
 ChromeUtils
 .
 import
@@ -15,7 +20,6 @@ MockRegistrar
 .
 jsm
 "
-this
 )
 ;
 var

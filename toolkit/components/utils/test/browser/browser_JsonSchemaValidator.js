@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+JsonSchemaValidator
+}
+=
 ChromeUtils
 .
 import
@@ -24,7 +29,6 @@ JsonSchemaValidator
 .
 jsm
 "
-this
 )
 ;
 add_task

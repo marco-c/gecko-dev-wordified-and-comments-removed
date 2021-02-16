@@ -1,3 +1,8 @@
+const
+{
+UIState
+}
+=
 ChromeUtils
 .
 import
@@ -15,7 +20,6 @@ UIState
 .
 jsm
 "
-this
 )
 ;
 const

@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+Sampling
+}
+=
 ChromeUtils
 .
 import
@@ -24,7 +29,6 @@ Sampling
 .
 jsm
 "
-this
 )
 ;
 add_task

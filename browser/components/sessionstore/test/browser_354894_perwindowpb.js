@@ -1,3 +1,8 @@
+const
+{
+SessionStartup
+}
+=
 ChromeUtils
 .
 import
@@ -16,9 +21,13 @@ SessionStartup
 .
 jsm
 "
-this
 )
 ;
+const
+{
+PromiseTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -36,7 +45,6 @@ PromiseTestUtils
 .
 jsm
 "
-this
 )
 ;
 PromiseTestUtils

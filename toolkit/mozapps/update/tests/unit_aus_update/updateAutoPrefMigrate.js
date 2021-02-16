@@ -1,3 +1,8 @@
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -15,7 +20,6 @@ osfile
 .
 jsm
 "
-this
 )
 ;
 async

@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+LoginTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -20,7 +25,6 @@ LoginTestUtils
 .
 jsm
 "
-this
 )
 ;
 const

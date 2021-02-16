@@ -51,6 +51,11 @@ js
 "
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -68,9 +73,13 @@ osfile
 .
 jsm
 "
-this
 )
 ;
+const
+{
+NormandyApi
+}
+=
 ChromeUtils
 .
 import
@@ -88,7 +97,6 @@ NormandyApi
 .
 jsm
 "
-this
 )
 ;
 const

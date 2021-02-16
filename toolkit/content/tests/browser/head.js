@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -20,7 +25,6 @@ XPCOMUtils
 .
 jsm
 "
-this
 )
 ;
 async

@@ -10,6 +10,11 @@ Components
 .
 manager
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -27,7 +32,6 @@ Services
 .
 jsm
 "
-this
 )
 ;
 const

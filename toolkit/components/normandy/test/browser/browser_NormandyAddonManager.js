@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import
@@ -20,9 +25,13 @@ PromiseUtils
 .
 jsm
 "
-this
 )
 ;
+const
+{
+NormandyAddonManager
+}
+=
 ChromeUtils
 .
 import
@@ -40,7 +49,6 @@ NormandyAddonManager
 .
 jsm
 "
-this
 )
 ;
 decorate_task

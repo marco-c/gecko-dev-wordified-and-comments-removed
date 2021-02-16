@@ -35,6 +35,11 @@ js
 this
 )
 ;
+const
+{
+TelemetryTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -52,7 +57,6 @@ TelemetryTestUtils
 .
 jsm
 "
-this
 )
 ;
 registerCleanupFunction
