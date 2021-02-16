@@ -1715,7 +1715,7 @@ TokenStreamAnyChars
 ts
 (
 cx
-stencil
+compilationState
 .
 input
 .
@@ -2344,7 +2344,7 @@ ReadOnlyCompileOptions
 &
 options
 =
-stencil
+compilationState
 .
 input
 .
@@ -3190,8 +3190,6 @@ compilationState
 cx
 allocScope
 input
-.
-options
 *
 stencil
 )

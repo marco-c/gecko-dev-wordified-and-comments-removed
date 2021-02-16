@@ -487,7 +487,7 @@ toJSAtom
 (
 cx_
 index
-stencil_
+compilationState_
 .
 input
 .

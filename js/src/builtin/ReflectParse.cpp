@@ -19830,7 +19830,7 @@ parserAtoms
 parser
 -
 >
-getCompilationStencil
+getCompilationState
 (
 )
 .
@@ -22821,7 +22821,11 @@ compilationState
 (
 cx
 allocScope
-options
+input
+.
+get
+(
+)
 stencil
 )
 ;

@@ -7859,13 +7859,9 @@ cx
 LifoAllocScope
 &
 frontendAllocScope
-const
-JS
-:
-:
-ReadOnlyCompileOptions
+CompilationInput
 &
-options
+input
 CompilationStencil
 &
 stencil
@@ -7873,6 +7869,8 @@ stencil
 :
 directives
 (
+input
+.
 options
 .
 forceStrictMode
@@ -7889,8 +7887,6 @@ frontendAllocScope
 )
 input
 (
-stencil
-.
 input
 )
 parserAtoms
