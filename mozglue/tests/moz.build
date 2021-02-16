@@ -19,6 +19,9 @@ CppUnitTests
 TestBaseProfiler
 "
 "
+TestIntegerPrintfMacros
+"
+"
 TestPrintf
 "
 ]
