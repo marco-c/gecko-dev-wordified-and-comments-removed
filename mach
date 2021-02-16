@@ -163,7 +163,6 @@ bench
 marionette
 -
 test
-jstests
 mozharness
 raptor
 raptor
