@@ -2298,6 +2298,12 @@ event
 {
 this
 .
+_needBrowserFocusAtEnterKeyUp
+=
+false
+;
+this
+.
 _ignoreFocus
 =
 document
