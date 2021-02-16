@@ -68,7 +68,7 @@ imgINotificationObserver
 public
 :
 class
-Helper
+Listener
 {
 public
 :
@@ -91,9 +91,9 @@ aRect
 ;
 IconLoader
 (
-Helper
+Listener
 *
-aHelper
+aListener
 const
 nsIntRect
 &
@@ -157,9 +157,9 @@ mImageRegionRect
 bool
 mLoadedIcon
 ;
-Helper
+Listener
 *
-mHelper
+mListener
 ;
 }
 ;

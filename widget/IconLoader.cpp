@@ -82,9 +82,9 @@ IconLoader
 :
 IconLoader
 (
-Helper
+Listener
 *
-aHelper
+aListener
 const
 nsIntRect
 &
@@ -106,9 +106,9 @@ mLoadedIcon
 (
 false
 )
-mHelper
+mListener
 (
-aHelper
+aListener
 )
 {
 }
@@ -151,7 +151,7 @@ mIconRequest
 nullptr
 ;
 }
-mHelper
+mListener
 =
 nullptr
 ;
@@ -566,10 +566,10 @@ image
 ;
 if
 (
-mHelper
+mListener
 )
 {
-mHelper
+mListener
 -
 >
 OnComplete
