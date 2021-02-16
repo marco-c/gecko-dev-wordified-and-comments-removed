@@ -9935,7 +9935,7 @@ Label
 fail
 )
 {
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 obj
 output
@@ -10019,7 +10019,7 @@ void
 MacroAssembler
 :
 :
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 Register
 obj

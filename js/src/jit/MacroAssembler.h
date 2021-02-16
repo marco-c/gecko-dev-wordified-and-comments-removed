@@ -19437,7 +19437,7 @@ fail
 )
 ;
 void
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 Register
 obj

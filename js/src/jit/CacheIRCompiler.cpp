@@ -22039,7 +22039,7 @@ done
 ;
 masm
 .
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 obj
 scratch
@@ -29404,7 +29404,7 @@ get
 ;
 masm
 .
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 obj
 scratch1
@@ -29950,7 +29950,7 @@ outOfBounds
 ;
 masm
 .
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 obj
 scratch1
@@ -30301,7 +30301,7 @@ fail
 {
 masm
 .
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 obj
 scratch
@@ -43897,7 +43897,7 @@ ICs
 ;
 masm
 .
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 obj
 scratch
@@ -44272,7 +44272,7 @@ false
 }
 masm
 .
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 obj
 scratch
@@ -44575,7 +44575,7 @@ ICs
 ;
 masm
 .
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 obj
 scratch
@@ -45227,7 +45227,7 @@ ICs
 ;
 masm
 .
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 obj
 scratch
@@ -45613,7 +45613,7 @@ false
 }
 masm
 .
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 obj
 scratch
