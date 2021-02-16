@@ -17,6 +17,8 @@ operator
 import
 os
 import
+platform
+import
 re
 import
 shutil
@@ -10375,9 +10377,6 @@ _mach_context
 .
 state_dir
         
-import
-platform
-        
 print
 (
 "
@@ -13559,6 +13558,32 @@ created
 .
 "
 )
+            
+if
+platform
+.
+system
+(
+)
+=
+=
+"
+Darwin
+"
+and
+platform
+.
+machine
+(
+)
+=
+=
+"
+arm64
+"
+:
+                
+return
             
 python2
 _
