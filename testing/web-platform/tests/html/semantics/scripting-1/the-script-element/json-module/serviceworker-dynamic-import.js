@@ -17,6 +17,17 @@ module
 .
 json
 "
+{
+assert
+:
+{
+type
+:
+"
+json
+"
+}
+}
 )
 .
 then
