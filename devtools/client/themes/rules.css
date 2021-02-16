@@ -4771,6 +4771,7 @@ light
 -
 toggle
 :
+:
 before
 {
 background
@@ -4804,6 +4805,20 @@ svg
 "
 )
 ;
+-
+moz
+-
+context
+-
+properties
+:
+fill
+stroke
+;
+stroke
+:
+currentColor
+;
 }
 #
 color
@@ -4815,6 +4830,7 @@ simulation
 dark
 -
 toggle
+:
 :
 before
 {
