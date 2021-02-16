@@ -7,15 +7,6 @@ builtin_streams_ReadableStreamOperations_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 js
 /
 RootingAPI

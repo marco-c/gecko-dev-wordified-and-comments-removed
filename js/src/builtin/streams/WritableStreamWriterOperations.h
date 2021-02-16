@@ -7,15 +7,6 @@ builtin_streams_WritableStreamWriterOperations_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 js
 /
 RootingAPI

@@ -7,15 +7,6 @@ builtin_streams_WritableStreamDefaultWriter_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h

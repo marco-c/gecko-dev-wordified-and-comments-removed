@@ -27,15 +27,6 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 js
 /
 Promise

@@ -7,15 +7,6 @@ builtin_streams_WritableStreamOperations_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h

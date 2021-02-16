@@ -6,15 +6,6 @@ define
 builtin_HandlerFunction_inl_h
 #
 include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
 <
 stddef
 .

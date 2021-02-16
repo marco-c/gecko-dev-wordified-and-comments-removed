@@ -7,15 +7,6 @@ builtin_streams_ReadableStreamDefaultControllerOperations_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h
