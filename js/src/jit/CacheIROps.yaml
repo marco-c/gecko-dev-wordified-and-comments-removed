@@ -2245,7 +2245,7 @@ ObjId
 -
 name
 :
-GuardArgumentsObjectNotOverriddenIterator
+GuardArgumentsObjectFlags
 shared
 :
 true
@@ -2260,6 +2260,9 @@ args
 obj
 :
 ObjId
+flags
+:
+ByteImm
 -
 name
 :

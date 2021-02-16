@@ -5044,10 +5044,12 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitGuardArgumentsObjectNotOverriddenIterator
+emitGuardArgumentsObjectFlags
 (
 ObjOperandId
 objId
+uint8_t
+flags
 )
 {
 MDefinition
@@ -5063,7 +5065,7 @@ auto
 *
 ins
 =
-MGuardArgumentsObjectNotOverriddenIterator
+MGuardArgumentsObjectFlags
 :
 :
 New
@@ -5072,6 +5074,7 @@ alloc
 (
 )
 obj
+flags
 )
 ;
 add

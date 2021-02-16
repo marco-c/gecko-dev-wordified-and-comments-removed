@@ -18747,12 +18747,16 @@ fail
 )
 ;
 void
-branchArgumentsObjectHasOverridenIterator
+branchTestArgumentsObjectFlags
 (
 Register
 obj
 Register
 temp
+uint32_t
+flags
+Condition
+cond
 Label
 *
 label

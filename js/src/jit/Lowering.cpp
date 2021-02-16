@@ -2107,9 +2107,9 @@ void
 LIRGenerator
 :
 :
-visitGuardArgumentsObjectNotOverriddenIterator
+visitGuardArgumentsObjectFlags
 (
-MGuardArgumentsObjectNotOverriddenIterator
+MGuardArgumentsObjectFlags
 *
 ins
 )
@@ -2151,7 +2151,7 @@ alloc
 (
 )
 )
-LGuardArgumentsObjectNotOverriddenIterator
+LGuardArgumentsObjectFlags
 (
 useRegister
 (
