@@ -112,7 +112,16 @@ aScaleFactor
 0f
 )
 ;
-NS_DECL_ISUPPORTS
+NS_INLINE_DECL_REFCOUNTING
+(
+mozilla
+:
+:
+widget
+:
+:
+IconLoaderHelperCocoa
+)
 nsresult
 OnComplete
 (

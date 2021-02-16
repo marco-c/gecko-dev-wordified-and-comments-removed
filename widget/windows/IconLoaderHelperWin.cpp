@@ -137,10 +137,6 @@ mozilla
 :
 widget
 {
-NS_IMPL_ISUPPORTS0
-(
-IconLoaderHelperWin
-)
 IconLoaderHelperWin
 :
 :

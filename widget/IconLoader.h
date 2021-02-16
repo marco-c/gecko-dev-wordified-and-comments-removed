@@ -69,9 +69,6 @@ public
 :
 class
 Helper
-:
-public
-nsISupports
 {
 public
 :
@@ -89,16 +86,6 @@ aRect
 )
 =
 0
-;
-protected
-:
-virtual
-~
-Helper
-(
-)
-=
-default
 ;
 }
 ;

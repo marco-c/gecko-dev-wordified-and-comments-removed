@@ -88,7 +88,16 @@ IconLoaderListenerWin
 aLoadListener
 )
 ;
-NS_DECL_ISUPPORTS
+NS_INLINE_DECL_REFCOUNTING
+(
+mozilla
+:
+:
+widget
+:
+:
+IconLoaderHelperWin
+)
 nsresult
 OnComplete
 (
