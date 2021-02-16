@@ -1404,7 +1404,7 @@ closed
 =
 true
 ;
-assert_true
+assert_false
 (
 read
 )
@@ -1461,7 +1461,7 @@ read
 =
 true
 ;
-assert_false
+assert_true
 (
 closed
 )
