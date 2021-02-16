@@ -815,6 +815,12 @@ perftest_http3_cloudflareblog
 .
 js
 ]
+#
+broken
+:
+bug
+1678588
+#
 -
 [
 fb
@@ -945,6 +951,12 @@ timeToContentfulPaint
 :
 {
 }
+#
+broken
+:
+bug
+1678588
+#
 fb
 -
 scroll
@@ -1170,10 +1182,17 @@ waitTime
 =
 60000
 ]
+#
+broken
+:
+bug
+1678588
+#
 fb
 -
 scroll
 :
+#
 -
 [
 "
@@ -1185,6 +1204,7 @@ waitTime
 =
 10000
 ]
+#
 -
 [
 "
@@ -1196,6 +1216,7 @@ waitTime
 =
 25000
 ]
+#
 -
 [
 "
@@ -1207,6 +1228,7 @@ waitTime
 =
 35000
 ]
+#
 -
 [
 "
