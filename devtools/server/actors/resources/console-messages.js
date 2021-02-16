@@ -217,6 +217,12 @@ ConsoleAPIListener
 (
 targetActor
 .
+isRootActor
+?
+null
+:
+targetActor
+.
 window
 onConsoleAPICall
 targetActor

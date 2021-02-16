@@ -179,7 +179,7 @@ browsertoolbox
 .
 fission
 "
-false
+true
 )
 ;
 await

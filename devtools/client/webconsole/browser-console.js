@@ -294,15 +294,6 @@ init
 false
 )
 ;
-await
-this
-.
-targetList
-.
-startListening
-(
-)
-;
 const
 id
 =

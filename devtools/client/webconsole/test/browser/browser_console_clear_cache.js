@@ -53,7 +53,7 @@ browsertoolbox
 .
 fission
 "
-false
+true
 )
 ;
 await
@@ -80,7 +80,7 @@ CACHED_MESSAGE
 "
 ;
 await
-logTextToConsole
+logTextInContentAndWaitForMessage
 (
 hud
 CACHED_MESSAGE
@@ -142,7 +142,7 @@ await
 onBrowserConsoleOutputCleared
 ;
 await
-logTextToConsole
+logTextInContentAndWaitForMessage
 (
 hud
 "
@@ -235,7 +235,7 @@ ready
 )
 ;
 await
-logTextToConsole
+logTextInContentAndWaitForMessage
 (
 hud
 "
@@ -267,7 +267,7 @@ anymore
 )
 ;
 function
-logTextToConsole
+logTextInContentAndWaitForMessage
 (
 hud
 text
