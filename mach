@@ -160,9 +160,6 @@ functional
 jsshell
 -
 bench
-marionette
--
-test
 mozharness
 raptor
 raptor
