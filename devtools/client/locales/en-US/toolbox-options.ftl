@@ -735,17 +735,6 @@ section
 #
 The
 heading
-(
-this
-item
-is
-also
-used
-in
-perftools
-.
-ftl
-)
 options
 -
 context
