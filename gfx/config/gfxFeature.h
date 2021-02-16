@@ -172,17 +172,6 @@ present
 \
 _
 (
-WEBRENDER_OPTIMIZED_SHADERS
-Feature
-"
-WebRender
-optimized
-shaders
-"
-)
-\
-_
-(
 WEBRENDER_ANGLE
 Feature
 "
