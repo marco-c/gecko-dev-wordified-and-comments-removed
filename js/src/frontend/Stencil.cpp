@@ -7575,6 +7575,9 @@ serializeStencils
 JSContext
 *
 cx
+CompilationInput
+&
+input
 JS
 :
 :
@@ -7610,6 +7613,7 @@ encoder
 .
 codeStencil
 (
+input
 *
 this
 )
@@ -7733,6 +7737,9 @@ deserializeStencils
 JSContext
 *
 cx
+CompilationInput
+&
+input
 const
 JS
 :
@@ -7783,6 +7790,7 @@ decoder
 .
 codeStencils
 (
+input
 *
 this
 )

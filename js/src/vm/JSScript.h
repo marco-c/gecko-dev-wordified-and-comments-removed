@@ -4299,6 +4299,12 @@ cx
 frontend
 :
 :
+CompilationInput
+&
+input
+frontend
+:
+:
 CompilationStencil
 &
 stencil
@@ -4316,6 +4322,12 @@ xdrEncodeStencils
 JSContext
 *
 cx
+frontend
+:
+:
+CompilationInput
+&
+input
 frontend
 :
 :

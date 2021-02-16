@@ -2300,6 +2300,12 @@ codeStencil
 frontend
 :
 :
+CompilationInput
+&
+input
+frontend
+:
+:
 CompilationStencil
 &
 stencil
@@ -2350,8 +2356,6 @@ if
 (
 !
 !
-stencil
-.
 input
 .
 options
@@ -2384,8 +2388,6 @@ XDRStencilHeader
 (
 this
 &
-stencil
-.
 input
 .
 options
@@ -2728,6 +2730,12 @@ codeStencils
 frontend
 :
 :
+CompilationInput
+&
+input
+frontend
+:
+:
 CompilationStencil
 &
 stencil
@@ -2776,6 +2784,7 @@ MOZ_TRY
 (
 codeStencil
 (
+input
 stencil
 )
 )
@@ -2960,6 +2969,12 @@ codeStencils
 frontend
 :
 :
+CompilationInput
+&
+input
+frontend
+:
+:
 CompilationStencil
 &
 stencil
@@ -2981,6 +2996,7 @@ MOZ_TRY
 (
 codeStencil
 (
+input
 stencil
 )
 )

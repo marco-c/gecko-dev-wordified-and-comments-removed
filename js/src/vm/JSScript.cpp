@@ -14821,6 +14821,12 @@ cx
 frontend
 :
 :
+CompilationInput
+&
+input
+frontend
+:
+:
 CompilationStencil
 &
 stencil
@@ -14917,6 +14923,7 @@ xdrEncoder
 >
 codeStencil
 (
+input
 stencil
 )
 ;
@@ -14973,6 +14980,12 @@ cx
 frontend
 :
 :
+CompilationInput
+&
+input
+frontend
+:
+:
 CompilationStencil
 &
 stencil
@@ -14990,6 +15003,7 @@ if
 xdrEncodeInitialStencil
 (
 cx
+input
 stencil
 xdrEncoder
 )
