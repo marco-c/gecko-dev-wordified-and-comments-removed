@@ -1273,17 +1273,6 @@ skip_on
 android
 device
 )
-fuzzy
--
-if
-(
-platform
-(
-swgl
-)
-1
-1085
-)
 =
 =
 bg

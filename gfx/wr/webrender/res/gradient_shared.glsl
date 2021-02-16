@@ -128,6 +128,10 @@ v_pos
 #
 ifdef
 WR_FEATURE_ALPHA_PASS
+varying
+vec2
+v_local_pos
+;
 flat
 varying
 vec2
@@ -292,6 +296,12 @@ WR_FEATURE_ALPHA_PASS
 v_tile_repeat
 =
 tile_repeat
+;
+v_local_pos
+=
+vi
+.
+local_pos
 ;
 #
 endif
