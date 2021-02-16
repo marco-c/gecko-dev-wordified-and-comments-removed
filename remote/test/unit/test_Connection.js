@@ -21,6 +21,8 @@ remote
 /
 content
 /
+cdp
+/
 Connection
 .
 jsm

@@ -71,6 +71,8 @@ remote
 /
 content
 /
+cdp
+/
 Error
 .
 jsm

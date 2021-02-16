@@ -51,6 +51,8 @@ remote
 /
 content
 /
+cdp
+/
 domains
 /
 parent

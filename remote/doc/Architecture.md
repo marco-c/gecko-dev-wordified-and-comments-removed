@@ -209,6 +209,8 @@ per
 target
 .
 *
+cdp
+/
 JSONHandler
 This
 implements
@@ -358,6 +360,8 @@ debug
 things
 .
 *
+cdp
+/
 targets
 /
 TargetList
@@ -405,6 +409,8 @@ This
 is
 implemented
 by
+cdp
+/
 targets
 /
 MainProcessTarget
@@ -424,6 +430,8 @@ will
 have
 a
 related
+cdp
+/
 targets
 /
 TabTarget
@@ -489,6 +497,8 @@ All
 targets
 inherit
 from
+cdp
+/
 targets
 /
 Target
@@ -655,6 +665,8 @@ to
 a
 target
 URL
+cdp
+/
 targets
 /
 Target
@@ -840,6 +852,8 @@ of
 them
 inherit
 from
+cdp
+/
 session
 /
 Session
@@ -849,6 +863,8 @@ example
 tabs
 targets
 uses
+cdp
+/
 session
 /
 TabSession
@@ -858,6 +874,8 @@ main
 browser
 target
 uses
+cdp
+/
 session
 /
 MainProcessSession
@@ -881,6 +899,8 @@ session
 class
 reference
 to
+cdp
+/
 targets
 /
 Target
@@ -913,6 +933,8 @@ are
 currently
 describing
 (
+cdp
+/
 targets
 /
 Target
@@ -980,6 +1002,8 @@ process
 .
 Typically
 the
+cdp
+/
 sessions
 /
 TabSession
@@ -1154,6 +1178,8 @@ CDP
 Domain
 implemented
 in
+cdp
+/
 domains
 /
 parent
@@ -1166,6 +1192,8 @@ That
 is
 different
 from
+cdp
+/
 targets
 /
 Target
@@ -1360,6 +1388,8 @@ as
 it
 will
 spawn
+cdp
+/
 session
 /
 TabSession
@@ -1599,6 +1629,8 @@ s
 start
 from
 the
+cdp
+/
 sessions
 /
 TabSession
@@ -1658,6 +1690,8 @@ the
 command
 to
 a
+cdp
+/
 session
 /
 ContentProcessSession
@@ -1857,10 +1891,14 @@ implementations
 .
 From
 both
+cdp
+/
 domains
 /
 parent
 and
+cdp
+/
 domains
 /
 content
