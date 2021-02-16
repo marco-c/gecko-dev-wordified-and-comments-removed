@@ -146,16 +146,8 @@ IconLoaderHelperCocoa
 ;
 private
 :
-RefPtr
-<
-mozilla
-:
-:
-widget
-:
-:
 IconLoaderListenerCocoa
->
+*
 mLoadListener
 ;
 uint32_t
