@@ -5253,11 +5253,6 @@ commit
 \
 n
 "
-(
-void
-*
-)
-this
 )
 )
 ;

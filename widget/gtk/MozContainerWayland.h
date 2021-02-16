@@ -80,6 +80,9 @@ surface_needs_clear
 gboolean
 ready_to_draw
 ;
+gboolean
+before_first_size_alloc
+;
 std
 :
 :
