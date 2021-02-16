@@ -6597,11 +6597,6 @@ MOZ_LOW_PARALLELISM_BUILD
 '
 1
 '
-FORCE_GCC
-:
-'
-1
-'
 RUSTC_BOOTSTRAP
 :
 '
@@ -6706,12 +6701,6 @@ clang
 linux64
 -
 rust
--
-linux64
--
-gcc
--
-7
 -
 linux64
 -
