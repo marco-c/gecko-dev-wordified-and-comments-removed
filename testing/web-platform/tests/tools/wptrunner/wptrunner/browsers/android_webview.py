@@ -354,6 +354,13 @@ androidPackage
 =
 \
         
+kwargs
+.
+get
+(
+"
+package_name
+"
 "
 org
 .
@@ -361,6 +368,7 @@ chromium
 .
 webview_shell
 "
+)
     
 capabilities
 [
@@ -376,7 +384,14 @@ androidActivity
 "
 ]
 =
+\
+        
 "
+org
+.
+chromium
+.
+webview_shell
 .
 WebPlatformTestsActivity
 "
@@ -386,9 +401,9 @@ kwargs
 .
 get
 (
-'
+"
 device_serial
-'
+"
 )
 :
         
@@ -408,9 +423,9 @@ androidDeviceSerial
 =
 kwargs
 [
-'
+"
 device_serial
-'
+"
 ]
     
 executor_kwargs
