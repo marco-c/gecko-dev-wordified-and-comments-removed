@@ -834,9 +834,15 @@ context
 base_size
 )
 ;
+(
 reference_size
 *
 length
+)
+.
+normalized
+(
+)
 }
 fn
 reference_font_size_and_length

@@ -4647,6 +4647,7 @@ pc
 0
 )
 ;
+(
 base_size
 .
 resolve
@@ -4657,6 +4658,11 @@ context
 pc
 .
 0
+)
+.
+normalized
+(
+)
 }
 FontSize
 :
