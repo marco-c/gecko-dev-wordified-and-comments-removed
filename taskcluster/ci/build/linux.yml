@@ -4899,11 +4899,6 @@ PERFHERDER_EXTRA_OPTIONS
 fuzzing
 -
 ccov
-FORCE_GCC
-:
-'
-1
-'
 ASAN_OPTIONS
 :
 "
@@ -4991,12 +4986,6 @@ binutils
 linux64
 -
 clang
--
-linux64
--
-gcc
--
-7
 -
 linux64
 -
