@@ -349,6 +349,9 @@ IsEmpty
 )
 )
 {
+dom
+:
+:
 Element
 *
 commandElement
@@ -1115,6 +1118,9 @@ GetUncomposedDoc
 )
 )
 {
+dom
+:
+:
 Element
 *
 keyContent
