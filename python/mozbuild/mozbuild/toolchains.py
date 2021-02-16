@@ -4,6 +4,8 @@ import
 absolute_import
 import
 os
+import
+six
 def
 toolchain_task_definitions
 (
@@ -105,7 +107,7 @@ values
 )
 :
         
-alias
+aliases
 =
 t
 .
@@ -121,7 +123,35 @@ alias
 )
         
 if
+not
+aliases
+:
+            
+aliases
+=
+[
+]
+        
+if
+isinstance
+(
+aliases
+six
+.
+text_type
+)
+:
+            
+aliases
+=
+[
+aliases
+]
+        
+for
 alias
+in
+aliases
 :
             
 aliased
