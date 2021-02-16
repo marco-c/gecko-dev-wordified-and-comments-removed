@@ -2900,6 +2900,8 @@ bitbar_script
 elif
 is_macosx
 and
+(
+        
 "
 macosx1014
 -
@@ -2914,6 +2916,24 @@ test
 platform
 "
 ]
+        
+or
+"
+macosx1100
+-
+64
+"
+in
+test
+[
+"
+test
+-
+platform
+"
+]
+    
+)
 :
         
 py_binary
