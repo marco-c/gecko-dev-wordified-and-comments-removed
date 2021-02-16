@@ -8,7 +8,7 @@ Worker
 SecureContext
 ]
 interface
-BucketManager
+StorageBucketManager
 {
 Promise
 <
