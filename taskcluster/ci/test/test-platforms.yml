@@ -270,10 +270,6 @@ tests
 -
 marionette
 -
-framescript
--
-marionette
--
 headless
 -
 mochitest
@@ -371,10 +367,6 @@ capture
 linux1804
 -
 tests
--
-marionette
--
-framescript
 -
 marionette
 -
@@ -996,10 +988,6 @@ screenshot
 -
 capture
 -
-marionette
--
-framescript
--
 windows
 -
 reftest
@@ -1068,10 +1056,6 @@ desktop
 screenshot
 -
 capture
--
-marionette
--
-framescript
 -
 windows
 -
@@ -1339,10 +1323,6 @@ windows
 -
 talos
 -
-marionette
--
-framescript
--
 windows
 -
 tests
@@ -1481,10 +1461,6 @@ capture
 windows
 -
 talos
--
-marionette
--
-framescript
 -
 windows
 -
@@ -1972,10 +1948,6 @@ screenshot
 -
 capture
 -
-marionette
--
-framescript
--
 web
 -
 platform
@@ -2044,10 +2016,6 @@ desktop
 screenshot
 -
 capture
--
-marionette
--
-framescript
 -
 raptor
 -
