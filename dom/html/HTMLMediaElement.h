@@ -4146,11 +4146,7 @@ private
 :
 friend
 class
-nsAsyncEventRunner
-;
-friend
-class
-nsNotifyAboutPlayingRunner
+nsMediaEventRunner
 ;
 friend
 class
