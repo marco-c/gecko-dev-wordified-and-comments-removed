@@ -35308,7 +35308,7 @@ setResultType
 MIRType
 :
 :
-Int32
+IntPtr
 )
 ;
 setMovable
