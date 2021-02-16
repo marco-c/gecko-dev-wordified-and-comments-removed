@@ -1553,10 +1553,15 @@ test_types
 crashtest
 "
 "
-testharness
+print
+-
+reftest
 "
 "
 reftest
+"
+"
+testharness
 "
 "
 wdspec
