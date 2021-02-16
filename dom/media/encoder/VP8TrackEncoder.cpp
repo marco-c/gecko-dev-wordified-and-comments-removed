@@ -149,10 +149,12 @@ msg
 __VA_ARGS__
 )
 )
-#
-define
+constexpr
+int
 DEFAULT_BITRATE_BPS
+=
 2500000
+;
 constexpr
 int
 DEFAULT_KEYFRAME_INTERVAL_MS
