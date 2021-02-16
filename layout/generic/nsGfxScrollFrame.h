@@ -2529,7 +2529,7 @@ mWillBuildScrollableLayer
 1
 ;
 bool
-mIsScrollParent
+mIsParentToActiveScrollFrames
 :
 1
 ;
