@@ -2233,7 +2233,7 @@ true
 false
 false
 false
-false
+true
 false
 false
 false
@@ -2385,7 +2385,7 @@ isLockFree
 (
 8
 )
-false
+true
 )
 ;
 assertEq

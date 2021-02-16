@@ -270,6 +270,7 @@ ShutDown
 )
 ;
 static
+constexpr
 inline
 bool
 isLockfreeJS
@@ -1066,6 +1067,7 @@ T
 }
 }
 ;
+constexpr
 inline
 bool
 AtomicOperations
@@ -1104,7 +1106,7 @@ case
 8
 :
 return
-false
+true
 ;
 default
 :
