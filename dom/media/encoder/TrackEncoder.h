@@ -784,12 +784,6 @@ DriftCompensator
 >
 mDriftCompensator
 ;
-int
-mFrameWidth
-;
-int
-mFrameHeight
-;
 VideoChunk
 mLastChunk
 ;

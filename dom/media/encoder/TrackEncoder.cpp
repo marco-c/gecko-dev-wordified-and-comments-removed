@@ -1607,14 +1607,6 @@ move
 aDriftCompensator
 )
 )
-mFrameWidth
-(
-0
-)
-mFrameHeight
-(
-0
-)
 mEncodedTicks
 (
 0

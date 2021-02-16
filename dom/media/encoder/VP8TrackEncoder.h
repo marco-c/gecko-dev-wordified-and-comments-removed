@@ -180,6 +180,16 @@ VP8Metadata
 >
 mMetadata
 ;
+int
+mFrameWidth
+=
+0
+;
+int
+mFrameHeight
+=
+0
+;
 TrackTime
 mEncodedTimestamp
 =
