@@ -201,6 +201,16 @@ AboutPluginsParent
 jsm
 "
 "
+AboutPocketChild
+.
+jsm
+"
+"
+AboutPocketParent
+.
+jsm
+"
+"
 AboutPrivateBrowsingChild
 .
 jsm
