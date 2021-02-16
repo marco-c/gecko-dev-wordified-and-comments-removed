@@ -46,6 +46,9 @@ vpx_image
 vpx_image_t
 ;
 class
+VP8Metadata
+;
+class
 VP8TrackEncoder
 :
 public
@@ -170,6 +173,12 @@ void
 Destroy
 (
 )
+;
+RefPtr
+<
+VP8Metadata
+>
+mMetadata
 ;
 TrackTime
 mEncodedTimestamp

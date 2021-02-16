@@ -1615,14 +1615,6 @@ mFrameHeight
 (
 0
 )
-mDisplayWidth
-(
-0
-)
-mDisplayHeight
-(
-0
-)
 mEncodedTicks
 (
 0

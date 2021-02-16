@@ -790,12 +790,6 @@ mFrameWidth
 int
 mFrameHeight
 ;
-int
-mDisplayWidth
-;
-int
-mDisplayHeight
-;
 VideoChunk
 mLastChunk
 ;
