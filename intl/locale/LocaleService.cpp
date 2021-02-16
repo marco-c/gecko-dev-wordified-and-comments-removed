@@ -1880,6 +1880,9 @@ r
 "
 )
 ;
+#
+ifdef
+MOZ_UPDATER
 MOZ_ASSERT
 (
 !
@@ -1890,6 +1893,8 @@ IsEmpty
 )
 )
 ;
+#
+endif
 if
 (
 CanonicalizeLanguageId
