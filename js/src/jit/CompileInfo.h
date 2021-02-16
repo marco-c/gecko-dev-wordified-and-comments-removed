@@ -1367,7 +1367,7 @@ return
 SlotObservableKind
 :
 :
-ObservableNotRecoverable
+ObservableRecoverable
 ;
 }
 MOZ_ASSERT
