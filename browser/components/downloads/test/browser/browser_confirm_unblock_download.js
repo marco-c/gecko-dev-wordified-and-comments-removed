@@ -24,12 +24,9 @@ expectedResult
 }
 )
 {
-let
-promise
-=
 BrowserTestUtils
 .
-promiseAlertDialog
+promiseAlertDialogOpen
 (
 buttonToClick
 )
@@ -45,9 +42,6 @@ args
 )
 expectedResult
 )
-;
-await
-promise
 ;
 }
 add_task
