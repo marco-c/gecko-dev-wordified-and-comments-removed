@@ -9932,10 +9932,6 @@ utm_source
 =
 button_variant
 &
-force
-=
-email
-&
 tv
 =
 panel_control
