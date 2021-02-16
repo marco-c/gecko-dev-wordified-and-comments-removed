@@ -117,6 +117,7 @@ ArgFormat
 Standard
 Array
 FunApplyMagicArgs
+FunApplyArgsObj
 }
 ;
 private
