@@ -19447,6 +19447,15 @@ fail
 )
 ;
 void
+loadArrayBufferViewByteOffsetIntPtr
+(
+Register
+obj
+Register
+output
+)
+;
+void
 loadArrayBufferViewLengthIntPtr
 (
 Register
