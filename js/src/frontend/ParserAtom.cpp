@@ -3549,6 +3549,15 @@ index
 )
 const
 {
+if
+(
+index
+.
+isParserAtomIndex
+(
+)
+)
+{
 const
 ParserAtom
 *
@@ -3557,6 +3566,10 @@ name
 getParserAtom
 (
 index
+.
+toParserAtomIndex
+(
+)
 )
 ;
 return
@@ -3578,6 +3591,10 @@ twoByteRange
 (
 )
 )
+;
+}
+return
+true
 ;
 }
 bool
