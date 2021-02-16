@@ -32,8 +32,6 @@ import
     
 MarionetteTestCase
     
-skip_if_framescript
-    
 WindowManagerMixin
 )
 class
@@ -495,24 +493,6 @@ wait_for_context_menu_closed
 (
 )
     
-skip_if_framescript
-(
-        
-"
-Bug
-1675173
-:
-Interactability
-is
-only
-checked
-with
-actors
-enabled
-"
-    
-)
-    
 def
 test_sendkeys_closed_menu
 (
@@ -562,24 +542,6 @@ send_keys
 Keys
 .
 ESCAPE
-)
-    
-skip_if_framescript
-(
-        
-"
-Bug
-1675173
-:
-Interactability
-is
-only
-checked
-with
-actors
-enabled
-"
-    
 )
     
 def
