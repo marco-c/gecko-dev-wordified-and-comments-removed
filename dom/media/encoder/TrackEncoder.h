@@ -686,6 +686,8 @@ const
 TimeStamp
 &
 aTime
+size_t
+aFrameRateDetectionMinChunks
 )
 ;
 TrackTime
