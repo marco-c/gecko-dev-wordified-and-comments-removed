@@ -233,13 +233,9 @@ infoGroupsContainers
 i
 ]
 .
-setAttribute
-(
-"
 hidden
-"
+=
 true
-)
 ;
 }
 this
