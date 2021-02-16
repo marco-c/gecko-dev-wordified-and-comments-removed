@@ -140,11 +140,6 @@ find_symbolizer_linux_clang_10
 patch
 "
 "
-rename_gcov_flush_clang_10
-.
-patch
-"
-"
 critical_section_on_gcov_flush
 -
 rG02ce9d8ef5a8

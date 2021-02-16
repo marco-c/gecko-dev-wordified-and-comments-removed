@@ -140,11 +140,6 @@ find_symbolizer_linux
 patch
 "
 "
-rename_gcov_flush
-.
-patch
-"
-"
 critical_section_on_gcov_flush
 -
 rG02ce9d8ef5a8

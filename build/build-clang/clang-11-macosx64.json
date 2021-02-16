@@ -193,11 +193,6 @@ symbolizer
 patch
 "
 "
-rename_gcov_flush_clang_11
-.
-patch
-"
-"
 compiler
 -
 rt
