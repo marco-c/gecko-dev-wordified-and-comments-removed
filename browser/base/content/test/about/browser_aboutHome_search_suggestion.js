@@ -68,8 +68,15 @@ async
 engine
 =
 await
-promiseNewEngine
+SearchTestUtils
+.
+promiseNewSearchEngine
 (
+getRootDirectory
+(
+gTestPath
+)
++
 "
 searchSuggestionEngine
 .
