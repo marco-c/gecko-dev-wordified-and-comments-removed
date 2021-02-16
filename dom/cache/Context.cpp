@@ -1389,10 +1389,10 @@ this
 quota
 :
 :
-QuotaInfo
+OriginMetadata
 &
 &
-quotaInfo
+originMetadata
 )
 {
 static_cast
@@ -1400,7 +1400,7 @@ static_cast
 quota
 :
 :
-QuotaInfo
+OriginMetadata
 &
 >
 (
@@ -1414,7 +1414,7 @@ std
 :
 move
 (
-quotaInfo
+originMetadata
 )
 ;
 self

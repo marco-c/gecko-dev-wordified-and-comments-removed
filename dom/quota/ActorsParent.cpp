@@ -7904,8 +7904,8 @@ mAttrs
 int64_t
 mTimestamp
 ;
-QuotaInfo
-mQuotaInfo
+OriginMetadata
+mOriginMetadata
 ;
 nsCString
 mOriginalSuffix
@@ -9535,9 +9535,9 @@ aDirectory
 int64_t
 aTimestamp
 const
-QuotaInfo
+OriginMetadata
 &
-aQuotaInfo
+aOriginMetadata
 )
 {
 AssertIsOnIOThread
@@ -9558,7 +9558,7 @@ groupAttributes
 .
 PopulateFromOrigin
 (
-aQuotaInfo
+aOriginMetadata
 .
 mGroup
 groupNoSuffix
@@ -9599,7 +9599,7 @@ originAttributes
 .
 PopulateFromOrigin
 (
-aQuotaInfo
+aOriginMetadata
 .
 mOrigin
 originNoSuffix
@@ -9786,9 +9786,9 @@ aTimestamp
 bool
 aPersisted
 const
-QuotaInfo
+OriginMetadata
 &
-aQuotaInfo
+aOriginMetadata
 )
 {
 AssertIsOnIOThread
@@ -9896,7 +9896,7 @@ stream
 >
 WriteStringZ
 (
-aQuotaInfo
+aOriginMetadata
 .
 mSuffix
 .
@@ -9913,7 +9913,7 @@ stream
 >
 WriteStringZ
 (
-aQuotaInfo
+aOriginMetadata
 .
 mGroup
 .
@@ -9930,7 +9930,7 @@ stream
 >
 WriteStringZ
 (
-aQuotaInfo
+aOriginMetadata
 .
 mOrigin
 .
@@ -14431,6 +14431,9 @@ mGroupInfo
 mPersistenceType
 OriginMetadata
 {
+"
+"
+_ns
 originInfo
 -
 >
@@ -17316,7 +17319,7 @@ const
 auto
 &
 metadata
-GetDirectoryMetadataWithQuotaInfo2WithRestore
+GetDirectoryMetadataWithOriginMetadata2WithRestore
 (
 directory
 false
@@ -17368,7 +17371,7 @@ mGroup
 =
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 .
 mGroup
 )
@@ -17389,7 +17392,7 @@ mOrigin
 =
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 )
@@ -19179,13 +19182,13 @@ Result
 QuotaManager
 :
 :
-GetDirectoryResultWithQuotaInfo
+GetDirectoryResultWithOriginMetadata
 nsresult
 >
 QuotaManager
 :
 :
-GetDirectoryMetadataWithQuotaInfo2
+GetDirectoryMetadataWithOriginMetadata2
 (
 nsIFile
 *
@@ -19289,12 +19292,12 @@ Unused
 <
 reservedData2
 ;
-QuotaInfo
-quotaInfo
+OriginMetadata
+originMetadata
 ;
 QM_TRY_UNWRAP
 (
-quotaInfo
+originMetadata
 .
 mSuffix
 MOZ_TO_RESULT_INVOKE_TYPED
@@ -19307,7 +19310,7 @@ ReadCString
 ;
 QM_TRY_UNWRAP
 (
-quotaInfo
+originMetadata
 .
 mGroup
 MOZ_TO_RESULT_INVOKE_TYPED
@@ -19320,7 +19323,7 @@ ReadCString
 ;
 QM_TRY_UNWRAP
 (
-quotaInfo
+originMetadata
 .
 mOrigin
 MOZ_TO_RESULT_INVOKE_TYPED
@@ -19367,7 +19370,7 @@ bool
 updated
 MaybeUpdateGroupForOrigin
 (
-quotaInfo
+originMetadata
 )
 )
 ;
@@ -19384,13 +19387,13 @@ CreateDirectoryMetadata2
 aDirectory
 timestamp
 persisted
-quotaInfo
+originMetadata
 )
 )
 ;
 }
 return
-GetDirectoryResultWithQuotaInfo
+GetDirectoryResultWithOriginMetadata
 {
 static_cast
 <
@@ -19405,7 +19408,7 @@ std
 :
 move
 (
-quotaInfo
+originMetadata
 )
 }
 ;
@@ -19415,13 +19418,13 @@ Result
 QuotaManager
 :
 :
-GetDirectoryResultWithQuotaInfo
+GetDirectoryResultWithOriginMetadata
 nsresult
 >
 QuotaManager
 :
 :
-GetDirectoryMetadataWithQuotaInfo2WithRestore
+GetDirectoryMetadataWithOriginMetadata2WithRestore
 (
 nsIFile
 *
@@ -19446,14 +19449,14 @@ Result
 <
 Maybe
 <
-GetDirectoryResultWithQuotaInfo
+GetDirectoryResultWithOriginMetadata
 >
 nsresult
 >
 {
 QM_TRY_RETURN
 (
-GetDirectoryMetadataWithQuotaInfo2
+GetDirectoryMetadataWithOriginMetadata2
 (
 aDirectory
 )
@@ -19462,13 +19465,13 @@ map
 (
 Some
 <
-GetDirectoryResultWithQuotaInfo
-GetDirectoryResultWithQuotaInfo
+GetDirectoryResultWithOriginMetadata
+GetDirectoryResultWithOriginMetadata
 >
 )
 Maybe
 <
-GetDirectoryResultWithQuotaInfo
+GetDirectoryResultWithOriginMetadata
 >
 {
 }
@@ -19497,7 +19500,7 @@ aPersistent
 ;
 QM_TRY_RETURN
 (
-GetDirectoryMetadataWithQuotaInfo2
+GetDirectoryMetadataWithOriginMetadata2
 (
 aDirectory
 )
@@ -19749,7 +19752,7 @@ QM_TRY_UNWRAP
 (
 auto
 metadata
-GetDirectoryMetadataWithQuotaInfo2WithRestore
+GetDirectoryMetadataWithOriginMetadata2WithRestore
 (
 childDirectory
 false
@@ -19764,7 +19767,7 @@ MakeSanitizedOriginCString
 (
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 )
@@ -19868,7 +19871,7 @@ move
 (
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 )
 metadata
 .
@@ -19890,7 +19893,7 @@ InitializeOrigin
 aPersistenceType
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 metadata
 .
 mTimestamp
@@ -24761,9 +24764,9 @@ QuotaManager
 EnsurePersistentOriginIsInitialized
 (
 const
-QuotaInfo
+OriginMetadata
 &
-aQuotaInfo
+aOriginMetadata
 )
 {
 AssertIsOnIOThread
@@ -24780,7 +24783,7 @@ res
 =
 [
 &
-aQuotaInfo
+aOriginMetadata
 this
 ]
 (
@@ -24813,7 +24816,7 @@ directory
 GetDirectoryForOrigin
 (
 PERSISTENCE_TYPE_PERSISTENT
-aQuotaInfo
+aOriginMetadata
 .
 mOrigin
 )
@@ -24825,7 +24828,7 @@ mInitializedOrigins
 .
 Contains
 (
-aQuotaInfo
+aOriginMetadata
 .
 mOrigin
 )
@@ -24874,7 +24877,7 @@ created
 &
 directory
 &
-aQuotaInfo
+aOriginMetadata
 ]
 (
 )
@@ -24907,7 +24910,7 @@ CreateDirectoryMetadata2
 directory
 timestamp
 true
-aQuotaInfo
+aOriginMetadata
 )
 )
 ;
@@ -24921,7 +24924,7 @@ const
 auto
 &
 metadata
-GetDirectoryMetadataWithQuotaInfo2WithRestore
+GetDirectoryMetadataWithOriginMetadata2WithRestore
 (
 directory
 true
@@ -24956,7 +24959,7 @@ QM_TRY
 InitializeOrigin
 (
 PERSISTENCE_TYPE_PERSISTENT
-aQuotaInfo
+aOriginMetadata
 timestamp
 true
 directory
@@ -24967,7 +24970,7 @@ mInitializedOrigins
 .
 AppendElement
 (
-aQuotaInfo
+aOriginMetadata
 .
 mOrigin
 )
@@ -25002,7 +25005,7 @@ mOriginInitializationInfos
 .
 GetOrInsert
 (
-aQuotaInfo
+aOriginMetadata
 .
 mOrigin
 )
@@ -25070,9 +25073,9 @@ EnsureTemporaryOriginIsInitialized
 PersistenceType
 aPersistenceType
 const
-QuotaInfo
+OriginMetadata
 &
-aQuotaInfo
+aOriginMetadata
 )
 {
 AssertIsOnIOThread
@@ -25104,7 +25107,7 @@ res
 &
 aPersistenceType
 &
-aQuotaInfo
+aOriginMetadata
 this
 ]
 (
@@ -25137,7 +25140,7 @@ directory
 GetDirectoryForOrigin
 (
 aPersistenceType
-aQuotaInfo
+aOriginMetadata
 .
 mOrigin
 )
@@ -25167,7 +25170,7 @@ timestamp
 NoteOriginDirectoryCreated
 (
 aPersistenceType
-aQuotaInfo
+aOriginMetadata
 false
 timestamp
 )
@@ -25180,7 +25183,7 @@ CreateDirectoryMetadata2
 directory
 timestamp
 false
-aQuotaInfo
+aOriginMetadata
 )
 )
 ;
@@ -25213,7 +25216,7 @@ mOriginInitializationInfos
 .
 GetOrInsert
 (
-aQuotaInfo
+aOriginMetadata
 .
 mOrigin
 )
@@ -26716,7 +26719,7 @@ return
 false
 ;
 }
-QuotaInfo
+OriginMetadata
 QuotaManager
 :
 :
@@ -26776,8 +26779,8 @@ get_ContentPrincipalInfo
 (
 )
 ;
-QuotaInfo
-quotaInfo
+OriginMetadata
+originMetadata
 ;
 info
 .
@@ -26787,12 +26790,12 @@ attrs
 .
 CreateSuffix
 (
-quotaInfo
+originMetadata
 .
 mSuffix
 )
 ;
-quotaInfo
+originMetadata
 .
 mGroup
 =
@@ -26802,11 +26805,11 @@ baseDomain
 (
 )
 +
-quotaInfo
+originMetadata
 .
 mSuffix
 ;
-quotaInfo
+originMetadata
 .
 mOrigin
 =
@@ -26816,12 +26819,12 @@ originNoSuffix
 (
 )
 +
-quotaInfo
+originMetadata
 .
 mSuffix
 ;
 return
-quotaInfo
+originMetadata
 ;
 }
 default
@@ -26947,7 +26950,7 @@ here
 }
 Result
 <
-QuotaInfo
+OriginMetadata
 nsresult
 >
 QuotaManager
@@ -27018,8 +27021,8 @@ NS_ERROR_FAILURE
 )
 ;
 }
-QuotaInfo
-quotaInfo
+OriginMetadata
+originMetadata
 ;
 QM_TRY
 (
@@ -27028,7 +27031,7 @@ aPrincipal
 >
 GetOrigin
 (
-quotaInfo
+originMetadata
 .
 mOrigin
 )
@@ -27036,7 +27039,7 @@ mOrigin
 ;
 if
 (
-quotaInfo
+originMetadata
 .
 mOrigin
 .
@@ -27079,7 +27082,7 @@ OriginAttributesRef
 .
 CreateSuffix
 (
-quotaInfo
+originMetadata
 .
 mSuffix
 )
@@ -27108,18 +27111,18 @@ IsEmpty
 )
 )
 ;
-quotaInfo
+originMetadata
 .
 mGroup
 =
 baseDomain
 +
-quotaInfo
+originMetadata
 .
 mSuffix
 ;
 return
-quotaInfo
+originMetadata
 ;
 }
 Result
@@ -27333,7 +27336,7 @@ principal
 )
 ;
 }
-QuotaInfo
+OriginMetadata
 QuotaManager
 :
 :
@@ -28760,6 +28763,9 @@ mGroupInfo
 >
 mPersistenceType
 {
+"
+"
+_ns
 doomedOriginInfo
 -
 >
@@ -35295,7 +35301,7 @@ auto
 metadata
 aQuotaManager
 .
-GetDirectoryMetadataWithQuotaInfo2WithRestore
+GetDirectoryMetadataWithOriginMetadata2WithRestore
 (
 &
 aOriginDir
@@ -35315,7 +35321,7 @@ aQuotaManager
 aPersistenceType
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -35326,7 +35332,7 @@ aQuotaManager
 aPersistenceType
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 metadata
@@ -35573,8 +35579,8 @@ get_OriginUsageParams
 (
 )
 ;
-QuotaInfo
-quotaInfo
+OriginMetadata
+originMetadata
 =
 QuotaManager
 :
@@ -35595,7 +35601,7 @@ std
 :
 move
 (
-quotaInfo
+originMetadata
 .
 mSuffix
 )
@@ -35607,7 +35613,7 @@ std
 :
 move
 (
-quotaInfo
+originMetadata
 .
 mGroup
 )
@@ -35616,7 +35622,7 @@ mOriginScope
 .
 SetFromOrigin
 (
-quotaInfo
+originMetadata
 .
 mOrigin
 )
@@ -35701,6 +35707,9 @@ OriginMetadata
 originMetadata
 =
 {
+"
+"
+_ns
 mGroup
 nsCString
 {
@@ -36523,7 +36532,7 @@ AssertIsOnOwningThread
 )
 ;
 auto
-quotaInfo
+originMetadata
 =
 QuotaManager
 :
@@ -36552,7 +36561,7 @@ mOriginScope
 .
 SetFromOrigin
 (
-quotaInfo
+originMetadata
 .
 mOrigin
 )
@@ -36564,7 +36573,7 @@ std
 :
 move
 (
-quotaInfo
+originMetadata
 .
 mSuffix
 )
@@ -36576,7 +36585,7 @@ std
 :
 move
 (
-quotaInfo
+originMetadata
 .
 mGroup
 )
@@ -36700,7 +36709,7 @@ aQuotaManager
 .
 EnsurePersistentOriginIsInitialized
 (
-QuotaInfo
+OriginMetadata
 {
 mSuffix
 mGroup
@@ -36891,7 +36900,7 @@ mPersistenceType
 Value
 (
 )
-QuotaInfo
+OriginMetadata
 {
 mSuffix
 mGroup
@@ -37602,7 +37611,7 @@ auto
 metadata
 aQuotaManager
 .
-GetDirectoryMetadataWithQuotaInfo2WithRestore
+GetDirectoryMetadataWithOriginMetadata2WithRestore
 (
 file
 persistent
@@ -37738,7 +37747,7 @@ IsOriginInitialized
 (
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 )
@@ -37782,7 +37791,7 @@ RemoveQuotaForOrigin
 aPersistenceType
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 )
 ;
 }
@@ -37795,7 +37804,7 @@ ResetUsageForClient
 aPersistenceType
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 mClientType
 .
 Value
@@ -37812,7 +37821,7 @@ OriginClearCompleted
 aPersistenceType
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 mClientType
@@ -38610,8 +38619,8 @@ SetValue
 PERSISTENCE_TYPE_DEFAULT
 )
 ;
-QuotaInfo
-quotaInfo
+OriginMetadata
+originMetadata
 =
 QuotaManager
 :
@@ -38628,7 +38637,7 @@ std
 :
 move
 (
-quotaInfo
+originMetadata
 .
 mSuffix
 )
@@ -38640,7 +38649,7 @@ std
 :
 move
 (
-quotaInfo
+originMetadata
 .
 mGroup
 )
@@ -38649,7 +38658,7 @@ mOriginScope
 .
 SetFromOrigin
 (
-quotaInfo
+originMetadata
 .
 mOrigin
 )
@@ -38774,6 +38783,9 @@ OriginPersisted
 (
 OriginMetadata
 {
+"
+"
+_ns
 mGroup
 nsCString
 {
@@ -38857,7 +38869,7 @@ auto
 metadata
 aQuotaManager
 .
-GetDirectoryMetadataWithQuotaInfo2WithRestore
+GetDirectoryMetadataWithOriginMetadata2WithRestore
 (
 directory
 false
@@ -39006,8 +39018,8 @@ IsOrigin
 )
 ;
 const
-QuotaInfo
-quotaInfo
+OriginMetadata
+originMetadata
 =
 {
 mSuffix
@@ -39048,7 +39060,7 @@ mPersistenceType
 Value
 (
 )
-quotaInfo
+originMetadata
 .
 mOrigin
 )
@@ -39095,7 +39107,7 @@ mPersistenceType
 Value
 (
 )
-quotaInfo
+originMetadata
 true
 timestamp
 )
@@ -39118,7 +39130,7 @@ CreateDirectoryMetadata2
 directory
 timestamp
 true
-quotaInfo
+originMetadata
 )
 )
 ;
@@ -39133,7 +39145,7 @@ auto
 metadata
 aQuotaManager
 .
-GetDirectoryMetadataWithQuotaInfo2WithRestore
+GetDirectoryMetadataWithOriginMetadata2WithRestore
 (
 directory
 false
@@ -39222,7 +39234,7 @@ aQuotaManager
 .
 PersistOrigin
 (
-quotaInfo
+originMetadata
 )
 ;
 }
@@ -39615,7 +39627,7 @@ auto
 metadata
 aQuotaManager
 .
-GetDirectoryMetadataWithQuotaInfo2WithRestore
+GetDirectoryMetadataWithOriginMetadata2WithRestore
 (
 &
 aOriginDir
@@ -39631,7 +39643,7 @@ IsOriginInternal
 (
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 )
@@ -39652,7 +39664,7 @@ move
 (
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 )
@@ -40802,7 +40814,7 @@ eChrome
 {
 originProps
 .
-mQuotaInfo
+mOriginMetadata
 =
 QuotaManager
 :
@@ -40987,7 +40999,7 @@ contentPrincipalInfo
 ;
 originProps
 .
-mQuotaInfo
+mOriginMetadata
 =
 QuotaManager
 :
@@ -41098,7 +41110,7 @@ MOZ_ASSERT
 (
 originProps
 .
-mQuotaInfo
+mOriginMetadata
 .
 mSuffix
 .
@@ -41111,7 +41123,7 @@ MOZ_ASSERT
 (
 originProps
 .
-mQuotaInfo
+mOriginMetadata
 .
 mGroup
 .
@@ -41124,7 +41136,7 @@ MOZ_ASSERT
 (
 originProps
 .
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 .
@@ -41149,7 +41161,7 @@ MOZ_ASSERT
 !
 originProps
 .
-mQuotaInfo
+mOriginMetadata
 .
 mGroup
 .
@@ -41163,7 +41175,7 @@ MOZ_ASSERT
 !
 originProps
 .
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 .
@@ -44391,7 +44403,7 @@ aOriginProps
 mTimestamp
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -44584,7 +44596,7 @@ aOriginProps
 mTimestamp
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -44799,7 +44811,7 @@ aOriginProps
 mTimestamp
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -44818,7 +44830,7 @@ mTimestamp
 false
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -44846,7 +44858,7 @@ MakeSanitizedOriginString
 (
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 )
@@ -45152,7 +45164,7 @@ MakeSanitizedOriginString
 (
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 )
@@ -45182,7 +45194,7 @@ aOriginProps
 mTimestamp
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -45200,7 +45212,7 @@ mTimestamp
 false
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -45576,7 +45588,7 @@ aOriginProps
 mTimestamp
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -45602,7 +45614,7 @@ mTimestamp
 false
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -45807,7 +45819,7 @@ aOriginProps
 mTimestamp
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -45833,7 +45845,7 @@ mTimestamp
 false
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -46038,7 +46050,7 @@ aOriginProps
 mTimestamp
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -46064,7 +46076,7 @@ mTimestamp
 false
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -46259,7 +46271,7 @@ mTimestamp
 false
 aOriginProps
 .
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;

@@ -12960,8 +12960,8 @@ const
 CommonFactoryRequestParams
 mCommonParams
 ;
-QuotaInfo
-mQuotaInfo
+OriginMetadata
+mOriginMetadata
 ;
 nsCString
 mDatabaseId
@@ -13012,7 +13012,7 @@ AssertIsOnOwningThread
 )
 ;
 return
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 ;
@@ -59498,7 +59498,7 @@ metadata
 quotaManager
 -
 >
-GetDirectoryMetadataWithQuotaInfo2WithRestore
+GetDirectoryMetadataWithOriginMetadata2WithRestore
 (
 originDir
 persistent
@@ -59517,7 +59517,7 @@ IsPrivateBrowsing
 (
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 )
@@ -59549,7 +59549,7 @@ EnsurePersistentOriginIsInitialized
 (
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 )
 .
 map
@@ -59825,7 +59825,7 @@ EmplaceBack
 persistenceType
 metadata
 .
-mQuotaInfo
+mOriginMetadata
 std
 :
 :
@@ -66906,7 +66906,7 @@ Append
 (
 AnonymizedOriginString
 (
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 )
@@ -67142,7 +67142,7 @@ metadata
 persistenceType
 (
 )
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 Client
@@ -68576,7 +68576,7 @@ Initial
 mState
 )
 {
-mQuotaInfo
+mOriginMetadata
 =
 QuotaManager
 :
@@ -68592,7 +68592,7 @@ QuotaManager
 :
 IsOriginInternal
 (
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 )
@@ -68640,7 +68640,7 @@ principalInfo
 IDB_TRY_UNWRAP
 (
 auto
-quotaInfo
+originMetadata
 QuotaManager
 :
 :
@@ -68662,7 +68662,7 @@ persistenceType
 &
 origin
 =
-quotaInfo
+originMetadata
 .
 mOrigin
 &
@@ -68768,14 +68768,14 @@ Initial
 mState
 )
 {
-mQuotaInfo
+mOriginMetadata
 =
 std
 :
 :
 move
 (
-quotaInfo
+originMetadata
 )
 ;
 mEnforcingQuota
@@ -69247,7 +69247,7 @@ QuotaManagerPending
 MOZ_ASSERT
 (
 !
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 .
@@ -69348,7 +69348,7 @@ quotaManager
 GetDirectoryForOrigin
 (
 persistenceType
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 )
@@ -69420,7 +69420,7 @@ quotaManager
 CreateDirectoryLock
 (
 persistenceType
-mQuotaInfo
+mOriginMetadata
 Client
 :
 :
@@ -69490,12 +69490,12 @@ persistenceType
 &
 aExistingOp
 .
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 =
 =
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 &
@@ -70353,7 +70353,7 @@ quotaManager
 >
 EnsurePersistentOriginIsInitialized
 (
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -70376,7 +70376,7 @@ quotaManager
 EnsureTemporaryOriginIsInitialized
 (
 persistenceType
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -70543,7 +70543,7 @@ quotaManager
 :
 nullptr
 persistenceType
-mQuotaInfo
+mOriginMetadata
 databaseName
 )
 )
@@ -70689,7 +70689,7 @@ dbFile
 *
 fmDirectory
 databaseName
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 mDirectoryLockId
@@ -70859,7 +70859,7 @@ mgr
 GetFileManager
 (
 persistenceType
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 databaseName
@@ -70879,7 +70879,7 @@ FileManager
 >
 (
 persistenceType
-mQuotaInfo
+mOriginMetadata
 databaseName
 mEnforcingQuota
 )
@@ -71093,7 +71093,7 @@ QuotaManager
 :
 AreOriginsEqualOnDisk
 (
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 origin
@@ -74196,7 +74196,7 @@ principalInfo
 (
 )
 mOptionalContentParentId
-mQuotaInfo
+mOriginMetadata
 mTelemetryId
 mMetadata
 .
@@ -76136,7 +76136,7 @@ quotaManager
 GetDirectoryForOrigin
 (
 persistenceType
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 )
@@ -76915,7 +76915,7 @@ persistenceType
 mDeleteDatabaseOp
 -
 >
-mQuotaInfo
+mOriginMetadata
 mDeleteDatabaseOp
 -
 >

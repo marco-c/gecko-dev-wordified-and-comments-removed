@@ -46,7 +46,7 @@ dom
 /
 quota
 /
-OriginScope
+OriginMetadata
 .
 h
 "
@@ -59,7 +59,7 @@ dom
 /
 quota
 /
-QuotaInfo
+OriginScope
 .
 h
 "
@@ -806,6 +806,9 @@ quota
 :
 OriginMetadata
 {
+"
+"
+_ns
 mGroup
 nsCString
 (

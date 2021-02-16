@@ -168,6 +168,11 @@ MemoryOutputStream
 h
 "
 "
+OriginMetadata
+.
+h
+"
+"
 OriginScope
 .
 h
@@ -179,11 +184,6 @@ h
 "
 "
 QuotaCommon
-.
-h
-"
-"
-QuotaInfo
 .
 h
 "

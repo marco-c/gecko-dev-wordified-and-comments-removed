@@ -25,7 +25,7 @@ dom
 /
 quota
 /
-QuotaInfo
+OriginMetadata
 .
 h
 "
@@ -99,7 +99,7 @@ QuotaInfo
 quota
 :
 :
-QuotaInfo
+OriginMetadata
 {
 nsCOMPtr
 <

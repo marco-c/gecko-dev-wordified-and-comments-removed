@@ -5329,8 +5329,8 @@ ConnectionWriteOptimizer
 mWriteOptimizer
 ;
 const
-QuotaInfo
-mQuotaInfo
+OriginMetadata
+mOriginMetadata
 ;
 nsString
 mDirectoryPath
@@ -5420,7 +5420,7 @@ Origin
 const
 {
 return
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 ;
@@ -5579,9 +5579,9 @@ ConnectionThread
 *
 aConnectionThread
 const
-QuotaInfo
+OriginMetadata
 &
-aQuotaInfo
+aOriginMetadata
 UniquePtr
 <
 ArchivedOriginScope
@@ -5639,8 +5639,8 @@ Monitor
 mMonitor
 ;
 const
-QuotaInfo
-mQuotaInfo
+OriginMetadata
+mOriginMetadata
 ;
 nsString
 mOriginDirectoryPath
@@ -5657,9 +5657,9 @@ explicit
 InitTemporaryOriginHelper
 (
 const
-QuotaInfo
+OriginMetadata
 &
-aQuotaInfo
+aOriginMetadata
 )
 :
 Runnable
@@ -5686,9 +5686,9 @@ InitTemporaryOriginHelper
 mMonitor
 "
 )
-mQuotaInfo
+mOriginMetadata
 (
-aQuotaInfo
+aOriginMetadata
 )
 mIOThreadResultCode
 (
@@ -5886,9 +5886,9 @@ Connection
 CreateConnection
 (
 const
-QuotaInfo
+OriginMetadata
 &
-aQuotaInfo
+aOriginMetadata
 UniquePtr
 <
 ArchivedOriginScope
@@ -8247,8 +8247,8 @@ LSItemInfo
 >
 mOrderedItems
 ;
-QuotaInfo
-mQuotaInfo
+OriginMetadata
+mOriginMetadata
 ;
 nsCString
 mMainThreadOrigin
@@ -8366,7 +8366,7 @@ IsOnIOThread
 ;
 return
 !
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 .
@@ -8403,7 +8403,7 @@ OriginIsKnown
 )
 ;
 return
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 ;
@@ -14828,9 +14828,9 @@ ConnectionThread
 *
 aConnectionThread
 const
-QuotaInfo
+OriginMetadata
 &
-aQuotaInfo
+aOriginMetadata
 UniquePtr
 <
 ArchivedOriginScope
@@ -14865,9 +14865,9 @@ move
 aArchivedOriginScope
 )
 )
-mQuotaInfo
+mOriginMetadata
 (
-aQuotaInfo
+aOriginMetadata
 )
 mDatabaseWasNotAvailable
 (
@@ -14902,7 +14902,7 @@ AssertIsOnOwningThread
 MOZ_ASSERT
 (
 !
-aQuotaInfo
+aOriginMetadata
 .
 mGroup
 .
@@ -14914,7 +14914,7 @@ IsEmpty
 MOZ_ASSERT
 (
 !
-aQuotaInfo
+aOriginMetadata
 .
 mOrigin
 .
@@ -15400,7 +15400,7 @@ helper
 new
 InitTemporaryOriginHelper
 (
-mQuotaInfo
+mOriginMetadata
 )
 ;
 LS_TRY_INSPECT
@@ -16171,7 +16171,7 @@ quotaManager
 EnsureTemporaryOriginIsInitialized
 (
 PERSISTENCE_TYPE_DEFAULT
-mQuotaInfo
+mOriginMetadata
 )
 .
 map
@@ -16712,9 +16712,9 @@ ConnectionThread
 CreateConnection
 (
 const
-QuotaInfo
+OriginMetadata
 &
-aQuotaInfo
+aOriginMetadata
 UniquePtr
 <
 ArchivedOriginScope
@@ -16733,7 +16733,7 @@ AssertIsOnOwningThread
 MOZ_ASSERT
 (
 !
-aQuotaInfo
+aOriginMetadata
 .
 mOrigin
 .
@@ -16749,7 +16749,7 @@ mConnections
 .
 GetWeak
 (
-aQuotaInfo
+aOriginMetadata
 .
 mOrigin
 )
@@ -16765,7 +16765,7 @@ new
 Connection
 (
 this
-aQuotaInfo
+aOriginMetadata
 std
 :
 :
@@ -16780,7 +16780,7 @@ mConnections
 .
 Put
 (
-aQuotaInfo
+aOriginMetadata
 .
 mOrigin
 RefPtr
@@ -26511,7 +26511,7 @@ PrincipalInfo
 TSystemPrincipalInfo
 )
 {
-mQuotaInfo
+mOriginMetadata
 =
 QuotaManager
 :
@@ -26538,8 +26538,8 @@ PrincipalInfo
 TContentPrincipalInfo
 )
 ;
-QuotaInfo
-quotaInfo
+OriginMetadata
+originMetadata
 =
 QuotaManager
 :
@@ -26549,7 +26549,7 @@ GetInfoFromValidatedPrincipalInfo
 storagePrincipalInfo
 )
 ;
-mQuotaInfo
+mOriginMetadata
 .
 mSuffix
 =
@@ -26558,12 +26558,12 @@ std
 :
 move
 (
-quotaInfo
+originMetadata
 .
 mSuffix
 )
 ;
-mQuotaInfo
+mOriginMetadata
 .
 mGroup
 =
@@ -26572,7 +26572,7 @@ std
 :
 move
 (
-quotaInfo
+originMetadata
 .
 mGroup
 )
@@ -26584,7 +26584,7 @@ std
 :
 move
 (
-quotaInfo
+originMetadata
 .
 mOrigin
 )
@@ -26821,7 +26821,7 @@ MOZ_ASSERT
 mArchivedOriginScope
 )
 ;
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 =
@@ -27524,7 +27524,7 @@ Get
 CreateDirectoryLock
 (
 PERSISTENCE_TYPE_DEFAULT
-mQuotaInfo
+mOriginMetadata
 mozilla
 :
 :
@@ -27788,7 +27788,7 @@ quotaManager
 GetUsageForClient
 (
 PERSISTENCE_TYPE_DEFAULT
-mQuotaInfo
+mOriginMetadata
 mozilla
 :
 :
@@ -27922,7 +27922,7 @@ quotaManager
 EnsureTemporaryOriginIsInitialized
 (
 PERSISTENCE_TYPE_DEFAULT
-mQuotaInfo
+mOriginMetadata
 )
 .
 map
@@ -27968,7 +27968,7 @@ quotaManager
 EnsureQuotaForOrigin
 (
 PERSISTENCE_TYPE_DEFAULT
-mQuotaInfo
+mOriginMetadata
 )
 ;
 return
@@ -29054,7 +29054,7 @@ IsOnIOThread
 MOZ_ASSERT
 (
 !
-mQuotaInfo
+mOriginMetadata
 .
 mGroup
 .
@@ -29108,7 +29108,7 @@ quotaManager
 GetQuotaObject
 (
 PERSISTENCE_TYPE_DEFAULT
-mQuotaInfo
+mOriginMetadata
 mozilla
 :
 :
@@ -29154,7 +29154,7 @@ s
 )
 !
 "
-mQuotaInfo
+mOriginMetadata
 .
 mGroup
 .
@@ -29263,7 +29263,7 @@ gConnectionThread
 >
 CreateConnection
 (
-mQuotaInfo
+mOriginMetadata
 std
 :
 :
@@ -29688,7 +29688,7 @@ gConnectionThread
 >
 CreateConnection
 (
-mQuotaInfo
+mOriginMetadata
 std
 :
 :
@@ -29730,7 +29730,7 @@ mDatastore
 new
 Datastore
 (
-mQuotaInfo
+mOriginMetadata
 mPrivateBrowsingId
 mUsage
 mSizeOfKeys

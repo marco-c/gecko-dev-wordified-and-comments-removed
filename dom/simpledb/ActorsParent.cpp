@@ -1340,8 +1340,8 @@ mFileStream
 quota
 :
 :
-QuotaInfo
-mQuotaInfo
+OriginMetadata
+mOriginMetadata
 ;
 State
 mState
@@ -4395,7 +4395,7 @@ PrincipalInfo
 TSystemPrincipalInfo
 )
 {
-mQuotaInfo
+mOriginMetadata
 =
 QuotaManager
 :
@@ -4436,7 +4436,7 @@ principalInfo
 ;
 SDB_TRY_UNWRAP
 (
-mQuotaInfo
+mOriginMetadata
 QuotaManager
 :
 :
@@ -4521,7 +4521,7 @@ Origin
 )
 =
 =
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 &
@@ -4704,7 +4704,7 @@ QuotaManagerPending
 MOZ_ASSERT
 (
 !
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 .
@@ -4764,7 +4764,7 @@ GetConnection
 GetPersistenceType
 (
 )
-mQuotaInfo
+mOriginMetadata
 mozilla
 :
 :
@@ -4858,7 +4858,7 @@ GetConnection
 GetPersistenceType
 (
 )
-mQuotaInfo
+mOriginMetadata
 mozilla
 :
 :
@@ -5076,7 +5076,7 @@ quotaManager
 >
 EnsurePersistentOriginIsInitialized
 (
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -5099,7 +5099,7 @@ quotaManager
 EnsureTemporaryOriginIsInitialized
 (
 persistenceType
-mQuotaInfo
+mOriginMetadata
 )
 )
 ;
@@ -5557,7 +5557,7 @@ ResultCode
 MOZ_ASSERT
 (
 !
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 .
@@ -5618,7 +5618,7 @@ GetConnection
 >
 OnOpen
 (
-mQuotaInfo
+mOriginMetadata
 .
 mOrigin
 mParams
