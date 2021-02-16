@@ -134,6 +134,16 @@ GetCurrent
 {
 }
 void
+Started
+(
+TrackEncoder
+*
+aEncoder
+)
+override
+{
+}
+void
 Initialized
 (
 TrackEncoder

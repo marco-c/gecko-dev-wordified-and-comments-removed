@@ -128,7 +128,7 @@ MediaEncoderListener
 )
 virtual
 void
-Initialized
+Started
 (
 )
 =
@@ -354,6 +354,11 @@ NotifyInitialized
 )
 ;
 void
+NotifyStarted
+(
+)
+;
+void
 NotifyDataAvailable
 (
 )
@@ -554,6 +559,9 @@ mMIMEType
 ;
 bool
 mInitialized
+;
+bool
+mStarted
 ;
 bool
 mCompleted
