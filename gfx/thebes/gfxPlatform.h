@@ -2690,12 +2690,6 @@ gfxASurface
 >
 mScreenReferenceSurface
 ;
-nsCOMPtr
-<
-nsIObserver
->
-mSRGBOverrideObserver
-;
 RefPtr
 <
 mozilla
