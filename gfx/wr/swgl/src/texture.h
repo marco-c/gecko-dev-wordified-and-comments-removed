@@ -4008,6 +4008,7 @@ SI
 T
 samplerScale
 (
+UNUSED
 sampler2DRect
 sampler
 T
