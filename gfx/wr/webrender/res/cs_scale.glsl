@@ -296,7 +296,7 @@ vUvLayer
 }
 #
 ifdef
-SWGL
+SWGL_DRAW_SPAN
 void
 swgl_drawSpanRGBA8
 (

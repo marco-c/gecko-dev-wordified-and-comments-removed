@@ -1149,7 +1149,7 @@ avg_color
 }
 #
 ifdef
-SWGL
+SWGL_DRAW_SPAN
 #
 ifdef
 WR_FEATURE_COLOR_TARGET

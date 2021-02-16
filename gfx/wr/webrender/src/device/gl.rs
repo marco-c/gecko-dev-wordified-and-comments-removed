@@ -4469,6 +4469,10 @@ uses_native_clip_mask
 :
 bool
 pub
+uses_native_antialiasing
+:
+bool
+pub
 renderer_name
 :
 String
@@ -7113,6 +7117,11 @@ uses_native_clip_mask
 is_software_webrender
 ;
 let
+uses_native_antialiasing
+=
+is_software_webrender
+;
+let
 mut
 requires_batched_texture_uploads
 =
@@ -7220,6 +7229,7 @@ supports_shader_storage_object
 requires_batched_texture_uploads
 supports_r8_texture_upload
 uses_native_clip_mask
+uses_native_antialiasing
 renderer_name
 }
 color_formats

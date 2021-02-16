@@ -474,9 +474,8 @@ WR_FEATURE_ALPHA_PASS
 color
 *
 =
-init_transform_fs
+antialias_brush
 (
-v_local_pos
 )
 ;
 #
