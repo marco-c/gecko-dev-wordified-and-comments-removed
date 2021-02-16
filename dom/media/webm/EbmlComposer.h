@@ -78,7 +78,7 @@ GenerateHeader
 (
 )
 ;
-void
+nsresult
 WriteSimpleBlock
 (
 EncodedFrame

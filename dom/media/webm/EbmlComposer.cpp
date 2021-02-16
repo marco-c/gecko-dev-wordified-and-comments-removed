@@ -494,7 +494,7 @@ IsEmpty
 )
 ;
 }
-void
+nsresult
 EbmlComposer
 :
 :
@@ -596,6 +596,7 @@ WritingCluster
 )
 {
 return
+NS_ERROR_INVALID_ARG
 ;
 }
 int64_t
@@ -843,6 +844,9 @@ ebml
 .
 offset
 )
+;
+return
+NS_OK
 ;
 }
 void
