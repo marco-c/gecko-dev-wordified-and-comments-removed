@@ -2163,7 +2163,7 @@ six
 string_types
 )
         
-js_on_windows
+distbin_on_windows
 =
 platform
 .
@@ -2176,23 +2176,19 @@ system
 Windows
 "
 and
-self
+dest
 .
-path
-.
-endswith
+startswith
 (
             
-(
 "
-.
-js
+dist
+\
+\
+bin
+\
+\
 "
-"
-.
-jsm
-"
-)
         
 )
         
@@ -2206,7 +2202,7 @@ symlink
 "
 )
 or
-js_on_windows
+distbin_on_windows
 :
             
 return
