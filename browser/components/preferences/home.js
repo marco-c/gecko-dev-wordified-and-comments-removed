@@ -3345,6 +3345,12 @@ _handleHomePageOverrides
 (
 )
 ;
+this
+.
+syncFromNewTabPref
+(
+)
+;
 window
 .
 addEventListener
