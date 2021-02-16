@@ -1082,6 +1082,11 @@ PlacesVisit
 h
 "
 "
+PlacesVisitRemoved
+.
+h
+"
+"
 PlacesVisitTitle
 .
 h
