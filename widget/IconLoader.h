@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
 nsIContentPolicy
 .
 h
@@ -122,12 +115,8 @@ aImageRegionRect
 ;
 public
 :
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_ISUPPORTS
 NS_DECL_IMGINOTIFICATIONOBSERVER
-NS_DECL_CYCLE_COLLECTION_CLASS
-(
-IconLoader
-)
 nsresult
 LoadIcon
 (
