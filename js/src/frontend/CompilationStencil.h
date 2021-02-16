@@ -759,7 +759,10 @@ lazy
 =
 nullptr
 ;
-ScriptSourceHolder
+RefPtr
+<
+ScriptSource
+>
 source_
 ;
 Scope
@@ -1106,10 +1109,9 @@ ScriptSource
 ss
 )
 {
-return
 source_
-.
-reset
+=
+do_AddRef
 (
 ss
 )
