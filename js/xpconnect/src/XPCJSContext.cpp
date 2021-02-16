@@ -4582,6 +4582,13 @@ ENABLE_WASM_SIMD_WORMHOLE
 bool
 useWasmSimdWormhole
 =
+false
+;
+#
+ifdef
+EARLY_BETA_OR_EARLIER
+useWasmSimdWormhole
+=
 Preferences
 :
 :
@@ -4593,6 +4600,8 @@ wasm_simd_wormhole
 "
 )
 ;
+#
+endif
 #
 endif
 bool
