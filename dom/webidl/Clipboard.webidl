@@ -176,14 +176,14 @@ events
 .
 asyncClipboard
 .
-dataTransfer
+clipboardItem
 "
 Throws
 NeedsSubjectPrincipal
 ]
 Promise
 <
-DataTransfer
+ClipboardItems
 >
 read
 (
