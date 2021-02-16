@@ -648,7 +648,7 @@ type
 ]
 !
 =
-NSSystemDefined
+NSEventTypeSystemDefined
 |
 |
 [
