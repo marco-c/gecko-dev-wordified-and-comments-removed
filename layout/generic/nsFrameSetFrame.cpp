@@ -1549,8 +1549,6 @@ RefPtr
 ComputedStyle
 >
 pseudoComputedStyle
-;
-pseudoComputedStyle
 =
 presShell
 -
