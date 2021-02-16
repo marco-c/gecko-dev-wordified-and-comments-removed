@@ -560,17 +560,6 @@ true
 ;
 this
 .
-seenEls
-=
-new
-element
-.
-Store
-(
-)
-;
-this
-.
 tab
 =
 null
