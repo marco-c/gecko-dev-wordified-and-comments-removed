@@ -1929,6 +1929,13 @@ rootFragment
 )
 )
 ;
+resolver
+-
+>
+MaybeResolve
+(
+)
+;
 return
 promise
 ;
