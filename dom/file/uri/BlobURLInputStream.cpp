@@ -1562,6 +1562,12 @@ loadInfo
 GetOriginAttributes
 (
 )
+loadInfo
+-
+>
+GetInnerWindowID
+(
+)
 agentClusterId
 true
 )
@@ -1673,6 +1679,12 @@ loadInfo
 -
 >
 GetOriginAttributes
+(
+)
+loadInfo
+-
+>
+GetInnerWindowID
 (
 )
 agentClusterId

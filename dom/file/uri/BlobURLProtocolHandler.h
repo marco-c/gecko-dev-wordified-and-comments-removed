@@ -270,6 +270,8 @@ const
 OriginAttributes
 &
 aOriginAttributes
+uint64_t
+aInnerWindowId
 const
 Maybe
 <

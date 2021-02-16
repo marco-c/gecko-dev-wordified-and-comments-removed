@@ -38843,6 +38843,8 @@ const
 OriginAttributes
 &
 aOriginAttributes
+uint64_t
+aInnerWindowId
 const
 Maybe
 <
@@ -38878,6 +38880,7 @@ blobImpl
 aLoadingPrincipal
 aTriggeringPrincipal
 aOriginAttributes
+aInnerWindowId
 aAgentClusterId
 true
 )
