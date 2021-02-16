@@ -5388,6 +5388,17 @@ False
         
 if
 "
+windows7
+"
+in
+platform
+:
+            
+return
+False
+        
+if
+"
 android
 "
 not
