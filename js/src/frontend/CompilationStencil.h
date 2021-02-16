@@ -2046,10 +2046,6 @@ LifoAllocChunkSize
 LifoAlloc
 alloc
 ;
-CompilationInput
-&
-input
-;
 RefPtr
 <
 ScriptSource
@@ -2097,10 +2093,6 @@ alloc
 (
 LifoAllocChunkSize
 )
-input
-(
-input
-)
 source
 (
 input
@@ -2145,6 +2137,9 @@ prepareForInstantiate
 JSContext
 *
 cx
+CompilationInput
+&
+input
 CompilationStencil
 &
 stencil
@@ -2170,6 +2165,9 @@ instantiateStencils
 JSContext
 *
 cx
+CompilationInput
+&
+input
 CompilationStencil
 &
 stencil

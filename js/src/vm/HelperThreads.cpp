@@ -3806,6 +3806,8 @@ PrepareForInstantiate
 (
 cx
 *
+stencilInput_
+*
 stencil_
 gcOutput_
 )
@@ -3864,6 +3866,8 @@ frontend
 InstantiateStencils
 (
 cx
+*
+stencilInput_
 *
 stencil_
 gcOutput_
@@ -4131,6 +4135,8 @@ PrepareForInstantiate
 (
 cx
 *
+stencilInput_
+*
 stencil_
 gcOutput_
 )
@@ -4379,6 +4385,8 @@ frontend
 PrepareForInstantiate
 (
 cx
+*
+stencilInput_
 *
 stencil_
 gcOutput_

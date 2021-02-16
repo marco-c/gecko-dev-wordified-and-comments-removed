@@ -7841,8 +7841,12 @@ frontend
 CompileLazyFunctionToStencil
 (
 cx
+input
+.
+get
+(
+)
 stencil
-lazy
 units
 .
 get
@@ -7888,6 +7892,11 @@ frontend
 InstantiateStencilsForDelazify
 (
 cx
+input
+.
+get
+(
+)
 stencil
 )
 )

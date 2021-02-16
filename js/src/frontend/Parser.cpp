@@ -1924,6 +1924,9 @@ ScopeKind
 :
 :
 Global
+options
+(
+)
 this
 -
 >
