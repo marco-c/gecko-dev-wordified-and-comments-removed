@@ -522,7 +522,7 @@ c_compiler
 cxx_compiler
 clang_search_path
 target
-macos_sdk
+target_sysroot_flags
 )
 checking
 (
@@ -554,7 +554,7 @@ c_compiler
 cxx_compiler
 clang_search_path
 target
-macos_sdk
+sysroot_flags
 )
 :
 if
@@ -776,10 +776,12 @@ True
 )
 flags
 =
-prepare_flags
+list
 (
-target
-macos_sdk
+sysroot_flags
+or
+(
+)
 )
 info
 =
