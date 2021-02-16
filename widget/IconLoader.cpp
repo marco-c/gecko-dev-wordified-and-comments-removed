@@ -81,7 +81,6 @@ widget
 :
 :
 IconLoader
-mHelper
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
@@ -196,16 +195,10 @@ mIconRequest
 nullptr
 ;
 }
-if
-(
-mHelper
-)
-{
 mHelper
 =
 nullptr
 ;
-}
 }
 nsresult
 IconLoader
@@ -615,6 +608,11 @@ MOZ_ASSERT
 image
 )
 ;
+if
+(
+mHelper
+)
+{
 mHelper
 -
 >
@@ -624,6 +622,7 @@ image
 mImageRegionRect
 )
 ;
+}
 return
 ;
 }

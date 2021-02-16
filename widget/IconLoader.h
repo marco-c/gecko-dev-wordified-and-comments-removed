@@ -181,10 +181,8 @@ mImageRegionRect
 bool
 mLoadedIcon
 ;
-RefPtr
-<
 Helper
->
+*
 mHelper
 ;
 }
