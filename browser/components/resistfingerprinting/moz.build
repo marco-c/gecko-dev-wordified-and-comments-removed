@@ -14,7 +14,11 @@ BUG_COMPONENT
 Core
 "
 "
-Security
+Privacy
+:
+Anti
+-
+Tracking
 "
 )
 BROWSER_CHROME_MANIFESTS
