@@ -707,9 +707,8 @@ wl_callback
 *
 mFrameCallback
 ;
-wl_surface
-*
-mLastCommittedSurface
+int
+mLastCommittedSurfaceID
 ;
 RefPtr
 <
