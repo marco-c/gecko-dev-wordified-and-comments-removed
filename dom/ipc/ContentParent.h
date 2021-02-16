@@ -4511,8 +4511,6 @@ BrowsingContext
 >
 &
 aContext
-bool
-aWasExternallyTriggered
 )
 ;
 mozilla

@@ -23279,8 +23279,6 @@ BrowsingContext
 >
 &
 aContext
-bool
-aWasExternallyTriggered
 )
 {
 if
@@ -23353,7 +23351,6 @@ LoadURI
 uri
 aTriggeringPrincipal
 bc
-aWasExternallyTriggered
 )
 ;
 return
