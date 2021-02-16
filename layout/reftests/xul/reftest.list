@@ -395,6 +395,9 @@ webrender
 &
 &
 cocoaWidget
+&
+&
+nativeThemePref
 )
 =
 =

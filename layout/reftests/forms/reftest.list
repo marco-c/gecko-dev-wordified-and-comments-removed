@@ -246,6 +246,9 @@ fails
 if
 (
 cocoaWidget
+&
+&
+nativeThemePref
 )
 =
 =
@@ -261,6 +264,8 @@ html
 bug
 1620120
 for
+natively
+themed
 cocoa
 fuzzyness
 in
