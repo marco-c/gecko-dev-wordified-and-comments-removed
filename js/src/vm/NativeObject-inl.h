@@ -3964,9 +3964,13 @@ return
 true
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
 inline
-MOZ_MUST_USE
 bool
 NativeLookupOwnPropertyNoResolve
 (

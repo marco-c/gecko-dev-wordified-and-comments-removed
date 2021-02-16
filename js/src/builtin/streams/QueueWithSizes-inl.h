@@ -342,8 +342,12 @@ cx
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 QueueAppendValueAndSize
 (

@@ -367,8 +367,12 @@ obj
 ;
 }
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 intl_SelectPluralRule
 (
@@ -385,8 +389,12 @@ Value
 vp
 )
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 intl_GetPluralCategories
 (

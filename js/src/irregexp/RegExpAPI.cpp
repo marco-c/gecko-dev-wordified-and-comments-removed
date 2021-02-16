@@ -2419,8 +2419,12 @@ TooLarge
 OutOfMemory
 }
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 AssembleResult
 Assemble
 (

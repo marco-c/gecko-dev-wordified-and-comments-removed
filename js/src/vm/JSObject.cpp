@@ -8425,8 +8425,12 @@ isDOMClass
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 CopyProxyValuesBeforeSwap
 (

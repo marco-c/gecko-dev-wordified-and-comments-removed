@@ -141,8 +141,12 @@ Current
 NoOffset
 >
 ;
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 bool
 computeErrorMetadata
 (

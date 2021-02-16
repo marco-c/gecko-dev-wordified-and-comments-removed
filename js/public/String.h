@@ -839,8 +839,12 @@ i
 }
 }
 }
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 CopyStringChars
 (
@@ -893,8 +897,12 @@ return
 true
 ;
 }
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 LossyCopyStringChars
 (

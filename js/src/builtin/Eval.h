@@ -23,8 +23,12 @@ h
 namespace
 js
 {
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 IndirectEval
 (
@@ -38,8 +42,12 @@ Value
 vp
 )
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 DirectEval
 (

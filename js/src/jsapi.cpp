@@ -21407,8 +21407,12 @@ onRejected
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 ReactToPromise
 (
@@ -29278,7 +29282,7 @@ ss_
 ss_
 -
 >
-decref
+Release
 (
 )
 ;
@@ -29372,7 +29376,7 @@ p
 p
 -
 >
-incref
+AddRef
 (
 )
 ;

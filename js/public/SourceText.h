@@ -272,8 +272,12 @@ units_
 ;
 }
 }
+[
+[
+nodiscard
+]
+]
 MOZ_IS_CLASS_INIT
-MOZ_MUST_USE
 bool
 init
 (
@@ -427,8 +431,12 @@ Unit
 >
 >
 >
+[
+[
+nodiscard
+]
+]
 MOZ_IS_CLASS_INIT
-MOZ_MUST_USE
 bool
 init
 (

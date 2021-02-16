@@ -851,8 +851,12 @@ cx
 #
 ifdef
 DEBUG
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 dumpBytecode
 (

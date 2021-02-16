@@ -248,8 +248,12 @@ script
 ;
 #
 endif
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 incrementStepperCount
 (
@@ -273,8 +277,12 @@ JSScript
 script
 )
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 incrementGeneratorObserverCount
 (

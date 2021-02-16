@@ -9406,8 +9406,12 @@ ScriptSourceObject
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 MaybeValidateFilename
 (
@@ -13793,8 +13797,12 @@ xdrEncoder_
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 reallocUniquePtr
 (

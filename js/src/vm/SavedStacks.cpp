@@ -3671,8 +3671,12 @@ skippedAsync
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 SavedFrame_checkThis
 (

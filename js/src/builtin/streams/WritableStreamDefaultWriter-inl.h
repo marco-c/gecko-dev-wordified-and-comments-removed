@@ -89,8 +89,12 @@ JSContext
 namespace
 js
 {
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 WritableStream
 *
 UnwrapStreamFromWriter

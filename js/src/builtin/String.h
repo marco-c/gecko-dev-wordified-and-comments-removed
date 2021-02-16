@@ -222,8 +222,12 @@ vp
 #
 if
 JS_HAS_INTL_API
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 intl_toLocaleLowerCase
 (
@@ -237,8 +241,12 @@ Value
 vp
 )
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 intl_toLocaleUpperCase
 (

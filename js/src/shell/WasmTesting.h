@@ -19,8 +19,12 @@ js
 namespace
 wasm
 {
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 TextToBinary
 (

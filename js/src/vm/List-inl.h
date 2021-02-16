@@ -517,8 +517,12 @@ T
 namespace
 js
 {
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 StoreNewListInFixedSlot
 (
@@ -587,8 +591,12 @@ return
 true
 ;
 }
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 AppendToListInFixedSlot
 (

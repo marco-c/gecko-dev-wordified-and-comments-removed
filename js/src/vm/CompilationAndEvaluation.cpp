@@ -1527,8 +1527,12 @@ template
 typename
 Unit
 >
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 addFunctionBody
 (

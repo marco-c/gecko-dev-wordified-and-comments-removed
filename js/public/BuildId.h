@@ -77,8 +77,12 @@ BuildIdOp
 buildIdOp
 )
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 JS_PUBLIC_API
 bool
 GetOptimizedEncodingBuildId
@@ -88,8 +92,12 @@ BuildIdCharVector
 buildId
 )
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 JS_PUBLIC_API
 bool
 GetScriptTranscodingBuildId

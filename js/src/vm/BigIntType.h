@@ -1991,8 +1991,12 @@ unsigned
 radix
 )
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 calculateMaximumDigitsRequired
 (

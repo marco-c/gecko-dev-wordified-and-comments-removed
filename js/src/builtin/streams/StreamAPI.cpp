@@ -873,8 +873,12 @@ template
 class
 T
 >
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 T
 *
 APIUnwrapAndDowncast

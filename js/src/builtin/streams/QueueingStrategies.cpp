@@ -183,8 +183,12 @@ JS
 :
 Value
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 CreateDataProperty
 (

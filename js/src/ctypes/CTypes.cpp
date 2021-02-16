@@ -20143,8 +20143,12 @@ break
 }
 }
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 BuildDataSource
 (

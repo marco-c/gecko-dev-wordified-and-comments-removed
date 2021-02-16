@@ -479,8 +479,12 @@ LIMIT
 TimeDuration
 >
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 initialize
 (

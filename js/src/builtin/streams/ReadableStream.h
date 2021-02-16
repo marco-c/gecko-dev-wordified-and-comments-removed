@@ -546,8 +546,12 @@ locked
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 ReadableStream
 *
 create
@@ -641,8 +645,12 @@ protoClass_
 ;
 }
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 SetUpExternalReadableByteStreamController
 (

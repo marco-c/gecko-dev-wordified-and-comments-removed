@@ -1567,8 +1567,12 @@ GCReason
 reason
 )
 ;
+[
+[
+nodiscard
+]
+]
 MOZ_ALWAYS_INLINE
-MOZ_MUST_USE
 static
 bool
 getForwardedPointer
