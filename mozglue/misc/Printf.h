@@ -170,6 +170,16 @@ appendIntHex
 uint64_t
 )
 ;
+inline
+size_t
+emitted
+(
+)
+{
+return
+mEmitted
+;
+}
 protected
 :
 MFBT_API

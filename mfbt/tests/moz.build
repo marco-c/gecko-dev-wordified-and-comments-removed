@@ -221,14 +221,6 @@ TestPoisonArea
 "
 ]
 )
-DEFINES
-[
-"
-IMPL_MFBT
-"
-]
-=
-True
 DisableStlWrapping
 (
 )
@@ -265,7 +257,7 @@ USE_LIBS
 =
 [
 "
-mfbt
+mozglue
 "
 ]
 if

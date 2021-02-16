@@ -67,7 +67,7 @@ USE_LIBS
 =
 [
 "
-mfbt
+mozglue
 "
 ]
 XPCSHELL_TESTS_MANIFESTS
