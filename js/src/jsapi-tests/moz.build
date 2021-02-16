@@ -535,6 +535,11 @@ testSparseBitmap
 cpp
 "
 "
+testStencil
+.
+cpp
+"
+"
 testStringBuffer
 .
 cpp
