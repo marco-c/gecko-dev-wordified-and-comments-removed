@@ -14015,6 +14015,8 @@ const
 AsyncDragMetrics
 &
 aDragMetrics
+LayersId
+aLayersId
 HitTestingTreeNodeAutoLock
 &
 aOutThumbNode
@@ -14056,6 +14058,8 @@ get
 [
 &
 aDragMetrics
+&
+aLayersId
 ]
 (
 HitTestingTreeNode
@@ -14070,6 +14074,7 @@ aNode
 MatchesScrollDragMetrics
 (
 aDragMetrics
+aLayersId
 )
 ;
 }

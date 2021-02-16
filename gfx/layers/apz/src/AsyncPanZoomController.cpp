@@ -2705,6 +2705,7 @@ GetApzcTreeManager
 FindScrollThumbNode
 (
 aDragMetrics
+mLayersId
 node
 )
 ;
