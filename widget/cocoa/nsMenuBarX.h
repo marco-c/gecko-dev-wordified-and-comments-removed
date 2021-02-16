@@ -424,16 +424,6 @@ ForceNativeMenuReload
 )
 ;
 static
-char
-GetLocalizedAccelKey
-(
-const
-char
-*
-shortcutID
-)
-;
-static
 void
 ResetNativeApplicationMenu
 (
