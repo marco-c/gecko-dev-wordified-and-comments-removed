@@ -5453,9 +5453,6 @@ const
 GenericNonExclusivePromise
 :
 :
-AllPromiseType
-:
-:
 ResolveOrRejectValue
 &
 aValue

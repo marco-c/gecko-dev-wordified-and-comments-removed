@@ -333,9 +333,6 @@ mShutdownPromise
 RefPtr
 <
 GenericNonExclusivePromise
-:
-:
-AllPromiseType
 >
 Cancel
 (
@@ -440,9 +437,6 @@ aRunnable
 RefPtr
 <
 GenericNonExclusivePromise
-:
-:
-AllPromiseType
 >
 Shutdown
 (
@@ -605,9 +599,6 @@ mError
 RefPtr
 <
 GenericNonExclusivePromise
-:
-:
-AllPromiseType
 >
 mShutdownPromise
 ;
