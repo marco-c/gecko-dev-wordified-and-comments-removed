@@ -2470,6 +2470,14 @@ fuzzing
 Fuzzing
 checks
 '
+'
+l10n
+'
+:
+'
+Localization
+checks
+'
 index
 :
 products
