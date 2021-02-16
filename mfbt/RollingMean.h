@@ -225,6 +225,7 @@ T
 mean
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -254,6 +255,7 @@ bool
 empty
 (
 )
+const
 {
 return
 mValues
@@ -290,6 +292,7 @@ size_t
 maxValues
 (
 )
+const
 {
 return
 mMaxValues
