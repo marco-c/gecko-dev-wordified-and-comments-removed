@@ -366,12 +366,12 @@ MimeType
 const
 ;
 void
-NotifyInitialized
+UpdateInitialized
 (
 )
 ;
 void
-NotifyStarted
+UpdateStarted
 (
 )
 ;
