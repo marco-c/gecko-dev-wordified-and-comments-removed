@@ -1308,6 +1308,9 @@ traits
 isBrowsingContext
 :
 true
+reconfigureSupportsSimulationFeatures
+:
+true
 }
 }
 ;
