@@ -88,11 +88,7 @@ IconLoaderListenerWin
 aLoadListener
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_CLASS
-(
-IconLoaderHelperWin
-)
+NS_DECL_ISUPPORTS
 nsresult
 OnComplete
 (
