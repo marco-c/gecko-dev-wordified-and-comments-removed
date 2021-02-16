@@ -91,6 +91,11 @@ EXPORTS
 =
 [
 "
+MediaElementEventRunners
+.
+h
+"
+"
 TelemetryProbesReporter
 .
 h
@@ -100,6 +105,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+MediaElementEventRunners
+.
+cpp
+"
 "
 TelemetryProbesReporter
 .
