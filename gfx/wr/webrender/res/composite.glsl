@@ -101,7 +101,7 @@ vYuvLayers
 ;
 #
 ifdef
-SWGL
+SWGL_DRAW_SPAN
 flat
 varying
 int
@@ -417,7 +417,7 @@ xyz
 ;
 #
 ifdef
-SWGL
+SWGL_DRAW_SPAN
 /
 /
 swgl_commitTextureLinearYUV
@@ -840,7 +840,7 @@ color
 }
 #
 ifdef
-SWGL
+SWGL_DRAW_SPAN
 void
 swgl_drawSpanRGBA8
 (
