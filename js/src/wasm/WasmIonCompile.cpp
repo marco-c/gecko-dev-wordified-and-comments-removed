@@ -23638,9 +23638,9 @@ moduleEnv
 (
 )
 .
-features
-.
-simdWormhole
+simdWormholeEnabled
+(
+)
 &
 &
 IsWormholeTrigger

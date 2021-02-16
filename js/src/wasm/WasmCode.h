@@ -1289,9 +1289,6 @@ bool
 filenameIsURL
 ;
 bool
-v128Enabled
-;
-bool
 omitsBoundsChecks
 ;
 bool
@@ -1324,10 +1321,6 @@ globalDataLength
 0
 )
 filenameIsURL
-(
-false
-)
-v128Enabled
 (
 false
 )

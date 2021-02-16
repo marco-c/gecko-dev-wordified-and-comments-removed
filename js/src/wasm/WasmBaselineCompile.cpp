@@ -70891,9 +70891,9 @@ if
 (
 moduleEnv_
 .
-features
-.
-simdWormhole
+simdWormholeEnabled
+(
+)
 &
 &
 IsWormholeTrigger
