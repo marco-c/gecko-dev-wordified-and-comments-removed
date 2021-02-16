@@ -88,8 +88,6 @@ EncodedFrame
 >
 &
 aEncodedDataQueue
-TimeDuration
-aKeyFrameInterval
 FrameDroppingMode
 aFrameDroppingMode
 Maybe

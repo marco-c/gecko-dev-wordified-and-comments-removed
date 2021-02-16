@@ -3954,7 +3954,6 @@ driftCompensator
 aTrackRate
 *
 encodedVideoQueue
-aTimeslice
 FrameDroppingMode
 :
 :
@@ -3975,7 +3974,6 @@ driftCompensator
 aTrackRate
 *
 encodedVideoQueue
-aTimeslice
 FrameDroppingMode
 :
 :
