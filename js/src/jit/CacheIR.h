@@ -7704,8 +7704,8 @@ objId
 IntPtrOperandId
 intPtrIndexId
 ;
-Int32OperandId
-int32ValueId
+OperandId
+numericValueId
 ;
 }
 ;
@@ -8159,7 +8159,7 @@ callee
 )
 ;
 AttachDecision
-tryAttachTypedArrayElementShift
+tryAttachTypedArrayElementSize
 (
 HandleFunction
 callee

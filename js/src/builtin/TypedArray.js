@@ -4416,9 +4416,9 @@ beginIndex
 )
 ;
 var
-elementShift
+elementSize
 =
-TypedArrayElementShift
+TypedArrayElementSize
 (
 obj
 )
@@ -4430,9 +4430,8 @@ srcByteOffset
 +
 (
 beginIndex
-<
-<
-elementShift
+*
+elementSize
 )
 ;
 return
