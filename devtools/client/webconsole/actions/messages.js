@@ -74,7 +74,6 @@ MESSAGES_ADD
 NETWORK_MESSAGES_UPDATE
 NETWORK_UPDATES_REQUEST
 MESSAGES_CLEAR
-MESSAGES_CLEAR_LOGPOINT
 MESSAGE_OPEN
 MESSAGE_CLOSE
 MESSAGE_TYPE
@@ -231,21 +230,6 @@ return
 type
 :
 MESSAGES_CLEAR
-}
-;
-}
-function
-messagesClearLogpoint
-(
-logpointId
-)
-{
-return
-{
-type
-:
-MESSAGES_CLEAR_LOGPOINT
-logpointId
 }
 ;
 }
@@ -495,7 +479,6 @@ exports
 {
 messagesAdd
 messagesClear
-messagesClearLogpoint
 messageOpen
 messageClose
 messageRemove

@@ -169,9 +169,6 @@ prefix
 private
 :
 false
-logpointId
-:
-undefined
 chromeContext
 :
 false

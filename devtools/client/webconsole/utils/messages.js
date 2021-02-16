@@ -1144,11 +1144,6 @@ private
 message
 .
 private
-logpointId
-:
-message
-.
-logpointId
 chromeContext
 :
 message
