@@ -1045,6 +1045,12 @@ case
 ColorID
 :
 :
+MozAccentColor
+:
+case
+ColorID
+:
+:
 MozHtmlCellhighlight
 :
 case
@@ -1116,6 +1122,12 @@ ColorID
 :
 :
 Highlighttext
+:
+case
+ColorID
+:
+:
+MozAccentColorForeground
 :
 case
 ColorID

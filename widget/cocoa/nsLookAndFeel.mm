@@ -885,6 +885,12 @@ ColorID
 :
 Highlight
 :
+case
+ColorID
+:
+:
+MozAccentColor
+:
 aColor
 =
 mColorHighlight
@@ -920,6 +926,12 @@ ColorID
 :
 :
 Highlighttext
+:
+case
+ColorID
+:
+:
+MozAccentColorForeground
 :
 case
 ColorID

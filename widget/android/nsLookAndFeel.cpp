@@ -915,6 +915,12 @@ ColorID
 :
 Highlight
 :
+case
+ColorID
+:
+:
+MozAccentColor
+:
 aColor
 =
 NS_RGB
@@ -943,6 +949,12 @@ ColorID
 :
 :
 Highlighttext
+:
+case
+ColorID
+:
+:
+MozAccentColorForeground
 :
 case
 ColorID

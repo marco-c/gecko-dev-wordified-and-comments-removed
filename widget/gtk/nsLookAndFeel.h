@@ -426,6 +426,16 @@ mTextSelectedBackground
 kWhite
 ;
 nscolor
+mAccentColor
+=
+kWhite
+;
+nscolor
+mAccentColorForeground
+=
+kWhite
+;
+nscolor
 mMozScrollbar
 =
 kWhite
