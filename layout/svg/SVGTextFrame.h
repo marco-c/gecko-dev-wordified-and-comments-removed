@@ -924,11 +924,6 @@ aAttribute
 )
 ;
 void
-NotifyGlyphMetricsChange
-(
-)
-;
-void
 ScheduleReflowSVG
 (
 )
@@ -1092,6 +1087,11 @@ MaybeReflowAnonymousBlockChild
 ;
 void
 DoReflow
+(
+)
+;
+void
+NotifyGlyphMetricsChange
 (
 )
 ;

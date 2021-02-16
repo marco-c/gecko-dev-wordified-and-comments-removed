@@ -11586,7 +11586,7 @@ ReflowSVG
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 SVGUtils
 :

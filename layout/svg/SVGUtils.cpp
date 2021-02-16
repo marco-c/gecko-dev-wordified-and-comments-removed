@@ -827,7 +827,7 @@ frame
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 OuterSVGIsCallingReflowSVG
