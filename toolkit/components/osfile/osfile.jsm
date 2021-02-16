@@ -19,6 +19,11 @@ OS
 "
 ]
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -38,8 +43,13 @@ osfile_async_front
 .
 jsm
 "
-this
 )
+;
+this
+.
+OS
+=
+OS
 ;
 }
 else

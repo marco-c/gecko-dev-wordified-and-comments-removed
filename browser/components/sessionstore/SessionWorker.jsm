@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+BasePromiseWorker
+}
+=
 ChromeUtils
 .
 import
@@ -20,9 +25,13 @@ PromiseWorker
 .
 jsm
 "
-this
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -40,7 +49,6 @@ osfile
 .
 jsm
 "
-this
 )
 ;
 var

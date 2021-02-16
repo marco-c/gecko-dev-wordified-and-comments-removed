@@ -61,6 +61,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -78,7 +83,6 @@ Services
 .
 jsm
 "
-this
 )
 ;
 var

@@ -130,7 +130,6 @@ XPCOMUtils
 .
 jsm
 "
-this
 )
 ;
 const

@@ -12,6 +12,11 @@ SessionMigration
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -29,9 +34,13 @@ XPCOMUtils
 .
 jsm
 "
-this
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -49,7 +58,6 @@ osfile
 .
 jsm
 "
-this
 )
 ;
 ChromeUtils

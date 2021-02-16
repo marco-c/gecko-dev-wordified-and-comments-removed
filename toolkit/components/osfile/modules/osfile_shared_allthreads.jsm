@@ -6,6 +6,9 @@ strict
 var
 Meta
 ;
+let
+Services
+;
 if
 (
 typeof
@@ -24,6 +27,11 @@ exports
 {
 }
 ;
+(
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -41,8 +49,14 @@ Services
 .
 jsm
 "
-this
 )
+)
+;
+this
+.
+Services
+=
+Services
 ;
 Meta
 =

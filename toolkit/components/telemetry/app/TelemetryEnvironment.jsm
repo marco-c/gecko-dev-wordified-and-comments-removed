@@ -65,6 +65,11 @@ jsm
 "
 )
 ;
+const
+{
+TelemetryUtils
+}
+=
 ChromeUtils
 .
 import
@@ -82,7 +87,6 @@ TelemetryUtils
 .
 jsm
 "
-this
 )
 ;
 const
