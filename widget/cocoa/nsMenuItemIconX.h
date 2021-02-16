@@ -7,7 +7,11 @@ nsMenuItemIconX_h_
 #
 include
 "
-IconLoaderHelperCocoa
+mozilla
+/
+widget
+/
+IconLoader
 .
 h
 "
