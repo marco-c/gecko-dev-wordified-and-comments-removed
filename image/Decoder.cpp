@@ -456,10 +456,7 @@ NO_COLORSPACE_CONVERSION
 {
 mCMSMode
 =
-CMSMode
-:
-:
-Off
+eCMSMode_Off
 ;
 }
 }

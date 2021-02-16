@@ -248,10 +248,7 @@ gfxPlatform
 :
 SetCMSModeOverride
 (
-CMSMode
-:
-:
-All
+eCMSMode_All
 )
 ;
 SpinPendingEvents

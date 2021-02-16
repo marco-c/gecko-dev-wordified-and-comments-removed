@@ -282,10 +282,7 @@ if
 mCMSMode
 =
 =
-CMSMode
-:
-:
-All
+eCMSMode_All
 )
 {
 mTransform

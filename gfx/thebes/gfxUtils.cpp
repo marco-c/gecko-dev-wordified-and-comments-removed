@@ -8150,10 +8150,7 @@ GetCMSMode
 )
 =
 =
-CMSMode
-:
-:
-All
+eCMSMode_All
 )
 {
 qcms_transform
