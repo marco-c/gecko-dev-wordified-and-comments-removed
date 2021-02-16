@@ -107,6 +107,12 @@ optional
 in
 BrowsingContext
 aBrowsingContext
+[
+optional
+]
+in
+bool
+aWasTriggeredExternally
 )
 ;
 AString
