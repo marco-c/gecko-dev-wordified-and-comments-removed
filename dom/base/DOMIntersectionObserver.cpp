@@ -2913,6 +2913,12 @@ false
 }
 if
 (
+rootFrame
+=
+=
+targetFrame
+|
+|
 !
 nsLayoutUtils
 :
