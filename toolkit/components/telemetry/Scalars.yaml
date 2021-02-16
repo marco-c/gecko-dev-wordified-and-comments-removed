@@ -14644,7 +14644,6 @@ bug_numbers
 :
 -
 1514840
-1690597
 description
 :
 >
@@ -14736,7 +14735,9 @@ kind
 uint
 expires
 :
-never
+"
+70
+"
 notification_emails
 :
 -
@@ -14749,7 +14750,7 @@ mozilla
 .
 com
 -
-jmuizelaaar
+rhunt
 mozilla
 .
 com
@@ -14758,6 +14759,10 @@ products
 -
 '
 firefox
+'
+-
+'
+fennec
 '
 record_in_processes
 :
