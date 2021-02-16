@@ -2041,6 +2041,10 @@ browsingContext
 context
 ;
 }
+browsingContext
+.
+window
+;
 return
 {
 browsingContextId
