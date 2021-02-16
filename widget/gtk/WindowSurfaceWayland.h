@@ -675,7 +675,7 @@ nsWindow
 mWindow
 ;
 LayoutDeviceIntRect
-mLockedScreenRect
+mMozContainerRect
 ;
 LayoutDeviceIntRect
 mWLBufferRect
