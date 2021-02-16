@@ -381,16 +381,6 @@ nsITouchBarUpdater
 idl
 "
 ]
-EXPORTS
-+
-=
-[
-"
-nsINativeMenuService
-.
-h
-"
-]
 TEST_DIRS
 +
 =
