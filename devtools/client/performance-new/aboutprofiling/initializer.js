@@ -442,6 +442,11 @@ perftools
 ftl
 "
 ]
+{
+setAttributesOnDocument
+:
+true
+}
 )
 ;
 store
