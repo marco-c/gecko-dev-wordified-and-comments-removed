@@ -242,7 +242,7 @@ Resume
 )
 ;
 void
-Stop
+DisconnectTracks
 (
 )
 ;
