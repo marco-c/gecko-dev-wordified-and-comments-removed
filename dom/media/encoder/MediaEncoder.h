@@ -391,7 +391,10 @@ aMallocSizeOf
 void
 SetVideoKeyFrameInterval
 (
-uint32_t
+Maybe
+<
+TimeDuration
+>
 aVideoKeyFrameInterval
 )
 ;

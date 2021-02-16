@@ -107,6 +107,17 @@ aData
 )
 final
 ;
+void
+SetKeyFrameInterval
+(
+Maybe
+<
+TimeDuration
+>
+aKeyFrameInterval
+)
+final
+;
 protected
 :
 nsresult
@@ -230,6 +241,9 @@ TrackTime
 mDurationSinceLastKeyframe
 =
 0
+;
+TimeDuration
+mKeyFrameInterval
 ;
 VideoSegment
 mSourceSegment

@@ -5090,7 +5090,10 @@ MediaEncoder
 :
 SetVideoKeyFrameInterval
 (
-uint32_t
+Maybe
+<
+TimeDuration
+>
 aVideoKeyFrameInterval
 )
 {
@@ -5118,7 +5121,10 @@ Dispatch
 (
 NewRunnableMethod
 <
-uint32_t
+Maybe
+<
+TimeDuration
+>
 >
 (
 "
