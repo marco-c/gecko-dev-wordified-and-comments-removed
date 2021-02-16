@@ -334,6 +334,14 @@ RefPtr
 <
 GenericNonExclusivePromise
 >
+Stop
+(
+)
+;
+RefPtr
+<
+GenericNonExclusivePromise
+>
 Cancel
 (
 )
