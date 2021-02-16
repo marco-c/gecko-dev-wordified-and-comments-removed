@@ -205,11 +205,15 @@ UniquePtr
 ContainerWriter
 >
 aWriter
+UniquePtr
+<
 AudioTrackEncoder
-*
+>
 aAudioEncoder
+UniquePtr
+<
 VideoTrackEncoder
-*
+>
 aVideoEncoder
 TrackRate
 aTrackRate
@@ -466,7 +470,7 @@ Muxer
 >
 mMuxer
 ;
-RefPtr
+UniquePtr
 <
 AudioTrackEncoder
 >
@@ -478,7 +482,7 @@ AudioTrackListener
 >
 mAudioListener
 ;
-RefPtr
+UniquePtr
 <
 VideoTrackEncoder
 >

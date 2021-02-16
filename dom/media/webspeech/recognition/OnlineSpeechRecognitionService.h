@@ -307,7 +307,7 @@ SpeechEncoderListener
 >
 mSpeechEncoderListener
 ;
-RefPtr
+UniquePtr
 <
 AudioTrackEncoder
 >
