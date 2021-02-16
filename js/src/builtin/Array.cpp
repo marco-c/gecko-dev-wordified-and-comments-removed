@@ -319,6 +319,15 @@ include
 "
 vm
 /
+WellKnownAtom
+.
+h
+"
+#
+include
+"
+vm
+/
 WrapperObject
 .
 h

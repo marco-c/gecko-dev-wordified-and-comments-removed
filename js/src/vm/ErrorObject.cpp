@@ -389,6 +389,15 @@ include
 "
 vm
 /
+WellKnownAtom
+.
+h
+"
+#
+include
+"
+vm
+/
 ArrayObject
 -
 inl

@@ -533,6 +533,15 @@ h
 #
 include
 "
+vm
+/
+WellKnownAtom
+.
+h
+"
+#
+include
+"
 wasm
 /
 AsmJS

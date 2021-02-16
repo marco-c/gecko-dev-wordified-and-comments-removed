@@ -63,6 +63,15 @@ GlobalObject
 .
 h
 "
+#
+include
+"
+vm
+/
+WellKnownAtom
+.
+h
+"
 using
 namespace
 js

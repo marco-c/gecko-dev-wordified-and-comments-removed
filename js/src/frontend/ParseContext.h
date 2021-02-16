@@ -132,6 +132,15 @@ GeneratorObject
 .
 h
 "
+#
+include
+"
+vm
+/
+WellKnownAtom
+.
+h
+"
 namespace
 js
 {

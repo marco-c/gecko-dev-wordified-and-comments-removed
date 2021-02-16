@@ -21,6 +21,15 @@ stddef
 h
 >
 #
+include
+"
+vm
+/
+WellKnownAtom
+.
+h
+"
+#
 define
 FOR_EACH_OPCODE
 (
