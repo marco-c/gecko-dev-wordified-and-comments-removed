@@ -651,7 +651,7 @@ CommitImageCacheToWaylandBuffer
 (
 )
 ;
-void
+bool
 DrawDelayedImageCommits
 (
 gfx
@@ -737,7 +737,7 @@ bool
 mCanSwitchWaylandBuffer
 ;
 bool
-mBufferPendingCommit
+mWLBufferIsDirty
 ;
 bool
 mBufferCommitAllowed
