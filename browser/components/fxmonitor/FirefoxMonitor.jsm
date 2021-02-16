@@ -1572,9 +1572,15 @@ notification
 ;
 pn
 .
+setAttribute
+(
+"
 hidden
-=
+"
+"
 true
+"
+)
 ;
 parentElt
 .
