@@ -444,11 +444,6 @@ openh264
 macosx64
 .
 py
-tooltool
--
-downloads
-:
-internal
 fetches
 :
 toolchain
@@ -469,6 +464,14 @@ linux64
 dump
 -
 syms
+-
+macosx64
+-
+sdk
+-
+10
+.
+11
 macosx64
 -
 aarch64

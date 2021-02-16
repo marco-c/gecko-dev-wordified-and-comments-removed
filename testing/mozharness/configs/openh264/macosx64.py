@@ -49,27 +49,6 @@ config
 {
     
 "
-tooltool_manifest_file
-"
-:
-"
-osx
-.
-manifest
-"
-    
-"
-tooltool_cache
-"
-:
-"
-/
-builds
-/
-tooltool_cache
-"
-    
-"
 exes
 "
 :
@@ -183,11 +162,9 @@ darwin
 "
 -
 isysroot
-%
-(
-abs_work_dir
-)
-s
+{
+MOZ_FETCHES_DIR
+}
 /
 MacOSX10
 .
@@ -208,6 +185,22 @@ min
 .
 11
 "
+.
+format
+(
+                
+MOZ_FETCHES_DIR
+=
+os
+.
+environ
+[
+"
+MOZ_FETCHES_DIR
+"
+]
+            
+)
         
 )
         
@@ -230,11 +223,9 @@ darwin
 "
 -
 isysroot
-%
-(
-abs_work_dir
-)
-s
+{
+MOZ_FETCHES_DIR
+}
 /
 MacOSX10
 .
@@ -255,6 +246,22 @@ min
 .
 11
 "
+.
+format
+(
+                
+MOZ_FETCHES_DIR
+=
+os
+.
+environ
+[
+"
+MOZ_FETCHES_DIR
+"
+]
+            
+)
         
 )
         
