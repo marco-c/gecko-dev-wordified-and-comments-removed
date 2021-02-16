@@ -7,7 +7,7 @@ nsHttpConnectionMgr_h__
 #
 include
 "
-HalfOpenSocket
+DnsAndConnectSocket
 .
 h
 "
@@ -387,12 +387,12 @@ aNoHttp3
 )
 ;
 void
-IncreaseNumHalfOpenConns
+IncreaseNumDnsAndConnectSockets
 (
 )
 ;
 void
-DecreaseNumHalfOpenConns
+DecreaseNumDnsAndConnectSockets
 (
 )
 ;
@@ -523,7 +523,7 @@ private
 :
 friend
 class
-HalfOpenSocket
+DnsAndConnectSocket
 ;
 friend
 class
@@ -1119,7 +1119,7 @@ uint16_t
 mNumSpdyHttp3ActiveConns
 ;
 uint32_t
-mNumHalfOpenConns
+mNumDnsAndConnectSockets
 ;
 uint64_t
 mTimeOfNextWakeUp

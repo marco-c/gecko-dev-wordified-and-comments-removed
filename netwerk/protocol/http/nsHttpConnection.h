@@ -959,6 +959,11 @@ mEarlyNegotiatedALPN
 bool
 mDid0RTTSpdy
 ;
+nsresult
+mErrorBeforeConnect
+=
+NS_OK
+;
 private
 :
 bool

@@ -189,7 +189,7 @@ protocolVersion
 }
 ;
 dictionary
-HalfOpenInfoDict
+DnsAndSockInfoDict
 {
 boolean
 speculative
@@ -238,9 +238,9 @@ idle
 ;
 sequence
 <
-HalfOpenInfoDict
+DnsAndSockInfoDict
 >
-halfOpens
+dnsAndSocks
 ;
 }
 ;

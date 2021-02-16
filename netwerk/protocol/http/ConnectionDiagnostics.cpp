@@ -510,8 +510,7 @@ log
 AppendPrintf
 (
 "
-Half
-Opens
+DnsAndSock
 Length
 =
 %
@@ -519,7 +518,7 @@ zu
 \
 n
 "
-mHalfOpens
+mDnsAndConnectSockets
 .
 Length
 (
@@ -672,7 +671,7 @@ i
 ;
 i
 <
-mHalfOpens
+mDnsAndConnectSockets
 .
 Length
 (
@@ -701,7 +700,7 @@ n
 i
 )
 ;
-mHalfOpens
+mDnsAndConnectSockets
 [
 i
 ]
@@ -907,7 +906,7 @@ i
 }
 }
 void
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 PrintDiagnostics
@@ -1897,13 +1896,13 @@ log
 ;
 RefPtr
 <
-HalfOpenSocket
+DnsAndConnectSocket
 >
-halfOpen
+dnsAndSock
 =
 do_QueryReferent
 (
-mHalfOpen
+mDnsAndSock
 )
 ;
 log
@@ -1927,7 +1926,7 @@ p
 \
 n
 "
-halfOpen
+dnsAndSock
 .
 get
 (

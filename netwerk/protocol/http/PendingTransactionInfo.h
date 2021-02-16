@@ -7,7 +7,7 @@ PendingTransactionInfo_h__
 #
 include
 "
-HalfOpenSocket
+DnsAndConnectSocket
 .
 h
 "
@@ -59,14 +59,14 @@ IsAlreadyClaimedInitializingConn
 )
 ;
 void
-AbandonHalfOpenAndForgetActiveConn
+AbandonDnsAndConnectSocketAndForgetActiveConn
 (
 )
 ;
 bool
-TryClaimingHalfOpen
+TryClaimingDnsAndConnectSocket
 (
-HalfOpenSocket
+DnsAndConnectSocket
 *
 sock
 )
@@ -80,9 +80,9 @@ conn
 )
 ;
 void
-AddHalfOpen
+AddDnsAndConnectSocket
 (
-HalfOpenSocket
+DnsAndConnectSocket
 *
 sock
 )
@@ -107,7 +107,7 @@ nsHttpTransaction
 mTransaction
 ;
 nsWeakPtr
-mHalfOpen
+mDnsAndSock
 ;
 nsWeakPtr
 mActiveConn

@@ -423,7 +423,7 @@ DelayHttpChannelQueue
 cpp
 "
 "
-HalfOpenSocket
+DnsAndConnectSocket
 .
 cpp
 "
