@@ -10647,11 +10647,7 @@ if
 stencil
 -
 >
-input
-.
 source
-(
-)
 -
 >
 xdrEncodeStencils

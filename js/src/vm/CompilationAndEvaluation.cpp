@@ -653,11 +653,7 @@ if
 stencil
 -
 >
-input
-.
 source
-(
-)
 -
 >
 xdrEncodeInitialStencil
