@@ -152,11 +152,6 @@ py2commands
 awsy
 -
 test
-firefox
--
-ui
--
-functional
 jsshell
 -
 bench
