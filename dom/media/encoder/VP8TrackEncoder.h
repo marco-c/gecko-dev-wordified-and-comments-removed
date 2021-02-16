@@ -231,16 +231,10 @@ mDurationSinceLastKeyframe
 VideoSegment
 mSourceSegment
 ;
-UniquePtr
-<
 vpx_codec_ctx_t
->
 mVPXContext
 ;
-UniquePtr
-<
 vpx_image_t
->
 mVPXImageWrapper
 ;
 }
