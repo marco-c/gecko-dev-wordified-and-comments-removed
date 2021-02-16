@@ -16,16 +16,7 @@ module
 =
 element
 .
-ReferenceStore
--
--
--
--
--
--
--
--
--
+Store
 -
 -
 -
@@ -48,7 +39,7 @@ autoclass
 :
 element
 .
-ReferenceStore
+Store
 :
 members
 :
