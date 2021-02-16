@@ -1991,6 +1991,27 @@ kwargs
                 
 )
         
+logger
+=
+logging
+.
+getLogger
+(
+"
+moz
+.
+configure
+.
+reduced
+"
+)
+        
+logger
+.
+propagate
+=
+False
+        
 sandbox
 =
 ReducedConfigureSandbox
@@ -1998,9 +2019,11 @@ ReducedConfigureSandbox
             
 {
 }
+            
 environ
 =
 env
+            
 argv
 =
 [
@@ -2013,12 +2036,18 @@ mach
 help
 "
 ]
+            
 stdout
 =
 out
+            
 stderr
 =
 out
+            
+logger
+=
+logger
         
 )
         
