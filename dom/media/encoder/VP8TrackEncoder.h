@@ -88,6 +88,8 @@ EncodedFrame
 >
 &
 aEncodedDataQueue
+TimeDuration
+aKeyFrameInterval
 FrameDroppingMode
 aFrameDroppingMode
 Maybe
@@ -113,17 +115,6 @@ TrackMetadataBase
 >
 GetMetadata
 (
-)
-final
-;
-void
-SetKeyFrameInterval
-(
-Maybe
-<
-TimeDuration
->
-aKeyFrameInterval
 )
 final
 ;
@@ -294,6 +285,7 @@ mDurationSinceLastKeyframe
 =
 0
 ;
+const
 TimeDuration
 mKeyFrameInterval
 ;
