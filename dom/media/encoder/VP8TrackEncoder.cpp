@@ -3087,6 +3087,10 @@ mI420FrameSize
 0
 ;
 }
+mMuteFrame
+=
+nullptr
+;
 while
 (
 true
