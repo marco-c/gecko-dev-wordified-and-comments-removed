@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsIContentPolicy
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h
@@ -127,9 +120,6 @@ IconLoader
 ;
 private
 :
-nsContentPolicyType
-mContentType
-;
 RefPtr
 <
 imgRequestProxy

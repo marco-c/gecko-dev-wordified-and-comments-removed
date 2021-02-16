@@ -122,9 +122,6 @@ nsIContent
 >
 mContent
 ;
-nsContentPolicyType
-mContentType
-;
 nsMenuObjectX
 *
 mMenuObject
