@@ -352,15 +352,9 @@ hideSearchBanner
 {
 privateSearchBanner
 .
-setAttribute
-(
-"
 hidden
-"
-"
+=
 true
-"
-)
 ;
 document
 .

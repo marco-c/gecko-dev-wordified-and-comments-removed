@@ -337,15 +337,9 @@ list
 ;
 element
 .
-setAttribute
-(
-"
 hidden
-"
-"
+=
 true
-"
-)
 ;
 let
 dockMenuElement
