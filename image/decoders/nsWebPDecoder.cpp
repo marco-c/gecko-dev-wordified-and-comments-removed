@@ -1702,7 +1702,10 @@ if
 mCMSMode
 =
 =
-eCMSMode_Off
+CMSMode
+:
+:
+Off
 |
 |
 !
@@ -1715,7 +1718,10 @@ GetCMSOutputProfile
 mCMSMode
 =
 =
-eCMSMode_TaggedOnly
+CMSMode
+:
+:
+TaggedOnly
 &
 &
 !
