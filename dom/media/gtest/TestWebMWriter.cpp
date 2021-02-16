@@ -166,6 +166,7 @@ aWidth
 aHeight
 aDisplayWidth
 aDisplayHeight
+30
 )
 )
 )
