@@ -11477,7 +11477,7 @@ case
 CallFlags
 :
 :
-FunApplyArgs
+FunApplyMagicArgs
 :
 {
 Address
@@ -11640,9 +11640,9 @@ case
 CallFlags
 :
 :
-FunApplyArgs
+FunApplyMagicArgs
 :
-pushFunApplyArgs
+pushFunApplyMagicArgs
 (
 argcReg
 calleeReg
@@ -12242,7 +12242,7 @@ void
 BaselineCacheIRCompiler
 :
 :
-pushFunApplyArgs
+pushFunApplyMagicArgs
 (
 Register
 argcReg

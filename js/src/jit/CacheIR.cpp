@@ -40653,7 +40653,7 @@ format
 CallFlags
 :
 :
-FunApplyArgs
+FunApplyMagicArgs
 ;
 }
 else
@@ -40816,7 +40816,7 @@ format
 CallFlags
 :
 :
-FunApplyArgs
+FunApplyMagicArgs
 )
 {
 writer
