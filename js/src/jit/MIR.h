@@ -35086,7 +35086,7 @@ mode_
 }
 ;
 class
-MArrayBufferByteLengthInt32
+MArrayBufferByteLength
 :
 public
 MUnaryInstruction
@@ -35097,7 +35097,7 @@ SingleObjectPolicy
 Data
 {
 explicit
-MArrayBufferByteLengthInt32
+MArrayBufferByteLength
 (
 MDefinition
 *
@@ -35115,7 +35115,7 @@ setResultType
 MIRType
 :
 :
-Int32
+IntPtr
 )
 ;
 setMovable
@@ -35127,7 +35127,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-ArrayBufferByteLengthInt32
+ArrayBufferByteLength
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS
