@@ -1198,13 +1198,6 @@ true
 consumer
 -
 >
-mShuttingDown
-=
-true
-;
-consumer
--
->
 ReleaseObject
 (
 )
