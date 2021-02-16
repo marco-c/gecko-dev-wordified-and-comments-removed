@@ -31,6 +31,12 @@ MOCHITESTS_DIR
 }
 )
 ;
+EventsLogger
+.
+enabled
+=
+true
+;
 async
 function
 runTest
