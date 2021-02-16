@@ -7,17 +7,6 @@ basic
 .
 css
 "
-{
-assert
-:
-{
-type
-:
-"
-css
-"
-}
-}
 )
 .
 then

@@ -68,8 +68,6 @@ Worker
 ]
 interface
 Profiler
-:
-EventTarget
 {
 readonly
 attribute

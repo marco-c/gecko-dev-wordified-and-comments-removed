@@ -49,11 +49,9 @@ github
 .
 io
 /
-private
+cors
 -
-network
--
-access
+rfc1918
 /
 )
 enum

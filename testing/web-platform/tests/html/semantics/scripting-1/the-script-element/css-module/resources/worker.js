@@ -6,14 +6,6 @@ basic
 .
 css
 "
-assert
-{
-type
-:
-"
-css
-"
-}
 ;
 postMessage
 (

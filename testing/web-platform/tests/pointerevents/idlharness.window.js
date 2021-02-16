@@ -42,8 +42,6 @@ Element
 [
 '
 document
-.
-body
 '
 ]
 Window
