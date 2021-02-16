@@ -1470,7 +1470,7 @@ batch
 false
 cron
 :
-true
+false
 run
 :
 command
