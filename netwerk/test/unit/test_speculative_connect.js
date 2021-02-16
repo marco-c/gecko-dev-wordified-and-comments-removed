@@ -815,6 +815,7 @@ createTransport
 host
 80
 null
+null
 )
 ;
 Assert
@@ -1208,6 +1209,7 @@ dummyHost
 "
 80
 proxyInfo
+null
 )
 ;
 Assert

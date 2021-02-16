@@ -190,6 +190,8 @@ nsIAsyncOutputStream
 *
 bool
 connectedTransport
+nsresult
+status
 nsIInterfaceRequestor
 *
 PRIntervalTime
@@ -690,6 +692,11 @@ mTrafficCategory
 PRIntervalTime
 mRtt
 ;
+nsresult
+mErrorBeforeConnect
+=
+NS_OK
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
@@ -721,6 +728,7 @@ nsIAsyncInputStream
 nsIAsyncOutputStream
 *
 bool
+nsresult
 \
 nsIInterfaceRequestor
 *

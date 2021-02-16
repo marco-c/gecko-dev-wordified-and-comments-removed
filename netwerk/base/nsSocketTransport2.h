@@ -412,6 +412,9 @@ portRoute
 nsIProxyInfo
 *
 proxyInfo
+nsIDNSRecord
+*
+dnsRecord
 )
 ;
 nsresult
@@ -1465,6 +1468,16 @@ mUsingQuic
 ;
 bool
 mPortRemappingApplied
+=
+false
+;
+bool
+mExternalDNSResolution
+=
+false
+;
+bool
+mRetryDnsIfPossible
 =
 false
 ;

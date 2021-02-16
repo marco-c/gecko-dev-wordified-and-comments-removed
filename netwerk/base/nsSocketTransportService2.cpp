@@ -4513,6 +4513,9 @@ port
 nsIProxyInfo
 *
 proxyInfo
+nsIDNSRecord
+*
+dnsRecord
 nsISocketTransport
 *
 *
@@ -4530,6 +4533,7 @@ port
 _ns
 0
 proxyInfo
+dnsRecord
 result
 )
 ;
@@ -4562,6 +4566,9 @@ portRoute
 nsIProxyInfo
 *
 proxyInfo
+nsIDNSRecord
+*
+dnsRecord
 nsISocketTransport
 *
 *
@@ -4614,6 +4621,7 @@ port
 hostRoute
 portRoute
 proxyInfo
+dnsRecord
 )
 ;
 if

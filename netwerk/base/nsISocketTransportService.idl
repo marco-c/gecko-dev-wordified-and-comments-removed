@@ -6,6 +6,9 @@ nsISupports
 idl
 "
 interface
+nsIDNSRecord
+;
+interface
 nsIFile
 ;
 interface
@@ -115,6 +118,9 @@ aPort
 in
 nsIProxyInfo
 aProxyInfo
+in
+nsIDNSRecord
+dnsRecord
 )
 ;
 nsISocketTransport
@@ -227,6 +233,9 @@ aPortRoute
 in
 nsIProxyInfo
 aProxyInfo
+in
+nsIDNSRecord
+aDnsRecord
 )
 ;
 }

@@ -458,6 +458,7 @@ nsCString
 mHost
 mPort
 proxyInfo
+nullptr
 getter_AddRefs
 (
 mSocket

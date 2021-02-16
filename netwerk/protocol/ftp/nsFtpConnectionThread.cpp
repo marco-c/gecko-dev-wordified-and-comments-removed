@@ -6576,6 +6576,7 @@ mChannel
 ProxyInfo
 (
 )
+nullptr
 getter_AddRefs
 (
 strans
