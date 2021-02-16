@@ -2385,7 +2385,9 @@ grayscale
 -
 moz
 -
-pagecontent
+page
+-
+content
 {
 display
 :
@@ -2404,7 +2406,9 @@ auto
 -
 moz
 -
-pagebreak
+page
+-
+break
 {
 display
 :
