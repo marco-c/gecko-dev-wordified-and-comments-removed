@@ -1506,7 +1506,7 @@ nsMenuX
 *
 currentMenu
 =
-NULL
+nullptr
 ;
 int
 targetIndex
@@ -1853,7 +1853,7 @@ index
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3838,7 +3838,6 @@ mostSpecificContent
 return
 ;
 }
-else
 if
 (
 tag
@@ -3883,7 +3882,6 @@ mostSpecificContent
 return
 ;
 }
-else
 if
 (
 tag
@@ -3902,7 +3900,6 @@ sender
 return
 ;
 }
-else
 if
 (
 tag
@@ -3921,7 +3918,6 @@ sender
 return
 ;
 }
-else
 if
 (
 tag
@@ -3940,7 +3936,6 @@ sender
 return
 ;
 }
-else
 if
 (
 tag
@@ -3959,7 +3954,6 @@ sender
 return
 ;
 }
-else
 if
 (
 tag
@@ -4123,8 +4117,6 @@ return
 realTarget
 ;
 }
-else
-{
 return
 realTarget
 ?
@@ -4132,7 +4124,6 @@ self
 :
 nil
 ;
-}
 }
 -
 (
@@ -4157,8 +4148,6 @@ return
 realAction
 ;
 }
-else
-{
 return
 realAction
 ?
@@ -4168,9 +4157,8 @@ _doNothing
 :
 )
 :
-NULL
+nullptr
 ;
-}
 }
 -
 (

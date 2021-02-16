@@ -825,12 +825,9 @@ return
 result
 ;
 }
-else
-{
 return
 nullptr
 ;
-}
 }
 uint32_t
 nsMenuGroupOwnerX
@@ -908,12 +905,9 @@ return
 result
 ;
 }
-else
-{
 return
 nullptr
 ;
-}
 }
 void
 nsMenuGroupOwnerX
