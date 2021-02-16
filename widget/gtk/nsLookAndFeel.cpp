@@ -3480,7 +3480,7 @@ screen
 nsWindow
 :
 :
-GtkWindowDecoration
+GetSystemCSDSupportLevel
 (
 )
 !
@@ -6592,7 +6592,7 @@ mCSDAvailable
 nsWindow
 :
 :
-GtkWindowDecoration
+GetSystemCSDSupportLevel
 (
 )
 !

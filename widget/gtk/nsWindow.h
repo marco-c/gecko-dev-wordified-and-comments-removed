@@ -2118,11 +2118,11 @@ GTK_DECORATION_CLIENT
 GTK_DECORATION_NONE
 GTK_DECORATION_UNKNOWN
 }
-GtkWindowDecoration
+CSDSupportLevel
 ;
 static
-GtkWindowDecoration
-GetSystemGtkWindowDecoration
+CSDSupportLevel
+GetSystemCSDSupportLevel
 (
 )
 ;
@@ -2696,8 +2696,8 @@ unsigned
 int
 mPendingConfigures
 ;
-GtkWindowDecoration
-mGtkWindowDecoration
+CSDSupportLevel
+mCSDSupportLevel
 ;
 bool
 mDrawToContainer
@@ -3013,8 +3013,8 @@ CurrentX11TimeGetter
 mCurrentTimeGetter
 ;
 static
-GtkWindowDecoration
-sGtkWindowDecoration
+CSDSupportLevel
+sCSDSupportLevel
 ;
 static
 bool
