@@ -13451,6 +13451,16 @@ dest
 )
 PER_ARCH
 ;
+void
+convertIntPtrToDouble
+(
+Register
+src
+FloatRegister
+dest
+)
+PER_ARCH
+;
 public
 :
 CodeOffset
