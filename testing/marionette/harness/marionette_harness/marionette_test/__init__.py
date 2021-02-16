@@ -38,8 +38,6 @@ skip_if_chrome
     
 skip_if_desktop
     
-skip_if_framescript
-    
 skip_unless_browser_pref
     
 skip_unless_protocol
