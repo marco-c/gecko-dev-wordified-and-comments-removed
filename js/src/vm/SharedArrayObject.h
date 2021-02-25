@@ -719,7 +719,7 @@ BufferSize
 (
 size_t
 (
-getReservedSlot
+getFixedSlot
 (
 LENGTH_SLOT
 )
