@@ -99,6 +99,7 @@ Machine
 windows_build
 macos_build
 linux_build
+linux_32bit_build_on_64bit_OS
 .
 .
 toctree
