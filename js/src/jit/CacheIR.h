@@ -3814,7 +3814,7 @@ getObjectClass
 )
 -
 >
-isNative
+isNativeObject
 (
 )
 )

@@ -6804,7 +6804,7 @@ getClass
 )
 -
 >
-isNative
+isNativeObject
 (
 )
 ;

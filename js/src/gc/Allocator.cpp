@@ -290,7 +290,7 @@ nDynamicSlots
 clasp
 -
 >
-isNative
+isNativeObject
 (
 )
 )
