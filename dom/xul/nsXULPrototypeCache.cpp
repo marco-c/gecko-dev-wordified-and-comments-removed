@@ -963,9 +963,13 @@ get
 endif
 mScriptTable
 .
-Put
+GetOrInsert
 (
 aURI
+)
+.
+set
+(
 aScriptObject
 )
 ;

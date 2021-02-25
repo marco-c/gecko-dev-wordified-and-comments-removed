@@ -139,8 +139,10 @@ mErrorStringBundleURLMap
 Put
 (
 aErrorModule
-new
+MakeUnique
+<
 nsCString
+>
 (
 aStringBundleURL
 )

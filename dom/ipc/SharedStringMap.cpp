@@ -394,6 +394,7 @@ mEntries
 Put
 (
 aKey
+Entry
 {
 mKeyTable
 .

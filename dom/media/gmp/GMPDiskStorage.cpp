@@ -597,8 +597,10 @@ mRecords
 Put
 (
 recordName
-new
+MakeUnique
+<
 Record
+>
 (
 filename
 recordName
