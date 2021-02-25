@@ -253,17 +253,6 @@ CDP
 based
 remote
 protocol
-run
--
-on
--
-projects
-:
-[
-"
-trunk
-"
-]
 treeherder
 :
 symbol
