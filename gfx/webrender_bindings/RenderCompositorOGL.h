@@ -140,6 +140,12 @@ GetBufferSize
 )
 override
 ;
+CompositorCapabilities
+GetCompositorCapabilities
+(
+)
+override
+;
 bool
 UsePartialPresent
 (

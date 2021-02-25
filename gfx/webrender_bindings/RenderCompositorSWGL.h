@@ -247,12 +247,9 @@ return
 true
 ;
 }
-void
+CompositorCapabilities
 GetCompositorCapabilities
 (
-CompositorCapabilities
-*
-aCaps
 )
 override
 ;
