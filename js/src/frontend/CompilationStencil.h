@@ -2008,6 +2008,11 @@ LifoAllocChunkSize
 =
 512
 ;
+bool
+hasExternalDependency
+=
+false
+;
 mutable
 mozilla
 :
