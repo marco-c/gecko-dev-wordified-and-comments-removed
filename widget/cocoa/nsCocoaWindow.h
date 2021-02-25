@@ -1714,11 +1714,6 @@ AdjustWindowShadow
 )
 ;
 void
-SetWindowBackgroundBlur
-(
-)
-;
-void
 UpdateBounds
 (
 )
