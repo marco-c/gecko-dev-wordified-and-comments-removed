@@ -1899,6 +1899,8 @@ LayoutDeviceIntPoint
 aPoint
 uint32_t
 aNativeMessage
+int16_t
+aButton
 uint32_t
 aModifierFlags
 uint64_t

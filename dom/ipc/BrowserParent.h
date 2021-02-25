@@ -2385,6 +2385,10 @@ uint32_t
 &
 aNativeMessage
 const
+int16_t
+&
+aButton
+const
 uint32_t
 &
 aModifierFlags

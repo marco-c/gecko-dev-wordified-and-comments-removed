@@ -241,11 +241,6 @@ only
 xul
 "
 ;
-const
-NSEventTypeMouseMoved
-=
-5
-;
 var
 gLeftWindow
 gRightWindow
@@ -278,7 +273,10 @@ sendNativeMouseEvent
 (
 x
 y
-NSEventTypeMouseMoved
+utils
+.
+NATIVE_MOUSE_MESSAGE_MOVE
+0
 0
 gLeftWindow
 .

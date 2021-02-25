@@ -242,9 +242,10 @@ scale
 aScreenY
 *
 scale
-nativeMouseDownEventMsg
-(
-)
+utils
+.
+NATIVE_MOUSE_MESSAGE_BUTTON_DOWN
+0
 0
 aWin
 .
@@ -266,9 +267,10 @@ scale
 aScreenY
 *
 scale
-nativeMouseUpEventMsg
-(
-)
+utils
+.
+NATIVE_MOUSE_MESSAGE_BUTTON_UP
+0
 0
 aWin
 .

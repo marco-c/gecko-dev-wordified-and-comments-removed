@@ -2354,8 +2354,13 @@ SynthesizeNativeMouseEvent
 (
 LayoutDeviceIntPoint
 aPoint
-uint32_t
+NativeMouseMessage
 aNativeMessage
+mozilla
+:
+:
+MouseButton
+aButton
 nsIWidget
 :
 :

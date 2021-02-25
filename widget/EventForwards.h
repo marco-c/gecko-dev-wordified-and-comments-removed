@@ -1381,6 +1381,8 @@ FontRange
 ;
 enum
 MouseButton
+:
+int16_t
 {
 eNotPressed
 =
@@ -1395,6 +1397,12 @@ eMiddle
 eSecondary
 =
 2
+eX1
+=
+3
+eX2
+=
+4
 }
 ;
 enum
