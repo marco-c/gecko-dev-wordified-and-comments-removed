@@ -189,12 +189,12 @@ orientation
 "
 vertical
 "
-startScrollOffset
+scrollOffsets
 :
+[
 startOffset
-endScrollOffset
-:
 endOffset
+]
 timeRange
 :
 1000
