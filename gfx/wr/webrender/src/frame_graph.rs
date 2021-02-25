@@ -853,7 +853,7 @@ len
 (
 )
 as
-u32
+u16
 }
 )
 ;
@@ -1373,7 +1373,7 @@ index
 :
 i
 as
-u32
+u16
 }
 ;
 assign_free_pass
@@ -1472,7 +1472,7 @@ index
 :
 index
 as
-u32
+u16
 }
 ;
 graph

@@ -79,7 +79,6 @@ std
 {
 usize
 f32
-u32
 }
 ;
 pub
@@ -156,7 +155,7 @@ init
 value
 )
 as
-u32
+u16
 }
 }
 }
@@ -216,7 +215,7 @@ RenderTaskId
 pub
 index
 :
-u32
+u16
 }
 impl
 RenderTaskId
@@ -231,7 +230,7 @@ RenderTaskId
 {
 index
 :
-u32
+u16
 :
 :
 MAX
