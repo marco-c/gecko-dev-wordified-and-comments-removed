@@ -22385,17 +22385,6 @@ constructing
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-builder_
--
->
-inlineCallInfo
-(
-)
-)
-;
 MDefinition
 *
 callee
