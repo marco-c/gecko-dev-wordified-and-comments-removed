@@ -34272,11 +34272,11 @@ Accumulate
 Telemetry
 :
 :
-HTTP_CHANNEL_ONSTART_SUCCESS_TRR
+HTTP_CHANNEL_ONSTART_SUCCESS_TRR2
 TRRService
 :
 :
-AutoDetectedKey
+ProviderKey
 (
 )
 NS_SUCCEEDED

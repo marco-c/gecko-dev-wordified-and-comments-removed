@@ -350,7 +350,7 @@ static
 const
 nsCString
 &
-AutoDetectedKey
+ProviderKey
 (
 )
 ;
