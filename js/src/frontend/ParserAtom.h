@@ -137,6 +137,9 @@ struct
 CompilationStencil
 ;
 class
+BorrowingCompilationStencil
+;
+class
 ParserAtom
 ;
 template
@@ -2653,6 +2656,10 @@ atomCache
 class
 ParserAtomsTable
 {
+friend
+class
+BorrowingCompilationStencil
+;
 private
 :
 const
