@@ -228,7 +228,9 @@ if
 (
 this
 .
-target
+targetList
+.
+descriptorFront
 .
 isLocalTab
 )
@@ -275,7 +277,9 @@ if
 (
 this
 .
-target
+targetList
+.
+descriptorFront
 .
 isLocalTab
 )
@@ -314,7 +318,9 @@ if
 (
 this
 .
-target
+targetList
+.
+descriptorFront
 .
 isLocalTab
 )
@@ -890,7 +896,9 @@ if
 !
 this
 .
-target
+targetList
+.
+descriptorFront
 .
 isLocalTab
 )

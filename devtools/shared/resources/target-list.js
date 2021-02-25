@@ -931,7 +931,7 @@ if
 (
 this
 .
-targetFront
+descriptorFront
 .
 isLocalTab
 )
