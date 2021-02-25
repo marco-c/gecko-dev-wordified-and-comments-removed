@@ -721,13 +721,6 @@ new
 )
 }
 }
-#
-[
-cfg
-(
-debug_assertions
-)
-]
 pub
 fn
 frame_id

@@ -113,6 +113,13 @@ Debug
 ]
 #
 [
+derive
+(
+MallocSizeOf
+)
+]
+#
+[
 cfg_attr
 (
 feature
