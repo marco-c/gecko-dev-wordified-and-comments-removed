@@ -854,7 +854,7 @@ width
 )
 }
 "
-alias
+aliases
 =
 "
 {

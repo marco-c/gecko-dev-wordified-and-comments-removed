@@ -377,7 +377,7 @@ adjustment
 -
 control
 "
-alias
+aliases
 =
 "
 -
@@ -547,7 +547,7 @@ overflow
 -
 wrap
 "
-alias
+aliases
 =
 "
 word

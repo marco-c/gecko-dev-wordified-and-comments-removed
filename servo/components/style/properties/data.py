@@ -1560,7 +1560,7 @@ enabled_in
         
 rule_types_allowed
         
-alias
+aliases
         
 extra_prefixes
         
@@ -1672,11 +1672,11 @@ enabled_in
         
 self
 .
-alias
+aliases
 =
 parse_property_aliases
 (
-alias
+aliases
 )
         
 self
@@ -1935,7 +1935,7 @@ logical_group
 =
 None
         
-alias
+aliases
 =
 None
         
@@ -2013,9 +2013,9 @@ rule_types_allowed
 =
 rule_types_allowed
             
-alias
+aliases
 =
-alias
+aliases
             
 extra_prefixes
 =
@@ -3173,7 +3173,7 @@ rule_types_allowed
 =
 DEFAULT_RULES
         
-alias
+aliases
 =
 None
         
@@ -3223,9 +3223,9 @@ rule_types_allowed
 =
 rule_types_allowed
             
-alias
+aliases
 =
-alias
+aliases
             
 extra_prefixes
 =
@@ -4091,7 +4091,7 @@ extra_prefixes
                 
 property
 .
-alias
+aliases
 .
 append
 (
@@ -4170,7 +4170,7 @@ longhand
         
 longhand
 .
-alias
+aliases
 =
 [
 Alias
@@ -4190,7 +4190,7 @@ xp
 in
 longhand
 .
-alias
+aliases
 ]
         
 self
@@ -4200,7 +4200,7 @@ longhand_aliases
 =
 longhand
 .
-alias
+aliases
         
 self
 .
@@ -4331,7 +4331,7 @@ shorthand
         
 shorthand
 .
-alias
+aliases
 =
 [
 Alias
@@ -4351,7 +4351,7 @@ xp
 in
 shorthand
 .
-alias
+aliases
 ]
         
 self
@@ -4361,7 +4361,7 @@ shorthand_aliases
 =
 shorthand
 .
-alias
+aliases
         
 self
 .

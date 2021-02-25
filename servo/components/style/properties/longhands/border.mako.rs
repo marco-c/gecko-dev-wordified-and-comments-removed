@@ -238,7 +238,7 @@ servo
 -
 2020
 "
-alias
+aliases
 =
 maybe_moz_logical_alias
 (
@@ -334,7 +334,7 @@ servo
 -
 2020
 "
-alias
+aliases
 =
 maybe_moz_logical_alias
 (
@@ -447,7 +447,7 @@ computed
 :
 NonNegativeLength
 "
-alias
+aliases
 =
 maybe_moz_logical_alias
 (
