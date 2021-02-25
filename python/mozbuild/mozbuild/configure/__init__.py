@@ -6414,9 +6414,18 @@ check_output
 "
 Popen
 "
+"
+run
+"
 )
 :
             
+if
+f
+in
+wrapped_subprocess
+:
+                
 wrapped_subprocess
 [
 f
