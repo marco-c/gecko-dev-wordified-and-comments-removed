@@ -428,6 +428,10 @@ fuzzy
 if
 (
 !
+cocoaWidget
+&
+&
+!
 nativeThemePref
 0
 -
