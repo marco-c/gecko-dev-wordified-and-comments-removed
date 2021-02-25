@@ -4627,11 +4627,6 @@ mHavePendingClose
 1
 ;
 bool
-mIsPopupSpam
-:
-1
-;
-bool
 mBlockScriptedClosingFlag
 :
 1

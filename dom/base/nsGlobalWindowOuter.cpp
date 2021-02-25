@@ -6645,10 +6645,6 @@ mHavePendingClose
 (
 false
 )
-mIsPopupSpam
-(
-false
-)
 mBlockScriptedClosingFlag
 (
 false
