@@ -197,6 +197,7 @@ collectFromParent
 uri
 body
 history
+userContextId
 aFromIdx
 =
 -
@@ -211,6 +212,7 @@ collectCommon
 uri
 body
 history
+userContextId
 aFromIdx
 )
 ;
@@ -368,6 +370,18 @@ aFromIdx
 )
 {
 let
+loadContext
+=
+docShell
+.
+QueryInterface
+(
+Ci
+.
+nsILoadContext
+)
+;
+let
 webNavigation
 =
 docShell
@@ -404,6 +418,15 @@ webNavigation
 .
 sessionHistory
 ;
+let
+userContextId
+=
+loadContext
+.
+originAttributes
+.
+userContextId
+;
 return
 this
 .
@@ -414,6 +437,7 @@ body
 history
 .
 legacySHistory
+userContextId
 aFromIdx
 )
 ;
@@ -423,6 +447,7 @@ collectCommon
 uri
 body
 shistory
+userContextId
 aFromIdx
 )
 {
@@ -434,6 +459,7 @@ entries
 :
 [
 ]
+userContextId
 requestedIndex
 :
 shistory

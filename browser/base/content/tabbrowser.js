@@ -11423,17 +11423,6 @@ userContextId
 =
 =
 userContextId
-&
-&
-!
-SessionStore
-.
-isTabRestoring
-(
-this
-.
-selectedTab
-)
 )
 {
 tabWasReused
