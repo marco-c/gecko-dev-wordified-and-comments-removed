@@ -476,6 +476,14 @@ kind
 )
 const
 ;
+void
+adjustTruncatedInputs
+(
+MDefinition
+*
+def
+)
+;
 LoopIterationBoundVector
 loopIterationBounds
 ;
