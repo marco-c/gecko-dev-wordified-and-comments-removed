@@ -1835,7 +1835,7 @@ kExpectedAddRefCnt_Remove
 static
 constexpr
 uint32_t
-kExpectedAddRefCnt_GetAndRemove
+kExpectedAddRefCnt_Extract
 =
 1
 ;
@@ -2053,7 +2053,7 @@ kExpectedAddRefCnt_Remove
 static
 constexpr
 uint32_t
-kExpectedAddRefCnt_GetAndRemove
+kExpectedAddRefCnt_Extract
 =
 3
 ;
@@ -2250,7 +2250,7 @@ kExpectedAddRefCnt_Remove
 static
 constexpr
 uint32_t
-kExpectedAddRefCnt_GetAndRemove
+kExpectedAddRefCnt_Extract
 =
 2
 ;
@@ -4154,7 +4154,7 @@ res
 TYPED_TEST_P
 (
 BaseHashtableTest
-GetAndRemove
+Extract
 )
 {
 auto
@@ -4168,7 +4168,7 @@ TypeParam
 TypeParam
 :
 :
-kExpectedAddRefCnt_GetAndRemove
+kExpectedAddRefCnt_Extract
 )
 ;
 auto
@@ -4176,7 +4176,7 @@ maybeData
 =
 table
 .
-GetAndRemove
+Extract
 (
 1
 )
@@ -5286,7 +5286,7 @@ Put_Rvalue
 Put_Rvalue_Fallible
 Remove_OutputParam
 Remove
-GetAndRemove
+Extract
 RemoveIf
 Lookup
 Lookup_Remove

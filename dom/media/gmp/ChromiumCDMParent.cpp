@@ -2474,7 +2474,7 @@ token
 =
 mPromiseToCreateSessionToken
 .
-GetAndRemove
+Extract
 (
 aPromiseId
 )

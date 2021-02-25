@@ -1019,7 +1019,7 @@ Maybe
 <
 DataType
 >
-GetAndRemove
+Extract
 (
 KeyType
 aKey

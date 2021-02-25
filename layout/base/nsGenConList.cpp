@@ -76,7 +76,7 @@ node
 =
 mNodes
 .
-GetAndRemove
+Extract
 (
 aFrame
 )

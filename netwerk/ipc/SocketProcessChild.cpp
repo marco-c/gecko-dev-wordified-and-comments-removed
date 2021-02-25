@@ -2392,7 +2392,7 @@ mMutex
 return
 mBackgroundDataBridgeMap
 .
-GetAndRemove
+Extract
 (
 aChannelId
 )

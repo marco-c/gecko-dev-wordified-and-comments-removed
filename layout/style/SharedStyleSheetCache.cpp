@@ -1911,7 +1911,7 @@ aCache
 >
 mLoadingDatas
 .
-GetAndRemove
+Extract
 (
 key
 )
