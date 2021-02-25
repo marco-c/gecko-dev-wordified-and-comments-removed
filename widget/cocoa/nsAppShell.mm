@@ -731,6 +731,17 @@ NSException
 )
 aException
 {
+if
+(
+ShouldIgnoreObjCException
+(
+aException
+)
+)
+{
+return
+;
+}
 nsObjCExceptionLog
 (
 aException
