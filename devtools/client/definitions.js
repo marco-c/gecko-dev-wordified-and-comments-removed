@@ -835,7 +835,7 @@ ctrlShiftC
 }
 inMenu
 :
-true
+false
 preventClosingOnKey
 :
 true
@@ -1034,7 +1034,7 @@ commandkey
 }
 inMenu
 :
-true
+false
 preventClosingOnKey
 :
 true
@@ -1228,7 +1228,7 @@ commandkey2
 }
 inMenu
 :
-true
+false
 isTargetSupported
 :
 function
@@ -1380,7 +1380,7 @@ commandkey
 }
 inMenu
 :
-true
+false
 isTargetSupported
 :
 function
@@ -1523,7 +1523,7 @@ accesskey
 )
 inMenu
 :
-true
+false
 }
 ;
 function
@@ -2067,7 +2067,7 @@ commandkey
 }
 inMenu
 :
-true
+false
 isTargetSupported
 :
 function
@@ -2243,7 +2243,7 @@ commandkey
 }
 inMenu
 :
-true
+false
 isTargetSupported
 :
 function
@@ -2418,7 +2418,7 @@ commandkey
 }
 inMenu
 :
-true
+false
 isTargetSupported
 :
 function
@@ -2589,7 +2589,7 @@ commandkey
 }
 inMenu
 :
-true
+false
 isTargetSupported
 (
 target
@@ -2713,7 +2713,7 @@ tooltip
 )
 inMenu
 :
-true
+false
 isTargetSupported
 :
 function
