@@ -5421,6 +5421,15 @@ get
 nsresult
 rv
 ;
+if
+(
+mCanceled
+)
+{
+return
+mStatus
+;
+}
 mOnDataCalled
 =
 true
