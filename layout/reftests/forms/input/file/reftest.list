@@ -262,9 +262,6 @@ if
 webrender
 &
 &
-nativeThemePref
-&
-&
 !
 (
 cocoaWidget
