@@ -4504,7 +4504,7 @@ keyframe
 =
 processedKeyframes
 .
-LookupOrAdd
+GetOrInsertNew
 (
 offset
 )

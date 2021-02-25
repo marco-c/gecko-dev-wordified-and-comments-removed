@@ -447,7 +447,7 @@ table
 =
 mCaches
 .
-LookupOrAdd
+GetOrInsertNew
 (
 aOriginSuffix
 )
@@ -609,7 +609,7 @@ table
 =
 mCaches
 .
-LookupOrAdd
+GetOrInsertNew
 (
 aOriginSuffix
 )
@@ -706,7 +706,7 @@ table
 =
 mCaches
 .
-LookupOrAdd
+GetOrInsertNew
 (
 aCache
 -

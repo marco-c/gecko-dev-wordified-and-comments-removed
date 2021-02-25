@@ -3977,7 +3977,7 @@ sCurrentBatch
 >
 mEntryTable
 .
-LookupOrAdd
+GetOrInsertNew
 (
 aTarget
 )

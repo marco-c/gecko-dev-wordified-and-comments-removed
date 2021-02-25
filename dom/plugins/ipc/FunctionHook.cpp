@@ -312,7 +312,7 @@ ret
 sDllInterceptorCache
 -
 >
-LookupOrAdd
+GetOrInsertNew
 (
 moduleName
 )

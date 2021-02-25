@@ -3644,7 +3644,7 @@ script
 =
 mScripts
 .
-LookupOrAdd
+GetOrInsertNew
 (
 cachePath
 *
@@ -3772,7 +3772,7 @@ script
 =
 mScripts
 .
-LookupOrAdd
+GetOrInsertNew
 (
 cachePath
 *

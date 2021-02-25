@@ -514,7 +514,7 @@ vr
 *
 mVibrantRegions
 .
-LookupOrAdd
+GetOrInsertNew
 (
 uint32_t
 (

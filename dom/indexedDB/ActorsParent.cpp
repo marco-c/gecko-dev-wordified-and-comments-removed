@@ -33118,7 +33118,7 @@ blockInfo
 =
 blockingTransactions
 .
-LookupOrAdd
+GetOrInsertNew
 (
 objectStoreName
 )
@@ -55190,7 +55190,7 @@ AsyncDeleteFile
 ;
 mPendingDeleteInfos
 .
-LookupOrAdd
+GetOrInsertNew
 (
 aFileManager
 )

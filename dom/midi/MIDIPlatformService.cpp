@@ -521,7 +521,7 @@ msgQueue
 =
 mMessageQueues
 .
-LookupOrAdd
+GetOrInsertNew
 (
 aId
 )

@@ -3252,7 +3252,7 @@ Origin
 ;
 mFileManagerInfos
 .
-LookupOrAdd
+GetOrInsertNew
 (
 origin
 )

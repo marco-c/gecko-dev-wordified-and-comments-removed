@@ -522,7 +522,7 @@ crossGraphPtr
 *
 mCrossGraphs
 .
-LookupOrAdd
+GetOrInsertNew
 (
 key
 )

@@ -11206,7 +11206,7 @@ owned
 =
 mARIAOwnsHash
 .
-LookupOrAdd
+GetOrInsertNew
 (
 aOwner
 )
@@ -11720,7 +11720,7 @@ owned
 =
 mARIAOwnsHash
 .
-LookupOrAdd
+GetOrInsertNew
 (
 aOwner
 )

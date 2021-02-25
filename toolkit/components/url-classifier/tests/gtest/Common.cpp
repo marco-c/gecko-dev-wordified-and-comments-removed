@@ -557,7 +557,7 @@ array
 =
 table
 .
-LookupOrAdd
+GetOrInsertNew
 (
 prefix
 .

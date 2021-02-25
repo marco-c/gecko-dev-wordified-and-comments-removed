@@ -2623,7 +2623,7 @@ entry
 =
 mPackagesHash
 .
-LookupOrAdd
+GetOrInsertNew
 (
 packageName
 )
@@ -2824,7 +2824,7 @@ entry
 =
 mPackagesHash
 .
-LookupOrAdd
+GetOrInsertNew
 (
 packageName
 )
@@ -3051,7 +3051,7 @@ entry
 =
 mPackagesHash
 .
-LookupOrAdd
+GetOrInsertNew
 (
 packageName
 )
