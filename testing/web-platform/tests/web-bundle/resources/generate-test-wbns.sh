@@ -104,7 +104,7 @@ the
 #
 fly
 .
-wpt_test_https_origin
+wpt_test_origin
 =
 https
 :
@@ -117,19 +117,21 @@ platform
 test
 :
 8444
-wpt_test_http_origin
+wpt_test_remote_origin
 =
-http
+https
 :
 /
 /
+www1
+.
 web
 -
 platform
 .
 test
 :
-8001
+8444
 gen
 -
 bundle
@@ -140,7 +142,7 @@ b1
 \
 -
 baseURL
-wpt_test_https_origin
+wpt_test_origin
 /
 web
 -
@@ -153,7 +155,7 @@ wbn
 \
 -
 primaryURL
-wpt_test_https_origin
+wpt_test_origin
 /
 web
 -
@@ -189,7 +191,7 @@ b1
 \
 -
 baseURL
-wpt_test_http_origin
+wpt_test_origin
 /
 web
 -
@@ -202,7 +204,7 @@ wbn
 \
 -
 primaryURL
-wpt_test_http_origin
+wpt_test_origin
 /
 web
 -
@@ -238,7 +240,7 @@ b1
 \
 -
 baseURL
-wpt_test_http_origin
+wpt_test_origin
 /
 web
 -
@@ -255,7 +257,7 @@ element
 \
 -
 primaryURL
-wpt_test_http_origin
+wpt_test_origin
 /
 web
 -
@@ -301,7 +303,7 @@ b1
 \
 -
 baseURL
-wpt_test_http_origin
+wpt_test_origin
 /
 web
 -
@@ -316,7 +318,7 @@ dynamic
 \
 -
 primaryURL
-wpt_test_http_origin
+wpt_test_origin
 /
 web
 -
@@ -354,7 +356,7 @@ b1
 \
 -
 baseURL
-wpt_test_http_origin
+wpt_test_origin
 /
 web
 -
@@ -369,7 +371,7 @@ dynamic
 \
 -
 primaryURL
-wpt_test_http_origin
+wpt_test_origin
 /
 web
 -
@@ -407,7 +409,7 @@ b1
 \
 -
 baseURL
-wpt_test_https_origin
+wpt_test_remote_origin
 /
 web
 -
@@ -422,7 +424,7 @@ dynamic
 \
 -
 primaryURL
-wpt_test_https_origin
+wpt_test_remote_origin
 /
 web
 -
@@ -462,7 +464,7 @@ b1
 \
 -
 baseURL
-wpt_test_http_origin
+wpt_test_origin
 /
 web
 -
@@ -473,7 +475,7 @@ resources
 \
 -
 primaryURL
-wpt_test_http_origin
+wpt_test_origin
 /
 web
 -
@@ -545,7 +547,7 @@ b1
 \
 -
 baseURL
-wpt_test_http_origin
+wpt_test_origin
 /
 web
 -
@@ -558,7 +560,7 @@ wbn
 \
 -
 primaryURL
-wpt_test_http_origin
+wpt_test_origin
 /
 web
 -
@@ -645,7 +647,7 @@ har
 \
 -
 primaryURL
-wpt_test_https_origin
+wpt_test_remote_origin
 /
 web
 -
@@ -696,7 +698,7 @@ har
 \
 -
 primaryURL
-wpt_test_https_origin
+wpt_test_remote_origin
 /
 web
 -
