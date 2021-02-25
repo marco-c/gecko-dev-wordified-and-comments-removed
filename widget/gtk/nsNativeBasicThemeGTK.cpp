@@ -289,7 +289,7 @@ return
 StaticPrefs
 :
 :
-widget_gtk_non_native_scrollbar_allow_buttons
+widget_non_native_theme_gtk_scrollbar_allow_buttons
 (
 )
 ;
@@ -333,14 +333,14 @@ Thin
 StaticPrefs
 :
 :
-widget_gtk_non_native_scrollbar_thin_size
+widget_non_native_theme_gtk_scrollbar_thin_size
 (
 )
 :
 StaticPrefs
 :
 :
-widget_gtk_non_native_scrollbar_normal_size
+widget_non_native_theme_gtk_scrollbar_normal_size
 (
 )
 ;
@@ -652,7 +652,7 @@ thumbSize
 StaticPrefs
 :
 :
-widget_gtk_non_native_scrollbar_thumb_cross_size
+widget_non_native_theme_gtk_scrollbar_thumb_cross_size
 (
 )
 )
@@ -785,7 +785,7 @@ max
 StaticPrefs
 :
 :
-widget_gtk_non_native_scrollbar_thumb_size
+widget_non_native_theme_gtk_scrollbar_thumb_size
 (
 )
 )
@@ -816,7 +816,7 @@ radius
 StaticPrefs
 :
 :
-widget_gtk_non_native_round_thumb
+widget_non_native_theme_gtk_scrollbar_round_thumb
 (
 )
 ?

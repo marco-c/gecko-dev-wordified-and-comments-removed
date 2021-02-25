@@ -79750,7 +79750,7 @@ return
 StaticPrefs
 :
 :
-widget_disable_native_theme_for_content
+widget_non_native_theme_enabled
 (
 )
 &
