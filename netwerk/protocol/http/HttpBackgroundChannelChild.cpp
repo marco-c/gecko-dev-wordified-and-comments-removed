@@ -201,7 +201,7 @@ CreateBackgroundChannel
 #
 ifdef
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
-mChannelChild
+aChannelChild
 -
 >
 mCreateBackgroundChannelFailed
