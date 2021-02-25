@@ -3351,8 +3351,6 @@ nsMenuX
 )
 geckoMenu
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
-;
 if
 (
 (
@@ -3392,8 +3390,6 @@ geckoMenu
 }
 return
 self
-;
-NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -3739,8 +3735,6 @@ NSMapTable
 )
 aTable
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
-;
 if
 (
 !
@@ -3817,8 +3811,6 @@ nil
 return
 self
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
-;
 }
 -
 (
@@ -3826,8 +3818,6 @@ void
 )
 dealloc
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
-;
 if
 (
 mTables
@@ -3855,8 +3845,6 @@ super
 dealloc
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
-;
 }
 -
 (
@@ -3870,8 +3858,6 @@ NSMapTable
 )
 aTable
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
-;
 return
 [
 mTables
@@ -3889,8 +3875,6 @@ YES
 :
 NO
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
-;
 }
 -
 (
@@ -3904,8 +3888,6 @@ NSMapTable
 )
 aTable
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
-;
 if
 (
 aTable
@@ -3930,8 +3912,6 @@ mTables
 count
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
-;
 }
 -
 (
@@ -3945,8 +3925,6 @@ NSMapTable
 )
 aTable
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
-;
 if
 (
 aTable
@@ -3987,8 +3965,6 @@ return
 mTables
 count
 ]
-;
-NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 end
@@ -4060,8 +4036,6 @@ NSMapTable
 )
 aTable
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
-;
 if
 (
 aItem
@@ -4139,8 +4113,6 @@ release
 ;
 }
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
-;
 [
 self
 nsMenuX_NSMenu_addItem
@@ -4180,8 +4152,6 @@ fromTable
 :
 aTable
 ]
-;
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -4247,8 +4217,6 @@ key
 }
 }
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
-;
 }
 end
 interface
