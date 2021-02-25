@@ -773,11 +773,6 @@ IgnoreViewportScrolling
 RenderDocumentFlags
 :
 :
-ResetViewportScrolling
-|
-RenderDocumentFlags
-:
-:
 DocumentRelative
 )
 ;
