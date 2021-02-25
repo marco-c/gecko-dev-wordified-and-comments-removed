@@ -106,6 +106,16 @@ aPasteboardType
 )
 ;
 static
+bool
+IsImageType
+(
+const
+nsACString
+&
+aMIMEType
+)
+;
+static
 NSString
 *
 WrapHtmlForSystemPasteboard
