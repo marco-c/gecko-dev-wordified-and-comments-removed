@@ -770,6 +770,15 @@ Target
 targetFront
 :
 Target
+updateConfiguration
+:
+Object
+=
+>
+Promise
+<
+*
+>
 hasTargetWatcherSupport
 :
 string

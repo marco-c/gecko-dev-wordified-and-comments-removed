@@ -1955,13 +1955,13 @@ options
 return
 this
 .
-currentTarget
+toolbox
 .
-reconfigure
+targetList
+.
+updateConfiguration
 (
-{
 options
-}
 )
 ;
 }
