@@ -2300,6 +2300,11 @@ mut
 frame_state
 .
 composite_state
+&
+mut
+frame_state
+.
+gpu_cache
 )
 ;
 }
