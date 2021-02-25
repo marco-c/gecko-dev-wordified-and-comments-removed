@@ -2306,14 +2306,7 @@ DCMAKE_SYSTEM_VERSION
 =
 10
 .
-10
-"
-                
-"
--
-DCOMPILER_RT_BUILD_XRAY
-=
-OFF
+12
 "
                 
 "
