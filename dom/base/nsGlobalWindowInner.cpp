@@ -20089,8 +20089,6 @@ uint32_t
 aFocusMethod
 bool
 aNeedsFocus
-bool
-aWillShowOutline
 )
 {
 if
@@ -20159,10 +20157,6 @@ aNeedsFocus
 =
 false
 ;
-aWillShowOutline
-=
-false
-;
 }
 if
 (
@@ -20189,10 +20183,6 @@ aFocusMethod
 FOCUSMETHOD_MASK
 ;
 }
-mFocusedElementShowedOutlines
-=
-aWillShowOutline
-;
 if
 (
 mFocusedElement
@@ -20218,12 +20208,10 @@ if
 (
 aNeedsFocus
 )
-{
 mNeedsFocus
 =
 aNeedsFocus
 ;
-}
 }
 uint32_t
 nsGlobalWindowInner
