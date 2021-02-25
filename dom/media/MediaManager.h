@@ -805,6 +805,17 @@ GetBackend
 (
 )
 ;
+RefPtr
+<
+GetUserMediaWindowListener
+>
+GetOrMakeWindowListener
+(
+nsPIDOMWindowInner
+*
+aWindow
+)
+;
 WindowTable
 *
 GetActiveWindows
