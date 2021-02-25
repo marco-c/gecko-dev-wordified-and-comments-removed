@@ -152,6 +152,9 @@ common
 der_gtest
 :
 common
+freebl_gtest
+:
+common
 pk11_gtest
 :
 common
