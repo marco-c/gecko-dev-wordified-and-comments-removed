@@ -1117,7 +1117,7 @@ renderingTime
 entry
 -
 >
-StartTime
+RawStartTime
 (
 )
 )
@@ -1137,7 +1137,7 @@ if
 entry
 -
 >
-Duration
+RawDuration
 (
 )
 >
