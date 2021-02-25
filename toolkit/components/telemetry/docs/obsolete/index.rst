@@ -54,6 +54,9 @@ toctree
 :
 :
 :
+glob
+:
+:
 maxdepth
 :
 5
@@ -69,6 +72,4 @@ index
 hybrid
 -
 content
-optout
--
-ping
+*
