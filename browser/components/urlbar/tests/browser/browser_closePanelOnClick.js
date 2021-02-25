@@ -108,9 +108,14 @@ window
 >
 EventUtils
 .
-synthesizeNativeMouseClick
+synthesizeNativeMouseEvent
 (
 {
+type
+:
+"
+click
+"
 target
 :
 elt

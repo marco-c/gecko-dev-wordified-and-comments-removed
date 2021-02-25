@@ -170,9 +170,14 @@ clickFn
 >
 EventUtils
 .
-promiseNativeMouseClickAndWaitForEvent
+promiseNativeMouseEventAndWaitForEvent
 (
 {
+type
+:
+"
+click
+"
 target
 :
 document
