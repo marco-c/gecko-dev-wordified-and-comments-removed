@@ -18550,6 +18550,15 @@ presentation
 )
 )
 {
+RefPtr
+<
+gfxFont
+>
+autoRefDeref
+(
+candidateFont
+)
+;
 *
 aMatchType
 =
