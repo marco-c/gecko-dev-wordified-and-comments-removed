@@ -25,6 +25,10 @@ tests
 /
 wpt
 /
+tree
+/
+master
+/
 tools
 /
 quic
