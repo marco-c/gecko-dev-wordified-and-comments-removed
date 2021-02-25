@@ -5943,9 +5943,6 @@ const
 nsACString
 &
 aOriginSuffix
-nsHostRecord
-:
-:
 TRRSkippedReason
 aReason
 TRR

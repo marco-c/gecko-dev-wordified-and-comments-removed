@@ -2158,7 +2158,13 @@ Telemetry
 :
 :
 ODOH_SKIP_REASON_ODOH_FIRST
-mTRRTRRSkippedReason
+static_cast
+<
+uint32_t
+>
+(
+mTRRSkippedReason
+)
 )
 ;
 }
@@ -2268,7 +2274,13 @@ Telemetry
 :
 :
 TRR_SKIP_REASON_TRR_FIRST
-mTRRTRRSkippedReason
+static_cast
+<
+uint32_t
+>
+(
+mTRRSkippedReason
+)
 )
 ;
 if
@@ -2285,7 +2297,13 @@ Telemetry
 :
 :
 TRR_SKIP_REASON_DNS_WORKED
-mTRRTRRSkippedReason
+static_cast
+<
+uint32_t
+>
+(
+mTRRSkippedReason
+)
 )
 ;
 }
@@ -3976,7 +3994,7 @@ originSuffix
 rec
 -
 >
-mTRRTRRSkippedReason
+mTRRSkippedReason
 nullptr
 )
 ;
@@ -5398,7 +5416,7 @@ rec
 >
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_EXCLUDED
@@ -7417,7 +7435,7 @@ rec
 >
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_IS_OFFLINE
@@ -7437,7 +7455,7 @@ rec
 >
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_NO_CONNECTIVITY
@@ -7451,7 +7469,7 @@ rec
 >
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_NOT_CONFIRMED
@@ -7557,7 +7575,7 @@ rec
 >
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_DID_NOT_MAKE_QUERY
@@ -8072,7 +8090,7 @@ aRec
 >
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_NO_GSERVICE
@@ -8133,7 +8151,7 @@ aRec
 >
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_EXCLUDED
@@ -8175,7 +8193,7 @@ aRec
 >
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_PARENTAL_CONTROL
@@ -8210,7 +8228,7 @@ aRec
 >
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_OFF_EXPLICIT
@@ -8245,7 +8263,7 @@ aRec
 >
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_REQ_MODE_DISABLED
@@ -8291,7 +8309,7 @@ aRec
 >
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_MODE_NOT_ENABLED
@@ -8498,9 +8516,9 @@ NS_OK
 rec
 -
 >
-mTRRTRRSkippedReason
+mTRRSkippedReason
 =
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_UNSET
@@ -8716,7 +8734,7 @@ rec
 >
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_DISABLED_FLAG
@@ -10175,9 +10193,6 @@ const
 nsACString
 &
 aOriginsuffix
-nsHostRecord
-:
-:
 TRRSkippedReason
 aReason
 mozilla
@@ -10486,7 +10501,7 @@ if
 aReason
 !
 =
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_UNSET
@@ -10508,7 +10523,7 @@ addrRec
 >
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_FAILED
@@ -10530,7 +10545,7 @@ addrRec
 >
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_OK
@@ -12528,7 +12543,7 @@ originSuffix
 rec
 -
 >
-mTRRTRRSkippedReason
+mTRRSkippedReason
 nullptr
 )
 )

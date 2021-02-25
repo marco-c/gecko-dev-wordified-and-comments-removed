@@ -25,13 +25,6 @@ h
 #
 include
 "
-nsHostResolver
-.
-h
-"
-#
-include
-"
 pk11pub
 .
 h
@@ -40,6 +33,13 @@ h
 include
 "
 ScopedNSSTypes
+.
+h
+"
+#
+include
+"
+nsIDNSService
 .
 h
 "
