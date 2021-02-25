@@ -94,11 +94,11 @@ if
 CONFIG
 [
 '
-FFVPX_USE_YASM
+FFVPX_USE_NASM
 '
 ]
 :
-USE_YASM
+USE_NASM
 =
 True
 if
