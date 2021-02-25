@@ -29,13 +29,6 @@ h
 #
 include
 "
-GeckoProfiler
-.
-h
-"
-#
-include
-"
 MediaDecoder
 .
 h

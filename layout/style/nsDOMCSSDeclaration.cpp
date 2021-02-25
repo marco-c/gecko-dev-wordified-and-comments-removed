@@ -19,6 +19,15 @@ include
 "
 mozilla
 /
+ProfilerLabels
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleSheetInlines
 .
 h

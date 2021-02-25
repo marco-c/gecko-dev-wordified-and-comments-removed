@@ -78,6 +78,15 @@ h
 #
 include
 "
+mozilla
+/
+ProfilerLabels
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h

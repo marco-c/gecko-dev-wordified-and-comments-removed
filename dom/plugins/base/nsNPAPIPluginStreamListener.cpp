@@ -70,6 +70,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+ProfilerLabels
+.
+h
+"
+#
+include
 <
 stdint
 .

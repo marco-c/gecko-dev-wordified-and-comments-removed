@@ -21,6 +21,15 @@ include
 "
 mozilla
 /
+ProfilerLabels
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_layers
 .
 h

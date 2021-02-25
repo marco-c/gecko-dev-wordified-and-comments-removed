@@ -315,6 +315,15 @@ include
 "
 mozilla
 /
+ProfilerLabels
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLDNSPrefetch

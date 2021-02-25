@@ -61,6 +61,15 @@ include
 "
 mozilla
 /
+ProfilerLabels
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SchedulerGroup
 .
 h

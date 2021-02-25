@@ -120,6 +120,15 @@ h
 #
 include
 "
+mozilla
+/
+ProfilerLabels
+.
+h
+"
+#
+include
+"
 nsPluginInstanceOwner
 .
 h

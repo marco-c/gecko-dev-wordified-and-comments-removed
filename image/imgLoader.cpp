@@ -130,6 +130,15 @@ include
 "
 mozilla
 /
+ProfilerLabels
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_image
 .
 h
@@ -10807,9 +10816,6 @@ _retval
 }
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 AUTO_PROFILER_LABEL_DYNAMIC_NSCSTRING
 (
 "
@@ -10827,8 +10833,6 @@ GetSpecOrDefault
 )
 )
 ;
-#
-endif
 LOG_SCOPE_WITH_PARAM
 (
 gImgLog

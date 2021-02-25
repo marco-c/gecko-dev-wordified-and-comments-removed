@@ -51,6 +51,15 @@ include
 "
 mozilla
 /
+ProfilerLabels
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_gfx
 .
 h
