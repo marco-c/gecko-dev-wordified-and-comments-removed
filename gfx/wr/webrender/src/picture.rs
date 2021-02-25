@@ -21259,6 +21259,17 @@ init_surface_tiled
 surface_index
 surface_tasks
 device_clip_rect
+.
+translate
+(
+tile_cache
+.
+device_position
+.
+to_vector
+(
+)
+)
 )
 ;
 }

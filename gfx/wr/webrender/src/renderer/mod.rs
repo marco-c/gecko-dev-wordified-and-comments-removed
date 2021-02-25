@@ -26775,6 +26775,12 @@ bind_read_target_impl
 self
 .
 read_fbo
+DeviceIntPoint
+:
+:
+zero
+(
+)
 )
 ;
 if
