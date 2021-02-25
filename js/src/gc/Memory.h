@@ -63,6 +63,11 @@ length
 )
 ;
 bool
+DecommitEnabled
+(
+)
+;
+bool
 MarkPagesUnusedSoft
 (
 void
