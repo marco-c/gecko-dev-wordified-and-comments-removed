@@ -113,6 +113,11 @@ WorkerStatus
 .
 h
 "
+"
+WorkerTestUtils
+.
+h
+"
 ]
 EXPORTS
 .
@@ -271,6 +276,11 @@ cpp
 "
 "
 WorkerScope
+.
+cpp
+"
+"
+WorkerTestUtils
 .
 cpp
 "

@@ -4548,6 +4548,11 @@ PerformanceEntry
 webidl
 "
 "
+PerformanceEventTiming
+.
+webidl
+"
+"
 PerformanceMark
 .
 webidl
@@ -5694,6 +5699,11 @@ webidl
 "
 "
 WorkerNavigator
+.
+webidl
+"
+"
+WorkerTestUtils
 .
 webidl
 "
