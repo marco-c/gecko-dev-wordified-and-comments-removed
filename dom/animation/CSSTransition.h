@@ -66,9 +66,6 @@ nsIGlobalObject
 aGlobal
 )
 :
-dom
-:
-:
 Animation
 (
 aGlobal
@@ -237,9 +234,8 @@ OwningElementRef
 void
 SetEffectFromStyle
 (
-AnimationEffect
+KeyframeEffect
 *
-aEffect
 )
 ;
 void
