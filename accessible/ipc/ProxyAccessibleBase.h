@@ -199,7 +199,7 @@ Length
 }
 Derived
 *
-ChildAt
+RemoteChildAt
 (
 uint32_t
 aIdx
@@ -215,7 +215,7 @@ aIdx
 }
 Derived
 *
-FirstChild
+RemoteFirstChild
 (
 )
 const
@@ -237,7 +237,7 @@ nullptr
 }
 Derived
 *
-LastChild
+RemoteLastChild
 (
 )
 const
@@ -265,7 +265,7 @@ nullptr
 }
 Derived
 *
-PrevSibling
+RemotePrevSibling
 (
 )
 const
@@ -295,7 +295,7 @@ idx
 >
 0
 ?
-Parent
+RemoteParent
 (
 )
 -
@@ -312,7 +312,7 @@ nullptr
 }
 Derived
 *
-NextSibling
+RemoteNextSibling
 (
 )
 const
@@ -355,7 +355,7 @@ idx
 return
 newIdx
 <
-Parent
+RemoteParent
 (
 )
 -
@@ -366,7 +366,7 @@ Length
 (
 )
 ?
-Parent
+RemoteParent
 (
 )
 -
@@ -389,7 +389,7 @@ Derived
 *
 parent
 =
-Parent
+RemoteParent
 (
 )
 ;
@@ -486,7 +486,7 @@ aChild
 }
 Derived
 *
-Parent
+RemoteParent
 (
 )
 const

@@ -309,7 +309,7 @@ AsProxy
 )
 -
 >
-ChildAt
+RemoteChildAt
 (
 aIdx
 )
@@ -368,7 +368,7 @@ AsProxy
 )
 -
 >
-FirstChild
+RemoteFirstChild
 (
 )
 ;
@@ -419,7 +419,7 @@ AsProxy
 )
 -
 >
-LastChild
+RemoteLastChild
 (
 )
 ;
@@ -470,7 +470,7 @@ AsProxy
 )
 -
 >
-NextSibling
+RemoteNextSibling
 (
 )
 ;
@@ -504,7 +504,7 @@ AsProxy
 )
 -
 >
-PrevSibling
+RemotePrevSibling
 (
 )
 ;
