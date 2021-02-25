@@ -222,6 +222,7 @@ child1
 =
 child2
 )
+{
 return
 child1
 -
@@ -237,6 +238,7 @@ IndexInParent
 (
 )
 ;
+}
 }
 if
 (

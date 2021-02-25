@@ -178,6 +178,7 @@ idx
 +
 +
 )
+{
 xpcItems
 -
 >
@@ -199,6 +200,7 @@ idx
 )
 )
 ;
+}
 NS_ADDREF
 (
 *

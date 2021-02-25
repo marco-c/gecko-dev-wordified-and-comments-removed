@@ -326,8 +326,10 @@ if
 !
 hyperTextElm
 )
+{
 return
 ;
+}
 nsIFrame
 *
 rootFrame
@@ -560,6 +562,7 @@ idx
 +
 +
 )
+{
 attrArray
 [
 idx
@@ -573,10 +576,12 @@ mIncludeDefAttrs
 )
 ;
 }
+}
 if
 (
 mOffsetAcc
 )
+{
 GetRange
 (
 attrArray
@@ -588,6 +593,7 @@ aStartOffset
 aEndOffset
 )
 ;
+}
 }
 void
 TextAttrsMgr
@@ -2887,6 +2893,7 @@ if
 (
 aAccessible
 )
+{
 mIsDefined
 =
 mNativeValue
@@ -2924,6 +2931,7 @@ LISTITEM_MARKER
 )
 )
 ;
+}
 }
 bool
 TextAttrsMgr

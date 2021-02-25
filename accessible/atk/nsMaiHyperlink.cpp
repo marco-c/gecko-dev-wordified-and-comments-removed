@@ -594,6 +594,7 @@ parent_class
 >
 finalize
 )
+{
 G_OBJECT_CLASS
 (
 parent_class
@@ -605,6 +606,7 @@ finalize
 aObj
 )
 ;
+}
 }
 gchar
 *
@@ -877,6 +879,7 @@ GetAccHyperlink
 (
 )
 )
+{
 return
 static_cast
 <
@@ -891,6 +894,7 @@ EndOffset
 )
 )
 ;
+}
 bool
 valid
 =
@@ -967,6 +971,7 @@ GetAccHyperlink
 (
 )
 )
+{
 return
 static_cast
 <
@@ -981,6 +986,7 @@ StartOffset
 )
 )
 ;
+}
 bool
 valid
 =
@@ -1056,6 +1062,7 @@ GetAccHyperlink
 (
 )
 )
+{
 return
 static_cast
 <
@@ -1070,6 +1077,7 @@ IsLinkValid
 )
 )
 ;
+}
 return
 static_cast
 <
@@ -1129,6 +1137,7 @@ GetAccHyperlink
 (
 )
 )
+{
 return
 static_cast
 <
@@ -1143,6 +1152,7 @@ AnchorCount
 )
 )
 ;
+}
 bool
 valid
 =

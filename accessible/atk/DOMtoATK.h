@@ -250,11 +250,13 @@ AtkStringConvertFlags
 :
 ConvertTextToAsterisks
 )
+{
 ConvertTexttoAsterisks
 (
 str
 )
 ;
+}
 return
 converter
 .

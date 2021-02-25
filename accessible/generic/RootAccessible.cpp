@@ -540,6 +540,7 @@ nsIWebBrowserChrome
 :
 CHROME_WINDOW_RESIZE
 )
+{
 state
 |
 =
@@ -548,6 +549,7 @@ states
 :
 SIZEABLE
 ;
+}
 if
 (
 chromeFlags
@@ -557,6 +559,7 @@ nsIWebBrowserChrome
 :
 CHROME_TITLEBAR
 )
+{
 state
 |
 =
@@ -565,6 +568,7 @@ states
 :
 MOVEABLE
 ;
+}
 if
 (
 chromeFlags
@@ -615,6 +619,7 @@ GetWindow
 (
 )
 )
+{
 state
 |
 =
@@ -623,6 +628,7 @@ states
 :
 ACTIVE
 ;
+}
 return
 state
 ;
@@ -1137,6 +1143,7 @@ logging
 eDOMEvents
 )
 )
+{
 logging
 :
 :
@@ -1149,6 +1156,7 @@ aTarget
 eventType
 )
 ;
+}
 #
 endif
 if
@@ -1439,6 +1447,7 @@ logging
 eFocus
 )
 )
+{
 logging
 :
 :
@@ -1450,6 +1459,7 @@ RadioStateChange
 accessible
 )
 ;
+}
 #
 endif
 }
@@ -1914,6 +1924,7 @@ logging
 eFocus
 )
 )
+{
 logging
 :
 :
@@ -1925,6 +1936,7 @@ DOMMenuItemActive
 accessible
 )
 ;
+}
 #
 endif
 }
@@ -2000,6 +2012,7 @@ logging
 eFocus
 )
 )
+{
 logging
 :
 :
@@ -2011,6 +2024,7 @@ DOMMenuItemInactive
 accessible
 )
 ;
+}
 #
 endif
 }
@@ -2083,6 +2097,7 @@ logging
 eFocus
 )
 )
+{
 logging
 :
 :
@@ -2094,6 +2109,7 @@ DOMMenuBarActive
 accessible
 )
 ;
+}
 #
 endif
 }
@@ -2150,6 +2166,7 @@ logging
 eFocus
 )
 )
+{
 logging
 :
 :
@@ -2161,6 +2178,7 @@ DOMMenuBarInactive
 accessible
 )
 ;
+}
 #
 endif
 }
@@ -2993,6 +3011,7 @@ logging
 eFocus
 )
 )
+{
 logging
 :
 :
@@ -3004,6 +3023,7 @@ popuphiding
 popup
 )
 ;
+}
 #
 endif
 }

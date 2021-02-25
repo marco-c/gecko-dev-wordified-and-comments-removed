@@ -425,6 +425,7 @@ HasLoadState
 eTreeConstructed
 )
 )
+{
 mNotificationController
 -
 >
@@ -433,6 +434,7 @@ ScheduleTextUpdate
 aTextNode
 )
 ;
+}
 }
 inline
 void

@@ -171,6 +171,7 @@ aIsFromUserInput
 =
 eAutoDetect
 )
+{
 mIsFromUserInput
 =
 dom
@@ -183,7 +184,9 @@ IsHandlingUserInput
 (
 )
 ;
+}
 else
+{
 mIsFromUserInput
 =
 aIsFromUserInput
@@ -195,6 +198,7 @@ true
 :
 false
 ;
+}
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
@@ -656,6 +660,7 @@ GetSelectedItem
 1
 )
 )
+{
 mEventType
 =
 nsIAccessibleEvent
@@ -663,7 +668,9 @@ nsIAccessibleEvent
 :
 EVENT_SELECTION_ADD
 ;
+}
 else
+{
 mEventType
 =
 nsIAccessibleEvent
@@ -671,6 +678,7 @@ nsIAccessibleEvent
 :
 EVENT_SELECTION
 ;
+}
 }
 else
 {

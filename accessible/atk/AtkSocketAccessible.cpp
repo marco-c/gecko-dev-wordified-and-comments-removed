@@ -470,6 +470,7 @@ MAI_IS_ATK_SOCKET
 mAtkObject
 )
 )
+{
 MAI_ATK_SOCKET
 (
 mAtkObject
@@ -480,6 +481,7 @@ accWrap
 =
 nullptr
 ;
+}
 g_object_unref
 (
 mAtkObject

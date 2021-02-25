@@ -838,6 +838,7 @@ cellInfo
 .
 mCol
 )
+{
 return
 AccessibleWrap
 :
@@ -849,6 +850,7 @@ aY
 aWhichChild
 )
 ;
+}
 Accessible
 *
 child
@@ -1809,6 +1811,7 @@ if
 (
 mTreeView
 )
+{
 return
 Relation
 (
@@ -1822,6 +1825,7 @@ mTreeView
 )
 )
 ;
+}
 return
 Relation
 (
@@ -3316,11 +3320,13 @@ parentIndex
 )
 )
 )
+{
 return
 Relation
 (
 )
 ;
+}
 if
 (
 parentIndex
@@ -3389,11 +3395,13 @@ isTrue
 |
 isTrue
 )
+{
 return
 Relation
 (
 )
 ;
+}
 if
 (
 NS_FAILED
@@ -3413,11 +3421,13 @@ isTrue
 !
 isTrue
 )
+{
 return
 Relation
 (
 )
 ;
+}
 XULTreeAccessible
 *
 tree
@@ -3535,6 +3545,7 @@ if
 (
 isContainerOpen
 )
+{
 aName
 .
 AssignLiteral
@@ -3544,7 +3555,9 @@ collapse
 "
 )
 ;
+}
 else
+{
 aName
 .
 AssignLiteral
@@ -3554,6 +3567,7 @@ expand
 "
 )
 ;
+}
 }
 }
 bool
@@ -3588,9 +3602,11 @@ IsExpandable
 )
 )
 )
+{
 return
 false
 ;
+}
 DoCommand
 (
 nullptr
@@ -3999,6 +4015,7 @@ mRow
 >
 lastVisibleRow
 )
+{
 state
 |
 =
@@ -4007,6 +4024,7 @@ states
 :
 INVISIBLE
 ;
+}
 return
 state
 ;
@@ -4320,9 +4338,11 @@ IsColumnHidden
 primaryColumn
 )
 )
+{
 return
 true
 ;
+}
 }
 }
 }
@@ -4679,6 +4699,7 @@ aOffset
 <
 0
 )
+{
 return
 XULColumAccessible
 :
@@ -4689,6 +4710,7 @@ aOffset
 aError
 )
 ;
+}
 if
 (
 aError

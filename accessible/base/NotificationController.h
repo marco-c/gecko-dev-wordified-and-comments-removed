@@ -752,6 +752,7 @@ logging
 eNotifications
 )
 )
+{
 mozilla
 :
 :
@@ -770,6 +771,7 @@ processing
 "
 )
 ;
+}
 #
 endif
 (

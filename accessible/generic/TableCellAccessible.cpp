@@ -170,6 +170,7 @@ roles
 :
 ROWHEADER
 )
+{
 aCells
 -
 >
@@ -178,6 +179,7 @@ AppendElement
 cell
 )
 ;
+}
 }
 }
 Accessible

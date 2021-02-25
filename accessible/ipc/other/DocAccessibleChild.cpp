@@ -1000,6 +1000,7 @@ Next
 (
 )
 )
+{
 aTargets
 -
 >
@@ -1019,6 +1020,7 @@ UniqueID
 )
 )
 ;
+}
 return
 IPC_OK
 (
@@ -1071,6 +1073,7 @@ Next
 (
 )
 )
+{
 targets
 .
 AppendElement
@@ -1089,6 +1092,7 @@ UniqueID
 )
 )
 ;
+}
 if
 (
 !

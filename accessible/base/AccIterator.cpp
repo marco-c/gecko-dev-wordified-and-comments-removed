@@ -1507,6 +1507,7 @@ mContainerLevel
 +
 1
 )
+{
 return
 mXULTree
 -
@@ -1518,6 +1519,7 @@ mCurrRowIdx
 +
 )
 ;
+}
 if
 (
 level

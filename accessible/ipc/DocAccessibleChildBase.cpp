@@ -73,6 +73,7 @@ IsTextRole
 (
 )
 )
+{
 interfaces
 |
 =
@@ -81,6 +82,7 @@ Interfaces
 :
 HYPERTEXT
 ;
+}
 if
 (
 aAcc

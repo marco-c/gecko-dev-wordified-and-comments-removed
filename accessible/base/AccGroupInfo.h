@@ -302,9 +302,11 @@ roles
 :
 COMMENT
 )
+{
 return
 nullptr
 ;
+}
 AccGroupInfo
 *
 info
@@ -466,6 +468,7 @@ roles
 :
 RADIO_MENU_ITEM
 )
+{
 return
 mozilla
 :
@@ -478,6 +481,7 @@ roles
 :
 MENUITEM
 ;
+}
 if
 (
 aRole
@@ -494,6 +498,7 @@ roles
 :
 CHECK_RICH_OPTION
 )
+{
 return
 mozilla
 :
@@ -506,6 +511,7 @@ roles
 :
 RICH_OPTION
 ;
+}
 return
 aRole
 ;

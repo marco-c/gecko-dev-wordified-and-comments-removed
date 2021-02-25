@@ -446,12 +446,14 @@ nsGkAtoms
 panel
 )
 )
+{
 return
 roles
 :
 :
 COMBOBOX_LIST
 ;
+}
 return
 IsMulticolumn
 (
@@ -1419,6 +1421,7 @@ itemIdx
 =
 0
 )
+{
 for
 (
 uint32_t
@@ -1437,6 +1440,7 @@ cellsIdx
 +
 +
 )
+{
 aCells
 -
 >
@@ -1451,6 +1455,8 @@ colCount
 +
 colIdx
 ;
+}
+}
 }
 }
 }
@@ -1498,6 +1504,7 @@ colIdx
 +
 +
 )
+{
 aCols
 -
 >
@@ -1506,6 +1513,7 @@ AppendElement
 colIdx
 )
 ;
+}
 }
 void
 XULListboxAccessible
@@ -2435,12 +2443,14 @@ roles
 :
 COMBOBOX_LIST
 )
+{
 return
 roles
 :
 :
 COMBOBOX_OPTION
 ;
+}
 return
 roles
 :
@@ -2628,6 +2638,7 @@ states
 :
 CHECKED
 )
+{
 aName
 .
 AssignLiteral
@@ -2637,7 +2648,9 @@ uncheck
 "
 )
 ;
+}
 else
+{
 aName
 .
 AssignLiteral
@@ -2647,6 +2660,7 @@ check
 "
 )
 ;
+}
 }
 }
 Accessible

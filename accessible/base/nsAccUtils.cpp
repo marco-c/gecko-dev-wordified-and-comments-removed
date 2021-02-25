@@ -725,6 +725,7 @@ aria_relevant
 relevant
 )
 )
+{
 SetAccAttr
 (
 aAttributes
@@ -735,6 +736,7 @@ containerRelevant
 relevant
 )
 ;
+}
 if
 (
 live
@@ -983,6 +985,7 @@ aria_busy
 busy
 )
 )
+{
 SetAccAttr
 (
 aAttributes
@@ -993,6 +996,7 @@ containerBusy
 busy
 )
 ;
+}
 if
 (
 ancestor

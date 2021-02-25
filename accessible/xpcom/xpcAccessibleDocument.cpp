@@ -757,6 +757,7 @@ IsImage
 (
 )
 )
+{
 xpcAcc
 =
 new
@@ -765,6 +766,7 @@ xpcAccessibleImage
 aAccessible
 )
 ;
+}
 else
 if
 (
@@ -775,6 +777,7 @@ IsTable
 (
 )
 )
+{
 xpcAcc
 =
 new
@@ -783,6 +786,7 @@ xpcAccessibleTable
 aAccessible
 )
 ;
+}
 else
 if
 (
@@ -793,6 +797,7 @@ IsTableCell
 (
 )
 )
+{
 xpcAcc
 =
 new
@@ -801,6 +806,7 @@ xpcAccessibleTableCell
 aAccessible
 )
 ;
+}
 else
 if
 (
@@ -811,6 +817,7 @@ IsHyperText
 (
 )
 )
+{
 xpcAcc
 =
 new
@@ -819,7 +826,9 @@ xpcAccessibleHyperText
 aAccessible
 )
 ;
+}
 else
+{
 xpcAcc
 =
 new
@@ -828,6 +837,7 @@ xpcAccessibleGeneric
 aAccessible
 )
 ;
+}
 mCache
 .
 Put

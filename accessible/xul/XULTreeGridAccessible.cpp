@@ -415,6 +415,7 @@ rowIdx
 +
 +
 )
+{
 if
 (
 IsRowSelected
@@ -422,6 +423,7 @@ IsRowSelected
 rowIdx
 )
 )
+{
 for
 (
 uint32_t
@@ -437,6 +439,7 @@ colIdx
 +
 +
 )
+{
 aCells
 -
 >
@@ -449,6 +452,9 @@ colCount
 colIdx
 )
 ;
+}
+}
+}
 }
 void
 XULTreeGridAccessible
@@ -507,6 +513,7 @@ colIdx
 +
 +
 )
+{
 aCols
 -
 >
@@ -515,6 +522,7 @@ AppendElement
 colIdx
 )
 ;
+}
 }
 void
 XULTreeGridAccessible
@@ -552,6 +560,7 @@ rowIdx
 +
 +
 )
+{
 if
 (
 IsRowSelected
@@ -567,6 +576,7 @@ AppendElement
 rowIdx
 )
 ;
+}
 }
 Accessible
 *
@@ -1708,6 +1718,7 @@ if
 (
 nameChanged
 )
+{
 nsEventShell
 :
 :
@@ -1720,6 +1731,7 @@ EVENT_NAME_CHANGE
 this
 )
 ;
+}
 }
 XULTreeGridCellAccessible
 :
@@ -1815,6 +1827,7 @@ TreeColumn_Binding
 :
 TYPE_CHECKBOX
 )
+{
 mTreeView
 -
 >
@@ -1825,7 +1838,9 @@ mColumn
 mCachedTextEquiv
 )
 ;
+}
 else
+{
 mTreeView
 -
 >
@@ -1836,6 +1851,7 @@ mColumn
 mCachedTextEquiv
 )
 ;
+}
 }
 XULTreeGridCellAccessible
 :
@@ -2236,9 +2252,11 @@ IsEditable
 (
 )
 )
+{
 return
 1
 ;
+}
 return
 0
 ;
@@ -2345,6 +2363,7 @@ true
 "
 )
 )
+{
 aName
 .
 AssignLiteral
@@ -2354,7 +2373,9 @@ uncheck
 "
 )
 ;
+}
 else
+{
 aName
 .
 AssignLiteral
@@ -2364,6 +2385,7 @@ check
 "
 )
 ;
+}
 }
 }
 bool
@@ -2725,6 +2747,7 @@ Cycler
 (
 )
 )
+{
 nsAccUtils
 :
 :
@@ -2742,6 +2765,7 @@ true
 _ns
 )
 ;
+}
 return
 attributes
 .
@@ -3373,9 +3397,11 @@ _true
 eCaseMatters
 )
 )
+{
 return
 false
 ;
+}
 return
 mContent
 -

@@ -2233,11 +2233,13 @@ idx
 )
 )
 )
+{
 return
 DOMPoint
 (
 )
 ;
+}
 return
 DOMPoint
 (
@@ -3240,6 +3242,7 @@ IsEmptyLastLineOffset
 aOffset
 )
 )
+{
 return
 FindOffset
 (
@@ -3248,6 +3251,7 @@ eDirPrevious
 eSelectBeginLine
 )
 ;
+}
 uint32_t
 tmpOffset
 =
@@ -4218,6 +4222,7 @@ nsIAccessibleText
 :
 TEXT_OFFSET_CARET
 )
+{
 adjustedOffset
 =
 AdjustCaretOffset
@@ -4225,6 +4230,7 @@ AdjustCaretOffset
 adjustedOffset
 )
 ;
+}
 switch
 (
 aBoundaryType
@@ -4243,6 +4249,7 @@ convertedOffset
 =
 0
 )
+{
 CharAt
 (
 convertedOffset
@@ -4253,6 +4260,7 @@ aStartOffset
 aEndOffset
 )
 ;
+}
 break
 ;
 case
@@ -4604,6 +4612,7 @@ IsCaretAtEndOfLine
 (
 )
 )
+{
 *
 aStartOffset
 =
@@ -4612,7 +4621,9 @@ aEndOffset
 =
 adjustedOffset
 ;
+}
 else
+{
 CharAt
 (
 adjustedOffset
@@ -4621,6 +4632,7 @@ aStartOffset
 aEndOffset
 )
 ;
+}
 break
 ;
 case
@@ -4639,6 +4651,7 @@ nsIAccessibleText
 :
 TEXT_OFFSET_CARET
 )
+{
 adjustedOffset
 =
 AdjustCaretOffset
@@ -4646,6 +4659,7 @@ AdjustCaretOffset
 adjustedOffset
 )
 ;
+}
 *
 aEndOffset
 =
@@ -4732,6 +4746,7 @@ nsIAccessibleText
 :
 TEXT_OFFSET_CARET
 )
+{
 adjustedOffset
 =
 AdjustCaretOffset
@@ -4739,6 +4754,7 @@ AdjustCaretOffset
 adjustedOffset
 )
 ;
+}
 *
 aStartOffset
 =
@@ -4784,6 +4800,7 @@ nsIAccessibleText
 :
 TEXT_OFFSET_CARET
 )
+{
 adjustedOffset
 =
 AdjustCaretOffset
@@ -4791,6 +4808,7 @@ AdjustCaretOffset
 adjustedOffset
 )
 ;
+}
 *
 aStartOffset
 =
@@ -4997,6 +5015,7 @@ nsIAccessibleText
 :
 TEXT_OFFSET_CARET
 )
+{
 adjustedOffset
 =
 AdjustCaretOffset
@@ -5004,6 +5023,7 @@ AdjustCaretOffset
 adjustedOffset
 )
 ;
+}
 switch
 (
 aBoundaryType
@@ -5024,6 +5044,7 @@ CharacterCount
 (
 )
 )
+{
 *
 aStartOffset
 =
@@ -5034,7 +5055,9 @@ CharacterCount
 (
 )
 ;
+}
 else
+{
 CharAt
 (
 adjustedOffset
@@ -5045,6 +5068,7 @@ aStartOffset
 aEndOffset
 )
 ;
+}
 break
 ;
 case
@@ -6747,10 +6771,12 @@ coordsInAppUnits
 y
 )
 )
+{
 return
 -
 1
 ;
+}
 nsPoint
 pointInHyperText
 (
@@ -7955,6 +7981,7 @@ GetNode
 textNode
 )
 )
+{
 return
 TransformOffset
 (
@@ -7972,6 +7999,7 @@ caretOffset
 false
 )
 ;
+}
 }
 FocusManager
 :
@@ -8092,10 +8120,12 @@ thisNode
 resultNode
 )
 )
+{
 return
 -
 1
 ;
+}
 }
 return
 DOMPointToOffset
@@ -8721,8 +8751,10 @@ nsISelectionController
 :
 SELECTION_HIDDEN
 )
+{
 return
 ;
+}
 dom
 :
 :
@@ -8943,9 +8975,11 @@ int32_t
 rangeCount
 )
 )
+{
 return
 false
 ;
+}
 nsRange
 *
 range
@@ -9074,12 +9108,15 @@ IsInclusiveDescendantOf
 mContent
 )
 )
+{
 *
 aStartOffset
 =
 0
 ;
+}
 else
+{
 *
 aStartOffset
 =
@@ -9089,6 +9126,7 @@ startNode
 startOffset
 )
 ;
+}
 if
 (
 !
@@ -9100,6 +9138,7 @@ IsInclusiveDescendantOf
 mContent
 )
 )
+{
 *
 aEndOffset
 =
@@ -9107,7 +9146,9 @@ CharacterCount
 (
 )
 ;
+}
 else
+{
 *
 aEndOffset
 =
@@ -9118,6 +9159,7 @@ endOffset
 true
 )
 ;
+}
 return
 true
 ;
@@ -9270,9 +9312,11 @@ RangeCount
 )
 )
 )
+{
 return
 false
 ;
+}
 const
 RefPtr
 <
@@ -10172,12 +10216,14 @@ title
 aName
 )
 )
+{
 aName
 .
 CompressWhitespace
 (
 )
 ;
+}
 return
 hasImgAlt
 ?
@@ -11704,11 +11750,13 @@ startOffset
 *
 aEndOffset
 )
+{
 *
 aStartOffset
 =
 startOffset
 ;
+}
 if
 (
 endOffset
@@ -11770,11 +11818,13 @@ startOffset
 *
 aEndOffset
 )
+{
 *
 aStartOffset
 =
 startOffset
 ;
+}
 }
 bool
 HyperTextAccessible
@@ -11859,9 +11909,11 @@ roles
 SEPARATOR
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;

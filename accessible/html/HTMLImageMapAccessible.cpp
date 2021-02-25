@@ -616,11 +616,13 @@ alt
 aName
 )
 )
+{
 Value
 (
 aName
 )
 ;
+}
 return
 eNameOK
 ;

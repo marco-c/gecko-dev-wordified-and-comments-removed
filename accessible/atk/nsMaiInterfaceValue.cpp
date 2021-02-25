@@ -473,10 +473,12 @@ IsNaN
 accValue
 )
 )
+{
 accValue
 =
 0
 ;
+}
 g_value_init
 (
 minimumIncrement

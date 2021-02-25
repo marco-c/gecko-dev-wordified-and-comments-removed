@@ -1047,9 +1047,11 @@ image
 eCaseMatters
 )
 )
+{
 return
 nameFlag
 ;
+}
 if
 (
 !
@@ -1071,6 +1073,7 @@ alt
 aName
 )
 )
+{
 mContent
 -
 >
@@ -1089,6 +1092,7 @@ value
 aName
 )
 ;
+}
 aName
 .
 CompressWhitespace
@@ -1541,8 +1545,10 @@ states
 :
 PROTECTED
 )
+{
 return
 ;
+}
 HTMLTextAreaElement
 *
 textArea
@@ -1652,6 +1658,7 @@ if
 (
 widgetElm
 )
+{
 aria
 :
 :
@@ -1670,6 +1677,7 @@ AsElement
 aState
 )
 ;
+}
 }
 uint64_t
 HTMLTextFieldAccessible
@@ -1822,9 +1830,11 @@ states
 UNAVAILABLE
 )
 )
+{
 return
 state
 ;
+}
 Accessible
 *
 widget
@@ -1881,6 +1891,7 @@ nsGkAtoms
 list_
 )
 )
+{
 return
 state
 |
@@ -1894,6 +1905,7 @@ states
 :
 HASPOPUP
 ;
+}
 if
 (
 !
@@ -1997,6 +2009,7 @@ off
 "
 )
 )
+{
 state
 |
 =
@@ -2005,6 +2018,7 @@ states
 :
 SUPPORTS_AUTOCOMPLETION
 ;
+}
 }
 }
 return
@@ -3261,6 +3275,7 @@ if
 (
 legendContent
 )
+{
 nsTextEquivUtils
 :
 :
@@ -3272,6 +3287,7 @@ legendContent
 aName
 )
 ;
+}
 aName
 .
 CompressWhitespace
@@ -3409,6 +3425,7 @@ roles
 :
 GROUPING
 )
+{
 rel
 .
 AppendTarget
@@ -3416,6 +3433,7 @@ AppendTarget
 groupbox
 )
 ;
+}
 return
 rel
 ;
@@ -3487,6 +3505,7 @@ if
 (
 captionContent
 )
+{
 nsTextEquivUtils
 :
 :
@@ -3498,6 +3517,7 @@ captionContent
 aName
 )
 ;
+}
 aName
 .
 CompressWhitespace

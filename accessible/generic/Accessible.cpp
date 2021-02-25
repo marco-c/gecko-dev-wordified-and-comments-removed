@@ -1824,12 +1824,14 @@ GetVisibility
 =
 nsViewVisibility_kHide
 )
+{
 return
 states
 :
 :
 INVISIBLE
 ;
+}
 if
 (
 nsLayoutUtils
@@ -1897,12 +1899,14 @@ nsGkAtoms
 tabpanels
 )
 )
+{
 return
 states
 :
 :
 OFFSCREEN
 ;
+}
 MOZ_ASSERT_UNREACHABLE
 (
 "
@@ -2239,6 +2243,7 @@ HasState
 NS_EVENT_STATE_REQUIRED
 )
 )
+{
 state
 |
 =
@@ -2247,6 +2252,7 @@ states
 :
 REQUIRED
 ;
+}
 state
 |
 =
@@ -2375,6 +2381,7 @@ StyleBoxOrient
 :
 Vertical
 )
+{
 state
 |
 =
@@ -2383,7 +2390,9 @@ states
 :
 VERTICAL
 ;
+}
 else
+{
 state
 |
 =
@@ -2392,6 +2401,7 @@ states
 :
 HORIZONTAL
 ;
+}
 }
 }
 }
@@ -2427,6 +2437,7 @@ nsGkAtoms
 popup
 )
 )
+{
 state
 |
 =
@@ -2435,6 +2446,7 @@ states
 :
 HASPOPUP
 ;
+}
 const
 nsRoleMapEntry
 *
@@ -2470,6 +2482,7 @@ roles
 :
 LINK
 )
+{
 state
 |
 =
@@ -2477,6 +2490,7 @@ NativeLinkState
 (
 )
 ;
+}
 return
 state
 ;
@@ -2727,9 +2741,11 @@ MustPrune
 this
 )
 )
+{
 return
 fallbackAnswer
 ;
+}
 DocAccessible
 *
 accDocument
@@ -2929,6 +2945,7 @@ popupChild
 =
 popupAcc
 )
+{
 popupChild
 =
 popupChild
@@ -2938,6 +2955,7 @@ LocalParent
 (
 )
 ;
+}
 if
 (
 popupChild
@@ -3046,9 +3064,11 @@ GetContent
 )
 )
 )
+{
 return
 fallbackAnswer
 ;
+}
 DocAccessible
 *
 contentDocAcc
@@ -3249,6 +3269,7 @@ aWhichChild
 =
 eDeepestChild
 )
+{
 return
 child
 -
@@ -3260,6 +3281,7 @@ aY
 eDeepestChild
 )
 ;
+}
 return
 child
 ;
@@ -4381,6 +4403,7 @@ IsApplication
 (
 )
 )
+{
 ipcDoc
 -
 >
@@ -4395,6 +4418,7 @@ GetEventType
 )
 )
 ;
+}
 break
 ;
 case
@@ -5307,6 +5331,7 @@ name
 value
 )
 )
+{
 attributes
 -
 >
@@ -5320,6 +5345,7 @@ value
 unused
 )
 ;
+}
 const
 nsRoleMapEntry
 *
@@ -5405,6 +5431,7 @@ liveAttRule
 live
 )
 )
+{
 nsAccUtils
 :
 :
@@ -5418,6 +5445,7 @@ live
 live
 )
 ;
+}
 }
 }
 return
@@ -5717,6 +5745,7 @@ mContent
 id
 )
 )
+{
 attributes
 -
 >
@@ -5730,6 +5759,7 @@ id
 unused
 )
 ;
+}
 nsAutoString
 _class
 ;
@@ -5753,6 +5783,7 @@ _class
 _class
 )
 )
+{
 nsAccUtils
 :
 :
@@ -5766,6 +5797,7 @@ _class
 _class
 )
 ;
+}
 nsAutoString
 tagName
 ;
@@ -6478,6 +6510,7 @@ IsFocusWithin
 relTarget
 )
 )
+{
 state
 |
 =
@@ -6486,6 +6519,7 @@ states
 :
 SELECTED
 ;
+}
 }
 }
 }
@@ -6663,6 +6697,7 @@ states
 EXPANDED
 )
 )
+{
 state
 |
 =
@@ -6671,6 +6706,7 @@ states
 :
 EXPANDABLE
 ;
+}
 nsIFrame
 *
 frame
@@ -7032,6 +7068,7 @@ IsMenuButton
 (
 )
 )
+{
 aria
 :
 :
@@ -7045,6 +7082,7 @@ element
 aState
 )
 ;
+}
 if
 (
 !
@@ -7104,6 +7142,7 @@ element
 aState
 )
 )
+{
 aria
 :
 :
@@ -7117,6 +7156,7 @@ element
 aState
 )
 ;
+}
 if
 (
 (
@@ -7966,6 +8006,7 @@ Next
 )
 )
 )
+{
 if
 (
 targetAcc
@@ -7981,6 +8022,7 @@ roles
 :
 COMBOBOX_LIST
 ;
+}
 }
 }
 else
@@ -8013,12 +8055,14 @@ roles
 :
 COMBOBOX_LIST
 )
+{
 return
 roles
 :
 :
 COMBOBOX_OPTION
 ;
+}
 }
 else
 if
@@ -8324,6 +8368,7 @@ states
 :
 CHECKED
 )
+{
 aName
 .
 AssignLiteral
@@ -8333,6 +8378,7 @@ uncheck
 "
 )
 ;
+}
 else
 if
 (
@@ -8343,6 +8389,7 @@ states
 :
 MIXED
 )
+{
 aName
 .
 AssignLiteral
@@ -8352,7 +8399,9 @@ cycle
 "
 )
 ;
+}
 else
+{
 aName
 .
 AssignLiteral
@@ -8362,6 +8411,7 @@ check
 "
 )
 ;
+}
 return
 ;
 }
@@ -8393,6 +8443,7 @@ states
 :
 COLLAPSED
 )
+{
 aName
 .
 AssignLiteral
@@ -8402,7 +8453,9 @@ open
 "
 )
 ;
+}
 else
+{
 aName
 .
 AssignLiteral
@@ -8412,6 +8465,7 @@ close
 "
 )
 ;
+}
 return
 ;
 case
@@ -8470,6 +8524,7 @@ states
 :
 COLLAPSED
 )
+{
 aName
 .
 AssignLiteral
@@ -8479,7 +8534,9 @@ expand
 "
 )
 ;
+}
 else
+{
 aName
 .
 AssignLiteral
@@ -8489,6 +8546,7 @@ collapse
 "
 )
 ;
+}
 return
 ;
 }
@@ -8590,6 +8648,7 @@ atomic
 )
 )
 )
+{
 loopContent
 =
 loopContent
@@ -8599,6 +8658,7 @@ GetParent
 (
 )
 ;
+}
 return
 atomic
 .
@@ -8753,6 +8813,7 @@ nsGkAtoms
 label
 )
 )
+{
 rel
 .
 AppendIter
@@ -8769,6 +8830,7 @@ control
 )
 )
 ;
+}
 return
 rel
 ;
@@ -8804,6 +8866,7 @@ IsXULElement
 (
 )
 )
+{
 rel
 .
 AppendIter
@@ -8818,6 +8881,7 @@ mContent
 )
 )
 ;
+}
 return
 rel
 ;
@@ -8859,6 +8923,7 @@ nsGkAtoms
 description
 )
 )
+{
 rel
 .
 AppendIter
@@ -8875,6 +8940,7 @@ control
 )
 )
 ;
+}
 return
 rel
 ;
@@ -9084,6 +9150,7 @@ GetParent
 (
 )
 )
+{
 rel
 .
 AppendTarget
@@ -9093,6 +9160,7 @@ LocalParent
 )
 )
 ;
+}
 }
 }
 return
@@ -10424,6 +10492,7 @@ GetParent
 )
 )
 )
+{
 nsCoreUtils
 :
 :
@@ -10434,6 +10503,7 @@ frame
 coords
 )
 ;
+}
 }
 void
 Accessible
@@ -10665,6 +10735,7 @@ nullptr
 =
 this
 )
+{
 SelectionMgr
 (
 )
@@ -10674,6 +10745,7 @@ ResetCaretOffset
 (
 )
 ;
+}
 }
 void
 Accessible
@@ -12594,6 +12666,7 @@ if
 !
 mEmbeddedObjCollector
 )
+{
 mEmbeddedObjCollector
 .
 reset
@@ -12605,6 +12678,7 @@ this
 )
 )
 ;
+}
 return
 mEmbeddedObjCollector
 -
@@ -12643,6 +12717,7 @@ if
 !
 mEmbeddedObjCollector
 )
+{
 mEmbeddedObjCollector
 .
 reset
@@ -12654,6 +12729,7 @@ this
 )
 )
 ;
+}
 return
 mEmbeddedObjCollector
 .
@@ -12702,6 +12778,7 @@ if
 !
 mEmbeddedObjCollector
 )
+{
 mEmbeddedObjCollector
 .
 reset
@@ -12713,6 +12790,7 @@ this
 )
 )
 ;
+}
 return
 mEmbeddedObjCollector
 .
@@ -13744,6 +13822,7 @@ roles
 :
 ENTRY
 )
+{
 return
 FocusMgr
 (
@@ -13760,6 +13839,7 @@ GetContent
 )
 )
 ;
+}
 }
 }
 return
@@ -14313,6 +14393,7 @@ valueRule
 =
 eNoValue
 )
+{
 return
 UnspecifiedNaN
 <
@@ -14321,6 +14402,7 @@ double
 (
 )
 ;
+}
 nsAutoString
 attrValue
 ;
@@ -14351,6 +14433,7 @@ aAttr
 attrValue
 )
 )
+{
 return
 UnspecifiedNaN
 <
@@ -14359,6 +14442,7 @@ double
 (
 )
 ;
+}
 nsresult
 error
 =
@@ -14419,9 +14503,11 @@ states
 UNAVAILABLE
 )
 )
+{
 return
 eNoAction
 ;
+}
 if
 (
 mContent
@@ -14431,6 +14517,7 @@ IsXULElement
 (
 )
 )
+{
 if
 (
 mContent
@@ -14450,9 +14537,12 @@ nsGkAtoms
 popup
 )
 )
+{
 return
 eClickAction
 ;
+}
+}
 bool
 isOnclick
 =
@@ -14493,12 +14583,14 @@ actionRule
 =
 eNoAction
 )
+{
 return
 roleMapEntry
 -
 >
 actionRule
 ;
+}
 if
 (
 nsAccUtils
@@ -14513,9 +14605,11 @@ nsGkAtoms
 aria_expanded
 )
 )
+{
 return
 eExpandAction
 ;
+}
 return
 eNoAction
 ;
@@ -14892,10 +14986,12 @@ roles
 :
 LISTITEM
 )
+{
 +
 +
 level
 ;
+}
 else
 if
 (
@@ -14916,8 +15012,10 @@ roles
 :
 GROUPING
 )
+{
 break
 ;
+}
 }
 if
 (
@@ -15019,9 +15117,11 @@ roles
 :
 GROUPING
 )
+{
 return
 1
 ;
+}
 }
 }
 }
@@ -15325,6 +15425,7 @@ if
 (
 stringBundleService
 )
+{
 stringBundleService
 -
 >
@@ -15351,6 +15452,7 @@ keyStringBundle
 )
 )
 ;
+}
 if
 (
 !

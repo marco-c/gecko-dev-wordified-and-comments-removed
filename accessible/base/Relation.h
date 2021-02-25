@@ -195,6 +195,7 @@ if
 (
 mLastIter
 )
+{
 mLastIter
 -
 >
@@ -205,7 +206,9 @@ reset
 aIter
 )
 ;
+}
 else
+{
 mFirstIter
 .
 reset
@@ -213,6 +216,7 @@ reset
 aIter
 )
 ;
+}
 mLastIter
 =
 aIter
@@ -298,6 +302,7 @@ Next
 )
 )
 )
+{
 mFirstIter
 =
 std
@@ -311,6 +316,7 @@ mFirstIter
 mNextIter
 )
 ;
+}
 if
 (
 !

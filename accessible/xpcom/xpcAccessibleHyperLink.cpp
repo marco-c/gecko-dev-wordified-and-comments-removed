@@ -465,9 +465,11 @@ AnchorCount
 )
 )
 )
+{
 return
 NS_ERROR_INVALID_ARG
 ;
+}
 RefPtr
 <
 nsIURI
@@ -659,9 +661,11 @@ AnchorCount
 )
 )
 )
+{
 return
 NS_ERROR_INVALID_ARG
 ;
+}
 NS_IF_ADDREF
 (
 *

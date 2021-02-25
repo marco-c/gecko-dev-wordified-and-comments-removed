@@ -392,6 +392,7 @@ RelationType
 :
 CONTROLLED_BY
 )
+{
 rel
 .
 AppendIter
@@ -408,6 +409,7 @@ _for
 )
 )
 ;
+}
 return
 rel
 ;

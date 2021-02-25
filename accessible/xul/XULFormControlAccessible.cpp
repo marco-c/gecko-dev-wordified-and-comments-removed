@@ -425,6 +425,7 @@ nsGkAtoms
 _default
 )
 )
+{
 state
 |
 =
@@ -433,6 +434,7 @@ states
 :
 DEFAULT
 ;
+}
 return
 state
 ;
@@ -847,6 +849,7 @@ DropmarkerOpen
 false
 )
 )
+{
 aName
 .
 AssignLiteral
@@ -856,7 +859,9 @@ close
 "
 )
 ;
+}
 else
+{
 aName
 .
 AssignLiteral
@@ -866,6 +871,7 @@ open
 "
 )
 ;
+}
 }
 }
 bool
@@ -1882,12 +1888,14 @@ toolbarname
 aName
 )
 )
+{
 aName
 .
 CompressWhitespace
 (
 )
 ;
+}
 return
 eNameOK
 ;

@@ -980,6 +980,7 @@ colIdx
 +
 +
 )
+{
 if
 (
 isColSelArray
@@ -1009,6 +1010,7 @@ selColCount
 -
 -
 ;
+}
 }
 }
 while
@@ -1418,6 +1420,7 @@ colIdx
 +
 +
 )
+{
 aCells
 -
 >
@@ -1430,6 +1433,7 @@ colCount
 colIdx
 )
 ;
+}
 continue
 ;
 }
@@ -1481,6 +1485,7 @@ IsARIASelected
 cell
 )
 )
+{
 aCells
 -
 >
@@ -1493,6 +1498,7 @@ colCount
 colIdx
 )
 ;
+}
 }
 }
 }
@@ -1651,6 +1657,7 @@ colIdx
 +
 +
 )
+{
 if
 (
 isColSelArray
@@ -1676,6 +1683,7 @@ colIdx
 =
 false
 ;
+}
 }
 }
 while
@@ -1706,6 +1714,7 @@ colIdx
 +
 +
 )
+{
 if
 (
 isColSelArray
@@ -1721,6 +1730,7 @@ AppendElement
 colIdx
 )
 ;
+}
 }
 void
 ARIAGridAccessible
@@ -2265,6 +2275,7 @@ if
 (
 aIsSelected
 )
+{
 rv
 =
 content
@@ -2290,7 +2301,9 @@ _ns
 aNotify
 )
 ;
+}
 else
+{
 rv
 =
 content
@@ -2316,6 +2329,7 @@ _ns
 aNotify
 )
 ;
+}
 }
 NS_ENSURE_SUCCESS
 (
@@ -3204,6 +3218,7 @@ _false
 eCaseMatters
 )
 )
+{
 *
 aState
 |
@@ -3218,6 +3233,7 @@ states
 :
 SELECTED
 ;
+}
 }
 already_AddRefed
 <
@@ -3395,10 +3411,12 @@ roles
 :
 COLUMNHEADER
 )
+{
 colCount
 +
 +
 ;
+}
 }
 nsAutoString
 stringIdx

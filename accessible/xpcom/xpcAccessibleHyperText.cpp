@@ -2357,6 +2357,7 @@ idx
 +
 +
 )
+{
 xpcRanges
 -
 >
@@ -2378,6 +2379,7 @@ idx
 )
 )
 ;
+}
 xpcRanges
 .
 forget
@@ -2486,6 +2488,7 @@ idx
 +
 +
 )
+{
 xpcRanges
 -
 >
@@ -2507,6 +2510,7 @@ idx
 )
 )
 ;
+}
 xpcRanges
 .
 forget

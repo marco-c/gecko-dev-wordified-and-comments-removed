@@ -534,6 +534,7 @@ logging
 eFocus
 )
 )
+{
 logging
 :
 :
@@ -549,6 +550,7 @@ Target
 aTarget
 )
 ;
+}
 #
 endif
 mActiveItem
@@ -605,6 +607,7 @@ IsElement
 (
 )
 )
+{
 SelectionMgr
 (
 )
@@ -620,6 +623,7 @@ AsElement
 )
 )
 ;
+}
 document
 -
 >
@@ -668,6 +672,7 @@ logging
 eFocus
 )
 )
+{
 logging
 :
 :
@@ -683,6 +688,7 @@ Target
 aTarget
 )
 ;
+}
 #
 endif
 mActiveItem
@@ -761,6 +767,7 @@ IsElement
 (
 )
 )
+{
 SelectionMgr
 (
 )
@@ -770,6 +777,7 @@ ClearControlSelectionListener
 (
 )
 ;
+}
 document
 -
 >
@@ -820,6 +828,7 @@ logging
 eFocus
 )
 )
+{
 logging
 :
 :
@@ -836,6 +845,7 @@ Item
 aItem
 )
 ;
+}
 #
 endif
 if
@@ -922,8 +932,10 @@ AreItemsOperable
 (
 )
 )
+{
 return
 ;
+}
 }
 mActiveItem
 =
@@ -1206,6 +1218,7 @@ logging
 eFocus
 )
 )
+{
 logging
 :
 :
@@ -1222,6 +1235,7 @@ Target
 aTarget
 )
 ;
+}
 #
 endif
 DocAccessible
@@ -1725,6 +1739,7 @@ logging
 eFocus
 )
 )
+{
 logging
 :
 :
@@ -1741,6 +1756,7 @@ Target
 target
 )
 ;
+}
 #
 endif
 SelectionMgr

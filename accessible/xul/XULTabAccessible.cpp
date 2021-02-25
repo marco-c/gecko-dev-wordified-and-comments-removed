@@ -294,6 +294,7 @@ selected
 &
 selected
 )
+{
 state
 |
 =
@@ -302,6 +303,7 @@ states
 :
 SELECTED
 ;
+}
 if
 (
 mContent
@@ -326,6 +328,7 @@ _true
 eCaseMatters
 )
 )
+{
 state
 |
 =
@@ -334,6 +337,7 @@ states
 :
 PINNED
 ;
+}
 }
 return
 state
