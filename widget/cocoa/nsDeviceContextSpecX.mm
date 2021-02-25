@@ -278,7 +278,7 @@ nsDeviceContextSpecX
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -319,7 +319,7 @@ mPrintSettings
 )
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 NS_IMPL_ISUPPORTS
@@ -1318,7 +1318,7 @@ double
 aRight
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 PMRect
 paperRect
@@ -1360,7 +1360,7 @@ paperRect
 .
 right
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 already_AddRefed

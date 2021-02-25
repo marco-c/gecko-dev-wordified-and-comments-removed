@@ -181,7 +181,7 @@ void
 )
 dealloc
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 mWindowMap
@@ -193,7 +193,7 @@ super
 dealloc
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 -
@@ -208,7 +208,7 @@ NSWindow
 )
 inWindow
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -254,7 +254,7 @@ windowData
 release
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 -
@@ -308,7 +308,7 @@ NSWindow
 )
 inWindow
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 mWindowMap
@@ -325,7 +325,7 @@ inWindow
 ]
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 -
@@ -340,7 +340,7 @@ NSWindow
 )
 inWindow
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 mWindowMap
@@ -354,7 +354,7 @@ inWindow
 ]
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 -
@@ -550,7 +550,7 @@ void
 )
 dealloc
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 [
@@ -567,7 +567,7 @@ super
 dealloc
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 +
@@ -582,7 +582,7 @@ NSWindow
 )
 aWindow
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 WindowDelegate
 *
@@ -630,7 +630,7 @@ delegate
 sendToplevelActivateEvents
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 +
@@ -645,7 +645,7 @@ NSWindow
 )
 aWindow
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 WindowDelegate
 *
@@ -694,7 +694,7 @@ delegate
 sendToplevelDeactivateEvents
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 +
@@ -709,7 +709,7 @@ NSWindow
 )
 aWindow
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 id
 firstResponder
@@ -736,7 +736,7 @@ firstResponder
 viewsWindowDidBecomeKey
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 +
@@ -751,7 +751,7 @@ NSWindow
 )
 aWindow
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 id
 firstResponder
@@ -778,7 +778,7 @@ firstResponder
 viewsWindowDidResignKey
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 -
@@ -1073,7 +1073,7 @@ NSNotification
 )
 inNotification
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 [
@@ -1096,7 +1096,7 @@ object
 ]
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 end

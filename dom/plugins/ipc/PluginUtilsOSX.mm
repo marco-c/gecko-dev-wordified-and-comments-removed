@@ -673,7 +673,7 @@ RemoteProcessEvents
 remoteEvent
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 [
@@ -834,7 +834,7 @@ InvokeNativeEventLoop
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 :
 :
@@ -847,7 +847,7 @@ kCFRunLoopDefaultMode
 true
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 #
@@ -904,7 +904,7 @@ char
 aProcessName
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 nsAutoreleasePool
 localPool

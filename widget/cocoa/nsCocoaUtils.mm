@@ -1390,7 +1390,7 @@ bool
 aShouldHide
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 static
 int
@@ -1442,7 +1442,7 @@ setPresentationOptions
 options
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 #
@@ -1631,7 +1631,7 @@ PrepareForNativeAppModalDialog
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 nsMenuBarX
 *
@@ -1766,7 +1766,7 @@ newMenuBar
 release
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -1777,7 +1777,7 @@ CleanUpAfterNativeAppModalDialog
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 nsMenuBarX
 *
@@ -1826,7 +1826,7 @@ paintMenubarForWindow
 mainWindow
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 static
@@ -3053,7 +3053,7 @@ nsAString
 aDist
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -3108,7 +3108,7 @@ length
 )
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 NSString
@@ -3750,7 +3750,7 @@ NSEvent
 aNativeEvent
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 aInputEvent
 .
@@ -3781,7 +3781,7 @@ timestamp
 ]
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 Modifiers
@@ -4210,7 +4210,7 @@ KeyBindingsCommand
 aCommands
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 MOZ_ASSERT
 (
@@ -4255,7 +4255,7 @@ aEvent
 ]
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 implementation

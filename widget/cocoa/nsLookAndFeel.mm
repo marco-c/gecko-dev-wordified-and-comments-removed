@@ -3375,7 +3375,7 @@ mInitialized
 =
 true
 ;
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 nscolor
 color
 ;
@@ -3798,5 +3798,5 @@ RecordTelemetry
 (
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 }

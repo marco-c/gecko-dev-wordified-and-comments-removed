@@ -490,7 +490,7 @@ nsOSXSystemProxySettings
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 mProxyDict
@@ -534,7 +534,7 @@ mSystemDynamicStore
 )
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -545,7 +545,7 @@ ProxyHasChanged
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 mProxyDict
@@ -563,7 +563,7 @@ SCDynamicStoreCopyProxies
 mSystemDynamicStore
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 nsresult
