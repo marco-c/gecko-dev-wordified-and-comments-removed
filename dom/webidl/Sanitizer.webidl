@@ -224,6 +224,7 @@ Throws
 DocumentFragment
 sanitize
 (
+optional
 SanitizerInput
 input
 )
@@ -234,6 +235,7 @@ Throws
 DOMString
 sanitizeToString
 (
+optional
 SanitizerInput
 input
 )
