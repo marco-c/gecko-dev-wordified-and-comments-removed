@@ -3428,6 +3428,25 @@ dmp
 )
         
 if
+not
+os
+.
+path
+.
+exists
+(
+dump_directory
+)
+:
+            
+os
+.
+makedirs
+(
+dump_directory
+)
+        
+if
 mozinfo
 .
 info
