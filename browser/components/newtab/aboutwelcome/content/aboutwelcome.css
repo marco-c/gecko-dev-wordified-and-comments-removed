@@ -4641,12 +4641,6 @@ display
 :
 flex
 ;
-align
--
-items
-:
-end
-;
 flex
 -
 direction
@@ -4678,6 +4672,12 @@ top
 justify
 -
 content
+:
+end
+;
+align
+-
+items
 :
 end
 ;
