@@ -30730,11 +30730,7 @@ frontend
 CompilationStencil
 stencil
 (
-input
-.
-get
-(
-)
+nullptr
 )
 ;
 JS
@@ -31058,11 +31054,7 @@ frontend
 CompilationStencil
 stencil
 (
-input
-.
-get
-(
-)
+nullptr
 )
 ;
 JS

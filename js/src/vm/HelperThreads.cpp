@@ -4453,8 +4453,10 @@ frontend
 CompilationStencil
 >
 (
-*
 stencilInput_
+-
+>
+source
 )
 ;
 if
