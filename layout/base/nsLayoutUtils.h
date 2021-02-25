@@ -2102,6 +2102,16 @@ nsTextFrame
 aFrame2
 )
 ;
+static
+bool
+AuthorSpecifiedBorderBackgroundDisablesTheming
+(
+mozilla
+:
+:
+StyleAppearance
+)
+;
 enum
 TransformResult
 {
