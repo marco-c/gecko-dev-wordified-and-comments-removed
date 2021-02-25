@@ -348,10 +348,6 @@ clang
 bin
 /
 clang
-"
-CFLAGS
-=
-"
 -
 -
 sysroot
