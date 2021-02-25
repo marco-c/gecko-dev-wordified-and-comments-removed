@@ -481,7 +481,7 @@ equal
 (
 bookmarkPanelTitle
 .
-textContent
+value
 isNewBookmark
 ?
 gNavigatorBundle

@@ -5195,8 +5195,9 @@ recent
 bookmarks
 -
 panel
--
-subheader
+=
+.
+value
 =
 Recent
 Bookmarks
