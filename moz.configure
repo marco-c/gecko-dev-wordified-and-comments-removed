@@ -1460,8 +1460,7 @@ template
 def
 bootstrap_path
 (
-*
-path_parts
+path
 *
 *
 kwargs
@@ -1504,6 +1503,16 @@ context
 as
 keyword
 arguments
+"
+)
+path_parts
+=
+path
+.
+split
+(
+"
+/
 "
 )
 bootstrap_toolchain_tasks
@@ -1979,8 +1988,7 @@ template
 def
 bootstrap_search_path
 (
-*
-path_parts
+path
 *
 *
 kwargs
@@ -1990,8 +1998,7 @@ depends
 (
 bootstrap_path
 (
-*
-path_parts
+path
 *
 *
 kwargs
@@ -2092,8 +2099,7 @@ bootstrap_search_path
 (
 "
 wine
-"
-"
+/
 bin
 "
 when
