@@ -96,6 +96,9 @@ TestFunctionTypeTraits
 TestHashTable
 "
 "
+TestIntegerPrintfMacros
+"
+"
 TestIntegerRange
 "
 "
@@ -221,6 +224,14 @@ TestPoisonArea
 "
 ]
 )
+DEFINES
+[
+"
+IMPL_MFBT
+"
+]
+=
+True
 DisableStlWrapping
 (
 )
@@ -257,7 +268,7 @@ USE_LIBS
 =
 [
 "
-mozglue
+mfbt
 "
 ]
 if

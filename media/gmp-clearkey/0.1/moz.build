@@ -21,14 +21,11 @@ Video
 GMP
 "
 )
-GeckoSharedLibrary
+SharedLibrary
 (
 "
 clearkey
 "
-linkage
-=
-None
 )
 FINAL_TARGET
 =
