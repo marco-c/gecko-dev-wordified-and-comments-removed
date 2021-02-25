@@ -28971,7 +28971,7 @@ if
 fun
 -
 >
-isNative
+isNativeFun
 (
 )
 )

@@ -18125,7 +18125,7 @@ return
 fun
 -
 >
-isNative
+isNativeFun
 (
 )
 &
@@ -19407,7 +19407,7 @@ if
 fun
 -
 >
-isNative
+isNativeFun
 (
 )
 )

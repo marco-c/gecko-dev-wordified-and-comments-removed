@@ -13693,7 +13693,7 @@ if
 fun
 -
 >
-isNative
+isNativeFun
 (
 )
 |

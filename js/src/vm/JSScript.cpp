@@ -23753,7 +23753,7 @@ if
 innerFun
 -
 >
-isNative
+isNativeFun
 (
 )
 )
