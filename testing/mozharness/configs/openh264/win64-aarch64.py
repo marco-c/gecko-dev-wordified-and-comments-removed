@@ -173,12 +173,6 @@ aarch64
 "
     
 "
-use_yasm
-"
-:
-False
-    
-"
 partial_env
 "
 :

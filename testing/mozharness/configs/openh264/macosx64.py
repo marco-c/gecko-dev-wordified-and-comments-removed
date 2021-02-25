@@ -124,12 +124,6 @@ x64
 "
     
 "
-use_yasm
-"
-:
-True
-    
-"
 operating_system
 "
 :
@@ -279,8 +273,10 @@ MOZ_FETCHES_DIR
 clang
 /
 bin
-/
 :
+"
+            
+"
 {
 MOZ_FETCHES_DIR
 }
@@ -288,7 +284,15 @@ MOZ_FETCHES_DIR
 cctools
 /
 bin
+:
+"
+            
+"
+{
+MOZ_FETCHES_DIR
+}
 /
+nasm
 :
 %
 (

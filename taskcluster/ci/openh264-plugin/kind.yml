@@ -465,6 +465,10 @@ dump
 -
 syms
 -
+linux64
+-
+nasm
+-
 macosx64
 -
 sdk
@@ -682,6 +686,10 @@ win64
 dump
 -
 syms
+-
+win64
+-
+nasm
 win64
 /
 opt
@@ -776,6 +784,10 @@ win64
 dump
 -
 syms
+-
+win64
+-
+nasm
 win64
 -
 aarch64
