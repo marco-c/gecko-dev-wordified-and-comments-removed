@@ -2133,7 +2133,7 @@ eReceiving
 MessagePhase
 :
 :
-TransferStart
+TransferEnd
 )
 ;
 #
