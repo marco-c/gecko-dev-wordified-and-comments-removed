@@ -47,7 +47,7 @@ Platform
 cpp
 "
 "
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 .
 cpp
 "

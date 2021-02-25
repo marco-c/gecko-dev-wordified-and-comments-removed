@@ -38,7 +38,7 @@ h
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -160,7 +160,7 @@ hyperLink
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -173,7 +173,7 @@ aText
 )
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxyLink
 =
@@ -277,7 +277,7 @@ LinkCount
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -362,7 +362,7 @@ aCharIndex
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

@@ -8,7 +8,7 @@ h
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -149,7 +149,7 @@ namespace
 a11y
 {
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 GetCOMInterface
@@ -194,13 +194,13 @@ isDefunct
 =
 false
 ;
-ProxyAccessible
+RemoteAccessible
 *
 thisPtr
 =
 const_cast
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 (
@@ -404,7 +404,7 @@ Interface
 QueryInterface
 (
 const
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )
@@ -489,7 +489,7 @@ forget
 ;
 }
 static
-ProxyAccessible
+RemoteAccessible
 *
 GetProxyFor
 (
@@ -567,7 +567,7 @@ id
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 Name
@@ -659,7 +659,7 @@ eNameOK
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 Value
@@ -746,7 +746,7 @@ resultWrap
 ;
 }
 double
-ProxyAccessible
+RemoteAccessible
 :
 :
 Step
@@ -809,7 +809,7 @@ increment
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 Description
@@ -896,7 +896,7 @@ resultWrap
 ;
 }
 uint64_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 State
@@ -960,7 +960,7 @@ state
 ;
 }
 nsIntRect
-ProxyAccessible
+RemoteAccessible
 :
 :
 Bounds
@@ -1055,7 +1055,7 @@ rect
 ;
 }
 nsIntRect
-ProxyAccessible
+RemoteAccessible
 :
 :
 BoundsInCSSPixels
@@ -1122,7 +1122,7 @@ rect
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 Language
@@ -1591,7 +1591,7 @@ true
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 Attributes
@@ -1724,10 +1724,10 @@ aAttrs
 }
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
-ProxyAccessible
+RemoteAccessible
 :
 :
 RelationByType
@@ -1760,7 +1760,7 @@ acc
 return
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 (
@@ -1824,7 +1824,7 @@ relationType
 return
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 (
@@ -1868,7 +1868,7 @@ hr
 return
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 (
@@ -1877,7 +1877,7 @@ ProxyAccessible
 }
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 proxies
@@ -1938,7 +1938,7 @@ proxies
 ;
 }
 double
-ProxyAccessible
+RemoteAccessible
 :
 :
 CurValue
@@ -2021,7 +2021,7 @@ dblVal
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 SetCurValue
@@ -2094,7 +2094,7 @@ hr
 ;
 }
 double
-ProxyAccessible
+RemoteAccessible
 :
 :
 MinValue
@@ -2177,7 +2177,7 @@ dblVal
 ;
 }
 double
-ProxyAccessible
+RemoteAccessible
 :
 :
 MaxValue
@@ -2317,7 +2317,7 @@ MOZ_CRASH
 }
 }
 int32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 OffsetAtPoint
@@ -2457,7 +2457,7 @@ offset
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 TextSubstring
@@ -2557,7 +2557,7 @@ true
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 GetTextBeforeOffset
@@ -2666,7 +2666,7 @@ result
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 GetTextAfterOffset
@@ -2775,7 +2775,7 @@ end
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 GetTextAtOffset
@@ -2884,7 +2884,7 @@ end
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 AddToSelection
@@ -2946,7 +2946,7 @@ aEndOffset
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 RemoveFromSelection
@@ -2999,7 +2999,7 @@ aSelectionNum
 ;
 }
 int32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 CaretOffset
@@ -3070,7 +3070,7 @@ offset
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 SetCaretOffset
@@ -3118,7 +3118,7 @@ aOffset
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 ScrollSubstringTo
@@ -3184,7 +3184,7 @@ aScrollType
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 ScrollSubstringToPoint
@@ -3310,7 +3310,7 @@ aY
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 StartOffset
@@ -3378,7 +3378,7 @@ startOffset
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 EndOffset
@@ -3446,7 +3446,7 @@ endOffset
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 IsLinkValid
@@ -3504,7 +3504,7 @@ valid
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 AnchorCount
@@ -3574,9 +3574,9 @@ return
 count
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 :
 :
 AnchorAt
@@ -3642,7 +3642,7 @@ vt
 VT_UNKNOWN
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 proxyAnchor
 =
@@ -3670,7 +3670,7 @@ proxyAnchor
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 DOMNodeID
@@ -3752,7 +3752,7 @@ resultWrap
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TakeFocus
@@ -3795,9 +3795,9 @@ kChildIdSelf
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 :
 :
 ChildAtPoint
@@ -3845,7 +3845,7 @@ Document
 (
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

@@ -153,7 +153,7 @@ class
 OuterDocAccessible
 ;
 class
-ProxyAccessible
+RemoteAccessible
 ;
 class
 Relation
@@ -1654,7 +1654,7 @@ mType
 eProxyType
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 Proxy
 (
@@ -3134,7 +3134,7 @@ AccGroupInfo
 *
 groupInfo
 ;
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 ;

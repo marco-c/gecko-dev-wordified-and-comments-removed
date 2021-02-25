@@ -56,7 +56,7 @@ h
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -2176,7 +2176,7 @@ name
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2358,7 +2358,7 @@ uniDesc
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3198,7 +3198,7 @@ GetAttributeSet
 accWrap
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3604,7 +3604,7 @@ return
 ;
 }
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3744,7 +3744,7 @@ if
 docOwner
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxyDoc
 =
@@ -3772,7 +3772,7 @@ proxyDoc
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3797,7 +3797,7 @@ return
 nullptr
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 child
 =
@@ -3883,7 +3883,7 @@ aAtkObj
 {
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3895,7 +3895,7 @@ aAtkObj
 {
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 parent
 =
@@ -4184,7 +4184,7 @@ state_set
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -4350,7 +4350,7 @@ IsRoot
 {
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxyDoc
 =
@@ -4474,7 +4474,7 @@ RELATIONTYPE
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -4494,7 +4494,7 @@ nsTArray
 <
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 >
@@ -4866,7 +4866,7 @@ return
 accWrap
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 GetProxy
 (
@@ -4923,7 +4923,7 @@ AtkObject
 *
 GetWrapperFor
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )
@@ -4993,7 +4993,7 @@ static
 uint16_t
 GetInterfacesForProxy
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 uint32_t
@@ -5199,7 +5199,7 @@ a11y
 :
 ProxyCreated
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 uint32_t
@@ -5320,7 +5320,7 @@ a11y
 :
 ProxyDestroyed
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )
@@ -6790,7 +6790,7 @@ a11y
 :
 ProxyEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 uint32_t
@@ -7025,7 +7025,7 @@ a11y
 :
 ProxyStateChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 uint64_t
@@ -7062,7 +7062,7 @@ a11y
 :
 ProxyCaretMoveEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 int32_t
@@ -7258,7 +7258,7 @@ a11y
 :
 ProxyTextChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 const
@@ -7509,10 +7509,10 @@ a11y
 :
 ProxyShowHideEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
-ProxyAccessible
+RemoteAccessible
 *
 aParent
 bool
@@ -7646,9 +7646,9 @@ a11y
 :
 ProxySelectionEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 *
 aWidget
 uint32_t

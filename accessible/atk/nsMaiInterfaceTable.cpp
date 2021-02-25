@@ -52,7 +52,7 @@ h
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -179,7 +179,7 @@ cell
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -192,7 +192,7 @@ aTable
 )
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 cell
 =
@@ -309,7 +309,7 @@ aColIdx
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -407,7 +407,7 @@ aIdx
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -504,7 +504,7 @@ aIdx
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -586,7 +586,7 @@ ColCount
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -667,7 +667,7 @@ RowCount
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -771,7 +771,7 @@ aColIdx
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -860,7 +860,7 @@ aColIdx
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -954,7 +954,7 @@ nullptr
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -967,7 +967,7 @@ aTable
 )
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 caption
 =
@@ -1044,7 +1044,7 @@ autoStr
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1146,7 +1146,7 @@ nullptr
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1159,7 +1159,7 @@ aTable
 )
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 header
 =
@@ -1237,7 +1237,7 @@ autoStr
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1339,7 +1339,7 @@ nullptr
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1352,7 +1352,7 @@ aTable
 )
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 header
 =
@@ -1453,7 +1453,7 @@ cols
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1614,7 +1614,7 @@ rows
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1760,7 +1760,7 @@ aColIdx
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1844,7 +1844,7 @@ aRowIdx
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1931,7 +1931,7 @@ aColIdx
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

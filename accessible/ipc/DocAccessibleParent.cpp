@@ -249,7 +249,7 @@ added
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 parent
 =
@@ -479,7 +479,7 @@ IPC_OK
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 target
 =
@@ -595,7 +595,7 @@ DocAccessibleParent
 :
 AddSubtree
 (
-ProxyAccessible
+RemoteAccessible
 *
 aParent
 const
@@ -680,12 +680,12 @@ return
 0
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 newProxy
 =
 new
-ProxyAccessible
+RemoteAccessible
 (
 newChild
 .
@@ -1040,7 +1040,7 @@ IPC_OK
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 root
 =
@@ -1072,7 +1072,7 @@ IPC_OK
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 parent
 =
@@ -1135,7 +1135,7 @@ GetXPCAccessible
 parent
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 next
 =
@@ -1159,7 +1159,7 @@ next
 :
 nullptr
 ;
-ProxyAccessible
+RemoteAccessible
 *
 prev
 =
@@ -1300,7 +1300,7 @@ IPC_OK
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1462,7 +1462,7 @@ IPC_OK
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 target
 =
@@ -1673,7 +1673,7 @@ IPC_OK
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1875,7 +1875,7 @@ IPC_OK
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 target
 =
@@ -2115,7 +2115,7 @@ IPC_OK
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 target
 =
@@ -2124,7 +2124,7 @@ GetAccessible
 aID
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 widget
 =
@@ -2308,7 +2308,7 @@ IPC_OK
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 target
 =
@@ -2317,7 +2317,7 @@ GetAccessible
 aID
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 oldPosition
 =
@@ -2326,7 +2326,7 @@ GetAccessible
 aOldPositionID
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 newPosition
 =
@@ -2516,7 +2516,7 @@ IPC_OK
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 target
 =
@@ -2709,7 +2709,7 @@ IPC_OK
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 target
 =
@@ -2876,7 +2876,7 @@ IPC_OK
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 target
 =
@@ -3267,7 +3267,7 @@ proxy
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 outerDoc
 =
@@ -4407,7 +4407,7 @@ DocAccessibleParent
 :
 GetXPCAccessible
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )
@@ -5184,7 +5184,7 @@ IPC_OK
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -5365,7 +5365,7 @@ IPC_OK
 }
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 proxies
@@ -5441,7 +5441,7 @@ IsShutdown
 continue
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

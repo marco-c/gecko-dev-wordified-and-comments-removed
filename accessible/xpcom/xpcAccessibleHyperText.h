@@ -104,7 +104,7 @@ eText
 }
 xpcAccessibleHyperText
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 uint32_t

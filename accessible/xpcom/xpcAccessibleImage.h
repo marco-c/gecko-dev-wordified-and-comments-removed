@@ -50,7 +50,7 @@ aIntl
 }
 xpcAccessibleImage
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 uint32_t

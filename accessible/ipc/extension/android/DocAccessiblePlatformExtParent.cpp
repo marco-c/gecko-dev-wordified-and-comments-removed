@@ -105,7 +105,7 @@ IPC_OK
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 first
 =
@@ -124,7 +124,7 @@ GetAccessible
 aFirst
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 last
 =

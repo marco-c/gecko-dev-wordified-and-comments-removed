@@ -857,7 +857,7 @@ xpcAccessibleDocument
 :
 GetXPCAccessible
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )

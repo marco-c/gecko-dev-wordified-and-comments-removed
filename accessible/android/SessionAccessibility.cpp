@@ -897,7 +897,7 @@ SessionAccessibility
 :
 GetInstanceFor
 (
-ProxyAccessible
+RemoteAccessible
 *
 aAccessible
 )

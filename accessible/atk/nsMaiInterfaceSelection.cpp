@@ -31,7 +31,7 @@ h
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -113,7 +113,7 @@ i
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -185,7 +185,7 @@ UnselectAll
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -290,7 +290,7 @@ selectedItem
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -303,7 +303,7 @@ aSelection
 )
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 selectedItem
 =
@@ -389,7 +389,7 @@ SelectedItemCount
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -464,7 +464,7 @@ i
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -539,7 +539,7 @@ i
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -611,7 +611,7 @@ SelectAll
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

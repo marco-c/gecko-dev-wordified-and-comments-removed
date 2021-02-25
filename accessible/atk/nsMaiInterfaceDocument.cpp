@@ -38,7 +38,7 @@ h
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -225,7 +225,7 @@ locale
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -438,7 +438,7 @@ mimeType
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -519,7 +519,7 @@ gchar
 aAttrName
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

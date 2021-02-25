@@ -815,7 +815,7 @@ YES
 return
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -910,7 +910,7 @@ i
 {
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 postMatch
 =

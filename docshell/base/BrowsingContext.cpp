@@ -50,7 +50,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessibleBase
+RemoteAccessibleBase
 .
 h
 "

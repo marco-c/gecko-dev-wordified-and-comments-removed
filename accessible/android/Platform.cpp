@@ -8,7 +8,7 @@ h
 #
 include
 "
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 .
 h
 "
@@ -33,7 +33,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -128,7 +128,7 @@ a11y
 :
 ProxyCreated
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 uint32_t
@@ -154,7 +154,7 @@ IsDoc
 wrapper
 =
 new
-DocProxyAccessibleWrap
+DocRemoteAccessibleWrap
 (
 aProxy
 -
@@ -170,7 +170,7 @@ else
 wrapper
 =
 new
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 (
 aProxy
 )
@@ -204,7 +204,7 @@ a11y
 :
 ProxyDestroyed
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )
@@ -265,7 +265,7 @@ a11y
 :
 ProxyEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 uint32_t
@@ -327,7 +327,7 @@ a11y
 :
 ProxyStateChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 uint64_t
@@ -497,7 +497,7 @@ a11y
 :
 ProxyCaretMoveEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 int32_t
@@ -545,7 +545,7 @@ a11y
 :
 ProxyTextChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 const
@@ -605,10 +605,10 @@ a11y
 :
 ProxyShowHideEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
-ProxyAccessible
+RemoteAccessible
 *
 aParent
 bool
@@ -624,9 +624,9 @@ a11y
 :
 ProxySelectionEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 *
 uint32_t
 )
@@ -638,17 +638,17 @@ a11y
 :
 ProxyVirtualCursorChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
-ProxyAccessible
+RemoteAccessible
 *
 aOldPosition
 int32_t
 aOldStartOffset
 int32_t
 aOldEndOffset
-ProxyAccessible
+RemoteAccessible
 *
 aNewPosition
 int32_t
@@ -786,7 +786,7 @@ a11y
 :
 ProxyScrollingEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 uint32_t
@@ -855,7 +855,7 @@ a11y
 :
 ProxyAnnouncementEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 const
@@ -906,7 +906,7 @@ a11y
 :
 ProxyBatch
 (
-ProxyAccessible
+RemoteAccessible
 *
 aDocument
 const
@@ -915,7 +915,7 @@ aBatchType
 const
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 &

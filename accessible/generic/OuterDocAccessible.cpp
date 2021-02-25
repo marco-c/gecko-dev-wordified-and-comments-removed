@@ -927,7 +927,7 @@ RemoteChildDocAccessible
 )
 const
 {
-ProxyAccessible
+RemoteAccessible
 *
 docProxy
 =

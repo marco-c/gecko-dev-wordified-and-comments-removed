@@ -110,7 +110,7 @@ DocAccessible
 aDocument
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 GetPrimaryRemoteTopLevelContentDoc
 (

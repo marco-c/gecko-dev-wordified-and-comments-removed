@@ -100,7 +100,7 @@ PlatformChild
 h
 "
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -140,7 +140,7 @@ PlatformChild
 cpp
 "
 "
-ProxyAccessible
+RemoteAccessible
 .
 cpp
 "

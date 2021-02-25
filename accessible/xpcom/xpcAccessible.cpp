@@ -251,7 +251,7 @@ return
 rv
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -370,7 +370,7 @@ return
 rv
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1051,7 +1051,7 @@ nsAString
 aID
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1388,7 +1388,7 @@ name
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1463,7 +1463,7 @@ desc
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1538,7 +1538,7 @@ lang
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1613,7 +1613,7 @@ value
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1688,7 +1688,7 @@ help
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1779,7 +1779,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1871,7 +1871,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2004,7 +2004,7 @@ return
 NS_OK
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2668,7 +2668,7 @@ return
 NS_OK
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2682,7 +2682,7 @@ AsProxy
 ;
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 targets
@@ -2989,7 +2989,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3295,7 +3295,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3370,7 +3370,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3443,7 +3443,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3516,7 +3516,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3600,7 +3600,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3709,7 +3709,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3815,7 +3815,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3899,7 +3899,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3988,7 +3988,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -4060,7 +4060,7 @@ aPriority
 {
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

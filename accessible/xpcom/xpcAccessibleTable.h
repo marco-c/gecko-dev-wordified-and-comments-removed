@@ -50,7 +50,7 @@ aIntl
 }
 xpcAccessibleTable
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 uint32_t

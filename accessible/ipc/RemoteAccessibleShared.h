@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_a11y_ProxyAccessibleShared_h
+mozilla_a11y_RemoteAccessibleShared_h
 #
 define
-mozilla_a11y_ProxyAccessibleShared_h
+mozilla_a11y_RemoteAccessibleShared_h
 uint64_t
 State
 (
@@ -66,7 +66,7 @@ const
 ;
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 RelationByType
@@ -89,7 +89,7 @@ nsTArray
 <
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 >
@@ -513,7 +513,7 @@ bool
 aOk
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 AnchorAt
 (
@@ -526,7 +526,7 @@ LinkCount
 (
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 LinkAt
 (
@@ -539,7 +539,7 @@ aIndex
 int32_t
 LinkIndexOf
 (
-ProxyAccessible
+RemoteAccessible
 *
 aLink
 )
@@ -551,7 +551,7 @@ uint32_t
 aOffset
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 TableOfACell
 (
@@ -610,7 +610,7 @@ ColHeaderCells
 (
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 *
@@ -622,7 +622,7 @@ RowHeaderCells
 (
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 *
@@ -634,7 +634,7 @@ IsCellSelected
 (
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 TableCaption
 (
@@ -658,7 +658,7 @@ TableRowCount
 (
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 TableCellAt
 (
@@ -785,7 +785,7 @@ TableSelectedCells
 (
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 *
@@ -858,7 +858,7 @@ TableIsProbablyForLayout
 (
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 AtkTableColumnHeader
 (
@@ -866,7 +866,7 @@ int32_t
 aCol
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 AtkTableRowHeader
 (
@@ -879,7 +879,7 @@ SelectedItems
 (
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 *
@@ -891,7 +891,7 @@ SelectedItemCount
 (
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 GetSelectedItem
 (
@@ -1024,13 +1024,13 @@ TakeFocus
 (
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 FocusedChild
 (
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 ChildAtPoint
 (

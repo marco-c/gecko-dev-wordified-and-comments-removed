@@ -11,7 +11,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -879,7 +879,7 @@ new
 a11y
 :
 :
-RemoteIframeDocProxyAccessibleWrap
+RemoteIframeDocRemoteAccessibleWrap
 (
 comProxy
 )

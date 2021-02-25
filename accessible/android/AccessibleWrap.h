@@ -18,7 +18,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -538,7 +538,7 @@ AccessibleWrap
 WrapperFor
 (
 const
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )

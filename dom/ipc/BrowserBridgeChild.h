@@ -46,7 +46,7 @@ namespace
 a11y
 {
 class
-RemoteIframeDocProxyAccessibleWrap
+RemoteIframeDocRemoteAccessibleWrap
 ;
 }
 namespace
@@ -217,7 +217,7 @@ XP_WIN
 a11y
 :
 :
-RemoteIframeDocProxyAccessibleWrap
+RemoteIframeDocRemoteAccessibleWrap
 *
 GetEmbeddedDocAccessible
 (
@@ -465,7 +465,7 @@ RefPtr
 a11y
 :
 :
-RemoteIframeDocProxyAccessibleWrap
+RemoteIframeDocRemoteAccessibleWrap
 >
 mEmbeddedDocAccessible
 ;

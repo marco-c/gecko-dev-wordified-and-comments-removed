@@ -45,7 +45,7 @@ h
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -173,7 +173,7 @@ geckoCoordType
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -302,7 +302,7 @@ Size
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

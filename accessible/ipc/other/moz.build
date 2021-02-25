@@ -35,7 +35,7 @@ DocAccessibleChild
 h
 "
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -50,7 +50,7 @@ DocAccessibleChild
 cpp
 "
 "
-ProxyAccessible
+RemoteAccessible
 .
 cpp
 "

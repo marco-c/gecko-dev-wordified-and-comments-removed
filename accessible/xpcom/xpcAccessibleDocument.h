@@ -79,7 +79,7 @@ false
 }
 xpcAccessibleDocument
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 uint32_t
@@ -215,7 +215,7 @@ xpcAccessibleGeneric
 *
 GetXPCAccessible
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )
@@ -357,7 +357,7 @@ AsDoc
 void
 NotifyOfShutdown
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )
@@ -447,13 +447,13 @@ DocAccessible
 ;
 friend
 class
-ProxyAccessible
+RemoteAccessible
 ;
 friend
 class
-ProxyAccessibleBase
+RemoteAccessibleBase
 <
-ProxyAccessible
+RemoteAccessible
 >
 ;
 friend

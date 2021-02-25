@@ -33,7 +33,7 @@ h
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -142,7 +142,7 @@ strContent
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -255,7 +255,7 @@ aPosition
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -358,7 +358,7 @@ aEndPos
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -454,7 +454,7 @@ aEndPos
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -550,7 +550,7 @@ aEndPos
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -646,7 +646,7 @@ aPosition
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

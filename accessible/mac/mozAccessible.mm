@@ -585,7 +585,7 @@ State
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1117,7 +1117,7 @@ AsAccessible
 (
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1230,7 +1230,7 @@ if
 proxy
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 focusedGeckoChild
 =
@@ -2131,7 +2131,7 @@ AsAccessible
 (
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3047,7 +3047,7 @@ AsAccessible
 (
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3417,7 +3417,7 @@ Document
 }
 else
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -4992,7 +4992,7 @@ return
 relations
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -5004,7 +5004,7 @@ AsProxy
 ;
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 rel

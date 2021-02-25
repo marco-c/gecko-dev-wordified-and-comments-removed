@@ -40,7 +40,7 @@ h
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -101,7 +101,7 @@ aActionIndex
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -161,7 +161,7 @@ ActionCount
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -232,7 +232,7 @@ description
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -317,7 +317,7 @@ autoStr
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -402,7 +402,7 @@ keyBindingsStr
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
