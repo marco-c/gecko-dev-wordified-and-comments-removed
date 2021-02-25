@@ -157,6 +157,14 @@ stopProfilerNowAndGetThreads
 contentPid
 )
 {
+Services
+.
+profiler
+.
+Pause
+(
+)
+;
 const
 profile
 =
