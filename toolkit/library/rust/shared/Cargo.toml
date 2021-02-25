@@ -392,7 +392,7 @@ github
 .
 com
 /
-ChunMinChang
+mozilla
 /
 cubeb
 -
@@ -403,7 +403,7 @@ rs
 rev
 =
 "
-1e1222d6213e28eabd7f4302d00765ae1153a31e
+3d071d733d13bde0af033e7973e53938b2ab53e6
 "
 optional
 =
@@ -425,7 +425,7 @@ github
 .
 com
 /
-djg
+mozilla
 /
 cubeb
 -
@@ -436,7 +436,7 @@ rs
 rev
 =
 "
-bf31534d08b2c16fb5e4c5834944ae3271efbd63
+c87b50aebfa088c1ad30c74819d4e9829f88b2e3
 "
 optional
 =
@@ -461,7 +461,7 @@ version
 "
 0
 .
-8
+9
 "
 optional
 =
