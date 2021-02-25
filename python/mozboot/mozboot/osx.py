@@ -1421,26 +1421,33 @@ html
 "
         
 "
-#
-install
--
-via
--
-homebrew
 for
 guidance
 on
 how
 to
-install
-Python
-on
+prepare
 your
+system
+to
+build
+Firefox
+.
+Perhaps
 "
         
 "
-system
-.
+you
+need
+to
+update
+Xcode
+or
+install
+Python
+using
+brew
+?
 "
     
 )
