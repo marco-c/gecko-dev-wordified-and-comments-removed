@@ -301,7 +301,7 @@ TimeDuration
 :
 FromSeconds
 (
-2
+5
 .
 0
 )
