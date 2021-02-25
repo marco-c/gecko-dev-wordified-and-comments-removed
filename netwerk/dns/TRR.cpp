@@ -1724,6 +1724,10 @@ getter_AddRefs
 mTimeout
 )
 this
+mTimeoutMs
+?
+mTimeoutMs
+:
 gTRRService
 -
 >
