@@ -219,9 +219,6 @@ file
 COPYING
 updatebot
 :
-enabled
-:
-True
 maintainer
 -
 phab
@@ -235,6 +232,15 @@ tom
 mozilla
 .
 com
+tasks
+:
+-
+type
+:
+vendoring
+enabled
+:
+True
 vendoring
 :
 url
