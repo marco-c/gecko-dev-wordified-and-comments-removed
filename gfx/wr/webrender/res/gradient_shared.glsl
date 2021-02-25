@@ -305,7 +305,7 @@ WR_VERTEX_SHADER
 ifdef
 WR_FRAGMENT_SHADER
 vec2
-compute_gradient_pos
+compute_repeated_pos
 (
 )
 {
