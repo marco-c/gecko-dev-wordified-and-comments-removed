@@ -151,7 +151,7 @@ shadow
 -
 7px
 #
-000
+00000080
 ;
 }
 notification
@@ -731,6 +731,7 @@ height
 margin
 :
 4px
+0
 ;
 -
 moz
@@ -938,7 +939,7 @@ inline
 -
 end
 :
-16px
+8px
 ;
 }
 .
