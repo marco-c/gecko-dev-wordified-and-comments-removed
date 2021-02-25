@@ -890,6 +890,8 @@ createForGlobalScope
 (
 cx
 stencil
+.
+alloc
 compilationState
 ScopeKind
 :
@@ -1012,6 +1014,8 @@ createForVarScope
 (
 cx
 stencil
+.
+alloc
 compilationState
 ScopeKind
 :
@@ -1156,6 +1160,8 @@ createForLexicalScope
 (
 cx
 stencil
+.
+alloc
 compilationState
 ScopeKind
 :
@@ -1349,6 +1355,8 @@ createForFunctionScope
 (
 cx
 stencil
+.
+alloc
 compilationState
 data
 hasParameterExprs

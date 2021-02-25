@@ -2129,6 +2129,8 @@ bce
 -
 >
 stencil
+.
+alloc
 bce
 -
 >
@@ -2425,6 +2427,8 @@ bce
 -
 >
 stencil
+.
+alloc
 bce
 -
 >
@@ -2962,6 +2966,8 @@ bce
 -
 >
 stencil
+.
+alloc
 bce
 -
 >
@@ -3322,6 +3328,8 @@ bce
 -
 >
 stencil
+.
+alloc
 bce
 -
 >
@@ -3538,6 +3546,8 @@ bce
 -
 >
 stencil
+.
+alloc
 bce
 -
 >
@@ -3830,6 +3840,8 @@ bce
 -
 >
 stencil
+.
+alloc
 bce
 -
 >
@@ -4239,6 +4251,8 @@ bce
 -
 >
 stencil
+.
+alloc
 bce
 -
 >
@@ -4357,6 +4371,8 @@ bce
 -
 >
 stencil
+.
+alloc
 bce
 -
 >
