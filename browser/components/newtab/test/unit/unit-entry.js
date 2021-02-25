@@ -1386,6 +1386,14 @@ scalarSet
 >
 {
 }
+keyedScalarAdd
+:
+(
+)
+=
+>
+{
+}
 }
 console
 :
