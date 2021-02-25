@@ -3887,6 +3887,8 @@ default
 webgl
 -
 ipc
+-
+profiling
 '
 ]
 max
