@@ -490,10 +490,13 @@ nsISocketTransportService
 >
 realSTS
 =
-services
+components
 :
 :
-GetSocketTransportService
+SocketTransport
+:
+:
+Service
 (
 )
 ;
