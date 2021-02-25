@@ -142,7 +142,7 @@ requestPermission
 ;
 Promise
 <
-void
+undefined
 >
 start
 (
