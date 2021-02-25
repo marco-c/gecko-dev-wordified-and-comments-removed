@@ -1225,8 +1225,6 @@ return
 LOOKUP_OK
 ;
 }
-else
-{
 if
 (
 mFirstTRR
@@ -1370,7 +1368,6 @@ MapNAT64IPs
 newRRSet
 )
 ;
-}
 }
 if
 (

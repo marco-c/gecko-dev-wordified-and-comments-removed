@@ -128,8 +128,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 static
@@ -2251,6 +2251,5 @@ Clear
 return
 NS_OK
 ;
-}
 }
 }
