@@ -14881,6 +14881,7 @@ frontend
 CompilationInput
 &
 input
+const
 frontend
 :
 :
@@ -14981,7 +14982,17 @@ xdrEncoder
 codeStencil
 (
 input
+const_cast
+<
+frontend
+:
+:
+CompilationStencil
+&
+>
+(
 stencil
+)
 )
 ;
 if
@@ -15032,6 +15043,7 @@ frontend
 CompilationInput
 &
 input
+const
 frontend
 :
 :
@@ -15132,6 +15144,7 @@ xdrEncodeFunctionStencil
 JSContext
 *
 cx
+const
 frontend
 :
 :
@@ -15181,6 +15194,7 @@ xdrEncodeFunctionStencilWith
 JSContext
 *
 cx
+const
 frontend
 :
 :
@@ -15225,7 +15239,17 @@ xdrEncoder
 >
 codeFunctionStencil
 (
+const_cast
+<
+frontend
+:
+:
+BaseCompilationStencil
+&
+>
+(
 stencil
+)
 )
 ;
 if

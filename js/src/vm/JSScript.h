@@ -4302,6 +4302,7 @@ frontend
 CompilationInput
 &
 input
+const
 frontend
 :
 :
@@ -4328,6 +4329,7 @@ frontend
 CompilationInput
 &
 input
+const
 frontend
 :
 :
@@ -4356,6 +4358,7 @@ xdrEncodeFunctionStencil
 JSContext
 *
 cx
+const
 frontend
 :
 :
@@ -4372,6 +4375,7 @@ xdrEncodeFunctionStencilWith
 JSContext
 *
 cx
+const
 frontend
 :
 :
