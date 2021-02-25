@@ -1050,6 +1050,9 @@ initFromLazy
 BaseScript
 *
 lazyScript
+ScriptSource
+*
+ss
 )
 {
 target
@@ -1062,6 +1065,10 @@ Delazification
 lazy
 =
 lazyScript
+;
+source
+=
+ss
 ;
 enclosingScope
 =
