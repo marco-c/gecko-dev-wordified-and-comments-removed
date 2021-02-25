@@ -21135,13 +21135,10 @@ OutlineTypedObject
 )
 {
 return
-gc
+OutlineTypedObject
 :
 :
-AllocKind
-:
-:
-OBJECT0
+allocKind
 ;
 }
 return
