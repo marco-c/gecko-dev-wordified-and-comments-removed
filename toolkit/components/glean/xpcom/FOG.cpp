@@ -126,6 +126,10 @@ FOG
 :
 InitializeFOG
 (
+const
+nsACString
+&
+aDataPathOverride
 )
 {
 return
@@ -137,6 +141,8 @@ impl
 :
 fog_init
 (
+&
+aDataPathOverride
 )
 ;
 }

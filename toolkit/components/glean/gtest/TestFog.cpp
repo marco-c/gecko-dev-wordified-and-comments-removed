@@ -177,11 +177,17 @@ localhost_port
 1
 )
 ;
+const
+nsCString
+empty
+;
 ASSERT_EQ
 (
 NS_OK
 fog_init
 (
+&
+empty
 )
 )
 ;

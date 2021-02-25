@@ -28,6 +28,12 @@ nsISupports
 void
 initializeFOG
 (
+[
+optional
+]
+in
+AUTF8String
+aDataPathOverride
 )
 ;
 void
