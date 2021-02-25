@@ -21818,9 +21818,15 @@ group
 "
 )
 ;
-traceShape
+TraceEdge
 (
 trc
+shapePtr
+(
+)
+"
+shape
+"
 )
 ;
 const
