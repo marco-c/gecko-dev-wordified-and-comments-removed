@@ -47,6 +47,13 @@ prenv
 h
 "
 #
+include
+"
+gfxPlatform
+.
+h
+"
+#
 ifdef
 ANDROID
 #
@@ -758,6 +765,13 @@ path
 ;
 #
 endif
+gfxPlatform
+:
+:
+GetPlatform
+(
+)
+;
 nsCOMPtr
 <
 nsICrashReporter
