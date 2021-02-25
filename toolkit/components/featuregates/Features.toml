@@ -1302,14 +1302,7 @@ default
 -
 value
 =
-{
-default
-=
-false
-nightly
-=
 true
-}
 [
 cookie
 -
