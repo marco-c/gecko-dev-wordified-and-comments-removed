@@ -334,10 +334,9 @@ prim_user_data
 .
 y
 f
-textureSize
+TEX_SIZE
 (
 sColor0
-0
 )
 .
 xy
@@ -354,10 +353,9 @@ prim_user_data
 .
 z
 f
-textureSize
+TEX_SIZE
 (
 sColor1
-0
 )
 .
 xy

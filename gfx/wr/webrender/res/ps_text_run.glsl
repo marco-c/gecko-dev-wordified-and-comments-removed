@@ -1993,10 +1993,9 @@ texture_size
 =
 vec2
 (
-textureSize
+TEX_SIZE
 (
 sColor0
-0
 )
 )
 ;

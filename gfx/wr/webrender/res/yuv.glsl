@@ -79,7 +79,7 @@ ifdef
 WR_FEATURE_TEXTURE_RECT
 #
 define
-TEX_SIZE
+TEX_SIZE_YUV
 (
 sampler
 )
@@ -93,16 +93,15 @@ vec2
 else
 #
 define
-TEX_SIZE
+TEX_SIZE_YUV
 (
 sampler
 )
 vec2
 (
-textureSize
+TEX_SIZE
 (
 sampler
-0
 )
 .
 xy

@@ -474,7 +474,7 @@ aUvRect0
 .
 zw
 uv
-TEX_SIZE
+TEX_SIZE_YUV
 (
 sColor0
 )
@@ -491,7 +491,7 @@ aUvRect1
 .
 zw
 uv
-TEX_SIZE
+TEX_SIZE_YUV
 (
 sColor1
 )
@@ -508,7 +508,7 @@ aUvRect2
 .
 zw
 uv
-TEX_SIZE
+TEX_SIZE_YUV
 (
 sColor2
 )
@@ -622,7 +622,7 @@ clamped
 vec2
 texture_size
 =
-TEX_SIZE
+TEX_SIZE_YUV
 (
 sColor0
 )

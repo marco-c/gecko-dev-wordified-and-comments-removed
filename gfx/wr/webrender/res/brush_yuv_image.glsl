@@ -371,7 +371,7 @@ uv_rect
 .
 p1
 f
-TEX_SIZE
+TEX_SIZE_YUV
 (
 sColor0
 )
@@ -392,7 +392,7 @@ uv_rect
 .
 p1
 f
-TEX_SIZE
+TEX_SIZE_YUV
 (
 sColor1
 )
@@ -413,7 +413,7 @@ uv_rect
 .
 p1
 f
-TEX_SIZE
+TEX_SIZE_YUV
 (
 sColor2
 )
@@ -479,7 +479,7 @@ uv_rect
 .
 p1
 f
-TEX_SIZE
+TEX_SIZE_YUV
 (
 sColor0
 )
@@ -500,7 +500,7 @@ uv_rect
 .
 p1
 f
-TEX_SIZE
+TEX_SIZE_YUV
 (
 sColor1
 )
@@ -556,7 +556,7 @@ uv_rect
 .
 p1
 f
-TEX_SIZE
+TEX_SIZE_YUV
 (
 sColor0
 )

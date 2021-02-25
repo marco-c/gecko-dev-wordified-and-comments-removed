@@ -319,10 +319,9 @@ vec2
 /
 vec2
 (
-textureSize
+TEX_SIZE
 (
 sColor0
-0
 )
 .
 xy
