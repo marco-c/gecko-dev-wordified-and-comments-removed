@@ -14,17 +14,8 @@ function
 networkRequest
 (
 url
-:
-string
 opts
-:
-any
 )
-:
-Promise
-<
-*
->
 {
 if
 (

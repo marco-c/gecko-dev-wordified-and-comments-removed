@@ -52,8 +52,6 @@ traverseResults
 {
 const
 e
-:
-any
 =
 {
 stopPropagation
@@ -957,8 +955,6 @@ lineAtHeight
 {
 const
 e
-:
-any
 =
 {
 clientX
@@ -1051,8 +1047,6 @@ test
 ;
 const
 e
-:
-any
 =
 {
 clientX

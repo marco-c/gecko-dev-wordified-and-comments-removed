@@ -5,11 +5,7 @@ function
 setAssetRootURL
 (
 assetRoot
-:
-string
 )
-:
-void
 {
 root
 =
@@ -21,14 +17,7 @@ function
 getDwarfToWasmData
 (
 name
-:
-string
 )
-:
-Promise
-<
-ArrayBuffer
->
 {
 if
 (

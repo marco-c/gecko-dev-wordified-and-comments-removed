@@ -1,17 +1,4 @@
 import
-type
-{
-SourceWithContent
-}
-from
-"
-.
-.
-/
-types
-"
-;
-import
 {
 isFulfilled
 }
@@ -52,8 +39,6 @@ function
 isMinified
 (
 source
-:
-SourceWithContent
 )
 {
 if

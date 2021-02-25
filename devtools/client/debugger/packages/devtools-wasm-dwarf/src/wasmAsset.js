@@ -25,11 +25,7 @@ function
 setAssetRootURL
 (
 assetRoot
-:
-string
 )
-:
-void
 {
 }
 async
@@ -37,11 +33,6 @@ function
 getDwarfToWasmData
 (
 )
-:
-Promise
-<
-ArrayBuffer
->
 {
 const
 data

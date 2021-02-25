@@ -3,16 +3,8 @@ function
 scrollList
 (
 resultList
-:
-Element
-[
-]
 index
-:
-number
 )
-:
-void
 {
 if
 (

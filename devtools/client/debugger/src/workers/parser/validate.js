@@ -16,13 +16,7 @@ function
 hasSyntaxError
 (
 input
-:
-string
 )
-:
-string
-|
-false
 {
 try
 {

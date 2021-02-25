@@ -17,13 +17,7 @@ log
 .
 .
 args
-:
-any
-[
-]
 )
-:
-void
 {
 if
 (

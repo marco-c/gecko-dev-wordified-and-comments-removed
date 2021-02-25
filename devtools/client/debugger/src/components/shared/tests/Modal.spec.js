@@ -329,8 +329,6 @@ class
 {
 const
 status
-:
-any
 =
 "
 testStatus

@@ -483,11 +483,7 @@ breakpoint
 selectedSource
 frame
 :
-(
 null
-:
-any
-)
 editor
 :
 {

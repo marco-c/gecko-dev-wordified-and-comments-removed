@@ -211,16 +211,12 @@ FrameMenu
 {
 let
 mockEvent
-:
-any
 ;
 let
 mockFrame
 ;
 let
 emptyFrame
-:
-any
 ;
 let
 callbacks

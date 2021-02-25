@@ -3,11 +3,7 @@ function
 isConsole
 (
 expression
-:
-string
 )
-:
-boolean
 {
 return
 /

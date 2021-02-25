@@ -113,11 +113,7 @@ li
 "
 )
 ;
-(
 li
-:
-any
-)
 .
 scrollIntoView
 =

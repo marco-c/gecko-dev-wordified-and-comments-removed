@@ -90,8 +90,6 @@ frameProperties
 (
 frame
 selectedFrame
-:
-any
 overrides
 =
 {

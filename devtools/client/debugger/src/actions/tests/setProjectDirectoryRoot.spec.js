@@ -488,7 +488,6 @@ getState
 const
 filteredSources
 =
-(
 Object
 .
 values
@@ -496,9 +495,6 @@ values
 filteredSourcesByThread
 .
 FakeThread
-)
-:
-any
 )
 [
 0

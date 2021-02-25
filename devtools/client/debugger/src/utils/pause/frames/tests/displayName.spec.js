@@ -481,11 +481,7 @@ makeMockFrame
 )
 displayName
 :
-(
 null
-:
-any
-)
 }
 ;
 expect

@@ -34,11 +34,7 @@ function
 setAssetRootURL
 (
 assetRoot
-:
-string
 )
-:
-void
 {
 const
 root

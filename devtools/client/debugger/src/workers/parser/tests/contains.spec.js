@@ -48,15 +48,9 @@ function
 undefinedColumn
 (
 )
-:
-number
 {
 return
-(
 undefined
-:
-any
-)
 ;
 }
 function

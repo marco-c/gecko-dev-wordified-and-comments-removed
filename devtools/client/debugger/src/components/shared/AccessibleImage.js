@@ -24,11 +24,7 @@ css
 const
 AccessibleImage
 =
-(
 props
-:
-Object
-)
 =
 >
 {

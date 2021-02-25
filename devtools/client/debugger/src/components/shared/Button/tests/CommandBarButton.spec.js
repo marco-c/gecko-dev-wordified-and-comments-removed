@@ -56,12 +56,8 @@ CommandBarButton
 children
 =
 {
-(
 [
 ]
-:
-any
-)
 }
 className
 =
@@ -116,11 +112,7 @@ CommandBarButton
 children
 =
 {
-(
 children
-:
-any
-)
 }
 className
 =

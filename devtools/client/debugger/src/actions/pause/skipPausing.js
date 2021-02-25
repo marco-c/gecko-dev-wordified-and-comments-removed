@@ -1,17 +1,4 @@
 import
-type
-{
-ThunkArgs
-}
-from
-"
-.
-.
-/
-types
-"
-;
-import
 {
 getSkipPausing
 }
@@ -41,8 +28,6 @@ client
 getState
 sourceMaps
 }
-:
-ThunkArgs
 )
 =
 >
@@ -86,8 +71,6 @@ function
 setSkipPausing
 (
 skipPausing
-:
-boolean
 )
 {
 return
@@ -99,8 +82,6 @@ client
 getState
 sourceMaps
 }
-:
-ThunkArgs
 )
 =
 >

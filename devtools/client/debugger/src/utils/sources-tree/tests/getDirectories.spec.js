@@ -43,8 +43,6 @@ tree
 {
 const
 paths
-:
-any
 =
 getDirectories
 (

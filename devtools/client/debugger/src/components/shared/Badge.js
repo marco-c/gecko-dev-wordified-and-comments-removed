@@ -14,15 +14,6 @@ Badge
 css
 "
 ;
-type
-Props
-=
-{
-children
-:
-number
-}
-;
 const
 Badge
 =
@@ -30,8 +21,6 @@ Badge
 {
 children
 }
-:
-Props
 )
 =
 >

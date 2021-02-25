@@ -3,11 +3,7 @@ function
 copyToTheClipboard
 (
 string
-:
-string
 )
-:
-void
 {
 const
 doCopy
@@ -15,8 +11,6 @@ doCopy
 function
 (
 e
-:
-any
 )
 {
 e

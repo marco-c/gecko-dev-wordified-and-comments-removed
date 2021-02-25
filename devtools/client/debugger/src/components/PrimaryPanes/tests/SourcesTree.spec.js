@@ -178,11 +178,7 @@ afterEach
 =
 >
 {
-(
 copyToTheClipboard
-:
-any
-)
 .
 mockClear
 (
@@ -2431,8 +2427,6 @@ function
 generateDefaults
 (
 overrides
-:
-Object
 )
 {
 const

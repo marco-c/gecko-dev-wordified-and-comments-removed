@@ -159,8 +159,6 @@ function
 generateDefaults
 (
 )
-:
-any
 {
 return
 {

@@ -214,11 +214,7 @@ function
 convertToJSON
 (
 buffer
-:
-ArrayBuffer
 )
-:
-any
 {
 cachedWasmModule
 =

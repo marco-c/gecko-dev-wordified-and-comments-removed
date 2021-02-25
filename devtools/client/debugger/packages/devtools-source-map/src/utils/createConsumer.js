@@ -17,14 +17,8 @@ function
 createConsumer
 (
 map
-:
-any
 sourceMapUrl
-:
-any
 )
-:
-SourceMapConsumer
 {
 return
 new

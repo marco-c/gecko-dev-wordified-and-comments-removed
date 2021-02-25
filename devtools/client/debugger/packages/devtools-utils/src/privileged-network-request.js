@@ -2,17 +2,8 @@ function
 networkRequest
 (
 url
-:
-string
 opts
-:
-any
 )
-:
-Promise
-<
-*
->
 {
 return
 fetch

@@ -14,9 +14,6 @@ redux
 export
 const
 connect
-:
-typeof
-reduxConnect
 =
 reduxConnect
 ;

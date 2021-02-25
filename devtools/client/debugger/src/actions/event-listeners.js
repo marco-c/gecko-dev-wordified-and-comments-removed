@@ -22,18 +22,6 @@ from
 selectors
 "
 ;
-import
-type
-{
-ThunkArgs
-}
-from
-"
-.
-/
-types
-"
-;
 async
 function
 updateBreakpoints
@@ -41,10 +29,6 @@ updateBreakpoints
 dispatch
 client
 newEvents
-:
-string
-[
-]
 )
 {
 dispatch
@@ -76,10 +60,6 @@ updateExpanded
 (
 dispatch
 newExpanded
-:
-string
-[
-]
 )
 {
 dispatch
@@ -102,10 +82,6 @@ function
 addEventListenerBreakpoints
 (
 eventsToAdd
-:
-string
-[
-]
 )
 {
 return
@@ -116,8 +92,6 @@ dispatch
 client
 getState
 }
-:
-ThunkArgs
 )
 =
 >
@@ -166,10 +140,6 @@ function
 removeEventListenerBreakpoints
 (
 eventsToRemove
-:
-string
-[
-]
 )
 {
 return
@@ -180,8 +150,6 @@ dispatch
 client
 getState
 }
-:
-ThunkArgs
 )
 =
 >
@@ -240,8 +208,6 @@ dispatch
 getState
 client
 }
-:
-ThunkArgs
 )
 =
 >
@@ -285,8 +251,6 @@ function
 addEventListenerExpanded
 (
 category
-:
-string
 )
 {
 return
@@ -296,8 +260,6 @@ async
 dispatch
 getState
 }
-:
-ThunkArgs
 )
 =
 >
@@ -342,8 +304,6 @@ function
 removeEventListenerExpanded
 (
 category
-:
-string
 )
 {
 return
@@ -353,8 +313,6 @@ async
 dispatch
 getState
 }
-:
-ThunkArgs
 )
 =
 >
@@ -408,8 +366,6 @@ async
 dispatch
 client
 }
-:
-ThunkArgs
 )
 =
 >

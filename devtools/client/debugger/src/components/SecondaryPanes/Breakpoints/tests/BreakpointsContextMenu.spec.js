@@ -376,7 +376,6 @@ fn
 )
 contextMenuEvent
 :
-(
 {
 preventDefault
 :
@@ -386,9 +385,6 @@ fn
 (
 )
 }
-:
-any
-)
 selectedSource
 :
 makeMockSource

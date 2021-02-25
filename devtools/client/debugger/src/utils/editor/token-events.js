@@ -20,11 +20,7 @@ function
 isInvalidTarget
 (
 target
-:
-HTMLElement
 )
-:
-boolean
 {
 if
 (
@@ -252,9 +248,6 @@ function
 invalidLeaveTarget
 (
 target
-:
-?
-HTMLElement
 )
 {
 if
@@ -287,11 +280,7 @@ function
 onMouseOver
 (
 codeMirror
-:
-any
 )
-:
-any
 {
 let
 prevTokenPos
@@ -363,11 +352,7 @@ true
 ;
 }
 return
-(
 enterEvent
-:
-any
-)
 =
 >
 {

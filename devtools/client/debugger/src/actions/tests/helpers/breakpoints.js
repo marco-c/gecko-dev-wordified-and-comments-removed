@@ -3,8 +3,6 @@ function
 mockPendingBreakpoint
 (
 overrides
-:
-Object
 =
 {
 }
@@ -150,16 +148,10 @@ function
 generateBreakpoint
 (
 filename
-:
-string
 line
-:
-number
 =
 5
 column
-:
-number
 =
 0
 )

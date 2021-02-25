@@ -2,11 +2,7 @@ function
 setAssetRootURL
 (
 assetRoot
-:
-string
 )
-:
-void
 {
 }
 module

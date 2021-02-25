@@ -54,8 +54,6 @@ fn
 ;
 const
 editorRef
-:
-any
 =
 {
 getBoundingClientRect
@@ -95,8 +93,6 @@ left
 ;
 const
 targetRef
-:
-any
 =
 {
 getBoundingClientRect
@@ -532,8 +528,6 @@ target
 {
 const
 editor
-:
-any
 =
 {
 getBoundingClientRect
@@ -706,8 +700,6 @@ space
 {
 const
 editor
-:
-any
 =
 {
 getBoundingClientRect

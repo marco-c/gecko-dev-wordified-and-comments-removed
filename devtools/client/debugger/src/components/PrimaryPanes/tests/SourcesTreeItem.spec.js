@@ -267,11 +267,7 @@ afterEach
 =
 >
 {
-(
 copyToTheClipboard
-:
-any
-)
 .
 mockClear
 (

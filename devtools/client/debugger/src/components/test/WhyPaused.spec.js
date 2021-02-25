@@ -32,12 +32,7 @@ function
 render
 (
 why
-:
-Object
 delay
-:
-?
-number
 )
 {
 const

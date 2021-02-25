@@ -1250,7 +1250,6 @@ testSource
 const
 location
 =
-(
 {
 test
 :
@@ -1258,9 +1257,6 @@ test
 testLocation
 "
 }
-:
-any
-)
 ;
 dispatch
 (
