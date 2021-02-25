@@ -948,7 +948,7 @@ notificationId
 iconURL
 notificationBox
 .
-PRIORITY_WARNING_MEDIUM
+PRIORITY_INFO_HIGH
 buttons
 )
 ;
