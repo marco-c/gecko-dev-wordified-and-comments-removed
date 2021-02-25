@@ -3886,7 +3886,7 @@ sccache
 "
 when
 =
-depends_if
+depends
 (
 "
 CCACHE
@@ -3896,6 +3896,11 @@ CCACHE
 lambda
 c
 :
+len
+(
+c
+)
+and
 c
 [
 0
