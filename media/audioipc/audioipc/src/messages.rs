@@ -1108,10 +1108,6 @@ StreamStop
 (
 usize
 )
-StreamResetDefaultDevice
-(
-usize
-)
 StreamGetPosition
 (
 usize
@@ -1227,7 +1223,6 @@ StreamInitialized
 StreamDestroyed
 StreamStarted
 StreamStopped
-StreamDefaultDeviceReset
 StreamPosition
 (
 u64
