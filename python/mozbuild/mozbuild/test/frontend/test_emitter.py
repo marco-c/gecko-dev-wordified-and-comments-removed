@@ -3737,7 +3737,7 @@ WARNINGS_CFLAGS
 )
     
 def
-test_use_yasm
+test_use_nasm
 (
 self
 )
@@ -3752,7 +3752,7 @@ reader
 "
 use
 -
-yasm
+nasm
 "
 )
         
@@ -3765,7 +3765,7 @@ assertRaisesRegex
 self
 SandboxValidationError
 "
-yasm
+nasm
 is
 not
 available
@@ -3791,7 +3791,7 @@ reader
 "
 use
 -
-yasm
+nasm
 "
             
 extra_substs
@@ -3799,13 +3799,13 @@ extra_substs
 dict
 (
                 
-YASM
+NASM
 =
 "
-yasm
+nasm
 "
                 
-YASM_ASFLAGS
+NASM_ASFLAGS
 =
 "
 -
@@ -3881,7 +3881,7 @@ config
 substs
 [
 "
-YASM_ASFLAGS
+NASM_ASFLAGS
 "
 ]
 )
@@ -3913,7 +3913,7 @@ AS
 "
 :
 "
-yasm
+nasm
 "
 "
 AS_DASH_C_FLAG
