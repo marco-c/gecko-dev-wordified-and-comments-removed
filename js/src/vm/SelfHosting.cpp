@@ -14485,6 +14485,16 @@ obj_create
 0
 ObjectCreate
 )
+JS_INLINABLE_FN
+(
+"
+std_Object_isPrototypeOf
+"
+obj_isPrototypeOf
+1
+0
+ObjectIsPrototypeOf
+)
 JS_FN
 (
 "

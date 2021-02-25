@@ -61,8 +61,8 @@ FunctionPrototype
 ObjectPrototype
 RegExpPrototype
 StringPrototype
-DateTimeFormat
-NumberFormat
+DateTimeFormatPrototype
+NumberFormatPrototype
 None
 }
 ;

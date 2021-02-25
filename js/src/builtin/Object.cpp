@@ -5040,8 +5040,10 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
 obj_isPrototypeOf
 (
 JSContext
