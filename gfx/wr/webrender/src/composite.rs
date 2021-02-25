@@ -30,12 +30,10 @@ use
 crate
 :
 :
-batch
+image_source
 :
 :
-{
 resolve_image
-}
 ;
 use
 euclid

@@ -30,7 +30,6 @@ batch
 AlphaBatchBuilder
 AlphaBatchContainer
 BatchTextures
-resolve_image
 }
 ;
 use
@@ -244,6 +243,15 @@ visibility
 :
 :
 PrimitiveVisibilityMask
+;
+use
+crate
+:
+:
+image_source
+:
+:
+resolve_image
 ;
 const
 STYLE_SOLID
