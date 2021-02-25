@@ -5492,7 +5492,6 @@ winmm_stream_init
 winmm_stream_destroy
 winmm_stream_start
 winmm_stream_stop
-NULL
 winmm_stream_get_position
 winmm_stream_get_latency
 NULL

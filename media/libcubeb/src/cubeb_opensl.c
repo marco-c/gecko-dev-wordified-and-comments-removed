@@ -9683,10 +9683,6 @@ stream_stop
 =
 opensl_stream_stop
 .
-stream_reset_default_device
-=
-NULL
-.
 stream_get_position
 =
 opensl_stream_get_position
