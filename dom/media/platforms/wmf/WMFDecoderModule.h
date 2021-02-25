@@ -151,6 +151,12 @@ WMFDecoderModule
 (
 )
 ;
+void
+ReportUsageForTelemetry
+(
+)
+const
+;
 bool
 mWMFInitialized
 =
