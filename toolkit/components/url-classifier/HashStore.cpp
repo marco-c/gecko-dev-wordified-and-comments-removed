@@ -787,10 +787,8 @@ mPrefixesMap
 Put
 (
 aSize
-MakeUnique
-<
+new
 nsCString
->
 (
 aPrefixes
 )

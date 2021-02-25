@@ -382,10 +382,8 @@ mOrdering
 Put
 (
 aResource
-MakeUnique
-<
+new
 OrderingEntry
->
 (
 aResource
 )

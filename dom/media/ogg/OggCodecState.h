@@ -587,10 +587,8 @@ OggCodecState
 )
 ;
 static
-UniquePtr
-<
 OggCodecState
->
+*
 Create
 (
 rlbox_sandbox_ogg

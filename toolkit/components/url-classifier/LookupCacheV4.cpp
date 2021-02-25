@@ -2447,10 +2447,8 @@ mMap
 Put
 (
 size
-MakeUnique
-<
+new
 PrefixString
->
 (
 *
 iter

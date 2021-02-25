@@ -6428,10 +6428,8 @@ mActiveCachesByGroup
 Put
 (
 group
-MakeUnique
-<
+new
 nsCString
->
 (
 clientID
 )
@@ -12901,10 +12899,8 @@ mActiveCachesByGroup
 Put
 (
 group
-MakeUnique
-<
+new
 nsCString
->
 (
 clientID
 )

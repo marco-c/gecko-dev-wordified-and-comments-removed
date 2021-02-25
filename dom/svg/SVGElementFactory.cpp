@@ -315,9 +315,6 @@ nsGkAtoms
 :
 :
 _tag
-SVGContentCreatorFunction
-(
-\
 NS_NewSVG
 #
 #
@@ -325,7 +322,6 @@ _classname
 #
 #
 Element
-)
 )
 ;
 #
@@ -345,9 +341,6 @@ nsGkAtoms
 :
 :
 _tag
-SVGContentCreatorFunction
-(
-\
 NS_NewSVG
 #
 #
@@ -355,7 +348,6 @@ _classname
 #
 #
 Element
-)
 )
 ;
 #

@@ -966,17 +966,7 @@ mScriptTable
 Put
 (
 aURI
-JS
-:
-:
-Heap
-<
-JSScript
-*
->
-{
 aScriptObject
-}
 )
 ;
 return
