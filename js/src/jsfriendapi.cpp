@@ -3716,7 +3716,10 @@ if
 obj
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 &
@@ -3756,7 +3759,10 @@ if
 obj
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 )

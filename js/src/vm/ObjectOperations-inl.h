@@ -326,7 +326,10 @@ MOZ_ASSERT_IF
 obj
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 &

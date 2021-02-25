@@ -12280,7 +12280,10 @@ toObject
 (
 )
 .
-isNative
+is
+<
+NativeObject
+>
 (
 )
 |

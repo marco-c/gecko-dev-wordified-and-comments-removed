@@ -65,7 +65,10 @@ if
 obj
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 &

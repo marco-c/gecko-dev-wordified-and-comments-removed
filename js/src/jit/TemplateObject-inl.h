@@ -77,7 +77,10 @@ return
 obj_
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 ;

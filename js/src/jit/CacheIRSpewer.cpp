@@ -2532,7 +2532,10 @@ nobj
 =
 object
 .
-isNative
+is
+<
+NativeObject
+>
 (
 )
 ?

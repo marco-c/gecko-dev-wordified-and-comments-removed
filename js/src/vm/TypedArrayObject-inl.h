@@ -2723,7 +2723,10 @@ if
 source
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 )

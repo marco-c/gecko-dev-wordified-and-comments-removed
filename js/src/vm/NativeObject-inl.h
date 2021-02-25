@@ -520,7 +520,10 @@ markDenseElementsNotPacked
 {
 MOZ_ASSERT
 (
-isNative
+is
+<
+NativeObject
+>
 (
 )
 )
@@ -2096,7 +2099,10 @@ extra
 {
 MOZ_ASSERT
 (
-isNative
+is
+<
+NativeObject
+>
 (
 )
 )
@@ -4325,7 +4331,11 @@ if
 proto
 -
 >
-isNative
+template
+is
+<
+NativeObject
+>
 (
 )
 )
