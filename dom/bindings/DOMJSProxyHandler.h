@@ -85,14 +85,6 @@ mozilla
 namespace
 dom
 {
-template
-<
-typename
-T
->
-struct
-Prefable
-;
 class
 BaseDOMProxyHandler
 :
