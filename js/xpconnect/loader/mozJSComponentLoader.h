@@ -377,11 +377,6 @@ MallocSizeOf
 aMallocSizeOf
 )
 ;
-nsresult
-AnnotateCrashReport
-(
-)
-;
 protected
 :
 mozJSComponentLoader
