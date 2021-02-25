@@ -2528,7 +2528,7 @@ wl_data_offer
 aDropDataOffer
 )
 {
-LOGCLIP
+LOGDRAG
 (
 (
 "
@@ -2575,7 +2575,7 @@ if
 dataOffer
 )
 {
-LOGCLIP
+LOGDRAG
 (
 (
 "
@@ -2649,7 +2649,7 @@ ClearDragAndDropDataOffer
 void
 )
 {
-LOGCLIP
+LOGDRAG
 (
 (
 "
