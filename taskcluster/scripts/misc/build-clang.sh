@@ -116,8 +116,7 @@ ls
 d
 MOZ_FETCHES_DIR
 /
-MacOSX10
-.
+MacOSX1
 *
 .
 sdk

@@ -156,11 +156,9 @@ frame
 pointer
 -
 target
-x86_64
--
-apple
--
-darwin
+{
+LLVM_DEFAULT_TARGET_TRIPLE
+}
 -
 isysroot
 {
