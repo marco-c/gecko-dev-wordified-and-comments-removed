@@ -85,13 +85,6 @@ h
 #
 include
 "
-gfxPlatform
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ChaosMode
@@ -7027,13 +7020,6 @@ Init
 ;
 #
 endif
-gfxPlatform
-:
-:
-GetPlatform
-(
-)
-;
 {
 if
 (
