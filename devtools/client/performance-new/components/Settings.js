@@ -1190,6 +1190,13 @@ perf
 -
 settings
 -
+checkbox
+-
+label
+perf
+-
+settings
+-
 all
 -
 threads
