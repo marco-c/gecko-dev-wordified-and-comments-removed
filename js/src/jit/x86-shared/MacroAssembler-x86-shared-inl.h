@@ -6227,7 +6227,10 @@ lhsDest
 vpinsrb
 (
 lane
+Operand
+(
 rhs
+)
 lhsDest
 lhsDest
 )
@@ -6250,7 +6253,10 @@ lhsDest
 vpinsrw
 (
 lane
+Operand
+(
 rhs
+)
 lhsDest
 lhsDest
 )
