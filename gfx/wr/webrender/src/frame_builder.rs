@@ -3415,7 +3415,6 @@ gpu_cache
 render_tasks
 clip_store
 transforms
-deferred_resolves
 )
 ;
 }
@@ -3472,7 +3471,6 @@ gpu_cache
 render_tasks
 clip_store
 transforms
-deferred_resolves
 )
 ;
 }
