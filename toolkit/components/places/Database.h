@@ -565,12 +565,6 @@ Shutdown
 (
 )
 ;
-bool
-IsShutdownStarted
-(
-)
-const
-;
 nsresult
 EnsureFaviconsDatabaseAttached
 (
