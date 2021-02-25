@@ -22,7 +22,6 @@ hash
 sha256
 :
 a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128
-\
 #
 via
 glean
@@ -52,7 +51,6 @@ hash
 sha256
 :
 a24da68318b08ac9c9c45029f4a10371ab5b20e4226738e150e6e7c571630ae6
-\
 #
 via
 pytest
@@ -80,9 +78,9 @@ hash
 sha256
 :
 f0b870f674851ecbfbbbd364d6b5cbdff9dcedbc7f3f5e18a6891057f21fe399
-\
 #
 via
+#
 -
 r
 requirements
@@ -94,10 +92,13 @@ vendor
 python
 .
 in
+#
 jsonschema
+#
 mozilla
 -
 version
+#
 pytest
 blessings
 =
@@ -129,7 +130,6 @@ hash
 sha256
 :
 caad5211e7ba5afe04367cdd4cfc68fa886e2e08f6f35e76b7387d2109ccea6e
-\
 #
 via
 -
@@ -167,7 +167,6 @@ hash
 sha256
 :
 9fa520c1bacfb634fa7af20a76bcbd3d5fb390481724c597da32c719a7dca4b0
-\
 #
 via
 sentry
@@ -195,12 +194,13 @@ hash
 sha256
 :
 5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7
-\
 #
 via
+#
 glean
 -
 parser
+#
 pip
 -
 tools
@@ -230,9 +230,9 @@ hash
 sha256
 :
 3d374ff959d5de2cfd5b94caf6b0fa61445f1d8ede5af384002cb3542aacad3a
-\
 #
 via
+#
 -
 r
 requirements
@@ -244,6 +244,7 @@ vendor
 python
 .
 in
+#
 fluent
 .
 migrate
@@ -271,7 +272,6 @@ hash
 sha256
 :
 d6b698788cae4cfa4e62ef8643a9ca332b79bd96cb314294b864ae8d7eb3ee8e
-\
 #
 via
 -
@@ -539,7 +539,6 @@ hash
 sha256
 :
 f90bfc4ad18450c80b024036eaf91e4a246ae287701aaa88eaebebf150868052
-\
 #
 via
 -
@@ -577,7 +576,6 @@ hash
 sha256
 :
 bcee5a59f9c264e2809e58d01be6569a3bbb1e36a1e0fb83f7ef9b2075f95ce0
-\
 #
 via
 glean
@@ -607,7 +605,6 @@ hash
 sha256
 :
 eedf82a470ebe7d010f1872c17237c79ab04097948800029994fa458e52fb4b4
-\
 #
 via
 -
@@ -643,7 +640,6 @@ hash
 sha256
 :
 8f12ac317f8a1318efa75757ef0a651abe12e51fc1af8838fb91079445227277
-\
 #
 via
 -
@@ -673,7 +669,6 @@ hash
 sha256
 :
 08db1a876d3c2910db9cfaeb83108193af5411fc3a3a66ebefacd390d21323ee
-\
 #
 via
 -
@@ -711,7 +706,6 @@ hash
 sha256
 :
 ee1b4d827cff6d1df7f9b6a4b3eb78a75f1dd425e2e71b2013fd0dd411167b3e
-\
 #
 via
 -
@@ -751,9 +745,9 @@ hash
 sha256
 :
 3a55f5e605d1b029a65cc8b6492c86ec4608e15447e73db1495de11fd46c104f
-\
 #
 via
+#
 -
 r
 requirements
@@ -765,9 +759,11 @@ vendor
 python
 .
 in
+#
 compare
 -
 locales
+#
 fluent
 .
 migrate
@@ -795,7 +791,6 @@ hash
 sha256
 :
 df7436e164148594176ec55f7d7c3c5c944daca67c3cc30428514628625b214b
-\
 #
 via
 -
@@ -833,7 +828,6 @@ hash
 sha256
 :
 f0a4641d3cf955324a89c04f3d94663aa4d638abe8f733ecd3582848e1c37035
-\
 #
 via
 glean
@@ -855,7 +849,6 @@ hash
 sha256
 :
 5d07bf0251a4128e5e8e8eef603849b6b5741c337bff087731a248f9cc774f56
-\
 #
 via
 -
@@ -887,7 +880,6 @@ hash
 sha256
 :
 d8c1ec3f5bbc7728c3a504ebe58829f283c64eca230871e4eefe974b4cdaae4a
-\
 #
 via
 -
@@ -925,7 +917,6 @@ hash
 sha256
 :
 c8a85b28d377cc7737e46e2d9f2b4f44ee3c0e1deac6bf46ddefc7187d30797a
-\
 #
 via
 glean
@@ -1203,7 +1194,6 @@ hash
 sha256
 :
 e8313f01ba26fbbe36c7be1966a7b7424942f670f38e666995b88d012765b9be
-\
 #
 via
 jinja2
@@ -1241,7 +1231,6 @@ hash
 sha256
 :
 fcbfeaea0be121980e15bc97b3817b5202ca73d0eae185b4550cbfce2a3ebb3d
-\
 #
 via
 pytest
@@ -1271,7 +1260,6 @@ hash
 sha256
 :
 ce5741c2e7d12c30b53de9f79e30d6ac2a8bd4c93be711d30c7a7a08e32a094f
-\
 #
 via
 -
@@ -1309,7 +1297,6 @@ hash
 sha256
 :
 d1aa2a11ba7b8f7b21ab852b1fb5afb277e1bb99d5dfc663380b5015c0d80c5a
-\
 #
 via
 -
@@ -1345,9 +1332,9 @@ hash
 sha256
 :
 da45173eb3a6f2a5a487efba21f050af2b41948be6ab52b6a1e3ff22bb8b7061
-\
 #
 via
+#
 -
 r
 requirements
@@ -1359,6 +1346,7 @@ vendor
 python
 .
 in
+#
 yamllint
 pip
 -
@@ -1367,9 +1355,9 @@ tools
 =
 5
 .
-3
+5
 .
-1
+0
 \
 -
 -
@@ -1377,7 +1365,7 @@ hash
 =
 sha256
 :
-5672c2b6ca0f1fd803f3b45568c2cf7fadf135b4971e7d665232b2075544c0ef
+10841c1e56c234d610d0466447685b9ea4ee4a2c274f858c0ef3c33d9bd0d985
 \
 -
 -
@@ -1385,8 +1373,7 @@ hash
 =
 sha256
 :
-73787e23269bf8a9230f376c351297b9037ed0d32ab0f9bef4a187d976acc054
-\
+cb0108391366b3ef336185097b3c2c0f3fa115b15098dafbda5e78aef70ea114
 #
 via
 -
@@ -1432,7 +1419,6 @@ hash
 sha256
 :
 e160a7fcf25762bb60efc7e171d4497ff1d8d2d75a3d0df7a21b76821ecbf5c5
-\
 #
 via
 pytest
@@ -1450,7 +1436,6 @@ hash
 sha256
 :
 96e94af7dd7031d8d6dd6e2a8e0de593b511c211a86e28a9c9621c275ac8bacb
-\
 #
 via
 -
@@ -1488,7 +1473,6 @@ hash
 sha256
 :
 e31fb2767eb657cbde86c454f02e99cb846d3cd9d61b318525140214fdc0e98e
-\
 #
 via
 pytest
@@ -1516,7 +1500,6 @@ hash
 sha256
 :
 aef77c9fb94a3ac588e87841208bdec464471d9871bd5050a287cc9a475cd0ba
-\
 #
 via
 -
@@ -1554,7 +1537,6 @@ hash
 sha256
 :
 35b2d75ee967ea93b55750aa9edbbf72813e06a66ba54438df2cfac9e3c27fc8
-\
 #
 via
 -
@@ -1584,7 +1566,6 @@ hash
 sha256
 :
 28669905fe725965daa16184933676547c5bb40a5153055a8dee2a4bd7933ad3
-\
 #
 via
 jsonschema
@@ -1612,7 +1593,6 @@ hash
 sha256
 :
 90898786b3d0b880b47645bae7b51aa9bbf1e9d1e4510c2cfd15dd65c70ea0cd
-\
 #
 via
 -
@@ -1642,7 +1622,6 @@ hash
 sha256
 :
 693d6ed92a6566e78802c7a03c256cda33d08c63ad3f00fcfa11379b184b9462
-\
 #
 via
 -
@@ -1672,9 +1651,9 @@ hash
 sha256
 :
 98399eabd927cd3e12457525315b6abbc5abf9a6f392ab578cbcec327f73890c
-\
 #
 via
+#
 -
 r
 requirements
@@ -1686,6 +1665,7 @@ vendor
 python
 .
 in
+#
 compare
 -
 locales
@@ -1785,9 +1765,9 @@ hash
 sha256
 :
 d13155f591e6fcc1ec3b30685d50bf0711574e2c0dfffd7644babf8b5102ca1a
-\
 #
 via
+#
 -
 r
 requirements
@@ -1799,9 +1779,11 @@ vendor
 python
 .
 in
+#
 glean
 -
 parser
+#
 yamllint
 redo
 =
@@ -1827,7 +1809,6 @@ hash
 sha256
 :
 71161cb0e928d824092a5f16203939bbc0867ce4c4685db263cf22c3ae7634a8
-\
 #
 via
 -
@@ -1865,9 +1846,9 @@ hash
 sha256
 :
 c577815dd00f1394203fc44eb979724b098f88264a9ef898ee45b8e5e9cf587f
-\
 #
 via
+#
 -
 r
 requirements
@@ -1879,6 +1860,7 @@ vendor
 python
 .
 in
+#
 responses
 responses
 =
@@ -1904,7 +1886,6 @@ hash
 sha256
 :
 97193c0183d63fba8cd3a041c75464e4b09ea0aff6328800d1546598567dde0b
-\
 #
 via
 -
@@ -1944,7 +1925,6 @@ hash
 sha256
 :
 bb90a4e19c7233a580715fc986cc44be2c48fc10b31e71580a2037e1c94b6950
-\
 #
 via
 -
@@ -1982,9 +1962,9 @@ hash
 sha256
 :
 30f610279e8b2578cab6db20741130331735c781b56053c59c4076da27f06b66
-\
 #
 via
+#
 -
 r
 requirements
@@ -1996,23 +1976,29 @@ vendor
 python
 .
 in
+#
 blessings
+#
 compare
 -
 locales
+#
 ecdsa
+#
 fluent
 .
 migrate
+#
 jsonschema
+#
 more
 -
 itertools
+#
 pathlib2
-pip
--
-tools
+#
 pytest
+#
 responses
 urllib3
 =
@@ -2038,7 +2024,6 @@ hash
 sha256
 :
 88206b0eb87e6d677d424843ac5209e3fb9d0190d0ee169599165ec25e9d9115
-\
 #
 via
 sentry
@@ -2068,7 +2053,6 @@ hash
 sha256
 :
 567a56286ef82a9d7ae0628c5842f65f516abcb496e74f3f59f1d7b28df314ef
-\
 #
 via
 -
@@ -2104,9 +2088,9 @@ hash
 sha256
 :
 59f3ff77f44e7f46be6aecdb985830f73a1c51e290b7082a7d38c2ae1940f4a9
-\
 #
 via
+#
 -
 r
 requirements
@@ -2118,6 +2102,7 @@ vendor
 python
 .
 in
+#
 glean
 -
 parser

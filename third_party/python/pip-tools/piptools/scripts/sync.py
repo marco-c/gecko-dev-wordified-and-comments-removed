@@ -240,23 +240,15 @@ this
 HTML
 page
 "
-    
-envvar
-=
-"
-PIP_FIND_LINKS
-"
 )
 click
 .
 option
 (
-    
 "
 -
 i
 "
-    
 "
 -
 -
@@ -264,7 +256,6 @@ index
 -
 url
 "
-    
 help
 =
 "
@@ -276,12 +267,6 @@ defaults
 to
 PyPI
 )
-"
-    
-envvar
-=
-"
-PIP_INDEX_URL
 "
 )
 click
@@ -298,11 +283,9 @@ index
 -
 url
 "
-    
 multiple
 =
 True
-    
 help
 =
 "
@@ -312,12 +295,6 @@ index
 URL
 to
 search
-"
-    
-envvar
-=
-"
-PIP_EXTRA_INDEX_URL
 "
 )
 click
@@ -401,6 +378,30 @@ option
 (
 "
 -
+v
+"
+"
+-
+-
+verbose
+"
+count
+=
+True
+help
+=
+"
+Show
+more
+output
+"
+)
+click
+.
+option
+(
+"
+-
 q
 "
 "
@@ -408,10 +409,7 @@ q
 -
 quiet
 "
-default
-=
-False
-is_flag
+count
 =
 True
 help
@@ -577,6 +575,8 @@ trusted_host
     
 no_index
     
+verbose
+    
 quiet
     
 user_only
@@ -605,6 +605,14 @@ txt
 "
 "
 "
+    
+log
+.
+verbosity
+=
+verbose
+-
+quiet
     
 if
 not
@@ -901,44 +909,47 @@ installed_dists
     
 install_flags
 =
-_compose_install_flags
 (
         
+_compose_install_flags
+(
+            
 finder
-        
+            
 no_index
 =
 no_index
-        
+            
 index_url
 =
 index_url
-        
+            
 extra_index_url
 =
 extra_index_url
-        
+            
 trusted_host
 =
 trusted_host
-        
+            
 find_links
 =
 find_links
-        
+            
 user_only
 =
 user_only
-        
+            
 cert
 =
 cert
-        
+            
 client_cert
 =
 client_cert
-    
+        
 )
+        
 +
 shlex
 .
@@ -948,6 +959,8 @@ pip_args
 or
 "
 "
+)
+    
 )
     
 sys
@@ -963,13 +976,6 @@ sync
 to_install
             
 to_uninstall
-            
-verbose
-=
-(
-not
-quiet
-)
             
 dry_run
 =
@@ -1178,9 +1184,6 @@ for
 extra_index
 in
 extra_index_url
-or
-[
-]
 :
         
 result
@@ -1209,9 +1212,6 @@ itertools
 chain
 (
 trusted_host
-or
-[
-]
 finder
 .
 trusted_hosts
@@ -1242,9 +1242,6 @@ itertools
 chain
 (
 find_links
-or
-[
-]
 finder
 .
 find_links

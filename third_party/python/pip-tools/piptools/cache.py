@@ -12,6 +12,8 @@ division
 print_function
 unicode_literals
 import
+errno
+import
 json
 import
 os
@@ -29,6 +31,11 @@ packaging
 requirements
 import
 Requirement
+from
+.
+_compat
+import
+makedirs
 from
 .
 exceptions
@@ -290,7 +297,7 @@ __format__
 :
             
 raise
-AssertionError
+ValueError
 (
 "
 Unknown
@@ -399,23 +406,12 @@ cache_dir
 )
 :
         
-if
-not
-os
-.
-path
-.
-isdir
-(
-cache_dir
-)
-:
-            
-os
-.
 makedirs
 (
 cache_dir
+exist_ok
+=
+True
 )
         
 cache_filename
@@ -700,17 +696,7 @@ memory
 "
 "
         
-if
-os
-.
-path
-.
-exists
-(
-self
-.
-_cache_file
-)
+try
 :
             
 self
@@ -724,8 +710,24 @@ self
 _cache_file
 )
         
-else
+except
+IOError
+as
+e
 :
+            
+if
+e
+.
+errno
+!
+=
+errno
+.
+ENOENT
+:
+                
+raise
             
 self
 .

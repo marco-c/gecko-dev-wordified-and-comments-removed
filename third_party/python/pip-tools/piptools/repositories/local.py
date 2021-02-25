@@ -26,17 +26,6 @@ hashes
 import
 FAVORITE_HASH
 from
-.
-.
-_compat
-import
-PIP_VERSION
-from
-.
-base
-import
-BaseRepository
-from
 piptools
 .
 utils
@@ -44,6 +33,11 @@ import
 as_tuple
 key_from_ireq
 make_install_requirement
+from
+.
+base
+import
+BaseRepository
 def
 ireq_satisfied_by_existing_pin
 (
@@ -318,6 +312,8 @@ clear_caches
 (
 )
     
+contextmanager
+    
 def
 freshen_build_caches
 (
@@ -325,6 +321,7 @@ self
 )
 :
         
+with
 self
 .
 repository
@@ -332,6 +329,9 @@ repository
 freshen_build_caches
 (
 )
+:
+            
+yield
     
 def
 find_best_match
@@ -468,38 +468,6 @@ existing_pin
 )
 :
             
-if
-PIP_VERSION
-[
-:
-2
-]
-<
-=
-(
-20
-0
-)
-:
-                
-hashes
-=
-existing_pin
-.
-options
-.
-get
-(
-"
-hashes
-"
-{
-}
-)
-            
-else
-:
-                
 hashes
 =
 existing_pin

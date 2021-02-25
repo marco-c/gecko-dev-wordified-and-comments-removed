@@ -41,6 +41,11 @@ import
 IncompatibleRequirements
 from
 .
+logging
+import
+log
+from
+.
 utils
 import
 (
@@ -867,23 +872,14 @@ to_uninstall
 def
 sync
 (
-    
 to_install
-    
 to_uninstall
-    
-verbose
-=
-False
-    
 dry_run
 =
 False
-    
 install_flags
 =
 None
-    
 ask
 =
 False
@@ -920,13 +916,9 @@ not
 to_install
 :
         
-if
-verbose
-:
-            
-click
+log
 .
-echo
+info
 (
 "
 Everything
@@ -936,6 +928,9 @@ to
 -
 date
 "
+err
+=
+False
 )
         
 return
@@ -947,8 +942,11 @@ pip_flags
 ]
     
 if
-not
-verbose
+log
+.
+verbosity
+<
+0
 :
         
 pip_flags

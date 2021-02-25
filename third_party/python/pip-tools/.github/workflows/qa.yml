@@ -35,6 +35,11 @@ ubuntu
 latest
 strategy
 :
+fail
+-
+fast
+:
+false
 matrix
 :
 toxenv

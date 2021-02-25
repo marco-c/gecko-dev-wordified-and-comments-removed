@@ -21,6 +21,10 @@ contextlib
 import
 contextmanager
 from
+pip
+.
+_vendor
+.
 six
 import
 add_metaclass
@@ -57,6 +61,10 @@ implementation
 "
 "
 "
+    
+abstractmethod
+    
+contextmanager
     
 def
 freshen_build_caches

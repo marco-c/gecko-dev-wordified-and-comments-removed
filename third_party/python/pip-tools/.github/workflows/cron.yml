@@ -70,6 +70,11 @@ os
 latest
 strategy
 :
+fail
+-
+fast
+:
+false
 matrix
 :
 os
@@ -87,7 +92,7 @@ version
 -
 3
 .
-8
+9
 -
 2
 .
@@ -104,6 +109,10 @@ version
 3
 .
 7
+-
+3
+.
+8
 pip
 -
 version
@@ -277,6 +286,11 @@ os
 latest
 strategy
 :
+fail
+-
+fast
+:
+false
 matrix
 :
 os
