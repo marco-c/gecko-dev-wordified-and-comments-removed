@@ -151,17 +151,6 @@ browser
 searchbar
 .
 css
-skin
-/
-classic
-/
-browser
-/
-slowStartup
--
-16
-.
-png
 *
 skin
 /
