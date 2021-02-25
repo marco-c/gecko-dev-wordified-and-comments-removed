@@ -5422,25 +5422,8 @@ in
 try_name
 :
                     
-if
-"
-linux
-"
-in
-platform
-or
-"
-macos
-"
-in
-platform
-:
-                        
 return
 True
-                    
-return
-False
                 
 if
 "
@@ -5450,25 +5433,8 @@ in
 try_name
 :
                     
-if
-"
-linux
-"
-in
-platform
-or
-"
-macos
-"
-in
-platform
-:
-                        
 return
 True
-                    
-return
-False
                 
 if
 "
@@ -5518,6 +5484,7 @@ else
                 
 if
 (
+                    
 "
 linux
 "
@@ -5529,6 +5496,13 @@ macos
 "
 in
 platform
+or
+"
+windows
+"
+in
+platform
+                
 )
 and
 "
@@ -8336,23 +8310,45 @@ in
 try_name
 :
                 
+return
+False
+            
+return
+True
+        
+elif
+"
+browsertime
+"
+in
+try_name
+:
+            
 if
 "
 -
-cold
+tp6
+"
+in
+try_name
+:
+                
+if
+"
+tumblr
 "
 in
 try_name
 :
                     
 return
-True
+False
                 
 return
-False
+True
             
 return
-True
+False
     
 return
 [
