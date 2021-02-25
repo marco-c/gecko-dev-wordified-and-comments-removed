@@ -2740,7 +2740,7 @@ GTK_PRINT_DUPLEX_HORIZONTAL
 *
 aDuplex
 =
-kDuplexFlipOnSideEdge
+kDuplexFlipOnLongEdge
 ;
 break
 ;
@@ -2750,7 +2750,7 @@ GTK_PRINT_DUPLEX_VERTICAL
 *
 aDuplex
 =
-kDuplexFlipOnTopEdge
+kDuplexFlipOnShortEdge
 ;
 break
 ;
@@ -2785,7 +2785,7 @@ MOZ_ASSERT
 duplex
 <
 =
-kDuplexFlipOnTopEdge
+kDuplexFlipOnShortEdge
 "
 value
 is
@@ -2822,7 +2822,7 @@ GTK_PRINT_DUPLEX_SIMPLEX
 break
 ;
 case
-kDuplexFlipOnSideEdge
+kDuplexFlipOnLongEdge
 :
 gtk_print_settings_set
 (
@@ -2840,7 +2840,7 @@ GTK_PRINT_DUPLEX_HORIZONTAL
 break
 ;
 case
-kDuplexFlipOnTopEdge
+kDuplexFlipOnShortEdge
 :
 gtk_print_settings_set
 (

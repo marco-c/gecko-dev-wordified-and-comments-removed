@@ -910,7 +910,7 @@ DMDUP_VERTICAL
 :
 SetDuplex
 (
-kDuplexFlipOnSideEdge
+kDuplexFlipOnLongEdge
 )
 ;
 break
@@ -920,7 +920,7 @@ DMDUP_HORIZONTAL
 :
 SetDuplex
 (
-kDuplexFlipOnTopEdge
+kDuplexFlipOnShortEdge
 )
 ;
 break
@@ -1485,7 +1485,7 @@ DMDUP_VERTICAL
 :
 mDuplex
 =
-kDuplexFlipOnSideEdge
+kDuplexFlipOnLongEdge
 ;
 break
 ;
@@ -1494,7 +1494,7 @@ DMDUP_HORIZONTAL
 :
 mDuplex
 =
-kDuplexFlipOnTopEdge
+kDuplexFlipOnShortEdge
 ;
 break
 ;
@@ -2087,7 +2087,7 @@ DM_DUPLEX
 break
 ;
 case
-kDuplexFlipOnSideEdge
+kDuplexFlipOnLongEdge
 :
 aDevMode
 -
@@ -2107,7 +2107,7 @@ DM_DUPLEX
 break
 ;
 case
-kDuplexFlipOnTopEdge
+kDuplexFlipOnShortEdge
 :
 aDevMode
 -

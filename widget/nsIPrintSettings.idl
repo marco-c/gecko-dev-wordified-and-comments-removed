@@ -308,13 +308,13 @@ kDuplexNone
 ;
 const
 short
-kDuplexFlipOnSideEdge
+kDuplexFlipOnLongEdge
 =
 1
 ;
 const
 short
-kDuplexFlipOnTopEdge
+kDuplexFlipOnShortEdge
 =
 2
 ;

@@ -798,7 +798,7 @@ kPMDuplexNone
 break
 ;
 case
-kDuplexFlipOnSideEdge
+kDuplexFlipOnLongEdge
 :
 duplexSetting
 =
@@ -807,7 +807,7 @@ kPMDuplexNoTumble
 break
 ;
 case
-kDuplexFlipOnTopEdge
+kDuplexFlipOnShortEdge
 :
 duplexSetting
 =
@@ -1440,7 +1440,7 @@ kPMDuplexNoTumble
 :
 mDuplex
 =
-kDuplexFlipOnSideEdge
+kDuplexFlipOnLongEdge
 ;
 break
 ;
@@ -1449,7 +1449,7 @@ kPMDuplexTumble
 :
 mDuplex
 =
-kDuplexFlipOnTopEdge
+kDuplexFlipOnShortEdge
 ;
 break
 ;
