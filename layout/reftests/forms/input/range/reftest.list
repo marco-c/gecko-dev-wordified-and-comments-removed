@@ -439,14 +439,6 @@ fuzzy
 -
 if
 (
-(
-winWidget
-|
-|
-gtkWidget
-)
-&
-&
 !
 nativeThemePref
 0
