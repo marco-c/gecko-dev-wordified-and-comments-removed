@@ -725,7 +725,7 @@ const
 socketOptions
 =
 {
-hidden
+fromBrowserToolbox
 :
 true
 portOrPath
