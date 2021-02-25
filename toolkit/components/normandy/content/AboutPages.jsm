@@ -686,6 +686,13 @@ stop
 experimentName
 {
 reason
+caller
+:
+"
+AboutPages
+.
+removePreferenceStudy
+"
 }
 )
 ;
