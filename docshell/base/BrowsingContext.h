@@ -1330,6 +1330,13 @@ GetLog
 )
 ;
 static
+LogModule
+*
+GetSyncLog
+(
+)
+;
+static
 already_AddRefed
 <
 BrowsingContext
@@ -4025,6 +4032,14 @@ uint64_t
 aEpoch
 )
 ;
+using
+CanSetResult
+=
+syncedcontext
+:
+:
+CanSetResult
+;
 bool
 CanSet
 (
@@ -4327,7 +4342,7 @@ ContentParent
 aSource
 )
 ;
-bool
+CanSetResult
 CanSet
 (
 FieldIndex

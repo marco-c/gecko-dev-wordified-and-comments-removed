@@ -555,6 +555,13 @@ GetLog
 (
 )
 ;
+static
+LogModule
+*
+GetSyncLog
+(
+)
+;
 BrowsingContext
 *
 GetBrowsingContext

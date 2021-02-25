@@ -319,6 +319,8 @@ Apply
 Context
 *
 aOwner
+bool
+aFromIPC
 )
 ;
 IndexSet
@@ -793,6 +795,17 @@ mEpochs
 Values
 mValues
 ;
+}
+;
+enum
+class
+CanSetResult
+:
+uint8_t
+{
+Deny
+Allow
+Revert
 }
 ;
 template
