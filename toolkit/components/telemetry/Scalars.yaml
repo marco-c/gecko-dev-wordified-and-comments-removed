@@ -5417,6 +5417,8 @@ bug_numbers
 1558870
 -
 1630155
+-
+1689269
 description
 :
 >
@@ -5449,7 +5451,7 @@ U2FSignAbort
 expires
 :
 "
-88
+100
 "
 kind
 :
