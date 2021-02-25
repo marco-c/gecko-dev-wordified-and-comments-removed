@@ -1166,6 +1166,13 @@ children
 elementCount
 ]
 ;
+CustomizableUI
+.
+addShortcut
+(
+element
+)
+;
 element
 .
 classList
