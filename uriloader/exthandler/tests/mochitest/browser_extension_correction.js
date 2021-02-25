@@ -590,17 +590,6 @@ testLinkWithoutExtension
 "
 application
 /
-msword
-"
-true
-)
-;
-await
-testLinkWithoutExtension
-(
-"
-application
-/
 pdf
 "
 true
