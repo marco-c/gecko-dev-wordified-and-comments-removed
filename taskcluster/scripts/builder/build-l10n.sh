@@ -543,13 +543,9 @@ python
 requirements
 GECKO_PATH
 /
-taskcluster
+build
 /
-scripts
-/
-builder
-/
-requirements
+psutil_requirements
 .
 txt
 \
