@@ -244,17 +244,3 @@ legend
 ref
 .
 html
-=
-=
-textarea
--
-novalidate
-.
-html
-textarea
--
-withtext
--
-ref
-.
-html
