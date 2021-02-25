@@ -622,6 +622,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ScrollOrigin
 .
 h
