@@ -4258,6 +4258,15 @@ type
 string
 "
 }
+helpTitle
+:
+{
+type
+:
+"
+string
+"
+}
 helpUrl
 :
 {
