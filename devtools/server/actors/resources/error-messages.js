@@ -190,6 +190,9 @@ shouldHandleMessage
 (
 targetActor
 message
+isCachedMessage
+=
+false
 )
 {
 if
@@ -245,6 +248,10 @@ targetActor
 )
 {
 return
+!
+isCachedMessage
+|
+|
 !
 message
 .

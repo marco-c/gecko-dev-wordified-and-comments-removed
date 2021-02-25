@@ -225,6 +225,7 @@ shouldHandleMessage
 (
 targetActor
 message
+true
 )
 )
 {
