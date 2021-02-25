@@ -42,8 +42,6 @@ idl_test
 idle
 -
 detection
-.
-tentative
 '
 ]
 [
