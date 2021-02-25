@@ -5780,6 +5780,10 @@ Close
 reason
 )
 ;
+mSession
+=
+nullptr
+;
 }
 void
 Http2Stream
