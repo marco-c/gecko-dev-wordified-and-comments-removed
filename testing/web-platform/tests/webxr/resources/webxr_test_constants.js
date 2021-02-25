@@ -535,6 +535,11 @@ estimation
 '
 anchors
 '
+'
+depth
+-
+sensing
+'
 ]
 ;
 const
