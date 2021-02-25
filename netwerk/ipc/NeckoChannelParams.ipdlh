@@ -823,6 +823,9 @@ noSpdy
 bool
 beConservative
 ;
+bool
+anonymousAllowClientCert
+;
 uint32_t
 tlsFlags
 ;

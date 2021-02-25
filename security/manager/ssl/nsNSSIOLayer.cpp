@@ -12221,6 +12221,17 @@ ANONYMOUS_CONNECT
 &
 !
 haveHTTPSProxy
+&
+&
+!
+(
+flags
+&
+nsISocketProvider
+:
+:
+ANONYMOUS_CONNECT_ALLOW_CLIENT_CERT
+)
 )
 {
 SSL_GetClientAuthDataHook
