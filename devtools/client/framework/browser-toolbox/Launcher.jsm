@@ -725,6 +725,9 @@ const
 socketOptions
 =
 {
+hidden
+:
+true
 portOrPath
 :
 -
