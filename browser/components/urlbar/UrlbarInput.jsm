@@ -12067,6 +12067,16 @@ pasteData
 +
 oldEnd
 ;
+this
+.
+_untrimmedValue
+=
+this
+.
+inputField
+.
+value
+;
 let
 newCursorPos
 =
