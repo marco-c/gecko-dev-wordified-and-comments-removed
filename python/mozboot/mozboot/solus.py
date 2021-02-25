@@ -157,10 +157,6 @@ server
 -
 xvfb
 "
-        
-"
-yasm
-"
     
 ]
     

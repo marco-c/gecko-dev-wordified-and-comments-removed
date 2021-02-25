@@ -113,10 +113,6 @@ libXt
 -
 devel
 "
-        
-"
-yasm
-"
     
 ]
     

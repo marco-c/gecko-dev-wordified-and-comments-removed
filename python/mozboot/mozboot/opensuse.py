@@ -144,10 +144,6 @@ devel
 "
         
 "
-yasm
-"
-        
-"
 gtk2
 -
 devel
