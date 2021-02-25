@@ -3,17 +3,11 @@ depends
 target
 .
 os
-"
--
--
-help
-"
 )
 def
 arm_option_defaults
 (
 os
-_
 )
 :
 if
