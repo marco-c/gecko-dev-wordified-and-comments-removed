@@ -68,7 +68,7 @@ bool
 TemplateObject
 :
 :
-isNative
+isNativeObject
 (
 )
 const
@@ -282,19 +282,19 @@ shape
 }
 inline
 const
-NativeTemplateObject
+TemplateNativeObject
 &
 TemplateObject
 :
 :
-asNativeTemplateObject
+asTemplateNativeObject
 (
 )
 const
 {
 MOZ_ASSERT
 (
-isNative
+isNativeObject
 (
 )
 )
@@ -304,7 +304,7 @@ return
 static_cast
 <
 const
-NativeTemplateObject
+TemplateNativeObject
 *
 >
 (
@@ -314,7 +314,7 @@ this
 }
 inline
 bool
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 hasDynamicSlots
@@ -323,7 +323,7 @@ hasDynamicSlots
 const
 {
 return
-asNative
+asNativeObject
 (
 )
 .
@@ -334,7 +334,7 @@ hasDynamicSlots
 }
 inline
 uint32_t
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 numDynamicSlots
@@ -343,7 +343,7 @@ numDynamicSlots
 const
 {
 return
-asNative
+asNativeObject
 (
 )
 .
@@ -354,7 +354,7 @@ numDynamicSlots
 }
 inline
 uint32_t
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 numUsedFixedSlots
@@ -363,7 +363,7 @@ numUsedFixedSlots
 const
 {
 return
-asNative
+asNativeObject
 (
 )
 .
@@ -374,7 +374,7 @@ numUsedFixedSlots
 }
 inline
 uint32_t
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 numFixedSlots
@@ -383,7 +383,7 @@ numFixedSlots
 const
 {
 return
-asNative
+asNativeObject
 (
 )
 .
@@ -394,7 +394,7 @@ numFixedSlots
 }
 inline
 uint32_t
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 slotSpan
@@ -403,7 +403,7 @@ slotSpan
 const
 {
 return
-asNative
+asNativeObject
 (
 )
 .
@@ -425,7 +425,7 @@ getClass
 }
 inline
 Value
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 getSlot
@@ -436,7 +436,7 @@ i
 const
 {
 return
-asNative
+asNativeObject
 (
 )
 .
@@ -450,7 +450,7 @@ inline
 const
 Value
 *
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 getDenseElements
@@ -459,7 +459,7 @@ getDenseElements
 const
 {
 return
-asNative
+asNativeObject
 (
 )
 .
@@ -473,7 +473,7 @@ ifdef
 DEBUG
 inline
 bool
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 isSharedMemory
@@ -482,7 +482,7 @@ isSharedMemory
 const
 {
 return
-asNative
+asNativeObject
 (
 )
 .
@@ -495,7 +495,7 @@ isSharedMemory
 endif
 inline
 uint32_t
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 getDenseCapacity
@@ -504,7 +504,7 @@ getDenseCapacity
 const
 {
 return
-asNative
+asNativeObject
 (
 )
 .
@@ -515,7 +515,7 @@ getDenseCapacity
 }
 inline
 uint32_t
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 getDenseInitializedLength
@@ -524,7 +524,7 @@ getDenseInitializedLength
 const
 {
 return
-asNative
+asNativeObject
 (
 )
 .
@@ -535,7 +535,7 @@ getDenseInitializedLength
 }
 inline
 uint32_t
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 getArrayLength
@@ -561,7 +561,7 @@ length
 }
 inline
 bool
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 hasDynamicElements
@@ -570,7 +570,7 @@ hasDynamicElements
 const
 {
 return
-asNative
+asNativeObject
 (
 )
 .
@@ -581,7 +581,7 @@ hasDynamicElements
 }
 inline
 bool
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 hasPrivate
@@ -590,7 +590,7 @@ hasPrivate
 const
 {
 return
-asNative
+asNativeObject
 (
 )
 .
@@ -605,7 +605,7 @@ gc
 :
 Cell
 *
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 regExpShared
@@ -650,7 +650,7 @@ getShared
 inline
 void
 *
-NativeTemplateObject
+TemplateNativeObject
 :
 :
 getPrivate
@@ -659,7 +659,7 @@ getPrivate
 const
 {
 return
-asNative
+asNativeObject
 (
 )
 .

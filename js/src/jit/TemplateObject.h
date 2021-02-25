@@ -29,7 +29,7 @@ namespace
 jit
 {
 class
-NativeTemplateObject
+TemplateNativeObject
 ;
 class
 TemplateObject
@@ -68,16 +68,16 @@ const
 ;
 inline
 bool
-isNative
+isNativeObject
 (
 )
 const
 ;
 inline
 const
-NativeTemplateObject
+TemplateNativeObject
 &
-asNativeTemplateObject
+asTemplateNativeObject
 (
 )
 const
@@ -149,7 +149,7 @@ const
 }
 ;
 class
-NativeTemplateObject
+TemplateNativeObject
 :
 public
 TemplateObject
@@ -158,7 +158,7 @@ protected
 :
 NativeObject
 &
-asNative
+asNativeObject
 (
 )
 const
