@@ -4150,13 +4150,6 @@ editable
 <
 div
 >
-(
-should
-be
-no
--
-op
-)
 '
           
 '
@@ -4189,19 +4182,6 @@ expected
 '
 foobar
 ^
-<
-div
-contenteditable
-=
-"
-false
-"
->
-NESTED
-<
-/
-div
->
 bazqoz
 '
 }
