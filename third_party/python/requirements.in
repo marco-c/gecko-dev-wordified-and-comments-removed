@@ -340,14 +340,6 @@ pyasn1
 4
 .
 8
-pyflakes
-=
-=
-2
-.
-2
-.
-0
 pytest
 =
 =
