@@ -42,6 +42,7 @@ toctree
 running
 writing
 developing
+vision
 The
 following
 documents
