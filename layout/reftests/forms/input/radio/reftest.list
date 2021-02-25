@@ -78,10 +78,6 @@ if
 (
 !
 gtkWidget
-|
-|
-!
-nativeThemePref
 )
 =
 =
@@ -185,13 +181,12 @@ fails
 -
 if
 (
-!
 OSX
 &
 &
 nativeThemePref
 )
-!
+=
 =
 radio
 -
@@ -206,6 +201,6 @@ minimum
 -
 size
 -
-notref
+ref
 .
 html
