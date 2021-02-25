@@ -5688,7 +5688,7 @@ return
 open
 combobox
 (
-atl
+alt
 +
 down
 arrow
