@@ -138,6 +138,11 @@ UrlbarProviderPrivateSearch
 jsm
 "
 "
+UrlbarProviderQuickSuggest
+.
+jsm
+"
+"
 UrlbarProviderSearchSuggestions
 .
 jsm
@@ -169,6 +174,11 @@ jsm
 "
 "
 UrlbarProviderUnifiedComplete
+.
+jsm
+"
+"
+UrlbarQuickSuggest
 .
 jsm
 "
