@@ -2464,6 +2464,8 @@ APPEND_DEVICE
 0x0046
 )
 ;
+#
+endif
 APPEND_DEVICE
 (
 0x22b0
@@ -2484,8 +2486,6 @@ APPEND_DEVICE
 0x22b3
 )
 ;
-#
-endif
 [
 [
 fallthrough
@@ -2848,9 +2848,6 @@ APPEND_DEVICE
 0x0d2e
 )
 ;
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 APPEND_DEVICE
 (
 0x0a84
@@ -2886,8 +2883,6 @@ APPEND_DEVICE
 0x3185
 )
 ;
-#
-endif
 APPEND_DEVICE
 (
 0x1602
