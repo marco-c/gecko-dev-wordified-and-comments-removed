@@ -147,10 +147,7 @@ examples
 :
 ref
 :
-Fixtures
-<
 fixtures
->
 for
 basic
 fixture

@@ -27,6 +27,7 @@ tool
 with
 more
 than
+a
 1100
 tests
 against
@@ -467,7 +468,7 @@ io
 /
 en
 /
-stable
+latest
 /
 code
 .
@@ -617,11 +618,6 @@ pylib
 readthedocs
 .
 io
-/
-en
-/
-stable
-/
 >
 _
 .
@@ -978,9 +974,7 @@ pytest
 .
 org
 /
-en
-/
-stable
+latest
 /
 usage
 .

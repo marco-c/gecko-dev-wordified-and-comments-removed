@@ -72,7 +72,7 @@ org
 /
 en
 /
-stable
+latest
 /
 changelog
 .

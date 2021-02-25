@@ -5,16 +5,25 @@ cgi
 import
 tempfile
 from
-http
+six
+import
+BytesIO
+binary_type
+iteritems
+PY3
+from
+six
 .
-cookies
+moves
+.
+http_cookies
 import
 BaseCookie
 from
-io
-import
-BytesIO
-from
+six
+.
+moves
+.
 urllib
 .
 parse
@@ -1716,11 +1725,20 @@ keep_blank_values
 "
 :
 True
+            
+}
+            
+if
+PY3
+:
                 
+kwargs
+[
 "
 encoding
 "
-:
+]
+=
 "
 iso
 -
@@ -1728,8 +1746,6 @@ iso
 -
 1
 "
-            
-}
             
 params
 =
@@ -1856,11 +1872,20 @@ keep_blank_values
 "
 :
 True
+            
+}
+            
+if
+PY3
+:
                 
+kwargs
+[
 "
 encoding
 "
-:
+]
+=
 "
 iso
 -
@@ -1868,8 +1893,6 @@ iso
 -
 1
 "
-            
-}
             
 fs
 =
@@ -1963,10 +1986,9 @@ for
 key
 value
 in
-parser
-.
-items
+iteritems
 (
+parser
 )
 :
                 
@@ -3796,7 +3818,18 @@ assert
 isinstance
 (
 rawdata
-bytes
+binary_type
+)
+        
+if
+PY3
+:
+            
+rawdata
+=
+isomorphic_decode
+(
+rawdata
 )
         
 super
@@ -3807,10 +3840,7 @@ self
 .
 load
 (
-isomorphic_decode
-(
 rawdata
-)
 )
 class
 Cookies
@@ -4043,7 +4073,7 @@ assert
 isinstance
 (
 header
-bytes
+binary_type
 )
             
 auth_type
@@ -4110,7 +4140,7 @@ assert
 isinstance
 (
 data
-bytes
+binary_type
 )
         
 decoded_data

@@ -651,9 +651,7 @@ pytest
 .
 org
 /
-en
-/
-stable
+latest
 /
 plugins
 .

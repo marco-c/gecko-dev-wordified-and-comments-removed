@@ -5,15 +5,24 @@ subprocess
 import
 sys
 from
-collections
-import
-defaultdict
-from
+six
+.
+moves
+.
 urllib
 .
 parse
 import
 urljoin
+from
+collections
+import
+defaultdict
+from
+six
+import
+iteritems
+string_types
 from
 .
 wptmanifest
@@ -1838,10 +1847,9 @@ for
 key
 value
 in
-threshold
-.
-items
+iteritems
 (
+threshold
 )
 :
                 
@@ -2083,7 +2091,7 @@ if
 isinstance
 (
 expected
-str
+string_types
 )
 :
                 

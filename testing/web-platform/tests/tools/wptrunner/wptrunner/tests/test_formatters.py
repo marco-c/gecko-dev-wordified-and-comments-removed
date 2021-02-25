@@ -3,8 +3,12 @@ json
 import
 time
 from
-io
+six
+.
+moves
 import
+cStringIO
+as
 StringIO
 import
 mock

@@ -1,6 +1,12 @@
 import
 abc
 from
+six
+import
+iteritems
+iterkeys
+itervalues
+from
 .
 .
 node
@@ -1098,12 +1104,11 @@ for
 name
 value
 in
+iteritems
+(
 node
 .
 _data
-.
-items
-(
 )
 :
                 
@@ -1134,14 +1139,13 @@ self
 for
 item
 in
+iteritems
+(
 self
 .
 _flatten
 (
 )
-.
-items
-(
 )
 :
             
@@ -1158,14 +1162,13 @@ self
 for
 item
 in
+iterkeys
+(
 self
 .
 _flatten
 (
 )
-.
-keys
-(
 )
 :
             
@@ -1182,14 +1185,13 @@ self
 for
 item
 in
+itervalues
+(
 self
 .
 _flatten
 (
 )
-.
-values
-(
 )
 :
             

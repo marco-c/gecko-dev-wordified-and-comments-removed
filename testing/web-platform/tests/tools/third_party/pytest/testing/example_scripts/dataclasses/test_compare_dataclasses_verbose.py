@@ -1,3 +1,15 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 from
 dataclasses
 import
@@ -10,15 +22,15 @@ def
 test_dataclasses_verbose
 (
 )
--
->
-None
 :
     
 dataclass
     
 class
 SimpleDataObject
+(
+object
+)
 :
         
 field_a
@@ -31,7 +43,7 @@ field
         
 field_b
 :
-str
+int
 =
 field
 (

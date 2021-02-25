@@ -489,7 +489,6 @@ path
 :
             
 from
-.
 update
 import
 setup_paths

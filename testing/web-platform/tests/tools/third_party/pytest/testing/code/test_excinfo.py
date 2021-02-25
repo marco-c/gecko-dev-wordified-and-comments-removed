@@ -1,33 +1,45 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
+from
+__future__
 import
-io
+absolute_import
+from
+__future__
+import
+division
+from
+__future__
+import
+print_function
 import
 operator
 import
 os
 import
-queue
-import
 sys
 import
 textwrap
-from
-typing
-import
-Any
-from
-typing
-import
-Dict
-from
-typing
-import
-Tuple
-from
-typing
-import
-Union
 import
 py
+import
+six
+from
+six
+.
+moves
+import
+queue
 import
 _pytest
 import
@@ -59,21 +71,11 @@ FormattedExcinfo
 from
 _pytest
 .
-_io
-import
-TerminalWriter
-from
-_pytest
+_code
 .
-compat
+code
 import
-TYPE_CHECKING
-from
-_pytest
-.
-pytester
-import
-LineMatcher
+ReprExceptionInfo
 try
 :
     
@@ -99,18 +101,50 @@ invalidate_caches
 "
 None
 )
-if
-TYPE_CHECKING
+failsonjython
+=
+pytest
+.
+mark
+.
+xfail
+(
+"
+sys
+.
+platform
+.
+startswith
+(
+'
+java
+'
+)
+"
+)
+pytest_version_info
+=
+tuple
+(
+map
+(
+int
+pytest
+.
+__version__
+.
+split
+(
+"
+.
+"
+)
+[
 :
-    
-from
-_pytest
-.
-_code
-.
-code
-import
-_TracebackStyle
+3
+]
+)
+)
 pytest
 .
 fixture
@@ -143,13 +177,157 @@ setrecursionlimit
 (
 before
 )
+class
+TWMock
+(
+object
+)
+:
+    
+WRITE
+=
+object
+(
+)
+    
+def
+__init__
+(
+self
+)
+:
+        
+self
+.
+lines
+=
+[
+]
+        
+self
+.
+is_writing
+=
+False
+    
+def
+sep
+(
+self
+sep
+line
+=
+None
+)
+:
+        
+self
+.
+lines
+.
+append
+(
+(
+sep
+line
+)
+)
+    
+def
+write
+(
+self
+msg
+*
+*
+kw
+)
+:
+        
+self
+.
+lines
+.
+append
+(
+(
+TWMock
+.
+WRITE
+msg
+)
+)
+    
+def
+line
+(
+self
+line
+*
+*
+kw
+)
+:
+        
+self
+.
+lines
+.
+append
+(
+line
+)
+    
+def
+markup
+(
+self
+text
+*
+*
+kw
+)
+:
+        
+return
+text
+    
+def
+get_write_msg
+(
+self
+idx
+)
+:
+        
+flag
+msg
+=
+self
+.
+lines
+[
+idx
+]
+        
+assert
+flag
+=
+=
+TWMock
+.
+WRITE
+        
+return
+msg
+    
+fullwidth
+=
+80
 def
 test_excinfo_simple
 (
 )
--
->
-None
 :
     
 try
@@ -172,64 +350,6 @@ ExceptionInfo
 .
 from_current
 (
-)
-    
-assert
-info
-.
-type
-=
-=
-ValueError
-def
-test_excinfo_from_exc_info_simple
-(
-)
--
->
-None
-:
-    
-try
-:
-        
-raise
-ValueError
-    
-except
-ValueError
-as
-e
-:
-        
-assert
-e
-.
-__traceback__
-is
-not
-None
-        
-info
-=
-_pytest
-.
-_code
-.
-ExceptionInfo
-.
-from_exc_info
-(
-(
-type
-(
-e
-)
-e
-e
-.
-__traceback__
-)
 )
     
 assert
@@ -291,9 +411,14 @@ linenumbers
 =
 [
         
-f
+_pytest
 .
-__code__
+_code
+.
+getrawcode
+(
+f
+)
 .
 co_firstlineno
 -
@@ -301,9 +426,14 @@ co_firstlineno
 +
 4
         
-f
+_pytest
 .
-__code__
+_code
+.
+getrawcode
+(
+f
+)
 .
 co_firstlineno
 -
@@ -311,9 +441,14 @@ co_firstlineno
 +
 1
         
-g
+_pytest
 .
-__code__
+_code
+.
+getrawcode
+(
+g
+)
 .
 co_firstlineno
 -
@@ -381,6 +516,9 @@ g
 )
 class
 TestTraceback_f_g_h
+(
+object
+)
 :
     
 def
@@ -557,6 +695,8 @@ ValueError
 "
 )
     
+failsonjython
+    
 def
 test_traceback_entry_getsource_in_construct
 (
@@ -564,36 +704,65 @@ self
 )
 :
         
+source
+=
+_pytest
+.
+_code
+.
+Source
+(
+            
+"
+"
+"
+\
+            
 def
 xyz
 (
 )
 :
-            
+                
 try
 :
-                
+                    
 raise
 ValueError
-            
+                
 except
 somenoname
 :
-                
+                    
 pass
+            
+xyz
+(
+)
+            
+"
+"
+"
+        
+)
         
 try
 :
             
-xyz
+exec
 (
+source
+.
+compile
+(
+)
 )
         
 except
 NameError
 :
             
-excinfo
+tb
 =
 _pytest
 .
@@ -604,27 +773,11 @@ ExceptionInfo
 from_current
 (
 )
-        
-else
-:
-            
-assert
-False
-"
-did
-not
-raise
-NameError
-"
-        
-tb
-=
-excinfo
 .
 traceback
-        
-source
-=
+            
+print
+(
 tb
 [
 -
@@ -634,63 +787,56 @@ tb
 getsource
 (
 )
-        
-assert
-source
-is
-not
-None
-        
-assert
-source
+)
+            
+s
+=
+str
+(
+tb
+[
+-
+1
+]
 .
-deindent
+getsource
 (
 )
-.
-lines
-=
-=
-[
+)
             
+assert
+s
+.
+startswith
+(
 "
 def
 xyz
 (
 )
 :
-"
-            
-"
+\
+n
 try
 :
 "
+)
             
-"
-raise
-ValueError
-"
-            
+assert
+s
+.
+strip
+(
+)
+.
+endswith
+(
 "
 except
 somenoname
 :
-#
-type
-:
-ignore
-[
-name
--
-defined
-]
-#
-noqa
-:
-F821
 "
-        
-]
+)
     
 def
 test_traceback_cut
@@ -1284,18 +1430,12 @@ test_traceback_no_recursion_index
 (
 self
 )
--
->
-None
 :
         
 def
 do_stuff
 (
 )
--
->
-None
 :
             
 raise
@@ -1305,9 +1445,6 @@ def
 reraise_me
 (
 )
--
->
-None
 :
             
 import
@@ -1323,17 +1460,12 @@ exc_info
 (
 )
             
-assert
-val
-is
-not
-None
-            
-raise
-val
+six
 .
-with_traceback
+reraise
 (
+exc
+val
 tb
 )
         
@@ -1341,12 +1473,7 @@ def
 f
 (
 n
-:
-int
 )
--
->
-None
 :
             
 try
@@ -1357,7 +1484,6 @@ do_stuff
 )
             
 except
-BaseException
 :
                 
 reraise_me
@@ -1374,12 +1500,6 @@ RuntimeError
 f
 8
 )
-        
-assert
-excinfo
-is
-not
-None
         
 traceback
 =
@@ -1827,15 +1947,12 @@ world
 "
 )
 def
-test_excinfo_repr_str
+test_excinfo_repr
 (
 )
--
->
-None
 :
     
-excinfo1
+excinfo
 =
 pytest
 .
@@ -1845,135 +1962,96 @@ ValueError
 h
 )
     
-assert
+s
+=
 repr
 (
-excinfo1
+excinfo
 )
-=
-=
-"
-<
-ExceptionInfo
-ValueError
-(
-)
-tblen
-=
-4
->
-"
     
 assert
-str
-(
-excinfo1
-)
+s
 =
 =
 "
 <
 ExceptionInfo
 ValueError
-(
-)
 tblen
 =
 4
 >
 "
-    
-class
-CustomException
-(
-Exception
-)
-:
-        
 def
-__repr__
+test_excinfo_str
 (
-self
 )
 :
-            
-return
-"
-custom_repr
-"
     
-def
-raises
-(
-)
--
->
-None
-:
-        
-raise
-CustomException
-(
-)
-    
-excinfo2
+excinfo
 =
 pytest
 .
 raises
 (
-CustomException
-raises
+ValueError
+h
 )
     
-assert
-repr
-(
-excinfo2
-)
+s
 =
-=
-"
-<
-ExceptionInfo
-custom_repr
-tblen
-=
-2
->
-"
-    
-assert
 str
 (
-excinfo2
+excinfo
 )
-=
-=
+    
+assert
+s
+.
+startswith
+(
+__file__
+[
+:
+-
+9
+]
+)
+    
+assert
+s
+.
+endswith
+(
 "
-<
-ExceptionInfo
-custom_repr
-tblen
-=
-2
+ValueError
+"
+)
+    
+assert
+len
+(
+s
+.
+split
+(
+"
+:
+"
+)
+)
 >
-"
+=
+3
 def
 test_excinfo_for_later
 (
 )
--
->
-None
 :
     
 e
 =
 ExceptionInfo
-[
-BaseException
-]
 .
 for_later
 (
@@ -2208,18 +2286,6 @@ item
 source
         
 if
-isinstance
-(
-item
-.
-path
-py
-.
-path
-.
-local
-)
-and
 item
 .
 path
@@ -2541,124 +2607,34 @@ ret
 =
 0
     
-exc_msg
-=
+result
+.
+stdout
+.
+fnmatch_lines
+(
+[
 "
-Regex
-pattern
-'
+*
+AssertionError
+*
+Pattern
+*
 [
-[
-]
 123
-[
 ]
-]
-+
-'
-does
+*
 not
-match
-'
-division
-by
-zero
-'
-.
-"
-    
-result
-.
-stdout
-.
-fnmatch_lines
-(
-[
-"
-E
+found
 *
-AssertionError
-:
-{
-}
 "
-.
-format
-(
-exc_msg
-)
 ]
-)
-    
-result
-.
-stdout
-.
-no_fnmatch_line
-(
-"
-*
-__tracebackhide__
-=
-True
-*
-"
-)
-    
-result
-=
-testdir
-.
-runpytest
-(
-"
--
--
-fulltrace
-"
-)
-    
-assert
-result
-.
-ret
-!
-=
-0
-    
-result
-.
-stdout
-.
-fnmatch_lines
-(
-        
-[
-"
-*
-__tracebackhide__
-=
-True
-*
-"
-"
-E
-*
-AssertionError
-:
-{
-}
-"
-.
-format
-(
-exc_msg
-)
-]
-    
 )
 class
 TestFormattedExcinfo
+(
+object
+)
 :
     
 pytest
@@ -2752,6 +2728,69 @@ pyimport
         
 return
 importasmod
+    
+def
+excinfo_from_exec
+(
+self
+source
+)
+:
+        
+source
+=
+_pytest
+.
+_code
+.
+Source
+(
+source
+)
+.
+strip
+(
+)
+        
+try
+:
+            
+exec
+(
+source
+.
+compile
+(
+)
+)
+        
+except
+KeyboardInterrupt
+:
+            
+raise
+        
+except
+:
+            
+return
+_pytest
+.
+_code
+.
+ExceptionInfo
+.
+from_current
+(
+)
+        
+assert
+0
+"
+did
+not
+raise
+"
     
 def
 test_repr_source
@@ -2859,67 +2898,55 @@ test_repr_source_excinfo
 (
 self
 )
--
->
-None
 :
         
 "
 "
 "
-Check
+check
 if
 indentation
 is
 right
-.
 "
 "
 "
         
-try
-:
+pr
+=
+FormattedExcinfo
+(
+)
+        
+excinfo
+=
+self
+.
+excinfo_from_exec
+(
             
+"
+"
+"
+                
 def
 f
 (
 )
 :
-                
-1
-/
+                    
+assert
 0
-            
+                
 f
 (
 )
         
-except
-BaseException
-:
-            
-excinfo
-=
-_pytest
-.
-_code
-.
-ExceptionInfo
-.
-from_current
-(
-)
+"
+"
+"
         
-else
-:
-            
-assert
-False
-"
-did
-not
-raise
-"
+)
         
 pr
 =
@@ -2942,12 +2969,6 @@ traceback
 ]
 )
         
-assert
-source
-is
-not
-None
-        
 lines
 =
 pr
@@ -2959,23 +2980,11 @@ source
 excinfo
 )
         
-for
-line
-in
-lines
-:
-            
-print
-(
-line
-)
-        
 assert
 lines
 =
 =
 [
-            
 "
 def
 f
@@ -2983,23 +2992,15 @@ f
 )
 :
 "
-            
 "
 >
-1
-/
+assert
 0
 "
-            
 "
 E
-ZeroDivisionError
-:
-division
-by
-zero
+AssertionError
 "
-        
 ]
     
 def
@@ -3088,6 +3089,18 @@ lines
 ?
 "
         
+if
+sys
+.
+version_info
+[
+0
+]
+>
+=
+3
+:
+            
 assert
 repr
 .
@@ -3214,6 +3227,18 @@ lines
 ?
 "
         
+if
+sys
+.
+version_info
+[
+0
+]
+>
+=
+3
+:
+            
 assert
 repr
 .
@@ -3247,11 +3272,7 @@ def
 test_repr_source_failing_fullsource
 (
 self
-monkeypatch
 )
--
->
-None
 :
         
 pr
@@ -3260,56 +3281,231 @@ FormattedExcinfo
 (
 )
         
-try
+class
+FakeCode
+(
+object
+)
 :
             
-1
-/
-0
-        
-except
-ZeroDivisionError
+class
+raw
+(
+object
+)
 :
-            
-excinfo
+                
+co_filename
 =
-ExceptionInfo
-.
-from_current
+"
+?
+"
+            
+path
+=
+"
+?
+"
+            
+firstlineno
+=
+5
+            
+def
+fullsource
 (
+self
+)
+:
+                
+return
+None
+            
+fullsource
+=
+property
+(
+fullsource
 )
         
-with
-monkeypatch
-.
-context
+class
+FakeFrame
 (
+object
 )
-as
-m
 :
             
-m
-.
-setattr
+code
+=
+FakeCode
+(
+)
+            
+f_locals
+=
+{
+}
+            
+f_globals
+=
+{
+}
+        
+class
+FakeTracebackEntry
 (
 _pytest
 .
 _code
 .
-Code
-"
-fullsource
-"
-property
-(
-lambda
-self
+Traceback
+.
+Entry
+)
 :
+            
+def
+__init__
+(
+self
+tb
+excinfo
+=
 None
 )
+:
+                
+self
+.
+lineno
+=
+5
++
+3
+            
+property
+            
+def
+frame
+(
+self
+)
+:
+                
+return
+FakeFrame
+(
+)
+        
+class
+Traceback
+(
+_pytest
+.
+_code
+.
+Traceback
+)
+:
+            
+Entry
+=
+FakeTracebackEntry
+        
+class
+FakeExcinfo
+(
+_pytest
+.
+_code
+.
+ExceptionInfo
+)
+:
+            
+typename
+=
+"
+Foo
+"
+            
+value
+=
+Exception
+(
 )
             
+def
+__init__
+(
+self
+)
+:
+                
+pass
+            
+def
+exconly
+(
+self
+tryshort
+)
+:
+                
+return
+"
+EXC
+"
+            
+def
+errisinstance
+(
+self
+cls
+)
+:
+                
+return
+False
+        
+excinfo
+=
+FakeExcinfo
+(
+)
+        
+class
+FakeRawTB
+(
+object
+)
+:
+            
+tb_next
+=
+None
+        
+tb
+=
+FakeRawTB
+(
+)
+        
+excinfo
+.
+traceback
+=
+Traceback
+(
+tb
+)
+        
+fail
+=
+IOError
+(
+)
+        
 repr
 =
 pr
@@ -3342,6 +3538,99 @@ lines
 ?
 "
         
+if
+sys
+.
+version_info
+[
+0
+]
+>
+=
+3
+:
+            
+assert
+repr
+.
+chain
+[
+0
+]
+[
+0
+]
+.
+reprentries
+[
+0
+]
+.
+lines
+[
+0
+]
+=
+=
+"
+>
+?
+?
+?
+"
+        
+fail
+=
+py
+.
+error
+.
+ENOENT
+        
+repr
+=
+pr
+.
+repr_excinfo
+(
+excinfo
+)
+        
+assert
+repr
+.
+reprtraceback
+.
+reprentries
+[
+0
+]
+.
+lines
+[
+0
+]
+=
+=
+"
+>
+?
+?
+?
+"
+        
+if
+sys
+.
+version_info
+[
+0
+]
+>
+=
+3
+:
+            
 assert
 repr
 .
@@ -3376,9 +3665,6 @@ test_repr_local
 (
 self
 )
--
->
-None
 :
         
 p
@@ -3429,12 +3715,6 @@ repr_locals
 (
 loc
 )
-        
-assert
-reprlocals
-is
-not
-None
         
 assert
 reprlocals
@@ -3508,9 +3788,6 @@ test_repr_local_with_error
 (
 self
 )
--
->
-None
 :
         
 class
@@ -3568,12 +3845,6 @@ loc
         
 assert
 reprlocals
-is
-not
-None
-        
-assert
-reprlocals
 .
 lines
         
@@ -3595,10 +3866,12 @@ builtins
 "
         
 assert
-"
+'
 [
 NotImplementedError
 (
+"
+"
 )
 raised
 in
@@ -3606,7 +3879,7 @@ repr
 (
 )
 ]
-"
+'
 in
 reprlocals
 .
@@ -3620,9 +3893,6 @@ test_repr_local_with_exception_in_class_property
 (
 self
 )
--
->
-None
 :
         
 class
@@ -3707,12 +3977,6 @@ loc
         
 assert
 reprlocals
-is
-not
-None
-        
-assert
-reprlocals
 .
 lines
         
@@ -3734,10 +3998,12 @@ builtins
 "
         
 assert
-"
+'
 [
 ExceptionWithBrokenClass
 (
+"
+"
 )
 raised
 in
@@ -3745,7 +4011,7 @@ repr
 (
 )
 ]
-"
+'
 in
 reprlocals
 .
@@ -3759,9 +4025,6 @@ test_repr_local_truncated
 (
 self
 )
--
->
-None
 :
         
 loc
@@ -3800,12 +4063,6 @@ repr_locals
 (
 loc
 )
-        
-assert
-truncated_reprlocals
-is
-not
-None
         
 assert
 truncated_reprlocals
@@ -3860,12 +4117,6 @@ loc
         
 assert
 full_reprlocals
-is
-not
-None
-        
-assert
-full_reprlocals
 .
 lines
         
@@ -3901,9 +4152,6 @@ test_repr_tracebackentry_lines
 self
 importasmod
 )
--
->
-None
 :
         
 mod
@@ -4130,13 +4378,16 @@ loc
 =
 repr_entry
 .
-reprfileloc
-        
-assert
-loc
+reprlocals
 is
 not
 None
+        
+loc
+=
+repr_entry
+.
+reprfileloc
         
 assert
 loc
@@ -4161,11 +4412,7 @@ test_repr_tracebackentry_lines2
 (
 self
 importasmod
-tw_mock
 )
--
->
-None
 :
         
 mod
@@ -4267,12 +4514,6 @@ repr_args
 (
 entry
 )
-        
-assert
-reprfuncargs
-is
-not
-None
         
 assert
 reprfuncargs
@@ -4378,31 +4619,29 @@ assert
 repr_entry
 .
 reprfuncargs
-is
-not
-None
+.
+args
+=
+=
+reprfuncargs
+.
+args
         
-assert
-repr_entry
-.
-reprfuncargs
-.
-args
+tw
 =
-=
-reprfuncargs
-.
-args
+TWMock
+(
+)
         
 repr_entry
 .
 toterminal
 (
-tw_mock
+tw
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -4425,7 +4664,7 @@ m
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -4443,7 +4682,7 @@ y
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -4470,11 +4709,7 @@ test_repr_tracebackentry_lines_var_kw_args
 (
 self
 importasmod
-tw_mock
 )
--
->
-None
 :
         
 mod
@@ -4577,12 +4812,6 @@ repr_args
 (
 entry
 )
-        
-assert
-reprfuncargs
-is
-not
-None
         
 assert
 reprfuncargs
@@ -4677,28 +4906,29 @@ assert
 repr_entry
 .
 reprfuncargs
+.
+args
+=
+=
+reprfuncargs
+.
+args
         
-assert
-repr_entry
-.
-reprfuncargs
-.
-args
+tw
 =
-=
-reprfuncargs
-.
-args
+TWMock
+(
+)
         
 repr_entry
 .
 toterminal
 (
-tw_mock
+tw
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -4738,9 +4968,6 @@ test_repr_tracebackentry_short
 self
 importasmod
 )
--
->
-None
 :
         
 mod
@@ -4855,14 +5082,6 @@ func1
 "
         
 assert
-reprtb
-.
-reprfileloc
-is
-not
-None
-        
-assert
 basename
 in
 str
@@ -4947,14 +5166,6 @@ ValueError
 :
 hello
 "
-        
-assert
-reprtb
-.
-reprfileloc
-is
-not
-None
         
 assert
 basename
@@ -5240,9 +5451,6 @@ self
 importasmod
 monkeypatch
 )
--
->
-None
 :
         
 mod
@@ -5456,9 +5664,6 @@ test_repr_traceback_and_excinfo
 self
 importasmod
 )
--
->
-None
 :
         
 mod
@@ -5512,8 +5717,9 @@ mod
 entry
 )
         
-styles
-=
+for
+style
+in
 (
 "
 long
@@ -5522,11 +5728,6 @@ long
 short
 "
 )
-        
-for
-style
-in
-styles
 :
             
 p
@@ -5604,6 +5805,18 @@ reprtb
 reprentries
 )
             
+if
+sys
+.
+version_info
+[
+0
+]
+>
+=
+3
+:
+                
 assert
 repr
 .
@@ -5614,7 +5827,7 @@ chain
 [
 0
 ]
-            
+                
 assert
 len
 (
@@ -5638,14 +5851,6 @@ reprtb
 .
 reprentries
 )
-            
-assert
-repr
-.
-reprcrash
-is
-not
-None
             
 assert
 repr
@@ -5684,9 +5889,6 @@ self
 importasmod
 monkeypatch
 )
--
->
-None
 :
         
 mod
@@ -5744,20 +5946,7 @@ p
 =
 FormattedExcinfo
 (
-abspath
-=
-False
 )
-        
-raised
-=
-0
-        
-orig_getcwd
-=
-os
-.
-getcwd
         
 def
 raiseos
@@ -5765,55 +5954,10 @@ raiseos
 )
 :
             
-nonlocal
-raised
-            
-upframe
-=
-sys
-.
-_getframe
-(
-)
-.
-f_back
-            
-assert
-upframe
-is
-not
-None
-            
-if
-upframe
-.
-f_code
-.
-co_name
-=
-=
-"
-checked_call
-"
-:
-                
-raised
-+
-=
-1
-                
 raise
 OSError
 (
 2
-"
-custom_oserror
-"
-)
-            
-return
-orig_getcwd
-(
 )
         
 monkeypatch
@@ -5838,145 +5982,18 @@ __file__
 =
 __file__
         
-assert
-raised
-=
-=
-1
-        
-repr_tb
-=
 p
 .
 repr_traceback
 (
 excinfo
 )
-        
-matcher
-=
-LineMatcher
-(
-str
-(
-repr_tb
-)
-.
-splitlines
-(
-)
-)
-        
-matcher
-.
-fnmatch_lines
-(
-            
-[
-                
-"
-def
-entry
-(
-)
-:
-"
-                
-"
->
-f
-(
-0
-)
-"
-                
-"
-"
-                
-"
-{
-}
-:
-5
-:
-"
-.
-format
-(
-mod
-.
-__file__
-)
-                
-"
-_
-_
-*
-"
-                
-"
-"
-                
-"
-def
-f
-(
-x
-)
-:
-"
-                
-"
->
-raise
-ValueError
-(
-x
-)
-"
-                
-"
-E
-ValueError
-:
-0
-"
-                
-"
-"
-                
-"
-{
-}
-:
-3
-:
-ValueError
-"
-.
-format
-(
-mod
-.
-__file__
-)
-            
-]
-        
-)
-        
-assert
-raised
-=
-=
-3
     
 def
 test_repr_excinfo_addouterr
 (
 self
 importasmod
-tw_mock
 )
 :
         
@@ -6038,15 +6055,21 @@ content
 "
 )
         
+twmock
+=
+TWMock
+(
+)
+        
 repr
 .
 toterminal
 (
-tw_mock
+twmock
 )
         
 assert
-tw_mock
+twmock
 .
 lines
 [
@@ -6060,7 +6083,7 @@ content
 "
         
 assert
-tw_mock
+twmock
 .
 lines
 [
@@ -6084,9 +6107,6 @@ test_repr_excinfo_reprcrash
 self
 importasmod
 )
--
->
-None
 :
         
 mod
@@ -6134,14 +6154,6 @@ excinfo
 getrepr
 (
 )
-        
-assert
-repr
-.
-reprcrash
-is
-not
-None
         
 assert
 repr
@@ -6346,9 +6358,6 @@ test_reprexcinfo_getrepr
 self
 importasmod
 )
--
->
-None
 :
         
 mod
@@ -6402,8 +6411,9 @@ mod
 entry
 )
         
-styles
-=
+for
+style
+in
 (
 "
 short
@@ -6415,11 +6425,6 @@ long
 no
 "
 )
-        
-for
-style
-in
-styles
 :
             
 for
@@ -6445,6 +6450,24 @@ showlocals
 showlocals
 )
                 
+if
+sys
+.
+version_info
+[
+0
+]
+<
+3
+:
+                    
+assert
+isinstance
+(
+repr
+ReprExceptionInfo
+)
+                
 assert
 repr
 .
@@ -6455,23 +6478,35 @@ style
 =
 style
                 
+if
+sys
+.
+version_info
+[
+0
+]
+>
+=
+3
+:
+                    
 assert
 isinstance
 (
 repr
 ExceptionChainRepr
 )
-                
+                    
 for
-r
+repr
 in
 repr
 .
 chain
 :
-                    
+                        
 assert
-r
+repr
 [
 0
 ]
@@ -6509,25 +6544,23 @@ toterminal
 (
 self
 tw
-:
-TerminalWriter
 )
--
->
-None
 :
                 
 tw
 .
 line
 (
+u
 "
 "
 )
         
 x
 =
-str
+six
+.
+text_type
 (
 MyRepr
 (
@@ -6538,6 +6571,7 @@ assert
 x
 =
 =
+u
 "
 "
     
@@ -6546,7 +6580,6 @@ test_toterminal_long
 (
 self
 importasmod
-tw_mock
 )
 :
         
@@ -6621,15 +6654,21 @@ getrepr
 (
 )
         
+tw
+=
+TWMock
+(
+)
+        
 repr
 .
 toterminal
 (
-tw_mock
+tw
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -6640,7 +6679,7 @@ lines
 "
 "
         
-tw_mock
+tw
 .
 lines
 .
@@ -6650,7 +6689,7 @@ pop
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -6667,7 +6706,7 @@ f
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -6684,7 +6723,7 @@ g
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -6697,7 +6736,7 @@ lines
         
 line
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -6717,7 +6756,7 @@ py
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -6734,7 +6773,7 @@ lines
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -6750,7 +6789,7 @@ None
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -6762,7 +6801,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -6780,7 +6819,7 @@ x
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -6798,7 +6837,7 @@ x
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -6814,7 +6853,7 @@ ValueError
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -6827,7 +6866,7 @@ lines
         
 line
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -6847,7 +6886,7 @@ py
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -6868,7 +6907,6 @@ test_toterminal_long_missing_source
 self
 importasmod
 tmpdir
-tw_mock
 )
 :
         
@@ -6958,15 +6996,21 @@ getrepr
 (
 )
         
+tw
+=
+TWMock
+(
+)
+        
 repr
 .
 toterminal
 (
-tw_mock
+tw
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -6977,7 +7021,7 @@ lines
 "
 "
         
-tw_mock
+tw
 .
 lines
 .
@@ -6987,7 +7031,7 @@ pop
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7003,7 +7047,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7016,7 +7060,7 @@ lines
         
 line
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -7036,7 +7080,7 @@ py
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7051,7 +7095,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7067,7 +7111,7 @@ None
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7079,7 +7123,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7095,7 +7139,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7111,7 +7155,7 @@ ValueError
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7124,7 +7168,7 @@ lines
         
 line
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -7144,7 +7188,7 @@ py
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7165,7 +7209,6 @@ test_toterminal_long_incomplete_source
 self
 importasmod
 tmpdir
-tw_mock
 )
 :
         
@@ -7258,15 +7301,21 @@ getrepr
 (
 )
         
+tw
+=
+TWMock
+(
+)
+        
 repr
 .
 toterminal
 (
-tw_mock
+tw
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7277,7 +7326,7 @@ lines
 "
 "
         
-tw_mock
+tw
 .
 lines
 .
@@ -7287,7 +7336,7 @@ pop
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7303,7 +7352,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7316,7 +7365,7 @@ lines
         
 line
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -7336,7 +7385,7 @@ py
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7351,7 +7400,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7367,7 +7416,7 @@ None
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7379,7 +7428,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7395,7 +7444,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7411,7 +7460,7 @@ ValueError
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7424,7 +7473,7 @@ lines
         
 line
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -7444,7 +7493,7 @@ py
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7464,7 +7513,6 @@ test_toterminal_long_filenames
 (
 self
 importasmod
-tw_mock
 )
 :
         
@@ -7504,6 +7552,12 @@ ValueError
 mod
 .
 f
+)
+        
+tw
+=
+TWMock
+(
 )
         
 path
@@ -7549,7 +7603,7 @@ repr
 .
 toterminal
 (
-tw_mock
+tw
 )
             
 x
@@ -7584,7 +7638,7 @@ path
                 
 msg
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -7603,7 +7657,7 @@ py
 "
                 
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -7634,12 +7688,12 @@ repr
 .
 toterminal
 (
-tw_mock
+tw
 )
             
 msg
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -7655,7 +7709,7 @@ path
             
 line
 =
-tw_mock
+tw
 .
 lines
 [
@@ -7696,76 +7750,38 @@ reproptions
         
 [
             
-pytest
-.
-param
-(
-                
 {
-                    
+                
 "
 style
 "
 :
 style
-                    
+                
 "
 showlocals
 "
 :
 showlocals
-                    
+                
 "
 funcargs
 "
 :
 funcargs
-                    
+                
 "
 tbfilter
 "
 :
 tbfilter
-                
-}
-                
-id
-=
-"
-style
-=
-{
-}
-showlocals
-=
-{
-}
-funcargs
-=
-{
-}
-tbfilter
-=
-{
-}
-"
-.
-format
-(
-                    
-style
-showlocals
-funcargs
-tbfilter
-                
-)
             
-)
+}
             
 for
 style
 in
-[
+(
 "
 long
 "
@@ -7773,21 +7789,9 @@ long
 short
 "
 "
-line
-"
-"
 no
 "
-"
-native
-"
-"
-value
-"
-"
-auto
-"
-]
+)
             
 for
 showlocals
@@ -7821,72 +7825,73 @@ def
 test_format_excinfo
 (
 self
+importasmod
 reproptions
-:
-Dict
-[
-str
-Any
-]
 )
--
->
-None
 :
         
-def
-bar
+mod
+=
+importasmod
 (
-)
-:
             
-assert
-False
 "
-some
-error
 "
-        
+"
+            
 def
-foo
+g
+(
+x
+)
+:
+                
+raise
+ValueError
+(
+x
+)
+            
+def
+f
 (
 )
 :
-            
-bar
+                
+g
 (
+3
 )
         
-with
+"
+"
+"
+        
+)
+        
+excinfo
+=
 pytest
 .
 raises
 (
-AssertionError
-)
-as
-excinfo
-:
-            
-foo
-(
-)
-        
-file
-=
-io
+ValueError
+mod
 .
-StringIO
-(
+f
 )
         
 tw
 =
+py
+.
+io
+.
 TerminalWriter
 (
-file
+stringio
 =
-file
+True
 )
         
 repr
@@ -7908,7 +7913,9 @@ tw
 )
         
 assert
-file
+tw
+.
+stringio
 .
 getvalue
 (
@@ -7919,7 +7926,6 @@ test_traceback_repr_style
 (
 self
 importasmod
-tw_mock
 )
 :
         
@@ -8044,17 +8050,23 @@ long
 "
 )
         
+tw
+=
+TWMock
+(
+)
+        
 r
 .
 toterminal
 (
-tw_mock
+tw
 )
         
 for
 line
 in
-tw_mock
+tw
 .
 lines
 :
@@ -8065,7 +8077,7 @@ line
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8077,7 +8089,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8094,7 +8106,7 @@ f
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8110,7 +8122,7 @@ g
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8123,7 +8135,7 @@ lines
         
 msg
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -8143,7 +8155,7 @@ py
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8158,7 +8170,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8173,7 +8185,7 @@ _
 None
 )
         
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -8181,7 +8193,7 @@ get_write_msg
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8197,7 +8209,7 @@ g
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8211,7 +8223,7 @@ h
 )
 "
         
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -8219,7 +8231,7 @@ get_write_msg
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8235,7 +8247,7 @@ h
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8250,7 +8262,7 @@ i
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8266,7 +8278,7 @@ None
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8278,7 +8290,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8295,7 +8307,7 @@ i
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8312,7 +8324,7 @@ ValueError
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8326,7 +8338,7 @@ ValueError
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8339,7 +8351,7 @@ lines
         
 msg
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -8358,7 +8370,7 @@ py
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8373,12 +8385,29 @@ lines
 ValueError
 "
     
+pytest
+.
+mark
+.
+skipif
+(
+"
+sys
+.
+version_info
+[
+0
+]
+<
+3
+"
+)
+    
 def
 test_exc_chain_repr
 (
 self
 importasmod
-tw_mock
 )
 :
         
@@ -8486,17 +8515,23 @@ long
 "
 )
         
+tw
+=
+TWMock
+(
+)
+        
 r
 .
 toterminal
 (
-tw_mock
+tw
 )
         
 for
 line
 in
-tw_mock
+tw
 .
 lines
 :
@@ -8507,7 +8542,7 @@ line
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8519,7 +8554,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8536,7 +8571,7 @@ f
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8550,7 +8585,7 @@ try
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8566,7 +8601,7 @@ g
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8579,7 +8614,7 @@ lines
         
 line
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -8599,7 +8634,7 @@ py
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8614,7 +8649,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8630,7 +8665,7 @@ None
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8642,7 +8677,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8659,7 +8694,7 @@ g
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8676,7 +8711,7 @@ ValueError
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8690,7 +8725,7 @@ ValueError
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8703,7 +8738,7 @@ lines
         
 line
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -8723,7 +8758,7 @@ py
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8739,7 +8774,7 @@ ValueError
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8753,7 +8788,7 @@ lines
 assert
 (
             
-tw_mock
+tw
 .
 lines
 [
@@ -8780,7 +8815,7 @@ exception
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8792,7 +8827,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8809,7 +8844,7 @@ f
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8823,7 +8858,7 @@ try
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8838,7 +8873,7 @@ g
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8855,7 +8890,7 @@ e
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8874,7 +8909,7 @@ e
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8892,7 +8927,7 @@ Err
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8905,7 +8940,7 @@ lines
         
 line
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -8925,7 +8960,7 @@ py
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8941,7 +8976,7 @@ Err
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8955,7 +8990,7 @@ lines
 assert
 (
             
-tw_mock
+tw
 .
 lines
 [
@@ -8980,7 +9015,7 @@ occurred
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -8992,7 +9027,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9009,7 +9044,7 @@ f
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9023,7 +9058,7 @@ try
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9038,7 +9073,7 @@ g
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9055,7 +9090,7 @@ e
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9073,7 +9108,7 @@ e
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9087,7 +9122,7 @@ finally
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9103,7 +9138,7 @@ h
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9116,7 +9151,7 @@ lines
         
 line
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -9136,7 +9171,7 @@ py
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9151,7 +9186,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9167,7 +9202,7 @@ None
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9179,7 +9214,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9196,7 +9231,7 @@ h
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9213,7 +9248,7 @@ AttributeError
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9227,7 +9262,7 @@ AttributeError
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9240,7 +9275,7 @@ lines
         
 line
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -9260,7 +9295,7 @@ py
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9274,6 +9309,24 @@ lines
 :
 AttributeError
 "
+    
+pytest
+.
+mark
+.
+skipif
+(
+"
+sys
+.
+version_info
+[
+0
+]
+<
+3
+"
+)
     
 pytest
 .
@@ -9300,7 +9353,6 @@ test_exc_repr_chain_suppression
 self
 importasmod
 mode
-tw_mock
 )
 :
         
@@ -9464,17 +9516,23 @@ explicit_suppress
 "
 )
         
+tw
+=
+TWMock
+(
+)
+        
 r
 .
 toterminal
 (
-tw_mock
+tw
 )
         
 for
 line
 in
-tw_mock
+tw
 .
 lines
 :
@@ -9485,7 +9543,7 @@ line
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9497,7 +9555,7 @@ lines
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9514,7 +9572,7 @@ f
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9528,7 +9586,7 @@ try
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9543,7 +9601,7 @@ g
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9558,7 +9616,7 @@ Exception
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9584,7 +9642,7 @@ raise_suffix
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9598,7 +9656,7 @@ AttributeError
 "
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9611,7 +9669,7 @@ lines
         
 line
 =
-tw_mock
+tw
 .
 get_write_msg
 (
@@ -9631,7 +9689,7 @@ py
 )
         
 assert
-tw_mock
+tw
 .
 lines
 [
@@ -9649,13 +9707,31 @@ AttributeError
 assert
 len
 (
-tw_mock
+tw
 .
 lines
 )
 =
 =
 10
+    
+pytest
+.
+mark
+.
+skipif
+(
+"
+sys
+.
+version_info
+[
+0
+]
+<
+3
+"
+)
     
 pytest
 .
@@ -9671,9 +9747,6 @@ description
         
 [
             
-pytest
-.
-param
 (
                 
 "
@@ -9694,18 +9767,9 @@ following
 exception
 :
 "
-                
-id
-=
-"
-cause
-"
             
 )
             
-pytest
-.
-param
 (
                 
 "
@@ -9723,12 +9787,6 @@ another
 exception
 occurred
 :
-"
-                
-id
-=
-"
-context
 "
             
 )
@@ -9791,6 +9849,13 @@ module
 "
 "
 "
+        
+from
+_pytest
+.
+pytester
+import
+LineMatcher
         
 exc_handling_code
 =
@@ -9926,21 +9991,17 @@ getrepr
 (
 )
         
-file
-=
-io
-.
-StringIO
-(
-)
-        
 tw
 =
+py
+.
+io
+.
 TerminalWriter
 (
-file
+stringio
 =
-file
+True
 )
         
 tw
@@ -9960,7 +10021,9 @@ matcher
 =
 LineMatcher
 (
-file
+tw
+.
+stringio
 .
 getvalue
 (
@@ -10024,12 +10087,29 @@ problem
         
 )
     
+pytest
+.
+mark
+.
+skipif
+(
+"
+sys
+.
+version_info
+[
+0
+]
+<
+3
+"
+)
+    
 def
 test_exc_chain_repr_cycle
 (
 self
 importasmod
-tw_mock
 )
 :
         
@@ -10143,11 +10223,17 @@ short
 "
 )
         
+tw
+=
+TWMock
+(
+)
+        
 r
 .
 toterminal
 (
-tw_mock
+tw
 )
         
 out
@@ -10163,7 +10249,7 @@ line
 for
 line
 in
-tw_mock
+tw
 .
 lines
 if
@@ -10276,84 +10362,6 @@ out
 =
 =
 expected_out
-    
-def
-test_exec_type_error_filter
-(
-self
-importasmod
-)
-:
-        
-"
-"
-"
-See
-#
-7742
-"
-"
-"
-        
-mod
-=
-importasmod
-(
-            
-"
-"
-"
-\
-            
-def
-f
-(
-)
-:
-                
-exec
-(
-"
-a
-=
-1
-"
-{
-}
-[
-]
-)
-            
-"
-"
-"
-        
-)
-        
-with
-pytest
-.
-raises
-(
-TypeError
-)
-as
-excinfo
-:
-            
-mod
-.
-f
-(
-)
-        
-excinfo
-.
-traceback
-.
-filter
-(
-)
 pytest
 .
 mark
@@ -10399,24 +10407,22 @@ encoding
 )
 :
     
+msg
+=
+u
+"
+"
+    
 if
 encoding
 is
+not
 None
 :
         
 msg
 =
-"
-"
-    
-else
-:
-        
 msg
-=
-"
-"
 .
 encode
 (
@@ -10536,30 +10542,26 @@ in
 ]
 )
     
+assert
+"
+INTERNALERROR
+"
+not
+in
 result
 .
 stdout
 .
-no_fnmatch_line
+str
 (
-"
-*
-INTERNALERROR
-*
-"
 )
-    
++
 result
 .
 stderr
 .
-no_fnmatch_line
+str
 (
-"
-*
-INTERNALERROR
-*
-"
 )
 pytest
 .
@@ -10608,8 +10610,18 @@ comparison
 "
 "
     
+from
+_pytest
+.
+pytester
+import
+LineMatcher
+    
 class
 numpy_like
+(
+object
+)
 :
         
 def
@@ -10826,6 +10838,9 @@ error
     
 class
 RecursionDepthError
+(
+object
+)
 :
         
 def

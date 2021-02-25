@@ -1,7 +1,19 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 "
 "
 "
-Allow
+allow
 bash
 -
 completion
@@ -11,8 +23,7 @@ with
 argcomplete
 if
 installed
-.
-Needs
+needs
 argcomplete
 >
 =
@@ -54,7 +65,6 @@ not
 need
 special
 code
-)
 .
 Function
 try_argcomplete
@@ -124,6 +134,7 @@ nargs
 '
 *
 '
+                               
 )
 .
 completer
@@ -266,7 +277,6 @@ is
 marked
 with
 PYTHON_ARGCOMPLETE_OK
-.
 INSTALL
 /
 DEBUGGING
@@ -303,7 +313,7 @@ generated
 scripts
 :
 -
-Add
+add
 the
 line
 :
@@ -320,9 +330,8 @@ main
 python
 entry
 point
-.
 -
-Include
+include
 in
 the
 file
@@ -337,8 +346,8 @@ _argcomplete
 import
 try_argcomplete
 filescompleter
-  
-Call
+   
+call
 try_argcomplete
 just
 before
@@ -348,7 +357,7 @@ parse_args
 and
 optionally
 add
-  
+   
 filescompleter
 to
 the
@@ -358,7 +367,6 @@ arguments
 add_argument
 (
 )
-.
 If
 things
 do
@@ -368,7 +376,7 @@ right
 away
 :
 -
-Switch
+switch
 on
 argcomplete
 debugging
@@ -389,7 +397,7 @@ _ARC_DEBUG
 =
 1
 -
-Run
+run
 :
     
 python
@@ -424,9 +432,8 @@ found
 1
 if
 not
-.
 -
-Sometimes
+sometimes
 it
 helps
 to
@@ -470,8 +477,18 @@ script
 "
 "
 "
+from
+__future__
 import
-argparse
+absolute_import
+from
+__future__
+import
+division
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -480,32 +497,18 @@ from
 glob
 import
 glob
-from
-typing
-import
-Any
-from
-typing
-import
-List
-from
-typing
-import
-Optional
 class
 FastFilesCompleter
+(
+object
+)
 :
     
-"
-"
 "
 Fast
 file
 completer
 class
-.
-"
-"
 "
     
 def
@@ -513,14 +516,9 @@ __init__
 (
 self
 directories
-:
-bool
 =
 True
 )
--
->
-None
 :
         
 self
@@ -534,21 +532,24 @@ __call__
 (
 self
 prefix
-:
-str
 *
 *
 kwargs
-:
-Any
 )
--
->
-List
-[
-str
-]
 :
+        
+"
+"
+"
+only
+called
+on
+non
+option
+completions
+"
+"
+"
         
 if
 os
@@ -750,14 +751,7 @@ def
 try_argcomplete
 (
 parser
-:
-argparse
-.
-ArgumentParser
 )
--
->
-None
 :
         
 argcomplete
@@ -776,14 +770,7 @@ def
 try_argcomplete
 (
 parser
-:
-argparse
-.
-ArgumentParser
 )
--
->
-None
 :
         
 pass

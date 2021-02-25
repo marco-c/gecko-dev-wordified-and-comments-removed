@@ -861,7 +861,7 @@ test
 methods
 .
 This
-fixes
+fixues
 issue346
 and
 should

@@ -1207,7 +1207,7 @@ in
 a
 future
 major
-release
+relase
 of
 pytest
 we
@@ -1233,11 +1233,6 @@ py
 :
 class
 :
-~
-_pytest
-.
-mark
-.
 Mark
 .
 cache

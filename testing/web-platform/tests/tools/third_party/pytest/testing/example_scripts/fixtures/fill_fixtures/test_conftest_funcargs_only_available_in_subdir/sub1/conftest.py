@@ -1,3 +1,15 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 import
 pytest
 pytest
@@ -15,9 +27,7 @@ pytest
 .
 raises
 (
-pytest
-.
-FixtureLookupError
+Exception
 )
 :
         
