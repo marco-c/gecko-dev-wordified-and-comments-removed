@@ -14334,7 +14334,7 @@ dom
 min_timeout_value
 type
 :
-int32_t
+RelaxedAtomicInt32
 value
 :
 4
