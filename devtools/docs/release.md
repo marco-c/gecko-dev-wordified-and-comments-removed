@@ -291,7 +291,7 @@ code
 In
 order
 to
-accomodate
+accommodate
 connecting
 to
 older
