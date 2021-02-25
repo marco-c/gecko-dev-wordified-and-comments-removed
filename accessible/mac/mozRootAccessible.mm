@@ -114,7 +114,7 @@ AccessibleOrProxy
 )
 aAccOrProxy
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_ASSERT
 (
@@ -152,7 +152,10 @@ initWithAccessible
 aAccOrProxy
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 -
@@ -199,7 +202,7 @@ id
 )
 moxUnignoredParent
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 return
 [
@@ -212,7 +215,10 @@ accessibilityAttributeValue
 NSAccessibilityParentAttribute
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 -
@@ -231,7 +237,7 @@ id
 )
 representedView
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_ASSERT
 (
@@ -253,7 +259,10 @@ view
 return
 mParallelView
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 -

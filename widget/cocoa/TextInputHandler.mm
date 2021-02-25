@@ -16033,7 +16033,7 @@ NSRange
 aSelectedRange
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 RefPtr
 <
@@ -19160,7 +19160,7 @@ NSRange
 aActualRange
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
@@ -19628,7 +19628,10 @@ mOffsetAndData
 return
 result
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 bool
@@ -20990,7 +20993,7 @@ GetValidAttributesForMarkedText
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
@@ -21024,7 +21027,10 @@ NSTextInputReplacementRangeAttributeName
 nil
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 #

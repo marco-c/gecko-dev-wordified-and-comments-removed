@@ -394,7 +394,7 @@ GetNativeObject
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 if
 (
@@ -454,7 +454,10 @@ true
 return
 mNativeObject
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 void
@@ -492,7 +495,7 @@ GetNativeType
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 if
 (
@@ -572,7 +575,10 @@ Role
 )
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 void
@@ -1389,7 +1395,7 @@ Role
 aRole
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 switch
 (
@@ -1824,6 +1830,9 @@ class
 return
 nil
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }

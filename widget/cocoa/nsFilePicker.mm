@@ -426,7 +426,7 @@ GetAccessoryView
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 NSView
 *
@@ -1046,7 +1046,10 @@ popupButton
 return
 accessoryView
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 nsresult
@@ -2454,7 +2457,7 @@ GetFilterList
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 if
 (
@@ -2667,7 +2670,10 @@ componentsSeparatedByString
 autorelease
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 void
@@ -2765,7 +2771,7 @@ PanelDefaultDirectory
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 NSString
 *
@@ -2827,7 +2833,10 @@ autorelease
 return
 directory
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 NS_IMETHODIMP

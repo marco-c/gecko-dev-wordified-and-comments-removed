@@ -274,7 +274,7 @@ nsString
 itemLabel
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 return
 [
@@ -303,7 +303,10 @@ Length
 )
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 uint8_t
@@ -608,7 +611,7 @@ GetStandardEditMenuItem
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 NSMenuItem
 *
@@ -957,7 +960,10 @@ release
 return
 standardEditMenuItem
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 bool
