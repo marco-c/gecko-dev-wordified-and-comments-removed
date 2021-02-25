@@ -62,6 +62,10 @@ Prefs
 values
 :
 {
+featureConfig
+:
+{
+}
 }
 }
 }

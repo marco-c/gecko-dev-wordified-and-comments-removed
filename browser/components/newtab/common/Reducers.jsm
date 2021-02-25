@@ -163,6 +163,10 @@ false
 values
 :
 {
+featureConfig
+:
+{
+}
 }
 }
 Dialog

@@ -139,6 +139,10 @@ Prefs
 values
 :
 {
+featureConfig
+:
+{
+}
 }
 }
 }

@@ -994,13 +994,10 @@ props
 Prefs
 .
 values
-[
-"
-newNewtabExperience
 .
-enabled
-"
-]
+featureConfig
+.
+newNewtabExperienceEnabled
 ;
 return
 (

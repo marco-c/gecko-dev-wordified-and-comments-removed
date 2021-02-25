@@ -794,14 +794,14 @@ updatedExperiment
 ;
 this
 .
-_emitExperimentUpdates
+_updateSyncStore
 (
 updatedExperiment
 )
 ;
 this
 .
-_updateSyncStore
+_emitExperimentUpdates
 (
 updatedExperiment
 )

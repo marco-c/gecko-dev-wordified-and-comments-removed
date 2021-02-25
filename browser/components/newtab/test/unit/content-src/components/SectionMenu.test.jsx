@@ -60,6 +60,10 @@ Prefs
 values
 :
 {
+featureConfig
+:
+{
+}
 }
 }
 name

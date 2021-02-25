@@ -304,13 +304,10 @@ props
 Prefs
 .
 values
-[
-"
-newNewtabExperience
 .
-enabled
-"
-]
+featureConfig
+.
+newNewtabExperienceEnabled
 )
 {
 if

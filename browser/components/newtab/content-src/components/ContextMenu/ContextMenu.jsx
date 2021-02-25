@@ -951,7 +951,9 @@ this
 props
 ;
 const
-isNewNewtabExperienceEnabled
+{
+newNewtabExperienceEnabled
+}
 =
 this
 .
@@ -960,13 +962,8 @@ props
 Prefs
 .
 values
-[
-"
-newNewtabExperience
 .
-enabled
-"
-]
+featureConfig
 ;
 return
 (
@@ -1045,7 +1042,7 @@ null
 >
 {
 !
-isNewNewtabExperienceEnabled
+newNewtabExperienceEnabled
 &
 &
 option

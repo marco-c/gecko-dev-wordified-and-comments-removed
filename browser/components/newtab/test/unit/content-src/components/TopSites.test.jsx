@@ -268,6 +268,10 @@ Prefs
 values
 :
 {
+featureConfig
+:
+{
+}
 }
 }
 TopSites
