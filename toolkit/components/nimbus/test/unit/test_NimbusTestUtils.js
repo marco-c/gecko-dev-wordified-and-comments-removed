@@ -22,7 +22,7 @@ testing
 -
 common
 /
-MSTestUtils
+NimbusTestUtils
 .
 jsm
 "

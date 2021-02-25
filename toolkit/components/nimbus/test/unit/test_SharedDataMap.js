@@ -12,9 +12,7 @@ resource
 :
 /
 /
-messaging
--
-system
+nimbus
 /
 lib
 /
@@ -90,7 +88,7 @@ testing
 -
 common
 /
-MSTestUtils
+NimbusTestUtils
 .
 jsm
 "

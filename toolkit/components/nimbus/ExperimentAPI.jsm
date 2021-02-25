@@ -237,11 +237,9 @@ resource
 :
 /
 /
-messaging
--
-system
+nimbus
 /
-experiments
+lib
 /
 ExperimentStore
 .
@@ -254,11 +252,9 @@ resource
 :
 /
 /
-messaging
--
-system
+nimbus
 /
-experiments
+lib
 /
 ExperimentManager
 .

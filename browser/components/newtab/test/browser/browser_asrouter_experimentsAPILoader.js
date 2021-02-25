@@ -64,9 +64,7 @@ resource
 :
 /
 /
-messaging
--
-system
+nimbus
 /
 lib
 /
@@ -90,11 +88,7 @@ resource
 :
 /
 /
-messaging
--
-system
-/
-experiments
+nimbus
 /
 ExperimentAPI
 .
@@ -120,7 +114,7 @@ testing
 -
 common
 /
-MSTestUtils
+NimbusTestUtils
 .
 jsm
 "

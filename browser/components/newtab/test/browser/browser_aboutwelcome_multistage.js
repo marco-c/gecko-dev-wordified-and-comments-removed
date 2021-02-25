@@ -17,11 +17,7 @@ resource
 :
 /
 /
-messaging
--
-system
-/
-experiments
+nimbus
 /
 ExperimentAPI
 .
@@ -47,7 +43,7 @@ testing
 -
 common
 /
-MSTestUtils
+NimbusTestUtils
 .
 jsm
 "
