@@ -718,14 +718,6 @@ atomCache
 )
 const
 {
-MOZ_ASSERT
-(
-!
-isWellKnownOrStatic
-(
-)
-)
-;
 JSAtom
 *
 atom
