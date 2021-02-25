@@ -7,6 +7,8 @@ import
 sys
 import
 subprocess
+import
+buildconfig
 def
 make_zip
 (
@@ -19,10 +21,16 @@ subprocess
 .
 check_call
 (
+        
+[
+buildconfig
+.
+substs
 [
 "
-zip
+ZIP
 "
+]
 "
 -
 r9D
@@ -43,6 +51,7 @@ mkdir
 done
 "
 ]
+    
 )
 def
 main
