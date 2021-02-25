@@ -6577,6 +6577,11 @@ DestroyImpl
 (
 )
 ;
+if
+(
+mInputProcessing
+)
+{
 mInputProcessing
 -
 >
@@ -6584,6 +6589,7 @@ End
 (
 )
 ;
+}
 }
 void
 AudioInputTrack
