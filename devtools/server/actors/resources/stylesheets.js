@@ -2287,6 +2287,14 @@ null
 const
 resourceId
 =
+{
+this
+.
+_targetActor
+.
+actorID
+}
+:
 stylesheet
 :
 {
