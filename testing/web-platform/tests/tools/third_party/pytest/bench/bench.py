@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 import
 sys
 if
@@ -57,8 +45,6 @@ py
 "
 ]
     
-stats
-=
 cProfile
 .
 run

@@ -95,7 +95,7 @@ org
 /
 en
 /
-latest
+stable
 /
 changelog
 .
@@ -104,13 +104,12 @@ html
 Thanks
 to
 all
-who
-contributed
+of
+the
+contributors
 to
 this
 release
-among
-them
 :
 {
 contributors

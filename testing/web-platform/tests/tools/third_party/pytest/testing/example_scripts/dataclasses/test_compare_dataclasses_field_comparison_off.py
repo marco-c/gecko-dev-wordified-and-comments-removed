@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 from
 dataclasses
 import
@@ -22,15 +10,15 @@ def
 test_dataclasses_with_attribute_comparison_off
 (
 )
+-
+>
+None
 :
     
 dataclass
     
 class
 SimpleDataObject
-(
-object
-)
 :
         
 field_a
@@ -43,7 +31,7 @@ field
         
 field_b
 :
-int
+str
 =
 field
 (

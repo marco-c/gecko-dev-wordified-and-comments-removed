@@ -51,7 +51,6 @@ tool
 with
 more
 than
-a
 1100
 tests
 against

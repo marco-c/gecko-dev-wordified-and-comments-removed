@@ -1,19 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-import
-_pytest
-.
-_code
 import
 pytest
 from
@@ -92,9 +76,6 @@ param1
 param2
 class
 TestFailing
-(
-object
-)
 :
     
 def
@@ -170,9 +151,6 @@ f
 )
 class
 TestSpecialisedExplanations
-(
-object
-)
 :
     
 def
@@ -662,9 +640,6 @@ dataclass
         
 class
 Foo
-(
-object
-)
 :
             
 a
@@ -717,9 +692,6 @@ s
         
 class
 Foo
-(
-object
-)
 :
             
 a
@@ -771,9 +743,6 @@ test_attribute
     
 class
 Foo
-(
-object
-)
 :
         
 b
@@ -801,9 +770,6 @@ test_attribute_instance
     
 class
 Foo
-(
-object
-)
 :
         
 b
@@ -827,9 +793,6 @@ test_attribute_failure
     
 class
 Foo
-(
-object
-)
 :
         
 def
@@ -878,9 +841,6 @@ test_attribute_multiple
     
 class
 Foo
-(
-object
-)
 :
         
 b
@@ -889,9 +849,6 @@ b
     
 class
 Bar
-(
-object
-)
 :
         
 b
@@ -924,9 +881,6 @@ x
 1
 class
 TestRaises
-(
-object
-)
 :
     
 def
@@ -958,7 +912,7 @@ self
         
 raises
 (
-IOError
+OSError
 int
 "
 3
@@ -1015,11 +969,16 @@ print
 "
 items
 is
-%
+{
+!
 r
+}
 "
-%
+.
+format
+(
 items
+)
 )
         
 a
@@ -1063,7 +1022,9 @@ test_dynamic_compile_shows_nicely
 :
     
 import
-imp
+importlib
+.
+util
     
 import
 sys
@@ -1095,21 +1056,33 @@ abc
 123
 "
     
-module
+spec
 =
-imp
+importlib
 .
-new_module
+util
+.
+spec_from_loader
 (
 name
+loader
+=
+None
+)
+    
+module
+=
+importlib
+.
+util
+.
+module_from_spec
+(
+spec
 )
     
 code
 =
-_pytest
-.
-_code
-.
 compile
 (
 src
@@ -1143,9 +1116,6 @@ foo
 )
 class
 TestMoreErrors
-(
-object
-)
 :
     
 def
@@ -1367,9 +1337,6 @@ x
 0
 class
 TestCustomAssertMsg
-(
-object
-)
 :
     
 def
@@ -1381,9 +1348,6 @@ self
         
 class
 A
-(
-object
-)
 :
             
 a
@@ -1421,9 +1385,6 @@ self
         
 class
 A
-(
-object
-)
 :
             
 a
@@ -1477,9 +1438,6 @@ self
         
 class
 JSON
-(
-object
-)
 :
             
 a

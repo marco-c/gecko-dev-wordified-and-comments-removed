@@ -96,7 +96,6 @@ tool
 with
 more
 than
-a
 1100
 tests
 against
@@ -272,7 +271,8 @@ cause
 pytest
 -
 xdist
-slaves
+worker
+nodes
 to
 collect
 different

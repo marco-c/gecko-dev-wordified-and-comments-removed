@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 def
 test_no_items_should_not_show_output
 (
@@ -34,20 +22,19 @@ test
 "
 )
     
-assert
-"
-fixtures
-used
-by
-"
-not
-in
 result
 .
 stdout
 .
-str
+no_fnmatch_line
 (
+"
+*
+fixtures
+used
+by
+*
+"
 )
     
 assert
@@ -201,18 +188,17 @@ docstring
     
 )
     
-assert
-"
-_arg0
-"
-not
-in
 result
 .
 stdout
 .
-str
+no_fnmatch_line
 (
+"
+*
+_arg0
+*
+"
 )
 def
 test_fixtures_in_conftest
