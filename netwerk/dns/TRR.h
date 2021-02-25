@@ -489,6 +489,15 @@ mTimeoutMs
 aTimeoutMs
 ;
 }
+nsresult
+ChannelStatus
+(
+)
+{
+return
+mChannelStatus
+;
+}
 protected
 :
 virtual
@@ -684,6 +693,11 @@ mPB
 ;
 DOHresp
 mDNS
+;
+nsresult
+mChannelStatus
+=
+NS_OK
 ;
 uint32_t
 mTimeoutMs

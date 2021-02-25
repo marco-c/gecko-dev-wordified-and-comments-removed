@@ -951,6 +951,9 @@ nsHostRecord
 :
 TRRSkippedReason
 aReason
+TRR
+*
+aTRRRequest
 )
 {
 if
@@ -973,6 +976,7 @@ aNewRRSet
 pb
 aOriginsuffix
 aReason
+aTRRRequest
 )
 ;
 }
@@ -1476,6 +1480,7 @@ newRRSet
 pb
 aOriginsuffix
 aReason
+aTRRRequest
 )
 ;
 }
