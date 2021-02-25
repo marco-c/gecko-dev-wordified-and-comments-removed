@@ -162,6 +162,12 @@ return
 true
 ;
 }
+bool
+RequestFullRender
+(
+)
+override
+;
 void
 Pause
 (
