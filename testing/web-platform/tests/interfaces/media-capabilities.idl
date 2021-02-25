@@ -100,6 +100,9 @@ media
 -
 source
 "
+"
+webrtc
+"
 }
 ;
 enum
@@ -109,7 +112,7 @@ MediaEncodingType
 record
 "
 "
-transmission
+webrtc
 "
 }
 ;
@@ -151,6 +154,9 @@ colorGamut
 ;
 TransferFunction
 transferFunction
+;
+DOMString
+scalabilityMode
 ;
 }
 ;
