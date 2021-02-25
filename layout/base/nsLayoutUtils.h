@@ -2460,6 +2460,9 @@ ForWebRender
 UseHighQualityScaling
 =
 0x800
+ResetViewportScrolling
+=
+0x1000
 }
 ;
 static
