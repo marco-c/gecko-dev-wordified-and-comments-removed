@@ -108,11 +108,10 @@ response
 -
 panel
 .
-accordion
+data
 -
-item
+header
 "
-2
 )
 ;
 const
