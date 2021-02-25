@@ -2012,6 +2012,14 @@ public
 #
 ifdef
 DEBUG
+#
+define
+MOZ_DOM_LIST
+#
+endif
+#
+ifdef
+MOZ_DOM_LIST
 virtual
 void
 List

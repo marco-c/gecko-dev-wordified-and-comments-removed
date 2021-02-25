@@ -515,7 +515,7 @@ data
 }
 #
 ifdef
-DEBUG
+MOZ_DOM_LIST
 void
 ProcessingInstruction
 :

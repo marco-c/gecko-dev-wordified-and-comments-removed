@@ -1741,7 +1741,7 @@ NS_OK
 }
 #
 ifdef
-DEBUG
+MOZ_DOM_LIST
 void
 CharacterData
 :
