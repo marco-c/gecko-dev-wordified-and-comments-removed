@@ -124,12 +124,6 @@ x86
 "
     
 "
-avoid_avx2
-"
-:
-True
-    
-"
 operating_system
 "
 :
