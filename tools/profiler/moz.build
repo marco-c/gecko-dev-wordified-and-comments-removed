@@ -871,6 +871,13 @@ ProfilerMarkerTypes
 .
 h
 "
+"
+public
+/
+ProfilerState
+.
+h
+"
 ]
 if
 CONFIG
