@@ -11591,7 +11591,7 @@ MOZ_ASSERT
 SVGUtils
 :
 :
-OuterSVGIsCallingReflowSVG
+AnyOuterSVGIsCallingReflowSVG
 (
 this
 )

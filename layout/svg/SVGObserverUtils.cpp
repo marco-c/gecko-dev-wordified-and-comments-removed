@@ -1935,7 +1935,7 @@ if
 SVGUtils
 :
 :
-OuterSVGIsCallingReflowSVG
+AnyOuterSVGIsCallingReflowSVG
 (
 text
 )
