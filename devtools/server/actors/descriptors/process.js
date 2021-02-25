@@ -371,6 +371,11 @@ ParentProcessTargetActor
 this
 .
 conn
+{
+isTopLevelTarget
+:
+true
+}
 )
 ;
 this

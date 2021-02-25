@@ -267,9 +267,14 @@ new
 WebExtensionTargetActor
 (
 conn
-chromeGlobal
-prefix
+{
 addonId
+chromeGlobal
+isTopLevelTarget
+:
+true
+prefix
+}
 )
 ;
 }
@@ -308,8 +313,8 @@ new
 FrameTargetActor
 (
 conn
-docShell
 {
+docShell
 isTopLevelTarget
 :
 true

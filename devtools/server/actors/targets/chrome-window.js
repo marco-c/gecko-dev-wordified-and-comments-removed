@@ -144,6 +144,9 @@ function
 (
 connection
 window
+{
+isTopLevelTarget
+}
 )
 {
 BrowsingContextTargetActor
@@ -156,13 +159,13 @@ call
 (
 this
 connection
+{
+docShell
+:
 window
 .
 docShell
-{
 isTopLevelTarget
-:
-true
 }
 )
 ;

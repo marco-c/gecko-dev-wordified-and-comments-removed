@@ -182,7 +182,10 @@ initialize
 function
 (
 connection
+{
+isTopLevelTarget
 window
+}
 )
 {
 if
@@ -248,13 +251,13 @@ call
 (
 this
 connection
+{
+docShell
+:
 window
 .
 docShell
-{
 isTopLevelTarget
-:
-true
 }
 )
 ;

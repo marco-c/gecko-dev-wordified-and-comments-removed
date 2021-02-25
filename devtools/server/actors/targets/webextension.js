@@ -218,9 +218,12 @@ initialize
 function
 (
 conn
-chromeGlobal
-prefix
+{
 addonId
+chromeGlobal
+isTopLevelTarget
+prefix
+}
 )
 {
 this
@@ -252,7 +255,12 @@ call
 (
 this
 conn
+{
+isTopLevelTarget
+window
+:
 extensionWindow
+}
 )
 ;
 this
