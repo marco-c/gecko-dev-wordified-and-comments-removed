@@ -58,10 +58,13 @@ DIRS
 =
 [
 "
+cdp
+"
+"
 components
 "
 "
-test
+shared
 "
 ]
 JAR_MANIFESTS

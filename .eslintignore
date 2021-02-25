@@ -1214,6 +1214,8 @@ Protocol
 jsm
 remote
 /
+cdp
+/
 test
 /
 browser
