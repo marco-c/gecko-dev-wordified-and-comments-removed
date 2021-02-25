@@ -122,7 +122,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -9058,10 +9058,13 @@ mTopWindowURI
 {
 util
 =
-services
+components
 :
 :
-GetThirdPartyUtil
+ThirdPartyUtil
+:
+:
+Service
 (
 )
 ;

@@ -101,7 +101,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -523,10 +523,13 @@ tpuService
 mozilla
 :
 :
-services
+components
 :
 :
-GetThirdPartyUtil
+ThirdPartyUtil
+:
+:
+Service
 (
 )
 ;
