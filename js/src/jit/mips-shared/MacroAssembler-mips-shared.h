@@ -701,7 +701,7 @@ imm
 )
 ;
 void
-ma_addTestCarry
+ma_add32TestCarry
 (
 Condition
 cond
@@ -717,7 +717,7 @@ overflow
 )
 ;
 void
-ma_addTestCarry
+ma_add32TestCarry
 (
 Condition
 cond
@@ -762,7 +762,7 @@ imm
 )
 ;
 void
-ma_subTestOverflow
+ma_sub32TestOverflow
 (
 Register
 rd
@@ -787,7 +787,7 @@ imm
 )
 ;
 void
-ma_mul_branch_overflow
+ma_mul32TestOverflow
 (
 Register
 rd
@@ -801,7 +801,7 @@ overflow
 )
 ;
 void
-ma_mul_branch_overflow
+ma_mul32TestOverflow
 (
 Register
 rd

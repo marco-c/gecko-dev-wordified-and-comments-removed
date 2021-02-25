@@ -1565,7 +1565,7 @@ void
 MacroAssemblerMIPSShared
 :
 :
-ma_addTestCarry
+ma_add32TestCarry
 (
 Condition
 cond
@@ -1662,7 +1662,7 @@ void
 MacroAssemblerMIPSShared
 :
 :
-ma_addTestCarry
+ma_add32TestCarry
 (
 Condition
 cond
@@ -1683,7 +1683,7 @@ ScratchRegister
 imm
 )
 ;
-ma_addTestCarry
+ma_add32TestCarry
 (
 cond
 rd
@@ -1793,7 +1793,7 @@ void
 MacroAssemblerMIPSShared
 :
 :
-ma_subTestOverflow
+ma_sub32TestOverflow
 (
 Register
 rd
@@ -1820,7 +1820,7 @@ asMasm
 (
 )
 .
-ma_addTestOverflow
+ma_add32TestOverflow
 (
 rd
 rs
@@ -1852,7 +1852,7 @@ asMasm
 (
 )
 .
-ma_subTestOverflow
+ma_sub32TestOverflow
 (
 rd
 rs
@@ -1894,7 +1894,7 @@ void
 MacroAssemblerMIPSShared
 :
 :
-ma_mul_branch_overflow
+ma_mul32TestOverflow
 (
 Register
 rd
@@ -1986,7 +1986,7 @@ void
 MacroAssemblerMIPSShared
 :
 :
-ma_mul_branch_overflow
+ma_mul32TestOverflow
 (
 Register
 rd
@@ -2005,7 +2005,7 @@ ScratchRegister
 imm
 )
 ;
-ma_mul_branch_overflow
+ma_mul32TestOverflow
 (
 rd
 rs
