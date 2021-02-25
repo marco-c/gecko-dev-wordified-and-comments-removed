@@ -800,8 +800,13 @@ lBFSTable
 Put
 (
 key
-new
+mozilla
+:
+:
+MakeUnique
+<
 BFSTableData
+>
 (
 key
 )

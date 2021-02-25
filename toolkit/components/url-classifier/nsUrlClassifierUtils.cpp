@@ -4500,8 +4500,10 @@ aDict
 Put
 (
 tableName
-new
+MakeUnique
+<
 nsCString
+>
 (
 provider
 )

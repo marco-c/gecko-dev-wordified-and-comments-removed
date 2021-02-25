@@ -804,8 +804,10 @@ mDecrypts
 Put
 (
 aSample
-new
+MakeUnique
+<
 DecryptPromiseRequestHolder
+>
 (
 )
 )

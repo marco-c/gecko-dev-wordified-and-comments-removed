@@ -1154,8 +1154,10 @@ nsCString
 (
 aFileExtension
 )
-new
+MakeUnique
+<
 nsCString
+>
 (
 type
 )
