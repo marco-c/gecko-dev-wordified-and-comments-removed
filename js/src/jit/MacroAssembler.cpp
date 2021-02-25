@@ -23915,7 +23915,7 @@ temp1
 NativeIterator
 :
 :
-offsetOfGuardsEnd
+offsetOfShapesEnd
 (
 )
 )

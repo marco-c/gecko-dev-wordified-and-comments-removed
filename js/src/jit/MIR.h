@@ -244,15 +244,6 @@ include
 "
 vm
 /
-ReceiverGuard
-.
-h
-"
-#
-include
-"
-vm
-/
 RegExpObject
 .
 h
