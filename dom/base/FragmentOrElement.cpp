@@ -8870,7 +8870,7 @@ static
 mozilla
 :
 :
-BloomFilter
+CountingBloomFilter
 <
 12
 nsAtom
