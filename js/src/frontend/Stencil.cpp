@@ -9190,7 +9190,7 @@ true
 ;
 }
 bool
-CompilationState
+ExtensibleCompilationStencil
 :
 :
 finish
