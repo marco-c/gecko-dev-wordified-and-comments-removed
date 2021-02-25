@@ -2022,6 +2022,15 @@ CompilationStencil
 >
 stencil_
 ;
+UniquePtr
+<
+frontend
+:
+:
+ExtensibleCompilationStencil
+>
+extensibleStencil_
+;
 frontend
 :
 :
