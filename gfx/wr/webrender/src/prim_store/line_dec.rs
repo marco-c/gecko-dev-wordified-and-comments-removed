@@ -659,7 +659,7 @@ PrimitiveInstanceKind
 LineDecoration
 {
 data_handle
-cache_handle
+render_task
 :
 None
 }

@@ -260,13 +260,19 @@ use
 crate
 :
 :
+render_task_graph
+:
+:
+RenderTaskId
+;
+use
+crate
+:
+:
 render_task_cache
 :
 :
-{
 RenderTaskCacheKeyKind
-RenderTaskCacheEntryHandle
-}
 ;
 use
 crate
@@ -1420,7 +1426,7 @@ LineDecoration
 data_handle
 ref
 mut
-cache_handle
+render_task
 .
 .
 }
@@ -1632,7 +1638,7 @@ to_i32
 ;
 }
 *
-cache_handle
+render_task
 =
 Some
 (
@@ -2012,7 +2018,7 @@ NormalBorder
 data_handle
 ref
 mut
-cache_handles
+render_task_ids
 .
 .
 }
@@ -2249,7 +2255,7 @@ handles
 SmallVec
 <
 [
-RenderTaskCacheEntryHandle
+RenderTaskId
 ;
 8
 ]
@@ -2384,7 +2390,7 @@ scale
 ;
 }
 *
-cache_handles
+render_task_ids
 =
 scratch
 .
@@ -3707,7 +3713,7 @@ push
 (
 CachedGradientSegment
 {
-handle
+render_task
 :
 frame_state
 .
