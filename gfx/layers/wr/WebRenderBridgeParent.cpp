@@ -5500,9 +5500,6 @@ wr
 :
 TransactionBuilder
 txn
-(
-mApi
-)
 ;
 txn
 .
@@ -6703,9 +6700,6 @@ wr
 :
 TransactionBuilder
 txn
-(
-mApi
-)
 ;
 Maybe
 <
@@ -7275,9 +7269,6 @@ wr
 :
 TransactionBuilder
 txn
-(
-mApi
-)
 ;
 txn
 .
@@ -7933,9 +7924,6 @@ wr
 :
 TransactionBuilder
 txn
-(
-mApi
-)
 ;
 txn
 .
@@ -8010,9 +7998,6 @@ wr
 :
 TransactionBuilder
 txnForImageBridge
-(
-mApi
-)
 ;
 wr
 :
@@ -8646,9 +8631,6 @@ wr
 :
 TransactionBuilder
 txn
-(
-mApi
-)
 ;
 txn
 .
@@ -9813,9 +9795,6 @@ wr
 :
 TransactionBuilder
 txn
-(
-mApi
-)
 ;
 txn
 .
@@ -10080,7 +10059,6 @@ wr
 TransactionBuilder
 fastTxn
 (
-mApi
 false
 )
 ;
@@ -11297,7 +11275,6 @@ wr
 TransactionBuilder
 fastTxn
 (
-mApi
 false
 )
 ;
@@ -11306,9 +11283,6 @@ wr
 :
 TransactionBuilder
 sceneBuilderTxn
-(
-mApi
-)
 ;
 wr
 :
@@ -12734,9 +12708,6 @@ wr
 :
 TransactionBuilder
 txn
-(
-mApi
-)
 ;
 txn
 .

@@ -33,6 +33,11 @@ RenderBufferTextureHost
 h
 "
 "
+RenderBufferTextureHostSWGL
+.
+h
+"
+"
 RenderCompositor
 .
 h
@@ -74,6 +79,11 @@ h
 "
 "
 RenderSharedSurfaceTextureHost
+.
+h
+"
+"
+RenderSharedSurfaceTextureHostSWGL
 .
 h
 "
@@ -128,6 +138,11 @@ RenderBufferTextureHost
 cpp
 "
 "
+RenderBufferTextureHostSWGL
+.
+cpp
+"
+"
 RenderCompositor
 .
 cpp
@@ -169,6 +184,11 @@ cpp
 "
 "
 RenderSharedSurfaceTextureHost
+.
+cpp
+"
+"
+RenderSharedSurfaceTextureHostSWGL
 .
 cpp
 "

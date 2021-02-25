@@ -1383,8 +1383,6 @@ GPUVideoTextureHost
 :
 SupportsExternalCompositing
 (
-WebRenderBackend
-aBackend
 )
 {
 if
@@ -1407,7 +1405,6 @@ EnsureWrappedTextureHost
 >
 SupportsExternalCompositing
 (
-aBackend
 )
 ;
 }

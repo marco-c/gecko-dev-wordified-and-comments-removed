@@ -1145,8 +1145,6 @@ WebRenderTextureHost
 :
 SupportsExternalCompositing
 (
-WebRenderBackend
-aBackend
 )
 {
 return
@@ -1155,7 +1153,6 @@ mWrappedTextureHost
 >
 SupportsExternalCompositing
 (
-aBackend
 )
 ;
 }
