@@ -719,7 +719,7 @@ GetToolkit
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 if
 (
@@ -738,7 +738,7 @@ nsToolkit
 return
 gToolkit
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 nullptr
 )

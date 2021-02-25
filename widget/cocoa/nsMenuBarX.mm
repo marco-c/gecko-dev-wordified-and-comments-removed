@@ -946,7 +946,7 @@ MenuContainsAppMenu
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 return
 (
@@ -972,7 +972,7 @@ submenu
 sApplicationMenu
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 false
 )

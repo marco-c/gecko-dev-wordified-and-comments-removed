@@ -438,7 +438,7 @@ MenuBarScreenHeight
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 NSArray
 *
@@ -478,7 +478,7 @@ return
 .
 0
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 0
 .
@@ -803,7 +803,7 @@ NSEvent
 anEvent
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 if
 (
@@ -854,7 +854,7 @@ locationInWindow
 ]
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 NSMakePoint
 (
@@ -882,7 +882,7 @@ NSWindow
 aWindow
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 return
 NSPointInRect
@@ -897,7 +897,7 @@ frame
 ]
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 NO
 )
@@ -917,7 +917,7 @@ NSWindow
 aWindow
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 return
 nsCocoaUtils
@@ -932,7 +932,7 @@ anEvent
 )
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 NSMakePoint
 (
@@ -3418,10 +3418,7 @@ windowNumber
 ]
 context
 :
-[
-aEvent
-context
-]
+nil
 characters
 :
 [
