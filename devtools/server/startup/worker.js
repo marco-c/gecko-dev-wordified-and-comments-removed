@@ -150,6 +150,11 @@ id
 )
 ;
 }
+.
+bind
+(
+this
+)
 ;
 loadSubScript
 (
