@@ -656,8 +656,6 @@ Component
 ID
 #
 #
-#
-#
 "
 Avg
 .
@@ -703,8 +701,6 @@ Avg
 .
 framerate
 :
-#
-#
 #
 #
 These
