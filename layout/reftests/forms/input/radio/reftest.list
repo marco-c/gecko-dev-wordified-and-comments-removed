@@ -101,6 +101,15 @@ height
 ref
 .
 html
+skip
+-
+if
+(
+gtkWidget
+&
+&
+nativeThemePref
+)
 =
 =
 radio

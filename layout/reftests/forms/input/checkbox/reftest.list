@@ -234,6 +234,15 @@ color
 ref
 .
 html
+skip
+-
+if
+(
+gtkWidget
+&
+&
+nativeThemePref
+)
 =
 =
 checkbox
