@@ -1337,9 +1337,9 @@ frontendAllocScope
 CompilationInput
 &
 input
-CompilationStencil
+LifoAlloc
 &
-stencil
+stencilAlloc
 )
 ;
 bool

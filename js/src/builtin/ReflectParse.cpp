@@ -22827,6 +22827,8 @@ get
 (
 )
 stencil
+.
+alloc
 )
 ;
 if

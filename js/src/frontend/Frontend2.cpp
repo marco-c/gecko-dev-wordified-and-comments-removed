@@ -3190,8 +3190,10 @@ compilationState
 cx
 allocScope
 input
-*
 stencil
+-
+>
+alloc
 )
 ;
 if
