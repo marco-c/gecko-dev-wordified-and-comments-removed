@@ -1571,7 +1571,7 @@ in
 (
                 
 "
-None
+AssertionError
 "
                 
 "
@@ -1579,19 +1579,15 @@ False
 "
                 
 "
+None
+"
+                
+"
 True
 "
                 
 "
-int
-"
-                
-"
-bool
-"
-                
-"
-any
+__build_class__
 "
                 
 "
@@ -1599,19 +1595,11 @@ all
 "
                 
 "
-len
+any
 "
                 
 "
-list
-"
-                
-"
-tuple
-"
-                
-"
-set
+bool
 "
                 
 "
@@ -1619,7 +1607,7 @@ dict
 "
                 
 "
-isinstance
+enumerate
 "
                 
 "
@@ -1631,7 +1619,19 @@ hasattr
 "
                 
 "
-enumerate
+int
+"
+                
+"
+isinstance
+"
+                
+"
+len
+"
+                
+"
+list
 "
                 
 "
@@ -1639,15 +1639,19 @@ range
 "
                 
 "
+set
+"
+                
+"
+sorted
+"
+                
+"
+tuple
+"
+                
+"
 zip
-"
-                
-"
-AssertionError
-"
-                
-"
-__build_class__
 "
             
 )
