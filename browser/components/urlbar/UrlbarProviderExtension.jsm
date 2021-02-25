@@ -547,6 +547,8 @@ onEngagement
 (
 isPrivate
 state
+queryContext
+details
 )
 {
 this

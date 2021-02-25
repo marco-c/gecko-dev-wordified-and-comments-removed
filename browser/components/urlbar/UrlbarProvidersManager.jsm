@@ -1340,6 +1340,8 @@ notifyEngagementChange
 (
 isPrivate
 state
+queryContext
+details
 )
 {
 for
@@ -1361,6 +1363,8 @@ onEngagement
 "
 isPrivate
 state
+queryContext
+details
 )
 ;
 }

@@ -781,6 +781,8 @@ onEngagement
 (
 isPrivate
 state
+queryContext
+details
 )
 {
 if
