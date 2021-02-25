@@ -4051,14 +4051,6 @@ QuirksMode
 :
 NoQuirks
 device
-&
-mut
-Default
-:
-:
-default
-(
-)
 )
 .
 to_css
