@@ -3542,14 +3542,9 @@ stencil
 {
 if
 (
-!
 stencil
 .
 asmJS
-.
-empty
-(
-)
 )
 {
 return

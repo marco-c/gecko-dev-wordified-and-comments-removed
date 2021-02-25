@@ -3988,6 +3988,9 @@ MOZ_ASSERT
 stencil
 .
 asmJS
+-
+>
+moduleMap
 .
 has
 (
@@ -4002,7 +4005,7 @@ index
 ;
 MOZ_ASSERT
 (
-compilationState_
+stencil
 .
 scriptData
 [
