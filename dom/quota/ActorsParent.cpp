@@ -22855,7 +22855,7 @@ QM_TRY
 StorageDBUpdater
 :
 :
-Update
+CreateCurrentSchema
 (
 lsArchiveConnection
 )
@@ -23218,7 +23218,7 @@ QM_TRY
 StorageDBUpdater
 :
 :
-Update
+CreateCurrentSchema
 (
 connection
 )

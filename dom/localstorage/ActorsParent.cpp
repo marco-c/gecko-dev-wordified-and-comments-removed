@@ -4016,7 +4016,7 @@ LS_TRY
 StorageDBUpdater
 :
 :
-Update
+CreateCurrentSchema
 (
 connection
 )
