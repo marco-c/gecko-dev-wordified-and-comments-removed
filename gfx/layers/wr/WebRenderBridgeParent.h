@@ -1196,7 +1196,10 @@ LastPendingTransactionId
 (
 )
 ;
+Maybe
+<
 TransactionId
+>
 FlushTransactionIdsForEpoch
 (
 const
