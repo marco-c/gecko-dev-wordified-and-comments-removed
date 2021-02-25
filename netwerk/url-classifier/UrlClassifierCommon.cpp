@@ -2499,10 +2499,13 @@ nsIIOService
 >
 ios
 =
-services
+components
 :
 :
-GetIOService
+IO
+:
+:
+Service
 (
 )
 ;

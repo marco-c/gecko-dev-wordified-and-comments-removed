@@ -51,7 +51,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -469,10 +469,13 @@ nsIIOService
 >
 ioService
 =
-services
+components
 :
 :
-GetIOService
+IO
+:
+:
+Service
 (
 )
 ;
