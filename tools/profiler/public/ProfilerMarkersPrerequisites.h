@@ -16,6 +16,15 @@ h
 #
 ifdef
 MOZ_GECKO_PROFILER
+#
+include
+"
+mozilla
+/
+ProfilerState
+.
+h
+"
 namespace
 geckoprofiler
 :
