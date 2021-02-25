@@ -1058,9 +1058,15 @@ mozilla
 :
 Atomic
 <
-bool
+mozilla
+:
+:
+net
+:
+:
+DNSResolverType
 >
-mTRRUsed
+mResolverType
 ;
 uint8_t
 mTRRSuccess

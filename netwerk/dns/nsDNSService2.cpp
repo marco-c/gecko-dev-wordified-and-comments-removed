@@ -763,7 +763,7 @@ mHostRecord
 addr_info
 -
 >
-IsTRR
+IsTRROrODoH
 (
 )
 ;
@@ -814,7 +814,7 @@ mHostRecord
 addr_info
 -
 >
-IsTRR
+IsTRROrODoH
 (
 )
 )
@@ -879,7 +879,7 @@ mHostRecord
 addr_info
 -
 >
-IsTRR
+IsTRROrODoH
 (
 )
 )

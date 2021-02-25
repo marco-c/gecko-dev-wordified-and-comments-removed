@@ -975,6 +975,10 @@ AddrInfo
 (
 aCanonHost
 canonName
+DNSResolverType
+:
+:
+Native
 0
 std
 :
@@ -1558,6 +1562,10 @@ new
 AddrInfo
 (
 aHost
+DNSResolverType
+:
+:
+Native
 0
 std
 :
@@ -1579,6 +1587,10 @@ AddrInfo
 aHost
 *
 cname
+DNSResolverType
+:
+:
+Native
 0
 std
 :
