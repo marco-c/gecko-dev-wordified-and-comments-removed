@@ -254,11 +254,6 @@ nsTitleBarFrame
 cpp
 "
 "
-nsXULLabelFrame
-.
-cpp
-"
-"
 nsXULPopupManager
 .
 cpp

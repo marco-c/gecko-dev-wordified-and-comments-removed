@@ -1465,17 +1465,6 @@ NOT_LEAF
 Frame
 (
 "
-nsXULLabelFrame
-"
-"
-XULLabel
-"
-NOT_LEAF
-)
-    
-Frame
-(
-"
 nsXULScrollFrame
 "
 "
