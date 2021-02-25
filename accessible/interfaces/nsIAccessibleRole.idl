@@ -1321,5 +1321,12 @@ ROLE_LISTITEM_MARKER
 =
 184
 ;
+const
+unsigned
+long
+ROLE_METER
+=
+185
+;
 }
 ;
