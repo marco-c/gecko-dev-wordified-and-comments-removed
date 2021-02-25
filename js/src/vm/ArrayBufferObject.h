@@ -1901,13 +1901,6 @@ obj
 bool
 IsArrayBufferMaybeShared
 (
-HandleValue
-v
-)
-;
-bool
-IsArrayBufferMaybeShared
-(
 JSObject
 *
 obj
