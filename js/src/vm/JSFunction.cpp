@@ -2813,7 +2813,10 @@ fail
 JS
 :
 :
-TranscodeResult_Failure_NotInterpretedFun
+TranscodeResult
+:
+:
+Failure_NotInterpretedFun
 )
 ;
 }
@@ -3068,7 +3071,10 @@ fail
 JS
 :
 :
-TranscodeResult_Throw
+TranscodeResult
+:
+:
+Throw
 )
 ;
 }
@@ -3152,7 +3158,10 @@ fail
 JS
 :
 :
-TranscodeResult_Failure_BadDecode
+TranscodeResult
+:
+:
+Failure_BadDecode
 )
 ;
 }
@@ -3189,7 +3198,10 @@ fail
 JS
 :
 :
-TranscodeResult_Throw
+TranscodeResult
+:
+:
+Throw
 )
 ;
 }

@@ -19785,7 +19785,10 @@ fail
 JS
 :
 :
-TranscodeResult_Throw
+TranscodeResult
+:
+:
+Throw
 )
 ;
 }
@@ -19878,7 +19881,10 @@ fail
 JS
 :
 :
-TranscodeResult_Throw
+TranscodeResult
+:
+:
+Throw
 )
 ;
 }

@@ -5542,7 +5542,10 @@ code
 JS
 :
 :
-TranscodeResult_Ok
+TranscodeResult
+:
+:
+Ok
 )
 {
 mXDRRange
@@ -5759,7 +5762,10 @@ script
 JS
 :
 :
-TranscodeResult_Ok
+TranscodeResult
+:
+:
+Ok
 )
 {
 mScript

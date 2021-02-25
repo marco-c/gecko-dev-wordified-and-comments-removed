@@ -7801,7 +7801,10 @@ fail
 JS
 :
 :
-TranscodeResult_Failure_BadDecode
+TranscodeResult
+:
+:
+Failure_BadDecode
 )
 ;
 }
@@ -8217,7 +8220,10 @@ fail
 JS
 :
 :
-TranscodeResult_Throw
+TranscodeResult
+:
+:
+Throw
 )
 ;
 }
