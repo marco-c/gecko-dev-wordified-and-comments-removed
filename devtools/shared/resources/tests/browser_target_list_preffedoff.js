@@ -111,7 +111,6 @@ false
 await
 testPreffedOffMainProcess
 (
-mainRoot
 mainProcess
 )
 ;
@@ -129,7 +128,6 @@ async
 function
 testPreffedOffMainProcess
 (
-mainRoot
 mainProcess
 )
 {
@@ -160,8 +158,9 @@ targetList
 new
 TargetList
 (
-mainRoot
 mainProcess
+.
+descriptorFront
 )
 ;
 await

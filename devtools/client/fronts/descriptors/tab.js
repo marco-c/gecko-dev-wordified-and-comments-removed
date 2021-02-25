@@ -151,6 +151,17 @@ this
 )
 ;
 }
+get
+client
+(
+)
+{
+return
+this
+.
+_client
+;
+}
 form
 (
 json

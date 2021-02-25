@@ -138,9 +138,11 @@ const
 resourceWatcher
 =
 await
-createResourceWatcherForTarget
+createResourceWatcherForDescriptor
 (
 target
+.
+descriptorFront
 )
 ;
 return
@@ -149,9 +151,9 @@ resourceWatcher
 }
 async
 function
-createResourceWatcherForTarget
+createResourceWatcherForDescriptor
 (
-target
+descriptor
 )
 {
 const
@@ -200,12 +202,7 @@ targetList
 new
 TargetList
 (
-target
-.
-client
-.
-mainRoot
-target
+descriptor
 )
 ;
 await
@@ -2996,7 +2993,7 @@ exports
 {
 STUBS_UPDATE_ENV
 createResourceWatcherForTab
-createResourceWatcherForTarget
+createResourceWatcherForDescriptor
 getStubFile
 getCleanedPacket
 getSerializedPacket

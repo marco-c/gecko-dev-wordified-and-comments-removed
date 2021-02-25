@@ -88,7 +88,7 @@ parentFront
 ;
 this
 .
-client
+_client
 =
 client
 ;
@@ -98,6 +98,17 @@ traits
 =
 {
 }
+;
+}
+get
+client
+(
+)
+{
+return
+this
+.
+_client
 ;
 }
 form

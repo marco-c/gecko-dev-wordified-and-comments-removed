@@ -68,13 +68,6 @@ tab
 ;
 const
 {
-client
-}
-=
-target
-;
-const
-{
 ResourceWatcher
 }
 =
@@ -119,10 +112,9 @@ targetList
 new
 TargetList
 (
-client
-.
-mainRoot
 target
+.
+descriptorFront
 )
 ;
 await

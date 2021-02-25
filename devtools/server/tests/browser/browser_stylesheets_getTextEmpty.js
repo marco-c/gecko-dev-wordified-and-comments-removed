@@ -111,10 +111,7 @@ TargetList
 (
 target
 .
-client
-.
-mainRoot
-target
+descriptorFront
 )
 ;
 await

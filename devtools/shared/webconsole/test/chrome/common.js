@@ -586,10 +586,7 @@ targetList
 new
 TargetList
 (
-client
-.
-mainRoot
-target
+targetDescriptor
 )
 ;
 await

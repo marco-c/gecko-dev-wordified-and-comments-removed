@@ -101,6 +101,12 @@ parentFront
 ;
 this
 .
+_client
+=
+client
+;
+this
+.
 traits
 =
 {
@@ -124,6 +130,17 @@ bind
 this
 )
 )
+;
+}
+get
+client
+(
+)
+{
+return
+this
+.
+_client
 ;
 }
 form
@@ -317,6 +334,7 @@ isDestroyedOrBeingDestroyed
 )
 {
 return
+this
 ;
 }
 const
@@ -383,6 +401,7 @@ isDestroyedOrBeingDestroyed
 )
 {
 return
+this
 ;
 }
 const
@@ -425,6 +444,7 @@ isDestroyedOrBeingDestroyed
 )
 {
 return
+this
 ;
 }
 await
@@ -433,6 +453,9 @@ this
 attachConsole
 (
 )
+;
+return
+this
 ;
 }
 )

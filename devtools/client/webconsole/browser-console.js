@@ -165,10 +165,7 @@ TargetList
 (
 target
 .
-client
-.
-mainRoot
-target
+descriptorFront
 )
 ;
 this

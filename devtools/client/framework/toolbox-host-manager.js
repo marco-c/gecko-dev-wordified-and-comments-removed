@@ -189,16 +189,16 @@ ID_COUNTER
 function
 ToolboxHostManager
 (
-target
+descriptor
 hostType
 hostOptions
 )
 {
 this
 .
-target
+descriptor
 =
-target
+descriptor
 ;
 this
 .
@@ -423,7 +423,7 @@ Toolbox
 (
 this
 .
-target
+descriptor
 toolId
 this
 .
@@ -853,7 +853,7 @@ null
 ;
 this
 .
-target
+descriptor
 =
 null
 ;
@@ -898,7 +898,7 @@ hostType
 (
 this
 .
-target
+descriptor
 .
 localTab
 options
