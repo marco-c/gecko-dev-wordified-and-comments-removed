@@ -672,9 +672,6 @@ type
 "
 mousemove
 "
-buttons
-:
-0
 }
 win
 )
