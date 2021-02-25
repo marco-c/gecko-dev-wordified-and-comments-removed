@@ -218,13 +218,6 @@ nullable
 :
 boolean
 "
-performReload
-:
-"
-nullable
-:
-boolean
-"
 printSimulationEnabled
 :
 "
