@@ -262,6 +262,10 @@ syms
 linux64
 -
 nasm
+-
+linux32
+-
+sysroot
 linux64
 /
 opt
@@ -364,6 +368,10 @@ syms
 linux64
 -
 nasm
+-
+linux64
+-
+sysroot
 macosx64
 /
 opt
