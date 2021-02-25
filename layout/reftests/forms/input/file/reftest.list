@@ -262,15 +262,12 @@ if
 webrender
 &
 &
-nativeThemePref
-&
-&
 !
 (
 cocoaWidget
 |
 |
-geckoView
+geckoview
 )
 )
 =
