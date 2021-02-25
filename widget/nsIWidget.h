@@ -3122,7 +3122,12 @@ aVertical
 ;
 enum
 Modifiers
+:
+uint32_t
 {
+NO_MODIFIERS
+=
+0x00000000
 CAPS_LOCK
 =
 0x00000001
@@ -3200,7 +3205,10 @@ LayoutDeviceIntPoint
 aPoint
 uint32_t
 aNativeMessage
-uint32_t
+nsIWidget
+:
+:
+Modifiers
 aModifierFlags
 nsIObserver
 *

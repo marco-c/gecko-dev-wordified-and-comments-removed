@@ -10553,7 +10553,10 @@ LayoutDeviceIntPoint
 aPoint
 uint32_t
 aNativeMessage
-uint32_t
+nsIWidget
+:
+:
+Modifiers
 aModifierFlags
 nsIObserver
 *
@@ -10575,6 +10578,7 @@ if
 (
 mPopupContentView
 )
+{
 return
 mPopupContentView
 -
@@ -10587,6 +10591,7 @@ aModifierFlags
 nullptr
 )
 ;
+}
 return
 NS_OK
 ;

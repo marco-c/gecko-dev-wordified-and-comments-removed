@@ -9251,7 +9251,16 @@ SynthesizeNativeMouseEvent
 (
 aPoint
 aNativeMessage
+static_cast
+<
+nsIWidget
+:
+:
+Modifiers
+>
+(
 aModifierFlags
+)
 responder
 .
 GetObserver

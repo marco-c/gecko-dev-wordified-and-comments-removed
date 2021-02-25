@@ -701,7 +701,10 @@ LayoutDeviceIntPoint
 aPoint
 uint32_t
 aNativeMessage
-uint32_t
+nsIWidget
+:
+:
+Modifiers
 aModifierFlags
 nsIObserver
 *
@@ -726,7 +729,13 @@ SynthesizeNativeMouseEvent
 (
 aPoint
 MOZ_HEADLESS_MOUSE_MOVE
-0
+nsIWidget
+:
+:
+Modifiers
+:
+:
+NO_MODIFIERS
 aObserver
 )
 ;

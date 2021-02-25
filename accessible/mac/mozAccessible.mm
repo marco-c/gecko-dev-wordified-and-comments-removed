@@ -4760,7 +4760,13 @@ SynthesizeNativeMouseEvent
 (
 p
 NSEventTypeRightMouseDown
-0
+nsIWidget
+:
+:
+Modifiers
+:
+:
+NO_MODIFIERS
 nullptr
 )
 ;
