@@ -254,12 +254,6 @@ h
 "
     
 "
-GeckoProfiler
-.
-h
-"
-    
-"
 mozilla
 /
 ipc
