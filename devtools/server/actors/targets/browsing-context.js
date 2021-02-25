@@ -673,9 +673,6 @@ this
 traits
 =
 {
-reconfigure
-:
-true
 frames
 :
 true
