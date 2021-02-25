@@ -6953,10 +6953,6 @@ stream_stop
 =
 alsa_stream_stop
 .
-stream_reset_default_device
-=
-NULL
-.
 stream_get_position
 =
 alsa_stream_get_position

@@ -2147,10 +2147,6 @@ stream_stop
 =
 audiotrack_stream_stop
 .
-stream_reset_default_device
-=
-NULL
-.
 stream_get_position
 =
 audiotrack_stream_get_position

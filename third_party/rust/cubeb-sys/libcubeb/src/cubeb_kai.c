@@ -1393,7 +1393,6 @@ kai_stream_init
 kai_stream_destroy
 kai_stream_start
 kai_stream_stop
-NULL
 kai_stream_get_position
 kai_stream_get_latency
 NULL

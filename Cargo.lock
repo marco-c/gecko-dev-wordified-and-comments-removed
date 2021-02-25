@@ -4363,7 +4363,7 @@ github
 .
 com
 /
-ChunMinChang
+mozilla
 /
 cubeb
 -
@@ -4373,9 +4373,9 @@ rs
 ?
 rev
 =
-1e1222d6213e28eabd7f4302d00765ae1153a31e
+3d071d733d13bde0af033e7973e53938b2ab53e6
 #
-1e1222d6213e28eabd7f4302d00765ae1153a31e
+3d071d733d13bde0af033e7973e53938b2ab53e6
 "
 dependencies
 =
@@ -6009,7 +6009,7 @@ version
 "
 0
 .
-8
+9
 .
 0
 "
@@ -6039,7 +6039,7 @@ index
 checksum
 =
 "
-289952682b57343f3d852161d60f2a34a07c5fc39c113f155ab8aa3f471c917b
+33c84c136ac07ad218df6ca1b3ca0f0a1f7358ce059ea13a2c5527d4311c36c0
 "
 dependencies
 =
@@ -6067,7 +6067,7 @@ version
 "
 0
 .
-8
+9
 .
 0
 "
@@ -6097,7 +6097,7 @@ index
 checksum
 =
 "
-2052099fa6e07b444a43aa167874fb0350ed9be840f399e639f9e50cf37ec05c
+e3b874bbad81519f5a7e3fe6fdd29821d08c3ffb445f818a97f3ff11e1d6ec48
 "
 dependencies
 =
@@ -6125,7 +6125,7 @@ version
 "
 0
 .
-8
+9
 .
 0
 "
@@ -6155,7 +6155,7 @@ index
 checksum
 =
 "
-c6197f805b94171473c3fa3059f688f00a2df1ee76259f9ea641401b58917df3
+40aa77fed9bd627aaf11654c4d2753038d43d0f10abb6651db6e9330f81270e9
 "
 dependencies
 =
@@ -6203,7 +6203,7 @@ github
 .
 com
 /
-ChunMinChang
+mozilla
 /
 cubeb
 -
@@ -6213,9 +6213,9 @@ rs
 ?
 rev
 =
-1e1222d6213e28eabd7f4302d00765ae1153a31e
+3d071d733d13bde0af033e7973e53938b2ab53e6
 #
-1e1222d6213e28eabd7f4302d00765ae1153a31e
+3d071d733d13bde0af033e7973e53938b2ab53e6
 "
 dependencies
 =
@@ -6298,7 +6298,7 @@ github
 .
 com
 /
-djg
+mozilla
 /
 cubeb
 -
@@ -6308,9 +6308,9 @@ rs
 ?
 rev
 =
-bf31534d08b2c16fb5e4c5834944ae3271efbd63
+c87b50aebfa088c1ad30c74819d4e9829f88b2e3
 #
-bf31534d08b2c16fb5e4c5834944ae3271efbd63
+c87b50aebfa088c1ad30c74819d4e9829f88b2e3
 "
 dependencies
 =
@@ -6352,7 +6352,7 @@ version
 "
 0
 .
-8
+9
 .
 0
 "
@@ -6382,7 +6382,7 @@ index
 checksum
 =
 "
-5b0f751f2aee031f589bcfd812b99cfbf923aa1612d34c9757608cf540f74ad9
+eaedd862c6194a52c45efc3b5fd43e42e11fe3cd915520add4d1a5d03a818796
 "
 dependencies
 =
@@ -23369,7 +23369,7 @@ github
 .
 com
 /
-djg
+mozilla
 /
 cubeb
 -
@@ -23379,9 +23379,9 @@ rs
 ?
 rev
 =
-bf31534d08b2c16fb5e4c5834944ae3271efbd63
+c87b50aebfa088c1ad30c74819d4e9829f88b2e3
 #
-bf31534d08b2c16fb5e4c5834944ae3271efbd63
+c87b50aebfa088c1ad30c74819d4e9829f88b2e3
 "
 dependencies
 =
@@ -23429,7 +23429,7 @@ github
 .
 com
 /
-djg
+mozilla
 /
 cubeb
 -
@@ -23439,9 +23439,9 @@ rs
 ?
 rev
 =
-bf31534d08b2c16fb5e4c5834944ae3271efbd63
+c87b50aebfa088c1ad30c74819d4e9829f88b2e3
 #
-bf31534d08b2c16fb5e4c5834944ae3271efbd63
+c87b50aebfa088c1ad30c74819d4e9829f88b2e3
 "
 dependencies
 =
