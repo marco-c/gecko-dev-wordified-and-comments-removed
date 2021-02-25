@@ -66,13 +66,13 @@ wl_callback
 frame_callback_handler
 ;
 gboolean
-opaque_region_updates
+opaque_region_needs_updates
 ;
 gboolean
 opaque_region_subtract_corners
 ;
 gboolean
-opaque_region_fullscreen
+opaque_region_used
 ;
 gboolean
 surface_needs_clear
