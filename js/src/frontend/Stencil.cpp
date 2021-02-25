@@ -7561,6 +7561,7 @@ bool
 *
 succeededOut
 )
+const
 {
 if
 (
@@ -7587,8 +7588,15 @@ encoder
 codeStencil
 (
 input
+const_cast
+<
+CompilationStencil
+&
+>
+(
 *
 this
+)
 )
 ;
 if

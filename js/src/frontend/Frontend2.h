@@ -91,7 +91,7 @@ struct
 CompilationInput
 ;
 struct
-CompilationStencil
+ExtensibleCompilationStencil
 ;
 struct
 CompilationGCOutput
@@ -104,9 +104,14 @@ Smoosh
 {
 public
 :
+[
+[
+nodiscard
+]
+]
 static
 bool
-tryCompileGlobalScriptToStencil
+tryCompileGlobalScriptToExtensibleStencil
 (
 JSContext
 *
@@ -128,7 +133,7 @@ Utf8Unit
 srcBuf
 UniquePtr
 <
-CompilationStencil
+ExtensibleCompilationStencil
 >
 &
 stencilOut
