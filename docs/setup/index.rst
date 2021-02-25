@@ -96,6 +96,10 @@ Setting
 Up
 Your
 Machine
+:
+maxdepth
+:
+1
 windows_build
 macos_build
 linux_build
