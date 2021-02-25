@@ -106,6 +106,15 @@ include
 "
 mozilla
 /
+ProfilerMarkers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SpinEventLoopUntil
 .
 h
@@ -2532,6 +2541,9 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
+#
+ifdef
+MOZ_GECKO_PROFILER
 TimeStamp
 startTime
 =
@@ -2542,6 +2554,8 @@ Now
 (
 )
 ;
+#
+endif
 RefPtr
 <
 ThreadEventQueue

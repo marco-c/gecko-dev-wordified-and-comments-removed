@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+JSONWriter
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_dom
 .
 h

@@ -123,7 +123,7 @@ mozilla
 :
 UniquePtr
 <
-int
+ProfilerBacktrace
 >
 ;
 static
@@ -137,6 +137,11 @@ return
 nullptr
 ;
 }
+struct
+ProfileChunkedBuffer
+{
+}
+;
 static
 inline
 bool
