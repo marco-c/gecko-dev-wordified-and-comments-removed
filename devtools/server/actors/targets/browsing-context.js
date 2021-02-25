@@ -585,6 +585,16 @@ doNotFireFrameUpdates
 ;
 this
 .
+isTopLevelTarget
+=
+!
+!
+options
+.
+isTopLevelTarget
+;
+this
+.
 _extraActors
 =
 {

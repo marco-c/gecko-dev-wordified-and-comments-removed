@@ -309,6 +309,11 @@ FrameTargetActor
 (
 conn
 docShell
+{
+isTopLevelTarget
+:
+true
+}
 )
 ;
 }
