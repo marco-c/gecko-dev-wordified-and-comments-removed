@@ -2006,6 +2006,22 @@ reduced
 "
 )
         
+handler
+=
+logging
+.
+StreamHandler
+(
+out
+)
+        
+logger
+.
+addHandler
+(
+handler
+)
+        
 logger
 .
 propagate
@@ -2036,14 +2052,6 @@ mach
 help
 "
 ]
-            
-stdout
-=
-out
-            
-stderr
-=
-out
             
 logger
 =
