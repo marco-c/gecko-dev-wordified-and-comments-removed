@@ -2171,10 +2171,9 @@ MOZ_ASSERT
 aTable
 -
 >
-Get
+Contains
 (
 observer
-nullptr
 )
 "
 Adding
