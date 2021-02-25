@@ -179,6 +179,10 @@ if
 (
 !
 gtkWidget
+|
+|
+!
+nativeThemePref
 )
 =
 =
@@ -325,12 +329,13 @@ fails
 -
 if
 (
+!
 OSX
 &
 &
 nativeThemePref
 )
-=
+!
 =
 checkbox
 -
@@ -345,6 +350,6 @@ minimum
 -
 size
 -
-ref
+notref
 .
 html
