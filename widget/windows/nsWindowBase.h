@@ -178,16 +178,6 @@ aEvent
 0
 ;
 virtual
-bool
-DispatchPluginEvent
-(
-const
-MSG
-&
-aMsg
-)
-;
-virtual
 nsresult
 SynthesizeNativeTouchPoint
 (
