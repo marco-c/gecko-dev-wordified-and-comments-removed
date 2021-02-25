@@ -777,6 +777,14 @@ native
 )
 ;
 static
+bool
+isOriginalByteLengthGetter
+(
+Native
+native
+)
+;
+static
 void
 finalize
 (
