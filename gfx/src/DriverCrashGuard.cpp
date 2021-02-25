@@ -102,7 +102,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -420,10 +420,13 @@ return
 }
 mGfxInfo
 =
-services
+components
 :
 :
-GetGfxInfo
+GfxInfo
+:
+:
+Service
 (
 )
 ;

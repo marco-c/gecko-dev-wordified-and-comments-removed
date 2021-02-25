@@ -34,7 +34,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -377,10 +377,13 @@ InSafeMode
 ;
 mGfxInfo
 =
-services
+components
 :
 :
-GetGfxInfo
+GfxInfo
+:
+:
+Service
 (
 )
 ;
