@@ -2235,17 +2235,12 @@ if
 current_frame_
 |
 |
-(
-video_metadata_use_
-&
-&
 !
 video_size_
 .
 equals
 (
 video_size_prev
-)
 )
 )
 {
