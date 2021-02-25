@@ -18165,6 +18165,15 @@ INSTRUCTION_HEADER
 NonNegativeIntPtrToInt32
 )
 TRIVIAL_NEW_WRAPPERS
+void
+computeRange
+(
+TempAllocator
+&
+alloc
+)
+override
+;
 bool
 congruentTo
 (
