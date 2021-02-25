@@ -700,18 +700,6 @@ swgl_drawSpanRGBA8
 (
 )
 {
-if
-(
-!
-swgl_isTextureLinear
-(
-sColor0
-)
-)
-{
-return
-;
-}
 float
 perspective_divisor
 =
@@ -736,7 +724,7 @@ vUv
 *
 perspective_divisor
 ;
-swgl_commitTextureLinearRGBA8
+swgl_commitTextureRGBA8
 (
 sColor0
 uv
