@@ -273,6 +273,16 @@ GetWindowGlobalChild
 (
 )
 ;
+if
+(
+!
+wgc
+)
+{
+return
+false
+;
+}
 for
 (
 WindowContext

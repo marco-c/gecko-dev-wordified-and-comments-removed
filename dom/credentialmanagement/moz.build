@@ -102,3 +102,17 @@ browser
 ini
 "
 ]
+CRASHTEST_MANIFESTS
++
+=
+[
+"
+tests
+/
+crashtests
+/
+crashtests
+.
+list
+"
+]
