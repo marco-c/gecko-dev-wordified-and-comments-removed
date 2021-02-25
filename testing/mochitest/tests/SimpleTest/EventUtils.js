@@ -3629,6 +3629,9 @@ offsetY
 atCenter
 screenX
 screenY
+button
+=
+0
 modifiers
 =
 {
@@ -4053,7 +4056,7 @@ y
 utils
 .
 NATIVE_MOUSE_MESSAGE_BUTTON_DOWN
-0
+button
 modifierFlags
 null
 function
@@ -4069,7 +4072,7 @@ y
 utils
 .
 NATIVE_MOUSE_MESSAGE_BUTTON_UP
-0
+button
 modifierFlags
 null
 observer
@@ -4148,7 +4151,7 @@ type
 )
 (
 )
-0
+button
 modifierFlags
 null
 observer
