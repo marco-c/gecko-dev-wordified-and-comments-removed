@@ -91,8 +91,7 @@ void
 PaintScrollbarThumb
 (
 DrawTarget
-*
-aDrawTarget
+&
 const
 LayoutDeviceRect
 &
@@ -123,8 +122,7 @@ void
 PaintScrollbarTrack
 (
 DrawTarget
-*
-aDrawTarget
+&
 const
 LayoutDeviceRect
 &
@@ -151,8 +149,7 @@ void
 PaintScrollbar
 (
 DrawTarget
-*
-aDrawTarget
+&
 const
 LayoutDeviceRect
 &
@@ -179,8 +176,7 @@ void
 PaintScrollCorner
 (
 DrawTarget
-*
-aDrawTarget
+&
 const
 LayoutDeviceRect
 &

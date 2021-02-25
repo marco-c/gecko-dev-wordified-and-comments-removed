@@ -722,7 +722,7 @@ nsNativeBasicThemeGTK
 PaintScrollbarThumb
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -863,7 +863,7 @@ nsNativeBasicThemeGTK
 PaintScrollbar
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -905,8 +905,7 @@ Unused
 borderColor
 ;
 aDrawTarget
--
->
+.
 FillRect
 (
 aRect
@@ -934,7 +933,7 @@ nsNativeBasicThemeGTK
 PaintScrollCorner
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -974,8 +973,7 @@ Unused
 borderColor
 ;
 aDrawTarget
--
->
+.
 FillRect
 (
 aRect
