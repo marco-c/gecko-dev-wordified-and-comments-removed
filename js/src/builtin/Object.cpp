@@ -2932,7 +2932,7 @@ MOZ_ASSERT
 clasp
 -
 >
-isProxy
+isProxyObject
 (
 )
 )
@@ -3581,7 +3581,7 @@ MOZ_UNLIKELY
 clasp
 -
 >
-isProxy
+isProxyObject
 (
 )
 )

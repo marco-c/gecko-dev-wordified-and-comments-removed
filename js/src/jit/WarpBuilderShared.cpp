@@ -409,7 +409,7 @@ MOZ_ASSERT
 clasp
 -
 >
-isProxy
+isProxyObject
 (
 )
 )

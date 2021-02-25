@@ -31978,7 +31978,7 @@ object
 )
 -
 >
-isProxy
+isProxyObject
 (
 )
 )

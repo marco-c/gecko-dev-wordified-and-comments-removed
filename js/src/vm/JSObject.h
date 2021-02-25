@@ -1344,7 +1344,7 @@ proto
 ;
 }
 bool
-uninlinedIsProxy
+uninlinedIsProxyObject
 (
 )
 const
@@ -1406,7 +1406,7 @@ isDynamic
 MOZ_ASSERT_IF
 (
 dynamic
-uninlinedIsProxy
+uninlinedIsProxyObject
 (
 )
 )

@@ -8448,7 +8448,7 @@ return
 clasp
 -
 >
-isProxy
+isProxyObject
 (
 )
 |
@@ -8678,7 +8678,7 @@ getClass
 )
 -
 >
-isProxy
+isProxyObject
 (
 )
 )
@@ -18735,7 +18735,7 @@ bool
 JSObject
 :
 :
-uninlinedIsProxy
+uninlinedIsProxyObject
 (
 )
 const
@@ -21101,9 +21101,11 @@ allocKind
 }
 if
 (
-IsProxy
+is
+<
+ProxyObject
+>
 (
-this
 )
 )
 {
@@ -22849,7 +22851,7 @@ hasFinalize
 clasp
 -
 >
-isProxy
+isProxyObject
 (
 )
 )
@@ -22922,7 +22924,7 @@ clasp
 clasp
 -
 >
-isProxy
+isProxyObject
 (
 )
 )
@@ -22960,7 +22962,7 @@ MOZ_ASSERT_IF
 clasp
 -
 >
-isProxy
+isProxyObject
 (
 )
 JSCLASS_RESERVED_SLOTS

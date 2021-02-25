@@ -1279,7 +1279,7 @@ const
 MOZ_ASSERT
 (
 !
-uninlinedIsProxy
+uninlinedIsProxyObject
 (
 )
 )

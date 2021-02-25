@@ -537,11 +537,10 @@ clasp
 )
 &
 &
-!
 clasp
 -
 >
-isProxy
+isNativeObject
 (
 )
 ;

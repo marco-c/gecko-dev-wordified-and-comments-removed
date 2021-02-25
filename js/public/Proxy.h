@@ -996,7 +996,7 @@ obj
 )
 -
 >
-isProxy
+isProxyObject
 (
 )
 ;
