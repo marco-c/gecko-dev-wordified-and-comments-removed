@@ -5898,10 +5898,13 @@ nsIProperties
 >
 dirsvc
 =
-services
+components
 :
 :
-GetDirectoryService
+Directory
+:
+:
+Service
 (
 )
 ;
