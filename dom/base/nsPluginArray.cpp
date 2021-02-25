@@ -101,7 +101,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -1717,10 +1717,13 @@ nsIPermissionManager
 >
 permMgr
 =
-services
+components
 :
 :
-GetPermissionManager
+PermissionManager
+:
+:
+Service
 (
 )
 ;

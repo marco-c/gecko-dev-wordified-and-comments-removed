@@ -539,7 +539,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -8368,10 +8368,13 @@ permMgr
 mozilla
 :
 :
-services
+components
 :
 :
-GetPermissionManager
+PermissionManager
+:
+:
+Service
 (
 )
 ;

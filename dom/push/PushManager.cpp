@@ -32,7 +32,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -221,10 +221,13 @@ permManager
 mozilla
 :
 :
-services
+components
 :
 :
-GetPermissionManager
+PermissionManager
+:
+:
+Service
 (
 )
 ;
