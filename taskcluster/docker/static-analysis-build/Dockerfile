@@ -223,8 +223,6 @@ valgrind
 \
 wget
 \
-yasm
-\
 zip
 \
 zlib1g

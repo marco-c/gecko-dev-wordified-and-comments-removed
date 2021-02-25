@@ -531,8 +531,6 @@ utils
 \
 xvfb
 \
-yasm
-\
 zip
 \
 linux

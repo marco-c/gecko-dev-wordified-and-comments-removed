@@ -157,8 +157,6 @@ vim
 \
 wget
 \
-yasm
-\
 zip
 #
 Add

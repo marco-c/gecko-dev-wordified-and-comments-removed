@@ -152,8 +152,6 @@ utils
 \
 xvfb
 \
-yasm
-\
 zip
 \
 zlib1g
