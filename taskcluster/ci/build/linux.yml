@@ -538,11 +538,6 @@ time
 5400
 env
 :
-MOZ_LOW_PARALLELISM_BUILD
-:
-'
-1
-'
 PERFHERDER_EXTRA_OPTIONS
 :
 fuzzing
@@ -4725,11 +4720,6 @@ time
 5400
 env
 :
-MOZ_LOW_PARALLELISM_BUILD
-:
-'
-1
-'
 PERFHERDER_EXTRA_OPTIONS
 :
 fuzzing
@@ -6335,11 +6325,6 @@ time
 7200
 env
 :
-MOZ_LOW_PARALLELISM_BUILD
-:
-'
-1
-'
 RUSTC_BOOTSTRAP
 :
 '
