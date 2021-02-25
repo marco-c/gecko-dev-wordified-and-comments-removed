@@ -53,9 +53,9 @@ zstandard
 -
 1
 .
-deb8moz1
+deb10moz1
 )
-jessie
+buster
 ;
 urgency
 =
@@ -63,14 +63,10 @@ low
 +
 +
 *
-Remove
-build
-dependencies
-so
-package
-builds
-on
-jessie
+Mozilla
+backport
+for
+buster
 .
 +
 *
@@ -181,7 +177,7 @@ control
 13
 +
 5
-8
+9
 Priority
 :
 optional
@@ -213,7 +209,6 @@ dev
 python
 -
 hypothesis
--
 python3
 -
 hypothesis
