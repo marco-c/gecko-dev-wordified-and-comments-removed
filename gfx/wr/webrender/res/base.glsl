@@ -361,6 +361,9 @@ SWGL_CLIP_MASK
 define
 SWGL_ANTIALIAS
 #
+define
+SWGL_BLEND
+#
 endif
 #
 ifdef
