@@ -30,11 +30,11 @@ if
 CONFIG
 [
 '
-VPX_USE_YASM
+VPX_USE_NASM
 '
 ]
 :
-USE_YASM
+USE_NASM
 =
 True
 if
