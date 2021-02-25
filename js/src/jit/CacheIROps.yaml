@@ -3117,7 +3117,7 @@ ObjId
 -
 name
 :
-TypedArrayByteOffsetInt32Result
+ArrayBufferViewByteOffsetInt32Result
 shared
 :
 true
@@ -3135,7 +3135,7 @@ ObjId
 -
 name
 :
-TypedArrayByteOffsetDoubleResult
+ArrayBufferViewByteOffsetDoubleResult
 shared
 :
 true
@@ -5331,7 +5331,7 @@ ObjId
 -
 name
 :
-LoadTypedArrayLengthInt32Result
+LoadArrayBufferViewLengthInt32Result
 shared
 :
 true
@@ -5349,7 +5349,7 @@ ObjId
 -
 name
 :
-LoadTypedArrayLengthDoubleResult
+LoadArrayBufferViewLengthDoubleResult
 shared
 :
 true

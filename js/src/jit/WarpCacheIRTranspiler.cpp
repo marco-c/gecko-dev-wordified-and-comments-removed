@@ -8641,7 +8641,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitLoadTypedArrayLengthInt32Result
+emitLoadArrayBufferViewLengthInt32Result
 (
 ObjOperandId
 objId
@@ -8709,7 +8709,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitLoadTypedArrayLengthDoubleResult
+emitLoadArrayBufferViewLengthDoubleResult
 (
 ObjOperandId
 objId
@@ -17331,7 +17331,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitTypedArrayByteOffsetInt32Result
+emitArrayBufferViewByteOffsetInt32Result
 (
 ObjOperandId
 objId
@@ -17399,7 +17399,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitTypedArrayByteOffsetDoubleResult
+emitArrayBufferViewByteOffsetDoubleResult
 (
 ObjOperandId
 objId
