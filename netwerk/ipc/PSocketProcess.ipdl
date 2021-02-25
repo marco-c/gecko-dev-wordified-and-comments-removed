@@ -259,8 +259,10 @@ prtime
 h
 "
 ;
+[
+RefCounted
+]
 using
-refcounted
 class
 nsIURI
 from
@@ -641,6 +643,13 @@ returns
 (
 bool
 aAccepted
+)
+;
+async
+ODoHServiceActivated
+(
+bool
+aActivated
 )
 ;
 child
