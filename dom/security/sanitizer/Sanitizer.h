@@ -188,8 +188,6 @@ DocumentFragment
 Sanitize
 (
 const
-Optional
-<
 mozilla
 :
 :
@@ -197,7 +195,6 @@ dom
 :
 :
 StringOrDocumentFragmentOrDocument
->
 &
 aInput
 ErrorResult
@@ -209,10 +206,7 @@ void
 SanitizeToString
 (
 const
-Optional
-<
 StringOrDocumentFragmentOrDocument
->
 &
 aInput
 nsAString
@@ -257,8 +251,6 @@ DocumentFragment
 InputToNewFragment
 (
 const
-Optional
-<
 mozilla
 :
 :
@@ -266,7 +258,6 @@ dom
 :
 :
 StringOrDocumentFragmentOrDocument
->
 &
 aInput
 ErrorResult
