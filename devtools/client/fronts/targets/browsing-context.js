@@ -91,13 +91,9 @@ parentFront
 ;
 this
 .
-configureOptions
+_javascriptEnabled
 =
-{
-javascriptEnabled
-:
 null
-}
 ;
 this
 .
@@ -395,9 +391,7 @@ threadActor
 ;
 this
 .
-configureOptions
-.
-javascriptEnabled
+_javascriptEnabled
 =
 response
 .
@@ -479,9 +473,7 @@ undefined
 {
 this
 .
-configureOptions
-.
-javascriptEnabled
+_javascriptEnabled
 =
 options
 .
