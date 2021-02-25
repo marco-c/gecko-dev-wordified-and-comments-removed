@@ -2131,7 +2131,7 @@ ScriptSource
 >
 source
 ;
-UniquePtr
+RefPtr
 <
 StencilModuleMetadata
 >
@@ -2679,7 +2679,7 @@ SystemAllocPolicy
 >
 objLiteralData
 ;
-UniquePtr
+RefPtr
 <
 StencilModuleMetadata
 >

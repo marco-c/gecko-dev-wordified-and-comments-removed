@@ -8435,7 +8435,11 @@ compilationState_
 .
 moduleMetadata
 =
-MakeUnique
+cx_
+-
+>
+template
+new_
 <
 StencilModuleMetadata
 >
@@ -8453,14 +8457,6 @@ compilationState_
 moduleMetadata
 )
 {
-js
-:
-:
-ReportOutOfMemory
-(
-cx_
-)
-;
 return
 null
 (
