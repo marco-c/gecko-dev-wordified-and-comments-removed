@@ -693,7 +693,7 @@ toolbox
 ;
 this
 .
-storageTypes
+storageResources
 =
 null
 ;
@@ -1827,7 +1827,7 @@ _onTargetDestroyed
 ;
 this
 .
-storageTypes
+storageResources
 =
 {
 }
@@ -2096,19 +2096,19 @@ type
 in
 this
 .
-storageTypes
+storageResources
 )
 {
 this
 .
-storageTypes
+storageResources
 [
 type
 ]
 =
 this
 .
-storageTypes
+storageResources
 [
 type
 ]
@@ -2823,7 +2823,7 @@ storageType
 =
 this
 .
-storageTypes
+storageResources
 [
 type
 ]
@@ -4512,7 +4512,7 @@ title
 async
 populateStorageTree
 (
-storageTypes
+storageResources
 )
 {
 const
@@ -4703,7 +4703,7 @@ for
 const
 type
 in
-storageTypes
+storageResources
 )
 {
 if
@@ -4793,7 +4793,7 @@ store
 const
 resourcesWithHosts
 =
-storageTypes
+storageResources
 [
 type
 ]
@@ -4821,7 +4821,7 @@ if
 !
 this
 .
-storageTypes
+storageResources
 [
 type
 ]
@@ -4829,7 +4829,7 @@ type
 {
 this
 .
-storageTypes
+storageResources
 [
 type
 ]
@@ -4840,7 +4840,7 @@ type
 }
 this
 .
-storageTypes
+storageResources
 [
 type
 ]
