@@ -28,7 +28,7 @@ version
 "
 1
 .
-0
+1
 "
 "
 applications
@@ -118,10 +118,6 @@ allegro
 pl
 /
 listing
-/
-listing
-.
-php
 "
 "
 search_form
