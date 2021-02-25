@@ -328,7 +328,7 @@ android
 :
 [
 "
-gdb
+lldb
 "
 ]
     
