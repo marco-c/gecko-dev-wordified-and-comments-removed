@@ -1140,6 +1140,9 @@ TransactionBuilder
 :
 TransactionBuilder
 (
+WebRenderAPI
+*
+aApi
 bool
 aUseSceneBuilderThread
 )
@@ -1147,6 +1150,15 @@ aUseSceneBuilderThread
 mUseSceneBuilderThread
 (
 aUseSceneBuilderThread
+)
+mApiBackend
+(
+aApi
+-
+>
+GetBackendType
+(
+)
 )
 {
 mTxn
@@ -4780,6 +4792,8 @@ DisplayListBuilder
 (
 PipelineId
 aId
+WebRenderBackend
+aBackend
 size_t
 aCapacity
 layers
@@ -4806,6 +4820,10 @@ nullptr
 mPipelineId
 (
 aId
+)
+mBackend
+(
+aBackend
 )
 mDisplayItemCache
 (
