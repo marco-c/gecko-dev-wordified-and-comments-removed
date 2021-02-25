@@ -8821,6 +8821,8 @@ target
 if
 ffvpx
 and
+vpx_as_flags
+and
 target
 .
 cpu
