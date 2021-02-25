@@ -390,6 +390,14 @@ profiler_can_accept_markers
 return
 ;
 }
+AUTO_PROFILER_LABEL
+(
+"
+ProfilerIOInterposeObserver
+"
+PROFILER
+)
+;
 const
 bool
 doCaptureStack

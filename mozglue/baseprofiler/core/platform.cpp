@@ -16067,6 +16067,17 @@ Exists
 )
 )
 ;
+AUTO_BASE_PROFILER_LABEL
+(
+"
+baseprofiler
+:
+:
+profiler_capture_backtrace
+"
+PROFILER
+)
+;
 if
 (
 !

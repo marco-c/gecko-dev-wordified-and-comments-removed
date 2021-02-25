@@ -1926,6 +1926,14 @@ profiler_thread_is_being_profiled
 return
 ;
 }
+AUTO_PROFILER_LABEL
+(
+"
+AutoProfileRunnable
+"
+PROFILER
+)
+;
 AUTO_PROFILER_STATS
 (
 AUTO_PROFILE_RUNNABLE
