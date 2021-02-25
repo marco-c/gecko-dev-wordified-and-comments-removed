@@ -512,6 +512,9 @@ false
 FormData
 :
 false
+FrameCrashedEvent
+:
+false
 FrameLoader
 :
 false
