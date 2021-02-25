@@ -35,17 +35,6 @@ fallback
 async
 false
 )
-pref
-(
-gfx
-.
-bundled
--
-fonts
-.
-activate
-1
-)
 fails
 -
 if
