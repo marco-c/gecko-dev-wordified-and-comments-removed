@@ -18,6 +18,14 @@ rs
 "
 /
 >
+<
+%
+from
+data
+import
+DEFAULT_RULES_AND_PAGE
+%
+>
 {
 helpers
 .
@@ -74,9 +82,9 @@ propdef
 -
 margin
 "
-allowed_in_page_rule
+rule_types_allowed
 =
-True
+DEFAULT_RULES_AND_PAGE
 allow_quirks
 =
 "

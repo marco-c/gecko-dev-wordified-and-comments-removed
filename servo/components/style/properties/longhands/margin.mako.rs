@@ -24,6 +24,7 @@ from
 data
 import
 ALL_SIDES
+DEFAULT_RULES_AND_PAGE
 maybe_moz_logical_alias
 %
 >
@@ -210,9 +211,9 @@ margin
 spec
 =
 spec
-allowed_in_page_rule
+rule_types_allowed
 =
-True
+DEFAULT_RULES_AND_PAGE
 servo_restyle_damage
 =
 "

@@ -268,6 +268,108 @@ font_optical_sizing
 split
 (
 )
+STYLE_RULE
+=
+1
+<
+<
+0
+PAGE_RULE
+=
+1
+<
+<
+1
+KEYFRAME_RULE
+=
+1
+<
+<
+2
+ALL_RULES
+=
+STYLE_RULE
+|
+PAGE_RULE
+|
+KEYFRAME_RULE
+DEFAULT_RULES
+=
+STYLE_RULE
+|
+KEYFRAME_RULE
+DEFAULT_RULES_AND_PAGE
+=
+DEFAULT_RULES
+|
+PAGE_RULE
+DEFAULT_RULES_EXCEPT_KEYFRAME
+=
+STYLE_RULE
+RULE_VALUES
+=
+{
+    
+"
+Style
+"
+:
+STYLE_RULE
+    
+"
+Page
+"
+:
+PAGE_RULE
+    
+"
+Keyframe
+"
+:
+KEYFRAME_RULE
+}
+def
+rule_values_from_arg
+(
+that
+)
+:
+    
+if
+isinstance
+(
+that
+int
+)
+:
+        
+return
+that
+    
+mask
+=
+0
+    
+for
+rule
+in
+that
+.
+split
+(
+)
+:
+        
+mask
+|
+=
+RULE_VALUES
+[
+rule
+]
+    
+return
+mask
 def
 maybe_moz_logical_alias
 (
@@ -1494,9 +1596,9 @@ has_effect_on_gecko_scrollbars
 =
 None
         
-allowed_in_keyframe_block
+rule_types_allowed
 =
-True
+DEFAULT_RULES
         
 cast_type
 =
@@ -1527,10 +1629,6 @@ False
 flags
 =
 None
-        
-allowed_in_page_rule
-=
-False
         
 allow_quirks
 =
@@ -1734,6 +1832,15 @@ pref
         
 )
         
+self
+.
+rule_types_allowed
+=
+rule_values_from_arg
+(
+rule_types_allowed
+)
+        
 assert
 enabled_in
 in
@@ -1864,15 +1971,6 @@ else
         
 self
 .
-allowed_in_page_rule
-=
-arg_to_bool
-(
-allowed_in_page_rule
-)
-        
-self
-.
 allow_quirks
 =
 allow_quirks
@@ -1894,23 +1992,6 @@ self
 simple_vector_bindings
 =
 simple_vector_bindings
-        
-self
-.
-allowed_in_keyframe_block
-=
-(
-            
-allowed_in_keyframe_block
-and
-allowed_in_keyframe_block
-!
-=
-"
-False
-"
-        
-)
         
 if
 animation_value_type
@@ -3008,9 +3089,9 @@ enabled_in
 content
 "
         
-allowed_in_keyframe_block
+rule_types_allowed
 =
-True
+DEFAULT_RULES
         
 alias
 =
@@ -3019,10 +3100,6 @@ None
 extra_prefixes
 =
 None
-        
-allowed_in_page_rule
-=
-False
         
 flags
 =
@@ -3151,11 +3228,11 @@ extra_prefixes
         
 self
 .
-allowed_in_page_rule
+rule_types_allowed
 =
-arg_to_bool
+rule_values_from_arg
 (
-allowed_in_page_rule
+rule_types_allowed
 )
         
 self
@@ -3172,23 +3249,6 @@ flags
 else
 [
 ]
-        
-self
-.
-allowed_in_keyframe_block
-=
-(
-            
-allowed_in_keyframe_block
-and
-allowed_in_keyframe_block
-!
-=
-"
-False
-"
-        
-)
     
 def
 get_animatable
@@ -3528,19 +3588,11 @@ transitionable
         
 self
 .
-allowed_in_page_rule
+rule_types_allowed
 =
 original
 .
-allowed_in_page_rule
-        
-self
-.
-allowed_in_keyframe_block
-=
-original
-.
-allowed_in_keyframe_block
+rule_types_allowed
     
 staticmethod
     

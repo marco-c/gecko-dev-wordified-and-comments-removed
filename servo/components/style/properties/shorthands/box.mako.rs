@@ -1236,10 +1236,10 @@ play
 -
 state
 "
-allowed_in_keyframe_block
+rule_types_allowed
 =
 "
-False
+Style
 "
 spec
 =
