@@ -239,7 +239,7 @@ nsMenuBarX
 )
 aApplicationMenu
 {
-NS_OBJC_BEGIN_TRY_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -261,10 +261,7 @@ aApplicationMenu
 return
 self
 ;
-NS_OBJC_END_TRY_BLOCK_RETURN
-(
-nil
-)
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -324,7 +321,7 @@ mApplicationMenuDelegate
 nil
 )
 {
-NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 mNativeMenu
 =
@@ -340,7 +337,7 @@ MainMenuBar
 "
 ]
 ;
-NS_OBJC_END_TRY_IGNORE_BLOCK
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 nsMenuBarX
@@ -351,7 +348,7 @@ nsMenuBarX
 (
 )
 {
-NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -444,7 +441,7 @@ mNativeMenu
 release
 ]
 ;
-NS_OBJC_END_TRY_IGNORE_BLOCK
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 nsresult
@@ -949,7 +946,7 @@ MenuContainsAppMenu
 (
 )
 {
-NS_OBJC_BEGIN_TRY_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 return
 (
@@ -975,10 +972,7 @@ submenu
 sApplicationMenu
 )
 ;
-NS_OBJC_END_TRY_BLOCK_RETURN
-(
-false
-)
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 nsresult
@@ -994,7 +988,7 @@ uint32_t
 aIndex
 )
 {
-NS_OBJC_BEGIN_TRY_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -1173,10 +1167,7 @@ insertionIndex
 return
 NS_OK
 ;
-NS_OBJC_END_TRY_BLOCK_RETURN
-(
-NS_ERROR_FAILURE
-)
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 void
@@ -1189,7 +1180,7 @@ uint32_t
 aIndex
 )
 {
-NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -1267,7 +1258,7 @@ RemoveElementAt
 aIndex
 )
 ;
-NS_OBJC_END_TRY_IGNORE_BLOCK
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 void
@@ -1999,7 +1990,7 @@ Paint
 (
 )
 {
-NS_OBJC_BEGIN_TRY_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 NSMenu
 *
@@ -2095,10 +2086,7 @@ YES
 return
 NS_OK
 ;
-NS_OBJC_END_TRY_BLOCK_RETURN
-(
-NS_ERROR_FAILURE
-)
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 void
@@ -2512,7 +2500,7 @@ NativeMenuItemTarget
 target
 )
 {
-NS_OBJC_BEGIN_TRY_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 RefPtr
 <
@@ -2917,10 +2905,7 @@ release
 return
 newMenuItem
 ;
-NS_OBJC_END_TRY_BLOCK_RETURN
-(
-nil
-)
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 nsresult
@@ -2934,7 +2919,7 @@ nsMenuX
 inMenu
 )
 {
-NS_OBJC_BEGIN_TRY_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 sApplicationMenu
 =
@@ -3553,10 +3538,7 @@ NS_OK
 :
 NS_ERROR_FAILURE
 ;
-NS_OBJC_END_TRY_BLOCK_RETURN
-(
-NS_ERROR_FAILURE
-)
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 void
@@ -3722,7 +3704,7 @@ id
 )
 sender
 {
-NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -4103,7 +4085,7 @@ DoCommand
 ;
 }
 }
-NS_OBJC_END_TRY_IGNORE_BLOCK
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 end
