@@ -661,7 +661,7 @@ resource
 .
 cors
 .
-json
+js
 \
 -
 o
@@ -714,7 +714,7 @@ resource
 .
 cors
 .
-json
+js
 \
 -
 o
