@@ -2198,10 +2198,6 @@ mMaster
 >
 ResetDecode
 (
-TrackInfo
-:
-:
-kVideoTrack
 )
 ;
 mMaster
