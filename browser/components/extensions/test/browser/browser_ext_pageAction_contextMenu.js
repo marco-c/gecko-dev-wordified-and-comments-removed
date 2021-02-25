@@ -268,15 +268,6 @@ viewsource
 "
 "
 "
-context
--
-viewinfo
-"
-:
-"
-disabled
-"
-"
 inspect
 -
 separator

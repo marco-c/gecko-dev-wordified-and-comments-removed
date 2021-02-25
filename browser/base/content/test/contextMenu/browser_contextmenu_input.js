@@ -902,12 +902,6 @@ context
 viewsource
 "
 true
-"
-context
--
-viewinfo
-"
-true
 ]
 {
 maybeScreenshotsPresent
