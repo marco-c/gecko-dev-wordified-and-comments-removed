@@ -514,9 +514,12 @@ aEnable
 )
 override
 ;
-CompositorCapabilities
+void
 GetCompositorCapabilities
 (
+CompositorCapabilities
+*
+aCaps
 )
 override
 ;

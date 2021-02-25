@@ -215,12 +215,6 @@ WebRenderBackend
 SOFTWARE
 ;
 }
-CompositorCapabilities
-GetCompositorCapabilities
-(
-)
-override
-;
 bool
 ShouldUseNativeCompositor
 (
