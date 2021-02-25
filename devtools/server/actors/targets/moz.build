@@ -8,13 +8,6 @@ context
 js
 "
 "
-chrome
--
-window
-.
-js
-"
-"
 content
 -
 process
