@@ -19840,7 +19840,7 @@ atomCache
 parser
 -
 >
-getCompilationStencil
+getCompilationState
 (
 )
 )
@@ -22826,9 +22826,6 @@ input
 get
 (
 )
-stencil
-.
-alloc
 )
 ;
 if
@@ -22870,7 +22867,6 @@ length
 (
 )
 false
-stencil
 compilationState
 nullptr
 )

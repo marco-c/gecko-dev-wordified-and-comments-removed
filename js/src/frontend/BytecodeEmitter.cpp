@@ -892,9 +892,6 @@ parent
 SharedContext
 *
 sc
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -942,10 +939,6 @@ perScriptData_
 cx
 compilationState
 )
-stencil
-(
-stencil
-)
 compilationState
 (
 compilationState
@@ -978,9 +971,6 @@ handle
 SharedContext
 *
 sc
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -992,7 +982,6 @@ BytecodeEmitter
 (
 parent
 sc
-stencil
 compilationState
 emitterMode
 )
@@ -1028,9 +1017,6 @@ parser
 SharedContext
 *
 sc
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1042,7 +1028,6 @@ BytecodeEmitter
 (
 parent
 sc
-stencil
 compilationState
 emitterMode
 )
@@ -1122,12 +1107,11 @@ parent
 if
 (
 !
-stencil
+compilationState
 .
-prepareStorageFor
+prepareSharedDataStorage
 (
 cx
-compilationState
 )
 )
 {
@@ -8620,7 +8604,7 @@ auto
 *
 code
 =
-stencil
+compilationState
 .
 alloc
 .
@@ -27233,7 +27217,6 @@ bce2
 this
 parser
 funbox
-stencil
 compilationState
 emitterMode
 )
@@ -43633,7 +43616,6 @@ bce2
 this
 parser
 funbox
-stencil
 compilationState
 emitterMode
 )
@@ -52271,7 +52253,7 @@ false
 if
 (
 !
-stencil
+compilationState
 .
 sharedData
 .

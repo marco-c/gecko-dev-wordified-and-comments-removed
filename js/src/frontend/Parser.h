@@ -368,9 +368,6 @@ ParserSharedBase
 JSContext
 *
 cx
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -394,10 +391,6 @@ LifoAlloc
 &
 alloc_
 ;
-CompilationStencil
-&
-stencil_
-;
 CompilationState
 &
 compilationState_
@@ -412,16 +405,6 @@ usedNames_
 ;
 public
 :
-CompilationStencil
-&
-getCompilationStencil
-(
-)
-{
-return
-stencil_
-;
-}
 CompilationState
 &
 getCompilationState
@@ -465,7 +448,7 @@ stencilAlloc
 )
 {
 return
-stencil_
+compilationState_
 .
 alloc
 ;
@@ -662,9 +645,6 @@ ReadOnlyCompileOptions
 options
 bool
 foldConstants
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1302,9 +1282,6 @@ ReadOnlyCompileOptions
 options
 bool
 foldConstants
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1334,9 +1311,6 @@ ReadOnlyCompileOptions
 options
 bool
 foldConstants
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1354,7 +1328,6 @@ PerHandlerParser
 cx
 options
 foldConstants
-stencil
 compilationState
 static_cast
 <
@@ -2858,9 +2831,6 @@ size_t
 length
 bool
 foldConstants
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState

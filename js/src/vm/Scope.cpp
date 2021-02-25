@@ -11513,9 +11513,6 @@ createForFunctionScope
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 frontend
 :
 :
@@ -11599,6 +11596,8 @@ ScopeType
 >
 (
 cx
+compilationState
+.
 alloc
 )
 ;
@@ -11694,9 +11693,6 @@ createForLexicalScope
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 frontend
 :
 :
@@ -11768,6 +11764,8 @@ ScopeType
 >
 (
 cx
+compilationState
+.
 alloc
 )
 ;
@@ -11842,9 +11840,6 @@ createForVarScope
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 frontend
 :
 :
@@ -11918,6 +11913,8 @@ ScopeType
 >
 (
 cx
+compilationState
+.
 alloc
 )
 ;
@@ -11993,9 +11990,6 @@ createForGlobalScope
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 frontend
 :
 :
@@ -12057,6 +12051,8 @@ ScopeType
 >
 (
 cx
+compilationState
+.
 alloc
 )
 ;
@@ -12117,9 +12113,6 @@ createForEvalScope
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 frontend
 :
 :
@@ -12189,6 +12182,8 @@ ScopeType
 >
 (
 cx
+compilationState
+.
 alloc
 )
 ;
@@ -12267,9 +12262,6 @@ createForModuleScope
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 frontend
 :
 :
@@ -12345,6 +12337,8 @@ ScopeType
 >
 (
 cx
+compilationState
+.
 alloc
 )
 ;
@@ -12550,9 +12544,6 @@ createForWithScope
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 CompilationState
 &
 compilationState

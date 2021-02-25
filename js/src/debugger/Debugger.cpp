@@ -30519,19 +30519,6 @@ return
 false
 ;
 }
-frontend
-:
-:
-CompilationStencil
-stencil
-(
-input
-.
-get
-(
-)
-)
-;
 LifoAllocScope
 allocScope
 (
@@ -30557,9 +30544,6 @@ input
 get
 (
 )
-stencil
-.
-alloc
 )
 ;
 if
@@ -30608,7 +30592,6 @@ twoByteChars
 )
 length
 true
-stencil
 compilationState
 nullptr
 )
