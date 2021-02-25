@@ -32,11 +32,6 @@ parser
 get_parser
 "
 "
-py3only
-"
-:
-true
-"
 help
 "
 :
