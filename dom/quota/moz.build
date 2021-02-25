@@ -168,11 +168,6 @@ MemoryOutputStream
 h
 "
 "
-NSSCipherStrategy
-.
-h
-"
-"
 OriginMetadata
 .
 h
@@ -279,11 +274,6 @@ cpp
 "
 "
 nsIndexedDBProtocolHandler
-.
-cpp
-"
-"
-NSSCipherStrategy
 .
 cpp
 "

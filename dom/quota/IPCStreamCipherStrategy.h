@@ -13,7 +13,7 @@ dom
 /
 quota
 /
-NSSCipherStrategy
+DummyCipherStrategy
 .
 h
 "
@@ -29,7 +29,7 @@ quota
 using
 IPCStreamCipherStrategy
 =
-NSSCipherStrategy
+DummyCipherStrategy
 ;
 }
 #
