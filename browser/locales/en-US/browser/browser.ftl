@@ -5151,7 +5151,7 @@ submit
 label
 =
 Submit
-Report
+report
 .
 accesskey
 =

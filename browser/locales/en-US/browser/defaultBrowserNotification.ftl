@@ -130,7 +130,7 @@ label
 =
 Set
 as
-Default
+default
 .
 accesskey
 =
