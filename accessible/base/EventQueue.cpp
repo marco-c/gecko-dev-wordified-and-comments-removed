@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -215,7 +215,7 @@ EventQueue
 :
 PushNameOrDescriptionChange
 (
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -266,7 +266,7 @@ nameCheckAncestor
 =
 true
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -380,7 +380,7 @@ LABEL_FOR
 ;
 while
 (
-Accessible
+LocalAccessible
 *
 relTarget
 =
@@ -438,7 +438,7 @@ DESCRIPTION_FOR
 ;
 while
 (
-Accessible
+LocalAccessible
 *
 relTarget
 =
@@ -554,7 +554,7 @@ eCoalesceReorder
 {
 DebugOnly
 <
-Accessible
+LocalAccessible
 *
 >
 target
@@ -1727,7 +1727,7 @@ AccEvent
 eDoNotEmit
 )
 {
-Accessible
+LocalAccessible
 *
 target
 =

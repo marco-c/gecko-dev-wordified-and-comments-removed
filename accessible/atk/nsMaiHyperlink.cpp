@@ -641,7 +641,7 @@ cautoStr
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 hyperlink
 =
@@ -773,7 +773,7 @@ nullptr
 }
 if
 (
-Accessible
+LocalAccessible
 *
 hyperlink
 =
@@ -785,7 +785,7 @@ GetAccHyperlink
 )
 )
 {
-Accessible
+LocalAccessible
 *
 anchor
 =
@@ -868,7 +868,7 @@ false
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 hyperlink
 =
@@ -960,7 +960,7 @@ return
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 hyperlink
 =
@@ -1051,7 +1051,7 @@ false
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 hyperlink
 =
@@ -1126,7 +1126,7 @@ return
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 hyperlink
 =

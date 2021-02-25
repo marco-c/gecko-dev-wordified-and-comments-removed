@@ -15,7 +15,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -545,7 +545,7 @@ GetSelectedBox
 :
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 selectedAcc
 =
@@ -719,7 +719,7 @@ NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =

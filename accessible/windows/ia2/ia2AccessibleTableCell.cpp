@@ -330,7 +330,7 @@ CO_E_OBJNOTCONNECTED
 ;
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >
@@ -603,7 +603,7 @@ CO_E_OBJNOTCONNECTED
 ;
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >

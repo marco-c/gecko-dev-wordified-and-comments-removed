@@ -164,7 +164,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ChildAtPoint
 (
@@ -178,7 +178,7 @@ aWhichChild
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 FocusedChild
 (
@@ -356,7 +356,7 @@ ApplicationAccessible
 {
 }
 virtual
-Accessible
+LocalAccessible
 *
 GetSiblingAtOffset
 (
@@ -384,7 +384,7 @@ mAppInfo
 inline
 ApplicationAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsApplication

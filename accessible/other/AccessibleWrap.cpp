@@ -25,7 +25,7 @@ DocAccessible
 aDoc
 )
 :
-Accessible
+LocalAccessible
 (
 aContent
 aDoc

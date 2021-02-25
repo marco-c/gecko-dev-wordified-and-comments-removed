@@ -58,7 +58,7 @@ mozilla
 a11y
 :
 :
-Accessible
+LocalAccessible
 *
 aAccessible
 mozilla
@@ -89,7 +89,7 @@ mozilla
 a11y
 :
 :
-Accessible
+LocalAccessible
 *
 aTarget
 uint64_t

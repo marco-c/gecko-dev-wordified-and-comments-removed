@@ -36,7 +36,7 @@ class
 AccEvent
 ;
 class
-Accessible
+LocalAccessible
 ;
 class
 DocAccessible
@@ -52,7 +52,7 @@ FocusManager
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 FocusedAccessible
 (
@@ -63,7 +63,7 @@ bool
 IsFocused
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -74,7 +74,7 @@ bool
 IsActiveItem
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -117,7 +117,7 @@ bool
 IsFocusWithin
 (
 const
-Accessible
+LocalAccessible
 *
 aContainer
 )
@@ -136,7 +136,7 @@ FocusDisposition
 IsInOrContainsFocus
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -146,7 +146,7 @@ bool
 WasLastFocused
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -171,7 +171,7 @@ aTarget
 void
 ActiveItemChanged
 (
-Accessible
+LocalAccessible
 *
 aItem
 bool
@@ -191,7 +191,7 @@ DispatchFocusEvent
 DocAccessible
 *
 aDocument
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -251,19 +251,19 @@ private
 :
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 mActiveItem
 ;
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 mLastFocus
 ;
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 mActiveARIAMenubar
 ;

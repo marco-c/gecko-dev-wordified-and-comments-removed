@@ -58,7 +58,7 @@ InsertChildAt
 (
 uint32_t
 aIdx
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -68,7 +68,7 @@ virtual
 bool
 RemoveChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 )

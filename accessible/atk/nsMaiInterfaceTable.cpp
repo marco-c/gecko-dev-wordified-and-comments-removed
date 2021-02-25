@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -137,7 +137,7 @@ if
 accWrap
 )
 {
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -922,7 +922,7 @@ if
 accWrap
 )
 {
-Accessible
+LocalAccessible
 *
 caption
 =
@@ -1112,7 +1112,7 @@ if
 accWrap
 )
 {
-Accessible
+LocalAccessible
 *
 header
 =
@@ -1305,7 +1305,7 @@ if
 accWrap
 )
 {
-Accessible
+LocalAccessible
 *
 header
 =

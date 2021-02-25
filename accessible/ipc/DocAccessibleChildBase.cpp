@@ -23,7 +23,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -41,7 +41,7 @@ DocAccessibleChildBase
 :
 InterfacesFor
 (
-Accessible
+LocalAccessible
 *
 aAcc
 )
@@ -235,7 +235,7 @@ DocAccessibleChildBase
 :
 SerializeTree
 (
-Accessible
+LocalAccessible
 *
 aRoot
 nsTArray
@@ -419,10 +419,10 @@ DocAccessibleChildBase
 :
 InsertIntoIpcTree
 (
-Accessible
+LocalAccessible
 *
 aParent
-Accessible
+LocalAccessible
 *
 aChild
 uint32_t
@@ -497,7 +497,7 @@ AccShowEvent
 aShowEvent
 )
 {
-Accessible
+LocalAccessible
 *
 parent
 =

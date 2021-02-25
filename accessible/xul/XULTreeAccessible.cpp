@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -296,7 +296,7 @@ XULTreeAccessible
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeAccessible
-Accessible
+LocalAccessible
 mTree
 mAccessibleCache
 )
@@ -306,17 +306,17 @@ XULTreeAccessible
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-Accessible
+LocalAccessible
 )
 NS_IMPL_ADDREF_INHERITED
 (
 XULTreeAccessible
-Accessible
+LocalAccessible
 )
 NS_IMPL_RELEASE_INHERITED
 (
 XULTreeAccessible
-Accessible
+LocalAccessible
 )
 uint64_t
 XULTreeAccessible
@@ -330,7 +330,7 @@ const
 uint64_t
 state
 =
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -688,7 +688,7 @@ roles
 LIST
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeAccessible
 :
@@ -851,7 +851,7 @@ aWhichChild
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 child
 =
@@ -884,7 +884,7 @@ do_QueryObject
 child
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -911,7 +911,7 @@ return
 child
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeAccessible
 :
@@ -991,7 +991,7 @@ XULTreeAccessible
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
@@ -1017,7 +1017,7 @@ SelectedItems
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -1123,7 +1123,7 @@ rowIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 item
 =
@@ -1473,7 +1473,7 @@ return
 true
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeAccessible
 :
@@ -1687,7 +1687,7 @@ return
 false
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeAccessible
 :
@@ -1702,7 +1702,7 @@ const
 uint32_t
 childCount
 =
-Accessible
+LocalAccessible
 :
 :
 ChildCount
@@ -1717,7 +1717,7 @@ childCount
 )
 {
 return
-Accessible
+LocalAccessible
 :
 :
 LocalChildAt
@@ -1747,7 +1747,7 @@ const
 uint32_t
 childCount
 =
-Accessible
+LocalAccessible
 :
 :
 ChildCount
@@ -1833,7 +1833,7 @@ Relation
 ;
 }
 return
-Accessible
+LocalAccessible
 :
 :
 RelationByType
@@ -1983,7 +1983,7 @@ return
 true
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeAccessible
 :
@@ -2064,7 +2064,7 @@ if
 inputElm
 )
 {
-Accessible
+LocalAccessible
 *
 input
 =
@@ -2095,7 +2095,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeAccessible
 :
@@ -2174,7 +2174,7 @@ aRow
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 cachedTreeItem
 =
@@ -2194,7 +2194,7 @@ cachedTreeItem
 ;
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 treeItem
 =
@@ -2322,7 +2322,7 @@ rowIdx
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 treeItem
 =
@@ -2444,7 +2444,7 @@ rowIdx
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 treeItem
 =
@@ -2650,7 +2650,7 @@ rowIdx
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -2753,7 +2753,7 @@ mTreeView
 =
 aView
 ;
-Accessible
+LocalAccessible
 *
 item
 =
@@ -2781,7 +2781,7 @@ true
 }
 already_AddRefed
 <
-Accessible
+LocalAccessible
 >
 XULTreeAccessible
 :
@@ -2795,7 +2795,7 @@ const
 {
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 accessible
 =
@@ -2836,7 +2836,7 @@ aContent
 DocAccessible
 *
 aDoc
-Accessible
+LocalAccessible
 *
 aParent
 dom
@@ -2892,16 +2892,16 @@ XULTreeItemAccessibleBase
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeItemAccessibleBase
-Accessible
+LocalAccessible
 mTree
 )
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 XULTreeItemAccessibleBase
-Accessible
+LocalAccessible
 XULTreeItemAccessibleBase
 )
-Accessible
+LocalAccessible
 *
 XULTreeItemAccessibleBase
 :
@@ -3267,7 +3267,7 @@ SetCurrentIndex
 mRow
 )
 ;
-Accessible
+LocalAccessible
 :
 :
 TakeFocus
@@ -4075,7 +4075,7 @@ mRow
 1
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeItemAccessibleBase
 :
@@ -4207,7 +4207,7 @@ pseudoElm
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 XULTreeItemAccessibleBase
 :
@@ -4405,7 +4405,7 @@ aContent
 DocAccessible
 *
 aDoc
-Accessible
+LocalAccessible
 *
 aParent
 dom
@@ -4678,7 +4678,7 @@ aDoc
 )
 {
 }
-Accessible
+LocalAccessible
 *
 XULTreeColumAccessible
 :

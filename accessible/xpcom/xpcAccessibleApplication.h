@@ -44,7 +44,7 @@ public
 explicit
 xpcAccessibleApplication
 (
-Accessible
+LocalAccessible
 *
 aIntl
 )

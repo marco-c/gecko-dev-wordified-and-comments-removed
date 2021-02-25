@@ -32,7 +32,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -60,7 +60,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -71,7 +71,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 Attribute
@@ -491,7 +491,7 @@ RemoteParent
 )
 const
 ;
-Accessible
+LocalAccessible
 *
 OuterDocOfRemoteBrowser
 (

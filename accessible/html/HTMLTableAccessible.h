@@ -180,7 +180,7 @@ ColHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -194,7 +194,7 @@ RowHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -404,7 +404,7 @@ HTMLTableAccessible
 HyperTextAccessibleWrap
 )
 virtual
-Accessible
+LocalAccessible
 *
 Caption
 (
@@ -438,7 +438,7 @@ RowCount
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CellAt
 (
@@ -571,7 +571,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -655,7 +655,7 @@ aRowIdx
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 AsAccessible
 (
@@ -733,7 +733,7 @@ InsertChildAt
 (
 uint32_t
 aIndex
-Accessible
+LocalAccessible
 *
 aChild
 )

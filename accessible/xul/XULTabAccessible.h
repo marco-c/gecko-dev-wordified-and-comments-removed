@@ -201,7 +201,7 @@ SelectedItems
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -217,7 +217,7 @@ SelectedItemCount
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 GetSelectedItem
 (

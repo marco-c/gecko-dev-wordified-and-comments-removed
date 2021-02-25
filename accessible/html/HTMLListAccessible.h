@@ -155,7 +155,7 @@ InsertChildAt
 (
 uint32_t
 aIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -167,7 +167,7 @@ RelocateChild
 (
 uint32_t
 aNewIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -301,7 +301,7 @@ const
 inline
 HTMLLIAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsHTMLListItem

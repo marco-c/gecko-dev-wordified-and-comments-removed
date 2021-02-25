@@ -22,7 +22,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -150,7 +150,7 @@ DocAccessible
 aDoc
 )
 :
-Accessible
+LocalAccessible
 (
 aContent
 aDoc
@@ -613,7 +613,7 @@ mNativeObject
 nil
 ;
 }
-Accessible
+LocalAccessible
 :
 :
 Shutdown
@@ -637,7 +637,7 @@ NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 nsresult
 rv
 =
-Accessible
+LocalAccessible
 :
 :
 HandleAccEvent
@@ -706,7 +706,7 @@ return
 NS_OK
 ;
 }
-Accessible
+LocalAccessible
 *
 eventTarget
 =
@@ -770,7 +770,7 @@ nsIAccessibleEvent
 EVENT_TEXT_REMOVED
 :
 {
-Accessible
+LocalAccessible
 *
 acc
 =

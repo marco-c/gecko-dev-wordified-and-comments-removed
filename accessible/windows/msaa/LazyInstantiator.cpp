@@ -19,7 +19,7 @@ mozilla
 /
 a11y
 /
-Accessible
+LocalAccessible
 .
 h
 "
@@ -327,7 +327,7 @@ forget
 a11y
 :
 :
-Accessible
+LocalAccessible
 *
 rootAcc
 =
@@ -974,7 +974,7 @@ ResolveRootAccWrap
 (
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =

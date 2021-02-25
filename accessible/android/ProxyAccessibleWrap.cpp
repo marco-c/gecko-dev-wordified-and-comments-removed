@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -279,7 +279,7 @@ ChildrenCount
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 ProxyAccessibleWrap
 :

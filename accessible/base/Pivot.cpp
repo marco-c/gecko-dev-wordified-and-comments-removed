@@ -15,7 +15,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -731,7 +731,7 @@ Pivot
 :
 SearchForText
 (
-Accessible
+LocalAccessible
 *
 aAnchor
 bool
@@ -752,7 +752,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -763,7 +763,7 @@ while
 true
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -818,13 +818,13 @@ AsHyperText
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 sibling
 =
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 temp
 =
@@ -1063,14 +1063,14 @@ true
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 Pivot
 :
 :
 NextText
 (
-Accessible
+LocalAccessible
 *
 aAnchor
 int32_t
@@ -1107,7 +1107,7 @@ tempEnd
 *
 aEndOffset
 ;
-Accessible
+LocalAccessible
 *
 tempPosition
 =
@@ -1214,7 +1214,7 @@ MOZ_ASSERT
 tempPosition
 )
 ;
-Accessible
+LocalAccessible
 *
 curPosition
 =
@@ -1347,7 +1347,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 sibling
 =
@@ -1600,7 +1600,7 @@ potentialStart
 :
 currentEnd
 ;
-Accessible
+LocalAccessible
 *
 childAtOffset
 =
@@ -1717,14 +1717,14 @@ tempPosition
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 Pivot
 :
 :
 PrevText
 (
-Accessible
+LocalAccessible
 *
 aAnchor
 int32_t
@@ -1761,7 +1761,7 @@ tempEnd
 *
 aEndOffset
 ;
-Accessible
+LocalAccessible
 *
 tempPosition
 =
@@ -1874,7 +1874,7 @@ MOZ_ASSERT
 tempPosition
 )
 ;
-Accessible
+LocalAccessible
 *
 curPosition
 =
@@ -2022,7 +2022,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 sibling
 =
@@ -2334,7 +2334,7 @@ potentialEnd
 :
 currentStart
 ;
-Accessible
+LocalAccessible
 *
 childAtOffset
 =
@@ -2501,7 +2501,7 @@ ChildAtPoint
 (
 aX
 aY
-Accessible
+LocalAccessible
 :
 :
 eDeepestChild
@@ -2789,7 +2789,7 @@ AccessibleOrProxy
 aAccOrProxy
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =

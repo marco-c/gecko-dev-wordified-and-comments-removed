@@ -120,7 +120,7 @@ mText
 inline
 TextLeafAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsTextLeaf

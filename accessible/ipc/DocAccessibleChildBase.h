@@ -49,7 +49,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 AccShowEvent
@@ -134,10 +134,10 @@ SendShutdown
 void
 InsertIntoIpcTree
 (
-Accessible
+LocalAccessible
 *
 aParent
-Accessible
+LocalAccessible
 *
 aChild
 uint32_t
@@ -188,7 +188,7 @@ static
 uint32_t
 InterfacesFor
 (
-Accessible
+LocalAccessible
 *
 aAcc
 )
@@ -197,7 +197,7 @@ static
 void
 SerializeTree
 (
-Accessible
+LocalAccessible
 *
 aRoot
 nsTArray

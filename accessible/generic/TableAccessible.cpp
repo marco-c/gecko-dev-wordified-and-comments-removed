@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -125,7 +125,7 @@ isLayout
 }
 #
 endif
-Accessible
+LocalAccessible
 *
 thisacc
 =
@@ -340,7 +340,7 @@ structures
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 caption
 =
@@ -525,7 +525,7 @@ tr
 {
 if
 (
-Accessible
+LocalAccessible
 *
 row
 =
@@ -735,7 +735,7 @@ structures
 }
 if
 (
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -1150,7 +1150,7 @@ childIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -1516,7 +1516,7 @@ data
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 TableAccessible
 :
@@ -1547,7 +1547,7 @@ filters
 GetRow
 )
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -1585,14 +1585,14 @@ return
 row
 ;
 }
-Accessible
+LocalAccessible
 *
 TableAccessible
 :
 :
 CellInRowAt
 (
-Accessible
+LocalAccessible
 *
 aRow
 int32_t
@@ -1614,7 +1614,7 @@ filters
 GetCell
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =

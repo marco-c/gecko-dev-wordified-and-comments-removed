@@ -59,7 +59,7 @@ class
 AccEvent
 ;
 class
-Accessible
+LocalAccessible
 ;
 class
 DocAccessible
@@ -307,7 +307,7 @@ const
 char
 *
 aTargetDescr
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -351,7 +351,7 @@ const
 char
 *
 aMsg
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -359,7 +359,7 @@ aTarget
 void
 ActiveWidget
 (
-Accessible
+LocalAccessible
 *
 aWidget
 )
@@ -367,7 +367,7 @@ aWidget
 void
 FocusDispatched
 (
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -415,7 +415,7 @@ const
 char
 *
 aMsg1
-Accessible
+LocalAccessible
 *
 aAcc
 const
@@ -436,7 +436,7 @@ char
 aMsg
 uint32_t
 aExtraFlags
-Accessible
+LocalAccessible
 *
 aParent
 )
@@ -453,7 +453,7 @@ GetTreePrefix
 void
 *
 aData
-Accessible
+LocalAccessible
 *
 )
 ;
@@ -468,7 +468,7 @@ const
 char
 *
 aMsgText
-Accessible
+LocalAccessible
 *
 aRoot
 GetTreePrefix
@@ -567,7 +567,7 @@ const
 char
 *
 aDescr
-Accessible
+LocalAccessible
 *
 aAcc
 )
@@ -599,7 +599,7 @@ const
 char
 *
 aDescr
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -611,7 +611,7 @@ const
 char
 *
 aDescr
-Accessible
+LocalAccessible
 *
 aAccessible
 )

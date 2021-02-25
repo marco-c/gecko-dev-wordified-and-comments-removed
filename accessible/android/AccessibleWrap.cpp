@@ -15,7 +15,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -205,7 +205,7 @@ DocAccessible
 aDoc
 )
 :
-Accessible
+LocalAccessible
 (
 aContent
 aDoc
@@ -537,7 +537,7 @@ GetCaretOffset
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 newPos
 =
@@ -616,7 +616,7 @@ break
 nsresult
 rv
 =
-Accessible
+LocalAccessible
 :
 :
 HandleAccEvent
@@ -1316,7 +1316,7 @@ mID
 ;
 }
 }
-Accessible
+LocalAccessible
 :
 :
 Shutdown
@@ -1343,7 +1343,7 @@ ActionCount
 )
 {
 return
-Accessible
+LocalAccessible
 :
 :
 DoAction
@@ -1573,7 +1573,7 @@ AccessibleOrProxy
 this
 )
 ;
-Accessible
+LocalAccessible
 *
 result
 =
@@ -1705,7 +1705,7 @@ RootAccessible
 TraversalRule
 rule
 ;
-Accessible
+LocalAccessible
 *
 result
 =
@@ -1902,7 +1902,7 @@ break
 int32_t
 newOffset
 ;
-Accessible
+LocalAccessible
 *
 newAnchor
 =
@@ -5227,7 +5227,7 @@ _ns
 atomic
 )
 ;
-Accessible
+LocalAccessible
 *
 announcementTarget
 =
@@ -5248,7 +5248,7 @@ true
 )
 )
 {
-Accessible
+LocalAccessible
 *
 atomicAncestor
 =
@@ -5256,7 +5256,7 @@ nullptr
 ;
 for
 (
-Accessible
+LocalAccessible
 *
 parent
 =

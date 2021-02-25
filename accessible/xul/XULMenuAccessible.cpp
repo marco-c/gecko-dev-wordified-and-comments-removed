@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -192,7 +192,7 @@ const
 uint64_t
 state
 =
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -420,7 +420,7 @@ isCollapsed
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -467,7 +467,7 @@ if
 isCollapsed
 )
 {
-Accessible
+LocalAccessible
 *
 grandParent
 =
@@ -794,7 +794,7 @@ modifierKey
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 parentAcc
 =
@@ -1310,7 +1310,7 @@ roles
 :
 PARENT_MENUITEM
 ;
-Accessible
+LocalAccessible
 *
 widget
 =
@@ -1617,7 +1617,7 @@ return
 false
 ;
 }
-Accessible
+LocalAccessible
 *
 XULMenuitemAccessible
 :
@@ -1993,7 +1993,7 @@ const
 uint64_t
 state
 =
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -2029,7 +2029,7 @@ if
 isActive
 )
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -2301,7 +2301,7 @@ roles
 PUSHBUTTON
 )
 {
-Accessible
+LocalAccessible
 *
 grandParent
 =
@@ -2418,7 +2418,7 @@ IsOpen
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 XULMenupopupAccessible
 :
@@ -2452,7 +2452,7 @@ while
 menuPopupFrame
 )
 {
-Accessible
+LocalAccessible
 *
 menuPopup
 =
@@ -2716,7 +2716,7 @@ return
 true
 ;
 }
-Accessible
+LocalAccessible
 *
 XULMenubarAccessible
 :
@@ -2791,7 +2791,7 @@ XULMenubarAccessible
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )

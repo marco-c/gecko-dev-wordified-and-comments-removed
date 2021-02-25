@@ -140,7 +140,7 @@ ChildCount
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLImageMapAccessible
 :
@@ -172,7 +172,7 @@ aAnchorIndex
 )
 const
 {
-Accessible
+LocalAccessible
 *
 area
 =
@@ -291,7 +291,7 @@ childIdx
 -
 )
 {
-Accessible
+LocalAccessible
 *
 area
 =
@@ -369,7 +369,7 @@ GetAreaAt
 idx
 )
 ;
-Accessible
+LocalAccessible
 *
 area
 =
@@ -399,7 +399,7 @@ areaContent
 {
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 area
 =
@@ -467,7 +467,7 @@ Done
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLImageMapAccessible
 :
@@ -506,7 +506,7 @@ i
 +
 )
 {
-Accessible
+LocalAccessible
 *
 area
 =
@@ -575,7 +575,7 @@ const
 ENameValueFlag
 nameFlag
 =
-Accessible
+LocalAccessible
 :
 :
 NativeName
@@ -677,7 +677,7 @@ aDescription
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLAreaAccessible
 :

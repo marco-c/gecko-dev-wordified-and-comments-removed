@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -56,7 +56,7 @@ ConvertToNSArray
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 &
@@ -100,7 +100,7 @@ i
 +
 )
 {
-Accessible
+LocalAccessible
 *
 curAccessible
 =
@@ -245,7 +245,7 @@ aString
 nsString
 text
 ;
-Accessible
+LocalAccessible
 :
 :
 TranslateString
@@ -290,7 +290,7 @@ result
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =

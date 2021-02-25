@@ -7,7 +7,7 @@ _nsTextEquivUtils_H_
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -50,15 +50,15 @@ mozilla
 a11y
 :
 :
-Accessible
-Accessible
+LocalAccessible
+LocalAccessible
 ;
 static
 inline
 bool
 HasNameRule
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 ETextEquivRule
@@ -89,7 +89,7 @@ nsresult
 GetNameFromSubtree
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAString
@@ -102,7 +102,7 @@ void
 GetTextEquivFromSubtree
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 nsString
@@ -135,7 +135,7 @@ nsresult
 GetTextEquivFromIDRefs
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAtom
@@ -151,7 +151,7 @@ nsresult
 AppendTextEquivFromContent
 (
 const
-Accessible
+LocalAccessible
 *
 aInitiatorAcc
 nsIContent
@@ -193,7 +193,7 @@ nsresult
 AppendFromAccessibleChildren
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAString
@@ -205,7 +205,7 @@ static
 nsresult
 AppendFromAccessible
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAString
@@ -217,7 +217,7 @@ static
 nsresult
 AppendFromValue
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAString
@@ -271,7 +271,7 @@ static
 bool
 ShouldIncludeInSubtreeCalculation
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )

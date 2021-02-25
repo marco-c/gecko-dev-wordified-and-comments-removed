@@ -239,7 +239,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 }
 #
@@ -1757,7 +1757,7 @@ mozilla
 a11y
 :
 :
-Accessible
+LocalAccessible
 *
 GetRootAccessible
 (

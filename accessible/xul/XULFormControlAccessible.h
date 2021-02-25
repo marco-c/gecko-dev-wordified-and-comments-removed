@@ -145,7 +145,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -362,7 +362,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -437,7 +437,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CurrentItem
 (
@@ -450,7 +450,7 @@ void
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
@@ -527,7 +527,7 @@ static
 bool
 IsSeparator
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )

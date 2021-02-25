@@ -76,7 +76,7 @@ namespace
 a11y
 {
 inline
-Accessible
+LocalAccessible
 *
 DocAccessible
 :
@@ -91,7 +91,7 @@ aNoContainerIfPruned
 )
 const
 {
-Accessible
+LocalAccessible
 *
 container
 =
@@ -277,7 +277,7 @@ FireDelayedEvent
 (
 uint32_t
 aEventType
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -500,7 +500,7 @@ DocAccessible
 :
 MaybeNotifyOfValueChange
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -555,7 +555,7 @@ aAccessible
 }
 }
 inline
-Accessible
+LocalAccessible
 *
 DocAccessible
 :
@@ -568,7 +568,7 @@ aNode
 )
 const
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -595,12 +595,12 @@ DocAccessible
 :
 CreateSubtree
 (
-Accessible
+LocalAccessible
 *
 aChild
 )
 {
-Accessible
+LocalAccessible
 *
 focusedAcc
 =

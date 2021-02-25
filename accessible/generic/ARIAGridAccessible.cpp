@@ -10,7 +10,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -228,7 +228,7 @@ filters
 GetRow
 )
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -256,7 +256,7 @@ filters
 GetCell
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -357,7 +357,7 @@ return
 rowCount
 ;
 }
-Accessible
+LocalAccessible
 *
 ARIAGridAccessible
 :
@@ -370,7 +370,7 @@ uint32_t
 aColumnIndex
 )
 {
-Accessible
+LocalAccessible
 *
 row
 =
@@ -428,7 +428,7 @@ filters
 GetRow
 )
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -460,7 +460,7 @@ row
 )
 )
 {
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -530,7 +530,7 @@ table
 return
 false
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -569,7 +569,7 @@ filters
 GetCell
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -633,7 +633,7 @@ table
 return
 false
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -662,7 +662,7 @@ row
 )
 )
 {
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -736,7 +736,7 @@ filters
 GetRow
 )
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -784,7 +784,7 @@ filters
 GetCell
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -869,7 +869,7 @@ filters
 GetRow
 )
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -948,7 +948,7 @@ filters
 GetCell
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -1066,7 +1066,7 @@ filters
 GetRow
 )
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -1113,7 +1113,7 @@ filters
 GetCell
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -1191,7 +1191,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -1220,7 +1220,7 @@ filters
 GetRow
 )
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -1249,7 +1249,7 @@ filters
 GetCell
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -1366,7 +1366,7 @@ filters
 GetRow
 )
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -1447,7 +1447,7 @@ filters
 GetCell
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -1552,7 +1552,7 @@ filters
 GetRow
 )
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -1625,7 +1625,7 @@ filters
 GetCell
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -1768,7 +1768,7 @@ filters
 GetRow
 )
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -1828,7 +1828,7 @@ filters
 GetCell
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -1931,7 +1931,7 @@ filters
 GetRow
 )
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -2026,7 +2026,7 @@ filters
 GetRow
 )
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -2075,7 +2075,7 @@ fail
 "
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -2119,7 +2119,7 @@ table
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -2171,7 +2171,7 @@ filters
 GetRow
 )
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -2190,7 +2190,7 @@ Next
 )
 )
 {
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -2218,7 +2218,7 @@ ARIAGridAccessible
 :
 SetARIASelected
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 bool
@@ -2386,7 +2386,7 @@ filters
 GetCell
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -2454,7 +2454,7 @@ roles
 COLUMNHEADER
 )
 {
-Accessible
+LocalAccessible
 *
 row
 =
@@ -2518,7 +2518,7 @@ filters
 GetCell
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -2651,7 +2651,7 @@ index
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 table
 =
@@ -2730,7 +2730,7 @@ roles
 TABLE
 )
 {
-Accessible
+LocalAccessible
 *
 row
 =
@@ -2924,7 +2924,7 @@ Table
 )
 const
 {
-Accessible
+LocalAccessible
 *
 table
 =
@@ -2960,7 +2960,7 @@ ColIdx
 )
 const
 {
-Accessible
+LocalAccessible
 *
 row
 =
@@ -3004,7 +3004,7 @@ idx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -3073,7 +3073,7 @@ Selected
 (
 )
 {
-Accessible
+LocalAccessible
 *
 row
 =
@@ -3140,7 +3140,7 @@ SELECTED
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -3259,7 +3259,7 @@ NativeAttributes
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 thisRow
 =
@@ -3338,7 +3338,7 @@ childIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =

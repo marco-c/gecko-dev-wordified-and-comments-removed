@@ -46,7 +46,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 TableAccessible
@@ -54,7 +54,7 @@ TableAccessible
 public
 :
 virtual
-Accessible
+LocalAccessible
 *
 Caption
 (
@@ -103,7 +103,7 @@ return
 ;
 }
 virtual
-Accessible
+LocalAccessible
 *
 CellAt
 (
@@ -305,7 +305,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -399,7 +399,7 @@ IsProbablyLayoutTable
 )
 ;
 virtual
-Accessible
+LocalAccessible
 *
 AsAccessible
 (
@@ -415,7 +415,7 @@ nsPtrHashKey
 const
 TableCellAccessible
 >
-Accessible
+LocalAccessible
 >
 HeaderCache
 ;
@@ -431,7 +431,7 @@ mHeaderCache
 }
 protected
 :
-Accessible
+LocalAccessible
 *
 RowAt
 (
@@ -439,11 +439,11 @@ int32_t
 aRow
 )
 ;
-Accessible
+LocalAccessible
 *
 CellInRowAt
 (
-Accessible
+LocalAccessible
 *
 aRow
 int32_t

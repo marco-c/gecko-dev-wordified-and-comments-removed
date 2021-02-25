@@ -105,7 +105,7 @@ RowCount
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CellAt
 (
@@ -172,7 +172,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -256,7 +256,7 @@ aRowIdx
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 AsAccessible
 (
@@ -279,7 +279,7 @@ ARIAGridAccessible
 nsresult
 SetARIASelected
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 bool
@@ -452,14 +452,14 @@ ARIAGridCellAccessible
 )
 {
 }
-Accessible
+LocalAccessible
 *
 Row
 (
 )
 const
 {
-Accessible
+LocalAccessible
 *
 row
 =
@@ -486,7 +486,7 @@ nullptr
 int32_t
 RowIndexFor
 (
-Accessible
+LocalAccessible
 *
 aRow
 )

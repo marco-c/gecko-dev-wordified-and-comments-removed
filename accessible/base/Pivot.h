@@ -43,7 +43,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 HyperTextAccessible
@@ -163,11 +163,11 @@ PivotRule
 aRule
 )
 ;
-Accessible
+LocalAccessible
 *
 NextText
 (
-Accessible
+LocalAccessible
 *
 aAnchor
 int32_t
@@ -180,11 +180,11 @@ int32_t
 aBoundaryType
 )
 ;
-Accessible
+LocalAccessible
 *
 PrevText
 (
-Accessible
+LocalAccessible
 *
 aAnchor
 int32_t
@@ -255,7 +255,7 @@ HyperTextAccessible
 *
 SearchForText
 (
-Accessible
+LocalAccessible
 *
 aAnchor
 bool

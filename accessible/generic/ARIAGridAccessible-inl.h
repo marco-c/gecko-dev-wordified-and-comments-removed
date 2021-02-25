@@ -38,13 +38,13 @@ ARIAGridCellAccessible
 :
 RowIndexFor
 (
-Accessible
+LocalAccessible
 *
 aRow
 )
 const
 {
-Accessible
+LocalAccessible
 *
 table
 =
@@ -66,7 +66,7 @@ rowIdx
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 row
 =

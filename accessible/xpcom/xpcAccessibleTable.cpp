@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -1268,7 +1268,7 @@ rv
 ;
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 XPC_TABLE_DEFAULT_SIZE
 >
@@ -1310,7 +1310,7 @@ idx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 cell
 =

@@ -156,7 +156,7 @@ aTarget
 void
 HandlePopupShownEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -213,7 +213,7 @@ endif
 inline
 RootAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsRoot

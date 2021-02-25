@@ -11,7 +11,7 @@ mozilla
 /
 a11y
 /
-Accessible
+LocalAccessible
 .
 h
 "
@@ -58,7 +58,7 @@ public
 MOZ_IMPLICIT
 AccessibleOrProxy
 (
-Accessible
+LocalAccessible
 *
 aAcc
 )
@@ -186,7 +186,7 @@ IsProxy
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 AsAccessible
 (
@@ -203,7 +203,7 @@ IsAccessible
 return
 reinterpret_cast
 <
-Accessible
+LocalAccessible
 *
 >
 (
@@ -574,7 +574,7 @@ int32_t
 aX
 int32_t
 aY
-Accessible
+LocalAccessible
 :
 :
 EWhichChildAtPoint

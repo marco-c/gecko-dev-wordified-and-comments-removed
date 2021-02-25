@@ -1428,7 +1428,7 @@ currLevel
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =

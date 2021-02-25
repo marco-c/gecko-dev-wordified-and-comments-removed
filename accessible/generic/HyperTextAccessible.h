@@ -233,7 +233,7 @@ virtual
 bool
 RemoveChild
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -245,7 +245,7 @@ InsertChildAt
 (
 uint32_t
 aIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -300,7 +300,7 @@ EmbeddedChildCount
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 LinkAt
 (
@@ -318,7 +318,7 @@ aIndex
 int32_t
 LinkIndexOf
 (
-Accessible
+LocalAccessible
 *
 aLink
 )
@@ -337,7 +337,7 @@ uint32_t
 aOffset
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -376,7 +376,7 @@ const
 uint32_t
 TransformOffset
 (
-Accessible
+LocalAccessible
 *
 aDescendant
 uint32_t
@@ -474,7 +474,7 @@ childIdx
 return
 false
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -685,7 +685,7 @@ int32_t
 GetChildOffset
 (
 const
-Accessible
+LocalAccessible
 *
 aChild
 bool
@@ -740,7 +740,7 @@ aOffset
 )
 const
 ;
-Accessible
+LocalAccessible
 *
 GetChildAtOffset
 (
@@ -981,7 +981,7 @@ const
 void
 RangeByChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 TextRange
@@ -1267,7 +1267,7 @@ nsIFrame
 aFrame
 int32_t
 aOffset
-Accessible
+LocalAccessible
 *
 aAccessible
 mozilla
@@ -1322,7 +1322,7 @@ mOffsets
 inline
 HyperTextAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsHyperText

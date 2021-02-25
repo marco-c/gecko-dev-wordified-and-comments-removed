@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -364,7 +364,7 @@ roles
 INTERNAL_FRAME
 ;
 }
-Accessible
+LocalAccessible
 *
 OuterDocAccessible
 :
@@ -400,7 +400,7 @@ aY
 return
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -486,7 +486,7 @@ this
 ;
 #
 endif
-Accessible
+LocalAccessible
 *
 child
 =
@@ -629,7 +629,7 @@ InsertChildAt
 (
 uint32_t
 aIdx
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -752,12 +752,12 @@ OuterDocAccessible
 :
 RemoveChild
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -917,7 +917,7 @@ defined
 (
 XP_WIN
 )
-Accessible
+LocalAccessible
 *
 OuterDocAccessible
 :
@@ -1025,7 +1025,7 @@ return
 result
 ;
 }
-Accessible
+LocalAccessible
 *
 OuterDocAccessible
 :
@@ -1037,7 +1037,7 @@ aIndex
 )
 const
 {
-Accessible
+LocalAccessible
 *
 result
 =

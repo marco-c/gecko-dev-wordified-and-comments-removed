@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -361,7 +361,7 @@ const
 uint64_t
 states
 =
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -528,7 +528,7 @@ return
 itemCount
 ;
 }
-Accessible
+LocalAccessible
 *
 XULListboxAccessible
 :
@@ -591,7 +591,7 @@ element
 return
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -1065,7 +1065,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -1162,7 +1162,7 @@ Item
 index
 )
 ;
-Accessible
+LocalAccessible
 *
 item
 =
@@ -1205,7 +1205,7 @@ cellIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -2060,7 +2060,7 @@ return
 true
 ;
 }
-Accessible
+LocalAccessible
 *
 XULListboxAccessible
 :
@@ -2141,7 +2141,7 @@ if
 inputElm
 )
 {
-Accessible
+LocalAccessible
 *
 input
 =
@@ -2229,7 +2229,7 @@ XULListitemAccessible
 )
 {
 }
-Accessible
+LocalAccessible
 *
 XULListitemAccessible
 :
@@ -2342,7 +2342,7 @@ aName
 const
 {
 return
-Accessible
+LocalAccessible
 :
 :
 NativeName
@@ -2360,7 +2360,7 @@ NativeRole
 )
 const
 {
-Accessible
+LocalAccessible
 *
 list
 =
@@ -2663,7 +2663,7 @@ check
 }
 }
 }
-Accessible
+LocalAccessible
 *
 XULListitemAccessible
 :

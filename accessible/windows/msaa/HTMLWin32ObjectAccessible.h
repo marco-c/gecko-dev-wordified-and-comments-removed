@@ -102,7 +102,7 @@ mHwnd
 ;
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 mNativeAccessible
 ;

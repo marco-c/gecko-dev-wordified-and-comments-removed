@@ -401,7 +401,7 @@ InsertChildAt
 (
 uint32_t
 aIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -455,7 +455,7 @@ RelocateChild
 (
 uint32_t
 aNewIndex
-Accessible
+LocalAccessible
 *
 aChild
 )

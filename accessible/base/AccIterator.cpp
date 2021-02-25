@@ -63,7 +63,7 @@ AccIterator
 AccIterator
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 filters
@@ -118,7 +118,7 @@ tmp
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 AccIterator
 :
@@ -132,7 +132,7 @@ while
 mState
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -240,7 +240,7 @@ IteratorState
 IteratorState
 (
 const
-Accessible
+LocalAccessible
 *
 aParent
 IteratorState
@@ -345,7 +345,7 @@ id
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 RelatedAccIterator
 :
@@ -400,7 +400,7 @@ mRelAttr
 mRelAttr
 )
 {
-Accessible
+LocalAccessible
 *
 related
 =
@@ -459,7 +459,7 @@ DocAccessible
 *
 aDocument
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 LabelFilter
@@ -496,7 +496,7 @@ HTMLLabelIterator
 :
 IsLabel
 (
-Accessible
+LocalAccessible
 *
 aLabel
 )
@@ -544,7 +544,7 @@ GetContent
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLLabelIterator
 :
@@ -553,7 +553,7 @@ Next
 (
 )
 {
-Accessible
+LocalAccessible
 *
 label
 =
@@ -604,7 +604,7 @@ IsWidget
 return
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 walkUp
 =
@@ -728,7 +728,7 @@ _for
 )
 {
 }
-Accessible
+LocalAccessible
 *
 HTMLOutputIterator
 :
@@ -737,7 +737,7 @@ Next
 (
 )
 {
-Accessible
+LocalAccessible
 *
 output
 =
@@ -806,7 +806,7 @@ control
 )
 {
 }
-Accessible
+LocalAccessible
 *
 XULLabelIterator
 :
@@ -815,7 +815,7 @@ Next
 (
 )
 {
-Accessible
+LocalAccessible
 *
 label
 =
@@ -884,7 +884,7 @@ control
 )
 {
 }
-Accessible
+LocalAccessible
 *
 XULDescriptionIterator
 :
@@ -893,7 +893,7 @@ Next
 (
 )
 {
-Accessible
+LocalAccessible
 *
 descr
 =
@@ -1252,7 +1252,7 @@ aID
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 IDRefsIterator
 :
@@ -1278,7 +1278,7 @@ NextElem
 )
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1304,7 +1304,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 SingleAccIterator
 :
@@ -1315,7 +1315,7 @@ Next
 {
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 nextAcc
 ;
@@ -1348,7 +1348,7 @@ return
 nextAcc
 ;
 }
-Accessible
+LocalAccessible
 *
 ItemIterator
 :
@@ -1467,7 +1467,7 @@ mContainerLevel
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeItemIterator
 :

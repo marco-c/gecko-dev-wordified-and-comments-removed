@@ -81,7 +81,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 XULTreeAccessible
-Accessible
+LocalAccessible
 )
 virtual
 void
@@ -121,7 +121,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ChildAtPoint
 (
@@ -135,7 +135,7 @@ aWhichChild
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 LocalChildAt
 (
@@ -169,7 +169,7 @@ SelectedItems
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -185,7 +185,7 @@ SelectedItemCount
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 GetSelectedItem
 (
@@ -260,7 +260,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CurrentItem
 (
@@ -273,14 +273,14 @@ void
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -288,7 +288,7 @@ ContainerWidget
 const
 override
 ;
-Accessible
+LocalAccessible
 *
 GetTreeItemAccessible
 (
@@ -338,7 +338,7 @@ XULTreeAccessible
 virtual
 already_AddRefed
 <
-Accessible
+LocalAccessible
 >
 CreateTreeItemAccessible
 (
@@ -418,7 +418,7 @@ aContent
 DocAccessible
 *
 aDoc
-Accessible
+LocalAccessible
 *
 aParent
 dom
@@ -506,7 +506,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 FocusedChild
 (
@@ -561,7 +561,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -643,7 +643,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 GetSiblingAtOffset
 (
@@ -715,7 +715,7 @@ aContent
 DocAccessible
 *
 aDoc
-Accessible
+LocalAccessible
 *
 aParent
 dom
@@ -817,7 +817,7 @@ aDoc
 protected
 :
 virtual
-Accessible
+LocalAccessible
 *
 GetSiblingAtOffset
 (
@@ -837,7 +837,7 @@ override
 inline
 XULTreeAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsXULTree

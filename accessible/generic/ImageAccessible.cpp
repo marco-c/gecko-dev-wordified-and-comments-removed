@@ -415,7 +415,7 @@ eNameOK
 ENameValueFlag
 nameFlag
 =
-Accessible
+LocalAccessible
 :
 :
 NativeName

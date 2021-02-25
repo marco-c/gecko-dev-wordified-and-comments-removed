@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -294,7 +294,7 @@ const
 uint64_t
 state
 =
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -489,7 +489,7 @@ IsMenuButton
 )
 )
 {
-Accessible
+LocalAccessible
 *
 menuPopup
 =
@@ -534,7 +534,7 @@ return
 false
 ;
 }
-Accessible
+LocalAccessible
 *
 XULButtonAccessible
 :
@@ -993,7 +993,7 @@ aName
 )
 const
 {
-Accessible
+LocalAccessible
 *
 label
 =
@@ -1066,7 +1066,7 @@ ChildCount
 0
 )
 {
-Accessible
+LocalAccessible
 *
 childAcc
 =
@@ -1246,7 +1246,7 @@ states
 FOCUSABLE
 ;
 }
-Accessible
+LocalAccessible
 *
 XULRadioButtonAccessible
 :
@@ -1365,7 +1365,7 @@ return
 true
 ;
 }
-Accessible
+LocalAccessible
 *
 XULRadioGroupAccessible
 :
@@ -1464,7 +1464,7 @@ XULRadioGroupAccessible
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
@@ -1602,7 +1602,7 @@ posInSet
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -1643,7 +1643,7 @@ childIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -1710,7 +1710,7 @@ XULToolbarButtonAccessible
 :
 IsSeparator
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )

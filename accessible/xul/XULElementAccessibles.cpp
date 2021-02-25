@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -317,7 +317,7 @@ aName
 )
 ;
 return
-Accessible
+LocalAccessible
 :
 :
 NativeName
@@ -398,7 +398,7 @@ RelationType
 LABEL_FOR
 )
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -979,7 +979,7 @@ StartOffset
 {
 if
 (
-Accessible
+LocalAccessible
 :
 :
 IsLink
@@ -987,7 +987,7 @@ IsLink
 )
 )
 return
-Accessible
+LocalAccessible
 :
 :
 StartOffset
@@ -1010,7 +1010,7 @@ EndOffset
 {
 if
 (
-Accessible
+LocalAccessible
 :
 :
 IsLink
@@ -1018,7 +1018,7 @@ IsLink
 )
 )
 return
-Accessible
+LocalAccessible
 :
 :
 EndOffset

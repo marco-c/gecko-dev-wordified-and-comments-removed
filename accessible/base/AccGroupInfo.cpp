@@ -46,7 +46,7 @@ AccGroupInfo
 AccGroupInfo
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 role
@@ -96,7 +96,7 @@ mParent
 =
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -207,7 +207,7 @@ idx
 -
 )
 {
-Accessible
+LocalAccessible
 *
 sibling
 =
@@ -404,7 +404,7 @@ idx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 sibling
 =
@@ -614,7 +614,7 @@ roles
 OUTLINEITEM
 )
 {
-Accessible
+LocalAccessible
 *
 parentPrevSibling
 =
@@ -669,7 +669,7 @@ roles
 OUTLINEITEM
 )
 {
-Accessible
+LocalAccessible
 *
 grandParent
 =
@@ -701,7 +701,7 @@ grandParent
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 AccGroupInfo
 :
@@ -709,7 +709,7 @@ AccGroupInfo
 FirstItemOf
 (
 const
-Accessible
+LocalAccessible
 *
 aContainer
 )
@@ -727,7 +727,7 @@ Role
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 item
 =
@@ -951,7 +951,7 @@ AccGroupInfo
 :
 TotalItemCount
 (
-Accessible
+LocalAccessible
 *
 aContainer
 bool
@@ -1042,7 +1042,7 @@ ROW
 :
 if
 (
-Accessible
+LocalAccessible
 *
 table
 =
@@ -1189,7 +1189,7 @@ roles
 PAGETABLIST
 :
 {
-Accessible
+LocalAccessible
 *
 childItem
 =
@@ -1290,14 +1290,14 @@ return
 itemCount
 ;
 }
-Accessible
+LocalAccessible
 *
 AccGroupInfo
 :
 :
 NextItemTo
 (
-Accessible
+LocalAccessible
 *
 aItem
 )
@@ -1341,7 +1341,7 @@ SetSize
 return
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -1385,7 +1385,7 @@ idx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 nextItem
 =

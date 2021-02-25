@@ -549,7 +549,7 @@ mozilla
 /
 a11y
 /
-Accessible
+LocalAccessible
 .
 h
 "
@@ -35296,7 +35296,7 @@ return
 a11y
 :
 :
-Accessible
+LocalAccessible
 *
 acc
 =

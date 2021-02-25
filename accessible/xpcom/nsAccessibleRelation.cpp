@@ -15,7 +15,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -71,7 +71,7 @@ do_CreateInstance
 NS_ARRAY_CONTRACTID
 )
 ;
-Accessible
+LocalAccessible
 *
 targetAcc
 =

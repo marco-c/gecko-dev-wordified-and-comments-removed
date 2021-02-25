@@ -1048,7 +1048,7 @@ MaybeInitWindowEmulation
 void
 SendParentCOMProxy
 (
-Accessible
+LocalAccessible
 *
 aOuterDoc
 )

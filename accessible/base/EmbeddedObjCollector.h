@@ -18,7 +18,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 EmbeddedObjCollector
@@ -35,7 +35,7 @@ EmbeddedObjCollector
 int32_t
 GetIndexAt
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -45,7 +45,7 @@ Count
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 GetAccessibleAt
 (
@@ -55,7 +55,7 @@ aIndex
 ;
 protected
 :
-Accessible
+LocalAccessible
 *
 EnsureNGetObject
 (
@@ -66,7 +66,7 @@ aIndex
 int32_t
 EnsureNGetIndex
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -74,7 +74,7 @@ aAccessible
 explicit
 EmbeddedObjCollector
 (
-Accessible
+LocalAccessible
 *
 aRoot
 )
@@ -92,16 +92,16 @@ mRootChildIdx
 void
 AppendObject
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
 ;
 friend
 class
-Accessible
+LocalAccessible
 ;
-Accessible
+LocalAccessible
 *
 mRoot
 ;
@@ -110,7 +110,7 @@ mRootChildIdx
 ;
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 mObjects

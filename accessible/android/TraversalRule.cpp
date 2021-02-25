@@ -24,14 +24,14 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -142,7 +142,7 @@ android
 "
 )
 ;
-Accessible
+LocalAccessible
 *
 aAccessible
 =
@@ -389,12 +389,12 @@ TraversalRule
 :
 IsSingleLineage
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -440,7 +440,7 @@ case
 :
 if
 (
-Accessible
+LocalAccessible
 *
 bullet
 =
@@ -512,12 +512,12 @@ TraversalRule
 IsListItemBullet
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -563,7 +563,7 @@ TraversalRule
 IsFlatSubtree
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -666,7 +666,7 @@ TraversalRule
 HasName
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -703,7 +703,7 @@ TraversalRule
 :
 LinkMatch
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -767,7 +767,7 @@ TraversalRule
 :
 HeadingMatch
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -816,7 +816,7 @@ TraversalRule
 :
 SectionMatch
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -882,7 +882,7 @@ TraversalRule
 :
 LandmarkMatch
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -917,7 +917,7 @@ TraversalRule
 :
 ControlMatch
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1110,7 +1110,7 @@ TraversalRule
 :
 DefaultMatch
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )

@@ -67,7 +67,7 @@ AnchorCount
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 AnchorAt
 (
@@ -98,7 +98,7 @@ aDoFireEvents
 true
 )
 ;
-Accessible
+LocalAccessible
 *
 GetChildAccessibleFor
 (
@@ -150,7 +150,7 @@ aDescription
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ChildAtPoint
 (
@@ -222,7 +222,7 @@ override
 inline
 HTMLImageMapAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsImageMap

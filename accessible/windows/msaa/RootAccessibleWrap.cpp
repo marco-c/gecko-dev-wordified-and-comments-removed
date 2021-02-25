@@ -474,7 +474,7 @@ return
 CO_E_OBJNOTCONNECTED
 ;
 }
-Accessible
+LocalAccessible
 *
 target
 =
@@ -627,7 +627,7 @@ return
 hr
 ;
 }
-Accessible
+LocalAccessible
 *
 docAcc
 =

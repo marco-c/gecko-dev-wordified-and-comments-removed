@@ -670,7 +670,7 @@ xpcAccessibleDocument
 :
 GetAccessible
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )

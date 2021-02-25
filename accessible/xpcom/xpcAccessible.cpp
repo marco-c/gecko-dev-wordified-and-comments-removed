@@ -1,7 +1,7 @@
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -1970,7 +1970,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -2245,7 +2245,7 @@ rect
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -2380,7 +2380,7 @@ rect
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -2487,7 +2487,7 @@ groupPos
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -3111,7 +3111,7 @@ ChildAtPoint
 (
 aX
 aY
-Accessible
+LocalAccessible
 :
 :
 eDirectChild
@@ -3177,7 +3177,7 @@ ChildAtPoint
 (
 aX
 aY
-Accessible
+LocalAccessible
 :
 :
 eDeepestChild
@@ -3258,7 +3258,7 @@ ChildAtPoint
 (
 aX
 aY
-Accessible
+LocalAccessible
 :
 :
 eDeepestChild
@@ -3938,7 +3938,7 @@ else
 {
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 intl
 =

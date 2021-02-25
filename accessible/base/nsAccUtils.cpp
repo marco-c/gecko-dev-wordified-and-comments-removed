@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -363,7 +363,7 @@ nsAccUtils
 GetDefaultLevel
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -405,7 +405,7 @@ roles
 ROW
 )
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -449,7 +449,7 @@ nsAccUtils
 GetARIAOrDefaultLevel
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1352,14 +1352,14 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 nsAccUtils
 :
 :
 GetSelectableContainer
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 uint64_t
@@ -1389,7 +1389,7 @@ SELECTABLE
 return
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -1448,7 +1448,7 @@ nsAccUtils
 IsDOMAttrTrue
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAtom
@@ -1489,14 +1489,14 @@ eCaseMatters
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 nsAccUtils
 :
 :
 TableFor
 (
-Accessible
+LocalAccessible
 *
 aRow
 )
@@ -1506,7 +1506,7 @@ if
 aRow
 )
 {
-Accessible
+LocalAccessible
 *
 table
 =
@@ -1674,7 +1674,7 @@ OwnerDoc
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -1749,7 +1749,7 @@ int32_t
 aY
 uint32_t
 aCoordinateType
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1849,7 +1849,7 @@ int32_t
 aY
 uint32_t
 aCoordinateType
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1963,12 +1963,12 @@ nsAccUtils
 :
 GetScreenCoordsForParent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -2129,7 +2129,7 @@ nsAccUtils
 :
 IsTextInterfaceSupportCorrect
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -2177,7 +2177,7 @@ childIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -2228,7 +2228,7 @@ nsAccUtils
 :
 TextLength
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -2676,7 +2676,7 @@ nsAccUtils
 IsARIALive
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )

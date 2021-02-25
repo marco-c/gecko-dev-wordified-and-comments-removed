@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -595,7 +595,7 @@ ChildAtPoint
 (
 aX
 aY
-Accessible
+LocalAccessible
 :
 :
 eDeepestChild

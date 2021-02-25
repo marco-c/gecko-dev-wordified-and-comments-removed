@@ -25,7 +25,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 TableAccessible
@@ -91,7 +91,7 @@ ColHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -104,7 +104,7 @@ RowHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -121,7 +121,7 @@ Selected
 ;
 private
 :
-Accessible
+LocalAccessible
 *
 PrevColHeader
 (

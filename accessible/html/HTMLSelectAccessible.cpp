@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -346,7 +346,7 @@ return
 true
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLSelectListAccessible
 :
@@ -424,7 +424,7 @@ HTMLSelectListAccessible
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
@@ -662,14 +662,14 @@ const
 uint64_t
 state
 =
-Accessible
+LocalAccessible
 :
 :
 NativeState
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 select
 =
@@ -839,7 +839,7 @@ states
 :
 OFFSCREEN
 ;
-Accessible
+LocalAccessible
 *
 listAcc
 =
@@ -1025,7 +1025,7 @@ aBoundingFrame
 )
 const
 {
-Accessible
+LocalAccessible
 *
 combobox
 =
@@ -1180,7 +1180,7 @@ aSelect
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLSelectOptionAccessible
 :
@@ -1190,7 +1190,7 @@ ContainerWidget
 )
 const
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -1472,7 +1472,7 @@ HTMLComboboxAccessible
 :
 RemoveChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -1571,7 +1571,7 @@ const
 uint64_t
 state
 =
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -1651,7 +1651,7 @@ Truncate
 (
 )
 ;
-Accessible
+LocalAccessible
 :
 :
 Description
@@ -1670,7 +1670,7 @@ IsEmpty
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 option
 =
@@ -1703,7 +1703,7 @@ aValue
 )
 const
 {
-Accessible
+LocalAccessible
 *
 option
 =
@@ -1924,7 +1924,7 @@ IsDroppedDown
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLComboboxAccessible
 :
@@ -1956,7 +1956,7 @@ HTMLComboboxAccessible
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
@@ -1976,7 +1976,7 @@ aItem
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLComboboxAccessible
 :
@@ -2065,7 +2065,7 @@ HTMLComboboxListAccessible
 :
 HTMLComboboxListAccessible
 (
-Accessible
+LocalAccessible
 *
 aParent
 nsIContent
@@ -2164,7 +2164,7 @@ const
 uint64_t
 state
 =
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -2240,7 +2240,7 @@ aBoundingFrame
 =
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 comboAcc
 =

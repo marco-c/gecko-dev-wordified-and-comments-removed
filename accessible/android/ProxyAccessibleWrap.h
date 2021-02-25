@@ -66,7 +66,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 LocalChildAt
 (

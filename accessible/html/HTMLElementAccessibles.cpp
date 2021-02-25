@@ -700,7 +700,7 @@ HTMLSummaryAccessible
 :
 FromDetails
 (
-Accessible
+LocalAccessible
 *
 details
 )
@@ -756,7 +756,7 @@ i
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =

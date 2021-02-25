@@ -499,7 +499,7 @@ NotificationController
 :
 QueueMutation
 (
-Accessible
+LocalAccessible
 *
 aContainer
 )
@@ -745,7 +745,7 @@ false
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 target
 =
@@ -756,7 +756,7 @@ GetAccessible
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 container
 =
@@ -1740,7 +1740,7 @@ nsIAccessibleEvent
 EVENT_REORDER
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1787,7 +1787,7 @@ event
 break
 ;
 }
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -2001,7 +2001,7 @@ nsIAccessibleEvent
 EVENT_SHOW
 )
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -2103,7 +2103,7 @@ downcast_accEvent
 event
 )
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -2250,7 +2250,7 @@ NotificationController
 :
 ScheduleContentInsertion
 (
-Accessible
+LocalAccessible
 *
 aContainer
 nsTArray
@@ -2669,7 +2669,7 @@ nsDataHashtable
 <
 nsPtrHashKey
 <
-Accessible
+LocalAccessible
 >
 nsTArray
 <
@@ -2718,7 +2718,7 @@ EVENT_SHOW
 continue
 ;
 }
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -3066,7 +3066,7 @@ mDocument
 return
 ;
 }
-Accessible
+LocalAccessible
 *
 target
 =
@@ -3395,7 +3395,7 @@ GetKey
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 textAcc
 =
@@ -3922,7 +3922,7 @@ document
 "
 )
 ;
-Accessible
+LocalAccessible
 *
 container
 =
@@ -4138,7 +4138,7 @@ if
 ownerContent
 )
 {
-Accessible
+LocalAccessible
 *
 outerDocAcc
 =
@@ -4535,7 +4535,7 @@ NextEvent
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 target
 =
@@ -4690,7 +4690,7 @@ IsDefunct
 continue
 ;
 }
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -5043,7 +5043,7 @@ EventMap
 :
 GetEvent
 (
-Accessible
+LocalAccessible
 *
 aTarget
 EventType

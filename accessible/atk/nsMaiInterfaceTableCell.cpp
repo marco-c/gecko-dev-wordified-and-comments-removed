@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -573,7 +573,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 tableAcc
 =
@@ -666,7 +666,7 @@ aCell
 {
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >
@@ -714,7 +714,7 @@ Length
 ;
 for
 (
-Accessible
+LocalAccessible
 *
 header
 :
@@ -872,7 +872,7 @@ aCell
 {
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >
@@ -920,7 +920,7 @@ Length
 ;
 for
 (
-Accessible
+LocalAccessible
 *
 header
 :

@@ -170,7 +170,7 @@ const
 inline
 ImageAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsImage

@@ -7,7 +7,7 @@ mozilla_a11y_AccessibleWrap_h_
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -61,7 +61,7 @@ class
 AccessibleWrap
 :
 public
-Accessible
+LocalAccessible
 {
 public
 :

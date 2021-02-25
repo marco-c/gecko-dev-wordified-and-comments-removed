@@ -17,7 +17,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -475,7 +475,7 @@ ChildCount
 1
 )
 {
-Accessible
+LocalAccessible
 *
 abbr
 =
@@ -754,7 +754,7 @@ Table
 )
 const
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -1004,7 +1004,7 @@ ColHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -1024,7 +1024,7 @@ headers
 ;
 while
 (
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -1146,7 +1146,7 @@ RowHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -1166,7 +1166,7 @@ headers
 ;
 while
 (
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -1553,7 +1553,7 @@ ColIdx
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -1735,7 +1735,7 @@ index
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 table
 =
@@ -1846,13 +1846,13 @@ InsertChildAt
 (
 uint32_t
 aIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
 {
 return
-Accessible
+LocalAccessible
 :
 :
 InsertChildAt
@@ -1918,7 +1918,7 @@ NativeState
 const
 {
 return
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -1946,7 +1946,7 @@ const
 ENameValueFlag
 nameFlag
 =
-Accessible
+LocalAccessible
 :
 :
 NativeName
@@ -1966,7 +1966,7 @@ IsEmpty
 return
 nameFlag
 ;
-Accessible
+LocalAccessible
 *
 caption
 =
@@ -2175,7 +2175,7 @@ return
 rel
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLTableAccessible
 :
@@ -2185,7 +2185,7 @@ Caption
 )
 const
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -2571,7 +2571,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -2701,7 +2701,7 @@ colIdx
 )
 continue
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -2989,7 +2989,7 @@ rowIdx
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 HTMLTableAccessible
 :
@@ -3031,7 +3031,7 @@ aRowIdx
 aColIdx
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -3138,7 +3138,7 @@ aRowIdx
 aColIdx
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -3454,7 +3454,7 @@ aRowIdx
 aColIdx
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -4220,7 +4220,7 @@ Truncate
 (
 )
 ;
-Accessible
+LocalAccessible
 :
 :
 Description
@@ -4239,7 +4239,7 @@ IsEmpty
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 caption
 =

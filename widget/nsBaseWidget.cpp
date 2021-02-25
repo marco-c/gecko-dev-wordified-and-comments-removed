@@ -8225,7 +8225,7 @@ ACCESSIBILITY
 a11y
 :
 :
-Accessible
+LocalAccessible
 *
 nsBaseWidget
 :

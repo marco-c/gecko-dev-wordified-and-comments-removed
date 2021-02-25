@@ -18,7 +18,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 TraversalRule
@@ -63,7 +63,7 @@ private
 bool
 IsSingleLineage
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -72,7 +72,7 @@ bool
 IsFlatSubtree
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -81,7 +81,7 @@ bool
 IsListItemBullet
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -90,7 +90,7 @@ bool
 HasName
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -98,7 +98,7 @@ aAccessible
 uint16_t
 DefaultMatch
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -106,7 +106,7 @@ aAccessible
 uint16_t
 LinkMatch
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -114,7 +114,7 @@ aAccessible
 uint16_t
 HeadingMatch
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -122,7 +122,7 @@ aAccessible
 uint16_t
 ControlMatch
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -130,7 +130,7 @@ aAccessible
 uint16_t
 SectionMatch
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -138,7 +138,7 @@ aAccessible
 uint16_t
 LandmarkMatch
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )

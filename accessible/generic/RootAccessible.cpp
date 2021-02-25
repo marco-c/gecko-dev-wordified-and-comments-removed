@@ -30,7 +30,7 @@ CreateEventA
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -362,7 +362,7 @@ ARIARoleMap
 )
 )
 {
-Accessible
+LocalAccessible
 :
 :
 Name
@@ -1253,7 +1253,7 @@ GetNextSibling
 return
 ;
 }
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -1541,7 +1541,7 @@ accEvent
 return
 ;
 }
-Accessible
+LocalAccessible
 *
 treeItemAcc
 =
@@ -1953,7 +1953,7 @@ DOMMenuItemInactive
 )
 )
 {
-Accessible
+LocalAccessible
 *
 widget
 =
@@ -2055,7 +2055,7 @@ accessible
 eFromUserInput
 )
 ;
-Accessible
+LocalAccessible
 *
 activeItem
 =
@@ -2412,7 +2412,7 @@ RootAccessible
 :
 HandlePopupShownEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -2467,7 +2467,7 @@ roles
 COMBOBOX_LIST
 )
 {
-Accessible
+LocalAccessible
 *
 combobox
 =
@@ -2559,7 +2559,7 @@ aria_activedescendant
 )
 )
 {
-Accessible
+LocalAccessible
 *
 activeDescendant
 =
@@ -2684,7 +2684,7 @@ AsContent
 return
 ;
 }
-Accessible
+LocalAccessible
 *
 popup
 =
@@ -2702,7 +2702,7 @@ if
 popup
 )
 {
-Accessible
+LocalAccessible
 *
 popupContainer
 =
@@ -2747,7 +2747,7 @@ idx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -2804,7 +2804,7 @@ notifyOf
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 widget
 =
@@ -2925,7 +2925,7 @@ IsMenuButton
 )
 )
 {
-Accessible
+LocalAccessible
 *
 compositeWidget
 =

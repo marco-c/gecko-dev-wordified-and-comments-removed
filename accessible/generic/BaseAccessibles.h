@@ -51,7 +51,7 @@ LeafAccessible
 AccessibleWrap
 )
 virtual
-Accessible
+LocalAccessible
 *
 ChildAtPoint
 (
@@ -69,7 +69,7 @@ InsertChildAt
 (
 uint32_t
 aIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -78,7 +78,7 @@ final
 bool
 RemoveChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -209,7 +209,7 @@ const
 override
 ;
 const
-Accessible
+LocalAccessible
 *
 ActionWalk
 (
@@ -301,7 +301,7 @@ aPtr
 override
 {
 return
-Accessible
+LocalAccessible
 :
 :
 QueryInterface

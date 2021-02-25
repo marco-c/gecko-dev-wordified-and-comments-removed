@@ -391,7 +391,7 @@ GroupPos
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 ApplicationAccessible
 :
@@ -410,7 +410,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 ApplicationAccessible
 :
@@ -419,7 +419,7 @@ FocusedChild
 (
 )
 {
-Accessible
+LocalAccessible
 *
 focus
 =
@@ -691,7 +691,7 @@ docNode
 }
 }
 }
-Accessible
+LocalAccessible
 *
 ApplicationAccessible
 :

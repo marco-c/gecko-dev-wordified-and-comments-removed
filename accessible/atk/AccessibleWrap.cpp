@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -901,7 +901,7 @@ DocAccessible
 aDoc
 )
 :
-Accessible
+LocalAccessible
 (
 aContent
 aDoc
@@ -1004,7 +1004,7 @@ ShutdownAtkObject
 (
 )
 ;
-Accessible
+LocalAccessible
 :
 :
 Shutdown
@@ -1156,7 +1156,7 @@ AccessibleWrap
 :
 GetAtkObject
 (
-Accessible
+LocalAccessible
 *
 acc
 )
@@ -3138,7 +3138,7 @@ AtkAttributeSet
 *
 GetAttributeSet
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -3698,7 +3698,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 accChild
 =
@@ -3956,7 +3956,7 @@ return
 1
 ;
 }
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -4238,7 +4238,7 @@ UpdateAtkRelation
 (
 RelationType
 aType
-Accessible
+LocalAccessible
 *
 aAcc
 AtkRelationType
@@ -4296,7 +4296,7 @@ AtkObject
 >
 targets
 ;
-Accessible
+LocalAccessible
 *
 tempAcc
 =
@@ -4772,7 +4772,7 @@ if
 isMAIObject
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -5389,7 +5389,7 @@ aEvent
 nsresult
 rv
 =
-Accessible
+LocalAccessible
 :
 :
 HandleAccEvent
@@ -5414,7 +5414,7 @@ return
 NS_OK
 ;
 }
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -6239,7 +6239,7 @@ downcast_accEvent
 aEvent
 )
 ;
-Accessible
+LocalAccessible
 *
 parentAcc
 =
@@ -6375,7 +6375,7 @@ downcast_accEvent
 aEvent
 )
 ;
-Accessible
+LocalAccessible
 *
 parentAcc
 =
@@ -7681,7 +7681,7 @@ AccessibleWrap
 :
 GetKeyBinding
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAString
@@ -7723,7 +7723,7 @@ KeyBinding
 eAtkFormat
 )
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -7955,7 +7955,7 @@ aResult
 keyBindingsStr
 ;
 }
-Accessible
+LocalAccessible
 *
 AccessibleWrap
 :
@@ -7979,7 +7979,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -8045,7 +8045,7 @@ nullptr
 }
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >
@@ -8080,7 +8080,7 @@ headerCells
 ]
 ;
 }
-Accessible
+LocalAccessible
 *
 AccessibleWrap
 :
@@ -8104,7 +8104,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -8170,7 +8170,7 @@ nullptr
 }
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >

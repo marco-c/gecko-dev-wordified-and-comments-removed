@@ -147,7 +147,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 DocAccessible
-Accessible
+LocalAccessible
 )
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIACCESSIBLEPIVOTOBSERVER
@@ -246,7 +246,7 @@ aDescription
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 FocusedChild
 (
@@ -584,7 +584,7 @@ FireDelayedEvent
 (
 uint32_t
 aEventType
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -592,7 +592,7 @@ aTarget
 void
 FireEventsOnInsertion
 (
-Accessible
+LocalAccessible
 *
 aContainer
 )
@@ -600,12 +600,12 @@ aContainer
 void
 MaybeNotifyOfValueChange
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
 ;
-Accessible
+LocalAccessible
 *
 AnchorJump
 (
@@ -676,7 +676,7 @@ Args
 aArgs
 )
 ;
-Accessible
+LocalAccessible
 *
 GetAccessible
 (
@@ -686,7 +686,7 @@ aNode
 )
 const
 ;
-Accessible
+LocalAccessible
 *
 GetAccessibleEvenIfNotInMap
 (
@@ -696,7 +696,7 @@ aNode
 )
 const
 ;
-Accessible
+LocalAccessible
 *
 GetAccessibleEvenIfNotInMapOrContainer
 (
@@ -722,7 +722,7 @@ aNode
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 GetAccessibleByUniqueID
 (
@@ -749,7 +749,7 @@ aUniqueID
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 GetAccessibleByUniqueIDInSubtree
 (
@@ -758,7 +758,7 @@ void
 aUniqueID
 )
 ;
-Accessible
+LocalAccessible
 *
 GetAccessibleOrContainer
 (
@@ -772,7 +772,7 @@ false
 )
 const
 ;
-Accessible
+LocalAccessible
 *
 GetContainerAccessible
 (
@@ -798,7 +798,7 @@ GetParentNode
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 AccessibleOrTrueContainer
 (
@@ -812,7 +812,7 @@ false
 )
 const
 ;
-Accessible
+LocalAccessible
 *
 GetAccessibleOrDescendant
 (
@@ -822,11 +822,11 @@ aNode
 )
 const
 ;
-Accessible
+LocalAccessible
 *
 ARIAOwnedAt
 (
-Accessible
+LocalAccessible
 *
 aParent
 uint32_t
@@ -838,7 +838,7 @@ nsTArray
 <
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 >
 *
@@ -873,7 +873,7 @@ nullptr
 uint32_t
 ARIAOwnedCount
 (
-Accessible
+LocalAccessible
 *
 aParent
 )
@@ -883,7 +883,7 @@ nsTArray
 <
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 >
 *
@@ -936,7 +936,7 @@ aID
 void
 BindToDocument
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 const
@@ -948,7 +948,7 @@ aRoleMapEntry
 void
 UnbindFromDocument
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -967,7 +967,7 @@ aEndChildNode
 void
 ContentRemoved
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1131,7 +1131,7 @@ aChildDocument
 void
 AddDependentIDsFor
 (
-Accessible
+LocalAccessible
 *
 aRelProvider
 nsAtom
@@ -1144,7 +1144,7 @@ nullptr
 void
 RemoveDependentIDsFor
 (
-Accessible
+LocalAccessible
 *
 aRelProvider
 nsAtom
@@ -1174,7 +1174,7 @@ aAttribute
 void
 AttributeChangedImpl
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 int32_t
@@ -1189,7 +1189,7 @@ aModType
 void
 ARIAAttributeChanged
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAtom
@@ -1200,7 +1200,7 @@ aAttribute
 void
 ARIAActiveDescendantChanged
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1208,7 +1208,7 @@ aAccessible
 void
 ProcessContentInserted
 (
-Accessible
+LocalAccessible
 *
 aContainer
 const
@@ -1226,7 +1226,7 @@ aInsertedContent
 void
 ProcessContentInserted
 (
-Accessible
+LocalAccessible
 *
 aContainer
 nsIContent
@@ -1242,7 +1242,7 @@ ProcessInvalidationList
 void
 DoARIAOwnsRelocation
 (
-Accessible
+LocalAccessible
 *
 aOwner
 )
@@ -1254,7 +1254,7 @@ nsTArray
 <
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 >
 *
@@ -1266,10 +1266,10 @@ aStartIdx
 bool
 MoveChild
 (
-Accessible
+LocalAccessible
 *
 aChild
-Accessible
+LocalAccessible
 *
 aNewParent
 int32_t
@@ -1279,10 +1279,10 @@ aIdxInParent
 void
 CacheChildrenInSubtree
 (
-Accessible
+LocalAccessible
 *
 aRoot
-Accessible
+LocalAccessible
 *
 *
 aFocusedAcc
@@ -1293,7 +1293,7 @@ nullptr
 void
 CreateSubtree
 (
-Accessible
+LocalAccessible
 *
 aRoot
 )
@@ -1301,7 +1301,7 @@ aRoot
 void
 UncacheChildrenInSubtree
 (
-Accessible
+LocalAccessible
 *
 aRoot
 )
@@ -1309,7 +1309,7 @@ aRoot
 void
 ShutdownChildrenInSubtree
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1395,7 +1395,7 @@ nsPtrHashKey
 const
 nsINode
 >
-Accessible
+LocalAccessible
 *
 >
 mNodeToAccessibleMap
@@ -1625,13 +1625,13 @@ nsClassHashtable
 <
 nsPtrHashKey
 <
-Accessible
+LocalAccessible
 >
 nsTArray
 <
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 >
 >
@@ -1677,7 +1677,7 @@ mIPCDoc
 inline
 DocAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsDoc

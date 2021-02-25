@@ -22,7 +22,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 DocAccessiblePlatformExtChild
@@ -3250,7 +3250,7 @@ GetPlatformExtension
 ;
 private
 :
-Accessible
+LocalAccessible
 *
 IdToAccessible
 (
@@ -3261,7 +3261,7 @@ aID
 )
 const
 ;
-Accessible
+LocalAccessible
 *
 IdToAccessibleLink
 (
@@ -3272,7 +3272,7 @@ aID
 )
 const
 ;
-Accessible
+LocalAccessible
 *
 IdToAccessibleSelect
 (

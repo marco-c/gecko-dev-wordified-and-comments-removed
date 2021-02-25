@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -389,7 +389,7 @@ DocAccessible
 aDoc
 )
 :
-Accessible
+LocalAccessible
 (
 aContent
 aDoc
@@ -440,7 +440,7 @@ nullptr
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 AccessibleWrap
-Accessible
+LocalAccessible
 )
 void
 AccessibleWrap
@@ -570,7 +570,7 @@ Clear
 )
 ;
 }
-Accessible
+LocalAccessible
 :
 :
 Shutdown
@@ -1032,7 +1032,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-Accessible
+LocalAccessible
 *
 xpParentAcc
 =
@@ -1865,7 +1865,7 @@ roles
 ROW
 )
 {
-Accessible
+LocalAccessible
 *
 xpParent
 =
@@ -2466,7 +2466,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-Accessible
+LocalAccessible
 *
 focusedAccessible
 =
@@ -2550,7 +2550,7 @@ AccessibleEnumerator
 const
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 &
@@ -2657,7 +2657,7 @@ private
 :
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 mArray
@@ -2995,7 +2995,7 @@ S_OK
 }
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >
@@ -3286,14 +3286,14 @@ mozilla
 NewRunnableMethod
 (
 "
-Accessible
+LocalAccessible
 :
 :
 TakeFocus
 "
 this
 &
-Accessible
+LocalAccessible
 :
 :
 TakeFocus
@@ -3617,7 +3617,7 @@ pvarEndUpAt
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 navAccessible
 =
@@ -3968,7 +3968,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -4591,7 +4591,7 @@ AccessibleWrap
 :
 FireWinEvent
 (
-Accessible
+LocalAccessible
 *
 aTarget
 uint32_t
@@ -4738,7 +4738,7 @@ aEvent
 nsresult
 rv
 =
-Accessible
+LocalAccessible
 :
 :
 HandleAccEvent
@@ -4782,7 +4782,7 @@ IsDefunct
 NS_ERROR_FAILURE
 )
 ;
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -4913,7 +4913,7 @@ AccessibleWrap
 :
 GetChildIDFor
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -5074,7 +5074,7 @@ AccessibleWrap
 :
 GetHWNDFor
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -5161,7 +5161,7 @@ hWnd
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 outerDoc
 =
@@ -5331,7 +5331,7 @@ AccessibleWrap
 :
 NativeAccessible
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -5392,7 +5392,7 @@ msaaAccessible
 ;
 }
 static
-Accessible
+LocalAccessible
 *
 GetAccessibleInSubtree
 (
@@ -5403,7 +5403,7 @@ uint32_t
 aID
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -6028,7 +6028,7 @@ IsProxy
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 xpAcc
 =
@@ -6103,7 +6103,7 @@ Document
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -6167,7 +6167,7 @@ forget
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -6575,7 +6575,7 @@ ElementAt
 i
 )
 ;
-Accessible
+LocalAccessible
 *
 outerDoc
 =
@@ -6781,7 +6781,7 @@ AccessibleWrap
 :
 UpdateSystemCaretFor
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -6882,7 +6882,7 @@ DestroyCaret
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 outerDoc
 =

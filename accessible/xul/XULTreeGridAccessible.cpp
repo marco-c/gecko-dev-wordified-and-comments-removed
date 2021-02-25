@@ -293,7 +293,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -352,7 +352,7 @@ colIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -578,7 +578,7 @@ rowIdx
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 XULTreeGridAccessible
 :
@@ -591,7 +591,7 @@ uint32_t
 aColumnIndex
 )
 {
-Accessible
+LocalAccessible
 *
 row
 =
@@ -679,11 +679,11 @@ Truncate
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 treeColumns
 =
-Accessible
+LocalAccessible
 :
 :
 LocalChildAt
@@ -696,7 +696,7 @@ if
 treeColumns
 )
 {
-Accessible
+LocalAccessible
 *
 treeColumnItem
 =
@@ -1005,7 +1005,7 @@ TABLE
 }
 already_AddRefed
 <
-Accessible
+LocalAccessible
 >
 XULTreeGridAccessible
 :
@@ -1019,7 +1019,7 @@ const
 {
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 accessible
 =
@@ -1060,7 +1060,7 @@ aContent
 DocAccessible
 *
 aDoc
-Accessible
+LocalAccessible
 *
 aTreeAcc
 dom
@@ -1271,7 +1271,7 @@ return
 eNameOK
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeGridRowAccessible
 :
@@ -1432,7 +1432,7 @@ mCol
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeGridRowAccessible
 :
@@ -1924,7 +1924,7 @@ Shutdown
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeGridCellAccessible
 :
@@ -2473,7 +2473,7 @@ Table
 )
 const
 {
-Accessible
+LocalAccessible
 *
 grandParent
 =
@@ -2565,7 +2565,7 @@ ColHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -2586,7 +2586,7 @@ Element
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 headerCell
 =
@@ -3119,7 +3119,7 @@ return
 false
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeGridCellAccessible
 :

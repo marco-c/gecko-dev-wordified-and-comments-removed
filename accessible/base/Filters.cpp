@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -58,7 +58,7 @@ filters
 :
 GetSelected
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -92,7 +92,7 @@ filters
 :
 GetSelectable
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -128,7 +128,7 @@ filters
 :
 GetRow
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -211,7 +211,7 @@ filters
 :
 GetCell
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )

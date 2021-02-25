@@ -28,7 +28,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 xpcAccessibleHyperLink

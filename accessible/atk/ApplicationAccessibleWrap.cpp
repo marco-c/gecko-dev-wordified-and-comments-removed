@@ -232,7 +232,7 @@ EVENT_SHOW
 )
 )
 {
-Accessible
+LocalAccessible
 *
 windowAcc
 =
@@ -265,13 +265,13 @@ windowAcc
 }
 else
 {
-Accessible
+LocalAccessible
 *
 windowAcc
 =
 reinterpret_cast
 <
-Accessible
+LocalAccessible
 *
 >
 (
@@ -499,7 +499,7 @@ InsertChildAt
 (
 uint32_t
 aIdx
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -618,7 +618,7 @@ ApplicationAccessibleWrap
 :
 RemoveChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 )

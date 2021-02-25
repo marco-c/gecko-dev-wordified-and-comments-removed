@@ -50,7 +50,7 @@ aEvent
 bool
 PushNameOrDescriptionChange
 (
-Accessible
+LocalAccessible
 *
 aTarget
 )

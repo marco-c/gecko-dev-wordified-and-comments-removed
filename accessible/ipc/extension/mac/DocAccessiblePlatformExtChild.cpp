@@ -899,7 +899,7 @@ IdToHyperTextAccessibleWrap
 aID
 )
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -1003,7 +1003,7 @@ IPC_OK
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 leaf
 =
@@ -1129,7 +1129,7 @@ texts
 ;
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 containers

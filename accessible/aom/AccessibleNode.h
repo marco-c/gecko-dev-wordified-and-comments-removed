@@ -71,7 +71,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 }
 namespace
@@ -1303,7 +1303,7 @@ RefPtr
 a11y
 :
 :
-Accessible
+LocalAccessible
 >
 mIntl
 ;

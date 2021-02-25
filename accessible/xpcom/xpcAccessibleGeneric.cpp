@@ -97,7 +97,7 @@ IsAccessible
 )
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -205,7 +205,7 @@ proxy
 }
 }
 }
-Accessible
+LocalAccessible
 *
 xpcAccessibleGeneric
 :

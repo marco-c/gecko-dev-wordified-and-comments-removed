@@ -378,7 +378,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -496,7 +496,7 @@ aAccEvent
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CurrentItem
 (

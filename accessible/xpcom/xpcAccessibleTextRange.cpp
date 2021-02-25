@@ -296,7 +296,7 @@ rv
 ;
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 objects
@@ -671,7 +671,7 @@ bool
 aSuccess
 )
 {
-Accessible
+LocalAccessible
 *
 container
 =

@@ -111,7 +111,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CurrentItem
 (
@@ -124,7 +124,7 @@ void
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
@@ -250,7 +250,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -273,14 +273,14 @@ override
 ;
 private
 :
-Accessible
+LocalAccessible
 *
 GetSelect
 (
 )
 const
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -322,7 +322,7 @@ IsListControl
 )
 )
 {
-Accessible
+LocalAccessible
 *
 combobox
 =
@@ -353,14 +353,14 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 GetCombobox
 (
 )
 const
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -402,7 +402,7 @@ IsListControl
 )
 )
 {
-Accessible
+LocalAccessible
 *
 combobox
 =
@@ -620,7 +620,7 @@ virtual
 bool
 RemoveChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -692,7 +692,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CurrentItem
 (
@@ -705,7 +705,7 @@ void
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
@@ -713,7 +713,7 @@ override
 ;
 protected
 :
-Accessible
+LocalAccessible
 *
 SelectedOption
 (
@@ -740,7 +740,7 @@ public
 :
 HTMLComboboxListAccessible
 (
-Accessible
+LocalAccessible
 *
 aParent
 nsIContent

@@ -167,7 +167,7 @@ AccessibleWrap
 >
 mAnchorAcc
 ;
-Accessible
+LocalAccessible
 *
 mCurAcc
 ;

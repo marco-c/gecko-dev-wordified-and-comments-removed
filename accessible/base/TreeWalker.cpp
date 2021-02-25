@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -71,7 +71,7 @@ TreeWalker
 :
 TreeWalker
 (
-Accessible
+LocalAccessible
 *
 aContext
 )
@@ -160,7 +160,7 @@ TreeWalker
 :
 TreeWalker
 (
-Accessible
+LocalAccessible
 *
 aContext
 nsIContent
@@ -338,7 +338,7 @@ TreeWalker
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 TreeWalker
 :
@@ -368,7 +368,7 @@ skipSubtree
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -529,7 +529,7 @@ return
 false
 ;
 }
-Accessible
+LocalAccessible
 *
 child
 =
@@ -593,7 +593,7 @@ return
 false
 ;
 }
-Accessible
+LocalAccessible
 *
 ownedChild
 =
@@ -709,7 +709,7 @@ return
 false
 ;
 }
-Accessible
+LocalAccessible
 *
 TreeWalker
 :
@@ -767,7 +767,7 @@ mPhase
 =
 eAtARIAOwns
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -897,7 +897,7 @@ skipSubtree
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -1076,7 +1076,7 @@ Next
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 TreeWalker
 :
@@ -1271,7 +1271,7 @@ skipSubtree
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -1441,7 +1441,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 TreeWalker
 :
@@ -1458,7 +1458,7 @@ bool
 aSkipSubtree
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =

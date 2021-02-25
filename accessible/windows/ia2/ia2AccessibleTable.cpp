@@ -2338,7 +2338,7 @@ CO_E_OBJNOTCONNECTED
 ;
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 30
 >

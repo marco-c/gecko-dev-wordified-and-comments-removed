@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -40,7 +40,7 @@ Length
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 EmbeddedObjCollector
 :
@@ -51,7 +51,7 @@ uint32_t
 aIndex
 )
 {
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -77,7 +77,7 @@ aIndex
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 EmbeddedObjCollector
 :
@@ -105,7 +105,7 @@ mRootChildIdx
 childCount
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -165,7 +165,7 @@ EmbeddedObjCollector
 :
 EnsureNGetIndex
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -187,7 +187,7 @@ mRootChildIdx
 childCount
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -245,7 +245,7 @@ EmbeddedObjCollector
 :
 GetIndexAt
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -322,7 +322,7 @@ EmbeddedObjCollector
 :
 AppendObject
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )

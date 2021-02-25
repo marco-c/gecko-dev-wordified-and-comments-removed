@@ -21,7 +21,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 AccessibleOrProxy
@@ -509,7 +509,7 @@ xpcAccessible
 }
 private
 :
-Accessible
+LocalAccessible
 *
 Intl
 (

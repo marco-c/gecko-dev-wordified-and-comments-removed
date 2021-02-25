@@ -69,7 +69,7 @@ eDoNotEmit
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -243,7 +243,7 @@ FireEvent
 (
 uint32_t
 aEventType
-Accessible
+LocalAccessible
 *
 aAccessible
 EIsFromUserInput

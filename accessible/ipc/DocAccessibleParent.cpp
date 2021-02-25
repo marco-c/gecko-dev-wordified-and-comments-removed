@@ -4469,7 +4469,7 @@ IsWindowEmulationStarted
 return
 ;
 }
-Accessible
+LocalAccessible
 *
 outerDoc
 =
@@ -4823,7 +4823,7 @@ DocAccessibleParent
 :
 SendParentCOMProxy
 (
-Accessible
+LocalAccessible
 *
 aOuterDoc
 )

@@ -129,7 +129,7 @@ mValueTextLeaf
 inline
 XULLabelAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsXULLabel

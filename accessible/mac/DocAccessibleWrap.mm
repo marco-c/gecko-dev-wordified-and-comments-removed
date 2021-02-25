@@ -142,7 +142,7 @@ nsGkAtoms
 aria_live
 )
 {
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -421,7 +421,7 @@ DocAccessibleWrap
 :
 QueueNewLiveRegion
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -483,7 +483,7 @@ Next
 {
 if
 (
-Accessible
+LocalAccessible
 *
 liveRegion
 =

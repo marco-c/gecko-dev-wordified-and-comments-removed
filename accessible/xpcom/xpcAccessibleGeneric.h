@@ -35,7 +35,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -69,7 +69,7 @@ public
 explicit
 xpcAccessibleGeneric
 (
-Accessible
+LocalAccessible
 *
 aInternal
 )
@@ -146,7 +146,7 @@ aInterfaces
 {
 }
 NS_DECL_ISUPPORTS
-Accessible
+LocalAccessible
 *
 ToInternalAccessible
 (
@@ -206,7 +206,7 @@ private
 :
 friend
 class
-Accessible
+LocalAccessible
 ;
 friend
 class
@@ -248,7 +248,7 @@ delete
 }
 ;
 inline
-Accessible
+LocalAccessible
 *
 xpcAccessible
 :
@@ -322,7 +322,7 @@ mIntl
 ;
 }
 inline
-Accessible
+LocalAccessible
 *
 xpcAccessibleSelectable
 :

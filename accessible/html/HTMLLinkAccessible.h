@@ -164,7 +164,7 @@ eAction_Jump
 inline
 HTMLLinkAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsHTMLLink

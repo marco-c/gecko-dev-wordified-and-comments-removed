@@ -1,7 +1,7 @@
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -575,11 +575,11 @@ a11y
 ;
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-Accessible
+LocalAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
-Accessible
+LocalAccessible
 )
 tmp
 -
@@ -591,7 +591,7 @@ Shutdown
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
-Accessible
+LocalAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -601,33 +601,33 @@ mDoc
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
-Accessible
+LocalAccessible
 )
 NS_INTERFACE_MAP_ENTRY_CONCRETE
 (
-Accessible
+LocalAccessible
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-Accessible
+LocalAccessible
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
-Accessible
+LocalAccessible
 )
 NS_IMPL_CYCLE_COLLECTING_RELEASE_WITH_DESTROY
 (
-Accessible
+LocalAccessible
 LastRelease
 (
 )
 )
-Accessible
+LocalAccessible
 :
 :
-Accessible
+LocalAccessible
 (
 nsIContent
 *
@@ -704,11 +704,11 @@ mIndexOfEmbeddedChild
 1
 ;
 }
-Accessible
+LocalAccessible
 :
 :
 ~
-Accessible
+LocalAccessible
 (
 )
 {
@@ -729,7 +729,7 @@ called
 ;
 }
 ENameValueFlag
-Accessible
+LocalAccessible
 :
 :
 Name
@@ -964,7 +964,7 @@ nameFlag
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 Description
@@ -1188,7 +1188,7 @@ Truncate
 }
 }
 KeyBinding
-Accessible
+LocalAccessible
 :
 :
 AccessKey
@@ -1233,7 +1233,7 @@ IsElement
 )
 )
 {
-Accessible
+LocalAccessible
 *
 label
 =
@@ -1554,7 +1554,7 @@ KeyBinding
 ;
 }
 KeyBinding
-Accessible
+LocalAccessible
 :
 :
 KeyboardShortcut
@@ -1569,7 +1569,7 @@ KeyBinding
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 TranslateString
@@ -1683,7 +1683,7 @@ xsValue
 ;
 }
 uint64_t
-Accessible
+LocalAccessible
 :
 :
 VisibilityState
@@ -2159,7 +2159,7 @@ return
 ;
 }
 uint64_t
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -2496,7 +2496,7 @@ state
 ;
 }
 uint64_t
-Accessible
+LocalAccessible
 :
 :
 NativeInteractiveState
@@ -2560,7 +2560,7 @@ return
 ;
 }
 uint64_t
-Accessible
+LocalAccessible
 :
 :
 NativeLinkState
@@ -2573,7 +2573,7 @@ return
 ;
 }
 bool
-Accessible
+LocalAccessible
 :
 :
 NativelyUnavailable
@@ -2635,16 +2635,16 @@ eCaseMatters
 )
 ;
 }
-Accessible
+LocalAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 FocusedChild
 (
 )
 {
-Accessible
+LocalAccessible
 *
 focus
 =
@@ -2689,9 +2689,9 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 ChildAtPoint
@@ -2704,7 +2704,7 @@ EWhichChildAtPoint
 aWhichChild
 )
 {
-Accessible
+LocalAccessible
 *
 fallbackAnswer
 =
@@ -2903,7 +2903,7 @@ OwnerDoc
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 popupAcc
 =
@@ -2920,7 +2920,7 @@ GetContent
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 popupChild
 =
@@ -3109,7 +3109,7 @@ contentDocAcc
 return
 fallbackAnswer
 ;
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -3129,7 +3129,7 @@ accessible
 return
 fallbackAnswer
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -3143,7 +3143,7 @@ child
 this
 )
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -3211,7 +3211,7 @@ childIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -3292,7 +3292,7 @@ accessible
 ;
 }
 nsRect
-Accessible
+LocalAccessible
 :
 :
 RelativeBounds
@@ -3482,7 +3482,7 @@ nsRect
 ;
 }
 nsRect
-Accessible
+LocalAccessible
 :
 :
 BoundsInAppUnits
@@ -3601,7 +3601,7 @@ unionRectTwips
 ;
 }
 nsIntRect
-Accessible
+LocalAccessible
 :
 :
 Bounds
@@ -3631,7 +3631,7 @@ AppUnitsPerDevPixel
 ;
 }
 nsIntRect
-Accessible
+LocalAccessible
 :
 :
 BoundsInCSSPixels
@@ -3653,7 +3653,7 @@ AppUnitsPerCSSPixel
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 SetSelected
@@ -3671,7 +3671,7 @@ HasOwnContent
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 select
 =
@@ -3786,14 +3786,14 @@ TakeFocus
 }
 }
 void
-Accessible
+LocalAccessible
 :
 :
 TakeSelection
 (
 )
 {
-Accessible
+LocalAccessible
 *
 select
 =
@@ -3842,7 +3842,7 @@ true
 }
 }
 void
-Accessible
+LocalAccessible
 :
 :
 TakeFocus
@@ -3882,7 +3882,7 @@ IsFocusable
 )
 )
 {
-Accessible
+LocalAccessible
 *
 widget
 =
@@ -4010,7 +4010,7 @@ element
 }
 }
 void
-Accessible
+LocalAccessible
 :
 :
 NameFromAssociatedXULLabel
@@ -4026,7 +4026,7 @@ nsString
 aName
 )
 {
-Accessible
+LocalAccessible
 *
 label
 =
@@ -4105,7 +4105,7 @@ CompressWhitespace
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 XULElmName
@@ -4189,7 +4189,7 @@ CompressWhitespace
 ;
 }
 nsresult
-Accessible
+LocalAccessible
 :
 :
 HandleAccEvent
@@ -4711,7 +4711,7 @@ downcast_accEvent
 aEvent
 )
 ;
-Accessible
+LocalAccessible
 *
 position
 =
@@ -4722,7 +4722,7 @@ NewAccessible
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 oldPosition
 =
@@ -5030,7 +5030,7 @@ ElementAt
 i
 )
 ;
-Accessible
+LocalAccessible
 *
 start
 =
@@ -5040,7 +5040,7 @@ StartContainer
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 end
 =
@@ -5201,7 +5201,7 @@ already_AddRefed
 <
 nsIPersistentProperties
 >
-Accessible
+LocalAccessible
 :
 :
 Attributes
@@ -5460,7 +5460,7 @@ already_AddRefed
 <
 nsIPersistentProperties
 >
-Accessible
+LocalAccessible
 :
 :
 NativeAttributes
@@ -6088,7 +6088,7 @@ forget
 ;
 }
 GroupPos
-Accessible
+LocalAccessible
 :
 :
 GroupPosition
@@ -6327,7 +6327,7 @@ groupPos
 ;
 }
 uint64_t
-Accessible
+LocalAccessible
 :
 :
 State
@@ -6465,7 +6465,7 @@ RelationType
 LABEL_FOR
 )
 ;
-Accessible
+LocalAccessible
 *
 relTarget
 =
@@ -6534,7 +6534,7 @@ states
 FOCUSED
 )
 {
-Accessible
+LocalAccessible
 *
 container
 =
@@ -6644,7 +6644,7 @@ states
 :
 SENSITIVE
 ;
-Accessible
+LocalAccessible
 *
 widget
 =
@@ -6766,7 +6766,7 @@ state
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 ApplyARIAState
@@ -6863,7 +6863,7 @@ HasID
 )
 {
 const
-Accessible
+LocalAccessible
 *
 ancestor
 =
@@ -6951,7 +6951,7 @@ FOCUSABLE
 )
 {
 const
-Accessible
+LocalAccessible
 *
 ancestor
 =
@@ -7241,7 +7241,7 @@ if
 table
 )
 {
-Accessible
+LocalAccessible
 *
 grid
 =
@@ -7282,7 +7282,7 @@ READONLY
 }
 }
 void
-Accessible
+LocalAccessible
 :
 :
 Value
@@ -7431,7 +7431,7 @@ combobox
 )
 )
 {
-Accessible
+LocalAccessible
 *
 option
 =
@@ -7468,7 +7468,7 @@ idx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -7520,7 +7520,7 @@ aValue
 }
 }
 double
-Accessible
+LocalAccessible
 :
 :
 MaxValue
@@ -7557,7 +7557,7 @@ checkValue
 ;
 }
 double
-Accessible
+LocalAccessible
 :
 :
 MinValue
@@ -7594,7 +7594,7 @@ checkValue
 ;
 }
 double
-Accessible
+LocalAccessible
 :
 :
 Step
@@ -7612,7 +7612,7 @@ double
 ;
 }
 double
-Accessible
+LocalAccessible
 :
 :
 CurValue
@@ -7673,7 +7673,7 @@ checkValue
 ;
 }
 bool
-Accessible
+LocalAccessible
 :
 :
 SetCurValue
@@ -7826,7 +7826,7 @@ true
 ;
 }
 role
-Accessible
+LocalAccessible
 :
 :
 ARIATransformRole
@@ -7988,7 +7988,7 @@ RelationType
 NODE_CHILD_OF
 )
 ;
-Accessible
+LocalAccessible
 *
 targetAcc
 =
@@ -8191,7 +8191,7 @@ aRole
 }
 nsAtom
 *
-Accessible
+LocalAccessible
 :
 :
 LandmarkRole
@@ -8229,7 +8229,7 @@ nullptr
 ;
 }
 role
-Accessible
+LocalAccessible
 :
 :
 NativeRole
@@ -8245,7 +8245,7 @@ NOTHING
 ;
 }
 uint8_t
-Accessible
+LocalAccessible
 :
 :
 ActionCount
@@ -8267,7 +8267,7 @@ eNoAction
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 ActionNameAt
@@ -8552,7 +8552,7 @@ return
 }
 }
 bool
-Accessible
+LocalAccessible
 :
 :
 DoAction
@@ -8596,7 +8596,7 @@ false
 }
 nsIContent
 *
-Accessible
+LocalAccessible
 :
 :
 GetAtomicRegion
@@ -8675,7 +8675,7 @@ nullptr
 ;
 }
 Relation
-Accessible
+LocalAccessible
 :
 :
 RelationByType
@@ -9034,7 +9034,7 @@ doc
 =
 const_cast
 <
-Accessible
+LocalAccessible
 *
 >
 (
@@ -9404,7 +9404,7 @@ Relation
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 currParent
 =
@@ -10044,7 +10044,7 @@ Relation
 }
 }
 void
-Accessible
+LocalAccessible
 :
 :
 GetNativeInterface
@@ -10057,7 +10057,7 @@ aNativeAccessible
 {
 }
 void
-Accessible
+LocalAccessible
 :
 :
 DoCommand
@@ -10085,7 +10085,7 @@ public
 Runnable
 (
 const
-Accessible
+LocalAccessible
 *
 aAcc
 nsIContent
@@ -10169,7 +10169,7 @@ private
 RefPtr
 <
 const
-Accessible
+LocalAccessible
 >
 mAcc
 ;
@@ -10219,7 +10219,7 @@ runnable
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 DispatchClickEvent
@@ -10431,7 +10431,7 @@ widget
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 ScrollToPoint
@@ -10506,7 +10506,7 @@ coords
 }
 }
 void
-Accessible
+LocalAccessible
 :
 :
 AppendTextTo
@@ -10635,7 +10635,7 @@ kEmbeddedObjectChar
 }
 }
 void
-Accessible
+LocalAccessible
 :
 :
 Shutdown
@@ -10748,7 +10748,7 @@ ResetCaretOffset
 }
 }
 void
-Accessible
+LocalAccessible
 :
 :
 ARIAName
@@ -10835,7 +10835,7 @@ CompressWhitespace
 }
 }
 void
-Accessible
+LocalAccessible
 :
 :
 ARIADescription
@@ -10922,7 +10922,7 @@ CompressWhitespace
 }
 }
 ENameValueFlag
-Accessible
+LocalAccessible
 :
 :
 NativeName
@@ -10943,7 +10943,7 @@ IsHTMLElement
 )
 )
 {
-Accessible
+LocalAccessible
 *
 label
 =
@@ -11169,7 +11169,7 @@ eNameOK
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 NativeDescription
@@ -11203,7 +11203,7 @@ Document
 mContent
 )
 ;
-Accessible
+LocalAccessible
 *
 descr
 =
@@ -11242,12 +11242,12 @@ aDescription
 }
 }
 void
-Accessible
+LocalAccessible
 :
 :
 BindToParent
 (
-Accessible
+LocalAccessible
 *
 aParent
 uint32_t
@@ -11501,7 +11501,7 @@ Clear
 }
 }
 void
-Accessible
+LocalAccessible
 :
 :
 UnbindFromParent
@@ -11567,7 +11567,7 @@ eInsideAlert
 }
 RootAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 RootAccessible
@@ -11678,7 +11678,7 @@ nullptr
 }
 nsIFrame
 *
-Accessible
+LocalAccessible
 :
 :
 GetFrame
@@ -11701,7 +11701,7 @@ nullptr
 }
 nsINode
 *
-Accessible
+LocalAccessible
 :
 :
 GetNode
@@ -11718,7 +11718,7 @@ dom
 :
 Element
 *
-Accessible
+LocalAccessible
 :
 :
 Elm
@@ -11740,7 +11740,7 @@ mContent
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 Language
@@ -11802,14 +11802,14 @@ aLanguage
 }
 }
 bool
-Accessible
+LocalAccessible
 :
 :
 InsertChildAt
 (
 uint32_t
 aIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -11928,12 +11928,12 @@ true
 ;
 }
 bool
-Accessible
+LocalAccessible
 :
 :
 RemoveChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -12149,14 +12149,14 @@ true
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 RelocateChild
 (
 uint32_t
 aNewIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -12543,9 +12543,9 @@ true
 )
 ;
 }
-Accessible
+LocalAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 LocalChildAt
@@ -12555,7 +12555,7 @@ aIndex
 )
 const
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -12578,7 +12578,7 @@ nullptr
 #
 ifdef
 DEBUG
-Accessible
+LocalAccessible
 *
 realParent
 =
@@ -12617,7 +12617,7 @@ child
 ;
 }
 uint32_t
-Accessible
+LocalAccessible
 :
 :
 ChildCount
@@ -12634,7 +12634,7 @@ Length
 ;
 }
 int32_t
-Accessible
+LocalAccessible
 :
 :
 IndexInParent
@@ -12647,7 +12647,7 @@ mIndexInParent
 ;
 }
 uint32_t
-Accessible
+LocalAccessible
 :
 :
 EmbeddedChildCount
@@ -12694,9 +12694,9 @@ ChildCount
 )
 ;
 }
-Accessible
+LocalAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 GetEmbeddedChildAt
@@ -12756,12 +12756,12 @@ aIndex
 ;
 }
 int32_t
-Accessible
+LocalAccessible
 :
 :
 GetIndexOfEmbeddedChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -12818,7 +12818,7 @@ aChild
 ;
 }
 bool
-Accessible
+LocalAccessible
 :
 :
 IsLink
@@ -12845,7 +12845,7 @@ IsText
 ;
 }
 uint32_t
-Accessible
+LocalAccessible
 :
 :
 StartOffset
@@ -12899,7 +12899,7 @@ this
 ;
 }
 uint32_t
-Accessible
+LocalAccessible
 :
 :
 EndOffset
@@ -12957,7 +12957,7 @@ this
 ;
 }
 uint32_t
-Accessible
+LocalAccessible
 :
 :
 AnchorCount
@@ -12985,9 +12985,9 @@ return
 1
 ;
 }
-Accessible
+LocalAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AnchorAt
@@ -13028,7 +13028,7 @@ already_AddRefed
 <
 nsIURI
 >
-Accessible
+LocalAccessible
 :
 :
 AnchorURIAt
@@ -13060,7 +13060,7 @@ nullptr
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 ToTextPoint
@@ -13089,7 +13089,7 @@ aContainer
 =
 const_cast
 <
-Accessible
+LocalAccessible
 *
 >
 (
@@ -13122,14 +13122,14 @@ return
 ;
 }
 const
-Accessible
+LocalAccessible
 *
 child
 =
 nullptr
 ;
 const
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -13175,7 +13175,7 @@ aContainer
 =
 const_cast
 <
-Accessible
+LocalAccessible
 *
 >
 (
@@ -13218,14 +13218,14 @@ aIsBefore
 }
 }
 void
-Accessible
+LocalAccessible
 :
 :
 SelectedItems
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -13242,7 +13242,7 @@ filters
 GetSelected
 )
 ;
-Accessible
+LocalAccessible
 *
 selected
 =
@@ -13270,7 +13270,7 @@ selected
 ;
 }
 uint32_t
-Accessible
+LocalAccessible
 :
 :
 SelectedItemCount
@@ -13292,7 +13292,7 @@ filters
 GetSelected
 )
 ;
-Accessible
+LocalAccessible
 *
 selected
 =
@@ -13318,9 +13318,9 @@ return
 count
 ;
 }
-Accessible
+LocalAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 GetSelectedItem
@@ -13339,7 +13339,7 @@ filters
 GetSelected
 )
 ;
-Accessible
+LocalAccessible
 *
 selected
 =
@@ -13376,7 +13376,7 @@ selected
 ;
 }
 bool
-Accessible
+LocalAccessible
 :
 :
 IsItemSelected
@@ -13400,7 +13400,7 @@ filters
 GetSelectable
 )
 ;
-Accessible
+LocalAccessible
 *
 selected
 =
@@ -13445,7 +13445,7 @@ SELECTED
 ;
 }
 bool
-Accessible
+LocalAccessible
 :
 :
 AddItemToSelection
@@ -13469,7 +13469,7 @@ filters
 GetSelectable
 )
 ;
-Accessible
+LocalAccessible
 *
 selected
 =
@@ -13519,7 +13519,7 @@ selected
 ;
 }
 bool
-Accessible
+LocalAccessible
 :
 :
 RemoveItemFromSelection
@@ -13543,7 +13543,7 @@ filters
 GetSelectable
 )
 ;
-Accessible
+LocalAccessible
 *
 selected
 =
@@ -13593,7 +13593,7 @@ selected
 ;
 }
 bool
-Accessible
+LocalAccessible
 :
 :
 SelectAll
@@ -13605,7 +13605,7 @@ success
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 selectable
 =
@@ -13652,7 +13652,7 @@ success
 ;
 }
 bool
-Accessible
+LocalAccessible
 :
 :
 UnselectAll
@@ -13664,7 +13664,7 @@ success
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 selected
 =
@@ -13711,7 +13711,7 @@ success
 ;
 }
 bool
-Accessible
+LocalAccessible
 :
 :
 IsWidget
@@ -13724,7 +13724,7 @@ false
 ;
 }
 bool
-Accessible
+LocalAccessible
 :
 :
 IsActiveWidget
@@ -13796,7 +13796,7 @@ idx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -13847,7 +13847,7 @@ false
 ;
 }
 bool
-Accessible
+LocalAccessible
 :
 :
 AreItemsOperable
@@ -13887,9 +13887,9 @@ aria_activedescendant
 )
 ;
 }
-Accessible
+LocalAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 CurrentItem
@@ -13998,13 +13998,13 @@ nullptr
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
@@ -14062,9 +14062,9 @@ true
 ;
 }
 }
-Accessible
+LocalAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 ContainerWidget
@@ -14089,7 +14089,7 @@ HasID
 {
 for
 (
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -14173,7 +14173,7 @@ nullptr
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 Announce
@@ -14210,7 +14210,7 @@ event
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 LastRelease
@@ -14253,9 +14253,9 @@ delete
 this
 ;
 }
-Accessible
+LocalAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 GetSiblingAtOffset
@@ -14327,7 +14327,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 child
 =
@@ -14359,7 +14359,7 @@ child
 ;
 }
 double
-Accessible
+LocalAccessible
 :
 :
 AttrNumericValue
@@ -14476,7 +14476,7 @@ value
 ;
 }
 uint32_t
-Accessible
+LocalAccessible
 :
 :
 GetActionRule
@@ -14616,7 +14616,7 @@ eNoAction
 }
 AccGroupInfo
 *
-Accessible
+LocalAccessible
 :
 :
 GetGroupInfo
@@ -14705,7 +14705,7 @@ groupInfo
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 MaybeFireFocusableStateChange
@@ -14764,7 +14764,7 @@ focusableChangeEvent
 }
 }
 void
-Accessible
+LocalAccessible
 :
 :
 GetPositionAndSizeInternal
@@ -14813,7 +14813,7 @@ SetSize
 }
 }
 int32_t
-Accessible
+LocalAccessible
 :
 :
 GetLevelInternal
@@ -14866,7 +14866,7 @@ level
 =
 1
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -14943,7 +14943,7 @@ level
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -15057,7 +15057,7 @@ siblingIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 sibling
 =
@@ -15069,7 +15069,7 @@ LocalChildAt
 siblingIdx
 )
 ;
-Accessible
+LocalAccessible
 *
 siblingChild
 =
@@ -15149,7 +15149,7 @@ level
 =
 1
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -15205,7 +15205,7 @@ level
 ;
 }
 void
-Accessible
+LocalAccessible
 :
 :
 StaticAsserts
@@ -15227,7 +15227,7 @@ kStateFlagsBits
 -
 1
 "
-Accessible
+LocalAccessible
 :
 :
 mStateFlags
@@ -15253,7 +15253,7 @@ kTypeBits
 -
 1
 "
-Accessible
+LocalAccessible
 :
 :
 mType
@@ -15279,7 +15279,7 @@ kContextFlagsBits
 -
 1
 "
-Accessible
+LocalAccessible
 :
 :
 mContextFlags
@@ -15305,7 +15305,7 @@ kGenericTypesBits
 -
 1
 "
-Accessible
+LocalAccessible
 :
 :
 mGenericType

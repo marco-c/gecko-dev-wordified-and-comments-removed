@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -347,7 +347,7 @@ true
 }
 else
 {
-Accessible
+LocalAccessible
 *
 link
 =
@@ -439,7 +439,7 @@ IsHTMLListItem
 )
 )
 {
-Accessible
+LocalAccessible
 *
 bullet
 =
@@ -606,7 +606,7 @@ true
 }
 else
 {
-Accessible
+LocalAccessible
 *
 link
 =
@@ -766,7 +766,7 @@ i
 +
 )
 {
-Accessible
+LocalAccessible
 *
 link
 =
@@ -975,7 +975,7 @@ IsHTMLListItem
 )
 )
 {
-Accessible
+LocalAccessible
 *
 maybeBullet
 =
@@ -991,7 +991,7 @@ if
 maybeBullet
 )
 {
-Accessible
+LocalAccessible
 *
 bullet
 =
@@ -1097,7 +1097,7 @@ nsIPersistentProperties
 aProperties
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 &
@@ -1118,7 +1118,7 @@ IsHTMLListItem
 )
 )
 {
-Accessible
+LocalAccessible
 *
 maybeBullet
 =
@@ -1134,7 +1134,7 @@ if
 maybeBullet
 )
 {
-Accessible
+LocalAccessible
 *
 bullet
 =
@@ -2714,7 +2714,7 @@ HyperTextAccessibleWrap
 :
 RangeOfChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 int32_t
@@ -2784,7 +2784,7 @@ index
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 HyperTextAccessibleWrap
 :
@@ -2801,7 +2801,7 @@ text
 =
 this
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -2997,7 +2997,7 @@ iter
 .
 mCurrentContainer
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -3594,7 +3594,7 @@ EditableRoot
 (
 )
 {
-Accessible
+LocalAccessible
 *
 editable
 =
@@ -3602,7 +3602,7 @@ nullptr
 ;
 for
 (
-Accessible
+LocalAccessible
 *
 acc
 =

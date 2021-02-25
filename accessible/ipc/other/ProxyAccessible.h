@@ -7,7 +7,7 @@ mozilla_a11y_ProxyAccessible_h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "

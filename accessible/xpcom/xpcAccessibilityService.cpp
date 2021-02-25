@@ -742,7 +742,7 @@ return
 NS_ERROR_SERVICE_NOT_AVAILABLE
 ;
 }
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -832,7 +832,7 @@ aPivot
 =
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 accessibleRoot
 =

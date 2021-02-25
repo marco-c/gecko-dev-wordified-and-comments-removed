@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -715,7 +715,7 @@ unusedSetSize
 ;
 }
 return
-Accessible
+LocalAccessible
 :
 :
 RelationByType
@@ -993,7 +993,7 @@ const
 ENameValueFlag
 nameFlag
 =
-Accessible
+LocalAccessible
 :
 :
 NativeName
@@ -1443,7 +1443,7 @@ const
 ENameValueFlag
 nameFlag
 =
-Accessible
+LocalAccessible
 :
 :
 NativeName
@@ -1835,7 +1835,7 @@ return
 state
 ;
 }
-Accessible
+LocalAccessible
 *
 widget
 =
@@ -2188,7 +2188,7 @@ return
 true
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLTextFieldAccessible
 :
@@ -2366,7 +2366,7 @@ INVALID
 )
 )
 {
-Accessible
+LocalAccessible
 *
 button
 =
@@ -2438,7 +2438,7 @@ return
 NS_OK
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLFileInputAccessible
 :
@@ -2450,7 +2450,7 @@ const
 {
 if
 (
-Accessible
+LocalAccessible
 *
 item
 =
@@ -2466,7 +2466,7 @@ return
 item
 ;
 }
-Accessible
+LocalAccessible
 *
 button
 =
@@ -3243,7 +3243,7 @@ const
 ENameValueFlag
 nameFlag
 =
-Accessible
+LocalAccessible
 :
 :
 NativeName
@@ -3399,7 +3399,7 @@ LABEL_FOR
 return
 rel
 ;
-Accessible
+LocalAccessible
 *
 groupbox
 =
@@ -3698,7 +3698,7 @@ LABEL_FOR
 return
 rel
 ;
-Accessible
+LocalAccessible
 *
 figure
 =

@@ -128,7 +128,7 @@ SelectedItems
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -204,7 +204,7 @@ element
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 item
 =
@@ -270,7 +270,7 @@ if
 element
 )
 {
-Accessible
+LocalAccessible
 *
 item
 =
@@ -297,7 +297,7 @@ item
 }
 }
 }
-Accessible
+LocalAccessible
 *
 XULSelectControlAccessible
 :
@@ -509,7 +509,7 @@ uint32_t
 aIndex
 )
 {
-Accessible
+LocalAccessible
 *
 item
 =
@@ -663,7 +663,7 @@ uint32_t
 aIndex
 )
 {
-Accessible
+LocalAccessible
 *
 item
 =
@@ -813,7 +813,7 @@ uint32_t
 aIndex
 )
 {
-Accessible
+LocalAccessible
 *
 item
 =
@@ -998,7 +998,7 @@ return
 false
 ;
 }
-Accessible
+LocalAccessible
 *
 XULSelectControlAccessible
 :
@@ -1008,7 +1008,7 @@ CurrentItem
 )
 const
 {
-Accessible
+LocalAccessible
 *
 current
 =
@@ -1146,7 +1146,7 @@ XULSelectControlAccessible
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )

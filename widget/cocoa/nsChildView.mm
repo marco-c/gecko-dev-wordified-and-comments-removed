@@ -9581,7 +9581,7 @@ already_AddRefed
 a11y
 :
 :
-Accessible
+LocalAccessible
 >
 nsChildView
 :
@@ -9624,7 +9624,7 @@ RefPtr
 a11y
 :
 :
-Accessible
+LocalAccessible
 >
 ret
 ;
@@ -9640,7 +9640,7 @@ static_cast
 a11y
 :
 :
-Accessible
+LocalAccessible
 *
 *
 >
@@ -9665,7 +9665,7 @@ RefPtr
 a11y
 :
 :
-Accessible
+LocalAccessible
 >
 acc
 =
@@ -21418,7 +21418,7 @@ RefPtr
 a11y
 :
 :
-Accessible
+LocalAccessible
 >
 accessible
 =

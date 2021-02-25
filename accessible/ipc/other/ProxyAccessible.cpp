@@ -4680,7 +4680,7 @@ int32_t
 aX
 int32_t
 aY
-Accessible
+LocalAccessible
 :
 :
 EWhichChildAtPoint
@@ -4753,7 +4753,7 @@ if
 aWhichChild
 =
 =
-Accessible
+LocalAccessible
 :
 :
 eDirectChild
@@ -4876,7 +4876,7 @@ mOuterDoc
 aWhichChild
 =
 =
-Accessible
+LocalAccessible
 :
 :
 eDeepestChild

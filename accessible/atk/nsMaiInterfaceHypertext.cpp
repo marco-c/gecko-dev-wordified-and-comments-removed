@@ -8,7 +8,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -115,7 +115,7 @@ hyperText
 nullptr
 )
 ;
-Accessible
+LocalAccessible
 *
 hyperLink
 =

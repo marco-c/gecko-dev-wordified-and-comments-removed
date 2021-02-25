@@ -18,7 +18,7 @@ mozilla
 /
 a11y
 /
-Accessible
+LocalAccessible
 .
 h
 "
@@ -84,7 +84,7 @@ AccEvent
 (
 uint32_t
 aEventType
-Accessible
+LocalAccessible
 *
 aAccessible
 EIsFromUserInput
@@ -143,7 +143,7 @@ mIsFromUserInput
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 GetAccessible
 (
@@ -241,7 +241,7 @@ mEventRule
 ;
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 mAccessible
 ;
@@ -275,7 +275,7 @@ public
 :
 AccStateChangeEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 uint64_t
@@ -310,7 +310,7 @@ aIsEnabled
 }
 AccStateChangeEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 uint64_t
@@ -427,7 +427,7 @@ public
 :
 AccTextChangeEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 int32_t
@@ -568,7 +568,7 @@ AccTreeMutationEvent
 (
 uint32_t
 aEventType
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -719,7 +719,7 @@ AccMutationEvent
 (
 uint32_t
 aEventType
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -811,7 +811,7 @@ nsIAccessibleEvent
 EVENT_HIDE
 ;
 }
-Accessible
+LocalAccessible
 *
 LocalParent
 (
@@ -832,7 +832,7 @@ mNode
 ;
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 mParent
 ;
@@ -863,7 +863,7 @@ public
 explicit
 AccHideEvent
 (
-Accessible
+LocalAccessible
 *
 aTarget
 bool
@@ -904,7 +904,7 @@ eHideEvent
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 TargetParent
 (
@@ -915,7 +915,7 @@ return
 mParent
 ;
 }
-Accessible
+LocalAccessible
 *
 TargetNextSibling
 (
@@ -926,7 +926,7 @@ return
 mNextSibling
 ;
 }
-Accessible
+LocalAccessible
 *
 TargetPrevSibling
 (
@@ -954,13 +954,13 @@ mNeedsShutdown
 ;
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 mNextSibling
 ;
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 mPrevSibling
 ;
@@ -985,7 +985,7 @@ public
 explicit
 AccShowEvent
 (
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -1063,7 +1063,7 @@ public
 explicit
 AccReorderEvent
 (
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -1131,7 +1131,7 @@ public
 :
 AccCaretMoveEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 int32_t
@@ -1357,10 +1357,10 @@ eSelectionRemove
 ;
 AccSelChangeEvent
 (
-Accessible
+LocalAccessible
 *
 aWidget
-Accessible
+LocalAccessible
 *
 aItem
 SelChangeType
@@ -1406,7 +1406,7 @@ eSelectionChangeEvent
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 Widget
 (
@@ -1421,13 +1421,13 @@ private
 :
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 mWidget
 ;
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 mItem
 ;
@@ -1457,7 +1457,7 @@ public
 :
 AccTableChangeEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 uint32_t
@@ -1540,17 +1540,17 @@ public
 :
 AccVCChangeEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
-Accessible
+LocalAccessible
 *
 aOldAccessible
 int32_t
 aOldStart
 int32_t
 aOldEnd
-Accessible
+LocalAccessible
 *
 aNewAccessible
 int32_t
@@ -1606,7 +1606,7 @@ eVirtualCursorChangeEvent
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 OldAccessible
 (
@@ -1637,7 +1637,7 @@ return
 mOldEnd
 ;
 }
-Accessible
+LocalAccessible
 *
 NewAccessible
 (
@@ -1692,13 +1692,13 @@ private
 :
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 mOldAccessible
 ;
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 mNewAccessible
 ;
@@ -1732,7 +1732,7 @@ public
 :
 AccObjectAttrChangedEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAtom
@@ -1828,7 +1828,7 @@ AccScrollingEvent
 (
 uint32_t
 aEventType
-Accessible
+LocalAccessible
 *
 aAccessible
 uint32_t
@@ -1965,7 +1965,7 @@ public
 :
 AccAnnouncementEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 const

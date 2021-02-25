@@ -32791,7 +32791,7 @@ endif
 a11y
 :
 :
-Accessible
+LocalAccessible
 *
 nsWindow
 :

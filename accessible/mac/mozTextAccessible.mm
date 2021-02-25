@@ -1,7 +1,7 @@
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -345,7 +345,7 @@ INVALID
 {
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -732,7 +732,7 @@ roles
 ENTRY
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =

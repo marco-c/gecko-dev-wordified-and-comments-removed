@@ -77,7 +77,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 DocAccessible
@@ -125,7 +125,7 @@ PresShell
 aPresShell
 )
 ;
-Accessible
+LocalAccessible
 *
 FindAccessibleInCache
 (

@@ -192,7 +192,7 @@ VariantInit
 aAnchor
 )
 ;
-Accessible
+LocalAccessible
 *
 thisObj
 =
@@ -376,7 +376,7 @@ VariantInit
 aAnchorTarget
 )
 ;
-Accessible
+LocalAccessible
 *
 thisObj
 =
@@ -591,7 +591,7 @@ this
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 thisObj
 =
@@ -676,7 +676,7 @@ this
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 thisObj
 =
@@ -761,7 +761,7 @@ this
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 thisObj
 =

@@ -14,7 +14,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -160,7 +160,7 @@ class
 AccessibleWrap
 :
 public
-Accessible
+LocalAccessible
 public
 ia2Accessible
 public
@@ -599,7 +599,7 @@ static
 int32_t
 GetChildIDFor
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -608,7 +608,7 @@ static
 HWND
 GetHWNDFor
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -617,7 +617,7 @@ static
 void
 FireWinEvent
 (
-Accessible
+LocalAccessible
 *
 aTarget
 uint32_t
@@ -627,7 +627,7 @@ aEventType
 void
 UpdateSystemCaretFor
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -726,7 +726,7 @@ IDispatch
 *
 NativeAccessible
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
