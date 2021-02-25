@@ -2175,16 +2175,6 @@ Init
 mozilla
 :
 :
-GeckoSystemStateListener
-:
-:
-Init
-(
-)
-;
-mozilla
-:
-:
 widget
 :
 :
