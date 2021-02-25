@@ -6931,15 +6931,6 @@ SVGRenderingObserverSet
 (
 )
 ;
-if
-(
-!
-observers
-)
-{
-return
-;
-}
 aElement
 -
 >

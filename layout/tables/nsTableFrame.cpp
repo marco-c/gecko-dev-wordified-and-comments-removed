@@ -32123,14 +32123,6 @@ ColCount
 1
 ]
 ;
-if
-(
-!
-mBlockDirInfo
-)
-return
-false
-;
 return
 true
 ;

@@ -1592,14 +1592,6 @@ OperatorData
 gOperatorCount
 ]
 ;
-if
-(
-!
-gOperatorArray
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 }
 operatorData
 =
