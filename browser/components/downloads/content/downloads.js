@@ -1872,6 +1872,12 @@ popup
 "
 )
 ;
+setTimeout
+(
+(
+)
+=
+>
 PanelMultiView
 .
 openPopup
@@ -1895,6 +1901,8 @@ catch
 Cu
 .
 reportError
+)
+0
 )
 ;
 }
