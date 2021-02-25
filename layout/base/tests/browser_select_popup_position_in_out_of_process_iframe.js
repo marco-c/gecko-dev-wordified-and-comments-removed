@@ -252,11 +252,6 @@ x
 screenY
 :
 y
-scale
-:
-"
-screenPixelsPerCSSPixel
-"
 }
 )
 ;
