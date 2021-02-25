@@ -1335,16 +1335,9 @@ const_iterator
 aEnd
 )
 ;
-static
 void
 SanityCheck
 (
-const
-URLSegment
-&
-const
-nsCString
-&
 )
 ;
 nsCString
