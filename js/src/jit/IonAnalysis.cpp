@@ -9875,7 +9875,13 @@ isInWorklist
 bool
 canConsumeFloat32
 =
-true
+!
+phi
+-
+>
+isImplicitlyUsed
+(
+)
 ;
 for
 (
