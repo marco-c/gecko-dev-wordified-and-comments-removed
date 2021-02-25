@@ -7047,7 +7047,7 @@ supports_nonzero_pbo_offsets
 is_macos
 ;
 let
-is_mali_g
+is_mali
 =
 renderer_name
 .
@@ -7055,8 +7055,6 @@ starts_with
 (
 "
 Mali
--
-G
 "
 )
 ;
@@ -7064,7 +7062,7 @@ let
 supports_render_target_partial_update
 =
 !
-is_mali_g
+is_mali
 ;
 let
 supports_shader_storage_object
@@ -7120,6 +7118,20 @@ let
 uses_native_antialiasing
 =
 is_software_webrender
+;
+let
+is_mali_g
+=
+renderer_name
+.
+starts_with
+(
+"
+Mali
+-
+G
+"
+)
 ;
 let
 mut
