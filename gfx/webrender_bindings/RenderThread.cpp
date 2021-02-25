@@ -2362,6 +2362,17 @@ Composite
 GRAPHICS
 )
 ;
+AUTO_PROFILER_LABEL
+(
+"
+RenderThread
+:
+:
+UpdateAndRender
+"
+GRAPHICS
+)
+;
 MOZ_ASSERT
 (
 IsInRenderThread
