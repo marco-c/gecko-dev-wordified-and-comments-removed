@@ -39,11 +39,6 @@ cert
 js
 "
 "
-DevToolsSocketStatus
-.
-jsm
-"
-"
 prompt
 .
 js
