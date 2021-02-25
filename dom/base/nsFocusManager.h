@@ -662,6 +662,14 @@ Document
 aDocument
 )
 ;
+void
+WasNuked
+(
+nsPIDOMWindowOuter
+*
+aWindow
+)
+;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 FocusPlugin
@@ -1586,6 +1594,10 @@ SetFocusedWindowInternal
 nsPIDOMWindowOuter
 *
 aWindow
+bool
+aSyncBrowsingContext
+=
+true
 )
 ;
 bool
