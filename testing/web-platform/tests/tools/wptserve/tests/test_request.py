@@ -1,10 +1,6 @@
 import
 mock
 from
-six
-import
-binary_type
-from
 wptserve
 .
 request
@@ -389,7 +385,7 @@ x
 foo
 '
 ]
-binary_type
+bytes
 )
     
 assert
@@ -403,7 +399,7 @@ x
 bar
 '
 ]
-binary_type
+bytes
 )
     
 assert
@@ -422,7 +418,7 @@ bar
 [
 0
 ]
-binary_type
+bytes
 )
 def
 test_request_url_from_server_address

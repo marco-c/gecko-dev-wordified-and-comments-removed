@@ -22,7 +22,6 @@ from
 six
 import
 ensure_str
-iteritems
 from
 mozprocess
 import
@@ -234,8 +233,6 @@ for
 pref
 value
 in
-iteritems
-(
 test
 .
 environment
@@ -248,6 +245,9 @@ prefs
 {
 }
 )
+.
+items
+(
 )
 :
         

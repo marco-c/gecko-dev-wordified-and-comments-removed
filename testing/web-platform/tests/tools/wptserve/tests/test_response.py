@@ -1,7 +1,7 @@
 import
 mock
 from
-six
+io
 import
 BytesIO
 from

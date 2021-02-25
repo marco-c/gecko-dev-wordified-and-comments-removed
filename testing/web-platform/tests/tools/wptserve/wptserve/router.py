@@ -9,11 +9,6 @@ from
 logger
 import
 get_logger
-from
-six
-import
-binary_type
-text_type
 any_method
 =
 object
@@ -986,8 +981,8 @@ isinstance
 (
 methods
 (
-binary_type
-text_type
+bytes
+str
 )
 )
 or
