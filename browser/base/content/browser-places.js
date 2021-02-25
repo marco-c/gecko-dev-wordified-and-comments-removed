@@ -7529,8 +7529,8 @@ menuPopup
 append
 (
 alwaysShowMenuItem
-alwaysHideMenuItem
 showOnNewTabMenuItem
+alwaysHideMenuItem
 )
 ;
 let
