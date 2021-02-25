@@ -11529,11 +11529,6 @@ Invalid
 NonTSPseudoClass
 :
 :
-MozUIValid
-|
-NonTSPseudoClass
-:
-:
 MozBroken
 |
 NonTSPseudoClass
@@ -11614,7 +11609,12 @@ MozSubmitInvalid
 NonTSPseudoClass
 :
 :
-MozUIInvalid
+UserValid
+|
+NonTSPseudoClass
+:
+:
+UserInvalid
 |
 NonTSPseudoClass
 :
