@@ -4819,15 +4819,6 @@ decommitAllArenas
 (
 )
 ;
-#
-ifdef
-DEBUG
-verify
-(
-)
-;
-#
-endif
 }
 void
 TenuredChunk
