@@ -275,7 +275,9 @@ gURLBar
 .
 setValueFromResult
 (
+{
 result
+}
 )
 ;
 Assert

@@ -3452,8 +3452,6 @@ contains
 "
 urlbarView
 -
-tip
--
 help
 "
 )

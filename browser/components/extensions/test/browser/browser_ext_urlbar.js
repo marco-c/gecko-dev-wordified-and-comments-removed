@@ -1201,8 +1201,6 @@ querySelector
 .
 urlbarView
 -
-tip
--
 help
 "
 )
