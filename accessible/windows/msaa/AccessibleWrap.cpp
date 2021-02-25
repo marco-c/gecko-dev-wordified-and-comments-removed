@@ -2884,15 +2884,6 @@ AccessibleEnumerator
 this
 )
 ;
-if
-(
-!
-*
-ppenum
-)
-return
-E_OUTOFMEMORY
-;
 NS_ADDREF
 (
 *

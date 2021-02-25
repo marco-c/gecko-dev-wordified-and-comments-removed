@@ -320,16 +320,6 @@ hr
 ;
 if
 (
-!
-handler
-)
-{
-return
-E_OUTOFMEMORY
-;
-}
-if
-(
 FAILED
 (
 hr

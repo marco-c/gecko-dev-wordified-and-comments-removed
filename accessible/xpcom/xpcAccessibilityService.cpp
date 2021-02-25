@@ -1032,12 +1032,6 @@ xpcAccessibilityService
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-service
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 xpcAccessibilityService
 :
 :
