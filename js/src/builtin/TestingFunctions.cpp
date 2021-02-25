@@ -3709,6 +3709,16 @@ true
 _
 (
 "
+nurseryTimeoutForIdleCollectionMS
+"
+\
+JSGC_NURSERY_TIMEOUT_FOR_IDLE_COLLECTION_MS
+true
+)
+\
+_
+(
+"
 pretenureThreshold
 "
 JSGC_PRETENURE_THRESHOLD

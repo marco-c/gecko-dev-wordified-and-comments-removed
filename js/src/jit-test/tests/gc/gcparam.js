@@ -299,6 +299,13 @@ mallocGrowthFactor
 "
 )
 ;
+testChangeParam
+(
+"
+nurseryTimeoutForIdleCollectionMS
+"
+)
+;
 testMBParamValue
 (
 "
