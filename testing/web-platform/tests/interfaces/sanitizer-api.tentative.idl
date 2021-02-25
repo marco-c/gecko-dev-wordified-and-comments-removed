@@ -18,6 +18,7 @@ api
 Exposed
 =
 Window
+SecureContext
 ]
 interface
 Sanitizer
