@@ -537,7 +537,6 @@ tag
 ;
 sorted_tags
 }
-;
 Ok
 (
 FontSettingTagIter
