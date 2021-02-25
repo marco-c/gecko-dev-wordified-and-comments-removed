@@ -1151,7 +1151,7 @@ None
                     
 self
 .
-fatal
+info
 (
 "
 Per
@@ -2113,7 +2113,7 @@ changed_files
                 
 self
 .
-fatal
+info
 (
                     
 "
