@@ -2470,6 +2470,14 @@ None
 e10s
 =
 True
+        
+runFailures
+=
+False
+        
+crashAsPass
+=
+False
     
 )
 :
