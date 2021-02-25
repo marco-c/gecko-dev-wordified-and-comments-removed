@@ -12349,10 +12349,13 @@ nsIStringBundleService
 >
 stringBundleService
 =
-services
+components
 :
 :
-GetStringBundleService
+StringBundle
+:
+:
+Service
 (
 )
 ;
