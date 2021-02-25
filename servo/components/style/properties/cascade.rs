@@ -2307,6 +2307,13 @@ context
 .
 builder
 .
+writing_mode
+self
+.
+context
+.
+builder
+.
 custom_properties
 .
 as_ref

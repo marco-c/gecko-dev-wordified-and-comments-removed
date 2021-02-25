@@ -5767,7 +5767,7 @@ camel_case
 }
 )
 .
-allowed_in
+allowed_in_ignoring_rule_type
 (
 context
 )
@@ -5922,7 +5922,6 @@ values
 :
 specified
 ;
-pub
 fn
 parse_value
 <
@@ -6321,7 +6320,6 @@ values
 :
 specified
 ;
-pub
 fn
 parse_value
 <
