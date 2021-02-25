@@ -2276,12 +2276,6 @@ ShouldIgnoreInvalidation
 ;
 MOZ_CAN_RUN_SCRIPT
 void
-WillPaintWindow
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT
-void
 DidPaintWindow
 (
 )
