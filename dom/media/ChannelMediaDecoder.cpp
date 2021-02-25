@@ -983,16 +983,6 @@ ChannelMediaDecoder
 aInit
 )
 ;
-if
-(
-!
-decoder
-)
-{
-return
-nullptr
-;
-}
 nsresult
 rv
 =
