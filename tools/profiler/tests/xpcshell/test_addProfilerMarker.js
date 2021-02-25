@@ -366,7 +366,7 @@ MOZ_GECKO_PROFILER
 return
 ;
 }
-startProfiler
+startProfilerForMarkerTests
 (
 )
 ;
