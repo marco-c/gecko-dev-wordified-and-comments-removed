@@ -2938,6 +2938,9 @@ dirname
 __file__
 )
 "
+test
+"
+"
 puppeteer
 -
 expected
@@ -3578,6 +3581,9 @@ dirname
 (
 __file__
 )
+"
+test
+"
 "
 puppeteer
 -

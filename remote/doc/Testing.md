@@ -988,6 +988,8 @@ collected
 in
 _remote
 /
+test
+/
 puppeteer
 -
 expected

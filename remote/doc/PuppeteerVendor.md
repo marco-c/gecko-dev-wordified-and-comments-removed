@@ -861,6 +861,8 @@ source
 /
 remote
 /
+test
+/
 puppeteer
 -
 expected
