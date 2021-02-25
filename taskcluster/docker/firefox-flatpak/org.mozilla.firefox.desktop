@@ -409,6 +409,9 @@ manager
 -
 window
 ;
+StartupWMClass
+=
+Firefox
 [
 Desktop
 Action
