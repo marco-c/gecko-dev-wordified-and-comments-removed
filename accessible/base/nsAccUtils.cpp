@@ -412,7 +412,7 @@ parent
 aAccessible
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -1399,7 +1399,7 @@ parent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -1509,7 +1509,7 @@ table
 aRow
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -1582,7 +1582,7 @@ table
 table
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -1719,7 +1719,7 @@ accessible
 accessible
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -1971,7 +1971,7 @@ parent
 aAccessible
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -2180,7 +2180,7 @@ child
 aAccessible
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )

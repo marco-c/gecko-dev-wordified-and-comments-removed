@@ -152,7 +152,7 @@ aAnchorIndex
 )
 {
 return
-GetChildAt
+LocalChildAt
 (
 aAnchorIndex
 )
@@ -176,7 +176,7 @@ Accessible
 *
 area
 =
-GetChildAt
+LocalChildAt
 (
 aAnchorIndex
 )

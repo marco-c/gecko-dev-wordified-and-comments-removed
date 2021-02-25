@@ -259,7 +259,7 @@ if
 mCurrentContainer
 -
 >
-Parent
+LocalParent
 (
 )
 |
@@ -268,7 +268,7 @@ Parent
 mCurrentContainer
 -
 >
-Parent
+LocalParent
 (
 )
 -
@@ -305,7 +305,7 @@ mCurrentContainer
 mCurrentContainer
 -
 >
-Parent
+LocalParent
 (
 )
 -
@@ -545,7 +545,7 @@ if
 mCurrentContainer
 -
 >
-Parent
+LocalParent
 (
 )
 |
@@ -554,7 +554,7 @@ Parent
 mCurrentContainer
 -
 >
-Parent
+LocalParent
 (
 )
 -
@@ -583,7 +583,7 @@ mCurrentContainer
 mCurrentContainer
 -
 >
-Parent
+LocalParent
 (
 )
 -
@@ -2362,12 +2362,12 @@ mOffset
 1
 &
 &
-Parent
+LocalParent
 (
 )
 &
 &
-Parent
+LocalParent
 (
 )
 -
@@ -2383,7 +2383,7 @@ HyperTextAccessibleWrap
 *
 >
 (
-Parent
+LocalParent
 (
 )
 -
@@ -2508,7 +2508,7 @@ MOZ_ASSERT
 leaf
 -
 >
-Parent
+LocalParent
 (
 )
 -
@@ -2531,7 +2531,7 @@ HyperTextAccessibleWrap
 leaf
 -
 >
-Parent
+LocalParent
 (
 )
 -
@@ -2730,7 +2730,7 @@ MOZ_ASSERT
 aChild
 -
 >
-Parent
+LocalParent
 (
 )
 =
@@ -2851,7 +2851,7 @@ child
 text
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )
@@ -3067,7 +3067,7 @@ child
 text
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )
@@ -3109,7 +3109,7 @@ child
 text
 -
 >
-GetChildAt
+LocalChildAt
 (
 -
 -
@@ -3149,7 +3149,7 @@ child
 text
 -
 >
-GetChildAt
+LocalChildAt
 (
 +
 +
@@ -3218,7 +3218,7 @@ child
 text
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )
@@ -3623,7 +3623,7 @@ acc
 acc
 -
 >
-Parent
+LocalParent
 (
 )
 )

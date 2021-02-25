@@ -2356,7 +2356,7 @@ Accessible
 *
 button
 =
-GetChildAt
+LocalChildAt
 (
 0
 )
@@ -2456,7 +2456,7 @@ Accessible
 *
 button
 =
-FirstChild
+LocalFirstChild
 (
 )
 ;
@@ -3387,7 +3387,7 @@ Accessible
 *
 groupbox
 =
-Parent
+LocalParent
 (
 )
 ;
@@ -3682,7 +3682,7 @@ Accessible
 *
 figure
 =
-Parent
+LocalParent
 (
 )
 ;

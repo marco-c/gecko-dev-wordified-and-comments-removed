@@ -633,7 +633,7 @@ acc
 docAcc
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -642,7 +642,7 @@ acc
 acc
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -1398,7 +1398,7 @@ acc
 this
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -1413,7 +1413,7 @@ AccessibleWrap
 acc
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -1632,7 +1632,7 @@ acc
 this
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -1647,7 +1647,7 @@ AccessibleWrap
 acc
 -
 >
-Parent
+LocalParent
 (
 )
 )

@@ -404,7 +404,7 @@ Accessible
 *
 child
 =
-GetChildAt
+LocalChildAt
 (
 0
 )
@@ -1030,7 +1030,7 @@ Accessible
 OuterDocAccessible
 :
 :
-GetChildAt
+LocalChildAt
 (
 uint32_t
 aIndex
@@ -1044,7 +1044,7 @@ result
 AccessibleWrap
 :
 :
-GetChildAt
+LocalChildAt
 (
 aIndex
 )

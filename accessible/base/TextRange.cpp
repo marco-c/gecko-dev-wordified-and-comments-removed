@@ -116,7 +116,7 @@ p1
 p1
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -140,7 +140,7 @@ p2
 p2
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -264,7 +264,7 @@ MOZ_ASSERT
 child
 -
 >
-Parent
+LocalParent
 (
 )
 =
@@ -319,7 +319,7 @@ MOZ_ASSERT
 child
 -
 >
-Parent
+LocalParent
 (
 )
 =
@@ -470,7 +470,7 @@ child
 mStartContainer
 -
 >
-GetChildAt
+LocalChildAt
 (
 idx
 )
@@ -634,7 +634,7 @@ next
 parent
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )
@@ -712,7 +712,7 @@ next
 container
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )
@@ -809,7 +809,7 @@ next
 parent
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )
@@ -892,7 +892,7 @@ current
 current
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -908,7 +908,7 @@ current
 current
 -
 >
-NextSibling
+LocalNextSibling
 (
 )
 ;
@@ -2400,7 +2400,7 @@ if
 aCurrent
 -
 >
-Parent
+LocalParent
 (
 )
 =
@@ -2490,7 +2490,7 @@ next
 aCurrent
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 ;
@@ -2518,7 +2518,7 @@ next
 aCurrent
 -
 >
-NextSibling
+LocalNextSibling
 (
 )
 ;
@@ -2671,7 +2671,7 @@ p1
 p1
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -2696,7 +2696,7 @@ p2
 p2
 -
 >
-Parent
+LocalParent
 (
 )
 ;

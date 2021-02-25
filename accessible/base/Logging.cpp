@@ -4396,7 +4396,7 @@ child
 aParent
 -
 >
-GetChildAt
+LocalChildAt
 (
 idx
 )
@@ -4503,7 +4503,7 @@ if
 root
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 &
@@ -4512,7 +4512,7 @@ FirstChild
 root
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 -
@@ -4536,7 +4536,7 @@ root
 root
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 ;
@@ -4639,7 +4639,7 @@ root
 root
 -
 >
-Parent
+LocalParent
 (
 )
 )

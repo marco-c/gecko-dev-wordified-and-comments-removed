@@ -2300,7 +2300,7 @@ treeColumns
 treeAcc
 -
 >
-GetChildAt
+LocalChildAt
 (
 0
 )
@@ -2343,7 +2343,7 @@ treeColumnItem
 treeColumns
 -
 >
-GetChildAt
+LocalChildAt
 (
 i
 )

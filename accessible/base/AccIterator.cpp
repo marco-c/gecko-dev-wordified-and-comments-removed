@@ -142,7 +142,7 @@ mState
 mParent
 -
 >
-GetChildAt
+LocalChildAt
 (
 mState
 -
@@ -611,7 +611,7 @@ walkUp
 mAcc
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -695,7 +695,7 @@ walkUp
 walkUp
 -
 >
-Parent
+LocalParent
 (
 )
 ;

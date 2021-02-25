@@ -299,7 +299,7 @@ MOZ_ASSERT
 aChild
 -
 >
-Parent
+LocalParent
 (
 )
 =
@@ -402,7 +402,7 @@ MOZ_ASSERT
 aChild
 -
 >
-Parent
+LocalParent
 (
 )
 =
@@ -1525,7 +1525,7 @@ if
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 =
@@ -1701,7 +1701,7 @@ parent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -1743,7 +1743,7 @@ if
 curParent
 -
 >
-Parent
+LocalParent
 (
 )
 !
@@ -1756,7 +1756,7 @@ curParent
 curParent
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -1921,7 +1921,7 @@ if
 curParent
 -
 >
-Parent
+LocalParent
 (
 )
 !
@@ -1934,7 +1934,7 @@ curParent
 curParent
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -3145,7 +3145,7 @@ cntr
 cntr
 -
 >
-Parent
+LocalParent
 (
 )
 ;

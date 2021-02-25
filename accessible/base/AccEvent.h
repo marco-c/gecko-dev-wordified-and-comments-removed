@@ -735,7 +735,7 @@ mParent
 mAccessible
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -813,7 +813,7 @@ EVENT_HIDE
 }
 Accessible
 *
-Parent
+LocalParent
 (
 )
 const

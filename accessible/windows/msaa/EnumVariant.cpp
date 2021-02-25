@@ -76,7 +76,7 @@ IsDefunct
 mAnchorAcc
 -
 >
-GetChildAt
+LocalChildAt
 (
 mCurIndex
 )
@@ -130,7 +130,7 @@ mCurAcc
 mAnchorAcc
 -
 >
-GetChildAt
+LocalChildAt
 (
 mCurIndex
 )
@@ -212,7 +212,7 @@ IsDefunct
 mAnchorAcc
 -
 >
-GetChildAt
+LocalChildAt
 (
 mCurIndex
 )
@@ -233,7 +233,7 @@ mCurAcc
 mAnchorAcc
 -
 >
-GetChildAt
+LocalChildAt
 (
 mCurIndex
 )
@@ -275,7 +275,7 @@ mCurAcc
 mAnchorAcc
 -
 >
-GetChildAt
+LocalChildAt
 (
 0
 )

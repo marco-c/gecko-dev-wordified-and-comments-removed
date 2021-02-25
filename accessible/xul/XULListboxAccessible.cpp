@@ -611,7 +611,7 @@ return
 row
 -
 >
-GetChildAt
+LocalChildAt
 (
 aColumnIndex
 )
@@ -2660,7 +2660,7 @@ ContainerWidget
 const
 {
 return
-Parent
+LocalParent
 (
 )
 ;

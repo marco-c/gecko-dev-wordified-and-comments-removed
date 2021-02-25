@@ -780,14 +780,14 @@ aBackward
 accessible
 -
 >
-LastChild
+LocalLastChild
 (
 )
 :
 accessible
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 )
@@ -887,14 +887,14 @@ aBackward
 temp
 -
 >
-PrevSibling
+LocalPrevSibling
 (
 )
 :
 temp
 -
 >
-NextSibling
+LocalNextSibling
 (
 )
 ;
@@ -907,7 +907,7 @@ temp
 temp
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -1126,7 +1126,7 @@ IsTextLeaf
 aAnchor
 -
 >
-Parent
+LocalParent
 (
 )
 &
@@ -1134,7 +1134,7 @@ Parent
 aAnchor
 -
 >
-Parent
+LocalParent
 (
 )
 -
@@ -1151,7 +1151,7 @@ text
 aAnchor
 -
 >
-Parent
+LocalParent
 (
 )
 -
@@ -1297,7 +1297,7 @@ text
 curPosition
 -
 >
-Parent
+LocalParent
 (
 )
 ?
@@ -1354,7 +1354,7 @@ sibling
 tempPosition
 -
 >
-NextSibling
+LocalNextSibling
 (
 )
 ;
@@ -1418,7 +1418,7 @@ tempPosition
 tempPosition
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -1780,7 +1780,7 @@ IsTextLeaf
 aAnchor
 -
 >
-Parent
+LocalParent
 (
 )
 &
@@ -1788,7 +1788,7 @@ Parent
 aAnchor
 -
 >
-Parent
+LocalParent
 (
 )
 -
@@ -1805,7 +1805,7 @@ text
 aAnchor
 -
 >
-Parent
+LocalParent
 (
 )
 -
@@ -1961,7 +1961,7 @@ text
 curPosition
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -2029,7 +2029,7 @@ sibling
 tempPosition
 -
 >
-PrevSibling
+LocalPrevSibling
 (
 )
 ;
@@ -2113,7 +2113,7 @@ tempPosition
 tempPosition
 -
 >
-Parent
+LocalParent
 (
 )
 ;

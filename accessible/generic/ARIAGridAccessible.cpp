@@ -2447,7 +2447,7 @@ row
 aAccessible
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -2997,7 +2997,7 @@ cell
 row
 -
 >
-GetChildAt
+LocalChildAt
 (
 idx
 )
@@ -3130,7 +3130,7 @@ Accessible
 *
 row
 =
-Parent
+LocalParent
 (
 )
 ;
@@ -3329,7 +3329,7 @@ child
 thisRow
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )

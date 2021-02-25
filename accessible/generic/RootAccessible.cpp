@@ -2456,7 +2456,7 @@ combobox
 aAccessible
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -2736,7 +2736,7 @@ child
 popupContainer
 -
 >
-GetChildAt
+LocalChildAt
 (
 idx
 )

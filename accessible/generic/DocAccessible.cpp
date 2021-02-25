@@ -8572,7 +8572,7 @@ reorderEvent
 new
 AccReorderEvent
 (
-Parent
+LocalParent
 (
 )
 )
@@ -9742,7 +9742,7 @@ container
 container
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 ;
@@ -10030,7 +10030,7 @@ Child
 )
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -10064,7 +10064,7 @@ Child
 )
 -
 >
-PrevSibling
+LocalPrevSibling
 (
 )
 !
@@ -10080,7 +10080,7 @@ previousSibling
 previousSibling
 -
 >
-Parent
+LocalParent
 (
 )
 !
@@ -10590,7 +10590,7 @@ ancestor
 ancestor
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -10616,7 +10616,7 @@ parent
 aChild
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -10715,7 +10715,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aChild
 -
 >
-Parent
+LocalParent
 (
 )
 "
@@ -10804,7 +10804,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aChild
 -
 >
-Parent
+LocalParent
 (
 )
 "
@@ -11396,7 +11396,7 @@ if
 child
 -
 >
-Parent
+LocalParent
 (
 )
 =
@@ -11574,7 +11574,7 @@ if
 child
 -
 >
-Parent
+LocalParent
 (
 )
 !
@@ -11626,7 +11626,7 @@ parent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -11817,7 +11817,7 @@ owner
 child
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -11972,7 +11972,7 @@ origContainer
 prevChild
 -
 >
-Parent
+LocalParent
 (
 )
 "
@@ -11986,7 +11986,7 @@ origContainer
 prevChild
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -12054,7 +12054,7 @@ MOZ_ASSERT
 child
 -
 >
-PrevSibling
+LocalPrevSibling
 (
 )
 |
@@ -12063,7 +12063,7 @@ PrevSibling
 child
 -
 >
-PrevSibling
+LocalPrevSibling
 (
 )
 -
@@ -12089,7 +12089,7 @@ MOZ_ASSERT
 child
 -
 >
-NextSibling
+LocalNextSibling
 (
 )
 |
@@ -12097,7 +12097,7 @@ NextSibling
 child
 -
 >
-NextSibling
+LocalNextSibling
 (
 )
 -
@@ -12165,7 +12165,7 @@ MOZ_ASSERT
 aChild
 -
 >
-Parent
+LocalParent
 (
 )
 "
@@ -12211,7 +12211,7 @@ curParent
 aChild
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -12634,7 +12634,7 @@ IsHTMLCombobox
 aRoot
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 :

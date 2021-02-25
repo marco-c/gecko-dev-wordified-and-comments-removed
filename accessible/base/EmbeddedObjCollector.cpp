@@ -112,7 +112,7 @@ child
 mRoot
 -
 >
-GetChildAt
+LocalChildAt
 (
 mRootChildIdx
 +
@@ -194,7 +194,7 @@ child
 mRoot
 -
 >
-GetChildAt
+LocalChildAt
 (
 mRootChildIdx
 +

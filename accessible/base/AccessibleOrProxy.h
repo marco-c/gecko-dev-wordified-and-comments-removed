@@ -344,7 +344,7 @@ AsAccessible
 )
 -
 >
-GetChildAt
+LocalChildAt
 (
 aIdx
 )
@@ -396,7 +396,7 @@ AsAccessible
 )
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 ;
@@ -447,7 +447,7 @@ AsAccessible
 )
 -
 >
-LastChild
+LocalLastChild
 (
 )
 ;
@@ -481,7 +481,7 @@ AsAccessible
 )
 -
 >
-NextSibling
+LocalNextSibling
 (
 )
 ;
@@ -515,7 +515,7 @@ AsAccessible
 )
 -
 >
-PrevSibling
+LocalPrevSibling
 (
 )
 ;

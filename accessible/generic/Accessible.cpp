@@ -2646,7 +2646,7 @@ this
 focus
 -
 >
-Parent
+LocalParent
 (
 )
 =
@@ -2654,9 +2654,11 @@ Parent
 this
 )
 )
+{
 return
 focus
 ;
+}
 return
 nullptr
 ;
@@ -2920,7 +2922,7 @@ popupChild
 popupChild
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -3116,7 +3118,7 @@ parent
 child
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -3184,7 +3186,7 @@ child
 accessible
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )
@@ -6827,7 +6829,7 @@ ancestor
 ancestor
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -6915,7 +6917,7 @@ ancestor
 ancestor
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -9074,7 +9076,7 @@ rel
 .
 AppendTarget
 (
-Parent
+LocalParent
 (
 )
 )
@@ -9326,7 +9328,7 @@ Accessible
 *
 currParent
 =
-Parent
+LocalParent
 (
 )
 ;
@@ -9354,7 +9356,7 @@ currParent
 currParent
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -12132,7 +12134,7 @@ aChild
 mParent
 -
 >
-GetChildAt
+LocalChildAt
 (
 aChild
 -
@@ -12462,7 +12464,7 @@ Accessible
 Accessible
 :
 :
-GetChildAt
+LocalChildAt
 (
 uint32_t
 aIndex
@@ -12659,7 +12661,7 @@ nullptr
 ;
 }
 return
-GetChildAt
+LocalChildAt
 (
 aIndex
 )
@@ -13054,7 +13056,7 @@ parent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -13999,7 +14001,7 @@ Accessible
 *
 parent
 =
-Parent
+LocalParent
 (
 )
 ;
@@ -14010,7 +14012,7 @@ parent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -14240,7 +14242,7 @@ child
 mParent
 -
 >
-GetChildAt
+LocalChildAt
 (
 mIndexInParent
 +
@@ -14772,7 +14774,7 @@ parent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -14849,7 +14851,7 @@ parent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -14915,7 +14917,7 @@ level
 {
 parent
 =
-Parent
+LocalParent
 (
 )
 ;
@@ -14952,7 +14954,7 @@ sibling
 parent
 -
 >
-GetChildAt
+LocalChildAt
 (
 siblingIdx
 )
@@ -14964,7 +14966,7 @@ siblingChild
 sibling
 -
 >
-LastChild
+LocalLastChild
 (
 )
 ;
@@ -15049,7 +15051,7 @@ parent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 )

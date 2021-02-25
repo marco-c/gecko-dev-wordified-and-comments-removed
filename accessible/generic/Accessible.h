@@ -900,7 +900,7 @@ aChild
 ;
 Accessible
 *
-Parent
+LocalParent
 (
 )
 const
@@ -912,7 +912,7 @@ mParent
 virtual
 Accessible
 *
-GetChildAt
+LocalChildAt
 (
 uint32_t
 aIndex
@@ -974,7 +974,7 @@ const
 return
 !
 !
-GetChildAt
+LocalChildAt
 (
 0
 )
@@ -983,7 +983,7 @@ GetChildAt
 inline
 Accessible
 *
-NextSibling
+LocalNextSibling
 (
 )
 const
@@ -998,7 +998,7 @@ GetSiblingAtOffset
 inline
 Accessible
 *
-PrevSibling
+LocalPrevSibling
 (
 )
 const
@@ -1014,13 +1014,13 @@ GetSiblingAtOffset
 inline
 Accessible
 *
-FirstChild
+LocalFirstChild
 (
 )
 const
 {
 return
-GetChildAt
+LocalChildAt
 (
 0
 )
@@ -1029,7 +1029,7 @@ GetChildAt
 inline
 Accessible
 *
-LastChild
+LocalLastChild
 (
 )
 const
@@ -1047,7 +1047,7 @@ childCount
 =
 0
 ?
-GetChildAt
+LocalChildAt
 (
 childCount
 -

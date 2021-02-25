@@ -50,7 +50,7 @@ mCurAcc
 mAnchorAcc
 -
 >
-GetChildAt
+LocalChildAt
 (
 0
 )

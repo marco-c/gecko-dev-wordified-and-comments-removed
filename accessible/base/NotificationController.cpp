@@ -766,7 +766,7 @@ GetAccessible
 )
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -1100,7 +1100,7 @@ prevTextChange
 prevHide
 -
 >
-Parent
+LocalParent
 (
 )
 =
@@ -1108,7 +1108,7 @@ Parent
 mutEvent
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -1275,7 +1275,7 @@ prevTextChange
 prevShow
 -
 >
-Parent
+LocalParent
 (
 )
 =
@@ -1283,7 +1283,7 @@ Parent
 target
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -1792,7 +1792,7 @@ parent
 acc
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -2011,7 +2011,7 @@ GetAccessible
 )
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -2064,7 +2064,7 @@ parent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -2108,7 +2108,7 @@ parent
 hideEvent
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -2207,7 +2207,7 @@ parent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -2726,7 +2726,7 @@ GetAccessible
 )
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -4693,7 +4693,7 @@ parent
 childDoc
 -
 >
-Parent
+LocalParent
 (
 )
 ;
