@@ -3163,8 +3163,7 @@ assert
 requiredModule
 .
 status
-=
-=
+>
 =
 MODULE_STATUS_EVALUATED
 Bad

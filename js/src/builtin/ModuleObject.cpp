@@ -11814,6 +11814,17 @@ status
 =
 =
 MODULE_STATUS_EVALUATED
+|
+|
+module
+-
+>
+status
+(
+)
+=
+=
+MODULE_STATUS_EVALUATED_ERROR
 )
 ;
 if
