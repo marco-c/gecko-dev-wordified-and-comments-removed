@@ -22,7 +22,7 @@ const
 target
 =
 await
-TargetFactory
+TabTargetFactory
 .
 forTab
 (
@@ -53,7 +53,7 @@ const
 target2
 =
 await
-TargetFactory
+TabTargetFactory
 .
 forTab
 (
@@ -494,7 +494,7 @@ const
 target
 =
 await
-TargetFactory
+TabTargetFactory
 .
 forTab
 (

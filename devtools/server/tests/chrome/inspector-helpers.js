@@ -29,7 +29,7 @@ jsm
 ;
 const
 {
-TargetFactory
+TabTargetFactory
 }
 =
 require
@@ -41,7 +41,11 @@ client
 /
 framework
 /
+tab
+-
 target
+-
+factory
 "
 )
 ;
@@ -294,7 +298,7 @@ linkedBrowser
 )
 ;
 return
-TargetFactory
+TabTargetFactory
 .
 forTab
 (

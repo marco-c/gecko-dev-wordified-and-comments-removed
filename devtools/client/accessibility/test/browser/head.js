@@ -3185,7 +3185,7 @@ selectedTab
 {
 if
 (
-TargetFactory
+TabTargetFactory
 .
 isKnownTab
 (

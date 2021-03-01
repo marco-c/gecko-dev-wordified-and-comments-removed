@@ -39,7 +39,7 @@ Services
 ;
 const
 {
-TargetFactory
+TabTargetFactory
 }
 =
 require
@@ -51,7 +51,11 @@ client
 /
 framework
 /
+tab
+-
 target
+-
+factory
 "
 )
 ;
@@ -167,7 +171,7 @@ const
 target
 =
 await
-TargetFactory
+TabTargetFactory
 .
 forTab
 (
