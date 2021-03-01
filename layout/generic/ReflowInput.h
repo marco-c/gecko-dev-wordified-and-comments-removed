@@ -1725,11 +1725,6 @@ mColumnSetWrapperHasNoBSizeLeft
 1
 ;
 bool
-mIsFlexContainerMeasuringBSize
-:
-1
-;
-bool
 mTreatBSizeAsIndefinite
 :
 1
