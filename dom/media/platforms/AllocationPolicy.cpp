@@ -502,7 +502,7 @@ sAudioPolicy
 ShutdownPhase
 :
 :
-ShutdownThreads
+XPCOMShutdownThreads
 )
 ;
 }
@@ -576,7 +576,7 @@ sVideoPolicy
 ShutdownPhase
 :
 :
-ShutdownThreads
+XPCOMShutdownThreads
 )
 ;
 }

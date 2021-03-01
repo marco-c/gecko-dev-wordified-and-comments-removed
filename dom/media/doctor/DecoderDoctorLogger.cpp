@@ -437,7 +437,7 @@ sDDLogShutdowner
 ShutdownPhase
 :
 :
-Shutdown
+XPCOMShutdown
 )
 ;
 sDDLogDeleter
@@ -456,7 +456,7 @@ sDDLogDeleter
 ShutdownPhase
 :
 :
-ShutdownThreads
+XPCOMShutdownThreads
 )
 ;
 }

@@ -6158,7 +6158,7 @@ PastShutdownPhase
 ShutdownPhase
 :
 :
-ShutdownFinal
+XPCOMShutdownFinal
 )
 )
 {

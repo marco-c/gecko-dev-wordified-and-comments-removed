@@ -990,7 +990,7 @@ PastShutdownPhase
 ShutdownPhase
 :
 :
-ShutdownFinal
+XPCOMShutdownFinal
 )
 )
 )
