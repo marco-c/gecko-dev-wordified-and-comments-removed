@@ -959,9 +959,9 @@ servo_2020_pref
 "
 layout
 .
-2020
+flexbox
 .
-unimplemented
+enabled
 "
 extra_prefixes
 =
@@ -1584,9 +1584,9 @@ servo_2020_pref
 "
 layout
 .
-2020
+flexbox
 .
-unimplemented
+enabled
 "
 extra_prefixes
 =

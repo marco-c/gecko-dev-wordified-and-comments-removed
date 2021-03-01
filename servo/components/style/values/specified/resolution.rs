@@ -45,9 +45,9 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 ToShmem
-SpecifiedValueInfo
 )
 ]
 pub

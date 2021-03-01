@@ -155,10 +155,10 @@ cssparser
 :
 :
 {
+ParserState
 QualifiedRuleParser
 RuleListParser
 SourceLocation
-ParserState
 Token
 }
 ;

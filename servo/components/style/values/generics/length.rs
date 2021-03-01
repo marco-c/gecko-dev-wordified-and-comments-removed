@@ -302,7 +302,7 @@ self
 f
 :
 impl
-Fn
+FnOnce
 (
 )
 -

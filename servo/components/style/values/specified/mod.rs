@@ -792,8 +792,8 @@ page
 :
 {
 Orientation
-PaperSize
 PageSize
+PaperSize
 }
 ;
 pub
@@ -1209,11 +1209,11 @@ outline
 ;
 pub
 mod
-percentage
+page
 ;
 pub
 mod
-page
+percentage
 ;
 pub
 mod

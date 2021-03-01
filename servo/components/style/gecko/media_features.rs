@@ -1395,8 +1395,8 @@ Clone
 Copy
 Debug
 FromPrimitive
-PartialEq
 Parse
+PartialEq
 ToCss
 )
 ]
@@ -1484,8 +1484,8 @@ Clone
 Copy
 Debug
 FromPrimitive
-PartialEq
 Parse
+PartialEq
 ToCss
 )
 ]

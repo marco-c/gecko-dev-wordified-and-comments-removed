@@ -97,8 +97,8 @@ AngleOrPercentage
 LengthPercentage
 NonNegativeLength
 NonNegativeLengthPercentage
-ToComputedValue
 Resolution
+ToComputedValue
 }
 ;
 use

@@ -271,8 +271,8 @@ cssparser
 BasicParseError
 BasicParseErrorKind
 CowRcStr
-SourcePosition
 ParserState
+SourcePosition
 }
 ;
 use

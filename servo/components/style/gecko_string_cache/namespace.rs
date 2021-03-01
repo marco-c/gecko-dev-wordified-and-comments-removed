@@ -170,8 +170,8 @@ precomputed_hash
 [
 derive
 (
-Hash
 Deref
+Hash
 )
 ]
 pub

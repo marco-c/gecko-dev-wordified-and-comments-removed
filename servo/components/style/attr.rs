@@ -67,6 +67,15 @@ use
 crate
 :
 :
+values
+:
+:
+AtomString
+;
+use
+crate
+:
+:
 {
 Atom
 LocalName
@@ -1774,7 +1783,7 @@ selector
 AttrSelectorOperation
 <
 &
-String
+AtomString
 >
 )
 -

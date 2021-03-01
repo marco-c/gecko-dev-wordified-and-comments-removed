@@ -347,6 +347,7 @@ More
 *
 array
 )
+;
 }
 debug_assert_eq
 !
