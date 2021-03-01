@@ -994,13 +994,6 @@ nonempty
 =
 false
 ;
-const
-hasTabs
-=
-tab
-.
-hasTabPermission
-;
 for
 (
 let
@@ -1011,9 +1004,6 @@ changeInfo
 {
 if
 (
-hasTabs
-|
-|
 !
 restricted
 .
@@ -1021,6 +1011,11 @@ has
 (
 prop
 )
+|
+|
+tab
+.
+hasTabPermission
 )
 {
 nonempty

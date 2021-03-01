@@ -1014,13 +1014,6 @@ nonempty
 =
 false
 ;
-const
-hasTabs
-=
-tab
-.
-hasTabPermission
-;
 for
 (
 const
@@ -1031,9 +1024,6 @@ changeInfo
 {
 if
 (
-hasTabs
-|
-|
 !
 restricted
 .
@@ -1041,6 +1031,11 @@ includes
 (
 prop
 )
+|
+|
+tab
+.
+hasTabPermission
 )
 {
 nonempty
