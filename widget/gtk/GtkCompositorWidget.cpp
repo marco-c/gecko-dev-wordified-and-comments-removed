@@ -366,6 +366,7 @@ GtkCompositorWidget
 :
 StartRemoteDrawingInRegion
 (
+const
 LayoutDeviceIntRegion
 &
 aInvalidRegion

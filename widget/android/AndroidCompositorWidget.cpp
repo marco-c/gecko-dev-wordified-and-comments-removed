@@ -82,6 +82,7 @@ AndroidCompositorWidget
 :
 StartRemoteDrawingInRegion
 (
+const
 LayoutDeviceIntRegion
 &
 aInvalidRegion

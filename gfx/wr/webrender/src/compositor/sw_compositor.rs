@@ -3595,7 +3595,7 @@ graph_node
 }
 }
 fn
-start_compositing
+prepare_for_composites
 (
 &
 self
@@ -8685,7 +8685,7 @@ lock_framebuffer
 ;
 composite_thread
 .
-start_compositing
+prepare_for_composites
 (
 )
 ;
@@ -9068,7 +9068,7 @@ is_empty
 {
 composite_thread
 .
-start_compositing
+prepare_for_composites
 (
 )
 ;

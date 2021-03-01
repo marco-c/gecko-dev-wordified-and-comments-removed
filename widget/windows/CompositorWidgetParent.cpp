@@ -401,6 +401,7 @@ CompositorWidgetParent
 :
 StartRemoteDrawingInRegion
 (
+const
 LayoutDeviceIntRegion
 &
 aInvalidRegion

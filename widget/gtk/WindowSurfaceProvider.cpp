@@ -442,6 +442,7 @@ WindowSurfaceProvider
 :
 StartRemoteDrawingInRegion
 (
+const
 LayoutDeviceIntRegion
 &
 aInvalidRegion

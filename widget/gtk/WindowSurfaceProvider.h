@@ -157,6 +157,7 @@ DrawTarget
 >
 StartRemoteDrawingInRegion
 (
+const
 LayoutDeviceIntRegion
 &
 aInvalidRegion

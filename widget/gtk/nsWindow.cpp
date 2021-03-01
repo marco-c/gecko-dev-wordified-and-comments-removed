@@ -35647,6 +35647,7 @@ nsWindow
 :
 StartRemoteDrawingInRegion
 (
+const
 LayoutDeviceIntRegion
 &
 aInvalidRegion
