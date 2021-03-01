@@ -289,7 +289,6 @@ label
 =
 '
 Stop
-It
 '
 ]
 "
