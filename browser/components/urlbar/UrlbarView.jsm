@@ -6116,6 +6116,17 @@ true
 ;
 }
 else
+if
+(
+result
+.
+providerName
+!
+=
+"
+UrlbarProviderQuickSuggest
+"
+)
 {
 setURL
 =
