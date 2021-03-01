@@ -3200,15 +3200,10 @@ threadRow
 nextSibling
 )
 {
-await
-TestUtils
+Assert
 .
-waitForCondition
+ok
 (
-(
-)
-=
->
 threadRow
 .
 children
@@ -3223,7 +3218,7 @@ threadRow
 .
 children
 [
-2
+1
 ]
 .
 textContent
@@ -3249,7 +3244,7 @@ cpuContent
 =
 children
 [
-2
+1
 ]
 .
 textContent
@@ -3339,9 +3334,8 @@ checks
 :
 CPU
 (
-User
-and
-Kernel
+per
+thread
 )
 "
 )
