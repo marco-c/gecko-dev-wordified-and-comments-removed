@@ -1427,6 +1427,14 @@ name
 )
 )
 {
+if
+(
+IsIdentifier
+(
+atom
+)
+)
+{
 cx
 -
 >
@@ -1445,6 +1453,7 @@ setString
 atom
 )
 ;
+}
 }
 }
 }
