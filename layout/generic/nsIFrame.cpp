@@ -34985,12 +34985,8 @@ hasDisplayItem
 aDisplayItemKey
 |
 |
-FrameLayerBuilder
-:
-:
-HasRetainedDataFor
+HasDisplayItem
 (
-this
 aDisplayItemKey
 )
 ;
@@ -35037,12 +35033,8 @@ hasDisplayItem
 aDisplayItemKey
 |
 |
-FrameLayerBuilder
-:
-:
-HasRetainedDataFor
+HasDisplayItem
 (
-this
 aDisplayItemKey
 )
 ;
