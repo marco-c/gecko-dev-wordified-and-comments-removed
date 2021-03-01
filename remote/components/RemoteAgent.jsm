@@ -182,9 +182,15 @@ this
 "
 log
 "
+(
+)
+=
+>
 Log
 .
 get
+(
+)
 )
 ;
 const
