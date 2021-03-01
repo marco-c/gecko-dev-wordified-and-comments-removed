@@ -2712,7 +2712,7 @@ bool
 AxisY
 :
 :
-CanScrollDownwardsWithDynamicToolbar
+CanVerticalScrollWithDynamicToolbar
 (
 )
 const
