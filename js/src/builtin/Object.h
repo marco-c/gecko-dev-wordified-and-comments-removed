@@ -69,10 +69,6 @@ NewObjectKind
 newKind
 =
 GenericObject
-HandleObjectGroup
-group
-=
-nullptr
 )
 ;
 PlainObject
