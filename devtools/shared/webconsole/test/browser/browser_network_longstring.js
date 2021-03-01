@@ -61,7 +61,7 @@ const
 target
 =
 await
-getTargetForTab
+createAndAttachTargetForTab
 (
 tab
 )
