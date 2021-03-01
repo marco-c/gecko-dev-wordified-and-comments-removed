@@ -1597,6 +1597,17 @@ DecoderDoctorReportType
 error
 )
 ;
+[
+Throws
+ChromeOnly
+]
+void
+setDecodeError
+(
+DOMString
+error
+)
+;
 }
 ;
 /
