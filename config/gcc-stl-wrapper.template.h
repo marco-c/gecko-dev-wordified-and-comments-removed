@@ -94,6 +94,14 @@ moz_dont_include_mozalloc_for_limits
 #
 endif
 #
+ifndef
+moz_dont_include_mozalloc_for_iosfwd
+#
+define
+moz_dont_include_mozalloc_for_iosfwd
+#
+endif
+#
 if
 !
 defined
