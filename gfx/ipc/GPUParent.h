@@ -94,6 +94,12 @@ nsACString
 aStr
 )
 ;
+static
+void
+MaybeFlushMemory
+(
+)
+;
 bool
 Init
 (
