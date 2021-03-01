@@ -555,10 +555,6 @@ texture
 :
 TextureSource
 pub
-texture_layer
-:
-i32
-pub
 uv_rect
 :
 TexelRect
@@ -582,9 +578,6 @@ TextureSource
 :
 :
 Invalid
-texture_layer
-:
-0
 uv_rect
 :
 TexelRect
@@ -3184,9 +3177,6 @@ texture
 cache_item
 .
 texture_id
-texture_layer
-:
-0
 uv_rect
 :
 cache_item
