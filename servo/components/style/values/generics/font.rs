@@ -238,13 +238,6 @@ Number
 }
 #
 [
-css
-(
-comma
-)
-]
-#
-[
 derive
 (
 Clone
@@ -257,6 +250,13 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+)
+]
+#
+[
+css
+(
+comma
 )
 ]
 pub

@@ -2153,9 +2153,6 @@ as_str
 panic
 !
 (
-format
-!
-(
 "
 Unknown
 key
@@ -2164,7 +2161,6 @@ key
 }
 "
 key
-)
 )
 ;
 }
