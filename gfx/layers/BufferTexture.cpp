@@ -93,6 +93,13 @@ TextureForwarder
 h
 "
 #
+include
+"
+gfxPlatform
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_GTK
 #
