@@ -224,6 +224,12 @@ mListener
 ;
 nsCOMPtr
 <
+nsIUDPSocketSyncListener
+>
+mSyncListener
+;
+nsCOMPtr
+<
 nsIEventTarget
 >
 mListenerTarget
