@@ -2241,6 +2241,16 @@ this
 currentTarget
 ;
 }
+getToolbox
+(
+)
+{
+return
+this
+.
+toolbox
+;
+}
 viewSourceInDebugger
 (
 sourceURL
