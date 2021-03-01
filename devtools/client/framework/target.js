@@ -53,7 +53,7 @@ WeakMap
 ;
 exports
 .
-TabTargetFactory
+TargetFactory
 =
 {
 forTab

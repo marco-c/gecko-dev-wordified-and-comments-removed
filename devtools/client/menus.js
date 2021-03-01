@@ -43,7 +43,7 @@ lazyRequireGetter
 (
 this
 "
-TabTargetFactory
+TargetFactory
 "
 "
 devtools
@@ -52,11 +52,7 @@ client
 /
 framework
 /
-tab
--
 target
--
-factory
 "
 true
 )
@@ -479,7 +475,7 @@ const
 target
 =
 await
-TabTargetFactory
+TargetFactory
 .
 forTab
 (

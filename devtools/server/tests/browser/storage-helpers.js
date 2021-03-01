@@ -171,7 +171,7 @@ const
 target
 =
 await
-createAndAttachTargetForTab
+getTargetForTab
 (
 gBrowser
 .

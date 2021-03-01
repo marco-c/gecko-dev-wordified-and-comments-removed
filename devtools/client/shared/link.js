@@ -33,7 +33,7 @@ devtools
 ;
 const
 {
-TabTargetFactory
+TargetFactory
 }
 =
 require
@@ -45,11 +45,7 @@ client
 /
 framework
 /
-tab
--
 target
--
-factory
 "
 )
 ;
@@ -217,7 +213,7 @@ selectedTab
 ;
 if
 (
-TabTargetFactory
+TargetFactory
 .
 isKnownTab
 (
