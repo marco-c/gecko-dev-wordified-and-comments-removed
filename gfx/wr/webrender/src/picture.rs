@@ -2514,9 +2514,6 @@ TextureCache
 texture
 :
 TextureSource
-layer
-:
-i32
 }
 Native
 {
@@ -2584,11 +2581,6 @@ texture
 cache_item
 .
 texture_id
-layer
-:
-cache_item
-.
-texture_layer
 }
 }
 SurfaceTextureDescriptor
