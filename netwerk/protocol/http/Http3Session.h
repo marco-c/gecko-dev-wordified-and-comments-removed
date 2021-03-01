@@ -768,12 +768,6 @@ mCurrentForegroundTabOuterContentWindowId
 bool
 mTimerActive
 ;
-nsTArray
-<
-uint8_t
->
-mPacketToSend
-;
 RefPtr
 <
 HttpConnectionUDP
