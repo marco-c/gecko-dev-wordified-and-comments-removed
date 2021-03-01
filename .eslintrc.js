@@ -4392,7 +4392,7 @@ customizableui
 /
 test
 /
-browser_proton_toolbar_hide_home_and_library_buttons
+browser_proton_toolbar_hide_toolbarbuttons
 .
 js
 "
