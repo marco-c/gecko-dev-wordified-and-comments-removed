@@ -1332,6 +1332,11 @@ NamedTemporaryFile
 delete
 =
 False
+mode
+=
+"
+w
+"
 )
 as
 filter_list
