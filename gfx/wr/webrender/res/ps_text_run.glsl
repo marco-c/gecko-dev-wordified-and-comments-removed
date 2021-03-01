@@ -349,9 +349,6 @@ GlyphResource
 vec4
 uv_rect
 ;
-float
-layer
-;
 vec2
 offset
 ;
@@ -385,12 +382,6 @@ data
 [
 0
 ]
-data
-[
-1
-]
-.
-x
 data
 [
 1

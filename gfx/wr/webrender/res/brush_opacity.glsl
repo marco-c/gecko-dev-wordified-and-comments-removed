@@ -106,13 +106,6 @@ v_uv_sample_bounds
 ;
 /
 /
-Layer
-index
-to
-sample
-.
-/
-/
 Flag
 to
 allow

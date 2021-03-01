@@ -75,11 +75,6 @@ vUvBounds
 ;
 flat
 varying
-float
-vLayer
-;
-flat
-varying
 vec4
 vEdge
 ;
@@ -309,12 +304,6 @@ base
 .
 device_pixel_scale
 )
-;
-vLayer
-=
-res
-.
-layer
 ;
 vClipMode
 =
@@ -745,7 +734,9 @@ sColor0
 vec3
 (
 uv
-vLayer
+0
+.
+0
 )
 )
 .
