@@ -380,9 +380,6 @@ TextureRect
 TextureExternal
 =
 2
-Texture2DArray
-=
-3
 }
 #
 [
