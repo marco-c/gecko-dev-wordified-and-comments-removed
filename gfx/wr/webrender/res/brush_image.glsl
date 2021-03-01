@@ -2142,13 +2142,7 @@ texel
 TEX_SAMPLE
 (
 sColor0
-vec3
-(
 uv
-0
-.
-0
-)
 )
 ;
 Fragment

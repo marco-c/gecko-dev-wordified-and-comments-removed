@@ -268,13 +268,7 @@ oFragColor
 TEX_SAMPLE
 (
 sColor0
-vec3
-(
 st
-0
-.
-0
-)
 )
 ;
 }
