@@ -4543,12 +4543,6 @@ avatarURL
 state
 .
 avatarIsDefault
-&
-&
-!
-PanelUI
-.
-protonAppMenuEnabled
 )
 {
 const
