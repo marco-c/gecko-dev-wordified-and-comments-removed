@@ -3424,7 +3424,7 @@ sClearThread
 ShutdownPhase
 :
 :
-ShutdownThreads
+XPCOMShutdownThreads
 )
 ;
 }

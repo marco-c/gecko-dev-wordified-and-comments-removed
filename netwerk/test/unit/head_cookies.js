@@ -432,11 +432,7 @@ before
 -
 change
 "
-"
-shutdown
--
-persist
-"
+null
 )
 ;
 }
@@ -588,11 +584,7 @@ before
 -
 change
 "
-"
-shutdown
--
-persist
-"
+null
 )
 ;
 return

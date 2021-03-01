@@ -187,11 +187,7 @@ before
 -
 change
 "
-"
-shutdown
--
-persist
-"
+null
 )
 ;
 }

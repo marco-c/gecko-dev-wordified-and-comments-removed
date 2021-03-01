@@ -2845,7 +2845,7 @@ return
 ShutdownPhase
 :
 :
-Shutdown
+XPCOMShutdown
 )
 ;
 }
