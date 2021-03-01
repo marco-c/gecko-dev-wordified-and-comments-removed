@@ -146,11 +146,8 @@ ONLY_ZOOM_TO_DEFAULT_SCALE
 class
 AsyncDragMetrics
 ;
-enum
-class
+struct
 APZHandledResult
-:
-uint8_t
 ;
 class
 IAPZCTreeManager
@@ -344,7 +341,9 @@ void
 (
 uint64_t
 aInputBlockId
+const
 APZHandledResult
+&
 aHandledResult
 )
 >
