@@ -170,13 +170,6 @@ cmd_delete
 menuitem
 >
 <
-menuseparator
->
-<
-/
-menuseparator
->
-<
 menuitem
 data
 -
