@@ -2217,7 +2217,7 @@ CountTable
 sChannelCounts
 -
 >
-GetOrInsert
+LookupOrInsert
 (
 aName
 )
@@ -2251,7 +2251,7 @@ sChannelCounts
 sChannelCounts
 -
 >
-GetOrInsert
+LookupOrInsert
 (
 aName
 )

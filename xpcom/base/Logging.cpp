@@ -2548,7 +2548,7 @@ mModulesLock
 return
 mModules
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aName
 [

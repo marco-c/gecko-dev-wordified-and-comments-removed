@@ -636,7 +636,7 @@ aCreate
 return
 mTimers
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aKey
 [

@@ -3259,7 +3259,7 @@ callbacksArray
 =
 mChangeCallbacksTable
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aPath
 [
@@ -3321,7 +3321,7 @@ errorCallbacksArray
 =
 mErrorCallbacksTable
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aPath
 [

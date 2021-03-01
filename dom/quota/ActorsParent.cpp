@@ -13624,7 +13624,7 @@ GetPersistenceType
 ;
 directoryLockTable
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aLock
 .
@@ -18750,7 +18750,7 @@ originInfo
 >
 mQuotaObjects
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 path
 [
@@ -25179,7 +25179,7 @@ info
 =
 mOriginInitializationInfos
 .
-GetOrInsert
+LookupOrInsert
 (
 aOriginMetadata
 .
@@ -25390,7 +25390,7 @@ info
 =
 mOriginInitializationInfos
 .
-GetOrInsert
+LookupOrInsert
 (
 aOriginMetadata
 .
@@ -27993,7 +27993,7 @@ pair
 =
 mGroupInfoPairs
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aGroup
 [
@@ -29243,7 +29243,7 @@ AssertIsOnIOThread
 return
 mValidOrigins
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aSanitizedOrigin
 [

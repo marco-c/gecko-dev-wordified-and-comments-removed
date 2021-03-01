@@ -649,7 +649,7 @@ Args
 >
 DataType
 &
-GetOrInsert
+LookupOrInsert
 (
 const
 KeyType
@@ -711,7 +711,7 @@ F
 >
 DataType
 &
-GetOrInsertWith
+LookupOrInsertWith
 (
 const
 KeyType

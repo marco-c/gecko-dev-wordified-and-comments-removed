@@ -6765,7 +6765,7 @@ scalarStorage
 =
 processStorage
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 storageId
 [
@@ -7652,7 +7652,7 @@ scalarStorage
 =
 processStorage
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 storageId
 [
@@ -8617,7 +8617,7 @@ processScalars
 =
 aScalarsToReflect
 .
-GetOrInsert
+LookupOrInsert
 (
 iter
 .
@@ -8878,7 +8878,7 @@ processScalars
 =
 aScalarsToReflect
 .
-GetOrInsert
+LookupOrInsert
 (
 iter
 .
@@ -17377,7 +17377,7 @@ processScalars
 =
 scalarsToUpdate
 .
-GetOrInsert
+LookupOrInsert
 (
 static_cast
 <
@@ -18136,7 +18136,7 @@ processScalars
 =
 scalarsToUpdate
 .
-GetOrInsert
+LookupOrInsert
 (
 static_cast
 <

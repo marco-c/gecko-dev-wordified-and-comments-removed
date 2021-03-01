@@ -1190,7 +1190,7 @@ restyleEntry
 =
 elementsToRestyle
 .
-GetOrInsert
+LookupOrInsert
 (
 key
 false

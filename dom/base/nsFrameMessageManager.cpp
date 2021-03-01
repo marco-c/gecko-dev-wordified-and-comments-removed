@@ -1447,7 +1447,7 @@ listeners
 =
 mListeners
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aMessageName
 [
@@ -1885,7 +1885,7 @@ listeners
 =
 mListeners
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aMessageName
 [

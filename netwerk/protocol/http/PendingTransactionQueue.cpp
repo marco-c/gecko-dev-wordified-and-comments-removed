@@ -250,7 +250,7 @@ infoArray
 =
 mPendingTransactionTable
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 windowId
 [

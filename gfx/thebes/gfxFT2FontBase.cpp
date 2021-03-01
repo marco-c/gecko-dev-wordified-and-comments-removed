@@ -3266,7 +3266,7 @@ metrics
 mGlyphMetrics
 -
 >
-GetOrInsert
+LookupOrInsert
 (
 aGID
 )

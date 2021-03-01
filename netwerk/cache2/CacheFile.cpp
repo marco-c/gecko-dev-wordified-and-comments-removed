@@ -10900,7 +10900,7 @@ aCallback
 ;
 mChunkListeners
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aIndex
 [

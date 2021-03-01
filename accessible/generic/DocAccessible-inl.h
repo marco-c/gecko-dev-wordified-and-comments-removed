@@ -855,7 +855,7 @@ hash
 =
 mDependentIDsHashes
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 docOrShadowRoot
 [
@@ -880,7 +880,7 @@ return
 hash
 -
 >
-GetOrInsertWith
+LookupOrInsertWith
 (
 aID
 [

@@ -20647,13 +20647,10 @@ true
 return
 ;
 }
-Unused
-<
-<
 observers
 -
 >
-GetOrInsert
+LookupOrInsert
 (
 aObserver
 eUninitialized

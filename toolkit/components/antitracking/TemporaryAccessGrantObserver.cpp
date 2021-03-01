@@ -152,13 +152,10 @@ ObserversTable
 )
 ;
 }
-Unused
-<
-<
 sObservers
 -
 >
-GetOrInsertWith
+LookupOrInsertWith
 (
 std
 :

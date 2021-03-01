@@ -1717,7 +1717,7 @@ aCounterName
 return
 mNames
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aCounterName
 [

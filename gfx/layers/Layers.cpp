@@ -12677,7 +12677,7 @@ false
 }
 mPendingScrollUpdates
 .
-GetOrInsert
+LookupOrInsert
 (
 aScrollId
 )

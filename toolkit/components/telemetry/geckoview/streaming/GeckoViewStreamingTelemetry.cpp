@@ -1232,7 +1232,7 @@ samples
 =
 gCategoricalBatch
 .
-GetOrInsert
+LookupOrInsert
 (
 aName
 )
@@ -1256,7 +1256,7 @@ samples
 =
 gBatch
 .
-GetOrInsert
+LookupOrInsert
 (
 aName
 )

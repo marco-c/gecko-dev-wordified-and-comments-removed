@@ -2465,7 +2465,7 @@ directoryInfo
 =
 mDirectoryInfos
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 directoryId
 [

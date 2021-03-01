@@ -7502,7 +7502,7 @@ faceListPtr
 =
 faces
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 keyName
 [
@@ -7841,7 +7841,7 @@ keyName
 ;
 faces
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 keyName
 [

@@ -6734,7 +6734,7 @@ mLock
 ;
 mFailedSVCDomainNames
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aOwnerName
 [

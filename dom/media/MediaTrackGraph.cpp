@@ -3153,7 +3153,7 @@ listeners
 =
 mInputDeviceUsers
 .
-GetOrInsert
+LookupOrInsert
 (
 aID
 )

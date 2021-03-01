@@ -5334,7 +5334,7 @@ domainInfo
 =
 mDomainMap
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 domain
 [
@@ -5691,7 +5691,7 @@ windowArray
 =
 mWindowMap
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 window
 [

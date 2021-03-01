@@ -623,7 +623,7 @@ observation
 =
 mObservationMap
 .
-GetOrInsert
+LookupOrInsert
 (
 &
 aTarget

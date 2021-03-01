@@ -31641,7 +31641,7 @@ WrapNotNull
 (
 mFileInfoEntries
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 id
 [

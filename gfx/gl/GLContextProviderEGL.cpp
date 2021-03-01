@@ -4670,7 +4670,7 @@ surface
 ;
 sWaylandGLSurface
 .
-GetOrInsert
+LookupOrInsert
 (
 surface
 new

@@ -12293,7 +12293,7 @@ array
 gObservers
 -
 >
-GetOrInsertWith
+LookupOrInsertWith
 (
 notNullObserver
 -
@@ -22186,12 +22186,9 @@ aKey
 )
 )
 {
-Unused
-<
-<
 mValues
 .
-GetOrInsert
+LookupOrInsert
 (
 aKey
 aOldValue

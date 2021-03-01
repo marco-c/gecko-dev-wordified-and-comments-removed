@@ -403,7 +403,7 @@ fromEdges
 =
 mAdjacencyList
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 fromStr
 [
@@ -441,7 +441,7 @@ Unused
 <
 mAdjacencyList
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 toStr
 [

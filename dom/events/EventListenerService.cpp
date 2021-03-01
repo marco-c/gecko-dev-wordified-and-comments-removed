@@ -1739,7 +1739,7 @@ changes
 =
 mPendingListenerChangesSet
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aTarget
 [
