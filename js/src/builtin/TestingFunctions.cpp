@@ -3796,6 +3796,15 @@ helperThreadCount
 JSGC_HELPER_THREAD_COUNT
 false
 )
+\
+_
+(
+"
+systemPageSizeKB
+"
+JSGC_SYSTEM_PAGE_SIZE_KB
+false
+)
 static
 const
 struct
