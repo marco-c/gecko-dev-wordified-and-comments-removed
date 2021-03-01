@@ -279,7 +279,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 mcc
@@ -346,7 +345,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 mcc
@@ -413,7 +411,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 mcc
@@ -507,7 +504,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 mcc
@@ -563,7 +559,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 mcc
@@ -619,7 +614,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 mcc
@@ -670,7 +664,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 mcc
@@ -845,7 +838,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 touchY
@@ -889,7 +881,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 touchY
@@ -933,7 +924,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 mti
@@ -988,7 +978,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 mti
@@ -1029,7 +1018,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 touchY
@@ -1073,7 +1061,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 touchY
@@ -1117,7 +1104,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 mti
@@ -1156,7 +1142,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 FrameMetrics
@@ -2753,8 +2738,6 @@ ScreenSize
 )
 ;
 result
-.
-mStatus
 =
 apzc
 -
@@ -2762,7 +2745,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 EXPECT_EQ
@@ -3731,7 +3713,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 mti
@@ -3806,7 +3787,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 apzc
@@ -3929,7 +3909,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 mti
@@ -4004,7 +3983,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 mti
@@ -4079,7 +4057,6 @@ apzc
 ReceiveInputEvent
 (
 mti
-nullptr
 )
 ;
 apzc
