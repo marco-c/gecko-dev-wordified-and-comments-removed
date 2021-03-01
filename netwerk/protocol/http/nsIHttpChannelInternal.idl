@@ -434,7 +434,6 @@ boolean
 isTRRServiceChannel
 ;
 [
-noscript
 must_use
 ]
 readonly
