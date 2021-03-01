@@ -4,6 +4,7 @@ re
 /
 .
 /
+d
 ;
 const
 indices

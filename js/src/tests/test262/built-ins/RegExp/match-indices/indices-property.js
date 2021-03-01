@@ -32,6 +32,7 @@ match
 /
 a
 /
+d
 .
 exec
 (

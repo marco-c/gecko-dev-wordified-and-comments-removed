@@ -23,6 +23,7 @@ match
 a
 )
 /
+d
 )
 .
 indices
@@ -55,6 +56,7 @@ a
 )
 .
 /
+d
 )
 .
 indices
@@ -93,6 +95,7 @@ a
 .
 )
 /
+d
 )
 .
 indices
@@ -127,6 +130,7 @@ w
 w
 )
 /
+d
 )
 .
 indices
@@ -162,6 +166,7 @@ w
 w
 )
 /
+d
 )
 .
 indices
@@ -203,6 +208,7 @@ w
 w
 )
 /
+d
 )
 .
 indices
@@ -242,6 +248,7 @@ W
 )
 ?
 /
+d
 )
 .
 indices
@@ -288,6 +295,7 @@ k
 a
 >
 /
+d
 .
 exec
 (
@@ -640,6 +648,7 @@ match
 /
 .
 /
+d
 )
 .
 indices
@@ -686,6 +695,7 @@ match
 /
 .
 /
+d
 )
 .
 indices
@@ -737,6 +747,7 @@ match
 /
 .
 /
+d
 )
 .
 indices
@@ -790,6 +801,7 @@ a
 .
 )
 /
+d
 )
 .
 indices
@@ -847,6 +859,7 @@ a
 .
 )
 /
+d
 )
 .
 indices
@@ -909,6 +922,7 @@ a
 .
 )
 /
+d
 )
 .
 indices

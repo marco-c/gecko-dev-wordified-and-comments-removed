@@ -4,6 +4,7 @@ match
 /
 a
 /
+d
 .
 exec
 (
