@@ -3416,10 +3416,7 @@ texture_cache
 :
 FastHashMap
 <
-(
 CacheTextureId
-usize
-)
 TextureCacheRenderTarget
 >
 pub
@@ -5206,9 +5203,6 @@ CacheTextureId
 (
 0
 )
-layer
-:
-0
 target_kind
 :
 RenderTargetKind
@@ -5231,9 +5225,6 @@ CacheTextureId
 (
 1
 )
-layer
-:
-0
 target_kind
 :
 RenderTargetKind

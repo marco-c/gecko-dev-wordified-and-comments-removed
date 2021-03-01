@@ -868,7 +868,6 @@ Default
 let
 (
 texture_id
-texture_layer
 uv_rect
 _
 _
@@ -896,9 +895,6 @@ TextureCache
 texture
 :
 texture_id
-layer
-:
-texture_layer
 target_kind
 }
 ;

@@ -3601,7 +3601,6 @@ TextureCache
 {
 target_kind
 texture
-layer
 .
 .
 }
@@ -3618,10 +3617,7 @@ texture_cache
 .
 entry
 (
-(
 texture
-layer
-)
 )
 .
 or_insert_with
@@ -4056,10 +4052,7 @@ task_id
 ]
 ;
 let
-(
 target_rect
-_
-)
 =
 task
 .

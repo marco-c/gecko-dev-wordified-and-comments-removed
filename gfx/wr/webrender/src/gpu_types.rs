@@ -3385,7 +3385,7 @@ p1
 :
 DevicePoint
 pub
-texture_layer
+unused
 :
 f32
 pub
@@ -3452,7 +3452,7 @@ push
 [
 self
 .
-texture_layer
+unused
 self
 .
 user_data

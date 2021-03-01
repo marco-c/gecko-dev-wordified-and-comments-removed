@@ -3186,9 +3186,7 @@ cache_item
 texture_id
 texture_layer
 :
-cache_item
-.
-texture_layer
+0
 uv_rect
 :
 cache_item
