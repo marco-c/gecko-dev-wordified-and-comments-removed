@@ -2067,10 +2067,6 @@ avx
 ]
 pub
 unsafe
-extern
-"
-C
-"
 fn
 qcms_transform_data_rgb_out_lut_avx
 (
@@ -2124,10 +2120,6 @@ avx
 ]
 pub
 unsafe
-extern
-"
-C
-"
 fn
 qcms_transform_data_rgba_out_lut_avx
 (
@@ -2181,10 +2173,6 @@ avx
 ]
 pub
 unsafe
-extern
-"
-C
-"
 fn
 qcms_transform_data_bgra_out_lut_avx
 (
