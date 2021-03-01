@@ -469,11 +469,13 @@ g
 windowUtils
 .
 layerManagerType
-=
-=
+.
+startsWith
+(
 "
 WebRender
 "
+)
 ;
 }
 function

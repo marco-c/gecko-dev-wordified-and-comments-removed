@@ -47,11 +47,13 @@ window
 windowUtils
 .
 layerManagerType
-=
-=
+.
+startsWith
+(
 "
 WebRender
 "
+)
 ;
 const
 SKELETONUI

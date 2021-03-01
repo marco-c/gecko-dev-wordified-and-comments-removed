@@ -150,11 +150,13 @@ isWebRender
 utils
 .
 layerManagerType
-=
-=
+.
+startsWith
+(
 "
 WebRender
 "
+)
 ;
 var
 subtests
