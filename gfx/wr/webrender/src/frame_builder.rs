@@ -82,18 +82,6 @@ use
 crate
 :
 :
-frame_graph
-:
-:
-{
-Pass
-SubPassSurface
-}
-;
-use
-crate
-:
-:
 gpu_cache
 :
 :
@@ -274,6 +262,8 @@ render_task_graph
 {
 RenderTaskId
 RenderTaskGraph
+Pass
+SubPassSurface
 }
 ;
 use
