@@ -597,7 +597,11 @@ urlbar
 not
 (
 [
-open
+focused
+=
+"
+true
+"
 ]
 )
 >
@@ -607,6 +611,14 @@ urlbar
 background
 #
 searchbar
+:
+not
+(
+:
+focus
+-
+within
+)
 {
 background
 -
