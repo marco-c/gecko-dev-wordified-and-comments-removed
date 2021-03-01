@@ -1268,9 +1268,6 @@ false
 PlacesObservers
 :
 false
-PlacesPurgeCaches
-:
-false
 PlacesRanking
 :
 false

@@ -229,6 +229,16 @@ resolve
 }
 }
 }
+onBeginUpdateBatch
+(
+)
+{
+}
+onEndUpdateBatch
+(
+)
+{
+}
 onItemMoved
 (
 )

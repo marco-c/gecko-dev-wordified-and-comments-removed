@@ -221,6 +221,16 @@ skipTags
 true
 ;
 }
+onBeginUpdateBatch
+(
+)
+{
+}
+onEndUpdateBatch
+(
+)
+{
+}
 onItemMoved
 (
 )

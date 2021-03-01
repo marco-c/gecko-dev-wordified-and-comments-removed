@@ -39,6 +39,16 @@ bookmarks
 addObserver
 (
 {
+onBeginUpdateBatch
+(
+)
+{
+}
+onEndUpdateBatch
+(
+)
+{
+}
 onItemMoved
 (
 )

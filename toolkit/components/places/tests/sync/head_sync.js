@@ -1955,6 +1955,16 @@ break
 }
 }
 }
+onBeginUpdateBatch
+(
+)
+{
+}
+onEndUpdateBatch
+(
+)
+{
+}
 onItemChanged
 (
 itemId

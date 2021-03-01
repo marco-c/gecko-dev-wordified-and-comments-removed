@@ -1887,6 +1887,16 @@ aItemId
 ;
 }
 }
+onBeginUpdateBatch
+(
+)
+{
+}
+onEndUpdateBatch
+(
+)
+{
+}
 classID
 :
 Components
