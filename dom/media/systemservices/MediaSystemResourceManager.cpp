@@ -531,7 +531,7 @@ MOZ_ASSERT
 !
 mResourceClients
 .
-Get
+Contains
 (
 aClient
 -
@@ -578,7 +578,7 @@ MOZ_ASSERT
 (
 mResourceClients
 .
-Get
+Contains
 (
 aClient
 -
