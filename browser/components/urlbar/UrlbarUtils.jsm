@@ -4348,6 +4348,15 @@ type
 string
 "
 }
+sponsoredText
+:
+{
+type
+:
+"
+string
+"
+}
 sponsoredTileId
 :
 {
