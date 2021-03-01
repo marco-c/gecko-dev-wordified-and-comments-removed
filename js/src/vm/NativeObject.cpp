@@ -5805,7 +5805,7 @@ propp
 )
 {
 return
-LookupOwnPropertyInline
+NativeLookupOwnPropertyInline
 <
 allowGC
 >
@@ -10074,7 +10074,7 @@ for
 if
 (
 !
-LookupOwnPropertyInline
+NativeLookupOwnPropertyInline
 <
 CanGC
 >
@@ -11272,7 +11272,7 @@ for
 if
 (
 !
-LookupOwnPropertyInline
+NativeLookupOwnPropertyInline
 <
 allowGC
 >
@@ -12905,7 +12905,7 @@ for
 if
 (
 !
-LookupOwnPropertyInline
+NativeLookupOwnPropertyInline
 <
 CanGC
 >

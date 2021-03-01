@@ -3577,7 +3577,7 @@ allowGC
 static
 MOZ_ALWAYS_INLINE
 bool
-LookupOwnPropertyInline
+NativeLookupOwnPropertyInline
 (
 JSContext
 *
@@ -4093,7 +4093,7 @@ allowGC
 static
 MOZ_ALWAYS_INLINE
 bool
-LookupPropertyInline
+NativeLookupPropertyInline
 (
 JSContext
 *
@@ -4166,7 +4166,7 @@ true
 if
 (
 !
-LookupOwnPropertyInline
+NativeLookupOwnPropertyInline
 <
 allowGC
 >

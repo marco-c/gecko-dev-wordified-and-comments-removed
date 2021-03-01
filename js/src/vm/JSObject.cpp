@@ -11200,7 +11200,7 @@ propp
 ;
 }
 return
-LookupPropertyInline
+NativeLookupPropertyInline
 <
 CanGC
 >
@@ -11428,7 +11428,7 @@ false
 if
 (
 !
-LookupPropertyInline
+NativeLookupPropertyInline
 <
 NoGC
 >
