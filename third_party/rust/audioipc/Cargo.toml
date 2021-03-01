@@ -96,6 +96,13 @@ log
 .
 4
 "
+memmap
+=
+"
+0
+.
+7
+"
 serde
 =
 "
@@ -185,13 +192,6 @@ reactor
 0
 .
 1
-"
-memmap
-=
-"
-0
-.
-7
 "
 [
 target
