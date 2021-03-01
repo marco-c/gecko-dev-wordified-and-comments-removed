@@ -1202,8 +1202,7 @@ u32
 {
 if
 offset
-<
-=
+>
 mem
 .
 len
@@ -1289,8 +1288,7 @@ u16
 {
 if
 offset
-<
-=
+>
 mem
 .
 len
