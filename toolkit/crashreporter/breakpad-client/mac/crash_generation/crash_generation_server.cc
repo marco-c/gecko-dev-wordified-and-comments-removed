@@ -288,6 +288,14 @@ void
 server
 )
 {
+pthread_setname_np
+(
+"
+Breakpad
+CrashGenerationServer
+"
+)
+;
 CrashGenerationServer
 *
 self
