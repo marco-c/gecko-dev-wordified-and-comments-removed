@@ -455,7 +455,6 @@ CacheTextureId
 DebugOutput
 FastHashMap
 FastHashSet
-LayerIndex
 RenderedDocument
 ResultMsg
 }
@@ -17828,9 +17827,6 @@ texture
 :
 &
 CacheTextureId
-layer
-:
-LayerIndex
 target
 :
 &
@@ -17952,7 +17948,7 @@ DrawTarget
 from_texture
 (
 texture
-layer
+0
 false
 )
 ;
@@ -20423,7 +20419,6 @@ draw_texture_cache_target
 (
 &
 texture_id
-0
 target
 &
 frame
