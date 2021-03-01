@@ -131,7 +131,7 @@ lazyRequireGetter
 (
 this
 "
-TargetFactory
+TabTargetFactory
 "
 "
 devtools
@@ -140,7 +140,11 @@ client
 /
 framework
 /
+tab
+-
 target
+-
+factory
 "
 true
 )
@@ -460,7 +464,7 @@ options
 const
 isKnownTab
 =
-TargetFactory
+TabTargetFactory
 .
 isKnownTab
 (
@@ -732,7 +736,7 @@ tab
 const
 isKnownTab
 =
-TargetFactory
+TabTargetFactory
 .
 isKnownTab
 (
