@@ -188,7 +188,7 @@ UrlbarUtils
 .
 PROVIDER_TYPE
 .
-PROFILE
+NETWORK
 ;
 }
 isActive
@@ -441,7 +441,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-OTHER_NETWORK
+SEARCH
 payload
 )
 ;
