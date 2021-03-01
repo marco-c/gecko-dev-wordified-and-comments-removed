@@ -1850,6 +1850,11 @@ wrap
 urlbarView
 -
 row
+[
+has
+-
+url
+]
 :
 is
 (
@@ -5389,6 +5394,11 @@ collapse
 urlbarView
 -
 row
+[
+has
+-
+url
+]
 :
 is
 (
