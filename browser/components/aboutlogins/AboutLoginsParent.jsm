@@ -1019,8 +1019,9 @@ ImportReportInit
 let
 reportData
 =
-[
-]
+LoginCSVImport
+.
+lastImportReport
 ;
 this
 .
