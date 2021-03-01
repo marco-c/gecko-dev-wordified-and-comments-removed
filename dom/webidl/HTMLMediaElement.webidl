@@ -1608,6 +1608,14 @@ DOMString
 error
 )
 ;
+[
+ChromeOnly
+]
+void
+setAudioSinkFailedStartup
+(
+)
+;
 }
 ;
 /
