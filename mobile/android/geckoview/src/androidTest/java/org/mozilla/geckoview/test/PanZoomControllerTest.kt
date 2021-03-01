@@ -1782,12 +1782,6 @@ y
 0
 )
 ;
-Suppress
-(
-"
-DEPRECATION
-"
-)
 val
 result
 =
@@ -3213,12 +3207,6 @@ ACTION_DOWN
 50f
 90f
 0
-)
-Suppress
-(
-"
-DEPRECATION
-"
 )
 val
 result

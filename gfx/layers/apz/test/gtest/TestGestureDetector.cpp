@@ -279,6 +279,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 mcc
@@ -345,6 +346,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 mcc
@@ -411,6 +413,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 mcc
@@ -504,6 +507,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 mcc
@@ -559,6 +563,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 mcc
@@ -614,6 +619,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 mcc
@@ -664,6 +670,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 mcc
@@ -838,6 +845,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 touchY
@@ -881,6 +889,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 touchY
@@ -924,6 +933,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 mti
@@ -978,6 +988,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 mti
@@ -1018,6 +1029,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 touchY
@@ -1061,6 +1073,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 touchY
@@ -1104,6 +1117,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 mti
@@ -1142,6 +1156,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 FrameMetrics
@@ -2167,9 +2182,7 @@ EXPECT_EQ
 nsEventStatus_eConsumeDoDefault
 result
 .
-GetStatus
-(
-)
+mStatus
 )
 ;
 uint64_t
@@ -2191,9 +2204,7 @@ layout_css_touch_action_enabled
 &
 result
 .
-GetStatus
-(
-)
+mStatus
 !
 =
 nsEventStatus_eConsumeNoDefault
@@ -2411,6 +2422,8 @@ preHandleLongTapUp
 )
 ;
 result
+.
+mStatus
 =
 TouchUp
 (
@@ -2440,9 +2453,7 @@ EXPECT_EQ
 nsEventStatus_eConsumeDoDefault
 result
 .
-GetStatus
-(
-)
+mStatus
 )
 ;
 check
@@ -2523,9 +2534,7 @@ EXPECT_EQ
 nsEventStatus_eConsumeDoDefault
 result
 .
-GetStatus
-(
-)
+mStatus
 )
 ;
 uint64_t
@@ -2547,9 +2556,7 @@ layout_css_touch_action_enabled
 &
 result
 .
-GetStatus
-(
-)
+mStatus
 !
 =
 nsEventStatus_eConsumeNoDefault
@@ -2746,6 +2753,8 @@ ScreenSize
 )
 ;
 result
+.
+mStatus
 =
 apzc
 -
@@ -2753,6 +2762,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 EXPECT_EQ
@@ -2760,9 +2770,7 @@ EXPECT_EQ
 nsEventStatus_eConsumeDoDefault
 result
 .
-GetStatus
-(
-)
+mStatus
 )
 ;
 EXPECT_CALL
@@ -2797,6 +2805,8 @@ Times
 )
 ;
 result
+.
+mStatus
 =
 TouchUp
 (
@@ -2819,9 +2829,7 @@ EXPECT_EQ
 nsEventStatus_eConsumeDoDefault
 result
 .
-GetStatus
-(
-)
+mStatus
 )
 ;
 ParentLayerPoint
@@ -3723,6 +3731,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 mti
@@ -3797,6 +3806,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 apzc
@@ -3919,6 +3929,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 mti
@@ -3993,6 +4004,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 mti
@@ -4067,6 +4079,7 @@ apzc
 ReceiveInputEvent
 (
 mti
+nullptr
 )
 ;
 apzc
@@ -4143,9 +4156,7 @@ layout_css_touch_action_enabled
 &
 result
 .
-GetStatus
-(
-)
+mStatus
 !
 =
 nsEventStatus_eConsumeNoDefault

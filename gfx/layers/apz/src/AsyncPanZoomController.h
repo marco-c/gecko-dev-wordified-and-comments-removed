@@ -1103,14 +1103,8 @@ aDirection
 )
 const
 ;
-SideBits
-ScrollableDirections
-(
-)
-const
-;
 bool
-CanVerticalScrollWithDynamicToolbar
+CanScrollDownwardsWithDynamicToolbar
 (
 )
 const

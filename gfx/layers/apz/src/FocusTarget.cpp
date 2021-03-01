@@ -916,7 +916,7 @@ selectedContent
 get
 (
 )
-VerticalScrollDirection
+VerticalScollDirection
 )
 ;
 ScrollTargets

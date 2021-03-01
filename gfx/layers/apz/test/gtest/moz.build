@@ -13,11 +13,6 @@ TestEventRegions
 cpp
 "
 "
-TestEventResult
-.
-cpp
-"
-"
 TestFlingAcceleration
 .
 cpp
