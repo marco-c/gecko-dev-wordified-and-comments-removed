@@ -291,13 +291,6 @@ eraseEverything
 (
 )
 ;
-UrlbarTestUtils
-.
-init
-(
-this
-)
-;
 }
 )
 ;

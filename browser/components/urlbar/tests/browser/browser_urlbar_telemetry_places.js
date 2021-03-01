@@ -532,13 +532,6 @@ s
 }
 )
 ;
-UrlbarTestUtils
-.
-init
-(
-this
-)
-;
 registerCleanupFunction
 (
 async

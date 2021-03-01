@@ -446,13 +446,6 @@ eraseEverything
 (
 )
 ;
-UrlbarTestUtils
-.
-init
-(
-this
-)
-;
 registerCleanupFunction
 (
 async

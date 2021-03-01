@@ -696,13 +696,6 @@ REMOTE_TAB
 )
 )
 ;
-UrlbarTestUtils
-.
-init
-(
-this
-)
-;
 registerCleanupFunction
 (
 async
