@@ -2167,7 +2167,9 @@ EXPECT_EQ
 nsEventStatus_eConsumeDoDefault
 result
 .
-mStatus
+GetStatus
+(
+)
 )
 ;
 uint64_t
@@ -2189,7 +2191,9 @@ layout_css_touch_action_enabled
 &
 result
 .
-mStatus
+GetStatus
+(
+)
 !
 =
 nsEventStatus_eConsumeNoDefault
@@ -2407,8 +2411,6 @@ preHandleLongTapUp
 )
 ;
 result
-.
-mStatus
 =
 TouchUp
 (
@@ -2438,7 +2440,9 @@ EXPECT_EQ
 nsEventStatus_eConsumeDoDefault
 result
 .
-mStatus
+GetStatus
+(
+)
 )
 ;
 check
@@ -2519,7 +2523,9 @@ EXPECT_EQ
 nsEventStatus_eConsumeDoDefault
 result
 .
-mStatus
+GetStatus
+(
+)
 )
 ;
 uint64_t
@@ -2541,7 +2547,9 @@ layout_css_touch_action_enabled
 &
 result
 .
-mStatus
+GetStatus
+(
+)
 !
 =
 nsEventStatus_eConsumeNoDefault
@@ -2752,7 +2760,9 @@ EXPECT_EQ
 nsEventStatus_eConsumeDoDefault
 result
 .
-mStatus
+GetStatus
+(
+)
 )
 ;
 EXPECT_CALL
@@ -2787,8 +2797,6 @@ Times
 )
 ;
 result
-.
-mStatus
 =
 TouchUp
 (
@@ -2811,7 +2819,9 @@ EXPECT_EQ
 nsEventStatus_eConsumeDoDefault
 result
 .
-mStatus
+GetStatus
+(
+)
 )
 ;
 ParentLayerPoint
@@ -4133,7 +4143,9 @@ layout_css_touch_action_enabled
 &
 result
 .
-mStatus
+GetStatus
+(
+)
 !
 =
 nsEventStatus_eConsumeNoDefault

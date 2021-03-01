@@ -3053,7 +3053,9 @@ ReceiveInputEvent
 mti
 )
 .
-mStatus
+GetStatus
+(
+)
 )
 ;
 EXPECT_EQ
@@ -3164,7 +3166,9 @@ ReceiveInputEvent
 mti
 )
 .
-mStatus
+GetStatus
+(
+)
 )
 ;
 EXPECT_EQ
@@ -3215,7 +3219,9 @@ ReceiveInputEvent
 mti
 )
 .
-mStatus
+GetStatus
+(
+)
 )
 ;
 EXPECT_EQ
@@ -3356,7 +3362,9 @@ ReceiveInputEvent
 swi
 )
 .
-mStatus
+GetStatus
+(
+)
 )
 ;
 EXPECT_EQ
@@ -3537,7 +3545,9 @@ ReceiveInputEvent
 swi
 )
 .
-mStatus
+GetStatus
+(
+)
 )
 ;
 EXPECT_EQ
@@ -3720,7 +3730,9 @@ ReceiveInputEvent
 swi
 )
 .
-mStatus
+GetStatus
+(
+)
 )
 ;
 EXPECT_EQ

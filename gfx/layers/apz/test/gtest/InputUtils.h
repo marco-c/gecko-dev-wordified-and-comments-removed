@@ -205,7 +205,7 @@ template
 class
 InputReceiver
 >
-nsEventStatus
+APZEventResult
 TouchMove
 (
 const
@@ -256,8 +256,6 @@ ReceiveInputEvent
 (
 mti
 )
-.
-mStatus
 ;
 }
 template
@@ -265,7 +263,7 @@ template
 class
 InputReceiver
 >
-nsEventStatus
+APZEventResult
 TouchUp
 (
 const
@@ -316,8 +314,6 @@ ReceiveInputEvent
 (
 mti
 )
-.
-mStatus
 ;
 }
 template
