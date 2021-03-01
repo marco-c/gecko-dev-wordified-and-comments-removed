@@ -160,9 +160,9 @@ sandbox
 .
 stub
 (
-gSync
+BrowserUtils
 "
-isSendableURI
+isShareableURL
 "
 )
 .
