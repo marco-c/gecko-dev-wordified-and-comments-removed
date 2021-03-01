@@ -2063,6 +2063,11 @@ ErrorResult
 aRv
 )
 ;
+void
+SetAudioSinkFailedStartup
+(
+)
+;
 already_AddRefed
 <
 layers
