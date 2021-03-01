@@ -544,7 +544,7 @@ let
 mut
 length_be
 :
-be32
+u32
 =
 0
 ;
@@ -593,7 +593,7 @@ length_be
 as
 *
 mut
-be32
+u32
 as
 *
 mut
@@ -614,7 +614,7 @@ size_of
 :
 :
 <
-be32
+u32
 >
 (
 )
@@ -634,7 +634,7 @@ size_of
 :
 :
 <
-be32
+u32
 >
 (
 )
@@ -684,7 +684,7 @@ size_of
 :
 :
 <
-be32
+u32
 >
 (
 )
@@ -722,7 +722,7 @@ data
 as
 *
 mut
-be32
+u32
 )
 =
 length_be
@@ -749,7 +749,7 @@ size_of
 :
 :
 <
-be32
+u32
 >
 (
 )
@@ -791,7 +791,7 @@ size_of
 :
 :
 <
-be32
+u32
 >
 (
 )
