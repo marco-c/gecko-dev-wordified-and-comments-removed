@@ -1534,6 +1534,7 @@ advanceSubtestExecution
 )
 ;
 }
+async
 function
 advanceSubtestExecution
 (
@@ -1597,6 +1598,16 @@ dp_suppression
 )
 ;
 }
+let
+promiseFocus
+=
+SimpleTest
+.
+promiseFocus
+(
+window
+)
+;
 if
 (
 test
@@ -1608,6 +1619,7 @@ SpecialPowers
 .
 popPrefEnv
 (
+async
 function
 (
 )
@@ -1621,6 +1633,9 @@ close
 w
 =
 null
+;
+await
+promiseFocus
 ;
 advanceSubtestExecution
 (
@@ -1637,6 +1652,9 @@ w
 close
 (
 )
+;
+await
+promiseFocus
 ;
 }
 testIndex
