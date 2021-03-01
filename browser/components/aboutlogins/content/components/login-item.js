@@ -2710,6 +2710,15 @@ propertyToCopy
 )
 )
 ;
+if
+(
+this
+.
+_login
+.
+username
+)
+{
 otherCopyButton
 .
 disabled
@@ -2723,6 +2732,7 @@ dataset
 .
 copied
 ;
+}
 clearTimeout
 (
 this
