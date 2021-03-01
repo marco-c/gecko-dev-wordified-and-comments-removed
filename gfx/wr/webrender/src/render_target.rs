@@ -3475,9 +3475,6 @@ ScalingInstance
 {
 target_rect
 source_rect
-source_layer
-:
-0
 }
 )
 ;
