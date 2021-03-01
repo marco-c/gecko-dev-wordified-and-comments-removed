@@ -3133,16 +3133,6 @@ NavBookmarkObserver
 prototype
 =
 {
-onBeginUpdateBatch
-(
-)
-{
-}
-onEndUpdateBatch
-(
-)
-{
-}
 onItemRemoved
 (
 )

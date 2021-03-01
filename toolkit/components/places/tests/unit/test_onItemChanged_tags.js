@@ -229,16 +229,6 @@ resolve
 }
 }
 }
-onBeginUpdateBatch
-(
-)
-{
-}
-onEndUpdateBatch
-(
-)
-{
-}
 onItemMoved
 (
 )
