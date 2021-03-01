@@ -216,6 +216,7 @@ TranspiledCacheIR
 SpeculativePhi
 TypePolicy
 LICM
+InstructionReordering
 HoistBoundsCheck
 EagerTruncation
 UnboxFolding
@@ -299,6 +300,17 @@ LICM
 return
 "
 LICM
+"
+;
+case
+BailoutKind
+:
+:
+InstructionReordering
+:
+return
+"
+InstructionReordering
 "
 ;
 case
