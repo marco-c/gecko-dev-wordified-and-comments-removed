@@ -6856,7 +6856,7 @@ MOZ_ASSERT
 sOuterWindowsById
 -
 >
-Get
+Contains
 (
 mWindowID
 )

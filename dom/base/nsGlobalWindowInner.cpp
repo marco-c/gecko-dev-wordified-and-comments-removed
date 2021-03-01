@@ -5616,7 +5616,7 @@ MOZ_ASSERT
 sInnerWindowsById
 -
 >
-Get
+Contains
 (
 mWindowID
 )
