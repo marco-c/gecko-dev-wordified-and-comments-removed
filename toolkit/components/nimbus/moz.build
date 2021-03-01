@@ -47,6 +47,16 @@ xpcshell
 ini
 "
 ]
+SPHINX_TREES
+[
+"
+docs
+"
+]
+=
+"
+docs
+"
 TESTING_JS_MODULES
 +
 =

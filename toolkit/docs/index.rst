@@ -90,6 +90,13 @@ normandy
 index
 components
 /
+nimbus
+/
+docs
+/
+index
+components
+/
 messaging
 -
 system
