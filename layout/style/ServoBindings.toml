@@ -2745,7 +2745,7 @@ TimingFunction
 gecko
 =
 "
-StyleContrastPref
+StylePrefersContrast
 "
 servo
 =
@@ -2759,7 +2759,7 @@ gecko
 media_features
 :
 :
-ContrastPref
+PrefersContrast
 "
 }
 {

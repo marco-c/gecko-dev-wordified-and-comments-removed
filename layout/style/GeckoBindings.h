@@ -3218,7 +3218,7 @@ Document
 mozilla
 :
 :
-StyleContrastPref
+StylePrefersContrast
 Gecko_MediaFeatures_PrefersContrast
 (
 const
@@ -3230,9 +3230,6 @@ dom
 :
 Document
 *
-const
-bool
-aForcedColors
 )
 ;
 mozilla

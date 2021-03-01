@@ -542,9 +542,6 @@ ComputedTimingFunction
 ComputedValueFlags
 "
 "
-ContrastPref
-"
-"
 CursorKind
 "
 "
@@ -558,6 +555,9 @@ DisplayMode
 "
 "
 PrefersColorScheme
+"
+"
+PrefersContrast
 "
 "
 ExtremumLength
