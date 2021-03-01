@@ -2231,6 +2231,7 @@ TileSize
 (
 )
 ;
+return
 MakeUnique
 <
 TileD3D11
