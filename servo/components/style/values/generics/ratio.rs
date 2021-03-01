@@ -23,15 +23,12 @@ ToCss
 [
 derive
 (
-Animate
 Clone
-ComputeSquaredDistance
 Copy
 Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
-ToAnimatedZero
 ToComputedValue
 ToResolvedValue
 ToShmem
