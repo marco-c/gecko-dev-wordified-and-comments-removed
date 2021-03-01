@@ -638,8 +638,11 @@ prop
 {
 if
 (
-!
 prop
+.
+isNotFound
+(
+)
 )
 {
 args
@@ -4125,8 +4128,11 @@ prop
 {
 if
 (
-!
 prop
+.
+isNotFound
+(
+)
 )
 {
 *

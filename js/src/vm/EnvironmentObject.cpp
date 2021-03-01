@@ -4248,6 +4248,10 @@ false
 if
 (
 propp
+.
+isFound
+(
+)
 )
 {
 bool
@@ -19624,8 +19628,11 @@ false
 }
 if
 (
-!
 prop
+.
+isNotFound
+(
+)
 |
 |
 (
@@ -19995,8 +20002,11 @@ JSPROP_PERMANENT
 ;
 if
 (
-!
 prop
+.
+isNotFound
+(
+)
 |
 |
 pobj

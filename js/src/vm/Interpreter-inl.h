@@ -356,6 +356,10 @@ prop
 MOZ_ASSERT
 (
 prop
+.
+isFound
+(
+)
 )
 ;
 if
@@ -711,8 +715,11 @@ vp
 {
 if
 (
-!
 prop
+.
+isNotFound
+(
+)
 )
 {
 switch
@@ -958,8 +965,11 @@ vp
 {
 if
 (
-!
 prop
+.
+isNotFound
+(
+)
 |
 |
 !
