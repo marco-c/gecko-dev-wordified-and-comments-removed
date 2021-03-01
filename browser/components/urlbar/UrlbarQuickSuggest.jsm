@@ -313,6 +313,14 @@ for
 phrase
 )
 ;
+phrase
+=
+phrase
+.
+toLowerCase
+(
+)
+;
 let
 index
 =
