@@ -899,7 +899,7 @@ date
 "
 )
 ;
-is
+isnot
 (
 helper
 .
@@ -907,7 +907,7 @@ panel
 .
 state
 "
-open
+closed
 "
 "
 Panel
@@ -965,7 +965,8 @@ ok
 (
 true
 "
-Should
+Panel
+should
 be
 closed
 now
