@@ -3739,6 +3739,8 @@ old_gdb_sleep_duration
 #
 endif
 }
+#
+endif
 TEST
 (
 Jemalloc
@@ -4183,5 +4185,3 @@ old_gdb_sleep_duration
 #
 endif
 }
-#
-endif
