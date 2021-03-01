@@ -2599,8 +2599,9 @@ browsertime_failure
 =
 msg
                     
-raise
-Exception
+LOG
+.
+error
 (
 "
 Browsertime
@@ -2608,6 +2609,12 @@ failed
 to
 run
 "
+)
+                    
+proc
+.
+kill
+(
 )
                 
 elif
