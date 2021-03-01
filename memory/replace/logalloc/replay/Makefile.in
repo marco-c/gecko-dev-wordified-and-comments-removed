@@ -55,8 +55,6 @@ MPL
 .
 ifndef
 CROSS_COMPILE
-ifndef
-MOZ_CODE_COVERAGE
 ifeq
 (
 (
@@ -380,5 +378,4 @@ srcdir
 expected_output_minimal
 .
 log
-endif
 endif
