@@ -17228,7 +17228,7 @@ remote
 .
 useOriginAttributesInRemoteType
 "
-false
+true
 )
 ;
 pref
