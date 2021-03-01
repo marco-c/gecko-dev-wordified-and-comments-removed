@@ -2413,6 +2413,13 @@ row
 -
 inner
 :
+not
+(
+[
+selected
+]
+)
+:
 hover
 {
 background
