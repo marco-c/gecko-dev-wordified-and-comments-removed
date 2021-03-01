@@ -256,7 +256,15 @@ toolbar
 -
 sync
 -
-now2
+now
+=
+.
+label
+=
+Sync
+Now
+.
+value
 =
 Sync
 Now
