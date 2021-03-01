@@ -1680,7 +1680,7 @@ lang
 ;
 mVoices
 .
-Put
+InsertOrUpdate
 (
 uri
 MakeRefPtr
@@ -2160,7 +2160,7 @@ NS_ERROR_FAILURE
 }
 mCallbacks
 .
-Put
+InsertOrUpdate
 (
 msg_id
 std

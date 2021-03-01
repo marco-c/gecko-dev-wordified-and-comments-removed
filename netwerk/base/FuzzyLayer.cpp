@@ -545,7 +545,7 @@ PR_FAILURE
 }
 gConnectedNetworkFuzzingBuffers
 .
-Put
+InsertOrUpdate
 (
 fd
 buf

@@ -8676,7 +8676,7 @@ aRadio
 {
 mSelectedRadioButtons
 .
-Put
+InsertOrUpdate
 (
 aName
 RefPtr
@@ -9479,7 +9479,7 @@ aRequiredAdded
 {
 mRequiredRadioButtonCounts
 .
-Put
+InsertOrUpdate
 (
 aName
 mRequiredRadioButtonCounts
@@ -9545,7 +9545,7 @@ else
 {
 mRequiredRadioButtonCounts
 .
-Put
+InsertOrUpdate
 (
 aName
 requiredNb
@@ -9594,7 +9594,7 @@ aValue
 {
 mValueMissingRadioGroups
 .
-Put
+InsertOrUpdate
 (
 aName
 aValue
@@ -10366,7 +10366,7 @@ node
 {
 mPastNameLookupTable
 .
-Put
+InsertOrUpdate
 (
 aName
 ToSupports

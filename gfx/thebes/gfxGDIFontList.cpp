@@ -3006,7 +3006,7 @@ actual
 {
 mFontSubstitutes
 .
-Put
+InsertOrUpdate
 (
 substitute
 RefPtr
@@ -3105,7 +3105,7 @@ ff
 {
 mFontSubstitutes
 .
-Put
+InsertOrUpdate
 (
 substitute
 RefPtr
@@ -3340,7 +3340,7 @@ fontList
 >
 mFontFamilies
 .
-Put
+InsertOrUpdate
 (
 key
 RefPtr
@@ -5201,7 +5201,7 @@ mFontInfo
 .
 mFontFaceData
 .
-Put
+InsertOrUpdate
 (
 fontName
 fontData
@@ -5350,7 +5350,7 @@ Length
 {
 mOtherFamilyNames
 .
-Put
+InsertOrUpdate
 (
 aFamilyName
 data

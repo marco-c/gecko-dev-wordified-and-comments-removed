@@ -7614,7 +7614,7 @@ newData
 =
 mCoalescedMouseData
 .
-Put
+InsertOrUpdate
 (
 aEvent
 .
@@ -13002,7 +13002,7 @@ aLayersId
 sBrowserChildren
 -
 >
-Put
+InsertOrUpdate
 (
 uint64_t
 (

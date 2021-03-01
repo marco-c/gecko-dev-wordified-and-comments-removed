@@ -893,7 +893,7 @@ return
 }
 mPromiseToCreateSessionToken
 .
-Put
+InsertOrUpdate
 (
 aPromiseId
 aCreateSessionToken

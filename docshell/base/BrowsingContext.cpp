@@ -1052,7 +1052,7 @@ aBrowsingContext
 sBrowsingContexts
 -
 >
-Put
+InsertOrUpdate
 (
 aBrowsingContext
 -
@@ -1076,7 +1076,7 @@ IsTopContent
 sCurrentTopByBrowserId
 -
 >
-Put
+InsertOrUpdate
 (
 aBrowsingContext
 -

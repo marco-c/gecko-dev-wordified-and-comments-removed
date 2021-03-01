@@ -225,7 +225,7 @@ kDBOnlyFileInfoIds
 {
 mFileInfos
 .
-Put
+InsertOrUpdate
 (
 id
 MakeNotNull

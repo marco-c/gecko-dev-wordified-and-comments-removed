@@ -577,7 +577,7 @@ nullptr
 }
 mJSActors
 .
-Put
+InsertOrUpdate
 (
 aName
 RefPtr

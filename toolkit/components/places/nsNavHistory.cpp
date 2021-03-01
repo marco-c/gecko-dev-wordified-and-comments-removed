@@ -3971,7 +3971,7 @@ rv
 ;
 mRecentBookmark
 .
-Put
+InsertOrUpdate
 (
 uriString
 GetNow
@@ -6905,7 +6905,7 @@ i
 ;
 mAddParams
 .
-Put
+InsertOrUpdate
 (
 dateParam
 dateName
@@ -7100,7 +7100,7 @@ localFiles
 ;
 mAddParams
 .
-Put
+InsertOrUpdate
 (
 "
 localhost
@@ -7626,7 +7626,7 @@ toolbarTitle
 ;
 mAddParams
 .
-Put
+InsertOrUpdate
 (
 "
 BookmarksToolbarFolderTitle
@@ -7648,7 +7648,7 @@ menuTitle
 ;
 mAddParams
 .
-Put
+InsertOrUpdate
 (
 "
 BookmarksMenuFolderTitle
@@ -7670,7 +7670,7 @@ unfiledTitle
 ;
 mAddParams
 .
-Put
+InsertOrUpdate
 (
 "
 OtherBookmarksFolderTitle
@@ -7710,7 +7710,7 @@ mobileTitle
 ;
 mAddParams
 .
-Put
+InsertOrUpdate
 (
 "
 MobileBookmarksFolderTitle
@@ -7937,7 +7937,7 @@ historyTitle
 ;
 mAddParams
 .
-Put
+InsertOrUpdate
 (
 "
 OrganizerQueryHistory
@@ -7959,7 +7959,7 @@ downloadsTitle
 ;
 mAddParams
 .
-Put
+InsertOrUpdate
 (
 "
 OrganizerQueryDownloads
@@ -7981,7 +7981,7 @@ tagsTitle
 ;
 mAddParams
 .
-Put
+InsertOrUpdate
 (
 "
 TagsFolderTitle
@@ -8003,7 +8003,7 @@ allBookmarksTitle
 ;
 mAddParams
 .
-Put
+InsertOrUpdate
 (
 "
 OrganizerQueryAllBookmarks
@@ -9953,7 +9953,7 @@ rv
 ;
 mRecentTyped
 .
-Put
+InsertOrUpdate
 (
 uriString
 GetNow
@@ -10046,7 +10046,7 @@ rv
 ;
 mRecentLink
 .
-Put
+InsertOrUpdate
 (
 uriString
 GetNow

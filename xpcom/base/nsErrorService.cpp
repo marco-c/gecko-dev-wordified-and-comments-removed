@@ -136,7 +136,7 @@ aStringBundleURL
 {
 mErrorStringBundleURLMap
 .
-Put
+InsertOrUpdate
 (
 aErrorModule
 MakeUnique

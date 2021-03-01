@@ -1241,7 +1241,7 @@ else
 {
 mSections
 .
-Put
+InsertOrUpdate
 (
 aSection
 std
@@ -1447,7 +1447,7 @@ val
 {
 mSections
 .
-Put
+InsertOrUpdate
 (
 aNewName
 std

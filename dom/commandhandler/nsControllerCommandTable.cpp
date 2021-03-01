@@ -121,7 +121,7 @@ NS_ERROR_FAILURE
 ;
 mCommandsTable
 .
-Put
+InsertOrUpdate
 (
 nsDependentCString
 (

@@ -2111,7 +2111,7 @@ GetViewID
 ;
 mFrameMetricsTable
 .
-Put
+InsertOrUpdate
 (
 viewID
 std

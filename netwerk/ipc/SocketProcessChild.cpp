@@ -1474,7 +1474,7 @@ nullptr
 ;
 mSocketProcessBridgeParentMap
 .
-Put
+InsertOrUpdate
 (
 aContentProcessId
 MakeRefPtr
@@ -2329,7 +2329,7 @@ mMutex
 ;
 mBackgroundDataBridgeMap
 .
-Put
+InsertOrUpdate
 (
 aChannelId
 aActor

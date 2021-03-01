@@ -748,7 +748,7 @@ this
 }
 mContentToObserverTable
 .
-Put
+InsertOrUpdate
 (
 aContent
 aMenuObject
@@ -846,7 +846,7 @@ mCurrentCommandID
 ;
 mCommandToMenuObjectTable
 .
-Put
+InsertOrUpdate
 (
 mCurrentCommandID
 inMenuItem

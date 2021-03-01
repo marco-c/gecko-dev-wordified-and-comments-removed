@@ -4597,7 +4597,7 @@ fullHashes
 ;
 fullHashes
 .
-Put
+InsertOrUpdate
 (
 fullhash
 defaultExpirySec

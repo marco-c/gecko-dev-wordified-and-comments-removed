@@ -612,7 +612,7 @@ aContextId
 {
 mContextInfoMap
 .
-Put
+InsertOrUpdate
 (
 aContextId
 MakeUnique

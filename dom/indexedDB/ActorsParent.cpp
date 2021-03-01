@@ -25160,7 +25160,7 @@ sNextId
 gTelemetryIdHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 hashValue
 id
@@ -31677,7 +31677,7 @@ mInSavepoint
 {
 mSavepointEntriesIndex
 .
-Put
+InsertOrUpdate
 (
 id
 entry
@@ -32994,7 +32994,7 @@ dbInfo
 =
 mDatabases
 .
-Put
+InsertOrUpdate
 (
 aDatabaseId
 MakeUnique
@@ -33030,7 +33030,7 @@ transactionInfo
 *
 mTransactions
 .
-Put
+InsertOrUpdate
 (
 transactionId
 MakeUnique
@@ -38640,7 +38640,7 @@ newOSMetadata
 >
 mIndexes
 .
-Put
+InsertOrUpdate
 (
 indexEntry
 .
@@ -38696,7 +38696,7 @@ newMetadata
 >
 mObjectStores
 .
-Put
+InsertOrUpdate
 (
 objectStoreEntry
 .
@@ -39037,7 +39037,7 @@ aLoggingInfo
 gLoggingInfoHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 aLoggingInfo
 .
@@ -41031,7 +41031,7 @@ ID
 ;
 mMappedBlobs
 .
-Put
+InsertOrUpdate
 (
 actor
 -
@@ -49471,7 +49471,7 @@ dbMetadata
 >
 mObjectStores
 .
-Put
+InsertOrUpdate
 (
 aMetadata
 .
@@ -50326,7 +50326,7 @@ foundObjectStoreMetadata
 >
 mIndexes
 .
-Put
+InsertOrUpdate
 (
 aMetadata
 .
@@ -53571,7 +53571,7 @@ dbRefCnt
 ;
 mFileInfos
 .
-Put
+InsertOrUpdate
 (
 id
 MakeNotNull
@@ -58421,7 +58421,7 @@ DatabasePath
 ;
 mDatabaseMaintenances
 .
-Put
+InsertOrUpdate
 (
 aDatabaseMaintenance
 -
@@ -67261,7 +67261,7 @@ isOk
 lockedPrivateBrowsingInfoHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 mDatabaseId
 keyOrErr
@@ -71584,7 +71584,7 @@ OkIf
 (
 objectStores
 .
-Put
+InsertOrUpdate
 (
 objectStoreId
 std
@@ -72316,7 +72316,7 @@ objectStoreMetadata
 >
 mIndexes
 .
-Put
+InsertOrUpdate
 (
 indexId
 std
@@ -74240,7 +74240,7 @@ info
 gLiveDatabaseHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 mDatabaseId
 MakeUnique
@@ -82512,7 +82512,7 @@ NS_WARN_IF
 !
 uniqueIndexTable
 .
-Put
+InsertOrUpdate
 (
 value
 -
@@ -86700,7 +86700,7 @@ ref
 (
 )
 .
-Put
+InsertOrUpdate
 (
 indexId
 unique

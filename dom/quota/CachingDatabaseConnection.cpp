@@ -308,7 +308,7 @@ endif
 ;
 mCachedStatements
 .
-Put
+InsertOrUpdate
 (
 aQuery
 stmt

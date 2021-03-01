@@ -358,7 +358,7 @@ false
 }
 mHashHttp2
 .
-Put
+InsertOrUpdate
 (
 key
 stream

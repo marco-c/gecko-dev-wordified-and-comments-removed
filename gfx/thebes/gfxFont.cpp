@@ -2660,7 +2660,7 @@ aFontFeatures
 {
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 feature
 .
@@ -2694,7 +2694,7 @@ NS_FONT_VARIANT_CAPS_ALLSMALL
 :
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 HB_TAG
 (
@@ -2725,7 +2725,7 @@ NS_FONT_VARIANT_CAPS_SMALLCAPS
 :
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 HB_TAG
 (
@@ -2752,7 +2752,7 @@ NS_FONT_VARIANT_CAPS_ALLPETITE
 :
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 aAddSmallCaps
 ?
@@ -2801,7 +2801,7 @@ NS_FONT_VARIANT_CAPS_PETITECAPS
 :
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 aAddSmallCaps
 ?
@@ -2846,7 +2846,7 @@ NS_FONT_VARIANT_CAPS_TITLING
 :
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 HB_TAG
 (
@@ -2873,7 +2873,7 @@ NS_FONT_VARIANT_CAPS_UNICASE
 :
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 HB_TAG
 (
@@ -2926,7 +2926,7 @@ NS_FONT_VARIANT_POSITION_SUPER
 :
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 HB_TAG
 (
@@ -2953,7 +2953,7 @@ NS_FONT_VARIANT_POSITION_SUB
 :
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 HB_TAG
 (
@@ -3055,7 +3055,7 @@ featureList
 {
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 feature
 .
@@ -3083,7 +3083,7 @@ aDisableLigatures
 {
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 HB_TAG
 (
@@ -3105,7 +3105,7 @@ a
 ;
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 HB_TAG
 (
@@ -3148,7 +3148,7 @@ mTag
 {
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 feature
 .
@@ -3167,7 +3167,7 @@ aDisableLigatures
 {
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 HB_TAG
 (
@@ -3189,7 +3189,7 @@ a
 ;
 mergedFeatures
 .
-Put
+InsertOrUpdate
 (
 HB_TAG
 (
@@ -6539,7 +6539,7 @@ NUM_SCRIPT_CODES
 sScriptTagToCode
 -
 >
-Put
+InsertOrUpdate
 (
 HB_TAG
 (
@@ -6675,7 +6675,7 @@ i
 sScriptTagToCode
 -
 >
-Put
+InsertOrUpdate
 (
 scriptTags
 [

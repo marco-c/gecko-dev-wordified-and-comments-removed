@@ -154,7 +154,7 @@ U
 >
 >
 void
-Put
+InsertOrUpdate
 (
 KeyType
 aKey
@@ -194,7 +194,7 @@ nodiscard
 ]
 ]
 bool
-Put
+InsertOrUpdate
 (
 KeyType
 aKey
@@ -587,7 +587,7 @@ PtrType
 >
 :
 :
-Put
+InsertOrUpdate
 (
 KeyType
 aKey
@@ -603,7 +603,7 @@ aData
 if
 (
 !
-Put
+InsertOrUpdate
 (
 aKey
 std
@@ -664,7 +664,7 @@ PtrType
 >
 :
 :
-Put
+InsertOrUpdate
 (
 KeyType
 aKey

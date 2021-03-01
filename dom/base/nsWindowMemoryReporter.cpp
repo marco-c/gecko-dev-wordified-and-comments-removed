@@ -1114,7 +1114,7 @@ WindowID
 aTopWindowPaths
 -
 >
-Put
+InsertOrUpdate
 (
 aWindow
 -
@@ -1252,7 +1252,7 @@ counts
 aWindowPaths
 -
 >
-Put
+InsertOrUpdate
 (
 aWindow
 -
@@ -4433,7 +4433,7 @@ return
 }
 mDetachedWindows
 .
-Put
+InsertOrUpdate
 (
 weakWindow
 TimeStamp

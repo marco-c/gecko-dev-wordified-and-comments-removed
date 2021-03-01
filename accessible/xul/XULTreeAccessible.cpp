@@ -2210,7 +2210,7 @@ treeItem
 {
 mAccessibleCache
 .
-Put
+InsertOrUpdate
 (
 key
 RefPtr

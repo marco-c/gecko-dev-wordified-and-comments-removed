@@ -480,7 +480,7 @@ aPath
 {
 mOpenVRControllerManifest
 .
-Put
+InsertOrUpdate
 (
 static_cast
 <

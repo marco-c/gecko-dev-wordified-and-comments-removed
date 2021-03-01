@@ -2477,7 +2477,7 @@ aSurface
 {
 mDataSurfaces
 .
-Put
+InsertOrUpdate
 (
 aRefPtr
 std

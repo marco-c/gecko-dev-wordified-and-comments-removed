@@ -559,7 +559,7 @@ aAcc
 {
 mIDToAccessibleMap
 .
-Put
+InsertOrUpdate
 (
 aID
 aAcc

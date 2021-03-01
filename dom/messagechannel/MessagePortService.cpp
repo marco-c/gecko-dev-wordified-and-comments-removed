@@ -399,7 +399,7 @@ false
 }
 mPorts
 .
-Put
+InsertOrUpdate
 (
 aDestinationUUID
 MakeUnique
@@ -420,7 +420,7 @@ data
 =
 mPorts
 .
-Put
+InsertOrUpdate
 (
 aParent
 -

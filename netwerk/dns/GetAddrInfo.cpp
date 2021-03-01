@@ -2153,7 +2153,7 @@ mLock
 ;
 mCnames
 .
-Put
+InsertOrUpdate
 (
 aHost
 nsCString

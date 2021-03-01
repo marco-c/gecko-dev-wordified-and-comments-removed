@@ -579,7 +579,7 @@ p
 gPropertyIDLNameTable
 -
 >
-Put
+InsertOrUpdate
 (
 nsDependentCString
 (

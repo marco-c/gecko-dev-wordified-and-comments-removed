@@ -1550,7 +1550,7 @@ NS_IsMainThread
 ;
 mWebSocketImplMap
 .
-Put
+InsertOrUpdate
 (
 aWebSocketSerialID
 do_GetWeakReference

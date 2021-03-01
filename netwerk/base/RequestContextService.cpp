@@ -2279,7 +2279,7 @@ rcID
 ;
 mTable
 .
-Put
+InsertOrUpdate
 (
 rcID
 newSC
@@ -2426,7 +2426,7 @@ rcID
 ;
 mTable
 .
-Put
+InsertOrUpdate
 (
 rcID
 newSC

@@ -121,7 +121,7 @@ aValue
 }
 mWriteInfos
 .
-Put
+InsertOrUpdate
 (
 aKey
 std
@@ -243,7 +243,7 @@ false
 }
 mWriteInfos
 .
-Put
+InsertOrUpdate
 (
 aKey
 std

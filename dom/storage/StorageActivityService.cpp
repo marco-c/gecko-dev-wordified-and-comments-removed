@@ -794,7 +794,7 @@ XRE_IsParentProcess
 ;
 mActivities
 .
-Put
+InsertOrUpdate
 (
 aOrigin
 PR_Now
@@ -1432,7 +1432,7 @@ rv
 }
 mActivities
 .
-Put
+InsertOrUpdate
 (
 origin
 aWhen

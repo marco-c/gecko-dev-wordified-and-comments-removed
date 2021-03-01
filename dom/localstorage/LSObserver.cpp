@@ -117,7 +117,7 @@ mOrigin
 gLSObservers
 -
 >
-Put
+InsertOrUpdate
 (
 mOrigin
 this

@@ -3206,7 +3206,7 @@ file
 sSpoofingKeyboardCodes
 -
 >
-Put
+InsertOrUpdate
 (
 key
 &

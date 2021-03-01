@@ -6615,7 +6615,7 @@ i
 {
 mHTMLMarkupMap
 .
-Put
+InsertOrUpdate
 (
 sHTMLMarkupMapList
 [
@@ -6655,7 +6655,7 @@ i
 {
 mXULMarkupMap
 .
-Put
+InsertOrUpdate
 (
 sXULMarkupMapList
 [

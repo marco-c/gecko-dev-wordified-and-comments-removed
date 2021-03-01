@@ -20627,7 +20627,7 @@ IntersectionObserverList
 observers
 -
 >
-Put
+InsertOrUpdate
 (
 aObserver
 eUninitialized

@@ -15937,7 +15937,7 @@ FolderObserverList
 ;
 mBookmarkFolderObservers
 .
-Put
+InsertOrUpdate
 (
 aFolderId
 list

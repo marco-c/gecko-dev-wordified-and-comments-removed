@@ -633,7 +633,7 @@ COMPLETE_SIZE
 }
 mVLPrefixSet
 .
-Put
+InsertOrUpdate
 (
 COMPLETE_SIZE
 std
@@ -955,7 +955,7 @@ continue
 }
 mVLPrefixSet
 .
-Put
+InsertOrUpdate
 (
 iter
 .
@@ -1119,7 +1119,7 @@ i
 }
 aPrefixMap
 .
-Put
+InsertOrUpdate
 (
 PREFIX_SIZE_FIXED
 std
@@ -1159,7 +1159,7 @@ Next
 {
 aPrefixMap
 .
-Put
+InsertOrUpdate
 (
 iter
 .
@@ -1942,7 +1942,7 @@ NS_ERROR_FAILURE
 ;
 mVLPrefixSet
 .
-Put
+InsertOrUpdate
 (
 prefixSize
 std

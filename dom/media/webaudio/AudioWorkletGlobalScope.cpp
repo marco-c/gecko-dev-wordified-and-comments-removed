@@ -689,7 +689,7 @@ if
 !
 mNameToProcessorMap
 .
-Put
+InsertOrUpdate
 (
 aName
 RefPtr

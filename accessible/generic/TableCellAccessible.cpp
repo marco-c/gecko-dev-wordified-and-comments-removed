@@ -423,7 +423,7 @@ IsDefunct
 {
 cache
 .
-Put
+InsertOrUpdate
 (
 this
 RefPtr
@@ -472,7 +472,7 @@ continue
 }
 cache
 .
-Put
+InsertOrUpdate
 (
 this
 RefPtr
@@ -490,7 +490,7 @@ cell
 }
 cache
 .
-Put
+InsertOrUpdate
 (
 this
 RefPtr

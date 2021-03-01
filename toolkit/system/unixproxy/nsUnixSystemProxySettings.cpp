@@ -969,7 +969,7 @@ rv
 ;
 mSchemeProxySettings
 .
-Put
+InsertOrUpdate
 (
 key
 proxy_settings

@@ -1376,7 +1376,7 @@ hashLength
 gOriginToIndexMap
 -
 >
-Put
+InsertOrUpdate
 (
 nsDependentCString
 (
@@ -1391,7 +1391,7 @@ i
 gHashToIndexMap
 -
 >
-Put
+InsertOrUpdate
 (
 nsDependentCString
 (
@@ -1407,7 +1407,7 @@ i
 gOriginToIndexMap
 -
 >
-Put
+InsertOrUpdate
 (
 kUnknownOrigin
 gOriginHashesList
@@ -1910,7 +1910,7 @@ Next
 {
 bag
 .
-Put
+InsertOrUpdate
 (
 originIt
 .

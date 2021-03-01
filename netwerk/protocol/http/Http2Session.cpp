@@ -2022,7 +2022,7 @@ kDeadStreamID
 }
 mStreamIDHash
 .
-Put
+InsertOrUpdate
 (
 aNewID
 stream
@@ -2935,7 +2935,7 @@ refStream
 ;
 mStreamTransactionHash
 .
-Put
+InsertOrUpdate
 (
 aHttpTransaction
 std
@@ -10805,7 +10805,7 @@ self
 >
 mStreamTransactionHash
 .
-Put
+InsertOrUpdate
 (
 transactionBuffer
 std
@@ -15371,7 +15371,7 @@ self
 >
 mOriginFrame
 .
-Put
+InsertOrUpdate
 (
 key
 true
@@ -21920,7 +21920,7 @@ regKey
 ;
 mTunnelHash
 .
-Put
+InsertOrUpdate
 (
 regKey
 newcount
@@ -22029,7 +22029,7 @@ newcount
 {
 mTunnelHash
 .
-Put
+InsertOrUpdate
 (
 regKey
 newcount
@@ -25061,7 +25061,7 @@ joinedReturn
 ;
 mJoinConnectionCache
 .
-Put
+InsertOrUpdate
 (
 key
 joinedReturn
@@ -25117,7 +25117,7 @@ key2
 {
 mJoinConnectionCache
 .
-Put
+InsertOrUpdate
 (
 key2
 joinedReturn

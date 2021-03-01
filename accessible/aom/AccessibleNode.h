@@ -615,7 +615,7 @@ typeName
 #
 Properties
 .
-Put
+InsertOrUpdate
 (
 static_cast
 <
@@ -970,7 +970,7 @@ aValue
 ;
 mStringProperties
 .
-Put
+InsertOrUpdate
 (
 static_cast
 <
@@ -1264,7 +1264,7 @@ else
 {
 mRelationProperties
 .
-Put
+InsertOrUpdate
 (
 static_cast
 <

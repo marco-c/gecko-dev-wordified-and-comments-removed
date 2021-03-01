@@ -1259,7 +1259,7 @@ mimeType
 >
 mParameters
 .
-Put
+InsertOrUpdate
 (
 paramName
 paramValue
@@ -1720,7 +1720,7 @@ aValue
 ;
 mParameters
 .
-Put
+InsertOrUpdate
 (
 aName
 value

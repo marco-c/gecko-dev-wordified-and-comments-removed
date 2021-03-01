@@ -965,7 +965,7 @@ aHandle
 ;
 mGamepads
 .
-Put
+InsertOrUpdate
 (
 aHandle
 std

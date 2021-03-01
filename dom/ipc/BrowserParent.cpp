@@ -1791,7 +1791,7 @@ LayerToBrowserParentTable
 sLayerToBrowserParentTable
 -
 >
-Put
+InsertOrUpdate
 (
 uint64_t
 (

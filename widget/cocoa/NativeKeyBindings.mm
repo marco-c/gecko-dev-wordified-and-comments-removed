@@ -266,7 +266,7 @@ aCommand
 \
 mSelectorToCommand
 .
-Put
+InsertOrUpdate
 (
 ToObjcSelectorPtr
 (

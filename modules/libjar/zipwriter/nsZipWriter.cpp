@@ -859,7 +859,7 @@ rv
 }
 mEntryHash
 .
-Put
+InsertOrUpdate
 (
 header
 -
@@ -2477,7 +2477,7 @@ Count
 {
 mEntryHash
 .
-Put
+InsertOrUpdate
 (
 mHeaders
 [
@@ -3893,7 +3893,7 @@ GetFileHeaderLength
 ;
 mEntryHash
 .
-Put
+InsertOrUpdate
 (
 header
 -
@@ -4061,7 +4061,7 @@ aStatus
 {
 mEntryHash
 .
-Put
+InsertOrUpdate
 (
 aHeader
 -
@@ -4775,7 +4775,7 @@ Count
 {
 mEntryHash
 .
-Put
+InsertOrUpdate
 (
 mHeaders
 [

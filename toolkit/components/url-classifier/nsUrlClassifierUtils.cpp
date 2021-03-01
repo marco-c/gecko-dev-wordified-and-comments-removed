@@ -4497,7 +4497,7 @@ tables
 {
 aDict
 .
-Put
+InsertOrUpdate
 (
 tableName
 MakeUnique

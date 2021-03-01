@@ -699,7 +699,7 @@ aDocument
 ;
 mXPCDocumentCache
 .
-Put
+InsertOrUpdate
 (
 aDocument
 RefPtr
@@ -810,7 +810,7 @@ HYPERTEXT
 sRemoteXPCDocumentCache
 -
 >
-Put
+InsertOrUpdate
 (
 aDoc
 RefPtr
@@ -2331,7 +2331,7 @@ presShell
 ;
 mDocAccessibleCache
 .
-Put
+InsertOrUpdate
 (
 aDocument
 RefPtr

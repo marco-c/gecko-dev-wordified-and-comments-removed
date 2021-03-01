@@ -2786,7 +2786,7 @@ get
 ;
 mChunks
 .
-Put
+InsertOrUpdate
 (
 idx
 RefPtr
@@ -7175,7 +7175,7 @@ Unexpected
 ;
 mChunks
 .
-Put
+InsertOrUpdate
 (
 aIndex
 RefPtr
@@ -7340,7 +7340,7 @@ WRITER
 ;
 mChunks
 .
-Put
+InsertOrUpdate
 (
 aIndex
 RefPtr
@@ -7534,7 +7534,7 @@ true
 ;
 mChunks
 .
-Put
+InsertOrUpdate
 (
 aIndex
 RefPtr
@@ -8906,7 +8906,7 @@ aCacheChunk
 {
 mCachedChunks
 .
-Put
+InsertOrUpdate
 (
 aChunk
 -

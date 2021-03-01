@@ -759,7 +759,7 @@ this
 ;
 mNodeInfoHash
 .
-Put
+InsertOrUpdate
 (
 &
 nodeInfo
@@ -948,7 +948,7 @@ this
 ;
 mNodeInfoHash
 .
-Put
+InsertOrUpdate
 (
 &
 nodeInfo

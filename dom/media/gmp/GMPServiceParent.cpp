@@ -5747,7 +5747,7 @@ CreateGMPMemoryStorage
 ;
 mTempGMPStorage
 .
-Put
+InsertOrUpdate
 (
 aNodeId
 RefPtr
@@ -5959,7 +5959,7 @@ salt
 ;
 mPersistentStorageAllowed
 .
-Put
+InsertOrUpdate
 (
 salt
 false
@@ -6073,7 +6073,7 @@ newSalt
 ;
 mPersistentStorageAllowed
 .
-Put
+InsertOrUpdate
 (
 *
 salt
@@ -6525,7 +6525,7 @@ salt
 ;
 mPersistentStorageAllowed
 .
-Put
+InsertOrUpdate
 (
 salt
 true

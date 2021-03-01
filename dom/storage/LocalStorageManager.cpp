@@ -563,7 +563,7 @@ usage
 }
 mUsages
 .
-Put
+InsertOrUpdate
 (
 aOriginNoSuffix
 usage

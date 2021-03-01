@@ -1795,7 +1795,7 @@ rv
 ;
 mNamedWindows
 .
-Put
+InsertOrUpdate
 (
 name
 newWindow

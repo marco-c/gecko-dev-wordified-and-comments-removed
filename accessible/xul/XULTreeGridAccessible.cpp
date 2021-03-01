@@ -1584,7 +1584,7 @@ aColumn
 ;
 mAccessibleCache
 .
-Put
+InsertOrUpdate
 (
 key
 RefPtr

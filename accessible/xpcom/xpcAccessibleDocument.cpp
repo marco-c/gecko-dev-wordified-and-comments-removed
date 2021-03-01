@@ -840,7 +840,7 @@ aAccessible
 }
 mCache
 .
-Put
+InsertOrUpdate
 (
 aAccessible
 xpcAcc
@@ -975,7 +975,7 @@ interfaces
 ;
 mCache
 .
-Put
+InsertOrUpdate
 (
 aProxy
 acc
@@ -996,7 +996,7 @@ interfaces
 ;
 mCache
 .
-Put
+InsertOrUpdate
 (
 aProxy
 acc

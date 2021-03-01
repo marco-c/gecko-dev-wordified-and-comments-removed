@@ -2746,7 +2746,7 @@ ok
 ;
 mContentParents
 .
-Put
+InsertOrUpdate
 (
 aOtherPid
 RefPtr

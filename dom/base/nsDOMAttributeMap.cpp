@@ -1262,7 +1262,7 @@ NameAtom
 ;
 mAttributeCache
 .
-Put
+InsertOrUpdate
 (
 attrkey
 RefPtr

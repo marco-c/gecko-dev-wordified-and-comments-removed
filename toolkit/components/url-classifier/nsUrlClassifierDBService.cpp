@@ -6116,7 +6116,7 @@ response
 .
 fullHashes
 .
-Put
+InsertOrUpdate
 (
 fullHash
 nowSec
@@ -9779,7 +9779,7 @@ completer
 {
 mCompleters
 .
-Put
+InsertOrUpdate
 (
 tableName
 completer

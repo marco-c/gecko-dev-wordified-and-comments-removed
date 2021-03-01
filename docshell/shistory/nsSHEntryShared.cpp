@@ -231,7 +231,7 @@ SHEntrySharedParentState
 sIdToSharedState
 -
 >
-Put
+InsertOrUpdate
 (
 aSharedState
 -
@@ -368,7 +368,7 @@ aId
 sIdToSharedState
 -
 >
-Put
+InsertOrUpdate
 (
 mId
 this

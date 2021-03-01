@@ -208,7 +208,7 @@ id
 ;
 mFileInfos
 .
-Put
+InsertOrUpdate
 (
 id
 fileInfo

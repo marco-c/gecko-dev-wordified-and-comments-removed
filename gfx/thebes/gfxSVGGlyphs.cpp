@@ -1296,7 +1296,7 @@ aGlyphId
 }
 mGlyphIdMap
 .
-Put
+InsertOrUpdate
 (
 aGlyphId
 elem
@@ -2471,7 +2471,7 @@ ch
 }
 mGlyphIdMap
 .
-Put
+InsertOrUpdate
 (
 id
 aGlyphElement

@@ -1504,7 +1504,7 @@ entry
 gBloatView
 -
 >
-Put
+InsertOrUpdate
 (
 aTypeName
 MakeUnique

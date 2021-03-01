@@ -527,7 +527,7 @@ aSample
 ;
 mDecodingBuffers
 .
-Put
+InsertOrUpdate
 (
 aSample
 -

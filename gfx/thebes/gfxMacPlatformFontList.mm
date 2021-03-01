@@ -4122,7 +4122,7 @@ sizeHint
 ;
 mFontFamilies
 .
-Put
+InsertOrUpdate
 (
 key
 RefPtr
@@ -5467,7 +5467,7 @@ true
 ;
 mFontFamilies
 .
-Put
+InsertOrUpdate
 (
 key
 std
@@ -5845,7 +5845,7 @@ key
 ;
 mFontFamilies
 .
-Put
+InsertOrUpdate
 (
 key
 std
@@ -8239,7 +8239,7 @@ cmaps
 }
 mFontFaceData
 .
-Put
+InsertOrUpdate
 (
 fontName
 fontData
@@ -8335,7 +8335,7 @@ Length
 {
 mOtherFamilyNames
 .
-Put
+InsertOrUpdate
 (
 aFamilyName
 otherFamilyNames

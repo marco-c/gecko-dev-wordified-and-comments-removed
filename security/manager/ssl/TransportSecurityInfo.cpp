@@ -4580,7 +4580,7 @@ mMutex
 ;
 mErrorHosts
 .
-Put
+InsertOrUpdate
 (
 hostPortKey
 bits

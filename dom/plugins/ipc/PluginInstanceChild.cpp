@@ -11245,7 +11245,7 @@ mozformat
 ;
 mDirectBitmaps
 .
-Put
+InsertOrUpdate
 (
 surface
 std
@@ -11391,7 +11391,7 @@ handle
 ;
 mDxgiSurfaces
 .
-Put
+InsertOrUpdate
 (
 surface
 handle

@@ -305,7 +305,7 @@ name
 ;
 mNameHashtable
 .
-Put
+InsertOrUpdate
 (
 colName
 i

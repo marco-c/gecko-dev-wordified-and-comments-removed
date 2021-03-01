@@ -784,7 +784,7 @@ aSize
 }
 mPrefixesMap
 .
-Put
+InsertOrUpdate
 (
 aSize
 MakeUnique

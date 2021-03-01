@@ -6425,7 +6425,7 @@ clientID
 ;
 mActiveCachesByGroup
 .
-Put
+InsertOrUpdate
 (
 group
 MakeUnique
@@ -11093,7 +11093,7 @@ mLock
 ;
 mCaches
 .
-Put
+InsertOrUpdate
 (
 clientID
 weak
@@ -11255,7 +11255,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mCaches
 .
-Put
+InsertOrUpdate
 (
 clientID
 weak
@@ -12898,7 +12898,7 @@ clientID
 ;
 mActiveCachesByGroup
 .
-Put
+InsertOrUpdate
 (
 group
 MakeUnique

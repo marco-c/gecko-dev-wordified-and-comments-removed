@@ -5567,7 +5567,7 @@ aReferentCount
 >
 mMessageCounter
 .
-Put
+InsertOrUpdate
 (
 key
 currentCount
@@ -7240,7 +7240,7 @@ script
 sCachedScripts
 -
 >
-Put
+InsertOrUpdate
 (
 aURL
 holder

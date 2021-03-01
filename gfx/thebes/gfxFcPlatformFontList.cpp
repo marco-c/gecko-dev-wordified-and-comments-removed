@@ -6357,7 +6357,7 @@ visibility
 ;
 mFontFamilies
 .
-Put
+InsertOrUpdate
 (
 keyName
 RefPtr
@@ -6502,7 +6502,7 @@ psname
 ;
 mLocalNames
 .
-Put
+InsertOrUpdate
 (
 psname
 aFont
@@ -6526,7 +6526,7 @@ fullname
 ;
 mLocalNames
 .
-Put
+InsertOrUpdate
 (
 fullname
 aFont
@@ -7728,7 +7728,7 @@ psname
 ;
 mLocalNameTable
 .
-Put
+InsertOrUpdate
 (
 psname
 fontlist
@@ -7770,7 +7770,7 @@ psname
 {
 mLocalNameTable
 .
-Put
+InsertOrUpdate
 (
 fullname
 fontlist
@@ -9693,7 +9693,7 @@ aLanguage
 }
 mFcSubstituteCache
 .
-Put
+InsertOrUpdate
 (
 familyName
 cachedFamilies

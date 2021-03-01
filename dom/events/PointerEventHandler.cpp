@@ -301,7 +301,7 @@ eMouseEnterIntoWidget
 sActivePointersIds
 -
 >
-Put
+InsertOrUpdate
 (
 aEvent
 -
@@ -356,7 +356,7 @@ AsPointerEvent
 sActivePointersIds
 -
 >
-Put
+InsertOrUpdate
 (
 pointerEvent
 -
@@ -441,7 +441,7 @@ MOZ_SOURCE_TOUCH
 sActivePointersIds
 -
 >
-Put
+InsertOrUpdate
 (
 pointerEvent
 -
@@ -932,7 +932,7 @@ false
 sPointerCaptureRemoteTargetTable
 -
 >
-Put
+InsertOrUpdate
 (
 aPointerId
 aBrowserParent

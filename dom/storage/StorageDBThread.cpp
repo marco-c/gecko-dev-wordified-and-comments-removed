@@ -5951,7 +5951,7 @@ opRemoveItem
 :
 mUpdates
 .
-Put
+InsertOrUpdate
 (
 aOperation
 -
@@ -6160,7 +6160,7 @@ Remove
 }
 mClears
 .
-Put
+InsertOrUpdate
 (
 aOperation
 -
@@ -6199,7 +6199,7 @@ Clear
 ;
 mClears
 .
-Put
+InsertOrUpdate
 (
 aOperation
 -

@@ -216,7 +216,7 @@ aValue
 {
 mCachedStyleAttrs
 .
-Put
+InsertOrUpdate
 (
 aSerialized
 aValue

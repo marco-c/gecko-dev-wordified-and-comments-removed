@@ -2640,7 +2640,7 @@ uri
 ;
 mZips
 .
-Put
+InsertOrUpdate
 (
 uri
 RefPtr
@@ -2915,7 +2915,7 @@ uri
 ;
 mZips
 .
-Put
+InsertOrUpdate
 (
 uri
 RefPtr

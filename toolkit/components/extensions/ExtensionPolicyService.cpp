@@ -825,7 +825,7 @@ false
 }
 mExtensions
 .
-Put
+InsertOrUpdate
 (
 aPolicy
 .
@@ -841,7 +841,7 @@ aPolicy
 ;
 mExtensionHosts
 .
-Put
+InsertOrUpdate
 (
 aPolicy
 .
@@ -971,7 +971,7 @@ false
 }
 mObservers
 .
-Put
+InsertOrUpdate
 (
 &
 aObserver

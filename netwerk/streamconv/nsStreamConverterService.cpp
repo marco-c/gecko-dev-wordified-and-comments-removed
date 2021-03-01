@@ -797,7 +797,7 @@ iteration
 ;
 lBFSTable
 .
-Put
+InsertOrUpdate
 (
 key
 mozilla

@@ -250,7 +250,7 @@ tagName
 gTagTable
 -
 >
-Put
+InsertOrUpdate
 (
 tmp
 tagValue
@@ -273,7 +273,7 @@ atom
 gTagAtomTable
 -
 >
-Put
+InsertOrUpdate
 (
 atom
 tagValue

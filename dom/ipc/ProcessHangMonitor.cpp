@@ -3718,7 +3718,7 @@ else
 {
 mBrowserCrashDumpIds
 .
-Put
+InsertOrUpdate
 (
 aPhd
 .
@@ -4132,7 +4132,7 @@ mBrowserCrashDumpHashLock
 ;
 mBrowserCrashDumpIds
 .
-Put
+InsertOrUpdate
 (
 aPluginId
 aDumpId

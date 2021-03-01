@@ -3958,7 +3958,7 @@ i
 ;
 mStorage
 .
-Put
+InsertOrUpdate
 (
 store
 UniquePtr
@@ -4664,7 +4664,7 @@ i
 ;
 mStorage
 .
-Put
+InsertOrUpdate
 (
 store
 MakeUnique
@@ -4870,7 +4870,7 @@ inserted
 histogramMap
 -
 >
-Put
+InsertOrUpdate
 (
 key
 std
@@ -5925,7 +5925,7 @@ NS_ERROR_FAILURE
 }
 aSnapshot
 .
-Put
+InsertOrUpdate
 (
 iter
 .

@@ -9524,7 +9524,7 @@ entry
 ;
 mScriptableObjects
 .
-Put
+InsertOrUpdate
 (
 aObject
 aActor
@@ -10550,7 +10550,7 @@ nullptr
 sPluginInstanceList
 -
 >
-Put
+InsertOrUpdate
 (
 (
 void

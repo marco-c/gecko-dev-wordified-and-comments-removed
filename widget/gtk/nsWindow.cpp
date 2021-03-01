@@ -21281,7 +21281,7 @@ GDK_TOUCH_UPDATE
 {
 mTouches
 .
-Put
+InsertOrUpdate
 (
 aEvent
 -

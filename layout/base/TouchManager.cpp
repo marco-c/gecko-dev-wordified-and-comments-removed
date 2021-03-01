@@ -1369,7 +1369,7 @@ true
 sCaptureTouchList
 -
 >
-Put
+InsertOrUpdate
 (
 id
 info
@@ -1629,7 +1629,7 @@ touch
 sCaptureTouchList
 -
 >
-Put
+InsertOrUpdate
 (
 id
 info
@@ -2084,7 +2084,7 @@ false
 sCaptureTouchList
 -
 >
-Put
+InsertOrUpdate
 (
 id
 info

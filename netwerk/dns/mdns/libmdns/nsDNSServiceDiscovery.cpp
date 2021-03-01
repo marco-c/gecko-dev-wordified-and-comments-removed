@@ -506,7 +506,7 @@ rv
 }
 mDiscoveryMap
 .
-Put
+InsertOrUpdate
 (
 aListener
 std
@@ -704,7 +704,7 @@ rv
 }
 mRegisterMap
 .
-Put
+InsertOrUpdate
 (
 aListener
 std

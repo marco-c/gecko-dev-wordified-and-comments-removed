@@ -192,7 +192,7 @@ mTimerCount
 ;
 mTimers
 .
-Put
+InsertOrUpdate
 (
 timerId
 aTask

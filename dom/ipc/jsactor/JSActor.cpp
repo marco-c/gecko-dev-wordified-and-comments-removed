@@ -1483,7 +1483,7 @@ Query
 ;
 mPendingQueries
 .
-Put
+InsertOrUpdate
 (
 meta
 .

@@ -5478,7 +5478,7 @@ InvalidType
 }
 mScalarKeys
 .
-Put
+InsertOrUpdate
 (
 utf8Key
 UniquePtr
@@ -6880,7 +6880,7 @@ NS_ERROR_INVALID_ARG
 scalarStorage
 -
 >
-Put
+InsertOrUpdate
 (
 aId
 .
@@ -7766,7 +7766,7 @@ NS_ERROR_INVALID_ARG
 scalarStorage
 -
 >
-Put
+InsertOrUpdate
 (
 aId
 .

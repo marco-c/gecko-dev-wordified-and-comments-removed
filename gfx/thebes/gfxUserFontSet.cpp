@@ -4927,7 +4927,7 @@ aFamilyName
 ;
 mFontFamilies
 .
-Put
+InsertOrUpdate
 (
 key
 RefPtr

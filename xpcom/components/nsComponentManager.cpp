@@ -3205,7 +3205,7 @@ return
 }
 mContractIDs
 .
-Put
+InsertOrUpdate
 (
 AsLiteralCString
 (
@@ -3730,7 +3730,7 @@ permanentCID
 ;
 mFactories
 .
-Put
+InsertOrUpdate
 (
 permanentCID
 new
@@ -3915,7 +3915,7 @@ contractString
 ;
 mContractIDs
 .
-Put
+InsertOrUpdate
 (
 contractString
 f
@@ -7334,7 +7334,7 @@ contractID
 ;
 mContractIDs
 .
-Put
+InsertOrUpdate
 (
 contractID
 oldf
@@ -7467,7 +7467,7 @@ aContractID
 ;
 mContractIDs
 .
-Put
+InsertOrUpdate
 (
 contractID
 f

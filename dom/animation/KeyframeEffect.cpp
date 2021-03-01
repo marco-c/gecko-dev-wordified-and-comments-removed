@@ -624,7 +624,7 @@ Next
 {
 mBaseValues
 .
-Put
+InsertOrUpdate
 (
 iter
 .
@@ -2809,7 +2809,7 @@ Consume
 ;
 mBaseValues
 .
-Put
+InsertOrUpdate
 (
 aProperty
 .

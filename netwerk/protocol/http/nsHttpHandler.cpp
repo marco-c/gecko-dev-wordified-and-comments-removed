@@ -11940,7 +11940,7 @@ kNotFound
 {
 mAltSvcMappingTemptativeMap
 .
-Put
+InsertOrUpdate
 (
 Substring
 (
@@ -16183,7 +16183,7 @@ aChannel
 ;
 mIDToHttpChannelMap
 .
-Put
+InsertOrUpdate
 (
 aId
 std

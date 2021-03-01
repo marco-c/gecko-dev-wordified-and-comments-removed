@@ -2011,12 +2011,12 @@ rv
 {
 mWatchedResourcesByHandle
 .
-Put
+InsertOrUpdate
 (
 resHandle
 mWatchedResourcesByPath
 .
-Put
+InsertOrUpdate
 (
 wrappedParameters
 -

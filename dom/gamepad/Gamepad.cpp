@@ -354,7 +354,7 @@ mParent
 }
 mTouchIdHash
 .
-Put
+InsertOrUpdate
 (
 0
 mTouchIdHashValue
@@ -653,7 +653,7 @@ mTouchIdHashValue
 ;
 mTouchIdHash
 .
-Put
+InsertOrUpdate
 (
 aTouch
 .

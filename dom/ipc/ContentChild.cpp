@@ -17330,7 +17330,7 @@ aRecursiveFlag
 ;
 mGetFilesPendingRequests
 .
-Put
+InsertOrUpdate
 (
 aUUID
 RefPtr

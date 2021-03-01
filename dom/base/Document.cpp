@@ -6160,7 +6160,7 @@ newResource
 =
 mMap
 .
-Put
+InsertOrUpdate
 (
 aURI
 MakeUnique
@@ -22561,7 +22561,7 @@ InternalCommandDataHashtable
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -22591,7 +22591,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -22621,7 +22621,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -22651,7 +22651,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -22681,7 +22681,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -22711,7 +22711,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -22741,7 +22741,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -22771,7 +22771,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -22801,7 +22801,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -22831,7 +22831,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -22861,7 +22861,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -22891,7 +22891,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -22921,7 +22921,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -22951,7 +22951,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -22981,7 +22981,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23011,7 +23011,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23041,7 +23041,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23071,7 +23071,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23101,7 +23101,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23131,7 +23131,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23161,7 +23161,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23191,7 +23191,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23221,7 +23221,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23251,7 +23251,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23281,7 +23281,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23311,7 +23311,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23341,7 +23341,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23371,7 +23371,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23401,7 +23401,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23428,7 +23428,7 @@ nullptr
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23458,7 +23458,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23488,7 +23488,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23518,7 +23518,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23548,7 +23548,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23578,7 +23578,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23608,7 +23608,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23638,7 +23638,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23668,7 +23668,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23698,7 +23698,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23728,7 +23728,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23758,7 +23758,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23788,7 +23788,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23818,7 +23818,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23848,7 +23848,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23878,7 +23878,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23908,7 +23908,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23938,7 +23938,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23968,7 +23968,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -23998,7 +23998,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -24028,7 +24028,7 @@ GetInstance
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -24061,7 +24061,7 @@ if
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -24088,7 +24088,7 @@ nullptr
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -24115,7 +24115,7 @@ nullptr
 sInternalCommandDataHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 u
 "
@@ -55745,7 +55745,7 @@ rv
 {
 mPreloadingImages
 .
-Put
+InsertOrUpdate
 (
 aUri
 std

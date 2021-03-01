@@ -647,7 +647,7 @@ Data
 ;
 keySessions
 .
-Put
+InsertOrUpdate
 (
 session
 -
@@ -1286,7 +1286,7 @@ aPromise
 endif
 mPromises
 .
-Put
+InsertOrUpdate
 (
 id
 RefPtr
@@ -1313,7 +1313,7 @@ aToken
 {
 mPromiseIdToken
 .
-Put
+InsertOrUpdate
 (
 aId
 aToken
@@ -1877,7 +1877,7 @@ return
 }
 mKeySessions
 .
-Put
+InsertOrUpdate
 (
 aSession
 -
@@ -2094,7 +2094,7 @@ return
 }
 mKeySessions
 .
-Put
+InsertOrUpdate
 (
 session
 -
@@ -3598,7 +3598,7 @@ Token
 ;
 mPendingSessions
 .
-Put
+InsertOrUpdate
 (
 session
 -

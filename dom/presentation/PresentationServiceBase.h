@@ -377,7 +377,7 @@ aSessionId
 ;
 mRespondingWindowIds
 .
-Put
+InsertOrUpdate
 (
 aSessionId
 aWindowId

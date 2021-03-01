@@ -1355,7 +1355,7 @@ forget
 ;
 mURIToIDTable
 .
-Put
+InsertOrUpdate
 (
 mURIArray
 .
@@ -1432,7 +1432,7 @@ forget
 ;
 mDisabledURIToIDTable
 .
-Put
+InsertOrUpdate
 (
 mURIArray
 .

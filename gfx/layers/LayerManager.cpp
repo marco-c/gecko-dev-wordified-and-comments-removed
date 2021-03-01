@@ -951,7 +951,7 @@ aAnimation
 {
 mPartialPrerenderedAnimations
 .
-Put
+InsertOrUpdate
 (
 aCompositorAnimationId
 RefPtr

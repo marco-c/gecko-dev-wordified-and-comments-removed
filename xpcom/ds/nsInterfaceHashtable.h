@@ -140,7 +140,7 @@ nullptr
 const
 ;
 void
-Put
+InsertOrUpdate
 (
 KeyType
 aKey
@@ -156,7 +156,7 @@ aData
 if
 (
 !
-Put
+InsertOrUpdate
 (
 aKey
 std
@@ -202,7 +202,7 @@ nodiscard
 ]
 ]
 bool
-Put
+InsertOrUpdate
 (
 KeyType
 aKey
@@ -225,7 +225,7 @@ using
 base_type
 :
 :
-Put
+InsertOrUpdate
 ;
 inline
 bool
@@ -597,7 +597,7 @@ Interface
 >
 :
 :
-Put
+InsertOrUpdate
 (
 KeyType
 aKey
