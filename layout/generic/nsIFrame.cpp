@@ -5288,17 +5288,6 @@ FrameLayerBuilder
 RemoveFrameFromLayerManager
 (
 this
-DisplayItemData
-(
-)
-)
-;
-DisplayItemData
-(
-)
-.
-Clear
-(
 )
 ;
 for
