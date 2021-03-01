@@ -3890,6 +3890,9 @@ stub
 enteredCount
 (
 )
+=
+=
+0
 )
 ;
 stub
@@ -3932,6 +3935,9 @@ stub
 enteredCount
 (
 )
+=
+=
+0
 )
 ;
 }
