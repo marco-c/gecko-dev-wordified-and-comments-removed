@@ -475,7 +475,7 @@ matches
 (
 this
 .
-_url
+_uri
 )
 ;
 }
@@ -530,15 +530,8 @@ _url
 }
 }
 get
-uri
+_uri
 (
-)
-{
-if
-(
-this
-.
-hasTabPermission
 )
 {
 return
@@ -548,7 +541,6 @@ browser
 .
 currentURI
 ;
-}
 }
 get
 _title
@@ -1258,7 +1250,7 @@ matches
 (
 this
 .
-_url
+_uri
 )
 )
 {

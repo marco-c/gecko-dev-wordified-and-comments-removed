@@ -1172,11 +1172,6 @@ urls
 )
 {
 return
-tab
-.
-hasTabPermission
-&
-&
 filter
 .
 urls
@@ -1185,8 +1180,13 @@ matches
 (
 tab
 .
-uri
+_uri
 )
+&
+&
+tab
+.
+hasTabPermission
 ;
 }
 return
