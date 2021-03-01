@@ -1143,7 +1143,7 @@ Formats
 static
 const
 NotificationAndReportStringId
-sMediaPlatformDecoderNotFound
+sMediaFFMpegNotFound
 =
 {
 dom
@@ -1331,7 +1331,7 @@ sMediaWidevineNoWMF
 &
 sMediaWMFNeeded
 &
-sMediaPlatformDecoderNotFound
+sMediaFFMpegNotFound
 &
 sMediaCannotPlayNoDecoders
 &
@@ -3625,13 +3625,10 @@ Cannot
 play
 media
 because
-platform
-decoder
+ffmpeg
 was
 not
 found
-"
-"
 (
 Reason
 :
@@ -3660,7 +3657,7 @@ LinkStatusString
 ReportAnalysis
 (
 mDocument
-sMediaPlatformDecoderNotFound
+sMediaFFMpegNotFound
 false
 formatsRequiringFFMpeg
 )
