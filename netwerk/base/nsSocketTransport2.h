@@ -1464,9 +1464,6 @@ bool
 mDoNotRetryToConnect
 ;
 bool
-mUsingQuic
-;
-bool
 mPortRemappingApplied
 =
 false

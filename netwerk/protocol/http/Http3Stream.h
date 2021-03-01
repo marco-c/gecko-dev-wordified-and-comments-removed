@@ -343,12 +343,6 @@ mFlatResponseHeaders
 uint32_t
 mRequestBodyLenRemaining
 ;
-RefPtr
-<
-nsISocketTransport
->
-mSocketTransport
-;
 uint64_t
 mTotalSent
 ;

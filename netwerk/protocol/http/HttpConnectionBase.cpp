@@ -110,10 +110,6 @@ mBootstrappedTimingsSet
 (
 false
 )
-mTotalBytesWritten
-(
-0
-)
 mCallbacksLock
 (
 "
