@@ -3532,6 +3532,17 @@ SurfaceFormat
 aFormat
 )
 {
+if
+(
+!
+gfxPlatform
+:
+:
+UseRemoteCanvas
+(
+)
+)
+{
 gfxPlatform
 :
 :
@@ -3544,6 +3555,7 @@ EnsureDevicesInitialized
 (
 )
 ;
+}
 RefPtr
 <
 PersistentBufferProvider

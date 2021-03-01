@@ -692,6 +692,10 @@ remoteCanvas
 &
 &
 webrender
+&
+&
+!
+swgl
 1
 -
 73
