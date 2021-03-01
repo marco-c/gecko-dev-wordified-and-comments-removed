@@ -9977,7 +9977,12 @@ window
 domNode
 )
 {
-let
+while
+(
+domNode
+)
+{
+const
 win
 =
 nodeDocument
@@ -9987,11 +9992,6 @@ domNode
 .
 defaultView
 ;
-while
-(
-win
-)
-{
 if
 (
 win
@@ -10005,7 +10005,7 @@ return
 true
 ;
 }
-win
+domNode
 =
 getFrameElement
 (
