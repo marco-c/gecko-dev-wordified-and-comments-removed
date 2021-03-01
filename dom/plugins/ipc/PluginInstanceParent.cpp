@@ -28,15 +28,6 @@ include
 "
 mozilla
 /
-D3DMessageUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Preferences
 .
 h
