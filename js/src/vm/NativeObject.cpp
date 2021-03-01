@@ -8166,8 +8166,11 @@ NativeLookupOwnPropertyNoResolve
 cx
 obj
 id
-&
 prop
+.
+address
+(
+)
 )
 )
 {
@@ -9688,14 +9691,8 @@ markElementOverridden
 #
 ifdef
 DEBUG
-Rooted
-<
 PropertyResult
->
 prop
-(
-cx
-)
 ;
 if
 (
