@@ -376,8 +376,6 @@ dest_origin
 =
 dest_task
 .
-common_data
-.
 task_rect
 .
 p0
