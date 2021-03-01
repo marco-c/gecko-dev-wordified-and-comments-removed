@@ -7097,6 +7097,11 @@ mFirstStreamIdReuseIdleConnection
 {
 MOZ_ASSERT
 (
+mConnectionIdleStart
+)
+;
+MOZ_ASSERT
+(
 mConnectionIdleEnd
 )
 ;
