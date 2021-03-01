@@ -174,6 +174,13 @@ test
 (
 )
 {
+UrlbarTestUtils
+.
+init
+(
+this
+)
+;
 UrlbarResult
 .
 addDynamicResultType
