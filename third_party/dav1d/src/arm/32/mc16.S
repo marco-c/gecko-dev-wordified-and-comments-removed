@@ -23055,6 +23055,13 @@ load_filter_coef
 dst
 src
 inc
+add
+\
+src
+\
+src
+\
+inc
 vld1
 .
 8
@@ -23067,13 +23074,6 @@ r12
 :
 64
 ]
-add
-\
-src
-\
-src
-\
-inc
 .
 endm
 .

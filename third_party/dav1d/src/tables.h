@@ -469,13 +469,13 @@ dav1d_cdef_directions
 ;
 extern
 const
-int16_t
+uint16_t
 dav1d_sgr_params
 [
 16
 ]
 [
-4
+2
 ]
 ;
 extern

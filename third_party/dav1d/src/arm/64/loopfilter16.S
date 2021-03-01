@@ -1661,12 +1661,6 @@ f
 iclip_diff
 (
 )
-movi
-v7
-.
-8h
-#
-3
 smax
 v2
 .
@@ -1703,7 +1697,7 @@ sqadd
 v5
 .
 8h
-v7
+v5
 .
 8h
 v2

@@ -64,14 +64,13 @@ N_WEDGE_DIRECTIONS
 typedef
 struct
 {
-enum
-WedgeDirectionType
+uint8_t
 direction
 ;
-int
+uint8_t
 x_offset
 ;
-int
+uint8_t
 y_offset
 ;
 }

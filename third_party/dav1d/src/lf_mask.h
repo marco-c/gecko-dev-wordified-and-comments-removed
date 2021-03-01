@@ -56,8 +56,7 @@ typedef
 struct
 Av1RestorationUnit
 {
-enum
-Dav1dRestorationType
+uint8_t
 type
 ;
 int8_t
@@ -75,7 +74,7 @@ filter_v
 uint8_t
 sgr_idx
 ;
-int16_t
+int8_t
 sgr_weights
 [
 2
@@ -127,7 +126,7 @@ cdef_idx
 uint16_t
 noskip_mask
 [
-32
+16
 ]
 [
 2

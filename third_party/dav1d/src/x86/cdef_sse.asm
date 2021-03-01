@@ -1587,7 +1587,7 @@ cdef_filter_
 %
 1x
 %
-2
+2_8bpc
 4
 9
 16
@@ -1636,7 +1636,7 @@ cdef_filter_
 %
 1x
 %
-2
+2_8bpc
 2
 7
 8
@@ -4995,7 +4995,7 @@ CDEF_DIR
 if
 ARCH_X86_64
 cglobal
-cdef_dir
+cdef_dir_8bpc
 3
 5
 16
@@ -6252,7 +6252,7 @@ r1d
 %
 else
 cglobal
-cdef_dir
+cdef_dir_8bpc
 2
 4
 8

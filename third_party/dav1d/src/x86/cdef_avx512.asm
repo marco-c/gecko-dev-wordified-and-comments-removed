@@ -1064,7 +1064,7 @@ L7
 INIT_ZMM
 avx512icl
 cglobal
-cdef_filter_4x4
+cdef_filter_4x4_8bpc
 4
 8
 13
@@ -1072,6 +1072,7 @@ dst
 stride
 left
 top
+\
 pri
 sec
 dir
@@ -2154,7 +2155,7 @@ Lb
 94
 95
 cglobal
-cdef_filter_4x8
+cdef_filter_4x8_8bpc
 4
 9
 22
@@ -2162,7 +2163,6 @@ dst
 stride
 left
 top
-\
 pri
 sec
 dir
@@ -3924,7 +3924,7 @@ Lf
 9a
 9b
 cglobal
-cdef_filter_8x8
+cdef_filter_8x8_8bpc
 4
 11
 32

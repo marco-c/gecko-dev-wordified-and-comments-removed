@@ -322,6 +322,7 @@ dav1dplay_deps
 =
 [
 sdl2_dependency
+libm_dependency
 ]
 dav1dplay_cflags
 =
@@ -339,9 +340,9 @@ version
 '
 >
 =
-1
+3
 .
-18
+110
 .
 0
 '

@@ -936,11 +936,6 @@ return
 }
 cleanup
 :
-dav1d_flush
-(
-ctx
-)
-;
 dav1d_close
 (
 &

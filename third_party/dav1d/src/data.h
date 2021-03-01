@@ -26,17 +26,6 @@ src
 )
 ;
 void
-dav1d_data_move_ref
-(
-Dav1dData
-*
-dst
-Dav1dData
-*
-src
-)
-;
-void
 dav1d_data_props_copy
 (
 Dav1dDataProps

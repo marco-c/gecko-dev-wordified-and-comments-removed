@@ -895,15 +895,6 @@ bpc
 )
 return
 ;
-#
-if
-ARCH_AARCH64
-|
-|
-BITDEPTH
-=
-=
-8
 assign_itx17_fn
 (
 4
@@ -1051,6 +1042,4 @@ assign_itx1_fn
 neon
 )
 ;
-#
-endif
 }

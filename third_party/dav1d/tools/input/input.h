@@ -60,6 +60,16 @@ Dav1dData
 data
 )
 ;
+int
+input_seek
+(
+DemuxerContext
+*
+ctx
+uint64_t
+pts
+)
+;
 void
 input_close
 (

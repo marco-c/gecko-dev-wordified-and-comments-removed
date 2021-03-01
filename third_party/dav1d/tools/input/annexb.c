@@ -928,6 +928,10 @@ read
 =
 annexb_read
 .
+seek
+=
+NULL
+.
 close
 =
 annexb_close

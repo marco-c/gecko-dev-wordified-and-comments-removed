@@ -677,7 +677,7 @@ ring
 buffer
 pointers
 cglobal
-wiener_filter7
+wiener_filter7_8bpc
 5
 15
 16
@@ -894,7 +894,7 @@ stk_off
 %
 endif
 cglobal
-wiener_filter7
+wiener_filter7_8bpc
 0
 7
 8
@@ -1415,7 +1415,7 @@ mangle
 private_prefix
 %
 +
-_wiener_filter7_ssse3
+_wiener_filter7_8bpc_ssse3
 )
 .
 v
@@ -1559,7 +1559,7 @@ mangle
 private_prefix
 %
 +
-_wiener_filter7_ssse3
+_wiener_filter7_8bpc_ssse3
 )
 .
 v
@@ -1572,7 +1572,7 @@ mangle
 private_prefix
 %
 +
-_wiener_filter7_ssse3
+_wiener_filter7_8bpc_ssse3
 )
 .
 v
@@ -3240,7 +3240,7 @@ endif
 if
 ARCH_X86_64
 cglobal
-wiener_filter5
+wiener_filter5_8bpc
 5
 13
 16
@@ -3410,7 +3410,7 @@ stk_off
 %
 endif
 cglobal
-wiener_filter5
+wiener_filter5_8bpc
 0
 7
 8
@@ -3884,7 +3884,7 @@ mangle
 private_prefix
 %
 +
-_wiener_filter5_ssse3
+_wiener_filter5_8bpc_ssse3
 )
 .
 v
@@ -3912,7 +3912,7 @@ mangle
 private_prefix
 %
 +
-_wiener_filter5_ssse3
+_wiener_filter5_8bpc_ssse3
 )
 .
 v
@@ -4074,7 +4074,7 @@ mangle
 private_prefix
 %
 +
-_wiener_filter7
+_wiener_filter7_8bpc
 %
 +
 SUFFIX
@@ -4505,7 +4505,7 @@ mangle
 private_prefix
 %
 +
-_wiener_filter7
+_wiener_filter7_8bpc
 %
 +
 SUFFIX
@@ -5329,7 +5329,7 @@ endmacro
 if
 ARCH_X86_64
 cglobal
-sgr_box3_h
+sgr_box3_h_8bpc
 5
 11
 8
@@ -5374,7 +5374,7 @@ have_right
 %
 else
 cglobal
-sgr_box3_h
+sgr_box3_h_8bpc
 6
 7
 8
@@ -5885,7 +5885,7 @@ RET
 if
 ARCH_X86_64
 cglobal
-sgr_box3_v
+sgr_box3_v_8bpc
 4
 10
 9
@@ -5905,7 +5905,7 @@ edgem
 %
 else
 cglobal
-sgr_box3_v
+sgr_box3_v_8bpc
 3
 7
 8
@@ -6498,7 +6498,7 @@ jl
 loop_x
 RET
 cglobal
-sgr_calc_ab1
+sgr_calc_ab1_8bpc
 4
 7
 12
@@ -6912,7 +6912,7 @@ RET
 if
 ARCH_X86_64
 cglobal
-sgr_finish_filter1
+sgr_finish_filter1_8bpc
 5
 13
 16
@@ -6959,7 +6959,7 @@ xd
 %
 else
 cglobal
-sgr_finish_filter1
+sgr_finish_filter1_8bpc
 7
 7
 8
@@ -8751,7 +8751,7 @@ jl
 loop_x
 RET
 cglobal
-sgr_weighted1
+sgr_weighted1_8bpc
 4
 7
 8
@@ -8904,7 +8904,7 @@ RET
 if
 ARCH_X86_64
 cglobal
-sgr_box5_h
+sgr_box5_h_8bpc
 5
 11
 12
@@ -8940,7 +8940,7 @@ pb_0_1
 %
 else
 cglobal
-sgr_box5_h
+sgr_box5_h_8bpc
 7
 7
 8
@@ -9647,7 +9647,7 @@ RET
 if
 ARCH_X86_64
 cglobal
-sgr_box5_v
+sgr_box5_v_8bpc
 4
 10
 15
@@ -9670,7 +9670,7 @@ edged
 %
 else
 cglobal
-sgr_box5_v
+sgr_box5_v_8bpc
 5
 7
 8
@@ -10997,7 +10997,7 @@ sum_loop_y_noload
 %
 endif
 cglobal
-sgr_calc_ab2
+sgr_calc_ab2_8bpc
 4
 7
 11
@@ -11383,7 +11383,7 @@ RET
 if
 ARCH_X86_64
 cglobal
-sgr_finish_filter2
+sgr_finish_filter2_8bpc
 5
 13
 14
@@ -11447,7 +11447,7 @@ m13
 %
 else
 cglobal
-sgr_finish_filter2
+sgr_finish_filter2_8bpc
 6
 7
 8
@@ -12263,7 +12263,7 @@ RET
 undef
 t2
 cglobal
-sgr_weighted2
+sgr_weighted2_8bpc
 4
 7
 12
