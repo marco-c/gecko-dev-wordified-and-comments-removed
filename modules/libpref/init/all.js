@@ -2050,7 +2050,6 @@ MediaWidevineNoWMF
 MediaCannotInitializePulseAudio
 MediaCannotPlayNoDecoders
 MediaUnsupportedLibavcodec
-MediaPlatformDecoderNotFound
 MediaDecodeError
 "
 )
@@ -2076,7 +2075,6 @@ MediaWidevineNoWMF
 MediaCannotInitializePulseAudio
 MediaCannotPlayNoDecoders
 MediaUnsupportedLibavcodec
-MediaPlatformDecoderNotFound
 "
 )
 ;
