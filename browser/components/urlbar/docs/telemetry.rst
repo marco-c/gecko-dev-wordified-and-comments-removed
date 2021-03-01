@@ -2520,7 +2520,7 @@ The
 user
 used
 Paste
-&
+and
 Go
 feature
 .

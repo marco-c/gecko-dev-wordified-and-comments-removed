@@ -3336,7 +3336,7 @@ info
 (
 "
 Paste
-&
+and
 Go
 something
 .
