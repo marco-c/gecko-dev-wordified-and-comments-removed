@@ -399,6 +399,16 @@ js
 )
 content
 /
+permissions
+.
+js
+(
+permissions
+.
+js
+)
+content
+/
 prefs
 .
 js
