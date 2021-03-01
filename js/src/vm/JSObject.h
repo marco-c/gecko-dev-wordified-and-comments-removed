@@ -3418,11 +3418,6 @@ id
 PropertyResult
 *
 propp
-bool
-*
-isTypedArrayOutOfRange
-=
-nullptr
 )
 ;
 bool

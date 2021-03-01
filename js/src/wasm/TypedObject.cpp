@@ -1860,7 +1860,7 @@ id
 {
 propp
 .
-setNonNativeProperty
+setTypedObjectProperty
 (
 )
 ;
