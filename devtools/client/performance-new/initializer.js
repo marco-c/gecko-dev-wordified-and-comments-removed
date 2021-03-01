@@ -521,6 +521,15 @@ options
 .
 ftl
 "
+"
+browser
+/
+branding
+/
+brandings
+.
+ftl
+"
 ]
 )
 ;

@@ -1005,15 +1005,6 @@ preferences
 are
 true
 .
--
-profiler
--
-brand
--
-name
-=
-Firefox
-Profiler
 perftools
 -
 onboarding

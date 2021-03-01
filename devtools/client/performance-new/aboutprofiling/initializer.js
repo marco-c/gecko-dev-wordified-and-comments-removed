@@ -441,6 +441,15 @@ perftools
 .
 ftl
 "
+"
+browser
+/
+branding
+/
+brandings
+.
+ftl
+"
 ]
 {
 setAttributesOnDocument
