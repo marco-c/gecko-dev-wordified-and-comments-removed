@@ -32,9 +32,6 @@ values
 computed
 :
 :
-position
-:
-:
 Ratio
 ;
 use

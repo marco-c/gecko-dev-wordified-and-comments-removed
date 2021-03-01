@@ -850,6 +850,16 @@ use
 self
 :
 :
+ratio
+:
+:
+Ratio
+;
+pub
+use
+self
+:
+:
 rect
 :
 :
@@ -1208,6 +1218,10 @@ page
 pub
 mod
 position
+;
+pub
+mod
+ratio
 ;
 pub
 mod
