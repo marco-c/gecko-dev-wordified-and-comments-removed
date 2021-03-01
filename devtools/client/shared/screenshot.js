@@ -426,12 +426,6 @@ capture
 args
 )
 ;
-screenshotContentFront
-.
-captureDone
-(
-)
-;
 return
 {
 .
