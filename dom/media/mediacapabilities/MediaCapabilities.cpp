@@ -1647,7 +1647,7 @@ sVideoAllocPolicy
 ShutdownPhase
 :
 :
-XPCOMShutdownThreads
+ShutdownThreads
 )
 ;
 }

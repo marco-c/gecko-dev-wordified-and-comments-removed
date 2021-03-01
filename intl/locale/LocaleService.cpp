@@ -674,7 +674,7 @@ sInstance
 ShutdownPhase
 :
 :
-CCPostLastCycleCollection
+ShutdownPostLastCycleCollection
 )
 ;
 }

@@ -10277,7 +10277,7 @@ clear
 ShutdownPhase
 :
 :
-XPCOMShutdownFinal
+ShutdownFinal
 )
 ;
 }

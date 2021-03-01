@@ -750,7 +750,7 @@ sThread
 ShutdownPhase
 :
 :
-XPCOMShutdownLoaders
+ShutdownLoaders
 )
 ;
 }

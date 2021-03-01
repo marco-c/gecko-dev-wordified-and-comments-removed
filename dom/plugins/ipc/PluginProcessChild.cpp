@@ -862,7 +862,7 @@ KillClearOnShutdown
 ShutdownPhase
 :
 :
-XPCOMShutdownFinal
+ShutdownFinal
 )
 ;
 AbstractThread

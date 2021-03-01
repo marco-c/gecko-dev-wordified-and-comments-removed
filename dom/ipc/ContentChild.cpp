@@ -3411,7 +3411,7 @@ sShutdownCanary
 ShutdownPhase
 :
 :
-XPCOMShutdown
+Shutdown
 )
 ;
 }

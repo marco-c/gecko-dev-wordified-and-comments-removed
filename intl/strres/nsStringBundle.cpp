@@ -2174,7 +2174,7 @@ PastShutdownPhase
 ShutdownPhase
 :
 :
-XPCOMShutdown
+Shutdown
 )
 )
 {
@@ -2285,7 +2285,7 @@ PastShutdownPhase
 ShutdownPhase
 :
 :
-XPCOMShutdown
+Shutdown
 )
 )
 {

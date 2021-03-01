@@ -591,7 +591,7 @@ sChannelList
 ShutdownPhase
 :
 :
-XPCOMShutdown
+Shutdown
 )
 ;
 }

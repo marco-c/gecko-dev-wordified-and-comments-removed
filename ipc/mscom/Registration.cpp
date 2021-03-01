@@ -2255,7 +2255,7 @@ sArrayData
 ShutdownPhase
 :
 :
-XPCOMShutdownThreads
+ShutdownThreads
 )
 ;
 }

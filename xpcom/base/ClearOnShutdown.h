@@ -272,7 +272,7 @@ aPhase
 ShutdownPhase
 :
 :
-XPCOMShutdownFinal
+ShutdownFinal
 )
 {
 using
@@ -330,7 +330,7 @@ aPhase
 ShutdownPhase
 :
 :
-XPCOMShutdownFinal
+ShutdownFinal
 )
 {
 using
