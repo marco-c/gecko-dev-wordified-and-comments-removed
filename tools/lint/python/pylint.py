@@ -276,10 +276,6 @@ PYLINT_REQUIREMENTS_PATH
 quiet
 =
 True
-            
-legacy_resolver
-=
-True
         
 )
     
