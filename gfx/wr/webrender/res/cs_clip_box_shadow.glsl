@@ -258,10 +258,10 @@ fetch_data
 (
 )
 ;
-ImageResource
+ImageSource
 res
 =
-fetch_image_resource_direct
+fetch_image_source_direct
 (
 cmi
 .

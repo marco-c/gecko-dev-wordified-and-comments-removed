@@ -674,7 +674,7 @@ user_data
 [
 f32
 ;
-3
+4
 ]
 }
 impl
@@ -719,12 +719,8 @@ user_data
 0
 .
 0
-0
-.
-0
-0
-.
-0
+;
+4
 ]
 }
 }
@@ -3033,7 +3029,7 @@ Option
 [
 f32
 ;
-3
+4
 ]
 >
 is_opaque
@@ -7524,7 +7520,7 @@ image_data
 .
 0
 ;
-3
+4
 ]
 dirty_rect
 gpu_cache

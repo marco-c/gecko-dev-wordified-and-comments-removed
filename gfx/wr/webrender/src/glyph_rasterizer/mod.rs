@@ -1601,6 +1601,9 @@ top
 glyph
 .
 scale
+0
+.
+0
 ]
 DirtyRect
 :

@@ -152,10 +152,10 @@ vec4
 unused
 )
 {
-ImageResource
+ImageSource
 res
 =
-fetch_image_resource
+fetch_image_source
 (
 prim_user_data
 .

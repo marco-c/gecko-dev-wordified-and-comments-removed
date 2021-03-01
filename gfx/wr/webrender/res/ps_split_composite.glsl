@@ -347,10 +347,10 @@ ph
 transform_id
 )
 ;
-ImageResource
+ImageSource
 res
 =
-fetch_image_resource
+fetch_image_source
 (
 ph
 .

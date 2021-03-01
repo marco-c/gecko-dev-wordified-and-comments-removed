@@ -321,10 +321,10 @@ sColor0
 ;
 #
 endif
-ImageResource
+ImageSource
 res
 =
-fetch_image_resource
+fetch_image_source
 (
 specific_resource_address
 )

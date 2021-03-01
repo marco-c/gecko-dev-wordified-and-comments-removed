@@ -1572,10 +1572,10 @@ vec2
 f
 )
 {
-ImageResourceExtra
+ImageSourceExtra
 extra_data
 =
-fetch_image_resource_extra
+fetch_image_source_extra
 (
 address
 )

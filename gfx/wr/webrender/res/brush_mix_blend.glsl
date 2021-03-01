@@ -146,10 +146,10 @@ vec4
 out_uv_sample_bounds
 )
 {
-ImageResource
+ImageSource
 res
 =
-fetch_image_resource
+fetch_image_source
 (
 res_address
 )

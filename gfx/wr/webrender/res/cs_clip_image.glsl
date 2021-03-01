@@ -204,10 +204,10 @@ base
 prim_transform_id
 )
 ;
-ImageResource
+ImageSource
 res
 =
-fetch_image_resource_direct
+fetch_image_source_direct
 (
 cmi
 .
