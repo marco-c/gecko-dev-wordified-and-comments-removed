@@ -1027,10 +1027,10 @@ webrender
 &
 &
 cocoaWidget
-21
+9
 -
 21
-44
+41
 -
 44
 )
@@ -1929,10 +1929,10 @@ webrender
 &
 &
 cocoaWidget
-1
+0
 -
 1
-396
+0
 -
 396
 )
@@ -2024,6 +2024,10 @@ webrender
 &
 &
 cocoaWidget
+&
+&
+!
+swgl
 7
 -
 7
@@ -2096,6 +2100,10 @@ webrender
 &
 &
 cocoaWidget
+&
+&
+!
+swgl
 7
 -
 7
@@ -2214,6 +2222,10 @@ webrender
 &
 &
 cocoaWidget
+&
+&
+!
+swgl
 7
 -
 7
@@ -2286,6 +2298,10 @@ webrender
 &
 &
 cocoaWidget
+&
+&
+!
+swgl
 1
 -
 2
@@ -2393,7 +2409,7 @@ webrender
 &
 &
 cocoaWidget
-13
+12
 -
 13
 44
@@ -2809,7 +2825,7 @@ webrender
 &
 &
 cocoaWidget
-13
+12
 -
 13
 81
@@ -2906,7 +2922,7 @@ cocoaWidget
 18
 -
 19
-70
+44
 -
 75
 )
@@ -2984,7 +3000,7 @@ cocoaWidget
 18
 -
 19
-70
+44
 -
 75
 )
@@ -3303,7 +3319,7 @@ webrender
 cocoaWidget
 8
 -
-8
+9
 38
 -
 42
@@ -3386,6 +3402,10 @@ webrender
 &
 &
 cocoaWidget
+&
+&
+!
+swgl
 6
 -
 6
