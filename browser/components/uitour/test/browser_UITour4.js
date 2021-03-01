@@ -810,7 +810,7 @@ await
 showInfoPromise
 (
 "
-customize
+addons
 "
 "
 title
@@ -848,7 +848,7 @@ show
 info
 on
 the
-customize
+addons
 button
 "
 )
@@ -886,7 +886,7 @@ getShowInfoTargetName
 (
 )
 "
-customize
+addons
 "
 "
 Should
@@ -895,7 +895,7 @@ info
 tooltip
 on
 the
-customize
+addons
 button
 on
 the

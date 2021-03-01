@@ -1100,7 +1100,7 @@ showHighlight
 ;
 }
 function
-test_highlight_customize_auto_open_close
+test_highlight_addons_auto_open_close
 (
 done
 )
@@ -1122,7 +1122,7 @@ gContentAPI
 showHighlight
 (
 "
-customize
+addons
 "
 )
 ;
@@ -1279,7 +1279,7 @@ items
 ;
 }
 function
-test_highlight_customize_manual_open_close
+test_highlight_addons_manual_open_close
 (
 done
 )
@@ -1345,7 +1345,7 @@ gContentAPI
 showHighlight
 (
 "
-customize
+addons
 "
 )
 ;
