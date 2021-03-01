@@ -1,6 +1,11 @@
 let
 gDownloadDir
 ;
+requestLongerTimeout
+(
+4
+)
+;
 SimpleTest
 .
 requestFlakyTimeout
