@@ -1084,6 +1084,12 @@ GetGeckoFixedLayerMargins
 )
 const
 ;
+ScreenMargin
+GetCompositorFixedLayerMargins
+(
+)
+const
+;
 private
 :
 typedef
