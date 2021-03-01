@@ -91,6 +91,11 @@ aInitLength
 )
 {
 }
+[
+[
+nodiscard
+]
+]
 DataType
 *
 GetValue

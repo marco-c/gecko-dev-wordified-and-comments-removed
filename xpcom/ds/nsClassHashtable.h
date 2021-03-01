@@ -246,6 +246,11 @@ aData
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
 UserDataType
 Get
 (

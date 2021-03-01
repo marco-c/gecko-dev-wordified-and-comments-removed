@@ -5538,11 +5538,10 @@ Key
 )
 )
 ;
+const
 uint32_t
 oldCount
 =
-0
-;
 aReferentCount
 -
 >
@@ -5551,8 +5550,6 @@ mMessageCounter
 Get
 (
 key
-&
-oldCount
 )
 ;
 uint32_t
@@ -5961,11 +5958,10 @@ i
 +
 )
 {
+const
 uint32_t
 totalReferentCount
 =
-0
-;
 aReferentCount
 .
 mMessageCounter
@@ -5978,8 +5974,6 @@ mSuspectMessages
 [
 i
 ]
-&
-totalReferentCount
 )
 ;
 NS_ConvertUTF16toUTF8

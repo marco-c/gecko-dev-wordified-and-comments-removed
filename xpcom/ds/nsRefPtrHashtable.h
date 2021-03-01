@@ -107,6 +107,11 @@ aData
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
 already_AddRefed
 <
 PtrType
@@ -118,6 +123,11 @@ aKey
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
 PtrType
 *
 GetWeak

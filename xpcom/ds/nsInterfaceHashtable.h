@@ -114,6 +114,11 @@ aData
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
 already_AddRefed
 <
 Interface
@@ -125,6 +130,11 @@ aKey
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
 Interface
 *
 GetWeak
