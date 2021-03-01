@@ -191,14 +191,14 @@ await
 popupShownPromise
 ;
 let
-contextMenuDeleteBookmark
+contextMenuDeleteItem
 =
 document
 .
 getElementById
 (
 "
-placesContext_deleteBookmark
+placesContext_delete
 "
 )
 ;
@@ -240,7 +240,7 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
-contextMenuDeleteBookmark
+contextMenuDeleteItem
 {
 }
 )
@@ -455,7 +455,7 @@ placesContext
 )
 ;
 let
-contextMenuDeleteBookmark
+contextMenuDeleteItem
 =
 library
 .
@@ -464,7 +464,7 @@ document
 getElementById
 (
 "
-placesContext_deleteBookmark
+placesContext_delete
 "
 )
 ;
@@ -614,7 +614,7 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
-contextMenuDeleteBookmark
+contextMenuDeleteItem
 {
 }
 library

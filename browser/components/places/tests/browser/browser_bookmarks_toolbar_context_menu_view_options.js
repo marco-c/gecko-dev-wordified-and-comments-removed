@@ -291,7 +291,6 @@ bookmarkItem
 ;
 ok
 (
-!
 popup
 .
 target
@@ -310,6 +309,7 @@ Bookmarks
 toolbar
 submenu
 should
+not
 appear
 on
 a
