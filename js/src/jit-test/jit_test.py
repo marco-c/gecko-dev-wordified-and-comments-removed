@@ -3377,16 +3377,9 @@ posixpath
 .
 join
 (
-            
 options
 .
 remote_test_root
-"
-tests
-"
-"
-tests
-"
 "
 lib
 "
@@ -3395,7 +3388,6 @@ prologue
 .
 js
 "
-        
 )
     
 prefix
