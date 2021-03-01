@@ -202,12 +202,15 @@ loginRow
 .
 result
 .
-includes
+indexOf
 (
 "
 error
 "
 )
+>
+-
+1
 )
 {
 report
