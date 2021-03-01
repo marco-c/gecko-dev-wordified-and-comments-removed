@@ -67,9 +67,6 @@ appMenu
 backForward
 "
 "
-customize
-"
-"
 devtools
 "
 "
@@ -83,9 +80,6 @@ library
 "
 "
 logins
-"
-"
-pageActionButton
 "
 "
 pageAction
