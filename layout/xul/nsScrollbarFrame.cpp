@@ -86,6 +86,17 @@ mozilla
 /
 dom
 /
+Element
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MutationEventBinding
 .
 h
