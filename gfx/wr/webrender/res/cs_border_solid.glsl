@@ -59,6 +59,7 @@ MPL
 #
 include
 shared
+rect
 ellipse
 #
 define

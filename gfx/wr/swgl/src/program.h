@@ -376,14 +376,11 @@ interp_stride
 }
 }
 ;
-enum
-:
+constexpr
 int32_t
-{
 swgl_StepSize
 =
 4
-}
 ;
 struct
 FragmentShaderImpl

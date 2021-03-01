@@ -23,6 +23,17 @@ rounded
 clip
 .
 png
+fuzzy
+-
+if
+(
+platform
+(
+swgl
+)
+1
+4
+)
 =
 =
 clip
