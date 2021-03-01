@@ -1591,6 +1591,16 @@ pre
 -
 wrap
 ;
+}
+tooltip
+:
+not
+(
+[
+position
+]
+)
+{
 margin
 -
 top
