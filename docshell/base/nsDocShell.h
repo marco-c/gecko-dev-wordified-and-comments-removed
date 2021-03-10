@@ -2737,6 +2737,7 @@ ShouldBlockLoadingForBackButton
 (
 )
 ;
+static
 bool
 ShouldDiscardLayoutState
 (
