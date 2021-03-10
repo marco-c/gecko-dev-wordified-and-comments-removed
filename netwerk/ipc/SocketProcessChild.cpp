@@ -1465,10 +1465,9 @@ MOZ_ASSERT
 !
 mSocketProcessBridgeParentMap
 .
-Get
+Contains
 (
 aContentProcessId
-nullptr
 )
 )
 ;
