@@ -2786,9 +2786,11 @@ template
 XDRMode
 mode
 >
-static
 XDRResult
-XDRStencilModuleMetadata
+StencilXDR
+:
+:
+codeModuleMetadata
 (
 XDRState
 <
@@ -3877,7 +3879,10 @@ Throw
 }
 MOZ_TRY
 (
-XDRStencilModuleMetadata
+StencilXDR
+:
+:
+codeModuleMetadata
 (
 xdr
 *
