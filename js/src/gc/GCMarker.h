@@ -2055,6 +2055,13 @@ SliceBudget
 budget
 )
 ;
+friend
+class
+gc
+:
+:
+GCRuntime
+;
 void
 traceBarrieredCell
 (
