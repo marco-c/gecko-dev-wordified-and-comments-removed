@@ -67,7 +67,7 @@ Open
 -
 brand
 -
-full
+short
 -
 name
 }
