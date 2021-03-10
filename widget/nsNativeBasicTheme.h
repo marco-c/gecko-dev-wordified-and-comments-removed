@@ -1264,7 +1264,6 @@ ThemeSupportsWidget
 (
 nsPresContext
 *
-aPresContext
 nsIFrame
 *
 StyleAppearance
