@@ -57536,7 +57536,13 @@ NodePrincipal
 )
 true
 scriptObject
+IsHTMLDocument
+(
+)
+?
 DocumentFlavorHTML
+:
+DocumentFlavorXML
 )
 ;
 NS_ENSURE_SUCCESS
