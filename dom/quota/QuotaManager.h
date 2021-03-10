@@ -899,6 +899,8 @@ GetDirectoryMetadataWithOriginMetadata2
 nsIFile
 *
 aDirectory
+PersistenceType
+aPersistenceType
 )
 ;
 Result
@@ -911,8 +913,6 @@ GetDirectoryMetadataWithOriginMetadata2WithRestore
 nsIFile
 *
 aDirectory
-bool
-aPersistent
 )
 ;
 RefPtr
