@@ -6383,7 +6383,13 @@ thumbRect
 height
 )
 *
+(
+1
+.
+0
+-
 progress
+)
 ;
 float
 midPoint
