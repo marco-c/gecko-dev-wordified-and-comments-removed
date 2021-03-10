@@ -1887,16 +1887,6 @@ source
 )
 )
 ;
-MOZ_TRY
-(
-xdr
--
->
-align32
-(
-)
-)
-;
 return
 Ok
 (
