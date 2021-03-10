@@ -16238,6 +16238,16 @@ GetSystemPrincipal
 )
 ;
 }
+if
+(
+mozilla
+:
+:
+SessionHistoryInParent
+(
+)
+)
+{
 mActiveEntry
 =
 MakeUnique
@@ -16281,6 +16291,7 @@ loadFlags
 0
 )
 ;
+}
 if
 (
 DisplayLoadError
