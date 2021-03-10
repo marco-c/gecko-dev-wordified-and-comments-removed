@@ -313,11 +313,6 @@ g
 =
 newGlobal
 (
-{
-disableLazyParsing
-:
-true
-}
 )
 ;
 g
