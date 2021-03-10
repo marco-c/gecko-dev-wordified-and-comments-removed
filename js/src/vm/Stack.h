@@ -167,6 +167,9 @@ class
 EnvironmentObject
 ;
 class
+BlockLexicalEnvironmentObject
+;
+class
 ExtensibleLexicalEnvironmentObject
 ;
 class
@@ -1800,7 +1803,7 @@ inline
 void
 replaceInnermostEnvironment
 (
-EnvironmentObject
+BlockLexicalEnvironmentObject
 &
 env
 )
