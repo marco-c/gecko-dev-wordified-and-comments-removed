@@ -279,7 +279,6 @@ pdm
 SupportsMimeType
 (
 codec
-nullptr
 )
 )
 {

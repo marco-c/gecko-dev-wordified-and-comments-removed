@@ -2076,9 +2076,6 @@ const
 nsACString
 &
 aMimeType
-DecoderDoctorDiagnostics
-*
-aDiagnostics
 )
 const
 {
@@ -2111,7 +2108,7 @@ SupportDecoderParams
 *
 trackInfo
 )
-aDiagnostics
+nullptr
 )
 ;
 }
@@ -3387,7 +3384,6 @@ video
 avc
 "
 _ns
-nullptr
 )
 )
 {
@@ -3413,7 +3409,6 @@ video
 vp9
 "
 _ns
-nullptr
 )
 )
 {
@@ -3439,7 +3434,6 @@ video
 vp8
 "
 _ns
-nullptr
 )
 )
 {
@@ -3465,7 +3459,6 @@ video
 av1
 "
 _ns
-nullptr
 )
 )
 {
@@ -3491,7 +3484,6 @@ video
 theora
 "
 _ns
-nullptr
 )
 )
 {
@@ -3519,7 +3511,6 @@ mp4a
 latm
 "
 _ns
-nullptr
 )
 )
 {
@@ -3545,7 +3536,6 @@ audio
 mpeg
 "
 _ns
-nullptr
 )
 )
 {
@@ -3571,7 +3561,6 @@ audio
 opus
 "
 _ns
-nullptr
 )
 )
 {
@@ -3597,7 +3586,6 @@ audio
 vorbis
 "
 _ns
-nullptr
 )
 )
 {
@@ -3623,7 +3611,6 @@ audio
 flac
 "
 _ns
-nullptr
 )
 )
 {
@@ -3651,7 +3638,6 @@ x
 wav
 "
 _ns
-nullptr
 )
 )
 {

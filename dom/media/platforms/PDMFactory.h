@@ -161,9 +161,6 @@ const
 nsACString
 &
 aMimeType
-DecoderDoctorDiagnostics
-*
-aDiagnostics
 )
 const
 ;
