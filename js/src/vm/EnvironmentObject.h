@@ -1664,6 +1664,16 @@ thisObject
 )
 const
 ;
+static
+ExtensibleLexicalEnvironmentObject
+*
+forVarEnvironment
+(
+JSObject
+*
+obj
+)
+;
 protected
 :
 void
