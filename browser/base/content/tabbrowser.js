@@ -12342,7 +12342,7 @@ GetStringFromName
 "
 tabs
 .
-closeWarningMultiple
+closeWarningMultipleTabs
 "
 )
 ;
@@ -12403,7 +12403,7 @@ GetStringFromName
 "
 tabs
 .
-closeWarningPromptMe
+closeWarningPrompt
 "
 )
 :
