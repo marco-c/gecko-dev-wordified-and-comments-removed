@@ -531,11 +531,8 @@ IsHeadless
 ?
 false
 :
-GDK_IS_X11_DISPLAY
+GdkIsX11Display
 (
-gdk_display_get_default
-(
-)
 )
 ;
 if
