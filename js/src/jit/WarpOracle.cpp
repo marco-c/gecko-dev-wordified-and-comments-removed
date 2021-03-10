@@ -5412,7 +5412,12 @@ nullptr
 bool
 needsArgsObj
 =
-false
+targetScript
+-
+>
+needsArgsObj
+(
+)
 ;
 CompileInfo
 *

@@ -4725,6 +4725,8 @@ useBoxOrTyped
 MDefinition
 *
 mir
+bool
+useAtStart
 )
 {
 if
@@ -4747,6 +4749,11 @@ return
 useBox
 (
 mir
+LUse
+:
+:
+REGISTER
+useAtStart
 )
 ;
 }
@@ -4759,6 +4766,13 @@ JS_NUNBOX32
 return
 LBoxAllocation
 (
+useAtStart
+?
+useRegisterAtStart
+(
+mir
+)
+:
 useRegister
 (
 mir
@@ -4773,6 +4787,13 @@ else
 return
 LBoxAllocation
 (
+useAtStart
+?
+useRegisterAtStart
+(
+mir
+)
+:
 useRegister
 (
 mir
@@ -4793,6 +4814,8 @@ MDefinition
 mir
 bool
 useConstant
+bool
+useAtStart
 )
 {
 if
@@ -4854,6 +4877,7 @@ return
 useBoxOrTyped
 (
 mir
+useAtStart
 )
 ;
 }
