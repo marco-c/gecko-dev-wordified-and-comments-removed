@@ -1586,6 +1586,10 @@ ext
 -
 reftest
 -
+test
+-
+verify
+-
 xpcshell
 linux1804
 -
@@ -1724,6 +1728,10 @@ webgl2
 core
 -
 reftest
+-
+test
+-
+verify
 windows
 -
 reftest
