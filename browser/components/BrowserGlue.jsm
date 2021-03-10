@@ -3977,6 +3977,14 @@ return
 }
 if
 (
+!
+Services
+.
+startup
+.
+showedPreXULSkeletonUI
+&
+&
 Services
 .
 prefs
