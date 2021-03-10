@@ -179,6 +179,17 @@ override
 ;
 #
 endif
+virtual
+Accessible
+*
+ChildAt
+(
+uint32_t
+aIndex
+)
+const
+override
+;
 protected
 :
 virtual
