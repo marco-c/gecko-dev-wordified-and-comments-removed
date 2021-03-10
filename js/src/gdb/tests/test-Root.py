@@ -85,7 +85,6 @@ const
 object
 global
 ]
-delegate
 "
 )
 assert_pretty
@@ -102,7 +101,6 @@ JSObject
 object
 global
 ]
-delegate
 "
 )
 run_fragment

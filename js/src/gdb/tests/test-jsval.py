@@ -229,7 +229,6 @@ JSObject
 object
 global
 ]
-delegate
 )
 "
 )
