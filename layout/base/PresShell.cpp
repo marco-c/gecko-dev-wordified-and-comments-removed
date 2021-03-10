@@ -13592,15 +13592,6 @@ if
 a
 -
 >
-HasAnyStateBits
-(
-NS_FRAME_OUT_OF_FLOW
-)
-&
-&
-a
--
->
 IsAbsolutelyPositioned
 (
 )

@@ -37248,12 +37248,6 @@ IsAbsolutelyPositioned
 (
 aStyleDisplay
 )
-&
-&
-HasAnyStateBits
-(
-NS_FRAME_OUT_OF_FLOW
-)
 )
 {
 f
