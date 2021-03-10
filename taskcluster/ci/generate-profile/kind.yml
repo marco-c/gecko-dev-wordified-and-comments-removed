@@ -393,11 +393,9 @@ in
 -
 tree
 :
-debian10
+ubuntu1804
 -
-amd64
--
-build
+test
 }
 artifacts
 :
