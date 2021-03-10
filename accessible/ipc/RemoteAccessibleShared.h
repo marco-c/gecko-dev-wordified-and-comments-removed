@@ -1030,7 +1030,8 @@ FocusedChild
 (
 )
 ;
-RemoteAccessible
+virtual
+Accessible
 *
 ChildAtPoint
 (
@@ -1044,6 +1045,7 @@ LocalAccessible
 EWhichChildAtPoint
 aWhichChild
 )
+override
 ;
 nsIntRect
 Bounds

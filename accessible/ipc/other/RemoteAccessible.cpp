@@ -4669,7 +4669,7 @@ resultID
 nullptr
 ;
 }
-RemoteAccessible
+Accessible
 *
 RemoteAccessible
 :
