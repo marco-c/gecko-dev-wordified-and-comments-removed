@@ -123,7 +123,7 @@ override
 virtual
 LocalAccessible
 *
-ChildAtPoint
+LocalChildAtPoint
 (
 int32_t
 aX

@@ -693,7 +693,7 @@ LocalAccessible
 XULTreeAccessible
 :
 :
-ChildAtPoint
+LocalChildAtPoint
 (
 int32_t
 aX
@@ -843,7 +843,7 @@ return
 AccessibleWrap
 :
 :
-ChildAtPoint
+LocalChildAtPoint
 (
 aX
 aY

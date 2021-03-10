@@ -10016,7 +10016,7 @@ child
 mDoc
 -
 >
-ChildAtPoint
+LocalChildAtPoint
 (
 aX
 aY

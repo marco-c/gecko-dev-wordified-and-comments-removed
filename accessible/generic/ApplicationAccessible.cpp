@@ -396,7 +396,7 @@ LocalAccessible
 ApplicationAccessible
 :
 :
-ChildAtPoint
+LocalChildAtPoint
 (
 int32_t
 aX

@@ -3260,7 +3260,7 @@ Intl
 )
 -
 >
-ChildAtPoint
+LocalChildAtPoint
 (
 aX
 aY

@@ -100,7 +100,7 @@ LocalAccessible
 LeafAccessible
 :
 :
-ChildAtPoint
+LocalChildAtPoint
 (
 int32_t
 aX

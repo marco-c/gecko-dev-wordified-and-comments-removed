@@ -320,7 +320,7 @@ AsAccessible
 )
 -
 >
-ChildAtPoint
+LocalChildAtPoint
 (
 aX
 aY

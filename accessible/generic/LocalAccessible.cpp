@@ -2680,7 +2680,7 @@ LocalAccessible
 LocalAccessible
 :
 :
-ChildAtPoint
+LocalChildAtPoint
 (
 int32_t
 aX
@@ -3268,7 +3268,7 @@ return
 child
 -
 >
-ChildAtPoint
+LocalChildAtPoint
 (
 aX
 aY
