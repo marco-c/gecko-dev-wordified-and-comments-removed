@@ -21,6 +21,16 @@ Map
 [
 [
 "
+app
+.
+update
+.
+disabledForTesting
+"
+true
+]
+[
+"
 focusmanager
 .
 testmode
