@@ -52,6 +52,11 @@ addon
 manager
 /
 index
+components
+/
+backgroundtasks
+/
+index
 crash
 -
 reporting
