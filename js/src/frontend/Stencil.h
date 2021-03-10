@@ -292,9 +292,6 @@ struct
 CompilationAtomCache
 ;
 struct
-BaseCompilationStencil
-;
-struct
 CompilationGCOutput
 ;
 struct
@@ -575,7 +572,7 @@ JSONPrinter
 &
 json
 const
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -588,7 +585,7 @@ JSONPrinter
 &
 json
 const
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -1510,7 +1507,7 @@ BaseParserScopeData
 *
 baseScopeData
 const
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -1527,7 +1524,7 @@ BaseParserScopeData
 *
 baseScopeData
 const
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -2386,7 +2383,7 @@ JSONPrinter
 &
 json
 const
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -2399,7 +2396,7 @@ JSONPrinter
 &
 json
 const
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -3352,7 +3349,7 @@ TaggedScriptThingIndex
 gcthings
 (
 const
-BaseCompilationStencil
+CompilationStencil
 &
 stencil
 )
@@ -3533,7 +3530,7 @@ JSONPrinter
 &
 json
 const
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -3546,7 +3543,7 @@ JSONPrinter
 &
 json
 const
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -3731,7 +3728,7 @@ json
 TaggedParserAtomIndex
 taggedIndex
 const
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -3745,7 +3742,7 @@ out
 TaggedParserAtomIndex
 taggedIndex
 const
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
