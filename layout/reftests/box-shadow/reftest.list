@@ -1218,12 +1218,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-nativeThemePref
-)
 fuzzy
 (
 0
@@ -1232,6 +1226,12 @@ fuzzy
 0
 -
 8
+)
+fails
+-
+if
+(
+nativeThemePref
 )
 =
 =
