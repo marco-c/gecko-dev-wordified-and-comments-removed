@@ -3,6 +3,10 @@ importlib
 import
 imp
 from
+six
+import
+iteritems
+from
 .
 browsers
 import
@@ -347,15 +351,14 @@ for
 test_type
 cls_name
 in
+iteritems
+(
 data
 [
 "
 executor
 "
 ]
-.
-items
-(
 )
 :
             

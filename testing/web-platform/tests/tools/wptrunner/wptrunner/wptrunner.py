@@ -9,6 +9,11 @@ import
 os
 import
 sys
+from
+six
+import
+iteritems
+itervalues
 import
 wptserve
 from
@@ -371,32 +376,6 @@ include
 ]
     
 if
-kwargs
-[
-"
-include_file
-"
-]
-:
-        
-include
-.
-extend
-(
-testloader
-.
-read_include_from_file
-(
-kwargs
-[
-"
-include_file
-"
-]
-)
-)
-    
-if
 test_groups
 :
         
@@ -747,12 +726,11 @@ for
 test_type
 tests
 in
+iteritems
+(
 test_loader
 .
 disabled_tests
-.
-items
-(
 )
 :
         
@@ -944,10 +922,9 @@ item
 for
 item
 in
-tests
-.
-values
+itervalues
 (
+tests
 )
 )
 =

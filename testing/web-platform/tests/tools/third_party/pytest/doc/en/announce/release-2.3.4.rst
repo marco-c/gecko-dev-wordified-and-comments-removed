@@ -280,9 +280,7 @@ pytest
 .
 org
 /
-en
-/
-stable
+latest
 /
 example
 /

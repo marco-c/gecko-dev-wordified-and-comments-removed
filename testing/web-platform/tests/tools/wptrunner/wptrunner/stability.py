@@ -18,6 +18,10 @@ datetime
 import
 datetime
 from
+six
+import
+iteritems
+from
 mozlog
 import
 reader
@@ -991,10 +995,9 @@ for
 test_name
 test
 in
-results
-.
-items
+iteritems
 (
+results
 )
 :
         
@@ -1033,15 +1036,14 @@ for
 subtest_name
 subtest
 in
+iteritems
+(
 test
 [
 "
 subtests
 "
 ]
-.
-items
-(
 )
 :
             
@@ -1927,10 +1929,9 @@ for
 test_name
 test
 in
-results
-.
-items
+iteritems
 (
+results
 )
 :
         
@@ -2520,10 +2521,9 @@ item
 for
 item
 in
-kwargs_extra
-.
-items
+iteritems
 (
+kwargs_extra
 )
 )
         

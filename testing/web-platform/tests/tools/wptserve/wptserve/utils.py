@@ -2,6 +2,11 @@ import
 socket
 import
 sys
+from
+six
+import
+binary_type
+text_type
 def
 isomorphic_decode
 (
@@ -29,12 +34,21 @@ iso
 .
     
 Returns
+unicode
+in
+Python
+2
+and
 str
+in
+Python
+3
 .
 The
 function
 is
 a
+    
 no
 -
 op
@@ -45,7 +59,6 @@ already
 has
 a
 text
-    
 type
 .
 iso
@@ -56,6 +69,7 @@ iso
 is
 chosen
 because
+    
 it
 is
 an
@@ -65,7 +79,6 @@ bit
 encoding
 whose
 code
-    
 points
 range
 from
@@ -74,6 +87,7 @@ to
 0xFF
 and
 the
+    
 values
 are
 the
@@ -81,20 +95,19 @@ same
 as
 the
 binary
-    
 representations
 so
 any
 binary
 string
 can
+    
 be
 decoded
 into
 and
 encoded
 from
-    
 iso
 -
 8859
@@ -105,6 +118,7 @@ any
 errors
 or
 data
+    
 loss
 .
 Python
@@ -116,7 +130,6 @@ iso
 8859
 -
 1
-    
 (
 or
 latin
@@ -162,7 +175,7 @@ if
 isinstance
 (
 s
-str
+text_type
 )
 :
         
@@ -173,7 +186,7 @@ if
 isinstance
 (
 s
-bytes
+binary_type
 )
 :
         
@@ -238,7 +251,15 @@ iso
 .
     
 Returns
+str
+in
+Python
+2
+and
 bytes
+in
+Python
+3
 .
 The
 function
@@ -247,13 +268,13 @@ a
 no
 -
 op
+    
 if
 the
 argument
 already
 has
 a
-    
 binary
 type
 .
@@ -262,6 +283,7 @@ is
 the
 counterpart
 of
+    
 isomorphic_decode
 .
     
@@ -273,7 +295,7 @@ if
 isinstance
 (
 s
-bytes
+binary_type
 )
 :
         
@@ -284,7 +306,7 @@ if
 isinstance
 (
 s
-str
+text_type
 )
 :
         

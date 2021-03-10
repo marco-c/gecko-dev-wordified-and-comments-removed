@@ -24,13 +24,6 @@ struct
 import
 HeaderTuple
 from
-http
-.
-cookies
-import
-BaseCookie
-Morsel
-from
 hyperframe
 .
 frame
@@ -38,6 +31,23 @@ import
 HeadersFrame
 DataFrame
 ContinuationFrame
+from
+six
+import
+binary_type
+text_type
+integer_types
+itervalues
+PY3
+from
+six
+.
+moves
+.
+http_cookies
+import
+BaseCookie
+Morsel
 from
 .
 constants
@@ -511,8 +521,8 @@ isinstance
 (
 message
 (
-bytes
-str
+binary_type
+text_type
 )
 )
 :
@@ -767,13 +777,17 @@ days
 1
 )
         
+if
+PY3
+:
+            
 name
 =
 isomorphic_decode
 (
 name
 )
-        
+            
 value
 =
 isomorphic_decode
@@ -1088,6 +1102,10 @@ response
 "
 "
         
+if
+PY3
+:
+            
 name
 =
 isomorphic_decode
@@ -1122,14 +1140,22 @@ in
 cookies
 :
             
-parser
-.
-load
-(
+if
+PY3
+:
+                
+cookie
+=
 isomorphic_decode
 (
 cookie
 )
+            
+parser
+.
+load
+(
+cookie
 )
         
 if
@@ -1390,7 +1416,7 @@ isinstance
 self
 .
 content
-bytes
+binary_type
 )
 :
             
@@ -1405,7 +1431,7 @@ isinstance
 self
 .
 content
-str
+text_type
 )
 :
             
@@ -1835,7 +1861,7 @@ None
             
 boundary
 =
-str
+text_type
 (
 uuid
 .
@@ -2018,7 +2044,7 @@ assert
 isinstance
 (
 data
-bytes
+binary_type
 )
 data
         
@@ -2137,14 +2163,14 @@ assert
 isinstance
 (
 key
-bytes
+binary_type
 )
             
 assert
 isinstance
 (
 value
-bytes
+binary_type
 )
             
 rv
@@ -2229,7 +2255,7 @@ if
 isinstance
 (
 s
-int
+integer_types
 )
 :
         
@@ -2676,12 +2702,11 @@ for
 key
 values
 in
+itervalues
+(
 self
 .
 data
-.
-values
-(
 )
 :
             
@@ -3123,7 +3148,7 @@ if
 isinstance
 (
 header
-bytes
+binary_type
 )
 :
                 
@@ -3142,7 +3167,7 @@ if
 isinstance
 (
 value
-bytes
+binary_type
 )
 :
                 
@@ -3416,8 +3441,8 @@ isinstance
 (
 item
 (
-str
-bytes
+text_type
+binary_type
 )
 )
 :
@@ -4706,7 +4731,7 @@ if
 isinstance
 (
 data
-bytes
+binary_type
 )
 :
             
@@ -4726,7 +4751,7 @@ elif
 isinstance
 (
 data
-str
+text_type
 )
 :
             
@@ -4774,7 +4799,7 @@ if
 isinstance
 (
 data
-bytes
+binary_type
 )
 :
             
@@ -4785,7 +4810,7 @@ elif
 isinstance
 (
 data
-str
+text_type
 )
 :
             
@@ -5243,7 +5268,7 @@ self
 .
 write
 (
-str
+text_type
 (
 value
 )
@@ -5352,8 +5377,8 @@ _response
 .
 content
 (
-bytes
-str
+binary_type
+text_type
 )
 )
 and
@@ -5683,8 +5708,8 @@ isinstance
 (
 data
 (
-str
-bytes
+text_type
+binary_type
 )
 )
 :
@@ -5912,7 +5937,7 @@ if
 isinstance
 (
 data
-bytes
+binary_type
 )
 :
             
@@ -5923,7 +5948,7 @@ elif
 isinstance
 (
 data
-str
+text_type
 )
 :
             

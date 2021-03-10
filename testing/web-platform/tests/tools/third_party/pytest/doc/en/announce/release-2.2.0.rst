@@ -173,9 +173,7 @@ pytest
 .
 org
 /
-en
-/
-stable
+latest
 /
 example
 /
@@ -273,9 +271,7 @@ pytest
 .
 org
 /
-en
-/
-stable
+latest
 /
 example
 /
@@ -823,9 +819,7 @@ pytest
 .
 org
 /
-en
-/
-stable
+latest
 /
 mark
 .

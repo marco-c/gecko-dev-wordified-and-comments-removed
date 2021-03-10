@@ -99,7 +99,7 @@ org
 /
 en
 /
-stable
+latest
 /
 changelog
 .
@@ -146,9 +146,8 @@ Ronny
 Pfannschmidt
 *
 Zac
-Hatfield
 -
-Dodds
+HD
 *
 iwanb
 Happy

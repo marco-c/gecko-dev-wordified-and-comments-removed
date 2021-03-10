@@ -1,5 +1,0 @@
-SECRET_KEY
-=
-"
-mysecret
-"

@@ -1,6 +1,12 @@
 import
 os
+from
+six
+.
+moves
 import
+cPickle
+as
 pickle
 here
 =

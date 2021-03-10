@@ -19,9 +19,16 @@ time
 import
 uuid
 from
-io
+six
+.
+moves
 import
 StringIO
+from
+six
+import
+text_type
+binary_type
 try
 :
     
@@ -2086,7 +2093,7 @@ assert
 isinstance
 (
 string
-bytes
+binary_type
 )
         
 return
@@ -2203,7 +2210,7 @@ if
 isinstance
 (
 key
-str
+text_type
 )
 :
                 
@@ -2831,7 +2838,7 @@ assert
 isinstance
 (
 algorithm
-str
+text_type
 )
         
 if
@@ -3190,7 +3197,7 @@ assert
 isinstance
 (
 field
-str
+text_type
 )
         
 if
@@ -3219,7 +3226,7 @@ assert
 isinstance
 (
 field
-str
+text_type
 )
         
 else
@@ -3672,8 +3679,8 @@ value
 (
 int
 (
-bytes
-str
+binary_type
+text_type
 )
 )
 )
@@ -3728,7 +3735,7 @@ if
 isinstance
 (
 value
-bytes
+binary_type
 )
 :
             
@@ -3755,7 +3762,7 @@ int
             
 value
 =
-str
+text_type
 (
 value
 )

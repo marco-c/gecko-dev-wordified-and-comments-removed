@@ -3082,6 +3082,10 @@ import
 mozlog
         
 from
+six
+.
+moves
+.
 urllib
 .
 parse

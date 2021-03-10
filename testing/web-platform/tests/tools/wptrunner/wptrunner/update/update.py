@@ -3,6 +3,10 @@ os
 import
 sys
 from
+six
+import
+itervalues
+from
 .
 metadata
 import
@@ -853,10 +857,9 @@ metadata_path
 for
 url_paths
 in
-paths
-.
-values
+itervalues
 (
+paths
 )
 :
             

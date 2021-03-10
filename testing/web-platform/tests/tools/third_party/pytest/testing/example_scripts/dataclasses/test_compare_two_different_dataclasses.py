@@ -1,3 +1,15 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 from
 dataclasses
 import
@@ -10,15 +22,15 @@ def
 test_comparing_two_different_data_classes
 (
 )
--
->
-None
 :
     
 dataclass
     
 class
 SimpleDataObjectOne
+(
+object
+)
 :
         
 field_a
@@ -31,7 +43,7 @@ field
         
 field_b
 :
-str
+int
 =
 field
 (
@@ -41,6 +53,9 @@ dataclass
     
 class
 SimpleDataObjectTwo
+(
+object
+)
 :
         
 field_a
@@ -53,7 +68,7 @@ field
         
 field_b
 :
-str
+int
 =
 field
 (

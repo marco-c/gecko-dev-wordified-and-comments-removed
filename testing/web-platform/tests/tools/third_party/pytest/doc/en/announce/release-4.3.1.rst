@@ -99,7 +99,7 @@ org
 /
 en
 /
-stable
+latest
 /
 changelog
 .
@@ -148,6 +148,10 @@ Zac
 Hatfield
 -
 Dodds
+*
+Zac
+-
+HD
 *
 songbowen
 Happy

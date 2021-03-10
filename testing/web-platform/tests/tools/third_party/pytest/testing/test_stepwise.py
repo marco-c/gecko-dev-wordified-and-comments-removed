@@ -1,3 +1,17 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
+import
+sys
 import
 pytest
 pytest
@@ -295,43 +309,6 @@ foobar
 return
 testdir
 def
-_strip_resource_warnings
-(
-lines
-)
-:
-    
-return
-[
-        
-x
-        
-for
-x
-in
-lines
-        
-if
-not
-x
-.
-startswith
-(
-(
-"
-Exception
-ignored
-in
-:
-"
-"
-ResourceWarning
-"
-)
-)
-    
-]
-def
 test_run_without_stepwise
 (
 stepwise_testdir
@@ -448,18 +425,14 @@ fail
 )
     
 assert
-_strip_resource_warnings
-(
+not
 result
 .
 stderr
 .
-lines
+str
+(
 )
-=
-=
-[
-]
     
 stdout
 =
@@ -520,18 +493,14 @@ stepwise
 )
     
 assert
-_strip_resource_warnings
-(
+not
 result
 .
 stderr
 .
-lines
+str
+(
 )
-=
-=
-[
-]
     
 stdout
 =
@@ -624,18 +593,14 @@ last
 )
     
 assert
-_strip_resource_warnings
-(
+not
 result
 .
 stderr
 .
-lines
+str
+(
 )
-=
-=
-[
-]
     
 stdout
 =
@@ -710,18 +675,14 @@ stepwise
 )
     
 assert
-_strip_resource_warnings
-(
+not
 result
 .
 stderr
 .
-lines
+str
+(
 )
-=
-=
-[
-]
     
 stdout
 =
@@ -792,18 +753,14 @@ py
 )
     
 assert
-_strip_resource_warnings
-(
+not
 result
 .
 stderr
 .
-lines
+str
+(
 )
-=
-=
-[
-]
     
 stdout
 =
@@ -855,18 +812,14 @@ py
 )
     
 assert
-_strip_resource_warnings
-(
+not
 result
 .
 stderr
 .
-lines
+str
+(
 )
-=
-=
-[
-]
     
 stdout
 =
@@ -1000,7 +953,7 @@ fnmatch_lines
 (
 "
 *
-error
+errors
 during
 collection
 *
@@ -1010,7 +963,6 @@ def
 test_xfail_handling
 (
 testdir
-monkeypatch
 )
 :
     
@@ -1040,18 +992,6 @@ mode
 "
 "
 "
-    
-monkeypatch
-.
-setattr
-(
-"
-sys
-.
-dont_write_bytecode
-"
-True
-)
     
 contents
 =
@@ -1290,6 +1230,28 @@ in
         
 ]
     
+)
+    
+if
+not
+sys
+.
+dont_write_bytecode
+:
+        
+testdir
+.
+tmpdir
+.
+join
+(
+"
+__pycache__
+"
+)
+.
+remove
+(
 )
     
 testdir

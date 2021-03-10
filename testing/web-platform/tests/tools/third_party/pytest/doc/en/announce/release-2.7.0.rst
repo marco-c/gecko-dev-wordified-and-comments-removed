@@ -95,6 +95,7 @@ tool
 with
 more
 than
+a
 1100
 tests
 against
@@ -260,7 +261,7 @@ files
 and
 their
 contained
-fixtures
+fixutres
 are
 now
 properly
@@ -423,9 +424,7 @@ pytest
 .
 org
 /
-en
-/
-stable
+latest
 /
 contributing
 .

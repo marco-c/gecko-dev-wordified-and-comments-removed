@@ -69,6 +69,7 @@ tool
 with
 more
 than
+a
 2000
 tests
 against
@@ -115,7 +116,7 @@ org
 /
 en
 /
-stable
+latest
 /
 changelog
 .
@@ -138,7 +139,7 @@ org
 /
 en
 /
-stable
+latest
 /
 As
 usual

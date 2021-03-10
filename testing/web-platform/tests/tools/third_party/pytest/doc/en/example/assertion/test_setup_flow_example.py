@@ -1,3 +1,15 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 def
 setup_module
 (
@@ -14,6 +26,9 @@ classcount
 0
 class
 TestStateFullThing
+(
+object
+)
 :
     
 def
