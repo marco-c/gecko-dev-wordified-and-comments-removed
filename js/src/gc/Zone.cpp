@@ -978,7 +978,7 @@ weakCaches_
 (
 this
 )
-gcEphemeronEdges_
+gcWeakKeys_
 (
 this
 SystemAllocPolicy
@@ -991,7 +991,7 @@ randomHashCodeScrambler
 (
 )
 )
-gcNurseryEphemeronEdges_
+gcNurseryWeakKeys_
 (
 this
 SystemAllocPolicy
@@ -1298,7 +1298,7 @@ ref
 )
 &
 &
-gcEphemeronEdges
+gcWeakKeys
 (
 )
 .
@@ -1307,7 +1307,7 @@ init
 )
 &
 &
-gcNurseryEphemeronEdges
+gcNurseryWeakKeys
 (
 )
 .
@@ -1413,7 +1413,7 @@ js
 gc
 :
 :
-EphemeronEdgeVector
+WeakEntryVector
 &
 entries
 Pred
@@ -1502,7 +1502,7 @@ removed
 }
 static
 void
-SweepEphemeronEdgesWhileMinorSweeping
+SweepWeakEntryVectorWhileMinorSweeping
 (
 js
 :
@@ -1510,7 +1510,7 @@ js
 gc
 :
 :
-EphemeronEdgeVector
+WeakEntryVector
 &
 entries
 )
@@ -1527,9 +1527,9 @@ js
 gc
 :
 :
-EphemeronEdge
+WeakMarkable
 &
-edge
+markable
 )
 -
 >
@@ -1539,9 +1539,9 @@ return
 IsAboutToBeFinalizedDuringMinorSweep
 (
 &
-edge
+markable
 .
-target
+key
 )
 ;
 }
@@ -1559,7 +1559,7 @@ JSTracer
 trc
 )
 {
-sweepEphemeronTablesAfterMinorGC
+sweepWeakKeysAfterMinorGC
 (
 )
 ;
@@ -1577,19 +1577,19 @@ void
 Zone
 :
 :
-sweepEphemeronTablesAfterMinorGC
+sweepWeakKeysAfterMinorGC
 (
 )
 {
 for
 (
-EphemeronEdgeTable
+WeakKeyTable
 :
 :
 Range
 r
 =
-gcNurseryEphemeronEdges
+gcNurseryWeakKeys
 (
 )
 .
@@ -1653,7 +1653,7 @@ key
 continue
 ;
 }
-EphemeronEdgeVector
+WeakEntryVector
 &
 entries
 =
@@ -1665,16 +1665,15 @@ front
 .
 value
 ;
-SweepEphemeronEdgesWhileMinorSweeping
+SweepWeakEntryVectorWhileMinorSweeping
 (
 entries
 )
 ;
 auto
-*
 entry
 =
-gcEphemeronEdges
+gcWeakKeys
 (
 )
 .
@@ -1692,7 +1691,7 @@ entry
 if
 (
 !
-gcEphemeronEdges
+gcWeakKeys
 (
 )
 .
@@ -1702,7 +1701,7 @@ key
 gc
 :
 :
-EphemeronEdgeVector
+WeakEntryVector
 (
 )
 )
@@ -1728,7 +1727,7 @@ entry
 }
 entry
 =
-gcEphemeronEdges
+gcWeakKeys
 (
 )
 .
@@ -1823,7 +1822,6 @@ isTenured
 )
 ;
 auto
-*
 p
 =
 delegate
@@ -1834,7 +1832,7 @@ zone
 )
 -
 >
-gcEphemeronEdges
+gcWeakKeys
 (
 )
 .
@@ -1848,7 +1846,7 @@ if
 p
 )
 {
-SweepEphemeronEdgesWhileMinorSweeping
+SweepWeakEntryVectorWhileMinorSweeping
 (
 p
 -
@@ -1861,7 +1859,7 @@ value
 if
 (
 !
-gcNurseryEphemeronEdges
+gcNurseryWeakKeys
 (
 )
 .
@@ -1881,7 +1879,7 @@ crash
 OOM
 while
 clearing
-gcNurseryEphemeronEdges
+gcNurseryWeakKeys
 .
 "
 )
