@@ -157,6 +157,8 @@ python3
 -
 pytoml
 \
+rename
+\
 subversion
 \
 tar
