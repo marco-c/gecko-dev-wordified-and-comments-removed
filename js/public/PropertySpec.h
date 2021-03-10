@@ -757,6 +757,9 @@ private
 uint8_t
 flags_
 ;
+bool
+isAccessor_
+;
 public
 :
 AccessorsOrValue
@@ -779,6 +782,8 @@ char
 name
 uint8_t
 flags
+bool
+isAccessor
 AccessorsOrValue
 u
 )
@@ -790,6 +795,10 @@ name
 flags_
 (
 flags
+)
+isAccessor_
+(
+isAccessor
 )
 u
 (
@@ -807,6 +816,8 @@ SymbolCode
 name
 uint8_t
 flags
+bool
+isAccessor
 AccessorsOrValue
 u
 )
@@ -818,6 +829,10 @@ name
 flags_
 (
 flags
+)
+isAccessor_
+(
+isAccessor
 )
 u
 (
@@ -871,6 +886,7 @@ JSPropertySpec
 (
 name
 flags
+true
 AccessorsOrValue
 :
 :
@@ -937,6 +953,7 @@ JSPropertySpec
 (
 name
 flags
+true
 AccessorsOrValue
 :
 :
@@ -1006,6 +1023,7 @@ JSPROP_SETTER
 :
 0
 )
+true
 AccessorsOrValue
 :
 :
@@ -1086,6 +1104,7 @@ JSPROP_SETTER
 :
 0
 )
+true
 AccessorsOrValue
 :
 :
@@ -1147,8 +1166,7 @@ JSPropertySpec
 (
 name
 flags
-|
-JSPROP_INTERNAL_USE_BIT
+false
 AccessorsOrValue
 :
 :
@@ -1189,8 +1207,7 @@ JSPropertySpec
 (
 name
 flags
-|
-JSPROP_INTERNAL_USE_BIT
+false
 AccessorsOrValue
 :
 :
@@ -1232,8 +1249,7 @@ JSPropertySpec
 (
 name
 flags
-|
-JSPROP_INTERNAL_USE_BIT
+false
 AccessorsOrValue
 :
 :
@@ -1276,8 +1292,7 @@ JSPropertySpec
 (
 name
 flags
-|
-JSPROP_INTERNAL_USE_BIT
+false
 AccessorsOrValue
 :
 :
@@ -1317,8 +1332,7 @@ JSPropertySpec
 (
 name
 flags
-|
-JSPROP_INTERNAL_USE_BIT
+false
 AccessorsOrValue
 :
 :
@@ -1350,6 +1364,7 @@ JSPropertySpec
 (
 nullptr
 0
+true
 AccessorsOrValue
 :
 :
@@ -1385,9 +1400,6 @@ const
 {
 return
 flags_
-&
-~
-JSPROP_INTERNAL_USE_BIT
 ;
 }
 bool
@@ -1397,12 +1409,7 @@ isAccessor
 const
 {
 return
-!
-(
-flags_
-&
-JSPROP_INTERNAL_USE_BIT
-)
+isAccessor_
 ;
 }
 JS_PUBLIC_API
