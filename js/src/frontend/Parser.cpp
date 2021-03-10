@@ -5059,8 +5059,6 @@ MOZ_ASSERT
 data
 -
 >
-slotInfo
-.
 length
 =
 =
@@ -5161,8 +5159,6 @@ count
 data
 -
 >
-slotInfo
-.
 length
 =
 count

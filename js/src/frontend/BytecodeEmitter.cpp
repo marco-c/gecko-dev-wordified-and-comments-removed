@@ -47662,8 +47662,6 @@ scopeBindings
 )
 -
 >
-slotInfo
-.
 length
 =
 =

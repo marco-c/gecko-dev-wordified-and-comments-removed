@@ -871,8 +871,6 @@ const_start
 data
 -
 >
-slotInfo
-.
 length
 =
 numBindings
@@ -977,8 +975,6 @@ start
 data
 -
 >
-slotInfo
-.
 length
 =
 numBindings
@@ -1120,8 +1116,6 @@ const_start
 data
 -
 >
-slotInfo
-.
 length
 =
 numBindings
@@ -1288,8 +1282,6 @@ var_start
 data
 -
 >
-slotInfo
-.
 length
 =
 numBindings
