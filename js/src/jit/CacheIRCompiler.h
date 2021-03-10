@@ -3227,15 +3227,6 @@ Register
 dest
 )
 ;
-Address
-emitAddressFromStubField
-(
-StubFieldOffset
-val
-Register
-base
-)
-;
 uintptr_t
 readStubWord
 (
