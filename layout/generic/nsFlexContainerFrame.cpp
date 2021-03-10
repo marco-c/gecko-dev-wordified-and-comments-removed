@@ -724,10 +724,9 @@ IsAuto
 aIsInline
 &
 &
-!
 aSize
 .
-IsLengthPercentage
+IsExtremumLength
 (
 )
 )
@@ -5092,8 +5091,12 @@ emplace
 StyleSize
 :
 :
-MaxContent
+ExtremumLength
 (
+StyleExtremumLength
+:
+:
+MaxContent
 )
 )
 ;
@@ -17917,10 +17920,9 @@ IsAuto
 )
 |
 |
-!
 bsize
 .
-IsLengthPercentage
+IsExtremumLength
 (
 )
 )
