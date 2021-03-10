@@ -595,10 +595,13 @@ ChildAtPoint
 (
 aX
 aY
-LocalAccessible
+Accessible
 :
 :
-eDeepestChild
+EWhichChildAtPoint
+:
+:
+DeepestChild
 )
 ;
 if

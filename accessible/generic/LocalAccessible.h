@@ -742,13 +742,6 @@ GroupPosition
 (
 )
 ;
-enum
-EWhichChildAtPoint
-{
-eDirectChild
-eDeepestChild
-}
-;
 virtual
 LocalAccessible
 *

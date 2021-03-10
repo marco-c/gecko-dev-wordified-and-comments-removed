@@ -204,6 +204,14 @@ childCount
 nullptr
 ;
 }
+enum
+class
+EWhichChildAtPoint
+{
+DirectChild
+DeepestChild
+}
+;
 const
 nsRoleMapEntry
 *
