@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsJSThingHashtable
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
