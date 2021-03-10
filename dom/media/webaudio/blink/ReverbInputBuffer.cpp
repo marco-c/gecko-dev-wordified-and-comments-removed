@@ -122,11 +122,15 @@ newIndex
 bufferLength
 )
 {
-m_writeIndex
+newIndex
 =
 0
 ;
 }
+m_writeIndex
+=
+newIndex
+;
 }
 float
 *
