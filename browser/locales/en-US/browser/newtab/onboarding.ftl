@@ -961,10 +961,9 @@ primary
 -
 button
 -
-label
+label2
 =
-Save
-Theme
+Done
 onboarding
 -
 multistage
