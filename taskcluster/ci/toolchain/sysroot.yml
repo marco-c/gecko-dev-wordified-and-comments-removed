@@ -302,3 +302,11 @@ libcurl4
 openssl
 -
 dev
+-
+libssl
+-
+dev
+-
+libbz2
+-
+dev
