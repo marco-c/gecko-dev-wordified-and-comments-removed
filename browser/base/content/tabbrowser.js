@@ -9316,7 +9316,7 @@ aTab
 _browserParams
 ;
 delete
-browser
+aTab
 .
 _cachedCurrentURI
 ;
