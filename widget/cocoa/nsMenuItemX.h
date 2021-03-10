@@ -259,7 +259,10 @@ Element
 >
 mCommandElement
 ;
-RefPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsMenuItemIconX
 >

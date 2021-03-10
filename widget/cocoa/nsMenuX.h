@@ -376,7 +376,10 @@ nsMenuGroupOwnerX
 *
 mMenuGroupOwner
 ;
-RefPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsMenuItemIconX
 >
