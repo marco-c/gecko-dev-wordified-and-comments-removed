@@ -10498,12 +10498,7 @@ SetDevToolsWatchingDOMMutations
 bool
 aValue
 )
-{
-mDevToolsWatchingDOMMutations
-=
-aValue
 ;
-}
 void
 MaybeWarnAboutZoom
 (
