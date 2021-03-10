@@ -1157,7 +1157,6 @@ GetEchConfigUsed
 ;
 \
 }
-\
 }
 }
 #
