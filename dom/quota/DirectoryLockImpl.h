@@ -108,6 +108,10 @@ mPersistenceType
 ;
 const
 nsCString
+mSuffix
+;
+const
+nsCString
 mGroup
 ;
 const
@@ -210,6 +214,10 @@ aPersistenceType
 const
 nsACString
 &
+aSuffix
+const
+nsACString
+&
 aGroup
 const
 OriginScope
@@ -283,6 +291,9 @@ PersistenceType
 (
 aPersistenceType
 )
+aOriginMetadata
+.
+mSuffix
 aOriginMetadata
 .
 mGroup
@@ -379,6 +390,9 @@ aPersistenceType
 )
 aOriginMetadata
 .
+mSuffix
+aOriginMetadata
+.
 mGroup
 OriginScope
 :
@@ -458,6 +472,9 @@ move
 aQuotaManager
 )
 aPersistenceType
+"
+"
+_ns
 "
 "
 _ns
@@ -806,9 +823,7 @@ quota
 :
 OriginMetadata
 {
-"
-"
-_ns
+mSuffix
 mGroup
 nsCString
 (
@@ -983,6 +998,10 @@ aPersistenceType
 const
 nsACString
 &
+aSuffix
+const
+nsACString
+&
 aGroup
 const
 OriginScope
@@ -1118,6 +1137,7 @@ move
 aQuotaManager
 )
 aPersistenceType
+aSuffix
 aGroup
 aOriginScope
 aClientType

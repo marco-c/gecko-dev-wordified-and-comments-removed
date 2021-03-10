@@ -72,6 +72,10 @@ aPersistenceType
 const
 nsACString
 &
+aSuffix
+const
+nsACString
+&
 aGroup
 const
 OriginScope
@@ -111,6 +115,10 @@ aQuotaManager
 mPersistenceType
 (
 aPersistenceType
+)
+mSuffix
+(
+aSuffix
 )
 mGroup
 (
@@ -988,6 +996,9 @@ PersistenceType
 (
 aPersistenceType
 )
+aOriginMetadata
+.
+mSuffix
 aOriginMetadata
 .
 mGroup
