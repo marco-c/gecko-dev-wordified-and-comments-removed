@@ -5474,6 +5474,12 @@ break
 case
 VALUE_MODE_DEFAULT_ON
 :
+case
+VALUE_MODE_DEFAULT
+:
+break
+;
+}
 if
 (
 mCheckedChanged
@@ -5495,14 +5501,6 @@ it
 mShouldInitChecked
 =
 false
-;
-}
-break
-;
-case
-VALUE_MODE_DEFAULT
-:
-break
 ;
 }
 it
