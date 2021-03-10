@@ -164,16 +164,6 @@ aType
 )
 ;
 static
-bool
-IsSupportedType
-(
-const
-MediaContainerType
-&
-aType
-)
-;
-static
 nsTArray
 <
 UniquePtr
