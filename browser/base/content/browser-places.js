@@ -4151,7 +4151,7 @@ hidden
 {
 tooltipTitle
 .
-value
+textContent
 =
 title
 ;
