@@ -1489,11 +1489,6 @@ nsChannelClassifier
 this
 )
 ;
-if
-(
-classifier
-)
-{
 classifier
 -
 >
@@ -1501,15 +1496,6 @@ Start
 (
 )
 ;
-}
-else
-{
-Cancel
-(
-NS_ERROR_OUT_OF_MEMORY
-)
-;
-}
 }
 }
 NS_IMPL_ADDREF
