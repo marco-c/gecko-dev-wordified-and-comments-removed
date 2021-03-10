@@ -977,10 +977,6 @@ cycles
 =
 20
     
-timeout
-=
-600
-    
 extensions
 =
 [
@@ -1448,10 +1444,6 @@ sessionRestored
 "
 "
 "
-    
-timeout
-=
-300
     
 preferences
 =
@@ -2109,10 +2101,6 @@ tppagecycles
 =
 20
     
-timeout
-=
-600
-    
 gecko_profile_entries
 =
 1000000
@@ -2231,10 +2219,6 @@ manifest
 tppagecycles
 =
 20
-    
-timeout
-=
-600
     
 gecko_profile_entries
 =
@@ -2360,10 +2344,6 @@ tppagecycles
 =
 20
     
-timeout
-=
-600
-    
 gecko_profile_entries
 =
 1000000
@@ -2485,10 +2465,6 @@ manifest
 tppagecycles
 =
 5
-    
-timeout
-=
-600
     
 gecko_profile_entries
 =
@@ -2887,10 +2863,6 @@ True
 tpmozafterpaint
 =
 False
-    
-timeout
-=
-600
     
 gecko_profile_interval
 =
@@ -3339,10 +3311,6 @@ tpchrome
 =
 False
     
-timeout
-=
-600
-    
 gecko_profile_interval
 =
 10
@@ -3513,10 +3481,6 @@ False
 tpchrome
 =
 False
-    
-timeout
-=
-600
     
 gecko_profile_interval
 =
@@ -4196,10 +4160,6 @@ gecko_profile_entries
 tpscrolltest
 =
 True
-    
-timeout
-=
-2400
     
 "
 "
@@ -5288,10 +5248,6 @@ tpchrome
 =
 False
     
-timeout
-=
-600
-    
 gecko_profile_interval
 =
 10
@@ -5430,10 +5386,6 @@ tpchrome
 =
 False
     
-timeout
-=
-600
-    
 gecko_profile_interval
 =
 1
@@ -5528,10 +5480,6 @@ tpchrome
 =
 False
     
-timeout
-=
-600
-    
 gecko_profile_interval
 =
 1
@@ -5621,10 +5569,6 @@ False
 tpchrome
 =
 False
-    
-timeout
-=
-600
     
 gecko_profile_interval
 =
@@ -5803,10 +5747,6 @@ tpchrome
 =
 False
     
-timeout
-=
-600
-    
 preferences
 =
 {
@@ -5951,10 +5891,6 @@ unit
 "
 fps
 "
-    
-timeout
-=
-600
 register_test
 (
 )
@@ -6350,10 +6286,6 @@ tpchrome
 =
 False
     
-timeout
-=
-600
-    
 gecko_profile_interval
 =
 2
@@ -6508,10 +6440,6 @@ tpchrome
 =
 False
     
-timeout
-=
-600
-    
 gecko_profile_interval
 =
 2
@@ -6657,10 +6585,6 @@ False
 tpchrome
 =
 False
-    
-timeout
-=
-600
     
 gecko_profile_interval
 =
