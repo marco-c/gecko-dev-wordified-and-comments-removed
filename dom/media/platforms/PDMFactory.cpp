@@ -3994,6 +3994,12 @@ media_rdd_process_enabled
 )
 &
 &
+#
+if
+defined
+(
+MOZ_FFVPX
+)
 StaticPrefs
 :
 :
@@ -4002,6 +4008,8 @@ media_rdd_ffvpx_enabled
 )
 &
 &
+#
+endif
 StaticPrefs
 :
 :
