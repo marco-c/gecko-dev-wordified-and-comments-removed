@@ -220,7 +220,7 @@ UncheckRadioSiblings
 (
 nsIContent
 *
-inCheckedElement
+aCheckedElement
 )
 ;
 void

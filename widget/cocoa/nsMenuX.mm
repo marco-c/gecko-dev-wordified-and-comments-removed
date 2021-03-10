@@ -1928,7 +1928,7 @@ CreateMenuWithGeckoString
 (
 nsString
 &
-menuTitle
+aMenuTitle
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
@@ -1945,14 +1945,14 @@ stringWithCharacters
 UniChar
 *
 )
-menuTitle
+aMenuTitle
 .
 get
 (
 )
 length
 :
-menuTitle
+aMenuTitle
 .
 Length
 (
@@ -1999,13 +1999,13 @@ LoadMenuItem
 (
 nsIContent
 *
-inMenuItemContent
+aMenuItemContent
 )
 {
 if
 (
 !
-inMenuItemContent
+aMenuItemContent
 )
 {
 return
@@ -2016,7 +2016,7 @@ menuitemName
 ;
 if
 (
-inMenuItemContent
+aMenuItemContent
 -
 >
 IsElement
@@ -2024,7 +2024,7 @@ IsElement
 )
 )
 {
-inMenuItemContent
+aMenuItemContent
 -
 >
 AsElement
@@ -2050,7 +2050,7 @@ eRegularMenuItemType
 ;
 if
 (
-inMenuItemContent
+aMenuItemContent
 -
 >
 IsXULElement
@@ -2070,7 +2070,7 @@ eSeparatorMenuItemType
 else
 if
 (
-inMenuItemContent
+aMenuItemContent
 -
 >
 IsElement
@@ -2101,7 +2101,7 @@ nullptr
 ;
 switch
 (
-inMenuItemContent
+aMenuItemContent
 -
 >
 AsElement
@@ -2152,7 +2152,7 @@ this
 menuitemName
 itemType
 mMenuGroupOwner
-inMenuItemContent
+aMenuItemContent
 )
 )
 ;
@@ -2165,7 +2165,7 @@ LoadSubMenu
 (
 nsIContent
 *
-inMenuContent
+aMenuContent
 )
 {
 AddMenu
@@ -2177,7 +2177,7 @@ nsMenuX
 (
 this
 mMenuGroupOwner
-inMenuContent
+aMenuContent
 )
 )
 ;

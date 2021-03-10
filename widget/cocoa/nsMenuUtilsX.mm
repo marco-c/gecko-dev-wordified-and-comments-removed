@@ -967,11 +967,11 @@ NodeIsHiddenOrCollapsed
 (
 nsIContent
 *
-inContent
+aContent
 )
 {
 return
-inContent
+aContent
 -
 >
 IsElement
@@ -980,7 +980,7 @@ IsElement
 &
 &
 (
-inContent
+aContent
 -
 >
 AsElement
@@ -1003,7 +1003,7 @@ eCaseMatters
 )
 |
 |
-inContent
+aContent
 -
 >
 AsElement

@@ -348,7 +348,7 @@ LoadMenuItem
 (
 nsIContent
 *
-inMenuItemContent
+aMenuItemContent
 )
 ;
 void
@@ -356,7 +356,7 @@ LoadSubMenu
 (
 nsIContent
 *
-inMenuContent
+aMenuContent
 )
 ;
 GeckoNSMenu
@@ -365,7 +365,7 @@ CreateMenuWithGeckoString
 (
 nsString
 &
-menuTitle
+aMenuTitle
 )
 ;
 nsTArray
