@@ -17197,12 +17197,6 @@ StaticPrefs
 gfx_webrender_fallback_basic_AtStartup
 (
 )
-&
-&
-!
-FissionAutostart
-(
-)
 )
 {
 gfxCriticalNote
