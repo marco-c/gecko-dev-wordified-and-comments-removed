@@ -895,6 +895,12 @@ message
 "
 ;
 let
+decoderDoctorReportId
+=
+"
+"
+;
+let
 isLinux
 =
 AppConstants
@@ -926,6 +932,12 @@ message
 "
 )
 ;
+decoderDoctorReportId
+=
+"
+MediaPlatformDecoderNotFound
+"
+;
 }
 else
 if
@@ -955,6 +967,12 @@ message
 "
 )
 ;
+decoderDoctorReportId
+=
+"
+MediaWMFNeeded
+"
+;
 }
 await
 test_decoder_doctor_notification
@@ -971,6 +989,7 @@ not
 -
 found
 "
+decoderDoctorReportId
 formats
 :
 "
