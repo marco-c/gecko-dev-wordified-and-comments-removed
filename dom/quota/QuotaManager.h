@@ -1370,9 +1370,9 @@ uint64_t
 GetOriginUsage
 (
 const
-OriginMetadata
+PrincipalMetadata
 &
-aOriginMetadata
+aPrincipalMetadata
 )
 ;
 void
@@ -1436,7 +1436,7 @@ aPrincipalInfo
 )
 ;
 static
-OriginMetadata
+PrincipalMetadata
 GetInfoFromValidatedPrincipalInfo
 (
 const
@@ -1458,7 +1458,7 @@ aPrincipalInfo
 static
 Result
 <
-OriginMetadata
+PrincipalMetadata
 nsresult
 >
 GetInfoFromPrincipal
@@ -1501,7 +1501,7 @@ GetOriginForChrome
 )
 ;
 static
-OriginMetadata
+PrincipalMetadata
 GetInfoForChrome
 (
 )

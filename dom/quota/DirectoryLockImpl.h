@@ -831,6 +831,9 @@ Origin
 (
 )
 )
+GetPersistenceType
+(
+)
 }
 ;
 }
