@@ -74,9 +74,6 @@ h
 include
 GamepadEventTypes
 ;
-include
-GamepadStateBroadcastReceiverInfo
-;
 using
 mozilla
 :
@@ -166,13 +163,6 @@ aPromiseID
 ;
 child
 :
-async
-SetupSharedMemory
-(
-GamepadStateBroadcastReceiverInfo
-aReceiverInfo
-)
-;
 async
 GamepadUpdate
 (
