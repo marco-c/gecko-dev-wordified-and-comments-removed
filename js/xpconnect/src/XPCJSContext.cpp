@@ -2729,11 +2729,6 @@ char
 *
 prefName
 ;
-bool
-runningContentJS
-=
-false
-;
 auto
 principal
 =
@@ -2841,10 +2836,6 @@ dom_max_script_run_time
 (
 )
 ;
-runningContentJS
-=
-true
-;
 }
 if
 (
@@ -2943,9 +2934,6 @@ true
 }
 if
 (
-runningContentJS
-&
-&
 XRE_IsContentProcess
 (
 )
