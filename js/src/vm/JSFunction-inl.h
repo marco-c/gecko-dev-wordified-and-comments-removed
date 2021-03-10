@@ -269,6 +269,11 @@ js
 :
 HandleShape
 shape
+js
+:
+:
+HandleObjectGroup
+group
 )
 {
 MOZ_ASSERT
@@ -305,6 +310,7 @@ FUNCTION_EXTENDED
 ;
 debugCheckNewObject
 (
+group
 shape
 kind
 heap
@@ -315,10 +321,10 @@ JSClass
 *
 clasp
 =
-shape
+group
 -
 >
-getObjectClass
+clasp
 (
 )
 ;
@@ -414,6 +420,14 @@ NativeObject
 >
 (
 obj
+)
+;
+nobj
+-
+>
+initGroup
+(
+group
 )
 ;
 nobj

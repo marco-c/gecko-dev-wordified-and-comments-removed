@@ -46,14 +46,7 @@ BaseShape
 const
 JSClass
 *
-clasp
-;
-JS
-:
-:
-Realm
-*
-realm
+clasp_
 ;
 }
 ;

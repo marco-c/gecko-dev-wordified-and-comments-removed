@@ -162,6 +162,8 @@ InitialHeap
 heap
 HandleShape
 shape
+HandleObjectGroup
+group
 uint32_t
 length
 AutoSetNewObjectMetadata
@@ -192,6 +194,8 @@ InitialHeap
 heap
 HandleShape
 shape
+HandleObjectGroup
+group
 AutoSetNewObjectMetadata
 &
 )

@@ -102,6 +102,9 @@ class
 NativeObject
 ;
 class
+ObjectGroup
+;
+class
 PropertyName
 ;
 class
@@ -1122,6 +1125,8 @@ JSContext
 cx
 HandleShape
 shape
+HandleObjectGroup
+group
 )
 ;
 JSObject
@@ -1980,6 +1985,18 @@ Shape
 *
 *
 shapep
+)
+;
+void
+JitObjectGroupPreWriteBarrier
+(
+JSRuntime
+*
+rt
+ObjectGroup
+*
+*
+groupp
 )
 ;
 bool

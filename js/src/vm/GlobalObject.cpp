@@ -5292,7 +5292,7 @@ lastProperty
 ;
 Rooted
 <
-BaseShape
+UnownedBaseShape
 *
 >
 base
@@ -5302,6 +5302,11 @@ last
 -
 >
 base
+(
+)
+-
+>
+unowned
 (
 )
 )
@@ -5326,12 +5331,6 @@ cx
 StackShape
 (
 base
-last
--
->
-objectFlags
-(
-)
 id
 slot
 0

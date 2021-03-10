@@ -252,14 +252,14 @@ Shape
 "
             
 "
-BaseShape
+ObjectGroup
 "
 :
 "
 js
 :
 :
-BaseShape
+ObjectGroup
 "
             
 "
@@ -271,6 +271,17 @@ std
 :
 :
 nullptr_t
+"
+            
+"
+BaseShape
+"
+:
+"
+js
+:
+:
+BaseShape
 "
             
 "
@@ -325,6 +336,14 @@ RegExpShared
 alloc_map
 =
 {
+            
+"
+BASE_SHAPE
+"
+:
+"
+BaseShape
+"
             
 "
 JITCODE
