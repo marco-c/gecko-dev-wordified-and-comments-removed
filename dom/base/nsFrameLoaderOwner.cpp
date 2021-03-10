@@ -1640,13 +1640,6 @@ AddWindowListeners
 (
 )
 ;
-browserParent
--
->
-ResumeProgressEvents
-(
-)
-;
 }
 RefPtr
 <
