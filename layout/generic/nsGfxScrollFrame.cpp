@@ -4890,9 +4890,6 @@ ScrollableOverflow
 )
 )
 ;
-nsRect
-scrolledArea
-;
 nsSize
 portSize
 =
@@ -4921,11 +4918,13 @@ ScrollableOverflow
 portSize
 )
 ;
+nsRect
 scrolledArea
-.
-UnionRectEdges
-(
+=
 scrolledRect
+.
+UnionEdges
+(
 nsRect
 (
 nsPoint

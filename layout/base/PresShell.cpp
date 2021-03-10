@@ -16333,10 +16333,11 @@ aHaveRect
 )
 {
 aRect
-.
-UnionRectEdges
-(
+=
 aRect
+.
+UnionEdges
+(
 transformedBounds
 )
 ;
