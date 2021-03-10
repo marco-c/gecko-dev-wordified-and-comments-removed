@@ -1391,18 +1391,6 @@ return
 true
 ;
 }
-RootedObject
-proto
-(
-cx
-obj
--
->
-staticPrototype
-(
-)
-)
-;
 EmptyShape
 :
 :
@@ -1410,7 +1398,6 @@ insertInitialShape
 (
 cx
 shape
-proto
 )
 ;
 return
