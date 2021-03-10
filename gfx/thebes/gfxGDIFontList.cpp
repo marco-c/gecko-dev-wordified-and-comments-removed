@@ -3300,7 +3300,7 @@ fontList
 >
 mFontFamilies
 .
-GetWeak
+Contains
 (
 key
 )

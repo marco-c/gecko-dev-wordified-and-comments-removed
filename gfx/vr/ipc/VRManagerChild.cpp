@@ -3084,10 +3084,9 @@ MOZ_ASSERT
 !
 mGamepadPromiseList
 .
-Get
+Contains
 (
 aID
-nullptr
 )
 )
 ;
