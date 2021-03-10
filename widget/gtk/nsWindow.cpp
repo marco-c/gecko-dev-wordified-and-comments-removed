@@ -333,13 +333,6 @@ h
 "
 #
 include
-"
-WidgetUtilsGtk
-.
-h
-"
-#
-include
 <
 gtk
 /
@@ -11261,7 +11254,7 @@ gdk_display_get_default
 guint32
 timestamp
 =
-GdkIsX11Display
+GDK_IS_X11_DISPLAY
 (
 gdkDisplay
 )
@@ -12727,7 +12720,10 @@ gdk_display_get_default
 ;
 if
 (
-GdkIsX11Display
+gdkDisplay
+&
+&
+GDK_IS_X11_DISPLAY
 (
 gdkDisplay
 )
@@ -33532,7 +33528,7 @@ widget
 ;
 if
 (
-GdkIsX11Display
+GDK_IS_X11_DISPLAY
 (
 gdkDisplay
 )
@@ -38865,8 +38861,12 @@ sGtkWindowDecoration
 }
 if
 (
-GdkIsWaylandDisplay
+!
+GDK_IS_X11_DISPLAY
 (
+gdk_display_get_default
+(
+)
 )
 )
 {

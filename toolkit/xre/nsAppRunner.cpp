@@ -1743,15 +1743,6 @@ MOZ_WIDGET_GTK
 )
 #
 include
-"
-mozilla
-/
-WidgetUtilsGtk
-.
-h
-"
-#
-include
 <
 glib
 .
@@ -21040,7 +21031,7 @@ saveDisplayArg
 {
 if
 (
-GdkIsX11Display
+GDK_IS_X11_DISPLAY
 (
 mGdkDisplay
 )
@@ -21064,7 +21055,8 @@ MOZ_WAYLAND
 else
 if
 (
-GdkIsWaylandDisplay
+!
+GDK_IS_X11_DISPLAY
 (
 mGdkDisplay
 )
