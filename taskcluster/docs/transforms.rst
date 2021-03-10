@@ -1146,12 +1146,6 @@ or
 spidermonkey
 -
 package
-or
-spidermonkey
--
-mozjs
--
-crate
 *
 debian
 -
