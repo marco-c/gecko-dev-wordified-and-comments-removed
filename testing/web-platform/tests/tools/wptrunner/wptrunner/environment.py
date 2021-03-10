@@ -11,10 +11,6 @@ sys
 import
 time
 from
-six
-import
-iteritems
-from
 mozlog
 import
 get_default_logger
@@ -602,11 +598,12 @@ for
 scheme
 servers
 in
-iteritems
-(
 self
 .
 servers
+.
+items
+(
 )
 :
             
@@ -1483,11 +1480,12 @@ for
 url_base
 paths
 in
-iteritems
-(
 self
 .
 test_paths
+.
+items
+(
 )
 :
             
@@ -1696,11 +1694,12 @@ for
 scheme
 servers
 in
-iteritems
-(
 self
 .
 servers
+.
+items
+(
 )
 :
             
@@ -1743,11 +1742,12 @@ for
 scheme
 servers
 in
-iteritems
-(
 self
 .
 servers
+.
+items
+(
 )
 :
                 

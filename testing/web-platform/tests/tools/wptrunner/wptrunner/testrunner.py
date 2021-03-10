@@ -7,10 +7,6 @@ threading
 import
 traceback
 from
-six
-.
-moves
-.
 queue
 import
 Empty

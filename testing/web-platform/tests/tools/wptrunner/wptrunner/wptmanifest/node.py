@@ -1,9 +1,3 @@
-from
-six
-.
-moves
-import
-range
 class
 NodeVisitor
 (

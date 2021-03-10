@@ -12,10 +12,6 @@ import
 BaseManager
 import
 pytest
-from
-six
-import
-PY3
 Stash
 =
 pytest
@@ -281,8 +277,6 @@ win32
 "
 or
                    
-PY3
-and
 multiprocessing
 .
 get_start_method
@@ -588,8 +582,6 @@ win32
 "
 or
                    
-PY3
-and
 multiprocessing
 .
 get_start_method

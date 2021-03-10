@@ -6,14 +6,6 @@ import
 time
 import
 json
-from
-six
-import
-assertRegex
-from
-six
-.
-moves
 import
 urllib
 import
@@ -1463,9 +1455,10 @@ txt
 "
 )
         
+self
+.
 assertRegex
 (
-self
 resp
 .
 read

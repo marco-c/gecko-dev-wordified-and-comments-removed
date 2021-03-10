@@ -5,8 +5,6 @@ json
 import
 os
 import
-six
-import
 threading
 import
 uuid
@@ -18,11 +16,6 @@ import
 AcquirerProxy
 BaseManager
 DictProxy
-from
-six
-import
-text_type
-binary_type
 from
 .
 utils
@@ -339,7 +332,7 @@ if
 isinstance
 (
 authkey
-text_type
+str
 )
 :
         
@@ -360,10 +353,6 @@ kwargs
 }
     
 if
-six
-.
-PY3
-and
 mp_context
 is
 not
@@ -943,7 +932,7 @@ if
 isinstance
 (
 key
-binary_type
+bytes
 )
 :
             

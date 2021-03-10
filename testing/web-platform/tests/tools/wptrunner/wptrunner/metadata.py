@@ -22,17 +22,10 @@ six
 import
 ensure_str
 ensure_text
-iteritems
-iterkeys
-itervalues
-text_type
 from
-six
-.
-moves
+sys
 import
 intern
-range
 from
 .
 import
@@ -228,11 +221,12 @@ for
 key
 value
 in
-iteritems
-(
 self
 .
 data
+.
+items
+(
 )
 :
             
@@ -250,9 +244,10 @@ self
 return
 list
 (
-iteritems
-(
 self
+.
+items
+(
 )
 )
 def
@@ -811,9 +806,10 @@ for
 manifest
 paths
 in
-iteritems
-(
 manifests
+.
+items
+(
 )
 :
         
@@ -1435,7 +1431,7 @@ if
 isinstance
 (
 data
-text_type
+str
 )
 :
         
@@ -1548,9 +1544,10 @@ for
 test_manifest
 paths
 in
-iteritems
-(
 manifests
+.
+items
+(
 )
 :
         
@@ -1687,9 +1684,10 @@ test_file_items
 =
 set
 (
-itervalues
-(
 id_test_map
+.
+values
+(
 )
 )
     
@@ -1702,11 +1700,12 @@ for
 test_type
 test_cls
 in
-iteritems
-(
 wpttest
 .
 manifest_test_cls
+.
+items
+(
 )
 :
         
@@ -2668,9 +2667,10 @@ for
 scope
 scope_data
 in
-iteritems
-(
 mozleak_data
+.
+items
+(
 )
 :
             
@@ -4491,11 +4491,12 @@ for
 test_id
 subtests
 in
-iteritems
-(
 self
 .
 data
+.
+items
+(
 )
 :
             
@@ -4529,9 +4530,10 @@ item
 for
 item
 in
-iterkeys
-(
 subtests
+.
+keys
+(
 )
 if
 item
@@ -4644,9 +4646,10 @@ top_level_props
 for
 item
 in
-itervalues
-(
 dependent_props
+.
+values
+(
 )
 :
             
@@ -4904,11 +4907,12 @@ for
 test_id
 test_data
 in
-iteritems
-(
 self
 .
 data
+.
+items
+(
 )
 :
             
@@ -4923,9 +4927,10 @@ for
 subtest_id
 results_list
 in
-iteritems
-(
 test_data
+.
+items
+(
 )
 :
                 
