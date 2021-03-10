@@ -894,6 +894,8 @@ appmenu
 -
 help
 -
+more
+-
 troubleshooting
 -
 info
@@ -901,6 +903,7 @@ info
 .
 label
 =
+More
 Troubleshooting
 Information
 .
