@@ -2278,17 +2278,6 @@ interface
 mixin
 NavigatorAutomationInformation
 {
-[
-Pref
-=
-"
-dom
-.
-webdriver
-.
-enabled
-"
-]
 readonly
 attribute
 boolean
