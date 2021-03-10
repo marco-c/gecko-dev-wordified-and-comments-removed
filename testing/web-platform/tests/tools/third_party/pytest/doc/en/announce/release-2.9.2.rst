@@ -27,7 +27,6 @@ tool
 with
 more
 than
-a
 1100
 tests
 against
@@ -424,7 +423,7 @@ dev
 /
 pytest
 /
-issue
+issues
 /
 1496
 .
@@ -447,7 +446,7 @@ dev
 /
 pytest
 /
-issue
+pull
 /
 1524
 .

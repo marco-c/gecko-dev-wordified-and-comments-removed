@@ -1,22 +1,7 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 import
 pytest
 class
 TestClass
-(
-object
-)
 :
     
 pytest

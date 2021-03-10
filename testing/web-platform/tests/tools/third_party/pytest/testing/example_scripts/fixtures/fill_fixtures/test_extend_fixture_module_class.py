@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 import
 pytest
 pytest
@@ -27,9 +15,6 @@ spam
 "
 class
 TestSpam
-(
-object
-)
 :
     
 pytest

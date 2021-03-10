@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 import
 pytest
 class
@@ -31,7 +19,11 @@ self
 return
 [
 MyItem
+.
+from_parent
 (
+name
+=
 "
 hello
 "
@@ -50,8 +42,14 @@ parent
     
 return
 MyFile
+.
+from_parent
 (
+fspath
+=
 path
+parent
+=
 parent
 )
 class
