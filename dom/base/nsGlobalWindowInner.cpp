@@ -11249,6 +11249,8 @@ nsPIDOMWindowInner
 :
 Suspend
 (
+bool
+aIncludeSubWindows
 )
 {
 nsGlobalWindowInner
@@ -11262,6 +11264,7 @@ this
 >
 Suspend
 (
+aIncludeSubWindows
 )
 ;
 }
@@ -11271,6 +11274,8 @@ nsPIDOMWindowInner
 :
 Resume
 (
+bool
+aIncludeSubWindows
 )
 {
 nsGlobalWindowInner
@@ -11284,6 +11289,7 @@ this
 >
 Resume
 (
+aIncludeSubWindows
 )
 ;
 }
@@ -25022,6 +25028,8 @@ nsGlobalWindowInner
 :
 Suspend
 (
+bool
+aIncludeSubWindows
 )
 {
 MOZ_ASSERT
@@ -25042,6 +25050,11 @@ IsCurrentInnerWindow
 return
 ;
 }
+if
+(
+aIncludeSubWindows
+)
+{
 CallOnInProcessChildren
 (
 &
@@ -25049,8 +25062,10 @@ nsGlobalWindowInner
 :
 :
 Suspend
+aIncludeSubWindows
 )
 ;
+}
 mSuspendDepth
 +
 =
@@ -25207,6 +25222,8 @@ nsGlobalWindowInner
 :
 Resume
 (
+bool
+aIncludeSubWindows
 )
 {
 MOZ_ASSERT
@@ -25227,6 +25244,11 @@ IsCurrentInnerWindow
 return
 ;
 }
+if
+(
+aIncludeSubWindows
+)
+{
 CallOnInProcessChildren
 (
 &
@@ -25234,8 +25256,10 @@ nsGlobalWindowInner
 :
 :
 Resume
+aIncludeSubWindows
 )
 ;
+}
 if
 (
 mSuspendDepth
@@ -25434,6 +25458,8 @@ nsGlobalWindowInner
 :
 Freeze
 (
+bool
+aIncludeSubWindows
 )
 {
 MOZ_ASSERT
@@ -25445,10 +25471,12 @@ NS_IsMainThread
 ;
 Suspend
 (
+aIncludeSubWindows
 )
 ;
 FreezeInternal
 (
+aIncludeSubWindows
 )
 ;
 }
@@ -25458,6 +25486,8 @@ nsGlobalWindowInner
 :
 FreezeInternal
 (
+bool
+aIncludeSubWindows
 )
 {
 MOZ_ASSERT
@@ -25486,6 +25516,11 @@ HintIsLoading
 false
 )
 ;
+if
+(
+aIncludeSubWindows
+)
+{
 CallOnInProcessChildren
 (
 &
@@ -25493,8 +25528,10 @@ nsGlobalWindowInner
 :
 :
 FreezeInternal
+aIncludeSubWindows
 )
 ;
+}
 mFreezeDepth
 +
 =
@@ -25586,6 +25623,8 @@ nsGlobalWindowInner
 :
 Thaw
 (
+bool
+aIncludeSubWindows
 )
 {
 MOZ_ASSERT
@@ -25597,10 +25636,12 @@ NS_IsMainThread
 ;
 ThawInternal
 (
+aIncludeSubWindows
 )
 ;
 Resume
 (
+aIncludeSubWindows
 )
 ;
 }
@@ -25610,6 +25651,8 @@ nsGlobalWindowInner
 :
 ThawInternal
 (
+bool
+aIncludeSubWindows
 )
 {
 MOZ_ASSERT
@@ -25633,6 +25676,11 @@ IsSuspended
 )
 )
 ;
+if
+(
+aIncludeSubWindows
+)
+{
 CallOnInProcessChildren
 (
 &
@@ -25640,8 +25688,10 @@ nsGlobalWindowInner
 :
 :
 ThawInternal
+aIncludeSubWindows
 )
 ;
+}
 MOZ_ASSERT
 (
 mFreezeDepth

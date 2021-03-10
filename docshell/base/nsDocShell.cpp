@@ -6451,6 +6451,7 @@ NotifyPossibleTitleChange
 false
 )
 ;
+}
 if
 (
 mScriptGlobal
@@ -6474,9 +6475,9 @@ GetCurrentInnerWindowInternal
 >
 Thaw
 (
+false
 )
 ;
-}
 }
 nsCOMPtr
 <
@@ -6561,6 +6562,7 @@ presShell
 >
 Thaw
 (
+false
 )
 ;
 }
@@ -6587,16 +6589,6 @@ false
 ;
 if
 (
-mBrowsingContext
--
->
-IsTop
-(
-)
-)
-{
-if
-(
 mScriptGlobal
 &
 &
@@ -6618,9 +6610,9 @@ GetCurrentInnerWindowInternal
 >
 Freeze
 (
+false
 )
 ;
-}
 }
 RefPtr
 <
@@ -6642,6 +6634,7 @@ presShell
 >
 Freeze
 (
+false
 )
 ;
 }
