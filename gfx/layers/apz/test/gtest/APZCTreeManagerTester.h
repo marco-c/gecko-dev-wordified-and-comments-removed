@@ -64,6 +64,13 @@ SetUp
 (
 )
 {
+APZCTesterBase
+:
+:
+SetUp
+(
+)
+;
 if
 (
 mLayersOnly
@@ -84,13 +91,6 @@ false
 )
 ;
 }
-APZCTesterBase
-:
-:
-SetUp
-(
-)
-;
 APZThreadUtils
 :
 :
