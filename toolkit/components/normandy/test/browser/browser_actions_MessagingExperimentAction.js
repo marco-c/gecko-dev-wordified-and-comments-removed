@@ -103,8 +103,6 @@ jsm
 decorate_task
 (
 withStudiesEnabled
-(
-)
 withStub
 (
 Uptake
@@ -116,9 +114,7 @@ async
 function
 arguments_are_validated
 (
-{
-reportRecipeStub
-}
+reportRecipe
 )
 {
 const
@@ -297,7 +293,7 @@ Assert
 .
 deepEqual
 (
-reportRecipeStub
+reportRecipe
 .
 args
 [

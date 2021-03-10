@@ -921,8 +921,6 @@ updated
 decorate_task
 (
 withSendEventSpy
-(
-)
 PreferenceRollouts
 .
 withTestMock
@@ -932,9 +930,7 @@ async
 function
 testRecordOriginalValuesGraduates
 (
-{
 sendEventSpy
-}
 )
 {
 await
@@ -1187,9 +1183,7 @@ async
 function
 testInitTelemetry
 (
-{
 setExperimentActiveStub
-}
 )
 {
 await
@@ -1433,8 +1427,6 @@ setExperimentActive
 "
 )
 withSendEventSpy
-(
-)
 PreferenceRollouts
 .
 withTestMock
@@ -1489,10 +1481,8 @@ async
 function
 testInitGraduationSet
 (
-{
 setExperimentActiveStub
-sendEventSpy
-}
+sendEventStub
 )
 {
 await
@@ -1554,7 +1544,7 @@ called
 "
 )
 ;
-sendEventSpy
+sendEventStub
 .
 assertEvents
 (

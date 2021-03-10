@@ -133,8 +133,6 @@ setExperimentActive
 "
 )
 withSendEventSpy
-(
-)
 PreferenceRollouts
 .
 withTestMock
@@ -144,10 +142,8 @@ async
 function
 simple_recipe_enrollment
 (
-{
 setExperimentActiveStub
-sendEventSpy
-}
+sendEventStub
 )
 {
 const
@@ -550,7 +546,7 @@ enrollmentId
 "
 )
 ;
-sendEventSpy
+sendEventStub
 .
 assertEvents
 (
@@ -686,8 +682,6 @@ pref3
 decorate_task
 (
 withSendEventSpy
-(
-)
 PreferenceRollouts
 .
 withTestMock
@@ -697,9 +691,7 @@ async
 function
 update_enrollment
 (
-{
-sendEventSpy
-}
+sendEventStub
 )
 {
 const
@@ -1223,7 +1215,7 @@ db
 "
 )
 ;
-sendEventSpy
+sendEventStub
 .
 assertEvents
 (
@@ -1345,8 +1337,6 @@ pref3
 decorate_task
 (
 withSendEventSpy
-(
-)
 PreferenceRollouts
 .
 withTestMock
@@ -1356,9 +1346,7 @@ async
 function
 ungraduate_enrollment
 (
-{
-sendEventSpy
-}
+sendEventStub
 )
 {
 Services
@@ -1621,7 +1609,7 @@ db
 "
 )
 ;
-sendEventSpy
+sendEventStub
 .
 assertEvents
 (
@@ -1683,8 +1671,6 @@ pref
 decorate_task
 (
 withSendEventSpy
-(
-)
 PreferenceRollouts
 .
 withTestMock
@@ -1694,9 +1680,7 @@ async
 function
 conflicting_recipes
 (
-{
-sendEventSpy
-}
+sendEventStub
 )
 {
 const
@@ -2167,7 +2151,7 @@ db
 "
 )
 ;
-sendEventSpy
+sendEventStub
 .
 assertEvents
 (
@@ -2305,8 +2289,6 @@ pref3
 decorate_task
 (
 withSendEventSpy
-(
-)
 PreferenceRollouts
 .
 withTestMock
@@ -2316,9 +2298,7 @@ async
 function
 wrong_preference_value
 (
-{
-sendEventSpy
-}
+sendEventStub
 )
 {
 Services
@@ -2509,7 +2489,7 @@ db
 "
 )
 ;
-sendEventSpy
+sendEventStub
 .
 assertEvents
 (
@@ -3089,20 +3069,16 @@ pref
 ;
 decorate_task
 (
+withSendEventSpy
 PreferenceRollouts
 .
 withTestMock
 (
 )
-withSendEventSpy
-(
-)
 async
 function
 (
-{
-sendEventSpy
-}
+sendEventStub
 )
 {
 const
@@ -3296,7 +3272,7 @@ previousValue
 "
 )
 ;
-sendEventSpy
+sendEventStub
 .
 assertEvents
 (
@@ -3340,8 +3316,6 @@ setExperimentActive
 "
 )
 withSendEventSpy
-(
-)
 PreferenceRollouts
 .
 withTestMock
@@ -3351,10 +3325,8 @@ async
 function
 no_op_new_recipe
 (
-{
 setExperimentActiveStub
-sendEventSpy
-}
+sendEventStub
 )
 {
 Services
@@ -3536,7 +3508,7 @@ db
 "
 )
 ;
-sendEventSpy
+sendEventStub
 .
 assertEvents
 (
@@ -3622,8 +3594,6 @@ setExperimentActive
 "
 )
 withSendEventSpy
-(
-)
 PreferenceRollouts
 .
 withTestMock
@@ -3648,10 +3618,8 @@ async
 function
 graduationSetNewRecipe
 (
-{
 setExperimentActiveStub
-sendEventSpy
-}
+sendEventStub
 )
 {
 Services
@@ -3833,7 +3801,7 @@ db
 "
 )
 ;
-sendEventSpy
+sendEventStub
 .
 assertEvents
 (

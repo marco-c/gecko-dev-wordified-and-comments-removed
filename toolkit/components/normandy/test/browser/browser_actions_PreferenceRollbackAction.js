@@ -133,8 +133,6 @@ setExperimentInactive
 "
 )
 withSendEventSpy
-(
-)
 PreferenceRollouts
 .
 withTestMock
@@ -144,10 +142,8 @@ async
 function
 simple_rollback
 (
-{
 setExperimentInactiveStub
-sendEventSpy
-}
+sendEventStub
 )
 {
 Services
@@ -647,7 +643,7 @@ db
 "
 )
 ;
-sendEventSpy
+sendEventStub
 .
 assertEvents
 (
@@ -763,8 +759,6 @@ pref3
 decorate_task
 (
 withSendEventSpy
-(
-)
 PreferenceRollouts
 .
 withTestMock
@@ -774,9 +768,7 @@ async
 function
 cant_rollback_graduated
 (
-{
-sendEventSpy
-}
+sendEventStub
 )
 {
 Services
@@ -1032,7 +1024,7 @@ db
 "
 )
 ;
-sendEventSpy
+sendEventStub
 .
 assertEvents
 (
@@ -1094,8 +1086,6 @@ pref
 decorate_task
 (
 withSendEventSpy
-(
-)
 withStub
 (
 Uptake
@@ -1112,10 +1102,8 @@ async
 function
 rollback_without_rollout
 (
-{
-sendEventSpy
+sendEventStub
 reportRecipeStub
-}
 )
 {
 let
@@ -1180,7 +1168,7 @@ null
 "
 )
 ;
-sendEventSpy
+sendEventStub
 .
 assertEvents
 (
@@ -1226,8 +1214,6 @@ setExperimentInactive
 "
 )
 withSendEventSpy
-(
-)
 PreferenceRollouts
 .
 withTestMock
@@ -1237,10 +1223,8 @@ async
 function
 rollback_already_rolled_back
 (
-{
 setExperimentInactiveStub
-sendEventSpy
-}
+sendEventStub
 )
 {
 Services
@@ -1462,7 +1446,7 @@ db
 "
 )
 ;
-sendEventSpy
+sendEventStub
 .
 assertEvents
 (
@@ -1522,6 +1506,8 @@ async
 function
 simple_rollback
 (
+setExperimentInactiveStub
+sendEventStub
 )
 {
 Services
@@ -1780,8 +1766,6 @@ pref
 decorate_task
 (
 withSendEventSpy
-(
-)
 PreferenceRollouts
 .
 withTestMock
@@ -1806,9 +1790,7 @@ async
 function
 cant_rollback_graduation_set
 (
-{
-sendEventSpy
-}
+sendEventStub
 )
 {
 Services
@@ -1973,7 +1955,7 @@ db
 "
 )
 ;
-sendEventSpy
+sendEventStub
 .
 assertEvents
 (
