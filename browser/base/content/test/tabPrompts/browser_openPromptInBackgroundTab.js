@@ -502,7 +502,7 @@ _identityPermissionBox
 hasAttribute
 (
 "
-hasGrantedPermissions
+hasPermissions
 "
 )
 "
@@ -1096,7 +1096,7 @@ _identityPermissionBox
 hasAttribute
 (
 "
-hasGrantedPermissions
+hasPermissions
 "
 )
 "

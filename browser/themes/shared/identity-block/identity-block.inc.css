@@ -1799,16 +1799,7 @@ permission
 -
 box
 [
-hasGrantedPermissions
-]
-#
-identity
--
-permission
--
-box
-[
-hasPermissionIcon
+hasPermissions
 ]
 #
 identity
