@@ -4892,6 +4892,14 @@ parentBC
 loadState
 -
 >
+SetAllowFocusMove
+(
+true
+)
+;
+loadState
+-
+>
 SetHasValidUserGestureActivation
 (
 context
