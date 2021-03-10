@@ -337,7 +337,7 @@ ArgumentsObject
 public
 NativeObject
 {
-protected
+public
 :
 static
 const
@@ -367,8 +367,6 @@ CALLEE_SLOT
 =
 3
 ;
-public
-:
 static
 const
 uint32_t
