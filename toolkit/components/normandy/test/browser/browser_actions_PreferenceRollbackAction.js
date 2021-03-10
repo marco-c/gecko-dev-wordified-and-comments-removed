@@ -144,8 +144,10 @@ async
 function
 simple_rollback
 (
+{
 setExperimentInactiveStub
 sendEventSpy
+}
 )
 {
 Services
@@ -772,7 +774,9 @@ async
 function
 cant_rollback_graduated
 (
+{
 sendEventSpy
+}
 )
 {
 Services
@@ -1108,8 +1112,10 @@ async
 function
 rollback_without_rollout
 (
+{
 sendEventSpy
 reportRecipeStub
+}
 )
 {
 let
@@ -1231,8 +1237,10 @@ async
 function
 rollback_already_rolled_back
 (
+{
 setExperimentInactiveStub
 sendEventSpy
+}
 )
 {
 Services
@@ -1798,7 +1806,9 @@ async
 function
 cant_rollback_graduation_set
 (
+{
 sendEventSpy
+}
 )
 {
 Services

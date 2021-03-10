@@ -204,7 +204,9 @@ async
 function
 arguments_are_validated
 (
+{
 reportRecipeStub
+}
 )
 {
 const

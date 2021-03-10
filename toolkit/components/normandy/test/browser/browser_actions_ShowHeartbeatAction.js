@@ -337,9 +337,6 @@ async
 function
 wrappedTestFunction
 (
-.
-.
-.
 args
 )
 {
@@ -409,13 +406,13 @@ await
 testFunction
 (
 {
-heartbeatClassStub
-heartbeatInstanceStub
-}
 .
 .
 .
 args
+heartbeatClassStub
+heartbeatInstanceStub
+}
 )
 ;
 }
@@ -449,9 +446,6 @@ async
 function
 wrappedTestFunction
 (
-.
-.
-.
 args
 )
 {
@@ -466,9 +460,6 @@ try
 await
 testFunction
 (
-.
-.
-.
 args
 )
 ;
@@ -2302,9 +2293,6 @@ async
 function
 testGenerateSurveyId
 (
-{
-heartbeatClassStub
-}
 )
 {
 const
