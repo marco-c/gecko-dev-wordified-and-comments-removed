@@ -17645,7 +17645,7 @@ file
 where
 the
 error
-occured
+occurred
 .
 source_line
 :
@@ -17656,7 +17656,7 @@ source_file
 where
 the
 error
-occured
+occurred
 .
 zero_byte_load
 :
