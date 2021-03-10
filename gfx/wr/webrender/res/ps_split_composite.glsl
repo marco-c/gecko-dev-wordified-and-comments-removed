@@ -727,9 +727,6 @@ swgl_commitTextureRGBA8
 sColor0
 uv
 vUvSampleBounds
-0
-.
-0
 )
 ;
 }

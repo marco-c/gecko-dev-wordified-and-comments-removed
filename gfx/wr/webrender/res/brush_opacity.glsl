@@ -482,9 +482,6 @@ sColor0
 uv
 v_uv_sample_bounds
 v_opacity
-0
-.
-0
 )
 ;
 }

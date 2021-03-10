@@ -285,9 +285,6 @@ swgl_commitTextureLinearRGBA8
 sColor0
 vUv
 vUvRect
-0
-.
-0
 )
 ;
 }

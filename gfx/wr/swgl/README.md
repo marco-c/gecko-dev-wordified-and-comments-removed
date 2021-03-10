@@ -1430,8 +1430,6 @@ vec2
 uv
 vec4
 uv_bounds
-float
-layer
 )
 ;
 void
@@ -1442,8 +1440,6 @@ vec2
 uv
 vec4
 uv_bounds
-float
-layer
 )
 ;
 void
@@ -1458,8 +1454,6 @@ vec4
 |
 float
 color
-float
-layer
 )
 ;
 void
@@ -1474,8 +1468,6 @@ vec4
 |
 float
 color
-float
-layer
 )
 ;
 void
@@ -1488,8 +1480,6 @@ vec4
 uv_repeat
 vec4
 uv_bounds
-float
-layer
 )
 ;
 void
@@ -1506,8 +1496,6 @@ vec4
 |
 float
 color
-float
-layer
 )
 ;
 void
@@ -1518,8 +1506,6 @@ vec2
 uv
 vec4
 uv_bounds
-float
-layer
 )
 ;
 void
@@ -1534,8 +1520,6 @@ vec4
 |
 float
 color
-float
-layer
 )
 ;
 void
@@ -1548,8 +1532,6 @@ vec4
 uv_repeat
 vec4
 uv_bounds
-float
-layer
 )
 ;
 void
@@ -1566,8 +1548,6 @@ vec4
 |
 float
 color
-float
-layer
 )
 ;
 void
@@ -1578,8 +1558,6 @@ vec2
 uv
 vec4
 uv_bounds
-float
-layer
 )
 ;
 void
@@ -1594,8 +1572,6 @@ vec4
 |
 float
 color
-float
-layer
 )
 ;
 void
@@ -1608,8 +1584,6 @@ vec4
 uv_repeat
 vec4
 uv_bounds
-float
-layer
 )
 ;
 void
@@ -1626,8 +1600,6 @@ vec4
 |
 float
 color
-float
-layer
 )
 ;
 Samples
@@ -1649,10 +1621,6 @@ the
 supplied
 uv
 bounds
-from
-the
-given
-layer
 .
 The
 color

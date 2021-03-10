@@ -2393,9 +2393,6 @@ uv
 v_uv_bounds
 v_uv_sample_bounds
 v_color
-0
-.
-0
 )
 ;
 #
@@ -2406,9 +2403,6 @@ sColor0
 uv
 v_uv_sample_bounds
 v_color
-0
-.
-0
 )
 ;
 #
@@ -2445,9 +2439,6 @@ sColor0
 uv
 v_uv_bounds
 v_uv_sample_bounds
-0
-.
-0
 )
 ;
 #
@@ -2457,9 +2448,6 @@ swgl_commitTextureRGBA8
 sColor0
 uv
 v_uv_sample_bounds
-0
-.
-0
 )
 ;
 #

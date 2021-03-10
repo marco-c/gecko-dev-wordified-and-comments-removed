@@ -1163,9 +1163,6 @@ x
 0
 vSupport
 vGaussCoefficients
-0
-.
-0
 )
 ;
 }
@@ -1191,9 +1188,6 @@ x
 0
 vSupport
 vGaussCoefficients
-0
-.
-0
 )
 ;
 }
