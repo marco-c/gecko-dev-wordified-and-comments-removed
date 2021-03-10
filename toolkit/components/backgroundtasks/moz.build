@@ -266,6 +266,13 @@ jsm
 "
 tests
 /
+BackgroundTask_shouldprocessupdates
+.
+jsm
+"
+"
+tests
+/
 BackgroundTask_update_sync_manager
 .
 jsm
