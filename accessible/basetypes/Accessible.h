@@ -274,6 +274,11 @@ eCombobox
 ;
 }
 bool
+IsTextRole
+(
+)
+;
+bool
 IsGenericHyperText
 (
 )

@@ -394,11 +394,6 @@ aOffset
 )
 const
 ;
-bool
-IsTextRole
-(
-)
-;
 uint32_t
 CharacterCount
 (
