@@ -12022,7 +12022,7 @@ funcIndex
 Tier
 tier
 PrintCallback
-callback
+printString
 )
 const
 {
@@ -12144,7 +12144,7 @@ range
 begin
 (
 )
-callback
+printString
 )
 ;
 }
