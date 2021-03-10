@@ -97,7 +97,9 @@ units
 primitive
 >
 {
-typedef
+using
+type
+=
 decltype
 (
 int32_t
@@ -108,7 +110,6 @@ primitive
 (
 )
 )
-type
 ;
 }
 ;
@@ -132,7 +133,9 @@ F
 primitive
 >
 {
-typedef
+using
+type
+=
 decltype
 (
 F
@@ -143,7 +146,6 @@ primitive
 (
 )
 )
-type
 ;
 }
 ;
@@ -260,7 +262,9 @@ aB
 value
 ;
 }
-typedef
+using
+result_type
+=
 typename
 CommonType
 <
@@ -270,7 +274,6 @@ primitive
 :
 :
 type
-result_type
 ;
 friend
 result_type
@@ -469,7 +472,9 @@ tag
 "
 )
 ;
-typedef
+using
+Super
+=
 BaseCoord
 <
 int32_t
@@ -478,7 +483,6 @@ IntCoordTyped
 units
 >
 >
-Super
 ;
 constexpr
 IntCoordTyped
@@ -627,7 +631,9 @@ tag
 "
 )
 ;
-typedef
+using
+Super
+=
 BaseCoord
 <
 F
@@ -637,7 +643,6 @@ units
 F
 >
 >
-Super
 ;
 constexpr
 CoordTyped
