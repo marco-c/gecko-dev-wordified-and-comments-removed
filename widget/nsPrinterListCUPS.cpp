@@ -855,7 +855,7 @@ InitOkay
 )
 {
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 cups_dest_t
