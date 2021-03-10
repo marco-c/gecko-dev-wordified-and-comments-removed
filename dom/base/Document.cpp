@@ -46355,6 +46355,14 @@ LayoutDeviceToScreenScale
 0
 )
 ;
+const
+bool
+fullscreen
+=
+Fullscreen
+(
+)
+;
 nsPIDOMWindowOuter
 *
 win
@@ -46380,6 +46388,10 @@ IsDesktopModeViewport
 IsAboutPage
 (
 )
+&
+&
+!
+fullscreen
 )
 {
 CSSCoord
@@ -46461,6 +46473,9 @@ Mobile
 }
 if
 (
+fullscreen
+|
+|
 !
 nsLayoutUtils
 :
