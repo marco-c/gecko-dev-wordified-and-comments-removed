@@ -706,7 +706,7 @@ true
 )
 asserts
 (
-1
+2
 )
 load
 1474978
@@ -725,6 +725,14 @@ execCommand
 calls
 another
 execCommand
+asserts
+(
+1
+)
+load
+1517028
+.
+html
 load
 1525481
 .

@@ -2790,7 +2790,7 @@ GROUP_INLINE_ELEMENT
 ELEM
 (
 marquee
-false
+true
 false
 GROUP_NONE
 GROUP_NONE
@@ -2848,7 +2848,7 @@ GROUP_FLOW_ELEMENT
 ELEM
 (
 nobr
-false
+true
 false
 GROUP_NONE
 GROUP_NONE
