@@ -1711,7 +1711,7 @@ xdr
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 &
 stencil
 )
