@@ -2937,9 +2937,6 @@ Ok
 )
 ;
 }
-namespace
-js
-{
 template
 <
 XDRMode
@@ -3390,7 +3387,10 @@ XDRMode
 mode
 >
 XDRResult
-XDRCompilationStencil
+StencilXDR
+:
+:
+codeCompilationStencil
 (
 XDRState
 <
@@ -3428,9 +3428,6 @@ true
 }
 MOZ_TRY
 (
-StencilXDR
-:
-:
 codeParserAtomSpan
 (
 xdr
@@ -3642,9 +3639,6 @@ i
 {
 MOZ_TRY
 (
-StencilXDR
-:
-:
 codeScopeData
 (
 xdr
@@ -3701,9 +3695,6 @@ bigIntData
 {
 MOZ_TRY
 (
-StencilXDR
-:
-:
 codeBigInt
 (
 xdr
@@ -3737,9 +3728,6 @@ objLiteralData
 {
 MOZ_TRY
 (
-StencilXDR
-:
-:
 codeObjLiteral
 (
 xdr
@@ -3750,9 +3738,6 @@ entry
 }
 MOZ_TRY
 (
-StencilXDR
-:
-:
 codeSharedDataContainer
 (
 xdr
@@ -3879,9 +3864,6 @@ Throw
 }
 MOZ_TRY
 (
-StencilXDR
-:
-:
 codeModuleMetadata
 (
 xdr
@@ -3901,7 +3883,10 @@ Ok
 }
 template
 XDRResult
-XDRCompilationStencil
+StencilXDR
+:
+:
+codeCompilationStencil
 (
 XDRState
 <
@@ -3916,7 +3901,10 @@ stencil
 ;
 template
 XDRResult
-XDRCompilationStencil
+StencilXDR
+:
+:
+codeCompilationStencil
 (
 XDRState
 <
@@ -3929,7 +3917,6 @@ CompilationStencil
 stencil
 )
 ;
-}
 template
 <
 XDRMode
