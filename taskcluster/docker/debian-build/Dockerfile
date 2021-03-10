@@ -521,8 +521,6 @@ unzip
 \
 uuid
 \
-valgrind
-\
 wget
 \
 x11

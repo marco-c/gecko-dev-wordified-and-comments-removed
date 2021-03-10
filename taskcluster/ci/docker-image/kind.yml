@@ -470,12 +470,6 @@ definition
 debian
 -
 build
-packages
-:
--
-deb8
--
-valgrind
 args
 :
 ARCH
@@ -525,6 +519,12 @@ debian8
 amd64
 -
 build
+packages
+:
+-
+deb8
+-
+valgrind
 lint
 :
 symbol
