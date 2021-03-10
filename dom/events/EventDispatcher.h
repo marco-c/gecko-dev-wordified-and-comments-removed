@@ -140,6 +140,7 @@ mItemFlags
 )
 {
 }
+MOZ_KNOWN_LIVE
 nsPresContext
 *
 const
@@ -548,12 +549,9 @@ aOther
 :
 EventChainVisitor
 (
-MOZ_KnownLive
-(
 aOther
 .
 mPresContext
-)
 aOther
 .
 mEvent

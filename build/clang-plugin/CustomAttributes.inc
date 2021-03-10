@@ -36,6 +36,10 @@ moz_is_smartptr_to_refcounted
 )
 ATTR
 (
+moz_known_live
+)
+ATTR
+(
 moz_may_call_after_must_return
 )
 ATTR
