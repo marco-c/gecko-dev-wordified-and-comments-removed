@@ -4677,7 +4677,12 @@ libc
 .
 open
 (
+six
+.
+ensure_binary
+(
 device
+)
 O_RDWR
 )
     
@@ -4723,9 +4728,14 @@ False
 "
     
 if
+six
+.
+ensure_text
+(
 vcap
 .
 driver
+)
 !
 =
 "
@@ -4848,9 +4858,14 @@ fd
     
 return
 True
+six
+.
+ensure_text
+(
 vcap
 .
 card
+)
 def
 findTestMediaDevices
 (
