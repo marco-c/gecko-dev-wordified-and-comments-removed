@@ -13258,10 +13258,10 @@ IsTop
 aSource
 &
 &
-StaticPrefs
+mozilla
 :
 :
-fission_bfcacheInParent
+BFCacheInParent
 (
 )
 ;
@@ -13280,10 +13280,10 @@ IDX_IsInBFCache
 {
 MOZ_RELEASE_ASSERT
 (
-StaticPrefs
+mozilla
 :
 :
-fission_bfcacheInParent
+BFCacheInParent
 (
 )
 )

@@ -1034,10 +1034,10 @@ aNewContext
 ;
 if
 (
-StaticPrefs
+mozilla
 :
 :
-fission_bfcacheInParent
+BFCacheInParent
 (
 )
 )

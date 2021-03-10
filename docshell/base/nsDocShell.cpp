@@ -6380,10 +6380,10 @@ aShow
 {
 MOZ_ASSERT
 (
-StaticPrefs
+mozilla
 :
 :
-fission_bfcacheInParent
+BFCacheInParent
 (
 )
 )

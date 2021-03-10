@@ -6349,10 +6349,10 @@ MOZ_RELEASE_ASSERT
 aFrameLoader
 |
 |
-StaticPrefs
+mozilla
 :
 :
-fission_bfcacheInParent
+BFCacheInParent
 (
 )
 )
