@@ -528,9 +528,6 @@ bool
 mIsWayland
 ;
 bool
-mIsWaylandDRM
-;
-bool
 mIsXWayland
 ;
 bool
