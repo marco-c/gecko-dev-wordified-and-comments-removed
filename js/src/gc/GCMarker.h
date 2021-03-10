@@ -1087,9 +1087,23 @@ typename
 T
 >
 void
+markAndTraverse
+(
+T
+*
+thing
+)
+;
+template
+<
+typename
+T
+>
+void
 traverse
 (
 T
+*
 thing
 )
 ;
@@ -1101,7 +1115,7 @@ typename
 T
 >
 void
-traverseEdge
+markAndTraverseEdge
 (
 S
 source
@@ -1118,7 +1132,7 @@ typename
 T
 >
 void
-traverseEdge
+markAndTraverseEdge
 (
 S
 source
@@ -1134,7 +1148,7 @@ typename
 S
 >
 void
-traverseObjectEdge
+markAndTraverseObjectEdge
 (
 S
 source
@@ -1143,7 +1157,7 @@ JSObject
 target
 )
 {
-traverseEdge
+markAndTraverseEdge
 (
 source
 target
@@ -1156,7 +1170,7 @@ typename
 S
 >
 void
-traverseStringEdge
+markAndTraverseStringEdge
 (
 S
 source
@@ -1165,7 +1179,7 @@ JSString
 target
 )
 {
-traverseEdge
+markAndTraverseEdge
 (
 source
 target
@@ -1616,7 +1630,7 @@ typename
 T
 >
 void
-markAndTraceChildren
+traceChildren
 (
 T
 *
@@ -1629,7 +1643,7 @@ typename
 T
 >
 void
-markAndPush
+scanChildren
 (
 T
 *
@@ -1642,7 +1656,7 @@ typename
 T
 >
 void
-markAndScan
+pushThing
 (
 T
 *
