@@ -2679,7 +2679,7 @@ source
 Vector
 <
 ScriptStencil
-0
+1
 js
 :
 :
@@ -2701,7 +2701,7 @@ scriptExtra
 Vector
 <
 TaggedScriptThingIndex
-0
+8
 js
 :
 :
@@ -2712,7 +2712,7 @@ gcThingData
 Vector
 <
 ScopeStencil
-0
+1
 js
 :
 :
@@ -2724,7 +2724,7 @@ Vector
 <
 BaseParserScopeData
 *
-0
+1
 js
 :
 :
