@@ -973,9 +973,6 @@ protected
 bool
 mHasOngoingUpdate
 ;
-bool
-mIsRemote
-;
 nsTArray
 <
 nsCOMPtr
