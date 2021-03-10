@@ -32,7 +32,7 @@ mozilla
 /
 dom
 /
-AutoEntryScript
+ScriptSettings
 .
 h
 "

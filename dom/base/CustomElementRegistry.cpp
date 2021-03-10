@@ -34,17 +34,6 @@ mozilla
 /
 dom
 /
-AutoEntryScript
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 CustomElementRegistryBinding
 .
 h

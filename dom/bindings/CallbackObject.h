@@ -114,17 +114,6 @@ mozilla
 /
 dom
 /
-AutoEntryScript
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 BindingCallContext
 .
 h
