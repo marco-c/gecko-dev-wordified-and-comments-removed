@@ -1128,7 +1128,7 @@ numWords
 ;
 extern
 bool
-GenerateProvisionalJitEntryStub
+GenerateProvisionalLazyJitEntryStub
 (
 MacroAssembler
 &

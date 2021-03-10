@@ -10507,15 +10507,15 @@ false
 }
 void
 *
-provisionalJitEntryStub
+provisionalLazyJitEntryStub
 =
-ProvisionalJitEntryStub
+ProvisionalLazyJitEntryStub
 (
 )
 ;
 MOZ_ASSERT
 (
-provisionalJitEntryStub
+provisionalLazyJitEntryStub
 )
 ;
 instance
@@ -10527,7 +10527,7 @@ code
 setJitEntryIfNull
 (
 funcIndex
-provisionalJitEntryStub
+provisionalLazyJitEntryStub
 )
 ;
 }

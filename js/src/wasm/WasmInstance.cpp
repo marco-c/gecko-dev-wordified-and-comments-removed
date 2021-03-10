@@ -9653,7 +9653,7 @@ true
 }
 static
 bool
-GetInterpEntry
+GetInterpEntryAndEnsureStubs
 (
 JSContext
 *
@@ -9751,15 +9751,15 @@ JSFunction
 ;
 void
 *
-provisionalJitEntryStub
+provisionalLazyJitEntryStub
 =
-ProvisionalJitEntryStub
+ProvisionalLazyJitEntryStub
 (
 )
 ;
 MOZ_ASSERT
 (
-provisionalJitEntryStub
+provisionalLazyJitEntryStub
 )
 ;
 MOZ_ASSERT
@@ -9781,7 +9781,7 @@ wasmJitEntry
 )
 !
 =
-provisionalJitEntryStub
+provisionalLazyJitEntryStub
 )
 ;
 }
@@ -10594,7 +10594,7 @@ funcType
 if
 (
 !
-GetInterpEntry
+GetInterpEntryAndEnsureStubs
 (
 cx
 *
