@@ -116,7 +116,9 @@ async
 function
 arguments_are_validated
 (
-reportRecipe
+{
+reportRecipeStub
+}
 )
 {
 const
@@ -295,7 +297,7 @@ Assert
 .
 deepEqual
 (
-reportRecipe
+reportRecipeStub
 .
 args
 [

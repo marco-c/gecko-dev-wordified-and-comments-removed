@@ -131,6 +131,8 @@ withTestMock
 (
 )
 ensureAddonCleanup
+(
+)
 withMockNormandyApi
 (
 )
@@ -148,9 +150,11 @@ async
 function
 simple_recipe_enrollment
 (
-mockApi
+{
+mockNormandyApi
 setExperimentActiveStub
 sendEventSpy
+}
 )
 {
 const
@@ -176,7 +180,7 @@ extensionApiId
 }
 }
 ;
-mockApi
+mockNormandyApi
 .
 extensionDetails
 =
@@ -475,6 +479,8 @@ withTestMock
 (
 )
 ensureAddonCleanup
+(
+)
 withMockNormandyApi
 (
 )
@@ -485,8 +491,10 @@ async
 function
 update_rollout
 (
-mockApi
+{
+mockNormandyApi
 sendEventSpy
+}
 )
 {
 const
@@ -512,7 +520,7 @@ extensionApiId
 }
 }
 ;
-mockApi
+mockNormandyApi
 .
 extensionDetails
 =
@@ -958,6 +966,8 @@ withTestMock
 (
 )
 ensureAddonCleanup
+(
+)
 withMockNormandyApi
 (
 )
@@ -968,8 +978,10 @@ async
 function
 rerun_recipe
 (
-mockApi
+{
+mockNormandyApi
 sendEventSpy
+}
 )
 {
 const
@@ -995,7 +1007,7 @@ extensionApiId
 }
 }
 ;
-mockApi
+mockNormandyApi
 .
 extensionDetails
 =
@@ -1360,6 +1372,8 @@ withTestMock
 (
 )
 ensureAddonCleanup
+(
+)
 withMockNormandyApi
 (
 )
@@ -1370,8 +1384,10 @@ async
 function
 conflicting_rollout
 (
-mockApi
+{
+mockNormandyApi
 sendEventSpy
+}
 )
 {
 const
@@ -1397,7 +1413,7 @@ extensionApiId
 }
 }
 ;
-mockApi
+mockNormandyApi
 .
 extensionDetails
 =
@@ -1820,6 +1836,8 @@ withTestMock
 (
 )
 ensureAddonCleanup
+(
+)
 withMockNormandyApi
 (
 )
@@ -1830,8 +1848,10 @@ async
 function
 enroll_failed_addon_id_changed
 (
-mockApi
+{
+mockNormandyApi
 sendEventSpy
+}
 )
 {
 const
@@ -1857,7 +1877,7 @@ extensionApiId
 }
 }
 ;
-mockApi
+mockNormandyApi
 .
 extensionDetails
 =
@@ -2313,6 +2333,8 @@ withTestMock
 (
 )
 ensureAddonCleanup
+(
+)
 withMockNormandyApi
 (
 )
@@ -2323,8 +2345,10 @@ async
 function
 enroll_failed_upgrade_required
 (
-mockApi
+{
+mockNormandyApi
 sendEventSpy
+}
 )
 {
 const
@@ -2350,7 +2374,7 @@ extensionApiId
 }
 }
 ;
-mockApi
+mockNormandyApi
 .
 extensionDetails
 =

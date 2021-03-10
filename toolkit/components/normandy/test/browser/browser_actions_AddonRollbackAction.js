@@ -155,6 +155,8 @@ withTestMock
 (
 )
 ensureAddonCleanup
+(
+)
 withMockNormandyApi
 (
 )
@@ -172,9 +174,11 @@ async
 function
 simple_recipe_unenrollment
 (
-mockApi
+{
+mockNormandyApi
 setExperimentInactiveStub
 sendEventSpy
+}
 )
 {
 const
@@ -200,7 +204,7 @@ extensionApiId
 }
 }
 ;
-mockApi
+mockNormandyApi
 .
 extensionDetails
 =
@@ -558,6 +562,8 @@ withTestMock
 (
 )
 ensureAddonCleanup
+(
+)
 withMockNormandyApi
 (
 )
@@ -568,8 +574,10 @@ async
 function
 addon_already_uninstalled
 (
-mockApi
+{
+mockNormandyApi
 sendEventSpy
+}
 )
 {
 const
@@ -595,7 +603,7 @@ extensionApiId
 }
 }
 ;
-mockApi
+mockNormandyApi
 .
 extensionDetails
 =
@@ -924,6 +932,8 @@ withTestMock
 (
 )
 ensureAddonCleanup
+(
+)
 withMockNormandyApi
 (
 )
@@ -934,8 +944,9 @@ async
 function
 already_rolled_back
 (
-mockApi
+{
 sendEventSpy
+}
 )
 {
 const

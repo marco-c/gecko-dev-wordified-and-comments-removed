@@ -29,7 +29,9 @@ async
 function
 testApplyMigrations
 (
+{
 mockPreferences
+}
 )
 {
 const
@@ -95,7 +97,9 @@ async
 function
 testPrefMigration
 (
+{
 mockPreferences
+}
 )
 {
 const
@@ -281,7 +285,9 @@ async
 function
 testMigration0
 (
+{
 mockPreferences
+}
 )
 {
 const

@@ -29,12 +29,7 @@ testFunc
 {
 return
 async
-(
-.
-.
-.
 args
-)
 =
 >
 BrowserTestUtils
@@ -54,11 +49,13 @@ browser
 >
 testFunc
 (
+{
 .
 .
 .
 args
 browser
+}
 )
 )
 ;
@@ -87,7 +84,9 @@ async
 function
 testCheckedOnLoad
 (
+{
 browser
+}
 )
 {
 const
@@ -151,7 +150,9 @@ async
 function
 testUncheckedOnLoad
 (
+{
 browser
+}
 )
 {
 const
@@ -216,7 +217,9 @@ async
 function
 testCheckboxes
 (
+{
 browser
+}
 )
 {
 const
@@ -323,7 +326,9 @@ async
 function
 testPrefWatchers
 (
+{
 browser
+}
 )
 {
 const
@@ -417,7 +422,9 @@ async
 function
 testViewStudiesLink
 (
+{
 browser
+}
 )
 {
 browser
