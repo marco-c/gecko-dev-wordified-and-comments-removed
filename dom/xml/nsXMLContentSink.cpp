@@ -666,6 +666,10 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mDocElement
 )
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mLastTextNode
+)
 for
 (
 uint32_t
