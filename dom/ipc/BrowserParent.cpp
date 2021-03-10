@@ -13932,6 +13932,14 @@ IPC_OK
 )
 ;
 }
+browsingContext
+-
+>
+SetCurrentRemoteURI
+(
+aLocation
+)
+;
 nsCOMPtr
 <
 nsIBrowser
