@@ -381,9 +381,6 @@ struct
 CompilationStencil
 ;
 struct
-BaseCompilationStencil
-;
-struct
 CompilationGCOutput
 ;
 }
@@ -5653,7 +5650,7 @@ js
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 &
 stencil
 js
@@ -7787,7 +7784,7 @@ js
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 &
 stencil
 js
@@ -7925,7 +7922,7 @@ js
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 &
 stencil
 js

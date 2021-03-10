@@ -101,7 +101,7 @@ struct
 CompilationAtomCache
 ;
 struct
-BaseCompilationStencil
+CompilationStencil
 ;
 class
 StencilXDR
@@ -1418,7 +1418,7 @@ const
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -1434,7 +1434,7 @@ const
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -2933,7 +2933,7 @@ const
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -2949,7 +2949,7 @@ const
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
