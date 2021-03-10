@@ -1652,12 +1652,6 @@ CacheTextureId
 )
 ;
 }
-pub
-type
-LayerIndex
-=
-usize
-;
 #
 [
 derive

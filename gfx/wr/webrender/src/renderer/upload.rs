@@ -2113,7 +2113,6 @@ src_offset
 y
 as
 _
-0
 dest_texture
 copy
 .
@@ -2129,7 +2128,6 @@ dest_offset
 y
 as
 _
-0
 copy
 .
 size
@@ -2144,7 +2142,6 @@ size
 height
 as
 _
-1
 )
 ;
 }
