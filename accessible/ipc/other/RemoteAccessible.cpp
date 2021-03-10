@@ -4499,7 +4499,7 @@ mOuterDoc
 {
 MOZ_ASSERT
 (
-ChildrenCount
+ChildCount
 (
 )
 =
@@ -4708,7 +4708,7 @@ MOZ_ASSERT
 target
 -
 >
-ChildrenCount
+ChildCount
 (
 )
 =

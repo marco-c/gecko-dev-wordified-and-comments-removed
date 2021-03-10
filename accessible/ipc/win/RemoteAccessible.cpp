@@ -3967,7 +3967,7 @@ if
 proxy
 -
 >
-ChildrenCount
+ChildCount
 (
 )
 =
