@@ -267,7 +267,7 @@ in
 -
 tree
 :
-debian8
+debian10
 -
 amd64
 -
@@ -476,7 +476,7 @@ in
 -
 tree
 :
-debian8
+debian10
 -
 amd64
 -
@@ -697,7 +697,7 @@ in
 -
 tree
 :
-debian8
+debian10
 -
 amd64
 -
@@ -1159,7 +1159,7 @@ in
 -
 tree
 :
-debian8
+debian10
 -
 amd64
 -

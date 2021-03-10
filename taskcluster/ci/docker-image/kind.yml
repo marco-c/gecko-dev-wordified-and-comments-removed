@@ -733,7 +733,7 @@ gdb
 )
 parent
 :
-debian8
+debian10
 -
 amd64
 -
