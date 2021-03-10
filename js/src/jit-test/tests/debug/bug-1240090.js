@@ -11,6 +11,9 @@ newGlobal
 newCompartment
 :
 true
+disableLazyParsing
+:
+true
 }
 )
 ;
@@ -57,11 +60,6 @@ one
 {
 }
 "
-{
-forceFullParse
-:
-true
-}
 )
 ;
 g
@@ -81,9 +79,6 @@ two2
 {
 }
 {
-forceFullParse
-:
-true
 }
 )
 ;
@@ -110,9 +105,6 @@ three3
 {
 }
 {
-forceFullParse
-:
-true
 }
 )
 ;
