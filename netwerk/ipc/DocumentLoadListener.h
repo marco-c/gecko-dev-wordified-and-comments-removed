@@ -193,7 +193,7 @@ class
 CanonicalBrowsingContext
 ;
 struct
-RemotenessChangeState
+RemotenessChangeOptions
 ;
 }
 namespace
@@ -1097,9 +1097,9 @@ const
 dom
 :
 :
-RemotenessChangeState
+RemotenessChangeOptions
 &
-aState
+aOptions
 )
 ;
 using

@@ -6004,8 +6004,8 @@ SetActiveSessionHistoryEntry
 nullptr
 )
 ;
-RemotenessChangeState
-state
+RemotenessChangeOptions
+options
 ;
 canonicalBC
 -
@@ -6018,7 +6018,7 @@ loadingBC
 Canonical
 (
 )
-state
+options
 )
 ;
 frameLoaderOwner

@@ -20279,10 +20279,10 @@ IPC_OK
 )
 ;
 }
-RemotenessChangeState
-state
+RemotenessChangeOptions
+options
 ;
-state
+options
 .
 mRemoteType
 =
@@ -20298,7 +20298,7 @@ target
 >
 ChangeRemoteness
 (
-state
+options
 0
 )
 -
