@@ -265,14 +265,16 @@ function
 )
 {
 let
-homeButton
+stopReloadButton
 =
 document
 .
 getElementById
 (
 "
-home
+stop
+-
+reload
 -
 button
 "
@@ -306,7 +308,7 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
-homeButton
+stopReloadButton
 {
 type
 :
@@ -355,7 +357,7 @@ all
 [
 promiseWidgetAnimationOut
 (
-homeButton
+stopReloadButton
 )
 promiseOverflowAnimationEnd
 (

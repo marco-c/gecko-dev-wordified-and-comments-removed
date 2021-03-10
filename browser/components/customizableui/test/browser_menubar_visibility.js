@@ -118,7 +118,9 @@ document
 getElementById
 (
 "
-home
+stop
+-
+reload
 -
 button
 "

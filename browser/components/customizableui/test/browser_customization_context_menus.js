@@ -88,14 +88,16 @@ contextMenu
 )
 ;
 let
-homeButton
+stopReloadButton
 =
 document
 .
 getElementById
 (
 "
-home
+stop
+-
+reload
 -
 button
 "
@@ -105,7 +107,7 @@ EventUtils
 .
 synthesizeMouse
 (
-homeButton
+stopReloadButton
 2
 2
 {
@@ -1601,7 +1603,7 @@ contextMenu
 )
 ;
 let
-homeButton
+stopReloadButton
 =
 document
 .
@@ -1610,7 +1612,9 @@ getElementById
 "
 wrapper
 -
-home
+stop
+-
+reload
 -
 button
 "
@@ -1620,7 +1624,7 @@ EventUtils
 .
 synthesizeMouse
 (
-homeButton
+stopReloadButton
 2
 2
 {

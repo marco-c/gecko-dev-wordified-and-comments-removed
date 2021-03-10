@@ -130,7 +130,9 @@ CustomizableUI
 removeWidgetFromArea
 (
 "
-home
+stop
+-
+reload
 -
 button
 "
