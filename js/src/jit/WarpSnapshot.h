@@ -89,7 +89,13 @@ class
 GlobalLexicalEnvironmentObject
 ;
 class
+LexicalEnvironmentObject
+;
+class
 ModuleEnvironmentObject
+;
+class
+NamedLambdaObject
 ;
 namespace
 jit
@@ -1922,7 +1928,7 @@ callObjectTemplate
 ;
 WarpGCPtr
 <
-LexicalEnvironmentObject
+NamedLambdaObject
 *
 >
 namedLambdaTemplate
@@ -1934,7 +1940,7 @@ FunctionEnvironment
 CallObject
 *
 callObjectTemplate
-LexicalEnvironmentObject
+NamedLambdaObject
 *
 namedLambdaTemplate
 )

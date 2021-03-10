@@ -1880,7 +1880,7 @@ callee
 MDefinition
 *
 env
-LexicalEnvironmentObject
+NamedLambdaObject
 *
 templateObj
 )
@@ -2448,7 +2448,7 @@ envDef
 ;
 if
 (
-LexicalEnvironmentObject
+NamedLambdaObject
 *
 obj
 =

@@ -1104,7 +1104,7 @@ callee
 MDefinition
 *
 env
-LexicalEnvironmentObject
+NamedLambdaObject
 *
 templateObj
 )
