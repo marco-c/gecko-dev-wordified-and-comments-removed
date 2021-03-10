@@ -95,10 +95,7 @@ addEventListener
 "
 DOMContentLoaded
 "
-contentLoadHandlerCallback
-(
 _pdfPaintHandler
-)
 true
 )
 ;
