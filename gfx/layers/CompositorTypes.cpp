@@ -186,14 +186,6 @@ AppendFlag
 TextureFlags
 :
 :
-DEALLOCATE_MAIN_THREAD
-)
-;
-AppendFlag
-(
-TextureFlags
-:
-:
 IMMUTABLE
 )
 ;

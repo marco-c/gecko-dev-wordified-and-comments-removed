@@ -3565,7 +3565,7 @@ flags
 TextureFlags
 :
 :
-DEALLOCATE_MAIN_THREAD
+NO_FLAGS
 ;
 if
 (
