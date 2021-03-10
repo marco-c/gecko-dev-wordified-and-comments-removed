@@ -599,10 +599,7 @@ None
 =
 >
 {
-ClipChainId
-:
-:
-NONE
+parent_clip_chain_id
 }
 }
 ;
