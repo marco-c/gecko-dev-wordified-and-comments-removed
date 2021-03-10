@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsTHashMap
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -309,9 +316,9 @@ PerformanceInfo
 aMetrics
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
-nsIDHashKey
+nsID
 UniquePtr
 <
 AggregatedResults
