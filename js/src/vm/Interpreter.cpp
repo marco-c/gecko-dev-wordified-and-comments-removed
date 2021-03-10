@@ -20133,7 +20133,7 @@ CASE
 InitGLexical
 )
 {
-LexicalEnvironmentObject
+ExtensibleLexicalEnvironmentObject
 *
 lexicalEnv
 ;

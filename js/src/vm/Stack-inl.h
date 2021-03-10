@@ -225,7 +225,7 @@ global
 ;
 }
 inline
-LexicalEnvironmentObject
+ExtensibleLexicalEnvironmentObject
 &
 InterpreterFrame
 :
