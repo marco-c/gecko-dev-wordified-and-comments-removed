@@ -7271,6 +7271,12 @@ case
 StyleAppearance
 :
 :
+Tooltip
+:
+case
+StyleAppearance
+:
+:
 MozWindowButtonBox
 :
 case
