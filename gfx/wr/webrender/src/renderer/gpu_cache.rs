@@ -531,7 +531,6 @@ TextureFilter
 :
 Nearest
 rt_info
-1
 )
 ;
 if

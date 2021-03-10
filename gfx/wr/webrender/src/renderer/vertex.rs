@@ -2620,7 +2620,6 @@ TextureFilter
 :
 Nearest
 None
-1
 )
 ;
 self

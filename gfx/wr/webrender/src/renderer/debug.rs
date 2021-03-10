@@ -575,7 +575,6 @@ TextureFilter
 :
 Linear
 None
-1
 )
 ;
 device
