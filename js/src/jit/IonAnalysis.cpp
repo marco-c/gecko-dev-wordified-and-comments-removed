@@ -15064,12 +15064,6 @@ case
 MIRType
 :
 :
-ObjectGroup
-:
-case
-MIRType
-:
-:
 Int64
 :
 case
