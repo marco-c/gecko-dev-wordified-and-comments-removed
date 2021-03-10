@@ -614,6 +614,14 @@ virtual_surface_size
 1024
 *
 1024
+.
+.
+Default
+:
+:
+default
+(
+)
 }
 }
 fn
