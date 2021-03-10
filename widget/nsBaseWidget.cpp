@@ -793,9 +793,9 @@ sObserverId
 =
 0
 ;
-nsDataHashtable
+nsTHashMap
 <
-nsUint64HashKey
+uint64_t
 nsCOMPtr
 <
 nsIObserver

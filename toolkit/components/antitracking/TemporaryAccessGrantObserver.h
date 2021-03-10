@@ -311,8 +311,10 @@ default
 ;
 private
 :
-typedef
-nsDataHashtable
+using
+ObserversTable
+=
+nsTHashMap
 <
 TemporaryAccessGrantCacheKey
 nsCOMPtr
@@ -320,7 +322,6 @@ nsCOMPtr
 nsITimer
 >
 >
-ObserversTable
 ;
 static
 UniquePtr
