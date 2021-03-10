@@ -801,6 +801,10 @@ Firefox
 On
 MacOS
 >
+.
+.
+_write_a_patch
+:
 To
 write
 a

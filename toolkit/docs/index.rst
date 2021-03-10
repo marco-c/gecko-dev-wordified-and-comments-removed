@@ -165,3 +165,9 @@ extensions
 webextensions
 /
 index
+/
+extensions
+/
+spellcheck
+/
+index
