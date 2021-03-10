@@ -30376,10 +30376,6 @@ XDRStencilDecoder
 decoder
 (
 cx
-&
-input
-.
-options
 buffer
 cursorIndex
 )
