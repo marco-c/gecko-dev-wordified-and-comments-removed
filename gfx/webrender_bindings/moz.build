@@ -53,6 +53,11 @@ RenderCompositorOGL
 h
 "
 "
+RenderCompositorOGLSWGL
+.
+h
+"
+"
 RenderCompositorSWGL
 .
 h
@@ -149,6 +154,11 @@ cpp
 "
 "
 RenderCompositorOGL
+.
+cpp
+"
+"
+RenderCompositorOGLSWGL
 .
 cpp
 "
