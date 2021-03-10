@@ -79,14 +79,6 @@ mozilla
 .
 geckoview
 .
-MediaElement
-import
-org
-.
-mozilla
-.
-geckoview
-.
 MediaSession
 import
 org
@@ -225,6 +217,12 @@ GeckoSession
 SelectionActionDelegate
 {
 }
+Suppress
+(
+"
+DEPRECATION
+"
+)
 interface
 MediaDelegate
 :
