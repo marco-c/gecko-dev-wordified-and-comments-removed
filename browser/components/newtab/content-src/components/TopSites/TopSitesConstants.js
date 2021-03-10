@@ -71,12 +71,6 @@ TOP_SITES_SPONSORED_POSITION_CONTEXT_MENU_OPTIONS
 =
 [
 "
-PinTopSite
-"
-"
-Separator
-"
-"
 OpenInNewWindow
 "
 "
