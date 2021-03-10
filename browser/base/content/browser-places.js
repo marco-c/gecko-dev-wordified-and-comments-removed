@@ -7637,6 +7637,8 @@ selectiontype
 "
 "
 none
+|
+single
 "
 )
 ;

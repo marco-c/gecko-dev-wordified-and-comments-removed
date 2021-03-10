@@ -408,7 +408,7 @@ document
 getElementById
 (
 "
-placesContext_delete
+placesContext_deleteBookmark
 "
 )
 ;

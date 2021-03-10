@@ -519,7 +519,7 @@ document
 getElementById
 (
 "
-placesContext_show
+placesContext_show_bookmark
 :
 info
 "
