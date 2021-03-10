@@ -3860,7 +3860,7 @@ add_task
 (
 async
 function
-test_messaging_system_about_studies
+test_nimbus_about_studies
 (
 )
 {
@@ -3942,9 +3942,7 @@ querySelector
 (
 "
 .
-messaging
--
-system
+nimbus
 .
 remove
 -
@@ -4064,9 +4062,7 @@ querySelector
 (
 "
 .
-messaging
--
-system
+nimbus
 .
 disabled
 "

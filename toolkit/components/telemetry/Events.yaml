@@ -4099,6 +4099,9 @@ preference_rollout
 "
 addon_rollout
 "
+"
+nimbus_experiment
+"
 ]
 description
 :
@@ -4123,6 +4126,8 @@ experimentType
 >
 For
 preference_study
+and
+nimbus_experiment
 recipes
 the
 type
@@ -4265,6 +4270,9 @@ preference_study
 "
 "
 addon_rollout
+"
+"
+nimbus_experiment
 "
 ]
 description
@@ -4426,6 +4434,9 @@ preference_rollout
 "
 "
 addon_rollout
+"
+"
+nimbus_experiment
 "
 ]
 description
@@ -4745,6 +4756,9 @@ preference_rollback
 "
 addon_rollback
 "
+"
+nimbus_experiment
+"
 ]
 description
 :
@@ -4977,6 +4991,9 @@ preference_study
 "
 addon_rollback
 "
+"
+nimbus_experiment
+"
 ]
 extra_keys
 :
@@ -5202,7 +5219,7 @@ objects
 :
 [
 "
-feature_study
+nimbus_experiment
 "
 ]
 methods

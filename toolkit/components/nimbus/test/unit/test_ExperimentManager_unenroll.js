@@ -366,7 +366,7 @@ args
 unenroll
 "
 "
-preference_study
+nimbus_experiment
 "
 experiment
 .
@@ -609,7 +609,7 @@ args
 unenroll
 "
 "
-preference_study
+nimbus_experiment
 "
 "
 foo
