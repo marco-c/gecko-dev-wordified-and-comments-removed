@@ -108,14 +108,6 @@ port
 "
 marionette
 .
-enabled
-"
-:
-True
-    
-"
-marionette
-.
 log
 .
 level
