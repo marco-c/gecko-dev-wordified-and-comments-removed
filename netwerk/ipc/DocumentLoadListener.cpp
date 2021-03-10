@@ -2427,6 +2427,10 @@ aChannelId
 )
 ;
 }
+mDocumentChannelId
+=
+aChannelId
+;
 RefPtr
 <
 nsHttpChannel
@@ -4449,6 +4453,11 @@ DocumentLoadListener
 aListener
 uint64_t
 aLoadIdent
+Maybe
+<
+uint64_t
+>
+aChannelId
 )
 -
 >
@@ -4522,6 +4531,13 @@ return
 nullptr
 ;
 }
+loadListener
+-
+>
+mDocumentChannelId
+=
+aChannelId
+;
 MOZ_DIAGNOSTIC_ASSERT
 (
 loadListener
