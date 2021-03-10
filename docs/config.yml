@@ -69,6 +69,8 @@ modules
 /
 libpref
 -
+networking
+-
 remote
 -
 services

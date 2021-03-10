@@ -123,3 +123,14 @@ TEST_DIRS
 test
 "
 ]
+SPHINX_TREES
+[
+"
+/
+networking
+"
+]
+=
+"
+docs
+"
