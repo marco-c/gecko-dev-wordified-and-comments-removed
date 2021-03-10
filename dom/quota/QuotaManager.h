@@ -1638,6 +1638,10 @@ aPersistenceType
 const
 nsACString
 &
+aSuffix
+const
+nsACString
+&
 aGroup
 )
 ;
