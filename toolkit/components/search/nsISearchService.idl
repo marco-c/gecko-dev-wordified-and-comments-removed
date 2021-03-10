@@ -750,9 +750,10 @@ engine
 .
 *
 When
-non
--
-null
+not
+an
+empty
+string
 this
 is
 a
