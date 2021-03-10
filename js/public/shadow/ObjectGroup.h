@@ -31,10 +31,9 @@ shadow
 struct
 ObjectGroup
 {
-const
-JSClass
+int
 *
-clasp
+unused
 ;
 JSObject
 *

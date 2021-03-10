@@ -2639,8 +2639,6 @@ friend
 struct
 StackShape
 ;
-private
-:
 const
 JSClass
 *
@@ -2655,6 +2653,8 @@ headerPtr
 )
 ;
 }
+private
+:
 uint64_t
 padding_
 =
@@ -2748,6 +2748,19 @@ JSTracer
 trc
 )
 ;
+static
+constexpr
+size_t
+offsetOfClasp
+(
+)
+{
+return
+offsetOfHeaderPtr
+(
+)
+;
+}
 private
 :
 static
@@ -2772,7 +2785,7 @@ shadow
 :
 :
 BaseShape
-clasp_
+clasp
 )
 )
 ;
