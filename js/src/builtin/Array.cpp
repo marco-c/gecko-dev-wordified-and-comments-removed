@@ -19793,7 +19793,6 @@ insertInitialShape
 (
 cx
 shape
-proto
 )
 ;
 }

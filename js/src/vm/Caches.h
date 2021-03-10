@@ -537,9 +537,6 @@ invalidateEntriesForShape
 Shape
 *
 shape
-JSObject
-*
-proto
 )
 ;
 private

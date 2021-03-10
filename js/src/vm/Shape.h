@@ -6518,8 +6518,6 @@ JSContext
 cx
 HandleShape
 shape
-HandleObject
-proto
 )
 ;
 template
