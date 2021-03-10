@@ -7763,7 +7763,7 @@ depth_id
 gl
 :
 :
-DEPTH_COMPONENT16
+DEPTH_COMPONENT
 valid_rect
 .
 size
