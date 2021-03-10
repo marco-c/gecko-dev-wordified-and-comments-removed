@@ -188,3 +188,16 @@ xpcshell
 ini
 "
 ]
+SPHINX_TREES
+[
+"
+/
+services
+/
+settings
+"
+]
+=
+"
+docs
+"

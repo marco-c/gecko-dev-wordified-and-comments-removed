@@ -34,7 +34,7 @@ toctree
 maxdepth
 :
 2
-common
+settings
 /
 index
 sync
