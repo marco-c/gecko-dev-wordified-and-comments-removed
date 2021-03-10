@@ -465,16 +465,6 @@ definition
 toolchain
 -
 build
-packages
-:
--
-deb8
--
-cmake
--
-deb8
--
-ninja
 deb10
 -
 toolchain
