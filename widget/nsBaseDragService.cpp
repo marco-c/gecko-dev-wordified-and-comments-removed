@@ -3168,6 +3168,8 @@ do_QueryInterface
 dragNode
 )
 ;
+if
+(
 nsIFrame
 *
 frame
@@ -3178,10 +3180,6 @@ content
 GetPrimaryFrame
 (
 )
-;
-if
-(
-frame
 )
 {
 presLayoutRect
@@ -3189,7 +3187,7 @@ presLayoutRect
 frame
 -
 >
-GetRect
+GetBoundingClientRect
 (
 )
 ;

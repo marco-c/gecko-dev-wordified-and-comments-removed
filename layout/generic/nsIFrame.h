@@ -3913,6 +3913,11 @@ GetNormalRect
 )
 const
 ;
+nsRect
+GetBoundingClientRect
+(
+)
+;
 inline
 nsPoint
 GetNormalPosition

@@ -23544,9 +23544,12 @@ mRootOffset
 ancestorFrame
 -
 >
-GetOffsetTo
+GetBoundingClientRect
 (
-rootFrame
+)
+.
+TopLeft
+(
 )
 ;
 rangeRect
