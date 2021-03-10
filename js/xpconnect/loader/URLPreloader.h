@@ -708,6 +708,7 @@ char
 TypeString
 (
 )
+const
 {
 switch
 (
