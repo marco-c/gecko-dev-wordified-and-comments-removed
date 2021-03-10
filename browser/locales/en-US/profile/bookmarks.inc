@@ -178,7 +178,7 @@ Firefox
 LOCALIZATION
 NOTE
 (
-firefox_help
+firefox_get_help
 )
 :
 #
@@ -205,10 +205,9 @@ help
 /
 #
 define
-firefox_help
+firefox_get_help
+Get
 Help
-and
-Tutorials
 #
 LOCALIZATION
 NOTE

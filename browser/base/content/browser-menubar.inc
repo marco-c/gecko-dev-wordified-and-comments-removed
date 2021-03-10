@@ -1223,7 +1223,9 @@ edit
 -
 find
 -
-on
+in
+-
+page
 "
 /
 >
@@ -1368,7 +1370,7 @@ id
 "
 menu
 -
-preferences
+settings
 "
 /
 >
@@ -1494,7 +1496,7 @@ view
 -
 customize
 -
-toolbar
+toolbar2
 "
 /
 >
@@ -3243,9 +3245,9 @@ menu
 -
 bookmark
 -
-this
+current
 -
-page
+tab
 "
 /
 >
@@ -3733,7 +3735,7 @@ menu
 -
 tools
 -
-addons
+extensions
 "
 /
 >
@@ -3818,7 +3820,7 @@ fxa
 -
 sign
 -
-in
+in2
 "
 /
 >
@@ -3926,7 +3928,7 @@ fxa
 -
 sign
 -
-in
+in2
 "
 /
 >
@@ -4193,7 +4195,7 @@ id
 "
 menu
 -
-preferences
+settings
 "
 /
 >
@@ -4277,7 +4279,7 @@ id
 "
 menu
 -
-preferences
+settings
 "
 key
 =

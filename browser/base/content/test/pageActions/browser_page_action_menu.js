@@ -478,8 +478,8 @@ bookmarkButton
 label
 "
 Bookmark
-This
-Page
+Current
+Tab
 "
 )
 ;
@@ -805,8 +805,8 @@ bookmarkButton
 label
 "
 Bookmark
-This
-Page
+Current
+Tab
 "
 )
 ;
