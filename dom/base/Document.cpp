@@ -51281,10 +51281,10 @@ false
 if
 (
 !
-StaticPrefs
+mozilla
 :
 :
-fission_bfcacheInParent
+BFCacheInParent
 (
 )
 )

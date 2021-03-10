@@ -80,6 +80,13 @@ h
 #
 include
 "
+nsIXULRuntime
+.
+h
+"
+#
+include
+"
 nsIWritablePropertyBag
 .
 h
@@ -768,10 +775,10 @@ if
 disconnectChildListeners
 &
 &
-StaticPrefs
+mozilla
 :
 :
-fission_bfcacheInParent
+BFCacheInParent
 (
 )
 )
