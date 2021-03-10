@@ -130,17 +130,6 @@ gc
 :
 Cell
 *
-group
-(
-)
-const
-;
-inline
-gc
-:
-:
-Cell
-*
 shape
 (
 )

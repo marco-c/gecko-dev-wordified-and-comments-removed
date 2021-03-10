@@ -88,8 +88,6 @@ InitialHeap
 heap
 HandleShape
 shape
-HandleObjectGroup
-group
 AutoSetNewObjectMetadata
 &
 )
@@ -109,9 +107,6 @@ getObjectClass
 MOZ_ASSERT
 (
 shape
-&
-&
-group
 )
 ;
 MOZ_ASSERT
@@ -225,7 +220,7 @@ aobj
 >
 initGroup
 (
-group
+nullptr
 )
 ;
 aobj
@@ -359,8 +354,6 @@ InitialHeap
 heap
 HandleShape
 shape
-HandleObjectGroup
-group
 uint32_t
 length
 AutoSetNewObjectMetadata
@@ -378,7 +371,6 @@ cx
 kind
 heap
 shape
-group
 metadata
 )
 ;

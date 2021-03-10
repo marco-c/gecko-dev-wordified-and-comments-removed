@@ -10354,18 +10354,6 @@ lastProperty
 )
 )
 ;
-RootedObjectGroup
-group
-(
-cx
-templateObj
--
->
-group
-(
-)
-)
-;
 JSObject
 *
 resultObject
@@ -10374,7 +10362,6 @@ NewCallObject
 (
 cx
 shape
-group
 )
 ;
 if

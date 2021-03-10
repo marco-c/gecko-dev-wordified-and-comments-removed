@@ -1125,8 +1125,6 @@ JSContext
 cx
 HandleShape
 shape
-HandleObjectGroup
-group
 )
 ;
 JSObject
