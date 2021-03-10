@@ -273,17 +273,6 @@ stream
 int
 (
 *
-stream_reset_default_device
-)
-(
-cubeb_stream
-*
-stream
-)
-;
-int
-(
-*
 stream_get_position
 )
 (
@@ -593,7 +582,6 @@ cubeb_mock_stream_init
 cubeb_mock_stream_destroy
 cubeb_mock_stream_start
 cubeb_mock_stream_stop
-NULL
 NULL
 NULL
 NULL
