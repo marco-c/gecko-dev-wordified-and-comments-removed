@@ -486,7 +486,7 @@ entry
 group
 -
 >
-proto
+protoDeprecated
 (
 )
 =

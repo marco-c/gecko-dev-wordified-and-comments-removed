@@ -4212,7 +4212,7 @@ realm
 group
 -
 >
-proto
+protoDeprecated
 (
 )
 nfixed
@@ -10449,7 +10449,15 @@ newGroup
 )
 ;
 return
-true
+JSObject
+:
+:
+setProtoUnchecked
+(
+cx
+obj
+proto
+)
 ;
 }
 bool
