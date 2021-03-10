@@ -6,6 +6,8 @@ from
 mod_pywebsocket
 import
 stream
+import
+six
 def
 web_socket_do_extra_handshake
 (
@@ -41,6 +43,15 @@ message
 in
 messages_to_send
 :
+        
+message
+=
+six
+.
+b
+(
+message
+)
         
 header
 =
