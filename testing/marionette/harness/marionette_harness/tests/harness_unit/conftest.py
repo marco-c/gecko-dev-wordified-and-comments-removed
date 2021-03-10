@@ -538,8 +538,11 @@ MagicMock
 (
 spec
 =
+dir
+(
 Marionette
 (
+)
 )
 )
     
