@@ -18869,17 +18869,6 @@ arrayProto
 |
 |
 !
-JSObject
-:
-:
-setDelegate
-(
-cx
-arrayProto
-)
-|
-|
-!
 AddLengthProperty
 (
 cx
