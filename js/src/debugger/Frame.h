@@ -728,8 +728,10 @@ JSContext
 cx
 HandleDebuggerFrame
 frame
+UniquePtr
+<
 OnStepHandler
-*
+>
 handler
 )
 ;
@@ -861,12 +863,15 @@ endif
 nodiscard
 ]
 ]
+static
 bool
 setGeneratorInfo
 (
 JSContext
 *
 cx
+HandleDebuggerFrame
+frame
 Handle
 <
 AbstractGeneratorObject
@@ -1016,8 +1021,7 @@ incrementStepperCounter
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 )
 ;
