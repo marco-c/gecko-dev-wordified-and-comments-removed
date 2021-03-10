@@ -1668,7 +1668,7 @@ nullptr
 status
 )
 ;
-mDestroyHandlerCalled
+mDidFirePopupHidden
 =
 true
 ;
@@ -1694,7 +1694,11 @@ gConstructingMenu
 =
 true
 ;
-mDestroyHandlerCalled
+mDidFirePopupHiding
+=
+false
+;
+mDidFirePopupHidden
 =
 false
 ;
@@ -2327,7 +2331,10 @@ OnClose
 {
 if
 (
-mDestroyHandlerCalled
+mDidFirePopupHiding
+|
+|
+mDidFirePopupHidden
 )
 {
 return
@@ -2396,7 +2403,7 @@ nullptr
 status
 )
 ;
-mDestroyHandlerCalled
+mDidFirePopupHiding
 =
 true
 ;
