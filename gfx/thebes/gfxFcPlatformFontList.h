@@ -1401,7 +1401,7 @@ mGenericMappings
 nsDataHashtable
 <
 nsCStringHashKey
-CopyableTArray
+nsTArray
 <
 FamilyAndGeneric
 >
