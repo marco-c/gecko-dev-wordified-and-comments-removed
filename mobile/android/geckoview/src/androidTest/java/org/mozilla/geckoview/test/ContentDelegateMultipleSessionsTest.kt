@@ -7,12 +7,6 @@ geckoview
 .
 test
 import
-android
-.
-os
-.
-Process
-import
 org
 .
 mozilla
@@ -175,9 +169,9 @@ in
 contentProcessPids
 )
 {
-Process
+sessionRule
 .
-killProcess
+killContentProcess
 (
 pid
 )
