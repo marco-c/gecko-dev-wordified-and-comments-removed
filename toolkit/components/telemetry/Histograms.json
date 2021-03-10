@@ -32360,7 +32360,7 @@ advertisement
 "
 }
 "
-HTTP3_CONNECTION_CLOSE_CODE_2
+HTTP3_CONNECTION_CLOSE_CODE_3
 "
 :
 {
@@ -32373,7 +32373,7 @@ record_in_processes
 main
 "
 "
-content
+socket
 "
 ]
 "
@@ -32402,6 +32402,12 @@ mozilla
 .
 com
 "
+"
+kershaw
+mozilla
+.
+com
+"
 ]
 "
 bug_numbers
@@ -32411,6 +32417,7 @@ bug_numbers
 1605099
 1688091
 1693738
+1695785
 ]
 "
 expires_in_version
