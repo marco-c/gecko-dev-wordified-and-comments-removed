@@ -938,8 +938,6 @@ padding
 *
 Override
 width
-and
-height
 from
 close
 -
@@ -949,12 +947,6 @@ css
 *
 /
 width
-:
-32px
-!
-important
-;
-height
 :
 32px
 !
