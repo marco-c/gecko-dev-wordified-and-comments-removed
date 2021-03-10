@@ -97,8 +97,12 @@ DocAccessibleParent
 aDoc
 role
 aRole
-uint32_t
-aInterfaces
+AccType
+aType
+AccGenericType
+aGenericTypes
+uint8_t
+aRoleMapEntryIndex
 )
 :
 RemoteAccessibleBase
@@ -107,7 +111,9 @@ aID
 aParent
 aDoc
 aRole
-aInterfaces
+aType
+aGenericTypes
+aRoleMapEntryIndex
 )
 {
 MOZ_COUNT_CTOR

@@ -2666,15 +2666,6 @@ aDoc
 ProxyCreated
 (
 aDoc
-Interfaces
-:
-:
-DOCUMENT
-|
-Interfaces
-:
-:
-HYPERTEXT
 )
 ;
 }
