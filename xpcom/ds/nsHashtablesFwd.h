@@ -72,8 +72,15 @@ KeyClass
 class
 DataType
 >
-class
+using
 nsDataHashtable
+=
+nsBaseHashtable
+<
+KeyClass
+DataType
+DataType
+>
 ;
 template
 <
