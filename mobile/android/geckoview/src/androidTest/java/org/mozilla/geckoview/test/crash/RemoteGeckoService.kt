@@ -137,6 +137,11 @@ TestHandler
 :
 Handler
 (
+Looper
+.
+getMainLooper
+(
+)
 )
 {
 override
