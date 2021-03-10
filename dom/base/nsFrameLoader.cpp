@@ -2211,9 +2211,9 @@ BrowsingContextGroup
 *
 aSpecificGroup
 const
-RemotenessChangeState
+RemotenessChangeOptions
 &
-aState
+aRemotenessOptions
 bool
 aIsRemote
 bool
@@ -2350,7 +2350,7 @@ context
 Canonical
 (
 )
-aState
+aRemotenessOptions
 )
 ;
 }

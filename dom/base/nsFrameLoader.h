@@ -321,7 +321,7 @@ struct
 RemotenessOptions
 ;
 struct
-RemotenessChangeState
+RemotenessChangeOptions
 ;
 namespace
 ipc
@@ -529,9 +529,9 @@ mozilla
 dom
 :
 :
-RemotenessChangeState
+RemotenessChangeOptions
 &
-aState
+aRemotenessOptions
 bool
 aIsRemote
 bool

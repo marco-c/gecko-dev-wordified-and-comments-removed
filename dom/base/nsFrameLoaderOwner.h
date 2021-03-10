@@ -51,7 +51,7 @@ struct
 RemotenessOptions
 ;
 struct
-RemotenessChangeState
+RemotenessChangeOptions
 ;
 }
 }
@@ -196,9 +196,9 @@ mozilla
 dom
 :
 :
-RemotenessChangeState
+RemotenessChangeOptions
 &
-aState
+aOptions
 mozilla
 :
 :
@@ -295,9 +295,9 @@ mozilla
 dom
 :
 :
-RemotenessChangeState
+RemotenessChangeOptions
 &
-aState
+aOptions
 bool
 aSwitchingInProgressLoad
 bool
