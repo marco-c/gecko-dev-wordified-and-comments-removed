@@ -2367,8 +2367,6 @@ button
 :
 hover
 :
-enabled
-:
 :
 before
 .
@@ -2399,6 +2397,12 @@ button
 :
 disabled
 {
+pointer
+-
+events
+:
+none
+;
 opacity
 :
 0
@@ -2437,8 +2441,6 @@ devtools
 button
 :
 empty
-:
-enabled
 :
 not
 (
@@ -2558,8 +2560,6 @@ devtools
 -
 button
 :
-enabled
-:
 not
 (
 :
@@ -2575,8 +2575,6 @@ devtools
 button
 :
 empty
-:
-enabled
 :
 is
 (
@@ -2631,8 +2629,6 @@ devtools
 -
 button
 :
-enabled
-:
 not
 (
 :
@@ -2667,8 +2663,6 @@ hover
 devtools
 -
 button
-:
-enabled
 :
 not
 (
