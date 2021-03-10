@@ -880,9 +880,6 @@ not
 in
 [
 "
-win
-"
-"
 android
 "
 ]
