@@ -2344,7 +2344,7 @@ resourceType
 {
 console
 .
-error
+warn
 (
 Already
 started
