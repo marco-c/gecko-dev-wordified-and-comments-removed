@@ -402,7 +402,7 @@ entry
 for
 :
 {
-name
+url
 }
 with
 status

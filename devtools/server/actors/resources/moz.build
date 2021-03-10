@@ -79,6 +79,13 @@ js
 "
 storage
 -
+cache
+.
+js
+"
+"
+storage
+-
 local
 -
 storage

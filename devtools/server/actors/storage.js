@@ -15146,6 +15146,9 @@ const
 resourcesInWatcher
 =
 {
+Cache
+:
+isWatcherEnabled
 localStorage
 :
 isWatcherEnabled
