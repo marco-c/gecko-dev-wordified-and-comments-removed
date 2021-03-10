@@ -67,9 +67,6 @@ class
 GamepadServiceTest
 ;
 class
-GamepadTestHelper
-;
-class
 XRInputSource
 ;
 enum
@@ -228,16 +225,6 @@ dom
 :
 :
 GamepadServiceTest
-;
-friend
-class
-mozilla
-:
-:
-dom
-:
-:
-GamepadTestHelper
 ;
 friend
 class
