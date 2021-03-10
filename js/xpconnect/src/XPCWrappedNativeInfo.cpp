@@ -1641,7 +1641,7 @@ str
 )
 )
 ;
-int
+size_t
 size
 =
 sizeof
