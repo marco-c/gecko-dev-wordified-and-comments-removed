@@ -34,6 +34,7 @@ icon
 class
 =
 iconclass
+hasicon
 "
 "
 .
