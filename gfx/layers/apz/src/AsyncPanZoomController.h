@@ -1104,7 +1104,7 @@ aDirection
 const
 ;
 bool
-CanScrollDownwardsWithDynamicToolbar
+CanVerticalScrollWithDynamicToolbar
 (
 )
 const

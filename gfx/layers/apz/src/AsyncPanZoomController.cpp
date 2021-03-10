@@ -2458,7 +2458,7 @@ IsRootContent
 )
 &
 &
-CanScrollDownwardsWithDynamicToolbar
+CanVerticalScrollWithDynamicToolbar
 (
 )
 )
@@ -8401,7 +8401,7 @@ bool
 AsyncPanZoomController
 :
 :
-CanScrollDownwardsWithDynamicToolbar
+CanVerticalScrollWithDynamicToolbar
 (
 )
 const
@@ -8422,7 +8422,7 @@ mRecursiveMutex
 return
 mY
 .
-CanScrollDownwardsWithDynamicToolbar
+CanVerticalScrollWithDynamicToolbar
 (
 )
 ;
