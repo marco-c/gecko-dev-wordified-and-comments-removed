@@ -4552,7 +4552,7 @@ GPURenderPassColorAttachmentDescriptor
 {
 required
 GPUTextureView
-attachment
+view
 ;
 GPUTextureView
 resolveTarget
@@ -4579,7 +4579,7 @@ GPURenderPassDepthStencilAttachmentDescriptor
 {
 required
 GPUTextureView
-attachment
+view
 ;
 required
 (

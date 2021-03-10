@@ -1186,7 +1186,7 @@ targetCanvasElement
 =
 at
 .
-mAttachment
+mView
 -
 >
 GetTargetCanvasElement
