@@ -18,7 +18,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -104,9 +104,9 @@ aScreenId
 ;
 private
 :
-nsDataHashtable
+nsTHashMap
 <
-nsUint32HashKey
+uint32_t
 RefPtr
 <
 Screen

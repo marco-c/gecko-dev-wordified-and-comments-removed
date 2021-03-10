@@ -48,7 +48,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -961,9 +961,9 @@ aIdentifier
 )
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
-nsCStringHashKey
+nsCString
 RefPtr
 <
 StoredIdentifier
