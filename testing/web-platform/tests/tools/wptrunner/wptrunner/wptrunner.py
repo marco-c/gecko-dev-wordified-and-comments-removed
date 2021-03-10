@@ -371,6 +371,32 @@ include
 ]
     
 if
+kwargs
+[
+"
+include_file
+"
+]
+:
+        
+include
+.
+extend
+(
+testloader
+.
+read_include_from_file
+(
+kwargs
+[
+"
+include_file
+"
+]
+)
+)
+    
+if
 test_groups
 :
         
