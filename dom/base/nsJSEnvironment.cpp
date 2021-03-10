@@ -8320,7 +8320,7 @@ else
 sCCRunner
 -
 >
-SetBudget
+SetMinimumUsefulBudget
 (
 aBudget
 .

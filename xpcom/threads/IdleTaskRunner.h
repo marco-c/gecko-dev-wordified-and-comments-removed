@@ -94,7 +94,7 @@ aRunnableName
 uint32_t
 aMaxDelay
 int64_t
-aNonIdleBudget
+aMinimumUsefulBudget
 bool
 aRepeating
 const
@@ -132,10 +132,10 @@ aTarget
 override
 ;
 void
-SetBudget
+SetMinimumUsefulBudget
 (
 int64_t
-aBudget
+aMinimumUsefulBudget
 )
 ;
 nsresult
@@ -167,7 +167,7 @@ aRunnableName
 uint32_t
 aMaxDelay
 int64_t
-aNonIdleBudget
+aMinimumUsefulBudget
 bool
 aRepeating
 const
@@ -215,7 +215,7 @@ TimeStamp
 mDeadline
 ;
 TimeDuration
-mBudget
+mMinimumUsefulBudget
 ;
 bool
 mRepeating
