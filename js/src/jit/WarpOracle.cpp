@@ -5325,6 +5325,7 @@ canInline
 (
 targetFunction
 script_
+loc
 )
 )
 {
