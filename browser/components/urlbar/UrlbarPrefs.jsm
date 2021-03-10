@@ -485,6 +485,12 @@ true
 ]
 [
 "
+sponsoredTopSites
+"
+false
+]
+[
+"
 usepreloadedtopurls
 .
 enabled
