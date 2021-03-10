@@ -574,9 +574,6 @@ context
 properties
 :
 fill
-fill
--
-opacity
 ;
 color
 :
@@ -587,12 +584,6 @@ important
 fill
 :
 currentColor
-;
-fill
--
-opacity
-:
-0
 ;
 min
 -
