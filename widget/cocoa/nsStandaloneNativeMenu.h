@@ -89,10 +89,6 @@ GetMenuXObject
 {
 return
 mMenu
-.
-get
-(
-)
 ;
 }
 void
@@ -111,13 +107,8 @@ nsStandaloneNativeMenu
 (
 )
 ;
-mozilla
-:
-:
-UniquePtr
-<
 nsMenuX
->
+*
 mMenu
 ;
 NSStatusItem

@@ -44,7 +44,6 @@ h
 >
 class
 nsMenuItemIconX
-final
 :
 public
 mozilla
@@ -73,6 +72,13 @@ NSMenuItem
 aNativeMenuItem
 )
 ;
+NS_INLINE_DECL_REFCOUNTING
+(
+nsMenuItemIconX
+)
+private
+:
+virtual
 ~
 nsMenuItemIconX
 (
@@ -92,6 +98,11 @@ nsIURI
 *
 *
 aIconURI
+)
+;
+void
+Destroy
+(
 )
 ;
 nsresult
