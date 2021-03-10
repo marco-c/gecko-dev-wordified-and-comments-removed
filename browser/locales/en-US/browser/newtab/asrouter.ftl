@@ -2039,10 +2039,10 @@ doh
 primary
 -
 button
+-
+2
 =
-OK
-Got
-it
+Okay
 .
 accesskey
 =
