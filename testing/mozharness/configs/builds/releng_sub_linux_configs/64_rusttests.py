@@ -164,22 +164,14 @@ sbin
 }
     
 "
-build_targets
+app_name
 "
 :
-[
 "
-pre
--
-export
+tools
+/
+rusttests
 "
-"
-export
-"
-"
-recurse_rusttests
-"
-]
     
 "
 disable_package_metrics

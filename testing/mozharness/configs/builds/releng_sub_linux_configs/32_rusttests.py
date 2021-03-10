@@ -171,22 +171,14 @@ TINDERBOX_OUTPUT
 }
     
 "
-build_targets
+app_name
 "
 :
-[
 "
-pre
--
-export
+tools
+/
+rusttests
 "
-"
-export
-"
-"
-recurse_rusttests
-"
-]
     
 "
 mozconfig_variant
