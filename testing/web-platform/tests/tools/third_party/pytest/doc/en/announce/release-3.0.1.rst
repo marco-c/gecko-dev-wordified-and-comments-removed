@@ -76,7 +76,7 @@ org
 /
 en
 /
-latest
+stable
 /
 changelog
 .

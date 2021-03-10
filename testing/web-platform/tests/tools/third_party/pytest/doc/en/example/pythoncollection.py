@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 def
 test_function
 (
@@ -19,9 +7,6 @@ test_function
 pass
 class
 TestClass
-(
-object
-)
 :
     
 def

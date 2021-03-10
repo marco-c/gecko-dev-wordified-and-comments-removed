@@ -1,31 +1,11 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-division
-from
-__future__
-import
-print_function
 import
 re
 import
 warnings
+from
+typing
+import
+Optional
 import
 pytest
 from
@@ -34,17 +14,16 @@ _pytest
 recwarn
 import
 WarningsRecorder
-from
-_pytest
-.
-warning_types
-import
-PytestDeprecationWarning
 def
 test_recwarn_stacklevel
 (
 recwarn
+:
+WarningsRecorder
 )
+-
+>
+None
 :
     
 warnings
@@ -76,6 +55,9 @@ test_recwarn_functional
 (
 testdir
 )
+-
+>
+None
 :
     
 testdir
@@ -147,9 +129,6 @@ passed
 )
 class
 TestWarningsRecorderChecker
-(
-object
-)
 :
     
 def
@@ -157,6 +136,9 @@ test_recording
 (
 self
 )
+-
+>
+None
 :
         
 rec
@@ -289,6 +271,9 @@ test_warn_stacklevel
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -326,6 +311,9 @@ test_typechecking
 (
 self
 )
+-
+>
+None
 :
         
 from
@@ -390,6 +378,9 @@ test_invalid_enter_exit
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -448,9 +439,6 @@ rec
 pass
 class
 TestDeprecatedCall
-(
-object
-)
 :
     
 "
@@ -471,10 +459,20 @@ dep
 (
 self
 i
+:
+int
 j
+:
+Optional
+[
+int
+]
 =
 None
 )
+-
+>
+int
 :
         
 if
@@ -506,7 +504,12 @@ dep_explicit
 (
 self
 i
+:
+int
 )
+-
+>
+None
 :
         
 if
@@ -543,6 +546,9 @@ test_deprecated_call_raises
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -582,6 +588,9 @@ test_deprecated_call
 (
 self
 )
+-
+>
+None
 :
         
 pytest
@@ -600,6 +609,9 @@ test_deprecated_call_ret
 (
 self
 )
+-
+>
+None
 :
         
 ret
@@ -625,6 +637,9 @@ test_deprecated_call_preserves
 (
 self
 )
+-
+>
+None
 :
         
 onceregistry
@@ -705,6 +720,9 @@ test_deprecated_explicit_call_raises
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -735,6 +753,9 @@ test_deprecated_explicit_call
 (
 self
 )
+-
+>
+None
 :
         
 pytest
@@ -782,6 +803,9 @@ test_deprecated_call_no_warning
 self
 mode
 )
+-
+>
+None
 :
         
 "
@@ -959,6 +983,9 @@ warning_type
 mode
 call_f_first
 )
+-
+>
+None
 :
         
 "
@@ -1083,6 +1110,9 @@ test_deprecated_call_exception_is_raised
 self
 mode
 )
+-
+>
+None
 :
         
 "
@@ -1182,6 +1212,9 @@ test_deprecated_call_specificity
 (
 self
 )
+-
+>
+None
 :
         
 other_warnings
@@ -1278,6 +1311,9 @@ test_deprecated_call_supports_match
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -1356,19 +1392,19 @@ DeprecationWarning
 )
 class
 TestWarns
-(
-object
-)
 :
     
 def
-test_strings
+test_check_callable
 (
 self
 )
+-
+>
+None
 :
         
-source1
+source
 =
 "
 warnings
@@ -1382,43 +1418,23 @@ RuntimeWarning
 )
 "
         
-source2
-=
-"
-warnings
-.
-warn
-(
-'
-w2
-'
-RuntimeWarning
-)
-"
-        
-source3
-=
-"
-warnings
-.
-warn
-(
-'
-w3
-'
-RuntimeWarning
-)
-"
-        
 with
 pytest
 .
-warns
+raises
 (
-PytestDeprecationWarning
+TypeError
+match
+=
+r
+"
+.
+*
+must
+be
+callable
+"
 )
-as
-warninfo
 :
             
 pytest
@@ -1426,93 +1442,84 @@ pytest
 warns
 (
 RuntimeWarning
-source1
+source
 )
-            
+    
+def
+test_several_messages
+(
+self
+)
+-
+>
+None
+:
+        
+pytest
+.
+warns
+(
+RuntimeWarning
+lambda
+:
+warnings
+.
+warn
+(
+"
+w1
+"
+RuntimeWarning
+)
+)
+        
+with
 pytest
 .
 raises
 (
-                
 pytest
 .
 fail
 .
 Exception
-lambda
+)
 :
+            
 pytest
 .
 warns
 (
 UserWarning
-source2
+lambda
+:
+warnings
+.
+warn
+(
+"
+w2
+"
+RuntimeWarning
 )
-            
 )
-            
+        
 pytest
 .
 warns
 (
 RuntimeWarning
-source3
-)
-        
-assert
-len
-(
-warninfo
-)
-=
-=
-3
-        
-for
-w
-in
-warninfo
+lambda
 :
-            
-assert
-w
+warnings
 .
-filename
-=
-=
-__file__
-            
-(
-msg
-)
-=
-w
-.
-message
-.
-args
-            
-assert
-msg
-.
-startswith
+warn
 (
 "
-warns
-(
-.
-.
-.
-'
-code
-(
-as_a_string
-)
-'
-)
-is
-deprecated
+w3
 "
+RuntimeWarning
+)
 )
     
 def
@@ -1520,6 +1527,9 @@ test_function
 (
 self
 )
+-
+>
+None
 :
         
 pytest
@@ -1549,6 +1559,9 @@ test_warning_tuple
 (
 self
 )
+-
+>
+None
 :
         
 pytest
@@ -1641,6 +1654,9 @@ test_as_contextmanager
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -2061,6 +2077,9 @@ test_record
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -2114,6 +2133,9 @@ test_record_only
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -2193,6 +2215,9 @@ test_record_by_subclass
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -2366,6 +2391,9 @@ test_double_test
 self
 testdir
 )
+-
+>
+None
 :
         
 "
@@ -2479,6 +2507,9 @@ test_match_regex
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -2608,6 +2639,9 @@ test_one_from_multiple_warns
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -2660,6 +2694,9 @@ test_none_of_multiple_warns
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -2726,12 +2763,18 @@ test_can_capture_previously_warned
 (
 self
 )
+-
+>
+None
 :
         
 def
 f
 (
 )
+-
+>
+int
 :
             
 warnings
@@ -2780,3 +2823,68 @@ f
 =
 =
 10
+        
+assert
+pytest
+.
+warns
+(
+UserWarning
+f
+)
+!
+=
+"
+10
+"
+    
+def
+test_warns_context_manager_with_kwargs
+(
+self
+)
+-
+>
+None
+:
+        
+with
+pytest
+.
+raises
+(
+TypeError
+)
+as
+excinfo
+:
+            
+with
+pytest
+.
+warns
+(
+UserWarning
+foo
+=
+"
+bar
+"
+)
+:
+                
+pass
+        
+assert
+"
+Unexpected
+keyword
+arguments
+"
+in
+str
+(
+excinfo
+.
+value
+)

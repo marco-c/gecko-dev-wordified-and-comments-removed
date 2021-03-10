@@ -414,7 +414,7 @@ t
 write
 junitxml
 on
-slave
+worker
 nodes
 -
 Issue

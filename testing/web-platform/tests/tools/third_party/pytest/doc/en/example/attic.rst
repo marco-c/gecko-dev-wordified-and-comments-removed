@@ -143,9 +143,6 @@ request
 )
 class
 AcceptFixture
-(
-object
-)
 :
 def
 __init__
@@ -513,9 +510,6 @@ return
 arg
 class
 TestSpecialAcceptance
-(
-object
-)
 :
 def
 test_sometest

@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 "
 "
 "
@@ -27,9 +15,7 @@ executable
 :
 simply
 executes
-py
-.
-test
+pytest
 main
 (
 )

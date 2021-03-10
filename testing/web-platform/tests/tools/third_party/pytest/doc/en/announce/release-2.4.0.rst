@@ -156,7 +156,9 @@ pytest
 .
 org
 /
-latest
+en
+/
+stable
 /
 yieldfixture
 .

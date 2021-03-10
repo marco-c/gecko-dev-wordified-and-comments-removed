@@ -194,7 +194,14 @@ want
 to
 run
 :
+.
+.
+code
+-
+block
 :
+:
+bash
 cd
 <
 repository
@@ -310,11 +317,3 @@ use
 tox
 >
 .
-.
-.
-include
-:
-:
-links
-.
-inc
