@@ -5326,6 +5326,12 @@ cx
 StackShape
 (
 base
+last
+-
+>
+objectFlags
+(
+)
 id
 slot
 0
