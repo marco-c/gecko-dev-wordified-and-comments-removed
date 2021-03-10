@@ -240,6 +240,9 @@ traits
 watcher
 :
 true
+emitDescriptorDestroyed
+:
+true
 }
 url
 :
