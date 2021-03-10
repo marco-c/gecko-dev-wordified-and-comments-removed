@@ -2456,7 +2456,7 @@ GetStringFromName
 "
 xr
 .
-shareWithFile3
+shareWithFile4
 "
 )
 ;
@@ -2469,7 +2469,7 @@ formatStringFromName
 "
 xr
 .
-shareWithSite3
+shareWithSite4
 "
 [
 "
@@ -2497,7 +2497,7 @@ GetStringFromName
 "
 xr
 .
-allow
+allow2
 "
 )
 accessKey
@@ -2509,7 +2509,7 @@ GetStringFromName
 "
 xr
 .
-allow
+allow2
 .
 accesskey
 "
@@ -2530,7 +2530,7 @@ GetStringFromName
 "
 xr
 .
-dontAllow
+block
 "
 )
 accessKey
@@ -2542,7 +2542,7 @@ GetStringFromName
 "
 xr
 .
-dontAllow
+block
 .
 accesskey
 "
