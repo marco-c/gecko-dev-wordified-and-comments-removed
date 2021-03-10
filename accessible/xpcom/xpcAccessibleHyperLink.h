@@ -14,7 +14,11 @@ h
 #
 include
 "
-AccessibleOrProxy
+mozilla
+/
+a11y
+/
+Accessible
 .
 h
 "
@@ -135,7 +139,8 @@ xpcAccessibleHyperLink
 =
 delete
 ;
-AccessibleOrProxy
+Accessible
+*
 Intl
 (
 )
