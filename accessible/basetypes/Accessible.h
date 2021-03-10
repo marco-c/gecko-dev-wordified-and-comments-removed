@@ -405,6 +405,15 @@ eCombobox
 )
 ;
 }
+virtual
+bool
+IsLink
+(
+)
+const
+=
+0
+;
 bool
 IsTextRole
 (
