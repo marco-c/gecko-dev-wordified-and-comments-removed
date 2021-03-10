@@ -8297,11 +8297,11 @@ origFlag
 =
 rawDoc
 .
-dontWarnAboutMutationEventsAndAllowSlowDOMMutations
+devToolsWatchingDOMMutations
 ;
 rawDoc
 .
-dontWarnAboutMutationEventsAndAllowSlowDOMMutations
+devToolsWatchingDOMMutations
 =
 true
 ;
@@ -8454,7 +8454,7 @@ true
 }
 rawDoc
 .
-dontWarnAboutMutationEventsAndAllowSlowDOMMutations
+devToolsWatchingDOMMutations
 =
 origFlag
 ;
