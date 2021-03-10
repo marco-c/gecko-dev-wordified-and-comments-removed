@@ -17355,7 +17355,7 @@ MOZ_ASSERT
 !
 mGetFilesPendingRequests
 .
-GetWeak
+Contains
 (
 aUUID
 )
@@ -17409,7 +17409,7 @@ MOZ_ASSERT
 (
 mGetFilesPendingRequests
 .
-GetWeak
+Contains
 (
 aUUID
 )

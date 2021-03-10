@@ -13059,7 +13059,7 @@ MOZ_ASSERT
 sBrowserChildren
 -
 >
-Get
+Contains
 (
 uint64_t
 (
