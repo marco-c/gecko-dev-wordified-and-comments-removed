@@ -462,7 +462,7 @@ endif
 ifdef
 MOZ_WAYLAND
 bool
-IsWaylandDisabled
+IsWaylandEnabled
 (
 )
 ;

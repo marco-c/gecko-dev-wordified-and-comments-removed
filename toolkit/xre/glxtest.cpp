@@ -5897,8 +5897,7 @@ ifdef
 MOZ_WAYLAND
 if
 (
-!
-IsWaylandDisabled
+IsWaylandEnabled
 (
 )
 )
