@@ -10584,7 +10584,7 @@ scrollAmountInCSSPixels
 CSSIntSize
 :
 :
-FromAppUnits
+FromAppUnitsRounded
 (
 aEvent
 -
@@ -26508,7 +26508,7 @@ scrollAmountInCSSPixels
 CSSIntSize
 :
 :
-FromAppUnits
+FromAppUnitsRounded
 (
 aEvent
 -

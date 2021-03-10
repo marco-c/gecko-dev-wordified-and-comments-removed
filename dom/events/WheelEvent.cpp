@@ -394,6 +394,10 @@ FromAppUnits
 (
 aLineOrPageAmount
 )
+.
+Rounded
+(
+)
 ;
 }
 }
