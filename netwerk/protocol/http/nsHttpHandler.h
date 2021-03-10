@@ -2789,7 +2789,11 @@ nsCStringHashKey
 >
 mExcludedHttp3Origins
 ;
+Atomic
+<
 bool
+Relaxed
+>
 mThroughCaptivePortal
 ;
 nsDataHashtable
