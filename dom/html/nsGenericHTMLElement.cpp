@@ -1618,7 +1618,7 @@ const
 bool
 isAbsolutelyPositioned
 =
-styleFrame
+frame
 -
 >
 IsAbsolutelyPositioned
