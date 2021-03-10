@@ -86,7 +86,7 @@ class
 CallObject
 ;
 class
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 ;
 class
 ModuleEnvironmentObject
@@ -2262,7 +2262,7 @@ scriptSnapshots_
 ;
 WarpGCPtr
 <
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 *
 >
 globalLexicalEnv_
@@ -2364,7 +2364,7 @@ return
 scriptSnapshots_
 ;
 }
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 *
 globalLexicalEnv
 (

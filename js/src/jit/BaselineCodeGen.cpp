@@ -4828,10 +4828,10 @@ constexpr
 size_t
 SlotOffset
 =
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 :
 :
-offsetOfThisValueOrScopeSlot
+offsetOfThisValueSlot
 (
 )
 ;

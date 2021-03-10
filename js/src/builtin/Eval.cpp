@@ -1292,7 +1292,7 @@ env
 >
 as
 <
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 >
 (
 )
