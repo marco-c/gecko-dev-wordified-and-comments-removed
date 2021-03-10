@@ -407,7 +407,7 @@ GetOrCreateForCurrentThread
 (
 )
 ;
-NS_ASSERTION
+NS_WARNING_ASSERTION
 (
 bgActor
 "
