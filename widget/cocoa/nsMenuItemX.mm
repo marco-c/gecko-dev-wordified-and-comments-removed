@@ -853,7 +853,7 @@ UncheckRadioSiblings
 (
 nsIContent
 *
-inCheckedContent
+aCheckedContent
 )
 {
 nsAutoString
@@ -861,7 +861,7 @@ myGroupName
 ;
 if
 (
-inCheckedContent
+aCheckedContent
 -
 >
 IsElement
@@ -869,7 +869,7 @@ IsElement
 )
 )
 {
-inCheckedContent
+aCheckedContent
 -
 >
 AsElement
@@ -907,7 +907,7 @@ nsIContent
 >
 parent
 =
-inCheckedContent
+aCheckedContent
 -
 >
 GetParent
@@ -953,7 +953,7 @@ if
 sibling
 !
 =
-inCheckedContent
+aCheckedContent
 &
 &
 sibling
