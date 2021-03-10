@@ -9466,11 +9466,6 @@ aCallback
 )
 )
 ;
-NS_ENSURE_STATE
-(
-lookup
-)
-;
 nsCOMPtr
 <
 nsIObserverService
