@@ -224,6 +224,12 @@ py
 -
 taskcluster
 /
+mach_commands
+.
+py
+-
+taskcluster
+/
 taskgraph
 /
 actions
