@@ -227,6 +227,9 @@ class
 LexicalEnvironmentObject
 ;
 class
+GlobalLexicalEnvironmentObject
+;
+class
 MapObject
 ;
 class
@@ -1187,7 +1190,7 @@ WeakHeapPtr
 js
 :
 :
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 *
 >
 lexicalEnv_
@@ -1949,7 +1952,7 @@ inline
 js
 :
 :
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 *
 unbarrieredLexicalEnvironment
 (
@@ -1982,7 +1985,7 @@ global
 js
 :
 :
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 &
 lexicalEnv
 )
