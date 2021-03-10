@@ -9400,6 +9400,18 @@ paths
 {
 obj_mozglue
 }
+settings
+append
+target
+.
+exec
+-
+search
+-
+paths
+{
+obj_nss
+}
 platform
 select
 remote
@@ -9468,6 +9480,22 @@ mozglue
 "
 "
 build
+"
+)
+            
+obj_nss
+=
+os
+.
+path
+.
+join
+(
+self
+.
+topobjdir
+"
+security
 "
 )
             
@@ -9549,6 +9577,10 @@ obj_xul
 obj_mozglue
 =
 obj_mozglue
+                            
+obj_nss
+=
+obj_nss
                             
 connect_url
 =

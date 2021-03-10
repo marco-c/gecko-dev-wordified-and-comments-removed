@@ -99,6 +99,8 @@ topobjdir
 toolkit
 /
 library
+/
+build
 settings
 append
 target
@@ -113,6 +115,18 @@ topobjdir
 mozglue
 /
 build
+settings
+append
+target
+.
+exec
+-
+search
+-
+paths
+topobjdir
+/
+security
 #
 This
 is
