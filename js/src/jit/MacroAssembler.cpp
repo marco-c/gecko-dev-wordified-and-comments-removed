@@ -4645,11 +4645,7 @@ storePtr
 (
 ImmGCPtr
 (
-templateObj
-.
-group
-(
-)
+nullptr
 )
 Address
 (
