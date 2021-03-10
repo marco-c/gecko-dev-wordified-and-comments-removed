@@ -21,7 +21,9 @@ target
 on
 (
 "
-close
+target
+-
+destroyed
 "
 (
 )
@@ -34,7 +36,7 @@ true
 "
 Target
 was
-closed
+destroyed
 "
 )
 ;

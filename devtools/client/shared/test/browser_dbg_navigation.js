@@ -71,7 +71,7 @@ target
 )
 ;
 await
-testDetach
+testTargetDestroyed
 (
 target
 )
@@ -228,7 +228,7 @@ TAB2_URL
 }
 async
 function
-testDetach
+testTargetDestroyed
 (
 target
 )
@@ -241,7 +241,9 @@ target
 once
 (
 "
-close
+target
+-
+destroyed
 "
 )
 ;
