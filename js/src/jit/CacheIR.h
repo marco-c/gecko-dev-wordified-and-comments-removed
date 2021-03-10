@@ -6203,6 +6203,17 @@ indexId
 )
 ;
 AttachDecision
+tryAttachArgumentsObjectCallee
+(
+HandleObject
+obj
+ObjOperandId
+objId
+HandleId
+id
+)
+;
+AttachDecision
 tryAttachDenseElement
 (
 HandleObject
