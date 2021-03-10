@@ -8798,9 +8798,6 @@ rtcIdentityProvider
 :
 1
 ;
-#
-ifdef
-MOZ_GLEAN
 bool
 glean
 :
@@ -8811,8 +8808,6 @@ gleanPings
 :
 1
 ;
-#
-endif
 private
 :
 bool

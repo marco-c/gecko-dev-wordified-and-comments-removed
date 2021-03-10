@@ -168,7 +168,7 @@ CONTEXT_CHROME
 )
 :
             
-fog_present
+fog_android
 =
 self
 .
@@ -181,15 +181,14 @@ execute_script
 return
 AppConstants
 .
-MOZ_GLEAN
+MOZ_GLEAN_ANDROID
 ;
 "
             
 )
         
 if
-not
-fog_present
+fog_android
 :
             
 super
@@ -215,12 +214,13 @@ skipTest
 FOG
 is
 only
-present
+initialized
+when
+not
 in
-AppConstants
-.
-MOZ_GLEAN
-builds
+an
+Android
+build
 .
 "
 )

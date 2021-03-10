@@ -830,8 +830,8 @@ nsIAboutModule
 ALLOW_SCRIPT
 }
 #
-ifdef
-MOZ_GLEAN
+ifndef
+MOZ_GLEAN_ANDROID
 {
 "
 glean

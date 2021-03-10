@@ -443,14 +443,6 @@ PlacesObservers
 webidl
 "
 ]
-if
-CONFIG
-[
-"
-MOZ_GLEAN
-"
-]
-:
 WEBIDL_FILES
 +
 =

@@ -155,17 +155,6 @@ extern
 crate
 firefox_accounts_bridge
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-glean
-"
-)
-]
 extern
 crate
 fog_control

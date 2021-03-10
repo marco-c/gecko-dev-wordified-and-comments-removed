@@ -287,13 +287,6 @@ jsm
 "
 )
 ;
-if
-(
-AppConstants
-.
-MOZ_GLEAN
-)
-{
 Cu
 .
 importGlobalProperties
@@ -305,7 +298,6 @@ Glean
 ]
 )
 ;
-}
 ChromeUtils
 .
 defineModuleGetter
@@ -5359,13 +5351,6 @@ do_get_profile
 (
 )
 ;
-if
-(
-AppConstants
-.
-MOZ_GLEAN
-)
-{
 let
 FOG
 =
@@ -5397,7 +5382,6 @@ initializeFOG
 (
 )
 ;
-}
 const
 distroDir
 =
@@ -12630,13 +12614,6 @@ type
 }
 if
 (
-AppConstants
-.
-MOZ_GLEAN
-)
-{
-if
-(
 data
 .
 system
@@ -12704,7 +12681,6 @@ Glean
 "
 )
 ;
-}
 }
 }
 )

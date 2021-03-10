@@ -137,13 +137,6 @@ jsm
 "
 )
 ;
-if
-(
-AppConstants
-.
-MOZ_GLEAN
-)
-{
 Cu
 .
 importGlobalProperties
@@ -155,7 +148,6 @@ Glean
 ]
 )
 ;
-}
 const
 Utils
 =
@@ -5214,13 +5206,6 @@ sysinfo
 .
 diskInfo
 ;
-if
-(
-AppConstants
-.
-MOZ_GLEAN
-)
-{
 Glean
 .
 fogValidation
@@ -5243,7 +5228,6 @@ SSD
 "
 )
 ;
-}
 let
 osData
 =

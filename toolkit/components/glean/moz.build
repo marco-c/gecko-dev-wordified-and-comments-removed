@@ -25,14 +25,6 @@ python
 ini
 "
 ]
-if
-CONFIG
-[
-"
-MOZ_GLEAN
-"
-]
-:
 include
 (
 "

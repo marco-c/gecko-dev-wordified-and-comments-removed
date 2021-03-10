@@ -1064,9 +1064,6 @@ components
 /
 glean
 "
-optional
-=
-true
 }
 app_services_logger
 =
@@ -1826,13 +1823,6 @@ remote_agent
 [
 "
 remote
-"
-]
-glean
-=
-[
-"
-fog_control
 "
 ]
 glean_disable_upload

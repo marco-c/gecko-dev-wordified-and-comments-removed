@@ -319,9 +319,6 @@ WindowProxyHolder
 h
 "
 #
-ifdef
-MOZ_GLEAN
-#
 include
 "
 mozilla
@@ -347,8 +344,6 @@ GleanPings
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -4923,9 +4918,6 @@ HasActiveSpeechSynthesis
 ;
 #
 endif
-#
-ifdef
-MOZ_GLEAN
 mozilla
 :
 :
@@ -4950,8 +4942,6 @@ GleanPings
 (
 )
 ;
-#
-endif
 already_AddRefed
 <
 nsICSSDeclaration
@@ -7979,9 +7969,6 @@ mSpeechSynthesis
 ;
 #
 endif
-#
-ifdef
-MOZ_GLEAN
 RefPtr
 <
 mozilla
@@ -8006,8 +7993,6 @@ GleanPings
 >
 mGleanPings
 ;
-#
-endif
 uint32_t
 mCanSkipCCGeneration
 ;

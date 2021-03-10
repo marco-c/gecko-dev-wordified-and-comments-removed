@@ -4303,9 +4303,6 @@ attribute
 boolean
 isChromeWindow
 ;
-#
-ifdef
-MOZ_GLEAN
 [
 ChromeOnly
 ]
@@ -4322,8 +4319,6 @@ attribute
 GleanPingsImpl
 GleanPings
 ;
-#
-endif
 }
 ;
 partial

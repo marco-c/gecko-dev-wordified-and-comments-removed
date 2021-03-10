@@ -328,17 +328,6 @@ shared
 remote
 "
 ]
-glean
-=
-[
-"
-gkrust
--
-shared
-/
-glean
-"
-]
 glean_disable_upload
 =
 [

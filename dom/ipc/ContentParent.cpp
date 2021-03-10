@@ -320,9 +320,6 @@ DataStorage
 h
 "
 #
-ifdef
-MOZ_GLEAN
-#
 include
 "
 mozilla
@@ -331,8 +328,6 @@ FOGIPC
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -40732,9 +40727,6 @@ ByteBuf
 buf
 )
 {
-#
-ifdef
-MOZ_GLEAN
 glean
 :
 :
@@ -40749,8 +40741,6 @@ buf
 )
 )
 ;
-#
-endif
 return
 IPC_OK
 (
