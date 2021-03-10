@@ -293,6 +293,11 @@ nsQuickSort
 h
 "
 "
+nsRefCountedHashtable
+.
+h
+"
+"
 nsRefPtrHashtable
 .
 h
