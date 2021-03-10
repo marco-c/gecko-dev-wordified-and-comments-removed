@@ -318,6 +318,14 @@ uint32_t
 flags
 )
 ;
+already_AddRefed
+<
+nsHostResolver
+>
+GetResolverLocked
+(
+)
+;
 RefPtr
 <
 nsHostResolver
