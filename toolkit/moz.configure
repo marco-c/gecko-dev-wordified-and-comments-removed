@@ -5001,6 +5001,13 @@ ENABLE_MARIONETTE
 "
 marionette
 )
+set_define
+(
+"
+ENABLE_MARIONETTE
+"
+marionette
+)
 depends
 (
 "
