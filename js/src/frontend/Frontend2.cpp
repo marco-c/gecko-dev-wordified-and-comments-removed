@@ -2360,9 +2360,12 @@ scriptExtra
 .
 immutableFlags
 =
+ImmutableScriptFlags
+(
 smooshScript
 .
 immutable_flags
+)
 ;
 scriptExtra
 .
