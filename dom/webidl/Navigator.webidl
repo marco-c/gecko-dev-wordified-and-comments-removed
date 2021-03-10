@@ -2278,6 +2278,10 @@ interface
 mixin
 NavigatorAutomationInformation
 {
+[
+Constant
+Cached
+]
 readonly
 attribute
 boolean
