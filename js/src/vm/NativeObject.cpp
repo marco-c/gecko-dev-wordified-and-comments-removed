@@ -6153,7 +6153,7 @@ MOZ_ASSERT
 obj
 -
 >
-isDelegate
+isUsedAsPrototype
 (
 )
 )
@@ -6275,7 +6275,7 @@ if
 obj
 -
 >
-isDelegate
+isUsedAsPrototype
 (
 )
 |
@@ -13422,7 +13422,7 @@ MOZ_ASSERT
 target
 -
 >
-isDelegate
+isUsedAsPrototype
 (
 )
 "
@@ -13852,7 +13852,7 @@ property
 if
 (
 !
-AddDataPropertyNonDelegate
+AddDataPropertyNonPrototype
 (
 cx
 target

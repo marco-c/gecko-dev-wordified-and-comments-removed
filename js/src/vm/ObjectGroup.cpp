@@ -327,7 +327,7 @@ if
 JSObject
 :
 :
-setDelegate
+setIsUsedAsPrototype
 (
 cx
 protoObj

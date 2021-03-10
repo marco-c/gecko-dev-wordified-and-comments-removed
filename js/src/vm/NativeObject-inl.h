@@ -4529,7 +4529,7 @@ true
 }
 MOZ_ALWAYS_INLINE
 bool
-AddDataPropertyNonDelegate
+AddDataPropertyNonPrototype
 (
 JSContext
 *
@@ -4557,7 +4557,7 @@ MOZ_ASSERT
 obj
 -
 >
-isDelegate
+isUsedAsPrototype
 (
 )
 )

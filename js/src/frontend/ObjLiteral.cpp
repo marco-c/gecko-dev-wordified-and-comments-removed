@@ -774,7 +774,7 @@ UniqueNames
 if
 (
 !
-AddDataPropertyNonDelegate
+AddDataPropertyNonPrototype
 (
 cx
 obj

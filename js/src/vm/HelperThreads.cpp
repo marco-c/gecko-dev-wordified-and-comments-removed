@@ -5455,7 +5455,7 @@ return
 JSObject
 :
 :
-setDelegate
+setIsUsedAsPrototype
 (
 cx
 proto
