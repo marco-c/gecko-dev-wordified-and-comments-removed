@@ -226,6 +226,13 @@ tm
 .
 spinEventLoopUntil
 (
+"
+LoadURIDelegate
+.
+jsm
+:
+load
+"
 (
 )
 =
@@ -422,6 +429,13 @@ tm
 .
 spinEventLoopUntil
 (
+"
+LoadURIDelegate
+.
+jsm
+:
+handleLoadError
+"
 (
 )
 =

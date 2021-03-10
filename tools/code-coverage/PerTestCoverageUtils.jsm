@@ -317,6 +317,13 @@ tm
 .
 spinEventLoopUntil
 (
+"
+PerTestCoverageUtils
+.
+jsm
+:
+awaitPromise
+"
 (
 )
 =

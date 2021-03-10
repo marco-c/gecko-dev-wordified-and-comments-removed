@@ -4483,6 +4483,16 @@ tm
 .
 spinEventLoopUntil
 (
+"
+Test
+(
+test_Promise
+.
+js
+:
+make_promise_test
+)
+"
 (
 )
 =

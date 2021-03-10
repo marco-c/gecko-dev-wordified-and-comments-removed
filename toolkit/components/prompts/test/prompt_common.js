@@ -1856,6 +1856,16 @@ tm
 .
 spinEventLoopUntil
 (
+"
+Test
+(
+prompt_common
+.
+js
+:
+get
+)
+"
 (
 )
 =
