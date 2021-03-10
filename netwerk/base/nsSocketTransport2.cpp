@@ -6463,6 +6463,7 @@ status
 )
 ;
 }
+}
 opt
 .
 option
@@ -6593,7 +6594,6 @@ opt
 ;
 #
 endif
-}
 rv
 =
 mSocketTransportService
