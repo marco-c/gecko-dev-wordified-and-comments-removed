@@ -1840,7 +1840,7 @@ GetStringFromName
 "
 geolocation
 .
-shareWithFile3
+shareWithFile4
 "
 )
 ;
@@ -1862,7 +1862,7 @@ formatStringFromName
 "
 geolocation
 .
-shareWithSiteUnsafeDelegation
+shareWithSiteUnsafeDelegation2
 "
 [
 "
@@ -1885,7 +1885,7 @@ formatStringFromName
 "
 geolocation
 .
-shareWithSite3
+shareWithSite4
 "
 [
 "
@@ -1913,7 +1913,7 @@ GetStringFromName
 "
 geolocation
 .
-allowLocation
+allow
 "
 )
 accessKey
@@ -1925,7 +1925,7 @@ GetStringFromName
 "
 geolocation
 .
-allowLocation
+allow
 .
 accesskey
 "
@@ -1946,7 +1946,7 @@ GetStringFromName
 "
 geolocation
 .
-dontAllowLocation
+block
 "
 )
 accessKey
@@ -1958,7 +1958,7 @@ GetStringFromName
 "
 geolocation
 .
-dontAllowLocation
+block
 .
 accesskey
 "
