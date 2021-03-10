@@ -78,6 +78,14 @@ if
 (
 !
 aPrincipal
+|
+|
+aPrincipal
+-
+>
+IsSystemPrincipal
+(
+)
 )
 {
 return
