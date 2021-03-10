@@ -39200,9 +39200,7 @@ OriginPersisted
 (
 OriginMetadata
 {
-"
-"
-_ns
+mSuffix
 mGroup
 nsCString
 {
