@@ -37,7 +37,7 @@ public
 explicit
 xpcAccessibleTableCell
 (
-Accessible
+LocalAccessible
 *
 aIntl
 )
@@ -164,9 +164,8 @@ LocalAccessible
 acc
 =
 mIntl
--
->
-AsLocal
+.
+AsAccessible
 (
 )
 )
