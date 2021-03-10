@@ -43400,7 +43400,6 @@ handler_
 isEvalName
 (
 node
-cx_
 )
 )
 {
@@ -43415,7 +43414,6 @@ handler_
 isArgumentsName
 (
 node
-cx_
 )
 )
 {
@@ -47228,7 +47226,6 @@ handler_
 isAsyncKeyword
 (
 lhs
-cx_
 )
 )
 {
@@ -47245,7 +47242,6 @@ handler_
 isEvalName
 (
 lhs
-cx_
 )
 )
 {
@@ -49596,7 +49592,6 @@ handler_
 isArgumentsName
 (
 name
-cx_
 )
 )
 {
@@ -49647,7 +49642,6 @@ handler_
 isEvalName
 (
 name
-cx_
 )
 )
 {
