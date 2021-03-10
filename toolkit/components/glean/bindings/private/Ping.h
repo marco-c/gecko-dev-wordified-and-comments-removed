@@ -80,6 +80,16 @@ nsCString
 )
 const
 {
+#
+ifdef
+MOZ_GLEAN_ANDROID
+Unused
+<
+<
+mId
+;
+#
+else
 fog_submit_ping_by_id
 (
 mId
@@ -87,6 +97,8 @@ mId
 aReason
 )
 ;
+#
+endif
 }
 private
 :
