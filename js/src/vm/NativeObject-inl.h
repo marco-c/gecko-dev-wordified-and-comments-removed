@@ -418,7 +418,7 @@ return
 previous
 -
 >
-getObjectFlags
+objectFlags
 (
 )
 =
@@ -428,7 +428,7 @@ lastProperty
 )
 -
 >
-getObjectFlags
+objectFlags
 (
 )
 ;

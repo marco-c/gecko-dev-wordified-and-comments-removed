@@ -4864,7 +4864,9 @@ TaggedProto
 proto
 )
 0
-0
+ObjectFlags
+(
+)
 )
 )
 ;

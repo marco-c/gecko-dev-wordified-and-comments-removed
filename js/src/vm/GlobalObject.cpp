@@ -2385,14 +2385,14 @@ JSProto_Object
 JSObject
 :
 :
-setFlags
+setFlag
 (
 cx
 placeholder
-BaseShape
+ObjectFlag
 :
 :
-IMMUTABLE_PROTOTYPE
+ImmutablePrototype
 )
 )
 {

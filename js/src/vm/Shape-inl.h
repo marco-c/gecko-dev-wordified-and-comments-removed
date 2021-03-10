@@ -162,7 +162,7 @@ const
 JSClass
 *
 clasp
-uint32_t
+ObjectFlags
 objectFlags
 )
 :
