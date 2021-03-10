@@ -710,6 +710,11 @@ err
 message
 (
 )
+err
+.
+errorCode
+(
+)
 )
 ;
 }

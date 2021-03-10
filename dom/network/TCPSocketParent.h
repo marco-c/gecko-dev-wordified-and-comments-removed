@@ -276,6 +276,8 @@ const
 nsAString
 &
 aType
+nsresult
+aError
 TCPReadyState
 aReadyState
 )

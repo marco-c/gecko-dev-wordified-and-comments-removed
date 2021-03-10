@@ -832,6 +832,8 @@ const
 nsAString
 &
 aType
+nsresult
+aError
 TCPReadyState
 aReadyState
 )
@@ -853,6 +855,7 @@ nsString
 (
 aType
 )
+aError
 )
 aReadyState
 )

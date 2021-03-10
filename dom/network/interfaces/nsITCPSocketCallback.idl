@@ -253,6 +253,9 @@ name
 in
 AString
 type
+in
+nsresult
+errorCode
 )
 ;
 /
