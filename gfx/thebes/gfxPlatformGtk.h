@@ -378,6 +378,11 @@ IsHeadless
 protected
 :
 void
+InitX11EGLConfig
+(
+)
+;
+void
 InitPlatformGPUProcessPrefs
 (
 )
