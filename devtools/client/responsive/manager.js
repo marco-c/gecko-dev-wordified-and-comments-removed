@@ -131,7 +131,7 @@ lazyRequireGetter
 (
 this
 "
-TabTargetFactory
+TabDescriptorFactory
 "
 "
 devtools
@@ -142,7 +142,7 @@ framework
 /
 tab
 -
-target
+descriptor
 -
 factory
 "
@@ -464,7 +464,7 @@ options
 const
 isKnownTab
 =
-TabTargetFactory
+TabDescriptorFactory
 .
 isKnownTab
 (
@@ -736,7 +736,7 @@ tab
 const
 isKnownTab
 =
-TabTargetFactory
+TabDescriptorFactory
 .
 isKnownTab
 (

@@ -33,7 +33,7 @@ devtools
 ;
 const
 {
-TabTargetFactory
+TabDescriptorFactory
 }
 =
 require
@@ -47,7 +47,7 @@ framework
 /
 tab
 -
-target
+descriptor
 -
 factory
 "
@@ -217,7 +217,7 @@ selectedTab
 ;
 if
 (
-TabTargetFactory
+TabDescriptorFactory
 .
 isKnownTab
 (
