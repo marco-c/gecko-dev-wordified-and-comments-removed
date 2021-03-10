@@ -1370,7 +1370,7 @@ const
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 *
 stencil
 mozilla
@@ -1845,7 +1845,7 @@ const
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 *
 stencil
 )
@@ -1886,7 +1886,7 @@ const
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 *
 stencil
 )
@@ -1954,7 +1954,7 @@ const
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 *
 stencil
 )
@@ -1995,7 +1995,7 @@ const
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 *
 stencil
 )

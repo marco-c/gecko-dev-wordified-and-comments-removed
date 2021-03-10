@@ -28,15 +28,6 @@ include
 "
 frontend
 /
-CompilationStencil
-.
-h
-"
-#
-include
-"
-frontend
-/
 FullParseHandler
 .
 h
