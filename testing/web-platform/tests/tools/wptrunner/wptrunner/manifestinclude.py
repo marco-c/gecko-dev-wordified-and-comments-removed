@@ -52,14 +52,6 @@ glob
 import
 os
 from
-six
-import
-iteritems
-from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -691,9 +683,10 @@ for
 manifest
 data
 in
-iteritems
-(
 test_manifests
+.
+items
+(
 )
 :
                     

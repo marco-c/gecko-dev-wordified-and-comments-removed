@@ -13,10 +13,6 @@ pytest
 import
 unittest
 from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -24,10 +20,6 @@ import
 urlencode
 urlunsplit
 from
-six
-.
-moves
-.
 urllib
 .
 request
@@ -36,21 +28,11 @@ Request
 as
 BaseRequest
 from
-six
-.
-moves
-.
 urllib
 .
 request
 import
 urlopen
-from
-six
-import
-binary_type
-iteritems
-PY3
 from
 hyper
 import
@@ -199,7 +181,7 @@ assert
 isinstance
 (
 data
-binary_type
+bytes
 )
         
 if
@@ -422,9 +404,10 @@ for
 name
 value
 in
-iteritems
-(
 headers
+.
+items
+(
 )
 :
             
@@ -504,10 +487,6 @@ values
 )
 :
         
-if
-PY3
-:
-            
 assert
 resp
 .
@@ -522,28 +501,6 @@ name
 =
 =
 values
-        
-else
-:
-            
-assert
-resp
-.
-info
-(
-)
-[
-name
-]
-=
-=
-"
-"
-.
-join
-(
-values
-)
 pytest
 .
 mark

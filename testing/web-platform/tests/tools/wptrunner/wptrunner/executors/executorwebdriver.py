@@ -17,10 +17,6 @@ traceback
 import
 uuid
 from
-six
-.
-moves
-.
 urllib
 .
 parse

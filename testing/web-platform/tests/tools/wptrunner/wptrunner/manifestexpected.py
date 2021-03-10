@@ -5,15 +5,6 @@ collections
 import
 deque
 from
-six
-import
-string_types
-text_type
-from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -243,7 +234,7 @@ if
 isinstance
 (
 list_prop
-string_types
+str
 )
 :
             
@@ -290,7 +281,7 @@ not
 isinstance
 (
 prop
-string_types
+str
 )
 :
             
@@ -348,7 +339,7 @@ if
 isinstance
 (
 value
-text_type
+str
 )
 :
             
@@ -389,7 +380,7 @@ if
 isinstance
 (
 ini_value
-text_type
+str
 )
 :
             
@@ -442,7 +433,7 @@ if
 isinstance
 (
 node_prefs
-text_type
+str
 )
 :
             
@@ -508,7 +499,7 @@ if
 isinstance
 (
 node_items
-text_type
+str
 )
 :
             
@@ -572,7 +563,7 @@ if
 isinstance
 (
 node_items
-text_type
+str
 )
 :
             
@@ -1028,7 +1019,7 @@ not
 isinstance
 (
 item
-text_type
+str
 )
 :
             

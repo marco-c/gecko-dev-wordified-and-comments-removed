@@ -1,8 +1,4 @@
 from
-six
-.
-moves
-.
 configparser
 import
 SafeConfigParser

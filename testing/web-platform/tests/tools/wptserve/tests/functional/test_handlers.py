@@ -11,10 +11,6 @@ uuid
 import
 pytest
 from
-six
-.
-moves
-.
 urllib
 .
 error

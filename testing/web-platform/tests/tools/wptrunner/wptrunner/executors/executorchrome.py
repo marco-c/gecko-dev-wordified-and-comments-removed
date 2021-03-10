@@ -3,10 +3,6 @@ os
 import
 traceback
 from
-six
-.
-moves
-.
 urllib
 .
 parse

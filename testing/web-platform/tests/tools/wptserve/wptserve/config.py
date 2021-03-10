@@ -9,20 +9,11 @@ collections
 import
 defaultdict
 from
-six
+collections
 .
-moves
-.
-collections_abc
+abc
 import
 Mapping
-from
-six
-import
-integer_types
-iteritems
-itervalues
-string_types
 from
 .
 import
@@ -88,9 +79,10 @@ for
 key
 value
 in
-iteritems
-(
 base_dict
+.
+items
+(
 )
 :
         
@@ -521,9 +513,10 @@ k
 v
 )
 in
-iteritems
-(
 value
+.
+items
+(
 )
 if
 not
@@ -596,9 +589,10 @@ for
 key
 value
 in
-iteritems
-(
 obj
+.
+items
+(
 )
 }
     
@@ -607,14 +601,14 @@ if
 isinstance
 (
 obj
-string_types
+str
 )
 or
         
 isinstance
 (
 obj
-integer_types
+int
 )
 or
         
@@ -1250,11 +1244,12 @@ for
 k
 v
 in
-iteritems
-(
 self
 .
 _default
+.
+items
+(
 )
 :
             
@@ -1299,9 +1294,10 @@ for
 k
 new_k
 in
-iteritems
-(
 _renamed_props
+.
+items
+(
 )
 :
             
@@ -1529,9 +1525,10 @@ for
 k
 new_k
 in
-iteritems
-(
 _renamed_props
+.
+items
+(
 )
 :
             
@@ -1867,14 +1864,15 @@ for
 scheme
 ports
 in
-iteritems
-(
 data
 [
 "
 ports
 "
 ]
+.
+items
+(
 )
 :
             
@@ -2003,9 +2001,10 @@ for
 name
 host
 in
-iteritems
-(
 hosts
+.
+items
+(
 )
 :
             
@@ -2117,9 +2116,10 @@ for
 name
 host
 in
-iteritems
-(
 hosts
+.
+items
+(
 )
 :
             
@@ -2238,22 +2238,24 @@ domain
 for
 per_host_domains
 in
-itervalues
-(
 data
 [
 "
 domains
 "
 ]
+.
+values
+(
 )
                 
 for
 domain
 in
-itervalues
-(
 per_host_domains
+.
+values
+(
 )
 }
     
@@ -2272,22 +2274,24 @@ domain
 for
 per_host_domains
 in
-itervalues
-(
 data
 [
 "
 not_domains
 "
 ]
+.
+values
+(
 )
                 
 for
 domain
 in
-itervalues
-(
 per_host_domains
+.
+values
+(
 )
 }
     
