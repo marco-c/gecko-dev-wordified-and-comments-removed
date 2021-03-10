@@ -292,9 +292,13 @@ aFamilyName
 return
 mOtherFamilyNames
 .
-GetValue
+Lookup
 (
 aFamilyName
+)
+.
+DataPtrOrNull
+(
 )
 ;
 }

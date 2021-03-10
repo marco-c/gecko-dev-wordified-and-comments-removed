@@ -1435,11 +1435,7 @@ overrideService
 mLock
 )
 ;
-nsTArray
-<
-PRNetAddr
->
-*
+auto
 overrides
 =
 overrideService
@@ -1447,7 +1443,7 @@ overrideService
 >
 mOverrides
 .
-GetValue
+Lookup
 (
 aHost
 )
@@ -1485,9 +1481,13 @@ overrideService
 >
 mCnames
 .
-GetValue
+Lookup
 (
 aHost
+)
+.
+DataPtrOrNull
+(
 )
 ;
 }

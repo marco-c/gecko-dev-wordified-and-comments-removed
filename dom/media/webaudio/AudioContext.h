@@ -1253,9 +1253,13 @@ aName
 return
 mWorkletParamDescriptors
 .
-GetValue
+Lookup
 (
 aName
+)
+.
+DataPtrOrNull
+(
 )
 ;
 }

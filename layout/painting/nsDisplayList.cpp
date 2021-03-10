@@ -9785,13 +9785,12 @@ Data
 (
 )
 ;
-DocumentWillChangeBudget
-*
+auto
 documentBudget
 =
 mDocumentWillChangeBudgets
 .
-GetValue
+Lookup
 (
 frameBudget
 .
