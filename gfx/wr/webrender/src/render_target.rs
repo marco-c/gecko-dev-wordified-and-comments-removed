@@ -2334,6 +2334,9 @@ screen_world_rect
 task_info
 .
 device_pixel_scale
+ctx
+.
+global_device_pixel_scale
 target_rect
 .
 origin
