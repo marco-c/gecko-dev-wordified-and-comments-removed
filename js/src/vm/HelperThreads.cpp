@@ -4454,6 +4454,8 @@ XDRStencilDecoder
 decoder
 (
 cx
+&
+options
 range
 )
 ;
