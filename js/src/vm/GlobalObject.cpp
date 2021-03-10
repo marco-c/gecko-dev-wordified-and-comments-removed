@@ -5292,7 +5292,7 @@ lastProperty
 ;
 Rooted
 <
-UnownedBaseShape
+BaseShape
 *
 >
 base
@@ -5302,11 +5302,6 @@ last
 -
 >
 base
-(
-)
--
->
-unowned
 (
 )
 )
