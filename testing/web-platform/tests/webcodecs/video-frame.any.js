@@ -2506,6 +2506,7 @@ rows
 1
 }
 ;
+let
 frame
 =
 new
@@ -3082,6 +3083,7 @@ rows
 2
 }
 ;
+let
 frame
 =
 new
