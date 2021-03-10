@@ -128,10 +128,6 @@ infos_
 (
 alloc
 )
-hasTryFinally_
-(
-false
-)
 {
 }
 bool
