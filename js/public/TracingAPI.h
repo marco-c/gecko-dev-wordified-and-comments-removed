@@ -93,10 +93,10 @@ Moving
 GrayBuffering
 ClearEdges
 Sweeping
+Barrier
 Callback
 UnmarkGray
 VerifyTraceProtoAndIface
-Barrier
 }
 ;
 enum
