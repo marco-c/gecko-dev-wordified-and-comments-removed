@@ -238,7 +238,7 @@ aFrameLoader
 )
 ;
 void
-DeattachFrameLoader
+DetachFrameLoader
 (
 nsFrameLoader
 *
