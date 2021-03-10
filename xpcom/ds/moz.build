@@ -258,6 +258,11 @@ nsHashPropertyBag
 h
 "
 "
+nsHashtablesFwd
+.
+h
+"
+"
 nsInterfaceHashtable
 .
 h
