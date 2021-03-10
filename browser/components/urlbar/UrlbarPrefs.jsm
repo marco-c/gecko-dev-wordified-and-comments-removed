@@ -198,14 +198,6 @@ false
 ]
 [
 "
-experimental
-.
-searchModeIndicatorHover
-"
-false
-]
-[
-"
 extension
 .
 timeout
