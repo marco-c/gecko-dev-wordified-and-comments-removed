@@ -93,6 +93,8 @@ popup
 select
 -
 camera
+-
+device
 "
 control
 =
@@ -399,6 +401,8 @@ popup
 select
 -
 microphone
+-
+device
 "
 control
 =
