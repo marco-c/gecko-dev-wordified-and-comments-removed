@@ -41,6 +41,9 @@ dom
 class
 RangeEnforcedUnsignedLongSequenceOrGPUExtent3DDict
 ;
+class
+ArrayBufferViewOrArrayBuffer
+;
 template
 <
 typename
@@ -149,9 +152,9 @@ const
 dom
 :
 :
-ArrayBuffer
+ArrayBufferViewOrArrayBuffer
 &
-adata
+aData
 uint64_t
 aDataOffset
 const
@@ -183,7 +186,7 @@ const
 dom
 :
 :
-ArrayBuffer
+ArrayBufferViewOrArrayBuffer
 &
 aData
 const
@@ -207,12 +210,6 @@ aRv
 ;
 private
 :
-Queue
-(
-)
-=
-delete
-;
 virtual
 ~
 Queue

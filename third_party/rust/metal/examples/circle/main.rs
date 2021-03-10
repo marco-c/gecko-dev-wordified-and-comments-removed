@@ -58,10 +58,16 @@ use
 objc
 :
 :
+{
+rc
+:
+:
+autoreleasepool
 runtime
 :
 :
 YES
+}
 ;
 use
 std
@@ -355,7 +361,7 @@ new_command_queue
 let
 layer
 =
-CoreAnimationLayer
+MetalLayer
 :
 :
 new
@@ -531,6 +537,11 @@ move
 event
 _
 control_flow
+|
+{
+autoreleasepool
+(
+|
 |
 {
 *
@@ -731,6 +742,9 @@ _
 (
 )
 }
+}
+)
+;
 }
 )
 ;

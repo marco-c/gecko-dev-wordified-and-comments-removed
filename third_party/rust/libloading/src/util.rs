@@ -40,16 +40,10 @@ crate
 )
 fn
 cstr_cow_from_bytes
-<
-'
-a
->
 (
 slice
 :
 &
-'
-a
 [
 u8
 ]
@@ -61,7 +55,7 @@ Result
 Cow
 <
 '
-a
+_
 CStr
 >
 Error

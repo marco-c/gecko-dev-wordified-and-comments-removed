@@ -407,7 +407,7 @@ aLabel
 ;
 Queue
 *
-DefaultQueue
+Queue
 (
 )
 const
@@ -526,6 +526,9 @@ ShaderModule
 >
 CreateShaderModule
 (
+JSContext
+*
+aCx
 const
 dom
 :
@@ -563,6 +566,11 @@ dom
 GPURenderPipelineDescriptor
 &
 aDesc
+)
+;
+void
+Destroy
+(
 )
 ;
 IMPL_EVENT_HANDLER

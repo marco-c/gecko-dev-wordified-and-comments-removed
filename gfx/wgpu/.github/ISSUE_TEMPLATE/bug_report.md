@@ -62,7 +62,7 @@ wgpu
 /
 wiki
 /
-Debbugging
+Debugging
 -
 wgpu
 -

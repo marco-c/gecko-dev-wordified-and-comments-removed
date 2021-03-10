@@ -54,6 +54,12 @@ h_and_cpp
 Adapter
 "
 "
+AdapterFeatures
+"
+"
+AdapterLimits
+"
+"
 BindGroup
 "
 "
@@ -72,6 +78,12 @@ CommandBuffer
 CommandEncoder
 "
 "
+CompilationInfo
+"
+"
+CompilationMessage
+"
+"
 ComputePassEncoder
 "
 "
@@ -84,9 +96,6 @@ Device
 DeviceLostInfo
 "
 "
-Fence
-"
-"
 Instance
 "
 "
@@ -97,6 +106,9 @@ OutOfMemoryError
 "
 "
 PipelineLayout
+"
+"
+QuerySet
 "
 "
 Queue

@@ -6,15 +6,10 @@ crate
 conversions
 as
 conv
+FastHashMap
 PrivateCapabilities
 MAX_COLOR_ATTACHMENTS
 }
-;
-use
-auxil
-:
-:
-FastHashMap
 ;
 use
 hal
