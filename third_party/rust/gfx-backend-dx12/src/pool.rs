@@ -594,7 +594,7 @@ I
 where
 I
 :
-IntoIterator
+Iterator
 <
 Item
 =

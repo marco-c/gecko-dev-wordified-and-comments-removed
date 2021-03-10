@@ -10,15 +10,6 @@ Wunknown
 pragmas
 "
 #
-pragma
-warning
-(
-disable
-:
-4996
-4101
-)
-#
 include
 "
 vendor

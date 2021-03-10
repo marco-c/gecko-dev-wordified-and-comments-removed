@@ -1,10 +1,7 @@
 #
 libloading
-A
-memory
--
-safer
-wrapper
+Safer
+bindings
 around
 system
 dynamic
@@ -115,7 +112,9 @@ index
 html
 libloading
 is
-distributed
+available
+to
+use
 under
 ISC
 (

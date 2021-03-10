@@ -405,9 +405,13 @@ nsAString
 aLabel
 )
 ;
+const
+RefPtr
+<
 Queue
-*
-DefaultQueue
+>
+&
+GetQueue
 (
 )
 const
@@ -526,6 +530,9 @@ ShaderModule
 >
 CreateShaderModule
 (
+JSContext
+*
+aCx
 const
 dom
 :
@@ -563,6 +570,11 @@ dom
 GPURenderPipelineDescriptor
 &
 aDesc
+)
+;
+void
+Destroy
+(
 )
 ;
 IMPL_EVENT_HANDLER

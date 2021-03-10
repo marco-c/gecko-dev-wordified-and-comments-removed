@@ -19,12 +19,6 @@ TexturePtr
 }
 ;
 use
-auxil
-:
-:
-ShaderStage
-;
-use
 hal
 ;
 use
@@ -438,6 +432,9 @@ BindBuffer
 {
 stage
 :
+naga
+:
+:
 ShaderStage
 index
 :
@@ -459,6 +456,9 @@ BindBuffers
 {
 stage
 :
+naga
+:
+:
 ShaderStage
 index
 :
@@ -473,6 +473,9 @@ BufferArray
 BindBufferData
 {
 stage
+:
+naga
+:
 :
 ShaderStage
 index
@@ -489,6 +492,9 @@ BindTextures
 {
 stage
 :
+naga
+:
+:
 ShaderStage
 index
 :
@@ -503,6 +509,9 @@ TextureArray
 BindSamplers
 {
 stage
+:
+naga
+:
 :
 ShaderStage
 index

@@ -82,7 +82,7 @@ new
 )
 -
 >
-CaptureDescriptor
+Self
 {
 unsafe
 {

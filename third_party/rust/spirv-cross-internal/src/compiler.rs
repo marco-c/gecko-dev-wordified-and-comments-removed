@@ -1140,6 +1140,13 @@ RayQuery
 =
 >
 RayQuery
+B
+:
+:
+Interpolant
+=
+>
+Interpolant
 }
 }
 }

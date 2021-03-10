@@ -909,11 +909,9 @@ FAST_DEVICE_ACCESS
 )
 )
 ;
-let
-host_visible
-:
-bool
-=
+assert
+!
+(
 flags
 .
 contains
@@ -923,8 +921,8 @@ Flags
 :
 HOST_VISIBLE
 )
-&
-&
+|
+|
 !
 usage
 .
@@ -944,6 +942,7 @@ UsageFlags
 :
 :
 DOWNLOAD
+)
 )
 ;
 let
@@ -1004,12 +1003,6 @@ DOWNLOAD
 )
 ;
 device_local
-as
-u32
-*
-8
-+
-host_visible
 as
 u32
 *
