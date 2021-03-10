@@ -177,6 +177,8 @@ arm7
 api
 -
 16
+-
+shippable
 /
 opt
 hw
@@ -229,6 +231,8 @@ p2
 android
 -
 aarch64
+-
+shippable
 /
 opt
 hw
@@ -289,6 +293,8 @@ arm7
 api
 -
 16
+-
+shippable
 /
 opt
 attributes
@@ -504,6 +510,8 @@ p2
 android
 -
 aarch64
+-
+shippable
 /
 opt
 attributes
@@ -728,6 +736,8 @@ arm7
 api
 -
 16
+-
+shippable
 /
 opt
 attributes
@@ -936,6 +946,8 @@ p2
 android
 -
 aarch64
+-
+shippable
 /
 opt
 attributes
@@ -1156,6 +1168,8 @@ arm7
 api
 -
 16
+-
+shippable
 /
 opt
 attributes
@@ -1423,6 +1437,8 @@ p2
 android
 -
 aarch64
+-
+shippable
 /
 opt
 attributes

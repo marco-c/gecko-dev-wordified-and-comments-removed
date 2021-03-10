@@ -107,7 +107,9 @@ win64
 geckodriver
 platform
 :
-win64
+windows10
+-
+64
 -
 shippable
 /
@@ -116,7 +118,9 @@ require
 -
 build
 :
-win64
+windows10
+-
+64
 -
 shippable
 /

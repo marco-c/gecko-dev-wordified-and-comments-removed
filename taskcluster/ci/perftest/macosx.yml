@@ -138,7 +138,9 @@ macosx64
 node
 platform
 :
-macosx64
+macosx1014
+-
+64
 -
 shippable
 /
@@ -147,7 +149,9 @@ require
 -
 build
 :
-macosx64
+macosx1014
+-
+64
 -
 shippable
 /
