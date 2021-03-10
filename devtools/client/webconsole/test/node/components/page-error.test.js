@@ -1108,7 +1108,9 @@ toBe
 Uncaught
 Symbol
 (
+"
 potato
+"
 )
 )
 ;
@@ -1905,7 +1907,9 @@ promise
 )
 Symbol
 (
+"
 potato
+"
 )
 )
 ;
