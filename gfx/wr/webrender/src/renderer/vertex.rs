@@ -2719,7 +2719,6 @@ texture
 (
 )
 rect
-0
 None
 None
 data

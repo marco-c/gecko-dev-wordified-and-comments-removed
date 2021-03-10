@@ -705,7 +705,6 @@ renderer
 device
 texture
 rect
-0
 stride
 format_override
 data
@@ -867,7 +866,6 @@ get_dimensions
 (
 )
 )
-0
 None
 pbo
 )
@@ -916,7 +914,6 @@ texture
 batch_buffer
 .
 upload_rect
-0
 Some
 (
 BATCH_UPLOAD_TEXTURE_SIZE

@@ -19131,9 +19131,6 @@ a
 rect
 :
 DeviceIntRect
-layer_index
-:
-i32
 stride
 :
 Option
@@ -21454,9 +21451,6 @@ Texture
 rect
 :
 DeviceIntRect
-layer_index
-:
-i32
 format_override
 :
 Option
@@ -21494,7 +21488,6 @@ push
 UploadChunk
 {
 rect
-layer_index
 stride
 :
 Some
@@ -21599,9 +21592,6 @@ mut
 rect
 :
 DeviceIntRect
-layer_index
-:
-i32
 stride
 :
 Option
@@ -21886,7 +21876,6 @@ device
 UploadChunk
 {
 rect
-layer_index
 stride
 :
 Some
@@ -22102,7 +22091,6 @@ upload_staged
 device
 texture
 rect
-layer_index
 format_override
 staging_buffer
 )
