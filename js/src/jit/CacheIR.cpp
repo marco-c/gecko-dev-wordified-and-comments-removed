@@ -5365,13 +5365,8 @@ NativeGetPropCacheability
 )
 ;
 }
+static
 bool
-js
-:
-:
-jit
-:
-:
 IsWindowProxyForScriptGlobal
 (
 JSScript
