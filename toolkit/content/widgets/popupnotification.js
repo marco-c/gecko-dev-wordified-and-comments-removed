@@ -364,6 +364,16 @@ disabled
 =
 mainactiondisabled
 "
+"
+.
+panel
+-
+footer
+"
+:
+"
+opinionated
+"
 }
 ;
 }
