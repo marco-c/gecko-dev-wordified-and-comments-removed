@@ -2037,12 +2037,6 @@ frontend
 CompilationGCOutput
 gcOutput_
 ;
-frontend
-:
-:
-CompilationGCOutput
-gcOutputForDelazification_
-;
 Vector
 <
 UniquePtr
