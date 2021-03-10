@@ -2932,7 +2932,7 @@ if
 targetScript
 -
 >
-needsArgsObj
+argumentsHasVarBinding
 (
 )
 &
