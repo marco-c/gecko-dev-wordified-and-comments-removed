@@ -2059,7 +2059,10 @@ i
 ;
 min_match_
 =
-Min
+std
+:
+:
+min
 (
 min_match_
 alternative
@@ -2072,7 +2075,10 @@ min_match
 ;
 max_match_
 =
-Max
+std
+:
+:
+max
 (
 max_match_
 alternative

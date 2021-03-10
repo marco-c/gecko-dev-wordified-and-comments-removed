@@ -533,6 +533,16 @@ uint32_t
 arg
 )
 ;
+inline
+void
+Emit
+(
+uint32_t
+bc
+int32_t
+arg
+)
+;
 int
 length
 (

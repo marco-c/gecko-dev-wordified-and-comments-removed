@@ -1163,7 +1163,7 @@ j
 os_
 <
 <
-AsUC16
+AsUC32
 (
 range
 .
@@ -1178,7 +1178,7 @@ from
 "
 <
 <
-AsUC16
+AsUC32
 (
 range
 .

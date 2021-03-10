@@ -129,7 +129,7 @@ isolate
 #
 ifdef
 V8_INTL_SUPPORT
-DisallowHeapAllocation
+DisallowGarbageCollection
 no_gc
 ;
 DCHECK_EQ
@@ -264,7 +264,7 @@ Isolate
 isolate
 )
 {
-DisallowHeapAllocation
+DisallowGarbageCollection
 no_gc
 ;
 DCHECK_EQ
@@ -281,9 +281,10 @@ V8_INTL_SUPPORT
 int32_t
 length
 =
-(
+static_cast
+<
 int32_t
-)
+>
 (
 byte_length
 >
@@ -827,7 +828,7 @@ byte
 input_end
 )
 {
-DisallowHeapAllocation
+DisallowGarbageCollection
 no_gc
 ;
 Address
@@ -988,12 +989,16 @@ return_value
 =
 0
 ;
+{
+DisableGCMole
+no_gc_mole
+;
 if
 (
 js_has_overflowed
 )
 {
-AllowHeapAllocation
+AllowGarbageCollection
 yes_gc
 ;
 isolate
@@ -1018,7 +1023,7 @@ InterruptRequested
 )
 )
 {
-AllowHeapAllocation
+AllowGarbageCollection
 yes_gc
 ;
 Object
@@ -1092,6 +1097,7 @@ new_pc
 0
 )
 ;
+}
 }
 if
 (
@@ -1399,7 +1405,7 @@ is_one_byte
 :
 1
 ;
-DisallowHeapAllocation
+DisallowGarbageCollection
 no_gc
 ;
 const
@@ -1615,12 +1621,10 @@ ptr
 )
 )
 ;
-DCHECK
+DCHECK_GE
 (
 result
->
-=
-RETRY
+SMALLEST_REGEXP_RESULT
 )
 ;
 if
@@ -1640,7 +1644,7 @@ has_pending_exception
 )
 )
 {
-AllowHeapAllocation
+AllowGarbageCollection
 allow_allocation
 ;
 isolate
