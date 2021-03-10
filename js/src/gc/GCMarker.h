@@ -337,7 +337,6 @@ Tag
 {
 SlotsOrElementsRangeTag
 ObjectTag
-GroupTag
 JitCodeTag
 ScriptTag
 TempRopeTag
@@ -1719,14 +1718,6 @@ eagerlyMarkChildren
 Scope
 *
 scope
-)
-;
-void
-lazilyMarkChildren
-(
-ObjectGroup
-*
-group
 )
 ;
 template

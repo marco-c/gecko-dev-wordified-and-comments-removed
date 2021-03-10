@@ -47,9 +47,6 @@ class
 NativeObject
 ;
 class
-ObjectGroup
-;
-class
 Shape
 ;
 class
