@@ -2531,6 +2531,15 @@ mozIStorageConnection
 TRANSACTION_IMMEDIATE
 )
 ;
+CACHE_TRY
+(
+trans
+.
+Start
+(
+)
+)
+;
 const
 bool
 migrating
