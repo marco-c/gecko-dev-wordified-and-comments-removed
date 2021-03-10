@@ -70,9 +70,6 @@ class
 GenericPrinter
 ;
 class
-ObjectGroup
-;
-class
 PlainObject
 ;
 namespace

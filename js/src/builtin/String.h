@@ -38,9 +38,6 @@ ArrayObject
 class
 GlobalObject
 ;
-class
-ObjectGroup
-;
 extern
 JSObject
 *

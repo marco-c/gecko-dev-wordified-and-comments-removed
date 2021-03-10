@@ -454,20 +454,6 @@ writeShapeField
 )
     
 "
-GroupField
-"
-:
-(
-"
-ObjectGroup
-*
-"
-"
-writeGroupField
-"
-)
-    
-"
 ObjectField
 "
 :
@@ -1393,26 +1379,6 @@ stubOffset
 )
     
 "
-GroupField
-"
-:
-(
-"
-uint32_t
-"
-"
-Offset
-"
-"
-reader
-.
-stubOffset
-(
-)
-"
-)
-    
-"
 ObjectField
 "
 :
@@ -2266,14 +2232,6 @@ spewField
 "
     
 "
-GroupField
-"
-:
-"
-spewField
-"
-    
-"
 ObjectField
 "
 :
@@ -3082,12 +3040,6 @@ RawId
     
 "
 ShapeField
-"
-:
-1
-    
-"
-GroupField
 "
 :
 1

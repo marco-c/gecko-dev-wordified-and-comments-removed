@@ -102,9 +102,6 @@ class
 NativeObject
 ;
 class
-ObjectGroup
-;
-class
 PropertyName
 ;
 class

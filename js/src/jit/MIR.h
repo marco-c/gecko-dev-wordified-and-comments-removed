@@ -4740,15 +4740,6 @@ Shape
 *
 >
 ;
-using
-CompilerObjectGroup
-=
-CompilerGCPointer
-<
-ObjectGroup
-*
->
-;
 class
 MInstruction
 :
