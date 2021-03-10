@@ -2186,12 +2186,6 @@ mUpdated
 bool
 mAddedToCompositableClient
 ;
-bool
-mWorkaroundAnnoyingSharedSurfaceLifetimeIssues
-;
-bool
-mWorkaroundAnnoyingSharedSurfaceOwnershipIssues
-;
 RefPtr
 <
 TextureReadbackSink
