@@ -380,7 +380,7 @@ MOZ_ASSERT
 gLSDatabases
 -
 >
-Get
+Contains
 (
 mOrigin
 )
