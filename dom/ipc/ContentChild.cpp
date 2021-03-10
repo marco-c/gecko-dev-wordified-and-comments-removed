@@ -20995,7 +20995,7 @@ fm
 fm
 -
 >
-AdjustWindowFocus
+AdjustInProcessWindowFocus
 (
 aContext
 .
