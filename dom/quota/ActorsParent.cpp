@@ -1962,7 +1962,7 @@ nsresult
 SaveCacheVersion
 (
 mozIStorageConnection
-*
+&
 aConnection
 int32_t
 aVersion
@@ -1970,11 +1970,6 @@ aVersion
 {
 AssertIsOnIOThread
 (
-)
-;
-MOZ_ASSERT
-(
-aConnection
 )
 ;
 QM_TRY_INSPECT
@@ -2038,7 +2033,7 @@ nsresult
 CreateCacheTables
 (
 mozIStorageConnection
-*
+&
 aConnection
 )
 {
@@ -2046,16 +2041,10 @@ AssertIsOnIOThread
 (
 )
 ;
-MOZ_ASSERT
-(
-aConnection
-)
-;
 QM_TRY
 (
 aConnection
--
->
+.
 ExecuteSimpleSQL
 (
 "
@@ -2092,8 +2081,7 @@ _ns
 QM_TRY
 (
 aConnection
--
->
+.
 ExecuteSimpleSQL
 (
 "
@@ -2125,8 +2113,7 @@ _ns
 QM_TRY
 (
 aConnection
--
->
+.
 ExecuteSimpleSQL
 (
 "
@@ -2229,7 +2216,6 @@ int32_t
 cacheVersion
 LoadCacheVersion
 (
-*
 aConnection
 )
 )
@@ -2415,7 +2401,7 @@ nsresult
 UpgradeCacheFrom1To2
 (
 mozIStorageConnection
-*
+&
 aConnection
 )
 {
@@ -2423,16 +2409,10 @@ AssertIsOnIOThread
 (
 )
 ;
-MOZ_ASSERT
-(
-aConnection
-)
-;
 QM_TRY
 (
 aConnection
--
->
+.
 ExecuteSimpleSQL
 (
 "
@@ -2452,7 +2432,6 @@ QM_TRY
 (
 InvalidateCache
 (
-*
 aConnection
 )
 )
@@ -2469,7 +2448,6 @@ int32_t
 cacheVersion
 LoadCacheVersion
 (
-*
 aConnection
 )
 )
@@ -2583,7 +2561,6 @@ QM_TRY
 (
 CreateCacheTables
 (
-&
 aConnection
 )
 )
@@ -2797,7 +2774,6 @@ QM_TRY
 (
 UpgradeCacheFrom1To2
 (
-&
 aConnection
 )
 )
