@@ -181,7 +181,7 @@ NONSPONSORED_ACTION_TEXT
 =
 "
 Firefox
-Suggests
+Suggest
 "
 ;
 const
@@ -192,7 +192,7 @@ Learn
 more
 about
 Firefox
-Suggests
+Suggest
 "
 ;
 const

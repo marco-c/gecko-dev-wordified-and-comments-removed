@@ -404,7 +404,7 @@ actionText
 =
 "
 Firefox
-Suggests
+Suggest
 "
 ;
 }
