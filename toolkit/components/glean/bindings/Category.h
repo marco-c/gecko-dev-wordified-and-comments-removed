@@ -7,11 +7,9 @@ mozilla_glean_Category_h
 #
 include
 "
-mozilla
+js
 /
-dom
-/
-BindingDeclarations
+TypeDecls
 .
 h
 "
@@ -19,6 +17,13 @@ h
 include
 "
 nsISupports
+.
+h
+"
+#
+include
+"
+nsTArrayForwardDeclare
 .
 h
 "

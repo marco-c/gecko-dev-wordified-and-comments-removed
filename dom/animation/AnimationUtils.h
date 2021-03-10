@@ -20,17 +20,6 @@ mozilla
 /
 dom
 /
-BindingDeclarations
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Nullable
 .
 h
