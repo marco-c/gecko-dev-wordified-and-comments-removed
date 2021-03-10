@@ -1051,10 +1051,6 @@ eventInterface
 =
 event
 instanceof
-doc
-.
-defaultView
-.
 InputEvent
 ?
 "
@@ -1063,10 +1059,6 @@ InputEvent
 :
 event
 instanceof
-doc
-.
-defaultView
-.
 UIEvent
 ?
 "
@@ -1075,10 +1067,6 @@ UIEvent
 :
 event
 instanceof
-doc
-.
-defaultView
-.
 Event
 ?
 "
