@@ -694,6 +694,15 @@ configuration
 "
 :
 true
+"
+set
+-
+xhr
+-
+breakpoints
+"
+:
+true
 }
 }
 ;
