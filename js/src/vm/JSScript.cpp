@@ -6905,7 +6905,7 @@ frontend
 StencilXDR
 :
 :
-SharedData
+codeSharedData
 <
 mode
 >
