@@ -240,9 +240,6 @@ traits
 watcher
 :
 true
-emitDescriptorDestroyed
-:
-true
 }
 url
 :
@@ -782,17 +779,6 @@ destroy
 (
 )
 {
-this
-.
-emit
-(
-"
-descriptor
--
-destroyed
-"
-)
-;
 this
 .
 _browser
