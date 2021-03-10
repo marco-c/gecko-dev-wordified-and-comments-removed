@@ -713,14 +713,14 @@ experiment
 ;
 this
 .
-_updateSyncStore
+_emitExperimentUpdates
 (
 experiment
 )
 ;
 this
 .
-_emitExperimentUpdates
+_updateSyncStore
 (
 experiment
 )

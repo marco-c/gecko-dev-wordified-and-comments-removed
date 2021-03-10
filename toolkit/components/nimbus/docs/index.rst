@@ -72,6 +72,3 @@ maxdepth
 integration
 .
 md
-testing
-.
-md
