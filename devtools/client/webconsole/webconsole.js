@@ -170,6 +170,7 @@ WebConsole
 constructor
 (
 toolbox
+commands
 iframeWindow
 chromeWindow
 isBrowserConsole
@@ -182,6 +183,12 @@ this
 toolbox
 =
 toolbox
+;
+this
+.
+commands
+=
+commands
 ;
 this
 .

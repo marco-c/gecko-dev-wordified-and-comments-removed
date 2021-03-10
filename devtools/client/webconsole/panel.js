@@ -53,6 +53,7 @@ WebConsolePanel
 (
 iframeWindow
 toolbox
+commands
 )
 {
 this
@@ -66,6 +67,12 @@ this
 _toolbox
 =
 toolbox
+;
+this
+.
+_commands
+=
+commands
 ;
 EventEmitter
 .
@@ -234,6 +241,9 @@ WebConsole
 this
 .
 _toolbox
+this
+.
+_commands
 webConsoleUIWindow
 chromeWindow
 )

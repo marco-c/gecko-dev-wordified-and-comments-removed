@@ -642,6 +642,7 @@ function
 (
 iframeWindow
 toolbox
+commands
 )
 {
 return
@@ -650,6 +651,7 @@ OptionsPanel
 (
 iframeWindow
 toolbox
+commands
 )
 ;
 }
@@ -883,6 +885,7 @@ function
 (
 iframeWindow
 toolbox
+commands
 )
 {
 return
@@ -891,6 +894,7 @@ InspectorPanel
 (
 iframeWindow
 toolbox
+commands
 )
 ;
 }
@@ -1087,6 +1091,7 @@ function
 (
 iframeWindow
 toolbox
+commands
 )
 {
 return
@@ -1095,6 +1100,7 @@ WebConsolePanel
 (
 iframeWindow
 toolbox
+commands
 )
 ;
 }
@@ -1245,6 +1251,7 @@ function
 (
 iframeWindow
 toolbox
+commands
 )
 {
 return
@@ -1253,6 +1260,7 @@ DebuggerPanel
 (
 iframeWindow
 toolbox
+commands
 )
 ;
 }
@@ -1405,6 +1413,7 @@ function
 (
 iframeWindow
 toolbox
+commands
 )
 {
 return
@@ -1413,6 +1422,7 @@ StyleEditorPanel
 (
 iframeWindow
 toolbox
+commands
 )
 ;
 }
@@ -1587,7 +1597,8 @@ build
 function
 (
 frame
-target
+toolbox
+commands
 )
 {
 return
@@ -1595,7 +1606,8 @@ new
 NewPerformancePanel
 (
 frame
-target
+toolbox
+commands
 )
 ;
 }
@@ -1652,7 +1664,8 @@ build
 function
 (
 frame
-target
+toolbox
+commands
 )
 {
 return
@@ -1660,7 +1673,8 @@ new
 PerformancePanel
 (
 frame
-target
+toolbox
+commands
 )
 ;
 }
@@ -1916,7 +1930,8 @@ build
 function
 (
 frame
-target
+toolbox
+commands
 )
 {
 return
@@ -1924,7 +1939,8 @@ new
 MemoryPanel
 (
 frame
-target
+toolbox
+commands
 )
 ;
 }
@@ -2098,6 +2114,7 @@ function
 (
 iframeWindow
 toolbox
+commands
 )
 {
 return
@@ -2106,6 +2123,7 @@ NetMonitorPanel
 (
 iframeWindow
 toolbox
+commands
 )
 ;
 }
@@ -2268,6 +2286,7 @@ function
 (
 iframeWindow
 toolbox
+commands
 )
 {
 return
@@ -2276,6 +2295,7 @@ StoragePanel
 (
 iframeWindow
 toolbox
+commands
 )
 ;
 }
@@ -2436,6 +2456,7 @@ function
 (
 iframeWindow
 toolbox
+commands
 )
 {
 return
@@ -2444,6 +2465,7 @@ DomPanel
 (
 iframeWindow
 toolbox
+commands
 )
 ;
 }
@@ -2610,6 +2632,7 @@ build
 (
 iframeWindow
 toolbox
+commands
 )
 {
 return
@@ -2618,6 +2641,7 @@ AccessibilityPanel
 (
 iframeWindow
 toolbox
+commands
 )
 ;
 }
@@ -2738,6 +2762,7 @@ function
 (
 iframeWindow
 toolbox
+commands
 )
 {
 return
@@ -2746,6 +2771,7 @@ ApplicationPanel
 (
 iframeWindow
 toolbox
+commands
 )
 ;
 }

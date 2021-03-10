@@ -10,6 +10,7 @@ constructor
 (
 panelWin
 toolbox
+commands
 )
 {
 this
@@ -23,6 +24,12 @@ this
 toolbox
 =
 toolbox
+;
+this
+.
+commands
+=
+commands
 ;
 }
 async

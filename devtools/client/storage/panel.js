@@ -46,6 +46,7 @@ constructor
 (
 panelWin
 toolbox
+commands
 )
 {
 EventEmitter
@@ -60,6 +61,12 @@ this
 _toolbox
 =
 toolbox
+;
+this
+.
+_commands
+=
+commands
 ;
 this
 .
@@ -110,6 +117,9 @@ _panelWin
 this
 .
 _toolbox
+this
+.
+_commands
 )
 ;
 await
