@@ -223,13 +223,6 @@ tm
 .
 spinEventLoopUntil
 (
-"
-FirstStartup
-.
-jsm
-:
-init
-"
 (
 )
 =

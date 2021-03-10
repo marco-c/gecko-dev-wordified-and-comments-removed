@@ -676,13 +676,6 @@ tm
 .
 spinEventLoopUntil
 (
-"
-BrowserElementChildPreload
-.
-js
-:
-_waitForResult
-"
 (
 )
 =

@@ -149,17 +149,6 @@ tm
 .
 spinEventLoopUntil
 (
-"
-Test
-(
-plugin
-.
-js
--
->
-setTestPluginEnabledState
-)
-"
 (
 )
 =

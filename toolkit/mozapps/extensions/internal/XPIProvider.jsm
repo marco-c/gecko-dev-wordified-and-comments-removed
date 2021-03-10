@@ -1154,13 +1154,6 @@ tm
 .
 spinEventLoopUntil
 (
-"
-XPIProvider
-.
-jsm
-:
-awaitPromise
-"
 (
 )
 =

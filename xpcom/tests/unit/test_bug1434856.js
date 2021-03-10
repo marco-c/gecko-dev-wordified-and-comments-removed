@@ -101,16 +101,6 @@ tm
 .
 spinEventLoopUntil
 (
-"
-Test
-(
-test_bug1434856
-.
-js
-:
-run_test
-)
-"
 (
 )
 =

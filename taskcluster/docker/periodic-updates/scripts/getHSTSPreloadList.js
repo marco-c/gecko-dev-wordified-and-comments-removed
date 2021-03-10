@@ -1667,13 +1667,6 @@ tm
 .
 spinEventLoopUntil
 (
-"
-getHSTSPreloadList
-.
-js
-:
-spinResolve
-"
 (
 )
 =
