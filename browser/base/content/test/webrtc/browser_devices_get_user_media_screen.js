@@ -4861,7 +4861,6 @@ disabled
 "
 )
 ;
-}
 ok
 (
 !
@@ -4881,6 +4880,7 @@ shown
 "
 )
 ;
+}
 menulist
 .
 getItemAtIndex
@@ -4944,7 +4944,6 @@ disabled
 "
 )
 ;
-}
 ok
 (
 !
@@ -4965,6 +4964,7 @@ shown
 "
 )
 ;
+}
 await
 disableObserverVerification
 (
