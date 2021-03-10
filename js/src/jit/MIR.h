@@ -52772,7 +52772,7 @@ MNullaryInstruction
 {
 CompilerGCPointer
 <
-LexicalEnvironmentObject
+NamedLambdaObject
 *
 >
 templateObj_
@@ -52780,7 +52780,7 @@ templateObj_
 explicit
 MNewNamedLambdaObject
 (
-LexicalEnvironmentObject
+NamedLambdaObject
 *
 templateObj
 )
@@ -52810,7 +52810,7 @@ INSTRUCTION_HEADER
 NewNamedLambdaObject
 )
 TRIVIAL_NEW_WRAPPERS
-LexicalEnvironmentObject
+NamedLambdaObject
 *
 templateObj
 (
