@@ -67,7 +67,11 @@ with
 proper
 spacing
 .
-fake1
+fake
+-
+identifier
+-
+1
 =
 Fake
 text
@@ -88,7 +92,11 @@ than
 one
 resource
 comment
-fake2
+fake
+-
+identifier
+-
+2
 =
 Fake
 text

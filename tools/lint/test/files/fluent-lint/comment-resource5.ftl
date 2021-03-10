@@ -69,7 +69,11 @@ one
 space
 below
 .
-fake1
+fake
+-
+identifier
+-
+1
 =
 Fake
 text

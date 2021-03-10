@@ -69,7 +69,11 @@ empty
 line
 preceeding
 .
-fake1
+fake
+-
+identifier
+-
+1
 =
 Fake
 text
