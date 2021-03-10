@@ -21,10 +21,10 @@ namespace
 a11y
 {
 class
-LocalAccessible
+Accessible
 ;
 class
-AccessibleOrProxy
+LocalAccessible
 ;
 class
 xpcAccessible
@@ -515,7 +515,8 @@ Intl
 (
 )
 ;
-AccessibleOrProxy
+Accessible
+*
 IntlGeneric
 (
 )
