@@ -569,13 +569,13 @@ installer
 "
     
 import
-urllib2
+requests
     
-f
+r
 =
-urllib2
+requests
 .
-urlopen
+get
 (
 RUSTUP_MANIFEST
 )
@@ -583,8 +583,25 @@ RUSTUP_MANIFEST
 for
 line
 in
-f
+r
+.
+iter_lines
+(
+)
 :
+        
+line
+=
+line
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
         
 key
 value
@@ -598,7 +615,6 @@ line
 .
 split
 (
-b
 "
 =
 "
@@ -775,6 +791,9 @@ end
 =
 "
 "
+flush
+=
+True
 )
         
 else
@@ -796,6 +815,9 @@ end
 =
 "
 "
+flush
+=
+True
 )
         
 checksum
@@ -901,27 +923,6 @@ checksums
 "
 "
     
-sys
-.
-stdout
-=
-os
-.
-fdopen
-(
-sys
-.
-stdout
-.
-fileno
-(
-)
-"
-w
-"
-0
-)
-    
 mod_path
 =
 os
@@ -1026,6 +1027,9 @@ end
 =
 "
 "
+flush
+=
+True
 )
     
 version
