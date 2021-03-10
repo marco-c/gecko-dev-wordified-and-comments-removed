@@ -8647,7 +8647,7 @@ true
 ;
 if
 (
-gProtonTabs
+gProtonPlacesTooltip
 )
 {
 let
