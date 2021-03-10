@@ -99,7 +99,7 @@ generics
 Color
 :
 :
-Numeric
+rgba
 (
 resolved
 )
@@ -175,7 +175,9 @@ generics
 Color
 :
 :
-CurrentColor
+currentcolor
+(
+)
 }
 ;
 color
