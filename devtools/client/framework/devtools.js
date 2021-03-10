@@ -1671,7 +1671,7 @@ const
 descriptor
 =
 await
-this
+TabDescriptorFactory
 .
 createDescriptorForTab
 (
@@ -2231,7 +2231,7 @@ destroy
 )
 ;
 }
-createDescriptorForTab
+createDescriptorForTabForWebExtension
 :
 function
 (
@@ -2244,6 +2244,11 @@ TabDescriptorFactory
 createDescriptorForTab
 (
 tab
+{
+forceCreationForWebextension
+:
+true
+}
 )
 ;
 }
