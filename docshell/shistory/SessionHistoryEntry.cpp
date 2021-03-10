@@ -6352,6 +6352,10 @@ mFrameLoader
 ;
 MOZ_RELEASE_ASSERT
 (
+!
+aFrameLoader
+|
+|
 StaticPrefs
 :
 :
