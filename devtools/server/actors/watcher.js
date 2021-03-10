@@ -688,6 +688,15 @@ SERVER_SENT_EVENT
 ]
 :
 hasBrowserElement
+[
+Resources
+.
+TYPES
+.
+WEBSOCKET
+]
+:
+hasBrowserElement
 }
 "
 set

@@ -122,6 +122,11 @@ states
 .
 js
 "
+"
+websockets
+.
+js
+"
 )
 with
 Files
