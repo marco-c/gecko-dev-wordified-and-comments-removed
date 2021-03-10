@@ -316,6 +316,10 @@ nasm
 linux64
 -
 node
+-
+linux64
+-
+sysroot
 run
 :
 using
@@ -525,6 +529,10 @@ nasm
 linux64
 -
 node
+-
+linux64
+-
+sysroot
 run
 :
 using
@@ -746,6 +754,10 @@ nasm
 linux64
 -
 node
+-
+linux64
+-
+sysroot
 run
 :
 using
@@ -1215,6 +1227,10 @@ nasm
 linux64
 -
 node
+-
+linux64
+-
+sysroot
 run
 :
 using
