@@ -221,9 +221,6 @@ aFrameList
 )
 override
 ;
-#
-ifdef
-DEBUG
 virtual
 void
 InsertFrames
@@ -246,6 +243,9 @@ aFrameList
 )
 override
 ;
+#
+ifdef
+DEBUG
 virtual
 void
 RemoveFrame
