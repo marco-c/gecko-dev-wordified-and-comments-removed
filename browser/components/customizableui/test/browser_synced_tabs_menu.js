@@ -3113,6 +3113,7 @@ checkTabsPage
 "
 Show
 More
+Tabs
 "
 )
 ;

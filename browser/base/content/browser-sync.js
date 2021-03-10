@@ -1538,6 +1538,12 @@ down
 let
 label
 =
+gSync
+.
+fluentStrings
+.
+formatValueSync
+(
 this
 .
 tabsList
@@ -1545,6 +1551,7 @@ tabsList
 getAttribute
 (
 labelAttr
+)
 )
 ;
 showMoreItem
