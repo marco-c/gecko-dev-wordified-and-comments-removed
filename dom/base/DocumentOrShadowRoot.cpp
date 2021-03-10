@@ -1815,6 +1815,7 @@ DocumentOrShadowRoot
 GetFullscreenElement
 (
 )
+const
 {
 if
 (

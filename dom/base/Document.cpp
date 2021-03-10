@@ -67298,6 +67298,7 @@ Document
 GetUnretargetedFullScreenElement
 (
 )
+const
 {
 for
 (

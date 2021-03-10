@@ -399,6 +399,7 @@ Element
 GetFullscreenElement
 (
 )
+const
 ;
 Element
 *
