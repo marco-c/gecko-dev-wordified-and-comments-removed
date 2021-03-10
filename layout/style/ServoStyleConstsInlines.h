@@ -4644,7 +4644,8 @@ IsAuto
 )
 |
 |
-IsExtremumLength
+!
+IsLengthPercentage
 (
 )
 ;
@@ -4668,7 +4669,8 @@ IsNone
 )
 |
 |
-IsExtremumLength
+!
+IsLengthPercentage
 (
 )
 ;

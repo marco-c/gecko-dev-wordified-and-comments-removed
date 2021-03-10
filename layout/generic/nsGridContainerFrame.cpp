@@ -3198,7 +3198,7 @@ GetWritingMode
 &
 size
 .
-IsExtremumLength
+BehavesLikeInitialValueOnBlockAxis
 (
 )
 )
@@ -3274,7 +3274,7 @@ GetWritingMode
 &
 minSize
 .
-IsExtremumLength
+BehavesLikeInitialValueOnBlockAxis
 (
 )
 )
@@ -28485,7 +28485,7 @@ ourInlineAxis
 &
 sizeStyle
 .
-IsExtremumLength
+BehavesLikeInitialValueOnBlockAxis
 (
 )
 )
@@ -28718,7 +28718,7 @@ inInlineAxis
 &
 style
 .
-IsExtremumLength
+BehavesLikeInitialValueOnBlockAxis
 (
 )
 )
@@ -28729,10 +28729,12 @@ if
 inInlineAxis
 &
 &
-style
-.
-IsExtremumLength
+nsIFrame
+:
+:
+ToExtremumLength
 (
+style
 )
 )
 |
