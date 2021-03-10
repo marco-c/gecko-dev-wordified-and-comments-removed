@@ -1065,6 +1065,15 @@ toolbar
 titlebar
 -
 color
+:
+not
+(
+:
+-
+moz
+-
+lwtheme
+)
 {
 appearance
 :
