@@ -283,7 +283,7 @@ version
 .
 3
 "
-arch
+arc
 :
 "
 x64

@@ -109,7 +109,6 @@ endif
 void
 StopAndAccumulate
 (
-const
 TimerId
 &
 &
@@ -132,7 +131,6 @@ endif
 void
 Cancel
 (
-const
 TimerId
 &
 &

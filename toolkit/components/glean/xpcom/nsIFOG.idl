@@ -60,13 +60,5 @@ ACString
 aPingName
 )
 ;
-[
-implicit_jscontext
-]
-Promise
-testFlushAllChildren
-(
-)
-;
 }
 ;
