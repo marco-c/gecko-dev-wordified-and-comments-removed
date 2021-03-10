@@ -17,15 +17,6 @@ RecommendedPreferences
 =
 {
 "
-app
-.
-update
-.
-disabledForTesting
-"
-:
-true
-"
 focusmanager
 .
 testmode
