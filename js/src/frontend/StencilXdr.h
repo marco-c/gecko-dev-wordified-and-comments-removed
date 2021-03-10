@@ -70,6 +70,9 @@ h
 namespace
 js
 {
+class
+LifoAlloc
+;
 namespace
 frontend
 {
@@ -299,6 +302,9 @@ mode
 >
 *
 xdr
+LifoAlloc
+&
+alloc
 ParserAtomSpan
 &
 parserAtomData
