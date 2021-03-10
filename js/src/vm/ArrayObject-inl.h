@@ -218,14 +218,6 @@ obj
 aobj
 -
 >
-initGroup
-(
-nullptr
-)
-;
-aobj
--
->
 initShape
 (
 shape
