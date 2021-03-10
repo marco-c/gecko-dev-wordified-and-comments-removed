@@ -345,6 +345,11 @@ nsTArrayForwardDeclare
 h
 "
 "
+nsTHashMap
+.
+h
+"
+"
 nsTHashtable
 .
 h
