@@ -345,6 +345,8 @@ ok
 (
 blob
 instanceof
+that
+.
 Blob
 "
 We
@@ -402,6 +404,8 @@ ok
 (
 blob
 instanceof
+that
+.
 Blob
 "
 We
@@ -783,6 +787,8 @@ ok
 (
 blob
 instanceof
+that
+.
 Blob
 "
 We
@@ -840,6 +846,8 @@ ok
 (
 blob
 instanceof
+that
+.
 Blob
 "
 We

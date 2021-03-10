@@ -126,6 +126,13 @@ iframe
 .
 contentDocument
 ;
+let
+win
+=
+iframe
+.
+contentWindow
+;
 doc
 .
 open
@@ -241,6 +248,8 @@ postMessage
 (
 elem
 instanceof
+win
+.
 HTMLDivElement
 ?
 "
