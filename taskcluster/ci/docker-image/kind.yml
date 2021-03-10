@@ -470,11 +470,6 @@ definition
 debian
 -
 build
-args
-:
-ARCH
-:
-amd64
 debian8
 -
 mozjs
@@ -663,11 +658,6 @@ definition
 debian
 -
 build
-args
-:
-ARCH
-:
-amd64
 debian10
 -
 test
