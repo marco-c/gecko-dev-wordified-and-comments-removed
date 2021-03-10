@@ -54,6 +54,7 @@ EventTarget
 }
 class
 GeckoMVMContext
+final
 :
 public
 MVMContext
