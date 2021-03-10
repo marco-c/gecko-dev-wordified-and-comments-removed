@@ -94,6 +94,8 @@ code
 tools
 /
 profiler
+-
+xpcom
 build_doc
 :
 -
@@ -447,3 +449,8 @@ static
 analysis
 .
 html
+xpcom
+/
+xpcom
+:
+xpcom
