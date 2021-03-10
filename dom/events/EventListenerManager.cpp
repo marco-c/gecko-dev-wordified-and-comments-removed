@@ -1487,7 +1487,7 @@ mInSystemGroup
 doc
 -
 >
-DontWarnAboutMutationEventsAndAllowSlowDOMMutations
+DevToolsWatchingDOMMutations
 (
 )
 )
