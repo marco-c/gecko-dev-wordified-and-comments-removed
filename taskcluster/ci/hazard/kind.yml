@@ -292,6 +292,10 @@ cbindgen
 linux64
 -
 node
+-
+linux64
+-
+sysroot
 linux64
 -
 haz
@@ -411,6 +415,10 @@ node
 linux64
 -
 lucetc
+-
+linux64
+-
+sysroot
 -
 wasi
 -

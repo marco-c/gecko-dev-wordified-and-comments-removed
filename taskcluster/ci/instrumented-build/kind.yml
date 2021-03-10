@@ -352,6 +352,10 @@ nasm
 linux64
 -
 node
+-
+linux32
+-
+sysroot
 linux64
 -
 shippable
@@ -469,6 +473,10 @@ node
 linux64
 -
 lucetc
+-
+linux64
+-
+sysroot
 -
 wasi
 -

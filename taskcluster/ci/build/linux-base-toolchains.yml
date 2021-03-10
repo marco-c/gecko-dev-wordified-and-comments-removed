@@ -297,6 +297,10 @@ nasm
 linux64
 -
 node
+-
+linux64
+-
+sysroot
 linux64
 -
 base
@@ -505,6 +509,10 @@ nasm
 linux64
 -
 node
+-
+linux64
+-
+sysroot
 linux64
 -
 base
@@ -694,6 +702,10 @@ nasm
 linux64
 -
 node
+-
+linux64
+-
+sysroot
 linux64
 -
 base
@@ -893,3 +905,7 @@ nasm
 linux64
 -
 node
+-
+linux64
+-
+sysroot

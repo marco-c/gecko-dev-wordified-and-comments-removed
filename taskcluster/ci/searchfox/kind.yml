@@ -299,6 +299,10 @@ linux64
 -
 lucetc
 -
+linux64
+-
+sysroot
+-
 wasi
 -
 sysroot
