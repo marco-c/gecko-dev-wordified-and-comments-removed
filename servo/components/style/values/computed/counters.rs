@@ -8,10 +8,10 @@ values
 computed
 :
 :
-url
+image
 :
 :
-ComputedImageUrl
+Image
 ;
 use
 crate
@@ -88,7 +88,7 @@ generics
 :
 GenericContent
 <
-ComputedImageUrl
+Image
 >
 ;
 pub
@@ -100,6 +100,6 @@ generics
 :
 GenericContentItem
 <
-ComputedImageUrl
+Image
 >
 ;

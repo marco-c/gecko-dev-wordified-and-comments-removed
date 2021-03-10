@@ -631,7 +631,7 @@ pub
 enum
 GenericContent
 <
-ImageUrl
+Image
 >
 {
 Normal
@@ -652,7 +652,7 @@ OwnedSlice
 <
 GenericContentItem
 <
-ImageUrl
+Image
 >
 >
 )
@@ -668,11 +668,11 @@ Content
 ;
 impl
 <
-ImageUrl
+Image
 >
 Content
 <
-ImageUrl
+Image
 >
 {
 #
@@ -733,7 +733,6 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
-SpecifiedValueInfo
 ToComputedValue
 ToCss
 ToResolvedValue
@@ -751,7 +750,7 @@ pub
 enum
 GenericContentItem
 <
-ImageUrl
+I
 >
 {
 String
@@ -994,9 +993,9 @@ Attr
 (
 Attr
 )
-Url
+Image
 (
-ImageUrl
+I
 )
 }
 pub
