@@ -907,14 +907,6 @@ false
 ]
 [
 "
-prompts
-.
-contentPromptSubDialog
-"
-false
-]
-[
-"
 security
 .
 certerrors
