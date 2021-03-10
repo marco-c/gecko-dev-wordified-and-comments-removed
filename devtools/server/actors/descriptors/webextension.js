@@ -865,6 +865,17 @@ _childActorID
 =
 null
 ;
+this
+.
+emit
+(
+"
+descriptor
+-
+destroyed
+"
+)
+;
 }
 _onChildExit
 (
