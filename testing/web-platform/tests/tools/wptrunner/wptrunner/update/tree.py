@@ -474,6 +474,7 @@ strip
 )
 =
 =
+b
 "
 "
     
@@ -588,6 +589,7 @@ qseries
 .
 split
 (
+b
 "
 \
 n
@@ -829,6 +831,15 @@ log_error
 .
 strip
 (
+)
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
         
 self
@@ -1076,6 +1087,7 @@ strip
 )
 =
 =
+b
 "
 "
     
@@ -1315,6 +1327,15 @@ entry
 in
 ignored_files
 .
+decode
+(
+'
+utf
+-
+8
+'
+)
+.
 split
 (
 '
@@ -1459,6 +1480,7 @@ data
 .
 split
 (
+b
 "
 \
 n
@@ -1605,6 +1627,7 @@ data
 .
 split
 (
+b
 "
 \
 n
@@ -1703,6 +1726,15 @@ branch
             
 if
 ref
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 =
 =
 "
@@ -1724,6 +1756,15 @@ commit_cls
 (
 self
 sha1
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 )
         
 assert
@@ -2055,6 +2096,15 @@ heads
 )
 :
 ]
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 for
 sha1
 ref
@@ -2070,6 +2120,7 @@ ref
 .
 startswith
 (
+b
 "
 refs
 /
@@ -2404,6 +2455,7 @@ repo_path
 .
 split
 (
+b
 "
 \
 n
@@ -2428,6 +2480,15 @@ join
 (
 repo_path
 item
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 )
 self
 .
@@ -2497,6 +2558,7 @@ output
 .
 split
 (
+b
 "
 \
 n
@@ -2525,6 +2587,7 @@ line
 .
 split
 (
+b
 "
 "
 )
@@ -2890,6 +2953,15 @@ B
 self
 .
 sha1
+)
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
 .
 split
