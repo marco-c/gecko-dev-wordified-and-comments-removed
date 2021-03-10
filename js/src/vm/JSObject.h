@@ -384,12 +384,10 @@ getClass
 const
 {
 return
-group
-(
-)
+shape_
 -
 >
-clasp
+getObjectClass
 (
 )
 ;

@@ -2957,7 +2957,7 @@ ITERATOR_FINALIZE_KIND
 GetInitialHeap
 (
 GenericObject
-group
+clasp
 )
 shape
 group

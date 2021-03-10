@@ -726,7 +726,11 @@ heap
 GetInitialHeap
 (
 newKind
-group
+&
+T
+:
+:
+class_
 )
 ;
 return
@@ -767,7 +771,8 @@ heap
 GetInitialHeap
 (
 GenericObject
-group
+&
+class_
 )
 ;
 return

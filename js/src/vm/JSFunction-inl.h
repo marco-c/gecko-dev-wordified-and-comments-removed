@@ -321,10 +321,10 @@ JSClass
 *
 clasp
 =
-group
+shape
 -
 >
-clasp
+getObjectClass
 (
 )
 ;
