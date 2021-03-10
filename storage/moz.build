@@ -179,6 +179,11 @@ mozStorageStatementRow
 h
 "
 "
+SQLiteMutex
+.
+h
+"
+"
 StatementCache
 .
 h

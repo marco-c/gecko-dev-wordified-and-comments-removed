@@ -674,6 +674,9 @@ synchronousClose
 (
 )
 ;
+uint32_t
+mTransactionNestingLevel
+;
 }
 ;
 class
