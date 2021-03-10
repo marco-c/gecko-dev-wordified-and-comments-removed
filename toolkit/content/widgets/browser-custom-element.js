@@ -5910,12 +5910,6 @@ case
 mousedown
 "
 :
-aEvent
-.
-preventClickEvent
-(
-)
-;
 case
 "
 contextmenu
