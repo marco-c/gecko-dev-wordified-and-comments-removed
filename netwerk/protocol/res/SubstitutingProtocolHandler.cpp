@@ -1022,6 +1022,7 @@ Next
 )
 )
 {
+const
 SubstitutionEntry
 &
 entry
