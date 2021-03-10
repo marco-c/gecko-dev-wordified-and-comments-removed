@@ -429,6 +429,16 @@ tm
 .
 spinEventLoopUntil
 (
+"
+Test
+(
+head
+.
+js
+:
+setTestPluginEnabledState
+)
+"
 (
 )
 =

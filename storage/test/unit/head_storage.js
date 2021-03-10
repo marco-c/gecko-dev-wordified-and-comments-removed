@@ -384,6 +384,16 @@ tm
 .
 spinEventLoopUntil
 (
+"
+Test
+(
+head_storage
+.
+js
+:
+asyncCleanup
+)
+"
 (
 )
 =

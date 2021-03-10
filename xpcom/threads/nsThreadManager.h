@@ -193,6 +193,10 @@ nsThreadManager
 nsresult
 SpinEventLoopUntilInternal
 (
+const
+nsACString
+&
+aVeryGoodReasonToDoThis
 nsINestedEventLoopCondition
 *
 aCondition
