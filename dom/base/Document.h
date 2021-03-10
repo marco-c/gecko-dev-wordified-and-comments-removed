@@ -2531,6 +2531,13 @@ return
 mPartitionedPrincipal
 ;
 }
+nsIPrincipal
+*
+GetPrincipalForPrefBasedHacks
+(
+)
+const
+;
 void
 ClearActiveStoragePrincipal
 (
