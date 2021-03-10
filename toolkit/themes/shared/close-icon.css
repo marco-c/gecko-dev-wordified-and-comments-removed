@@ -146,10 +146,10 @@ mix
 (
 in
 srgb
-transparent
+currentColor
 10
 %
-currentColor
+transparent
 )
 ;
 }
@@ -172,10 +172,10 @@ mix
 (
 in
 srgb
-transparent
+currentColor
 20
 %
-currentColor
+transparent
 )
 ;
 }
