@@ -7217,10 +7217,11 @@ Type
 :
 Shape
 :
-TraceEdge
-(
-trc
+{
+GCPtrShape
 &
+shapeField
+=
 stubInfo
 -
 >
@@ -7234,6 +7235,12 @@ Shape
 stub
 offset
 )
+;
+TraceSameZoneCrossCompartmentEdge
+(
+trc
+&
+shapeField
 "
 cacheir
 -
@@ -7243,6 +7250,7 @@ shape
 ;
 break
 ;
+}
 case
 StubField
 :
