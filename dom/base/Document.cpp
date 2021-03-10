@@ -50387,6 +50387,8 @@ aNewRequest
 uint16_t
 &
 aBFCacheCombo
+bool
+aIncludeSubdocuments
 )
 {
 bool
@@ -51129,6 +51131,9 @@ false
 }
 if
 (
+aIncludeSubdocuments
+&
+&
 mSubDocuments
 )
 {
@@ -51200,6 +51205,7 @@ CanSavePresentation
 (
 nullptr
 subDocBFCacheCombo
+true
 )
 :
 false
