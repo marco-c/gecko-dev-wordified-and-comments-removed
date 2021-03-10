@@ -1916,6 +1916,10 @@ gtk_widget_set_app_paintable
 )
 STUB
 (
+gtk_widget_set_size_request
+)
+STUB
+(
 gtk_window_set_auto_startup_notification
 )
 STUB
