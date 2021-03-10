@@ -616,7 +616,7 @@ compartment
 const
 {
 return
-group
+shape
 (
 )
 -
@@ -689,7 +689,7 @@ shape
 {
 MOZ_ASSERT
 (
-zone
+maybeCCWRealm
 (
 )
 =
@@ -697,7 +697,7 @@ zone
 shape
 -
 >
-zone
+realm
 (
 )
 )
@@ -1479,7 +1479,7 @@ this
 )
 ;
 return
-group
+shape
 (
 )
 -
@@ -1509,7 +1509,7 @@ maybeCCWRealm
 const
 {
 return
-group
+shape
 (
 )
 -
