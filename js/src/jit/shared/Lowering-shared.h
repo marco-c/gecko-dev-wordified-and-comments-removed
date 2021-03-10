@@ -1256,6 +1256,10 @@ MDefinition
 mir
 bool
 useConstant
+bool
+useAtStart
+=
+false
 )
 ;
 inline
@@ -1265,6 +1269,10 @@ useBoxOrTyped
 MDefinition
 *
 mir
+bool
+useAtStart
+=
+false
 )
 ;
 inline
