@@ -59481,7 +59481,7 @@ metadata
 quotaManager
 -
 >
-GetDirectoryMetadataWithOriginMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 (
 originDir
 )
