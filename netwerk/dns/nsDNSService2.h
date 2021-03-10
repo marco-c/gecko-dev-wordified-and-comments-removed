@@ -428,5 +428,13 @@ mFailedSVCDomainNames
 ;
 }
 ;
+already_AddRefed
+<
+nsIDNSService
+>
+GetOrInitDNSService
+(
+)
+;
 #
 endif
