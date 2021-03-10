@@ -5943,7 +5943,7 @@ isExtensible
 }
 JSObject
 *
-LexicalEnvironmentObject
+ExtensibleLexicalEnvironmentObject
 :
 :
 thisObject
@@ -5951,13 +5951,6 @@ thisObject
 )
 const
 {
-MOZ_ASSERT
-(
-isExtensible
-(
-)
-)
-;
 JSObject
 *
 obj
@@ -18970,7 +18963,7 @@ JSContext
 cx
 Handle
 <
-LexicalEnvironmentObject
+ExtensibleLexicalEnvironmentObject
 *
 >
 lexicalEnv
@@ -19221,10 +19214,9 @@ return
 true
 ;
 }
+static
+MOZ_MUST_USE
 bool
-js
-:
-:
 CheckVarNameConflict
 (
 JSContext
@@ -19508,7 +19500,7 @@ HandleScript
 script
 Handle
 <
-LexicalEnvironmentObject
+ExtensibleLexicalEnvironmentObject
 *
 >
 lexicalEnv
@@ -20273,7 +20265,7 @@ HandleScript
 script
 Handle
 <
-LexicalEnvironmentObject
+ExtensibleLexicalEnvironmentObject
 *
 >
 lexicalEnv
@@ -20452,6 +20444,7 @@ true
 ;
 }
 static
+MOZ_MUST_USE
 bool
 CheckVarNameConflictsInEnv
 (
@@ -21067,7 +21060,7 @@ envChain
 ;
 Rooted
 <
-LexicalEnvironmentObject
+ExtensibleLexicalEnvironmentObject
 *
 >
 lexicalEnv

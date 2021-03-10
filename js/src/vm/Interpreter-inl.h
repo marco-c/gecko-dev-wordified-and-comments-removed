@@ -1844,7 +1844,7 @@ InitGlobalLexicalOperation
 JSContext
 *
 cx
-LexicalEnvironmentObject
+ExtensibleLexicalEnvironmentObject
 *
 lexicalEnv
 JSScript
