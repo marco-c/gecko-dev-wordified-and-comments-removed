@@ -121,7 +121,9 @@ target
 once
 (
 "
-close
+target
+-
+destroyed
 "
 (
 )

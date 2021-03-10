@@ -1964,15 +1964,6 @@ _destroyTarget
 (
 )
 {
-this
-.
-emit
-(
-"
-close
-"
-)
-;
 if
 (
 this
