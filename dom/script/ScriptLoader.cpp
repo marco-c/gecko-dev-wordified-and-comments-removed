@@ -195,6 +195,17 @@ mozilla
 /
 dom
 /
+AutoEntryScript
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DocGroup
 .
 h

@@ -575,6 +575,9 @@ namespace
 dom
 {
 class
+AutoEntryScript
+;
+class
 Exception
 ;
 }

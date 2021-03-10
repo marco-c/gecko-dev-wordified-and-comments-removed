@@ -288,6 +288,17 @@ mozilla
 /
 dom
 /
+AutoEntryScript
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 BindingDeclarations
 .
 h
