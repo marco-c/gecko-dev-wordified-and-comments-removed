@@ -97,6 +97,11 @@ nbytes
 ;
 CHECK
 (
+buffer
+)
+;
+CHECK
+(
 JS
 :
 :
@@ -795,6 +800,11 @@ NewSharedArrayBuffer
 cx
 nbytes
 )
+)
+;
+CHECK
+(
+buffer
 )
 ;
 CHECK
