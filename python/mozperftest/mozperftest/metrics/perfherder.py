@@ -1683,7 +1683,7 @@ name
 "
 :
 "
-browsertime
+mozperftest
 "
 }
         
