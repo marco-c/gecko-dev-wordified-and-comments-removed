@@ -318,6 +318,8 @@ init
 decorate_task
 (
 withMockApiServer
+(
+)
 AddonStudies
 .
 withStudies
@@ -1053,6 +1055,8 @@ uninstalled
 decorate_task
 (
 withMockApiServer
+(
+)
 AddonStudies
 .
 withStudies

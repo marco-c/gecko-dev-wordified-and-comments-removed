@@ -23,6 +23,8 @@ jsm
 decorate_task
 (
 withMockPreferences
+(
+)
 async
 function
 testApplyMigrations
@@ -87,6 +89,8 @@ applied
 decorate_task
 (
 withMockPreferences
+(
+)
 async
 function
 testPrefMigration
@@ -271,6 +275,8 @@ migratedPref
 decorate_task
 (
 withMockPreferences
+(
+)
 async
 function
 testMigration0

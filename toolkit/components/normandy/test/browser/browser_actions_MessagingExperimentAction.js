@@ -103,6 +103,8 @@ jsm
 decorate_task
 (
 withStudiesEnabled
+(
+)
 withStub
 (
 Uptake

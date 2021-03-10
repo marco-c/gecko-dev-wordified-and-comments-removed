@@ -136,6 +136,11 @@ factories
 function
 withAboutStudies
 (
+)
+{
+return
+function
+(
 testFunc
 )
 {
@@ -173,9 +178,13 @@ browser
 )
 ;
 }
+;
+}
 decorate_task
 (
 withAboutStudies
+(
+)
 async
 function
 testAboutStudiesWorks
@@ -259,6 +268,8 @@ OS
 }
 )
 withAboutStudies
+(
+)
 async
 function
 testLearnMore
@@ -404,6 +415,8 @@ formatted
 decorate_task
 (
 withAboutStudies
+(
+)
 async
 function
 testUpdatePreferences
@@ -803,6 +816,8 @@ false
 ]
 )
 withAboutStudies
+(
+)
 async
 function
 testStudyListing
@@ -1719,6 +1734,8 @@ withStudies
 ]
 )
 withAboutStudies
+(
+)
 async
 function
 testStudyListingNoStudies
@@ -1854,6 +1871,8 @@ exist
 decorate_task
 (
 withAboutStudies
+(
+)
 AddonStudies
 .
 withStudies
@@ -2128,6 +2147,8 @@ false
 }
 )
 withAboutStudies
+(
+)
 AddonStudies
 .
 withStudies
@@ -2381,6 +2402,8 @@ false
 ]
 )
 withAboutStudies
+(
+)
 async
 function
 testStudyListing
@@ -2982,6 +3005,8 @@ false
 ]
 )
 withAboutStudies
+(
+)
 async
 function
 testOtherTabsUpdated

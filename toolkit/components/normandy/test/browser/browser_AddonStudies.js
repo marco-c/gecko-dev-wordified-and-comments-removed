@@ -668,6 +668,8 @@ Date
 ]
 )
 withSendEventSpy
+(
+)
 withInstalledWebExtension
 (
 {
@@ -691,7 +693,7 @@ activeUninstalledStudy
 activeInstalledStudy
 inactiveStudy
 ]
-sendEventStub
+sendEventSpy
 [
 addonId
 addonFile
@@ -986,7 +988,7 @@ installed
 ;
 ok
 (
-sendEventStub
+sendEventSpy
 .
 calledOnce
 "
