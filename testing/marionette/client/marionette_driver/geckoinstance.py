@@ -1821,9 +1821,15 @@ gecko_log
 :
             
 if
-six
+hasattr
+(
+sys
 .
-PY2
+stdout
+"
+buffer
+"
+)
 :
                 
 process_args
@@ -1847,6 +1853,8 @@ utf
 sys
 .
 stdout
+.
+buffer
 )
             
 else
@@ -1873,8 +1881,6 @@ utf
 sys
 .
 stdout
-.
-buffer
 )
         
 else
