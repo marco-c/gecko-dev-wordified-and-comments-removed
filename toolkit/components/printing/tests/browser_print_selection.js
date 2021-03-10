@@ -308,9 +308,6 @@ PrintUtils
 .
 startPrintWindow
 (
-"
-tests
-"
 frameBC
 {
 printSelectionOnly

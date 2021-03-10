@@ -96,9 +96,6 @@ PrintUtils
 .
 startPrintWindow
 (
-"
-window_print
-"
 aOpenWindowInfo
 .
 parent
