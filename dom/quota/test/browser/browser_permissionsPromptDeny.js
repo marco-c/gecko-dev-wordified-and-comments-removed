@@ -320,7 +320,7 @@ shown
 triggerSecondaryCommand
 (
 this
-1
+true
 )
 ;
 }
