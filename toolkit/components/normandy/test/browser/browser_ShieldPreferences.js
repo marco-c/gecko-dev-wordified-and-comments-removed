@@ -107,6 +107,8 @@ init
 decorate_task
 (
 withMockPreferences
+(
+)
 AddonStudies
 .
 withStudies
@@ -249,6 +251,8 @@ studies
 decorate_task
 (
 withMockPreferences
+(
+)
 PreferenceExperiments
 .
 withMockExperiments

@@ -19,6 +19,11 @@ enabled
 function
 withPrivacyPrefs
 (
+)
+{
+return
+function
+(
 testFunc
 )
 {
@@ -58,6 +63,8 @@ browser
 )
 ;
 }
+;
+}
 decorate_task
 (
 withPrefEnv
@@ -74,6 +81,8 @@ true
 }
 )
 withPrivacyPrefs
+(
+)
 async
 function
 testCheckedOnLoad
@@ -136,6 +145,8 @@ false
 }
 )
 withPrivacyPrefs
+(
+)
 async
 function
 testUncheckedOnLoad
@@ -199,6 +210,8 @@ true
 }
 )
 withPrivacyPrefs
+(
+)
 async
 function
 testCheckboxes
@@ -304,6 +317,8 @@ true
 }
 )
 withPrivacyPrefs
+(
+)
 async
 function
 testPrefWatchers
@@ -396,6 +411,8 @@ checkbox
 decorate_task
 (
 withPrivacyPrefs
+(
+)
 async
 function
 testViewStudiesLink

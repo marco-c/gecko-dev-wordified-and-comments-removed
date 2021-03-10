@@ -921,6 +921,8 @@ updated
 decorate_task
 (
 withSendEventSpy
+(
+)
 PreferenceRollouts
 .
 withTestMock
@@ -1427,6 +1429,8 @@ setExperimentActive
 "
 )
 withSendEventSpy
+(
+)
 PreferenceRollouts
 .
 withTestMock
@@ -1482,7 +1486,7 @@ function
 testInitGraduationSet
 (
 setExperimentActiveStub
-sendEventStub
+sendEventSpy
 )
 {
 await
@@ -1544,7 +1548,7 @@ called
 "
 )
 ;
-sendEventStub
+sendEventSpy
 .
 assertEvents
 (

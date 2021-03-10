@@ -658,6 +658,11 @@ STATE_ACTIVE
 }
 withTestMock
 (
+)
+{
+return
+function
+(
 testFunction
 )
 {
@@ -776,6 +781,8 @@ d
 )
 ;
 }
+}
+;
 }
 ;
 }
