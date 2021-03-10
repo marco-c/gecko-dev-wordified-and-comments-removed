@@ -93,6 +93,8 @@ name
 :
 "
 view
+image
+with
 background
 image
 "
@@ -172,7 +174,7 @@ return
 "
 context
 -
-viewbgimage
+viewimage
 "
 ;
 }
@@ -218,6 +220,8 @@ was
 inherited
 for
 view
+image
+with
 background
 image
 "

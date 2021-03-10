@@ -283,7 +283,7 @@ getElementById
 "
 context
 -
-viewbgimage
+viewimage
 "
 )
 .
@@ -373,8 +373,9 @@ right
 click
 view
 -
-bg
--
+image
+with
+background
 image
 "
 )
