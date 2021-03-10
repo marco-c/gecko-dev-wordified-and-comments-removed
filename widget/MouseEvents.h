@@ -1748,6 +1748,9 @@ mDeltaY
 double
 mDeltaZ
 ;
+nsSize
+mScrollAmount
+;
 double
 mOverflowDeltaX
 ;
@@ -1934,6 +1937,12 @@ mDeltaMode
 aEvent
 .
 mDeltaMode
+;
+mScrollAmount
+=
+aEvent
+.
+mScrollAmount
 ;
 mCustomizedByUserPrefs
 =
