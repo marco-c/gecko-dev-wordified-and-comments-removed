@@ -48,6 +48,13 @@ JSClass
 *
 clasp
 ;
+JS
+:
+:
+Realm
+*
+realm
+;
 }
 ;
 class

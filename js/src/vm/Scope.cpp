@@ -564,6 +564,12 @@ getInitialShape
 (
 cx
 cls
+cx
+-
+>
+realm
+(
+)
 TaggedProto
 (
 nullptr
@@ -3084,7 +3090,7 @@ shape
 shape
 -
 >
-zoneFromAnyThread
+realm
 (
 )
 !
@@ -3092,7 +3098,7 @@ zoneFromAnyThread
 cx
 -
 >
-zone
+realm
 (
 )
 )

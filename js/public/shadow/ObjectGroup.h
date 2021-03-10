@@ -39,13 +39,6 @@ JSObject
 *
 proto
 ;
-JS
-:
-:
-Realm
-*
-realm
-;
 }
 ;
 }

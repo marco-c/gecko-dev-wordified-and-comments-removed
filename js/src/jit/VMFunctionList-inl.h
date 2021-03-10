@@ -1896,11 +1896,11 @@ NewArrayOperation
 \
 _
 (
-NewArrayWithGroup
+NewArrayWithShape
 js
 :
 :
-NewArrayWithGroup
+NewArrayWithShape
 )
 \
 _
