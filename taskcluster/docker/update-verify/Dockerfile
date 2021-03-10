@@ -33,7 +33,7 @@ then
 FROM
 ubuntu
 :
-18
+20
 .
 04
 MAINTAINER

@@ -1531,7 +1531,7 @@ skipping
 ;
 ;
 esac
-python
+python3
 "
 {
 cert_replacer
