@@ -2231,7 +2231,7 @@ add
 -
 on
 .
-label
+label2
 "
 [
 addonName
@@ -2302,7 +2302,7 @@ processHang
 .
 button_stop_sandbox
 .
-label
+label2
 "
 )
 accessKey
