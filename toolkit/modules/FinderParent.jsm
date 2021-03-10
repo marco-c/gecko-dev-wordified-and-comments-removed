@@ -250,11 +250,6 @@ FinderParent
 prototype
 =
 {
-destroy
-(
-)
-{
-}
 get
 browsingContext
 (
