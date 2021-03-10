@@ -293,9 +293,9 @@ NativeHasNumericValue
 const
 {
 return
-mStateFlags
+mGenericTypes
 &
-eHasNumericValue
+eNumericValue
 ;
 }
 inline

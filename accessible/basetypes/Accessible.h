@@ -107,7 +107,7 @@ const
 uint8_t
 kGenericTypesBits
 =
-16
+18
 ;
 void
 StaticAsserts
