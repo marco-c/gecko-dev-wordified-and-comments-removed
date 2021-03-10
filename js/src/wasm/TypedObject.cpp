@@ -3246,14 +3246,6 @@ obj
 tobj
 -
 >
-initGroup
-(
-nullptr
-)
-;
-tobj
--
->
 initShape
 (
 shape
