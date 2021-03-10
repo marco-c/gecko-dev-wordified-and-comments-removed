@@ -959,6 +959,14 @@ ReferenceFrameKind
 :
 :
 Transform
+{
+is_2d_scale_translation
+:
+false
+should_snap
+:
+false
+}
 )
 ;
 builder
