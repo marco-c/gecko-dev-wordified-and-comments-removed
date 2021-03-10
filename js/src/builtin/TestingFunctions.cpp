@@ -36234,7 +36234,7 @@ vp
 ;
 Rooted
 <
-GlobalLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 >
 globalLexical

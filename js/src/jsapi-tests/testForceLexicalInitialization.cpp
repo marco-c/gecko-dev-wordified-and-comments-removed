@@ -53,7 +53,7 @@ Rooted
 js
 :
 :
-GlobalLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 >
 env
@@ -62,10 +62,10 @@ cx
 js
 :
 :
-GlobalLexicalEnvironmentObject
+LexicalEnvironmentObject
 :
 :
-create
+createGlobal
 (
 cx
 g

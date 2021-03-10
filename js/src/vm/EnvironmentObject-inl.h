@@ -28,7 +28,7 @@ namespace
 js
 {
 inline
-ExtensibleLexicalEnvironmentObject
+LexicalEnvironmentObject
 &
 NearestEnclosingExtensibleLexicalEnvironment
 (
@@ -45,14 +45,9 @@ env
 while
 (
 !
-env
--
->
-is
-<
-ExtensibleLexicalEnvironmentObject
->
+IsExtensibleLexicalEnvironment
 (
+env
 )
 )
 {
@@ -77,7 +72,7 @@ env
 >
 as
 <
-ExtensibleLexicalEnvironmentObject
+LexicalEnvironmentObject
 >
 (
 )

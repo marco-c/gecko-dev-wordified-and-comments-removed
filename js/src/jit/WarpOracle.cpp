@@ -1560,7 +1560,7 @@ CallObject
 )
 ;
 }
-NamedLambdaObject
+LexicalEnvironmentObject
 *
 namedLambdaTemplate
 =
@@ -1599,7 +1599,7 @@ templateEnv
 >
 as
 <
-NamedLambdaObject
+LexicalEnvironmentObject
 >
 (
 )

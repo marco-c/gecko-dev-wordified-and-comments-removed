@@ -9251,7 +9251,7 @@ cx
 rhs
 )
 ;
-ExtensibleLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 lexicalEnv
 ;

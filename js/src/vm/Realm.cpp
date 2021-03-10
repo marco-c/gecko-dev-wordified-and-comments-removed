@@ -938,7 +938,7 @@ s
 }
 #
 endif
-NonSyntacticLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 ObjectRealm
 :
@@ -1058,10 +1058,10 @@ EnvironmentObject
 ;
 lexicalEnv
 =
-NonSyntacticLexicalEnvironmentObject
+LexicalEnvironmentObject
 :
 :
-create
+createNonSyntactic
 (
 cx
 enclosing
@@ -1104,13 +1104,13 @@ lexicalEnv
 >
 as
 <
-NonSyntacticLexicalEnvironmentObject
+LexicalEnvironmentObject
 >
 (
 )
 ;
 }
-NonSyntacticLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 ObjectRealm
 :
@@ -1190,7 +1190,7 @@ key
 )
 ;
 }
-NonSyntacticLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 ObjectRealm
 :
@@ -1306,7 +1306,7 @@ lexicalEnv
 >
 as
 <
-NonSyntacticLexicalEnvironmentObject
+LexicalEnvironmentObject
 >
 (
 )

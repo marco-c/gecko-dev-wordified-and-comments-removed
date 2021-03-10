@@ -225,7 +225,7 @@ global
 ;
 }
 inline
-ExtensibleLexicalEnvironmentObject
+LexicalEnvironmentObject
 &
 InterpreterFrame
 :
@@ -942,7 +942,7 @@ InterpreterFrame
 :
 replaceInnermostEnvironment
 (
-BlockLexicalEnvironmentObject
+EnvironmentObject
 &
 env
 )
@@ -961,7 +961,7 @@ envChain_
 >
 as
 <
-BlockLexicalEnvironmentObject
+EnvironmentObject
 >
 (
 )

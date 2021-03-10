@@ -86,10 +86,10 @@ class
 CallObject
 ;
 class
-ModuleEnvironmentObject
+LexicalEnvironmentObject
 ;
 class
-NamedLambdaObject
+ModuleEnvironmentObject
 ;
 namespace
 jit
@@ -1922,7 +1922,7 @@ callObjectTemplate
 ;
 WarpGCPtr
 <
-NamedLambdaObject
+LexicalEnvironmentObject
 *
 >
 namedLambdaTemplate
@@ -1934,7 +1934,7 @@ FunctionEnvironment
 CallObject
 *
 callObjectTemplate
-NamedLambdaObject
+LexicalEnvironmentObject
 *
 namedLambdaTemplate
 )
@@ -2262,7 +2262,7 @@ scriptSnapshots_
 ;
 WarpGCPtr
 <
-GlobalLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 >
 globalLexicalEnv_
@@ -2364,7 +2364,7 @@ return
 scriptSnapshots_
 ;
 }
-GlobalLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 globalLexicalEnv
 (
