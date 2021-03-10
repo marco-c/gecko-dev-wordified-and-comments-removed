@@ -162,14 +162,8 @@ const
 JSClass
 *
 clasp
-ObjectFlags
-objectFlags
 )
 :
-flags
-(
-objectFlags
-)
 clasp
 (
 clasp
