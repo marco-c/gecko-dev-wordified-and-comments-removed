@@ -289,7 +289,7 @@ CompilationInput
 &
 input
 const
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput

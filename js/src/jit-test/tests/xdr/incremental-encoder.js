@@ -53,6 +53,9 @@ test
 incremental
 :
 true
+assertEqBytecode
+:
+true
 assertEqResult
 :
 true
@@ -81,6 +84,9 @@ test
 incremental
 :
 true
+assertEqBytecode
+:
+true
 assertEqResult
 :
 true
@@ -109,6 +115,9 @@ evalWithCache
 test
 {
 incremental
+:
+true
+assertEqBytecode
 :
 true
 assertEqResult
@@ -149,6 +158,9 @@ evalWithCache
 test
 {
 incremental
+:
+true
+assertEqBytecode
 :
 true
 assertEqResult
