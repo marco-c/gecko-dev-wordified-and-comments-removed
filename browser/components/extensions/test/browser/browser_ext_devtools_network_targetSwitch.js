@@ -295,9 +295,7 @@ toolbox
 )
 ;
 const
-{
 toolbox
-}
 =
 await
 openToolboxForTab

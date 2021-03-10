@@ -316,9 +316,7 @@ startup
 )
 ;
 const
-{
 toolbox
-}
 =
 await
 openToolboxForTab
