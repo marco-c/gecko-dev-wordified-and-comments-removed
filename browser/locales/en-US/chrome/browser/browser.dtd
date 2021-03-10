@@ -96,17 +96,6 @@ commandkeys
 <
 !
 ENTITY
-appmenu
-.
-tooltip
-"
-Open
-menu
-"
->
-<
-!
-ENTITY
 navbarOverflow
 .
 label
