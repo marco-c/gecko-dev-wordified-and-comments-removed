@@ -2057,10 +2057,6 @@ Debug
 Clone
 )
 ]
-#
-[
-non_exhaustive
-]
 pub
 enum
 Type
@@ -2292,7 +2288,6 @@ u32
 ControlPointArray
 AccelerationStructure
 RayQuery
-Interpolant
 }
 #
 [

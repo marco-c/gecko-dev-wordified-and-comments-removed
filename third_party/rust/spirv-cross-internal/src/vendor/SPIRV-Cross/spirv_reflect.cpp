@@ -3883,7 +3883,6 @@ for
 (
 const
 auto
-&
 spec_const
 :
 specialization_constants

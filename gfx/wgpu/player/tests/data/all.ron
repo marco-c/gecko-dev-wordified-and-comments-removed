@@ -17,15 +17,6 @@ copy
 ron
 "
 "
-buffer
--
-zero
--
-init
-.
-ron
-"
-"
 bind
 -
 group

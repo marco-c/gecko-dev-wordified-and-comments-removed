@@ -163,12 +163,12 @@ toml
 [
 dependencies
 ]
-spirv_headers
+rspirv_headers
 =
 "
 1
 .
-5
+4
 "
 Then
 add

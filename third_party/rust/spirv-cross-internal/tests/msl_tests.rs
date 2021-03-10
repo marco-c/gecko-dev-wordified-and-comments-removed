@@ -354,9 +354,6 @@ texture_id
 sampler_id
 :
 7
-count
-:
-0
 }
 )
 ;
@@ -1682,9 +1679,6 @@ texture_id
 :
 0
 sampler_id
-:
-0
-count
 :
 0
 }

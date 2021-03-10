@@ -62,6 +62,13 @@ wgpu
 -
 core
 "
+version
+=
+"
+0
+.
+6
+"
 features
 =
 [

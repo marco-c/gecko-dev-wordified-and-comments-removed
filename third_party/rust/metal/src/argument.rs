@@ -291,7 +291,7 @@ RGB9E5Float
 [
 repr
 (
-u64
+u32
 )
 ]
 #
@@ -340,7 +340,7 @@ Imageblock
 [
 repr
 (
-u64
+u32
 )
 ]
 #

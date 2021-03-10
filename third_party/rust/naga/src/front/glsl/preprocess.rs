@@ -100,6 +100,7 @@ pub
 struct
 LinePreProcessor
 {
+pub
 defines
 :
 FastHashMap
@@ -127,14 +128,6 @@ pub
 fn
 new
 (
-defines
-:
-&
-FastHashMap
-<
-String
-String
->
 )
 -
 >
@@ -144,9 +137,10 @@ LinePreProcessor
 {
 defines
 :
-defines
-.
-clone
+FastHashMap
+:
+:
+default
 (
 )
 if_stack

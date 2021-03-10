@@ -13,9 +13,6 @@ Cargo
 .
 lock
 .
-fuse_hidden
-*
-.
 DS_Store
 .
 vscode

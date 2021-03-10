@@ -15,7 +15,7 @@ version
 "
 0
 .
-7
+6
 .
 0
 "
@@ -185,7 +185,7 @@ version
 "
 0
 .
-8
+5
 "
 package
 =
@@ -221,7 +221,7 @@ version
 "
 0
 .
-7
+6
 "
 package
 =
@@ -269,7 +269,7 @@ libloading
 "
 0
 .
-7
+6
 "
 log
 =
@@ -297,7 +297,7 @@ version
 "
 0
 .
-23
+22
 "
 features
 =

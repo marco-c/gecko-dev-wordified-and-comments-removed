@@ -45,9 +45,6 @@ slab
 mod
 usage
 ;
-mod
-util
-;
 pub
 use
 {

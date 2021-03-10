@@ -3565,7 +3565,7 @@ read_only
 }
 pub
 fn
-_map_execution_model
+map_execution_model
 (
 model
 :

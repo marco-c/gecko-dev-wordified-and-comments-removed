@@ -33,16 +33,6 @@ Backend
 >
 {
 pub
-label
-:
-Option
-<
-&
-'
-a
-str
->
-pub
 shader
 :
 EntryPoint
@@ -121,9 +111,6 @@ Self
 {
 ComputePipelineDesc
 {
-label
-:
-None
 shader
 layout
 flags

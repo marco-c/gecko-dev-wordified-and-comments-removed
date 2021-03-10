@@ -11,7 +11,10 @@ cocoa_foundation
 foundation
 :
 :
+{
+NSRange
 NSUInteger
+}
 ;
 bitflags
 !
@@ -517,9 +520,6 @@ reset_with_range
 &
 self
 range
-:
-crate
-:
 :
 NSRange
 )

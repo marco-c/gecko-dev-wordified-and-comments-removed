@@ -380,16 +380,6 @@ Backend
 >
 {
 pub
-label
-:
-Option
-<
-&
-'
-a
-str
->
-pub
 primitive_assembler
 :
 PrimitiveAssemblerDesc
@@ -540,9 +530,6 @@ Self
 {
 GraphicsPipelineDesc
 {
-label
-:
-None
 primitive_assembler
 rasterizer
 fragment
