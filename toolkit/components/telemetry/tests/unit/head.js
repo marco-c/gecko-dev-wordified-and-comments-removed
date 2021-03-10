@@ -1647,6 +1647,7 @@ return
 wrapper
 ;
 }
+async
 function
 loadAddonManager
 (
@@ -1708,10 +1709,7 @@ XREAppFeat
 distroDir
 )
 ;
-AddonTestUtils
-.
-awaitPromise
-(
+await
 AddonTestUtils
 .
 overrideBuiltIns
@@ -1734,7 +1732,6 @@ org
 "
 ]
 }
-)
 )
 ;
 return

@@ -126,6 +126,7 @@ test_setup
 (
 )
 {
+await
 loadAddonManager
 (
 )

@@ -363,6 +363,7 @@ do_get_profile
 true
 )
 ;
+await
 loadAddonManager
 (
 "

@@ -3018,6 +3018,7 @@ do_get_profile
 (
 )
 ;
+await
 loadAddonManager
 (
 APP_ID
