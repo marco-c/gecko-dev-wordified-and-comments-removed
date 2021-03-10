@@ -36126,9 +36126,7 @@ OriginMetadata
 originMetadata
 =
 {
-"
-"
-_ns
+mSuffix
 mGroup
 nsCString
 {
