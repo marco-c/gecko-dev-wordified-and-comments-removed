@@ -3540,7 +3540,7 @@ return
 createSpecificScope
 <
 ScopeType
-LexicalEnvironmentObject
+BlockLexicalEnvironmentObject
 >
 (
 cx
