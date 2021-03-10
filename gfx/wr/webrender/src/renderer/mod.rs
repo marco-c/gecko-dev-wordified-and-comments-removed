@@ -26052,7 +26052,6 @@ device
 attach_read_texture
 (
 texture
-0
 )
 ;
 #
@@ -26882,7 +26881,6 @@ attach_read_texture_external
 (
 gl_id
 target
-0
 )
 ;
 let

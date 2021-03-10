@@ -14924,9 +14924,6 @@ gl
 :
 :
 GLuint
-_layer_id
-:
-i32
 )
 {
 self
@@ -14964,9 +14961,6 @@ GLuint
 target
 :
 ImageBufferKind
-layer_id
-:
-i32
 )
 {
 self
@@ -14978,7 +14972,6 @@ get_gl_target
 (
 target
 )
-layer_id
 )
 }
 pub
@@ -14992,9 +14985,6 @@ texture
 :
 &
 Texture
-layer_id
-:
-i32
 )
 {
 self
@@ -15007,7 +14997,6 @@ id
 texture
 .
 target
-layer_id
 )
 }
 fn
