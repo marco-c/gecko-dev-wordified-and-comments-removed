@@ -3294,6 +3294,9 @@ null
 browsingContext
 =
 null
+openFillMenu
+=
+null
 )
 {
 const
@@ -3444,6 +3447,11 @@ return
 ;
 }
 }
+if
+(
+openFillMenu
+)
+{
 let
 popupShownPromise
 =
@@ -3496,6 +3504,7 @@ ownerGlobal
 await
 popupShownPromise
 ;
+}
 }
 function
 listenForTestNotification

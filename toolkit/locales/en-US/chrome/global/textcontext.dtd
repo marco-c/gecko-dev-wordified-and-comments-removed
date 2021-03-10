@@ -171,17 +171,3 @@ label
 Clear
 "
 >
-<
-!
-ENTITY
-noLoginSuggestions
-.
-label
-"
-(
-No
-Login
-Suggestions
-)
-"
->
