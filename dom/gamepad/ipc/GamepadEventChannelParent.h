@@ -44,6 +44,11 @@ Create
 (
 )
 ;
+bool
+ActorInit
+(
+)
+;
 void
 ActorDestroy
 (
@@ -232,9 +237,6 @@ GamepadEventChannelParent
 )
 =
 default
-;
-bool
-mIsShutdown
 ;
 nsCOMPtr
 <
