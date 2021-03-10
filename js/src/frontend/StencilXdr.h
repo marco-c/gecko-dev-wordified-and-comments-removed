@@ -185,7 +185,7 @@ mode
 >
 static
 XDRResult
-ScopeData
+codeScopeData
 (
 XDRState
 <
