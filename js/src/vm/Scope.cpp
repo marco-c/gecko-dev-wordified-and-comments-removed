@@ -2780,8 +2780,8 @@ MemoryUse
 ScopeData
 )
 ;
-setHeaderPtr
-(
+data_
+=
 data
 .
 get
@@ -2790,7 +2790,6 @@ get
 .
 release
 (
-)
 )
 ;
 }
