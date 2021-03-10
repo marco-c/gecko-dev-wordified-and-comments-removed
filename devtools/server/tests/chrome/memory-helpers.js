@@ -39,7 +39,7 @@ Services
 ;
 const
 {
-TabDescriptorFactory
+TabTargetFactory
 }
 =
 require
@@ -53,7 +53,7 @@ framework
 /
 tab
 -
-descriptor
+target
 -
 factory
 "
@@ -168,12 +168,12 @@ browser
 )
 ;
 const
-descriptor
+target
 =
 await
-TabDescriptorFactory
+TabTargetFactory
 .
-createDescriptorForTab
+forTab
 (
 browserWindow
 .
@@ -183,11 +183,7 @@ selectedTab
 )
 ;
 return
-descriptor
-.
-getTarget
-(
-)
+target
 ;
 }
 async

@@ -3571,7 +3571,7 @@ descriptorFront
 await
 DevToolsShim
 .
-createDescriptorForTabForWebExtension
+createDescriptorForTab
 (
 targetFront
 .

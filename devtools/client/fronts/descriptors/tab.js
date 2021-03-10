@@ -779,9 +779,11 @@ toolbox
 =
 gDevTools
 .
-getToolboxForDescriptor
+getToolbox
 (
 this
+.
+_targetFront
 )
 ;
 if
