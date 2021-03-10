@@ -494,7 +494,7 @@ RefPtr
 <
 DOMException
 >
-mInvalidModificationDomException
+mOtherDomException
 ;
 RefPtr
 <
