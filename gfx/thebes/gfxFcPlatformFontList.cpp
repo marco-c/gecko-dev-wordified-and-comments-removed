@@ -10918,11 +10918,8 @@ prefFonts
 }
 return
 entry
-.
-Data
-(
-)
-.
+-
+>
 get
 (
 )

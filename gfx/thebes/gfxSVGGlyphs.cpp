@@ -737,11 +737,8 @@ nullptr
 }
 return
 glyphDocsEntry
-.
-Data
-(
-)
-.
+-
+>
 get
 (
 )

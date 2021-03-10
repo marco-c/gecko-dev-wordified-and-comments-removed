@@ -888,11 +888,8 @@ processCount
 CountWakeLocks
 (
 entry
-.
-Data
-(
-)
-.
+-
+>
 get
 (
 )
@@ -903,11 +900,8 @@ totalCount
 }
 return
 entry
-.
-Data
-(
-)
-.
+-
+>
 get
 (
 )
