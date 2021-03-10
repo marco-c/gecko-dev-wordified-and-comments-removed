@@ -738,7 +738,6 @@ scaling_textures
 [
 0
 ]
-0
 )
 }
 AsyncScreenshotGrabberMode
@@ -1103,7 +1102,6 @@ level
 +
 1
 ]
-0
 )
 DeviceIntRect
 :
@@ -1147,9 +1145,6 @@ scaling_textures
 [
 level
 ]
-0
-as
-_
 false
 )
 ;

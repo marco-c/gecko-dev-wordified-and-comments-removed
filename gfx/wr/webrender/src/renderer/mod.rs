@@ -12286,7 +12286,6 @@ DrawTarget
 from_texture
 (
 cache_texture
-0
 false
 )
 ;
@@ -12683,7 +12682,6 @@ DrawTarget
 from_texture
 (
 texture
-0
 false
 )
 ;
@@ -17925,7 +17923,6 @@ DrawTarget
 from_texture
 (
 texture
-0
 false
 )
 ;
@@ -20496,7 +20493,6 @@ DrawTarget
 from_texture
 (
 texture
-0
 true
 )
 }
@@ -20803,7 +20799,6 @@ DrawTarget
 from_texture
 (
 alpha_tex
-0
 false
 )
 ;
@@ -20969,7 +20964,6 @@ DrawTarget
 from_texture
 (
 color_tex
-0
 target
 .
 needs_depth
@@ -22337,7 +22331,6 @@ as_ref
 unwrap
 (
 )
-0
 false
 )
 texture_rect
@@ -22369,7 +22362,6 @@ as_ref
 unwrap
 (
 )
-0
 )
 texture_rect
 read_target
@@ -23006,7 +22998,6 @@ ReadTarget
 from_texture
 (
 texture
-0
 )
 ;
 if
@@ -24510,7 +24501,6 @@ from_texture
 (
 &
 texture
-0
 false
 )
 )

@@ -546,7 +546,6 @@ DrawTarget
 from_texture
 (
 texture
-0
 false
 )
 ;
@@ -2352,7 +2351,6 @@ DrawTarget
 from_texture
 (
 dest_texture
-0
 false
 )
 ;
