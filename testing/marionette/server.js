@@ -366,12 +366,6 @@ driverFactory
 (
 )
 {
-MarionettePrefs
-.
-contentListener
-=
-false
-;
 return
 new
 GeckoDriver

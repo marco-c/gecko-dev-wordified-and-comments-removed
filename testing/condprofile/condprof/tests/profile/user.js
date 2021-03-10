@@ -66,16 +66,6 @@ false
 user_pref
 (
 "
-marionette
-.
-contentListener
-"
-false
-)
-;
-user_pref
-(
-"
 extensions
 .
 autoDisableScopes

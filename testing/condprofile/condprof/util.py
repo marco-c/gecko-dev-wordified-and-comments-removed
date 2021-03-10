@@ -128,14 +128,6 @@ truncate
 False
     
 "
-marionette
-.
-contentListener
-"
-:
-False
-    
-"
 extensions
 .
 autoDisableScopes
