@@ -2856,6 +2856,8 @@ BrowsingContext
 aContext
 bool
 aIsVisible
+uint64_t
+aActionId
 )
 ;
 mozilla

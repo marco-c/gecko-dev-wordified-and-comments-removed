@@ -960,6 +960,8 @@ bool
 aCheckPermission
 bool
 aIsVisible
+uint64_t
+aActionId
 )
 ;
 void
@@ -978,6 +980,8 @@ bool
 aCheckPermission
 bool
 aIsVisible
+uint64_t
+aActionId
 )
 ;
 bool

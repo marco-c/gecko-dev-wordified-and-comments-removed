@@ -4958,6 +4958,8 @@ MaybeDiscardedBrowsingContext
 aContext
 bool
 aIsVisible
+uint64_t
+aActionId
 )
 ;
 async

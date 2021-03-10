@@ -20929,6 +20929,8 @@ BrowsingContext
 aContext
 bool
 aIsVisible
+uint64_t
+aActionId
 )
 {
 if
@@ -21004,6 +21006,7 @@ get
 )
 false
 aIsVisible
+aActionId
 )
 ;
 }
