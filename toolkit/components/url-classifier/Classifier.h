@@ -53,13 +53,6 @@ nsIFile
 .
 h
 "
-#
-include
-"
-nsDataHashtable
-.
-h
-"
 class
 nsIThread
 ;

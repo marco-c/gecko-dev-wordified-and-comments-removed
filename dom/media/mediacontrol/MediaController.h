@@ -68,13 +68,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h

@@ -75,13 +75,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsGlobalWindowOuter
 .
 h

@@ -77,13 +77,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h

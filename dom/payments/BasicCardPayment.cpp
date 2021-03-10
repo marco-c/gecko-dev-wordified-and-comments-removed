@@ -37,13 +37,6 @@ nsArrayUtils
 .
 h
 "
-#
-include
-"
-nsDataHashtable
-.
-h
-"
 namespace
 mozilla
 :

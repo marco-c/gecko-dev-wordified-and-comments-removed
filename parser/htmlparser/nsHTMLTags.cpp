@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

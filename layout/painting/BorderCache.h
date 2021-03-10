@@ -27,13 +27,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 PLDHashTable
 .
 h

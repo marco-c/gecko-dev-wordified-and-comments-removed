@@ -65,13 +65,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsIFaviconService
 .
 h

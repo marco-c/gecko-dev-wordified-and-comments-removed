@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsTObserverArray
 .
 h

@@ -33,13 +33,6 @@ nsIChannelEventSink
 h
 "
 #
-include
-"
-nsDataHashtable
-.
-h
-"
-#
 define
 CSPSERVICE_CONTRACTID
 "

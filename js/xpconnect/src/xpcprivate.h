@@ -494,13 +494,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsDeque
 .
 h

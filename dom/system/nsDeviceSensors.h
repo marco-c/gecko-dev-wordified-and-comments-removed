@@ -61,13 +61,6 @@ HalSensor
 .
 h
 "
-#
-include
-"
-nsDataHashtable
-.
-h
-"
 class
 nsIDOMWindow
 ;

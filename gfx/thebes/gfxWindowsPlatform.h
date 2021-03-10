@@ -97,13 +97,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Mutex

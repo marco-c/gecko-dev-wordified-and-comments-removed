@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 mozilla
 /
 NullPrincipal

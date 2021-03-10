@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsHashKeys
 .
 h
