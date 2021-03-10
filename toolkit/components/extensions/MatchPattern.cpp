@@ -3252,6 +3252,11 @@ Append
 '
 )
 ;
+bool
+emittedFirstStar
+=
+false
+;
 for
 (
 uint32_t
@@ -3290,6 +3295,12 @@ c
 '
 )
 {
+if
+(
+!
+emittedFirstStar
+)
+{
 escaped
 .
 AppendLiteral
@@ -3300,6 +3311,11 @@ AppendLiteral
 "
 )
 ;
+emittedFirstStar
+=
+true
+;
+}
 }
 else
 if
@@ -3354,6 +3370,10 @@ Append
 (
 c
 )
+;
+emittedFirstStar
+=
+false
 ;
 }
 }
