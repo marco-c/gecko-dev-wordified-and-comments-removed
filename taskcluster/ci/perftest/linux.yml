@@ -139,7 +139,9 @@ tar
 bz2
 platform
 :
-linux64
+linux1804
+-
+64
 -
 shippable
 /
@@ -148,7 +150,9 @@ require
 -
 build
 :
-linux64
+linux1804
+-
+64
 -
 shippable
 /
