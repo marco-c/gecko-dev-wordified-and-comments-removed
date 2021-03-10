@@ -466,7 +466,7 @@ collections
 /
 changes
 /
-records
+changeset
 "
 handleResponse
 )
@@ -5945,7 +5945,7 @@ collections
 /
 changes
 /
-records
+changeset
 "
 :
 {
@@ -6036,7 +6036,10 @@ OK
 responseBody
 :
 {
-data
+timestamp
+:
+5000
+changes
 :
 [
 {
@@ -7290,7 +7293,7 @@ collections
 /
 changes
 /
-records
+changeset
 ?
 collection
 =
@@ -7301,6 +7304,10 @@ fields
 bucket
 =
 main
+&
+_expected
+=
+0
 "
 :
 {
@@ -7391,7 +7398,10 @@ OK
 responseBody
 :
 {
-data
+timestamp
+:
+1338
+changes
 :
 [
 {
@@ -8141,7 +8151,7 @@ collections
 /
 changes
 /
-records
+changeset
 ?
 collection
 =
@@ -8154,6 +8164,10 @@ responses
 bucket
 =
 main
+&
+_expected
+=
+0
 "
 :
 {
