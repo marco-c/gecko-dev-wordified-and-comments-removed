@@ -12786,6 +12786,10 @@ currentStatus
 Killing
 )
 {
+ReportUseCounters
+(
+)
+;
 PromiseDebugging
 :
 :
@@ -15458,10 +15462,6 @@ currentThread
 NS_ProcessPendingEvents
 (
 currentThread
-)
-;
-ReportUseCounters
-(
 )
 ;
 }
