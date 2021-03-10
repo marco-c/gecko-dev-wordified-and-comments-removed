@@ -1095,6 +1095,27 @@ paths
 :
             
 linter
+[
+"
+local_exclude
+"
+]
+=
+linter
+.
+get
+(
+"
+exclude
+"
+[
+]
+)
+[
+:
+]
+            
+linter
 .
 setdefault
 (
