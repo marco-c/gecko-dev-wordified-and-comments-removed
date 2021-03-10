@@ -38811,14 +38811,6 @@ return
 sGtkWindowDecoration
 ;
 }
-if
-(
-sGtkWindowDecoration
-=
-=
-GTK_DECORATION_SYSTEM
-)
-{
 const
 char
 *
@@ -38849,7 +38841,6 @@ GTK_DECORATION_CLIENT
 return
 sGtkWindowDecoration
 ;
-}
 }
 const
 char
@@ -39132,7 +39123,7 @@ nullptr
 {
 sGtkWindowDecoration
 =
-GTK_DECORATION_SYSTEM
+GTK_DECORATION_CLIENT
 ;
 }
 else
