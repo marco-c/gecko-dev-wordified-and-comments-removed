@@ -17281,7 +17281,7 @@ MOZ_DIAGNOSTIC_ASSERT
 !
 mOutputTrackSources
 .
-GetWeak
+Contains
 (
 id
 )
