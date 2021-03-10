@@ -8099,7 +8099,7 @@ gfx_bundled_fonts_activate_AtStartup
 &
 &
 !
-IsWin8Point1OrLater
+IsWin10OrLater
 (
 )
 )
@@ -8523,7 +8523,7 @@ gfx_bundled_fonts_activate_AtStartup
 &
 &
 !
-IsWin8Point1OrLater
+IsWin10OrLater
 (
 )
 )
