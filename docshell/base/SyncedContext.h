@@ -250,6 +250,14 @@ ContentChild
 aSource
 )
 ;
+void
+CommitWithoutSyncing
+(
+Context
+*
+aOwner
+)
+;
 private
 :
 friend
