@@ -1627,12 +1627,6 @@ mStyleText
 =
 nullptr
 ;
-bool
-IsFloating
-(
-)
-const
-;
 nsIPercentBSizeObserver
 *
 mPercentBSizeObserver
