@@ -601,6 +601,15 @@ mozilla
 dom
 :
 :
+AutoEntryScript
+;
+using
+mozilla
+:
+:
+dom
+:
+:
 PerThreadAtomCache
 ;
 const
