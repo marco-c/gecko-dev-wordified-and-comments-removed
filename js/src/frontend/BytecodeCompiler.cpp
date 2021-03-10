@@ -2100,9 +2100,6 @@ stencil
 CompilationGCOutput
 &
 gcOutput
-CompilationGCOutput
-*
-gcOutputForDelazification
 )
 {
 {
@@ -2135,7 +2132,6 @@ cx
 input
 stencil
 gcOutput
-gcOutputForDelazification
 )
 )
 {
@@ -2230,9 +2226,6 @@ stencil
 CompilationGCOutput
 &
 gcOutput
-CompilationGCOutput
-*
-gcOutputForDelazification
 )
 {
 AutoGeckoProfilerEntry
@@ -2262,7 +2255,6 @@ cx
 input
 stencil
 gcOutput
-gcOutputForDelazification
 )
 ;
 }
