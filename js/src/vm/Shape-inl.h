@@ -168,6 +168,8 @@ JS
 Realm
 *
 realm
+TaggedProto
+proto
 )
 :
 clasp
@@ -177,6 +179,10 @@ clasp
 realm
 (
 realm
+)
+proto
+(
+proto
 )
 {
 }
