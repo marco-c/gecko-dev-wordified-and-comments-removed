@@ -952,13 +952,11 @@ build
 valgrind
 /
 <
-http
+https
 :
 /
 /
-mxr
-.
-mozilla
+searchfox
 .
 org
 /
@@ -985,7 +983,7 @@ periodic
 Valgrind
 jobs
 on
-Tinderbox
+Treeherder
 .
 Some
 of
