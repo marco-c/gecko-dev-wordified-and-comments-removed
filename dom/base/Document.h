@@ -6423,8 +6423,6 @@ aNewRequest
 uint16_t
 &
 aBFCacheCombo
-bool
-aIncludeSubdocuments
 )
 ;
 virtual

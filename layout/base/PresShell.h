@@ -1830,10 +1830,6 @@ endif
 void
 Freeze
 (
-bool
-aIncludeSubDocuments
-=
-true
 )
 ;
 bool
@@ -1848,10 +1844,6 @@ mFrozen
 void
 Thaw
 (
-bool
-aIncludeSubDocuments
-=
-true
 )
 ;
 void

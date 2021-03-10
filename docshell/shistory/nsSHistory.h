@@ -520,15 +520,6 @@ LoadEntryResult
 aLoadResults
 )
 ;
-static
-void
-LoadURIOrBFCache
-(
-LoadEntryResult
-&
-aLoadEntry
-)
-;
 nsresult
 Reload
 (
