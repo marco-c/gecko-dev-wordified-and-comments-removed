@@ -353,9 +353,6 @@ eMenuBarObjectType
 nsresult
 Create
 (
-nsIWidget
-*
-aParent
 mozilla
 :
 :
@@ -365,14 +362,6 @@ dom
 Element
 *
 aElement
-)
-;
-void
-SetParent
-(
-nsIWidget
-*
-aParent
 )
 ;
 uint32_t
@@ -554,10 +543,6 @@ nsMenuX
 >
 >
 mMenuArray
-;
-nsIWidget
-*
-mParentWindow
 ;
 GeckoNSMenu
 *
