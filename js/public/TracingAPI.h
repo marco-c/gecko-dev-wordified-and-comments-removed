@@ -96,6 +96,7 @@ Sweeping
 Callback
 UnmarkGray
 VerifyTraceProtoAndIface
+Barrier
 }
 ;
 enum
