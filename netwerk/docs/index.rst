@@ -49,3 +49,6 @@ maxdepth
 cache2
 /
 doc
+http
+/
+logging
