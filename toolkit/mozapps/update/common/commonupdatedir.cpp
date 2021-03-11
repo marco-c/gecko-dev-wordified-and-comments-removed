@@ -3141,16 +3141,6 @@ NS_tchar
 bufferSize
 )
 ;
-if
-(
-!
-result
-)
-{
-return
-false
-;
-}
 lrv
 =
 RegGetValueW
