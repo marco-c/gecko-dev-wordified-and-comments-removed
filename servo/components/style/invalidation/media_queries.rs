@@ -47,7 +47,7 @@ stylesheets
 :
 {
 NestedRuleIterationCondition
-Stylesheet
+StylesheetContents
 SupportsRule
 }
 ;
@@ -129,7 +129,7 @@ usize
 impl
 ToMediaListKey
 for
-Stylesheet
+StylesheetContents
 {
 }
 impl
@@ -148,6 +148,7 @@ MediaRule
 [
 derive
 (
+Clone
 Debug
 MallocSizeOf
 PartialEq

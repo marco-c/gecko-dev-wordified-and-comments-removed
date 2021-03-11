@@ -479,6 +479,7 @@ Precomputed
 [
 derive
 (
+Clone
 MallocSizeOf
 )
 ]

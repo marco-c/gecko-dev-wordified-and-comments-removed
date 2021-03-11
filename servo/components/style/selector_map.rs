@@ -353,6 +353,7 @@ SelectorImpl
 [
 derive
 (
+Clone
 Debug
 MallocSizeOf
 )
@@ -2606,6 +2607,7 @@ current_bucket
 [
 derive
 (
+Clone
 Debug
 MallocSizeOf
 )

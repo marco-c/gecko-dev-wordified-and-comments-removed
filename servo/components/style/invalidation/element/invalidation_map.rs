@@ -538,6 +538,7 @@ DocumentState
 [
 derive
 (
+Clone
 Debug
 MallocSizeOf
 )
