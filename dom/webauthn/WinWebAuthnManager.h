@@ -87,7 +87,10 @@ PWebAuthnTransactionParent
 *
 aTransactionParent
 const
+Tainted
+<
 uint64_t
+>
 &
 aTransactionId
 )
