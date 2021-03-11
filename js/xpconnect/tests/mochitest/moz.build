@@ -3,6 +3,13 @@ MOCHITEST_MANIFESTS
 =
 [
 "
+hasinstance
+/
+mochitest
+.
+ini
+"
+"
 mochitest
 .
 ini
