@@ -38,7 +38,6 @@ from
 .
 remote
 import
-init_remote_dir
 init_device
 TESTS_LIB_DIR
 =
@@ -670,26 +669,6 @@ remote_test_root
 "
 tmp
 "
-)
-        
-jit_tests_dir
-=
-posixpath
-.
-join
-(
-options
-.
-remote_test_root
-"
-tests
-"
-)
-        
-init_remote_dir
-(
-device
-jit_tests_dir
 )
         
 device
