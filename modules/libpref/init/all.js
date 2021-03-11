@@ -22253,7 +22253,6 @@ monospace
 ar
 "
 "
-Menlo
 Geeza
 Pro
 "
@@ -22353,7 +22352,10 @@ monospace
 el
 "
 "
-Menlo
+Courier
+New
+Lucida
+Grande
 "
 )
 ;
@@ -22451,7 +22453,6 @@ monospace
 he
 "
 "
-Menlo
 Courier
 New
 "
@@ -22625,7 +22626,6 @@ monospace
 ko
 "
 "
-Menlo
 Apple
 SD
 Gothic
@@ -22686,7 +22686,6 @@ monospace
 th
 "
 "
-Menlo
 Ayuthaya
 "
 )
@@ -22749,7 +22748,6 @@ x
 armn
 "
 "
-Menlo
 Mshtakan
 "
 )
@@ -22815,7 +22813,6 @@ x
 beng
 "
 "
-Menlo
 Bangla
 Sangam
 MN
@@ -22882,7 +22879,6 @@ x
 cans
 "
 "
-Menlo
 Euphemia
 UCAS
 "
@@ -22950,7 +22946,9 @@ x
 cyrillic
 "
 "
-Menlo
+Monaco
+Courier
+New
 "
 )
 ;
@@ -23058,7 +23056,6 @@ x
 devanagari
 "
 "
-Menlo
 Devanagari
 Sangam
 MN
@@ -23129,7 +23126,6 @@ x
 ethi
 "
 "
-Menlo
 Kefa
 Abyssinica
 SIL
@@ -23196,7 +23192,6 @@ x
 geor
 "
 "
-Menlo
 Zuzumbo
 "
 )
@@ -23264,7 +23259,6 @@ x
 gujr
 "
 "
-Menlo
 Gujarati
 Sangam
 MN
@@ -23333,7 +23327,6 @@ x
 guru
 "
 "
-Menlo
 Gurmukhi
 MT
 "
@@ -23400,7 +23393,6 @@ x
 khmr
 "
 "
-Menlo
 Khmer
 Sangam
 MN
@@ -23468,7 +23460,6 @@ x
 mlym
 "
 "
-Menlo
 Malayalam
 Sangam
 MN
@@ -23536,7 +23527,6 @@ x
 orya
 "
 "
-Menlo
 Oriya
 Sangam
 MN
@@ -23606,7 +23596,6 @@ x
 telu
 "
 "
-Menlo
 Telugu
 Sangam
 MN
@@ -23677,7 +23666,6 @@ x
 knda
 "
 "
-Menlo
 Kannada
 Sangam
 MN
@@ -23746,7 +23734,6 @@ x
 sinh
 "
 "
-Menlo
 Sinhala
 Sangam
 MN
@@ -23811,7 +23798,6 @@ x
 tamil
 "
 "
-Menlo
 InaiMathi
 "
 )
@@ -23874,7 +23860,6 @@ x
 tibt
 "
 "
-Menlo
 Kailasa
 "
 )
@@ -23937,7 +23922,7 @@ x
 unicode
 "
 "
-Menlo
+Courier
 "
 )
 ;
@@ -24044,7 +24029,9 @@ x
 western
 "
 "
-Menlo
+Courier
+Courier
+New
 "
 )
 ;
@@ -24159,7 +24146,7 @@ zh
 CN
 "
 "
-Menlo
+Courier
 PingFang
 SC
 STHeiti
@@ -24261,7 +24248,7 @@ zh
 TW
 "
 "
-Menlo
+Courier
 PingFang
 TC
 Heiti
@@ -24364,7 +24351,7 @@ zh
 HK
 "
 "
-Menlo
+Courier
 PingFang
 TC
 Heiti
@@ -24508,7 +24495,7 @@ x
 math
 "
 "
-Menlo
+Courier
 "
 )
 ;
