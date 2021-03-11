@@ -20493,6 +20493,8 @@ OutlineTypedObject
 :
 :
 allocKind
+(
+)
 ;
 }
 return
