@@ -1059,9 +1059,7 @@ ready
 )
 ;
 const
-{
 toolbox
-}
 =
 await
 openToolboxForTab
@@ -1315,9 +1313,7 @@ ready
 )
 ;
 const
-{
 toolbox
-}
 =
 await
 openToolboxForTab
