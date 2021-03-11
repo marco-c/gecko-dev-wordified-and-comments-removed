@@ -29,3 +29,8 @@ mozilla
 .
 com
 >
+[
+extensions
+]
+strip
+=
