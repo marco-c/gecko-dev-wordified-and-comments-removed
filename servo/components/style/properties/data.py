@@ -2968,6 +2968,10 @@ Resize
 "
                 
 "
+RubyPosition
+"
+                
+"
 SVGOpacity
 "
                 

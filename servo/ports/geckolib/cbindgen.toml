@@ -737,6 +737,9 @@ TextTransform
 TextOverflow
 "
 "
+RubyPosition
+"
+"
 MozListReversed
 "
 "

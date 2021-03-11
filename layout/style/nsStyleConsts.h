@@ -1462,16 +1462,6 @@ SpaceAround
 ;
 enum
 class
-StyleRubyPosition
-:
-uint8_t
-{
-Over
-Under
-}
-;
-enum
-class
 StyleTextSizeAdjust
 :
 uint8_t

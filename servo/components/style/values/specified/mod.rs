@@ -951,6 +951,16 @@ self
 text
 :
 :
+RubyPosition
+;
+pub
+use
+self
+:
+:
+text
+:
+:
 {
 InitialLetter
 LetterSpacing
