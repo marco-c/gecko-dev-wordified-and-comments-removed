@@ -13961,6 +13961,18 @@ level
 "
 Trace
 "
+            
+"
+gfx
+.
+font_rendering
+.
+fallback
+.
+async
+"
+:
+False
         
 }
         
