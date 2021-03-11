@@ -21364,6 +21364,7 @@ aContext
 get
 (
 )
+aActionId
 )
 ;
 }
@@ -21554,6 +21555,7 @@ aContext
 get
 (
 )
+aActionId
 )
 ;
 }
@@ -22001,6 +22003,8 @@ BrowsingContext
 >
 &
 aActiveBrowsingContext
+uint64_t
+aActionId
 )
 {
 nsFocusManager
@@ -22039,6 +22043,7 @@ aActiveBrowsingContext
 get
 (
 )
+aActionId
 )
 ;
 }
@@ -22084,6 +22089,8 @@ ContentChild
 :
 RecvReviseActiveBrowsingContext
 (
+uint64_t
+aOldActionId
 const
 MaybeDiscarded
 <
@@ -22092,7 +22099,7 @@ BrowsingContext
 &
 aActiveBrowsingContext
 uint64_t
-aActionId
+aNewActionId
 )
 {
 nsFocusManager
@@ -22124,12 +22131,13 @@ fm
 >
 ReviseActiveBrowsingContext
 (
+aOldActionId
 aActiveBrowsingContext
 .
 get
 (
 )
-aActionId
+aNewActionId
 )
 ;
 }

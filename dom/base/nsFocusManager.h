@@ -1774,6 +1774,8 @@ dom
 BrowsingContext
 *
 aContext
+uint64_t
+aActionId
 )
 ;
 void
@@ -1788,11 +1790,15 @@ dom
 BrowsingContext
 *
 aContext
+uint64_t
+aActionId
 )
 ;
 void
 ReviseActiveBrowsingContext
 (
+uint64_t
+aOldActionId
 mozilla
 :
 :
@@ -1803,7 +1809,7 @@ BrowsingContext
 *
 aContext
 uint64_t
-aActionId
+aNewActionId
 )
 ;
 bool
@@ -1836,6 +1842,12 @@ GetActiveBrowsingContextInChrome
 (
 )
 ;
+uint64_t
+GetActionIdForActiveBrowsingContextInChrome
+(
+)
+const
+;
 static
 uint64_t
 GenerateFocusActionId
@@ -1864,6 +1876,9 @@ mActiveBrowsingContextInContent
 ;
 uint64_t
 mActionIdForActiveBrowsingContextInContent
+;
+uint64_t
+mActionIdForActiveBrowsingContextInChrome
 ;
 bool
 mActiveBrowsingContextInContentSetFromOtherProcess

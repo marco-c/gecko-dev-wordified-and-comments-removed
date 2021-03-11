@@ -906,6 +906,12 @@ SendSetupFocusedAndActive
 (
 focused
 active
+fm
+-
+>
+GetActionIdForActiveBrowsingContextInChrome
+(
+)
 )
 ;
 }
