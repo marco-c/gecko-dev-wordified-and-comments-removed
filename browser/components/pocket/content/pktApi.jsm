@@ -440,6 +440,17 @@ oa
 )
 )
 {
+if
+(
+cookie
+.
+host
+=
+=
+=
+pocketSiteHost
+)
+{
 cookies
 [
 cookie
@@ -451,6 +462,7 @@ cookie
 .
 value
 ;
+}
 }
 return
 cookies
