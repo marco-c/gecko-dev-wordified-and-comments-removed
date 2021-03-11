@@ -170,15 +170,3 @@ enabled
 true
 )
 ;
-user_pref
-(
-"
-dom
-.
-visualviewport
-.
-enabled
-"
-true
-)
-;

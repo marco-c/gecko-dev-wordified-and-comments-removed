@@ -6350,6 +6350,9 @@ VisualViewport
 insecureContext
 :
 true
+android
+:
+true
 }
 {
 name
