@@ -968,6 +968,8 @@ navigated
 waitForDispatch
 (
 dbg
+.
+store
 "
 NAVIGATE
 "

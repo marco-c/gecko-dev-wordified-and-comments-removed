@@ -198,6 +198,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 RESUME
 "
@@ -245,6 +247,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 RESUME
 "

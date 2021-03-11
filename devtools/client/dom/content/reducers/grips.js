@@ -81,7 +81,7 @@ action
 ;
 case
 "
-end
+done
 "
 :
 return

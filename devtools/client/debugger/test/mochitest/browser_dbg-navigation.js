@@ -185,6 +185,8 @@ onBreakpoint
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "
@@ -252,6 +254,8 @@ onBreakpoint
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "
@@ -314,6 +318,8 @@ onBreakpoint
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "

@@ -906,6 +906,8 @@ onBreakpointSet
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "

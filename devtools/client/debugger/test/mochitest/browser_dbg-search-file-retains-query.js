@@ -225,6 +225,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 UPDATE_FILE_SEARCH_QUERY
 "

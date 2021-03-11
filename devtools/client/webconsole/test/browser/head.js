@@ -5334,6 +5334,8 @@ onScopes
 waitForDispatch
 (
 dbg
+.
+store
 "
 ADD_SCOPES
 "

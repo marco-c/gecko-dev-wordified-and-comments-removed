@@ -124,6 +124,8 @@ selected
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_SELECTED_LOCATION
 "

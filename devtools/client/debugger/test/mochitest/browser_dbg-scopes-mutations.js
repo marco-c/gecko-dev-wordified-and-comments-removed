@@ -55,6 +55,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 ADD_INLINE_PREVIEW
 "
@@ -304,6 +306,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 ADD_INLINE_PREVIEW
 "

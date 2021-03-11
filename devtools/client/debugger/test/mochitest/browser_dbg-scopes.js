@@ -46,6 +46,8 @@ switching
 waitForDispatch
 (
 dbg
+.
+store
 "
 MAP_FRAMES
 "

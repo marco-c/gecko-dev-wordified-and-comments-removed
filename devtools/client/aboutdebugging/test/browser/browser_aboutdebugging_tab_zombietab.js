@@ -411,7 +411,7 @@ onTabRestored
 const
 onTabsSuccess
 =
-aboutDebugging_waitForDispatch
+waitForDispatch
 (
 store
 "

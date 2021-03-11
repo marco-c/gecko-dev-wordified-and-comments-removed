@@ -57,14 +57,11 @@ onDispatch
 waitForDispatch
 (
 inspector
+.
+store
 "
 UPDATE_ANIMATIONS
 "
-(
-)
-=
->
-1
 )
 ;
 await

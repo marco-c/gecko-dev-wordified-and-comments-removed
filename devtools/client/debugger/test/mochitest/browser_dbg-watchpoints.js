@@ -101,6 +101,8 @@ addedWatchpoint
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_WATCHPOINT
 "
@@ -257,6 +259,8 @@ removedWatchpoint1
 waitForDispatch
 (
 dbg
+.
+store
 "
 REMOVE_WATCHPOINT
 "
@@ -399,6 +403,8 @@ addedWatchpoint2
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_WATCHPOINT
 "
@@ -542,6 +548,8 @@ removedWatchpoint2
 waitForDispatch
 (
 dbg
+.
+store
 "
 REMOVE_WATCHPOINT
 "
@@ -619,6 +627,8 @@ addedWatchpoint3
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_WATCHPOINT
 "

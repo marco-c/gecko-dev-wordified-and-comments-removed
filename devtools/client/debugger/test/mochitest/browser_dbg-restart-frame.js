@@ -131,6 +131,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 COMMAND
 "

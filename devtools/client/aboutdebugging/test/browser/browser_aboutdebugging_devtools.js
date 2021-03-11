@@ -198,7 +198,7 @@ click
 )
 ;
 await
-aboutDebugging_waitForDispatch
+waitForDispatch
 (
 store
 "

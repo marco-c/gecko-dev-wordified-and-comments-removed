@@ -397,7 +397,7 @@ store
 let
 onTabsSuccess
 =
-aboutDebugging_waitForDispatch
+waitForDispatch
 (
 store
 "
@@ -437,7 +437,7 @@ disappears
 ;
 onTabsSuccess
 =
-aboutDebugging_waitForDispatch
+waitForDispatch
 (
 store
 "

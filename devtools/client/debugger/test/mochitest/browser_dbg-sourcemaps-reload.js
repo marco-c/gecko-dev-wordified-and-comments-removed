@@ -117,6 +117,8 @@ syncBp
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "

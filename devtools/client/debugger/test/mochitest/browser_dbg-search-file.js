@@ -158,6 +158,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 UPDATE_SEARCH_RESULTS
 "

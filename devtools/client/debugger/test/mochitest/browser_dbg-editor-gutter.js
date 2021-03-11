@@ -73,6 +73,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "
@@ -112,6 +114,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 REMOVE_BREAKPOINT
 "
@@ -268,6 +272,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 BLACKBOX
 "
@@ -312,6 +318,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "

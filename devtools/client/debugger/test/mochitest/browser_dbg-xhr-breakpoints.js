@@ -822,6 +822,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_XHR_BREAKPOINT
 "
@@ -893,6 +895,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 REMOVE_XHR_BREAKPOINT
 "
@@ -1001,6 +1005,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 expectedEvent
 )
 ;

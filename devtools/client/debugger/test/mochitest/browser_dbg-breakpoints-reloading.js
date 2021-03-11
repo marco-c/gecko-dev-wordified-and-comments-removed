@@ -72,6 +72,8 @@ syncedBps
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "
@@ -348,6 +350,8 @@ return
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "

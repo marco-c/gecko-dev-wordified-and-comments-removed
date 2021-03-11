@@ -265,6 +265,8 @@ refreshed
 waitForDispatch
 (
 dbg
+.
+store
 "
 EVALUATE_EXPRESSIONS
 "

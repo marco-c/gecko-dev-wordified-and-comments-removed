@@ -222,6 +222,8 @@ disableBreakpointDispatch
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "
@@ -305,6 +307,8 @@ enableBreakpointDispatch
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "
@@ -487,6 +491,8 @@ disabled
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "
@@ -516,6 +522,8 @@ enabled
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "
