@@ -11132,8 +11132,11 @@ TypedObject
 )
 )
 {
-if
+RootedTypedObject
+typedObj
 (
+cx
+&
 obj
 -
 >
@@ -11143,7 +11146,13 @@ TypedObject
 >
 (
 )
-.
+)
+;
+if
+(
+typedObj
+-
+>
 rttValue
 (
 )
@@ -11151,6 +11160,7 @@ rttValue
 hasProperty
 (
 cx
+typedObj
 id
 )
 )

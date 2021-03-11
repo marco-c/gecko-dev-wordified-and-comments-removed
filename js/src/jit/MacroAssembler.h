@@ -11843,6 +11843,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -11876,6 +11877,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
