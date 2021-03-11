@@ -4116,6 +4116,10 @@ mCanceled
 (
 false
 )
+mOnChromeWorker
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -4236,6 +4240,10 @@ mNestingLevel
 >
 =
 kClampTimeoutNestingLevel
+&
+&
+!
+mOnChromeWorker
 )
 {
 target
@@ -4302,6 +4310,9 @@ mIsInterval
 ;
 bool
 mCanceled
+;
+bool
+mOnChromeWorker
 ;
 }
 ;
@@ -19815,6 +19826,13 @@ TimeoutInfo
 >
 (
 )
+;
+newInfo
+-
+>
+mOnChromeWorker
+=
+mIsChromeWorker
 ;
 newInfo
 -
