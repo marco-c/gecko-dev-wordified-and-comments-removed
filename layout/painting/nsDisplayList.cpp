@@ -20479,11 +20479,9 @@ return
 mBackgroundStyle
 ;
 }
-nsRegion
-nsDisplayBackgroundImage
-:
-:
-GetInsideClipRegion
+static
+nsRect
+GetInsideClipRect
 (
 const
 nsDisplayItem
@@ -20501,9 +20499,6 @@ nsRect
 aBackgroundRect
 )
 {
-nsRegion
-result
-;
 if
 (
 aRect
@@ -20514,7 +20509,8 @@ IsEmpty
 )
 {
 return
-result
+{
+}
 ;
 }
 nsIFrame
@@ -20824,7 +20820,7 @@ Text
 {
 result
 =
-GetInsideClipRegion
+GetInsideClipRect
 (
 this
 layer
@@ -24340,10 +24336,7 @@ aSnap
 true
 ;
 return
-nsDisplayBackgroundImage
-:
-:
-GetInsideClipRegion
+GetInsideClipRect
 (
 this
 mBottomLayerClip
