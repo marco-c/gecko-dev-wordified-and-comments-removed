@@ -871,8 +871,6 @@ RestoreDirectoryMetadata2
 nsIFile
 *
 aDirectory
-bool
-aPersistent
 )
 ;
 struct
