@@ -3734,7 +3734,7 @@ c
 &
 &
 !
-IsMathSymbol
+IsMathOrMusicSymbol
 (
 prevChar
 )
