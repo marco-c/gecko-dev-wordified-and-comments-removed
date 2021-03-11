@@ -1634,6 +1634,13 @@ MatchResultObjectIndicesSlot
 3
 ;
 static
+const
+size_t
+IndicesGroupsSlot
+=
+0
+;
+static
 size_t
 offsetOfMatchResultObjectIndexSlot
 (
