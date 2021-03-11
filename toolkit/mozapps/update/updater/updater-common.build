@@ -291,6 +291,14 @@ cpp
 DEFINES
 [
 "
+SPRINTF_H_USES_VSNPRINTF
+"
+]
+=
+True
+DEFINES
+[
+"
 NS_NO_XPCOM
 "
 ]
