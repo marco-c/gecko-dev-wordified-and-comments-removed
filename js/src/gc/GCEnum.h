@@ -475,7 +475,7 @@ TypedArrayElements
 \
 _
 (
-TypeDescrTraceList
+RttValueTraceList
 )
 \
 _

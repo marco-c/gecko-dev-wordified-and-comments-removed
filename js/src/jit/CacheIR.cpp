@@ -3320,7 +3320,7 @@ shape
 ;
 writer
 .
-guardTypeDescr
+guardRttValue
 (
 objId
 &
@@ -3334,7 +3334,7 @@ TypedObject
 (
 )
 .
-typeDescr
+rttValue
 (
 )
 )

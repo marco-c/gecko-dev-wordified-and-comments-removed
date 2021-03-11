@@ -1004,7 +1004,7 @@ randomHashCodeScrambler
 (
 )
 )
-typeDescrObjects_
+rttValueObjects_
 (
 this
 this
@@ -3207,7 +3207,7 @@ bool
 Zone
 :
 :
-addTypeDescrObject
+addRttValueObject
 (
 JSContext
 *
@@ -3228,7 +3228,7 @@ obj
 if
 (
 !
-typeDescrObjects
+rttValueObjects
 (
 )
 .

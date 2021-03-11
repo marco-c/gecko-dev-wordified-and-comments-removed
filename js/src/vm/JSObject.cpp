@@ -20442,7 +20442,7 @@ InlineTypedObject
 )
 )
 {
-TypeDescr
+RttValue
 &
 descr
 =
@@ -20453,7 +20453,7 @@ InlineTypedObject
 (
 )
 .
-typeDescr
+rttValue
 (
 )
 ;
@@ -20471,7 +20471,7 @@ return
 InlineTypedObject
 :
 :
-allocKindForTypeDescriptor
+allocKindForRttValue
 (
 &
 descr

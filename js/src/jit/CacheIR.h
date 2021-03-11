@@ -5303,7 +5303,7 @@ readByte
 ;
 }
 uint32_t
-typeDescrKey
+rttValueKey
 (
 )
 {

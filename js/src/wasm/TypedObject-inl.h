@@ -37,9 +37,9 @@ js
 InlineTypedObject
 :
 :
-allocKindForTypeDescriptor
+allocKindForRttValue
 (
-TypeDescr
+RttValue
 *
 descr
 )

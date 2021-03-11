@@ -193,9 +193,6 @@ class
 SharedArrayRawBuffer
 ;
 class
-StructTypeDescr
-;
-class
 TypedArrayObject
 ;
 class

@@ -1104,7 +1104,7 @@ ShapeField
 -
 name
 :
-GuardTypeDescr
+GuardRttValue
 shared
 :
 false
