@@ -1018,6 +1018,12 @@ info
 mDisplay
 )
 {
+mCurrentConfig
+.
+ResetImageRect
+(
+)
+;
 PROFILER_MARKER_TEXT
 (
 "
