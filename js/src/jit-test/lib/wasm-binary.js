@@ -1010,11 +1010,6 @@ StructSet
 0x06
 ;
 const
-StructNarrow
-=
-0x07
-;
-const
 FunctionCode
 =
 0x00

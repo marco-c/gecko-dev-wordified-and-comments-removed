@@ -15265,7 +15265,6 @@ PreBarrierFiltering
 PostBarrier
 PostBarrierFiltering
 StructNew
-StructNarrow
 #
 if
 defined

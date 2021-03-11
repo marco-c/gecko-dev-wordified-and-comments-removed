@@ -29236,15 +29236,6 @@ GcOp
 StructSet
 )
 :
-case
-uint32_t
-(
-GcOp
-:
-:
-StructNarrow
-)
-:
 return
 f
 .
