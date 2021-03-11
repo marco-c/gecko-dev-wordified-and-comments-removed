@@ -23379,6 +23379,15 @@ wasm
 ValType
 :
 :
+Rtt
+:
+case
+wasm
+:
+:
+ValType
+:
+:
 V128
 :
 MOZ_CRASH

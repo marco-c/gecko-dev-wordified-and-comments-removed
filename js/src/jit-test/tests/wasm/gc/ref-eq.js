@@ -32,9 +32,13 @@ make
 result
 eqref
 )
+rtt
+.
+canon
+s
 struct
 .
-new
+new_with_rtt
 s
 )
 (

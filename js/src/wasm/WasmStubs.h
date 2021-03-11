@@ -171,6 +171,12 @@ case
 ValType
 :
 :
+Rtt
+:
+case
+ValType
+:
+:
 Ref
 :
 MOZ_ASSERT
