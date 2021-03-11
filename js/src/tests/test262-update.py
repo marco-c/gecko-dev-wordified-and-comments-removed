@@ -54,14 +54,6 @@ optimization
 "
         
 "
-regexp
--
-match
--
-indices
-"
-        
-"
 Intl
 .
 DateTimeFormat
@@ -85,16 +77,6 @@ waitAsync
 legacy
 -
 regexp
-"
-        
-"
-arbitrary
--
-module
--
-namespace
--
-names
 "
     
 ]
