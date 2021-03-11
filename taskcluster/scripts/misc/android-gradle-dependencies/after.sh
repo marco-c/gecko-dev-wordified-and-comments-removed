@@ -74,7 +74,7 @@ NEXUS_WORK
 /
 storage
 /
-jcenter
+central
 android
 -
 gradle
