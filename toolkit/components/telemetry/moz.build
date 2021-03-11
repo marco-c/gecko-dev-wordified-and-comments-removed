@@ -565,13 +565,6 @@ TelemetryUtils
 jsm
 "
 "
-other
-/
-UITelemetry
-.
-jsm
-"
-"
 pings
 /
 CoveragePing
