@@ -7502,7 +7502,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 ok
 =
-JS_SplicePrototype
+JS_SetPrototype
 (
 cx
 sandbox

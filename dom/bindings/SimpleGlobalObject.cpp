@@ -549,7 +549,7 @@ nullptr
 if
 (
 !
-JS_SplicePrototype
+JS_SetPrototype
 (
 cx
 global

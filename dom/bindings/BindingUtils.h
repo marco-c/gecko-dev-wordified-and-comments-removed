@@ -14525,7 +14525,7 @@ proto
 |
 |
 !
-JS_SplicePrototype
+JS_SetPrototype
 (
 aCx
 aGlobal
