@@ -12472,7 +12472,7 @@ FrameProperties
 mProperties
 ;
 struct
-VisualDeltas
+InkOverflowDeltas
 {
 uint8_t
 mLeft
@@ -12492,7 +12492,7 @@ operator
 =
 (
 const
-VisualDeltas
+InkOverflowDeltas
 &
 aOther
 )
@@ -12537,7 +12537,7 @@ operator
 =
 (
 const
-VisualDeltas
+InkOverflowDeltas
 &
 aOther
 )
@@ -12561,8 +12561,8 @@ union
 uint32_t
 mType
 ;
-VisualDeltas
-mVisualDeltas
+InkOverflowDeltas
+mInkOverflowDeltas
 ;
 }
 mOverflow
@@ -12973,7 +12973,7 @@ int32_t
 )
 mOverflow
 .
-mVisualDeltas
+mInkOverflowDeltas
 .
 mLeft
 -
@@ -12982,7 +12982,7 @@ int32_t
 )
 mOverflow
 .
-mVisualDeltas
+mInkOverflowDeltas
 .
 mTop
 mRect
@@ -12993,13 +12993,13 @@ Width
 +
 mOverflow
 .
-mVisualDeltas
+mInkOverflowDeltas
 .
 mRight
 +
 mOverflow
 .
-mVisualDeltas
+mInkOverflowDeltas
 .
 mLeft
 mRect
@@ -13010,13 +13010,13 @@ Height
 +
 mOverflow
 .
-mVisualDeltas
+mInkOverflowDeltas
 .
 mBottom
 +
 mOverflow
 .
-mVisualDeltas
+mInkOverflowDeltas
 .
 mTop
 )

@@ -45539,16 +45539,16 @@ b
 0
 )
 {
-VisualDeltas
+InkOverflowDeltas
 oldDeltas
 =
 mOverflow
 .
-mVisualDeltas
+mInkOverflowDeltas
 ;
 mOverflow
 .
-mVisualDeltas
+mInkOverflowDeltas
 .
 mLeft
 =
@@ -45556,7 +45556,7 @@ l
 ;
 mOverflow
 .
-mVisualDeltas
+mInkOverflowDeltas
 .
 mTop
 =
@@ -45564,7 +45564,7 @@ t
 ;
 mOverflow
 .
-mVisualDeltas
+mInkOverflowDeltas
 .
 mRight
 =
@@ -45572,7 +45572,7 @@ r
 ;
 mOverflow
 .
-mVisualDeltas
+mInkOverflowDeltas
 .
 mBottom
 =
@@ -45584,7 +45584,7 @@ oldDeltas
 =
 mOverflow
 .
-mVisualDeltas
+mInkOverflowDeltas
 ;
 }
 else
