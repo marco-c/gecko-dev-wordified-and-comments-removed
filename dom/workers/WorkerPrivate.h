@@ -46,6 +46,15 @@ include
 "
 mozilla
 /
+AutoRestore
+.
+h
+"
+#
+include
+"
+mozilla
+/
 CondVar
 .
 h
@@ -4477,6 +4486,9 @@ mErrorHandlerRecursionCount
 ;
 uint32_t
 mNextTimeoutId
+;
+uint32_t
+mCurrentTimerNestingLevel
 ;
 bool
 mFrozen
