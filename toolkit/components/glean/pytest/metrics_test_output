@@ -130,7 +130,7 @@ Lazy
 <
 LabeledMetric
 <
-BooleanMetric
+LabeledBooleanMetric
 >
 >
 =
@@ -223,7 +223,7 @@ Lazy
 <
 LabeledMetric
 <
-BooleanMetric
+LabeledBooleanMetric
 >
 >
 =
@@ -425,7 +425,7 @@ Lazy
 <
 LabeledMetric
 <
-CounterMetric
+LabeledCounterMetric
 >
 >
 =
@@ -518,7 +518,7 @@ Lazy
 <
 LabeledMetric
 <
-CounterMetric
+LabeledCounterMetric
 >
 >
 =
@@ -720,7 +720,7 @@ Lazy
 <
 LabeledMetric
 <
-StringMetric
+LabeledStringMetric
 >
 >
 =
@@ -813,7 +813,7 @@ Lazy
 <
 LabeledMetric
 <
-StringMetric
+LabeledStringMetric
 >
 >
 =
@@ -2019,7 +2019,7 @@ Lazy
 <
 LabeledMetric
 <
-BooleanMetric
+LabeledBooleanMetric
 >
 >
 >
@@ -2161,7 +2161,7 @@ Lazy
 <
 LabeledMetric
 <
-CounterMetric
+LabeledCounterMetric
 >
 >
 >
@@ -2303,7 +2303,7 @@ Lazy
 <
 LabeledMetric
 <
-StringMetric
+LabeledStringMetric
 >
 >
 >
@@ -3539,7 +3539,7 @@ RwLock
 HashMap
 <
 MetricId
-BooleanMetric
+LabeledBooleanMetric
 >
 >
 >
@@ -3576,7 +3576,7 @@ RwLock
 HashMap
 <
 MetricId
-CounterMetric
+LabeledCounterMetric
 >
 >
 >
@@ -3613,7 +3613,7 @@ RwLock
 HashMap
 <
 MetricId
-StringMetric
+LabeledStringMetric
 >
 >
 >

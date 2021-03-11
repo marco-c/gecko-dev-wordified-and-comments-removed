@@ -521,6 +521,7 @@ return
 "
 LabeledMetric
 <
+Labeled
 {
 }
 >
