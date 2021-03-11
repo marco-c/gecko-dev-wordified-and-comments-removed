@@ -67,3 +67,16 @@ atomic
 DisableStlWrapping
 (
 )
+include
+(
+"
+/
+mozglue
+/
+build
+/
+replace_malloc
+.
+mozbuild
+"
+)
