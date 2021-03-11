@@ -875,6 +875,15 @@ nsCycleCollectionTraversalCallback
 cb
 )
 ;
+static
+void
+Unlink
+(
+nsObjectLoadingContent
+*
+tmp
+)
+;
 void
 CreateStaticClone
 (
