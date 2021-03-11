@@ -1679,7 +1679,9 @@ session
 return
 GeckoResult
 .
-DENY
+deny
+(
+)
 ;
 }
 UiThread
@@ -1708,7 +1710,9 @@ details
 return
 GeckoResult
 .
-DENY
+deny
+(
+)
 ;
 }
 }

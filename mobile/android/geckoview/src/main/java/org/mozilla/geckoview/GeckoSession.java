@@ -8890,11 +8890,8 @@ null
 return
 GeckoResult
 .
-fromValue
+allow
 (
-AllowOrDeny
-.
-ALLOW
 )
 ;
 }
