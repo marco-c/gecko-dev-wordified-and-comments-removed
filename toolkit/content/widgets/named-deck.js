@@ -3,6 +3,7 @@ use
 strict
 "
 ;
+{
 class
 NamedDeckButton
 extends
@@ -1737,3 +1738,4 @@ deck
 NamedDeck
 )
 ;
+}

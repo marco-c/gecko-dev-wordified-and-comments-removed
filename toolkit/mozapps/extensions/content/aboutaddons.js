@@ -9003,6 +9003,17 @@ button
 }
 )
 ;
+document
+.
+createElement
+(
+"
+button
+-
+group
+"
+)
+;
 class
 CategoriesBox
 extends
