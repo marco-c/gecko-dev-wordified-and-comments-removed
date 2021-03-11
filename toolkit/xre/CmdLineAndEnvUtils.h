@@ -1518,16 +1518,6 @@ wchar_t
 len
 )
 ;
-if
-(
-!
-s
-)
-{
-return
-s
-;
-}
 int
 totalArgc
 =

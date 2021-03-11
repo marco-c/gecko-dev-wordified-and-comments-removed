@@ -3759,12 +3759,6 @@ aMainFunction
 aMainFunctionData
 )
 ;
-NS_ENSURE_TRUE
-(
-runnable
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 nsresult
 rv
 =
