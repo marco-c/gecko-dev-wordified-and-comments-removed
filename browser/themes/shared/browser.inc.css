@@ -6355,3 +6355,15 @@ weight
 600
 ;
 }
+#
+tab
+-
+notification
+-
+deck
+{
+display
+:
+flex
+;
+}
