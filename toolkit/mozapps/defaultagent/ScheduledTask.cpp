@@ -1031,16 +1031,6 @@ kTimeStrMaxLen
 ;
 if
 (
-!
-timeStr
-)
-{
-return
-E_OUTOFMEMORY
-;
-}
-if
-(
 wcsftime
 (
 timeStr
