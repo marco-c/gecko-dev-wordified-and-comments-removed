@@ -7793,6 +7793,16 @@ wasm
 ;
 #
 endif
+case
+SymbolicAddress
+:
+:
+InlineTypedObjectClass
+:
+MOZ_CRASH
+(
+)
+;
 #
 if
 defined

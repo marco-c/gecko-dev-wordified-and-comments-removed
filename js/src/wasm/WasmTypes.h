@@ -14727,6 +14727,7 @@ ThrowException
 GetLocalExceptionIndex
 #
 endif
+InlineTypedObjectClass
 #
 if
 defined
