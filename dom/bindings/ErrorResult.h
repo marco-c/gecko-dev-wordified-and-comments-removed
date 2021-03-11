@@ -958,7 +958,11 @@ return
 rv
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 MaybeSetPendingException
 (

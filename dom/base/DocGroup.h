@@ -140,8 +140,12 @@ nsACString
 aKey
 )
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 nsresult
 GetKey
 (

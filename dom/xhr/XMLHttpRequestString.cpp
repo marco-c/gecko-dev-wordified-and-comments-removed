@@ -157,7 +157,11 @@ aString
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 GetAsString
 (
@@ -202,7 +206,11 @@ aMallocSizeOf
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 GetAsString
 (

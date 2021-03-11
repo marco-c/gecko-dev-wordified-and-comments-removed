@@ -98,9 +98,6 @@ class
 nsFrameLoader
 ;
 class
-nsPluginFrame
-;
-class
 nsPluginInstanceOwner
 ;
 namespace
@@ -979,7 +976,11 @@ MozPluginParameter
 aParameters
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 BuildParametersArray
 (
@@ -1138,12 +1139,6 @@ nsCString
 aMIMEType
 bool
 aNoFakePlugin
-)
-;
-nsPluginFrame
-*
-GetExistingFrame
-(
 )
 ;
 void
@@ -1371,9 +1366,6 @@ bool
 mPreferFallbackKnown
 :
 1
-;
-WeakFrame
-mPrintFrame
 ;
 RefPtr
 <

@@ -449,7 +449,11 @@ aResult
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 AppendTextTo
 (
@@ -706,7 +710,11 @@ NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_INHERITED
 CharacterData
 nsIContent
 )
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 TextEquals
 (

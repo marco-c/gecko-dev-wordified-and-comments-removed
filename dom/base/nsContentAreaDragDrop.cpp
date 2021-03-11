@@ -483,8 +483,12 @@ nsIContent
 inNode
 )
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 nsresult
 GetAnchorURL
 (

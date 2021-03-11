@@ -173,7 +173,11 @@ InitialSetupDone
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 InitialSetupHasBeenDone
 (

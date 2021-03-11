@@ -742,7 +742,6 @@ aGlobal
 )
 ;
 friend
-MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -1639,7 +1638,6 @@ aBuffer
 )
 ;
 friend
-MOZ_MUST_USE
 bool
 ToJSValue
 (

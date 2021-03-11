@@ -5155,8 +5155,12 @@ mBeforeInputEventHasBeenDispatched
 true
 ;
 }
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
 nsresult
 OnEditActionHandled
 (
@@ -5305,8 +5309,12 @@ NS_OK
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
 bool
 SetValueWithoutTextEditorAgain
 (

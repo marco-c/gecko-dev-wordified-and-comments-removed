@@ -47,7 +47,11 @@ nsISerialEventTarget
 >
 mSerialEventTarget
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 RefPtr
 <
 ClientOpPromise
