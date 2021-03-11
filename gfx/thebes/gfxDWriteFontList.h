@@ -1558,11 +1558,8 @@ bool
 UseGDIFontTableAccess
 (
 )
-{
-return
-mGDIFontTableAccess
+const
 ;
-}
 bool
 FindAndAddFamilies
 (
