@@ -356,6 +356,13 @@ false
 \
 _
 (
+AllowSoftwareWebRenderD3D11
+bool
+false
+)
+\
+_
+(
 ScreenDepth
 int32_t
 0

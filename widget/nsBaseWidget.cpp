@@ -5794,10 +5794,13 @@ options
 .
 SetAllowSoftwareWebRenderD3D11
 (
-StaticPrefs
+gfx
 :
 :
-gfx_webrender_software_d3d11_AtStartup
+gfxVars
+:
+:
+AllowSoftwareWebRenderD3D11
 (
 )
 )
