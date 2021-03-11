@@ -30059,17 +30059,6 @@ else
 if
 (
 aspectRatio
-&
-&
-result
-.
-ISize
-(
-aWM
-)
-!
-=
-NS_UNCONSTRAINEDSIZE
 )
 {
 result
