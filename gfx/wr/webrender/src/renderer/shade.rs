@@ -2573,7 +2573,7 @@ cs_line_decoration
 :
 LazilyCompiledShader
 pub
-cs_gradient
+cs_fast_linear_gradient
 :
 LazilyCompiledShader
 pub
@@ -4080,7 +4080,7 @@ shader_list
 ?
 ;
 let
-cs_gradient
+cs_fast_linear_gradient
 =
 LazilyCompiledShader
 :
@@ -4098,7 +4098,7 @@ VertexArrayKind
 Gradient
 )
 "
-cs_gradient
+cs_fast_linear_gradient
 "
 &
 [
@@ -4186,7 +4186,7 @@ cs_blur_a8
 cs_blur_rgba8
 cs_border_segment
 cs_line_decoration
-cs_gradient
+cs_fast_linear_gradient
 cs_border_solid
 cs_scale
 cs_svg_filter
@@ -5140,7 +5140,7 @@ device
 ;
 self
 .
-cs_gradient
+cs_fast_linear_gradient
 .
 deinit
 (

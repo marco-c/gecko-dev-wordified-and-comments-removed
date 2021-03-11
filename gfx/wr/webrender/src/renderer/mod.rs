@@ -18496,7 +18496,7 @@ borrow_mut
 (
 )
 .
-cs_gradient
+cs_fast_linear_gradient
 .
 bind
 (
