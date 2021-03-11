@@ -2235,7 +2235,7 @@ change
 int32_t
 bit
 =
-IMM32_16ADJ
+Imm32_16Adj
 (
 flags
 )
@@ -2788,7 +2788,7 @@ offsetOfNargs
 int32_t
 mask
 =
-IMM32_16ADJ
+Imm32_16Adj
 (
 FunctionFlags
 :
@@ -2799,7 +2799,7 @@ FUNCTION_KIND_MASK
 int32_t
 bit
 =
-IMM32_16ADJ
+Imm32_16Adj
 (
 kind
 <
