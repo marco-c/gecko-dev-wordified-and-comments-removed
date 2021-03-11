@@ -210,7 +210,16 @@ aOutAllowedScrollDirections
 )
 const
 ;
+std
+:
+:
+tuple
+<
 bool
+const
+AsyncPanZoomController
+*
+>
 ScrollingDownWillMoveDynamicToolbar
 (
 const
