@@ -3501,9 +3501,13 @@ clone
 }
 #
 [
-allow
+cfg
 (
-dead_code
+feature
+=
+"
+capture
+"
 )
 ]
 pub
