@@ -175,7 +175,7 @@ prim_store
 gradient
 :
 :
-GradientJob
+FastLinearGradientInstance
 ;
 use
 crate
@@ -1647,7 +1647,7 @@ CacheMask
 RenderTaskKind
 :
 :
-Gradient
+FastLinearGradient
 (
 .
 .
@@ -2143,7 +2143,7 @@ LineDecoration
 RenderTaskKind
 :
 :
-Gradient
+FastLinearGradient
 (
 .
 .
@@ -2659,11 +2659,11 @@ Vec
 LineDecorationJob
 >
 pub
-gradients
+fast_linear_gradients
 :
 Vec
 <
-GradientJob
+FastLinearGradientInstance
 >
 }
 impl
@@ -2722,7 +2722,7 @@ vec
 !
 [
 ]
-gradients
+fast_linear_gradients
 :
 vec
 !
@@ -3021,7 +3021,7 @@ instance
 RenderTaskKind
 :
 :
-Gradient
+FastLinearGradient
 (
 ref
 task_info
@@ -3144,11 +3144,11 @@ premultiplied
 }
 self
 .
-gradients
+fast_linear_gradients
 .
 push
 (
-GradientJob
+FastLinearGradientInstance
 {
 task_rect
 :

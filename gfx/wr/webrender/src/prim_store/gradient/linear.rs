@@ -1446,7 +1446,7 @@ Debug
 ]
 pub
 struct
-GradientJob
+FastLinearGradientInstance
 {
 pub
 task_rect

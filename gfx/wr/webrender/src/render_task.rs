@@ -1333,7 +1333,7 @@ Deserialize
 ]
 pub
 struct
-GradientTask
+FastLinearGradientTask
 {
 pub
 stops
@@ -1725,9 +1725,9 @@ LineDecoration
 (
 LineDecorationTask
 )
-Gradient
+FastLinearGradient
 (
-GradientTask
+FastLinearGradientTask
 )
 SvgFilter
 (
@@ -1969,7 +1969,7 @@ LineDecoration
 RenderTaskKind
 :
 :
-Gradient
+FastLinearGradient
 (
 .
 .
@@ -1977,7 +1977,7 @@ Gradient
 =
 >
 "
-Gradient
+FastLinearGradient
 "
 RenderTaskKind
 :
@@ -2068,7 +2068,7 @@ Border
 RenderTaskKind
 :
 :
-Gradient
+FastLinearGradient
 (
 .
 .
@@ -2326,9 +2326,9 @@ Self
 RenderTaskKind
 :
 :
-Gradient
+FastLinearGradient
 (
-GradientTask
+FastLinearGradientTask
 {
 stops
 orientation
@@ -3139,7 +3139,7 @@ LineDecoration
 RenderTaskKind
 :
 :
-Gradient
+FastLinearGradient
 (
 .
 .
@@ -6650,7 +6650,7 @@ source
 RenderTaskKind
 :
 :
-Gradient
+FastLinearGradient
 (
 .
 .
@@ -6663,7 +6663,7 @@ pt
 new_level
 (
 "
-Gradient
+FastLinearGradient
 "
 .
 to_owned

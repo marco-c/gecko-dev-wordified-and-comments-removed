@@ -18459,7 +18459,7 @@ if
 !
 target
 .
-gradients
+fast_linear_gradients
 .
 is_empty
 (
@@ -18521,11 +18521,11 @@ draw_instanced_batch
 &
 target
 .
-gradients
+fast_linear_gradients
 VertexArrayKind
 :
 :
-Gradient
+FastLinearGradient
 &
 BatchTextures
 :
