@@ -114,13 +114,6 @@ u32
 ;
 #
 [
-repr
-(
-C
-)
-]
-#
-[
 derive
 (
 Default
