@@ -161,16 +161,6 @@ extensionId
 )
 ;
 const
-target
-=
-await
-addonFront
-.
-getTarget
-(
-)
-;
-const
 toolbox
 =
 await
@@ -178,7 +168,7 @@ gDevTools
 .
 showToolbox
 (
-target
+addonFront
 null
 Toolbox
 .
