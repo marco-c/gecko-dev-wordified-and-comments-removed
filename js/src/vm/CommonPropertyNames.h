@@ -1708,6 +1708,15 @@ constructor
 \
 MACRO_
 (
+hasIndices
+hasIndices
+"
+hasIndices
+"
+)
+\
+MACRO_
+(
 hasOwn
 hasOwn
 "

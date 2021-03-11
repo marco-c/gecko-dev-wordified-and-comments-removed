@@ -19,6 +19,7 @@ test
 flags
 dotAll
 global
+hasIndices
 ignoreCase
 multiline
 source
