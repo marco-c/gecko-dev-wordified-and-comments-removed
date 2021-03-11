@@ -96,9 +96,6 @@ TestFunctionTypeTraits
 TestHashTable
 "
 "
-TestIntegerPrintfMacros
-"
-"
 TestIntegerRange
 "
 "

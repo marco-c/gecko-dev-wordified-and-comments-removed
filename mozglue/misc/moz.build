@@ -29,6 +29,11 @@ DoubleConversion
 h
 "
 "
+IntegerPrintfMacros
+.
+h
+"
+"
 MmapFaultHandler
 .
 h
@@ -45,6 +50,11 @@ h
 "
 "
 Printf
+.
+h
+"
+"
+Sprintf
 .
 h
 "
