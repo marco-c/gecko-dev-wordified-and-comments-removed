@@ -521,11 +521,6 @@ ImageDecoderSupport
 cpp
 "
 "
-nsAndroidProtocolHandler
-.
-cpp
-"
-"
 nsAppShell
 .
 cpp
