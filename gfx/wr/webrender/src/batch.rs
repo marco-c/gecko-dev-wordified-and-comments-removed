@@ -1430,7 +1430,7 @@ rect
 area
 (
 )
->
+<
 union
 .
 area
