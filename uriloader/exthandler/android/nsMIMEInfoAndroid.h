@@ -21,7 +21,11 @@ h
 #
 include
 "
-nsAndroidHandlerApp
+mozilla
+/
+java
+/
+GeckoAppShellWrappers
 .
 h
 "
