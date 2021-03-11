@@ -30311,10 +30311,6 @@ MIRType
 Object
 )
 ;
-setMovable
-(
-)
-;
 }
 public
 :
