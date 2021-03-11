@@ -2279,12 +2279,6 @@ TOP_SITES_MAX_SITES_PER_ROW
 const
 searchShortcutsExperiment
 =
-!
-this
-.
-_useRemoteSetting
-&
-&
 prefValues
 [
 SEARCH_SHORTCUTS_EXPERIMENT
