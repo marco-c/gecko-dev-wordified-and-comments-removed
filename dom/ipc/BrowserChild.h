@@ -3605,15 +3605,6 @@ HasValidInnerSize
 (
 )
 ;
-void
-SetTabId
-(
-const
-TabId
-&
-aTabId
-)
-;
 ScreenIntRect
 GetOuterRect
 (
