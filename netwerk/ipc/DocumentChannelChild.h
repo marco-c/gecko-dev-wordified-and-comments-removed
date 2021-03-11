@@ -243,6 +243,10 @@ PStreamFilterParent
 >
 mStreamFilterEndpoints
 ;
+BrowsingContext
+*
+mLoadingContext
+;
 }
 ;
 }
