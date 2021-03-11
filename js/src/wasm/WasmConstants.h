@@ -113,6 +113,12 @@ F64
 V128
 =
 0x7b
+I8
+=
+0x7a
+I16
+=
+0x79
 FuncRef
 =
 0x70
@@ -153,7 +159,7 @@ LowestPrimitiveTypeCode
 TypeCode
 :
 :
-V128
+I16
 ;
 static
 constexpr

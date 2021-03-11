@@ -327,7 +327,7 @@ u
 struct
 BD_ValType
 {
-uint32_t
+size_t
 packed
 ;
 }

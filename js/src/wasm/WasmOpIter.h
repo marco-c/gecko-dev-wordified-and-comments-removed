@@ -15224,6 +15224,10 @@ i
 ]
 .
 type
+.
+widenToValType
+(
+)
 &
 (
 *
@@ -15509,6 +15513,10 @@ fieldIndex
 ]
 .
 type
+.
+widenToValType
+(
+)
 )
 ;
 }
@@ -15619,6 +15627,10 @@ fieldIndex
 ]
 .
 type
+.
+widenToValType
+(
+)
 val
 )
 )
