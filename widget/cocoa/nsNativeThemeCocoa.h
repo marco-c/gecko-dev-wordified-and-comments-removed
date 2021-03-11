@@ -1863,14 +1863,6 @@ nsIFrame
 aAfter
 )
 ;
-bool
-IsWindowSheet
-(
-nsIFrame
-*
-aFrame
-)
-;
 ControlParams
 ComputeControlParams
 (

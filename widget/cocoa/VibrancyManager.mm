@@ -144,12 +144,6 @@ case
 VibrancyType
 :
 :
-SHEET
-:
-case
-VibrancyType
-:
-:
 SOURCE_LIST
 :
 case
@@ -222,12 +216,6 @@ VibrancyType
 :
 :
 HIGHLIGHTED_MENUITEM
-:
-case
-VibrancyType
-:
-:
-SHEET
 :
 return
 NSVisualEffectStateActive
