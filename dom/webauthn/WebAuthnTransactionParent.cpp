@@ -321,10 +321,7 @@ WebAuthnTransactionParent
 RecvRequestCancel
 (
 const
-Tainted
-<
 uint64_t
->
 &
 aTransactionId
 )

@@ -2244,10 +2244,7 @@ PWebAuthnTransactionParent
 *
 aParent
 const
-Tainted
-<
 uint64_t
->
 &
 aTransactionId
 )
@@ -2260,15 +2257,10 @@ mTransactionParent
 aParent
 |
 |
-!
-MOZ_IS_VALID
-(
-aTransactionId
 mLastTransactionId
-=
+!
 =
 aTransactionId
-)
 )
 {
 return
