@@ -233,7 +233,13 @@ void
 SaveIntermediateCerts
 (
 const
-UniqueCERTCertList
+nsTArray
+<
+nsTArray
+<
+uint8_t
+>
+>
 &
 certList
 )

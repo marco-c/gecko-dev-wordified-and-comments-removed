@@ -719,10 +719,6 @@ originAttributes
 OriginAttributes
 (
 )
-bool
-saveIntermediatesInPermanentDatabase
-=
-false
 SECOidTag
 *
 evOidPolicy

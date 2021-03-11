@@ -4292,8 +4292,6 @@ const
 OriginAttributes
 &
 originAttributes
-bool
-saveIntermediatesInPermanentDatabase
 SECOidTag
 *
 evOidPolicy
@@ -4800,17 +4798,6 @@ ERROR_BAD_CERT_DOMAIN
 }
 return
 rv
-;
-}
-if
-(
-saveIntermediatesInPermanentDatabase
-)
-{
-SaveIntermediateCerts
-(
-builtChain
-)
 ;
 }
 if

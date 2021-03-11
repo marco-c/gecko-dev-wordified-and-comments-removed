@@ -5129,12 +5129,6 @@ certificateTransparencyInfo
 UniqueCERTCertList
 builtChain
 ;
-const
-bool
-saveIntermediates
-=
-false
-;
 bool
 isBuiltCertChainRootBuiltInRoot
 =
@@ -5185,7 +5179,6 @@ infoObject
 GetOriginAttributes
 (
 )
-saveIntermediates
 &
 evOidPolicy
 nullptr
