@@ -3806,6 +3806,7 @@ f
 kept_binaries
 =
 [
+        
 "
 clang
 -
@@ -3813,19 +3814,29 @@ apply
 -
 replacements
 "
+        
 "
 clang
 -
 format
 "
+        
 "
 clang
 -
 tidy
 "
+        
 "
 clangd
 "
+        
+"
+clang
+-
+query
+"
+    
 ]
     
 re_clang_tidy
