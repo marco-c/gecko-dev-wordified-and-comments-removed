@@ -1524,6 +1524,8 @@ set
 -
 jsreftest
 -
+marionette
+-
 mochitest
 -
 a11y
@@ -1684,6 +1686,8 @@ tests
 :
 -
 crashtest
+-
+marionette
 -
 mochitest
 -
