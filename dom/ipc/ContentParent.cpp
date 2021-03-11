@@ -24583,6 +24583,14 @@ get
 )
 )
 ;
+msg
+-
+>
+SetIsForwardedFromContentProcess
+(
+true
+)
+;
 consoleService
 -
 >
