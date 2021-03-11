@@ -2665,7 +2665,7 @@ mAccessible
 ;
 }
 }
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

@@ -155,7 +155,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -23982,7 +23982,7 @@ offsetToRowZero
 {
 Maybe
 <
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 uint32_t

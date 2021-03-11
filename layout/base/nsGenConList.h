@@ -557,7 +557,7 @@ mSize
 -
 ;
 }
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

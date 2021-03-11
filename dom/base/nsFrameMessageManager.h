@@ -155,7 +155,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1615,7 +1615,7 @@ false
 ;
 }
 static
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 nsMessageManagerScriptHolder

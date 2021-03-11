@@ -55,7 +55,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -791,7 +791,7 @@ mCDMCallback
 =
 nullptr
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 uint32_t

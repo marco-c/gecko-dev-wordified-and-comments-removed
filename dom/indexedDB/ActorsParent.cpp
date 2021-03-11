@@ -1373,7 +1373,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -6125,7 +6125,7 @@ FileInfoEntry
 >
 mFileInfoEntries
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 NotNull
@@ -8320,7 +8320,7 @@ class
 AutoSetProgressHandler
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 bool
@@ -20990,7 +20990,7 @@ DirectoryInfo
 >
 mDirectoryInfos
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 DatabaseMaintenance
@@ -24297,7 +24297,7 @@ gLiveDatabaseHashtable
 using
 PrivateBrowsingInfoHashtable
 =
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 CipherKey
@@ -24325,7 +24325,7 @@ FileHandleThreadPool
 gFileHandleThreadPool
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsIDHashKey
 DatabaseLoggingInfo
@@ -24340,7 +24340,7 @@ DatabaseLoggingInfoHashtable
 gLoggingInfoHashtable
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 uint32_t

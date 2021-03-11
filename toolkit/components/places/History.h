@@ -82,7 +82,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -467,7 +467,7 @@ mHidden
 ;
 }
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsURIHashKey
 RecentURIVisit

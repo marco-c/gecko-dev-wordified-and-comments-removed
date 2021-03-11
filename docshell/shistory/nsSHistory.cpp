@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -4719,7 +4719,7 @@ MarkAsInitialEntry
 SessionHistoryEntry
 *
 aEntry
-nsDataHashtable
+nsTHashMap
 <
 nsIDHashKey
 SessionHistoryEntry
@@ -4904,7 +4904,7 @@ OnHistoryPurge
 )
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsIDHashKey
 SessionHistoryEntry
@@ -10317,7 +10317,7 @@ static
 void
 CollectEntries
 (
-nsDataHashtable
+nsTHashMap
 <
 nsIDHashKey
 SessionHistoryEntry
@@ -10379,7 +10379,7 @@ static
 void
 UpdateEntryLength
 (
-nsDataHashtable
+nsTHashMap
 <
 nsIDHashKey
 SessionHistoryEntry
@@ -10622,7 +10622,7 @@ newSHE
 return
 ;
 }
-nsDataHashtable
+nsTHashMap
 <
 nsIDHashKey
 SessionHistoryEntry

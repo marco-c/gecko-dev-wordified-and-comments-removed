@@ -33,7 +33,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -82,7 +82,7 @@ inc
 static
 StaticAutoPtr
 <
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 Quotes
@@ -124,7 +124,7 @@ sQuotesForLang
 sQuotesForLang
 =
 new
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 Quotes

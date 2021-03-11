@@ -266,7 +266,7 @@ mConvertToPointer
 }
 ;
 static
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 TouchInfo

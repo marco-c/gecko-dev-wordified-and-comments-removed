@@ -81,7 +81,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -2070,7 +2070,7 @@ mView
 nsTreeStyleCache
 mStyleCache
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 nsTreeImageCacheEntry

@@ -27,7 +27,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -207,7 +207,7 @@ StyleSheet
 )
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

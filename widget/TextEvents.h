@@ -2061,7 +2061,7 @@ kCodeNames
 ]
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 KeyNameIndex
@@ -2069,7 +2069,7 @@ KeyNameIndex
 KeyNameIndexHashtable
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 CodeNameIndex
@@ -5248,7 +5248,7 @@ kInputTypeNames
 ]
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 EditorInputType

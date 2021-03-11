@@ -1403,7 +1403,7 @@ PrefFontList
 >
 mGenericMappings
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsTArray

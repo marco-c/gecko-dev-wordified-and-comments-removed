@@ -169,7 +169,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -739,7 +739,7 @@ aRead
 protected
 :
 static
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 nsString

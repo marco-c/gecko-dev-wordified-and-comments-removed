@@ -945,7 +945,7 @@ eNormal
 }
 }
 static
-nsDataHashtable
+nsTHashMap
 <
 nsDepCharHashKey
 Command
@@ -1177,7 +1177,7 @@ sCommandHashtable
 sCommandHashtable
 =
 new
-nsDataHashtable
+nsTHashMap
 <
 nsDepCharHashKey
 Command

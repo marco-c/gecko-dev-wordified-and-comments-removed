@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1388,7 +1388,7 @@ eTopLevelContentDocInProcess
 AccessibleHashtable
 mAccessibleCache
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <
@@ -1410,7 +1410,7 @@ nsITimer
 >
 mScrollWatchTimer
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

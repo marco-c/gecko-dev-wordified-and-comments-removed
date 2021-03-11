@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1614,7 +1614,7 @@ nsPresContext
 *
 mPresContext
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsRefPtrHashKey
 <

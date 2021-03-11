@@ -129,7 +129,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1477,7 +1477,7 @@ AudioNode
 >
 mAllNodes
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 AudioParamDescriptorMap

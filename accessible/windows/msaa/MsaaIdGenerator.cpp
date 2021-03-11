@@ -75,7 +75,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -139,7 +139,7 @@ namespace
 detail
 {
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 uint32_t

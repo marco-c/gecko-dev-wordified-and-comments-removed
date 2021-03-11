@@ -39,7 +39,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -111,7 +111,7 @@ activity
 enabled
 "
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 dom

@@ -306,7 +306,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -609,7 +609,7 @@ sInitialized
 =
 false
 ;
-nsDataHashtable
+nsTHashMap
 <
 KeyboardHashKey
 const
@@ -3135,7 +3135,7 @@ nullptr
 sSpoofingKeyboardCodes
 =
 new
-nsDataHashtable
+nsTHashMap
 <
 KeyboardHashKey
 const

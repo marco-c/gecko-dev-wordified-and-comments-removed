@@ -61,7 +61,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -310,7 +310,7 @@ class
 TimeoutSet
 :
 public
-nsDataHashtable
+nsTHashMap
 <
 TimeoutHashKey
 Timeout

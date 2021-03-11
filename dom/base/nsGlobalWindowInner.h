@@ -49,7 +49,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -773,7 +773,7 @@ TimeDuration
 TimeDuration
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 nsGlobalWindowInner

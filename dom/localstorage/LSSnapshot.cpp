@@ -3710,7 +3710,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 nsString

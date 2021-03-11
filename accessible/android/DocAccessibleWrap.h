@@ -143,7 +143,7 @@ eBatch_BoundsUpdate
 ;
 protected
 :
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 AccessibleWrap

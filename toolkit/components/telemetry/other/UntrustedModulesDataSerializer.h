@@ -34,7 +34,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -59,7 +59,7 @@ final
 using
 IndexMap
 =
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 uint32_t

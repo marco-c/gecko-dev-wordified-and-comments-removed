@@ -679,7 +679,7 @@ mEGLWindow
 }
 ;
 static
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

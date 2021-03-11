@@ -41,7 +41,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -191,7 +191,7 @@ mInputSymbol
 }
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsGenericHashKey
 <

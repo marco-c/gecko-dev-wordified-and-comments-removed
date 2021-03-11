@@ -39,7 +39,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -748,7 +748,7 @@ nsCString
 >
 mTempNodeIds
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 bool

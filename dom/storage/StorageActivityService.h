@@ -7,7 +7,7 @@ mozilla_dom_StorageActivityService_h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -161,7 +161,7 @@ MaybeStopTimer
 (
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 PRTime

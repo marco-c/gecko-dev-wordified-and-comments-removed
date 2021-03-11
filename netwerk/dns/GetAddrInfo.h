@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -164,7 +164,7 @@ mozilla
 RWLock
 mLock
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsTArray
@@ -174,7 +174,7 @@ PRNetAddr
 >
 mOverrides
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsCString

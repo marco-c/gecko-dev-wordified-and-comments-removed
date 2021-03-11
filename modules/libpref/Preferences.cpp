@@ -348,7 +348,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -6037,7 +6037,7 @@ ACCESS_COUNTS
 using
 AccessCountsHashTable
 =
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 uint32_t
@@ -14900,7 +14900,7 @@ nsCString
 >
 suspectPreferences
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 uint32_t

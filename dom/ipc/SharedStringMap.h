@@ -38,7 +38,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -497,7 +497,7 @@ nsString
 >
 mValueTable
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 Entry

@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -201,7 +201,7 @@ void
 aClosure
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsISupportsHashKey
 mozilla

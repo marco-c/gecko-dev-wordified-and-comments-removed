@@ -41,7 +41,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -212,14 +212,14 @@ mResolver
 ;
 }
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 Callback
 >
 mCallbacks
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 CallbackArgs

@@ -123,7 +123,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -2796,7 +2796,7 @@ Relaxed
 >
 mThroughCaptivePortal
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 nsWeakPtr

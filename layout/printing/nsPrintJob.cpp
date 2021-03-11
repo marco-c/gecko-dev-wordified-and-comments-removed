@@ -9339,7 +9339,7 @@ Position
 aEnd
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

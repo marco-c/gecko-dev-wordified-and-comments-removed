@@ -98,7 +98,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -152,7 +152,7 @@ class
 ClientManagerService
 final
 {
-nsDataHashtable
+nsTHashMap
 <
 nsIDHashKey
 ClientSourceParent
@@ -160,7 +160,7 @@ ClientSourceParent
 >
 mSourceTable
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsIDHashKey
 nsTArray

@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -2117,7 +2117,7 @@ Entry
 >
 mUserEntries
 ;
-nsDataHashtable
+nsTHashMap
 <
 HashKey
 Entry

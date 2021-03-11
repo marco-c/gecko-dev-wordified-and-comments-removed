@@ -37,7 +37,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -218,7 +218,7 @@ aAliasTable
 void
 SetLocalNames
 (
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 LocalFaceRec

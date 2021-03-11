@@ -62,7 +62,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1452,7 +1452,7 @@ mPushAllowance
 internalStateType
 mDownstreamState
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 Http2Stream
@@ -1726,14 +1726,14 @@ port
 bool
 mOriginFrameActivated
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 bool
 >
 mOriginFrame
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 bool
@@ -1809,7 +1809,7 @@ const
 &
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 uint32_t

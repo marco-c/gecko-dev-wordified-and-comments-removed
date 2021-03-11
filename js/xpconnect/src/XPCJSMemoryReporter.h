@@ -14,7 +14,7 @@ namespace
 xpc
 {
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 nsCString

@@ -1283,7 +1283,7 @@ paint
 "
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 BrowserChild

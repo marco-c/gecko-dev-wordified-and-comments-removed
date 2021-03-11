@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -103,7 +103,7 @@ namespace
 net
 {
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 uint32_t

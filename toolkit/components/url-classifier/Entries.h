@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1627,7 +1627,7 @@ nsCString
 PrefixStringMap
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 int64_t
@@ -1639,7 +1639,7 @@ nsCStringHashKey
 FullHashString
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 FullHashString
 int64_t

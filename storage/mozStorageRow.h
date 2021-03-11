@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -93,7 +93,7 @@ nsIVariant
 >
 mData
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 uint32_t

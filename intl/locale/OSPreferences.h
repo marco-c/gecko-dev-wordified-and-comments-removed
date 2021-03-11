@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -147,7 +147,7 @@ kMaxCachedPatterns
 =
 15
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsCString

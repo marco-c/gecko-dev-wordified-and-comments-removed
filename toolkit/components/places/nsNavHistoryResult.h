@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -474,7 +474,7 @@ nsNavHistoryFolderResultNode
 >
 FolderObserverList
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsTrimInt64HashKey
 FolderObserverList

@@ -62,7 +62,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -167,7 +167,7 @@ TimeStamp
 gBatchBegan
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsTArray
@@ -184,7 +184,7 @@ HistogramBatch
 gCategoricalBatch
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 bool
@@ -195,7 +195,7 @@ BoolScalarBatch
 gBoolScalars
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsCString
@@ -206,7 +206,7 @@ StringScalarBatch
 gStringScalars
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 uint32_t

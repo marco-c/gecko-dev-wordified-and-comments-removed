@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -213,7 +213,7 @@ uint32_t
 aStart
 )
 {
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

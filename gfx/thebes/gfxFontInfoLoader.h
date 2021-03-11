@@ -355,14 +355,14 @@ mLoadFaceNames
 bool
 mLoadCmaps
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 FontFaceData
 >
 mFontFaceData
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 CopyableTArray

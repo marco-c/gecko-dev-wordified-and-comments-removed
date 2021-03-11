@@ -82,7 +82,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -264,7 +264,7 @@ IDBTransaction
 >
 mTransactions
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsISupportsHashKey
 indexedDB

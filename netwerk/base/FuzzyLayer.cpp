@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -140,7 +140,7 @@ allowUnused
 NetworkFuzzingBuffer
 ;
 static
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

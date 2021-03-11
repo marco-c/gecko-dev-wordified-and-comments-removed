@@ -7625,7 +7625,7 @@ nsIConsoleService
 sConsoleService
 ;
 static
-nsDataHashtable
+nsTHashMap
 <
 nsRefPtrHashKey
 <
@@ -7637,7 +7637,7 @@ EventNameMapping
 sAtomEventTable
 ;
 static
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 EventNameMapping

@@ -579,7 +579,7 @@ mDisableIPv6
 ;
 DataMutex
 <
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 int32_t

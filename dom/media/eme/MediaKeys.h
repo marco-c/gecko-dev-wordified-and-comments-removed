@@ -183,7 +183,7 @@ MediaKeySession
 PendingKeySessionsHashMap
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 uint32_t

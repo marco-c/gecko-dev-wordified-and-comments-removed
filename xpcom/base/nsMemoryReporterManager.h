@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -162,7 +162,7 @@ nsMemoryReporterManager
 ;
 }
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsRefPtrHashKey
 <
@@ -173,7 +173,7 @@ bool
 StrongReportersTable
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

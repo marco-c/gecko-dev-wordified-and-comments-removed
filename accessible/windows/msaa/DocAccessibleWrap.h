@@ -156,7 +156,7 @@ void
 *
 mHWND
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 AccessibleWrap

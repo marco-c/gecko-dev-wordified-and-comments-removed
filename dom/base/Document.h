@@ -438,7 +438,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -4782,7 +4782,7 @@ RawServoSelectorList
 using
 Table
 =
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 SelectorList
@@ -12297,7 +12297,7 @@ mHasBeenRunning
 }
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsStringCaseInsensitiveHashKey
 InternalCommandData
@@ -13500,7 +13500,7 @@ imgIRequest
 >
 mPreloadingImages
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsURIHashKey
 bool

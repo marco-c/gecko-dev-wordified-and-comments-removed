@@ -798,7 +798,7 @@ MOZ_DEFINE_MALLOC_SIZE_OF
 WindowsMallocSizeOf
 )
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 nsCString

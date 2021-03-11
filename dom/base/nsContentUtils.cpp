@@ -2043,7 +2043,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -3318,7 +3318,7 @@ nsContentUtils
 :
 sConsoleService
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsRefPtrHashKey
 <
@@ -3334,7 +3334,7 @@ sAtomEventTable
 =
 nullptr
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 EventNameMapping
@@ -5870,7 +5870,7 @@ nullptr
 sAtomEventTable
 =
 new
-nsDataHashtable
+nsTHashMap
 <
 nsRefPtrHashKey
 <
@@ -5888,7 +5888,7 @@ eventArray
 sStringEventTable
 =
 new
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 EventNameMapping

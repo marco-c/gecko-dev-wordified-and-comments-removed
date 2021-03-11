@@ -775,7 +775,7 @@ nsITimer
 >
 mTimer
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 bool

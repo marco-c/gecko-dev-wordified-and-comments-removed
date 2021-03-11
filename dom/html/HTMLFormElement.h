@@ -119,7 +119,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1515,14 +1515,14 @@ HTMLInputElement
 >
 mSelectedRadioButtons
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringCaseInsensitiveHashKey
 uint32_t
 >
 mRequiredRadioButtonCounts
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringCaseInsensitiveHashKey
 bool

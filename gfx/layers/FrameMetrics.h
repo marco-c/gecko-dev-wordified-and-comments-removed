@@ -146,7 +146,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -3448,7 +3448,7 @@ mScrollUpdates
 }
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 ScrollableLayerGuid
 :

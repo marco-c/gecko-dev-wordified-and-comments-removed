@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -5336,7 +5336,7 @@ Hashtables
 DataHashtable
 )
 {
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 const
@@ -5542,7 +5542,7 @@ mozilla
 :
 Unused
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 const
@@ -5576,7 +5576,7 @@ mStr
 )
 ;
 }
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 const
@@ -5889,7 +5889,7 @@ entity
 const_cast
 <
 const
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 const
@@ -6020,7 +6020,7 @@ Hashtables
 DataHashtable_RemoveIf
 )
 {
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 const
@@ -6521,7 +6521,7 @@ Hashtables
 DataHashtableWithInterfaceKey
 )
 {
-nsDataHashtable
+nsTHashMap
 <
 nsISupportsHashKey
 uint32_t
@@ -7052,7 +7052,7 @@ Hashtables
 DataHashtable_WithEntryHandle
 )
 {
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 const

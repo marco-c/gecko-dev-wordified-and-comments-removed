@@ -369,7 +369,7 @@ mCanSend
 =
 false
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 PendingQuery

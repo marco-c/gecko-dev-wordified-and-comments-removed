@@ -722,7 +722,7 @@ aOffset
 )
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsCString
@@ -1323,7 +1323,7 @@ nsICollation
 mCollation
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 int64_t

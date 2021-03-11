@@ -41,7 +41,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1471,14 +1471,14 @@ nsIGlobalObject
 >
 mGlobal
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 DOMHighResTimeStamp
 >
 mTimerRegistry
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 uint32_t

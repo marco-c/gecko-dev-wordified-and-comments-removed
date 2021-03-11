@@ -61,7 +61,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -661,7 +661,7 @@ mInner
 }
 }
 ;
-nsDataHashtable
+nsTHashMap
 <
 NodeInfoInnerKey
 mozilla

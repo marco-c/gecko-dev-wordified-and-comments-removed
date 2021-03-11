@@ -377,7 +377,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -3520,7 +3520,7 @@ defined
 (
 XP_WIN
 )
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 nsString

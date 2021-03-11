@@ -165,6 +165,13 @@ h
 #
 include
 "
+nsTHashMap
+.
+h
+"
+#
+include
+"
 nsIWidget
 .
 h
@@ -1054,7 +1061,7 @@ mActiveResourceTracker
 uint64_t
 mNextLayerHandle
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 CompositableClient

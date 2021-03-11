@@ -373,7 +373,7 @@ PaymentRequest
 aRequest
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsRefPtrHashKey
 <

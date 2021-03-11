@@ -41,7 +41,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -230,7 +230,7 @@ MediaSystemResourceManagerChild
 *
 mChild
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 MediaSystemResourceClient

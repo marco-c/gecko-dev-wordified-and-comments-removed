@@ -1186,7 +1186,7 @@ mProcess
 bool
 mShutdownDone
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 nsString

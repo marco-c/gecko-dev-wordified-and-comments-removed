@@ -379,7 +379,7 @@ nsIWebSocketEventListener
 >
 WindowListeners
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 nsWeakPtr

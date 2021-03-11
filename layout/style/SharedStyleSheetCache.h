@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -399,7 +399,7 @@ SheetLoadData
 &
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 SheetLoadDataHashKey
 CompleteSheet
@@ -416,7 +416,7 @@ SheetLoadData
 >
 mPendingDatas
 ;
-nsDataHashtable
+nsTHashMap
 <
 SheetLoadDataHashKey
 WeakPtr
@@ -429,7 +429,7 @@ SheetLoadData
 >
 mLoadingDatas
 ;
-nsDataHashtable
+nsTHashMap
 <
 PrincipalHashKey
 uint32_t

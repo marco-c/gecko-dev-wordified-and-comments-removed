@@ -1479,7 +1479,7 @@ uint64_t
 sMaxDocID
 ;
 static
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 DocAccessibleParent
@@ -1491,7 +1491,7 @@ LiveDocs
 )
 {
 static
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 DocAccessibleParent

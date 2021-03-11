@@ -332,7 +332,7 @@ sGlobalContext
 =
 nullptr
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 nsString

@@ -25,7 +25,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -132,7 +132,7 @@ delete
 ;
 protected
 :
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 MiscContainer

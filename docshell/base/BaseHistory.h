@@ -212,7 +212,7 @@ SendPendingVisitedResultsToChildProcesses
 ;
 protected
 :
-nsDataHashtable
+nsTHashMap
 <
 nsURIHashKey
 ObservingLinks

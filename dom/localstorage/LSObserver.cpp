@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -49,7 +49,7 @@ dom
 namespace
 {
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 LSObserver

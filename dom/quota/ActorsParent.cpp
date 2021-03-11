@@ -844,7 +844,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -4068,7 +4068,7 @@ LockedPersist
 (
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 NotNull
@@ -5759,7 +5759,7 @@ OriginUsage
 >
 mOriginUsages
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 uint32_t

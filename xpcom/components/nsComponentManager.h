@@ -166,7 +166,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -437,7 +437,7 @@ nsFactoryEntry
 aEntry
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsIDPointerHashKey
 nsFactoryEntry
@@ -445,7 +445,7 @@ nsFactoryEntry
 >
 mFactories
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsFactoryEntry

@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -465,7 +465,7 @@ mValue
 ;
 }
 ;
-nsDataHashtable
+nsTHashMap
 <
 KeyType
 Entry

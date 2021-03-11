@@ -53,7 +53,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -638,7 +638,7 @@ bool
 >
 mDestroying
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 FunctionInfo

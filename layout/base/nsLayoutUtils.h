@@ -5025,7 +5025,7 @@ InspectorFontFace
 UsedFontFaceList
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

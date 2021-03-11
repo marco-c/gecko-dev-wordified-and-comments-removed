@@ -91,7 +91,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -798,7 +798,7 @@ MutableHandleObject
 aExports
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 ModuleEntry
@@ -813,7 +813,7 @@ ModuleEntry
 >
 mImports
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 ModuleEntry

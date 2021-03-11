@@ -264,7 +264,7 @@ nsIntRect
 }
 private
 :
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 AccessibleWrap

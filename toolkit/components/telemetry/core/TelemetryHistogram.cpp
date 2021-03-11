@@ -624,7 +624,7 @@ HistogramSnapshotsArray
 HistogramProcessSnapshotsArray
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 HistogramSnapshotData

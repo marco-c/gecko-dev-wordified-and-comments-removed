@@ -3937,7 +3937,7 @@ mRoot
 nscolor
 mContainerUniformBackgroundColor
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

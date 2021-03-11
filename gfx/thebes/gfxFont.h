@@ -160,7 +160,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -7015,7 +7015,7 @@ aFeatureOn
 )
 ;
 static
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 Script

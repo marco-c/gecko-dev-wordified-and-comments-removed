@@ -923,7 +923,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1365,7 +1365,7 @@ ScrollableLayerGuid
 START_SCROLL_ID
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 nsIContent
@@ -15958,7 +15958,7 @@ void
 ApplyEffectsUpdates
 (
 const
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

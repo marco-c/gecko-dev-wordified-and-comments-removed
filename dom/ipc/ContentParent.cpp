@@ -3664,7 +3664,7 @@ Content
 }
 UniquePtr
 <
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 ContentParent
@@ -6895,7 +6895,7 @@ sJSPluginContentParents
 =
 MakeUnique
 <
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 ContentParent
@@ -36860,7 +36860,7 @@ IPC_OK
 )
 ;
 }
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

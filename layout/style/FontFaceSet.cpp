@@ -3513,7 +3513,7 @@ mNonRuleFacesDirty
 =
 false
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

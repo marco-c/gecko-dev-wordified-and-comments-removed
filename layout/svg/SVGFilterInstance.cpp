@@ -1579,7 +1579,7 @@ FilterPrimitiveDescription
 &
 aPrimitiveDescrs
 const
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 int32_t
@@ -1961,7 +1961,7 @@ primitive
 ;
 }
 }
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 int32_t

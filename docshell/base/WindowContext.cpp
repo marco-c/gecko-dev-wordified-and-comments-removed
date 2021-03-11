@@ -218,7 +218,7 @@ __VA_ARGS__
 using
 WindowContextByIdMap
 =
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 WindowContext

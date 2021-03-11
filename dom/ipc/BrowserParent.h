@@ -3564,7 +3564,7 @@ QueryDropLinksForVerification
 private
 :
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 BrowserParent

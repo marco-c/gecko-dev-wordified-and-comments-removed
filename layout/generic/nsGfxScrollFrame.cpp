@@ -16373,7 +16373,7 @@ const
 DisplayItemClipChain
 *
 aExtraClip
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <
@@ -16577,7 +16577,7 @@ DisplayItemClipChain
 aExtraClip
 )
 {
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

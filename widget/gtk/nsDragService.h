@@ -379,7 +379,7 @@ GdkDragContext
 >
 mPendingDragContext
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsTArray

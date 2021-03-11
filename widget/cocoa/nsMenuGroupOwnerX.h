@@ -37,7 +37,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -166,7 +166,7 @@ mContent
 uint32_t
 mCurrentCommandID
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <
@@ -177,7 +177,7 @@ nsChangeObserver
 >
 mContentToObserverTable
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 nsMenuItemX

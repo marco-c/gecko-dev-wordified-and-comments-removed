@@ -98,7 +98,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1553,7 +1553,7 @@ mDrawingModel
 int
 mLastRecordedDrawingModel
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

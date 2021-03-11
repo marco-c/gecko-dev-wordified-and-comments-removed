@@ -119,7 +119,7 @@ gSHEntrySharedID
 =
 0
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 mozilla
@@ -225,7 +225,7 @@ sIdToSharedState
 sIdToSharedState
 =
 new
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 SHEntrySharedParentState

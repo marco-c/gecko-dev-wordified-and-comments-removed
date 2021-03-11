@@ -346,7 +346,7 @@ type
 msg
 )
 static
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 MediaTrackGraphImpl

@@ -155,7 +155,7 @@ nsStaticCaseInsensitiveNameTable
 gCounterDescTable
 ;
 static
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsCSSPropertyID
@@ -532,7 +532,7 @@ eCSSCounterDesc_COUNT
 gPropertyIDLNameTable
 =
 new
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsCSSPropertyID

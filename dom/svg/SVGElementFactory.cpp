@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -89,7 +89,7 @@ dom
 using
 TagAtomTable
 =
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

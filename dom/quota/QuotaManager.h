@@ -175,7 +175,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -2174,7 +2174,7 @@ DirectoryLockImpl
 >
 mDirectoryLocks
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 NotNull
@@ -2197,7 +2197,7 @@ nsCString
 >
 mInitializedOrigins
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 bool
@@ -2219,7 +2219,7 @@ mTemporaryOriginAttempted
 ;
 }
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 OriginInitializationInfo

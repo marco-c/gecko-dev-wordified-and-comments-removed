@@ -984,7 +984,7 @@ aBenchInfo
 ;
 }
 static
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 int32_t
@@ -993,7 +993,7 @@ DecoderVersionTable
 (
 )
 {
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 int32_t

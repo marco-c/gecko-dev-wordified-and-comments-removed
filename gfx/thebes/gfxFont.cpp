@@ -2641,7 +2641,7 @@ IsEmpty
 return
 ;
 }
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 uint32_t
@@ -5742,7 +5742,7 @@ otherLookups
 )
 ;
 }
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 Script
@@ -6521,7 +6521,7 @@ sScriptTagToCode
 sScriptTagToCode
 =
 new
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 Script

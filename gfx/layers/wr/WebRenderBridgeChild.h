@@ -1174,7 +1174,7 @@ WebRenderParentCommand
 >
 mParentCommands
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 CompositableClient
@@ -1219,7 +1219,7 @@ mSentDisplayList
 uint32_t
 mFontKeysDeleted
 ;
-nsDataHashtable
+nsTHashMap
 <
 UnscaledFontHashKey
 wr
@@ -1232,7 +1232,7 @@ mFontKeys
 uint32_t
 mFontInstanceKeysDeleted
 ;
-nsDataHashtable
+nsTHashMap
 <
 ScaledFontHashKey
 wr

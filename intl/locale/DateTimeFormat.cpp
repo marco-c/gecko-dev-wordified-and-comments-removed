@@ -74,7 +74,7 @@ mLocale
 =
 nullptr
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 UDateFormat
@@ -1245,7 +1245,7 @@ mFormatCache
 mFormatCache
 =
 new
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 UDateFormat

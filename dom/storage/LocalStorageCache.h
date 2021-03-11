@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -524,7 +524,7 @@ mOriginQuotaUsage
 int64_t
 mOriginQuotaUsage
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 nsString

@@ -41,7 +41,7 @@ mac
 debug
 "
 static
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 MOXTextMarkerDelegate

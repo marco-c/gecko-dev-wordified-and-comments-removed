@@ -97,7 +97,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -2349,7 +2349,7 @@ invalidateWholeLayer
 true
 ;
 }
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

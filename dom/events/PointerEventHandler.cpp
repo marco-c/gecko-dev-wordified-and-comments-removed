@@ -123,7 +123,7 @@ PointerInfo
 sActivePointersIds
 ;
 static
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 BrowserParent
@@ -183,7 +183,7 @@ XRE_IsParentProcess
 sPointerCaptureRemoteTargetTable
 =
 new
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 BrowserParent

@@ -419,7 +419,7 @@ xpcAccessibleDocument
 =
 delete
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

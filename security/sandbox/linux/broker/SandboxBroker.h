@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -133,7 +133,7 @@ MAY_CONNECT
 }
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 int
@@ -417,7 +417,7 @@ nsCString
 mContentTempPath
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsCString

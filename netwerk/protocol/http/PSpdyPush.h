@@ -7,7 +7,7 @@ mozilla_net_SpdyPush_Public_h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -94,7 +94,7 @@ streamID
 ;
 private
 :
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 Http2PushedStream

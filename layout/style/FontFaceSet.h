@@ -1149,7 +1149,7 @@ dom
 FontFaceSetLoadStatus
 mStatus
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

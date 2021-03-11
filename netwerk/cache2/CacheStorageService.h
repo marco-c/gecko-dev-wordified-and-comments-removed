@@ -49,7 +49,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -374,7 +374,7 @@ return
 mLock
 ;
 }
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 TimeStamp
@@ -1117,7 +1117,7 @@ mWhat
 ;
 }
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 mozilla

@@ -1824,7 +1824,7 @@ CubebUtils
 AudioDeviceID
 mOutputDeviceID
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsVoidPtrHashKey
 nsTArray

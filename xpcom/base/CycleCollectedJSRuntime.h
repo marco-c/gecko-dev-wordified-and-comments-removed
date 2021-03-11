@@ -100,7 +100,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1619,7 +1619,7 @@ JSHolderMap
 mJSHolders
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsFuncPtrHashKey
 <
