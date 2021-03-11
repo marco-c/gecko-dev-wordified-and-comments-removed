@@ -172,7 +172,7 @@ sessionId
 )
 ;
 await
-waitForRequestsToSettle
+waitForAboutDebuggingRequests
 (
 window
 .

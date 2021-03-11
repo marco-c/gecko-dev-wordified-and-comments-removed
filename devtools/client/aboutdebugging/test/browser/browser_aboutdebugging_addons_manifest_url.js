@@ -464,7 +464,7 @@ stopAdbProcess
 )
 ;
 await
-waitForRequestsToSettle
+waitForAboutDebuggingRequests
 (
 window
 .

@@ -172,7 +172,7 @@ AboutDebugging
 store
 ;
 await
-waitForRequestsToSettle
+waitForAboutDebuggingRequests
 (
 store
 )
@@ -198,7 +198,7 @@ click
 )
 ;
 await
-waitForDispatch
+aboutDebugging_waitForDispatch
 (
 store
 "

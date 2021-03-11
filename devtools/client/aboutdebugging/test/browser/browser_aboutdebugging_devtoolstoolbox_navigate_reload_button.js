@@ -150,7 +150,7 @@ client
 waitForRequestsToSettle
 (
 )
-waitForRequestsToSettle
+waitForAboutDebuggingRequests
 (
 window
 .
