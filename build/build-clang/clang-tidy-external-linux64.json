@@ -114,17 +114,6 @@ ci
 .
 patch
 "
-"
-clang
--
-tidy
--
-no
--
-errors
-.
-patch
-"
 ]
 "
 build_clang_tidy_external
