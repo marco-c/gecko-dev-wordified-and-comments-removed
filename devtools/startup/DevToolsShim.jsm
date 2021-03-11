@@ -952,7 +952,7 @@ webExtensionsMethods
 =
 [
 "
-createDescriptorForTab
+createDescriptorForTabForWebExtension
 "
 "
 createWebExtensionInspectedWindowFront
