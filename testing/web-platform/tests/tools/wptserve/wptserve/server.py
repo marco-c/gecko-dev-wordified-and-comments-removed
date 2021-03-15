@@ -3228,11 +3228,20 @@ write
             
 return
         
+try
+:
+            
 h2response
 .
 write_status_headers
 (
 )
+        
+except
+StreamClosedError
+:
+            
+return
         
 request_wrapper
 .
@@ -3394,12 +3403,28 @@ request
 .
 _dispatcher
         
+try
+:
+            
 dispatcher
 .
 transfer_data
 (
 request
 )
+        
+except
+StreamClosedError
+:
+            
+queue
+.
+put
+(
+None
+)
+            
+return
         
 stream_id
 =
