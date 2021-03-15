@@ -1982,7 +1982,7 @@ stage
 return
 stage
 def
-loadWhitelist
+loadAllowlist
 (
 filename
 )
@@ -2013,7 +2013,7 @@ print
 Warning
 :
 xperf
-whitelist
+allowlist
 %
 s
 was
@@ -2165,16 +2165,16 @@ dirs
 recur
 )
 def
-checkWhitelist
+checkAllowlist
 (
 filename
-whitelist
+allowlist
 )
 :
     
 if
 not
-whitelist
+allowlist
 :
         
 return
@@ -2183,7 +2183,7 @@ False
 if
 filename
 in
-whitelist
+allowlist
 [
 0
 ]
@@ -2202,7 +2202,7 @@ dirname
 filename
 )
 in
-whitelist
+allowlist
 [
 1
 ]
@@ -2239,7 +2239,7 @@ head
 if
 head
 in
-whitelist
+allowlist
 [
 2
 ]
@@ -2272,7 +2272,7 @@ outputFile
 =
 None
     
-whitelist_file
+allowlist_file
 =
 None
     
@@ -2636,11 +2636,11 @@ print
 output
 )
     
-whitelist
+allowlist
 =
-loadWhitelist
+loadAllowlist
 (
-whitelist_file
+allowlist_file
 )
     
 header
@@ -2736,13 +2736,13 @@ stages
 ]
 or
 not
-checkWhitelist
+checkAllowlist
 (
 x
 [
 0
 ]
-whitelist
+allowlist
 )
 )
     
@@ -2814,13 +2814,13 @@ stages
                 
 or
 not
-checkWhitelist
+checkAllowlist
 (
 x
 [
 0
 ]
-whitelist
+allowlist
 )
             
 )
@@ -2946,7 +2946,7 @@ uploadFile
 outputFile
 )
     
-whitelist_path
+allowlist_path
 =
 None
     
@@ -2981,7 +2981,7 @@ join
 (
 dirname
 "
-xperf_whitelist
+xperf_allowlist
 .
 json
 "
@@ -2989,7 +2989,7 @@ json
 )
 :
         
-whitelist_path
+allowlist_path
 =
 os
 .
@@ -2999,7 +2999,7 @@ join
 (
 dirname
 "
-xperf_whitelist
+xperf_allowlist
 .
 json
 "
@@ -3043,7 +3043,7 @@ dirname
 xtalos
 "
 "
-xperf_whitelist
+xperf_allowlist
 .
 json
 "
@@ -3052,7 +3052,7 @@ json
 )
 :
         
-whitelist_path
+allowlist_path
 =
 os
 .
@@ -3065,7 +3065,7 @@ dirname
 xtalos
 "
 "
-xperf_whitelist
+xperf_allowlist
 .
 json
 "
@@ -3077,13 +3077,13 @@ wl_temp
 }
     
 if
-whitelist_path
+allowlist_path
 :
         
 with
 open
 (
-whitelist_path
+allowlist_path
 "
 r
 "
@@ -3707,7 +3707,7 @@ approot
 None
         
 "
-whitelist_file
+allowlist_file
 "
 :
 None
@@ -3943,7 +3943,7 @@ outputFile
         
 args
 .
-whitelist_file
+allowlist_file
         
 args
 .

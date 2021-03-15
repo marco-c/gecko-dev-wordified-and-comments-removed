@@ -28,7 +28,7 @@ DEFAULT_DURATION
 .
 0
 class
-Whitelist
+Allowlist
 :
     
 PRE_PROFILE
@@ -173,7 +173,7 @@ fHandle
 )
             
 for
-whitelist_name
+allowlist_name
 in
 temp
 :
@@ -182,7 +182,7 @@ self
 .
 listmap
 [
-whitelist_name
+allowlist_name
 .
 lower
 (
@@ -191,7 +191,7 @@ lower
 =
 temp
 [
-whitelist_name
+allowlist_name
 ]
         
 except
