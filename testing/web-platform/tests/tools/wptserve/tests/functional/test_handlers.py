@@ -4547,7 +4547,7 @@ serve
 ServiceWorkersHandler
 )
 class
-TestAnyWorkerHandler
+TestClassicWorkerHandler
 (
 TestWrapperHandlerUsingServer
 )
@@ -4597,7 +4597,7 @@ javascript
                               
 serve
 .
-AnyWorkerHandler
+ClassicWorkerHandler
 )
 if
 __name__
