@@ -18,7 +18,7 @@ rayon
 /
 1
 .
-4
+5
 "
 )
 ]
@@ -106,6 +106,10 @@ slice
 pub
 mod
 str
+;
+pub
+mod
+string
 ;
 pub
 mod
