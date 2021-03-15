@@ -17396,7 +17396,7 @@ aTab
 ;
 SitePermissions
 .
-clearTemporaryPermissions
+clearTemporaryBlockPermissions
 (
 browser
 )

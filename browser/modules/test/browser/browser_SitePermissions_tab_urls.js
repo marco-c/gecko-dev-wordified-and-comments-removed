@@ -353,7 +353,7 @@ spec
 }
 SitePermissions
 .
-clearTemporaryPermissions
+clearTemporaryBlockPermissions
 (
 browser
 )
@@ -527,7 +527,7 @@ spec
 }
 SitePermissions
 .
-clearTemporaryPermissions
+clearTemporaryBlockPermissions
 (
 browser
 )
