@@ -14,7 +14,7 @@ const
 file
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -34,7 +34,7 @@ const
 fileNamesBeforeRename
 =
 await
-nativeIO
+storageFoundation
 .
 getAll
 (
@@ -49,7 +49,7 @@ fileNamesBeforeRename
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 rename
 (
@@ -72,7 +72,7 @@ async
 >
 {
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -82,7 +82,7 @@ test_file
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -98,7 +98,7 @@ const
 fileNamesAfterRename
 =
 await
-nativeIO
+storageFoundation
 .
 getAll
 (
@@ -126,7 +126,7 @@ fileNamesAfterRename
 ;
 }
 '
-nativeIO
+storageFoundation
 .
 getAll
 returns
@@ -134,12 +134,12 @@ a
 file
 renamed
 by
-nativeIO
-.
-rename
 '
 +
 '
+storageFoundation
+.
+rename
 with
 its
 new

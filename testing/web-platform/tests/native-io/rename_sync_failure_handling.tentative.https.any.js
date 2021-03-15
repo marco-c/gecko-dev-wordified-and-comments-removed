@@ -12,14 +12,17 @@ setup
 {
 assert_implements
 (
-nativeIO
+storageFoundation
 .
 renameSync
 '
-nativeIO
+storageFoundation
 .
 renameSync
 is
+'
++
+'
 not
 implemented
 .
@@ -38,7 +41,7 @@ testCase
 const
 file1
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -50,7 +53,7 @@ test_file_1
 const
 file2
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -150,7 +153,7 @@ NoModificationAllowedError
 )
 =
 >
-nativeIO
+storageFoundation
 .
 renameSync
 (
@@ -166,7 +169,7 @@ test_file_2
 const
 fileNamesAfterRename
 =
-nativeIO
+storageFoundation
 .
 getAllSync
 (
@@ -191,7 +194,7 @@ fileNamesAfterRename
 const
 file1_after
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -203,7 +206,7 @@ test_file_1
 const
 file2_after
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -233,7 +236,7 @@ close
 (
 )
 ;
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -242,7 +245,7 @@ test_file_1
 '
 )
 ;
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -326,7 +329,7 @@ written
 ;
 }
 '
-nativeIO
+storageFoundation
 .
 renameSync
 does
@@ -348,7 +351,7 @@ testCase
 const
 file
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -372,7 +375,7 @@ close
 (
 )
 ;
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -393,7 +396,7 @@ NoModificationAllowedError
 )
 =
 >
-nativeIO
+storageFoundation
 .
 renameSync
 (
@@ -415,7 +418,7 @@ close
 const
 fileNamesAfterRename
 =
-nativeIO
+storageFoundation
 .
 getAllSync
 (
@@ -445,7 +448,7 @@ fileNamesAfterRename
 ;
 }
 '
-nativeIO
+storageFoundation
 .
 renameSync
 allows
@@ -478,7 +481,7 @@ close
 (
 )
 ;
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -492,14 +495,14 @@ for
 let
 name
 of
-nativeIO
+storageFoundation
 .
 getAllSync
 (
 )
 )
 {
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -513,7 +516,7 @@ name
 const
 file
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -543,7 +546,7 @@ TypeError
 )
 =
 >
-nativeIO
+storageFoundation
 .
 renameSync
 (
@@ -561,7 +564,7 @@ TypeError
 )
 =
 >
-nativeIO
+storageFoundation
 .
 renameSync
 (
@@ -575,7 +578,7 @@ test_file_2
 }
 }
 '
-nativeIO
+storageFoundation
 .
 renameSync
 does
@@ -586,6 +589,9 @@ from
 or
 to
 invalid
+'
++
+'
 names
 .
 '
@@ -600,7 +606,7 @@ testCase
 const
 closed_file
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -618,7 +624,7 @@ close
 const
 opened_file
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -648,7 +654,7 @@ close
 (
 )
 ;
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -657,7 +663,7 @@ closed_file
 '
 )
 ;
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -678,7 +684,7 @@ NoModificationAllowedError
 )
 =
 >
-nativeIO
+storageFoundation
 .
 renameSync
 (
@@ -700,7 +706,7 @@ NoModificationAllowedError
 )
 =
 >
-nativeIO
+storageFoundation
 .
 renameSync
 (
@@ -716,7 +722,7 @@ closed_file
 }
 '
 Failed
-nativeIO
+storageFoundation
 .
 renameSync
 does
@@ -737,7 +743,7 @@ testCase
 const
 closed_file
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -755,7 +761,7 @@ close
 const
 opened_file
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -785,7 +791,7 @@ close
 (
 )
 ;
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -794,7 +800,7 @@ closed_file
 '
 )
 ;
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -815,7 +821,7 @@ NoModificationAllowedError
 )
 =
 >
-nativeIO
+storageFoundation
 .
 renameSync
 (
@@ -837,7 +843,7 @@ NoModificationAllowedError
 )
 =
 >
-nativeIO
+storageFoundation
 .
 renameSync
 (
@@ -853,7 +859,7 @@ opened_file
 }
 '
 Failed
-nativeIO
+storageFoundation
 .
 renameSync
 does
@@ -871,7 +877,7 @@ testCase
 =
 >
 {
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -889,7 +895,7 @@ add_cleanup
 =
 >
 {
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -910,7 +916,7 @@ NotFoundError
 )
 =
 >
-nativeIO
+storageFoundation
 .
 renameSync
 (

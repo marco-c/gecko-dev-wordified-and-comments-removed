@@ -13,15 +13,18 @@ async
 {
 assert_implements
 (
-nativeIO
+storageFoundation
 .
 rename
 '
-nativeIO
+storageFoundation
 .
 rename
 is
 not
+'
++
+'
 implemented
 .
 '
@@ -41,7 +44,7 @@ const
 file1
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -54,7 +57,7 @@ const
 file2
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -189,7 +192,7 @@ testCase
 '
 NoModificationAllowedError
 '
-nativeIO
+storageFoundation
 .
 rename
 (
@@ -206,7 +209,7 @@ const
 fileNamesAfterRename
 =
 await
-nativeIO
+storageFoundation
 .
 getAll
 (
@@ -232,7 +235,7 @@ const
 file1_after
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -245,7 +248,7 @@ const
 file2_after
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -279,7 +282,7 @@ close
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -289,7 +292,7 @@ test_file_1
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -393,7 +396,7 @@ written
 ;
 }
 '
-nativeIO
+storageFoundation
 .
 rename
 does
@@ -417,7 +420,7 @@ const
 file
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -444,7 +447,7 @@ close
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -463,7 +466,7 @@ testCase
 '
 NoModificationAllowedError
 '
-nativeIO
+storageFoundation
 .
 rename
 (
@@ -487,7 +490,7 @@ const
 fileNamesAfterRename
 =
 await
-nativeIO
+storageFoundation
 .
 getAll
 (
@@ -515,7 +518,7 @@ fileNamesAfterRename
 ;
 }
 '
-nativeIO
+storageFoundation
 .
 rename
 does
@@ -554,7 +557,7 @@ close
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -569,7 +572,7 @@ let
 name
 of
 await
-nativeIO
+storageFoundation
 .
 getAll
 (
@@ -577,7 +580,7 @@ getAll
 )
 {
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -592,7 +595,7 @@ const
 file
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -621,7 +624,7 @@ promise_rejects_js
 (
 testCase
 TypeError
-nativeIO
+storageFoundation
 .
 rename
 (
@@ -637,7 +640,7 @@ promise_rejects_js
 (
 testCase
 TypeError
-nativeIO
+storageFoundation
 .
 rename
 (
@@ -651,7 +654,7 @@ test_file_2
 }
 }
 '
-nativeIO
+storageFoundation
 .
 rename
 does
@@ -678,7 +681,7 @@ const
 closed_file
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -697,7 +700,7 @@ const
 opened_file
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -731,7 +734,7 @@ close
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -741,7 +744,7 @@ closed_file
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -760,7 +763,7 @@ testCase
 '
 NoModificationAllowedError
 '
-nativeIO
+storageFoundation
 .
 rename
 (
@@ -780,7 +783,7 @@ testCase
 '
 NoModificationAllowedError
 '
-nativeIO
+storageFoundation
 .
 rename
 (
@@ -796,7 +799,7 @@ closed_file
 }
 '
 Failed
-nativeIO
+storageFoundation
 .
 rename
 does
@@ -819,7 +822,7 @@ const
 closed_file
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -839,7 +842,7 @@ const
 opened_file
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -873,7 +876,7 @@ close
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -883,7 +886,7 @@ closed_file
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -902,7 +905,7 @@ testCase
 '
 NoModificationAllowedError
 '
-nativeIO
+storageFoundation
 .
 rename
 (
@@ -922,7 +925,7 @@ testCase
 '
 NoModificationAllowedError
 '
-nativeIO
+storageFoundation
 .
 rename
 (
@@ -938,7 +941,7 @@ opened_file
 }
 '
 Failed
-nativeIO
+storageFoundation
 .
 rename
 does
@@ -958,7 +961,7 @@ testCase
 >
 {
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -978,7 +981,7 @@ async
 >
 {
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -997,7 +1000,7 @@ testCase
 '
 NotFoundError
 '
-nativeIO
+storageFoundation
 .
 rename
 (

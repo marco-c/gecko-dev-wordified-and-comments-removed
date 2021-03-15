@@ -14,7 +14,7 @@ const
 file
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -34,7 +34,7 @@ async
 >
 {
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -57,7 +57,7 @@ const
 fileNamesBeforeDelete
 =
 await
-nativeIO
+storageFoundation
 .
 getAll
 (
@@ -72,7 +72,7 @@ fileNamesBeforeDelete
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -85,7 +85,7 @@ const
 fileNames
 =
 await
-nativeIO
+storageFoundation
 .
 getAll
 (
@@ -107,7 +107,7 @@ test_file
 ;
 }
 '
-nativeIO
+storageFoundation
 .
 getAll
 does
@@ -116,7 +116,10 @@ return
 file
 deleted
 by
-nativeIO
+'
++
+'
+storageFoundation
 .
 delete
 '
@@ -130,7 +133,7 @@ testCase
 >
 {
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -140,7 +143,7 @@ test_file
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -151,7 +154,7 @@ test_file
 ;
 }
 '
-nativeIO
+storageFoundation
 .
 delete
 does

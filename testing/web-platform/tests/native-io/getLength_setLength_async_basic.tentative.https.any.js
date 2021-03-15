@@ -14,7 +14,7 @@ const
 file
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -41,7 +41,7 @@ close
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -183,7 +183,7 @@ const
 file
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -210,7 +210,7 @@ close
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 delete
 (
