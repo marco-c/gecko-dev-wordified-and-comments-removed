@@ -803,6 +803,8 @@ browser
 .
 proton
 .
+toolbar
+.
 enabled
 "
 )
@@ -7684,6 +7686,8 @@ pref
 browser
 .
 proton
+.
+toolbar
 .
 enabled
 "
