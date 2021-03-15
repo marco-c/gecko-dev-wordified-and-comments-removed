@@ -211,8 +211,6 @@ a
 ref
 .
 cast
-eq
-a
 local
 .
 get
@@ -259,8 +257,6 @@ a
 ref
 .
 cast
-eq
-a
 local
 .
 get
@@ -309,8 +305,6 @@ a
 ref
 .
 cast
-eq
-a
 array
 .
 len
@@ -687,8 +681,6 @@ a
 ref
 .
 cast
-eq
-a
 local
 .
 get
@@ -734,8 +726,6 @@ a
 ref
 .
 cast
-eq
-a
 local
 .
 get
@@ -780,8 +770,6 @@ a
 ref
 .
 cast
-eq
-a
 local
 .
 get

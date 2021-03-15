@@ -6070,6 +6070,9 @@ RefTest
 :
 {
 uint32_t
+unusedRttTypeIndex
+;
+uint32_t
 unusedRttDepth
 ;
 CHECK
@@ -6080,6 +6083,8 @@ readRefTest
 (
 &
 nothing
+&
+unusedRttTypeIndex
 &
 unusedRttDepth
 &
@@ -6099,6 +6104,9 @@ RefCast
 :
 {
 uint32_t
+unusedRttTypeIndex
+;
+uint32_t
 unusedRttDepth
 ;
 CHECK
@@ -6109,6 +6117,8 @@ readRefCast
 (
 &
 nothing
+&
+unusedRttTypeIndex
 &
 unusedRttDepth
 &
@@ -6131,6 +6141,9 @@ uint32_t
 unusedRelativeDepth
 ;
 uint32_t
+unusedRttTypeIndex
+;
+uint32_t
 unusedRttDepth
 ;
 CHECK
@@ -6143,6 +6156,8 @@ readBrOnCast
 unusedRelativeDepth
 &
 nothing
+&
+unusedRttTypeIndex
 &
 unusedRttDepth
 &
