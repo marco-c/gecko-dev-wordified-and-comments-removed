@@ -100,6 +100,12 @@ commands
         
 self
 .
+is_interactive
+=
+None
+        
+self
+.
 telemetry
 =
 telemetry

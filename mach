@@ -415,6 +415,15 @@ fi
 ;
 -
 -
+no
+-
+interactive
+)
+shift
+;
+;
+-
+-
 log
 -
 interval

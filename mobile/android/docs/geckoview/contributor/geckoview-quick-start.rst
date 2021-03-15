@@ -550,7 +550,6 @@ bash
 .
 /
 mach
-bootstrap
 [
 -
 -
@@ -558,6 +557,7 @@ no
 -
 interactive
 ]
+bootstrap
 -
 Choose
 option
