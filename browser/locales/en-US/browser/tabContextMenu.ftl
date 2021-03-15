@@ -405,11 +405,7 @@ open
 -
 in
 -
-new
--
 container
--
-tab
 =
 .
 label
@@ -418,7 +414,6 @@ Open
 in
 New
 Container
-Tab
 .
 accesskey
 =
