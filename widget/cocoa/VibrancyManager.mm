@@ -230,9 +230,6 @@ VibrancyType
 SOURCE_LIST_SELECTION
 :
 return
-(
-NSVisualEffectMaterial
-)
 NSVisualEffectMaterialSelection
 ;
 case
@@ -253,9 +250,6 @@ aOutIsEmphasized
 YES
 ;
 return
-(
-NSVisualEffectMaterial
-)
 NSVisualEffectMaterialSelection
 ;
 default
