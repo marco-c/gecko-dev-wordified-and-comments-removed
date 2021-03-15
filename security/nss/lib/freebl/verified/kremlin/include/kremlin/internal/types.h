@@ -220,7 +220,6 @@ _MSC_VER
 )
 &
 &
-!
 defined
 (
 _M_X64
@@ -349,6 +348,11 @@ lowstar_endianness
 .
 h
 "
+#
+endif
+#
+ifndef
+__FStar_UInt_8_16_32_64_H
 #
 if
 !

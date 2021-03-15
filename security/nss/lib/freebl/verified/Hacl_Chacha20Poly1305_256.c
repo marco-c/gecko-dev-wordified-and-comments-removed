@@ -219,7 +219,7 @@ Lib_IntVector_Intrinsics_vec256_zero
 Lib_IntVector_Intrinsics_vec256
 lo
 =
-Lib_IntVector_Intrinsics_vec256_load_le
+Lib_IntVector_Intrinsics_vec256_load64_le
 (
 block
 )
@@ -227,7 +227,7 @@ block
 Lib_IntVector_Intrinsics_vec256
 hi
 =
-Lib_IntVector_Intrinsics_vec256_load_le
+Lib_IntVector_Intrinsics_vec256_load64_le
 (
 block
 +
@@ -2698,10 +2698,7 @@ rem1
 *
 sizeof
 (
-last
-[
-0U
-]
+uint8_t
 )
 )
 ;
@@ -3849,10 +3846,7 @@ r
 *
 sizeof
 (
-rem
-[
-0U
-]
+uint8_t
 )
 )
 ;
@@ -5080,6 +5074,17 @@ ctx
 k
 )
 ;
+if
+(
+aadlen
+!
+=
+(
+uint32_t
+)
+0U
+)
+{
 poly1305_padded_256
 (
 ctx
@@ -5087,6 +5092,7 @@ aadlen
 aad
 )
 ;
+}
 poly1305_padded_256
 (
 ctx

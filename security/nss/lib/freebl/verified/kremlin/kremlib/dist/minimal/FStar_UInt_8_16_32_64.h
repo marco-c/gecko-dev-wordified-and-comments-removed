@@ -1,4 +1,10 @@
 #
+ifndef
+__FStar_UInt_8_16_32_64_H
+#
+define
+__FStar_UInt_8_16_32_64_H
+#
 include
 <
 inttypes
@@ -54,12 +60,6 @@ target
 .
 h
 "
-#
-ifndef
-__FStar_UInt_8_16_32_64_H
-#
-define
-__FStar_UInt_8_16_32_64_H
 extern
 Prims_int
 FStar_UInt64_n
@@ -245,7 +245,7 @@ Prims_string
 FStar_UInt64_to_string
 (
 uint64_t
-uu____888
+uu___
 )
 ;
 extern
@@ -253,7 +253,7 @@ Prims_string
 FStar_UInt64_to_string_hex
 (
 uint64_t
-uu____899
+uu___
 )
 ;
 extern
@@ -261,7 +261,7 @@ Prims_string
 FStar_UInt64_to_string_hex_pad
 (
 uint64_t
-uu____910
+uu___
 )
 ;
 extern
@@ -269,7 +269,7 @@ uint64_t
 FStar_UInt64_of_string
 (
 Prims_string
-uu____921
+uu___
 )
 ;
 extern
@@ -457,7 +457,7 @@ Prims_string
 FStar_UInt32_to_string
 (
 uint32_t
-uu____888
+uu___
 )
 ;
 extern
@@ -465,7 +465,7 @@ Prims_string
 FStar_UInt32_to_string_hex
 (
 uint32_t
-uu____899
+uu___
 )
 ;
 extern
@@ -473,7 +473,7 @@ Prims_string
 FStar_UInt32_to_string_hex_pad
 (
 uint32_t
-uu____910
+uu___
 )
 ;
 extern
@@ -481,7 +481,7 @@ uint32_t
 FStar_UInt32_of_string
 (
 Prims_string
-uu____921
+uu___
 )
 ;
 extern
@@ -669,7 +669,7 @@ Prims_string
 FStar_UInt16_to_string
 (
 uint16_t
-uu____888
+uu___
 )
 ;
 extern
@@ -677,7 +677,7 @@ Prims_string
 FStar_UInt16_to_string_hex
 (
 uint16_t
-uu____899
+uu___
 )
 ;
 extern
@@ -685,7 +685,7 @@ Prims_string
 FStar_UInt16_to_string_hex_pad
 (
 uint16_t
-uu____910
+uu___
 )
 ;
 extern
@@ -693,7 +693,7 @@ uint16_t
 FStar_UInt16_of_string
 (
 Prims_string
-uu____921
+uu___
 )
 ;
 extern
@@ -881,7 +881,7 @@ Prims_string
 FStar_UInt8_to_string
 (
 uint8_t
-uu____888
+uu___
 )
 ;
 extern
@@ -889,7 +889,7 @@ Prims_string
 FStar_UInt8_to_string_hex
 (
 uint8_t
-uu____899
+uu___
 )
 ;
 extern
@@ -897,7 +897,7 @@ Prims_string
 FStar_UInt8_to_string_hex_pad
 (
 uint8_t
-uu____910
+uu___
 )
 ;
 extern
@@ -905,7 +905,7 @@ uint8_t
 FStar_UInt8_of_string
 (
 Prims_string
-uu____921
+uu___
 )
 ;
 typedef

@@ -1,4 +1,10 @@
 #
+ifndef
+FSTAR_UINT128_GCC64
+#
+define
+FSTAR_UINT128_GCC64
+#
 include
 "
 FStar_UInt128
@@ -740,3 +746,5 @@ uint128_t
 y
 ;
 }
+#
+endif

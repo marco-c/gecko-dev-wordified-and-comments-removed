@@ -600,10 +600,7 @@ uint32_t
 *
 sizeof
 (
-ctx
-[
-0U
-]
+uint32_t
 )
 )
 ;
@@ -1189,10 +1186,7 @@ len
 *
 sizeof
 (
-text
-[
-0U
-]
+uint8_t
 )
 )
 ;
@@ -1212,10 +1206,7 @@ len
 *
 sizeof
 (
-plain
-[
-0U
-]
+uint8_t
 )
 )
 ;

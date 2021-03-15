@@ -1514,10 +1514,7 @@ uint32_t
 *
 sizeof
 (
-ctx
-[
-0U
-]
+Lib_IntVector_Intrinsics_vec128
 )
 )
 ;
@@ -2811,7 +2808,7 @@ i0
 Lib_IntVector_Intrinsics_vec128
 x
 =
-Lib_IntVector_Intrinsics_vec128_load_le
+Lib_IntVector_Intrinsics_vec128_load32_le
 (
 uu____1
 +
@@ -2835,7 +2832,7 @@ i0
 ]
 )
 ;
-Lib_IntVector_Intrinsics_vec128_store_le
+Lib_IntVector_Intrinsics_vec128_store32_le
 (
 uu____0
 +
@@ -2904,10 +2901,7 @@ rem
 *
 sizeof
 (
-uu____3
-[
-0U
-]
+uint8_t
 )
 )
 ;
@@ -3582,7 +3576,7 @@ i
 Lib_IntVector_Intrinsics_vec128
 x
 =
-Lib_IntVector_Intrinsics_vec128_load_le
+Lib_IntVector_Intrinsics_vec128_load32_le
 (
 plain
 +
@@ -3606,7 +3600,7 @@ i
 ]
 )
 ;
-Lib_IntVector_Intrinsics_vec128_store_le
+Lib_IntVector_Intrinsics_vec128_store32_le
 (
 plain
 +
@@ -3628,10 +3622,7 @@ rem
 *
 sizeof
 (
-plain
-[
-0U
-]
+uint8_t
 )
 )
 ;
@@ -4443,7 +4434,7 @@ i0
 Lib_IntVector_Intrinsics_vec128
 x
 =
-Lib_IntVector_Intrinsics_vec128_load_le
+Lib_IntVector_Intrinsics_vec128_load32_le
 (
 uu____1
 +
@@ -4467,7 +4458,7 @@ i0
 ]
 )
 ;
-Lib_IntVector_Intrinsics_vec128_store_le
+Lib_IntVector_Intrinsics_vec128_store32_le
 (
 uu____0
 +
@@ -4536,10 +4527,7 @@ rem
 *
 sizeof
 (
-uu____3
-[
-0U
-]
+uint8_t
 )
 )
 ;
@@ -5214,7 +5202,7 @@ i
 Lib_IntVector_Intrinsics_vec128
 x
 =
-Lib_IntVector_Intrinsics_vec128_load_le
+Lib_IntVector_Intrinsics_vec128_load32_le
 (
 plain
 +
@@ -5238,7 +5226,7 @@ i
 ]
 )
 ;
-Lib_IntVector_Intrinsics_vec128_store_le
+Lib_IntVector_Intrinsics_vec128_store32_le
 (
 plain
 +
@@ -5260,10 +5248,7 @@ rem
 *
 sizeof
 (
-plain
-[
-0U
-]
+uint8_t
 )
 )
 ;

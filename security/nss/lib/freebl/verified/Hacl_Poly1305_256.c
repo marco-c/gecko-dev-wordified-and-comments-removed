@@ -50,7 +50,7 @@ Lib_IntVector_Intrinsics_vec256_zero
 Lib_IntVector_Intrinsics_vec256
 lo
 =
-Lib_IntVector_Intrinsics_vec256_load_le
+Lib_IntVector_Intrinsics_vec256_load64_le
 (
 b
 )
@@ -58,7 +58,7 @@ b
 Lib_IntVector_Intrinsics_vec256
 hi
 =
-Lib_IntVector_Intrinsics_vec256_load_le
+Lib_IntVector_Intrinsics_vec256_load64_le
 (
 b
 +
@@ -6731,7 +6731,7 @@ Lib_IntVector_Intrinsics_vec256_zero
 Lib_IntVector_Intrinsics_vec256
 lo
 =
-Lib_IntVector_Intrinsics_vec256_load_le
+Lib_IntVector_Intrinsics_vec256_load64_le
 (
 block
 )
@@ -6739,7 +6739,7 @@ block
 Lib_IntVector_Intrinsics_vec256
 hi
 =
-Lib_IntVector_Intrinsics_vec256_load_le
+Lib_IntVector_Intrinsics_vec256_load64_le
 (
 block
 +
@@ -9205,10 +9205,7 @@ rem
 *
 sizeof
 (
-last
-[
-0U
-]
+uint8_t
 )
 )
 ;

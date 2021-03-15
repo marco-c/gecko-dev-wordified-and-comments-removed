@@ -1,4 +1,10 @@
 #
+ifndef
+FSTAR_UINT128_MSVC
+#
+define
+FSTAR_UINT128_MSVC
+#
 include
 "
 kremlin
@@ -2690,3 +2696,11 @@ y
 #
 endif
 }
+#
+undef
+low
+#
+undef
+high
+#
+endif

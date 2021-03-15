@@ -219,7 +219,7 @@ Lib_IntVector_Intrinsics_vec128_zero
 Lib_IntVector_Intrinsics_vec128
 b1
 =
-Lib_IntVector_Intrinsics_vec128_load_le
+Lib_IntVector_Intrinsics_vec128_load64_le
 (
 block
 )
@@ -227,7 +227,7 @@ block
 Lib_IntVector_Intrinsics_vec128
 b2
 =
-Lib_IntVector_Intrinsics_vec128_load_le
+Lib_IntVector_Intrinsics_vec128_load64_le
 (
 block
 +
@@ -2656,10 +2656,7 @@ rem1
 *
 sizeof
 (
-last
-[
-0U
-]
+uint8_t
 )
 )
 ;
@@ -3807,10 +3804,7 @@ r
 *
 sizeof
 (
-rem
-[
-0U
-]
+uint8_t
 )
 )
 ;
@@ -5038,6 +5032,17 @@ ctx
 k
 )
 ;
+if
+(
+aadlen
+!
+=
+(
+uint32_t
+)
+0U
+)
+{
 poly1305_padded_128
 (
 ctx
@@ -5045,6 +5050,7 @@ aadlen
 aad
 )
 ;
+}
 poly1305_padded_128
 (
 ctx

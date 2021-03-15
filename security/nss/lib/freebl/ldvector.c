@@ -400,6 +400,9 @@ AES_AEAD
 AESKeyWrap_EncryptKWP
 AESKeyWrap_DecryptKWP
 KEA_PrimeCheck
+ChaCha20_InitContext
+ChaCha20_CreateContext
+ChaCha20_DestroyContext
 }
 ;
 const
