@@ -3200,6 +3200,7 @@ dbg
 )
 ;
 }
+async
 function
 resume
 (
@@ -3223,7 +3224,15 @@ pauseLine
 }
 )
 ;
-return
+const
+onResumed
+=
+waitForActive
+(
+dbg
+)
+;
+await
 dbg
 .
 actions
@@ -3235,6 +3244,9 @@ getThreadContext
 dbg
 )
 )
+;
+await
+onResumed
 ;
 }
 function

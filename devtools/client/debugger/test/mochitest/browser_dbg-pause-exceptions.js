@@ -108,12 +108,6 @@ resume
 dbg
 )
 ;
-await
-waitForActive
-(
-dbg
-)
-;
 log
 (
 "
@@ -156,12 +150,6 @@ dbg
 ;
 await
 resume
-(
-dbg
-)
-;
-await
-waitForActive
 (
 dbg
 )
