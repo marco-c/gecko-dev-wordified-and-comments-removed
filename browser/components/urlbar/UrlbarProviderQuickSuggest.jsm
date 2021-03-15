@@ -496,7 +496,11 @@ query
 (
 queryContext
 .
-trimmedSearchString
+searchString
+.
+trimStart
+(
+)
 )
 ;
 if
