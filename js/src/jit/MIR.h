@@ -15473,9 +15473,16 @@ MGetInlinedArgument
 public
 MVariadicInstruction
 public
+MixPolicy
+<
 UnboxedInt32Policy
 <
 0
+>
+NoFloatPolicyAfter
+<
+1
+>
 >
 :
 :

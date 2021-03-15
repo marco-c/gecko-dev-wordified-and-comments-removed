@@ -3804,7 +3804,7 @@ FirstOp
 >
 :
 :
-adjustInputs
+staticAdjustInputs
 (
 TempAllocator
 &
@@ -3813,7 +3813,6 @@ MInstruction
 *
 def
 )
-const
 {
 for
 (
@@ -3859,7 +3858,7 @@ NoFloatPolicyAfter
 >
 :
 :
-adjustInputs
+staticAdjustInputs
 (
 TempAllocator
 &
@@ -3868,7 +3867,6 @@ MInstruction
 *
 def
 )
-const
 ;
 template
 bool
@@ -3878,7 +3876,7 @@ NoFloatPolicyAfter
 >
 :
 :
-adjustInputs
+staticAdjustInputs
 (
 TempAllocator
 &
@@ -3887,7 +3885,6 @@ MInstruction
 *
 def
 )
-const
 ;
 template
 bool
@@ -3897,7 +3894,7 @@ NoFloatPolicyAfter
 >
 :
 :
-adjustInputs
+staticAdjustInputs
 (
 TempAllocator
 &
@@ -3906,7 +3903,6 @@ MInstruction
 *
 def
 )
-const
 ;
 template
 <
@@ -7480,6 +7476,21 @@ UnboxedInt32Policy
 0
 >
 BigIntPolicy
+<
+1
+>
+>
+)
+\
+_
+(
+MixPolicy
+<
+UnboxedInt32Policy
+<
+0
+>
+NoFloatPolicyAfter
 <
 1
 >
