@@ -1678,19 +1678,6 @@ merge
 {
             
 "
-fission
--
-run
--
-on
--
-projects
-"
-:
-[
-]
-            
-"
 mozharness
 "
 :
@@ -1772,19 +1759,6 @@ merge
 "
 :
 {
-            
-"
-fission
--
-run
--
-on
--
-projects
-"
-:
-[
-]
             
 "
 mozharness
@@ -1894,19 +1868,6 @@ merge
 "
 :
 {
-            
-"
-fission
--
-run
--
-on
--
-projects
-"
-:
-[
-]
             
 "
 mozharness
