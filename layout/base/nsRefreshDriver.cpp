@@ -1204,7 +1204,7 @@ MostRecentRefresh
 )
 ;
 TimeDuration
-refreshRate
+refreshPeriod
 =
 GetTimerRate
 (
@@ -1215,13 +1215,13 @@ idleEnd
 =
 mostRecentRefresh
 +
-refreshRate
+refreshPeriod
 ;
 if
 (
 idleEnd
 +
-refreshRate
+refreshPeriod
 *
 StaticPrefs
 :

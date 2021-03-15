@@ -92,6 +92,8 @@ char
 *
 aRunnableName
 uint32_t
+aStartDelay
+uint32_t
 aMaxDelay
 int64_t
 aMinimumUsefulBudget
@@ -165,6 +167,8 @@ char
 *
 aRunnableName
 uint32_t
+aStartDelay
+uint32_t
 aMaxDelay
 int64_t
 aMinimumUsefulBudget
@@ -208,8 +212,15 @@ mScheduleTimer
 CallbackType
 mCallback
 ;
+const
+mozilla
+:
+:
+TimeStamp
+mStartTime
+;
 uint32_t
-mDelay
+mMaxDelay
 ;
 TimeStamp
 mDeadline
