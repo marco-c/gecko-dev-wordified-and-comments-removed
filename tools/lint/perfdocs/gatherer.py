@@ -55,7 +55,7 @@ mozperftest
 MozperftestGatherer
     
 "
-Talos
+talos
 "
 :
 TalosGatherer
