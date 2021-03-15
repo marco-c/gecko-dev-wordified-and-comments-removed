@@ -30711,6 +30711,14 @@ PaintFlags
 :
 :
 PaintSyncDecodeImages
+|
+|
+mDocument
+-
+>
+IsStaticDocument
+(
+)
 )
 {
 flags
