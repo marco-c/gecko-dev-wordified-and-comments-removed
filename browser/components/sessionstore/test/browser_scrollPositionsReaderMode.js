@@ -92,6 +92,7 @@ test_scroll_background_about_reader_tabs
 (
 )
 {
+await
 pushPrefs
 (
 [
@@ -101,6 +102,16 @@ browser
 sessionstore
 .
 restore_on_demand
+"
+true
+]
+[
+"
+dom
+.
+visualviewport
+.
+enabled
 "
 true
 ]
