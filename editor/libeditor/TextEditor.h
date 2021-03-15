@@ -194,6 +194,7 @@ AreClipboardCommandsUnconditionallyEnabled
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 IsCutCommandEnabled
 (
@@ -206,6 +207,7 @@ Copy
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 IsCopyCommandEnabled
 (
@@ -1405,6 +1407,18 @@ aNotify
 bool
 aForceStartMasking
 )
+;
+MOZ_CAN_RUN_SCRIPT
+bool
+CheckForClipboardCommandListener
+(
+nsAtom
+*
+aCommand
+EventMessage
+aEventMessage
+)
+const
 ;
 protected
 :
