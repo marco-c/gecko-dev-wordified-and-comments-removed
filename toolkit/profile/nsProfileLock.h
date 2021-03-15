@@ -215,6 +215,12 @@ LockWithFcntl
 nsIFile
 *
 aLockFile
+nsIProfileUnlocker
+*
+*
+aUnlocker
+=
+nullptr
 )
 ;
 nsresult
