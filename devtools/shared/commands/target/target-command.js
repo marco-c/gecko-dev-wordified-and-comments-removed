@@ -153,13 +153,15 @@ watcher
 )
 ;
 class
-TargetList
+TargetCommand
 extends
 EventEmitter
 {
 constructor
 (
+{
 descriptorFront
+}
 )
 {
 super
@@ -426,7 +428,7 @@ already
 registered
 in
 the
-TargetList
+TargetCommand
 "
 targetFront
 .
@@ -919,7 +921,7 @@ fissionBrowserToolboxEnabled
 {
 types
 =
-TargetList
+TargetCommand
 .
 ALL_TYPES
 ;
@@ -938,7 +940,7 @@ isLocalTab
 types
 =
 [
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -958,7 +960,7 @@ types
 .
 includes
 (
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -970,7 +972,7 @@ types
 .
 push
 (
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -990,7 +992,7 @@ types
 .
 includes
 (
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1002,7 +1004,7 @@ types
 .
 push
 (
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1022,7 +1024,7 @@ types
 .
 includes
 (
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1034,7 +1036,7 @@ types
 .
 push
 (
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1208,7 +1210,7 @@ for
 const
 type
 of
-TargetList
+TargetCommand
 .
 ALL_TYPES
 )
@@ -1328,7 +1330,7 @@ browsingContextTarget
 )
 {
 return
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1354,7 +1356,7 @@ parentProcessTarget
 )
 {
 return
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1387,7 +1389,7 @@ isSharedWorker
 )
 {
 return
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1402,7 +1404,7 @@ isServiceWorker
 )
 {
 return
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1410,7 +1412,7 @@ SERVICE_WORKER
 ;
 }
 return
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1472,7 +1474,7 @@ new
 Error
 (
 "
-TargetList
+TargetCommand
 .
 watchTargets
 expects
@@ -1723,7 +1725,7 @@ new
 Error
 (
 "
-TargetList
+TargetCommand
 .
 unwatchTargets
 expects
@@ -2174,11 +2176,11 @@ true
 ;
 }
 }
-TargetList
+TargetCommand
 .
 TYPES
 =
-TargetList
+TargetCommand
 .
 prototype
 .
@@ -2212,11 +2214,11 @@ service_worker
 "
 }
 ;
-TargetList
+TargetCommand
 .
 ALL_TYPES
 =
-TargetList
+TargetCommand
 .
 prototype
 .
@@ -2226,7 +2228,7 @@ Object
 .
 values
 (
-TargetList
+TargetCommand
 .
 TYPES
 )
@@ -2235,7 +2237,5 @@ module
 .
 exports
 =
-{
-TargetList
-}
+TargetCommand
 ;
