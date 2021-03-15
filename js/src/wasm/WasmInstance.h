@@ -36,15 +36,6 @@ include
 "
 wasm
 /
-TypedObject
-.
-h
-"
-#
-include
-"
-wasm
-/
 WasmCode
 .
 h

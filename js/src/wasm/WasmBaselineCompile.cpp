@@ -284,6 +284,15 @@ include
 "
 wasm
 /
+TypedObject
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmGC
 .
 h

@@ -152,6 +152,15 @@ include
 "
 wasm
 /
+TypedObject
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmBuiltins
 .
 h

@@ -89,15 +89,6 @@ include
 "
 wasm
 /
-TypedObject
-.
-h
-"
-#
-include
-"
-wasm
-/
 WasmBaselineCompile
 .
 h
