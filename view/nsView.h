@@ -1041,11 +1041,6 @@ true
 )
 ;
 void
-ZeroDimensions
-(
-)
-;
-void
 SetVisibility
 (
 nsViewVisibility
