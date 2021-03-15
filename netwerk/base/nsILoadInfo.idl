@@ -1990,6 +1990,13 @@ attribute
 boolean
 allowListFutureDocumentsCreatedFromThisRedirectChain
 ;
+[
+infallible
+]
+attribute
+boolean
+needForCheckingAntiTrackingHeuristic
+;
 attribute
 AString
 cspNonce

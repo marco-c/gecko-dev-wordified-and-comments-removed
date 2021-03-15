@@ -426,6 +426,9 @@ documentHasUserInteracted
 bool
 allowListFutureDocumentsCreatedFromThisRedirectChain
 ;
+bool
+needForCheckingAntiTrackingHeuristic
+;
 nsString
 cspNonce
 ;
