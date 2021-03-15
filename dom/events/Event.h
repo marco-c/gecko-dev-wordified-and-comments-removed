@@ -123,15 +123,6 @@ nsWrapperCache
 .
 h
 "
-#
-include
-"
-mozilla
-/
-HoldDropJSObjects
-.
-h
-"
 class
 PickleIterator
 ;
