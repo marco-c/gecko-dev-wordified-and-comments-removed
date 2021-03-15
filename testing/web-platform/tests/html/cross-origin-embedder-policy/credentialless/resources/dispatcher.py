@@ -270,7 +270,9 @@ headers
             
 ret
 =
-headers
+b
+'
+'
 ;
         
 elif
