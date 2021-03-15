@@ -1107,6 +1107,17 @@ aObserver
 override
 ;
 virtual
+nsresult
+SynthesizeNativeTouchpadDoubleTap
+(
+LayoutDeviceIntPoint
+aPoint
+uint32_t
+aModifierFlags
+)
+override
+;
+virtual
 void
 StartAsyncScrollbarDrag
 (

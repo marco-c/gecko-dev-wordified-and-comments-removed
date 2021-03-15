@@ -2007,6 +2007,15 @@ aObserverId
 )
 ;
 async
+SynthesizeNativeTouchpadDoubleTap
+(
+LayoutDeviceIntPoint
+aPoint
+uint32_t
+aModifierFlags
+)
+;
+async
 AccessKeyNotHandled
 (
 WidgetKeyboardEvent
