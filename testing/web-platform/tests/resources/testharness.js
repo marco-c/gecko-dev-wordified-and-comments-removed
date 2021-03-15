@@ -9691,7 +9691,7 @@ n
 ;
 }
 }
-expose_assert
+expose
 (
 assert_any
 "
