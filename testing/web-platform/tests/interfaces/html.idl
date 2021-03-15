@@ -2358,13 +2358,6 @@ attribute
 DOMString
 name
 ;
-[
-CEReactions
-]
-attribute
-DOMString
-useMap
-;
 readonly
 attribute
 HTMLFormElement
@@ -12916,6 +12909,13 @@ CEReactions
 attribute
 DOMString
 codeType
+;
+[
+CEReactions
+]
+attribute
+DOMString
+useMap
 ;
 [
 CEReactions
