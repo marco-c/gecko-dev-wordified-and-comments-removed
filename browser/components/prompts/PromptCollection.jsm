@@ -326,7 +326,7 @@ dom
 GetStringFromName
 (
 "
-OnBeforeUnloadMessage
+OnBeforeUnloadMessage2
 "
 )
 ;
