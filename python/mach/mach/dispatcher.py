@@ -1528,17 +1528,6 @@ default
         
 elif
 extra
-and
-handler
-.
-cls
-.
-__name__
-!
-=
-"
-DeprecatedCommands
-"
 :
             
 raise
@@ -2643,11 +2632,9 @@ command
 names
 =
 [
-            
 h
 .
 name
-            
 for
 h
 in
@@ -2660,19 +2647,6 @@ command_handlers
 values
 (
 )
-            
-if
-h
-.
-cls
-.
-__name__
-!
-=
-"
-DeprecatedCommands
-"
-        
 ]
         
 suggested_commands
