@@ -442,7 +442,7 @@ true
 ;
 webExtensionTargetPrototype
 .
-exit
+destroy
 =
 function
 (
@@ -518,7 +518,7 @@ ParentProcessTargetActor
 .
 prototype
 .
-exit
+destroy
 .
 apply
 (
@@ -1433,7 +1433,7 @@ return
 }
 this
 .
-exit
+destroy
 (
 )
 ;
