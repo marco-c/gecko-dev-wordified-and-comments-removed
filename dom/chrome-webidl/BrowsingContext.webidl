@@ -331,6 +331,17 @@ WindowProxy
 window
 )
 ;
+static
+BrowsingContext
+?
+getCurrentTopByBrowserId
+(
+unsigned
+long
+long
+aId
+)
+;
 sequence
 <
 BrowsingContext
