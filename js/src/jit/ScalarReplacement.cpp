@@ -7427,11 +7427,6 @@ argno
 (
 )
 )
--
->
-toInstruction
-(
-)
 ;
 }
 else
