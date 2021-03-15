@@ -907,6 +907,8 @@ getActorForWindow
 window
 )
 {
+try
+{
 let
 windowGlobal
 =
@@ -914,8 +916,6 @@ window
 .
 windowGlobalChild
 ;
-try
-{
 if
 (
 windowGlobal
