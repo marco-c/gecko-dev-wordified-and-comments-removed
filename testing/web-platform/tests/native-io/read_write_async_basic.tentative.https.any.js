@@ -10,6 +10,12 @@ testCase
 =
 >
 {
+await
+reserveAndCleanupCapacity
+(
+testCase
+)
+;
 const
 file
 =
