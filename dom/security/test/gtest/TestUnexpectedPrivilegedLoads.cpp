@@ -395,7 +395,7 @@ _ns
 ExtContentPolicy
 :
 :
-TYPE_IMAGE
+TYPE_STYLESHEET
 "
 web
 "
@@ -406,7 +406,7 @@ other
 "
 _ns
 "
-TYPE_IMAGE
+TYPE_STYLESHEET
 "
 _ns
 "
@@ -431,7 +431,7 @@ _ns
 ExtContentPolicy
 :
 :
-TYPE_DOCUMENT
+TYPE_SCRIPT
 "
 webCOOP
 +
@@ -452,7 +452,7 @@ dataurl
 "
 _ns
 "
-TYPE_DOCUMENT
+TYPE_SCRIPT
 "
 _ns
 "
@@ -554,7 +554,7 @@ _ns
 ExtContentPolicy
 :
 :
-TYPE_IMAGE
+TYPE_STYLESHEET
 "
 web
 "
@@ -565,7 +565,7 @@ other
 "
 _ns
 "
-TYPE_IMAGE
+TYPE_STYLESHEET
 "
 _ns
 "
@@ -586,7 +586,7 @@ _ns
 ExtContentPolicy
 :
 :
-TYPE_FONT
+TYPE_SCRIPT
 "
 web
 "
@@ -597,7 +597,7 @@ other
 "
 _ns
 "
-TYPE_FONT
+TYPE_SCRIPT
 "
 _ns
 "
