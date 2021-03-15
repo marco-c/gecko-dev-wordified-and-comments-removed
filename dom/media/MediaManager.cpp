@@ -2996,7 +2996,6 @@ device
 )
 ;
 }
-else
 if
 (
 RefPtr
