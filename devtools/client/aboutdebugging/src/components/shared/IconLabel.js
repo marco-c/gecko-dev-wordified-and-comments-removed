@@ -129,7 +129,7 @@ skin
 /
 icons
 /
-check
+success
 .
 svg
 "
