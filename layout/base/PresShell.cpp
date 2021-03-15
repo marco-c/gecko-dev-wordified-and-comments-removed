@@ -38039,7 +38039,7 @@ return
 childDocShell
 -
 >
-GetDocument
+GetExtantDocument
 (
 )
 ;
