@@ -14,7 +14,7 @@ namespace
 mozilla
 {
 void
-AntiTrackingRedirectHeuristic
+PrepareForAntiTrackingRedirectHeuristic
 (
 nsIChannel
 *
@@ -22,6 +22,17 @@ aOldChannel
 nsIURI
 *
 aOldURI
+nsIChannel
+*
+aNewChannel
+nsIURI
+*
+aNewURI
+)
+;
+void
+FinishAntiTrackingRedirectHeuristic
+(
 nsIChannel
 *
 aNewChannel
