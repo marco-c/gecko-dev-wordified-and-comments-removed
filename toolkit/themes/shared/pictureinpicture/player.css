@@ -604,6 +604,12 @@ svg
 "
 )
 ;
+background
+-
+size
+:
+cover
+;
 position
 :
 absolute
