@@ -469,6 +469,9 @@ screenshots
 "
 js
 "
+"
+cpu
+"
 ]
 threads
 :
@@ -547,6 +550,9 @@ leaf
 "
 "
 stackwalk
+"
+"
+cpu
 "
 "
 java
@@ -629,6 +635,9 @@ leaf
 stackwalk
 "
 "
+cpu
+"
+"
 java
 "
 ]
@@ -695,6 +704,9 @@ stackwalk
 "
 "
 js
+"
+"
+cpu
 "
 "
 java
@@ -771,6 +783,9 @@ leaf
 "
 "
 stackwalk
+"
+"
+cpu
 "
 "
 audiocallbacktracing
