@@ -520,15 +520,6 @@ extern
 bool
 enableWasmOptimizing
 ;
-#
-ifdef
-JS_CODEGEN_ARM64
-extern
-bool
-forceWasmIon
-;
-#
-endif
 extern
 bool
 enableWasmReftypes

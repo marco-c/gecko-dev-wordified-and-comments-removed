@@ -19169,10 +19169,6 @@ src
 )
 )
 ;
-syncStackPtr
-(
-)
-;
 }
 void
 MacroAssemblerCompat
@@ -19198,10 +19194,6 @@ imm
 .
 value
 )
-)
-;
-syncStackPtr
-(
 )
 ;
 }
@@ -19254,10 +19246,6 @@ GetStackPointer64
 (
 )
 scratch
-)
-;
-syncStackPtr
-(
 )
 ;
 }
