@@ -368,6 +368,9 @@ js
 stackwalk
 "
 "
+cpu
+"
+"
 responsiveness
 "
 "

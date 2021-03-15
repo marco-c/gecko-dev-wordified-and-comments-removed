@@ -1796,6 +1796,9 @@ leaf
 stackwalk
 "
 "
+cpu
+"
+"
 threads
 "
 "
