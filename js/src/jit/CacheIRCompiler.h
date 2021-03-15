@@ -2919,7 +2919,7 @@ const
 return
 JitOptions
 .
-spectreObjectMitigations
+spectreObjectMitigationsMisc
 &
 &
 !

@@ -28990,7 +28990,7 @@ if
 (
 JitOptions
 .
-spectreObjectMitigations
+spectreObjectMitigationsMisc
 )
 {
 auto
