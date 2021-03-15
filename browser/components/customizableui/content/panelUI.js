@@ -3525,12 +3525,6 @@ _hidePopup
 (
 )
 ;
-this
-.
-_clearBadge
-(
-)
-;
 if
 (
 !
