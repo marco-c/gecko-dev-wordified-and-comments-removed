@@ -2131,6 +2131,15 @@ navigate
 )
 ;
 const
+targetFollowsWindowLifecycle
+=
+target
+.
+targetForm
+.
+followWindowGlobalLifeCycle
+;
+const
 onPanelReloaded
 =
 waitForPanelReload
@@ -2266,6 +2275,9 @@ reloaded
 if
 (
 switchedToAnotherProcess
+|
+|
+targetFollowsWindowLifecycle
 )
 {
 info

@@ -1304,6 +1304,11 @@ browsingContextID
 this
 .
 browsingContextID
+followWindowGlobalLifeCycle
+:
+this
+.
+followWindowGlobalLifeCycle
 isTopLevelTarget
 :
 this
@@ -1319,6 +1324,9 @@ reconfigureSupportsSimulationFeatures
 :
 true
 supportsTopLevelTargetFlag
+:
+true
+supportsFollowWindowGlobalLifeCycleFlag
 :
 true
 }
