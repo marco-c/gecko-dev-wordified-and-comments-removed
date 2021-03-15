@@ -9,6 +9,11 @@ testCase
 =
 >
 {
+reserveAndCleanupCapacitySync
+(
+testCase
+)
+;
 const
 file
 =
@@ -89,6 +94,11 @@ testCase
 =
 >
 {
+reserveAndCleanupCapacitySync
+(
+testCase
+)
+;
 const
 file
 =

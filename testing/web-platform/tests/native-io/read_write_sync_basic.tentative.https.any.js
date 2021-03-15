@@ -9,6 +9,11 @@ testCase
 =
 >
 {
+reserveAndCleanupCapacitySync
+(
+testCase
+)
+;
 const
 file
 =
