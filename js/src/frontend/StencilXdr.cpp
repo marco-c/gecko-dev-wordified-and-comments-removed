@@ -2654,17 +2654,6 @@ frontend
 ParserAtomSpanBuilder
 builder
 (
-xdr
--
->
-cx
-(
-)
--
->
-runtime
-(
-)
 parserAtomData
 )
 ;
