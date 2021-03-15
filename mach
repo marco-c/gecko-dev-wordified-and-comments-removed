@@ -163,11 +163,6 @@ tests
 -
 client
 test
-wpt
--
-metadata
--
-merge
 "
 #
 Commands
