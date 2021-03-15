@@ -1718,7 +1718,7 @@ NSRequiresAquaSystemAppearance
 key
 >
 <
-true
+false
 /
 >
 <
