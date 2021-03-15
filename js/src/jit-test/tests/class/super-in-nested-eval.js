@@ -61,9 +61,6 @@ var
 s
 =
 "
-var
-q
-;
 if
 (
 d
@@ -98,7 +95,7 @@ s
 const
 MAX_DEPTH
 =
-250
+252
 ;
 var
 depths

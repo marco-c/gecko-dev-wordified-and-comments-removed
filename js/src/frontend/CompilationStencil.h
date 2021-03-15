@@ -503,7 +503,7 @@ name
 )
 ;
 NameLocation
-searchInEnclosingScope
+searchInDelazificationEnclosingScope
 (
 JSContext
 *
