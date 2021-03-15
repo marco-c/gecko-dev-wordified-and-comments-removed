@@ -2666,20 +2666,11 @@ program
 For
     
 example
-util
-.
-wrap_popen3_for_win
-use
-in
-this
-method
-replaces
-implementation
-    
-of
-os
-.
-popen3
+it
+changes
+the
+current
+directory
 .
     
 "
@@ -2784,13 +2775,6 @@ environ
 CYGWIN_PATH
 '
 ]
-            
-util
-.
-wrap_popen3_for_win
-(
-cygwin_path
-)
             
 def
 __check_script

@@ -1365,7 +1365,8 @@ self
 _options
 .
 version
-is
+=
+=
 8
 :
             

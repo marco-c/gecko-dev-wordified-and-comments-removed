@@ -36,13 +36,9 @@ False
 if
 sys
 .
-version
+hexversion
 <
-'
-2
-.
-7
-'
+0x020700f0
 :
     
 print
@@ -228,20 +224,17 @@ six
 url
 =
 '
-http
+https
 :
 /
 /
-code
-.
-google
+github
 .
 com
 /
-p
+GoogleChromeLabs
 /
-pywebsocket
-/
+pywebsocket3
 '
     
 version
@@ -251,6 +244,6 @@ version
 .
 0
 .
-0
+1
 '
 )

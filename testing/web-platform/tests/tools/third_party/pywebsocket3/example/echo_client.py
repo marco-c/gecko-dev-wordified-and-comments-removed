@@ -3468,6 +3468,17 @@ six
 PY2
 :
         
+import
+locale
+        
+encoding
+=
+locale
+.
+getpreferredencoding
+(
+)
+        
 sys
 .
 stdout
@@ -3476,11 +3487,7 @@ codecs
 .
 getwriter
 (
-'
-utf
--
-8
-'
+encoding
 )
 (
 sys
@@ -3703,10 +3710,8 @@ default
 u
 '
 Hello
-\
-u65e5
-\
-u672c
+<
+>
 '
         
 help
