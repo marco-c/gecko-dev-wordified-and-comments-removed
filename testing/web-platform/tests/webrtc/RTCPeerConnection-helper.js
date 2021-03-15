@@ -799,9 +799,6 @@ event
 ;
 if
 (
-candidate
-&
-&
 remotePc
 .
 signalingState
