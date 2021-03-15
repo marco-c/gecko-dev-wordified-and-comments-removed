@@ -700,9 +700,13 @@ textContent
 .
 includes
 (
+Object
 {
-\
-u2026
+fav
+:
+"
+eggplant
+"
 }
 )
 )

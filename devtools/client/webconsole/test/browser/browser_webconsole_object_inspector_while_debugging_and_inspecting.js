@@ -397,9 +397,13 @@ textContent
 .
 includes
 (
+Object
 {
-\
-u2026
+testProp2
+:
+"
+testValue2
+"
 }
 )
 )

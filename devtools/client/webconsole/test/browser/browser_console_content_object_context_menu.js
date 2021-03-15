@@ -326,6 +326,17 @@ testCopyObject
 hud
 oi
 .
+querySelectorAll
+(
+"
+.
+node
+"
+)
+[
+2
+]
+.
 querySelector
 (
 "
