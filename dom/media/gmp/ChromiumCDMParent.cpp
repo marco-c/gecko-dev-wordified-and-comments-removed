@@ -2743,6 +2743,12 @@ mCDMCallback
 mIsShutdown
 )
 {
+aException
+.
+SuppressException
+(
+)
+;
 return
 ;
 }
