@@ -315,7 +315,7 @@ nodiscard
 ]
 ]
 bool
-internScopeCreationData
+internScopeStencil
 (
 BytecodeEmitter
 *
@@ -330,7 +330,7 @@ nodiscard
 ]
 ]
 bool
-internBodyScopeCreationData
+internBodyScopeStencil
 (
 BytecodeEmitter
 *
