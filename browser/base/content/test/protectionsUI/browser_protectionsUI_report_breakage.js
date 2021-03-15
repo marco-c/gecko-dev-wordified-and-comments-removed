@@ -2331,7 +2331,7 @@ error
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
