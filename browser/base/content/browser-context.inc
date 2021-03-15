@@ -2068,6 +2068,10 @@ menu
 image
 -
 view
+-
+new
+-
+tab
 "
 oncommand
 =
@@ -2117,6 +2121,10 @@ menu
 video
 -
 view
+-
+new
+-
+tab
 "
 oncommand
 =
