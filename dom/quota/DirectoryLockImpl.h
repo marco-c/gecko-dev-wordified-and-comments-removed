@@ -33,7 +33,7 @@ dom
 /
 quota
 /
-DirectoryLock
+CommonMetadata
 .
 h
 "
@@ -46,7 +46,7 @@ dom
 /
 quota
 /
-OriginMetadata
+DirectoryLock
 .
 h
 "
