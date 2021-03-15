@@ -169,12 +169,15 @@ gDevTools
 showToolbox
 (
 addonFront
-null
+{
+hostType
+:
 Toolbox
 .
 HostType
 .
 WINDOW
+}
 )
 ;
 async

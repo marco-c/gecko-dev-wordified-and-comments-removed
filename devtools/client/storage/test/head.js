@@ -774,10 +774,14 @@ gDevTools
 showToolbox
 (
 descriptor
+{
+toolId
+:
 "
 storage
 "
 hostType
+}
 )
 ;
 storage
