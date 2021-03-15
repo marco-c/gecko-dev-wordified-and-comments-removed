@@ -3092,6 +3092,14 @@ ClearAsyncAnimations
 (
 )
 ;
+mStateManager
+.
+mAsyncResourceUpdates
+.
+reset
+(
+)
+;
 mWebRenderCommandBuilder
 .
 ClearCachedResources
