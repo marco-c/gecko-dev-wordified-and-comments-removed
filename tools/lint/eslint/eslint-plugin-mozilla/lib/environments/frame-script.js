@@ -98,6 +98,12 @@ false
 RPMGetHttpResponseHeader
 :
 false
+RPMTryPingSecureWWWLink
+:
+false
+RPMOpenSecureWWWLink
+:
+false
 }
 }
 ;
