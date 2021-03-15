@@ -118,8 +118,11 @@ vColorMat
 ;
 flat
 varying
-ivec4
+int
 vFuncs
+[
+4
+]
 ;
 #
 define
