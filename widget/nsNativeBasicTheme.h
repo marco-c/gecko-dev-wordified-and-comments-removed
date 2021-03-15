@@ -1372,15 +1372,6 @@ nsIFrame
 *
 )
 ;
-static
-LayoutDeviceRect
-FixAspectRatio
-(
-const
-LayoutDeviceRect
-&
-)
-;
 virtual
 std
 :
