@@ -3543,7 +3543,7 @@ shell
 :
 forceWasmIon
 =
-true
+false
 ;
 #
 endif
@@ -63452,7 +63452,6 @@ else
 {
 forceWasmIon
 =
-!
 op
 .
 getBoolOption
@@ -63462,7 +63461,7 @@ wasm
 -
 force
 -
-cranelift
+ion
 "
 )
 ;
@@ -70024,13 +70023,13 @@ wasm
 -
 force
 -
-cranelift
+ion
 "
 "
 Temporary
 :
 Force
-Cranelift
+Ion
 in
 builds
 with
