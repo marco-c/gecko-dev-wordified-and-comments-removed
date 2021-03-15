@@ -620,6 +620,9 @@ WebAuthnGetAssertionInfo
 aTransactionInfo
 )
 ;
+[
+Tainted
+]
 async
 RequestCancel
 (

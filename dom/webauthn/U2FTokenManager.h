@@ -33,6 +33,15 @@ PWebAuthnTransaction
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Tainting
+.
+h
+"
 namespace
 mozilla
 {
@@ -102,7 +111,10 @@ PWebAuthnTransactionParent
 *
 aTransactionParent
 const
+Tainted
+<
 uint64_t
+>
 &
 aTransactionId
 )
