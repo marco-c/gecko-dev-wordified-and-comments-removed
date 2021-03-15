@@ -2710,8 +2710,6 @@ return
 gBrowserTabsRemoteAutostart
 ;
 }
-}
-static
 bool
 FissionExperimentEnrolled
 (
@@ -2742,6 +2740,7 @@ nsIXULRuntime
 :
 eExperimentStatusTreatment
 ;
+}
 }
 static
 void

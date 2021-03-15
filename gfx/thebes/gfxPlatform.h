@@ -855,6 +855,12 @@ UseWebRender
 ;
 static
 bool
+DoesFissionForceWebRender
+(
+)
+;
+static
+bool
 UseRemoteCanvas
 (
 )
