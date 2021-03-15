@@ -56,6 +56,9 @@ TextControlElement
 class
 TextControlState
 ;
+class
+TextEditor
+;
 namespace
 dom
 {
@@ -122,11 +125,6 @@ aSetValueChanged
 void
 HandleValueChanged
 (
-nsTextControlFrame
-*
-aFrame
-=
-nullptr
 )
 ;
 [

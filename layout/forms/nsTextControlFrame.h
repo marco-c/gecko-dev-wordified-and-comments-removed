@@ -763,13 +763,6 @@ ReflowOutput
 ;
 public
 :
-void
-SetValueChanged
-(
-bool
-aValueChanged
-)
-;
 Element
 *
 GetRootNode
