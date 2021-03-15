@@ -640,6 +640,8 @@ ifdef
 LIBFUZZER
 ifndef
 MOZ_TSAN
+ifndef
+FUZZING_JS_FUZZILLI
 #
 These
 options
@@ -844,6 +846,7 @@ coverage
 pc
 -
 table
+endif
 endif
 endif
 rustflags_override
