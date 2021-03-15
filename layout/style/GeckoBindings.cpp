@@ -3770,7 +3770,15 @@ ColorID
 Fieldtext
 :
 return
-true
+PreferenceSheet
+:
+:
+PrefsFor
+(
+aDoc
+)
+.
+mUseAccessibilityTheme
 ;
 default
 :
