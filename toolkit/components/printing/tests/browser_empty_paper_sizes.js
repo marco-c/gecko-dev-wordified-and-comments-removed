@@ -111,7 +111,7 @@ mockPrinterName
 await
 helper
 .
-awaitAnimationFrame
+waitForSettingsEvent
 (
 )
 ;
@@ -314,7 +314,7 @@ mockPrinterName
 await
 helper
 .
-awaitAnimationFrame
+waitForSettingsEvent
 (
 )
 ;
