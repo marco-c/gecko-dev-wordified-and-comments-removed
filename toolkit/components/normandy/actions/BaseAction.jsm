@@ -762,6 +762,7 @@ recipe
 async
 finalize
 (
+options
 )
 {
 this
@@ -813,6 +814,7 @@ this
 .
 _finalize
 (
+options
 )
 ;
 status
@@ -1024,6 +1026,10 @@ status
 async
 _finalize
 (
+_options
+=
+{
+}
 )
 {
 }
