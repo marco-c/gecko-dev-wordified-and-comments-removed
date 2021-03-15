@@ -294,6 +294,9 @@ url
 traits
 :
 {
+supportsTopLevelTargetFlag
+:
+false
 }
 }
 ;

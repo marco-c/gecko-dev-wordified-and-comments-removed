@@ -1304,6 +1304,11 @@ browsingContextID
 this
 .
 browsingContextID
+isTopLevelTarget
+:
+this
+.
+isTopLevelTarget
 traits
 :
 {
@@ -1311,6 +1316,9 @@ isBrowsingContext
 :
 true
 reconfigureSupportsSimulationFeatures
+:
+true
+supportsTopLevelTargetFlag
 :
 true
 }

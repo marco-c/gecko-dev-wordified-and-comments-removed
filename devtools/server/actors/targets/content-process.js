@@ -755,6 +755,9 @@ traits
 networkMonitor
 :
 false
+supportsTopLevelTargetFlag
+:
+false
 }
 }
 ;
