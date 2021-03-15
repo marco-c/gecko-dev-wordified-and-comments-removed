@@ -659,6 +659,8 @@ open
 link
 -
 container
+-
+tab
 =
 .
 label
@@ -668,6 +670,7 @@ Link
 in
 New
 Container
+Tab
 .
 accesskey
 =
