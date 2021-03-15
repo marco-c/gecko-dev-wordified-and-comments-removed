@@ -2552,14 +2552,6 @@ return
 options_
 ;
 }
-void
-trace
-(
-JSTracer
-*
-trc
-)
-;
 private
 :
 const
