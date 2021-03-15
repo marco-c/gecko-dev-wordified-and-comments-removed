@@ -64,6 +64,9 @@ description
 :
 "
 popupid
+id
+=
+descriptionid
 "
 "
 .
