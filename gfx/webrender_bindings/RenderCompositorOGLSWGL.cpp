@@ -1550,6 +1550,17 @@ aReadbackBuffer
 ]
 )
 ;
+if
+(
+aNeedsYFlip
+)
+{
+*
+aNeedsYFlip
+=
+true
+;
+}
 return
 true
 ;
