@@ -3,6 +3,7 @@ checkCommandState
 (
 testid
 undoEnabled
+copyEnabled
 deleteEnabled
 )
 {
@@ -50,7 +51,7 @@ hasAttribute
 disabled
 "
 )
-true
+copyEnabled
 testid
 +
 "
@@ -345,6 +346,7 @@ root
 focused
 "
 false
+true
 false
 )
 ;
@@ -435,6 +437,7 @@ focused
 "
 false
 false
+false
 )
 ;
 await
@@ -460,6 +463,7 @@ stepNum
 typed
 "
 true
+false
 false
 )
 ;
@@ -550,6 +554,7 @@ stepNum
 "
 selected
 "
+true
 true
 true
 )

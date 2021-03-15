@@ -4438,6 +4438,12 @@ cmd_paste
 "
 )
 ;
+input
+.
+blur
+(
+)
+;
 }
 )
 ;
