@@ -454,6 +454,13 @@ MODAL_TYPE_WINDOW
 =
 3
 ;
+const
+unsigned
+long
+MODAL_TYPE_INTERNAL_WINDOW
+=
+4
+;
 int32_t
 confirmEx
 (
