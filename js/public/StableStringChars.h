@@ -66,6 +66,15 @@ include
 "
 js
 /
+AllocPolicy
+.
+h
+"
+#
+include
+"
+js
+/
 RootingAPI
 .
 h

@@ -23,7 +23,16 @@ h
 #
 include
 "
-jspubtd
+jstypes
+.
+h
+"
+#
+include
+"
+js
+/
+TypeDecls
 .
 h
 "

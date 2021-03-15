@@ -25,6 +25,9 @@ h
 namespace
 js
 {
+struct
+CompartmentFilter
+;
 class
 MOZ_STACK_CLASS
 WrapperOptions

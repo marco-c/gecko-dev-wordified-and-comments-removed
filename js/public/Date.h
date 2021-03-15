@@ -36,7 +36,7 @@ include
 "
 js
 /
-RootingAPI
+TypeDecls
 .
 h
 "
@@ -49,14 +49,6 @@ Value
 .
 h
 "
-struct
-JS_PUBLIC_API
-JSContext
-;
-class
-JS_PUBLIC_API
-JSObject
-;
 namespace
 JS
 {

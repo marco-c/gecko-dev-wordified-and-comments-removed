@@ -25,15 +25,6 @@ jstypes
 .
 h
 "
-#
-include
-"
-js
-/
-GCAPI
-.
-h
-"
 struct
 JS_PUBLIC_API
 JSContext
@@ -45,6 +36,10 @@ JSObject
 namespace
 JS
 {
+class
+JS_PUBLIC_API
+AutoRequireNoGC
+;
 extern
 JS_PUBLIC_API
 JSObject

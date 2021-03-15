@@ -54,10 +54,13 @@ include
 "
 js
 /
-TracingAPI
+TypeDecls
 .
 h
 "
+class
+JSTracer
+;
 namespace
 JS
 {

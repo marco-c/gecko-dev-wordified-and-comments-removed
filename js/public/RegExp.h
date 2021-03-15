@@ -32,16 +32,7 @@ include
 "
 js
 /
-RootingAPI
-.
-h
-"
-#
-include
-"
-js
-/
-Value
+TypeDecls
 .
 h
 "

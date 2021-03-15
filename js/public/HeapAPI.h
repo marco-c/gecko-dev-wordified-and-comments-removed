@@ -37,13 +37,6 @@ type_traits
 #
 include
 "
-jspubtd
-.
-h
-"
-#
-include
-"
 js
 /
 GCAnnotations
@@ -97,7 +90,7 @@ include
 "
 js
 /
-Utility
+TypeDecls
 .
 h
 "
@@ -127,9 +120,6 @@ h
 "
 #
 endif
-struct
-JSExternalStringCallbacks
-;
 namespace
 js
 {
