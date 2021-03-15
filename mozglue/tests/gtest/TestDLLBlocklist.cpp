@@ -359,6 +359,12 @@ get
 )
 ;
 }
+#
+if
+defined
+(
+MOZ_LAUNCHER_PROCESS
+)
 TEST
 (
 TestDllBlocklist
@@ -455,6 +461,8 @@ get
 #
 endif
 }
+#
+endif
 #
 define
 DLL_BLOCKLIST_ENTRY
