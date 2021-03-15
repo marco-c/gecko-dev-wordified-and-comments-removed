@@ -127,9 +127,9 @@ version
 "
 1
 .
-9
+8
 .
-0
+1
 "
 authors
 =
@@ -383,9 +383,9 @@ version
 "
 0
 .
-5
+4
 .
-0
+2
 "
 [
 dependencies
@@ -399,9 +399,9 @@ version
 "
 0
 .
-8
+7
 .
-0
+2
 "
 [
 dependencies
@@ -415,9 +415,7 @@ version
 "
 0
 .
-8
-.
-0
+7
 "
 [
 dependencies
