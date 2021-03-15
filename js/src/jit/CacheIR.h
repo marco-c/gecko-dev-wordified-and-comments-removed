@@ -4257,7 +4257,8 @@ Int32OperandId
 argc
 JSOp
 op
-HandleFunction
+JSFunction
+*
 calleeFunc
 CallFlags
 flags
@@ -4380,7 +4381,8 @@ Int32OperandId
 argc
 ObjOperandId
 thisObjId
-HandleFunction
+JSFunction
+*
 calleeFunc
 CallFlags
 flags
@@ -5859,7 +5861,9 @@ emitIdGuard
 (
 ValOperandId
 valId
-HandleValue
+const
+Value
+&
 idVal
 jsid
 id
@@ -7531,7 +7535,8 @@ result
 void
 emitNativeCalleeGuard
 (
-HandleFunction
+JSFunction
+*
 callee
 )
 ;
@@ -7540,7 +7545,8 @@ emitCalleeGuard
 (
 ObjOperandId
 calleeId
-HandleFunction
+JSFunction
+*
 callee
 )
 ;
