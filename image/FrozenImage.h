@@ -71,6 +71,12 @@ DecrementAnimationConsumers
 )
 override
 ;
+bool
+IsNonAnimated
+(
+)
+const
+;
 NS_IMETHOD
 GetAnimated
 (
