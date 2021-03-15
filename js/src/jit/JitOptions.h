@@ -349,10 +349,7 @@ bool
 spectreIndexMasking
 ;
 bool
-spectreObjectMitigationsBarriers
-;
-bool
-spectreObjectMitigationsMisc
+spectreObjectMitigations
 ;
 bool
 spectreStringMitigations
