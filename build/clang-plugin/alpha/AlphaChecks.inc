@@ -1,5 +1,16 @@
 CHECK
 (
+NonStdMoveChecker
+"
+non
+-
+std
+-
+move
+"
+)
+CHECK
+(
 TempRefPtrChecker
 "
 performance

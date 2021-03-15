@@ -2,6 +2,11 @@ HOST_SOURCES
 +
 =
 [
+"
+NonStdMoveChecker
+.
+cpp
+"
 '
 TempRefPtrChecker
 .
