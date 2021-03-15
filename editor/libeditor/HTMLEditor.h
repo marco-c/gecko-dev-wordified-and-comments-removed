@@ -293,6 +293,12 @@ EditSubAction
 :
 int32_t
 ;
+enum
+class
+SpecifiedStyle
+:
+uint8_t
+;
 struct
 PropItem
 ;
@@ -2896,6 +2902,8 @@ aProperty
 nsAtom
 *
 aAttribute
+SpecifiedStyle
+aSpecifiedStyle
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -8580,6 +8588,8 @@ aProperty
 nsAtom
 *
 aAttribute
+SpecifiedStyle
+aSpecifiedStyle
 )
 ;
 void

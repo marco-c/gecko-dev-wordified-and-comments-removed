@@ -160,6 +160,15 @@ include
 "
 mozilla
 /
+TypeInState
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -23057,6 +23066,10 @@ item
 >
 attr
 )
+item
+-
+>
+specifiedStyle
 )
 ;
 if
