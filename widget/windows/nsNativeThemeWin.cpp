@@ -20478,7 +20478,7 @@ ScrollbarbuttonRight
 nscolor
 buttonColor
 =
-ScrollbarUtil
+nsNativeBasicTheme
 :
 :
 GetScrollbarButtonColor
@@ -20867,7 +20867,7 @@ ClosePath
 nscolor
 arrowColor
 =
-ScrollbarUtil
+nsNativeBasicTheme
 :
 :
 GetScrollbarArrowColor
