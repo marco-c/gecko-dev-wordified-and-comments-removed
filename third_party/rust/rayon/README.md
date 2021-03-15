@@ -78,7 +78,7 @@ minimum
 rustc
 1
 .
-36
+31
 ]
 (
 https
@@ -97,7 +97,7 @@ rustc
 -
 1
 .
-36
+31
 +
 -
 red
@@ -880,7 +880,7 @@ rayon
 "
 1
 .
-5
+1
 "
 To
 use
@@ -969,7 +969,7 @@ requires
 rustc
 1
 .
-36
+31
 .
 0
 or
