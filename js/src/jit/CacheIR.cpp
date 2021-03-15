@@ -3105,7 +3105,7 @@ id
 )
 )
 ;
-JSObject
+NativeObject
 *
 baseHolder
 =
@@ -3157,16 +3157,7 @@ holder
 .
 set
 (
-&
 baseHolder
--
->
-as
-<
-NativeObject
->
-(
-)
 )
 ;
 shape
@@ -9902,7 +9893,7 @@ AttachDecision
 NoAction
 ;
 }
-JSObject
+NativeObject
 *
 holder
 =
@@ -16137,7 +16128,7 @@ CacheKind
 HasOwn
 )
 ;
-JSObject
+NativeObject
 *
 holder
 =
@@ -16173,7 +16164,16 @@ NoAction
 }
 holder
 =
+&
 obj
+-
+>
+as
+<
+NativeObject
+>
+(
+)
 ;
 }
 else
@@ -19298,7 +19298,7 @@ HandleObject
 obj
 HandleId
 id
-MutableHandleObject
+MutableHandleNativeObject
 holder
 MutableHandleShape
 propShape
@@ -19623,7 +19623,7 @@ ValOperandId
 rhsId
 )
 {
-RootedObject
+RootedNativeObject
 holder
 (
 cx_
@@ -21478,7 +21478,7 @@ AttachDecision
 NoAction
 ;
 }
-RootedObject
+RootedNativeObject
 holder
 (
 cx_
@@ -21780,7 +21780,7 @@ AttachDecision
 Attach
 ;
 }
-RootedObject
+RootedNativeObject
 holder
 (
 cx_
@@ -23476,7 +23476,7 @@ NoAction
 PropertyResult
 hasInstanceProp
 ;
-JSObject
+NativeObject
 *
 hasInstanceHolder
 =

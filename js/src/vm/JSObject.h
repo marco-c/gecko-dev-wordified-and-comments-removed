@@ -169,6 +169,9 @@ class
 GlobalObject
 ;
 class
+NativeObject
+;
+class
 NewObjectCache
 ;
 enum
@@ -3319,7 +3322,7 @@ JSObject
 *
 *
 objp
-JSObject
+NativeObject
 *
 *
 pobjp
@@ -3373,7 +3376,7 @@ JSObject
 obj
 jsid
 id
-JSObject
+NativeObject
 *
 *
 objp
