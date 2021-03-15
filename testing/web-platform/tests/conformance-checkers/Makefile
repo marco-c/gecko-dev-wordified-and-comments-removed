@@ -296,6 +296,11 @@ PYTHONFLAGS
 mjson
 .
 tool
+-
+-
+sort
+-
+keys
 >
 .
 tmp
