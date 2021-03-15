@@ -3527,13 +3527,24 @@ mozprocess
 .
 ProcessHandler
 (
+            
 cmd
+            
 cwd
 =
 SCRIPT_DIR
+            
 env
 =
 env
+            
+processStderrLine
+=
+lambda
+_
+:
+None
+        
 )
         
 self
