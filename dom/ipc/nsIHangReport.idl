@@ -114,7 +114,7 @@ endStartingDebugger
 )
 ;
 bool
-isReportForBrowser
+isReportForBrowserOrChildren
 (
 in
 FrameLoader

@@ -398,7 +398,7 @@ if
 !
 aSubject
 .
-isReportForBrowser
+isReportForBrowserOrChildren
 (
 this
 .

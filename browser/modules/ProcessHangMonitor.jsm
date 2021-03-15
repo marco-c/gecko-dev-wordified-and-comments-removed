@@ -1504,7 +1504,7 @@ if
 (
 report
 .
-isReportForBrowser
+isReportForBrowserOrChildren
 (
 frameLoader
 )
@@ -1547,7 +1547,7 @@ if
 (
 report
 .
-isReportForBrowser
+isReportForBrowserOrChildren
 (
 frameLoader
 )
