@@ -239,11 +239,13 @@ gFolderName
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
 >
 {
+await
 TaskScheduler
 .
 deleteAllTasks
@@ -255,6 +257,7 @@ deleteAllTasks
 ;
 add_task
 (
+async
 function
 test_create
 (
@@ -460,6 +463,7 @@ intervalSecsIn
 }
 S
 ;
+await
 TaskScheduler
 .
 registerTask
@@ -734,6 +738,7 @@ updatedIntervalSecsIn
 }
 S
 ;
+await
 TaskScheduler
 .
 registerTask
@@ -927,6 +932,7 @@ NS_ERROR_FILE_DIR_NOT_EMPTY
 )
 ;
 }
+await
 TaskScheduler
 .
 deleteAllTasks
