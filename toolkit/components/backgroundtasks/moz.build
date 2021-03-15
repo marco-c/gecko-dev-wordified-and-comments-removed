@@ -185,6 +185,11 @@ BackgroundTasksManager
 .
 jsm
 "
+"
+BackgroundTasksUtils
+.
+jsm
+"
 ]
 EXTRA_JS_MODULES
 .
