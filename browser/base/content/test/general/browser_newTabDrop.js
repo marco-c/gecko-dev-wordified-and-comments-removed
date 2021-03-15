@@ -1233,7 +1233,7 @@ document
 getElementById
 (
 "
-sidebar
+back
 -
 button
 "
@@ -1243,7 +1243,7 @@ ok
 (
 dragSrcElement
 "
-Sidebar
+Back
 button
 exists
 "
