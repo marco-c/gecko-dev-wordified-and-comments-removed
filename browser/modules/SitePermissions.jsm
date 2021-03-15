@@ -1668,6 +1668,9 @@ default
 .
 "
 )
+_temporaryPermissions
+:
+TemporaryPermissions
 getAllByPrincipal
 (
 principal
