@@ -6275,17 +6275,6 @@ Selected
 continue
 ;
 }
-if
-(
-IsOptionDisabled
-(
-option
-)
-)
-{
-continue
-;
-}
 return
 false
 ;
