@@ -2881,9 +2881,6 @@ self
 prompt
 low
 high
-limit
-=
-5
 )
 :
         
@@ -2908,17 +2905,8 @@ high
 "
 "
         
-valid
-=
-False
-        
 while
-not
-valid
-and
-limit
->
-0
+True
 :
             
 try
@@ -2935,7 +2923,6 @@ prompt
 )
                 
 if
-not
 low
 <
 =
@@ -2945,36 +2932,15 @@ choice
 high
 :
                     
-print
-(
-"
-ERROR
-!
-Please
-enter
-a
-valid
-option
-!
-"
-)
-                    
-limit
--
-=
-1
-                
-else
-:
-                    
-valid
-=
-True
+return
+choice
             
 except
 ValueError
 :
                 
+pass
+            
 print
 (
 "
@@ -2986,39 +2952,6 @@ a
 valid
 option
 !
-"
-)
-                
-limit
--
-=
-1
-        
-if
-limit
->
-0
-:
-            
-return
-choice
-        
-else
-:
-            
-raise
-Exception
-(
-"
-Error
-!
-Reached
-max
-attempts
-of
-entering
-option
-.
 "
 )
     
