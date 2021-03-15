@@ -3919,7 +3919,6 @@ update_git_tools
 (
 git
 root_state_dir
-top_src_dir
 )
 :
     
@@ -4345,7 +4344,6 @@ update_git_tools
 (
 git
 root_state_dir
-top_src_dir
 )
     
 if
