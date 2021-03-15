@@ -293,6 +293,7 @@ hashlib
 .
 sha1
 (
+b
 "
 #
 container
@@ -530,6 +531,8 @@ s
 %
 urllib
 .
+parse
+.
 quote
 (
 data
@@ -563,6 +566,8 @@ json
 dumps
 (
 urllib
+.
+parse
 .
 quote
 (
@@ -753,6 +758,8 @@ f
 .
 write
 (
+str
+(
 stream
 .
 render
@@ -770,6 +777,12 @@ encoding
 =
 "
 utf8
+"
+)
+"
+utf
+-
+8
 "
 )
 )
@@ -875,9 +888,7 @@ argv
         
 test_iterator
 =
-itertools
-.
-izip
+zip
 (
             
 itertools
@@ -937,9 +948,7 @@ itertools
 chain
 (
             
-itertools
-.
-izip
+zip
 (
 itertools
 .
@@ -963,9 +972,7 @@ construction
 )
 )
             
-itertools
-.
-izip
+zip
 (
 itertools
 .
