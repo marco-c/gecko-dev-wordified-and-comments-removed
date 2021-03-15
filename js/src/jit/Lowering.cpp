@@ -2022,6 +2022,12 @@ defined
 (
 JS_CODEGEN_X64
 )
+|
+|
+defined
+(
+JS_CODEGEN_MIPS64
+)
 const
 bool
 useAtStart
