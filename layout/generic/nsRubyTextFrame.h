@@ -109,7 +109,7 @@ aStatus
 override
 ;
 bool
-IsAutoHidden
+IsCollapsed
 (
 )
 const
@@ -117,7 +117,7 @@ const
 return
 HasAnyStateBits
 (
-NS_RUBY_TEXT_FRAME_AUTOHIDE
+NS_RUBY_TEXT_FRAME_COLLAPSED
 )
 ;
 }

@@ -154,7 +154,7 @@ aLists
 {
 if
 (
-IsAutoHidden
+IsCollapsed
 (
 )
 )
@@ -206,7 +206,7 @@ aStatus
 ;
 if
 (
-IsAutoHidden
+IsCollapsed
 (
 )
 )

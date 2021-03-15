@@ -14496,7 +14496,7 @@ frame
 )
 -
 >
-IsAutoHidden
+IsCollapsed
 (
 )
 )
