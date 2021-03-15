@@ -246,9 +246,12 @@ gChildDNSService
 {
 if
 (
+NS_WARN_IF
+(
 !
 NS_IsMainThread
 (
+)
 )
 )
 {
