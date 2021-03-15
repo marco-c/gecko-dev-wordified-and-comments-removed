@@ -648,6 +648,11 @@ FrameMetrics
 aCompositorMetrics
 )
 ;
+bool
+ShouldUseProgressivePaint
+(
+)
+;
 }
 }
 }

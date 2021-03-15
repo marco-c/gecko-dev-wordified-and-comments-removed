@@ -24215,10 +24215,10 @@ frame
 mSharedLock
 &
 &
-StaticPrefs
+apz
 :
 :
-layers_progressive_paint
+ShouldUseProgressivePaint
 (
 )
 )
@@ -24267,10 +24267,10 @@ mSharedFrameMetricsBuffer
 mMetricsSharingController
 &
 &
-StaticPrefs
+apz
 :
 :
-layers_progressive_paint
+ShouldUseProgressivePaint
 (
 )
 )
