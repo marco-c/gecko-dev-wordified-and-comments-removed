@@ -465,6 +465,7 @@ Element
 GetIdElement
 (
 )
+const
 {
 return
 mIdContentList
@@ -540,6 +541,7 @@ bool
 HasIdElementExposedAsHTMLDocumentProperty
 (
 )
+const
 ;
 bool
 HasContentChangeCallback
