@@ -851,6 +851,7 @@ only
 /
 [
 Throws
+NeedsSubjectPrincipal
 Func
 =
 "
