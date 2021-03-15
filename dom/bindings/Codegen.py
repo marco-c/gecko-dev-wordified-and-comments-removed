@@ -107960,14 +107960,6 @@ Nullable
 .
 h
 "
-                
-"
-mozilla
-/
-ErrorResult
-.
-h
-"
             
 )
             
@@ -109523,6 +109515,23 @@ or
 callbackDescriptors
         
 )
+        
+if
+callbackDescriptors
+:
+            
+bindingDeclareHeaders
+[
+"
+mozilla
+/
+ErrorResult
+.
+h
+"
+]
+=
+True
         
 def
 descriptorClearsPropsInSlots
@@ -138632,14 +138641,6 @@ headerFile
 mozilla
 /
 Attributes
-.
-h
-"
-                
-"
-mozilla
-/
-ErrorResult
 .
 h
 "
