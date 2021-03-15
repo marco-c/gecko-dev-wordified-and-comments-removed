@@ -107,6 +107,10 @@ dependencies
 beetmover
 -
 repackage
+-
+startup
+-
+test
 only
 -
 for
