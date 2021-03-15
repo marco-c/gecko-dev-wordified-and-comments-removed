@@ -1060,12 +1060,6 @@ null
 ;
 this
 .
-_isClosing
-=
-false
-;
-this
-.
 _resolveClosePromise
 (
 )
@@ -1175,11 +1169,11 @@ this
 )
 )
 ;
-this
+Services
 .
-_window
+tm
 .
-setTimeout
+dispatchToMainThread
 (
 (
 )
@@ -1195,7 +1189,6 @@ remove
 )
 ;
 }
-0
 )
 ;
 }
