@@ -539,9 +539,6 @@ cut
 (
 )
 ;
-[
-can_run_script
-]
 boolean
 canCut
 (
@@ -552,9 +549,6 @@ copy
 (
 )
 ;
-[
-can_run_script
-]
 boolean
 canCopy
 (
