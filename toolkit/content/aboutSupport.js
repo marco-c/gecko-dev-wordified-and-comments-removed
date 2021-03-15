@@ -7783,7 +7783,7 @@ skin
 /
 icons
 /
-findFile
+folder
 .
 svg
 "
