@@ -819,13 +819,6 @@ padding
 important
 ;
 }
-:
-root
-[
-sizemode
-=
-maximized
-]
 .
 tabbrowser
 -
@@ -865,13 +858,6 @@ padding
 important
 ;
 }
-:
-root
-[
-sizemode
-=
-maximized
-]
 .
 tabbrowser
 -
