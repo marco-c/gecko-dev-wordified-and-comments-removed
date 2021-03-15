@@ -237,6 +237,9 @@ aTarget
 mPseudoType
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 aMessage
@@ -288,6 +291,8 @@ markerText
 )
 ;
 }
+#
+endif
 }
 AnimationEventInfo
 (
@@ -387,6 +392,9 @@ aTarget
 mPseudoType
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 (
@@ -471,6 +479,8 @@ markerText
 )
 ;
 }
+#
+endif
 }
 AnimationEventInfo
 (
