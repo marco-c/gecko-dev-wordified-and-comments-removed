@@ -316,6 +316,12 @@ nsCOMPtr
 <
 Element
 >
+mOuterWrapper
+;
+nsCOMPtr
+<
+Element
+>
 mSpinBox
 ;
 nsCOMPtr

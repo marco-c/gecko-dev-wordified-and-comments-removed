@@ -746,9 +746,6 @@ aStatus
 ReflowOutput
 &
 aParentDesiredSize
-nscoord
-&
-aButtonBoxISize
 )
 ;
 void
