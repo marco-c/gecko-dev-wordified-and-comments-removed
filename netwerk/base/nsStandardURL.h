@@ -1440,10 +1440,6 @@ gHostLimitDigits
 [
 ]
 ;
-static
-bool
-gInitialized
-;
 public
 :
 #
