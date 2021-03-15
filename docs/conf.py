@@ -293,6 +293,10 @@ sphinx_markdown_tables
 "
     
 "
+sphinx_panels
+"
+    
+"
 glean
 "
 ]
