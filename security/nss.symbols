@@ -452,6 +452,7 @@ XP_WIN
 _NSSUTIL_UTF8ToWide
 #
 endif
+PK11_AEADOp
 PK11_AlgtagToMechanism
 PK11_Authenticate
 PK11_ChangePW
