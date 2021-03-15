@@ -17691,6 +17691,14 @@ seq
 Sequence
 number
 .
+severity
+:
+One
+of
+WARNING
+or
+ERROR
+.
 source_file
 :
 The
