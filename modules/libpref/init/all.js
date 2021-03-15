@@ -5586,6 +5586,11 @@ stackwalk
 "
 \
 "
+cpu
+\
+"
+\
+"
 screenshots
 \
 "
@@ -5621,6 +5626,11 @@ leaf
 \
 "
 stackwalk
+\
+"
+\
+"
+cpu
 \
 "
 \

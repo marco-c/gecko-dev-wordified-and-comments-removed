@@ -864,6 +864,11 @@ ProfilerFeature
 :
 :
 Threads
+|
+ProfilerFeature
+:
+:
+CPUUtilization
 ;
 }
 static
@@ -873,11 +878,6 @@ StartupExtraDefaultFeatures
 )
 {
 return
-ProfilerFeature
-:
-:
-CPUUtilization
-|
 ProfilerFeature
 :
 :

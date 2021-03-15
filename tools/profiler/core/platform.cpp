@@ -1126,6 +1126,11 @@ Threads
 ProfilerFeature
 :
 :
+CPUUtilization
+|
+ProfilerFeature
+:
+:
 Screenshots
 ;
 }
@@ -1136,11 +1141,6 @@ StartupExtraDefaultFeatures
 )
 {
 return
-ProfilerFeature
-:
-:
-CPUUtilization
-|
 ProfilerFeature
 :
 :
