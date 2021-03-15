@@ -1223,6 +1223,15 @@ ScreenToParentLayerMatrix4x4
 aTransform
 )
 ;
+WidgetSimpleGestureEvent
+ToWidgetEvent
+(
+nsIWidget
+*
+aWidget
+)
+const
+;
 TapGestureType
 mType
 ;
