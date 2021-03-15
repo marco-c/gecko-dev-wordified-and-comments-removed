@@ -2822,7 +2822,7 @@ document
 getElementById
 (
 "
-reload
+home
 -
 button
 "
