@@ -55,8 +55,6 @@ browser
 .
 proton
 .
-toolbar
-.
 enabled
 "
 ;
