@@ -217,6 +217,7 @@ getActiveSearch
 getSelectedLocation
 getSelectedSource
 canPrettyPrintSource
+getIsCurrentThreadPaused
 }
 from
 "
@@ -781,9 +782,12 @@ cx
 ;
 if
 (
-cx
-.
-isPaused
+getIsCurrentThreadPaused
+(
+getState
+(
+)
+)
 )
 {
 await

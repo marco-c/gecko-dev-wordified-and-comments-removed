@@ -66,6 +66,7 @@ getSkipPausing
 getCurrentThread
 isTopFrameSelected
 getThreadContext
+getIsCurrentThreadPaused
 }
 from
 "
@@ -651,8 +652,6 @@ this
 .
 props
 .
-cx
-.
 isPaused
 ?
 this
@@ -661,7 +660,6 @@ props
 .
 resume
 (
-cx
 )
 :
 this
@@ -694,7 +692,7 @@ renderStepButtons
 {
 const
 {
-cx
+isPaused
 topFrameSelected
 }
 =
@@ -705,8 +703,6 @@ props
 const
 className
 =
-cx
-.
 isPaused
 ?
 "
@@ -721,8 +717,6 @@ const
 isDisabled
 =
 !
-cx
-.
 isPaused
 ;
 return
@@ -744,7 +738,6 @@ props
 .
 stepOver
 (
-cx
 )
 "
 stepOver
@@ -778,7 +771,6 @@ props
 .
 stepIn
 (
-cx
 )
 "
 stepIn
@@ -823,7 +815,6 @@ props
 .
 stepOut
 (
-cx
 )
 "
 stepOut
@@ -858,11 +849,6 @@ props
 .
 resume
 (
-this
-.
-props
-.
-cx
 )
 ;
 }
@@ -883,7 +869,9 @@ props
 ;
 if
 (
-cx
+this
+.
+props
 .
 isPaused
 )
@@ -1699,6 +1687,12 @@ state
 ui
 .
 javascriptEnabled
+isPaused
+:
+getIsCurrentThreadPaused
+(
+state
+)
 }
 )
 ;

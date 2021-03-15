@@ -43,6 +43,7 @@ getPreview
 getThreadContext
 getCurrentThread
 getHighlightedCalls
+getIsCurrentThreadPaused
 }
 from
 "
@@ -328,7 +329,9 @@ codeMirror
 }
 if
 (
-cx
+this
+.
+props
 .
 isPaused
 &
@@ -378,8 +381,6 @@ this
 .
 props
 .
-cx
-.
 isPaused
 )
 {
@@ -413,8 +414,6 @@ this
 .
 props
 .
-cx
-.
 isPaused
 )
 {
@@ -447,8 +446,6 @@ if
 this
 .
 props
-.
-cx
 .
 isPaused
 )
@@ -565,6 +562,12 @@ state
 preview
 :
 getPreview
+(
+state
+)
+isPaused
+:
+getIsCurrentThreadPaused
 (
 state
 )

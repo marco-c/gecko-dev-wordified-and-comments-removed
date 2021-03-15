@@ -175,7 +175,7 @@ getSelectedLocation
 getSelectedSourceWithContent
 getConditionalPanelLocation
 getSymbols
-getIsPaused
+getIsCurrentThreadPaused
 getCurrentThread
 getThreadContext
 getSkipPausing
@@ -3116,13 +3116,9 @@ selectedSource
 )
 isPaused
 :
-getIsPaused
+getIsCurrentThreadPaused
 (
 state
-getCurrentThread
-(
-state
-)
 )
 skipPausing
 :
