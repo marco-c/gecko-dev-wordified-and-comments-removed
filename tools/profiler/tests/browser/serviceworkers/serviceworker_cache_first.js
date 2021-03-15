@@ -57,6 +57,8 @@ event
 waitUntil
 (
 cacheAssets
+(
+)
 )
 ;
 }
