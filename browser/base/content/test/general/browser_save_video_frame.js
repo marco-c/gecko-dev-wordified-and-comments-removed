@@ -150,6 +150,15 @@ completed
 "
 )
 ;
+mockTransferCallback
+=
+(
+)
+=
+>
+{
+}
+;
 resolve
 (
 )
