@@ -5902,8 +5902,11 @@ NS_ERROR_INVALID_ARG
 *
 aCanCut
 =
+MOZ_KnownLive
+(
 AsTextEditor
 (
+)
 )
 -
 >
@@ -5954,8 +5957,11 @@ NS_ERROR_INVALID_ARG
 *
 aCanCopy
 =
+MOZ_KnownLive
+(
 AsTextEditor
 (
+)
 )
 -
 >
