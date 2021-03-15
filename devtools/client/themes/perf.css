@@ -951,9 +951,11 @@ var
 (
 -
 -
-grey
+theme
 -
-30
+splitter
+-
+color
 )
 ;
 border
