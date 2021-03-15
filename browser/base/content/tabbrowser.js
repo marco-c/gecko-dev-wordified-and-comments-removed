@@ -2660,6 +2660,14 @@ this
 .
 tabContainer
 .
+_setPositionalAttributes
+(
+)
+;
+this
+.
+tabContainer
+.
 _updateCloseButtons
 (
 )
