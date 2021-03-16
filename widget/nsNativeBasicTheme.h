@@ -2003,8 +2003,6 @@ UseSystemColors
 DPIRatio
 bool
 aIsMeter
-bool
-aBar
 )
 ;
 template
