@@ -177,6 +177,9 @@ int
 flags
 in
 String
+userSerialNumber
+in
+String
 crashHandlerService
 in
 ParcelFileDescriptor
