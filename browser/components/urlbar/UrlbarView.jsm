@@ -3261,6 +3261,7 @@ rowIndex
 result
 firstSearchSuggestionIndex
 lastSearchSuggestionIndex
+queryContext
 )
 {
 if
@@ -3304,13 +3305,9 @@ suggestedIndex
 rowIndex
 =
 =
-this
+queryContext
 .
-_rows
-.
-children
-.
-length
+maxResults
 -
 1
 )
@@ -3542,6 +3539,7 @@ rowIndex
 result
 firstSearchSuggestionIndex
 lastSearchSuggestionIndex
+queryContext
 )
 )
 {
