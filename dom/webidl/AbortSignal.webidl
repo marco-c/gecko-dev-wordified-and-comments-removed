@@ -128,6 +128,15 @@ AbortSignal
 :
 EventTarget
 {
+[
+NewObject
+]
+static
+AbortSignal
+abort
+(
+)
+;
 readonly
 attribute
 boolean
