@@ -19144,8 +19144,12 @@ return
 true
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 CheckVarNameConflict
 (
@@ -20373,8 +20377,12 @@ return
 true
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 CheckVarNameConflictsInEnv
 (

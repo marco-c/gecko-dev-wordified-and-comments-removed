@@ -10629,7 +10629,11 @@ ArrayType
 =
 default
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 clone
 (
