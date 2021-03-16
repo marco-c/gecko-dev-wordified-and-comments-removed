@@ -1,9 +1,9 @@
 FROM
 ubuntu
 :
-18
-.
-04
+bionic
+-
+20200112
 MAINTAINER
 Andrew
 Halberstadt
