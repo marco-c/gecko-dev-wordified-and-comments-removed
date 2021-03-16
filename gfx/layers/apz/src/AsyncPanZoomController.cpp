@@ -18861,7 +18861,7 @@ mTestAsyncZoom
 scale
 )
 ;
-ScrollBy
+ScrollByAndClamp
 (
 mTestAsyncScrollOffset
 )
