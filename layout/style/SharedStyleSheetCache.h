@@ -165,7 +165,11 @@ bool
 aSyncLoad
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 CoalesceLoad
 (
