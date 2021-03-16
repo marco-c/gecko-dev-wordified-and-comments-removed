@@ -4325,7 +4325,7 @@ IDX_Muted
 >
 )
 ;
-bool
+CanSetResult
 CanSet
 (
 FieldIndex
@@ -4463,7 +4463,7 @@ IDX_PlatformOverride
 >
 )
 ;
-bool
+CanSetResult
 CanSet
 (
 FieldIndex
@@ -4488,7 +4488,7 @@ IDX_UserAgentOverride
 >
 )
 ;
-bool
+CanSetResult
 CanSet
 (
 FieldIndex
@@ -4561,7 +4561,7 @@ ContentParent
 aSource
 )
 ;
-bool
+CanSetResult
 CanSet
 (
 FieldIndex
@@ -4577,7 +4577,7 @@ ContentParent
 aSource
 )
 ;
-bool
+CanSetResult
 CanSet
 (
 FieldIndex
@@ -4639,7 +4639,7 @@ ContentParent
 aSource
 )
 ;
-bool
+CanSetResult
 CanSet
 (
 FieldIndex
@@ -4878,6 +4878,14 @@ IDX_IsInBFCache
 ;
 bool
 LegacyCheckOnlyOwningProcessCanSet
+(
+ContentParent
+*
+aSource
+)
+;
+CanSetResult
+LegacyRevertIfNotOwningOrParentProcess
 (
 ContentParent
 *
