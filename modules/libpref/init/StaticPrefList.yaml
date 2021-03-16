@@ -33824,7 +33824,7 @@ options
 property_error_message_fix
 type
 :
-RelaxedAtomicBool
+bool
 value
 :
 IS_NIGHTLY_OR_DEV_EDITION
@@ -33854,7 +33854,7 @@ options
 weakrefs
 type
 :
-RelaxedAtomicBool
+bool
 value
 :
 true
@@ -33887,7 +33887,7 @@ weakrefs
 expose_cleanupSome
 type
 :
-RelaxedAtomicBool
+bool
 value
 :
 false
@@ -33918,7 +33918,7 @@ experimental
 iterator_helpers
 type
 :
-RelaxedAtomicBool
+bool
 value
 :
 false
@@ -33946,7 +33946,7 @@ experimental
 private_fields
 type
 :
-RelaxedAtomicBool
+bool
 value
 :
 false
@@ -33974,7 +33974,7 @@ experimental
 private_methods
 type
 :
-RelaxedAtomicBool
+bool
 value
 :
 false
@@ -34004,7 +34004,7 @@ experimental
 top_level_await
 type
 :
-RelaxedAtomicBool
+bool
 value
 :
 false
