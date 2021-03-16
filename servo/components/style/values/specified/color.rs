@@ -1326,8 +1326,6 @@ in_ua_or_chrome_sheet
 )
 ]
 MozAccentColorForeground
-MozWinAccentcolor
-MozWinAccentcolortext
 MozWinMediatext
 MozWinCommunicationstext
 MozNativehyperlinktext
