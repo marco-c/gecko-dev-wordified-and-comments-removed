@@ -831,16 +831,6 @@ false
 ]
 [
 "
-javascript
-.
-options
-.
-showInConsole
-"
-true
-]
-[
-"
 network
 .
 http

@@ -2517,15 +2517,6 @@ timeout
 :
 0
 '
-javascript
-.
-options
-.
-showInConsole
-'
-:
-true
-'
 media
 .
 gmp
