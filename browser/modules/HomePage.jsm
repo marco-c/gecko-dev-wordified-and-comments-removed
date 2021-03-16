@@ -210,8 +210,6 @@ browser
 .
 proton
 .
-toolbar
-.
 enabled
 "
 ;
