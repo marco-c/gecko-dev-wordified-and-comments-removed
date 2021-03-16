@@ -788,7 +788,7 @@ E
 TElement
 {
 fn
-invalidates_on_eager_pseudo_element
+invalidates_on_pseudo_element
 (
 &
 self
