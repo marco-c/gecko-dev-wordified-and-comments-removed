@@ -32638,7 +32638,7 @@ nsCString
 aURI
 )
 ipcBlob
-aPrincipal
+aBlobPrincipal
 aAgentClusterId
 aRevoked
 )
