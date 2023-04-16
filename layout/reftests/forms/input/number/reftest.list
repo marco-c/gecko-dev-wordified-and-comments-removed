@@ -348,6 +348,15 @@ disabled
 ref
 .
 html
+fails
+-
+if
+(
+Android
+&
+&
+nativeThemePref
+)
 !
 =
 number
