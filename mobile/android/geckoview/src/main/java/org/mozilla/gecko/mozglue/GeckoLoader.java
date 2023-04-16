@@ -719,6 +719,9 @@ String
 Object
 >
 prefs
+final
+boolean
+xpcshell
 )
 {
 for
@@ -953,6 +956,12 @@ prefs
 )
 ;
 }
+if
+(
+!
+xpcshell
+)
+{
 final
 File
 f
@@ -993,6 +1002,7 @@ getPath
 )
 )
 ;
+}
 putenv
 (
 "
@@ -2878,6 +2888,10 @@ int
 crashFd
 int
 crashAnnotationFd
+boolean
+xpcshell
+String
+outFilePath
 )
 ;
 private
