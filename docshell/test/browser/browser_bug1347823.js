@@ -50,7 +50,7 @@ charset
 utf
 -
 8
-page1
+pageA1
 "
 }
 async
@@ -104,7 +104,7 @@ charset
 utf
 -
 8
-page2
+pageA2
 "
 )
 ;
@@ -226,7 +226,7 @@ charset
 utf
 -
 8
-page1
+pageB1
 "
 }
 async
@@ -280,7 +280,7 @@ charset
 utf
 -
 8
-page2
+pageB2
 "
 )
 ;
@@ -372,7 +372,7 @@ body
 .
 textContent
 "
-page1
+pageB1
 "
 )
 ;
