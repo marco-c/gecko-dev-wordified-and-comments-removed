@@ -4,6 +4,10 @@ import
 zlib
 import
 mozlog
+import
+wptserve
+.
+logger
 from
 marionette_harness
 .
@@ -56,6 +60,26 @@ component
 pingserver
 "
 )
+        
+try
+:
+            
+wptserve
+.
+logger
+.
+set_logger
+(
+self
+.
+_logger
+)
+        
+except
+Exception
+:
+            
+pass
         
 self
 .

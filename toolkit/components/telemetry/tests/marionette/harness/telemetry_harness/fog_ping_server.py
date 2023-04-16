@@ -2,6 +2,10 @@ import
 json
 import
 zlib
+import
+wptserve
+.
+logger
 from
 marionette_harness
 .
@@ -66,6 +70,26 @@ component
 fog_ping_server
 "
 )
+        
+try
+:
+            
+wptserve
+.
+logger
+.
+set_logger
+(
+self
+.
+_logger
+)
+        
+except
+Exception
+:
+            
+pass
         
 self
 .
