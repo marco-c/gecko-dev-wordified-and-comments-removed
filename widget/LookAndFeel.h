@@ -165,6 +165,8 @@ AllPointerCapabilities
 GTKCSDCloseButtonPosition
 GTKCSDMinimizeButtonPosition
 GTKCSDMaximizeButtonPosition
+SystemVerticalScrollbarWidth
+SystemHorizontalScrollbarHeight
 End
 }
 ;
