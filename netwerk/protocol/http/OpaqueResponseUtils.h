@@ -106,6 +106,13 @@ nsCString
 aKey
 )
 ;
+void
+ReportContentLength
+(
+int64_t
+aContentLength
+)
+;
 private
 :
 ~
