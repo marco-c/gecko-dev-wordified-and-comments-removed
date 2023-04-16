@@ -268,10 +268,7 @@ FontID
 {
 Caption
 =
-1
-MINIMUM
-=
-Caption
+0
 Icon
 Menu
 MessageBox
@@ -289,9 +286,7 @@ List
 Field
 Tooltips
 Widget
-MAXIMUM
-=
-Widget
+End
 }
 ;
 static
