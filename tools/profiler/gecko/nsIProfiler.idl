@@ -228,7 +228,7 @@ features
 readonly
 attribute
 uint64_t
-activeBrowsingContextID
+activeTabID
 ;
 [
 noscript
@@ -297,7 +297,7 @@ optional
 ]
 in
 uint64_t
-aActiveBrowsingContextID
+aActiveTabID
 [
 optional
 ]

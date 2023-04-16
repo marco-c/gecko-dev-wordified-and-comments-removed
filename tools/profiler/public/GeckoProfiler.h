@@ -540,7 +540,7 @@ milliseconds
 /
 #
 define
-PROFILER_DEFAULT_ACTIVE_BROWSING_CONTEXT_ID
+PROFILER_DEFAULT_ACTIVE_TAB_ID
 0
 void
 profiler_init
@@ -611,7 +611,7 @@ aFilters
 uint32_t
 aFilterCount
 uint64_t
-aActiveBrowsingContextID
+aActiveTabID
 const
 mozilla
 :
@@ -656,7 +656,7 @@ aFilters
 uint32_t
 aFilterCount
 uint64_t
-aActiveBrowsingContextID
+aActiveTabID
 const
 mozilla
 :
@@ -733,7 +733,7 @@ void
 profiler_register_page
 (
 uint64_t
-aBrowsingContextID
+aTabID
 uint64_t
 aInnerWindowID
 const
@@ -959,7 +959,7 @@ MallocAllocPolicy
 aFilters
 uint64_t
 *
-aActiveBrowsingContextID
+aActiveTabID
 )
 ;
 mozilla

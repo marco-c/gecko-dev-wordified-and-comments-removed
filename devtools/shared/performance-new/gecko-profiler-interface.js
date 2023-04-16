@@ -395,7 +395,7 @@ GeckoMain
 Compositor
 "
 ]
-activeBrowsingContextID
+activeTabID
 :
 RecordingUtils
 .
@@ -426,7 +426,7 @@ settings
 threads
 settings
 .
-activeBrowsingContextID
+activeTabID
 settings
 .
 duration
@@ -861,7 +861,7 @@ param
 duration
 param
 .
-activeBrowsingContextID
+activeTabID
 )
 ;
 break

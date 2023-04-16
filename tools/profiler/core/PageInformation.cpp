@@ -20,7 +20,7 @@ PageInformation
 PageInformation
 (
 uint64_t
-aBrowsingContextID
+aTabID
 uint64_t
 aInnerWindowID
 const
@@ -31,9 +31,9 @@ uint64_t
 aEmbedderInnerWindowID
 )
 :
-mBrowsingContextID
+mTabID
 (
-aBrowsingContextID
+aTabID
 )
 mInnerWindowID
 (
@@ -100,7 +100,7 @@ DoubleProperty
 "
 browsingContextID
 "
-BrowsingContextID
+TabID
 (
 )
 )

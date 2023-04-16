@@ -689,7 +689,7 @@ nsCString
 &
 aFilters
 uint64_t
-aActiveBrowsingContextID
+aActiveTabID
 double
 aDuration
 )
@@ -820,7 +820,7 @@ filterStringVector
 length
 (
 )
-aActiveBrowsingContextID
+aActiveTabID
 duration
 )
 ;

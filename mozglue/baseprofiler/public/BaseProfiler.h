@@ -530,7 +530,7 @@ void
 profiler_register_page
 (
 uint64_t
-aBrowsingContextID
+aTabD
 uint64_t
 aInnerWindowID
 const

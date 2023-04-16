@@ -2414,7 +2414,7 @@ uint32_t
 features
 ;
 uint64_t
-activeBrowsingContextID
+activeTabID
 ;
 profiler_get_start_params
 (
@@ -2429,7 +2429,7 @@ features
 &
 filters
 &
-activeBrowsingContextID
+activeTabID
 )
 ;
 if
@@ -2485,11 +2485,11 @@ features
 ;
 ipcParams
 .
-activeBrowsingContextID
+activeTabID
 (
 )
 =
-activeBrowsingContextID
+activeTabID
 ;
 for
 (
@@ -3106,12 +3106,12 @@ Clone
 aParams
 -
 >
-GetActiveBrowsingContextID
+GetActiveTabID
 (
 &
 ipcParams
 .
-activeBrowsingContextID
+activeTabID
 (
 )
 )

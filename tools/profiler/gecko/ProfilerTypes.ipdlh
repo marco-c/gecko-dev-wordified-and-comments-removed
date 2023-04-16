@@ -36,7 +36,7 @@ uint32_t
 features
 ;
 uint64_t
-activeBrowsingContextID
+activeTabID
 ;
 nsCString
 [

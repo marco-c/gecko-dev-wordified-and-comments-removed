@@ -60,7 +60,7 @@ PageInformation
 PageInformation
 (
 uint64_t
-aBrowsingContextID
+aTabID
 uint64_t
 aInnerWindowID
 const
@@ -117,13 +117,13 @@ mInnerWindowID
 ;
 }
 uint64_t
-BrowsingContextID
+TabID
 (
 )
 const
 {
 return
-mBrowsingContextID
+mTabID
 ;
 }
 const
@@ -186,7 +186,7 @@ private
 :
 const
 uint64_t
-mBrowsingContextID
+mTabID
 ;
 const
 uint64_t
