@@ -1069,16 +1069,10 @@ enabled
 =
 env
 .
-get
+exists
 (
 ENV_ENABLED
 )
-=
-=
-=
-"
-1
-"
 ;
 Services
 .
