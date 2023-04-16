@@ -56,6 +56,13 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+"
+nsTHashSet
+.
+h
+"
 struct
 nsStyleDisplay
 ;
@@ -293,9 +300,9 @@ aName
 }
 private
 :
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 nsAtom
 >

@@ -66,7 +66,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -1328,9 +1328,12 @@ VVPScrollEvent
 VisualViewportScrollEventArray
 ;
 typedef
-nsTHashtable
+nsTHashSet
 <
-nsISupportsHashKey
+nsCOMPtr
+<
+nsISupports
+>
 >
 RequestTable
 ;

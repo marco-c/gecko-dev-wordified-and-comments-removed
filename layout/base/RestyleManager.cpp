@@ -5918,13 +5918,11 @@ mDestroyedFrames
 =
 MakeUnique
 <
-nsTHashtable
-<
-nsPtrHashKey
+nsTHashSet
 <
 const
 nsIFrame
->
+*
 >
 >
 (

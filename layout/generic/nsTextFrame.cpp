@@ -53673,9 +53673,11 @@ ListTextRuns
 FILE
 *
 out
-nsTHashtable
+nsTHashSet
 <
-nsVoidPtrHashKey
+const
+void
+*
 >
 &
 aSeen
@@ -53701,7 +53703,7 @@ return
 }
 aSeen
 .
-PutEntry
+Insert
 (
 mTextRun
 )
