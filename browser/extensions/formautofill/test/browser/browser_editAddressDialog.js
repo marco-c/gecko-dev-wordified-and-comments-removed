@@ -4401,9 +4401,11 @@ in
 -
 content
 -
-border
+focus
 -
-active
+outline
+-
+color
 "
 borderColorFocused
 )
