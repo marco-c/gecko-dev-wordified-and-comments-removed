@@ -312,6 +312,15 @@ include
 "
 wasm
 /
+WasmJS
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmTypes
 .
 h

@@ -1,7 +1,7 @@
 const
 PageSize
 =
-65536
+PageSizeInBytes
 ;
 const
 MemoryMaxValid
@@ -11,14 +11,7 @@ MemoryMaxValid
 const
 MemoryMaxRuntime
 =
-Math
-.
-floor
-(
-0x7fff_ffff
-/
-PageSize
-)
+MaxPagesIn32BitMemory
 ;
 const
 TableMaxValid

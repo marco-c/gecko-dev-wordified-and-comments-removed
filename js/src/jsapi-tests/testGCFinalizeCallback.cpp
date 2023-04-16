@@ -12,7 +12,7 @@ h
 static
 const
 unsigned
-BufferSize
+BufSize
 =
 20
 ;
@@ -26,7 +26,7 @@ static
 JSFinalizeStatus
 StatusBuffer
 [
-BufferSize
+BufSize
 ]
 ;
 BEGIN_TEST
@@ -1102,7 +1102,7 @@ CHECK
 (
 FinalizeCalls
 <
-BufferSize
+BufSize
 )
 ;
 CHECK
@@ -1126,7 +1126,7 @@ CHECK
 (
 FinalizeCalls
 <
-BufferSize
+BufSize
 )
 ;
 CHECK
@@ -1253,7 +1253,7 @@ if
 (
 FinalizeCalls
 <
-BufferSize
+BufSize
 )
 {
 StatusBuffer

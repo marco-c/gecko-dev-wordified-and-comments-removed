@@ -2022,7 +2022,11 @@ byteLen
 memory
 -
 >
-volatileMemoryLength32
+volatileMemoryLength
+(
+)
+.
+getWasmUint32
 (
 )
 ;
