@@ -71,6 +71,7 @@ util
 bugbug
 import
 BugbugTimeoutException
+CT_LOW
 push_schedules
 logger
 =
@@ -1580,9 +1581,7 @@ bugbug
     
 CONFIDENCE_THRESHOLD
 =
-0
-.
-5
+CT_LOW
     
 def
 __init__
