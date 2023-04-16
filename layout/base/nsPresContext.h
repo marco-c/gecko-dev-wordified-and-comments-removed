@@ -3923,6 +3923,11 @@ mHadContentfulPaint
 1
 ;
 unsigned
+mHadNonTickContentfulPaint
+:
+1
+;
+unsigned
 mHadContentfulPaintComposite
 :
 1
