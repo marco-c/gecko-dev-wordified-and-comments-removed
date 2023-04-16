@@ -6091,6 +6091,18 @@ subtests
 )
 >
 1
+and
+test
+[
+"
+type
+"
+]
+!
+=
+"
+pageload
+"
 :
                 
 suite
@@ -10219,6 +10231,18 @@ subtests
 )
 >
 1
+and
+suite
+[
+"
+type
+"
+]
+!
+=
+"
+pageload
+"
 :
                 
 vals
