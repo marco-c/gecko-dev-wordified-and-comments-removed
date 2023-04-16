@@ -615,6 +615,17 @@ DOMMapHint
 aHint
 )
 ;
+static
+void
+ToString
+(
+DOMMapHint
+aHint
+nsACString
+&
+aResult
+)
+;
 int32_t
 FindRealWordContaining
 (
