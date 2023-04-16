@@ -4647,6 +4647,17 @@ indexString
 {
 NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
+nsMenuUtilsX
+:
+:
+CheckNativeMenuConsistency
+(
+[
+NSApp
+mainMenu
+]
+)
+;
 NSString
 *
 locationString
