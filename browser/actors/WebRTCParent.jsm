@@ -807,11 +807,9 @@ principal
 =
 this
 .
-browsingContext
+manager
 .
-top
-.
-currentWindowGlobal
+topWindowContext
 .
 documentPrincipal
 ;
