@@ -49,6 +49,9 @@ nsString
 h
 "
 class
+nsMenuBarX
+;
+class
 nsMenuItemX
 ;
 class
@@ -143,6 +146,12 @@ return
 mRepresentedObject
 ;
 }
+nsMenuBarX
+*
+GetMenuBar
+(
+)
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIMUTATIONOBSERVER
 protected
