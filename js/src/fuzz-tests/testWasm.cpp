@@ -2026,7 +2026,7 @@ volatileMemoryLength
 (
 )
 .
-getWasmUint32
+get
 (
 )
 ;

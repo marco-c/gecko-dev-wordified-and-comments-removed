@@ -2811,7 +2811,7 @@ if
 memoryObj
 )
 {
-uint32_t
+size_t
 memoryLength
 =
 memoryObj
@@ -2821,7 +2821,7 @@ volatileMemoryLength
 (
 )
 .
-getWasmUint32
+get
 (
 )
 ;
@@ -3645,7 +3645,7 @@ volatileMemoryLength
 (
 )
 .
-getWasmUint32
+get
 (
 )
 )

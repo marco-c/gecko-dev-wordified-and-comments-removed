@@ -63048,9 +63048,9 @@ usesSharedMemory
 (
 )
 ?
-SASigMemCopyShared
+SASigMemCopyShared32
 :
-SASigMemCopy
+SASigMemCopy32
 false
 )
 )
@@ -64215,9 +64215,9 @@ usesSharedMemory
 (
 )
 ?
-SASigMemFillShared
+SASigMemFillShared32
 :
-SASigMemFill
+SASigMemFill32
 false
 )
 ;
@@ -64883,7 +64883,7 @@ if
 emitInstanceCall
 (
 lineOrBytecode
-SASigMemInit
+SASigMemInit32
 false
 )
 )

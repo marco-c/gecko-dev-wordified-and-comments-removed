@@ -857,7 +857,7 @@ count
 ;
 static
 int32_t
-memCopy
+memCopy32
 (
 Instance
 *
@@ -875,7 +875,7 @@ memBase
 ;
 static
 int32_t
-memCopyShared
+memCopyShared32
 (
 Instance
 *
@@ -904,7 +904,7 @@ segIndex
 ;
 static
 int32_t
-memFill
+memFill32
 (
 Instance
 *
@@ -922,7 +922,7 @@ memBase
 ;
 static
 int32_t
-memFillShared
+memFillShared32
 (
 Instance
 *
@@ -940,7 +940,7 @@ memBase
 ;
 static
 int32_t
-memInit
+memInit32
 (
 Instance
 *
