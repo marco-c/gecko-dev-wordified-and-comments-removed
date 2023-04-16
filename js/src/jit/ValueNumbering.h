@@ -389,6 +389,9 @@ fixupOSROnlyLoop
 MBasicBlock
 *
 block
+MBasicBlock
+*
+backedge
 )
 ;
 [
