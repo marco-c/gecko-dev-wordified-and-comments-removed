@@ -106,6 +106,15 @@ so
 .
 2
 "
+mozilla
+:
+:
+StaticMutex
+nsGbmLib
+:
+:
+sDRILock
+;
 void
 *
 nsGbmLib

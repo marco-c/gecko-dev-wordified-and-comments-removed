@@ -27,15 +27,6 @@ include
 "
 mozilla
 /
-StaticMutex
-.
-h
-"
-#
-include
-"
-mozilla
-/
 widget
 /
 va_drmcommon
