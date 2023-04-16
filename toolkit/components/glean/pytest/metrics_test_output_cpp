@@ -228,7 +228,7 @@ impl
 :
 EventMetric
 <
-uint32_t
+NoExtraKeys
 >
 event_metric
 (

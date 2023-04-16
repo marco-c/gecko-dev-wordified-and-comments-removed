@@ -427,6 +427,9 @@ const
 nsACString
 &
 aLabel
+uint32_t
+*
+aSubmetricId
 )
 {
 switch
@@ -477,7 +480,8 @@ MOZ_GLEAN_ANDROID
 auto
 id
 =
-0
+*
+aSubmetricId
 ;
 #
 else
@@ -499,6 +503,11 @@ aParentMetricId
 &
 aLabel
 )
+;
+*
+aSubmetricId
+=
+id
 ;
 #
 endif
