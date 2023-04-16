@@ -71,17 +71,6 @@ nine
 patch
 .
 png
-fuzzy
--
-if
-(
-platform
-(
-swgl
-)
-1
-4
-)
 =
 =
 border
