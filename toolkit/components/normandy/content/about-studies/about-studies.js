@@ -912,6 +912,17 @@ type
 "
 nimbus
 "
+|
+|
+study
+.
+type
+=
+=
+=
+"
+messaging_experiment
+"
 )
 {
 return
