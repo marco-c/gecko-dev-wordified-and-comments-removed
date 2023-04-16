@@ -98,7 +98,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -248,9 +248,9 @@ nsHtml5StreamParser
 *
 mStreamParser
 ;
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 mPreloadedURLs
 ;
