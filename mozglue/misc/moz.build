@@ -123,6 +123,11 @@ StackWalk_windows
 h
 "
 "
+StackWalkThread
+.
+h
+"
+"
 TimeStamp_windows
 .
 h
