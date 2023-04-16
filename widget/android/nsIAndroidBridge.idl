@@ -264,6 +264,11 @@ jsval
 events
 )
 ;
+void
+shutdown
+(
+)
+;
 }
 ;
 [
