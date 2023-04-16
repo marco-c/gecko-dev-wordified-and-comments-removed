@@ -7,6 +7,7 @@ expect
 ;
 import
 {
+expectCookieEquals
 getTestState
 setupTestBrowserHooks
 setupTestPageAndContextHooks
@@ -99,7 +100,7 @@ Doe
 }
 )
 ;
-expect
+expectCookieEquals
 (
 await
 page
@@ -107,10 +108,6 @@ page
 cookies
 (
 )
-)
-.
-toEqual
-(
 [
 {
 name
@@ -252,7 +249,7 @@ Doe
 '
 )
 ;
-expect
+expectCookieEquals
 (
 await
 page
@@ -260,10 +257,6 @@ page
 cookies
 (
 )
-)
-.
-toEqual
-(
 [
 {
 name
@@ -455,7 +448,7 @@ cookie1
 '
 )
 ;
-expect
+expectCookieEquals
 (
 await
 page
@@ -463,10 +456,6 @@ page
 cookies
 (
 )
-)
-.
-toEqual
-(
 [
 {
 name
