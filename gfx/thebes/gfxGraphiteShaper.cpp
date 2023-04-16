@@ -2565,9 +2565,9 @@ gfxLanguageTagList
 .
 cpp
 "
-nsTHashtable
+nsTHashSet
 <
-nsUint32HashKey
+uint32_t
 >
 *
 gfxGraphiteShaper
@@ -2718,9 +2718,9 @@ sLanguageTags
 sLanguageTags
 =
 new
-nsTHashtable
+nsTHashSet
 <
-nsUint32HashKey
+uint32_t
 >
 (
 ArrayLength
@@ -2752,7 +2752,7 @@ tag
 sLanguageTags
 -
 >
-PutEntry
+Insert
 (
 *
 tag
@@ -2765,7 +2765,7 @@ if
 sLanguageTags
 -
 >
-GetEntry
+Contains
 (
 grLang
 )

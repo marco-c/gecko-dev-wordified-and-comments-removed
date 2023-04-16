@@ -109,6 +109,13 @@ h
 #
 include
 "
+nsTHashSet
+.
+h
+"
+#
+include
+"
 nsTextFrameUtils
 .
 h
@@ -2806,9 +2813,9 @@ FallbackTypes
 struct
 FontMatchingStats
 {
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 mFamilyNames
 ;
