@@ -45,6 +45,8 @@ DispatchCommandTo
 nsIContent
 *
 aTargetContent
+NSEventModifierFlags
+aModifierFlags
 )
 ;
 NSString

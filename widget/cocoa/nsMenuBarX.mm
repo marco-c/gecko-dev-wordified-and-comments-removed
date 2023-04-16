@@ -3764,6 +3764,21 @@ GetMenuBar
 )
 ;
 }
+NSEventModifierFlags
+modifierFlags
+=
+NSApp
+.
+currentEvent
+?
+NSApp
+.
+currentEvent
+.
+modifierFlags
+:
+0
+;
 if
 (
 tag
@@ -3803,6 +3818,7 @@ nsMenuUtilsX
 DispatchCommandTo
 (
 mostSpecificContent
+modifierFlags
 )
 ;
 return
@@ -3847,6 +3863,7 @@ nsMenuUtilsX
 DispatchCommandTo
 (
 mostSpecificContent
+modifierFlags
 )
 ;
 return
@@ -3968,6 +3985,7 @@ nsMenuUtilsX
 DispatchCommandTo
 (
 mostSpecificContent
+modifierFlags
 )
 ;
 }
@@ -4054,6 +4072,7 @@ menuItem
 >
 DoCommand
 (
+modifierFlags
 )
 ;
 }

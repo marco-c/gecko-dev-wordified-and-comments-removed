@@ -629,6 +629,8 @@ nsMenuItemX
 :
 DoCommand
 (
+NSEventModifierFlags
+aModifierFlags
 )
 {
 if
@@ -700,6 +702,7 @@ nsMenuUtilsX
 DispatchCommandTo
 (
 mContent
+aModifierFlags
 )
 ;
 }
