@@ -36187,9 +36187,6 @@ random
 -
 if
 (
-winWidget
-|
-|
 Android
 |
 |
@@ -36228,8 +36225,6 @@ html
 #
 bug
 1312658
-bug
-1699924
 plus
 on
 webrender
