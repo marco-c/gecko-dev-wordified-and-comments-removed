@@ -258,6 +258,7 @@ FloatID
 IMEUnderlineRelativeSize
 SpellCheckerUnderlineRelativeSize
 CaretAspectRatio
+TextScaleFactor
 End
 }
 ;
