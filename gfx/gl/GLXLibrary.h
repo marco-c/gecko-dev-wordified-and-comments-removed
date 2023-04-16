@@ -14,6 +14,15 @@ h
 #
 include
 "
+mozilla
+/
+Assertions
+.
+h
+"
+#
+include
+"
 prlink
 .
 h

@@ -132,6 +132,13 @@ ScalarInfo
 .
 h
 "
+#
+include
+"
+nsITelemetry
+.
+h
+"
 namespace
 {
 "

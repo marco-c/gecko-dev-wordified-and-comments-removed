@@ -25,6 +25,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -33,6 +40,13 @@ h
 include
 "
 nsICertStorage
+.
+h
+"
+#
+include
+"
+nsIX509CertDB
 .
 h
 "

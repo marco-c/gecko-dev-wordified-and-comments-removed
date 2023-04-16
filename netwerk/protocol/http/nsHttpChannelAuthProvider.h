@@ -85,6 +85,9 @@ net
 class
 nsHttpHandler
 ;
+struct
+nsHttpAtom
+;
 class
 nsHttpChannelAuthProvider
 final

@@ -47,6 +47,9 @@ namespace
 dom
 {
 class
+DataTransfer
+;
+class
 FileSystemEntry
 ;
 class

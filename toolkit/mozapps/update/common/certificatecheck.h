@@ -7,6 +7,13 @@ _CERTIFICATECHECK_H_
 #
 include
 <
+windows
+.
+h
+>
+#
+include
+<
 wincrypt
 .
 h

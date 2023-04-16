@@ -1,6 +1,15 @@
 #
 include
 "
+jsctypes
+-
+test
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes

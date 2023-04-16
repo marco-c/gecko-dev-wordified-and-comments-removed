@@ -29,6 +29,17 @@ mozilla
 /
 dom
 /
+AbortSignal
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PWebAuthnTransaction
 .
 h

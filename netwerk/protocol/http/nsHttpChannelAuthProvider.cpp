@@ -154,6 +154,13 @@ h
 #
 include
 "
+nsHttp
+.
+h
+"
+#
+include
+"
 nsHttpBasicAuth
 .
 h

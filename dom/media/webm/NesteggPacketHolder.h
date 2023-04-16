@@ -11,6 +11,11 @@ NesteggPacketHolder_h_
 #
 include
 <
+deque
+>
+#
+include
+<
 stdint
 .
 h

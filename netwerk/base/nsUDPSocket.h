@@ -41,6 +41,13 @@ h
 #
 include
 "
+nsASocketHandler
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -51,6 +58,9 @@ mozilla
 namespace
 net
 {
+class
+nsSocketTransportService
+;
 class
 nsUDPSocket
 final

@@ -20,6 +20,13 @@ stdint
 .
 h
 >
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 namespace
 mozilla
 {

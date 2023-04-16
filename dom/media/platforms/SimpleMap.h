@@ -7,6 +7,15 @@ mozilla_SimpleMap_h
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

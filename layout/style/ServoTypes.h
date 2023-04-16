@@ -29,6 +29,13 @@ nsCoord
 .
 h
 "
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 struct
 RawServoFontFaceRule
 ;

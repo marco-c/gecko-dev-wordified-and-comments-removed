@@ -7,6 +7,13 @@ GPU_DEVICE_H_
 #
 include
 "
+ObjectModel
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MozPromise

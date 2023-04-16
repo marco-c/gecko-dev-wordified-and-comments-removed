@@ -32,6 +32,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 prio
 .
 h

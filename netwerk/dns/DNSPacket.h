@@ -39,6 +39,13 @@ h
 #
 include
 "
+nsClassHashtable
+.
+h
+"
+#
+include
+"
 nsIDNSService
 .
 h

@@ -7,6 +7,13 @@ nsClipboard_h_
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIClipboard
 .
 h

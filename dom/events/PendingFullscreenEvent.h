@@ -7,6 +7,17 @@ mozilla_PendingFullscreenEvent_h_
 #
 include
 "
+mozilla
+/
+dom
+/
+Document
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

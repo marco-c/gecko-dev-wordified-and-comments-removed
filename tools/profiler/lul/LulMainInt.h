@@ -55,6 +55,15 @@ HashTable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Sprintf
+.
+h
+"
 namespace
 lul
 {

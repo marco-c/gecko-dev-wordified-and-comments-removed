@@ -27,6 +27,13 @@ nsTArrayForwardDeclare
 .
 h
 "
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 class
 nsIContent
 ;

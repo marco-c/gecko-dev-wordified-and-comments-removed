@@ -28,6 +28,9 @@ nsIStreamListener
 h
 "
 class
+nsILoadInfo
+;
+class
 nsHTTPSOnlyStreamListener
 :
 public

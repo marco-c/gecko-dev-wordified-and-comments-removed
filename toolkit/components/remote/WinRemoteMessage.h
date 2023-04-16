@@ -25,6 +25,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 enum
 class
 WinRemoteMessageVersion

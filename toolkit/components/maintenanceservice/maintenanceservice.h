@@ -1,3 +1,16 @@
+#
+ifndef
+TOOLKIT_COMPONENTS_MAINTENANCESERVICE_MAINTENANCESERVICE_H_
+#
+define
+TOOLKIT_COMPONENTS_MAINTENANCESERVICE_MAINTENANCESERVICE_H_
+#
+include
+<
+windows
+.
+h
+>
 void
 WINAPI
 SvcMain
@@ -38,3 +51,5 @@ DWORD
 dwWaitHint
 )
 ;
+#
+endif

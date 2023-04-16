@@ -84,6 +84,9 @@ namespace
 extensions
 {
 class
+ChannelWrapper
+;
+class
 WebRequestChannelEntry
 final
 {

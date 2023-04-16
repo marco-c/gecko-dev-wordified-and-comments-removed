@@ -4,6 +4,13 @@ _UACHELPER_H_
 #
 define
 _UACHELPER_H_
+#
+include
+<
+windows
+.
+h
+>
 class
 UACHelper
 {

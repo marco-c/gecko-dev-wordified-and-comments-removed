@@ -7,6 +7,15 @@ mozilla_dom_PaymentRequestUtils_h
 #
 include
 "
+js
+/
+TypeDecls
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

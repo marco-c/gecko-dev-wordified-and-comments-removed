@@ -47,6 +47,16 @@ h
 namespace
 mozilla
 {
+namespace
+gl
+{
+enum
+class
+OriginPos
+:
+uint8_t
+;
+}
 bool
 ConvertImage
 (

@@ -140,6 +140,9 @@ mozilla
 namespace
 dom
 {
+class
+GamepadHapticActuator
+;
 const
 int
 kStandardGamepadButtons

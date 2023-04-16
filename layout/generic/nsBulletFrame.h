@@ -27,6 +27,9 @@ class
 nsBulletFrame
 ;
 class
+nsFontMetrics
+;
+class
 BulletRenderer
 ;
 class

@@ -4,6 +4,13 @@ _PATHHASH_H_
 #
 define
 _PATHHASH_H_
+#
+include
+<
+windows
+.
+h
+>
 BOOL
 CalculateRegistryPathFromFilePath
 (

@@ -21,6 +21,17 @@ h
 #
 include
 "
+mozilla
+/
+widget
+/
+mozwayland
+.
+h
+"
+#
+include
+"
 wayland
 -
 client
