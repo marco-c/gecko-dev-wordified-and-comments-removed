@@ -48,7 +48,7 @@ skin
 /
 icons
 /
-warning
+help
 .
 svg
 )
