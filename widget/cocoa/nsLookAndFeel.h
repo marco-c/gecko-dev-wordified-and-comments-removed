@@ -209,7 +209,7 @@ nscolor
 mColorTextSelectForeground
 ;
 nscolor
-mColorMenuHoverText
+mColorAlternateSelectedControlText
 ;
 nscolor
 mColorButtonHoverText
@@ -240,9 +240,6 @@ mColorScrollbar
 ;
 nscolor
 mColorThreeDHighlight
-;
-nscolor
-mColorMenu
 ;
 nscolor
 mColorWindowFrame
