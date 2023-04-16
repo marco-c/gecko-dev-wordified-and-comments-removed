@@ -11701,6 +11701,14 @@ gfxContext
 aCtx
 uint32_t
 aFlags
+mozilla
+:
+:
+Maybe
+<
+double
+>
+aDisplayListBuildTime
 )
 ;
 mozilla
