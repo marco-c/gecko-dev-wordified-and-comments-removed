@@ -940,12 +940,6 @@ true
 ;
 this
 .
-_ignoreMouseEvents
-=
-true
-;
-this
-.
 _startX
 =
 event
@@ -1609,7 +1603,7 @@ if
 (
 this
 .
-_ignoreMouseEvents
+_scrollable
 )
 {
 event
