@@ -2807,11 +2807,11 @@ browser
 .
 engagement
 .
-session_time_including_suspend
+session_time_excluding_suspend
 "
 Telemetry
 .
-msSinceProcessStartIncludingSuspend
+msSinceProcessStartExcludingSuspend
 (
 )
 )
@@ -2825,11 +2825,11 @@ browser
 .
 engagement
 .
-session_time_excluding_suspend
+session_time_including_suspend
 "
 Telemetry
 .
-msSinceProcessStartExcludingSuspend
+msSinceProcessStartIncludingSuspend
 (
 )
 )
