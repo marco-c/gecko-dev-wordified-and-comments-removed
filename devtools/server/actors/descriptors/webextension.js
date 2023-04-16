@@ -213,6 +213,12 @@ this
 actorID
 debuggable
 :
+policy
+?
+.
+active
+&
+&
 this
 .
 addon
