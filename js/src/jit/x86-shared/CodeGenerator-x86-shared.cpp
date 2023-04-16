@@ -15459,6 +15459,7 @@ masm
 .
 mulInt64x2
 (
+lhsDest
 rhs
 lhsDest
 temp1
@@ -19522,6 +19523,7 @@ asInt8x16
 (
 )
 )
+lhsDest
 rhs
 lhsDest
 ToFloatRegister
@@ -19577,6 +19579,7 @@ asInt16x8
 (
 )
 )
+lhsDest
 rhs
 lhsDest
 )
@@ -19637,7 +19640,7 @@ operation
 ;
 masm
 .
-concatAndRightShiftInt8x16
+concatAndRightShiftSimd128
 (
 rhs
 lhsDest
@@ -20797,7 +20800,7 @@ operation
 ;
 masm
 .
-concatAndRightShiftInt8x16
+concatAndRightShiftSimd128
 (
 dest
 dest
