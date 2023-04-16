@@ -5040,6 +5040,16 @@ vp9
 0
 "
 )
+|
+|
+chromiumCodec
+.
+EqualsASCII
+(
+"
+vp09
+"
+)
 )
 {
 codec
