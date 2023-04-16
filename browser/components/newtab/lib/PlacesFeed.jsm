@@ -1728,7 +1728,7 @@ type
 :
 at
 .
-HIDE_SEARCH
+DISABLE_SEARCH
 }
 meta
 .

@@ -377,7 +377,7 @@ type
 :
 at
 .
-HIDE_SEARCH
+DISABLE_SEARCH
 }
 )
 ;
@@ -948,13 +948,13 @@ this
 .
 props
 .
-hide
+disable
 &
 &
 "
 search
 -
-hidden
+disabled
 "
 this
 .
