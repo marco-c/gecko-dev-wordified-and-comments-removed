@@ -112,7 +112,7 @@ RegisterForCommand
 (
 nsMenuItemX
 *
-aItem
+aMenuItem
 )
 ;
 void
@@ -127,7 +127,7 @@ nsMenuItemX
 GetMenuItemForCommandID
 (
 uint32_t
-inCommandID
+aCommandID
 )
 ;
 void
@@ -135,7 +135,7 @@ AddMenuItemInfoToSet
 (
 MenuItemInfo
 *
-info
+aInfo
 )
 ;
 NS_DECL_ISUPPORTS
