@@ -121,12 +121,6 @@ MarionetteWindowRect
 }
 ;
 use
-mozdevice
-:
-:
-AndroidStorageInput
-;
-use
 mozprofile
 :
 :
@@ -589,10 +583,6 @@ pub
 jsdebugger
 :
 bool
-pub
-android_storage
-:
-AndroidStorageInput
 }
 #
 [
@@ -770,11 +760,6 @@ from_capabilities
 fx_capabilities
 .
 chosen_binary
-self
-.
-settings
-.
-android_storage
 &
 mut
 capabilities
