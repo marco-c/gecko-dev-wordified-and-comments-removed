@@ -7600,6 +7600,13 @@ window
 int32_t
 titlebarHeight
 =
+[
+win
+drawsContentsIntoWindowFrame
+]
+?
+0
+:
 CocoaPointsToDevPixels
 (
 [
