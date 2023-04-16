@@ -6390,6 +6390,7 @@ mFailedLookups
 )
 ;
 }
+enum
 ConfirmationState
 state
 =
