@@ -4797,13 +4797,7 @@ const
 size_t
 requestChunkSize
 =
-XRE_IsContentProcess
-(
-)
-?
 INLINESPELL_MAXIMUM_CHUNKED_WORDS_PER_TASK
-:
-1
 ;
 while
 (
