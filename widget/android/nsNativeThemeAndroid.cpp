@@ -2929,6 +2929,7 @@ aRect
 const
 nsRect
 &
+DrawOverflow
 )
 {
 DrawTarget

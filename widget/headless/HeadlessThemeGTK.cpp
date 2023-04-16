@@ -62,6 +62,7 @@ const
 nsRect
 &
 aDirtyRect
+DrawOverflow
 )
 {
 return

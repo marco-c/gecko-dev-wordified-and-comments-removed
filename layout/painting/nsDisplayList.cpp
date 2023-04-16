@@ -26424,9 +26424,8 @@ false
 bool
 hasBorderRadius
 ;
-bool
-nativeTheme
-=
+if
+(
 nsCSSRendering
 :
 :
@@ -26435,10 +26434,6 @@ HasBoxShadowNativeTheme
 mFrame
 hasBorderRadius
 )
-;
-if
-(
-nativeTheme
 )
 {
 return

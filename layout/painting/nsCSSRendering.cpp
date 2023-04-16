@@ -7599,6 +7599,13 @@ EffectiveAppearance
 )
 aFrameArea
 nativeRect
+nsITheme
+:
+:
+DrawOverflow
+:
+:
+No
 )
 ;
 blurringArea

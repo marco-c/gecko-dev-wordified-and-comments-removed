@@ -13424,6 +13424,7 @@ const
 nsRect
 &
 aDirtyRect
+DrawOverflow
 )
 {
 NS_OBJC_BEGIN_TRY_BLOCK_RETURN

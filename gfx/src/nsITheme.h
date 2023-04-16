@@ -189,6 +189,14 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_ITHEME_IID
 )
+enum
+class
+DrawOverflow
+{
+No
+Yes
+}
+;
 NS_IMETHOD
 DrawWidgetBackground
 (
@@ -208,6 +216,12 @@ const
 nsRect
 &
 aDirtyRect
+DrawOverflow
+=
+DrawOverflow
+:
+:
+Yes
 )
 =
 0

@@ -5813,6 +5813,7 @@ const
 nsRect
 &
 aDirtyRect
+DrawOverflow
 )
 {
 GtkWidgetState
