@@ -111,7 +111,7 @@ prim_store
 gradient
 :
 :
-GradientCacheKey
+FastLinearGradientCacheKey
 ;
 use
 crate
@@ -293,9 +293,9 @@ LineDecoration
 (
 LineDecorationCacheKey
 )
-Gradient
+FastLinearGradient
 (
-GradientCacheKey
+FastLinearGradientCacheKey
 )
 }
 #

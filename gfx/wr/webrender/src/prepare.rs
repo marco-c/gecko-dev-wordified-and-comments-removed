@@ -210,7 +210,7 @@ gradient
 :
 {
 GRADIENT_FP_STOPS
-GradientCacheKey
+FastLinearGradientCacheKey
 GradientStopKey
 CachedGradientSegment
 }
@@ -3562,7 +3562,7 @@ i
 let
 cache_key
 =
-GradientCacheKey
+FastLinearGradientCacheKey
 {
 orientation
 start_stop_point
@@ -3732,7 +3732,7 @@ kind
 RenderTaskCacheKeyKind
 :
 :
-Gradient
+FastLinearGradient
 (
 cache_key
 )

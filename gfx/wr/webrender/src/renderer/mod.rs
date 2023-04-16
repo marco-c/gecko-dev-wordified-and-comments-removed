@@ -1189,7 +1189,7 @@ YELLOWGREEN
 }
 ;
 const
-GPU_TAG_CACHE_GRADIENT
+GPU_TAG_CACHE_FAST_LINEAR_GRADIENT
 :
 GpuProfileTag
 =
@@ -1198,7 +1198,7 @@ GpuProfileTag
 label
 :
 "
-C_Gradient
+C_FastLinearGradient
 "
 color
 :
@@ -18474,7 +18474,7 @@ gpu_profiler
 .
 start_timer
 (
-GPU_TAG_CACHE_GRADIENT
+GPU_TAG_CACHE_FAST_LINEAR_GRADIENT
 )
 ;
 self
