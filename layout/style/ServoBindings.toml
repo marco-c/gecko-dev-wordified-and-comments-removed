@@ -2363,6 +2363,13 @@ expose
 properly
 .
 "
+nsTBaseHashSet
+"
+#
+<
+-
+Ditto
+"
 nsBaseHashtable
 "
 "

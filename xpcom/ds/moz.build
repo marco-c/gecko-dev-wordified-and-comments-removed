@@ -345,6 +345,11 @@ nsTHashMap
 h
 "
 "
+nsTHashSet
+.
+h
+"
+"
 nsTHashtable
 .
 h
