@@ -865,6 +865,12 @@ isTargetSwitching
 }
 )
 {
+targetFront
+.
+resourceWatcher
+=
+this
+;
 const
 resources
 =
