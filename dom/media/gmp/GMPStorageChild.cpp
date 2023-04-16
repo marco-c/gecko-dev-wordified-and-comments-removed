@@ -119,6 +119,12 @@ while
 (
 false
 )
+namespace
+mozilla
+:
+:
+gmp
+{
 static
 nsTArray
 <
@@ -152,12 +158,6 @@ return
 data
 ;
 }
-namespace
-mozilla
-:
-:
-gmp
-{
 GMPRecordImpl
 :
 :
