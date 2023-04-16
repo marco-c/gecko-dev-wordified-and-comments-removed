@@ -12,13 +12,6 @@ promiseStartupManager
 =
 AddonTestUtils
 ;
-SearchTestUtils
-.
-initXPCShellAddonManager
-(
-this
-)
-;
 add_task
 (
 async
@@ -107,6 +100,7 @@ keyword
 foo
 "
 }
+true
 )
 ;
 let
@@ -490,6 +484,7 @@ version
 0
 "
 }
+true
 )
 ;
 let
@@ -897,6 +892,7 @@ version
 0
 "
 }
+true
 )
 ;
 let

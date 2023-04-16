@@ -3,13 +3,6 @@ use
 strict
 "
 ;
-SearchTestUtils
-.
-initXPCShellAddonManager
-(
-this
-)
-;
 add_task
 (
 async
@@ -728,9 +721,6 @@ test_mozParamsFailForNonAppProvided
 (
 )
 {
-let
-extension
-=
 await
 SearchTestUtils
 .
@@ -880,13 +870,6 @@ moz
 locale
 }
 "
-)
-;
-await
-extension
-.
-unload
-(
 )
 ;
 await

@@ -26,13 +26,6 @@ promiseStartupManager
 =
 AddonTestUtils
 ;
-SearchTestUtils
-.
-initXPCShellAddonManager
-(
-this
-)
-;
 const
 TEST_CONFIG
 =

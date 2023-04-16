@@ -15,13 +15,6 @@ mozilla
 org
 "
 ;
-SearchTestUtils
-.
-initXPCShellAddonManager
-(
-this
-)
-;
 add_task
 (
 async
@@ -180,6 +173,7 @@ com
 /
 "
 }
+true
 )
 ;
 engine
@@ -383,6 +377,7 @@ com
 /
 "
 }
+true
 )
 ;
 engine
