@@ -868,7 +868,7 @@ gl
 :
 GLContext
 *
-SharedGL
+SingletonGL
 (
 nsACString
 &
@@ -880,12 +880,12 @@ gl
 :
 GLContext
 *
-SharedGL
+SingletonGL
 (
 )
 ;
 void
-ClearSharedGL
+ClearSingletonGL
 (
 )
 ;
@@ -1117,7 +1117,7 @@ gl
 :
 GLContext
 >
-mSharedGL
+mSingletonGL
 ;
 RefPtr
 <

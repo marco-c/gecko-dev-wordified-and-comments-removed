@@ -2458,7 +2458,7 @@ Get
 )
 -
 >
-SharedGL
+SingletonGL
 (
 )
 ;

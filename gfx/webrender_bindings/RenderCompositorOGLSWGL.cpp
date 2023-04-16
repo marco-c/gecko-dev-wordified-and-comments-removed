@@ -232,7 +232,7 @@ Get
 )
 -
 >
-SharedGL
+SingletonGL
 (
 )
 ;
@@ -246,7 +246,7 @@ gfxCriticalNote
 <
 <
 "
-SharedGL
+SingletonGL
 does
 not
 exist

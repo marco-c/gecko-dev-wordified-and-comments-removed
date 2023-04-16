@@ -255,7 +255,7 @@ Get
 )
 -
 >
-SharedGL
+SingletonGL
 (
 aError
 )
@@ -455,7 +455,7 @@ Get
 )
 -
 >
-SharedGL
+SingletonGL
 (
 aError
 )
@@ -748,7 +748,7 @@ Get
 )
 -
 >
-ClearSharedGL
+ClearSingletonGL
 (
 )
 ;
@@ -840,7 +840,7 @@ Get
 )
 -
 >
-SharedGL
+SingletonGL
 (
 aError
 )
@@ -3661,7 +3661,7 @@ Get
 )
 -
 >
-SharedGL
+SingletonGL
 (
 )
 ;

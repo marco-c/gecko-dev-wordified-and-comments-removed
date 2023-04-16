@@ -755,7 +755,7 @@ ClearAllBlobImageResources
 (
 )
 ;
-ClearSharedGL
+ClearSingletonGL
 (
 )
 ;
@@ -4003,7 +4003,7 @@ IsInRenderThread
 MOZ_ASSERT
 (
 !
-mSharedGL
+mSingletonGL
 )
 ;
 if
@@ -4025,7 +4025,7 @@ return
 nsAutoCString
 err
 ;
-mSharedGL
+mSingletonGL
 =
 CreateGLContext
 (
@@ -4062,7 +4062,7 @@ Raw
 )
 ;
 }
-SharedGL
+SingletonGL
 (
 )
 ;
@@ -4563,7 +4563,7 @@ GLContext
 RenderThread
 :
 :
-SharedGL
+SingletonGL
 (
 )
 {
@@ -4573,7 +4573,7 @@ err
 auto
 gl
 =
-SharedGL
+SingletonGL
 (
 err
 )
@@ -4610,7 +4610,7 @@ GLContext
 RenderThread
 :
 :
-SharedGL
+SingletonGL
 (
 nsACString
 &
@@ -4627,10 +4627,10 @@ IsInRenderThread
 if
 (
 !
-mSharedGL
+mSingletonGL
 )
 {
-mSharedGL
+mSingletonGL
 =
 CreateGLContext
 (
@@ -4644,7 +4644,7 @@ nullptr
 }
 if
 (
-mSharedGL
+mSingletonGL
 &
 &
 !
@@ -4658,7 +4658,7 @@ MakeUnique
 WebRenderShaders
 >
 (
-mSharedGL
+mSingletonGL
 mProgramCache
 .
 get
@@ -4668,7 +4668,7 @@ get
 ;
 }
 return
-mSharedGL
+mSingletonGL
 .
 get
 (
@@ -4679,7 +4679,7 @@ void
 RenderThread
 :
 :
-ClearSharedGL
+ClearSingletonGL
 (
 )
 {
@@ -4700,7 +4700,7 @@ mSurfacePool
 >
 DestroyGLResourcesForContext
 (
-mSharedGL
+mSingletonGL
 )
 ;
 }
@@ -4708,7 +4708,7 @@ mShaders
 =
 nullptr
 ;
-mSharedGL
+mSingletonGL
 =
 nullptr
 ;
