@@ -1043,7 +1043,7 @@ enter
 -
 troubleshoot
 -
-mode
+mode2
 =
 .
 label
