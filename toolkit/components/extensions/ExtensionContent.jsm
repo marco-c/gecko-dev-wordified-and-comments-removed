@@ -1147,6 +1147,10 @@ text
 /
 css
 ;
+extension
+=
+style
+;
 charset
 =
 utf
