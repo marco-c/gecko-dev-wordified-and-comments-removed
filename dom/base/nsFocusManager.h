@@ -767,10 +767,6 @@ Element
 >
 mElement
 ;
-const
-bool
-mHadRing
-;
 explicit
 BlurredElementInfo
 (
