@@ -323,14 +323,8 @@ SymKey
 pub
 fn
 as_bytes
-<
-'
-a
->
 (
 &
-'
-a
 self
 )
 -
@@ -338,8 +332,6 @@ self
 Res
 <
 &
-'
-a
 [
 u8
 ]

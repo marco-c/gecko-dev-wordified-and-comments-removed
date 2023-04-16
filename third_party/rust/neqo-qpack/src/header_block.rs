@@ -1769,14 +1769,11 @@ DecompressionFailed
 )
 ;
 }
-else
-{
 req_insert_cnt
 -
 =
 full_range
 ;
-}
 }
 Ok
 (
