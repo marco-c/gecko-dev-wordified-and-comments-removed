@@ -3297,6 +3297,17 @@ SetBadUnderlineFonts
 ;
 }
 }
+virtual
+bool
+IsSingleFaceFamily
+(
+)
+const
+{
+return
+false
+;
+}
 bool
 IsBadUnderlineFamily
 (
