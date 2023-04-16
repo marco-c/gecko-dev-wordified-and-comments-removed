@@ -279,8 +279,12 @@ toolbar_text
 "
 :
 "
-#
-5B5B66
+rgb
+(
+21
+20
+26
+)
 "
 "
 ntp_background
