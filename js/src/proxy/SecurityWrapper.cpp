@@ -468,14 +468,7 @@ if
 (
 desc
 .
-getter
-(
-)
-|
-|
-desc
-.
-setter
+isAccessorDescriptor
 (
 )
 )
