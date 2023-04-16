@@ -86,10 +86,6 @@ MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
 (
 ResizeReflowOptions
 )
-#
-define
-PAINTLOCK_EVENT_DELAY
-5
 enum
 class
 IntrinsicDirty
