@@ -35672,6 +35672,12 @@ defined
 (
 JS_CODEGEN_MIPS64
 )
+|
+|
+defined
+(
+JS_CODEGEN_ARM64
+)
 return
 true
 ;
