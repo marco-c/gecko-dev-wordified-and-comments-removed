@@ -208,8 +208,15 @@ eOpResume
 }
 ;
 Operation
+GetOperation
+(
+)
+const
+{
+return
 mOp
 ;
+}
 RefPtr
 <
 nsRange
@@ -242,6 +249,9 @@ mNoCheckRange
 }
 private
 :
+Operation
+mOp
+;
 RefPtr
 <
 nsRange

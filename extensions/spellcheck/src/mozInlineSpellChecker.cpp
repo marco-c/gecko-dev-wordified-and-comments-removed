@@ -5952,7 +5952,9 @@ if
 aStatus
 -
 >
-mOp
+GetOperation
+(
+)
 =
 =
 mozInlineSpellStatus
