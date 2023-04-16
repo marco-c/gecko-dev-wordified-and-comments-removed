@@ -37,7 +37,6 @@ chromium
 "
 ]
 (
-FENNEC
 GECKOVIEW
 REFBROW
 FENIX
@@ -47,10 +46,6 @@ CHROME_ANDROID
 FIREFOX_ANDROID_APPS
 =
 [
-    
-"
-fennec
-"
     
 "
 geckoview
@@ -118,21 +113,6 @@ long_name
 Google
 Chromium
 Desktop
-"
-}
-    
-FENNEC
-:
-{
-"
-long_name
-"
-:
-"
-Firefox
-Fennec
-on
-Android
 "
 }
     
@@ -911,9 +891,8 @@ Example
         
 "
 Fenix
-Refbrow
 and
-Fennec
+Refbrow
 )
 as
 well
@@ -3195,9 +3174,6 @@ not
 in
 [
 "
-fennec
-"
-"
 geckoview
 "
 "
@@ -3299,9 +3275,6 @@ not
 in
 [
 "
-fennec
-"
-"
 geckoview
 "
 "
@@ -3352,9 +3325,6 @@ app
 not
 in
 [
-"
-fennec
-"
 "
 geckoview
 "

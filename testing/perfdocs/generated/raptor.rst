@@ -7164,9 +7164,6 @@ Refbrow
 FE
 :
 Fenix
-F68
-:
-Fennec68
 CH
 -
 M
@@ -7185,7 +7182,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -7221,7 +7217,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -7377,7 +7372,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -7413,7 +7407,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -7570,7 +7563,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -7606,7 +7598,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -7789,7 +7780,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -7825,7 +7815,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -7986,7 +7975,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -8022,7 +8010,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -8182,7 +8169,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -8218,7 +8204,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -8379,7 +8364,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -8415,7 +8399,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -8571,7 +8554,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -8607,7 +8589,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -8762,7 +8743,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -8798,7 +8778,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -8975,7 +8954,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -9011,7 +8989,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -9172,7 +9149,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -9208,7 +9184,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -9383,7 +9358,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -9419,7 +9393,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -9602,7 +9575,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -9638,7 +9610,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -9795,7 +9766,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -9831,7 +9801,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -9988,7 +9957,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -10024,7 +9992,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -10181,7 +10148,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -10217,7 +10183,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -10395,7 +10360,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -10431,7 +10395,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -10596,7 +10559,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -10632,7 +10594,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -10788,7 +10749,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -10824,7 +10784,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -10979,7 +10938,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -11015,7 +10973,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -11173,7 +11130,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -11209,7 +11165,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -11368,7 +11323,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -11404,7 +11358,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -11559,7 +11512,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -11595,7 +11547,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -11751,7 +11702,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -11787,7 +11737,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -11958,7 +11907,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -11994,7 +11942,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -12155,7 +12102,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -12191,7 +12137,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
@@ -12348,7 +12293,6 @@ BT
 GV
 FE
 RB
-F68
 CH
 -
 M
@@ -12384,7 +12328,6 @@ apps
 geckoview
 fenix
 refbrow
-fennec
 chrome
 -
 m
