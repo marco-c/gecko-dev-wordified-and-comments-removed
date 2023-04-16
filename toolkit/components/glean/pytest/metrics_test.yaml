@@ -163,7 +163,7 @@ glean
 /
 metrics
 /
-1
+2
 -
 0
 -
@@ -223,6 +223,9 @@ https
 example
 .
 com
+telemetry_mirror
+:
+SOME_BOOL_SCALAR
 labeled_boolean_metric
 :
 type
@@ -276,6 +279,9 @@ https
 example
 .
 com
+telemetry_mirror
+:
+SOME_KEYED_BOOL_SCALAR
 labeled_boolean_metric_labels
 :
 type
@@ -335,6 +341,9 @@ labels
 one_label
 -
 two_labels
+telemetry_mirror
+:
+SOME_OTHER_KEYED_BOOL_SCALAR
 counter_metric
 :
 type
@@ -388,6 +397,9 @@ https
 example
 .
 com
+telemetry_mirror
+:
+SOME_UINT_SCALAR
 labeled_counter_metric
 :
 type
@@ -441,6 +453,9 @@ https
 example
 .
 com
+telemetry_mirror
+:
+SOME_KEYED_UINT_SCALAR
 labeled_counter_metric_labels
 :
 type
@@ -500,6 +515,9 @@ labels
 one_label
 -
 two_labels
+telemetry_mirror
+:
+SOME_OTHER_KEYED_UINT_SCALAR
 string_metric
 :
 type
@@ -553,6 +571,9 @@ https
 example
 .
 com
+telemetry_mirror
+:
+SOME_STRING_SCALAR
 labeled_string_metric
 :
 type
@@ -718,6 +739,9 @@ https
 example
 .
 com
+telemetry_mirror
+:
+SOME_KEYED_BOOL_SCALAR
 timespan_metric
 :
 type
@@ -771,6 +795,9 @@ https
 example
 .
 com
+telemetry_mirror
+:
+SOME_OTHER_UINT_SCALAR
 timing_distribution_metric
 :
 type
@@ -824,6 +851,9 @@ https
 example
 .
 com
+telemetry_mirror
+:
+SOME_TIME_HISTOGRAM_MS
 memory_distribution_metric
 :
 type
@@ -880,6 +910,9 @@ com
 memory_unit
 :
 kilobyte
+telemetry_mirror
+:
+SOME_MEM_HISTOGRAM_KB
 test
 .
 nested
@@ -937,6 +970,9 @@ https
 example
 .
 com
+telemetry_mirror
+:
+SOME_OTHER_STRING_SCALAR
 datetime_metric
 :
 type
@@ -990,6 +1026,9 @@ https
 example
 .
 com
+telemetry_mirror
+:
+SOME_STILL_OTHER_STRING_SCALAR
 event_metric
 :
 type
@@ -1043,6 +1082,9 @@ https
 example
 .
 com
+telemetry_mirror
+:
+EventMetric_EnumNames_AreStrange
 event_metric_with_extra
 :
 type
@@ -1114,3 +1156,6 @@ Another
 extra
 key
 description
+telemetry_mirror
+:
+EventMetric_EnumName_WithExtra
