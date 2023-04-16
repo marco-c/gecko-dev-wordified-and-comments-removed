@@ -65,6 +65,11 @@ LoadedScript
 h
 "
 "
+ModuleMapKey
+.
+h
+"
+"
 ScriptDecoding
 .
 h
@@ -111,6 +116,11 @@ cpp
 "
 "
 ModuleLoadRequest
+.
+cpp
+"
+"
+ModuleMapKey
 .
 cpp
 "
