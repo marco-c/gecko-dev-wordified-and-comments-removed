@@ -495,7 +495,12 @@ WrapForJNI
 stubName
 =
 "
-Shutdown
+ShutdownFromJava
+"
+dispatchTo
+=
+"
+gecko
 "
 )
 protected
