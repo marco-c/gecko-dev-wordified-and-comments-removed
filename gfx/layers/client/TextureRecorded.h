@@ -203,6 +203,9 @@ SourceSurface
 >
 mSnapshot
 ;
+OpenMode
+mLockedMode
+;
 }
 ;
 }
