@@ -238,6 +238,13 @@ GetOverscroll
 const
 ;
 void
+RestoreOverscroll
+(
+ParentLayerCoord
+aOverscroll
+)
+;
+void
 StartOverscrollAnimation
 (
 float
