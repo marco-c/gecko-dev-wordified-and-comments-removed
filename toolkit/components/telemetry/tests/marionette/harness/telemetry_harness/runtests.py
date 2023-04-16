@@ -7,6 +7,7 @@ cli
 as
 mn_cli
 from
+telemetry_harness
 .
 runner
 import

@@ -3,6 +3,7 @@ marionette_harness
 import
 BaseMarionetteTestRunner
 from
+telemetry_harness
 .
 testcase
 import
