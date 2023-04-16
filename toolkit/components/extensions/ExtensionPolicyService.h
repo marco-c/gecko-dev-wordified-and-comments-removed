@@ -111,7 +111,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -490,9 +490,9 @@ WebExtensionPolicy
 >
 mExtensionHosts
 ;
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 dom
 :
