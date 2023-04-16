@@ -320,7 +320,8 @@ remote
 .
 separatedMozillaDomains
 "
-false
+"
+"
 false
 val
 =
@@ -351,7 +352,7 @@ remote
 .
 root
 "
-false
+null
 false
 val
 =
