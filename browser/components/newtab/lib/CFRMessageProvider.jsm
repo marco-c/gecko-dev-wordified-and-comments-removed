@@ -3462,13 +3462,13 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
 /
-connection
--
-secure
+icons
+/
+security
 .
 svg
 "
