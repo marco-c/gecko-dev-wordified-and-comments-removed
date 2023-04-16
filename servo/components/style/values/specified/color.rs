@@ -1285,8 +1285,6 @@ MozMacMenutextdisable
 MozMacMenutextselect
 MozMacDisabledtoolbartext
 MozMacSecondaryhighlight
-MozMacVibrancyLight
-MozMacVibrancyDark
 MozMacVibrantTitlebarLight
 MozMacVibrantTitlebarDark
 MozMacMenupopup

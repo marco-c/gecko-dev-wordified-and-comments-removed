@@ -1775,12 +1775,6 @@ case
 ColorID
 :
 :
-MozMacVibrancyLight
-:
-case
-ColorID
-:
-:
 MozMacVibrantTitlebarLight
 :
 case
@@ -1806,12 +1800,6 @@ NS_RGB
 ;
 break
 ;
-case
-ColorID
-:
-:
-MozMacVibrancyDark
-:
 case
 ColorID
 :
