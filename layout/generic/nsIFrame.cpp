@@ -33738,7 +33738,7 @@ NS_ASSERTION
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 this
 )
@@ -53760,7 +53760,7 @@ f
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 f
 )
