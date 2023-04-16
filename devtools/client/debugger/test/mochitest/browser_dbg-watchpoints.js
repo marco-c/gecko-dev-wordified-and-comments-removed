@@ -152,6 +152,7 @@ Escape
 await
 addedWatchpoint
 ;
+await
 resume
 (
 dbg
@@ -223,6 +224,7 @@ b
 "
 )
 ;
+await
 resume
 (
 dbg
@@ -327,6 +329,7 @@ statement
 "
 )
 ;
+await
 resume
 (
 dbg
@@ -360,6 +363,7 @@ getB
 "
 )
 ;
+await
 resume
 (
 dbg
@@ -475,6 +479,7 @@ getB
 "
 )
 ;
+await
 resume
 (
 dbg
@@ -512,6 +517,7 @@ waitForRequestsToSettle
 dbg
 )
 ;
+await
 resume
 (
 dbg
@@ -696,6 +702,7 @@ b
 "
 )
 ;
+await
 resume
 (
 dbg

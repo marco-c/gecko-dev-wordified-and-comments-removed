@@ -86,6 +86,7 @@ order
 "
 )
 ;
+await
 resume
 (
 dbg
@@ -130,6 +131,7 @@ order
 "
 )
 ;
+await
 resume
 (
 dbg
