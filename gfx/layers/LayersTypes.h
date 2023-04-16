@@ -1490,6 +1490,7 @@ eKeyPress
 eAPZScroll
 eAPZPinchZoom
 eContentPaint
+eMouseUpFollowedByClick
 )
 )
 ;
