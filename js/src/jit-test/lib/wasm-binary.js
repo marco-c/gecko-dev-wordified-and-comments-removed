@@ -277,6 +277,11 @@ CallIndirectCode
 0x11
 ;
 const
+DelegateCode
+=
+0x18
+;
+const
 DropCode
 =
 0x1a
@@ -710,6 +715,7 @@ wasmExceptionsEnabled
 )
 ?
 [
+0x18
 0x19
 ]
 :
