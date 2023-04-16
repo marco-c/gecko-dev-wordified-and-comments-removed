@@ -60,6 +60,9 @@ unsafe
 -
 inline
 '
+'
+self
+'
 ;
 report
 -
