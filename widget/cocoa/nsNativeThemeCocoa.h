@@ -133,8 +133,6 @@ uint8_t
 {
 eRegularPushButton
 eDefaultPushButton
-eRegularBevelButton
-eDefaultBevelButton
 eRoundedBezelPushButton
 eSquareBezelPushButton
 eArrowButton
