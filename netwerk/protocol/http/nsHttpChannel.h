@@ -999,6 +999,16 @@ nsIURI
 uint32_t
 )
 ;
+SnifferCategoryType
+GetSnifferCategoryType
+(
+)
+const
+{
+return
+mSnifferCategoryType
+;
+}
 class
 OfflineCacheEntryAsForeignMarker
 {
