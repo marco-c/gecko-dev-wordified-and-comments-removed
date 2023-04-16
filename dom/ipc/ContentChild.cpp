@@ -758,6 +758,17 @@ mozilla
 /
 extensions
 /
+ExtensionsChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+extensions
+/
 StreamFilterParent
 .
 h
