@@ -129,7 +129,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -929,9 +929,9 @@ aRv
 AudioParamDescriptorMap
 res
 ;
-nsTHashtable
+nsTHashSet
 <
-nsStringHashKey
+nsString
 >
 namesSet
 ;
@@ -1153,7 +1153,7 @@ if
 !
 namesSet
 .
-PutEntry
+Insert
 (
 descriptor
 .

@@ -59,14 +59,7 @@ h
 #
 include
 "
-nsHashKeys
-.
-h
-"
-#
-include
-"
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -153,9 +146,9 @@ MediaShutdownManager
 >
 sInstance
 ;
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 MediaDecoder
 >
