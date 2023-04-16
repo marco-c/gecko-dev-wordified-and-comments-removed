@@ -103,11 +103,8 @@ bottom
 TEST_URI
 )
 ;
-Services
-.
-prefs
-.
-setIntPref
+await
+pushPref
 (
 "
 ui
