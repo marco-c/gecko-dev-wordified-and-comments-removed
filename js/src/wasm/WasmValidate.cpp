@@ -8122,6 +8122,15 @@ uint32_t
 SimdOp
 :
 :
+I8x16Popcnt
+)
+:
+case
+uint32_t
+(
+SimdOp
+:
+:
 I8x16Abs
 )
 :

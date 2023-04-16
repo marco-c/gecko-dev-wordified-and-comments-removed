@@ -2945,6 +2945,12 @@ case
 SimdOp
 :
 :
+I8x16Popcnt
+:
+case
+SimdOp
+:
+:
 I8x16Abs
 :
 case

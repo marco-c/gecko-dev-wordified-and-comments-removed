@@ -3259,6 +3259,17 @@ output
 )
 ;
 void
+popcntInt8x16
+(
+FloatRegister
+src
+FloatRegister
+temp
+FloatRegister
+output
+)
+;
+void
 zeroSimd128Float
 (
 FloatRegister

@@ -1334,6 +1334,9 @@ I8x16Abs
 I8x16Neg
 =
 0x61
+I8x16Popcnt
+=
+0x62
 I8x16AllTrue
 =
 0x63
