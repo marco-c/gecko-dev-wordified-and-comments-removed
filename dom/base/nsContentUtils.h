@@ -1189,16 +1189,6 @@ aOutputHeight
 static
 nsINode
 *
-GetCrossDocParentNode
-(
-nsINode
-*
-aChild
-)
-;
-static
-nsINode
-*
 GetNearestInProcessCrossDocParentNode
 (
 nsINode
