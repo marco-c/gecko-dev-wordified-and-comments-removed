@@ -20131,6 +20131,8 @@ uint32_t
 aFocusMethod
 bool
 aNeedsFocus
+bool
+aWillShowOutline
 )
 {
 if
@@ -20268,6 +20270,18 @@ InputContextAction
 :
 :
 CAUSE_UNKNOWN
+)
+{
+mUnknownFocusMethodShouldShowOutline
+=
+false
+;
+}
+else
+if
+(
+!
+aWillShowOutline
 )
 {
 mUnknownFocusMethodShouldShowOutline

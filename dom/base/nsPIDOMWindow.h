@@ -1346,6 +1346,10 @@ bool
 aNeedsFocus
 =
 false
+bool
+aWillShowOutline
+=
+false
 )
 =
 0
@@ -2677,6 +2681,10 @@ aFocusMethod
 0
 bool
 aNeedsFocus
+=
+false
+bool
+aWillShowOutline
 =
 false
 )

@@ -4162,6 +4162,10 @@ bool
 aNeedsFocus
 =
 false
+bool
+aWillShowOutline
+=
+false
 )
 override
 ;
