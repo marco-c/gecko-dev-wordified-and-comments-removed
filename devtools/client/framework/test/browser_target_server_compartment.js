@@ -385,6 +385,8 @@ destroy
 await
 target
 .
+descriptorFront
+.
 destroy
 (
 )

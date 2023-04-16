@@ -15677,7 +15677,7 @@ destroy
 return
 this
 .
-target
+descriptorFront
 .
 destroy
 (
