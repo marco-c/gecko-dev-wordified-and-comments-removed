@@ -21563,7 +21563,7 @@ else
 if
 (
 !
-gProtonTabs
+gProton
 &
 &
 tab

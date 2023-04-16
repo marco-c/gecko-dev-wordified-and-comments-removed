@@ -25,8 +25,6 @@ browser
 .
 proton
 .
-tabs
-.
 enabled
 "
 true
