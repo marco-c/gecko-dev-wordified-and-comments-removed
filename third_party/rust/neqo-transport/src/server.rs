@@ -243,7 +243,7 @@ Duration
 :
 from_millis
 (
-4
+10
 )
 ;
 const
@@ -3550,8 +3550,14 @@ ActiveConnectionRef
 pub
 fn
 borrow
+<
+'
+a
+>
 (
 &
+'
+a
 self
 )
 -
@@ -3565,7 +3571,7 @@ Connection
 >
 +
 '
-_
+a
 {
 std
 :
@@ -3597,8 +3603,14 @@ c
 pub
 fn
 borrow_mut
+<
+'
+a
+>
 (
 &
+'
+a
 mut
 self
 )
@@ -3613,7 +3625,7 @@ Connection
 >
 +
 '
-_
+a
 {
 std
 :

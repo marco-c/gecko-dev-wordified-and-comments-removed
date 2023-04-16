@@ -1557,6 +1557,8 @@ literal
 )
 ;
 }
+else
+{
 break
 Ok
 (
@@ -1580,6 +1582,9 @@ new
 )
 ;
 }
+}
+else
+{
 break
 Err
 (
@@ -1589,6 +1594,7 @@ Error
 NeedMoreData
 )
 ;
+}
 }
 LiteralReaderState
 :

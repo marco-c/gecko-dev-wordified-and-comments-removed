@@ -30,7 +30,9 @@ TLS_EPOCH_INITIAL
 :
 Epoch
 =
-0_u16
+0
+as
+Epoch
 ;
 pub
 const
@@ -38,7 +40,9 @@ TLS_EPOCH_ZERO_RTT
 :
 Epoch
 =
-1_u16
+1
+as
+Epoch
 ;
 pub
 const
@@ -46,7 +50,9 @@ TLS_EPOCH_HANDSHAKE
 :
 Epoch
 =
-2_u16
+2
+as
+Epoch
 ;
 pub
 const
@@ -54,7 +60,9 @@ TLS_EPOCH_APPLICATION_DATA
 :
 Epoch
 =
-3_u16
+3
+as
+Epoch
 ;
 macro_rules
 !
