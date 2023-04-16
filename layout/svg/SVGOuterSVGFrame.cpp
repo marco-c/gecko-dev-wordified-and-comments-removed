@@ -398,6 +398,11 @@ RemoveStateBits
 NS_FRAME_SVG_LAYOUT
 )
 ;
+AddStateBits
+(
+NS_FRAME_MAY_BE_TRANSFORMED
+)
+;
 }
 static
 inline

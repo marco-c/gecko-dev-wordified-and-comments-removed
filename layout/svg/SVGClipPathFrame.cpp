@@ -1850,6 +1850,11 @@ AddStateBits
 NS_STATE_SVG_CLIPPATH_CHILD
 )
 ;
+AddStateBits
+(
+NS_FRAME_MAY_BE_TRANSFORMED
+)
+;
 SVGContainerFrame
 :
 :

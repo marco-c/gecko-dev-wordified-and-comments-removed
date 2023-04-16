@@ -596,6 +596,11 @@ aParent
 aPrevInFlow
 )
 ;
+AddStateBits
+(
+NS_FRAME_MAY_BE_TRANSFORMED
+)
+;
 }
 nsresult
 SVGGeometryFrame
