@@ -1255,6 +1255,9 @@ name
 "
 ftpProtocolEnabled
 "
+readOnly
+:
+true
 callback
 (
 )

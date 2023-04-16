@@ -264,6 +264,11 @@ optional
 :
 true
 "
+deprecated
+"
+:
+true
+"
 description
 "
 :
@@ -278,6 +283,11 @@ can
 include
 a
 port
+.
+Deprecated
+since
+Firefox
+88
 .
 "
 }
