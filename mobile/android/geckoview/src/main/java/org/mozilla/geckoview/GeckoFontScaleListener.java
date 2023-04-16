@@ -363,6 +363,7 @@ getFontSizeFactor
 (
 )
 ;
+final
 ContentResolver
 contentResolver
 =
@@ -372,6 +373,7 @@ getContentResolver
 (
 )
 ;
+final
 Uri
 fontSizeSetting
 =
@@ -423,6 +425,7 @@ mRunning
 return
 ;
 }
+final
 ContentResolver
 contentResolver
 =

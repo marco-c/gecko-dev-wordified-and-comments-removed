@@ -128,6 +128,7 @@ boolean
 wasSearchQuery
 )
 {
+final
 String
 trimmedText
 =
@@ -153,6 +154,7 @@ return
 wasSearchQuery
 ;
 }
+final
 int
 colon
 =
@@ -165,6 +167,7 @@ indexOf
 '
 )
 ;
+final
 int
 dot
 =
@@ -177,6 +180,7 @@ indexOf
 '
 )
 ;
+final
 int
 space
 =
@@ -1010,6 +1014,7 @@ String
 url
 )
 {
+final
 Uri
 uri
 =

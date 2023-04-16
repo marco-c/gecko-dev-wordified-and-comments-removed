@@ -396,6 +396,7 @@ int
 size
 )
 {
+final
 Sample
 sample
 =
@@ -496,6 +497,7 @@ session
 mSession
 )
 {
+final
 Sample
 dequeued
 =
@@ -592,6 +594,7 @@ feedSampleToBuffer
 }
 catch
 (
+final
 Exception
 e
 )
@@ -637,6 +640,7 @@ if
 mHasInputCapacitySet
 )
 {
+final
 int
 capacity
 =
@@ -735,6 +739,7 @@ null
 }
 catch
 (
+final
 IllegalStateException
 e
 )
@@ -790,6 +795,7 @@ isEmpty
 )
 )
 {
+final
 int
 index
 =
@@ -828,6 +834,7 @@ poll
 .
 sample
 ;
+final
 long
 pts
 =
@@ -837,6 +844,7 @@ info
 .
 presentationTimeUs
 ;
+final
 int
 flags
 =
@@ -846,6 +854,7 @@ info
 .
 flags
 ;
+final
 MediaCodec
 .
 CryptoInfo
@@ -883,6 +892,7 @@ info
 .
 size
 ;
+final
 ByteBuffer
 buf
 =
@@ -918,6 +928,7 @@ len
 }
 catch
 (
+final
 IOException
 e
 )
@@ -992,6 +1003,7 @@ pts
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -1005,6 +1017,7 @@ printStackTrace
 }
 catch
 (
+final
 Exception
 e
 )
@@ -1036,6 +1049,7 @@ try
 {
 for
 (
+final
 Input
 i
 :
@@ -1074,6 +1088,7 @@ presentationTimeUs
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -1095,6 +1110,7 @@ reset
 {
 for
 (
+final
 Input
 i
 :
@@ -1132,6 +1148,7 @@ clear
 ;
 for
 (
+final
 Sample
 s
 :
@@ -1322,6 +1339,7 @@ return
 }
 try
 {
+final
 Sample
 output
 =
@@ -1359,6 +1377,7 @@ output
 }
 catch
 (
+final
 Exception
 e
 )
@@ -1378,6 +1397,7 @@ false
 )
 ;
 }
+final
 boolean
 eos
 =
@@ -1445,6 +1465,7 @@ mRenderToSurface
 }
 catch
 (
+final
 IllegalStateException
 e
 )
@@ -1489,6 +1510,7 @@ BufferInfo
 info
 )
 {
+final
 Sample
 sample
 =
@@ -1508,6 +1530,7 @@ return
 sample
 ;
 }
+final
 ByteBuffer
 output
 =
@@ -1524,6 +1547,7 @@ if
 mHasOutputCapacitySet
 )
 {
+final
 int
 capacity
 =
@@ -1587,6 +1611,7 @@ size
 }
 catch
 (
+final
 IOException
 e
 )
@@ -1730,6 +1755,7 @@ format
 }
 catch
 (
+final
 RemoteException
 re
 )
@@ -1938,6 +1964,7 @@ release
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -2949,6 +2976,7 @@ start
 }
 catch
 (
+final
 Exception
 e
 )
@@ -3007,6 +3035,7 @@ FATAL
 }
 catch
 (
+final
 NullPointerException
 ne
 )
@@ -3014,6 +3043,7 @@ ne
 }
 catch
 (
+final
 RemoteException
 re
 )
@@ -3077,6 +3107,7 @@ stop
 }
 catch
 (
+final
 Exception
 e
 )
@@ -3182,6 +3213,7 @@ mSession
 }
 catch
 (
+final
 Exception
 e
 )
@@ -3222,6 +3254,7 @@ size
 }
 catch
 (
+final
 Exception
 e
 )
@@ -3328,6 +3361,7 @@ sample
 }
 catch
 (
+final
 Exception
 e
 )
@@ -3368,6 +3402,7 @@ bps
 }
 catch
 (
+final
 Exception
 e
 )
@@ -3409,6 +3444,7 @@ render
 }
 catch
 (
+final
 Exception
 e
 )
@@ -3474,6 +3510,7 @@ release
 }
 catch
 (
+final
 Exception
 e
 )

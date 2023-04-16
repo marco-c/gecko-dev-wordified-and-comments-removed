@@ -287,6 +287,7 @@ ensureNotClosed
 (
 )
 ;
+final
 int
 expect
 =
@@ -296,6 +297,7 @@ SIZE
 /
 8
 ;
+final
 byte
 [
 ]
@@ -319,6 +321,7 @@ count
 expect
 )
 {
+final
 long
 bytesRead
 =
@@ -420,6 +423,7 @@ ensureNotClosed
 (
 )
 ;
+final
 long
 startTime
 =
@@ -504,6 +508,7 @@ mReadTimeout
 }
 catch
 (
+final
 InterruptedException
 e
 )

@@ -25,6 +25,7 @@ getThreadId
 (
 )
 {
+final
 Thread
 t
 =
@@ -49,6 +50,7 @@ getThreadSignature
 (
 )
 {
+final
 Thread
 t
 =
@@ -58,6 +60,7 @@ currentThread
 (
 )
 ;
+final
 long
 l
 =
@@ -67,6 +70,7 @@ getId
 (
 )
 ;
+final
 String
 name
 =
@@ -76,6 +80,7 @@ getName
 (
 )
 ;
+final
 long
 p
 =
@@ -85,6 +90,7 @@ getPriority
 (
 )
 ;
+final
 String
 gname
 =
@@ -179,6 +185,7 @@ byte
 bytes
 )
 {
+final
 char
 [
 ]
@@ -212,6 +219,7 @@ j
 +
 )
 {
+final
 int
 v
 =

@@ -475,6 +475,7 @@ return
 this
 ;
 }
+final
 CharBuffer
 chars
 =
@@ -485,6 +486,7 @@ wrap
 bodyString
 )
 ;
+final
 ByteBuffer
 buffer
 =

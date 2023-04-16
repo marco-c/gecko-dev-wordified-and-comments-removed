@@ -129,6 +129,7 @@ mImpl
 public
 TestRunnerApiEngine
 (
+final
 Api
 impl
 )
@@ -151,6 +152,7 @@ Object
 >
 handleMessage
 (
+final
 JSONObject
 message
 )
@@ -355,12 +357,15 @@ Object
 onMessage
 (
 NonNull
+final
 String
 nativeApp
 NonNull
+final
 Object
 message
 NonNull
+final
 WebExtension
 .
 MessageSender
@@ -381,6 +386,7 @@ message
 }
 catch
 (
+final
 JSONException
 ex
 )

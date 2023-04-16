@@ -139,6 +139,7 @@ AndroidVsync
 (
 )
 {
+final
 Handler
 mainHandler
 =
@@ -319,6 +320,7 @@ getRefreshRate
 (
 )
 {
+final
 DisplayManager
 dm
 =

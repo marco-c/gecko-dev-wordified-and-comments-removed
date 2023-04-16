@@ -41,6 +41,7 @@ void
 onShowNotification
 (
 NonNull
+final
 WebNotification
 notification
 )
@@ -53,6 +54,7 @@ void
 onCloseNotification
 (
 NonNull
+final
 WebNotification
 notification
 )

@@ -1372,6 +1372,7 @@ data
 }
 catch
 (
+final
 JSONException
 ex
 )
@@ -1405,6 +1406,7 @@ JSONObject
 message
 )
 {
+final
 GeckoBundle
 args
 =
@@ -1434,6 +1436,7 @@ message
 }
 catch
 (
+final
 JSONException
 ex
 )
@@ -1477,6 +1480,7 @@ disconnected
 return
 ;
 }
+final
 GeckoBundle
 args
 =
@@ -1671,9 +1675,11 @@ AllowOrDeny
 onCloseTab
 (
 Nullable
+final
 WebExtension
 source
 NonNull
+final
 GeckoSession
 session
 )
@@ -2045,9 +2051,11 @@ GeckoSession
 onNewTab
 (
 NonNull
+final
 WebExtension
 source
 NonNull
+final
 CreateTabDetails
 createDetails
 )
@@ -2062,6 +2070,7 @@ void
 onOpenOptionsPage
 (
 NonNull
+final
 WebExtension
 source
 )
@@ -2201,6 +2210,7 @@ return
 false
 ;
 }
+final
 Sender
 o
 =
@@ -4258,6 +4268,7 @@ null
 return
 ;
 }
+final
 GeckoResult
 <
 GeckoSession
@@ -5524,6 +5535,7 @@ privateBrowsingAllowed
 false
 )
 ;
+final
 int
 signedState
 =
@@ -5887,6 +5899,7 @@ title
 "
 )
 ;
+final
 GeckoBundle
 [
 ]
@@ -5922,6 +5935,7 @@ null
 {
 for
 (
+final
 GeckoBundle
 item
 :
@@ -6387,9 +6401,11 @@ DownloadInitData
 onDownload
 (
 NonNull
+final
 WebExtension
 source
 NonNull
+final
 DownloadRequest
 request
 )
@@ -6626,6 +6642,7 @@ paused
 )
 )
 ;
+final
 Integer
 error
 =
@@ -6731,6 +6748,7 @@ EventDispatcher
 QueryException
 )
 {
+final
 EventDispatcher
 .
 QueryException
@@ -6783,8 +6801,10 @@ Void
 >
 onPause
 (
+final
 WebExtension
 source
+final
 WebExtension
 .
 Download
@@ -6802,8 +6822,10 @@ Void
 >
 onResume
 (
+final
 WebExtension
 source
+final
 WebExtension
 .
 Download
@@ -6821,8 +6843,10 @@ Void
 >
 onCancel
 (
+final
 WebExtension
 source
+final
 WebExtension
 .
 Download
@@ -6840,8 +6864,10 @@ Void
 >
 onErase
 (
+final
 WebExtension
 source
+final
 WebExtension
 .
 Download
@@ -6859,8 +6885,10 @@ Void
 >
 onOpen
 (
+final
 WebExtension
 source
+final
 WebExtension
 .
 Download
@@ -6878,8 +6906,10 @@ Void
 >
 onRemoveFile
 (
+final
 WebExtension
 source
+final
 WebExtension
 .
 Download
@@ -7348,6 +7378,7 @@ Info
 data
 )
 {
+final
 GeckoBundle
 dataBundle
 =
@@ -7515,6 +7546,7 @@ totalBytes
 )
 )
 ;
+final
 Long
 endTime
 =
@@ -7547,6 +7579,7 @@ toString
 )
 ;
 }
+final
 Integer
 error
 =
@@ -7575,6 +7608,7 @@ error
 )
 ;
 }
+final
 Long
 estimatedEndTime
 =
@@ -7778,6 +7812,7 @@ url
 "
 )
 ;
+final
 WebRequest
 .
 Builder
@@ -7791,6 +7826,7 @@ Builder
 uri
 )
 ;
+final
 String
 method
 =
@@ -7830,6 +7866,7 @@ POST
 )
 )
 {
+final
 String
 body
 =
@@ -7851,6 +7888,7 @@ body
 ;
 }
 }
+final
 GeckoBundle
 [
 ]
@@ -7875,6 +7913,7 @@ null
 {
 for
 (
+final
 GeckoBundle
 header
 :
@@ -7930,6 +7969,7 @@ value
 ;
 }
 }
+final
 WebRequest
 mainRequest
 =
@@ -7946,6 +7986,7 @@ GeckoWebExecutor
 .
 FETCH_FLAGS_NONE
 ;
+final
 boolean
 incognito
 =
@@ -7971,6 +8012,7 @@ GeckoWebExecutor
 FETCH_FLAGS_PRIVATE
 ;
 }
+final
 boolean
 allowHttpErrors
 =
@@ -7988,6 +8030,7 @@ conflictActionFlags
 =
 CONFLICT_ACTION_UNIQUIFY
 ;
+final
 String
 conflictActionString
 =
@@ -8054,6 +8097,7 @@ break
 ;
 }
 }
+final
 boolean
 saveAs
 =
@@ -8066,6 +8110,7 @@ saveAs
 "
 )
 ;
+final
 WebExtension
 .
 DownloadRequest

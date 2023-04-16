@@ -690,6 +690,7 @@ ensureMediaCryptoCreated
 }
 catch
 (
+final
 android
 .
 media
@@ -868,6 +869,7 @@ null
 ;
 try
 {
+final
 boolean
 hasMediaCrypto
 =
@@ -929,6 +931,7 @@ MediaDrm
 return
 ;
 }
+final
 MediaDrm
 .
 KeyRequest
@@ -1062,6 +1065,7 @@ mSessionIds
 }
 catch
 (
+final
 android
 .
 media
@@ -1192,6 +1196,7 @@ exist
 return
 ;
 }
+final
 ByteBuffer
 session
 =
@@ -1258,6 +1263,7 @@ if
 DEBUG
 )
 {
+final
 HashMap
 <
 String
@@ -1278,6 +1284,7 @@ array
 ;
 for
 (
+final
 String
 strKey
 :
@@ -1288,6 +1295,7 @@ keySet
 )
 )
 {
+final
 String
 strValue
 =
@@ -1468,6 +1476,7 @@ exist
 return
 ;
 }
+final
 ByteBuffer
 session
 =
@@ -1594,6 +1603,7 @@ isEmpty
 )
 )
 {
+final
 PendingCreateSessionData
 pendingData
 =
@@ -1645,6 +1655,7 @@ null
 {
 for
 (
+final
 ByteBuffer
 session
 :
@@ -1849,6 +1860,7 @@ String
 sessionId
 )
 {
+final
 SessionKeyInfo
 [
 ]
@@ -2241,6 +2253,7 @@ null
 }
 try
 {
+final
 HashMap
 <
 String
@@ -2278,6 +2291,7 @@ optionalParameters
 }
 catch
 (
+final
 Exception
 e
 )
@@ -2384,6 +2398,7 @@ session
 return
 ;
 }
+final
 ByteBuffer
 session
 =
@@ -2590,6 +2605,7 @@ NotProvisionedException
 {
 try
 {
+final
 byte
 [
 ]
@@ -2616,6 +2632,7 @@ clone
 }
 catch
 (
+final
 android
 .
 media
@@ -2630,6 +2647,7 @@ e
 }
 catch
 (
+final
 java
 .
 lang
@@ -2673,6 +2691,7 @@ null
 }
 catch
 (
+final
 android
 .
 media
@@ -2887,6 +2906,7 @@ null
 ;
 try
 {
+final
 URI
 finalURI
 =
@@ -3012,6 +3032,7 @@ connect
 (
 )
 ;
+final
 int
 responseCode
 =
@@ -3053,6 +3074,7 @@ UTF_8
 String
 inputLine
 ;
+final
 StringBuffer
 response
 =
@@ -3172,6 +3194,7 @@ responseCode
 }
 catch
 (
+final
 IOException
 e
 )
@@ -3198,6 +3221,7 @@ e
 }
 catch
 (
+final
 URISyntaxException
 e
 )
@@ -3258,6 +3282,7 @@ close
 }
 catch
 (
+final
 IOException
 e
 )
@@ -3366,6 +3391,7 @@ true
 }
 catch
 (
+final
 android
 .
 media
@@ -3402,6 +3428,7 @@ getMessage
 }
 catch
 (
+final
 java
 .
 lang
@@ -3536,6 +3563,7 @@ isEmpty
 )
 )
 {
+final
 PendingCreateSessionData
 pendingData
 =
@@ -3596,6 +3624,7 @@ mInitData
 }
 catch
 (
+final
 Exception
 e
 )
@@ -3737,6 +3766,7 @@ mProvisioningPromiseId
 =
 promiseId
 ;
+final
 MediaDrm
 .
 ProvisionRequest
@@ -3775,6 +3805,7 @@ execute
 }
 catch
 (
+final
 Exception
 e
 )
@@ -3835,6 +3866,7 @@ mProvisioningPromiseId
 =
 0
 ;
+final
 boolean
 success
 =
@@ -4036,6 +4068,7 @@ false
 }
 catch
 (
+final
 android
 .
 media
@@ -4077,6 +4110,7 @@ false
 }
 catch
 (
+final
 android
 .
 media
@@ -4175,6 +4209,7 @@ getCDMUserAgent
 (
 )
 {
+final
 String
 ua
 =

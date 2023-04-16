@@ -373,6 +373,7 @@ fileInputStream
 }
 catch
 (
+final
 YAMLException
 e
 )

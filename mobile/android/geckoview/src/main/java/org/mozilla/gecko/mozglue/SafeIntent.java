@@ -116,6 +116,7 @@ name
 }
 catch
 (
+final
 OutOfMemoryError
 e
 )
@@ -149,6 +150,7 @@ false
 }
 catch
 (
+final
 RuntimeException
 e
 )
@@ -197,6 +199,7 @@ getExtras
 }
 catch
 (
+final
 OutOfMemoryError
 e
 )
@@ -227,6 +230,7 @@ null
 }
 catch
 (
+final
 RuntimeException
 e
 )
@@ -279,6 +283,7 @@ defaultValue
 }
 catch
 (
+final
 OutOfMemoryError
 e
 )
@@ -309,6 +314,7 @@ defaultValue
 }
 catch
 (
+final
 RuntimeException
 e
 )
@@ -361,6 +367,7 @@ defaultValue
 }
 catch
 (
+final
 OutOfMemoryError
 e
 )
@@ -391,6 +398,7 @@ defaultValue
 }
 catch
 (
+final
 RuntimeException
 e
 )
@@ -439,6 +447,7 @@ name
 }
 catch
 (
+final
 OutOfMemoryError
 e
 )
@@ -469,6 +478,7 @@ null
 }
 catch
 (
+final
 RuntimeException
 e
 )
@@ -517,6 +527,7 @@ name
 }
 catch
 (
+final
 OutOfMemoryError
 e
 )
@@ -547,6 +558,7 @@ null
 }
 catch
 (
+final
 RuntimeException
 e
 )
@@ -605,6 +617,7 @@ getDataString
 }
 catch
 (
+final
 OutOfMemoryError
 e
 )
@@ -636,6 +649,7 @@ null
 }
 catch
 (
+final
 RuntimeException
 e
 )
@@ -688,6 +702,7 @@ name
 }
 catch
 (
+final
 OutOfMemoryError
 e
 )
@@ -719,6 +734,7 @@ null
 }
 catch
 (
+final
 RuntimeException
 e
 )
@@ -764,6 +780,7 @@ getData
 }
 catch
 (
+final
 OutOfMemoryError
 e
 )
@@ -794,6 +811,7 @@ null
 }
 catch
 (
+final
 RuntimeException
 e
 )

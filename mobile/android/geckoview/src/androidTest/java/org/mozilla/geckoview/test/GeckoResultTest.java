@@ -956,6 +956,7 @@ sleep
 }
 catch
 (
+final
 InterruptedException
 ex
 )
@@ -2277,6 +2278,7 @@ Handler
 }
 catch
 (
+final
 InterruptedException
 e
 )
@@ -2412,6 +2414,7 @@ join
 }
 catch
 (
+final
 InterruptedException
 e
 )
@@ -2590,6 +2593,7 @@ cancelNoDelegate
 (
 )
 {
+final
 GeckoResult
 <
 Void
@@ -2651,6 +2655,7 @@ createCancellableResult
 (
 )
 {
+final
 GeckoResult
 <
 Integer
@@ -2709,6 +2714,7 @@ cancelSuccess
 (
 )
 {
+final
 GeckoResult
 <
 Integer
@@ -2795,6 +2801,7 @@ cancelCompleted
 (
 )
 {
+final
 GeckoResult
 <
 Integer
@@ -2858,6 +2865,7 @@ cancelParent
 (
 )
 {
+final
 GeckoResult
 <
 Integer
@@ -2868,6 +2876,7 @@ createCancellableResult
 (
 )
 ;
+final
 GeckoResult
 <
 Integer
@@ -2965,6 +2974,7 @@ cancelChildParentNotComplete
 (
 )
 {
+final
 GeckoResult
 <
 Integer

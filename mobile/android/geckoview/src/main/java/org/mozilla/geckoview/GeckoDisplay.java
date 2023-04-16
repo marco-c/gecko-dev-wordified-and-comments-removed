@@ -1038,6 +1038,7 @@ ARGB_8888
 }
 catch
 (
+final
 Throwable
 e
 )

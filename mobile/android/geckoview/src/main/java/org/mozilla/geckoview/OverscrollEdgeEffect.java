@@ -268,6 +268,7 @@ true
 }
 catch
 (
+final
 NoSuchFieldException
 e
 )
@@ -343,6 +344,7 @@ mode
 }
 catch
 (
+final
 IllegalAccessException
 e
 )
@@ -896,6 +898,7 @@ rotate
 rotation
 )
 ;
+final
 boolean
 invalidate
 =

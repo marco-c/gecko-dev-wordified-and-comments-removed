@@ -83,6 +83,7 @@ GeckoHlsPlayer
 "
 )
 ;
+final
 BaseHlsPlayer
 player
 =
@@ -108,6 +109,7 @@ player
 }
 catch
 (
+final
 Exception
 e
 )
@@ -149,6 +151,7 @@ id
 {
 for
 (
+final
 BaseHlsPlayer
 player
 :
@@ -206,6 +209,7 @@ BaseHlsPlayer
 player
 )
 {
+final
 int
 index
 =

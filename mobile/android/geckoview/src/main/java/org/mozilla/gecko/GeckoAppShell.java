@@ -1282,6 +1282,7 @@ Location
 location
 )
 {
+final
 float
 radius
 =
@@ -1331,6 +1332,7 @@ lastKnownLocation
 =
 null
 ;
+final
 List
 <
 String
@@ -1345,12 +1347,14 @@ getAllProviders
 ;
 for
 (
+final
 String
 provider
 :
 providers
 )
 {
+final
 Location
 location
 =
@@ -1387,6 +1391,7 @@ location
 continue
 ;
 }
+final
 long
 timeDiff
 =
@@ -1724,6 +1729,7 @@ LOCATION_SERVICE
 }
 catch
 (
+final
 NoSuchFieldError
 e
 )
@@ -1871,6 +1877,7 @@ SensorEvent
 s
 )
 {
+final
 int
 sensorType
 =
@@ -2309,6 +2316,7 @@ Location
 location
 )
 {
+final
 double
 altitude
 =
@@ -2328,6 +2336,7 @@ Double
 .
 NaN
 ;
+final
 float
 accuracy
 =
@@ -2347,6 +2356,7 @@ Float
 .
 NaN
 ;
+final
 float
 altitudeAccuracy
 =
@@ -2376,6 +2386,7 @@ Float
 .
 NaN
 ;
+final
 float
 speed
 =
@@ -2395,6 +2406,7 @@ Float
 .
 NaN
 ;
+final
 float
 heading
 =
@@ -3646,6 +3658,7 @@ String
 aFileExt
 )
 {
+final
 StringTokenizer
 st
 =
@@ -3678,6 +3691,7 @@ hasMoreElements
 )
 )
 {
+final
 String
 ext
 =
@@ -3687,6 +3701,7 @@ nextToken
 (
 )
 ;
+final
 String
 mt
 =
@@ -3704,6 +3719,7 @@ null
 )
 continue
 ;
+final
 int
 slash
 =
@@ -3716,6 +3732,7 @@ indexOf
 '
 )
 ;
+final
 String
 tmpType
 =
@@ -3750,6 +3767,7 @@ tmpType
 *
 "
 ;
+final
 String
 tmpSubType
 =
@@ -4197,6 +4215,7 @@ getApplicationContext
 (
 )
 ;
+final
 PixelFormat
 info
 =
@@ -4396,6 +4415,7 @@ int
 input
 )
 {
+final
 long
 [
 ]
@@ -4621,6 +4641,7 @@ vibrationDuration
 =
 0
 ;
+final
 int
 iterLen
 =
@@ -4826,6 +4847,7 @@ ensureConnectivityManager
 ;
 try
 {
+final
 NetworkInfo
 info
 =
@@ -4856,6 +4878,7 @@ false
 }
 catch
 (
+final
 SecurityException
 se
 )
@@ -4906,6 +4929,7 @@ false
 }
 catch
 (
+final
 SecurityException
 se
 )
@@ -4937,6 +4961,7 @@ ensureConnectivityManager
 (
 )
 ;
+final
 NetworkInfo
 info
 =
@@ -5056,6 +5081,7 @@ ensureConnectivityManager
 (
 )
 ;
+final
 Network
 net
 =
@@ -5078,6 +5104,7 @@ return
 "
 ;
 }
+final
 LinkProperties
 lp
 =
@@ -5212,6 +5239,7 @@ attr
 panelColorBackground
 }
 ;
+final
 int
 [
 ]
@@ -5287,6 +5315,7 @@ i
 +
 )
 {
+final
 int
 idx
 =
@@ -5297,6 +5326,7 @@ getIndex
 i
 )
 ;
+final
 int
 color
 =
@@ -5415,6 +5445,7 @@ substring
 )
 ;
 }
+final
 PackageManager
 pm
 =
@@ -5514,6 +5545,7 @@ true
 )
 ;
 }
+final
 ByteBuffer
 buf
 =
@@ -5545,6 +5577,7 @@ array
 }
 catch
 (
+final
 Exception
 e
 )
@@ -5635,6 +5668,7 @@ height
 :
 1
 ;
+final
 Bitmap
 bitmap
 =
@@ -5651,6 +5685,7 @@ Config
 ARGB_8888
 )
 ;
+final
 Canvas
 canvas
 =
@@ -5731,6 +5766,7 @@ String
 aExt
 )
 {
+final
 Intent
 intent
 =
@@ -5778,6 +5814,7 @@ else
 return
 null
 ;
+final
 List
 <
 ResolveInfo
@@ -5806,6 +5843,7 @@ size
 return
 null
 ;
+final
 ResolveInfo
 resolveInfo
 =
@@ -5826,6 +5864,7 @@ null
 return
 null
 ;
+final
 ActivityInfo
 activityInfo
 =
@@ -5859,6 +5898,7 @@ getShowPasswordSetting
 {
 try
 {
+final
 int
 showPassword
 =
@@ -5893,6 +5933,7 @@ showPassword
 }
 catch
 (
+final
 Exception
 e
 )
@@ -6070,6 +6111,7 @@ int
 aHeight
 )
 {
+final
 int
 [
 ]
@@ -6142,6 +6184,7 @@ fpsDelta
 ;
 try
 {
+final
 Iterator
 <
 Integer
@@ -6167,6 +6210,7 @@ hasNext
 )
 )
 {
+final
 int
 nFps
 =
@@ -6213,6 +6257,7 @@ nFps
 }
 catch
 (
+final
 Exception
 e
 )
@@ -6225,6 +6270,7 @@ kPreferredFPS
 )
 ;
 }
+final
 Iterator
 <
 Camera
@@ -6262,6 +6308,7 @@ hasNext
 )
 )
 {
+final
 Camera
 .
 Size
@@ -6438,6 +6485,7 @@ getPreviewFrameRate
 }
 catch
 (
+final
 RuntimeException
 e
 )
@@ -6997,6 +7045,7 @@ profile
 null
 )
 {
+final
 File
 lock
 =
@@ -7071,6 +7120,7 @@ ProxySelector
 (
 )
 ;
+final
 Proxy
 proxy
 =
@@ -7167,6 +7217,7 @@ getMaxTouchPoints
 (
 )
 {
+final
 PackageManager
 pm
 =
@@ -7296,6 +7347,7 @@ result
 =
 NO_POINTER
 ;
+final
 int
 sources
 =
@@ -7446,6 +7498,7 @@ NO_POINTER
 ;
 for
 (
+final
 int
 deviceId
 :
@@ -7456,6 +7509,7 @@ getDeviceIds
 )
 )
 {
+final
 InputDevice
 inputDevice
 =
@@ -7521,6 +7575,7 @@ NO_POINTER
 ;
 for
 (
+final
 int
 deviceId
 :
@@ -7531,6 +7586,7 @@ getDeviceIds
 )
 )
 {
+final
 InputDevice
 inputDevice
 =
@@ -7705,6 +7761,7 @@ getHeight
 )
 ;
 }
+final
 Point
 size
 =
@@ -8056,6 +8113,7 @@ false
 }
 catch
 (
+final
 SecurityException
 e
 )
@@ -8213,6 +8271,7 @@ getDefault
 (
 )
 ;
+final
 String
 [
 ]
@@ -8269,6 +8328,7 @@ return
 locales
 ;
 }
+final
 String
 [
 ]

@@ -475,6 +475,7 @@ numCodecs
 i
 )
 {
+final
 MediaCodecInfo
 info
 =
@@ -499,6 +500,7 @@ continue
 }
 for
 (
+final
 String
 mimeType
 :
@@ -570,6 +572,7 @@ false
 }
 try
 {
+final
 MediaCodecInfo
 info
 =
@@ -579,6 +582,7 @@ getCodecInfo
 (
 )
 ;
+final
 MediaCodecInfo
 .
 CodecCapabilities
@@ -612,6 +616,7 @@ FEATURE_AdaptivePlayback
 }
 catch
 (
+final
 IllegalArgumentException
 e
 )
@@ -722,6 +727,7 @@ false
 }
 for
 (
+final
 String
 model
 :
@@ -827,6 +833,7 @@ null
 ;
 for
 (
+final
 String
 mimeType
 :
@@ -972,6 +979,7 @@ aMimeType
 ;
 for
 (
+final
 int
 colorFormat
 :
@@ -1002,6 +1010,7 @@ colorFormat
 }
 for
 (
+final
 int
 supportedColorFormat
 :
@@ -1010,6 +1019,7 @@ supportedColorList
 {
 for
 (
+final
 int
 codecColorFormat
 :

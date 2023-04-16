@@ -136,6 +136,7 @@ getFileDescriptor
 }
 catch
 (
+final
 NoSuchMethodException
 e
 )
@@ -344,6 +345,7 @@ size
 ;
 try
 {
+final
 FileDescriptor
 fd
 =
@@ -384,6 +386,7 @@ false
 }
 catch
 (
+final
 Exception
 e
 )
@@ -470,6 +473,7 @@ close
 }
 catch
 (
+final
 IOException
 e
 )
@@ -622,6 +626,7 @@ mSize
 }
 catch
 (
+final
 NullPointerException
 e
 )

@@ -175,6 +175,7 @@ size
 return
 ;
 }
+final
 SessionKeyInfo
 [
 ]
@@ -210,6 +211,7 @@ i
 +
 )
 {
+final
 MediaDrm
 .
 KeyStatus

@@ -284,6 +284,7 @@ flush
 }
 catch
 (
+final
 NullPointerException
 e
 )
@@ -376,6 +377,7 @@ size
 }
 catch
 (
+final
 NullPointerException
 e
 )

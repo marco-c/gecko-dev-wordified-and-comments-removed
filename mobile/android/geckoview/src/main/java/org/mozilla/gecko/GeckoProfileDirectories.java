@@ -561,6 +561,7 @@ null
 {
 for
 (
+final
 Enumeration
 <
 INISection
@@ -795,6 +796,7 @@ null
 {
 for
 (
+final
 Enumeration
 <
 INISection
@@ -974,6 +976,7 @@ null
 {
 for
 (
+final
 Enumeration
 <
 INISection

@@ -547,6 +547,7 @@ connectivityManager
 )
 )
 ;
+final
 int
 [
 ]
@@ -631,6 +632,7 @@ connectivityManager
 )
 ;
 }
+final
 int
 [
 ]

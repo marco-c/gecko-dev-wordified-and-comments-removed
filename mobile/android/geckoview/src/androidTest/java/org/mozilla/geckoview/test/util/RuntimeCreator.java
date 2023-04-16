@@ -269,6 +269,7 @@ void
 onHistogram
 (
 NonNull
+final
 RuntimeTelemetry
 .
 Histogram
@@ -298,6 +299,7 @@ void
 onBooleanScalar
 (
 NonNull
+final
 RuntimeTelemetry
 .
 Metric
@@ -330,6 +332,7 @@ void
 onStringScalar
 (
 NonNull
+final
 RuntimeTelemetry
 .
 Metric
@@ -362,6 +365,7 @@ void
 onLongScalar
 (
 NonNull
+final
 RuntimeTelemetry
 .
 Metric
@@ -435,6 +439,7 @@ void
 onConnect
 (
 NonNull
+final
 WebExtension
 .
 Port
@@ -475,9 +480,11 @@ void
 onPortMessage
 (
 NonNull
+final
 Object
 message
 NonNull
+final
 WebExtension
 .
 Port
@@ -619,6 +626,7 @@ static
 void
 setTelemetryDelegate
 (
+final
 RuntimeTelemetry
 .
 Delegate
@@ -637,6 +645,7 @@ static
 void
 setPortDelegate
 (
+final
 WebExtension
 .
 PortDelegate
@@ -1161,6 +1170,7 @@ timeoutMillis
 }
 }
 ;
+final
 FutureTask
 <
 Void
@@ -1202,6 +1212,7 @@ MILLISECONDS
 }
 catch
 (
+final
 Throwable
 e
 )

@@ -297,6 +297,7 @@ Format
 format
 )
 {
+final
 String
 mimeType
 =
@@ -334,6 +335,7 @@ null
 ;
 try
 {
+final
 MediaCodecSelector
 mediaCodecSelector
 =
@@ -355,6 +357,7 @@ false
 }
 catch
 (
+final
 MediaCodecUtil
 .
 DecoderQueryException
@@ -398,6 +401,7 @@ FORMAT_UNSUPPORTED_SUBTYPE
 )
 ;
 }
+final
 MediaCodecInfo
 info
 =
@@ -408,6 +412,7 @@ get
 0
 )
 ;
+final
 boolean
 decoderCapable
 =
@@ -576,6 +581,7 @@ DecoderInputBuffer
 bufferForRead
 )
 {
+final
 int
 size
 =
@@ -587,6 +593,7 @@ limit
 (
 )
 ;
+final
 byte
 [
 ]
@@ -609,6 +616,7 @@ realData
 size
 )
 ;
+final
 ByteBuffer
 buffer
 =
@@ -631,6 +639,7 @@ clear
 (
 )
 ;
+final
 CryptoInfo
 cryptoInfo
 =
@@ -650,6 +659,7 @@ getFrameworkCryptoInfoV16
 :
 null
 ;
+final
 BufferInfo
 bufferInfo
 =
@@ -717,6 +727,7 @@ size
 0
 )
 ;
+final
 GeckoHLSSample
 sample
 =

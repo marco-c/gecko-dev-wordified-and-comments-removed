@@ -262,6 +262,7 @@ mNumActiveRequests
 }
 else
 {
+final
 RuntimeException
 e
 =

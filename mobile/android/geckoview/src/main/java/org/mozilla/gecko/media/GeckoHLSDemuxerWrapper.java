@@ -392,6 +392,7 @@ mPlayer
 null
 )
 ;
+final
 int
 tracks
 =
@@ -474,6 +475,7 @@ formatIndex
 index
 )
 ;
+final
 GeckoAudioInfo
 aInfo
 =
@@ -526,6 +528,7 @@ formatIndex
 index
 )
 ;
+final
 GeckoVideoInfo
 vInfo
 =
@@ -658,6 +661,7 @@ callback
 }
 catch
 (
+final
 Exception
 e
 )

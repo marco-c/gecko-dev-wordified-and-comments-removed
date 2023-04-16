@@ -497,6 +497,7 @@ float
 2
 ]
 ;
+final
 InputDevice
 device
 =
@@ -998,6 +999,7 @@ deviceId
 ;
 for
 (
+final
 KeyEvent
 ev
 :
@@ -1163,6 +1165,7 @@ return
 false
 ;
 }
+final
 boolean
 [
 ]
@@ -1180,6 +1183,7 @@ values
 length
 ]
 ;
+final
 float
 [
 ]
@@ -1204,6 +1208,7 @@ false
 ;
 for
 (
+final
 Axis
 axis
 :
@@ -1214,6 +1219,7 @@ values
 )
 )
 {
+final
 float
 value
 =
@@ -1225,6 +1231,7 @@ axis
 axis
 )
 ;
+final
 int
 i
 =
@@ -1303,6 +1310,7 @@ null
 {
 for
 (
+final
 Trigger
 trigger
 :
@@ -1313,6 +1321,7 @@ values
 )
 )
 {
+final
 int
 i
 =
@@ -1322,6 +1331,7 @@ ordinal
 (
 )
 ;
+final
 int
 axis
 =
@@ -1332,6 +1342,7 @@ triggerAxes
 i
 ]
 ;
+final
 float
 value
 =
@@ -1363,6 +1374,7 @@ i
 =
 value
 ;
+final
 boolean
 pressed
 =
@@ -1387,6 +1399,7 @@ value
 }
 for
 (
+final
 DpadAxis
 dpadaxis
 :
@@ -1397,6 +1410,7 @@ values
 )
 )
 {
+final
 float
 value
 =
@@ -1467,6 +1481,7 @@ return
 false
 ;
 }
+final
 int
 deviceId
 =
@@ -1522,6 +1537,7 @@ deviceId
 null
 )
 {
+final
 InputDevice
 device
 =
@@ -1590,6 +1606,7 @@ key
 ;
 for
 (
+final
 Button
 button
 :
@@ -1654,6 +1671,7 @@ return
 true
 ;
 }
+final
 Gamepad
 gamepad
 =
@@ -1664,6 +1682,7 @@ get
 deviceId
 )
 ;
+final
 boolean
 pressed
 =
@@ -1707,6 +1726,7 @@ scanForGamepads
 (
 )
 {
+final
 int
 [
 ]
@@ -1747,6 +1767,7 @@ i
 +
 )
 {
+final
 InputDevice
 device
 =
@@ -1880,6 +1901,7 @@ int
 deviceId
 )
 {
+final
 Gamepad
 gamepad
 =
@@ -1934,6 +1956,7 @@ int
 deviceId
 )
 {
+final
 InputDevice
 device
 =

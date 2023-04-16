@@ -116,6 +116,7 @@ getHeaderKeys
 (
 )
 {
+final
 String
 [
 ]
@@ -154,6 +155,7 @@ getHeaderValues
 (
 )
 {
+final
 String
 [
 ]

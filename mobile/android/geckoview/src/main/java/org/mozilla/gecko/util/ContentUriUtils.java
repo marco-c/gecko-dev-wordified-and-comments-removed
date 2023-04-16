@@ -339,6 +339,7 @@ null
 }
 catch
 (
+final
 NumberFormatException
 e
 )
@@ -658,6 +659,7 @@ fileName
 success
 )
 {
+final
 File
 copyFile
 =
@@ -734,6 +736,7 @@ column
 ;
 try
 (
+final
 Cursor
 cursor
 =

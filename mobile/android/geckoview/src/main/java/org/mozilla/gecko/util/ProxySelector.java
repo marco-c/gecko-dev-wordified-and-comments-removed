@@ -79,6 +79,7 @@ uri
 throws
 IOException
 {
+final
 java
 .
 net
@@ -111,6 +112,7 @@ ps
 null
 )
 {
+final
 List
 <
 Proxy
@@ -578,6 +580,7 @@ int
 defaultValue
 )
 {
+final
 String
 string
 =
@@ -609,6 +612,7 @@ string
 }
 catch
 (
+final
 NumberFormatException
 ignored
 )
@@ -649,6 +653,7 @@ return
 false
 ;
 }
+final
 StringBuilder
 patternBuilder
 =
@@ -677,6 +682,7 @@ i
 +
 )
 {
+final
 char
 c
 =
@@ -738,6 +744,7 @@ c
 ;
 }
 }
+final
 String
 pattern
 =

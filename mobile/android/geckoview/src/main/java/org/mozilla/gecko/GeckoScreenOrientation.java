@@ -205,6 +205,7 @@ value
 {
 for
 (
+final
 ScreenOrientation
 orient
 :
@@ -426,6 +427,7 @@ return
 false
 ;
 }
+final
 Configuration
 config
 =
@@ -500,6 +502,7 @@ ScreenOrientation
 aScreenOrientation
 )
 {
+final
 ScreenOrientation
 screenOrientation
 ;
@@ -749,6 +752,7 @@ run
 {
 for
 (
+final
 OrientationChangeListener
 listener
 :
@@ -815,6 +819,7 @@ int
 aRotation
 )
 {
+final
 boolean
 isPrimary
 =

@@ -442,6 +442,7 @@ return
 false
 ;
 }
+final
 Iterator
 <
 GeckoHLSSample
@@ -468,6 +469,7 @@ hasNext
 )
 )
 {
+final
 GeckoHLSSample
 sample
 =
@@ -500,6 +502,7 @@ hasNext
 )
 )
 {
+final
 GeckoHLSSample
 sample
 =
@@ -548,6 +551,7 @@ index
 0
 )
 ;
+final
 Format
 fmt
 =
@@ -624,6 +628,7 @@ int
 number
 )
 {
+final
 ConcurrentLinkedQueue
 <
 GeckoHLSSample
@@ -643,6 +648,7 @@ sample
 =
 null
 ;
+final
 int
 queuedSize
 =
@@ -800,6 +806,7 @@ Format
 newFormat
 )
 {
+final
 Object
 oldDrmInit
 =
@@ -814,6 +821,7 @@ oldFormat
 .
 drmInitData
 ;
+final
 Object
 newDrnInit
 =
@@ -910,6 +918,7 @@ size
 }
 catch
 (
+final
 IndexOutOfBoundsException
 e
 )
@@ -1060,6 +1069,7 @@ true
 }
 catch
 (
+final
 OutOfMemoryError
 e
 )
@@ -1178,6 +1188,7 @@ false
 }
 catch
 (
+final
 Exception
 e
 )
@@ -1359,6 +1370,7 @@ clear
 (
 )
 ;
+final
 int
 result
 =

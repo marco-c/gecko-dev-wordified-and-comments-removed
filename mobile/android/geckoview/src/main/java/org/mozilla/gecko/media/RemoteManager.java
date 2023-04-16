@@ -273,6 +273,7 @@ this
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -342,6 +343,7 @@ connect
 (
 )
 {
+final
 Context
 appCtxt
 =
@@ -423,6 +425,7 @@ waitCount
 }
 catch
 (
+final
 InterruptedException
 e
 )
@@ -508,6 +511,7 @@ wait
 }
 catch
 (
+final
 InterruptedException
 e
 )
@@ -564,6 +568,7 @@ this
 }
 catch
 (
+final
 NoSuchElementException
 e
 )
@@ -703,6 +708,7 @@ null
 }
 try
 {
+final
 ICodec
 remote
 =
@@ -712,6 +718,7 @@ createCodec
 (
 )
 ;
+final
 CodecProxy
 proxy
 =
@@ -756,6 +763,7 @@ null
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -817,6 +825,7 @@ null
 }
 try
 {
+final
 IMediaDrmBridge
 remoteBridge
 =
@@ -841,6 +850,7 @@ remoteBridge
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -954,6 +964,7 @@ fatal
 {
 for
 (
+final
 CodecProxy
 proxy
 :
@@ -1000,6 +1011,7 @@ try
 {
 for
 (
+final
 CodecProxy
 proxy
 :
@@ -1027,6 +1039,7 @@ ok
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -1114,6 +1127,7 @@ releaseIfNeeded
 }
 catch
 (
+final
 RemoteException
 |
 NullPointerException
@@ -1190,6 +1204,7 @@ unlink
 (
 )
 ;
+final
 Context
 appCtxt
 =
@@ -1279,6 +1294,7 @@ releaseIfNeeded
 }
 catch
 (
+final
 RemoteException
 |
 NullPointerException

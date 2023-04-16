@@ -1556,6 +1556,7 @@ assertOnGeckoThread
 (
 )
 ;
+final
 StringBuilder
 sb
 =

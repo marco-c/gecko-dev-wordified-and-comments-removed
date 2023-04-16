@@ -1020,6 +1020,7 @@ historyIndex
 coords
 )
 ;
+final
 int
 historicalI
 =
@@ -1982,6 +1983,7 @@ initMouseAsTouch
 (
 )
 {
+final
 PrefsHelper
 .
 PrefHandler
@@ -2057,6 +2059,7 @@ value
 2
 )
 {
+final
 Context
 c
 =
@@ -2066,6 +2069,7 @@ getApplicationContext
 (
 )
 ;
+final
 UiModeManager
 m
 =
@@ -2607,6 +2611,7 @@ null
 return
 ;
 }
+final
 ArrayList
 <
 Pair
@@ -2625,6 +2630,7 @@ null
 ;
 for
 (
+final
 Pair
 <
 Integer
@@ -2759,6 +2765,7 @@ getCoords
 (
 )
 {
+final
 MotionEvent
 .
 PointerCoords
@@ -2899,6 +2906,7 @@ int
 source
 )
 {
+final
 PointerInfo
 info
 =
@@ -3065,6 +3073,7 @@ int
 source
 )
 {
+final
 MotionEvent
 .
 PointerProperties
@@ -3123,6 +3132,7 @@ source
 source
 )
 {
+final
 MotionEvent
 .
 PointerProperties
@@ -3211,6 +3221,7 @@ int
 source
 )
 {
+final
 MotionEvent
 .
 PointerCoords
@@ -3566,6 +3577,7 @@ mTempRect
 .
 top
 ;
+final
 PointerInfo
 info
 =

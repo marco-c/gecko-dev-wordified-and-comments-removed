@@ -330,6 +330,7 @@ getPath
 }
 catch
 (
+final
 Exception
 e
 )
@@ -370,10 +371,11 @@ isDirectory
 )
 )
 {
+final
 File
-children
 [
 ]
+children
 =
 file
 .
@@ -383,6 +385,7 @@ listFiles
 ;
 for
 (
+final
 File
 child
 :
@@ -413,6 +416,7 @@ Context
 context
 )
 {
+final
 File
 tmpDir
 =
@@ -428,6 +432,7 @@ Context
 MODE_PRIVATE
 )
 ;
+final
 File
 oldDir
 =
@@ -861,6 +866,7 @@ SDK_INT
 17
 )
 {
+final
 android
 .
 os
@@ -953,6 +959,7 @@ prefs
 )
 ;
 }
+final
 File
 f
 =
@@ -1293,6 +1300,7 @@ return
 false
 ;
 }
+final
 File
 outDirFile
 =
@@ -1354,6 +1362,7 @@ SDK_INT
 21
 )
 {
+final
 String
 [
 ]
@@ -1365,6 +1374,7 @@ SUPPORTED_ABIS
 ;
 for
 (
+final
 String
 abi
 :
@@ -1626,6 +1636,7 @@ read
 }
 catch
 (
+final
 Exception
 e
 )
@@ -1733,6 +1744,7 @@ close
 }
 catch
 (
+final
 Exception
 e
 )
@@ -1950,6 +1962,7 @@ dataDataExists
 }
 catch
 (
+final
 Throwable
 e
 )
@@ -2049,6 +2062,7 @@ dashTwoExists
 }
 catch
 (
+final
 Throwable
 e
 )
@@ -2157,6 +2171,7 @@ nativeLibLibExists
 }
 catch
 (
+final
 Throwable
 e
 )
@@ -2206,6 +2221,7 @@ true
 }
 catch
 (
+final
 Throwable
 e
 )
@@ -2264,6 +2280,7 @@ null
 }
 catch
 (
+final
 Throwable
 e
 )

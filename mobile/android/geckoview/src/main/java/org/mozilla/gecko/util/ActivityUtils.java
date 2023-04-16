@@ -79,6 +79,7 @@ boolean
 fullscreen
 )
 {
+final
 Window
 window
 =
@@ -271,6 +272,7 @@ Context
 context
 )
 {
+final
 Intent
 intent
 =

@@ -408,6 +408,7 @@ null
 ;
 try
 {
+final
 MediaCodecSelector
 mediaCodecSelector
 =
@@ -429,6 +430,7 @@ false
 }
 catch
 (
+final
 MediaCodecUtil
 .
 DecoderQueryException
@@ -484,6 +486,7 @@ null
 ;
 for
 (
+final
 MediaCodecInfo
 i
 :
@@ -562,6 +565,7 @@ maxH264DecodableFrameSize
 }
 catch
 (
+final
 MediaCodecUtil
 .
 DecoderQueryException
@@ -692,6 +696,7 @@ size
 0
 )
 ;
+final
 Format
 currentFormat
 =
@@ -736,6 +741,7 @@ inputSize
 }
 catch
 (
+final
 OutOfMemoryError
 e
 )
@@ -952,6 +958,7 @@ data
 )
 ;
 }
+final
 Format
 currentFormat
 =
@@ -990,6 +997,7 @@ i
 +
 )
 {
+final
 byte
 [
 ]
@@ -1152,6 +1160,7 @@ mInputStreamEnded
 =
 true
 ;
+final
 GeckoHLSSample
 sample
 =
@@ -1175,6 +1184,7 @@ DecoderInputBuffer
 bufferForRead
 )
 {
+final
 int
 csdInfoSize
 =
@@ -1189,6 +1199,7 @@ length
 :
 0
 ;
+final
 int
 dataSize
 =
@@ -1200,6 +1211,7 @@ limit
 (
 )
 ;
+final
 int
 size
 =
@@ -1215,6 +1227,7 @@ dataSize
 :
 dataSize
 ;
+final
 byte
 [
 ]
@@ -1272,6 +1285,7 @@ dataSize
 )
 ;
 }
+final
 ByteBuffer
 buffer
 =
@@ -1294,6 +1308,7 @@ clear
 (
 )
 ;
+final
 CryptoInfo
 cryptoInfo
 =
@@ -1313,6 +1328,7 @@ getFrameworkCryptoInfoV16
 :
 null
 ;
+final
 BufferInfo
 bufferInfo
 =
@@ -1379,6 +1395,7 @@ size
 0
 )
 ;
+final
 GeckoHLSSample
 sample
 =
@@ -1528,6 +1545,7 @@ Format
 newFormat
 )
 {
+final
 boolean
 canReconfig
 =
@@ -1718,6 +1736,7 @@ i
 +
 )
 {
+final
 byte
 [
 ]
@@ -1952,6 +1971,7 @@ inputSample
 )
 ;
 }
+final
 int
 sizeOfNoDura
 =
@@ -1961,6 +1981,7 @@ size
 (
 )
 ;
+final
 int
 range
 =
@@ -1973,6 +1994,7 @@ sizeOfNoDura
 :
 sizeOfNoDura
 ;
+final
 GeckoHLSSample
 [
 ]
@@ -2007,6 +2029,7 @@ inputArray
 range
 )
 ;
+final
 GeckoHLSSample
 toQueue
 =
@@ -2283,6 +2306,7 @@ MAX_VALUE
 ;
 for
 (
+final
 GeckoHLSSample
 sample
 :
@@ -2388,6 +2412,7 @@ format
 ;
 for
 (
+final
 Format
 streamFormat
 :
@@ -2508,9 +2533,11 @@ Format
 NO_VALUE
 ;
 }
+final
 int
 maxPixels
 ;
+final
 int
 minCompressionRatio
 ;

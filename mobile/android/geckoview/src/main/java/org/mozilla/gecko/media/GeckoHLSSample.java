@@ -70,6 +70,7 @@ EOS
 ;
 static
 {
+final
 BufferInfo
 eosInfo
 =
@@ -318,6 +319,7 @@ GeckoHLSSample
 "
 ;
 }
+final
 StringBuilder
 str
 =

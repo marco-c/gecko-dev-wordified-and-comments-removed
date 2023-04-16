@@ -621,6 +621,7 @@ view
 }
 catch
 (
+final
 RuntimeException
 e
 )

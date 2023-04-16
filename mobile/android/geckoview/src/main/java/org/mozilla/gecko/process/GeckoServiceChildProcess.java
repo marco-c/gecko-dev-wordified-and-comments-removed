@@ -610,6 +610,7 @@ crashHandler
 }
 catch
 (
+final
 ClassNotFoundException
 e
 )

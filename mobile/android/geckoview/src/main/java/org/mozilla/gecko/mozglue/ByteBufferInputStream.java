@@ -157,6 +157,7 @@ return
 1
 ;
 }
+final
 int
 remainingLength
 =
@@ -213,6 +214,7 @@ return
 0
 ;
 }
+final
 long
 remainingByteCount
 =

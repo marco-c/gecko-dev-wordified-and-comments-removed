@@ -1078,6 +1078,7 @@ return
 false
 ;
 }
+final
 int
 selStart
 =
@@ -1088,6 +1089,7 @@ getSelectionStart
 editable
 )
 ;
+final
 int
 selEnd
 =
@@ -1212,6 +1214,7 @@ id
 .
 paste
 :
+final
 String
 text
 =
@@ -1252,6 +1255,7 @@ id
 .
 copy
 :
+final
 String
 copiedText
 =
@@ -1419,6 +1423,7 @@ mUpdateRequest
 =
 req
 ;
+final
 Editable
 editable
 =
@@ -1438,6 +1443,7 @@ return
 null
 ;
 }
+final
 int
 selStart
 =
@@ -1448,6 +1454,7 @@ getSelectionStart
 editable
 )
 ;
+final
 int
 selEnd
 =
@@ -1458,6 +1465,7 @@ getSelectionEnd
 editable
 )
 ;
+final
 ExtractedText
 extract
 =
@@ -2437,6 +2445,7 @@ return
 sBackgroundHandler
 ;
 }
+final
 Thread
 backgroundThread
 =
@@ -2539,6 +2548,7 @@ wait
 }
 catch
 (
+final
 InterruptedException
 e
 )
@@ -2570,6 +2580,7 @@ false
 }
 for
 (
+final
 StackTraceElement
 frame
 :
@@ -2830,6 +2841,7 @@ return
 null
 ;
 }
+final
 Context
 context
 =
@@ -2841,6 +2853,7 @@ getContext
 (
 )
 ;
+final
 DisplayMetrics
 metrics
 =
@@ -2930,6 +2943,7 @@ imeOptions
 )
 ;
 }
+final
 String
 prevInputMethod
 =
@@ -3007,6 +3021,7 @@ return
 false
 ;
 }
+final
 int
 a
 =
@@ -3014,6 +3029,9 @@ getComposingSpanStart
 (
 content
 )
+;
+final
+int
 b
 =
 getComposingSpanEnd
@@ -3222,6 +3240,7 @@ KeyEvent
 event
 )
 {
+final
 KeyEvent
 translatedEvent
 =
@@ -3437,6 +3456,7 @@ SDK_INT
 19
 )
 {
+final
 Context
 viewContext
 =
@@ -3448,6 +3468,7 @@ getContext
 (
 )
 ;
+final
 AudioManager
 am
 =

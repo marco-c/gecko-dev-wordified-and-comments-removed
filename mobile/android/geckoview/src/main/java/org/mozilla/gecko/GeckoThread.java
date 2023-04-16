@@ -510,6 +510,7 @@ assertOnUiThread
 (
 )
 ;
+final
 long
 nextDelay
 =
@@ -1243,6 +1244,7 @@ setDefault
 mappedLocale
 )
 ;
+final
 Configuration
 config
 =
@@ -1781,6 +1783,7 @@ ArrayList
 )
 ;
 }
+final
 ArrayList
 <
 String
@@ -1958,6 +1961,7 @@ ThreadUtils
 .
 sGeckoHandler
 ;
+final
 Message
 idleMsg
 =
@@ -2549,6 +2553,7 @@ MOZ_DEBUG_CHILD_WAIT_FOR_JAVA_DEBUGGER
 )
 )
 {
+final
 String
 filter
 =
@@ -2704,6 +2709,7 @@ startupEnv
 )
 )
 {
+final
 String
 value
 =
@@ -2776,6 +2782,7 @@ intervalEnv
 )
 )
 {
+final
 String
 value
 =
@@ -2792,6 +2799,7 @@ length
 ;
 try
 {
+final
 int
 intValue
 =
@@ -2815,6 +2823,7 @@ interval
 }
 catch
 (
+final
 NumberFormatException
 err
 )
@@ -2832,6 +2841,7 @@ capacityEnv
 )
 )
 {
+final
 String
 value
 =
@@ -2848,6 +2858,7 @@ length
 ;
 try
 {
+final
 int
 intValue
 =
@@ -2871,6 +2882,7 @@ minCapacity
 }
 catch
 (
+final
 NumberFormatException
 err
 )
@@ -2931,6 +2943,7 @@ Context
 ACTIVITY_SERVICE
 )
 ;
+final
 List
 <
 ActivityManager
@@ -2959,6 +2972,7 @@ null
 }
 for
 (
+final
 ActivityManager
 .
 RunningAppProcessInfo

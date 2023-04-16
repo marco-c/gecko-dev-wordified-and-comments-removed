@@ -1525,6 +1525,7 @@ return
 null
 ;
 }
+final
 GeckoSession
 session
 =

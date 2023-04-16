@@ -1536,6 +1536,7 @@ return
 }
 try
 {
+final
 WifiManager
 mgr
 =
@@ -1573,6 +1574,7 @@ SuppressLint
 MissingPermission
 "
 )
+final
 DhcpInfo
 d
 =
@@ -1602,6 +1604,7 @@ gateway
 }
 catch
 (
+final
 Exception
 ex
 )
@@ -1754,6 +1757,7 @@ info
 return
 ;
 }
+final
 int
 ip
 =

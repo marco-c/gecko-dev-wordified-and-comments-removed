@@ -196,8 +196,10 @@ mMsg
 public
 EvalResult
 (
+final
 boolean
 result
+final
 String
 msg
 )
@@ -214,6 +216,7 @@ msg
 public
 EvalResult
 (
+final
 Bundle
 bundle
 )
@@ -325,6 +328,7 @@ public
 void
 handleMessage
 (
+final
 Message
 msg
 )
@@ -412,8 +416,10 @@ public
 void
 onServiceConnected
 (
+final
 ComponentName
 className
+final
 IBinder
 service
 )
@@ -432,6 +438,7 @@ public
 void
 onServiceDisconnected
 (
+final
 ComponentName
 className
 )
@@ -524,6 +531,7 @@ run
 (
 )
 {
+final
 Message
 msg
 =
@@ -559,6 +567,7 @@ msg
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -589,6 +598,7 @@ long
 timeoutMillis
 )
 {
+final
 Intent
 intent
 =
@@ -689,6 +699,7 @@ synchronized
 void
 setEvalResult
 (
+final
 EvalResult
 result
 )
@@ -770,6 +781,7 @@ public
 void
 handleMessage
 (
+final
 Message
 msg
 )
@@ -814,6 +826,7 @@ public
 void
 reportResult
 (
+final
 EvalResult
 result
 )
@@ -829,6 +842,7 @@ null
 return
 ;
 }
+final
 Message
 msg
 =
@@ -863,6 +877,7 @@ msg
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -1113,10 +1128,13 @@ synchronized
 int
 onStartCommand
 (
+final
 Intent
 intent
+final
 int
 flags
+final
 int
 startId
 )
@@ -1164,6 +1182,7 @@ synchronized
 IBinder
 onBind
 (
+final
 Intent
 intent
 )
@@ -1197,6 +1216,7 @@ synchronized
 boolean
 onUnbind
 (
+final
 Intent
 intent
 )

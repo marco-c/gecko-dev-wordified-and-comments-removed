@@ -464,6 +464,7 @@ cert
 }
 catch
 (
+final
 CertificateException
 e
 )
