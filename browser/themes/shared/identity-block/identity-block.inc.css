@@ -1257,9 +1257,7 @@ urlbar
 -
 box
 -
-bg
--
-overlay
+bgcolor
 )
 ;
 }
@@ -1396,9 +1394,7 @@ box
 -
 unfocused
 -
-bg
--
-overlay
+bgcolor
 )
 ;
 }
