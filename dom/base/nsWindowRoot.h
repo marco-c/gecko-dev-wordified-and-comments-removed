@@ -49,7 +49,7 @@ h
 #
 include
 "
-nsTHashSet
+nsTHashtable
 .
 h
 "
@@ -381,9 +381,9 @@ GetEnabledDisabledCommandsForControllers
 nsIControllers
 *
 aControllers
-nsTHashSet
+nsTHashtable
 <
-nsCString
+nsCStringHashKey
 >
 &
 aCommandsHandled
@@ -435,9 +435,9 @@ EventTarget
 mParent
 ;
 typedef
-nsTHashSet
+nsTHashtable
 <
-RefPtr
+nsRefPtrHashKey
 <
 nsIWeakReference
 >

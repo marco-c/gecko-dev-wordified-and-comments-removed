@@ -1686,10 +1686,12 @@ return
 NS_OK
 ;
 }
-nsTHashSet
+nsTHashtable
+<
+nsPtrHashKey
 <
 nsIFrame
-*
+>
 >
 frameSet
 (
@@ -1718,7 +1720,7 @@ GetNextSibling
 {
 frameSet
 .
-Insert
+PutEntry
 (
 f
 )

@@ -132,13 +132,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-nsTHashSet
-.
-h
-"
 class
 mozIStorageConnection
 ;
@@ -1256,9 +1249,9 @@ mDBReady
 nsresult
 mStatus
 ;
-nsTHashSet
+nsTHashtable
 <
-nsCString
+nsCStringHashKey
 >
 mOriginsHavingData
 ;

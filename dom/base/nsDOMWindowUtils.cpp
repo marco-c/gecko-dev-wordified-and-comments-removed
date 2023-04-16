@@ -7979,10 +7979,12 @@ return
 NS_ERROR_DOM_WRONG_DOCUMENT_ERR
 ;
 }
-nsTHashSet
+nsTHashtable
+<
+nsPtrHashKey
 <
 nsIContent
-*
+>
 >
 translationNodesHash
 (
@@ -8136,7 +8138,7 @@ HasTextForTranslation
 {
 translationNodesHash
 .
-Insert
+PutEntry
 (
 content
 )
@@ -17030,10 +17032,12 @@ uint32_t
 aResult
 )
 {
-nsTHashSet
+nsTHashtable
+<
+nsPtrHashKey
 <
 PaintedLayer
-*
+>
 >
 layers
 ;
@@ -17094,7 +17098,7 @@ NS_ERROR_FAILURE
 }
 layers
 .
-Insert
+PutEntry
 (
 layer
 )

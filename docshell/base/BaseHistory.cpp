@@ -313,7 +313,7 @@ aURI
 {
 mPendingQueries
 .
-Insert
+PutEntry
 (
 aURI
 )
@@ -416,7 +416,7 @@ aURI
 {
 mPendingQueries
 .
-Remove
+RemoveEntry
 (
 aURI
 )

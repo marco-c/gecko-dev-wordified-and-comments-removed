@@ -38971,11 +38971,9 @@ out
 )
 const
 {
-nsTHashSet
+nsTHashtable
 <
-const
-void
-*
+nsVoidPtrHashKey
 >
 seen
 ;
@@ -38995,11 +38993,9 @@ ListTextRuns
 FILE
 *
 out
-nsTHashSet
+nsTHashtable
 <
-const
-void
-*
+nsVoidPtrHashKey
 >
 &
 aSeen

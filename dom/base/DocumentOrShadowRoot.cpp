@@ -859,7 +859,7 @@ commonPrefix
 ;
 set
 .
-Insert
+PutEntry
 (
 mAdoptedStyleSheets
 [

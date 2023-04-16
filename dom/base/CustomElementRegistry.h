@@ -123,13 +123,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsTHashSet
-.
-h
-"
 namespace
 mozilla
 {
@@ -1381,9 +1374,9 @@ NameAtom
 )
 ;
 }
-nsTHashSet
+nsTHashtable
 <
-RefPtr
+nsRefPtrHashKey
 <
 nsIWeakReference
 >
@@ -1418,7 +1411,7 @@ aElement
 elements
 -
 >
-Insert
+PutEntry
 (
 elem
 )
@@ -1538,9 +1531,9 @@ nsRefPtrHashKey
 <
 nsAtom
 >
-nsTHashSet
+nsTHashtable
 <
-RefPtr
+nsRefPtrHashKey
 <
 nsIWeakReference
 >

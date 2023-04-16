@@ -22,13 +22,6 @@ ContentParent
 .
 h
 "
-#
-include
-"
-nsTHashSet
-.
-h
-"
 namespace
 mozilla
 {
@@ -166,7 +159,7 @@ aMallocSizeOf
 using
 PendingVisitedQueries
 =
-nsTHashSet
+nsTHashtable
 <
 nsURIHashKey
 >

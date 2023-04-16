@@ -1343,11 +1343,9 @@ ListTextRuns
 FILE
 *
 out
-nsTHashSet
+nsTHashtable
 <
-const
-void
-*
+nsVoidPtrHashKey
 >
 &
 aSeen

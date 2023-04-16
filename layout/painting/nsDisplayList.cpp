@@ -9160,7 +9160,7 @@ GetFrame
 {
 mFrameSet
 .
-Remove
+RemoveEntry
 (
 wrapper
 .
@@ -9966,7 +9966,7 @@ cost
 ;
 mAGRBudgetSet
 .
-Insert
+PutEntry
 (
 aFrame
 )

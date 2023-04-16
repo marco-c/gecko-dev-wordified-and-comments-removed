@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsTHashSet
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
@@ -176,9 +169,9 @@ ObserveAfterMinimizeMemoryUsage
 void
 CheckForGhostWindows
 (
-nsTHashSet
+nsTHashtable
 <
-uint64_t
+nsUint64HashKey
 >
 *
 aOutGhostIDs
