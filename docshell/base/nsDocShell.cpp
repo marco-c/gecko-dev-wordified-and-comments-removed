@@ -24827,7 +24827,7 @@ loadState
 >
 SetLoadType
 (
-LOAD_NORMAL_REPLACE
+LOAD_REFRESH_REPLACE
 )
 ;
 if
@@ -26631,6 +26631,9 @@ mLoadType
 {
 case
 LOAD_NORMAL_REPLACE
+:
+case
+LOAD_REFRESH_REPLACE
 :
 case
 LOAD_STOP_CONTENT_AND_REPLACE
@@ -48697,6 +48700,12 @@ mLoadType
 =
 =
 LOAD_NORMAL_REPLACE
+|
+|
+mLoadType
+=
+=
+LOAD_REFRESH_REPLACE
 )
 )
 {
