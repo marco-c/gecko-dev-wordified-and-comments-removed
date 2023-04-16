@@ -179,6 +179,12 @@ return
 eMenuItemObjectType
 ;
 }
+void
+IconUpdated
+(
+)
+override
+;
 nsresult
 SetChecked
 (

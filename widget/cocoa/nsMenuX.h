@@ -178,15 +178,7 @@ IconUpdated
 (
 )
 override
-{
-mParent
--
->
-IconUpdated
-(
-)
 ;
-}
 nsresult
 Create
 (
@@ -253,7 +245,7 @@ NativeMenuItem
 (
 )
 ;
-nsresult
+void
 SetupIcon
 (
 )
