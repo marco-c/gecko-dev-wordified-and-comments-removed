@@ -1941,6 +1941,11 @@ onLocalTabRemotenessChange
 targetFront
 )
 {
+if
+(
+targetFront
+)
+{
 targetFront
 .
 shouldCloseClient
@@ -1959,6 +1964,7 @@ destroyed
 "
 )
 ;
+}
 const
 newTarget
 =
