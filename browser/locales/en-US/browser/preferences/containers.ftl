@@ -88,6 +88,8 @@ containers
 window
 -
 update
+-
+settings
 =
 .
 title
@@ -96,7 +98,7 @@ title
 name
 }
 Container
-Preferences
+Settings
 .
 style
 =
