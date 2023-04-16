@@ -512,11 +512,13 @@ post
 -
 install
 -
-message2
+message3
 =
 Manage
 your
-extensions
+add
+-
+ons
 and
 themes
 through
