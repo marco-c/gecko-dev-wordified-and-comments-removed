@@ -293,6 +293,12 @@ visible
 "
 )
 ;
+treeContainer
+.
+getBoundingClientRect
+(
+)
+;
 let
 tree
 =
