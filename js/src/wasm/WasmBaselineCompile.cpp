@@ -68546,7 +68546,7 @@ uint32_t
 rttDepth
 ;
 ResultType
-type
+branchTargetType
 ;
 if
 (
@@ -68564,9 +68564,9 @@ rttTypeIndex
 &
 rttDepth
 &
-unused_values
+branchTargetType
 &
-type
+unused_values
 )
 )
 {
@@ -68669,7 +68669,7 @@ InvertBranch
 (
 false
 )
-type
+branchTargetType
 )
 ;
 if

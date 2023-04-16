@@ -6161,9 +6161,9 @@ unusedRttTypeIndex
 &
 unusedRttDepth
 &
-nothings
-&
 unusedType
+&
+nothings
 )
 )
 ;
