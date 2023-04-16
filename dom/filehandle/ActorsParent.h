@@ -84,7 +84,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -299,12 +299,10 @@ PBackgroundMutableFileParent
 friend
 PBackgroundMutableFileParent
 ;
-nsTHashtable
-<
-nsPtrHashKey
+nsTHashSet
 <
 FileHandle
->
+*
 >
 mFileHandles
 ;
