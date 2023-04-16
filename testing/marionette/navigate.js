@@ -139,7 +139,7 @@ marionette
 /
 content
 /
-capabilities
+session
 .
 js
 "
@@ -731,14 +731,9 @@ pageLoadStrategy
 =
 driver
 .
-capabilities
+currentSession
 .
-get
-(
-"
 pageLoadStrategy
-"
-)
 ;
 if
 (
@@ -1360,6 +1355,8 @@ e
 timeout
 :
 driver
+.
+currentSession
 .
 timeouts
 .
