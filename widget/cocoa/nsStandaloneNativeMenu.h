@@ -36,7 +36,7 @@ class
 nsStandaloneNativeMenu
 :
 public
-nsMenuGroupOwnerX
+nsMenuObjectX
 public
 nsIStandaloneNativeMenu
 public
@@ -51,7 +51,7 @@ nsStandaloneNativeMenu
 (
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_ISUPPORTS
 NS_DECL_NSISTANDALONENATIVEMENU
 nsMenuObjectTypeX
 MenuObjectType
@@ -103,6 +103,18 @@ virtual
 nsStandaloneNativeMenu
 (
 )
+;
+RefPtr
+<
+nsIContent
+>
+mContent
+;
+RefPtr
+<
+nsMenuGroupOwnerX
+>
+mMenuGroupOwner
 ;
 RefPtr
 <
