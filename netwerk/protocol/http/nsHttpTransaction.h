@@ -361,6 +361,15 @@ Now
 mPendingTime
 ;
 }
+if
+(
+mPendingTime
+.
+IsNull
+(
+)
+)
+{
 mPendingTime
 =
 now
@@ -376,6 +385,7 @@ TimeStamp
 (
 )
 ;
+}
 }
 const
 TimeStamp
