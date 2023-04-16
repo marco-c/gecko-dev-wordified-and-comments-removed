@@ -76,6 +76,9 @@ APZPinchZoom
 "
 ContentPaint
 "
+"
+MouseUpFollowedByClick
+"
 }
 ;
 const
