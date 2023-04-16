@@ -126,8 +126,7 @@ sMetricNames
 =
 {
 "
-DisplayList
-Building
+DisplayListBuilding
 "
 "
 Rasterizing
@@ -136,8 +135,7 @@ Rasterizing
 LayerBuilding
 "
 "
-Layer
-Transactions
+LayerTransactions
 "
 "
 Compositing
