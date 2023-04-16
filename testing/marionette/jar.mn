@@ -179,6 +179,16 @@ js
 )
 content
 /
+appinfo
+.
+js
+(
+appinfo
+.
+js
+)
+content
+/
 assert
 .
 js
