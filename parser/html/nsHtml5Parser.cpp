@@ -1993,6 +1993,10 @@ Terminate
 (
 )
 {
+mDocumentClosed
+=
+true
+;
 if
 (
 mExecutor
