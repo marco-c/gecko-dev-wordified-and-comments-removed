@@ -3411,6 +3411,13 @@ aLength
 )
 ;
 async
+RemoveFromBFCache
+(
+MaybeDiscardedBrowsingContext
+aContext
+)
+;
+async
 InitBackground
 (
 Endpoint
