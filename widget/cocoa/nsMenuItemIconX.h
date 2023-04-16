@@ -105,6 +105,14 @@ mIconImage
 }
 protected
 :
+bool
+StartIconLoad
+(
+nsIContent
+*
+aContent
+)
+;
 already_AddRefed
 <
 nsIURI
