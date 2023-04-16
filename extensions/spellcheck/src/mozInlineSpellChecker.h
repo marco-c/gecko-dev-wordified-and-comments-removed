@@ -228,6 +228,8 @@ nsRange
 >
 mNoCheckRange
 ;
+private
+:
 RefPtr
 <
 nsRange
@@ -246,8 +248,6 @@ mForceNavigationWordCheck
 int32_t
 mNewNavigationPositionOffset
 ;
-protected
-:
 nsresult
 FinishNavigationEvent
 (
