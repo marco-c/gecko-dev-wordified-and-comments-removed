@@ -1413,6 +1413,17 @@ ForceFullScreenInWidget
 )
 final
 ;
+void
+MacFullscreenMenubarOverlapChanged
+(
+mozilla
+:
+:
+DesktopCoord
+aOverlapAmount
+)
+final
+;
 bool
 SetWidgetFullscreen
 (
