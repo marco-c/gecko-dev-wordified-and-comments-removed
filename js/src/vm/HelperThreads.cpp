@@ -2879,15 +2879,6 @@ setHelperThread
 lock
 )
 ;
-cx
--
->
-nativeStackBase
-=
-GetNativeStackBase
-(
-)
-;
 JS_SetNativeStackQuota
 (
 cx

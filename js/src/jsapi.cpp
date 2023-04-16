@@ -7940,6 +7940,8 @@ cx
 -
 >
 nativeStackBase
+(
+)
 <
 =
 size_t
@@ -7963,6 +7965,8 @@ cx
 -
 >
 nativeStackBase
+(
+)
 +
 stackSize
 -
@@ -7998,6 +8002,8 @@ cx
 -
 >
 nativeStackBase
+(
+)
 >
 =
 stackSize
@@ -8015,6 +8021,8 @@ cx
 -
 >
 nativeStackBase
+(
+)
 -
 (
 stackSize
