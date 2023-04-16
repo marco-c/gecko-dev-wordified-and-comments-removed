@@ -4593,6 +4593,12 @@ radius
 aRadius
 *
 aDpiRatio
+-
+borderWidth
+*
+0
+.
+5f
 )
 ;
 {
