@@ -907,6 +907,7 @@ derive
 Copy
 Clone
 Debug
+PartialEq
 Serialize
 Deserialize
 )
