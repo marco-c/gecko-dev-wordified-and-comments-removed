@@ -244,6 +244,8 @@ browser
 .
 proton
 .
+modals
+.
 enabled
 "
 )
@@ -338,6 +340,8 @@ pref
 browser
 .
 proton
+.
+modals
 .
 enabled
 "
@@ -600,12 +604,6 @@ subdialog
 ]
 .
 dialogRow
-dialog
-[
-subdialog
-]
-#
-infoTitle
 {
 margin
 -
