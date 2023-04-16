@@ -101,17 +101,6 @@ nsIContent
 aContent
 )
 ;
-int
-CalculateNativeInsertionPoint
-(
-nsMenuObjectX
-*
-aParent
-nsMenuX
-*
-aChild
-)
-;
 NSMenuItem
 *
 NativeMenuItemWithLocation
