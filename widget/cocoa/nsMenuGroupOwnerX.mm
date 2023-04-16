@@ -558,12 +558,7 @@ aChild
 OwnerDoc
 (
 )
-aChild
--
->
-GetParent
-(
-)
+container
 aChild
 aPreviousSibling
 )
