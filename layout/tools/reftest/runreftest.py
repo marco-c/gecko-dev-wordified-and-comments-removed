@@ -3074,6 +3074,27 @@ ccov
 False
 )
         
+prefs
+[
+"
+sandbox
+.
+apple_silicon
+"
+]
+=
+mozinfo
+.
+info
+.
+get
+(
+"
+apple_silicon
+"
+False
+)
+        
 if
 tests
 :
