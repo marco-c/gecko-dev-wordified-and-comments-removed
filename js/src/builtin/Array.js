@@ -2556,6 +2556,11 @@ return
 result
 ;
 }
+_SetIsInlinableLargeFunction
+(
+ArrayIteratorNext
+)
+;
 function
 ArrayValues
 (
