@@ -95,7 +95,7 @@ aStr
 )
 ;
 static
-bool
+void
 MaybeFlushMemory
 (
 )
