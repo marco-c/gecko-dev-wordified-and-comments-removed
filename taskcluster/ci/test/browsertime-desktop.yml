@@ -434,9 +434,6 @@ default
 :
 [
 ]
-pageload
-:
-cold
 fission
 -
 tier
@@ -1173,9 +1170,6 @@ variants
 :
 [
 ]
-pageload
-:
-cold
 treeherder
 -
 symbol
@@ -1292,11 +1286,6 @@ apps
 firefox
 '
 ]
-pageload
-:
-'
-both
-'
 treeherder
 -
 symbol
@@ -1320,6 +1309,10 @@ extra
 -
 options
 :
+-
+-
+-
+chimera
 -
 -
 -
