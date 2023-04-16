@@ -90192,6 +90192,15 @@ insn
 )
 ;
 #
+elif
+defined
+(
+JS_CODEGEN_MIPS64
+)
+return
+true
+;
+#
 else
 MOZ_CRASH
 (
