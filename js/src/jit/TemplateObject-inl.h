@@ -391,12 +391,6 @@ shape
 >
 slotSpan
 (
-obj_
--
->
-getClass
-(
-)
 )
 ;
 }

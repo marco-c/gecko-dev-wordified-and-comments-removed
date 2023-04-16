@@ -2925,9 +2925,6 @@ lastProperty
 >
 slotSpan
 (
-getClass
-(
-)
 )
 ;
 return
@@ -2962,8 +2959,6 @@ dictionaryModeSlotSpan
 )
 ;
 }
-else
-{
 MOZ_ASSERT
 (
 getSlotsHeader
@@ -2987,12 +2982,8 @@ lastProperty
 >
 slotSpan
 (
-getClass
-(
-)
 )
 ;
-}
 }
 uint32_t
 dictionaryModeSlotSpan
