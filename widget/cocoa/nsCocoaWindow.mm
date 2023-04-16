@@ -14888,6 +14888,14 @@ revealAmount
 ]
 )
 {
+[
+[
+self
+mainChildView
+]
+ensureNextCompositeIsAtomicWithMainThreadPaint
+]
+;
 NSNumber
 *
 revealAmount
