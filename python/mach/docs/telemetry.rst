@@ -155,10 +155,7 @@ steps
 .
 Parameterize
 your
-class
-'
-s
-CommandProvider
+Command
 annotation
 with
 metrics_path
@@ -209,11 +206,6 @@ yaml
 )
 )
 CommandProvider
-(
-metrics_path
-=
-METRICS_PATH
-)
 class
 CustomCommand
 (
@@ -227,6 +219,9 @@ custom
 -
 command
 '
+metrics_path
+=
+METRICS_PATH
 )
 def
 custom_command
