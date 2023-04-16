@@ -8365,11 +8365,11 @@ ChangedDPI
 )
 ;
 }
-}
 SetThemeRegion
 (
 )
 ;
+}
 ResizeDirectManipulationViewport
 (
 )
