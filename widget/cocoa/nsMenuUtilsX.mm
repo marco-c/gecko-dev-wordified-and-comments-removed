@@ -1463,10 +1463,15 @@ numberOfItems
 if
 (
 targetIndex
-<
+>
+=
 itemCount
 )
 {
+return
+nil
+;
+}
 NSMenuItem
 *
 menuItem
@@ -1511,7 +1516,6 @@ else
 return
 nil
 ;
-}
 }
 }
 return
