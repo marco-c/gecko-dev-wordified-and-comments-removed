@@ -584,8 +584,6 @@ aUsageBytes
 void
 EnsureQuotaForOrigin
 (
-PersistenceType
-aPersistenceType
 const
 OriginMetadata
 &
