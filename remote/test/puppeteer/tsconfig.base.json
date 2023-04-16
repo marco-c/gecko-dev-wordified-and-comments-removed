@@ -55,5 +55,10 @@ resolveJsonModule
 "
 :
 true
+"
+sourceMap
+"
+:
+true
 }
 }

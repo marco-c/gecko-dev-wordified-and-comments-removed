@@ -550,17 +550,6 @@ toEqual
 url
 :
 '
-data
-:
-text
-/
-javascript
-console
-.
-log
-(
-1
-)
 '
 lineNumber
 :

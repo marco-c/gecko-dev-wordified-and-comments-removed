@@ -108,7 +108,7 @@ js
 ;
 export
 interface
-BrowserOptions
+BrowserConnectOptions
 {
 ignoreHTTPSErrors
 ?
@@ -183,7 +183,7 @@ async
 (
 options
 :
-BrowserOptions
+BrowserConnectOptions
 &
 {
 browserWSEndpoint

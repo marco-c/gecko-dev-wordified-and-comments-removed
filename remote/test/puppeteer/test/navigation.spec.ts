@@ -5147,6 +5147,9 @@ frameattached
 await
 new
 Promise
+<
+void
+>
 (
 (
 fulfill

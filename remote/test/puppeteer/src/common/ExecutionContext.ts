@@ -163,6 +163,10 @@ _contextId
 :
 number
 ;
+_contextName
+:
+string
+;
 constructor
 (
 client
@@ -199,6 +203,14 @@ _contextId
 contextPayload
 .
 id
+;
+this
+.
+_contextName
+=
+contextPayload
+.
+name
 ;
 }
 frame

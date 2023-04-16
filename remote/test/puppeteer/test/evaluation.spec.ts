@@ -2193,6 +2193,9 @@ await
 windowHandle
 .
 jsonValue
+<
+string
+>
 (
 )
 .

@@ -660,6 +660,11 @@ T
 )
 =
 >
+Promise
+<
+boolean
+>
+|
 boolean
 timeout
 :
@@ -716,6 +721,7 @@ addEventListener
 (
 emitter
 eventName
+async
 (
 event
 )
@@ -725,9 +731,12 @@ event
 if
 (
 !
+(
+await
 predicate
 (
 event
+)
 )
 )
 return

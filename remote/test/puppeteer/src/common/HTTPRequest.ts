@@ -132,6 +132,19 @@ Buffer
 ;
 }
 export
+type
+ResourceType
+=
+Lowercase
+<
+Protocol
+.
+Network
+.
+ResourceType
+>
+;
+export
 class
 HTTPRequest
 {
@@ -193,7 +206,7 @@ string
 private
 _resourceType
 :
-string
+ResourceType
 ;
 private
 _method
@@ -323,6 +336,8 @@ type
 toLowerCase
 (
 )
+as
+ResourceType
 ;
 this
 .
@@ -409,7 +424,7 @@ resourceType
 (
 )
 :
-string
+ResourceType
 {
 return
 this
