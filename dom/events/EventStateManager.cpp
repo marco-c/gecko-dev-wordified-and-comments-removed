@@ -5240,6 +5240,11 @@ shouldActivate
 false
 ;
 }
+int32_t
+j
+=
+0
+;
 while
 (
 shouldActivate
@@ -5247,9 +5252,8 @@ shouldActivate
 &
 +
 +
-count
+j
 <
-=
 length
 )
 {
@@ -5263,6 +5267,8 @@ mAccessKeys
 start
 +
 count
++
+j
 )
 %
 length
@@ -5283,9 +5289,8 @@ false
 ;
 }
 }
-bool
-focusChanged
-=
+if
+(
 element
 -
 >
@@ -5294,12 +5299,10 @@ PerformAccesskey
 shouldActivate
 aIsTrustedEvent
 )
-;
+)
+{
 if
 (
-focusChanged
-&
-&
 aIsTrustedEvent
 )
 {
@@ -5353,6 +5356,7 @@ System
 return
 true
 ;
+}
 }
 }
 }

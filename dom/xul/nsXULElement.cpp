@@ -3026,6 +3026,9 @@ window
 GetFocusedElement
 (
 )
+=
+=
+elementToFocus
 )
 ;
 }

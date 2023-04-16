@@ -12613,6 +12613,9 @@ window
 GetFocusedElement
 (
 )
+=
+=
+this
 ;
 }
 if
