@@ -635,9 +635,6 @@ in
 &
 [
 "
-brush_conic_gradient
-"
-"
 brush_linear_gradient
 "
 ]
