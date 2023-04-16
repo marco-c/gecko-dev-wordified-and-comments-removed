@@ -379,14 +379,6 @@ true
 "
 quicksuggest
 .
-enabled
-"
-false
-]
-[
-"
-quicksuggest
-.
 suggestedIndex
 "
 -
