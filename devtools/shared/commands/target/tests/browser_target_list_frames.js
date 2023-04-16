@@ -1177,8 +1177,10 @@ targets
 .
 targetFront
 .
-url
-SECOND_PAGE_URL
+outerWindowID
+browser
+.
+outerWindowID
 "
 The
 new
