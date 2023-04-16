@@ -338,17 +338,10 @@ Test
 #
 2
 "
-async
 run
 (
 )
 {
-await
-waitForWindowReadyForPopupNotifications
-(
-window
-)
-;
 this
 .
 notifyObj

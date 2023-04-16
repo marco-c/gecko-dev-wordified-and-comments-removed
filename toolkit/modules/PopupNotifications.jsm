@@ -1057,6 +1057,12 @@ press
 notification
 )
 ;
+aEvent
+.
+preventDefault
+(
+)
+;
 }
 }
 ;
