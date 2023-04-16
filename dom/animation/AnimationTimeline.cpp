@@ -240,7 +240,7 @@ remove
 }
 mAnimations
 .
-RemoveEntry
+Remove
 (
 aAnimation
 )

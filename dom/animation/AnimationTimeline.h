@@ -69,7 +69,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -301,7 +301,7 @@ nsIGlobalObject
 mWindow
 ;
 typedef
-nsTHashtable
+nsTHashSet
 <
 nsRefPtrHashKey
 <
