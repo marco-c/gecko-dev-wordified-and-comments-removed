@@ -39,6 +39,12 @@ IsShuttingDown
 )
 ;
 static
+ShutdownPhase
+GetCurrentShutdownPhase
+(
+)
+;
+static
 int
 GetExitCode
 (

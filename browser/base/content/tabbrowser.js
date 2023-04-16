@@ -13910,7 +13910,7 @@ Services
 .
 tm
 .
-spinEventLoopUntilOrShutdown
+spinEventLoopUntilOrQuit
 (
 "
 tabbrowser

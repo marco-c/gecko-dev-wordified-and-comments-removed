@@ -195,7 +195,7 @@ condition
 )
 ;
 void
-spinEventLoopUntilOrShutdown
+spinEventLoopUntilOrQuit
 (
 in
 ACString

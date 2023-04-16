@@ -1600,13 +1600,6 @@ Initialize
 )
 ;
 }
-nsThreadManager
-:
-:
-InitializeShutdownObserver
-(
-)
-;
 mozilla
 :
 :

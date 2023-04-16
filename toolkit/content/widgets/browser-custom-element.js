@@ -6885,7 +6885,7 @@ Services
 .
 tm
 .
-spinEventLoopUntilOrShutdown
+spinEventLoopUntilOrQuit
 (
 "
 browser

@@ -33,7 +33,7 @@ ShutdownPhase_Length
 sShutdownObservers
 ;
 ShutdownPhase
-sCurrentShutdownPhase
+sCurrentClearOnShutdownPhase
 =
 ShutdownPhase
 :
@@ -165,7 +165,7 @@ aPhase
 )
 )
 ;
-sCurrentShutdownPhase
+sCurrentClearOnShutdownPhase
 =
 aPhase
 ;

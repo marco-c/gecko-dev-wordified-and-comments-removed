@@ -251,7 +251,7 @@ sShutdownObservers
 ;
 extern
 ShutdownPhase
-sCurrentShutdownPhase
+sCurrentClearOnShutdownPhase
 ;
 }
 template
@@ -396,7 +396,7 @@ size_t
 ClearOnShutdown_Internal
 :
 :
-sCurrentShutdownPhase
+sCurrentClearOnShutdownPhase
 )
 >
 =
