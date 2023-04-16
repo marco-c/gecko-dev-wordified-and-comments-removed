@@ -1557,9 +1557,9 @@ if
 (
 targetList
 .
-targetFront
+descriptorFront
 .
-isBrowserConsoleTarget
+createdForBrowserConsole
 )
 {
 return
