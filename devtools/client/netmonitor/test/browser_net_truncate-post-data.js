@@ -190,7 +190,7 @@ title
 )
 ;
 const
-waitAccordionItems
+waitHeader
 =
 waitForDOM
 (
@@ -201,11 +201,10 @@ request
 -
 panel
 .
-accordion
+data
 -
-item
+header
 "
-1
 )
 ;
 const
@@ -255,7 +254,7 @@ Promise
 all
 (
 [
-waitAccordionItems
+waitHeader
 waitSourceEditor
 ]
 )
@@ -353,13 +352,7 @@ querySelector
 (
 "
 .
-accordion
--
-item
-.
-accordion
--
-header
+data
 -
 label
 "
