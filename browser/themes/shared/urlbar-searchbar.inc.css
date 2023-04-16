@@ -2962,7 +2962,9 @@ urlbar
 -
 box
 -
-bgcolor
+bg
+-
+overlay
 )
 ;
 margin
