@@ -1196,6 +1196,7 @@ AboutWelcomeDefaults
 .
 getDefaults
 (
+featureConfig
 )
 ;
 let
