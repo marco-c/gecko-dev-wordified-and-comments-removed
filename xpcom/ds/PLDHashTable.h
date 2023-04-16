@@ -1679,11 +1679,16 @@ aOther
 )
 noexcept
 ;
+#
+ifdef
+MOZ_HASH_TABLE_CHECKS_ENABLED
 ~
 EntryHandle
 (
 )
 ;
+#
+endif
 EntryHandle
 (
 const
