@@ -414,6 +414,12 @@ IsIMMActive
 )
 ;
 static
+bool
+IsOnScreenKeyboardSupported
+(
+)
+;
+static
 void
 MaybeShowOnScreenKeyboard
 (
