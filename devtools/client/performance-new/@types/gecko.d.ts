@@ -746,7 +746,7 @@ BrowsingContext
 interface
 BrowsingContext
 {
-id
+browserId
 :
 number
 ;

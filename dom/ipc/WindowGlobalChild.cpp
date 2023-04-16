@@ -465,7 +465,7 @@ BrowsingContext
 )
 -
 >
-Id
+BrowserId
 (
 )
 InnerWindowId
@@ -3345,7 +3345,7 @@ BrowsingContext
 )
 -
 >
-Id
+BrowserId
 (
 )
 InnerWindowId

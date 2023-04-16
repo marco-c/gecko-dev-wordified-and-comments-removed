@@ -111,7 +111,7 @@ selectedBrowser
 .
 browsingContext
 .
-id
+browserId
 ;
 front
 .
@@ -197,8 +197,7 @@ activeTabID
 Should
 apply
 active
-browsing
-context
+browser
 ID
 by
 startProfiler

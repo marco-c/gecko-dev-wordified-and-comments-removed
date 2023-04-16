@@ -783,7 +783,7 @@ string
 ;
 export
 type
-GetActiveBrowsingContextID
+GetActiveBrowserID
 =
 (
 )

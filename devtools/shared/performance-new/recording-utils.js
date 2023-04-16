@@ -68,7 +68,7 @@ jsm
 )
 ;
 function
-getActiveBrowsingContextID
+getActiveBrowserID
 (
 )
 {
@@ -111,7 +111,7 @@ selectedBrowser
 browsingContext
 ?
 .
-id
+browserId
 )
 {
 return
@@ -123,7 +123,7 @@ selectedBrowser
 .
 browsingContext
 .
-id
+browserId
 ;
 }
 console
@@ -136,8 +136,7 @@ to
 get
 the
 active
-BrowsingContext
-ID
+browserId
 while
 starting
 the
@@ -155,6 +154,6 @@ module
 exports
 =
 {
-getActiveBrowsingContextID
+getActiveBrowserID
 }
 ;
