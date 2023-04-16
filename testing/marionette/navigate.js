@@ -1091,6 +1091,7 @@ onBrowsingContextDiscarded
 (
 subject
 topic
+why
 )
 =
 >
@@ -1105,10 +1106,12 @@ browsingContextFn
 )
 &
 &
+why
 !
-subject
-.
-currentWindowGlobal
+=
+"
+replace
+"
 )
 {
 logger
