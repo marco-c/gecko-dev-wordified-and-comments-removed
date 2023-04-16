@@ -290,7 +290,16 @@ nscolor
 mColorOddTreeRow
 ;
 nscolor
-mColorActiveSourceListSelection
+mColorMenuFontSmoothingBg
+;
+nscolor
+mColorSourceListFontSmoothingBg
+;
+nscolor
+mColorSourceListSelectionFontSmoothingBg
+;
+nscolor
+mColorActiveSourceListSelectionFontSmoothingBg
 ;
 bool
 mInitialized
