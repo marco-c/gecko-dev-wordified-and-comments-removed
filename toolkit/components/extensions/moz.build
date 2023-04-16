@@ -192,11 +192,6 @@ WebNavigation
 jsm
 "
 "
-WebNavigationContent
-.
-js
-"
-"
 WebNavigationFrames
 .
 jsm
@@ -292,6 +287,11 @@ XPIDL_SOURCES
 +
 =
 [
+"
+extIWebNavigation
+.
+idl
+"
 "
 mozIExtensionProcessScript
 .
