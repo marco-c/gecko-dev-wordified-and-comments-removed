@@ -3986,6 +3986,12 @@ hasAttribute
 tabDialogShowing
 "
 )
+|
+|
+gDialogBox
+?
+.
+isOpen
 )
 ;
 }
@@ -41068,6 +41074,10 @@ _dialog
 =
 null
 ;
+UpdatePopupNotificationsVisibility
+(
+)
+;
 }
 if
 (
@@ -41462,6 +41472,10 @@ _closedCallback
 }
 }
 args
+)
+;
+UpdatePopupNotificationsVisibility
+(
 )
 ;
 return
