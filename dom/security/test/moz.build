@@ -90,6 +90,15 @@ mochitest
 ini
 "
 "
+sec
+-
+fetch
+/
+mochitest
+.
+ini
+"
+"
 sri
 /
 mochitest

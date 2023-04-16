@@ -40,9 +40,11 @@ security
 /
 test
 /
-general
+sec
+-
+fetch
 /
-file_sec_fetch_redirect
+file_redirect
 .
 sjs
 ?
@@ -88,9 +90,11 @@ security
 /
 test
 /
-general
+sec
+-
+fetch
 /
-file_sec_fetch_redirect
+file_redirect
 .
 sjs
 ?
