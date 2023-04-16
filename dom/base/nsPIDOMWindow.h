@@ -1206,6 +1206,8 @@ virtual
 nsresult
 FireDelayedDOMEvents
 (
+bool
+aIncludeSubWindows
 )
 =
 0
@@ -2485,6 +2487,8 @@ virtual
 nsresult
 FireDelayedDOMEvents
 (
+bool
+aIncludeSubWindows
 )
 =
 0
