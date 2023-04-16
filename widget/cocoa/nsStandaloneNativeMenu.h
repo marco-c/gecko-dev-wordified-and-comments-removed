@@ -36,8 +36,6 @@ class
 nsStandaloneNativeMenu
 :
 public
-nsMenuObjectX
-public
 nsIStandaloneNativeMenu
 public
 nsMenuItemIconX
@@ -53,16 +51,6 @@ nsStandaloneNativeMenu
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISTANDALONENATIVEMENU
-nsMenuObjectTypeX
-MenuObjectType
-(
-)
-override
-{
-return
-eStandaloneNativeMenuObjectType
-;
-}
 void
 IconUpdated
 (
