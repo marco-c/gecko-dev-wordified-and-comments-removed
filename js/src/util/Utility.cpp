@@ -413,8 +413,17 @@ limitStr
 #
 endif
 #
-ifdef
+if
+defined
+(
+JS_GC_ALLOW_EXTRA_POISONING
+)
+#
+if
+defined
+(
 DEBUG
+)
 bool
 js
 :
@@ -433,6 +442,8 @@ gExtraPoisoningEnabled
 =
 false
 ;
+#
+endif
 #
 endif
 JS_PUBLIC_DATA
