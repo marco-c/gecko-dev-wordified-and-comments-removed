@@ -520,6 +520,10 @@ gpu_supports_render_target_partial_update
 :
 bool
 pub
+external_images_require_copy
+:
+bool
+pub
 batch_lookback_count
 :
 usize

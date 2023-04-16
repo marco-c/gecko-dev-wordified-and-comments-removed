@@ -3324,6 +3324,10 @@ unwrap
 get_target_rect
 (
 )
+.
+to_f32
+(
+)
 ;
 instances
 .
