@@ -344,7 +344,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -5480,12 +5480,10 @@ mFrame
 ;
 }
 ;
-nsTHashtable
-<
-nsPtrHashKey
+nsTHashSet
 <
 void
->
+*
 >
 mFrameSet
 ;
@@ -5533,7 +5531,7 @@ return
 }
 mFrameSet
 .
-PutEntry
+Insert
 (
 aFrame
 )
@@ -6102,12 +6100,10 @@ mBuildingExtraPagesForPageNum
 uint32_t
 mUsedAGRBudget
 ;
-nsTHashtable
-<
-nsPtrHashKey
+nsTHashSet
 <
 nsIFrame
->
+*
 >
 mAGRBudgetSet
 ;

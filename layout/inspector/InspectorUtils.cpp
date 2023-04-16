@@ -491,12 +491,10 @@ AppendAllNonDocumentAuthorSheets
 nonDocumentSheets
 )
 ;
-nsTHashtable
-<
-nsPtrHashKey
+nsTHashSet
 <
 StyleSheet
->
+*
 >
 sheetSet
 ;
