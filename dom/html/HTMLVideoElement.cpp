@@ -944,6 +944,10 @@ MapImageSizeAttributesInto
 (
 aAttributes
 aDecls
+MapAspectRatio
+:
+:
+Yes
 )
 ;
 nsGenericHTMLElement

@@ -23692,6 +23692,10 @@ MapImageSizeAttributesInto
 (
 aAttributes
 aDecls
+MapAspectRatio
+:
+:
+Yes
 )
 ;
 nsGenericHTMLFormElementWithState
