@@ -11,13 +11,13 @@ chrome
 :
 /
 /
-devtools
+global
 /
 skin
 /
-images
+icons
 /
-alert
+warning
 .
 svg
 "
