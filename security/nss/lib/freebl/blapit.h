@@ -704,9 +704,6 @@ struct
 SEEDContextStr
 ;
 struct
-ChaCha20ContextStr
-;
-struct
 ChaCha20Poly1305ContextStr
 ;
 struct
@@ -786,11 +783,6 @@ typedef
 struct
 SEEDContextStr
 SEEDContext
-;
-typedef
-struct
-ChaCha20ContextStr
-ChaCha20Context
 ;
 typedef
 struct
