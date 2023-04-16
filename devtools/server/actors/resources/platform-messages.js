@@ -123,6 +123,17 @@ return
 false
 ;
 }
+if
+(
+message
+.
+isForwardedFromContentProcess
+)
+{
+return
+false
+;
+}
 return
 true
 ;
