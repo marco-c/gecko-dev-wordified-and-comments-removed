@@ -210,7 +210,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -797,9 +797,9 @@ ParticularProcessPriorityManager
 >
 mParticularManagers
 ;
-nsTHashtable
+nsTHashSet
 <
-nsUint64HashKey
+uint64_t
 >
 mHighPriorityChildIDs
 ;
@@ -1125,9 +1125,9 @@ nsITimer
 >
 mResetPriorityTimer
 ;
-nsTHashtable
+nsTHashSet
 <
-nsUint64HashKey
+uint64_t
 >
 mActiveBrowserParents
 ;
@@ -1856,7 +1856,7 @@ ShutDown
 ;
 mHighPriorityChildIDs
 .
-RemoveEntry
+Remove
 (
 childID
 )
@@ -1907,7 +1907,7 @@ PROCESS_PRIORITY_FOREGROUND_HIGH
 {
 mHighPriorityChildIDs
 .
-PutEntry
+Insert
 (
 aParticularManager
 -
@@ -1934,7 +1934,7 @@ PROCESS_PRIORITY_FOREGROUND_HIGH
 {
 mHighPriorityChildIDs
 .
-RemoveEntry
+Remove
 (
 aParticularManager
 -
@@ -2886,7 +2886,7 @@ return
 }
 mActiveBrowserParents
 .
-RemoveEntry
+Remove
 (
 browserHost
 -
@@ -3442,7 +3442,7 @@ aIsActive
 {
 mActiveBrowserParents
 .
-RemoveEntry
+Remove
 (
 aBrowserParent
 -
@@ -3457,7 +3457,7 @@ else
 {
 mActiveBrowserParents
 .
-PutEntry
+Insert
 (
 aBrowserParent
 -
