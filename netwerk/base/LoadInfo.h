@@ -1266,6 +1266,16 @@ mIsFromProcessingFrameAttributes
 =
 false
 ;
+bool
+mIsMediaRequest
+=
+false
+;
+bool
+mIsMediaInitialRequest
+=
+false
+;
 nsILoadInfo
 :
 :

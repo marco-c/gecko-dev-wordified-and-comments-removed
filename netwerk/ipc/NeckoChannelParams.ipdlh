@@ -453,6 +453,12 @@ parserCreatedScript
 bool
 isFromProcessingFrameAttributes
 ;
+bool
+isMediaRequest
+;
+bool
+isMediaInitialRequest
+;
 CookieJarSettingsArgs
 cookieJarSettings
 ;
