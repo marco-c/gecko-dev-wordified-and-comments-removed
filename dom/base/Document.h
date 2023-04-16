@@ -9581,6 +9581,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 QueryCommandEnabled
 (
@@ -9599,6 +9600,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 QueryCommandIndeterm
 (
@@ -9614,6 +9616,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 QueryCommandState
 (
@@ -9629,6 +9632,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 QueryCommandSupported
 (
@@ -12288,6 +12292,13 @@ mEditorCommand
 ;
 }
 MOZ_CAN_RUN_SCRIPT
+bool
+IsCommandEnabled
+(
+)
+const
+;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DoCommand
 (
@@ -12313,6 +12324,16 @@ aParam
 nsIPrincipal
 *
 aPrincipal
+)
+const
+;
+MOZ_CAN_RUN_SCRIPT
+nsresult
+GetCommandStateParams
+(
+nsCommandParams
+&
+aParams
 )
 const
 ;
