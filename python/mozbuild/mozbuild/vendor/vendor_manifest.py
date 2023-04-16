@@ -1058,6 +1058,8 @@ directory
 for
 pattern
 in
+(
+            
 self
 .
 manifest
@@ -1066,13 +1068,19 @@ manifest
 vendoring
 "
 ]
-[
+.
+get
+(
 "
 exclude
 "
+[
 ]
+)
 +
 DEFAULT_EXCLUDE_FILES
+        
+)
 :
             
 if
