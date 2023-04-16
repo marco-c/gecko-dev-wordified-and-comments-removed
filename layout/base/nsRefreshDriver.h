@@ -146,19 +146,12 @@ LayersTypes
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
-mozilla
-/
-ProfileChunkedBuffer
+GeckoProfiler
 .
 h
 "
-#
-endif
 class
 nsPresContext
 ;
@@ -1389,9 +1382,6 @@ uint64_t
 >
 mInnerWindowId
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 mozilla
 :
 :
@@ -1404,8 +1394,6 @@ ProfileChunkedBuffer
 >
 mCause
 ;
-#
-endif
 mozilla
 :
 :
@@ -1671,9 +1659,6 @@ RefreshDriverTimer
 >
 mOwnTimer
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 mozilla
 :
 :
@@ -1686,8 +1671,6 @@ ProfileChunkedBuffer
 >
 mRefreshTimerStartedCause
 ;
-#
-endif
 mozilla
 :
 :
@@ -1729,9 +1712,6 @@ mozilla
 TimeDuration
 mMinRecomputeVisibilityInterval
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 mozilla
 :
 :
@@ -1744,8 +1724,6 @@ ProfileChunkedBuffer
 >
 mViewManagerFlushCause
 ;
-#
-endif
 bool
 mThrottled
 :

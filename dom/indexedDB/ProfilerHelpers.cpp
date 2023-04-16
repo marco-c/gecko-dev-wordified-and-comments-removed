@@ -218,9 +218,6 @@ logLevel
 )
 |
 |
-#
-ifdef
-MOZ_GECKO_PROFILER
 (
 aUseProfiler
 &
@@ -229,11 +226,6 @@ profiler_thread_is_being_profiled
 (
 )
 )
-#
-else
-false
-#
-endif
 )
 {
 nsAutoCString

@@ -8999,9 +8999,6 @@ mCh
 return
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 nsCString
 charAndName
 ;
@@ -9049,8 +9046,6 @@ LAYOUT
 charAndName
 )
 ;
-#
-endif
 AutoTArray
 <
 gfxFontEntry

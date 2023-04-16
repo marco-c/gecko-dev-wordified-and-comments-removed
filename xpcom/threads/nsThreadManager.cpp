@@ -2198,9 +2198,11 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
+[
+[
+maybe_unused
+]
+]
 TimeStamp
 startTime
 =
@@ -2211,8 +2213,6 @@ Now
 (
 )
 ;
-#
-endif
 RefPtr
 <
 ThreadEventQueue

@@ -2548,9 +2548,13 @@ PROFILER_JS_INTERRUPT_CALLBACK
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
+if
+(
+profiler_can_accept_markers
+(
+)
+)
+{
 nsDependentCString
 filename
 (
@@ -2620,8 +2624,7 @@ filename
 )
 ;
 }
-#
-endif
+}
 if
 (
 self

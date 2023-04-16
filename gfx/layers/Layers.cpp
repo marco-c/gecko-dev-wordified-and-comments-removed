@@ -13255,9 +13255,6 @@ payload
 aPayloads
 )
 {
-#
-if
-MOZ_GECKO_PROFILER
 if
 (
 profiler_can_accept_markers
@@ -13342,8 +13339,6 @@ text
 )
 ;
 }
-#
-endif
 if
 (
 payload

@@ -1168,9 +1168,6 @@ image
 "
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 Document
 *
 doc
@@ -1182,6 +1179,11 @@ GetDocument
 (
 )
 ;
+[
+[
+maybe_unused
+]
+]
 nsIURI
 *
 uri
@@ -1242,8 +1244,6 @@ A
 )
 )
 ;
-#
-endif
 gfxContextAutoSaveRestore
 contextRestorer
 (

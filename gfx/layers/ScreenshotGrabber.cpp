@@ -8,7 +8,9 @@ h
 #
 include
 "
-GeckoProfiler
+mozilla
+/
+ProfilerMarkers
 .
 h
 "
@@ -416,9 +418,6 @@ NotifyEmptyFrame
 (
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 PROFILER_MARKER_UNTYPED
 (
 "
@@ -430,8 +429,6 @@ changed
 GRAPHICS
 )
 ;
-#
-endif
 }
 void
 ScreenshotGrabber

@@ -739,12 +739,6 @@ ProcessRuntime
 h
 "
 #
-if
-defined
-(
-MOZ_GECKO_PROFILER
-)
-#
 include
 "
 mozilla
@@ -755,8 +749,6 @@ ProfilerMarkers
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -22891,12 +22883,6 @@ DisableFull
 }
 )
 ;
-#
-if
-defined
-(
-MOZ_GECKO_PROFILER
-)
 mozilla
 :
 :
@@ -22907,8 +22893,6 @@ InitProfilerMarkers
 (
 )
 ;
-#
-endif
 #
 endif
 nsCOMPtr

@@ -12,7 +12,9 @@ h
 #
 include
 "
-GeckoProfiler
+mozilla
+/
+ProfilerMarkers
 .
 h
 "
@@ -57,9 +59,6 @@ MessagePhase
 aPhase
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 aMessage
@@ -122,6 +121,11 @@ profiler_is_locked_on_current_thread
 return
 ;
 }
+[
+[
+maybe_unused
+]
+]
 const
 mozilla
 :
@@ -186,7 +190,5 @@ is_sync
 )
 ;
 }
-#
-endif
 }
 }

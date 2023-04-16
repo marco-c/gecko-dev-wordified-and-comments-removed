@@ -5961,9 +5961,6 @@ return
 false
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_feature_active
@@ -5979,8 +5976,6 @@ return
 false
 ;
 }
-#
-endif
 return
 true
 ;

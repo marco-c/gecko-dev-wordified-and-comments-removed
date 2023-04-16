@@ -28602,9 +28602,6 @@ GetTimeoutReasonString
 timeout
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 nsCString
 str
 ;
@@ -28724,8 +28721,6 @@ mWindowID
 str
 )
 ;
-#
-endif
 bool
 abortIntervalHandler
 ;

@@ -104,9 +104,6 @@ true
 ;
 }
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 !
@@ -120,8 +117,6 @@ profiler_capture_backtrace
 )
 ;
 }
-#
-endif
 mLayoutTelemetry
 .
 IncReqsPerFlush
@@ -224,9 +219,6 @@ true
 ;
 }
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 !
@@ -240,8 +232,6 @@ profiler_capture_backtrace
 )
 ;
 }
-#
-endif
 mLayoutTelemetry
 .
 IncReqsPerFlush

@@ -354,12 +354,9 @@ manager
 return
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
-profiler_is_active
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -414,8 +411,6 @@ Now
 )
 ;
 }
-#
-endif
 mQueue
 .
 Push
@@ -485,9 +480,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 !
@@ -567,8 +559,6 @@ TimeDuration
 ;
 }
 }
-#
-endif
 nsCOMPtr
 <
 nsIRunnable

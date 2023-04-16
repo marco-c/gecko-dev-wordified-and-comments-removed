@@ -24,17 +24,12 @@ nsGlobalWindowInner
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 GeckoProfiler
 .
 h
 "
-#
-endif
 namespace
 mozilla
 :
@@ -188,9 +183,6 @@ mSubmitTime
 =
 aBaseTime
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_is_active
@@ -205,8 +197,6 @@ profiler_capture_backtrace
 )
 ;
 }
-#
-endif
 if
 (
 mWindow

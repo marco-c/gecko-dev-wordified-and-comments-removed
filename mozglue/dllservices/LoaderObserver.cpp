@@ -43,6 +43,15 @@ StackWalk_windows
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TimeStamp
+.
+h
+"
 namespace
 {
 struct

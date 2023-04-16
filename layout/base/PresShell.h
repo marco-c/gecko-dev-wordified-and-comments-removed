@@ -427,14 +427,9 @@ OverflowChangedTracker
 class
 StyleSheet
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 class
 ProfileChunkedBuffer
 ;
-#
-endif
 #
 ifdef
 ACCESSIBILITY
@@ -6227,9 +6222,6 @@ mList
 DirtyRootsList
 mDirtyRoots
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 UniquePtr
 <
 ProfileChunkedBuffer
@@ -6242,8 +6234,6 @@ ProfileChunkedBuffer
 >
 mReflowCause
 ;
-#
-endif
 nsTArray
 <
 UniquePtr

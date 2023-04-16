@@ -3185,9 +3185,6 @@ nsIntRect
 aData
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 nsCString
 uriString
 ;
@@ -3242,8 +3239,6 @@ OTHER
 uriString
 )
 ;
-#
-endif
 if
 (
 aType
