@@ -1946,6 +1946,13 @@ JSActorWillDestroy
 (
 )
 ;
+mWindowContext
+-
+>
+Discard
+(
+)
+;
 RefPtr
 <
 BrowserChild
@@ -3597,6 +3604,13 @@ Remove
 InnerWindowId
 (
 )
+)
+;
+mWindowContext
+-
+>
+Discard
+(
 )
 ;
 #
