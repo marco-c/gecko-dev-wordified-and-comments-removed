@@ -6439,9 +6439,10 @@ foo
 "
 1
 )
+ic
+.
 setSelection
 (
-ic
 0
 3
 )
