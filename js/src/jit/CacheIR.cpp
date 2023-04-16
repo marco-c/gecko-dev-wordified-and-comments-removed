@@ -1901,9 +1901,6 @@ return
 true
 ;
 }
-uint32_t
-dummy
-;
 if
 (
 id
@@ -1922,8 +1919,6 @@ toAtom
 >
 isIndex
 (
-&
-dummy
 )
 )
 {
