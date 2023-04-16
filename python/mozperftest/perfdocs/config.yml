@@ -234,6 +234,10 @@ warm
 :
 "
 "
+perfstats
+:
+"
+"
 browser
 /
 base
