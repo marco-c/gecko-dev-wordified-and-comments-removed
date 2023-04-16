@@ -210,17 +210,6 @@ switcher
 -
 tabs
 "
-triggerButtonId
-:
-"
-PanelUI
--
-remotetabs
--
-view
--
-sidebar
-"
 }
 ]
 ]

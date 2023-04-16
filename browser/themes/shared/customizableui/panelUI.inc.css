@@ -6710,6 +6710,16 @@ button
 hbox
 >
 label
+#
+PanelUI
+-
+remotetabs
+-
+syncnow
+>
+hbox
+>
+label
 {
 margin
 -
