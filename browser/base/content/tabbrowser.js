@@ -16613,6 +16613,12 @@ if
 isPending
 )
 {
+aOurTab
+.
+initializingTab
+=
+true
+;
 SessionStore
 .
 setTabState
@@ -16625,6 +16631,11 @@ getTabState
 aOtherTab
 )
 )
+;
+delete
+aOurTab
+.
+initializingTab
 ;
 this
 .
