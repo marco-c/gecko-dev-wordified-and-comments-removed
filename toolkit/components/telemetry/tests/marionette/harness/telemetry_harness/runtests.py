@@ -7,6 +7,7 @@ cli
 as
 mn_cli
 from
+.
 runner
 import
 TelemetryTestRunner
