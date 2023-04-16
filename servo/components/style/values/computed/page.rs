@@ -67,7 +67,7 @@ generics
 page
 :
 :
-PageSize
+GenericPageSize
 <
 Size2D
 <
