@@ -4160,7 +4160,7 @@ wasm_optimizingjit
 ;
 #
 ifdef
-JS_CODEGEN_ARM64
+ENABLE_WASM_CRANELIFT
 bool
 forceWasmIon
 =
