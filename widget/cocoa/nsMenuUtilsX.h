@@ -40,6 +40,9 @@ nsIContent
 class
 nsMenuBarX
 ;
+class
+nsMenuX
+;
 namespace
 nsMenuUtilsX
 {
@@ -104,7 +107,7 @@ CalculateNativeInsertionPoint
 nsMenuObjectX
 *
 aParent
-nsMenuObjectX
+nsMenuX
 *
 aChild
 )

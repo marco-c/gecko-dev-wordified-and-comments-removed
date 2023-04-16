@@ -1041,7 +1041,7 @@ CalculateNativeInsertionPoint
 nsMenuObjectX
 *
 aParent
-nsMenuObjectX
+nsMenuX
 *
 aChild
 )
