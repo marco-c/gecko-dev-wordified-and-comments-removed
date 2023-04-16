@@ -114,12 +114,10 @@ suppressions
 >
 <
 suppress
-id
+checks
 =
 "
-checkstyle
-:
-javadocmethod
+JavadocMethod
 "
 files
 =
