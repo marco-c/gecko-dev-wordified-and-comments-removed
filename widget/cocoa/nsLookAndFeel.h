@@ -212,7 +212,7 @@ nscolor
 mColorAlternateSelectedControlText
 ;
 nscolor
-mColorButtonHoverText
+mColorControlText
 ;
 nscolor
 mColorText
@@ -245,13 +245,7 @@ nscolor
 mColorWindowFrame
 ;
 nscolor
-mColorFieldText
-;
-nscolor
 mColorDialog
-;
-nscolor
-mColorDialogText
 ;
 nscolor
 mColorDragTargetZone
