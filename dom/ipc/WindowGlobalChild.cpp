@@ -1003,6 +1003,13 @@ documentURI
 windowContext
 -
 >
+mIsInProcess
+=
+true
+;
+windowContext
+-
+>
 mWindowGlobalChild
 =
 windowChild
@@ -3806,7 +3813,7 @@ PrivilegedJunkScope
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
+NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_WEAK_PTR
 (
 WindowGlobalChild
 mWindowGlobal
