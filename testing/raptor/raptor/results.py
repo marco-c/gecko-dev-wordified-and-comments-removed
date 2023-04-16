@@ -3084,19 +3084,12 @@ custom_types
 raw_result
 [
 "
-browserScripts
+extras
 "
 ]
 [
 0
 ]
-.
-get
-(
-"
-custom
-"
-)
             
 if
 custom_types
