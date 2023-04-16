@@ -713,7 +713,10 @@ flag
 (
 "
 /
-u
+clang
+:
+-
+undef
 "
 )
 ;
