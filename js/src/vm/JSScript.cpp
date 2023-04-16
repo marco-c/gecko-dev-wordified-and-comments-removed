@@ -27004,13 +27004,14 @@ bool
 JSScript
 :
 :
-anyFormalIsAliased
+anyFormalIsForwarded
 (
 )
 {
 if
 (
-functionHasParameterExprs
+!
+argsObjAliasesFormals
 (
 )
 )
