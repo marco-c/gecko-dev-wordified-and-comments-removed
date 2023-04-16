@@ -206,6 +206,8 @@ Encoding
 aCharset
 int32_t
 aSource
+bool
+aChannelHadCharset
 )
 override
 ;

@@ -248,6 +248,10 @@ Encoding
 aCharset
 int32_t
 aSource
+bool
+aChannelHadCharset
+=
+false
 )
 =
 0

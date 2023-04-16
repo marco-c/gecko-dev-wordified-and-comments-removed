@@ -8418,6 +8418,9 @@ ChannelNonUtf8
 break
 ;
 case
+kCharsetFromXmlDeclaration
+:
+case
 kCharsetFromMetaPrescan
 :
 case
