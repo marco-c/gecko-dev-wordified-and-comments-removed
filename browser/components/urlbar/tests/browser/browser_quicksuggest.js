@@ -702,6 +702,13 @@ true
 }
 )
 ;
+await
+ExperimentAPI
+.
+ready
+(
+)
+;
 let
 {
 enrollmentPromise
