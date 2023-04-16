@@ -1826,6 +1826,15 @@ out_file
 "
 )
 ;
+settings
+.
+setProcessCount
+(
+BuildConfig
+.
+MOZ_ANDROID_CONTENT_SERVICE_COUNT
+)
+;
 }
 info
 .
