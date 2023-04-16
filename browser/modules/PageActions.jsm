@@ -1792,9 +1792,6 @@ actions
 idsInUrlbar
 =
 [
-"
-pocket
-"
 ACTION_ID_BOOKMARK
 ]
 ;
@@ -3350,9 +3347,6 @@ let
 builtInIDs
 =
 [
-"
-pocket
-"
 "
 screenshots_mozilla_org
 "
