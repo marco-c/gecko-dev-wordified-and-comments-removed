@@ -49,8 +49,6 @@ GPU_DECL_JS_WRAP
 (
 AdapterFeatures
 )
-private
-:
 explicit
 AdapterFeatures
 (
@@ -60,6 +58,8 @@ const
 aParent
 )
 ;
+private
+:
 ~
 AdapterFeatures
 (

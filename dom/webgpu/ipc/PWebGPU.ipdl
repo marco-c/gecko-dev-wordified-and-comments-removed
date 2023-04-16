@@ -204,8 +204,8 @@ ids
 )
 returns
 (
-RawId
-adapterId
+ByteBuf
+byteBuf
 )
 ;
 async
