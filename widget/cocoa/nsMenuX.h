@@ -59,7 +59,7 @@ h
 #
 include
 "
-nsMenuBaseX
+nsMenuParentX
 .
 h
 "
@@ -138,7 +138,7 @@ nsMenuX
 final
 :
 public
-nsMenuObjectX
+nsMenuParentX
 public
 nsChangeObserver
 public
@@ -169,7 +169,7 @@ nsMenuItemX
 ;
 nsMenuX
 (
-nsMenuObjectX
+nsMenuParentX
 *
 aParent
 nsMenuGroupOwnerX
@@ -189,14 +189,14 @@ int32_t
 sIndexingMenuLevel
 ;
 NS_DECL_CHANGEOBSERVER
-nsMenuObjectTypeX
-MenuObjectType
+nsMenuParentTypeX
+MenuParentType
 (
 )
 override
 {
 return
-eSubmenuObjectType
+eSubmenuParentType
 ;
 }
 void
@@ -208,7 +208,7 @@ override
 nsresult
 Create
 (
-nsMenuObjectX
+nsMenuParentX
 *
 aParent
 nsMenuGroupOwnerX
@@ -512,7 +512,7 @@ mVisibleItemsCount
 =
 0
 ;
-nsMenuObjectX
+nsMenuParentX
 *
 mParent
 =

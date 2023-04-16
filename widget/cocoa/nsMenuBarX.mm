@@ -19,13 +19,6 @@ h
 #
 include
 "
-nsMenuBaseX
-.
-h
-"
-#
-include
-"
 nsMenuX
 .
 h

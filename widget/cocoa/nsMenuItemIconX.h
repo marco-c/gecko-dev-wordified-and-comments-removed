@@ -31,7 +31,7 @@ class
 imgRequestProxy
 ;
 class
-nsMenuObjectX
+nsMenuParentX
 ;
 #
 import

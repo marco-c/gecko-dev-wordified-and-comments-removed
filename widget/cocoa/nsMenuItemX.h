@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsMenuBaseX
-.
-h
-"
-#
-include
-"
 nsMenuGroupOwnerX
 .
 h
@@ -69,6 +62,9 @@ nsMenuItemIconX
 ;
 class
 nsMenuX
+;
+class
+nsMenuParentX
 ;
 namespace
 mozilla
