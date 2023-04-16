@@ -290,6 +290,13 @@ js
 "
 "
 thread
+-
+configuration
+.
+js
+"
+"
+thread
 .
 js
 "
