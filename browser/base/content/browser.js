@@ -40878,6 +40878,12 @@ resolve
 }
 )
 ;
+window
+.
+focus
+(
+)
+;
 try
 {
 await
