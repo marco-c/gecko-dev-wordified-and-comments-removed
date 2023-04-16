@@ -8454,7 +8454,7 @@ AssertIsOnOwningThread
 ;
 mActorDestroyed
 .
-Flip
+EnsureFlipped
 (
 )
 ;
