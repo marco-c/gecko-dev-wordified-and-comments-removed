@@ -395,6 +395,11 @@ return
 true
 ;
 }
+_SetIsInlinableLargeFunction
+(
+ArrayEvery
+)
+;
 function
 ArraySome
 (
@@ -523,6 +528,11 @@ return
 false
 ;
 }
+_SetIsInlinableLargeFunction
+(
+ArraySome
+)
+;
 function
 ArraySort
 (
@@ -799,6 +809,11 @@ void
 0
 ;
 }
+_SetIsInlinableLargeFunction
+(
+ArrayForEach
+)
+;
 function
 ArrayMap
 (
@@ -941,6 +956,11 @@ return
 A
 ;
 }
+_SetIsInlinableLargeFunction
+(
+ArrayMap
+)
+;
 function
 ArrayFilter
 (
