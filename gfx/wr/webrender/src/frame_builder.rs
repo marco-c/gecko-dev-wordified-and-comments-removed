@@ -3906,7 +3906,7 @@ task_id
 task_id
 ;
 let
-dirty_rect
+vis_mask
 =
 match
 render_tasks
@@ -3928,7 +3928,7 @@ info
 >
 info
 .
-dirty_rect
+vis_mask
 _
 =
 >
@@ -3960,7 +3960,7 @@ task_id
 into
 (
 )
-dirty_rect
+vis_mask
 0
 )
 )
