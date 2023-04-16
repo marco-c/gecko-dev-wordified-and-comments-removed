@@ -1054,7 +1054,7 @@ android
 install
 -
 apk
-gve_nightly_api16
+gve_nightly_aarch64
 -
 -
 hooks
