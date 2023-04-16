@@ -2167,6 +2167,11 @@ UpdatePosition
 )
 ;
 void
+NotifyPositionUpdatedForContentsInPopup
+(
+)
+;
+void
 SizeModeChanged
 (
 const
