@@ -339,7 +339,7 @@ equal
 typeof
 page
 .
-browsingContextID
+tabID
 "
 number
 "
@@ -351,7 +351,7 @@ equal
 (
 page
 .
-browsingContextID
+tabID
 activeTabID
 )
 ;
