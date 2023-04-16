@@ -27,9 +27,6 @@ globals
 waitForTick
 :
 true
-waitUntilState
-:
-true
 }
 rules
 :
