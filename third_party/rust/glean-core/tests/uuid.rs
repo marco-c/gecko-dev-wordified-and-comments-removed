@@ -159,9 +159,6 @@ uuid
 "
 #
 )
-format
-!
-(
 "
 Snapshot
 1
@@ -170,7 +167,6 @@ Snapshot
 }
 "
 snapshot
-)
 )
 ;
 uuid
@@ -214,9 +210,6 @@ uuid
 "
 #
 )
-format
-!
-(
 "
 Snapshot
 2
@@ -225,7 +218,6 @@ Snapshot
 }
 "
 snapshot
-)
 )
 ;
 }

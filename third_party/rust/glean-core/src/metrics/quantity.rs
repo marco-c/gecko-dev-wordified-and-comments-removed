@@ -235,7 +235,7 @@ i64
 match
 StorageManager
 .
-snapshot_metric
+snapshot_metric_for_test
 (
 glean
 .

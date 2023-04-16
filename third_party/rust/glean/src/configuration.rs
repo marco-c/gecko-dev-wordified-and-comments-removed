@@ -7,6 +7,15 @@ net
 :
 PingUploader
 ;
+use
+std
+:
+:
+path
+:
+:
+PathBuf
+;
 pub
 (
 crate
@@ -49,7 +58,7 @@ bool
 pub
 data_path
 :
-String
+PathBuf
 pub
 application_id
 :
