@@ -204,6 +204,11 @@ selectCamera
 -
 icon
 "
+size
+=
+"
+large
+"
 >
 <
 menupopup
@@ -319,6 +324,11 @@ updateWarningLabel
 this
 )
 ;
+"
+size
+=
+"
+large
 "
 >
 <
@@ -602,6 +612,11 @@ webRTC
 selectMicrophone
 -
 icon
+"
+size
+=
+"
+large
 "
 >
 <
