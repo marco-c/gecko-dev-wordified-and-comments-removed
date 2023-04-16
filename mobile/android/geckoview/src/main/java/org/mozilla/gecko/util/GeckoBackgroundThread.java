@@ -149,13 +149,6 @@ GeckoBackgroundThread
 initialRunnable
 )
 ;
-ThreadUtils
-.
-setBackgroundThread
-(
-thread
-)
-;
 thread
 .
 setDaemon
