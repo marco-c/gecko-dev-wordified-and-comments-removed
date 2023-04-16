@@ -4476,6 +4476,12 @@ Graph
 )
 )
 ;
+cubeb_stream_register_device_changed_callback
+(
+mAudioStream
+nullptr
+)
+;
 RefPtr
 <
 AsyncCubebTask
