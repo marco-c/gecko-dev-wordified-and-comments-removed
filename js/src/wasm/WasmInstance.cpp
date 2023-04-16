@@ -8552,6 +8552,7 @@ Instance
 :
 memoryAccessInGuardRegion
 (
+const
 uint8_t
 *
 addr
@@ -8650,6 +8651,7 @@ Instance
 :
 memoryAccessInBounds
 (
+const
 uint8_t
 *
 addr
