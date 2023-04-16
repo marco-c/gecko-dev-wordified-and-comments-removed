@@ -412,6 +412,14 @@ Call
 CallIndirect
 =
 0x11
+#
+ifdef
+ENABLE_WASM_EXCEPTIONS
+CatchAll
+=
+0x19
+#
+endif
 Drop
 =
 0x1a
