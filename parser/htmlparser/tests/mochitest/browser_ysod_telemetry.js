@@ -188,6 +188,16 @@ last_line_len
 "
 38
 "
+hidden
+:
+"
+false
+"
+destroyed
+:
+"
+false
+"
 }
 }
 ]
