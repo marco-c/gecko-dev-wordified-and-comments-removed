@@ -112,6 +112,15 @@ nsCString
 url
 )
 ;
+async
+DOMContentLoaded
+(
+MaybeDiscardedBrowsingContext
+bc
+nsIURI
+documentURI
+)
+;
 }
 ;
 }
