@@ -319,6 +319,13 @@ nsIBrowser
 .
 h
 "
+#
+include
+"
+nsTHashSet
+.
+h
+"
 using
 namespace
 mozilla
@@ -5023,9 +5030,9 @@ BrowsingContext
 aRoots
 )
 {
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 uniqueSiteOrigins
 ;
@@ -5113,7 +5120,7 @@ siteOrigin
 ;
 uniqueSiteOrigins
 .
-PutEntry
+Insert
 (
 siteOrigin
 )
