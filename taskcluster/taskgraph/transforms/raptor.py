@@ -1253,12 +1253,13 @@ subtest
 =
 test
 .
-pop
+get
 (
+            
 "
 subtest
 "
-None
+        
 )
         
 subtest_symbol
@@ -1730,6 +1731,7 @@ extra_options
 .
 append
 (
+                
 "
 -
 -
@@ -1742,14 +1744,13 @@ app
 format
 (
 test
-.
-pop
-(
+[
 "
 app
 "
+]
 )
-)
+            
 )
         
 if
