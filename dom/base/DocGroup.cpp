@@ -1768,7 +1768,7 @@ IsPaused
 ;
 mIframesUsedPostMessageQueue
 .
-PutEntry
+Insert
 (
 aWindowId
 )
@@ -1818,7 +1818,7 @@ TryToLoadIframesInBackground
 {
 mIframesUsedPostMessageQueue
 .
-RemoveEntry
+Remove
 (
 aWindowId
 )
