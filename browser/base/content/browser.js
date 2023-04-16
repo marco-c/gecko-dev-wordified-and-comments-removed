@@ -5664,7 +5664,7 @@ over
 -
 5gb
 -
-message2
+message
 "
 }
 ]
@@ -5690,7 +5690,7 @@ over
 -
 5gb
 -
-settings
+pref
 -
 button
 "
