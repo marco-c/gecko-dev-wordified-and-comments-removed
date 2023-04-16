@@ -129,9 +129,6 @@ mMenuObject
 nsIntRect
 mImageRegionRect
 ;
-bool
-mSetIcon
-;
 NSImage
 *
 mIconImage
