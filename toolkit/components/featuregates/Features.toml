@@ -1755,7 +1755,17 @@ default
 -
 value
 =
+{
+default
+=
 false
+nightly
+=
+true
+beta
+=
+true
+}
 [
 url
 -
