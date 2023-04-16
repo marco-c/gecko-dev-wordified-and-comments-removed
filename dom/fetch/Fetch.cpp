@@ -1550,6 +1550,10 @@ Shutdown
 (
 )
 ;
+mSignalProxy
+=
+nullptr
+;
 }
 mWorkerRef
 =
