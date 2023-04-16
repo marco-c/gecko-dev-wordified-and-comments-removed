@@ -74264,9 +74264,6 @@ toString
 (
 )
 ;
-uint32_t
-dummy
-;
 if
 (
 idString
@@ -74287,8 +74284,6 @@ asAtom
 .
 isIndex
 (
-&
-dummy
 )
 )
 {
@@ -74390,9 +74385,6 @@ toString
 (
 )
 ;
-uint32_t
-dummy
-;
 if
 (
 idString
@@ -74413,8 +74405,6 @@ asAtom
 .
 isIndex
 (
-&
-dummy
 )
 )
 {
@@ -74790,9 +74780,6 @@ toString
 (
 )
 ;
-uint32_t
-dummy
-;
 if
 (
 idString
@@ -74813,8 +74800,6 @@ asAtom
 .
 isIndex
 (
-&
-dummy
 )
 )
 {
