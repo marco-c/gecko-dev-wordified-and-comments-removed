@@ -77,7 +77,6 @@ onDocumentEvent
 (
 name
 time
-shouldBeIgnoredAsRedundantWithTargetAvailable
 )
 =
 >
@@ -91,7 +90,6 @@ resourceType
 DOCUMENT_EVENT
 name
 time
-shouldBeIgnoredAsRedundantWithTargetAvailable
 }
 ]
 )
