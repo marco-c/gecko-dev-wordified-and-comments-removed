@@ -908,13 +908,6 @@ return
 mRootElement
 ;
 }
-Element
-*
-GetExposedRoot
-(
-)
-const
-;
 void
 SetTextInputListener
 (
@@ -5430,6 +5423,13 @@ virtual
 Element
 *
 GetEditorRoot
+(
+)
+const
+;
+Element
+*
+GetExposedRoot
 (
 )
 const
