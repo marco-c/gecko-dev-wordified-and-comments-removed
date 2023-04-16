@@ -167,6 +167,13 @@ defined
 (
 JS_SIMULATOR_ARM
 )
+|
+|
+\
+defined
+(
+JS_SIMULATOR_MIPS64
+)
 #
 define
 HAS_64BIT_ATOMICS
