@@ -2436,14 +2436,6 @@ mLoader
 =
 nullptr
 ;
-mSrcIndex
-=
-0
-;
-mSeenLocalSource
-=
-false
-;
 }
 bool
 WaitForUserFont
@@ -2955,9 +2947,6 @@ LOADING_FAILED
 ;
 FontDataLoadingState
 mFontDataLoadingState
-;
-bool
-mSeenLocalSource
 ;
 bool
 mUnsupportedFormat
