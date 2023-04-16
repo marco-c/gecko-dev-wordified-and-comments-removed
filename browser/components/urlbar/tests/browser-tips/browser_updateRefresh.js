@@ -163,6 +163,11 @@ resetProfile
 .
 xhtml
 "
+{
+isSubDialog
+:
+true
+}
 )
 ;
 }

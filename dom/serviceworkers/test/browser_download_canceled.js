@@ -99,10 +99,12 @@ promiseAlertDialogOpen
 (
 buttonAction
 uri
+{
 async
+callback
+(
 win
-=
->
+)
 {
 await
 TestUtils
@@ -165,6 +167,7 @@ click
 (
 )
 ;
+}
 }
 )
 ;
