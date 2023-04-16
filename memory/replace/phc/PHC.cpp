@@ -502,7 +502,6 @@ StackBase
 FramePointerStackWalk
 (
 StackWalkCallback
-0
 kMaxFrames
 this
 fp
@@ -560,7 +559,6 @@ pthread_self
 FramePointerStackWalk
 (
 StackWalkCallback
-0
 kMaxFrames
 this
 fp

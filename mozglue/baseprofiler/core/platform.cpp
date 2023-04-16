@@ -5667,7 +5667,6 @@ stackEnd
 FramePointerStackWalk
 (
 StackWalkCallback
-0
 maxFrames
 &
 aNativeStack
@@ -5766,7 +5765,6 @@ thread
 MozStackWalkThread
 (
 StackWalkCallback
-0
 maxFrames
 &
 aNativeStack
