@@ -293,7 +293,7 @@ nsISupports
 aContext
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mDestroyed
@@ -323,7 +323,7 @@ nsISupports
 aContext
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mDestroyed
@@ -357,7 +357,7 @@ ContentParent
 aProcess
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mDestroyed
@@ -674,7 +674,7 @@ ContentParent
 aProcess
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mDestroyed
@@ -1231,13 +1231,13 @@ Destroy
 {
 #
 ifdef
-DEBUG
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 if
 (
 mDestroyed
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mHosts
 .
@@ -1249,7 +1249,7 @@ Count
 0
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mSubscribers
 .
@@ -1261,7 +1261,7 @@ Count
 0
 )
 ;
-MOZ_ASSERT_IF
+MOZ_DIAGNOSTIC_ASSERT_IF
 (
 sBrowsingContextGroups
 !
@@ -1379,7 +1379,7 @@ AddKeepAlive
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mDestroyed
@@ -1398,7 +1398,7 @@ RemoveKeepAlive
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mDestroyed
