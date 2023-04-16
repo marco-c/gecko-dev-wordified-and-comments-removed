@@ -1237,6 +1237,14 @@ anyOf
 type
 :
 integer
+#
+Keep
+supporting
+integer
+for
+backward
+-
+compat
 -
 type
 :

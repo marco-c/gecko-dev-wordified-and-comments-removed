@@ -250,11 +250,7 @@ path
 (
 )
 .
-display
-(
-)
-.
-to_string
+to_path_buf
 (
 )
 ;
