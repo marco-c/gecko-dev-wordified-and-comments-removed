@@ -3539,11 +3539,6 @@ aGuid
 )
 ;
 void
-NotifyTabContextUpdated
-(
-)
-;
-void
 ActorDestroy
 (
 ActorDestroyReason

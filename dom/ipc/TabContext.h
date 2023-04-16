@@ -76,14 +76,6 @@ ChromeOuterWindowID
 )
 const
 ;
-const
-nsAString
-&
-PresentationURL
-(
-)
-const
-;
 UIStateChangeType
 ShowFocusRings
 (
@@ -122,10 +114,6 @@ uint64_t
 aChromeOuterWindowID
 UIStateChangeType
 aShowFocusRings
-const
-nsAString
-&
-aPresentationURL
 uint32_t
 aMaxTouchPoints
 )
@@ -169,9 +157,6 @@ mChromeOuterWindowID
 int32_t
 mJSPluginID
 ;
-nsString
-mPresentationURL
-;
 UIStateChangeType
 mShowFocusRings
 ;
@@ -214,10 +199,6 @@ uint64_t
 aChromeOuterWindowID
 UIStateChangeType
 aShowFocusRings
-const
-nsAString
-&
-aPresentationURL
 uint32_t
 aMaxTouchPoints
 )
@@ -230,7 +211,6 @@ SetTabContext
 (
 aChromeOuterWindowID
 aShowFocusRings
-aPresentationURL
 aMaxTouchPoints
 )
 ;
