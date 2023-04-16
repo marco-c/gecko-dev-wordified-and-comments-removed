@@ -243,9 +243,7 @@ gradient
 ;
 -
 -
-buttons
--
-secondary
+button
 -
 bgcolor
 :
@@ -263,9 +261,7 @@ transparent
 ;
 -
 -
-buttons
--
-secondary
+button
 -
 hover
 -
@@ -285,9 +281,7 @@ transparent
 ;
 -
 -
-buttons
--
-secondary
+button
 -
 active
 -
@@ -307,9 +301,7 @@ transparent
 ;
 -
 -
-buttons
--
-secondary
+button
 -
 color
 :
@@ -460,9 +452,7 @@ var
 (
 -
 -
-buttons
--
-secondary
+button
 -
 bgcolor
 )

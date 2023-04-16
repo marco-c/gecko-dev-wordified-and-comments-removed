@@ -125,9 +125,7 @@ var
 (
 -
 -
-buttons
--
-secondary
+button
 -
 bgcolor
 ButtonFace
@@ -139,9 +137,7 @@ var
 (
 -
 -
-buttons
--
-secondary
+button
 -
 color
 ButtonText
@@ -243,9 +239,7 @@ var
 (
 -
 -
-buttons
--
-secondary
+button
 -
 hover
 -
@@ -288,9 +282,7 @@ var
 (
 -
 -
-buttons
--
-secondary
+button
 -
 active
 -
