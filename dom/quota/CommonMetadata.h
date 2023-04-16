@@ -194,7 +194,7 @@ bool
 mPersisted
 ;
 int64_t
-mTimestamp
+mLastAccessTime
 ;
 }
 ;
