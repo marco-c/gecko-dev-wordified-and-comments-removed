@@ -1810,6 +1810,17 @@ SetupIcon
 (
 )
 {
+if
+(
+mType
+!
+=
+eRegularMenuItemType
+)
+{
+return
+;
+}
 mIcon
 -
 >
