@@ -358,6 +358,7 @@ nsMenuX
 *
 aChild
 )
+override
 ;
 void
 RemoveChildNativeMenuItem
@@ -366,6 +367,7 @@ nsMenuX
 *
 aChild
 )
+override
 ;
 void
 Dump
