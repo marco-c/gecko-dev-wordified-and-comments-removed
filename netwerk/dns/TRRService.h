@@ -541,6 +541,16 @@ nsCString
 &
 )
 ;
+void
+CompleteConfirmation
+(
+nsresult
+aStatus
+TRR
+*
+aTrrRequest
+)
+;
 bool
 mInitialized
 ;
