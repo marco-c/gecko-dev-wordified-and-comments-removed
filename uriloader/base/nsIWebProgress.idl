@@ -842,9 +842,9 @@ load
 constants
 in
 *
-nsIDocShellLoadInfo
-.
-idl
+nsIDocShell
+:
+LoadCommand
 .
 *
 /
