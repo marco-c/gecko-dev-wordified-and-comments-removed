@@ -6731,11 +6731,6 @@ DoesFissionForceWebRender
 )
 {
 return
-FissionAutostart
-(
-)
-&
-&
 FissionExperimentEnrolled
 (
 )
