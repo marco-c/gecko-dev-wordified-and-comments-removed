@@ -108,7 +108,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -266,9 +266,9 @@ IntSize
 ByteBuf
 &
 &
-nsTHashtable
+nsTHashSet
 <
-nsUint64HashKey
+uint64_t
 >
 &
 &
@@ -280,9 +280,9 @@ mSize
 ByteBuf
 mRecording
 ;
-nsTHashtable
+nsTHashSet
 <
-nsUint64HashKey
+uint64_t
 >
 mDependencies
 ;
@@ -354,9 +354,9 @@ ResolvePromise
 >
 Start
 (
-nsTHashtable
+nsTHashSet
 <
-nsUint64HashKey
+uint64_t
 >
 &
 &
@@ -419,9 +419,9 @@ void
 QueueDependencies
 (
 const
-nsTHashtable
+nsTHashSet
 <
-nsUint64HashKey
+uint64_t
 >
 &
 aDependencies
