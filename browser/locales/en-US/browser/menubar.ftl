@@ -127,6 +127,16 @@ menu
 -
 application
 -
+preferences
+=
+.
+label
+=
+Preferences
+menu
+-
+application
+-
 services
 =
 .

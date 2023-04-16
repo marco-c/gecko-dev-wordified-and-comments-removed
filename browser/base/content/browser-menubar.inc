@@ -4366,6 +4366,8 @@ id
 "
 menu
 -
+application
+-
 preferences
 "
 key
