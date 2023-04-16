@@ -12,8 +12,6 @@ origin
 opener
 -
 policy
-/
-reporting
 "
 ;
 const
