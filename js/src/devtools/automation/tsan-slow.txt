@@ -39,6 +39,11 @@ array
 splice
 .
 js
+bug
+-
+1698543
+.
+js
 #
 Skip
 tests
