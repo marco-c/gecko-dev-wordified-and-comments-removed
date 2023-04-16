@@ -431,6 +431,14 @@ return
 mNativeMenu
 ;
 }
+NSInteger
+CalculateNativeInsertionPoint
+(
+nsMenuX
+*
+aChild
+)
+;
 protected
 :
 void
