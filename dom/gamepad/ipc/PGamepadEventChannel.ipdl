@@ -127,6 +127,11 @@ double
 aIntensity
 double
 aDuration
+[
+NoTaint
+=
+passback
+]
 uint32_t
 aPromiseID
 )
@@ -157,6 +162,11 @@ uint8_t
 aGreen
 uint8_t
 aBlue
+[
+NoTaint
+=
+passback
+]
 uint32_t
 aPromiseID
 )
