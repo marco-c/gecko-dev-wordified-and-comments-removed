@@ -2820,6 +2820,11 @@ RefreshURIFromQueue
 (
 )
 ;
+void
+RefreshURIToQueue
+(
+)
+;
 nsresult
 Embed
 (
@@ -3204,6 +3209,12 @@ nsCOMPtr
 nsIMutableArray
 >
 mSavedRefreshURIList
+;
+nsCOMPtr
+<
+nsIMutableArray
+>
+mBFCachedRefreshURIList
 ;
 uint64_t
 mContentWindowID
