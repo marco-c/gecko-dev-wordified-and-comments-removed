@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -115,9 +115,9 @@ DOMLocalization
 *
 mDOMLocalization
 ;
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 Element
 >

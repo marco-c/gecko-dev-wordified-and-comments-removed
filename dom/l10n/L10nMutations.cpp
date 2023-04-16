@@ -438,7 +438,7 @@ aElement
 ;
 mPendingElementsHash
 .
-PutEntry
+Insert
 (
 aElement
 )
