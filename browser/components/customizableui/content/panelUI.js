@@ -186,8 +186,15 @@ _notificationPanel
 null
 init
 (
+shouldSuppress
 )
 {
+this
+.
+_shouldSuppress
+=
+shouldSuppress
+;
 this
 .
 _initElements
@@ -367,7 +374,7 @@ this
 }
 this
 .
-_updateNotifications
+updateNotifications
 (
 false
 )
@@ -1212,7 +1219,7 @@ _notifications
 {
 this
 .
-_updateNotifications
+updateNotifications
 (
 false
 )
@@ -1255,7 +1262,7 @@ notifications
 ;
 this
 .
-_updateNotifications
+updateNotifications
 (
 true
 )
@@ -1383,7 +1390,7 @@ popuphidden
 :
 this
 .
-_updateNotifications
+updateNotifications
 (
 )
 ;
@@ -1531,7 +1538,7 @@ activate
 :
 this
 .
-_updateNotifications
+updateNotifications
 (
 )
 ;
@@ -3409,7 +3416,7 @@ hidePopup
 ;
 }
 }
-_updateNotifications
+updateNotifications
 (
 notificationsChanged
 )
@@ -3471,6 +3478,13 @@ navToolboxHidden
 document
 .
 fullscreenElement
+|
+|
+this
+.
+_shouldSuppress
+(
+)
 )
 {
 this
