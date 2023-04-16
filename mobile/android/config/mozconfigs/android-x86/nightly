@@ -136,10 +136,6 @@ branding
 /
 nightly
 export
-FENNEC_NIGHTLY
-=
-1
-export
 MOZILLA_OFFICIAL
 =
 1

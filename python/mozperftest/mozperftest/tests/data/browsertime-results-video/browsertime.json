@@ -298,11 +298,6 @@ ENABLE_REMOTE_AGENT
 :
 true
 "
-FENNEC_NIGHTLY
-"
-:
-false
-"
 HAVE_SHELL_SERVICE
 "
 :
@@ -758,11 +753,6 @@ ENABLE_REMOTE_AGENT
 "
 :
 true
-"
-FENNEC_NIGHTLY
-"
-:
-false
 "
 HAVE_SHELL_SERVICE
 "
