@@ -64,6 +64,8 @@ setLength
 ;
 }
 '
+NativeIOFileSync
+.
 setLength
 (
 )
@@ -138,7 +140,7 @@ storageFoundation
 .
 releaseCapacitySync
 (
-1
+granted_capacity
 )
 ;
 }
@@ -155,6 +157,8 @@ granted_capacity
 ;
 }
 '
+NativeIOFileSync
+.
 setLength
 (
 )
@@ -227,6 +231,13 @@ test_file
 '
 )
 ;
+storageFoundation
+.
+releaseCapacitySync
+(
+granted_capacity
+)
+;
 }
 )
 ;
@@ -239,6 +250,8 @@ granted_capacity
 ;
 }
 '
+NativeIOFileSync
+.
 setLength
 (
 )
@@ -342,6 +355,8 @@ granted_capacity
 ;
 }
 '
+NativeIOFileSync
+.
 setLength
 (
 )
