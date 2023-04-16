@@ -152,6 +152,16 @@ GetMaxUpdateRects
 override
 ;
 bool
+SurfaceOriginIsTopLeft
+(
+)
+override
+{
+return
+true
+;
+}
+bool
 MaybeReadback
 (
 const
