@@ -1516,7 +1516,7 @@ BT2020
 ;
 default
 :
-MOZ_ASSERT_UNREACHABLE
+MOZ_CRASH
 (
 "
 not
@@ -1530,15 +1530,6 @@ compiler
 happy
 "
 )
-;
-return
-gfx
-:
-:
-YUVColorSpace
-:
-:
-UNKNOWN
 ;
 }
 }

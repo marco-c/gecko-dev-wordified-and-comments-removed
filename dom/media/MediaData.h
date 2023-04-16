@@ -1836,11 +1836,6 @@ mPlanes
 ;
 YUVColorSpace
 mYUVColorSpace
-=
-YUVColorSpace
-:
-:
-UNKNOWN
 ;
 ColorDepth
 mColorDepth

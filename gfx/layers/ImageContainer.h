@@ -1929,7 +1929,7 @@ gfx
 YUVColorSpace
 :
 :
-UNKNOWN
+Default
 ;
 gfx
 :
