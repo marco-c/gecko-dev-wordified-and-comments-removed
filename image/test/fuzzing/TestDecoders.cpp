@@ -395,6 +395,13 @@ return
 0
 ;
 }
+gfxPlatform
+:
+:
+GetCMSMode
+(
+)
+;
 nsCOMPtr
 <
 nsIThread
