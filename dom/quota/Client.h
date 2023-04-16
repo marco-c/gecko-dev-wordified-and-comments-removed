@@ -79,7 +79,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -191,9 +191,9 @@ class
 DirectoryLockIdTable
 final
 {
-nsTHashtable
+nsTHashSet
 <
-nsUint64HashKey
+uint64_t
 >
 mIds
 ;
@@ -209,7 +209,7 @@ aId
 {
 mIds
 .
-PutEntry
+Insert
 (
 aId
 )
