@@ -57,13 +57,5 @@ boolean
 aCollectSHistory
 )
 ;
-void
-RestoreTabContentComplete
-(
-in
-Element
-aBrowser
-)
-;
 }
 ;
