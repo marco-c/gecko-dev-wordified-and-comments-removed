@@ -372,7 +372,7 @@ aVoidPointer
 mMenu
 -
 >
-NativeData
+NativeNSMenu
 (
 )
 ;
@@ -464,18 +464,11 @@ NSMenu
 *
 menu
 =
-static_cast
-<
-NSMenu
-*
->
-(
 mMenu
 -
 >
-NativeData
+NativeNSMenu
 (
-)
 )
 ;
 NSMenuItem
@@ -892,7 +885,7 @@ menuImage
 mMenu
 -
 >
-NativeMenuItem
+NativeNSMenuItem
 (
 )
 .

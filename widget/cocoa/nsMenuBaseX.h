@@ -58,15 +58,6 @@ MenuObjectType
 ;
 virtual
 void
-*
-NativeData
-(
-)
-=
-0
-;
-virtual
-void
 IconUpdated
 (
 )
