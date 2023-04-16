@@ -4730,7 +4730,7 @@ accessibility
 .
 mouse_focuses_formcontrol
 "
-false
+true
 )
 ;
 pref
