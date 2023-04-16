@@ -4977,6 +4977,11 @@ aType
 NS_FORM_INPUT_DATE
 ;
 }
+void
+MaybeFireInputPasswordRemoved
+(
+)
+;
 static
 bool
 IsDateTimeTypeSupported

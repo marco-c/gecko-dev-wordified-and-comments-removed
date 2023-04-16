@@ -1643,6 +1643,11 @@ GetSubmitEncoding
 (
 )
 ;
+void
+MaybeFireFormRemoved
+(
+)
+;
 ~
 HTMLFormElement
 (
