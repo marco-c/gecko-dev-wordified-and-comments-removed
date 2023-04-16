@@ -565,6 +565,7 @@ discoverystreamfeed
 ;
 return
 feed
+?
 .
 loaded
 ;
