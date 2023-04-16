@@ -1596,6 +1596,9 @@ com
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -1631,6 +1634,7 @@ data
 "
 }
 ]
+}
 )
 ;
 await
@@ -1648,6 +1652,9 @@ com
 "
 HTTPS
 "
+{
+answers
+:
 [
 {
 name
@@ -1702,6 +1709,7 @@ value
 }
 }
 ]
+}
 )
 ;
 let

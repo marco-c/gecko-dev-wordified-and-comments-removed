@@ -2116,11 +2116,10 @@ registerDoHAnswers
 (
 name
 type
-answers
-additionals
-delay
+response
 =
-0
+{
+}
 )
 {
 let
@@ -2146,11 +2145,7 @@ JSON
 .
 stringify
 (
-{
-answers
-additionals
-delay
-}
+response
 )
 }
 ;
