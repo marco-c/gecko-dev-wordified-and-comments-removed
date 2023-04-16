@@ -55,10 +55,6 @@ drag
 "
     
 "
-size
-"
-    
-"
 -
 webkit
 -
