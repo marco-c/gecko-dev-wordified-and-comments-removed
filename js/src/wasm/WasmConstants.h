@@ -2299,9 +2299,6 @@ MaxGlobals
 =
 1000000
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 static
 const
 unsigned
@@ -2309,8 +2306,6 @@ MaxEvents
 =
 1000000
 ;
-#
-endif
 static
 const
 unsigned
