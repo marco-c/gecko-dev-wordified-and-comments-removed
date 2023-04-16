@@ -1513,9 +1513,6 @@ null
 lname
 :
 null
-cardholder
-:
-null
 "
 cc
 -

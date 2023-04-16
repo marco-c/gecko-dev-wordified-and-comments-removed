@@ -10,6 +10,12 @@ EXPORTED_SYMBOLS
 "
 CreditCard
 "
+"
+SUPPORTED_NETWORKS
+"
+"
+NETWORK_NAMES
+"
 ]
 ;
 const
