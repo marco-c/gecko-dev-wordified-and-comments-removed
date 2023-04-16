@@ -462,7 +462,7 @@ aActor
 aParam
 -
 >
-mUrl
+mURI
 )
 ;
 WriteIPDLParam
@@ -589,7 +589,7 @@ aActor
 data
 -
 >
-mUrl
+mURI
 )
 |
 |
