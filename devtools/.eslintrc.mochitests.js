@@ -24,9 +24,6 @@ test
 globals
 :
 {
-gDevTools
-:
-true
 waitForTick
 :
 true
