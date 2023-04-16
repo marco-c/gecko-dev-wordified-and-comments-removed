@@ -5638,9 +5638,6 @@ tests
 set_assert
 (
 name
-.
-.
-.
 args
 )
 ;
@@ -5649,10 +5646,10 @@ const
 rv
 =
 f
+.
+apply
 (
-.
-.
-.
+undefined
 args
 )
 ;
@@ -13072,10 +13069,10 @@ AssertRecord
 (
 test
 assert_name
-.
-.
-.
 args
+=
+[
+]
 )
 {
 this
@@ -14636,9 +14633,6 @@ set_assert
 function
 (
 assert_name
-.
-.
-.
 args
 )
 {
@@ -14655,9 +14649,6 @@ this
 .
 current_test
 assert_name
-.
-.
-.
 args
 )
 )
