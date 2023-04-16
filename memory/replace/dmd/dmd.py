@@ -25,13 +25,9 @@ argparse
 import
 collections
 import
-functools
-import
 gzip
 import
 json
-import
-io
 import
 os
 import
@@ -95,26 +91,6 @@ g_slice_alloc
 ?
 "
 ]
-def
-cmp
-(
-a
-b
-)
-:
-    
-return
-(
-a
->
-b
-)
--
-(
-a
-<
-b
-)
 class
 Record
 (
@@ -1461,11 +1437,6 @@ gzip
 .
 GzipFile
 (
-mode
-=
-"
-wb
-"
 filename
 =
 "
@@ -1910,13 +1881,17 @@ args
 max_frames
 :
             
-del
+traceTable
+[
+traceKey
+]
+=
 frameKeys
 [
+:
 args
 .
 max_frames
-:
 ]
     
 def
@@ -2160,8 +2135,6 @@ recordKeyPart
 str
 (
                 
-list
-(
 map
 (
 lambda
@@ -2175,7 +2148,6 @@ traceTable
 [
 traceKey
 ]
-)
 )
             
 )
@@ -2513,13 +2485,10 @@ record
 .
 reportedAtDescs
 =
-list
-(
 map
 (
 f
 reportedAtTraceKeys
-)
 )
         
 record
@@ -3290,24 +3259,17 @@ sortedRecords
 =
 sorted
 (
-            
 records
 .
 values
 (
 )
-key
+cmp
 =
-functools
-.
-cmp_to_key
-(
 cmpRecords
-)
 reverse
 =
 True
-        
 )
         
 kindBlocks
@@ -4706,7 +4668,7 @@ traceTable
 "
 ]
 .
-items
+iteritems
 (
 )
 :
@@ -4799,7 +4761,7 @@ frameTable
 "
 ]
 .
-items
+iteritems
 (
 )
 :
@@ -5743,19 +5705,7 @@ tmpFile
     
 prettyPrintDmdJson
 (
-io
-.
-TextIOWrapper
-(
 tmpFile
-encoding
-=
-"
-utf
--
-8
-"
-)
 j
 )
     
