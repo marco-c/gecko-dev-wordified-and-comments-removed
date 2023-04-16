@@ -77,6 +77,12 @@ const
 SUPPORTED_OPTIONS
 =
 {
+pauseOnExceptions
+:
+true
+ignoreCaughtExceptions
+:
+true
 }
 ;
 const
