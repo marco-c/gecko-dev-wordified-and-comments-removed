@@ -628,16 +628,12 @@ base
 prtime
 )
 .
-map_or
-(
-Err
+ok_or
 (
 Error
 :
 :
 TimeTravelError
-)
-Ok
 )
 }
 else
