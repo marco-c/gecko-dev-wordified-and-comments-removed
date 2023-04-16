@@ -19398,6 +19398,13 @@ add
 bail
 )
 ;
+current
+-
+>
+setAlwaysBails
+(
+)
+;
 MIRType
 resultType
 ;
