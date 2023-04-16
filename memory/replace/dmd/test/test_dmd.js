@@ -84,7 +84,7 @@ gEnv
 get
 (
 "
-PYTHON
+PYTHON3
 "
 )
 ;
