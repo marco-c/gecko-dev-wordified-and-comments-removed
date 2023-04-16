@@ -209,9 +209,11 @@ ID2D1Device
 >
 mDevice
 ;
+const
 SurfaceFormat
 mFormat
 ;
+const
 IntSize
 mSize
 ;
@@ -227,6 +229,9 @@ shared_ptr
 Mutex
 >
 mSnapshotLock
+;
+bool
+mOwnsCopy
 ;
 }
 ;
