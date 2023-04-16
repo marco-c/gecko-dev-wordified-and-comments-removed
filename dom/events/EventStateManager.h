@@ -1056,9 +1056,12 @@ bool
 aExecute
 )
 ;
-nsIContent
+dom
+:
+:
+Element
 *
-GetFocusedContent
+GetFocusedElement
 (
 )
 ;
