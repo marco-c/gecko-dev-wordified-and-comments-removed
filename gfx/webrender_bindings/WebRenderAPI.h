@@ -1120,6 +1120,11 @@ Clone
 (
 )
 ;
+void
+DestroyRenderer
+(
+)
+;
 wr
 :
 :
@@ -1565,6 +1570,9 @@ layers
 :
 SyncHandle
 mSyncHandle
+;
+bool
+mRendererDestroyed
 ;
 RefPtr
 <

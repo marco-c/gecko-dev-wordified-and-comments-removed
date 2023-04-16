@@ -13024,6 +13024,13 @@ Destroy
 (
 )
 ;
+mApi
+-
+>
+DestroyRenderer
+(
+)
+;
 }
 mCompositorScheduler
 =
