@@ -4094,7 +4094,7 @@ close
 (
 )
 def
-update_moz_build_file
+add_file_to_moz_build_file
 (
 normalized_filename_to_add
 )
