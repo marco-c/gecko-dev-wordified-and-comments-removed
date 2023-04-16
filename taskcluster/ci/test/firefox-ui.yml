@@ -147,6 +147,11 @@ py
 remove_executables
 .
 py
+python
+-
+3
+:
+true
 firefox
 -
 ui
