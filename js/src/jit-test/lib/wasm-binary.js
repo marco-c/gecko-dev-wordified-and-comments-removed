@@ -252,6 +252,11 @@ ThrowCode
 0x08
 ;
 const
+RethrowCode
+=
+0x09
+;
+const
 EndCode
 =
 0x0b
@@ -683,6 +688,7 @@ wasmExceptionsEnabled
 0x06
 0x07
 0x08
+0x09
 ]
 :
 [

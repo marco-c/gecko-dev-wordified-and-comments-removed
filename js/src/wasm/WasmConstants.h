@@ -389,6 +389,9 @@ Catch
 Throw
 =
 0x08
+Rethrow
+=
+0x09
 #
 endif
 End
