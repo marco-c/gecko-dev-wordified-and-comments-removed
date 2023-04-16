@@ -1187,6 +1187,15 @@ NS_ERROR_FILE_NOT_DIRECTORY
 break
 ;
 case
+ERROR_FILE_CORRUPT
+:
+rv
+=
+NS_ERROR_FILE_FS_CORRUPTED
+;
+break
+;
+case
 0
 :
 rv
