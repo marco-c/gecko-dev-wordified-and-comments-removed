@@ -4593,12 +4593,6 @@ radius
 aRadius
 *
 aDpiRatio
-+
-borderWidth
-*
-0
-.
-5f
 )
 ;
 {
@@ -4863,6 +4857,7 @@ aUseSystemColors
 )
 ;
 {
+const
 CSSCoord
 radius
 =
@@ -4883,11 +4878,6 @@ backgroundColor
 borderColor
 )
 {
-radius
-+
-=
-borderWidth
-;
 borderWidth
 =
 0
