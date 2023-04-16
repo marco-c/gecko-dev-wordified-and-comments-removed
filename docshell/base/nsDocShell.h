@@ -3055,14 +3055,6 @@ SameDocumentNavigationState
 aState
 )
 ;
-uint32_t
-GetSameDocumentNavigationFlags
-(
-nsIURI
-*
-aNewURI
-)
-;
 void
 NotifyPrivateBrowsingChanged
 (

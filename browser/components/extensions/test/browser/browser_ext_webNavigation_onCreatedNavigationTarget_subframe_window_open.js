@@ -573,6 +573,10 @@ subframe
 }
 )
 ;
+assertNoPendingCreatedNavigationTargetData
+(
+)
+;
 BrowserTestUtils
 .
 removeTab
@@ -889,6 +893,10 @@ window
 open
 }
 }
+)
+;
+assertNoPendingCreatedNavigationTargetData
+(
 )
 ;
 BrowserTestUtils
