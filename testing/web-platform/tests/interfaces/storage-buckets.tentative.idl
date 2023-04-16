@@ -52,12 +52,6 @@ name
 dictionary
 StorageBucketOptions
 {
-DOMString
-?
-title
-=
-null
-;
 boolean
 persisted
 =
