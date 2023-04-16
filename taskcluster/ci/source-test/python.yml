@@ -716,7 +716,7 @@ treeherder
 :
 symbol
 :
-py2
+py3
 (
 mch
 )
@@ -809,7 +809,6 @@ MOZ_FETCHES_DIR
 tests
 &
 &
-python2
 .
 /
 mach
@@ -1659,7 +1658,7 @@ treeherder
 :
 symbol
 :
-py2
+py3
 (
 ref
 )
@@ -1752,7 +1751,6 @@ MOZ_FETCHES_DIR
 tests
 &
 &
-python2
 .
 /
 mach
