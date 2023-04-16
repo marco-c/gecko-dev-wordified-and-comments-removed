@@ -399,7 +399,8 @@ Debug
 lineno
 )
 ;
-if
+return
+!
 (
 callsite
 &
@@ -413,13 +414,6 @@ append
 lineno
 )
 )
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 bool
