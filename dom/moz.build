@@ -378,14 +378,6 @@ ipc
 hangui
 "
 ]
-DIRS
-+
-=
-[
-"
-presentation
-"
-]
 TEST_DIRS
 +
 =
