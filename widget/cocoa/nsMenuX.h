@@ -316,7 +316,7 @@ OnOpen
 (
 )
 ;
-bool
+void
 OnClose
 (
 )
