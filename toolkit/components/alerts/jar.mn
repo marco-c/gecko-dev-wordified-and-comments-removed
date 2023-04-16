@@ -67,10 +67,6 @@ alert
 .
 css
 (
-resources
-/
-content
-/
 alert
 .
 css
@@ -85,10 +81,6 @@ alert
 .
 xhtml
 (
-resources
-/
-content
-/
 alert
 .
 xhtml
@@ -103,10 +95,6 @@ alert
 .
 js
 (
-resources
-/
-content
-/
 alert
 .
 js
