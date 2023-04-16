@@ -569,13 +569,13 @@ auto
 entry
 :
 mNodeInfoHash
+.
+Values
+(
+)
 )
 {
 entry
-.
-GetData
-(
-)
 -
 >
 mDocument

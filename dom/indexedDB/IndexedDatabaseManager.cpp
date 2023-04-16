@@ -3266,13 +3266,13 @@ auto
 fileManagerInfo
 :
 mFileManagerInfos
+.
+Values
+(
+)
 )
 {
 fileManagerInfo
-.
-GetData
-(
-)
 -
 >
 InvalidateAllFileManagers
