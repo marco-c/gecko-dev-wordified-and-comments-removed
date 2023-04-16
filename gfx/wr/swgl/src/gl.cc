@@ -5936,6 +5936,16 @@ return
 2
 "
 ;
+case
+GL_SHADING_LANGUAGE_VERSION
+:
+return
+"
+1
+.
+50
+"
+;
 default
 :
 debugf
