@@ -5688,15 +5688,6 @@ SimdOp
 :
 I64x2Mul
 :
-case
-wasm
-:
-:
-SimdOp
-:
-:
-V8x16Swizzle
-:
 tempReg0
 =
 tempSimd128
