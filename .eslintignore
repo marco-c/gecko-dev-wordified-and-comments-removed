@@ -1053,16 +1053,6 @@ js
 /
 src
 /
-jsapi
--
-tests
-/
-binast
-/
-js
-/
-src
-/
 tests
 /
 js
