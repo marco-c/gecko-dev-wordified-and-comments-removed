@@ -1,15 +1,7 @@
 import
-buildconfig
-import
 collections
 import
 re
-from
-six
-import
-StringIO
-import
-sys
 def
 read_conf
 (
