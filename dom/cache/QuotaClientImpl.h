@@ -338,7 +338,9 @@ aCommitHook
 )
 )
 ;
-CACHE_TRY
+QM_TRY
+(
+QM_OR_ELSE_WARN
 (
 ToResult
 (
@@ -347,8 +349,6 @@ LockedDirectoryPaddingFinalizeWrite
 aBaseDir
 )
 )
-.
-orElse
 (
 [
 &
@@ -396,6 +396,7 @@ Ok
 }
 ;
 }
+)
 )
 )
 ;

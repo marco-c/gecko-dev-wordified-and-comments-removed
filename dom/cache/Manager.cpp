@@ -678,11 +678,7 @@ knownBodyIdList
 )
 )
 ;
-[
-&
-]
-{
-CACHE_TRY
+QM_WARNONLY_TRY
 (
 MaybeUpdatePaddingFile
 (
@@ -700,7 +696,6 @@ trans
 ]
 (
 )
-mutable
 {
 return
 trans
@@ -711,11 +706,6 @@ Commit
 ;
 }
 )
-QM_VOID
-)
-;
-}
-(
 )
 ;
 }
