@@ -139,7 +139,7 @@ aValue
 ;
 virtual
 nsresult
-AddNameBlobOrNullPair
+AddNameBlobPair
 (
 const
 nsAString
@@ -469,7 +469,7 @@ NS_OK
 ;
 }
 nsresult
-AddNameBlobOrNullPair
+AddNameBlobPair
 (
 const
 nsAString
@@ -663,7 +663,7 @@ override
 ;
 virtual
 nsresult
-AddNameBlobOrNullPair
+AddNameBlobPair
 (
 const
 nsAString
