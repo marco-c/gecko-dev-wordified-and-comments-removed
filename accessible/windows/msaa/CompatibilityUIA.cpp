@@ -51,6 +51,13 @@ h
 #
 include
 "
+nsTHashSet
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h
@@ -1005,9 +1012,9 @@ USHORT
 >
 sectionObjTypeIndex
 ;
-nsTHashtable
+nsTHashSet
 <
-nsUint32HashKey
+uint32_t
 >
 nonSectionObjTypes
 ;
@@ -1260,7 +1267,7 @@ _ns
 {
 nonSectionObjTypes
 .
-PutEntry
+Insert
 (
 static_cast
 <
