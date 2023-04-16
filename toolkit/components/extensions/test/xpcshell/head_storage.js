@@ -3883,9 +3883,9 @@ EXCEPTION_MESSAGE
 The
 storage
 API
-is
+will
 not
-available
+work
 with
 a
 temporary
