@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -368,9 +368,9 @@ mOfflineLocalhost
 bool
 mForceResolveOn
 ;
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 mLocalDomains
 ;
