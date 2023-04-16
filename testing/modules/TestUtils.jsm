@@ -660,10 +660,11 @@ interval
 )
 ;
 }
-setTimeout
+TestUtils
+.
+executeSoon
 (
 tryOnce
-interval
 )
 ;
 }
