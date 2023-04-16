@@ -33,7 +33,7 @@ create_tasks
     
 fetch_graph_and_labels
     
-get_tasks_with_downstream
+get_downstream_browsertime_tasks
     
 rename_browsertime_vismet_task
 )
@@ -346,7 +346,7 @@ extend
 list
 (
                 
-get_tasks_with_downstream
+get_downstream_browsertime_tasks
 (
                     
 browsertime_tasks
