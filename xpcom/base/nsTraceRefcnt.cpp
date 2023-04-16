@@ -4180,7 +4180,7 @@ details
 ;
 static
 const
-size_t
+int
 buflen
 =
 1024
@@ -4200,6 +4200,9 @@ aPC
 details
 )
 ;
+int
+len
+=
 MozFormatCodeAddressDetails
 (
 buf
@@ -4210,7 +4213,6 @@ aPC
 details
 )
 ;
-size_t
 len
 =
 std
@@ -4218,10 +4220,7 @@ std
 :
 min
 (
-strlen
-(
-buf
-)
+len
 buflen
 +
 1
@@ -4295,7 +4294,7 @@ aClosure
 ;
 static
 const
-size_t
+int
 buflen
 =
 1024
@@ -4311,6 +4310,9 @@ buflen
 "
 "
 ;
+int
+len
+=
 gCodeAddressService
 -
 >
@@ -4324,7 +4326,6 @@ buf
 buflen
 )
 ;
-size_t
 len
 =
 std
@@ -4332,16 +4333,15 @@ std
 :
 min
 (
-strlen
-(
-buf
-)
+len
 buflen
 +
-5
+1
 -
 2
 )
++
+4
 ;
 buf
 [

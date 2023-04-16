@@ -102,7 +102,7 @@ aDetails
 )
 ;
 MFBT_API
-void
+int
 MozFormatCodeAddress
 (
 char
@@ -135,7 +135,7 @@ aLineNo
 )
 ;
 MFBT_API
-void
+int
 MozFormatCodeAddressDetails
 (
 char

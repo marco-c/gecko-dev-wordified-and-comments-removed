@@ -794,7 +794,7 @@ get
 ;
 }
 }
-void
+int
 GetLocation
 (
 uint32_t
@@ -819,6 +819,7 @@ GetEntry
 aPc
 )
 ;
+return
 MozFormatCodeAddress
 (
 aBuf

@@ -4023,7 +4023,7 @@ aStackEnd
 #
 endif
 MFBT_API
-void
+int
 MozFormatCodeAddressDetails
 (
 char
@@ -4042,6 +4042,7 @@ MozCodeAddressDetails
 aDetails
 )
 {
+return
 MozFormatCodeAddress
 (
 aBuffer
@@ -4072,7 +4073,7 @@ lineno
 ;
 }
 MFBT_API
-void
+int
 MozFormatCodeAddress
 (
 char
@@ -4136,6 +4137,7 @@ aFileName
 ]
 )
 {
+return
 SprintfBuf
 (
 aBuffer
@@ -4174,6 +4176,7 @@ aLibrary
 ]
 )
 {
+return
 SprintfBuf
 (
 aBuffer
@@ -4211,6 +4214,7 @@ aLOffset
 }
 else
 {
+return
 SprintfBuf
 (
 aBuffer
