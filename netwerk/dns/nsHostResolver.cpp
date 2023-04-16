@@ -3257,6 +3257,12 @@ NS_ENSURE_ARG
 aResult
 )
 ;
+MutexAutoLock
+lock
+(
+mResultsLock
+)
+;
 if
 (
 !
@@ -3313,6 +3319,12 @@ aResult
 NS_ENSURE_ARG
 (
 aResult
+)
+;
+MutexAutoLock
+lock
+(
+mResultsLock
 )
 ;
 if
