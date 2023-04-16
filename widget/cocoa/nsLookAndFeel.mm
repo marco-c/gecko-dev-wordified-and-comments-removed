@@ -2885,7 +2885,7 @@ aID
 FontID
 :
 :
-Window
+MozWindow
 |
 |
 aID
@@ -2894,7 +2894,7 @@ aID
 FontID
 :
 :
-Document
+MozDocument
 )
 {
 aFontStyle

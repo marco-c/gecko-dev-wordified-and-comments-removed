@@ -1705,7 +1705,10 @@ Gecko_nsFont_InitSystem
 nsFont
 *
 dst
-int32_t
+mozilla
+:
+:
+StyleSystemFont
 font_id
 const
 nsStyleFont

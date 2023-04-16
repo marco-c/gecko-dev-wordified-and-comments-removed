@@ -49131,7 +49131,7 @@ LookAndFeel
 FontID
 :
 :
-Field
+MozField
 |
 |
 aFontID
@@ -49143,7 +49143,7 @@ LookAndFeel
 FontID
 :
 :
-Button
+MozButton
 |
 |
 aFontID
@@ -49155,7 +49155,7 @@ LookAndFeel
 FontID
 :
 :
-List
+MozList
 )
 {
 const

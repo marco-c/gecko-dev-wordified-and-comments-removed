@@ -8609,7 +8609,7 @@ LookAndFeel
 FontID
 :
 :
-Field
+MozField
 unusedFontName
 fieldFontStyle
 )

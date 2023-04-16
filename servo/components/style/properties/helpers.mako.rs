@@ -3375,13 +3375,13 @@ use
 crate
 :
 :
-properties
+values
 :
 :
-longhands
+specified
 :
 :
-system_font
+font
 :
 :
 SystemFont
