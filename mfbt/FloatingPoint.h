@@ -2412,7 +2412,11 @@ aEpsilon
 smaller
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 extern
 MFBT_API
 bool

@@ -583,7 +583,11 @@ template
 typename
 U
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 Append
 (

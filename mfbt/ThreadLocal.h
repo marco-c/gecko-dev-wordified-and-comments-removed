@@ -503,7 +503,11 @@ T
 {
 public
 :
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 inline
 bool
 init
