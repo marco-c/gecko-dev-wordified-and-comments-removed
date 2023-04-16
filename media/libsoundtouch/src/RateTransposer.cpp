@@ -159,6 +159,10 @@ bUseAAFilter
 =
 newMode
 ;
+clear
+(
+)
+;
 #
 endif
 }
@@ -466,6 +470,13 @@ clear
 inputBuffer
 .
 clear
+(
+)
+;
+pTransposer
+-
+>
+resetRegisters
 (
 )
 ;

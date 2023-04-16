@@ -42,6 +42,10 @@ SAMPLETYPE
 *
 filterCoeffs
 ;
+SAMPLETYPE
+*
+filterCoeffsStereo
+;
 virtual
 uint
 evaluateFilterStereo

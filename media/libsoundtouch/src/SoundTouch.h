@@ -27,15 +27,13 @@ SOUNDTOUCH_VERSION
 "
 2
 .
-1
-.
-3
+2
 "
 #
 define
 SOUNDTOUCH_VERSION_ID
 (
-20103
+20200
 )
 #
 define
