@@ -301,7 +301,7 @@ countLogins
 )
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
