@@ -2355,6 +2355,7 @@ mHosts
 mSubscribers
 mTimerEventQueue
 mWorkerEventQueue
+mDocGroups
 )
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
 (
