@@ -332,6 +332,7 @@ mMenuGroupOwner
 new
 nsMenuGroupOwnerX
 (
+aElement
 this
 )
 ;
@@ -360,14 +361,6 @@ mContent
 {
 AquifyMenuBar
 (
-)
-;
-mMenuGroupOwner
--
->
-Create
-(
-aElement
 )
 ;
 mMenuGroupOwner
