@@ -5406,7 +5406,7 @@ gfx
 YUVColorSpace
 :
 :
-Identity
+UNKNOWN
 ;
 }
 gfx

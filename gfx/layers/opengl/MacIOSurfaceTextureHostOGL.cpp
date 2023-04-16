@@ -650,7 +650,7 @@ gfx
 YUVColorSpace
 :
 :
-Identity
+UNKNOWN
 ;
 }
 return

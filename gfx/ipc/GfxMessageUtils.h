@@ -4921,7 +4921,7 @@ ColorDepth
 >
 :
 public
-ContiguousEnumSerializerInclusive
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -4939,7 +4939,7 @@ gfx
 ColorDepth
 :
 :
-_First
+COLOR_8
 mozilla
 :
 :
@@ -4949,7 +4949,7 @@ gfx
 ColorDepth
 :
 :
-_Last
+UNKNOWN
 >
 {
 }
@@ -4970,7 +4970,7 @@ ColorRange
 >
 :
 public
-ContiguousEnumSerializerInclusive
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -4988,7 +4988,7 @@ gfx
 ColorRange
 :
 :
-_First
+LIMITED
 mozilla
 :
 :
@@ -4998,7 +4998,7 @@ gfx
 ColorRange
 :
 :
-_Last
+UNKNOWN
 >
 {
 }
@@ -5019,7 +5019,7 @@ YUVColorSpace
 >
 :
 public
-ContiguousEnumSerializerInclusive
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -5037,7 +5037,7 @@ gfx
 YUVColorSpace
 :
 :
-_First
+BT601
 mozilla
 :
 :
@@ -5047,7 +5047,7 @@ gfx
 YUVColorSpace
 :
 :
-_Last
+_NUM_COLORSPACE
 >
 {
 }

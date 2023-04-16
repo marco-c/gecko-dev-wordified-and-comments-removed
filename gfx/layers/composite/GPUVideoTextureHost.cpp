@@ -701,12 +701,13 @@ mWrappedTextureHost
 )
 {
 return
-TextureHost
+gfx
 :
 :
-GetYUVColorSpace
-(
-)
+YUVColorSpace
+:
+:
+UNKNOWN
 ;
 }
 return

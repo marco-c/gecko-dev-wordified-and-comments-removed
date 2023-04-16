@@ -365,7 +365,7 @@ gfx
 YUVColorSpace
 :
 :
-Default
+UNKNOWN
 ;
 }
 ;
@@ -1436,17 +1436,6 @@ gfx
 :
 YUVColorSpace
 mColorSpace
-=
-mozilla
-:
-:
-gfx
-:
-:
-YUVColorSpace
-:
-:
-Default
 ;
 }
 ;
