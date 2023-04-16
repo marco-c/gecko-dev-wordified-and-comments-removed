@@ -221,7 +221,7 @@ nscolor
 mColorWindowText
 ;
 nscolor
-mColorActiveCaption
+mColorGrid
 ;
 nscolor
 mColorActiveBorder
@@ -240,9 +240,6 @@ mColorScrollbar
 ;
 nscolor
 mColorThreeDHighlight
-;
-nscolor
-mColorWindowFrame
 ;
 nscolor
 mColorDialog
