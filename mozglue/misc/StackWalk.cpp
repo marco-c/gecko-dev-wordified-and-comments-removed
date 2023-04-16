@@ -59,6 +59,15 @@ h
 endif
 #
 include
+"
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
 <
 string
 .
@@ -4127,7 +4136,7 @@ aFileName
 ]
 )
 {
-snprintf
+SprintfBuf
 (
 aBuffer
 aBufferSize
@@ -4165,7 +4174,7 @@ aLibrary
 ]
 )
 {
-snprintf
+SprintfBuf
 (
 aBuffer
 aBufferSize
@@ -4202,7 +4211,7 @@ aLOffset
 }
 else
 {
-snprintf
+SprintfBuf
 (
 aBuffer
 aBufferSize
