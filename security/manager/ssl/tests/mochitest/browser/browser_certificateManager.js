@@ -127,6 +127,15 @@ length
 }
 )
 ;
+await
+new
+Promise
+(
+win
+.
+requestAnimationFrame
+)
+;
 let
 labels
 =
