@@ -1776,6 +1776,13 @@ MaybeRejectReplacePromise
 (
 )
 ;
+nsISupports
+*
+GetRelevantGlobal
+(
+)
+const
+;
 private
 :
 void

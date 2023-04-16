@@ -45,7 +45,7 @@ nsINode
 *
 parentNode
 =
-GetParentObject
+GetAssociatedNode
 (
 )
 ;
