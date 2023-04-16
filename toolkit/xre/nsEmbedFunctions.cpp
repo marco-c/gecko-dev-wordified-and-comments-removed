@@ -3068,6 +3068,12 @@ break
 case
 GeckoProcessType_Content
 :
+ioInterposerGuard
+.
+emplace
+(
+)
+;
 process
 =
 MakeUnique
