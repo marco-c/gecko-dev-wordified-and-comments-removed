@@ -880,18 +880,6 @@ null
 ;
 this
 .
-chromeBrowsingContext
-=
-null
-;
-this
-.
-contentBrowsingContext
-=
-null
-;
-this
-.
 context
 =
 Context
@@ -1477,6 +1465,8 @@ browsingContext
 =
 this
 .
+currentSession
+.
 chromeBrowsingContext
 ;
 }
@@ -1485,6 +1475,8 @@ else
 browsingContext
 =
 this
+.
+currentSession
 .
 contentBrowsingContext
 ;
@@ -2262,6 +2254,8 @@ mainFrame
 {
 this
 .
+currentSession
+.
 chromeBrowsingContext
 =
 this
@@ -2289,6 +2283,8 @@ tab
 )
 {
 this
+.
+currentSession
 .
 contentBrowsingContext
 =
@@ -2424,6 +2420,8 @@ browserId
 =
 this
 .
+currentSession
+.
 contentBrowsingContext
 ?
 .
@@ -2438,6 +2436,8 @@ parent
 &
 !
 this
+.
+currentSession
 .
 contentBrowsingContext
 ?
@@ -2472,6 +2472,8 @@ id
 )
 ;
 this
+.
+currentSession
 .
 contentBrowsingContext
 =
@@ -3048,6 +3050,8 @@ message
 }
 this
 .
+currentSession
+.
 contentBrowsingContext
 =
 browsingContext
@@ -3480,6 +3484,8 @@ _handleUserPrompts
 )
 ;
 this
+.
+currentSession
 .
 contentBrowsingContext
 =
@@ -4402,6 +4408,8 @@ win
 ;
 this
 .
+currentSession
+.
 chromeBrowsingContext
 =
 this
@@ -4419,6 +4427,8 @@ hasTabBrowser
 )
 {
 this
+.
+currentSession
 .
 contentBrowsingContext
 =
@@ -4453,6 +4463,8 @@ selectedBrowser
 tabBrowser
 ;
 this
+.
+currentSession
 .
 contentBrowsingContext
 =
@@ -4527,6 +4539,8 @@ focus
 }
 this
 .
+currentSession
+.
 chromeBrowsingContext
 =
 this
@@ -4536,6 +4550,8 @@ mainFrame
 browsingContext
 ;
 this
+.
+currentSession
 .
 contentBrowsingContext
 =
@@ -4611,6 +4627,8 @@ parent
 )
 ;
 this
+.
+currentSession
 .
 contentBrowsingContext
 =
@@ -4773,6 +4791,8 @@ id
 )
 ;
 this
+.
+currentSession
 .
 contentBrowsingContext
 =
@@ -7168,6 +7188,8 @@ closeTab
 ;
 this
 .
+currentSession
+.
 contentBrowsingContext
 =
 null
@@ -7266,11 +7288,15 @@ closeWindow
 ;
 this
 .
+currentSession
+.
 chromeBrowsingContext
 =
 null
 ;
 this
+.
+currentSession
 .
 contentBrowsingContext
 =
@@ -7313,18 +7339,6 @@ unregisterEventsActor
 this
 .
 mainFrame
-=
-null
-;
-this
-.
-chromeBrowsingContext
-=
-null
-;
-this
-.
-contentBrowsingContext
 =
 null
 ;
