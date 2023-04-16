@@ -96,7 +96,7 @@ u8
 ]
 pub
 enum
-GenericPageSize
+PageSize
 <
 S
 >
@@ -120,15 +120,6 @@ Orientation
 )
 Auto
 }
-pub
-use
-self
-:
-:
-GenericPageSize
-as
-PageSize
-;
 impl
 <
 S

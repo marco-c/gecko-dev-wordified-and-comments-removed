@@ -93,19 +93,6 @@ flags
             
 continue
         
-if
-"
-Style
-"
-not
-in
-p
-.
-rules
-:
-            
-continue
-        
 extendedAttrs
 =
 [
