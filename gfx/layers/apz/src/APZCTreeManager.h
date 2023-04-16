@@ -976,6 +976,12 @@ HitTestResult
 =
 default
 ;
+HitTestResult
+CopyWithoutScrollbarNode
+(
+)
+const
+;
 }
 ;
 RefPtr
