@@ -521,6 +521,12 @@ GetMemory
 )
 ;
 virtual
+uint32_t
+GetLastError
+(
+)
+;
+virtual
 MinidumpContext
 *
 GetContext
