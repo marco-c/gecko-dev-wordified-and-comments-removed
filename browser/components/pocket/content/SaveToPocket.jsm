@@ -1380,7 +1380,7 @@ global
 /
 skin
 /
-reader
+icons
 /
 pocket
 .
