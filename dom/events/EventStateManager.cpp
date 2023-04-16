@@ -15286,6 +15286,19 @@ GetWindow
 )
 )
 ;
+if
+(
+XRE_IsParentProcess
+(
+)
+|
+|
+IsInActiveTab
+(
+mDocument
+)
+)
+{
 fm
 -
 >
@@ -15299,6 +15312,7 @@ GetWindow
 )
 )
 ;
+}
 }
 }
 }
