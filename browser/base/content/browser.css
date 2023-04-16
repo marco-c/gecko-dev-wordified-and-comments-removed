@@ -3022,7 +3022,7 @@ inFullscreen
 not
 (
 [
-OSXLionFullscreen
+macOSNativeFullscreen
 ]
 )
 toolbar
@@ -7310,7 +7310,7 @@ translate
 :
 root
 [
-OSXLionFullscreen
+macOSNativeFullscreen
 ]
 .
 pointerlockfswarning
