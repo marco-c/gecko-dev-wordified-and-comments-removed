@@ -212,9 +212,6 @@ nscolor
 mColorMenuHoverText
 ;
 nscolor
-mColorButtonText
-;
-nscolor
 mColorButtonHoverText
 ;
 nscolor
