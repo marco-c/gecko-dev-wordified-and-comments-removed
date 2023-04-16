@@ -112,7 +112,6 @@ NS_IMPL_CYCLE_COLLECTION
 ScriptFetchOptions
 mElement
 mTriggeringPrincipal
-mWebExtGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
 (
@@ -142,9 +141,6 @@ aElement
 nsIPrincipal
 *
 aTriggeringPrincipal
-nsIGlobalObject
-*
-aWebExtGlobal
 )
 :
 mCORSMode
@@ -166,10 +162,6 @@ aElement
 mTriggeringPrincipal
 (
 aTriggeringPrincipal
-)
-mWebExtGlobal
-(
-aWebExtGlobal
 )
 {
 MOZ_ASSERT
