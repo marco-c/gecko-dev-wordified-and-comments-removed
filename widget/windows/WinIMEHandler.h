@@ -524,12 +524,6 @@ nsWindow
 aWindow
 )
 ;
-static
-HWND
-GetOnScreenKeyboardWindow
-(
-)
-;
 }
 ;
 }
