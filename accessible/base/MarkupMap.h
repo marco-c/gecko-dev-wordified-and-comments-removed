@@ -2853,11 +2853,15 @@ GetParent
 parentFrame
 =
 parentContent
+?
+parentContent
 -
 >
 GetPrimaryFrame
 (
 )
+:
+nullptr
 ;
 if
 (
