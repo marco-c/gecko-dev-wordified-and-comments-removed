@@ -82,7 +82,7 @@ case
 VibrancyType
 :
 :
-LIGHT
+TITLEBAR_LIGHT
 :
 case
 VibrancyType
@@ -134,7 +134,7 @@ case
 VibrancyType
 :
 :
-DARK
+TITLEBAR_DARK
 :
 return
 [
