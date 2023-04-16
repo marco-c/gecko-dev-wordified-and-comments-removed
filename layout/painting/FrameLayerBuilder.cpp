@@ -24931,7 +24931,7 @@ child
 "
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 ActiveScrolledRoot
 :

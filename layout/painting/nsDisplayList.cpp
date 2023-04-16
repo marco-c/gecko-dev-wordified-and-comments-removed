@@ -7185,7 +7185,7 @@ if
 asr
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 aAncestor
@@ -15060,10 +15060,7 @@ GetClipRect
 )
 ;
 }
-#
-ifdef
-DEBUG
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 false
 "
@@ -15079,8 +15076,6 @@ aASR
 "
 )
 ;
-#
-endif
 return
 Nothing
 (
@@ -48527,10 +48522,7 @@ aASR
 )
 ;
 }
-#
-ifdef
-DEBUG
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 false
 "
@@ -48546,8 +48538,6 @@ aASR
 "
 )
 ;
-#
-endif
 return
 Nothing
 (

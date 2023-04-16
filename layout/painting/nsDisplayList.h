@@ -855,7 +855,7 @@ ActiveScrolledRoot
 aTwo
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsAncestor
 (
@@ -904,7 +904,7 @@ ActiveScrolledRoot
 aTwo
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsAncestor
 (
