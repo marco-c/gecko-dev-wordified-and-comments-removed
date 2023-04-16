@@ -252,6 +252,11 @@ time
 tier
 :
 default
+python
+-
+3
+:
+true
 mozharness
 :
 script
