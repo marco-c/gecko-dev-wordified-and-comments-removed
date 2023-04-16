@@ -444,7 +444,7 @@ false
 SET_DEFAULT
 (
 scalarReplaceArguments
-false
+true
 )
 ;
 SET_DEFAULT
