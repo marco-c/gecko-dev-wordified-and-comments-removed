@@ -504,11 +504,6 @@ this
 onTargetDestroyed
 (
 target
-{
-shouldDestroyTargetFront
-:
-false
-}
 )
 ;
 }

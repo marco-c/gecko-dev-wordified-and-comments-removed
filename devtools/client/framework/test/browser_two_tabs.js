@@ -694,12 +694,6 @@ getTab
 filter
 )
 ;
-descriptor
-.
-shouldCloseClient
-=
-false
-;
 return
 descriptor
 .
