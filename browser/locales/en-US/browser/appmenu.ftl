@@ -125,7 +125,7 @@ label
 Passwords
 appmenuitem
 -
-extensions
+addons
 -
 and
 -
@@ -134,7 +134,9 @@ themes
 .
 label
 =
-Extensions
+Add
+-
+ons
 and
 Themes
 appmenuitem

@@ -3753,7 +3753,11 @@ menu
 -
 tools
 -
-extensions
+addons
+-
+and
+-
+themes
 "
 /
 >
