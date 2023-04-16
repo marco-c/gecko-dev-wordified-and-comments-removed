@@ -9174,6 +9174,14 @@ pc
 )
 ;
 void
+incHitCount
+(
+jsbytecode
+*
+pc
+)
+;
+void
 addIonCounts
 (
 js
