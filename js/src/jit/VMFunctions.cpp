@@ -6329,6 +6329,8 @@ return
 }
 uint32_t
 index
+=
+UINT32_MAX
 ;
 if
 (
