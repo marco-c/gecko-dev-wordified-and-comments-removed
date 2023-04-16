@@ -63,6 +63,11 @@ hookAMTelemetryEvents
 (
 )
 ;
+const
+kSideloaded
+=
+true
+;
 async
 function
 createWebExtension
@@ -954,6 +959,7 @@ history
 "
 ]
 ]
+kSideloaded
 )
 ;
 panel
@@ -1208,6 +1214,7 @@ allUrls
 "
 ]
 ]
+kSideloaded
 )
 ;
 function
@@ -1518,6 +1525,7 @@ allUrls
 "
 ]
 ]
+kSideloaded
 )
 ;
 testPostInstallIncognitoCheckbox
