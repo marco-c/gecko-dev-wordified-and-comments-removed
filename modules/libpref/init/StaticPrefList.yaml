@@ -2287,7 +2287,7 @@ android
 widget_paints_background
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
