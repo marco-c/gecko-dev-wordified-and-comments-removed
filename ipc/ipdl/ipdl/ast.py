@@ -2123,3 +2123,10 @@ self
 scope
 =
 None
+        
+self
+.
+attributes
+=
+{
+}
