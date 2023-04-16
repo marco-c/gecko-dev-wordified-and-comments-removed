@@ -107,6 +107,13 @@ username
 "
 )
 ;
+await
+new
+Promise
+(
+requestAnimationFrame
+)
+;
 let
 warningItem
 =
