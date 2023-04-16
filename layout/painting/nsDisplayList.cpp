@@ -15077,7 +15077,10 @@ GetClipRect
 )
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+#
+ifdef
+DEBUG
+MOZ_ASSERT
 (
 false
 "
@@ -15093,6 +15096,8 @@ aASR
 "
 )
 ;
+#
+endif
 return
 Nothing
 (
