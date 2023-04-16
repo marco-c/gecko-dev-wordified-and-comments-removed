@@ -625,6 +625,7 @@ aHint
 bool
 aSearchForward
 )
+const
 ;
 void
 BuildSoftText
