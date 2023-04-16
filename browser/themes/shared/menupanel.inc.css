@@ -422,7 +422,11 @@ svg
 ;
 }
 #
-appMenu_help_taskManager
+appMenu
+-
+taskmanager
+-
+button
 {
 list
 -
