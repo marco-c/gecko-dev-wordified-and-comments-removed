@@ -144,18 +144,11 @@ nsMenuItemIconX
 nsMenuObjectX
 *
 aMenuItem
-nsIContent
-*
-aContent
 NSMenuItem
 *
 aNativeMenuItem
 )
 :
-mContent
-(
-aContent
-)
 mMenuObject
 (
 aMenuItem
@@ -172,11 +165,6 @@ aNativeMenuItem
 MOZ_COUNT_CTOR
 (
 nsMenuItemIconX
-)
-;
-MOZ_RELEASE_ASSERT
-(
-mContent
 )
 ;
 }
@@ -213,6 +201,9 @@ nsMenuItemIconX
 :
 SetupIcon
 (
+nsIContent
+*
+aContent
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
@@ -245,6 +236,7 @@ iconURI
 =
 GetIconURI
 (
+aContent
 )
 ;
 if
@@ -314,7 +306,7 @@ mIconLoader
 LoadIcon
 (
 iconURI
-mContent
+aContent
 )
 ;
 if
@@ -351,6 +343,9 @@ nsMenuItemIconX
 :
 GetIconURI
 (
+nsIContent
+*
+aContent
 )
 {
 nsAutoString
@@ -359,7 +354,7 @@ imageURIString
 bool
 hasImageAttr
 =
-mContent
+aContent
 -
 >
 IsElement
@@ -367,7 +362,7 @@ IsElement
 )
 &
 &
-mContent
+aContent
 -
 >
 AsElement
@@ -446,7 +441,7 @@ Document
 >
 document
 =
-mContent
+aContent
 -
 >
 GetComposedDoc
@@ -460,7 +455,7 @@ document
 |
 |
 !
-mContent
+aContent
 -
 >
 IsElement
@@ -483,7 +478,7 @@ nsComputedDOMStyle
 :
 GetComputedStyle
 (
-mContent
+aContent
 -
 >
 AsElement

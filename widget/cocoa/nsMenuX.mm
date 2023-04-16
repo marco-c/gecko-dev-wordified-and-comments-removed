@@ -761,7 +761,6 @@ nsMenuItemIconX
 >
 (
 this
-mContent
 mNativeMenuItem
 )
 ;
@@ -3197,6 +3196,7 @@ mIcon
 >
 SetupIcon
 (
+mContent
 )
 ;
 }
