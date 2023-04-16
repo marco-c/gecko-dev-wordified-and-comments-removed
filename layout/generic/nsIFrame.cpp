@@ -24238,7 +24238,7 @@ if
 aFrame
 -
 >
-IsBlockFrameOrSubclass
+IsBlockOutside
 (
 )
 |
