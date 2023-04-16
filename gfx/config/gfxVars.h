@@ -492,6 +492,13 @@ nsCString
 (
 )
 )
+\
+_
+(
+UseDMABuf
+bool
+false
+)
 class
 gfxVars
 final

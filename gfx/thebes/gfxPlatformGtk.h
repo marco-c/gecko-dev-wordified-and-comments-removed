@@ -383,6 +383,11 @@ InitX11EGLConfig
 )
 ;
 void
+InitDmabufConfig
+(
+)
+;
+void
 InitPlatformGPUProcessPrefs
 (
 )
