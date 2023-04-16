@@ -1130,6 +1130,11 @@ resetLocationChangeRateLimit
 (
 )
 ;
+readonly
+attribute
+long
+childOffset
+;
 }
 ;
 BrowsingContext

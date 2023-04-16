@@ -3466,9 +3466,6 @@ mPreviousEntryIndex
 int32_t
 mLoadedEntryIndex
 ;
-int32_t
-mChildOffset
-;
 BusyFlags
 mBusyFlags
 ;
