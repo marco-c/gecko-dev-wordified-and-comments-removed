@@ -2500,15 +2500,6 @@ false
 ;
 }
 }
-private
-:
-void
-RegUnRegAccessKey
-(
-bool
-aDoReg
-)
-;
 protected
 :
 virtual

@@ -5671,6 +5671,14 @@ nsAtom
 aAttr
 )
 ;
+virtual
+void
+RegUnRegAccessKey
+(
+bool
+aDoReg
+)
+;
 private
 :
 #

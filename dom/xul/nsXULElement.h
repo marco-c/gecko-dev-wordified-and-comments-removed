@@ -2751,6 +2751,7 @@ RegUnRegAccessKey
 bool
 aDoReg
 )
+override
 ;
 bool
 BoolAttrIsTrue
