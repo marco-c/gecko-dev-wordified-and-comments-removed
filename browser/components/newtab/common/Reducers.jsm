@@ -4132,7 +4132,7 @@ type
 case
 at
 .
-HIDE_SEARCH
+DISABLE_SEARCH
 :
 return
 Object
@@ -4144,7 +4144,7 @@ assign
 .
 .
 prevState
-hide
+disable
 :
 true
 }
@@ -4186,7 +4186,7 @@ assign
 .
 .
 prevState
-hide
+disable
 :
 false
 fakeFocus

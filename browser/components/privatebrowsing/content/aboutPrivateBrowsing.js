@@ -545,10 +545,10 @@ editable
 )
 ;
 let
-HIDE_SEARCH_TOPIC
+DISABLE_SEARCH_TOPIC
 =
 "
-HideSearch
+DisableSearch
 "
 ;
 let
@@ -588,7 +588,7 @@ classList
 remove
 (
 "
-hidden
+disabled
 "
 )
 ;
@@ -600,7 +600,7 @@ showSearch
 ;
 }
 function
-hideSearch
+disableSearch
 (
 )
 {
@@ -611,7 +611,7 @@ classList
 add
 (
 "
-hidden
+disabled
 "
 )
 ;
@@ -641,7 +641,7 @@ if
 text
 )
 {
-hideSearch
+disableSearch
 (
 )
 ;
@@ -661,8 +661,8 @@ focused
 ;
 RPMAddMessageListener
 (
-HIDE_SEARCH_TOPIC
-hideSearch
+DISABLE_SEARCH_TOPIC
+disableSearch
 )
 ;
 }
