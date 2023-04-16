@@ -35,7 +35,7 @@ u8
 extern
 {
 fn
-com_dc_create_window
+com_wl_create_window
 (
 width
 :
@@ -57,7 +57,7 @@ mut
 Window
 ;
 fn
-com_dc_destroy_window
+com_wl_destroy_window
 (
 window
 :
@@ -67,7 +67,7 @@ Window
 )
 ;
 fn
-com_dc_tick
+com_wl_tick
 (
 window
 :
@@ -80,7 +80,7 @@ Window
 bool
 ;
 fn
-com_dc_get_proc_address
+com_wl_get_proc_address
 (
 name
 :
@@ -95,7 +95,7 @@ const
 c_void
 ;
 fn
-com_dc_swap_buffers
+com_wl_swap_buffers
 (
 window
 :
@@ -105,7 +105,7 @@ Window
 )
 ;
 fn
-com_dc_create_surface
+com_wl_create_surface
 (
 window
 :
@@ -127,7 +127,7 @@ bool
 )
 ;
 fn
-com_dc_create_tile
+com_wl_create_tile
 (
 window
 :
@@ -146,7 +146,7 @@ i32
 )
 ;
 fn
-com_dc_destroy_tile
+com_wl_destroy_tile
 (
 window
 :
@@ -165,7 +165,7 @@ i32
 )
 ;
 fn
-com_dc_destroy_surface
+com_wl_destroy_surface
 (
 window
 :
@@ -178,7 +178,7 @@ u64
 )
 ;
 fn
-com_dc_bind_surface
+com_wl_bind_surface
 (
 window
 :
@@ -222,7 +222,7 @@ i32
 u32
 ;
 fn
-com_dc_unbind_surface
+com_wl_unbind_surface
 (
 window
 :
@@ -232,7 +232,7 @@ Window
 )
 ;
 fn
-com_dc_begin_transaction
+com_wl_begin_transaction
 (
 window
 :
@@ -242,7 +242,7 @@ Window
 )
 ;
 fn
-com_dc_add_surface
+com_wl_add_surface
 (
 window
 :
@@ -273,7 +273,7 @@ i32
 )
 ;
 fn
-com_dc_end_transaction
+com_wl_end_transaction
 (
 window
 :
@@ -283,7 +283,7 @@ Window
 )
 ;
 fn
-deinit
+com_wl_deinit
 (
 window
 :
@@ -318,7 +318,7 @@ Window
 {
 unsafe
 {
-com_dc_create_window
+com_wl_create_window
 (
 width
 height
@@ -340,7 +340,7 @@ Window
 {
 unsafe
 {
-com_dc_destroy_window
+com_wl_destroy_window
 (
 window
 )
@@ -363,7 +363,7 @@ bool
 {
 unsafe
 {
-com_dc_tick
+com_wl_tick
 (
 window
 )
@@ -387,7 +387,7 @@ c_void
 {
 unsafe
 {
-com_dc_get_proc_address
+com_wl_get_proc_address
 (
 name
 )
@@ -418,7 +418,7 @@ bool
 {
 unsafe
 {
-com_dc_create_surface
+com_wl_create_surface
 (
 window
 id
@@ -450,7 +450,7 @@ i32
 {
 unsafe
 {
-com_dc_create_tile
+com_wl_create_tile
 (
 window
 id
@@ -481,7 +481,7 @@ i32
 {
 unsafe
 {
-com_dc_destroy_tile
+com_wl_destroy_tile
 (
 window
 id
@@ -506,7 +506,7 @@ u64
 {
 unsafe
 {
-com_dc_destroy_surface
+com_wl_destroy_surface
 (
 window
 id
@@ -569,7 +569,7 @@ y_offset
 let
 fbo_id
 =
-com_dc_bind_surface
+com_wl_bind_surface
 (
 window
 surface_id
@@ -628,7 +628,7 @@ i32
 {
 unsafe
 {
-com_dc_add_surface
+com_wl_add_surface
 (
 window
 id
@@ -654,7 +654,7 @@ Window
 {
 unsafe
 {
-com_dc_begin_transaction
+com_wl_begin_transaction
 (
 window
 )
@@ -673,7 +673,7 @@ Window
 {
 unsafe
 {
-com_dc_unbind_surface
+com_wl_unbind_surface
 (
 window
 )
@@ -692,7 +692,7 @@ Window
 {
 unsafe
 {
-com_dc_end_transaction
+com_wl_end_transaction
 (
 window
 )
@@ -711,7 +711,7 @@ Window
 {
 unsafe
 {
-com_dc_swap_buffers
+com_wl_swap_buffers
 (
 window
 )
@@ -729,8 +729,12 @@ mut
 Window
 )
 {
-todo
-!
+unsafe
+{
+com_wl_deinit
 (
+window
 )
+;
+}
 }
