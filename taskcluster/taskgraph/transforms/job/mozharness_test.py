@@ -2500,6 +2500,18 @@ update
 {
                 
 "
+LANG
+"
+:
+"
+en_US
+.
+UTF
+-
+8
+"
+                
+"
 MOZHARNESS_CONFIG
 "
 :

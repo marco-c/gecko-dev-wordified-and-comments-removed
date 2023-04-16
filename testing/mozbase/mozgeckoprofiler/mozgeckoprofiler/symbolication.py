@@ -51,6 +51,8 @@ from
 cStringIO
 import
 StringIO
+as
+sio
     
 from
 urllib2
@@ -62,7 +64,9 @@ else
 from
 io
 import
-StringIO
+BytesIO
+as
+sio
     
 from
 urllib
@@ -880,7 +884,7 @@ zipfile
 .
 ZipFile
 (
-StringIO
+sio
 (
 io
 .
@@ -1111,17 +1115,28 @@ path
 .
 join
 (
+            
 marker_dir
 hashlib
 .
 sha1
 (
 symbol_zip_url
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
 )
 .
 hexdigest
 (
 )
+        
 )
     
 def

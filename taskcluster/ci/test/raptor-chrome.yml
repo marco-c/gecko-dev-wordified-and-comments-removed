@@ -169,6 +169,11 @@ raptor
 linux_config
 .
 py
+python
+-
+3
+:
+true
 raptor
 -
 speedometer
