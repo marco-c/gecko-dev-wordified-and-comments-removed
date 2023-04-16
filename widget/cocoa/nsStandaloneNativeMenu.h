@@ -107,10 +107,7 @@ nsStandaloneNativeMenu
 (
 )
 ;
-mozilla
-:
-:
-UniquePtr
+RefPtr
 <
 nsMenuX
 >

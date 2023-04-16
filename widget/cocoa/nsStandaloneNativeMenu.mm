@@ -189,7 +189,7 @@ rv
 }
 mMenu
 =
-MakeUnique
+MakeRefPtr
 <
 nsMenuX
 >
