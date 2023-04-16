@@ -224,6 +224,14 @@ return
 mNativeMenuItem
 ;
 }
+void
+Dump
+(
+uint32_t
+aIndent
+)
+const
+;
 protected
 :
 void
