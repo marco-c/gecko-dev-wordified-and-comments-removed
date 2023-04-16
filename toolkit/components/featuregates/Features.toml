@@ -1759,10 +1759,10 @@ value
 default
 =
 false
-nightly
+android
 =
-true
-beta
+false
+early_beta_or_earlier
 =
 true
 }

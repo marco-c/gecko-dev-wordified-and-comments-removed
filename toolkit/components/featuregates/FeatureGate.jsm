@@ -829,6 +829,14 @@ beta
 ]
 [
 "
+early_beta_or_earlier
+"
+AppConstants
+.
+EARLY_BETA_OR_EARLIER
+]
+[
+"
 dev
 -
 edition
