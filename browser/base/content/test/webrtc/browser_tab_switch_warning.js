@@ -94,7 +94,7 @@ browser
 .
 ctrlTab
 .
-recentlyUsedOrder
+sortByRecentlyUsed
 "
 ;
 async

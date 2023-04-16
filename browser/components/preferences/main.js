@@ -726,7 +726,7 @@ browser
 .
 ctrlTab
 .
-recentlyUsedOrder
+sortByRecentlyUsed
 "
 type
 :

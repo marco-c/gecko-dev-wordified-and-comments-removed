@@ -3369,9 +3369,9 @@ browser
 .
 ctrlTab
 .
-recentlyUsedOrder
+sortByRecentlyUsed
 "
-true
+false
 )
 ;
 pref
@@ -7898,7 +7898,7 @@ browser
 .
 ctrlTab
 .
-recentlyUsedOrder
+sortByRecentlyUsed
 "
 true
 )

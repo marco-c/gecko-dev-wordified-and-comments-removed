@@ -1070,7 +1070,7 @@ browser
 .
 ctrlTab
 .
-recentlyUsedOrder
+sortByRecentlyUsed
 "
 readPref
 :

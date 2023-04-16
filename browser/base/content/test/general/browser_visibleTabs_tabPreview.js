@@ -21,7 +21,7 @@ browser
 .
 ctrlTab
 .
-recentlyUsedOrder
+sortByRecentlyUsed
 "
 true
 ]
