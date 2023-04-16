@@ -3061,6 +3061,11 @@ href
 activate
 :
 true
+source
+:
+"
+view_list
+"
 }
 )
 ;
@@ -3824,6 +3829,11 @@ href
 activate
 :
 true
+source
+:
+"
+recs_learn_more
+"
 }
 )
 ;

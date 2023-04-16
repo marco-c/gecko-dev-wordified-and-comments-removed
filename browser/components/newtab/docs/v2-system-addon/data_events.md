@@ -5483,6 +5483,10 @@ source
 "
 :
 "
+recs_learn_more
+|
+view_list
+|
 save_button
 |
 on_save_recs
