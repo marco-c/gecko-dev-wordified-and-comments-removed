@@ -2731,6 +2731,13 @@ INT64_PIECES
 {
 public
 :
+static
+const
+size_t
+Input
+=
+0
+;
 LIR_HEADER
 (
 WasmReinterpretFromI64
@@ -2752,7 +2759,7 @@ classOpcode
 {
 setInt64Operand
 (
-0
+Input
 input
 )
 ;
