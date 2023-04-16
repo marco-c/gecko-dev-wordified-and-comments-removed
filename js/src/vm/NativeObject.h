@@ -3757,9 +3757,9 @@ HandleNativeObject
 obj
 HandleId
 id
-JSGetterOp
+GetterOp
 getter
-JSSetterOp
+SetterOp
 setter
 unsigned
 attrs
@@ -3825,9 +3825,9 @@ HandleNativeObject
 obj
 HandleId
 id
-JSGetterOp
+GetterOp
 getter
-JSSetterOp
+SetterOp
 setter
 unsigned
 attrs
@@ -3847,9 +3847,9 @@ HandleShape
 shape
 unsigned
 attrs
-JSGetterOp
+GetterOp
 getter
-JSSetterOp
+SetterOp
 setter
 )
 ;
@@ -3911,9 +3911,9 @@ HandleNativeObject
 obj
 HandleId
 id
-JSGetterOp
+GetterOp
 getter
-JSSetterOp
+SetterOp
 setter
 unsigned
 attrs
