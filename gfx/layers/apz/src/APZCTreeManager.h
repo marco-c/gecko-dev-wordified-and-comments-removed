@@ -949,6 +949,11 @@ SideBits
 :
 eNone
 ;
+bool
+mHitOverscrollGutter
+=
+false
+;
 HitTestResult
 (
 )
@@ -1377,7 +1382,6 @@ APZEventResult
 Finish
 (
 )
-const
 ;
 }
 ;
