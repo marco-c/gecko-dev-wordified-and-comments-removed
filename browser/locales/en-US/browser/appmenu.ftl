@@ -449,8 +449,8 @@ value
 =
 Sync
 and
-Save
-Data
+save
+data
 appmenu
 -
 fxa
