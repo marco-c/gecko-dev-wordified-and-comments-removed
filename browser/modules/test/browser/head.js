@@ -727,7 +727,7 @@ window
 windowUtils
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1128,6 +1128,7 @@ panelViewNode
 )
 ;
 }
+async
 function
 promisePageActionViewChildrenVisible
 (
@@ -1149,6 +1150,13 @@ visible
 "
 )
 ;
+await
+new
+Promise
+(
+requestAnimationFrame
+)
+;
 let
 dwu
 =
@@ -1157,7 +1165,7 @@ window
 windowUtils
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
