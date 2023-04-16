@@ -316,6 +316,14 @@ return
 mNativeMenu
 ;
 }
+NSInteger
+CalculateNativeInsertionPoint
+(
+nsMenuX
+*
+aChild
+)
+;
 void
 Dump
 (
