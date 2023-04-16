@@ -89,6 +89,10 @@ RecordedTextureData
 (
 )
 {
+mDT
+=
+nullptr
+;
 mCanvasChild
 -
 >
