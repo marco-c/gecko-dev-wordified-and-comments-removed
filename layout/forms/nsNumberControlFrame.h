@@ -247,16 +247,6 @@ endif
 static
 nsNumberControlFrame
 *
-GetNumberControlFrameForTextField
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
-nsNumberControlFrame
-*
 GetNumberControlFrameForSpinButton
 (
 nsIFrame
