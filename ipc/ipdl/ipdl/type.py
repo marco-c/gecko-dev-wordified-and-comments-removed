@@ -4057,6 +4057,7 @@ builtinUsing
 def
 declare
 (
+        
 self
 loc
 type
@@ -4073,6 +4074,7 @@ attributes
 =
 {
 }
+    
 )
 :
         
@@ -6931,6 +6933,9 @@ NoTaint
 "
 passback
 "
+"
+allvalid
+"
 )
                 
 }
@@ -6956,17 +6961,17 @@ typespec
 loc
             
 if
-'
+"
 NoTaint
-'
+"
 in
 param
 .
 attributes
 and
-'
+"
 Tainted
-'
+"
 not
 in
 md
@@ -7084,6 +7089,7 @@ self
 .
 declare
 (
+                
 loc
 =
 ploc
@@ -7100,6 +7106,7 @@ attributes
 param
 .
 attributes
+            
 )
         
 for

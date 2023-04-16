@@ -6604,6 +6604,8 @@ sems
 :
             
 if
+(
+                
 self
 .
 decl
@@ -6611,15 +6613,17 @@ decl
 type
 .
 tainted
+                
 and
-'
+"
 NoTaint
-'
+"
 not
 in
 d
 .
 attributes
+                
 and
 direction
 =
@@ -6627,6 +6631,8 @@ direction
 "
 recv
 "
+            
+)
 :
                 
 assert
@@ -31093,9 +31099,9 @@ type
 .
 tainted
 and
-'
+"
 NoTaint
-'
+"
 not
 in
 p
