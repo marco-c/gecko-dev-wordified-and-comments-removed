@@ -5022,6 +5022,7 @@ WasmHeapMeta
 )
 ;
 auto
+*
 load
 =
 MWasmLoadTls
