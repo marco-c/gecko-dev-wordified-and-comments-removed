@@ -256,6 +256,11 @@ uint32_t
 aCount
 )
 ;
+bool
+OnOpen
+(
+)
+;
 nsEventStatus
 MenuOpened
 (
@@ -461,11 +466,6 @@ GetMenuPopupContent
 (
 )
 ;
-bool
-OnOpen
-(
-)
-;
 void
 AddMenuItem
 (
@@ -635,6 +635,11 @@ bool
 mVisible
 =
 true
+;
+bool
+mDidFirePopupshowingAndIsApprovedToOpen
+=
+false
 ;
 }
 ;
