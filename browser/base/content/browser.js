@@ -40184,9 +40184,7 @@ tabmodalChromePromptShowing
 true
 )
 ;
-PopupNotifications
-.
-anchorVisibilityChange
+UpdatePopupNotificationsVisibility
 (
 )
 ;
@@ -40527,9 +40525,7 @@ tabmodalChromePromptShowing
 "
 )
 ;
-PopupNotifications
-.
-anchorVisibilityChange
+UpdatePopupNotificationsVisibility
 (
 )
 ;
