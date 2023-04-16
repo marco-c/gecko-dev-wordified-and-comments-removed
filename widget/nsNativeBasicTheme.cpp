@@ -8913,7 +8913,9 @@ PrefsFor
 aDoc
 )
 .
-mUseAccessibilityTheme
+NonNativeThemeShouldUseSystemColors
+(
+)
 )
 ;
 }
