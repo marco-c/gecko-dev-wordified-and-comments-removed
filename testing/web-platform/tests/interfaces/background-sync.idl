@@ -80,7 +80,7 @@ SyncManager
 {
 Promise
 <
-void
+undefined
 >
 register
 (
