@@ -75,7 +75,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -127,12 +127,10 @@ BackgroundMutableFileChild
 *
 mBackgroundActor
 ;
-nsTHashtable
-<
-nsPtrHashKey
+nsTHashSet
 <
 IDBFileHandle
->
+*
 >
 mFileHandles
 ;

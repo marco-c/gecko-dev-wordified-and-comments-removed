@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -255,12 +255,10 @@ BackgroundDatabaseChild
 *
 mBackgroundActor
 ;
-nsTHashtable
-<
-nsPtrHashKey
+nsTHashSet
 <
 IDBTransaction
->
+*
 >
 mTransactions
 ;
