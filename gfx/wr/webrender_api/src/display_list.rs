@@ -5981,6 +5981,11 @@ descriptor
 :
 BuiltDisplayListDescriptor
 {
+gecko_display_list_time
+:
+0
+.
+0
 builder_start_time
 :
 0

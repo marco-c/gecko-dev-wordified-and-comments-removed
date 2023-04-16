@@ -10597,7 +10597,7 @@ new
 )
 frame_stats
 :
-FullFrameStats
+None
 }
 ;
 entry
@@ -10740,6 +10740,9 @@ TransactionProfile
 new
 (
 )
+frame_stats
+:
+None
 }
 self
 .
