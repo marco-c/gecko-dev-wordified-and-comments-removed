@@ -22,6 +22,13 @@ TaskCategory
 .
 h
 "
+#
+include
+"
+ErrorList
+.
+h
+"
 class
 nsIRunnable
 ;

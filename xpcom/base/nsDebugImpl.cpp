@@ -140,7 +140,9 @@ endif
 #
 include
 "
-nsTraceRefcnt
+mozilla
+/
+StackWalk
 .
 h
 "
@@ -1851,10 +1853,7 @@ defined
 (
 DEBUG
 )
-nsTraceRefcnt
-:
-:
-WalkTheStack
+MozWalkTheStack
 (
 stderr
 )
@@ -1933,10 +1932,7 @@ return
 case
 NS_ASSERT_STACK
 :
-nsTraceRefcnt
-:
-:
-WalkTheStack
+MozWalkTheStack
 (
 stderr
 )
@@ -1946,10 +1942,7 @@ return
 case
 NS_ASSERT_STACK_AND_ABORT
 :
-nsTraceRefcnt
-:
-:
-WalkTheStack
+MozWalkTheStack
 (
 stderr
 )
