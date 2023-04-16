@@ -67,7 +67,10 @@ ScrollbarDrawingMac
 h
 "
 class
-CellDrawView
+MOZCellDrawWindow
+;
+class
+MOZCellDrawView
 ;
 class
 NSProgressBarCell
@@ -2509,7 +2512,13 @@ NSLevelIndicatorCell
 *
 mMeterBarCell
 ;
-CellDrawView
+MOZCellDrawWindow
+*
+mCellDrawWindow
+=
+nil
+;
+MOZCellDrawView
 *
 mCellDrawView
 ;
