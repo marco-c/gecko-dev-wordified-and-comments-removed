@@ -2534,6 +2534,11 @@ mCaps
 =
 NS_HTTP_LARGE_KEEPALIVE
 ;
+mCaps
+|
+=
+NS_HTTP_DISALLOW_HTTPS_RR
+;
 }
 mCaps
 |
