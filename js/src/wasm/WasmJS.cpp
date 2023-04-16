@@ -16323,7 +16323,7 @@ JSContext
 *
 cx
 HandleVal
-hval
+value
 bool
 isMutable
 HandleObject
@@ -16400,7 +16400,7 @@ GCPtrVal
 (
 Val
 (
-hval
+value
 .
 get
 (
@@ -16460,7 +16460,7 @@ val
 (
 )
 =
-hval
+value
 .
 get
 (

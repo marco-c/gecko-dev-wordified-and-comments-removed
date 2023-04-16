@@ -362,7 +362,7 @@ clearBreakpointsIn
 (
 JSFreeOp
 *
-fp
+fop
 WasmInstanceObject
 *
 instance

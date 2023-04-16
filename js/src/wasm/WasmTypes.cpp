@@ -3127,7 +3127,7 @@ cx
 HandleValue
 val
 MutableHandleAnyRef
-addr
+result
 )
 {
 if
@@ -3139,7 +3139,7 @@ isNull
 )
 )
 {
-addr
+result
 .
 set
 (
@@ -3207,7 +3207,7 @@ compartment
 )
 )
 ;
-addr
+result
 .
 set
 (
@@ -3245,7 +3245,7 @@ box
 return
 false
 ;
-addr
+result
 .
 set
 (

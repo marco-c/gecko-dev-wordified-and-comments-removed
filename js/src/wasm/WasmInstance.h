@@ -863,7 +863,7 @@ Instance
 *
 instance
 uint32_t
-destByteOffset
+dstByteOffset
 uint32_t
 srcByteOffset
 uint32_t
@@ -881,7 +881,7 @@ Instance
 *
 instance
 uint32_t
-destByteOffset
+dstByteOffset
 uint32_t
 srcByteOffset
 uint32_t

@@ -13482,7 +13482,7 @@ compilerEnv
 const
 FuncCompileInput
 &
-input
+func
 const
 ValTypeVector
 &
@@ -41032,7 +41032,7 @@ emitCallArgs
 const
 ValTypeVector
 &
-args
+argTypes
 const
 StackResultsLoc
 &
