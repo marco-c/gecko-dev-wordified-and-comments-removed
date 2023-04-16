@@ -2602,6 +2602,12 @@ QualifiedVarObj
 <
 <
 8
+HasNonWritableOrAccessorPropExclProto
+=
+1
+<
+<
+9
 }
 ;
 using
