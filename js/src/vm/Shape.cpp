@@ -4211,7 +4211,7 @@ if
 obj
 -
 >
-setLastProperty
+setLastPropertyForNewDataProperty
 (
 cx
 child
@@ -4703,7 +4703,7 @@ if
 obj
 -
 >
-setLastProperty
+setLastPropertyForNewDataProperty
 (
 cx
 shape
