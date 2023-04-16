@@ -140,14 +140,14 @@ aFrame
 ;
 }
 auto
-Iterator
+ConstIterator
 (
 )
 {
 return
 mFrames
 .
-Iter
+ConstIter
 (
 )
 ;

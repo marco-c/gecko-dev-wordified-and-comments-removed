@@ -3342,7 +3342,7 @@ iter
 =
 mTextHash
 .
-Iter
+ConstIter
 (
 )
 ;
@@ -3360,6 +3360,7 @@ Next
 )
 )
 {
+const
 nsCOMPtrHashKey
 <
 nsIContent
