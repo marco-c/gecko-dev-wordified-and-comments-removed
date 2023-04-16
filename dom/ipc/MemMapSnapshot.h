@@ -49,6 +49,13 @@ shared_memory
 .
 h
 "
+#
+include
+"
+ErrorList
+.
+h
+"
 namespace
 mozilla
 {
