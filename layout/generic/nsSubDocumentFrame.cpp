@@ -5199,7 +5199,7 @@ parent
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 frame
 )
@@ -5275,7 +5275,7 @@ parent
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 parent
 )
