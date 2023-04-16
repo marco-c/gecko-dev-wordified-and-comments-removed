@@ -12,10 +12,6 @@ PushServiceWebSocket
 =
 serviceExports
 ;
-do_get_profile
-(
-)
-;
 const
 {
 BroadcastService
@@ -156,6 +152,10 @@ run_test
 (
 )
 {
+do_get_profile
+(
+)
+;
 setPrefs
 (
 {
