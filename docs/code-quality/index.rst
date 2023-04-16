@@ -59,6 +59,8 @@ glob
 static
 -
 analysis
+/
+index
 .
 rst
 lint
