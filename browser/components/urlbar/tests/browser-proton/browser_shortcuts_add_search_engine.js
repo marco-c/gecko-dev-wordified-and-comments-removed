@@ -90,6 +90,17 @@ false
 }
 )
 ;
+UrlbarTestUtils
+.
+getOneOffSearchButtons
+(
+window
+)
+.
+invalidateCache
+(
+)
+;
 }
 )
 ;
@@ -182,6 +193,7 @@ window
 value
 :
 "
+test
 "
 }
 )
@@ -319,6 +331,7 @@ window
 value
 :
 "
+test
 "
 }
 )
@@ -797,6 +810,7 @@ window
 value
 :
 "
+test
 "
 }
 )
@@ -937,6 +951,7 @@ window
 value
 :
 "
+test
 "
 }
 )
