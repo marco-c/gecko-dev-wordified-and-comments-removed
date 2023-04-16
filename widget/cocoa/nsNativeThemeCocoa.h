@@ -136,7 +136,6 @@ uint8_t
 {
 eRegularPushButton
 eDefaultPushButton
-eRoundedBezelPushButton
 eSquareBezelPushButton
 eArrowButton
 eHelpButton
@@ -2090,7 +2089,7 @@ aParams
 )
 ;
 void
-DrawRoundedBezelPushButton
+DrawPushButton
 (
 CGContextRef
 cgContext
