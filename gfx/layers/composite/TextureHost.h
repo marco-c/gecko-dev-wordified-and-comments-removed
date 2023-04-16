@@ -1342,7 +1342,7 @@ gfx
 YUVColorSpace
 :
 :
-UNKNOWN
+Identity
 ;
 }
 virtual

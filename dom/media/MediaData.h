@@ -1840,7 +1840,7 @@ mYUVColorSpace
 YUVColorSpace
 :
 :
-UNKNOWN
+Identity
 ;
 ColorDepth
 mColorDepth

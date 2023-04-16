@@ -471,7 +471,7 @@ gfx
 ColorDepth
 :
 :
-UNKNOWN
+COLOR_8
 ;
 }
 gfx
@@ -513,7 +513,7 @@ gfx
 YUVColorSpace
 :
 :
-UNKNOWN
+Default
 ;
 }
 bool
