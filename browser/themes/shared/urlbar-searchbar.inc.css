@@ -8830,6 +8830,8 @@ margin
 inline
 :
 -
+4px
+-
 7px
 ;
 margin
@@ -8883,7 +8885,6 @@ may
 not
 have
 enough
-vertical
 space
 *
 /
@@ -8892,7 +8893,9 @@ margin
 inline
 :
 -
-6px
+7px
+-
+4px
 ;
 margin
 -
