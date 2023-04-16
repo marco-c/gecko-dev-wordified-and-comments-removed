@@ -53,12 +53,6 @@ js
 class
 ArrayObject
 ;
-const
-uint32_t
-MAX_ARRAY_INDEX
-=
-4294967294u
-;
 MOZ_ALWAYS_INLINE
 bool
 IdIsIndex
@@ -139,13 +133,6 @@ isIndex
 (
 indexp
 )
-&
-&
-*
-indexp
-<
-=
-MAX_ARRAY_INDEX
 ;
 }
 extern

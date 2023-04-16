@@ -249,6 +249,12 @@ sizeof
 -
 1
 ;
+const
+uint32_t
+MAX_ARRAY_INDEX
+=
+4294967294u
+;
 template
 <
 typename
