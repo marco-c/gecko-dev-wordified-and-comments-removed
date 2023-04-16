@@ -736,6 +736,9 @@ mLocalOrigin
 bool
 mHandledByAPZ
 ;
+bool
+mPreventClickEvent
+;
 }
 ;
 class

@@ -194,6 +194,12 @@ HasFastFlungApzc
 )
 const
 ;
+bool
+HasAutoscrollApzc
+(
+)
+const
+;
 RefPtr
 <
 AsyncPanZoomController
