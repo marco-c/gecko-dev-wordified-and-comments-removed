@@ -3591,7 +3591,7 @@ options
 {
 if
 (
-WasmSimdWormholeFlag
+SimdWormholeAvailable
 (
 cx
 )
