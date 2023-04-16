@@ -153,6 +153,11 @@ NativeKeyBindings
 mm
 "
 "
+NativeMenuMac
+.
+mm
+"
+"
 NativeMenuSupport
 .
 mm

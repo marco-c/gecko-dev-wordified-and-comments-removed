@@ -834,6 +834,11 @@ MediaKeysEventSourceFactory
 h
 "
 "
+NativeMenu
+.
+h
+"
+"
 nsAutoRollup
 .
 h

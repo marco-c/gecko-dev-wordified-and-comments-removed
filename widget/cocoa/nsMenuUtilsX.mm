@@ -78,7 +78,7 @@ h
 #
 include
 "
-nsStandaloneNativeMenu
+NativeMenuMac
 .
 h
 "
