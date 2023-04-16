@@ -551,14 +551,6 @@ obj
 )
 ;
 bool
-IsWebExtensionContentScriptSandbox
-(
-JSObject
-*
-obj
-)
-;
-bool
 IsReflector
 (
 JSObject
