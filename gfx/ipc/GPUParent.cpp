@@ -683,7 +683,7 @@ return
 sGPUParent
 ;
 }
-bool
+void
 GPUParent
 :
 :
@@ -723,7 +723,6 @@ XRE_IsGPUProcess
 )
 {
 return
-false
 ;
 }
 MEMORYSTATUSEX
@@ -749,7 +748,6 @@ stat
 )
 {
 return
-false
 ;
 }
 static
@@ -838,14 +836,6 @@ _ns
 sLowMemory
 =
 lowMemory
-;
-return
-lowMemory
-;
-#
-else
-return
-false
 ;
 #
 endif
