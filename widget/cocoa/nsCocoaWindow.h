@@ -1714,6 +1714,13 @@ ResumeCompositor
 (
 )
 ;
+bool
+AsyncPanZoomEnabled
+(
+)
+const
+override
+;
 protected
 :
 virtual
