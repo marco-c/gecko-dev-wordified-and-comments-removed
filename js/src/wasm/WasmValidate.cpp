@@ -8194,6 +8194,15 @@ uint32_t
 SimdOp
 :
 :
+I64x2Abs
+)
+:
+case
+uint32_t
+(
+SimdOp
+:
+:
 F32x4Ceil
 )
 :

@@ -8213,6 +8213,15 @@ wasm
 SimdOp
 :
 :
+I64x2Abs
+:
+case
+wasm
+:
+:
+SimdOp
+:
+:
 I32x4TruncSSatF32x4
 :
 case
