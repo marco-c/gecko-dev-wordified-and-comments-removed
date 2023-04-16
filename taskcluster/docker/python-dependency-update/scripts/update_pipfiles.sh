@@ -755,13 +755,6 @@ BRANCH
 "
 fi
 clone_repo
-{
-PIP
-}
-install
-pip
--
-tools
 requirements_basefile
 =
 "

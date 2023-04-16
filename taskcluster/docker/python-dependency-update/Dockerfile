@@ -163,6 +163,16 @@ setup
 setup
 .
 sh
+ADD
+requirements
+.
+txt
+/
+setup
+/
+requirements
+.
+txt
 RUN
 cd
 /
