@@ -591,14 +591,6 @@ base
 "
 "
 /
-netwerk
-/
-protocol
-/
-http
-"
-"
-/
 xpcom
 /
 threads
