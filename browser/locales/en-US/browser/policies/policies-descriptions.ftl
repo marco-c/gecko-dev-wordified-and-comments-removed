@@ -180,7 +180,7 @@ it
 .
 policy
 -
-BackgroundAppUpdate
+BackgroundAppUpdate2
 =
 Enable
 or
@@ -188,15 +188,6 @@ disable
 the
 background
 updater
-which
-updates
-the
-browser
-when
-it
-is
-not
-running
 .
 policy
 -
