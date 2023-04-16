@@ -38,8 +38,6 @@ import
 subprocess
 import
 sys
-import
-setup_development
 here
 =
 os
@@ -57,6 +55,17 @@ dirname
 __file__
 )
 )
+sys
+.
+path
+.
+insert
+(
+0
+here
+)
+import
+setup_development
 def
 run_hg
 (
@@ -111,6 +120,9 @@ command
 cwd
 =
 here
+universal_newlines
+=
+True
 )
     
 except
