@@ -14926,6 +14926,15 @@ nil
 ;
 if
 (
+!
+nsCocoaFeatures
+:
+:
+OnBigSurOrLater
+(
+)
+|
+|
 Preferences
 :
 :
