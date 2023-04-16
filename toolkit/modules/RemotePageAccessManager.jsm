@@ -384,6 +384,13 @@ errorReporting
 .
 enabled
 "
+"
+browser
+.
+proton
+.
+enabled
+"
 ]
 RPMSetBoolPref
 :
