@@ -2807,6 +2807,12 @@ platform
 "
 variant
 "
+"
+app
+"
+"
+subtest
+"
 Any
 (
 int
@@ -3840,6 +3846,24 @@ python
 )
 :
 bool
+        
+Optional
+(
+"
+app
+"
+)
+:
+text_type
+        
+Optional
+(
+"
+subtest
+"
+)
+:
+text_type
     
 }
 )
