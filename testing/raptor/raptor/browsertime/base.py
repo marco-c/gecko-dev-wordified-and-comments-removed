@@ -1367,7 +1367,6 @@ browsertime_script
 .
 extend
 (
-            
 [
 "
 -
@@ -1376,14 +1375,10 @@ browsertime
 .
 page_cycle_delay
 "
-str
-(
-self
-.
-post_startup_delay
-)
+"
+1000
+"
 ]
-        
 )
         
 browsertime_script
