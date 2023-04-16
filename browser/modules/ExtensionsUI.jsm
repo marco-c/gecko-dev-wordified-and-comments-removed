@@ -2728,7 +2728,7 @@ getFormattedString
 "
 addonPostInstall
 .
-message2
+message3
 "
 [
 "
