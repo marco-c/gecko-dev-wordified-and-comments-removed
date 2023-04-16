@@ -485,11 +485,6 @@ attribute
 DOMString
 embedderElementType
 ;
-readonly
-attribute
-boolean
-createdDynamically
-;
 /
 *
 *
