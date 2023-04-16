@@ -140,6 +140,17 @@ mozAccessible
 (
 void
 )
+moxSetValue
+:
+(
+id
+)
+value
+;
+-
+(
+void
+)
 moxPerformIncrement
 ;
 -
