@@ -11528,14 +11528,15 @@ offs_
 }
 }
 ;
-typedef
+using
+StkVector
+=
 Vector
 <
 Stk
 0
 SystemAllocPolicy
 >
-StkVector
 ;
 class
 MachineStackTracker

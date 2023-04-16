@@ -105,7 +105,9 @@ offset_
 }
 }
 ;
-typedef
+using
+StepperCounters
+=
 HashMap
 <
 uint32_t
@@ -116,9 +118,10 @@ uint32_t
 >
 SystemAllocPolicy
 >
-StepperCounters
 ;
-typedef
+using
+WasmBreakpointSiteMap
+=
 HashMap
 <
 uint32_t
@@ -130,7 +133,6 @@ uint32_t
 >
 SystemAllocPolicy
 >
-WasmBreakpointSiteMap
 ;
 class
 DebugState

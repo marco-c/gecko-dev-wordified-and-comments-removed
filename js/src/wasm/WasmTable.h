@@ -30,7 +30,9 @@ wasm
 {
 STATIC_ASSERT_ANYREF_IS_JSOBJECT
 ;
-typedef
+using
+TableAnyRefVector
+=
 GCVector
 <
 HeapPtr
@@ -41,7 +43,6 @@ JSObject
 0
 SystemAllocPolicy
 >
-TableAnyRefVector
 ;
 class
 Table
@@ -428,14 +429,15 @@ RefPtr
 Table
 >
 ;
-typedef
+using
+SharedTableVector
+=
 Vector
 <
 SharedTable
 0
 SystemAllocPolicy
 >
-SharedTableVector
 ;
 }
 }

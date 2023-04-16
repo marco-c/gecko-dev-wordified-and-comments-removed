@@ -2591,7 +2591,9 @@ callee
 range
 ;
 }
-typedef
+using
+OffsetMap
+=
 HashMap
 <
 uint32_t
@@ -2602,9 +2604,10 @@ uint32_t
 >
 SystemAllocPolicy
 >
-OffsetMap
 ;
-typedef
+using
+TrapMaybeOffsetArray
+=
 EnumeratedArray
 <
 Trap
@@ -2617,7 +2620,6 @@ Maybe
 uint32_t
 >
 >
-TrapMaybeOffsetArray
 ;
 bool
 ModuleGenerator
