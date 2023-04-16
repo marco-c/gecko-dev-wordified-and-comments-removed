@@ -233,7 +233,7 @@ mChildPid
 sPidSet
 -
 >
-RemoveEntry
+Remove
 (
 mChildPid
 )
@@ -823,7 +823,7 @@ PidSet
 sPidSet
 -
 >
-PutEntry
+Insert
 (
 mChildPid
 )
