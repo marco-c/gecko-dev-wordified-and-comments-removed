@@ -10979,6 +10979,14 @@ StaticPrefs
 gfx_color_management_force_srgb
 (
 )
+|
+|
+StaticPrefs
+:
+:
+gfx_color_management_native_srgb
+(
+)
 )
 {
 gCMSOutputProfile
