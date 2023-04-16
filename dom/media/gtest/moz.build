@@ -218,11 +218,6 @@ TestMuxer
 cpp
 "
 "
-TestOggWriter
-.
-cpp
-"
-"
 TestOpusParser
 .
 cpp
