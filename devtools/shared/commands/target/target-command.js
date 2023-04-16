@@ -1965,6 +1965,11 @@ onLocalTabRemotenessChange
 targetFront
 )
 {
+if
+(
+targetFront
+)
+{
 await
 targetFront
 .
@@ -1977,6 +1982,7 @@ destroyed
 "
 )
 ;
+}
 const
 newTarget
 =
