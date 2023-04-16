@@ -254,6 +254,7 @@ eOpChange
 mRange
 ;
 }
+const
 RefPtr
 <
 mozInlineSpellChecker
