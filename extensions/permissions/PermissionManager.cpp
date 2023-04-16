@@ -1829,9 +1829,9 @@ rv
 rv
 )
 ;
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 insertedOrigins
 ;
@@ -2118,7 +2118,7 @@ failed
 ;
 insertedOrigins
 .
-PutEntry
+Insert
 (
 origin
 )
