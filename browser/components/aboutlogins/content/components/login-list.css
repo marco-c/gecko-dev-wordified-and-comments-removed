@@ -902,7 +902,9 @@ content
 -
 border
 -
-color
+active
+-
+shadow
 )
 ;
 background
@@ -917,9 +919,11 @@ in
 -
 content
 -
-page
+box
 -
 background
+-
+odd
 )
 ;
 }
