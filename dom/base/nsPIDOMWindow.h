@@ -2208,12 +2208,6 @@ CallerType
 aCallerType
 )
 ;
-bool
-HadOriginalOpener
-(
-)
-const
-;
 virtual
 nsPIDOMWindowOuter
 *
