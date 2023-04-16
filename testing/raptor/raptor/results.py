@@ -13,6 +13,10 @@ abc
 import
 ABCMeta
 abstractmethod
+from
+io
+import
+open
 import
 six
 from
@@ -1204,6 +1208,13 @@ with
 open
 (
 schema_path
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 f
@@ -3833,6 +3844,11 @@ open
 bt_res_json
 "
 r
+"
+encoding
+=
+"
+utf8
 "
 )
 as

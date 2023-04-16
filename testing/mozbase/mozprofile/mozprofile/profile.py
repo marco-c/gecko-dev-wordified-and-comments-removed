@@ -26,6 +26,10 @@ from
 shutil
 import
 copytree
+from
+io
+import
+open
 import
 mozfile
 from
@@ -33,6 +37,21 @@ six
 import
 string_types
 python_2_unicode_compatible
+if
+six
+.
+PY3
+:
+    
+def
+unicode
+(
+input
+)
+:
+        
+return
+input
 from
 .
 addons
@@ -1792,6 +1811,8 @@ f
 .
 write
 (
+unicode
+(
 "
 \
 n
@@ -1808,6 +1829,7 @@ delimeters
 0
 ]
 )
+)
             
 Preferences
 .
@@ -1820,6 +1842,8 @@ preferences
 f
 .
 write
+(
+unicode
 (
 "
 %
@@ -1834,6 +1858,7 @@ delimeters
 [
 1
 ]
+)
 )
     
 def
@@ -1987,6 +2012,16 @@ with
 open
 (
 path
+"
+r
+"
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 f
@@ -3302,6 +3337,25 @@ prefstr
 %
 values
             
+if
+six
+.
+PY2
+:
+                
+fh
+.
+write
+(
+unicode
+(
+prefstr
+)
+)
+            
+else
+:
+                
 fh
 .
 write

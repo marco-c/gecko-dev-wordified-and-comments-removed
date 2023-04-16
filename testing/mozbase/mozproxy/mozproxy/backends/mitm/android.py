@@ -1292,6 +1292,15 @@ cert
 "
 in
 cmd_output
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 :
             
 LOG

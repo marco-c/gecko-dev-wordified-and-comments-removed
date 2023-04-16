@@ -2580,6 +2580,15 @@ line_matcher
 match
 (
 line
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 )
                 
 if
