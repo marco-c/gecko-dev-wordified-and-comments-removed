@@ -1,15 +1,4 @@
 const
-ENGINE_NAME
-=
-"
-engine
--
-suggestions
-.
-xml
-"
-;
-const
 SUGGEST_PREF
 =
 "
@@ -289,7 +278,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 }
 )
 ]
@@ -382,7 +371,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 }
 )
 ]
@@ -474,7 +463,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 }
 )
 ]
@@ -1051,7 +1040,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -1105,7 +1094,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -1236,7 +1225,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 }
 )
 ]
@@ -1891,7 +1880,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -1968,7 +1957,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -2265,7 +2254,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -2327,7 +2316,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -2513,7 +2502,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -2541,7 +2530,7 @@ search
 .
 getEngineByName
 (
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 )
 ;
 await
@@ -2826,7 +2815,7 @@ payload
 .
 engineName
 =
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 ;
 }
 await
@@ -3029,7 +3018,7 @@ payload
 .
 engineName
 =
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 ;
 }
 await
@@ -3211,7 +3200,7 @@ query
 expectedQuery
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 }
 )
 ]

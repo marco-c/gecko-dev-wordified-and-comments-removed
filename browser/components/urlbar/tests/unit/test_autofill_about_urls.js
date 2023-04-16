@@ -3,17 +3,6 @@ use
 strict
 "
 ;
-const
-ENGINE_NAME
-=
-"
-engine
--
-suggestions
-.
-xml
-"
-;
 testEngine_setup
 (
 )
@@ -406,7 +395,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 providerName
 :
 "

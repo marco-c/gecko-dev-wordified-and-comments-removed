@@ -48,17 +48,6 @@ nsIAutoCompleteController
 )
 ;
 const
-ENGINE_NAME
-=
-"
-engine
--
-suggestions
-.
-xml
-"
-;
-const
 SUGGEST_PREF
 =
 "
@@ -3433,7 +3422,7 @@ unmatched
 "
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 alias
 :
 keyword
@@ -3455,7 +3444,7 @@ unmatched
 "
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 alias
 :
 keyword
@@ -3478,7 +3467,7 @@ unmatched
 "
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 alias
 :
 keyword

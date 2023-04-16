@@ -1,15 +1,4 @@
 const
-ENGINE_NAME
-=
-"
-engine
--
-suggestions
-.
-xml
-"
-;
-const
 AUTOFILL_PROVIDERNAME
 =
 "
@@ -2150,7 +2139,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -2237,7 +2226,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -2324,7 +2313,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -2424,7 +2413,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -2524,7 +2513,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
