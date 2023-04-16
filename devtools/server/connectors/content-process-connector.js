@@ -425,6 +425,11 @@ subject
 mm
 )
 {
+if
+(
+actor
+)
+{
 connection
 .
 send
@@ -443,6 +448,7 @@ tabDetached
 }
 )
 ;
+}
 onClose
 (
 )

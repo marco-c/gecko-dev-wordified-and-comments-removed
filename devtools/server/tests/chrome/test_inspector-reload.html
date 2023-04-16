@@ -209,7 +209,7 @@ href
 ;
 const
 {
-target
+commands
 doc
 }
 =
@@ -218,6 +218,15 @@ attachURL
 (
 url
 )
+;
+const
+target
+=
+commands
+.
+targetCommand
+.
+targetFront
 ;
 const
 inspector
@@ -257,7 +266,7 @@ gResourceWatcher
 await
 createResourceWatcher
 (
-target
+commands
 )
 ;
 ok
