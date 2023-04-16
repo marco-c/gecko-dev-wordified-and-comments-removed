@@ -1307,7 +1307,7 @@ true
 ;
 }
 function
-promiseApzRepaintsFlushed
+promiseOnlyApzControllerFlushed
 (
 aWindow
 =
@@ -1469,7 +1469,7 @@ promiseAllPaintsDone
 )
 ;
 await
-promiseApzRepaintsFlushed
+promiseOnlyApzControllerFlushed
 (
 )
 ;
@@ -2858,7 +2858,7 @@ n
 )
 ;
 await
-promiseApzRepaintsFlushed
+promiseOnlyApzControllerFlushed
 (
 )
 ;
@@ -2968,7 +2968,7 @@ true
 )
 ;
 await
-promiseApzRepaintsFlushed
+promiseOnlyApzControllerFlushed
 (
 )
 ;
@@ -5088,7 +5088,7 @@ aWindow
 )
 ;
 await
-promiseApzRepaintsFlushed
+promiseOnlyApzControllerFlushed
 (
 aWindow
 )
