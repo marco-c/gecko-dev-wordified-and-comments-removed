@@ -221,6 +221,10 @@ test
 subtest
 "
             
+"
+variant
+"
+            
 test_description_schema
 [
 "
@@ -415,6 +419,9 @@ test
 "
 "
 subtest
+"
+"
+variant
 "
 test_description_schema
 [
@@ -1169,6 +1176,7 @@ fields
             
 resolve_keyed_by
 (
+                
 test
 field
 item_name
@@ -1181,6 +1189,14 @@ test
 name
 "
 ]
+defer
+=
+[
+"
+variant
+"
+]
+            
 )
         
 yield
