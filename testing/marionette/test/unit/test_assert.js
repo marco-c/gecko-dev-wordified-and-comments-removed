@@ -331,10 +331,10 @@ of
 [
 assert
 .
-firefox
+desktop
 assert
 .
-fennec
+mobile
 ]
 )
 {
