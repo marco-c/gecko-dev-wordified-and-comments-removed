@@ -38788,9 +38788,9 @@ skin
 /
 icons
 /
-blocked
+blocklist_favicon
 .
-svg
+png
 "
 notificationBox
 .
