@@ -2959,14 +2959,6 @@ onabsolutedeviceorientation
 ;
 attribute
 EventHandler
-ondeviceproximity
-;
-attribute
-EventHandler
-onuserproximity
-;
-attribute
-EventHandler
 ondevicelight
 ;
 void

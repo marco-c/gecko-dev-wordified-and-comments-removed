@@ -195,13 +195,6 @@ TYPE_ACCELERATION
 const
 unsigned
 long
-TYPE_PROXIMITY
-=
-2
-;
-const
-unsigned
-long
 TYPE_LINEAR_ACCELERATION
 =
 3

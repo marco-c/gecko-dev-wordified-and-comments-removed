@@ -29,14 +29,6 @@ public
 static
 final
 int
-SENSOR_PROXIMITY
-=
-2
-;
-public
-static
-final
-int
 SENSOR_LINEAR_ACCELERATION
 =
 3
