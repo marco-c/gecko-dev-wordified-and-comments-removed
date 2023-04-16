@@ -395,8 +395,8 @@ false
 ;
 SET_DEFAULT
 (
-disablePgo
-false
+disablePruning
+true
 )
 ;
 SET_DEFAULT

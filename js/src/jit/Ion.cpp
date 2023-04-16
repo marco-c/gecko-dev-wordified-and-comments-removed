@@ -6230,7 +6230,7 @@ if
 !
 JitOptions
 .
-disablePgo
+disablePruning
 &
 &
 !

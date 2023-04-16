@@ -64329,7 +64329,7 @@ getStringOption
 "
 ion
 -
-pgo
+pruning
 "
 )
 )
@@ -64353,7 +64353,7 @@ jit
 :
 JitOptions
 .
-disablePgo
+disablePruning
 =
 false
 ;
@@ -64378,7 +64378,7 @@ jit
 :
 JitOptions
 .
-disablePgo
+disablePruning
 =
 true
 ;
@@ -64391,7 +64391,7 @@ OptionFailure
 "
 ion
 -
-pgo
+pruning
 "
 str
 )
@@ -71023,7 +71023,7 @@ addStringOption
 "
 ion
 -
-pgo
+pruning
 "
 "
 on
@@ -71031,9 +71031,8 @@ on
 off
 "
 "
-Profile
-guided
-optimization
+Branch
+pruning
 (
 default
 :
