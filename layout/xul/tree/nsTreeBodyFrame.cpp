@@ -12470,7 +12470,7 @@ frame
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 frame
 )
