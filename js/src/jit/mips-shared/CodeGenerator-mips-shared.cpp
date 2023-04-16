@@ -759,7 +759,12 @@ isConstant
 {
 MOZ_ASSERT
 (
-type
+mir
+-
+>
+compareType
+(
+)
 =
 =
 MCompare
@@ -1044,7 +1049,12 @@ isConstant
 {
 MOZ_ASSERT
 (
-type
+mir
+-
+>
+compareType
+(
+)
 =
 =
 MCompare
