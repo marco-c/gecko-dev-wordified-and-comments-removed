@@ -78,11 +78,15 @@ gecko
 tokens
 "
 |
-yq
+jq
 -
 r
+"
+.
+secret
 .
 sentryToken
+"
 )
 |
 |
