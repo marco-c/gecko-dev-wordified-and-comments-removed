@@ -20,15 +20,6 @@ watcher
 .
 js
 "
-"
-parent
--
-process
--
-storage
-.
-js
-"
 )
 with
 Files
