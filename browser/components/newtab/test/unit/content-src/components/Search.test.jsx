@@ -1332,7 +1332,7 @@ dispatch
 type
 :
 "
-DISABLE_SEARCH
+HIDE_SEARCH
 "
 }
 )
@@ -1532,7 +1532,7 @@ dispatch
 type
 :
 "
-DISABLE_SEARCH
+HIDE_SEARCH
 "
 }
 )

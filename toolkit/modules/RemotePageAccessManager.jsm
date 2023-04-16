@@ -570,9 +570,6 @@ RPMSendQuery
 :
 [
 "
-ShouldShowSearch
-"
-"
 ShouldShowSearchBanner
 "
 "
