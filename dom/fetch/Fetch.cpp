@@ -801,9 +801,6 @@ NS_INTERFACE_MAP_END
 class
 AbortSignalProxy
 final
-:
-public
-nsISupports
 {
 RefPtr
 <
@@ -829,7 +826,10 @@ mAborted
 ;
 public
 :
-NS_DECL_THREADSAFE_ISUPPORTS
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+AbortSignalProxy
+)
 AbortSignalProxy
 (
 AbortSignalImpl
@@ -1029,10 +1029,6 @@ forget
 }
 }
 ;
-NS_IMPL_ISUPPORTS0
-(
-AbortSignalProxy
-)
 NS_IMETHODIMP
 WorkerSignalFollower
 :
