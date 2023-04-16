@@ -243,7 +243,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -304,9 +304,9 @@ Layer
 LayerRefArray
 ;
 typedef
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 WebRenderUserData
 >

@@ -48,6 +48,13 @@ WebRenderCommandBuilder
 .
 h
 "
+#
+include
+"
+nsTHashSet
+.
+h
+"
 namespace
 mozilla
 {
@@ -58,9 +65,9 @@ class
 RenderRootStateManager
 {
 typedef
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 WebRenderUserData
 >
