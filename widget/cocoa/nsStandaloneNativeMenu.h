@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsMenuItemIconX
+.
+h
+"
+#
+include
+"
 nsMenuX
 .
 h
@@ -32,6 +39,11 @@ public
 nsMenuGroupOwnerX
 public
 nsIStandaloneNativeMenu
+public
+nsMenuItemIconX
+:
+:
+Listener
 {
 public
 :
@@ -51,7 +63,6 @@ return
 eStandaloneNativeMenuObjectType
 ;
 }
-virtual
 void
 IconUpdated
 (

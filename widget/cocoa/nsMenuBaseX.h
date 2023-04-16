@@ -56,13 +56,6 @@ MenuObjectType
 =
 0
 ;
-virtual
-void
-IconUpdated
-(
-)
-{
-}
 }
 ;
 class

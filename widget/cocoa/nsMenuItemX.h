@@ -37,6 +37,13 @@ h
 #
 include
 "
+nsMenuItemIconX
+.
+h
+"
+#
+include
+"
 nsChangeObserver
 .
 h
@@ -132,6 +139,11 @@ public
 nsMenuObjectX
 public
 nsChangeObserver
+public
+nsMenuItemIconX
+:
+:
+Listener
 {
 public
 :
