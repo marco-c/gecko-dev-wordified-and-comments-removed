@@ -5619,6 +5619,13 @@ resourceWatcher
 TYPES
 .
 ROOT_NODE
+|
+|
+resource
+.
+isDestroyed
+(
+)
 )
 {
 continue

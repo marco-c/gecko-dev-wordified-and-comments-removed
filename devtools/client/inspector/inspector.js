@@ -5379,6 +5379,14 @@ resourceWatcher
 TYPES
 .
 ROOT_NODE
+&
+&
+!
+resource
+.
+isDestroyed
+(
+)
 )
 {
 const
