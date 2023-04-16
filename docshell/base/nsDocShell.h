@@ -2474,6 +2474,8 @@ nsIRequest
 aRequest
 bool
 aFireOnLocationChange
+bool
+aIsInitialAboutBlank
 uint32_t
 aLocationFlags
 )
