@@ -591,6 +591,11 @@ Canonical
 )
 -
 >
+Top
+(
+)
+-
+>
 RequestRestoreTabContent
 (
 wgp
