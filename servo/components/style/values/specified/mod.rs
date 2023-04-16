@@ -804,7 +804,10 @@ self
 percentage
 :
 :
+{
 Percentage
+NonNegativePercentage
+}
 ;
 pub
 use
