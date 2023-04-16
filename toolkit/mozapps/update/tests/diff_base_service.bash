@@ -114,6 +114,12 @@ js
 marAppApplyUpdateSuccessSvc
 .
 js
+marAppInUseBackgroundTaskFailure_win
+.
+js
+marAppInUseBackgroundTaskFailureSvc_win
+.
+js
 marAppInUseStageFailureComplete_win
 .
 js
