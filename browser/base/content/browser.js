@@ -6026,7 +6026,7 @@ priority
 =
 notificationBox
 .
-PRIORITY_WARNING_MEDIUM
+PRIORITY_INFO_MEDIUM
 ;
 notificationBox
 .
