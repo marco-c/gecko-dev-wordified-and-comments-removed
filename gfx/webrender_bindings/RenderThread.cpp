@@ -5837,13 +5837,13 @@ MOZ_WAYLAND
 )
 if
 (
-mozilla
+gfx
 :
 :
-widget
+gfxVars
 :
 :
-GdkIsWaylandDisplay
+UseEGL
 (
 )
 )
