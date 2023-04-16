@@ -951,6 +951,13 @@ imgIContainer
 aImage
 uint32_t
 aWhichFrame
+const
+mozilla
+:
+:
+ComputedStyle
+*
+aComputedStyle
 NSImage
 *
 *
@@ -973,6 +980,13 @@ imgIContainer
 aImage
 uint32_t
 aWhichFrame
+const
+mozilla
+:
+:
+ComputedStyle
+*
+aComputedStyle
 NSImage
 *
 *

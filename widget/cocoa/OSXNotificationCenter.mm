@@ -2722,6 +2722,7 @@ imgIContainer
 :
 :
 FRAME_FIRST
+nullptr
 &
 cocoaImage
 )

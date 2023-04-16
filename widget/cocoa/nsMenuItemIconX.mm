@@ -623,6 +623,16 @@ AppUnitsPerCSSPixel
 )
 ;
 }
+mComputedStyle
+=
+std
+:
+:
+move
+(
+sc
+)
+;
 return
 iconURI
 .
@@ -674,6 +684,9 @@ NSMakeSize
 kIconSize
 kIconSize
 )
+computedStyle
+:
+mComputedStyle
 subrect
 :
 mImageRegionRect
@@ -685,6 +698,10 @@ scaleFactor
 ]
 retain
 ]
+;
+mComputedStyle
+=
+nullptr
 ;
 if
 (

@@ -530,6 +530,9 @@ NSMakeSize
 kIconSize
 kIconSize
 )
+computedStyle
+:
+nullptr
 subrect
 :
 mImageRegionRect
