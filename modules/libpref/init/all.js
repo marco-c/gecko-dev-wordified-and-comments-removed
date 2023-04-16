@@ -4728,16 +4728,6 @@ pref
 "
 accessibility
 .
-mouse_focuses_formcontrol
-"
-true
-)
-;
-pref
-(
-"
-accessibility
-.
 typeaheadfind
 "
 true

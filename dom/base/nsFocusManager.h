@@ -737,10 +737,6 @@ aContent
 )
 ;
 static
-bool
-sMouseFocusesFormControl
-;
-static
 void
 MarkUncollectableForCCGeneration
 (

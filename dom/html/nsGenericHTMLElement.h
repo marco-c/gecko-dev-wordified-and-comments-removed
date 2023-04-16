@@ -922,6 +922,14 @@ cspNonce
 ;
 }
 }
+bool
+IsFormControlDefaultFocusable
+(
+bool
+aWithMouse
+)
+const
+;
 uint32_t
 EditableInclusiveDescendantCount
 (
