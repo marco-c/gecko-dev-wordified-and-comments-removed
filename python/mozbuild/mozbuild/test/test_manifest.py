@@ -1238,6 +1238,19 @@ example
 com
 "
 ]
+                                
+"
+needinfo
+"
+:
+[
+"
+c
+example
+.
+com
+"
+]
                             
 }
                         
@@ -1386,6 +1399,17 @@ cc
 [
 "
 b
+example
+.
+com
+"
+]
+      
+needinfo
+:
+[
+"
+c
 example
 .
 com
@@ -1630,6 +1654,25 @@ example
 com
 "
 ]
+                                
+"
+needinfo
+"
+:
+[
+"
+d
+example
+.
+com
+"
+"
+e
+example
+.
+com
+"
+]
                             
 }
                             
@@ -1816,6 +1859,21 @@ com
         
 -
 c
+example
+.
+com
+      
+needinfo
+:
+        
+-
+d
+example
+.
+com
+        
+-
+e
 example
 .
 com

@@ -658,6 +658,23 @@ com
 "
 ]
       
+needinfo
+:
+[
+"
+bugzilla
+email
+.
+address
+"
+"
+another
+example
+.
+com
+"
+]
+      
 enabled
 :
 True
@@ -2471,6 +2488,17 @@ Boolean
                             
 "
 cc
+"
+:
+Unique
+(
+[
+str
+]
+)
+                            
+"
+needinfo
 "
 :
 Unique
