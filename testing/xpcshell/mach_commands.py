@@ -1334,6 +1334,25 @@ APK
 "
 )
         
+if
+not
+kwargs
+[
+"
+sequential
+"
+]
+:
+            
+kwargs
+[
+"
+sequential
+"
+]
+=
+True
+        
 xpcshell
 =
 remotexpcshelltests
@@ -1734,27 +1753,8 @@ import
 verify_android_device
                 
 get_adb_path
-                
-InstallIntent
             
 )
-            
-install
-=
-InstallIntent
-.
-YES
-if
-params
-[
-"
-setup
-"
-]
-else
-InstallIntent
-.
-NO
             
 device_serial
 =
@@ -1769,18 +1769,13 @@ deviceSerial
             
 verify_android_device
 (
-                
 self
 network
 =
 True
-install
-=
-install
 device_serial
 =
 device_serial
-            
 )
             
 if
