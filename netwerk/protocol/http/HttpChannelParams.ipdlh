@@ -73,8 +73,10 @@ nsILoadInfo
 h
 "
 ;
+[
+RefCounted
+]
 using
-refcounted
 class
 nsIReferrerInfo
 from
@@ -180,6 +182,9 @@ cookie
 ;
 bool
 dataFromSocketProcess
+;
+bool
+hasHTTPSRR
 ;
 }
 ;

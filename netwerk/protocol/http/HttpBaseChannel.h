@@ -1159,6 +1159,15 @@ aSupportsHTTP3
 override
 ;
 NS_IMETHOD
+GetHasHTTPSRR
+(
+bool
+*
+aHasHTTPSRR
+)
+override
+;
+NS_IMETHOD
 SetRequestContextID
 (
 uint64_t
@@ -3774,6 +3783,11 @@ ListenerRequiresContentConversion
 (
 uint32_t
 HasCrossOriginOpenerPolicyMismatch
+1
+)
+(
+uint32_t
+HasHTTPSRR
 1
 )
 )

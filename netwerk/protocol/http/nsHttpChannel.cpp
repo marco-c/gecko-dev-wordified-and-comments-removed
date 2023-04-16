@@ -34948,6 +34948,11 @@ mStatus
 )
 )
 ;
+StoreHasHTTPSRR
+(
+true
+)
+;
 }
 }
 if

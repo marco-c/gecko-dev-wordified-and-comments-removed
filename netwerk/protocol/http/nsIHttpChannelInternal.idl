@@ -788,5 +788,13 @@ attribute
 boolean
 supportsHTTP3
 ;
+[
+must_use
+]
+readonly
+attribute
+boolean
+hasHTTPSRR
+;
 }
 ;
