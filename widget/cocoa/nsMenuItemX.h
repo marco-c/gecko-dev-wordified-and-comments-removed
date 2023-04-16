@@ -136,8 +136,6 @@ nsMenuItemX
 final
 :
 public
-nsMenuObjectX
-public
 nsChangeObserver
 public
 nsMenuItemIconX
@@ -186,16 +184,6 @@ NS_INLINE_DECL_REFCOUNTING
 nsMenuItemX
 )
 NS_DECL_CHANGEOBSERVER
-nsMenuObjectTypeX
-MenuObjectType
-(
-)
-override
-{
-return
-eMenuItemObjectType
-;
-}
 void
 IconUpdated
 (

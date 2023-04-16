@@ -23,7 +23,6 @@ nsMenuObjectTypeX
 {
 eMenuBarObjectType
 eSubmenuObjectType
-eMenuItemObjectType
 }
 ;
 class
