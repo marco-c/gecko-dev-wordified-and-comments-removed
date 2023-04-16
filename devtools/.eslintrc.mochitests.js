@@ -21,14 +21,5 @@ browser
 test
 "
 ]
-rules
-:
-{
-camelcase
-:
-"
-off
-"
-}
 }
 ;
