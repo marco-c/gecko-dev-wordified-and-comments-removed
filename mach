@@ -149,11 +149,6 @@ Python
 py2commands
 =
 "
-telemetry
--
-tests
--
-client
 "
 #
 Commands
