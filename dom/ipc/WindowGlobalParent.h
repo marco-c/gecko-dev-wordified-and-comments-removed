@@ -593,10 +593,6 @@ const
 WindowGlobalInit
 &
 aInit
-bool
-aInProcess
-=
-false
 )
 ;
 void
@@ -1229,8 +1225,6 @@ uint64_t
 aInnerWindowId
 uint64_t
 aOuterWindowId
-bool
-aInProcess
 FieldValues
 &
 &
