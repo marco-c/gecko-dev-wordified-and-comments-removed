@@ -46,7 +46,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -205,9 +205,9 @@ BlobImpl
 >
 mTargetBlobImplArray
 ;
-nsTHashtable
+nsTHashSet
 <
-nsStringHashKey
+nsString
 >
 mExploredDirectories
 ;
