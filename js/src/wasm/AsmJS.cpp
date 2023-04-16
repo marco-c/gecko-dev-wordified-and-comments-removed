@@ -39696,6 +39696,14 @@ JSContext
 cx
 )
 {
+#
+ifdef
+JS_CODEGEN_ARM64
+return
+false
+;
+#
+endif
 return
 HasPlatformSupport
 (
