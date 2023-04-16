@@ -10560,7 +10560,7 @@ SessionState
 )
 ;
 method
-NonNull
+Nullable
 public
 static
 GeckoSession
@@ -10568,7 +10568,7 @@ GeckoSession
 SessionState
 fromString
 (
-NonNull
+Nullable
 String
 )
 ;
