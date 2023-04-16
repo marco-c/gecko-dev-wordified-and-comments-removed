@@ -388,6 +388,12 @@ tab
 }
 )
 ;
+descriptor
+.
+shouldCloseClient
+=
+false
+;
 const
 commands
 =
@@ -411,14 +417,6 @@ targetList
 startListening
 (
 )
-;
-targetList
-.
-targetFront
-.
-shouldCloseClient
-=
-false
 ;
 const
 targets

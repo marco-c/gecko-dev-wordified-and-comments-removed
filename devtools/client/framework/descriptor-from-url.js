@@ -181,6 +181,13 @@ throw
 e
 ;
 }
+descriptorFront
+.
+shouldCloseClient
+=
+!
+isCachedClient
+;
 return
 descriptorFront
 ;
