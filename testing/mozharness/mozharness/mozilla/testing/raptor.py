@@ -7500,17 +7500,6 @@ EXTERNALTOOLSPATH
 =
 external_tools_path
         
-env
-[
-"
-JSGC_DISABLE_POISONING
-"
-]
-=
-"
-1
-"
-        
 if
 self
 .

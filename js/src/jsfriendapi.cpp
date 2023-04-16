@@ -4034,13 +4034,12 @@ IsGCPoisoning
 {
 #
 ifdef
-JS_GC_POISONING
+JS_GC_ALLOW_EXTRA_POISONING
 return
-!
 js
 :
 :
-gDisablePoisoning
+gExtraPoisoningEnabled
 ;
 #
 else

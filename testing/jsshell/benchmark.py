@@ -669,17 +669,6 @@ copy
 (
 )
         
-env
-[
-"
-JSGC_DISABLE_POISONING
-"
-]
-=
-"
-1
-"
-        
 process_args
 =
 {
