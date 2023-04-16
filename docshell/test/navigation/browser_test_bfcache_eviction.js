@@ -36,6 +36,14 @@ bfevict
 "
 true
 ]
+[
+"
+fission
+.
+bfcacheInParent
+"
+true
+]
 ]
 }
 )
