@@ -1148,7 +1148,7 @@ AXChildren
 const
 expectedChildCount
 =
-13
+12
 +
 +
 hasContainers
@@ -1181,14 +1181,14 @@ hasContainers
 ?
 [
 4
-10
-12
+9
+11
 ]
 :
 [
 3
-9
-11
+8
+10
 ]
 ;
 for
