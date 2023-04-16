@@ -1978,7 +1978,11 @@ TextureCacheAllocationKind
 [
 derive
 (
+Copy
+Clone
 Debug
+Eq
+PartialEq
 )
 ]
 pub
