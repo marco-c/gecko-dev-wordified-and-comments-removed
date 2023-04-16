@@ -959,6 +959,13 @@ hasStoragePermission
 [
 infallible
 ]
+attribute
+boolean
+isMetaRefresh
+;
+[
+infallible
+]
 readonly
 attribute
 boolean

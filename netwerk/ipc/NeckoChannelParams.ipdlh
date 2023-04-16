@@ -466,6 +466,9 @@ cspToInheritInfo
 bool
 hasStoragePermission
 ;
+bool
+isMetaRefresh
+;
 CrossOriginEmbedderPolicy
 loadingEmbedderPolicy
 ;
@@ -526,6 +529,9 @@ requestBlockingReason
 ;
 bool
 hasStoragePermission
+;
+bool
+isMetaRefresh
 ;
 bool
 isThirdPartyContextToTopWindow
