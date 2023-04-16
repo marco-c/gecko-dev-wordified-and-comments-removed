@@ -7687,12 +7687,10 @@ mType
 =
 eContext_PageLayout
 )
-{
 mCanPaginatedScroll
 =
 aPaginated
 ;
-}
 }
 void
 nsPresContext
