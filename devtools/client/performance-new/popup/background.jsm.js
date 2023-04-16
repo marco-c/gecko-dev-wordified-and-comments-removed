@@ -736,6 +736,9 @@ SceneBuilder
 "
 WrWorker
 "
+"
+CanvasWorkers
+"
 ]
 duration
 :
