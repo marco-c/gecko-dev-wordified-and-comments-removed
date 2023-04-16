@@ -399,6 +399,11 @@ maxBufferByteLength
 #
 ifdef
 JS_64BIT
+#
+ifdef
+JS_CODEGEN_MIPS64
+#
+else
 if
 (
 supportLargeBuffers
@@ -417,6 +422,8 @@ size_t
 1024
 ;
 }
+#
+endif
 #
 endif
 return

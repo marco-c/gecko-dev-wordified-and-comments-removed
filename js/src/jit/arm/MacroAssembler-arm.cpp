@@ -25690,7 +25690,7 @@ wasm
 :
 :
 TlsData
-boundsCheckLimit32
+boundsCheckLimit
 )
 )
 ;

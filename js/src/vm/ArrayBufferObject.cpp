@@ -2789,7 +2789,12 @@ maxSize
 .
 valueOr
 (
-UINT32_MAX
+wasm
+:
+:
+MaxMemory32Bytes
+(
+)
 )
 )
 ;
@@ -3114,6 +3119,9 @@ clampedMaxSize
 #
 ifdef
 JS_64BIT
+#
+ifdef
+ENABLE_WASM_CRANELIFT
 if
 (
 !
@@ -3177,6 +3185,8 @@ clamp
 )
 ;
 }
+#
+endif
 #
 else
 static_assert
