@@ -66,7 +66,7 @@ jsm
 ;
 const
 {
-BrowserIDManager
+SyncAuthManager
 }
 =
 ChromeUtils
@@ -82,7 +82,7 @@ services
 -
 sync
 /
-browserid_identity
+sync_auth
 .
 js
 "
@@ -135,7 +135,7 @@ this
 __authManager
 =
 new
-BrowserIDManager
+SyncAuthManager
 (
 )
 ;

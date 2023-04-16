@@ -68,7 +68,7 @@ services
 -
 sync
 /
-browserid_identity
+sync_auth
 .
 js
 "

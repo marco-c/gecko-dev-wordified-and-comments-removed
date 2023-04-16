@@ -13,11 +13,6 @@ addonsreconciler
 js
 "
 "
-browserid_identity
-.
-js
-"
-"
 constants
 .
 js
@@ -138,6 +133,11 @@ js
 "
 "
 status
+.
+js
+"
+"
+sync_auth
 .
 js
 "

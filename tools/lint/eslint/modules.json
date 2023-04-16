@@ -411,14 +411,14 @@ WindowState
 "
 ]
 "
-browserid_identity
+sync_auth
 .
 js
 "
 :
 [
 "
-BrowserIDManager
+SyncAuthManager
 "
 "
 AuthenticationError
@@ -1967,9 +1967,6 @@ FXA_PWDMGR_PLAINTEXT_FIELDS
 "
 "
 FXA_PWDMGR_SECURE_FIELDS
-"
-"
-FXA_PWDMGR_MEMORY_FIELDS
 "
 "
 FXA_PWDMGR_REAUTH_WHITELIST

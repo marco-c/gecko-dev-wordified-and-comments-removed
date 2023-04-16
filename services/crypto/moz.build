@@ -17,14 +17,6 @@ Firefox
 Sync
 "
 )
-DIRS
-+
-=
-[
-"
-component
-"
-]
 XPCSHELL_TESTS_MANIFESTS
 +
 =
