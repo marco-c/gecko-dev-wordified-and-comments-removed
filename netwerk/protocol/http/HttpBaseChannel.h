@@ -3722,6 +3722,9 @@ bool
 mCachedOpaqueResponseBlockingPref
 ;
 bool
+mBlockOpaqueResponseAfterSniff
+;
+bool
 mCheckIsOpaqueResponseAllowedAfterSniff
 ;
 MOZ_ATOMIC_BITFIELDS
