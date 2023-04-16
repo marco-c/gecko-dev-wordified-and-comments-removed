@@ -1476,16 +1476,6 @@ errno
 "
 )
 .
-flag
-(
-"
--
-ffast
--
-math
-"
-)
-.
 define
 (
 "
