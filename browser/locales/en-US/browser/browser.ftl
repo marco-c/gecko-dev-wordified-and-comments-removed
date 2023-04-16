@@ -5727,7 +5727,7 @@ playing
 manage
 =
 Manage
-Settings
+settings
 eme
 -
 notifications
