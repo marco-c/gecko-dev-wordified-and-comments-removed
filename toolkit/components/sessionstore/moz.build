@@ -37,6 +37,11 @@ UNIFIED_SOURCES
 =
 [
 "
+RestoreTabContentObserver
+.
+cpp
+"
+"
 SessionStoreListener
 .
 cpp

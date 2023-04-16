@@ -261,6 +261,14 @@ cookie
 "
 "
 /
+toolkit
+/
+components
+/
+sessionstore
+"
+"
+/
 view
 "
 ]
