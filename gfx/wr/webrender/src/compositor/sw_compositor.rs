@@ -6976,6 +6976,15 @@ enable
 bool
 )
 {
+assert_eq
+!
+(
+self
+.
+use_native_compositor
+enable
+)
+;
 self
 .
 compositor
