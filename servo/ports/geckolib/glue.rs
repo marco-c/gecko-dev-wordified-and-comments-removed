@@ -16899,7 +16899,6 @@ true
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -16938,7 +16937,6 @@ compute
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -16977,7 +16975,6 @@ compute
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -17016,7 +17013,6 @@ compute
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -17055,7 +17051,6 @@ clone
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -17940,7 +17935,6 @@ u32
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
