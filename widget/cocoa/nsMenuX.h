@@ -189,16 +189,6 @@ int32_t
 sIndexingMenuLevel
 ;
 NS_DECL_CHANGEOBSERVER
-nsMenuParentTypeX
-MenuParentType
-(
-)
-override
-{
-return
-eSubmenuParentType
-;
-}
 void
 IconUpdated
 (
