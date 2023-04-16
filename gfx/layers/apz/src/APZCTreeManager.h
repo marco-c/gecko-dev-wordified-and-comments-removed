@@ -1366,6 +1366,9 @@ InputHandlingState
 APZEventResult
 mResult
 ;
+HitTestResult
+mHit
+;
 }
 ;
 void
