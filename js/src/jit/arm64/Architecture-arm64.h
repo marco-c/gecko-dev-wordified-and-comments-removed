@@ -319,13 +319,6 @@ SetType
 static
 const
 Code
-StackPointer
-=
-sp
-;
-static
-const
-Code
 Invalid
 =
 0xFF
