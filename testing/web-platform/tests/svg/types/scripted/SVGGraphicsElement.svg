@@ -184,7 +184,7 @@ getBBox
 (
 )
 instanceof
-DOMRect
+SVGRect
 )
 ;
 }
@@ -195,7 +195,7 @@ getBBox
 returns
 instance
 of
-DOMRect
+SVGRect
 '
 )
 ;
@@ -213,7 +213,7 @@ getCTM
 (
 )
 instanceof
-DOMMatrix
+SVGMatrix
 )
 ;
 }
@@ -224,7 +224,7 @@ getCTM
 returns
 instance
 of
-DOMMatrix
+SVGMatrix
 '
 )
 ;
@@ -242,7 +242,7 @@ getScreenCTM
 (
 )
 instanceof
-DOMMatrix
+SVGMatrix
 )
 ;
 }
@@ -253,7 +253,7 @@ getScreenCTM
 returns
 instance
 of
-DOMMatrix
+SVGMatrix
 '
 )
 ;
