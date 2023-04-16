@@ -21,13 +21,6 @@ browser
 test
 "
 ]
-globals
-:
-{
-waitForTick
-:
-true
-}
 rules
 :
 {
