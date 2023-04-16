@@ -3159,11 +3159,11 @@ chrome
 :
 /
 /
-global
+mozapps
 /
 skin
 /
-icons
+plugins
 /
 plugin
 .
