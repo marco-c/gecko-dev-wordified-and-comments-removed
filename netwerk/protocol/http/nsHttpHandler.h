@@ -216,7 +216,7 @@ class
 AltSvcMapping
 ;
 class
-TRR
+DNSUtils
 ;
 class
 TRRServiceChannel
@@ -2002,7 +2002,7 @@ TRRServiceChannel
 ;
 friend
 class
-TRR
+DNSUtils
 ;
 nsresult
 CreateTRRServiceChannel

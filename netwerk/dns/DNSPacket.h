@@ -421,10 +421,12 @@ static
 bool
 ParseODoHConfigs
 (
+Span
+<
 const
-nsCString
-&
-aRawODoHConfig
+uint8_t
+>
+aData
 nsTArray
 <
 ObliviousDoHConfig
