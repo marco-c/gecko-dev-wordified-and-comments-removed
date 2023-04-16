@@ -1292,15 +1292,15 @@ gEventNameIDMap
 kEventCount
 )
 ;
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 gCategoryNames
 ;
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 gEnabledCategories
 ;
@@ -1673,9 +1673,9 @@ ExtraArray
 extra
 )
 {
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 validExtraKeys
 ;
@@ -1721,7 +1721,7 @@ i
 {
 validExtraKeys
 .
-PutEntry
+Insert
 (
 common
 .
@@ -1781,7 +1781,7 @@ i
 {
 validExtraKeys
 .
-PutEntry
+Insert
 (
 info
 .
@@ -1818,7 +1818,7 @@ if
 !
 validExtraKeys
 .
-GetEntry
+Contains
 (
 extra
 [
@@ -2050,7 +2050,7 @@ if
 !
 gEnabledCategories
 .
-GetEntry
+Contains
 (
 GetCategory
 (
@@ -2429,7 +2429,7 @@ aBuiltin
 {
 gCategoryNames
 .
-PutEntry
+Insert
 (
 category
 )
@@ -2443,7 +2443,7 @@ aBuiltin
 {
 gEnabledCategories
 .
-PutEntry
+Insert
 (
 category
 )
@@ -3200,7 +3200,7 @@ false
 ;
 gCategoryNames
 .
-PutEntry
+Insert
 (
 info
 .
@@ -3214,7 +3214,7 @@ category
 }
 gEnabledCategories
 .
-PutEntry
+Insert
 (
 "
 avif
@@ -6579,7 +6579,7 @@ enabled
 {
 gEnabledCategories
 .
-PutEntry
+Insert
 (
 category
 )
@@ -6589,7 +6589,7 @@ else
 {
 gEnabledCategories
 .
-RemoveEntry
+Remove
 (
 category
 )

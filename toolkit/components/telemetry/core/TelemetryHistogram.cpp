@@ -12695,9 +12695,13 @@ if
 !
 set
 .
-PutEntry
+Insert
 (
 store
+mozilla
+:
+:
+fallible
 )
 )
 {
