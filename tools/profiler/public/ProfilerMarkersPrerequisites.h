@@ -14,9 +14,6 @@ BaseProfilerMarkersPrerequisites
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 mozilla
@@ -25,6 +22,9 @@ ProfilerState
 .
 h
 "
+#
+ifdef
+MOZ_GECKO_PROFILER
 namespace
 geckoprofiler
 :
