@@ -8101,7 +8101,7 @@ max_texture_size
 :
 Some
 (
-8192
+11180
 )
 clear_color
 :
