@@ -421,6 +421,17 @@ currentColor
 transparent
 )
 ;
+}
+:
+root
+:
+-
+moz
+-
+lwtheme
+-
+brighttext
+{
 -
 -
 backbutton
