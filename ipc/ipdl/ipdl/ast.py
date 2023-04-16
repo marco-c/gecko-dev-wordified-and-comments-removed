@@ -1790,10 +1790,6 @@ self
 loc
 typespec
 name
-attributes
-=
-{
-}
 )
 :
         
@@ -1816,12 +1812,6 @@ self
 typespec
 =
 typespec
-        
-self
-.
-attributes
-=
-attributes
 class
 TypeSpec
 (
@@ -2123,10 +2113,3 @@ self
 scope
 =
 None
-        
-self
-.
-attributes
-=
-{
-}
