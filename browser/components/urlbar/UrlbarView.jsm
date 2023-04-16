@@ -3289,10 +3289,7 @@ if
 (
 result
 .
-suggestedIndex
->
-=
-0
+hasSuggestedIndex
 )
 {
 return
@@ -3305,10 +3302,7 @@ row
 .
 result
 .
-suggestedIndex
->
-=
-0
+hasSuggestedIndex
 )
 {
 return

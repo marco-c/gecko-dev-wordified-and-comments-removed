@@ -1693,10 +1693,7 @@ if
 (
 result
 .
-suggestedIndex
->
-=
-0
+hasSuggestedIndex
 )
 {
 return
