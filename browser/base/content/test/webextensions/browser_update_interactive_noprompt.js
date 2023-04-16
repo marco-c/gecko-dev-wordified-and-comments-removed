@@ -174,16 +174,11 @@ extension
 )
 ;
 await
-BrowserTestUtils
-.
-waitForEvent
+waitAboutAddonsViewLoaded
 (
 win
 .
 document
-"
-ViewChanged
-"
 )
 ;
 let

@@ -1828,7 +1828,9 @@ document
 addEventListener
 (
 "
-ViewChanged
+view
+-
+loaded
 "
 function
 (
