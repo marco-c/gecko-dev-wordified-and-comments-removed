@@ -3657,10 +3657,6 @@ __init__
 self
 ipdltype
 name
-attributes
-=
-{
-}
 )
 :
         
@@ -3675,12 +3671,6 @@ self
 name
 =
 name
-        
-self
-.
-attributes
-=
-attributes
     
 def
 var
@@ -6612,15 +6602,6 @@ type
 .
 tainted
 and
-'
-NoTaint
-'
-not
-in
-d
-.
-attributes
-and
 direction
 =
 =
@@ -9402,9 +9383,6 @@ type
 decl
 .
 progname
-decl
-.
-attributes
 )
     
 def
@@ -31092,15 +31070,6 @@ decl
 type
 .
 tainted
-and
-'
-NoTaint
-'
-not
-in
-p
-.
-attributes
                             
 else
 p
