@@ -315,6 +315,11 @@ MaybeOneOf
 h
 "
 "
+MaybeStorageBase
+.
+h
+"
+"
 MemoryChecking
 .
 h

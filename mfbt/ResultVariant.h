@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+MaybeStorageBase
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Result
 .
 h
