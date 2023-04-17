@@ -583,7 +583,7 @@ DestroyComplete
 (
 )
 ;
-nsIDocShell
+nsDocShell
 *
 GetExistingDocShell
 (

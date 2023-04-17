@@ -1033,7 +1033,7 @@ aValue
 ;
 if
 (
-nsIDocShell
+nsDocShell
 *
 docshell
 =
@@ -1045,13 +1045,7 @@ GetExistingDocShell
 )
 )
 {
-nsDocShell
-:
-:
-Cast
-(
 docshell
-)
 -
 >
 SetScrollbarPreference
