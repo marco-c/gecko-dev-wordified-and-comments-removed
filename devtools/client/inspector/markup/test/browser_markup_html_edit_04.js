@@ -93,7 +93,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -134,7 +133,6 @@ await
 testDocumentElement
 (
 inspector
-testActor
 )
 ;
 info
@@ -162,7 +160,6 @@ await
 testDocumentElement2
 (
 inspector
-testActor
 )
 ;
 }
@@ -173,7 +170,6 @@ function
 testDocumentElement
 (
 inspector
-testActor
 )
 {
 const
@@ -376,9 +372,7 @@ updated
 is
 (
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 "
 svg
@@ -405,7 +399,6 @@ function
 testDocumentElement2
 (
 inspector
-testActor
 )
 {
 const
@@ -607,9 +600,7 @@ updated
 is
 (
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 "
 svg

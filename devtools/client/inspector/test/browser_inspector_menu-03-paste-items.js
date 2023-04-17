@@ -343,9 +343,7 @@ const
 outerHTML
 =
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 "
 body
@@ -483,9 +481,7 @@ getInnerHTML
 )
 =
 >
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 innerHTMLSelector
 "
@@ -839,9 +835,7 @@ let
 html
 =
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 adjacentNodeSelector
 "
@@ -915,9 +909,7 @@ inspector
 html
 =
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 adjacentNodeSelector
 "
