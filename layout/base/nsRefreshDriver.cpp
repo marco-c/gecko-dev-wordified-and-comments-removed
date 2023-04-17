@@ -391,6 +391,17 @@ include
 "
 mozilla
 /
+layers
+/
+WebRenderLayerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RestyleManager
 .
 h
@@ -11292,7 +11303,7 @@ renderer
 renderer
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 )
@@ -11300,7 +11311,7 @@ AsLayerManager
 renderer
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 -
