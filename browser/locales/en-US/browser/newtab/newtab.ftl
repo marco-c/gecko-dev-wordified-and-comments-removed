@@ -358,17 +358,6 @@ search
 -
 box
 -
-text
-=
-Search
-the
-web
-newtab
--
-search
--
-box
--
 input
 =
 .
