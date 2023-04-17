@@ -143,11 +143,6 @@ cctools
 tar
 .
 zst
-tooltool
--
-downloads
-:
-internal
 fetches
 :
 toolchain
@@ -162,6 +157,12 @@ clang
 linux64
 -
 binutils
+-
+linux64
+-
+toolchain
+-
+sysroot
 linux64
 -
 cctools
@@ -217,11 +218,6 @@ cctools
 tar
 .
 zst
-tooltool
--
-downloads
-:
-internal
 fetches
 :
 toolchain
@@ -236,3 +232,9 @@ clang
 linux64
 -
 binutils
+-
+linux64
+-
+toolchain
+-
+sysroot
