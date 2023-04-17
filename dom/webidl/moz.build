@@ -6088,6 +6088,11 @@ WEBIDL_FILES
 =
 [
 "
+ExtensionAlarms
+.
+webidl
+"
+"
 ExtensionBrowser
 .
 webidl

@@ -38,6 +38,9 @@ namespace
 extensions
 {
 class
+ExtensionAlarms
+;
+class
 ExtensionMockAPI
 ;
 class
@@ -68,6 +71,12 @@ nsCOMPtr
 nsIGlobalObject
 >
 mGlobal
+;
+RefPtr
+<
+ExtensionAlarms
+>
+mExtensionAlarms
 ;
 RefPtr
 <
@@ -123,6 +132,12 @@ GetParentObject
 (
 )
 const
+;
+ExtensionAlarms
+*
+GetExtensionAlarms
+(
+)
 ;
 ExtensionMockAPI
 *

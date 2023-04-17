@@ -91,6 +91,11 @@ UNIFIED_SOURCES
 =
 [
 "
+ExtensionAlarms
+.
+cpp
+"
+"
 ExtensionTest
 .
 cpp
@@ -104,6 +109,11 @@ extensions
 +
 =
 [
+"
+ExtensionAlarms
+.
+h
+"
 "
 ExtensionTest
 .
