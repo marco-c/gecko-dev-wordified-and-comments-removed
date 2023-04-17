@@ -40,6 +40,11 @@ devtools
 checkbox
 -
 label
+devtools
+-
+ellipsis
+-
+text
 \
 \
 "
@@ -171,6 +176,11 @@ devtools
 checkbox
 -
 label
+devtools
+-
+ellipsis
+-
+text
 \
 \
 "
@@ -291,6 +301,11 @@ devtools
 checkbox
 -
 label
+devtools
+-
+ellipsis
+-
+text
 \
 \
 "
@@ -409,6 +424,11 @@ devtools
 checkbox
 -
 label
+devtools
+-
+ellipsis
+-
+text
 \
 \
 "
