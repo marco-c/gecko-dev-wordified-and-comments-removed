@@ -12275,12 +12275,6 @@ rhs
 .
 useOffThreadParseGlobal
 ;
-useFdlibmForSinCosTan
-=
-rhs
-.
-useFdlibmForSinCosTan
-;
 }
 ;
 void
@@ -12772,12 +12766,6 @@ UseOffThreadParseGlobal
 useOffThreadParseGlobal
 =
 UseOffThreadParseGlobal
-(
-)
-;
-useFdlibmForSinCosTan
-=
-math_use_fdlibm_for_sin_cos_tan
 (
 )
 ;

@@ -54,8 +54,6 @@ repos
 freebsd
 /
 freebsd
--
-src
 get_commit
 (
 )
