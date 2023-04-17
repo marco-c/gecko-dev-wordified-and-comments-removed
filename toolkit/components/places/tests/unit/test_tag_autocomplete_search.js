@@ -1,8 +1,3 @@
-var
-current_test
-=
-0
-;
 function
 AutoCompleteInput
 (

@@ -4,17 +4,6 @@ strict
 "
 ;
 const
-MOBILE_BOOKMARKS_PREF
-=
-"
-browser
-.
-bookmarks
-.
-showMobileBookmarks
-"
-;
-const
 expectedRoots
 =
 [

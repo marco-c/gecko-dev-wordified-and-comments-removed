@@ -1,14 +1,3 @@
-var
-now
-=
-Date
-.
-now
-(
-)
-*
-1000
-;
 add_task
 (
 async

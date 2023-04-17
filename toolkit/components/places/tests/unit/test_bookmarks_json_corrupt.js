@@ -22,9 +22,6 @@ jsm
 "
 )
 ;
-var
-bookmarksExportedFile
-;
 add_task
 (
 async

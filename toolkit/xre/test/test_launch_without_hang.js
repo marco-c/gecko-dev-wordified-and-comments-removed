@@ -4,13 +4,6 @@ strict
 "
 ;
 const
-Cm
-=
-Components
-.
-manager
-;
-const
 {
 Services
 }

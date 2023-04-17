@@ -1,14 +1,3 @@
-const
-NOW
-=
-Date
-.
-now
-(
-)
-*
-1000
-;
 let
 gBookmarkGuids
 =
