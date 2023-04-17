@@ -869,11 +869,6 @@ ClearFrameCallback
 (
 )
 ;
-wl_display_roundtrip
-(
-mDisplay
-)
-;
 }
 }
 #
