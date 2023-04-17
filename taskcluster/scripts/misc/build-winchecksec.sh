@@ -57,9 +57,9 @@ MOZ_FETCHES_DIR
 /
 vs2017_15
 .
-8
+9
 .
-4
+6
 .
 GECKO_PATH
 /
