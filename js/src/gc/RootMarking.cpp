@@ -2062,14 +2062,6 @@ trc
 rt
 -
 >
-traceSelfHostingGlobal
-(
-trc
-)
-;
-rt
--
->
 traceSelfHostingStencil
 (
 trc
@@ -2509,10 +2501,6 @@ rt
 finishSelfHosting
 (
 )
-;
-selfHostingZoneFrozen
-=
-false
 ;
 for
 (
