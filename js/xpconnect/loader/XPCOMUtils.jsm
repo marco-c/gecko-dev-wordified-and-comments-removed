@@ -268,6 +268,11 @@ crashIfNotInAutomation
 (
 )
 ;
+delete
+this
+.
+_scriptloader
+;
 this
 .
 _scriptloader
