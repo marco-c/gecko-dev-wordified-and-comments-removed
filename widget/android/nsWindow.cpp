@@ -5639,6 +5639,7 @@ pop
 )
 ;
 }
+}
 compositor
 -
 >
@@ -5646,7 +5647,6 @@ OnCompositorDetached
 (
 )
 ;
-}
 disposer
 -
 >
