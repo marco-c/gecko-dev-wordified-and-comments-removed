@@ -43,6 +43,11 @@ TestNumberFormat
 cpp
 "
 "
+TestNumberingSystem
+.
+cpp
+"
+"
 TestPluralRules
 .
 cpp

@@ -85,6 +85,13 @@ h
 "
 src
 /
+NumberingSystem
+.
+h
+"
+"
+src
+/
 NumberPart
 .
 h
@@ -196,6 +203,13 @@ cpp
 src
 /
 NumberFormatterSkeleton
+.
+cpp
+"
+"
+src
+/
+NumberingSystem
 .
 cpp
 "
