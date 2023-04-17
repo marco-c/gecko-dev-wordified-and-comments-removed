@@ -3,7 +3,7 @@
 /
 bin
 /
-sh
+bash
 #
 Print
 an
@@ -645,7 +645,8 @@ third_party
 /
 libwebrtc
 /
-buildtools
+.
+git
 ]
 ;
 then
@@ -656,7 +657,8 @@ third_party
 /
 libwebrtc
 /
-buildtools
+.
+git
 elif
 [
 -
@@ -830,6 +832,7 @@ file
 for
 THIS_BUILD
 "
+export
 MOZCONFIG
 =
 dom
@@ -931,7 +934,7 @@ gn
 -
 output
 /
-*
+THIS_BUILD
 .
 json
 dom
