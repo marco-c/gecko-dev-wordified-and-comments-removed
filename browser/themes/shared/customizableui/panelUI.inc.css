@@ -16546,9 +16546,14 @@ position
 top
 right
 ;
-color
+-
+moz
+-
+context
+-
+properties
 :
-white
+fill
 ;
 }
 #
@@ -17812,7 +17817,7 @@ link
 {
 color
 :
-white
+inherit
 ;
 font
 -
