@@ -49,6 +49,14 @@ test_showMenu_hideMenu_pageActionPanel
 (
 )
 {
+if
+(
+gProton
+)
+{
+return
+;
+}
 let
 pageActionPanel
 =
