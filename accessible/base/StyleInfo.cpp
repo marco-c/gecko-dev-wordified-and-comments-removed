@@ -406,7 +406,7 @@ const
 nscolor
 &
 aValue
-nsString
+nsAString
 &
 aFormattedValue
 )
