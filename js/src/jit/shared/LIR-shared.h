@@ -10434,7 +10434,7 @@ getTemp
 }
 ;
 class
-LSameValueD
+LSameValueDouble
 :
 public
 LInstructionHelper
@@ -10448,9 +10448,9 @@ public
 :
 LIR_HEADER
 (
-SameValueD
+SameValueDouble
 )
-LSameValueD
+LSameValueDouble
 (
 const
 LAllocation
