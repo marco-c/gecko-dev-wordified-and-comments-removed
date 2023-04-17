@@ -18478,6 +18478,7 @@ MediaElementSetForURI
 &
 aOther
 )
+noexcept
 :
 nsURIHashKey
 (
