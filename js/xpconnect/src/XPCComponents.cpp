@@ -7065,7 +7065,10 @@ aCx
 NonIncrementalGC
 (
 aCx
-GC_NORMAL
+GCOptions
+:
+:
+Normal
 GCReason
 :
 :
@@ -7238,7 +7241,10 @@ aCx
 NonIncrementalGC
 (
 aCx
-GC_SHRINK
+GCOptions
+:
+:
+Shrink
 GCReason
 :
 :
