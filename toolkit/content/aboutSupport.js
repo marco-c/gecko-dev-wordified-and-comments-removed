@@ -7798,7 +7798,7 @@ icons
 /
 arrow
 -
-dropdown
+down
 -
 12
 .
