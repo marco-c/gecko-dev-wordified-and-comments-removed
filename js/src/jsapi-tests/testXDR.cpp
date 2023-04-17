@@ -10,13 +10,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 js
 /
 BuildId

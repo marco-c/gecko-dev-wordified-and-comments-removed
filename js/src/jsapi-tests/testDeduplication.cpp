@@ -8,13 +8,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 gc
 /
 GC
