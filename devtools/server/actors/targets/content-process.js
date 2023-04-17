@@ -965,15 +965,6 @@ unwatchAllTargetResources
 this
 )
 ;
-this
-.
-emit
-(
-"
-tabDetached
-"
-)
-;
 Actor
 .
 prototype

@@ -3029,15 +3029,6 @@ return
 true
 ;
 }
-this
-.
-emit
-(
-"
-tabDetached
-"
-)
-;
 return
 true
 ;
