@@ -369,14 +369,6 @@ EncodingFormSubmission
 (
 )
 ;
-enum
-EncodeType
-{
-eNameEncode
-eFilenameEncode
-eValueEncode
-}
-;
 nsresult
 EncodeVal
 (
@@ -386,9 +378,9 @@ nsAString
 aStr
 nsCString
 &
-aOut
-EncodeType
-aEncodeType
+aResult
+bool
+aHeaderEncode
 )
 ;
 }
