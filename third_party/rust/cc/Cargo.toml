@@ -127,7 +127,7 @@ version
 .
 0
 .
-59
+68
 "
 authors
 =
@@ -146,6 +146,11 @@ com
 exclude
 =
 [
+"
+/
+.
+github
+"
 "
 /
 .
