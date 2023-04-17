@@ -142,7 +142,9 @@ final
 public
 nsWrapperCache
 {
-typedef
+using
+NavigatorProperties
+=
 struct
 workerinternals
 :
@@ -150,7 +152,6 @@ workerinternals
 RuntimeService
 :
 :
-NavigatorProperties
 NavigatorProperties
 ;
 NavigatorProperties
