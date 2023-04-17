@@ -24,8 +24,6 @@ import
 uuid
 from
 collections
-.
-abc
 import
 Iterable
 from
@@ -82,8 +80,12 @@ from
 .
 telemetry
 import
+(
+    
 report_invocation_metrics
+    
 create_telemetry_from_environment
+)
 from
 .
 util

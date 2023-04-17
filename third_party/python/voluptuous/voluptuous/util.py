@@ -26,47 +26,6 @@ __author__
 tusharmakkar08
 '
 def
-_fix_str
-(
-v
-)
-:
-    
-if
-sys
-.
-version_info
-[
-0
-]
-=
-=
-2
-and
-isinstance
-(
-v
-unicode
-)
-:
-        
-s
-=
-v
-    
-else
-:
-        
-s
-=
-str
-(
-v
-)
-    
-return
-s
-def
 Lower
 (
 v
@@ -113,7 +72,7 @@ hi
 "
     
 return
-_fix_str
+str
 (
 v
 )
@@ -168,7 +127,7 @@ HI
 "
     
 return
-_fix_str
+str
 (
 v
 )
@@ -222,7 +181,7 @@ world
 "
     
 return
-_fix_str
+str
 (
 v
 )
@@ -277,7 +236,7 @@ World
 "
     
 return
-_fix_str
+str
 (
 v
 )
@@ -333,7 +292,7 @@ world
 "
     
 return
-_fix_str
+str
 (
 v
 )

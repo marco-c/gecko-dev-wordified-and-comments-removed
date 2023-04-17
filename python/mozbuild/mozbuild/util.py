@@ -5056,8 +5056,6 @@ StringListAdaptor
 (
 collections
 .
-abc
-.
 Sequence
 )
 :

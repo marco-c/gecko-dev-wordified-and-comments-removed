@@ -13,13 +13,8 @@ import
 json
 from
 collections
-.
-abc
 import
 Iterable
-from
-collections
-import
 OrderedDict
 from
 types
@@ -281,16 +276,19 @@ dont_inherit
 g
 =
 {
+            
 "
 __builtins__
 "
 :
 __builtins__
+            
 "
 __file__
 "
 :
 path
+        
 }
         
 l

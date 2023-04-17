@@ -60,11 +60,6 @@ from
 collections
 import
 defaultdict
-from
-collections
-.
-abc
-import
 MutableSequence
 import
 six
