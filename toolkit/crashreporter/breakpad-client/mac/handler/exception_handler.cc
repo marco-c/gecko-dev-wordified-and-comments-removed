@@ -1496,6 +1496,8 @@ static
 void
 GetPHCAddrInfo
 (
+int
+exception_type
 int64_t
 exception_subcode
 mozilla
@@ -1511,7 +1513,10 @@ addr_info
 {
 if
 (
-exception_subcode
+exception_type
+=
+=
+EXC_BAD_ACCESS
 )
 {
 char
@@ -1593,6 +1598,7 @@ ifdef
 MOZ_PHC
 GetPHCAddrInfo
 (
+exception_type
 exception_subcode
 &
 addr_info
