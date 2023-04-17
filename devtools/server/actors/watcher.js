@@ -1009,11 +1009,14 @@ _getTargetActorInParentProcess
 (
 )
 {
-return
+if
+(
 this
 .
 browserElement
-?
+)
+{
+return
 TargetActorRegistry
 .
 getTargetActor
@@ -1022,7 +1025,9 @@ this
 .
 browserId
 )
-:
+;
+}
+return
 TargetActorRegistry
 .
 getParentProcessTargetActor
