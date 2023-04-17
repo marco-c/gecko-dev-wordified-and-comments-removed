@@ -104,6 +104,16 @@ requireUserInteraction
 "
 false
 ]
+[
+"
+browser
+.
+sessionhistory
+.
+max_total_viewers
+"
+0
+]
 ]
 }
 )
