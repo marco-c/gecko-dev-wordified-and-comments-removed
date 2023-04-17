@@ -48,6 +48,11 @@ TestConfigManager
 cpp
 "
 "
+TestCoord
+.
+cpp
+"
+"
 TestGfxWidgets
 .
 cpp
