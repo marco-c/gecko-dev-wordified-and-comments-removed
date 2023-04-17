@@ -3244,6 +3244,9 @@ PictureTextures
 max_texture_size
 :
 i32
+tiling_threshold
+:
+i32
 swizzle
 :
 Option
@@ -3360,6 +3363,9 @@ new
 max_texture_size
 :
 i32
+tiling_threshold
+:
+i32
 default_picture_tile_size
 :
 DeviceIntSize
@@ -3460,6 +3466,7 @@ new
 default_picture_tile_size
 )
 max_texture_size
+tiling_threshold
 swizzle
 debug_flags
 :
@@ -3566,6 +3573,7 @@ Self
 :
 new
 (
+max_texture_size
 max_texture_size
 crate
 :
@@ -4755,6 +4763,21 @@ i32
 self
 .
 max_texture_size
+}
+pub
+fn
+tiling_threshold
+(
+&
+self
+)
+-
+>
+i32
+{
+self
+.
+tiling_threshold
 }
 #
 [
