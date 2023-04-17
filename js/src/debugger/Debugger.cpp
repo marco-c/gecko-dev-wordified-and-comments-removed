@@ -7193,7 +7193,7 @@ whyMagic
 )
 {
 case
-JS_OPTIMIZED_ARGUMENTS
+JS_MISSING_ARGUMENTS
 :
 name
 =
