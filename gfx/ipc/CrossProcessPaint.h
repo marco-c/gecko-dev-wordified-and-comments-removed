@@ -165,12 +165,6 @@ DrawView
 <
 <
 1
-ResetScrollPosition
-=
-1
-<
-<
-2
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS

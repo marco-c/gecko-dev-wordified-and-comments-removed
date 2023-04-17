@@ -179,12 +179,6 @@ rect
 =
 rectangle
 ;
-options
-.
-resetScrollPosition
-=
-true
-;
 devicePixelRatio
 =
 1

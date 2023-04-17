@@ -627,8 +627,6 @@ const
 nsACString
 &
 aBackgroundColor
-bool
-aResetScrollPosition
 mozilla
 :
 :
