@@ -20,20 +20,22 @@ export
 .
 h
 >
-namespace
-gl
+extern
+"
+C
+"
 {
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BlendBarrier
+GL_BlendBarrier
 (
 )
 ;
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BlendEquationSeparatei
+GL_BlendEquationSeparatei
 (
 GLuint
 buf
@@ -46,7 +48,7 @@ modeAlpha
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BlendEquationi
+GL_BlendEquationi
 (
 GLuint
 buf
@@ -57,7 +59,7 @@ mode
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BlendFuncSeparatei
+GL_BlendFuncSeparatei
 (
 GLuint
 buf
@@ -74,7 +76,7 @@ dstAlpha
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BlendFunci
+GL_BlendFunci
 (
 GLuint
 buf
@@ -87,7 +89,7 @@ dst
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ColorMaski
+GL_ColorMaski
 (
 GLuint
 index
@@ -104,7 +106,7 @@ a
 ANGLE_EXPORT
 void
 GL_APIENTRY
-CopyImageSubData
+GL_CopyImageSubData
 (
 GLuint
 srcName
@@ -141,7 +143,7 @@ srcDepth
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DebugMessageCallback
+GL_DebugMessageCallback
 (
 GLDEBUGPROC
 callback
@@ -154,7 +156,7 @@ userParam
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DebugMessageControl
+GL_DebugMessageControl
 (
 GLenum
 source
@@ -175,7 +177,7 @@ enabled
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DebugMessageInsert
+GL_DebugMessageInsert
 (
 GLenum
 source
@@ -196,7 +198,7 @@ buf
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Disablei
+GL_Disablei
 (
 GLenum
 target
@@ -207,7 +209,7 @@ index
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DrawElementsBaseVertex
+GL_DrawElementsBaseVertex
 (
 GLenum
 mode
@@ -226,7 +228,7 @@ basevertex
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DrawElementsInstancedBaseVertex
+GL_DrawElementsInstancedBaseVertex
 (
 GLenum
 mode
@@ -247,7 +249,7 @@ basevertex
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DrawRangeElementsBaseVertex
+GL_DrawRangeElementsBaseVertex
 (
 GLenum
 mode
@@ -270,7 +272,7 @@ basevertex
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Enablei
+GL_Enablei
 (
 GLenum
 target
@@ -281,7 +283,7 @@ index
 ANGLE_EXPORT
 void
 GL_APIENTRY
-FramebufferTexture
+GL_FramebufferTexture
 (
 GLenum
 target
@@ -296,7 +298,7 @@ level
 ANGLE_EXPORT
 GLuint
 GL_APIENTRY
-GetDebugMessageLog
+GL_GetDebugMessageLog
 (
 GLuint
 count
@@ -325,14 +327,14 @@ messageLog
 ANGLE_EXPORT
 GLenum
 GL_APIENTRY
-GetGraphicsResetStatus
+GL_GetGraphicsResetStatus
 (
 )
 ;
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetObjectLabel
+GL_GetObjectLabel
 (
 GLenum
 identifier
@@ -351,7 +353,7 @@ label
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetObjectPtrLabel
+GL_GetObjectPtrLabel
 (
 const
 void
@@ -370,7 +372,7 @@ label
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetPointerv
+GL_GetPointerv
 (
 GLenum
 pname
@@ -383,7 +385,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetSamplerParameterIiv
+GL_GetSamplerParameterIiv
 (
 GLuint
 sampler
@@ -397,7 +399,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetSamplerParameterIuiv
+GL_GetSamplerParameterIuiv
 (
 GLuint
 sampler
@@ -411,7 +413,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetTexParameterIiv
+GL_GetTexParameterIiv
 (
 GLenum
 target
@@ -425,7 +427,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetTexParameterIuiv
+GL_GetTexParameterIuiv
 (
 GLenum
 target
@@ -439,7 +441,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetnUniformfv
+GL_GetnUniformfv
 (
 GLuint
 program
@@ -455,7 +457,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetnUniformiv
+GL_GetnUniformiv
 (
 GLuint
 program
@@ -471,7 +473,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetnUniformuiv
+GL_GetnUniformuiv
 (
 GLuint
 program
@@ -487,7 +489,7 @@ params
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-IsEnabledi
+GL_IsEnabledi
 (
 GLenum
 target
@@ -498,7 +500,7 @@ index
 ANGLE_EXPORT
 void
 GL_APIENTRY
-MinSampleShading
+GL_MinSampleShading
 (
 GLfloat
 value
@@ -507,7 +509,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ObjectLabel
+GL_ObjectLabel
 (
 GLenum
 identifier
@@ -524,7 +526,7 @@ label
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ObjectPtrLabel
+GL_ObjectPtrLabel
 (
 const
 void
@@ -541,7 +543,7 @@ label
 ANGLE_EXPORT
 void
 GL_APIENTRY
-PatchParameteri
+GL_PatchParameteri
 (
 GLenum
 pname
@@ -552,14 +554,14 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-PopDebugGroup
+GL_PopDebugGroup
 (
 )
 ;
 ANGLE_EXPORT
 void
 GL_APIENTRY
-PrimitiveBoundingBox
+GL_PrimitiveBoundingBox
 (
 GLfloat
 minX
@@ -582,7 +584,7 @@ maxW
 ANGLE_EXPORT
 void
 GL_APIENTRY
-PushDebugGroup
+GL_PushDebugGroup
 (
 GLenum
 source
@@ -599,7 +601,7 @@ message
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ReadnPixels
+GL_ReadnPixels
 (
 GLint
 x
@@ -623,7 +625,7 @@ data
 ANGLE_EXPORT
 void
 GL_APIENTRY
-SamplerParameterIiv
+GL_SamplerParameterIiv
 (
 GLuint
 sampler
@@ -638,7 +640,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-SamplerParameterIuiv
+GL_SamplerParameterIuiv
 (
 GLuint
 sampler
@@ -653,7 +655,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexBuffer
+GL_TexBuffer
 (
 GLenum
 target
@@ -666,7 +668,7 @@ buffer
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexBufferRange
+GL_TexBufferRange
 (
 GLenum
 target
@@ -683,7 +685,7 @@ size
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexParameterIiv
+GL_TexParameterIiv
 (
 GLenum
 target
@@ -698,7 +700,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexParameterIuiv
+GL_TexParameterIuiv
 (
 GLenum
 target
@@ -713,7 +715,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexStorage3DMultisample
+GL_TexStorage3DMultisample
 (
 GLenum
 target

@@ -20,13 +20,15 @@ export
 .
 h
 >
-namespace
-gl
+extern
+"
+C
+"
 {
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ActiveTexture
+GL_ActiveTexture
 (
 GLenum
 texture
@@ -35,7 +37,7 @@ texture
 ANGLE_EXPORT
 void
 GL_APIENTRY
-AttachShader
+GL_AttachShader
 (
 GLuint
 program
@@ -46,7 +48,7 @@ shader
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BindAttribLocation
+GL_BindAttribLocation
 (
 GLuint
 program
@@ -61,7 +63,7 @@ name
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BindBuffer
+GL_BindBuffer
 (
 GLenum
 target
@@ -72,7 +74,7 @@ buffer
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BindFramebuffer
+GL_BindFramebuffer
 (
 GLenum
 target
@@ -83,7 +85,7 @@ framebuffer
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BindRenderbuffer
+GL_BindRenderbuffer
 (
 GLenum
 target
@@ -94,7 +96,7 @@ renderbuffer
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BindTexture
+GL_BindTexture
 (
 GLenum
 target
@@ -105,7 +107,7 @@ texture
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BlendColor
+GL_BlendColor
 (
 GLfloat
 red
@@ -120,7 +122,7 @@ alpha
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BlendEquation
+GL_BlendEquation
 (
 GLenum
 mode
@@ -129,7 +131,7 @@ mode
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BlendEquationSeparate
+GL_BlendEquationSeparate
 (
 GLenum
 modeRGB
@@ -140,7 +142,7 @@ modeAlpha
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BlendFunc
+GL_BlendFunc
 (
 GLenum
 sfactor
@@ -151,7 +153,7 @@ dfactor
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BlendFuncSeparate
+GL_BlendFuncSeparate
 (
 GLenum
 sfactorRGB
@@ -166,7 +168,7 @@ dfactorAlpha
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BufferData
+GL_BufferData
 (
 GLenum
 target
@@ -183,7 +185,7 @@ usage
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BufferSubData
+GL_BufferSubData
 (
 GLenum
 target
@@ -200,7 +202,7 @@ data
 ANGLE_EXPORT
 GLenum
 GL_APIENTRY
-CheckFramebufferStatus
+GL_CheckFramebufferStatus
 (
 GLenum
 target
@@ -209,7 +211,7 @@ target
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Clear
+GL_Clear
 (
 GLbitfield
 mask
@@ -218,7 +220,7 @@ mask
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ClearColor
+GL_ClearColor
 (
 GLfloat
 red
@@ -233,7 +235,7 @@ alpha
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ClearDepthf
+GL_ClearDepthf
 (
 GLfloat
 d
@@ -242,7 +244,7 @@ d
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ClearStencil
+GL_ClearStencil
 (
 GLint
 s
@@ -251,7 +253,7 @@ s
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ColorMask
+GL_ColorMask
 (
 GLboolean
 red
@@ -266,7 +268,7 @@ alpha
 ANGLE_EXPORT
 void
 GL_APIENTRY
-CompileShader
+GL_CompileShader
 (
 GLuint
 shader
@@ -275,7 +277,7 @@ shader
 ANGLE_EXPORT
 void
 GL_APIENTRY
-CompressedTexImage2D
+GL_CompressedTexImage2D
 (
 GLenum
 target
@@ -300,7 +302,7 @@ data
 ANGLE_EXPORT
 void
 GL_APIENTRY
-CompressedTexSubImage2D
+GL_CompressedTexSubImage2D
 (
 GLenum
 target
@@ -327,7 +329,7 @@ data
 ANGLE_EXPORT
 void
 GL_APIENTRY
-CopyTexImage2D
+GL_CopyTexImage2D
 (
 GLenum
 target
@@ -350,7 +352,7 @@ border
 ANGLE_EXPORT
 void
 GL_APIENTRY
-CopyTexSubImage2D
+GL_CopyTexSubImage2D
 (
 GLenum
 target
@@ -373,14 +375,14 @@ height
 ANGLE_EXPORT
 GLuint
 GL_APIENTRY
-CreateProgram
+GL_CreateProgram
 (
 )
 ;
 ANGLE_EXPORT
 GLuint
 GL_APIENTRY
-CreateShader
+GL_CreateShader
 (
 GLenum
 type
@@ -389,7 +391,7 @@ type
 ANGLE_EXPORT
 void
 GL_APIENTRY
-CullFace
+GL_CullFace
 (
 GLenum
 mode
@@ -398,7 +400,7 @@ mode
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DeleteBuffers
+GL_DeleteBuffers
 (
 GLsizei
 n
@@ -411,7 +413,7 @@ buffers
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DeleteFramebuffers
+GL_DeleteFramebuffers
 (
 GLsizei
 n
@@ -424,7 +426,7 @@ framebuffers
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DeleteProgram
+GL_DeleteProgram
 (
 GLuint
 program
@@ -433,7 +435,7 @@ program
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DeleteRenderbuffers
+GL_DeleteRenderbuffers
 (
 GLsizei
 n
@@ -446,7 +448,7 @@ renderbuffers
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DeleteShader
+GL_DeleteShader
 (
 GLuint
 shader
@@ -455,7 +457,7 @@ shader
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DeleteTextures
+GL_DeleteTextures
 (
 GLsizei
 n
@@ -468,7 +470,7 @@ textures
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DepthFunc
+GL_DepthFunc
 (
 GLenum
 func
@@ -477,7 +479,7 @@ func
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DepthMask
+GL_DepthMask
 (
 GLboolean
 flag
@@ -486,7 +488,7 @@ flag
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DepthRangef
+GL_DepthRangef
 (
 GLfloat
 n
@@ -497,7 +499,7 @@ f
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DetachShader
+GL_DetachShader
 (
 GLuint
 program
@@ -508,7 +510,7 @@ shader
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Disable
+GL_Disable
 (
 GLenum
 cap
@@ -517,7 +519,7 @@ cap
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DisableVertexAttribArray
+GL_DisableVertexAttribArray
 (
 GLuint
 index
@@ -526,7 +528,7 @@ index
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DrawArrays
+GL_DrawArrays
 (
 GLenum
 mode
@@ -539,7 +541,7 @@ count
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DrawElements
+GL_DrawElements
 (
 GLenum
 mode
@@ -556,7 +558,7 @@ indices
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Enable
+GL_Enable
 (
 GLenum
 cap
@@ -565,7 +567,7 @@ cap
 ANGLE_EXPORT
 void
 GL_APIENTRY
-EnableVertexAttribArray
+GL_EnableVertexAttribArray
 (
 GLuint
 index
@@ -574,21 +576,21 @@ index
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Finish
+GL_Finish
 (
 )
 ;
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Flush
+GL_Flush
 (
 )
 ;
 ANGLE_EXPORT
 void
 GL_APIENTRY
-FramebufferRenderbuffer
+GL_FramebufferRenderbuffer
 (
 GLenum
 target
@@ -603,7 +605,7 @@ renderbuffer
 ANGLE_EXPORT
 void
 GL_APIENTRY
-FramebufferTexture2D
+GL_FramebufferTexture2D
 (
 GLenum
 target
@@ -620,7 +622,7 @@ level
 ANGLE_EXPORT
 void
 GL_APIENTRY
-FrontFace
+GL_FrontFace
 (
 GLenum
 mode
@@ -629,7 +631,7 @@ mode
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GenBuffers
+GL_GenBuffers
 (
 GLsizei
 n
@@ -641,7 +643,7 @@ buffers
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GenFramebuffers
+GL_GenFramebuffers
 (
 GLsizei
 n
@@ -653,7 +655,7 @@ framebuffers
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GenRenderbuffers
+GL_GenRenderbuffers
 (
 GLsizei
 n
@@ -665,7 +667,7 @@ renderbuffers
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GenTextures
+GL_GenTextures
 (
 GLsizei
 n
@@ -677,7 +679,7 @@ textures
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GenerateMipmap
+GL_GenerateMipmap
 (
 GLenum
 target
@@ -686,7 +688,7 @@ target
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetActiveAttrib
+GL_GetActiveAttrib
 (
 GLuint
 program
@@ -711,7 +713,7 @@ name
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetActiveUniform
+GL_GetActiveUniform
 (
 GLuint
 program
@@ -736,7 +738,7 @@ name
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetAttachedShaders
+GL_GetAttachedShaders
 (
 GLuint
 program
@@ -753,7 +755,7 @@ shaders
 ANGLE_EXPORT
 GLint
 GL_APIENTRY
-GetAttribLocation
+GL_GetAttribLocation
 (
 GLuint
 program
@@ -766,7 +768,7 @@ name
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetBooleanv
+GL_GetBooleanv
 (
 GLenum
 pname
@@ -778,7 +780,7 @@ data
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetBufferParameteriv
+GL_GetBufferParameteriv
 (
 GLenum
 target
@@ -792,14 +794,14 @@ params
 ANGLE_EXPORT
 GLenum
 GL_APIENTRY
-GetError
+GL_GetError
 (
 )
 ;
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetFloatv
+GL_GetFloatv
 (
 GLenum
 pname
@@ -811,7 +813,7 @@ data
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetFramebufferAttachmentParameteriv
+GL_GetFramebufferAttachmentParameteriv
 (
 GLenum
 target
@@ -827,7 +829,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetIntegerv
+GL_GetIntegerv
 (
 GLenum
 pname
@@ -839,7 +841,7 @@ data
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetProgramInfoLog
+GL_GetProgramInfoLog
 (
 GLuint
 program
@@ -856,7 +858,7 @@ infoLog
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetProgramiv
+GL_GetProgramiv
 (
 GLuint
 program
@@ -870,7 +872,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetRenderbufferParameteriv
+GL_GetRenderbufferParameteriv
 (
 GLenum
 target
@@ -884,7 +886,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetShaderInfoLog
+GL_GetShaderInfoLog
 (
 GLuint
 shader
@@ -901,7 +903,7 @@ infoLog
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetShaderPrecisionFormat
+GL_GetShaderPrecisionFormat
 (
 GLenum
 shadertype
@@ -918,7 +920,7 @@ precision
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetShaderSource
+GL_GetShaderSource
 (
 GLuint
 shader
@@ -935,7 +937,7 @@ source
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetShaderiv
+GL_GetShaderiv
 (
 GLuint
 shader
@@ -951,7 +953,7 @@ const
 GLubyte
 *
 GL_APIENTRY
-GetString
+GL_GetString
 (
 GLenum
 name
@@ -960,7 +962,7 @@ name
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetTexParameterfv
+GL_GetTexParameterfv
 (
 GLenum
 target
@@ -974,7 +976,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetTexParameteriv
+GL_GetTexParameteriv
 (
 GLenum
 target
@@ -988,7 +990,7 @@ params
 ANGLE_EXPORT
 GLint
 GL_APIENTRY
-GetUniformLocation
+GL_GetUniformLocation
 (
 GLuint
 program
@@ -1001,7 +1003,7 @@ name
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetUniformfv
+GL_GetUniformfv
 (
 GLuint
 program
@@ -1015,7 +1017,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetUniformiv
+GL_GetUniformiv
 (
 GLuint
 program
@@ -1029,7 +1031,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetVertexAttribPointerv
+GL_GetVertexAttribPointerv
 (
 GLuint
 index
@@ -1044,7 +1046,7 @@ pointer
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetVertexAttribfv
+GL_GetVertexAttribfv
 (
 GLuint
 index
@@ -1058,7 +1060,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetVertexAttribiv
+GL_GetVertexAttribiv
 (
 GLuint
 index
@@ -1072,7 +1074,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Hint
+GL_Hint
 (
 GLenum
 target
@@ -1083,7 +1085,7 @@ mode
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-IsBuffer
+GL_IsBuffer
 (
 GLuint
 buffer
@@ -1092,7 +1094,7 @@ buffer
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-IsEnabled
+GL_IsEnabled
 (
 GLenum
 cap
@@ -1101,7 +1103,7 @@ cap
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-IsFramebuffer
+GL_IsFramebuffer
 (
 GLuint
 framebuffer
@@ -1110,7 +1112,7 @@ framebuffer
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-IsProgram
+GL_IsProgram
 (
 GLuint
 program
@@ -1119,7 +1121,7 @@ program
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-IsRenderbuffer
+GL_IsRenderbuffer
 (
 GLuint
 renderbuffer
@@ -1128,7 +1130,7 @@ renderbuffer
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-IsShader
+GL_IsShader
 (
 GLuint
 shader
@@ -1137,7 +1139,7 @@ shader
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-IsTexture
+GL_IsTexture
 (
 GLuint
 texture
@@ -1146,7 +1148,7 @@ texture
 ANGLE_EXPORT
 void
 GL_APIENTRY
-LineWidth
+GL_LineWidth
 (
 GLfloat
 width
@@ -1155,7 +1157,7 @@ width
 ANGLE_EXPORT
 void
 GL_APIENTRY
-LinkProgram
+GL_LinkProgram
 (
 GLuint
 program
@@ -1164,7 +1166,7 @@ program
 ANGLE_EXPORT
 void
 GL_APIENTRY
-PixelStorei
+GL_PixelStorei
 (
 GLenum
 pname
@@ -1175,7 +1177,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-PolygonOffset
+GL_PolygonOffset
 (
 GLfloat
 factor
@@ -1186,7 +1188,7 @@ units
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ReadPixels
+GL_ReadPixels
 (
 GLint
 x
@@ -1208,14 +1210,14 @@ pixels
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ReleaseShaderCompiler
+GL_ReleaseShaderCompiler
 (
 )
 ;
 ANGLE_EXPORT
 void
 GL_APIENTRY
-RenderbufferStorage
+GL_RenderbufferStorage
 (
 GLenum
 target
@@ -1230,7 +1232,7 @@ height
 ANGLE_EXPORT
 void
 GL_APIENTRY
-SampleCoverage
+GL_SampleCoverage
 (
 GLfloat
 value
@@ -1241,7 +1243,7 @@ invert
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Scissor
+GL_Scissor
 (
 GLint
 x
@@ -1256,7 +1258,7 @@ height
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ShaderBinary
+GL_ShaderBinary
 (
 GLsizei
 count
@@ -1277,7 +1279,7 @@ length
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ShaderSource
+GL_ShaderSource
 (
 GLuint
 shader
@@ -1298,7 +1300,7 @@ length
 ANGLE_EXPORT
 void
 GL_APIENTRY
-StencilFunc
+GL_StencilFunc
 (
 GLenum
 func
@@ -1311,7 +1313,7 @@ mask
 ANGLE_EXPORT
 void
 GL_APIENTRY
-StencilFuncSeparate
+GL_StencilFuncSeparate
 (
 GLenum
 face
@@ -1326,7 +1328,7 @@ mask
 ANGLE_EXPORT
 void
 GL_APIENTRY
-StencilMask
+GL_StencilMask
 (
 GLuint
 mask
@@ -1335,7 +1337,7 @@ mask
 ANGLE_EXPORT
 void
 GL_APIENTRY
-StencilMaskSeparate
+GL_StencilMaskSeparate
 (
 GLenum
 face
@@ -1346,7 +1348,7 @@ mask
 ANGLE_EXPORT
 void
 GL_APIENTRY
-StencilOp
+GL_StencilOp
 (
 GLenum
 fail
@@ -1359,7 +1361,7 @@ zpass
 ANGLE_EXPORT
 void
 GL_APIENTRY
-StencilOpSeparate
+GL_StencilOpSeparate
 (
 GLenum
 face
@@ -1374,7 +1376,7 @@ dppass
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexImage2D
+GL_TexImage2D
 (
 GLenum
 target
@@ -1401,7 +1403,7 @@ pixels
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexParameterf
+GL_TexParameterf
 (
 GLenum
 target
@@ -1414,7 +1416,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexParameterfv
+GL_TexParameterfv
 (
 GLenum
 target
@@ -1429,7 +1431,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexParameteri
+GL_TexParameteri
 (
 GLenum
 target
@@ -1442,7 +1444,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexParameteriv
+GL_TexParameteriv
 (
 GLenum
 target
@@ -1457,7 +1459,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexSubImage2D
+GL_TexSubImage2D
 (
 GLenum
 target
@@ -1484,7 +1486,7 @@ pixels
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform1f
+GL_Uniform1f
 (
 GLint
 location
@@ -1495,7 +1497,7 @@ v0
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform1fv
+GL_Uniform1fv
 (
 GLint
 location
@@ -1510,7 +1512,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform1i
+GL_Uniform1i
 (
 GLint
 location
@@ -1521,7 +1523,7 @@ v0
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform1iv
+GL_Uniform1iv
 (
 GLint
 location
@@ -1536,7 +1538,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform2f
+GL_Uniform2f
 (
 GLint
 location
@@ -1549,7 +1551,7 @@ v1
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform2fv
+GL_Uniform2fv
 (
 GLint
 location
@@ -1564,7 +1566,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform2i
+GL_Uniform2i
 (
 GLint
 location
@@ -1577,7 +1579,7 @@ v1
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform2iv
+GL_Uniform2iv
 (
 GLint
 location
@@ -1592,7 +1594,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform3f
+GL_Uniform3f
 (
 GLint
 location
@@ -1607,7 +1609,7 @@ v2
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform3fv
+GL_Uniform3fv
 (
 GLint
 location
@@ -1622,7 +1624,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform3i
+GL_Uniform3i
 (
 GLint
 location
@@ -1637,7 +1639,7 @@ v2
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform3iv
+GL_Uniform3iv
 (
 GLint
 location
@@ -1652,7 +1654,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform4f
+GL_Uniform4f
 (
 GLint
 location
@@ -1669,7 +1671,7 @@ v3
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform4fv
+GL_Uniform4fv
 (
 GLint
 location
@@ -1684,7 +1686,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform4i
+GL_Uniform4i
 (
 GLint
 location
@@ -1701,7 +1703,7 @@ v3
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform4iv
+GL_Uniform4iv
 (
 GLint
 location
@@ -1716,24 +1718,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-UniformMatrix2fv
-(
-GLint
-location
-GLsizei
-count
-GLboolean
-transpose
-const
-GLfloat
-*
-value
-)
-;
-ANGLE_EXPORT
-void
-GL_APIENTRY
-UniformMatrix3fv
+GL_UniformMatrix2fv
 (
 GLint
 location
@@ -1750,7 +1735,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-UniformMatrix4fv
+GL_UniformMatrix3fv
 (
 GLint
 location
@@ -1767,7 +1752,24 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-UseProgram
+GL_UniformMatrix4fv
+(
+GLint
+location
+GLsizei
+count
+GLboolean
+transpose
+const
+GLfloat
+*
+value
+)
+;
+ANGLE_EXPORT
+void
+GL_APIENTRY
+GL_UseProgram
 (
 GLuint
 program
@@ -1776,7 +1778,7 @@ program
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ValidateProgram
+GL_ValidateProgram
 (
 GLuint
 program
@@ -1785,7 +1787,7 @@ program
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttrib1f
+GL_VertexAttrib1f
 (
 GLuint
 index
@@ -1796,7 +1798,7 @@ x
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttrib1fv
+GL_VertexAttrib1fv
 (
 GLuint
 index
@@ -1809,7 +1811,7 @@ v
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttrib2f
+GL_VertexAttrib2f
 (
 GLuint
 index
@@ -1822,7 +1824,7 @@ y
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttrib2fv
+GL_VertexAttrib2fv
 (
 GLuint
 index
@@ -1835,7 +1837,7 @@ v
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttrib3f
+GL_VertexAttrib3f
 (
 GLuint
 index
@@ -1850,7 +1852,7 @@ z
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttrib3fv
+GL_VertexAttrib3fv
 (
 GLuint
 index
@@ -1863,7 +1865,7 @@ v
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttrib4f
+GL_VertexAttrib4f
 (
 GLuint
 index
@@ -1880,7 +1882,7 @@ w
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttrib4fv
+GL_VertexAttrib4fv
 (
 GLuint
 index
@@ -1893,7 +1895,7 @@ v
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttribPointer
+GL_VertexAttribPointer
 (
 GLuint
 index
@@ -1914,7 +1916,7 @@ pointer
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Viewport
+GL_Viewport
 (
 GLint
 x

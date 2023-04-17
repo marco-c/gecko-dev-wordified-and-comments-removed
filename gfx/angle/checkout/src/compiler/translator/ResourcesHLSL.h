@@ -155,7 +155,7 @@ TInterfaceBlock
 *
 >
 &
-uniformBlockTranslatedToStructuredBuffer
+uniformBlockOptimizedMap
 )
 ;
 TString

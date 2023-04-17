@@ -44,6 +44,11 @@ validateSingleParent
 true
 ;
 bool
+validateVariableReferences
+=
+true
+;
+bool
 validateFunctionCall
 =
 true

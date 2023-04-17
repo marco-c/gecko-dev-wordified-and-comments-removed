@@ -729,6 +729,8 @@ TIntermNode
 *
 originalIn
 TIntermSequence
+&
+&
 replacementsIn
 )
 :

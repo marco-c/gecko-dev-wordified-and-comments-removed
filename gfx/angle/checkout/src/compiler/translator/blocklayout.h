@@ -790,7 +790,7 @@ arrayElement
 }
 virtual
 void
-visitSamplerOrImage
+visitOpaqueObject
 (
 const
 sh
@@ -951,7 +951,7 @@ protected
 :
 virtual
 void
-visitNamedSamplerOrImage
+visitNamedOpaqueObject
 (
 const
 sh
@@ -959,7 +959,7 @@ sh
 :
 ShaderVariable
 &
-sampler
+variable
 const
 std
 :
@@ -1048,7 +1048,7 @@ const
 private
 :
 void
-visitSamplerOrImage
+visitOpaqueObject
 (
 const
 sh

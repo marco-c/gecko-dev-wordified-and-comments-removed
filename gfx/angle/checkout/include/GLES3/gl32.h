@@ -1,9 +1,9 @@
 #
 ifndef
-__gl32_h_
+__gles2_gl32_h_
 #
 define
-__gl32_h_
+__gles2_gl32_h_
 1
 #
 ifdef
@@ -72,12 +72,11 @@ khronos_int32_t
 GLfixed
 ;
 typedef
-short
+khronos_int16_t
 GLshort
 ;
 typedef
-unsigned
-short
+khronos_uint16_t
 GLushort
 ;
 typedef
@@ -5465,8 +5464,7 @@ define
 GL_ES_VERSION_3_0
 1
 typedef
-unsigned
-short
+khronos_uint16_t
 GLhalf
 ;
 #

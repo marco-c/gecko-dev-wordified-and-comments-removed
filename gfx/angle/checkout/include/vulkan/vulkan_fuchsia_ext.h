@@ -152,6 +152,9 @@ VkExternalSemaphoreHandleTypeFlagBits
 )
 ;
 #
+ifndef
+VK_FUCHSIA_external_memory
+#
 define
 VK_FUCHSIA_external_memory
 1
@@ -300,6 +303,11 @@ pMemoryZirconHandleProperties
 #
 endif
 #
+endif
+#
+ifndef
+VK_FUCHSIA_external_semaphore
+#
 define
 VK_FUCHSIA_external_semaphore
 1
@@ -335,7 +343,7 @@ VkExternalSemaphoreHandleTypeFlagBits
 handleType
 ;
 zx_handle_t
-handle
+zirconHandle
 ;
 }
 VkImportSemaphoreZirconHandleInfoFUCHSIA
@@ -428,6 +436,8 @@ zx_handle_t
 pZirconHandle
 )
 ;
+#
+endif
 #
 endif
 #

@@ -1058,6 +1058,9 @@ destArea
 height
 )
 ;
+if
+(
+!
 gl
 :
 :
@@ -1068,7 +1071,11 @@ clipRect
 &
 clippedDestArea
 )
+)
+{
+return
 ;
+}
 if
 (
 sourceArea
