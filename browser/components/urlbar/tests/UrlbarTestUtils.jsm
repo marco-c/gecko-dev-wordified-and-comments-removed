@@ -1746,6 +1746,15 @@ win
 await
 openPromise
 ;
+await
+new
+Promise
+(
+win
+.
+requestAnimationFrame
+)
+;
 try
 {
 await
