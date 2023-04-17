@@ -766,6 +766,9 @@ Box
 TileCacheInstance
 >
 >
+is_root_tile_cache
+:
+bool
 )
 -
 >
@@ -1296,6 +1299,7 @@ world_culling_rect
 frame_context
 frame_state
 tile_caches
+false
 )
 ;
 if
@@ -2076,6 +2080,7 @@ mut
 frame_state
 .
 gpu_cache
+is_root_tile_cache
 )
 ;
 match

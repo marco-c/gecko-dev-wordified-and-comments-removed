@@ -12521,7 +12521,7 @@ ClipChainInstance
 prim_spatial_node_index
 :
 SpatialNodeIndex
-on_picture_surface
+is_root_tile_cache
 :
 bool
 sub_slice_index
@@ -12582,7 +12582,7 @@ Failed
 }
 if
 !
-on_picture_surface
+is_root_tile_cache
 {
 return
 SurfacePromotionResult
@@ -13721,7 +13721,7 @@ update_params
 }
 }
 ;
-debug_assert
+assert
 !
 (
 sub_slice_index
@@ -13872,6 +13872,9 @@ gpu_cache
 &
 mut
 GpuCache
+is_root_tile_cache
+:
+bool
 )
 {
 profile_scope
@@ -14542,7 +14545,7 @@ common
 flags
 prim_clip_chain
 prim_spatial_node_index
-on_picture_surface
+is_root_tile_cache
 sub_slice_index
 frame_context
 )
@@ -14786,7 +14789,7 @@ common
 flags
 prim_clip_chain
 prim_spatial_node_index
-on_picture_surface
+is_root_tile_cache
 sub_slice_index
 frame_context
 )
