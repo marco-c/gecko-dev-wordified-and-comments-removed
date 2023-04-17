@@ -1013,12 +1013,6 @@ customRetVal
 auto
 tryResult
 =
-:
-:
-mozilla
-:
-:
-ToResult
 (
 expr
 )

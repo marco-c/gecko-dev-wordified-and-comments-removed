@@ -871,6 +871,8 @@ aCx
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 xpc
 -
 >
@@ -882,6 +884,7 @@ sandbox
 .
 address
 (
+)
 )
 )
 nullptr

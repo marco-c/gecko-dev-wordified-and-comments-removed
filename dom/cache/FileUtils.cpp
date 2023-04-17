@@ -3046,6 +3046,8 @@ paddingSize
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 DirectoryPaddingWrite
 (
 aBaseDir
@@ -3054,6 +3056,7 @@ DirPaddingFile
 :
 FILE
 paddingSize
+)
 )
 (
 aMustRestore
