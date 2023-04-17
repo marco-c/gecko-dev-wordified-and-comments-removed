@@ -136,6 +136,10 @@ nsCString
 &
 aOrigin
 const
+OriginAttributes
+&
+aOriginAttributes
+const
 uint64_t
 &
 aInnerWindowID
