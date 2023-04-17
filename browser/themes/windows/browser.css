@@ -1055,9 +1055,6 @@ tabsintitlebar
 :
 not
 (
-[
-inFullscreen
-]
 :
 -
 moz
@@ -1078,9 +1075,6 @@ tabsintitlebar
 :
 not
 (
-[
-inFullscreen
-]
 :
 -
 moz
@@ -1322,13 +1316,6 @@ root
 [
 tabsintitlebar
 ]
-:
-not
-(
-[
-inFullscreen
-]
-)
 :
 is
 (

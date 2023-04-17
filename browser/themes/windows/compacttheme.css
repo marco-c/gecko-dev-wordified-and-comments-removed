@@ -626,13 +626,6 @@ root
 [
 tabsintitlebar
 ]
-:
-not
-(
-[
-inFullscreen
-]
-)
 {
 color
 :
@@ -644,13 +637,6 @@ root
 [
 tabsintitlebar
 ]
-:
-not
-(
-[
-inFullscreen
-]
-)
 :
 -
 moz
