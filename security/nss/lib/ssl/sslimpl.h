@@ -6734,6 +6734,14 @@ void
 pinArg
 )
 ;
+PRBool
+ssl_isFIPS
+(
+sslSocket
+*
+ss
+)
+;
 SECStatus
 SSLExp_SetResumptionTokenCallback
 (

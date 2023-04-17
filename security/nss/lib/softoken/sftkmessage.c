@@ -273,6 +273,7 @@ crv
 sftk_InitGeneric
 (
 session
+pMechanism
 &
 context
 contextType

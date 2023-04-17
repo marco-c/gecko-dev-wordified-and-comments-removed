@@ -745,6 +745,9 @@ pskType
 PRBool
 echAccepted
 ;
+PRBool
+isFIPS
+;
 }
 SSLChannelInfo
 ;

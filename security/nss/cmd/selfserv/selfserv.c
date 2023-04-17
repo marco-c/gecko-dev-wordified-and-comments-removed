@@ -2784,6 +2784,8 @@ bit
 %
 s
 MAC
+%
+s
 \
 n
 "
@@ -2810,6 +2812,16 @@ macBits
 suite
 .
 macAlgorithmName
+channel
+.
+isFIPS
+?
+"
+FIPS
+"
+:
+"
+"
 )
 ;
 FPRINTF

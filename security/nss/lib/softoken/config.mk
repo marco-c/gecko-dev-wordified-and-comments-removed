@@ -316,3 +316,11 @@ OS_LIBS
 -
 lpthread
 endif
+ifdef
+NSS_ENABLE_FIPS_INDICATORS
+DEFINES
++
+=
+-
+DNSS_ENABLE_FIPS_INDICATORS
+endif

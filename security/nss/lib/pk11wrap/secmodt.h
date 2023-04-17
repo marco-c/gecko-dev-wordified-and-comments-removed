@@ -272,6 +272,9 @@ cryptokiVersion
 CK_FLAGS
 flags
 ;
+CK_NSS_GetFIPSStatus
+fipsIndicator
+;
 }
 ;
 #

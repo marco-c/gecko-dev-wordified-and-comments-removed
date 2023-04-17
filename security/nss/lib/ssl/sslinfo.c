@@ -662,6 +662,15 @@ sessionID
 sidLen
 )
 ;
+inf
+.
+isFIPS
+=
+ssl_isFIPS
+(
+ss
+)
+;
 }
 }
 memcpy
