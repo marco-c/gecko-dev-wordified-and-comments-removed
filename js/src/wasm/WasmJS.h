@@ -337,14 +337,6 @@ cx
 )
 ;
 bool
-MultiValuesAvailable
-(
-JSContext
-*
-cx
-)
-;
-bool
 ThreadsAvailable
 (
 JSContext
