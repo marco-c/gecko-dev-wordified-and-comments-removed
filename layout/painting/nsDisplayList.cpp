@@ -10250,8 +10250,10 @@ visible
 item
 -
 >
-GetBuildingRect
+GetPaintRect
 (
+aBuilder
+aCtx
 )
 )
 ;
