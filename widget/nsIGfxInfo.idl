@@ -161,6 +161,16 @@ EmbeddedInFirefoxReality
 ;
 readonly
 attribute
+AString
+AzureCanvasBackend
+;
+readonly
+attribute
+AString
+AzureContentBackend
+;
+readonly
+attribute
 boolean
 usingGPUProcess
 ;
