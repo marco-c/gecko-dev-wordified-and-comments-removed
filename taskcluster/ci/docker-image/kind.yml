@@ -1039,7 +1039,7 @@ agb
 )
 parent
 :
-debian11
+debian10
 -
 base
 fetch
