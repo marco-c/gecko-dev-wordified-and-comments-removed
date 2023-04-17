@@ -880,7 +880,8 @@ onDisabled
 "
 )
 "
-Default
+System
+theme
 "
 "
 default
@@ -909,7 +910,8 @@ onEnabled
 "
 )
 "
-Default
+System
+theme
 "
 "
 default
@@ -973,7 +975,8 @@ onDisabled
 "
 )
 "
-Default
+System
+theme
 "
 "
 default
@@ -1025,7 +1028,8 @@ onEnabled
 "
 )
 "
-Default
+System
+theme
 "
 "
 default
