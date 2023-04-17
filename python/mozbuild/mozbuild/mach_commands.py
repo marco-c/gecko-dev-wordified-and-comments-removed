@@ -15180,10 +15180,6 @@ virtualenv_path
 "
 mach
 "
-        
-populate_local_paths
-=
-False
     
 )
     
