@@ -874,6 +874,16 @@ submit
 )
 ;
 }
+let
+loadPromise
+=
+BrowserTestUtils
+.
+browserLoaded
+(
+browser
+)
+;
 await
 SpecialPowers
 .
@@ -888,6 +898,9 @@ selectorValues
 ]
 contentSubmitForm
 )
+;
+await
+loadPromise
 ;
 let
 result
