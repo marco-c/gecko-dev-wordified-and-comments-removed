@@ -3,9 +3,9 @@ rand_core
 :
 :
 {
-RngCore
-Error
 impls
+Error
+RngCore
 }
 ;
 #

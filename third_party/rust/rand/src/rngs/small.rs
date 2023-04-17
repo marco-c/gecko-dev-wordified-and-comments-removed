@@ -3,9 +3,9 @@ rand_core
 :
 :
 {
+Error
 RngCore
 SeedableRng
-Error
 }
 ;
 #
