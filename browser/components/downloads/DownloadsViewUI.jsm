@@ -965,10 +965,6 @@ vbox
 hbox
 >
 <
-toolbarseparator
-/
->
-<
 button
 class
 =
