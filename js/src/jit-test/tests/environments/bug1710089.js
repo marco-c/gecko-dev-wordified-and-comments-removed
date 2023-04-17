@@ -33,7 +33,7 @@ var
 def
 =
 "
-let
+var
 x
 "
 +
@@ -90,7 +90,7 @@ i
 src
 =
 "
-let
+var
 x
 "
 +
