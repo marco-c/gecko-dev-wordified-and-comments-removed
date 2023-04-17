@@ -13156,7 +13156,7 @@ sourceObject
 )
 -
 >
-canonicalPrivate
+getPrivate
 (
 )
 ;
@@ -13238,7 +13238,7 @@ sourceObject
 )
 -
 >
-canonicalPrivate
+getPrivate
 (
 )
 ;

@@ -2311,7 +2311,7 @@ sourceObject
 )
 -
 >
-canonicalPrivate
+getPrivate
 (
 )
 ;
