@@ -368,8 +368,13 @@ aSsrc
 const
 override
 ;
-DOMHighResTimeStamp
-GetNow
+const
+dom
+:
+:
+RTCStatsTimestampMaker
+&
+GetTimestampMaker
 (
 )
 const

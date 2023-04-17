@@ -270,6 +270,10 @@ mSourcesCache
 auto
 jsNow
 =
+GetTimestampMaker
+(
+)
+.
 GetNow
 (
 )
@@ -676,6 +680,10 @@ TimeInMilliseconds
 double
 jsNow
 =
+GetTimestampMaker
+(
+)
+.
 GetNow
 (
 )
