@@ -2009,7 +2009,7 @@ InitRendering
 )
 ;
 bool
-AttachWindowRenderer
+AttachLayerManager
 (
 )
 ;

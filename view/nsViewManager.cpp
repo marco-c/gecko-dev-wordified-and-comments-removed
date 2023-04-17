@@ -1586,18 +1586,6 @@ FlushRendering
 }
 else
 {
-if
-(
-!
-presShell
--
->
-Composite
-(
-aView
-)
-)
-{
 presShell
 -
 >
@@ -1611,7 +1599,6 @@ PaintFlags
 PaintComposite
 )
 ;
-}
 }
 #
 ifdef
@@ -2360,7 +2347,7 @@ nsRegion
 PaintFlags
 :
 :
-None
+PaintLayers
 )
 ;
 view
