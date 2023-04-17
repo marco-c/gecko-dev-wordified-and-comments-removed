@@ -698,7 +698,7 @@ aSearchForward
 const
 ;
 void
-BuildSoftText
+AdjustSoftBeginAndBuildSoftText
 (
 )
 ;

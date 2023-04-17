@@ -1176,7 +1176,7 @@ mSoftTextValid
 return
 NS_OK
 ;
-BuildSoftText
+AdjustSoftBeginAndBuildSoftText
 (
 )
 ;
@@ -3531,7 +3531,7 @@ void
 mozInlineSpellWordUtil
 :
 :
-BuildSoftText
+AdjustSoftBeginAndBuildSoftText
 (
 )
 {
