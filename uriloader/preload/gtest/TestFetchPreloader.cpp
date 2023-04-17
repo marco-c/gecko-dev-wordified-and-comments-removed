@@ -1227,6 +1227,14 @@ mozilla
 :
 SpinEventLoopUntil
 (
+"
+uriloader
+:
+TestFetchPreloader
+:
+Await
+"
+_ns
 [
 &
 ]
