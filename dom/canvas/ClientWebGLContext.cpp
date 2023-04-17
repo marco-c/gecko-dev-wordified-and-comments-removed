@@ -30337,7 +30337,7 @@ funcScope
 *
 this
 "
-bindAttribLocation
+detachShader
 "
 )
 ;
@@ -30502,6 +30502,11 @@ attached
 return
 ;
 }
+slot
+=
+{
+}
+;
 Run
 <
 RPROC
@@ -30517,11 +30522,6 @@ shader
 .
 mId
 )
-;
-slot
-=
-{
-}
 ;
 }
 void
