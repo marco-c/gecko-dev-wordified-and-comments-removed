@@ -2736,6 +2736,12 @@ DemuxSample
 )
 ;
 }
+EXPECT_GE
+(
+numSamples
+0
+)
+;
 if
 (
 target
