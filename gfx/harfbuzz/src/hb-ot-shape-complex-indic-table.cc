@@ -93,7 +93,7 @@ ISC_C
 INDIC_SYLLABIC_CATEGORY_CONSONANT
 /
 *
-2195
+2206
 chars
 ;
 Consonant
@@ -105,7 +105,7 @@ ISC_CD
 INDIC_SYLLABIC_CATEGORY_CONSONANT_DEAD
 /
 *
-12
+14
 chars
 ;
 Consonant_Dead
@@ -117,7 +117,7 @@ ISC_CF
 INDIC_SYLLABIC_CATEGORY_CONSONANT_FINAL
 /
 *
-67
+70
 chars
 ;
 Consonant_Final
@@ -225,7 +225,7 @@ ISC_CSR
 INDIC_SYLLABIC_CATEGORY_CONSONANT_SUCCEEDING_REPHA
 /
 *
-4
+1
 chars
 ;
 Consonant_Succeeding_Repha
@@ -309,7 +309,7 @@ ISC_N
 INDIC_SYLLABIC_CATEGORY_NUKTA
 /
 *
-31
+32
 chars
 ;
 Nukta
@@ -357,7 +357,7 @@ ISC_PK
 INDIC_SYLLABIC_CATEGORY_PURE_KILLER
 /
 *
-23
+25
 chars
 ;
 Pure_Killer
@@ -453,7 +453,7 @@ ISC_M
 INDIC_SYLLABIC_CATEGORY_VOWEL_DEPENDENT
 /
 *
-683
+686
 chars
 ;
 Vowel_Dependent
@@ -465,7 +465,7 @@ ISC_VI
 INDIC_SYLLABIC_CATEGORY_VOWEL_INDEPENDENT
 /
 *
-484
+486
 chars
 ;
 Vowel_Independent
@@ -477,7 +477,7 @@ IMC_B
 INDIC_MATRA_CATEGORY_BOTTOM
 /
 *
-351
+352
 chars
 ;
 Bottom
@@ -561,7 +561,7 @@ IMC_R
 INDIC_MATRA_CATEGORY_RIGHT
 /
 *
-288
+290
 chars
 ;
 Right
@@ -573,7 +573,7 @@ IMC_T
 INDIC_MATRA_CATEGORY_TOP
 /
 *
-415
+418
 chars
 ;
 Top
@@ -5168,8 +5168,8 @@ x
 )
 _
 (
-x
-x
+N
+B
 )
 _
 (
@@ -5333,7 +5333,7 @@ x
 )
 _
 (
-x
+CD
 x
 )
 _
@@ -5973,7 +5973,7 @@ x
 )
 _
 (
-x
+CD
 x
 )
 _

@@ -45,6 +45,9 @@ case
 HB_SCRIPT_NKO
 :
 case
+HB_SCRIPT_OLD_UYGHUR
+:
+case
 HB_SCRIPT_PHAGS_PA
 :
 case
