@@ -1151,7 +1151,6 @@ constructor
 (
 collectionName
 {
-bucketName
 bucketNamePref
 signerName
 filterFunc
@@ -1177,12 +1176,6 @@ this
 collectionName
 =
 collectionName
-;
-this
-.
-bucketName
-=
-bucketName
 ;
 this
 .
@@ -1228,12 +1221,6 @@ AppConstants
 .
 REMOTE_SETTINGS_VERIFY_SIGNATURE
 ;
-if
-(
-!
-bucketName
-)
-{
 this
 .
 bucketNamePref
@@ -1270,7 +1257,6 @@ identifier
 }
 )
 ;
-}
 XPCOMUtils
 .
 defineLazyGetter

@@ -1,7 +1,10 @@
 if
 (
 !
-_TEST_NAME
+_TEST_FILE
+[
+0
+]
 .
 includes
 (
@@ -20,8 +23,6 @@ xpcshell
 )
 )
 {
-Assert
-.
 ok
 (
 false
