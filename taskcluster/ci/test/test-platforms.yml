@@ -1745,7 +1745,7 @@ mingwclang
 tests
 -
 opt
-windows7
+windows10
 -
 32
 -
@@ -1769,12 +1769,12 @@ sets
 -
 mingwclang
 -
-win7
+win32
 -
 tests
 -
 debug
-windows7
+windows10
 -
 32
 -

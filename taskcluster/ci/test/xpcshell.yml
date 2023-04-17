@@ -229,7 +229,7 @@ XPCShell
 on
 ASAN
 yet
-windows7
+windows10
 -
 32
 -
@@ -238,7 +238,7 @@ mingwclang
 opt
 :
 false
-windows7
+windows10
 -
 32
 -

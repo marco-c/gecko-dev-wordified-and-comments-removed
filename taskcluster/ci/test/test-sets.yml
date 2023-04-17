@@ -1860,7 +1860,7 @@ enabling
 .
 mingwclang
 -
-win7
+win32
 -
 tests
 -
