@@ -267,16 +267,6 @@ add_gcc_warning
 (
 "
 -
-Wwrite
--
-strings
-"
-cxx_compiler
-)
-add_gcc_warning
-(
-"
--
 Wno
 -
 invalid
