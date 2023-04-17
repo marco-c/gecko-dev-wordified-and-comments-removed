@@ -1232,7 +1232,11 @@ UNIX
 line
 endings
 dos2unix
-file
+CONFIG_DIR
+/
+THIS_CONFIG
+.
+json
 fi
 done
 #
