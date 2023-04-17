@@ -121,7 +121,7 @@ constexpr
 size_t
 UPluralRulesEstimatedMemoryUse
 =
-3726
+5736
 ;
 mozilla
 :
