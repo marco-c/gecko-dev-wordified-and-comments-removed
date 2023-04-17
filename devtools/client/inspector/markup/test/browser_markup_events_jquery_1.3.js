@@ -17,7 +17,7 @@ js
 const
 TEST_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_markup_events_jquery
@@ -58,7 +58,7 @@ DOMContentLoaded
 "
 filename
 :
-URL_ROOT
+URL_ROOT_SSL
 +
 TEST_LIB
 +

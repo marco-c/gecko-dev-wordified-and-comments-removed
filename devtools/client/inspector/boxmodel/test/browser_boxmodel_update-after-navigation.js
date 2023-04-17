@@ -6,7 +6,7 @@ strict
 const
 IFRAME1
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_boxmodel_iframe1
@@ -17,7 +17,7 @@ html
 const
 IFRAME2
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_boxmodel_iframe2

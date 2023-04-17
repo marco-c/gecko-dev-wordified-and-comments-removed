@@ -6,7 +6,7 @@ strict
 const
 URL_1
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_markup_update
@@ -21,7 +21,7 @@ html
 const
 URL_2
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_markup_update

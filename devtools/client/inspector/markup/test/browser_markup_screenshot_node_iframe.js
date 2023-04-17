@@ -4,15 +4,15 @@ strict
 "
 ;
 const
-exampleNetDocument
+exampleOrgDocument
 =
-http
+https
 :
 /
 /
 example
 .
-net
+org
 /
 document
 -
@@ -23,7 +23,7 @@ sjs
 const
 exampleComDocument
 =
-http
+https
 :
 /
 /
@@ -41,7 +41,7 @@ const
 TEST_URL
 =
 {
-exampleNetDocument
+exampleOrgDocument
 }
 ?
 html
@@ -52,7 +52,7 @@ src
 =
 "
 {
-exampleNetDocument
+exampleOrgDocument
 }
 ?
 html

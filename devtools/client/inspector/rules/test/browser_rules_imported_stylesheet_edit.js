@@ -6,7 +6,7 @@ strict
 const
 TEST_URI
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_rules_imported_stylesheet_edit
@@ -17,7 +17,7 @@ html
 const
 SJS_URI
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 sjs_imported_stylesheet_edit

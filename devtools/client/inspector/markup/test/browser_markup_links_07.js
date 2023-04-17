@@ -6,7 +6,7 @@ strict
 const
 TEST_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_markup_links
@@ -131,7 +131,7 @@ followLinkWaitForTab
 (
 linkEl
 false
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_markup_tooltip
@@ -168,7 +168,7 @@ followLinkWaitForTab
 (
 linkEl
 true
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_markup_tooltip

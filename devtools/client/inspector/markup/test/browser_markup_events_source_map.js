@@ -6,7 +6,7 @@ strict
 const
 INITIAL_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_markup_void_elements
@@ -17,7 +17,7 @@ html
 const
 TEST_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_markup_events

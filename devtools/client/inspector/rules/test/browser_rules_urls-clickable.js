@@ -6,7 +6,7 @@ strict
 const
 TEST_URI
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_urls_clickable
@@ -17,7 +17,7 @@ html
 const
 TEST_IMAGE
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_test_image

@@ -11,7 +11,7 @@ requestLongerTimeout
 const
 TEST_LIB
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 lib_react_with_addons_15
@@ -26,7 +26,7 @@ js
 const
 TEST_LIB_BABEL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 lib_babel_6
@@ -41,7 +41,7 @@ js
 const
 TEST_EXTERNAL_LISTENERS
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 react_external_listeners
@@ -52,7 +52,7 @@ js
 const
 TEST_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_markup_events_react_production_15

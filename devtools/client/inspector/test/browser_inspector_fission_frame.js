@@ -24,7 +24,7 @@ iframe
 src
 =
 "
-http
+https
 :
 /
 /
@@ -116,7 +116,7 @@ inspector
 const
 FRAME_URL
 =
-http
+https
 :
 /
 /
@@ -140,13 +140,13 @@ com
 const
 TEST_REMOTE_FRAME
 =
-http
+https
 :
 /
 /
 example
 .
-net
+org
 /
 document
 -
@@ -161,7 +161,7 @@ div
 id
 =
 "
-net
+org
 -
 root
 "
@@ -209,7 +209,7 @@ tree
 id
 =
 "
-net
+org
 -
 root
 "
@@ -227,7 +227,7 @@ assertMarkupViewAsTree
 tree
 "
 #
-net
+org
 -
 root
 "

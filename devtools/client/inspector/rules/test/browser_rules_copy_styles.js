@@ -15,7 +15,7 @@ OS
 const
 TEST_URI
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_copystyles
@@ -646,7 +646,7 @@ copyLocation
 expectedPattern
 :
 "
-http
+https
 :
 /
 /
