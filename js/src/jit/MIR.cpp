@@ -28900,7 +28900,7 @@ wasm
 SimdOp
 :
 :
-V8x16Swizzle
+I8x16Swizzle
 &
 &
 rhs

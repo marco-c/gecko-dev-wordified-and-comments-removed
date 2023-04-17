@@ -242,7 +242,7 @@ uint16_t
 Op
 :
 :
-GetGlobal
+GlobalGet
 )
 :
 {
@@ -1921,7 +1921,7 @@ uint16_t
 Op
 :
 :
-GetGlobal
+GlobalGet
 )
 :
 {

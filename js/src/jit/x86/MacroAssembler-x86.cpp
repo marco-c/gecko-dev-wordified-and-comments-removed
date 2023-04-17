@@ -5706,7 +5706,7 @@ wasm
 SimdOp
 :
 :
-I16x8LoadS8x8
+V128Load8x8S
 :
 vpmovsxbw
 (
@@ -5727,7 +5727,7 @@ wasm
 SimdOp
 :
 :
-I16x8LoadU8x8
+V128Load8x8U
 :
 vpmovzxbw
 (
@@ -5748,7 +5748,7 @@ wasm
 SimdOp
 :
 :
-I32x4LoadS16x4
+V128Load16x4S
 :
 vpmovsxwd
 (
@@ -5769,7 +5769,7 @@ wasm
 SimdOp
 :
 :
-I32x4LoadU16x4
+V128Load16x4U
 :
 vpmovzxwd
 (
@@ -5790,7 +5790,7 @@ wasm
 SimdOp
 :
 :
-I64x2LoadS32x2
+V128Load32x2S
 :
 vpmovsxdq
 (
@@ -5811,7 +5811,7 @@ wasm
 SimdOp
 :
 :
-I64x2LoadU32x2
+V128Load32x2U
 :
 vpmovzxdq
 (

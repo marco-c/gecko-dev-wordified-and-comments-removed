@@ -362,7 +362,7 @@ writeOp
 Op
 :
 :
-GetLocal
+LocalGet
 )
 |
 |
