@@ -13845,7 +13845,7 @@ appUnitsPerDevPixel
 )
 )
 .
-Intersect
+SafeIntersect
 (
 itemRect
 )
