@@ -1051,6 +1051,13 @@ uint32_t
 dest
 )
 {
+MOZ_ASSERT
+(
+hasCreator
+(
+)
+)
+;
 if
 (
 dest
