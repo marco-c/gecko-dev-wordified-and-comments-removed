@@ -3259,7 +3259,7 @@ fun
 const
 ;
 bool
-setTier2
+setAndBorrowTier2
 (
 UniqueCodeTier
 tier2
@@ -3267,6 +3267,11 @@ const
 LinkData
 &
 linkData
+const
+CodeTier
+*
+*
+borrowedTier
 )
 const
 ;
