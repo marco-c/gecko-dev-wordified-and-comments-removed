@@ -379,7 +379,9 @@ javascriptEnabled
 await
 toolbox
 .
-targetList
+commands
+.
+targetConfigurationCommand
 .
 isJavascriptEnabled
 (
@@ -393,7 +395,7 @@ cbx
 .
 checked
 "
-targetList
+targetConfigurationCommand
 .
 isJavascriptEnabled
 is
@@ -430,7 +432,9 @@ javascriptEnabled
 await
 toolbox
 .
-targetList
+commands
+.
+targetConfigurationCommand
 .
 isJavascriptEnabled
 (
@@ -444,7 +448,7 @@ cbx
 .
 checked
 "
-targetList
+targetConfigurationCommand
 .
 isJavascriptEnabled
 is

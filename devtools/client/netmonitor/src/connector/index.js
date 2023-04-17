@@ -1957,7 +1957,9 @@ this
 .
 toolbox
 .
-targetList
+commands
+.
+targetConfigurationCommand
 .
 updateConfiguration
 (

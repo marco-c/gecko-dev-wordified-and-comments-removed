@@ -3180,7 +3180,9 @@ this
 .
 toolbox
 .
-targetList
+commands
+.
+targetConfigurationCommand
 .
 isJavascriptEnabled
 (
@@ -3428,7 +3430,9 @@ this
 .
 toolbox
 .
-targetList
+commands
+.
+targetConfigurationCommand
 .
 updateConfiguration
 (

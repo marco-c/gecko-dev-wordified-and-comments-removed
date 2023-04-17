@@ -4302,7 +4302,7 @@ this
 .
 commands
 .
-targetCommand
+targetConfigurationCommand
 .
 updateConfiguration
 (
@@ -8836,7 +8836,7 @@ this
 .
 commands
 .
-targetCommand
+targetConfigurationCommand
 .
 updateConfiguration
 (
@@ -8900,7 +8900,7 @@ this
 .
 commands
 .
-targetCommand
+targetConfigurationCommand
 .
 updateConfiguration
 (
@@ -8929,7 +8929,7 @@ this
 .
 commands
 .
-targetCommand
+targetConfigurationCommand
 .
 updateConfiguration
 (
@@ -9134,7 +9134,7 @@ this
 .
 commands
 .
-targetCommand
+targetConfigurationCommand
 .
 updateConfiguration
 (
