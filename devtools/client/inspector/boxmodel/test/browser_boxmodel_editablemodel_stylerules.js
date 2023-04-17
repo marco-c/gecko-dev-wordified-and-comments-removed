@@ -116,6 +116,9 @@ function
 (
 )
 {
+const
+tab
+=
 await
 addTab
 (
@@ -134,10 +137,16 @@ TEST_URI
 )
 ;
 const
+browser
+=
+tab
+.
+linkedBrowser
+;
+const
 {
 inspector
 boxmodel
-testActor
 }
 =
 await
@@ -150,7 +159,7 @@ testUnits
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 await
@@ -158,7 +167,7 @@ testValueComesFromStyleRule
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 await
@@ -166,7 +175,7 @@ testShorthandsAreParsed
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 }
@@ -178,7 +187,7 @@ testUnits
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -197,7 +206,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -375,7 +384,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -446,7 +455,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -491,7 +500,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -531,7 +540,7 @@ testValueComesFromStyleRule
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -557,7 +566,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div2
@@ -740,7 +749,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div2
@@ -787,7 +796,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div2
@@ -833,7 +842,7 @@ testShorthandsAreParsed
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -854,7 +863,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div3
@@ -1004,7 +1013,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div3

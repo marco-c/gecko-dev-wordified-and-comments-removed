@@ -75,6 +75,9 @@ function
 (
 )
 {
+const
+tab
+=
 await
 addTab
 (
@@ -96,13 +99,19 @@ const
 {
 inspector
 boxmodel
-testActor
 }
 =
 await
 openLayoutView
 (
 )
+;
+const
+browser
+=
+tab
+.
+linkedBrowser
 ;
 await
 selectNode
@@ -135,7 +144,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 .
 test
@@ -199,7 +208,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 .
 test
@@ -263,7 +272,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 .
 test

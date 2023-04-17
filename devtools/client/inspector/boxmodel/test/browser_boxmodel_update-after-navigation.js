@@ -32,11 +32,21 @@ function
 (
 )
 {
+const
+tab
+=
 await
 addTab
 (
 IFRAME1
 )
+;
+const
+browser
+=
+tab
+.
+linkedBrowser
 ;
 const
 {
@@ -55,7 +65,7 @@ testFirstPage
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 info
@@ -101,7 +111,7 @@ testSecondPage
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 info
@@ -146,7 +156,7 @@ testBackToFirstPage
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 }
@@ -158,7 +168,7 @@ testFirstPage
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -263,7 +273,7 @@ inspector
 await
 setStyle
 (
-testActor
+browser
 "
 p
 "
@@ -325,7 +335,7 @@ testSecondPage
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -435,7 +445,7 @@ inspector
 await
 setStyle
 (
-testActor
+browser
 "
 p
 "
@@ -506,7 +516,7 @@ testBackToFirstPage
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -629,7 +639,7 @@ inspector
 await
 setStyle
 (
-testActor
+browser
 "
 p
 "

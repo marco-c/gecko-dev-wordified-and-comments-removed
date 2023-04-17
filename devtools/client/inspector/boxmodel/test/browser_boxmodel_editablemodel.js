@@ -157,6 +157,9 @@ height
 500
 )
 ;
+const
+tab
+=
 await
 addTab
 (
@@ -178,7 +181,6 @@ const
 {
 inspector
 boxmodel
-testActor
 }
 =
 await
@@ -186,12 +188,19 @@ openLayoutView
 (
 )
 ;
+const
+browser
+=
+tab
+.
+linkedBrowser
+;
 await
 testEditingMargins
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 await
@@ -199,7 +208,7 @@ testKeyBindings
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 await
@@ -207,7 +216,7 @@ testEscapeToUndo
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 await
@@ -215,7 +224,7 @@ testDeletingValue
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 await
@@ -223,7 +232,7 @@ testRefocusingOnClick
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 }
@@ -235,7 +244,7 @@ testEditingMargins
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -265,7 +274,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -426,7 +435,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -477,7 +486,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -520,7 +529,7 @@ testKeyBindings
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -549,7 +558,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -744,7 +753,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -816,7 +825,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -891,7 +900,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -936,7 +945,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -981,7 +990,7 @@ testEscapeToUndo
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -1010,7 +1019,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -1206,7 +1215,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -1256,7 +1265,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -1314,7 +1323,7 @@ testDeletingValue
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -1334,7 +1343,7 @@ property
 await
 setStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -1520,7 +1529,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -1564,7 +1573,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -1608,7 +1617,7 @@ testRefocusingOnClick
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -1837,7 +1846,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div4
@@ -1882,7 +1891,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div4
