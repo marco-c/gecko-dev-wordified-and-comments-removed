@@ -15,6 +15,9 @@ dbghelp
 kernel32
 "
 "
+ntdll
+"
+"
 ole32
 "
 "
