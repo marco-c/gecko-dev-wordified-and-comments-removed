@@ -73,14 +73,6 @@ AString
 aPattern
 )
 ;
-void
-forgetThisBaseDomain
-(
-in
-AString
-baseDomain
-)
-;
 bool
 isPersistentStorageAllowed
 (
