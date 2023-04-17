@@ -1363,7 +1363,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 mAnchorRange
 "
@@ -2755,7 +2755,7 @@ EditorSpellCheckInited
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mPendingSpellCheck
 "
@@ -2820,7 +2820,7 @@ mNumPendingSpellChecks
 =
 aDelta
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mNumPendingSpellChecks
 >
@@ -5882,7 +5882,7 @@ IsFullSpellCheck
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mFullSpellCheckScheduled
 "
@@ -7240,7 +7240,7 @@ mNumPendingUpdateCurrentDictionary
 -
 -
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mNumPendingUpdateCurrentDictionary
 >
