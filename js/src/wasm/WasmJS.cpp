@@ -18575,6 +18575,14 @@ return
 false
 ;
 }
+auto
+cause
+=
+JS
+:
+:
+NothingHandleValue
+;
 RootedObject
 errorObj
 (
@@ -18593,6 +18601,7 @@ line
 0
 nullptr
 message
+cause
 )
 )
 ;
