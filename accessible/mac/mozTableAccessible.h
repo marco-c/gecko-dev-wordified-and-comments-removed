@@ -405,12 +405,6 @@ moxLabel
 ;
 -
 (
-id
-)
-moxValue
-;
--
-(
 void
 )
 stateChanged
