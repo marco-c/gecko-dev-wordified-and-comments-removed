@@ -391,6 +391,9 @@ bool
 mSessionIsSynthesizedForTests
 ;
 bool
+mIsDraggingTextInTextControl
+;
+bool
 mEndingSession
 ;
 bool
