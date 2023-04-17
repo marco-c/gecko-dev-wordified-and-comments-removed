@@ -90,6 +90,10 @@ ca
 gregory
 "
 )
+.
+isOk
+(
+)
 )
 ;
 ASSERT_TRUE

@@ -1469,12 +1469,7 @@ clearAndFree
 )
 ;
 }
-[
-[
-nodiscard
-]
-]
-bool
+ICUResult
 setUnicodeExtension
 (
 const
