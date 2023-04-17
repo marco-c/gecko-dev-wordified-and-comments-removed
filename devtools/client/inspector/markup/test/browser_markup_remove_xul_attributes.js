@@ -91,11 +91,8 @@ markupmutation
 )
 ;
 await
-removeAttributeInBrowser
+removeContentPageElementAttribute
 (
-gBrowser
-.
-selectedBrowser
 "
 #
 test

@@ -149,11 +149,8 @@ markupmutation
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-gBrowser
-.
-selectedBrowser
 "
 #
 node24
@@ -180,11 +177,8 @@ markupmutation
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-gBrowser
-.
-selectedBrowser
 "
 #
 node24

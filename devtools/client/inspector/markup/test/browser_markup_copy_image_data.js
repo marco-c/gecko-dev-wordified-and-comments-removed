@@ -66,11 +66,8 @@ const
 expectedSrc
 =
 await
-getAttributeInBrowser
+getContentPageElementAttribute
 (
-gBrowser
-.
-selectedBrowser
 "
 img
 "

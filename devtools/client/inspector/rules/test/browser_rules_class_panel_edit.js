@@ -10,9 +10,6 @@ function
 (
 )
 {
-const
-tab
-=
 await
 addTab
 (
@@ -39,13 +36,6 @@ class2
 >
 "
 )
-;
-const
-browser
-=
-tab
-.
-linkedBrowser
 ;
 const
 {
@@ -134,9 +124,8 @@ let
 newClassName
 =
 await
-getAttributeInBrowser
+getContentPageElementAttribute
 (
-browser
 "
 body
 "
@@ -217,9 +206,8 @@ false
 newClassName
 =
 await
-getAttributeInBrowser
+getContentPageElementAttribute
 (
-browser
 "
 body
 "
@@ -302,9 +290,8 @@ true
 newClassName
 =
 await
-getAttributeInBrowser
+getContentPageElementAttribute
 (
-browser
 "
 body
 "
@@ -389,9 +376,8 @@ true
 newClassName
 =
 await
-getAttributeInBrowser
+getContentPageElementAttribute
 (
-browser
 "
 body
 "

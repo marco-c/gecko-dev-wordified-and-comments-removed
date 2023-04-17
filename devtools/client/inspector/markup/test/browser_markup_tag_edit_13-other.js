@@ -153,11 +153,8 @@ setAttribute
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-gBrowser
-.
-selectedBrowser
 "
 #
 order

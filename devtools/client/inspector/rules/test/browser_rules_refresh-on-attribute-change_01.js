@@ -83,9 +83,6 @@ function
 (
 )
 {
-const
-tab
-=
 await
 addTab
 (
@@ -108,13 +105,6 @@ encodeURIComponent
 TEST_URI
 )
 )
-;
-const
-browser
-=
-tab
-.
-linkedBrowser
 ;
 const
 {
@@ -220,9 +210,8 @@ refreshed
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-browser
 "
 #
 testid
@@ -300,9 +289,8 @@ refreshed
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-browser
 "
 #
 differentid

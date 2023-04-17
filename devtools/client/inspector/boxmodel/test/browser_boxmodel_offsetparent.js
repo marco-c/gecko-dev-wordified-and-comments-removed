@@ -386,13 +386,6 @@ boxmodel
 .
 document
 ;
-const
-browser
-=
-gBrowser
-.
-selectedBrowser
-;
 for
 (
 const
@@ -413,9 +406,8 @@ inspector
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-browser
 selector
 "
 style

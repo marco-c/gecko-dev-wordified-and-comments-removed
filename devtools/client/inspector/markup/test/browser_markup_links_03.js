@@ -24,7 +24,6 @@ function
 const
 {
 inspector
-tab
 }
 =
 await
@@ -32,13 +31,6 @@ openInspectorForURL
 (
 TEST_URL
 )
-;
-const
-browser
-=
-tab
-.
-linkedBrowser
 ;
 info
 (
@@ -70,9 +62,8 @@ markupmutation
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-browser
 "
 body
 "
@@ -224,9 +215,8 @@ markupmutation
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-browser
 "
 body
 "

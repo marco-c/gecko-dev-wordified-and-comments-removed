@@ -1009,11 +1009,8 @@ inspector
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-gBrowser
-.
-selectedBrowser
 "
 div
 "
