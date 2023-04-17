@@ -1241,13 +1241,6 @@ asan
 opt
 :
 9
-windows10
--
-32
-/
-debug
-:
-12
 default
 :
 7
