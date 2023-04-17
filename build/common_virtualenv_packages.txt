@@ -489,6 +489,13 @@ third_party
 /
 python
 /
+colorama
+vendored
+:
+third_party
+/
+python
+/
 compare_locales
 vendored
 :
