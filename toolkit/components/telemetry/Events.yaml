@@ -4186,9 +4186,9 @@ interaction
 .
 show
 :
-displayed
-screen
-index
+total
+screens
+count
 button
 string
 id
