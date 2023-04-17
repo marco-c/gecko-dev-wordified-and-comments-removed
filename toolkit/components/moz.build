@@ -113,6 +113,9 @@ extensions
 featuregates
 "
 "
+formautofill
+"
+"
 filewatcher
 "
 "
