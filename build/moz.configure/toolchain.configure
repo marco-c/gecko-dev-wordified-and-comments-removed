@@ -5388,6 +5388,9 @@ bootstrapped
 =
 bool
 (
+path
+and
+not
 sysroot_input
 )
 )
