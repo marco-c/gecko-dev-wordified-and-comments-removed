@@ -129,7 +129,7 @@ version
 .
 2
 .
-6
+10
 "
 authors
 =
@@ -216,9 +216,10 @@ default
 "
 std
 "
-"
-simd
-"
+]
+no_simd
+=
+[
 ]
 simd
 =
