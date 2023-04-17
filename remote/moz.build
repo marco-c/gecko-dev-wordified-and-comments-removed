@@ -69,11 +69,6 @@ marionette
 "
 shared
 "
-"
-webdriver
--
-bidi
-"
 ]
 JAR_MANIFESTS
 +
