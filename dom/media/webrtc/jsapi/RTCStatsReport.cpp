@@ -75,6 +75,14 @@ GetAsSupports
 )
 )
 )
+&
+&
+window
+-
+>
+GetPerformance
+(
+)
 )
 {
 mRandomTimelineSeed
