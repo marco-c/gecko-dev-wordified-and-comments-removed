@@ -10461,7 +10461,7 @@ focusedElement
 >
 IsShadowIncludingInclusiveDescendantOf
 (
-aElement
+root
 )
 )
 {
