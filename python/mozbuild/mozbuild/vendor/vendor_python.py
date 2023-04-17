@@ -269,6 +269,14 @@ generate
 -
 hashes
 "
+                    
+"
+-
+-
+allow
+-
+unsafe
+"
                 
 ]
                 
