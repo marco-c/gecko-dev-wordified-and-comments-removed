@@ -817,6 +817,11 @@ mTriggerContent
 nullptr
 ;
 }
+void
+ClearTriggerContentIncludingDocument
+(
+)
+;
 bool
 IsInContentShell
 (
