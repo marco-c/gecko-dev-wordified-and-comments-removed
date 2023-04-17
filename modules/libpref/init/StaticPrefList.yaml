@@ -72244,6 +72244,15 @@ value
 :
 12
 #
+elif
+defined
+(
+ANDROID
+)
+value
+:
+6
+#
 else
 value
 :
