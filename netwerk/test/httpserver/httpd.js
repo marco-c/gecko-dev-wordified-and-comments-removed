@@ -11082,6 +11082,16 @@ btoa
 "
 )
 ;
+s
+.
+importFunction
+(
+ChromeUtils
+"
+ChromeUtils
+"
+)
+;
 var
 self
 =
