@@ -21257,6 +21257,13 @@ GetDevPixelsPerCSSPixel
 )
 ;
 }
+mExpectedGeckoMetrics
+.
+UpdateZoomFrom
+(
+aLayerMetrics
+)
+;
 if
 (
 !
