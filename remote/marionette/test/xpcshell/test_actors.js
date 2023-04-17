@@ -64,7 +64,6 @@ jsm
 ;
 registerCleanupFunction
 (
-async
 function
 (
 )
@@ -73,7 +72,6 @@ unregisterCommandsActor
 (
 )
 ;
-await
 unregisterEventsActor
 (
 )
@@ -204,7 +202,6 @@ run_next_test
 ;
 add_test
 (
-async
 function
 test_eventsActor_register
 (
@@ -214,7 +211,6 @@ registerEventsActor
 (
 )
 ;
-await
 unregisterEventsActor
 (
 )
@@ -227,7 +223,6 @@ registerEventsActor
 (
 )
 ;
-await
 unregisterEventsActor
 (
 )
