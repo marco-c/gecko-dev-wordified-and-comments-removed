@@ -1377,7 +1377,7 @@ option
 ;
 option
 .
-innerHTML
+textContent
 =
 option
 .
