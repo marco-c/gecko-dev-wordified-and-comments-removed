@@ -515,7 +515,7 @@ GetDropDown
 void
 SetDropDown
 (
-nsIFrame
+nsListControlFrame
 *
 aDropDownFrame
 )
@@ -992,7 +992,7 @@ nsIFrame
 *
 mButtonFrame
 ;
-nsIFrame
+nsListControlFrame
 *
 mDropdownFrame
 ;
