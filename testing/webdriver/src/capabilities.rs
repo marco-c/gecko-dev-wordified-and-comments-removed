@@ -481,11 +481,9 @@ filter
 &
 (
 _
-ref
 value
 )
 |
-*
 *
 value
 =
@@ -2750,7 +2748,6 @@ browser_capabilities
 .
 accept_proxy
 (
-&
 proxy
 merged
 )
