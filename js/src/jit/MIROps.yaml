@@ -8911,6 +8911,13 @@ false
 -
 name
 :
+WasmBitselectSimd128
+gen_boilerplate
+:
+false
+-
+name
+:
 WasmBinarySimd128
 gen_boilerplate
 :
@@ -9065,13 +9072,6 @@ none
 clone
 :
 true
--
-name
-:
-WasmTernarySimd128
-gen_boilerplate
-:
-false
 -
 name
 :

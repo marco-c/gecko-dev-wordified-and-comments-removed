@@ -6453,9 +6453,9 @@ void
 LIRGenerator
 :
 :
-visitWasmTernarySimd128
+visitWasmBitselectSimd128
 (
-MWasmTernarySimd128
+MWasmBitselectSimd128
 *
 ins
 )
@@ -6463,8 +6463,7 @@ ins
 MOZ_CRASH
 (
 "
-ternary
-SIMD
+bitselect
 NYI
 "
 )
@@ -6495,10 +6494,10 @@ NYI
 ifdef
 ENABLE_WASM_SIMD
 bool
-MWasmTernarySimd128
+MWasmBitselectSimd128
 :
 :
-specializeBitselectConstantMaskAsShuffle
+specializeConstantMaskAsShuffle
 (
 int8_t
 shuffle
