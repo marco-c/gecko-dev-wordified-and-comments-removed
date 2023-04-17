@@ -38479,9 +38479,6 @@ nsDisplayListBuilder
 aDisplayListBuilder
 )
 {
-bool
-dummy
-;
 static_cast
 <
 nsTableFrame
@@ -38496,11 +38493,8 @@ CreateWebRenderCommandsForBCBorders
 (
 aBuilder
 aSc
-GetBounds
+GetPaintRect
 (
-aDisplayListBuilder
-&
-dummy
 )
 ToReferenceFrame
 (
