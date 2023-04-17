@@ -2931,6 +2931,7 @@ nsCString
 Name
 (
 )
+const
 {
 return
 mName
