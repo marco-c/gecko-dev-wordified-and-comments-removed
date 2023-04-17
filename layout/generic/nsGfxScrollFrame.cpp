@@ -14208,7 +14208,7 @@ GetContent
 DisplayPortUtils
 :
 :
-GetHighResolutionDisplayPort
+GetDisplayPort
 (
 content
 &
@@ -14503,7 +14503,7 @@ usingDisplayPort
 DisplayPortUtils
 :
 :
-GetHighResolutionDisplayPort
+GetDisplayPort
 (
 content
 &
