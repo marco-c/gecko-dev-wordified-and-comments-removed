@@ -109,10 +109,9 @@ nsFontFaceLoader
 (
 gfxUserFontEntry
 *
-aFontToLoad
-nsIURI
-*
-aFontURI
+aUserFontEntry
+uint32_t
+aSrcIndex
 mozilla
 :
 :
@@ -244,6 +243,9 @@ mStartTime
 nsIStreamLoader
 *
 mStreamLoader
+;
+uint32_t
+mSrcIndex
 ;
 bool
 mInStreamComplete

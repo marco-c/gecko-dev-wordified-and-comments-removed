@@ -227,10 +227,8 @@ StartLoad
 gfxUserFontEntry
 *
 aUserFontEntry
-const
-gfxFontFaceSrc
-*
-aFontFaceSrc
+uint32_t
+aSrcIndex
 )
 override
 ;
@@ -297,6 +295,8 @@ LogMessage
 gfxUserFontEntry
 *
 aUserFontEntry
+uint32_t
+aSrcIndex
 const
 char
 *
@@ -887,10 +887,8 @@ StartLoad
 gfxUserFontEntry
 *
 aUserFontEntry
-const
-gfxFontFaceSrc
-*
-aFontFaceSrc
+uint32_t
+aSrcIndex
 )
 ;
 gfxFontSrcPrincipal
@@ -963,6 +961,8 @@ LogMessage
 gfxUserFontEntry
 *
 aUserFontEntry
+uint32_t
+aSrcIndex
 const
 char
 *
