@@ -4482,7 +4482,7 @@ GetIPCInitializer
 ;
 if
 (
-IsContent
+IsTopContent
 (
 )
 &
@@ -4493,7 +4493,9 @@ Canonical
 )
 -
 >
-mWebProgress
+GetWebProgress
+(
+)
 )
 {
 Canonical
@@ -4506,9 +4508,6 @@ mWebProgress
 new
 BrowsingContextWebProgress
 (
-Canonical
-(
-)
 )
 ;
 }
