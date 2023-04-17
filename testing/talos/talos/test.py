@@ -531,14 +531,6 @@ gecko_profile_entries
 "
         
 "
-gecko_profile_features
-"
-        
-"
-gecko_profile_threads
-"
-        
-"
 gecko_profile_startup
 "
         
@@ -1697,14 +1689,6 @@ gecko_profile_interval
         
 "
 gecko_profile_entries
-"
-        
-"
-gecko_profile_features
-"
-        
-"
-gecko_profile_threads
 "
         
 "
