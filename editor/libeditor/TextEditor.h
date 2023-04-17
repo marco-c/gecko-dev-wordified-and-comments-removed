@@ -821,7 +821,7 @@ aStripWrappers
 override
 ;
 EditActionResult
-ComputeValueFromTextNodeAndPaddingBRElement
+ComputeValueFromTextNodeAndBRElement
 (
 nsAString
 &
