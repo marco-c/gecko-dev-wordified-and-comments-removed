@@ -129,7 +129,7 @@ version
 .
 3
 .
-0
+3
 "
 authors
 =
@@ -146,6 +146,12 @@ exclude
 [
 "
 /
+bors
+.
+toml
+"
+"
+/
 ci
 /
 *
@@ -153,15 +159,9 @@ ci
 "
 /
 .
-travis
-.
-yml
-"
-"
+github
 /
-bors
-.
-toml
+*
 "
 ]
 description
@@ -233,7 +233,7 @@ license
 =
 "
 MIT
-/
+OR
 Apache
 -
 2
@@ -353,7 +353,7 @@ version
 "
 0
 .
-2
+3
 "
 [
 dev
