@@ -74,6 +74,13 @@ Front
 watcherFront
 )
 {
+const
+{
+innerWindowId
+}
+=
+resource
+;
 resource
 =
 types
@@ -118,6 +125,12 @@ resourceKey
 "
 indexedDB
 "
+;
+resource
+.
+innerWindowId
+=
+innerWindowId
 ;
 }
 return
