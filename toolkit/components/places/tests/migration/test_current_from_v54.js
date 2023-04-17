@@ -105,6 +105,12 @@ moz_places_metadata_snapshots_groups
 "
 moz_places_metadata_groups_to_snapshots
 "
+"
+moz_session_metadata
+"
+"
+moz_session_to_places
+"
 ]
 )
 {
