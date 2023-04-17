@@ -4724,9 +4724,6 @@ MutableHandleObject
 objp
 MutableHandle
 <
-JS
-:
-:
 PropertyResult
 >
 propp

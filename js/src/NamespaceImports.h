@@ -95,9 +95,6 @@ HandleValueArray
 class
 ObjectOpResult
 ;
-class
-PropertyResult
-;
 struct
 JS_PUBLIC_API
 PropertyDescriptor
@@ -609,12 +606,6 @@ JS
 :
 :
 ObjectOpResult
-;
-using
-JS
-:
-:
-PropertyResult
 ;
 using
 JS

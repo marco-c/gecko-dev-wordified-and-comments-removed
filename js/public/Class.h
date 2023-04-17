@@ -430,6 +430,10 @@ true
 }
 }
 ;
+}
+namespace
+js
+{
 class
 PropertyResult
 {
@@ -796,10 +800,6 @@ trc
 ;
 }
 ;
-}
-namespace
-js
-{
 template
 <
 class
@@ -808,7 +808,7 @@ Wrapper
 class
 WrappedPtrOperations
 <
-JS
+js
 :
 :
 PropertyResult
@@ -816,7 +816,7 @@ Wrapper
 >
 {
 const
-JS
+js
 :
 :
 PropertyResult
@@ -1019,7 +1019,7 @@ Wrapper
 class
 MutableWrappedPtrOperations
 <
-JS
+js
 :
 :
 PropertyResult
@@ -1029,14 +1029,14 @@ Wrapper
 public
 WrappedPtrOperations
 <
-JS
+js
 :
 :
 PropertyResult
 Wrapper
 >
 {
-JS
+js
 :
 :
 PropertyResult
@@ -1453,9 +1453,6 @@ JS
 :
 MutableHandle
 <
-JS
-:
-:
 PropertyResult
 >
 propp
