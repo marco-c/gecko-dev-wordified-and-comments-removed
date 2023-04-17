@@ -327,16 +327,6 @@ lastDailyNotification
 1
         
 "
-marionette
-.
-prefs
-.
-recommended
-"
-:
-False
-        
-"
 media
 .
 gmp
@@ -420,6 +410,16 @@ privacy
 trackingprotection
 .
 enabled
+"
+:
+False
+        
+"
+remote
+.
+prefs
+.
+recommended
 "
 :
 False

@@ -1275,13 +1275,6 @@ recorded
 .
 )
 ;
-if
-(
-MarionettePrefs
-.
-recommendedPrefs
-)
-{
 RecommendedPreferences
 .
 applyPreferences
@@ -1289,7 +1282,6 @@ applyPreferences
 RECOMMENDED_PREFS
 )
 ;
-}
 try
 {
 this
