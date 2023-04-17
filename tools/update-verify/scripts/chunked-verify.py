@@ -85,6 +85,10 @@ util
 commands
 import
 run_cmd
+from
+async_download
+import
+download_from_config
 UPDATE_VERIFY_COMMAND
 =
 [
@@ -406,6 +410,11 @@ cat
 "
 configFile
 ]
+)
+        
+download_from_config
+(
+myVerifyConfig
 )
         
 run_cmd

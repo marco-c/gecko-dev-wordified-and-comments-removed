@@ -72,6 +72,16 @@ apt_packages
 =
 (
 '
+python3
+-
+aiohttp
+'
+)
+apt_packages
++
+=
+(
+'
 shellcheck
 '
 )
