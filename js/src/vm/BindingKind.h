@@ -53,8 +53,6 @@ Var
 Let
 Const
 NamedLambdaCallee
-Synthetic
-PrivateMethod
 }
 ;
 static

@@ -3843,12 +3843,6 @@ case
 JSOp
 :
 :
-PushClassBodyEnv
-:
-case
-JSOp
-:
-:
 ImplicitThis
 :
 case
