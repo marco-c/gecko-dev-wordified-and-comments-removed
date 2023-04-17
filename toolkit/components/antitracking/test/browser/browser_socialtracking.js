@@ -108,16 +108,6 @@ true
 "
 privacy
 .
-storagePrincipal
-.
-enabledForTrackers
-"
-false
-]
-[
-"
-privacy
-.
 trackingprotection
 .
 socialtracking
