@@ -2718,11 +2718,6 @@ frameIdStr
 )
 ;
 }
-#
-endif
-#
-ifdef
-QM_ERROR_STACKS_ENABLED
 if
 (
 !
