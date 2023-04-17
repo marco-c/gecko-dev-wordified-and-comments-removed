@@ -5552,6 +5552,9 @@ disabled
 and
 why
 .
+lifetime
+:
+application
 gecko_datapoint
 :
 gfx
