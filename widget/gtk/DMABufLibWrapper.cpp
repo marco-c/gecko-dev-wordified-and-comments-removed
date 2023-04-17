@@ -1034,6 +1034,10 @@ nsDMABufDevice
 (
 )
 :
+mRegistry
+(
+nullptr
+)
 mXRGBFormat
 (
 {
