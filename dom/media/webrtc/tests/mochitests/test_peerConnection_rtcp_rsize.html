@@ -147,9 +147,6 @@ Wait
 for
 RTCP
 stats
-var
-test
-;
 runNetworkTest
 (
 async
@@ -158,6 +155,7 @@ function
 options
 )
 {
+const
 test
 =
 new
@@ -166,7 +164,7 @@ PeerConnectionTest
 options
 )
 ;
-var
+let
 mSectionsAltered
 =
 0
@@ -541,7 +539,7 @@ PC_LOCAL_AND_REMOTE_CHECK_FOR_RTCP_STATS
 test
 )
 {
-return
+await
 Promise
 .
 all
@@ -563,15 +561,7 @@ waitForSyncedRtcp
 )
 ]
 )
-.
-then
-(
-async
-(
-)
-=
->
-{
+;
 /
 /
 The
@@ -604,8 +594,6 @@ received
 ;
 }
 )
-}
-)
 ;
 test
 .
@@ -627,6 +615,7 @@ true
 ]
 )
 ;
+await
 test
 .
 run

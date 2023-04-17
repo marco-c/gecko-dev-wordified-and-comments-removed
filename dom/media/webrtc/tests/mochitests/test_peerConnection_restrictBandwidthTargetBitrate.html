@@ -79,9 +79,6 @@ connection
 }
 )
 ;
-var
-test
-;
 runNetworkTest
 (
 function
@@ -89,6 +86,7 @@ function
 options
 )
 {
+const
 test
 =
 new
@@ -174,6 +172,7 @@ _local_offer
 ]
 )
 ;
+return
 test
 .
 run

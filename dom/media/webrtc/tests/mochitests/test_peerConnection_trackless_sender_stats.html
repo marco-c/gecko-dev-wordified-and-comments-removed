@@ -119,9 +119,6 @@ continue
 to
 appear
 .
-var
-test
-;
 runNetworkTest
 (
 function
@@ -129,6 +126,7 @@ function
 options
 )
 {
+const
 test
 =
 new
@@ -161,7 +159,7 @@ PC_LOCAL_AND_REMOTE_TRACKLESS_SENDER_STATS
 test
 )
 {
-return
+await
 Promise
 .
 all
@@ -183,15 +181,7 @@ waitForSyncedRtcp
 )
 ]
 )
-.
-then
-(
-async
-(
-)
-=
->
-{
+;
 let
 senders
 =
@@ -418,8 +408,6 @@ empty
 }
 }
 )
-}
-)
 ;
 test
 .
@@ -441,6 +429,7 @@ true
 ]
 )
 ;
+return
 test
 .
 run

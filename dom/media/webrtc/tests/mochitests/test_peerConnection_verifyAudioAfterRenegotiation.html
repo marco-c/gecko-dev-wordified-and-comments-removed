@@ -76,9 +76,6 @@ renegotiation
 }
 )
 ;
-var
-test
-;
 runNetworkTest
 (
 function
@@ -86,6 +83,7 @@ function
 options
 )
 {
+const
 test
 =
 new
@@ -94,7 +92,7 @@ PeerConnectionTest
 options
 )
 ;
-var
+const
 helper
 =
 new
@@ -989,6 +987,7 @@ true
 ]
 )
 ;
+return
 test
 .
 run

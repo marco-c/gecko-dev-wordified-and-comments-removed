@@ -114,7 +114,7 @@ async
 =
 >
 {
-var
+const
 test
 =
 new
@@ -370,7 +370,7 @@ CHECK_VIDEO
 (
 )
 {
-var
+const
 h
 =
 new
@@ -378,7 +378,7 @@ CaptureStreamTestHelper2D
 (
 )
 ;
-var
+const
 localVideo
 =
 test
@@ -397,7 +397,7 @@ instanceof
 HTMLVideoElement
 )
 ;
-var
+const
 remoteVideo
 =
 test
@@ -487,7 +487,7 @@ alpha
 when
 testing
 .
-var
+const
 checkVideoEnabled
 =
 video
@@ -525,7 +525,7 @@ offsetY
 }
 )
 ;
-var
+const
 checkVideoDisabled
 =
 video
@@ -666,7 +666,7 @@ CHECK_AUDIO
 (
 )
 {
-var
+const
 ac
 =
 new
@@ -674,7 +674,7 @@ AudioContext
 (
 )
 ;
-var
+const
 localAnalyser
 =
 new
@@ -695,7 +695,7 @@ getLocalStreams
 ]
 )
 ;
-var
+const
 remoteAnalyser
 =
 new
@@ -716,7 +716,7 @@ getRemoteStreams
 ]
 )
 ;
-var
+const
 checkAudio
 =
 (
@@ -732,7 +732,7 @@ waitForAnalysisSuccess
 fun
 )
 ;
-var
+const
 freq
 =
 localAnalyser
@@ -742,7 +742,7 @@ binIndexForFrequency
 TEST_AUDIO_FREQ
 )
 ;
-var
+const
 checkAudioEnabled
 =
 analyser
@@ -762,7 +762,7 @@ freq
 200
 )
 ;
-var
+const
 checkAudioDisabled
 =
 analyser
@@ -874,6 +874,7 @@ remoteAnalyser
 ]
 )
 ;
+await
 test
 .
 run

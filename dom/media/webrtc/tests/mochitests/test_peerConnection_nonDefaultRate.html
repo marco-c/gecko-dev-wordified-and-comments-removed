@@ -124,7 +124,7 @@ pc1
 let
 pc2
 ;
-let
+const
 offerOptions
 =
 {
@@ -725,7 +725,7 @@ local
 stream
 "
 )
-let
+const
 audioTracks
 =
 localStream
@@ -734,7 +734,7 @@ getAudioTracks
 (
 )
 ;
-let
+const
 servers
 =
 null
@@ -759,7 +759,7 @@ pc1
 '
 )
 ;
-let
+const
 iceComplete1
 =
 new
@@ -814,7 +814,7 @@ pc2
 '
 )
 ;
-let
+const
 iceComplete2
 =
 new
@@ -885,7 +885,7 @@ e
 ;
 }
 ;
-let
+const
 remoteStreamPromise
 =
 new
@@ -1045,7 +1045,7 @@ nonDefaultRate
 =
 32000
 ;
-let
+const
 nonDefault_ctx
 =
 new
@@ -1066,7 +1066,7 @@ createOscillator
 (
 )
 ;
-let
+const
 dest
 =
 nonDefault_ctx
@@ -1094,7 +1094,7 @@ Wait
 for
 remote
 stream
-let
+const
 remoteStream
 =
 await
@@ -1139,13 +1139,13 @@ to
 a
 default
 context
-let
+const
 ac
 =
 new
 AudioContext
 ;
-let
+const
 source_default_rate
 =
 ac
@@ -1188,9 +1188,6 @@ NotSupportedError
 =
 >
 {
-let
-source_non_default_rate
-=
 nonDefault_ctx
 .
 createMediaStreamSource
@@ -1252,6 +1249,7 @@ close
 ;
 }
 )
+;
 <
 /
 script

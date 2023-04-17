@@ -76,9 +76,6 @@ connection
 }
 )
 ;
-var
-test
-;
 runNetworkTest
 (
 function
@@ -86,6 +83,7 @@ function
 options
 )
 {
+const
 test
 =
 new
@@ -94,7 +92,7 @@ PeerConnectionTest
 options
 )
 ;
-var
+const
 constraints
 =
 {
@@ -128,6 +126,7 @@ constraints
 ]
 )
 ;
+return
 test
 .
 run

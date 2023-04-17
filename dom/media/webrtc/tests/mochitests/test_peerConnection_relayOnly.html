@@ -272,14 +272,14 @@ fail
 )
 ;
 }
-var
-test
-;
 runNetworkTest
 (
+async
 options
 =
 >
+{
+await
 pushPrefs
 (
 [
@@ -307,14 +307,7 @@ trickle_grace_period
 5000
 ]
 )
-.
-then
-(
-(
-)
-=
->
-{
+;
 options
 =
 options
@@ -335,7 +328,7 @@ config_local
 {
 }
 ;
-var
+const
 servers
 =
 options
@@ -422,6 +415,7 @@ iceTransportPolicy
 relay
 "
 ;
+const
 test
 =
 new
@@ -530,6 +524,7 @@ PC_BOTH_WAIT_FOR_ICE_FAILED
 "
 )
 ;
+await
 test
 .
 run
@@ -537,7 +532,6 @@ run
 )
 ;
 }
-)
 )
 ;
 <

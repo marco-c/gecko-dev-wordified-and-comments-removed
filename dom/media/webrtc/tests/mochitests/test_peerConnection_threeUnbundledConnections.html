@@ -156,7 +156,7 @@ sha
 11
 "
 ;
-var
+const
 pc1
 =
 new
@@ -164,7 +164,7 @@ RTCPeerConnection
 (
 )
 ;
-var
+const
 pc2
 =
 new
@@ -172,7 +172,7 @@ RTCPeerConnection
 (
 )
 ;
-var
+const
 pc3
 =
 new
@@ -180,7 +180,7 @@ RTCPeerConnection
 (
 )
 ;
-var
+const
 add
 =
 (
@@ -298,12 +298,12 @@ generateErrorCallback
 )
 )
 ;
-var
+let
 ice1Finished
 ice2Finished
 ice3Finished
 ;
-var
+const
 ice1Done
 =
 new
@@ -317,7 +317,7 @@ ice1Finished
 r
 )
 ;
-var
+const
 ice2Done
 =
 new
@@ -331,7 +331,7 @@ ice2Finished
 r
 )
 ;
-var
+const
 ice3Done
 =
 new
@@ -345,7 +345,7 @@ ice3Finished
 r
 )
 ;
-var
+const
 icsc
 =
 (
@@ -356,7 +356,7 @@ resolve
 =
 >
 {
-var
+const
 state
 =
 pc
@@ -1309,10 +1309,6 @@ true
 Connected
 .
 "
-)
-;
-networkTestFinished
-(
 )
 ;
 }

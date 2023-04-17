@@ -100,9 +100,6 @@ audio
 }
 )
 ;
-var
-test
-;
 runNetworkTest
 (
 function
@@ -110,7 +107,7 @@ function
 options
 )
 {
-var
+const
 helper
 =
 new
@@ -118,6 +115,7 @@ AudioStreamHelper
 (
 )
 ;
+const
 test
 =
 new
@@ -141,7 +139,7 @@ true
 ]
 )
 ;
-var
+let
 haveFirstUnmuteEvent
 ;
 test
@@ -381,6 +379,7 @@ getRemoteStreams
 ]
 )
 ;
+return
 test
 .
 run

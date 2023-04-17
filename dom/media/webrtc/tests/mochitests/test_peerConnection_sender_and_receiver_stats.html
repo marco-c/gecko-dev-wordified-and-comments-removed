@@ -84,7 +84,7 @@ true
 }
 )
 ;
-var
+const
 checkStats
 =
 (
@@ -327,9 +327,6 @@ waiting
 for
 sync
 .
-var
-test
-;
 runNetworkTest
 (
 function
@@ -361,7 +358,7 @@ PC_LOCAL_AND_REMOTE_CHECK_SENDER_RECEIVER_STATS
 test
 )
 {
-return
+await
 Promise
 .
 all
@@ -383,15 +380,7 @@ waitForSyncedRtcp
 )
 ]
 )
-.
-then
-(
-async
-(
-)
-=
->
-{
+;
 let
 senders
 =
@@ -583,8 +572,6 @@ kind
 }
 }
 )
-}
-)
 ;
 test
 .
@@ -606,6 +593,7 @@ true
 ]
 )
 ;
+return
 test
 .
 run
