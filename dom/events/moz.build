@@ -88,6 +88,15 @@ chrome
 .
 ini
 "
+"
+test
+/
+pointerevents
+/
+chrome
+.
+ini
+"
 ]
 TEST_DIRS
 +
