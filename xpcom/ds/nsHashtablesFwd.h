@@ -141,6 +141,9 @@ template
 <
 class
 KeyType
+class
+=
+void
 >
 struct
 nsKeyClass

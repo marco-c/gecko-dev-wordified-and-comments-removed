@@ -368,9 +368,6 @@ PickleIterator
 class
 nsISerialEventTarget
 ;
-class
-nsUint32HashKey
-;
 namespace
 mozilla
 {
