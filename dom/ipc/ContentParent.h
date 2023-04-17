@@ -752,11 +752,11 @@ GetLog
 )
 ;
 static
-RefPtr
+already_AddRefed
 <
-LaunchPromise
+ContentParent
 >
-PreallocateProcess
+MakePreallocProcess
 (
 )
 ;
@@ -6660,6 +6660,8 @@ uint32_t
 aMaxContentParents
 bool
 aPreferUsed
+ProcessPriority
+aPriority
 )
 ;
 void
