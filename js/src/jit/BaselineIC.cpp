@@ -2685,6 +2685,12 @@ case
 BaselineICFallbackKind
 :
 :
+ToBool
+:
+case
+BaselineICFallbackKind
+:
+:
 TypeOf
 :
 return
