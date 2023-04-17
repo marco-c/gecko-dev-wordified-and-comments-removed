@@ -7304,7 +7304,7 @@ dom
 DataTransfer
 *
 aDataTransfer
-int32_t
+uint32_t
 aIndex
 Document
 *
