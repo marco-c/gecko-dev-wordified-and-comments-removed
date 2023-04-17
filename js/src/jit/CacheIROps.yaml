@@ -7068,7 +7068,7 @@ name
 NewPlainObjectResult
 shared
 :
-true
+false
 transpile
 :
 false
