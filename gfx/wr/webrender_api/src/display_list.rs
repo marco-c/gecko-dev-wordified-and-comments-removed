@@ -9837,6 +9837,16 @@ fill_rule
 }
 )
 ;
+if
+points
+.
+len
+(
+)
+>
+=
+3
+{
 self
 .
 push_item
@@ -9858,6 +9868,7 @@ push_iter
 points
 )
 ;
+}
 self
 .
 push_item
