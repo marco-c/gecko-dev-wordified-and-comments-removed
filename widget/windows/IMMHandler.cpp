@@ -11627,7 +11627,7 @@ return
 NS_OK
 ;
 }
-nsIntPoint
+LayoutDeviceIntPoint
 cursorPos
 =
 aIMENotification
@@ -11635,10 +11635,6 @@ aIMENotification
 mMouseButtonEventData
 .
 mCursorPos
-.
-AsIntPoint
-(
-)
 ;
 nsIntRect
 charRect
