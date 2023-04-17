@@ -125,7 +125,6 @@ fog_init
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -400,7 +399,6 @@ add
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -452,7 +450,6 @@ NS_ERROR_FAILURE
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -490,7 +487,6 @@ NS_OK
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -521,7 +517,6 @@ NS_OK
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
