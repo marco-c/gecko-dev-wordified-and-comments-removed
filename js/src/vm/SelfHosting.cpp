@@ -15612,7 +15612,7 @@ JS_FN
 intl_FormatNumber
 "
 intl_FormatNumber
-2
+3
 0
 )
 JS_FN
