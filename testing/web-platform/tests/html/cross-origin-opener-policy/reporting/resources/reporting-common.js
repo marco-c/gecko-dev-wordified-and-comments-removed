@@ -487,6 +487,8 @@ resolve
 (
 )
 ;
+return
+;
 }
 }
 ;
