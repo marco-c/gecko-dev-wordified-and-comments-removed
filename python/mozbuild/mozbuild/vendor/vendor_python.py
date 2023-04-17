@@ -10,6 +10,10 @@ import
 shutil
 import
 subprocess
+from
+pathlib
+import
+Path
 import
 mozfile
 import
@@ -176,6 +180,30 @@ _update_packages
 tmpspec_absolute
 )
             
+tmp_requirements_absolute
+=
+os
+.
+path
+.
+join
+(
+spec_dir
+"
+requirements
+.
+txt
+"
+)
+            
+shutil
+.
+copy
+(
+requirements
+tmp_requirements_absolute
+)
+            
 subprocess
 .
 check_output
@@ -228,7 +256,7 @@ output
 file
 "
                     
-requirements
+tmp_requirements_absolute
                     
 "
 -
@@ -272,7 +300,7 @@ download
 r
 "
                         
-requirements
+tmp_requirements_absolute
                         
 "
 -
@@ -314,6 +342,11 @@ any
                 
 )
                 
+_purge_vendor_dir
+(
+vendor_dir
+)
+                
 self
 .
 _extract
@@ -329,6 +362,14 @@ copyfile
 (
 tmpspec_absolute
 spec
+)
+            
+shutil
+.
+copy
+(
+tmp_requirements_absolute
+requirements
 )
             
 self
@@ -671,13 +712,6 @@ dest
 package_name
 )
                 
-mozfile
-.
-remove
-(
-target_package_dir
-)
-                
 os
 .
 mkdir
@@ -729,13 +763,6 @@ dest
 package_name
 )
                 
-mozfile
-.
-remove
-(
-package_dir
-)
-                
 extracted_files
 =
 mozfile
@@ -776,6 +803,68 @@ package_dir
 _denormalize_symlinks
 (
 package_dir
+)
+def
+_purge_vendor_dir
+(
+vendor_dir
+)
+:
+    
+excluded_packages
+=
+[
+        
+"
+dlmanager
+"
+        
+"
+gyp
+"
+        
+"
+virtualenv
+"
+        
+"
+moz
+.
+build
+"
+    
+]
+    
+for
+child
+in
+Path
+(
+vendor_dir
+)
+.
+iterdir
+(
+)
+:
+        
+if
+child
+.
+name
+not
+in
+excluded_packages
+:
+            
+mozfile
+.
+remove
+(
+str
+(
+child
+)
 )
 def
 _denormalize_symlinks
