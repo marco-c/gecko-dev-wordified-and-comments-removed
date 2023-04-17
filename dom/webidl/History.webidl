@@ -207,7 +207,7 @@ state
 ;
 [
 Throws
-NeedsSubjectPrincipal
+NeedsCallerType
 ]
 void
 go
