@@ -2009,7 +2009,10 @@ return
 NS_OK
 ;
 }
-nsEventStatus
+nsIWidget
+:
+:
+ContentAndAPZEventStatus
 PuppetWidget
 :
 :
@@ -2020,6 +2023,9 @@ WidgetInputEvent
 aEvent
 )
 {
+ContentAndAPZEventStatus
+status
+;
 if
 (
 !
@@ -2028,15 +2034,12 @@ AsyncPanZoomEnabled
 )
 )
 {
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 DispatchEvent
 (
 aEvent
 status
+.
+mContentStatus
 )
 ;
 return
@@ -2050,7 +2053,7 @@ mBrowserChild
 )
 {
 return
-nsEventStatus_eIgnore
+status
 ;
 }
 switch
@@ -2140,7 +2143,7 @@ type
 ;
 }
 return
-nsEventStatus_eIgnore
+status
 ;
 }
 nsresult

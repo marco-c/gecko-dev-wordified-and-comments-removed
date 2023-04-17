@@ -41388,6 +41388,8 @@ DispatchInputEvent
 &
 event
 )
+.
+mContentStatus
 ;
 }
 else

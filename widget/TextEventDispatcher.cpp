@@ -1231,6 +1231,8 @@ DispatchInputEvent
 &
 aEvent
 )
+.
+mContentStatus
 ;
 }
 else

@@ -13231,6 +13231,8 @@ DispatchInputEvent
 &
 geckoEvent
 )
+.
+mContentStatus
 =
 =
 nsEventStatus_eConsumeNoDefault
@@ -18274,6 +18276,8 @@ DispatchInputEvent
 &
 geckoEvent
 )
+.
+mContentStatus
 !
 =
 nsEventStatus_eConsumeNoDefault

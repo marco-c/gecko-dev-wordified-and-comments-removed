@@ -18127,7 +18127,10 @@ mPressure
 =
 mLastMotionPressure
 ;
-nsEventStatus
+nsIWidget
+:
+:
+ContentAndAPZEventStatus
 eventStatus
 =
 DispatchInputEvent
@@ -18176,6 +18179,8 @@ ePrimary
 &
 &
 eventStatus
+.
+mContentStatus
 !
 =
 nsEventStatus_eConsumeNoDefault
@@ -18374,7 +18379,10 @@ event
 .
 mRefPoint
 ;
-nsEventStatus
+nsIWidget
+:
+:
+ContentAndAPZEventStatus
 eventStatus
 =
 DispatchInputEvent
@@ -18388,6 +18396,8 @@ defaultPrevented
 =
 (
 eventStatus
+.
+mContentStatus
 =
 =
 nsEventStatus_eConsumeNoDefault

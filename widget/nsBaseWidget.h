@@ -1609,7 +1609,7 @@ aFlags
 )
 override
 ;
-nsEventStatus
+ContentAndAPZEventStatus
 DispatchInputEvent
 (
 mozilla

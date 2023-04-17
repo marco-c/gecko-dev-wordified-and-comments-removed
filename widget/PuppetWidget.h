@@ -589,7 +589,7 @@ aStatus
 )
 override
 ;
-nsEventStatus
+ContentAndAPZEventStatus
 DispatchInputEvent
 (
 WidgetInputEvent
