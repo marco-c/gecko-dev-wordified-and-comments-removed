@@ -1548,6 +1548,11 @@ aBypassProxy
 )
 override
 ;
+bool
+BypassProxy
+(
+)
+;
 NS_IMETHOD
 GetIsTRRServiceChannel
 (
