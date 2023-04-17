@@ -1,11 +1,3 @@
-DIRS
-+
-=
-[
-"
-testplugin
-"
-]
 if
 CONFIG
 [

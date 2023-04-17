@@ -25,15 +25,6 @@ plugin
 :
 mozilla
 /
-chrome
--
-test
-"
-"
-plugin
-:
-mozilla
-/
 mochitest
 -
 test
