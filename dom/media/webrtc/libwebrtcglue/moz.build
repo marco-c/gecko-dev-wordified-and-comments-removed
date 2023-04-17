@@ -102,6 +102,11 @@ GmpVideoCodec
 cpp
 "
 "
+MediaConduitInterface
+.
+cpp
+"
+"
 MediaDataCodec
 .
 cpp
