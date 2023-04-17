@@ -25738,6 +25738,11 @@ MOZ_COUNT_CTOR
 nsDisplayCaret
 )
 ;
+SetBuildingRect
+(
+mBounds
+)
+;
 }
 #
 ifdef
