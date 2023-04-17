@@ -232,6 +232,7 @@ const
 {
 getTheme
 setTheme
+getAutoTheme
 addThemeObserver
 removeThemeObserver
 }
@@ -1011,6 +1012,16 @@ getTheme
 )
 ;
 }
+getAutoTheme
+(
+)
+{
+return
+getAutoTheme
+(
+)
+;
+}
 _onThemeChanged
 (
 )
@@ -1209,7 +1220,7 @@ currTheme
 setTheme
 (
 "
-light
+auto
 "
 )
 ;
