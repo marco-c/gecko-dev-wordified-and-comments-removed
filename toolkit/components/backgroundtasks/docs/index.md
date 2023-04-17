@@ -322,6 +322,11 @@ meaning
 Exit
 code
 2
+(
+EXIT_CODE
+.
+NOT_FOUND
+)
 means
 the
 background
@@ -343,6 +348,11 @@ loaded
 Exit
 code
 3
+(
+EXIT_CODE
+.
+EXCEPTION
+)
 means
 the
 background
@@ -357,7 +367,7 @@ See
 [
 BackgroundTasksManager
 .
-jsm
+EXIT_CODE
 ]
 (
 https
