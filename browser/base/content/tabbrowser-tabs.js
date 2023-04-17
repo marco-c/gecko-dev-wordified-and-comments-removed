@@ -1230,6 +1230,12 @@ MOZ_SOURCE_MOUSE
 }
 )
 ;
+event
+.
+preventDefault
+(
+)
+;
 }
 else
 if
