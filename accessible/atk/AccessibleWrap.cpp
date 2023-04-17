@@ -2908,6 +2908,16 @@ AccAttributes
 aAttributes
 )
 {
+if
+(
+!
+aAttributes
+)
+{
+return
+nullptr
+;
+}
 AtkAttributeSet
 *
 objAttributeSet
