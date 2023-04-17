@@ -801,6 +801,13 @@ void
 allocator
 -
 >
+ClearPendingTransactions
+(
+)
+;
+allocator
+-
+>
 NotifyTransactionCompleted
 (
 id
