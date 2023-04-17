@@ -102,6 +102,15 @@ Init
 (
 )
 ;
+static
+const
+char
+*
+GetColorPrefName
+(
+ColorID
+)
+;
 nsresult
 GetColorValue
 (
