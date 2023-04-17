@@ -333,7 +333,7 @@ actions
 ;
 const
 {
-receiveProfile
+openProfilerAndDisplayProfile
 createMultiModalGetSymbolTableFn
 }
 =
@@ -606,7 +606,7 @@ objdirs
 perfFront
 )
 ;
-receiveProfile
+openProfilerAndDisplayProfile
 (
 profile
 profilerViewMode

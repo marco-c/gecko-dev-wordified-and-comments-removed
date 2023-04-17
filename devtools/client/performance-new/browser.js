@@ -269,7 +269,7 @@ addon
 "
 ;
 function
-receiveProfile
+openProfilerAndDisplayProfile
 (
 profile
 profilerViewMode
@@ -1081,7 +1081,7 @@ module
 exports
 =
 {
-receiveProfile
+openProfilerAndDisplayProfile
 createMultiModalGetSymbolTableFn
 restartBrowserWithEnvironmentVariable
 getEnvironmentVariable
