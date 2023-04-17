@@ -230,7 +230,6 @@ executor_kwargs
 logger
 test_type
 test_environment
-cache_manager
 run_info_data
                     
 *
@@ -247,7 +246,6 @@ test_type
                                            
 test_environment
                                            
-cache_manager
 run_info_data
                                            
 *
