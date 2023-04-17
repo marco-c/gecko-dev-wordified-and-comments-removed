@@ -1745,6 +1745,13 @@ min
 .
 0
 )
+.
+max
+(
+1
+.
+0
+)
 ;
 let
 rounded_up
