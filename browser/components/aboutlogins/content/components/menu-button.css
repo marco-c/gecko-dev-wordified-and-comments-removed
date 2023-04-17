@@ -204,7 +204,7 @@ border
 -
 radius
 :
-5px
+4px
 ;
 box
 -
@@ -267,6 +267,10 @@ index
 :
 1
 ;
+font
+:
+menu
+;
 }
 .
 menuitem
@@ -275,7 +279,7 @@ button
 {
 padding
 :
-2px
+4px
 8px
 ;
 /
@@ -375,10 +379,8 @@ height
 initial
 ;
 font
--
-weight
 :
-normal
+inherit
 ;
 }
 .
@@ -429,7 +431,7 @@ top
 -
 width
 :
-2px
+1px
 ;
 margin
 -
