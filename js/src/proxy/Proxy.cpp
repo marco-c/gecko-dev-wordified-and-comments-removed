@@ -431,7 +431,7 @@ if
 desc
 -
 >
-hasGetterObject
+hasGetter
 (
 )
 )

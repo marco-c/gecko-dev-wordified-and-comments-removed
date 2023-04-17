@@ -232,7 +232,7 @@ hasWritable
 !
 desc
 .
-hasGetterObject
+hasGetter
 (
 )
 &
@@ -240,7 +240,7 @@ hasGetterObject
 !
 desc
 .
-hasSetterObject
+hasSetter
 (
 )
 &
@@ -272,7 +272,7 @@ currentGetter
 current
 -
 >
-hasGetterObject
+hasGetter
 (
 )
 ?
@@ -292,7 +292,7 @@ currentSetter
 current
 -
 >
-hasSetterObject
+hasSetter
 (
 )
 ?
@@ -346,7 +346,7 @@ writable
 !
 desc
 .
-hasGetterObject
+hasGetter
 (
 )
 |
@@ -366,7 +366,7 @@ currentGetter
 !
 desc
 .
-hasSetterObject
+hasSetter
 (
 )
 |
@@ -916,7 +916,7 @@ if
 (
 desc
 .
-hasSetterObject
+hasSetter
 (
 )
 &
@@ -968,7 +968,7 @@ if
 (
 desc
 .
-hasGetterObject
+hasGetter
 (
 )
 &

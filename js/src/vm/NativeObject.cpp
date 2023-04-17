@@ -7785,7 +7785,7 @@ if
 (
 desc
 .
-hasGetterObject
+hasGetter
 (
 )
 &
@@ -7824,7 +7824,7 @@ if
 (
 desc
 .
-hasSetterObject
+hasSetter
 (
 )
 &
@@ -8607,7 +8607,7 @@ MOZ_ASSERT
 !
 desc
 .
-hasGetterObject
+hasGetter
 (
 )
 )
@@ -8617,7 +8617,7 @@ MOZ_ASSERT
 !
 desc
 .
-hasSetterObject
+hasSetter
 (
 )
 )
@@ -8988,7 +8988,7 @@ if
 (
 desc
 .
-hasSetterObject
+hasSetter
 (
 )
 )
@@ -9049,7 +9049,7 @@ if
 (
 desc
 .
-hasGetterObject
+hasGetter
 (
 )
 )

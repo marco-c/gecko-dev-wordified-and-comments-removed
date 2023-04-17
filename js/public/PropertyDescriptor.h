@@ -849,7 +849,7 @@ hasValue
 !
 desc
 .
-hasGetterObject
+hasGetter
 (
 )
 &
@@ -857,7 +857,7 @@ hasGetterObject
 !
 desc
 .
-hasSetterObject
+hasSetter
 (
 )
 )
@@ -1128,7 +1128,7 @@ writable
 ;
 }
 bool
-hasGetterObject
+hasGetter
 (
 )
 const
@@ -1146,7 +1146,7 @@ const
 {
 MOZ_ASSERT
 (
-hasGetterObject
+hasGetter
 (
 )
 )
@@ -1181,7 +1181,7 @@ obj
 ;
 }
 bool
-hasSetterObject
+hasSetter
 (
 )
 const
@@ -1199,7 +1199,7 @@ const
 {
 MOZ_ASSERT
 (
-hasSetterObject
+hasSetter
 (
 )
 )
@@ -1531,12 +1531,12 @@ MOZ_ASSERT_IF
 isAccessorDescriptor
 (
 )
-hasGetterObject
+hasGetter
 (
 )
 &
 &
-hasSetterObject
+hasSetter
 (
 )
 )
@@ -1803,7 +1803,7 @@ writable
 ;
 }
 bool
-hasGetterObject
+hasGetter
 (
 )
 const
@@ -1813,7 +1813,7 @@ desc
 (
 )
 .
-hasGetterObject
+hasGetter
 (
 )
 ;
@@ -1833,7 +1833,7 @@ const
 {
 MOZ_ASSERT
 (
-hasGetterObject
+hasGetter
 (
 )
 )
@@ -1862,7 +1862,7 @@ getterDoNotUse
 ;
 }
 bool
-hasSetterObject
+hasSetter
 (
 )
 const
@@ -1872,7 +1872,7 @@ desc
 (
 )
 .
-hasSetterObject
+hasSetter
 (
 )
 ;
@@ -1892,7 +1892,7 @@ const
 {
 MOZ_ASSERT
 (
-hasSetterObject
+hasSetter
 (
 )
 )
@@ -2204,7 +2204,7 @@ desc
 (
 )
 .
-hasGetterObject
+hasGetter
 (
 )
 )
@@ -2250,7 +2250,7 @@ desc
 (
 )
 .
-hasSetterObject
+hasSetter
 (
 )
 )

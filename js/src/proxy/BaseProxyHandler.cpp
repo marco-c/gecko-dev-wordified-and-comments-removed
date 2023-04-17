@@ -990,7 +990,7 @@ if
 (
 ownDesc
 .
-hasSetterObject
+hasSetter
 (
 )
 )
