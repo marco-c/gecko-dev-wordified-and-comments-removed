@@ -5491,10 +5491,10 @@ newGCBigInt
 (
 output
 divisor
-fail
 bigIntsCanBeInNursery
 (
 )
+fail
 )
 ;
 masm
@@ -5575,10 +5575,10 @@ newGCBigInt
 (
 output
 divisor
-fail
 bigIntsCanBeInNursery
 (
 )
+fail
 )
 ;
 masm
