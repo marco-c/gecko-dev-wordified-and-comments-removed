@@ -64,6 +64,13 @@ from
 testrunner
 import
 ManagerGroup
+from
+.
+browsers
+.
+base
+import
+NullBrowser
 here
 =
 os
@@ -620,7 +627,7 @@ run_info_extras
 =
 products
 .
-Product
+load_product
 (
 kwargs
 [
@@ -630,8 +637,10 @@ config
 ]
 product
 )
-.
-run_info_extras
+[
+-
+1
+]
 (
 *
 *
@@ -705,7 +714,7 @@ run_info_extras
 =
 products
 .
-Product
+load_product
 (
 kwargs
 [
@@ -715,8 +724,10 @@ config
 ]
 product
 )
-.
-run_info_extras
+[
+-
+1
+]
 (
 *
 *
@@ -817,7 +828,7 @@ run_info_extras
 =
 products
 .
-Product
+load_product
 (
 kwargs
 [
@@ -827,8 +838,10 @@ config
 ]
 product
 )
-.
-run_info_extras
+[
+-
+1
+]
 (
 *
 *
@@ -1138,10 +1151,13 @@ product
 =
 products
 .
-Product
+load_product
 (
 config
 product
+load_cls
+=
+True
 )
         
 env_extras
@@ -1908,14 +1924,27 @@ tests
 test_type
 )
                     
+if
+test_type
+=
+=
+"
+wdspec
+"
+:
+                        
+browser_cls
+=
+NullBrowser
+                    
+else
+:
+                        
 browser_cls
 =
 product
 .
-get_browser_cls
-(
-test_type
-)
+browser_cls
                     
 browser_kwargs
 =
@@ -1969,6 +1998,12 @@ logger
 test_type
                                                                   
 test_environment
+.
+config
+                                                                  
+test_environment
+.
+cache_manager
                                                                   
 run_info
                                                                   

@@ -9,11 +9,6 @@ from
 .
 base
 import
-NullBrowser
-from
-.
-base
-import
 get_timeout_multiplier
 from
 .
@@ -72,21 +67,9 @@ check_args
 browser
 "
 :
-{
-None
-:
 "
 EdgeChromiumBrowser
 "
-                             
-"
-wdspec
-"
-:
-"
-NullBrowser
-"
-}
                  
 "
 executor
@@ -229,7 +212,7 @@ executor_kwargs
 (
 logger
 test_type
-test_environment
+server_config
 cache_manager
 run_info_data
                     
@@ -244,8 +227,7 @@ executor_kwargs
 base_executor_kwargs
 (
 test_type
-                                           
-test_environment
+server_config
                                            
 cache_manager
 run_info_data

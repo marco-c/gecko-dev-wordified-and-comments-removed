@@ -2,15 +2,9 @@ from
 .
 base
 import
-(
-NullBrowser
-                   
-certificate_domain_list
-                   
 get_timeout_multiplier
-                   
 maybe_add_args
-)
+certificate_domain_list
 from
 .
 webkit
@@ -69,21 +63,9 @@ check_args
 browser
 "
 :
-{
-None
-:
 "
 EpiphanyBrowser
 "
-                             
-"
-wdspec
-"
-:
-"
-NullBrowser
-"
-}
                  
 "
 browser_kwargs
@@ -385,7 +367,8 @@ executor_kwargs
 (
 logger
 test_type
-test_environment
+server_config
+cache_manager
 run_info_data
                     
 *
@@ -399,7 +382,9 @@ executor_kwargs
 base_executor_kwargs
 (
 test_type
-test_environment
+server_config
+                                           
+cache_manager
 run_info_data
 *
 *
@@ -424,9 +409,7 @@ capabilities
 =
 capabilities
 (
-test_environment
-.
-config
+server_config
 *
 *
 kwargs
