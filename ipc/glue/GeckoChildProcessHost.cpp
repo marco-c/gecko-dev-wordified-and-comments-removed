@@ -5038,18 +5038,6 @@ DoSetup
 (
 )
 {
-#
-if
-defined
-(
-MOZ_GECKO_PROFILER
-)
-|
-|
-defined
-(
-MOZ_MEMORY
-)
 RefPtr
 <
 BaseProcessLauncher
@@ -5058,9 +5046,6 @@ self
 =
 this
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 GetProfilerEnvVarsForChildProcess
 (
 [
@@ -5099,8 +5084,6 @@ value
 }
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_MEMORY
@@ -5158,8 +5141,6 @@ get
 )
 ;
 }
-#
-endif
 #
 endif
 MapChildLogging

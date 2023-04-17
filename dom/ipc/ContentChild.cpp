@@ -4768,9 +4768,6 @@ mProcessName
 =
 aName
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 aETLDplus1
@@ -4791,8 +4788,6 @@ mProcessName
 )
 ;
 }
-#
-endif
 mozilla
 :
 :
