@@ -1275,6 +1275,11 @@ mIsMediaInitialRequest
 =
 false
 ;
+bool
+mIsFromObjectOrEmbed
+=
+false
+;
 nsILoadInfo
 :
 :

@@ -2301,6 +2301,13 @@ attribute
 boolean
 isMediaInitialRequest
 ;
+[
+infallible
+]
+attribute
+boolean
+isFromObjectOrEmbed
+;
 attribute
 nsIURI
 unstrippedURI

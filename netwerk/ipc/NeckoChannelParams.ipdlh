@@ -452,6 +452,9 @@ isMediaRequest
 bool
 isMediaInitialRequest
 ;
+bool
+isFromObjectOrEmbed
+;
 CookieJarSettingsArgs
 cookieJarSettings
 ;
