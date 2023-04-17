@@ -3449,8 +3449,8 @@ alloc
 )
 LPowOfTwoI
 (
-base
 powerAlloc
+base
 )
 ;
 assignSnapshot

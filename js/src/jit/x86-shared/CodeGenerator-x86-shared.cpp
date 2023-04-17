@@ -390,7 +390,7 @@ loadConstantDouble
 ins
 -
 >
-getDouble
+value
 (
 )
 ToFloatRegister
@@ -431,7 +431,7 @@ loadConstantFloat32
 ins
 -
 >
-getFloat
+value
 (
 )
 ToFloatRegister
@@ -14631,7 +14631,7 @@ loadConstantSimd128
 ins
 -
 >
-getSimd128
+simd128
 (
 )
 ToFloatRegister

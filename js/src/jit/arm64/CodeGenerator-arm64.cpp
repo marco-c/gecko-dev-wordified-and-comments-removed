@@ -8335,7 +8335,7 @@ output
 ins
 -
 >
-getDouble
+value
 (
 )
 )
@@ -8376,7 +8376,7 @@ output
 ins
 -
 >
-getFloat
+value
 (
 )
 )
@@ -20031,7 +20031,7 @@ loadConstantSimd128
 ins
 -
 >
-getSimd128
+simd128
 (
 )
 ToFloatRegister
