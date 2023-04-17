@@ -371,6 +371,15 @@ aEventType
 nsIAccessibleEvent
 :
 :
+EVENT_ALERT
+&
+&
+aEventType
+!
+=
+nsIAccessibleEvent
+:
+:
 EVENT_FOCUS
 &
 &
