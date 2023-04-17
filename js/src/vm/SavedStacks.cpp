@@ -2006,8 +2006,6 @@ class_
 "
 SavedFrame
 "
-JSCLASS_HAS_PRIVATE
-|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 SavedFrame
