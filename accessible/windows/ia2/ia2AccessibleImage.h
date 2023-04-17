@@ -49,6 +49,12 @@ IMPL_IUNKNOWN_REFCOUNTING_INHERITED
 (
 MsaaAccessible
 )
+using
+MsaaAccessible
+:
+:
+get_description
+;
 virtual
 HRESULT
 STDMETHODCALLTYPE
