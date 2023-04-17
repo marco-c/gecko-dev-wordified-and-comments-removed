@@ -1945,6 +1945,17 @@ str
 stylo_threads
 )
     
+env
+[
+"
+MOZ_WINDOW_OCCLUSION
+"
+]
+=
+"
+0
+"
+    
 if
 chaos_mode_flags
 is
