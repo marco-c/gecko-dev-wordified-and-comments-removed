@@ -415,6 +415,11 @@ errorTryAgainButton
 .
 focus
 (
+{
+preventFocusRing
+:
+true
+}
 )
 ;
 }
