@@ -912,6 +912,17 @@ JSRuntime
 const
 parentRuntime
 ;
+bool
+isMainRuntime
+(
+)
+const
+{
+return
+!
+parentRuntime
+;
+}
 #
 ifdef
 DEBUG
