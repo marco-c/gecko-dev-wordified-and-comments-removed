@@ -204,17 +204,7 @@ RELEASE_OR_BETA
 =
 set
 (
-    
 [
-        
-"
-Intl
-.
-DateTimeFormat
--
-formatRange
-"
-    
 ]
 )
 SHELL_OPTIONS
