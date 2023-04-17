@@ -1148,16 +1148,6 @@ JSVAL_TAG_UNDEFINED
 )
 {
 }
-Value
-(
-const
-Value
-&
-v
-)
-=
-default
-;
 private
 :
 explicit

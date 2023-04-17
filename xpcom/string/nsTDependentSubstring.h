@@ -402,6 +402,15 @@ substring_type
 )
 {
 }
+nsTDependentSubstring
+(
+const
+nsTDependentSubstring
+&
+)
+=
+default
+;
 private
 :
 void
