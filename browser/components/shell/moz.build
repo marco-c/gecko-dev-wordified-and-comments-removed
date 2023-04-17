@@ -207,11 +207,6 @@ WindowsDefaultBrowser
 .
 cpp
 "
-"
-WindowsUserChoice
-.
-cpp
-"
 ]
 LOCAL_INCLUDES
 +
@@ -244,12 +239,6 @@ OS_LIBS
 +
 =
 [
-"
-bcrypt
-"
-"
-crypt32
-"
 "
 propsys
 "
@@ -299,9 +288,6 @@ MOZ_APP_NAME
 "
 "
 MOZ_APP_VERSION
-"
-"
-MOZ_DEFAULT_BROWSER_AGENT
 "
 )
 :
