@@ -15,14 +15,9 @@ mach
 .
 decorators
 import
-(
-    
 CommandArgument
-    
 CommandProvider
-    
 Command
-)
 from
 mozbuild
 .
@@ -34,7 +29,6 @@ mozbuild
 .
 util
 import
-ensure_subprocess_env
 MOZBUILD_METRICS_PATH
 from
 mozbuild
@@ -879,7 +873,6 @@ subprocess
 .
 check_call
 (
-                
 pgo_cmd
 cwd
 =
@@ -888,11 +881,7 @@ instr
 topobjdir
 env
 =
-ensure_subprocess_env
-(
 pgo_env
-)
-            
 )
             
 append_env

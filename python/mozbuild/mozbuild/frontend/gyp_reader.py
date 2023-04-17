@@ -39,27 +39,16 @@ from
 .
 context
 import
-(
-    
 ObjDirPath
-    
 SourcePath
-    
 TemplateContext
-    
 VARIABLES
-)
 from
 mozbuild
 .
 util
 import
-(
-    
-ensure_subprocess_env
-    
 expand_variables
-)
 sys
 .
 modules
@@ -2642,11 +2631,8 @@ environ
 update
 (
                 
-ensure_subprocess_env
-(
-                    
 {
-                        
+                    
 "
 GYP_MSVS_OVERRIDE_PATH
 "
@@ -2654,7 +2640,7 @@ GYP_MSVS_OVERRIDE_PATH
 "
 fake_path
 "
-                        
+                    
 "
 GYP_MSVS_VERSION
 "
@@ -2667,10 +2653,8 @@ substs
 MSVS_VERSION
 "
 ]
-                    
-}
                 
-)
+}
             
 )
         

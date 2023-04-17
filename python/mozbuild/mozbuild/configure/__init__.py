@@ -76,22 +76,15 @@ configure
 .
 util
 import
-(
-    
 ConfigureOutputHandler
-    
 getpreferredencoding
-    
 LineIO
-)
 from
 mozbuild
 .
 util
 import
 (
-    
-ensure_subprocess_env
     
 exec_
     
@@ -6361,28 +6354,6 @@ dict
 self
 .
 _environ
-)
-                
-kwargs
-[
-"
-env
-"
-]
-=
-ensure_subprocess_env
-(
-                    
-kwargs
-[
-"
-env
-"
-]
-encoding
-=
-system_encoding
-                
 )
                 
 return
