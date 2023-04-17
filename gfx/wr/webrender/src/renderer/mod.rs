@@ -1733,7 +1733,7 @@ SubpixelWithBgColorPass2
 SubpixelDualSource
 =
 6
-Bitmap
+BitmapShadow
 =
 7
 ColorBitmap
@@ -1777,6 +1777,11 @@ GlyphFormat
 :
 :
 TransformedAlpha
+|
+GlyphFormat
+:
+:
+Bitmap
 =
 >
 ShaderColorMode
@@ -1811,16 +1816,6 @@ separately
 )
 ;
 }
-GlyphFormat
-:
-:
-Bitmap
-=
->
-ShaderColorMode
-:
-:
-Bitmap
 GlyphFormat
 :
 :
