@@ -3712,8 +3712,7 @@ html
 ;
 388
 |
-about_newtab_with_snipppets
-=
+about_newtab_with_snippets
 =
 =
 =
