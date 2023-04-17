@@ -300,12 +300,6 @@ clobber
 "
         
 "
-setup
--
-avds
-"
-        
-"
 download
 -
 and
