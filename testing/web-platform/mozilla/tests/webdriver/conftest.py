@@ -66,6 +66,8 @@ webdriver_path
 )
 pytest_plugins
 =
+[
+    
 "
 tests
 .
@@ -73,3 +75,12 @@ support
 .
 fixtures
 "
+    
+"
+tests
+.
+support
+.
+fixtures_http
+"
+]
