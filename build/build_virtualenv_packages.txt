@@ -7,8 +7,6 @@ build
 common_virtualenv_packages
 .
 txt
-python3
-:
 mozilla
 .
 pth
