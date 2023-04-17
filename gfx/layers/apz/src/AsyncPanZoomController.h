@@ -2092,14 +2092,6 @@ eForHitTesting
 eForCompositing
 }
 ;
-CSSRect
-GetCurrentAsyncLayoutViewport
-(
-AsyncTransformConsumer
-aMode
-)
-const
-;
 ParentLayerPoint
 GetCurrentAsyncScrollOffset
 (
