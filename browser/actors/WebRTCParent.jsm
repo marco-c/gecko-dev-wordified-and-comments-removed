@@ -1781,9 +1781,9 @@ activeCamera
 =
 device
 ;
+}
 break
 ;
-}
 }
 for
 (
@@ -1859,9 +1859,9 @@ activeMic
 =
 device
 ;
+}
 break
 ;
-}
 }
 }
 if
