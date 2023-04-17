@@ -520,7 +520,7 @@ Debug
 )
 |
 |
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 mTimerThreadId
 )
@@ -1068,7 +1068,7 @@ ToMilliseconds
 }
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 mTimerThreadId
 )
@@ -2203,7 +2203,7 @@ Notify
 }
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 mProfilerThreadId
 )
@@ -2552,7 +2552,7 @@ Notify
 }
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 mProfilerThreadId
 )

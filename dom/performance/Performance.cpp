@@ -1857,7 +1857,7 @@ performanceMark
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -2240,7 +2240,7 @@ performanceMeasure
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )

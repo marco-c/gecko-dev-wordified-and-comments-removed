@@ -2321,7 +2321,7 @@ MEDIA_PLAYBACK
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -3330,7 +3330,7 @@ return
 }
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -3409,7 +3409,7 @@ AssertOwnerThread
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -3493,7 +3493,7 @@ AssertOwnerThread
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -3577,7 +3577,7 @@ AssertOwnerThread
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -5617,7 +5617,7 @@ GetPosition
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
