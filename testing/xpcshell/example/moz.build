@@ -6,6 +6,17 @@ XPCSHELL_TESTS_MANIFESTS
 unit
 /
 xpcshell
+-
+with
+-
+prefs
+.
+ini
+"
+"
+unit
+/
+xpcshell
 .
 ini
 "
