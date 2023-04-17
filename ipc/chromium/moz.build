@@ -874,6 +874,14 @@ CONFIG
 TK_CFLAGS
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+gtest
+"
+]
 include
 (
 "
