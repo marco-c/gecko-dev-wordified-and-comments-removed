@@ -286,7 +286,7 @@ NS_HTTP_STICKY_CONNECTION
 ;
 }
 void
-MakeDontWaitHTTPSSVC
+MakeDontWaitHTTPSRR
 (
 )
 {
@@ -294,7 +294,7 @@ mCaps
 &
 =
 ~
-NS_HTTP_WAIT_HTTPSSVC_RESULT
+NS_HTTP_FORCE_WAIT_HTTP_RR
 ;
 }
 void
@@ -1633,6 +1633,9 @@ false
 ;
 TimeStamp
 mPendingTime
+;
+TimeStamp
+mHTTPSRRQueryStart
 ;
 TimeDuration
 mPendingDurationTime
