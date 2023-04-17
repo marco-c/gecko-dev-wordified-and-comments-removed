@@ -98,7 +98,6 @@ pub
 (
 crate
 )
-unsafe
 fn
 begin_observing
 (
@@ -111,6 +110,8 @@ Result
 )
 nsresult
 >
+{
+unsafe
 {
 let
 pref_obs
@@ -209,6 +210,7 @@ to_result
 )
 ?
 ;
+}
 Ok
 (
 (

@@ -121,7 +121,6 @@ pub
 (
 crate
 )
-unsafe
 fn
 begin_observing
 (
@@ -142,6 +141,8 @@ handle_client_active
 (
 )
 ;
+unsafe
+{
 let
 activity_obs
 =
@@ -286,6 +287,7 @@ Err
 rv
 )
 ;
+}
 }
 Ok
 (
