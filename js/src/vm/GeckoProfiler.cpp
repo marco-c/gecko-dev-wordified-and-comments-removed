@@ -2448,7 +2448,7 @@ function
 nullptr
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 jsbytecode
 *
 ProfilingStackFrame
@@ -2574,7 +2574,7 @@ pc
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -2617,7 +2617,7 @@ enabled
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -2661,7 +2661,7 @@ enabled
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -2897,7 +2897,7 @@ CATEGORY_INFO_SUBCATEGORY
 #
 undef
 CATEGORY_INFO_END_CATEGORY
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 ProfilingCategoryPairInfo
 &

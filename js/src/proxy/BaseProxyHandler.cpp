@@ -1901,7 +1901,7 @@ return
 false
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -1991,7 +1991,7 @@ proxy
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :

@@ -214,7 +214,7 @@ ThreadType
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 uint32_t
 GetThreadType
 (

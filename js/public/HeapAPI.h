@@ -100,7 +100,7 @@ js
 class
 NurseryDecommitTask
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 CurrentThreadCanAccessZone
 (
@@ -1008,7 +1008,7 @@ CellFlagBitsReservedForGC
 ifdef
 JS_DEBUG
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 AssertGCThingHasType
 (
@@ -1280,7 +1280,7 @@ DefaultHeapMaxBytes
 1024
 ;
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 GCCellPtr
 {
 public
@@ -3117,7 +3117,7 @@ thing
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 UnmarkGrayGCThingRecursively
 (

@@ -123,7 +123,7 @@ proto_
 }
 ;
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 ForwardingProxyHandler
 :
 public
@@ -802,7 +802,7 @@ false
 }
 ;
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 Wrapper
 :
 public
@@ -1048,7 +1048,7 @@ defaultProto
 ;
 }
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 CrossCompartmentWrapper
 :
 public
@@ -1694,7 +1694,7 @@ singletonWithPrototype
 }
 ;
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 OpaqueCrossCompartmentWrapper
 :
 public
@@ -2289,7 +2289,7 @@ class
 Base
 >
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 SecurityWrapper
 :
 public
@@ -2731,7 +2731,7 @@ wrapper
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UncheckedUnwrap
@@ -2750,7 +2750,7 @@ flagsp
 nullptr
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 CheckedUnwrapStatic
@@ -2760,7 +2760,7 @@ JSObject
 obj
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapOneCheckedStatic
@@ -2770,7 +2770,7 @@ JSObject
 obj
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 CheckedUnwrapDynamic
@@ -2787,7 +2787,7 @@ stopAtWindowProxy
 true
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapOneCheckedDynamic
@@ -2806,7 +2806,7 @@ stopAtWindowProxy
 true
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UncheckedUnwrapWithoutExpose
@@ -2824,7 +2824,7 @@ JSContext
 cx
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 NukeCrossCompartmentWrapper
 (
@@ -2836,7 +2836,7 @@ JSObject
 wrapper
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 NukeCrossCompartmentWrapperIfExists
 (
@@ -2886,7 +2886,7 @@ HandleObject
 newTarget
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 RemapAllWrappersForObject
 (
@@ -2905,7 +2905,7 @@ HandleObject
 newTarget
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 RecomputeWrappers
 (

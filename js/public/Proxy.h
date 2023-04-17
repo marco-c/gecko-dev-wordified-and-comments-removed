@@ -119,11 +119,11 @@ class
 RegExpShared
 ;
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 Wrapper
 ;
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 BaseProxyHandler
 {
 const
@@ -1022,7 +1022,7 @@ false
 }
 ;
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 ProxyClass
@@ -1483,7 +1483,7 @@ ProxyDataOffset
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetValueInProxy
 (
@@ -2079,7 +2079,7 @@ clasp_
 ;
 }
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 NewProxyObject
@@ -2132,7 +2132,7 @@ priv
 )
 ;
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 AutoEnterPolicy
 {
 public
@@ -2379,7 +2379,7 @@ recordLeave
 )
 ;
 friend
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 assertEnteredPolicy
 (
@@ -2452,7 +2452,7 @@ delete
 ifdef
 JS_DEBUG
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 AutoWaivePolicy
 :
 public
@@ -2500,7 +2500,7 @@ act
 #
 else
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 AutoWaivePolicy
 {
 public
@@ -2536,7 +2536,7 @@ endif
 ifdef
 JS_DEBUG
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 assertEnteredPolicy
 (
@@ -2580,13 +2580,13 @@ act
 #
 endif
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClassOps
 ProxyClassOps
 ;
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 js
 :
@@ -2595,7 +2595,7 @@ ClassExtension
 ProxyClassExtension
 ;
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 js
 :
@@ -2798,7 +2798,7 @@ name
 flags
 JS_NULL_CLASS_SPEC
 )
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 NukeNonCCWProxy
 (
@@ -2812,7 +2812,7 @@ HandleObject
 proxy
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 NukeRemovedCrossCompartmentWrapper
 (

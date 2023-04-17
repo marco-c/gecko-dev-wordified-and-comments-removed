@@ -58,7 +58,7 @@ T
 class
 TenuredHeap
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 char
 *
@@ -71,7 +71,7 @@ TraceKind
 kind
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 GCTraceKindSize
 (
@@ -2221,7 +2221,7 @@ thingp
 ifdef
 DEBUG
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 RuntimeIsBeingDestroyed
 (

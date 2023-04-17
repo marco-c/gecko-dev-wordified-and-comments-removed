@@ -90,7 +90,7 @@ namespace
 JS
 {
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :
@@ -113,7 +113,7 @@ namespace
 js
 {
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpString
 (
@@ -126,7 +126,7 @@ fp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpAtom
 (
@@ -139,7 +139,7 @@ fp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpObject
 (
@@ -152,7 +152,7 @@ fp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpChars
 (
@@ -168,7 +168,7 @@ fp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpBigInt
 (
@@ -184,7 +184,7 @@ fp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpValue
 (
@@ -201,7 +201,7 @@ fp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpId
 (
@@ -216,7 +216,7 @@ fp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 DumpPC
 (
@@ -229,7 +229,7 @@ fp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 DumpScript
 (
@@ -245,7 +245,7 @@ fp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpString
 (
@@ -255,7 +255,7 @@ str
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpAtom
 (
@@ -265,7 +265,7 @@ atom
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpObject
 (
@@ -275,7 +275,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpChars
 (
@@ -288,7 +288,7 @@ n
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpBigInt
 (
@@ -301,7 +301,7 @@ bi
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpValue
 (
@@ -315,7 +315,7 @@ val
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpId
 (
@@ -327,7 +327,7 @@ id
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpInterpreterFrame
 (
@@ -342,7 +342,7 @@ nullptr
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 DumpPC
 (
@@ -352,7 +352,7 @@ cx
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 DumpScript
 (
@@ -365,7 +365,7 @@ scriptArg
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpBacktrace
 (
@@ -378,7 +378,7 @@ fp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpBacktrace
 (
@@ -395,7 +395,7 @@ IgnoreNurseryObjects
 }
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpHeap
 (

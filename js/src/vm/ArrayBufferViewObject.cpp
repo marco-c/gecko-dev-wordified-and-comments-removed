@@ -848,7 +848,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsArrayBufferViewObject
 (
@@ -869,7 +869,7 @@ ArrayBufferViewObject
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 js
@@ -894,7 +894,7 @@ ArrayBufferViewObject
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 *
 JS_GetArrayBufferViewData
@@ -960,7 +960,7 @@ unwrap
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 uint8_t
 *
 JS_GetArrayBufferViewFixedData
@@ -1105,7 +1105,7 @@ dataPointerUnshared
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_GetArrayBufferViewBuffer
@@ -1252,7 +1252,7 @@ return
 buffer
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS_GetArrayBufferViewByteLength
 (
@@ -1328,7 +1328,7 @@ return
 length
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS_GetArrayBufferViewByteOffset
 (
@@ -1404,7 +1404,7 @@ return
 offset
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_GetObjectAsArrayBufferView
@@ -1461,7 +1461,7 @@ return
 obj
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -1631,7 +1631,7 @@ isSharedMemory
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS
 :

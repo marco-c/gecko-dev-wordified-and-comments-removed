@@ -114,7 +114,7 @@ JS
 {
 class
 MOZ_STACK_CLASS
-JS_FRIEND_API
+JS_PUBLIC_API
 AutoStableStringChars
 final
 {

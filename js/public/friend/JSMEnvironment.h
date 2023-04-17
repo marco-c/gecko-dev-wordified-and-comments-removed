@@ -33,7 +33,7 @@ namespace
 JS
 {
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 NewJSMEnvironment
@@ -44,7 +44,7 @@ cx
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ExecuteInJSMEnvironment
 (
@@ -66,7 +66,7 @@ jsmEnv
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ExecuteInJSMEnvironment
 (
@@ -97,7 +97,7 @@ targetObj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 GetJSMEnvironmentOfScriptedCaller
@@ -108,7 +108,7 @@ cx
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsJSMEnvironment
 (

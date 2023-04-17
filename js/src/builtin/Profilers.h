@@ -132,7 +132,7 @@ nodiscard
 ]
 ]
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js_StopCallgrind
 (
@@ -144,7 +144,7 @@ nodiscard
 ]
 ]
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js_StartCallgrind
 (
@@ -156,7 +156,7 @@ nodiscard
 ]
 ]
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js_DumpCallgrind
 (
@@ -177,7 +177,7 @@ nodiscard
 ]
 ]
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js_StartPerf
 (
@@ -189,7 +189,7 @@ nodiscard
 ]
 ]
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js_StopPerf
 (

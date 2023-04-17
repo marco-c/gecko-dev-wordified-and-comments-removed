@@ -28,14 +28,14 @@ namespace
 js
 {
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 EnableCodeCoverage
 (
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :
@@ -51,7 +51,7 @@ length
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :

@@ -10477,7 +10477,7 @@ notifyRootsRemoved
 ;
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -10542,7 +10542,7 @@ ok
 ;
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -43224,7 +43224,7 @@ enableStrictProxyChecking
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS
 :
@@ -43278,7 +43278,7 @@ hasFinalize
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS
 :
@@ -43337,7 +43337,7 @@ BigInt
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -43643,7 +43643,7 @@ RuntimeHeapIsCollecting
 }
 #
 endif
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 char
 *
@@ -43708,7 +43708,7 @@ Invalid
 ;
 }
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS
 :
@@ -47305,7 +47305,7 @@ namespace
 js
 {
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpString
 (
@@ -48441,7 +48441,7 @@ obj
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :

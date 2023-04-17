@@ -458,7 +458,7 @@ ShouldFailWithOOM
 }
 ;
 MOZ_COLD
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 ReportOutOfMemory
 (
@@ -478,7 +478,7 @@ JSContext
 const
 cx_
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 *
 onOutOfMemory
@@ -874,7 +874,7 @@ p
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 reportAllocOverflow
 (

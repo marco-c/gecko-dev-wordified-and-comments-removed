@@ -24,7 +24,7 @@ namespace
 JS
 {
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 AddMozDateTimeFormatConstructor
 (
@@ -40,7 +40,7 @@ intl
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 AddMozDisplayNamesConstructor
 (

@@ -237,7 +237,7 @@ char
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS_SetAccumulateTelemetryCallback
 (
@@ -271,7 +271,7 @@ JSUseCounter
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS_SetSetUseCounterCallback
 (

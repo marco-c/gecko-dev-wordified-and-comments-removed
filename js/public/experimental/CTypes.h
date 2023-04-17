@@ -84,7 +84,7 @@ CTypesActivityType
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetCTypesActivityCallback
 (
@@ -97,7 +97,7 @@ cb
 ;
 class
 MOZ_RAII
-JS_FRIEND_API
+JS_PUBLIC_API
 AutoCTypesActivityCallback
 {
 private

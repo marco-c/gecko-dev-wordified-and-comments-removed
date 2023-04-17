@@ -17079,7 +17079,7 @@ time
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 js
@@ -17147,7 +17147,7 @@ msec_time
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -17355,7 +17355,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :

@@ -86,7 +86,7 @@ AutoRequireNoGC
 ;
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewInt8Array
@@ -99,7 +99,7 @@ nelements
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewUint8Array
@@ -112,7 +112,7 @@ nelements
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewUint8ClampedArray
@@ -125,7 +125,7 @@ nelements
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewInt16Array
@@ -138,7 +138,7 @@ nelements
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewUint16Array
@@ -151,7 +151,7 @@ nelements
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewInt32Array
@@ -164,7 +164,7 @@ nelements
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewUint32Array
@@ -177,7 +177,7 @@ nelements
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewFloat32Array
@@ -190,7 +190,7 @@ nelements
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewFloat64Array
@@ -203,7 +203,7 @@ nelements
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewInt8ArrayFromArray
@@ -223,7 +223,7 @@ array
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewUint8ArrayFromArray
@@ -243,7 +243,7 @@ array
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewUint8ClampedArrayFromArray
@@ -263,7 +263,7 @@ array
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewInt16ArrayFromArray
@@ -283,7 +283,7 @@ array
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewUint16ArrayFromArray
@@ -303,7 +303,7 @@ array
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewInt32ArrayFromArray
@@ -323,7 +323,7 @@ array
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewUint32ArrayFromArray
@@ -343,7 +343,7 @@ array
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewFloat32ArrayFromArray
@@ -363,7 +363,7 @@ array
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewFloat64ArrayFromArray
@@ -383,7 +383,7 @@ array
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewInt8ArrayWithBuffer
@@ -407,7 +407,7 @@ length
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewUint8ArrayWithBuffer
@@ -431,7 +431,7 @@ length
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewUint8ClampedArrayWithBuffer
@@ -455,7 +455,7 @@ length
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewInt16ArrayWithBuffer
@@ -479,7 +479,7 @@ length
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewUint16ArrayWithBuffer
@@ -503,7 +503,7 @@ length
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewInt32ArrayWithBuffer
@@ -527,7 +527,7 @@ length
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewUint32ArrayWithBuffer
@@ -551,7 +551,7 @@ length
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewBigInt64ArrayWithBuffer
@@ -575,7 +575,7 @@ length
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewBigUint64ArrayWithBuffer
@@ -599,7 +599,7 @@ length
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewFloat32ArrayWithBuffer
@@ -623,7 +623,7 @@ length
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewFloat64ArrayWithBuffer
@@ -647,7 +647,7 @@ length
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsTypedArrayObject
 (
@@ -657,7 +657,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsArrayBufferViewObject
 (
@@ -667,7 +667,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsInt8Array
 (
@@ -677,7 +677,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsUint8Array
 (
@@ -687,7 +687,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsUint8ClampedArray
 (
@@ -697,7 +697,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsInt16Array
 (
@@ -707,7 +707,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsUint16Array
 (
@@ -717,7 +717,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsInt32Array
 (
@@ -727,7 +727,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsUint32Array
 (
@@ -737,7 +737,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsFloat32Array
 (
@@ -747,7 +747,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsFloat64Array
 (
@@ -757,7 +757,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_GetTypedArraySharedness
 (
@@ -770,7 +770,7 @@ namespace
 js
 {
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapInt8Array
@@ -781,7 +781,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapUint8Array
@@ -792,7 +792,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapUint8ClampedArray
@@ -803,7 +803,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapInt16Array
@@ -814,7 +814,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapUint16Array
@@ -825,7 +825,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapInt32Array
@@ -836,7 +836,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapUint32Array
@@ -847,7 +847,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapBigInt64Array
@@ -858,7 +858,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapBigUint64Array
@@ -869,7 +869,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapFloat32Array
@@ -880,7 +880,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapFloat64Array
@@ -891,7 +891,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapArrayBufferView
@@ -902,7 +902,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapReadableStream
@@ -916,7 +916,7 @@ namespace
 detail
 {
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 *
@@ -924,7 +924,7 @@ const
 Int8ArrayClassPtr
 ;
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 *
@@ -932,7 +932,7 @@ const
 Uint8ArrayClassPtr
 ;
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 *
@@ -940,7 +940,7 @@ const
 Uint8ClampedArrayClassPtr
 ;
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 *
@@ -948,7 +948,7 @@ const
 Int16ArrayClassPtr
 ;
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 *
@@ -956,7 +956,7 @@ const
 Uint16ArrayClassPtr
 ;
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 *
@@ -964,7 +964,7 @@ const
 Int32ArrayClassPtr
 ;
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 *
@@ -972,7 +972,7 @@ const
 Uint32ArrayClassPtr
 ;
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 *
@@ -980,7 +980,7 @@ const
 BigInt64ArrayClassPtr
 ;
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 *
@@ -988,7 +988,7 @@ const
 BigUint64ArrayClassPtr
 ;
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 *
@@ -996,7 +996,7 @@ const
 Float32ArrayClassPtr
 ;
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 *
@@ -1179,7 +1179,7 @@ double
 undef
 JS_DEFINE_DATA_AND_LENGTH_ACCESSOR
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 GetArrayBufferViewLengthAndData
 (
@@ -1200,7 +1200,7 @@ data
 ;
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_GetObjectAsInt8Array
@@ -1221,7 +1221,7 @@ data
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_GetObjectAsUint8Array
@@ -1242,7 +1242,7 @@ data
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_GetObjectAsUint8ClampedArray
@@ -1263,7 +1263,7 @@ data
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_GetObjectAsInt16Array
@@ -1284,7 +1284,7 @@ data
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_GetObjectAsUint16Array
@@ -1305,7 +1305,7 @@ data
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_GetObjectAsInt32Array
@@ -1326,7 +1326,7 @@ data
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_GetObjectAsUint32Array
@@ -1347,7 +1347,7 @@ data
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_GetObjectAsFloat32Array
@@ -1368,7 +1368,7 @@ data
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_GetObjectAsFloat64Array
@@ -1389,7 +1389,7 @@ data
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_GetObjectAsArrayBufferView
@@ -1410,7 +1410,7 @@ data
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 js
 :
 :
@@ -1426,7 +1426,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS_GetTypedArrayLength
 (
@@ -1436,7 +1436,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS_GetTypedArrayByteOffset
 (
@@ -1446,7 +1446,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS_GetTypedArrayByteLength
 (
@@ -1456,7 +1456,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS_GetArrayBufferViewByteLength
 (
@@ -1466,7 +1466,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS_GetArrayBufferViewByteOffset
 (
@@ -1476,7 +1476,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 int8_t
 *
 JS_GetInt8ArrayData
@@ -1496,7 +1496,7 @@ AutoRequireNoGC
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 uint8_t
 *
 JS_GetUint8ArrayData
@@ -1516,7 +1516,7 @@ AutoRequireNoGC
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 uint8_t
 *
 JS_GetUint8ClampedArrayData
@@ -1536,7 +1536,7 @@ AutoRequireNoGC
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 int16_t
 *
 JS_GetInt16ArrayData
@@ -1556,7 +1556,7 @@ AutoRequireNoGC
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 uint16_t
 *
 JS_GetUint16ArrayData
@@ -1576,7 +1576,7 @@ AutoRequireNoGC
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 int32_t
 *
 JS_GetInt32ArrayData
@@ -1596,7 +1596,7 @@ AutoRequireNoGC
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 uint32_t
 *
 JS_GetUint32ArrayData
@@ -1616,7 +1616,7 @@ AutoRequireNoGC
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 float
 *
 JS_GetFloat32ArrayData
@@ -1636,7 +1636,7 @@ AutoRequireNoGC
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 double
 *
 JS_GetFloat64ArrayData
@@ -1656,7 +1656,7 @@ AutoRequireNoGC
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 *
 JS_GetArrayBufferViewData
@@ -1676,7 +1676,7 @@ AutoRequireNoGC
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 uint8_t
 *
 JS_GetArrayBufferViewFixedData
@@ -1692,14 +1692,14 @@ bufSize
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS_MaxMovableTypedArraySize
 (
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_GetArrayBufferViewBuffer
@@ -1721,7 +1721,7 @@ bool
 isSharedMemory
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewDataView
@@ -1747,7 +1747,7 @@ byteLength
 namespace
 JS
 {
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsLargeArrayBufferView
 (

@@ -76,7 +76,7 @@ length
 }
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetSourceHook
 (
@@ -94,7 +94,7 @@ hook
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 mozilla
 :
 :

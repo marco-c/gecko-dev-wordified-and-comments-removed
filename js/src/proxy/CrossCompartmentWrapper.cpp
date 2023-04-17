@@ -2221,7 +2221,7 @@ singleton
 0u
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -2288,7 +2288,7 @@ wrapper
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -2427,7 +2427,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -2754,7 +2754,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -2829,7 +2829,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -3281,7 +3281,7 @@ RemapWrapper
 ;
 }
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -3407,7 +3407,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :

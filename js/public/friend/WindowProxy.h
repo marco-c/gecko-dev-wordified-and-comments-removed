@@ -53,7 +53,7 @@ namespace
 js
 {
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetWindowProxyClass
 (
@@ -67,7 +67,7 @@ clasp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetWindowProxy
 (
@@ -98,7 +98,7 @@ namespace
 detail
 {
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsWindowSlow
 (
@@ -108,7 +108,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 ToWindowProxyIfWindowSlow
@@ -159,7 +159,7 @@ false
 ;
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsWindowProxy
 (
@@ -209,7 +209,7 @@ obj
 ;
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 ToWindowIfWindowProxy

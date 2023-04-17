@@ -124,7 +124,7 @@ RecordAllocationInfo
 info
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 EnableRecordingAllocations
 (
@@ -137,7 +137,7 @@ double
 probability
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DisableRecordingAllocations
 (

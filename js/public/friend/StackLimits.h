@@ -150,7 +150,7 @@ extraAllowance
 )
 const
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 runningWithTrustedPrincipals
 (
@@ -402,7 +402,7 @@ const
 ;
 extern
 MOZ_COLD
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 ReportOverRecursed
 (

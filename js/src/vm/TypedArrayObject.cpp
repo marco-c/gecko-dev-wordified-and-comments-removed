@@ -12907,7 +12907,7 @@ NativeType
 Name
 )
 \
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_New
@@ -12944,7 +12944,7 @@ nelements
 }
 \
 \
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_New
@@ -12981,7 +12981,7 @@ other
 }
 \
 \
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_New
@@ -13026,7 +13026,7 @@ length
 }
 \
 \
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 js
@@ -13115,7 +13115,7 @@ obj
 }
 \
 \
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_Is
 #
@@ -13192,7 +13192,7 @@ ArrayTypeID
 ;
 \
 \
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_GetObjectAs
@@ -13342,7 +13342,7 @@ obj
 }
 \
 \
-JS_FRIEND_API
+JS_PUBLIC_API
 ExternalTypeOf
 <
 NativeType
@@ -13478,7 +13478,7 @@ IMPL_TYPED_ARRAY_JSAPI_CONSTRUCTORS
 #
 undef
 IMPL_TYPED_ARRAY_JSAPI_CONSTRUCTORS
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsTypedArrayObject
 (
@@ -13499,7 +13499,7 @@ TypedArrayObject
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS_GetTypedArrayLength
 (
@@ -13541,7 +13541,7 @@ length
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS_GetTypedArrayByteOffset
 (
@@ -13583,7 +13583,7 @@ byteOffset
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS_GetTypedArrayByteLength
 (
@@ -13625,7 +13625,7 @@ byteLength
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_GetTypedArraySharedness
 (
@@ -13667,7 +13667,7 @@ isSharedMemory
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 js
 :
 :
@@ -13768,7 +13768,7 @@ type
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS_MaxMovableTypedArraySize
 (

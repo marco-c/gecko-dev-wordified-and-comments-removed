@@ -546,7 +546,7 @@ UINTPTR_MAX
 #
 endif
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS_SetGrayGCRootsTracer
 (
@@ -577,7 +577,7 @@ data
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_FindCompilationScope
@@ -632,7 +632,7 @@ obj
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSFunction
 *
 JS_GetObjectFunction
@@ -672,7 +672,7 @@ return
 nullptr
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewObjectWithoutMetadata
@@ -718,7 +718,7 @@ proto
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS
 :
@@ -746,7 +746,7 @@ secureContext
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSPrincipals
 *
 JS
@@ -771,7 +771,7 @@ principals
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS
 :
@@ -900,7 +900,7 @@ principals
 ;
 }
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSPrincipals
 *
 JS_GetScriptPrincipals
@@ -919,7 +919,7 @@ principals
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_ScriptHasMutedErrors
 (
@@ -937,7 +937,7 @@ mutedErrors
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_WrapPropertyDescriptor
 (
@@ -973,7 +973,7 @@ desc
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_WrapPropertyDescriptor
 (
@@ -1015,7 +1015,7 @@ desc
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS_TraceShapeCycleCollectorChildren
 (
@@ -1116,7 +1116,7 @@ JSPROP_PERMANENT
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_DefineFunctionsWithHelp
 (
@@ -1337,7 +1337,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS
 :
@@ -1813,7 +1813,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -1836,7 +1836,7 @@ ArgumentsObject
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :
@@ -1864,7 +1864,7 @@ zone
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -1931,7 +1931,7 @@ isSystem
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -1955,7 +1955,7 @@ isSystem
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -1976,7 +1976,7 @@ isSystemZone
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -2000,7 +2000,7 @@ JSFunction
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -2024,7 +2024,7 @@ SavedFrame
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -2047,7 +2047,7 @@ obj
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -2071,7 +2071,7 @@ obj
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -2100,7 +2100,7 @@ v
 #
 ifdef
 DEBUG
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -2136,7 +2136,7 @@ compartment
 }
 #
 endif
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -2206,7 +2206,7 @@ lastAnimationTime
 timeNow
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -2239,7 +2239,7 @@ compartment
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -2264,7 +2264,7 @@ runningWithTrustedPrincipals
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSFunction
 *
 js
@@ -2382,7 +2382,7 @@ FUNCTION_EXTENDED
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSFunction
 *
 js
@@ -2498,7 +2498,7 @@ FUNCTION_EXTENDED
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSFunction
 *
 js
@@ -2604,7 +2604,7 @@ FUNCTION_EXTENDED
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 Value
 &
@@ -2654,7 +2654,7 @@ which
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -2732,7 +2732,7 @@ val
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -2852,7 +2852,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 js
@@ -2884,7 +2884,7 @@ staticPrototype
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -3025,7 +3025,7 @@ hasReleasedWrapperCallback
 hasReleasedWrapper
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 unsigned
 JS_PCToLineNumber
 (
@@ -3049,7 +3049,7 @@ columnp
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsDeadWrapper
 (
@@ -3065,7 +3065,7 @@ obj
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewDeadWrapper
@@ -3107,7 +3107,7 @@ trc
 ;
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -3130,7 +3130,7 @@ areGrayBitsValid
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -3203,7 +3203,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -3237,7 +3237,7 @@ isGCSweepingOrCompacting
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -3606,7 +3606,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_CloneObject
@@ -3901,7 +3901,7 @@ clone
 ;
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS
 :
@@ -4050,7 +4050,7 @@ initializedAny
 ;
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 int
 JS
 :
@@ -4076,7 +4076,7 @@ false
 #
 endif
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS
 :
@@ -4103,7 +4103,7 @@ notifyRootsRemoved
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :
@@ -4160,7 +4160,7 @@ get
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -4204,7 +4204,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 js
@@ -4257,7 +4257,7 @@ return
 obj
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -4286,7 +4286,7 @@ DOMcallbacks
 callbacks
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 DOMCallbacks
 *
@@ -4312,7 +4312,7 @@ runtime
 DOMcallbacks
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -4396,7 +4396,7 @@ closure
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -4424,7 +4424,7 @@ scriptEnvironmentPreparer
 preparer
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS
 :
@@ -4502,7 +4502,7 @@ beginType
 ;
 }
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -4532,7 +4532,7 @@ callback
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 js
@@ -4582,7 +4582,7 @@ return
 nullptr
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -4647,7 +4647,7 @@ extObjectMovedOp
 }
 #
 endif
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -4743,7 +4743,7 @@ allowContentJS_
 prevAllowContentJS_
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -4763,7 +4763,7 @@ EnableLCov
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :
@@ -4814,7 +4814,7 @@ canonicalPrivate
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 uint64_t
 js
 :
@@ -4845,7 +4845,7 @@ bytes
 #
 ifdef
 DEBUG
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -4969,7 +4969,7 @@ cx
 }
 #
 endif
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :

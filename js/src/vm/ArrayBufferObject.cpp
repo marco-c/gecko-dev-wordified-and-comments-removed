@@ -8443,7 +8443,7 @@ SharedArrayBufferObject
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS
 :
@@ -8482,7 +8482,7 @@ byteLength
 0
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 uint8_t
 *
 JS
@@ -8624,7 +8624,7 @@ ArrayBufferObject
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS
 :
@@ -8730,7 +8730,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS
 :
@@ -8775,7 +8775,7 @@ isDetached
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS
@@ -9110,7 +9110,7 @@ contents
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS
 :
@@ -9134,7 +9134,7 @@ ArrayBufferObject
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS
 :
@@ -9163,7 +9163,7 @@ isDetached
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS
@@ -9188,7 +9188,7 @@ ArrayBufferObject
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS
@@ -9478,7 +9478,7 @@ length
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS
 :
@@ -9523,7 +9523,7 @@ isMapped
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS
@@ -9591,7 +9591,7 @@ return
 aobj
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS
 :

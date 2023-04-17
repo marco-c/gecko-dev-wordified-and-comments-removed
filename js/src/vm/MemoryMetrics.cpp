@@ -262,7 +262,7 @@ ZoneStats
 namespace
 js
 {
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 MemoryReportingSundriesThreshold
 (

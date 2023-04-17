@@ -451,7 +451,7 @@ class
 InterpreterFrame
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpString
 (
@@ -464,7 +464,7 @@ out
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpAtom
 (
@@ -477,7 +477,7 @@ out
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpObject
 (
@@ -490,7 +490,7 @@ out
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpChars
 (
@@ -506,7 +506,7 @@ out
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpValue
 (
@@ -523,7 +523,7 @@ out
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpId
 (
@@ -535,7 +535,7 @@ out
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpInterpreterFrame
 (
@@ -553,7 +553,7 @@ nullptr
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpBigInt
 (

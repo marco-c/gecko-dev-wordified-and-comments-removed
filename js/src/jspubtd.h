@@ -217,7 +217,7 @@ JSContext
 cx
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 CurrentThreadCanAccessRuntime
 (
@@ -230,7 +230,7 @@ rt
 #
 ifdef
 DEBUG
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 CurrentThreadIsPerformingGC
 (

@@ -2090,7 +2090,7 @@ return
 target
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 js
@@ -2168,7 +2168,7 @@ return
 wrapped
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 js
@@ -2291,7 +2291,7 @@ return
 wrapped
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 js
@@ -2340,7 +2340,7 @@ obj
 }
 }
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 js
@@ -2436,7 +2436,7 @@ obj
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 js
@@ -2499,7 +2499,7 @@ unwrapped
 ;
 }
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 js

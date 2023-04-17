@@ -3834,7 +3834,7 @@ nullptr
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 *
 onOutOfMemory
@@ -3860,7 +3860,7 @@ maybecx
 nullptr
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 *
 onOutOfMemoryCanGC

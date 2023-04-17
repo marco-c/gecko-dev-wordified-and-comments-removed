@@ -2108,7 +2108,7 @@ expr
 JS_END_MACRO
 #
 endif
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js_StartCallgrind
 (
@@ -2128,7 +2128,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js_StopCallgrind
 (
@@ -2143,7 +2143,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js_DumpCallgrind
 (

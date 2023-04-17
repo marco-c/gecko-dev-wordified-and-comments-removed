@@ -50,7 +50,7 @@ JS_PUBLIC_API
 JSTracer
 ;
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 ProfilingStack
 ;
 namespace
@@ -973,7 +973,7 @@ script
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 jsbytecode
 *
 pc
@@ -1007,7 +1007,7 @@ NullPCOffset
 ;
 }
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetContextProfilingStack
 (
@@ -1019,7 +1019,7 @@ ProfilingStack
 profilingStack
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 EnableContextProfilingStack
 (
@@ -1030,7 +1030,7 @@ bool
 enabled
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 RegisterContextProfilingEventMarker
 (
@@ -1082,7 +1082,7 @@ UnregisterThreadCallback
 (
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetProfilingThreadCallbacks
 (
@@ -1094,7 +1094,7 @@ unregisterThread
 ;
 }
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 ProfilingStack
 final
 {

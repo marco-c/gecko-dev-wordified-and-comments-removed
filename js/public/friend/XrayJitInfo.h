@@ -26,7 +26,7 @@ namespace
 js
 {
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 BaseProxyHandler
 ;
 }
@@ -74,7 +74,7 @@ expandoProtoSlot
 }
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetXrayJitInfo
 (

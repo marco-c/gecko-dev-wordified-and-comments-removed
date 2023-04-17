@@ -171,7 +171,7 @@ ExceptionStack
 ;
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS_SetGrayGCRootsTracer
 (
@@ -186,7 +186,7 @@ data
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_FindCompilationScope
@@ -202,7 +202,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSFunction
 *
 JS_GetObjectFunction
@@ -213,7 +213,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewObjectWithoutMetadata
@@ -237,7 +237,7 @@ proto
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_NondeterministicGetWeakMapKeys
 (
@@ -257,7 +257,7 @@ ret
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_NondeterministicGetWeakSetKeys
 (
@@ -277,7 +277,7 @@ ret
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 unsigned
 JS_PCToLineNumber
 (
@@ -295,7 +295,7 @@ nullptr
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsDeadWrapper
 (
@@ -305,7 +305,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewDeadWrapper
@@ -323,7 +323,7 @@ nullptr
 namespace
 js
 {
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :
@@ -337,7 +337,7 @@ object
 ;
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS_TraceShapeCycleCollectorChildren
 (
@@ -355,7 +355,7 @@ shape
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS_TraceObjectGroupCycleCollectorChildren
 (
@@ -373,7 +373,7 @@ group
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSPrincipals
 *
 JS_GetScriptPrincipals
@@ -384,7 +384,7 @@ script
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_ScriptHasMutedErrors
 (
@@ -394,7 +394,7 @@ script
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_CloneObject
@@ -415,7 +415,7 @@ proto
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_InitializePropertiesFromCompatibleNativeObject
 (
@@ -437,7 +437,7 @@ src
 namespace
 js
 {
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsArgumentsObject
 (
@@ -448,7 +448,7 @@ HandleObject
 obj
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 AddRawValueRoot
 (
@@ -467,7 +467,7 @@ char
 name
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 RemoveRawValueRoot
 (
@@ -487,7 +487,7 @@ namespace
 JS
 {
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ForceLexicalInitialization
 (
@@ -499,14 +499,14 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 int
 IsGCPoisoning
 (
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSPrincipals
 *
 GetRealmPrincipals
@@ -520,7 +520,7 @@ realm
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetRealmPrincipals
 (
@@ -536,7 +536,7 @@ principals
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 GetIsSecureContext
 (
@@ -550,7 +550,7 @@ realm
 ;
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_CopyOwnPropertiesAndPrivateFields
 (
@@ -570,7 +570,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_WrapPropertyDescriptor
 (
@@ -591,7 +591,7 @@ desc
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_WrapPropertyDescriptor
 (
@@ -728,7 +728,7 @@ nullptr
 nullptr
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_DefineFunctionsWithHelp
 (
@@ -750,7 +750,7 @@ namespace
 js
 {
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 UseInternalJobQueues
 (
@@ -760,7 +760,7 @@ cx
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 EnqueueJob
 (
@@ -775,7 +775,7 @@ job
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 StopDrainingJobQueue
 (
@@ -785,7 +785,7 @@ cx
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 RunJobs
 (
@@ -795,7 +795,7 @@ cx
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :
@@ -842,7 +842,7 @@ HandleObject
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsSystemRealm
 (
@@ -855,7 +855,7 @@ realm
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsSystemCompartment
 (
@@ -868,7 +868,7 @@ comp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsSystemZone
 (
@@ -925,7 +925,7 @@ value
 }
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 TraceWeakMaps
 (
@@ -935,7 +935,7 @@ trc
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 AreGCGrayBitsValid
 (
@@ -945,7 +945,7 @@ rt
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ZoneGlobalsAreAllGray
 (
@@ -958,7 +958,7 @@ zone
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsCompartmentZoneSweepingOrCompacting
 (
@@ -993,7 +993,7 @@ AutoRequireNoGC
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 TraceGrayWrapperTargets
 (
@@ -1009,7 +1009,7 @@ zone
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 IterateGrayObjects
 (
@@ -1039,7 +1039,7 @@ defined
 DEBUG
 )
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 CheckGrayMarkingState
 (
@@ -1051,7 +1051,7 @@ rt
 #
 endif
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :
@@ -1068,7 +1068,7 @@ zone
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 GetFirstGlobalInCompartment
@@ -1082,7 +1082,7 @@ comp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 CompartmentHasLiveGlobal
 (
@@ -1095,7 +1095,7 @@ comp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsSharableCompartment
 (
@@ -1108,14 +1108,14 @@ comp
 )
 ;
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 *
 const
 ObjectClassPtr
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 JSClass
 *
@@ -1174,7 +1174,7 @@ return
 JSProto_Object
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ShouldIgnorePropertyDefinition
 (
@@ -1187,7 +1187,7 @@ jsid
 id
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsFunctionObject
 (
@@ -1196,7 +1196,7 @@ JSObject
 obj
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 UninlinedIsCrossCompartmentWrapper
 (
@@ -1258,7 +1258,7 @@ base
 realm
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 AssertSameCompartment
 (
@@ -1270,7 +1270,7 @@ JSObject
 obj
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 AssertSameCompartment
 (
@@ -1287,7 +1287,7 @@ v
 #
 ifdef
 JS_DEBUG
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 AssertSameCompartment
 (
@@ -1316,7 +1316,7 @@ objB
 }
 #
 endif
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 NotifyAnimationActivity
 (
@@ -1325,7 +1325,7 @@ JSObject
 obj
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSFunction
 *
 DefineFunctionWithReserved
@@ -1348,7 +1348,7 @@ unsigned
 attrs
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSFunction
 *
 NewFunctionWithReserved
@@ -1368,7 +1368,7 @@ char
 name
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSFunction
 *
 NewFunctionByIdWithReserved
@@ -1386,7 +1386,7 @@ jsid
 id
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 JS
 :
@@ -1402,7 +1402,7 @@ size_t
 which
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetFunctionNativeReserved
 (
@@ -1420,7 +1420,7 @@ Value
 val
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 FunctionHasNativeReserved
 (
@@ -1429,7 +1429,7 @@ JSObject
 fun
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 GetObjectProto
 (
@@ -1449,7 +1449,7 @@ proto
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 GetStaticPrototype
@@ -1459,7 +1459,7 @@ JSObject
 obj
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 GetRealmOriginalEval
 (
@@ -1473,7 +1473,7 @@ MutableHandleObject
 eval
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 GetPropertyKeys
 (
@@ -1494,7 +1494,7 @@ MutableHandleIdVector
 props
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 AppendUnique
 (
@@ -1513,7 +1513,7 @@ HandleIdVector
 others
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 StringIsArrayIndex
 (
@@ -1525,7 +1525,7 @@ uint32_t
 indexp
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 StringIsArrayIndex
 (
@@ -1540,7 +1540,7 @@ uint32_t
 indexp
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetPreserveWrapperCallbacks
 (
@@ -1553,7 +1553,7 @@ HasReleasedWrapperCallback
 hasReleasedWrapper
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsObjectInContextCompartment
 (
@@ -1647,7 +1647,7 @@ await
 of
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 StartPCCountProfiling
 (
@@ -1656,7 +1656,7 @@ JSContext
 cx
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 StopPCCountProfiling
 (
@@ -1665,7 +1665,7 @@ JSContext
 cx
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 PurgePCCounts
 (
@@ -1674,7 +1674,7 @@ JSContext
 cx
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 GetPCCountScriptCount
 (
@@ -1683,7 +1683,7 @@ JSContext
 cx
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSString
 *
 GetPCCountScriptSummary
@@ -1695,7 +1695,7 @@ size_t
 script
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSString
 *
 GetPCCountScriptContents
@@ -1737,7 +1737,7 @@ struct
 JSDOMCallbacks
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetDOMCallbacks
 (
@@ -1751,7 +1751,7 @@ callbacks
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 DOMCallbacks
 *
@@ -1763,7 +1763,7 @@ cx
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 GetTestingFunctions
@@ -1774,7 +1774,7 @@ cx
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSLinearString
 *
 GetErrorTypeName
@@ -1904,7 +1904,7 @@ ours
 }
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 NukeCrossCompartmentWrappers
 (
@@ -1928,7 +1928,7 @@ nukeReferencesFromTarget
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 AllowNewWrapper
 (
@@ -1944,7 +1944,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 NukedObjectRealm
 (
@@ -1954,7 +1954,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 DateIsValid
 (
@@ -1972,7 +1972,7 @@ isValid
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 DateGetMsecSinceEpoch
 (
@@ -1994,7 +1994,7 @@ namespace
 js
 {
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 uint64_t
 GetSCOffset
 (
@@ -2371,7 +2371,7 @@ closure
 }
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 PrepareScriptEnvironmentAndInvoke
 (
@@ -2391,7 +2391,7 @@ Closure
 closure
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetScriptEnvironmentPreparer
 (
@@ -2437,7 +2437,7 @@ nullptr
 }
 }
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetAllocationMetadataBuilder
 (
@@ -2450,7 +2450,7 @@ AllocationMetadataBuilder
 callback
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 GetAllocationMetadata
@@ -2460,7 +2460,7 @@ JSObject
 obj
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 GetElementsWithAdder
 (
@@ -2489,7 +2489,7 @@ ElementAdder
 adder
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ForwardToNative
 (
@@ -2507,7 +2507,7 @@ CallArgs
 args
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 SetPropertyIgnoringNamedGetter
 (
@@ -2560,7 +2560,7 @@ result
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ExecuteInFrameScriptEnvironment
 (
@@ -2585,7 +2585,7 @@ scope
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsSavedFrame
 (
@@ -2616,7 +2616,7 @@ context
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetJitExceptionHandler
 (
@@ -2627,7 +2627,7 @@ handler
 #
 endif
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ReportIsNotFunction
 (
@@ -2643,7 +2643,7 @@ v
 ;
 class
 MOZ_STACK_CLASS
-JS_FRIEND_API
+JS_PUBLIC_API
 AutoAssertNoContentJS
 {
 public
@@ -2673,7 +2673,7 @@ prevAllowContentJS_
 }
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 uint64_t
 GetGCHeapUsageForObjectZone
 (
@@ -2683,7 +2683,7 @@ obj
 )
 ;
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 CompartmentTransplantCallback
 {
 public
@@ -2706,7 +2706,7 @@ compartment
 }
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 RemapRemoteWindowProxies
 (
@@ -2724,7 +2724,7 @@ newTarget
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :

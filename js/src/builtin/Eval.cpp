@@ -2235,7 +2235,7 @@ rval
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -2390,7 +2390,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS
@@ -2469,7 +2469,7 @@ return
 varEnv
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS
 :
@@ -2501,7 +2501,7 @@ emptyChain
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS
 :
@@ -2659,7 +2659,7 @@ env
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS
@@ -2744,7 +2744,7 @@ return
 env
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS
 :

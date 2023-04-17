@@ -5720,7 +5720,7 @@ desc_
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_CopyOwnPropertiesAndPrivateFields
 (
@@ -6993,7 +6993,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_InitializePropertiesFromCompatibleNativeObject
 (
@@ -14180,7 +14180,7 @@ js
 DoNotPinAtom
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -17440,7 +17440,7 @@ break
 namespace
 js
 {
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpValue
 (
@@ -17459,7 +17459,7 @@ GenericPrinter
 out
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpId
 (
@@ -17473,7 +17473,7 @@ GenericPrinter
 out
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpInterpreterFrame
 (
@@ -17494,7 +17494,7 @@ nullptr
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -17530,7 +17530,7 @@ n
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -19418,7 +19418,7 @@ n
 ;
 }
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -20017,7 +20017,7 @@ endif
 namespace
 js
 {
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpBacktrace
 (
@@ -20033,7 +20033,7 @@ out
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -20064,7 +20064,7 @@ out
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -20320,7 +20320,7 @@ pc
 }
 }
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
