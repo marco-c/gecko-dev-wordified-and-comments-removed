@@ -38,10 +38,10 @@ use
 audioipc
 :
 :
-framing
+platformhandle_passing
 :
 :
-framed
+framed_with_platformhandles
 ;
 use
 audioipc
@@ -731,9 +731,6 @@ p
 *
 mut
 c_void
-shm_area_size
-:
-usize
 )
 -
 >
@@ -772,7 +769,7 @@ _
 }
 ;
 let
-callback_thread_handle
+core_handle
 =
 wrapper
 .
@@ -816,7 +813,6 @@ future
 :
 lazy
 (
-move
 |
 |
 {
@@ -859,7 +855,7 @@ sock
 let
 transport
 =
-framed
+framed_with_platformhandles
 (
 sock
 Default
@@ -884,8 +880,7 @@ CubebServer
 :
 new
 (
-callback_thread_handle
-shm_area_size
+core_handle
 )
 )
 ;
