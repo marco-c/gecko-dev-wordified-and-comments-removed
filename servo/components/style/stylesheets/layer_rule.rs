@@ -484,13 +484,9 @@ Statement
 {
 names
 :
-SmallVec
+Vec
 <
-[
 LayerName
-;
-3
-]
 >
 }
 }
