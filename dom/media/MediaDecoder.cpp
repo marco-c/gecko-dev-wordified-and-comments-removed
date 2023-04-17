@@ -485,13 +485,14 @@ return
 sUniqueInstance
 ;
 }
-typedef
+using
+DecodersArray
+=
 nsTArray
 <
 MediaDecoder
 *
 >
-DecodersArray
 ;
 static
 DecodersArray
