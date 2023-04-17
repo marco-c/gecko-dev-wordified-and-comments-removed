@@ -246,12 +246,8 @@ Super
 ;
 public
 :
-explicit
 MediaEngineWebRTC
 (
-MediaEnginePrefs
-&
-aPrefs
 )
 ;
 void
@@ -382,14 +378,6 @@ void
 *
 aClosure
 )
-;
-const
-bool
-mDelayAgnostic
-;
-const
-bool
-mExtendedFilter
 ;
 bool
 mHasTabVideoSource
