@@ -24,6 +24,8 @@ SetHelperThreadTaskCallback
 (
 HelperThreadTaskCallback
 callback
+size_t
+threadCount
 )
 ;
 extern
