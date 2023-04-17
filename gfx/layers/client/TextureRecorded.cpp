@@ -335,6 +335,16 @@ hasOneRef
 )
 )
 ;
+MOZ_ASSERT
+(
+mLockedMode
+&
+OpenMode
+:
+:
+OPEN_READ_WRITE
+)
+;
 if
 (
 mCanvasChild
