@@ -26148,7 +26148,7 @@ false
 }
 mInitializationInfo
 .
-ResetInitializationAttempts
+ResetFirstInitializationAttempts
 (
 )
 ;
