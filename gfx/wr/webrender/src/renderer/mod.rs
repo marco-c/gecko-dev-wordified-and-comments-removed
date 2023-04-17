@@ -25074,6 +25074,17 @@ device
 .
 report_memory
 (
+self
+.
+size_of_ops
+.
+as_ref
+(
+)
+.
+unwrap
+(
+)
 )
 ;
 report
