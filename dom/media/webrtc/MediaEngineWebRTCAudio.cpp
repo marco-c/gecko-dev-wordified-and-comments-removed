@@ -3201,8 +3201,17 @@ mSkipProcessing
 &
 &
 aPassThrough
-&
-&
+)
+{
+mAudioProcessing
+-
+>
+Initialize
+(
+)
+;
+if
+(
 mPacketizerInput
 )
 {
@@ -3269,6 +3278,7 @@ Clear
 (
 )
 ;
+}
 }
 mSkipProcessing
 =
