@@ -1,9 +1,7 @@
 #
 include
 "
-js
--
-config
+jstypes
 .
 h
 "

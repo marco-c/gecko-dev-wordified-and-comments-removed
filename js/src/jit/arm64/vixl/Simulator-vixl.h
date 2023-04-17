@@ -7,9 +7,7 @@ VIXL_A64_SIMULATOR_A64_H_
 #
 include
 "
-js
--
-config
+jstypes
 .
 h
 "
