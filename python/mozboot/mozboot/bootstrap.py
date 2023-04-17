@@ -1545,6 +1545,26 @@ ensure_wasi_sysroot_packages
 state_dir
 checkout_root
 )
+        
+getattr
+(
+self
+.
+instance
+"
+ensure_
+%
+s_packages
+"
+%
+application
+)
+(
+            
+state_dir
+checkout_root
+        
+)
     
 def
 check_code_submission
