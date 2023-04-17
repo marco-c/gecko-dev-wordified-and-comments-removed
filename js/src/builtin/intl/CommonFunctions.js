@@ -2495,6 +2495,16 @@ if
 fallbackSymbol
 )
 {
+let
+Symbol
+=
+GetBuiltinConstructor
+(
+"
+Symbol
+"
+)
+;
 fallbackSymbol
 =
 Symbol

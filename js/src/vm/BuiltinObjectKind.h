@@ -53,10 +53,12 @@ uint8_t
 {
 Array
 ArrayBuffer
+Int32Array
 Iterator
 Promise
 RegExp
 SharedArrayBuffer
+Symbol
 FunctionPrototype
 ObjectPrototype
 RegExpPrototype
