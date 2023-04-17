@@ -2090,11 +2090,6 @@ GetWaylandDisplay
 (
 )
 ;
-bool
-WaylandSurfaceNeedsClear
-(
-)
-;
 virtual
 void
 CreateCompositorVsyncDispatcher
