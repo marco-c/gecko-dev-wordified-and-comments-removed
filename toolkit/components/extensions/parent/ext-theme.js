@@ -877,6 +877,11 @@ ntp_background
 :
 case
 "
+ntp_card_background
+"
+:
+case
+"
 ntp_text
 "
 :
