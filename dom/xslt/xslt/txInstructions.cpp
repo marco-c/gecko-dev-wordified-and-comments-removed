@@ -3315,8 +3315,6 @@ Expr
 aCaseOrderExpr
 )
 {
-if
-(
 SortKey
 *
 key
@@ -3326,8 +3324,7 @@ mSortKeys
 AppendElement
 (
 )
-)
-{
+;
 key
 -
 >
@@ -3395,10 +3392,6 @@ aCaseOrderExpr
 ;
 return
 NS_OK
-;
-}
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 nsresult
