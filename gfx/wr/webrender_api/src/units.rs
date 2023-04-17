@@ -831,6 +831,17 @@ PicturePixel
 ;
 pub
 type
+RasterPixelScale
+=
+Scale
+<
+f32
+PicturePixel
+RasterPixel
+>
+;
+pub
+type
 LayoutPointAu
 =
 Point2D

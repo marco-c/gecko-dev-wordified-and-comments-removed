@@ -2444,7 +2444,6 @@ spatial_tree
 .
 update_tree
 (
-global_device_pixel_scale
 scene_properties
 )
 ;

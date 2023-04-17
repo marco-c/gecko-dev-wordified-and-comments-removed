@@ -860,7 +860,6 @@ pub
 struct
 SpaceSnapper
 {
-pub
 ref_spatial_node_index
 :
 SpatialNodeIndex
@@ -873,10 +872,9 @@ Option
 <
 ScaleOffset
 >
-pub
-device_pixel_scale
+raster_pixel_scale
 :
-DevicePixelScale
+RasterPixelScale
 }
 impl
 SpaceSnapper
@@ -888,9 +886,9 @@ new
 ref_spatial_node_index
 :
 SpatialNodeIndex
-device_pixel_scale
+raster_pixel_scale
 :
-DevicePixelScale
+RasterPixelScale
 )
 -
 >
@@ -908,7 +906,7 @@ INVALID
 snapping_transform
 :
 None
-device_pixel_scale
+raster_pixel_scale
 }
 }
 pub
@@ -921,9 +919,9 @@ SpatialNodeIndex
 target_node_index
 :
 SpatialNodeIndex
-device_pixel_scale
+raster_pixel_scale
 :
-DevicePixelScale
+RasterPixelScale
 spatial_tree
 :
 &
@@ -949,7 +947,7 @@ INVALID
 snapping_transform
 :
 None
-device_pixel_scale
+raster_pixel_scale
 }
 ;
 snapper
@@ -1072,7 +1070,7 @@ scale
 (
 self
 .
-device_pixel_scale
+raster_pixel_scale
 .
 0
 )
