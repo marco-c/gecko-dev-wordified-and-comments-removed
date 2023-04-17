@@ -529,13 +529,7 @@ baseFont
 aUnscaledFont
 -
 >
-CGAxesCache
-(
-)
-aUnscaledFont
--
->
-CTAxesCache
+AxesCache
 (
 )
 vars
