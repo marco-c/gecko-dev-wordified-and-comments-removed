@@ -382,6 +382,11 @@ IsUnsigned
 bool
 ;
 using
+IsRemainder
+=
+bool
+;
+using
 NeedsBoundsCheck
 =
 bool
