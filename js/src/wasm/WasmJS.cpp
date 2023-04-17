@@ -9013,12 +9013,16 @@ UniqueDebugState
 maybeDebug
 )
 {
+Rooted
+<
 UniquePtr
 <
 ExportMap
 >
+>
 exports
-=
+(
+cx
 js
 :
 :
@@ -9032,6 +9036,7 @@ cx
 >
 zone
 (
+)
 )
 )
 ;

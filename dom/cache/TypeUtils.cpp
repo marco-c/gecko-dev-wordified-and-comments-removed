@@ -2967,6 +2967,15 @@ Failed
 )
 )
 ;
+RootedDictionary
+<
+RequestInit
+>
+requestInit
+(
+cx
+)
+;
 SafeRefPtr
 <
 Request
@@ -2980,9 +2989,7 @@ Constructor
 (
 global
 requestOrString
-RequestInit
-(
-)
+requestInit
 aRv
 )
 ;

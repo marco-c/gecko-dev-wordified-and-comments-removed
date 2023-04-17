@@ -2263,8 +2263,16 @@ ErrorResult
 aRv
 )
 {
+RootedDictionary
+<
 PushSubscriptionOptionsInit
+>
 options
+(
+RootingCx
+(
+)
+)
 ;
 return
 PerformSubscriptionActionFromWorker

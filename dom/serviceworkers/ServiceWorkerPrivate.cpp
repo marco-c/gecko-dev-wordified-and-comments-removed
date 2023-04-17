@@ -3543,8 +3543,14 @@ aWorkerPrivate
 mMessageId
 )
 ;
+RootedDictionary
+<
 PushEventInit
+>
 pei
+(
+aCx
+)
 ;
 if
 (
