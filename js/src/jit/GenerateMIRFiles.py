@@ -1593,7 +1593,10 @@ assertions
 for
 seen_type
 in
+sorted
+(
 seen_types
+)
 :
         
 assertions
