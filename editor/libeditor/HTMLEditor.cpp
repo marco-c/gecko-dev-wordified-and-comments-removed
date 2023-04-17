@@ -3829,7 +3829,7 @@ if
 (
 scanResultInTextNode
 .
-InNormalWhiteSpacesOrText
+InVisibleOrCollapsibleCharacters
 (
 )
 &

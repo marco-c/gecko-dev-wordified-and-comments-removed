@@ -6483,12 +6483,12 @@ IsCharASCIISpaceOrNBSP
 WSType
 :
 :
-NormalWhiteSpaces
+CollapsibleWhiteSpaces
 :
 WSType
 :
 :
-NormalText
+NonCollapsibleCharacters
 )
 ;
 }
@@ -6730,12 +6730,12 @@ IsCharASCIISpaceOrNBSP
 WSType
 :
 :
-NormalWhiteSpaces
+CollapsibleWhiteSpaces
 :
 WSType
 :
 :
-NormalText
+NonCollapsibleCharacters
 )
 ;
 }
@@ -7091,7 +7091,7 @@ ContainerAsContent
 !
 mStart
 .
-IsNormalText
+IsNonCollapsibleCharacters
 (
 )
 &
@@ -7099,7 +7099,7 @@ IsNormalText
 !
 mEnd
 .
-IsNormalText
+IsNonCollapsibleCharacters
 (
 )
 )
@@ -7314,7 +7314,7 @@ ContainerAsText
 WSType
 :
 :
-NormalText
+NonCollapsibleCharacters
 Preformatted
 :
 :
@@ -7424,7 +7424,7 @@ ContainerAsText
 WSType
 :
 :
-NormalText
+NonCollapsibleCharacters
 Preformatted
 :
 :
@@ -7682,7 +7682,7 @@ previousLeafContentOrBlock
 WSType
 :
 :
-NormalText
+NonCollapsibleCharacters
 Preformatted
 :
 :
@@ -7956,7 +7956,7 @@ ContainerAsText
 WSType
 :
 :
-NormalText
+NonCollapsibleCharacters
 Preformatted
 :
 :
@@ -8066,7 +8066,7 @@ ContainerAsText
 WSType
 :
 :
-NormalText
+NonCollapsibleCharacters
 Preformatted
 :
 :
@@ -8328,7 +8328,7 @@ nextLeafContentOrBlock
 WSType
 :
 :
-NormalText
+NonCollapsibleCharacters
 Preformatted
 :
 :
@@ -13750,7 +13750,7 @@ IsSet
 (
 visibleWhiteSpaces
 .
-StartsFromNormalText
+StartsFromNonCollapsibleCharacters
 (
 )
 |
@@ -13780,7 +13780,7 @@ followedByVisibleContentOrBRElement
 =
 visibleWhiteSpaces
 .
-EndsByNormalText
+EndsByNonCollapsibleCharacters
 (
 )
 |
@@ -14778,7 +14778,7 @@ if
 !
 visibleWhiteSpaces
 .
-StartsFromNormalText
+StartsFromNonCollapsibleCharacters
 (
 )
 &
@@ -15042,7 +15042,7 @@ if
 !
 visibleWhiteSpaces
 .
-EndsByNormalText
+EndsByNonCollapsibleCharacters
 (
 )
 &

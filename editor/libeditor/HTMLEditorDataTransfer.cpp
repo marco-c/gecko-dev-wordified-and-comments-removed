@@ -2273,7 +2273,7 @@ if
 (
 backwardScanFromPointToCaretResult
 .
-InNormalWhiteSpacesOrText
+InVisibleOrCollapsibleCharacters
 (
 )
 )
