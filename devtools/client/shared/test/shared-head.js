@@ -2127,7 +2127,9 @@ onTargetSwitched
 =
 toolbox
 .
-targetList
+commands
+.
+targetCommand
 .
 once
 (

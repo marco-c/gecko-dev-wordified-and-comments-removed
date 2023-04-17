@@ -212,9 +212,9 @@ initialize
 await
 this
 .
-_toolbox
+_commands
 .
-targetList
+targetCommand
 .
 watchTargets
 (
