@@ -2431,6 +2431,12 @@ TIPMessageHandler
 :
 sInstance
 ;
+}
+#
+endif
+namespace
+mozilla
+{
 class
 InitializeVirtualDesktopManagerTask
 :
@@ -2523,8 +2529,6 @@ true
 }
 ;
 }
-#
-endif
 nsWindow
 :
 :
