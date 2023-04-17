@@ -928,7 +928,7 @@ GetStringListInfo
 (
 )
 .
-mStringLists
+mValues
 [
 mAttrEnum
 ]

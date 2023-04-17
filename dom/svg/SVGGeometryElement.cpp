@@ -330,7 +330,7 @@ i
 <
 info
 .
-mLengthCount
+mCount
 ;
 i
 +
@@ -344,7 +344,7 @@ aName
 =
 info
 .
-mLengthInfo
+mInfos
 [
 i
 ]
@@ -397,7 +397,7 @@ i
 <
 info
 .
-mLengthCount
+mCount
 ;
 i
 +
@@ -408,7 +408,7 @@ if
 (
 info
 .
-mLengths
+mValues
 [
 i
 ]

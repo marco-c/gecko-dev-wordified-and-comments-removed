@@ -218,7 +218,7 @@ NS_ASSERTION
 (
 info
 .
-mEnumCount
+mCount
 >
 0
 &
@@ -227,7 +227,7 @@ mAttrEnum
 <
 info
 .
-mEnumCount
+mCount
 "
 mapping
 request
@@ -243,7 +243,7 @@ enum
 return
 info
 .
-mEnumInfo
+mInfos
 [
 mAttrEnum
 ]
