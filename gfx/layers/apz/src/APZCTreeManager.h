@@ -1589,6 +1589,13 @@ const
 HitTestingTreeNode
 *
 aNode
+const
+AsyncPanZoomController
+*
+*
+aOutSourceOfOverscrollTransform
+=
+nullptr
 )
 const
 ;
