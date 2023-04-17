@@ -6461,11 +6461,10 @@ attributes
 >
 SetAttribute
 (
-u
-"
+nsGkAtoms
+:
+:
 formatting
-"
-_ns
 nsGkAtoms
 :
 :

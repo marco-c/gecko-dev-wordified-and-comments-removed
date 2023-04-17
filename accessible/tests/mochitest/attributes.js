@@ -466,7 +466,7 @@ testAttrs
 (
 aAccOrElmOrID
 {
-hierarchical
+tree
 :
 "
 true
@@ -482,7 +482,7 @@ testAbsentAttrs
 (
 aAccOrElmOrID
 {
-hierarchical
+tree
 :
 "
 true
