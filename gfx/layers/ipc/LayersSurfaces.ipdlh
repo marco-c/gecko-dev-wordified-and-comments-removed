@@ -416,9 +416,6 @@ SurfaceDescriptorMacIOSurface
 uint32_t
 surfaceId
 ;
-double
-scaleFactor
-;
 bool
 isOpaque
 ;
