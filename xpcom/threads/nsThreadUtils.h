@@ -696,9 +696,6 @@ thread
 )
 ;
 }
-#
-ifdef
-MOZILLA_INTERNAL_API
 extern
 nsIThread
 *
@@ -723,8 +720,6 @@ char
 aName
 )
 ;
-#
-endif
 #
 ifndef
 XPCOM_GLUE_AVOID_NSPR
