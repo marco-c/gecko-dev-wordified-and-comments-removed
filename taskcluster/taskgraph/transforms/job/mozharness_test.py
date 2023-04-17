@@ -654,7 +654,6 @@ artifacts
 public
 /
 logs
-/
 "
 "
 {
@@ -704,7 +703,6 @@ run
 public
 /
 test_info
-/
 "
             
 "
