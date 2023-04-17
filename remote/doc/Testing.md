@@ -542,6 +542,8 @@ mainProcessTarget
 =
 RemoteAgent
 .
+cdp
+.
 targetList
 ;
 const
