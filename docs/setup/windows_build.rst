@@ -1181,6 +1181,13 @@ block
 :
 shell
 cd
+c
+:
+/
+mozilla
+-
+source
+/
 mozilla
 -
 unified
