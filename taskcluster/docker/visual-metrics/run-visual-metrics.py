@@ -112,6 +112,17 @@ type
 int
 )
     
+tags
+=
+attr
+.
+ib
+(
+type
+=
+str
+)
+    
 extra_options
 =
 attr
@@ -190,6 +201,17 @@ browsertime_json_path
 )
 :
 str
+                
+Required
+(
+"
+tags
+"
+)
+:
+[
+str
+]
                 
 Required
 (
@@ -815,6 +837,7 @@ suites
 test_name
 name
 result
+tags
 extra_options
 )
 :
@@ -1022,6 +1045,8 @@ tags
 "
 :
 extra_options
++
+tags
 +
 [
 "
@@ -1929,6 +1954,15 @@ test_name
 =
 name
                         
+tags
+=
+job
+[
+"
+tags
+"
+]
+                        
 extra_options
 =
 len
@@ -2109,12 +2143,21 @@ append_result
 (
                         
 log
+                        
 suites
+                        
 job
 .
 test_name
+                        
 name
+                        
 value
+                        
+job
+.
+tags
+                        
 job
 .
 extra_options
