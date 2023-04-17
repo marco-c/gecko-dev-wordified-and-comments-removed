@@ -5131,6 +5131,17 @@ aDocument
 )
 ;
 static
+nsPresContext
+*
+FindPresContextForDocument
+(
+const
+Document
+*
+aDocument
+)
+;
+static
 nsIWidget
 *
 WidgetForDocument
