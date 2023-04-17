@@ -2279,6 +2279,7 @@ element
 element
 .
 value
+?
 .
 trim
 (
