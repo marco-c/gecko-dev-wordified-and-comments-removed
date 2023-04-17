@@ -1523,9 +1523,6 @@ aItem
 ReferenceFrame
 (
 )
-Nothing
-(
-)
 nullptr
 )
 ;
