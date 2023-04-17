@@ -21398,7 +21398,8 @@ mInitCommonColors
 return
 ;
 }
-auto
+nsIFrame
+*
 bgFrame
 =
 nsCSSRendering
@@ -21412,8 +21413,6 @@ mFrame
 NS_ASSERTION
 (
 bgFrame
-.
-mFrame
 "
 Cannot
 find
@@ -21426,8 +21425,6 @@ nscolor
 bgColor
 =
 bgFrame
-.
-mFrame
 -
 >
 GetVisitedDependentColor
@@ -21494,8 +21491,11 @@ mFrame
 if
 (
 bgFrame
-.
-mIsThemed
+-
+>
+IsThemed
+(
+)
 )
 {
 mSufficientContrast
