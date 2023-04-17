@@ -3118,7 +3118,7 @@ throwCondition
 ThrowCondition
 :
 :
-NoThrow
+OnlyCheckRhs
 )
 ;
 MOZ_ASSERT
