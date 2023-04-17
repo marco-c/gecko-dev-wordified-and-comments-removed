@@ -4345,15 +4345,12 @@ aSpec
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIBlobURLMutator
 :
 :
 SetRevoked
 revoked
-)
 )
 .
 Finalize

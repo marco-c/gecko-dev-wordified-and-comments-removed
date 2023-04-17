@@ -372,15 +372,12 @@ Mutator
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsINestedURIMutator
 :
 :
 Init
 innerURI
-)
 )
 .
 SetSpec
