@@ -1035,12 +1035,6 @@ LoadingSessionHistoryInfo
 >
 &
 aLoadingInfo
-int32_t
-*
-aRequestedIndex
-int32_t
-*
-aLength
 )
 ;
 void

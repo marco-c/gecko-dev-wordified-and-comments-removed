@@ -960,13 +960,7 @@ mLoadIsFromSessionHistory
 false
 ;
 int32_t
-mRequestedIndex
-=
--
-1
-;
-int32_t
-mSessionHistoryLength
+mOffset
 =
 0
 ;

@@ -1185,9 +1185,7 @@ void
 SetLoadIsFromSessionHistory
 (
 int32_t
-aRequestedIndex
-int32_t
-aSessionHistoryLength
+aOffset
 bool
 aLoadingFromActiveEntry
 )
