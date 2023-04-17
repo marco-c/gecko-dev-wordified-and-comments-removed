@@ -571,6 +571,9 @@ neon
 "
 pop
 "
+"
+kali
+"
 )
 ADD_GIT_CINNABAR_PATH
 =
