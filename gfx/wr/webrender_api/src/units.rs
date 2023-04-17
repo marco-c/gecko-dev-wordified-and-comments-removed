@@ -611,6 +611,16 @@ WorldPixel
 ;
 pub
 type
+WorldIntRect
+=
+Rect
+<
+i32
+WorldPixel
+>
+;
+pub
+type
 WorldPoint
 =
 Point2D

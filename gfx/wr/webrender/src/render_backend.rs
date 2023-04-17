@@ -2904,19 +2904,6 @@ precise_time_ns
 (
 )
 ;
-let
-accumulated_scale_factor
-=
-DevicePixelScale
-:
-:
-new
-(
-1
-.
-0
-)
-;
 self
 .
 stamp
@@ -2982,7 +2969,6 @@ rg_builder
 self
 .
 stamp
-accumulated_scale_factor
 self
 .
 view
