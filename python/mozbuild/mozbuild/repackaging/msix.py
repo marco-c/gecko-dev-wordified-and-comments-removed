@@ -3181,7 +3181,7 @@ required
 "
 "
 set
-SIGNTOOL
+MAKEAPPX
 or
 WINDOWSSDKDIR
 or
