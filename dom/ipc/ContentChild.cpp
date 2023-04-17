@@ -6799,6 +6799,13 @@ StructuredCloneData
 aInitialData
 )
 {
+BackgroundChild
+:
+:
+Startup
+(
+)
+;
 #
 ifdef
 MOZ_WIDGET_GTK
