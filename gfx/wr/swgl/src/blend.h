@@ -921,10 +921,10 @@ color
 )
 {
 return
-muldiv256
+muldiv255
 (
-src
 color
+src
 )
 ;
 }
@@ -940,7 +940,7 @@ color
 )
 {
 return
-muldiv256
+applyColor
 (
 unpack
 (
@@ -974,9 +974,9 @@ pack_span
 (
 buf
 color
-256
+255
 .
-49f
+0f
 )
 ;
 }
@@ -2080,7 +2080,7 @@ nullptr
 static
 ALWAYS_INLINE
 WideR8
-expand_clip_mask
+expand_mask
 (
 UNUSED
 uint8_t
@@ -2097,7 +2097,7 @@ mask
 static
 ALWAYS_INLINE
 WideRGBA8
-expand_clip_mask
+expand_mask
 (
 UNUSED
 uint32_t
@@ -2174,7 +2174,7 @@ span
 >
 decltype
 (
-expand_clip_mask
+expand_mask
 (
 buf
 0
@@ -2182,7 +2182,7 @@ buf
 )
 {
 return
-expand_clip_mask
+expand_mask
 (
 buf
 unpack

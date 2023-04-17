@@ -3581,6 +3581,10 @@ webrender
 &
 &
 OSX
+&
+&
+!
+swgl
 1
 -
 1
@@ -11496,7 +11500,7 @@ webrender
 1
 0
 -
-96
+150
 )
 fuzzy
 -
