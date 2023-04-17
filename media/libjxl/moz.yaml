@@ -252,7 +252,7 @@ type
 vendoring
 enabled
 :
-True
+False
 vendoring
 :
 url
