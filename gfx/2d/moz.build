@@ -370,6 +370,11 @@ extra
 h
 "
 "
+DWriteSettings
+.
+h
+"
+"
 UnscaledFontDWrite
 .
 h
@@ -391,6 +396,11 @@ cpp
 "
 "
 DrawTargetD2D1
+.
+cpp
+"
+"
+DWriteSettings
 .
 cpp
 "
