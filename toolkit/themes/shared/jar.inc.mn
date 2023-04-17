@@ -2002,6 +2002,12 @@ expanded
 .
 svg
 )
+#
+if
+defined
+(
+NIGHTLY_BUILD
+)
 skin
 /
 classic
@@ -2032,6 +2038,8 @@ refresh
 .
 svg
 )
+#
+endif
 skin
 /
 classic
