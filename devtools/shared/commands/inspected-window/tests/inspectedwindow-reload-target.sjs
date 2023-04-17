@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 Components
 .
 utils
@@ -307,6 +312,7 @@ get
 frames
 "
 )
+10
 )
 ;
 let

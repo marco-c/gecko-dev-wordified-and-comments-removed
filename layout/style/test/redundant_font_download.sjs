@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 BinaryOutputStream
 =
@@ -180,7 +185,7 @@ request
 response
 )
 {
-var
+let
 query
 =
 {
@@ -204,7 +209,7 @@ function
 val
 )
 {
-var
+let
 [
 name
 value
@@ -278,7 +283,7 @@ plain
 false
 )
 ;
-var
+let
 log
 =
 getState
@@ -298,7 +303,7 @@ log
 "
 "
 ;
-var
+let
 stream
 =
 new
