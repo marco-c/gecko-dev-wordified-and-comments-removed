@@ -2417,10 +2417,10 @@ which
 ;
 #
 ifdef
-JS_CODEGEN_X64
+JS_64BIT
 inline
 void
-maskResultRegisters
+widenInt32ResultRegisters
 (
 ResultType
 type
