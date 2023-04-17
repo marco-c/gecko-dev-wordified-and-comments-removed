@@ -376,6 +376,8 @@ request
 PropTypes
 .
 object
+.
+isRequired
 sendCustomRequest
 :
 PropTypes
