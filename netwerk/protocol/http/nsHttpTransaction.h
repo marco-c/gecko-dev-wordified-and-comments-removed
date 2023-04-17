@@ -1027,6 +1027,8 @@ OnHttp3BackupTimer
 void
 OnBackupConnectionReady
 (
+bool
+aHTTPSRRUsed
 )
 ;
 void
