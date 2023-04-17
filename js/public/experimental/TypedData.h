@@ -690,6 +690,13 @@ class
 JS_PUBLIC_API
 ArrayBufferOrView
 {
+public
+:
+using
+DataType
+=
+uint8_t
+;
 protected
 :
 Heap
