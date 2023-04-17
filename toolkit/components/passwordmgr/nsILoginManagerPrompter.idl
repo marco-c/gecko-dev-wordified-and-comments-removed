@@ -63,13 +63,6 @@ nsISupports
 .
 idl
 "
-#
-include
-"
-nsIPromptInstance
-.
-idl
-"
 interface
 nsILoginInfo
 ;
@@ -239,7 +232,7 @@ passwords
 .
 *
 /
-nsIPromptInstance
+void
 promptToSavePassword
 (
 in
@@ -443,7 +436,7 @@ passwords
 .
 *
 /
-nsIPromptInstance
+void
 promptToChangePassword
 (
 in
@@ -616,7 +609,7 @@ called
 .
 *
 /
-nsIPromptInstance
+void
 promptToChangePasswordWithUsernames
 (
 in
