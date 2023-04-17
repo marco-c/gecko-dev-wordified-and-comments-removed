@@ -124,9 +124,6 @@ treeherder
 kind
 :
 test
-tier
-:
-2
 worker
 -
 type
@@ -261,6 +258,9 @@ remote
 (
 pup
 )
+tier
+:
+1
 run
 :
 using
@@ -401,6 +401,9 @@ pup
 -
 fis
 )
+tier
+:
+2
 run
 :
 using
