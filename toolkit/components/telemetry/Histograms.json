@@ -29610,6 +29610,9 @@ record_in_processes
 "
 main
 "
+"
+socket
+"
 ]
 "
 products
@@ -29645,7 +29648,7 @@ expires_in_version
 "
 :
 "
-96
+102
 "
 "
 releaseChannelCollection
@@ -29692,6 +29695,7 @@ bug_numbers
 :
 [
 1711154
+1736628
 ]
 }
 "
