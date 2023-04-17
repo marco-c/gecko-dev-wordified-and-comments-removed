@@ -634,6 +634,15 @@ return
 0
 ;
 }
+bool
+CPUFlagsHaveBeenComputed
+(
+)
+{
+return
+true
+;
+}
 void
 FlushICache
 (

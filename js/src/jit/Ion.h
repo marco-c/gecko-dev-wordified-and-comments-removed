@@ -706,6 +706,11 @@ return
 false
 ;
 }
+bool
+CPUFlagsHaveBeenComputed
+(
+)
+;
 }
 }
 #

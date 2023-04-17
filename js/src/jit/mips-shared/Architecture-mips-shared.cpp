@@ -390,6 +390,15 @@ check_r2
 )
 ;
 }
+bool
+CPUFlagsHaveBeenComputed
+(
+)
+{
+return
+true
+;
+}
 Registers
 :
 :
