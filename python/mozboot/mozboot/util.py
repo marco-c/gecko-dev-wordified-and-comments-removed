@@ -322,9 +322,6 @@ get_mach_virtualenv_root
 state_dir
 =
 None
-py2
-=
-False
 )
 :
     
@@ -335,7 +332,6 @@ path
 .
 join
 (
-        
 state_dir
 or
 get_state_dir
@@ -345,15 +341,8 @@ get_state_dir
 _virtualenvs
 "
 "
-mach_py2
-"
-if
-py2
-else
-"
 mach
 "
-    
 )
 def
 get_mach_virtualenv_binary
@@ -361,9 +350,6 @@ get_mach_virtualenv_binary
 state_dir
 =
 None
-py2
-=
-False
 )
 :
     
@@ -374,9 +360,6 @@ get_mach_virtualenv_root
 state_dir
 =
 state_dir
-py2
-=
-py2
 )
     
 return

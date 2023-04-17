@@ -553,12 +553,6 @@ None
     
 return
 ret
-find_python2_executable
-=
-_find_python_executable
-(
-2
-)
 find_python3_executable
 =
 _find_python_executable
