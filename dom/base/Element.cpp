@@ -6225,6 +6225,8 @@ return
 false
 ;
 }
+if
+(
 CustomElementData
 *
 ceData
@@ -6232,18 +6234,6 @@ ceData
 GetCustomElementData
 (
 )
-;
-if
-(
-StaticPrefs
-:
-:
-dom_webcomponents_formAssociatedCustomElement_enabled
-(
-)
-&
-&
-ceData
 )
 {
 CustomElementDefinition

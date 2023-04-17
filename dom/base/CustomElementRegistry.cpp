@@ -4159,7 +4159,7 @@ if
 StaticPrefs
 :
 :
-dom_webcomponents_formAssociatedCustomElement_enabled
+dom_webcomponents_disabledFeatures_enabled
 (
 )
 )
@@ -4222,6 +4222,17 @@ shadow
 )
 )
 ;
+}
+if
+(
+StaticPrefs
+:
+:
+dom_webcomponents_formAssociatedCustomElement_enabled
+(
+)
+)
+{
 JS
 :
 :
