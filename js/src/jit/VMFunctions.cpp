@@ -10807,7 +10807,10 @@ nobj
 >
 getGetterSetter
 (
+ShapeProperty
+(
 shape
+)
 )
 ;
 if
