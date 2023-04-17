@@ -855,7 +855,7 @@ headerTitle
 :
 "
 Manage
-Account
+account
 "
 headerDescription
 :
@@ -1705,7 +1705,7 @@ headerTitle
 :
 "
 Manage
-Account
+account
 "
 headerDescription
 :
