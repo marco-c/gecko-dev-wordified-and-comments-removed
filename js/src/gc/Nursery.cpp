@@ -6824,6 +6824,7 @@ pretenuringNursery
 doPretenuring
 (
 gc
+reason
 validPromotionRate
 promotionRate
 reportPretenuring_
