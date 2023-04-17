@@ -30,6 +30,13 @@ label
 ;
 pub
 use
+profiler_macros
+:
+:
+gecko_profiler_fn_label
+;
+pub
+use
 profiler_state
 :
 :
