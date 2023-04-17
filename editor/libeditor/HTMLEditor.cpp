@@ -23808,13 +23808,6 @@ IsEditActionDataAvailable
 )
 )
 ;
-MOZ_ASSERT
-(
-IsHTMLEditor
-(
-)
-)
-;
 if
 (
 NS_WARN_IF
