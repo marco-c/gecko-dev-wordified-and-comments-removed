@@ -7594,11 +7594,6 @@ effectiveContentProcessLevel
 =
 null
 ;
-let
-contentWin32kLockdownState
-=
-null
-;
 try
 {
 let
@@ -7634,12 +7629,6 @@ sandboxSettings
 .
 effectiveContentSandboxLevel
 ;
-contentWin32kLockdownState
-=
-sandboxSettings
-.
-contentWin32kLockdownState
-;
 }
 catch
 (
@@ -7650,7 +7639,6 @@ e
 return
 {
 effectiveContentProcessLevel
-contentWin32kLockdownState
 }
 ;
 }
