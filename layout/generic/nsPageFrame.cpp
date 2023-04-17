@@ -2140,7 +2140,9 @@ aCtx
 ToReferenceFrame
 (
 )
-false
+IsSubpixelAADisabled
+(
+)
 )
 ;
 }

@@ -3825,9 +3825,6 @@ nsImageRenderer
 FLAG_SYNC_DECODE_IMAGES
 ;
 }
-bool
-dummy
-;
 image
 :
 :
@@ -3857,11 +3854,8 @@ aStyleBorder
 aItem
 -
 >
-GetBounds
+GetPaintRect
 (
-aDisplayListBuilder
-&
-dummy
 )
 aForFrame
 -

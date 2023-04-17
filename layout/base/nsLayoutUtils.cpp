@@ -44483,11 +44483,7 @@ aContent
 const
 nsIFrame
 *
-aItemFrame
-const
-nsPoint
-&
-aOffsetToReferenceFrame
+aReferenceFrame
 WebRenderLayerManager
 *
 aLayerManager
@@ -45803,10 +45799,8 @@ frameForCompositionBoundsCalculation
 >
 GetOffsetToCrossDoc
 (
-aItemFrame
+aReferenceFrame
 )
-+
-aOffsetToReferenceFrame
 frameForCompositionBoundsCalculation
 -
 >
@@ -46533,11 +46527,10 @@ ComputeScrollMetadata
 frame
 rootScrollFrame
 content
-frame
 aBuilder
 -
 >
-ToReferenceFrame
+FindReferenceFrameFor
 (
 frame
 )

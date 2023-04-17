@@ -524,10 +524,6 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
-bool
-aNewClipList
-=
-true
 )
 ;
 void
