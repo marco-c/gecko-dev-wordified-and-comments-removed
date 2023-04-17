@@ -2312,8 +2312,7 @@ AudioChunk
 AppendAndConsumeChunk
 (
 AudioChunk
-&
-&
+*
 aChunk
 )
 {
@@ -2324,7 +2323,8 @@ chunk
 AppendChunk
 (
 aChunk
-.
+-
+>
 mDuration
 )
 ;
@@ -2339,7 +2339,8 @@ std
 move
 (
 aChunk
-.
+-
+>
 mBuffer
 )
 ;
@@ -2354,7 +2355,8 @@ std
 move
 (
 aChunk
-.
+-
+>
 mChannelData
 )
 ;
@@ -2367,7 +2369,8 @@ mBuffer
 |
 |
 aChunk
-.
+-
+>
 mChannelData
 .
 IsEmpty
@@ -2387,7 +2390,8 @@ chunk
 mVolume
 =
 aChunk
-.
+-
+>
 mVolume
 ;
 chunk
@@ -2396,7 +2400,8 @@ chunk
 mBufferFormat
 =
 aChunk
-.
+-
+>
 mBufferFormat
 ;
 chunk
@@ -2405,7 +2410,8 @@ chunk
 mPrincipalHandle
 =
 aChunk
-.
+-
+>
 mPrincipalHandle
 ;
 return
