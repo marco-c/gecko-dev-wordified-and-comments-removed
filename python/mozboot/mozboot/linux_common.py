@@ -115,49 +115,6 @@ LINUX_FIX_STACKS
         
 )
 class
-LucetcInstall
-(
-object
-)
-:
-    
-def
-__init__
-(
-self
-*
-*
-kwargs
-)
-:
-        
-pass
-    
-def
-ensure_lucetc_packages
-(
-self
-state_dir
-checkout_root
-)
-:
-        
-from
-mozboot
-import
-lucetc
-        
-self
-.
-install_toolchain_artifact
-(
-state_dir
-checkout_root
-lucetc
-.
-LINUX_LUCETC
-)
-class
 WasiSysrootInstall
 (
 object
@@ -675,8 +632,6 @@ LinuxBootstrapper
 ClangStaticAnalysisInstall
     
 FixStacksInstall
-    
-LucetcInstall
     
 MinidumpStackwalkInstall
     
