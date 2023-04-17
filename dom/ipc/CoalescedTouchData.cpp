@@ -143,14 +143,6 @@ aEvent
 mTouches
 )
 {
-if
-(
-touch
--
->
-mChanged
-)
-{
 RefPtr
 <
 Touch
@@ -167,6 +159,11 @@ Identifier
 )
 )
 ;
+MOZ_ASSERT
+(
+sameTouch
+)
+;
 sameTouch
 -
 >
@@ -175,7 +172,6 @@ SetSameAs
 touch
 )
 ;
-}
 }
 mCoalescedInputEvent
 -

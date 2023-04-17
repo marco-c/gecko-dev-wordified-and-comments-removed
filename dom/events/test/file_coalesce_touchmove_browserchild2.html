@@ -178,7 +178,7 @@ now
 (
 start
 +
-10
+5
 )
 )
 ;
@@ -1115,7 +1115,7 @@ return
 ret
 }
 function
-disableIPCCompression
+disableCoalescing
 (
 )
 {
@@ -1160,7 +1160,7 @@ false
 ;
 }
 function
-enableIPCCompression
+enableCoalescing
 (
 )
 {
@@ -1185,7 +1185,7 @@ compress
 .
 touchmove
 "
-true
+false
 ]
 [
 "
@@ -1197,7 +1197,7 @@ coalesce
 .
 touchmove
 "
-false
+true
 ]
 ]
 }
@@ -1221,7 +1221,7 @@ clientTop
 Flush
 layout
 await
-disableIPCCompression
+disableCoalescing
 (
 )
 ;
@@ -1234,7 +1234,7 @@ fireLotsOfSingleTouchMoves
 )
 ;
 await
-enableIPCCompression
+enableCoalescing
 (
 )
 ;
@@ -1333,7 +1333,7 @@ date
 )
 ;
 await
-disableIPCCompression
+disableCoalescing
 (
 )
 ;
@@ -1346,7 +1346,7 @@ fireTwoSingleTouches
 )
 ;
 await
-enableIPCCompression
+enableCoalescing
 (
 )
 ;
@@ -1398,7 +1398,7 @@ touchmove
 )
 ;
 await
-disableIPCCompression
+disableCoalescing
 (
 )
 ;
@@ -1411,7 +1411,7 @@ fireLotsOfMultiTouchMoves
 )
 ;
 await
-enableIPCCompression
+enableCoalescing
 (
 )
 ;
