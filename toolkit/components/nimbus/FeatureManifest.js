@@ -201,17 +201,6 @@ type
 "
 string
 "
-fallbackPref
-:
-"
-browser
-.
-urlbar
-.
-quicksuggest
-.
-scenario
-"
 description
 :
 "

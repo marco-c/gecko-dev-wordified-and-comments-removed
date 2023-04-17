@@ -434,7 +434,7 @@ async
 await
 UrlbarPrefs
 .
-maybeEnableOfflineQuickSuggest
+updateFirefoxSuggestScenario
 (
 )
 ;

@@ -8729,7 +8729,7 @@ init
 ;
 UrlbarPrefs
 .
-maybeEnableOfflineQuickSuggest
+updateFirefoxSuggestScenario
 (
 )
 ;
