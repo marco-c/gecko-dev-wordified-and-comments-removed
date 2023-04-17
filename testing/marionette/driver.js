@@ -1272,6 +1272,16 @@ curBrowser
 dialog
 )
 ;
+this
+.
+getActor
+(
+)
+.
+notifyDialogOpened
+(
+)
+;
 }
 else
 if
