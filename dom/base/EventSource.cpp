@@ -1329,7 +1329,6 @@ nsIInterfaceRequestor
 nsISupportsWeakReference
 nsIEventTarget
 nsIThreadRetargetableStreamListener
-nsITimerCallback
 )
 EventSourceImpl
 :

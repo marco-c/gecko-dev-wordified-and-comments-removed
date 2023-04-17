@@ -2987,7 +2987,6 @@ nsIStreamListener
 nsIRequestObserver
 nsIObserver
 nsISupportsWeakReference
-nsITimerCallback
 )
 PendingLookup
 :
