@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsStringFwd
+nsString
 .
 h
 "
