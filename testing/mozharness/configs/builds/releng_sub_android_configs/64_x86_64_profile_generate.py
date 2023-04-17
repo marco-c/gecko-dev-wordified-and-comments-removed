@@ -9,7 +9,7 @@ stage_platform
 "
 android
 -
-arm
+x86_64
 "
     
 "
@@ -27,7 +27,7 @@ mozconfigs
 /
 android
 -
-arm
+x86_64
 /
 profile
 -
