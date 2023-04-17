@@ -1,6 +1,19 @@
 extern
 crate
+mp4parse
+;
+extern
+crate
 mp4parse_capi
+;
+use
+mp4parse
+:
+:
+unstable
+:
+:
+Indice
 ;
 use
 mp4parse_capi
@@ -406,7 +419,7 @@ Ok
 let
 audio_indice_0
 =
-Mp4parseIndice
+Indice
 {
 start_offset
 :
@@ -451,7 +464,7 @@ true
 let
 audio_indice_215
 =
-Mp4parseIndice
+Indice
 {
 start_offset
 :
@@ -640,7 +653,7 @@ Ok
 let
 video_indice_291
 =
-Mp4parseIndice
+Indice
 {
 start_offset
 :
@@ -685,7 +698,7 @@ false
 let
 video_indice_292
 =
-Mp4parseIndice
+Indice
 {
 start_offset
 :
@@ -730,7 +743,7 @@ false
 let
 video_indice_295
 =
-Mp4parseIndice
+Indice
 {
 start_offset
 :
@@ -775,7 +788,7 @@ false
 let
 video_indice_296
 =
-Mp4parseIndice
+Indice
 {
 start_offset
 :
@@ -1181,7 +1194,7 @@ Ok
 let
 audio_indice_0
 =
-Mp4parseIndice
+Indice
 {
 start_offset
 :
@@ -1232,7 +1245,7 @@ true
 let
 audio_indice_1
 =
-Mp4parseIndice
+Indice
 {
 start_offset
 :
@@ -1280,7 +1293,7 @@ true
 let
 audio_indice_2
 =
-Mp4parseIndice
+Indice
 {
 start_offset
 :
@@ -1669,7 +1682,7 @@ Ok
 let
 video_indice_0
 =
-Mp4parseIndice
+Indice
 {
 start_offset
 :
@@ -1714,7 +1727,7 @@ true
 let
 video_indice_1
 =
-Mp4parseIndice
+Indice
 {
 start_offset
 :
@@ -1759,7 +1772,7 @@ false
 let
 video_indice_2
 =
-Mp4parseIndice
+Indice
 {
 start_offset
 :
@@ -1804,7 +1817,7 @@ false
 let
 video_indice_3
 =
-Mp4parseIndice
+Indice
 {
 start_offset
 :

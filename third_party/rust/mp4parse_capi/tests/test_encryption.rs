@@ -482,7 +482,7 @@ assert_eq
 protected_data
 .
 original_format
-OptionalFourCC
+OptionalFourCc
 :
 :
 Some
@@ -743,7 +743,7 @@ assert_eq
 protected_data
 .
 original_format
-OptionalFourCC
+OptionalFourCc
 :
 :
 Some
@@ -1185,7 +1185,7 @@ assert_eq
 protected_data
 .
 original_format
-OptionalFourCC
+OptionalFourCc
 :
 :
 Some
@@ -1653,7 +1653,7 @@ assert_eq
 protected_data
 .
 original_format
-OptionalFourCC
+OptionalFourCc
 :
 :
 None
@@ -2126,7 +2126,7 @@ assert_eq
 protected_data
 .
 original_format
-OptionalFourCC
+OptionalFourCc
 :
 :
 Some
