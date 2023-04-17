@@ -97,14 +97,6 @@ if
 dt
 -
 >
-IsDualDrawTarget
-(
-)
-|
-|
-dt
--
->
 IsTiledDrawTarget
 (
 )

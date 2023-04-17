@@ -924,11 +924,6 @@ DrawTargetCairo
 cpp
 "
 "
-DrawTargetDual
-.
-cpp
-"
-"
 DrawTargetOffset
 .
 cpp
