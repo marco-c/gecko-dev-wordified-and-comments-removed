@@ -492,9 +492,6 @@ Unit
 >
 class
 MOZ_STACK_CLASS
-frontend
-:
-:
 SourceAwareCompiler
 {
 protected
@@ -779,9 +776,6 @@ Unit
 >
 class
 MOZ_STACK_CLASS
-frontend
-:
-:
 ScriptCompiler
 :
 public
@@ -2758,9 +2752,6 @@ Unit
 >
 class
 MOZ_STACK_CLASS
-frontend
-:
-:
 ModuleCompiler
 final
 :
@@ -2867,9 +2858,6 @@ Unit
 >
 class
 MOZ_STACK_CLASS
-frontend
-:
-:
 StandaloneFunctionCompiler
 final
 :
@@ -3351,9 +3339,6 @@ typename
 Unit
 >
 bool
-frontend
-:
-:
 SourceAwareCompiler
 <
 Unit
@@ -3578,9 +3563,6 @@ typename
 Unit
 >
 bool
-frontend
-:
-:
 SourceAwareCompiler
 <
 Unit
@@ -3621,9 +3603,6 @@ typename
 Unit
 >
 void
-frontend
-:
-:
 SourceAwareCompiler
 <
 Unit
@@ -3717,9 +3696,6 @@ typename
 Unit
 >
 bool
-frontend
-:
-:
 ScriptCompiler
 <
 Unit
@@ -3952,9 +3928,6 @@ typename
 Unit
 >
 bool
-frontend
-:
-:
 ModuleCompiler
 <
 Unit
@@ -4177,9 +4150,6 @@ Unit
 >
 FunctionNode
 *
-frontend
-:
-:
 StandaloneFunctionCompiler
 <
 Unit
@@ -4302,9 +4272,6 @@ typename
 Unit
 >
 bool
-frontend
-:
-:
 StandaloneFunctionCompiler
 <
 Unit
