@@ -284,8 +284,12 @@ toolbar_text
 "
 :
 "
-#
-BFBFC9
+rgb
+(
+251
+251
+254
+)
 "
 "
 ntp_background
