@@ -56,6 +56,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsTHashSet
+.
+h
+"
 namespace
 mozilla
 {
@@ -709,6 +716,13 @@ Element
 *
 >
 mObservationTargets
+;
+nsTHashSet
+<
+Element
+*
+>
+mObservationTargetSet
 ;
 nsTArray
 <
