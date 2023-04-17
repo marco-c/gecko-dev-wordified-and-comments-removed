@@ -9968,9 +9968,10 @@ JSLinearString
 *
 str
 =
-JSID_TO_ATOM
-(
 propid
+.
+toAtom
+(
 )
 )
 {

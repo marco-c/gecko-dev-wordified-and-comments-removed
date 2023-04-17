@@ -1091,9 +1091,10 @@ id
 {
 checkAtom
 (
-JSID_TO_ATOM
-(
 id
+.
+toAtom
+(
 )
 argIndex
 )

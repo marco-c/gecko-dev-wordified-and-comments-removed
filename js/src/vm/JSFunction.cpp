@@ -2376,9 +2376,10 @@ JSAtom
 *
 atom
 =
-JSID_TO_ATOM
-(
 id
+.
+toAtom
+(
 )
 ;
 return
@@ -11548,9 +11549,10 @@ None
 )
 {
 return
-JSID_TO_ATOM
-(
 id
+.
+toAtom
+(
 )
 ;
 }
