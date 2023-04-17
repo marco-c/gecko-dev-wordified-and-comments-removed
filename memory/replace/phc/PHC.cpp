@@ -3747,7 +3747,6 @@ return
 else
 if
 (
-!
 mmap
 (
 pagePtr
@@ -3762,6 +3761,9 @@ MAP_ANON
 1
 0
 )
+=
+=
+MAP_FAILED
 )
 {
 return
