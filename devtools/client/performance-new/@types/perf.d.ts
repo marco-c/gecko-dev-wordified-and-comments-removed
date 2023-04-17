@@ -88,19 +88,6 @@ client
 any
 ;
 }
-type
-MaybePromise
-<
-T
->
-=
-Promise
-<
-T
->
-|
-T
-;
 export
 interface
 PerfFront
@@ -114,7 +101,7 @@ RecordingSettings
 )
 =
 >
-MaybePromise
+Promise
 <
 boolean
 >
@@ -136,7 +123,7 @@ stopProfilerAndDiscardProfile
 )
 =
 >
-MaybePromise
+Promise
 <
 void
 >
@@ -174,7 +161,7 @@ isActive
 )
 =
 >
-MaybePromise
+Promise
 <
 boolean
 >
@@ -185,7 +172,7 @@ isSupportedPlatform
 )
 =
 >
-MaybePromise
+Promise
 <
 boolean
 >
@@ -196,7 +183,7 @@ isLockedForPrivateBrowsing
 )
 =
 >
-MaybePromise
+Promise
 <
 boolean
 >
@@ -251,7 +238,7 @@ getSupportedFeatures
 )
 =
 >
-MaybePromise
+Promise
 <
 string
 [
