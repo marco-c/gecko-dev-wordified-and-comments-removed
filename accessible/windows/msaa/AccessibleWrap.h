@@ -224,9 +224,13 @@ InvalidateHandlers
 (
 )
 ;
+static
 bool
 DispatchTextChangeToHandler
 (
+Accessible
+*
+aAcc
 bool
 aIsInsert
 const
