@@ -2862,6 +2862,13 @@ cpp
 "
 vm
 /
+PropertyDescriptor
+.
+cpp
+"
+"
+vm
+/
 PropMap
 .
 cpp

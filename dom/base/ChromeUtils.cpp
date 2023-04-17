@@ -28,6 +28,15 @@ include
 "
 js
 /
+PropertyDescriptor
+.
+h
+"
+#
+include
+"
+js
+/
 SavedFrameAPI
 .
 h

@@ -53,6 +53,15 @@ include
 "
 js
 /
+PropertyDescriptor
+.
+h
+"
+#
+include
+"
+js
+/
 PropertySpec
 .
 h

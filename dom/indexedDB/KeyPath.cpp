@@ -45,6 +45,15 @@ h
 #
 include
 "
+js
+/
+PropertyDescriptor
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ResultExtensions

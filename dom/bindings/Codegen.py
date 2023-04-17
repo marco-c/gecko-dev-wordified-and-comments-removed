@@ -108817,6 +108817,19 @@ h
 =
 True
         
+bindingHeaders
+[
+"
+js
+/
+PropertyDescriptor
+.
+h
+"
+]
+=
+True
+        
 def
 descriptorDeprecated
 (
