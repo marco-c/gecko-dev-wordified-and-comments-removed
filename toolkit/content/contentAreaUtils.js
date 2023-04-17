@@ -3559,17 +3559,6 @@ e
 if
 (
 docTitle
-&
-&
-aURI
-?
-.
-scheme
-!
-=
-"
-data
-"
 )
 {
 return
