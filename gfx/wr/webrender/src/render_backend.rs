@@ -2766,7 +2766,7 @@ reset_properties
 FrameMsg
 :
 :
-UpdateDynamicProperties
+AppendDynamicProperties
 (
 property_bindings
 )
@@ -2777,7 +2777,7 @@ self
 .
 dynamic_properties
 .
-set_properties
+add_properties
 (
 property_bindings
 )
