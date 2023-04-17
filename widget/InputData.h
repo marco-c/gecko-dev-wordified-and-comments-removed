@@ -565,6 +565,10 @@ ToWidgetEvent
 nsIWidget
 *
 aWidget
+uint16_t
+aInputSource
+=
+5
 )
 const
 ;

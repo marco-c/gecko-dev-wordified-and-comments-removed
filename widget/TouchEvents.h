@@ -515,6 +515,12 @@ aOther
 mWidget
 eTouchEventClass
 )
+mInputSource
+(
+aOther
+.
+mInputSource
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -670,6 +676,11 @@ result
 TouchArray
 mTouches
 ;
+uint16_t
+mInputSource
+=
+5
+;
 void
 AssignTouchEventData
 (
@@ -704,6 +715,12 @@ aEvent
 .
 mTouches
 )
+;
+mInputSource
+=
+aEvent
+.
+mInputSource
 ;
 }
 }
