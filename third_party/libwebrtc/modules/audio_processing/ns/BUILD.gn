@@ -276,7 +276,7 @@ if
 rtc_build_with_neon
 &
 &
-current_cpu
+target_cpu
 !
 =
 "

@@ -175,7 +175,7 @@ gni
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -183,7 +183,7 @@ arm
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -788,7 +788,7 @@ _64
 .
 using_mismatched_sample_profile
 =
-current_cpu
+target_cpu
 !
 =
 "
@@ -796,7 +796,7 @@ x64
 "
 &
 &
-current_cpu
+target_cpu
 !
 =
 "
@@ -1191,7 +1191,7 @@ overhead
 .
 enable_frame_pointers
 =
-current_cpu
+target_cpu
 !
 =
 "
@@ -1235,7 +1235,7 @@ pointers
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1283,7 +1283,7 @@ com
 391706
 )
 .
-current_cpu
+target_cpu
 =
 =
 "
@@ -1333,7 +1333,7 @@ unwind
 tables
 .
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1477,7 +1477,7 @@ can_unwind_with_frame_pointers
 enable_frame_pointers
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1604,7 +1604,7 @@ is_component_build
 enable_frame_pointers
 &
 &
-current_cpu
+target_cpu
 =
 =
 "
@@ -1654,7 +1654,7 @@ is_android
 is_component_build
 &
 &
-current_cpu
+target_cpu
 =
 =
 "
@@ -1717,7 +1717,7 @@ is_linux
 &
 &
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1725,7 +1725,7 @@ arm
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -1741,7 +1741,7 @@ is_linux
 &
 &
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1749,7 +1749,7 @@ x64
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -1757,7 +1757,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -1765,7 +1765,7 @@ arm
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -1773,7 +1773,7 @@ arm64
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -1781,7 +1781,7 @@ mipsel
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -1796,7 +1796,7 @@ is_android
 &
 &
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1804,7 +1804,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -1812,7 +1812,7 @@ x64
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -1820,7 +1820,7 @@ arm
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "

@@ -351,7 +351,7 @@ output_name
 _all_target_cpu
 =
 [
-current_cpu
+target_cpu
 ]
 +
 additional_target_cpus
@@ -4050,7 +4050,7 @@ output_dir
 "
 target_out_dir
 /
-current_cpu
+target_cpu
 "
 }
 if
@@ -7303,7 +7303,7 @@ output_dir
 "
 target_out_dir
 /
-current_cpu
+target_cpu
 "
 }
 if
@@ -8891,7 +8891,7 @@ output_dir
 "
 target_out_dir
 /
-current_cpu
+target_cpu
 "
 output_name
 =

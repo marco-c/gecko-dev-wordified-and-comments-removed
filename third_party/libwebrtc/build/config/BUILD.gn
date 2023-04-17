@@ -1233,7 +1233,7 @@ is_chromeos
 )
 &
 &
-current_cpu
+target_cpu
 =
 =
 "

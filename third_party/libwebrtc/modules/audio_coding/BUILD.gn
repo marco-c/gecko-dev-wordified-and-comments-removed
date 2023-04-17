@@ -4369,7 +4369,7 @@ sources
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -5138,7 +5138,7 @@ flag
 :
 if
 (
-current_cpu
+target_cpu
 !
 =
 "
@@ -5176,7 +5176,7 @@ neon
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -5233,7 +5233,7 @@ isac_fix_c_arm_asm
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -5517,7 +5517,7 @@ c
 ]
 if
 (
-current_cpu
+target_cpu
 !
 =
 "
@@ -9620,7 +9620,7 @@ webrtc_opus
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "

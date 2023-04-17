@@ -543,7 +543,7 @@ sysroot
 -
 a
 "
-current_cpu
+target_cpu
 ]
 }
 if

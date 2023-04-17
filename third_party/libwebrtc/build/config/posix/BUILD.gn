@@ -314,7 +314,7 @@ print
 -
 hash
 =
-current_cpu
+target_cpu
 "
 ]
 "

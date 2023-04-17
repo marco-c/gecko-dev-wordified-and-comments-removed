@@ -216,7 +216,7 @@ isac_config
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -285,7 +285,7 @@ isac_config
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -331,7 +331,7 @@ visibility
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "

@@ -283,7 +283,7 @@ use_order_profiling
 )
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -300,7 +300,7 @@ x86
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -349,7 +349,7 @@ v7a
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -366,7 +366,7 @@ mips
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -383,7 +383,7 @@ x86_64
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -402,7 +402,7 @@ v8a
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -428,7 +428,7 @@ ABI
 :
 "
 +
-current_cpu
+target_cpu
 )
 }
 if

@@ -2237,7 +2237,7 @@ C
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2264,7 +2264,7 @@ WEBRTC_HAS_NEON
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2314,7 +2314,7 @@ WEBRTC_HAS_NEON
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "

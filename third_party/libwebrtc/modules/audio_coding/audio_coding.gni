@@ -158,7 +158,7 @@ WEBRTC_OPUS_SUPPORT_120MS_PTIME
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "

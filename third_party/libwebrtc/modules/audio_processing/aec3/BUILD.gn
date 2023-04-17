@@ -641,7 +641,7 @@ if
 rtc_build_with_neon
 &
 &
-current_cpu
+target_cpu
 !
 =
 "
@@ -933,7 +933,7 @@ optional
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -941,7 +941,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -1507,7 +1507,7 @@ arch
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1515,7 +1515,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "

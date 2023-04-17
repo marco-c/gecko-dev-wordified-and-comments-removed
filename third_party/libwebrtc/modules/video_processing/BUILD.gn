@@ -97,7 +97,7 @@ gni
 )
 build_video_processing_sse2
 =
-current_cpu
+target_cpu
 =
 =
 "
@@ -105,7 +105,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -549,7 +549,7 @@ denoiser_filter
 ]
 if
 (
-current_cpu
+target_cpu
 !
 =
 "

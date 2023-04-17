@@ -599,7 +599,7 @@ type_library_file
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -623,7 +623,7 @@ win32
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -647,7 +647,7 @@ x64
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "

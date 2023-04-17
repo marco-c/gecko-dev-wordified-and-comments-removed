@@ -87,7 +87,7 @@ cxx
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 "
 ppc64

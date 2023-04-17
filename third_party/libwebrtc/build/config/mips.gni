@@ -53,7 +53,7 @@ are
 primarily
 relevant
 in
-current_cpu
+target_cpu
 =
 =
 "
@@ -116,7 +116,7 @@ false
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -124,7 +124,7 @@ mipsel
 "
 |
 |
-v8_current_cpu
+v8_target_cpu
 =
 =
 "
@@ -132,7 +132,7 @@ mipsel
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -140,7 +140,7 @@ mips
 "
 |
 |
-v8_current_cpu
+v8_target_cpu
 =
 =
 "
@@ -321,7 +321,7 @@ fp32
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -329,7 +329,7 @@ mips64el
 "
 |
 |
-v8_current_cpu
+v8_target_cpu
 =
 =
 "
@@ -337,7 +337,7 @@ mips64el
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -345,7 +345,7 @@ mips64
 "
 |
 |
-v8_current_cpu
+v8_target_cpu
 =
 =
 "

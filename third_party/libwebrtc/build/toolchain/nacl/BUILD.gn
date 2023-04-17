@@ -634,7 +634,7 @@ toolchain_args
 is_clang
 =
 true
-current_cpu
+target_cpu
 =
 "
 pnacl
@@ -949,7 +949,7 @@ toolsuffix
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 toolchain_cpu
 is_clang
@@ -1234,7 +1234,7 @@ toolsuffix
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 toolchain_cpu
 is_clang
@@ -1495,7 +1495,7 @@ readelf
 toolchain_args
 =
 {
-current_cpu
+target_cpu
 =
 toolchain_cpu
 is_clang

@@ -142,7 +142,7 @@ gni
 )
 use_desktop_capture_differ_sse2
 =
-current_cpu
+target_cpu
 =
 =
 "
@@ -150,7 +150,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "

@@ -4314,7 +4314,7 @@ srcjar
 "
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -4322,7 +4322,7 @@ arm
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -4339,7 +4339,7 @@ CPU_FAMILY_ARM
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -4347,7 +4347,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -4364,7 +4364,7 @@ CPU_FAMILY_X86
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -4372,7 +4372,7 @@ mipsel
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "

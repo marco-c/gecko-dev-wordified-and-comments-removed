@@ -109,7 +109,7 @@ chrome
 .
 breakpad
 .
-current_cpu
+target_cpu
 "
 template
 (

@@ -171,7 +171,7 @@ calculated
 .
 use_sysroot
 =
-current_cpu
+target_cpu
 =
 =
 "
@@ -179,7 +179,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -187,7 +187,7 @@ x64
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -195,7 +195,7 @@ arm
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -203,7 +203,7 @@ arm64
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -211,7 +211,7 @@ mipsel
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -235,7 +235,7 @@ current_os
 target_os
 &
 &
-current_cpu
+target_cpu
 =
 =
 target_cpu
@@ -327,7 +327,7 @@ runhooks
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -348,7 +348,7 @@ sysroot
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -369,7 +369,7 @@ sysroot
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -390,7 +390,7 @@ sysroot
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -411,7 +411,7 @@ sysroot
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -432,7 +432,7 @@ sysroot
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -477,7 +477,7 @@ sysroot
 {
 _script_arch
 =
-current_cpu
+target_cpu
 if
 (
 _script_arch
@@ -635,7 +635,7 @@ is_fuchsia
 {
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -643,7 +643,7 @@ arm64
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -666,7 +666,7 @@ sdk
 /
 arch
 /
-current_cpu
+target_cpu
 /
 sysroot
 "

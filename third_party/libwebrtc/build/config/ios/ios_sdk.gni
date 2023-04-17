@@ -603,7 +603,7 @@ additional_target_cpus
 )
 use_ios_simulator
 =
-current_cpu
+target_cpu
 =
 =
 "
@@ -611,7 +611,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "

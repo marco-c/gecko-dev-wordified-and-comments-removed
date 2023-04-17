@@ -171,7 +171,7 @@ if
 is_android
 &
 &
-current_cpu
+target_cpu
 =
 =
 "
@@ -204,7 +204,7 @@ if
 is_android
 &
 &
-current_cpu
+target_cpu
 !
 =
 "
@@ -1307,7 +1307,7 @@ optimize_max
 }
 if
 (
-current_cpu
+target_cpu
 !
 =
 "

@@ -1673,7 +1673,7 @@ is_hwasan
 is_android
 &
 &
-current_cpu
+target_cpu
 =
 =
 "
@@ -1706,7 +1706,7 @@ is_chromeos
 )
 &
 &
-current_cpu
+target_cpu
 =
 =
 "

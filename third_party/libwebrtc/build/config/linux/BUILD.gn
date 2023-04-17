@@ -329,7 +329,7 @@ target
 use_custom_libcxx
 |
 |
-current_cpu
+target_cpu
 =
 =
 "

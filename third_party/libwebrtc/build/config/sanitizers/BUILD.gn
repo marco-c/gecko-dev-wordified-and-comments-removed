@@ -401,7 +401,7 @@ is_win
 is_asan
 &
 &
-current_cpu
+target_cpu
 =
 =
 "
@@ -486,7 +486,7 @@ if
 is_win
 &
 &
-current_cpu
+target_cpu
 =
 =
 "
@@ -1526,7 +1526,7 @@ build
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1567,7 +1567,7 @@ else
 {
 assert
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -1610,7 +1610,7 @@ use_libfuzzer
 {
 assert
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2049,7 +2049,7 @@ is_component_build
 {
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2078,7 +2078,7 @@ else
 {
 assert
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2130,7 +2130,7 @@ is_component_build
 {
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2156,7 +2156,7 @@ else
 {
 assert
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -2647,7 +2647,7 @@ blocks
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "

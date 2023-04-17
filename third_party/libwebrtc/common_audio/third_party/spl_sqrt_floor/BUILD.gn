@@ -142,7 +142,7 @@ deps
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -185,7 +185,7 @@ asm_defines
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "

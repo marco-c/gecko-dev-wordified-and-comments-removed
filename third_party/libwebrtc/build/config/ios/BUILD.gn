@@ -350,7 +350,7 @@ architecture
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -392,7 +392,7 @@ simulator
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -434,7 +434,7 @@ simulator
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -442,7 +442,7 @@ armv7
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -482,7 +482,7 @@ ios_deployment_target
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "

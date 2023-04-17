@@ -272,7 +272,7 @@ resolved
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -511,7 +511,7 @@ creation
 .
 if
 (
-current_cpu
+target_cpu
 !
 =
 "
@@ -519,7 +519,7 @@ x86
 "
 &
 &
-current_cpu
+target_cpu
 !
 =
 "
@@ -554,7 +554,7 @@ root_build_dir
 ]
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -612,7 +612,7 @@ instead
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -723,7 +723,7 @@ executables
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -785,13 +785,13 @@ glibc_tc
 }
 _
 {
-current_cpu
+target_cpu
 }
 "
 )
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -931,7 +931,7 @@ if
 is_nacl_glibc
 &
 &
-current_cpu
+target_cpu
 =
 =
 "
@@ -1130,12 +1130,12 @@ use
 target_cpu
 rather
 than
-current_cpu
+target_cpu
 on
 purpose
 because
 #
-current_cpu
+target_cpu
 is
 always
 going

@@ -101,7 +101,7 @@ is_nacl_glibc
 {
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -109,7 +109,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -126,7 +126,7 @@ nacl_x86_glibc
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -151,7 +151,7 @@ pnacl_newlib
 }
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -168,7 +168,7 @@ pnacl
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -176,7 +176,7 @@ x86
 "
 |
 |
-current_cpu
+target_cpu
 =
 =
 "
@@ -195,7 +195,7 @@ nacl
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -214,7 +214,7 @@ nacl
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "

@@ -164,7 +164,7 @@ architecture
 .
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -188,7 +188,7 @@ x86_64
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -212,7 +212,7 @@ i386
 else
 if
 (
-current_cpu
+target_cpu
 =
 =
 "
@@ -228,7 +228,7 @@ common_mac_flags
 -
 arch
 "
-current_cpu
+target_cpu
 #
 The
 baseline
@@ -368,8 +368,8 @@ assert
 false
 "
 unknown
-current_cpu
-current_cpu
+target_cpu
+target_cpu
 "
 )
 }

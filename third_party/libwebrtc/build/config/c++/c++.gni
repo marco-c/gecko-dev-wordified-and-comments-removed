@@ -420,7 +420,7 @@ use_custom_libcxx
 use_custom_libcxx_for_host
 &
 &
-current_cpu
+target_cpu
 =
 =
 host_cpu
