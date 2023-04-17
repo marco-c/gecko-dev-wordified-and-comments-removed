@@ -423,7 +423,6 @@ pub
 struct
 PrefFile
 {
-pub
 path
 :
 PathBuf

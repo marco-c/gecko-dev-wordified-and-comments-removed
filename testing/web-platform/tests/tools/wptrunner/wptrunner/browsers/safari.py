@@ -237,8 +237,10 @@ executor_kwargs
 (
 logger
 test_type
-test_environment
+server_config
+cache_manager
 run_info_data
+                    
 *
 *
 kwargs
@@ -250,7 +252,9 @@ executor_kwargs
 base_executor_kwargs
 (
 test_type
-test_environment
+server_config
+                                           
+cache_manager
 run_info_data
 *
 *

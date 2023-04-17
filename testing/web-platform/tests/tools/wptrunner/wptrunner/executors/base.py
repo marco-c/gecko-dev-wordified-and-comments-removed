@@ -60,8 +60,10 @@ def
 executor_kwargs
 (
 test_type
-test_environment
+server_config
+cache_manager
 run_info_data
+                    
 *
 *
 kwargs
@@ -94,9 +96,7 @@ executor_kwargs
 server_config
 "
 :
-test_environment
-.
-config
+server_config
                        
 "
 timeout_multiplier
@@ -138,8 +138,6 @@ screenshot_cache
 "
 ]
 =
-test_environment
-.
 cache_manager
 .
 dict
@@ -4310,6 +4308,12 @@ session_config
 timeout
 =
 timeout
+                                
+environ
+=
+self
+.
+environ
 )
     
 def
@@ -4795,29 +4799,6 @@ self
 server
 =
 None
-        
-self
-.
-environ
-=
-os
-.
-environ
-.
-copy
-(
-)
-        
-self
-.
-environ
-.
-update
-(
-executor
-.
-environ
-)
     
 def
 connect
@@ -4865,12 +4846,6 @@ args
 self
 .
 webdriver_args
-            
-env
-=
-self
-.
-environ
 )
         
 self

@@ -1333,21 +1333,12 @@ host
 port
 =
 None
-env
-=
-None
 args
 =
 None
 )
 :
         
-if
-env
-is
-None
-:
-            
 env
 =
 os
@@ -1387,7 +1378,10 @@ port
                                  
 env
 =
+cast_env
+(
 env
+)
                                  
 args
 =
@@ -1607,7 +1601,10 @@ port
                                  
 env
 =
+cast_env
+(
 env
+)
                                  
 args
 =
