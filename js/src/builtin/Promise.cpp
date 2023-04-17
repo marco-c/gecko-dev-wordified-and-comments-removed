@@ -17280,15 +17280,14 @@ false
 if
 (
 createDependent
-=
+!
 =
 CreateDependentPromise
 :
 :
 Always
-|
-|
-!
+&
+&
 IsNativeFunction
 (
 C
@@ -17296,6 +17295,10 @@ PromiseConstructor
 )
 )
 {
+return
+true
+;
+}
 if
 (
 !
@@ -17417,7 +17420,6 @@ PromiseObject
 )
 )
 ;
-}
 }
 return
 true
