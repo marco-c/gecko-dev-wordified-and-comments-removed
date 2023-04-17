@@ -1579,6 +1579,14 @@ ext
 .
 h
 "
+or
+ext
+=
+=
+"
+.
+inc
+"
 :
                 
 continue
