@@ -2993,6 +2993,11 @@ ComputeCrossOriginOpenerPolicyMismatch
 )
 ;
 nsresult
+ProcessCrossOriginSecurityHeaders
+(
+)
+;
+nsresult
 ValidateMIMEType
 (
 )
