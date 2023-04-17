@@ -245,13 +245,7 @@ false
 ;
 SetPermitSubpixelAA
 (
-!
-aItem
--
->
-IsSubpixelAADisabled
-(
-)
+true
 )
 ;
 auto
