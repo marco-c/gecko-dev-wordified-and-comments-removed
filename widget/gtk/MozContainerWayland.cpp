@@ -202,15 +202,6 @@ container
 ;
 static
 void
-moz_container_wayland_set_scale_factor_locked
-(
-MozContainer
-*
-container
-)
-;
-static
-void
 moz_container_wayland_set_opaque_region_locked
 (
 MozContainer
@@ -2174,7 +2165,6 @@ container
 ;
 }
 }
-static
 void
 moz_container_wayland_set_scale_factor_locked
 (
@@ -2891,11 +2881,6 @@ container_lock
 >
 Lock
 (
-)
-;
-moz_container_wayland_set_scale_factor_locked
-(
-container
 )
 ;
 return

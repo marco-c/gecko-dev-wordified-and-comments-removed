@@ -258,6 +258,14 @@ container
 )
 ;
 void
+moz_container_wayland_set_scale_factor_locked
+(
+MozContainer
+*
+container
+)
+;
+void
 moz_container_wayland_add_initial_draw_callback
 (
 MozContainer
