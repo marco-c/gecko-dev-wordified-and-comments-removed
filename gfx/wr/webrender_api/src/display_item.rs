@@ -1334,10 +1334,6 @@ font
 :
 GlyphOptions
 >
-pub
-reference_frame_relative_offset
-:
-LayoutVector2D
 }
 #
 [
@@ -2382,10 +2378,6 @@ pub
 gradient
 :
 Gradient
-pub
-unsnapped_rect
-:
-LayoutRect
 }
 #
 [
@@ -2685,10 +2677,6 @@ pub
 tile_spacing
 :
 LayoutSize
-pub
-unsnapped_rect
-:
-LayoutRect
 }
 #
 [
@@ -2728,10 +2716,6 @@ pub
 tile_spacing
 :
 LayoutSize
-pub
-unsnapped_rect
-:
-LayoutRect
 }
 #
 [
@@ -5419,10 +5403,6 @@ pub
 color
 :
 ColorF
-pub
-unsnapped_rect
-:
-LayoutRect
 }
 #
 [
