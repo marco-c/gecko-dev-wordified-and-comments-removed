@@ -693,7 +693,7 @@ triggerAutofillAndCheckProfile
 profile
 )
 {
-const
+let
 adaptedProfile
 =
 _getAdaptedProfile
