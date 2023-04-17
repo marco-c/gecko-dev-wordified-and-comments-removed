@@ -665,10 +665,12 @@ allowNonFqdn
 )
 )
 )
+{
 allowNonFqdn
 =
 false
 ;
+}
 if
 (
 allowNonFqdn
