@@ -907,6 +907,12 @@ lock
 mMutex
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+!
+mIsBackgroundDelayedRunnablesCanceled
+)
+;
 RefPtr
 <
 TaskQueue
