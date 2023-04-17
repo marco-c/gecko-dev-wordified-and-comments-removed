@@ -336,7 +336,7 @@ tutorial
 in
 \
 '
-GLParseRegistryXML
+GLConsts
 .
 py
 \
