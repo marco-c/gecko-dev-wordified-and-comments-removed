@@ -2521,7 +2521,7 @@ NS_ASSERTION
 *
 aLastFocusMethod
 &
-METHOD_MASK
+FOCUSMETHOD_MASK
 )
 =
 =
@@ -2798,7 +2798,7 @@ MOVEFOCUS_CARET
 (
 aFlags
 &
-METHOD_MASK
+FOCUSMETHOD_MASK
 )
 =
 =
@@ -5470,6 +5470,7 @@ GetComposedDoc
 (
 )
 oldFocusedElement
+1
 false
 )
 ;
@@ -8467,7 +8468,7 @@ aFocusChanged
 ?
 aFlags
 &
-METHODANDRING_MASK
+FOCUSMETHODANDRING_MASK
 :
 newWindow
 -
@@ -11406,6 +11407,7 @@ GetComposedDoc
 (
 )
 element
+1
 false
 false
 aElementToFocus
@@ -11579,6 +11581,7 @@ ToSupports
 (
 doc
 )
+1
 false
 )
 ;
@@ -11602,6 +11605,7 @@ window
 GetCurrentInnerWindow
 (
 )
+1
 false
 )
 ;
@@ -11977,7 +11981,7 @@ aFocusChanged
 ?
 aFlags
 &
-METHODANDRING_MASK
+FOCUSMETHODANDRING_MASK
 :
 aWindow
 -
@@ -12350,6 +12354,9 @@ ToSupports
 (
 doc
 )
+aFlags
+&
+FOCUSMETHOD_MASK
 aWindowRaised
 )
 ;
@@ -12388,6 +12395,9 @@ aWindow
 GetCurrentInnerWindow
 (
 )
+aFlags
+&
+FOCUSMETHOD_MASK
 aWindowRaised
 )
 ;
@@ -12612,6 +12622,9 @@ GetComposedDoc
 (
 )
 aElement
+aFlags
+&
+FOCUSMETHOD_MASK
 aWindowRaised
 isRefocus
 aBlurredElementInfo
@@ -13225,6 +13238,8 @@ aDocument
 nsISupports
 *
 aTarget
+uint32_t
+aFocusMethod
 bool
 aWindowRaised
 bool
@@ -16964,7 +16979,7 @@ aOptions
 uint32_t
 flags
 =
-FLAG_BYJS
+0
 ;
 if
 (
