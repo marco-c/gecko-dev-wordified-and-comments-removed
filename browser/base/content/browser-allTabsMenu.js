@@ -238,12 +238,6 @@ tab
 !
 tab
 .
-pinned
-&
-&
-!
-tab
-.
 hidden
 }
 )
