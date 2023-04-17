@@ -903,6 +903,11 @@ UNIFIED_SOURCES
 =
 [
 "
+AvailableMemoryWatcherWin
+.
+cpp
+"
+"
 MemoryInfo
 .
 cpp
