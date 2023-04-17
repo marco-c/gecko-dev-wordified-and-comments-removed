@@ -1,14 +1,3 @@
-try
-:
-    
-from
-cgi
-import
-escape
-except
-ImportError
-:
-    
 from
 html
 import
