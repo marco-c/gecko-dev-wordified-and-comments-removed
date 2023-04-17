@@ -12524,6 +12524,14 @@ toolId
 "
 netmonitor
 "
+&
+&
+toolId
+!
+=
+"
+accessibility
+"
 )
 {
 return
