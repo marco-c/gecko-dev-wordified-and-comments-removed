@@ -28920,7 +28920,7 @@ version
 .
 1
 .
-40
+43
 "
 source
 =
@@ -28948,16 +28948,13 @@ index
 checksum
 =
 "
-d825be0eb33fda1a7e68012d51e9c7f451dc1a69391e7fdc197060bb8c56667b
+ca8a50ef2360fbd1eeb0ecd46795a87a19024eb4b53c5dc916ca1fd95fe62438
 "
 dependencies
 =
 [
 "
 libc
-"
-"
-redox_syscall
 "
 "
 winapi
