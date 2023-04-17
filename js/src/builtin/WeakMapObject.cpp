@@ -50,6 +50,15 @@ h
 #
 include
 "
+js
+/
+WeakMap
+.
+h
+"
+#
+include
+"
 vm
 /
 JSContext
