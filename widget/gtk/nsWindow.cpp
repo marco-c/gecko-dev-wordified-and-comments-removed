@@ -7336,7 +7336,7 @@ LOG_POPUP
 nsWindow
 :
 :
-WaylandPopupHierarchyMarkByLayout
+WaylandPopupHierarchyHideByLayout
 "
 )
 )
@@ -7437,7 +7437,7 @@ void
 nsWindow
 :
 :
-WaylandPopupHierarchyMarkByLayout
+WaylandPopupHierarchyValidateByLayout
 (
 nsTArray
 <
@@ -7448,6 +7448,18 @@ nsIWidget
 aLayoutWidgetHierarchy
 )
 {
+LOG_POPUP
+(
+(
+"
+nsWindow
+:
+:
+WaylandPopupHierarchyValidateByLayout
+"
+)
+)
+;
 nsWindow
 *
 popup
@@ -9717,7 +9729,7 @@ layoutPopupWidgetChain
 mWaylandToplevel
 -
 >
-WaylandPopupHierarchyMarkByLayout
+WaylandPopupHierarchyValidateByLayout
 (
 &
 layoutPopupWidgetChain
@@ -9910,7 +9922,7 @@ layoutPopupWidgetChain
 mWaylandToplevel
 -
 >
-WaylandPopupHierarchyMarkByLayout
+WaylandPopupHierarchyValidateByLayout
 (
 &
 layoutPopupWidgetChain
