@@ -19973,7 +19973,7 @@ vibrator
 max_vibrate_ms
 type
 :
-uint32_t
+RelaxedAtomicUint32
 value
 :
 10000
@@ -19990,7 +19990,7 @@ vibrator
 max_vibrate_list_len
 type
 :
-uint32_t
+RelaxedAtomicUint32
 value
 :
 128
