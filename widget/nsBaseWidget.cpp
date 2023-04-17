@@ -478,13 +478,6 @@ h
 #
 include
 "
-npapi
-.
-h
-"
-#
-include
-"
 nsAppDirectoryServiceDefs
 .
 h
