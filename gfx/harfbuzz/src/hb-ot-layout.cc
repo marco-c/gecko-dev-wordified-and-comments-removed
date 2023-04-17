@@ -5275,6 +5275,9 @@ ret
 true
 ;
 else
+(
+void
+)
 buffer
 -
 >

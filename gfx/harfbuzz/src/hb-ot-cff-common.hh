@@ -908,7 +908,7 @@ length
 for
 (
 const
-byte_str_t
+auto
 &
 _
 :

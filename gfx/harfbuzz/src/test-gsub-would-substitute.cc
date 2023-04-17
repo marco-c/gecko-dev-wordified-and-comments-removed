@@ -22,13 +22,6 @@ ot
 h
 "
 #
-include
-<
-stdio
-.
-h
->
-#
 ifdef
 HAVE_FREETYPE
 #

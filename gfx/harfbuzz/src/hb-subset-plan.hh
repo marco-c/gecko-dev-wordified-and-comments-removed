@@ -383,6 +383,11 @@ hb_blob_t
 contents
 )
 {
+if
+(
+HB_DEBUG_SUBSET
+)
+{
 hb_blob_t
 *
 source_blob
@@ -438,6 +443,7 @@ hb_blob_destroy
 source_blob
 )
 ;
+}
 return
 hb_face_builder_add_table
 (

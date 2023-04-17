@@ -96,7 +96,7 @@ use
 -
 table
 .
-cc
+hh
 \
 hb
 -
@@ -370,7 +370,7 @@ use
 -
 table
 .
-cc
+hh
 :
 gen
 -

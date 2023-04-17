@@ -372,7 +372,7 @@ shape
 -
 complex
 -
-thai
+syllabic
 .
 cc
 "
@@ -387,9 +387,7 @@ shape
 -
 complex
 -
-use
--
-table
+thai
 .
 cc
 "

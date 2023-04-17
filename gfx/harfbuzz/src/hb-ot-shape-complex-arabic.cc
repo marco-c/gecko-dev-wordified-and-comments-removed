@@ -39,7 +39,7 @@ define
 arabic_shaping_action
 (
 )
-complex_var_u8_0
+complex_var_u8_auxiliary
 (
 )
 /

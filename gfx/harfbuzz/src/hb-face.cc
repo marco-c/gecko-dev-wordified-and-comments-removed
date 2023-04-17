@@ -152,14 +152,8 @@ nullptr
 nullptr
 nullptr
 0
-HB_ATOMIC_INT_INIT
-(
 1000
-)
-HB_ATOMIC_INT_INIT
-(
 0
-)
 }
 ;
 hb_face_t
@@ -1841,6 +1835,8 @@ push
 ;
 if
 (
+unlikely
+(
 data
 -
 >
@@ -1848,6 +1844,7 @@ tables
 .
 in_error
 (
+)
 )
 )
 return

@@ -52,9 +52,9 @@ VERSION
 =
 2
 .
-7
+8
 .
-4
+0
 git
 clone
 https

@@ -36,13 +36,6 @@ h
 #
 endif
 #
-include
-<
-stdio
-.
-h
->
-#
 ifdef
 HB_NO_OPEN
 #

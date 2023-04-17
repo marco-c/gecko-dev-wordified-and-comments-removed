@@ -674,6 +674,8 @@ padded_size
 ;
 if
 (
+unlikely
+(
 c
 -
 >
@@ -682,6 +684,7 @@ serializer
 >
 in_error
 (
+)
 )
 )
 return_trace
@@ -4897,9 +4900,12 @@ font
 em_scalef_x
 (
 max_x
--
-min_x
 )
+-
+extents
+-
+>
+x_bearing
 ;
 extents
 -
@@ -4925,9 +4931,12 @@ font
 em_scalef_y
 (
 min_y
--
-max_y
 )
+-
+extents
+-
+>
+y_bearing
 ;
 }
 protected

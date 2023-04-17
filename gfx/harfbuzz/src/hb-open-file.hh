@@ -35,7 +35,7 @@ struct
 OpenTypeFontFile
 ;
 struct
-OffsetTable
+OpenTypeOffsetTable
 ;
 struct
 TTCHeader
@@ -164,7 +164,7 @@ OpenTypeTable
 ;
 typedef
 struct
-OffsetTable
+OpenTypeOffsetTable
 {
 friend
 struct
@@ -844,7 +844,7 @@ LArrayOf
 <
 LOffsetTo
 <
-OffsetTable
+OpenTypeOffsetTable
 >
 >
 table

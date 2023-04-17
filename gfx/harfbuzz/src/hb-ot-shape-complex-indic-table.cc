@@ -688,7 +688,7 @@ M
 )
 static
 const
-INDIC_TABLE_ELEMENT_TYPE
+uint16_t
 indic_table
 [
 ]
@@ -9700,7 +9700,7 @@ x
 )
 }
 ;
-INDIC_TABLE_ELEMENT_TYPE
+uint16_t
 hb_indic_get_categories
 (
 hb_codepoint_t

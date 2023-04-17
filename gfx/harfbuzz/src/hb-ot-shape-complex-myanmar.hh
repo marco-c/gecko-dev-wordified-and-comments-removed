@@ -125,7 +125,7 @@ cat
 =
 type
 &
-0x7Fu
+0xFFu
 ;
 indic_position_t
 pos

@@ -28,16 +28,6 @@ MaxDebugDepth
 struct
 hb_dispatch_context_t
 {
-hb_dispatch_context_t
-(
-)
-:
-debug_depth
-(
-0
-)
-{
-}
 private
 :
 const
@@ -207,6 +197,8 @@ false
 }
 unsigned
 debug_depth
+=
+0
 ;
 }
 ;

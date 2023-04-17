@@ -41,7 +41,7 @@ head
 {
 friend
 struct
-OffsetTable
+OpenTypeOffsetTable
 ;
 static
 constexpr

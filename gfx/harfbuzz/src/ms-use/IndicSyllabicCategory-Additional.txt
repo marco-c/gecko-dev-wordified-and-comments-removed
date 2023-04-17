@@ -202,14 +202,6 @@ SIGN
 DOUBLE
 RING
 BELOW
-1172B
-;
-Bindu
-#
-Mn
-AHOM
-SIGN
-KILLER
 #
 =
 =
