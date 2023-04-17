@@ -19,13 +19,7 @@ cdm
 HdcpVersion
 from
 "
-gmp
--
-sanitized
--
-cdm
--
-exports
+GMPSanitizedExports
 .
 h
 "

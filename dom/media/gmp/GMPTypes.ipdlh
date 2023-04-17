@@ -12,13 +12,7 @@ cdm
 EncryptionScheme
 from
 "
-gmp
--
-sanitized
--
-cdm
--
-exports
+GMPSanitizedExports
 .
 h
 "
