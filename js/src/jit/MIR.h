@@ -4565,6 +4565,15 @@ Shape
 *
 >
 ;
+using
+CompilerGetterSetter
+=
+CompilerGCPointer
+<
+GetterSetter
+*
+>
+;
 class
 MInstruction
 :
