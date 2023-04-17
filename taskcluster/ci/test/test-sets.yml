@@ -3042,8 +3042,6 @@ unittests
 jittest
 -
 all
--
-jsreftest
 android
 -
 hw
@@ -3068,8 +3066,6 @@ unittests
 :
 -
 jittest
--
-jsreftest
 android
 -
 hw
