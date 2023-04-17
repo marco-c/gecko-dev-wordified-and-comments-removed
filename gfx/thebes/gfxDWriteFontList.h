@@ -969,6 +969,16 @@ DWriteFontFallbackRenderer
 )
 {
 }
+bool
+IsValid
+(
+)
+const
+{
+return
+mSystemFonts
+;
+}
 IFACEMETHOD
 (
 DrawGlyphRun
