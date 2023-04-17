@@ -1482,6 +1482,11 @@ defined
 (
 HAVE_POSIX_FALLOCATE
 )
+if
+(
+!
+is_memfd
+)
 {
 int
 rv
