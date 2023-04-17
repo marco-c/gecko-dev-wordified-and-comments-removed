@@ -3710,16 +3710,6 @@ descriptorFront
 ;
 this
 .
-targetList
-=
-this
-.
-commands
-.
-targetCommand
-;
-this
-.
 commands
 .
 targetCommand
