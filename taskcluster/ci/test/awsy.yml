@@ -338,7 +338,9 @@ t
 run
 on
 devedition
-windows7
+windows
+.
+*
 -
 32
 .
@@ -504,7 +506,9 @@ t
 run
 on
 devedition
-windows7
+windows
+.
+*
 -
 32
 .
@@ -717,7 +721,9 @@ t
 run
 on
 devedition
-windows7
+windows
+.
+*
 -
 32
 .

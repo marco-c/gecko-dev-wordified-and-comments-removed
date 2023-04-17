@@ -482,7 +482,10 @@ macosx
 debug
 :
 18
-windows7
+windows
+.
+*
+32
 .
 *
 /
@@ -1934,7 +1937,9 @@ due
 to
 high
 load
-windows
+windows10
+-
+64
 .
 *
 -
