@@ -412,13 +412,11 @@ window
 contextmenu
 )
 ;
-EventUtils
+contextmenu
 .
-synthesizeMouseAtCenter
+activateItem
 (
 selectAll
-{
-}
 )
 ;
 await
