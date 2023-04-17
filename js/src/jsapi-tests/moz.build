@@ -60,6 +60,11 @@ testArrayBuffer
 cpp
 "
 "
+testArrayBufferOrViewAPI
+.
+cpp
+"
+"
 testArrayBufferView
 .
 cpp
