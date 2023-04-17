@@ -1363,7 +1363,6 @@ MozMacSourceList
 MozMacSourceListSelection
 MozMacActiveSourceListSelection
 MozMacTooltip
-WebkitFocusRingColor
 #
 [
 parse
