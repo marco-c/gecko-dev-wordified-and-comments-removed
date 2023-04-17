@@ -541,10 +541,6 @@ return
 false
 ;
 }
-EndOverscrollAnimation
-(
-)
-;
 ParentLayerCoord
 displacement
 =
