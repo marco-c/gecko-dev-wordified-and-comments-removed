@@ -591,6 +591,8 @@ DidComposite
 LayersId
 id
 TransactionId
+[
+]
 transactionId
 TimeStamp
 compositeStart
