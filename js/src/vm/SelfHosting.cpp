@@ -15578,15 +15578,6 @@ intl_GetCalendarInfo
 JS_FN
 (
 "
-intl_GetLocaleInfo
-"
-intl_GetLocaleInfo
-1
-0
-)
-JS_FN
-(
-"
 intl_GetPluralCategories
 "
 intl_GetPluralCategories
