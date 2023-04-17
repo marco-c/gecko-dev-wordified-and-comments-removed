@@ -102,7 +102,7 @@ aChar
 }
 ;
 namespace
-details
+asciimask_details
 {
 template
 <
@@ -175,7 +175,7 @@ fun
 )
 {
 return
-details
+asciimask_details
 :
 :
 CreateASCIIMask

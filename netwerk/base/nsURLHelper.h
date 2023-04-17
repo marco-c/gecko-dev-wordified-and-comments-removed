@@ -18,6 +18,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsASCIIMask
+.
+h
+"
 class
 nsIFile
 ;
@@ -194,6 +201,10 @@ nsACString
 aInput
 uint32_t
 aFlags
+const
+ASCIIMaskArray
+&
+aFilterMask
 nsACString
 &
 aResult

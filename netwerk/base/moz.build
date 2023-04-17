@@ -468,6 +468,11 @@ nsISimpleStreamListener
 idl
 "
 "
+nsISimpleURIMutator
+.
+idl
+"
+"
 nsISocketFilter
 .
 idl
