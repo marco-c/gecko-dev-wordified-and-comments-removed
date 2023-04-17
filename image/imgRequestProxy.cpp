@@ -1009,7 +1009,7 @@ mEventTarget
 >
 Dispatch
 (
-CreateMediumHighRunnable
+CreateRenderBlockingRunnable
 (
 std
 :
@@ -1029,7 +1029,7 @@ NS_OK
 return
 NS_DispatchToMainThread
 (
-CreateMediumHighRunnable
+CreateRenderBlockingRunnable
 (
 std
 :

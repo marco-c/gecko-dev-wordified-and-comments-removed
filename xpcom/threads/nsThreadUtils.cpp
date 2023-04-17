@@ -529,7 +529,7 @@ nsIRunnable
 mozilla
 :
 :
-CreateMediumHighRunnable
+CreateRenderBlockingRunnable
 (
 already_AddRefed
 <
@@ -559,7 +559,7 @@ aRunnable
 nsIRunnablePriority
 :
 :
-PRIORITY_MEDIUMHIGH
+PRIORITY_RENDER_BLOCKING
 )
 ;
 return

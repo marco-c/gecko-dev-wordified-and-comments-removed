@@ -4944,7 +4944,7 @@ this
 ;
 NS_DispatchToMainThread
 (
-CreateMediumHighRunnable
+CreateRenderBlockingRunnable
 (
 NS_NewRunnableFunction
 (
@@ -6246,7 +6246,7 @@ eventTarget
 >
 Dispatch
 (
-CreateMediumHighRunnable
+CreateRenderBlockingRunnable
 (
 ev
 .

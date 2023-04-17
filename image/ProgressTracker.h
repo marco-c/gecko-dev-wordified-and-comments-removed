@@ -554,14 +554,14 @@ FireFailureNotification
 )
 ;
 class
-MediumHighRunnable
+RenderBlockingRunnable
 final
 :
 public
 PrioritizableRunnable
 {
 explicit
-MediumHighRunnable
+RenderBlockingRunnable
 (
 already_AddRefed
 <
@@ -574,7 +574,7 @@ aEvent
 ;
 virtual
 ~
-MediumHighRunnable
+RenderBlockingRunnable
 (
 )
 =
@@ -601,7 +601,7 @@ aObserver
 static
 already_AddRefed
 <
-MediumHighRunnable
+RenderBlockingRunnable
 >
 Create
 (
@@ -618,7 +618,7 @@ aEvent
 ;
 RefPtr
 <
-MediumHighRunnable
+RenderBlockingRunnable
 >
 mRunnable
 ;

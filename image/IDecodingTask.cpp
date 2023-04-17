@@ -292,7 +292,7 @@ mEventTarget
 >
 Dispatch
 (
-CreateMediumHighRunnable
+CreateRenderBlockingRunnable
 (
 NS_NewRunnableFunction
 (
@@ -528,7 +528,7 @@ mEventTarget
 >
 Dispatch
 (
-CreateMediumHighRunnable
+CreateRenderBlockingRunnable
 (
 NS_NewRunnableFunction
 (
