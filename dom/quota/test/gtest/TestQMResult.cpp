@@ -61,6 +61,9 @@ testing
 :
 Test
 {
+#
+ifdef
+QM_ERROR_STACKS_ENABLED
 public
 :
 static
@@ -80,6 +83,8 @@ StackId
 )
 ;
 }
+#
+endif
 }
 ;
 #
