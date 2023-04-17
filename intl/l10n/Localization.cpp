@@ -414,6 +414,11 @@ Localization
 "
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+mLocalization
+)
+;
 AutoJSContext
 cx
 ;

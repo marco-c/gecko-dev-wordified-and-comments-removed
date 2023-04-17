@@ -11110,7 +11110,6 @@ SessionStoreFunctions
 .
 jsm
 "
-fallible
 )
 ;
 if

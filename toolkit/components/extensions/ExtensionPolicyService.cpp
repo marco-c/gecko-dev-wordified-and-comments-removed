@@ -440,6 +440,11 @@ ExtensionProcessScript
 "
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+sProcessScript
+)
+;
 ClearOnShutdown
 (
 &
