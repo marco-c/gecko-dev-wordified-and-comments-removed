@@ -1155,6 +1155,11 @@ test_timeout_mode3
 ;
 add_task
 (
+test_strict_native_fallback
+)
+;
+add_task
+(
 test_no_answers_fallback
 )
 ;
