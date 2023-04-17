@@ -92,9 +92,9 @@ a
 changelog
 entry
 to
-HISTORY
+CHANGELOG
 .
-rst
+md
 or
 an
 explanation
