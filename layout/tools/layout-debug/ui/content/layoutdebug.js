@@ -237,6 +237,9 @@ dumpTextRuns
 dumpViews
 "
 "
+dumpCounterManager
+"
+"
 dumpStyleSheets
 "
 "

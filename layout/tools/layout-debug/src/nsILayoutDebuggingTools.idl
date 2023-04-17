@@ -276,6 +276,11 @@ dumpViews
 )
 ;
 void
+dumpCounterManager
+(
+)
+;
+void
 dumpStyleSheets
 (
 )

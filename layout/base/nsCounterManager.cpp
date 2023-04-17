@@ -2148,8 +2148,17 @@ suffix
 #
 endif
 #
-ifdef
+if
+defined
+(
 DEBUG
+)
+|
+|
+defined
+(
+MOZ_LAYOUT_DEBUGGER
+)
 void
 nsCounterManager
 :
@@ -2157,6 +2166,7 @@ nsCounterManager
 Dump
 (
 )
+const
 {
 printf
 (
