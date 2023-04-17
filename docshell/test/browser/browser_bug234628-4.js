@@ -39,6 +39,11 @@ file_bug234628
 html
 "
 afterOpen
+"
+windows
+-
+1251
+"
 afterChangeCharset
 )
 ;
@@ -133,7 +138,7 @@ indexOf
 (
 "
 \
-u20AC
+u0402
 "
 )
 132
@@ -145,7 +150,7 @@ decode
 as
 windows
 -
-1252
+1251
 subsequently
 "
 )
@@ -196,7 +201,7 @@ characterSet
 "
 windows
 -
-1252
+1251
 "
 "
 Parent
@@ -205,7 +210,7 @@ should
 report
 windows
 -
-1252
+1251
 subsequently
 "
 )

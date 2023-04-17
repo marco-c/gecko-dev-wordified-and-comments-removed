@@ -39,6 +39,9 @@ file_bug1543077
 html
 "
 afterOpen
+"
+Japanese
+"
 afterChangeCharset
 )
 ;

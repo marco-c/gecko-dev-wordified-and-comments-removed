@@ -241,8 +241,11 @@ then
 =
 >
 {
-BrowserForceEncodingDetection
+BrowserSetForcedCharacterSet
 (
+"
+Shift_JIS
+"
 )
 ;
 }

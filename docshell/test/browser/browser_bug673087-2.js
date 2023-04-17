@@ -39,6 +39,11 @@ file_bug673087
 html
 "
 afterOpen
+"
+windows
+-
+1252
+"
 afterChangeCharset
 )
 ;
