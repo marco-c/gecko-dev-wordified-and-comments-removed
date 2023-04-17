@@ -1533,12 +1533,6 @@ HTMLFormSubmission
 >
 mPendingSubmission
 ;
-nsCOMPtr
-<
-nsIRequest
->
-mSubmittingRequest
-;
 nsWeakPtr
 mWebProgress
 ;

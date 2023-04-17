@@ -7821,10 +7821,6 @@ mNotifiedObservers
 =
 false
 ;
-mSubmittingRequest
-=
-nullptr
-;
 mTargetContext
 =
 nullptr
