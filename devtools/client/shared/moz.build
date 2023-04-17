@@ -209,11 +209,6 @@ parser
 js
 "
 "
-poller
-.
-js
-"
-"
 prefs
 .
 js
