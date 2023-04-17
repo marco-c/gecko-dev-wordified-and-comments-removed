@@ -4369,6 +4369,12 @@ languageLength
 length
 ;
 }
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 IndexAndLength
 language
 {
