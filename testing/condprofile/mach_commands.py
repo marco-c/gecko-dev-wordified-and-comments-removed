@@ -257,6 +257,8 @@ fetch
         
 self
         
+command_context
+        
 target_dir
         
 platform
@@ -658,6 +660,7 @@ def
 run
 (
 self
+command_context
 *
 *
 kw

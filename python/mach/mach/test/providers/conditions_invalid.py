@@ -54,6 +54,7 @@ def
 run_foo
 (
 self
+command_context
 )
 :
         

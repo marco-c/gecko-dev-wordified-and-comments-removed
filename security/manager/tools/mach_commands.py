@@ -411,6 +411,7 @@ def
 generate_test_certs
 (
 self
+command_context
 specifications
 )
 :

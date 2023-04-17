@@ -280,6 +280,7 @@ def
 run
 (
 self
+command_context
 binary
 params
 debug

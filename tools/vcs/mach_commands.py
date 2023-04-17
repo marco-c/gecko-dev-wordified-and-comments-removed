@@ -389,13 +389,19 @@ import_pr
 (
         
 self
+        
+command_context
+        
 pull_request
+        
 bug_number
 =
 None
+        
 bugzilla_token
 =
 None
+        
 reviewer
 =
 None

@@ -639,6 +639,7 @@ def
 hazards
 (
 self
+command_context
 )
 :
         
@@ -713,6 +714,7 @@ def
 bootstrap
 (
 self
+command_context
 *
 *
 kwargs
@@ -872,6 +874,7 @@ def
 build_shell
 (
 self
+command_context
 *
 *
 kwargs
@@ -1382,6 +1385,7 @@ def
 gather_hazard_data
 (
 self
+command_context
 *
 *
 kwargs
@@ -1862,6 +1866,7 @@ def
 inner_compile
 (
 self
+command_context
 *
 *
 kwargs
@@ -2313,6 +2318,7 @@ def
 analyze
 (
 self
+command_context
 application
 shell_objdir
 work_dir
@@ -2505,6 +2511,7 @@ def
 self_test
 (
 self
+command_context
 shell_objdir
 )
 :

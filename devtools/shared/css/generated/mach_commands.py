@@ -228,6 +228,7 @@ def
 generate_css_db
 (
 self
+command_context
 )
 :
         
