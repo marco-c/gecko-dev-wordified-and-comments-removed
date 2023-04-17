@@ -1053,10 +1053,7 @@ const
 nsACString
 &
 aFont
-RefPtr
-<
-SharedFontList
->
+StyleFontFamilyList
 &
 aFamilyList
 FontWeight

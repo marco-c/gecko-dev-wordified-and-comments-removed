@@ -31,13 +31,6 @@ h
 #
 include
 "
-gfxFontFamilyList
-.
-h
-"
-#
-include
-"
 gfxFT2Utils
 .
 h
@@ -10046,10 +10039,10 @@ isDeprecatedGeneric
 mozilla
 :
 :
-FontFamilyName
+StyleSingleFontFamily
 :
 :
-Convert
+Parse
 (
 familyName
 )

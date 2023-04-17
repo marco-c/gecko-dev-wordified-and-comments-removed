@@ -349,12 +349,6 @@ mozilla
 StyleFontSizeKeyword
 mFontSizeKeyword
 ;
-mozilla
-:
-:
-StyleGenericFontFamily
-mGenericID
-;
 int8_t
 mMathDepth
 ;

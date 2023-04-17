@@ -2887,7 +2887,7 @@ const
 mozilla
 :
 :
-FontFamilyList
+StyleFontFamilyList
 &
 aFontFamilyList
 const
@@ -4695,7 +4695,7 @@ mHasFontEntry
 mozilla
 :
 :
-FontFamilyList
+StyleFontFamilyList
 mFamilyList
 ;
 nsTArray

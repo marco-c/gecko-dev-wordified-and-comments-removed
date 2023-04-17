@@ -84,11 +84,11 @@ mozilla
 class
 ServoStyleSet
 ;
-class
-SharedFontList
-;
 struct
 URLExtraData
+;
+struct
+StyleFontFamilyList
 ;
 union
 StyleComputedFontStyleDescriptor
@@ -230,10 +230,7 @@ aValue
 URLExtraData
 *
 aUrl
-RefPtr
-<
-SharedFontList
->
+StyleFontFamilyList
 &
 aList
 StyleComputedFontStyleDescriptor

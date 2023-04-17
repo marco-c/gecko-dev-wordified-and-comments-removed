@@ -238,10 +238,7 @@ aValue
 URLExtraData
 *
 aUrl
-RefPtr
-<
-SharedFontList
->
+StyleFontFamilyList
 &
 aList
 StyleComputedFontStyleDescriptor

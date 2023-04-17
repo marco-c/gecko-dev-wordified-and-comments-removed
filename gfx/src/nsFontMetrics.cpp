@@ -752,7 +752,9 @@ aFont
 sizeAdjust
 aFont
 .
-systemFont
+family
+.
+is_system_font
 mDeviceContext
 -
 >
@@ -831,7 +833,9 @@ CreateFontGroup
 (
 aFont
 .
-fontlist
+family
+.
+families
 &
 style
 mLanguage
