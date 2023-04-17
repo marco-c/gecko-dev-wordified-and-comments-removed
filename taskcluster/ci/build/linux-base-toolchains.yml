@@ -276,9 +276,7 @@ cbindgen
 -
 linux64
 -
-dump
--
-syms
+dump_syms
 -
 linux64
 -
@@ -490,9 +488,7 @@ cbindgen
 -
 linux64
 -
-dump
--
-syms
+dump_syms
 -
 linux64
 -
@@ -689,9 +685,7 @@ cbindgen
 -
 linux64
 -
-dump
--
-syms
+dump_syms
 -
 linux64
 -
@@ -894,9 +888,7 @@ cbindgen
 -
 linux64
 -
-dump
--
-syms
+dump_syms
 -
 linux64
 -

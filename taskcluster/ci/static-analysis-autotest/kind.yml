@@ -536,9 +536,7 @@ node
 -
 win64
 -
-dump
--
-syms
+dump_syms
 -
 win64
 -

@@ -255,9 +255,7 @@ clang
 -
 linux64
 -
-dump
--
-syms
+dump_syms
 -
 linux64
 -
@@ -361,9 +359,7 @@ clang
 -
 linux64
 -
-dump
--
-syms
+dump_syms
 -
 linux64
 -
@@ -469,9 +465,7 @@ clang
 -
 linux64
 -
-dump
--
-syms
+dump_syms
 -
 linux64
 -
@@ -589,9 +583,7 @@ clang
 -
 linux64
 -
-dump
--
-syms
+dump_syms
 -
 macosx64
 -
@@ -691,9 +683,7 @@ clang
 -
 win64
 -
-dump
--
-syms
+dump_syms
 -
 win64
 -
@@ -789,9 +779,7 @@ clang
 -
 win64
 -
-dump
--
-syms
+dump_syms
 -
 win64
 -
@@ -895,6 +883,4 @@ clang
 -
 win64
 -
-dump
--
-syms
+dump_syms

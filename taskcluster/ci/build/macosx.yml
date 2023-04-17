@@ -127,9 +127,7 @@ binutils
 -
 linux64
 -
-dump
--
-syms
+dump_syms
 -
 linux64
 -

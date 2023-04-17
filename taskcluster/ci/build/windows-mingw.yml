@@ -299,9 +299,7 @@ x86
 -
 linux64
 -
-dump
--
-syms
+dump_syms
 win32
 -
 mingwclang
@@ -481,9 +479,7 @@ x86
 -
 linux64
 -
-dump
--
-syms
+dump_syms
 win64
 -
 mingwclang
@@ -661,9 +657,7 @@ x86
 -
 linux64
 -
-dump
--
-syms
+dump_syms
 win64
 -
 mingwclang
@@ -843,6 +837,4 @@ x86
 -
 linux64
 -
-dump
--
-syms
+dump_syms

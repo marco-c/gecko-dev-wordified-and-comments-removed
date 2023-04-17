@@ -113,9 +113,7 @@ dump
 syms
 linux64
 -
-dump
--
-syms
+dump_syms
 :
 treeherder
 :
@@ -175,9 +173,7 @@ linux64
 sysroot
 macosx64
 -
-dump
--
-syms
+dump_syms
 :
 treeherder
 :
@@ -268,9 +264,7 @@ macosx64
 -
 aarch64
 -
-dump
--
-syms
+dump_syms
 :
 treeherder
 :
@@ -361,9 +355,7 @@ sdk
 0
 win64
 -
-dump
--
-syms
+dump_syms
 :
 treeherder
 :
