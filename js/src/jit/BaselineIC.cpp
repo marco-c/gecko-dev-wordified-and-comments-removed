@@ -4839,11 +4839,6 @@ shape
 )
 )
 ;
-bool
-mayThrow
-=
-false
-;
 DeferType
 deferType
 =
@@ -4876,10 +4871,6 @@ state
 canAttachStub
 (
 )
-&
-&
-!
-mayThrow
 )
 {
 ICScript
@@ -8242,13 +8233,6 @@ JSOp
 InitGLexical
 )
 {
-RootedValue
-v
-(
-cx
-rhs
-)
-;
 ExtensibleLexicalEnvironmentObject
 *
 lexicalEnv
@@ -8301,7 +8285,7 @@ cx
 lexicalEnv
 script
 pc
-v
+rhs
 )
 ;
 }
