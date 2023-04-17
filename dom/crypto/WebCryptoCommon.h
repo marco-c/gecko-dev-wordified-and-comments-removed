@@ -617,7 +617,7 @@ ES384
 define
 JWK_ALG_ECDSA_P_521
 "
-ES521
+ES512
 "
 #
 define
