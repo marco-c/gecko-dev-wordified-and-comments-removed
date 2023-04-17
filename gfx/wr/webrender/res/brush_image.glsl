@@ -1395,13 +1395,6 @@ x
 >
 16
 ;
-int
-raster_space
-=
-prim_user_data
-.
-y
-;
 if
 (
 color_mode
@@ -1415,6 +1408,8 @@ color_mode
 uMode
 ;
 }
+#
+endif
 /
 /
 Derive
@@ -1445,6 +1440,13 @@ space
 /
 image
 .
+int
+raster_space
+=
+prim_user_data
+.
+y
+;
 if
 (
 raster_space
@@ -1491,8 +1493,6 @@ f
 )
 ;
 }
-#
-endif
 /
 /
 Offset
