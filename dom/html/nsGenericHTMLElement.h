@@ -3509,6 +3509,7 @@ aFieldset
 )
 {
 }
+virtual
 void
 UpdateFormOwner
 (
