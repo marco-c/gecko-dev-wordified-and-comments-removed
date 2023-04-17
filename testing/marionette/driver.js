@@ -1219,6 +1219,7 @@ browsingContext
 this
 .
 currentSession
+?
 .
 chromeBrowsingContext
 ;
@@ -1230,6 +1231,7 @@ browsingContext
 this
 .
 currentSession
+?
 .
 contentBrowsingContext
 ;
