@@ -1596,6 +1596,14 @@ false
 ;
 settings
 .
+isPrintSelectionRBEnabled
+=
+this
+.
+hasSelection
+;
+settings
+.
 title
 =
 this
