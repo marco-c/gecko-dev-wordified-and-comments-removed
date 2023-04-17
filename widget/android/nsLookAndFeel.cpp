@@ -447,13 +447,6 @@ RefreshImpl
 (
 )
 {
-nsXPLookAndFeel
-:
-:
-RefreshImpl
-(
-)
-;
 mInitializedSystemColors
 =
 false
@@ -461,6 +454,13 @@ false
 mInitializedShowPassword
 =
 false
+;
+nsXPLookAndFeel
+:
+:
+RefreshImpl
+(
+)
 ;
 }
 nsresult
