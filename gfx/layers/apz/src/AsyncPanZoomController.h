@@ -1629,6 +1629,16 @@ GetOverscrollAmount
 )
 const
 ;
+private
+:
+ParentLayerPoint
+GetOverscrollAmountInternal
+(
+)
+const
+;
+protected
+:
 SideBits
 GetOverscrollSideBits
 (
