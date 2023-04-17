@@ -25,6 +25,15 @@ include
 "
 mozilla
 /
+ClearOnShutdown
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
