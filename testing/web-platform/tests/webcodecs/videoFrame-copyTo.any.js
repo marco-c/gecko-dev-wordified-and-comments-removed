@@ -156,7 +156,7 @@ init
 format
 :
 '
-ABGR
+RGBA
 '
 timestamp
 :
