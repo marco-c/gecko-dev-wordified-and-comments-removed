@@ -3860,12 +3860,6 @@ CXXFLAGS
 fno
 -
 common
--
-stdlib
-=
-libc
-+
-+
 "
 DSO_LDOPTS
 =

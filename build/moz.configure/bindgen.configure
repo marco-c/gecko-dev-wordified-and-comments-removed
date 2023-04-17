@@ -1869,14 +1869,6 @@ DOS_MACOSX
 =
 1
 "
-"
--
-stdlib
-=
-libc
-+
-+
-"
 ]
 "
 SunOS

@@ -4321,17 +4321,6 @@ MOZ_OPTIMIZE_FLAGS
 -
 O3
 "
-CXXFLAGS
-=
-"
-CXXFLAGS
--
-stdlib
-=
-libc
-+
-+
-"
 DSO_LDOPTS
 =
 '
