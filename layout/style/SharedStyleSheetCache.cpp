@@ -2092,6 +2092,13 @@ true
 ;
 #
 endif
+data
+-
+>
+mRequestingNodeBeforeComplete
+=
+nullptr
+;
 if
 (
 !
@@ -2211,7 +2218,7 @@ if
 data
 -
 >
-mOwningNode
+mOwningNodeBeforeLoadEvent
 !
 =
 data
@@ -2254,10 +2261,6 @@ data
 -
 >
 mSheet
-data
--
->
-mOwningNode
 )
 ;
 }

@@ -1586,9 +1586,6 @@ InsertSheetInTree
 StyleSheet
 &
 aSheet
-nsINode
-*
-aOwningNode
 )
 ;
 void
