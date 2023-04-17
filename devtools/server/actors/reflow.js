@@ -936,12 +936,13 @@ this
 targetActor
 |
 |
-!
 this
 .
 targetActor
 .
-attached
+isDestroyed
+(
+)
 )
 {
 return
