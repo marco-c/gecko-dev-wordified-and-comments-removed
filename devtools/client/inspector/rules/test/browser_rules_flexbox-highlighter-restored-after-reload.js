@@ -292,7 +292,7 @@ reloaded
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

@@ -351,7 +351,7 @@ navigation
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

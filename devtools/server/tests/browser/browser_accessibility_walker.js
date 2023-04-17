@@ -1026,7 +1026,7 @@ event
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

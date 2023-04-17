@@ -994,7 +994,7 @@ disabled
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

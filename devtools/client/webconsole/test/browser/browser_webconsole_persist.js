@@ -230,7 +230,7 @@ reloaded
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;
@@ -1014,7 +1014,7 @@ now
 -
 WILL_NAVIGATE_TIME_SHIFT
 ;
-refreshTab
+reloadBrowser
 (
 )
 ;

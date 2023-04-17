@@ -801,9 +801,11 @@ debugging
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 tab
+.
+linkedBrowser
 )
 ;
 const

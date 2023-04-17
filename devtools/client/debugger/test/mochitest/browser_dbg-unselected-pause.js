@@ -337,7 +337,7 @@ iframe
 const
 pausedReload
 =
-refreshTab
+reloadBrowser
 (
 )
 ;
@@ -470,7 +470,7 @@ iframe
 const
 pausedReload
 =
-refreshTab
+reloadBrowser
 (
 )
 ;

@@ -322,7 +322,7 @@ clear
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

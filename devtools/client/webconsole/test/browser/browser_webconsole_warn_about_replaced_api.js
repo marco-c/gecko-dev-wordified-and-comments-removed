@@ -226,7 +226,7 @@ there
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;
@@ -329,7 +329,7 @@ show
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

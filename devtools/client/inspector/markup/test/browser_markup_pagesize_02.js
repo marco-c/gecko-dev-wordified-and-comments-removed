@@ -86,7 +86,7 @@ children
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

@@ -96,7 +96,7 @@ expectUncaughtExceptionNoE10s
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;
@@ -134,7 +134,7 @@ expectUncaughtExceptionNoE10s
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

@@ -144,7 +144,7 @@ focus
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

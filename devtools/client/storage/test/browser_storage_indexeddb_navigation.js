@@ -303,7 +303,7 @@ anymore
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

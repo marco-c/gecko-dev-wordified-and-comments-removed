@@ -285,7 +285,7 @@ bottom
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

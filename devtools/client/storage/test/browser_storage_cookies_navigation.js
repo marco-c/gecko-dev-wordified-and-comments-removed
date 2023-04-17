@@ -401,7 +401,7 @@ bar
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

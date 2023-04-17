@@ -943,7 +943,7 @@ reloading
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

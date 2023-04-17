@@ -194,7 +194,7 @@ expected
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;
