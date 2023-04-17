@@ -668,7 +668,6 @@ scriptSource
 startIncrementalEncoding
 (
 cx
-options
 std
 :
 :

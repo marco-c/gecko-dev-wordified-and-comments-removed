@@ -2470,13 +2470,6 @@ setInitial
 JSContext
 *
 cx
-const
-JS
-:
-:
-ReadOnlyCompileOptions
-&
-options
 UniquePtr
 <
 frontend
