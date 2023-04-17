@@ -101,13 +101,6 @@ new
 TestAPZCTreeManager
 (
 mcc
-APZCTreeManager
-:
-:
-HitTestKind
-:
-:
-WebRender
 )
 ;
 updater
