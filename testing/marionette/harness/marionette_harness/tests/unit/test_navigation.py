@@ -45,8 +45,6 @@ MarionetteTestCase
     
 run_if_manage_instance
     
-skip_unless_browser_pref
-    
 WindowManagerMixin
 )
 here
@@ -6483,6 +6481,24 @@ loaded
         
 )
         
+Wait
+(
+self
+.
+marionette
+ignored_exceptions
+=
+errors
+.
+NoSuchElementException
+)
+.
+until
+(
+            
+lambda
+_
+:
 self
 .
 marionette
@@ -6495,6 +6511,8 @@ ID
 "
 slow
 "
+)
+        
 )
     
 def
