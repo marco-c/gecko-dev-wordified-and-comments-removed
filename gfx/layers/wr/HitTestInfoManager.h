@@ -75,6 +75,10 @@ HitTestInfoManager
 {
 public
 :
+HitTestInfoManager
+(
+)
+;
 void
 Reset
 (
