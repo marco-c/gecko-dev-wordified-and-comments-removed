@@ -646,7 +646,7 @@ promiseImportExport
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

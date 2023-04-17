@@ -1899,7 +1899,7 @@ doCommand
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2427,7 +2427,7 @@ sidebarTreeID
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

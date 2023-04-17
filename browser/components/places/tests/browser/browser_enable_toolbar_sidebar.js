@@ -56,7 +56,7 @@ let
 btn
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -233,7 +233,7 @@ let
 viewBookmarksToolbarBtn
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -279,7 +279,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

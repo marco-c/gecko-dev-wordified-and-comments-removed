@@ -605,7 +605,7 @@ editBMPanel_folderMenuList
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -280,6 +280,8 @@ let
 entry
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 async
@@ -760,7 +762,7 @@ editBMPanel_keywordField
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
