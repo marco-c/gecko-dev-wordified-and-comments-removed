@@ -2278,7 +2278,7 @@ openSubmenuId
 )
 {
 const
-menuPopup
+menu
 =
 document
 .
@@ -2286,6 +2286,11 @@ getElementById
 (
 openSubmenuId
 )
+;
+const
+menuPopup
+=
+menu
 .
 menupopup
 ;
@@ -2302,10 +2307,11 @@ popupshown
 "
 )
 ;
-menuPopup
+menu
 .
-openPopup
+openMenu
 (
+true
 )
 ;
 await
