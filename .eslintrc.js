@@ -5247,17 +5247,6 @@ test_XPIStates
 .
 js
 "
-"
-toolkit
-/
-mozapps
-/
-installer
-/
-precompile_cache
-.
-js
-"
 ]
 rules
 :
