@@ -1162,7 +1162,7 @@ skin
 /
 extensions
 /
-extension
+extensionGeneric
 .
 svg
 "
