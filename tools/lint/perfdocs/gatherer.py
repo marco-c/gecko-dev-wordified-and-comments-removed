@@ -25,13 +25,11 @@ framework_gatherers
 import
 (
     
-RaptorGatherer
-    
 MozperftestGatherer
     
-TalosGatherer
+RaptorGatherer
     
-AWSYGatherer
+StaticGatherer
 )
 logger
 =
@@ -53,18 +51,6 @@ mozperftest
 "
 :
 MozperftestGatherer
-    
-"
-talos
-"
-:
-TalosGatherer
-    
-"
-awsy
-"
-:
-AWSYGatherer
 }
 class
 Gatherer
@@ -815,17 +801,25 @@ test_list
         
 }
         
-self
-.
-framework_gatherers
-[
-framework
+if
+yaml_content
 [
 "
-name
+static
+-
+only
 "
 ]
-]
+:
+            
+framework_gatherer_cls
+=
+StaticGatherer
+        
+else
+:
+            
+framework_gatherer_cls
 =
 frameworks
 [
@@ -836,6 +830,24 @@ name
 "
 ]
 ]
+        
+framework_gatherer
+=
+self
+.
+framework_gatherers
+[
+            
+framework
+[
+"
+name
+"
+]
+        
+]
+=
+framework_gatherer_cls
 (
             
 framework
@@ -872,19 +884,7 @@ test_list
 "
 ]
 =
-self
-.
-framework_gatherers
-[
-                
-framework
-[
-"
-name
-"
-]
-            
-]
+framework_gatherer
 .
 get_test_list
 (
