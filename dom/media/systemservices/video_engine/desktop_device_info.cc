@@ -1,10 +1,6 @@
 #
 include
 "
-modules
-/
-desktop_capture
-/
 desktop_device_info
 .
 h
