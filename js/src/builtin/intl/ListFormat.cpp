@@ -1283,6 +1283,7 @@ formatBuffer
 .
 toString
 (
+cx
 )
 ;
 if

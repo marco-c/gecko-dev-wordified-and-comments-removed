@@ -2208,6 +2208,7 @@ canonicalTimeZone
 .
 toString
 (
+cx
 )
 ;
 if
@@ -2338,6 +2339,7 @@ timeZone
 .
 toString
 (
+cx
 )
 ;
 if
@@ -6815,6 +6817,7 @@ buffer
 .
 toString
 (
+cx
 )
 ;
 if

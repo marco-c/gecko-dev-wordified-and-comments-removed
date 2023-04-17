@@ -5186,6 +5186,7 @@ buffer
 .
 toString
 (
+cx
 )
 ;
 if
@@ -7329,6 +7330,7 @@ buffer
 .
 toString
 (
+cx
 )
 ;
 if
@@ -8164,6 +8166,7 @@ buffer
 .
 toString
 (
+cx
 )
 ;
 if
