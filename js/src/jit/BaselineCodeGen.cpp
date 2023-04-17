@@ -1469,11 +1469,6 @@ if
 baselineScript
 )
 {
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 Method_Error
 ;
