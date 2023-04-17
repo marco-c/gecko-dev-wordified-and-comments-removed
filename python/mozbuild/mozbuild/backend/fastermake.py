@@ -1715,20 +1715,12 @@ fileobj
 fh
 )
         
-if
-self
-.
-environment
-.
-is_artifact_build
-:
-            
 unified_manifest
 =
 InstallManifest
 (
 )
-            
+        
 for
 base
 install_manifest
@@ -1742,7 +1734,7 @@ self
 _install_manifests
 )
 :
-                
+            
 assert
 base
 .
@@ -1754,7 +1746,7 @@ dist
 bin
 "
 )
-                
+            
 base
 =
 base
@@ -1769,7 +1761,7 @@ bin
 )
 :
 ]
-                
+            
 if
 base
 and
@@ -1783,7 +1775,7 @@ base
 /
 "
 :
-                    
+                
 base
 =
 base
@@ -1791,7 +1783,7 @@ base
 1
 :
 ]
-                
+            
 unified_manifest
 .
 add_entries_from
@@ -1801,18 +1793,18 @@ base
 =
 base
 )
-            
+        
 with
 self
 .
 _write_file
 (
-                
+            
 mozpath
 .
 join
 (
-                    
+                
 self
 .
 environment
@@ -1824,14 +1816,14 @@ faster
 "
 unified_install_dist_bin
 "
-                
-)
             
+)
+        
 )
 as
 fh
 :
-                
+            
 unified_manifest
 .
 write
