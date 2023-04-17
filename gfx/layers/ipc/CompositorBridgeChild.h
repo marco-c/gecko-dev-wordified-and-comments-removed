@@ -565,15 +565,6 @@ intervals
 )
 ;
 bool
-SendNotifyRegionInvalidated
-(
-const
-nsIntRegion
-&
-region
-)
-;
-bool
 IsSameProcess
 (
 )

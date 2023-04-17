@@ -767,13 +767,6 @@ intervals
 )
 ;
 async
-NotifyRegionInvalidated
-(
-nsIntRegion
-region
-)
-;
-async
 PTexture
 (
 SurfaceDescriptor
