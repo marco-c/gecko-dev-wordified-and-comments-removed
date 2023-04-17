@@ -20319,8 +20319,9 @@ offsetOfBaseScript
 ;
 masm
 .
-storePtr
+storeValue
 (
+JSVAL_TYPE_OBJECT
 envChain
 Address
 (
@@ -23093,7 +23094,7 @@ offsetOfEnvironment
 ;
 masm
 .
-loadPtr
+unboxObject
 (
 environment
 ToRegister
