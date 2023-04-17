@@ -1205,6 +1205,7 @@ shiftKey
 aEvent
 .
 metaKey
+0
 aEvent
 aEvent
 .

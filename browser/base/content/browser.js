@@ -4757,6 +4757,7 @@ shiftKey
 aEvent
 .
 metaKey
+0
 null
 aEvent
 .
