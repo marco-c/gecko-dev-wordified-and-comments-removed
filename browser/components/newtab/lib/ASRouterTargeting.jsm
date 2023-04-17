@@ -3458,15 +3458,6 @@ value
 ;
 }
 }
-targetingContext
-.
-setTelemetrySource
-(
-message
-.
-id
-)
-;
 result
 =
 await
