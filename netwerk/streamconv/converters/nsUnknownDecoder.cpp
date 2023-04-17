@@ -341,8 +341,15 @@ nsUnknownDecoder
 :
 nsUnknownDecoder
 (
+nsIStreamListener
+*
+aListener
 )
 :
+mNextListener
+(
+aListener
+)
 mBuffer
 (
 nullptr

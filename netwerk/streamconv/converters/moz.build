@@ -13,6 +13,11 @@ EXPORTS
 =
 [
 "
+nsHTTPCompressConv
+.
+h
+"
+"
 nsUnknownDecoder
 .
 h
