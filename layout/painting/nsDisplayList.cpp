@@ -42511,6 +42511,15 @@ aCtx
 Matrix4x4
 trans
 =
+ShouldSkipTransform
+(
+aBuilder
+)
+?
+Matrix4x4
+(
+)
+:
 GetAccumulatedPreserved3DTransform
 (
 aBuilder
