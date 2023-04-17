@@ -90,6 +90,10 @@ virtual
 void
 ReleaseVAAPIData
 (
+bool
+aForFrameRecycle
+=
+true
 )
 {
 }
@@ -321,6 +325,8 @@ aLib
 void
 ReleaseVAAPIData
 (
+bool
+aForFrameRecycle
 )
 ;
 private

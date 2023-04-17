@@ -213,6 +213,8 @@ VideoFrameSurfaceVAAPI
 :
 ReleaseVAAPIData
 (
+bool
+aForFrameRecycle
 )
 {
 FFMPEG_LOG
@@ -255,6 +257,19 @@ av_buffer_unref
 mAVHWFramesContext
 )
 ;
+if
+(
+aForFrameRecycle
+)
+{
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+IsUsed
+(
+)
+)
+;
 mSurface
 -
 >
@@ -262,6 +277,7 @@ ReleaseSurface
 (
 )
 ;
+}
 }
 VideoFrameSurfaceVAAPI
 :
@@ -294,6 +310,7 @@ GetUID
 ;
 ReleaseVAAPIData
 (
+false
 )
 ;
 }
