@@ -745,9 +745,6 @@ virtual
 bool
 IsScrollingActive
 (
-nsDisplayListBuilder
-*
-aBuilder
 )
 =
 0
@@ -756,9 +753,6 @@ virtual
 bool
 IsScrollingActiveNotMinimalDisplayPort
 (
-nsDisplayListBuilder
-*
-aBuilder
 )
 =
 0
@@ -768,15 +762,6 @@ bool
 IsMaybeAsynchronouslyScrolled
 (
 )
-=
-0
-;
-virtual
-bool
-IsMaybeScrollingActive
-(
-)
-const
 =
 0
 ;

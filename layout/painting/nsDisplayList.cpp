@@ -7835,7 +7835,6 @@ sf
 >
 IsScrollingActive
 (
-aBuilder
 )
 ;
 }
@@ -8055,7 +8054,6 @@ sf
 >
 IsScrollingActive
 (
-this
 )
 )
 {
@@ -8121,7 +8119,7 @@ sf
 sf
 -
 >
-IsMaybeScrollingActive
+IsScrollingActive
 (
 )
 )
