@@ -141,6 +141,8 @@ private
 ClassifierDummyChannel
 (
 )
+=
+default
 ;
 nsCOMPtr
 <
