@@ -57,9 +57,9 @@ fileapi
 :
 :
 {
-BY_HANDLE_FILE_INFORMATION
 GetFileInformationByHandle
 GetFileType
+BY_HANDLE_FILE_INFORMATION
 }
 ;
 use
@@ -72,6 +72,9 @@ um
 winnt
 ;
 use
+crate
+:
+:
 AsHandleRef
 ;
 pub

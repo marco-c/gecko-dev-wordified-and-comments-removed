@@ -27,10 +27,10 @@ io
 :
 :
 {
-RawHandle
 AsRawHandle
 FromRawHandle
 IntoRawHandle
+RawHandle
 }
 ;
 use
