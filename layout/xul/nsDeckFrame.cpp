@@ -348,9 +348,6 @@ nsIFrame
 aBox
 )
 {
-mozilla
-:
-:
 PresShell
 :
 :
