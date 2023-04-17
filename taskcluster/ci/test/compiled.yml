@@ -313,6 +313,8 @@ windows
 *
 -
 shippable
+-
+qr
 /
 .
 *
@@ -328,6 +330,8 @@ windows
 *
 -
 nightly
+-
+qr
 /
 .
 *
