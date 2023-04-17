@@ -1881,6 +1881,14 @@ factor
 )
 )
 ;
+margin
+-
+bottom
+:
+1
+.
+5em
+;
 }
 #
 downloadsPanel
@@ -1924,7 +1932,7 @@ margin
 -
 bottom
 :
-16px
+1em
 ;
 opacity
 :
