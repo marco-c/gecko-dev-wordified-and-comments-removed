@@ -52,3 +52,12 @@ doc
 http
 /
 logging
+dns
+/
+dns
+-
+over
+-
+https
+-
+trr
