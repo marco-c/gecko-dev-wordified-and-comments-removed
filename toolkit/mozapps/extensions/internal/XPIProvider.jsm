@@ -6506,6 +6506,11 @@ addon
 location
 .
 isSystem
+recommendationState
+:
+addon
+.
+recommendationState
 }
 ;
 if

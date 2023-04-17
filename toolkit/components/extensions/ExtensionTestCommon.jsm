@@ -2296,6 +2296,9 @@ TEST_NO_ADDON_MANAGER
 :
 true
 }
+data
+.
+startupReason
 )
 ;
 }
