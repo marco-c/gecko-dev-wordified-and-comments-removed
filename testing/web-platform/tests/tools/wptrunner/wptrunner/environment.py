@@ -759,6 +759,12 @@ log_handlers
 [
 server_log_handler
 ]
+                                   
+webtransport_h3
+=
+self
+.
+enable_webtransport
 )
         
 if
@@ -1085,27 +1091,18 @@ h2
 [
 9000
 ]
-        
-}
-        
-if
-self
-.
-enable_webtransport
-:
             
-ports
-[
 "
 webtransport
 -
 h3
 "
-]
-=
+:
 [
 11000
 ]
+        
+}
         
 config
 .

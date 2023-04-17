@@ -4876,6 +4876,29 @@ OpenSSL
             
 continue
         
+if
+scheme
+=
+=
+'
+webtransport
+-
+h3
+'
+and
+not
+kwargs
+.
+get
+(
+"
+webtransport_h3
+"
+)
+:
+            
+continue
+        
 for
 port
 in
@@ -6437,6 +6460,18 @@ wss
 auto
 "
 ]
+            
+"
+webtransport
+-
+h3
+"
+:
+[
+"
+auto
+"
+]
         
 }
         
@@ -6915,37 +6950,6 @@ h2
 =
 [
 9000
-]
-    
-if
-kwargs
-.
-get
-(
-"
-webtransport_h3
-"
-)
-:
-        
-rv
-.
-_default
-[
-"
-ports
-"
-]
-[
-"
-webtransport
--
-h3
-"
-]
-=
-[
-11000
 ]
     
 if
