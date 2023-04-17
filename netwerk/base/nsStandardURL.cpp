@@ -13564,7 +13564,7 @@ else
 {
 resultPath
 =
-PL_strstr
+strstr
 (
 result
 "
