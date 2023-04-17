@@ -76,6 +76,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+PromiseNativeHandler
+.
+h
+"
+#
+include
+"
 nsINode
 .
 h
