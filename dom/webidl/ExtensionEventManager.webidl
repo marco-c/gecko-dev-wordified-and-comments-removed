@@ -136,11 +136,6 @@ ExtensionEventManager
 {
 [
 Throws
-WebExtensionStub
-=
-"
-NotImplementedNoReturn
-"
 ]
 void
 addListener
@@ -154,11 +149,6 @@ listenerOptions
 ;
 [
 Throws
-WebExtensionStub
-=
-"
-NotImplementedNoReturn
-"
 ]
 void
 removeListener
