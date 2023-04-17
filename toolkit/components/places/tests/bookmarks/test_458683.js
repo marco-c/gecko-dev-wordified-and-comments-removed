@@ -526,9 +526,7 @@ validateResults
 )
 ;
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (
