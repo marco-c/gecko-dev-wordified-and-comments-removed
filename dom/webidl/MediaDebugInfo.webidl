@@ -1068,6 +1068,7 @@ sessionsInfo
 dictionary
 HTMLMediaElementDebugInfo
 {
+unsigned
 long
 compositorDroppedFrames
 =
