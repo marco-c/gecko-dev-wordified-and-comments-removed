@@ -1889,7 +1889,7 @@ MARK_RUNTIME_DATA
 rt
 -
 >
-tracePermanentAtoms
+tracePermanentAtomsDuringInit
 (
 trc
 )
