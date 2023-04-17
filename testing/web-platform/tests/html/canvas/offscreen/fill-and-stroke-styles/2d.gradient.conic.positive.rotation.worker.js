@@ -108,7 +108,13 @@ ctx
 .
 createConicGradient
 (
-0
+3
+*
+Math
+.
+PI
+/
+2
 0
 25
 )
