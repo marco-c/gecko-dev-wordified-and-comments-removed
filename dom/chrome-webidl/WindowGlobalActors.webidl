@@ -647,6 +647,11 @@ documentPrincipal
 readonly
 attribute
 Principal
+documentStoragePrincipal
+;
+readonly
+attribute
+Principal
 ?
 contentBlockingAllowListPrincipal
 ;
