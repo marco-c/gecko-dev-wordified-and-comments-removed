@@ -1295,12 +1295,8 @@ const
 bool
 disabled
 =
-hasFlag
+baselineDisabled
 (
-MutableFlags
-:
-:
-BaselineDisabled
 )
 ;
 #
@@ -1361,12 +1357,8 @@ const
 bool
 disabled
 =
-hasFlag
+ionDisabled
 (
-MutableFlags
-:
-:
-IonDisabled
 )
 ;
 #
