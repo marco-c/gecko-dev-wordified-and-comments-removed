@@ -26294,7 +26294,15 @@ inherit
 initial
 "
 "
+none
+"
+"
 revert
+"
+"
+small
+-
+caps
 "
 "
 style

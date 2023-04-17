@@ -22311,6 +22311,10 @@ allowSyntheticStyle
 (
 true
 )
+allowSyntheticSmallCaps
+(
+true
+)
 noFallbackVariantFeatures
 (
 true
@@ -22342,6 +22346,8 @@ bool
 aAllowWeightSynthesis
 bool
 aAllowStyleSynthesis
+bool
+aAllowSmallCapsSynthesis
 uint32_t
 aLanguageOverride
 )
@@ -22409,6 +22415,10 @@ aAllowWeightSynthesis
 allowSyntheticStyle
 (
 aAllowStyleSynthesis
+)
+allowSyntheticSmallCaps
+(
+aAllowSmallCapsSynthesis
 )
 noFallbackVariantFeatures
 (

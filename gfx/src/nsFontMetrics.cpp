@@ -773,6 +773,11 @@ synthesis
 NS_FONT_SYNTHESIS_STYLE
 aFont
 .
+synthesis
+&
+NS_FONT_SYNTHESIS_SMALL_CAPS
+aFont
+.
 languageOverride
 )
 ;
