@@ -1040,7 +1040,7 @@ data
 [
 addr
 &
-0x7fffff
+WASM_HEAP_MASK
 ]
 \
 n
