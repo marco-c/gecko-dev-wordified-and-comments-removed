@@ -261,6 +261,6 @@ OS
 str
 =
 "
-Unknown
+unknown
 "
 ;
