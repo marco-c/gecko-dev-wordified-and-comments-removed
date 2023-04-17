@@ -2266,6 +2266,16 @@ EnsureNoPaddingBRElementForEmptyEditor
 nodiscard
 ]
 ]
+nsresult
+ReflectPaddingBRElementForEmptyEditor
+(
+)
+;
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
 nsresult
 PrepareInlineStylesForCaret
