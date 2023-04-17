@@ -4820,7 +4820,7 @@ touchEvent
 =
 aInput
 .
-ToWidgetTouchEvent
+ToWidgetEvent
 (
 window
 )

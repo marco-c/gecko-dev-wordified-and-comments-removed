@@ -5059,7 +5059,7 @@ event
 =
 aInput
 .
-ToWidgetTouchEvent
+ToWidgetEvent
 (
 this
 )
@@ -5079,7 +5079,7 @@ event
 =
 aInput
 .
-ToWidgetTouchEvent
+ToWidgetEvent
 (
 this
 )

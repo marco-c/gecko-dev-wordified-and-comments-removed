@@ -831,7 +831,7 @@ WidgetTouchEvent
 MultiTouchInput
 :
 :
-ToWidgetTouchEvent
+ToWidgetEvent
 (
 nsIWidget
 *
