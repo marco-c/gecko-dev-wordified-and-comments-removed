@@ -15105,6 +15105,11 @@ ForceFlushFromParent
 (
 )
 ;
+if
+(
+wgp
+)
+{
 wgp
 -
 >
@@ -15113,6 +15118,7 @@ NotifySessionStoreUpdatesComplete
 embedder
 )
 ;
+}
 return
 ;
 }
@@ -15204,6 +15210,11 @@ embedder
 (
 )
 {
+if
+(
+wgp
+)
+{
 wgp
 -
 >
@@ -15212,6 +15223,7 @@ NotifySessionStoreUpdatesComplete
 embedder
 )
 ;
+}
 }
 )
 ;
