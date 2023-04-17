@@ -10582,6 +10582,16 @@ vp
 )
 ;
 }
+MOZ_ASSERT
+(
+shape
+-
+>
+isCustomDataProperty
+(
+)
+)
+;
 RootedId
 id
 (
