@@ -18580,8 +18580,7 @@ clearStrBufAfterUse
 ;
 doctypeName
 =
-"
-"
+null
 ;
 if
 (
@@ -19651,8 +19650,7 @@ errEofInDoctype
 ;
 doctypeName
 =
-"
-"
+null
 ;
 if
 (
