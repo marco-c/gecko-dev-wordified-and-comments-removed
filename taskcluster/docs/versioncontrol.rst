@@ -405,7 +405,7 @@ ci
 /
 packages
 /
-kind
+debian
 .
 yml
 defines
