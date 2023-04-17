@@ -5736,10 +5736,6 @@ value
 )
 loadResults
 sameEpoch
-aOffset
-=
-=
-0
 aUserActivation
 )
 ;

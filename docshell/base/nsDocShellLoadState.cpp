@@ -2850,7 +2850,7 @@ aRequestedIndex
 int32_t
 aSessionHistoryLength
 bool
-aLoadingCurrentEntry
+aLoadingFromActiveEntry
 )
 {
 if
@@ -2882,9 +2882,9 @@ aSessionHistoryLength
 mLoadingSessionHistoryInfo
 -
 >
-mLoadingCurrentEntry
+mLoadingCurrentActiveEntry
 =
-aLoadingCurrentEntry
+aLoadingFromActiveEntry
 ;
 }
 }

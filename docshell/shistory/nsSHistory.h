@@ -578,10 +578,12 @@ LoadEntryResult
 aLoadResults
 bool
 aSameEpoch
-bool
-aLoadCurrentEntry
+=
+false
 bool
 aUserActivation
+=
+false
 )
 ;
 void
@@ -841,8 +843,6 @@ LoadEntryResult
 &
 aLoadResults
 bool
-aLoadCurrentEntry
-bool
 aUserActivation
 )
 ;
@@ -870,8 +870,6 @@ LoadEntryResult
 &
 aLoadResult
 bool
-aLoadCurrentEntry
-bool
 aUserActivation
 )
 ;
@@ -892,10 +890,12 @@ LoadEntryResult
 aLoadResults
 bool
 aSameEpoch
-bool
-aLoadCurrentEntry
+=
+false
 bool
 aUserActivation
+=
+false
 )
 ;
 nsresult
@@ -968,8 +968,6 @@ LoadEntryResult
 >
 &
 aLoadResults
-bool
-aLoadCurrentEntry
 bool
 aUserActivation
 )
