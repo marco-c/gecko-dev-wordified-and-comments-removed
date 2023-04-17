@@ -1201,18 +1201,30 @@ problems
     
 Command
 (
+        
 "
 doctor
 "
+        
 category
 =
 "
 devenv
 "
+        
 description
 =
 "
+Diagnose
+and
+fix
+common
+development
+environment
+issues
+.
 "
+    
 )
     
 CommandArgument
@@ -1226,7 +1238,7 @@ fix
         
 default
 =
-None
+False
         
 action
 =
@@ -1247,6 +1259,39 @@ problems
     
 )
     
+CommandArgument
+(
+        
+"
+-
+-
+verbose
+"
+        
+default
+=
+False
+        
+action
+=
+"
+store_true
+"
+        
+help
+=
+"
+Print
+verbose
+information
+found
+by
+checks
+.
+"
+    
+)
+    
 def
 doctor
 (
@@ -1254,7 +1299,10 @@ self
 command_context
 fix
 =
-None
+False
+verbose
+=
+False
 )
 :
         
@@ -1269,26 +1317,32 @@ mozbuild
 .
 doctor
 import
-Doctor
+run_doctor
         
-doctor
-=
-Doctor
+return
+run_doctor
 (
+            
+topsrcdir
+=
 self
 .
 topsrcdir
+            
+topobjdir
+=
 self
 .
 topobjdir
+            
 fix
-)
+=
+fix
+            
+verbose
+=
+verbose
         
-return
-doctor
-.
-check_all
-(
 )
 CommandProvider
 class
