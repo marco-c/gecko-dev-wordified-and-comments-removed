@@ -295,7 +295,7 @@ Screen
 MakeScreenWayland
 (
 gint
-aMonitorNum
+aMonitor
 )
 ;
 RefPtr
@@ -333,6 +333,13 @@ GetMonitorForWindow
 nsWindow
 *
 aWindow
+)
+;
+bool
+MonitorUsesNonIntegerScale
+(
+int
+aMonitor
 )
 ;
 private
