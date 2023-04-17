@@ -2327,11 +2327,14 @@ height
 "
 "
         
+try
+:
+            
 width
 height
 =
 new_size
-        
+            
 body
 =
 {
@@ -2346,7 +2349,7 @@ height
 :
 height
 }
-        
+            
 self
 .
 session
@@ -2363,6 +2366,19 @@ rect
 "
 body
 )
+        
+except
+(
+error
+.
+UnknownErrorException
+error
+.
+InvalidArgumentException
+)
+:
+            
+pass
     
 property
     
@@ -2451,11 +2467,14 @@ y
 "
 "
         
+try
+:
+            
 x
 y
 =
 new_position
-        
+            
 body
 =
 {
@@ -2470,7 +2489,7 @@ y
 :
 y
 }
-        
+            
 self
 .
 session
@@ -2487,6 +2506,14 @@ rect
 "
 body
 )
+        
+except
+error
+.
+UnknownErrorException
+:
+            
+pass
     
 command
     
