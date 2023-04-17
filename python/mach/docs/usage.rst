@@ -764,6 +764,10 @@ try
 default
 =
 fuzzy
+.
+.
+_Adding_mach_to_your_shell
+:
 Adding
 mach
 to

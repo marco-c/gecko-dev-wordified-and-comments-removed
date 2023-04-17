@@ -145,6 +145,10 @@ vscode
 dedicated
 page
 .
+.
+.
+_VIM
+:
 VIM
 -
 -
@@ -901,7 +905,7 @@ CompileDB
 back
 -
 end
-/
+-
 compileflags
 >
 .
@@ -1251,7 +1255,7 @@ CompileDB
 back
 -
 end
-/
+-
 compileflags
 >
 .
@@ -1820,6 +1824,15 @@ code
 mach
 ide
 visualstudio
+.
+.
+_CompileDB
+back
+-
+end
+-
+compileflags
+:
 CompileDB
 back
 -

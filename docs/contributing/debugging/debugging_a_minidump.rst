@@ -2089,7 +2089,14 @@ GDB
 Python
 script
 <
-Downloading_symbols_on_Linux_Mac_OS_X
+Downloading
+symbols
+on
+Linux
+/
+Mac
+OS
+X
 >
 to
 download
