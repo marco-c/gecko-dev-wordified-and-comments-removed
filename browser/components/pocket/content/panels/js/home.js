@@ -157,7 +157,7 @@ url
 :
 e
 .
-target
+currentTarget
 .
 getAttribute
 (
@@ -181,7 +181,7 @@ forEach
 (
 (
 el
-index
+position
 )
 =
 >
@@ -208,13 +208,13 @@ url
 :
 e
 .
-target
+currentTarget
 .
 getAttribute
 (
 href
 )
-index
+position
 }
 )
 ;
@@ -252,7 +252,7 @@ url
 :
 e
 .
-target
+currentTarget
 .
 getAttribute
 (
