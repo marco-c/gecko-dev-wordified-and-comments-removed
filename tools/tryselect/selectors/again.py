@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 json
 import
@@ -430,9 +424,6 @@ with
 open
 (
 history_path
-"
-r
-"
 )
 as
 fh

@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 json
 import
@@ -356,9 +350,6 @@ with
 open
 (
 cache
-"
-r
-"
 )
 as
 fh
@@ -698,9 +689,7 @@ paths
     
 flavors
 =
-set
-(
-[
+{
 (
 t
 [
@@ -721,8 +710,7 @@ for
 t
 in
 run_tests
-]
-)
+}
     
 task_regexes
 =

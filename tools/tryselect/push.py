@@ -1,8 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 json
 import
@@ -389,9 +384,6 @@ with
 open
 (
 history_path
-"
-r
-"
 )
 as
 fh
@@ -1070,10 +1062,10 @@ else
 commit_message
 =
 "
-%
-s
-%
-s
+{
+}
+{
+}
 \
 n
 \
@@ -1081,10 +1073,11 @@ nPushed
 via
 mach
 try
-%
-s
+{
+}
 "
-%
+.
+format
 (
         
 msg

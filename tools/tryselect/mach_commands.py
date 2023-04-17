@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 argparse
 import
@@ -12,8 +6,6 @@ import
 os
 import
 sys
-import
-six
 from
 mach
 .
@@ -94,9 +86,6 @@ lstrip
 )
 class
 get_parser
-(
-object
-)
 :
     
 def
@@ -204,9 +193,6 @@ parser
 SettingsProvider
 class
 TryConfig
-(
-object
-)
 :
     
 classmethod
@@ -965,10 +951,6 @@ try_config
 for
 cls
 in
-six
-.
-itervalues
-(
 self
 .
 _mach_context
@@ -978,6 +960,9 @@ handler
 parser
 .
 task_configs
+.
+values
+(
 )
 :
             

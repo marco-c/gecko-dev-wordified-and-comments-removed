@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 collections
 import
@@ -665,9 +659,6 @@ with
 open
 (
 CHUNK_MAPPING_TAG_FILE
-"
-r
-"
 )
 as
 f
@@ -711,7 +702,7 @@ changed
     
 except
 (
-IOError
+OSError
 ValueError
 )
 :
@@ -1447,8 +1438,7 @@ path
 )
     
 return
-set
-(
+{
 e
 [
 0
@@ -1461,7 +1451,7 @@ cursor
 fetchall
 (
 )
-)
+}
 def
 tests_in_chunk
 (
@@ -1518,8 +1508,7 @@ chunk
 )
     
 return
-set
-(
+{
 e
 [
 0
@@ -1541,7 +1530,7 @@ cursor
 fetchall
 (
 )
-)
+}
 def
 chunks_covering_file
 (
@@ -1890,8 +1879,7 @@ files_no_coverage
         
 test_files
 =
-set
-(
+{
 s
 .
 replace
@@ -1908,7 +1896,7 @@ for
 s
 in
 test_files
-)
+}
         
 _print_found_tests
 (
