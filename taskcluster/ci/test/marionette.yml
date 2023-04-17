@@ -185,6 +185,8 @@ linux
 64
 -
 asan
+-
+qr
 /
 opt
 :
