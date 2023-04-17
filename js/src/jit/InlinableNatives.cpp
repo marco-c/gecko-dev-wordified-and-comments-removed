@@ -1439,6 +1439,12 @@ case
 InlinableNative
 :
 :
+MapHas
+:
+case
+InlinableNative
+:
+:
 NumberToString
 :
 case
