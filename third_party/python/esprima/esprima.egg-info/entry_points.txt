@@ -1,0 +1,10 @@
+[
+console_scripts
+]
+esprima
+=
+esprima
+.
+__main__
+:
+main
