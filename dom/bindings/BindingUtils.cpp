@@ -119,6 +119,15 @@ include
 "
 js
 /
+CallAndConstruct
+.
+h
+"
+#
+include
+"
+js
+/
 experimental
 /
 JitInfo

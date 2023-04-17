@@ -8,6 +8,15 @@ h
 #
 include
 "
+js
+/
+CallAndConstruct
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests

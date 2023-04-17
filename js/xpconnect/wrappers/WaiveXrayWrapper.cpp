@@ -19,6 +19,15 @@ jsapi
 .
 h
 "
+#
+include
+"
+js
+/
+CallAndConstruct
+.
+h
+"
 using
 namespace
 JS

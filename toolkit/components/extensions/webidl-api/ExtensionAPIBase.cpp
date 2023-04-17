@@ -87,6 +87,15 @@ FunctionBinding
 .
 h
 "
+#
+include
+"
+js
+/
+CallAndConstruct
+.
+h
+"
 namespace
 mozilla
 {

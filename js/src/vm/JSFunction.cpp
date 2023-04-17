@@ -198,6 +198,15 @@ include
 "
 js
 /
+CallAndConstruct
+.
+h
+"
+#
+include
+"
+js
+/
 CallNonGenericMethod
 .
 h
