@@ -15802,7 +15802,7 @@ ScrollbartrackHorizontal
 ;
 if
 (
-nsLookAndFeel
+LookAndFeel
 :
 :
 UseOverlayScrollbars
@@ -18064,7 +18064,7 @@ parentFrame
 return
 (
 !
-nsLookAndFeel
+LookAndFeel
 :
 :
 UseOverlayScrollbars
@@ -18748,7 +18748,7 @@ Scrollcorner
 {
 if
 (
-nsLookAndFeel
+LookAndFeel
 :
 :
 UseOverlayScrollbars
