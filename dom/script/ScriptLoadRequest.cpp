@@ -1130,7 +1130,7 @@ ScriptLoadRequestList
 (
 )
 {
-Clear
+CancelRequestsAndClear
 (
 )
 ;
@@ -1139,7 +1139,7 @@ void
 ScriptLoadRequestList
 :
 :
-Clear
+CancelRequestsAndClear
 (
 )
 {

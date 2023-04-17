@@ -1387,7 +1387,7 @@ ScriptLoadRequestList
 )
 ;
 void
-Clear
+CancelRequestsAndClear
 (
 )
 ;
