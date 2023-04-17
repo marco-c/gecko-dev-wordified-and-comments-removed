@@ -19,10 +19,6 @@ traceback
 import
 uuid
 from
-six
-import
-ensure_str
-from
 mozprocess
 import
 ProcessHandler
@@ -1538,14 +1534,15 @@ read
 return
 True
 [
-ensure_str
-(
 base64
 .
 b64encode
 (
 data
 )
+.
+decode
+(
 )
 ]
     
