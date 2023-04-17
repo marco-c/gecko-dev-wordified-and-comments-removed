@@ -5433,7 +5433,7 @@ true
 }
 bool
 bergamont_disabled
-;
+=
 Preferences
 :
 :
@@ -5446,8 +5446,7 @@ translations
 .
 disabled
 "
-&
-bergamont_disabled
+true
 )
 ;
 if
