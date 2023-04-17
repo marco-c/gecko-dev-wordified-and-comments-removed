@@ -116,9 +116,6 @@ class
 nsHtml5AttributeName
 ;
 class
-nsHtml5HtmlAttributes
-;
-class
 nsHtml5ElementName
 ;
 class
