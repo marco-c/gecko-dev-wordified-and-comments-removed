@@ -2794,7 +2794,7 @@ null
 ;
 }
 bool
-canSkipLazyInnerFunctions
+reuseLazyInnerFunctions
 (
 )
 {
@@ -2803,7 +2803,7 @@ false
 ;
 }
 bool
-canSkipLazyClosedOverBindings
+reuseClosedOverBindings
 (
 )
 {
