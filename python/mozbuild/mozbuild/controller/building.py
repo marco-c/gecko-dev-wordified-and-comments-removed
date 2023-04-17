@@ -7356,15 +7356,6 @@ True
 )
             
 if
-"
-Make
-"
-not
-in
-active_backend
-:
-                
-if
 jobs
 =
 =
@@ -7378,7 +7369,7 @@ self
 .
 mozconfig
 :
-                    
+                
 for
 param
 in
@@ -7391,7 +7382,7 @@ make_extra
 "
 ]
 :
-                        
+                    
 key
 value
 =
@@ -7404,7 +7395,7 @@ split
 "
 1
 )
-                        
+                    
 if
 key
 =
@@ -7413,13 +7404,22 @@ key
 MOZ_PARALLEL_BUILD
 "
 :
-                            
+                        
 jobs
 =
 int
 (
 value
 )
+            
+if
+"
+Make
+"
+not
+in
+active_backend
+:
                 
 backend_cls
 =
@@ -10234,10 +10234,6 @@ client
 .
 mk
 "
-            
-allow_parallel
-=
-False
             
 ensure_exit_code
 =

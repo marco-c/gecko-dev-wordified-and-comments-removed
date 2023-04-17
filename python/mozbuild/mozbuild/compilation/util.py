@@ -176,9 +176,9 @@ print_directory
 =
 False
             
-allow_parallel
+num_jobs
 =
-False
+1
             
 silent
 =
