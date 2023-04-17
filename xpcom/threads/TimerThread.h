@@ -272,10 +272,7 @@ Init
 (
 )
 ;
-already_AddRefed
-<
-nsTimerImpl
->
+void
 PostTimerEvent
 (
 already_AddRefed
