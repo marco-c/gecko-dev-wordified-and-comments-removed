@@ -1056,9 +1056,17 @@ return
 False
         
 if
+(
+            
 env_requirements
 .
 pth_requirements
+or
+env_requirements
+.
+vendored_requirements
+        
+)
 and
 self
 .
@@ -1199,6 +1207,11 @@ in
 env_requirements
 .
 pth_requirements
+                
++
+env_requirements
+.
+vendored_requirements
             
 ]
             
@@ -2063,9 +2076,18 @@ f
 for
 pth_requirement
 in
+(
+                        
 env_requirements
 .
 pth_requirements
+                        
++
+env_requirements
+.
+vendored_requirements
+                    
+)
 :
                         
 path
