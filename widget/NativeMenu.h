@@ -48,6 +48,14 @@ aPosition
 =
 0
 ;
+virtual
+bool
+Close
+(
+)
+=
+0
+;
 class
 Observer
 {

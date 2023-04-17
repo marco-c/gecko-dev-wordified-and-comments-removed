@@ -276,6 +276,11 @@ MenuClosedAsync
 (
 )
 ;
+bool
+Close
+(
+)
+;
 void
 SetRebuild
 (

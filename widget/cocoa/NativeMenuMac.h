@@ -93,6 +93,12 @@ aPosition
 )
 override
 ;
+bool
+Close
+(
+)
+override
+;
 void
 AddObserver
 (
