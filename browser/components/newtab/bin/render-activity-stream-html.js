@@ -400,6 +400,8 @@ data
 :
 blob
 :
+chrome
+:
 ;
 style
 -
