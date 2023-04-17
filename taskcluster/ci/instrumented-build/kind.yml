@@ -668,7 +668,9 @@ wasi
 sysroot
 android
 -
-arm
+api
+-
+16
 -
 shippable
 /
@@ -681,7 +683,10 @@ Android
 4
 .
 0
-Arm
+api
+-
+16
++
 PGO
 instrumented
 "
@@ -698,7 +703,9 @@ instrumented
 -
 android
 -
-arm
+api
+-
+16
 shipping
 -
 product
@@ -715,6 +722,8 @@ android
 0
 -
 armv7
+-
+api16
 /
 pgo
 worker
@@ -928,7 +937,9 @@ variant
 -
 cfg
 :
-arm
+api
+-
+16
 -
 profile
 -

@@ -17,7 +17,9 @@ android
 "
 android
 -
-arm
+api
+-
+16
 "
 "
 android
@@ -49,7 +51,9 @@ android
 "
 android
 -
-arm
+api
+-
+16
 "
 "
 android
@@ -81,7 +85,9 @@ android
 "
 android
 -
-arm
+api
+-
+16
 "
 "
 android
@@ -113,7 +119,9 @@ android
 "
 android
 -
-arm
+api
+-
+16
 "
 "
 android

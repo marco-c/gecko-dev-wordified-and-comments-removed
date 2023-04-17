@@ -463,7 +463,9 @@ minidump
 stackwalk
 android
 -
-arm
+api
+-
+16
 -
 shippable
 /
@@ -476,7 +478,10 @@ Android
 4
 .
 0
-Arm
+api
+-
+16
++
 Profile
 Generation
 "
@@ -501,7 +506,9 @@ name
 :
 android
 -
-arm
+api
+-
+16
 -
 profile
 treeherder
@@ -515,6 +522,8 @@ android
 0
 -
 armv7
+-
+api16
 /
 pgo
 worker

@@ -1705,7 +1705,9 @@ py
 "
         
 "
-arm
+api
+-
+16
 -
 gradle
 -
@@ -1717,26 +1719,30 @@ path_base
 +
 "
 %
-s_arm_gradle_dependencies
+s_api_16_gradle_dependencies
 .
 py
 "
         
 "
-arm
+api
+-
+16
 "
 :
 path_base
 +
 "
 %
-s_arm
+s_api_16
 .
 py
 "
         
 "
-arm
+api
+-
+16
 -
 beta
 "
@@ -1745,13 +1751,15 @@ path_base
 +
 "
 %
-s_arm_beta
+s_api_16_beta
 .
 py
 "
         
 "
-arm
+api
+-
+16
 -
 beta
 -
@@ -1762,13 +1770,15 @@ path_base
 +
 "
 %
-s_arm_beta_debug
+s_api_16_beta_debug
 .
 py
 "
         
 "
-arm
+api
+-
+16
 -
 debug
 "
@@ -1777,13 +1787,15 @@ path_base
 +
 "
 %
-s_arm_debug
+s_api_16_debug
 .
 py
 "
         
 "
-arm
+api
+-
+16
 -
 debug
 -
@@ -1794,13 +1806,15 @@ path_base
 +
 "
 %
-s_arm_debug_ccov
+s_api_16_debug_ccov
 .
 py
 "
         
 "
-arm
+api
+-
+16
 -
 debug
 -
@@ -1811,13 +1825,15 @@ path_base
 +
 "
 %
-s_arm_debug_searchfox
+s_api_16_debug_searchfox
 .
 py
 "
         
 "
-arm
+api
+-
+16
 -
 gradle
 "
@@ -1826,13 +1842,15 @@ path_base
 +
 "
 %
-s_arm_gradle
+s_api_16_gradle
 .
 py
 "
         
 "
-arm
+api
+-
+16
 -
 profile
 -
@@ -1843,7 +1861,7 @@ path_base
 +
 "
 %
-s_arm_profile_generate
+s_api_16_profile_generate
 .
 py
 "
@@ -2051,7 +2069,9 @@ py
 "
         
 "
-arm
+api
+-
+16
 -
 partner
 -
@@ -2062,7 +2082,7 @@ path_base
 +
 "
 %
-s_arm_partner_sample1
+s_api_16_partner_sample1
 .
 py
 "

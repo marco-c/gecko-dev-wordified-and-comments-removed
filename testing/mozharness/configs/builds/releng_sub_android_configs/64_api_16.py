@@ -9,7 +9,9 @@ stage_platform
 "
 android
 -
-arm
+api
+-
+16
 "
     
 "
@@ -27,7 +29,9 @@ mozconfigs
 /
 android
 -
-arm
+api
+-
+16
 /
 nightly
 "

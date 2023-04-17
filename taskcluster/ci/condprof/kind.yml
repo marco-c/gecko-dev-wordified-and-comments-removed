@@ -684,6 +684,10 @@ g5
 -
 arm7
 -
+api
+-
+16
+-
 geckoview
 :
 worker
@@ -731,6 +735,10 @@ g5
 0
 -
 arm7
+-
+api
+-
+16
 /
 opt
 index
@@ -755,7 +763,9 @@ build
 -
 android
 -
-arm
+api
+-
+16
 -
 shippable
 /
@@ -902,6 +912,10 @@ g5
 -
 arm7
 -
+api
+-
+16
+-
 fenix
 :
 worker
@@ -949,6 +963,10 @@ g5
 0
 -
 arm7
+-
+api
+-
+16
 /
 opt
 index
@@ -1245,7 +1263,9 @@ build
 -
 android
 -
-arm
+api
+-
+16
 -
 shippable
 /
@@ -1525,7 +1545,9 @@ build
 -
 android
 -
-arm
+api
+-
+16
 -
 shippable
 /

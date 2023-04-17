@@ -174,6 +174,10 @@ g5
 -
 arm7
 -
+api
+-
+16
+-
 shippable
 /
 opt
@@ -285,6 +289,10 @@ g5
 0
 -
 arm7
+-
+api
+-
+16
 -
 shippable
 /
@@ -725,6 +733,10 @@ g5
 -
 arm7
 -
+api
+-
+16
+-
 shippable
 /
 opt
@@ -1152,6 +1164,10 @@ g5
 0
 -
 arm7
+-
+api
+-
+16
 -
 shippable
 /
@@ -1690,6 +1706,10 @@ g5
 0
 -
 arm7
+-
+api
+-
+16
 -
 shippable
 /
@@ -2178,6 +2198,10 @@ g5
 0
 -
 arm7
+-
+api
+-
+16
 -
 shippable
 /

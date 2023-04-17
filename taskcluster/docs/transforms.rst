@@ -585,7 +585,9 @@ would
 match
 android
 -
-arm
+api
+-
+16
 /
 debug
 .

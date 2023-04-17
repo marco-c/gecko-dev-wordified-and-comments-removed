@@ -861,6 +861,8 @@ android
 0
 -
 armv7
+-
+api16
 /
 debug
 worker
@@ -993,7 +995,9 @@ variant
 -
 cfg
 :
-arm
+api
+-
+16
 -
 debug
 -

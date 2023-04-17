@@ -9,7 +9,9 @@ stage_platform
 "
 android
 -
-arm
+api
+-
+16
 -
 partner
 -
