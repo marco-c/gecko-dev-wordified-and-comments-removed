@@ -442,6 +442,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 GetCurrentPosition
 (
@@ -568,6 +569,7 @@ Geolocation
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCurrentPosition
 (
@@ -629,6 +631,11 @@ ShouldBlockInsecureRequests
 (
 )
 const
+;
+bool
+IsFullyActiveOrChrome
+(
+)
 ;
 nsTArray
 <
