@@ -73,7 +73,10 @@ testharness
 :
 chunks
 :
-17
+16
+maxRunTime
+:
+10800
 vars
 :
 test
