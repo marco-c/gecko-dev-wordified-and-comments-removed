@@ -33758,7 +33758,7 @@ if
 pc
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 )
