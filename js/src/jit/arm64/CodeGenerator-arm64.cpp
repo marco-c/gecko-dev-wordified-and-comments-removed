@@ -16,6 +16,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MathAlgorithms
 .
 h
@@ -24188,6 +24197,9 @@ asInt8x16
 #
 ifdef
 DEBUG
+mozilla
+:
+:
 DebugOnly
 <
 int
@@ -24280,6 +24292,9 @@ asInt16x8
 #
 ifdef
 DEBUG
+mozilla
+:
+:
 DebugOnly
 <
 int
@@ -24372,6 +24387,9 @@ asInt32x4
 #
 ifdef
 DEBUG
+mozilla
+:
+:
 DebugOnly
 <
 int

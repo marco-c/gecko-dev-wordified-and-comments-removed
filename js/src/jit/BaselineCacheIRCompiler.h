@@ -16,15 +16,6 @@ h
 #
 include
 "
-gc
-/
-Barrier
-.
-h
-"
-#
-include
-"
 jit
 /
 CacheIR

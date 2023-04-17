@@ -62,15 +62,6 @@ h
 #
 include
 "
-jit
-/
-IonTypes
-.
-h
-"
-#
-include
-"
 js
 /
 ScalarType
@@ -872,9 +863,6 @@ argv
 MutableHandleValue
 rval
 )
-;
-class
-InterpreterStubExitFrameLayout
 ;
 bool
 InvokeFromInterpreterStub

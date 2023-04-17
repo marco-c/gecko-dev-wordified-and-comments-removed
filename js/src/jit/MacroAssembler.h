@@ -234,6 +234,15 @@ include
 "
 jit
 /
+MoveResolver
+.
+h
+"
+#
+include
+"
+jit
+/
 VMFunctions
 .
 h

@@ -82,15 +82,6 @@ include
 "
 jit
 /
-CompileInfo
-.
-h
-"
-#
-include
-"
-jit
-/
 LIR
 .
 h
@@ -181,7 +172,7 @@ include
 "
 wasm
 /
-WasmInstance
+WasmCode
 .
 h
 "
