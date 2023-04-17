@@ -6715,6 +6715,13 @@ type
 =
 time
 ]
+[
+type
+=
+datetime
+-
+local
+]
 )
 {
 overflow
@@ -6750,6 +6757,13 @@ date
 type
 =
 time
+]
+[
+type
+=
+datetime
+-
+local
 ]
 )
 :
