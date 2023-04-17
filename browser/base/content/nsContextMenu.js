@@ -502,7 +502,7 @@ srcUrl
 :
 this
 .
-mediaURL
+originalMediaURL
 frameUrl
 :
 this
