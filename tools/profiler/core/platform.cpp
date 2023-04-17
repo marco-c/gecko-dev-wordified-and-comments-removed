@@ -10937,15 +10937,6 @@ gecko_profiler_stream_marker_schemas
 (
 &
 aWriter
-static_cast
-<
-void
-*
->
-(
-&
-names
-)
 )
 ;
 }
