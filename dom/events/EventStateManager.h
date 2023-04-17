@@ -909,6 +909,7 @@ nsIContent
 aMovingInto
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 GenerateDragDropEnterExit
 (
@@ -929,6 +930,7 @@ WidgetMouseEvent
 aMouseEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireDragEnterOrExit
 (
