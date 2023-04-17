@@ -724,6 +724,10 @@ aEvent
 -
 >
 mInputSource
+aEvent
+-
+>
+mButton
 )
 ;
 }
