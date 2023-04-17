@@ -247,7 +247,7 @@ return
 if
 (
 speed
-=
+>
 =
 SpeedTier
 :

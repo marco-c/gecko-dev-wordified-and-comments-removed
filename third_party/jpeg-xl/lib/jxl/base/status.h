@@ -141,6 +141,15 @@ JXL_DEBUG_V_LEVEL
 0
 #
 endif
+#
+ifndef
+JXL_DEBUG_ON_ABORT
+#
+define
+JXL_DEBUG_ON_ABORT
+1
+#
+endif
 JXL_FORMAT
 (
 1
@@ -302,6 +311,11 @@ format
 )
 \
 (
+(
+JXL_DEBUG_ON_ABORT
+)
+&
+&
 :
 :
 jxl
@@ -326,9 +340,9 @@ format
 n
 "
 )
+\
 __FILE__
 __LINE__
-\
 #
 #
 __VA_ARGS__
@@ -367,7 +381,7 @@ condition
 \
 JXL_DEBUG
 (
-true
+JXL_DEBUG_ON_ABORT
 "
 JXL_ASSERT
 :
@@ -415,6 +429,9 @@ while
 )
 #
 endif
+#
+ifndef
+JXL_IS_DEBUG_BUILD
 #
 if
 !
@@ -461,6 +478,8 @@ JXL_IS_DEBUG_BUILD
 #
 endif
 #
+endif
+#
 if
 JXL_IS_DEBUG_BUILD
 #
@@ -484,7 +503,7 @@ condition
 \
 JXL_DEBUG
 (
-true
+JXL_DEBUG_ON_ABORT
 "
 JXL_DASSERT
 :
@@ -556,7 +575,7 @@ condition
 \
 JXL_DEBUG
 (
-true
+JXL_DEBUG_ON_ABORT
 "
 JXL_CHECK
 :

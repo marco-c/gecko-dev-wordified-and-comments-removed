@@ -181,6 +181,8 @@ pool
 ImageBundle
 *
 ib
+bool
+float_in
 )
 ;
 Status

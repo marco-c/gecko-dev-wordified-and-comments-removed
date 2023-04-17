@@ -1,7 +1,3 @@
-debian
-/
-tmp
-/
 usr
 /
 include
@@ -11,10 +7,6 @@ jxl
 *
 .
 h
-debian
-/
-tmp
-/
 usr
 /
 lib
@@ -24,10 +16,6 @@ lib
 *
 .
 a
-debian
-/
-tmp
-/
 usr
 /
 lib
@@ -37,10 +25,6 @@ lib
 *
 .
 so
-debian
-/
-tmp
-/
 usr
 /
 lib

@@ -227,6 +227,15 @@ size
 )
 ;
 JXL_EXPORT
+void
+JxlEncoderInitBasicInfo
+(
+JxlBasicInfo
+*
+info
+)
+;
+JXL_EXPORT
 JxlEncoderStatus
 JxlEncoderSetBasicInfo
 (

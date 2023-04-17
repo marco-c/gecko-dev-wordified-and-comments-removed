@@ -736,6 +736,7 @@ BitCast
 du
 VecFromMask
 (
+df
 above_pihalf
 )
 )
@@ -935,6 +936,7 @@ BitCast
 du
 VecFromMask
 (
+df
 xle0
 )
 )
