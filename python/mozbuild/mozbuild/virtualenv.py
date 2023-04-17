@@ -710,8 +710,6 @@ py
         
 )
     
-property
-    
 def
 version_info
 (
