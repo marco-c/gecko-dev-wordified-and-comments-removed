@@ -1372,6 +1372,12 @@ applied
 "
 failed
 "
+"
+newFailed
+"
+"
+reconciled
+"
 ]
 ;
 for
