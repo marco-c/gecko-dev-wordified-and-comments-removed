@@ -125,6 +125,14 @@ gles1
 )
 ;
 static
+ClientVertexArrayType
+VertexArrayType
+(
+int
+attribIndex
+)
+;
+static
 int
 TexCoordArrayIndex
 (
@@ -242,10 +250,10 @@ vshader
 ShaderProgramID
 fshader
 const
-std
+angle
 :
 :
-unordered_map
+HashMap
 <
 GLint
 std

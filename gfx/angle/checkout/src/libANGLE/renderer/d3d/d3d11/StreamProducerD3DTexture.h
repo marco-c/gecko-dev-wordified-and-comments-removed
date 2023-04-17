@@ -48,6 +48,7 @@ egl
 Error
 validateD3DTexture
 (
+const
 void
 *
 pointer

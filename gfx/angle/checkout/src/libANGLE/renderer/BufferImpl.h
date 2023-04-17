@@ -137,6 +137,8 @@ gl
 :
 BufferBinding
 target
+GLeglClientBufferEXT
+clientBuffer
 const
 void
 *

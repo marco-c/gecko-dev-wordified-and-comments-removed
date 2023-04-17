@@ -3010,7 +3010,7 @@ true
 extensions
 -
 >
-framebufferBlit
+framebufferBlitANGLE
 =
 true
 ;

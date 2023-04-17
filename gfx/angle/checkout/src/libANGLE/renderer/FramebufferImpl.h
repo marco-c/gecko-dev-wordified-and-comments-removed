@@ -428,7 +428,10 @@ filter
 0
 ;
 virtual
-bool
+gl
+:
+:
+FramebufferStatus
 checkStatus
 (
 const

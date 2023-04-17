@@ -1,9 +1,9 @@
 #
 ifndef
-__gl2_h_
+__gles2_gl2_h_
 #
 define
-__gl2_h_
+__gles2_gl2_h_
 1
 #
 ifdef
@@ -72,12 +72,11 @@ khronos_int32_t
 GLfixed
 ;
 typedef
-short
+khronos_int16_t
 GLshort
 ;
 typedef
-unsigned
-short
+khronos_uint16_t
 GLushort
 ;
 typedef
@@ -2793,7 +2792,7 @@ GLuint
 *
 shaders
 GLenum
-binaryformat
+binaryFormat
 const
 void
 *
@@ -4792,7 +4791,7 @@ GLuint
 *
 shaders
 GLenum
-binaryformat
+binaryFormat
 const
 void
 *
