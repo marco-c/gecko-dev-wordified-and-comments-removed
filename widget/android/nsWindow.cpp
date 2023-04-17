@@ -859,6 +859,17 @@ mozilla
 /
 layers
 /
+LayerTransactionParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 UiCompositorControllerChild
 .
 h

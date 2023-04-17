@@ -399,6 +399,9 @@ class
 LayerManagerComposite
 ;
 class
+PLayerTransactionChild
+;
+class
 WebRenderBridgeChild
 ;
 }
@@ -1130,6 +1133,16 @@ layers
 :
 LayersId
 LayersId
+;
+typedef
+mozilla
+:
+:
+layers
+:
+:
+PLayerTransactionChild
+PLayerTransactionChild
 ;
 typedef
 mozilla

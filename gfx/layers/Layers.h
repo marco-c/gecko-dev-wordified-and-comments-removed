@@ -417,6 +417,9 @@ class
 HostLayer
 ;
 class
+ShadowableLayer
+;
+class
 SpecificLayerAttributes
 ;
 class
@@ -3048,6 +3051,17 @@ virtual
 HostLayer
 *
 AsHostLayer
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+ShadowableLayer
+*
+AsShadowableLayer
 (
 )
 {

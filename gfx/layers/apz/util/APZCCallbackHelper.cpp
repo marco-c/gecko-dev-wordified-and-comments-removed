@@ -77,6 +77,17 @@ mozilla
 /
 layers
 /
+LayerTransactionChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 RepaintRequest
 .
 h

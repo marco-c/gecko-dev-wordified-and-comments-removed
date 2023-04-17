@@ -3,6 +3,10 @@ LayersSurfaces
 ;
 include
 protocol
+PLayerTransaction
+;
+include
+protocol
 PCompositorBridge
 ;
 include

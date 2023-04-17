@@ -63,6 +63,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+LayerTransactionParent
+.
+h
+"
+#
+include
+"
 nsFrameLoader
 .
 h

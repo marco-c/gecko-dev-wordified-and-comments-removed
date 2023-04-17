@@ -535,6 +535,17 @@ mozilla
 /
 layers
 /
+LayerTransactionParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 MetricsSharingController
 .
 h
