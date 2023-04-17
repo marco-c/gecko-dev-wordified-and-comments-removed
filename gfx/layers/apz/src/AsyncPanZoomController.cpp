@@ -989,12 +989,6 @@ return
 gIsHighMemSystem
 ;
 }
-static
-uint32_t
-sAsyncPanZoomControllerCount
-=
-0
-;
 AsyncPanZoomAnimation
 *
 PlatformSpecificStateBase
@@ -1898,9 +1892,7 @@ false
 )
 mAPZCId
 (
-sAsyncPanZoomControllerCount
-+
-+
+0
 )
 mSharedLock
 (
