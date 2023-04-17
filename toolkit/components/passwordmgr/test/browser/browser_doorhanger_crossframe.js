@@ -236,7 +236,7 @@ msg
 =
 =
 "
-ShowDoorhanger
+FormSubmit
 "
 )
 {
