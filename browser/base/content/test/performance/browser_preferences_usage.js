@@ -881,7 +881,7 @@ min
 100
 max
 :
-101
+110
 }
 ;
 knownProblematicPrefs
@@ -903,7 +903,7 @@ min
 100
 max
 :
-101
+110
 }
 ;
 knownProblematicPrefs
