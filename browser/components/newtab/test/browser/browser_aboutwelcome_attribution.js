@@ -108,12 +108,9 @@ button
 content
 :
 "
-iridium
-particlecore
-.
-github
-.
-io
+rta
+:
+whatever
 "
 }
 ;
@@ -156,10 +153,6 @@ icons
 32
 :
 "
-https
-:
-/
-/
 test
 .
 png
@@ -167,10 +160,6 @@ png
 64
 :
 "
-https
-:
-/
-/
 test
 .
 png
