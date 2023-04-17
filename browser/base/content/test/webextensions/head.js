@@ -119,6 +119,11 @@ Management
 }
 )
 ;
+let
+{
+CustomizableUITestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -136,7 +141,6 @@ CustomizableUITestUtils
 .
 jsm
 "
-this
 )
 ;
 let
