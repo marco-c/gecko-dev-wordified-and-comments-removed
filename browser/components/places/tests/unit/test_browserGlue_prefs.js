@@ -46,6 +46,8 @@ const
 TOPICDATA_FORCE_PLACES_INIT
 =
 "
+test
+-
 force
 -
 places
