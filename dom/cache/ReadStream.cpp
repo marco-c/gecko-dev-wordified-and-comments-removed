@@ -1032,8 +1032,11 @@ IsOnCurrentThread
 )
 )
 ;
+MOZ_ALWAYS_SUCCEEDS
+(
 Close
 (
+)
 )
 ;
 }
