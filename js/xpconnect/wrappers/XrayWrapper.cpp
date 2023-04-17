@@ -2285,13 +2285,6 @@ selfHosted
 funname
 )
 {
-MOZ_ASSERT
-(
-attrs
-&
-JSPROP_SETTER
-)
-;
 JSFunction
 *
 setterFun

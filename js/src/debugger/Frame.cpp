@@ -8548,8 +8548,6 @@ id
 getobj
 nullptr
 JSPROP_ENUMERATE
-|
-JSPROP_GETTER
 )
 )
 {

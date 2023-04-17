@@ -27486,11 +27486,6 @@ JSOp
 InitHiddenElemGetter
 )
 {
-attrs
-|
-=
-JSPROP_GETTER
-;
 return
 DefineAccessorProperty
 (
@@ -27540,11 +27535,6 @@ JSOp
 :
 InitHiddenElemSetter
 )
-;
-attrs
-|
-=
-JSPROP_SETTER
 ;
 return
 DefineAccessorProperty
