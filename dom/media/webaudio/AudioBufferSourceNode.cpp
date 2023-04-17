@@ -2760,7 +2760,7 @@ Detune
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .
@@ -2805,7 +2805,7 @@ PlaybackRate
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .

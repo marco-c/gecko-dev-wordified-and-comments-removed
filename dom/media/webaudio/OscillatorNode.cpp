@@ -1855,7 +1855,7 @@ Frequency
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .
@@ -1870,7 +1870,7 @@ Detune
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .

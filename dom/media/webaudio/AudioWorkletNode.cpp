@@ -3620,7 +3620,7 @@ name
 audioParam
 -
 >
-SetValue
+SetInitialValue
 (
 paramDataEntry
 .

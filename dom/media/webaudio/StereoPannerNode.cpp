@@ -938,7 +938,7 @@ Pan
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .
