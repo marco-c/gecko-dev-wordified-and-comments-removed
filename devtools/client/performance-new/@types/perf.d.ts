@@ -107,7 +107,7 @@ startProfiler
 (
 options
 :
-RecordingStateFromPreferences
+RecordingSettings
 )
 =
 >
@@ -748,7 +748,7 @@ SetRecordingSettings
 (
 settings
 :
-RecordingStateFromPreferences
+RecordingSettings
 )
 =
 >
@@ -814,7 +814,7 @@ GetSymbolTableCallback
 }
 export
 interface
-RecordingStateFromPreferences
+RecordingSettings
 {
 presetName
 :
@@ -1106,7 +1106,7 @@ void
 ;
 recordingSettingsFromPreferences
 :
-RecordingStateFromPreferences
+RecordingSettings
 ;
 getSymbolTableGetter
 :
@@ -1172,7 +1172,7 @@ PageContext
 ;
 recordingSettings
 :
-RecordingStateFromPreferences
+RecordingSettings
 ;
 supportedFeatures
 :
