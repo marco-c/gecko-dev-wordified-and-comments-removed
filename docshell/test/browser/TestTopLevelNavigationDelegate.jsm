@@ -74,6 +74,7 @@ shouldNavigate
 (
 docShell
 URI
+loadType
 referrer
 hasPostData
 triggeringPrincipal
