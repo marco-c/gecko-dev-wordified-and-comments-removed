@@ -28,6 +28,13 @@ h
 #
 include
 <
+ole2
+.
+h
+>
+#
+include
+<
 windows
 .
 h
