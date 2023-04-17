@@ -112,15 +112,7 @@ NonNativeThemeShouldUseSystemColors
 (
 )
 const
-{
-return
-mUseAccessibilityTheme
-&
-&
-!
-mUseDocumentColors
 ;
-}
 void
 Load
 (
