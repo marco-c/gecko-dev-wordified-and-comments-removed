@@ -312,16 +312,9 @@ return
 NS_OK
 ;
 }
-{
-MutexAutoLock
-lock
-(
-mDirPaddingFileMutex
-)
-;
 CACHE_TRY
 (
-LockedUpdateDirectoryPaddingFile
+UpdateDirectoryPaddingFile
 (
 aBaseDir
 aConn
@@ -344,7 +337,7 @@ QM_OR_ELSE_WARN
 (
 ToResult
 (
-LockedDirectoryPaddingFinalizeWrite
+DirectoryPaddingFinalizeWrite
 (
 aBaseDir
 )
@@ -369,7 +362,7 @@ nsresult
 Unused
 <
 <
-LockedDirectoryPaddingDeleteFile
+DirectoryPaddingDeleteFile
 (
 aBaseDir
 DirPaddingFile
@@ -400,7 +393,6 @@ Ok
 )
 )
 ;
-}
 return
 NS_OK
 ;
@@ -472,12 +464,6 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 CacheQuotaClient
 override
 )
-mozilla
-:
-:
-Mutex
-mDirPaddingFileMutex
-;
 }
 ;
 }

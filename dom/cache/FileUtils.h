@@ -365,7 +365,7 @@ Result
 int64_t
 nsresult
 >
-LockedDirectoryPaddingGet
+DirectoryPaddingGet
 (
 nsIFile
 &
@@ -373,7 +373,7 @@ aBaseDir
 )
 ;
 nsresult
-LockedDirectoryPaddingInit
+DirectoryPaddingInit
 (
 nsIFile
 &
@@ -381,7 +381,7 @@ aBaseDir
 )
 ;
 nsresult
-LockedUpdateDirectoryPaddingFile
+UpdateDirectoryPaddingFile
 (
 nsIFile
 &
@@ -398,7 +398,7 @@ aTemporaryFileExist
 )
 ;
 nsresult
-LockedDirectoryPaddingFinalizeWrite
+DirectoryPaddingFinalizeWrite
 (
 nsIFile
 &
@@ -410,7 +410,7 @@ Result
 int64_t
 nsresult
 >
-LockedDirectoryPaddingRestore
+DirectoryPaddingRestore
 (
 nsIFile
 &
@@ -423,7 +423,7 @@ aMustRestore
 )
 ;
 nsresult
-LockedDirectoryPaddingDeleteFile
+DirectoryPaddingDeleteFile
 (
 nsIFile
 &
