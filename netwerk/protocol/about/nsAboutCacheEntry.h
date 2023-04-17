@@ -46,13 +46,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-nsIChannel
-.
-h
-"
 class
 nsIAsyncOutputStream
 ;

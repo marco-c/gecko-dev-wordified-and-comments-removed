@@ -18,13 +18,6 @@ Unused
 .
 h
 "
-#
-include
-"
-nsIAsyncOutputStream
-.
-h
-"
 namespace
 mozilla
 {

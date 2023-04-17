@@ -94,13 +94,6 @@ nsStreamUtils
 .
 h
 "
-#
-include
-"
-nsQueryObject
-.
-h
-"
 namespace
 mozilla
 {

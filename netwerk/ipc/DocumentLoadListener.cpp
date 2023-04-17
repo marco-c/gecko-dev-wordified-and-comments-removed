@@ -427,17 +427,6 @@ mozilla
 /
 dom
 /
-ReferrerInfo
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 RemoteWebProgressRequest
 .
 h

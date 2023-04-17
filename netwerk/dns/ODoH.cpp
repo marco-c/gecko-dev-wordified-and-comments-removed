@@ -42,13 +42,6 @@ DNSLogging
 .
 h
 "
-#
-include
-"
-nsNetUtil
-.
-h
-"
 namespace
 mozilla
 {

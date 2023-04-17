@@ -222,15 +222,6 @@ TunnelUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-StaticPrefs_network
-.
-h
-"
 namespace
 mozilla
 {
