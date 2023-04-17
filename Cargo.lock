@@ -10668,6 +10668,9 @@ lazy_static
 "
 log
 "
+"
+winapi
+"
 ]
 [
 [
@@ -18860,6 +18863,9 @@ version
 dependencies
 =
 [
+"
+libc
+"
 "
 log
 "
@@ -31977,11 +31983,6 @@ etagere
 "
 "
 euclid
-"
-"
-foreign
--
-types
 "
 "
 freetype
