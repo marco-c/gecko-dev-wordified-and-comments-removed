@@ -821,17 +821,12 @@ SocketProcessBridgeParent
 >
 mSocketProcessBridgeParentMap
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 RefPtr
 <
 ChildProfilerController
 >
 mProfilerController
 ;
-#
-endif
 bool
 mShuttingDown
 {

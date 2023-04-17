@@ -40,13 +40,6 @@ EXPORTS
 "
 public
 /
-ChildProfilerController
-.
-h
-"
-"
-public
-/
 GeckoProfilerReporter
 .
 h
@@ -885,6 +878,13 @@ EXPORTS
 +
 =
 [
+"
+public
+/
+ChildProfilerController
+.
+h
+"
 "
 public
 /

@@ -327,17 +327,12 @@ const
 TimeStamp
 mLaunchTime
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 RefPtr
 <
 ChildProfilerController
 >
 mProfilerController
 ;
-#
-endif
 AsyncBlockers
 mShutdownBlockers
 ;

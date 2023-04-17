@@ -584,17 +584,12 @@ h
 #
 endif
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 ChildProfilerController
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2370,9 +2365,6 @@ PProfilerChild
 aEndpoint
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 mProfilerController
 =
 ChildProfilerController
@@ -2389,8 +2381,6 @@ aEndpoint
 )
 )
 ;
-#
-endif
 return
 IPC_OK
 (
@@ -3597,9 +3587,6 @@ MFShutdown
 ;
 #
 endif
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 mProfilerController
@@ -3617,8 +3604,6 @@ mProfilerController
 nullptr
 ;
 }
-#
-endif
 if
 (
 mVsyncBridge
