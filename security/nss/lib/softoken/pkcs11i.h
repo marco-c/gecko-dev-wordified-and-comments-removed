@@ -3823,6 +3823,8 @@ sftk_VerifyDH_Prime
 SECItem
 *
 dhPrime
+PRBool
+isFIPS
 )
 ;
 SECStatus

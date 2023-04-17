@@ -9578,6 +9578,7 @@ sftk_VerifyDH_Prime
 (
 &
 dhPrime
+PR_TRUE
 )
 ;
 SECITEM_ZfreeItem
