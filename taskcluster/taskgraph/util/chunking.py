@@ -281,12 +281,6 @@ build_platform
 ]
         
 "
-crashreporter
-"
-:
-True
-        
-"
 debug
 "
 :
@@ -490,6 +484,43 @@ build_platform
 )
         
 )
+    
+if
+info
+[
+"
+asan
+"
+]
+or
+info
+[
+"
+tsan
+"
+]
+:
+        
+info
+[
+"
+crashreporter
+"
+]
+=
+False
+    
+else
+:
+        
+info
+[
+"
+crashreporter
+"
+]
+=
+True
     
 info
 [
