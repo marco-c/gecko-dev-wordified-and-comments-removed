@@ -98,6 +98,10 @@ attribute
 boolean
 kiosk
 ;
+attribute
+boolean
+majorUpgrade
+;
 /
 *
 *
