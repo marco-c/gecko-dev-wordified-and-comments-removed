@@ -768,12 +768,6 @@ cell
 )
 ;
 inline
-void
-clear
-(
-)
-;
-inline
 MarkBitmapWord
 *
 arenaBits
