@@ -5122,6 +5122,12 @@ jsid
 id_
 )
 {
+AutoCheckShapeConsistency
+check
+(
+obj
+)
+;
 RootedId
 id
 (
@@ -5617,13 +5623,6 @@ cx
 )
 ;
 }
-obj
--
->
-checkShapeConsistency
-(
-)
-;
 return
 true
 ;
