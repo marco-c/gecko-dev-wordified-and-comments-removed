@@ -9,7 +9,7 @@ data
 schema
 "
 :
-1629359843447
+1629878249723
 "
 derHash
 "
@@ -139,7 +139,7 @@ qNOnU
 crlite_enrolled
 "
 :
-false
+true
 "
 id
 "
@@ -159,7 +159,7 @@ bc13fb7e09f9
 last_modified
 "
 :
-1629705463487
+1629943052272
 }
 {
 "
