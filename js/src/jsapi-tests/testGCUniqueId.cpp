@@ -65,17 +65,12 @@ BEGIN_TEST
 testGCUID
 )
 {
-#
-ifdef
-JS_GC_ZEAL
 AutoLeaveZeal
 nozeal
 (
 cx
 )
 ;
-#
-endif
 uint64_t
 uid
 =
