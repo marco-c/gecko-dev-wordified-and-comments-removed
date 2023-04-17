@@ -85,6 +85,12 @@ fuzzy
 when
 tiled
 .
+fails
+-
+if
+(
+useDrawSnapshot
+)
 =
 =
 img
@@ -107,6 +113,12 @@ zoomOut
 ref
 .
 html
+fails
+-
+if
+(
+useDrawSnapshot
+)
 =
 =
 img

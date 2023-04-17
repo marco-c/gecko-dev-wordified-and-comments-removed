@@ -314,6 +314,9 @@ undefined
 browserMessageManager
 :
 undefined
+useDrawSnapshot
+:
+undefined
 canvas1
 :
 undefined

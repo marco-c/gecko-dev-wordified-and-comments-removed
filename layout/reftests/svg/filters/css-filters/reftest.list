@@ -225,6 +225,12 @@ radius
 ref
 .
 html
+fails
+-
+if
+(
+useDrawSnapshot
+)
 =
 =
 blur

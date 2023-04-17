@@ -1,3 +1,9 @@
+fails
+-
+if
+(
+useDrawSnapshot
+)
 pref
 (
 ui

@@ -641,6 +641,12 @@ fuzzy
 -
 771156
 )
+fails
+-
+if
+(
+useDrawSnapshot
+)
 =
 =
 uneven_frame_duration_video
