@@ -935,11 +935,7 @@ aLayerManager
 const
 nsIFrame
 *
-aItemFrame
-const
-nsPoint
-&
-aOffsetToReferenceFrame
+aContainerReferenceFrame
 const
 mozilla
 :
