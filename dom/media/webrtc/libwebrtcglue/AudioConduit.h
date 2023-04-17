@@ -99,12 +99,6 @@ Transport
 {
 public
 :
-static
-const
-unsigned
-int
-CODEC_PLNAME_SIZE
-;
 MediaConduitErrorCode
 ReceivedRTPPacket
 (

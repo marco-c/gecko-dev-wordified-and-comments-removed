@@ -338,12 +338,6 @@ VideoFrame
 public
 :
 static
-const
-unsigned
-int
-CODEC_PLNAME_SIZE
-;
-static
 bool
 HasH264Hardware
 (
