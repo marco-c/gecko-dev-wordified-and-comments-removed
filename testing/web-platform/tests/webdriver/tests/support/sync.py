@@ -4,8 +4,6 @@ import
 sys
 import
 time
-import
-six
 from
 webdriver
 import
@@ -936,13 +934,7 @@ self
 exc_msg
 )
             
-six
-.
-reraise
-(
-self
-.
-exc_cls
+raise
 self
 .
 exc_cls
@@ -951,6 +943,9 @@ message
 =
 message
 )
+.
+with_traceback
+(
 tb
 )
         
