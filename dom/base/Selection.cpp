@@ -4053,7 +4053,7 @@ aRange
 StaticPrefs
 :
 :
-dom_select_events_textcontrols_selectstart_enabled
+dom_select_events_textcontrols_enabled
 (
 )
 doc
