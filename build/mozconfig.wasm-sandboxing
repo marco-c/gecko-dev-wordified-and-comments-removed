@@ -43,6 +43,7 @@ WASM_SANDBOXED_LIBRARIES
 =
 graphite
 ogg
+hunspell
 ;
 ;
 esac
