@@ -29,7 +29,7 @@ jsm
 ;
 const
 {
-computeHash
+ProductAddonChecker
 }
 =
 ChromeUtils
@@ -51,7 +51,6 @@ ProductAddonChecker
 .
 jsm
 "
-null
 )
 ;
 AddonTestUtils
@@ -394,6 +393,8 @@ let
 themeXPIFileHash
 =
 await
+ProductAddonChecker
+.
 computeHash
 (
 "

@@ -1653,5 +1653,6 @@ e
 ;
 }
 }
+computeHash
 }
 ;
