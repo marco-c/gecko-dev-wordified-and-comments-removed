@@ -753,13 +753,25 @@ readonly
 attribute
 unsigned
 long
+duration
+;
+/
+/
+microseconds
+readonly
+attribute
+unsigned
+long
 byteLength
 ;
 undefined
 copyTo
 (
-ArrayBufferView
-dst
+[
+AllowShared
+]
+BufferSource
+destination
 )
 ;
 }
@@ -832,6 +844,7 @@ timestamp
 microseconds
 readonly
 attribute
+unsigned
 long
 long
 ?
@@ -849,8 +862,11 @@ byteLength
 undefined
 copyTo
 (
-ArrayBufferView
-dst
+[
+AllowShared
+]
+BufferSource
+destination
 )
 ;
 }
@@ -876,6 +892,7 @@ microseconds
 [
 EnforceRange
 ]
+unsigned
 long
 long
 duration
@@ -920,7 +937,7 @@ init
 readonly
 attribute
 AudioSampleFormat
-sampleFormat
+format
 ;
 readonly
 attribute
@@ -941,6 +958,7 @@ numberOfChannels
 ;
 readonly
 attribute
+unsigned
 long
 long
 duration
@@ -994,7 +1012,7 @@ AudioDataInit
 {
 required
 AudioSampleFormat
-sampleFormat
+format
 ;
 [
 EnforceRange
@@ -1193,6 +1211,7 @@ displayHeight
 ;
 readonly
 attribute
+unsigned
 long
 long
 ?
@@ -1226,6 +1245,7 @@ close
 dictionary
 VideoFrameInit
 {
+unsigned
 long
 long
 duration
@@ -1310,6 +1330,7 @@ displayHeight
 [
 EnforceRange
 ]
+unsigned
 long
 long
 duration
