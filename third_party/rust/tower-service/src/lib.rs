@@ -22,7 +22,7 @@ service
 .
 3
 .
-0
+1
 "
 )
 ]
@@ -35,6 +35,14 @@ missing_debug_implementations
 missing_docs
 rust_2018_idioms
 unreachable_pub
+)
+]
+#
+!
+[
+deny
+(
+broken_intra_doc_links
 )
 ]
 use
