@@ -2246,8 +2246,9 @@ scope
 void
 computeThisEnvironment
 (
-Scope
-*
+const
+InputScope
+&
 enclosingScope
 )
 ;
