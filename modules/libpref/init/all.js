@@ -11407,7 +11407,7 @@ move
 .
 interval_sec
 "
-10
+0
 )
 ;
 pref
