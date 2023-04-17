@@ -694,10 +694,11 @@ scope_fifo
 scope
 |
 {
-profiler_label
+gecko_profiler_label
 !
 (
-Style
+Layout
+StyleComputation
 )
 ;
 parallel

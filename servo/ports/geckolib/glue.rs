@@ -1090,12 +1090,6 @@ use
 style
 :
 :
-profiler_label
-;
-use
-style
-:
-:
 properties
 :
 :
@@ -9407,10 +9401,11 @@ spawn
 |
 |
 {
-profiler_label
+gecko_profiler_label
 !
 (
-Parse
+Layout
+CSSParsing
 )
 ;
 async_parser

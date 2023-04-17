@@ -14,6 +14,14 @@ extern
 crate
 cstr
 ;
+#
+[
+macro_use
+]
+extern
+crate
+gecko_profiler
+;
 extern
 crate
 libc

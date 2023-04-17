@@ -10503,6 +10503,11 @@ cssparser
 cstr
 "
 "
+gecko
+-
+profiler
+"
+"
 libc
 "
 "
