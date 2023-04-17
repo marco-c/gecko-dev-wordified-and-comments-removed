@@ -1252,6 +1252,23 @@ leak_check
 profile
 environ
 )
+            
+del
+environ
+[
+"
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+"
+]
+            
+executor_kwargs
+[
+"
+environ
+"
+]
+=
+environ
         
 else
 :
@@ -1299,14 +1316,6 @@ leak_report_file
 =
 None
         
-del
-environ
-[
-"
-MOZ_DISABLE_NONLOCAL_CONNECTIONS
-"
-]
-        
 executor_kwargs
 [
 "
@@ -1345,15 +1354,6 @@ get
 asan
 "
 )
-        
-executor_kwargs
-[
-"
-environ
-"
-]
-=
-environ
     
 if
 kwargs
