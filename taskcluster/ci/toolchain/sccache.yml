@@ -171,7 +171,7 @@ linux64
 -
 clang
 -
-13
+12
 -
 linux64
 -
@@ -257,7 +257,7 @@ linux64
 -
 clang
 -
-13
+12
 -
 linux64
 -
@@ -267,7 +267,7 @@ port
 -
 clang
 -
-13
+12
 -
 macosx64
 -
@@ -353,7 +353,7 @@ linux64
 -
 clang
 -
-13
+12
 -
 linux64
 -
@@ -363,7 +363,7 @@ port
 -
 clang
 -
-13
+12
 -
 macosx64
 -
