@@ -3079,7 +3079,7 @@ clang
 .
 0
 -
-rc2
+rc4
 source
 code
 fetch
@@ -3104,7 +3104,7 @@ llvm
 project
 revision
 :
-4918a3d138b907a571f496661b5367e090e1e8bb
+31001be371e8f2c74470e727e54503fb2aabec8b
 rust
 -
 1
