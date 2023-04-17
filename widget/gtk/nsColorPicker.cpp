@@ -438,6 +438,10 @@ color_chooser
 gtk_color_chooser_dialog_new
 (
 title
+.
+get
+(
+)
 parent_window
 )
 ;

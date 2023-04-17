@@ -35,8 +35,9 @@ nsString
 h
 "
 #
-undef
+define
 ACTIVATE_GTK3_COLOR_PICKER
+1
 class
 nsIWidget
 ;
