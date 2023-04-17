@@ -4253,6 +4253,7 @@ await
 performanceFrontConnection
 ;
 }
+await
 this
 .
 initHarAutomation
@@ -16078,6 +16079,7 @@ _preferenceFront
 null
 ;
 }
+async
 initHarAutomation
 (
 )
@@ -16116,6 +16118,7 @@ HarAutomation
 (
 )
 ;
+await
 this
 .
 harAutomation
