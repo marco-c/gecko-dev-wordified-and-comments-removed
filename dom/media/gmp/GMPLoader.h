@@ -37,6 +37,13 @@ UniquePtr
 h
 "
 #
+include
+"
+nsString
+.
+h
+"
+#
 if
 defined
 (
@@ -143,6 +150,10 @@ void
 *
 *
 aPluginAPI
+const
+nsCString
+&
+aKeySystem
 )
 =
 0
@@ -200,6 +211,10 @@ void
 *
 *
 aPluginAPI
+const
+nsCString
+&
+aKeySystem
 )
 ;
 void

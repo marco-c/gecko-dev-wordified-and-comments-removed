@@ -313,6 +313,13 @@ void
 *
 *
 aPluginAPI
+const
+nsCString
+aKeySystem
+=
+"
+"
+_ns
 )
 ;
 nsTArray
