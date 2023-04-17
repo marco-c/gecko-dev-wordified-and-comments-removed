@@ -8362,9 +8362,12 @@ FuncType
 &
 funcType
 =
+(
+*
 moduleEnv_
 .
 types
+)
 [
 funcTypeIndex
 ]
@@ -14294,6 +14297,8 @@ FuncType
 &
 funcType
 =
+(
+*
 f
 .
 moduleEnv
@@ -14301,6 +14306,7 @@ moduleEnv
 )
 .
 types
+)
 [
 funcTypeIndex
 ]
@@ -36197,6 +36203,7 @@ if
 DecodeLocalEntries
 (
 d
+*
 moduleEnv
 .
 types

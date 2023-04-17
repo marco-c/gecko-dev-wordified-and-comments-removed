@@ -84,10 +84,7 @@ JSContext
 cx
 )
 ;
-UniquePtr
-<
-TypeContext
->
+MutableTypeContext
 typeContext
 ;
 size_t

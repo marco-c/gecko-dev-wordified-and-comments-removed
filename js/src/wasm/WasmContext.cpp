@@ -61,10 +61,7 @@ options
 ;
 typeContext
 =
-js
-:
-:
-MakeUnique
+js_new
 <
 TypeContext
 >
