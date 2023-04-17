@@ -437,7 +437,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-js
+JS
 :
 :
 Scalar
@@ -607,7 +607,7 @@ detail
 {
 template
 <
-js
+JS
 :
 :
 Scalar
@@ -637,7 +637,7 @@ template
 struct
 ExternalTypeOf
 <
-js
+JS
 :
 :
 Scalar
@@ -664,7 +664,7 @@ undef
 DEFINE_ELEMENT_TYPES
 template
 <
-js
+JS
 :
 :
 Scalar
@@ -1309,7 +1309,7 @@ maybeWrapped
 ;
 template
 <
-js
+JS
 :
 :
 Scalar
@@ -1356,7 +1356,7 @@ TypedArrayElementType
 ;
 static
 constexpr
-js
+JS
 :
 :
 Scalar
@@ -1732,7 +1732,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -1868,7 +1868,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -1882,7 +1882,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -1933,7 +1933,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -1947,7 +1947,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -1999,7 +1999,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -2013,7 +2013,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar

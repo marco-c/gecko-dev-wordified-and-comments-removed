@@ -46,6 +46,9 @@ TypedArrayObject
 :
 classes
 [
+JS
+:
+:
 Scalar
 :
 :
