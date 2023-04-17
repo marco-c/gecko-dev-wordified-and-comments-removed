@@ -3398,6 +3398,13 @@ nsCString
 supportedTypes
 )
 ;
+async
+InitNextGenLocalStorageEnabled
+(
+bool
+enabled
+)
+;
 parent
 :
 async

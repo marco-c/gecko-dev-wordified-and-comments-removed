@@ -150,6 +150,14 @@ NextGenLocalStorageEnabled
 (
 )
 ;
+void
+RecvInitNextGenLocalStorageEnabled
+(
+const
+bool
+aEnabled
+)
+;
 bool
 CachedNextGenLocalStorageEnabled
 (
