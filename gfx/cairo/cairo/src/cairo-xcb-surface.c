@@ -3760,6 +3760,8 @@ int
 num_glyphs
 cairo_bool_t
 overlap
+cairo_bool_t
+permit_subpixel_antialiasing
 )
 {
 cairo_xcb_surface_t
