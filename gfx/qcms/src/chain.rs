@@ -3347,6 +3347,7 @@ y
 z
 w
 |
+{
 table
 [
 (
@@ -3371,6 +3372,7 @@ w
 as
 usize
 ]
+}
 ;
 let
 input_clut_table_0
