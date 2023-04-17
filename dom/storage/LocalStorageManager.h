@@ -364,12 +364,13 @@ Storage
 aRetval
 )
 ;
-typedef
+using
+CacheOriginHashtable
+=
 nsTHashtable
 <
 LocalStorageCacheHashKey
 >
-CacheOriginHashtable
 ;
 nsClassHashtable
 <

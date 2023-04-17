@@ -144,7 +144,9 @@ dom
 {
 namespace
 {
-typedef
+using
+LocalStorageCacheParentHashtable
+=
 nsClassHashtable
 <
 nsCStringHashKey
@@ -154,7 +156,6 @@ LocalStorageCacheParent
 *
 >
 >
-LocalStorageCacheParentHashtable
 ;
 StaticAutoPtr
 <

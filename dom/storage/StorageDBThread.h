@@ -157,7 +157,9 @@ StorageUsageBridge
 class
 StorageUsage
 ;
-typedef
+using
+StatementCache
+=
 mozilla
 :
 :
@@ -168,7 +170,6 @@ StatementCache
 <
 mozIStorageStatement
 >
-StatementCache
 ;
 #
 if
@@ -380,8 +381,8 @@ DBOperation
 {
 public
 :
-typedef
 enum
+OperationType
 {
 opPreload
 opPreloadUrgent
@@ -394,7 +395,6 @@ opClearAll
 opClearMatchingOrigin
 opClearMatchingOriginAttributes
 }
-OperationType
 ;
 explicit
 DBOperation
