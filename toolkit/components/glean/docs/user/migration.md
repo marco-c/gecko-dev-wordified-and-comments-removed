@@ -117,9 +117,7 @@ Firefox
 Desktop
 ]
 (
-new_definitions
-.
-file
+new_definitions_file
 .
 md
 )
