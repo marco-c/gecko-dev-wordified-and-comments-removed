@@ -570,7 +570,7 @@ toImageBitmap
 let
 tolerance
 =
-6
+10
 ;
 try
 {
