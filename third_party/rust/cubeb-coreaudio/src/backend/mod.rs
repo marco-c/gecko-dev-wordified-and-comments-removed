@@ -18061,6 +18061,14 @@ core_stream_data
 stm_ptr
 )
 ;
+self
+.
+core_stream_data
+.
+close
+(
+)
+;
 if
 has_input
 &
