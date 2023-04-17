@@ -15529,7 +15529,6 @@ tmp
 )
 DEFINED_ON
 (
-arm
 mips32
 mips64
 )
@@ -15561,7 +15560,6 @@ tmp3
 )
 DEFINED_ON
 (
-arm
 mips32
 mips64
 )
@@ -15589,7 +15587,6 @@ tmp
 )
 DEFINED_ON
 (
-arm
 mips32
 mips64
 )
@@ -15617,7 +15614,6 @@ tmp
 )
 DEFINED_ON
 (
-arm
 mips32
 mips64
 )
@@ -15645,7 +15641,6 @@ tmp
 )
 DEFINED_ON
 (
-arm
 mips32
 mips64
 )
@@ -15673,7 +15668,6 @@ tmp
 )
 DEFINED_ON
 (
-arm
 mips32
 mips64
 )
