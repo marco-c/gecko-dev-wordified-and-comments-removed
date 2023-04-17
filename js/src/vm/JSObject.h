@@ -1261,6 +1261,12 @@ JS
 ClassInfo
 *
 info
+JS
+:
+:
+RuntimeSizes
+*
+runtimeSizes
 )
 ;
 size_t
