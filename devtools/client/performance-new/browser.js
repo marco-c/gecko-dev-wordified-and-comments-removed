@@ -273,7 +273,7 @@ openProfilerAndDisplayProfile
 (
 profile
 profilerViewMode
-getSymbolTableCallback
+symbolicationService
 )
 {
 const
@@ -528,7 +528,9 @@ e
 .
 data
 ;
-getSymbolTableCallback
+symbolicationService
+.
+getSymbolTable
 (
 debugName
 breakpadId
@@ -746,7 +748,7 @@ key
 ;
 }
 function
-createMultiModalGetSymbolTableFn
+createLocalSymbolicationService
 (
 sharedLibraries
 objdirs
@@ -762,8 +764,8 @@ sharedLibraries
 )
 ;
 return
+{
 async
-function
 getSymbolTable
 (
 debugName
@@ -828,6 +830,7 @@ objdirs
 perfFront
 )
 ;
+}
 }
 ;
 }
@@ -1092,7 +1095,7 @@ exports
 {
 openProfilerAndDisplayProfile
 sharedLibrariesFromProfile
-createMultiModalGetSymbolTableFn
+createLocalSymbolicationService
 restartBrowserWithEnvironmentVariable
 getEnvironmentVariable
 openFilePickerForObjdir

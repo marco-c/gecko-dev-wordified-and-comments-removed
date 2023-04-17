@@ -1034,7 +1034,7 @@ getObjdirPrefValue
 const
 {
 openProfilerAndDisplayProfile
-createMultiModalGetSymbolTableFn
+createLocalSymbolicationService
 }
 =
 lazy
@@ -1044,9 +1044,9 @@ BrowserModule
 )
 ;
 const
-getSymbolTableCallback
+symbolicationService
 =
-createMultiModalGetSymbolTableFn
+createLocalSymbolicationService
 (
 sharedLibraries
 objdirs
@@ -1056,7 +1056,7 @@ openProfilerAndDisplayProfile
 (
 profile
 profilerViewMode
-getSymbolTableCallback
+symbolicationService
 )
 ;
 Services

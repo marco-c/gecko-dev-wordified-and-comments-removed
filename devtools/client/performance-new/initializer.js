@@ -334,7 +334,7 @@ actions
 const
 {
 openProfilerAndDisplayProfile
-createMultiModalGetSymbolTableFn
+createLocalSymbolicationService
 sharedLibrariesFromProfile
 }
 =
@@ -615,9 +615,9 @@ profile
 )
 ;
 const
-getSymbolTableCallback
+symbolicationService
 =
-createMultiModalGetSymbolTableFn
+createLocalSymbolicationService
 (
 sharedLibraries
 objdirs
@@ -628,7 +628,7 @@ openProfilerAndDisplayProfile
 (
 profile
 profilerViewMode
-getSymbolTableCallback
+symbolicationService
 )
 ;
 }
