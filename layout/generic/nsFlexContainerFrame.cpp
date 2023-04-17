@@ -11709,7 +11709,7 @@ availableFreeSpace
 value
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 (
 isUsingFlexGrow
