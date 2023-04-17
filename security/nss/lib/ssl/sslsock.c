@@ -290,7 +290,7 @@ PR_FALSE
 .
 enableHelloDowngradeCheck
 =
-PR_FALSE
+PR_TRUE
 .
 enableV2CompatibleHello
 =

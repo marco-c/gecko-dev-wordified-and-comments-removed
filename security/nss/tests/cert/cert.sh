@@ -5271,17 +5271,6 @@ cert_all_CA
 (
 )
 {
-echo
-nss
->
-{
-PWFILE
-}
-echo
->
-{
-EMPTY_FILE
-}
 ALL_CU_SUBJECT
 =
 "

@@ -726,6 +726,17 @@ tests
 .
 fipsp12pw
 echo
+nss
+>
+{
+PWFILE
+}
+echo
+>
+{
+EMPTY_FILE
+}
+echo
 "
 fIps140
 "

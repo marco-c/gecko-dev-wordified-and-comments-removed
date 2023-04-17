@@ -9223,6 +9223,15 @@ supported_vers_12
 )
 )
 ;
+client_
+-
+>
+SetOption
+(
+SSL_ENABLE_HELLO_DOWNGRADE_CHECK
+PR_FALSE
+)
+;
 StartConnect
 (
 )
