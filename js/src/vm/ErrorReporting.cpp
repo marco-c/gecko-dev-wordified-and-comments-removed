@@ -222,9 +222,13 @@ cx
 cx
 -
 >
-setPendingExceptionAndCaptureStack
+setPendingException
 (
 exn_
+ShouldCaptureStack
+:
+:
+Always
 )
 ;
 return

@@ -1493,6 +1493,11 @@ globalWriteBarriered
 =
 0
 ;
+uint16_t
+numStacksCapturedForThrow_
+=
+0
+;
 #
 ifdef
 DEBUG
@@ -2362,6 +2367,11 @@ coverage
 LCovRealm
 *
 lcovRealm
+(
+)
+;
+bool
+shouldCaptureStackForThrow
 (
 )
 ;
