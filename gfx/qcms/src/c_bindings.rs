@@ -2186,7 +2186,7 @@ icSigGrayData
 :
 icColorSpaceSignature
 =
-1196573017
+0x47524159
 ;
 pub
 const
@@ -2194,7 +2194,15 @@ icSigRgbData
 :
 icColorSpaceSignature
 =
-1380401696
+0x52474220
+;
+pub
+const
+icSigCmykData
+:
+icColorSpaceSignature
+=
+0x434d594b
 ;
 pub
 use
