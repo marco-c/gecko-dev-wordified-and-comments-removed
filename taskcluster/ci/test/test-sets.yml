@@ -1820,7 +1820,6 @@ failure
 -
 tests
 :
-#
 -
 xpcshell
 -
@@ -1865,7 +1864,6 @@ mochitest
 browser
 -
 chrome
-#
 -
 mochitest
 -
@@ -1906,7 +1904,6 @@ webgl2
 ext
 -
 reftest
-#
 -
 xpcshell
 macosx1015
