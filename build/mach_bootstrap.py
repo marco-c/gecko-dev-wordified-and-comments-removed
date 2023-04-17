@@ -1438,19 +1438,6 @@ topsrcdir
 )
 :
     
-major
-=
-sys
-.
-version_info
-[
-:
-2
-]
-[
-0
-]
-    
 if
 sys
 .
@@ -1602,11 +1589,6 @@ True
 )
     
 if
-major
-=
-=
-3
-and
 sys
 .
 prefix
