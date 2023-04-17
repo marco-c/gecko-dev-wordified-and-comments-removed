@@ -298,7 +298,7 @@ http3_setup_tests
 "
 h3
 -
-27
+29
 "
 )
 ;
@@ -406,7 +406,7 @@ httpVersion
 "
 h3
 -
-27
+29
 "
 )
 ;
