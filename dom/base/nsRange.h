@@ -1305,7 +1305,7 @@ aNotInsertedYet
 false
 )
 ;
-nsresult
+void
 CutContents
 (
 mozilla
@@ -1317,7 +1317,10 @@ dom
 DocumentFragment
 *
 *
-frag
+aFragment
+ErrorResult
+&
+aRv
 )
 ;
 static
