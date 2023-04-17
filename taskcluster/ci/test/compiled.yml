@@ -530,8 +530,6 @@ hw
 *
 -
 aarch64
--
-qr
 /
 debug
 :
@@ -553,8 +551,6 @@ hw
 *
 -
 arm7
--
-qr
 /
 debug
 :
@@ -785,8 +781,6 @@ arm7
 shippable
 )
 ?
--
-qr
 /
 .
 *

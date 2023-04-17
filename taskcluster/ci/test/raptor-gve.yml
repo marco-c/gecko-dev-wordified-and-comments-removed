@@ -92,8 +92,6 @@ p2
 *
 -
 arm7
--
-qr
 /
 (
 ?
@@ -117,8 +115,6 @@ p2
 arm7
 -
 shippable
--
-qr
 /
 opt
 :
@@ -144,8 +140,6 @@ arm7
 -
 shippable
 )
--
-qr
 /
 opt
 .
