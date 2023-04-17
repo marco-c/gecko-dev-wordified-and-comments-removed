@@ -2672,8 +2672,10 @@ MouseType
 :
 :
 MOUSE_UP
-&
-&
+)
+{
+if
+(
 mState
 =
 =
@@ -2698,7 +2700,8 @@ SetState
 NOTHING
 )
 ;
-ScrollSnap
+}
+SnapBackIfOverscrolled
 (
 )
 ;
