@@ -1515,6 +1515,13 @@ items
                     
 if
 "
+artifact_mode
+"
+not
+in
+value
+and
+"
 mobile_android
 "
 not
@@ -1526,23 +1533,26 @@ value
 print
 (
                     
-"
+'
 Note
 :
 M1
 Macs
 don
+\
 '
 t
 support
-Android
-builds
-so
 "
+Artifact
+Mode
+"
+so
+'
                     
 "
-they
-have
+it
+has
 been
 removed
 from
