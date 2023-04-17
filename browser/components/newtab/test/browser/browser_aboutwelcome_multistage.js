@@ -2172,6 +2172,17 @@ primary
 )
 ;
 await
+onButtonClick
+(
+browser
+"
+button
+.
+primary
+"
+)
+;
+await
 test_screen_content
 (
 browser
