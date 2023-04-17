@@ -34238,7 +34238,7 @@ aOutAncestor
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 this
 )
@@ -34590,7 +34590,7 @@ aOutAncestor
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 this
 )
@@ -34715,7 +34715,7 @@ parent
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 *
 aOutAncestor

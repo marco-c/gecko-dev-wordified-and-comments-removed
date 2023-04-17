@@ -5788,7 +5788,7 @@ aCommonAncestor
 ;
 f
 =
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 f
 )
@@ -8217,7 +8217,7 @@ GetParent
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 aFrame
 )
@@ -9467,7 +9467,7 @@ f
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 f
 )
@@ -11943,7 +11943,7 @@ f
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 f
 )
@@ -11976,7 +11976,7 @@ f
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 f
 )
@@ -22485,7 +22485,7 @@ return
 f
 ;
 return
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 aFrame
 )
@@ -36541,7 +36541,7 @@ nsIFrame
 *
 parent
 =
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 f
 )
@@ -48722,7 +48722,7 @@ GetRootScrollFrame
 }
 frame
 =
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 frame
 )
