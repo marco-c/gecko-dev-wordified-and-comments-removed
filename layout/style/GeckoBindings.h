@@ -365,16 +365,6 @@ nsINode
 const
 nsINode
 *
-Gecko_GetPreviousSibling
-(
-const
-nsINode
-*
-)
-;
-const
-nsINode
-*
 Gecko_GetFlattenedTreeParentNode
 (
 const
