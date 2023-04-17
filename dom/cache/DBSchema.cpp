@@ -2900,10 +2900,6 @@ migrating
 {
 QM_TRY
 (
-QM_OR_ELSE_WARN
-(
-ToResult
-(
 aConn
 .
 ExecuteSimpleSQL
@@ -2913,7 +2909,7 @@ VACUUM
 "
 _ns
 )
-)
+QM_PROPAGATE
 (
 [
 &
@@ -2924,13 +2920,6 @@ const
 nsresult
 rv
 )
--
->
-Result
-<
-Ok
-nsresult
->
 {
 if
 (
@@ -2940,7 +2929,7 @@ rv
 NS_ERROR_STORAGE_CONSTRAINT
 )
 {
-QM_TRY
+QM_WARNONLY_TRY
 (
 IntegrityCheck
 (
@@ -2949,14 +2938,7 @@ aConn
 )
 ;
 }
-return
-Err
-(
-rv
-)
-;
 }
-)
 )
 )
 ;
