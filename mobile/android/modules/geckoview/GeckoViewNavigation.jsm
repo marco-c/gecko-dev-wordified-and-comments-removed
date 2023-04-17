@@ -2215,7 +2215,7 @@ p
 .
 principal
 )
-perm
+type
 :
 p
 .
@@ -2225,15 +2225,6 @@ value
 p
 .
 capability
-contextId
-:
-p
-.
-principal
-.
-originAttributes
-.
-geckoViewSessionContextId
 privateMode
 :
 p
