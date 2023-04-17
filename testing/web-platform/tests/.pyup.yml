@@ -55,6 +55,12 @@ txt
 -
 tools
 /
+requirements_pytest
+.
+txt
+-
+tools
+/
 wpt
 /
 requirements
