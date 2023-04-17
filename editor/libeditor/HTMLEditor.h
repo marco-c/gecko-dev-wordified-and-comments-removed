@@ -1799,6 +1799,7 @@ nsIContent
 &
 aContent
 )
+final
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
