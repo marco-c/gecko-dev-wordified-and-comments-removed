@@ -6953,6 +6953,15 @@ SimdOp
 :
 I8x16ShrU
 :
+case
+wasm
+:
+:
+SimdOp
+:
+:
+I64x2ShrS
+:
 tempReg0
 =
 temp
