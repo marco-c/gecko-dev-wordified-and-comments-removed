@@ -3150,7 +3150,7 @@ RawbufT
 >
 static
 bool
-CreateSpecificWasmBuffer32
+CreateSpecificWasmBuffer
 (
 JSContext
 *
@@ -3210,6 +3210,11 @@ wasm
 :
 ClampedMaxPages
 (
+memory
+.
+indexType
+(
+)
 initialPages
 sourceMaxPages
 useHugeMemory
@@ -3778,7 +3783,7 @@ bool
 js
 :
 :
-CreateWasmBuffer32
+CreateWasmBuffer
 (
 JSContext
 *
@@ -3808,6 +3813,11 @@ wasm
 :
 MaxMemoryPages
 (
+memory
+.
+indexType
+(
+)
 )
 )
 ;
@@ -3865,7 +3875,7 @@ false
 ;
 }
 return
-CreateSpecificWasmBuffer32
+CreateSpecificWasmBuffer
 <
 SharedArrayBufferObject
 SharedArrayRawBuffer
@@ -3878,7 +3888,7 @@ buffer
 ;
 }
 return
-CreateSpecificWasmBuffer32
+CreateSpecificWasmBuffer
 <
 ArrayBufferObject
 WasmArrayRawBuffer
@@ -5247,6 +5257,11 @@ ArrayBufferObject
 :
 wasmGrowToPagesInPlace
 (
+wasm
+:
+:
+IndexType
+t
 Pages
 newPages
 HandleArrayBufferObject
@@ -5300,6 +5315,7 @@ wasm
 :
 MaxMemoryPages
 (
+t
 )
 &
 &
@@ -5467,6 +5483,8 @@ ArrayBufferObject
 :
 wasmMovingGrowToPages
 (
+IndexType
+t
 Pages
 newPages
 HandleArrayBufferObject
@@ -5504,6 +5522,7 @@ wasm
 :
 MaxMemoryPages
 (
+t
 )
 &
 &
@@ -5570,6 +5589,7 @@ newPages
 return
 wasmGrowToPagesInPlace
 (
+t
 newPages
 oldBuf
 newBuf
@@ -5615,6 +5635,7 @@ wasm
 :
 ClampedMaxPages
 (
+t
 newPages
 Nothing
 (
