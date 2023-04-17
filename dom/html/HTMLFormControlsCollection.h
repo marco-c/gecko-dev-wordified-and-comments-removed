@@ -36,6 +36,9 @@ class
 nsGenericHTMLFormElement
 ;
 class
+nsIContent
+;
+class
 nsIFormControl
 ;
 template
@@ -230,11 +233,11 @@ aName
 )
 ;
 nsresult
-IndexOfControl
+IndexOfContent
 (
-nsIFormControl
+nsIContent
 *
-aControl
+aContent
 int32_t
 *
 aIndex

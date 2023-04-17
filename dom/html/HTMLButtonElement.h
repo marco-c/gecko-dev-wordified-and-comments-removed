@@ -413,12 +413,6 @@ aError
 )
 ;
 }
-using
-nsGenericHTMLFormElement
-:
-:
-GetForm
-;
 void
 SetFormAction
 (
