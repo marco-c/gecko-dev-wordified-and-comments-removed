@@ -372,7 +372,7 @@ pub
 type
 RasterIntRect
 =
-Rect
+Box2D
 <
 i32
 RasterPixel
@@ -402,7 +402,7 @@ pub
 type
 RasterRect
 =
-Rect
+Box2D
 <
 f32
 RasterPixel
