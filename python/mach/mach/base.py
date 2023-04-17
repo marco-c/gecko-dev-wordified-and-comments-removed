@@ -3,12 +3,6 @@ __future__
 import
 absolute_import
 unicode_literals
-from
-mach
-.
-telemetry
-import
-NoopTelemetry
 class
 CommandContext
 (
@@ -43,30 +37,18 @@ __init__
 (
         
 self
-        
 cwd
 =
 None
-        
 settings
 =
 None
-        
 log_manager
 =
 None
-        
 commands
 =
 None
-        
-telemetry
-=
-NoopTelemetry
-(
-False
-)
-        
 *
 *
 kwargs
@@ -108,7 +90,7 @@ self
 .
 telemetry
 =
-telemetry
+None
         
 self
 .
