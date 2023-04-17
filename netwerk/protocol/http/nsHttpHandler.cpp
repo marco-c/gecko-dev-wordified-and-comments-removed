@@ -5049,9 +5049,6 @@ true
 return
 ;
 }
-#
-ifndef
-MOZ_UA_OS_AGNOSTIC
 mPlatform
 .
 AssignLiteral
@@ -5097,8 +5094,6 @@ endif
 )
 ;
 #
-endif
-#
 ifdef
 ANDROID
 nsCOMPtr
@@ -5139,13 +5134,6 @@ service
 nsresult
 rv
 ;
-#
-if
-defined
-MOZ_WIDGET_ANDROID
-#
-ifndef
-MOZ_UA_OS_AGNOSTIC
 nsAutoString
 androidVersion
 ;
@@ -5219,10 +5207,6 @@ androidVersion
 ;
 }
 }
-#
-endif
-#
-endif
 bool
 isTablet
 ;
@@ -5350,9 +5334,6 @@ GetDeviceModelId
 }
 #
 endif
-#
-ifndef
-MOZ_UA_OS_AGNOSTIC
 #
 if
 defined
@@ -5668,8 +5649,6 @@ buf
 )
 ;
 }
-#
-endif
 #
 endif
 mUserAgentIsDirty
