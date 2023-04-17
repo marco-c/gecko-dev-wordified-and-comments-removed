@@ -499,18 +499,6 @@ createInChild
 "
 :
 True
-        
-"
-browser
-.
-topsites
-.
-contile
-.
-enabled
-"
-:
-False
     
 }
     
