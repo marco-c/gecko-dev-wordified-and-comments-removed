@@ -16,16 +16,8 @@ import
     
 CommandArgument
     
-CommandProvider
-    
 Command
 )
-from
-mozbuild
-.
-base
-import
-MachCommandBase
 def
 is_foo
 (
@@ -74,22 +66,6 @@ bar
 =
 =
 val
-CommandProvider
-class
-MachCommands
-(
-MachCommandBase
-)
-:
-    
-foo
-=
-True
-    
-bar
-=
-False
-    
 Command
 (
 "
@@ -101,7 +77,6 @@ category
 testing
 "
 )
-    
 CommandArgument
 (
 "
@@ -120,17 +95,14 @@ help
 .
 "
 )
-    
 def
 run_foo
 (
-self
 command_context
 )
 :
-        
-pass
     
+pass
 Command
 (
 "
@@ -151,20 +123,16 @@ False
 )
 ]
 )
-    
 def
 run_bar
 (
-self
 command_context
 )
 :
-        
-pass
     
+pass
 Command
 (
-        
 "
 cmd_foobar
 "
@@ -183,15 +151,12 @@ is_bar
 True
 )
 ]
-    
 )
-    
 def
 run_foobar
 (
-self
 command_context
 )
 :
-        
+    
 pass
