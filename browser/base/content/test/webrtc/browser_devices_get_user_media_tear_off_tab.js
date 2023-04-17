@@ -72,8 +72,14 @@ observerPromise
 ;
 checkDeviceSelectors
 (
-true
-true
+[
+"
+microphone
+"
+"
+camera
+"
+]
 )
 ;
 let

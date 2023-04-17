@@ -65,8 +65,11 @@ promise
 ;
 checkDeviceSelectors
 (
-false
-true
+[
+"
+camera
+"
+]
 )
 ;
 await
