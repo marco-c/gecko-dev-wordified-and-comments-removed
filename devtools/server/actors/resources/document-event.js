@@ -76,8 +76,11 @@ onDocumentEvent
 =
 (
 name
+{
 time
 shouldBeIgnoredAsRedundantWithTargetAvailable
+isFrameSwitching
+}
 )
 =
 >
@@ -92,6 +95,7 @@ DOCUMENT_EVENT
 name
 time
 shouldBeIgnoredAsRedundantWithTargetAvailable
+isFrameSwitching
 }
 ]
 )

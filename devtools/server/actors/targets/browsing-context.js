@@ -4236,6 +4236,7 @@ getWindowID
 (
 window
 )
+isFrameSwitching
 }
 )
 ;
