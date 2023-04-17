@@ -33056,7 +33056,7 @@ Document
 :
 DisallowBFCaching
 (
-uint16_t
+uint32_t
 aStatus
 )
 {
@@ -51971,7 +51971,7 @@ CanSavePresentation
 nsIRequest
 *
 aNewRequest
-uint16_t
+uint32_t
 &
 aBFCacheCombo
 bool
@@ -52884,7 +52884,7 @@ entry
 >
 mSubDocument
 ;
-uint16_t
+uint32_t
 subDocBFCacheCombo
 =
 0

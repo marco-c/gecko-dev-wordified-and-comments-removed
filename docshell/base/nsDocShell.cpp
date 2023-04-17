@@ -30358,7 +30358,7 @@ GetExtantDoc
 (
 )
 ;
-uint16_t
+uint32_t
 bfCacheCombo
 =
 0
@@ -41251,7 +41251,7 @@ GetDocument
 (
 )
 ;
-uint16_t
+uint32_t
 flags
 =
 0

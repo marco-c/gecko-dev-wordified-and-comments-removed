@@ -692,9 +692,9 @@ aEpoch
 async
 UpdateBFCacheStatus
 (
-uint16_t
+uint32_t
 aOnFlags
-uint16_t
+uint32_t
 aOffFlags
 )
 ;

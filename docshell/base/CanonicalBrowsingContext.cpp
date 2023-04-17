@@ -12867,7 +12867,7 @@ return
 false
 ;
 }
-uint16_t
+uint32_t
 bfcacheCombo
 =
 0
@@ -13085,7 +13085,7 @@ GetCurrentWindowGlobal
 (
 )
 ;
-uint16_t
+uint32_t
 subDocBFCacheCombo
 =
 wgp

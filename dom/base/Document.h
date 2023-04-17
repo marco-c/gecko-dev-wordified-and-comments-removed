@@ -3754,7 +3754,7 @@ mBFCacheEntry
 void
 DisallowBFCaching
 (
-uint16_t
+uint32_t
 aStatus
 =
 BFCacheStatus
@@ -6468,7 +6468,7 @@ CanSavePresentation
 nsIRequest
 *
 aNewRequest
-uint16_t
+uint32_t
 &
 aBFCacheCombo
 bool
