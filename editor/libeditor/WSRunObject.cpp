@@ -12808,7 +12808,7 @@ nextVisibleCharOffset
 HTMLEditUtils
 :
 :
-GetNextCharOffsetExceptASCIIWhiteSpaces
+GetNextNonCollapsibleCharOffset
 (
 aPointAtASCIIWhiteSpace
 )
@@ -12926,7 +12926,7 @@ nextVisibleCharOffset
 HTMLEditUtils
 :
 :
-GetNextCharOffsetExceptASCIIWhiteSpaces
+GetNextNonCollapsibleCharOffset
 (
 atStartOfNextTextNode
 )
@@ -13069,7 +13069,7 @@ firstASCIIWhiteSpaceOffset
 HTMLEditUtils
 :
 :
-GetFirstASCIIWhiteSpaceOffsetCollapsedWith
+GetFirstWhiteSpaceOffsetCollapsedWith
 (
 aPointAtASCIIWhiteSpace
 )
@@ -13187,7 +13187,7 @@ firstASCIIWhiteSpaceOffset
 HTMLEditUtils
 :
 :
-GetFirstASCIIWhiteSpaceOffsetCollapsedWith
+GetFirstWhiteSpaceOffsetCollapsedWith
 (
 atLastCharOfNextTextNode
 )
