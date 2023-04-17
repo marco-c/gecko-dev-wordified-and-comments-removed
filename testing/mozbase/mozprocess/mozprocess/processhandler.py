@@ -1117,6 +1117,9 @@ self
 sig
 =
 None
+timeout
+=
+None
 )
 :
             
@@ -1456,6 +1459,7 @@ self
 .
 wait
 (
+timeout
 )
             
 self
@@ -4788,6 +4792,9 @@ self
 sig
 =
 None
+timeout
+=
+None
 )
 :
         
@@ -4933,6 +4940,9 @@ kill
 sig
 =
 sig
+timeout
+=
+timeout
 )
         
 rc
@@ -4941,6 +4951,7 @@ self
 .
 wait
 (
+timeout
 )
         
 if
@@ -5447,6 +5458,7 @@ proc
 .
 wait
 (
+timeout
 )
         
 return
