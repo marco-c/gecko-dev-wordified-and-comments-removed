@@ -23,6 +23,7 @@ uint8_t
 {
 OutOfMemory
 InternalError
+OverflowError
 }
 ;
 struct

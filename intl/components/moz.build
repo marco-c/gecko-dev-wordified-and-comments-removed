@@ -50,6 +50,13 @@ h
 "
 src
 /
+ListFormat
+.
+h
+"
+"
+src
+/
 LocaleCanonicalizer
 .
 h
@@ -126,6 +133,13 @@ cpp
 src
 /
 ICU4CGlue
+.
+cpp
+"
+"
+src
+/
+ListFormat
 .
 cpp
 "
