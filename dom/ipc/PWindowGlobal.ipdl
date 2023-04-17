@@ -536,6 +536,8 @@ UpdateDocumentPrincipal
 (
 nsIPrincipal
 aPrincipal
+nsIPrincipal
+aStoragePrincipal
 )
 ;
 async
