@@ -188,6 +188,13 @@ manager
 patch
 "
 "
+tsan
+-
+D101154
+.
+patch
+"
+"
 loosen
 -
 msvc
