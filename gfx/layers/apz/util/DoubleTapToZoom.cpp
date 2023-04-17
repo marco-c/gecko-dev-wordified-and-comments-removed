@@ -1124,6 +1124,10 @@ return
 ZoomTarget
 {
 zoomOut
+CantZoomOutBehavior
+:
+:
+ZoomIn
 }
 ;
 }
@@ -1148,6 +1152,10 @@ return
 ZoomTarget
 {
 zoomOut
+CantZoomOutBehavior
+:
+:
+ZoomIn
 }
 ;
 }
@@ -1213,6 +1221,10 @@ return
 ZoomTarget
 {
 zoomOut
+CantZoomOutBehavior
+:
+:
+ZoomIn
 Nothing
 (
 )
@@ -1269,6 +1281,10 @@ return
 ZoomTarget
 {
 zoomOut
+CantZoomOutBehavior
+:
+:
+ZoomIn
 Nothing
 (
 )
@@ -1787,6 +1803,10 @@ return
 ZoomTarget
 {
 zoomOut
+CantZoomOutBehavior
+:
+:
+ZoomIn
 Nothing
 (
 )
@@ -1831,6 +1851,10 @@ return
 ZoomTarget
 {
 rect
+CantZoomOutBehavior
+:
+:
+ZoomIn
 Some
 (
 elementBoundingRect
