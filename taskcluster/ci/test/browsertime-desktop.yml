@@ -1821,14 +1821,7 @@ raptor
 subtests
 :
 -
-[
 cnn
--
-ampstories
-cnn
--
-amp
-]
 run
 -
 on
