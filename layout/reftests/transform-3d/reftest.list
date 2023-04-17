@@ -1303,12 +1303,6 @@ block
 html
 ?
 ref
-fails
--
-if
-(
-useDrawSnapshot
-)
 !
 =
 willchange
