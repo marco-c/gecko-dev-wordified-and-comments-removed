@@ -8845,14 +8845,15 @@ nsINamed
 {
 public
 :
-typedef
+using
+Method
+=
 void
 (
 ServiceWorkerPrivate
 :
 :
 *
-Method
 )
 (
 nsITimer
