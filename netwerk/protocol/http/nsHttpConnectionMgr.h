@@ -348,12 +348,12 @@ nsHttpConnectionInfo
 )
 ;
 uint64_t
-CurrentTopLevelOuterContentWindowId
+CurrentTopBrowsingContextId
 (
 )
 {
 return
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 ;
 }
 void
@@ -1095,7 +1095,7 @@ ARefBase
 )
 ;
 void
-OnMsgUpdateCurrentTopLevelOuterContentWindowId
+OnMsgUpdateCurrentTopBrowsingContextId
 (
 int32_t
 ARefBase
@@ -1176,7 +1176,7 @@ nsCString
 mLogData
 ;
 uint64_t
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 ;
 void
 SetThrottlingEnabled
@@ -1306,10 +1306,10 @@ char
 )
 ;
 void
-NotifyConnectionOfWindowIdChange
+NotifyConnectionOfBrowsingContextIdChange
 (
 uint64_t
-previousWindowId
+previousId
 )
 ;
 }

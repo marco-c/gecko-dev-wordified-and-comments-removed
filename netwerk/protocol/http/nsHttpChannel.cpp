@@ -7392,7 +7392,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 ;
 }
-EnsureTopLevelOuterContentWindowId
+EnsureTopBrowsingContextId
 (
 )
 ;
@@ -7493,7 +7493,7 @@ GetCurrentEventTarget
 )
 callbacks
 this
-mTopLevelOuterContentWindowId
+mTopBrowsingContextId
 category
 mRequestContext
 mClassOfService

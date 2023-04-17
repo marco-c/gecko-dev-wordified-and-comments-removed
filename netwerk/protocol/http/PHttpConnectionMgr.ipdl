@@ -42,10 +42,10 @@ aArgs
 )
 ;
 async
-UpdateCurrentTopLevelOuterContentWindowId
+UpdateCurrentTopBrowsingContextId
 (
 uint64_t
-aWindowId
+aId
 )
 ;
 async

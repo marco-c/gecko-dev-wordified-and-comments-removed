@@ -752,7 +752,7 @@ bool
 mBeforeConnectedError
 ;
 uint64_t
-mCurrentForegroundTabOuterContentWindowId
+mCurrentTopBrowsingContextId
 ;
 bool
 mTimerActive

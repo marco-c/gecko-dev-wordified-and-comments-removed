@@ -82,12 +82,12 @@ ipc
 :
 :
 IPCResult
-RecvUpdateCurrentTopLevelOuterContentWindowId
+RecvUpdateCurrentTopBrowsingContextId
 (
 const
 uint64_t
 &
-aWindowId
+aId
 )
 ;
 mozilla

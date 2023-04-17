@@ -155,7 +155,7 @@ PR_SecondsToInterval
 ;
 }
 uint64_t
-TopLevelOuterContentWindowId
+TopBrowsingContextId
 (
 )
 override

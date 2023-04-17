@@ -344,10 +344,10 @@ void
 ConnectionHandle
 :
 :
-TopLevelOuterContentWindowIdChanged
+TopBrowsingContextIdChanged
 (
 uint64_t
-windowId
+id
 )
 {
 }

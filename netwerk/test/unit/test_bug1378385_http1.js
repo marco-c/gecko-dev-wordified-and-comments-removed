@@ -198,7 +198,7 @@ uri
 ;
 chan
 .
-topLevelOuterContentWindowId
+topBrowsingContextId
 =
 windowId
 ;

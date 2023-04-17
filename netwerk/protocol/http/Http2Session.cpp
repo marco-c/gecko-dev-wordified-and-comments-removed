@@ -731,7 +731,7 @@ mPreviousPingThreshold
 =
 mPingThreshold
 ;
-mCurrentForegroundTabOuterContentWindowId
+mCurrentTopBrowsingContextId
 =
 gHttpHandler
 -
@@ -741,7 +741,7 @@ ConnMgr
 )
 -
 >
-CurrentTopLevelOuterContentWindowId
+CurrentTopBrowsingContextId
 (
 )
 ;
@@ -2858,7 +2858,7 @@ Http2Stream
 aHttpTransaction
 this
 aPriority
-mCurrentForegroundTabOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 ;
 LOG3
@@ -10632,7 +10632,7 @@ promisedID
 self
 -
 >
-mCurrentForegroundTabOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 )
 ;
@@ -25032,10 +25032,10 @@ void
 Http2Session
 :
 :
-TopLevelOuterContentWindowIdChanged
+TopBrowsingContextIdChanged
 (
 uint64_t
-windowId
+id
 )
 {
 MOZ_ASSERT
@@ -25051,9 +25051,9 @@ thread
 "
 )
 ;
-mCurrentForegroundTabOuterContentWindowId
+mCurrentTopBrowsingContextId
 =
-windowId
+id
 ;
 for
 (
@@ -25072,9 +25072,9 @@ Values
 stream
 -
 >
-TopLevelOuterContentWindowIdChanged
+TopBrowsingContextIdChanged
 (
-windowId
+id
 )
 ;
 }

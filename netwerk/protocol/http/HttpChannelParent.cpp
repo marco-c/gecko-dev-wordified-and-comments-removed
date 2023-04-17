@@ -960,7 +960,7 @@ preferredAlternativeTypes
 )
 a
 .
-topLevelOuterContentWindowId
+topBrowsingContextId
 (
 )
 a
@@ -2145,7 +2145,7 @@ aPreferredAlternativeTypes
 const
 uint64_t
 &
-aTopLevelOuterContentWindowId
+aTopBrowsingContextId
 const
 TimeStamp
 &
@@ -2270,7 +2270,8 @@ gid
 "
 PRIu64
 "
-topwinid
+top
+bid
 =
 %
 "
@@ -2292,7 +2293,7 @@ get
 (
 )
 aChannelId
-aTopLevelOuterContentWindowId
+aTopBrowsingContextId
 )
 )
 ;
@@ -2464,9 +2465,9 @@ aContentWindowId
 httpChannel
 -
 >
-SetTopLevelOuterContentWindowId
+SetTopBrowsingContextId
 (
-aTopLevelOuterContentWindowId
+aTopBrowsingContextId
 )
 ;
 httpChannel

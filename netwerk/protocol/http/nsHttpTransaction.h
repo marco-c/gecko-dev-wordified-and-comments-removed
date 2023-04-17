@@ -605,13 +605,13 @@ Refused0RTT
 )
 ;
 uint64_t
-TopLevelOuterContentWindowId
+TopBrowsingContextId
 (
 )
 override
 {
 return
-mTopLevelOuterContentWindowId
+mTopBrowsingContextId
 ;
 }
 void
@@ -1460,7 +1460,7 @@ TimeDuration
 mPendingDurationTime
 ;
 uint64_t
-mTopLevelOuterContentWindowId
+mTopBrowsingContextId
 ;
 public
 :

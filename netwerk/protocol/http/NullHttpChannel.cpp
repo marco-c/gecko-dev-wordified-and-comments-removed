@@ -317,11 +317,10 @@ NS_IMETHODIMP
 NullHttpChannel
 :
 :
-GetTopLevelOuterContentWindowId
+GetTopBrowsingContextId
 (
 uint64_t
 *
-aWindowId
 )
 {
 return
@@ -332,10 +331,9 @@ NS_IMETHODIMP
 NullHttpChannel
 :
 :
-SetTopLevelOuterContentWindowId
+SetTopBrowsingContextId
 (
 uint64_t
-aWindowId
 )
 {
 return

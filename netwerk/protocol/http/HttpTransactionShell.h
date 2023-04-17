@@ -208,7 +208,7 @@ nsITransportEventSink
 *
 eventsink
 uint64_t
-topLevelOuterContentWindowId
+topBrowsingContextId
 HttpTrafficCategory
 trafficCategory
 nsIRequestContext
@@ -666,7 +666,7 @@ nsITransportEventSink
 *
 eventsink
 uint64_t
-topLevelOuterContentWindowId
+topBrowsingContextId
 \
 HttpTrafficCategory
 trafficCategory

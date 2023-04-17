@@ -713,7 +713,7 @@ PreferredAlternativeDataTypeParams
 preferredAlternativeTypes
 ;
 uint64_t
-topLevelOuterContentWindowId
+topBrowsingContextId
 ;
 TimeStamp
 launchServiceWorkerStart

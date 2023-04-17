@@ -413,7 +413,7 @@ must_use
 ]
 attribute
 uint64_t
-topLevelOuterContentWindowId
+topBrowsingContextId
 ;
 void
 logBlockedCORSRequest

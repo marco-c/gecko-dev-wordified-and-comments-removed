@@ -369,7 +369,7 @@ mTimeoutTickNext
 (
 1
 )
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 (
 0
 )
@@ -5438,7 +5438,7 @@ ent
 >
 AppendPendingQForFocusedWindow
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 pendingQ
 maxFocusedWindowConnections
 )
@@ -5457,7 +5457,7 @@ ent
 >
 AppendPendingQForNonFocusedWindows
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 pendingQ
 availableConnections
 )
@@ -5487,7 +5487,7 @@ ent
 >
 AppendPendingQForFocusedWindow
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 pendingQ
 maxFocusedWindowConnections
 )
@@ -5502,7 +5502,7 @@ ent
 >
 AppendPendingQForNonFocusedWindows
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 remainingPendingQ
 maxNonFocusedWindowConnections
 )
@@ -5524,7 +5524,7 @@ ent
 >
 AppendPendingQForFocusedWindow
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 pendingQ
 maxNonFocusedWindowConnections
 -
@@ -5553,7 +5553,7 @@ ent
 >
 AppendPendingQForNonFocusedWindows
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 remainingPendingQ
 maxFocusedWindowConnections
 -
@@ -13653,22 +13653,22 @@ nsresult
 nsHttpConnectionMgr
 :
 :
-UpdateCurrentTopLevelOuterContentWindowId
+UpdateCurrentTopBrowsingContextId
 (
 uint64_t
-aWindowId
+aId
 )
 {
 RefPtr
 <
 UINT64Wrapper
 >
-windowIdWrapper
+idWrapper
 =
 new
 UINT64Wrapper
 (
-aWindowId
+aId
 )
 ;
 return
@@ -13678,9 +13678,9 @@ PostEvent
 nsHttpConnectionMgr
 :
 :
-OnMsgUpdateCurrentTopLevelOuterContentWindowId
+OnMsgUpdateCurrentTopBrowsingContextId
 0
-windowIdWrapper
+idWrapper
 )
 ;
 }
@@ -13917,7 +13917,7 @@ false
 .
 Get
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 ;
 au
@@ -13942,7 +13942,7 @@ true
 .
 Get
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 ;
 at
@@ -14082,7 +14082,7 @@ tabId
 aTrans
 -
 >
-TopLevelOuterContentWindowId
+TopBrowsingContextId
 (
 )
 ;
@@ -14168,7 +14168,7 @@ tabId
 tabId
 =
 =
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 throttled
 )
 )
@@ -14185,7 +14185,7 @@ if
 tabId
 =
 =
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 {
 mActiveTabTransactionsExist
@@ -14260,7 +14260,7 @@ tabId
 aTrans
 -
 >
-TopLevelOuterContentWindowId
+TopBrowsingContextId
 (
 )
 ;
@@ -14270,7 +14270,7 @@ forActiveTab
 tabId
 =
 =
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 ;
 bool
 throttled
@@ -14587,7 +14587,7 @@ true
 .
 Get
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 )
 ;
@@ -14821,7 +14821,7 @@ tabId
 aTrans
 -
 >
-TopLevelOuterContentWindowId
+TopBrowsingContextId
 (
 )
 ;
@@ -14831,7 +14831,7 @@ forActiveTab
 tabId
 =
 =
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 ;
 bool
 throttled
@@ -15151,7 +15151,7 @@ ent
 >
 PendingQueueLengthForWindow
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 >
 0
@@ -16021,7 +16021,7 @@ GetKey
 )
 =
 =
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 {
 continue
@@ -16084,10 +16084,10 @@ void
 nsHttpConnectionMgr
 :
 :
-NotifyConnectionOfWindowIdChange
+NotifyConnectionOfBrowsingContextIdChange
 (
 uint64_t
-previousWindowId
+previousId
 )
 {
 MOZ_ASSERT
@@ -16210,7 +16210,7 @@ false
 .
 Get
 (
-previousWindowId
+previousId
 )
 ;
 addConnectionHelper
@@ -16227,7 +16227,7 @@ false
 .
 Get
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 ;
 addConnectionHelper
@@ -16244,7 +16244,7 @@ true
 .
 Get
 (
-previousWindowId
+previousId
 )
 ;
 addConnectionHelper
@@ -16261,7 +16261,7 @@ true
 .
 Get
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 ;
 addConnectionHelper
@@ -16282,9 +16282,9 @@ connections
 conn
 -
 >
-TopLevelOuterContentWindowIdChanged
+TopBrowsingContextIdChanged
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 ;
 }
@@ -16293,7 +16293,7 @@ void
 nsHttpConnectionMgr
 :
 :
-OnMsgUpdateCurrentTopLevelOuterContentWindowId
+OnMsgUpdateCurrentTopBrowsingContextId
 (
 int32_t
 aLoading
@@ -16316,7 +16316,7 @@ thread
 )
 ;
 uint64_t
-winId
+id
 =
 static_cast
 <
@@ -16334,10 +16334,10 @@ GetValue
 ;
 if
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 =
 =
-winId
+id
 )
 {
 return
@@ -16349,13 +16349,13 @@ activeTabWasLoading
 mActiveTabTransactionsExist
 ;
 uint64_t
-previousWindowId
+previousId
 =
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 ;
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 =
-winId
+id
 ;
 if
 (
@@ -16367,9 +16367,9 @@ ActiveTabPriority
 )
 )
 {
-NotifyConnectionOfWindowIdChange
+NotifyConnectionOfBrowsingContextIdChange
 (
-previousWindowId
+previousId
 )
 ;
 }
@@ -16380,7 +16380,7 @@ LOG
 nsHttpConnectionMgr
 :
 :
-OnMsgUpdateCurrentTopLevelOuterContentWindowId
+OnMsgUpdateCurrentTopBrowsingContextId
 "
 "
 id
@@ -16392,7 +16392,7 @@ PRIx64
 \
 n
 "
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 )
 ;
@@ -16417,7 +16417,7 @@ false
 .
 Get
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 ;
 mActiveTabUnthrottledTransactionsExist
@@ -16441,7 +16441,7 @@ true
 .
 Get
 (
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 ;
 }
