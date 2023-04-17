@@ -56,6 +56,8 @@ Program
     
 Sources
     
+SandboxedWasmLibrary
+    
 UnifiedSources
 )
 from
@@ -561,6 +563,13 @@ isinstance
 (
 obj
 Library
+)
+and
+not
+isinstance
+(
+obj
+SandboxedWasmLibrary
 )
 :
             
