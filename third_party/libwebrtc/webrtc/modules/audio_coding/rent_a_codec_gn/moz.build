@@ -244,6 +244,14 @@ fix
 include
 /
 "
+"
+/
+tools
+/
+profiler
+/
+public
+"
 ]
 UNIFIED_SOURCES
 +

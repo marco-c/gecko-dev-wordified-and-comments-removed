@@ -254,6 +254,14 @@ fix
 include
 /
 "
+"
+/
+tools
+/
+profiler
+/
+public
+"
 ]
 SOURCES
 +

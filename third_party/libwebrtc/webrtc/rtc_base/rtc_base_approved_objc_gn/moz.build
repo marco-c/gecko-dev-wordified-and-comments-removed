@@ -222,6 +222,14 @@ libwebrtc
 webrtc
 /
 "
+"
+/
+tools
+/
+profiler
+/
+public
+"
 ]
 OS_LIBS
 +

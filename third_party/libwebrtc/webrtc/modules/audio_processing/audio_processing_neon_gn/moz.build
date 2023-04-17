@@ -251,6 +251,14 @@ vad
 include
 /
 "
+"
+/
+tools
+/
+profiler
+/
+public
+"
 ]
 SOURCES
 +

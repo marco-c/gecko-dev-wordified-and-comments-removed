@@ -344,6 +344,14 @@ modules
 include
 /
 "
+"
+/
+tools
+/
+profiler
+/
+public
+"
 ]
 if
 not

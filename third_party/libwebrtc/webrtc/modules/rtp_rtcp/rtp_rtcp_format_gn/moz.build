@@ -212,6 +212,14 @@ common_video
 include
 /
 "
+"
+/
+tools
+/
+profiler
+/
+public
+"
 ]
 SOURCES
 +

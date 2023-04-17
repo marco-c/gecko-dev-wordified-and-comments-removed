@@ -207,6 +207,14 @@ libwebrtc
 webrtc
 /
 "
+"
+/
+tools
+/
+profiler
+/
+public
+"
 ]
 UNIFIED_SOURCES
 +

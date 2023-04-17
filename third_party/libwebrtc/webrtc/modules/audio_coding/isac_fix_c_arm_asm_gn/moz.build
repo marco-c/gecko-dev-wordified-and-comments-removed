@@ -230,6 +230,14 @@ libwebrtc
 webrtc
 /
 "
+"
+/
+tools
+/
+profiler
+/
+public
+"
 ]
 SOURCES
 +

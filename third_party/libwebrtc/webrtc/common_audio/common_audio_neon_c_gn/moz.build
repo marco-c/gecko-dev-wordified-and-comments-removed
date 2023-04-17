@@ -241,6 +241,14 @@ vad
 include
 /
 "
+"
+/
+tools
+/
+profiler
+/
+public
+"
 ]
 UNIFIED_SOURCES
 +

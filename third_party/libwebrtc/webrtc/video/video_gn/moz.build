@@ -240,6 +240,14 @@ modules
 include
 /
 "
+"
+/
+tools
+/
+profiler
+/
+public
+"
 ]
 SOURCES
 +
