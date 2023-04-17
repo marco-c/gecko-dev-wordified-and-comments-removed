@@ -14658,7 +14658,14 @@ PrefsFor
 aDocument
 )
 .
-mColors
+ColorsFor
+(
+aDocument
+.
+PreferredColorScheme
+(
+)
+)
 .
 mDefault
 )

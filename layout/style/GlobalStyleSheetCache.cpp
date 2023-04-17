@@ -2828,7 +2828,7 @@ colors
 =
 aPrefs
 .
-mColors
+mLightColors
 ;
 nscolor
 focusText

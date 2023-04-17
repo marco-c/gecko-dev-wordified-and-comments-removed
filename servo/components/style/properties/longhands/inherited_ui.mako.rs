@@ -724,6 +724,9 @@ discrete
 has_effect_on_gecko_scrollbars
 =
 False
+ignored_when_colors_disabled
+=
+True
 enabled_in
 =
 "

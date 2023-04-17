@@ -441,7 +441,7 @@ new
 (
 prefs
 .
-mColors
+mLightColors
 .
 mDefault
 as
@@ -1618,7 +1618,7 @@ mUseDocumentColors
 }
 pub
 fn
-default_background_color
+default_background_color_for_forced_colors
 (
 &
 self
@@ -1635,14 +1635,14 @@ pref_sheet_prefs
 (
 )
 .
-mColors
+mLightColors
 .
 mDefaultBackground
 )
 }
 pub
 fn
-default_color
+default_color_for_forced_colors
 (
 &
 self
@@ -1659,7 +1659,7 @@ pref_sheet_prefs
 (
 )
 .
-mColors
+mLightColors
 .
 mDefault
 )

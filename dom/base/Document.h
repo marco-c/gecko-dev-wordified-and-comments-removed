@@ -11625,6 +11625,12 @@ No
 )
 const
 ;
+ColorScheme
+DefaultColorScheme
+(
+)
+const
+;
 static
 bool
 HasRecentlyStartedForegroundLoads
