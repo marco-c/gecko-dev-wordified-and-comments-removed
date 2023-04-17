@@ -252,11 +252,6 @@ MatrixMessage
 aTransforms
 )
 ;
-[
-Priority
-=
-control
-]
 async
 RequestContentRepaint
 (
@@ -310,11 +305,6 @@ int
 aArg
 )
 ;
-[
-Priority
-=
-control
-]
 async
 NotifyFlushComplete
 (

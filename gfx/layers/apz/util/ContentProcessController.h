@@ -231,14 +231,6 @@ aTask
 )
 override
 ;
-PresShell
-*
-GetTopLevelPresShell
-(
-)
-const
-override
-;
 private
 :
 RefPtr
