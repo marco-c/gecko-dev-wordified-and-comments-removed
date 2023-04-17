@@ -1953,6 +1953,14 @@ JSContext
 cx
 )
 {
+#
+ifdef
+FUZZING_JS_FUZZILLI
+return
+false
+;
+#
+else
 return
 StreamingCompilationAvailable
 (
@@ -1965,6 +1973,8 @@ IonAvailable
 cx
 )
 ;
+#
+endif
 }
 static
 bool
