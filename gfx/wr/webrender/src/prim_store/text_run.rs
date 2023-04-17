@@ -172,6 +172,7 @@ spatial_tree
 {
 SpatialTree
 SpatialNodeIndex
+SpatialNodeContainer
 }
 ;
 use

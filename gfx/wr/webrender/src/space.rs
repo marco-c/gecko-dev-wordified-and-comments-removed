@@ -36,6 +36,7 @@ SpatialTree
 CoordinateSpaceMapping
 SpatialNodeIndex
 VisibleFace
+SpatialNodeContainer
 }
 ;
 use
@@ -902,6 +903,11 @@ raster_pixel_scale
 pub
 fn
 new_with_target
+<
+S
+:
+SpatialNodeContainer
+>
 (
 ref_spatial_node_index
 :
@@ -915,7 +921,7 @@ RasterPixelScale
 spatial_tree
 :
 &
-SpatialTree
+S
 )
 -
 >
@@ -953,6 +959,11 @@ snapper
 pub
 fn
 set_target_spatial_node
+<
+S
+:
+SpatialNodeContainer
+>
 (
 &
 mut
@@ -963,7 +974,7 @@ SpatialNodeIndex
 spatial_tree
 :
 &
-SpatialTree
+S
 )
 {
 if

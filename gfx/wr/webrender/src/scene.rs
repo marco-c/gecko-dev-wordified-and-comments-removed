@@ -79,7 +79,10 @@ crate
 spatial_tree
 :
 :
+{
 SpatialTree
+SceneSpatialTree
+}
 ;
 use
 crate
@@ -1441,6 +1444,12 @@ SpatialTree
 :
 new
 (
+SceneSpatialTree
+:
+:
+new
+(
+)
 )
 hit_testing_scene
 :

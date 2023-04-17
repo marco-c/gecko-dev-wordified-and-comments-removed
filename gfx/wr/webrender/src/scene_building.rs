@@ -194,8 +194,10 @@ spatial_tree
 :
 {
 SpatialTree
+SceneSpatialTree
 SpatialNodeIndex
 StaticCoordinateSystemId
+get_external_scroll_offset
 }
 ;
 use
@@ -642,7 +644,7 @@ SpatialNodeIndex
 spatial_tree
 :
 &
-SpatialTree
+SceneSpatialTree
 )
 -
 >
@@ -666,10 +668,9 @@ self
 .
 current_offset
 =
-spatial_tree
-.
-external_scroll_offset
+get_external_scroll_offset
 (
+spatial_tree
 spatial_node_index
 )
 ;
@@ -1505,7 +1506,7 @@ ShadowItem
 pub
 spatial_tree
 :
-SpatialTree
+SceneSpatialTree
 pub
 prim_store
 :
@@ -1681,7 +1682,7 @@ None
 let
 spatial_tree
 =
-SpatialTree
+SceneSpatialTree
 :
 :
 new
@@ -1970,9 +1971,15 @@ hit_testing_scene
 )
 spatial_tree
 :
+SpatialTree
+:
+:
+new
+(
 builder
 .
 spatial_tree
+)
 prim_store
 :
 builder

@@ -120,7 +120,7 @@ spatial_tree
 :
 {
 SpatialNodeIndex
-SpatialTree
+SceneSpatialTree
 }
 ;
 use
@@ -373,7 +373,7 @@ ClipChainId
 spatial_tree
 :
 &
-SpatialTree
+SceneSpatialTree
 clip_store
 :
 &
@@ -935,7 +935,7 @@ PrimitiveFlags
 spatial_tree
 :
 &
-SpatialTree
+SceneSpatialTree
 clip_store
 :
 &
@@ -1691,7 +1691,7 @@ SpatialNodeIndex
 spatial_tree
 :
 &
-SpatialTree
+SceneSpatialTree
 )
 -
 >
@@ -1765,7 +1765,7 @@ Interners
 spatial_tree
 :
 &
-SpatialTree
+SceneSpatialTree
 )
 {
 let
