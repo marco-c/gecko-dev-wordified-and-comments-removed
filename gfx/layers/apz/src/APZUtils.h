@@ -702,11 +702,6 @@ FrameMetrics
 aCompositorMetrics
 )
 ;
-bool
-ShouldUseProgressivePaint
-(
-)
-;
 SideBits
 GetOverscrollSideBits
 (

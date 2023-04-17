@@ -494,15 +494,6 @@ visible
 )
 ;
 }
-bool
-ShouldUseProgressivePaint
-(
-)
-{
-return
-false
-;
-}
 SideBits
 GetOverscrollSideBits
 (

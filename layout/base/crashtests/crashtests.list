@@ -3054,15 +3054,6 @@ pref
 (
 layers
 .
-progressive
--
-paint
-false
-)
-pref
-(
-layers
-.
 low
 -
 precision
