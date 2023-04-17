@@ -391,6 +391,9 @@ __init__
 (
 self
 workspace_dir
+taskgraph
+=
+None
 )
 :
         
@@ -435,6 +438,7 @@ _gatherer
 Gatherer
 (
 workspace_dir
+taskgraph
 )
     
 def

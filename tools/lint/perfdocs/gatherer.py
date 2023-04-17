@@ -113,6 +113,9 @@ __init__
 (
 self
 workspace_dir
+taskgraph
+=
+None
 )
 :
         
@@ -146,6 +149,12 @@ self
 workspace_dir
 =
 workspace_dir
+        
+self
+.
+taskgraph
+=
+taskgraph
         
 self
 .
@@ -838,6 +847,9 @@ yml_path
 self
 .
 workspace_dir
+self
+.
+taskgraph
         
 )
         
