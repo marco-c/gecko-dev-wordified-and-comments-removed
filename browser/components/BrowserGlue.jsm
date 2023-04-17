@@ -18206,6 +18206,11 @@ ctrlTab
 recentlyUsedOrder
 "
 ;
+let
+oldPrefDefault
+=
+true
+;
 if
 (
 Services
@@ -18238,7 +18243,7 @@ prefs
 getBoolPref
 (
 oldPrefName
-defaultValue
+oldPrefDefault
 )
 ;
 Services
