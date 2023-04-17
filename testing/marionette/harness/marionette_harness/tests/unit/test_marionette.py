@@ -435,11 +435,14 @@ assertEqual
 (
             
 current_socket_timeout
+            
 self
 .
 marionette
 .
 client
+.
+_socket_context
 .
 _sock
 .
