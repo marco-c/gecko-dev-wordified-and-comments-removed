@@ -1396,6 +1396,15 @@ vpn
 link
 "
 }
+action
+:
+{
+type
+:
+"
+CANCEL
+"
+}
 }
 }
 }

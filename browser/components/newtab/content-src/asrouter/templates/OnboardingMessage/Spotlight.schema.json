@@ -236,6 +236,7 @@ string_id
 }
 ]
 }
+}
 "
 required
 "
@@ -245,7 +246,6 @@ required
 label
 "
 ]
-}
 }
 "
 text
@@ -361,6 +361,7 @@ string_id
 }
 ]
 }
+}
 "
 required
 "
@@ -370,7 +371,6 @@ required
 label
 "
 ]
-}
 }
 "
 primary
@@ -556,6 +556,7 @@ additionalProperties
 :
 false
 }
+}
 "
 required
 "
@@ -568,7 +569,6 @@ label
 action
 "
 ]
-}
 }
 "
 secondary
@@ -683,6 +683,7 @@ string_id
 }
 ]
 }
+}
 "
 required
 "
@@ -695,7 +696,6 @@ label
 action
 "
 ]
-}
 }
 }
 "
@@ -735,6 +735,9 @@ required
 [
 "
 body
+"
+"
+template
 "
 ]
 }
