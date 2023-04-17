@@ -98,11 +98,14 @@ aAddonId
 )
 ;
 boolean
-extensionURILoadableByAnyone
+sourceMayLoadExtensionURI
 (
 in
 nsIURI
-aURI
+aSourceURI
+in
+nsIURI
+aExtensionURI
 )
 ;
 AString

@@ -1654,7 +1654,7 @@ if
 policy
 -
 >
-IsPathWebAccessible
+IsWebAccessiblePath
 (
 url
 .
@@ -1670,6 +1670,8 @@ flags
 URI_LOADABLE_BY_ANYONE
 |
 URI_FETCHABLE_BY_ANYONE
+|
+WEBEXT_URI_WEB_ACCESSIBLE
 ;
 }
 else

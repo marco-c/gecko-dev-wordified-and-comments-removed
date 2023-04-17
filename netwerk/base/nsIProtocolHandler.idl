@@ -536,5 +536,17 @@ URI_FORBIDS_COOKIE_ACCESS
 23
 )
 ;
+const
+unsigned
+long
+WEBEXT_URI_WEB_ACCESSIBLE
+=
+(
+1
+<
+<
+24
+)
+;
 }
 ;

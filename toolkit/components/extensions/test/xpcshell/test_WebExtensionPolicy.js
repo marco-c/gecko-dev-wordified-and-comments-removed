@@ -621,7 +621,7 @@ ok
 (
 policy
 .
-isPathWebAccessible
+isWebAccessiblePath
 (
 "
 /
@@ -647,7 +647,7 @@ ok
 (
 policy
 .
-isPathWebAccessible
+isWebAccessiblePath
 (
 "
 /
@@ -674,7 +674,7 @@ ok
 !
 policy
 .
-isPathWebAccessible
+isWebAccessiblePath
 (
 "
 /
