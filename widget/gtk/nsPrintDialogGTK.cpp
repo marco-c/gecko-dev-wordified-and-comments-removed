@@ -1965,7 +1965,6 @@ text
 "
 )
 ;
-else
 return
 header_footer_tags
 [
@@ -3166,12 +3165,9 @@ return
 false
 ;
 }
-else
-{
 return
 true
 ;
-}
 }
 #
 endif
