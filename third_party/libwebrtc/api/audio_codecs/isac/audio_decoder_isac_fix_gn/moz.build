@@ -145,6 +145,14 @@ True
 DEFINES
 [
 "
+RTC_ENABLE_VP9
+"
+]
+=
+True
+DEFINES
+[
+"
 WEBRTC_ANDROID
 "
 ]
