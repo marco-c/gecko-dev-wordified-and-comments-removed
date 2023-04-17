@@ -59,6 +59,7 @@ mov
 esp
 %
 ebp
+(
 b8
 ef
 be
@@ -70,6 +71,8 @@ mov
 0xDEADBEEF
 %
 eax
+)
+?
 var
 x86_loadarg0
 =
