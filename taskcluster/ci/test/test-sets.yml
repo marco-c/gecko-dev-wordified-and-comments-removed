@@ -1370,8 +1370,6 @@ mochitest
 -
 remote
 -
-reftest
--
 telemetry
 -
 tests
@@ -1493,6 +1491,8 @@ tests
 mochitest
 -
 plain
+-
+reftest
 mingwclang
 -
 tests
