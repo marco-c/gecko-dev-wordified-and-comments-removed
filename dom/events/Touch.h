@@ -205,6 +205,15 @@ aTouch
 )
 const
 ;
+void
+SetSameAs
+(
+const
+Touch
+*
+aTouch
+)
+;
 virtual
 JSObject
 *

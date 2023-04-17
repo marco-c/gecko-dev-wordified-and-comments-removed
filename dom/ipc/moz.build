@@ -163,6 +163,11 @@ CoalescedMouseData
 h
 "
 "
+CoalescedTouchData
+.
+h
+"
+"
 CoalescedWheelData
 .
 h
@@ -406,6 +411,11 @@ cpp
 "
 "
 CoalescedMouseData
+.
+cpp
+"
+"
+CoalescedTouchData
 .
 cpp
 "
