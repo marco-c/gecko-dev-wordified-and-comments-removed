@@ -8,7 +8,9 @@ common_virtualenv_packages
 .
 txt
 #
-glean_sdk
+glean
+-
+sdk
 may
 not
 be
@@ -34,7 +36,9 @@ pypi
 -
 optional
 :
-glean_sdk
+glean
+-
+sdk
 =
 =
 36
