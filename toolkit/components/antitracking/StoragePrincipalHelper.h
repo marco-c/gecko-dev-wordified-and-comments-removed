@@ -23,6 +23,9 @@ class
 nsICookieJarSettings
 ;
 class
+nsIDocShell
+;
+class
 nsILoadGroup
 ;
 class
@@ -169,6 +172,15 @@ nsIPrincipal
 *
 *
 aPrincipal
+)
+;
+static
+bool
+ShouldUsePartitionPrincipalForServiceWorker
+(
+nsIDocShell
+*
+aDocShell
 )
 ;
 static
