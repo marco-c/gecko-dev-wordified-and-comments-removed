@@ -702,7 +702,7 @@ _ns
 )
 continue
 ;
-int8_t
+uint8_t
 attrFlags
 =
 aria

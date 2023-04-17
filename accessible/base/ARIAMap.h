@@ -368,7 +368,7 @@ Element
 aElement
 )
 ;
-int8_t
+uint8_t
 AttrCharacteristicsFor
 (
 nsAtom
