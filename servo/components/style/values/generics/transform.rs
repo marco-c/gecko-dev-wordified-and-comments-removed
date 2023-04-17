@@ -3298,6 +3298,7 @@ CSSFloat
 if
 d
 <
+=
 0
 .
 0
@@ -3317,12 +3318,6 @@ Transform3D
 perspective
 (
 d
-.
-max
-(
-1
-.
-)
 )
 }
 }
