@@ -812,6 +812,11 @@ SCREEN_STRINGS
 current
 ]
 ;
+let
+toFocus
+=
+primary
+;
 switch
 (
 current
@@ -1186,6 +1191,8 @@ swatch
 await
 gPrevTheme
 ;
+toFocus
+=
 themes
 .
 children
@@ -1197,6 +1204,8 @@ indexOf
 id
 )
 ]
+;
+toFocus
 .
 checked
 =
@@ -1519,7 +1528,7 @@ requestAnimationFrame
 =
 >
 {
-primary
+toFocus
 .
 focus
 (
