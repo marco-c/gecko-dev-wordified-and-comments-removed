@@ -2528,6 +2528,11 @@ o
 }
 media
 (
+-
+moz
+-
+toolbar
+-
 prefers
 -
 color
