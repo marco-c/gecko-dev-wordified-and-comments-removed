@@ -28,6 +28,11 @@ TestBlendAnimationFilter
 cpp
 "
 "
+TestContainers
+.
+cpp
+"
+"
 TestCopyOnWrite
 .
 cpp

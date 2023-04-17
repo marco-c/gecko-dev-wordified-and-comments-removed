@@ -143,7 +143,7 @@ NS_IMETHOD_
 (
 ImgDrawResult
 )
-GetImageProvider
+GetImageContainerAtSize
 (
 WindowRenderer
 *
@@ -171,10 +171,13 @@ ImageIntRegion
 aRegion
 uint32_t
 aFlags
-WebRenderImageProvider
+layers
+:
+:
+ImageContainer
 *
 *
-aProvider
+aOutContainer
 )
 override
 ;
