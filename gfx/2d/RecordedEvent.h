@@ -399,8 +399,10 @@ aRefPtr
 0
 ;
 virtual
+already_AddRefed
+<
 GradientStops
-*
+>
 LookupGradientStops
 (
 ReferencePtr

@@ -697,8 +697,10 @@ mFinalSurface
 ;
 }
 static
+already_AddRefed
+<
 GradientStops
-*
+>
 GetGradientStops
 (
 GradientStops
@@ -723,10 +725,15 @@ RECORDING
 )
 {
 return
+do_AddRef
+(
 aStops
+)
 ;
 }
 return
+do_AddRef
+(
 static_cast
 <
 GradientStopsWrapAndRecord
@@ -738,6 +745,7 @@ aStops
 -
 >
 mFinalGradientStops
+)
 ;
 }
 class

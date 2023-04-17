@@ -703,8 +703,10 @@ const
 Point
 &
 aEnd
+already_AddRefed
+<
 GradientStops
-*
+>
 aStops
 const
 Matrix
@@ -787,8 +789,10 @@ Float
 aRadius1
 Float
 aRadius2
+already_AddRefed
+<
 GradientStops
-*
+>
 aStops
 const
 Matrix
@@ -883,8 +887,10 @@ Float
 aStartOffset
 Float
 aEndOffset
+already_AddRefed
+<
 GradientStops
-*
+>
 aStops
 const
 Matrix
