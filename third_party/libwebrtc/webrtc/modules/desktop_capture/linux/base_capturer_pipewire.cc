@@ -703,13 +703,6 @@ SPA_DATA_MemPtr
 <
 SPA_DATA_MemFd
 )
-|
-(
-1
-<
-<
-SPA_DATA_DmaBuf
-)
 )
 SPA_PARAM_BUFFERS_size
 SPA_POD_Int
