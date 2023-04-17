@@ -201,7 +201,7 @@ interface
 nsIStreamListener
 ;
 [
-NamedConstructor
+LegacyFactoryFunction
 =
 Image
 (

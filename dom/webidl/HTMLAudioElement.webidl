@@ -163,7 +163,7 @@ document
 *
 /
 [
-NamedConstructor
+LegacyFactoryFunction
 =
 Audio
 (

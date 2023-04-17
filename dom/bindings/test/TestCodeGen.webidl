@@ -1054,17 +1054,17 @@ OnlyForUseInConstructor
 }
 ;
 [
-NamedConstructor
+LegacyFactoryFunction
 =
 Test
-NamedConstructor
+LegacyFactoryFunction
 =
 Test
 (
 DOMString
 str
 )
-NamedConstructor
+LegacyFactoryFunction
 =
 Test2
 (
@@ -1093,7 +1093,7 @@ object
 ?
 obj4
 )
-NamedConstructor
+LegacyFactoryFunction
 =
 Test3
 (
@@ -1108,7 +1108,7 @@ any
 )
 arg1
 )
-NamedConstructor
+LegacyFactoryFunction
 =
 Test4
 (
@@ -1123,7 +1123,7 @@ any
 >
 arg1
 )
-NamedConstructor
+LegacyFactoryFunction
 =
 Test5
 (
@@ -1151,7 +1151,7 @@ any
 >
 arg1
 )
-NamedConstructor
+LegacyFactoryFunction
 =
 Test6
 (

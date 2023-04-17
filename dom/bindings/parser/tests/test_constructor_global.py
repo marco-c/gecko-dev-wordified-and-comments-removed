@@ -105,15 +105,15 @@ parse
 Global
 Exposed
 =
-TestNamedConstructorGlobal
+TestLegacyFactoryFunctionGlobal
              
-NamedConstructor
+LegacyFactoryFunction
 =
 FooBar
 ]
             
 interface
-TestNamedConstructorGlobal
+TestLegacyFactoryFunctionGlobal
 {
             
 }
@@ -178,18 +178,18 @@ parse
 "
             
 [
-NamedConstructor
+LegacyFactoryFunction
 =
 FooBar
 Global
              
 Exposed
 =
-TestNamedConstructorGlobal
+TestLegacyFactoryFunctionGlobal
 ]
             
 interface
-TestNamedConstructorGlobal
+TestLegacyFactoryFunctionGlobal
 {
             
 }

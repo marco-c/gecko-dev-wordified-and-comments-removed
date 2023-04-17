@@ -162,7 +162,7 @@ recognition
 .
 enable
 "
-NamedConstructor
+LegacyFactoryFunction
 =
 webkitSpeechRecognition
 Func

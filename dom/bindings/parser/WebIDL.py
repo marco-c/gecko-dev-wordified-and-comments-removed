@@ -3442,7 +3442,7 @@ identifier
 =
 =
 "
-NamedConstructor
+LegacyFactoryFunction
 "
 :
                 
@@ -5092,7 +5092,7 @@ None
         
 self
 .
-namedConstructors
+legacyFactoryFunctions
 =
 list
 (
@@ -6376,7 +6376,7 @@ ctor
 in
 self
 .
-namedConstructors
+legacyFactoryFunctions
 :
             
 if
@@ -6396,8 +6396,9 @@ t
 have
 both
 a
-named
-constructor
+legacy
+factory
+function
 and
 [
 Global
@@ -8171,7 +8172,7 @@ namedCtor
 in
 self
 .
-namedConstructors
+legacyFactoryFunctions
 :
             
 namedCtor
@@ -10113,7 +10114,7 @@ identifier
 =
 =
 "
-NamedConstructor
+LegacyFactoryFunction
 "
 :
                 
@@ -10131,7 +10132,7 @@ WebIDLError
 (
                         
 "
-NamedConstructor
+LegacyFactoryFunction
 must
 either
 take
@@ -10254,7 +10255,7 @@ method
                     
 self
 .
-namedConstructors
+legacyFactoryFunctions
 .
 append
 (
@@ -10267,7 +10268,7 @@ not
 in
 self
 .
-namedConstructors
+legacyFactoryFunctions
 :
                     
 raise
@@ -10275,14 +10276,14 @@ WebIDLError
 (
                         
 "
-NamedConstructor
+LegacyFactoryFunction
 conflicts
 with
 a
 "
                         
 "
-NamedConstructor
+LegacyFactoryFunction
 of
 a
 different

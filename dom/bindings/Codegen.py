@@ -5492,7 +5492,7 @@ descriptor
 .
 interface
 .
-namedConstructors
+legacyFactoryFunctions
 )
 >
 0
@@ -5510,8 +5510,9 @@ i
 slots
 for
 the
-named
-constructors
+legacy
+factory
+functions
 *
 /
 "
@@ -5525,7 +5526,7 @@ descriptor
 .
 interface
 .
-namedConstructors
+legacyFactoryFunctions
             
 )
         
@@ -13746,7 +13747,7 @@ True
         
 )
 def
-NamedConstructorName
+LegacyFactoryFunctionName
 (
 m
 )
@@ -13763,7 +13764,7 @@ identifier
 .
 name
 class
-CGNamedConstructors
+CGLegacyFactoryFunctions
 (
 CGThing
 )
@@ -13817,7 +13818,7 @@ descriptor
 .
 interface
 .
-namedConstructors
+legacyFactoryFunctions
 )
 =
 =
@@ -13884,7 +13885,7 @@ descriptor
 .
 interface
 .
-namedConstructors
+legacyFactoryFunctions
 :
             
 namedConstructors
@@ -13902,7 +13903,7 @@ s
 %
 s
 &
-sNamedConstructorNativePropertyHooks
+sLegacyFactoryFunctionNativePropertyHooks
 }
 %
 i
@@ -13918,7 +13919,7 @@ n
 identifier
 .
 name
-NamedConstructorName
+LegacyFactoryFunctionName
 (
 n
 )
@@ -13940,7 +13941,7 @@ fill
             
 const
 NativePropertyHooks
-sNamedConstructorNativePropertyHooks
+sLegacyFactoryFunctionNativePropertyHooks
 =
 {
                 
@@ -13976,7 +13977,7 @@ nullptr
             
 static
 const
-NamedConstructor
+LegacyFactoryFunction
 namedConstructors
 [
 ]
@@ -21782,7 +21783,7 @@ descriptor
 .
 interface
 .
-namedConstructors
+legacyFactoryFunctions
 )
 >
 0
@@ -21952,7 +21953,7 @@ descriptor
 .
 interface
 .
-namedConstructors
+legacyFactoryFunctions
 )
 =
 =
@@ -96163,22 +96164,24 @@ descriptor
 .
 interface
 .
-namedConstructors
+legacyFactoryFunctions
 :
             
 cgThings
 .
 append
 (
+                
 CGClassConstructor
 (
 descriptor
 n
-NamedConstructorName
+LegacyFactoryFunctionName
 (
 n
 )
 )
+            
 )
         
 for
@@ -96951,7 +96954,7 @@ cgThings
 .
 append
 (
-CGNamedConstructors
+CGLegacyFactoryFunctions
 (
 descriptor
 )
@@ -105894,7 +105897,7 @@ desc
 .
 interface
 .
-namedConstructors
+legacyFactoryFunctions
         
 )
         
@@ -108317,7 +108320,7 @@ d
 .
 interface
 .
-namedConstructors
+legacyFactoryFunctions
             
 or
 (
@@ -114814,7 +114817,7 @@ n
 in
 iface
 .
-namedConstructors
+legacyFactoryFunctions
 :
             
 appendMethod

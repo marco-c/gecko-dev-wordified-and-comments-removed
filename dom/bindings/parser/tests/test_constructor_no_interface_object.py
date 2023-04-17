@@ -91,13 +91,13 @@ parse
         
 [
 LegacyNoInterfaceObject
-NamedConstructor
+LegacyFactoryFunction
 =
 FooBar
 ]
         
 interface
-TestNamedConstructorLegacyNoInterfaceObject
+TestLegacyFactoryFunctionLegacyNoInterfaceObject
 {
         
 }
