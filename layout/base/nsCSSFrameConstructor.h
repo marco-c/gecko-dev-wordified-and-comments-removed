@@ -830,6 +830,7 @@ IsWithinSVGText
 AllowTextPathChild
 IsAnonymousContentCreatorContent
 IsForRenderedLegend
+IsForOutsideMarker
 }
 ;
 using
@@ -1048,6 +1049,11 @@ aPseudoElement
 FrameConstructionItemList
 &
 aItems
+ItemFlags
+aExtraFlags
+=
+{
+}
 )
 ;
 void
