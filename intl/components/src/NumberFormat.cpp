@@ -60,10 +60,7 @@ UniquePtr
 <
 NumberFormat
 >
-NumberFormat
-:
-:
-FormatError
+ICUError
 >
 NumberFormat
 :
@@ -97,7 +94,7 @@ NumberFormat
 Result
 <
 Ok
-FormatError
+ICUError
 >
 result
 =
@@ -168,10 +165,7 @@ mNumberFormatter
 Result
 <
 Ok
-NumberFormat
-:
-:
-FormatError
+ICUError
 >
 NumberFormat
 :
@@ -250,7 +244,7 @@ Ok
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -260,10 +254,7 @@ InternalError
 Result
 <
 int32_t
-NumberFormat
-:
-:
-FormatError
+ICUError
 >
 NumberFormat
 :
@@ -311,10 +302,7 @@ isErr
 return
 Err
 (
-NumberFormat
-:
-:
-FormatError
+ICUError
 :
 :
 InternalError
@@ -345,10 +333,7 @@ status
 return
 Err
 (
-NumberFormat
-:
-:
-FormatError
+ICUError
 :
 :
 InternalError
@@ -496,10 +481,7 @@ std
 :
 :
 u16string_view
-NumberFormat
-:
-:
-FormatError
+ICUError
 >
 NumberFormat
 :
@@ -537,7 +519,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -572,7 +554,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -930,10 +912,7 @@ std
 :
 :
 u16string_view
-NumberFormat
-:
-:
-FormatError
+ICUError
 >
 NumberFormat
 :
@@ -981,7 +960,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -1016,7 +995,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -1044,7 +1023,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -1080,7 +1059,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -1117,7 +1096,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -1154,7 +1133,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -1187,7 +1166,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -1232,7 +1211,7 @@ endIndex
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -1255,7 +1234,7 @@ parts
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError

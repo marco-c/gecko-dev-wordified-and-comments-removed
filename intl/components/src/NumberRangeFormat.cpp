@@ -83,10 +83,7 @@ UniquePtr
 <
 NumberRangeFormat
 >
-NumberRangeFormat
-:
-:
-FormatError
+ICUError
 >
 NumberRangeFormat
 :
@@ -167,10 +164,7 @@ mNumberRangeFormatter
 Result
 <
 Ok
-NumberRangeFormat
-:
-:
-FormatError
+ICUError
 >
 NumberRangeFormat
 :
@@ -311,7 +305,7 @@ Ok
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -321,10 +315,7 @@ InternalError
 Result
 <
 int32_t
-NumberRangeFormat
-:
-:
-FormatError
+ICUError
 >
 NumberRangeFormat
 :
@@ -395,7 +386,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -552,10 +543,7 @@ std
 :
 :
 u16string_view
-NumberRangeFormat
-:
-:
-FormatError
+ICUError
 >
 NumberRangeFormat
 :
@@ -593,7 +581,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -628,7 +616,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -658,10 +646,7 @@ std
 :
 :
 u16string_view
-NumberRangeFormat
-:
-:
-FormatError
+ICUError
 >
 NumberRangeFormat
 :
@@ -714,7 +699,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -752,7 +737,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -787,7 +772,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -815,7 +800,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -856,7 +841,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -910,7 +895,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -947,7 +932,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -975,7 +960,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -1008,7 +993,7 @@ status
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -1154,7 +1139,7 @@ endIndex
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -1178,7 +1163,7 @@ parts
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -1406,10 +1391,7 @@ UniquePtr
 <
 NumberRangeFormat
 >
-NumberRangeFormat
-:
-:
-FormatError
+ICUError
 >
 NumberRangeFormat
 :

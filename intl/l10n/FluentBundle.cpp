@@ -1723,10 +1723,7 @@ UniquePtr
 <
 NumberFormat
 >
-NumberFormat
-:
-:
-FormatError
+ICUError
 >
 result
 =

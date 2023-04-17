@@ -20,6 +20,17 @@ mozilla
 /
 intl
 /
+ICUError
+.
+h
+"
+#
+include
+"
+mozilla
+/
+intl
+/
 NumberFormat
 .
 h
@@ -142,14 +153,6 @@ final
 {
 public
 :
-enum
-class
-FormatError
-{
-InternalError
-OutOfMemory
-}
-;
 static
 Result
 <
@@ -157,7 +160,7 @@ UniquePtr
 <
 NumberRangeFormat
 >
-FormatError
+ICUError
 >
 TryCreate
 (
@@ -213,7 +216,7 @@ std
 :
 :
 u16string_view
-FormatError
+ICUError
 >
 format
 (
@@ -237,7 +240,7 @@ end
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -256,7 +259,7 @@ std
 :
 :
 u16string_view
-FormatError
+ICUError
 >
 formatToParts
 (
@@ -283,7 +286,7 @@ end
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -343,7 +346,7 @@ std
 :
 :
 u16string_view
-FormatError
+ICUError
 >
 format
 (
@@ -373,7 +376,7 @@ end
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -392,7 +395,7 @@ std
 :
 :
 u16string_view
-FormatError
+ICUError
 >
 formatToParts
 (
@@ -425,7 +428,7 @@ end
 return
 Err
 (
-FormatError
+ICUError
 :
 :
 InternalError
@@ -648,7 +651,7 @@ parts
 Result
 <
 int32_t
-FormatError
+ICUError
 >
 selectForRange
 (
@@ -695,7 +698,7 @@ false
 Result
 <
 Ok
-FormatError
+ICUError
 >
 initialize
 (
@@ -752,7 +755,7 @@ std
 :
 :
 u16string_view
-FormatError
+ICUError
 >
 formatResult
 (
@@ -765,10 +768,7 @@ std
 :
 :
 u16string_view
-NumberRangeFormat
-:
-:
-FormatError
+ICUError
 >
 formatResultToParts
 (
