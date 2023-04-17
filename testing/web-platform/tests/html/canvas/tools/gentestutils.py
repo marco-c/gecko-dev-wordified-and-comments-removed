@@ -687,7 +687,7 @@ templates
 =
 yaml
 .
-load
+safe_load
 (
 open
 (
@@ -706,7 +706,7 @@ name_mapping
 =
 yaml
 .
-load
+safe_load
 (
 open
 (
@@ -739,7 +739,7 @@ s
 in
 yaml
 .
-load
+safe_load
 (
 open
 (
@@ -878,7 +878,7 @@ sum
 [
 yaml
 .
-load
+safe_load
 (
 open
 (

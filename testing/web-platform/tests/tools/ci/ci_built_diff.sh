@@ -316,13 +316,10 @@ png
 )
 .
 /
+wpt
 update
 -
 built
--
-tests
-.
-sh
 git
 update
 -
