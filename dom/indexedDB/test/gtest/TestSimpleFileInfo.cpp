@@ -66,18 +66,18 @@ dom
 indexedDB
 ;
 class
-TestFileManager
+SimpleFileManager
 ;
 using
 SimpleFileInfo
 =
 FileInfoT
 <
-TestFileManager
+SimpleFileManager
 >
 ;
 struct
-TestFileManagerStats
+SimpleFileManagerStats
 final
 {
 size_t
@@ -93,18 +93,18 @@ mSyncDeleteFileCalls
 }
 ;
 class
-TestFileManager
+SimpleFileManager
 final
 :
 public
 FileManagerBase
 <
-TestFileManager
+SimpleFileManager
 >
 public
 AtomicSafeRefCounted
 <
-TestFileManager
+SimpleFileManager
 >
 {
 public
@@ -112,7 +112,7 @@ public
 using
 FileManagerBase
 <
-TestFileManager
+SimpleFileManager
 >
 :
 :
@@ -120,7 +120,7 @@ MutexType
 ;
 MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
-TestFileManager
+SimpleFileManager
 )
 [
 [
@@ -205,9 +205,9 @@ NS_OK
 ;
 }
 explicit
-TestFileManager
+SimpleFileManager
 (
-TestFileManagerStats
+SimpleFileManagerStats
 *
 aStats
 =
@@ -314,7 +314,7 @@ static
 MutexType
 sMutex
 ;
-TestFileManagerStats
+SimpleFileManagerStats
 *
 const
 mStats
@@ -323,7 +323,7 @@ mStats
 ;
 TEST
 (
-DOM_IndexedDB_TestFileManager
+DOM_IndexedDB_SimpleFileManager
 Invalidate
 )
 {
@@ -333,7 +333,7 @@ fileManager
 =
 MakeSafeRefPtr
 <
-TestFileManager
+SimpleFileManager
 >
 (
 )
@@ -365,7 +365,7 @@ Create
 auto
 stats
 =
-TestFileManagerStats
+SimpleFileManagerStats
 {
 }
 ;
@@ -376,7 +376,7 @@ fileManager
 =
 MakeSafeRefPtr
 <
-TestFileManager
+SimpleFileManager
 >
 (
 &
@@ -459,7 +459,7 @@ CreateWithInitialDBRefCnt
 auto
 stats
 =
-TestFileManagerStats
+SimpleFileManagerStats
 {
 }
 ;
@@ -470,7 +470,7 @@ fileManager
 =
 MakeSafeRefPtr
 <
-TestFileManager
+SimpleFileManager
 >
 (
 &
@@ -490,7 +490,7 @@ const
 auto
 id
 :
-TestFileManager
+SimpleFileManager
 :
 :
 kDBOnlyFileInfoIds
@@ -581,7 +581,7 @@ CreateWithInitialDBRefCnt_Invalidate
 auto
 stats
 =
-TestFileManagerStats
+SimpleFileManagerStats
 {
 }
 ;
@@ -592,7 +592,7 @@ fileManager
 =
 MakeSafeRefPtr
 <
-TestFileManager
+SimpleFileManager
 >
 (
 &
@@ -612,7 +612,7 @@ fileInfos
 =
 TransformIntoNewArray
 (
-TestFileManager
+SimpleFileManager
 :
 :
 kDBOnlyFileInfoIds
@@ -710,7 +710,7 @@ CreateWithInitialDBRefCnt_UpdateDBRefsToZero
 auto
 stats
 =
-TestFileManagerStats
+SimpleFileManagerStats
 {
 }
 ;
@@ -721,7 +721,7 @@ fileManager
 =
 MakeSafeRefPtr
 <
-TestFileManager
+SimpleFileManager
 >
 (
 &
@@ -744,7 +744,7 @@ fileManager
 >
 GetFileInfo
 (
-TestFileManager
+SimpleFileManager
 :
 :
 kDBOnlyFileInfoIds
@@ -816,7 +816,7 @@ ReleaseWithFileManagerCleanup
 auto
 stats
 =
-TestFileManagerStats
+SimpleFileManagerStats
 {
 }
 ;
@@ -827,7 +827,7 @@ fileManager
 =
 MakeSafeRefPtr
 <
-TestFileManager
+SimpleFileManager
 >
 (
 &
@@ -898,7 +898,7 @@ Invalidate_CreateFileInfo
 auto
 stats
 =
-TestFileManagerStats
+SimpleFileManagerStats
 {
 }
 ;
@@ -909,7 +909,7 @@ fileManager
 =
 MakeSafeRefPtr
 <
-TestFileManager
+SimpleFileManager
 >
 (
 &
@@ -974,7 +974,7 @@ Invalidate_Release
 auto
 stats
 =
-TestFileManagerStats
+SimpleFileManagerStats
 {
 }
 ;
@@ -985,7 +985,7 @@ fileManager
 =
 MakeSafeRefPtr
 <
-TestFileManager
+SimpleFileManager
 >
 (
 &
@@ -1042,7 +1042,7 @@ Invalidate_ReleaseWithFileManagerCleanup
 auto
 stats
 =
-TestFileManagerStats
+SimpleFileManagerStats
 {
 }
 ;
@@ -1053,7 +1053,7 @@ fileManager
 =
 MakeSafeRefPtr
 <
-TestFileManager
+SimpleFileManager
 >
 (
 &

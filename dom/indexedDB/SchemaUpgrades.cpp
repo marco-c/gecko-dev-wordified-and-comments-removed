@@ -22,14 +22,14 @@ h
 #
 include
 "
-DBSchema
+DatabaseFileManager
 .
 h
 "
 #
 include
 "
-FileManager
+DBSchema
 .
 h
 "
@@ -11249,7 +11249,7 @@ mozIStorageFunction
 {
 SafeRefPtr
 <
-FileManager
+DatabaseFileManager
 >
 mFileManager
 ;
@@ -13877,7 +13877,7 @@ fileManager
 =
 MakeSafeRefPtr
 <
-FileManager
+DatabaseFileManager
 >
 (
 PERSISTENCE_TYPE_INVALID
