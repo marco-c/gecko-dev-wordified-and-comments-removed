@@ -310,12 +310,6 @@ x86_64
 linux
 -
 gnu
--
-sysroot
--
-wasm32
--
-wasi
 win32
 -
 mingwclang
@@ -504,12 +498,6 @@ x86_64
 linux
 -
 gnu
--
-sysroot
--
-wasm32
--
-wasi
 win64
 -
 mingwclang
