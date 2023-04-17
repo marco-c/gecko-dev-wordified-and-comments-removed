@@ -191,6 +191,13 @@ struct
 RTCRtpSourceEntry
 ;
 }
+namespace
+dom
+{
+struct
+RTCRtpSourceEntry
+;
+}
 enum
 class
 MediaSessionConduitLocalDirection
@@ -948,8 +955,9 @@ virtual
 WebRtcCallWrapper
 (
 )
-{
-}
+=
+default
+;
 bool
 UnsetRemoteSSRC
 (
