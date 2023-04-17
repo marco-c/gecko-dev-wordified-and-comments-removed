@@ -75178,6 +75178,7 @@ Document
 HasValidTransientUserGestureActivation
 (
 )
+const
 {
 RefPtr
 <

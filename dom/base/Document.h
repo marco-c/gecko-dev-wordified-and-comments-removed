@@ -10642,6 +10642,7 @@ bool
 HasValidTransientUserGestureActivation
 (
 )
+const
 ;
 bool
 ConsumeTransientUserGestureActivation
