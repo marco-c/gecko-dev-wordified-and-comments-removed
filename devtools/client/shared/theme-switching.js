@@ -73,6 +73,7 @@ utils
 const
 {
 getTheme
+getAutoTheme
 addThemeObserver
 removeThemeObserver
 }
@@ -286,9 +287,9 @@ gDevTools
 .
 getThemeDefinition
 (
-"
-light
-"
+getAutoTheme
+(
+)
 )
 ;
 }

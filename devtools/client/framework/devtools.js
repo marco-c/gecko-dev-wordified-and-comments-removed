@@ -1220,7 +1220,7 @@ currTheme
 setTheme
 (
 "
-light
+auto
 "
 )
 ;
