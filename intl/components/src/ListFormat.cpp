@@ -9,6 +9,13 @@ ListFormat
 .
 h
 "
+#
+include
+"
+ScopedICUObject
+.
+h
+"
 namespace
 mozilla
 :
