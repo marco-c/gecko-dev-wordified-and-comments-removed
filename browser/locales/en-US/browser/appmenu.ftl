@@ -1340,3 +1340,17 @@ subheader
 =
 Browser
 Tools
+appmenu
+-
+developer
+-
+tools
+-
+extensions
+=
+.
+label
+=
+Extensions
+for
+Developers
