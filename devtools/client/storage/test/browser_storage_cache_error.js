@@ -49,7 +49,7 @@ tab
 .
 loadURI
 (
-MAIN_DOMAIN
+ALT_DOMAIN_SECURED
 +
 "
 storage
@@ -97,7 +97,7 @@ cacheItemId
 Cache
 "
 "
-http
+https
 :
 /
 /
