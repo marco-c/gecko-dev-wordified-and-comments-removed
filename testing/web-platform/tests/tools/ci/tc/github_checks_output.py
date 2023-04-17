@@ -1,7 +1,3 @@
-from
-six
-import
-ensure_text
 MYPY
 =
 False
@@ -12,7 +8,6 @@ MYPY
 from
 typing
 import
-AnyStr
 Optional
 Text
 class
@@ -137,13 +132,6 @@ line
 )
 :
         
-text
-=
-ensure_text
-(
-line
-)
-        
 with
 open
 (
@@ -164,14 +152,13 @@ f
 .
 write
 (
-text
+line
 )
             
 f
 .
 write
 (
-u
 "
 \
 n
