@@ -9,7 +9,7 @@ include
 "
 wasm
 /
-WasmJS
+WasmTypeDecls
 .
 h
 "

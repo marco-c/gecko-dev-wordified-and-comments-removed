@@ -147,7 +147,7 @@ include
 "
 wasm
 /
-WasmFrameIter
+WasmFrame
 .
 h
 "
@@ -156,7 +156,7 @@ include
 "
 wasm
 /
-WasmTypes
+WasmFrameIter
 .
 h
 "

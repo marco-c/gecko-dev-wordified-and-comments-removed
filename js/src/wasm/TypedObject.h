@@ -63,7 +63,16 @@ include
 "
 wasm
 /
-WasmTypes
+WasmTypeDef
+.
+h
+"
+#
+include
+"
+wasm
+/
+WasmValType
 .
 h
 "

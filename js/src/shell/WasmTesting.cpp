@@ -42,7 +42,7 @@ include
 "
 wasm
 /
-WasmTypes
+WasmTypeDecls
 .
 h
 "

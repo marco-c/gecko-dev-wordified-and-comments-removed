@@ -305,6 +305,9 @@ class
 Code
 ;
 class
+CodeRange
+;
+class
 DebugState
 ;
 class
@@ -315,9 +318,6 @@ GeneratedSourceMap
 ;
 class
 Instance
-;
-class
-Memory
 ;
 class
 Module

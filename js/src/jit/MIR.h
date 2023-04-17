@@ -275,6 +275,15 @@ TypedArrayObject
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmJS
+.
+h
+"
 namespace
 JS
 {
