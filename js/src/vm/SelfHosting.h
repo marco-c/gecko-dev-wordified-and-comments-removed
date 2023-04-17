@@ -75,6 +75,17 @@ JSAtom
 name
 )
 ;
+void
+SetUnclonedSelfHostedCanonicalName
+(
+JSFunction
+*
+fun
+JSAtom
+*
+name
+)
+;
 bool
 IsCallSelfHostedNonGenericMethod
 (
