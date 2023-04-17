@@ -737,6 +737,14 @@ event
 stream_id
         
 if
+isinstance
+(
+event
+WebTransportStreamDataReceived
+)
+and
+\
+           
 self
 .
 _session_stream_id
@@ -745,14 +753,6 @@ _session_stream_id
 event
 .
 stream_id
-and
-\
-           
-isinstance
-(
-event
-WebTransportStreamDataReceived
-)
 :
             
 self
