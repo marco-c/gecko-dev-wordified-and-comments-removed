@@ -74,6 +74,8 @@ dom
 namespace
 mozilla
 {
+StaticAutoPtr
+<
 nsTHashMap
 <
 nsUint32HashKey
@@ -82,7 +84,7 @@ TouchManager
 :
 TouchInfo
 >
-*
+>
 TouchManager
 :
 :
@@ -160,9 +162,6 @@ Initialize
 !
 "
 )
-;
-delete
-sCaptureTouchList
 ;
 sCaptureTouchList
 =
