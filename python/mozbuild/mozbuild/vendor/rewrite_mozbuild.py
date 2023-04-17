@@ -3817,12 +3817,14 @@ a
 )
         
 assert
+(
+            
 source_assignment_location
 not
 in
 source_assignments
-(
-            
+        
+)
 "
 In
 %
@@ -3840,12 +3842,12 @@ s
 '
 )
 "
-            
 %
 (
+            
 normalized_mozbuild_filename
+            
 source_assignment_location
-)
         
 )
         
