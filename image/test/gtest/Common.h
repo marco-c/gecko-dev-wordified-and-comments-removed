@@ -1740,11 +1740,6 @@ GreenAVIFTestCase
 )
 ;
 ImageTestCase
-GreenJXLTestCase
-(
-)
-;
-ImageTestCase
 Transparent10bit420AVIFTestCase
 (
 )
@@ -1796,11 +1791,6 @@ StackCheckAVIFTestCase
 ;
 ImageTestCase
 LargeWebPTestCase
-(
-)
-;
-ImageTestCase
-LargeJXLTestCase
 (
 )
 ;
@@ -1880,11 +1870,6 @@ TransparentWebPTestCase
 )
 ;
 ImageTestCase
-TransparentJXLTestCase
-(
-)
-;
-ImageTestCase
 TransparentNoAlphaHeaderWebPTestCase
 (
 )
@@ -1958,11 +1943,6 @@ DownscaledIconTestCase
 ;
 ImageTestCase
 DownscaledWebPTestCase
-(
-)
-;
-ImageTestCase
-DownscaledJXLTestCase
 (
 )
 ;
