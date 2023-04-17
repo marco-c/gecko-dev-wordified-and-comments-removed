@@ -1158,6 +1158,8 @@ equal
 httpVersion
 "
 h3
+-
+27
 "
 )
 ;
@@ -1357,6 +1359,8 @@ equal
 httpVersion
 "
 h3
+-
+27
 "
 )
 ;
@@ -1820,6 +1824,8 @@ equal
 httpVersion
 "
 h3
+-
+27
 "
 )
 ;
@@ -2919,6 +2925,8 @@ equal
 httpVersion
 "
 h3
+-
+27
 "
 )
 ;
