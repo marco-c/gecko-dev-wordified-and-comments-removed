@@ -2821,6 +2821,14 @@ if
 prim_data
 .
 supports_caching
+&
+&
+!
+frame_context
+.
+fb_config
+.
+is_software
 {
 let
 gradient_size

@@ -4872,6 +4872,7 @@ max_internal_texture_size
 force_invalidation
 :
 false
+is_software
 }
 ;
 info
