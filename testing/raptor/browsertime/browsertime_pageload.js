@@ -179,11 +179,7 @@ to
 about
 :
 blank
-count
-:
 "
-+
-count
 )
 ;
 await
