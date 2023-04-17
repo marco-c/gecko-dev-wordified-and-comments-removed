@@ -428,6 +428,7 @@ packet
 streamReadyForWriting
 ;
 }
+async
 close
 (
 reason
@@ -492,6 +493,7 @@ this
 hooks
 )
 {
+await
 this
 .
 hooks

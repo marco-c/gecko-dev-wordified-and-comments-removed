@@ -578,6 +578,7 @@ alive
 false
 ;
 }
+async
 onSocketAccepted
 (
 serverSocket
@@ -667,6 +668,7 @@ found
 "
 )
 ;
+await
 transport
 .
 close
@@ -845,10 +847,12 @@ driverFactory
 )
 ;
 }
+async
 onClosed
 (
 )
 {
+await
 this
 .
 driver
