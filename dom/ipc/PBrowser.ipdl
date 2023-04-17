@@ -2174,8 +2174,6 @@ aEpoch
 async
 UpdateSHistory
 (
-bool
-aImmediately
 )
 ;
 async

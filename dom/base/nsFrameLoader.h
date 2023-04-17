@@ -831,10 +831,6 @@ aEpoch
 void
 RequestSHistoryUpdate
 (
-bool
-aImmediately
-=
-false
 )
 ;
 already_AddRefed

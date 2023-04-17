@@ -571,8 +571,6 @@ sessionStoreListeners
 void
 requestSHistoryUpdate
 (
-boolean
-aImmediately
 )
 ;
 /

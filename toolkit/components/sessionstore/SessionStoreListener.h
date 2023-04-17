@@ -294,10 +294,13 @@ mEpoch
 void
 UpdateSHistoryChanges
 (
-bool
-aImmediately
+)
+{
+AddTimerForUpdate
+(
 )
 ;
+}
 void
 SetOwnerContent
 (
