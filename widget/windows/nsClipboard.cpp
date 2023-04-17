@@ -1565,18 +1565,6 @@ HRESULT
 hres
 )
 {
-#
-if
-defined
-(
-DEBUG_rods
-)
-|
-|
-defined
-(
-DEBUG_pinkerton
-)
 if
 (
 hres
@@ -1891,8 +1879,6 @@ hres
 )
 ;
 }
-#
-endif
 }
 static
 HRESULT
