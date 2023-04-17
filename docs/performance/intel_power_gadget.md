@@ -347,7 +347,7 @@ power
 profiling
 purposes
 .
-Specificially
+Specifically
 the
 temperature
 is

@@ -827,7 +827,7 @@ will
 look
 like
 the
-followin
+following
 .
 711637568
 [
@@ -1237,7 +1237,9 @@ https
 /
 ad
 .
-doubleclick
+double
+-
+click
 .
 net
 /
