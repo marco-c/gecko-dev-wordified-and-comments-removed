@@ -89,13 +89,6 @@ UNIFIED_SOURCES
 "
 core
 /
-MicroGeckoProfiler
-.
-cpp
-"
-"
-core
-/
 PageInformation
 .
 cpp
@@ -804,6 +797,13 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+core
+/
+MicroGeckoProfiler
+.
+cpp
+"
 "
 core
 /
