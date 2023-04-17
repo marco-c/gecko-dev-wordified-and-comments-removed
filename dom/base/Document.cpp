@@ -772,15 +772,6 @@ include
 "
 mozilla
 /
-ServoCSSPropList
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoStyleConsts
 .
 h
