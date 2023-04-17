@@ -2478,6 +2478,13 @@ item
 )
 ;
 async
+ClearImageCacheFromPrincipal
+(
+nsIPrincipal
+aPrincipal
+)
+;
+async
 ClearImageCache
 (
 bool

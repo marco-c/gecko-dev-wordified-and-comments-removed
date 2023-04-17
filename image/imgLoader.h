@@ -1231,6 +1231,14 @@ VerifyCacheSizes
 (
 )
 ;
+nsresult
+RemoveEntriesFromPrincipal
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 bool
 SetHasNoProxies
 (
