@@ -411,9 +411,7 @@ scripts
 .
 forEach
 (
-(
 file
-)
 =
 >
 {
@@ -448,9 +446,7 @@ document_start
 .
 catch
 (
-(
 error
-)
 =
 >
 {
@@ -516,9 +512,7 @@ join
 )
 ;
 }
-(
 error
-)
 =
 >
 {
@@ -575,9 +569,7 @@ allScripts
 .
 map
 (
-(
 filename
-)
 =
 >
 filename
