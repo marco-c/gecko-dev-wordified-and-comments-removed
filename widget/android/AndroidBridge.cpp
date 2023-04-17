@@ -985,15 +985,6 @@ getGlobalRef
 (
 )
 ;
-mAPIVersion
-=
-jni
-:
-:
-GetAPIVersion
-(
-)
-;
 AutoJNIClass
 channels
 (
