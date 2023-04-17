@@ -13,13 +13,11 @@ bindgen
 "
 :
 [
-        
 "
 tests
 .
 rs
 "
-        
 "
 host
 -
@@ -27,7 +25,6 @@ target
 .
 txt
 "
-    
 ]
     
 "
@@ -35,13 +32,11 @@ cssparser
 "
 :
 [
-        
 "
 tokenizer
 .
 rs
 "
-    
 ]
     
 "
@@ -49,25 +44,21 @@ gleam
 "
 :
 [
-        
 "
 gl_and_gles_bindings
 .
 rs
 "
-        
 "
 gl_bindings
 .
 rs
 "
-        
 "
 gles_bindings
 .
 rs
 "
-    
 ]
     
 "
@@ -75,13 +66,11 @@ khronos_api
 "
 :
 [
-        
 "
 webgl_exts
 .
 rs
 "
-    
 ]
     
 "
@@ -89,13 +78,11 @@ libloading
 "
 :
 [
-        
 "
 libglobal_static
 .
 a
 "
-        
 "
 src
 /
@@ -107,7 +94,6 @@ global_static
 .
 o
 "
-    
 ]
     
 "
@@ -117,25 +103,21 @@ sys
 "
 :
 [
-        
 "
 liblmdb
 .
 a
 "
-        
 "
 midl
 .
 o
 "
-        
 "
 mdb
 .
 o
 "
-    
 ]
     
 "
@@ -145,13 +127,11 @@ integer
 "
 :
 [
-        
 "
 rust_out
 .
 o
 "
-    
 ]
     
 "
@@ -161,13 +141,11 @@ traits
 "
 :
 [
-        
 "
 rust_out
 .
 o
 "
-    
 ]
     
 "
@@ -175,13 +153,11 @@ selectors
 "
 :
 [
-        
 "
 ascii_case_insensitive_html_attributes
 .
 rs
 "
-    
 ]
     
 "
@@ -609,13 +585,11 @@ webrender
 "
 :
 [
-        
 "
 shaders
 .
 rs
 "
-    
 ]
     
 "
@@ -623,7 +597,6 @@ geckodriver
 "
 :
 [
-        
 "
 build
 -
@@ -631,7 +604,22 @@ info
 .
 rs
 "
+]
     
+"
+gecko
+-
+profiler
+"
+:
+[
+"
+gecko
+/
+bindings
+.
+rs
+"
 ]
     
 "
@@ -639,19 +627,16 @@ crc
 "
 :
 [
-        
 "
 crc64_constants
 .
 rs
 "
-        
 "
 crc32_constants
 .
 rs
 "
-    
 ]
     
 "
@@ -775,19 +760,16 @@ sys
 "
 :
 [
-        
 "
 common
 .
 rs
 "
-        
 "
 dynamic
 .
 rs
 "
-    
 ]
     
 "
@@ -997,13 +979,11 @@ lexicon
 "
 :
 [
-        
 "
 host
 .
 rs
 "
-    
 ]
     
 "
@@ -1011,13 +991,11 @@ baldrdash
 "
 :
 [
-        
 "
 bindings
 .
 rs
 "
-    
 ]
     
 "
@@ -1025,18 +1003,15 @@ typenum
 "
 :
 [
-        
 "
 op
 .
 rs
 "
-        
 "
 consts
 .
 rs
 "
-    
 ]
 }
