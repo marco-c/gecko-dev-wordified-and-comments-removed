@@ -4559,10 +4559,8 @@ onItemChanged
 onItemMoved
 (
 aItemId
-aProperty
-aIsAnnotationProperty
-aNewValue
-aLastModified
+aOldIndex
+aNewIndex
 aItemType
 aGuid
 oldParentGuid

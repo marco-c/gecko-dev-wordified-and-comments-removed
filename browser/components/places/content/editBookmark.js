@@ -6153,9 +6153,7 @@ break
 onItemMoved
 (
 id
-oldParentId
 oldIndex
-newParentId
 newIndex
 type
 guid
