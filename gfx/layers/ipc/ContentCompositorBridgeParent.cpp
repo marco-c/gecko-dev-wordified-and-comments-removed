@@ -483,7 +483,7 @@ APZCTreeManager
 HitTestKind
 :
 :
-Internal
+WebRender
 )
 ;
 RefPtr
