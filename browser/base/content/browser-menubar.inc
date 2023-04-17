@@ -620,6 +620,9 @@ page
 "
 /
 >
+#
+ifndef
+XP_MACOSX
 <
 menuitem
 id
@@ -651,6 +654,8 @@ link
 "
 /
 >
+#
+endif
 <
 menuseparator
 /

@@ -29110,6 +29110,14 @@ this
 contextTab
 .
 linkedBrowser
+document
+.
+getElementById
+(
+"
+context_sendTabToDevice
+"
+)
 )
 ;
 }
