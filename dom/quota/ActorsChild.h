@@ -458,6 +458,15 @@ nsCString
 aResponse
 )
 ;
+void
+HandleResponse
+(
+const
+GetFullOriginMetadataResponse
+&
+aResponse
+)
+;
 virtual
 void
 ActorDestroy

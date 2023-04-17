@@ -224,6 +224,17 @@ principalInfo
 }
 ;
 struct
+GetFullOriginMetadataParams
+{
+PersistenceType
+persistenceType
+;
+PrincipalInfo
+principalInfo
+;
+}
+;
+struct
 AllUsageParams
 {
 bool
@@ -353,6 +364,8 @@ InitTemporaryStorageParams
 InitializePersistentOriginParams
 ;
 InitializeTemporaryOriginParams
+;
+GetFullOriginMetadataParams
 ;
 ClearOriginParams
 ;
