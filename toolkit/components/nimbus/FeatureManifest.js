@@ -21,6 +21,9 @@ The
 Address
 Bar
 "
+hasExposure
+:
+true
 exposureDescription
 :
 "
@@ -362,6 +365,9 @@ about
 welcome
 page
 "
+hasExposure
+:
+true
 exposureDescription
 :
 "
@@ -531,7 +537,7 @@ home
 cache
 .
 "
-exposureDescription
+hasExposure
 :
 false
 isEarlyStartup
@@ -585,7 +591,7 @@ User
 Agent
 version
 "
-exposureDescription
+hasExposure
 :
 false
 isEarlyStartup
@@ -633,6 +639,9 @@ about
 newtab
 page
 "
+hasExposure
+:
+true
 exposureDescription
 :
 "
@@ -667,6 +676,23 @@ true
 variables
 :
 {
+newTheme
+:
+{
+type
+:
+"
+boolean
+"
+description
+:
+"
+Enable
+the
+new
+theme
+"
+}
 customizationMenuEnabled
 :
 {
@@ -738,7 +764,7 @@ section
 in
 newtab
 "
-exposureDescription
+hasExposure
 :
 false
 isEarlyStartup
@@ -843,7 +869,7 @@ password
 fields
 .
 "
-exposureDescription
+hasExposure
 :
 false
 variables
@@ -886,7 +912,7 @@ and
 set
 default
 "
-exposureDescription
+hasExposure
 :
 false
 isEarlyStartup
@@ -956,7 +982,7 @@ for
 major
 upgrades
 "
-exposureDescription
+hasExposure
 :
 false
 isEarlyStartup
@@ -1006,6 +1032,9 @@ about
 :
 privatebrowsing
 "
+hasExposure
+:
+true
 exposureDescription
 :
 "
@@ -1478,7 +1507,7 @@ Firefox
 Reader
 Mode
 "
-exposureDescription
+hasExposure
 :
 false
 isEarlyStartup
