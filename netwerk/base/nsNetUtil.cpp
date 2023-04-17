@@ -13970,6 +13970,16 @@ ShouldUpgradeRequest
 aURI
 aLoadInfo
 )
+|
+|
+nsHTTPSOnlyUtils
+:
+:
+ShouldUpgradeHttpsFirstRequest
+(
+aURI
+aLoadInfo
+)
 )
 {
 aShouldUpgrade

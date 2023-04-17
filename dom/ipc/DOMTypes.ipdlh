@@ -810,6 +810,9 @@ bool
 ForceAllowDataURI
 ;
 bool
+IsExemptFromHTTPSOnlyMode
+;
+bool
 OriginalFrameSrc
 ;
 bool
