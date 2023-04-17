@@ -7749,6 +7749,10 @@ MSG_ILLEGAL_CONSTRUCTOR
 >
 (
 cx
+(
+void
+*
+)
 nullptr
 )
 ;
