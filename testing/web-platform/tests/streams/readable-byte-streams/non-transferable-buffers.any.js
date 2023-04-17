@@ -197,8 +197,11 @@ buffer
 ;
 assert_throws_js
 (
-t
 TypeError
+(
+)
+=
+>
 controller
 .
 enqueue
@@ -396,8 +399,11 @@ pullCalledPromise
 ;
 assert_throws_js
 (
-t
 TypeError
+(
+)
+=
+>
 byobRequest
 .
 respondWithNewView
