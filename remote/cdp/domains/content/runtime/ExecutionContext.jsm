@@ -1994,8 +1994,6 @@ type
 }
 let
 unserializableValue
-=
-undefined
 ;
 if
 (

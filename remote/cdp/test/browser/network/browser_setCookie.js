@@ -56,17 +56,6 @@ example
 com
 "
 ;
-const
-DEFAULT_URL
-=
-http
-:
-/
-/
-{
-DEFAULT_HOST
-}
-;
 add_task
 (
 async

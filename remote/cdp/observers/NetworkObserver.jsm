@@ -1377,13 +1377,9 @@ TYPE_OTHER
 ;
 let
 remoteIPAddress
-=
-undefined
 ;
 let
 remotePort
-=
-undefined
 ;
 try
 {
@@ -2071,8 +2067,6 @@ NS_SEEK_SET
 }
 let
 text
-=
-undefined
 ;
 try
 {

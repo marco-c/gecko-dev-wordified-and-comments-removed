@@ -859,13 +859,6 @@ TIMEOUT_NO_WINDOW_MANAGER
 =
 5000
 ;
-const
-globalMessageManager
-=
-Services
-.
-mm
-;
 this
 .
 GeckoDriver

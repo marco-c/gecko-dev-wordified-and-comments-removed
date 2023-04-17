@@ -414,8 +414,6 @@ field
 }
 let
 result
-=
-undefined
 ;
 this
 .
