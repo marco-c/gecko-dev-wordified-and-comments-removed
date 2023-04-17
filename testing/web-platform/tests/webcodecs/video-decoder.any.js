@@ -6,7 +6,7 @@ invalidConfigs
 comment
 :
 '
-Emtpy
+Empty
 codec
 '
 config
