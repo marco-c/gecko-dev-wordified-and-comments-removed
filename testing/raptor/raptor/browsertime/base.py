@@ -2792,7 +2792,34 @@ not
 installed
 correctly
 .
+Try
+removing
+the
+virtual
+environment
+at
 "
+                        
+"
+%
+s
+before
+running
+your
+command
+again
+.
+"
+                        
+%
+os
+.
+environ
+[
+"
+VIRTUAL_ENV
+"
+]
                     
 )
             

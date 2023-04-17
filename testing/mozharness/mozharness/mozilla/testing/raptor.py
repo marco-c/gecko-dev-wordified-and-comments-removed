@@ -4013,7 +4013,16 @@ self
 .
 browsertime_visualmetrics
 =
-False
+self
+.
+config
+.
+get
+(
+"
+browsertime_visualmetrics
+"
+)
         
 self
 .
@@ -7016,6 +7025,10 @@ if
 self
 .
 run_local
+and
+self
+.
+browsertime_visualmetrics
 :
             
 modules
