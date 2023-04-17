@@ -672,9 +672,10 @@ FunctionBox
 :
 initFromLazyFunction
 (
-JSFunction
-*
-fun
+const
+ScriptStencilExtra
+&
+extra
 ScopeContext
 &
 scopeContext
@@ -684,9 +685,9 @@ FunctionSyntaxKind
 kind
 )
 {
-initFromLazyFunctionShared
+initFromScriptStencilExtra
 (
-fun
+extra
 )
 ;
 initStandaloneOrLazy

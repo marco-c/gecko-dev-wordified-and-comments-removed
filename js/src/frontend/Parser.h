@@ -6174,8 +6174,9 @@ evalsc
 FunctionNodeType
 standaloneLazyFunction
 (
-HandleFunction
-fun
+CompilationInput
+&
+input
 uint32_t
 toStringStart
 bool
