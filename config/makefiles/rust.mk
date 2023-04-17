@@ -1719,7 +1719,6 @@ RUSTC_BOOTSTRAP
 =
 gkrust_shared
 qcms
-xmldecl
 ifdef
 MOZ_RUST_SIMD
 RUSTC_BOOTSTRAP
