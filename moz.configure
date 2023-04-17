@@ -1347,6 +1347,8 @@ toolchain_task_definitions
 )
 except
 Exception
+as
+e
 :
 message
 =
@@ -1358,6 +1360,15 @@ format_exc
 log
 .
 warning
+(
+str
+(
+e
+)
+)
+log
+.
+debug
 (
 message
 )
