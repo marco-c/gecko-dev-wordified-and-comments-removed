@@ -245,6 +245,11 @@ NativeNt
 h
 "
 "
+WindowsEnumProcessModules
+.
+h
+"
+"
 WindowsMapRemoteView
 .
 h
