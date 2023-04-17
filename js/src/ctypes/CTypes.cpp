@@ -28824,9 +28824,10 @@ if
 ok
 &
 &
-JSID_IS_SYMBOL
-(
 idval
+.
+isSymbol
+(
 )
 )
 {
@@ -29092,9 +29093,10 @@ if
 ok
 &
 &
-JSID_IS_SYMBOL
-(
 idval
+.
+isSymbol
+(
 )
 )
 {

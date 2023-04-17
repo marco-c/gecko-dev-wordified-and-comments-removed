@@ -1156,9 +1156,10 @@ j
 ;
 if
 (
-JSID_IS_SYMBOL
-(
 id
+.
+isSymbol
+(
 )
 )
 {

@@ -4269,9 +4269,10 @@ JSITER_SYMBOLS
 )
 &
 &
-JSID_IS_SYMBOL
-(
 id
+.
+isSymbol
+(
 )
 )
 {
