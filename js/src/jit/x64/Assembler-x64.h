@@ -702,7 +702,7 @@ Simd128
 static
 constexpr
 FloatRegister
-ScratchFloat32Reg
+ScratchFloat32Reg_
 =
 FloatRegister
 (
@@ -719,7 +719,7 @@ Single
 static
 constexpr
 FloatRegister
-ScratchDoubleReg
+ScratchDoubleReg_
 =
 FloatRegister
 (

@@ -112,7 +112,7 @@ masm
 AutoFloatRegisterScope
 (
 masm
-ScratchFloat32Reg
+ScratchFloat32Reg_
 )
 {
 }
@@ -135,7 +135,7 @@ masm
 AutoFloatRegisterScope
 (
 masm
-ScratchDoubleReg
+ScratchDoubleReg_
 )
 {
 }
