@@ -6107,6 +6107,11 @@ ExtensionPort
 .
 webidl
 "
+"
+ExtensionTest
+.
+webidl
+"
 ]
 if
 CONFIG
