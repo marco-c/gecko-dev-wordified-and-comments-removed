@@ -2178,6 +2178,11 @@ aBc
 PrintData
 aPrintData
 )
+returns
+(
+bool
+aSuccess
+)
 ;
 async
 UpdateRemotePrintSettings
