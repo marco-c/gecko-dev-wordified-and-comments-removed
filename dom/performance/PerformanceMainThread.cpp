@@ -993,6 +993,8 @@ return
 }
 mHasQueuedRefreshdriverObserver
 =
+true
+;
 presContext
 -
 >
@@ -1001,7 +1003,7 @@ RegisterManagedPostRefreshObserver
 new
 ManagedPostRefreshObserver
 (
-presShell
+presContext
 [
 performance
 =
@@ -1032,6 +1034,13 @@ DispatchPendingEventTimingEntries
 )
 ;
 }
+performance
+-
+>
+mHasQueuedRefreshdriverObserver
+=
+false
+;
 return
 ManagedPostRefreshObserver
 :
@@ -1292,10 +1301,6 @@ break
 }
 }
 }
-mHasQueuedRefreshdriverObserver
-=
-false
-;
 }
 bool
 PerformanceMainThread

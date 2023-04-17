@@ -1463,7 +1463,7 @@ return
 mSafeAreaInsets
 ;
 }
-bool
+void
 RegisterManagedPostRefreshObserver
 (
 mozilla
