@@ -1,7 +1,5 @@
 import
 py
-import
-timeit
 class
 Listdir
 :
@@ -484,6 +482,7 @@ time
 now
         
 print
+(
 "
 %
 s
@@ -518,4 +517,5 @@ elapsed
 cls
 .
 numiter
+)
 )
