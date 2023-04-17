@@ -302,14 +302,6 @@ version
 3
 .
 4
-pathlib2
-=
-=
-2
-.
-3
-.
-2
 pathspec
 =
 =
