@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsExceptionHandler
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Bootstrap
