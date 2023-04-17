@@ -183,7 +183,6 @@ rules_and_declarations
 :
 {
 AtRuleParser
-AtRuleType
 QualifiedRuleParser
 }
 ;
