@@ -5660,6 +5660,17 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 nsresult
+EnsureEmptyTextFirstChild
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+MOZ_CAN_RUN_SCRIPT
+nsresult
 InitEditorContentAndSelection
 (
 )
