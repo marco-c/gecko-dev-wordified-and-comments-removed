@@ -214,7 +214,7 @@ Constructor
 cx
 aScriptURL
 false
-WorkerTypeDedicated
+WorkerKindDedicated
 aOptions
 .
 mName

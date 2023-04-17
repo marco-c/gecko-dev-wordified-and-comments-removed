@@ -162,8 +162,8 @@ nsIPrincipal
 >
 &
 aPrincipal
-WorkerType
-aWorkerType
+WorkerKind
+aWorkerKind
 )
 ;
 static

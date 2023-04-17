@@ -1064,10 +1064,10 @@ RemoteWorkerManager
 GetRemoteType
 (
 principal
-WorkerType
+WorkerKind
 :
 :
-WorkerTypeService
+WorkerKindService
 )
 ;
 if

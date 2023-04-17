@@ -82,7 +82,7 @@ Constructor
 cx
 aScriptURL
 true
-WorkerTypeDedicated
+WorkerKindDedicated
 u
 "
 "
