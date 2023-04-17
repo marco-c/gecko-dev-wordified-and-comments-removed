@@ -3215,7 +3215,7 @@ text
 label
 =
 More
-Information
+information
 #
 #
 Window
