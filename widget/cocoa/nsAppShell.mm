@@ -1370,9 +1370,6 @@ NotifyWait
 )
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 aActivity
@@ -1461,8 +1458,6 @@ nullptr
 ;
 }
 }
-#
-endif
 }
 nsresult
 nsAppShell

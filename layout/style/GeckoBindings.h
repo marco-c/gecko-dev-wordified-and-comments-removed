@@ -114,14 +114,9 @@ ServoComputedData
 namespace
 mozilla
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 class
 AutoProfilerLabel
 ;
-#
-endif
 class
 ComputedStyle
 ;
@@ -2749,9 +2744,6 @@ h
 #
 undef
 STYLE_STRUCT
-#
-ifdef
-MOZ_GECKO_PROFILER
 void
 Gecko_Construct_AutoProfilerLabel
 (
@@ -2776,8 +2768,6 @@ AutoProfilerLabel
 *
 )
 ;
-#
-endif
 bool
 Gecko_DocumentRule_UseForPresentation
 (

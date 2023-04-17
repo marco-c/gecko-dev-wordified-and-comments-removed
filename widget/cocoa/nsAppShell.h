@@ -167,9 +167,6 @@ mCFRunLoopSource
 CFRunLoopObserverRef
 mCFRunLoopObserver
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 mozilla
 :
 :
@@ -179,8 +176,6 @@ mProfilingStackOwnerWhileWaiting
 =
 nullptr
 ;
-#
-endif
 bool
 mRunningEventLoop
 ;
