@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsDeleteDir
-.
-h
-"
-#
-include
-"
 nsICacheStorageVisitor
 .
 h
