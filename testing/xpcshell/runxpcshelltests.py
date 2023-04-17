@@ -1688,6 +1688,7 @@ communicate
 def
 launchProcess
 (
+        
 self
 cmd
 stdout
@@ -1697,6 +1698,10 @@ cwd
 timeout
 =
 None
+test_name
+=
+None
+    
 )
 :
         
@@ -5533,6 +5538,10 @@ test_dir
 timeout
 =
 testTimeoutInterval
+                
+test_name
+=
+name
             
 )
             
