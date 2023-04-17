@@ -298,12 +298,12 @@ nsresult
 GetAuthenticator
 (
 const
-char
-*
-challenge
+nsACString
+&
+aChallenge
 nsCString
 &
-scheme
+authType
 nsIHttpAuthenticator
 *
 *
