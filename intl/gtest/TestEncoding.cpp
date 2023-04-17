@@ -147,10 +147,7 @@ encoding
 size_t
 bomLength
 ;
-std
-:
-:
-tie
+Tie
 (
 encoding
 bomLength
@@ -188,10 +185,7 @@ xFE
 "
 )
 ;
-std
-:
-:
-tie
+Tie
 (
 encoding
 bomLength
@@ -229,10 +223,7 @@ xFF
 "
 )
 ;
-std
-:
-:
-tie
+Tie
 (
 encoding
 bomLength
@@ -270,10 +261,7 @@ xBB
 "
 )
 ;
-std
-:
-:
-tie
+Tie
 (
 encoding
 bomLength
