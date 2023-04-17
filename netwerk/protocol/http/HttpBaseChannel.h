@@ -2300,6 +2300,11 @@ get
 )
 ;
 }
+void
+SetDummyChannelForImageCache
+(
+)
+;
 const
 NetAddr
 &
@@ -3731,6 +3736,9 @@ mBlockOpaqueResponseAfterSniff
 ;
 bool
 mCheckIsOpaqueResponseAllowedAfterSniff
+;
+bool
+mDummyChannelForImageCache
 ;
 MOZ_ATOMIC_BITFIELDS
 (
