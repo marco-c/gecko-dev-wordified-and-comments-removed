@@ -272,6 +272,12 @@ await
 promiseBrowserLoaded
 (
 browser
+false
+"
+about
+:
+robots
+"
 )
 ;
 if
@@ -677,6 +683,12 @@ await
 promiseBrowserLoaded
 (
 browser
+false
+"
+about
+:
+robots
+"
 )
 ;
 if
