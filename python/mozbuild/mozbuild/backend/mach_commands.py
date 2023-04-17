@@ -318,7 +318,7 @@ choice
 return
 1
             
-builder
+build_commands
 =
 Build
 (
@@ -330,7 +330,7 @@ None
             
 rc
 =
-builder
+build_commands
 .
 configure
 (
@@ -349,7 +349,7 @@ rc
             
 rc
 =
-builder
+command_context
 .
 _run_make
 (
@@ -401,7 +401,7 @@ compile
                 
 rc
 =
-builder
+command_context
 .
 _run_make
 (
