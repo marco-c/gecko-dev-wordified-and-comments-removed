@@ -698,12 +698,6 @@ See
 LICENSE
 ]
 (
-.
-.
-/
-.
-.
-/
 LICENSE
 )
 for

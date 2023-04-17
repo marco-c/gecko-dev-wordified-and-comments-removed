@@ -816,6 +816,16 @@ Vec
 new
 (
 )
+#
+[
+cfg
+(
+wast_check_exhaustive
+)
+]
+visited
+:
+false
 }
 }
 ;
