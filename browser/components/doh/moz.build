@@ -42,16 +42,6 @@ TRRPerformance
 jsm
 "
 ]
-TESTING_JS_MODULES
-+
-=
-[
-"
-DoHTestUtils
-.
-jsm
-"
-]
 XPCSHELL_TESTS_MANIFESTS
 +
 =

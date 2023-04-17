@@ -49,7 +49,6 @@ resolved
 true
 ;
 }
-trrList
 )
 ;
 racer
@@ -354,7 +353,6 @@ resolved
 true
 ;
 }
-trrList
 )
 ;
 racer
@@ -681,7 +679,6 @@ resolved
 true
 ;
 }
-trrList
 )
 ;
 racer
@@ -1189,8 +1186,6 @@ racer
 new
 TRRRacer
 (
-undefined
-trrList
 )
 ;
 let
