@@ -28,15 +28,6 @@ h
 #
 include
 "
-jit
-/
-InlinableNatives
-.
-h
-"
-#
-include
-"
 js
 /
 PropertyAndElement
@@ -2218,7 +2209,7 @@ methods
 ]
 =
 {
-JS_INLINABLE_FN
+JS_FN
 (
 "
 get
@@ -2226,9 +2217,8 @@ get
 get
 1
 0
-MapGet
 )
-JS_INLINABLE_FN
+JS_FN
 (
 "
 has
@@ -2236,7 +2226,6 @@ has
 has
 1
 0
-MapHas
 )
 JS_FN
 (
@@ -6931,7 +6920,7 @@ methods
 ]
 =
 {
-JS_INLINABLE_FN
+JS_FN
 (
 "
 has
@@ -6939,7 +6928,6 @@ has
 has
 1
 0
-SetHas
 )
 JS_FN
 (
