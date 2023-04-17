@@ -64,10 +64,10 @@ keySize
 ;
 #
 if
-INTPTR_MAX
-=
-=
-INT64_MAX
+defined
+(
+ANGLE_IS_64_BIT_CPU
+)
 return
 XXH64
 (

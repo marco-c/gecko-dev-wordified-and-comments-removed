@@ -13,8 +13,6 @@ VulkanRenderPassBufferCount
 VulkanSecondaryCommandBufferPoolWaste
 VulkanWriteDescriptorSetCount
 VulkanDescriptorSetAllocations
-VulkanShaderBufferDSHitRate
-VulkanDynamicBufferAllocations
 InvalidEnum
 EnumCount
 =
@@ -66,15 +64,5 @@ VulkanWriteDescriptorSetCount
 PROC
 (
 VulkanDescriptorSetAllocations
-)
-\
-PROC
-(
-VulkanShaderBufferDSHitRate
-)
-\
-PROC
-(
-VulkanDynamicBufferAllocations
 )
 }

@@ -31,19 +31,14 @@ APPLE_clip_distance
 ARB_texture_rectangle
 ARM_shader_framebuffer_fetch
 EXT_blend_func_extended
-EXT_clip_cull_distance
 EXT_draw_buffers
 EXT_frag_depth
 EXT_geometry_shader
-OES_shader_io_blocks
-EXT_shader_io_blocks
 EXT_gpu_shader5
 EXT_shader_framebuffer_fetch
-EXT_shader_framebuffer_fetch_non_coherent
 EXT_shader_non_constant_global_initializers
 EXT_shader_texture_lod
 EXT_shadow_samplers
-EXT_tessellation_shader
 EXT_texture_buffer
 EXT_texture_cube_map_array
 EXT_YUV_target
@@ -52,7 +47,6 @@ NV_shader_framebuffer_fetch
 NV_shader_noperspective_interpolation
 OES_EGL_image_external
 OES_EGL_image_external_essl3
-OES_sample_variables
 OES_shader_multisample_interpolation
 OES_shader_image_atomic
 OES_standard_derivatives
