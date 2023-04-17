@@ -1331,8 +1331,8 @@ WebRenderScrollData
 :
 AddLayerData
 (
-const
 WebRenderLayerScrollData
+&
 &
 aData
 )
@@ -1341,7 +1341,13 @@ mLayerScrollData
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 aData
+)
 )
 ;
 return

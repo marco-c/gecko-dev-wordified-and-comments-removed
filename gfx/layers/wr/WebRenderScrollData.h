@@ -172,6 +172,16 @@ WebRenderLayerScrollData
 (
 )
 ;
+WebRenderLayerScrollData
+(
+WebRenderLayerScrollData
+&
+&
+aOther
+)
+=
+default
+;
 ~
 WebRenderLayerScrollData
 (
@@ -1000,8 +1010,8 @@ aMetadata
 size_t
 AddLayerData
 (
-const
 WebRenderLayerScrollData
+&
 &
 aData
 )
