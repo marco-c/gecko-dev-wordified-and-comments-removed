@@ -590,10 +590,11 @@ thingp
 )
 {
 return
+!
 *
 thingp
-&
-&
+|
+|
 js
 :
 :
