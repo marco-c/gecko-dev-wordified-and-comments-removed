@@ -154,6 +154,15 @@ browser
 /
 preferences
 /
+moreFromMozilla
+.
+js
+content
+/
+browser
+/
+preferences
+/
 fxaPairDevice
 .
 xhtml
