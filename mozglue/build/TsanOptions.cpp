@@ -475,6 +475,13 @@ StartupCache
 n
 "
 "
+thread
+:
+CreateMonitorThread
+\
+n
+"
+"
 race
 :
 SkARGB32_Blitter

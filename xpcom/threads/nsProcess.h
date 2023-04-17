@@ -146,6 +146,12 @@ nsProcess
 (
 )
 ;
+PRThread
+*
+CreateMonitorThread
+(
+)
+;
 static
 void
 Monitor
