@@ -1668,6 +1668,15 @@ value
 =
 =
 null
+|
+|
+(
+!
+value
+&
+&
+dueToTabSwitch
+)
 )
 {
 uri
