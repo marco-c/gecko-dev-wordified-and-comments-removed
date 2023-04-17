@@ -874,7 +874,7 @@ processor
 =
 =
 "
-i386
+arm64
 "
     
 and
