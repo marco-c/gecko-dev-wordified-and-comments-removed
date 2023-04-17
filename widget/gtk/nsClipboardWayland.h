@@ -697,6 +697,9 @@ mClipboardData
 uint32_t
 mClipboardDataLength
 ;
+bool
+mAsyncDataGetter
+;
 #
 define
 TEXT_MIME_TYPES_NUM
