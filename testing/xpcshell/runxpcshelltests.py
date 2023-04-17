@@ -4418,34 +4418,12 @@ not
 None
 :
             
-line
-=
+return
 self
 .
 stack_fixer_function
 (
 line
-)
-        
-if
-isinstance
-(
-line
-bytes
-)
-:
-            
-line
-=
-line
-.
-decode
-(
-"
-utf
--
-8
-"
 )
         
 return
