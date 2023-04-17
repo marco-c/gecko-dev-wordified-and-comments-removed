@@ -600,9 +600,6 @@ Maybe
 <
 NumberPartType
 >
-NumberFormat
-:
-:
 GetPartTypeForNumberField
 (
 UNumberFormatFields
@@ -614,8 +611,9 @@ double
 number
 bool
 isNegative
+bool
+formatForUnit
 )
-const
 {
 switch
 (
@@ -772,7 +770,7 @@ UNUM_PERCENT_FIELD
 :
 if
 (
-mFormatForUnit
+formatForUnit
 )
 {
 return
@@ -1210,6 +1208,7 @@ fieldName
 )
 number
 isNegative
+mFormatForUnit
 )
 ;
 if
