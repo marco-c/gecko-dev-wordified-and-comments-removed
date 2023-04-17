@@ -6326,13 +6326,6 @@ uint32_t
 x
 )
 {
-MOZ_ASSERT
-(
-hasCreator
-(
-)
-)
-;
 BufferOffset
 offs
 =

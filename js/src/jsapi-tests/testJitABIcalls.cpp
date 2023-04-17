@@ -3723,13 +3723,6 @@ masm
 cx
 )
 ;
-AutoCreatedBy
-acb
-(
-masm
-__func__
-)
-;
 PrepareJit
 (
 masm
