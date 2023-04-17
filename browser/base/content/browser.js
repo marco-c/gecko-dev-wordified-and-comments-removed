@@ -22610,7 +22610,7 @@ obs
 .
 notifyObservers
 (
-null
+window
 "
 toggle
 -
