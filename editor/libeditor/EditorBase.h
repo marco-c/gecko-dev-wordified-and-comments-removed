@@ -6757,15 +6757,6 @@ Element
 >
 mRootElement
 ;
-RefPtr
-<
-dom
-:
-:
-HTMLBRElement
->
-mPaddingBRElementForEmptyEditor
-;
 nsCOMPtr
 <
 dom

@@ -8476,6 +8476,15 @@ Runnable
 >
 mPendingDocumentModifiedRunner
 ;
+RefPtr
+<
+dom
+:
+:
+HTMLBRElement
+>
+mPaddingBRElementForEmptyEditor
+;
 bool
 mCRInParagraphCreatesParagraph
 ;
