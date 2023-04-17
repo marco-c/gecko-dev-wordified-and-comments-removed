@@ -760,13 +760,6 @@ WEBSOCKET
 hasBrowserElement
 }
 "
-network
--
-persist
-"
-:
-true
-"
 event
 -
 breakpoints

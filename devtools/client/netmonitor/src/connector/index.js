@@ -1838,11 +1838,6 @@ targetCommand
 .
 hasTargetWatcherSupport
 (
-"
-network
--
-persist
-"
 )
 ;
 if
