@@ -39394,10 +39394,7 @@ YieldHandling
 :
 :
 YieldIsKeyword
-FunctionSyntaxKind
-:
-:
-Method
+syntaxKind
 FunctionBodyType
 :
 :
