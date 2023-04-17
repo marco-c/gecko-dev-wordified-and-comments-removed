@@ -1827,6 +1827,11 @@ surface
 prim_spatial_node_index
 root_scaling_factor
 allow_subpixel
+frame_context
+.
+fb_config
+.
+low_quality_pinch_zoom
 frame_state
 .
 resource_cache
