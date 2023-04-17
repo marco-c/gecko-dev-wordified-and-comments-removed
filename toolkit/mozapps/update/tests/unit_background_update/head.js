@@ -1,0 +1,13 @@
+load
+(
+"
+xpcshellUtilsAUS
+.
+js
+"
+)
+;
+gIsServiceTest
+=
+false
+;
