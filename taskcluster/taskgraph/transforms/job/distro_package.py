@@ -272,15 +272,6 @@ dist
 )
 :
 text_type
-        
-Required
-(
-"
-snapshot
-"
-)
-:
-text_type
     
 }
 )
