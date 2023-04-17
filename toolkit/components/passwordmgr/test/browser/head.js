@@ -223,6 +223,7 @@ LoginHelper
 relatedRealmsEnabled
 )
 {
+await
 LoginTestUtils
 .
 remoteSettings
@@ -233,10 +234,12 @@ setupWebsitesWithSharedCredentials
 ;
 registerCleanupFunction
 (
+async
 function
 (
 )
 {
+await
 LoginTestUtils
 .
 remoteSettings
