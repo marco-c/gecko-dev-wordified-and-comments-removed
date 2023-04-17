@@ -27,6 +27,16 @@ ExtensionAPIBase
 cpp
 "
 "
+ExtensionAPIRequest
+.
+cpp
+"
+"
+ExtensionAPIRequestForwarder
+.
+cpp
+"
+"
 ExtensionBrowser
 .
 cpp

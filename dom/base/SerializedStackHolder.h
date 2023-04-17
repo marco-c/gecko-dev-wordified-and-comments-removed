@@ -122,6 +122,17 @@ JSContext
 aCx
 )
 ;
+UniquePtr
+<
+SerializedStackHolder
+>
+GetCurrentStack
+(
+JSContext
+*
+aCx
+)
+;
 void
 NotifyNetworkMonitorAlternateStack
 (
