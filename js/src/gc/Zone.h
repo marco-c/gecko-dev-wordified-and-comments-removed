@@ -2691,11 +2691,6 @@ ref
 ;
 }
 void
-fixupInitialShapeTable
-(
-)
-;
-void
 fixupAfterMovingGC
 (
 )
