@@ -14,11 +14,6 @@ from
 collections
 import
 OrderedDict
-from
-six
-import
-ensure_text
-ensure_str
 try
 :
     
@@ -130,8 +125,6 @@ testdriver
 )
 here
 =
-ensure_text
-(
 os
 .
 path
@@ -139,7 +132,6 @@ path
 dirname
 (
 __file__
-)
 )
 wpt_root
 =
@@ -762,14 +754,11 @@ rule
 .
 replace
 (
-ensure_text
-(
 os
 .
 path
 .
 sep
-)
 u
 "
 /
@@ -2795,10 +2784,7 @@ stdout
 .
 write
 (
-ensure_str
-(
 line
-)
 )
 def
 run_tests_affected
