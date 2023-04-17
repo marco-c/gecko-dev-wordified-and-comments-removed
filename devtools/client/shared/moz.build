@@ -243,6 +243,13 @@ SplitView
 jsm
 "
 "
+string
+-
+utils
+.
+js
+"
+"
 stylesheet
 -
 utils
