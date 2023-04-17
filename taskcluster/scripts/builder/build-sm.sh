@@ -200,6 +200,7 @@ dist
 /
 bin
 /
+"
 {
 js
 jsapi
@@ -211,7 +212,6 @@ gdb
 .
 py
 }
-"
 "
 UPLOAD_DIR
 "
