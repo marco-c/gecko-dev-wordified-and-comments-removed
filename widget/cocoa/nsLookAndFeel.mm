@@ -740,12 +740,6 @@ case
 ColorID
 :
 :
-MozAccentColor
-:
-case
-ColorID
-:
-:
 MozMenuhover
 :
 color
@@ -1884,6 +1878,12 @@ ColorID
 :
 :
 MozMacActiveSourceListSelection
+:
+case
+ColorID
+:
+:
+MozAccentColor
 :
 color
 =
