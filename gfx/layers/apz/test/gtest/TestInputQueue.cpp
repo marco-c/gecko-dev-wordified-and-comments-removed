@@ -32,7 +32,6 @@ CreateSimpleScrollingLayer
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0

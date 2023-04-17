@@ -488,7 +488,6 @@ CreateSimpleMultiLayerTree
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
@@ -672,7 +671,6 @@ CreatePotentiallyLeakingTree
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
@@ -946,7 +944,6 @@ CreateTwoLayerDTCTree
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
@@ -1168,7 +1165,6 @@ CreateTwoLayerDTCTree
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
@@ -1387,7 +1383,6 @@ CreateSimpleDTCScrollingLayer
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
@@ -1482,7 +1477,6 @@ CreateSimpleScrollingLayer
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
@@ -1680,7 +1674,6 @@ CreateSimpleScrollingLayer
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0

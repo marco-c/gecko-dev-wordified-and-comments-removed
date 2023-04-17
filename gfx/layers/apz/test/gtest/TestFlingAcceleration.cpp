@@ -146,7 +146,6 @@ MakeUnique
 ScopedLayerTreeRegistration
 >
 (
-manager
 LayersId
 {
 0

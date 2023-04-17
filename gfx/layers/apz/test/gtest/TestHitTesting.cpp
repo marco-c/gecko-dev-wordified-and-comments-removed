@@ -736,7 +736,6 @@ CreateHitTesting1LayerTree
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
@@ -1270,7 +1269,6 @@ CreateHitTesting2LayerTree
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
@@ -2035,7 +2033,6 @@ CSSRect
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
@@ -2093,7 +2090,6 @@ CreateComplexMultiLayerTree
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
@@ -2842,7 +2838,6 @@ CreateSimpleScrollingLayer
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
@@ -3251,7 +3246,6 @@ CreateSimpleScrollingLayer
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
@@ -3468,7 +3462,6 @@ root
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
@@ -3757,7 +3750,6 @@ CreateBug1148350LayerTree
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
@@ -4251,7 +4243,6 @@ layers
 ScopedLayerTreeRegistration
 registration
 (
-manager
 LayersId
 {
 0
