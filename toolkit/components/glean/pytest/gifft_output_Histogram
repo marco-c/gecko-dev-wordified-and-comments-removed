@@ -62,6 +62,7 @@ TimeStamp
 TimerToStampMutex
 ;
 static
+inline
 TimerToStampMutex
 :
 :
