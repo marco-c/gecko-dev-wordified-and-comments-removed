@@ -79351,6 +79351,7 @@ BrowserUsageTelemetry
 .
 jsm
 "
+fallible
 )
 ;
 if

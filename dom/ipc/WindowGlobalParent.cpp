@@ -6677,6 +6677,7 @@ SessionStoreFunctions
 .
 jsm
 "
+fallible
 )
 ;
 if
@@ -6985,6 +6986,7 @@ SessionStoreFunctions
 .
 jsm
 "
+fallible
 )
 ;
 if
