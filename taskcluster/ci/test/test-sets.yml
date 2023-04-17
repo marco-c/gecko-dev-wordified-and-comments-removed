@@ -2255,6 +2255,12 @@ gpu
 -
 mochitest
 -
+devtools
+-
+chrome
+-
+mochitest
+-
 media
 -
 mochitest
@@ -2335,12 +2341,6 @@ qr
 -
 tests
 :
--
-mochitest
--
-devtools
--
-chrome
 -
 test
 -
