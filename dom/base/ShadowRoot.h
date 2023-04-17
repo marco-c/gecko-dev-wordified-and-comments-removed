@@ -248,6 +248,15 @@ nsIContent
 ;
 Element
 *
+GetFirstFocusable
+(
+bool
+aWithMouse
+)
+const
+;
+Element
+*
 Host
 (
 )
