@@ -10837,6 +10837,9 @@ size
 )
 ;
 #
+ifdef
+__clang__
+#
 pragma
 clang
 diagnostic
@@ -10854,6 +10857,8 @@ code
 -
 return
 "
+#
+endif
 if
 (
 kStripOAPermissions
@@ -10868,10 +10873,15 @@ NS_OK
 ;
 }
 #
+ifdef
+__clang__
+#
 pragma
 clang
 diagnostic
 pop
+#
+endif
 nsresult
 rv
 ;
