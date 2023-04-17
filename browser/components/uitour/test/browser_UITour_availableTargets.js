@@ -116,6 +116,9 @@ readerMode
 urlBar
 "
 "
+restorePreviousSession
+"
+"
 urlbar
 "
 ]

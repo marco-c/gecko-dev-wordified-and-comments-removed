@@ -93,7 +93,9 @@ document
 getElementById
 (
 "
-appMenuRestoreSession
+appMenu
+-
+restoreSession
 "
 )
 ;
@@ -203,7 +205,9 @@ document
 getElementById
 (
 "
-appMenuRestoreSession
+appMenu
+-
+restoreSession
 "
 )
 ;
