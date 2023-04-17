@@ -1078,6 +1078,11 @@ hasInfo
 =
 false
 ;
+bool
+all_dispose_bg
+=
+true
+;
 APNGFrame
 frameRaw
 =
@@ -1643,6 +1648,10 @@ if
 last_base_was_none
 &
 &
+!
+all_dispose_bg
+&
+&
 (
 x0
 !
@@ -1720,6 +1729,10 @@ last_base_was_none
 =
 false
 ;
+all_dispose_bg
+=
+false
+;
 break
 ;
 case
@@ -1728,6 +1741,10 @@ case
 bundle
 .
 use_for_next_frame
+=
+false
+;
+all_dispose_bg
 =
 false
 ;
