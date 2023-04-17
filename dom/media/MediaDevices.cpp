@@ -1243,7 +1243,7 @@ wc
 wc
 -
 >
-HasBeenUserGestureActivated
+HasValidTransientUserGestureActivation
 (
 )
 )
