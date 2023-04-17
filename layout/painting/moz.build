@@ -58,6 +58,11 @@ MatrixStack
 h
 "
 "
+nsCSSRendering
+.
+h
+"
+"
 nsCSSRenderingBorders
 .
 h
