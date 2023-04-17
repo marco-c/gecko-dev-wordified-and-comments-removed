@@ -156,9 +156,6 @@ fuzzy
 -
 if
 (
-winWidget
-&
-&
 !
 layersGPUAccelerated
 0
