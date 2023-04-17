@@ -6452,7 +6452,7 @@ Self
 DeviceIntRect
 :
 :
-from_origin_and_size
+new
 (
 DeviceIntPoint
 :
@@ -8232,15 +8232,9 @@ new
 let
 device_rect
 =
-(
 world_rect
 *
 device_pixel_scale
-)
-.
-to_box2d
-(
-)
 ;
 device_rect
 .

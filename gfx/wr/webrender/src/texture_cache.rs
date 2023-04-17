@@ -5436,7 +5436,7 @@ texture_id
 DeviceIntRect
 :
 :
-from_origin_and_size
+new
 (
 origin
 entry
@@ -6698,6 +6698,8 @@ allocated_size_in_bytes
 (
 allocated_rect
 .
+size
+.
 area
 (
 )
@@ -6750,7 +6752,7 @@ origin
 :
 allocated_rect
 .
-min
+origin
 alloc_id
 allocated_size_in_bytes
 }
@@ -8251,7 +8253,7 @@ offset
 +
 dirty
 .
-min
+origin
 .
 y
 *
@@ -8259,7 +8261,7 @@ stride
 +
 dirty
 .
-min
+origin
 .
 x
 *
@@ -8278,7 +8280,7 @@ rect
 DeviceIntRect
 :
 :
-from_origin_and_size
+new
 (
 DeviceIntPoint
 :
@@ -8291,7 +8293,7 @@ x
 +
 dirty
 .
-min
+origin
 .
 x
 origin
@@ -8300,7 +8302,7 @@ y
 +
 dirty
 .
-min
+origin
 .
 y
 )
@@ -8311,9 +8313,9 @@ new
 (
 dirty
 .
+size
+.
 width
-(
-)
 .
 min
 (
@@ -8323,15 +8325,15 @@ width
 -
 dirty
 .
-min
+origin
 .
 x
 )
 dirty
 .
+size
+.
 height
-(
-)
 .
 min
 (
@@ -8341,7 +8343,7 @@ height
 -
 dirty
 .
-min
+origin
 .
 y
 )
@@ -8372,7 +8374,7 @@ rect
 DeviceIntRect
 :
 :
-from_origin_and_size
+new
 (
 origin
 size

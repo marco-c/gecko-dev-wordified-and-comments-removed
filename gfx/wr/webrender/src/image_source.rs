@@ -228,8 +228,14 @@ uv_rect
 DeviceIntRect
 :
 :
-from_size
+new
 (
+DeviceIntPoint
+:
+:
+zero
+(
+)
 image_properties
 .
 descriptor
