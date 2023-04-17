@@ -99,7 +99,9 @@ nsISerializable
 {
 public
 :
-typedef
+using
+Callback
+=
 std
 :
 :
@@ -109,7 +111,6 @@ void
 (
 )
 >
-Callback
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSISERIALIZABLE
