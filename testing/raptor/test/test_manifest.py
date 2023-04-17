@@ -165,16 +165,6 @@ manifest
 "
         
 "
-playback_recordings
-"
-:
-"
-recorded_site
-.
-mp
-"
-        
-"
 test_url
 "
 :
@@ -634,16 +624,6 @@ manifest
 "
         
 "
-playback_recordings
-"
-:
-"
-recorded_site
-.
-mp
-"
-        
-"
 test_url
 "
 :
@@ -938,16 +918,6 @@ playback_pageset_manifest
 pageset
 .
 manifest
-"
-        
-"
-playback_recordings
-"
-:
-"
-recorded_site
-.
-mp
 "
         
 "
