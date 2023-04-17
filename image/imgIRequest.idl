@@ -61,7 +61,7 @@ readonly
 attribute
 unsigned
 long
-providerId
+producerId
 ;
 const
 long

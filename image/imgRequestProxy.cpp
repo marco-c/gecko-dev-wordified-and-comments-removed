@@ -2556,7 +2556,7 @@ NS_IMETHODIMP
 imgRequestProxy
 :
 :
-GetProviderId
+GetProducerId
 (
 uint32_t
 *
@@ -2600,7 +2600,7 @@ aId
 image
 -
 >
-GetProviderId
+GetProducerId
 (
 )
 ;
@@ -2610,7 +2610,10 @@ else
 *
 aId
 =
-0
+layers
+:
+:
+kContainerProducerID_Invalid
 ;
 }
 return
