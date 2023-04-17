@@ -423,6 +423,9 @@ DIRS
 =
 [
 "
+aboutthirdparty
+"
+"
 gfx
 "
 ]
