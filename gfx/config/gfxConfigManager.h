@@ -139,10 +139,6 @@ mGPUProcessAllowSoftware
 (
 false
 )
-mXRenderEnabled
-(
-false
-)
 mWrEnvForceEnabled
 (
 false
@@ -330,9 +326,6 @@ mWrOptimizedShaders
 ;
 bool
 mGPUProcessAllowSoftware
-;
-bool
-mXRenderEnabled
 ;
 bool
 mWrEnvForceEnabled
