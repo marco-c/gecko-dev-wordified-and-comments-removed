@@ -2158,6 +2158,10 @@ nfinalized
 ;
 }
 }
+isNewlyCreated
+=
+0
+;
 if
 (
 thingKind

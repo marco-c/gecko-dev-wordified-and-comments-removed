@@ -161,6 +161,10 @@ allocKind
 =
 kind
 ;
+isNewlyCreated
+=
+1
+;
 onDelayedMarkingList_
 =
 0
