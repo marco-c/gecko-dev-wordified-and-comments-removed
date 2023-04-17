@@ -1536,7 +1536,7 @@ useMemberInitializers
 )
 {
 uint32_t
-numMemberInitializers
+bits
 ;
 if
 (
@@ -1558,7 +1558,7 @@ getMemberInitializers
 valid
 )
 ;
-numMemberInitializers
+bits
 =
 lazy
 -
@@ -1567,7 +1567,9 @@ getMemberInitializers
 (
 )
 .
-numMemberInitializers
+serialize
+(
+)
 ;
 }
 MOZ_TRY
@@ -1578,7 +1580,7 @@ xdr
 codeUint32
 (
 &
-numMemberInitializers
+bits
 )
 )
 ;
@@ -1596,8 +1598,11 @@ lazy
 setMemberInitializers
 (
 MemberInitializers
+:
+:
+deserialize
 (
-numMemberInitializers
+bits
 )
 )
 ;
@@ -4851,7 +4856,7 @@ useMemberInitializers
 )
 {
 uint32_t
-numMemberInitializers
+bits
 ;
 if
 (
@@ -4873,7 +4878,7 @@ getMemberInitializers
 valid
 )
 ;
-numMemberInitializers
+bits
 =
 data
 -
@@ -4882,7 +4887,9 @@ getMemberInitializers
 (
 )
 .
-numMemberInitializers
+serialize
+(
+)
 ;
 }
 MOZ_TRY
@@ -4893,7 +4900,7 @@ xdr
 codeUint32
 (
 &
-numMemberInitializers
+bits
 )
 )
 ;
@@ -4911,8 +4918,11 @@ data
 setMemberInitializers
 (
 MemberInitializers
+:
+:
+deserialize
 (
-numMemberInitializers
+bits
 )
 )
 ;

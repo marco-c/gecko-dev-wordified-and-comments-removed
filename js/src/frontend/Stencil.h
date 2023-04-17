@@ -3721,6 +3721,9 @@ useMemberInitializers
 ;
 return
 MemberInitializers
+:
+:
+deserialize
 (
 memberInitializers_
 )
