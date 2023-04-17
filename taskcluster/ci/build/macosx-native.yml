@@ -500,6 +500,12 @@ nasm
 macosx64
 -
 node
+-
+sysroot
+-
+wasm32
+-
+wasi
 optimization
 :
 test
@@ -634,6 +640,12 @@ nasm
 macosx64
 -
 node
+-
+sysroot
+-
+wasm32
+-
+wasi
 optimization
 :
 test
