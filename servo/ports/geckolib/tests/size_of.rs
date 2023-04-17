@@ -155,7 +155,7 @@ stylist
 :
 :
 Rule
-32
+40
 )
 ;
 size_of_test
