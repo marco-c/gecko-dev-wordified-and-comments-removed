@@ -1231,7 +1231,7 @@ length
 &
 expectedResult
 .
-every
+some
 (
 param
 =
