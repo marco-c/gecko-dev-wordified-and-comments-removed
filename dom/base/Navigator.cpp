@@ -1035,13 +1035,6 @@ mPlugins
 )
 {
 mPlugins
--
->
-Invalidate
-(
-)
-;
-mPlugins
 =
 nullptr
 ;
@@ -2373,13 +2366,6 @@ new
 nsPluginArray
 (
 mWindow
-)
-;
-mPlugins
--
->
-Init
-(
 )
 ;
 }
