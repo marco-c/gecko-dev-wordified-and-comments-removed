@@ -17,7 +17,6 @@ super
 Connection
 ConnectionError
 ConnectionId
-ConnectionIdRef
 Output
 State
 LOCAL_IDLE_TIMEOUT
@@ -46,6 +45,15 @@ cc
 CWND_INITIAL_PKTS
 CWND_MIN
 }
+;
+use
+crate
+:
+:
+cid
+:
+:
+ConnectionIdRef
 ;
 use
 crate
