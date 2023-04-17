@@ -11,14 +11,14 @@ function
 )
 {
 const
-INITIATOR_URL
+URL
 =
 EXAMPLE_URL
 +
 "
-html_cause
+html_single
 -
-test
+get
 -
 page
 .
@@ -26,7 +26,7 @@ html
 "
 ;
 const
-FETCH_REQUEST
+REQUEST
 =
 "
 http
@@ -47,7 +47,7 @@ netmonitor
 /
 test
 /
-fetch_request
+request_0
 "
 ;
 const
@@ -59,7 +59,7 @@ monitor
 await
 initNetMonitor
 (
-INITIATOR_URL
+URL
 {
 requestCount
 :
@@ -127,7 +127,7 @@ wait
 waitForNetworkEvents
 (
 monitor
-8
+2
 )
 ;
 tab
@@ -214,7 +214,7 @@ title
 =
 "
 {
-FETCH_REQUEST
+REQUEST
 }
 "
 ]
@@ -282,7 +282,7 @@ title
 =
 "
 {
-FETCH_REQUEST
+REQUEST
 }
 "
 ]
