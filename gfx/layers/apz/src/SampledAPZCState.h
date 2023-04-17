@@ -104,7 +104,7 @@ return
 mVisualScrollOffset
 ;
 }
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 GetZoom
 (
 )
@@ -152,9 +152,7 @@ aMetrics
 void
 ZoomBy
 (
-const
-gfxSize
-&
+float
 aScale
 )
 ;
@@ -166,7 +164,7 @@ mLayoutViewport
 CSSPoint
 mVisualScrollOffset
 ;
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 mZoom
 ;
 Maybe

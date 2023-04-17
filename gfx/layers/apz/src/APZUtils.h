@@ -618,7 +618,7 @@ GeckoViewMetrics
 CSSPoint
 mVisualScrollOffset
 ;
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 mZoom
 ;
 }

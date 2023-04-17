@@ -2172,7 +2172,7 @@ GetCompositionBounds
 )
 ;
 }
-LayoutDeviceToLayerScale2D
+LayoutDeviceToLayerScale
 GetCumulativeResolution
 (
 )
@@ -2255,7 +2255,7 @@ aProofOfLock
 )
 const
 ;
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 GetEffectiveZoom
 (
 AsyncTransformConsumer

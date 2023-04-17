@@ -562,7 +562,7 @@ mZoom
 mTransformToAncestorScale
 ;
 }
-CSSToLayerScale2D
+CSSToLayerScale
 LayersPixelsPerCSSPixel
 (
 )
@@ -581,15 +581,9 @@ GetAsyncZoom
 const
 {
 return
-(
 mZoom
 /
 LayersPixelsPerCSSPixel
-(
-)
-)
-.
-ToScaleFactor
 (
 )
 ;
@@ -607,9 +601,8 @@ GetZoom
 )
 =
 =
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 (
-0
 0
 )
 )
@@ -655,7 +648,7 @@ mCompositionBounds
 ;
 }
 const
-LayoutDeviceToLayerScale2D
+LayoutDeviceToLayerScale
 &
 GetCumulativeResolution
 (
@@ -725,7 +718,7 @@ mScrollOffset
 ;
 }
 const
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 &
 GetZoom
 (
@@ -902,7 +895,7 @@ mPresShellResolution
 ParentLayerRect
 mCompositionBounds
 ;
-LayoutDeviceToLayerScale2D
+LayoutDeviceToLayerScale
 mCumulativeResolution
 ;
 CSSToLayoutDeviceScale
@@ -911,7 +904,7 @@ mDevPixelsPerCSSPixel
 CSSPoint
 mScrollOffset
 ;
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 mZoom
 ;
 ScrollGeneration

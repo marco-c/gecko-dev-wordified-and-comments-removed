@@ -297,15 +297,10 @@ mEffectiveZoom
 =
 CSSToParentLayerScale
 (
-aAxis
-.
-GetAxisScale
-(
 mMetrics
 .
 GetZoom
 (
-)
 )
 .
 scale

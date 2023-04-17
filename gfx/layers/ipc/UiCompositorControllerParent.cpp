@@ -989,10 +989,6 @@ ScreenPixel
 aMetrics
 .
 mZoom
-.
-ToScaleFactor
-(
-)
 PixelCastJustification
 :
 :
