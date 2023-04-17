@@ -4510,6 +4510,9 @@ OwnLayerForBoxFrame
 &
 masterList
 ownLayerASR
+mozilla
+:
+:
 nsDisplayOwnLayerFlags
 :
 :
@@ -4779,6 +4782,9 @@ return
 NS_OK
 ;
 }
+namespace
+mozilla
+{
 class
 nsDisplayXULEventRedirector
 final
@@ -5120,6 +5126,7 @@ AppendElement
 mTargetFrame
 )
 ;
+}
 }
 }
 }

@@ -729,6 +729,9 @@ mCallingShow
 ;
 }
 ;
+namespace
+mozilla
+{
 class
 nsDisplayRemote
 final
@@ -991,5 +994,6 @@ mEventRegionsOverride
 ;
 }
 ;
+}
 #
 endif

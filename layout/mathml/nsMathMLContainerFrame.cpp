@@ -289,6 +289,9 @@ return
 NS_OK
 ;
 }
+namespace
+mozilla
+{
 class
 nsDisplayMathMLError
 :
@@ -531,6 +534,7 @@ fm
 aCtx
 )
 ;
+}
 }
 static
 bool

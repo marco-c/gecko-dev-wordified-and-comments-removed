@@ -52,6 +52,9 @@ MatrixFwd
 .
 h
 "
+namespace
+mozilla
+{
 class
 nsDisplayBackgroundImage
 ;
@@ -80,15 +83,11 @@ class
 nsDisplayFilters
 ;
 namespace
-mozilla
-{
-namespace
 gfx
 {
 struct
 sRGBColor
 ;
-}
 }
 class
 nsDisplayItemGeometry
@@ -1187,5 +1186,6 @@ mAppUnitsPerDevPixel
 ;
 }
 ;
+}
 #
 endif

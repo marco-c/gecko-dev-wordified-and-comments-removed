@@ -32,6 +32,9 @@ h
 class
 nsWindowSizes
 ;
+namespace
+mozilla
+{
 struct
 RetainedDisplayListData
 {
@@ -790,5 +793,6 @@ mMetrics
 ;
 }
 ;
+}
 #
 endif

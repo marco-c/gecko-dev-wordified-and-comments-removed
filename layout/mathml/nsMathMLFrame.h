@@ -54,9 +54,16 @@ nsMathMLChar
 class
 nsCSSValue
 ;
+namespace
+mozilla
+{
+class
+nsDisplayListBuilder
+;
 class
 nsDisplayListSet
 ;
+}
 class
 nsMathMLFrame
 :
@@ -1176,6 +1183,9 @@ SHOW_BOUNDING_BOX
 void
 DisplayBoundingMetrics
 (
+mozilla
+:
+:
 nsDisplayListBuilder
 *
 aBuilder
@@ -1201,6 +1211,9 @@ endif
 void
 DisplayBar
 (
+mozilla
+:
+:
 nsDisplayListBuilder
 *
 aBuilder
@@ -1212,6 +1225,9 @@ nsRect
 &
 aRect
 const
+mozilla
+:
+:
 nsDisplayListSet
 &
 aLists

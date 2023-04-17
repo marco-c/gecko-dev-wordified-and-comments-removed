@@ -1063,6 +1063,9 @@ true
 ;
 }
 }
+namespace
+mozilla
+{
 class
 nsDisplayXULTextBox
 final
@@ -1616,6 +1619,7 @@ ToReferenceFrame
 (
 )
 ;
+}
 }
 void
 nsTextBoxFrame

@@ -2864,6 +2864,9 @@ return
 NS_OK
 ;
 }
+namespace
+mozilla
+{
 class
 nsDisplayMathMLSlash
 :
@@ -3191,6 +3194,7 @@ path
 color
 )
 ;
+}
 }
 void
 nsMathMLmfracFrame

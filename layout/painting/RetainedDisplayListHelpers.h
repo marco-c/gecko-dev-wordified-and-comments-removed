@@ -20,6 +20,12 @@ PLDHashTable
 .
 h
 "
+class
+nsIFrame
+;
+namespace
+mozilla
+{
 struct
 DisplayItemKey
 {
@@ -909,5 +915,6 @@ aStopAtFrame
 nullptr
 )
 ;
+}
 #
 endif

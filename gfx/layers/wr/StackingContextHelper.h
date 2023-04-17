@@ -53,12 +53,12 @@ Units
 .
 h
 "
-class
-nsDisplayTransform
-;
 namespace
 mozilla
 {
+class
+nsDisplayTransform
+;
 struct
 ActiveScrolledRoot
 ;

@@ -7838,6 +7838,9 @@ leftBearing
 )
 ;
 }
+namespace
+mozilla
+{
 class
 nsDisplayMathMLSelectionRect
 final
@@ -8394,6 +8397,7 @@ computedStyle
 }
 #
 endif
+}
 void
 nsMathMLChar
 :

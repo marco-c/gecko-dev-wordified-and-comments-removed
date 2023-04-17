@@ -1248,6 +1248,9 @@ return
 rv
 ;
 }
+namespace
+mozilla
+{
 class
 nsDisplaySliderMarks
 final
@@ -1910,6 +1913,7 @@ nullptr
 aCtx
 )
 ;
+}
 }
 void
 nsSliderFrame

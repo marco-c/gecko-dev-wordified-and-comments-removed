@@ -73,9 +73,6 @@ namespace
 mozilla
 {
 namespace
-layout
-{
-namespace
 detail
 {
 const
@@ -86,7 +83,6 @@ gEmptyFrameListBytes
 0
 }
 ;
-}
 }
 }
 void

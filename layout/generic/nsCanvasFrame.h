@@ -487,6 +487,9 @@ mTooltipContent
 ;
 }
 ;
+namespace
+mozilla
+{
 class
 nsDisplayCanvasBackgroundColor
 final
@@ -921,5 +924,6 @@ TYPE_CANVAS_THEMED_BACKGROUND
 )
 }
 ;
+}
 #
 endif

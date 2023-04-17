@@ -1892,9 +1892,6 @@ mFrameList
 }
 ;
 namespace
-layout
-:
-:
 detail
 {
 union
@@ -1944,9 +1941,6 @@ nsFrameList
 (
 &
 mozilla
-:
-:
-layout
 :
 :
 detail
