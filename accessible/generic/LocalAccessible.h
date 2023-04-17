@@ -2486,10 +2486,12 @@ GetGroupInfo
 const
 ;
 void
-SendCacheUpdate
+SendCache
 (
 uint64_t
 aCacheDomain
+CacheUpdateType
+aUpdate
 )
 ;
 nsCOMPtr
