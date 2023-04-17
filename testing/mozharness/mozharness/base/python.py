@@ -2943,6 +2943,9 @@ identifier
 entitlements
 flags
 runtime
+"
+                
+"
 -
 f
 {
@@ -2955,9 +2958,7 @@ bin
 .
 format
 (
-                    
 venv_path
-                
 )
             
 )
@@ -2984,6 +2985,9 @@ flags
 runtime
 -
 f
+"
+                
+"
 {
 }
 /
@@ -2995,9 +2999,7 @@ python
 .
 format
 (
-                    
 venv_path
-                
 )
                 
 shell
