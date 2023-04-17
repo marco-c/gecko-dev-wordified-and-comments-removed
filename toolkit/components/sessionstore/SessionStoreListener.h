@@ -116,11 +116,6 @@ SetSHistoryChanged
 (
 )
 ;
-void
-SetSHistoryFromParentChanged
-(
-)
-;
 bool
 GetAndClearSHistoryChanged
 (
@@ -132,10 +127,6 @@ ret
 mSHistoryChanged
 ;
 mSHistoryChanged
-=
-false
-;
-mSHistoryChangedFromParent
 =
 false
 ;
@@ -166,9 +157,6 @@ mDocCapChanged
 |
 |
 mSHistoryChanged
-|
-|
-mSHistoryChangedFromParent
 ;
 }
 private
@@ -206,9 +194,6 @@ mDocCaps
 ;
 bool
 mSHistoryChanged
-;
-bool
-mSHistoryChangedFromParent
 ;
 }
 ;
