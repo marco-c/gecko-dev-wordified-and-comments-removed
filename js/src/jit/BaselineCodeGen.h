@@ -51,6 +51,7 @@ class
 ScriptGCThingType
 {
 Atom
+String
 RegExp
 Object
 Function

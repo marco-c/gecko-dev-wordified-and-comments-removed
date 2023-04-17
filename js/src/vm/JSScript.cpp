@@ -208,6 +208,15 @@ include
 "
 gc
 /
+AllocKind
+.
+h
+"
+#
+include
+"
+gc
+/
 FreeOp
 .
 h
