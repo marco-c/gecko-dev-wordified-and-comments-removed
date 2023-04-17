@@ -26,6 +26,15 @@ include
 "
 mozilla
 /
+DelayedRunnable
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SpinEventLoopUntil
 .
 h
