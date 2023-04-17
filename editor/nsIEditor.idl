@@ -34,9 +34,6 @@ interface
 nsITransaction
 ;
 interface
-nsIEditorObserver
-;
-interface
 nsIEditActionListener
 ;
 interface
@@ -670,14 +667,6 @@ in
 unsigned
 long
 flags
-)
-;
-void
-addEditorObserver
-(
-in
-nsIEditorObserver
-observer
 )
 ;
 void
