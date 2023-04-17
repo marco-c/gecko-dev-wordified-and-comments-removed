@@ -227,12 +227,6 @@ official
 -
 branding
 '
-'
-export
-BUILDING_RELEASE
-=
-1
-'
 ]
 whitelist
 [
