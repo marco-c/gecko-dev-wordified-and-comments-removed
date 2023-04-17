@@ -131,9 +131,25 @@ vClipCorner_BR
 endif
 #
 endif
+/
+/
+Clip
+mode
+.
+Packed
+in
+to
+a
+vector
+to
+work
+around
+bug
+1630356
+.
 flat
 varying
-float
+vec2
 vClipMode
 ;
 #
@@ -485,6 +501,8 @@ device_pixel_scale
 )
 ;
 vClipMode
+.
+x
 =
 clip
 .
@@ -1149,6 +1167,8 @@ alpha
 -
 alpha
 vClipMode
+.
+x
 )
 ;
 float
@@ -3731,6 +3751,8 @@ swgl_commitPartialSolidR8
 (
 num_aa
 vClipMode
+.
+x
 )
 ;
 local_pos
@@ -3892,6 +3914,8 @@ alpha
 -
 alpha
 vClipMode
+.
+x
 )
 )
 ;
@@ -3950,6 +3974,8 @@ alpha
 -
 alpha
 vClipMode
+.
+x
 )
 )
 ;
@@ -4006,6 +4032,8 @@ num_opaque
 0
 -
 vClipMode
+.
+x
 )
 ;
 local_pos
@@ -4182,6 +4210,8 @@ alpha
 -
 alpha
 vClipMode
+.
+x
 )
 )
 ;
@@ -4240,6 +4270,8 @@ alpha
 -
 alpha
 vClipMode
+.
+x
 )
 )
 ;
@@ -4283,6 +4315,8 @@ swgl_commitPartialSolidR8
 (
 swgl_SpanLength
 vClipMode
+.
+x
 )
 ;
 }
