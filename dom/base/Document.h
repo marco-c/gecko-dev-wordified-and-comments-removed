@@ -14501,6 +14501,14 @@ default
 protected
 :
 void
+SuppressBrowsingContext
+(
+BrowsingContext
+*
+aContext
+)
+;
+void
 SuppressBrowsingContextGroup
 (
 BrowsingContextGroup
