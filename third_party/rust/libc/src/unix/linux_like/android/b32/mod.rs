@@ -130,7 +130,7 @@ st_nlink
 :
 :
 :
-c_uint
+nlink_t
 pub
 st_uid
 :
@@ -254,7 +254,7 @@ st_nlink
 :
 :
 :
-c_uint
+nlink_t
 pub
 st_uid
 :
@@ -375,13 +375,12 @@ pub
 f_ffree
 :
 u64
+pub
 f_fsid
 :
-[
-u32
-;
-2
-]
+:
+:
+__fsid_t
 pub
 f_namelen
 :

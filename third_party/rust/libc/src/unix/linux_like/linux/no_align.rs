@@ -50,6 +50,11 @@ target_arch
 "
 riscv64
 "
+target_arch
+=
+"
+riscv32
+"
 all
 (
 target_arch
@@ -112,6 +117,11 @@ target_arch
 =
 "
 riscv64
+"
+target_arch
+=
+"
+riscv32
 "
 all
 (
