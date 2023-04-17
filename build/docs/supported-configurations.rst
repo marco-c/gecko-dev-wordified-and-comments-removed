@@ -403,6 +403,12 @@ Windows
 with
 MozillaBuild
 Environment
+*
+Windows
+11
+with
+MozillaBuild
+Environment
 Tier
 -
 2
