@@ -449,14 +449,6 @@ PaintFlags
 )
 enum
 class
-PaintType
-{
-Default
-DelayedCompress
-}
-;
-enum
-class
 RenderingStateFlags
 :
 uint8_t
