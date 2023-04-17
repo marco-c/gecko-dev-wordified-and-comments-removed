@@ -23462,6 +23462,13 @@ EnterModalState
 ;
 SpinEventLoopUntil
 (
+"
+nsGlobalWindowInner
+:
+:
+ShowSlowScriptDialog
+"
+_ns
 [
 &
 ]

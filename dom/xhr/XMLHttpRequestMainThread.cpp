@@ -13625,6 +13625,13 @@ if
 !
 SpinEventLoopUntil
 (
+"
+XMLHttpRequestMainThread
+:
+:
+SendInternal
+"
+_ns
 [
 &
 ]

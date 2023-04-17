@@ -1452,6 +1452,16 @@ NS_DISPATCH_NORMAL
 ;
 SpinEventLoopUntil
 (
+"
+GeckoMediaPluginServiceParent
+:
+:
+Observe
+"
+"
+WaitingForPluginsSyncShutdown
+"
+_ns
 [
 &
 ]
