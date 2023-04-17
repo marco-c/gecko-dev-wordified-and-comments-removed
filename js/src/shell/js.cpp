@@ -4538,15 +4538,12 @@ sc
 ;
 }
 static
-bool
+void
 TraceGrayRoots
 (
 JSTracer
 *
 trc
-SliceBudget
-&
-budget
 void
 *
 data
@@ -4650,9 +4647,6 @@ root
 }
 }
 }
-return
-true
-;
 }
 static
 mozilla

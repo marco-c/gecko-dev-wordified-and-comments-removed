@@ -455,7 +455,7 @@ JS_SetGrayGCRootsTracer
 JSContext
 *
 cx
-JSGrayRootsTracer
+JSTraceDataOp
 traceOp
 void
 *
