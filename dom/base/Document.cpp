@@ -11492,14 +11492,14 @@ _ns
 if
 (
 TimeStamp
-firstContentfulPaint
+firstContentfulComposite
 =
 GetNavigationTiming
 (
 )
 -
 >
-GetFirstContentfulPaintTimeStamp
+GetFirstContentfulCompositeTimeStamp
 (
 )
 )
@@ -11514,7 +11514,7 @@ Telemetry
 :
 PERF_FIRST_CONTENTFUL_PAINT_MS
 navigationStart
-firstContentfulPaint
+firstContentfulComposite
 )
 ;
 if
@@ -11538,7 +11538,7 @@ Telemetry
 HTTP3_PERF_FIRST_CONTENTFUL_PAINT_MS
 http3Key
 navigationStart
-firstContentfulPaint
+firstContentfulComposite
 )
 ;
 }
@@ -11552,7 +11552,7 @@ Telemetry
 :
 PERF_FIRST_CONTENTFUL_PAINT_FROM_RESPONSESTART_MS
 responseStart
-firstContentfulPaint
+firstContentfulComposite
 )
 ;
 }

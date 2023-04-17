@@ -1452,7 +1452,7 @@ GetDOMTiming
 )
 -
 >
-GetTimeToContentfulPaint
+GetTimeToContentfulComposite
 (
 )
 mPerformance
