@@ -813,9 +813,7 @@ break
 onItemMoved
 (
 itemId
-oldFolderId
 oldIndex
-newFolderId
 newIndex
 itemType
 guid

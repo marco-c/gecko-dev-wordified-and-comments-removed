@@ -59,9 +59,7 @@ onItemMoved
 "
 (
 id
-oldParentId
 oldIndex
-newParentId
 newIndex
 type
 itemGuid
