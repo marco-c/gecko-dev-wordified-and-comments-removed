@@ -221,7 +221,11 @@ OS
 File
 )
 {
-const
+let
+fileInfo
+;
+try
+{
 fileInfo
 =
 await
@@ -237,8 +241,6 @@ close
 (
 )
 ;
-try
-{
 await
 OS
 .
@@ -271,6 +273,7 @@ to
 remove
 {
 fileInfo
+?
 .
 path
 }
