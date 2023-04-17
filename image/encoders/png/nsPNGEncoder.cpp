@@ -72,11 +72,11 @@ nsIAsyncInputStream
 #
 define
 DEFAULT_ZLIB_LEVEL
-6
+3
 #
 define
 DEFAULT_FILTERS
-PNG_FILTER_VALUE_NONE
+PNG_FILTER_SUB
 nsPNGEncoder
 :
 :
