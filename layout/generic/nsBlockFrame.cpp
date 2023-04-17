@@ -1126,14 +1126,11 @@ NS_GET_A
 (
 backgroundColor
 )
-=
+!
 =
 0
 )
 {
-continue
-;
-}
 return
 Some
 (
@@ -1153,6 +1150,9 @@ backgroundColor
 )
 )
 )
+;
+}
+break
 ;
 }
 return
