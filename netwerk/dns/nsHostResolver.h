@@ -827,6 +827,14 @@ aRec
 )
 override
 ;
+bool
+TRRServiceEnabledForRecord
+(
+nsHostRecord
+*
+aRec
+)
+;
 private
 :
 explicit
