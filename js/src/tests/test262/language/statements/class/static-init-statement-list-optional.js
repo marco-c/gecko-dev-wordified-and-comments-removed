@@ -1,0 +1,13 @@
+class
+C
+{
+static
+{
+}
+}
+reportCompare
+(
+0
+0
+)
+;

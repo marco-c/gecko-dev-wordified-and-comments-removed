@@ -365,6 +365,7 @@ function
 getLocaleSupportInfo
 (
 Constructor
+options
 )
 {
 var
@@ -677,13 +678,7 @@ Constructor
 [
 request
 ]
-{
-localeMatcher
-:
-"
-lookup
-"
-}
+options
 )
 .
 resolvedOptions

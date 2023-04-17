@@ -11,6 +11,13 @@ info
 getLocaleSupportInfo
 (
 Constructor
+{
+localeMatcher
+:
+"
+lookup
+"
+}
 )
 ;
 for
