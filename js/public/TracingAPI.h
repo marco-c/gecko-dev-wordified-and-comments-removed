@@ -2063,7 +2063,7 @@ name
 thingp
 -
 >
-unbarrieredSetPtr
+setPtr
 (
 ptr
 )
