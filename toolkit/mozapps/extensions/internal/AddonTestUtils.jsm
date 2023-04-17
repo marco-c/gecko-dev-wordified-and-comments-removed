@@ -6397,6 +6397,9 @@ resolve
 =
 >
 {
+let
+installPromise
+;
 listener
 =
 {
@@ -6413,8 +6416,15 @@ onInstallCancelled
 :
 resolve
 onInstallEnded
-:
+(
+)
+{
 resolve
+(
+installPromise
+)
+;
+}
 onInstallPostponed
 :
 resolve
@@ -6427,6 +6437,8 @@ addListener
 listener
 )
 ;
+installPromise
+=
 install
 .
 install
