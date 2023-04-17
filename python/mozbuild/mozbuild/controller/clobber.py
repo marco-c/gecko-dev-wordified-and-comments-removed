@@ -1005,16 +1005,16 @@ debug
 no_clobber
 =
 {
-            
 "
 .
 mozbuild
 "
-            
 "
 msvc
 "
-        
+"
+_virtualenvs
+"
 }
         
 no_clobber
