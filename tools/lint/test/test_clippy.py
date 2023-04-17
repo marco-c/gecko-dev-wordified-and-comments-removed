@@ -582,7 +582,7 @@ len
 results
 )
 >
-16
+12
     
 assert
 "
@@ -827,7 +827,7 @@ results
 lineno
 =
 =
-1
+9
     
 assert
 results
@@ -838,7 +838,7 @@ results
 column
 =
 =
-4
+9
     
 assert
 results
@@ -850,7 +850,7 @@ rule
 =
 =
 "
-dead_code
+unused_assignments
 "
     
 assert
@@ -957,7 +957,7 @@ len
 results
 )
 >
-8
+2
     
 assert
 results
@@ -981,7 +981,7 @@ results
 lineno
 =
 =
-1
+9
     
 assert
 results
@@ -992,7 +992,7 @@ results
 column
 =
 =
-4
+9
     
 assert
 results
@@ -1004,7 +1004,7 @@ rule
 =
 =
 "
-dead_code
+unused_assignments
 "
     
 assert
