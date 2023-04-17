@@ -1490,6 +1490,10 @@ cbindgen
 win64
 -
 winchecksec
+-
+win64
+-
+mozmake
 optimization
 :
 skip
@@ -2030,6 +2034,10 @@ cbindgen
 win64
 -
 winchecksec
+-
+win64
+-
+mozmake
 optimization
 :
 skip
@@ -4184,6 +4192,10 @@ node
 win64
 -
 winchecksec
+-
+win64
+-
+mozmake
 optimization
 :
 test
@@ -4405,6 +4417,10 @@ node
 win64
 -
 winchecksec
+-
+win64
+-
+mozmake
 optimization
 :
 test
@@ -4615,6 +4631,10 @@ node
 win64
 -
 winchecksec
+-
+win64
+-
+mozmake
 optimization
 :
 test
@@ -4825,6 +4845,10 @@ node
 win64
 -
 winchecksec
+-
+win64
+-
+mozmake
 optimization
 :
 test
@@ -5087,6 +5111,10 @@ node
 win64
 -
 winchecksec
+-
+win64
+-
+mozmake
 win64
 -
 asan

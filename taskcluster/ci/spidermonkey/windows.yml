@@ -172,6 +172,10 @@ clang
 win64
 -
 rust
+-
+win64
+-
+mozmake
 sm
 -
 plain
@@ -256,6 +260,10 @@ clang
 win64
 -
 rust
+-
+win64
+-
+mozmake
 worker
 :
 env
@@ -347,6 +355,10 @@ clang
 win64
 -
 rust
+-
+win64
+-
+mozmake
 sm
 -
 plain
@@ -431,6 +443,10 @@ clang
 win64
 -
 rust
+-
+win64
+-
+mozmake
 worker
 :
 env
@@ -522,6 +538,10 @@ clang
 win64
 -
 rust
+-
+win64
+-
+mozmake
 sm
 -
 compacting
@@ -601,6 +621,10 @@ clang
 win64
 -
 rust
+-
+win64
+-
+mozmake
 worker
 :
 env
