@@ -3689,7 +3689,7 @@ static
 MOZ_ALWAYS_INLINE
 Shape
 *
-getChildDataProperty
+getChildProperty
 (
 JSContext
 *
@@ -3773,7 +3773,7 @@ static
 MOZ_ALWAYS_INLINE
 Shape
 *
-addDataProperty
+addProperty
 (
 JSContext
 *
@@ -3821,7 +3821,7 @@ id
 static
 Shape
 *
-addDataProperty
+addProperty
 (
 JSContext
 *
@@ -3839,7 +3839,7 @@ attrs
 static
 Shape
 *
-putDataProperty
+putProperty
 (
 JSContext
 *
@@ -3886,7 +3886,7 @@ protected
 static
 Shape
 *
-addDataPropertyInternal
+addPropertyInternal
 (
 JSContext
 *

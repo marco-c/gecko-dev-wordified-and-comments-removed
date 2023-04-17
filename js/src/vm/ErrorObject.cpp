@@ -2224,7 +2224,7 @@ if
 NativeObject
 :
 :
-addDataProperty
+addProperty
 (
 cx
 obj
@@ -2251,7 +2251,7 @@ if
 NativeObject
 :
 :
-addDataProperty
+addProperty
 (
 cx
 obj
@@ -2276,7 +2276,7 @@ return
 NativeObject
 :
 :
-addDataProperty
+addProperty
 (
 cx
 obj
@@ -2391,7 +2391,7 @@ messageShape
 NativeObject
 :
 :
-addDataProperty
+addProperty
 (
 cx
 obj

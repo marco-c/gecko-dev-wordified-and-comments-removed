@@ -1761,7 +1761,7 @@ Shape
 NativeObject
 :
 :
-addDataProperty
+addProperty
 (
 JSContext
 *
@@ -1890,7 +1890,7 @@ keep
 ;
 }
 return
-addDataPropertyInternal
+addPropertyInternal
 (
 cx
 obj

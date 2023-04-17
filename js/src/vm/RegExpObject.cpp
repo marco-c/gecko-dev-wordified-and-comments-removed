@@ -1401,7 +1401,7 @@ return
 NativeObject
 :
 :
-addDataProperty
+addProperty
 (
 cx
 self

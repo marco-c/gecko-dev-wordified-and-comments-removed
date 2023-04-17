@@ -19802,7 +19802,7 @@ return
 NativeObject
 :
 :
-addDataProperty
+addProperty
 (
 cx
 obj
