@@ -2797,6 +2797,9 @@ worker
 mozlint
 .
 json
+-
+j
+1
 *
 when
 :
