@@ -3135,9 +3135,6 @@ len
 )
 )
 ;
-(
-void
-)
 mConduit
 -
 >
@@ -3372,9 +3369,6 @@ c_str
 return
 ;
 }
-(
-void
-)
 mConduit
 -
 >
