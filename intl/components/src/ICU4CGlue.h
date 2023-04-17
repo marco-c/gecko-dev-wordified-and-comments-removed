@@ -2530,6 +2530,10 @@ friend
 class
 DateIntervalFormat
 ;
+friend
+class
+ListFormat
+;
 T
 *
 GetFormatted
