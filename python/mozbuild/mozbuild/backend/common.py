@@ -2263,6 +2263,10 @@ topobjdir
 dist
 "
 )
+            
+use_builtin_readable_stream
+=
+False
         
 )
         

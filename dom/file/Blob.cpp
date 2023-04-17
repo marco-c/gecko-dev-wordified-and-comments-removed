@@ -1771,6 +1771,9 @@ NS_INTERFACE_MAP_END_INHERITING
 BodyStreamHolder
 )
 }
+#
+ifndef
+MOZ_DOM_STREAMS
 void
 Blob
 :
@@ -1894,4 +1897,6 @@ GetReadableStreamBody
 )
 ;
 }
+#
+endif
 }
