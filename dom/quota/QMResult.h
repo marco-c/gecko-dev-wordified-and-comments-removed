@@ -219,4 +219,17 @@ aValue
 endif
 }
 #
+define
+QM_TO_RESULT
+(
+expr
+)
+ToResult
+(
+ToQMResult
+(
+expr
+)
+)
+#
 endif
