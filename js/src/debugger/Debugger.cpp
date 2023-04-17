@@ -12272,7 +12272,11 @@ return
 true
 ;
 }
-RootedObject
+Rooted
+<
+ArrayObject
+*
+>
 holder
 (
 cx
@@ -12329,13 +12333,6 @@ if
 holder
 -
 >
-as
-<
-ArrayObject
->
-(
-)
-.
 length
 (
 )
