@@ -847,6 +847,11 @@ ec_resampling
 =
 1
 ;
+bool
+already_downsampled
+=
+false
+;
 }
 ;
 static

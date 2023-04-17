@@ -5127,6 +5127,17 @@ DetectRealBitdepth
 (
 )
 ;
+io
+-
+>
+metadata
+.
+m
+.
+xyb_encoded
+=
+false
+;
 SetIntensityTarget
 (
 io

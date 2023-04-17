@@ -296,7 +296,7 @@ constexpr
 size_t
 kMaxNumReferenceFrames
 =
-3
+4
 ;
 struct
 FrameDimensions

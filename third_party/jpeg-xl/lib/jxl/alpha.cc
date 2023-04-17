@@ -830,6 +830,7 @@ num_pixels
 *
 sizeof
 (
+*
 out
 )
 )
