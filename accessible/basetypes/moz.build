@@ -26,6 +26,11 @@ Accessible
 .
 cpp
 "
+"
+HyperTextAccessibleBase
+.
+cpp
+"
 ]
 LOCAL_INCLUDES
 +
