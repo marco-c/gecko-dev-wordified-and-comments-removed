@@ -1216,13 +1216,7 @@ UseSystemColors
 ShouldUseSystemColors
 (
 const
-mozilla
-:
-:
-dom
-:
-:
-Document
+nsPresContext
 &
 )
 ;
