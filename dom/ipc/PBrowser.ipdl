@@ -1807,17 +1807,6 @@ aStartSwipe
 )
 ;
 async
-AsyncAuthPrompt
-(
-nsCString
-uri
-nsString
-realm
-uint64_t
-aCallbackId
-)
-;
-async
 LookUpDictionary
 (
 nsString
