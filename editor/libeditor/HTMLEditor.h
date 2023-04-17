@@ -3482,16 +3482,6 @@ int32_t
 aOffset
 )
 ;
-Element
-*
-GetNearestAncestorListItemElement
-(
-nsIContent
-&
-aContent
-)
-const
-;
 [
 [
 nodiscard
