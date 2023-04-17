@@ -431,6 +431,13 @@ parserAtoms
 markUsedByStencil
 (
 atom
+ParserAtom
+:
+:
+Atomize
+:
+:
+Yes
 )
 ;
 allAtoms
@@ -1781,6 +1788,13 @@ parserAtoms
 markUsedByStencil
 (
 atom
+ParserAtom
+:
+:
+Atomize
+:
+:
+Yes
 )
 ;
 compilationState

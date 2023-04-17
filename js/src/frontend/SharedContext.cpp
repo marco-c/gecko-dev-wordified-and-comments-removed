@@ -1719,6 +1719,13 @@ parserAtoms
 markUsedByStencil
 (
 atom_
+ParserAtom
+:
+:
+Atomize
+:
+:
+Yes
 )
 ;
 script
@@ -1953,6 +1960,13 @@ parserAtoms
 markUsedByStencil
 (
 atom_
+ParserAtom
+:
+:
+Atomize
+:
+:
+Yes
 )
 ;
 script
