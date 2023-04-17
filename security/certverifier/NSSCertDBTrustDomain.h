@@ -139,10 +139,6 @@ NSSDBConfig
 nssDbConfig
 PKCS11DBConfig
 pkcs11DbConfig
-const
-char
-*
-nssDBPrefix
 )
 ;
 void
