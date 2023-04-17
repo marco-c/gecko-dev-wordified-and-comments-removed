@@ -2411,12 +2411,8 @@ JSContext
 cx
 HandleValue
 lref
-int
-lindex
 HandleValue
 rref
-int
-rindex
 )
 ;
 void

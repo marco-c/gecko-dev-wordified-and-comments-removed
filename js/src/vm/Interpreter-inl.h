@@ -3130,11 +3130,7 @@ ReportInNotObjectError
 (
 cx
 idval
--
-2
 val
--
-1
 )
 ;
 return

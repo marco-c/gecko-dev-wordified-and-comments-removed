@@ -10392,12 +10392,8 @@ JSContext
 cx
 HandleValue
 lref
-int
-lindex
 HandleValue
 rref
-int
-rindex
 )
 {
 auto
@@ -12821,11 +12817,7 @@ ReportInNotObjectError
 (
 cx
 lref
--
-2
 rref
--
-1
 )
 ;
 goto
