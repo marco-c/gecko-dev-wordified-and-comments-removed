@@ -257,7 +257,7 @@ firstElementChild
 if
 (
 !
-gProtonDoorhangers
+gProton
 )
 {
 let
@@ -1285,7 +1285,7 @@ firstElementChild
 if
 (
 !
-gProtonDoorhangers
+gProton
 )
 {
 let
@@ -2464,7 +2464,7 @@ true
 if
 (
 !
-gProtonDoorhangers
+gProton
 )
 {
 let

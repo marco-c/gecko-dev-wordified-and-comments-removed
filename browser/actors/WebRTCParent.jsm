@@ -215,14 +215,12 @@ defineLazyPreferenceGetter
 (
 this
 "
-gProtonDoorhangersEnabled
+gProtonEnabled
 "
 "
 browser
 .
 proton
-.
-doorhangers
 .
 enabled
 "
@@ -4808,7 +4806,7 @@ description
 let
 describedBySuffix
 =
-gProtonDoorhangersEnabled
+gProtonEnabled
 ?
 "
 icon
@@ -5741,7 +5739,7 @@ icon
 if
 (
 !
-gProtonDoorhangersEnabled
+gProtonEnabled
 )
 {
 let
@@ -5806,7 +5804,7 @@ secondOrigin
 }
 if
 (
-gProtonDoorhangersEnabled
+gProtonEnabled
 )
 {
 mainAction

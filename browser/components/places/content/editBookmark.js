@@ -2018,7 +2018,7 @@ if
 !
 this
 .
-protonDoorhangersEnabled
+protonEnabled
 )
 {
 this
@@ -6459,14 +6459,12 @@ defineLazyPreferenceGetter
 (
 gEditItemOverlay
 "
-protonDoorhangersEnabled
+protonEnabled
 "
 "
 browser
 .
 proton
-.
-doorhangers
 .
 enabled
 "

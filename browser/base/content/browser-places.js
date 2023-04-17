@@ -7446,7 +7446,7 @@ subviewbutton
 if
 (
 !
-gProtonDoorhangers
+gProton
 )
 {
 extraClasses
