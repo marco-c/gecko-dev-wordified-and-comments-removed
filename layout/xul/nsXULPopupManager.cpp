@@ -4528,6 +4528,14 @@ ClearGlobalActiveContent
 activeESM
 )
 ;
+activeESM
+-
+>
+StopTrackingDragGesture
+(
+true
+)
+;
 }
 PresShell
 :

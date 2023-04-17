@@ -818,6 +818,13 @@ InteractionData
 aInteractions
 )
 ;
+void
+StopTrackingDragGesture
+(
+bool
+aClearInChildProcesses
+)
+;
 protected
 :
 void
@@ -1897,13 +1904,6 @@ dom
 RemoteDragStartData
 *
 aDragStartData
-)
-;
-void
-StopTrackingDragGesture
-(
-bool
-aClearInChildProcesses
 )
 ;
 MOZ_CAN_RUN_SCRIPT
