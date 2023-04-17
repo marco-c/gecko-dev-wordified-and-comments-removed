@@ -218,6 +218,11 @@ AllocPolicy
 ;
 public
 :
+using
+SweepPolicy
+=
+MapSweepPolicy
+;
 explicit
 GCHashMap
 (
