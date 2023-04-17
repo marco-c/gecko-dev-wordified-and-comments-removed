@@ -583,6 +583,25 @@ MOZ_PGO
 in
 configure_args
         
+verbose
+=
+verbose
+or
+bool
+(
+os
+.
+environ
+.
+get
+(
+"
+MOZ_AUTOMATION
+"
+False
+)
+)
+        
 append_env
 =
 None
