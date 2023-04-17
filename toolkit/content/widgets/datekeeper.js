@@ -44,6 +44,9 @@ MAX_YEAR
 MAX_MONTH
 =
 9
+ONE_DAY
+=
+86400000
 ;
 DateKeeper
 .
@@ -920,6 +923,10 @@ dateObj
 getTime
 (
 )
++
+ONE_DAY
+-
+1
 <
 this
 .
