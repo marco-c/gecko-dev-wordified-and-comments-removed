@@ -1008,16 +1008,6 @@ aQuotedText
 )
 override
 ;
-bool
-IsSafeToInsertData
-(
-const
-Document
-*
-aSourceDoc
-)
-const
-;
 virtual
 nsresult
 PrepareTransferable

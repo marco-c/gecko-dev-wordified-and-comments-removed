@@ -5517,6 +5517,16 @@ bool
 aDoDeleteSelection
 )
 ;
+bool
+IsSafeToInsertData
+(
+const
+Document
+*
+aSourceDoc
+)
+const
+;
 protected
 :
 MOZ_CAN_RUN_SCRIPT
