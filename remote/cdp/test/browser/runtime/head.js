@@ -36,7 +36,7 @@ this
 )
 ;
 const
-BASE_PATH
+BASE_ORIGIN
 =
 "
 https
@@ -46,6 +46,14 @@ https
 example
 .
 com
+"
+;
+const
+BASE_PATH
+=
+{
+BASE_ORIGIN
+}
 /
 browser
 /
@@ -58,7 +66,6 @@ test
 browser
 /
 runtime
-"
 ;
 const
 FRAMESET_SINGLE_URL
