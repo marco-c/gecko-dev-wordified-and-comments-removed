@@ -2633,12 +2633,6 @@ aNewData
 )
 const
 ;
-mozilla
-:
-:
-StyleBorderRadius
-mOutlineRadius
-;
 nscoord
 mOutlineWidth
 ;
