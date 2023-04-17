@@ -71,17 +71,6 @@ mozilla
 /
 layers
 /
-LayerMetricsWrapper
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 APZThreadUtils
 .
 h
