@@ -2121,6 +2121,15 @@ os
 symlink
 "
 )
+or
+sys
+.
+platform
+=
+=
+"
+win32
+"
 :
             
 return
