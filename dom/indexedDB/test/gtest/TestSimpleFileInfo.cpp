@@ -8,7 +8,7 @@ h
 #
 include
 "
-FileManagerBase
+FileInfoManager
 .
 h
 "
@@ -97,7 +97,7 @@ SimpleFileManager
 final
 :
 public
-FileManagerBase
+FileInfoManager
 <
 SimpleFileManager
 >
@@ -110,7 +110,7 @@ SimpleFileManager
 public
 :
 using
-FileManagerBase
+FileInfoManager
 <
 SimpleFileManager
 >
@@ -245,7 +245,7 @@ SimpleFileInfo
 *
 >
 (
-FileManagerGuard
+FileInfoManagerGuard
 {
 }
 SafeRefPtrFromThis
