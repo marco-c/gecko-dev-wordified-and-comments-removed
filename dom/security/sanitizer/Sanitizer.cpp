@@ -68,8 +68,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
@@ -142,7 +142,7 @@ GlobalObject
 &
 aGlobal
 const
-SanitizerOptions
+SanitizerConfig
 &
 aOptions
 ErrorResult
@@ -175,6 +175,7 @@ new
 Sanitizer
 (
 global
+aOptions
 )
 ;
 AutoTArray
@@ -674,13 +675,7 @@ forget
 )
 ;
 }
-nsTreeSanitizer
-treeSanitizer
-(
-mSanitizationFlags
-)
-;
-treeSanitizer
+mTreeSanitizer
 .
 Sanitize
 (
@@ -749,13 +744,7 @@ Failed
 return
 ;
 }
-nsTreeSanitizer
-treeSanitizer
-(
-mSanitizationFlags
-)
-;
-treeSanitizer
+mTreeSanitizer
 .
 Sanitize
 (
@@ -967,7 +956,6 @@ true
 aFlags
 )
 ;
-}
 }
 }
 }
