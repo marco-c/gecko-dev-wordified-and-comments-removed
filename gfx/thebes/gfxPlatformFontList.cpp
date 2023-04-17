@@ -1723,6 +1723,14 @@ gfx_font_list_omt_enabled_AtStartup
 )
 &
 &
+StaticPrefs
+:
+:
+gfx_e10s_font_list_shared_AtStartup
+(
+)
+&
+&
 !
 gfxPlatform
 :
