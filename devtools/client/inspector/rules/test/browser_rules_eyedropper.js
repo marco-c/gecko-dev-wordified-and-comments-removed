@@ -214,7 +214,6 @@ url
 ;
 const
 {
-testActor
 inspector
 view
 toolbox
@@ -228,7 +227,6 @@ openRuleView
 await
 runTest
 (
-testActor
 inspector
 view
 false
@@ -284,7 +282,6 @@ wait
 await
 runTest
 (
-testActor
 inspector
 view
 true
@@ -297,7 +294,6 @@ async
 function
 runTest
 (
-testActor
 inspector
 view
 isWindowHost
@@ -455,7 +451,6 @@ testESC
 (
 swatch
 inspector
-testActor
 )
 ;
 if
@@ -593,7 +588,6 @@ testESC
 (
 swatch
 inspector
-testActor
 )
 {
 info
@@ -633,22 +627,20 @@ resolve
 }
 )
 ;
-await
-testActor
+BrowserTestUtils
 .
 synthesizeKey
 (
-{
-key
-:
 "
 VK_ESCAPE
 "
-options
-:
 {
 }
-}
+gBrowser
+.
+selectedTab
+.
+linkedBrowser
 )
 ;
 await
