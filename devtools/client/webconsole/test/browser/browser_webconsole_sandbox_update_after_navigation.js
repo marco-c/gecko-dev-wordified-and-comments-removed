@@ -233,6 +233,11 @@ if
 isFissionEnabled
 (
 )
+|
+|
+isServerTargetSwitchingEnabled
+(
+)
 )
 {
 promises
