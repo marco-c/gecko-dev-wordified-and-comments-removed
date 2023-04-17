@@ -407,6 +407,13 @@ ColorID
 )
 ;
 static
+UseStandins
+ShouldAlwaysUseStandinsForColorInContent
+(
+ColorID
+)
+;
+static
 Maybe
 <
 nscolor
