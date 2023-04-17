@@ -889,11 +889,6 @@ SyncObjectClient
 aSyncObject
 )
 ;
-void
-NotifyFinishedAsyncEndLayerTransaction
-(
-)
-;
 private
 :
 virtual
