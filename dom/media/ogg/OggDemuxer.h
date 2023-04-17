@@ -186,7 +186,7 @@ explicit
 nsAutoOggSyncState
 (
 rlbox_sandbox_ogg
-&
+*
 aSandbox
 )
 ;
@@ -196,7 +196,7 @@ nsAutoOggSyncState
 )
 ;
 rlbox_sandbox_ogg
-&
+*
 mSandbox
 ;
 tainted_opaque_ogg
@@ -897,7 +897,7 @@ MediaResource
 *
 aResource
 rlbox_sandbox_ogg
-&
+*
 aSandbox
 )
 :
