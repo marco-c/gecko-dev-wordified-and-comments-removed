@@ -226,6 +226,7 @@ bool
 mTexturePtr
 )
 |
+|
 bool
 (
 mRenderbufferPtr
@@ -433,6 +434,7 @@ if
 HasAttachment
 (
 )
+|
 |
 !
 other
