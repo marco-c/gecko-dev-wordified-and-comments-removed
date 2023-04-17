@@ -27,6 +27,8 @@ collections
 import
 gzip
 import
+io
+import
 json
 import
 os
@@ -44,6 +46,10 @@ from
 bisect
 import
 bisect_right
+from
+functools
+import
+cmp_to_key
 outputVersion
 =
 5
@@ -91,6 +97,26 @@ g_slice_alloc
 ?
 "
 ]
+def
+cmp
+(
+a
+b
+)
+:
+    
+return
+(
+a
+>
+b
+)
+-
+(
+a
+<
+b
+)
 class
 Record
 (
@@ -1444,6 +1470,11 @@ filename
 fileobj
 =
 tmpFile
+mode
+=
+"
+wb
+"
 )
     
 with
@@ -1881,17 +1912,13 @@ args
 max_frames
 :
             
-traceTable
-[
-traceKey
-]
-=
+del
 frameKeys
 [
-:
 args
 .
 max_frames
+:
 ]
     
 def
@@ -2135,6 +2162,8 @@ recordKeyPart
 str
 (
                 
+list
+(
 map
 (
 lambda
@@ -2148,6 +2177,7 @@ traceTable
 [
 traceKey
 ]
+)
 )
             
 )
@@ -2485,10 +2515,13 @@ record
 .
 reportedAtDescs
 =
+list
+(
 map
 (
 f
 reportedAtTraceKeys
+)
 )
         
 record
@@ -3259,17 +3292,22 @@ sortedRecords
 =
 sorted
 (
+            
 records
 .
 values
 (
 )
-cmp
+key
 =
+cmp_to_key
+(
 cmpRecords
+)
 reverse
 =
 True
+        
 )
         
 kindBlocks
@@ -4668,7 +4706,7 @@ traceTable
 "
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -4761,7 +4799,7 @@ frameTable
 "
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -5701,11 +5739,28 @@ filename
 fileobj
 =
 tmpFile
+mode
+=
+"
+wb
+"
 )
     
 prettyPrintDmdJson
 (
+io
+.
+TextIOWrapper
+(
 tmpFile
+encoding
+=
+"
+utf
+-
+8
+"
+)
 j
 )
     
