@@ -2525,7 +2525,7 @@ tracking
 -
 protection
 -
-animation
+active
 .
 svg
 (
@@ -2542,7 +2542,7 @@ tracking
 -
 protection
 -
-animation
+active
 .
 svg
 )
@@ -2556,7 +2556,7 @@ tracking
 -
 protection
 -
-animation
+active
 -
 brighttext
 .
@@ -2575,7 +2575,7 @@ tracking
 -
 protection
 -
-animation
+active
 -
 brighttext
 .
