@@ -424,9 +424,6 @@ class
 Layer
 ;
 class
-ImageLayer
-;
-class
 ImageContainer
 ;
 class

@@ -379,9 +379,6 @@ class
 AsyncPanZoomController
 ;
 class
-PaintedLayer
-;
-class
 ContainerLayer
 ;
 class

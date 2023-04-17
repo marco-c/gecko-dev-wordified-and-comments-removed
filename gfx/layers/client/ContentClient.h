@@ -223,9 +223,6 @@ namespace
 layers
 {
 class
-PaintedLayer
-;
-class
 ContentClient
 :
 public

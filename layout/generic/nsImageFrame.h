@@ -120,9 +120,6 @@ class
 ImageContainer
 ;
 class
-ImageLayer
-;
-class
 LayerManager
 ;
 }
@@ -236,16 +233,6 @@ layers
 :
 ImageContainer
 ImageContainer
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
-ImageLayer
-ImageLayer
 ;
 typedef
 mozilla

@@ -1471,10 +1471,6 @@ CompositableClient
 aFwd
 aFlags
 )
-mLayer
-(
-nullptr
-)
 mType
 (
 aType
