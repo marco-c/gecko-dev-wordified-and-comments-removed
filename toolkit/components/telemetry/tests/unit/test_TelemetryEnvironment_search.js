@@ -367,12 +367,6 @@ default_bucket
 "
 )
 ;
-TelemetryEnvironmentTesting
-.
-registerFakePluginHost
-(
-)
-;
 gHttpServer
 =
 new

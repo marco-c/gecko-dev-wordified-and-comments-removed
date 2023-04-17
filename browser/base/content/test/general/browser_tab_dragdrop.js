@@ -672,15 +672,6 @@ function
 (
 )
 {
-setTestPluginEnabledState
-(
-Ci
-.
-nsIPluginTag
-.
-STATE_ENABLED
-)
-;
 let
 tabs
 =
