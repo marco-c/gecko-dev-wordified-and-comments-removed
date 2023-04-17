@@ -2165,6 +2165,12 @@ value
 ]
 )
         
+browsertime_all_options
+=
+browsertime_script
++
+browsertime_options
+        
 if
 test
 .
@@ -2276,7 +2282,7 @@ pairing
 0
 ]
 in
-browsertime_options
+browsertime_all_options
 :
                     
 if
@@ -2290,7 +2296,7 @@ pairing
                         
 ind
 =
-browsertime_options
+browsertime_all_options
 .
 index
 (
@@ -2300,7 +2306,7 @@ pairing
 ]
 )
                         
-browsertime_options
+browsertime_all_options
 [
 ind
 +
@@ -2315,7 +2321,7 @@ pairing
 else
 :
                     
-browsertime_options
+browsertime_all_options
 .
 extend
 (
@@ -2340,11 +2346,7 @@ self
 driver_paths
             
 +
-browsertime_script
-            
-+
-            
-browsertime_options
+browsertime_all_options
             
 +
 [
