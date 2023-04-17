@@ -244,6 +244,13 @@ accessibilityFocusedUIElement
 ;
 -
 (
+NSValue
+*
+)
+accessibilityFrame
+;
+-
+(
 BOOL
 )
 isAccessibilityElement

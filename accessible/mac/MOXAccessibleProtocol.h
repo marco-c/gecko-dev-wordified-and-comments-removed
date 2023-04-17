@@ -280,6 +280,14 @@ moxWindow
 ;
 -
 (
+NSValue
+*
+_Nullable
+)
+moxFrame
+;
+-
+(
 id
 _Nullable
 )
