@@ -491,13 +491,6 @@ ScopedGLHelpers
 h
 "
 #
-include
-"
-TextureImageEGL
-.
-h
-"
-#
 if
 defined
 (

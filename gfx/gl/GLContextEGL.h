@@ -117,10 +117,6 @@ final
 public
 GLContext
 {
-friend
-class
-TextureImageEGL
-;
 public
 :
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME

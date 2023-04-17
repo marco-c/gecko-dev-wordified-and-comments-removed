@@ -611,11 +611,6 @@ SharedSurfaceGL
 .
 cpp
 "
-"
-TextureImageEGL
-.
-cpp
-"
 ]
 SOURCES
 +
