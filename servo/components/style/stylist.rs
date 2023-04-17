@@ -9018,6 +9018,7 @@ selector
 specificity
 (
 )
+current_layer_order
 )
 )
 ;
@@ -11486,6 +11487,9 @@ self
 specificity
 (
 )
+self
+.
+layer_order
 )
 }
 pub
