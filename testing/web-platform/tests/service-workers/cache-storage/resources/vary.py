@@ -1,7 +1,3 @@
-from
-six
-import
-text_type
 def
 main
 (
@@ -123,7 +119,6 @@ value
 override
 "
 )
-;
   
 if
 cookie_vary
@@ -139,7 +134,7 @@ b
 "
 vary
 "
-text_type
+str
 (
 cookie_vary
 )

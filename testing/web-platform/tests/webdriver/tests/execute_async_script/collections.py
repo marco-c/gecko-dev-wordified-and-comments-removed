@@ -1,10 +1,6 @@
 import
 os
 from
-six
-import
-text_type
-from
 tests
 .
 support
@@ -394,7 +390,7 @@ actual
 name
 "
 ]
-text_type
+str
 )
         
 assert

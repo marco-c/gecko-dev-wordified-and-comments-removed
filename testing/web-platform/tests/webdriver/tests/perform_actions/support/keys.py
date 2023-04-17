@@ -18,10 +18,6 @@ from
 inspect
 import
 getmembers
-from
-six
-import
-text_type
 class
 Keys
 (
@@ -636,7 +632,7 @@ x
 )
 =
 =
-text_type
+str
 )
 ALL_EVENTS
 =

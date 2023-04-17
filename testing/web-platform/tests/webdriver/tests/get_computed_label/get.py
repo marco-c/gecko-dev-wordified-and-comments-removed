@@ -1,10 +1,6 @@
 import
 pytest
 from
-six
-import
-text_type
-from
 webdriver
 .
 error

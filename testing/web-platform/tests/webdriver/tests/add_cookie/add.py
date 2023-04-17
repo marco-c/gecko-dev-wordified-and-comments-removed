@@ -6,10 +6,6 @@ import
 datetime
 timedelta
 from
-six
-import
-text_type
-from
 webdriver
 .
 transport
@@ -632,7 +628,7 @@ cookie
 domain
 "
 ]
-text_type
+str
 )
     
 assert
@@ -651,7 +647,7 @@ cookie
 name
 "
 ]
-text_type
+str
 )
     
 assert
@@ -670,7 +666,7 @@ cookie
 value
 "
 ]
-text_type
+str
 )
     
 assert
@@ -892,7 +888,7 @@ cookie
 name
 "
 ]
-text_type
+str
 )
     
 assert
@@ -911,7 +907,7 @@ cookie
 value
 "
 ]
-text_type
+str
 )
     
 assert
@@ -930,7 +926,7 @@ cookie
 domain
 "
 ]
-text_type
+str
 )
     
 assert
@@ -1106,7 +1102,7 @@ cookie
 name
 "
 ]
-text_type
+str
 )
     
 assert
@@ -1125,7 +1121,7 @@ cookie
 value
 "
 ]
-text_type
+str
 )
     
 assert
@@ -1274,7 +1270,7 @@ cookie
 name
 "
 ]
-text_type
+str
 )
     
 assert
@@ -1293,7 +1289,7 @@ cookie
 value
 "
 ]
-text_type
+str
 )
     
 if
@@ -1450,7 +1446,7 @@ cookie
 name
 "
 ]
-text_type
+str
 )
     
 assert
@@ -1469,7 +1465,7 @@ cookie
 value
 "
 ]
-text_type
+str
 )
     
 assert
@@ -1488,7 +1484,7 @@ cookie
 domain
 "
 ]
-text_type
+str
 )
     
 assert
@@ -1674,7 +1670,7 @@ cookie
 name
 "
 ]
-text_type
+str
 )
     
 assert
@@ -1693,7 +1689,7 @@ cookie
 value
 "
 ]
-text_type
+str
 )
     
 assert
@@ -1712,7 +1708,7 @@ cookie
 sameSite
 "
 ]
-text_type
+str
 )
     
 assert

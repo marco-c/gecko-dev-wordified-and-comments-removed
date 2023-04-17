@@ -1,6 +1,4 @@
 import
-six
-import
 time
 MESSAGE_SIZE
 =
@@ -83,9 +81,7 @@ ws_stream
 .
 send_message
 (
-six
-.
-text_type
+str
 (
 time
 .

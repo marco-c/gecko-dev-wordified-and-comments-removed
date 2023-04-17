@@ -1,8 +1,4 @@
 from
-six
-import
-text_type
-from
 tests
 .
 support
@@ -80,7 +76,7 @@ assert
 isinstance
 (
 value
-text_type
+str
 )
 def
 test_no_top_browsing_context

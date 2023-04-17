@@ -6,8 +6,6 @@ from
 base64
 import
 decodebytes
-import
-six
 from
 webdriver
 import
@@ -358,9 +356,7 @@ value
 message
 "
 ]
-six
-.
-text_type
+str
 )
     
 assert
@@ -379,9 +375,7 @@ value
 stacktrace
 "
 ]
-six
-.
-text_type
+str
 )
     
 assert_response_headers

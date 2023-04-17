@@ -1,5 +1,3 @@
-import
-six
 from
 mod_pywebsocket
 import
@@ -77,9 +75,7 @@ if
 isinstance
 (
 line
-six
-.
-text_type
+str
 )
 :
             

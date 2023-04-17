@@ -19,10 +19,6 @@ py
 import
 pytest
 from
-six
-import
-text_type
-from
 wptserver
 import
 WPTServer
@@ -871,12 +867,9 @@ json
 .
 loads
 (
-text_type
-(
 element
 .
 text
-)
 )
                     
 except

@@ -3,10 +3,6 @@ contextlib
 import
 json
 from
-six
-import
-text_type
-from
 http
 .
 client
@@ -177,7 +173,7 @@ if
 isinstance
 (
 payload
-text_type
+str
 )
 :
                 
