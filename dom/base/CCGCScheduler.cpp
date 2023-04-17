@@ -381,7 +381,6 @@ step
 =
 GetNextGCRunnerAction
 (
-aDeadline
 )
 ;
 switch
@@ -2651,8 +2650,6 @@ CCGCScheduler
 :
 GetNextGCRunnerAction
 (
-TimeStamp
-aDeadline
 )
 const
 {

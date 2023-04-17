@@ -1153,8 +1153,6 @@ Inactive
 GCRunnerStep
 GetNextGCRunnerAction
 (
-TimeStamp
-aDeadline
 )
 const
 ;
