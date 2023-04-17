@@ -18143,12 +18143,9 @@ isExceptionPending
 )
 )
 {
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 PromiseObject
 :
 :

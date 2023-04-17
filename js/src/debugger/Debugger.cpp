@@ -35709,12 +35709,9 @@ OnGarbageCollection
 )
 )
 {
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 dbg
 -
 >
