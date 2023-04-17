@@ -7,11 +7,6 @@ dom
 =
 [
 "
-KeySystemNames
-.
-h
-"
-"
 MediaEncryptedEvent
 .
 h

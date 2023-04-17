@@ -58,17 +58,6 @@ mozilla
 /
 dom
 /
-KeySystemNames
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 MediaKeySystemAccessBinding
 .
 h
@@ -1562,7 +1551,7 @@ keySystem
 =
 nsLiteralCString
 (
-kClearKeyKeySystemName
+EME_KEY_SYSTEM_CLEARKEY
 )
 ;
 if
@@ -1582,7 +1571,7 @@ mKeySystem
 .
 AssignLiteral
 (
-kClearKeyKeySystemName
+EME_KEY_SYSTEM_CLEARKEY
 )
 ;
 clearkey
@@ -1865,7 +1854,7 @@ mKeySystem
 .
 AssignLiteral
 (
-kClearKeyWithProtectionQueryKeySystemName
+EME_KEY_SYSTEM_CLEARKEY_WITH_PROTECTION_QUERY
 )
 ;
 keySystemConfigs
@@ -1904,7 +1893,7 @@ keySystem
 =
 nsLiteralCString
 (
-kWidevineKeySystemName
+EME_KEY_SYSTEM_WIDEVINE
 )
 ;
 if
@@ -1924,7 +1913,7 @@ mKeySystem
 .
 AssignLiteral
 (
-kWidevineKeySystemName
+EME_KEY_SYSTEM_WIDEVINE
 )
 ;
 widevine
@@ -2316,7 +2305,7 @@ MediaDrmProxy
 :
 IsCryptoSchemeSupported
 (
-kWidevineKeySystemName
+EME_KEY_SYSTEM_WIDEVINE
 data
 .
 mMimeType
