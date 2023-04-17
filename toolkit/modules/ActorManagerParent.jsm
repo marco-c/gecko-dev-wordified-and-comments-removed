@@ -1307,6 +1307,13 @@ capture
 :
 true
 }
+pageshow
+:
+{
+createActor
+:
+false
+}
 }
 }
 allFrames

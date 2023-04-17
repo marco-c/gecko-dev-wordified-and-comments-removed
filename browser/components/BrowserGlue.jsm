@@ -2884,6 +2884,13 @@ MozInvalidForm
 :
 {
 }
+pageshow
+:
+{
+createActor
+:
+false
+}
 }
 }
 allFrames
@@ -3057,6 +3064,9 @@ pageshow
 pagehide
 :
 {
+createActor
+:
+false
 }
 }
 }
@@ -3551,6 +3561,9 @@ true
 unload
 :
 {
+createActor
+:
+false
 }
 }
 }
