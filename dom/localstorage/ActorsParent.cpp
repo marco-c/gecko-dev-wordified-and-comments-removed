@@ -4477,8 +4477,6 @@ const
 auto
 &
 res
-QM_OR_ELSE_WARN
-(
 MOZ_TO_RESULT_INVOKE
 (
 aFile
@@ -4510,6 +4508,8 @@ IsFile
 ;
 }
 )
+.
+orElse
 (
 [
 ]
@@ -4554,7 +4554,6 @@ ExistsAsFileResult
 DoesNotExist
 ;
 }
-)
 )
 )
 ;
