@@ -5796,6 +5796,13 @@ ctx
 UserToDevicePixelSnapped
 (
 rect
+gfxContext
+:
+:
+SnapOption
+:
+:
+PrioritizeSize
 )
 ;
 if
