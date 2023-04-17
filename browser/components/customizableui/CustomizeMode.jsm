@@ -8561,6 +8561,11 @@ async
 =
 >
 {
+onThemeSelected
+(
+panel
+)
+;
 await
 button
 .
@@ -8568,11 +8573,6 @@ theme
 .
 enable
 (
-)
-;
-onThemeSelected
-(
-panel
 )
 ;
 AMTelemetry
