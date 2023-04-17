@@ -43,6 +43,13 @@ into
 twisted
 someday
 autobahn
+=
+=
+21
+.
+2
+.
+1
 psutil
 >
 =
@@ -71,3 +78,5 @@ passlib
 7
 .
 4
+pyOpenSSL
+service_identity
