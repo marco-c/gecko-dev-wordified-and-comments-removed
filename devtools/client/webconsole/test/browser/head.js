@@ -236,6 +236,14 @@ function
 {
 Services
 .
+cookies
+.
+removeAll
+(
+)
+;
+Services
+.
 prefs
 .
 clearUserPref
