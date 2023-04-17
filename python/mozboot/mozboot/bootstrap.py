@@ -2027,14 +2027,6 @@ warn_if_pythonpath_is_set
 (
 )
         
-self
-.
-instance
-.
-ensure_python_modern
-(
-)
-        
 state_dir
 =
 self
