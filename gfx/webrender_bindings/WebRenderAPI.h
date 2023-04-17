@@ -1821,10 +1821,10 @@ mBoundTransform
 nullptr
 ;
 const
-wr
+gfx
 :
 :
-WrTransformInfo
+Matrix4x4
 *
 mTransformPtr
 =
@@ -2133,11 +2133,6 @@ wr
 LayoutVector2D
 &
 aAppliedOffset
-wr
-:
-:
-SpatialTreeItemKey
-aKey
 )
 ;
 Maybe
@@ -2207,11 +2202,6 @@ wr
 LayoutPoint
 &
 aScrollOffset
-wr
-:
-:
-SpatialTreeItemKey
-aKey
 )
 ;
 void
