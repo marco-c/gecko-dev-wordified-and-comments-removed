@@ -111,6 +111,9 @@ true
 customUserAgent
 :
 true
+isNewPerfPanelEnabled
+:
+true
 javascriptEnabled
 :
 true
