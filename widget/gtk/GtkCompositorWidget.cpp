@@ -233,7 +233,8 @@ windowAttrs
 .
 visual
 ;
-mDepth
+int
+depth
 =
 windowAttrs
 .
@@ -245,7 +246,7 @@ Initialize
 (
 mXWindow
 visual
-mDepth
+depth
 aInitData
 .
 Shaped
@@ -506,18 +507,6 @@ mXWindow
 endif
 return
 nullptr
-;
-}
-int32_t
-GtkCompositorWidget
-:
-:
-GetDepth
-(
-)
-{
-return
-mDepth
 ;
 }
 #

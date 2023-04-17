@@ -228,11 +228,6 @@ GetEGLNativeWindow
 (
 )
 ;
-int32_t
-GetDepth
-(
-)
-;
 LayoutDeviceIntRegion
 GetTransparentRegion
 (
@@ -330,12 +325,6 @@ mXWindow
 ;
 #
 endif
-int32_t
-mDepth
-=
-{
-}
-;
 #
 ifdef
 MOZ_WAYLAND
