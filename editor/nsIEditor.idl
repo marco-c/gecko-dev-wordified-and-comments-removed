@@ -598,6 +598,9 @@ selectAll
 (
 )
 ;
+[
+can_run_script
+]
 void
 beginningOfDocument
 (
