@@ -452,6 +452,7 @@ ACCESSIBILITY
 async
 SetEmbedderAccessible
 (
+nullable
 PDocAccessible
 aDoc
 uint64_t

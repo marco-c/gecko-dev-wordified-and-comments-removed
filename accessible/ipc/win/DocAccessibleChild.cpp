@@ -1540,6 +1540,16 @@ uint64_t
 aID
 )
 {
+DocAccessibleChild
+*
+doc
+=
+aID
+?
+this
+:
+nullptr
+;
 if
 (
 IsConstructedInParentProcess
@@ -1557,9 +1567,9 @@ CanSend
 aBridge
 -
 >
-SendSetEmbedderAccessible
+SetEmbedderAccessible
 (
-this
+doc
 aID
 )
 ;
@@ -1574,7 +1584,7 @@ SerializedSetEmbedder
 >
 (
 aBridge
-this
+doc
 aID
 )
 )
