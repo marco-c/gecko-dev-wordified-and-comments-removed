@@ -3050,6 +3050,12 @@ BeginClearCachedResources
 (
 )
 ;
+mStateManager
+.
+FlushAsyncResourceUpdates
+(
+)
+;
 mWebRenderCommandBuilder
 .
 ClearCachedResources
