@@ -228,7 +228,6 @@ DATA_TYPE
 GENERAL
 data
 :
-[
 {
 site_name
 :
@@ -237,7 +236,6 @@ Test
 Example
 "
 }
-]
 }
 ]
 )
@@ -395,7 +393,6 @@ DATA_TYPE
 GENERAL
 data
 :
-[
 {
 site_name
 :
@@ -405,7 +402,6 @@ Example
 2
 "
 }
-]
 }
 ]
 )
