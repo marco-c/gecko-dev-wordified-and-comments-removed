@@ -1095,7 +1095,7 @@ wc
 wc
 -
 >
-HasValidTransientUserGestureActivation
+HasBeenUserGestureActivated
 (
 )
 )
