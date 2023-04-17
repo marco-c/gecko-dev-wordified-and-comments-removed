@@ -81,7 +81,7 @@ worker_url
 scope
 :
 '
-DedicatedWindow
+DedicatedWorkerGlobalScope
 '
 container
 :
