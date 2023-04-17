@@ -1,3 +1,11 @@
+#
+[
+macro_use
+]
+extern
+crate
+lazy_static
+;
 pub
 mod
 gecko_bindings
@@ -98,4 +106,14 @@ time
 :
 :
 *
+;
+pub
+use
+serde
+:
+:
+{
+Deserialize
+Serialize
+}
 ;
