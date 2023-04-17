@@ -125,6 +125,12 @@ false
 optional
 L10nRegistry
 aRegistry
+optional
+sequence
+<
+UTF8String
+>
+aLocales
 )
 ;
 void
