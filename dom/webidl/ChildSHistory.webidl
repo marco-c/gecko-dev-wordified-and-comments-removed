@@ -162,6 +162,11 @@ boolean
 aRequireUserInteraction
 =
 false
+optional
+boolean
+aUserActivation
+=
+false
 )
 ;
 /

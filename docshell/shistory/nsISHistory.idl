@@ -859,6 +859,9 @@ gotoIndex
 in
 long
 aIndex
+in
+boolean
+aUserActivation
 )
 ;
 /

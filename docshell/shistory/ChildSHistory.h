@@ -185,6 +185,8 @@ int32_t
 aOffset
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 ErrorResult
 &
 aRv
@@ -197,6 +199,8 @@ int32_t
 aOffset
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 CallerType
 aCallerType
 ErrorResult
@@ -213,6 +217,8 @@ int32_t
 aOffset
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 ErrorResult
 &
 aRv
@@ -305,6 +311,8 @@ int32_t
 aOffset
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 )
 :
 Runnable
@@ -320,6 +328,10 @@ aHistory
 mRequireUserInteraction
 (
 aRequireUserInteraction
+)
+mUserActivation
+(
+aUserActivation
 )
 mOffset
 (
@@ -351,6 +363,7 @@ Go
 (
 mOffset
 mRequireUserInteraction
+mUserActivation
 IgnoreErrors
 (
 )
@@ -371,6 +384,9 @@ mHistory
 ;
 bool
 mRequireUserInteraction
+;
+bool
+mUserActivation
 ;
 int32_t
 mOffset

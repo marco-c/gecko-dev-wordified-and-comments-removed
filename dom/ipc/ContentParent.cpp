@@ -39053,6 +39053,8 @@ uint64_t
 aHistoryEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 HistoryGoResolver
 &
 &
@@ -39081,6 +39083,7 @@ HistoryGo
 aOffset
 aHistoryEpoch
 aRequireUserInteraction
+aUserActivation
 Some
 (
 ChildID

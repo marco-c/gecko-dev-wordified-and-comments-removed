@@ -3205,6 +3205,8 @@ int32_t
 aCancelContentJSEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 )
 ;
 async
@@ -3217,6 +3219,8 @@ int32_t
 aCancelContentJSEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 )
 ;
 async
@@ -3229,6 +3233,8 @@ aIndex
 int32_t
 ?
 aCancelContentJSEpoch
+bool
+aUserActivation
 )
 ;
 async
@@ -4719,6 +4725,8 @@ uint64_t
 aHistoryEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 )
 returns
 (

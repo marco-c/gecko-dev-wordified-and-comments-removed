@@ -1548,6 +1548,11 @@ boolean
 aRequireUserInteraction
 =
 false
+optional
+boolean
+aUserActivation
+=
+false
 )
 ;
 void
@@ -1561,6 +1566,11 @@ boolean
 aRequireUserInteraction
 =
 false
+optional
+boolean
+aUserActivation
+=
+false
 )
 ;
 void
@@ -1571,6 +1581,11 @@ aIndex
 optional
 long
 aCancelContentJSEpoch
+optional
+boolean
+aUserActivation
+=
+false
 )
 ;
 void

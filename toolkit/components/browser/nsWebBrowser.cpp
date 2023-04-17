@@ -1871,6 +1871,8 @@ GoBack
 (
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 )
 {
 NS_ENSURE_STATE
@@ -1885,6 +1887,7 @@ mDocShell
 GoBack
 (
 aRequireUserInteraction
+aUserActivation
 )
 ;
 }
@@ -1896,6 +1899,8 @@ GoForward
 (
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 )
 {
 NS_ENSURE_STATE
@@ -1910,6 +1915,7 @@ mDocShell
 GoForward
 (
 aRequireUserInteraction
+aUserActivation
 )
 ;
 }
@@ -2088,6 +2094,8 @@ GotoIndex
 (
 int32_t
 aIndex
+bool
+aUserActivation
 )
 {
 NS_ENSURE_STATE
@@ -2102,6 +2110,7 @@ mDocShell
 GotoIndex
 (
 aIndex
+aUserActivation
 )
 ;
 }

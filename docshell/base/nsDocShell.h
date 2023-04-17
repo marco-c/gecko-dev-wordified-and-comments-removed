@@ -2888,6 +2888,8 @@ nsISHEntry
 aEntry
 uint32_t
 aLoadType
+bool
+aUserActivation
 )
 ;
 nsresult
@@ -2905,6 +2907,8 @@ LoadingSessionHistoryInfo
 aEntry
 uint32_t
 aLoadType
+bool
+aUserActivation
 )
 ;
 nsresult

@@ -3529,8 +3529,6 @@ browser
 .
 proton
 .
-doorhangers
-.
 enabled
 "
 false
@@ -15958,11 +15956,9 @@ hidePopup
 let
 handlingUserInput
 =
-window
+document
 .
-windowUtils
-.
-isHandlingUserInput
+hasValidTransientUserGestureActivation
 ;
 for
 (
@@ -32932,7 +32928,7 @@ ALLOW_ACTION
 }
 disableHighlight
 :
-gProtonDoorhangers
+gProton
 }
 ;
 var
@@ -33297,7 +33293,7 @@ checkboxChecked
 }
 disableHighlight
 :
-gProtonDoorhangers
+gProton
 }
 ;
 let
@@ -34024,7 +34020,7 @@ _tid
 ;
 if
 (
-gProtonDoorhangers
+gProton
 )
 {
 mainAction

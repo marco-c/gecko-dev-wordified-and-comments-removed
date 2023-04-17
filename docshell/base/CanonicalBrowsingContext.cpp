@@ -4916,6 +4916,8 @@ uint64_t
 aHistoryEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 Maybe
 <
 ContentParentId
@@ -5268,6 +5270,7 @@ value
 )
 loadResults
 sameEpoch
+aUserActivation
 )
 ;
 if
@@ -5956,6 +5959,8 @@ int32_t
 aCancelContentJSEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 )
 {
 if
@@ -6027,6 +6032,7 @@ docShell
 GoBack
 (
 aRequireUserInteraction
+aUserActivation
 )
 ;
 }
@@ -6080,6 +6086,7 @@ SendGoBack
 this
 cancelContentJSEpoch
 aRequireUserInteraction
+aUserActivation
 )
 ;
 }
@@ -6099,6 +6106,8 @@ int32_t
 aCancelContentJSEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 )
 {
 if
@@ -6170,6 +6179,7 @@ docShell
 GoForward
 (
 aRequireUserInteraction
+aUserActivation
 )
 ;
 }
@@ -6223,6 +6233,7 @@ SendGoForward
 this
 cancelContentJSEpoch
 aRequireUserInteraction
+aUserActivation
 )
 ;
 }
@@ -6242,6 +6253,8 @@ int32_t
 >
 &
 aCancelContentJSEpoch
+bool
+aUserActivation
 )
 {
 if
@@ -6313,6 +6326,7 @@ docShell
 GotoIndex
 (
 aIndex
+aUserActivation
 )
 ;
 }
@@ -6366,6 +6380,7 @@ SendGoToIndex
 this
 aIndex
 cancelContentJSEpoch
+aUserActivation
 )
 ;
 }
