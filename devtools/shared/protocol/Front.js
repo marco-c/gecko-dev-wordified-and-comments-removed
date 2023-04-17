@@ -161,6 +161,12 @@ Map
 (
 )
 ;
+this
+.
+_initializeResolved
+=
+false
+;
 }
 getParent
 (
@@ -516,6 +522,12 @@ initialize
 )
 ;
 }
+front
+.
+_initializeResolved
+=
+true
+;
 if
 (
 form
@@ -653,6 +665,11 @@ typeName
 =
 =
 typeName
+&
+&
+front
+.
+_initializeResolved
 )
 {
 onAvailable
