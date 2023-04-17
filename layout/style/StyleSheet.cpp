@@ -3693,7 +3693,6 @@ NodePrincipal
 GetReferrerInfo
 (
 )
-nullptr
 )
 ;
 nsCOMPtr
