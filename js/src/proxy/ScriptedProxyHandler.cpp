@@ -279,7 +279,7 @@ hasGetter
 current
 -
 >
-getterObject
+getter
 (
 )
 :
@@ -299,7 +299,7 @@ hasSetter
 current
 -
 >
-setterObject
+setter
 (
 )
 :
@@ -353,7 +353,7 @@ hasGetter
 |
 desc
 .
-getterObject
+getter
 (
 )
 =
@@ -373,7 +373,7 @@ hasSetter
 |
 desc
 .
-setterObject
+setter
 (
 )
 =
@@ -923,7 +923,7 @@ hasSetter
 &
 desc
 .
-setterObject
+setter
 (
 )
 !
@@ -975,7 +975,7 @@ hasGetter
 &
 desc
 .
-getterObject
+getter
 (
 )
 !
@@ -5299,7 +5299,7 @@ configurable
 desc
 -
 >
-getterObject
+getter
 (
 )
 =
@@ -5735,7 +5735,7 @@ configurable
 desc
 -
 >
-setterObject
+setter
 (
 )
 =

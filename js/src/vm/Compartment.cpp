@@ -1960,7 +1960,7 @@ wrap
 cx
 desc
 .
-getterObject
+getter
 (
 )
 )
@@ -1988,7 +1988,7 @@ wrap
 cx
 desc
 .
-setterObject
+setter
 (
 )
 )

@@ -474,7 +474,7 @@ cx
 desc
 -
 >
-getterObject
+getter
 (
 )
 )
@@ -999,7 +999,7 @@ setter
 =
 ownDesc
 .
-setterObject
+setter
 (
 )
 ;

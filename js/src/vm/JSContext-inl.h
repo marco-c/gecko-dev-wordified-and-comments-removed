@@ -1202,7 +1202,7 @@ check
 (
 desc
 .
-getterObject
+getter
 (
 )
 argIndex
@@ -1222,7 +1222,7 @@ check
 (
 desc
 .
-setterObject
+setter
 (
 )
 argIndex

@@ -6689,7 +6689,7 @@ cx_
 desc
 -
 >
-getterObject
+getter
 (
 )
 )

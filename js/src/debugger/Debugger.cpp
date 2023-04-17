@@ -7978,7 +7978,7 @@ get
 cx
 desc
 .
-getterObject
+getter
 (
 )
 )
@@ -8048,7 +8048,7 @@ set
 cx
 desc
 .
-setterObject
+setter
 (
 )
 )

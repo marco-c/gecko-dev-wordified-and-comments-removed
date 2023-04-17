@@ -6847,12 +6847,12 @@ create
 cx
 desc
 .
-getterObject
+getter
 (
 )
 desc
 .
-setterObject
+setter
 (
 )
 )
@@ -6969,12 +6969,12 @@ obj
 id
 desc
 .
-getterObject
+getter
 (
 )
 desc
 .
-setterObject
+setter
 (
 )
 flags
@@ -7801,7 +7801,7 @@ isAccessorProperty
 |
 desc
 .
-getterObject
+getter
 (
 )
 !
@@ -7840,7 +7840,7 @@ isAccessorProperty
 |
 desc
 .
-setterObject
+setter
 (
 )
 !
@@ -9005,7 +9005,7 @@ configurable
 &
 desc
 .
-setterObject
+setter
 (
 )
 !
@@ -9066,7 +9066,7 @@ configurable
 &
 desc
 .
-getterObject
+getter
 (
 )
 !
