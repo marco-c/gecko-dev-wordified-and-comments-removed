@@ -881,6 +881,14 @@ linux64
 toolchain
 -
 sysroot
+-
+sysroot
+-
+x86_64
+-
+linux
+-
+gnu
 optimization
 :
 skip
