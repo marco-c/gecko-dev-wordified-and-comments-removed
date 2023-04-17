@@ -1578,10 +1578,6 @@ TryLock
 (
 )
 {
-CheckAcquire
-(
-)
-;
 bool
 locked
 =
