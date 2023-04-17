@@ -2473,14 +2473,6 @@ ParseNode
 value
 )
 ;
-enum
-class
-FieldPlacement
-{
-Instance
-Static
-}
-;
 mozilla
 :
 :

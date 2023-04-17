@@ -2048,6 +2048,14 @@ TripledotAllowed
 TripledotProhibited
 }
 ;
+enum
+class
+FieldPlacement
+{
+Instance
+Static
+}
+;
 template
 <
 class
@@ -4145,6 +4153,11 @@ privateMethods
 =
 0
 ;
+size_t
+privateAccessors
+=
+0
+;
 bool
 hasPrivateBrand
 (
@@ -4153,6 +4166,11 @@ const
 {
 return
 privateMethods
+>
+0
+|
+|
+privateAccessors
 >
 0
 ;
@@ -4858,6 +4876,8 @@ TaggedParserAtomIndex
 name
 PropertyType
 propType
+FieldPlacement
+placement
 TokenPos
 pos
 )
