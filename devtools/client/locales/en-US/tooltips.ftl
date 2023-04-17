@@ -1008,7 +1008,7 @@ item
 -
 fix
 -
-2
+3
 =
 Try
 adding
@@ -1057,6 +1057,11 @@ flex
 /
 strong
 >
+to
+the
+element
+s
+parent
 .
 {
 learn
