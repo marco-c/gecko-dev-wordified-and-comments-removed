@@ -1421,7 +1421,7 @@ cx
 JS
 :
 :
-GetRealmObjectPrototype
+GetRealmWeakMapKey
 (
 cx
 )

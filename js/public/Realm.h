@@ -391,6 +391,17 @@ cx
 ;
 extern
 JS_PUBLIC_API
+JSObject
+*
+GetRealmWeakMapKey
+(
+JSContext
+*
+cx
+)
+;
+extern
+JS_PUBLIC_API
 Realm
 *
 GetFunctionRealm
