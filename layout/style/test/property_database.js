@@ -38971,13 +38971,13 @@ initial_values
 "
 normal
 "
+"
+none
+"
 ]
 other_values
 :
 [
-"
-none
-"
 '
 "
 "
