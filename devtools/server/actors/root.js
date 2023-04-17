@@ -302,9 +302,6 @@ true
 supportsThreadActorIsAttached
 :
 true
-supportsDocumentEventWillNavigate
-:
-true
 }
 ;
 }

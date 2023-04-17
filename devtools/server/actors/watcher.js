@@ -706,6 +706,9 @@ WEBSOCKET
 :
 hasBrowserElement
 }
+supportsDocumentEventWillNavigate
+:
+true
 }
 }
 ;
