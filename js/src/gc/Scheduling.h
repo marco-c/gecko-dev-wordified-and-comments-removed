@@ -1423,11 +1423,6 @@ updateStartThreshold
 (
 size_t
 lastBytes
-JS
-:
-:
-GCOptions
-options
 const
 GCSchedulingTunables
 &
@@ -1454,11 +1449,6 @@ double
 growthFactor
 size_t
 lastBytes
-JS
-:
-:
-GCOptions
-options
 const
 GCSchedulingTunables
 &

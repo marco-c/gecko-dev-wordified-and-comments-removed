@@ -402,11 +402,6 @@ updateGCStartThresholds
 GCRuntime
 &
 gc
-JS
-:
-:
-GCOptions
-options
 const
 js
 :
@@ -444,7 +439,6 @@ gcHeapSize
 retainedBytes
 (
 )
-options
 gc
 .
 tunables
@@ -1151,13 +1145,6 @@ rt
 -
 >
 gc
-JS
-:
-:
-GCOptions
-:
-:
-Normal
 lock
 )
 ;

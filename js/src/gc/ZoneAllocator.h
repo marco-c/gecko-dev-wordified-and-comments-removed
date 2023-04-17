@@ -279,11 +279,6 @@ gc
 GCRuntime
 &
 gc
-JS
-:
-:
-GCOptions
-options
 const
 js
 :

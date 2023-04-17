@@ -34604,7 +34604,6 @@ updateGCStartThresholds
 (
 *
 this
-gcOptions
 lock
 )
 ;
@@ -34652,13 +34651,6 @@ updateGCStartThresholds
 (
 *
 this
-JS
-:
-:
-GCOptions
-:
-:
-Normal
 lock
 )
 ;
@@ -49782,7 +49774,6 @@ updateGCStartThresholds
 (
 *
 this
-gcOptions
 lock
 )
 ;
