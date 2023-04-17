@@ -92,6 +92,10 @@ flex
 #
 editBookmarkPanelInfoArea
 {
+overflow
+:
+hidden
+;
 padding
 :
 4px
