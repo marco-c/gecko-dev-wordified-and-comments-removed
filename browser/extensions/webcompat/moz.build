@@ -1142,6 +1142,13 @@ js
 "
 shims
 /
+optimizely
+.
+js
+"
+"
+shims
+/
 play
 .
 svg
