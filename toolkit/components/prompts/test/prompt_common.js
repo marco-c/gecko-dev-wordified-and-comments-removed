@@ -1465,6 +1465,12 @@ startsWith
 button
 "
 )
+&
+&
+!
+promptState
+.
+infoRowHidden
 )
 {
 is
