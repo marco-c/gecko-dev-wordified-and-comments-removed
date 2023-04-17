@@ -126,6 +126,11 @@ WasmGenerator
 cpp
 "
 "
+WasmInitExpr
+.
+cpp
+"
+"
 WasmInstance
 .
 cpp

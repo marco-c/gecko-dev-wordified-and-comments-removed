@@ -8932,9 +8932,6 @@ offsetIfActive
 Some
 (
 InitExpr
-:
-:
-fromConstant
 (
 LitVal
 (

@@ -166,7 +166,7 @@ enabled
 (
 unexpected
 initializer
-expression
+opcode
 )
 /
 )

@@ -1958,9 +1958,8 @@ WebAssembly
 .
 CompileError
 /
-unexpected
-initializer
-expression
+popping
+value
 /
 )
 ;

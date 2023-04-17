@@ -5158,7 +5158,7 @@ SerializedVectorSize
 types
 )
 +
-SerializedPodVectorSize
+SerializedVectorSize
 (
 globals
 )
@@ -5261,7 +5261,7 @@ types
 ;
 cursor
 =
-SerializePodVector
+SerializeVector
 (
 cursor
 globals
@@ -5380,7 +5380,7 @@ types
 (
 cursor
 =
-DeserializePodVector
+DeserializeVector
 (
 cursor
 &
