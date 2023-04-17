@@ -25,13 +25,6 @@ h
 #
 include
 <
-angle_gl
-.
-h
->
-#
-include
-<
 cstdint
 >
 #

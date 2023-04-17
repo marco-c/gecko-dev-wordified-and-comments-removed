@@ -514,7 +514,7 @@ fields
 ;
 friend
 class
-RegenerateStructNames
+RegenerateStructNamesTraverser
 ;
 void
 setName

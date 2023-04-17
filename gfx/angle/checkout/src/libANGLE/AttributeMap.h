@@ -53,6 +53,17 @@ AttributeMap
 other
 )
 ;
+AttributeMap
+&
+operator
+=
+(
+const
+AttributeMap
+&
+other
+)
+;
 ~
 AttributeMap
 (

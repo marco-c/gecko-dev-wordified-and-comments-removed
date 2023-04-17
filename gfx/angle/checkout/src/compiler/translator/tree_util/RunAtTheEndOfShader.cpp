@@ -329,6 +329,9 @@ TIntermBlock
 (
 )
 ;
+TIntermSequence
+emptySequence
+;
 TIntermAggregate
 *
 oldMainCall
@@ -340,10 +343,8 @@ CreateFunctionCall
 (
 *
 oldMain
-new
-TIntermSequence
-(
-)
+&
+emptySequence
 )
 ;
 newMainBody
