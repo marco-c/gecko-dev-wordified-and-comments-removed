@@ -252,8 +252,6 @@ isOk
 ;
 ASSERT_EQ
 (
-MakeStringSpan
-(
 locale2
 .
 variants
@@ -262,11 +260,6 @@ variants
 [
 0
 ]
-.
-get
-(
-)
-)
 MakeStringSpan
 (
 "
@@ -277,8 +270,6 @@ fonipa
 ;
 ASSERT_EQ
 (
-MakeStringSpan
-(
 locale2
 .
 extensions
@@ -287,11 +278,6 @@ extensions
 [
 0
 ]
-.
-get
-(
-)
-)
 MakeStringSpan
 (
 "

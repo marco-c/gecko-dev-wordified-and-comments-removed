@@ -3963,14 +3963,12 @@ true
 ;
   
 }
+#
+ifdef
+DEBUG
   
 for
 (
-[
-[
-maybe_unused
-]
-]
 const
 auto
 &
@@ -3984,45 +3982,25 @@ variants
     
 MOZ_ASSERT
 (
-        
 IsStructurallyValidVariantTag
 (
-mozilla
-:
-:
-MakeStringSpan
-(
 variant
-.
-get
-(
-)
-)
 )
 )
 ;
     
 MOZ_ASSERT
 (
-        
 IsCanonicallyCasedVariantTag
 (
-mozilla
-:
-:
-MakeStringSpan
-(
 variant
-.
-get
-(
-)
-)
 )
 )
 ;
   
 }
+#
+endif
   
 /
 /
