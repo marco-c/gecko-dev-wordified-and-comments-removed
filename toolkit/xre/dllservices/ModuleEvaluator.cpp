@@ -104,6 +104,9 @@ nsXULAppAPI
 .
 h
 "
+namespace
+mozilla
+{
 static
 Vector
 <
@@ -298,9 +301,6 @@ return
 result
 ;
 }
-namespace
-mozilla
-{
 bool
 ModuleEvaluator
 :
