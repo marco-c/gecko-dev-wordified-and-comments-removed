@@ -1994,6 +1994,7 @@ this
 if
 (
 auto
+*
 owner
 =
 GetOwner
