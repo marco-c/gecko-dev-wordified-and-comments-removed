@@ -93,9 +93,6 @@ inspector
 panelWin
 )
 ;
-await
-processingDone
-;
 info
 (
 "
@@ -109,11 +106,7 @@ complete
 )
 ;
 await
-inspector
-.
-searchSuggestions
-.
-_lastQuery
+processingDone
 ;
 info
 (

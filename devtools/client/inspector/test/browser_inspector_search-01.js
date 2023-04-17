@@ -572,7 +572,14 @@ inspector
 .
 searchSuggestions
 .
-_lastQuery
+once
+(
+"
+processing
+-
+done
+"
+)
 )
 ;
 EventUtils
