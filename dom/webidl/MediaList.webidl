@@ -122,9 +122,7 @@ MediaList
 stringifier
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 UTF8String
 mediaText

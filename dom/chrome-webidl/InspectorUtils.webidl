@@ -173,9 +173,7 @@ Element
 element
 optional
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 pseudo
@@ -271,9 +269,7 @@ long
 selectorIndex
 optional
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 pseudo
@@ -661,9 +657,7 @@ boolean
 isCustomElementName
 (
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 name

@@ -181,9 +181,7 @@ DOMString
 ?
 namespace
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 qualifiedName

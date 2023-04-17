@@ -493,9 +493,7 @@ SetterThrows
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 border

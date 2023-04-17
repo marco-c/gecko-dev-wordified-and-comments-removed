@@ -165,9 +165,7 @@ getElementsByAttribute
 DOMString
 name
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 value
@@ -186,9 +184,7 @@ namespaceURI
 DOMString
 name
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 value

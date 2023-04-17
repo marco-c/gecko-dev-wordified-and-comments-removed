@@ -405,9 +405,7 @@ Pure
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 marginHeight
@@ -419,9 +417,7 @@ Pure
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 marginWidth

@@ -1323,9 +1323,7 @@ createPattern
 CanvasImageSource
 image
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 repetition

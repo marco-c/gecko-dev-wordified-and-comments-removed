@@ -231,9 +231,7 @@ Pure
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 innerText

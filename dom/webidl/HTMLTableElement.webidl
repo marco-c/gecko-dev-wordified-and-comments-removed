@@ -352,9 +352,7 @@ SetterThrows
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 bgColor
@@ -365,9 +363,7 @@ SetterThrows
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 cellPadding
@@ -378,9 +374,7 @@ SetterThrows
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 cellSpacing

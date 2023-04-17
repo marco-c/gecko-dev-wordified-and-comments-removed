@@ -1984,9 +1984,7 @@ CEReactions
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 fgColor
@@ -1996,9 +1994,7 @@ CEReactions
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 linkColor
@@ -2008,9 +2004,7 @@ CEReactions
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 vlinkColor
@@ -2020,9 +2014,7 @@ CEReactions
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 alinkColor
@@ -2032,9 +2024,7 @@ CEReactions
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 bgColor

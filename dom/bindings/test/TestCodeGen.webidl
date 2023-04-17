@@ -10293,9 +10293,7 @@ OctetClamp
 ;
 typedef
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 NullEmptyString

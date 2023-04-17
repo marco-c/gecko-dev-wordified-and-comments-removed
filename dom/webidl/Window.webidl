@@ -1019,9 +1019,7 @@ target
 "
 optional
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 features

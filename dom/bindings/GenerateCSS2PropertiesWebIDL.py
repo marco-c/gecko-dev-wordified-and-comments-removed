@@ -22,9 +22,7 @@ s
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 UTF8String
 %

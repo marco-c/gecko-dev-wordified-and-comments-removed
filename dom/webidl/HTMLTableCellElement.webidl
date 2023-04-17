@@ -314,9 +314,7 @@ SetterThrows
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 bgColor

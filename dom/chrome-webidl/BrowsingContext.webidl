@@ -461,9 +461,7 @@ SetterThrows
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 customPlatform
@@ -473,9 +471,7 @@ SetterThrows
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 customUserAgent

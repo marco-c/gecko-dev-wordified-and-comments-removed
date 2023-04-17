@@ -1676,9 +1676,7 @@ GetterCanOOM
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 innerHTML
@@ -1690,9 +1688,7 @@ SetterThrows
 ]
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 outerHTML

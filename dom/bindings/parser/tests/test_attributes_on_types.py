@@ -42,9 +42,7 @@ Bar
             
 typedef
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 Baz
@@ -112,9 +110,7 @@ bar
                 
 attribute
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 baz
@@ -135,9 +131,7 @@ long
 bar
                             
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 baz
@@ -162,9 +156,7 @@ bar
                              
 optional
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 baz
@@ -176,9 +168,7 @@ method3
 (
 optional
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 UTF8String
 foo
@@ -415,7 +405,7 @@ results
 .
 innerType
 .
-treatNullAsEmpty
+legacyNullToEmptyString
             
 True
             
@@ -423,9 +413,7 @@ True
 Baz
 is
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 "
         
@@ -665,7 +653,7 @@ members
 .
 type
 .
-treatNullAsEmpty
+legacyNullToEmptyString
             
 True
             
@@ -675,9 +663,7 @@ B
 baz
 is
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 "
         
@@ -774,7 +760,7 @@ method
 .
 type
 .
-treatNullAsEmpty
+legacyNullToEmptyString
             
 True
             
@@ -785,9 +771,7 @@ of
 method
 is
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 "
         
@@ -884,7 +868,7 @@ method2
 .
 type
 .
-treatNullAsEmpty
+legacyNullToEmptyString
             
 True
             
@@ -895,9 +879,7 @@ of
 method2
 is
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 "
         
@@ -934,7 +916,7 @@ method3
 .
 type
 .
-treatNullAsEmpty
+legacyNullToEmptyString
             
 True
             
@@ -945,9 +927,7 @@ of
 method2
 is
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 "
         
@@ -2083,9 +2063,7 @@ long
 (
 "
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 "
 "
@@ -3221,9 +3199,7 @@ parse
             
 typedef
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 long
 Foo
@@ -3258,7 +3234,7 @@ Should
 not
 allow
 [
-TreatNullAs
+LegacyNullToEmptyString
 ]
 on
 long
@@ -3291,9 +3267,7 @@ parse
             
 typedef
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 JSString
 Foo
@@ -3328,7 +3302,7 @@ Should
 not
 allow
 [
-TreatNullAs
+LegacyNullToEmptyString
 ]
 on
 JSString
@@ -3361,9 +3335,7 @@ parse
             
 typedef
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 ?
@@ -3393,18 +3365,20 @@ harness
 .
 ok
 (
+        
 threw
 "
 Should
 not
 allow
 [
-TreatNullAs
+LegacyNullToEmptyString
 ]
 on
 nullable
 DOMString
 "
+    
 )
     
 parser
