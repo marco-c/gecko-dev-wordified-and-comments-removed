@@ -158,6 +158,15 @@ h
 #
 include
 "
+ds
+/
+IdValuePair
+.
+h
+"
+#
+include
+"
 frontend
 /
 BytecodeCompiler

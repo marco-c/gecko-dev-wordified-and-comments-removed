@@ -51,6 +51,15 @@ algorithm
 #
 include
 "
+ds
+/
+IdValuePair
+.
+h
+"
+#
+include
+"
 gc
 /
 FreeOp
