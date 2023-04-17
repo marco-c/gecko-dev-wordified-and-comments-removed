@@ -86,6 +86,11 @@ dom
 Document
 *
 aDoc
+uint32_t
+*
+aRejectedReason
+=
+nullptr
 )
 ;
 StorageAccess

@@ -34879,6 +34879,12 @@ StorageAccessPermissionGranted
 (
 )
 {
+mStorageAllowedCache
+=
+Nothing
+(
+)
+;
 PropagateStorageAccessPermissionGrantedToWorkers
 (
 *
