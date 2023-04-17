@@ -299,15 +299,6 @@ From
 )
 HTTP_ATOM
 (
-GlobalPrivacyControl
-"
-Sec
--
-GPC
-"
-)
-HTTP_ATOM
-(
 Host
 "
 Host
