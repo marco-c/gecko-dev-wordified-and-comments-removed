@@ -181,9 +181,11 @@ const
 {
 return
 mChildren
-[
+.
+SafeElementAt
+(
 aIdx
-]
+)
 ;
 }
 Derived
