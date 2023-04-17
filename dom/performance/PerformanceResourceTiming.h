@@ -62,11 +62,12 @@ PerformanceEntry
 {
 public
 :
-typedef
+using
+TimeStamp
+=
 mozilla
 :
 :
-TimeStamp
 TimeStamp
 ;
 NS_DECL_ISUPPORTS_INHERITED
