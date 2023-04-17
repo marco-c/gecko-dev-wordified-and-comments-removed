@@ -1032,14 +1032,6 @@ lock
 mMutex
 )
 ;
-mContainer
-=
-nullptr
-;
-mNativeLayerRoot
-=
-nullptr
-;
 mIsShutdown
 =
 true
