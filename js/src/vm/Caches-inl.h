@@ -205,6 +205,12 @@ gc
 :
 InitialHeap
 heap
+gc
+:
+:
+AllocSite
+*
+site
 )
 {
 MOZ_ASSERT
@@ -333,6 +339,7 @@ kind
 0
 heap
 clasp
+site
 )
 )
 ;

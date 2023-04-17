@@ -18992,6 +18992,14 @@ HandleObject
 protoArg
 NewObjectKind
 newKind
+gc
+:
+:
+AllocSite
+*
+site
+=
+nullptr
 )
 {
 gc
@@ -19152,6 +19160,7 @@ ArrayObject
 :
 :
 class_
+site
 )
 ;
 AutoSetNewObjectMetadata
@@ -19171,6 +19180,7 @@ newObjectFromHit
 cx
 entry
 heap
+site
 )
 ;
 if
@@ -19311,6 +19321,7 @@ ArrayObject
 :
 :
 class_
+site
 )
 shape
 length
@@ -19574,6 +19585,12 @@ HandleObject
 proto
 NewObjectKind
 newKind
+gc
+:
+:
+AllocSite
+*
+site
 )
 {
 return
@@ -19586,6 +19603,7 @@ cx
 length
 proto
 newKind
+site
 )
 ;
 }

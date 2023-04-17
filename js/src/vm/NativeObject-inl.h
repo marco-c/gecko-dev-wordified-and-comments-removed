@@ -2590,6 +2590,15 @@ js
 :
 HandleShape
 shape
+js
+:
+:
+gc
+:
+:
+AllocSite
+*
+site
 )
 {
 debugCheckNewObject
@@ -2674,6 +2683,7 @@ kind
 nDynamicSlots
 heap
 clasp
+site
 )
 ;
 if
