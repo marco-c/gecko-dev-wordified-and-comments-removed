@@ -429,12 +429,6 @@ PaintFlags
 None
 =
 0
-PaintLayers
-=
-1
-<
-<
-0
 PaintComposite
 =
 1
