@@ -1018,7 +1018,7 @@ value
 break
 ;
 case
-JSGC_URGENT_THRESHOLD_BYTES
+JSGC_URGENT_THRESHOLD_MB
 :
 urgentThresholdBytes_
 =
@@ -1604,7 +1604,7 @@ MallocThresholdBase
 break
 ;
 case
-JSGC_URGENT_THRESHOLD_BYTES
+JSGC_URGENT_THRESHOLD_MB
 :
 urgentThresholdBytes_
 =

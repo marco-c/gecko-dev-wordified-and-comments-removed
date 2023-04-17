@@ -4004,7 +4004,7 @@ _
 "
 urgentThreshold
 "
-JSGC_URGENT_THRESHOLD_BYTES
+JSGC_URGENT_THRESHOLD_MB
 true
 )
 \

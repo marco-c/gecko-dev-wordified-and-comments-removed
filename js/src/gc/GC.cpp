@@ -9776,7 +9776,7 @@ mallocThresholdBase
 1024
 ;
 case
-JSGC_URGENT_THRESHOLD_BYTES
+JSGC_URGENT_THRESHOLD_MB
 :
 return
 tunables
