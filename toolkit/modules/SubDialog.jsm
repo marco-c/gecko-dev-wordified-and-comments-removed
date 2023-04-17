@@ -237,7 +237,16 @@ addEventListener
 "
 load
 "
+(
+)
+=
+>
+{
 resolve
+(
+)
+;
+}
 {
 once
 :
