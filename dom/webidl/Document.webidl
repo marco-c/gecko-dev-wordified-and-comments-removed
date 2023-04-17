@@ -1358,7 +1358,7 @@ to
 Document
 objects
 [
-LenientThis
+LegacyLenientThis
 ]
 attribute
 EventHandler

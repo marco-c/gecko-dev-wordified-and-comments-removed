@@ -18459,7 +18459,7 @@ ThrowExceptions
 if
 attr
 .
-hasLenientThis
+hasLegacyLenientThis
 (
 )
 :
@@ -18799,7 +18799,7 @@ else
 if
 attr
 .
-hasLenientThis
+hasLegacyLenientThis
 (
 )
 :

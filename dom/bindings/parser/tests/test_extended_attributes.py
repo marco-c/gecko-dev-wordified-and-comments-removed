@@ -134,11 +134,11 @@ parse
 "
         
 interface
-TestLenientThis
+TestLegacyLenientThis
 {
           
 [
-LenientThis
+LegacyLenientThis
 ]
 attribute
 byte
@@ -166,6 +166,7 @@ harness
 .
 ok
 (
+        
 results
 [
 0
@@ -176,7 +177,7 @@ members
 0
 ]
 .
-hasLenientThis
+hasLegacyLenientThis
 (
 )
 "
@@ -186,6 +187,7 @@ a
 lenient
 this
 "
+    
 )
     
 parser
@@ -213,11 +215,11 @@ parse
 "
             
 interface
-TestLenientThis2
+TestLegacyLenientThis2
 {
               
 [
-LenientThis
+LegacyLenientThis
 =
 something
 ]
@@ -257,7 +259,7 @@ ok
 threw
 "
 [
-LenientThis
+LegacyLenientThis
 ]
 must
 take

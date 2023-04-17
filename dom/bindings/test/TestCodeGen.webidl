@@ -8057,7 +8057,7 @@ conditionalOnSecureContext8
 /
 Miscellania
 [
-LenientThis
+LegacyLenientThis
 ]
 attribute
 long
@@ -8120,7 +8120,7 @@ putForwardsAttr
 PutForwards
 =
 writableByte
-LenientThis
+LegacyLenientThis
 ]
 readonly
 attribute

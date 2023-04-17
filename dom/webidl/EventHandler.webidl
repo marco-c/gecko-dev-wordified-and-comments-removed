@@ -424,14 +424,14 @@ EventHandler
 onmousedown
 ;
 [
-LenientThis
+LegacyLenientThis
 ]
 attribute
 EventHandler
 onmouseenter
 ;
 [
-LenientThis
+LegacyLenientThis
 ]
 attribute
 EventHandler
