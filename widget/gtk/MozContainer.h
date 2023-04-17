@@ -202,5 +202,17 @@ MozContainer
 container
 )
 ;
+class
+nsWindow
+;
+nsWindow
+*
+moz_container_get_nsWindow
+(
+MozContainer
+*
+container
+)
+;
 #
 endif
