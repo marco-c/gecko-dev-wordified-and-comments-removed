@@ -446,12 +446,12 @@ const
 0
 ;
 virtual
-bool
+Maybe
+<
+Ssrc
+>
 GetRemoteSSRC
 (
-Ssrc
-*
-ssrc
 )
 const
 =
