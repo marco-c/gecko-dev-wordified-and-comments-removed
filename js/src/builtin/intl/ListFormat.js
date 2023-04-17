@@ -323,8 +323,7 @@ options
 var
 opt
 =
-new
-Record
+new_Record
 (
 )
 ;

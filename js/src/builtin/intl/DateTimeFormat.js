@@ -867,8 +867,7 @@ date
 var
 localeOpt
 =
-new
-Record
+new_Record
 (
 )
 ;
@@ -1137,8 +1136,7 @@ tz
 var
 formatOpt
 =
-new
-Record
+new_Record
 (
 )
 ;

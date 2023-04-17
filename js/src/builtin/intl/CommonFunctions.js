@@ -939,8 +939,7 @@ requestedLocales
 var
 result
 =
-new
-Record
+new_Record
 (
 )
 ;
@@ -1374,8 +1373,7 @@ extension
 var
 result
 =
-new
-Record
+new_Record
 (
 )
 ;

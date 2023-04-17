@@ -4,8 +4,7 @@ JS_HAS_INTL_API
 var
 dateTimeFormatCache
 =
-new
-Record
+new_Record
 (
 )
 ;
@@ -90,8 +89,7 @@ dateTimeFormatCache
 .
 formatters
 =
-new
-Record
+new_Record
 (
 )
 ;

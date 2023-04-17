@@ -40,8 +40,7 @@ localeData
 const
 localeOpt
 =
-new
-Record
+new_Record
 (
 )
 ;
@@ -159,8 +158,7 @@ localeData
 const
 localeOpt
 =
-new
-Record
+new_Record
 (
 )
 ;
@@ -438,8 +436,7 @@ localeData
 const
 localeOpt
 =
-new
-Record
+new_Record
 (
 )
 ;

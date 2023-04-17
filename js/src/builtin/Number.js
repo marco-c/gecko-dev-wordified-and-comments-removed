@@ -4,8 +4,7 @@ JS_HAS_INTL_API
 var
 numberFormatCache
 =
-new
-Record
+new_Record
 (
 )
 ;

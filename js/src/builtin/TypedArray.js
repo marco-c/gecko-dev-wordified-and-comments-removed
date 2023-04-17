@@ -1120,8 +1120,7 @@ void
 var
 kept
 =
-new
-List
+new_List
 (
 )
 ;

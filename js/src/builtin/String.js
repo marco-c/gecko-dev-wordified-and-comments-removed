@@ -3086,8 +3086,7 @@ JS_HAS_INTL_API
 var
 collatorCache
 =
-new
-Record
+new_Record
 (
 )
 ;

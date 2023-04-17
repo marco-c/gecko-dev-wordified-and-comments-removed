@@ -415,8 +415,7 @@ u
 var
 opt
 =
-new
-Record
+new_Record
 (
 )
 ;
