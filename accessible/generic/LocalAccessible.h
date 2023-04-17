@@ -559,6 +559,7 @@ nsString
 &
 aDescription
 )
+const
 ;
 virtual
 void
@@ -2156,7 +2157,6 @@ aName
 )
 const
 ;
-virtual
 void
 NativeDescription
 (
@@ -2164,6 +2164,7 @@ nsString
 &
 aDescription
 )
+const
 ;
 virtual
 already_AddRefed

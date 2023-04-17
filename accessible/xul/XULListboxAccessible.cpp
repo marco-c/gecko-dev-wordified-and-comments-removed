@@ -2317,6 +2317,7 @@ nsString
 &
 aDesc
 )
+const
 {
 AccessibleWrap
 :

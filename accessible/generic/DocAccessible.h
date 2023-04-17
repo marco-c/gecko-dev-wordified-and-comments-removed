@@ -243,6 +243,7 @@ nsString
 &
 aDescription
 )
+const
 override
 ;
 virtual

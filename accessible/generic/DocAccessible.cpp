@@ -1076,6 +1076,7 @@ nsString
 &
 aDescription
 )
+const
 {
 if
 (

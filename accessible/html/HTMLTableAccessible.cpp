@@ -4394,6 +4394,7 @@ nsString
 &
 aDescription
 )
+const
 {
 aDescription
 .

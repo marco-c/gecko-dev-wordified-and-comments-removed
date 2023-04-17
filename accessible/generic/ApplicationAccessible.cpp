@@ -330,6 +330,7 @@ nsString
 &
 aDescription
 )
+const
 {
 aDescription
 .

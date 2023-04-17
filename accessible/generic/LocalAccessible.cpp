@@ -1008,6 +1008,7 @@ nsString
 &
 aDescription
 )
+const
 {
 if
 (
@@ -12668,6 +12669,7 @@ nsString
 &
 aDescription
 )
+const
 {
 bool
 isXUL
