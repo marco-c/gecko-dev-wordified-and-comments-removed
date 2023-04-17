@@ -913,7 +913,7 @@ element
 element
 -
 >
-GetParentElement
+GetFlattenedTreeParentElement
 (
 )
 ;
