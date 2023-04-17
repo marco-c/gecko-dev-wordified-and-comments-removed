@@ -5025,6 +5025,10 @@ if
 !
 tile_size
 .
+to_i32
+(
+)
+.
 is_empty
 (
 )
@@ -5173,6 +5177,18 @@ info
 tile_size
 )
 ;
+if
+!
+tile_size
+.
+to_i32
+(
+)
+.
+is_empty
+(
+)
+{
 let
 prim_key_kind
 =
@@ -5236,6 +5252,7 @@ new
 prim_key_kind
 )
 ;
+}
 }
 DisplayItem
 :
