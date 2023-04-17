@@ -147,6 +147,9 @@ Reflowing
 Styling
 "
 "
+HttpChannelCompletion
+"
+"
 HttpChannelCompletion_Network
 "
 "

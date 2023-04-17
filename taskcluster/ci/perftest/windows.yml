@@ -1465,6 +1465,12 @@ perfherder
 metrics
 name
 :
+HttpChannelCompletion
+unit
+:
+ms
+name
+:
 HttpChannelCompletion_Cache
 unit
 :
