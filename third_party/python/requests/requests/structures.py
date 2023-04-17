@@ -44,19 +44,13 @@ Requests
 "
 "
 "
-from
+import
 collections
-import
-OrderedDict
-from
-.
-compat
-import
-Mapping
-MutableMapping
 class
 CaseInsensitiveDict
 (
+collections
+.
 MutableMapping
 )
 :
@@ -64,6 +58,7 @@ MutableMapping
 "
 "
 "
+    
 A
 case
 -
@@ -81,6 +76,8 @@ and
 operations
 of
     
+collections
+.
 MutableMapping
 as
 well
@@ -290,7 +287,7 @@ self
 .
 _store
 =
-OrderedDict
+dict
 (
 )
         
@@ -485,6 +482,8 @@ if
 isinstance
 (
 other
+collections
+.
 Mapping
 )
 :
