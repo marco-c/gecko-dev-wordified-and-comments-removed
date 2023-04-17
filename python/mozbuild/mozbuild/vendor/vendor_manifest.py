@@ -960,7 +960,8 @@ extractall
 vendor_dir
 )
             
-if
+has_prefix
+=
 all
 (
 map
@@ -981,6 +982,15 @@ getnames
 )
 )
 )
+            
+tar
+.
+close
+(
+)
+            
+if
+has_prefix
 :
                 
 tardir
