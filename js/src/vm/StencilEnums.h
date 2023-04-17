@@ -209,6 +209,12 @@ HasMappedArgsObj
 <
 <
 28
+IsInlinableLargeFunction
+=
+1
+<
+<
+29
 }
 ;
 enum
@@ -292,12 +298,6 @@ Uninlineable
 <
 <
 19
-IsInlinableLargeFunction
-=
-1
-<
-<
-20
 FailedBoundsCheck
 =
 1
