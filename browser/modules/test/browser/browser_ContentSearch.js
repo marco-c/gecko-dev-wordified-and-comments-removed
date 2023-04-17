@@ -2599,7 +2599,13 @@ boolean
 {
 state
 .
-isPrivateWindow
+isInPrivateBrowsingMode
+=
+isPrivateWindowValue
+;
+state
+.
+isAboutPrivateBrowsing
 =
 isPrivateWindowValue
 ;
