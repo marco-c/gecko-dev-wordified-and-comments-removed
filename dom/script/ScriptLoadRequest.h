@@ -271,12 +271,13 @@ LinkedListElement
 ScriptLoadRequest
 >
 {
-typedef
+using
+super
+=
 LinkedListElement
 <
 ScriptLoadRequest
 >
-super
 ;
 friend
 class
@@ -1372,7 +1373,9 @@ LinkedList
 ScriptLoadRequest
 >
 {
-typedef
+using
+super
+=
 mozilla
 :
 :
@@ -1380,7 +1383,6 @@ LinkedList
 <
 ScriptLoadRequest
 >
-super
 ;
 public
 :
