@@ -133,6 +133,13 @@ HWND
 window
 )
 ;
+bool
+IsWindowResponding
+(
+HWND
+window
+)
+;
 enum
 GetWindowListFlags
 {
