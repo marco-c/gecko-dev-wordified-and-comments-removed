@@ -56,6 +56,8 @@ jsm
 const
 {
 ExperimentAPI
+_ExperimentFeature
+:
 ExperimentFeature
 }
 =

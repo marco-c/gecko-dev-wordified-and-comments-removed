@@ -11,10 +11,10 @@ EXPORTED_SYMBOLS
 ExperimentAPI
 "
 "
-ExperimentFeature
-"
-"
 NimbusFeatures
+"
+"
+_ExperimentFeature
 "
 ]
 ;
@@ -1028,7 +1028,7 @@ feature
 =
 >
 new
-ExperimentFeature
+_ExperimentFeature
 (
 feature
 )
@@ -1036,7 +1036,7 @@ feature
 ;
 }
 class
-ExperimentFeature
+_ExperimentFeature
 {
 constructor
 (

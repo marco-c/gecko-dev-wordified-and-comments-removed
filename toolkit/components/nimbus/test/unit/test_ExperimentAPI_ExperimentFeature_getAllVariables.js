@@ -6,6 +6,8 @@ strict
 const
 {
 ExperimentAPI
+_ExperimentFeature
+:
 ExperimentFeature
 }
 =

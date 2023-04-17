@@ -7,6 +7,8 @@ const
 {
 ExperimentAPI
 NimbusFeatures
+_ExperimentFeature
+:
 ExperimentFeature
 }
 =
