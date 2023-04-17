@@ -240,6 +240,15 @@ const
 0
 ;
 virtual
+bool
+HasAllNeededScrollbars
+(
+)
+const
+=
+0
+;
+virtual
 mozilla
 :
 :
