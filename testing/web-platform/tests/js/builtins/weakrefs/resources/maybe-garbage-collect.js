@@ -61,6 +61,8 @@ collect
 )
 ;
 }
+else
+{
 console
 .
 warn
@@ -97,6 +99,7 @@ suboptimal
 '
 )
 ;
+}
 }
 async
 function
