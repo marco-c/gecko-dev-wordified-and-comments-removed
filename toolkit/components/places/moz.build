@@ -280,11 +280,6 @@ TaggingService
 .
 jsm
 "
-"
-UnifiedComplete
-.
-jsm
-"
 ]
 XPCOM_MANIFESTS
 +

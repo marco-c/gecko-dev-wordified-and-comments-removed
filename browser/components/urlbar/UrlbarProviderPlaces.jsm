@@ -3031,7 +3031,6 @@ mozIPlacesAutoComplete
 .
 MATCH_ANYWHERE
 ;
-let
 queries
 =
 [
