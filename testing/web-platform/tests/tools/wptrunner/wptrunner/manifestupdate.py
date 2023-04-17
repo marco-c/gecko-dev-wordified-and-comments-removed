@@ -3659,6 +3659,9 @@ ConditionError
 expr
 )
                     
+else
+:
+                        
 expr
 =
 make_expr
@@ -5318,7 +5321,7 @@ node
 .
 append
 (
-make_node
+make_value_node
 (
 item
 )
