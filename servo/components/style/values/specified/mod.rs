@@ -634,6 +634,7 @@ image
 {
 Image
 MozImageRect
+ImageRendering
 }
 ;
 pub
