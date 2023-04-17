@@ -196,5 +196,10 @@ define
 .
 patch
 "
+"
+revert_D79714
+.
+patch
+"
 ]
 }
