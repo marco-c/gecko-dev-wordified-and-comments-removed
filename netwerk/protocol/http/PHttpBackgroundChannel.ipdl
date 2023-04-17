@@ -67,6 +67,8 @@ nsHttpHeaderArray
 requestHeaders
 HttpChannelOnStartRequestArgs
 args
+HttpChannelAltDataStream
+altData
 )
 ;
 async
