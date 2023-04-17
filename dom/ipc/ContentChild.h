@@ -2003,6 +2003,11 @@ nsCString
 aRemoteType
 )
 ;
+void
+PreallocInit
+(
+)
+;
 const
 nsACString
 &
