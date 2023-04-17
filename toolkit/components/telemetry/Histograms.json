@@ -39796,7 +39796,7 @@ msec
 "
 }
 "
-DNS_TRR_HTTP_VERSION
+DNS_TRR_HTTP_VERSION2
 "
 :
 {
@@ -39832,6 +39832,11 @@ kind
 "
 categorical
 "
+"
+keyed
+"
+:
+true
 "
 labels
 "
@@ -39880,6 +39885,7 @@ bug_numbers
 :
 [
 1460314
+1700119
 ]
 "
 description
