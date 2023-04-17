@@ -801,6 +801,7 @@ events
 methods
 .
 [
+UseCounter
 Throws
 ]
 void
@@ -811,6 +812,7 @@ pointerId
 )
 ;
 [
+UseCounter
 Throws
 ]
 void
