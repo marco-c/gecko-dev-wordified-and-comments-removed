@@ -313,6 +313,13 @@ jsm
 "
 tests
 /
+BackgroundTask_timeout
+.
+jsm
+"
+"
+tests
+/
 BackgroundTask_unique_profile
 .
 jsm
