@@ -1978,6 +1978,13 @@ UnsuspendAsyncCATransactions
 (
 )
 ;
+void
+UpdateFullscreen
+(
+bool
+aFullscreen
+)
+;
 protected
 :
 virtual

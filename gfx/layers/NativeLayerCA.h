@@ -295,6 +295,13 @@ aIsOpaque
 )
 override
 ;
+void
+SetWindowIsFullscreen
+(
+bool
+aFullscreen
+)
+;
 protected
 :
 explicit
@@ -412,6 +419,11 @@ false
 ;
 bool
 mCommitPending
+=
+false
+;
+bool
+mWindowIsFullscreen
 =
 false
 ;
