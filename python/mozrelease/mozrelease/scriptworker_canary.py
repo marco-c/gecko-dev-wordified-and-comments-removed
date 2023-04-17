@@ -31,7 +31,7 @@ contextlib
 import
 contextmanager
 from
-pathlib2
+pathlib
 import
 Path
 from
@@ -644,15 +644,12 @@ subprocess
 .
 check_call
 (
-                
 base_command
 +
 [
 task
 ]
-                
 env
 =
 env
-            
 )

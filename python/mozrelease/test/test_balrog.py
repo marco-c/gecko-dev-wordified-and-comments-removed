@@ -31,7 +31,7 @@ load
 as
 yaml_load
 from
-pathlib2
+pathlib
 import
 Path
 from
