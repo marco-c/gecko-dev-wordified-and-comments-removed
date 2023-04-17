@@ -17,11 +17,6 @@ TestSecureContext
 .
 cpp
 "
-"
-TestSmartCrashTrimmer
-.
-cpp
-"
 ]
 if
 CONFIG
