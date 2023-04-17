@@ -208,6 +208,11 @@ PopLastElement
 )
 -
 >
+Get
+(
+)
+-
+>
 mHash
 sizeof
 (
@@ -381,7 +386,7 @@ CacheIndexIterator
 :
 AddRecord
 (
-CacheIndexRecord
+CacheIndexRecordWrapper
 *
 aRecord
 )
@@ -426,7 +431,7 @@ CacheIndexIterator
 :
 RemoveRecord
 (
-CacheIndexRecord
+CacheIndexRecordWrapper
 *
 aRecord
 )
@@ -472,10 +477,10 @@ CacheIndexIterator
 :
 ReplaceRecord
 (
-CacheIndexRecord
+CacheIndexRecordWrapper
 *
 aOldRecord
-CacheIndexRecord
+CacheIndexRecordWrapper
 *
 aNewRecord
 )

@@ -54,7 +54,7 @@ virtual
 void
 AddRecord
 (
-CacheIndexRecord
+CacheIndexRecordWrapper
 *
 aRecord
 )
@@ -67,8 +67,10 @@ AddRecords
 const
 nsTArray
 <
-CacheIndexRecord
-*
+RefPtr
+<
+CacheIndexRecordWrapper
+>
 >
 &
 aRecords
