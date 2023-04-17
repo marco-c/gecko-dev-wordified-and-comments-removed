@@ -239,8 +239,6 @@ windows10
 32
 -
 mingwclang
--
-qr
 /
 opt
 :
@@ -250,8 +248,6 @@ windows10
 32
 -
 mingwclang
--
-qr
 /
 debug
 :
@@ -261,8 +257,6 @@ windows10
 64
 -
 mingwclang
--
-qr
 /
 opt
 :
@@ -272,8 +266,6 @@ windows10
 64
 -
 mingwclang
--
-qr
 /
 debug
 :

@@ -2590,12 +2590,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-webrender
-)
 =
 =
 640272
@@ -2606,9 +2600,6 @@ html
 ref
 .
 html
-#
-Bug
-1700265
 load
 645193
 .
