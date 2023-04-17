@@ -107,6 +107,9 @@ locales
 unified
 -
 builds
+cross
+-
+compile
 rust
 sparse
 Support
