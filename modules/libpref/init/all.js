@@ -35981,11 +35981,6 @@ chrome
 .
 *
 |
-wyciwyg
-:
-.
-*
-|
 file
 :
 .

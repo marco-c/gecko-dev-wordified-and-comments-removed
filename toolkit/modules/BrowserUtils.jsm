@@ -478,14 +478,6 @@ scheme
 |
 |
 "
-wyciwyg
-"
-=
-=
-scheme
-|
-|
-"
 blob
 "
 =
