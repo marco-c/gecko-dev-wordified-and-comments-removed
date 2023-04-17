@@ -52,6 +52,11 @@ toolbox
 this
 .
 toolbox
+commands
+:
+this
+.
+commands
 panel
 :
 this
