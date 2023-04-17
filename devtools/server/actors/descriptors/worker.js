@@ -286,14 +286,6 @@ TYPE_SERVICE
 if
 (
 !
-swm
-.
-isParentInterceptEnabled
-(
-)
-|
-|
-!
 DevToolsServer
 .
 isInChildProcess

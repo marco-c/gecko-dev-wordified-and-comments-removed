@@ -1300,11 +1300,6 @@ nsIServiceWorkerManagerListener
 aListener
 )
 ;
-bool
-isParentInterceptEnabled
-(
-)
-;
 }
 ;
 %
