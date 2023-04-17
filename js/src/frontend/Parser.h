@@ -1456,7 +1456,7 @@ if
 (
 handler_
 .
-canSkipLazyClosedOverBindings
+reuseClosedOverBindings
 (
 )
 )

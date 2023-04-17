@@ -5260,7 +5260,7 @@ if
 (
 handler_
 .
-canSkipLazyClosedOverBindings
+reuseClosedOverBindings
 (
 )
 )
@@ -13174,7 +13174,7 @@ canSkipLazyClosedOverBindings
 =
 handler_
 .
-canSkipLazyClosedOverBindings
+reuseClosedOverBindings
 (
 )
 ;
@@ -15721,7 +15721,7 @@ if
 (
 handler_
 .
-canSkipLazyInnerFunctions
+reuseLazyInnerFunctions
 (
 )
 )
@@ -38723,7 +38723,7 @@ if
 (
 handler_
 .
-canSkipLazyInnerFunctions
+reuseLazyInnerFunctions
 (
 )
 )
@@ -39115,7 +39115,7 @@ canSkipLazyClosedOverBindings
 =
 handler_
 .
-canSkipLazyClosedOverBindings
+reuseClosedOverBindings
 (
 )
 ;
@@ -39740,7 +39740,7 @@ canSkipLazyClosedOverBindings
 =
 handler_
 .
-canSkipLazyClosedOverBindings
+reuseClosedOverBindings
 (
 )
 ;
@@ -41215,7 +41215,7 @@ canSkipLazyClosedOverBindings
 =
 handler_
 .
-canSkipLazyClosedOverBindings
+reuseClosedOverBindings
 (
 )
 ;
@@ -51275,7 +51275,7 @@ if
 !
 handler_
 .
-canSkipRegexpSyntaxParse
+reuseRegexpSyntaxParse
 (
 )
 )
