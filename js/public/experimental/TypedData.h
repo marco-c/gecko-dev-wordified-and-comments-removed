@@ -1124,6 +1124,15 @@ nullptr
 }
 static
 ArrayBuffer
+unwrap
+(
+JSObject
+*
+maybeWrapped
+)
+;
+static
+ArrayBuffer
 create
 (
 JSContext
