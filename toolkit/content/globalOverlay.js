@@ -139,12 +139,6 @@ false
 if
 (
 aClose
-&
-&
-windowCount
-=
-=
-1
 )
 {
 window
