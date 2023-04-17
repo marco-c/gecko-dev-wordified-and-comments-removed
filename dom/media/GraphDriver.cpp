@@ -2834,7 +2834,9 @@ _ns
 )
 mAudioThreadId
 (
-0
+ProfilerThreadId
+{
+}
 )
 mAudioThreadIdInCb
 (
@@ -4747,7 +4749,7 @@ CheckThreadIdChanged
 (
 )
 {
-auto
+ProfilerThreadId
 id
 =
 profiler_current_thread_id

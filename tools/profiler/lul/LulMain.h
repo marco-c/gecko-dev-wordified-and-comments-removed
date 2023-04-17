@@ -29,6 +29,15 @@ MemoryReporting
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ProfilerUtils
+.
+h
+"
 namespace
 lul
 {
@@ -900,7 +909,7 @@ mStatsPrevious
 bool
 mAdminMode
 ;
-int
+ProfilerThreadId
 mAdminThreadId
 ;
 PriMap

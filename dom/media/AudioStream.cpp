@@ -681,7 +681,9 @@ false
 )
 mAudioThreadId
 (
-0
+ProfilerThreadId
+{
+}
 )
 mSandboxed
 (
@@ -3010,7 +3012,7 @@ CheckThreadIdChanged
 (
 )
 {
-auto
+ProfilerThreadId
 id
 =
 profiler_current_thread_id

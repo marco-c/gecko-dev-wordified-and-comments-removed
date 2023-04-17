@@ -217,7 +217,7 @@ bool
 aStackWalk
 )
 ;
-int
+ProfilerThreadId
 GetThreadId
 (
 )
@@ -307,7 +307,7 @@ HangEntry
 aFrame
 )
 ;
-int
+ProfilerThreadId
 mThreadId
 ;
 }

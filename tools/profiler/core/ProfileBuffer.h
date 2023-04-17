@@ -114,7 +114,7 @@ aEntry
 uint64_t
 AddThreadIdEntry
 (
-int
+ProfilerThreadId
 aThreadId
 )
 ;
@@ -180,7 +180,7 @@ AddJITInfoForRange
 (
 uint64_t
 aRangeStart
-int
+ProfilerThreadId
 aThreadId
 JSContext
 *
@@ -191,13 +191,13 @@ aJITFrameInfo
 )
 const
 ;
-int
+ProfilerThreadId
 StreamSamplesToJSON
 (
 SpliceableJSONWriter
 &
 aWriter
-int
+ProfilerThreadId
 aThreadId
 double
 aSinceTime
@@ -213,7 +213,7 @@ StreamMarkersToJSON
 SpliceableJSONWriter
 &
 aWriter
-int
+ProfilerThreadId
 aThreadId
 const
 mozilla
@@ -280,7 +280,7 @@ const
 bool
 DuplicateLastSample
 (
-int
+ProfilerThreadId
 aThreadId
 double
 aSampleTimeMs
@@ -517,7 +517,7 @@ mozilla
 ProfileChunkedBuffer
 &
 aProfileChunkedBuffer
-int
+ProfilerThreadId
 aThreadId
 )
 ;

@@ -363,14 +363,14 @@ mUnregisterTime
 ;
 }
 ;
-int
+ProfilerThreadId
 StreamSamplesAndMarkers
 (
 const
 char
 *
 aName
-int
+ProfilerThreadId
 aThreadId
 const
 ProfileBuffer

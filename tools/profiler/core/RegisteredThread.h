@@ -75,7 +75,7 @@ public
 explicit
 RacyRegisteredThread
 (
-int
+ProfilerThreadId
 aThreadId
 )
 ;
@@ -206,7 +206,7 @@ mSleep
 AWAKE
 ;
 }
-int
+ProfilerThreadId
 ThreadId
 (
 )
@@ -282,7 +282,7 @@ ProfilingStackOwner
 mProfilingStackOwner
 ;
 const
-int
+ProfilerThreadId
 mThreadId
 ;
 static

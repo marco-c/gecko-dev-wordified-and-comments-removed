@@ -2262,7 +2262,7 @@ std
 :
 atomic
 <
-int
+ProfilerThreadId
 >
 mAudioThreadId
 ;

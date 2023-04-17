@@ -195,7 +195,7 @@ mTimestamp
 uint32_t
 mDurationUs
 ;
-int
+ProfilerThreadId
 mTID
 ;
 char

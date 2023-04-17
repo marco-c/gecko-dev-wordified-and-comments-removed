@@ -1174,7 +1174,7 @@ aFrame
 void
 profiler_suspend_and_sample_thread
 (
-int
+ProfilerThreadId
 aThreadId
 uint32_t
 aFeatures

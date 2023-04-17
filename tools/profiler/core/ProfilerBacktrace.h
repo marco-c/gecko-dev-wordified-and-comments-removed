@@ -172,7 +172,7 @@ ULEB128Size
 )
 ;
 }
-int
+ProfilerThreadId
 StreamJSON
 (
 mozilla

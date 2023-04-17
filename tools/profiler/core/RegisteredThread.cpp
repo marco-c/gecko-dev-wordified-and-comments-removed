@@ -418,7 +418,7 @@ RacyRegisteredThread
 :
 RacyRegisteredThread
 (
-int
+ProfilerThreadId
 aThreadId
 )
 :

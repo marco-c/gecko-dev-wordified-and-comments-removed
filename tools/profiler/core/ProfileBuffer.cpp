@@ -200,7 +200,7 @@ AddThreadIdEntry
 ProfileChunkedBuffer
 &
 aProfileChunkedBuffer
-int
+ProfilerThreadId
 aThreadId
 )
 {
@@ -214,6 +214,10 @@ ProfileBufferEntry
 ThreadId
 (
 aThreadId
+.
+ToNumber
+(
+)
 )
 )
 ;
@@ -224,7 +228,7 @@ ProfileBuffer
 :
 AddThreadIdEntry
 (
-int
+ProfilerThreadId
 aThreadId
 )
 {

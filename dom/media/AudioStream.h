@@ -68,6 +68,15 @@ include
 "
 mozilla
 /
+ProfilerUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -1070,7 +1079,7 @@ std
 :
 atomic
 <
-int
+ProfilerThreadId
 >
 mAudioThreadId
 ;
