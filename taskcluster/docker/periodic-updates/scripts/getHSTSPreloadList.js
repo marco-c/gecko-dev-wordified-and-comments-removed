@@ -156,15 +156,6 @@ inc
 "
 ;
 const
-ERROR_OUTPUT
-=
-"
-nsSTSPreloadList
-.
-errors
-"
-;
-const
 MINIMUM_REQUIRED_MAX_AGE
 =
 60
@@ -1757,7 +1748,7 @@ i
 ;
 i
 <
-250
+MAX_CONCURRENT_REQUESTS
 &
 &
 inHosts
