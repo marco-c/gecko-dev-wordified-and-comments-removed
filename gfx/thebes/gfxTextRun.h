@@ -4783,7 +4783,7 @@ mozilla
 :
 :
 StyleGenericFontFamily
-mFirstGeneric
+mFallbackGeneric
 =
 mozilla
 :
