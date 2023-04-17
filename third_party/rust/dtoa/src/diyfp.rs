@@ -319,6 +319,13 @@ e
 }
 #
 [
+doc
+(
+hidden
+)
+]
+#
+[
 macro_export
 ]
 macro_rules
