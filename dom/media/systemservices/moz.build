@@ -109,6 +109,14 @@ libwebrtc
 /
 webrtc
 "
+"
+/
+tools
+/
+profiler
+/
+public
+"
 ]
 if
 CONFIG
