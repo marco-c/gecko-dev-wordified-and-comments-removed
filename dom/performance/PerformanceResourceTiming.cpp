@@ -553,6 +553,8 @@ nsIPrincipal
 >
 &
 aCaller
+bool
+aEnsureSameOriginAndIgnoreTAO
 )
 const
 {
@@ -563,6 +565,7 @@ mTimingData
 >
 ShouldReportCrossOriginRedirect
 (
+aEnsureSameOriginAndIgnoreTAO
 )
 )
 {

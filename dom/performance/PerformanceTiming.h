@@ -517,6 +517,8 @@ mAllRedirectsSameOrigin
 bool
 ShouldReportCrossOriginRedirect
 (
+bool
+aEnsureSameOriginAndIgnoreTAO
 )
 const
 ;
@@ -650,7 +652,7 @@ mAllRedirectsSameOrigin
 false
 ;
 bool
-mReportCrossOriginRedirect
+mAllRedirectsPassTAO
 =
 false
 ;
@@ -1912,7 +1914,7 @@ aMsg
 aActor
 aParam
 .
-mReportCrossOriginRedirect
+mAllRedirectsPassTAO
 )
 ;
 WriteIPDLParam
@@ -2477,7 +2479,7 @@ aActor
 aResult
 -
 >
-mReportCrossOriginRedirect
+mAllRedirectsPassTAO
 )
 )
 {
