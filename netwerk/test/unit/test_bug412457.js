@@ -156,7 +156,7 @@ finalize
 ;
 }
 /
-NS_ERROR_UNEXPECTED
+NS_ERROR_MALFORMED_URI
 /
 "
 illegal

@@ -802,7 +802,7 @@ nsresult
 NormalizeIDN
 (
 const
-nsACString
+nsCString
 &
 host
 nsCString
