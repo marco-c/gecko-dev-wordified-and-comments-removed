@@ -114,12 +114,6 @@ aNewVal
 =
 >
 {
-BookmarkingUI
-.
-maybeShowOtherBookmarksFolder
-(
-)
-;
 let
 doc
 =
@@ -138,6 +132,12 @@ doc
 return
 ;
 }
+BookmarkingUI
+.
+maybeShowOtherBookmarksFolder
+(
+)
+;
 doc
 .
 getElementById
