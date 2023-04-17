@@ -2275,15 +2275,6 @@ apz
 /
 src
 /
-OvershootDetector
-.
-cpp
-"
-"
-apz
-/
-src
-/
 PotentialCheckerboardDurationTracker
 .
 cpp
