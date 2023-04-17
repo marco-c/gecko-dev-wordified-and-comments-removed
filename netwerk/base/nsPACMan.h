@@ -625,10 +625,7 @@ aSync
 false
 )
 ;
-UniquePtr
-<
-ProxyAutoConfigBase
->
+ProxyAutoConfig
 mPAC
 ;
 nsCOMPtr
