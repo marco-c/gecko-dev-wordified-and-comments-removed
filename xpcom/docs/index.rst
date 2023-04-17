@@ -53,3 +53,9 @@ maxdepth
 :
 1
 logging
+stringguide
+refptr
+huntingleaks
+collections
+xpidl
+dmd
