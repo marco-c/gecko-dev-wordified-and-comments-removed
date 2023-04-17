@@ -92,7 +92,7 @@ actions
 [
 ]
 (
-http
+https
 :
 /
 /
@@ -129,13 +129,14 @@ the
 UNLICENSE
 ]
 (
-http
+https
 :
 /
 /
 unlicense
 .
 org
+/
 )
 .
 #
