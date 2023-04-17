@@ -396,7 +396,7 @@ false
 SET_DEFAULT
 (
 disablePruning
-true
+false
 )
 ;
 SET_DEFAULT
