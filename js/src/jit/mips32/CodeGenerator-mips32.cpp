@@ -1526,7 +1526,7 @@ newGCBigInt
 (
 output
 divisor
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 fail
@@ -1598,7 +1598,7 @@ newGCBigInt
 (
 output
 divisor
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 fail

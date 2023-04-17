@@ -1689,7 +1689,7 @@ newGCBigInt
 (
 bigInt
 temp2
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 &
@@ -2070,7 +2070,7 @@ newGCBigInt
 (
 out
 temp
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 &
@@ -2506,7 +2506,7 @@ newGCBigInt
 (
 out
 temp
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 &
@@ -8362,7 +8362,7 @@ newGCBigInt
 (
 output
 divisor
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 fail
@@ -8440,7 +8440,7 @@ newGCBigInt
 (
 output
 divisor
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 fail

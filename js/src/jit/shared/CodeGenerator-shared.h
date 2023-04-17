@@ -437,8 +437,11 @@ stringsCanBeInNursery
 )
 ;
 }
-bool
-bigIntsCanBeInNursery
+gc
+:
+:
+InitialHeap
+initialBigIntHeap
 (
 )
 const
@@ -447,7 +450,7 @@ return
 gen
 -
 >
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ;
