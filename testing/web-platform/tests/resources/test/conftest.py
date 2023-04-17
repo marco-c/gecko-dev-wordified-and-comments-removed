@@ -502,6 +502,16 @@ end
     
 config
 .
+ssl_context
+=
+ssl
+.
+_create_unverified_context
+(
+)
+    
+config
+.
 server
 =
 WPTServer
@@ -515,16 +525,9 @@ server
 .
 start
 (
-)
-    
 config
 .
 ssl_context
-=
-ssl
-.
-_create_unverified_context
-(
 )
     
 config
