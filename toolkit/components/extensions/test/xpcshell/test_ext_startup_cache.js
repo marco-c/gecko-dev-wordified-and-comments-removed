@@ -925,7 +925,7 @@ name
 info
 (
 "
-uninstall
+Disable
 locale
 '
 fr
@@ -950,7 +950,7 @@ langpack
 await
 addon
 .
-uninstall
+disable
 (
 )
 ;
