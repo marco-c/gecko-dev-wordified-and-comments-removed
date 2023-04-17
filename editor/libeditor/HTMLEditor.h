@@ -468,13 +468,12 @@ aFlags
 )
 override
 ;
-virtual
 bool
 IsEmpty
 (
 )
 const
-override
+final
 ;
 virtual
 bool

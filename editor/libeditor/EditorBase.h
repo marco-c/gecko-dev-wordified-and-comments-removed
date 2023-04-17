@@ -1802,6 +1802,15 @@ return
 mIsInEditSubAction
 ;
 }
+virtual
+bool
+IsEmpty
+(
+)
+const
+=
+0
+;
 void
 SuppressDispatchingInputEvent
 (
