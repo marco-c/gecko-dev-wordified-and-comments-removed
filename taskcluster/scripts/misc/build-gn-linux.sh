@@ -26,7 +26,7 @@ HOME
 workspace
 COMPRESS_EXT
 =
-zst
+xz
 export
 CC
 =

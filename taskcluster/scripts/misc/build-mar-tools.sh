@@ -22,7 +22,7 @@ and
 mbsdiff
 COMPRESS_EXT
 =
-zst
+xz
 cd
 GECKO_PATH
 export

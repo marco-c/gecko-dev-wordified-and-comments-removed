@@ -108,7 +108,7 @@ gcc
 .
 tar
 .
-zst
+xz
 fetches
 :
 toolchain

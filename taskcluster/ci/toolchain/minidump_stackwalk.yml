@@ -169,7 +169,7 @@ minidump_stackwalk
 .
 tar
 .
-zst
+xz
 run
 -
 on
@@ -428,7 +428,7 @@ injector
 .
 tar
 .
-zst
+xz
 treeherder
 :
 symbol

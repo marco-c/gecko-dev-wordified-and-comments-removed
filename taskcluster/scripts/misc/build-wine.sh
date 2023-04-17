@@ -160,7 +160,7 @@ wine
 .
 tar
 .
-zst
+xz
 wine
 mkdir
 -
