@@ -23,7 +23,7 @@ mozilla
 /
 dom
 /
-HTMLButtonElementBinding
+FormData
 .
 h
 "
@@ -34,7 +34,7 @@ mozilla
 /
 dom
 /
-HTMLFormSubmission
+HTMLButtonElementBinding
 .
 h
 "
@@ -1404,14 +1404,14 @@ HTMLButtonElement
 :
 SubmitNamesValues
 (
-HTMLFormSubmission
+FormData
 *
-aFormSubmission
+aFormData
 )
 {
 if
 (
-aFormSubmission
+aFormData
 -
 >
 GetSubmitterElement
@@ -1475,7 +1475,7 @@ value
 )
 ;
 return
-aFormSubmission
+aFormData
 -
 >
 AddNameValuePair

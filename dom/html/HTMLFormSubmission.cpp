@@ -3204,9 +3204,6 @@ Encoding
 *
 >
 aEncoding
-Element
-*
-aSubmitter
 )
 :
 mActionURL
@@ -3220,10 +3217,6 @@ aTarget
 mEncoding
 (
 aEncoding
-)
-mSubmitter
-(
-aSubmitter
 )
 mInitiatedFromUserInput
 (
@@ -3270,7 +3263,6 @@ HTMLFormSubmission
 aActionURL
 aTarget
 aEncoding
-aSubmitter
 )
 {
 if
@@ -4009,7 +4001,6 @@ result
 actionURL
 target
 aEncoding
-aSubmitter
 dialog
 )
 ;

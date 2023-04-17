@@ -133,7 +133,7 @@ namespace
 dom
 {
 class
-HTMLFormSubmission
+FormData
 ;
 class
 HTMLSelectElement
@@ -939,9 +939,9 @@ override
 NS_IMETHOD
 SubmitNamesValues
 (
-HTMLFormSubmission
+FormData
 *
-aFormSubmission
+aFormData
 )
 override
 ;

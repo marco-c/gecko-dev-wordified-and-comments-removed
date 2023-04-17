@@ -287,6 +287,9 @@ class
 FileSystemEntry
 ;
 class
+FormData
+;
+class
 GetFilesHelper
 ;
 class
@@ -595,9 +598,9 @@ override
 NS_IMETHOD
 SubmitNamesValues
 (
-HTMLFormSubmission
+FormData
 *
-aFormSubmission
+aFormData
 )
 override
 ;
