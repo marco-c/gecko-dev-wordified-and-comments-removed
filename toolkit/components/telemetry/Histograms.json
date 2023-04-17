@@ -120672,7 +120672,7 @@ bug_numbers
 ]
 }
 "
-SERVICE_WORKER_LAUNCH_TIME
+SERVICE_WORKER_LAUNCH_TIME_2
 "
 :
 {
@@ -120713,6 +120713,7 @@ bug_numbers
 :
 [
 1328398
+1693074
 ]
 "
 kind
@@ -120725,7 +120726,7 @@ exponential
 high
 "
 :
-5000
+30000
 "
 n_buckets
 "
@@ -120754,7 +120755,7 @@ mozilla
 com
 "
 "
-ttung
+echuang
 mozilla
 .
 com
@@ -120770,12 +120771,15 @@ Time
 ms
 )
 for
+spawning
 a
 service
 worker
-to
-start
-up
+in
+the
+remote
+content
+process
 .
 "
 }

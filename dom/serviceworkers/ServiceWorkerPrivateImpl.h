@@ -69,6 +69,15 @@ include
 "
 mozilla
 /
+TimeStamp
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -792,6 +801,9 @@ mOuter
 ;
 RemoteWorkerData
 mRemoteWorkerData
+;
+TimeStamp
+mServiceWorkerLaunchTimeStart
 ;
 }
 ;
