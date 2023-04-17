@@ -33,6 +33,11 @@ pagedata
 =
 [
 "
+OpenGraphPageData
+.
+jsm
+"
+"
 PageDataCollector
 .
 jsm

@@ -52,6 +52,9 @@ return
 PRODUCT
 :
 1
+GENERAL
+:
+2
 }
 ;
 }
