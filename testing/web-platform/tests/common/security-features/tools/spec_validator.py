@@ -813,6 +813,15 @@ script
 tag
 "
 "
+script
+-
+tag
+-
+dynamic
+-
+import
+"
+"
 video
 -
 tag
