@@ -1253,9 +1253,6 @@ false
 PlacesBookmarkAddition
 :
 false
-PlacesBookmarkMoved
-:
-false
 PlacesBookmarkRemoved
 :
 false
