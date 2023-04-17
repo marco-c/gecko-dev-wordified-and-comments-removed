@@ -905,15 +905,14 @@ size_t
 size
 )
 {
+return
 mArray
 .
 SetCapacity
 (
 size
+fallible
 )
-;
-return
-true
 ;
 }
 CharType
