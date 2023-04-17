@@ -6214,6 +6214,14 @@ EnsureDevicesInitialized
 (
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+IsWin32kLockedDown
+(
+)
+)
+;
 if
 (
 !
