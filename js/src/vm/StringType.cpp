@@ -4087,6 +4087,7 @@ usingBarrier
 char16_t
 >
 (
+this
 )
 ;
 }
@@ -4097,6 +4098,7 @@ usingBarrier
 Latin1Char
 >
 (
+this
 )
 ;
 }
@@ -4117,12 +4119,18 @@ JSRope
 :
 flattenInternal
 (
+JSRope
+*
+root
 )
 {
 const
 size_t
 wholeLength
 =
+root
+-
+>
 length
 (
 )
@@ -4138,7 +4146,7 @@ JSString
 *
 str
 =
-this
+root
 ;
 CharT
 *
@@ -4171,6 +4179,9 @@ StoreBuffer
 *
 bufferIfNursery
 =
+root
+-
+>
 storeBuffer
 (
 )
@@ -4179,7 +4190,7 @@ JSRope
 *
 leftMostRope
 =
-this
+root
 ;
 while
 (
@@ -4304,6 +4315,9 @@ Nursery
 &
 nursery
 =
+root
+-
+>
 runtimeFromMainThread
 (
 )
@@ -4570,7 +4584,7 @@ base
 JSLinearString
 *
 )
-this
+root
 ;
 goto
 visit_right_child
@@ -4582,7 +4596,7 @@ if
 !
 AllocChars
 (
-this
+root
 wholeLength
 &
 wholeChars
@@ -4598,6 +4612,9 @@ nullptr
 if
 (
 !
+root
+-
+>
 isTenured
 (
 )
@@ -4607,6 +4624,9 @@ Nursery
 &
 nursery
 =
+root
+-
+>
 runtimeFromMainThread
 (
 )
@@ -4803,7 +4823,7 @@ if
 str
 =
 =
-this
+root
 )
 {
 MOZ_ASSERT
@@ -4884,7 +4904,7 @@ StringContents
 }
 return
 &
-this
+root
 -
 >
 asLinear
@@ -4948,7 +4968,7 @@ base
 JSLinearString
 *
 )
-this
+root
 ;
 gc
 :
@@ -4957,6 +4977,9 @@ StoreBuffer
 *
 bufferIfNursery
 =
+root
+-
+>
 storeBuffer
 (
 )
