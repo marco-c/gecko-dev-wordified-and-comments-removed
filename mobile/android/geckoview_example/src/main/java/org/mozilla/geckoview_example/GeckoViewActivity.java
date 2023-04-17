@@ -3840,6 +3840,15 @@ CookieBehavior
 ACCEPT_NON_TRACKERS
 )
 .
+cookieBehaviorPrivateMode
+(
+ContentBlocking
+.
+CookieBehavior
+.
+ACCEPT_NON_TRACKERS
+)
+.
 enhancedTrackingProtectionLevel
 (
 ContentBlocking
