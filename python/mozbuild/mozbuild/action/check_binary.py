@@ -413,6 +413,11 @@ readelf
 "
 -
 -
+wide
+"
+"
+-
+-
 syms
 "
 if
