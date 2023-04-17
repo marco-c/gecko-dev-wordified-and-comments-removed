@@ -15794,6 +15794,15 @@ intl_SelectPluralRule
 JS_FN
 (
 "
+intl_SelectPluralRuleRange
+"
+intl_SelectPluralRuleRange
+3
+0
+)
+JS_FN
+(
+"
 intl_TryValidateAndCanonicalizeLanguageTag
 "
 intl_TryValidateAndCanonicalizeLanguageTag
