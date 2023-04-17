@@ -13940,11 +13940,6 @@ barret
 mozilla
 .
 com
-release_channel_collection
-:
-opt
--
-out
 products
 :
 -
