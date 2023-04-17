@@ -318,13 +318,6 @@ UErrorCode
 status
 )
 ;
-ICUError
-ToICUError
-(
-UErrorCode
-status
-)
-;
 ICUResult
 ToICUResult
 (
