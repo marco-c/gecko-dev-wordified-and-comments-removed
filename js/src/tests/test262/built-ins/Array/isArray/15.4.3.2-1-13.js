@@ -35,8 +35,11 @@ Array
 .
 isArray
 (
-arg
+arguments
 )
+must
+return
+false
 '
 )
 ;

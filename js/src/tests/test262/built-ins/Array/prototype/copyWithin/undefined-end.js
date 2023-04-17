@@ -1,5 +1,5 @@
 assert
-(
+.
 compareArray
 (
 [
@@ -21,7 +21,6 @@ undefined
 3
 3
 ]
-)
 '
 [
 0
@@ -36,18 +35,19 @@ copyWithin
 1
 undefined
 )
--
->
+must
+return
 [
 1
 2
+3
 3
 ]
 '
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -68,7 +68,6 @@ copyWithin
 3
 3
 ]
-)
 '
 [
 0
@@ -82,8 +81,8 @@ copyWithin
 0
 1
 )
--
->
+must
+return
 [
 1
 2

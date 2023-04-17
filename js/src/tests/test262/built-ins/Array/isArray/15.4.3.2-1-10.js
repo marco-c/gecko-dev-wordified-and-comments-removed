@@ -22,6 +22,9 @@ RegExp
 (
 )
 )
+must
+return
+false
 '
 )
 ;

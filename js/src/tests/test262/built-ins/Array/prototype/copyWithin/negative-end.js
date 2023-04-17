@@ -1,5 +1,5 @@
 assert
-(
+.
 compareArray
 (
 [
@@ -22,7 +22,6 @@ copyWithin
 2
 3
 ]
-)
 '
 [
 0
@@ -38,8 +37,8 @@ copyWithin
 -
 1
 )
--
->
+must
+return
 [
 1
 2
@@ -50,7 +49,7 @@ copyWithin
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -75,7 +74,6 @@ copyWithin
 1
 2
 ]
-)
 '
 [
 0
@@ -92,8 +90,8 @@ copyWithin
 -
 1
 )
--
->
+must
+return
 [
 0
 1
@@ -105,7 +103,7 @@ copyWithin
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -130,7 +128,6 @@ copyWithin
 3
 4
 ]
-)
 '
 [
 0
@@ -147,8 +144,8 @@ copyWithin
 -
 2
 )
--
->
+must
+return
 [
 0
 2
@@ -160,7 +157,7 @@ copyWithin
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -184,7 +181,6 @@ copyWithin
 2
 3
 ]
-)
 '
 [
 0
@@ -201,8 +197,8 @@ copyWithin
 -
 1
 )
--
->
+must
+return
 [
 2
 1
@@ -213,7 +209,7 @@ copyWithin
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -239,7 +235,6 @@ copyWithin
 3
 4
 ]
-)
 '
 [
 0
@@ -254,10 +249,11 @@ copyWithin
 2
 -
 2
+-
 1
 )
--
->
+must
+return
 [
 0
 1
@@ -269,7 +265,7 @@ copyWithin
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -294,7 +290,6 @@ copyWithin
 2
 3
 ]
-)
 '
 [
 0
@@ -312,8 +307,8 @@ copyWithin
 -
 1
 )
--
->
+must
+return
 [
 0
 2
@@ -324,7 +319,7 @@ copyWithin
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -351,7 +346,6 @@ copyWithin
 2
 3
 ]
-)
 '
 [
 0
@@ -370,8 +364,8 @@ copyWithin
 -
 1
 )
--
->
+must
+return
 [
 0
 1
@@ -383,7 +377,7 @@ copyWithin
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -410,7 +404,6 @@ copyWithin
 3
 4
 ]
-)
 '
 [
 0
@@ -429,8 +422,8 @@ copyWithin
 -
 1
 )
--
->
+must
+return
 [
 3
 1

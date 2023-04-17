@@ -22,6 +22,9 @@ SyntaxError
 (
 )
 )
+must
+return
+false
 '
 )
 ;

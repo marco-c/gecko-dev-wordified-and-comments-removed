@@ -56,7 +56,9 @@ plainDateTime
 (
 )
 throws
+a
 TypeError
+exception
 '
 )
 ;

@@ -60,7 +60,9 @@ concat
 ]
 )
 throws
+a
 TypeError
+exception
 '
 )
 ;

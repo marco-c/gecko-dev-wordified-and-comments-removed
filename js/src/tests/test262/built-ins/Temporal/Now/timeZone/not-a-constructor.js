@@ -56,7 +56,9 @@ timeZone
 (
 )
 throws
+a
 TypeError
+exception
 '
 )
 ;

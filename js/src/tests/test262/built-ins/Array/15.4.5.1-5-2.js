@@ -28,9 +28,17 @@ a
 length
 3
 '
+The
+value
+of
 a
 .
 length
+is
+expected
+to
+be
+3
 '
 )
 ;

@@ -52,7 +52,9 @@ from
 ]
 )
 throws
+a
 TypeError
+exception
 '
 )
 ;

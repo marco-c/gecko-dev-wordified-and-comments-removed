@@ -16,6 +16,9 @@ isArray
 (
 JSON
 )
+must
+return
+false
 '
 )
 ;

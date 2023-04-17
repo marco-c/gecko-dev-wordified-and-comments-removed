@@ -16,6 +16,9 @@ isArray
 (
 Math
 )
+must
+return
+false
 '
 )
 ;

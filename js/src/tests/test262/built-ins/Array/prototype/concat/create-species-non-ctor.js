@@ -38,6 +38,17 @@ concat
 )
 ;
 }
+'
+a
+.
+concat
+(
+)
+throws
+a
+TypeError
+exception
+'
 )
 ;
 reportCompare

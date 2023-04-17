@@ -16,6 +16,9 @@ isArray
 (
 5
 )
+must
+return
+false
 '
 )
 ;
