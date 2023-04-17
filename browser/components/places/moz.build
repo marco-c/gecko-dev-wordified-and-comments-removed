@@ -71,6 +71,11 @@ Interactions
 jsm
 "
 "
+InteractionsBlocklist
+.
+jsm
+"
+"
 PlacesUIUtils
 .
 jsm
