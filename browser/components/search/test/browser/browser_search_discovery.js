@@ -28,13 +28,13 @@ browser
 /
 browser
 /
-base
+components
 /
-content
+search
 /
 test
 /
-general
+browser
 /
 discovery
 .
