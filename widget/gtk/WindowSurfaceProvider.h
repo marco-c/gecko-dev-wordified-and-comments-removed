@@ -110,8 +110,10 @@ MOZ_WAYLAND
 void
 Initialize
 (
+RefPtr
+<
 nsWindow
-*
+>
 aWidget
 )
 ;
@@ -196,8 +198,10 @@ mWindowSurface
 #
 ifdef
 MOZ_WAYLAND
+RefPtr
+<
 nsWindow
-*
+>
 mWidget
 ;
 #

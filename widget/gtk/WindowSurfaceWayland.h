@@ -170,8 +170,10 @@ public
 explicit
 WindowSurfaceWayland
 (
+RefPtr
+<
 nsWindow
-*
+>
 aWindow
 )
 ;
@@ -360,8 +362,10 @@ wl_buffer
 aBuffer
 )
 ;
+RefPtr
+<
 nsWindow
-*
+>
 mWindow
 ;
 LayoutDeviceIntSize
