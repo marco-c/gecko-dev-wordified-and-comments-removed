@@ -1844,6 +1844,11 @@ shrink_down_delta
 )
 override
 ;
+void
+Print
+(
+)
+;
 protected
 :
 explicit
@@ -2006,6 +2011,11 @@ GetShrunkRangeModules
 )
 const
 override
+;
+void
+Print
+(
+)
 ;
 protected
 :
