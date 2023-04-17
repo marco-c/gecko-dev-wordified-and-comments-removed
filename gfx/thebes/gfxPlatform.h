@@ -1771,16 +1771,6 @@ FlushFontAndWordCaches
 (
 )
 ;
-gfxASurface
-*
-ScreenReferenceSurface
-(
-)
-{
-return
-mScreenReferenceSurface
-;
-}
 RefPtr
 <
 mozilla
