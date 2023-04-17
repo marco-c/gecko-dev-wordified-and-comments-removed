@@ -3957,25 +3957,12 @@ variants
 "
 )
 :
-optionally_keyed_by
-(
-            
-"
-test
--
-platform
-"
-"
-project
-"
 Any
 (
 list
 (
 TEST_VARIANTS
 )
-)
-        
 )
         
 Required
@@ -7821,10 +7808,6 @@ time
         
 "
 chunks
-"
-        
-"
-variants
 "
         
 "
