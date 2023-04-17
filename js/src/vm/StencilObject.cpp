@@ -177,7 +177,7 @@ const
 {
 return
 !
-getSlot
+getReservedSlot
 (
 StencilSlot
 )
@@ -204,7 +204,7 @@ void
 *
 ptr
 =
-getSlot
+getReservedSlot
 (
 StencilSlot
 )
@@ -436,7 +436,7 @@ const
 {
 return
 !
-getSlot
+getReservedSlot
 (
 BufferSlot
 )
@@ -461,7 +461,7 @@ void
 *
 ptr
 =
-getSlot
+getReservedSlot
 (
 BufferSlot
 )
@@ -500,7 +500,7 @@ void
 *
 ptr
 =
-getSlot
+getReservedSlot
 (
 BufferSlot
 )
@@ -535,7 +535,7 @@ bufferLength
 const
 {
 return
-getSlot
+getReservedSlot
 (
 LengthSlot
 )

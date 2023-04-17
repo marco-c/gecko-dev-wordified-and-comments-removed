@@ -47603,7 +47603,7 @@ NativeObject
 (
 )
 .
-setSlot
+setReservedSlot
 (
 SHAPE_CONTAINER_SLOT
 PrivateGCThingValue

@@ -22229,7 +22229,7 @@ NativeObject
 (
 )
 .
-getSlot
+getReservedSlot
 (
 SLOT_TYPECODE
 )
