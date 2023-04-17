@@ -79,13 +79,6 @@ return
 false
 ;
 }
-virtual
-void
-Reset
-(
-)
-{
-}
 protected
 :
 virtual
