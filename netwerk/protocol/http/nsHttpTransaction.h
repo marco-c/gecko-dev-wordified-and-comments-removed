@@ -429,6 +429,17 @@ DisableSpdy
 override
 ;
 void
+DoNotRemoveAltSvc
+(
+)
+override
+{
+mDoNotRemoveAltSvc
+=
+true
+;
+}
+void
 DisableHttp3
 (
 )
@@ -1028,7 +1039,7 @@ void
 OnBackupConnectionReady
 (
 bool
-aHTTPSRRUsed
+aTriggeredByHTTPSRR
 )
 ;
 void
