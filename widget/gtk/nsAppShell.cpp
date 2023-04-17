@@ -241,6 +241,14 @@ WidgetWayland
 )
 ;
 LazyLogModule
+gWidgetPopupLog
+(
+"
+WidgetPopup
+"
+)
+;
+LazyLogModule
 gDmabufLog
 (
 "
