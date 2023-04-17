@@ -1319,13 +1319,13 @@ mImageContainer
 {
 mImageContainer
 =
+MakeAndAddRef
+<
 layers
 :
 :
-LayerManager
-:
-:
-CreateImageContainer
+ImageContainer
+>
 (
 layers
 :

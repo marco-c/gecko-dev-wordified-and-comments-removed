@@ -10579,10 +10579,10 @@ CreateScrollCaptureContainer
 {
 mScrollCaptureContainer
 =
-LayerManager
-:
-:
-CreateImageContainer
+MakeAndAddRef
+<
+ImageContainer
+>
 (
 ImageContainer
 :

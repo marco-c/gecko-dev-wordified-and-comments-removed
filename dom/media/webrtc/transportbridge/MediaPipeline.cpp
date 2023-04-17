@@ -8030,10 +8030,10 @@ aTrack
 )
 mImageContainer
 (
-LayerManager
-:
-:
-CreateImageContainer
+MakeAndAddRef
+<
+ImageContainer
+>
 (
 ImageContainer
 :

@@ -218,10 +218,10 @@ ImageContainer
 >
 container
 =
-LayerManager
-:
-:
-CreateImageContainer
+MakeAndAddRef
+<
+ImageContainer
+>
 (
 ImageContainer
 :
