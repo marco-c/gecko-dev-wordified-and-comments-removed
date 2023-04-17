@@ -603,6 +603,9 @@ wasmCranelift
 )
 ;
 }
+#
+ifdef
+ENABLE_WASM_SIMD_WORMHOLE
 static
 inline
 bool
@@ -613,9 +616,6 @@ JSContext
 cx
 )
 {
-#
-ifdef
-ENABLE_WASM_SIMD_WORMHOLE
 return
 cx
 -
@@ -628,14 +628,9 @@ wasmSimdWormhole
 (
 )
 ;
-#
-else
-return
-false
-;
+}
 #
 endif
-}
 static
 inline
 bool
@@ -1670,7 +1665,7 @@ return
 false
 ;
 #
-endif
+else
 if
 (
 gc
@@ -1798,6 +1793,8 @@ CraneliftPlatformSupport
 (
 )
 ;
+#
+endif
 }
 bool
 wasm

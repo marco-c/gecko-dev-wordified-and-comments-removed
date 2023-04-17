@@ -146,6 +146,13 @@ DebugOnly
 ;
 #
 if
+!
+defined
+(
+JS_CODEGEN_NONE
+)
+#
+if
 defined
 (
 __FreeBSD__
@@ -2579,6 +2586,7 @@ __lr
 else
 #
 error
+\
 "
 Don
 '
@@ -4810,6 +4818,8 @@ IsSignalHandlingBroken
 ;
 #
 endif
+#
+endif
 struct
 InstallState
 {
@@ -4903,7 +4913,7 @@ JS_CODEGEN_NONE
 return
 ;
 #
-endif
+else
 #
 if
 defined
@@ -5157,6 +5167,8 @@ success
 =
 true
 ;
+#
+endif
 }
 static
 ExclusiveData
