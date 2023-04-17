@@ -11266,6 +11266,8 @@ newtab
 background
 -
 color
+-
+secondary
 )
 ;
 border
@@ -11541,6 +11543,8 @@ newtab
 -
 element
 -
+secondary
+-
 hover
 -
 color
@@ -11581,6 +11585,8 @@ var
 newtab
 -
 element
+-
+secondary
 -
 active
 -
