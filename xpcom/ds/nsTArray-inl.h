@@ -1766,6 +1766,12 @@ Length
 )
 )
 {
+mozilla
+:
+:
+detail
+:
+:
 InvalidArrayIndex_CRASH
 (
 aIndex
