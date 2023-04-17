@@ -4437,7 +4437,7 @@ PrincipalInfo
 TContentPrincipalInfo
 )
 ;
-SDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -4449,7 +4449,7 @@ principalInfo
 )
 )
 ;
-SDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 principalMetadata
@@ -5035,7 +5035,7 @@ MOZ_ASSERT
 quotaManager
 )
 ;
-SDB_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -5045,7 +5045,7 @@ EnsureStorageIsInitialized
 )
 )
 ;
-SDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5098,7 +5098,7 @@ persistenceType
 PERSISTENCE_TYPE_PERSISTENT
 )
 {
-SDB_TRY_RETURN
+QM_TRY_RETURN
 (
 quotaManager
 -
@@ -5110,7 +5110,7 @@ mOriginMetadata
 )
 ;
 }
-SDB_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -5120,7 +5120,7 @@ EnsureTemporaryStorageIsInitialized
 )
 )
 ;
-SDB_TRY_RETURN
+QM_TRY_RETURN
 (
 quotaManager
 -
@@ -7202,7 +7202,7 @@ MOZ_ASSERT
 quotaManager
 )
 ;
-SDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 directory
@@ -7279,7 +7279,7 @@ exists
 exists
 )
 ;
-SDB_TRY_RETURN
+QM_TRY_RETURN
 (
 ReduceEachFileAtomicCancelable
 (
@@ -7310,7 +7310,7 @@ UsageInfo
 nsresult
 >
 {
-SDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -7344,7 +7344,7 @@ usageInfo
 nsString
 leafName
 ;
-SDB_TRY
+QM_TRY
 (
 file
 -
@@ -7364,7 +7364,7 @@ kSDBSuffix
 )
 )
 {
-SDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
