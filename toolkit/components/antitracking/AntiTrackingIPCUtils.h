@@ -85,7 +85,7 @@ ContentBlockingNotifier
 StorageAccessPermissionGrantedReason
 :
 :
-eOpener
+ePrivilegeStorageAccessForOriginAPI
 >
 {
 }

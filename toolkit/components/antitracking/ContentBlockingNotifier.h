@@ -67,6 +67,7 @@ StorageAccessPermissionGrantedReason
 eStorageAccessAPI
 eOpenerAfterUserInteraction
 eOpener
+ePrivilegeStorageAccessForOriginAPI
 }
 ;
 static
