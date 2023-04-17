@@ -1511,11 +1511,8 @@ true
 )
 sessionRule
 .
-removeCertOverride
+removeAllCertOverrides
 (
-host
--
-1
 )
 }
 }
