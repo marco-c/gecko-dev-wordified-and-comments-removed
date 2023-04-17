@@ -16600,7 +16600,6 @@ dump_buffered
                 
 msg
 =
-(
 "
 application
 terminated
@@ -16612,7 +16611,6 @@ s
 "
 %
 status
-)
                 
 if
 crashAsPass
@@ -16721,7 +16719,28 @@ log
 .
 error
 (
+                        
+"
+TEST
+-
+UNEXPECTED
+-
+FAIL
+|
+%
+s
+|
+%
+s
+"
+%
+(
+self
+.
+lastTestSeen
 msg
+)
+                    
 )
             
 else
