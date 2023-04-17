@@ -83,7 +83,7 @@ shared
 /
 webconsole
 /
-GeneratePureDOMFunctions
+GenerateDataFromWebIdls
 .
 py
 with
