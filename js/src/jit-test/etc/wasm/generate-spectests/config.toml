@@ -415,6 +415,11 @@ WebAssembly
 /
 threads
 "
+branch
+=
+"
+main
+"
 parent
 =
 "
@@ -611,7 +616,7 @@ handling
 branch
 =
 "
-master
+main
 "
 parent
 =
