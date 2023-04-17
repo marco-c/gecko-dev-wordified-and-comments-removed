@@ -1138,7 +1138,10 @@ mURL
 WebRenderCommandBuilder
 mWebRenderCommandBuilder
 ;
-size_t
+wr
+:
+:
+DisplayListCapacity
 mLastDisplayListSize
 ;
 RenderRootStateManager

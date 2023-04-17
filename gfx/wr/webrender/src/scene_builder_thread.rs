@@ -3081,11 +3081,7 @@ bytes_to_mb
 (
 display_list
 .
-data
-(
-)
-.
-len
+size_in_bytes
 (
 )
 )
