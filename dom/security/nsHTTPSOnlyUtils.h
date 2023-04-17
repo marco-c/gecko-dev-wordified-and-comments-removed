@@ -233,6 +233,15 @@ nsILoadInfo
 aLoadInfo
 )
 ;
+static
+void
+PotentiallyClearExemptFlag
+(
+nsILoadInfo
+*
+aLoadInfo
+)
+;
 private
 :
 static
