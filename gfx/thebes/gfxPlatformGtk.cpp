@@ -683,6 +683,15 @@ nullptr
 )
 ;
 }
+PR_SetEnv
+(
+"
+__GL_ALLOW_FXAA_USAGE
+=
+0
+"
+)
+;
 }
 gfxPlatformGtk
 :
