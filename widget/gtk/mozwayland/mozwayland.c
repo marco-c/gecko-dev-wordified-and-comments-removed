@@ -80,6 +80,11 @@ wl_keyboard_interface
 const
 struct
 wl_interface
+wl_pointer_interface
+;
+const
+struct
+wl_interface
 wl_region_interface
 ;
 const

@@ -1999,6 +1999,16 @@ aModifierFlags
 )
 ;
 async
+LockNativePointer
+(
+)
+;
+async
+UnlockNativePointer
+(
+)
+;
+async
 AccessKeyNotHandled
 (
 WidgetKeyboardEvent
