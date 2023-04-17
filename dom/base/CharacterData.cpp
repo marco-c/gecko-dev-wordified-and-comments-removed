@@ -1429,7 +1429,8 @@ IsBidi
 (
 )
 ;
-int32_t
+const
+uint32_t
 newLength
 =
 textLength

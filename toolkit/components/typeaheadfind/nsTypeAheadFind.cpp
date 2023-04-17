@@ -3756,13 +3756,7 @@ textFrag
 >
 CharAt
 (
-static_cast
-<
-int32_t
->
-(
 index
-)
 )
 )
 )

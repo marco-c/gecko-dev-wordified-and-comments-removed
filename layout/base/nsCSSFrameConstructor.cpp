@@ -44711,8 +44711,8 @@ firstLetterLength
 =
 0
 ;
-int32_t
-i
+const
+uint32_t
 n
 =
 aFragment
@@ -44724,6 +44724,7 @@ GetLength
 ;
 for
 (
+uint32_t
 i
 =
 0
@@ -44737,6 +44738,7 @@ i
 +
 )
 {
+const
 char16_t
 ch
 =
