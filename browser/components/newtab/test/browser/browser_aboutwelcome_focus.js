@@ -4,17 +4,6 @@ strict
 "
 ;
 const
-ABOUT_WELCOME_OVERRIDE_CONTENT_PREF
-=
-"
-browser
-.
-aboutwelcome
-.
-screens
-"
-;
-const
 ABOUT_WELCOME_FOCUS_PREF
 =
 "
