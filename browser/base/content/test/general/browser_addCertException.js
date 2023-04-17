@@ -421,6 +421,8 @@ com
 "
 -
 1
+{
+}
 )
 ;
 BrowserTestUtils

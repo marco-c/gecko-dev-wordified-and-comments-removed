@@ -1380,6 +1380,8 @@ rememberValidityOverride
 (
 host
 port
+{
+}
 cert
 overrideBits
 true

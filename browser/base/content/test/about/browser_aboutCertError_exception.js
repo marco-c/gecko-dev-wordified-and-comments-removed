@@ -261,6 +261,8 @@ com
 "
 -
 1
+{
+}
 )
 ;
 BrowserTestUtils
@@ -590,6 +592,8 @@ com
 "
 -
 1
+{
+}
 cert
 {
 }
@@ -652,6 +656,8 @@ com
 "
 -
 1
+{
+}
 )
 ;
 BrowserTestUtils
