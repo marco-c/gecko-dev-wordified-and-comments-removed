@@ -503,10 +503,6 @@ Destroy
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mWindow
-)
-NS_IMPL_CYCLE_COLLECTION_UNLINK
-(
 mTracks
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
@@ -519,10 +515,6 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 DOMMediaStream
 DOMEventTargetHelper
-)
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
-mWindow
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -565,7 +557,7 @@ nsPIDOMWindowInner
 aWindow
 )
 :
-mWindow
+DOMEventTargetHelper
 (
 aWindow
 )
@@ -1892,7 +1884,7 @@ MakeRefPtr
 DOMMediaStream
 >
 (
-GetParentObject
+GetOwner
 (
 )
 )
@@ -2234,7 +2226,9 @@ nsGlobalWindowInner
 :
 Cast
 (
-mWindow
+GetOwner
+(
+)
 )
 -
 >

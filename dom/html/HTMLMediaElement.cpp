@@ -16026,7 +16026,7 @@ aOutputStream
 mStream
 -
 >
-GetParentObject
+GetOwner
 (
 )
 aSource
@@ -16061,7 +16061,7 @@ aOutputStream
 mStream
 -
 >
-GetParentObject
+GetOwner
 (
 )
 aSource
