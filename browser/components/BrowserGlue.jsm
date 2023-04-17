@@ -15348,7 +15348,7 @@ BG__migrateUI
 const
 UI_VERSION
 =
-115
+116
 ;
 const
 BROWSER_DOCURL
@@ -18581,7 +18581,7 @@ if
 (
 currentUIVersion
 <
-115
+116
 )
 {
 UrlbarPrefs

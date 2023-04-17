@@ -231,11 +231,6 @@ UrlbarProviderTopSites
 jsm
 "
 "
-UrlbarProviderUnifiedComplete
-.
-jsm
-"
-"
 UrlbarProviderUnitConversion
 .
 jsm
