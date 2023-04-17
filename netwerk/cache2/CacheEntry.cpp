@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsIAsyncOutputStream
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h
@@ -3461,7 +3468,6 @@ mCallback
 OnCacheEntryCheck
 (
 handle
-nullptr
 &
 checkResult
 )
@@ -3964,7 +3970,6 @@ OnCacheEntryAvailable
 (
 nullptr
 false
-nullptr
 NS_ERROR_CACHE_KEY_NOT_FOUND
 )
 ;
@@ -4048,7 +4053,6 @@ OnCacheEntryAvailable
 (
 handle
 false
-nullptr
 NS_OK
 )
 ;
@@ -4097,7 +4101,6 @@ OnCacheEntryAvailable
 (
 nullptr
 false
-nullptr
 NS_ERROR_CACHE_KEY_NOT_FOUND
 )
 ;
@@ -4133,7 +4136,6 @@ state
 =
 =
 WRITING
-nullptr
 NS_OK
 )
 ;

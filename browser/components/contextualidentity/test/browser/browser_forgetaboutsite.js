@@ -588,7 +588,6 @@ nsICacheEntryOpenCallback
 onCacheEntryCheck
 (
 entry
-appCache
 )
 {
 return
@@ -603,7 +602,6 @@ onCacheEntryAvailable
 (
 entry
 isnew
-appCache
 status
 )
 {

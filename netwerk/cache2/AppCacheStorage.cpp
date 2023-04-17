@@ -269,7 +269,6 @@ OnCacheEntryAvailable
 (
 nullptr
 false
-nullptr
 NS_ERROR_CACHE_KEY_NOT_FOUND
 )
 ;

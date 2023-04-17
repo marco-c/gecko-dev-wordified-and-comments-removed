@@ -320,10 +320,7 @@ OPEN_SECRETLY
 {
 onCacheEntryCheck
 :
-(
 entry
-appcache
-)
 =
 >
 {
@@ -340,7 +337,6 @@ onCacheEntryAvailable
 (
 descriptor
 isnew
-appcache
 status
 )
 =

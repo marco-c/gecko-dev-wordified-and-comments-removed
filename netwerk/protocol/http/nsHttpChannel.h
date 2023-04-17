@@ -1803,9 +1803,6 @@ nsICacheEntry
 entry
 bool
 aNew
-nsIApplicationCache
-*
-aAppCache
 nsresult
 status
 )
@@ -2446,8 +2443,6 @@ nsICacheEntry
 cacheEntry
 bool
 startBuffering
-bool
-checkingAppCacheEntry
 )
 ;
 void

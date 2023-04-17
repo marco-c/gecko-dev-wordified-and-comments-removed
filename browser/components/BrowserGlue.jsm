@@ -27040,7 +27040,6 @@ break
 onCacheEntryCheck
 (
 aEntry
-aApplicationCache
 )
 {
 return
@@ -27055,7 +27054,6 @@ onCacheEntryAvailable
 (
 aEntry
 aNew
-aApplicationCache
 aResult
 )
 {

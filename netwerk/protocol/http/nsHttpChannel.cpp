@@ -16945,9 +16945,6 @@ OnCacheEntryCheck
 nsICacheEntry
 *
 entry
-nsIApplicationCache
-*
-appCache
 uint32_t
 *
 aResult
@@ -17460,7 +17457,6 @@ OpenCacheInputStream
 (
 entry
 true
-false
 )
 ;
 if
@@ -17753,9 +17749,6 @@ OpenCacheInputStream
 (
 entry
 false
-!
-!
-appCache
 )
 ;
 if
@@ -18403,9 +18396,6 @@ OpenCacheInputStream
 (
 entry
 mCachedContentIsValid
-!
-!
-appCache
 )
 ;
 if
@@ -18536,9 +18526,6 @@ nsICacheEntry
 entry
 bool
 aNew
-nsIApplicationCache
-*
-aAppCache
 nsresult
 status
 )
@@ -18576,10 +18563,6 @@ new
 =
 %
 d
-appcache
-=
-%
-p
 status
 =
 %
@@ -18593,7 +18576,6 @@ n
 this
 entry
 aNew
-aAppCache
 static_cast
 <
 uint32_t
@@ -18628,7 +18610,6 @@ OnCacheEntryAvailableInternal
 (
 entry
 aNew
-aAppCache
 status
 )
 ;
@@ -18710,9 +18691,6 @@ nsICacheEntry
 entry
 bool
 aNew
-nsIApplicationCache
-*
-aAppCache
 nsresult
 status
 )
@@ -19571,8 +19549,6 @@ nsICacheEntry
 cacheEntry
 bool
 startBuffering
-bool
-checkingAppCacheEntry
 )
 {
 nsresult

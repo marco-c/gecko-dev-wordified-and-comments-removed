@@ -115,7 +115,6 @@ onCacheEntryAvailable
 (
 entry
 true
-null
 0
 )
 ;

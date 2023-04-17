@@ -2739,7 +2739,6 @@ onCacheEntryAvailable
 (
 entry
 isnew
-unused
 status
 )
 {
