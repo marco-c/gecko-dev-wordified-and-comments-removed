@@ -4600,6 +4600,14 @@ PMDH_onDragOver
 event
 )
 {
+PlacesControllerDragHelper
+.
+currentDropTarget
+=
+event
+.
+target
+;
 let
 ip
 =
