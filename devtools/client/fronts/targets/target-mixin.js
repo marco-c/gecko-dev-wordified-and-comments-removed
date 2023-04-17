@@ -1855,17 +1855,6 @@ thread
 const
 isAttached
 =
-this
-.
-getTrait
-(
-"
-supportsThreadActorIsAttached
-"
-)
-&
-&
-(
 await
 this
 .
@@ -1873,7 +1862,6 @@ threadFront
 .
 isAttached
 (
-)
 )
 ;
 const

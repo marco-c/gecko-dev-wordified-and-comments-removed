@@ -299,9 +299,6 @@ true
 noPauseOnThreadActorAttach
 :
 true
-supportsThreadActorIsAttached
-:
-true
 }
 ;
 }
