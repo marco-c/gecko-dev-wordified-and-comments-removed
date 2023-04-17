@@ -11,9 +11,7 @@ dir
 =
 makeRandomProfileDir
 (
-"
-default
-"
+DEDICATED_NAME
 )
 ;
 let
@@ -33,9 +31,7 @@ profiles
 {
 name
 :
-"
-default
-"
+DEDICATED_NAME
 path
 :
 dir
