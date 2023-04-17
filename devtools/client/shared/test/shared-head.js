@@ -1809,7 +1809,7 @@ closed
 function
 waitForAllTargetsToBeAttached
 (
-targetList
+targetCommand
 )
 {
 return
@@ -1817,11 +1817,11 @@ Promise
 .
 allSettled
 (
-targetList
+targetCommand
 .
 getAllTargets
 (
-targetList
+targetCommand
 .
 ALL_TYPES
 )

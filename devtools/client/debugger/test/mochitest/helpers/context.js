@@ -31,6 +31,11 @@ return
 win
 .
 dbg
+commands
+:
+toolbox
+.
+commands
 toolbox
 :
 toolbox

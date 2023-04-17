@@ -560,15 +560,10 @@ forMainProcess
 (
 )
 ;
-const
-targetList
-=
+await
 commands
 .
 targetCommand
-;
-await
-targetList
 .
 startListening
 (
@@ -589,7 +584,9 @@ resourceWatcher
 new
 ResourceWatcher
 (
-targetList
+commands
+.
+targetCommand
 )
 ;
 return

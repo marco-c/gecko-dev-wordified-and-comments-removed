@@ -345,8 +345,14 @@ url
 ;
 const
 {
+commands
+}
+=
+inspector
+;
+const
+{
 resourceWatcher
-targetList
 }
 =
 inspector
@@ -358,7 +364,7 @@ onTargetProcessed
 =
 waitForTargetProcessed
 (
-targetList
+commands
 url
 )
 ;
@@ -505,7 +511,7 @@ newRootResult
 function
 waitForTargetProcessed
 (
-targetList
+commands
 url
 )
 {
@@ -541,7 +547,9 @@ url
 return
 ;
 }
-targetList
+commands
+.
+targetCommand
 .
 off
 (
@@ -561,7 +569,9 @@ resolve
 ;
 }
 ;
-targetList
+commands
+.
+targetCommand
 .
 on
 (

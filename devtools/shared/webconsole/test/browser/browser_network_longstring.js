@@ -88,15 +88,10 @@ forTab
 tab
 )
 ;
-const
-targetList
-=
+await
 commands
 .
 targetCommand
-;
-await
-targetList
 .
 startListening
 (
@@ -117,7 +112,9 @@ resourceWatcher
 new
 ResourceWatcher
 (
-targetList
+commands
+.
+targetCommand
 )
 ;
 ORIGINAL_LONG_STRING_LENGTH
