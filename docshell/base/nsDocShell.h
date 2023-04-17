@@ -2281,11 +2281,6 @@ bool
 aCloneSHChildren
 )
 ;
-void
-RecordSingleChannelId
-(
-)
-;
 public
 :
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
@@ -2524,6 +2519,7 @@ Document
 aNewDocument
 )
 ;
+static
 void
 ReportBFCacheComboTelemetry
 (
@@ -3175,6 +3171,11 @@ aLinkURI
 nsIContent
 *
 aContent
+)
+;
+void
+RecordSingleChannelId
+(
 )
 ;
 private
