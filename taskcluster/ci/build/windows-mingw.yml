@@ -168,7 +168,7 @@ Bo
 )
 tier
 :
-3
+2
 worker
 :
 env
@@ -343,7 +343,7 @@ Bd
 )
 tier
 :
-3
+2
 worker
 :
 env
@@ -520,7 +520,7 @@ Bo
 )
 tier
 :
-3
+2
 worker
 :
 env
@@ -695,7 +695,7 @@ Bd
 )
 tier
 :
-3
+2
 worker
 :
 env
