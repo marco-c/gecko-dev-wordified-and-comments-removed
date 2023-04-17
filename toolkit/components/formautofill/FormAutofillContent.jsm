@@ -80,7 +80,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 ProfileAutoCompleteResult
 .
@@ -124,7 +124,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 ProfileAutoCompleteResult
 .
@@ -145,7 +145,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofill
 .
@@ -166,7 +166,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillHandler
 .
@@ -187,7 +187,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillUtils
 .

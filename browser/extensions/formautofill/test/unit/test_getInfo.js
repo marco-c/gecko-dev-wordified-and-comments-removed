@@ -29,7 +29,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillHeuristics
 .

@@ -75,7 +75,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillStorage
 .

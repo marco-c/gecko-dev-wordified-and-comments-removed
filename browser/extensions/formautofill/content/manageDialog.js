@@ -123,7 +123,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofill
 .
@@ -167,7 +167,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillStorage
 .
@@ -188,7 +188,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillUtils
 .

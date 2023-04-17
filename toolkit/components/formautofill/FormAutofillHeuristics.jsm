@@ -77,7 +77,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofill
 .
@@ -98,7 +98,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillUtils
 .
@@ -4657,11 +4657,11 @@ const
 HEURISTICS_REGEXP
 =
 "
-chrome
+resource
 :
 /
 /
-formautofill
+autofill
 /
 content
 /
