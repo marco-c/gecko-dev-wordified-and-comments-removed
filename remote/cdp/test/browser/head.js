@@ -107,11 +107,6 @@ bind
 this
 )
 ;
-let
-remoteAgentStarted
-=
-false
-;
 async
 function
 startRemoteAgent
@@ -121,7 +116,9 @@ startRemoteAgent
 if
 (
 !
-remoteAgentStarted
+RemoteAgent
+.
+listening
 )
 {
 await
@@ -146,10 +143,6 @@ localhost
 "
 )
 )
-;
-remoteAgentStarted
-=
-true
 ;
 info
 (
