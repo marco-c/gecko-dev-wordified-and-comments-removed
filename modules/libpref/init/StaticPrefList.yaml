@@ -6048,8 +6048,6 @@ to
 0
 on
 windows
-and
-mac
 1
 elsewhere
 .
@@ -6065,17 +6063,8 @@ type
 :
 RelaxedAtomicUint32
 #
-if
-defined
-(
+ifdef
 XP_WIN
-)
-|
-|
-defined
-(
-XP_MACOSX
-)
 value
 :
 0
