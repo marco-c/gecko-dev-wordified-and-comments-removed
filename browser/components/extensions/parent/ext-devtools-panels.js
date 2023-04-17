@@ -1715,13 +1715,6 @@ null
 }
 this
 .
-_updateLastExpressionResult
-(
-null
-)
-;
-this
-.
 toolbox
 .
 off
