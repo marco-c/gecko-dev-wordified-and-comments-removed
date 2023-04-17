@@ -116,7 +116,7 @@ dom
 .
 security
 .
-https_only_mode_https_first
+https_first
 "
 true
 ]

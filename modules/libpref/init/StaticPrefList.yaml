@@ -17941,7 +17941,7 @@ dom
 .
 security
 .
-https_only_mode_https_first
+https_first
 type
 :
 RelaxedAtomicBool
@@ -17975,7 +17975,7 @@ dom
 .
 security
 .
-https_only_mode_https_first
+https_first
 #
 is
 set
@@ -17995,7 +17995,7 @@ dom
 .
 security
 .
-https_only_mode_https_first_pbm
+https_first_pbm
 type
 :
 RelaxedAtomicBool

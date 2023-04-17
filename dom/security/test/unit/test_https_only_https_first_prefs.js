@@ -1280,7 +1280,7 @@ dom
 .
 security
 .
-https_only_mode_https_first
+https_first
 "
 curTest
 .
@@ -1298,7 +1298,7 @@ dom
 .
 security
 .
-https_only_mode_https_first_pbm
+https_first_pbm
 "
 curTest
 .
