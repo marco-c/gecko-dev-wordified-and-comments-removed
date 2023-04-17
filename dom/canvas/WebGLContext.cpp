@@ -3527,13 +3527,6 @@ mImplicitMakeCurrent
 =
 true
 ;
-gl
--
->
-mElideDuplicateBindFramebuffers
-=
-true
-;
 const
 auto
 &
