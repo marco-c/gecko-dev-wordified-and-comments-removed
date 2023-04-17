@@ -2232,10 +2232,10 @@ discardJitCode
 JSFreeOp
 *
 fop
-ShouldDiscardBaselineCode
-discardBaselineCode
-ShouldDiscardJitScripts
-discardJitScripts
+const
+DiscardOptions
+&
+options
 )
 {
 if
@@ -2261,9 +2261,13 @@ return
 }
 if
 (
+options
+.
 discardBaselineCode
 |
 |
+options
+.
 discardJitScripts
 )
 {
@@ -2427,6 +2431,8 @@ script
 ;
 if
 (
+options
+.
 discardBaselineCode
 )
 {
@@ -2479,6 +2485,8 @@ resetWarmUpCounterForGC
 ;
 if
 (
+options
+.
 discardJitScripts
 )
 {
@@ -2547,6 +2555,8 @@ continue
 }
 if
 (
+options
+.
 discardBaselineCode
 )
 {
@@ -2569,6 +2579,8 @@ resetActive
 }
 if
 (
+options
+.
 discardBaselineCode
 )
 {
