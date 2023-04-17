@@ -212,6 +212,9 @@ mod
 android
 ;
 mod
+browser
+;
+mod
 build
 ;
 mod
