@@ -45650,7 +45650,7 @@ AssumeAllFramesVisible
 mPresContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentInProcess
 (
 )
 )
