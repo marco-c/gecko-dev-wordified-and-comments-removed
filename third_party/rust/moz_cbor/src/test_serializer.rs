@@ -1,7 +1,4 @@
 use
-CborType
-;
-use
 std
 :
 :
@@ -9,6 +6,9 @@ collections
 :
 :
 BTreeMap
+;
+use
+CborType
 ;
 #
 [

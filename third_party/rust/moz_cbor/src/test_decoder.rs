@@ -1,10 +1,4 @@
 use
-{
-CborError
-CborType
-}
-;
-use
 decoder
 :
 :
@@ -21,6 +15,12 @@ collections
 :
 :
 BTreeMap
+;
+use
+{
+CborError
+CborType
+}
 ;
 fn
 test_decoder
