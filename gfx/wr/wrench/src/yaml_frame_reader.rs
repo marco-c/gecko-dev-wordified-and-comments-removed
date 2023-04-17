@@ -219,7 +219,6 @@ clip_rect
 return
 ;
 }
-;
 }
 }
 fn
