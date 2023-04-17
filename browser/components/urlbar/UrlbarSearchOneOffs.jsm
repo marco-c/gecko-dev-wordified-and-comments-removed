@@ -431,7 +431,7 @@ view
 .
 oneOffSearchButtons
 .
-settingsButtonCompact
+settingsButton
 )
 {
 expectedSearchMode
@@ -565,7 +565,7 @@ view
 .
 oneOffSearchButtons
 .
-settingsButtonCompact
+settingsButton
 |
 |
 this
