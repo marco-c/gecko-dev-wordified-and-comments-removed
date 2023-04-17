@@ -1275,6 +1275,16 @@ aEmbedder
 )
 ;
 void
+AddPageAwakeRequest
+(
+)
+;
+void
+RemovePageAwakeRequest
+(
+)
+;
+void
 CloneDocumentTreeInto
 (
 CanonicalBrowsingContext
