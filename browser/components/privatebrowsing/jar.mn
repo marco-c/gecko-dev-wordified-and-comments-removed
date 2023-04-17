@@ -99,16 +99,3 @@ aboutPrivateBrowsing
 .
 js
 )
-content
-/
-browser
-/
-assets
-/
-(
-content
-/
-assets
-/
-*
-)
