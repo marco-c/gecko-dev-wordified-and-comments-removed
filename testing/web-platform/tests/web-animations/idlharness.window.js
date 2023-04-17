@@ -11,6 +11,13 @@ web
 -
 animations
 '
+'
+web
+-
+animations
+-
+2
+'
 ]
 [
 '
