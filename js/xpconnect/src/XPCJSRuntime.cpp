@@ -4312,9 +4312,9 @@ XPCJSRuntime
 :
 WeakPointerZonesCallback
 (
-JSTracer
+JSContext
 *
-trc
+cx
 void
 *
 data
@@ -4360,7 +4360,6 @@ mWrappedJSMap
 >
 UpdateWeakPointersAfterGC
 (
-trc
 )
 ;
 self
@@ -4368,9 +4367,8 @@ self
 >
 mUAWidgetScopeMap
 .
-traceWeak
+sweep
 (
-trc
 )
 ;
 }
@@ -4380,9 +4378,9 @@ XPCJSRuntime
 :
 WeakPointerCompartmentCallback
 (
-JSTracer
+JSContext
 *
-trc
+cx
 JS
 :
 :
@@ -4416,7 +4414,6 @@ xpcComp
 >
 UpdateWeakPointersAfterGC
 (
-trc
 )
 ;
 }
@@ -4427,16 +4424,12 @@ CompartmentPrivate
 :
 UpdateWeakPointersAfterGC
 (
-JSTracer
-*
-trc
 )
 {
 mRemoteProxies
 .
-traceWeak
+sweep
 (
-trc
 )
 ;
 mWrappedJSMap
@@ -4444,7 +4437,6 @@ mWrappedJSMap
 >
 UpdateWeakPointersAfterGC
 (
-trc
 )
 ;
 mScope
@@ -4452,7 +4444,6 @@ mScope
 >
 UpdateWeakPointersAfterGC
 (
-trc
 )
 ;
 }

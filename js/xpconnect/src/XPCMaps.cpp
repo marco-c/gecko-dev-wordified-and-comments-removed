@@ -42,9 +42,6 @@ JSObject2WrappedJSMap
 :
 UpdateWeakPointersAfterGC
 (
-JSTracer
-*
-trc
 )
 {
 nsTArray

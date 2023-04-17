@@ -1313,9 +1313,6 @@ XPCWrappedNativeScope
 :
 UpdateWeakPointersAfterGC
 (
-JSTracer
-*
-trc
 )
 {
 if
@@ -1326,9 +1323,8 @@ mWaiverWrapperMap
 mWaiverWrapperMap
 -
 >
-UpdateWeakPointers
+Sweep
 (
-trc
 )
 ;
 }

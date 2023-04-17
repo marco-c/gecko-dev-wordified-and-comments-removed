@@ -7410,8 +7410,6 @@ WEAK_ZONES_CALLBACK
 ;
 callWeakPointerZonesCallbacks
 (
-&
-sweepingTracer
 )
 ;
 }
@@ -7474,8 +7472,6 @@ next
 {
 callWeakPointerCompartmentCallbacks
 (
-&
-sweepingTracer
 comp
 )
 ;

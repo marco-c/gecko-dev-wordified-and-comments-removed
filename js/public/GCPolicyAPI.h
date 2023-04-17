@@ -635,11 +635,8 @@ name
 }
 static
 bool
-traceWeak
+needsSweep
 (
-JSTracer
-*
-trc
 JS
 :
 :
@@ -662,9 +659,8 @@ js
 gc
 :
 :
-TraceWeakEdge
+EdgeNeedsSweep
 (
-trc
 thingp
 )
 ;

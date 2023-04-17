@@ -3888,8 +3888,6 @@ next
 {
 callWeakPointerCompartmentCallbacks
 (
-&
-trc
 comp
 )
 ;
@@ -4086,8 +4084,6 @@ freeAll
 }
 callWeakPointerZonesCallbacks
 (
-&
-trc
 )
 ;
 }
