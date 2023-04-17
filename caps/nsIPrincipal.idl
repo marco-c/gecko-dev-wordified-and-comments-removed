@@ -533,6 +533,17 @@ string
 pref
 )
 ;
+[
+infallible
+]
+boolean
+isURIInList
+(
+in
+ACString
+list
+)
+;
 bool
 isSameOrigin
 (
