@@ -235,9 +235,9 @@ waitForNewWindow
 (
 )
 ;
-EventUtils
+placesContext
 .
-synthesizeMouseAtCenter
+activateItem
 (
 openTabs
 {
@@ -245,7 +245,6 @@ shiftKey
 :
 true
 }
-gLibrary
 )
 ;
 let
