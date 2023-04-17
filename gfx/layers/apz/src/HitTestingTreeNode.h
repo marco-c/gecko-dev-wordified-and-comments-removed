@@ -255,13 +255,6 @@ CSSTransformMatrix
 &
 aTransform
 const
-Maybe
-<
-ParentLayerIntRegion
->
-&
-aClipRegion
-const
 EventRegionsOverride
 &
 aOverride
@@ -643,12 +636,6 @@ ScrollableLayerGuid
 ViewID
 >
 mAsyncZoomContainerId
-;
-Maybe
-<
-ParentLayerIntRegion
->
-mClipRegion
 ;
 EventRegionsOverride
 mOverride
