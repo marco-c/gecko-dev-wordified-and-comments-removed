@@ -1407,7 +1407,7 @@ bordercolor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -1416,6 +1416,7 @@ ColorID
 :
 :
 TextSelectBackground
+this
 )
 ;
 }
