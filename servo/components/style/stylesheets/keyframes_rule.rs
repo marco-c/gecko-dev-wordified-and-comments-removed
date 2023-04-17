@@ -127,7 +127,7 @@ stylesheets
 layer_rule
 :
 :
-LayerOrder
+LayerId
 ;
 use
 crate
@@ -1847,9 +1847,9 @@ Option
 VendorPrefix
 >
 pub
-layer_order
+layer_id
 :
-LayerOrder
+LayerId
 }
 fn
 get_animated_properties
@@ -2008,9 +2008,9 @@ Option
 <
 VendorPrefix
 >
-layer_order
+layer_id
 :
-LayerOrder
+LayerId
 guard
 :
 &
@@ -2041,7 +2041,7 @@ new
 (
 )
 vendor_prefix
-layer_order
+layer_id
 }
 ;
 if
