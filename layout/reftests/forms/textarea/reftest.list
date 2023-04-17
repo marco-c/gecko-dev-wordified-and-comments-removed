@@ -96,9 +96,6 @@ fuzzy
 -
 if
 (
-skiaContent
-&
-&
 !
 winWidget
 &
@@ -220,10 +217,7 @@ html
 bug
 834724
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 1
@@ -244,10 +238,7 @@ attr
 .
 html
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 1

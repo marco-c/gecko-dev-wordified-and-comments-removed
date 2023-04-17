@@ -170,10 +170,7 @@ lime
 .
 svg
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 1
@@ -252,10 +249,7 @@ ref
 .
 svg
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 1

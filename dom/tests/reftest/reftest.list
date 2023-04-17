@@ -56,10 +56,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 2
@@ -88,10 +85,7 @@ ref
 .
 xml
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 1

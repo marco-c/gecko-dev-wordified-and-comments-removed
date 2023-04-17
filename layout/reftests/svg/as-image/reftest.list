@@ -448,9 +448,6 @@ fuzzy
 -
 if
 (
-skiaContent
-&
-&
 !
 remoteCanvas
 0
@@ -507,9 +504,6 @@ fuzzy
 -
 if
 (
-skiaContent
-&
-&
 !
 remoteCanvas
 0
@@ -2114,10 +2108,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 255
@@ -2175,10 +2166,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 255
@@ -2231,10 +2219,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 255
@@ -3195,10 +3180,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 255
@@ -3233,10 +3215,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 255

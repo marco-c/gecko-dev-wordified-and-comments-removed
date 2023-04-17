@@ -704,10 +704,7 @@ ref
 .
 svg
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 1
@@ -1144,10 +1141,7 @@ number
 attributes
 :
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 1

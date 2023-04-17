@@ -780,10 +780,7 @@ pass
 .
 svg
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 1

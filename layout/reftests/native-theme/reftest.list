@@ -139,10 +139,7 @@ nonnative
 .
 html
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 2
@@ -189,10 +186,7 @@ nonnative
 .
 html
 fuzzy
--
-if
 (
-skiaContent
 0
 -
 2
