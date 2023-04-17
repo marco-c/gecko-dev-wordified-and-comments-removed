@@ -543,9 +543,3 @@ dump_syms
 win64
 -
 winchecksec
--
-sysroot
--
-wasm32
--
-wasi
