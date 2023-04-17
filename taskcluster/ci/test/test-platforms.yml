@@ -1894,7 +1894,7 @@ macosx1100
 -
 qr
 -
-failures
+failure
 -
 tests
 #
@@ -1960,7 +1960,7 @@ macosx1100
 -
 qr
 -
-failures
+failure
 -
 tests
 macosx1015
@@ -2171,6 +2171,16 @@ test
 -
 sets
 :
+-
+macosx1015
+-
+64
+-
+qr
+-
+failure
+-
+tests
 -
 macosx1015
 -
