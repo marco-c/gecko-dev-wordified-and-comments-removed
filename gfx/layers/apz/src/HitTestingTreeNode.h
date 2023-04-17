@@ -265,8 +265,6 @@ const
 EventRegionsOverride
 &
 aOverride
-bool
-aIsBackfaceHidden
 const
 Maybe
 <
@@ -636,9 +634,6 @@ mRemoteDocumentSize
 ;
 CSSTransformMatrix
 mTransform
-;
-bool
-mIsBackfaceHidden
 ;
 Maybe
 <
