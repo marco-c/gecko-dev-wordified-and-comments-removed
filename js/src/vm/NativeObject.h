@@ -7205,8 +7205,10 @@ HandleObject
 receiver
 HandleNativeObject
 obj
-HandleShape
-shape
+HandleId
+id
+ShapeProperty
+prop
 MutableHandleValue
 vp
 )
