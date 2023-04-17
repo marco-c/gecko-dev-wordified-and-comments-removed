@@ -5206,7 +5206,7 @@ mTime
 0
 )
 {
-break
+continue
 ;
 }
 (
