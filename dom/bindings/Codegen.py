@@ -64150,12 +64150,16 @@ desc
               
 defineDesc
 .
-attributesRef
+setAttributes
+(
+defineDesc
+.
+attributes
 (
 )
 |
-=
 JSPROP_RESOLVING
+)
 ;
               
 if
