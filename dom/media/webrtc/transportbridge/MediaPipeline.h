@@ -501,8 +501,13 @@ return
 mRtcpPacketsReceived
 ;
 }
-DOMHighResTimeStamp
-GetNow
+const
+dom
+:
+:
+RTCStatsTimestampMaker
+&
+GetTimestampMaker
 (
 )
 const

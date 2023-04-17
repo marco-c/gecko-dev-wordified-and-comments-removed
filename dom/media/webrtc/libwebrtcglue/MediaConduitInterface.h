@@ -428,8 +428,13 @@ const
 0
 ;
 virtual
-DOMHighResTimeStamp
-GetNow
+const
+dom
+:
+:
+RTCStatsTimestampMaker
+&
+GetTimestampMaker
 (
 )
 const

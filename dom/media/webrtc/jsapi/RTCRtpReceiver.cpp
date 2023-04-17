@@ -1677,6 +1677,10 @@ Construct
 pipeline
 -
 >
+GetTimestampMaker
+(
+)
+.
 GetNow
 (
 )
@@ -2495,6 +2499,10 @@ mTransportId
 mPipeline
 -
 >
+GetTimestampMaker
+(
+)
+.
 GetNow
 (
 )

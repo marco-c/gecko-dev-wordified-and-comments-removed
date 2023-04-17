@@ -187,12 +187,6 @@ MediaSessionConduit
 conduit
 )
 ;
-DOMHighResTimeStamp
-GetNow
-(
-)
-const
-;
 void
 Destroy
 (

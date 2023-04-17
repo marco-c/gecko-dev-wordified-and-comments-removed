@@ -2807,11 +2807,16 @@ second
 )
 ;
 }
-DOMHighResTimeStamp
+const
+dom
+:
+:
+RTCStatsTimestampMaker
+&
 WebrtcAudioConduit
 :
 :
-GetNow
+GetTimestampMaker
 (
 )
 const
@@ -2820,7 +2825,7 @@ return
 mCall
 -
 >
-GetNow
+GetTimestampMaker
 (
 )
 ;
