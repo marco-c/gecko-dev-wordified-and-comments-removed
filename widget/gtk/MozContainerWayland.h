@@ -305,5 +305,13 @@ MozContainer
 container
 )
 ;
+gboolean
+moz_container_wayland_is_inactive
+(
+MozContainer
+*
+container
+)
+;
 #
 endif
