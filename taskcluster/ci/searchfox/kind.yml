@@ -293,10 +293,6 @@ linux64
 -
 dump_syms
 -
-linux64
--
-lucetc
--
 sysroot
 -
 x86_64
@@ -509,10 +505,6 @@ cbindgen
 linux64
 -
 dump_syms
--
-linux64
--
-lucetc
 -
 macosx64
 -
