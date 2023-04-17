@@ -1043,6 +1043,8 @@ textContent
 let
 password
 =
+unescape
+(
 content
 .
 document
@@ -1053,6 +1055,7 @@ passwordSelector
 )
 .
 textContent
+)
 ;
 return
 {

@@ -92,6 +92,15 @@ cleanupPasswordNotifications
 (
 )
 ;
+await
+LoginTestUtils
+.
+remoteSettings
+.
+setupImprovedPasswordRules
+(
+)
+;
 }
 async
 function
