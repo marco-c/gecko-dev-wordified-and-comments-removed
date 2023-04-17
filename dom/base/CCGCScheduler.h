@@ -235,8 +235,8 @@ enum
 class
 GCRunnerAction
 {
-MajorGC
-MajorGCReady
+WaitToMajorGC
+StartMajorGC
 GCSlice
 None
 }
@@ -2185,7 +2185,7 @@ step
 GCRunnerAction
 :
 :
-MajorGCReady
+StartMajorGC
 mMajorGCReason
 }
 ;
@@ -2223,7 +2223,7 @@ step
 GCRunnerAction
 :
 :
-MajorGC
+WaitToMajorGC
 mMajorGCReason
 }
 ;
