@@ -726,6 +726,13 @@ this
 .
 _opening
 ;
+await
+this
+.
+accessibilityProxy
+.
+accessibilityFrontGetPromise
+;
 const
 onUpdated
 =
