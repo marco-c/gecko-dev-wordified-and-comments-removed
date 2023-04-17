@@ -1451,9 +1451,6 @@ x
 panic
 !
 (
-format
-!
-(
 "
 Boolean
 wasn
@@ -1473,7 +1470,6 @@ was
 )
 "
 x
-)
 )
 }
 ;
