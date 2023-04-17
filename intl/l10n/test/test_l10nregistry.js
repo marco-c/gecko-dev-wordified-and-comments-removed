@@ -119,6 +119,8 @@ createMock
 "
 test
 "
+"
+"
 [
 "
 en
@@ -302,6 +304,8 @@ createMock
 "
 test
 "
+"
+"
 [
 "
 en
@@ -445,6 +449,8 @@ createMock
 (
 "
 app
+"
+"
 "
 [
 "
@@ -693,6 +699,8 @@ createMock
 "
 platform
 "
+"
+"
 [
 "
 en
@@ -726,6 +734,8 @@ createMock
 (
 "
 app
+"
+"
 "
 [
 "
@@ -1094,6 +1104,9 @@ langpack
 -
 pl
 "
+"
+app
+"
 [
 "
 pl
@@ -1244,6 +1257,8 @@ createMock
 "
 app
 "
+"
+"
 [
 "
 pl
@@ -1276,6 +1291,8 @@ createMock
 langpack
 -
 pl
+"
+"
 "
 [
 "
@@ -1562,6 +1579,8 @@ langpack
 -
 pl
 "
+"
+"
 [
 "
 pl
@@ -1689,6 +1708,8 @@ createMock
 langpack
 -
 pl
+"
+"
 "
 [
 "
@@ -1897,6 +1918,8 @@ createMock
 "
 app
 "
+"
+"
 [
 "
 pl
@@ -1929,6 +1952,8 @@ createMock
 langpack
 -
 pl
+"
+"
 "
 [
 "
@@ -2481,6 +2506,8 @@ createMock
 "
 app
 "
+"
+"
 [
 "
 en
@@ -2514,6 +2541,8 @@ createMock
 (
 "
 platform
+"
+"
 "
 [
 "
@@ -2755,6 +2784,9 @@ L10nFileSource
 "
 app
 "
+"
+app
+"
 [
 "
 en
@@ -2891,6 +2923,8 @@ createMock
 "
 platform
 "
+"
+"
 [
 "
 en
@@ -2924,6 +2958,8 @@ createMock
 (
 "
 app
+"
+"
 "
 [
 "

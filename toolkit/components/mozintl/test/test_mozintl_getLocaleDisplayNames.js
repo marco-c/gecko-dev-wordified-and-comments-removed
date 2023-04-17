@@ -111,6 +111,9 @@ createMock
 "
 mock
 "
+"
+app
+"
 locales
 "
 resource

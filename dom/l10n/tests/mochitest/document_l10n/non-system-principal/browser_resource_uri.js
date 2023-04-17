@@ -89,6 +89,9 @@ L10nFileSource
 "
 test
 "
+"
+app
+"
 locales
 {
 uri

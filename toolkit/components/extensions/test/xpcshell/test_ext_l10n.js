@@ -173,6 +173,9 @@ L10nFileSource
 "
 test
 "
+"
+app
+"
 Services
 .
 locale
