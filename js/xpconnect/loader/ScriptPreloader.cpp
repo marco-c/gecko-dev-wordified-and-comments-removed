@@ -4060,12 +4060,6 @@ borrowBuffer
 =
 true
 ;
-options
-.
-usePinnedBytecode
-=
-true
-;
 }
 already_AddRefed
 <
