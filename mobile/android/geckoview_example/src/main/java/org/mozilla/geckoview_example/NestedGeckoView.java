@@ -60,15 +60,6 @@ mozilla
 .
 geckoview
 .
-GeckoResult
-;
-import
-org
-.
-mozilla
-.
-geckoview
-.
 GeckoView
 ;
 import

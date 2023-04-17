@@ -13,6 +13,13 @@ annotation
 Nullable
 ;
 import
+java
+.
+util
+.
+ArrayList
+;
+import
 org
 .
 mozilla
@@ -38,13 +45,6 @@ mozilla
 geckoview
 .
 WebExtension
-;
-import
-java
-.
-util
-.
-ArrayList
 ;
 public
 class

@@ -55,8 +55,8 @@ gecko
 "
 )
 private
-native
 static
+native
 void
 nativeRefreshScreenInfo
 (

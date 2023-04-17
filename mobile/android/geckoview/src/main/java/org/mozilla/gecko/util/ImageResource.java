@@ -15,6 +15,13 @@ graphics
 Bitmap
 ;
 import
+android
+.
+util
+.
+Log
+;
+import
 androidx
 .
 annotation
@@ -34,13 +41,6 @@ androidx
 annotation
 .
 Nullable
-;
-import
-android
-.
-util
-.
-Log
 ;
 import
 java

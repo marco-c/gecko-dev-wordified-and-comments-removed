@@ -8,6 +8,13 @@ gecko
 util
 ;
 import
+javax
+.
+annotation
+.
+Nullable
+;
+import
 org
 .
 mozilla
@@ -37,13 +44,6 @@ mozilla
 geckoview
 .
 GeckoResult
-;
-import
-javax
-.
-annotation
-.
-Nullable
 ;
 RobocopTarget
 WrapForJNI

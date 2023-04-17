@@ -158,8 +158,8 @@ getThreadSignature
 ;
 }
 private
-final
 static
+final
 char
 [
 ]

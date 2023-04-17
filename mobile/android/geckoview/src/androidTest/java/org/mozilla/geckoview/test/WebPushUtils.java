@@ -8,6 +8,13 @@ geckoview
 test
 ;
 import
+android
+.
+util
+.
+Base64
+;
+import
 androidx
 .
 annotation
@@ -20,13 +27,6 @@ androidx
 annotation
 .
 Nullable
-;
-import
-android
-.
-util
-.
-Base64
 ;
 import
 java

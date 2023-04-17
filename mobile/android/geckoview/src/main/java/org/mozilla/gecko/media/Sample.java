@@ -47,6 +47,13 @@ os
 Parcelable
 ;
 import
+java
+.
+nio
+.
+ByteBuffer
+;
+import
 org
 .
 mozilla
@@ -56,13 +63,6 @@ gecko
 annotation
 .
 WrapForJNI
-;
-import
-java
-.
-nio
-.
-ByteBuffer
 ;
 public
 final

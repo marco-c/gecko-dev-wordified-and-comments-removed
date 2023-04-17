@@ -99,6 +99,13 @@ os
 RemoteException
 ;
 import
+java
+.
+io
+.
+File
+;
+import
 org
 .
 mozilla
@@ -119,13 +126,6 @@ test
 util
 .
 UiThreadUtils
-;
-import
-java
-.
-io
-.
-File
 ;
 public
 class
