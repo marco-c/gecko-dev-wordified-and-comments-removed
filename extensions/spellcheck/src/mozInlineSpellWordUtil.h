@@ -87,7 +87,7 @@ namespace
 mozilla
 {
 class
-TextEditor
+EditorBase
 ;
 namespace
 dom
@@ -338,9 +338,9 @@ const
 mozilla
 :
 :
-TextEditor
+EditorBase
 &
-aTextEditor
+aEditorBase
 )
 ;
 nsresult
