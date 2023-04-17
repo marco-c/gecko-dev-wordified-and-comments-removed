@@ -357,6 +357,12 @@ const
 JSClass
 class_
 ;
+enum
+{
+ScriptSlot
+SlotCount
+}
+;
 static
 DebugScriptObject
 *
