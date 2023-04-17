@@ -533,6 +533,14 @@ GetUIThreadId
 (
 )
 ;
+bool
+IsOOMException
+(
+JNIEnv
+*
+aEnv
+)
+;
 }
 }
 #
