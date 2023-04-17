@@ -706,15 +706,6 @@ UrlbarUtils
 .
 RESULT_GROUP
 .
-HEURISTIC_ENGINE_ALIAS
-}
-{
-group
-:
-UrlbarUtils
-.
-RESULT_GROUP
-.
 HEURISTIC_UNIFIED_COMPLETE
 }
 {

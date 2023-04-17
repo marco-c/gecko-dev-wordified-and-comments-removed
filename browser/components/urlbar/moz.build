@@ -126,11 +126,6 @@ UrlbarProviderAboutPages
 jsm
 "
 "
-UrlbarProviderAliasEngines
-.
-jsm
-"
-"
 UrlbarProviderAutofill
 .
 jsm
