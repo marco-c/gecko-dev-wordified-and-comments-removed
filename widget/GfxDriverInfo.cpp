@@ -2332,8 +2332,8 @@ DeviceFamily
 IntelRolloutWebRender
 :
 #
-ifdef
-EARLY_BETA_OR_EARLIER
+if
+0
 APPEND_DEVICE
 (
 0x2e22
