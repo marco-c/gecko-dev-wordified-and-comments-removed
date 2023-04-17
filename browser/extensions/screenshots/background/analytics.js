@@ -111,6 +111,7 @@ shouldSendEvents
 )
 {
 return
+(
 !
 hasReturnedGone
 &
@@ -123,6 +124,7 @@ serverFailedResponses
 myGaSegment
 <
 GA_PORTION
+)
 ;
 }
 function
@@ -601,10 +603,8 @@ object
 "
 &
 &
-(
 !
 options
-)
 )
 {
 options
@@ -895,9 +895,7 @@ canUpload
 .
 then
 (
-(
 result
-)
 =
 >
 {
@@ -910,9 +908,7 @@ telemetryEnabled
 result
 ;
 }
-(
 error
-)
 =
 >
 {
