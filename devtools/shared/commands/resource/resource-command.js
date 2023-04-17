@@ -1432,9 +1432,6 @@ targetCommand
 .
 hasTargetWatcherSupport
 (
-"
-supportsDocumentEventWillNavigate
-"
 )
 )
 {

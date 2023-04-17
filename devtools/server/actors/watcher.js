@@ -743,9 +743,6 @@ WEBSOCKET
 :
 hasBrowserElement
 }
-supportsDocumentEventWillNavigate
-:
-true
 }
 }
 ;
