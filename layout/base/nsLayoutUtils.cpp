@@ -11507,7 +11507,7 @@ if
 (
 transform
 .
-Is2D
+CanDraw2D
 (
 &
 transform2D
