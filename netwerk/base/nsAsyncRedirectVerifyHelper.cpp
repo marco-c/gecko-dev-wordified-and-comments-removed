@@ -439,6 +439,13 @@ if
 !
 SpinEventLoopUntil
 (
+"
+nsAsyncRedirectVerifyHelper
+:
+:
+Init
+"
+_ns
 [
 &
 ]

@@ -77,6 +77,17 @@ mozilla
 :
 SpinEventLoopUntil
 (
+"
+TestCommon
+.
+h
+:
+WaitForCondition
+:
+:
+Wait
+"
+_ns
 [
 &
 ]
