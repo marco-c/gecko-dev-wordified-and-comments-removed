@@ -55,6 +55,7 @@ Normal
 MediumHigh
 InputHigh
 Vsync
+InputHighest
 Count
 }
 ;

@@ -396,6 +396,10 @@ IterationType
 :
 :
 EVENT_LOOP_TURN
+&
+&
+!
+mCurrentSuspended
 )
 {
 int32_t
