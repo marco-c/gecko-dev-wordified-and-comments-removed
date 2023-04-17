@@ -4493,7 +4493,7 @@ IDX_Muted
 >
 )
 ;
-CanSetResult
+bool
 CanSet
 (
 FieldIndex
