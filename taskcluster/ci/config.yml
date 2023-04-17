@@ -5210,6 +5210,9 @@ win10
 |
 -
 gpu
+|
+-
+ssd
 )
 :
 provisioner
