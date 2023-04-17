@@ -1105,6 +1105,9 @@ lost_packets
 SentPacket
 ]
 )
+-
+>
+bool
 {
 if
 lost_packets
@@ -1114,6 +1117,7 @@ is_empty
 )
 {
 return
+false
 ;
 }
 for
@@ -1203,6 +1207,9 @@ len
 )
 )
 ;
+let
+congestion
+=
 self
 .
 on_congestion_event
@@ -1218,6 +1225,9 @@ unwrap
 )
 )
 ;
+let
+persistent_congestion
+=
 self
 .
 detect_persistent_congestion
@@ -1228,6 +1238,10 @@ pto
 lost_packets
 )
 ;
+congestion
+|
+|
+persistent_congestion
 }
 fn
 discard
@@ -1822,6 +1836,9 @@ lost_packets
 SentPacket
 ]
 )
+-
+>
+bool
 {
 if
 first_rtt_sample_time
@@ -1831,6 +1848,7 @@ is_none
 )
 {
 return
+false
 ;
 }
 let
@@ -2000,6 +2018,7 @@ congestion_window
 )
 ;
 return
+true
 ;
 }
 }
@@ -2016,6 +2035,7 @@ time_sent
 ;
 }
 }
+false
 }
 #
 [
@@ -2072,8 +2092,12 @@ last_packet
 &
 SentPacket
 )
+-
+>
+bool
 {
 if
+!
 self
 .
 after_recovery_start
@@ -2081,6 +2105,10 @@ after_recovery_start
 last_packet
 )
 {
+return
+false
+;
+}
 let
 (
 cwnd
@@ -2203,7 +2231,7 @@ State
 RecoveryStart
 )
 ;
-}
+true
 }
 #
 [

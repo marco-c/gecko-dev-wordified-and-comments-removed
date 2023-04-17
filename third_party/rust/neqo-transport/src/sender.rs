@@ -286,13 +286,6 @@ qlog
 }
 #
 [
-cfg
-(
-test
-)
-]
-#
-[
 must_use
 ]
 pub
@@ -399,6 +392,9 @@ lost_packets
 SentPacket
 ]
 )
+-
+>
+bool
 {
 self
 .
@@ -411,7 +407,6 @@ prev_largest_acked_sent
 pto
 lost_packets
 )
-;
 }
 pub
 fn

@@ -34,6 +34,9 @@ neqo_common
 qinfo
 ;
 mod
+ackrate
+;
+mod
 addr_valid
 ;
 mod
@@ -149,6 +152,10 @@ params
 :
 :
 ConnectionParameters
+params
+:
+:
+ACK_RATIO_SCALE
 Connection
 Output
 State

@@ -408,8 +408,6 @@ set
 eprintln
 !
 (
-"
-"
 )
 ;
 eprintln

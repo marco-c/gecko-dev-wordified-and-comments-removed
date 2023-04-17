@@ -243,6 +243,9 @@ lost_packets
 SentPacket
 ]
 )
+-
+>
+bool
 ;
 #
 [
