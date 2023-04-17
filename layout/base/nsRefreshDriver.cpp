@@ -2365,7 +2365,7 @@ NS_IsMainThread
 )
 )
 ;
-sVsyncPriorityEnabled
+sHighPriorityEnabled
 =
 mozilla
 :
@@ -2397,12 +2397,12 @@ override
 *
 aPriority
 =
-sVsyncPriorityEnabled
+sHighPriorityEnabled
 ?
 nsIRunnablePriority
 :
 :
-PRIORITY_VSYNC
+PRIORITY_HIGH
 :
 nsIRunnablePriority
 :
@@ -2436,7 +2436,7 @@ Atomic
 <
 bool
 >
-sVsyncPriorityEnabled
+sHighPriorityEnabled
 ;
 }
 ;
@@ -3594,7 +3594,7 @@ RefreshDriverVsyncObserver
 ParentProcessVsyncNotifier
 :
 :
-sVsyncPriorityEnabled
+sHighPriorityEnabled
 (
 false
 )
@@ -6450,7 +6450,7 @@ MostRecentRefresh
 EventQueuePriority
 :
 :
-Vsync
+High
 )
 ;
 }

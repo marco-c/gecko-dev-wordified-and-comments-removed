@@ -18,7 +18,7 @@ NORMAL_PRIORITY
 INPUT_PRIORITY
 =
 2
-VSYNC_PRIORITY
+HIGH_PRIORITY
 =
 3
 MEDIUMHIGH_PRIORITY
@@ -1752,10 +1752,10 @@ input
 INPUT_PRIORITY
             
 "
-vsync
+high
 "
 :
-VSYNC_PRIORITY
+HIGH_PRIORITY
             
 "
 mediumhigh
