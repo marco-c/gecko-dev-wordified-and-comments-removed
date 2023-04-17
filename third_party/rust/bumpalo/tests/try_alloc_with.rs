@@ -17,7 +17,7 @@ ignore
 )
 ]
 fn
-alloc_with_large_array
+try_alloc_with_large_array
 (
 )
 {
@@ -33,7 +33,7 @@ new
 ;
 b
 .
-alloc_with
+try_alloc_with
 (
 |
 |
@@ -42,6 +42,10 @@ alloc_with
 ;
 10_000_000
 ]
+)
+.
+unwrap
+(
 )
 ;
 }
@@ -93,7 +97,7 @@ ignore
 )
 ]
 fn
-alloc_with_large_struct
+try_alloc_with_large_struct
 (
 )
 {
@@ -109,7 +113,7 @@ new
 ;
 b
 .
-alloc_with
+try_alloc_with
 (
 |
 |
@@ -141,6 +145,10 @@ big3
 ]
 }
 )
+.
+unwrap
+(
+)
 ;
 }
 #
@@ -156,7 +164,7 @@ ignore
 )
 ]
 fn
-alloc_with_large_tuple
+try_alloc_with_large_tuple
 (
 )
 {
@@ -172,7 +180,7 @@ new
 ;
 b
 .
-alloc_with
+try_alloc_with
 (
 |
 |
@@ -209,6 +217,10 @@ big3
 )
 }
 )
+.
+unwrap
+(
+)
 ;
 }
 enum
@@ -244,7 +256,7 @@ ignore
 )
 ]
 fn
-alloc_with_large_enum
+try_alloc_with_large_enum
 (
 )
 {
@@ -260,7 +272,7 @@ new
 ;
 b
 .
-alloc_with
+try_alloc_with
 (
 |
 |
@@ -268,6 +280,10 @@ LargeEnum
 :
 :
 Small
+)
+.
+unwrap
+(
 )
 ;
 }

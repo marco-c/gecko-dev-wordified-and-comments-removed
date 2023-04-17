@@ -125,7 +125,7 @@ version
 "
 3
 .
-4
+7
 .
 0
 "
@@ -352,6 +352,10 @@ version
 "
 [
 features
+]
+allocator_api
+=
+[
 ]
 boxed
 =

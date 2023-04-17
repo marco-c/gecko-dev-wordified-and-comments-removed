@@ -1,3 +1,11 @@
+#
+!
+[
+allow
+(
+deprecated
+)
+]
 mod
 raw_vec
 ;
