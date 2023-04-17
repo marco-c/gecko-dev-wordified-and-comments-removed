@@ -2267,6 +2267,25 @@ num_procs
 or
 1
         
+if
+sys
+.
+platform
+=
+=
+"
+win32
+"
+:
+            
+num_procs
+=
+min
+(
+num_procs
+61
+)
+        
 signal
 .
 signal
