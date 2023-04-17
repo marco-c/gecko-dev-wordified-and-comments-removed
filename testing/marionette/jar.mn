@@ -443,8 +443,6 @@ reftest
 .
 xhtml
 (
-chrome
-/
 reftest
 .
 xhtml

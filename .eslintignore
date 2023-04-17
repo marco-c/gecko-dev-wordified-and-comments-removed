@@ -1192,13 +1192,6 @@ remote
 interface
 .
 js
-remote
-/
-marionette
-/
-atom
-.
-js
 #
 services
 /
@@ -1273,6 +1266,13 @@ condprof
 tests
 /
 profile
+testing
+/
+marionette
+/
+atom
+.
+js
 testing
 /
 mozbase

@@ -290,13 +290,6 @@ remote
 doc
 /
 -
-remote
-/
-marionette
-/
-doc
-/
--
 security
 /
 manager
@@ -327,6 +320,13 @@ docs
 testing
 /
 geckodriver
+/
+doc
+/
+-
+testing
+/
+marionette
 /
 doc
 /

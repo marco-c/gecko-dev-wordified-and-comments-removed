@@ -316,7 +316,7 @@ uitour
 .
 .
 /
-remote
+testing
 /
 marionette
 "
