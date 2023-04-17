@@ -1273,12 +1273,6 @@ static
 bool
 IsAcceptableWordStart
 (
-intl
-:
-:
-WordBreaker
-*
-aBreaker
 Accessible
 *
 aAcc
@@ -2835,7 +2829,6 @@ if
 (
 IsAcceptableWordStart
 (
-breaker
 mAcc
 text
 static_cast
@@ -2953,7 +2946,6 @@ if
 (
 IsAcceptableWordStart
 (
-breaker
 mAcc
 text
 0
@@ -3144,7 +3136,6 @@ if
 (
 IsAcceptableWordStart
 (
-breaker
 mAcc
 text
 wordStart
