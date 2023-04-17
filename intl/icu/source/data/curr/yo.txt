@@ -1517,7 +1517,6 @@ Tuntun
 PHP
 {
 "
-PHP
 "
 "
 P
@@ -2110,6 +2109,7 @@ b
 XOF
 {
 "
+F
 CFA
 "
 "

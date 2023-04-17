@@ -2825,6 +2825,7 @@ Frank
 XOF
 {
 "
+F
 CFA
 "
 "

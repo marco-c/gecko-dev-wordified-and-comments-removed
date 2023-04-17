@@ -1742,6 +1742,7 @@ Lindore
 XOF
 {
 "
+F
 CFA
 "
 "

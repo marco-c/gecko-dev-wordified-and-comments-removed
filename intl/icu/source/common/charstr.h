@@ -519,6 +519,17 @@ UErrorCode
 status
 )
 ;
+CharString
+&
+appendNumber
+(
+int32_t
+number
+UErrorCode
+&
+status
+)
+;
 char
 *
 getAppendBuffer

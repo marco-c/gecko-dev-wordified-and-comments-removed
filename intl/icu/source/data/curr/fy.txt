@@ -2194,7 +2194,6 @@ kina
 PHP
 {
 "
-PHP
 "
 "
 Filipynske
@@ -3072,6 +3071,7 @@ franc
 XOF
 {
 "
+F
 CFA
 "
 "

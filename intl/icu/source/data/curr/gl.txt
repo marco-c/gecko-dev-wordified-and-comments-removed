@@ -2287,6 +2287,7 @@ Oriental
 XOF
 {
 "
+F
 CFA
 "
 "

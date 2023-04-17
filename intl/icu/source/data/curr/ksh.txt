@@ -1257,7 +1257,6 @@ Kina
 PHP
 {
 "
-PHP
 "
 "
 fillipiinesche
@@ -1835,6 +1834,7 @@ Joldfranke
 XOF
 {
 "
+F
 CFA
 "
 "

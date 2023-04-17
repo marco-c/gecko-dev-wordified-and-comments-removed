@@ -3666,16 +3666,6 @@ lea
 fakalomani
 "
 }
-root
-{
-"
-lea
-faka
-ilonga
--
-tefito
-"
-}
 rtm
 {
 "

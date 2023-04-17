@@ -321,6 +321,8 @@ concentr
 {
 milligram
 -
+ofglucose
+-
 per
 -
 deciliter
@@ -890,6 +892,8 @@ deg
 concentr
 {
 milligram
+-
+ofglucose
 -
 per
 -

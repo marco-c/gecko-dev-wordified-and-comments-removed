@@ -2784,12 +2784,6 @@ ig
 nu
 "
 }
-root
-{
-"
-sakne
-"
-}
 ru
 {
 "

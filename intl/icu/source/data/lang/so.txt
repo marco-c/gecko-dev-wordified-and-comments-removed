@@ -1245,12 +1245,6 @@ rof
 Rombo
 "
 }
-root
-{
-"
-Xidid
-"
-}
 ru
 {
 "

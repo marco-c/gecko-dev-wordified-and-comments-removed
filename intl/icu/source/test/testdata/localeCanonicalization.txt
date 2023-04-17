@@ -960,7 +960,7 @@ nnx
 ngv
 no
 ;
-nb
+no
 no_bokmal
 ;
 nb
@@ -972,7 +972,7 @@ nob
 nb
 nor
 ;
-nb
+no
 npi
 ;
 ne
@@ -4507,7 +4507,7 @@ no_Adlm_AC_bokmal_fonipa_nynorsk
 nb_Adlm_AC_fonipa
 no_Adlm_AC_fonipa
 ;
-nb_Adlm_AC_fonipa
+no_Adlm_AC_fonipa
 no_Adlm_AC_fonipa_nynorsk
 ;
 nn_Adlm_AC_fonipa
@@ -4516,7 +4516,7 @@ nob_Adlm_AC_fonipa
 nb_Adlm_AC_fonipa
 nor_Adlm_AC_fonipa
 ;
-nb_Adlm_AC_fonipa
+no_Adlm_AC_fonipa
 npi_Adlm_AC_fonipa
 ;
 ne_Adlm_AC_fonipa

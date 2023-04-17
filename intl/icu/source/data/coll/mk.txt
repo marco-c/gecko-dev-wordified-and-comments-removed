@@ -91,9 +91,7 @@ suppressContractions
 Version
 {
 "
-38
-.
-1
+39
 "
 }
 }

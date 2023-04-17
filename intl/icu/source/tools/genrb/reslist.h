@@ -10,7 +10,7 @@ KEY_SPACE_SIZE
 65536
 #
 define
-RESLIST_MAX_INT_VECTOR
+RESLIST_INT_VECTOR_INIT_SIZE
 2048
 #
 include
@@ -1845,8 +1845,11 @@ uint32_t
 byteOffset
 )
 ;
-uint32_t
+size_t
 fCount
+;
+size_t
+fSize
 ;
 uint32_t
 *

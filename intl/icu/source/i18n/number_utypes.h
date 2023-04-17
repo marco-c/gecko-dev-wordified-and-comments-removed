@@ -106,6 +106,14 @@ quantity
 MeasureUnit
 outputUnit
 ;
+const
+char
+*
+gender
+=
+"
+"
+;
 }
 ;
 }

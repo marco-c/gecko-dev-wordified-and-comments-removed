@@ -43,6 +43,9 @@ ustringtrie
 .
 h
 "
+class
+BytesTrieTest
+;
 U_NAMESPACE_BEGIN
 class
 ByteSink
@@ -620,6 +623,12 @@ private
 friend
 class
 BytesTrieBuilder
+;
+friend
+class
+:
+:
+BytesTrieTest
 ;
 BytesTrie
 (
