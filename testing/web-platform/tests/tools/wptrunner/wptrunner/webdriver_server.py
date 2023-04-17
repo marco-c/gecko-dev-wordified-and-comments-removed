@@ -14,11 +14,6 @@ import
 traceback
 import
 mozprocess
-from
-.
-process
-import
-cast_env
 __all__
 =
 [
@@ -334,12 +329,9 @@ on_output
             
 env
 =
-cast_env
-(
 self
 .
 env
-)
             
 storeOutput
 =
@@ -1378,10 +1370,7 @@ port
                                  
 env
 =
-cast_env
-(
 env
-)
                                  
 args
 =
@@ -1601,10 +1590,7 @@ port
                                  
 env
 =
-cast_env
-(
 env
-)
                                  
 args
 =
