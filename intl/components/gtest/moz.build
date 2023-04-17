@@ -28,6 +28,11 @@ TestListFormat
 cpp
 "
 "
+TestLocale
+.
+cpp
+"
+"
 TestLocaleCanonicalizer
 .
 cpp
