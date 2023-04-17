@@ -18,8 +18,6 @@ case
 import
 (
     
-expectedFailure
-    
 skip
     
 SkipTest
@@ -52,7 +50,11 @@ import
     
 CommonTestCase
     
+expectedFailure
+    
 MarionetteTestCase
     
 MetaParameterized
+    
+unexpectedSuccess
 )

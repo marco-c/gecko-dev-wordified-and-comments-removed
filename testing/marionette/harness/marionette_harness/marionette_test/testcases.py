@@ -38,7 +38,7 @@ mozlog
 import
 get_default_logger
 class
-ExpectedFailure
+expectedFailure
 (
 Exception
 )
@@ -80,7 +80,7 @@ exc_info
         
 super
 (
-ExpectedFailure
+expectedFailure
 self
 )
 .
@@ -94,7 +94,7 @@ exc_info
 =
 exc_info
 class
-UnexpectedSuccess
+unexpectedSuccess
 (
 Exception
 )
@@ -122,32 +122,6 @@ t
 "
     
 pass
-try
-:
-    
-from
-unittest
-.
-case
-import
-(
-        
-_ExpectedFailure
-        
-_UnexpectedSuccess
-    
-)
-except
-ImportError
-:
-    
-_ExpectedFailure
-=
-ExpectedFailure
-    
-_UnexpectedSuccess
-=
-UnexpectedSuccess
 def
 _wraps_parameterized
 (
@@ -941,7 +915,7 @@ Exception
 :
                         
 raise
-_ExpectedFailure
+expectedFailure
 (
 sys
 .
@@ -986,7 +960,7 @@ UnresponsiveInstanceException
 raise
             
 except
-_ExpectedFailure
+expectedFailure
 as
 e
 :
@@ -1050,7 +1024,7 @@ Exception
 :
                             
 raise
-_ExpectedFailure
+expectedFailure
 (
 sys
 .
@@ -1060,7 +1034,7 @@ exc_info
 )
                         
 raise
-_UnexpectedSuccess
+unexpectedSuccess
                     
 else
 :
@@ -1103,7 +1077,7 @@ UnresponsiveInstanceException
 raise
                 
 except
-_ExpectedFailure
+expectedFailure
 as
 e
 :
@@ -1117,7 +1091,7 @@ exc_info
 )
                 
 except
-_UnexpectedSuccess
+unexpectedSuccess
 :
                     
 addUnexpectedSuccess
@@ -1255,7 +1229,7 @@ Exception
 :
                             
 raise
-_ExpectedFailure
+expectedFailure
 (
 sys
 .
@@ -1283,7 +1257,7 @@ UnresponsiveInstanceException
 raise
                 
 except
-_ExpectedFailure
+expectedFailure
 as
 e
 :
