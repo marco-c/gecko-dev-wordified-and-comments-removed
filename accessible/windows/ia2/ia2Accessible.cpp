@@ -1356,7 +1356,7 @@ acc
 )
 {
 return
-E_NOTIMPL
+S_OK
 ;
 }
 uint64_t
