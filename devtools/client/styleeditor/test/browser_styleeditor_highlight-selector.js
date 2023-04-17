@@ -76,7 +76,7 @@ options
 options
 ;
 return
-promise
+Promise
 .
 resolve
 (

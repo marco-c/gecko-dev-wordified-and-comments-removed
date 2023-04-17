@@ -146,7 +146,7 @@ browser
 "
 )
 ;
-promise
+Promise
 .
 resolve
 (

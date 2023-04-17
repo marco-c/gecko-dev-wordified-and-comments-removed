@@ -278,16 +278,6 @@ DevToolsUtils
 "
 )
 ;
-let
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
 const
 defer
 =

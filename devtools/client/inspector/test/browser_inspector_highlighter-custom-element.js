@@ -139,7 +139,7 @@ msg
 )
 ;
 return
-promise
+Promise
 .
 all
 (

@@ -164,16 +164,6 @@ jsm
 )
 ;
 var
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-var
 {
 expectState
 }

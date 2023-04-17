@@ -542,7 +542,7 @@ container
 .
 selected
 ?
-promise
+Promise
 .
 resolve
 (
@@ -971,7 +971,7 @@ canUndo
 )
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -1048,7 +1048,7 @@ canRedo
 )
 {
 return
-promise
+Promise
 .
 reject
 (

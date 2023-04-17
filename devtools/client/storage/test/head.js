@@ -1265,7 +1265,7 @@ ruleArray
 )
 ;
 return
-promise
+Promise
 .
 all
 (
@@ -1700,7 +1700,7 @@ result
 )
 {
 return
-promise
+Promise
 .
 resolve
 (

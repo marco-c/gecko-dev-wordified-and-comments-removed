@@ -409,7 +409,7 @@ container
 .
 selected
 ?
-promise
+Promise
 .
 resolve
 (

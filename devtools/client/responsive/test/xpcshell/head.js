@@ -28,16 +28,6 @@ jsm
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 Services
 =
 require

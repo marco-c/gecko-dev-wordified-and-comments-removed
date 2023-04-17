@@ -1639,7 +1639,7 @@ canUndo
 )
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -1716,7 +1716,7 @@ canRedo
 )
 {
 return
-promise
+Promise
 .
 reject
 (
