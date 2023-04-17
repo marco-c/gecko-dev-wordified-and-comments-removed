@@ -114,6 +114,12 @@ mozilla
 class
 PresShell
 ;
+enum
+class
+PreventDefaultResult
+:
+uint8_t
+;
 namespace
 layers
 {
@@ -303,7 +309,7 @@ aPreventDefault
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-bool
+PreventDefaultResult
 FireContextmenuEvents
 (
 PresShell
