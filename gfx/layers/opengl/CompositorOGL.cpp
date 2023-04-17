@@ -12570,7 +12570,7 @@ SupportsPartialTextureUpdate
 )
 {
 return
-CanUploadSubTextures
+ShouldUploadSubTextures
 (
 mGLContext
 )

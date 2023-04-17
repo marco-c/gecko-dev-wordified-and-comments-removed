@@ -1204,6 +1204,14 @@ IntPoint
 aSrcOffset
 =
 nullptr
+gfx
+:
+:
+IntPoint
+*
+aDstOffset
+=
+nullptr
 )
 override
 ;
