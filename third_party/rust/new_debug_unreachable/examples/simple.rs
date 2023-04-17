@@ -1,9 +1,7 @@
-#
-[
-macro_use
-]
-extern
-crate
+use
+debug_unreachable
+:
+:
 debug_unreachable
 ;
 fn
