@@ -169,6 +169,10 @@ systemv
 mod
 abi
 ;
+pub
+mod
+encoding
+;
 mod
 inst
 ;

@@ -97,7 +97,6 @@ read_dir
 (
 "
 .
-.
 /
 wasmtests
 "
@@ -296,7 +295,6 @@ Path
 new
 (
 "
-.
 .
 /
 wasmtests

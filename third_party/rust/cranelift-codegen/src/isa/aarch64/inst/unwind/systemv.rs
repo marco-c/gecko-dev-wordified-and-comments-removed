@@ -335,8 +335,13 @@ self
 )
 -
 >
+Option
+<
 u16
+>
 {
+Some
+(
 regs
 :
 :
@@ -350,6 +355,7 @@ get_hw_encoding
 .
 into
 (
+)
 )
 }
 fn

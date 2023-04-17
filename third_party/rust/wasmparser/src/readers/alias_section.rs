@@ -43,6 +43,7 @@ u32
 [
 derive
 (
+Clone
 Debug
 )
 ]

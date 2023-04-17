@@ -380,6 +380,12 @@ offset_downward_to_clobbers
 :
 u32
 }
+StackAlloc
+{
+size
+:
+u32
+}
 SaveReg
 {
 clobber_offset

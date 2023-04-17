@@ -538,6 +538,17 @@ isa
 Isa
 :
 :
+S390x
+=
+>
+{
+}
+isa
+:
+:
+Isa
+:
+:
 Arm32
 |
 isa

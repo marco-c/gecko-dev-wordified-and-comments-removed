@@ -462,6 +462,9 @@ mod
 licm
 ;
 mod
+log
+;
+mod
 nan_canonicalization
 ;
 mod
