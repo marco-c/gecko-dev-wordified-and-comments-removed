@@ -2092,15 +2092,6 @@ nsAtom
 aAttribute
 )
 ;
-bool
-IsLastEditableChild
-(
-nsINode
-*
-aNode
-)
-const
-;
 nsIContent
 *
 GetFirstEditableLeaf
