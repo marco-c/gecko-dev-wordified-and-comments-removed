@@ -1875,12 +1875,6 @@ UseHTTPSRRForSpeculativeConnection
 )
 const
 ;
-static
-void
-PresetAcceptLanguages
-(
-)
-;
 private
 :
 nsHttpHandler
