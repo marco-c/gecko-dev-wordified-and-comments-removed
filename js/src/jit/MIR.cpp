@@ -331,6 +331,7 @@ mozilla
 :
 NumbersAreIdentical
 ;
+NON_GC_POINTER_TYPE_ASSERTIONS_GENERATED
 #
 ifdef
 DEBUG
