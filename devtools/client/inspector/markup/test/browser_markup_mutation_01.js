@@ -31,7 +31,6 @@ test
 async
 function
 (
-testActor
 )
 {
 const
@@ -177,7 +176,6 @@ test
 async
 function
 (
-testActor
 )
 {
 const
@@ -295,7 +293,6 @@ test
 async
 function
 (
-testActor
 )
 {
 const
@@ -591,7 +588,6 @@ test
 async
 function
 (
-testActor
 inspector
 )
 {
@@ -904,7 +900,6 @@ test
 async
 function
 (
-testActor
 )
 {
 await
@@ -1019,7 +1014,6 @@ test
 async
 function
 (
-testActor
 )
 {
 await
@@ -1119,13 +1113,10 @@ test
 async
 function
 (
-testActor
 )
 {
 await
-testActor
-.
-setProperty
+setContentPageElementProperty
 (
 "
 #
@@ -1262,7 +1253,6 @@ test
 async
 function
 (
-testActor
 )
 {
 await
@@ -1421,13 +1411,10 @@ test
 async
 function
 (
-testActor
 )
 {
 await
-testActor
-.
-setProperty
+setContentPageElementProperty
 (
 "
 #
@@ -1564,13 +1551,10 @@ test
 async
 function
 (
-testActor
 )
 {
 await
-testActor
-.
-setProperty
+setContentPageElementProperty
 (
 "
 #
@@ -1686,13 +1670,10 @@ test
 async
 function
 (
-testActor
 )
 {
 await
-testActor
-.
-setProperty
+setContentPageElementProperty
 (
 "
 #
@@ -1827,13 +1808,10 @@ test
 async
 function
 (
-testActor
 )
 {
 await
-testActor
-.
-setProperty
+setContentPageElementProperty
 (
 "
 #
@@ -2014,7 +1992,6 @@ test
 async
 function
 (
-testActor
 )
 {
 await
@@ -2124,7 +2101,6 @@ test
 async
 function
 (
-testActor
 )
 {
 await
@@ -2320,7 +2296,6 @@ test
 async
 function
 (
-testActor
 )
 {
 await
@@ -2603,7 +2578,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -2760,7 +2734,6 @@ resolve
 await
 test
 (
-testActor
 inspector
 )
 ;
