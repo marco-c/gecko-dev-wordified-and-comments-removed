@@ -27,7 +27,7 @@ enum
 class
 StyleGenericFontFamily
 :
-uint8_t
+uint32_t
 ;
 }
 typedef

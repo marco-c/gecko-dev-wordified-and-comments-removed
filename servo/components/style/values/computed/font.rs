@@ -1907,7 +1907,7 @@ Serialize
 [
 repr
 (
-u8
+u32
 )
 ]
 #
