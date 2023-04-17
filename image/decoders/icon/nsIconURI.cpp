@@ -148,13 +148,6 @@ NS_THIS_ICONURI_IMPLEMENTATION_CID
 )
 ;
 static
-NS_DEFINE_CID
-(
-kIconURICID
-NS_ICONURI_CID
-)
-;
-static
 void
 extractAttributeValue
 (
