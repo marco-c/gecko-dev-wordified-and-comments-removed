@@ -1268,6 +1268,17 @@ sponsored_position
 sponsored_tile_id
 sponsored_impression_url
 sponsored_click_url
+show_sponsored_label
+:
+link
+.
+hostname
+!
+=
+=
+"
+yandex
+"
 .
 .
 .

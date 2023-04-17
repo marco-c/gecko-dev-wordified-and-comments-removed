@@ -55106,7 +55106,7 @@ SPOC_TYPE
 |
 link
 .
-sponsored_position
+show_sponsored_label
 ?
 "
 sponsored
