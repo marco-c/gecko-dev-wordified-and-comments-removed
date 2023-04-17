@@ -99,12 +99,6 @@ after
 "
     
 "
-tab
--
-size
-"
-    
-"
 -
 webkit
 -

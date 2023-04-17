@@ -2145,9 +2145,6 @@ stroke
 width
 "
 "
--
-moz
--
 tab
 -
 size

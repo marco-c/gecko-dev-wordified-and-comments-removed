@@ -18023,7 +18023,7 @@ StyleText
 )
 -
 >
-mMozTabSize
+mTabSize
 ;
 if
 (
