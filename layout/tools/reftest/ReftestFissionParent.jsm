@@ -16,7 +16,6 @@ tellChildrenToFlushRendering
 (
 browsingContext
 ignoreThrottledAnimations
-needsAnimationFrame
 )
 {
 let
@@ -31,7 +30,6 @@ tellChildrenToFlushRenderingRecursive
 (
 browsingContext
 ignoreThrottledAnimations
-needsAnimationFrame
 promises
 )
 ;
@@ -48,7 +46,6 @@ tellChildrenToFlushRenderingRecursive
 (
 browsingContext
 ignoreThrottledAnimations
-needsAnimationFrame
 promises
 )
 {
@@ -98,7 +95,6 @@ FlushRendering
 "
 {
 ignoreThrottledAnimations
-needsAnimationFrame
 }
 )
 ;
@@ -127,7 +123,6 @@ tellChildrenToFlushRenderingRecursive
 (
 context
 ignoreThrottledAnimations
-needsAnimationFrame
 promises
 )
 ;
@@ -797,11 +792,6 @@ msg
 data
 .
 ignoreThrottledAnimations
-msg
-.
-data
-.
-needsAnimationFrame
 )
 ;
 return
