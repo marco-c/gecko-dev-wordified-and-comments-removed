@@ -5243,6 +5243,12 @@ exception_type_
 =
 =
 EXC_RESOURCE
+|
+|
+exception_type_
+=
+=
+EXC_GUARD
 )
 {
 uint64_t
