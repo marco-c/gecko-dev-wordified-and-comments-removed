@@ -604,6 +604,8 @@ browser
 .
 proton
 .
+infobars
+.
 enabled
 "
 false

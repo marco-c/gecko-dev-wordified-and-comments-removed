@@ -2358,6 +2358,16 @@ browser
 .
 proton
 .
+infobars
+.
+enabled
+"
+_ns
+"
+browser
+.
+proton
+.
 places
 -
 tooltip
