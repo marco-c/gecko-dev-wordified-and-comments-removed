@@ -745,6 +745,13 @@ final
 {
 public
 :
+static
+constexpr
+size_t
+kMaxEvents
+=
+50
+;
 UntrustedModulesData
 (
 )
