@@ -9915,6 +9915,13 @@ tabpanels
 firstElementChild
 ;
 }
+if
+(
+aTab
+.
+selected
+)
+{
 gBrowser
 .
 _insertBrowser
@@ -9922,6 +9929,7 @@ _insertBrowser
 aTab
 )
 ;
+}
 return
 document
 .
