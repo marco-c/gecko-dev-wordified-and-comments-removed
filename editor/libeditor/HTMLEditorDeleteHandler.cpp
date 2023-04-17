@@ -20224,6 +20224,10 @@ WSRunScanner
 GetPrecedingBRElementUnlessVisibleContentFound
 (
 aHTMLEditor
+.
+GetActiveEditingHost
+(
+)
 EditorDOMPoint
 :
 :
@@ -20318,6 +20322,10 @@ WSRunScanner
 GetPrecedingBRElementUnlessVisibleContentFound
 (
 aHTMLEditor
+.
+GetActiveEditingHost
+(
+)
 mPointContainingTheOtherBlockElement
 )
 ;
@@ -20424,6 +20432,10 @@ WSRunScanner
 GetPrecedingBRElementUnlessVisibleContentFound
 (
 aHTMLEditor
+.
+GetActiveEditingHost
+(
+)
 EditorDOMPoint
 :
 :
