@@ -3602,6 +3602,15 @@ if
 (
 !
 text
+|
+|
+!
+text
+-
+>
+Length
+(
+)
 )
 {
 return
