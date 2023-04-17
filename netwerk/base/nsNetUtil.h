@@ -2490,14 +2490,6 @@ a698
 .
 mozilla
 "
-bool
-NS_ShouldCheckAppCache
-(
-nsIPrincipal
-*
-aPrincipal
-)
-;
 void
 NS_WrapAuthPrompt
 (
