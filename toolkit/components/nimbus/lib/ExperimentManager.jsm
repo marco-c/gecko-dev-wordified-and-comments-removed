@@ -1018,6 +1018,7 @@ experimentType
 TELEMETRY_DEFAULT_EXPERIMENT_TYPE
 userFacingName
 userFacingDescription
+featureIds
 }
 branch
 source
@@ -1057,6 +1058,7 @@ Date
 toJSON
 (
 )
+featureIds
 }
 ;
 if
