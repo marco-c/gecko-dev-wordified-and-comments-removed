@@ -127,7 +127,7 @@ const
 ;
 private
 :
-void
+bool
 initialize
 (
 const

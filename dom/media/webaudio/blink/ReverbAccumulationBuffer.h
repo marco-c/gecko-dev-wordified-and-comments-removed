@@ -28,8 +28,12 @@ ReverbAccumulationBuffer
 {
 public
 :
-explicit
 ReverbAccumulationBuffer
+(
+)
+;
+bool
+allocate
 (
 size_t
 length
