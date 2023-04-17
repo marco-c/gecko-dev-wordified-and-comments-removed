@@ -30,11 +30,13 @@ WebrtcVideoEncoder
 *
 CreateEncoder
 (
+const
 webrtc
 :
 :
-VideoCodecType
-aCodecType
+SdpVideoFormat
+&
+aFormat
 )
 ;
 static
