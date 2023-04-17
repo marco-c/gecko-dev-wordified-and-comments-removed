@@ -1049,6 +1049,7 @@ def
 taskgraph_full
 (
 self
+command_context
 *
 *
 options
