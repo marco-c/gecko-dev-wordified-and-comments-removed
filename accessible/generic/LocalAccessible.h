@@ -182,6 +182,10 @@ XULLabelAccessible
 class
 XULTreeAccessible
 ;
+enum
+class
+CacheUpdateType
+;
 #
 ifdef
 A11Y_LOG
@@ -2124,6 +2128,8 @@ BundleFieldsForCache
 (
 uint64_t
 aCacheDomain
+CacheUpdateType
+aUpdateType
 )
 ;
 protected
