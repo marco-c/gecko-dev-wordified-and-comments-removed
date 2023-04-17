@@ -2006,7 +2006,7 @@ GetSize
 bool
 snap
 ;
-nsRegion
+nsRect
 visible
 =
 GetBounds
