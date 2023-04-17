@@ -696,6 +696,8 @@ aDBFile
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 db
 :
 :
@@ -703,6 +705,7 @@ CreateOrMigrateSchema
 (
 *
 conn
+)
 )
 )
 ;
@@ -859,6 +862,8 @@ mOrigin
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 dir
 -
 >
@@ -867,6 +872,7 @@ Append
 NS_LITERAL_STRING_FROM_CSTRING
 (
 DOMCACHE_DIRECTORY_NAME
+)
 )
 )
 )
@@ -934,6 +940,8 @@ DoesNotExist
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 mozilla
 :
 :
@@ -953,8 +961,11 @@ DirPaddingFile
 TMP_FILE
 )
 )
+)
 ;
 QM_TRY
+(
+MOZ_TO_RESULT
 (
 mozilla
 :
@@ -973,6 +984,7 @@ DirPaddingFile
 :
 :
 FILE
+)
 )
 )
 ;
@@ -995,6 +1007,8 @@ dummy
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 mozilla
 :
 :
@@ -1010,6 +1024,7 @@ dummy
 *
 morgueDir
 false
+)
 )
 )
 ;
@@ -1743,10 +1758,13 @@ aDirectory
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 DirectoryPaddingInit
 (
 *
 aDirectory
+)
 )
 )
 ;
@@ -2002,6 +2020,8 @@ paddingSize
 }
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 DirectoryPaddingDeleteFile
 (
 *
@@ -2012,8 +2032,11 @@ DirPaddingFile
 FILE
 )
 )
+)
 ;
 QM_TRY
+(
+MOZ_TO_RESULT
 (
 DirectoryPaddingDeleteFile
 (
@@ -2025,13 +2048,17 @@ DirPaddingFile
 TMP_FILE
 )
 )
+)
 ;
 QM_TRY
+(
+MOZ_TO_RESULT
 (
 DirectoryPaddingInit
 (
 *
 aBaseDir
+)
 )
 )
 ;
@@ -2156,6 +2183,8 @@ cacheQuotaClient
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 cacheQuotaClient
 -
 >
@@ -2163,6 +2192,7 @@ RestorePaddingFileInternal
 (
 aBaseDir
 aConn
+)
 )
 )
 ;
@@ -2215,6 +2245,8 @@ cacheQuotaClient
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 cacheQuotaClient
 -
 >
@@ -2222,6 +2254,7 @@ WipePaddingFileInternal
 (
 aQuotaInfo
 aBaseDir
+)
 )
 )
 ;

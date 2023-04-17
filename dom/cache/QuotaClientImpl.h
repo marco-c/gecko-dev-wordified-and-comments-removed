@@ -325,8 +325,11 @@ temporaryPaddingFileExist
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 aCommitHook
 (
+)
 )
 )
 ;
@@ -335,6 +338,8 @@ NS_OK
 ;
 }
 QM_TRY
+(
+MOZ_TO_RESULT
 (
 UpdateDirectoryPaddingFile
 (
@@ -345,11 +350,15 @@ aDecreaseSize
 temporaryPaddingFileExist
 )
 )
+)
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 aCommitHook
 (
+)
 )
 )
 ;

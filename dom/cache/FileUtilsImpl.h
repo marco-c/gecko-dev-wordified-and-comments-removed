@@ -248,12 +248,15 @@ leafName
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 file
 -
 >
 GetNativeLeafName
 (
 leafName
+)
 )
 )
 ;
