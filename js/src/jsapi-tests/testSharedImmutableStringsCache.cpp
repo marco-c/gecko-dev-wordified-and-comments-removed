@@ -218,10 +218,6 @@ str
 MOZ_RELEASE_ASSERT
 (
 deduped
-.
-isSome
-(
-)
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -233,8 +229,7 @@ EqualChars
 (
 str
 deduped
--
->
+.
 chars
 (
 )
@@ -252,8 +247,7 @@ auto
 cloned
 =
 deduped
--
->
+.
 clone
 (
 )
@@ -261,8 +255,7 @@ clone
 MOZ_RELEASE_ASSERT
 (
 deduped
--
->
+.
 chars
 (
 )

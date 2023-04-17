@@ -2359,13 +2359,7 @@ ScriptSource
 >
 source_
 ;
-mozilla
-:
-:
-Maybe
-<
 SharedImmutableString
->
 resultString_
 ;
 public

@@ -12810,7 +12810,6 @@ std
 :
 move
 (
-*
 deduped
 )
 )
@@ -12837,7 +12836,6 @@ std
 :
 move
 (
-*
 deduped
 )
 )
@@ -13372,7 +13370,6 @@ std
 :
 move
 (
-*
 deduped
 )
 sourceLength
@@ -13598,7 +13595,6 @@ std
 :
 move
 (
-*
 deduped
 )
 )
@@ -14403,10 +14399,6 @@ shouldCancel
 &
 &
 resultString_
-.
-isSome
-(
-)
 )
 {
 source_
@@ -14419,7 +14411,6 @@ std
 :
 move
 (
-*
 resultString_
 )
 )
@@ -17973,10 +17964,7 @@ typename
 CharT
 >
 static
-Maybe
-<
 SharedT
->
 GetOrCreateStringZ
 (
 JSContext
@@ -18069,10 +18057,7 @@ return
 res
 ;
 }
-Maybe
-<
 SharedImmutableString
->
 ScriptSource
 :
 :
@@ -18104,10 +18089,7 @@ str
 )
 ;
 }
-Maybe
-<
 SharedImmutableTwoByteString
->
 ScriptSource
 :
 :
@@ -18223,10 +18205,9 @@ filename
 )
 ;
 return
-filename_
-.
-isSome
+bool
 (
+filename_
 )
 ;
 }
@@ -18314,10 +18295,9 @@ filename
 )
 ;
 return
-introducerFilename_
-.
-isSome
+bool
 (
+introducerFilename_
 )
 ;
 }
@@ -18462,10 +18442,9 @@ url
 )
 ;
 return
-displayURL_
-.
-isSome
+bool
 (
+displayURL_
 )
 ;
 }
@@ -18570,10 +18549,9 @@ url
 )
 ;
 return
-sourceMapURL_
-.
-isSome
+bool
 (
+sourceMapURL_
 )
 ;
 }
