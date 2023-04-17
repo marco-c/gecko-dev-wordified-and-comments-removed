@@ -5846,7 +5846,7 @@ MS
 Format
 :
 :
-duration
+Duration
 )
 ;
 return

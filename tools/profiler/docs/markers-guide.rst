@@ -363,7 +363,7 @@ MS
 Format
 :
 :
-number
+Number
 )
 ;
 return
@@ -3886,7 +3886,7 @@ MS
 Format
 :
 :
-string
+String
 true
 )
 ;
@@ -3907,7 +3907,7 @@ MS
 Format
 :
 :
-bytes
+Bytes
 )
 ;
 schema
@@ -3927,7 +3927,7 @@ MS
 Format
 :
 :
-url
+Url
 )
 ;
 schema
@@ -3947,7 +3947,7 @@ MS
 Format
 :
 :
-time
+Time
 )
 ;
 Finally

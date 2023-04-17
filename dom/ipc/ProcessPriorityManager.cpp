@@ -755,7 +755,7 @@ MS
 Format
 :
 :
-integer
+Integer
 )
 ;
 schema
@@ -771,7 +771,7 @@ MS
 Format
 :
 :
-string
+String
 )
 ;
 schema
@@ -787,7 +787,7 @@ MS
 Format
 :
 :
-string
+String
 )
 ;
 schema
@@ -962,7 +962,7 @@ MS
 Format
 :
 :
-integer
+Integer
 )
 ;
 schema
@@ -978,7 +978,7 @@ MS
 Format
 :
 :
-string
+String
 )
 ;
 schema
@@ -995,7 +995,7 @@ MS
 Format
 :
 :
-string
+String
 )
 ;
 schema

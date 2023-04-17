@@ -813,7 +813,7 @@ case
 Format
 :
 :
-url
+Url
 :
 return
 mozilla
@@ -830,7 +830,7 @@ case
 Format
 :
 :
-filePath
+FilePath
 :
 return
 mozilla
@@ -849,7 +849,7 @@ case
 Format
 :
 :
-string
+String
 :
 return
 mozilla
@@ -866,7 +866,7 @@ case
 Format
 :
 :
-duration
+Duration
 :
 return
 mozilla
@@ -883,7 +883,7 @@ case
 Format
 :
 :
-time
+Time
 :
 return
 mozilla
@@ -900,7 +900,7 @@ case
 Format
 :
 :
-seconds
+Seconds
 :
 return
 mozilla
@@ -917,7 +917,7 @@ case
 Format
 :
 :
-milliseconds
+Milliseconds
 :
 return
 mozilla
@@ -934,7 +934,7 @@ case
 Format
 :
 :
-microseconds
+Microseconds
 :
 return
 mozilla
@@ -951,7 +951,7 @@ case
 Format
 :
 :
-nanoseconds
+Nanoseconds
 :
 return
 mozilla
@@ -968,7 +968,7 @@ case
 Format
 :
 :
-bytes
+Bytes
 :
 return
 mozilla
@@ -985,7 +985,7 @@ case
 Format
 :
 :
-percentage
+Percentage
 :
 return
 mozilla
@@ -1002,7 +1002,7 @@ case
 Format
 :
 :
-integer
+Integer
 :
 return
 mozilla
@@ -1019,7 +1019,7 @@ case
 Format
 :
 :
-decimal
+Decimal
 :
 return
 mozilla

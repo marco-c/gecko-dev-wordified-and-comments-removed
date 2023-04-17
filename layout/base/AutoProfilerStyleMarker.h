@@ -305,7 +305,7 @@ MS
 Format
 :
 :
-integer
+Integer
 )
 ;
 schema
@@ -325,7 +325,7 @@ MS
 Format
 :
 :
-integer
+Integer
 )
 ;
 schema
@@ -345,7 +345,7 @@ MS
 Format
 :
 :
-integer
+Integer
 )
 ;
 schema
@@ -365,7 +365,7 @@ MS
 Format
 :
 :
-integer
+Integer
 )
 ;
 schema
@@ -385,7 +385,7 @@ MS
 Format
 :
 :
-integer
+Integer
 )
 ;
 return
