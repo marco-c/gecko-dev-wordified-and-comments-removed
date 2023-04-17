@@ -73,14 +73,6 @@ Address
 Bar
 "
 )
-DIRS
-+
-=
-[
-"
-unitconverters
-"
-]
 JAR_MANIFESTS
 +
 =
@@ -197,11 +189,6 @@ jsm
 "
 "
 UrlbarProviderUnifiedComplete
-.
-jsm
-"
-"
-UrlbarProviderUnitConversion
 .
 jsm
 "
