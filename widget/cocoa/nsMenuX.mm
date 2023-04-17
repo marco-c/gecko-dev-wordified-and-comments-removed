@@ -1538,7 +1538,7 @@ NS_OK
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
-nsEventStatus
+void
 nsMenuX
 :
 :
@@ -1546,6 +1546,14 @@ MenuOpened
 (
 )
 {
+if
+(
+mIsOpen
+)
+{
+return
+;
+}
 if
 (
 !
@@ -1736,9 +1744,6 @@ RebuildMenu
 )
 ;
 }
-return
-nsEventStatus_eConsumeNoDefault
-;
 }
 void
 nsMenuX

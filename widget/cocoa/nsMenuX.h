@@ -319,7 +319,7 @@ DidFirePopupShowing
 )
 ;
 }
-nsEventStatus
+void
 MenuOpened
 (
 )
