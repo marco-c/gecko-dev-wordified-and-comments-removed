@@ -173,7 +173,6 @@ WebRenderLocalCanvasData
 aCanvasData
 )
 ;
-const
 wr
 :
 :
