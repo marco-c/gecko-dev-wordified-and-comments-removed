@@ -3509,6 +3509,8 @@ mochitest
 -
 plain
 -
+reftest
+-
 web
 -
 platform
