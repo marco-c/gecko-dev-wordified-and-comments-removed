@@ -4836,10 +4836,6 @@ uint16_t
 inputSource
 =
 0
-int16_t
-aButton
-=
-0
 )
 ;
 static

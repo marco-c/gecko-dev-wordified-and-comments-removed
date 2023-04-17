@@ -1040,14 +1040,6 @@ MouseEvent_Binding
 :
 :
 MOZ_SOURCE_UNKNOWN
-mouseEvent
-?
-mouseEvent
--
->
-mButton
-:
-0
 )
 ;
 }

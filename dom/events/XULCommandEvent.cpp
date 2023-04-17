@@ -237,8 +237,6 @@ bool
 aShiftKey
 bool
 aMetaKey
-int16_t
-aButton
 Event
 *
 aSourceEvent
@@ -300,10 +298,6 @@ aSourceEvent
 mInputSource
 =
 aInputSource
-;
-mButton
-=
-aButton
 ;
 }
 }
