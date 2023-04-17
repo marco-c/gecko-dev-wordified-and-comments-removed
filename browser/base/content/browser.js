@@ -23698,10 +23698,10 @@ if
 panel
 .
 state
-!
+=
 =
 "
-closed
+open
 "
 )
 {
