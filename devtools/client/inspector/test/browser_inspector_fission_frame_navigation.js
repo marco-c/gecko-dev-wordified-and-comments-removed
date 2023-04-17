@@ -496,7 +496,7 @@ has
 been
 processed
 by
-TargetList
+TargetCommand
 "
 )
 ;
