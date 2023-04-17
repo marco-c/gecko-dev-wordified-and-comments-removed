@@ -343,7 +343,9 @@ MOZ_DUMP_ASSERTION_STACK
 MozWalkTheStackWithWriter
 (
 MOZ_ReportAssertionFailurePrintFrame
-1
+CallerPC
+(
+)
 0
 )
 ;
@@ -383,7 +385,9 @@ MOZ_DUMP_ASSERTION_STACK
 MozWalkTheStack
 (
 stderr
-1
+CallerPC
+(
+)
 0
 )
 ;
@@ -482,7 +486,9 @@ MOZ_DUMP_ASSERTION_STACK
 MozWalkTheStack
 (
 stderr
-1
+CallerPC
+(
+)
 0
 )
 ;
