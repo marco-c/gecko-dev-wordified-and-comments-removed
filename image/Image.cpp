@@ -1103,6 +1103,12 @@ mLastDrawResult
 ;
 }
 }
+AutoProfilerImagePaintMarker
+PROFILER_RAII
+(
+this
+)
+;
 #
 ifdef
 DEBUG
