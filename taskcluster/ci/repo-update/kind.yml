@@ -294,11 +294,12 @@ run
 -
 time
 :
-18000
+21600
 #
 Takes
-4
-+
+up
+to
+6
 hours
 env
 :
