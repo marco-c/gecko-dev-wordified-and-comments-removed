@@ -284,6 +284,15 @@ aInputElement
 )
 ;
 }
+nsresult
+GetBadInputMessage
+(
+nsAString
+&
+aMessage
+)
+override
+;
 bool
 ConvertStringToNumber
 (
