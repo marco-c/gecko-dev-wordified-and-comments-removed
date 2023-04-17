@@ -1095,6 +1095,14 @@ aWidget
 )
 const
 ;
+bool
+SetLineOrPageDeltaY
+(
+nsIWidget
+*
+aWidget
+)
+;
 static
 gfx
 :
