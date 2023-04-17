@@ -722,14 +722,9 @@ aRect
 ;
 -
 (
-NSPoint
+NSRect
 )
-windowButtonsPositionWithDefaultPosition
-:
-(
-NSPoint
-)
-aDefaultPosition
+windowButtonsRect
 ;
 -
 (
