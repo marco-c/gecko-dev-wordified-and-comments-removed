@@ -1110,6 +1110,14 @@ blend
 =
 false
 ;
+BlendMode
+blendmode
+=
+BlendMode
+:
+:
+kBlend
+;
 std
 :
 :

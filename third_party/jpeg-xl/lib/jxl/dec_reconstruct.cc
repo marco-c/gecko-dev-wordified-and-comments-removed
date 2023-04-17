@@ -5868,7 +5868,7 @@ rect_for_upsampling
 Lines
 (
 input_y
-num_input_rows
+1
 )
 ;
 color_upsampler

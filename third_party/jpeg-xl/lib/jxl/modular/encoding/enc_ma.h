@@ -136,7 +136,7 @@ predictor
 ModularOptions
 :
 :
-WPTreeMode
+TreeMode
 wp_tree_mode
 )
 ;
@@ -156,7 +156,7 @@ properties
 ModularOptions
 :
 :
-WPTreeMode
+TreeMode
 wp_tree_mode
 )
 ;
