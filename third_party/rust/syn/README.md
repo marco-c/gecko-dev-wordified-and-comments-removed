@@ -1439,6 +1439,7 @@ of
 the
 problem
 .
+console
 error
 [
 E0277
@@ -1594,6 +1595,7 @@ a
 procedural
 macro
 .
+rust
 lazy_static
 !
 {
@@ -1646,6 +1648,7 @@ the
 macro
 input
 .
+console
 warning
 :
 come
