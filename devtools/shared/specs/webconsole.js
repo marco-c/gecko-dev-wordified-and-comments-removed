@@ -33,11 +33,6 @@ console
 traits
 "
 {
-evaluateJSAsync
-:
-"
-boolean
-"
 }
 )
 ;

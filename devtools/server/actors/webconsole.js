@@ -966,9 +966,6 @@ this
 traits
 =
 {
-blockedUrls
-:
-true
 }
 ;
 }
