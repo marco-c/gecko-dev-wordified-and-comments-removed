@@ -197,7 +197,7 @@ ToMs
 static
 Clock
 *
-GetRealTimeClock
+GetRealTimeClockRaw
 (
 )
 ;
