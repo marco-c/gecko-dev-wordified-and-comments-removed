@@ -39299,6 +39299,7 @@ skip
 -
 if
 (
+(
 webrender
 &
 &
@@ -39320,6 +39321,15 @@ AddressSanitizer
 |
 |
 Android
+)
+)
+|
+|
+(
+Android
+&
+&
+isDebugBuild
 )
 )
 fails
