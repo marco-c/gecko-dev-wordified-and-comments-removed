@@ -40,10 +40,6 @@ PTexture
 ;
 include
 protocol
-PWebGL
-;
-include
-protocol
 PWebRenderBridge
 ;
 include
@@ -523,9 +519,6 @@ manages
 PWebRenderBridge
 ;
 manages
-PWebGL
-;
-manages
 PWebGPU
 ;
 child
@@ -860,11 +853,6 @@ frames
 ;
 async
 RequestFxrOutput
-(
-)
-;
-async
-PWebGL
 (
 )
 ;

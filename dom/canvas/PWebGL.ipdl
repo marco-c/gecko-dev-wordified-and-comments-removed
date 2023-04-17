@@ -1,9 +1,5 @@
 include
 protocol
-PCompositorBridge
-;
-include
-protocol
 PCanvasManager
 ;
 using
@@ -331,8 +327,6 @@ protocol
 PWebGL
 {
 manager
-PCompositorBridge
-or
 PCanvasManager
 ;
 parent
