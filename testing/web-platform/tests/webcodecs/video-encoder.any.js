@@ -1719,8 +1719,6 @@ output_chunks
 0
 ]
 .
-data
-.
 byteLength
 0
 )
