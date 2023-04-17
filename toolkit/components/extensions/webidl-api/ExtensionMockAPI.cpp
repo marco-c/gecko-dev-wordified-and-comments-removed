@@ -60,6 +60,7 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 ExtensionMockAPI
 mGlobal
+mExtensionBrowser
 mOnTestEventMgr
 )
 ;
@@ -90,10 +91,19 @@ mGlobal
 (
 aGlobal
 )
+mExtensionBrowser
+(
+aExtensionBrowser
+)
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
 mGlobal
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+mExtensionBrowser
 )
 ;
 }
