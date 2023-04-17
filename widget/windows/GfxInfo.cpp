@@ -8190,9 +8190,6 @@ FEATURE_FAILURE_INTEL_W7_D3D9_LAYERS
 "
 )
 ;
-#
-ifndef
-NIGHTLY_BUILD
 APPEND_TO_DRIVER_BLOCKLIST_RANGE
 (
 OperatingSystem
@@ -8243,8 +8240,6 @@ driver
 "
 )
 ;
-#
-endif
 #
 if
 defined
