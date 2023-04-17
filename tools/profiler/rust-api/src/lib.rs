@@ -1,5 +1,9 @@
+pub
 mod
 gecko_bindings
+;
+mod
+label
 ;
 mod
 profiler_state
@@ -13,6 +17,13 @@ gecko_bindings
 :
 :
 profiling_categories
+:
+:
+*
+;
+pub
+use
+label
 :
 :
 *
