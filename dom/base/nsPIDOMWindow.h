@@ -2175,12 +2175,6 @@ return
 mIsBackground
 ;
 }
-SuspendTypes
-GetMediaSuspend
-(
-)
-const
-;
 bool
 GetAudioMuted
 (
