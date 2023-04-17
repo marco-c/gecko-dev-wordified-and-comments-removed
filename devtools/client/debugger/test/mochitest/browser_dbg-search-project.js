@@ -390,7 +390,7 @@ findAllElements
 (
 dbg
 "
-projectSerchExpandedResults
+projectSearchExpandedResults
 "
 )
 .
