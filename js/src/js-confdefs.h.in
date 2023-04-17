@@ -56,15 +56,6 @@ configure
 undef
 ALLDEFINES
 #
-include
-"
-js
-/
-RequiredDefines
-.
-h
-"
-#
 endif
 /
 *
