@@ -378,8 +378,8 @@ naive
 :
 {
 internals
-MIN_DATE
 MAX_DATE
+MIN_DATE
 }
 ;
 use
