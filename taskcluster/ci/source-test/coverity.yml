@@ -175,6 +175,10 @@ linux64
 -
 node
 -
+linux64
+-
+lucetc
+-
 sysroot
 -
 x86_64
