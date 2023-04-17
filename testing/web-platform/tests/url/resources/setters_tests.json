@@ -8658,13 +8658,11 @@ comment
 "
 :
 "
-Stuff
-after
-a
 :
 delimiter
-is
-ignored
+invalidates
+entire
+value
 "
 "
 href
@@ -8708,7 +8706,7 @@ http
 /
 example
 .
-com
+net
 /
 path
 "
@@ -8719,7 +8717,7 @@ host
 "
 example
 .
-com
+net
 "
 "
 hostname
@@ -8728,7 +8726,7 @@ hostname
 "
 example
 .
-com
+net
 "
 "
 port
@@ -8744,13 +8742,11 @@ comment
 "
 :
 "
-Stuff
-after
-a
 :
 delimiter
-is
-ignored
+invalidates
+entire
+value
 "
 "
 href
@@ -8795,7 +8791,7 @@ http
 /
 example
 .
-com
+net
 :
 8080
 /
@@ -8808,7 +8804,7 @@ host
 "
 example
 .
-com
+net
 :
 8080
 "
@@ -8819,7 +8815,7 @@ hostname
 "
 example
 .
-com
+net
 "
 "
 port
