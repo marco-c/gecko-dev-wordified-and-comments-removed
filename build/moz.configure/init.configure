@@ -7367,11 +7367,16 @@ if
 path
 :
 return
+normalize_path
+(
 path
 [
 0
 ]
+)
 return
+normalize_path
+(
 os
 .
 path
@@ -7391,6 +7396,7 @@ join
 .
 mozbuild
 "
+)
 )
 )
 template
