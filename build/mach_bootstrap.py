@@ -2489,6 +2489,8 @@ get_cpu_brand
 get_distro_and_version
         
 get_psutil_stats
+        
+get_shell_info
     
 )
     
@@ -2572,6 +2574,31 @@ distro_version
 set
 (
 version
+)
+    
+vscode_terminal
+ssh_connection
+=
+get_shell_info
+(
+)
+    
+system_metrics
+.
+vscode_terminal
+.
+set
+(
+vscode_terminal
+)
+    
+system_metrics
+.
+ssh_connection
+.
+set
+(
+ssh_connection
 )
     
 has_psutil
