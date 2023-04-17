@@ -67,10 +67,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mGlobal
 )
-NS_IMPL_CYCLE_COLLECTION_UNLINK
-(
-mExtensionBrowser
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_PRESERVED_WRAPPER
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
@@ -80,10 +76,6 @@ ExtensionEventManager
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mGlobal
-)
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
-mExtensionBrowser
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN
@@ -160,9 +152,6 @@ ExtensionEventManager
 nsIGlobalObject
 *
 aGlobal
-ExtensionBrowser
-*
-aExtensionBrowser
 const
 nsAString
 &
@@ -185,10 +174,6 @@ mGlobal
 (
 aGlobal
 )
-mExtensionBrowser
-(
-aExtensionBrowser
-)
 mAPINamespace
 (
 aNamespace
@@ -209,11 +194,6 @@ aObjectId
 MOZ_DIAGNOSTIC_ASSERT
 (
 mGlobal
-)
-;
-MOZ_DIAGNOSTIC_ASSERT
-(
-mExtensionBrowser
 )
 ;
 RefPtr
@@ -468,7 +448,6 @@ ExtensionEventListener
 Create
 (
 mGlobal
-mExtensionBrowser
 &
 aCallback
 [

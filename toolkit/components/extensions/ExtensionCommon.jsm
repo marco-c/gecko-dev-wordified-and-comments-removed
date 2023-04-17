@@ -1644,15 +1644,6 @@ extension
 privateBrowsingAllowed
 ;
 }
-get
-useWebIDLBindings
-(
-)
-{
-return
-false
-;
-}
 canAccessWindow
 (
 window

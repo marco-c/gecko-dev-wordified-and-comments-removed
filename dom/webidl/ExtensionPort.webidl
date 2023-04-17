@@ -151,7 +151,7 @@ Replaceable
 ]
 readonly
 attribute
-any
+object
 sender
 ;
 [
@@ -159,7 +159,8 @@ Replaceable
 ]
 readonly
 attribute
-any
+object
+?
 error
 ;
 [
