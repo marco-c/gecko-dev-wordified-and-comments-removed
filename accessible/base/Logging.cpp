@@ -370,15 +370,6 @@ logging
 :
 eVerbose
 }
-{
-"
-cache
-"
-logging
-:
-:
-eCache
-}
 }
 ;
 static
