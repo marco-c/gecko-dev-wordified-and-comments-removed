@@ -460,6 +460,9 @@ waitForStateChange
 id
 state
 isEnabled
+isExtra
+=
+false
 )
 {
 return
@@ -487,10 +490,12 @@ state
 state
 &
 &
-!
 e
 .
 isExtraState
+=
+=
+isExtra
 &
 &
 isEnabled
