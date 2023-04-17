@@ -32,6 +32,13 @@ nsIOService
 .
 h
 "
+#
+include
+"
+DNS
+.
+h
+"
 namespace
 mozilla
 {

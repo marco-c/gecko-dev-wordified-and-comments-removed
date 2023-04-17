@@ -77,6 +77,15 @@ DNS
 .
 h
 "
+#
+include
+"
+ipc
+/
+IPCMessageUtilsSpecializations
+.
+h
+"
 namespace
 IPC
 {
