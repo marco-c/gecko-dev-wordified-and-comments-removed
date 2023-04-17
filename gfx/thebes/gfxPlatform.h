@@ -2335,6 +2335,12 @@ InitWebGPUConfig
 ;
 virtual
 void
+InitWindowOcclusionConfig
+(
+)
+;
+virtual
+void
 GetPlatformDisplayInfo
 (
 mozilla

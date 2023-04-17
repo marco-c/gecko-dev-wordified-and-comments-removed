@@ -264,6 +264,15 @@ DMABUF
 "
 )
 \
+_
+(
+WINDOW_OCCLUSION
+Feature
+"
+WINDOW_OCCLUSION
+"
+)
+\
 /
 *
 Add
