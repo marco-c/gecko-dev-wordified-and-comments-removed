@@ -498,6 +498,7 @@ static
 bool
 IsFormatNode
 (
+const
 nsINode
 *
 aNode
