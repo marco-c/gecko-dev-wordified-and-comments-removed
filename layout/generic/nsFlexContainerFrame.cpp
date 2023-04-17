@@ -9439,6 +9439,14 @@ mFrame
 GetPrevInFlow
 (
 )
+|
+|
+mFrame
+-
+>
+GetNextInFlow
+(
+)
 )
 {
 FLEX_LOG
@@ -9457,9 +9465,10 @@ final
 reflow
 due
 to
-being
-a
 continuation
+(
+s
+)
 "
 mFrame
 )
