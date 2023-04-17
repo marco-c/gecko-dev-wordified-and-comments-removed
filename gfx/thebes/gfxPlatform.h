@@ -1144,7 +1144,6 @@ GetAzureContentBackend
 )
 const
 ;
-virtual
 void
 GetAzureBackendInfo
 (

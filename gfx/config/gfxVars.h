@@ -162,13 +162,6 @@ IntSize
 \
 _
 (
-UseXRender
-bool
-false
-)
-\
-_
-(
 OffscreenFormat
 gfxImageFormat
 \
