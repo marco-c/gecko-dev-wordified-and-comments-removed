@@ -653,6 +653,24 @@ args
 .
 gecko_profile_entries
             
+gecko_profile_extra_threads
+=
+args
+.
+gecko_profile_extra_threads
+            
+gecko_profile_threads
+=
+args
+.
+gecko_profile_threads
+            
+gecko_profile_features
+=
+args
+.
+gecko_profile_features
+            
 symbols_path
 =
 args
