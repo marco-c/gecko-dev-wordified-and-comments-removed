@@ -1320,15 +1320,6 @@ Customize
 toolbar
 appmenu
 -
-taskmanager
-=
-.
-label
-=
-Task
-Manager
-appmenu
--
 developer
 -
 tools
