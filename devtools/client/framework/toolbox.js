@@ -8753,13 +8753,14 @@ function
 {
 if
 (
+!
 this
 .
 target
 .
 traits
 .
-javascriptEnabled
+javascriptEnabledHandledInParent
 )
 {
 const

@@ -708,6 +708,9 @@ true
 navigation
 :
 true
+javascriptEnabledHandledInParent
+:
+true
 }
 ;
 this
