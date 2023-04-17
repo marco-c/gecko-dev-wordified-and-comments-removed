@@ -1898,7 +1898,9 @@ false
 ;
 }
 }
-typedef
+using
+fnCreateT
+=
 decltype
 (
 gl
@@ -1909,7 +1911,6 @@ GLContextProviderEGL
 :
 CreateHeadless
 )
-fnCreateT
 ;
 const
 auto

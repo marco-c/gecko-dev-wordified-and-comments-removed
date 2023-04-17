@@ -36,9 +36,10 @@ mozilla
 namespace
 webgl
 {
-typedef
-uint8_t
+using
 EffectiveFormatValueT
+=
+uint8_t
 ;
 enum
 class

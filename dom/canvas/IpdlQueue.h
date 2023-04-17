@@ -3247,7 +3247,9 @@ Actor
 >
 >
 {
-typedef
+using
+paramType
+=
 mozilla
 :
 :
@@ -3258,7 +3260,6 @@ IpdlProducer
 <
 Actor
 >
-paramType
 ;
 static
 void
@@ -3371,7 +3372,9 @@ Actor
 >
 >
 {
-typedef
+using
+paramType
+=
 mozilla
 :
 :
@@ -3382,7 +3385,6 @@ IpdlConsumer
 <
 Actor
 >
-paramType
 ;
 static
 void
@@ -3512,7 +3514,9 @@ dom
 IpdlQueueBuffer
 >
 {
-typedef
+using
+paramType
+=
 mozilla
 :
 :
@@ -3520,7 +3524,6 @@ dom
 :
 :
 IpdlQueueBuffer
-paramType
 ;
 static
 void

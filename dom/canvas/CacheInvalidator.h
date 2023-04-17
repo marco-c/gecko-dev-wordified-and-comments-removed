@@ -87,7 +87,9 @@ const
 class
 AbstractCache
 {
-typedef
+using
+InvalidatorListT
+=
 std
 :
 :
@@ -97,7 +99,6 @@ const
 CacheInvalidator
 *
 >
-InvalidatorListT
 ;
 private
 :
@@ -499,7 +500,9 @@ b
 }
 }
 ;
-typedef
+using
+MapT
+=
 std
 :
 :
@@ -515,7 +518,6 @@ Entry
 DerefHash
 DerefEqual
 >
-MapT
 ;
 MapT
 mMap

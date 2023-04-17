@@ -50,14 +50,15 @@ mozilla
 class
 CanvasImageCache
 {
-typedef
+using
+SourceSurface
+=
 mozilla
 :
 :
 gfx
 :
 :
-SourceSurface
 SourceSurface
 ;
 public

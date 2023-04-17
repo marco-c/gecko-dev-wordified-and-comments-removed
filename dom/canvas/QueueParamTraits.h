@@ -185,7 +185,9 @@ T
 struct
 RemoveCVR
 {
-typedef
+using
+Type
+=
 typename
 std
 :
@@ -207,7 +209,6 @@ type
 :
 :
 type
-Type
 ;
 }
 ;
@@ -1545,11 +1546,14 @@ EnumValidator
 struct
 EnumSerializer
 {
-typedef
-E
+using
 ParamType
+=
+E
 ;
-typedef
+using
+DataType
+=
 typename
 std
 :
@@ -1561,7 +1565,6 @@ E
 :
 :
 type
-DataType
 ;
 template
 <

@@ -188,9 +188,10 @@ dom
 class
 HTMLImageElementOrSVGImageElementOrHTMLCanvasElementOrHTMLVideoElementOrImageBitmap
 ;
-typedef
-HTMLImageElementOrSVGImageElementOrHTMLCanvasElementOrHTMLVideoElementOrImageBitmap
+using
 CanvasImageSource
+=
+HTMLImageElementOrSVGImageElementOrHTMLCanvasElementOrHTMLVideoElementOrImageBitmap
 ;
 class
 ImageBitmap
