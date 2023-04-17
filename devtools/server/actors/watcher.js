@@ -707,13 +707,6 @@ WEBSOCKET
 hasBrowserElement
 }
 "
-set
--
-breakpoints
-"
-:
-true
-"
 target
 -
 configuration
