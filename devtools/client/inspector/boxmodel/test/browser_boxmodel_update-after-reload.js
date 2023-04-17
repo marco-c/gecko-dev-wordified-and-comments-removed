@@ -36,7 +36,6 @@ const
 {
 inspector
 boxmodel
-testActor
 }
 =
 await
@@ -87,9 +86,7 @@ inspector
 )
 ;
 await
-testActor
-.
-reload
+refreshTab
 (
 )
 ;

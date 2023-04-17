@@ -388,7 +388,6 @@ const
 toolbox
 inspector
 view
-testActor
 }
 =
 await
@@ -428,10 +427,8 @@ navigation
 )
 ;
 await
-reloadPage
+refreshTab
 (
-inspector
-testActor
 )
 ;
 await

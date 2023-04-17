@@ -58,7 +58,6 @@ const
 {
 inspector
 view
-testActor
 }
 =
 await
@@ -241,10 +240,8 @@ page
 )
 ;
 await
-reloadPage
+refreshTab
 (
-inspector
-testActor
 )
 ;
 ok
