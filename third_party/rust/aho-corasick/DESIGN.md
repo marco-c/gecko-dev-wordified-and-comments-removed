@@ -40,7 +40,7 @@ target
 audience
 of
 this
-crate
+document
 is
 Rust
 programmers
@@ -156,6 +156,7 @@ using
 dense
 transitions
 near
+the
 root
 with
 sparse
@@ -804,7 +805,7 @@ in
 the
 haystack
 exactly
-ocne
+once
 .
 This
 means
@@ -2733,7 +2734,7 @@ can
 take
 longer
 to
-builder
+build
 .
 One
 small

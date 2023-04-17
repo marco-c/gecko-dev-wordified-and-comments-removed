@@ -17,6 +17,9 @@ hash
 Hash
 ;
 use
+crate
+:
+:
 error
 :
 :
@@ -267,7 +270,6 @@ usize
 }
 }
 pub
-unsafe
 trait
 StateID
 :
@@ -321,7 +323,6 @@ max_id
 usize
 ;
 }
-unsafe
 impl
 StateID
 for
@@ -382,7 +383,6 @@ usize
 MAX
 }
 }
-unsafe
 impl
 StateID
 for
@@ -449,7 +449,6 @@ as
 usize
 }
 }
-unsafe
 impl
 StateID
 for
@@ -535,7 +534,6 @@ target_pointer_width
 )
 )
 ]
-unsafe
 impl
 StateID
 for
@@ -613,7 +611,6 @@ target_pointer_width
 "
 )
 ]
-unsafe
 impl
 StateID
 for

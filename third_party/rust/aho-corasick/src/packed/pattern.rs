@@ -29,6 +29,9 @@ std
 usize
 ;
 use
+crate
+:
+:
 packed
 :
 :
@@ -590,6 +593,10 @@ PatternID
 -
 >
 Pattern
+<
+'
+_
+>
 {
 Pattern
 (
@@ -629,6 +636,10 @@ PatternID
 -
 >
 Pattern
+<
+'
+_
+>
 {
 Pattern
 (
@@ -654,6 +665,10 @@ self
 -
 >
 PatternIter
+<
+'
+_
+>
 {
 PatternIter
 {
@@ -849,6 +864,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >

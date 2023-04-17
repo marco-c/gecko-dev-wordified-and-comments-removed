@@ -5,6 +5,9 @@ std
 u16
 ;
 use
+crate
+:
+:
 packed
 :
 :
@@ -14,6 +17,9 @@ pattern
 Patterns
 ;
 use
+crate
+:
+:
 packed
 :
 :
@@ -23,6 +29,9 @@ rabinkarp
 RabinKarp
 ;
 use
+crate
+:
+:
 packed
 :
 :
@@ -35,6 +44,9 @@ Teddy
 }
 ;
 use
+crate
+:
+:
 Match
 ;
 const
@@ -654,10 +666,6 @@ clone
 (
 )
 patterns
-:
-patterns
-rabinkarp
-:
 rabinkarp
 search_kind
 minimum_len

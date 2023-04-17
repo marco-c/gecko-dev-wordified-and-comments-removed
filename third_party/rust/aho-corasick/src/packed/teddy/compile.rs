@@ -20,6 +20,9 @@ std
 fmt
 ;
 use
+crate
+:
+:
 packed
 :
 :
@@ -32,6 +35,9 @@ Patterns
 }
 ;
 use
+crate
+:
+:
 packed
 :
 :
@@ -207,6 +213,9 @@ Teddy
 >
 {
 use
+crate
+:
+:
 packed
 :
 :
@@ -415,8 +424,6 @@ Some
 Teddy
 {
 buckets
-:
-buckets
 max_pattern_id
 :
 patterns
@@ -470,8 +477,6 @@ Some
 Teddy
 {
 buckets
-:
-buckets
 max_pattern_id
 :
 patterns
@@ -524,8 +529,6 @@ Some
 (
 Teddy
 {
-buckets
-:
 buckets
 max_pattern_id
 :
@@ -580,8 +583,6 @@ Some
 Teddy
 {
 buckets
-:
-buckets
 max_pattern_id
 :
 patterns
@@ -650,8 +651,6 @@ Some
 Teddy
 {
 buckets
-:
-buckets
 max_pattern_id
 :
 patterns
@@ -719,8 +718,6 @@ Some
 (
 Teddy
 {
-buckets
-:
 buckets
 max_pattern_id
 :
@@ -789,8 +786,6 @@ Some
 (
 Teddy
 {
-buckets
-:
 buckets
 max_pattern_id
 :
@@ -875,8 +870,6 @@ Some
 Teddy
 {
 buckets
-:
-buckets
 max_pattern_id
 :
 patterns
@@ -959,8 +952,6 @@ Some
 (
 Teddy
 {
-buckets
-:
 buckets
 max_pattern_id
 :
@@ -1459,6 +1450,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -1969,6 +1964,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >

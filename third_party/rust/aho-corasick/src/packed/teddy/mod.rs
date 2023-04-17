@@ -11,6 +11,9 @@ x86_64
 ]
 pub
 use
+crate
+:
+:
 packed
 :
 :
@@ -38,6 +41,9 @@ x86_64
 ]
 pub
 use
+crate
+:
+:
 packed
 :
 :
@@ -65,6 +71,9 @@ x86_64
 ]
 pub
 use
+crate
+:
+:
 packed
 :
 :
@@ -89,6 +98,9 @@ x86_64
 ]
 pub
 use
+crate
+:
+:
 packed
 :
 :
@@ -146,6 +158,9 @@ mod
 fallback
 {
 use
+crate
+:
+:
 packed
 :
 :
@@ -155,6 +170,9 @@ pattern
 Patterns
 ;
 use
+crate
+:
+:
 Match
 ;
 #
