@@ -364,7 +364,7 @@ Metric
 Type
 ]
 (
-new_metric_type
+new_metric_types
 .
 md
 )

@@ -150,6 +150,11 @@ certain
 conditions
 ]
 (
+.
+.
+/
+dev
+/
 ipc
 .
 md

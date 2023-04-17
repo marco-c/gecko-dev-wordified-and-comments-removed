@@ -1140,6 +1140,11 @@ GIFFT
 )
 ]
 (
+.
+.
+/
+user
+/
 gifft
 .
 md
@@ -2512,7 +2517,6 @@ _get
 FFI
 API
 to
-[
 api
 /
 src
@@ -2522,9 +2526,6 @@ ffi
 mod
 .
 rs
-]
-(
-)
 .
 This
 is

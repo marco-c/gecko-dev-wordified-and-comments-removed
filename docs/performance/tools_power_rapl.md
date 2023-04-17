@@ -121,6 +121,9 @@ of
 Firefox
 ]
 (
+.
+.
+/
 setup
 /
 index
