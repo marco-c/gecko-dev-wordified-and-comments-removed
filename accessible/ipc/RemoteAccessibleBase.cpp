@@ -34,17 +34,6 @@ mozilla
 /
 a11y
 /
-HyperTextAccessible
-.
-h
-"
-#
-include
-"
-mozilla
-/
-a11y
-/
 Platform
 .
 h
