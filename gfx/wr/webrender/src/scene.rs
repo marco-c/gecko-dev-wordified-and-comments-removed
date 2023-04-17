@@ -1444,6 +1444,7 @@ SpatialTree
 :
 new
 (
+&
 SceneSpatialTree
 :
 :

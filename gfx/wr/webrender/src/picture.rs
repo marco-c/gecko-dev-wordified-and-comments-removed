@@ -95,7 +95,6 @@ SpatialTree
 CoordinateSpaceMapping
 SpatialNodeIndex
 VisibleFace
-SpatialNodeContainer
 }
 ;
 use
