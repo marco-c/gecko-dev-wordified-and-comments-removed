@@ -18155,7 +18155,7 @@ SyncDecodeImages
 nsCSSRendering
 :
 :
-PaintOutline
+PaintNonThemedOutline
 (
 aPresContext
 aRenderingContext

@@ -789,14 +789,14 @@ Maybe
 <
 nsCSSBorderRenderer
 >
-CreateBorderRendererForOutline
+CreateBorderRendererForNonThemedOutline
 (
 nsPresContext
 *
 aPresContext
-gfxContext
+DrawTarget
 *
-aRenderingContext
+aDrawTarget
 nsIFrame
 *
 aForFrame
@@ -807,7 +807,7 @@ aDirtyRect
 const
 nsRect
 &
-aBorderArea
+aInnerRect
 mozilla
 :
 :
@@ -982,7 +982,7 @@ aStyleBorder
 ;
 static
 void
-PaintOutline
+PaintNonThemedOutline
 (
 nsPresContext
 *
@@ -1000,7 +1000,7 @@ aDirtyRect
 const
 nsRect
 &
-aBorderArea
+aInnerRect
 mozilla
 :
 :

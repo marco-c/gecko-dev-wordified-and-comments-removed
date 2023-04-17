@@ -8444,7 +8444,7 @@ skipSides
 nsCSSRendering
 :
 :
-PaintOutline
+PaintNonThemedOutline
 (
 presContext
 *
