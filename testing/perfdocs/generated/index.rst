@@ -110,6 +110,11 @@ awsy
 :
 doc
 :
+fxrecord
+*
+:
+doc
+:
 mozperftest
 *
 :
