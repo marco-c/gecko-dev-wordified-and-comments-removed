@@ -2112,16 +2112,6 @@ const
 ;
 nsIContent
 *
-GetFirstEditableChild
-(
-nsINode
-&
-aNode
-)
-const
-;
-nsIContent
-*
 GetFirstEditableLeaf
 (
 nsINode
