@@ -119,6 +119,9 @@ debug
 '
 fission
 '
+'
+wayland
+'
 ]
 linux
 .
@@ -137,6 +140,9 @@ sw
 '
 '
 fission
+'
+'
+wayland
 '
 ]
 android
@@ -427,6 +433,9 @@ fission
 fission
 -
 xorigin
+'
+'
+wayland
 '
 ]
 android
@@ -1024,6 +1033,9 @@ a11y
 -
 checks
 '
+'
+wayland
+'
 ]
 linux
 .
@@ -1042,6 +1054,9 @@ sw
 '
 '
 fission
+'
+'
+wayland
 '
 ]
 windows10
@@ -2126,6 +2141,9 @@ a11y
 -
 checks
 '
+'
+wayland
+'
 ]
 linux
 .
@@ -2144,6 +2162,9 @@ sw
 '
 '
 fission
+'
+'
+wayland
 '
 ]
 default
@@ -3539,6 +3560,9 @@ webgl
 -
 ipc
 '
+'
+wayland
+'
 ]
 default
 :
@@ -4446,6 +4470,9 @@ webgl
 -
 ipc
 '
+'
+wayland
+'
 ]
 (
 linux
@@ -4806,6 +4833,9 @@ webgl
 -
 ipc
 '
+'
+wayland
+'
 ]
 linux
 .
@@ -4829,6 +4859,9 @@ fission
 webgl
 -
 ipc
+'
+'
+wayland
 '
 ]
 windows10
@@ -5169,6 +5202,9 @@ webgl
 -
 ipc
 '
+'
+wayland
+'
 ]
 linux
 .
@@ -5197,6 +5233,9 @@ fission
 webgl
 -
 ipc
+'
+'
+wayland
 '
 ]
 windows10
@@ -5505,6 +5544,9 @@ webgl
 -
 ipc
 '
+'
+wayland
+'
 ]
 linux
 .
@@ -5533,6 +5575,9 @@ fission
 webgl
 -
 ipc
+'
+'
+wayland
 '
 ]
 windows10
@@ -5770,6 +5815,9 @@ sw
 webgl
 -
 ipc
+'
+'
+wayland
 '
 ]
 default
