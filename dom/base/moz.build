@@ -1082,6 +1082,11 @@ PlacesBookmarkTitle
 h
 "
 "
+PlacesBookmarkUrl
+.
+h
+"
+"
 PlacesEvent
 .
 h
