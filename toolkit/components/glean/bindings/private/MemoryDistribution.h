@@ -76,9 +76,13 @@ aSample
 )
 const
 ;
+Result
+<
 Maybe
 <
 DistributionData
+>
+nsCString
 >
 TestGetValue
 (
