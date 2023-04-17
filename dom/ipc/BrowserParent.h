@@ -3795,6 +3795,12 @@ LayoutDeviceToLayoutDeviceMatrix4x4
 >
 mChildToParentConversionMatrix
 ;
+Maybe
+<
+ScreenRect
+>
+mRemoteDocumentRect
+;
 nsIntRect
 mRect
 ;
