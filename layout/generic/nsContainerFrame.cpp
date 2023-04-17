@@ -310,6 +310,15 @@ mozilla
 gfx
 :
 :
+DrawTarget
+;
+using
+mozilla
+:
+:
+gfx
+:
+:
 Rect
 ;
 using
