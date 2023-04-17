@@ -1602,7 +1602,7 @@ t
 NS_GetTimerDeadlineHintOnCurrentThread
 (
 clearUntil
-100
+0
 )
 ;
 if
