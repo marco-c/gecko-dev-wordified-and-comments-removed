@@ -1278,9 +1278,6 @@ PrefUtils
 .
 setPref
 (
-"
-user
-"
 STARTUP_PREFS_BRANCH
 +
 prefSpec

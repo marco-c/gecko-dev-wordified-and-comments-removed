@@ -390,6 +390,16 @@ migrations
 .
 migration02RemoveOldAddonStudyAction
 migrateRemoveLastBuildIdPref
+PreferenceExperiments
+.
+migrations
+.
+migration05RemoveOldAction
+PreferenceExperiments
+.
+migrations
+.
+migration06TrackOverriddenPrefs
 ]
 }
 ;

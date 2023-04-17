@@ -341,11 +341,15 @@ PrefUtils
 .
 setPref
 (
+preferenceName
+previousValue
+{
+branch
+:
 "
 default
 "
-preferenceName
-previousValue
+}
 )
 ;
 }
