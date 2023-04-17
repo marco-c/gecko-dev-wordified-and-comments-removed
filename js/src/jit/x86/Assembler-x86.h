@@ -992,7 +992,7 @@ constexpr
 uint32_t
 WasmCheckedTailEntryOffset
 =
-16u
+4u
 ;
 struct
 ImmTag

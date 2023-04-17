@@ -1187,7 +1187,7 @@ constexpr
 uint32_t
 WasmCheckedTailEntryOffset
 =
-32u
+16u
 ;
 class
 Assembler

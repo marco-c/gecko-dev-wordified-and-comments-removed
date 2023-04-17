@@ -65,7 +65,7 @@ constexpr
 uint32_t
 WasmCheckedTailEntryOffset
 =
-0u
+1u
 ;
 class
 Registers
