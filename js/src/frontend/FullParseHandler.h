@@ -4733,7 +4733,7 @@ ClassBodyScope
 ParserData
 *
 bindings
-Node
+ListNodeType
 body
 )
 {
