@@ -469,12 +469,6 @@ IgnoreDiskCache
 (
 )
 ;
-static
-bool
-GetIgnoreDiskCache
-(
-)
-;
 nsresult
 GetDebugObjectOutputStream
 (
