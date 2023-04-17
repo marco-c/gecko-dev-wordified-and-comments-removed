@@ -20,6 +20,8 @@ unittest
 import
 json
 import
+os
+import
 mozunit
 import
 mozbuild
@@ -140,6 +142,19 @@ contributor
 "
 "
         
+os
+.
+environ
+[
+"
+MOZ_BUILD_DATE
+"
+]
+=
+"
+20210928100000
+"
+        
 manifest
 =
 langpack_manifest
@@ -149,6 +164,14 @@ create_webmanifest
             
 "
 fi
+"
+            
+"
+57
+.
+0
+.
+1
 "
             
 "
@@ -248,6 +271,27 @@ White
 "
         
 )
+        
+self
+.
+assertEquals
+(
+data
+[
+"
+version
+"
+]
+"
+57
+.
+0
+.
+1buildid20210928
+.
+100000
+"
+)
     
 def
 test_manifest_without_contributors
@@ -293,6 +337,14 @@ create_webmanifest
             
 "
 fi
+"
+            
+"
+57
+.
+0
+.
+1
 "
             
 "

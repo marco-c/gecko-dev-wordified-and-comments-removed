@@ -2112,11 +2112,9 @@ AB_CD
 )
 -
 -
-min
--
 app
 -
-ver
+version
 (
 MOZ_APP_VERSION
 )
