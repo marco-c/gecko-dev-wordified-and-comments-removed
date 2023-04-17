@@ -1950,6 +1950,8 @@ this
 props
 .
 totalNumberOfScreens
+-
+1
 }
 handleAction
 =
