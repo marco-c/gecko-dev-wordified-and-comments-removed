@@ -3671,7 +3671,7 @@ hasSuggestedIndex
 )
 {
 let
-targetIndex
+finalIndex
 =
 result
 .
@@ -3684,13 +3684,11 @@ Math
 .
 min
 (
-this
-.
-_rows
-.
-children
+results
 .
 length
+-
+1
 result
 .
 suggestedIndex
@@ -3701,11 +3699,7 @@ Math
 max
 (
 0
-this
-.
-_rows
-.
-children
+results
 .
 length
 +
@@ -3725,7 +3719,7 @@ children
 length
 !
 =
-targetIndex
+finalIndex
 )
 {
 seenMisplacedSuggestedIndex
