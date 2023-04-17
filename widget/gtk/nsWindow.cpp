@@ -11373,6 +11373,9 @@ GetFontScaleFactor
 )
 ;
 }
+#
+ifdef
+MOZ_WAYLAND
 nsRect
 anchorRectAppUnits
 =
@@ -11398,6 +11401,8 @@ p2a
 )
 )
 ;
+#
+endif
 LOG_POPUP
 (
 (
@@ -11750,6 +11755,9 @@ menuAnchor
 GDK_GRAVITY_NORTH_WEST
 ;
 }
+#
+ifdef
+MOZ_WAYLAND
 }
 else
 {
@@ -11795,6 +11803,8 @@ GetAlignmentPosition
 (
 )
 ;
+#
+endif
 }
 LOG_POPUP
 (
@@ -11982,6 +11992,9 @@ cursorOffset
 0
 )
 ;
+#
+ifdef
+MOZ_WAYLAND
 if
 (
 hasAnchorRect
@@ -12101,6 +12114,8 @@ break
 ;
 }
 }
+#
+endif
 if
 (
 !
