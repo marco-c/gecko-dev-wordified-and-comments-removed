@@ -5195,13 +5195,6 @@ GetNextNode
 )
 )
 {
-MOZ_ASSERT
-(
-IsCSSEnabled
-(
-)
-)
-;
 return
 EditResult
 (
