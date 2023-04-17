@@ -39,7 +39,7 @@ optimize
 :
 tryselect
 .
-bugbug_reduced_manifests_config_selection_low
+bugbug_debug_disperse
 "
     
 "
