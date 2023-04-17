@@ -3144,6 +3144,10 @@ nsGkAtoms
 :
 :
 button
+nsGkAtoms
+:
+:
+textarea
 )
 )
 )

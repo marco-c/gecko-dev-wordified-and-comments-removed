@@ -763,6 +763,12 @@ height
 }
 textarea
 {
+display
+:
+inline
+-
+block
+;
 appearance
 :
 auto
