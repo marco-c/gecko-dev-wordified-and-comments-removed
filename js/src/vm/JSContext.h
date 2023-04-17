@@ -25,13 +25,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h

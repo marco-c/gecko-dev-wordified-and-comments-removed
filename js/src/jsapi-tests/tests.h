@@ -54,6 +54,13 @@ type_traits
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 gc
 /
 GC
