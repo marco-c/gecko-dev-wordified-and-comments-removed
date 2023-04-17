@@ -131,16 +131,6 @@ OS_LIBS
 msi
 "
 ]
-DELAYLOAD_DLLS
-+
-=
-[
-"
-msi
-.
-dll
-"
-]
 if
 CONFIG
 [
