@@ -16736,9 +16736,10 @@ cx
 ;
 if
 (
-NS_SUCCEEDED
+rval
+.
+isObject
 (
-rv
 )
 )
 {
