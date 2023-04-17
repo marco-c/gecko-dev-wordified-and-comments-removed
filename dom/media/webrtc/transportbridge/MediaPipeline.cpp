@@ -454,7 +454,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-WEBRTC_DECODER
+WEBRTC_WORKER
 )
 "
 AudioProxy
@@ -6993,7 +6993,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-WEBRTC_DECODER
+WEBRTC_WORKER
 )
 "
 AudioPipelineListener

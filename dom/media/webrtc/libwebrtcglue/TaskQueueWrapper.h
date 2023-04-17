@@ -593,6 +593,13 @@ bool
 aSupportTailDispatch
 Priority
 aPriority
+MediaThreadType
+aThreadType
+=
+MediaThreadType
+:
+:
+WEBRTC_WORKER
 )
 const
 {
@@ -621,10 +628,7 @@ TaskQueue
 (
 GetMediaThreadPool
 (
-MediaThreadType
-:
-:
-WEBRTC_DECODER
+aThreadType
 )
 name
 .
