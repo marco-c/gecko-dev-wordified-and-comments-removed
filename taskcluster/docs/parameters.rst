@@ -1157,9 +1157,6 @@ nightly
 beta
 "
 "
-esr78
-"
-"
 esr91
 "
 "

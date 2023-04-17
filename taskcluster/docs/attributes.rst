@@ -329,10 +329,6 @@ release
 *
 mozilla
 -
-esr78
-*
-mozilla
--
 esr91
 *
 .
