@@ -126,6 +126,11 @@ readlink
 "
 connect
 "
+"
+connect
+-
+abstract
+"
 }
 ;
 ssize_t
