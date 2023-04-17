@@ -407,6 +407,10 @@ if
 (
 profiler_thread_is_being_profiled
 (
+ThreadProfilingFeatures
+:
+:
+Sampling
 )
 )
 {
