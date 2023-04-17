@@ -12,6 +12,11 @@ distutils
 spawn
 import
 find_executable
+from
+typing
+import
+ClassVar
+Type
 wpt_root
 =
 os
