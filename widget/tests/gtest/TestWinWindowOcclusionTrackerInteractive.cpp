@@ -192,7 +192,7 @@ true
 WinWindowOcclusionTracker
 :
 :
-Start
+Ensure
 (
 )
 ;
