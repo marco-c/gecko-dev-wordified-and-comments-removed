@@ -181,6 +181,15 @@ cairo_scaled_font_t
 sfont
 )
 ;
+cairo_private
+CTFontRef
+_cairo_quartz_scaled_font_get_ct_font_ref
+(
+cairo_scaled_font_t
+*
+sfont
+)
+;
 #
 else
 #
