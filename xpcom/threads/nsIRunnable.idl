@@ -98,9 +98,16 @@ PRIORITY_VSYNC
 const
 unsigned
 short
-PRIORITY_CONTROL
+PRIORITY_RENDER_BLOCKING
 =
 8
+;
+const
+unsigned
+short
+PRIORITY_CONTROL
+=
+9
 ;
 readonly
 attribute
