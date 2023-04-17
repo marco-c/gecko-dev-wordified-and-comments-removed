@@ -97,11 +97,6 @@ GeckoViewAutofillChild
 js
 content
 /
-GeckoViewMediaChild
-.
-js
-content
-/
 GeckoViewMediaControlChild
 .
 js

@@ -177,6 +177,12 @@ Partitioning
 3
 ]
 .
+-
+Removed
+deprecated
+MediaElement
+API
+.
 [
 91
 .
@@ -16603,4 +16609,4 @@ api
 version
 ]
 :
-bc0f60ed937f4e133df8332518bc642437b88237
+05c7e21b7ea40cd9978b319a9acfac1b256e700f
