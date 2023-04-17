@@ -126,11 +126,6 @@ WasmDebugFrame
 cpp
 "
 "
-WasmException
-.
-cpp
-"
-"
 WasmFrameIter
 .
 cpp
