@@ -3273,7 +3273,6 @@ _template
 kNameSpaceID_XHTML
 false
 true
-0
 )
 ;
 if
