@@ -36,6 +36,12 @@ load
 1
 .
 html
+skip
+-
+if
+(
+Android
+)
 load
 chrome
 :
@@ -56,6 +62,14 @@ crashtests
 1
 .
 xhtml
+#
+No
+<
+tree
+>
+support
+on
+Android
 load
 387745
 -

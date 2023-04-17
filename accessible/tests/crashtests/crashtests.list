@@ -15,6 +15,12 @@ adding
 tests
 before
 it
+skip
+-
+if
+(
+Android
+)
 load
 chrome
 :

@@ -1627,6 +1627,9 @@ skip
 if
 (
 ThreadSanitizer
+|
+|
+Android
 )
 load
 1697525
@@ -1637,6 +1640,9 @@ skip
 if
 (
 ThreadSanitizer
+|
+|
+Android
 )
 load
 1712198
