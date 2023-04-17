@@ -2401,7 +2401,7 @@ kMediaConduitMalformedArgument
 if
 (
 !
-mEngineTransmitting
+mSendStreamRunning
 )
 {
 CSFLogError
@@ -2530,7 +2530,7 @@ kMediaConduitMalformedArgument
 if
 (
 !
-mEngineReceiving
+mRecvStreamRunning
 )
 {
 CSFLogError
@@ -3206,7 +3206,7 @@ AssertCurrentThreadOwns
 ;
 if
 (
-mEngineTransmitting
+mSendStreamRunning
 )
 {
 MOZ_ASSERT
@@ -3238,7 +3238,7 @@ Stop
 (
 )
 ;
-mEngineTransmitting
+mSendStreamRunning
 =
 false
 ;
@@ -3270,7 +3270,7 @@ AssertCurrentThreadOwns
 ;
 if
 (
-mEngineTransmitting
+mSendStreamRunning
 )
 {
 return
@@ -3318,7 +3318,7 @@ Start
 (
 )
 ;
-mEngineTransmitting
+mSendStreamRunning
 =
 true
 ;
@@ -3349,7 +3349,7 @@ AssertCurrentThreadOwns
 ;
 if
 (
-mEngineReceiving
+mRecvStreamRunning
 )
 {
 MOZ_ASSERT
@@ -3364,7 +3364,7 @@ Stop
 (
 )
 ;
-mEngineReceiving
+mRecvStreamRunning
 =
 false
 ;
@@ -3396,7 +3396,7 @@ AssertCurrentThreadOwns
 ;
 if
 (
-mEngineReceiving
+mRecvStreamRunning
 )
 {
 return
@@ -3444,7 +3444,7 @@ Start
 (
 )
 ;
-mEngineReceiving
+mRecvStreamRunning
 =
 true
 ;
@@ -4273,7 +4273,7 @@ Stop
 (
 )
 ;
-mEngineTransmitting
+mSendStreamRunning
 =
 false
 ;
@@ -4379,7 +4379,7 @@ Stop
 (
 )
 ;
-mEngineReceiving
+mRecvStreamRunning
 =
 false
 ;
@@ -4475,7 +4475,7 @@ mMutex
 bool
 wasTransmitting
 =
-mEngineTransmitting
+mSendStreamRunning
 ;
 bool
 hadSendStream
@@ -4539,6 +4539,13 @@ RecreateRecvStreamIfExists
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 MutexAutoLock
 lock
 (
@@ -4548,7 +4555,7 @@ mMutex
 bool
 wasReceiving
 =
-mEngineReceiving
+mRecvStreamRunning
 ;
 bool
 hadRecvStream
