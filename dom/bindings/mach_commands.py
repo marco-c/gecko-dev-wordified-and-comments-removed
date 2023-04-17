@@ -101,18 +101,13 @@ interface
 from
 mozwebidlcodegen
 import
-BuildSystemWebIDL
+create_build_system_manager
     
 manager
 =
-command_context
-.
-_spawn
+create_build_system_manager
 (
-BuildSystemWebIDL
 )
-.
-manager
     
 for
 i
