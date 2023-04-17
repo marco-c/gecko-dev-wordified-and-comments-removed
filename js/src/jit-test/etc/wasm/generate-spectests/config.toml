@@ -710,11 +710,9 @@ github
 .
 com
 /
-lars
+mozilla
 -
-t
--
-hansen
+spidermonkey
 /
 memory64
 "
