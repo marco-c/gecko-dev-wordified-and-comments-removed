@@ -7381,7 +7381,13 @@ outline
 -
 radius
 :
-2px
+4px
+;
+border
+-
+radius
+:
+4px
 ;
 }
 /
