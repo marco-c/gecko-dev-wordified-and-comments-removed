@@ -1955,7 +1955,7 @@ true
 ProviderURL
 :
 "
-http
+https
 :
 /
 /
@@ -2005,7 +2005,7 @@ uri
 "
 :
 "
-http
+https
 :
 /
 /
@@ -2048,7 +2048,7 @@ false
 ProviderURL
 :
 "
-http
+https
 :
 /
 /
@@ -2095,7 +2095,7 @@ uri
 "
 :
 "
-http
+https
 :
 /
 /
