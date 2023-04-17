@@ -195,7 +195,9 @@ Length
 if
 (
 !
-mOuterDoc
+IsOuterDoc
+(
+)
 )
 {
 for
@@ -349,10 +351,6 @@ AppendElement
 (
 aChildDoc
 )
-;
-mOuterDoc
-=
-true
 ;
 }
 template
