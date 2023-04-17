@@ -3167,9 +3167,7 @@ menu
 -
 bookmarks
 -
-show
--
-all
+manage
 "
 /
 >

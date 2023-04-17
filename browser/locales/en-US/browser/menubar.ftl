@@ -1334,15 +1334,12 @@ menu
 -
 bookmarks
 -
-show
--
-all
+manage
 =
 .
 label
 =
-Show
-All
+Manage
 Bookmarks
 menu
 -
