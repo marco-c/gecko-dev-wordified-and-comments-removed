@@ -180,6 +180,9 @@ EXPORTED_SYMBOLS
 "
 ProxyPolicies
 "
+"
+PROXY_TYPES_MAP
+"
 ]
 ;
 var

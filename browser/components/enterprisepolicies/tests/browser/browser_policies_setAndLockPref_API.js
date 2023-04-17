@@ -7,7 +7,7 @@ let
 {
 Policies
 setAndLockPref
-setDefaultPref
+PoliciesUtils
 }
 =
 ChromeUtils
@@ -28,7 +28,6 @@ Policies
 .
 jsm
 "
-null
 )
 ;
 add_task
@@ -148,6 +147,8 @@ test
 "
 )
 ;
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -595,6 +596,8 @@ pref1
 20
 )
 ;
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -621,6 +624,8 @@ VALUE
 "
 )
 ;
+PoliciesUtils
+.
 setDefaultPref
 (
 "
