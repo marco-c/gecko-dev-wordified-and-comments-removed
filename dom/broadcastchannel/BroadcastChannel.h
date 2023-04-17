@@ -74,14 +74,15 @@ friend
 class
 BroadcastChannelChild
 ;
-typedef
+using
+PrincipalInfo
+=
 mozilla
 :
 :
 ipc
 :
 :
-PrincipalInfo
 PrincipalInfo
 ;
 public
