@@ -307,8 +307,6 @@ GetCanvasClient
 )
 ;
 }
-protected
-:
 ClientLayerManager
 *
 ClientManager

@@ -31,7 +31,7 @@ return
 mLayer
 -
 >
-Manager
+ClientManager
 (
 )
 -
