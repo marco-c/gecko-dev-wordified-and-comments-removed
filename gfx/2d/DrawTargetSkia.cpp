@@ -1787,10 +1787,9 @@ DataSourceSurface
 *
 surf
 =
-aSurface
--
->
-GetDataSurface
+dataSurface
+.
+forget
 (
 )
 .
