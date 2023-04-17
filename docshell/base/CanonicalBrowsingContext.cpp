@@ -1194,16 +1194,6 @@ SetBrowsingContext
 aNewContext
 )
 ;
-if
-(
-mozilla
-:
-:
-BFCacheInParent
-(
-)
-)
-{
 mSessionHistory
 -
 >
@@ -1215,7 +1205,6 @@ Nothing
 )
 )
 ;
-}
 mSessionHistory
 .
 swap
