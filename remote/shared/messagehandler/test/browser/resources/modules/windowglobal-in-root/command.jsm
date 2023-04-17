@@ -8,12 +8,12 @@ EXPORTED_SYMBOLS
 =
 [
 "
-TestModule
+command
 "
 ]
 ;
 class
-TestModule
+Command
 {
 constructor
 (
@@ -65,7 +65,7 @@ handleCommand
 moduleName
 :
 "
-TestModule
+command
 "
 commandName
 :
@@ -90,3 +90,8 @@ windowGlobalValue
 ;
 }
 }
+const
+command
+=
+Command
+;

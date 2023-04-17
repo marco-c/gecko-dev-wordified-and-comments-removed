@@ -8,12 +8,12 @@ EXPORTED_SYMBOLS
 =
 [
 "
-TestOnlyInWindowGlobalModule
+commandwindowglobalonly
 "
 ]
 ;
 class
-TestOnlyInWindowGlobalModule
+CommandWindowGlobalOnly
 {
 constructor
 (
@@ -104,3 +104,8 @@ module
 ;
 }
 }
+const
+commandwindowglobalonly
+=
+CommandWindowGlobalOnly
+;

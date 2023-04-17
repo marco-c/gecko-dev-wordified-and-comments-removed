@@ -8,12 +8,12 @@ EXPORTED_SYMBOLS
 =
 [
 "
-TestModule
+command
 "
 ]
 ;
 class
-TestModule
+Command
 {
 constructor
 (
@@ -45,3 +45,8 @@ value
 ;
 }
 }
+const
+command
+=
+Command
+;
