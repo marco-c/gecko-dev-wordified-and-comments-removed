@@ -550,17 +550,6 @@ attribute
 EventHandler
 onwaiting
 ;
-[
-Pref
-=
-"
-dom
-.
-select_events
-.
-enabled
-"
-]
 attribute
 EventHandler
 onselectstart

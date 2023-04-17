@@ -135,16 +135,6 @@ set
 [
 [
 "
-dom
-.
-select_events
-.
-enabled
-"
-true
-]
-[
-"
 browser
 .
 search
