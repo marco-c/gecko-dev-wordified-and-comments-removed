@@ -350,6 +350,13 @@ realmKeyObject
 ;
 HeapPtr
 <
+JSFunction
+*
+>
+throwTypeError
+;
+HeapPtr
+<
 Shape
 *
 >
@@ -401,7 +408,6 @@ EVAL
 APPLICATION_SLOTS
 +
 STANDARD_CLASS_SLOTS
-THROWTYPEERROR
 GLOBAL_DATA_SLOT
 ITERATOR_PROTO
 ARRAY_ITERATOR_PROTO
