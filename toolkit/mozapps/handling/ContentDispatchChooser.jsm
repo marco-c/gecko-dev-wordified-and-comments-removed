@@ -1784,6 +1784,8 @@ true
 }
 aDialogArgs
 )
+.
+closedPromise
 ;
 }
 let

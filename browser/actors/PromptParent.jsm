@@ -1134,6 +1134,8 @@ allowFocusCheckbox
 }
 bag
 )
+.
+closedPromise
 ;
 }
 else
