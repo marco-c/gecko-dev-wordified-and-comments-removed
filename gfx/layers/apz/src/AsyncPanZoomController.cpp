@@ -25756,6 +25756,12 @@ CSSPoint
 aPoint
 )
 {
+RecursiveMutexAutoLock
+lock
+(
+mRecursiveMutex
+)
+;
 mTestAsyncScrollOffset
 =
 aPoint
