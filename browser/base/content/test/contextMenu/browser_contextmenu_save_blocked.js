@@ -396,9 +396,9 @@ returnCancel
 ;
 }
 ;
-EventUtils
+menu
 .
-synthesizeMouseAtCenter
+activateItem
 (
 menu
 .
@@ -411,8 +411,6 @@ context
 savelink
 "
 )
-{
-}
 )
 ;
 }
