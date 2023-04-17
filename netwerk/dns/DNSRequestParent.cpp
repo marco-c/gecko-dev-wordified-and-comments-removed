@@ -78,6 +78,13 @@ DNSResolverInfo
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 using
 namespace
 mozilla
