@@ -816,6 +816,11 @@ flex
 #
 editBookmarkPanel
 >
+#
+editBookmarkHeaderSeparator
+#
+editBookmarkPanel
+>
 .
 panel
 -
@@ -831,6 +836,12 @@ margin
 bottom
 :
 0
+;
+margin
+-
+inline
+:
+16px
 ;
 }
 media
@@ -856,7 +867,7 @@ editBookmarkPanelInfoArea
 {
 padding
 :
-6px
+4px
 var
 (
 -
