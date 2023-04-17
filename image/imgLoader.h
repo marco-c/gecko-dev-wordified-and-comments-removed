@@ -363,7 +363,7 @@ UpdateLoadTime
 (
 )
 ;
-int32_t
+uint32_t
 GetExpiryTime
 (
 )
@@ -376,7 +376,7 @@ mExpiryTime
 void
 SetExpiryTime
 (
-int32_t
+uint32_t
 aExpiryTime
 )
 {
@@ -571,7 +571,7 @@ mTouchedTime
 uint32_t
 mLoadTime
 ;
-int32_t
+uint32_t
 mExpiryTime
 ;
 nsExpirationState
