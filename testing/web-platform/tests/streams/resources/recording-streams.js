@@ -27,6 +27,11 @@ new
 ReadableStream
 (
 {
+type
+:
+extras
+.
+type
 start
 (
 controller
