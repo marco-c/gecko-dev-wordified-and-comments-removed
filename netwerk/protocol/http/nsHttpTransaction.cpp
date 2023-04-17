@@ -3935,14 +3935,6 @@ mDeferredSendProgress
 &
 &
 mConnection
-&
-&
-mConnection
--
->
-Transport
-(
-)
 )
 {
 OnTransportStatus
