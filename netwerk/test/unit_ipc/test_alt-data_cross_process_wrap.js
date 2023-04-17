@@ -199,7 +199,11 @@ binary
 "
 "
 "
-true
+Ci
+.
+nsICacheInfoChannel
+.
+ASYNC
 )
 ;
 chan
@@ -397,7 +401,11 @@ binary
 "
 "
 "
-true
+Ci
+.
+nsICacheInfoChannel
+.
+ASYNC
 )
 ;
 chan

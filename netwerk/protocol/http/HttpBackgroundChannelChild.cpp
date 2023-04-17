@@ -876,6 +876,10 @@ const
 HttpChannelOnStartRequestArgs
 &
 aArgs
+const
+HttpChannelAltDataStream
+&
+aAltData
 )
 {
 LOG
@@ -959,6 +963,7 @@ aResponseHead
 aUseResponseHead
 aRequestHeaders
 aArgs
+aAltData
 )
 ;
 OnStartRequestReceived
