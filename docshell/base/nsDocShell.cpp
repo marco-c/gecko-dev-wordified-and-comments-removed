@@ -11930,7 +11930,7 @@ aParent
 bool
 wasFrame
 =
-IsFrame
+IsSubframe
 (
 )
 ;
@@ -11967,7 +11967,7 @@ if
 wasFrame
 !
 =
-IsFrame
+IsSubframe
 (
 )
 &
@@ -12907,7 +12907,7 @@ NS_ERROR_FAILURE
 if
 (
 !
-IsFrame
+IsSubframe
 (
 )
 )
@@ -17443,7 +17443,7 @@ Telemetry
 :
 AccumulateCategoricalKeyed
 (
-IsFrame
+IsSubframe
 (
 )
 ?
@@ -34728,7 +34728,7 @@ IsInitialDocument
 )
 &
 &
-IsFrame
+IsSubframe
 (
 )
 )
@@ -35849,7 +35849,7 @@ NS_OK
 if
 (
 !
-IsFrame
+IsSubframe
 (
 )
 )
@@ -36252,7 +36252,7 @@ DetermineContentType
 if
 (
 !
-IsFrame
+IsSubframe
 (
 )
 )
@@ -43965,7 +43965,7 @@ DetermineContentType
 ;
 if
 (
-IsFrame
+IsSubframe
 (
 )
 )
@@ -47396,7 +47396,7 @@ MOZ_ASSERT
 updateSHistory
 |
 |
-IsFrame
+IsSubframe
 (
 )
 "
@@ -57102,7 +57102,7 @@ return
 }
 if
 (
-IsFrame
+IsSubframe
 (
 )
 )
