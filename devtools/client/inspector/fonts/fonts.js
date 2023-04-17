@@ -4152,13 +4152,16 @@ this
 .
 inspector
 .
-emit
+emitForTests
 (
 "
 fontinspector
 -
 updated
 "
+this
+.
+node
 )
 ;
 }
