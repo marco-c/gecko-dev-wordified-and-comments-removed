@@ -242,9 +242,6 @@ mHasBeenPrinted
 bool
 mInvisible
 ;
-bool
-mDidCreateDocShell
-;
 float
 mShrinkRatio
 ;
