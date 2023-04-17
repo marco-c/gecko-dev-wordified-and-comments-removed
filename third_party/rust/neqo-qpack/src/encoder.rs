@@ -2329,7 +2329,6 @@ else
 if
 can_block
 &
-&
 !
 encoder_blocked
 {
