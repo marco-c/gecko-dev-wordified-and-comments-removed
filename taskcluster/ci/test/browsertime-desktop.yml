@@ -479,6 +479,8 @@ macos
 .
 *
 shippable
+-
+qr
 .
 *
 :
@@ -741,8 +743,6 @@ macos
 .
 *
 shippable
--
-qr
 .
 *
 :
