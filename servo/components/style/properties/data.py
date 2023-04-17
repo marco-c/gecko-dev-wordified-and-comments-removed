@@ -2103,7 +2103,14 @@ or
 gecko_pref
 is
 None
+and
+enabled_in
+!
+=
+"
+"
 )
+            
 =
 =
 (
@@ -2157,6 +2164,8 @@ behind
 a
 Gecko
 pref
+or
+internal
 "
         
 )
