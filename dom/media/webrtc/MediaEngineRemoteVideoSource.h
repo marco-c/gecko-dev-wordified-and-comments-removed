@@ -523,6 +523,12 @@ int
 aIndex
 )
 ;
+void
+Shutdown
+(
+)
+override
+;
 nsString
 GetName
 (
@@ -768,6 +774,11 @@ Maybe
 nsString
 >
 mFacingMode
+;
+bool
+mInitDone
+=
+false
 ;
 }
 ;
