@@ -75,6 +75,13 @@ PluralRules
 .
 h
 "
+"
+src
+/
+RelativeTimeFormat
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -154,6 +161,13 @@ cpp
 src
 /
 PluralRules
+.
+cpp
+"
+"
+src
+/
+RelativeTimeFormat
 .
 cpp
 "
