@@ -227,6 +227,9 @@ struct
 WindowSessionStoreUpdate
 ;
 class
+SSCacheQueryResult
+;
+class
 WindowGlobalParent
 final
 :
@@ -858,7 +861,7 @@ GetRemoteType
 override
 ;
 nsresult
-UpdateSessionStore
+WriteFormDataAndScrollToSessionStore
 (
 const
 Maybe
