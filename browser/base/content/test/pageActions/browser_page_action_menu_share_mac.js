@@ -522,7 +522,7 @@ await
 contextMenuPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
