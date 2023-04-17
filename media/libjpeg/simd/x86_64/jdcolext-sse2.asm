@@ -43,6 +43,16 @@ R
 Commander
 .
 ;
+Copyright
+(
+C
+)
+2018
+Matthias
+R
+ncker
+.
+;
 ;
 Based
 on
@@ -404,7 +414,7 @@ mov
 ecx
 r12d
 mov
-rsi
+rsip
 JSAMPARRAY
 [
 rdi
@@ -414,7 +424,7 @@ rdi
 SIZEOF_JSAMPARRAY
 ]
 mov
-rbx
+rbxp
 JSAMPARRAY
 [
 rdi
@@ -424,7 +434,7 @@ rdi
 SIZEOF_JSAMPARRAY
 ]
 mov
-rdx
+rdxp
 JSAMPARRAY
 [
 rdi
@@ -493,7 +503,7 @@ rcx
 ;
 col
 mov
-rsi
+rsip
 JSAMPROW
 [
 rsi
@@ -501,7 +511,7 @@ rsi
 ;
 inptr0
 mov
-rbx
+rbxp
 JSAMPROW
 [
 rbx
@@ -509,7 +519,7 @@ rbx
 ;
 inptr1
 mov
-rdx
+rdxp
 JSAMPROW
 [
 rdx
@@ -517,7 +527,7 @@ rdx
 ;
 inptr2
 mov
-rdi
+rdip
 JSAMPROW
 [
 rdi

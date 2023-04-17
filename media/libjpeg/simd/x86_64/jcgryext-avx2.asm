@@ -37,6 +37,16 @@ Intel
 Corporation
 .
 ;
+Copyright
+(
+C
+)
+2018
+Matthias
+R
+ncker
+.
+;
 ;
 Based
 on
@@ -397,7 +407,7 @@ mov
 ecx
 r13d
 mov
-rdi
+rdip
 JSAMPARRAY
 [
 rsi
@@ -442,7 +452,7 @@ rcx
 ;
 col
 mov
-rsi
+rsip
 JSAMPROW
 [
 rsi
@@ -450,7 +460,7 @@ rsi
 ;
 inptr
 mov
-rdi
+rdip
 JSAMPROW
 [
 rdi

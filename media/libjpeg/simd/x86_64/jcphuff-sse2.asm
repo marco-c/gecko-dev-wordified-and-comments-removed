@@ -2751,6 +2751,12 @@ K
 jnz
 .
 BLOOPR16
+test
+LEN
+15
+je
+.
+PADDINGR
 .
 ELOOPR16
 :

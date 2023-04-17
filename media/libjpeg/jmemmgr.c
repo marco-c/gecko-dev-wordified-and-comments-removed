@@ -4041,6 +4041,10 @@ sizeof
 (
 large_pool_hdr
 )
++
+ALIGN_SIZE
+-
+1
 ;
 jpeg_free_large
 (
@@ -4118,6 +4122,10 @@ sizeof
 (
 small_pool_hdr
 )
++
+ALIGN_SIZE
+-
+1
 ;
 jpeg_free_small
 (

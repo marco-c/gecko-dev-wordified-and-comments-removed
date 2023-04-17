@@ -43,6 +43,16 @@ R
 Commander
 .
 ;
+Copyright
+(
+C
+)
+2018
+Matthias
+R
+ncker
+.
+;
 ;
 Based
 on
@@ -3004,7 +3014,7 @@ xmm3
 .
 )
 mov
-rdx
+rdxp
 JSAMPROW
 [
 rdi
@@ -3014,7 +3024,7 @@ rdi
 SIZEOF_JSAMPROW
 ]
 mov
-rsi
+rsip
 JSAMPROW
 [
 rdi
@@ -3044,7 +3054,7 @@ SIZEOF_JSAMPLE
 ]
 xmm2
 mov
-rdx
+rdxp
 JSAMPROW
 [
 rdi
@@ -3054,7 +3064,7 @@ rdi
 SIZEOF_JSAMPROW
 ]
 mov
-rsi
+rsip
 JSAMPROW
 [
 rdi
@@ -4575,7 +4585,7 @@ D1
 -
 )
 mov
-rdx
+rdxp
 JSAMPROW
 [
 rdi
@@ -4585,7 +4595,7 @@ rdi
 SIZEOF_JSAMPROW
 ]
 mov
-rsi
+rsip
 JSAMPROW
 [
 rdi

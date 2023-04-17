@@ -44,6 +44,16 @@ R
 Commander
 .
 ;
+Copyright
+(
+C
+)
+2018
+Matthias
+R
+ncker
+.
+;
 ;
 Based
 on
@@ -364,7 +374,7 @@ DCTSIZE
 convloop
 :
 mov
-rbx
+rbxp
 JSAMPROW
 [
 rsi
@@ -379,7 +389,7 @@ JSAMPLE
 *
 )
 mov
-rdx
+rdxp
 JSAMPROW
 [
 rsi
@@ -426,7 +436,7 @@ xmm1
 89ABCDEF
 )
 mov
-rbx
+rbxp
 JSAMPROW
 [
 rsi
@@ -441,7 +451,7 @@ JSAMPLE
 *
 )
 mov
-rdx
+rdxp
 JSAMPROW
 [
 rsi

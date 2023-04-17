@@ -22,6 +22,13 @@ jdmaster
 .
 h
 "
+#
+include
+"
+jconfigint
+.
+h
+"
 GLOBAL
 (
 void
@@ -971,6 +978,7 @@ global_state
 =
 DSTATE_INHEADER
 ;
+FALLTHROUGH
 case
 DSTATE_INHEADER
 :

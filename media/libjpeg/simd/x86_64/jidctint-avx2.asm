@@ -44,6 +44,16 @@ R
 Commander
 .
 ;
+Copyright
+(
+C
+)
+2018
+Matthias
+R
+ncker
+.
+;
 ;
 Based
 on
@@ -4010,7 +4020,7 @@ mov
 eax
 r13d
 mov
-rdx
+rdxp
 JSAMPROW
 [
 r12
@@ -4025,7 +4035,7 @@ JSAMPLE
 *
 )
 mov
-rsi
+rsip
 JSAMPROW
 [
 r12
@@ -4060,7 +4070,7 @@ SIZEOF_JSAMPLE
 ]
 xmm1
 mov
-rdx
+rdxp
 JSAMPROW
 [
 r12
@@ -4075,7 +4085,7 @@ JSAMPLE
 *
 )
 mov
-rsi
+rsip
 JSAMPROW
 [
 r12
@@ -4110,7 +4120,7 @@ SIZEOF_JSAMPLE
 ]
 xmm3
 mov
-rdx
+rdxp
 JSAMPROW
 [
 r12
@@ -4125,7 +4135,7 @@ JSAMPLE
 *
 )
 mov
-rsi
+rsip
 JSAMPROW
 [
 r12
@@ -4160,7 +4170,7 @@ SIZEOF_JSAMPLE
 ]
 xmm5
 mov
-rdx
+rdxp
 JSAMPROW
 [
 r12
@@ -4175,7 +4185,7 @@ JSAMPLE
 *
 )
 mov
-rsi
+rsip
 JSAMPROW
 [
 r12

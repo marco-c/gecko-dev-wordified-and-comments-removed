@@ -1441,7 +1441,6 @@ workspaceptr
 +
 +
 =
-GETJSAMPLE
 (
 *
 elemptr
@@ -1456,7 +1455,6 @@ workspaceptr
 +
 +
 =
-GETJSAMPLE
 (
 *
 elemptr
@@ -1471,7 +1469,6 @@ workspaceptr
 +
 +
 =
-GETJSAMPLE
 (
 *
 elemptr
@@ -1486,7 +1483,6 @@ workspaceptr
 +
 +
 =
-GETJSAMPLE
 (
 *
 elemptr
@@ -1501,7 +1497,6 @@ workspaceptr
 +
 +
 =
-GETJSAMPLE
 (
 *
 elemptr
@@ -1516,7 +1511,6 @@ workspaceptr
 +
 +
 =
-GETJSAMPLE
 (
 *
 elemptr
@@ -1531,7 +1525,6 @@ workspaceptr
 +
 +
 =
-GETJSAMPLE
 (
 *
 elemptr
@@ -1546,7 +1539,6 @@ workspaceptr
 +
 +
 =
-GETJSAMPLE
 (
 *
 elemptr
@@ -1582,7 +1574,6 @@ workspaceptr
 +
 +
 =
-GETJSAMPLE
 (
 *
 elemptr
@@ -2150,7 +2141,6 @@ workspaceptr
 FAST_FLOAT
 )
 (
-GETJSAMPLE
 (
 *
 elemptr
@@ -2170,7 +2160,6 @@ workspaceptr
 FAST_FLOAT
 )
 (
-GETJSAMPLE
 (
 *
 elemptr
@@ -2190,7 +2179,6 @@ workspaceptr
 FAST_FLOAT
 )
 (
-GETJSAMPLE
 (
 *
 elemptr
@@ -2210,7 +2198,6 @@ workspaceptr
 FAST_FLOAT
 )
 (
-GETJSAMPLE
 (
 *
 elemptr
@@ -2230,7 +2217,6 @@ workspaceptr
 FAST_FLOAT
 )
 (
-GETJSAMPLE
 (
 *
 elemptr
@@ -2250,7 +2236,6 @@ workspaceptr
 FAST_FLOAT
 )
 (
-GETJSAMPLE
 (
 *
 elemptr
@@ -2270,7 +2255,6 @@ workspaceptr
 FAST_FLOAT
 )
 (
-GETJSAMPLE
 (
 *
 elemptr
@@ -2290,7 +2274,6 @@ workspaceptr
 FAST_FLOAT
 )
 (
-GETJSAMPLE
 (
 *
 elemptr
@@ -2331,7 +2314,6 @@ workspaceptr
 FAST_FLOAT
 )
 (
-GETJSAMPLE
 (
 *
 elemptr

@@ -46,10 +46,11 @@ JPEG
 compression
 on
 x86
-and
 x86
 -
 64
+and
+Arm
 systems
 .
 On

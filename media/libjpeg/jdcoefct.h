@@ -63,7 +63,7 @@ coef_bits_latch
 #
 define
 SAVED_COEFS
-6
+10
 /
 *
 we
@@ -73,7 +73,7 @@ coef_bits
 0
 .
 .
-5
+9
 ]
 *
 /

@@ -54,6 +54,16 @@ Matthieu
 Darbois
 .
 ;
+Copyright
+(
+C
+)
+2018
+Matthias
+R
+ncker
+.
+;
 ;
 Based
 on
@@ -329,7 +339,7 @@ mov
 eax
 r11d
 mov
-rsi
+rsip
 JSAMPROW
 [
 r10
@@ -344,7 +354,7 @@ JSAMPLE
 *
 )
 mov
-rdi
+rdip
 JSAMPROW
 [
 r10
@@ -380,7 +390,7 @@ SIZEOF_JSAMPLE
 ]
 1
 mov
-rsi
+rsip
 JSAMPROW
 [
 r10
@@ -395,7 +405,7 @@ JSAMPLE
 *
 )
 mov
-rdi
+rdip
 JSAMPROW
 [
 r10
@@ -431,7 +441,7 @@ SIZEOF_JSAMPLE
 ]
 1
 mov
-rsi
+rsip
 JSAMPROW
 [
 r10
@@ -446,7 +456,7 @@ JSAMPLE
 *
 )
 mov
-rdi
+rdip
 JSAMPROW
 [
 r10
@@ -482,7 +492,7 @@ SIZEOF_JSAMPLE
 ]
 1
 mov
-rsi
+rsip
 JSAMPROW
 [
 r10
@@ -497,7 +507,7 @@ JSAMPLE
 *
 )
 mov
-rdi
+rdip
 JSAMPROW
 [
 r10

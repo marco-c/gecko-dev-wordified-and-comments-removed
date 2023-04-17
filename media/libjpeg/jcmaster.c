@@ -2533,6 +2533,7 @@ pass_number
 ;
 #
 endif
+FALLTHROUGH
 case
 output_pass
 :

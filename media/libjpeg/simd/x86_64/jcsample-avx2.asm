@@ -49,6 +49,16 @@ Intel
 Corporation
 .
 ;
+Copyright
+(
+C
+)
+2018
+Matthias
+R
+ncker
+.
+;
 ;
 Based
 on
@@ -419,7 +429,7 @@ rax
 push
 rcx
 mov
-rdi
+rdip
 JSAMPROW
 [
 rsi
@@ -551,7 +561,7 @@ rdi
 push
 rsi
 mov
-rsi
+rsip
 JSAMPROW
 [
 rsi
@@ -559,7 +569,7 @@ rsi
 ;
 inptr
 mov
-rdi
+rdip
 JSAMPROW
 [
 rdi
@@ -1078,7 +1088,7 @@ rax
 push
 rcx
 mov
-rdi
+rdip
 JSAMPROW
 [
 rsi
@@ -1203,7 +1213,7 @@ rdi
 push
 rsi
 mov
-rdx
+rdxp
 JSAMPROW
 [
 rsi
@@ -1215,7 +1225,7 @@ SIZEOF_JSAMPROW
 ;
 inptr0
 mov
-rsi
+rsip
 JSAMPROW
 [
 rsi
@@ -1227,7 +1237,7 @@ SIZEOF_JSAMPROW
 ;
 inptr1
 mov
-rdi
+rdip
 JSAMPROW
 [
 rdi

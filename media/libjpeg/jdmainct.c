@@ -12,6 +12,13 @@ jdmainct
 .
 h
 "
+#
+include
+"
+jconfigint
+.
+h
+"
 METHODDEF
 (
 void
@@ -1173,6 +1180,7 @@ out_rows_avail
 )
 return
 ;
+FALLTHROUGH
 case
 CTX_PREPARE_FOR_IMCU
 :
@@ -1225,6 +1233,7 @@ context_state
 =
 CTX_PROCESS_IMCU
 ;
+FALLTHROUGH
 case
 CTX_PROCESS_IMCU
 :

@@ -40,6 +40,16 @@ R
 Commander
 .
 ;
+Copyright
+(
+C
+)
+2018
+Matthias
+R
+ncker
+.
+;
 ;
 Based
 on
@@ -524,7 +534,7 @@ mov
 rdi
 r13
 mov
-rdi
+rdip
 JSAMPARRAY
 [
 rdi
@@ -543,7 +553,7 @@ rdi
 push
 rsi
 mov
-rsi
+rsip
 JSAMPROW
 [
 rsi
@@ -551,7 +561,7 @@ rsi
 ;
 inptr
 mov
-rdi
+rdip
 JSAMPROW
 [
 rdi
@@ -1463,7 +1473,7 @@ mov
 rdi
 r13
 mov
-rdi
+rdip
 JSAMPARRAY
 [
 rdi
@@ -1484,7 +1494,7 @@ rdi
 push
 rsi
 mov
-rcx
+rcxp
 JSAMPROW
 [
 rsi
@@ -1499,7 +1509,7 @@ inptr1
 above
 )
 mov
-rbx
+rbxp
 JSAMPROW
 [
 rsi
@@ -1511,7 +1521,7 @@ SIZEOF_JSAMPROW
 ;
 inptr0
 mov
-rsi
+rsip
 JSAMPROW
 [
 rsi
@@ -1526,7 +1536,7 @@ inptr1
 below
 )
 mov
-rdx
+rdxp
 JSAMPROW
 [
 rdi
@@ -1538,7 +1548,7 @@ SIZEOF_JSAMPROW
 ;
 outptr0
 mov
-rdi
+rdip
 JSAMPROW
 [
 rdi
@@ -3945,7 +3955,7 @@ mov
 rdi
 r13
 mov
-rdi
+rdip
 JSAMPARRAY
 [
 rdi
@@ -3960,7 +3970,7 @@ rdi
 push
 rsi
 mov
-rsi
+rsip
 JSAMPROW
 [
 rsi
@@ -3968,7 +3978,7 @@ rsi
 ;
 inptr
 mov
-rdi
+rdip
 JSAMPROW
 [
 rdi
@@ -4352,7 +4362,7 @@ mov
 rdi
 r13
 mov
-rdi
+rdip
 JSAMPARRAY
 [
 rdi
@@ -4367,7 +4377,7 @@ rdi
 push
 rsi
 mov
-rsi
+rsip
 JSAMPROW
 [
 rsi
@@ -4375,7 +4385,7 @@ rsi
 ;
 inptr
 mov
-rbx
+rbxp
 JSAMPROW
 [
 rdi
@@ -4387,7 +4397,7 @@ SIZEOF_JSAMPROW
 ;
 outptr0
 mov
-rdi
+rdip
 JSAMPROW
 [
 rdi
