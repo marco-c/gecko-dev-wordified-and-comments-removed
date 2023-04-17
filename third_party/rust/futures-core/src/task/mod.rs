@@ -16,6 +16,13 @@ pub
 mod
 __internal
 ;
+#
+[
+doc
+(
+no_inline
+)
+]
 pub
 use
 core
@@ -27,8 +34,8 @@ task
 {
 Context
 Poll
-Waker
 RawWaker
 RawWakerVTable
+Waker
 }
 ;

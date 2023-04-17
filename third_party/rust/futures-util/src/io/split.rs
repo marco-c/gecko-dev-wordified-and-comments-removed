@@ -8,6 +8,12 @@ lock
 BiLock
 ;
 use
+core
+:
+:
+fmt
+;
+use
 futures_core
 :
 :
@@ -35,12 +41,6 @@ AsyncWrite
 IoSlice
 IoSliceMut
 }
-;
-use
-core
-:
-:
-fmt
 ;
 use
 std
@@ -303,7 +303,6 @@ map_err
 |
 err
 |
-{
 ReuniteError
 (
 ReadHalf
@@ -323,7 +322,6 @@ err
 1
 }
 )
-}
 )
 }
 }

@@ -36,9 +36,9 @@ stream
 :
 :
 {
+FusedStream
 Stream
 TryStream
-FusedStream
 }
 ;
 use

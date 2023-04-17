@@ -15,8 +15,8 @@ future
 :
 :
 {
-Future
 FusedFuture
+Future
 }
 ;
 use
@@ -33,8 +33,8 @@ stream
 :
 :
 {
-Stream
 FusedStream
+Stream
 }
 ;
 use
@@ -299,7 +299,6 @@ cx
 None
 =
 >
-{
 return
 Poll
 :
@@ -318,7 +317,6 @@ unwrap_or_default
 (
 )
 )
-}
 Some
 (
 e

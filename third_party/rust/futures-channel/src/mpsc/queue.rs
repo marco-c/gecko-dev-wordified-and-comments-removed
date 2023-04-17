@@ -15,12 +15,6 @@ use
 std
 :
 :
-thread
-;
-use
-std
-:
-:
 cell
 :
 :
@@ -46,6 +40,12 @@ atomic
 AtomicPtr
 Ordering
 }
+;
+use
+std
+:
+:
+thread
 ;
 pub
 (

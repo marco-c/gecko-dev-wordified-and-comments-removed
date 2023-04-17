@@ -11,11 +11,11 @@ futures
 :
 :
 {
-try_join
 executor
 :
 :
 block_on
+try_join
 }
 ;
 trait

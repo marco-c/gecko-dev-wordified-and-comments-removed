@@ -39,9 +39,9 @@ Ordering
 :
 :
 {
+AcqRel
 Acquire
 Release
-AcqRel
 }
 ;
 use

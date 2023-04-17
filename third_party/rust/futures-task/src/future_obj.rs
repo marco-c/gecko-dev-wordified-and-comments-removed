@@ -3,7 +3,6 @@ core
 :
 :
 {
-mem
 fmt
 future
 :
@@ -13,6 +12,7 @@ marker
 :
 :
 PhantomData
+mem
 pin
 :
 :

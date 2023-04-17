@@ -39,6 +39,18 @@ Stream
 TryStream
 }
 ;
+use
+futures_core
+:
+:
+task
+:
+:
+{
+Context
+Poll
+}
+;
 #
 [
 cfg
@@ -55,18 +67,6 @@ futures_sink
 :
 :
 Sink
-;
-use
-futures_core
-:
-:
-task
-:
-:
-{
-Context
-Poll
-}
 ;
 use
 pin_project_lite
@@ -332,7 +332,6 @@ f
 }
 =
 >
-{
 match
 ready
 !
@@ -386,7 +385,6 @@ Err
 e
 )
 ;
-}
 }
 }
 TryFlattenProj
@@ -625,7 +623,6 @@ f
 }
 =
 >
-{
 match
 ready
 !
@@ -682,7 +679,6 @@ e
 )
 )
 ;
-}
 }
 }
 TryFlattenProj
@@ -865,7 +861,6 @@ f
 }
 =
 >
-{
 match
 ready
 !
@@ -919,7 +914,6 @@ Err
 e
 )
 ;
-}
 }
 }
 TryFlattenProj

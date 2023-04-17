@@ -20,9 +20,7 @@ futures_core
 future
 :
 :
-{
 TryFuture
-}
 ;
 use
 futures_core
@@ -38,9 +36,9 @@ stream
 :
 :
 {
+FusedStream
 Stream
 TryStream
-FusedStream
 }
 ;
 use

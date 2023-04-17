@@ -15,8 +15,8 @@ stream
 :
 :
 {
-Stream
 FusedStream
+Stream
 }
 ;
 use
@@ -35,9 +35,7 @@ use
 futures_sink
 :
 :
-{
 Sink
-}
 ;
 use
 pin_project_lite

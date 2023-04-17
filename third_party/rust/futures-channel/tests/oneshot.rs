@@ -30,8 +30,8 @@ future
 :
 :
 {
-FutureExt
 poll_fn
+FutureExt
 }
 ;
 use

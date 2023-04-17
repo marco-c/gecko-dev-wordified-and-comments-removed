@@ -1,4 +1,10 @@
 use
+super
+:
+:
+assert_stream
+;
+use
 crate
 :
 :
@@ -6,8 +12,8 @@ stream
 :
 :
 {
-StreamExt
 Fuse
+StreamExt
 }
 ;
 use
@@ -155,6 +161,17 @@ St1
 Item
 >
 {
+assert_stream
+:
+:
+<
+St1
+:
+:
+Item
+_
+>
+(
 Select
 {
 stream1
@@ -175,6 +192,7 @@ flag
 :
 false
 }
+)
 }
 impl
 <
@@ -625,6 +643,7 @@ Some
 item
 )
 )
+;
 }
 Poll
 :
@@ -665,7 +684,6 @@ item
 )
 =
 >
-{
 Poll
 :
 :
@@ -676,7 +694,6 @@ Some
 item
 )
 )
-}
 Poll
 :
 :

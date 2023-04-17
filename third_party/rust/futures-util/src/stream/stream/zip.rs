@@ -6,8 +6,8 @@ stream
 :
 :
 {
-StreamExt
 Fuse
+StreamExt
 }
 ;
 use

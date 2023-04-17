@@ -1,4 +1,10 @@
 use
+super
+:
+:
+assert_sink
+;
+use
 crate
 :
 :
@@ -160,6 +166,15 @@ E
 >
 >
 {
+assert_sink
+:
+:
+<
+Item
+E
+_
+>
+(
 Unfold
 {
 function
@@ -175,6 +190,7 @@ value
 init
 }
 }
+)
 }
 impl
 <

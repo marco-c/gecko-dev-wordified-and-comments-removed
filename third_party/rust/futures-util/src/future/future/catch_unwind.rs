@@ -25,8 +25,8 @@ panic
 :
 {
 catch_unwind
-UnwindSafe
 AssertUnwindSafe
+UnwindSafe
 }
 ;
 use

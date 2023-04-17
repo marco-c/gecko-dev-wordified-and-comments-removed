@@ -15,8 +15,8 @@ future
 :
 :
 {
-Future
 FusedFuture
+Future
 }
 ;
 use

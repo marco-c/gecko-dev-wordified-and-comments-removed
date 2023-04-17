@@ -1,4 +1,10 @@
 use
+super
+:
+:
+DEFAULT_BUF_SIZE
+;
+use
 futures_core
 :
 :
@@ -61,12 +67,6 @@ pin
 :
 :
 Pin
-;
-use
-super
-:
-:
-DEFAULT_BUF_SIZE
 ;
 pin_project
 !

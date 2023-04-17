@@ -51,8 +51,8 @@ stream
 :
 :
 {
-StreamExt
 FuturesUnordered
+StreamExt
 }
 ;
 use
@@ -236,6 +236,7 @@ cx
 )
 {
 break
+;
 }
 }
 Poll

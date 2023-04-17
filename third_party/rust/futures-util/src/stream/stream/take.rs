@@ -27,8 +27,8 @@ stream
 :
 :
 {
-Stream
 FusedStream
+Stream
 }
 ;
 use

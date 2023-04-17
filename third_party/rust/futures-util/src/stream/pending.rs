@@ -1,4 +1,10 @@
 use
+super
+:
+:
+assert_stream
+;
+use
 core
 :
 :
@@ -88,6 +94,14 @@ Pending
 T
 >
 {
+assert_stream
+:
+:
+<
+T
+_
+>
+(
 Pending
 {
 _data
@@ -97,6 +111,7 @@ marker
 :
 PhantomData
 }
+)
 }
 impl
 <

@@ -16,7 +16,7 @@ expr
 )
 =
 >
-(
+{
 match
 e
 {
@@ -60,5 +60,6 @@ Poll
 :
 Pending
 }
-)
+}
+;
 }

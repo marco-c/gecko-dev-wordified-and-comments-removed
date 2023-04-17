@@ -48,9 +48,9 @@ futures_io
 :
 :
 {
+AsyncBufRead
 AsyncRead
 AsyncWrite
-AsyncBufRead
 }
 ;
 use
@@ -467,7 +467,6 @@ ReadState
 PendingChunk
 =
 >
-{
 match
 ready
 !
@@ -578,7 +577,6 @@ Ok
 )
 )
 ;
-}
 }
 }
 ReadState
@@ -1080,6 +1078,7 @@ amount
 0
 {
 return
+;
 }
 if
 let

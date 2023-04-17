@@ -354,6 +354,7 @@ Some
 item
 )
 )
+;
 }
 }
 this

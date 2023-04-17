@@ -1,4 +1,10 @@
 use
+super
+:
+:
+DEFAULT_BUF_SIZE
+;
+use
 futures_core
 :
 :
@@ -83,12 +89,6 @@ std
 cmp
 fmt
 }
-;
-use
-super
-:
-:
-DEFAULT_BUF_SIZE
 ;
 pin_project
 !

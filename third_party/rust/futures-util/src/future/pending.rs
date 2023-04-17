@@ -1,4 +1,10 @@
 use
+super
+:
+:
+assert_future
+;
+use
 core
 :
 :
@@ -117,6 +123,14 @@ Pending
 T
 >
 {
+assert_future
+:
+:
+<
+T
+_
+>
+(
 Pending
 {
 _data
@@ -126,6 +140,7 @@ marker
 :
 PhantomData
 }
+)
 }
 impl
 <

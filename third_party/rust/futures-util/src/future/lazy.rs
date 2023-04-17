@@ -1,4 +1,10 @@
 use
+super
+:
+:
+assert_future
+;
+use
 core
 :
 :
@@ -116,6 +122,14 @@ _
 >
 R
 {
+assert_future
+:
+:
+<
+R
+_
+>
+(
 Lazy
 {
 f
@@ -125,6 +139,7 @@ Some
 f
 )
 }
+)
 }
 impl
 <
