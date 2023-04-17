@@ -18936,7 +18936,7 @@ IsPartialUpdate
 {
 for
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 item
 :

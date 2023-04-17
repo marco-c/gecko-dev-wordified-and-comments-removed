@@ -968,7 +968,7 @@ private
 :
 friend
 class
-nsDisplayItemBase
+nsDisplayItem
 ;
 nsFrameLoader
 *
