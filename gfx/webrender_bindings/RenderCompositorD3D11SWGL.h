@@ -72,6 +72,7 @@ RenderCompositor
 >
 Create
 (
+const
 RefPtr
 <
 widget
@@ -79,7 +80,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 nsACString
@@ -95,6 +95,7 @@ layers
 CompositorD3D11
 *
 aCompositor
+const
 RefPtr
 <
 widget
@@ -102,7 +103,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 void

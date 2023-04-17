@@ -72,8 +72,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 wr
 {
 UniquePtr
@@ -85,6 +85,7 @@ RenderCompositorOGL
 :
 Create
 (
+const
 RefPtr
 <
 widget
@@ -92,7 +93,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 nsACString
@@ -209,13 +209,7 @@ move
 (
 gl
 )
-std
-:
-:
-move
-(
 aWidget
-)
 )
 ;
 }
@@ -234,6 +228,7 @@ GLContext
 &
 &
 aGL
+const
 RefPtr
 <
 widget
@@ -242,19 +237,12 @@ widget
 CompositorWidget
 >
 &
-&
 aWidget
 )
 :
 RenderCompositor
 (
-std
-:
-:
-move
-(
 aWidget
-)
 )
 mGL
 (
@@ -763,6 +751,5 @@ GetBufferAge
 (
 )
 ;
-}
 }
 }

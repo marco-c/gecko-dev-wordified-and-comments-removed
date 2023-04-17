@@ -43,6 +43,7 @@ RenderCompositor
 >
 Create
 (
+const
 RefPtr
 <
 widget
@@ -50,7 +51,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 nsACString
@@ -70,6 +70,7 @@ GLContext
 &
 &
 aGL
+const
 RefPtr
 <
 widget
@@ -77,7 +78,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 )

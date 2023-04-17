@@ -576,7 +576,9 @@ wr
 :
 WindowId
 aWindowId
+const
 nsCString
+&
 aUI
 )
 ;
@@ -608,7 +610,7 @@ UniquePtr
 <
 RendererEvent
 >
-aCallBack
+aEvent
 )
 ;
 void

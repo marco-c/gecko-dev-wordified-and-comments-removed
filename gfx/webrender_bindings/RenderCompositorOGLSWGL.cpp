@@ -179,6 +179,7 @@ RenderCompositorOGLSWGL
 :
 Create
 (
+const
 RefPtr
 <
 widget
@@ -186,7 +187,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 nsACString
@@ -484,13 +484,7 @@ RenderCompositorOGLSWGL
 >
 (
 compositor
-std
-:
-:
-move
-(
 aWidget
-)
 ctx
 )
 ;
@@ -503,6 +497,7 @@ RenderCompositorOGLSWGL
 Compositor
 *
 aCompositor
+const
 RefPtr
 <
 widget
@@ -510,7 +505,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 void
@@ -521,13 +515,7 @@ aContext
 RenderCompositorLayersSWGL
 (
 aCompositor
-std
-:
-:
-move
-(
 aWidget
-)
 aContext
 )
 {
