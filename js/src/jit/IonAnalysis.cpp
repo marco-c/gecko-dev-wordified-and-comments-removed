@@ -462,7 +462,7 @@ mir
 shouldCancel
 (
 "
-FlagPhiInputsAsHavingRemovedUses
+FlagPhiInputsAsImplicitlyUsed
 inner
 loop
 "
@@ -572,14 +572,6 @@ PhiUsage
 :
 :
 Used
-|
-|
-cphi
--
->
-isUseRemoved
-(
-)
 |
 |
 cphi
@@ -727,7 +719,7 @@ true
 }
 static
 bool
-FlagPhiInputsAsHavingRemovedUses
+FlagPhiInputsAsImplicitlyUsed
 (
 MIRGenerator
 *
@@ -802,7 +794,7 @@ mir
 shouldCancel
 (
 "
-FlagPhiInputsAsHavingRemovedUses
+FlagPhiInputsAsImplicitlyUsed
 outer
 loop
 "
@@ -830,7 +822,7 @@ if
 def
 -
 >
-isUseRemoved
+isImplicitlyUsed
 (
 )
 )
@@ -857,14 +849,6 @@ Used
 phi
 -
 >
-isUseRemoved
-(
-)
-|
-|
-phi
--
->
 isImplicitlyUsed
 (
 )
@@ -873,7 +857,7 @@ isImplicitlyUsed
 def
 -
 >
-setUseRemoved
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -958,7 +942,7 @@ empty
 def
 -
 >
-setUseRemoved
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -1118,7 +1102,7 @@ block
 }
 static
 bool
-FlagOperandsAsHavingRemovedUsesAfter
+FlagOperandsAsImplicitlyUsedAfter
 (
 MIRGenerator
 *
@@ -1190,7 +1174,7 @@ mir
 shouldCancel
 (
 "
-FlagOperandsAsHavingRemovedUsesAfter
+FlagOperandsAsImplicitlyUsedAfter
 (
 loop
 1
@@ -1243,7 +1227,7 @@ i
 )
 -
 >
-setUseRemovedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -1325,7 +1309,7 @@ i
 )
 -
 >
-setUseRemovedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -1368,7 +1352,7 @@ mir
 shouldCancel
 (
 "
-FlagOperandsAsHavingRemovedUsesAfter
+FlagOperandsAsImplicitlyUsedAfter
 (
 loop
 2
@@ -1384,7 +1368,7 @@ false
 if
 (
 !
-FlagPhiInputsAsHavingRemovedUses
+FlagPhiInputsAsImplicitlyUsed
 (
 mir
 block
@@ -1513,7 +1497,7 @@ i
 )
 -
 >
-setUseRemovedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -1535,7 +1519,7 @@ true
 }
 static
 bool
-FlagAllOperandsAsHavingRemovedUses
+FlagAllOperandsAsImplicitlyUsed
 (
 MIRGenerator
 *
@@ -1553,7 +1537,7 @@ block
 )
 &
 &
-FlagOperandsAsHavingRemovedUsesAfter
+FlagOperandsAsImplicitlyUsedAfter
 (
 mir
 block
@@ -1979,7 +1963,7 @@ isMarked
 )
 )
 {
-FlagAllOperandsAsHavingRemovedUses
+FlagAllOperandsAsImplicitlyUsed
 (
 mir
 block
@@ -2005,7 +1989,7 @@ FindFirstInstructionAfterBail
 block
 )
 ;
-FlagOperandsAsHavingRemovedUsesAfter
+FlagOperandsAsImplicitlyUsedAfter
 (
 mir
 block
@@ -5000,14 +4984,6 @@ ins
 isImplicitlyUsed
 (
 )
-|
-|
-ins
--
->
-isUseRemoved
-(
-)
 )
 {
 continue
@@ -5658,14 +5634,6 @@ phi
 -
 >
 isImplicitlyUsed
-(
-)
-|
-|
-phi
--
->
-isUseRemoved
 (
 )
 )
@@ -11145,7 +11113,7 @@ isMarked
 continue
 ;
 }
-FlagAllOperandsAsHavingRemovedUses
+FlagAllOperandsAsImplicitlyUsed
 (
 mir
 block

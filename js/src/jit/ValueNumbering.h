@@ -282,10 +282,10 @@ bool
 hasOSRFixups_
 ;
 enum
-UseRemovedOption
+ImplicitUseOption
 {
-DontSetUseRemoved
-SetUseRemoved
+DontSetImplicitUse
+SetImplicitUse
 }
 ;
 [
@@ -299,8 +299,8 @@ handleUseReleased
 MDefinition
 *
 def
-UseRemovedOption
-useRemovedOption
+ImplicitUseOption
+implicitUseOption
 )
 ;
 [

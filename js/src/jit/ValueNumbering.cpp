@@ -1099,8 +1099,8 @@ handleUseReleased
 MDefinition
 *
 def
-UseRemovedOption
-useRemovedOption
+ImplicitUseOption
+implicitUseOption
 )
 {
 if
@@ -1138,16 +1138,16 @@ else
 {
 if
 (
-useRemovedOption
+implicitUseOption
 =
 =
-SetUseRemoved
+SetImplicitUse
 )
 {
 def
 -
 >
-setUseRemovedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -1270,7 +1270,7 @@ if
 handleUseReleased
 (
 op
-SetUseRemoved
+SetImplicitUse
 )
 )
 {
@@ -1344,7 +1344,7 @@ if
 handleUseReleased
 (
 op
-DontSetUseRemoved
+DontSetImplicitUse
 )
 )
 {
@@ -1418,7 +1418,7 @@ if
 handleUseReleased
 (
 op
-DontSetUseRemoved
+DontSetImplicitUse
 )
 )
 {
@@ -2229,7 +2229,7 @@ if
 handleUseReleased
 (
 op
-DontSetUseRemoved
+DontSetImplicitUse
 )
 |
 |
