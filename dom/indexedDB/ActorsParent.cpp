@@ -11935,7 +11935,7 @@ VerifyRequestParams
 const
 SerializedKeyRange
 &
-aKeyRange
+aParams
 )
 const
 ;
@@ -11958,7 +11958,7 @@ Maybe
 SerializedKeyRange
 >
 &
-aKeyRange
+aParams
 )
 const
 ;
