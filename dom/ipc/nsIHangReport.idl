@@ -38,13 +38,6 @@ SLOW_SCRIPT
 =
 1
 ;
-const
-unsigned
-long
-PLUGIN_HANG
-=
-2
-;
 readonly
 attribute
 unsigned
@@ -73,11 +66,6 @@ addonId
 ;
 readonly
 attribute
-ACString
-pluginName
-;
-readonly
-attribute
 unsigned
 long
 long
@@ -90,11 +78,6 @@ userCanceled
 ;
 void
 terminateScript
-(
-)
-;
-void
-terminatePlugin
 (
 )
 ;
