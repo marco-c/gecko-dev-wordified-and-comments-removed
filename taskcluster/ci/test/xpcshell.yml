@@ -384,7 +384,9 @@ em
 *
 :
 2
-macosx1014
+macosx
+.
+*
 -
 64
 (
@@ -563,6 +565,11 @@ asan
 *
 :
 3
+macosx1100
+.
+*
+:
+2
 default
 :
 default
