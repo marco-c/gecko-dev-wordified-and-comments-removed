@@ -51,6 +51,15 @@ include
 "
 mozilla
 /
+AlreadyAddRefed
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
@@ -266,8 +275,10 @@ return
 mRanges
 ;
 }
+already_AddRefed
+<
 nsIWidget
-*
+>
 GetWidget
 (
 )

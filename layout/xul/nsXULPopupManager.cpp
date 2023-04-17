@@ -5091,8 +5091,10 @@ if
 rootPresContext
 )
 {
+nsCOMPtr
+<
 nsIWidget
-*
+>
 rootWidget
 =
 rootPresContext

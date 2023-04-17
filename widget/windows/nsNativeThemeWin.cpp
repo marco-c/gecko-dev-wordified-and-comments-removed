@@ -6640,8 +6640,10 @@ layout_css_devPixelsPerPx
 0
 )
 {
+nsCOMPtr
+<
 nsIWidget
-*
+>
 rootWidget
 =
 aPresContext
@@ -9805,11 +9807,11 @@ StyleAppearance
 MozWindowTitlebarMaximized
 )
 {
+nsCOMPtr
+<
 nsIWidget
-*
+>
 rootWidget
-=
-nullptr
 ;
 if
 (
