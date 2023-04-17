@@ -299,10 +299,6 @@ ApplyResetProfile
 nsIToolkitProfile
 *
 aOldProfile
-bool
-aDeleteOldProfile
-=
-true
 )
 ;
 void
@@ -409,11 +405,6 @@ aResult
 ;
 bool
 IsSnapEnvironment
-(
-)
-;
-bool
-IsWinPackageEnvironment
 (
 )
 ;
