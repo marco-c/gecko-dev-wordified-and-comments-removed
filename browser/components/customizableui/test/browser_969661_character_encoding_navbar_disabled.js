@@ -103,7 +103,6 @@ button
 ;
 ok
 (
-!
 button
 .
 hasAttribute
@@ -114,9 +113,7 @@ disabled
 )
 "
 Button
-shouldn
-'
-t
+should
 be
 disabled
 "
