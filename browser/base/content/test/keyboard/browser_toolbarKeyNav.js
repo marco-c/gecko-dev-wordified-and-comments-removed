@@ -1434,8 +1434,6 @@ ArrowRight
 star
 -
 button
--
-box
 "
 )
 ;

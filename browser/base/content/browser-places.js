@@ -8498,7 +8498,7 @@ setAttributes
 (
 this
 .
-starBox
+star
 starred
 ?
 "
