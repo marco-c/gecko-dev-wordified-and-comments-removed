@@ -530,6 +530,14 @@ XRE_IsParentProcess
 )
 )
 ;
+:
+:
+mozilla
+:
+:
+ipc
+:
+:
 AssertIsOnBackgroundThread
 (
 )
