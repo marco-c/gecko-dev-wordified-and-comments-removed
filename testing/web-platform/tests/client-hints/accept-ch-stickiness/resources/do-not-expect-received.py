@@ -67,6 +67,21 @@ in
 request
 .
 headers
+or
+b
+"
+sec
+-
+ch
+-
+device
+-
+memory
+"
+in
+request
+.
+headers
 :
       
 result

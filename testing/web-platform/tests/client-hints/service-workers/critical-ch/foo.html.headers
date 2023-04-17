@@ -2,6 +2,13 @@ Accept
 -
 CH
 :
+sec
+-
+ch
+-
+device
+-
+memory
 device
 -
 memory
@@ -9,6 +16,13 @@ Critical
 -
 CH
 :
+sec
+-
+ch
+-
+device
+-
+memory
 device
 -
 memory
