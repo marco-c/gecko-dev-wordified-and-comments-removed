@@ -159,10 +159,6 @@ openjdk
 "
         
 "
-wget
-"
-        
-"
 ncurses
 -
 32bit

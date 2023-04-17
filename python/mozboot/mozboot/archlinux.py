@@ -210,10 +210,6 @@ openjdk
 "
         
 "
-wget
-"
-        
-"
 multilib
 /
 lib32

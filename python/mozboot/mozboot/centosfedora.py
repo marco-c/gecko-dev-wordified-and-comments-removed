@@ -193,10 +193,6 @@ openjdk
 -
 devel
 "
-            
-"
-wget
-"
         
 ]
         

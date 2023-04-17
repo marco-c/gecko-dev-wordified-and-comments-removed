@@ -53,9 +53,6 @@ gtar
 rust
 "
 "
-wget
-"
-"
 unzip
 "
 "

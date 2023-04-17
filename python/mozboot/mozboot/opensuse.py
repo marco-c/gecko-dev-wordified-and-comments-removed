@@ -182,9 +182,6 @@ java
 -
 openjdk
 "
-"
-wget
-"
 ]
     
 def

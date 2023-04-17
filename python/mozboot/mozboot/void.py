@@ -116,10 +116,6 @@ MOBILE_ANDROID_PACKAGES
 "
 openjdk8
 "
-        
-"
-wget
-"
     
 ]
     

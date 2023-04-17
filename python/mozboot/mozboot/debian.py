@@ -298,10 +298,6 @@ headless
 "
         
 "
-wget
-"
-        
-"
 libncurses5
 "
     
