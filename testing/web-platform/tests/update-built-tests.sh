@@ -35,7 +35,7 @@ tools
 build
 .
 sh
-python
+python3
 mimesniff
 /
 mime
