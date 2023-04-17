@@ -270,6 +270,8 @@ linux
 *
 -
 64
+-
+qr
 /
 debug
 :
@@ -291,6 +293,8 @@ shippable
 asan
 )
 ?
+-
+qr
 /
 opt
 :
@@ -302,6 +306,8 @@ windows
 *
 -
 64
+-
+qr
 /
 debug
 :
@@ -320,6 +326,8 @@ windows
 shippable
 )
 ?
+-
+qr
 /
 opt
 :
