@@ -5350,6 +5350,8 @@ this
 )
 )
 {
+if
+(
 PresShell
 *
 presShell
@@ -5360,7 +5362,8 @@ doc
 GetPresShell
 (
 )
-;
+)
+{
 RefPtr
 <
 nsViewManager
@@ -5406,6 +5409,7 @@ Size
 )
 )
 ;
+}
 }
 nsIFrame
 *
