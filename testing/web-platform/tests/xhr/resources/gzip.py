@@ -3,7 +3,7 @@ gzip
 as
 gzip_module
 from
-six
+io
 import
 BytesIO
 def

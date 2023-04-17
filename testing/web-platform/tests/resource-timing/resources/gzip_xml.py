@@ -5,7 +5,7 @@ gzip_module
 import
 os
 from
-six
+io
 import
 BytesIO
 from

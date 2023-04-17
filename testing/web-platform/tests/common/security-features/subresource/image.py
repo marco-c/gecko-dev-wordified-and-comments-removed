@@ -4,7 +4,7 @@ sys
 array
 math
 from
-six
+io
 import
 BytesIO
 from
