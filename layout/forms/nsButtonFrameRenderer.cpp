@@ -1423,6 +1423,9 @@ ToLayoutRect
 deviceBox
 )
 ;
+bool
+dummy
+;
 LayoutDeviceRect
 clipRect
 =
@@ -1431,8 +1434,11 @@ LayoutDeviceRect
 :
 FromAppUnits
 (
-GetPaintRect
+GetBounds
 (
+aDisplayListBuilder
+&
+dummy
 )
 appUnitsPerDevPixel
 )
@@ -2707,6 +2713,9 @@ borderIsEmpty
 =
 false
 ;
+bool
+dummy
+;
 nsRect
 r
 =
@@ -2738,8 +2747,11 @@ PresContext
 (
 )
 nullptr
-GetPaintRect
+GetBounds
 (
+aDisplayListBuilder
+&
+dummy
 )
 r
 &
