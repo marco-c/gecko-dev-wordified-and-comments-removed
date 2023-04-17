@@ -512,7 +512,7 @@ experiments
 )
 has
 higher
-precendence
+precedence
 to
 defaults
 .
@@ -606,10 +606,11 @@ jsm
 #
 566
 )
-has
+have
 dynamic
 rules
-thats
+which
+are
 applied
 to
 both
