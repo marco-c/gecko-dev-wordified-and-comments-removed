@@ -1057,6 +1057,15 @@ JOF_CHECKSTRICT
 JOF_IC
 )
 (
+NewPrivateName
+new_private_name
+NULL
+5
+0
+1
+JOF_ATOM
+)
+(
 SuperBase
 super_base
 NULL

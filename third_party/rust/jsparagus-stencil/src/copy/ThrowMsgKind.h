@@ -35,6 +35,7 @@ AssignToCall
 IteratorNoThrow
 CantDeleteSuper
 PrivateDoubleInit
+PrivateBrandDoubleInit
 MissingPrivateOnGet
 MissingPrivateOnSet
 AssignToPrivateMethod
