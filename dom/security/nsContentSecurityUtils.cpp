@@ -2478,10 +2478,15 @@ PossiblyCrash
 const
 char
 *
-pref_suffix
+aPrefSuffix
+const
+char
+*
+aUnsafeCrashString
 const
 nsCString
-crash_string
+&
+aSafeCrashString
 )
 {
 if
@@ -2513,7 +2518,7 @@ previous_crashes
 .
 Append
 (
-pref_suffix
+aPrefSuffix
 )
 ;
 previous_crashes
@@ -2541,7 +2546,7 @@ max_crashes
 .
 Append
 (
-pref_suffix
+aPrefSuffix
 )
 ;
 max_crashes
@@ -2707,7 +2712,7 @@ nsContentSecurityUtils
 :
 SmartFormatCrashString
 (
-crash_string
+aSafeCrashString
 .
 get
 (
@@ -6125,6 +6130,7 @@ PossiblyCrash
 "
 js_load_1
 "
+aFilename
 NS_ConvertUTF16toUTF8
 (
 fileNameTypeAndDetails
@@ -6145,6 +6151,7 @@ PossiblyCrash
 "
 js_load_1
 "
+aFilename
 "
 (
 None

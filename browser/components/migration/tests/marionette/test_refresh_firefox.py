@@ -3242,6 +3242,21 @@ true
 }
 ;
           
+Services
+.
+prefs
+.
+setBoolPref
+(
+"
+security
+.
+allow_parent_unrestricted_js_loads
+"
+true
+)
+;
+          
 mm
 .
 loadFrameScript
@@ -3267,6 +3282,21 @@ toString
 )
 "
 true
+)
+;
+          
+Services
+.
+prefs
+.
+setBoolPref
+(
+"
+security
+.
+allow_parent_unrestricted_js_loads
+"
+false
 )
 ;
         
