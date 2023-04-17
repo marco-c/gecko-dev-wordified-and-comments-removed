@@ -790,7 +790,7 @@ promise_rejects_dom
 (
 t
 '
-AbortError
+NoModificationAllowedError
 '
 handle
 .

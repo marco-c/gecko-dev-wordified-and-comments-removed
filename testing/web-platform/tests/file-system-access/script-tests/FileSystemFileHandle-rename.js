@@ -811,7 +811,7 @@ promise_rejects_dom
 (
 t
 '
-InvalidStateError
+NoModificationAllowedError
 '
 handle
 .
@@ -938,7 +938,7 @@ promise_rejects_dom
 (
 t
 '
-InvalidStateError
+NoModificationAllowedError
 '
 handle
 .
