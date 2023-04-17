@@ -518,9 +518,7 @@ popup
 -
 category
 -
-tracking
--
-protection
+trackers
 "
 )
 "
@@ -708,9 +706,7 @@ popup
 -
 category
 -
-tracking
--
-protection
+trackers
 "
 )
 "
@@ -960,9 +956,7 @@ popup
 -
 category
 -
-tracking
--
-protection
+trackers
 "
 )
 "
@@ -1180,9 +1174,7 @@ popup
 -
 category
 -
-tracking
--
-protection
+trackers
 "
 )
 "
@@ -1603,6 +1595,10 @@ gBrowser
 .
 ownerGlobal
 .
+gProtectionsHandler
+.
+blockers
+.
 TrackingProtection
 ;
 ok
@@ -1813,6 +1809,10 @@ tabbrowser
 .
 ownerGlobal
 .
+gProtectionsHandler
+.
+blockers
+.
 TrackingProtection
 ;
 ok
@@ -1978,6 +1978,10 @@ ThirdPartyCookies
 gBrowser
 .
 ownerGlobal
+.
+gProtectionsHandler
+.
+blockers
 .
 ThirdPartyCookies
 ;

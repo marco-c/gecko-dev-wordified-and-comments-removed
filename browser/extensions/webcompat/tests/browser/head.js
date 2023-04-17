@@ -270,6 +270,10 @@ tab
 .
 ownerGlobal
 .
+gProtectionsHandler
+.
+blockers
+.
 TrackingProtection
 ;
 ok

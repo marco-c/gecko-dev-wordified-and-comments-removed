@@ -571,6 +571,10 @@ browser
 .
 ownerGlobal
 .
+gProtectionsHandler
+.
+blockers
+.
 TrackingProtection
 ;
 ok
@@ -853,6 +857,10 @@ TrackingProtection
 browser
 .
 ownerGlobal
+.
+gProtectionsHandler
+.
+blockers
 .
 TrackingProtection
 ;
