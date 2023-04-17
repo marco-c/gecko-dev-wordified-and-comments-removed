@@ -20847,7 +20847,11 @@ aLayerManager
 const
 nsIFrame
 *
-aContainerReferenceFrame
+aItemFrame
+const
+nsPoint
+&
+aOffsetToReferenceFrame
 const
 DisplayItemClip
 *
@@ -20938,7 +20942,8 @@ mOuter
 GetContent
 (
 )
-aContainerReferenceFrame
+aItemFrame
+aOffsetToReferenceFrame
 aLayerManager
 mScrollParentID
 mScrollPort
