@@ -659,7 +659,6 @@ set
 :
 [
 [
-[
 "
 browser
 .
@@ -673,7 +672,6 @@ improvesearch
 .
 handoffToAwesomebar
 "
-]
 false
 ]
 ]
