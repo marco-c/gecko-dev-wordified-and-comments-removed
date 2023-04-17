@@ -71,15 +71,6 @@ include
 "
 mozilla
 /
-ResultVariant
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Utf8
 .
 h
