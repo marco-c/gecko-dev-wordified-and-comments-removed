@@ -1046,9 +1046,6 @@ test
 -
 feature
 "
-enabled
-:
-true
 value
 :
 {
@@ -1057,6 +1054,9 @@ title
 "
 hello
 "
+enabled
+:
+true
 }
 }
 .
@@ -1154,12 +1154,13 @@ test
 -
 feature
 "
+value
+:
+{
 enabled
 :
 true
-value
-:
-null
+}
 }
 }
 {
@@ -1181,9 +1182,6 @@ test
 -
 feature
 "
-enabled
-:
-true
 value
 :
 {
@@ -1192,6 +1190,9 @@ title
 "
 hello
 "
+enabled
+:
+true
 }
 }
 }

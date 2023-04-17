@@ -265,10 +265,10 @@ false
 remoteValue
 :
 false
-}
 enabled
 :
 false
+}
 targeting
 :
 "
@@ -302,10 +302,10 @@ true
 remoteValue
 :
 true
-}
 enabled
 :
 true
+}
 targeting
 :
 "
@@ -989,7 +989,11 @@ Feature
 is
 enabled
 by
-enabledFallbackPref
+manifest
+.
+variables
+.
+enabled
 "
 )
 ;
