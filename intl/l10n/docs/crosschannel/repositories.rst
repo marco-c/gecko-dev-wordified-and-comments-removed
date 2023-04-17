@@ -118,11 +118,7 @@ mozilla
 .
 org
 /
-users
-/
-axel_mozilla
-.
-com
+l10n
 /
 gecko
 -

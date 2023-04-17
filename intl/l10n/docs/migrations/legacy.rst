@@ -92,6 +92,12 @@ Migrating
 from
 legacy
 formats
+(
+.
+dtd
+.
+properties
+)
 is
 different
 from
