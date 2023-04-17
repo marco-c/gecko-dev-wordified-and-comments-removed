@@ -89,6 +89,15 @@ include
 "
 vm
 /
+GetterSetter
+.
+h
+"
+#
+include
+"
+vm
+/
 JSContext
 .
 h

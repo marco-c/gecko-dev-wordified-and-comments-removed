@@ -35,6 +35,9 @@ class
 BaseShape
 ;
 class
+GetterSetter
+;
+class
 RegExpShared
 ;
 class
@@ -83,6 +86,7 @@ JitCode
 Script
 Scope
 RegExpShared
+GetterSetter
 }
 ;
 const
@@ -250,6 +254,17 @@ js
 :
 :
 RegExpShared
+true
+true
+)
+\
+D
+(
+GetterSetter
+js
+:
+:
+GetterSetter
 true
 true
 )
