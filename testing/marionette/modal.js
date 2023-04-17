@@ -305,6 +305,16 @@ if
 dialogs
 .
 length
+&
+&
+dialogs
+[
+0
+]
+.
+frameContentWindow
+.
+Dialog
 )
 {
 logger
