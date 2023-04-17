@@ -3036,6 +3036,15 @@ package
 \
 MACRO_
 (
+parameters
+parameters
+"
+parameters
+"
+)
+\
+MACRO_
+(
 parseFloat
 parseFloat
 "
