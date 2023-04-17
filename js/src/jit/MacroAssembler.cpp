@@ -11720,7 +11720,7 @@ jitCodeRaw_
 "
 )
 ;
-loadPtr
+loadPrivate
 (
 Address
 (
@@ -11728,7 +11728,7 @@ func
 JSFunction
 :
 :
-offsetOfScript
+offsetOfJitInfoOrScript
 (
 )
 )
@@ -11766,7 +11766,7 @@ Label
 failure
 )
 {
-loadPtr
+loadPrivate
 (
 Address
 (
@@ -11774,7 +11774,7 @@ func
 JSFunction
 :
 :
-offsetOfScript
+offsetOfJitInfoOrScript
 (
 )
 )
@@ -19011,7 +19011,7 @@ isInterpreted
 )
 ;
 {
-loadPtr
+loadPrivate
 (
 Address
 (
@@ -19019,7 +19019,7 @@ func
 JSFunction
 :
 :
-offsetOfScript
+offsetOfJitInfoOrScript
 (
 )
 )
