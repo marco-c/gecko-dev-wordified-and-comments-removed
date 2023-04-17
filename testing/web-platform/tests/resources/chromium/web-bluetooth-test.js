@@ -617,6 +617,10 @@ simulatePreconnectedPeripheral
 {
 address
 name
+manufacturerData
+=
+{
+}
 knownServiceUUIDs
 =
 [
@@ -633,6 +637,12 @@ simulatePreconnectedPeripheral
 (
 address
 name
+convertToMojoMap
+(
+manufacturerData
+Number
+true
+)
 canonicalizeAndConvertToMojoUUID
 (
 knownServiceUUIDs
