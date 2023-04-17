@@ -132,6 +132,10 @@ RefPtr
 <
 nsAtom
 >
+CopyableTArray
+<
+int32_t
+>
 CSSCoord
 FontSize
 Color
