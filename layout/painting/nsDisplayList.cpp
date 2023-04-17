@@ -7711,14 +7711,6 @@ GetScrolledFrame
 =
 =
 aFrame
-&
-&
-sf
--
->
-IsScrollingActive
-(
-)
 )
 {
 MOZ_ASSERT
