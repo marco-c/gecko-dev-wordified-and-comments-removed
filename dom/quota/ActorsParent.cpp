@@ -31776,7 +31776,7 @@ IsShuttingDown
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 }
 AdvanceState
