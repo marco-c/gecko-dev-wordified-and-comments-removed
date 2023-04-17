@@ -135,7 +135,7 @@ PictureRect
 PictureRect
 :
 :
-new
+from_origin_and_size
 (
 PicturePoint
 :
