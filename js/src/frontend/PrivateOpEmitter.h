@@ -118,9 +118,6 @@ kind_
 TaggedParserAtomIndex
 name_
 ;
-GCThingIndex
-atomIndex_
-;
 mozilla
 :
 :
