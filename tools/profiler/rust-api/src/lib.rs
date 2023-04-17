@@ -11,6 +11,9 @@ profiler_state
 mod
 thread
 ;
+mod
+time
+;
 pub
 use
 gecko_bindings
@@ -45,6 +48,13 @@ profiler_state
 pub
 use
 thread
+:
+:
+*
+;
+pub
+use
+time
 :
 :
 *
