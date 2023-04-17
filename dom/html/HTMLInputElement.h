@@ -3880,8 +3880,6 @@ VisitGroup
 nsIRadioVisitor
 *
 aVisitor
-bool
-aFlushContent
 )
 ;
 void
