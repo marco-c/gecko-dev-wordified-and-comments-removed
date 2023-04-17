@@ -147,12 +147,6 @@ mOffsetAccIdx
 =
 -
 1
-&
-&
-aStartOffset
-&
-&
-aEndOffset
 )
 |
 |
@@ -205,6 +199,15 @@ IsText
 )
 )
 {
+if
+(
+!
+aStartOffset
+)
+{
+return
+;
+}
 for
 (
 int32_t
@@ -586,7 +589,7 @@ mIncludeDefAttrs
 }
 if
 (
-mOffsetAcc
+aStartOffset
 )
 {
 GetRange
