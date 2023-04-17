@@ -1796,7 +1796,7 @@ gc
 DefaultHeap
 ;
 }
-JSObject
+NativeObject
 *
 NewObjectWithGivenTaggedProto
 (
@@ -1832,7 +1832,7 @@ NewObjectKind
 NewKind
 >
 inline
-JSObject
+NativeObject
 *
 NewObjectWithGivenTaggedProto
 (
@@ -1972,7 +1972,7 @@ proto
 ;
 }
 inline
-JSObject
+NativeObject
 *
 NewObjectWithGivenProto
 (
@@ -2011,7 +2011,7 @@ newKind
 ;
 }
 inline
-JSObject
+NativeObject
 *
 NewObjectWithGivenProto
 (
@@ -2042,7 +2042,7 @@ proto
 ;
 }
 inline
-JSObject
+NativeObject
 *
 NewTenuredObjectWithGivenProto
 (
@@ -2203,7 +2203,7 @@ T
 nullptr
 ;
 }
-JSObject
+NativeObject
 *
 NewObjectWithClassProto
 (
@@ -2228,7 +2228,7 @@ GenericObject
 )
 ;
 inline
-JSObject
+NativeObject
 *
 NewObjectWithClassProto
 (
@@ -2400,7 +2400,7 @@ newKind
 GenericObject
 )
 {
-JSObject
+NativeObject
 *
 obj
 =
@@ -2435,7 +2435,7 @@ nullptr
 ;
 }
 inline
-JSObject
+NativeObject
 *
 NewBuiltinClassInstance
 (
@@ -2469,7 +2469,7 @@ newKind
 ;
 }
 inline
-JSObject
+NativeObject
 *
 NewBuiltinClassInstance
 (
