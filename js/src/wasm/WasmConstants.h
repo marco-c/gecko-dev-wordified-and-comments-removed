@@ -82,9 +82,6 @@ Event
 13
 #
 endif
-GcFeatureOptIn
-=
-42
 }
 ;
 static
