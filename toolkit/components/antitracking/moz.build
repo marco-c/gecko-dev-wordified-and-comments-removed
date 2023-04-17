@@ -349,3 +349,13 @@ xpcshell
 ini
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+test
+/
+gtest
+"
+]
