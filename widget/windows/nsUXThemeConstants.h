@@ -445,6 +445,15 @@ SPI_GETMENUSHOWDELAY
 endif
 #
 ifndef
+SPI_GETCARETTIMEOUT
+#
+define
+SPI_GETCARETTIMEOUT
+0x2022
+#
+endif
+#
+ifndef
 WS_EX_LAYOUTRTL
 #
 define
