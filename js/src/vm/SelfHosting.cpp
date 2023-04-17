@@ -17417,6 +17417,12 @@ Length
 0
 )
 {
+options
+.
+usePinnedBytecode
+=
+true
+;
 Rooted
 <
 frontend

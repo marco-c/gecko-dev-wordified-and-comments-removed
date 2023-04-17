@@ -229,6 +229,11 @@ useOffThreadParseGlobal
 =
 true
 ;
+bool
+usePinnedBytecode
+=
+false
+;
 const
 char
 *

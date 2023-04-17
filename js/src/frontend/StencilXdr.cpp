@@ -1469,10 +1469,8 @@ mode
 >
 (
 xdr
+*
 sisd
--
->
-isd_
 )
 )
 ;
@@ -1535,10 +1533,8 @@ mode
 >
 (
 xdr
+*
 data
--
->
-isd_
 )
 )
 ;
