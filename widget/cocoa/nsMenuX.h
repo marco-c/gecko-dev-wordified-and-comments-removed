@@ -528,11 +528,6 @@ nsMenuX
 aChild
 )
 ;
-void
-FlushMenuClosedRunnable
-(
-)
-;
 nsCOMPtr
 <
 nsIContent
