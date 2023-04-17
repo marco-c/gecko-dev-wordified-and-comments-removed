@@ -439,7 +439,6 @@ _5
 canCompact
 )
 \
-(
 std
 :
 :
@@ -448,12 +447,9 @@ is_base_of_v
 Type
 T
 >
-&
-&
+?
 canCompact
-)
-|
-|
+:
 static
 constexpr
 bool
