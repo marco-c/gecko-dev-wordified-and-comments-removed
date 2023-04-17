@@ -323,6 +323,9 @@ UiCompositorControllerParent
 class
 WebRenderBridgeParent
 ;
+class
+WebRenderScrollDataWrapper
+;
 struct
 CollectedFrames
 ;
@@ -336,6 +339,15 @@ aLayersId
 Layer
 *
 aRoot
+GeckoContentController
+*
+aController
+)
+;
+ScopedLayerTreeRegistration
+(
+LayersId
+aLayersId
 GeckoContentController
 *
 aController
