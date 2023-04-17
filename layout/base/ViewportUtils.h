@@ -25,6 +25,9 @@ h
 class
 nsIFrame
 ;
+class
+nsPresContext
+;
 namespace
 mozilla
 {
@@ -191,6 +194,15 @@ const
 nsIFrame
 *
 aFrame
+)
+;
+static
+Scale2D
+TryInferEnclosingResolution
+(
+PresShell
+*
+aShell
 )
 ;
 }
