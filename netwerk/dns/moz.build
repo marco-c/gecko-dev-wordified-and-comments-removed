@@ -270,6 +270,11 @@ DNSUtils
 cpp
 "
 "
+HostRecordQueue
+.
+cpp
+"
+"
 HTTPSSVC
 .
 cpp
