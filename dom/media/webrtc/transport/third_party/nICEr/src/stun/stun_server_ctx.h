@@ -119,13 +119,6 @@ char
 *
 label
 ;
-nr_socket
-*
-sock
-;
-nr_transport_addr
-my_addr
-;
 nr_stun_server_client_head
 clients
 ;
@@ -141,9 +134,6 @@ nr_stun_server_ctx_create
 char
 *
 label
-nr_socket
-*
-sock
 nr_stun_server_ctx
 *
 *
