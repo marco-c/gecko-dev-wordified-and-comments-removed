@@ -1186,11 +1186,9 @@ keyBegin
 keyEnd
 )
 )
-{
 return
 NS_ERROR_FAILURE
 ;
-}
 valBegin
 =
 keyEnd
@@ -1218,11 +1216,9 @@ keyBegin
 keyEnd
 )
 )
-{
 return
 NS_ERROR_FAILURE
 ;
-}
 storageName
 .
 Assign

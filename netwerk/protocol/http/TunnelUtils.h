@@ -392,7 +392,7 @@ PRFileDesc
 fd
 PRSocketOptionData
 *
-aOpt
+data
 )
 ;
 static
@@ -689,7 +689,7 @@ void
 Close
 (
 nsresult
-code
+reason
 )
 final
 ;

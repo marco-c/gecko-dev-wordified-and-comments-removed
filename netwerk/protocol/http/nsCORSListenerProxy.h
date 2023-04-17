@@ -283,7 +283,7 @@ nsTArray
 nsCString
 >
 &
-aUnsafeHeaders
+aACUnsafeHeaders
 nsIChannel
 *
 *

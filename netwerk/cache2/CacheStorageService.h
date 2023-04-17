@@ -434,7 +434,7 @@ CacheEntry
 aEntry
 EntryInfoCallback
 *
-aCallback
+aVisitor
 )
 ;
 nsresult
@@ -606,7 +606,7 @@ IsForcedValidEntry
 nsACString
 const
 &
-aContextEntryKey
+aEntryKeyWithContext
 )
 ;
 private

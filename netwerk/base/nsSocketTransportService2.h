@@ -749,7 +749,7 @@ TimeDuration
 *
 pollDuration
 PRIntervalTime
-ts
+now
 )
 ;
 AutoCleanLinkedList
@@ -853,9 +853,7 @@ nsITimer
 >
 mAfterWakeUpTimer
 ;
-using
-TPortRemapping
-=
+typedef
 CopyableTArray
 <
 Tuple
@@ -865,6 +863,7 @@ uint16_t
 uint16_t
 >
 >
+TPortRemapping
 ;
 Maybe
 <

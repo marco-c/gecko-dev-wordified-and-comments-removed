@@ -318,7 +318,7 @@ NS_NewURI
 nsIURI
 *
 *
-aURI
+result
 const
 nsACString
 &

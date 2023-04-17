@@ -432,11 +432,9 @@ desktop
 _ns
 )
 )
-{
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-}
 bool
 isFile
 =

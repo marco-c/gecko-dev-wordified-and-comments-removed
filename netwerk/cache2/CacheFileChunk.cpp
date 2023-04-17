@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 #
@@ -4300,5 +4300,6 @@ prioChunksMemoryUsage
 :
 chunksMemoryUsage
 ;
+}
 }
 }

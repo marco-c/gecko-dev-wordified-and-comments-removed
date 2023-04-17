@@ -194,8 +194,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 namespace
@@ -228,14 +228,13 @@ Append
 ;
 }
 }
-using
-GlobalEntryTables
-=
+typedef
 nsClassHashtable
 <
 nsCStringHashKey
 CacheEntryTable
 >
+GlobalEntryTables
 ;
 static
 GlobalEntryTables
@@ -1420,7 +1419,6 @@ if
 (
 mCallback
 )
-{
 ProxyReleaseMainThread
 (
 "
@@ -1432,7 +1430,6 @@ mCallback
 mCallback
 )
 ;
-}
 }
 virtual
 void
@@ -4939,7 +4936,6 @@ GetStorageID
 entries
 )
 )
-{
 RemoveExactEntry
 (
 entries
@@ -4948,7 +4944,6 @@ aEntry
 false
 )
 ;
-}
 nsAutoCString
 memoryStorageID
 (
@@ -4977,7 +4972,6 @@ memoryStorageID
 entries
 )
 )
-{
 RemoveExactEntry
 (
 entries
@@ -4986,7 +4980,6 @@ aEntry
 false
 )
 ;
-}
 return
 true
 ;
@@ -8033,7 +8026,6 @@ if
 (
 mCallback
 )
-{
 ProxyReleaseMainThread
 (
 "
@@ -8045,7 +8037,6 @@ mCallback
 mCallback
 )
 ;
-}
 }
 NS_IMETHODIMP
 CacheEntryDoomByKeyCallback
@@ -9062,9 +9053,7 @@ memoryEntry
 memoryEntries
 )
 {
-const
 auto
-&
 entry
 =
 memoryEntry
@@ -11050,5 +11039,6 @@ CacheIOThread
 WRITE
 )
 ;
+}
 }
 }

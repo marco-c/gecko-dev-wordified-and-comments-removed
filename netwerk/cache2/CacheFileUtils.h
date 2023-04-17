@@ -352,13 +352,9 @@ private
 :
 uint32_t
 mHitCnt
-=
-0
 ;
 uint32_t
 mMissCnt
-=
-0
 ;
 }
 ;

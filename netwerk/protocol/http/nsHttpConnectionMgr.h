@@ -150,15 +150,14 @@ HttpRetParams
 class
 nsHttpConnectionMgr
 ;
-using
-nsConnEventHandler
-=
+typedef
 void
 (
 nsHttpConnectionMgr
 :
 :
 *
+nsConnEventHandler
 )
 (
 int32_t
@@ -195,7 +194,7 @@ CancelTransactions
 nsHttpConnectionInfo
 *
 nsresult
-code
+reason
 )
 ;
 void
@@ -829,7 +828,7 @@ GetOrCreateConnectionEntry
 nsHttpConnectionInfo
 *
 bool
-prohibitWildCard
+allowWildCard
 bool
 aNoHttp2
 bool
@@ -1304,7 +1303,7 @@ nsHttpTransaction
 >
 &
 bool
-excludeForActiveTab
+excludeActive
 =
 false
 )

@@ -297,7 +297,7 @@ AddConnectionHeader
 nsHttpRequestHead
 *
 uint32_t
-caps
+capabilities
 )
 ;
 bool
@@ -1363,7 +1363,7 @@ GetIOService
 nsIIOService
 *
 *
-result
+service
 )
 ;
 nsICookieService
@@ -1773,6 +1773,7 @@ NotifyActiveTabLoadOptimization
 )
 ;
 TimeStamp
+const
 GetLastActiveTabLoadOptimizationHit
 (
 )

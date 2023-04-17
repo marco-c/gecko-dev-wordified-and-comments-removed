@@ -910,9 +910,7 @@ override
 return
 (
 !
-(
 fwdObject
-)
 )
 ?
 false
@@ -939,9 +937,7 @@ override
 return
 (
 !
-(
 fwdObject
-)
 )
 ?
 false
@@ -993,9 +989,7 @@ override
 {
 \
 return
-(
 fwdObject
-)
 ?
 (
 fwdObject
@@ -1144,9 +1138,7 @@ override
 return
 (
 !
-(
 fwdObject
-)
 )
 ?
 false
@@ -1173,9 +1165,7 @@ override
 return
 (
 !
-(
 fwdObject
-)
 )
 ?
 false

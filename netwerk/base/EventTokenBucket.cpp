@@ -312,7 +312,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 sts
 =
 do_GetService
@@ -322,7 +321,6 @@ NS_SOCKETTRANSPORTSERVICE_CONTRACTID
 rv
 )
 ;
-}
 if
 (
 NS_SUCCEEDED
@@ -1323,10 +1321,8 @@ GetSize
 !
 mTimer
 )
-{
 return
 ;
-}
 if
 (
 mCredit
@@ -1364,12 +1360,10 @@ msecWait
 <
 4
 )
-{
 msecWait
 =
 4
 ;
-}
 else
 if
 (
@@ -1377,12 +1371,10 @@ msecWait
 >
 60000
 )
-{
 msecWait
 =
 60000
 ;
-}
 #
 ifdef
 XP_WIN

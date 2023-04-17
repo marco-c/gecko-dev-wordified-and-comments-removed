@@ -93,7 +93,7 @@ aDir
 nsIInputStream
 *
 *
-aResult
+aStreamResult
 )
 ;
 NS_DECL_THREADSAFE_ISUPPORTS

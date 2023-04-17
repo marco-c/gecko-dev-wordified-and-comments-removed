@@ -723,14 +723,14 @@ nsISSLSocketControl
 *
 ssl
 SpdyVersion
-spdyVersion
+versionLevel
 )
 ;
 void
 Start0RTTSpdy
 (
 SpdyVersion
-spdyVersion
+versionLevel
 )
 ;
 nsresult

@@ -273,7 +273,8 @@ ToLowerCase
 path
 )
 ;
-return
+if
+(
 path
 .
 EqualsLiteral
@@ -302,6 +303,14 @@ EqualsLiteral
 srcdoc
 "
 )
+)
+{
+return
+true
+;
+}
+return
+false
 ;
 }
 NS_IMPL_ISUPPORTS
@@ -1226,7 +1235,6 @@ Equals
 kNestedAboutURICID
 )
 )
-{
 foundInterface
 =
 static_cast
@@ -1238,7 +1246,6 @@ nsIURI
 this
 )
 ;
-}
 else
 NS_IMPL_QUERY_CLASSINFO
 (

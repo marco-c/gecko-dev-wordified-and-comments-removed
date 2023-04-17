@@ -1586,8 +1586,10 @@ this
 ;
 if
 (
-!
 isBlocklisted
+=
+=
+false
 )
 {
 for

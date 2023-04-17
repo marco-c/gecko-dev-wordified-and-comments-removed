@@ -167,9 +167,7 @@ outLoadInfo
 namespace
 net
 {
-using
-RedirectHistoryArray
-=
+typedef
 nsTArray
 <
 nsCOMPtr
@@ -177,6 +175,7 @@ nsCOMPtr
 nsIRedirectHistoryEntry
 >
 >
+RedirectHistoryArray
 ;
 class
 LoadInfo
@@ -1040,8 +1039,6 @@ mSandboxFlags
 ;
 uint32_t
 mTriggeringSandboxFlags
-=
-0
 ;
 nsContentPolicyType
 mInternalContentPolicyType

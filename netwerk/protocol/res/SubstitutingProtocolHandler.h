@@ -173,7 +173,7 @@ nsTArray
 SubstitutionMapping
 >
 &
-aMappings
+aResources
 )
 ;
 protected

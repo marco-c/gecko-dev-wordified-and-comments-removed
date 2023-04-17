@@ -3532,7 +3532,6 @@ if
 (
 loadGroup
 )
-{
 (
 void
 )
@@ -3546,7 +3545,6 @@ mContext
 aStatus
 )
 ;
-}
 }
 mPartChannel
 =
@@ -3669,7 +3667,6 @@ mTotalSent
 >
 mContentLength
 )
-{
 mRawDataLength
 =
 static_cast
@@ -3682,7 +3679,6 @@ mContentLength
 mTotalSent
 )
 ;
-}
 if
 (
 mRawDataLength

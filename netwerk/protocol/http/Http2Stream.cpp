@@ -795,7 +795,6 @@ GENERATING_HEADERS
 !
 mRequestHeadersDone
 )
-{
 mSession
 -
 >
@@ -804,7 +803,6 @@ TransactionHasDataToWrite
 this
 )
 ;
-}
 if
 (
 rv
@@ -4019,7 +4017,6 @@ mUpstreamState
 =
 SENDING_FIN_STREAM
 )
-{
 mTransaction
 -
 >
@@ -4030,7 +4027,6 @@ NS_NET_STATUS_SENDING_TO
 mTotalSent
 )
 ;
-}
 if
 (
 !
@@ -4290,11 +4286,9 @@ NS_FAILED
 rv
 )
 )
-{
 return
 rv
 ;
-}
 rv
 =
 mSession
@@ -7138,7 +7132,6 @@ Http2Session
 :
 kMaxFrameData
 )
-{
 dataLength
 =
 Http2Session
@@ -7146,7 +7139,6 @@ Http2Session
 :
 kMaxFrameData
 ;
-}
 if
 (
 dataLength
@@ -7158,7 +7150,6 @@ ServerSessionWindow
 (
 )
 )
-{
 dataLength
 =
 static_cast
@@ -7174,14 +7165,12 @@ ServerSessionWindow
 )
 )
 ;
-}
 if
 (
 dataLength
 >
 mServerReceiveWindow
 )
-{
 dataLength
 =
 static_cast
@@ -7192,7 +7181,6 @@ uint32_t
 mServerReceiveWindow
 )
 ;
-}
 LOG3
 (
 (

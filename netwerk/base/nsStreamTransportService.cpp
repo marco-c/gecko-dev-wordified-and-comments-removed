@@ -502,7 +502,6 @@ if
 (
 target
 )
-{
 return
 net_NewTransportEventSinkProxy
 (
@@ -514,7 +513,6 @@ sink
 target
 )
 ;
-}
 mEventSink
 =
 sink
@@ -612,7 +610,6 @@ if
 (
 mEventSink
 )
-{
 mEventSink
 -
 >
@@ -625,7 +622,6 @@ mOffset
 1
 )
 ;
-}
 }
 return
 rv

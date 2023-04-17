@@ -101,21 +101,17 @@ nativePath
 =
 ePath
 )
-{
 CopyUTF16toUTF8
 (
 path
 ePath
 )
 ;
-}
 else
-{
 ePath
 =
 nativePath
 ;
-}
 nsAutoCString
 escPath
 ;
@@ -148,7 +144,6 @@ esc_Forced
 escPath
 )
 )
-{
 escPath
 .
 Insert
@@ -157,9 +152,7 @@ prefix
 0
 )
 ;
-}
 else
-{
 escPath
 .
 Assign
@@ -169,7 +162,6 @@ prefix
 ePath
 )
 ;
-}
 escPath
 .
 ReplaceSubstring
@@ -418,7 +410,6 @@ NS_IsNativeUTF8
 (
 )
 )
-{
 rv
 =
 localFile
@@ -429,9 +420,7 @@ InitWithNativePath
 path
 )
 ;
-}
 else
-{
 rv
 =
 localFile
@@ -446,9 +435,7 @@ path
 )
 ;
 }
-}
 else
-{
 rv
 =
 localFile
@@ -459,7 +446,6 @@ InitWithNativePath
 path
 )
 ;
-}
 if
 (
 NS_FAILED

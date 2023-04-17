@@ -38,7 +38,7 @@ nsTArray
 nsCString
 >
 &
-aArray
+aNames
 )
 ;
 static

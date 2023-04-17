@@ -81,11 +81,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
-:
-:
+{
+namespace
 CacheFileUtils
 {
 static
@@ -2996,5 +2996,7 @@ Append
 aInfo
 )
 ;
+}
+}
 }
 }

@@ -43,15 +43,14 @@ ProcessChild
 {
 protected
 :
-using
-ProcessChild
-=
+typedef
 mozilla
 :
 :
 ipc
 :
 :
+ProcessChild
 ProcessChild
 ;
 public

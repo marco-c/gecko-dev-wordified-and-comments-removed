@@ -1,10 +1,5 @@
 #
 include
-<
-utility
->
-#
-include
 "
 gtest
 /
@@ -138,10 +133,8 @@ type
 #
 define
 GETTING_NETWORK_PROXY_TYPE_FAILED
-(
 -
 1
-)
 nsCString
 WPADOptionResult
 ;
@@ -740,13 +733,7 @@ mPACMan
 >
 mDHCPClient
 =
-std
-:
-:
-move
-(
 aValue
-)
 ;
 }
 void

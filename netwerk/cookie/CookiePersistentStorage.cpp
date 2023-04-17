@@ -762,9 +762,10 @@ OriginAttributes
 attrs
 (
 inIsolatedMozBrowser
-!
-=
-0
+?
+true
+:
+false
 )
 ;
 nsAutoCString
@@ -1779,7 +1780,6 @@ xpcCookie
 )
 ;
 auto
-*
 cookie
 =
 static_cast

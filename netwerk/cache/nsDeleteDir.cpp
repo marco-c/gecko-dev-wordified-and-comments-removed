@@ -533,7 +533,6 @@ i
 +
 +
 )
-{
 dirsToRemove
 [
 i
@@ -545,7 +544,6 @@ Remove
 true
 )
 ;
-}
 return
 NS_OK
 ;
@@ -632,10 +630,8 @@ Count
 (
 )
 )
-{
 return
 ;
-}
 mBackgroundET
 =
 nullptr

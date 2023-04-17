@@ -387,6 +387,7 @@ TimeStamp
 ;
 }
 }
+const
 TimeStamp
 GetPendingTime
 (
@@ -1142,7 +1143,6 @@ mTrans
 >
 mConnection
 )
-{
 mTrans
 -
 >
@@ -1154,7 +1154,6 @@ SetSecurityCallbacks
 mCallbacks
 )
 ;
-}
 return
 NS_OK
 ;

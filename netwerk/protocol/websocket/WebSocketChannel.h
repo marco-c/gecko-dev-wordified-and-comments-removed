@@ -1124,8 +1124,6 @@ kCopyBreak
 +
 16
 ]
-{
-}
 ;
 UniquePtr
 <

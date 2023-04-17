@@ -1748,6 +1748,7 @@ gotSpatial
 break
 ;
 }
+else
 if
 (
 !

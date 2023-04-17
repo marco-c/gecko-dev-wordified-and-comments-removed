@@ -7001,6 +7001,8 @@ return
 status
 ;
 }
+else
+{
 nsresult
 rv
 =
@@ -7048,6 +7050,7 @@ DONE
 return
 rv
 ;
+}
 }
 if
 (

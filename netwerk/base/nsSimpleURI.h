@@ -198,7 +198,7 @@ Clone
 nsIURI
 *
 *
-result
+aURI
 )
 ;
 virtual
@@ -222,7 +222,7 @@ SetScheme
 const
 nsACString
 &
-scheme
+input
 )
 ;
 virtual
@@ -289,7 +289,7 @@ SetPathQueryRef
 const
 nsACString
 &
-aPath
+input
 )
 ;
 virtual
@@ -299,7 +299,7 @@ SetRef
 const
 nsACString
 &
-aRef
+input
 )
 ;
 virtual
@@ -309,7 +309,7 @@ SetFilePath
 const
 nsACString
 &
-aFilePath
+input
 )
 ;
 virtual
@@ -319,7 +319,7 @@ SetQuery
 const
 nsACString
 &
-aQuery
+input
 )
 ;
 virtual
@@ -329,7 +329,7 @@ SetQueryWithEncoding
 const
 nsACString
 &
-aQuery
+input
 const
 Encoding
 *
@@ -408,7 +408,7 @@ newRef
 nsIURI
 *
 *
-result
+clone
 )
 ;
 nsresult
@@ -454,6 +454,9 @@ mRef
 ;
 nsCString
 mQuery
+;
+bool
+mMutable
 ;
 bool
 mIsRefValid

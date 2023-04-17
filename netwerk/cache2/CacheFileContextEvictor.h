@@ -60,16 +60,12 @@ mInfo
 ;
 bool
 mPinned
-=
-false
 ;
 nsString
 mOrigin
 ;
 PRTime
 mTimeStamp
-=
-0
 ;
 RefPtr
 <
