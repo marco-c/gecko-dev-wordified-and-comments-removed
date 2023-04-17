@@ -1897,12 +1897,6 @@ rof
 rombo
 "
 }
-root
-{
-"
-radice
-"
-}
 ru
 {
 "

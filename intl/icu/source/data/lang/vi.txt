@@ -3888,14 +3888,6 @@ ng
 Romany
 "
 }
-root
-{
-"
-Ti
-ng
-Root
-"
-}
 ru
 {
 "

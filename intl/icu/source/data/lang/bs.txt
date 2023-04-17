@@ -2601,12 +2601,6 @@ rom
 romani
 "
 }
-root
-{
-"
-korijenski
-"
-}
 ru
 {
 "

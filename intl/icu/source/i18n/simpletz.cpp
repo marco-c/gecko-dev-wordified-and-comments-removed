@@ -1578,9 +1578,9 @@ getOffsetFromLocal
 (
 UDate
 date
-int32_t
+UTimeZoneLocalOption
 nonExistingTimeOpt
-int32_t
+UTimeZoneLocalOption
 duplicatedTimeOpt
 int32_t
 &

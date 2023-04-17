@@ -61,7 +61,7 @@ ALIAS
 "
 {
 "
-nb_NO
+no
 "
 }
 }

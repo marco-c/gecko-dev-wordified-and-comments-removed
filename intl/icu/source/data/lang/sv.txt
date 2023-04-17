@@ -3036,12 +3036,6 @@ rom
 romani
 "
 }
-root
-{
-"
-rot
-"
-}
 rtm
 {
 "

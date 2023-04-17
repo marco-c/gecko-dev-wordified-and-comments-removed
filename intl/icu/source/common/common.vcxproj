@@ -766,7 +766,7 @@ OutputFile
 IcuBinOutputDir
 )
 \
-icuuc68d
+icuuc69d
 .
 dll
 <
@@ -897,7 +897,7 @@ OutputFile
 IcuBinOutputDir
 )
 \
-icuuc68
+icuuc69
 .
 dll
 <

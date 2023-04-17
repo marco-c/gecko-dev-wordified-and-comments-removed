@@ -3149,6 +3149,7 @@ franc
 XOF
 {
 "
+F
 CFA
 "
 "

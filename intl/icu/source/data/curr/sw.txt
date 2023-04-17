@@ -1890,6 +1890,7 @@ Mashariki
 XOF
 {
 "
+F
 CFA
 "
 "

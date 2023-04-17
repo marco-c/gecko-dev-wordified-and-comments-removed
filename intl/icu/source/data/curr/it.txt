@@ -2004,7 +2004,6 @@ papuana
 PHP
 {
 "
-PHP
 "
 "
 peso
@@ -2862,6 +2861,7 @@ francese
 XOF
 {
 "
+F
 CFA
 "
 "

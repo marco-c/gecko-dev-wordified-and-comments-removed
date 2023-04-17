@@ -2520,12 +2520,6 @@ rom
 Romani
 "
 }
-root
-{
-"
-Root
-"
-}
 ru
 {
 "

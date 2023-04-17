@@ -3139,6 +3139,7 @@ franak
 XOF
 {
 "
+F
 CFA
 "
 "

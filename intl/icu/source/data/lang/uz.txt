@@ -1978,14 +1978,6 @@ rof
 rombo
 "
 }
-root
-{
-"
-tub
-aholi
-tili
-"
-}
 ru
 {
 "

@@ -1344,7 +1344,6 @@ Guinea
 PHP
 {
 "
-PHP
 "
 "
 Ku
@@ -1851,6 +1850,7 @@ Karebiyan
 XOF
 {
 "
+F
 CFA
 "
 "

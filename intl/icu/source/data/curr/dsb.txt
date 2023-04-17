@@ -1516,7 +1516,6 @@ kina
 PHP
 {
 "
-PHP
 "
 "
 filipinski
@@ -2019,6 +2018,7 @@ dolar
 XOF
 {
 "
+F
 CFA
 "
 "

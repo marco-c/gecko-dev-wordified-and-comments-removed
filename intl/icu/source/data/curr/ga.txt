@@ -2349,7 +2349,6 @@ Phapua
 PHP
 {
 "
-PHP
 "
 "
 Peso
@@ -3350,6 +3349,7 @@ Francach
 XOF
 {
 "
+F
 CFA
 "
 "

@@ -2044,12 +2044,6 @@ rof
 rombo
 "
 }
-root
-{
-"
-erroa
-"
-}
 ru
 {
 "

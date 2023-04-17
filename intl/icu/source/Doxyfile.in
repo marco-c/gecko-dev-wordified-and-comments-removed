@@ -16142,7 +16142,7 @@ YES
 .
 PAPER_TYPE
 =
-a4wide
+a4
 #
 The
 EXTRA_PACKAGES

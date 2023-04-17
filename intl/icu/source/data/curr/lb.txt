@@ -2973,6 +2973,7 @@ Frang
 XOF
 {
 "
+F
 CFA
 "
 "
