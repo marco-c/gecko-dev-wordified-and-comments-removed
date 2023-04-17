@@ -30,9 +30,6 @@ v8
 namespace
 internal
 {
-#
-ifdef
-DEBUG
 class
 DotPrinterImpl
 :
@@ -2069,8 +2066,6 @@ successor
 )
 ;
 }
-#
-endif
 void
 DotPrinter
 :
@@ -2086,9 +2081,6 @@ RegExpNode
 node
 )
 {
-#
-ifdef
-DEBUG
 StdoutStream
 os
 ;
@@ -2106,8 +2098,6 @@ label
 node
 )
 ;
-#
-endif
 }
 }
 }
