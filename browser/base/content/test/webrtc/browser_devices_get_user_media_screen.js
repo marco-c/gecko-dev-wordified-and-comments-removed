@@ -254,6 +254,12 @@ panel
 .
 firstElementChild
 ;
+if
+(
+!
+gProtonDoorhangers
+)
+{
 let
 iconclass
 =
@@ -286,6 +292,7 @@ icon
 "
 )
 ;
+}
 let
 menulist
 =
@@ -1275,6 +1282,12 @@ panel
 .
 firstElementChild
 ;
+if
+(
+!
+gProtonDoorhangers
+)
+{
 let
 iconclass
 =
@@ -1307,6 +1320,7 @@ icon
 "
 )
 ;
+}
 let
 menulist
 =
@@ -2447,6 +2461,12 @@ false
 true
 )
 ;
+if
+(
+!
+gProtonDoorhangers
+)
+{
 let
 iconclass
 =
@@ -2483,6 +2503,7 @@ icon
 "
 )
 ;
+}
 let
 menulist
 =

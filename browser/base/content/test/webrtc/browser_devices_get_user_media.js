@@ -128,6 +128,12 @@ true
 true
 )
 ;
+if
+(
+!
+gProtonDoorhangers
+)
+{
 let
 iconclass
 =
@@ -164,6 +170,7 @@ icon
 "
 )
 ;
+}
 let
 indicator
 =
@@ -373,6 +380,12 @@ checkDeviceSelectors
 true
 )
 ;
+if
+(
+!
+gProtonDoorhangers
+)
+{
 let
 iconclass
 =
@@ -409,6 +422,7 @@ icon
 "
 )
 ;
+}
 let
 indicator
 =
@@ -612,6 +626,12 @@ false
 true
 )
 ;
+if
+(
+!
+gProtonDoorhangers
+)
+{
 let
 iconclass
 =
@@ -648,6 +668,7 @@ icon
 "
 )
 ;
+}
 let
 indicator
 =

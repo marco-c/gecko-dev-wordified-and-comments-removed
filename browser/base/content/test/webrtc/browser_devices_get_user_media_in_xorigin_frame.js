@@ -547,6 +547,12 @@ panel
 .
 firstElementChild
 ;
+if
+(
+!
+gProtonDoorhangers
+)
+{
 const
 iconclass
 =
@@ -579,6 +585,7 @@ icon
 "
 )
 ;
+}
 const
 checkbox
 =
@@ -1318,6 +1325,12 @@ panel
 .
 firstElementChild
 ;
+if
+(
+!
+gProtonDoorhangers
+)
+{
 const
 iconclass
 =
@@ -1350,6 +1363,7 @@ icon
 "
 )
 ;
+}
 const
 checkbox
 =
