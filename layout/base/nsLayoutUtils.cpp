@@ -13918,7 +13918,7 @@ aOutAncestor
 {
 MOZ_ASSERT
 (
-IsAncestorFrameCrossDoc
+IsAncestorFrameCrossDocInProcess
 (
 aAncestor
 .
