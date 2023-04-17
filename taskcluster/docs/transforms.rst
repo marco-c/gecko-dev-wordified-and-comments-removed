@@ -1149,6 +1149,10 @@ debian
 -
 package
 *
+ubuntu
+-
+package
+*
 toolchain
 -
 script

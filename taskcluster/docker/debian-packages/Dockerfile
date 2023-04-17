@@ -32,6 +32,8 @@ essential
 \
 devscripts
 \
+equivs
+\
 fakeroot
 \
 git
