@@ -101,6 +101,13 @@ recipes
 json
 "
 "
+password
+-
+rules
+.
+json
+"
+"
 search
 -
 config
