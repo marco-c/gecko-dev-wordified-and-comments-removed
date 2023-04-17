@@ -617,6 +617,12 @@ using
 JS
 :
 :
+PropertyKey
+;
+using
+JS
+:
+:
 Compartment
 ;
 using

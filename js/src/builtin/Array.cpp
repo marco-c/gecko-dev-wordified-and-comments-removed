@@ -20772,9 +20772,6 @@ property
 ;
 DebugOnly
 <
-JS
-:
-:
 PropertyKey
 >
 key

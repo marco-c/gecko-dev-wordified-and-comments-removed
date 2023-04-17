@@ -27139,9 +27139,6 @@ propShape
 ;
 HeapPtr
 <
-JS
-:
-:
 PropertyKey
 >
 key

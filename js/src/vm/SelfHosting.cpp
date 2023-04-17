@@ -18255,9 +18255,6 @@ NativeObject
 *
 selfHostedObject
 const
-JS
-:
-:
 PropertyKey
 &
 id
@@ -20597,9 +20594,6 @@ Value
 vp
 )
 {
-JS
-:
-:
 PropertyKey
 id
 =

@@ -16496,9 +16496,6 @@ index
 ;
 Maybe
 <
-JS
-:
-:
 PropertyKey
 >
 key

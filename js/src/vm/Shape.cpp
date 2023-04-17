@@ -6788,9 +6788,6 @@ JSContext
 cx
 )
 {
-JS
-:
-:
 PropertyKey
 key
 =

@@ -3069,9 +3069,6 @@ cx
 JSObject
 *
 obj
-JS
-:
-:
 PropertyKey
 id
 NativeObject
@@ -13821,9 +13818,6 @@ cx
 GlobalLexicalEnvironmentObject
 *
 globalLexical
-JS
-:
-:
 PropertyKey
 id
 NativeObject
@@ -17601,9 +17595,6 @@ guardToObject
 valId
 )
 ;
-JS
-:
-:
 PropertyKey
 key
 =
@@ -18707,9 +18698,6 @@ op
 JSObject
 *
 obj
-JS
-:
-:
 PropertyKey
 id
 Maybe
@@ -19601,9 +19589,6 @@ pc
 JSObject
 *
 obj
-JS
-:
-:
 PropertyKey
 id
 NativeObject
@@ -25248,9 +25233,6 @@ arrProto
 =
 proto
 ;
-JS
-:
-:
 PropertyKey
 iteratorKey
 =
