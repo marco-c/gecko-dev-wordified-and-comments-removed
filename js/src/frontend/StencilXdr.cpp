@@ -1092,7 +1092,7 @@ stencil
 .
 flags_
 .
-serialize
+toRaw
 (
 )
 ;
@@ -1121,7 +1121,7 @@ stencil
 .
 flags_
 .
-deserialize
+setRaw
 (
 flags
 )
