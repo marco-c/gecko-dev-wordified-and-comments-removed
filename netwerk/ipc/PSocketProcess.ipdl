@@ -676,6 +676,13 @@ bool
 aActivated
 )
 ;
+async
+ExcludeHttp2OrHttp3
+(
+HttpConnectionInfoCloneArgs
+aArgs
+)
+;
 child
 :
 async

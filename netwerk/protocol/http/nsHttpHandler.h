@@ -2924,6 +2924,15 @@ bool
 anonymous
 )
 ;
+void
+ExcludeHttp2OrHttp3Internal
+(
+const
+nsHttpConnectionInfo
+*
+ci
+)
+;
 uint32_t
 mProcessId
 {
