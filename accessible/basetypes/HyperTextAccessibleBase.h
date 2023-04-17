@@ -92,6 +92,15 @@ CharacterCount
 )
 const
 ;
+virtual
+int32_t
+CaretOffset
+(
+)
+const
+=
+0
+;
 protected
 :
 virtual

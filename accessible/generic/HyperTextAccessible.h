@@ -789,11 +789,13 @@ aCoordType
 )
 ;
 }
+virtual
 int32_t
 CaretOffset
 (
 )
 const
+override
 ;
 void
 SetCaretOffset
