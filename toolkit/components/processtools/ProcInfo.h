@@ -83,6 +83,14 @@ class
 GeckoChildProcessHost
 ;
 }
+nsresult
+GetCpuTimeSinceProcessStartInMs
+(
+uint64_t
+*
+aResult
+)
+;
 enum
 class
 ProcType
