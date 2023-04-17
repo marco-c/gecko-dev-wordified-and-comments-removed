@@ -306,14 +306,6 @@ moz
 -
 proton
 -
-doorhangers
-"
-"
--
-moz
--
-proton
--
 places
 -
 tooltip
