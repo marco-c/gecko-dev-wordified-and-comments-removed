@@ -75,6 +75,7 @@ node
 "
 )
 ;
+await
 expandAllSourceNodes
 (
 dbg
@@ -159,6 +160,7 @@ node
 "
 )
 ;
+await
 expandAllSourceNodes
 (
 dbg

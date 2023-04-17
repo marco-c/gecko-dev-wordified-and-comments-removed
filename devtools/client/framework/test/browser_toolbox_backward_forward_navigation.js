@@ -549,6 +549,7 @@ sourceTreeRootNode
 )
 )
 ;
+await
 expandAllSourceNodes
 (
 dbg
