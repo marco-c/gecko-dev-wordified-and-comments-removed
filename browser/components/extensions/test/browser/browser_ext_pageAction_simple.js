@@ -626,9 +626,7 @@ id
 )
 )
 ;
-Assert
-.
-equal
+ok
 (
 action
 &
@@ -636,7 +634,6 @@ action
 action
 .
 pinnedToUrlbar
-gProton
 "
 Check
 pageAction

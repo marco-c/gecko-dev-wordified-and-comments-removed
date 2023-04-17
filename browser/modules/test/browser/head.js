@@ -1268,11 +1268,6 @@ true
 }
 )
 ;
-if
-(
-gProton
-)
-{
 BrowserPageActions
 .
 mainButtonNode
@@ -1308,5 +1303,4 @@ visibility
 }
 )
 ;
-}
 }

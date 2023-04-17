@@ -537,11 +537,6 @@ bookmarks
 }
 )
 ;
-if
-(
-gProton
-)
-{
 BrowserPageActions
 .
 mainButtonNode
@@ -577,7 +572,6 @@ visibility
 }
 )
 ;
-}
 }
 )
 ;

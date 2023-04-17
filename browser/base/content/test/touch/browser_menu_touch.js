@@ -764,11 +764,6 @@ function
 (
 )
 {
-if
-(
-gProton
-)
-{
 BrowserPageActions
 .
 mainButtonNode
@@ -804,7 +799,6 @@ visibility
 }
 )
 ;
-}
 let
 target
 =

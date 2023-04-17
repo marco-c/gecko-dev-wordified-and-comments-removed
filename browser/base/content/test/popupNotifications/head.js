@@ -1029,10 +1029,6 @@ return
 }
 if
 (
-!
-gProtonDoorhangers
-|
-|
 notifyObj
 .
 options

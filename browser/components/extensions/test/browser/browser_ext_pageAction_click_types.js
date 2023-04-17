@@ -11,11 +11,6 @@ setup
 (
 )
 {
-if
-(
-gProton
-)
-{
 BrowserPageActions
 .
 mainButtonNode
@@ -51,7 +46,6 @@ visibility
 }
 )
 ;
-}
 }
 )
 ;

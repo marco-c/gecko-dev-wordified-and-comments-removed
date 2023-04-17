@@ -384,11 +384,6 @@ content
 "
 )
 ;
-if
-(
-gProton
-)
-{
 await
 hover_icon
 (
@@ -396,7 +391,6 @@ tabContent
 tooltip
 )
 ;
-}
 await
 hover_icon
 (
