@@ -10887,6 +10887,15 @@ Nothing
 (
 )
 ;
+limits
+.
+indexType
+=
+IndexType
+:
+:
+I32
+;
 moduleEnv_
 .
 memory
@@ -10895,10 +10904,6 @@ Some
 (
 MemoryDesc
 (
-MemoryKind
-:
-:
-Memory32
 limits
 )
 )

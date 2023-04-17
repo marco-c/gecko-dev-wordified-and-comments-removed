@@ -242,6 +242,11 @@ SharedArrayRawBuffer
 :
 AllocateInternal
 (
+wasm
+:
+:
+IndexType
+wasmIndexType
 size_t
 length
 const
@@ -442,6 +447,7 @@ base
 )
 SharedArrayRawBuffer
 (
+wasmIndexType
 buffer
 length
 wasmMaxPages
@@ -489,6 +495,13 @@ SharedArrayRawBuffer
 :
 AllocateInternal
 (
+wasm
+:
+:
+IndexType
+:
+:
+I32
 length
 Nothing
 (
@@ -506,6 +519,11 @@ SharedArrayRawBuffer
 :
 AllocateWasm
 (
+wasm
+:
+:
+IndexType
+indexType
 Pages
 initialPages
 const
@@ -557,6 +575,7 @@ SharedArrayRawBuffer
 :
 AllocateInternal
 (
+indexType
 length
 maxPages
 mappedSize

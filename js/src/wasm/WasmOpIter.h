@@ -10624,10 +10624,7 @@ flags
 =
 uint8_t
 (
-MemoryTableFlags
-:
-:
-Default
+0
 )
 )
 {
@@ -10743,10 +10740,7 @@ flags
 =
 uint8_t
 (
-MemoryTableFlags
-:
-:
-Default
+0
 )
 )
 {
