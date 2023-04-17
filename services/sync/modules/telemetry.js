@@ -413,7 +413,11 @@ service
 :
 login
 :
-change
+got
+-
+hashed
+-
+id
 "
 "
 weave
@@ -4743,7 +4747,11 @@ service
 :
 login
 :
-change
+got
+-
+hashed
+-
+id
 "
 :
 case
