@@ -799,6 +799,11 @@ HashNumber
 >
 failedICHash_
 ;
+bool
+hasPurgedStubs_
+=
+false
+;
 #
 endif
 ICScript
@@ -1833,6 +1838,12 @@ isNothing
 )
 )
 ;
+if
+(
+!
+hasPurgedStubs_
+)
+{
 failedICHash_
 .
 emplace
@@ -1840,6 +1851,7 @@ emplace
 hash
 )
 ;
+}
 }
 #
 endif
