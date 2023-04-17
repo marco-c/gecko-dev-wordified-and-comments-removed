@@ -1020,6 +1020,17 @@ animationName
 "
 downloadsButtonNotification
 "
+&
+&
+event
+.
+animationName
+!
+=
+=
+"
+downloadsButtonFinishedNotification
+"
 )
 {
 return
