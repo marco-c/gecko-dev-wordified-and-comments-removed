@@ -4760,6 +4760,12 @@ SFE_USE_ELEMENT_SIZE_IF_VECTOR
 <
 <
 5
+SFE_TO_SRGB_COLORSPACE
+=
+1
+<
+<
+6
 }
 ;
 static
