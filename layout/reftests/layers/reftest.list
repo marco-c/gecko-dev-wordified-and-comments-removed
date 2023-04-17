@@ -654,6 +654,14 @@ fuzzy
 -
 if
 (
+(
+gtkWidget
+|
+|
+winWidget
+)
+&
+&
 !
 webrender
 0

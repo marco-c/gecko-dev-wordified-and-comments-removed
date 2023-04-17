@@ -141,6 +141,9 @@ XPCOMABI
 winWidget
 &
 &
+isDebugBuild
+&
+&
 !
 layersGPUAccelerated
 )
@@ -301,6 +304,9 @@ XPCOMABI
 winWidget
 &
 &
+isDebugBuild
+&
+&
 !
 layersGPUAccelerated
 )
@@ -444,6 +450,9 @@ XPCOMABI
 |
 (
 winWidget
+&
+&
+isDebugBuild
 &
 &
 !
@@ -627,6 +636,9 @@ XPCOMABI
 winWidget
 &
 &
+isDebugBuild
+&
+&
 !
 layersGPUAccelerated
 )
@@ -772,6 +784,9 @@ XPCOMABI
 winWidget
 &
 &
+isDebugBuild
+&
+&
 !
 layersGPUAccelerated
 )
@@ -903,6 +918,9 @@ XPCOMABI
 |
 (
 winWidget
+&
+&
+isDebugBuild
 &
 &
 !

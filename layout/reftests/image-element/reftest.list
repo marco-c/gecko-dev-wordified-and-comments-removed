@@ -613,6 +613,9 @@ if
 winWidget
 &
 &
+isDebugBuild
+&
+&
 !
 layersGPUAccelerated
 149
