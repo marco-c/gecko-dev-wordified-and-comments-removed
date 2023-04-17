@@ -43,9 +43,7 @@ getPlatformInfo
 .
 then
 (
-(
 info
-)
 =
 >
 {
