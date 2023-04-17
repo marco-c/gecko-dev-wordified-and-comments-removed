@@ -11364,7 +11364,13 @@ gc
 .
 gc
 (
-GC_SHRINK
+JS
+:
+:
+GCOptions
+:
+:
+Shrink
 JS
 :
 :

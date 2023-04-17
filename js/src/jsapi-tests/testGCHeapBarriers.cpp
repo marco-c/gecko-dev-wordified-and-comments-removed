@@ -2512,7 +2512,13 @@ gc
 >
 startDebugGC
 (
-GC_NORMAL
+JS
+:
+:
+GCOptions
+:
+:
+Normal
 budget
 )
 ;

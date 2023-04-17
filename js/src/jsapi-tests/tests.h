@@ -2925,7 +2925,13 @@ JS
 NonIncrementalGC
 (
 cx_
-GC_SHRINK
+JS
+:
+:
+GCOptions
+:
+:
+Shrink
 JS
 :
 :

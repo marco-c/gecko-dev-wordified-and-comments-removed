@@ -6916,7 +6916,13 @@ gc
 .
 gc
 (
-GC_NORMAL
+JS
+:
+:
+GCOptions
+:
+:
+Normal
 reason
 )
 ;
