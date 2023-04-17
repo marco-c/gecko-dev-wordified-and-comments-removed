@@ -4498,6 +4498,10 @@ position
 :
 absolute
 ;
+display
+:
+block
+;
 inset
 -
 inline
