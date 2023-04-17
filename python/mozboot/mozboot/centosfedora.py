@@ -150,12 +150,6 @@ static
 "
             
 "
-gtk2
--
-devel
-"
-            
-"
 libstdc
 +
 +

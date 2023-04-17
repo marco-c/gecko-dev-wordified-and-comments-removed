@@ -6,9 +6,6 @@ DIRS
 stub
 "
 "
-gtk2
-"
-"
 gtk3
 "
 ]
