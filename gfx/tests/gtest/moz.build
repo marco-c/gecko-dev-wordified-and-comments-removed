@@ -168,11 +168,6 @@ TestRect
 .
 cpp
 "
-"
-TestTextureCompatibility
-.
-cpp
-"
 ]
 UNIFIED_SOURCES
 +
