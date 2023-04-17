@@ -45,6 +45,16 @@ testRetain
 (
 )
 {
+if
+(
+isEveryFrameTargetEnabled
+(
+)
+)
+{
+return
+;
+}
 const
 {
 walker
