@@ -616,6 +616,11 @@ rtcp_sender_ntp_timestamp_ms
 =
 0
 ;
+int64_t
+rtcp_sender_remote_ntp_timestamp_ms
+=
+0
+;
 absl
 :
 :

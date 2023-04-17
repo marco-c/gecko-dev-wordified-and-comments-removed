@@ -2064,6 +2064,9 @@ octet_count
 int64_t
 *
 ntp_timestamp_ms
+int64_t
+*
+remote_ntp_timestamp_ms
 )
 const
 {
@@ -2086,6 +2089,15 @@ remote_sender_octet_count_
 ;
 *
 ntp_timestamp_ms
+=
+last_received_sr_ntp_
+.
+ToMs
+(
+)
+;
+*
+remote_ntp_timestamp_ms
 =
 remote_sender_ntp_time_
 .

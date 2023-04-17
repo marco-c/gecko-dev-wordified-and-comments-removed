@@ -2426,6 +2426,10 @@ rtcp_sender_octets_sent
 stats
 .
 rtcp_sender_ntp_timestamp_ms
+&
+stats
+.
+rtcp_sender_remote_ntp_timestamp_ms
 )
 ;
 return
