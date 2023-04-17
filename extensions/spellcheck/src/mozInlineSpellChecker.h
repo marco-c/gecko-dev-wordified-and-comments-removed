@@ -326,6 +326,13 @@ nsRange
 >
 &
 &
+aCreatedRange
+RefPtr
+<
+nsRange
+>
+&
+&
 aAnchorRange
 bool
 aForceNavigationWordCheck
@@ -337,8 +344,10 @@ const
 Operation
 mOp
 ;
+const
 RefPtr
 <
+const
 nsRange
 >
 mCreatedRange
