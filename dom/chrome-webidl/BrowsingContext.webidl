@@ -1658,6 +1658,11 @@ URI
 ?
 currentURI
 ;
+void
+clearRestoreState
+(
+)
+;
 }
 ;
 [

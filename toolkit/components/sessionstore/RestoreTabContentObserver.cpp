@@ -464,12 +464,6 @@ if
 (
 !
 uri
-|
-|
-NS_IsAboutBlank
-(
-uri
-)
 )
 {
 return

@@ -876,8 +876,14 @@ constructSessionStoreRestoreData
 (
 )
 ;
-boolean
-setRestoreData
+[
+Throws
+]
+Promise
+<
+void
+>
+initializeRestore
 (
 CanonicalBrowsingContext
 browsingContext
