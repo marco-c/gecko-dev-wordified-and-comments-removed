@@ -1982,9 +1982,11 @@ uint32_t
 totalSize
 )
 ;
-uint32_t
-computedSize
+bool
+validateLayout
 (
+uint32_t
+expectedSize
 )
 ;
 private
