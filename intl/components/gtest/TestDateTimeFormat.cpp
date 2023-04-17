@@ -52,8 +52,6 @@ h
 #
 include
 "
-.
-/
 TestBuffer
 .
 h
@@ -148,7 +146,7 @@ Medium
 ;
 TestBuffer
 <
-uint8_t
+char
 >
 buffer
 ;
@@ -170,9 +168,6 @@ ASSERT_EQ
 buffer
 .
 get_string_view
-<
-char
->
 (
 )
 "
@@ -239,9 +234,6 @@ ASSERT_EQ
 buffer
 .
 get_string_view
-<
-char16_t
->
 (
 )
 u
@@ -285,7 +277,7 @@ None
 ;
 TestBuffer
 <
-uint8_t
+char
 >
 buffer
 ;
@@ -307,9 +299,6 @@ ASSERT_EQ
 buffer
 .
 get_string_view
-<
-char
->
 (
 )
 "
@@ -367,9 +356,6 @@ ASSERT_EQ
 buffer
 .
 get_string_view
-<
-char16_t
->
 (
 )
 u
@@ -408,7 +394,7 @@ None
 ;
 TestBuffer
 <
-uint8_t
+char
 >
 buffer
 ;
@@ -430,9 +416,6 @@ ASSERT_EQ
 buffer
 .
 get_string_view
-<
-char
->
 (
 )
 "
@@ -496,7 +479,7 @@ unwrap
 ;
 TestBuffer
 <
-uint8_t
+char
 >
 buffer
 ;
@@ -518,9 +501,6 @@ ASSERT_EQ
 buffer
 .
 get_string_view
-<
-char
->
 (
 )
 "
@@ -588,7 +568,7 @@ unwrap
 ;
 TestBuffer
 <
-uint8_t
+char
 >
 buffer
 ;
@@ -610,9 +590,6 @@ ASSERT_EQ
 buffer
 .
 get_string_view
-<
-char
->
 (
 )
 "
@@ -681,7 +658,7 @@ unwrap
 ;
 TestBuffer
 <
-uint8_t
+char
 >
 buffer
 ;
@@ -703,9 +680,6 @@ ASSERT_EQ
 buffer
 .
 get_string_view
-<
-char
->
 (
 )
 "
@@ -775,9 +749,6 @@ ASSERT_EQ
 buffer
 .
 get_string_view
-<
-char16_t
->
 (
 )
 u
@@ -848,9 +819,6 @@ ASSERT_EQ
 buffer
 .
 get_string_view
-<
-char16_t
->
 (
 )
 u

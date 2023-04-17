@@ -1076,7 +1076,7 @@ std
 is_same
 <
 C
-uint8_t
+char
 >
 :
 :
@@ -1134,7 +1134,7 @@ std
 is_same
 <
 C
-uint8_t
+char
 >
 :
 :
