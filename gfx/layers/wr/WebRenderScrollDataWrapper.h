@@ -18,6 +18,17 @@ mozilla
 /
 layers
 /
+APZUpdater
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 CompositorBridgeParent
 .
 h
