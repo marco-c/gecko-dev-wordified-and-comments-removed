@@ -11328,9 +11328,6 @@ aTab
 {
 }
 )
-skipLoad
-:
-true
 }
 ;
 let
