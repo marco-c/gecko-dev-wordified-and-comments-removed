@@ -33,6 +33,14 @@ MediaSink
 h
 "
 ]
+DEFINES
+[
+"
+TRACING
+"
+]
+=
+True
 include
 (
 "
