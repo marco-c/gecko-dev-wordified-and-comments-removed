@@ -7,6 +7,13 @@ mozilla_glean_Common_h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h

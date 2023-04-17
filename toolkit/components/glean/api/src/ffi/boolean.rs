@@ -21,6 +21,7 @@ nsACString
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -59,6 +60,7 @@ ping_name
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
