@@ -2714,6 +2714,8 @@ IsOnCurrentThread
 return
 ;
 }
+MOZ_ALWAYS_SUCCEEDS
+(
 NS_ProxyRelease
 (
 "
@@ -2730,6 +2732,7 @@ mStrongRef
 .
 forget
 (
+)
 )
 )
 ;
