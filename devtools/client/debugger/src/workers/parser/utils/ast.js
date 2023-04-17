@@ -104,6 +104,9 @@ plugins
 :
 [
 "
+classStaticBlock
+"
+"
 classPrivateProperties
 "
 "
@@ -162,6 +165,9 @@ legacy
 "
 "
 objectRestSpread
+"
+"
+classStaticBlock
 "
 "
 classPrivateProperties
@@ -416,6 +422,9 @@ text
 plugins
 :
 [
+"
+classStaticBlock
+"
 "
 classPrivateProperties
 "
