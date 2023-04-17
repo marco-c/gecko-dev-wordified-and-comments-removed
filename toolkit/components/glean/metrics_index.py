@@ -21,6 +21,8 @@ components
 /
 glean
 /
+tests
+/
 test_metrics
 .
 yaml
@@ -72,6 +74,8 @@ toolkit
 components
 /
 glean
+/
+tests
 /
 test_pings
 .

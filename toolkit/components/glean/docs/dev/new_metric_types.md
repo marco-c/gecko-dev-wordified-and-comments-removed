@@ -674,6 +674,8 @@ components
 /
 glean
 /
+tests
+/
 xpcshell
 /
 test_GIFFT
@@ -704,6 +706,8 @@ toolkit
 components
 /
 glean
+/
+tests
 /
 xpcshell
 /
@@ -1909,6 +1913,8 @@ components
 /
 glean
 /
+tests
+/
 test_metrics
 .
 yaml
@@ -1987,6 +1993,8 @@ components
 /
 glean
 /
+tests
+/
 gtest
 /
 TestFog
@@ -2058,6 +2066,8 @@ toolkit
 components
 /
 glean
+/
+tests
 /
 xpcshell
 /

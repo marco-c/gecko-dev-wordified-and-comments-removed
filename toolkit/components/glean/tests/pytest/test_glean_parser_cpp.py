@@ -22,6 +22,7 @@ path
 .
 abspath
 (
+    
 path
 .
 join
@@ -32,6 +33,9 @@ dirname
 (
 __file__
 )
+path
+.
+pardir
 path
 .
 pardir
@@ -57,7 +61,7 @@ glean_parser_ext
 )
 )
 import
-js
+cpp
 GECKO_PATH
 =
 path
@@ -266,9 +270,9 @@ StringIO
 (
 )
     
-js
+cpp
 .
-output_js
+output_cpp
 (
 all_objs
 .
@@ -291,7 +295,7 @@ dirname
 __file__
 )
 "
-metrics_test_output_js
+metrics_test_output_cpp
 "
 )
         
@@ -343,7 +347,7 @@ C
 +
 +
 file
-pings_test_output_js
+pings_test_output_cpp
 .
     
 Expect
@@ -460,9 +464,9 @@ StringIO
 (
 )
     
-js
+cpp
 .
-output_js
+output_cpp
 (
 all_objs
 .
@@ -485,7 +489,7 @@ dirname
 __file__
 )
 "
-pings_test_output_js
+pings_test_output_cpp
 "
 )
 output_fd

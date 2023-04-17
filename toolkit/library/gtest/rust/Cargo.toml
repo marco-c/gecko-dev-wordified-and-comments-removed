@@ -634,6 +634,8 @@ components
 /
 glean
 /
+tests
+/
 gtest
 "
 }

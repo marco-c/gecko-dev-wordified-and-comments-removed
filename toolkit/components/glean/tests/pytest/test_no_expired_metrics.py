@@ -16,6 +16,7 @@ path
 .
 abspath
 (
+    
 path
 .
 join
@@ -26,6 +27,9 @@ dirname
 (
 __file__
 )
+path
+.
+pardir
 path
 .
 pardir
