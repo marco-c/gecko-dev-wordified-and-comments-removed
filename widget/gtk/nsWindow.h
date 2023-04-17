@@ -1984,9 +1984,6 @@ return
 mXDisplay
 ;
 }
-Window
-mOldFocusWindow
-;
 #
 endif
 #
@@ -2550,8 +2547,6 @@ mGdkWindow
 ;
 bool
 mWindowShouldStartDragging
-=
-false
 ;
 PlatformCompositorWidgetDelegate
 *
