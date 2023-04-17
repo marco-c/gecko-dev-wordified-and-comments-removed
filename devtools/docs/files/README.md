@@ -67,7 +67,7 @@ devtools
 /
 shared
 /
-acorn
+jsbeautify
 )
 assuming
 they
