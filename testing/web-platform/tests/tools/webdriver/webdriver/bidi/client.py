@@ -406,17 +406,6 @@ Any
 ]
 =
 None
-                 
-loop
-:
-Optional
-[
-asyncio
-.
-AbstractEventLoop
-]
-=
-None
 )
 :
         
@@ -689,24 +678,6 @@ Session
 (
 self
 )
-        
-if
-loop
-is
-None
-:
-            
-loop
-=
-get_running_loop
-(
-)
-        
-self
-.
-loop
-=
-loop
     
 classmethod
     
@@ -726,17 +697,6 @@ Mapping
 str
 Any
 ]
-                  
-loop
-:
-Optional
-[
-asyncio
-.
-AbstractEventLoop
-]
-=
-None
 )
 -
 >
@@ -845,9 +805,6 @@ session_id
 capabilities
 =
 capabilities
-loop
-=
-loop
 )
     
 classmethod
@@ -871,17 +828,6 @@ str
 Any
 ]
 ]
-                  
-loop
-:
-Optional
-[
-asyncio
-.
-AbstractEventLoop
-]
-=
-None
 )
 -
 >
@@ -941,9 +887,6 @@ websocket_url
 requested_capabilities
 =
 requested_capabilities
-loop
-=
-loop
 )
     
 async
@@ -996,6 +939,17 @@ def
 start
 (
 self
+                    
+loop
+:
+Optional
+[
+asyncio
+.
+AbstractEventLoop
+]
+=
+None
 )
 -
 >
@@ -1017,6 +971,18 @@ WebSockets
 "
 "
         
+if
+loop
+is
+None
+:
+            
+loop
+=
+get_running_loop
+(
+)
+        
 self
 .
 transport
@@ -1031,8 +997,6 @@ self
 on_message
 loop
 =
-self
-.
 loop
 )
         
@@ -1159,6 +1123,14 @@ self
 .
 pending_commands
         
+assert
+self
+.
+transport
+is
+not
+None
+        
 self
 .
 pending_commands
@@ -1168,19 +1140,13 @@ command_id
 =
 self
 .
+transport
+.
 loop
 .
 create_future
 (
 )
-        
-assert
-self
-.
-transport
-is
-not
-None
         
 await
 self
@@ -1524,6 +1490,12 @@ transport
 end
 (
 )
+        
+self
+.
+transport
+=
+None
     
 def
 add_event_listener

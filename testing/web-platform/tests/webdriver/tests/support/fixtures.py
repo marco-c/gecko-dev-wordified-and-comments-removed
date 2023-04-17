@@ -50,6 +50,9 @@ HTTPRequest
 _current_session
 =
 None
+_event_loop
+=
+None
 _custom_session
 =
 False
@@ -182,14 +185,22 @@ Change
 event_loop
 fixture
 to
-session
-level
+global
 .
 "
 "
 "
     
-loop
+global
+_event_loop
+    
+if
+_event_loop
+is
+None
+:
+        
+_event_loop
 =
 asyncio
 .
@@ -201,14 +212,8 @@ new_event_loop
 (
 )
     
-yield
-loop
-    
-loop
-.
-close
-(
-)
+return
+_event_loop
 pytest
 .
 fixture
@@ -447,7 +452,6 @@ session
 (
 capabilities
 configuration
-request
 )
 :
     
@@ -675,7 +679,6 @@ bidi_session
 (
 capabilities
 configuration
-request
 )
 :
     
@@ -880,6 +883,19 @@ start
 (
 )
     
+if
+_current_session
+.
+capabilities
+.
+get
+(
+"
+setWindowRect
+"
+)
+:
+        
 _current_session
 .
 window
@@ -889,7 +905,7 @@ size
 defaults
 .
 WINDOW_SIZE
-    
+        
 _current_session
 .
 window
