@@ -1348,12 +1348,6 @@ const
 nsIContent
 &
 aContent
-const
-Element
-*
-aEditingHost
-=
-nullptr
 )
 ;
 static
@@ -1364,12 +1358,6 @@ const
 nsIContent
 &
 aContent
-const
-Element
-*
-aEditingHost
-=
-nullptr
 )
 {
 return
@@ -1391,7 +1379,6 @@ HTMLEditUtils
 IsVisibleBRElement
 (
 aContent
-aEditingHost
 )
 ;
 }

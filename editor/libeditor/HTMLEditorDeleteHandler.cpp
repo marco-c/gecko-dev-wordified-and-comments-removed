@@ -4543,7 +4543,6 @@ scanFromCaretPointResult
 BRElementPtr
 (
 )
-editingHost
 )
 )
 {
@@ -5956,7 +5955,6 @@ scanFromCaretPointResult
 BRElementPtr
 (
 )
-editingHost
 )
 )
 {
@@ -10284,11 +10282,6 @@ HTMLEditUtils
 IsInvisibleBRElement
 (
 aAtomicContent
-aWSRunScannerAtCaret
-.
-GetEditingHost
-(
-)
 )
 )
 ;
@@ -17689,7 +17682,6 @@ wsScannerForPoint
 GetEndReasonContent
 (
 )
-editingHost
 )
 )
 {
@@ -21079,7 +21071,6 @@ StartRef
 GetChild
 (
 )
-editingHost
 )
 ?
 HTMLEditUtils
@@ -25957,7 +25948,6 @@ wsScannerAtEnd
 GetEndReasonContent
 (
 )
-editingHost
 )
 )
 {
