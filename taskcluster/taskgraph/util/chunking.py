@@ -281,6 +281,12 @@ build_platform
 ]
         
 "
+crashreporter
+"
+:
+True
+        
+"
 debug
 "
 :
