@@ -2927,6 +2927,10 @@ mState
 =
 INITIALIZING
 ;
+mTransactionCount
+=
+0
+;
 Finish0Rtt
 (
 true
@@ -5181,6 +5185,11 @@ IsEmpty
 )
 )
 {
+MOZ_ASSERT
+(
+mConnectionIdleStart
+)
+;
 MOZ_ASSERT
 (
 mFirstStreamIdReuseIdleConnection
