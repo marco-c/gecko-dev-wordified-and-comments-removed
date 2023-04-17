@@ -199,13 +199,6 @@ h
 #
 include
 "
-gfxGdkNativeRenderer
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
