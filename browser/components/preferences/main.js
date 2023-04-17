@@ -13371,7 +13371,7 @@ urlSpec
 =
 fph
 .
-getURLSpecFromFile
+getURLSpecFromActualFile
 (
 aFile
 )
@@ -14413,7 +14413,7 @@ iconUrlSpec
 =
 fph
 .
-getURLSpecFromFile
+getURLSpecFromDir
 (
 currentDirPref
 .
@@ -14462,7 +14462,7 @@ iconUrlSpec
 =
 fph
 .
-getURLSpecFromFile
+getURLSpecFromDir
 (
 await
 this
@@ -14508,7 +14508,7 @@ iconUrlSpec
 =
 fph
 .
-getURLSpecFromFile
+getURLSpecFromDir
 (
 await
 this

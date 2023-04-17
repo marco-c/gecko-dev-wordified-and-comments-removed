@@ -188,7 +188,7 @@ fileURL
 =
 fileHandler
 .
-getURLSpecFromFile
+getURLSpecFromActualFile
 (
 file
 )
