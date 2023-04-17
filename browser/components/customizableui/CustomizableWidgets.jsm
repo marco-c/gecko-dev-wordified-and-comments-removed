@@ -2939,6 +2939,11 @@ screenshot
 -
 button
 "
+shortcutId
+:
+"
+key_screenshot
+"
 l10nId
 :
 "
@@ -2990,6 +2995,9 @@ menuitem
 screenshot
 -
 extension
+"
+"
+toolbar
 "
 )
 ;

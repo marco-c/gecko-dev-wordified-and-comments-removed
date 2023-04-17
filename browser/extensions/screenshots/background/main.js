@@ -352,7 +352,7 @@ menu
 ;
 exports
 .
-onCommand
+onShortcut
 =
 catcher
 .

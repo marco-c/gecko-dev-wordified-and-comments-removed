@@ -6811,7 +6811,9 @@ screenshot
 -
 extension
 "
-true
+"
+contextMenu
+"
 )
 ;
 }
