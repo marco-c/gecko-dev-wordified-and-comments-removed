@@ -79,11 +79,11 @@ content
 /
 cdp
 /
-Connection
+CDPConnection
 .
 jsm
 (
-Connection
+CDPConnection
 .
 jsm
 )
