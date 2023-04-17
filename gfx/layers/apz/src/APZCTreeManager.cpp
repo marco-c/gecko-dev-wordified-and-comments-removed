@@ -2239,7 +2239,7 @@ if
 (
 aLayerMetrics
 .
-IsAsyncZoomContainer
+GetAsyncZoomContainerId
 (
 )
 )
@@ -2709,7 +2709,7 @@ if
 (
 aLayerMetrics
 .
-IsAsyncZoomContainer
+GetAsyncZoomContainerId
 (
 )
 )
@@ -5595,11 +5595,9 @@ aLayer
 IsBackfaceHidden
 (
 )
-!
-!
 aLayer
 .
-IsAsyncZoomContainer
+GetAsyncZoomContainerId
 (
 )
 )
@@ -16543,7 +16541,7 @@ GetLayersId
 aNode
 -
 >
-IsAsyncZoomContainer
+GetAsyncZoomContainerId
 (
 )
 ;
@@ -16614,7 +16612,7 @@ if
 aNode
 -
 >
-IsAsyncZoomContainer
+GetAsyncZoomContainerId
 (
 )
 )
