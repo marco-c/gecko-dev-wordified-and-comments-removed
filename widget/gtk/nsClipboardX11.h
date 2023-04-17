@@ -13,14 +13,6 @@ gtk
 .
 h
 >
-enum
-ClipboardDataType
-{
-CLIPBOARD_DATA
-CLIPBOARD_TEXT
-CLIPBOARD_TARGETS
-}
-;
 class
 nsRetrievalContextX11
 :
