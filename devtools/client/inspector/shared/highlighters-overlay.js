@@ -2347,6 +2347,7 @@ this
 .
 getInContextEditor
 (
+node
 "
 shapesEditor
 "
@@ -2386,6 +2387,7 @@ this
 .
 getInContextEditor
 (
+node
 "
 shapesEditor
 "
@@ -2457,6 +2459,7 @@ options
 async
 hideShapesHighlighter
 (
+node
 )
 {
 const
@@ -2467,6 +2470,7 @@ this
 .
 getInContextEditor
 (
+node
 "
 shapesEditor
 "
@@ -4289,6 +4293,7 @@ type
 async
 getInContextEditor
 (
+node
 type
 )
 {
@@ -4330,11 +4335,12 @@ highlighter
 await
 this
 .
-_getHighlighter
+_getHighlighterTypeForNode
 (
 "
 ShapesHighlighter
 "
+node
 )
 ;
 if
