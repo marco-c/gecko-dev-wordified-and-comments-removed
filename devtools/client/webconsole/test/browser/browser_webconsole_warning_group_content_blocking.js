@@ -37,7 +37,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /
@@ -53,7 +53,7 @@ const
 TRACKER_URL
 =
 "
-http
+https
 :
 /
 /
@@ -92,7 +92,7 @@ const
 TRACKER_IMG
 =
 "
-http
+https
 :
 /
 /
@@ -285,7 +285,7 @@ await
 openNewWindowAndConsole
 (
 "
-http
+https
 :
 /
 /
@@ -326,7 +326,7 @@ The
 resource
 at
 \
-u201chttp
+u201chttps
 :
 /
 /
@@ -525,7 +525,7 @@ findMessage
 (
 hud
 "
-http
+https
 :
 /
 /
@@ -554,7 +554,7 @@ The
 resource
 at
 \
-u201chttp
+u201chttps
 :
 /
 /
@@ -579,7 +579,7 @@ The
 resource
 at
 \
-u201chttp
+u201chttps
 :
 /
 /
@@ -933,7 +933,7 @@ scriptSecurityManager
 createContentPrincipalFromOrigin
 (
 "
-http
+https
 :
 /
 /

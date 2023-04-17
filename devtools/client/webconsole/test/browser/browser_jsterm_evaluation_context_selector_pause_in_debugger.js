@@ -7,7 +7,7 @@ const
 TEST_URI
 =
 {
-URL_ROOT_COM
+URL_ROOT_COM_SSL
 }
 test
 -
@@ -91,7 +91,7 @@ await
 addIFrameAndWaitForLoad
 (
 {
-URL_ROOT_ORG
+URL_ROOT_ORG_SSL
 }
 {
 IFRAME_FILE
@@ -106,7 +106,7 @@ await
 addIFrameAndWaitForLoad
 (
 {
-URL_ROOT_MOCHI_8888
+URL_ROOT_NET_SSL
 }
 {
 IFRAME_FILE
@@ -114,7 +114,7 @@ IFRAME_FILE
 ?
 id
 =
-iframe_mochi8888
+iframe_net
 )
 ;
 const
@@ -436,9 +436,9 @@ innerText
 includes
 (
 "
-mochi
+example
 .
-test
+net
 "
 )
 "
@@ -481,10 +481,10 @@ waitForEagerEvaluationResult
 (
 hud
 /
-mochi
+example
 \
 .
-test
+net
 /
 )
 ;
@@ -507,9 +507,9 @@ keyboardExecuteAndWaitForMessage
 hud
 localVar
 "
-mochi
+example
 .
-test
+net
 "
 "
 .

@@ -37,7 +37,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /
@@ -53,7 +53,7 @@ const
 TRACKER_URL
 =
 "
-http
+https
 :
 /
 /
@@ -99,7 +99,7 @@ const
 STORAGE_BLOCKED_URL
 =
 "
-http
+https
 :
 /
 /

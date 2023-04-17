@@ -7,7 +7,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /
@@ -61,7 +61,7 @@ findMessage
 (
 hud
 "
-ws
+wss
 :
 /
 /
@@ -87,7 +87,7 @@ find
 error
 message
 for
-ws
+wss
 :
 /
 /
@@ -116,7 +116,7 @@ findMessage
 (
 hud
 "
-ws
+wss
 :
 /
 /
@@ -142,7 +142,7 @@ find
 error
 message
 for
-ws
+wss
 :
 /
 /
