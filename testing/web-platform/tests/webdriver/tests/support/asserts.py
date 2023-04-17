@@ -17,6 +17,14 @@ errors
 {
     
 "
+detached
+shadow
+root
+"
+:
+404
+    
+"
 element
 click
 intercepted
@@ -137,6 +145,15 @@ element
 no
 such
 frame
+"
+:
+404
+    
+"
+no
+such
+shadow
+root
 "
 :
 404

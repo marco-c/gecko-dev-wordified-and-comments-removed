@@ -451,6 +451,7 @@ shadow_root
 id
 "
 css
+selector
 "
 "
 input
@@ -566,6 +567,7 @@ shadow_root
 id
 "
 css
+selector
 "
 "
 input
@@ -766,6 +768,8 @@ using
 value
 )
     
+value
+=
 assert_success
 (
 response
@@ -1048,6 +1052,8 @@ text
 value
 )
     
+value
+=
 assert_success
 (
 response
@@ -1355,6 +1361,8 @@ text
 value
 )
     
+value
+=
 assert_success
 (
 response
