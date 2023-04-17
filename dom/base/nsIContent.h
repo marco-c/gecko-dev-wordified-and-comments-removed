@@ -2093,6 +2093,11 @@ endif
 #
 ifdef
 MOZ_DOM_LIST
+void
+Dump
+(
+)
+;
 virtual
 void
 List

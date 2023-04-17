@@ -1119,6 +1119,16 @@ DumpJSStack
 )
 end
 define
+ct
+call
+arg0
+-
+>
+Dump
+(
+)
+end
+define
 ft
 call
 arg0
