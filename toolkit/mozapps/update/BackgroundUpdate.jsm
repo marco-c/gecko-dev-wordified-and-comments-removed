@@ -2551,14 +2551,6 @@ usually
 use
 BITS
 "
-OTHER_INSTANCE
-:
-"
-other
-instance
-is
-running
-"
 }
 ;
 BackgroundUpdate
@@ -2581,5 +2573,8 @@ DEFAULT_PROFILE_CANNOT_BE_LOCKED
 DEFAULT_PROFILE_CANNOT_BE_READ
 :
 13
+OTHER_INSTANCE
+:
+21
 }
 ;
