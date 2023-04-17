@@ -1240,8 +1240,10 @@ popupid
 password
 "
 ]
-.
-login
+#
+password
+-
+notification
 -
 icon
 {
@@ -1267,8 +1269,10 @@ svg
 )
 ;
 }
-.
-login
+#
+password
+-
+notification
 -
 icon
 [
@@ -1285,7 +1289,9 @@ var
 (
 -
 -
-toolbarbutton
+toolbar
+-
+field
 -
 icon
 -
