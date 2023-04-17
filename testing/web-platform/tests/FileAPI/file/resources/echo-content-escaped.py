@@ -1,8 +1,4 @@
 from
-six
-import
-PY3
-from
 wptserve
 .
 utils
@@ -15,10 +11,6 @@ byte
 )
 :
     
-if
-PY3
-:
-        
 byte
 =
 bytes

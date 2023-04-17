@@ -1,8 +1,4 @@
 from
-six
-import
-PY3
-from
 wptserve
 .
 utils
@@ -30,10 +26,6 @@ testinput
 "
 )
     
-if
-PY3
-:
-        
 testinput
 .
 value

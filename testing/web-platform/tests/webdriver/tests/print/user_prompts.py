@@ -27,12 +27,6 @@ s
 )
 :
     
-if
-six
-.
-PY3
-:
-        
 return
 base64
 .
@@ -44,14 +38,6 @@ ensure_binary
 (
 s
 )
-)
-    
-return
-base64
-.
-decodestring
-(
-s
 )
 pytest
 .
@@ -115,12 +101,7 @@ pdf
 =
 decodebytes
 (
-six
-.
-ensure_binary
-(
 value
-)
 )
         
 assert_dialog_handled
