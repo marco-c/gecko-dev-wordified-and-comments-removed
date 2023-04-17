@@ -97,8 +97,6 @@ Rc
 derive
 (
 Debug
-PartialOrd
-Ord
 PartialEq
 Eq
 Clone

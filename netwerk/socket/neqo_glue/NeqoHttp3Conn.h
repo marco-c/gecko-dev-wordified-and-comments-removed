@@ -6,6 +6,11 @@ define
 NeqoHttp3Conn_h__
 #
 include
+<
+cstdint
+>
+#
+include
 "
 mozilla
 /
@@ -273,6 +278,10 @@ aHeaders
 uint64_t
 *
 aStreamId
+uint8_t
+aUrgency
+bool
+aIncremental
 )
 {
 return
@@ -290,6 +299,8 @@ aPath
 &
 aHeaders
 aStreamId
+aUrgency
+aIncremental
 )
 ;
 }

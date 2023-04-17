@@ -35,6 +35,7 @@ Http3ClientEvent
 Http3Server
 Http3ServerEvent
 Http3State
+Priority
 }
 ;
 use
@@ -778,6 +779,12 @@ com
 &
 [
 ]
+Priority
+:
+:
+default
+(
+)
 )
 .
 unwrap

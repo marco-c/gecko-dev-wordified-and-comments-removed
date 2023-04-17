@@ -264,7 +264,7 @@ Ok
 }
 #
 [
-allow
+deny
 (
 clippy
 :
@@ -300,9 +300,12 @@ SFVResult
 if
 input_list
 .
-is_empty
+len
 (
 )
+=
+=
+0
 {
 return
 Err
@@ -438,9 +441,12 @@ SFVResult
 if
 input_dict
 .
-is_empty
+len
 (
 )
+=
+=
+0
 {
 return
 Err

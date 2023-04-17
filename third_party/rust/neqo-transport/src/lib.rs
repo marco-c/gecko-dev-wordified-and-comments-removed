@@ -84,6 +84,9 @@ mod
 qlog
 ;
 mod
+quic_datagrams
+;
+mod
 recovery
 ;
 mod
@@ -367,6 +370,7 @@ UnknownConnectionId
 UnknownFrameType
 VersionNegotiation
 WrongRole
+NotAvailable
 }
 impl
 Error

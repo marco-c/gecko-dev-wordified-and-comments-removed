@@ -144,6 +144,15 @@ use
 crate
 :
 :
+quic_datagrams
+:
+:
+DatagramTracking
+;
+use
+crate
+:
+:
 rtt
 :
 :
@@ -389,6 +398,10 @@ u64
 AckFrequency
 (
 AckRate
+)
+Datagram
+(
+DatagramTracking
 )
 }
 #

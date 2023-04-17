@@ -188,6 +188,10 @@ pub
 ack_frequency
 :
 usize
+pub
+datagram
+:
+usize
 }
 impl
 Debug
