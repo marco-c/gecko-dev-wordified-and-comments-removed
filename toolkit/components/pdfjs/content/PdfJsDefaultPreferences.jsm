@@ -45,12 +45,12 @@ false
 enablePrintAutoRotate
 "
 :
-false
+true
 "
 enableScripting
 "
 :
-false
+true
 "
 enableWebGL
 "
