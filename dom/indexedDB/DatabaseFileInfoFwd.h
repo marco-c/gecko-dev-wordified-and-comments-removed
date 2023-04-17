@@ -22,12 +22,12 @@ typename
 FileManager
 >
 class
-FileInfoT
+FileInfo
 ;
 using
 DatabaseFileInfo
 =
-FileInfoT
+FileInfo
 <
 indexedDB
 :
