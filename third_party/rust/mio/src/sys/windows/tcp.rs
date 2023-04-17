@@ -1121,6 +1121,12 @@ Result
 )
 >
 {
+Net2TcpExt
+:
+:
+set_linger
+(
+&
 self
 .
 imp
@@ -1128,9 +1134,6 @@ imp
 inner
 .
 socket
-.
-set_linger
-(
 dur
 )
 }
@@ -1154,6 +1157,12 @@ Duration
 >
 >
 {
+Net2TcpExt
+:
+:
+linger
+(
+&
 self
 .
 imp
@@ -1161,9 +1170,6 @@ imp
 inner
 .
 socket
-.
-linger
-(
 )
 }
 pub
