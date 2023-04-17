@@ -196,7 +196,7 @@ parent
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 this
 )
