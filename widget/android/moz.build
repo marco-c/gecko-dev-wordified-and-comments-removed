@@ -202,9 +202,6 @@ MediaDrmProxy
 PanZoomController
 "
 "
-PrefsHelper
-"
-"
 RuntimeTelemetry
 "
 "
