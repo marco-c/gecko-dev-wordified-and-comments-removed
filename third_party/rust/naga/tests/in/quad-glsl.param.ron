@@ -16,7 +16,4 @@ true
 spv_adjust_coordinate_space
 :
 true
-msl_custom
-:
-false
 )

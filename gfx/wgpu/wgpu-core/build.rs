@@ -68,15 +68,6 @@ any
 (
 windows
 unix_wo_apple
-feature
-=
-"
-gfx
--
-backend
--
-vulkan
-"
 )
 )
 }

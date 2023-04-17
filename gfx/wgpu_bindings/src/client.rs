@@ -3002,6 +3002,13 @@ dimension
 cloned
 (
 )
+range
+:
+wgt
+:
+:
+ImageSubresourceRange
+{
 aspect
 :
 desc
@@ -3027,6 +3034,7 @@ array_layer_count
 desc
 .
 array_layer_count
+}
 }
 ;
 let

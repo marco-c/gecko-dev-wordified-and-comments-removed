@@ -12,6 +12,17 @@ simd
 .
 h
 >
+struct
+_mslBufferSizes
+{
+metal
+:
+:
+uint
+size0
+;
+}
+;
 typedef
 metal
 :
@@ -149,7 +160,6 @@ user
 (
 fake0
 )
-center_perspective
 ]
 ]
 )

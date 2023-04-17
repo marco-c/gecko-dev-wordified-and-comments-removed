@@ -150,7 +150,7 @@ self
 .
 arena
 .
-remove_entry_by_slot
+remove_by_slot
 (
 slot
 )

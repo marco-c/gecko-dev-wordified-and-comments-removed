@@ -1,8 +1,4 @@
 (
-spv_flow_dump_prefix
-:
-"
-"
 spv_version
 :
 (
@@ -20,7 +16,4 @@ true
 spv_adjust_coordinate_space
 :
 true
-msl_custom
-:
-false
 )

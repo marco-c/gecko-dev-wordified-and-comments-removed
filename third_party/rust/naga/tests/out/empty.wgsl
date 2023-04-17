@@ -17,4 +17,6 @@ main
 (
 )
 {
+return
+;
 }
