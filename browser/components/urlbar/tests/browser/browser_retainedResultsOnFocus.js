@@ -501,7 +501,7 @@ addVisits
 uri
 :
 "
-http
+https
 :
 /
 /
@@ -524,7 +524,7 @@ TYPED
 uri
 :
 "
-http
+https
 :
 /
 /
@@ -594,7 +594,7 @@ about
 home
 "
 "
-http
+https
 :
 /
 /
@@ -665,7 +665,7 @@ url
 =
 =
 "
-http
+https
 :
 /
 /
@@ -1780,7 +1780,7 @@ addVisits
 (
 [
 "
-http
+https
 :
 /
 /
@@ -1790,15 +1790,13 @@ com
 /
 "
 "
-http
+https
 :
 /
 /
-mochi
+example
 .
-test
-:
-8888
+org
 /
 "
 ]
