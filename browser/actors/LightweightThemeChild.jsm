@@ -143,7 +143,7 @@ type
 {
 case
 "
-pageshow
+DOMContentLoaded
 "
 :
 this
