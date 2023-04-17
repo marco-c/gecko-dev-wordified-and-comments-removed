@@ -3025,12 +3025,6 @@ ExtensibleCompilationStencil
 other
 )
 ;
-bool
-isModule
-(
-)
-const
-;
 #
 ifdef
 DEBUG
@@ -3712,12 +3706,6 @@ CompilationStencil
 &
 other
 )
-;
-bool
-isModule
-(
-)
-const
 ;
 inline
 size_t
