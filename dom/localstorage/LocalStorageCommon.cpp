@@ -617,6 +617,8 @@ specURL
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 MozURL
 :
 :
@@ -627,6 +629,7 @@ getter_AddRefs
 specURL
 )
 spec
+)
 )
 )
 ;
