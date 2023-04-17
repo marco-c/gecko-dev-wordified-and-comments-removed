@@ -113,7 +113,7 @@ _requirement_definition_to_pip_format
 (
 virtualenv_name
 cache
-is_mach_env
+is_mach_or_build_env
 )
 :
     
@@ -164,6 +164,7 @@ from_requirements_definition
         
 topsrcdir
 False
+is_mach_or_build_env
 path
     
 )
@@ -193,9 +194,12 @@ lines
 .
 append
 (
+str
+(
 pypi
 .
-full_specifier
+requirement
+)
 )
     
 for
@@ -623,9 +627,16 @@ command_requirements
 =
 _requirement_definition_to_pip_format
 (
+            
 name
 cache
-False
+name
+=
+=
+"
+build
+"
+        
 )
         
 with
