@@ -6145,6 +6145,10 @@ const
 bool
 &
 aCloneEntryChildren
+const
+bool
+&
+aChannelExpired
 )
 ;
 mozilla

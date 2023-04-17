@@ -2898,6 +2898,9 @@ bool
 aIsTransientAboutBlank
 bool
 aPersist
+nsIRequest
+*
+aRequest
 )
 ;
 nsPresContext
@@ -3183,6 +3186,8 @@ MoveLoadingToActiveEntry
 (
 bool
 aPersist
+bool
+aExpired
 )
 ;
 void

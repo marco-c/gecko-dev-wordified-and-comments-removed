@@ -3805,6 +3805,8 @@ bool
 aPersist
 bool
 aCloneEntryChildren
+bool
+aChannelExpired
 )
 ;
 void

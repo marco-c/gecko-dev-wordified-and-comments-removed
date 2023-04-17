@@ -17415,6 +17415,8 @@ bool
 aPersist
 bool
 aCloneEntryChildren
+bool
+aChannelExpired
 )
 {
 nsID
@@ -17545,6 +17547,7 @@ changeID
 aLoadType
 aPersist
 aCloneEntryChildren
+aChannelExpired
 )
 ;
 }
@@ -17564,6 +17567,7 @@ changeID
 aLoadType
 aPersist
 aCloneEntryChildren
+aChannelExpired
 )
 ;
 }
