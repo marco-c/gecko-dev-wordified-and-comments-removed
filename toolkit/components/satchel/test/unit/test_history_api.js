@@ -8,7 +8,7 @@ dbConnection
 ;
 const
 {
-Promise
+PromiseUtils
 }
 =
 ChromeUtils
@@ -24,7 +24,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -627,7 +627,7 @@ dbFile
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -807,7 +807,7 @@ checkExists
 ;
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

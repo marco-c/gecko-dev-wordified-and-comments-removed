@@ -4,7 +4,7 @@ defineModuleGetter
 (
 this
 "
-Promise
+PromiseUtils
 "
 "
 resource
@@ -15,7 +15,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -31,7 +31,7 @@ url
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

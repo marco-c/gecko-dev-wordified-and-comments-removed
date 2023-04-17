@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import
@@ -16,11 +21,10 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
-this
 )
 ;
 const
@@ -2270,7 +2274,7 @@ gInstalledAddonId
 ;
 gInstallDeferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

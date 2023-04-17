@@ -65,7 +65,7 @@ IgnoreLists
 .
 jsm
 "
-Promise
+PromiseUtils
 :
 "
 resource
@@ -76,7 +76,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -290,7 +290,7 @@ test_ignoreList_reentry
 let
 promise
 =
-Promise
+PromiseUtils
 .
 defer
 (
