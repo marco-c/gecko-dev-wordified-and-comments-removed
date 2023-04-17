@@ -812,7 +812,7 @@ defaultTransactionType
 }
 this
 .
-_hasInProgressTransaction
+_initiatedTransaction
 =
 false
 ;
@@ -948,11 +948,11 @@ hasDbConn
 this
 .
 _dbConn
-hasInProgressTransaction
+initiatedTransaction
 :
 this
 .
-_hasInProgressTransaction
+_initiatedTransaction
 pendingStatements
 :
 this
@@ -2317,7 +2317,7 @@ if
 (
 this
 .
-_hasInProgressTransaction
+_initiatedTransaction
 )
 {
 console
@@ -2341,12 +2341,6 @@ one
 )
 ;
 }
-this
-.
-_hasInProgressTransaction
-=
-true
-;
 try
 {
 try
@@ -2366,6 +2360,12 @@ type
 TRANSACTION
 "
 )
+;
+this
+.
+_initiatedTransaction
+=
+true
 ;
 }
 catch
@@ -2410,12 +2410,6 @@ progress
 "
 ex
 )
-;
-this
-.
-_hasInProgressTransaction
-=
-false
 ;
 }
 else
@@ -2512,7 +2506,7 @@ if
 (
 this
 .
-_hasInProgressTransaction
+_initiatedTransaction
 )
 {
 try
@@ -2601,7 +2595,7 @@ if
 (
 this
 .
-_hasInProgressTransaction
+_initiatedTransaction
 )
 {
 try
@@ -2650,7 +2644,7 @@ finally
 {
 this
 .
-_hasInProgressTransaction
+_initiatedTransaction
 =
 false
 ;
