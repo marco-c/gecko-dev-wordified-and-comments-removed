@@ -659,12 +659,12 @@ scriptOrModule
 extern
 JS_PUBLIC_API
 void
-SetGetElementCallback
+SetSourceElementCallback
 (
 JSContext
 *
 cx
-JSGetElementCallback
+JSSourceElementCallback
 callback
 )
 ;

@@ -535,7 +535,7 @@ private
 ;
 }
 using
-JSGetElementCallback
+JSSourceElementCallback
 =
 JSObject
 *
@@ -545,12 +545,10 @@ JSObject
 (
 JSContext
 *
-aCx
 JS
 :
 :
 HandleValue
-privateValue
 )
 ;
 using
