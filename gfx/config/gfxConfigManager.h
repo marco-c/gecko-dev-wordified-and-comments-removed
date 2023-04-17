@@ -99,10 +99,6 @@ mWrForceEnabled
 (
 false
 )
-mWrForceDisabled
-(
-false
-)
 mWrSoftwareForceEnabled
 (
 false
@@ -140,10 +136,6 @@ mGPUProcessAllowSoftware
 false
 )
 mWrEnvForceEnabled
-(
-false
-)
-mWrEnvForceDisabled
 (
 false
 )
@@ -215,11 +207,6 @@ ConfigureWebRenderQualified
 (
 )
 ;
-void
-ConfigureWebRenderSoftware
-(
-)
-;
 nsCOMPtr
 <
 nsIGfxInfo
@@ -288,9 +275,6 @@ bool
 mWrForceEnabled
 ;
 bool
-mWrForceDisabled
-;
-bool
 mWrSoftwareForceEnabled
 ;
 bool
@@ -325,9 +309,6 @@ mGPUProcessAllowSoftware
 ;
 bool
 mWrEnvForceEnabled
-;
-bool
-mWrEnvForceDisabled
 ;
 HwStretchingSupport
 mHwStretchingSupport
