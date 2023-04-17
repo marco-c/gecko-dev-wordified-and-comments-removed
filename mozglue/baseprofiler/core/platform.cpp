@@ -677,13 +677,6 @@ args
 )
 ;
 }
-namespace
-detail
-{
-BaseProfilerThreadId
-scProfilerMainThreadId
-;
-}
 constexpr
 static
 bool
