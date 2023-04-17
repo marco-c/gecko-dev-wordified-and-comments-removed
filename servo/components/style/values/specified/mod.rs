@@ -370,6 +370,7 @@ box_
 {
 AnimationIterationCount
 AnimationName
+AnimationTimeline
 Contain
 Display
 }
