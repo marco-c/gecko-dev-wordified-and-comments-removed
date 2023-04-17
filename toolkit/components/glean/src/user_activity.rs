@@ -135,6 +135,13 @@ Result
 nsresult
 >
 {
+glean
+:
+:
+handle_client_active
+(
+)
+;
 let
 activity_obs
 =
