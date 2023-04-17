@@ -331,7 +331,7 @@ quickSuggestShouldShowOnboardingDialog
 true
 quickSuggestShowOnboardingDialogAfterNRestarts
 :
-2
+0
 quickSuggestSponsoredIndex
 :
 -
