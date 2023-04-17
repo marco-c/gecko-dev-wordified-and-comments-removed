@@ -13690,7 +13690,7 @@ ModuleObject
 )
 ;
 RootedAtom
-localName
+targetName
 (
 cx
 &
@@ -13720,7 +13720,7 @@ addBinding
 cx
 exportedName
 targetModule
-localName
+targetName
 )
 )
 {
