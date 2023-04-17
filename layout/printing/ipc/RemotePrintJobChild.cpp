@@ -106,6 +106,13 @@ mozilla
 :
 SpinEventLoopUntil
 (
+"
+RemotePrintJobChild
+:
+:
+InitializePrint
+"
+_ns
 [
 &
 ]
