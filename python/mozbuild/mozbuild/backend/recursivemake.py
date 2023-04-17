@@ -6319,9 +6319,6 @@ in
 XPI_PKGNAME
 "
 "
-INSTALL_EXTENSION_ID
-"
-"
 tools
 "
 )
