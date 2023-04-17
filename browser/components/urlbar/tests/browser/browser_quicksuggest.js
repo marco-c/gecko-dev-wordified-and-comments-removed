@@ -690,6 +690,9 @@ valueOverrides
 quickSuggestEnabled
 :
 true
+quickSuggestShouldShowOnboardingDialog
+:
+true
 }
 }
 )
