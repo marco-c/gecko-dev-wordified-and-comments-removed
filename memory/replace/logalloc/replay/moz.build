@@ -168,6 +168,9 @@ OS_LIBS
 "
 dbghelp
 "
+"
+ntdll
+"
 ]
 if
 CONFIG
