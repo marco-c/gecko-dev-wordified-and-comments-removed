@@ -1417,15 +1417,6 @@ MOZ_PANGO_LIBS
 OS_LIBS
 +
 =
-CONFIG
-[
-"
-XT_LIBS
-"
-]
-OS_LIBS
-+
-=
 [
 "
 Xrender
