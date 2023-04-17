@@ -334,6 +334,9 @@ self
 .
 cleanup
 (
+keep_profile
+=
+True
 )
     
 abstractproperty
@@ -1468,6 +1471,9 @@ def
 cleanup
 (
 self
+keep_profile
+=
+False
 )
 :
         
@@ -1487,5 +1493,18 @@ state
 self
 .
 stop
+(
+)
+        
+if
+not
+keep_profile
+:
+            
+self
+.
+profile
+.
+cleanup
 (
 )
