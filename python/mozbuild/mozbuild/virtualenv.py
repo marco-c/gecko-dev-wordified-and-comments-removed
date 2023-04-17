@@ -1199,9 +1199,18 @@ return
 False
         
 if
+(
+            
 env_requirements
 .
 pypi_requirements
+            
+or
+env_requirements
+.
+pypi_optional_requirements
+        
+)
 :
             
 pip_json
@@ -1295,6 +1304,42 @@ requirement
 version
                 
 )
+:
+                    
+return
+False
+            
+for
+requirement
+in
+env_requirements
+.
+pypi_optional_requirements
+:
+                
+installed_version
+=
+installed_packages
+.
+get
+(
+                    
+requirement
+.
+package_name
+None
+                
+)
+                
+if
+installed_version
+and
+installed_version
+!
+=
+requirement
+.
+version
 :
                     
 return
