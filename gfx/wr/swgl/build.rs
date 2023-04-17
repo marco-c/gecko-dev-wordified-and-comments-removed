@@ -1730,6 +1730,12 @@ none
 ;
 }
 else
+if
+tool
+.
+is_like_clang
+(
+)
 {
 build
 .
