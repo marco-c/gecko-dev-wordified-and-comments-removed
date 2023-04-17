@@ -12519,7 +12519,7 @@ Attach
 }
 static
 bool
-AllowDoubleForUint32Array
+ForceDoubleForUint32Array
 (
 TypedArrayObject
 *
@@ -12705,7 +12705,7 @@ true
 ;
 }
 bool
-allowDoubleForUint32
+forceDoubleForUint32
 =
 false
 ;
@@ -12723,9 +12723,9 @@ uint64_t
 indexInt64
 )
 ;
-allowDoubleForUint32
+forceDoubleForUint32
 =
-AllowDoubleForUint32Array
+ForceDoubleForUint32Array
 (
 tarr
 index
@@ -12775,7 +12775,7 @@ type
 (
 )
 handleOOB
-allowDoubleForUint32
+forceDoubleForUint32
 )
 ;
 writer
@@ -27278,7 +27278,7 @@ NoAction
 ;
 }
 bool
-allowDoubleForUint32
+forceDoubleForUint32
 =
 false
 ;
@@ -27325,7 +27325,7 @@ offsetInt64
 isLittleEndian
 )
 ;
-allowDoubleForUint32
+forceDoubleForUint32
 =
 res
 >
@@ -27465,7 +27465,7 @@ objId
 intPtrOffsetId
 boolLittleEndianId
 type
-allowDoubleForUint32
+forceDoubleForUint32
 )
 ;
 writer

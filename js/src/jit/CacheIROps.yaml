@@ -5130,7 +5130,7 @@ ScalarTypeImm
 handleOOB
 :
 BoolImm
-allowDoubleForUint32
+forceDoubleForUint32
 :
 BoolImm
 -
@@ -5160,7 +5160,7 @@ BooleanId
 elementType
 :
 ScalarTypeImm
-allowDoubleForUint32
+forceDoubleForUint32
 :
 BoolImm
 -
@@ -6525,7 +6525,7 @@ Int32Id
 rhs
 :
 Int32Id
-allowDouble
+forceDouble
 :
 BoolImm
 -

@@ -35216,7 +35216,7 @@ Type
 arrayType_
 ;
 bool
-allowDouble_
+forceDouble_
 ;
 MLoadTypedArrayElementHole
 (
@@ -35232,7 +35232,7 @@ Scalar
 Type
 arrayType
 bool
-allowDouble
+forceDouble
 )
 :
 MBinaryInstruction
@@ -35245,9 +35245,9 @@ arrayType_
 (
 arrayType
 )
-allowDouble_
+forceDouble_
 (
-allowDouble
+forceDouble
 )
 {
 setResultType
@@ -35327,13 +35327,13 @@ arrayType_
 ;
 }
 bool
-allowDouble
+forceDouble
 (
 )
 const
 {
 return
-allowDouble_
+forceDouble_
 ;
 }
 bool
@@ -35353,7 +35353,7 @@ Uint32
 &
 &
 !
-allowDouble_
+forceDouble_
 ;
 }
 bool
@@ -35415,7 +35415,7 @@ false
 }
 if
 (
-allowDouble
+forceDouble
 (
 )
 !
@@ -35423,7 +35423,7 @@ allowDouble
 other
 -
 >
-allowDouble
+forceDouble
 (
 )
 )
