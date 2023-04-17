@@ -2056,6 +2056,13 @@ Instance
 Static
 }
 ;
+enum
+PrivateNameHandling
+{
+PrivateNameProhibited
+PrivateNameAllowed
+}
+;
 template
 <
 class
@@ -3830,6 +3837,13 @@ InvokedPrediction
 invoked
 =
 PredictUninvoked
+PrivateNameHandling
+privateNameHandling
+=
+PrivateNameHandling
+:
+:
+PrivateNameProhibited
 )
 ;
 Node
