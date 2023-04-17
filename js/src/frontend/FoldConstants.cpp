@@ -2169,6 +2169,12 @@ case
 ParseNodeKind
 :
 :
+StaticClassBlock
+:
+case
+ParseNodeKind
+:
+:
 ClassMemberList
 :
 case

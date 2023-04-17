@@ -28,6 +28,7 @@ Statement
 Arrow
 Method
 FieldInitializer
+StaticClassBlock
 ClassConstructor
 DerivedClassConstructor
 Getter

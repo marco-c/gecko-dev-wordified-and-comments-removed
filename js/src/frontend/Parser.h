@@ -4150,6 +4150,11 @@ staticFields
 0
 ;
 size_t
+staticBlocks
+=
+0
+;
+size_t
 staticFieldKeys
 =
 0
@@ -4276,6 +4281,14 @@ bool
 isStatic
 HasHeritage
 hasHeritage
+)
+;
+FunctionNodeType
+staticClassBlock
+(
+ClassInitializedMembers
+&
+classInitializedMembers
 )
 ;
 FunctionNodeType
