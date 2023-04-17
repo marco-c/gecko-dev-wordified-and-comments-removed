@@ -8814,9 +8814,7 @@ if
 aCol
 -
 >
-Element
-(
-)
+mContent
 -
 >
 AttrValueIs
@@ -8833,7 +8831,6 @@ _true
 eCaseMatters
 )
 )
-{
 mScratchArray
 .
 AppendElement
@@ -8848,15 +8845,12 @@ nsGkAtoms
 insertbefore
 )
 ;
-}
 if
 (
 aCol
 -
 >
-Element
-(
-)
+mContent
 -
 >
 AttrValueIs
@@ -8873,7 +8867,6 @@ _true
 eCaseMatters
 )
 )
-{
 mScratchArray
 .
 AppendElement
@@ -8888,7 +8881,6 @@ nsGkAtoms
 insertafter
 )
 ;
-}
 }
 }
 nsITheme
