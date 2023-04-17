@@ -11643,6 +11643,10 @@ return
 rv
 ;
 }
+MaybeEnableNextGenLocalStorage
+(
+)
+;
 return
 NS_OK
 ;

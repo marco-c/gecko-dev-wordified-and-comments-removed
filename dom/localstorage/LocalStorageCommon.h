@@ -160,6 +160,11 @@ mOldValue
 }
 }
 ;
+void
+MaybeEnableNextGenLocalStorage
+(
+)
+;
 bool
 NextGenLocalStorageEnabled
 (
