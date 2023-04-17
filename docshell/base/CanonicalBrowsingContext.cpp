@@ -8741,12 +8741,6 @@ mContentParent
 >
 RemoveKeepAlive
 (
-mTarget
--
->
-BrowserId
-(
-)
 )
 ;
 mContentParent
@@ -9678,9 +9672,6 @@ mContentParent
 >
 AddKeepAlive
 (
-BrowserId
-(
-)
 )
 ;
 change
@@ -9775,9 +9766,6 @@ aOptions
 .
 mRemoteType
 finalGroup
-BrowserId
-(
-)
 hal
 :
 :
@@ -9818,9 +9806,6 @@ mContentParent
 >
 AddKeepAlive
 (
-BrowserId
-(
-)
 )
 ;
 if
