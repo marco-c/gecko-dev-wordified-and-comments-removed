@@ -2312,6 +2312,8 @@ telemetry
 tests
 -
 client
+-
+xpcshell
 #
 debug
 only
@@ -2357,8 +2359,6 @@ test
 verify
 -
 wpt
--
-xpcshell
 macosx64
 -
 talos
