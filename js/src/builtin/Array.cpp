@@ -18651,7 +18651,7 @@ arr
 ArrayObject
 :
 :
-createArray
+create
 (
 cx
 allocKind
@@ -19919,18 +19919,14 @@ ArrayObject
 class_
 )
 ;
-Rooted
-<
 ArrayObject
 *
->
 arr
-(
-cx
+=
 ArrayObject
 :
 :
-createArray
+create
 (
 cx
 allocKind
@@ -19938,7 +19934,6 @@ heap
 shape
 length
 metadata
-)
 )
 ;
 if

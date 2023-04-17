@@ -71,7 +71,7 @@ ArrayObject
 ArrayObject
 :
 :
-createArray
+create
 (
 JSContext
 *
@@ -101,6 +101,13 @@ AllocSite
 site
 )
 {
+debugCheckNewObject
+(
+shape
+kind
+heap
+)
+;
 const
 JSClass
 *

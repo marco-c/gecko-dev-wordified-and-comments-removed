@@ -145,7 +145,7 @@ static
 inline
 ArrayObject
 *
-createArray
+create
 (
 JSContext
 *
