@@ -963,6 +963,9 @@ int16_t
 (
 c
 aOutputChannels
+c
+.
+mVolume
 buf
 .
 Elements
@@ -984,6 +987,9 @@ float
 (
 c
 aOutputChannels
+c
+.
+mVolume
 buf
 .
 Elements
