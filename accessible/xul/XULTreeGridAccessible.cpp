@@ -951,6 +951,10 @@ mTree
 >
 GetColumns
 (
+FlushType
+:
+:
+None
 )
 ;
 if
@@ -1631,6 +1635,10 @@ mTree
 >
 GetColumns
 (
+FlushType
+:
+:
+None
 )
 ;
 if
