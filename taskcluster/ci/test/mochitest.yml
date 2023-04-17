@@ -1337,6 +1337,8 @@ opt
 windows10
 -
 32
+-
+qr
 /
 debug
 :
@@ -1372,6 +1374,8 @@ ccov
 windows7
 -
 32
+-
+qr
 /
 debug
 :

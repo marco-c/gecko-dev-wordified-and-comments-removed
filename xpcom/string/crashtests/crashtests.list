@@ -17,7 +17,12 @@ if
 webrender
 &
 &
+(
 gtkWidget
+|
+|
+winWidget
+)
 )
 load
 1113005
