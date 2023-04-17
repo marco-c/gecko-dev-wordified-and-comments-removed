@@ -105,11 +105,6 @@ SessionWorker
 jsm
 "
 "
-SessionWorkerCache
-.
-jsm
-"
-"
 StartupPerformance
 .
 jsm

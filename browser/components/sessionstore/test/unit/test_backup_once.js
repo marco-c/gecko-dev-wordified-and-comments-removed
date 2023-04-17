@@ -469,10 +469,6 @@ index
 ]
 }
 ]
-_cachedObjs
-:
-[
-]
 }
 ;
 }
