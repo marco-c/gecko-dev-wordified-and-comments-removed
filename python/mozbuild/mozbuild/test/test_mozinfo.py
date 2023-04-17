@@ -1571,7 +1571,9 @@ tempdir
 =
 tempfile
 .
-tempdir
+gettempdir
+(
+)
         
 c
 .
