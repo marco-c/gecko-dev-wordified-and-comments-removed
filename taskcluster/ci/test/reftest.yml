@@ -399,6 +399,9 @@ sw
 '
 fission
 '
+'
+noqr
+'
 ]
 .
 *
@@ -438,11 +441,6 @@ fission
 noqr
 '
 ]
-(
-?
-!
-android
-)
 .
 *
 -
@@ -1347,6 +1345,9 @@ sw
 '
 fission
 '
+'
+noqr
+'
 ]
 android
 -
@@ -1405,11 +1406,6 @@ fission
 noqr
 '
 ]
-(
-?
-!
-android
-)
 .
 *
 -
