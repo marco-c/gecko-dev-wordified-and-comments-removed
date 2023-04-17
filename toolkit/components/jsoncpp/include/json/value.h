@@ -180,6 +180,7 @@ warning
 disable
 :
 4251
+4275
 )
 #
 endif
@@ -739,6 +740,7 @@ CZString
 &
 other
 )
+noexcept
 ;
 ~
 CZString
@@ -766,6 +768,7 @@ CZString
 &
 other
 )
+noexcept
 ;
 bool
 operator
@@ -989,6 +992,7 @@ Value
 &
 other
 )
+noexcept
 ;
 ~
 Value
@@ -1016,6 +1020,7 @@ Value
 &
 other
 )
+noexcept
 ;
 void
 swap
@@ -2047,6 +2052,7 @@ Comments
 &
 that
 )
+noexcept
 ;
 Comments
 &
@@ -2069,6 +2075,7 @@ Comments
 &
 that
 )
+noexcept
 ;
 bool
 has
@@ -3341,10 +3348,17 @@ operator
 *
 (
 )
+const
 {
 return
+const_cast
+<
+reference
+>
+(
 deref
 (
+)
 )
 ;
 }
@@ -3354,11 +3368,18 @@ operator
 >
 (
 )
+const
 {
 return
+const_cast
+<
+pointer
+>
+(
 &
 deref
 (
+)
 )
 ;
 }
