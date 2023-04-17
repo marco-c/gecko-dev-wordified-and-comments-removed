@@ -746,6 +746,13 @@ hasBrowserElement
 saveRequestAndResponseBodies
 :
 true
+"
+network
+-
+persist
+"
+:
+true
 }
 }
 ;

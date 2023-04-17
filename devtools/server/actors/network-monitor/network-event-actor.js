@@ -354,6 +354,14 @@ browsingContextID
 ;
 this
 .
+innerWindowId
+=
+networkEvent
+.
+innerWindowId
+;
+this
+.
 _serial
 =
 networkEvent
@@ -392,7 +400,7 @@ private
 ;
 this
 .
-_isNavigationRequest
+isNavigationRequest
 =
 networkEvent
 .
@@ -459,6 +467,11 @@ resourceType
 :
 NETWORK_EVENT
 browsingContextID
+innerWindowId
+:
+this
+.
+innerWindowId
 resourceId
 :
 this
@@ -571,7 +584,7 @@ isNavigationRequest
 :
 this
 .
-_isNavigationRequest
+isNavigationRequest
 }
 ;
 }
