@@ -411,6 +411,15 @@ nullptr
 0
 )
 ;
+NodeOffset
+mEnd
+=
+NodeOffset
+(
+nullptr
+0
+)
+;
 }
 ;
 SoftText
@@ -448,11 +457,6 @@ mRootNode
 &
 aRootNode
 )
-mSoftEnd
-(
-nullptr
-0
-)
 mNextWordIndex
 (
 -
@@ -485,9 +489,6 @@ const
 nsINode
 *
 mRootNode
-;
-NodeOffset
-mSoftEnd
 ;
 struct
 DOMTextMapping
