@@ -1,12 +1,12 @@
+import
+time
 from
 base64
 import
-decodestring
-import
-time
+decodebytes
 png_response
 =
-decodestring
+decodebytes
 (
 b
 '

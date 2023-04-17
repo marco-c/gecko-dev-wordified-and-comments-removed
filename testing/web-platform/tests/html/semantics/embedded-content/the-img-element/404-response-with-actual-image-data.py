@@ -1,5 +1,7 @@
-import
+from
 base64
+import
+decodebytes
 def
 main
 (
@@ -26,8 +28,6 @@ png
 '
 )
 ]
-base64
-.
 decodebytes
 (
 b

@@ -1,9 +1,9 @@
-import
+from
 base64
 import
-pytest
+decodebytes
 import
-six
+pytest
 from
 tests
 .
@@ -13,25 +13,6 @@ asserts
 import
 assert_error
 assert_success
-def
-decodebytes
-(
-s
-)
-:
-    
-return
-base64
-.
-decodebytes
-(
-six
-.
-ensure_binary
-(
-s
-)
-)
 def
 do_print
 (
@@ -180,6 +161,10 @@ pdf
 decodebytes
 (
 value
+.
+encode
+(
+)
 )
     
 assert_pdf
@@ -251,6 +236,10 @@ pdf
 decodebytes
 (
 value
+.
+encode
+(
+)
 )
     
 assert_pdf
