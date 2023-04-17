@@ -1176,6 +1176,13 @@ language
 -
 name
 -
+sco
+=
+Scots
+language
+-
+name
+-
 sd
 =
 Sindhi
@@ -1293,6 +1300,13 @@ name
 sw
 =
 Swahili
+language
+-
+name
+-
+szl
+=
+Silesian
 language
 -
 name
