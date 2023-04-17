@@ -188,8 +188,6 @@ fog_init
 (
 &
 empty
-&
-empty
 )
 )
 ;

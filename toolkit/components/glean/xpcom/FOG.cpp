@@ -271,10 +271,6 @@ const
 nsACString
 &
 aDataPathOverride
-const
-nsACString
-&
-aAppIdOverride
 )
 {
 #
@@ -296,8 +292,6 @@ fog_init
 (
 &
 aDataPathOverride
-&
-aAppIdOverride
 )
 ;
 #
