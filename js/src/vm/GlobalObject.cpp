@@ -907,6 +907,9 @@ case
 JSProto_WasmTag
 :
 case
+JSProto_WasmFunction
+:
+case
 JSProto_WasmException
 :
 return

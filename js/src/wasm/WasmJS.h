@@ -2563,6 +2563,11 @@ classSpec_
 ;
 }
 ;
+extern
+const
+JSClass
+WasmFunctionClass
+;
 }
 #
 endif

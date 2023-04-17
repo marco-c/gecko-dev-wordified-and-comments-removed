@@ -3373,6 +3373,15 @@ result
 \
 MACRO_
 (
+results
+results
+"
+results
+"
+)
+\
+MACRO_
+(
 resumeGenerator
 resumeGenerator
 "
