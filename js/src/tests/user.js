@@ -443,3 +443,17 @@ top_level_await
 true
 )
 ;
+user_pref
+(
+"
+javascript
+.
+options
+.
+experimental
+.
+ergonomic_brand_checks
+"
+true
+)
+;
