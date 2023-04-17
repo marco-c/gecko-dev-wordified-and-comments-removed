@@ -810,7 +810,7 @@ MACRO
 (
 Other
 GCHeapUsed
-shapesGCHeapTree
+shapesGCHeapShared
 )
 \
 MACRO
