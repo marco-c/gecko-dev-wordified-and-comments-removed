@@ -1113,6 +1113,13 @@ h
 #
 include
 "
+nsHttpHandler
+.
+h
+"
+#
+include
+"
 nsIConsoleService
 .
 h
@@ -13853,6 +13860,13 @@ PreallocInit
 )
 {
 EnsureNSSInitializedChromeOrContent
+(
+)
+;
+nsHttpHandler
+:
+:
+PresetAcceptLanguages
 (
 )
 ;
