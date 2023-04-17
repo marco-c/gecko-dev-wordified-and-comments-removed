@@ -180,6 +180,7 @@ ids
 )
 ;
 }
+;
 this
 .
 startBackground
@@ -310,9 +311,7 @@ onScreenshotCommand
 addListener
 (
 async
-(
 isContextMenuClick
-)
 =
 >
 {
@@ -399,9 +398,7 @@ onCommand
 .
 addListener
 (
-(
 cmd
-)
 =
 >
 {
@@ -450,9 +447,7 @@ true
 .
 then
 (
-(
 tabs
-)
 =
 >
 {
@@ -476,9 +471,7 @@ activeTab
 .
 catch
 (
-(
 error
-)
 =
 >
 {
@@ -493,9 +486,7 @@ error
 .
 catch
 (
-(
 error
-)
 =
 >
 {
@@ -563,9 +554,7 @@ sendResponse
 .
 catch
 (
-(
 error
-)
 =
 >
 {
@@ -620,9 +609,7 @@ backgroundScripts
 .
 forEach
 (
-(
 script
-)
 =
 >
 {
@@ -692,9 +679,7 @@ tag
 .
 onerror
 =
-(
 error
-)
 =
 >
 {
