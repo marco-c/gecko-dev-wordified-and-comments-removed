@@ -773,10 +773,10 @@ mInputDownmixBuffer
 AudioSegment
 mSegment
 ;
-bool
-mLiveFramesAppended
-;
+Maybe
+<
 TrackTime
+>
 mLiveBufferingAppended
 ;
 const
