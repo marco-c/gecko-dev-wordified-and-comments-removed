@@ -223,10 +223,6 @@ mTransaction
 (
 trans
 )
-mPrimaryTransport
-(
-false
-)
 mCaps
 (
 caps
@@ -246,10 +242,6 @@ isFromPredictor
 mConnInfo
 (
 ci
-)
-mBackupTransport
-(
-true
 )
 {
 MOZ_ASSERT
