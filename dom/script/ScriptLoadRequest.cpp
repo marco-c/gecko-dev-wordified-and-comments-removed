@@ -55,6 +55,15 @@ h
 #
 include
 "
+js
+/
+OffThreadScriptCompilation
+.
+h
+"
+#
+include
+"
 ModuleLoadRequest
 .
 h

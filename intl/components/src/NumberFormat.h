@@ -33,6 +33,17 @@ include
 "
 mozilla
 /
+intl
+/
+ICU4CGlue
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h

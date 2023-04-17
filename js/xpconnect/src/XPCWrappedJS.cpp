@@ -35,6 +35,15 @@ h
 #
 include
 "
+js
+/
+RealmIterators
+.
+h
+"
+#
+include
+"
 nsCCUncollectableMarker
 .
 h

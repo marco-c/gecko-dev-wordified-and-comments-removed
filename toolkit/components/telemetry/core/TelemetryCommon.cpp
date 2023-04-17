@@ -13,6 +13,15 @@ cstring
 #
 include
 "
+js
+/
+String
+.
+h
+"
+#
+include
+"
 mozilla
 /
 TimeStamp
