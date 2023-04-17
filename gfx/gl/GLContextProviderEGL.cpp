@@ -1451,12 +1451,6 @@ bpp
 =
 32
 ;
-const
-bool
-withDepth
-=
-true
-;
 if
 (
 !
@@ -1467,7 +1461,7 @@ egl
 &
 config
 bpp
-withDepth
+false
 aUseGles
 )
 )
@@ -1508,7 +1502,7 @@ egl
 &
 config
 aDepth
-aHardwareWebRender
+false
 aUseGles
 visualID
 )
@@ -1545,7 +1539,7 @@ CreateConfigScreen
 egl
 &
 config
-aHardwareWebRender
+false
 aUseGles
 visualID
 )
