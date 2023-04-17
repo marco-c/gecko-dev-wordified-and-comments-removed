@@ -4027,6 +4027,10 @@ AttachShadowWithoutNameChecks
 (
 ShadowRootMode
 aMode
+bool
+aDelegatesFocus
+=
+false
 SlotAssignmentMode
 aSlotAssignmentMode
 =

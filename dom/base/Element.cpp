@@ -6396,6 +6396,9 @@ aInit
 mMode
 aInit
 .
+mDelegatesFocus
+aInit
+.
 mSlotAssignment
 )
 ;
@@ -6411,6 +6414,8 @@ AttachShadowWithoutNameChecks
 (
 ShadowRootMode
 aMode
+bool
+aDelegatesFocus
 SlotAssignmentMode
 aSlotAssignment
 )
@@ -6525,6 +6530,7 @@ ShadowRoot
 (
 this
 aMode
+aDelegatesFocus
 aSlotAssignment
 nodeInfo
 .
