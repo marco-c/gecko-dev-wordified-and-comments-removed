@@ -276,8 +276,8 @@ mInfo
 webrtc
 :
 :
-H264PacketizationMode
-mMode
+CodecSpecificInfo
+mCodecSpecific
 ;
 webrtc
 :
