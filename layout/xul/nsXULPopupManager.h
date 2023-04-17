@@ -2209,6 +2209,15 @@ NativeMenu
 >
 mNativeMenu
 ;
+mozilla
+:
+:
+Maybe
+<
+CloseMenuMode
+>
+mNativeMenuActivatedItemCloseMenuMode
+;
 nsTHashMap
 <
 RefPtr
