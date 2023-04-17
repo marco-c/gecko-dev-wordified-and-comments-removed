@@ -142,7 +142,7 @@ Available
 (
 uint64_t
 *
-_retval
+aResult
 )
 ;
 nsresult
@@ -155,7 +155,7 @@ uint32_t
 aCount
 uint32_t
 *
-_retval
+aResult
 )
 ;
 nsresult
@@ -178,7 +178,7 @@ IsNonBlocking
 (
 bool
 *
-_retval
+aNonBlocking
 )
 ;
 nsresult
@@ -197,7 +197,7 @@ uint32_t
 aCount
 uint32_t
 *
-_retval
+result
 )
 ;
 nsresult
@@ -256,9 +256,13 @@ localFile
 ;
 int32_t
 ioFlags
+=
+0
 ;
 int32_t
 perm
+=
+0
 ;
 }
 ;

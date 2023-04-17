@@ -927,7 +927,7 @@ aChannelStatus
 const
 nsresult
 &
-aStatus
+aTransportStatus
 const
 uint64_t
 &
@@ -1552,7 +1552,7 @@ registrarId
 const
 URIParams
 &
-newUri
+newOriginalURI
 const
 uint32_t
 &

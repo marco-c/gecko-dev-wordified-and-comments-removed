@@ -159,8 +159,14 @@ release
 if
 (
 !
-mRefCnt
-.
+:
+:
+mozilla
+:
+:
+ThreadSafeAutoRefCnt
+:
+:
 isThreadSafe
 )
 {

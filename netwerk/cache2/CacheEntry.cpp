@@ -177,8 +177,8 @@ algorithm
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 static
@@ -541,16 +541,11 @@ false
 mDoomWhenFoundPinned
 (
 aDoomWhenFoundInPinStatus
-=
-=
-true
 )
 mDoomWhenFoundNonPinned
 (
+!
 aDoomWhenFoundInPinStatus
-=
-=
-false
 )
 {
 MOZ_COUNT_CTOR
@@ -2692,6 +2687,7 @@ Length
 (
 )
 )
+{
 mCallbacks
 .
 SwapElements
@@ -2701,7 +2697,9 @@ aFromEntry
 mCallbacks
 )
 ;
+}
 else
+{
 mCallbacks
 .
 AppendElements
@@ -2711,6 +2709,7 @@ aFromEntry
 mCallbacks
 )
 ;
+}
 uint32_t
 callbacksLength
 =
@@ -2740,6 +2739,7 @@ callbacksLength
 +
 i
 )
+{
 mCallbacks
 [
 i
@@ -2750,6 +2750,7 @@ ExchangeEntry
 this
 )
 ;
+}
 BackgroundOp
 (
 Ops
@@ -6441,9 +6442,11 @@ mIsDoomed
 |
 mDoomCallback
 )
+{
 return
 NS_ERROR_IN_PROGRESS
 ;
+}
 RemoveForcedValidity
 (
 )
@@ -8073,6 +8076,7 @@ Set
 aOperations
 )
 )
+{
 CacheStorageService
 :
 :
@@ -8086,6 +8090,7 @@ Dispatch
 this
 )
 ;
+}
 LOG
 (
 (
@@ -8604,6 +8609,5 @@ SizeOfExcludingThis
 mallocSizeOf
 )
 ;
-}
 }
 }

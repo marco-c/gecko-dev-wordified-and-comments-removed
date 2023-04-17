@@ -3960,6 +3960,7 @@ uri
 ;
 }
 auto
+*
 prin
 =
 BasePrincipal

@@ -372,11 +372,12 @@ CanAcceptWebsocket
 ;
 }
 ;
-typedef
+using
+ALPNCallback
+=
 bool
 (
 *
-ALPNCallback
 )
 (
 nsISupports

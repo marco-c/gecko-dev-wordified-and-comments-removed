@@ -81,11 +81,14 @@ if
 !
 inst
 )
+{
 rv
 =
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 else
+{
 rv
 =
 inst
@@ -97,6 +100,7 @@ aIID
 aResult
 )
 ;
+}
 return
 rv
 ;
@@ -138,11 +142,14 @@ if
 !
 inst
 )
+{
 rv
 =
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 else
+{
 rv
 =
 inst
@@ -154,6 +161,7 @@ aIID
 aResult
 )
 ;
+}
 return
 rv
 ;

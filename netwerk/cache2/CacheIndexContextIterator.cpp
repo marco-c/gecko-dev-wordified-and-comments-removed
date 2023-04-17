@@ -28,8 +28,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 CacheIndexContextIterator
@@ -137,7 +137,6 @@ i
 ]
 )
 ;
-}
 }
 }
 }

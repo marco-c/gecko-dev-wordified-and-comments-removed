@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 CacheIndexIterator
@@ -538,6 +538,5 @@ true
 return
 false
 ;
-}
 }
 }

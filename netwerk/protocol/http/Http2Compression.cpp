@@ -3264,7 +3264,6 @@ true
 break
 ;
 }
-else
 if
 (
 *
@@ -6049,7 +6048,6 @@ true
 break
 ;
 }
-else
 if
 (
 *
@@ -6109,10 +6107,12 @@ valueIndex
 '
 '
 )
+{
 +
 +
 valueIndex
 ;
+}
 nsDependentCSubstring
 value
 =

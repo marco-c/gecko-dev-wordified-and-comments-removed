@@ -41,8 +41,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 static
@@ -1289,6 +1289,5 @@ readUint64
 hash
 )
 ;
-}
 }
 }

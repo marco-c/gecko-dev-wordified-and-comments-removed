@@ -308,7 +308,7 @@ callback
 uint32_t
 flags
 bool
-mustCallbackOnMainThread
+mainThreadResponse
 )
 ;
 nsresult

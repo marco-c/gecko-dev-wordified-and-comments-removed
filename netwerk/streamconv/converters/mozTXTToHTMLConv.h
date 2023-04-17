@@ -347,7 +347,7 @@ char
 attributeHTML
 nsAString
 &
-aOutputString
+aOutString
 uint32_t
 &
 openTags
@@ -393,7 +393,7 @@ bool
 col0
 nsAString
 &
-aOutString
+aOutputString
 int32_t
 &
 glyphTextLen

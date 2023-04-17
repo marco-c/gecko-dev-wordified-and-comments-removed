@@ -3262,6 +3262,7 @@ message
 (
 )
 )
+{
 formattedMessage
 .
 Append
@@ -3281,6 +3282,7 @@ c_str
 )
 )
 ;
+}
 formattedMessage
 +
 =
@@ -3827,7 +3829,8 @@ helper
 mResponse
 )
 ;
-if
+return
+!
 (
 !
 rec
@@ -3845,13 +3848,6 @@ aNetAddr
 )
 )
 )
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 static
@@ -3907,9 +3903,11 @@ dottedDecimal
 )
 )
 )
+{
 return
 false
 ;
+}
 aDottedDecimal
 .
 Assign
@@ -6072,9 +6070,11 @@ dottedDecimal
 =
 PR_SUCCESS
 )
+{
 return
 false
 ;
+}
 localAddress
 .
 Assign

@@ -55,7 +55,9 @@ GetSingleton
 (
 )
 ;
-typedef
+using
+GetPromise
+=
 MozPromise
 <
 RefPtr
@@ -65,7 +67,6 @@ SocketProcessBridgeChild
 nsCString
 false
 >
-GetPromise
 ;
 static
 RefPtr

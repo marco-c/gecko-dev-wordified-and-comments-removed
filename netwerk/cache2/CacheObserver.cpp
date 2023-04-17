@@ -108,8 +108,8 @@ h
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 StaticRefPtr
@@ -799,17 +799,10 @@ derivedLimit
 3
 )
 ;
-if
-(
+return
 aSize
 >
 derivedLimit
-)
-return
-true
-;
-return
-false
 ;
 }
 bool
@@ -1173,6 +1166,7 @@ if
 (
 service
 )
+{
 service
 -
 >
@@ -1184,6 +1178,7 @@ nsICacheStorageService
 PURGE_EVERYTHING
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1201,6 +1196,5 @@ handler
 return
 NS_OK
 ;
-}
 }
 }

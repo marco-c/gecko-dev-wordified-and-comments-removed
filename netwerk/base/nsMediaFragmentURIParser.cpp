@@ -1748,7 +1748,6 @@ gotSpatial
 break
 ;
 }
-else
 if
 (
 !

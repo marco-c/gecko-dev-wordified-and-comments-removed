@@ -580,7 +580,7 @@ uint32_t
 prefixLen
 uint32_t
 &
-result
+accum
 )
 ;
 [
@@ -637,7 +637,7 @@ nsresult
 CopyStringFromInput
 (
 uint32_t
-index
+bytes
 nsACString
 &
 val
@@ -662,7 +662,7 @@ nsresult
 CopyHuffmanStringFromInput
 (
 uint32_t
-index
+bytes
 nsACString
 &
 val

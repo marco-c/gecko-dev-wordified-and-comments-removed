@@ -1026,7 +1026,6 @@ char
 tail
 )
 ;
-const
 nsDependentCSubstring
 Segment
 (
@@ -1036,7 +1035,6 @@ int32_t
 len
 )
 ;
-const
 nsDependentCSubstring
 Segment
 (
@@ -1058,13 +1056,11 @@ mLen
 )
 ;
 }
-const
 nsDependentCSubstring
 Prepath
 (
 )
 ;
-const
 nsDependentCSubstring
 Scheme
 (
@@ -1077,7 +1073,6 @@ mScheme
 )
 ;
 }
-const
 nsDependentCSubstring
 Userpass
 (
@@ -1087,7 +1082,6 @@ includeDelim
 false
 )
 ;
-const
 nsDependentCSubstring
 Username
 (
@@ -1100,7 +1094,6 @@ mUsername
 )
 ;
 }
-const
 nsDependentCSubstring
 Password
 (
@@ -1113,19 +1106,16 @@ mPassword
 )
 ;
 }
-const
 nsDependentCSubstring
 Hostport
 (
 )
 ;
-const
 nsDependentCSubstring
 Host
 (
 )
 ;
-const
 nsDependentCSubstring
 Path
 (
@@ -1138,7 +1128,6 @@ mPath
 )
 ;
 }
-const
 nsDependentCSubstring
 Filepath
 (
@@ -1151,7 +1140,6 @@ mFilepath
 )
 ;
 }
-const
 nsDependentCSubstring
 Directory
 (
@@ -1164,13 +1152,11 @@ mDirectory
 )
 ;
 }
-const
 nsDependentCSubstring
 Filename
 (
 )
 ;
-const
 nsDependentCSubstring
 Basename
 (
@@ -1183,7 +1169,6 @@ mBasename
 )
 ;
 }
-const
 nsDependentCSubstring
 Extension
 (
@@ -1196,7 +1181,6 @@ mExtension
 )
 ;
 }
-const
 nsDependentCSubstring
 Query
 (
@@ -1209,7 +1193,6 @@ mQuery
 )
 ;
 }
-const
 nsDependentCSubstring
 Ref
 (
@@ -2339,7 +2322,6 @@ af5a
 \
 }
 inline
-const
 nsDependentCSubstring
 nsStandardURL
 :
@@ -2381,7 +2363,6 @@ len
 ;
 }
 inline
-const
 nsDependentCSubstring
 nsStandardURL
 :
@@ -2424,7 +2405,6 @@ len
 ;
 }
 inline
-const
 nsDependentCSubstring
 nsStandardURL
 :
@@ -2541,7 +2521,6 @@ len
 ;
 }
 inline
-const
 nsDependentCSubstring
 nsStandardURL
 :
@@ -2596,7 +2575,6 @@ len
 ;
 }
 inline
-const
 nsDependentCSubstring
 nsStandardURL
 :
@@ -2687,7 +2665,6 @@ len
 ;
 }
 inline
-const
 nsDependentCSubstring
 nsStandardURL
 :

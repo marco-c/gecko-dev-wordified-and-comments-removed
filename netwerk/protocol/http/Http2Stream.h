@@ -795,7 +795,7 @@ Finish0RTT
 bool
 aRestart
 bool
-aAlpnIgnored
+aAlpnChanged
 )
 ;
 nsresult
@@ -966,9 +966,13 @@ mSocketTransport
 ;
 uint8_t
 mPriorityWeight
+=
+0
 ;
 uint32_t
 mPriorityDependency
+=
+0
 ;
 uint64_t
 mCurrentTopBrowsingContextId
@@ -1123,6 +1127,8 @@ mRequestBodyLenRemaining
 ;
 uint32_t
 mPriority
+=
+0
 ;
 int64_t
 mClientReceiveWindow

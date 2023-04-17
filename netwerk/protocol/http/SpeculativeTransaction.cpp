@@ -89,15 +89,6 @@ aCallback
 )
 {
 }
-SpeculativeTransaction
-:
-:
-~
-SpeculativeTransaction
-(
-)
-{
-}
 already_AddRefed
 <
 SpeculativeTransaction

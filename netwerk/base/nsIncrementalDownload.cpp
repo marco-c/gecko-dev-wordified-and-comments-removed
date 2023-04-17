@@ -280,6 +280,7 @@ if
 (
 len
 )
+{
 rv
 =
 PR_Write
@@ -299,6 +300,7 @@ NS_OK
 :
 NS_ERROR_FAILURE
 ;
+}
 PR_Close
 (
 fd
@@ -800,6 +802,7 @@ if
 (
 mProgressSink
 )
+{
 mProgressSink
 -
 >
@@ -812,6 +815,7 @@ mChunkLen
 mTotalSize
 )
 ;
+}
 }
 nsresult
 nsIncrementalDownload
@@ -2245,9 +2249,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 int32_t
 p
 =
@@ -2556,12 +2562,14 @@ W
 _ns
 )
 )
+{
 mPartialValidator
 .
 Truncate
 (
 )
 ;
+}
 if
 (
 mPartialValidator
@@ -2720,9 +2728,11 @@ mTotalSize
 =
 1
 )
+{
 return
 NS_ERROR_UNEXPECTED
 ;
+}
 }
 else
 {
@@ -3129,10 +3139,12 @@ mLastProgressUpdate
 +
 UPDATE_PROGRESS_INTERVAL
 )
+{
 UpdateProgress
 (
 )
 ;
+}
 return
 NS_OK
 ;

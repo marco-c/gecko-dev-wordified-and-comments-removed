@@ -387,6 +387,8 @@ mFirstODASource
 ;
 bool
 mOnStopRequestCalled
+=
+false
 ;
 std
 :

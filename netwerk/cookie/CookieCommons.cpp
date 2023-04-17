@@ -320,8 +320,7 @@ Length
 (
 )
 ;
-if
-(
+return
 isPrefix
 &
 &
@@ -334,14 +333,6 @@ cookiePathLen
 '
 /
 '
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }
 nsresult
