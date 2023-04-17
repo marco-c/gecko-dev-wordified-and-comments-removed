@@ -425,6 +425,16 @@ ipc
 :
 IsOnBackgroundThread
 ;
+const
+nsLiteralString
+kJournalDirectoryName
+=
+u
+"
+journals
+"
+_ns
+;
 namespace
 {
 constexpr

@@ -151,6 +151,11 @@ StructuredCloneFileParent
 struct
 StructuredCloneReadInfoParent
 ;
+extern
+const
+nsLiteralString
+kJournalDirectoryName
+;
 using
 IndexedDBCipherStrategy
 =
