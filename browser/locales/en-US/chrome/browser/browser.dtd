@@ -216,17 +216,6 @@ Navigation
 <
 !
 ENTITY
-fullScreenCmd
-.
-label
-"
-Full
-Screen
-"
->
-<
-!
-ENTITY
 printButton
 .
 label
