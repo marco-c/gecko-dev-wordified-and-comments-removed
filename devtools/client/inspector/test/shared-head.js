@@ -725,6 +725,15 @@ walker
 .
 rootNode
 ;
+selectors
+=
+[
+.
+.
+.
+selectors
+]
+;
 const
 nodeSelector
 =
