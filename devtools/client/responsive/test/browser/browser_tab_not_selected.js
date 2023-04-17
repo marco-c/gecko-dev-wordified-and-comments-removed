@@ -164,6 +164,11 @@ waitForDevicePixelRatio
 (
 ui
 2
+{
+waitForTargetConfiguration
+:
+true
+}
 )
 ;
 is

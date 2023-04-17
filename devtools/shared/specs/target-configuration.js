@@ -55,6 +55,13 @@ nullable
 :
 boolean
 "
+overrideDPPX
+:
+"
+nullable
+:
+number
+"
 paintFlashing
 :
 "
