@@ -16851,7 +16851,6 @@ if
 prohibitWildCard
 &
 &
-!
 aNoHttp3
 )
 {
