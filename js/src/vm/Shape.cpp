@@ -6661,7 +6661,6 @@ proto
 GetGCKindSlots
 (
 kind
-clasp
 )
 objectFlags
 )
