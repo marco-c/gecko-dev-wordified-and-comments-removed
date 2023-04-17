@@ -948,7 +948,7 @@ urls
 :
 [
 "
-http
+https
 :
 /
 /
