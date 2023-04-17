@@ -3017,6 +3017,9 @@ mPopupTrackInHierarchy
 bool
 mPopupTrackInHierarchyConfigured
 ;
+bool
+mHiddenPopupPositioned
+;
 GdkPoint
 mPopupPosition
 ;
