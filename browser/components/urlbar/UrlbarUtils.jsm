@@ -4716,15 +4716,6 @@ type
 string
 "
 }
-helpTitle
-:
-{
-type
-:
-"
-string
-"
-}
 helpUrl
 :
 {
@@ -4815,7 +4806,7 @@ type
 string
 "
 }
-sponsoredText
+sponsoredL10nId
 :
 {
 type
