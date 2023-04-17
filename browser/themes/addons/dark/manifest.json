@@ -292,12 +292,8 @@ ntp_background
 "
 :
 "
-rgb
-(
-28
-27
-34
-)
+#
+2A2A2E
 "
 "
 ntp_text
