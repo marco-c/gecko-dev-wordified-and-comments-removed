@@ -821,28 +821,6 @@ float
 )
                 
 raise
-        
-else
-:
-            
-raise
-Exception
-(
-"
-Could
-not
-find
-PID
-=
-%
-s
-in
-xrestop
-output
-"
-%
-pid
-)
     
 return
 XRes
