@@ -73,10 +73,6 @@ bool
 mScrollbarIsDescendant
 ;
 AsyncTransformComponentMatrix
-*
-mOutClipTransform
-;
-AsyncTransformComponentMatrix
 mAsyncTransform
 ;
 AsyncTransformComponentMatrix
@@ -651,17 +647,6 @@ asyncUntransform
 contentUntransform
 )
 ;
-if
-(
-mOutClipTransform
-)
-{
-*
-mOutClipTransform
-=
-compensation
-;
-}
 }
 transform
 =
@@ -700,9 +685,6 @@ ScrollbarData
 aScrollbarData
 bool
 aScrollbarIsDescendant
-AsyncTransformComponentMatrix
-*
-aOutClipTransform
 )
 {
 return
@@ -714,7 +696,6 @@ aApzc
 aMetrics
 aScrollbarData
 aScrollbarIsDescendant
-aOutClipTransform
 }
 .
 ComputeTransform

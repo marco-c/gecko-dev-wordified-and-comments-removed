@@ -4068,7 +4068,6 @@ mThumbData
 info
 .
 mTargetIsAncestor
-nullptr
 )
 ;
 }
@@ -17022,7 +17021,6 @@ IsAncestorOf
 (
 aNode
 )
-nullptr
 )
 ;
 }
@@ -17918,9 +17916,6 @@ ScrollbarData
 aScrollbarData
 bool
 aScrollbarIsDescendant
-AsyncTransformComponentMatrix
-*
-aOutClipTransform
 )
 {
 return
@@ -17935,7 +17930,6 @@ aApzc
 aMetrics
 aScrollbarData
 aScrollbarIsDescendant
-aOutClipTransform
 )
 ;
 }

@@ -781,9 +781,6 @@ ScrollbarData
 aScrollbarData
 bool
 aScrollbarIsDescendant
-AsyncTransformComponentMatrix
-*
-aOutClipTransform
 )
 ;
 static
