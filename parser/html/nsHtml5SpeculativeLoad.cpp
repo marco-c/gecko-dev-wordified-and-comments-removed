@@ -342,14 +342,6 @@ break
 case
 eSpeculativeLoadManifest
 :
-aExecutor
--
->
-ProcessOfflineManifest
-(
-mUrlOrSizes
-)
-;
 break
 ;
 case
