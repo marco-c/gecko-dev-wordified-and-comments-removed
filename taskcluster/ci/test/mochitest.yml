@@ -2840,10 +2840,16 @@ test
 -
 platform
 :
+(
 linux
 .
 *
 64
+|
+windows10
+-
+64
+)
 -
 qr
 /
