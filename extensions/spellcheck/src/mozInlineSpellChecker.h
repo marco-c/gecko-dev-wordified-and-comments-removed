@@ -319,6 +319,13 @@ nsRange
 >
 &
 &
+aRange
+RefPtr
+<
+nsRange
+>
+&
+&
 aAnchorRange
 bool
 aForceNavigationWordCheck
