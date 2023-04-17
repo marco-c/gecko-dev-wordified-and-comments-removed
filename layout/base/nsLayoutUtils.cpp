@@ -15442,7 +15442,7 @@ GetRootScrollFrame
 presContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 )
