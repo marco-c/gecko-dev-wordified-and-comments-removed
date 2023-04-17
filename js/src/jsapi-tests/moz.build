@@ -904,3 +904,6 @@ py
 in
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True
