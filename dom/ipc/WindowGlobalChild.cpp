@@ -1106,6 +1106,16 @@ MOZ_RELEASE_ASSERT
 aDocument
 )
 ;
+SendSetIsInitialDocument
+(
+aDocument
+-
+>
+IsInitialDocument
+(
+)
+)
+;
 SetDocumentURI
 (
 aDocument

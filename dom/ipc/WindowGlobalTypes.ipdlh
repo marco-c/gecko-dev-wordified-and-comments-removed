@@ -91,6 +91,9 @@ nsIURI
 documentURI
 ;
 bool
+isInitialDocument
+;
+bool
 blockAllMixedContent
 ;
 bool
