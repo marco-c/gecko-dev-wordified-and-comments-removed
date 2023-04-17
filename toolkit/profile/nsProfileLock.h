@@ -114,15 +114,6 @@ aFatalSignal
 false
 )
 ;
-static
-bool
-IsMaybeLockFile
-(
-nsIFile
-*
-aFile
-)
-;
 nsresult
 Cleanup
 (
