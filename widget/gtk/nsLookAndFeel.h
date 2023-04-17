@@ -513,6 +513,11 @@ mTitlebarRadius
 =
 0
 ;
+int32_t
+mMenuRadius
+=
+0
+;
 char16_t
 mInvisibleCharacter
 =

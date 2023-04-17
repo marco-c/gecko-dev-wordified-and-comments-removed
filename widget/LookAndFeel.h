@@ -215,6 +215,7 @@ SystemVerticalScrollbarWidth
 SystemHorizontalScrollbarHeight
 TouchDeviceSupportPresent
 TitlebarRadius
+GtkMenuRadius
 End
 }
 ;
