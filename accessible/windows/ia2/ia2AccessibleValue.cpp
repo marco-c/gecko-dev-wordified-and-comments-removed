@@ -136,11 +136,11 @@ IID_IAccessibleValue
 iid
 )
 {
-AccessibleWrap
+Accessible
 *
 valueAcc
 =
-LocalAcc
+Acc
 (
 )
 ;
