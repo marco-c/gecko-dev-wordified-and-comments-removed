@@ -6028,6 +6028,9 @@ ucontext_t
 *
 mContext
 ;
+ucontext_t
+mContextSyncStorage
+;
 #
 endif
 }
