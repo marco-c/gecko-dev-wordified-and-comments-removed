@@ -35,17 +35,6 @@ nsICookie
 .
 h
 "
-#
-include
-"
-mozilla
-/
-net
-/
-NeckoChannelParams
-.
-h
-"
 class
 nsIChannel
 ;
