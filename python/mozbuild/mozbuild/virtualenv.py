@@ -46,28 +46,6 @@ platform
 "
 cygwin
 "
-PY2
-=
-sys
-.
-version_info
-[
-0
-]
-=
-=
-2
-PY3
-=
-sys
-.
-version_info
-[
-0
-]
-=
-=
-3
 UPGRADE_WINDOWS
 =
 "
@@ -190,27 +168,6 @@ dirname
 __file__
 )
 )
-if
-PY3
-:
-    
-text_type
-=
-str
-    
-binary_type
-=
-bytes
-else
-:
-    
-text_type
-=
-unicode
-    
-binary_type
-=
-str
 def
 ensure_binary
 (
@@ -229,7 +186,7 @@ if
 isinstance
 (
 s
-text_type
+str
 )
 :
         
@@ -250,7 +207,7 @@ elif
 isinstance
 (
 s
-binary_type
+bytes
 )
 :
         
@@ -296,7 +253,7 @@ if
 isinstance
 (
 s
-binary_type
+bytes
 )
 :
         
@@ -317,7 +274,7 @@ elif
 isinstance
 (
 s
-text_type
+str
 )
 :
         
@@ -1501,22 +1458,6 @@ proc
 stdout
 :
             
-if
-PY2
-:
-                
-self
-.
-log_handle
-.
-write
-(
-line
-)
-            
-else
-:
-                
 self
 .
 log_handle
@@ -1718,25 +1659,15 @@ self
 )
 :
         
-mode
-=
-"
-rU
-"
-if
-PY2
-else
-"
-r
-"
-        
 with
 open
 (
 self
 .
 manifest_path
-mode
+"
+r
+"
 )
 as
 fh
@@ -1770,9 +1701,6 @@ def
 populate
 (
 self
-ignore_sitecustomize
-=
-False
 )
 :
         
@@ -2196,9 +2124,6 @@ submanager
 .
 populate
 (
-ignore_sitecustomize
-=
-True
 )
             
 elif
@@ -2528,90 +2453,6 @@ package
         
 finally
 :
-            
-if
-PY2
-and
-self
-.
-populate_local_paths
-and
-not
-ignore_sitecustomize
-:
-                
-with
-open
-(
-                    
-os
-.
-path
-.
-join
-(
-os
-.
-path
-.
-dirname
-(
-python_lib
-)
-"
-sitecustomize
-.
-py
-"
-)
-                    
-mode
-=
-"
-w
-"
-                
-)
-as
-sitecustomize
-:
-                    
-sitecustomize
-.
-write
-(
-                        
-"
-#
-Importing
-mach_bootstrap
-has
-the
-side
-effect
-of
-\
-n
-"
-                        
-"
-#
-installing
-an
-import
-hook
-\
-n
-"
-                        
-"
-import
-mach_bootstrap
-\
-n
-"
-                    
-)
             
 os
 .
@@ -3994,7 +3835,7 @@ env
             
 universal_newlines
 =
-PY3
+True
         
 )
 def
@@ -4351,10 +4192,6 @@ utf
     
 ensure
 =
-ensure_binary
-if
-PY2
-else
 ensure_text
     
 try
