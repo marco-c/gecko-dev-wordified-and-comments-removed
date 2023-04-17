@@ -2749,6 +2749,14 @@ GetRTCPStatistics
 ;
 stats
 .
+rtcp_packet_type_counts
+=
+call_stats
+.
+rtcp_packet_type_counts
+;
+stats
+.
 payload_bytes_sent
 =
 call_stats

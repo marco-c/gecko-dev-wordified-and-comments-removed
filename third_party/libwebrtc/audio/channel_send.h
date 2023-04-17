@@ -156,6 +156,9 @@ packetsSent
 uint64_t
 retransmitted_packets_sent
 ;
+RtcpPacketTypeCounter
+rtcp_packet_type_counts
+;
 std
 :
 :
