@@ -337,8 +337,6 @@ mResultRecord
 ;
 nsresult
 mResultStatus
-=
-NS_OK
 ;
 nsCString
 mHost
@@ -348,8 +346,6 @@ mTrrServer
 ;
 uint16_t
 mType
-=
-0
 ;
 const
 OriginAttributes
@@ -357,8 +353,6 @@ mOriginAttributes
 ;
 uint16_t
 mFlags
-=
-0
 ;
 }
 ;
@@ -378,8 +372,6 @@ NS_DECL_NSIDNSLISTENER
 DNSRequestHandler
 (
 )
-=
-default
 ;
 void
 DoAsyncResolve
@@ -482,8 +474,6 @@ default
 ;
 uint32_t
 mFlags
-=
-0
 ;
 }
 ;

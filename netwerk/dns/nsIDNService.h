@@ -314,11 +314,6 @@ mozilla
 :
 Mutex
 mLock
-{
-"
-IDNService
-"
-}
 ;
 nsTArray
 <
@@ -334,8 +329,6 @@ mIDNBlocklist
 ;
 bool
 mShowPunycode
-=
-false
 ;
 enum
 restrictionProfile
@@ -347,9 +340,6 @@ eModeratelyRestrictiveProfile
 ;
 restrictionProfile
 mRestrictionProfile
-{
-eASCIIOnlyProfile
-}
 ;
 nsCOMPtr
 <
@@ -359,8 +349,6 @@ mIDNWhitelistPrefBranch
 ;
 bool
 mIDNUseWhitelist
-=
-false
 ;
 }
 ;

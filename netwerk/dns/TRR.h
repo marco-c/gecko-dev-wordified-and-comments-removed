@@ -521,9 +521,6 @@ mChannel
 enum
 TrrType
 mType
-{
-TRRTYPE_A
-}
 ;
 UniquePtr
 <
@@ -538,8 +535,6 @@ false
 ;
 bool
 mPB
-=
-false
 ;
 DOHresp
 mDNS
@@ -553,16 +548,6 @@ RequestPurpose
 mPurpose
 =
 Resolve
-;
-Atomic
-<
-bool
-Relaxed
->
-mCancelled
-{
-false
-}
 ;
 uint32_t
 mTimeoutMs
