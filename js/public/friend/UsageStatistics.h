@@ -269,7 +269,6 @@ JSUseCounter
 {
 ASMJS
 WASM
-WASM_DUPLICATE_IMPORTS
 }
 ;
 using

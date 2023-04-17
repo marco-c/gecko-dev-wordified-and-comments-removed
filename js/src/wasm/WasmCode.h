@@ -1280,9 +1280,6 @@ filenameIsURL
 bool
 omitsBoundsChecks
 ;
-bool
-usesDuplicateImports
-;
 explicit
 MetadataCacheablePod
 (
@@ -1303,10 +1300,6 @@ filenameIsURL
 false
 )
 omitsBoundsChecks
-(
-false
-)
-usesDuplicateImports
 (
 false
 )

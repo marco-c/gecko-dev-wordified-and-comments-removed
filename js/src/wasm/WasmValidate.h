@@ -121,9 +121,6 @@ elemSegments
 MaybeSectionRange
 codeSection
 ;
-bool
-usesDuplicateImports
-;
 DataSegmentEnvVector
 dataSegments
 ;
@@ -179,10 +176,6 @@ features
 TypeDefVector
 (
 )
-)
-usesDuplicateImports
-(
-false
 )
 {
 }
