@@ -61,7 +61,7 @@ func
 )
 )
 (
-event
+tag
 (
 type
 0

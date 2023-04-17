@@ -105,7 +105,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -186,7 +186,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -271,7 +271,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -359,7 +359,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -454,7 +454,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -518,7 +518,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -604,7 +604,7 @@ i32
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -677,7 +677,7 @@ i32
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -772,7 +772,7 @@ i32
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -911,7 +911,7 @@ param
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -1013,7 +1013,7 @@ param
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -1115,7 +1115,7 @@ param
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -1224,7 +1224,7 @@ param
 )
 )
 (
-event
+tag
 exn1
 (
 type
@@ -1232,7 +1232,7 @@ type
 )
 )
 (
-event
+tag
 exn2
 (
 type
@@ -1240,7 +1240,7 @@ type
 )
 )
 (
-event
+tag
 exn3
 (
 type
@@ -1313,7 +1313,7 @@ param
 )
 )
 (
-event
+tag
 exn1
 (
 type
@@ -1321,7 +1321,7 @@ type
 )
 )
 (
-event
+tag
 exn2
 (
 type
@@ -1329,7 +1329,7 @@ type
 )
 )
 (
-event
+tag
 exn3
 (
 type
@@ -1402,7 +1402,7 @@ param
 )
 )
 (
-event
+tag
 exn1
 (
 type
@@ -1410,7 +1410,7 @@ type
 )
 )
 (
-event
+tag
 exn2
 (
 type
@@ -1418,7 +1418,7 @@ type
 )
 )
 (
-event
+tag
 exn3
 (
 type
@@ -1491,7 +1491,7 @@ param
 )
 )
 (
-event
+tag
 exn1
 (
 type
@@ -1499,7 +1499,7 @@ type
 )
 )
 (
-event
+tag
 exn2
 (
 type
@@ -1507,7 +1507,7 @@ type
 )
 )
 (
-event
+tag
 exn3
 (
 type
@@ -1515,7 +1515,7 @@ type
 )
 )
 (
-event
+tag
 exn4
 (
 type
@@ -1601,7 +1601,7 @@ i32
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -1678,7 +1678,7 @@ param
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -1750,7 +1750,7 @@ param
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -1822,7 +1822,7 @@ i32
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -1905,7 +1905,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -2022,7 +2022,7 @@ i64
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -2030,7 +2030,7 @@ type
 )
 )
 (
-event
+tag
 foo
 (
 type
@@ -2038,7 +2038,7 @@ type
 )
 )
 (
-event
+tag
 bar
 (
 type
@@ -2115,7 +2115,7 @@ f64
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -2242,7 +2242,7 @@ f64
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -2412,7 +2412,7 @@ i32
 )
 )
 (
-event
+tag
 exn1
 (
 type
@@ -2420,7 +2420,7 @@ type
 )
 )
 (
-event
+tag
 exn2
 (
 type
@@ -2491,7 +2491,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -2564,7 +2564,7 @@ i32
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -2642,7 +2642,7 @@ i32
 )
 )
 (
-event
+tag
 exn1
 (
 type
@@ -2650,7 +2650,7 @@ type
 )
 )
 (
-event
+tag
 exn2
 (
 type
@@ -2714,7 +2714,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -2802,7 +2802,7 @@ foreign
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -2896,7 +2896,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -3251,7 +3251,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 export
@@ -3303,7 +3303,7 @@ m
 e
 "
 (
-event
+tag
 e
 (
 type
@@ -3394,7 +3394,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -3462,7 +3462,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -3529,7 +3529,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -3599,7 +3599,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -3668,7 +3668,7 @@ func
 )
 )
 (
-event
+tag
 exn1
 (
 type
@@ -3676,7 +3676,7 @@ type
 )
 )
 (
-event
+tag
 exn2
 (
 type
@@ -3756,7 +3756,7 @@ func
 )
 )
 (
-event
+tag
 exn1
 (
 type
@@ -3764,7 +3764,7 @@ type
 )
 )
 (
-event
+tag
 exn2
 (
 type
@@ -3837,7 +3837,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -3885,7 +3885,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -3945,7 +3945,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -3995,7 +3995,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -4054,7 +4054,7 @@ i32
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -4130,7 +4130,7 @@ i32
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -4221,7 +4221,7 @@ i32
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -4309,7 +4309,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -4367,7 +4367,7 @@ i32
 )
 )
 (
-event
+tag
 exn
 (
 type

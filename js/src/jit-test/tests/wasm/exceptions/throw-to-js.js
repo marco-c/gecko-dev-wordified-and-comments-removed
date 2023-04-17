@@ -67,7 +67,7 @@ param
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -119,7 +119,7 @@ param
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -179,7 +179,7 @@ param
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -224,7 +224,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -267,7 +267,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -319,7 +319,7 @@ param
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -360,7 +360,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 )
 (
@@ -523,7 +523,7 @@ i32
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -651,7 +651,7 @@ i32
 )
 )
 (
-event
+tag
 exn
 (
 export
@@ -760,7 +760,7 @@ store
 exn
 "
 (
-event
+tag
 exn
 (
 type
@@ -854,7 +854,7 @@ i32
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -934,7 +934,7 @@ param
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -1019,7 +1019,7 @@ func
 )
 )
 (
-event
+tag
 exn
 (
 type
@@ -1128,7 +1128,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -1177,7 +1177,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
