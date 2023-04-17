@@ -10322,7 +10322,7 @@ newNewtabExperience
 .
 enabled
 "
-true
+false
 )
 ;
 pref
@@ -11406,7 +11406,7 @@ logowordmark
 .
 alwaysVisible
 "
-true
+false
 )
 ;
 pref
