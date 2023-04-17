@@ -318,6 +318,11 @@ AboutWelcomeDefaults
 .
 getDefaults
 (
+{
+isProton
+:
+true
+}
 )
 ;
 async
@@ -342,6 +347,9 @@ getData
 (
 )
 )
+isProton
+:
+true
 .
 .
 .

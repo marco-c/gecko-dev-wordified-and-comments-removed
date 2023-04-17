@@ -652,6 +652,15 @@ props
 .
 handleAction
 }
+design
+=
+{
+this
+.
+props
+.
+design
+}
 /
 >
 )
