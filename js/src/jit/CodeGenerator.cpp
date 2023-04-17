@@ -78432,6 +78432,12 @@ remaining
 isEmpty
 (
 )
+&
+&
+type
+!
+=
+JSVAL_TYPE_OBJECT
 )
 {
 #
