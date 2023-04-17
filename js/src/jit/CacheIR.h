@@ -6494,8 +6494,6 @@ ObjOperandId
 objId
 jsid
 id
-bool
-handleMissing
 )
 ;
 ValOperandId
