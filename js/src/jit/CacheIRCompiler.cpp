@@ -35573,6 +35573,12 @@ allocKind
 )
 )
 ;
+emitLoadStubField
+(
+shapeSlot
+shape
+)
+;
 masm
 .
 Push
