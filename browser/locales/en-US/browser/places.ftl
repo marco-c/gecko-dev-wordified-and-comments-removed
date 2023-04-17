@@ -338,16 +338,6 @@ Search
 history
 places
 -
-history
-=
-.
-aria
--
-label
-=
-History
-places
--
 bookmarks
 -
 search
