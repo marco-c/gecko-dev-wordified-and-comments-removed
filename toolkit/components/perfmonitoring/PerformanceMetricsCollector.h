@@ -84,11 +84,14 @@ IPCTimeout
 final
 :
 public
-nsIObserver
+nsITimerCallback
+public
+nsINamed
 {
 public
 :
-NS_DECL_NSIOBSERVER
+NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 NS_DECL_ISUPPORTS
 static
 IPCTimeout

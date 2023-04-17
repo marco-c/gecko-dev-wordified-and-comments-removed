@@ -70,6 +70,8 @@ final
 :
 public
 nsIObserver
+public
+nsINamed
 {
 public
 :
@@ -88,6 +90,7 @@ MediaKeySystemAccessManager
 nsIObserver
 )
 NS_DECL_NSIOBSERVER
+NS_DECL_NSINAMED
 void
 Request
 (
