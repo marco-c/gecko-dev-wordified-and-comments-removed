@@ -711,7 +711,7 @@ ancestor
 nsGkAtoms
 :
 :
-live
+aria_live
 )
 )
 {
@@ -2611,7 +2611,7 @@ ancestor
 nsGkAtoms
 :
 :
-live
+aria_live
 )
 )
 {
