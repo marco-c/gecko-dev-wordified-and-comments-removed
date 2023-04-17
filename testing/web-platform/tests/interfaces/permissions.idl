@@ -230,11 +230,6 @@ magnetometer
 "
 clipboard
 -
-read
-"
-"
-clipboard
--
 write
 "
 "

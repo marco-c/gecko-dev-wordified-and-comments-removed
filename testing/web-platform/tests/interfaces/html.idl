@@ -3422,6 +3422,7 @@ double
 startTime
 ;
 attribute
+unrestricted
 double
 endTime
 ;

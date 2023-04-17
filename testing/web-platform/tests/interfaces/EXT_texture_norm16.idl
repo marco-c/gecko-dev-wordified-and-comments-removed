@@ -62,7 +62,10 @@ EXT_texture_norm16
 [
 Exposed
 =
+(
 Window
+Worker
+)
 LegacyNoInterfaceObject
 ]
 interface

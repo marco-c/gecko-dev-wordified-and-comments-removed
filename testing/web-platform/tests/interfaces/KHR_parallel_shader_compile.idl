@@ -62,7 +62,10 @@ KHR_parallel_shader_compile
 [
 Exposed
 =
+(
 Window
+Worker
+)
 LegacyNoInterfaceObject
 ]
 interface

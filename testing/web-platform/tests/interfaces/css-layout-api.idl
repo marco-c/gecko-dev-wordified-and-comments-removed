@@ -103,11 +103,6 @@ layoutCtor
 ;
 }
 ;
-[
-Exposed
-=
-LayoutWorklet
-]
 dictionary
 LayoutOptions
 {
@@ -129,11 +124,6 @@ like
 ;
 }
 ;
-[
-Exposed
-=
-LayoutWorklet
-]
 enum
 ChildDisplayType
 {
@@ -156,11 +146,6 @@ normal
 "
 }
 ;
-[
-Exposed
-=
-LayoutWorklet
-]
 enum
 LayoutSizingMode
 {

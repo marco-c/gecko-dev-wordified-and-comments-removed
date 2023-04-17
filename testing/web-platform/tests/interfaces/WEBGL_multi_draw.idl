@@ -62,7 +62,10 @@ WEBGL_multi_draw
 [
 Exposed
 =
+(
 Window
+Worker
+)
 LegacyNoInterfaceObject
 ]
 interface

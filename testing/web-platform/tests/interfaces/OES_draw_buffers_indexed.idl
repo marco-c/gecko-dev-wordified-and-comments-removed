@@ -63,7 +63,10 @@ OES_draw_buffers_indexed
 [
 Exposed
 =
+(
 Window
+Worker
+)
 LegacyNoInterfaceObject
 ]
 interface

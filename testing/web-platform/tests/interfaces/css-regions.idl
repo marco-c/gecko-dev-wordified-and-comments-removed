@@ -105,7 +105,7 @@ overset
 ;
 sequence
 <
-Region
+Element
 >
 getRegions
 (
@@ -126,7 +126,7 @@ getContent
 ;
 sequence
 <
-Region
+Element
 >
 getRegionsByContent
 (

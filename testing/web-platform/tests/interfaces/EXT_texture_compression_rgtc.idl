@@ -62,7 +62,10 @@ EXT_texture_compression_rgtc
 [
 Exposed
 =
+(
 Window
+Worker
+)
 LegacyNoInterfaceObject
 ]
 interface

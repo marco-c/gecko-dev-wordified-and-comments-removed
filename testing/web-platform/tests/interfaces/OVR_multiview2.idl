@@ -62,7 +62,10 @@ OVR_multiview2
 [
 Exposed
 =
+(
 Window
+Worker
+)
 LegacyNoInterfaceObject
 ]
 interface

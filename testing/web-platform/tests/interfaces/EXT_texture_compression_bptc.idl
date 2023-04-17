@@ -62,7 +62,10 @@ EXT_texture_compression_bptc
 [
 Exposed
 =
+(
 Window
+Worker
+)
 LegacyNoInterfaceObject
 ]
 interface
