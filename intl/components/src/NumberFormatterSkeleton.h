@@ -288,7 +288,7 @@ currencyDisplay
 NumberFormatOptions
 :
 :
-CurrencyDisplayStyle
+CurrencyDisplay
 display
 )
 ;

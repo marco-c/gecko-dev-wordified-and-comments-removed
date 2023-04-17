@@ -769,7 +769,7 @@ MXN
 NumberFormatOptions
 :
 :
-CurrencyDisplayStyle
+CurrencyDisplay
 :
 :
 Symbol
