@@ -230,12 +230,6 @@ HTMLEditUtils
 :
 WalkTreeOption
 ;
-const
-char16_t
-kNBSP
-=
-160
-;
 template
 WSScanResult
 WSRunScanner
@@ -3718,6 +3712,9 @@ endOfCollapsibleASCIIWhiteSpaces
 nsDependentSubstring
 (
 &
+HTMLEditUtils
+:
+:
 kNBSP
 1
 )
@@ -4784,6 +4781,9 @@ theString
 .
 SetCharAt
 (
+HTMLEditUtils
+:
+:
 kNBSP
 0
 )
@@ -4848,6 +4848,9 @@ theString
 .
 SetCharAt
 (
+HTMLEditUtils
+:
+:
 kNBSP
 0
 )
@@ -4871,6 +4874,9 @@ theString
 .
 SetCharAt
 (
+HTMLEditUtils
+:
+:
 kNBSP
 0
 )
@@ -4915,6 +4921,9 @@ theString
 .
 SetCharAt
 (
+HTMLEditUtils
+:
+:
 kNBSP
 lastCharIndex
 )
@@ -4978,6 +4987,9 @@ theString
 .
 SetCharAt
 (
+HTMLEditUtils
+:
+:
 kNBSP
 lastCharIndex
 )
@@ -5001,6 +5013,9 @@ theString
 .
 SetCharAt
 (
+HTMLEditUtils
+:
+:
 kNBSP
 lastCharIndex
 )
@@ -5052,6 +5067,9 @@ theString
 .
 SetCharAt
 (
+HTMLEditUtils
+:
+:
 kNBSP
 i
 -
@@ -10840,6 +10858,9 @@ endOfCollapsibleASCIIWhiteSpaces
 nsDependentSubstring
 (
 &
+HTMLEditUtils
+:
+:
 kNBSP
 1
 )
@@ -11142,6 +11163,9 @@ endOfCollapsibleASCIIWhiteSpaces
 nsDependentSubstring
 (
 &
+HTMLEditUtils
+:
+:
 kNBSP
 1
 )
@@ -11345,6 +11369,9 @@ endOfCollapsibleASCIIWhiteSpaces
 nsDependentSubstring
 (
 &
+HTMLEditUtils
+:
+:
 kNBSP
 1
 )
@@ -11486,6 +11513,9 @@ endOfCollapsibleASCIIWhiteSpaces
 nsDependentSubstring
 (
 &
+HTMLEditUtils
+:
+:
 kNBSP
 1
 )
