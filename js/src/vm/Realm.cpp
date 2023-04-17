@@ -1835,14 +1835,8 @@ unlink
 )
 ;
 }
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-ni
--
->
-objectBeingIterated
-(
-)
 &
 ObjectRealm
 :
