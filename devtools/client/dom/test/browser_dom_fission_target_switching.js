@@ -15,7 +15,7 @@ robots
 const
 CONTENT_PROCESS_URI
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 page_basic

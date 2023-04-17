@@ -6,7 +6,7 @@ strict
 const
 TEST_URI
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_browser_fontinspector
@@ -122,7 +122,7 @@ remote
 true
 url
 :
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 ostrich
@@ -154,7 +154,7 @@ remote
 true
 url
 :
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 ostrich
@@ -186,7 +186,7 @@ remote
 true
 url
 :
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 ostrich
@@ -218,7 +218,7 @@ remote
 true
 url
 :
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 ostrich
