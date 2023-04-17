@@ -34,6 +34,11 @@ Accordion
 js
 "
 "
+AppErrorBoundary
+.
+js
+"
+"
 Frame
 .
 js
