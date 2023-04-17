@@ -1782,7 +1782,7 @@ char
 *
 dup
 =
-PL_strdup
+strdup
 (
 curarg
 )
@@ -1848,7 +1848,7 @@ dup
 )
 ;
 }
-PL_strfree
+free
 (
 dup
 )
@@ -1891,7 +1891,7 @@ char
 *
 dup
 =
-PL_strdup
+strdup
 (
 curarg
 )
@@ -1950,7 +1950,7 @@ dup
 )
 ;
 }
-PL_strfree
+free
 (
 dup
 )
