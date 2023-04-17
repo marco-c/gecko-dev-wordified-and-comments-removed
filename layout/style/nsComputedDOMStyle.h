@@ -898,7 +898,7 @@ already_AddRefed
 <
 CSSValue
 >
-GetMarginWidthFor
+GetMarginFor
 (
 mozilla
 :
@@ -1086,7 +1086,7 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetOsxFontSmoothing
+DoGetMozOsxFontSmoothing
 (
 )
 ;
@@ -1202,7 +1202,7 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetMarginTopWidth
+DoGetMarginTop
 (
 )
 ;
@@ -1210,7 +1210,7 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetMarginBottomWidth
+DoGetMarginBottom
 (
 )
 ;
@@ -1218,7 +1218,7 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetMarginLeftWidth
+DoGetMarginLeft
 (
 )
 ;
@@ -1226,7 +1226,7 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetMarginRightWidth
+DoGetMarginRight
 (
 )
 ;
