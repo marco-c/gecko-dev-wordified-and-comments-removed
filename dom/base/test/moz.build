@@ -67,6 +67,9 @@ jsmodules
 "
 useractivation
 "
+"
+meta_viewport
+"
 ]
 TEST_HARNESS_FILES
 .
