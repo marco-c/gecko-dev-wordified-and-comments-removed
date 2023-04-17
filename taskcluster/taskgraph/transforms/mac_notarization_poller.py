@@ -519,6 +519,16 @@ reference
 :
 uuid_manifest_url
 }
+                
+"
+max
+-
+run
+-
+time
+"
+:
+3600
             
 }
             
