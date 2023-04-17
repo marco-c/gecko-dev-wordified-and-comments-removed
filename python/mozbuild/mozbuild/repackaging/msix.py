@@ -2639,6 +2639,9 @@ def
 powershell
 (
 argstring
+check
+=
+True
 )
 :
         
@@ -2724,10 +2727,23 @@ joined
 return
 subprocess
 .
-check_output
+run
 (
+            
 args
+check
+=
+check
+universal_newlines
+=
+True
+capture_output
+=
+True
+        
 )
+.
+stdout
     
 signtool
 =
@@ -2782,6 +2798,10 @@ CN
 =
 Mozilla
 Corporation
+OU
+=
+MSIX
+Packaging
 "
     
 friendly_name
@@ -2944,15 +2964,6 @@ thumbprints
 [
             
 thumbprint
-.
-decode
-(
-"
-utf
--
-8
-"
-)
 .
 strip
 (
@@ -3475,15 +3486,6 @@ thumbprints
         
 thumbprint
 .
-decode
-(
-"
-utf
--
-8
-"
-)
-.
 strip
 (
 )
@@ -3679,6 +3681,9 @@ subprocess
 check_call
 (
 args
+universal_newlines
+=
+True
 )
     
 else
@@ -3692,6 +3697,9 @@ subprocess
 check_output
 (
 args
+universal_newlines
+=
+True
 )
         
 except
@@ -3711,15 +3719,6 @@ write
 e
 .
 output
-.
-decode
-(
-"
-utf
--
-8
-"
-)
 )
             
 raise
@@ -3775,6 +3774,10 @@ format
 (
 thumbprint
 )
+                
+check
+=
+False
             
 )
 .

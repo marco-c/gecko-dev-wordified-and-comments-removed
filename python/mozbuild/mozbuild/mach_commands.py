@@ -13485,6 +13485,10 @@ CN
 =
 Mozilla
 Corporation
+OU
+=
+MSIX
+Packaging
 "
         
 required
