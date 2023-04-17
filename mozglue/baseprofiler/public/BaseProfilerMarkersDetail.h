@@ -1286,7 +1286,7 @@ GetStartTime
 ;
 aWriter
 .
-DoubleElement
+TimeDoubleMsElement
 (
 startTime
 )
@@ -1307,7 +1307,7 @@ GetEndTime
 ;
 aWriter
 .
-DoubleElement
+TimeDoubleMsElement
 (
 endTime
 )
