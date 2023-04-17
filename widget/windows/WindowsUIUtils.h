@@ -27,7 +27,9 @@ MozPromise
 .
 h
 "
-typedef
+using
+SharePromise
+=
 mozilla
 :
 :
@@ -37,7 +39,6 @@ bool
 nsresult
 true
 >
-SharePromise
 ;
 enum
 TabletModeState
