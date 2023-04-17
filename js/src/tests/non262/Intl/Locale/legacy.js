@@ -29,12 +29,6 @@ u
 nu
 -
 latn
--
-x
--
-cel
--
-gaulish
 "
 extensions
 :
@@ -80,12 +74,6 @@ u
 nu
 -
 latn
--
-x
--
-cel
--
-gaulish
 "
 extensions
 :

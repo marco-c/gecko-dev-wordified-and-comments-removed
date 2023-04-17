@@ -140,8 +140,6 @@ ja
 Latn
 -
 alalc97
--
-hepburn
 "
 "
 ja
@@ -163,8 +161,6 @@ Latn
 JP
 -
 alalc97
--
-hepburn
 "
 "
 sv
@@ -206,8 +202,6 @@ ja
 Latn
 -
 alalc97
--
-hepburn
 "
 "
 ja
@@ -227,8 +221,6 @@ ja
 Latn
 -
 alalc97
--
-hepburn
 "
 "
 ja
@@ -248,8 +240,6 @@ ja
 Latn
 -
 alalc97
--
-hepburn
 "
 "
 ja
@@ -267,8 +257,6 @@ ja
 Latn
 -
 alalc97
--
-hepburn
 "
 "
 ja

@@ -1,5 +1,5 @@
 var
-irregularGrandfathered
+irregularLegacy
 =
 [
 "
@@ -98,7 +98,7 @@ de
 ]
 ;
 var
-regularGrandfatheredWithExtlangLike
+regularLegacyWithExtlangLike
 =
 [
 "
@@ -126,7 +126,7 @@ nan
 ]
 ;
 var
-regularGrandfatheredWithVariantLike
+regularLegacyWithVariantLike
 =
 {
 "
@@ -146,12 +146,6 @@ gaulish
 :
 "
 xtg
--
-x
--
-cel
--
-gaulish
 "
 "
 zh
@@ -191,11 +185,11 @@ of
 .
 .
 .
-irregularGrandfathered
+irregularLegacy
 .
 .
 .
-regularGrandfatheredWithExtlangLike
+regularLegacyWithExtlangLike
 ]
 )
 {
@@ -227,7 +221,7 @@ Object
 .
 entries
 (
-regularGrandfatheredWithVariantLike
+regularLegacyWithVariantLike
 )
 )
 {
