@@ -697,9 +697,7 @@ third_party
 /
 python
 /
-pyasn1
--
-modules
+pyasn1_modules
 pth
 :
 third_party
