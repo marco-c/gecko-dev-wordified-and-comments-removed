@@ -832,6 +832,15 @@ AudioDataListener
 >
 mInputListener
 ;
+Maybe
+<
+CubebUtils
+:
+:
+AudioDeviceID
+>
+mDeviceId
+;
 explicit
 AudioInputTrack
 (
@@ -878,6 +887,8 @@ aListener
 void
 CloseAudioInput
 (
+)
+;
 Maybe
 <
 CubebUtils
@@ -885,9 +896,10 @@ CubebUtils
 :
 AudioDeviceID
 >
-&
-aId
+DeviceId
+(
 )
+const
 ;
 void
 Destroy
