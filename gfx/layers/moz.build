@@ -1443,11 +1443,6 @@ TextureHostOGL
 h
 "
 "
-PaintThread
-.
-h
-"
-"
 PersistentBufferProvider
 .
 h
@@ -3187,11 +3182,6 @@ cpp
 opengl
 /
 TextureHostOGL
-.
-cpp
-"
-"
-PaintThread
 .
 cpp
 "

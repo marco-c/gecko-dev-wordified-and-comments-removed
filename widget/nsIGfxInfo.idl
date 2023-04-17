@@ -256,16 +256,6 @@ ContentUsesTiling
 ;
 readonly
 attribute
-boolean
-OffMainThreadPaintEnabled
-;
-readonly
-attribute
-long
-OffMainThreadPaintWorkerCount
-;
-readonly
-attribute
 unsigned
 long
 TargetFrameRate

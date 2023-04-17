@@ -2799,11 +2799,6 @@ InitPlatformGPUProcessPrefs
 )
 {
 }
-void
-InitOMTPConfig
-(
-)
-;
 static
 void
 ReportTelemetry

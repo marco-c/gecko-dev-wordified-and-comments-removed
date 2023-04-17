@@ -165,17 +165,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-PaintThread
-.
-h
-"
-#
-include
-"
 TextureClientPool
 .
 h

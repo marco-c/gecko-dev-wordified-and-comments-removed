@@ -72,7 +72,6 @@ maxdepth
 1
 GraphicsOverview
 LayersHistory
-OffMainThreadPainting
 AsyncPanZoom
 AdvancedLayers
 Silk
