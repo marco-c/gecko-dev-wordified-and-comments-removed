@@ -684,6 +684,12 @@ nsIFrame
 aFrame
 )
 ;
+static
+void
+ClearMouseCapture
+(
+)
+;
 #
 ifdef
 ACCESSIBILITY
