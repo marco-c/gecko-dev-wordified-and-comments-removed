@@ -3543,11 +3543,6 @@ EnableDualSourceBlending
 (
 bool
 )
-FetchDocuments
-FetchPasses
-FetchClipScrollTree
-FetchRenderTasks
-FetchScreenshot
 SaveCapture
 (
 PathBuf

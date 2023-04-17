@@ -109,9 +109,6 @@ id
 smallvec
 "
 "
-winapi
-"
-"
 yaml
 -
 rust

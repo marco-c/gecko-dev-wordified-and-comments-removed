@@ -261,11 +261,6 @@ capture
 "
 webrender
 /
-debugger
-"
-"
-webrender
-/
 profiler
 "
 ]
