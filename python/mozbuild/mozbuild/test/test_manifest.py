@@ -246,7 +246,6 @@ bugzilla
 "
 :
 {
-                
 "
 component
 "
@@ -254,7 +253,6 @@ component
 "
 Graphics
 "
-                
 "
 product
 "
@@ -262,7 +260,6 @@ product
 "
 Core
 "
-            
 }
         
 }
@@ -569,7 +566,6 @@ bugzilla
 "
 :
 {
-                            
 "
 component
 "
@@ -577,7 +573,6 @@ component
 "
 Graphics
 "
-                            
 "
 product
 "
@@ -585,7 +580,6 @@ product
 "
 Core
 "
-                        
 }
                         
 "
@@ -824,7 +818,6 @@ bugzilla
 "
 :
 {
-                            
 "
 component
 "
@@ -832,7 +825,6 @@ component
 "
 Graphics
 "
-                            
 "
 product
 "
@@ -840,7 +832,6 @@ product
 "
 Core
 "
-                        
 }
                         
 "
@@ -902,6 +893,14 @@ a
 example
 .
 com
+"
+                            
+"
+tracking
+"
+:
+"
+commit
 "
                             
 "
@@ -1157,7 +1156,6 @@ bugzilla
 "
 :
 {
-                            
 "
 component
 "
@@ -1165,7 +1163,6 @@ component
 "
 Graphics
 "
-                            
 "
 product
 "
@@ -1173,7 +1170,6 @@ product
 "
 Core
 "
-                        
 }
                         
 "
@@ -1235,6 +1231,14 @@ a
 example
 .
 com
+"
+                            
+"
+tracking
+"
+:
+"
+commit
 "
                             
 "
@@ -1244,7 +1248,6 @@ tasks
 [
                                 
 {
-                                    
 "
 type
 "
@@ -1254,7 +1257,6 @@ commit
 -
 alert
 "
-                                    
 "
 frequency
 "
@@ -1262,7 +1264,6 @@ frequency
 "
 release
 "
-                                
 }
                                 
 {
@@ -1443,6 +1444,10 @@ example
 .
 com
   
+tracking
+:
+commit
+  
 tasks
 :
     
@@ -1607,7 +1612,6 @@ bugzilla
 "
 :
 {
-                            
 "
 component
 "
@@ -1615,7 +1619,6 @@ component
 "
 Graphics
 "
-                            
 "
 product
 "
@@ -1623,7 +1626,6 @@ product
 "
 Core
 "
-                        
 }
                         
 "
@@ -1685,6 +1687,14 @@ a
 example
 .
 com
+"
+                            
+"
+tracking
+"
+:
+"
+commit
 "
                             
 "
@@ -4209,7 +4219,6 @@ bugzilla
 "
 :
 {
-                            
 "
 component
 "
@@ -4217,7 +4226,6 @@ component
 "
 Graphics
 "
-                            
 "
 product
 "
@@ -4225,7 +4233,6 @@ product
 "
 Core
 "
-                        
 }
                     
 }
