@@ -139,9 +139,7 @@ DIRS
 "
 common
 dec
-enc
 include
-tools
 "
 for
 d
