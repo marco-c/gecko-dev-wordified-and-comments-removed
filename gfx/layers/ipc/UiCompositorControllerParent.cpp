@@ -1217,6 +1217,16 @@ IsInCompositorThread
 )
 )
 {
+SetOtherProcessId
+(
+base
+:
+:
+GetCurrentProcId
+(
+)
+)
+;
 SynchronousTask
 task
 (
