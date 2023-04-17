@@ -2597,6 +2597,11 @@ device
 )
 ;
 }
+free
+(
+renderDeviceName
+)
+;
 #
 endif
 }
