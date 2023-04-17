@@ -173,6 +173,15 @@ aPrincipal
 ;
 static
 bool
+ShouldUsePartitionPrincipalForServiceWorker
+(
+nsIDocShell
+*
+aDocShell
+)
+;
+static
+bool
 GetOriginAttributes
 (
 nsIChannel
