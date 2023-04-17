@@ -96,7 +96,7 @@ CHANGE_RECORDING_STATE
 return
 action
 .
-didRecordingUnexpectedlyStopped
+recordingUnexpectedlyStopped
 ;
 default
 :
