@@ -29,6 +29,16 @@ return
 0
 ;
 }
+inline
+bool
+profiler_is_active
+(
+)
+{
+return
+false
+;
+}
 }
 }
 #

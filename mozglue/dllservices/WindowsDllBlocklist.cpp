@@ -2924,9 +2924,6 @@ sInitFlags
 &
 eDllBlocklistInitFlagWasBootstrapped
 )
-#
-ifdef
-MOZ_GECKO_PROFILER
 |
 |
 (
@@ -2943,8 +2940,6 @@ profiler_is_active
 (
 )
 )
-#
-endif
 ;
 if
 (

@@ -109,17 +109,12 @@ h
 #
 endif
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 BaseProfiler
 .
 h
 "
-#
-endif
 #
 ifdef
 LIBFUZZER
@@ -184,9 +179,6 @@ DllBlocklist_Initialize
 ;
 #
 endif
-#
-ifdef
-MOZ_GECKO_PROFILER
 char
 aLocal
 ;
@@ -202,8 +194,6 @@ profiler_init
 aLocal
 )
 ;
-#
-endif
 XREShellData
 shellData
 ;
@@ -302,9 +292,6 @@ envp
 shellData
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 mozilla
 :
 :
@@ -315,8 +302,6 @@ profiler_shutdown
 (
 )
 ;
-#
-endif
 #
 if
 defined

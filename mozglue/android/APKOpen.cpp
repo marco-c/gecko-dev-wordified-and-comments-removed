@@ -872,9 +872,6 @@ sInitialized
 return
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 int
 stackBase
 =
@@ -892,8 +889,6 @@ profiler_init
 stackBase
 )
 ;
-#
-endif
 sInitialized
 =
 true

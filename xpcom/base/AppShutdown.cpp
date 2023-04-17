@@ -1155,9 +1155,6 @@ MaybeDoRestart
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 profiler_shutdown
 (
 IsFastShutdown
@@ -1166,8 +1163,6 @@ IsFastShutdown
 Yes
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_BACKGROUNDTASKS
