@@ -195,6 +195,14 @@ buster
 based
 image
 .
+#
+We
+also
+want
+zstd
+when
+available
+.
 RUN
 apt
 -
@@ -203,6 +211,7 @@ install
 fakechroot
 fakeroot
 mmdebstrap
+zstd
 |
 |
 true

@@ -158,6 +158,8 @@ vim
 wget
 \
 zip
+\
+zstd
 #
 Add
 wrapper
