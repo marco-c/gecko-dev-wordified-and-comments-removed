@@ -2379,7 +2379,7 @@ BrowsingContextGroup
 *
 aSpecificGroup
 const
-RemotenessChangeOptions
+NavigationIsolationOptions
 &
 aRemotenessOptions
 bool
