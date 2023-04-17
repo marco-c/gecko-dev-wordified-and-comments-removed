@@ -6031,7 +6031,7 @@ aligned
 endif
 if
 (
-PR_NETDB_BUF_SIZE
+PR_MIN_NETDB_BUF_SIZE
 >
 buflen
 )
@@ -6381,7 +6381,7 @@ aligned
 endif
 if
 (
-PR_NETDB_BUF_SIZE
+PR_MIN_NETDB_BUF_SIZE
 >
 buflen
 )

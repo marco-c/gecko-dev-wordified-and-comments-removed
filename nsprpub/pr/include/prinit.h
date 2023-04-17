@@ -45,7 +45,8 @@ PR_VERSION
 "
 4
 .
-31
+32
+Beta
 "
 #
 define
@@ -54,7 +55,7 @@ PR_VMAJOR
 #
 define
 PR_VMINOR
-31
+32
 #
 define
 PR_VPATCH
@@ -62,7 +63,7 @@ PR_VPATCH
 #
 define
 PR_BETA
-PR_FALSE
+PR_TRUE
 typedef
 PRBool
 (

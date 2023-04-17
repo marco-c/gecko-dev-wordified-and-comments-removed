@@ -421,6 +421,7 @@ PR_SockOpt_NoDelay
 PR_SockOpt_MaxSegment
 PR_SockOpt_Broadcast
 PR_SockOpt_Reuseport
+PR_SockOpt_DontFrag
 PR_SockOpt_Last
 }
 PRSockOption
@@ -477,6 +478,9 @@ reuse_addr
 ;
 PRBool
 reuse_port
+;
+PRBool
+dont_fragment
 ;
 PRBool
 keep_alive
