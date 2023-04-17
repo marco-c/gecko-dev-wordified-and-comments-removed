@@ -35678,6 +35678,9 @@ ZealMode
 :
 YieldBeforeMarking
 )
+&
+&
+isIncremental
 )
 {
 break
