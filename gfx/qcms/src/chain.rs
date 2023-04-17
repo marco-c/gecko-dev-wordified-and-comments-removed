@@ -8254,6 +8254,7 @@ build_output_lut
 (
 redTRC
 )
+?
 )
 ;
 transform
@@ -8266,6 +8267,7 @@ build_output_lut
 (
 greenTRC
 )
+?
 )
 ;
 transform
@@ -8278,6 +8280,7 @@ build_output_lut
 (
 blueTRC
 )
+?
 )
 ;
 transforms

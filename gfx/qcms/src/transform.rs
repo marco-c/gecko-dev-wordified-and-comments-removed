@@ -10486,8 +10486,6 @@ transform
 .
 output_gamma_lut_r
 =
-Some
-(
 build_output_lut
 (
 output
@@ -10502,14 +10500,11 @@ unwrap
 (
 )
 )
-)
 ;
 transform
 .
 output_gamma_lut_g
 =
-Some
-(
 build_output_lut
 (
 output
@@ -10524,14 +10519,11 @@ unwrap
 (
 )
 )
-)
 ;
 transform
 .
 output_gamma_lut_b
 =
-Some
-(
 build_output_lut
 (
 output
@@ -10544,7 +10536,6 @@ as_deref
 .
 unwrap
 (
-)
 )
 )
 ;
