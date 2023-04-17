@@ -150,10 +150,6 @@ kvstore
 ;
 extern
 crate
-l10nregistry_ffi
-;
-extern
-crate
 mapped_hyph
 ;
 extern
@@ -350,7 +346,11 @@ fluent_fallback
 ;
 extern
 crate
-l10nregistry
+l10nregistry_ffi
+;
+extern
+crate
+localization_ffi
 ;
 #
 [
