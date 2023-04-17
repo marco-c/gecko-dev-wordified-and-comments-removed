@@ -617,7 +617,7 @@ MozURL
 >
 specURL
 ;
-LS_TRY
+QM_TRY
 (
 MozURL
 :
