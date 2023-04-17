@@ -648,6 +648,8 @@ CONFIGS
 "
 x64_True_x64_win
 x64_False_x64_win
+x64_True_x86_win
+x64_False_x86_win
 "
 IS_WIN
 =
