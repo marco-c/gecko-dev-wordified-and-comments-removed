@@ -686,6 +686,11 @@ data
 )
 ;
 async
+DeclareStable
+(
+)
+;
+async
 NotifyDeviceReset
 (
 GPUDeviceData

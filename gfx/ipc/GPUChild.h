@@ -164,6 +164,17 @@ ipc
 :
 :
 IPCResult
+RecvDeclareStable
+(
+)
+;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvReportCheckerboard
 (
 const

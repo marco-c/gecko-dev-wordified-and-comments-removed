@@ -132,6 +132,13 @@ aHost
 )
 {
 }
+virtual
+void
+OnProcessDeclaredStable
+(
+)
+{
+}
 }
 ;
 explicit

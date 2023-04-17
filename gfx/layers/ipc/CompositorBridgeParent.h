@@ -3296,6 +3296,11 @@ CollectedFrames
 aFrames
 )
 ;
+void
+MaybeDeclareStable
+(
+)
+;
 protected
 :
 virtual

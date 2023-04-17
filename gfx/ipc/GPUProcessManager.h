@@ -652,6 +652,12 @@ aHost
 override
 ;
 void
+OnProcessDeclaredStable
+(
+)
+override
+;
+void
 NotifyListenersOnCompositeDeviceReset
 (
 )
@@ -728,7 +734,7 @@ AttemptedGPUProcess
 const
 {
 return
-mNumProcessAttempts
+mTotalProcessAttempts
 >
 0
 ;
@@ -1135,7 +1141,13 @@ uint32_t
 mResourceId
 ;
 uint32_t
-mNumProcessAttempts
+mUnstableProcessAttempts
+;
+uint32_t
+mTotalProcessAttempts
+;
+TimeStamp
+mProcessAttemptLastTime
 ;
 nsTArray
 <
@@ -1174,6 +1186,9 @@ mProcess
 ;
 uint64_t
 mProcessToken
+;
+bool
+mProcessStable
 ;
 GPUChild
 *
