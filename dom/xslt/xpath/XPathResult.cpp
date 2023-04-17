@@ -1087,16 +1087,6 @@ txNodeSet
 nullptr
 )
 ;
-if
-(
-!
-nodeSet
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 uint32_t
 i
 count
