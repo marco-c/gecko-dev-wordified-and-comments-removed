@@ -413,6 +413,14 @@ height
 32px
 ;
 }
+media
+not
+(
+prefers
+-
+contrast
+)
+{
 .
 fxaccounts
 -
@@ -451,4 +459,5 @@ decoration
 :
 underline
 ;
+}
 }
