@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsString
+jsapi
 .
 h
 "
@@ -31,6 +31,13 @@ h
 include
 "
 nsIClassInfoImpl
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "
