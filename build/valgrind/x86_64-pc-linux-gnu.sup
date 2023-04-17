@@ -8188,9 +8188,6 @@ rust
 1
 .
 52
-<
-insert_a_suppression_name_here
->
 Memcheck
 :
 Cond
