@@ -38,10 +38,7 @@ stylesheets
 import_rule
 :
 :
-{
 ImportRule
-ImportLayer
-}
 ;
 use
 crate
@@ -95,12 +92,6 @@ Locked
 <
 MediaList
 >
->
-layer
-:
-Option
-<
-ImportLayer
 >
 )
 -
