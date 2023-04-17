@@ -595,6 +595,16 @@ clippy
 needless_update
 )
 ]
+#
+[
+allow
+(
+clippy
+:
+:
+useless_conversion
+)
+]
 let
 cmsghdr
 =

@@ -1,6 +1,3 @@
-use
-cc
-;
 fn
 main
 (
