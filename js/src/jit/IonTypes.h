@@ -225,7 +225,6 @@ DuringVMCall
 TooManyArguments
 Debugger
 FirstExecution
-NotOptimizedArgumentsGuard
 UninitializedLexical
 IonExceptionDebugMode
 OnStackInvalidation
@@ -399,17 +398,6 @@ FirstExecution
 return
 "
 FirstExecution
-"
-;
-case
-BailoutKind
-:
-:
-NotOptimizedArgumentsGuard
-:
-return
-"
-NotOptimizedArgumentsGuard
 "
 ;
 case

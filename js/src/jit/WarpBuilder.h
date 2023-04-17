@@ -1149,15 +1149,6 @@ getCallee
 (
 )
 ;
-MDefinition
-*
-maybeGuardNotOptimizedArguments
-(
-MDefinition
-*
-def
-)
-;
 [
 [
 nodiscard
