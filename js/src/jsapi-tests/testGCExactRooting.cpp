@@ -794,7 +794,7 @@ r1
 constructor
 (
 )
-101
+1
 )
 ;
 CHECK_EQUAL
@@ -1122,7 +1122,7 @@ cp1
 constructor
 (
 )
-101
+1
 )
 ;
 CHECK_EQUAL
