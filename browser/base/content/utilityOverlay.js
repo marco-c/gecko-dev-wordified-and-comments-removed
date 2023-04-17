@@ -2726,6 +2726,12 @@ stopPropagation
 (
 )
 ;
+event
+.
+preventDefault
+(
+)
+;
 closeMenus
 (
 event
