@@ -2163,7 +2163,18 @@ mozpath
 .
 join
 (
+                        
 base
+                        
+f
+"
+locale
+-
+{
+locale
+}
+"
+                        
 f
 "
 langpack
@@ -2179,6 +2190,7 @@ org
 .
 xpi
 "
+                    
 )
                 
 )
