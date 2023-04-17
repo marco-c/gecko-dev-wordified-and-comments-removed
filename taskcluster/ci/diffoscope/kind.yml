@@ -848,9 +848,7 @@ b
 /
 firefox
 /
-lib
-*
-wasm
+librlbox
 .
 so
 '
