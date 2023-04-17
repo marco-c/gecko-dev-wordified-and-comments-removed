@@ -3494,6 +3494,57 @@ patterns
 )
 .
 "
+        
+"
+Test
+names
+are
+of
+the
+format
+SUITE
+.
+NAME
+.
+Use
+-
+-
+list
+-
+tests
+to
+see
+all
+.
+"
+    
+)
+    
+CommandArgument
+(
+        
+"
+-
+-
+list
+-
+tests
+"
+        
+action
+=
+"
+store_true
+"
+        
+help
+=
+"
+list
+all
+available
+tests
+"
     
 )
     
@@ -4096,6 +4147,8 @@ jobs
         
 gtest_filter
         
+list_tests
+        
 tbpl_parser
         
 enable_webrender
@@ -4490,6 +4543,21 @@ wait
 for
 -
 browser
+"
+)
+        
+if
+list_tests
+:
+            
+args
+.
+append
+(
+"
+-
+-
+gtest_list_tests
 "
 )
         
