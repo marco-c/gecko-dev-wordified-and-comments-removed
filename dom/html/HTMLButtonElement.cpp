@@ -1433,17 +1433,6 @@ return
 NS_OK
 ;
 }
-if
-(
-IsDisabled
-(
-)
-)
-{
-return
-NS_OK
-;
-}
 nsAutoString
 name
 ;

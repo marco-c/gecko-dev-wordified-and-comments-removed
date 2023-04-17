@@ -26297,11 +26297,6 @@ aFormData
 {
 if
 (
-IsDisabled
-(
-)
-|
-|
 mType
 =
 =
