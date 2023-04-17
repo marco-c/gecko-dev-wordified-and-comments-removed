@@ -2862,13 +2862,13 @@ UpdateDebugFlags
 ;
 static
 void
-UpdateWebRenderMultithreading
+UpdateWebRenderParameters
 (
 )
 ;
 static
 void
-UpdateWebRenderParameters
+UpdateWebRenderBoolParameters
 (
 )
 ;

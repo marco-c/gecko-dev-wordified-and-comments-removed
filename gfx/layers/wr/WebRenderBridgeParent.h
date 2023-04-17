@@ -411,12 +411,12 @@ UpdateDebugFlags
 )
 ;
 void
-UpdateMultithreading
+UpdateParameters
 (
 )
 ;
 void
-UpdateParameters
+UpdateBoolParameters
 (
 )
 ;
@@ -2541,6 +2541,9 @@ mScreenPixelsTarget
 ;
 #
 endif
+uint32_t
+mBoolParameterBits
+;
 uint16_t
 mBlobTileSize
 ;
