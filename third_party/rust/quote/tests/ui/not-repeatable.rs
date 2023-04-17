@@ -4,13 +4,7 @@ quote
 :
 quote
 ;
-use
-std
-:
-:
-net
-:
-:
+struct
 Ipv4Addr
 ;
 fn
@@ -22,9 +16,6 @@ let
 ip
 =
 Ipv4Addr
-:
-:
-LOCALHOST
 ;
 let
 _
