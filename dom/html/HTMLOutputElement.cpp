@@ -93,7 +93,7 @@ FromParser
 aFromParser
 )
 :
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 (
 std
 :
@@ -143,14 +143,14 @@ default
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 HTMLOutputElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 mValidity
 mTokenList
 )
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 HTMLOutputElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 nsIMutationObserver
 nsIConstraintValidation
 )
@@ -263,7 +263,7 @@ true
 }
 }
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 ParseAttribute
@@ -307,7 +307,7 @@ const
 EventStates
 states
 =
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 IntrinsicState
@@ -360,7 +360,7 @@ aParent
 nsresult
 rv
 =
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 BindToTree

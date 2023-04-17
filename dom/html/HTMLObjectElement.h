@@ -59,7 +59,7 @@ HTMLObjectElement
 final
 :
 public
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 public
 nsObjectLoadingContent
 public
@@ -304,7 +304,7 @@ false
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 HTMLObjectElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 )
 void
 GetData
@@ -474,12 +474,6 @@ aRv
 )
 ;
 }
-using
-nsGenericHTMLFormElement
-:
-:
-GetForm
-;
 void
 GetWidth
 (

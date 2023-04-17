@@ -48,7 +48,7 @@ HTMLOutputElement
 final
 :
 public
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 public
 nsStubMutationObserver
 public
@@ -182,7 +182,7 @@ NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 HTMLOutputElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 )
 virtual
 JSObject
