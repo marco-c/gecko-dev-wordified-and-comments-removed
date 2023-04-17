@@ -1230,6 +1230,7 @@ aLength
 =
 UINT32_MAX
 )
+override
 ;
 virtual
 nsRect
