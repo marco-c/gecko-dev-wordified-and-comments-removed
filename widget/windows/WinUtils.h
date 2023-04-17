@@ -693,6 +693,10 @@ static
 GetSystemMetricsForDpiProc
 sGetSystemMetricsForDpi
 ;
+static
+bool
+sHasPackageIdentity
+;
 public
 :
 class
@@ -911,6 +915,16 @@ HDC
 aHdc
 )
 ;
+static
+bool
+HasPackageIdentity
+(
+)
+{
+return
+sHasPackageIdentity
+;
+}
 static
 void
 Log
