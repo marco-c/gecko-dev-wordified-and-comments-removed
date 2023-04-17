@@ -3774,6 +3774,12 @@ JSOp
 :
 Try
 :
+case
+JSOp
+:
+:
+NewPrivateName
+:
 break
 ;
 #

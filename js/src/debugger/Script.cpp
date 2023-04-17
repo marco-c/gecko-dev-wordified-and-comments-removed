@@ -8357,6 +8357,12 @@ case
 JSOp
 :
 :
+NewPrivateName
+:
+case
+JSOp
+:
+:
 SetRval
 :
 case

@@ -2650,15 +2650,6 @@ new
 \
 MACRO_
 (
-NewPrivateName
-NewPrivateName
-"
-NewPrivateName
-"
-)
-\
-MACRO_
-(
 next
 next
 "
