@@ -2573,13 +2573,11 @@ browser
 .
 urlbar
 .
-experimental
-.
-firefoxSuggestLabels
+groupLabels
 .
 enabled
 "
-false
+true
 )
 ;
 pref

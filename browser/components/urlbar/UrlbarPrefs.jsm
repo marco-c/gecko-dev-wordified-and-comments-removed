@@ -241,6 +241,14 @@ true
 ]
 [
 "
+groupLabels
+.
+enabled
+"
+true
+]
+[
+"
 keepPanelOpenDuringImeComposition
 "
 false

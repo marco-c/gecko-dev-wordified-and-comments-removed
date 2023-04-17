@@ -319,9 +319,6 @@ const
 DEFAULT_EXPERIMENT_FEATURE_VARIABLES
 =
 {
-firefoxSuggestLabelsEnabled
-:
-false
 quickSuggestEnabled
 :
 false
