@@ -991,12 +991,6 @@ appendChild
 frag
 )
 ;
-Preferences
-.
-updateAllElements
-(
-)
-;
 }
 }
 ;
