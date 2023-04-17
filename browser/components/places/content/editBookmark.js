@@ -1618,6 +1618,11 @@ elt
 .
 focus
 (
+{
+preventScroll
+:
+true
+}
 )
 ;
 elt
