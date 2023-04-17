@@ -321,7 +321,9 @@ raw
 =
 promptPrincipal
 .
-hostPort
+URI
+.
+displayHostPort
 ;
 }
 catch
