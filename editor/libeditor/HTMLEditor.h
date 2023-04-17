@@ -6798,9 +6798,6 @@ HTMLEditor
 aHTMLEditor
 bool
 aIsSafe
-Document
-*
-aSourceDoc
 const
 EditorDOMPoint
 &
@@ -6868,12 +6865,6 @@ dom
 DataTransfer
 >
 mDataTransfer
-;
-nsCOMPtr
-<
-Document
->
-mSourceDoc
 ;
 EditorDOMPoint
 mPointToInsert
@@ -7376,9 +7367,6 @@ nsISupports
 aObject
 bool
 aIsSafe
-Document
-*
-aSourceDoc
 const
 EditorDOMPoint
 &
@@ -7407,9 +7395,6 @@ InsertFromTransferable
 nsITransferable
 *
 aTransferable
-Document
-*
-aSourceDoc
 const
 nsAString
 &
@@ -7822,9 +7807,6 @@ const
 nsAString
 &
 aFlavor
-Document
-*
-aSourceDoc
 const
 EditorDOMPoint
 &
