@@ -20,12 +20,6 @@ TokenTree
 }
 ;
 use
-syn
-:
-:
-Expr
-;
-use
 std
 :
 :
@@ -33,6 +27,12 @@ iter
 :
 :
 FromIterator
+;
+use
+syn
+:
+:
+Expr
 ;
 #
 [

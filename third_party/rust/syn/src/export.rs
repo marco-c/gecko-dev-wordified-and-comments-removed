@@ -264,3 +264,15 @@ Str
 str
 ;
 }
+pub
+struct
+private
+(
+pub
+(
+crate
+)
+(
+)
+)
+;
