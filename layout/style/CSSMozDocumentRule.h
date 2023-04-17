@@ -132,15 +132,6 @@ return
 mRawRule
 ;
 }
-void
-SetRawAfterClone
-(
-RefPtr
-<
-RawServoMozDocumentRule
->
-)
-;
 uint16_t
 Type
 (
