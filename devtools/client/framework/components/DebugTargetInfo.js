@@ -1548,9 +1548,12 @@ toolbox
 .
 target
 .
-traits
-.
+getTrait
+(
+"
 navigation
+"
+)
 )
 {
 items
