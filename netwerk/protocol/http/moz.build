@@ -423,11 +423,6 @@ ConnectionHandle
 cpp
 "
 "
-DelayHttpChannelQueue
-.
-cpp
-"
-"
 DnsAndConnectSocket
 .
 cpp
