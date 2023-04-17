@@ -82,9 +82,5 @@ getLayoutMap
 (
 )
 ;
-attribute
-EventHandler
-onlayoutchange
-;
 }
 ;

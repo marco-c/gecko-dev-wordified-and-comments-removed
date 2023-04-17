@@ -75,7 +75,7 @@ initiatorType
 ;
 readonly
 attribute
-ByteString
+DOMString
 nextHopProtocol
 ;
 readonly

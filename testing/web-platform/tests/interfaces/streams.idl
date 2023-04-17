@@ -766,16 +766,6 @@ Worklet
 interface
 WritableStreamDefaultController
 {
-readonly
-attribute
-any
-abortReason
-;
-readonly
-attribute
-AbortSignal
-signal
-;
 undefined
 error
 (
@@ -945,6 +935,7 @@ QueuingStrategySize
 unrestricted
 double
 (
+optional
 any
 chunk
 )

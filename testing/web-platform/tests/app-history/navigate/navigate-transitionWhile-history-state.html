@@ -94,6 +94,9 @@ r
 )
 )
 ;
+let
+result
+=
 await
 appHistory
 .
@@ -104,8 +107,12 @@ navigate
 2
 "
 )
-.
-committed
+;
+assert_equals
+(
+result
+undefined
+)
 ;
 assert_equals
 (

@@ -586,7 +586,6 @@ concat
 (
 booleans
 numbers
-bigints
 strings
 )
 .

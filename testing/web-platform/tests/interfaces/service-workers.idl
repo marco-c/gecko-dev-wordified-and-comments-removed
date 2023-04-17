@@ -94,7 +94,7 @@ postMessage
 any
 message
 optional
-StructuredSerializeOptions
+PostMessageOptions
 options
 =
 {
@@ -579,7 +579,7 @@ postMessage
 any
 message
 optional
-StructuredSerializeOptions
+PostMessageOptions
 options
 =
 {

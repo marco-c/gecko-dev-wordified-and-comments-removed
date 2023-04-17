@@ -122,11 +122,6 @@ restrictOwnAudio
 =
 true
 ;
-boolean
-suppressLocalAudioPlayback
-=
-true
-;
 }
 ;
 partial
@@ -144,9 +139,6 @@ cursor
 ;
 ConstrainBoolean
 restrictOwnAudio
-;
-ConstrainBoolean
-suppressLocalAudioPlayback
 ;
 }
 ;

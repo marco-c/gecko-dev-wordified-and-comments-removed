@@ -105,17 +105,3 @@ generate
 setlike
 .
 py
-python3
-html
-/
-syntax
-/
-speculative
--
-parsing
-/
-tools
-/
-generate
-.
-py

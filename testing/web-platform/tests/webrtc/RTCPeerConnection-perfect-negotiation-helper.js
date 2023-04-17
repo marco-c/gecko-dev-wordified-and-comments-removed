@@ -323,7 +323,7 @@ let
 makingOffer
 =
 false
-ignoreIceCandidateFailures
+ignoreOffer
 =
 false
 ;
@@ -518,7 +518,6 @@ offer
 srdAnswerPending
 )
 ;
-const
 ignoreOffer
 =
 description
@@ -548,10 +547,6 @@ if
 ignoreOffer
 )
 {
-ignoreIceCandidateFailures
-=
-true
-;
 return
 ;
 }
@@ -577,10 +572,6 @@ setRemoteDescription
 (
 description
 )
-;
-ignoreIceCandidateFailures
-=
-false
 ;
 srdAnswerPending
 =
@@ -758,7 +749,7 @@ e
 if
 (
 !
-ignoreIceCandidateFailures
+ignoreOffer
 )
 throw
 e

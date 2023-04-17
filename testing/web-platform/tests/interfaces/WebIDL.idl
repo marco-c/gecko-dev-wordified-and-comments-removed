@@ -67,10 +67,6 @@ Uint32Array
 or
 Uint8ClampedArray
 or
-BigInt64Array
-or
-BigUint64Array
-or
 Float32Array
 or
 Float64Array

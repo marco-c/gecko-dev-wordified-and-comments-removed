@@ -8,31 +8,11 @@ response
 )
 :
     
-delay
-=
-float
-(
-request
-.
-GET
-.
-first
-(
-b
-"
-delay
-"
-2000
-)
-)
-/
-1000
-    
 time
 .
 sleep
 (
-delay
+2
 )
     
 return
