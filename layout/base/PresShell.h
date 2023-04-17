@@ -2939,10 +2939,6 @@ Paint
 nsView
 *
 aViewToPaint
-const
-nsRegion
-&
-aDirtyRegion
 PaintFlags
 aFlags
 )

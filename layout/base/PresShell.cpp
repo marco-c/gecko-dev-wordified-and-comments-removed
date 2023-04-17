@@ -29876,10 +29876,6 @@ Paint
 nsView
 *
 aViewToPaint
-const
-nsRegion
-&
-aDirtyRegion
 PaintFlags
 aFlags
 )
@@ -30514,7 +30510,9 @@ PaintFrame
 (
 nullptr
 frame
-aDirtyRegion
+nsRegion
+(
+)
 bgcolor
 nsDisplayListBuilderMode
 :

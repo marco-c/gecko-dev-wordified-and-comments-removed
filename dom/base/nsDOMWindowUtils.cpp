@@ -2103,12 +2103,6 @@ presShell
 Paint
 (
 view
-view
--
->
-GetBounds
-(
-)
 PaintFlags
 :
 :
