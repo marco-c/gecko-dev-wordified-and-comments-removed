@@ -139,6 +139,10 @@ nsMenuX
 )
 geckoMenu
 ;
+property
+BOOL
+menuIsInMenubar
+;
 end
 class
 nsMenuX
