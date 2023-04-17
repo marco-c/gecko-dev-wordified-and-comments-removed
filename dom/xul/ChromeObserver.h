@@ -71,6 +71,11 @@ aState
 )
 ;
 void
+UpdateWindowAppearance
+(
+)
+;
+void
 SetChromeMargins
 (
 const
