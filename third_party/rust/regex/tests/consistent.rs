@@ -800,14 +800,6 @@ RegexEqualityTest
 {
 fn
 result
-<
-G
-:
-quickcheck
-:
-:
-Gen
->
 (
 &
 self
@@ -815,7 +807,10 @@ gen
 :
 &
 mut
-G
+quickcheck
+:
+:
+Gen
 )
 -
 >

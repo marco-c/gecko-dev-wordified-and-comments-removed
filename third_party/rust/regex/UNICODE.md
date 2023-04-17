@@ -20,7 +20,7 @@ UTS
 18
 ]
 (
-http
+https
 :
 /
 /
@@ -105,7 +105,7 @@ RL1
 2a
 ]
 (
-http
+https
 :
 /
 /
@@ -603,7 +603,7 @@ General
 categories
 ]
 (
-http
+https
 :
 /
 /
@@ -626,7 +626,7 @@ Script
 Extensions
 ]
 (
-http
+https
 :
 /
 /
@@ -646,7 +646,7 @@ Script_Property
 Age
 ]
 (
-http
+https
 :
 /
 /
@@ -679,7 +679,7 @@ RL1
 2
 ]
 (
-http
+https
 :
 /
 /
@@ -740,7 +740,7 @@ PropertyAliases
 txt
 ]
 (
-http
+https
 :
 /
 /
@@ -780,7 +780,7 @@ PropertyValueAliases
 txt
 ]
 (
-http
+https
 :
 /
 /
@@ -1137,7 +1137,7 @@ RL1
 2a
 ]
 (
-http
+https
 :
 /
 /
@@ -1175,7 +1175,7 @@ Annex
 C
 ]
 (
-http
+https
 :
 /
 /
@@ -1311,7 +1311,7 @@ RL1
 3
 ]
 (
-http
+https
 :
 /
 /
@@ -1433,7 +1433,7 @@ RL1
 4
 ]
 (
-http
+https
 :
 /
 /
@@ -1594,7 +1594,7 @@ RL1
 4
 ]
 (
-http
+https
 :
 /
 /
@@ -1622,7 +1622,7 @@ Annex
 C
 ]
 (
-http
+https
 :
 /
 /
@@ -1745,7 +1745,7 @@ RL1
 5
 ]
 (
-http
+https
 :
 /
 /
@@ -1890,7 +1890,7 @@ RL1
 6
 ]
 (
-http
+https
 :
 /
 /
@@ -1992,7 +1992,7 @@ RL1
 7
 ]
 (
-http
+https
 :
 /
 /

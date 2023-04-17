@@ -1,7 +1,3 @@
-extern
-crate
-regex
-;
 use
 std
 :
