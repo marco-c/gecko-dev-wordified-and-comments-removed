@@ -3261,7 +3261,7 @@ NextSurface
 const
 MutexAutoLock
 &
-aLock
+aProofOfLock
 )
 {
 if
@@ -3350,7 +3350,7 @@ surf
 =
 GetUnusedSurfaceAndCleanUp
 (
-aLock
+aProofOfLock
 )
 ;
 if
@@ -3445,7 +3445,7 @@ HandlePartialUpdate
 const
 MutexAutoLock
 &
-aLock
+aProofOfLock
 const
 IntRect
 &
@@ -3546,7 +3546,7 @@ aDisplayRect
 ;
 InvalidateRegionThroughoutSwapchain
 (
-aLock
+aProofOfLock
 aUpdateRegion
 )
 ;
