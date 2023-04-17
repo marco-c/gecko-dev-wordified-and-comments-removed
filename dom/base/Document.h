@@ -14345,14 +14345,6 @@ nsXULPrototypeElement
 >
 mL10nProtoElements
 ;
-void
-TraceProtos
-(
-JSTracer
-*
-aTrc
-)
-;
 float
 GetSavedResolutionBeforeMVM
 (

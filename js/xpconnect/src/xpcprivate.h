@@ -831,9 +831,6 @@ mRuntime
 =
 nullptr
 ;
-bool
-mShuttingDown
-;
 friend
 class
 nsIXPConnect
