@@ -239,7 +239,7 @@ android
 0
 (
 Android
-9
+10
 )
 "
 other
@@ -551,7 +551,7 @@ android
 :
 "
 Android
-9
+10
 ;
 Mobile
 "
@@ -600,7 +600,7 @@ android
 :
 "
 Android
-9
+10
 ;
 Mobile
 "

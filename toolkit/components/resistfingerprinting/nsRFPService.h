@@ -168,7 +168,7 @@ define
 SPOOFED_UA_OS
 "
 Android
-9
+10
 ;
 Mobile
 "
@@ -181,7 +181,7 @@ SPOOFED_APPVERSION
 0
 (
 Android
-9
+10
 )
 "
 #
@@ -272,7 +272,7 @@ define
 SPOOFED_HTTP_UA_OS
 "
 Android
-9
+10
 ;
 Mobile
 "
