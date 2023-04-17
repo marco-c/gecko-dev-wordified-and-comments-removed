@@ -2059,10 +2059,6 @@ frame_context
 .
 global_screen_world_rect
 .
-to_rect
-(
-)
-.
 cast_unit
 (
 )
@@ -3210,10 +3206,6 @@ map
 tile_cache
 .
 local_clip_rect
-.
-to_box2d
-(
-)
 )
 .
 expect

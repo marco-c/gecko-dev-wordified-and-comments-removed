@@ -40,7 +40,7 @@ euclid
 :
 :
 {
-Rect
+Box2D
 Transform3D
 }
 ;
@@ -2401,10 +2401,6 @@ map_rect
 (
 &
 local_rect
-.
-to_box2d
-(
-)
 )
 .
 round
@@ -2423,7 +2419,7 @@ self
 local_sub_rect
 :
 &
-Rect
+Box2D
 <
 f32
 T
@@ -2431,7 +2427,7 @@ T
 local_bounds
 :
 &
-Rect
+Box2D
 <
 f32
 T
@@ -2468,10 +2464,6 @@ map_rect
 (
 &
 local_bounds
-.
-to_box2d
-(
-)
 )
 ;
 let
@@ -2485,10 +2477,6 @@ map_rect
 (
 &
 local_sub_rect
-.
-to_box2d
-(
-)
 )
 ;
 surface_rect

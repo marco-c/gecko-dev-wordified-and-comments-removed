@@ -254,7 +254,7 @@ pub
 type
 PictureIntRect
 =
-Rect
+Box2D
 <
 i32
 PicturePixel
@@ -284,7 +284,7 @@ pub
 type
 PictureRect
 =
-Rect
+Box2D
 <
 f32
 PicturePixel
@@ -1914,6 +1914,10 @@ LayoutRect
 PictureRect
 {
 layout_rect
+.
+to_box2d
+(
+)
 .
 cast_unit
 (
