@@ -410,6 +410,10 @@ nr_stun_client_restart
 nr_stun_client_ctx
 *
 ctx
+const
+nr_transport_addr
+*
+peer_addr
 )
 ;
 int

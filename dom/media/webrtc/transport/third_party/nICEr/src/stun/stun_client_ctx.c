@@ -604,6 +604,10 @@ nr_stun_client_restart
 nr_stun_client_ctx
 *
 ctx
+const
+nr_transport_addr
+*
+peer_addr
 )
 {
 int
@@ -691,6 +695,16 @@ cb_arg
 nr_stun_client_reset
 (
 ctx
+)
+;
+nr_transport_addr_copy
+(
+&
+ctx
+-
+>
+peer_addr
+peer_addr
 )
 ;
 if
