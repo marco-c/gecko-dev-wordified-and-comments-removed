@@ -2555,8 +2555,7 @@ equal
 payload
 .
 search_query
-"
-"
+TEST_SEARCH_STRING
 "
 Should
 set
@@ -2576,8 +2575,7 @@ equal
 payload
 .
 matched_keywords
-"
-"
+TEST_SEARCH_STRING
 "
 Should
 set
