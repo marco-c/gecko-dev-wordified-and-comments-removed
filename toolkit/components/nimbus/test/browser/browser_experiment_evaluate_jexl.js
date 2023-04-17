@@ -192,7 +192,9 @@ Expected
 an
 .
 experiment
-property
+or
+.
+activeRemoteDefaults
 /
 "
 should
