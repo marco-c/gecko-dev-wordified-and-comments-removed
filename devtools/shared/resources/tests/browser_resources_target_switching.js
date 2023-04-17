@@ -86,7 +86,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -324,7 +324,7 @@ onAvailable
 let
 onSwitched
 =
-targetList
+targetCommand
 .
 once
 (
@@ -413,7 +413,7 @@ URI
 ;
 onSwitched
 =
-targetList
+targetCommand
 .
 once
 (
@@ -522,7 +522,7 @@ onSourceAvailable
 }
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

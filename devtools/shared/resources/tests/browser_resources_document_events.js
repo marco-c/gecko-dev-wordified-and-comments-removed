@@ -88,7 +88,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -343,7 +343,7 @@ reloading
 "
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -395,7 +395,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -539,7 +539,7 @@ assertEvents
 documentEvents
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

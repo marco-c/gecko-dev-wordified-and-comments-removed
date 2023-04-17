@@ -52,7 +52,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -307,7 +307,7 @@ unwatchResources
 "
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -356,7 +356,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -726,7 +726,7 @@ onAvailable
 }
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

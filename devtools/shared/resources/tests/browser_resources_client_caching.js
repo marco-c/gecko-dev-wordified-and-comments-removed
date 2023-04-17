@@ -77,7 +77,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -223,7 +223,7 @@ cachedResources2
 cachedResources1
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -276,7 +276,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -509,7 +509,7 @@ cachedResources
 availableResources
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -559,7 +559,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -728,7 +728,7 @@ cleared
 "
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -775,7 +775,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -1049,7 +1049,7 @@ cachedResources
 availableResources
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -1120,7 +1120,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -1424,7 +1424,7 @@ cachedResourcesWithoutFlag
 allMessages
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -1475,7 +1475,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -1708,7 +1708,7 @@ onAvailable
 }
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

@@ -127,7 +127,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -457,7 +457,7 @@ messages
 "
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -538,7 +538,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -702,12 +702,12 @@ isFissionEnabled
 (
 )
 ?
-targetList
+targetCommand
 .
 getAllTargets
 (
 [
-targetList
+targetCommand
 .
 TYPES
 .
@@ -728,7 +728,7 @@ url
 IFRAME_URL
 )
 :
-targetList
+targetCommand
 .
 targetFront
 ;
@@ -816,7 +816,7 @@ resources
 )
 ;
 }
-targetList
+targetCommand
 .
 destroy
 (

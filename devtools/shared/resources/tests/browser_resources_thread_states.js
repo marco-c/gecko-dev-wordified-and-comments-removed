@@ -147,7 +147,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -168,7 +168,7 @@ target
 )
 ;
 await
-targetList
+targetCommand
 .
 targetFront
 .
@@ -189,13 +189,13 @@ actor
 )
 ;
 await
-targetList
+targetCommand
 .
 targetFront
 .
 attachAndInitThread
 (
-targetList
+targetCommand
 )
 ;
 info
@@ -369,7 +369,7 @@ const
 threadFront
 }
 =
-targetList
+targetCommand
 .
 targetFront
 ;
@@ -418,7 +418,7 @@ assertResumedResource
 resumed
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -466,7 +466,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -667,7 +667,7 @@ const
 threadFront
 }
 =
-targetList
+targetCommand
 .
 targetFront
 ;
@@ -716,7 +716,7 @@ assertResumedResource
 resumed
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -772,7 +772,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -846,7 +846,7 @@ const
 threadFront
 }
 =
-targetList
+targetCommand
 .
 targetFront
 ;
@@ -1049,7 +1049,7 @@ assertResumedResource
 resumed
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -1126,7 +1126,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -1200,7 +1200,7 @@ const
 threadFront
 }
 =
-targetList
+targetCommand
 .
 targetFront
 ;
@@ -1405,7 +1405,7 @@ assertResumedResource
 resumed
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -1463,7 +1463,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -1484,7 +1484,7 @@ target
 )
 ;
 await
-targetList
+targetCommand
 .
 targetFront
 .
@@ -1505,13 +1505,13 @@ actor
 )
 ;
 await
-targetList
+targetCommand
 .
 targetFront
 .
 attachAndInitThread
 (
-targetList
+targetCommand
 )
 ;
 const
@@ -1519,7 +1519,7 @@ const
 threadFront
 }
 =
-targetList
+targetCommand
 .
 targetFront
 ;
@@ -1789,7 +1789,7 @@ assertResumedResource
 resumed
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -1838,7 +1838,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -2108,7 +2108,7 @@ else
 is
 (
 iframeTarget
-targetList
+targetCommand
 .
 targetFront
 "
@@ -2178,7 +2178,7 @@ assertResumedResource
 resumed
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

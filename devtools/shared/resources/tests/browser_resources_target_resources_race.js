@@ -49,7 +49,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -236,7 +236,7 @@ reset
 (
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

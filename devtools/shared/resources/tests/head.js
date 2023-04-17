@@ -109,7 +109,7 @@ watcher
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -120,7 +120,7 @@ if
 listenForWorkers
 )
 {
-targetList
+targetCommand
 .
 listenForWorkers
 =
@@ -128,7 +128,7 @@ true
 ;
 }
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -140,7 +140,7 @@ resourceWatcher
 new
 ResourceWatcher
 (
-targetList
+targetCommand
 )
 ;
 return
@@ -152,7 +152,7 @@ commands
 client
 commands
 resourceWatcher
-targetList
+targetCommand
 }
 ;
 }
