@@ -1077,6 +1077,11 @@ PlacesBookmarkRemoved
 h
 "
 "
+PlacesBookmarkTitle
+.
+h
+"
+"
 PlacesEvent
 .
 h

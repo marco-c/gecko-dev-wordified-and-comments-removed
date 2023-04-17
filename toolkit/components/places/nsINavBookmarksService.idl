@@ -2187,6 +2187,9 @@ TITLE_LENGTH_MAX
 .
 *
 /
+[
+can_run_script
+]
 void
 setItemTitle
 (
