@@ -576,11 +576,6 @@ None
 let
 sheet
 =
-Arc
-:
-:
-new
-(
 StylesheetContents
 :
 :
@@ -626,7 +621,6 @@ self
 .
 allow_import_rules
 None
-)
 )
 ;
 let

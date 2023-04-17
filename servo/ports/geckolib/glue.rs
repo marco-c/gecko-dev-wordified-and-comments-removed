@@ -8915,11 +8915,6 @@ global_style_data
 .
 shared_lock
 ;
-Arc
-:
-:
-new
-(
 StylesheetContents
 :
 :
@@ -8952,7 +8947,6 @@ AllowImportRules
 :
 Yes
 None
-)
 )
 .
 into_strong
@@ -9174,11 +9168,6 @@ sanitization_kind
 let
 contents
 =
-Arc
-:
-:
-new
-(
 StylesheetContents
 :
 :
@@ -9228,7 +9217,6 @@ sanitization_data
 .
 as_mut
 (
-)
 )
 )
 ;
@@ -9510,11 +9498,6 @@ as_arc
 shared_rules
 )
 ;
-Arc
-:
-:
-new
-(
 StylesheetContents
 :
 :
@@ -9540,7 +9523,6 @@ QuirksMode
 :
 :
 NoQuirks
-)
 )
 .
 into_strong
