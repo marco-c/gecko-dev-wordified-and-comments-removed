@@ -442,6 +442,14 @@ gcc
 -
 multilib
 -
+lib32stdc
++
++
+-
+7
+-
+dev
+-
 libxml2
 -
 dev
