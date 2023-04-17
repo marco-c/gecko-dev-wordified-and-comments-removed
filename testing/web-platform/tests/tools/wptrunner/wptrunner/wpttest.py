@@ -9,13 +9,6 @@ collections
 import
 defaultdict
 from
-typing
-import
-Any
-ClassVar
-Dict
-Type
-from
 urllib
 .
 parse
@@ -573,11 +566,7 @@ kwargs
 class
 RunInfo
 (
-Dict
-[
-str
-Any
-]
+dict
 )
 :
     

@@ -77,9 +77,6 @@ multiDrawArraysWEBGL
 GLenum
 mode
 (
-[
-AllowShared
-]
 Int32Array
 or
 sequence
@@ -91,9 +88,6 @@ firstsList
 GLuint
 firstsOffset
 (
-[
-AllowShared
-]
 Int32Array
 or
 sequence
@@ -114,9 +108,6 @@ multiDrawElementsWEBGL
 GLenum
 mode
 (
-[
-AllowShared
-]
 Int32Array
 or
 sequence
@@ -130,9 +121,6 @@ countsOffset
 GLenum
 type
 (
-[
-AllowShared
-]
 Int32Array
 or
 sequence
@@ -153,9 +141,6 @@ multiDrawArraysInstancedWEBGL
 GLenum
 mode
 (
-[
-AllowShared
-]
 Int32Array
 or
 sequence
@@ -167,9 +152,6 @@ firstsList
 GLuint
 firstsOffset
 (
-[
-AllowShared
-]
 Int32Array
 or
 sequence
@@ -181,9 +163,6 @@ countsList
 GLuint
 countsOffset
 (
-[
-AllowShared
-]
 Int32Array
 or
 sequence
@@ -204,9 +183,6 @@ multiDrawElementsInstancedWEBGL
 GLenum
 mode
 (
-[
-AllowShared
-]
 Int32Array
 or
 sequence
@@ -220,9 +196,6 @@ countsOffset
 GLenum
 type
 (
-[
-AllowShared
-]
 Int32Array
 or
 sequence
@@ -234,9 +207,6 @@ offsetsList
 GLuint
 offsetsOffset
 (
-[
-AllowShared
-]
 Int32Array
 or
 sequence

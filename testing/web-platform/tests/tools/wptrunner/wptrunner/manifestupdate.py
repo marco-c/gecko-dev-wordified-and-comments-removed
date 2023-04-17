@@ -22,14 +22,6 @@ math
 import
 ceil
 from
-typing
-import
-Any
-Callable
-ClassVar
-Dict
-List
-from
 .
 wptmanifest
 import

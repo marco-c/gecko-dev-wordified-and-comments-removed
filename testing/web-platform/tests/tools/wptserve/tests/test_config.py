@@ -28,13 +28,6 @@ wptserve
 config
 "
 )
-logger
-=
-logging
-.
-getLogger
-(
-)
 def
 test_renamed_are_renamed
 (
@@ -393,6 +386,74 @@ base
 override
 )
 def
+test_logger_created
+(
+)
+:
+    
+with
+config
+.
+ConfigBuilder
+(
+)
+as
+c
+:
+        
+assert
+c
+.
+logger
+is
+not
+None
+def
+test_logger_preserved
+(
+)
+:
+    
+logger
+=
+logging
+.
+getLogger
+(
+"
+test_logger_preserved
+"
+)
+    
+logger
+.
+setLevel
+(
+logging
+.
+DEBUG
+)
+    
+with
+config
+.
+ConfigBuilder
+(
+logger
+=
+logger
+)
+as
+c
+:
+        
+assert
+c
+.
+logger
+is
+logger
+def
 test_as_dict
 (
 )
@@ -403,7 +464,6 @@ config
 .
 ConfigBuilder
 (
-logger
 )
 as
 c
@@ -429,7 +489,6 @@ config
 .
 ConfigBuilder
 (
-logger
 )
 as
 c
@@ -460,7 +519,6 @@ config
 .
 ConfigBuilder
 (
-logger
 browser_host
 =
 "
@@ -495,7 +553,6 @@ config
 .
 ConfigBuilder
 (
-logger
 doc_root
 =
 "
@@ -563,6 +620,8 @@ config
 ConfigBuilder
 (
 logger
+=
+logger
 host
 =
 "
@@ -574,6 +633,13 @@ bar
 as
 c
 :
+        
+assert
+c
+.
+logger
+is
+logger
         
 assert
 len
@@ -644,7 +710,6 @@ config
 .
 ConfigBuilder
 (
-logger
 foo
 =
 1
@@ -688,7 +753,6 @@ config
 .
 ConfigBuilder
 (
-logger
 browser_host
 =
 "
@@ -726,7 +790,6 @@ config
 .
 ConfigBuilder
 (
-logger
 )
 as
 c
@@ -737,7 +800,7 @@ pytest
 .
 raises
 (
-ValueError
+TypeError
 )
 :
             
@@ -764,7 +827,6 @@ config
 .
 ConfigBuilder
 (
-logger
 )
 as
 c
@@ -822,7 +884,6 @@ config
 .
 ConfigBuilder
 (
-logger
 )
     
 cb
@@ -864,7 +925,6 @@ config
 .
 ConfigBuilder
 (
-logger
 )
     
 cb
@@ -913,7 +973,6 @@ config
 .
 ConfigBuilder
 (
-logger
 )
     
 cb
@@ -995,7 +1054,16 @@ config
 ConfigBuilder
 (
 logger
+=
+logger
 )
+    
+assert
+cb
+.
+logger
+is
+logger
     
 assert
 len
@@ -1091,7 +1159,6 @@ config
 .
 ConfigBuilder
 (
-logger
 )
     
 with
@@ -1126,8 +1193,6 @@ config
 .
 ConfigBuilder
 (
-logger
-                              
 ports
 =
 {
@@ -1221,8 +1286,6 @@ config
 .
 ConfigBuilder
 (
-logger
-                              
 ports
 =
 {
@@ -1332,8 +1395,6 @@ config
 .
 ConfigBuilder
 (
-logger
-                              
 ports
 =
 {
@@ -1408,8 +1469,6 @@ config
 .
 ConfigBuilder
 (
-logger
-                              
 ports
 =
 {
@@ -1543,8 +1602,6 @@ config
 .
 ConfigBuilder
 (
-logger
-                              
 ports
 =
 {
@@ -1688,7 +1745,6 @@ config
 .
 ConfigBuilder
 (
-logger
 doc_root
 =
 "
@@ -1720,7 +1776,6 @@ config
 .
 ConfigBuilder
 (
-logger
 )
     
 cb
@@ -1757,7 +1812,6 @@ config
 .
 ConfigBuilder
 (
-logger
 browser_host
 =
 "
@@ -1792,7 +1846,6 @@ config
 .
 ConfigBuilder
 (
-logger
 server_host
 =
 "
@@ -1838,7 +1891,6 @@ config
 .
 ConfigBuilder
 (
-logger
 )
     
 cb
@@ -1885,8 +1937,6 @@ config
 .
 ConfigBuilder
 (
-logger
-                              
 browser_host
 =
 "
@@ -2036,8 +2086,6 @@ config
 .
 ConfigBuilder
 (
-logger
-                              
 browser_host
 =
 "
@@ -2173,8 +2221,6 @@ config
 .
 ConfigBuilder
 (
-logger
-                              
 browser_host
 =
 "
@@ -2344,8 +2390,6 @@ config
 .
 ConfigBuilder
 (
-logger
-                              
 browser_host
 =
 "
@@ -2547,8 +2591,6 @@ config
 .
 ConfigBuilder
 (
-logger
-                              
 browser_host
 =
 "
@@ -2665,8 +2707,6 @@ config
 .
 ConfigBuilder
 (
-logger
-                              
 browser_host
 =
 "
@@ -2771,8 +2811,6 @@ config
 .
 ConfigBuilder
 (
-logger
-                              
 browser_host
 =
 "
@@ -2921,7 +2959,6 @@ config
 .
 ConfigBuilder
 (
-logger
 ssl
 =
 {
@@ -2971,7 +3008,6 @@ config
 .
 ConfigBuilder
 (
-logger
 ssl
 =
 {
@@ -2998,7 +3034,6 @@ config
 .
 ConfigBuilder
 (
-logger
 )
 as
 c

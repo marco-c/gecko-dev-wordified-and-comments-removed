@@ -12,12 +12,6 @@ import
 defaultdict
 namedtuple
 from
-typing
-import
-Dict
-List
-Tuple
-from
 mozlog
 import
 structuredlog
@@ -1005,8 +999,6 @@ __init__
 (
 self
 max_bits
-:
-int
 =
 8
 )
@@ -1022,23 +1014,6 @@ max_idx
 max_bits
 -
 2
-        
-self
-.
-_data
-:
-Tuple
-[
-List
-[
-object
-]
-Dict
-[
-int
-object
-]
-]
         
 self
 .
