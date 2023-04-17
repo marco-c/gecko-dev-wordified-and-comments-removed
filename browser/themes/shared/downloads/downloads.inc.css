@@ -409,6 +409,14 @@ display
 :
 flex
 ;
+margin
+-
+top
+:
+1
+.
+5em
+;
 }
 .
 downloadBlockedBadge
@@ -1858,7 +1866,7 @@ calc
 (
 100
 %
-/
+*
 var
 (
 -
@@ -1926,7 +1934,9 @@ margin
 -
 bottom
 :
-1em
+0
+.
+5em
 ;
 opacity
 :
