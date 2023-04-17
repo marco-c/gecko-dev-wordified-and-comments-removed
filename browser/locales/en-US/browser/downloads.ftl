@@ -955,8 +955,8 @@ history
 label
 =
 Show
-All
-Downloads
+all
+downloads
 .
 accesskey
 =
