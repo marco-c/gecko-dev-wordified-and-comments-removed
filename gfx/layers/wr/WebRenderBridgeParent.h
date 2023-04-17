@@ -1687,13 +1687,6 @@ ByteBuf
 &
 &
 aDLCache
-ipc
-:
-:
-ByteBuf
-&
-&
-aSpatialTreeDL
 const
 wr
 :
