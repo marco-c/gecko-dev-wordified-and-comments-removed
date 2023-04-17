@@ -66,6 +66,10 @@ div
 div
 >
 ;
+ignoreGetGridsPromiseRejections
+(
+)
+;
 add_task
 (
 async
