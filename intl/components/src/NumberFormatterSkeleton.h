@@ -14,6 +14,17 @@ include
 "
 mozilla
 /
+intl
+/
+NumberFormat
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Vector
 .
 h
@@ -33,9 +44,6 @@ mozilla
 namespace
 intl
 {
-struct
-NumberFormatOptions
-;
 class
 MOZ_STACK_CLASS
 NumberFormatterSkeleton
