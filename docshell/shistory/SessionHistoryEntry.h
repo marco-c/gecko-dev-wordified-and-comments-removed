@@ -972,6 +972,12 @@ mLoadingCurrentActiveEntry
 =
 false
 ;
+Maybe
+<
+bool
+>
+mForceMaybeResetName
+;
 }
 ;
 class

@@ -705,6 +705,13 @@ singleChannelId
 )
 ;
 async
+SetDocumentDomain
+(
+nsIURI
+aDomain
+)
+;
+async
 Destroy
 (
 )
