@@ -440,17 +440,6 @@ setEmptyElements
 ;
 MOZ_ASSERT
 (
-!
-clasp
--
->
-hasPrivate
-(
-)
-)
-;
-MOZ_ASSERT
-(
 shape
 -
 >
