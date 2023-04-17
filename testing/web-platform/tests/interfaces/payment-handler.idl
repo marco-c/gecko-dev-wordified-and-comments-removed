@@ -374,11 +374,6 @@ PaymentDetailsModifier
 >
 modifiers
 ;
-readonly
-attribute
-DOMString
-instrumentKey
-;
 Promise
 <
 WindowClient
@@ -447,9 +442,6 @@ sequence
 PaymentDetailsModifier
 >
 modifiers
-;
-DOMString
-instrumentKey
 ;
 }
 ;

@@ -458,9 +458,6 @@ origin
 boolean
 crossOrigin
 ;
-TokenBinding
-tokenBinding
-;
 }
 ;
 dictionary

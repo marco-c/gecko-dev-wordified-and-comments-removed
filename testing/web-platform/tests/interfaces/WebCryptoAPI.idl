@@ -176,6 +176,7 @@ Exposed
 Window
 Worker
 )
+Serializable
 ]
 interface
 CryptoKey

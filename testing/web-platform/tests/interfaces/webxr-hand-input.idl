@@ -66,6 +66,9 @@ partial
 interface
 XRInputSource
 {
+[
+SameObject
+]
 readonly
 attribute
 XRHand
