@@ -115,6 +115,11 @@ SharedWebrtcState
 )
 SharedWebrtcState
 (
+RefPtr
+<
+AbstractThread
+>
+aCallWorkerThread
 webrtc
 :
 :
@@ -145,6 +150,13 @@ GetModuleThread
 )
 ;
 const
+RefPtr
+<
+AbstractThread
+>
+mCallWorkerThread
+;
+const
 webrtc
 :
 :
@@ -171,8 +183,6 @@ virtual
 SharedWebrtcState
 (
 )
-=
-default
 ;
 rtc
 :
