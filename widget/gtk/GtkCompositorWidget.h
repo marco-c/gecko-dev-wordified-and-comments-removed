@@ -424,6 +424,16 @@ aShaped
 ;
 #
 endif
+#
+ifdef
+MOZ_LOGGING
+bool
+IsPopup
+(
+)
+;
+#
+endif
 protected
 :
 RefPtr
@@ -474,7 +484,10 @@ mNativeLayerRoot
 ;
 #
 endif
+Atomic
+<
 bool
+>
 mIsRenderingSuspended
 ;
 }
