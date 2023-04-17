@@ -245,9 +245,6 @@ stride
 width
 *
 4
-rows
-:
-height
 }
 ;
 let
