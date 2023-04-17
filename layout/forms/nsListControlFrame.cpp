@@ -1026,7 +1026,7 @@ color
 LookAndFeel
 :
 :
-Color
+GetColor
 (
 lastItemIsSelected
 ?
@@ -1045,7 +1045,6 @@ ColorID
 :
 :
 WidgetSelectBackground
-this
 )
 ;
 nsCSSRendering
