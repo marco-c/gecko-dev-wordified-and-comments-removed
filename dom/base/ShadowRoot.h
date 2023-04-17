@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+DOMEventTargetHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 DocumentBinding
@@ -590,6 +599,11 @@ PartRemoved
 const
 Element
 &
+)
+;
+IMPL_EVENT_HANDLER
+(
+slotchange
 )
 ;
 const

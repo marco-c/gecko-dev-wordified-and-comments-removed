@@ -253,6 +253,10 @@ attribute
 Element
 host
 ;
+attribute
+EventHandler
+onslotchange
+;
 Element
 ?
 getElementById

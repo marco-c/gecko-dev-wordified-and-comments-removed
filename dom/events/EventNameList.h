@@ -841,6 +841,13 @@ eBasicEventClass
 )
 EVENT
 (
+slotchange
+eSlotChange
+EventNameType_All
+eBasicEventClass
+)
+EVENT
+(
 stalled
 eStalled
 EventNameType_HTML
