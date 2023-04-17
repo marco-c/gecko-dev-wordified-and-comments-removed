@@ -131,6 +131,11 @@ artifact
 mode
 -
 -
+prewarm
+-
+avd
+-
+-
 avd
 -
 manifest
