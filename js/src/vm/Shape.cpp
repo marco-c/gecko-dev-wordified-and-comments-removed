@@ -5473,9 +5473,9 @@ hasSlot
 obj
 -
 >
-freeSlot
+freeDictionarySlot
 (
-cx
+table
 shape
 -
 >
