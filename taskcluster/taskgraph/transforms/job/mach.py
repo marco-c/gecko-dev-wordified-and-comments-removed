@@ -120,6 +120,17 @@ workdir
 )
 :
 str
+        
+Optional
+(
+"
+command
+-
+context
+"
+)
+:
+dict
     
 }
 )
