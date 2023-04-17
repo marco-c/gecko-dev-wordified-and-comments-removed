@@ -1752,6 +1752,9 @@ grayscale
 )
 ;
 }
+#
+BMB_bookmarksPopup
+menupopup
 .
 cui
 -
@@ -2500,6 +2503,10 @@ arrowpanel
 -
 background
 )
+;
+font
+:
+menu
 ;
 }
 #
