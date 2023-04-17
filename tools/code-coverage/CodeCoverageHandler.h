@@ -72,6 +72,11 @@ static
 void
 FlushCounters
 (
+const
+bool
+initialized
+=
+false
 )
 ;
 static
