@@ -233,6 +233,11 @@ true
 void
 StartCompositing
 (
+wr
+:
+:
+ColorF
+aClearColor
 const
 wr
 :
