@@ -72,6 +72,15 @@ nsHttpResponseHead
 h
 "
 #
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
 define
 NS_MULTIMIXEDCONVERTER_CID
 \
@@ -243,6 +252,9 @@ nsIStreamListener
 >
 mListener
 ;
+mozilla
+:
+:
 UniquePtr
 <
 mozilla
