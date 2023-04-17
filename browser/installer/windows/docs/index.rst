@@ -160,7 +160,7 @@ installer
 .
 We
 build
-four
+three
 different
 kinds
 of
@@ -183,6 +183,7 @@ Installer
 <
 FullInstaller
 >
+and
 an
 :
 doc
@@ -197,16 +198,6 @@ wraps
 the
 full
 installer
-and
-an
-:
-doc
-:
-MSIX
-package
-<
-MSIX
->
 .
 The
 stub
@@ -219,6 +210,7 @@ for
 most
 individual
 users
+and
 the
 full
 installer
@@ -235,19 +227,6 @@ who
 need
 more
 control
-and
-the
-MSIX
-is
-aimed
-at
-enterprise
-users
-who
-need
-to
-control
-deployment
 .
 There
 '
@@ -312,5 +291,4 @@ InstallerBuild
 StubInstaller
 FullInstaller
 MSI
-MSIX
 Helper
