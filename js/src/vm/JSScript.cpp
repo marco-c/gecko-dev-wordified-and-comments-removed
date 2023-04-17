@@ -13107,6 +13107,15 @@ runtime
 ;
 if
 (
+hadCompressionTask_
+)
+{
+return
+true
+;
+}
+if
+(
 !
 hasUncompressedSource
 (
