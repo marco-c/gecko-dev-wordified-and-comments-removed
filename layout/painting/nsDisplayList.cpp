@@ -40492,7 +40492,6 @@ mFrame
 mBounds
 borderArea
 aBuilder
-nullptr
 aHandleOpacity
 imgParams
 )
@@ -40921,7 +40920,6 @@ aCtx
 )
 borderArea
 aBuilder
-nullptr
 false
 imgParams
 )
@@ -43221,7 +43219,6 @@ mFrame
 mVisibleRect
 borderArea
 aBuilder
-nullptr
 false
 imgParams
 )
