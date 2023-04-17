@@ -343,6 +343,7 @@ function
 "
 )
 {
+await
 this
 .
 attach

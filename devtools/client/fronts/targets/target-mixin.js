@@ -1877,6 +1877,19 @@ if
 isAttached
 )
 {
+if
+(
+!
+this
+.
+getTrait
+(
+"
+supportsThreadConfigurationOptions
+"
+)
+)
+{
 await
 this
 .
@@ -1887,6 +1900,7 @@ reconfigure
 options
 )
 ;
+}
 return
 this
 .
