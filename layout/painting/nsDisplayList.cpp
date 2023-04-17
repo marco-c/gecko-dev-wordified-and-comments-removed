@@ -32084,6 +32084,15 @@ SurfaceFormat
 B8G8R8A8
 )
 ;
+if
+(
+!
+dt
+)
+{
+return
+;
+}
 dt
 -
 >
