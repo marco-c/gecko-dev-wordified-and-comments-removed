@@ -604,6 +604,17 @@ include
 "
 vm
 /
+ObjectFlags
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 PlainObject
 -
 inl
