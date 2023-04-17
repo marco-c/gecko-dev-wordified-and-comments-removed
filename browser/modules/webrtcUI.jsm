@@ -3311,13 +3311,13 @@ host
 =
 addonPolicy
 ?
-addonPolicy
 .
 name
-:
+?
+?
 uri
 .
-host
+hostPort
 ;
 }
 catch
