@@ -313,6 +313,17 @@ mozilla
 /
 reject
 -
+addtask
+-
+only
+eslint
+-
+plugin
+-
+mozilla
+/
+reject
+-
 chromeutils
 -
 import
