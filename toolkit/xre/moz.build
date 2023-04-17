@@ -507,15 +507,6 @@ nsNativeAppSupportUnix
 cpp
 "
 ]
-CXXFLAGS
-+
-=
-CONFIG
-[
-"
-MOZ_X11_SM_CFLAGS
-"
-]
 else
 :
 UNIFIED_SOURCES
