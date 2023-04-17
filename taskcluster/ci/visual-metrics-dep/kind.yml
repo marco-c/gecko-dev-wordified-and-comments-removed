@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -76,7 +76,7 @@ test
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -84,7 +84,7 @@ name_sanity
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -92,7 +92,7 @@ visual_metrics_dep
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -100,7 +100,7 @@ job
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .

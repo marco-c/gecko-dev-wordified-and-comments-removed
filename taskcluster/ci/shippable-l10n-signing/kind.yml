@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -75,7 +75,7 @@ locales
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -83,7 +83,7 @@ name_sanity
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -91,7 +91,7 @@ upstream_artifact_task
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -99,7 +99,7 @@ shippable_l10n_signing
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -107,7 +107,7 @@ signing
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .

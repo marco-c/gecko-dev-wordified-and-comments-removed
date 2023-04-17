@@ -231,7 +231,7 @@ in
 /
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /

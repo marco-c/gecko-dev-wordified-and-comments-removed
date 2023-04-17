@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -88,7 +88,7 @@ opt
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -96,7 +96,7 @@ name_sanity
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -104,7 +104,7 @@ fxrecord
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .

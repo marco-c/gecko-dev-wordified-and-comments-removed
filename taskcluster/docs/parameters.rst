@@ -856,7 +856,7 @@ functions
 from
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 filter_tasks
 .
@@ -900,7 +900,7 @@ functions
 in
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 target_tasks
 .

@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -86,7 +86,7 @@ config
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -94,7 +94,7 @@ release_deps
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -102,7 +102,7 @@ final_verify
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -110,7 +110,7 @@ job
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .

@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -68,7 +68,7 @@ loader
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -76,7 +76,7 @@ chunk_partners
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -84,7 +84,7 @@ name_sanity
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -92,7 +92,7 @@ beetmover_repackage_partner
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .

@@ -144,7 +144,7 @@ instance
 in
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 optimization
 .

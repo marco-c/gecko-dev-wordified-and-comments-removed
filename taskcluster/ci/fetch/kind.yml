@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -68,7 +68,7 @@ loader
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -76,7 +76,7 @@ fetch
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -84,7 +84,7 @@ try_job
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -92,7 +92,7 @@ job
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .

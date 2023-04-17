@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -74,7 +74,7 @@ packages
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -82,7 +82,7 @@ docker_image
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -90,7 +90,7 @@ cached_tasks
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .

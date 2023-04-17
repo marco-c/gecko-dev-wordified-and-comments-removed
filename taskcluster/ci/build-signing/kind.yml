@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -73,7 +73,7 @@ platform
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -81,7 +81,7 @@ name_sanity
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -89,7 +89,7 @@ upstream_artifact_task
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -97,7 +97,7 @@ build_signing
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -105,7 +105,7 @@ signing
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .

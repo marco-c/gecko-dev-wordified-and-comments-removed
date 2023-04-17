@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -84,7 +84,7 @@ toolchain
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -92,7 +92,7 @@ tests
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -100,7 +100,7 @@ job
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -155,7 +155,7 @@ in
 #
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /

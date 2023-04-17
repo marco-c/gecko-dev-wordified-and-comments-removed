@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -75,7 +75,7 @@ locale
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -83,7 +83,7 @@ name_sanity
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -91,7 +91,7 @@ beetmover_repackage_l10n
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -99,7 +99,7 @@ beetmover_repackage
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -319,7 +319,7 @@ esr
 :
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 manifests
 /
@@ -330,7 +330,7 @@ default
 :
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 manifests
 /

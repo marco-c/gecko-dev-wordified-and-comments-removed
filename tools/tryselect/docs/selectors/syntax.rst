@@ -374,7 +374,7 @@ source
 /
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 try_option_syntax
 .

@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -68,7 +68,7 @@ loader
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -76,7 +76,7 @@ release_deps
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -84,7 +84,7 @@ scriptworker
 :
 add_balrog_scopes
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -92,7 +92,7 @@ balrog_toplevel
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .

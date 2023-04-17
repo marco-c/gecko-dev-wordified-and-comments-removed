@@ -71,7 +71,7 @@ download_task_history_data
 make_trimmed_taskgraph_cache
 )
 from
-taskgraph
+gecko_taskgraph
 .
 target_tasks
 import

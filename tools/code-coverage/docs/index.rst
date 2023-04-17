@@ -1347,7 +1347,7 @@ the
 file
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /
@@ -1371,7 +1371,7 @@ source
 /
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /

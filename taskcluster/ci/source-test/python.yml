@@ -254,7 +254,7 @@ description
 :
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 unit
 tests
 python
@@ -1852,7 +1852,7 @@ description
 :
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 unit
 tests
 python
@@ -1973,7 +1973,7 @@ test
 '
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /

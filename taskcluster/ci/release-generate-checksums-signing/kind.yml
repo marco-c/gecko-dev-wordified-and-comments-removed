@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -78,7 +78,7 @@ checksums
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -86,7 +86,7 @@ release_generate_checksums_signing
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .

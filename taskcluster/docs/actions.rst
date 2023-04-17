@@ -388,7 +388,7 @@ a
 file
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 actions
 /

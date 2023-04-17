@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -78,7 +78,7 @@ dummy
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -86,7 +86,7 @@ bouncer_locations
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -94,7 +94,7 @@ release
 :
 run_on_releases
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -102,7 +102,7 @@ release_deps
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .

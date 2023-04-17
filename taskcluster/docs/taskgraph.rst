@@ -2038,7 +2038,7 @@ inline
 in
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 config
 .
@@ -2060,7 +2060,7 @@ source
 /
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 config
 .

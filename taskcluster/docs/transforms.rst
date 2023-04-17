@@ -833,7 +833,7 @@ schema
 in
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /
@@ -1080,7 +1080,7 @@ located
 in
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /
@@ -1238,7 +1238,7 @@ transforms
 in
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /
@@ -1515,7 +1515,7 @@ transforms
 in
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /
@@ -1660,7 +1660,7 @@ source
 under
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 .

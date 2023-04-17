@@ -43,7 +43,7 @@ optimize_strategies
 "
 :
 "
-taskgraph
+gecko_taskgraph
 .
 optimize
 :
@@ -133,7 +133,7 @@ optimize_strategies
 "
 :
 "
-taskgraph
+gecko_taskgraph
 .
 optimize
 :
@@ -234,7 +234,7 @@ optimize_strategies
 "
 :
 "
-taskgraph
+gecko_taskgraph
 .
 optimize
 :

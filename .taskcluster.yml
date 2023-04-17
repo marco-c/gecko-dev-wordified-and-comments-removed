@@ -205,7 +205,7 @@ See
 *
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 actions
 /

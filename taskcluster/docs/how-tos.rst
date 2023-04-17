@@ -718,7 +718,7 @@ is
 in
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /
@@ -873,7 +873,7 @@ is
 in
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /
@@ -1560,7 +1560,7 @@ documented
 in
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /
@@ -1631,7 +1631,7 @@ defined
 in
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 loader
 /
@@ -1939,7 +1939,7 @@ file
 in
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /

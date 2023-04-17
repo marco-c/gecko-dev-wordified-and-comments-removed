@@ -85,7 +85,7 @@ next_version
 null
 optimize_strategies
 :
-taskgraph
+gecko_taskgraph
 .
 optimize
 :

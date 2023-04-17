@@ -38,7 +38,7 @@ tasks
 import
 generate_tasks
 from
-taskgraph
+gecko_taskgraph
 .
 target_tasks
 import

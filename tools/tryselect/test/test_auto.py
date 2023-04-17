@@ -53,7 +53,7 @@ strategy
 =
 =
 "
-taskgraph
+gecko_taskgraph
 .
 optimize
 :
@@ -76,7 +76,7 @@ parse_args
 strategy
 "
 "
-taskgraph
+gecko_taskgraph
 .
 optimize
 :
@@ -95,7 +95,7 @@ strategy
 =
 =
 "
-taskgraph
+gecko_taskgraph
 .
 optimize
 :
@@ -124,7 +124,7 @@ parse_args
 strategy
 "
 "
-taskgraph
+gecko_taskgraph
 .
 optimize
 :

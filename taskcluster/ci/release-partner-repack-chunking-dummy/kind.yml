@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -68,7 +68,7 @@ loader
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -76,7 +76,7 @@ chunk_partners
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -122,7 +122,7 @@ we
 set
 .
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -173,7 +173,7 @@ work
 )
 .
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -181,7 +181,7 @@ strip_dependent_task
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -189,7 +189,7 @@ release_deps
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .

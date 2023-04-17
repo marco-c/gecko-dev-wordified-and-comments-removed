@@ -3,13 +3,13 @@ sys
 import
 requests
 from
-taskgraph
+gecko_taskgraph
 .
 parameters
 import
 Parameters
 from
-taskgraph
+gecko_taskgraph
 .
 util
 .
@@ -19,7 +19,7 @@ find_task_id
 get_artifact
 get_session
 from
-taskgraph
+gecko_taskgraph
 .
 util
 .

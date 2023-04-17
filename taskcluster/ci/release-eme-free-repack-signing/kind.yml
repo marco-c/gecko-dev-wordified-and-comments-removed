@@ -58,7 +58,7 @@ MPL
 -
 loader
 :
-taskgraph
+gecko_taskgraph
 .
 loader
 .
@@ -77,7 +77,7 @@ ids
 transforms
 :
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -85,7 +85,7 @@ chunk_partners
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -93,7 +93,7 @@ partner_signing
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
@@ -101,7 +101,7 @@ signing
 :
 transforms
 -
-taskgraph
+gecko_taskgraph
 .
 transforms
 .

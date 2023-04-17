@@ -1622,7 +1622,7 @@ source
 /
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 actions
 /
@@ -1670,7 +1670,7 @@ path
 =
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 util
 /

@@ -19,7 +19,7 @@ auto
 import
 TRY_AUTO_PARAMETERS
 from
-taskgraph
+gecko_taskgraph
 .
 util
 .
@@ -27,7 +27,7 @@ bugbug
 import
 push_schedules
 from
-taskgraph
+gecko_taskgraph
 .
 util
 .

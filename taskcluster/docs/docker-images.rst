@@ -1452,7 +1452,7 @@ and
 in
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /
@@ -1521,7 +1521,7 @@ hash
 in
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 transforms
 /
