@@ -228,6 +228,7 @@ FirstExecution
 UninitializedLexical
 IonExceptionDebugMode
 OnStackInvalidation
+Unreachable
 Limit
 }
 ;
@@ -431,6 +432,17 @@ OnStackInvalidation
 return
 "
 OnStackInvalidation
+"
+;
+case
+BailoutKind
+:
+:
+Unreachable
+:
+return
+"
+Unreachable
 "
 ;
 case
