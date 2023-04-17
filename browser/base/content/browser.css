@@ -1780,6 +1780,19 @@ buttons
 *
 /
 }
+media
+(
+prefers
+-
+reduced
+-
+motion
+:
+no
+-
+preference
+)
+{
 #
 tabbrowser
 -
@@ -1848,6 +1861,7 @@ easing
 function
 )
 ;
+}
 }
 .
 tabbrowser
