@@ -97,12 +97,8 @@ frontend
 .
 context
 import
-(
-    
 ObjDirPath
-    
 SourcePath
-)
 from
 mozpack
 .
@@ -680,19 +676,15 @@ status
 __slots__
 =
 (
-        
 "
 input_path
 "
-        
 "
 output_path
 "
-        
 "
 relpath
 "
-    
 )
     
 def
@@ -1049,15 +1041,12 @@ compiled
 __slots__
 =
 (
-        
 "
 name
 "
-        
 "
 idl_files
 "
-    
 )
     
 def
@@ -2925,23 +2914,18 @@ program
 DICT_ATTRS
 =
 {
-        
 "
 install_target
 "
-        
 "
 KIND
 "
-        
 "
 program
 "
-        
 "
 relobjdir
 "
-    
 }
     
 def
@@ -3652,19 +3636,15 @@ ContextDerived
 __slots__
 =
 (
-        
 "
 names
 "
-        
 "
 features
 "
-        
 "
 output_category
 "
-    
 )
     
 def
@@ -3729,23 +3709,18 @@ libraries
 __slots__
 =
 (
-        
 "
 basename
 "
-        
 "
 lib_name
 "
-        
 "
 import_name
 "
-        
 "
 refs
 "
-    
 )
     
 def
@@ -3963,15 +3938,12 @@ library
 __slots__
 =
 (
-        
 "
 link_into
 "
-        
 "
 no_expand_lib
 "
-    
 )
     
 def
@@ -4079,18 +4051,20 @@ config
 substs
 [
 "
-OS_TARGET
+WASM_CC
 "
 ]
-in
-(
+and
+context
+.
+config
+.
+substs
+[
 "
-Linux
+WASM_CXX
 "
-"
-Darwin
-"
-)
+]
         
 self
 .
@@ -5709,15 +5683,12 @@ files
 __slots__
 =
 (
-        
 "
 file_name
 "
-        
 "
 flags
 "
-    
 )
     
 def
@@ -5880,15 +5851,12 @@ build
 __slots__
 =
 (
-        
 "
 files
 "
-        
 "
 canonical_suffix
 "
-    
 )
     
 def
@@ -7482,15 +7450,12 @@ entry
 __slots__
 =
 (
-        
 "
 path
 "
-        
 "
 entry
 "
-    
 )
     
 def
