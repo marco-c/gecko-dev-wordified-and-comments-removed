@@ -264,6 +264,14 @@ int32_t
 aEndOffset
 )
 ;
+Accessible
+*
+LinkAt
+(
+uint32_t
+aIndex
+)
+;
 protected
 :
 virtual
