@@ -32397,6 +32397,11 @@ SetHasBSizeChange
 false
 )
 ;
+SetHasPaddingChange
+(
+false
+)
+;
 if
 (
 aReflowInput
