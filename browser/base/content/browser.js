@@ -25384,11 +25384,10 @@ aBrowser
 }
 gBrowser
 .
-readNotificationBox
+getNotificationBox
 (
 aBrowser
 )
-?
 .
 removeTransientNotifications
 (
