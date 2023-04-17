@@ -29,6 +29,14 @@ Node
 C
 +
 +
+#
+define
+NS_ACCESSIBLE_CACHE_TOPIC
+"
+accessible
+-
+cache
+"
 namespace
 mozilla
 {
