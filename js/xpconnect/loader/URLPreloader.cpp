@@ -59,6 +59,15 @@ include
 "
 mozilla
 /
+IOBuffers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h
@@ -2410,6 +2419,10 @@ readType
 if
 (
 mStartupFinished
+|
+|
+!
+mReaderInitialized
 )
 {
 URLEntry
