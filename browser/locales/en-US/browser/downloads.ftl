@@ -135,14 +135,14 @@ downloads
 -
 panel
 -
-list
+items
 =
 .
 style
 =
 width
 :
-70ch
+35em
 downloads
 -
 cmd
