@@ -199,7 +199,7 @@ exists
 try
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -298,7 +298,7 @@ el
 try
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -458,7 +458,7 @@ await
 checkContainer
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1628,7 +1628,7 @@ testPermissionPopupGeoContainer
 false
 false
 )
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
