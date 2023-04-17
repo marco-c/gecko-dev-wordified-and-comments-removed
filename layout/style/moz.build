@@ -1596,8 +1596,10 @@ CONFIGURE_SUBST_FILES
 =
 [
 "
+extra
+-
 bindgen
-.
-toml
+-
+flags
 "
 ]
