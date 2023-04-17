@@ -751,6 +751,9 @@ nsILoadInfo
 :
 CrossOriginEmbedderPolicy
 aLoadingEmbedderPolicy
+nsIURI
+*
+aUnstrippedURI
 )
 ;
 LoadInfo
@@ -1279,6 +1282,12 @@ nsILoadInfo
 :
 :
 EMBEDDER_POLICY_NULL
+;
+nsCOMPtr
+<
+nsIURI
+>
+mUnstrippedURI
 ;
 }
 ;

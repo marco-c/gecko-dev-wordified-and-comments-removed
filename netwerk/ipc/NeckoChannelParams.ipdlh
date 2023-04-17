@@ -471,6 +471,9 @@ isMetaRefresh
 CrossOriginEmbedderPolicy
 loadingEmbedderPolicy
 ;
+nsIURI
+unstrippedURI
+;
 }
 ;
 struct
@@ -534,6 +537,9 @@ isThirdPartyContextToTopWindow
 ;
 bool
 isInThirdPartyContext
+;
+nsIURI
+unstrippedURI
 ;
 }
 ;
