@@ -221,6 +221,11 @@ this
 #
 privateVar
 ;
+const
+self
+=
+this
+;
 debugger
 ;
 }
