@@ -250,6 +250,13 @@ RawServoCounterStyleRule
 >
 ;
 template
+struct
+StyleStrong
+<
+RawServoScrollTimelineRule
+>
+;
+template
 <
 typename
 T

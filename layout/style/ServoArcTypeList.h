@@ -40,6 +40,11 @@ RawServoKeyframesRule
 )
 SERVO_ARC_TYPE
 (
+ScrollTimelineRule
+RawServoScrollTimelineRule
+)
+SERVO_ARC_TYPE
+(
 LayerRule
 RawServoLayerRule
 )
