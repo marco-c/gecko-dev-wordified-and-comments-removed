@@ -12754,6 +12754,15 @@ key
 in
 api_keys
 {
+if
+key
+!
+=
+ImageKey
+:
+:
+DUMMY
+{
 resource_cache
 .
 request_image
@@ -12771,6 +12780,7 @@ None
 gpu_cache
 )
 ;
+}
 }
 self
 .
