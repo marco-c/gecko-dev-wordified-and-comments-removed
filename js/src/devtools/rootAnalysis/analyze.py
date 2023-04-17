@@ -586,41 +586,41 @@ JOBS
 =
 {
     
-'
+"
 dbs
-'
+"
 :
 {
         
-'
+"
 command
-'
+"
 :
 [
             
-'
+"
 {
 analysis_scriptdir
 }
 /
 run_complete
-'
+"
             
-'
+"
 -
 -
 foreground
-'
+"
             
-'
+"
 -
 -
 no
 -
 logs
-'
+"
             
-'
+"
 -
 -
 build
@@ -630,9 +630,9 @@ root
 {
 objdir
 }
-'
+"
             
-'
+"
 -
 -
 wrap
@@ -646,9 +646,9 @@ sixgill
 scripts
 /
 wrap_gcc
-'
+"
             
-'
+"
 -
 -
 work
@@ -656,19 +656,20 @@ work
 dir
 =
 work
-'
+"
             
-'
+"
 -
 b
-'
-'
+"
+            
+"
 {
 sixgill_bin
 }
-'
+"
             
-'
+"
 -
 -
 buildcommand
@@ -676,66 +677,64 @@ buildcommand
 {
 buildcommand
 }
-'
+"
             
-'
+"
 .
-'
+"
         
 ]
         
-'
+"
 outputs
-'
+"
 :
 [
 ]
     
 }
     
-'
+"
 list
 -
 dbs
-'
+"
 :
 {
-        
-'
+"
 command
-'
+"
 :
 [
-'
+"
 ls
-'
-'
+"
+"
 -
 l
-'
+"
 ]
-    
 }
     
-'
+"
 rawcalls
-'
+"
 :
 {
         
-'
+"
 command
-'
+"
 :
 [
             
-'
+"
 {
 js
 }
-'
+"
             
-'
+"
 {
 analysis_scriptdir
 }
@@ -743,48 +742,49 @@ analysis_scriptdir
 computeCallgraph
 .
 js
-'
+"
             
-'
+"
 {
 typeInfo
 }
-'
+"
             
 Output
 (
-'
+"
 rawcalls
-'
+"
 )
             
-'
+"
 {
 i
 }
-'
-'
+"
+            
+"
 {
 n
 }
-'
+"
         
 ]
         
-'
+"
 multi
 -
 output
-'
+"
 :
 True
         
-'
+"
 outputs
-'
+"
 :
 [
-'
+"
 rawcalls
 .
 {
@@ -796,29 +796,30 @@ of
 {
 n
 }
-'
+"
 ]
     
 }
     
-'
+"
 gcFunctions
-'
+"
 :
 {
         
-'
+"
 command
-'
+"
 :
 [
             
-'
+"
 {
 js
 }
-'
-'
+"
+            
+"
 {
 analysis_scriptdir
 }
@@ -826,117 +827,119 @@ analysis_scriptdir
 computeGCFunctions
 .
 js
-'
+"
+            
 MultiInput
 (
-'
+"
 {
 rawcalls
 }
-'
+"
 )
             
-'
+"
 -
 -
 outputs
-'
+"
             
 Output
 (
-'
+"
 callgraph
-'
+"
 )
             
 Output
 (
-'
+"
 gcFunctions
-'
+"
 )
             
 Output
 (
-'
+"
 gcFunctions_list
-'
+"
 )
             
 Output
 (
-'
+"
 gcEdges
-'
+"
 )
             
 Output
 (
-'
+"
 limitedFunctions_list
-'
+"
 )
         
 ]
         
-'
+"
 outputs
-'
+"
 :
 [
             
-'
+"
 callgraph
 .
 txt
-'
+"
             
-'
+"
 gcFunctions
 .
 txt
-'
+"
             
-'
+"
 gcFunctions
 .
 lst
-'
+"
             
-'
+"
 gcEdges
 .
 txt
-'
+"
             
-'
+"
 limitedFunctions
 .
 lst
-'
+"
         
 ]
     
 }
     
-'
+"
 gcTypes
-'
+"
 :
 {
         
-'
+"
 command
-'
+"
 :
 [
             
-'
+"
 {
 js
 }
-'
-'
+"
+            
+"
 {
 analysis_scriptdir
 }
@@ -944,100 +947,101 @@ analysis_scriptdir
 computeGCTypes
 .
 js
-'
+"
             
 Output
 (
-'
+"
 gcTypes
-'
+"
 )
+            
 Output
 (
-'
+"
 typeInfo
-'
+"
 )
         
 ]
         
-'
+"
 outputs
-'
+"
 :
 [
-'
+"
 gcTypes
 .
 txt
-'
-'
+"
+"
 typeInfo
 .
 txt
-'
+"
 ]
     
 }
     
-'
+"
 allFunctions
-'
+"
 :
 {
         
-'
+"
 command
-'
+"
 :
 [
-'
+"
 {
 sixgill_bin
 }
 /
 xdbkeys
-'
-'
+"
+"
 src_body
 .
 xdb
-'
+"
 ]
         
-'
+"
 redirect
 -
 output
-'
+"
 :
-'
+"
 allFunctions
 .
 txt
-'
+"
     
 }
     
-'
+"
 hazards
-'
+"
 :
 {
         
-'
+"
 command
-'
+"
 :
 [
             
-'
+"
 {
 js
 }
-'
+"
             
-'
+"
 {
 analysis_scriptdir
 }
@@ -1045,50 +1049,51 @@ analysis_scriptdir
 analyzeRoots
 .
 js
-'
+"
             
-'
+"
 {
 gcFunctions_list
 }
-'
+"
             
-'
+"
 {
 gcEdges
 }
-'
+"
             
-'
+"
 {
 limitedFunctions_list
 }
-'
+"
             
-'
+"
 {
 gcTypes
 }
-'
+"
             
-'
+"
 {
 typeInfo
 }
-'
+"
             
-'
+"
 {
 i
 }
-'
-'
+"
+            
+"
 {
 n
 }
-'
+"
             
-'
+"
 tmp
 .
 {
@@ -1100,25 +1105,25 @@ of
 {
 n
 }
-'
+"
         
 ]
         
-'
+"
 multi
 -
 output
-'
+"
 :
 True
         
-'
+"
 redirect
 -
 output
-'
+"
 :
-'
+"
 rootingHazards
 .
 {
@@ -1130,59 +1135,59 @@ of
 {
 n
 }
-'
+"
     
 }
     
-'
+"
 gather
 -
 hazards
-'
+"
 :
 {
         
-'
+"
 command
-'
+"
 :
 [
-'
+"
 cat
-'
+"
 MultiInput
 (
-'
+"
 {
 hazards
 }
-'
+"
 )
 ]
         
-'
+"
 redirect
 -
 output
-'
+"
 :
-'
+"
 rootingHazards
 .
 txt
-'
+"
     
 }
     
-'
+"
 explain
-'
+"
 :
 {
         
-'
+"
 command
-'
+"
 :
 [
             
@@ -1190,7 +1195,7 @@ sys
 .
 executable
             
-'
+"
 {
 analysis_scriptdir
 }
@@ -1198,84 +1203,86 @@ analysis_scriptdir
 explain
 .
 py
-'
+"
             
-'
+"
 {
 gather
 -
 hazards
 }
-'
+"
             
-'
+"
 {
 gcFunctions
 }
-'
+"
             
 Output
 (
-'
+"
 explained_hazards
-'
+"
 )
+            
 Output
 (
-'
+"
 unnecessary
-'
+"
 )
+            
 Output
 (
-'
+"
 refs
-'
+"
 )
         
 ]
         
-'
+"
 outputs
-'
+"
 :
 [
-'
+"
 hazards
 .
 txt
-'
-'
+"
+"
 unnecessary
 .
 txt
-'
-'
+"
+"
 refs
 .
 txt
-'
+"
 ]
     
 }
     
-'
+"
 heapwrites
-'
+"
 :
 {
         
-'
+"
 command
-'
+"
 :
 [
-'
+"
 {
 js
 }
-'
-'
+"
+"
 {
 analysis_scriptdir
 }
@@ -1283,20 +1290,20 @@ analysis_scriptdir
 analyzeHeapWrites
 .
 js
-'
+"
 ]
         
-'
+"
 redirect
 -
 output
-'
+"
 :
-'
+"
 heapWriteHazards
 .
 txt
-'
+"
     
 }
 }
