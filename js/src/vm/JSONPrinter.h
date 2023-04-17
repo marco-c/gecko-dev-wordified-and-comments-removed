@@ -240,6 +240,12 @@ defined
 (
 __OpenBSD__
 )
+|
+|
+defined
+(
+__wasi__
+)
 void
 property
 (
