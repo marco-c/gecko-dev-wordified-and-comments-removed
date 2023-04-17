@@ -5501,13 +5501,15 @@ currentPoint
 pointToInsert
 )
 ;
+const
 bool
-isPRE
+isWhiteSpaceCollapsible
 =
+!
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 pointToInsert
@@ -5572,7 +5574,8 @@ pointToInsert
 ;
 if
 (
-isPRE
+!
+isWhiteSpaceCollapsible
 |
 |
 IsInPlaintextMode
@@ -10510,7 +10513,7 @@ IsCharASCIISpaceOrNBSP
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 precedingCharPoint
@@ -10569,7 +10572,7 @@ IsCharASCIISpaceOrNBSP
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 followingCharPoint
@@ -29029,7 +29032,7 @@ IsText
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 nextEditableContent

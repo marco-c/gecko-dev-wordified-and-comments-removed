@@ -5093,8 +5093,9 @@ aContent
 }
 static
 bool
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
+const
 nsIContent
 &
 aContent
