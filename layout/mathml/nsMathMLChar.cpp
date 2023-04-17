@@ -2313,7 +2313,7 @@ GetFirstValidFont
 )
 -
 >
-GetGlyphHAdvance
+GetGlyphAdvance
 (
 aGlyph
 .

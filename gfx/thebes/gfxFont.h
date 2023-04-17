@@ -5668,10 +5668,14 @@ return
 ;
 }
 gfxFloat
-GetGlyphHAdvance
+GetGlyphAdvance
 (
 uint16_t
 aGID
+bool
+aVertical
+=
+false
 )
 ;
 gfxFloat
@@ -5679,6 +5683,10 @@ GetCharAdvance
 (
 uint32_t
 aUnicode
+bool
+aVertical
+=
+false
 )
 ;
 gfxFloat
