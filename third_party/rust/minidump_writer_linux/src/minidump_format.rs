@@ -599,6 +599,13 @@ pub
 elf_hwcaps
 :
 u32
+_padding
+:
+[
+u32
+;
+4
+]
 }
 #
 [
@@ -636,6 +643,13 @@ cpuid
 :
 [
 u64
+;
+2
+]
+_padding
+:
+[
+u32
 ;
 2
 ]

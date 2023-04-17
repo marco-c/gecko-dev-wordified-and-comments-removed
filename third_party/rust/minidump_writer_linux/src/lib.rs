@@ -21,10 +21,6 @@ auxv_reader
 ;
 pub
 mod
-cpu_set
-;
-pub
-mod
 crash_context
 ;
 mod
