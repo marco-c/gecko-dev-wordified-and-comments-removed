@@ -544,7 +544,9 @@ right
 labeled
 *
 *
-Publish
+Upload
+Local
+Profile
 *
 *
 which
@@ -567,7 +569,7 @@ link
 Before
 uploading
 the
-publish
+Upload
 button
 asks
 you
