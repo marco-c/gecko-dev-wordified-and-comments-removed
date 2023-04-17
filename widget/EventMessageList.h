@@ -1043,6 +1043,10 @@ eVisibilityChange
 )
 NS_EVENT_MESSAGE
 (
+eSecurityPolicyViolation
+)
+NS_EVENT_MESSAGE
+(
 eToggle
 )
 NS_EVENT_MESSAGE

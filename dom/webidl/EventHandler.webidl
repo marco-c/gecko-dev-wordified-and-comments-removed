@@ -501,6 +501,10 @@ onscroll
 ;
 attribute
 EventHandler
+onsecuritypolicyviolation
+;
+attribute
+EventHandler
 onseeked
 ;
 attribute
