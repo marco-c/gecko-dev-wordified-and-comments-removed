@@ -343,7 +343,6 @@ TrackUpdate
 aUpdate
 )
 ;
-virtual
 void
 AppendMessage
 (
