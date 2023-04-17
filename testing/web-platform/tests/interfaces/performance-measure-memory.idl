@@ -124,6 +124,13 @@ interface
 Performance
 {
 [
+Exposed
+=
+(
+Window
+ServiceWorker
+SharedWorker
+)
 CrossOriginIsolated
 ]
 Promise

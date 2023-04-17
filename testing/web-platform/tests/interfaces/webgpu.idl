@@ -75,7 +75,7 @@ Exposed
 Window
 ]
 interface
-GPUAdapterLimits
+GPUSupportedLimits
 {
 readonly
 attribute
@@ -304,7 +304,7 @@ SameObject
 ]
 readonly
 attribute
-GPUAdapterLimits
+GPUSupportedLimits
 limits
 ;
 Promise
@@ -410,9 +410,12 @@ attribute
 GPUSupportedFeatures
 features
 ;
+[
+SameObject
+]
 readonly
 attribute
-object
+GPUSupportedLimits
 limits
 ;
 [
@@ -3800,6 +3803,9 @@ compositingAlphaMode
 "
 opaque
 "
+;
+GPUExtent3D
+size
 ;
 }
 ;
