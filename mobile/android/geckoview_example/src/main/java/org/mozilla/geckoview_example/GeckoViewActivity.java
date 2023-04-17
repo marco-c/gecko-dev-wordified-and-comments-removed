@@ -2202,6 +2202,18 @@ text
 {
 if
 (
+text
+.
+startsWith
+(
+"
+data
+:
+"
+)
+|
+|
+(
 (
 text
 .
@@ -2231,6 +2243,7 @@ contains
 (
 "
 "
+)
 )
 )
 {
